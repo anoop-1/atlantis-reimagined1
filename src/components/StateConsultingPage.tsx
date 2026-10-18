@@ -87,7 +87,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "California's diverse industrial base — aerospace, refining, power generation, and infrastructure — creates sustained demand for NDT Level III consulting. CalOSHA and CARB regulations add state-specific inspection requirements beyond federal standards.",
     regulatoryNotes: "California Division of Occupational Safety and Health (CalOSHA) enforces stricter inspection requirements than federal OSHA. CARB (California Air Resources Board) regulations require additional inspection for emission control equipment.",
-    trainingInfo: "Atlantis NDT provides on-site and virtual NDT training for California-based teams. ASNT Level I-III certification for all major methods, with aerospace NAS-410 specialization available for Southern California defense contractors.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for California teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "louisiana": {
     name: "Louisiana", abbreviation: "LA", slug: "louisiana",
@@ -115,7 +115,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Louisiana ranks among the top 5 states for NDT demand, driven by its concentration of petrochemical manufacturing, LNG export capacity, and Gulf of Mexico offshore operations.",
     regulatoryNotes: "Louisiana follows OSHA and EPA standards, with additional state requirements through the Louisiana Department of Environmental Quality (LDEQ) and Office of Conservation for pipeline and well integrity.",
-    trainingInfo: "Atlantis NDT offers onsite NDT training at your facility in New Orleans and across Louisiana, plus live-virtual courses for Louisiana-based teams. ASNT SNT-TC-1A certification training for all methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Louisiana teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "ohio": {
     name: "Ohio", abbreviation: "OH", slug: "ohio",
@@ -143,7 +143,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Ohio's manufacturing base and energy infrastructure create steady demand for NDT Level III consulting, particularly in steel manufacturing, automotive, and power generation sectors.",
     regulatoryNotes: "Ohio follows ASME and OSHA federal standards. The Public Utilities Commission of Ohio (PUCO) oversees pipeline safety and integrity inspection requirements.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Ohio manufacturers and inspection companies. ASNT Level I-III certification across all methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Ohio teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "pennsylvania": {
     name: "Pennsylvania", abbreviation: "PA", slug: "pennsylvania",
@@ -169,7 +169,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Pennsylvania's unique combination of nuclear power, refining, steel manufacturing, and natural gas production creates diverse NDT consulting demand across multiple codes and standards.",
     regulatoryNotes: "Pennsylvania DEP oversees environmental compliance, while NRC regulations govern nuclear facility inspections. PHMSA pipeline safety regulations apply to Marcellus Shale gathering and transmission lines.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site training for Pennsylvania teams. ASNT SNT-TC-1A certification and nuclear NDE qualification courses available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Pennsylvania teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "colorado": {
     name: "Colorado", abbreviation: "CO", slug: "colorado",
@@ -196,7 +196,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Colorado's diverse economy spans oil & gas extraction, aerospace manufacturing, and renewable energy — all requiring specialized NDT Level III consulting for different codes and applications.",
     regulatoryNotes: "Colorado Oil and Gas Conservation Commission (COGCC) enforces strict well integrity and pipeline inspection requirements. CDPHE adds environmental monitoring for emissions equipment.",
-    trainingInfo: "Atlantis NDT provides NDT training in Denver and virtual courses for Colorado-based teams. ASNT Level I-III certification for all methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Colorado teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "michigan": {
     name: "Michigan", abbreviation: "MI", slug: "michigan",
@@ -222,7 +222,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Michigan's automotive and manufacturing base creates unique NDT demand — production-line NDT for castings, forgings, and welds at automotive speeds alongside traditional infrastructure inspection.",
     regulatoryNotes: "Michigan follows federal OSHA and NRC standards. MDEQ oversees environmental compliance for manufacturing emissions equipment. Automotive OEMs impose additional supplier quality requirements.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Michigan manufacturers. ASNT certification plus CQI-9 heat treat and automotive quality NDT courses.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Michigan teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "illinois": {
     name: "Illinois", abbreviation: "IL", slug: "illinois",
@@ -247,7 +247,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Illinois' status as the #1 nuclear power state in the US drives significant ASME Section XI NDE demand. Combined with refining, manufacturing, and infrastructure, the state requires diverse Level III expertise.",
     regulatoryNotes: "Illinois EPA and NRC regulations govern nuclear and industrial inspection. Illinois Commerce Commission oversees pipeline safety. Chicago building codes add structural weld inspection requirements.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Illinois teams. ASNT Level I-III certification with nuclear NDE qualification specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Illinois teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "new-york": {
     name: "New York", abbreviation: "NY", slug: "new-york",
@@ -273,7 +273,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New York's massive infrastructure maintenance needs and aerospace manufacturing create high-value NDT consulting demand, particularly for bridge, tunnel, and building structural inspection programs.",
     regulatoryNotes: "NYCDOB enforces strict structural weld inspection requirements. NYSDOT bridge inspection follows FHWA NBIS standards. Port Authority has its own inspection specifications.",
-    trainingInfo: "Atlantis NDT provides virtual training for New York-based teams. ASNT SNT-TC-1A Level I-III training, including VT for structural weld inspectors.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for New York teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "florida": {
     name: "Florida", abbreviation: "FL", slug: "florida",
@@ -301,7 +301,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Florida's aerospace and space industry drives specialized NDT demand for launch vehicle components, satellite structures, and ground support equipment. Nuclear, marine, and mining add diverse requirements.",
     regulatoryNotes: "Florida Building Code requires structural weld inspection. FDEP governs environmental compliance for mining and industrial operations. NRC regulates nuclear facilities.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site training for Florida teams. Aerospace NAS-410 specialization and nuclear NDE qualification available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Florida teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "washington": {
     name: "Washington", abbreviation: "WA", slug: "washington",
@@ -326,7 +326,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Washington combines world-class aerospace manufacturing (Boeing Everett) with the largest nuclear decommissioning project (Hanford), creating uniquely diverse NDT consulting demand.",
     regulatoryNotes: "Washington L&I enforces state-specific boiler and pressure vessel inspection. WDOE oversees Hanford cleanup. Boeing and Navy impose contractor-specific NDE requirements.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site training for Washington teams. NAS-410 aerospace specialization and nuclear NDE qualification for Hanford contractors.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Washington teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "georgia": {
     name: "Georgia", abbreviation: "GA", slug: "georgia",
@@ -352,7 +352,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Georgia's Vogtle nuclear expansion and growing manufacturing base create increasing NDT demand, particularly for nuclear NDE qualification and production quality NDT.",
     regulatoryNotes: "Georgia follows NRC regulations for nuclear and OSHA standards for general industry. Georgia DOT bridge inspection follows FHWA NBIS standards.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site training for Georgia teams. Nuclear NDE qualification and ASNT Level I-III certification available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Georgia teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "new-jersey": {
     name: "New Jersey", abbreviation: "NJ", slug: "new-jersey",
@@ -377,7 +377,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New Jersey's dense concentration of refining, pharmaceutical, and nuclear facilities creates high-value NDT consulting demand in a compact geographic area.",
     regulatoryNotes: "NJDEP enforces strict environmental inspection requirements. New Jersey has its own boiler and pressure vessel inspection code. NJDOT bridge standards apply.",
-    trainingInfo: "Atlantis NDT provides virtual training for New Jersey teams. ASNT Level I-III certification courses.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for New Jersey teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "north-carolina": {
     name: "North Carolina", abbreviation: "NC", slug: "north-carolina",
@@ -403,7 +403,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "North Carolina's nuclear fleet, growing aerospace sector, and military installations create sustained NDT consulting demand across multiple industry codes.",
     regulatoryNotes: "North Carolina follows NRC and OSHA standards. NCDOT bridge inspection program and state boiler inspection code apply.",
-    trainingInfo: "Atlantis NDT offers virtual training for North Carolina teams. Nuclear NDE qualification and ASNT Level I-III certification.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for North Carolina teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "virginia": {
     name: "Virginia", abbreviation: "VA", slug: "virginia",
@@ -429,7 +429,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Virginia's naval shipbuilding and defense industries create specialized NDT demand for nuclear submarine and aircraft carrier construction, requiring the highest level of NDE qualification.",
     regulatoryNotes: "Naval nuclear propulsion follows NAVSEA technical publications. ASME NQA-1 quality assurance applies. NRC regulations govern commercial nuclear stations.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site training for Virginia teams. Naval NDE qualification and ASNT Level I-III certification.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Virginia teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "tennessee": {
     name: "Tennessee", abbreviation: "TN", slug: "tennessee",
@@ -456,7 +456,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Tennessee's TVA nuclear fleet and DOE national laboratories create high-value NDT consulting demand for nuclear NDE qualification and security-cleared inspection programs.",
     regulatoryNotes: "TVA follows NRC regulations and internal nuclear quality programs. DOE imposes additional security and quality requirements for Oak Ridge and Y-12 facilities.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site training for Tennessee teams. Nuclear NDE qualification and ASNT Level I-III certification.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Tennessee teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "alabama": {
     name: "Alabama", abbreviation: "AL", slug: "alabama",
@@ -483,7 +483,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Alabama's aerospace cluster in Huntsville and shipbuilding in Mobile create specialized NDT demand for space launch components, aircraft structures, and naval vessel construction.",
     regulatoryNotes: "Alabama follows NRC, NASA, and DoD inspection requirements. Airbus imposes EN/ISO NDT standards at the Mobile facility.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site training for Alabama teams. NAS-410 aerospace and naval NDE qualification available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Alabama teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "oklahoma": {
     name: "Oklahoma", abbreviation: "OK", slug: "oklahoma",
@@ -509,7 +509,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Oklahoma's convergence of oil & gas extraction, pipeline infrastructure, aerospace MRO, and wind energy creates broad NDT consulting demand across multiple industry codes.",
     regulatoryNotes: "Oklahoma Corporation Commission regulates oil & gas and pipeline operations. PHMSA pipeline integrity requirements apply to the Cushing hub and transmission lines.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site training for Oklahoma teams. ASNT Level I-III certification training.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Oklahoma teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "minnesota": {
     name: "Minnesota", abbreviation: "MN", slug: "minnesota",
@@ -534,7 +534,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Minnesota's manufacturing diversity — from 3M adhesives to Medtronic medical devices to Enbridge pipelines — creates specialized NDT consulting demand across unique industry applications.",
     regulatoryNotes: "Minnesota follows NRC and OSHA standards. Minnesota PUC oversees pipeline safety. Medical device NDT follows FDA 21 CFR quality system requirements.",
-    trainingInfo: "Atlantis NDT offers virtual training for Minnesota teams. ASNT Level I-III certification and specialized manufacturing NDT courses.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Minnesota teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "wisconsin": {
     name: "Wisconsin", abbreviation: "WI", slug: "wisconsin",
@@ -559,7 +559,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Wisconsin's heavy manufacturing, naval shipbuilding, and paper/pulp industries create specialized NDT demand for castings, forgings, weld inspection, and recovery boiler integrity.",
     regulatoryNotes: "Wisconsin follows OSHA and NRC standards. State boiler code and WDNR environmental requirements apply. Navy imposes NAVSEA specifications for Marinette Marine.",
-    trainingInfo: "Atlantis NDT offers virtual training for Wisconsin teams. ASNT Level I-III certification and manufacturing NDT specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Wisconsin teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "arkansas": {
     name: "Arkansas", abbreviation: "AR", slug: "arkansas",
@@ -588,7 +588,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Arkansas combines an operating nuclear plant, a rapidly expanding missile manufacturer, one of the world's largest structural steel mills, and an active refinery — a genuine, diverse base for ASME, API, and defense-grade NDT consulting.",
     regulatoryNotes: "The Arkansas Department of Labor and Licensing's Boiler Inspection Division oversees pressure equipment. Arkansas has no state OSHA plan, so private-sector workplaces fall under federal OSHA; the NRC regulates Arkansas Nuclear One.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Arkansas teams. ASNT Level I-III certification across all major methods for refinery and pipeline personnel.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Arkansas teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "connecticut": {
     name: "Connecticut", abbreviation: "CT", slug: "connecticut",
@@ -617,7 +617,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Connecticut hosts three tier-1 defense/aerospace primes — jet engines, helicopters, and nuclear submarines — plus an operating nuclear plant, all running active multi-year production backlogs that require sustained weld, casting, forging, and in-service NDT.",
     regulatoryNotes: "Connecticut DEEP oversees environmental compliance, and the Office of State Building Inspector administers the state boiler and pressure vessel program. CONN-OSHA covers public-sector employees only; private industry falls under federal OSHA. NRC regulates Millstone.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Connecticut teams. ASNT Level I-III certification plus NAS-410 aerospace and naval NDE qualification pathways.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Connecticut teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "delaware": {
     name: "Delaware", abbreviation: "DE", slug: "delaware",
@@ -645,7 +645,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Delaware's industrial base is smaller than neighboring states, but the Delaware City Refinery is a genuine large-scale anchor, complemented by Chemours' chemical HQ/R&D presence and active port infrastructure — enough for a real, honestly modest NDT consulting case.",
     regulatoryNotes: "DNREC administers the state's Boiler Safety Program alongside air and environmental permitting. Delaware has no state OSHA plan, so private-sector workplaces fall under federal OSHA.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Delaware teams. ASNT Level I-III certification for refinery personnel.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Delaware teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "hawaii": {
     name: "Hawaii", abbreviation: "HI", slug: "hawaii",
@@ -673,7 +673,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Hawaii's NDT demand is real but narrow — concentrated almost entirely in Pearl Harbor Naval Shipyard's submarine maintenance program and a single refinery. This is a legitimate, if geographically concentrated, base for Level III consulting focused on military and marine infrastructure inspection.",
     regulatoryNotes: "Hawaii operates its own OSHA-approved state plan (HIOSH), unusual among the 18 states covered here. The Hawaii Department of Health governs environmental compliance for industrial and refining operations.",
-    trainingInfo: "Atlantis NDT provides virtual NDT training for Hawaii-based teams, with on-site engagements scheduled around Oahu deployments. ASNT Level I-III certification across all major methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Hawaii teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "idaho": {
     name: "Idaho", abbreviation: "ID", slug: "idaho",
@@ -700,7 +700,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Idaho's industrial base is thinner than most states on this list — no nuclear power generation, shipbuilding, or major refining — but Micron's fast-growing fab construction, Idaho National Laboratory's nuclear research mission, and phosphate/food processing together support a real, if modest, NDT consulting case.",
     regulatoryNotes: "Idaho DEQ governs environmental and industrial source permitting. Idaho repealed its state boiler inspection requirement in 2010, leaving inspection largely insurance-driven; the state has no OSHA state plan, so federal OSHA applies.",
-    trainingInfo: "Atlantis NDT offers virtual training for Idaho-based teams, with on-site sessions available for Boise and Idaho Falls. ASNT Level I-III certification across all major methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Idaho teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "iowa": {
     name: "Iowa", abbreviation: "IA", slug: "iowa",
@@ -729,7 +729,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Iowa's NDT demand is solid and diversifying — a reopened wind-blade plant, a major agricultural equipment manufacturer, the nation's top wind-generation profile, and a multi-year nuclear restart program all point to sustained need, provided Duane Arnold is honestly framed as restarting rather than currently operating.",
     regulatoryNotes: "Iowa DNR governs environmental compliance, while the Iowa Division of Labor's Boiler and Pressure Vessel program (Iowa Code Chapter 89) administers a state inspection program. The NRC will resume regulating Duane Arnold once relicensed.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Iowa teams. ASNT Level I-III certification for all methods, with manufacturing and pressure equipment specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Iowa teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "kansas": {
     name: "Kansas", abbreviation: "KS", slug: "kansas",
@@ -758,7 +758,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Kansas is a genuinely multi-anchor state — aerospace structures, general aviation manufacturing, nuclear power, and refining are all actively growing, driving robust demand for airframe, weld, and pressure-vessel NDT consulting.",
     regulatoryNotes: "The Kansas Department of Health and Environment (KDHE) and Kansas Corporation Commission regulate environmental and pipeline compliance respectively. The NRC regulates Wolf Creek, and PHMSA governs interstate pipeline integrity.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Kansas teams. NAS-410 aerospace specialization and ASNT Level I-III certification for all methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Kansas teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "maine": {
     name: "Maine", abbreviation: "ME", slug: "maine",
@@ -786,7 +786,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Maine's real strength is its shipbuilding cluster — Bath Iron Works and Portsmouth Naval Shipyard together drive strong, sustained demand for hull and weld inspection. The paper sector remains a real but structurally declining secondary market.",
     regulatoryNotes: "Maine DEP governs environmental compliance, and the NRC continues to regulate the Maine Yankee ISFSI. NAVSEA technical standards apply to naval shipbuilding work at Bath Iron Works and Portsmouth.",
-    trainingInfo: "Atlantis NDT provides virtual NDT training for Maine-based teams, with on-site sessions available around Bath and the Seacoast region. ASNT Level I-III certification and naval NDE qualification pathways.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Maine teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "mississippi": {
     name: "Mississippi", abbreviation: "MS", slug: "mississippi",
@@ -814,7 +814,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Mississippi's Gulf Coast cluster — shipbuilding, refining, petrochemical, and nuclear power all concentrated around Pascagoula, plus NASA's premier rocket test site — creates genuinely strong and diverse NDT consulting demand.",
     regulatoryNotes: "The Mississippi Department of Environmental Quality (MDEQ) oversees industrial compliance. The NRC regulates Grand Gulf, the US Coast Guard has jurisdiction over shipyard operations, and NASA quality standards apply at Stennis.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Mississippi Gulf Coast teams. Naval NDE qualification and ASNT Level I-III certification available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Mississippi Gulf Coast teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "nebraska": {
     name: "Nebraska", abbreviation: "NE", slug: "nebraska",
@@ -842,7 +842,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Nebraska's classic-NDT industrial base is thinner than many states on this list — no aerospace, shipbuilding, or refining — but a real operating nuclear plant, an active steel mill, and large agricultural processing operations support an honest, modest consulting case.",
     regulatoryNotes: "The Nebraska Department of Water, Energy and Environment (DWEE, formerly NDEE) governs environmental compliance. Nebraska has no state OSHA plan, so federal OSHA applies; the NRC regulates Cooper Nuclear Station.",
-    trainingInfo: "Atlantis NDT provides virtual NDT training for Nebraska-based teams. ASNT Level I-III certification for all major methods, with pressure vessel and manufacturing NDT specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Nebraska teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "nevada": {
     name: "Nevada", abbreviation: "NV", slug: "nevada",
@@ -870,7 +870,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Nevada has no meaningful oil refining, but two genuinely strong pillars — large-scale battery/EV manufacturing at the Gigafactory and the largest gold mining complex in the US — drive real demand for structural, pressure-vessel, and precision manufacturing NDT.",
     regulatoryNotes: "The Nevada Division of Environmental Protection (NDEP) and Nevada Division of Minerals oversee industrial and mining compliance; MSHA regulates mine safety. Nevada has no commercial nuclear power plant.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Nevada teams. ASNT Level I-III certification with mining and manufacturing NDT specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Nevada teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "new-hampshire": {
     name: "New Hampshire", abbreviation: "NH", slug: "new-hampshire",
@@ -898,7 +898,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New Hampshire's industrial base is narrower than most states on this list, but Seabrook Station and BAE Systems' Trusted Foundry in Nashua are genuine, verifiable anchors — the Portsmouth Naval Shipyard connection is a real workforce story, not an in-state facility claim.",
     regulatoryNotes: "The New Hampshire Department of Environmental Services (NH DES) governs environmental compliance, and the NRC regulates Seabrook Station. New Hampshire has no state OSHA plan for private industry.",
-    trainingInfo: "Atlantis NDT provides virtual NDT training for New Hampshire-based teams. ASNT Level I-III certification and nuclear NDE qualification pathways.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for New Hampshire teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "new-mexico": {
     name: "New Mexico", abbreviation: "NM", slug: "new-mexico",
@@ -927,7 +927,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New Mexico is one of the strongest states on this list — a nuclear weapons research complex, the nation's only operating deep-geologic nuclear waste repository, and heavy Permian Basin oil, gas, and refining infrastructure together generate substantial, verifiable NDT demand.",
     regulatoryNotes: "The New Mexico Environment Department and the Oil Conservation Division (under EMNRD) regulate industrial and oil & gas compliance. DOE/NNSA security and quality standards apply at the national laboratories and WIPP.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for New Mexico teams. ASNT Level I-III certification and security-cleared inspection program support.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for New Mexico teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "rhode-island": {
     name: "Rhode Island", abbreviation: "RI", slug: "rhode-island",
@@ -955,7 +955,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Rhode Island's NDT demand is deep but narrow — nearly all of it concentrates around submarine manufacturing and undersea warfare R&D, with a growing offshore wind component. It is a real, high-value market rather than a broadly diversified one.",
     regulatoryNotes: "The Rhode Island Department of Environmental Management (RI DEM) oversees industrial compliance. NAVSEA quality and weld standards govern Electric Boat and NUWC work; Rhode Island has no commercial nuclear power plant.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Rhode Island teams. Naval NDE qualification and ASNT Level I-III certification available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Rhode Island teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "south-carolina": {
     name: "South Carolina", abbreviation: "SC", slug: "south-carolina",
@@ -984,7 +984,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "South Carolina is one of the strongest and most diversified states on this list — aerospace assembly, one of the densest nuclear/DOE clusters in the country, and the world's largest BMW plant together drive substantial, varied NDT consulting demand.",
     regulatoryNotes: "SC DHEC governs environmental compliance, and the SC LLR Boiler and Pressure Vessel Board administers the state inspection program. The NRC regulates the state's nuclear fleet, and the FAA oversees aerospace quality requirements.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for South Carolina teams. NAS-410 aerospace specialization, nuclear NDE qualification, and ASNT Level I-III certification available.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for South Carolina teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "south-dakota": {
     name: "South Dakota", abbreviation: "SD", slug: "south-dakota",
@@ -1012,7 +1012,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "South Dakota is genuinely thinner industrially than most states on this list — no nuclear power, refining, or shipbuilding — but Ellsworth AFB's B-21 buildout, active gold mining, and large-scale food processing support a real, modestly scoped NDT consulting case.",
     regulatoryNotes: "The South Dakota Department of Agriculture and Natural Resources (DANR) and the state Department of Labor's boiler inspection program govern industrial compliance; MSHA regulates mine safety, and USAF standards apply at Ellsworth.",
-    trainingInfo: "Atlantis NDT provides virtual NDT training for South Dakota-based teams. ASNT Level I-III certification across all major methods.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for South Dakota teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "vermont": {
     name: "Vermont", abbreviation: "VT", slug: "vermont",
@@ -1040,7 +1040,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Vermont's industrial base is smaller and more niche than most states on this list — a major semiconductor fab, a finishing nuclear decommissioning project, and an emerging aerospace/eVTOL cluster support a real but modestly scoped Level III consulting presence.",
     regulatoryNotes: "The Vermont Agency of Natural Resources governs environmental compliance, and the Vermont Nuclear Decommissioning Citizens Advisory Panel (NDCAP) oversees the Vermont Yankee project alongside continuing NRC jurisdiction.",
-    trainingInfo: "Atlantis NDT offers virtual NDT training for Vermont-based teams. ASNT Level I-III certification with semiconductor and aerospace manufacturing NDT specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Vermont teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "west-virginia": {
     name: "West Virginia", abbreviation: "WV", slug: "west-virginia",
@@ -1068,7 +1068,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "West Virginia's active petrochemical corridor, record-setting shale gas production, and modernizing steel capacity together generate real, verifiable demand for pipeline, pressure vessel, and structural weld NDT consulting.",
     regulatoryNotes: "The West Virginia Department of Environmental Protection (WV DEP) and the WV Division of Labor's Boiler Inspection Program govern industrial compliance, alongside PHMSA pipeline integrity requirements for the state's extensive gas gathering and transmission network.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for West Virginia teams. ASNT Level I-III certification with pipeline and chemical process NDT specialization.",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for West Virginia teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
 };
 
@@ -1085,12 +1085,12 @@ const defaultStateData: Omit<StateData, 'name' | 'abbreviation' | 'slug' | 'meta
   keyFacts: [
     { label: "NDT Methods", value: "6 Major" },
     { label: "ASNT Levels", value: "I, II, III" },
-    { label: "Pass Rate", value: "95%" },
-    { label: "Experience", value: "50+ L3 Experts" },
+    { label: "Level III", value: "ASNT NDT Level III" },
+    { label: "First reply", value: "Within one business day" },
   ],
   ndtDemand: "This state's industrial base creates ongoing demand for NDT Level III consulting and certified inspection programs.",
   regulatoryNotes: "Follows ASME, API, AWS, and OSHA federal standards for inspection and testing.",
-  trainingInfo: "Atlantis NDT provides virtual and on-site NDT training. ASNT Level I-III certification for all methods.",
+  trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Your company certifies its technicians under its written practice.",
 };
 
 // ── Component ───────────────────────────────────────────────────────────────
@@ -1114,9 +1114,9 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
 
   const faqs = [
     { q: `What NDT consulting services does Atlantis NDT provide in ${state.name}?`, a: `Atlantis NDT provides comprehensive ASNT Level III consulting in ${state.name}: NDT procedure development, program audits, SNT-TC-1A written practices, personnel qualification oversight, technique validation, and independent technical review. We serve oil & gas, aerospace, nuclear, manufacturing, and power generation industries across ${state.name}.` },
-    { q: `Does Atlantis NDT offer NDT training in ${state.name}?`, a: `Yes. ${data.trainingInfo} Virtual instructor-led courses are available for all ${state.name} locations.` },
+    { q: `Does Atlantis NDT offer NDT training in ${state.name}?`, a: `Yes. ${data.trainingInfo}` },
     { q: `What ASNT certifications does Atlantis NDT support in ${state.name}?`, a: `We support ASNT Level I, II, and III certification across all 6 major NDT methods: Ultrasonic Testing (UT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Eddy Current Testing (ET), and Visual Testing (VT). Advanced methods including PAUT, TOFD, and guided wave also available.` },
-    { q: `How quickly can Atlantis NDT deploy consultants to ${state.name}?`, a: `Every engagement starts with a scoping call with an ASNT NDT Level III. Document work (procedures, written practices, report review) can begin remotely once scope is agreed, and onsite visits anywhere in ${state.name} are scheduled after that call to suit your project. For planned engagements, 1-2 weeks of notice makes scheduling easiest.` },
+    { q: `How quickly can Atlantis NDT deploy consultants to ${state.name}?`, a: `Every engagement starts with a scoping call with an ASNT NDT Level III. Document work (procedures, written practices, report review) can begin remotely once scope is agreed, and onsite visits anywhere in ${state.name} are scheduled after that call to suit your project.` },
   ];
 
   const canonical = `https://atlantisndt.com/ndt-consulting-${state.slug}`;
