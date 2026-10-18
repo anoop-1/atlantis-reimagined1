@@ -629,7 +629,7 @@ export const TERM_FACTS = {
   },
   'astm-e165': {
     // 2026-10-18: designation and edition checked on the ASTM store (E165/E165M-23, Standard Practice for
-    // Liquid Penetrant Testing for General Industry, last updated 1 Aug 2023); visible FAQ added (schema from it).
+    // Liquid Penetrant Testing for General Industry, last updated 1 Aug 2023). Its visible FAQ lives in glossary.json `definition`, which both layers render.
     principle:
       'The ASTM standard practice for liquid penetrant testing for general industry (current edition E165/E165M-23), describing how the examination is performed: surface preparation, penetrant application and dwell, excess removal, developer application and evaluation.',
     practice:
@@ -637,12 +637,6 @@ export const TERM_FACTS = {
     codes: 'ASTM E165/E165M; ASTM E1417/E1417M for aerospace and other high-sensitivity work; ASME Section V, which adopts it as SE-165, with Article 6 for ASME code work.',
     pitfall:
       'Quoting it as an acceptance standard in a report. Doing so leaves the acceptance basis undefined, which is a finding at audit.',
-    faq: [
-      { q: 'Is ASTM E165 a test method or a practice?', a: 'A practice. ASTM titles the current edition, E165/E165M-23, Standard Practice for Liquid Penetrant Testing for General Industry. A practice describes how the examination is performed; it does not set acceptance criteria, which come from the code or specification that invokes it.' },
-      { q: 'What is the current edition of ASTM E165?', a: 'E165/E165M-23, listed on the ASTM store with a last update of 1 August 2023. Cite the designation with its year in procedures and purchase orders, because a referencing code or contract may still invoke an earlier edition.' },
-      { q: 'What is the difference between ASTM E165 and E1417?', a: 'E165 is the general-industry practice for liquid penetrant testing. E1417 is the ASTM practice used principally for aerospace and other high-criticality work, with tighter process controls and system checks. Which one applies is set by the customer specification or the referencing code.' },
-      { q: 'Does ASTM E165 include acceptance criteria?', a: 'No. E165 sets how the examination is done and recorded. The acceptance criteria come from the referencing code or specification, for example the ASME construction code for work examined to ASME Section V Article 6.' },
-    ],
   },
   'astm-e1417': {
     principle:

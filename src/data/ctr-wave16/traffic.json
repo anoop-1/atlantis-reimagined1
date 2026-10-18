@@ -39,5 +39,25 @@
   "/standards/astm-e165": {
     "title": "Applying ASTM E165: PT Procedure, Records and Audit Checks",
     "description": "How ASTM E165 is applied in a PT programme: the written procedure, process controls, records an auditor checks, and the findings that recur."
+  },
+  "/blog/mt-vs-pt-comparison": {
+    "title": "MT vs PT: Magnetic Particle vs Penetrant Testing (Table)",
+    "description": "MT vs PT side by side: materials, surface vs near-surface flaws, ASTM and ASME Section V references, prep and dwell, speed, and when a code picks each."
+  },
+  "/blog/rt-vs-ut-weld-inspection": {
+    "title": "RT vs UT Weld Inspection: Choose by Flaw, Thickness, Code",
+    "description": "RT vs UT for weld inspection: volumetric vs planar flaws, thickness limits, access, records and radiation zones, with the ASME and AWS D1.1 routes."
+  },
+  "/blog/shear-wave-ut-for-thick-section-inspection": {
+    "title": "Shear Wave NDT: Angle Beam UT Explained for Weld Inspection",
+    "description": "Shear wave NDT explained: how angle beam UT turns sound into a transverse wave, angle and skip distance, calibration blocks, and where shear waves fail."
+  },
+  "/blog/compression-wave-vs-shear-wave-technical-differences": {
+    "title": "Compression vs Shear Wave UT: Differences That Matter",
+    "description": "Compression vs shear waves in UT: particle motion, velocity and wavelength in steel, mode conversion, critical angles, and which mode a procedure uses."
+  },
+  "/blog/reference-standards-and-block-calibration-in-ut": {
+    "title": "UT Calibration Blocks and Reference Standards Explained",
+    "description": "UT calibration and reference blocks: IIW-type, ASME Section V side-drilled-hole and ASTM E127/E428 blocks, DAC, transfer correction and the checks."
   }
 }

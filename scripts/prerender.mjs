@@ -83,6 +83,7 @@ import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
+import { applyTrafficRoute, assertTrafficClean, trafficStats } from './traffic-2026-10-18.mjs'; // 2026-10-18 traffic workstream: FAQPage from visible Q&A on the pages it fixed
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
 import { AUTHOR_PROFILE_HTML, AUTHOR_BREADCRUMB } from './author-entity.mjs'; // author entity upgrade 2026-10-04
@@ -14170,6 +14171,7 @@ assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no p
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55
 assertRankWave14Clean(BUILT_PATHS); // 2026-10-17 §58: answer lengths, no prices/turnaround promises, link targets built
+assertTrafficClean(BUILT_PATHS); // 2026-10-18 traffic: FAQ-rebuild paths are built pages
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14380,6 +14382,7 @@ routes.forEach(route => {
     route = applyCourseNextStepRoute(route); // 2026-10-12: course next step after the first answer and before </main>
     route = applyOwnerLinksRoute(route); // 2026-10-12 owner links: owner paragraph after the intro, softened title/H1, DT city template (last body writer)
     route = applyRankWave14Route(route); // 2026-10-17 §58: top-of-page direct answers + routing lines + salary notes + city-scoped consulting titles (after owner links)
+    route = applyTrafficRoute(route); // 2026-10-18 traffic: FAQPage rebuilt from the visible Q&A on its fixed pages (last schema writer)
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14413,6 +14416,7 @@ console.log(`🎯 Owner links 2026-10-12: ${JSON.stringify(ownerLinkStats)}`);
 console.log(trainingReleaseStats());
 console.log(`🎓 Training upgrade 2026-10-16: ${JSON.stringify(trainingUpgradeStats)}`);
 console.log(`🏁 Ranking release 2026-10-17: ${JSON.stringify(rank14Stats)}`);
+console.log(`🧭 Traffic 2026-10-18 (FAQ from visible Q&A): ${JSON.stringify(trafficStats)}`);
 assertTrainingGeoHonesty(); // 2026-10-16 geo honesty: fails the build on implied presence, intakes or an Atlantis exam centre (recorded per route in applyTrainingReleaseRoute)
 console.log(assertCanadaPagesBuilt(DIST)); // 2026-10-17: reads the written dist HTML of the Canadian training pages; throws if one lost the SNT-TC-1A offer, title, meta or H1
 

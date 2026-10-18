@@ -12047,6 +12047,30 @@
       {
         "q": "Is UT cheaper than RT on a weld inspection job?",
         "a": "On the shot itself, RT is often cheaper per weld on thin wall. On the project, UT wins whenever radiography stops other trades. Encoded PAUT costs more per weld in equipment and qualified time, then returns it by removing night shifts, exclusion boundaries and the standby crews that sit idle while a source is exposed. Price the schedule, not the line item."
+      },
+      {
+        "q": "Can ultrasonic testing legally replace radiography under ASME?",
+        "a": "Yes, through named routes. Section VIII Division 1 authorises it in UW-51(a)(4), which requires compliance with Section VIII Division 2 paragraph 7.5.5 and Section V Article 4 Mandatory Appendix VIII with Appendix IX. Section I permits it via Code Case 2235, Code Case 2816 or PW-52.1. Code Case 2235-13 applies to welds 1/2 in. (13 mm) and thicker and requires a device employing automatic computer-based data acquisition."
+      },
+      {
+        "q": "Why is RT still specified when UT finds cracks better?",
+        "a": "Three reasons hold it in place: a permanent image any third party re-reads without the technician, lower per-weld cost on thin wall, and client specifications written before encoded ultrasonics had a code home. The first is genuine and is only answered by encoded PAUT or TOFD, which record the complete unprocessed data set. The second ignores schedule cost. The third is inertia that a citation fixes."
+      },
+      {
+        "q": "What thickness range does AWS D1.1 allow for ultrasonic testing?",
+        "a": "Clause 8.19.1 applies conventional ultrasonic testing to groove welds and heat-affected zones between 5/16 in. (8 mm) and 8 in. (200 mm) inclusive, and excludes tube-to-tube T-, Y- and K-connections from that procedure. Acceptance comes from Table 8.2 for statically loaded nontubular connections and cyclically loaded connections in compression, and Table 8.3 for cyclically loaded nontubular connections in tension."
+      },
+      {
+        "q": "Does radiography require shutting down the work area?",
+        "a": "It requires a controlled boundary. 10 CFR 20.1003 sets a high radiation area at more than 0.1 rem in 1 hour at 30 cm, and 10 CFR 20.1301 limits unrestricted areas to 0.002 rem in any one hour. The radiographer surveys, posts and physically controls the boundary and maintains continuous direct visual surveillance against unauthorised entry. In practice adjacent trades stop or the shot moves to night shift."
+      },
+      {
+        "q": "Is TOFD a substitute for RT or an addition to UT?",
+        "a": "Both, depending on the code route. ASME treats TOFD as one of only two acceptable technique families — with phased array — when UT replaces required RT, provided acquisition is computer-based and the equipment is mechanically mounted and guided. Section V Article 4 Mandatory Appendix III carries its technique rules. On many heavy-wall procedures TOFD is paired with encoded PAUT so that each covers the other's near-surface and lateral-wave blind zones."
+      },
+      {
+        "q": "Who is allowed to interpret the results of each method?",
+        "a": "Under Code Case 2235-13(f), personnel performing and evaluating ultrasonic examinations must be qualified and certified in accordance with their employer's written practice, with ASNT SNT-TC-1A or CP-189 used as a guideline, and only Level II or III personnel analyse data or interpret results. For industrial radiography, 10 CFR 34.43(a) requires certification through a recognised radiographer certification program plus at least two months of on-the-job training."
       }
     ],
     "sections": [
@@ -12132,6 +12156,30 @@
       }
     ],
     "faq": [
+      {
+        "q": "Which method finds lack of fusion more reliably?",
+        "a": "Ultrasonics. Lack of sidewall fusion is a flat face lying parallel to the bevel, which presents a mirror to an angled sound beam and returns high amplitude. The same flaw is a few thousandths of an inch of missing metal along the radiographic beam path, so it produces almost no density change on film. Angle-beam UT or PAUT is the correct call whenever the procedure history shows fusion defects."
+      },
+      {
+        "q": "Which method finds porosity and slag more reliably?",
+        "a": "Radiography. Rounded voids and slag pockets have genuine volume, remove density along the beam path, and appear as unambiguous dark indications that a second reader confirms without re-scanning anything. Ultrasonics detects them, but scattered small reflectors are slower to characterise and easier to dismiss as noise. Where the dominant repair mode on a job is porosity, RT stays the efficient choice."
+      },
+      {
+        "q": "Does UT need access to both sides of the weld?",
+        "a": "No. Ultrasonics scans from one surface, which is why it survives on vessels with internals, on nozzles, on pipe with limited clearance and on structures where the back face is buried. Radiography needs the source on one side and film or a digital detector on the other. On a closed vessel or a backed joint, that requirement alone eliminates RT before any technical comparison starts."
+      },
+      {
+        "q": "How large is a radiographic exclusion zone in practice?",
+        "a": "It is set by survey, not by a fixed number. 10 CFR 20.1003 defines a radiation area as more than 0.005 rem in 1 hour at 30 cm and a high radiation area as more than 0.1 rem in 1 hour at 30 cm. 10 CFR 20.1301 caps the dose in an unrestricted area at 0.002 rem in any one hour. The radiographer sets and watches the boundary against those readings."
+      },
+      {
+        "q": "Which method leaves the better permanent record?",
+        "a": "Both, once the ultrasonic examination is encoded. Radiographic film or a digital image is re-readable by anyone. Manual UT leaves a report of one person's opinion. Encoded PAUT and TOFD close that gap: ASME Code Case 2235-13(e) requires the data set to be recorded in unprocessed form with no gating, filtering or thresholding, so a third party reopens the raw response later."
+      },
+      {
+        "q": "Is UT cheaper than RT on a weld inspection job?",
+        "a": "On the shot itself, RT is often cheaper per weld on thin wall. On the project, UT wins whenever radiography stops other trades. Encoded PAUT costs more per weld in equipment and qualified time, then returns it by removing night shifts, exclusion boundaries and the standby crews that sit idle while a source is exposed. Price the schedule, not the line item."
+      },
       {
         "q": "Can ultrasonic testing legally replace radiography under ASME?",
         "a": "Yes, through named routes. Section VIII Division 1 authorises it in UW-51(a)(4), which requires compliance with Section VIII Division 2 paragraph 7.5.5 and Section V Article 4 Mandatory Appendix VIII with Appendix IX. Section I permits it via Code Case 2235, Code Case 2816 or PW-52.1. Code Case 2235-13 applies to welds 1/2 in. (13 mm) and thicker and requires a device employing automatic computer-based data acquisition."
@@ -32550,6 +32598,26 @@
       {
         "q": "What does a CUI inspection report have to show?",
         "a": "The susceptibility ranking and its inputs, the screening method and coverage per circuit, screening results including locations that were clear, every insulation removal point with the reason it was chosen, confirmed thickness data with instrument and calibration, as-found photographs, disposition of each finding, and the insulation reinstatement detail. Without coverage and reasoning, the record cannot support an interval decision."
+      },
+      {
+        "q": "Is CUI inspection required by code?",
+        "a": "API 570 requires external inspection of piping systems and directs NDE for CUI at suspect locations on insulated circuits within the susceptible temperature bands. It is not a separate optional programme; it is part of the piping inspection plan. For US facilities covered by the OSHA process safety management standard, the mechanical integrity element makes inspection of covered equipment a regulatory obligation as well as a code one."
+      },
+      {
+        "q": "Does the insulation always have to come off?",
+        "a": "No, and a programme that removes insulation everywhere is spending most of its money on sound pipe. Removal is the confirmation step, applied where ranking, visual evidence or screening has already identified something. What does have to come off is a collar for guided wave, and enough at each confirmed anomaly to clean the surface and take a contact measurement."
+      },
+      {
+        "q": "Can CUI inspection be done while the unit is running?",
+        "a": "Yes for the screening steps. Pulsed eddy current works through insulation and jacketing at operating temperature with no removal, and profile radiography needs only radiation control rather than a shutdown. Targeted stripping and reinstatement are usually easier to schedule during a turnaround, which is why the screening campaign should run ahead of the outage so the removal list is ready."
+      },
+      {
+        "q": "Do insulated storage tanks need CUI inspection too?",
+        "a": "Yes. Insulated tank shells, roof-to-shell junctions, nozzles and wind girders trap water in the same way insulated piping does, and the shell temperature often sits squarely in the susceptible band. External inspection under API 653 covers the insulation condition and the evidence of ingress, and the same screening hierarchy applies before any insulation comes off a shell course."
+      },
+      {
+        "q": "Can you review an existing CUI programme rather than run the inspection?",
+        "a": "Yes. A programme review checks the susceptibility ranking against the API temperature bands and service data, tests whether screening coverage matches the population claimed, examines how removal locations were chosen, and looks at whether PEC averages have been filed as thickness readings. That review often finds more than another round of scanning would."
       }
     ],
     "sections": [
@@ -32620,6 +32688,30 @@
     ],
     "faq": [
       {
+        "q": "Who does corrosion under insulation inspection in US refineries?",
+        "a": "CUI inspection is bought from NDT service companies with pulsed eddy current, radiography and guided wave capability plus inspectors able to build the ranking. The credential that matters is not the instrument list; it is whether the contractor produces a susceptibility ranking, screening coverage records and confirmed thickness data, rather than a strip-and-look scope priced by the foot. Atlantis works across US refining, petrochemical and midstream sites."
+      },
+      {
+        "q": "How often does insulated piping need CUI inspection?",
+        "a": "The interval comes from the piping inspection plan, not from a fixed CUI schedule. API 570 drives external and CUI inspection frequency from the piping class, remaining life and the risk assessment, with insulated circuits in the susceptible temperature bands escalated ahead of the rest. Circuits with a CUI history, cycling service or damaged jacketing move to the front regardless of the calendar interval."
+      },
+      {
+        "q": "What temperature range does corrosion under insulation occur in?",
+        "a": "API 570 directs CUI inspection on carbon and low-alloy steel operating between 10°F and 350°F (-12°C to 175°C), and on austenitic and duplex stainless steels between 140°F and 400°F (60°C to 205°C). API 583 puts the highest-risk band for carbon steel at roughly 170°F to 230°F (77°C to 110°C). Intermittent-service and cold-service lines are also in scope."
+      },
+      {
+        "q": "Can you find CUI without removing the insulation?",
+        "a": "Screening, yes; confirmation, no. Pulsed eddy current measures average remaining wall through insulation and jacketing without removal. Profile radiography images the wall in silhouette. Guided wave screens long runs from a single collar. All three narrow the population. None produces a thickness reliable enough for a remaining-life calculation, so the final measurement still comes from a small, targeted strip and contact ultrasound."
+      },
+      {
+        "q": "What drives the cost of a CUI inspection programme?",
+        "a": "Access above everything, since scaffold, rope access and permits typically outweigh the inspection hours. Then the amount of insulation removed and reinstated, which is why ranking before stripping is the main cost lever. Then circuit count, screening method and coverage density. A programme built on a susceptibility ranking inspects a fraction of the footage for the same confidence. Atlantis quotes on request."
+      },
+      {
+        "q": "What does a CUI inspection report have to show?",
+        "a": "The susceptibility ranking and its inputs, the screening method and coverage per circuit, screening results including locations that were clear, every insulation removal point with the reason it was chosen, confirmed thickness data with instrument and calibration, as-found photographs, disposition of each finding, and the insulation reinstatement detail. Without coverage and reasoning, the record cannot support an interval decision."
+      },
+      {
         "q": "Is CUI inspection required by code?",
         "a": "API 570 requires external inspection of piping systems and directs NDE for CUI at suspect locations on insulated circuits within the susceptible temperature bands. It is not a separate optional programme; it is part of the piping inspection plan. For US facilities covered by the OSHA process safety management standard, the mechanical integrity element makes inspection of covered equipment a regulatory obligation as well as a code one."
       },
@@ -32637,7 +32729,7 @@
       },
       {
         "q": "Can you review an existing CUI programme rather than run the inspection?",
-        "a": "Yes. A programme review checks the susceptibility ranking against the API temperature bands and service data, tests whether screening coverage matches the population claimed, examines how removal locations were chosen, and looks at whether PEC averages have been filed as thickness readings. That review usually finds more than another round of scanning would, and it costs less."
+        "a": "Yes. A programme review checks the susceptibility ranking against the API temperature bands and service data, tests whether screening coverage matches the population claimed, examines how removal locations were chosen, and looks at whether PEC averages have been filed as thickness readings. That review often finds more than another round of scanning would."
       }
     ]
   },
