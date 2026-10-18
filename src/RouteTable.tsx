@@ -547,6 +547,7 @@ const TofdCalculator = lazy(() => import("./pages/tools/TofdCalculator"));
 const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 2026-10-10 §48
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
+const InspectionSection = lazy(() => import("./pages/InspectionSection")); // 2026-10-18 inspection section (src/data/inspection-section)
 const NdtPracticeTests = lazy(() => import("./pages/NdtPracticeTests")); // 2026-10-16 practice-test hub (src/data/practice-tests)
 const PracticalNdtSimulatorPage = lazy(() => import("./pages/PracticalNdtSimulatorPage")); // 2026-10-17 Practical NDT method + workplace pages (src/data/practical-ndt-simulators-2026-10.mjs)
 import { PRACTICAL_SIM_SLUGS } from "./data/practical-ndt-simulator-slugs.mjs";
@@ -6850,6 +6851,29 @@ export default function RouteTable() { return (
                   {/* Industry-Specific NDT + Location: Oil&Gas, Aerospace, etc. × 40 cities */}
                   <Route path="/industry/:slug" element={<LazyRoute Component={IndustryLocationPage} />} />
                   {/* Inspection Services + Location: Weld, Tank, Pipeline, Corrosion × 50 cities */}
+                  {/* 2026-10-18 inspection section — static routes outrank /inspection/:slug */}
+                  <Route path="/inspection" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/conventional-ndt" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/asset-integrity-services" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/risk-based-inspection" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/technical-staffing-services" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/commissioning" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/turnarounds-shutdowns" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/automated-ultrasonic-testing" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/iris-tube-inspection" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/acfm-inspection" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/mfl-tank-floor-inspection" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/digital-radiography" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/pulsed-eddy-current" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/infrared-thermography" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/advanced-ndt/laser-shearography" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/conventional-ndt/hardness-testing" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/conventional-ndt/positive-material-identification" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/conventional-ndt/ferrite-testing" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/conventional-ndt/holiday-testing" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/ndt-inspection-services/conventional-ndt/leak-testing" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/:slug" element={<LazyRoute Component={InspectionServiceLocationPage} />} />
                   {/* Certification Training + Location: API 510/570/653, ASNT, CWI × 20 cities */}
                   <Route path="/training/:slug" element={<LazyRoute Component={CertTrainingLocationPage} />} />

@@ -81,6 +81,7 @@ import { assertCanadaPagesBuilt } from './canada-certification-2026-10.mjs'; // 
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
+import { inspectionSectionRoutes, assertInspectionSectionClean } from './inspection-section-2026-10.mjs'; // 2026-10-18 inspection section (src/data/inspection-section)
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
@@ -10073,6 +10074,7 @@ routes.push(...cycleRoutes());
 // 2026-10-10 (§53): case stories from completed engagements, full crawler bodies.
 routes.push(...caseStoryRoutes());
 routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator (scripts/ascan-simulator-2026-10.mjs)
+routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (scripts/inspection-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
 
@@ -14167,6 +14169,7 @@ assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced 
 assertTrainingReleaseClean(BUILT_PATHS); // 2026-10-12 training release: Course markup valid, sessions data, links built, no prices
 assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links built, no prices/dates/pass rates/venues, founder credential exact
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
+assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55
 assertRankWave14Clean(BUILT_PATHS); // 2026-10-17 §58: answer lengths, no prices/turnaround promises, link targets built
