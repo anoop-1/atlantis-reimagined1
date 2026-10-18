@@ -119,7 +119,7 @@ const whyDubai = [
     {
         icon: Building2,
         title: "Onsite Delivery in the UAE",
-        description: "Training is delivered onsite at your facility in the UAE, or online and live-virtual, led by an ASNT NDT Level III, with reference specimens, portable UT/MT/PT equipment and ASNT-compliant written practice templates supplied for the course."
+        description: "Training is delivered onsite at your facility in the UAE, or self-paced online, led by an ASNT NDT Level III, with reference specimens, portable UT/MT/PT equipment and ASNT-compliant written practice templates supplied for the course."
     }
 ];
 
@@ -163,7 +163,7 @@ const faqs = [
     },
     {
         question: "Where does training take place?",
-        answer: "On-site at your facility anywhere in the UAE and the GCC, or live online. Atlantis does not run training centres in the UAE, and dates are agreed with each employer or candidate. Fees for the fully online, self-paced Level I and Level II programme are in the fee table on this page."
+        answer: "On-site at your facility anywhere in the UAE and the GCC, or self-paced online. Atlantis does not run training centres in the UAE, and dates are agreed with each employer or candidate. Fees for the fully online, self-paced Level I and Level II programme are in the fee table on this page."
     },
     {
         question: "What language is training conducted in?",
@@ -179,7 +179,7 @@ const faqs = [
     },
     {
         question: "Do I need a UAE visa to attend training in Dubai?",
-        answer: "Most candidates do not need to travel: theory runs live online and the practical sessions run at your employer's facility in the UAE. If a course does involve travel, ask us before booking; Atlantis does not sponsor work visas."
+        answer: "Most candidates do not need to travel: theory runs self-paced online and the practical sessions run at your employer's facility in the UAE. If a course does involve travel, ask us before booking; Atlantis does not sponsor work visas."
     },
     {
         question: "What NDT jobs are available in UAE after certification?",
@@ -229,7 +229,7 @@ export default function NDTTrainingDubai() {
             <Navigation />
             <SEOHead
                 title="NDT Training Dubai 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Dubai. UT/RT/MT/PT/VT/ET methods. Online, live-virtual or onsite at your facility. Enroll: enroll@atlantisndt.com"
+                description="ASNT Level III-led NDT training in Dubai. UT/RT/MT/PT/VT/ET methods. Self-paced online or onsite at your facility. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Dubai, NDT training UAE, NDT courses Dubai, ASNT training Dubai, ISO 9712 UAE, NDT certification Dubai, ndt training in uae, NDT Level II Dubai, NDT Level III UAE, ultrasonic testing training Dubai, eddy current training Dubai, NDT courses Abu Dhabi, NDT certification UAE, NDT training Sharjah, oil gas NDT training UAE, ADNOC contractor NDT training"
                 canonical="https://atlantisndt.com/ndt-training-dubai"
                 structuredData={structuredData}

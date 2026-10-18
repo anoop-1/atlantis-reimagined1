@@ -18,7 +18,7 @@
   "servicesHeading": "What we do",
   "services": [
     { "label": "Level III consulting", "href": "/consulting", "text": "Outsourced Level III, SNT-TC-1A written practices, procedure development and approval, and audit support." },
-    { "label": "NDT training", "href": "/training", "text": "ASNT SNT-TC-1A Level I, II and III training, delivered live online or on-site at your facility." },
+    { "label": "NDT training", "href": "/training", "text": "ASNT SNT-TC-1A Level I, II and III training, delivered self-paced online or on-site at your facility." },
     { "label": "Inspection services", "href": "/inspection-services", "text": "NDT field inspection with Level III-reviewed reports, delivered to your own inspector of record." },
     { "label": "Atlantis ERP", "href": "/erp", "text": "Technician certifications, equipment calibration, jobs, quoting and invoicing in one system." },
     { "label": "NDT reporting software", "href": "/ndt-inspection-software", "text": "Field data capture and code-aligned NDT reports, standalone or as an ERP module." },

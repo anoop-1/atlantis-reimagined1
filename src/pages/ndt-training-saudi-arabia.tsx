@@ -164,7 +164,7 @@ const faqs = [
     },
     {
         question: "Where does training take place in Saudi Arabia?",
-        answer: "On-site at your facility anywhere in the Kingdom, or live online. Atlantis does not run a training centre in Saudi Arabia, and dates are agreed with each employer. Contact us for a quotation."
+        answer: "On-site at your facility anywhere in the Kingdom, or self-paced online. Atlantis does not run a training centre in Saudi Arabia, and dates are agreed with each employer. Contact us for a quotation."
     },
     {
         question: "What is SAEP-1112 and do I need to comply with it?",
@@ -176,7 +176,7 @@ const faqs = [
     },
     {
         question: "Is online NDT training available for KSA-based candidates?",
-        answer: "Yes, Atlantis NDT offers online theory training accessible from Saudi Arabia. The theoretical portion can be completed online with live instructor support. The practical training and the practical examination run on real specimens at your employer's facility in KSA under an ASNT Level III."
+        answer: "Yes, Atlantis NDT offers online theory training accessible from Saudi Arabia. The theoretical portion is self-paced online with ASNT Level III support. The practical training and the practical examination run on real specimens at your employer's facility in KSA under an ASNT Level III."
     },
     {
         question: "Do you offer training in Arabic?",
@@ -226,7 +226,7 @@ export default function NDTTrainingSaudiArabia() {
             <Navigation />
             <SEOHead
                 title="NDT Training Saudi Arabia 2026 — ASNT Level III-Led, ARAMCO SAEP-1112, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Saudi Arabia — Dammam, Jubail, Yanbu, Riyadh. UT/RT/MT/PT/VT/ET methods. Online, live-virtual or onsite at your facility. Enroll: enroll@atlantisndt.com"
+                description="ASNT Level III-led NDT training in Saudi Arabia — Dammam, Jubail, Yanbu, Riyadh. UT/RT/MT/PT/VT/ET methods. Self-paced online or onsite at your facility. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Saudi Arabia, NDT certification KSA, ASNT training Dammam, NDT courses Riyadh, Saudi Aramco NDT training, SAEP-1112 NDT, NDT Jubail, NDT training Yanbu, SABIC NDT certification, NDT training Saudi Arabia"
                 canonical="https://atlantisndt.com/ndt-training-saudi-arabia"
                 structuredData={structuredData}
@@ -255,7 +255,7 @@ export default function NDTTrainingSaudiArabia() {
                             NDT Training in <span className="gradient-text">Saudi Arabia</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A NDT training for teams working to Saudi Aramco SAEP-1112 and other KSA operator requirements, delivered on-site at your facility in Dammam, Riyadh, Jubail or elsewhere in the Kingdom, or live online.
+                            ASNT SNT-TC-1A NDT training for teams working to Saudi Aramco SAEP-1112 and other KSA operator requirements, delivered on-site at your facility in Dammam, Riyadh, Jubail or elsewhere in the Kingdom, or self-paced online.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">

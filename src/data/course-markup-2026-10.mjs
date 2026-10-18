@@ -183,7 +183,7 @@ export function sessionRows(path, sessionsData, now) {
       course: s.course,
       dates: s.startDate === s.endDate ? s.startDate : `${s.startDate} to ${s.endDate}`,
       format: s.mode === 'Onsite' ? 'On-site' : s.mode,
-      venue: v ? [v.name, v.streetAddress, v.addressLocality, v.addressRegion, v.postalCode].filter(Boolean).join(', ') : (s.mode === 'Online' ? 'Live online' : 'At your facility'),
+      venue: v ? [v.name, v.streetAddress, v.addressLocality, v.addressRegion, v.postalCode].filter(Boolean).join(', ') : (s.mode === 'Online' ? 'Self-paced online' : 'At your facility'),
     };
   });
 }

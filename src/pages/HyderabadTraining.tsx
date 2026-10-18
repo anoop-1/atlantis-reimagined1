@@ -87,7 +87,7 @@ export default function HyderabadTraining() {
         <div className="container mx-auto max-w-5xl px-6 py-14">
           <div className="flex items-center gap-2 text-orange-100 mb-4">
             <MapPin className="w-5 h-5" />
-            <span>Hyderabad, Telangana · Live online and on-site at your facility</span>
+            <span>Hyderabad, Telangana · Self-paced online and on-site at your facility</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">{H.h1}</h1>
           <div data-citation-block="answer" className="text-lg text-orange-50 max-w-3xl mb-4">

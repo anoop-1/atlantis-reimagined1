@@ -257,7 +257,7 @@ export default function NdtLevel1Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Self-paced material plus live online sessions with an ASNT Level III instructor (with replays) cover the classroom-hour requirement for your method. Enrollment is open all year, with no fixed course dates. SNT-TC-1A does not require theory to be delivered in a physical classroom — only that the hours and content are covered and documented.
+                  Self-paced online material, with an ASNT Level III answering your questions and a call when you want one, covers the classroom-hour requirement for your method. Enrollment is open all year, with no fixed course dates. SNT-TC-1A does not require theory to be delivered in a physical classroom — only that the hours and content are covered and documented.
                 </p>
               </CardContent>
             </Card>

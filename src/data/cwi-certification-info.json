@@ -88,7 +88,7 @@
       "id": "atlantis",
       "heading": "What Atlantis NDT offers: ASNT NDT training and Level III services",
       "paragraphs": [
-        "Atlantis NDT trains to ASNT SNT-TC-1A only. Training covers visual testing (VT), ultrasonic testing (UT), magnetic particle testing (MT), liquid penetrant testing (PT), radiographic testing (RT) and eddy current testing (ET) at Level I and Level II, delivered live online or onsite at the employer's facility for teams in {city} and across the US. Training is led by Anoop Rayavarapu, ASNT NDT Level III. Atlantis NDT also provides Level III services: written practices, NDT procedures and technique sheets, examination administration and audit support for employers who certify their own NDT personnel. For a CWI, ASNT VT, MT and PT training is the most common starting point because it builds directly on weld inspection. Training and services are affordable, accessible and fully customizable, with a quote on request."
+        "Atlantis NDT trains to ASNT SNT-TC-1A only. Training covers visual testing (VT), ultrasonic testing (UT), magnetic particle testing (MT), liquid penetrant testing (PT), radiographic testing (RT) and eddy current testing (ET) at Level I and Level II, delivered self-paced online or onsite at the employer's facility for teams in {city} and across the US. Training is led by Anoop Rayavarapu, ASNT NDT Level III. Atlantis NDT also provides Level III services: written practices, NDT procedures and technique sheets, examination administration and audit support for employers who certify their own NDT personnel. For a CWI, ASNT VT, MT and PT training is the most common starting point because it builds directly on weld inspection. Training and services are affordable, accessible and fully customizable, with a quote on request."
       ]
     }
   ],
@@ -102,7 +102,7 @@
   ],
   "cta": {
     "heading": "Add ASNT NDT certification to your CWI",
-    "text": "Tell us which methods and levels you need and how many people are involved. We reply with delivery options for {city}, live online or onsite at your facility, and a quote on request.",
+    "text": "Tell us which methods and levels you need and how many people are involved. We reply with delivery options for {city}, self-paced online or onsite at your facility, and a quote on request.",
     "label": "Ask about ASNT NDT training",
     "href": "/contact?service=training"
   },

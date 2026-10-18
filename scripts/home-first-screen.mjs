@@ -63,7 +63,7 @@ const CLAIM_FIXES = [
   [/an ASNT NDT Level III in multiple methods/g, 'an ASNT NDT Level III and our lead instructor'],
   [/ Our team of 50\+ certified ASNT Level III specialists covers ultrasonic/g, ' Our work covers ultrasonic'],
   [/ per ASNT SNT-TC-1A and ISO 9712 across/g, ' per ASNT SNT-TC-1A across'],
-  [/Instructor-led training delivered on-site from Houston and Hyderabad, or online\./g, 'Delivered live online or on-site at your facility.'],
+  [/Instructor-led training delivered on-site from Houston and Hyderabad, or online\./g, 'Delivered self-paced online with Level III support, or on-site at your facility.'],
   [/, API RBI program design, fitness-for-service per API 579,/g, ','],
   [/Global Footprint, Trusted by Industry Leaders/g, 'Global Footprint'],
   [/Atlantis NDT has completed (?:1,000\+ inspections|1,500\+ inspection activities) and trained (?:thousands of|1,000\+) technicians\. Our client base spans supermajors, national oil companies, aerospace OEMs, and steel fabricators\./g, 'Atlantis NDT works with operators, fabricators, EPCs and inspection companies.'],

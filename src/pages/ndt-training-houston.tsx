@@ -103,8 +103,8 @@ export default function NDTTrainingHouston() {
       description: "Houston's oil & gas sector creates consistent demand for certified NDT technicians. Refineries, petrochemical plants, fabricators and inspection contractors across the region hire certified NDT technicians."
     },
     {
-      title: "Onsite or Live Online — No Walk-In Centre",
-      description: "Training for Houston employers runs onsite at your facility, on your own equipment and specimens, or as live online theory with practicals at your site. Atlantis has no walk-in training centre."
+      title: "Onsite or Self-Paced Online — No Walk-In Centre",
+      description: "Training for Houston employers runs onsite at your facility, on your own equipment and specimens, or as self-paced online theory with practicals at your site. Atlantis has no walk-in training centre."
     },
     {
       title: "ASNT & API Compliance",
@@ -151,7 +151,7 @@ export default function NDTTrainingHouston() {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": "NDT Training & Certification in Houston, TX",
-    "description": "Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD. Live online theory; practicals onsite at your facility.",
+    "description": "Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD. Self-paced online theory; practicals onsite at your facility.",
     "provider": {
       "@type": "Organization",
       "name": "Atlantis NDT",
@@ -201,7 +201,7 @@ export default function NDTTrainingHouston() {
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All six methods plus advanced PAUT and TOFD. Live online theory, with practicals on your own equipment at your facility.
+              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All six methods plus advanced PAUT and TOFD. Self-paced online theory, with practicals on your own equipment at your facility.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">

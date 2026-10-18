@@ -145,7 +145,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
 
     // SEO optimization
     const pageTitle = `${certification.name} in ${location.name}`;
-    const pageDescription = `${certification.shortName} exam preparation and SNT-TC-1A Level III services for ${location.name}, ${location.region} employers and candidates, delivered live online or onsite at your facility.`;
+    const pageDescription = `${certification.shortName} exam preparation and SNT-TC-1A Level III services for ${location.name}, ${location.region} employers and candidates, delivered self-paced online or onsite at your facility.`;
     const keywords = `${certification.shortName} training ${location.name}, ${certification.name}, ${location.slug} inspection, NDT certification, ASNT NDT`;
 
     // Find other cities offering same cert

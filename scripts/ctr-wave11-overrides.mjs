@@ -44,7 +44,7 @@ export const COURSE_RETITLES = {
   '/ut-level-1-training': {
     title: 'UT Level 1 Course — Online & Onsite ASNT Training',
     h1: 'UT Level 1 Course — Ultrasonic Testing Level I Training',
-    description: 'UT Level 1 course under ASNT SNT-TC-1A: 40 training hours, 210 hours of UT experience and the three exams, taught live online or onsite by a Level III.',
+    description: 'UT Level 1 course under ASNT SNT-TC-1A: 40 training hours, 210 hours of UT experience and the three exams, taught self-paced online or onsite by a Level III.',
   },
   '/ut-level-2-training': {
     title: 'UT Level 2 Course — Online & Onsite ASNT Training',
@@ -64,7 +64,7 @@ export const COURSE_RETITLES = {
   '/rt-level-1-training': {
     title: 'RT Level 1 Course — Online & Onsite ASNT Training',
     h1: 'RT Level 1 Course — Radiographic Testing Level I Training',
-    description: 'RT Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 experience hours, plus the separate radiation-safety track. Live online or onsite.',
+    description: 'RT Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 experience hours, plus the separate radiation-safety track. Self-paced online or onsite.',
   },
   '/rt-level-2-training': {
     title: 'RT Level 2 Course — Online & Onsite ASNT Training',
@@ -84,7 +84,7 @@ export const COURSE_RETITLES = {
   '/vt-level-1-training': {
     title: 'VT Level 1 Course — Online & Onsite ASNT Training',
     h1: 'VT Level 1 Course — Visual Testing Level I Training',
-    description: 'VT Level 1 course under ASNT SNT-TC-1A: 8 classroom hours, 70 VT hours, direct and remote visual, lighting and vision rules. Live online or onsite.',
+    description: 'VT Level 1 course under ASNT SNT-TC-1A: 8 classroom hours, 70 VT hours, direct and remote visual, lighting and vision rules. Self-paced online or onsite.',
   },
   '/vt-level-2-training': {
     title: 'VT Level 2 Course — Online & Onsite ASNT Training',

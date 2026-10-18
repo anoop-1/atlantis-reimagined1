@@ -282,7 +282,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Self-paced material plus live online sessions with replays cover calibration principles, code and standard interpretation, and acceptance-criteria evaluation — the additional theory content that separates Level II from Level I. Enrollment is open all year, with no fixed course dates.
+                  Self-paced online modules, with an ASNT Level III answering your questions, cover calibration principles, code and standard interpretation, and acceptance-criteria evaluation — the additional theory content that separates Level II from Level I. Enrollment is open all year, with no fixed course dates.
                 </p>
               </CardContent>
             </Card>

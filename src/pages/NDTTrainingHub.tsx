@@ -184,7 +184,7 @@ export default function NDTTrainingHub() {
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training & Certification 2026</h1>
           <p className="text-xl text-blue-100 max-w-3xl mb-8">
-            Six ASNT methods. Three certification levels. Online, live-virtual, and onsite delivery at your facility, led by an ASNT NDT Level III.
+            Six ASNT methods. Three certification levels. Self-paced online and onsite delivery at your facility, led by an ASNT NDT Level III.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">
@@ -464,7 +464,7 @@ export default function NDTTrainingHub() {
           <Award className="w-12 h-12 mx-auto mb-4 text-blue-200" />
           <h2 className="text-3xl font-bold mb-4">Ready to Enroll?</h2>
           <p className="text-blue-100 max-w-2xl mx-auto mb-6">
-            Courses run online, live-virtual, or onsite at your facility, year-round. Talk to an ASNT Level III advisor before you commit — we will tell you honestly whether a given method and level fits your career trajectory.
+            Courses run self-paced online or onsite at your facility, year-round. Talk to an ASNT Level III advisor before you commit — we will tell you honestly whether a given method and level fits your career trajectory.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">

@@ -117,7 +117,7 @@ const whyIndia = [
     {
         icon: Building2,
         title: "Online & Onsite Delivery in India",
-        description: "Training is delivered online, live-virtual, or onsite at your facility anywhere in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore and beyond — led by an ASNT NDT Level III, with reference specimens and an ASNT-standard written practice library supplied for the course."
+        description: "Training is delivered self-paced online or onsite at your facility anywhere in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore and beyond — led by an ASNT NDT Level III, with reference specimens and an ASNT-standard written practice library supplied for the course."
     }
 ];
 
@@ -146,7 +146,7 @@ const industries = [
 
 const certificationPath = [
     { step: 1, title: "Apply & Enrol", description: "Submit application with educational qualifications and experience record. Training coordinator confirms eligibility against ASNT SNT-TC-1A requirements and schedules your course start." },
-    { step: 2, title: "Attend Training Course", description: "Complete classroom theory sessions online or live-virtual, and supervised practical sessions onsite at your employer's facility. ASNT SNT-TC-1A minimum training hours are strictly observed." },
+    { step: 2, title: "Attend Training Course", description: "Complete classroom theory sessions self-paced online, and supervised practical sessions onsite at your employer's facility. ASNT SNT-TC-1A minimum training hours are strictly observed." },
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written examination covering NDT theory, equipment operation, and codes & standards. Minimum 70% pass mark is required to proceed." },
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference specimens. Results must meet the pass threshold defined in the written practice." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision acuity test required per ASNT SNT-TC-1A Section 8 before certification is issued." },
@@ -177,7 +177,7 @@ const faqs = [
     },
     {
         question: "Is there a walk-in NDT training centre in Hyderabad?",
-        answer: "No. Atlantis NDT does not run a walk-in training centre. Courses are delivered online or live-virtual, or onsite at your company's facility in Hyderabad or anywhere else in India, with an ASNT NDT Level III leading the programme."
+        answer: "No. Atlantis NDT does not run a walk-in training centre. Courses are delivered self-paced online, or onsite at your company's facility in Hyderabad or anywhere else in India, with an ASNT NDT Level III leading the programme."
     },
     {
         question: "What industries in India hire the most NDT technicians?",
@@ -185,7 +185,7 @@ const faqs = [
     },
     {
         question: "Can I take NDT training online from India?",
-        answer: "Yes, Atlantis NDT offers online theory training accessible from anywhere in India. The theoretical component can be completed online or live-virtual. Under an employer-based SNT-TC-1A scheme the practical examination is administered on your employer's equipment, so the practical component is delivered onsite at your facility. Contact us to plan your blended learning pathway."
+        answer: "Yes, Atlantis NDT offers online theory training accessible from anywhere in India. The theoretical component can be completed self-paced online. Under an employer-based SNT-TC-1A scheme the practical examination is administered on your employer's equipment, so the practical component is delivered onsite at your facility. Contact us to plan your blended learning pathway."
     }
 ];
 
@@ -209,7 +209,7 @@ export default function NDTTrainingIndia() {
                 "@type": "Course",
                 "name": "NDT Training India",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "ASNT SNT-TC-1A NDT certification training in India. Level I, II, III for UT, MT, PT, RT, ET, VT. Online, live-virtual or onsite at your facility.",
+                "description": "ASNT SNT-TC-1A NDT certification training in India. Level I, II, III for UT, MT, PT, RT, ET, VT. Self-paced online or onsite at your facility.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": "onsite",
@@ -227,7 +227,7 @@ export default function NDTTrainingIndia() {
             <Navigation />
             <SEOHead
                 title="NDT Training India 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. Online, live-virtual or onsite at your facility. Enroll: enroll@atlantisndt.com"
+                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. Self-paced online or onsite at your facility. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, SNT-TC-1A training India, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
                 canonical="https://atlantisndt.com/ndt-training-india"
                 structuredData={structuredData}

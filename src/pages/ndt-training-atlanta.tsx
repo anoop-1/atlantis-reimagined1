@@ -40,7 +40,7 @@ export default function NDTTrainingAtlanta() {
           <motion.div className="max-w-4xl mx-auto text-center" initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Atlanta. Industrial and aerospace focus. All NDT methods. Live online theory, practicals at your facility.
+              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Atlanta. Industrial and aerospace focus. All NDT methods. Self-paced online theory, practicals at your facility.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
