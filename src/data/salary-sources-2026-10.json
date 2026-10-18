@@ -1,0 +1,53 @@
+{
+  "_note": "2026-10-18 (traffic workstream). The only salary figures the salary family may show: each was read on its source page on 18 October 2026 (O*NET and PayScale by direct fetch; ZipRecruiter and Glassdoor through a page reader). Rendered by src/components/SalaryLevelPage.tsx (React), scripts/salary-static-render.mjs (crawler, level pages) and scripts/seo-editorial-2026-09-12.mjs (the salary guide, a published path). No other pay range may be typed on these pages; a figure without a named source is removed, not rounded. Aggregator figures move: re-read them monthly and update this file only. Not an Atlantis price (CLAUDE.md §18 salary carve-out).",
+  "checked": "2026-10-18",
+  "checkedLabel": "18 October 2026",
+  "tableHeading": "What each published source says (checked 18 October 2026)",
+  "columns": ["Source", "What it measures", "Figure", "Sample and date"],
+  "sources": {
+    "onet": {
+      "label": "O*NET OnLine, 17-3029.01 Non-Destructive Testing Specialists",
+      "url": "https://www.onetonline.org/link/summary/17-3029.01",
+      "measures": "Median wage for NDT specialists, from BLS wage data for the broader SOC 17-3029 group (engineering technologists and technicians, except drafters, all other)",
+      "figure": "$78,350 a year ($37.67 an hour)",
+      "sample": "BLS 2025 wage data; 62,400 people employed in the SOC group"
+    },
+    "zrInspector": {
+      "label": "ZipRecruiter, Non Destructive Inspector salary",
+      "url": "https://www.ziprecruiter.com/Salaries/Non-Destructive-Inspector-Salary",
+      "measures": "US national average for the job title, from job advertisements and user data",
+      "figure": "$54,939 a year ($26.41 an hour)",
+      "sample": "As of 17 October 2026; sample size not published"
+    },
+    "zrRt2": {
+      "label": "ZipRecruiter, NDT RT Level 2 salary",
+      "url": "https://www.ziprecruiter.com/Salaries/Ndt-Rt-Level-2-Salary",
+      "measures": "US national average for the job title, from job advertisements and user data",
+      "figure": "$61,725 a year ($29.68 an hour)",
+      "sample": "As of 17 October 2026; sample size not published"
+    },
+    "gdL2": {
+      "label": "Glassdoor, NDT Technician Level II salaries",
+      "url": "https://www.glassdoor.com/Salaries/ndt-technician-level-ii-salary-SRCH_KO0,23.htm",
+      "measures": "Self-reported US pay, split into base pay and additional pay (overtime, bonuses and similar)",
+      "figure": "Median total pay $77,000; base pay $50,000 to $73,000; additional pay $12,000 to $23,000",
+      "sample": "50 salaries; latest submission 14 August 2026"
+    },
+    "psPt3": {
+      "label": "PayScale, NDT Liquid Penetrant Testing (PT), Level III certification",
+      "url": "https://www.payscale.com/research/US/Certification=NDT_Liquid_Penetrant_Testing_(PT)%2C_Level_III/Salary",
+      "measures": "Self-reported average base salary of people who hold this certification",
+      "figure": "$102,000 average base salary",
+      "sample": "30 individuals reporting; updated 8 January 2026"
+    }
+  },
+  "industry": {
+    "source": "gdL2",
+    "text": "Glassdoor’s industry list for NDT Technician Level II puts Aerospace & Defense highest at $66,984, ahead of Energy, Mining & Utilities at $62,716 and Manufacturing at $62,475 (self-reported, 50 salaries; read 18 October 2026)."
+  },
+  "whyHeading": "Why NDT salary figures disagree",
+  "why": "The sources count different things. O*NET reports a median for the whole occupation from government wage data, and that data covers a wider group than NDT alone. ZipRecruiter averages job advertisements and user data for one job title. Glassdoor and PayScale average what individuals report, from samples of 50 and 30 people, and Glassdoor separates base pay from additional pay. Field roles with outage and turnaround work earn part of their pay as overtime, so base-pay and total-pay figures diverge.",
+  "noLevelData": "No public source we found reports US pay for each ASNT certification level across all methods. The level figures above are the closest published data, and each names its own sample.",
+  "planHeading": "From pay data to a plan",
+  "plan": "Pay follows certification, and certification follows training, documented experience and examinations under your employer’s written practice. Atlantis NDT training runs year-round and is primarily self-paced online, with monthly first-week starts and an ASNT NDT Level III answering your questions. Practicals happen in the [Practical NDT simulator](/practical-ndt) and in person at your employer’s facility. A course does not certify you: under SNT-TC-1A your employer certifies you, and ASNT also runs central ASNT NDT Level II and Level III programmes. See [NDT training](/training), [self-paced online NDT training](/ndt-training-online) and the free [NDT practice tests](/ndt-practice-tests)."
+}

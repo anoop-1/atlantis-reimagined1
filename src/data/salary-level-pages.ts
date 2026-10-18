@@ -1,40 +1,33 @@
 /**
- * Level/role-specific NDT salary page configs — 2026-08-09.
+ * Level/role-specific NDT salary page configs — 2026-08-09, rebuilt 2026-10-18.
  *
  * TARGETING EVIDENCE (GSC USA, 90d to 2026-08-06 — scripts/us-deepdive-2026-08-09.json)
- * Every page below exists because a distinct cluster of real US queries has no
- * page of its own and is currently absorbed by /blog/ndt-salary-guide-2026-global
- * at position ~8-9 with ~0% CTR:
+ *   /ndt-level-3-salary   "ndt level 3 salary", "ndt salary level 3", "level 3 ndt salary"
+ *   /ndt-level-2-salary   "level 2 ndt technician salary", "ndt salary level 2", "ndt level 2 salary"
+ *   /ndt-level-1-salary   "ndt salary level 1", "ndt level 1 salary", "ndt trainee salary"
+ *   /ndt-inspector-salary "ndt inspector salary", "ndt tech salary", "ndt specialist salary"
  *
- *   /ndt-level-3-salary   ndt level 3 salary 207 · ndt salary level 3 106 ·
- *                         level 3 ndt technician salary 49 · level 3 ndt salary 42 ·
- *                         asnt level 3 salary 23 · ndt level 3 salary per month 20
- *                         ≈ 447 impressions
- *   /ndt-level-2-salary   level 2 ndt technician salary 85 · ndt salary level 2 70 ·
- *                         ndt level 2 salary 59 · ut level 2 salary 24
- *                         ≈ 238 impressions
- *   /ndt-level-1-salary   ndt salary level 1 55 · ndt level 1 salary 47 ·
- *                         level 1 ndt technician salary 11 · ndt trainee salary 20
- *                         ≈ 133 impressions
- *   /ndt-inspector-salary ndt inspector salary 102 · ndt certification salary 49 ·
- *                         ndt tech salary 29 · ndt specialist salary 32
- *                         ≈ 212 impressions
+ * 2026-10-18 (traffic workstream, competitor teardown): every unsourced pay range is gone
+ * (the guide and these pages had given four contradictory Level II/III sets, none with a
+ * source). Each page now leads with figures read on a named source on 18 October 2026, held
+ * in ONE file, src/data/salary-sources-2026-10.json, and shows them in a "what each published
+ * source says" table with dates and sample sizes. Where no source covers a level, the page
+ * says so in words. Titles and descriptions come from the wave-16 file, so the crawler
+ * <title> and the description React shows under the H1 are the same text.
  *
- * SOURCING NOTE — the BLS discrepancy is stated openly rather than resolved.
- * BLS reports "Quality Control Inspectors" (SOC 51-9061), a category far broader
- * than NDT, and aggregator averages sample self-reported data skewed toward
- * entry roles. Both are cited with their limitation named; neither is presented
- * as the answer. This is the same treatment used on the existing salary guide.
- *
- * CLAUDE.md §18: salary figures are the SALARY_EXEMPT carve-out. No Atlantis
- * training price appears on any of these pages — CTAs route to the enquiry form.
+ * Both layers read this file: React via src/components/SalaryLevelPage.tsx, the crawler via
+ * scripts/salary-static-render.mjs. CLAUDE.md §18: salary figures are the salary carve-out;
+ * no Atlantis price appears here.
  */
 import type { SalaryLevelConfig } from "@/components/SalaryLevelPage";
+import W16 from "./ctr-wave16/traffic.json";
+
+const meta = (path: string) => (W16 as Record<string, { title: string; description: string }>)[path];
 
 const RELATED_CORE = [
-  { to: "/training", label: "NDT training courses and delivery formats" },
-  { to: "/asnt-certification", label: "ASNT certification: requirements by level" },
-  { to: "/ndt-technician-salary", label: "Full NDT technician salary guide" },
+  { to: "/blog/ndt-salary-guide-2026-global", label: "NDT technician salary guide" },
+  { to: "/training", label: "NDT training courses" },
+  { to: "/asnt-certification", label: "ASNT certification requirements by level" },
   { to: "/blog/how-to-become-ndt-technician", label: "How to become an NDT technician" },
 ];
 
@@ -43,78 +36,61 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-level-3-salary",
     h1: "NDT Level 3 Salary in 2026: What ASNT Level III Actually Pays",
-    title: "NDT Level 3 Salary 2026: $95K–$140K US Staff Pay Ranges",
-    description:
-      "A staff ASNT Level III in the US earns $95,000–$140,000 in 2026, and NDE managers reach $185,000. Pay by role, method scope, industry and region.",
+    title: meta("/ndt-level-3-salary").title,
+    description: meta("/ndt-level-3-salary").description,
     quickAnswer:
-      "A staff ASNT NDT Level III in the United States typically earns $95,000–$140,000 per year in 2026. Independent Level III consultants working refinery turnarounds, procedure approval and audit support bill considerably more on a utilisation basis, while NDE managers with Level III credentials and multi-method scope reach $140,000–$185,000. The single largest variable is not years of experience but method scope: a Level III certified in one method earns near the bottom of that band, and a Level III holding UT, RT, MT and PT together — particularly stacked with API 510, 570 or 653 — earns near the top.",
+      "PayScale’s self-reported data puts the average base salary of people holding an NDT PT Level III certification at $102,000 (30 profiles, updated January 2026), against an O*NET median of $78,350 a year for all NDT specialists. No public source reports Level III pay across every method, so treat the PayScale figure as indicative.",
+    sourceIds: ["psPt3", "onet", "gdL2"],
     drivers: [
       {
         h: "Method scope matters more than tenure",
         body:
-          "Level III is certified per method, and the commercial value of the credential scales with how many methods you can sign for. A single-method Level III can approve procedures and qualify personnel in that method only, which limits the roles you can fill. A four-method Level III can act as the responsible Level III for an entire inspection company's written practice, which is a different job with different pay. This is why two Level IIIs with identical years of experience can sit $40,000 apart.",
+          "Level III is certified per method, and the value of the credential grows with the number of methods you can sign for. A single-method Level III approves procedures and qualifies personnel in that method only. A Level III in several methods can act as the responsible Level III for an inspection company’s whole written practice, which is a different job. That is one reason Level III pay varies so much between people with similar years of experience.",
       },
       {
         h: "Employed versus independent is a different question from salary",
         body:
-          "Independent Level III consulting is billed by the day and paid only for days worked. At realistic utilisation — most independents report somewhere between half and three-quarters of the year billable once travel, business development and administration are removed — annualised earnings can exceed a staff salary, but without benefits, paid leave, or the employer covering certification renewal and insurance. The honest comparison is total package against expected billable days, not day rate against salary.",
+          "Independent Level III consulting is billed by the day and paid only for days worked. Once travel, business development and administration are taken out, not every working day is billable, and an independent pays for the benefits, leave, certification renewal and insurance that an employer would cover. The honest comparison is a total staff package against expected billable days, not a day rate against a salary.",
       },
       {
-        h: "Industry sets a floor, not a ceiling",
+        h: "Industry documentation regimes narrow the pool",
         body:
-          "Nuclear and aerospace pay the highest floors because the documentation regimes (CP-189, NAS 410 and customer-specific written practice) narrow the qualified pool substantially. Oil and gas pays comparably at the top end but with more variance tied to the capital cycle. General manufacturing and fabrication pay lowest for the same credential, because the code environment is less restrictive and the qualified pool is wider.",
+          "Nuclear work under ASNT CP-189 and aerospace work under NAS 410 add documentation and customer requirements that narrow the qualified pool. Oil and gas work follows the capital and turnaround cycle. None of the public sources above reports Level III pay by industry, so treat these as reasons pay differs, not as figures.",
       },
       {
-        h: "The API stack is the highest-leverage addition",
+        h: "An API inspector certification opens a separate track",
         body:
-          "Adding API 510, API 570 or API 653 to an existing Level III opens Authorized Inspector work that a Level III alone does not qualify you for. For inspectors already working refinery, piping or tank scope, this is generally the fastest route to a step change in earnings, because it changes which roles you are eligible for rather than making you incrementally better at the role you already have.",
+          "API 510, API 570 and API 653 are code inspector certifications for pressure vessels, piping and storage tanks. Adding one to a Level III changes which roles you are eligible for, such as Authorized Inspector work, rather than making you better paid in the role you already hold.",
       },
-    ],
-    table: {
-      caption: "US NDT Level III pay by role",
-      rows: [
-        { segment: "Staff Level III, single method", range: "$95,000–$115,000", note: "Signs procedures and qualifies personnel in one method; common first Level III role." },
-        { segment: "Staff Level III, multi-method", range: "$115,000–$140,000", note: "UT + RT + MT + PT scope; can own a company's written practice end to end." },
-        { segment: "Level III + API inspector stack", range: "$130,000–$165,000", note: "API 510/570/653 opens Authorized Inspector scope on top of Level III authority." },
-        { segment: "NDE / quality manager", range: "$140,000–$185,000", note: "Level III credential plus responsibility for programme, staff and client audits." },
-        { segment: "Nuclear-qualified Level III", range: "$130,000–$175,000", note: "CP-189 documentation regime and PDI familiarity narrow the eligible pool sharply." },
-        { segment: "Independent consulting", range: "Varies with utilisation", note: "Day-rate work; compare annualised billable days against a staff package, not rate against salary." },
-      ],
-    },
-    intl: [
-      { segment: "Middle East (UAE, Saudi, Qatar)", range: "$85,000–$135,000 tax-free equivalent", note: "Usually with accommodation, flights and medical; effective value above the nominal figure." },
-      { segment: "Canada", range: "CAD 115,000–160,000", note: "Oil sands and pipeline integrity concentrate demand in Alberta." },
-      { segment: "United Kingdom", range: "£58,000–£85,000", note: "PCN / ISO 9712 rather than ASNT; North Sea work carries a rotation premium." },
-      { segment: "Australia", range: "AUD 130,000–180,000", note: "Resources and LNG; remote-site rosters add substantially to base." },
-      { segment: "India", range: "₹18–38 lakh", note: "Senior roles at major refiners and EPCs; large gap versus Gulf packages drives migration." },
     ],
     progression: [
       {
         h: "If you are a Level II now",
         body:
-          "The gate to Level III is documented experience plus examination — the ASNT Level III basic examination and a method examination for each method you intend to hold. The practical constraint for most candidates is not the exam but assembling verifiable experience documentation across the methods they have actually worked. Start that record now, before you need it; reconstructing years of work history from memory is the step that delays most applications.",
+          "The gate to Level III is documented experience plus examination: the ASNT Level III Basic examination and a method examination for each method you intend to hold. The practical constraint for most candidates is assembling verifiable experience records across the methods they have actually worked. Start that record now; reconstructing years of work history from memory is the step that delays most applications.",
       },
       {
         h: "If you already hold Level III in one method",
         body:
-          "Adding methods is usually the highest-return next move, because it changes the roles you can fill rather than your standing within the role you have. Adding an API inspector certification is the alternative when your work is concentrated in fixed equipment, piping or tanks, since that opens a different category of work entirely.",
+          "Adding methods changes the roles you can fill rather than your standing within the role you have. An API inspector certification is the alternative when your work is concentrated in fixed equipment, piping or tanks, because it opens a different category of work.",
       },
       {
         h: "If you are considering the consulting route",
         body:
-          "The variable that decides whether independent work pays better is client concentration. Consultants with two or three anchor clients who call every turnaround do well; consultants relying on spot work do not. Most successful independents spend a period building those relationships while still employed, rather than leaving first and prospecting afterwards.",
+          "Whether independent work pays better depends on how steady the client work is. Many independents build those relationships while still employed rather than leaving first and prospecting afterwards. See [what a Level III consultant does](/consulting/ndt-consulting-level-iii) for the scope of the work.",
       },
     ],
     faqs: [
-      { q: "What is the average NDT Level 3 salary in the US?", a: "Around $95,000–$140,000 for staff roles in 2026, with the position inside that band set mainly by how many methods you are certified in. Managers with Level III credentials reach $140,000–$185,000, and Level IIIs who add API 510, 570 or 653 typically sit in the $130,000–$165,000 range because the API stack qualifies them for Authorized Inspector scope that Level III alone does not." },
-      { q: "How much does an NDT Level 3 make per month?", a: "A US staff Level III at $95,000–$140,000 per year works out to roughly $7,900–$11,700 per month gross before overtime and per-diem. Field roles supporting turnarounds often earn materially more in outage months and less between them, so the monthly figure is a poor guide to annual earnings in outage-driven work." },
-      { q: "Is ASNT Level III worth it?", a: "For anyone intending to stay in NDT long term, yes — it is the credential that changes what roles you are eligible for rather than how well you perform your current one. The step from Level II to Level III is typically the largest single earnings increase available in an NDT career. The qualification is worth less to someone planning to leave field inspection, since its value is tied to procedure approval and personnel qualification authority." },
-      { q: "How long does it take to become an NDT Level 3?", a: "Most candidates reach Level III after roughly five to ten years in the field, because the requirement is documented experience rather than elapsed time. The examination itself can be prepared for in months; assembling and verifying the experience record is what sets the timeline for most people." },
-      { q: "Does a degree increase NDT Level 3 salary?", a: "Indirectly. A degree reduces the experience hours required for certification under most schemes and helps in management tracks where the employer expects an engineering background. It has little effect on pay for a working Level III whose value is method authority. Many highly-paid Level IIIs entered the field without a degree." },
+      { q: "What is the average NDT Level 3 salary in the US?", a: "PayScale reports an average base salary of $102,000 for people holding an NDT PT Level III certification, from 30 self-reported profiles updated in January 2026. O*NET’s median for all NDT specialists is $78,350 a year. No public source reports an all-method Level III average, so the PayScale figure is the closest published number." },
+      { q: "How much does an NDT Level 3 make per month?", a: "PayScale’s $102,000 average base for PT Level III holders works out to about $8,500 a month before tax, overtime and per diem. O*NET’s $78,350 median for all NDT specialists is about $6,530 a month. Field roles that work turnarounds earn more in outage months and less between them." },
+      { q: "Is ASNT Level III worth it?", a: "For anyone staying in NDT long term it changes what you can sign for: procedures, written practices, examinations and personnel qualification in your methods. That authority is what employers pay a Level III for. It is worth less to someone planning to leave inspection work." },
+      { q: "How long does it take to become an NDT Level 3?", a: "ASNT sets Level III eligibility by documented experience, and the experience required falls as formal education rises. The examination can be prepared for in months; assembling and verifying the experience record usually sets the timeline. ASNT’s current requirements are summarised on our ASNT certification page." },
+      { q: "Does a degree increase NDT Level 3 salary?", a: "No public source isolates the effect of a degree on Level III pay. A degree reduces the experience required for ASNT Level III eligibility and helps in engineering-led management roles, but a working Level III is paid mainly for method authority." },
     ],
     related: [
       ...RELATED_CORE,
-      { to: "/ndt-level-2-salary", label: "NDT Level 2 salary — the level below" },
+      { to: "/asnt-level-iii-training", label: "ASNT Level III exam preparation" },
+      { to: "/ndt-level-2-salary", label: "NDT Level 2 salary" },
       { to: "/blog/ndt-level-iii-career-path-complete-guide", label: "Level III career path in detail" },
     ],
   },
@@ -123,79 +99,64 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-level-2-salary",
     h1: "NDT Level 2 Salary in 2026: What a Certified Level II Technician Earns",
-    title: "NDT Level 2 Salary 2026: $58K–$85K US, PAUT to $100K",
-    description:
-      "A certified NDT Level II in the US earns $58,000–$85,000 in 2026; PAUT-qualified technicians earn $78,000–$100,000. Pay by method, industry and region.",
+    title: meta("/ndt-level-2-salary").title,
+    description: meta("/ndt-level-2-salary").description,
     quickAnswer:
-      "A certified NDT Level II technician in the United States typically earns $58,000–$85,000 per year in 2026. The range is wide because method is the dominant variable: a Level II working magnetic particle and penetrant sits near the bottom, while a Level II qualified in phased array ultrasonics earns $78,000–$100,000 and more again offshore. Level II is also where overtime starts to matter — turnaround and outage work regularly adds tens of thousands to base pay, which is why annual earnings and base salary diverge sharply in field roles.",
+      "ZipRecruiter puts the US average for NDT RT Level 2 at $61,725 a year ($29.68 an hour) as of October 2026. Glassdoor’s self-reported median total pay for NDT Technician Level II is $77,000 from 50 salaries, of which base pay is $50,000 to $73,000 and additional pay, such as overtime, $12,000 to $23,000.",
+    sourceIds: ["zrRt2", "gdL2", "onet"],
     drivers: [
       {
-        h: "Method is the biggest single factor",
+        h: "Method is a large factor",
         body:
-          "Surface methods — magnetic particle and liquid penetrant — have the widest qualified pool and pay the least. Conventional ultrasonics pays a clear premium above them. Phased array and time-of-flight diffraction pay substantially more again, because the equipment is expensive, the training burden beyond basic UT is significant, and interpretation skill takes years to develop. Radiography sits between conventional UT and PAUT, with the premium reflecting radiation-safety responsibility and licensing rather than interpretive difficulty alone.",
+          "Magnetic particle and penetrant testing have the widest qualified pool. Ultrasonics, and then phased array and time-of-flight diffraction, take longer to learn and to interpret, and radiography carries radiation-safety responsibility. The public sources above do not publish US Level II pay for every method, so the method effect is described here rather than priced.",
       },
       {
         h: "Overtime is not a rounding error in field roles",
         body:
-          "Turnaround and outage work runs long shifts for concentrated periods. A Level II whose base sits at $70,000 can finish an outage-heavy year materially above that once overtime, shift premiums and per-diem are counted. This is why comparing quoted base salaries between a plant role and a field role misleads: they are different compensation structures, not different amounts of the same one.",
+          "Turnaround and outage work runs long shifts for concentrated periods. Glassdoor’s Level II data shows how much of total pay can come from additional pay: $12,000 to $23,000 on top of base pay. That is why a quoted base salary for a plant role and total pay for a field role are not like-for-like.",
       },
       {
         h: "Multi-method capability changes how you are scheduled",
         body:
-          "A technician qualified in one method can only be sent to jobs needing that method. A technician holding three or four is schedulable on almost anything, which makes them more valuable to an employer than the sum of the individual qualifications suggests. In smaller inspection companies this is often the difference between full and partial utilisation, and it shows up in pay.",
+          "A technician qualified in one method can only be sent to jobs needing that method. A technician holding three or four can be scheduled on almost anything, which makes them more useful to an employer than the individual qualifications suggest.",
       },
       {
-        h: "Where you are willing to work sets the ceiling",
+        h: "Where you are willing to work",
         body:
-          "Offshore rotations, remote sites and international assignments carry premiums that no amount of additional certification replicates onshore. The trade is real and personal rather than purely financial — rotation schedules and time away are the actual cost — but the earnings difference is large enough that it dominates most other variables for technicians willing to take it.",
+          "Offshore rotations, remote sites and international assignments usually carry allowances that onshore roles do not. Rotation schedules and time away are the real cost. None of the sources above reports these allowances separately, so ask for the full package in writing when comparing offers.",
       },
-    ],
-    table: {
-      caption: "US NDT Level II pay by method and setting",
-      rows: [
-        { segment: "MT / PT, manufacturing", range: "$52,000–$66,000", note: "Widest qualified pool; usually the entry point to Level II work." },
-        { segment: "VT / general inspection", range: "$55,000–$70,000", note: "Often combined with other methods rather than held alone." },
-        { segment: "Conventional UT", range: "$62,000–$82,000", note: "Thickness, corrosion and weld scope; the volume method in fixed-equipment work." },
-        { segment: "Radiography (RT)", range: "$65,000–$88,000", note: "Radiation-safety responsibility and licensing narrow the pool; night shift common." },
-        { segment: "PAUT / TOFD", range: "$78,000–$100,000", note: "Advanced UT; equipment and interpretation skill create persistent scarcity." },
-        { segment: "PAUT offshore / rotation", range: "$95,000–$140,000", note: "Rotation and hazard premiums on top of the advanced-method premium." },
-      ],
-    },
-    intl: [
-      { segment: "Middle East (UAE, Saudi, Qatar)", range: "$32,000–$70,000 tax-free equivalent", note: "Nominally lower, but tax-free with accommodation and flights typically included." },
-      { segment: "Canada", range: "CAD 70,000–105,000", note: "Alberta pipeline and oil sands work concentrates the higher end." },
-      { segment: "United Kingdom", range: "£34,000–£55,000", note: "PCN / ISO 9712; North Sea rotation adds a substantial premium." },
-      { segment: "Australia", range: "AUD 85,000–125,000", note: "Resources sector; FIFO rosters materially above city-based roles." },
-      { segment: "India", range: "₹4.5–12 lakh", note: "Strong domestic demand from refinery expansion; Gulf migration common at Level II." },
     ],
     progression: [
       {
-        h: "Add an advanced method before adding years",
+        h: "Add an advanced method",
         body:
-          "For most Level IIs the fastest available increase is qualifying in phased array. It is the clearest step change in the pay table and the demand for it has been persistent rather than cyclical, because the proportion of certified UT technicians who hold it remains small relative to how much of the work now specifies it.",
+          "Phased array is a common next qualification for UT Level IIs because more work specifies it. Under SNT-TC-1A your employer qualifies you in it through its written practice, with its own training and practical examination. You can rehearse the set-up in the [phased array UT simulator](/practical-ndt/phased-array-ut-simulator).",
       },
       {
         h: "Consider the API route if you work fixed equipment",
         body:
-          "If your work is concentrated in pressure vessels, piping or storage tanks, an API inspector certification changes the category of role you can hold rather than incrementally improving your current one. It is a different examination discipline from NDT method certification — code knowledge rather than technique — and candidates from a purely field background usually need dedicated preparation for it.",
+          "If your work is concentrated in pressure vessels, piping or storage tanks, an API inspector certification changes the category of role you can hold. It is a different examination discipline from NDT method certification (code knowledge rather than technique) and usually needs dedicated preparation.",
       },
       {
         h: "Level III is the long game",
         body:
-          "Level III roughly changes the earnings band again, but the requirement is documented experience across methods. The practical advice at Level II is to keep a contemporaneous record of the work you do in each method, because that record is what the eventual application depends on and it is very hard to reconstruct later.",
+          "Level III changes what you can sign for, and the requirement is documented experience across methods. Keep a contemporaneous record of the work you do in each method, because the eventual application depends on it and it is very hard to reconstruct later.",
       },
     ],
     faqs: [
-      { q: "What is the average NDT Level 2 salary in the US?", a: "Around $58,000–$85,000 in 2026 for base salary, with method the dominant variable. MT and PT sit near the bottom of that range, conventional UT in the middle, and PAUT-qualified Level IIs at $78,000–$100,000. Field roles with outage overtime frequently earn well above base." },
-      { q: "How much does a UT Level 2 make?", a: "A conventional ultrasonic Level II in the US typically earns $62,000–$82,000 base. Adding phased array to that qualification generally moves the same technician into the $78,000–$100,000 range, which is why PAUT is the most commonly recommended next step for UT technicians." },
-      { q: "How long does it take to get to Level 2?", a: "Most technicians reach Level II one to three years after starting at Level I. The scheme requires documented training hours and on-the-job experience in each method, so the timeline depends on how consistently you work in the method you are certifying in rather than on total time in the industry." },
-      { q: "Do Level 2 technicians earn more offshore?", a: "Substantially, yes — commonly 30 to 60 percent above the equivalent onshore role once rotation and hazard premiums are included, and more for advanced methods. The trade is rotation schedules and time away from home rather than any difference in the technical work itself." },
-      { q: "Is NDT Level 2 enough to make a good living?", a: "Yes. Level II with an advanced method is a comfortable career-length position and many technicians remain there by choice. The reason people move to Level III is usually a preference for procedure, programme and personnel responsibility over field work, rather than pay alone." },
+      { q: "What is the average NDT Level 2 salary in the US?", a: "ZipRecruiter’s US average for NDT RT Level 2 is $61,725 a year as of October 2026. Glassdoor’s self-reported median total pay for NDT Technician Level II is $77,000 from 50 salaries, including additional pay such as overtime. The two differ because one averages job advertisements and the other averages what technicians report." },
+      { q: "How much does a UT Level 2 make?", a: "We found no public US figure for UT Level 2 on its own. The closest published Level II figures are ZipRecruiter’s $61,725 average for NDT RT Level 2 and Glassdoor’s $77,000 median total pay for NDT Technician Level II, which covers several methods." },
+      { q: "How long does it take to get to Level 2?", a: "It depends on the training hours and on-the-job experience your employer’s written practice requires for the method, and on how consistently you work in that method. Use the SNT-TC-1A hours planner to see the recommended minimum hours for each method." },
+      { q: "Do Level 2 technicians earn more offshore?", a: "Offshore and rotation roles usually add allowances to base pay, but none of the public sources we checked reports them separately. Compare offers on total package: base pay, overtime rules, rotation allowance, per diem and travel." },
+      { q: "Is NDT Level 2 enough to make a good living?", a: "Glassdoor’s self-reported median total pay for NDT Technician Level II is $77,000, close to O*NET’s $78,350 median for all NDT specialists. Many technicians stay at Level II by choice; people move to Level III mainly for procedure, programme and personnel responsibility." },
     ],
     related: [
       ...RELATED_CORE,
-      { to: "/ndt-level-3-salary", label: "NDT Level 3 salary — the level above" },
-      { to: "/ndt-level-1-salary", label: "NDT Level 1 salary — where most people start" },
+      { to: "/blog/ut-level-2-practice-questions", label: "UT Level 2 practice test" },
+      { to: "/ut-level-2-training", label: "UT Level 2 training" },
+      { to: "/practical-ndt/ultrasonic-testing-simulator", label: "Practise UT in a browser" },
+      { to: "/ndt-level-3-salary", label: "NDT Level 3 salary" },
+      { to: "/ndt-level-1-salary", label: "NDT Level 1 salary" },
     ],
   },
 
@@ -203,77 +164,61 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-level-1-salary",
     h1: "NDT Level 1 Salary in 2026: Entry-Level Pay and How Fast It Rises",
-    title: "NDT Level 1 Salary 2026: $42K–$58K Entry-Level US Pay",
-    description:
-      "An NDT Level I technician in the US earns $42,000–$58,000 in 2026. How fast pay rises to Level II, and what entry takes, including without a degree.",
+    title: meta("/ndt-level-1-salary").title,
+    description: meta("/ndt-level-1-salary").description,
     quickAnswer:
-      "An NDT Level I technician in the United States typically earns $42,000–$58,000 per year in 2026, and trainees starting before certification usually begin near the bottom of that range. Level I is deliberately a short stage: most technicians certify to Level II within one to three years, and pay rises with it to $58,000–$85,000. The important number for anyone considering entry is therefore not the Level I salary but how quickly it is left behind, because Level I is an apprenticeship stage rather than a destination.",
+      "No public source reports US pay for NDT Level I on its own. The nearest published figures are ZipRecruiter’s national average of $54,939 a year ($26.41 an hour) for non-destructive inspectors, as of October 2026, and O*NET’s median of $78,350 for all NDT specialists, which includes experienced technicians. Level I is a training stage, and pay rises with certification.",
+    sourceIds: ["zrInspector", "onet", "gdL2"],
     drivers: [
       {
         h: "Level I is a stage, not a career grade",
         body:
-          "Under both SNT-TC-1A and ISO 9712, a Level I performs examinations to written instruction and does not independently interpret results. That limitation is precisely why the pay is what it is, and why the stage is short. Employers hiring at Level I are generally hiring for Level II two years out, and the pay curve reflects that expectation rather than the value of the Level I work in isolation.",
+          "Under both SNT-TC-1A and ISO 9712, a Level I performs examinations to written instruction and does not independently evaluate results. That limitation is why entry pay sits below the figures for certified Level II technicians, and why employers hiring at Level I are usually hiring for Level II later.",
       },
       {
-        h: "Who is paying makes an unusually large difference at entry",
+        h: "Who is paying makes a large difference at entry",
         body:
-          "Level I pay varies more by employer type than by anything the candidate controls. Large inspection service companies and industrial employers with structured training programmes generally pay more at entry and progress people faster, because they have a pipeline to fill. Smaller shops sometimes pay less at entry but offer broader exposure across methods, which can accelerate the Level II timeline.",
+          "Entry pay varies by employer type. Inspection service companies and industrial employers with structured training programmes often progress people faster because they have a pipeline to fill. Smaller shops can offer broader exposure across methods, which can help later.",
       },
       {
-        h: "The method you enter through shapes the next five years",
+        h: "The method you enter through shapes the next steps",
         body:
-          "Many people enter through magnetic particle and penetrant because the training burden is lowest. That is a legitimate route, but the earnings ceiling on surface methods is real. Entering through, or moving quickly into, ultrasonics puts you on the branch of the career that leads to phased array, which is where the sustained premium sits.",
+          "Many people enter through magnetic particle and penetrant testing because the training burden is lowest. Entering through, or moving quickly into, ultrasonics puts you on the branch of the career that leads to phased array and TOFD.",
       },
       {
-        h: "Employer-sponsored training changes the economics entirely",
+        h: "Employer-sponsored training changes the economics",
         body:
-          "A meaningful proportion of NDT technicians never personally pay for certification, because the employer funds training and examination in exchange for a commitment period. For anyone weighing entry, finding an employer who sponsors is generally worth more than optimising the starting salary by a few thousand dollars.",
+          "Many employers fund training and examination for new technicians, often in exchange for a commitment period. For anyone weighing entry, finding an employer who sponsors is usually worth more than a slightly higher starting wage.",
       },
-    ],
-    table: {
-      caption: "US NDT Level I and trainee pay",
-      rows: [
-        { segment: "Trainee / assistant, pre-certification", range: "$38,000–$48,000", note: "Working under supervision while accumulating documented experience hours." },
-        { segment: "Level I, surface methods (MT/PT/VT)", range: "$42,000–$54,000", note: "Most common entry point; shortest training path." },
-        { segment: "Level I, ultrasonics", range: "$46,000–$60,000", note: "Longer training path, and the branch that leads to advanced-method pay later." },
-        { segment: "Level I, radiography assistant", range: "$46,000–$62,000", note: "Radiation-safety training required; shift work common and often premium-paid." },
-        { segment: "Level I, field / turnaround work", range: "$45,000–$58,000 plus overtime", note: "Base understates annual earnings materially in outage-heavy years." },
-      ],
-    },
-    intl: [
-      { segment: "Middle East (UAE, Saudi, Qatar)", range: "$16,000–$32,000 tax-free equivalent", note: "Entry roles usually recruit already-certified technicians rather than trainees." },
-      { segment: "Canada", range: "CAD 50,000–70,000", note: "CAN/CGSB-48.9712 certification, issued by NRCan or CWB Group; strong apprenticeship structure." },
-      { segment: "United Kingdom", range: "£24,000–£34,000", note: "PCN scheme; some employers run formal apprenticeships from school-leaver level." },
-      { segment: "Australia", range: "AUD 60,000–82,000", note: "AINDT scheme; resources employers commonly sponsor training." },
-      { segment: "India", range: "₹2.5–5 lakh", note: "Large entry pipeline; ISNT and ASNT routes both common." },
     ],
     progression: [
       {
-        h: "Getting to Level II is the whole objective",
+        h: "Getting to Level II is the objective",
         body:
-          "The requirement is documented training hours plus on-the-job experience in the specific method, then examination. Because the experience must be in the method you are certifying in, the fastest route is consistent work in one or two methods rather than scattered exposure across many. Ask about this explicitly when taking an entry role — an employer who can give you concentrated hours in ultrasonics will get you to Level II faster than one who rotates you across everything.",
+          "The requirement is documented training hours plus on-the-job experience in the specific method, then examination. Because the experience must be in the method you are certifying in, consistent work in one or two methods is faster than scattered exposure across many. Ask about this when taking an entry role.",
       },
       {
         h: "Keep your own experience record from day one",
         body:
-          "Your employer maintains records, but employers change and records get lost. Technicians who keep a personal, contemporaneous log of methods, hours, equipment and supervisors have a far easier time at every subsequent certification step, including Level III years later. This costs nothing at the time and is very expensive to reconstruct.",
+          "Your employer keeps records, but employers change. Technicians who keep a personal, contemporaneous log of methods, hours, equipment and supervisors find every later certification step easier, including Level III years later.",
       },
       {
-        h: "Do not skip the vision requirement",
+        h: "Check the vision requirement first",
         body:
-          "Certification schemes require near-vision acuity and colour-contrast differentiation, examined annually. This catches people out at entry and again at renewal. Check it before committing to the path rather than after paying for training.",
+          "Certification schemes require a near-vision examination, repeated at least annually, and a colour contrast check. This catches people out at entry and again at renewal, so check it before committing to the path.",
       },
     ],
     faqs: [
-      { q: "What is the starting salary for NDT?", a: "Around $42,000–$58,000 for a certified Level I in the US in 2026, with pre-certification trainees typically starting at $38,000–$48,000. Because Level I is a short stage, most technicians are earning at Level II rates — $58,000–$85,000 — within one to three years." },
-      { q: "Can I get into NDT with a GED or high school diploma?", a: "Yes. Neither SNT-TC-1A nor ISO 9712 requires a college degree for Level I or Level II. A high school diploma or GED is the normal entry credential, and certification is based on documented training hours, on-the-job experience and examination. A degree can reduce required experience hours under some schemes but is not a prerequisite." },
-      { q: "How much does an NDT trainee earn?", a: "Typically $38,000–$48,000 in the US while accumulating supervised experience hours before certification. Many employers sponsor the training and examination costs during this period in exchange for a commitment period, which is worth more than a marginally higher starting wage." },
-      { q: "How long do you stay at Level 1?", a: "Usually one to three years. The scheme requires documented experience in the specific method being certified, so the timeline depends on how consistently you work in that method rather than total time employed." },
-      { q: "Is NDT worth getting into at entry-level pay?", a: "The entry pay is modest but the curve is steep and the destination is well-paid — a PAUT-qualified Level II earns $78,000–$100,000 and a multi-method Level III $115,000–$140,000. The relevant comparison is not the starting wage against other entry jobs, but where the path leads in five years relative to the alternatives." },
+      { q: "What is the starting salary for NDT?", a: "No public source reports US Level I pay on its own. ZipRecruiter’s national average for non-destructive inspectors is $54,939 a year ($26.41 an hour) as of October 2026, and that title includes certified inspectors as well as new starters. O*NET’s $78,350 median covers the whole NDT specialist occupation." },
+      { q: "Can I get into NDT with a GED or high school diploma?", a: "Yes. In O*NET’s survey of the occupation, 68% of respondents said a new hire needs a high school diploma or equivalent. Neither SNT-TC-1A nor ISO 9712 requires a college degree for Level I or Level II; certification rests on documented training, experience and examination." },
+      { q: "How much does an NDT trainee earn?", a: "We found no public US figure for NDT trainees before certification. Ask employers for the trainee rate, the rate after Level I and Level II certification, and whether they fund the training and examinations." },
+      { q: "How long do you stay at Level 1?", a: "It depends on the experience your employer’s written practice requires for Level II in the method and on how consistently you work in that method. The SNT-TC-1A hours planner shows the recommended minimum training and experience hours by method." },
+      { q: "Is NDT worth getting into at entry-level pay?", a: "Entry pay is modest, but published figures for certified technicians are higher: Glassdoor’s self-reported median total pay for NDT Technician Level II is $77,000, and O*NET’s median for all NDT specialists is $78,350 a year." },
     ],
     related: [
       ...RELATED_CORE,
-      { to: "/ndt-level-2-salary", label: "NDT Level 2 salary — the next step" },
+      { to: "/tools/snt-tc-1a-hours-planner", label: "SNT-TC-1A hours planner" },
+      { to: "/ndt-level-2-salary", label: "NDT Level 2 salary" },
       { to: "/blog/what-is-ndt-beginners-guide", label: "What is NDT? A beginner's guide" },
       { to: "/blog/is-ndt-a-good-career", label: "Is NDT a good career?" },
     ],
@@ -283,79 +228,62 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-inspector-salary",
     h1: "NDT Inspector Salary in 2026: What Certified Inspectors Earn in the US",
-    title: "NDT Inspector Salary 2026: $65K–$90K Median US Pay",
-    description:
-      "Certified NDT inspectors in the US earn a median $65,000–$90,000 in 2026, from $42,000 at entry to $185,000 for Level III managers. By level and industry.",
+    title: meta("/ndt-inspector-salary").title,
+    description: meta("/ndt-inspector-salary").description,
     quickAnswer:
-      "Certified NDT inspectors in the United States earn a median of roughly $65,000–$90,000 in 2026, with the full working range running from about $42,000 at entry to $185,000 for Level III managers and API-stacked senior inspectors. Published averages for this role vary more than for almost any comparable trade, because the US Bureau of Labor Statistics reports NDT inspectors inside the much broader 'Quality Control Inspectors' category while salary aggregators sample self-reported data weighted toward entry-level roles. Neither number describes a working certified inspector well, which is why the table below is broken out by certification and industry instead.",
+      "ZipRecruiter’s US average for non-destructive inspectors is $54,939 a year ($26.41 an hour) as of 17 October 2026, while O*NET reports a median of $78,350 a year for NDT specialists from BLS wage data for a broader occupational group. The two measure different populations: job-advertisement averages for one title against government wage data for the occupation.",
+    sourceIds: ["zrInspector", "onet", "gdL2", "psPt3"],
     drivers: [
       {
         h: "Why the published averages disagree",
         body:
-          "The BLS occupational category that contains NDT also contains a large population of general quality inspectors in light manufacturing, which pulls the reported median down. Salary aggregators have the opposite bias in a different direction: they oversample people early in their careers who are actively job-hunting and self-reporting. The practical answer is that neither figure is wrong about what it measures, and neither measures a certified NDT inspector specifically. Read the certification-level bands instead.",
+          "Government data does not isolate NDT inspectors: O*NET’s figure for Non-Destructive Testing Specialists comes from BLS wage data for the wider SOC 17-3029 group of engineering technologists and technicians. Job-site averages such as ZipRecruiter’s come from advertisements and user data for one job title. Neither is wrong about what it measures, and neither measures a certified inspector at a given level, which is why the table above names each source’s measure, sample and date.",
       },
       {
         h: "Certification level is the primary determinant",
         body:
-          "Pay follows certification authority almost linearly. Level I performs to instruction, Level II interprets and reports, Level III approves procedures and qualifies people. Each step changes what you are permitted to sign for, and that permission is what employers are actually paying for. Job titles vary between companies; certification level does not.",
+          "Pay follows certification authority. A Level I performs to instruction, a Level II interprets and reports, and a Level III approves procedures and qualifies people. Each step changes what you are permitted to sign for. Job titles vary between companies; certification level does not.",
       },
       {
         h: "API certifications create a separate track",
         body:
-          "API 510, 570 and 653 are code inspector certifications rather than NDT method certifications, and they qualify holders for Authorized Inspector roles in pressure vessels, piping and storage tanks respectively. Inspectors holding both an NDT level and an API certification occupy a narrow, well-paid segment because relatively few people hold both.",
+          "API 510, 570 and 653 are code inspector certifications rather than NDT method certifications, and they qualify holders for inspector roles on pressure vessels, piping and storage tanks. Inspectors holding both an NDT level and an API certification can be assigned to a wider range of work.",
       },
       {
-        h: "Industry premium is real and persistent",
+        h: "Industry and setting",
         body:
-          "Aerospace and nuclear pay above general industry for equivalent credentials, because their documentation regimes restrict who is eligible. Oil and gas pays comparably at the top but varies with the capital cycle. General manufacturing pays least. These differences have been stable across cycles and are not a temporary artefact of any one year's demand.",
+          "Glassdoor’s industry list for NDT Technician Level II puts Aerospace & Defense highest at $66,984, ahead of Energy, Mining & Utilities at $62,716 and Manufacturing at $62,475. Field roles add overtime and allowances on top of base pay.",
       },
-    ],
-    table: {
-      caption: "US NDT inspector pay by certification and role",
-      rows: [
-        { segment: "Level I / trainee inspector", range: "$42,000–$58,000", note: "Examines to written instruction under supervision; a one-to-three year stage." },
-        { segment: "Level II inspector", range: "$58,000–$85,000", note: "Interprets and reports independently; method determines position in band." },
-        { segment: "Level II, advanced methods", range: "$78,000–$100,000", note: "PAUT, TOFD and automated UT; persistent shortage relative to specified work." },
-        { segment: "API 510 / 570 / 653 inspector", range: "$85,000–$130,000", note: "Code inspector authority for vessels, piping and tanks; often stacked with NDT levels." },
-        { segment: "Level III inspector", range: "$95,000–$140,000", note: "Procedure approval and personnel qualification; method scope sets the position." },
-        { segment: "NDE / inspection manager", range: "$140,000–$185,000", note: "Programme, staff and client-audit responsibility on top of technical authority." },
-      ],
-    },
-    intl: [
-      { segment: "Middle East (UAE, Saudi, Qatar)", range: "$32,000–$135,000 tax-free equivalent", note: "Wide band across levels; packages usually include accommodation and flights." },
-      { segment: "Canada", range: "CAD 70,000–160,000", note: "CGSB scheme; Alberta integrity work concentrates the upper end." },
-      { segment: "United Kingdom", range: "£34,000–£85,000", note: "PCN / ISO 9712; offshore rotation adds materially at every level." },
-      { segment: "Australia", range: "AUD 85,000–180,000", note: "AINDT scheme; resources and LNG with remote-site rosters." },
-      { segment: "India", range: "₹4.5–38 lakh", note: "Very wide band; senior refinery and EPC roles at the top end." },
     ],
     progression: [
       {
         h: "Identify which track you are on",
         body:
-          "There are two distinct advancement routes and they reward different work. The method track runs Level I to II to III and is about examination authority. The code track runs through API certifications and is about inspection authority over equipment. Many senior inspectors hold both, but they are separate examinations with separate preparation, and it is worth being deliberate about which one your current work supports.",
+          "There are two advancement routes. The method track runs Level I to II to III and is about examination authority. The code track runs through API certifications and is about inspection authority over equipment. Many senior inspectors hold both, but they are separate examinations with separate preparation.",
       },
       {
-        h: "Advanced methods are the reliable mid-career move",
+        h: "Advanced methods are a common mid-career move",
         body:
-          "For inspectors already at Level II, phased array is the most consistently valuable addition — it is specified on more work each year while the proportion of technicians qualified in it remains small. The premium has held for long enough to be structural rather than cyclical.",
+          "For inspectors already at Level II, phased array and TOFD are common additions because more work specifies them. Your employer qualifies you in each through its written practice.",
       },
       {
         h: "Document everything, continuously",
         body:
-          "Every subsequent certification step depends on verifiable experience records. Inspectors who maintain their own contemporaneous log — methods, hours, equipment, supervising Level III — progress faster than equally experienced colleagues who have to reconstruct it. This is the single cheapest career investment available in this field.",
+          "Every later certification step depends on verifiable experience records. Inspectors who keep their own contemporaneous log of methods, hours, equipment and the supervising Level III progress more easily than equally experienced colleagues who have to reconstruct it.",
       },
     ],
     faqs: [
-      { q: "How much do NDT inspectors make?", a: "Certified NDT inspectors in the US typically earn $65,000–$90,000 as a working median in 2026, ranging from about $42,000 at entry to $185,000 for inspection managers. Certification level is the primary determinant, followed by method and industry." },
-      { q: "Why do NDT salary figures vary so much online?", a: "Because the two most-cited sources measure different populations. BLS reports NDT inside the broad 'Quality Control Inspectors' occupational category, which includes many general manufacturing inspectors and pulls the median down. Salary aggregators rely on self-reported data weighted toward early-career job seekers. Neither isolates certified NDT inspectors, which is why certification-level bands are more useful than any single average." },
-      { q: "What certification pays the most in NDT?", a: "ASNT Level III combined with an API inspector certification is the highest-paying common combination, because it carries both examination authority and code inspection authority. Among method certifications alone, phased array ultrasonics carries the largest and most persistent premium at Level II." },
-      { q: "Do NDT inspectors need a degree?", a: "No. Certification under SNT-TC-1A and ISO 9712 is based on documented training, experience and examination rather than academic qualification. A degree can reduce required experience hours under some schemes and helps in management tracks, but many senior inspectors and Level IIIs entered without one." },
-      { q: "Is NDT inspection a stable career?", a: "It is relatively stable because inspection is non-discretionary in regulated industries — it is mandated by code rather than chosen, so it continues through downturns in a way that discretionary capital work does not. Demand also has a demographic tailwind, since a large share of experienced Level II and III inspectors are approaching retirement." },
+      { q: "How much do NDT inspectors make?", a: "ZipRecruiter’s US average for non-destructive inspectors is $54,939 a year ($26.41 an hour) as of 17 October 2026. O*NET’s median for NDT specialists is $78,350 a year, and Glassdoor’s self-reported median total pay for NDT Technician Level II is $77,000 from 50 salaries." },
+      { q: "Why do NDT salary figures vary so much online?", a: "The sources count different things. O*NET reports a median for a wider occupational group from government wage data, ZipRecruiter averages job advertisements for one title, and Glassdoor and PayScale average what individuals report from small samples. Base pay and total pay with overtime also differ in field roles." },
+      { q: "What certification pays the most in NDT?", a: "No public source ranks NDT certifications by pay. The highest single figure we found is PayScale’s $102,000 average base for NDT PT Level III holders, from 30 profiles. Level III, and API inspector certifications held alongside an NDT level, change what you can sign for, which is what employers pay for." },
+      { q: "Do NDT inspectors need a degree?", a: "No. Certification under SNT-TC-1A and ISO 9712 rests on documented training, experience and examination. In O*NET’s survey, 68% of respondents said a new hire needs a high school diploma or equivalent. A degree can reduce the experience required for ASNT Level III." },
+      { q: "Is NDT inspection a stable career?", a: "Inspection in regulated industries is required by codes and owners rather than chosen, so it continues through downturns more than discretionary work does. O*NET projects average growth for the occupation group, 3% to 4% from 2025 to 2035, with 5,400 projected openings." },
     ],
     related: [
       ...RELATED_CORE,
-      { to: "/ndt-level-3-salary", label: "NDT Level 3 salary in detail" },
-      { to: "/api-inspector-guide", label: "API 510 / 570 / 653 inspector guide" },
+      { to: "/ndt-level-3-salary", label: "NDT Level 3 salary" },
+      { to: "/ndt-level-2-salary", label: "NDT Level 2 salary" },
+      { to: "/api-inspector-guide", label: "API 510, 570 and 653 inspector guide" },
     ],
   },
 ];

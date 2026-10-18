@@ -29,14 +29,10 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { RankSalaryNote } from "@/components/RankWave14Block"; // 2026-10-17 §58: sourced data note, author, date (same HTML as the crawler)
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { ChevronDown, ChevronUp, TrendingUp, MapPin, Award, ArrowRight } from "lucide-react";
-
-export interface SalaryRow {
-  segment: string;
-  range: string;
-  note: string;
-}
+import { TrendingUp, Award, ArrowRight } from "lucide-react";
+// 2026-10-18: sourced figures only, same HTML as the crawler (scripts/salary-static-render.mjs).
+import SALARY_SOURCES from "@/data/salary-sources-2026-10.json";
+import { sourceTableHtml, whyHtml, planHtml, inlineLinks } from "@/data/salary-sources-2026-10.mjs";
 
 export interface SalaryLevelConfig {
   /** Route path, e.g. "/ndt-level-3-salary" */
@@ -45,14 +41,12 @@ export interface SalaryLevelConfig {
   h1: string;
   title: string;
   description: string;
-  /** The direct answer. First screen, one paragraph, leads with the number. */
+  /** The direct answer. First screen, one paragraph, leads with a sourced figure. */
   quickAnswer: string;
-  /** Sub-heading answering "what the number depends on". */
+  /** Rows of the shared source table (keys of src/data/salary-sources-2026-10.json sources). */
+  sourceIds: string[];
+  /** Sub-heading answering "what the number depends on". Bodies may carry [text](/url) links. */
   drivers: { h: string; body: string }[];
-  /** US-first pay table. */
-  table: { caption: string; rows: SalaryRow[] };
-  /** International comparison rows. */
-  intl: SalaryRow[];
   /** How to move up from here. */
   progression: { h: string; body: string }[];
   faqs: { q: string; a: string }[];
@@ -61,7 +55,6 @@ export interface SalaryLevelConfig {
 }
 
 export default function SalaryLevelPage({ config }: { config: SalaryLevelConfig }) {
-  const [open, setOpen] = useState<number | null>(0);
 
   return (
     <div className="min-h-screen bg-white">
@@ -98,111 +91,54 @@ export default function SalaryLevelPage({ config }: { config: SalaryLevelConfig 
             </a>
           </div>
 
+          {/* What each published source says (one source file, same HTML as the crawler) */}
+          <div className="prose max-w-none [&_table]:w-full [&_table]:text-sm [&_table]:border [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_td]:px-3 [&_td]:py-2 [&_td]:border-t [&_thead]:bg-slate-100 [&_a]:text-blue-700 [&_a]:underline"
+            dangerouslySetInnerHTML={{ __html: sourceTableHtml(SALARY_SOURCES, config.sourceIds) + whyHtml(SALARY_SOURCES, true) }} />
+
           {/* What moves the number */}
           <section>
             <h2 className="text-2xl font-bold mb-5 flex items-center gap-2">
-              <TrendingUp className="w-6 h-6 text-blue-600" /> What actually moves this number
+              <TrendingUp className="w-6 h-6 text-blue-600" /> What moves the number
             </h2>
             <div className="space-y-5">
               {config.drivers.map((d, i) => (
                 <div key={i}>
                   <h3 className="font-semibold text-lg text-slate-900">{d.h}</h3>
-                  <p className="text-slate-700 mt-1">{d.body}</p>
+                  <p className="text-slate-700 mt-1 [&_a]:text-blue-700 [&_a]:underline" dangerouslySetInnerHTML={{ __html: inlineLinks(d.body) }} />
                 </div>
               ))}
-            </div>
-          </section>
-
-          {/* US pay table */}
-          <section>
-            <h2 className="text-2xl font-bold mb-4">{config.table.caption}</h2>
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border border-slate-200 text-sm">
-                <thead className="bg-slate-100">
-                  <tr>
-                    <th className="px-4 py-3">Segment</th>
-                    <th className="px-4 py-3">Typical range (USD/yr)</th>
-                    <th className="px-4 py-3">What drives it</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {config.table.rows.map((r, i) => (
-                    <tr key={i} className="border-t">
-                      <td className="px-4 py-3 font-medium">{r.segment}</td>
-                      <td className="px-4 py-3 text-blue-700 whitespace-nowrap">{r.range}</td>
-                      <td className="px-4 py-3 text-slate-700">{r.note}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <p className="text-xs text-slate-500 mt-2">
-              Ranges reflect base salary before overtime, per-diem and rotation premiums, which are
-              material in field roles. See the driver notes above for how each figure is composed.
-            </p>
-          </section>
-
-          {/* International */}
-          <section>
-            <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-              <MapPin className="w-6 h-6 text-blue-600" /> How this compares outside the US
-            </h2>
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border border-slate-200 text-sm">
-                <thead className="bg-slate-100">
-                  <tr>
-                    <th className="px-4 py-3">Market</th>
-                    <th className="px-4 py-3">Typical range</th>
-                    <th className="px-4 py-3">Context</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {config.intl.map((r, i) => (
-                    <tr key={i} className="border-t">
-                      <td className="px-4 py-3 font-medium">{r.segment}</td>
-                      <td className="px-4 py-3 text-blue-700 whitespace-nowrap">{r.range}</td>
-                      <td className="px-4 py-3 text-slate-700">{r.note}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
             </div>
           </section>
 
           {/* Progression */}
           <section>
             <h2 className="text-2xl font-bold mb-5 flex items-center gap-2">
-              <Award className="w-6 h-6 text-blue-600" /> How to move up from here
+              <Award className="w-6 h-6 text-blue-600" /> Moving up from here
             </h2>
             <div className="space-y-5">
               {config.progression.map((d, i) => (
                 <div key={i}>
                   <h3 className="font-semibold text-lg text-slate-900">{d.h}</h3>
-                  <p className="text-slate-700 mt-1">{d.body}</p>
+                  <p className="text-slate-700 mt-1 [&_a]:text-blue-700 [&_a]:underline" dangerouslySetInnerHTML={{ __html: inlineLinks(d.body) }} />
                 </div>
               ))}
             </div>
           </section>
 
-          {/* FAQ */}
+          {/* FAQ: every answer visible, as in the crawler HTML (FAQPage is built from these) */}
           <section>
-            <h2 className="text-2xl font-bold mb-4">Questions people actually ask</h2>
-            <div className="divide-y border rounded-lg">
+            <h2 className="text-2xl font-bold mb-4">Questions people ask about this pay band</h2>
+            <div className="space-y-5">
               {config.faqs.map((f, i) => (
                 <div key={i}>
-                  <button
-                    className="w-full text-left px-4 py-3 flex justify-between items-center gap-4 font-medium"
-                    onClick={() => setOpen(open === i ? null : i)}
-                    aria-expanded={open === i}
-                  >
-                    <span>{f.q}</span>
-                    {open === i ? <ChevronUp className="w-5 h-5 shrink-0" /> : <ChevronDown className="w-5 h-5 shrink-0" />}
-                  </button>
-                  {open === i && <p className="px-4 pb-4 text-slate-700">{f.a}</p>}
+                  <h3 className="font-semibold text-lg text-slate-900">{f.q}</h3>
+                  <p className="text-slate-700 mt-1">{f.a}</p>
                 </div>
               ))}
             </div>
           </section>
+
+          <div className="prose max-w-none [&_a]:text-blue-700 [&_a]:underline" dangerouslySetInnerHTML={{ __html: planHtml(SALARY_SOURCES) }} />
 
           {/* Conversion — no pricing anywhere, enquiry only (CLAUDE.md §18) */}
           <section id="training-enquiry-inline" className="bg-blue-50 border border-blue-200 rounded-xl p-6 scroll-mt-24">
