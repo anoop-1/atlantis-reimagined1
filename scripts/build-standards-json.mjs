@@ -40,7 +40,7 @@ const METHODS = {
   iso9712: '/blog/iso-9712-certification-process-step-by-step-guide',
   iso3452: '/blog/iso-3452-penetrant-testing-specification',
   iso9934: '/blog/iso-9934-magnetic-particle-testing-standards',
-  astme165: '/blog/astm-e165-pt-standard-test-method-2028',
+  astme165: '/glossary/astm-e165', // 2026-10-18: the -2028 template post is retired (301 to the glossary owner)
   astme1444: '/blog/astm-e1444-radiographic-interpretation-guide',
   cui: '/blog/corrosion-under-insulation-cui-detection-guide',
   pipe: '/blog/ndt-pipeline-integrity-inspection-guide',
@@ -101,7 +101,7 @@ standards.push({
   ],
   applicableMethods: [
     { label: 'Radiographic Testing (RT)', href: METHODS.rt },
-    { label: 'ASTM E165 Radiographic Standards', href: METHODS.astme165 },
+    { label: 'ASTM E165 liquid penetrant testing explained', href: METHODS.astme165 },
     { label: 'ASME Section V Overview', href: METHODS.asmev },
   ],
   issuingBody: 'ASME',
@@ -575,7 +575,7 @@ standards.push({
   ],
   applicableMethods: [
     { label: 'Radiographic Testing (RT)', href: METHODS.rt },
-    { label: 'ASTM E165 Radiographic Standards', href: METHODS.astme165 },
+    { label: 'ASTM E165 liquid penetrant testing explained', href: METHODS.astme165 },
   ],
   issuingBody: 'ASTM',
   category: 'guide',
@@ -600,7 +600,7 @@ standards.push({
   applicableMethods: [
     { label: 'Liquid Penetrant Testing (PT)', href: METHODS.pt },
     { label: 'ISO 3452 PT Specification', href: METHODS.iso3452 },
-    { label: 'ASTM E165 RT Standards Reference (related)', href: METHODS.astme165 },
+    { label: 'ASTM E165 liquid penetrant testing (related)', href: METHODS.astme165 },
   ],
   issuingBody: 'ASTM',
   category: 'practice',
@@ -752,7 +752,7 @@ standards.push({
   ],
   applicableMethods: [
     { label: 'Radiographic Testing (RT)', href: METHODS.rt },
-    { label: 'ASTM E165 Radiographic Standards', href: METHODS.astme165 },
+    { label: 'ASTM E165 liquid penetrant testing explained', href: METHODS.astme165 },
     { label: 'Weld Inspection Methods', href: METHODS.weld },
   ],
   issuingBody: 'ISO',

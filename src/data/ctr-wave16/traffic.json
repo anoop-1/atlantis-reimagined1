@@ -23,5 +23,21 @@
   "/ndt-inspector-salary": {
     "title": "NDT Inspector Salary 2026: US Pay Data, Source by Source",
     "description": "NDT inspector salary in the US: ZipRecruiter’s national average for non-destructive inspectors, the O*NET NDT specialist median, and why the two differ."
+  },
+  "/standards/nace-sp0188": {
+    "title": "NACE SP0188-2024 Holiday Testing: What Changed and Why",
+    "description": "NACE SP0188-2024 changed holiday test voltage and lowered the high-voltage threshold to 10 mils. Wet sponge vs spark testing, what changed, what to check."
+  },
+  "/standards/astm-e164": {
+    "title": "ASTM E164-24 Weld UT: Scope, Calibration, Coverage, Limits",
+    "description": "ASTM E164-24 contact ultrasonic testing of weldments 0.250 to 8 in. thick: straight beam survey, calibration, transfer correction, coverage and reporting."
+  },
+  "/glossary/astm-e165": {
+    "title": "ASTM E165/E165M-23: Liquid Penetrant Testing Explained",
+    "description": "ASTM E165/E165M-23, the standard practice for liquid penetrant testing in general industry: penetrant types, methods, scope, and how it differs from E1417."
+  },
+  "/standards/astm-e165": {
+    "title": "Applying ASTM E165: PT Procedure, Records and Audit Checks",
+    "description": "How ASTM E165 is applied in a PT programme: the written procedure, process controls, records an auditor checks, and the findings that recur."
   }
 }

@@ -224,10 +224,7 @@ export const CTR_WAVE10_OVERRIDES = {
     title: 'ASTM E1476 XRF Positive Material Identification (PMI)',
     description: 'ASTM E1476 XRF positive material identification: alloy verification, equipment and calibration, acceptance, inspector qualification and audit findings.',
   },
-  '/blog/nace-sp0188-holiday-detection-2028': {
-    title: 'NACE SP0188 Holiday Testing — Wet Sponge vs High Voltage',
-    description: 'NACE SP0188 holiday detection: low-voltage wet sponge vs high-voltage spark testing, when each applies, code cross-references and acceptance.',
-  },
+  // '/blog/nace-sp0188-holiday-detection-2028' retired 2026-10-18 (301 to /standards/nace-sp0188, the SP0188-2024 owner).
   '/blog/asme-pcc-3-in-service-inspection-planning-2026-decoded': {
     title: 'ASME PCC-3 — In-Service Inspection Planning Explained',
     description: 'ASME PCC-3 inspection planning: risk-, condition- and calendar-based approaches, how it works with API 510, 570 and 653, and an implementation roadmap.',

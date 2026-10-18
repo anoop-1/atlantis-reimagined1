@@ -105,8 +105,8 @@
         "href": "/blog/radiographic-testing"
       },
       {
-        "label": "ASTM E165 Radiographic Standards",
-        "href": "/blog/astm-e165-pt-standard-test-method-2028"
+        "label": "ASTM E165 liquid penetrant testing explained",
+        "href": "/glossary/astm-e165"
       },
       {
         "label": "ASME Section V Overview",
@@ -1154,8 +1154,8 @@
         "href": "/blog/radiographic-testing"
       },
       {
-        "label": "ASTM E165 Radiographic Standards",
-        "href": "/blog/astm-e165-pt-standard-test-method-2028"
+        "label": "ASTM E165 liquid penetrant testing explained",
+        "href": "/glossary/astm-e165"
       }
     ],
     "issuingBody": "ASTM",
@@ -1165,9 +1165,9 @@
   {
     "slug": "astm-e165",
     "code": "ASTM E165",
-    "displayTitle": "ASTM E165 — Standard Practice for Liquid Penetrant Examination",
+    "displayTitle": "ASTM E165/E165M — Standard Practice for Liquid Penetrant Testing for General Industry",
     "shortDescription": "General industrial liquid penetrant testing practice — covers visible and fluorescent PT methods, surface preparation, dwell time, and process control.",
-    "scope": "<p>ASTM E165 — <strong>Standard Practice for Liquid Penetrant Examination for General Industry</strong> — is the foundational ASTM standard for industrial PT. It is broader than ASTM E1417 (which is aerospace-specific with stricter sensitivity classification) but covers the same fundamental physics and process control. E165 is adopted by ASME Section V Article 6 as SE-165. E165 covers visible (Type II) and fluorescent (Type I) penetrants, and four removal methods: water-washable (Method A), post-emulsifiable lipophilic (Method B), solvent-removable (Method C) and post-emulsifiable hydrophilic (Method D).</p><p>The current edition is ASTM E165/E165M-23 (most recent). E165 references E1316 (terminology), E1417 (aerospace PT), and the Annex covering penetrant qualification testing.</p>",
+    "scope": "<p>ASTM E165/E165M — <strong>Standard Practice for Liquid Penetrant Testing for General Industry</strong> — is the ASTM standard practice for industrial PT: it describes how the examination is performed and does not set acceptance criteria. For a plain-language summary see <a href=\"/glossary/astm-e165\">ASTM E165 explained</a>. It is broader than ASTM E1417 (which is aerospace-specific with stricter sensitivity classification) but covers the same fundamental physics and process control. ASME Section V adopts it as SE-165 and its Article 6 governs liquid penetrant examination for ASME code work. E165 covers visible (Type II) and fluorescent (Type I) penetrants, and four removal methods: water-washable (Method A), post-emulsifiable lipophilic (Method B), solvent-removable (Method C) and post-emulsifiable hydrophilic (Method D).</p><p>The current edition is ASTM E165/E165M-23 (ASTM store, last updated 1 August 2023). E165 references E1316 (terminology), E1417 (aerospace PT), and the Annex covering penetrant qualification testing.</p>",
     "keyRequirements": "<h2>Penetrant Classification (5)</h2><ul><li><strong>Type I — Fluorescent:</strong> Penetrants that fluoresce under UV-A. Higher sensitivity than visible. Used in aerospace and high-criticality applications.</li><li><strong>Type II — Visible:</strong> Color-contrast (typically red) penetrants visible under white light. Lower sensitivity but more practical for field work.</li><li><strong>Method A — Water-washable:</strong> Penetrant contains emulsifier; rinsed with water spray.</li><li><strong>Method B — Post-emulsifiable, lipophilic:</strong> Oil-based emulsifier applied separately. Higher sensitivity than Method A.</li><li><strong>Method C — Solvent-removable:</strong> Excess penetrant wiped with solvent-dampened cloth. Field practical.</li><li><strong>Method D — Post-emulsifiable, hydrophilic:</strong> Water-soluble emulsifier. Most controllable.</li></ul><h2>Procedure Essential Variables (6.1)</h2><p>Procedure shall address: penetrant family (penetrant, emulsifier, remover, developer of the same family), surface preparation method, penetrant application method, dwell time, removal of excess, developer application, dwell time of developer, inspection method, lighting requirements, surface temperature range.</p><h2>Surface Preparation (8)</h2><p>The surface and surrounding area (1 in beyond area of interest) shall be clean and free of: scale, slag, rust, paint, oil, grease, coatings, and contaminants that mask discontinuities. Cleaning methods: detergent, solvent (alcohol, acetone), vapor degreasing, ultrasonic, mechanical (consistent with not closing discontinuities). Mechanical preparation that closes flaws — peening, abrasive blasting at high velocity — is prohibited as final preparation.</p><h2>Material Compatibility (8.4)</h2><p>For austenitic stainless steel, nickel alloys, and titanium, penetrant chlorine, fluorine, and sulfur content is limited (typically each less than 1% by weight or cumulative 1%). Penetrant material certification accompanies the procedure. Standard tests: ASTM E165 Annex A2 (halogen content) and Annex A3 (sulfur content).</p><h2>Penetration (Dwell) Time (9)</h2><p>Per ASTM E165 Table 1, minimum dwell time depends on material and discontinuity type:</p><ul><li><strong>Aluminum, magnesium:</strong> 5 min castings/extrusions, 10 min welds.</li><li><strong>Steel:</strong> 5 min castings/extrusions, 10 min welds, fatigue cracks.</li><li><strong>Titanium / high-temperature alloys:</strong> 20-30 min depending on Type/Method.</li><li><strong>Plastics:</strong> 5 min.</li></ul><p>Maximum dwell typically 1 hour; longer dwell risks penetrant drying on the surface.</p><h2>Excess Penetrant Removal (10)</h2><p>Water-washable: water spray at 40 psi maximum, 110°F maximum. Solvent removal: wipe dry first, then wipe with solvent-dampened cloth. Direct solvent application to part is prohibited. Post-emulsifiable: emulsifier dwell per manufacturer (30 sec to 2 min), then water rinse.</p><h2>Developer (11)</h2><p>Dry powder, aqueous wet, or non-aqueous wet (solvent-based). Non-aqueous wet developer is the most sensitive. Developer dwell time minimum 7 min and not less than penetrant dwell time. Excess developer is left on the part during inspection.</p><h2>Lighting Requirements (12)</h2><p>Type II visible PT: ≥ 100 fc (1076 lux) white light at the part surface, glare-free, measured with calibrated light meter.</p><p>Type I fluorescent PT: ≤ 2 fc ambient white light, ≥ 1000 µW/cm² UV-A at the part surface, peak UV-A 365 nm. Examiner dark-adaptation 1 minute before inspection.</p><h2>Inspector Vision (4)</h2><p>Inspectors shall pass an annual near-distance acuity test (Jaeger J1 or equivalent at 12 in) and a color contrast / color vision test (Ishihara or equivalent). For fluorescent PT, the examiner shall verify the ability to detect fluorescence at the lower limit of expected fluorescence (typically using a UV-fluorescing reference standard).</p><h2>Process Control (Annex A1)</h2><p>Daily process control checks: UV-A intensity verification, white light intensity verification, visual examination of penetrant materials for contamination (water content, sludge), centrifuge tube fluid concentration check (post-emulsifiable systems), and reference panel verification (TAM panel or PSM-5 panel). Process control records are retained.</p><h2>Acceptance Criteria</h2><p>ASTM E165 itself does not define accept/reject criteria; the referencing standard or contract specification defines. Typical limits in referencing standards: linear indications with length &gt; 3× width are characterized as cracks/lack of fusion and are not acceptable. Rounded indications larger than specified size are not acceptable.</p><h2>Common Audit Findings</h2><p>(a) Halogen/sulfur content not certified for stainless steel application. (b) UV-A intensity below 1000 µW/cm² at part surface. (c) Examiner dark-adaptation pause skipped. (d) Penetrant families mixed across the four chemistries. (e) Process control checks not performed. (f) Reference panel verification missing. (g) Dwell time below table minimum.</p>",
     "revisionsHistory": [
       {
@@ -1205,8 +1205,8 @@
         "href": "/blog/iso-3452-penetrant-testing-specification"
       },
       {
-        "label": "ASTM E165 RT Standards Reference (related)",
-        "href": "/blog/astm-e165-pt-standard-test-method-2028"
+        "label": "ASTM E165 liquid penetrant testing (related)",
+        "href": "/glossary/astm-e165"
       }
     ],
     "issuingBody": "ASTM",
@@ -1503,8 +1503,8 @@
         "href": "/blog/radiographic-testing"
       },
       {
-        "label": "ASTM E165 Radiographic Standards",
-        "href": "/blog/astm-e165-pt-standard-test-method-2028"
+        "label": "ASTM E165 liquid penetrant testing explained",
+        "href": "/glossary/astm-e165"
       },
       {
         "label": "Weld Inspection Methods",

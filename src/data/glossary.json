@@ -2333,10 +2333,10 @@
   },
   {
     "slug": "astm-e165",
-    "term": "ASTM E165 Liquid Penetrant Examination",
+    "term": "ASTM E165/E165M Liquid Penetrant Testing for General Industry",
     "category": "standard",
-    "shortDefinition": "ASTM E165 is the standard practice for liquid penetrant testing, defining Type I (fluorescent), Type II (visible) penetrants, and Methods A (water-washable), B (post-emulsifiable lipophilic), C (solvent-removable), D (post-emulsifiable hydrophilic), and developer forms a–e.",
-    "definition": "<h2>Definition</h2><p>ASTM E165 is the principal North American PT standard, referenced by ASME Section V Article 6 for general industrial use. <a href='/glossary/astm-e1417'>ASTM E1417</a> covers aerospace and other high-sensitivity applications.</p>",
+    "shortDefinition": "ASTM E165/E165M is the ASTM standard practice for liquid penetrant testing for general industry; the current edition is E165/E165M-23. It classifies penetrants by type (Type I fluorescent, Type II visible) and by removal method (A water-washable, B post-emulsifiable lipophilic, C solvent-removable, D post-emulsifiable hydrophilic). Acceptance criteria come from the referencing code.",
+    "definition": "<h2>Definition</h2><p>ASTM E165/E165M, Standard Practice for Liquid Penetrant Testing for General Industry, is the principal North American practice for industrial PT; the current edition is E165/E165M-23. ASME Section V adopts it as SE-165 and its Article 6 governs penetrant examination for ASME code work. <a href='/glossary/astm-e1417'>ASTM E1417</a> covers aerospace and other high-sensitivity applications. For how E165 is applied in a PT programme, see <a href='/standards/astm-e165'>applying ASTM E165</a>; for MT and PT side by side, see <a href='/blog/mt-vs-pt-comparison'>PT vs MT compared</a>.</p>",
     "relatedTerms": [
       "astm-e1417",
       "penetrant-testing",

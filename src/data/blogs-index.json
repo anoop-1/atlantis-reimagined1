@@ -2944,12 +2944,6 @@
   "metaDescription": "NACE SP0169 Buried Piping CP — NACE SP0169 cathodic protection of underground piping systems, design + monitoring. ASNT NDT Level III author"
  },
  {
-  "slug": "nace-sp0188-holiday-detection-2028",
-  "title": "NACE SP0188 Holiday Detection",
-  "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0188 Holiday Detection — NACE SP0188 holiday detection per low-voltage wet sponge + high-voltage spark. ASNT NDT Level III authored. "
- },
- {
   "slug": "nace-sp0288-erosion-corrosion-monitoring-2028",
   "title": "NACE Erosion-Corrosion Monitoring",
   "category": "2028 NACE/AMPP Standards",
@@ -3052,12 +3046,6 @@
   "metaDescription": "ASTM E747 IQI Wire-Type — ASTM E747 wire-type image quality indicators for radiographic examination. ASNT NDT Level III authored. Free Atlan"
  },
  {
-  "slug": "astm-e164-contact-ultrasonic-2028",
-  "title": "ASTM E164 Contact Ultrasonic",
-  "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E164 Contact Ultrasonic — ASTM E164 contact ultrasonic testing of weldments. ASNT NDT Level III authored. Free Atlantis NDT consultatio"
- },
- {
   "slug": "astm-e2700-paut-weld-examination-2028",
   "title": "ASTM E2700 PAUT Weld Examination",
   "category": "2028 ASTM Standards",
@@ -3068,12 +3056,6 @@
   "title": "ASTM E2373 TOFD Examination",
   "category": "2028 ASTM Standards",
   "metaDescription": "ASTM E2373 TOFD Examination — ASTM E2373 time-of-flight diffraction examination, paired probes + through-wall sizing. ASNT NDT Level III aut"
- },
- {
-  "slug": "astm-e165-pt-standard-test-method-2028",
-  "title": "ASTM E165 PT Standard Test Method",
-  "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E165 PT Standard Test Method — ASTM E165 standard test method for liquid penetrant examination. ASNT NDT Level III authored. Free Atlan"
  },
  {
   "slug": "astm-e2582-flash-thermography-composite-2028",
