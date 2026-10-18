@@ -627,7 +627,7 @@ ${answer}${ctaBlock}${sections}
 ${H.faq(page.faqs)}
     <section>
       <h2>See it running on your own workflow</h2>
-      <p>Thirty minutes, your job types and your reporting formats, co-presented by an ASNT NDT Level III. Affordable, accessible, fully customizable — <a href="/contact">request a demo and a tailored quote</a>.</p>
+      <p>Your job types and your reporting formats, walked through by an ASNT NDT Level III. Affordable, accessible, fully customizable — <a href="/contact">request a demo and a tailored quote</a>.</p>
       <p>Related: ${related}</p>
     </section>
   </main>`,

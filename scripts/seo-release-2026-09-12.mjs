@@ -74,7 +74,7 @@ for (const [path, { file }] of pages) {
     $('meta[name="description"]').attr('content','Download a blank calibration certificate template in Word format. Guidance on instrument identity, traceability and certificate records for NDT teams.');
     $('main h1').after('<p class="seo-upgrade"><a href="/templates/calibration-certificate-template.docx" download>Download the calibration certificate template (DOCX)</a>. Blank editable template; complete it with verified laboratory records.</p>');
   }
-  if (['/digital-twins','/best-ndt-reporting-software-2026'].includes(path)) $('main').append(`<section class="seo-upgrade">${demoEvidence.html}</section>`);
+  if (['/digital-twins'].includes(path)) $('main').append(`<section class="seo-upgrade">${demoEvidence.html}</section>`); // 2026-10-18: not on the reporting comparison (it linked the page to itself)
   if (['/training-usa','/training-india','/training-me'].includes(path)) $('main').append('<p class="seo-upgrade">Certification background: <a href="https://www.asnt.org/standards-publications/blog/employer-based-certification-programs">ASNT’s explanation of employer-based certification</a>.</p>');
   // These definition pages are not equivalent to a hydrogen tank article or
   // a comparison of radiographic and ultrasonic inspection.

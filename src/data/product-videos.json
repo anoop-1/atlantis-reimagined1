@@ -19,10 +19,11 @@
       "description": "A short tour of Atlantis NDT: the ERP workflow configurator, a sample digital twin inspection report, the browser-based ultrasonic A-scan demo, NDT training pathways, Level III consulting and the inspection quotation form. Digital twin data shown is labelled sample data.",
       "uploadDate": "2026-10-10",
       "duration": "PT33S",
-      "heading": "See Atlantis NDT in 30 seconds",
+      "heading": "A short tour of Atlantis NDT",
       "pages": [
         "/",
         "/erp",
+        "/ndt-inspection-software",
         "/digital-twin-reporting",
         "/training",
         "/consulting/ndt-consulting-level-iii",

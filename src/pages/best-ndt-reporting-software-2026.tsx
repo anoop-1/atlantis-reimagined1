@@ -27,7 +27,7 @@ const structuredData = {
       headline: bestBlock.h1,
       description: bestBlock.description,
       datePublished: "2026-04-18",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-18", // vendor pages re-checked (scripts/software-competitive/vendors.mjs CHECKED_ON)
       section: "NDT Software",
       keywords: "ndt reporting software, best ndt software, ndt software comparison, ndt report software",
     }),

@@ -36,7 +36,7 @@ const T = {
   ascan: { href: '/tools/ultrasonic-a-scan-simulator', anchors: ['ultrasonic testing simulator', 'A-scan simulator', 'flaw detector simulator', 'free UT A-scan practice tool'] },
   level3: { href: '/consulting/ndt-consulting-level-iii', anchors: ['outsourced NDT Level III', 'contract and on-call Level III services', 'NDT Level 3 consultant', 'written practice and procedure development', 'SNT-TC-1A consulting', 'NAS 410 Level 3 services'] },
   erp: { href: '/erp', anchors: ['NDT ERP software', 'NDT business management software', 'ERP for inspection companies', 'NDT company management software'] },
-  software: { href: '/ndt-inspection-software', anchors: ['NDT management software', 'NDT inspection software', 'inspection management software for NDT companies', 'certification and calibration tracking software'] },
+  software: { href: '/ndt-inspection-software', anchors: ['NDT inspection software', 'NDT management software', 'NDT software for inspection companies'] }, // 2026-10-18: exact anchors only (the other two belong to /inspection-management-software and the cert/calibration owners)
   checklist: { href: '/resources/ndt-software-buyer-checklist', anchors: ['NDT software buyer checklist', 'questions to ask NDT software vendors'] },
   twin: { href: '/digital-twins', anchors: ['asset integrity digital twin', 'inspection data management on a 3D model', 'CML management on a 3D model', 'CML management software'] },
   report3d: { href: '/digital-twin-reporting', anchors: ['3D inspection reporting', 'digital twin reporting software', 'NDT reporting software with 3D output', 'digital twin inspection reporting'] },

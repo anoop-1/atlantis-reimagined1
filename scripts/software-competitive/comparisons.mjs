@@ -41,7 +41,7 @@ export const FSM = {
 <tr><th scope="row">Scheduling and dispatch</th><td>Core strength: calendars, routing, dispatch boards</td><td>Team assignments; double-booking of technicians and equipment blocked</td></tr>
 <tr><th scope="row">Quotes and invoicing</th><td>Core strength, with online payments</td><td>Quotations and invoicing with job, PO, method, equipment and technician lines</td></tr>
 <tr><th scope="row">Technician app</th><td>Yes</td><td>Offline field app with photos and on-screen signatures</td></tr>
-<tr><th scope="row">NDT method reports</th><td>Generic forms and checklists</td><td>17 method-specific report types (UT, PAUT, TOFD, RT, CR, MT, PT, VT, ECT, IRIS, MFL and more)</td></tr>
+<tr><th scope="row">NDT method reports</th><td>Generic forms and checklists</td><td>A report type for each method (UT, PAUT, TOFD, RT, CR, MT, PT, VT, ECT, IRIS, MFL and more)</td></tr>
 <tr><th scope="row">Report review and approval</th><td>Not NDT-specific</td><td>Draft, review, approve and send, with inspector, reviewer and approver signatures</td></tr>
 <tr><th scope="row">Certification tracking</th><td>Not built for SNT-TC-1A or ISO 9712 schemes</td><td>SNT-TC-1A, CP-189, ISO 9712, PCN, CSWIP; vision tests; alerts 90 days before expiry</td></tr>
 <tr><th scope="row">Calibration records</th><td>Not NDT-specific</td><td>Instruments by serial number, calibration certificates, due-date alerts, warning when assigned</td></tr>
@@ -114,7 +114,7 @@ ${vendorTable(['floodlight', 'agilendt', 'drive', 'zertify', 'oms', 'inspectionb
 <li><strong>Certification tracking to an unusual written practice.</strong> Every written practice differs on vision-test intervals, OJT hours and re-certification rules. Ask any vendor to configure your most awkward case.</li>
 <li><strong>Customisation.</strong> Client-specific report formats, approval chains and fields built for you, rather than adapted to a form builder.</li>
 <li><strong>Digital-twin reports.</strong> Asset owners who want results placed on a 3D model of the asset, which is what Atlantis <a href="/digital-twin-reporting">Digital Twin Reporting Software</a> does alongside the ERP.</li>
-<li><strong>Lab or lifting-equipment scope.</strong> Accredited labs may prefer OMS; companies that also certify lifting gear may prefer Zertify or AgileNDT.</li>
+<li><strong>Quality-system or lifting-equipment scope.</strong> Inspection bodies working to ISO/IEC 17020 may prefer OMS; companies that also manage lifting gear may prefer AgileNDT, which lists a lifting-equipment module.</li>
 </ul>
 
 <h2>Other alternatives in more depth</h2>

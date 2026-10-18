@@ -59,7 +59,7 @@ const BLOCKS = {
 
   '/ndt-erp-solution': `<p>Further reading for the buying committee: ${L(D.aiErp, 'AI in inspection ERP — what it does and cannot do')}, ${L(D.migration, 'what changes after the move off spreadsheets')}, and ${L(D.market, 'how the US NDT services market is structured')} if you are sizing where you compete.</p>`,
 
-  '/ndt-inspection-software': `<p>Related: ${L(D.aiErp, 'the honest split on AI features in inspection software')} — including the one function that must never be automated — and ${L(D.migration, 'the operator-side account of migrating off spreadsheets')}.</p>`,
+  // 2026-10-18: '/ndt-inspection-software' links moved into its Related reading (software-owners-2026-10.json).
 
   '/best-ndt-reporting-software-2026': `<p>See also ${L(D.aiErp, 'where AI genuinely speeds up report production')}, and ${L(D.migration, 'what actually changes once reports stop being retyped')}.</p>`,
 

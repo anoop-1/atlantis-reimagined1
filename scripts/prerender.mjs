@@ -80,6 +80,7 @@ import { assertTrainingGeoHonesty } from './training-geo-honesty-2026-10.mjs'; /
 import { assertCanadaPagesBuilt } from './canada-certification-2026-10.mjs'; // 2026-10-17 built-HTML gate: every Canadian training page keeps the ASNT SNT-TC-1A offer near the top + its SNT-TC-1A title/meta/H1
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
+import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats } from './software-owners-2026-10.mjs'; // 2026-10-18 software: /ndt-inspection-software product page (last body writer, one JSON for both layers)
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
@@ -10758,22 +10759,9 @@ reportingCities.forEach(({ city, country, slug }) => {
 });
 
 // ── Industry × Product software pillar pages (April 2026) ───────────────
-
-routes.push({
-  path: '/ndt-software-for-oil-gas',
-  title: 'NDT Software for Oil & Gas 2026: Digital Twin + ERP + Reporting (API 510/570/653) | Atlantis NDT',
-  description: 'Integrated NDT software stack for oil & gas operators & contractors: Digital Twin visualisation, ERP inspection management, and reporting software aligned to API 510/570/653, API 571 damage mechanisms, API 580/581 RBI, NACE MR0175, NORSOK Z-008. By ASNT Level III Anoop Rayavarapu.',
-  canonical: `${SITE_URL}/ndt-software-for-oil-gas`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/erp">ERP</a><a href="/intelligent-reporting-software">Reporting</a></nav></header>\n  <main>\n    <h1>NDT Software for Oil &amp; Gas — Digital Twin, ERP &amp; Reporting</h1>\n    <p>Unified software stack for oil &amp; gas inspection: Atlantis NDT Digital Twin, ERP, and Reporting Software aligned to API 510 pressure vessel, API 570 piping, and API 653 tank inspection. Built-in API 571 damage mechanism taxonomy, API RP 580/581 risk-based inspection integration, API 579-1 fitness-for-service, OSHA PSM compliance, and operator-specific standards for Aramco SAEP-1112, ADNOC ACS-01, QatarEnergy NFPS, KOC/KNPC, Shell MESC SP 77, ExxonMobil GP 19-01, BP ETP GP 62-01, TotalEnergies GS EP INS 103, Equinor NORSOK Z-008, Petrobras N-2318, PDO CIMS, Sinopec/CNPC. Request a demo.</p>\n  </main>`,
-});
-
-routes.push({
-  path: '/ndt-software-for-aerospace',
-  title: 'NDT Software for Aerospace 2026: Digital Twin + ERP + Reporting (NAS 410 / EN 4179) | Atlantis NDT',
-  description: 'Integrated NDT software for aerospace MRO, OEM, defense: NAS 410 / EN 4179 personnel tracking, ECT fatigue-crack inspection, composite UT C-scan, PT per ASTM E1417, EASA Part 145 documentation, FAA AC 43.13-1B compliance. By ASNT Level III Anoop Rayavarapu.',
-  canonical: `${SITE_URL}/ndt-software-for-aerospace`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/erp">ERP</a><a href="/intelligent-reporting-software">Reporting</a></nav></header>\n  <main>\n    <h1>NDT Software for Aerospace — Digital Twin, ERP &amp; Reporting</h1>\n    <p>Built for aerospace MRO, OEM, and defense inspection programs: NAS 410 / EN 4179 personnel traceability, ECT fatigue-crack inspection with probe trace archival, composite UT C-scan attenuation mapping, flash thermography per ASTM E2582, PT per ASTM E1417 + MT per ASTM E1444, EASA Part 145 maintenance organisation documentation, FAA AC 43.13-1B compliance, AS 5553 counterfeit-parts avoidance with DPAS traceability, Boeing/Airbus SRM template library. ASNT Level III + NAS 410 Level III technical advisor on every deployment.</p>\n  </main>`,
-});
+// 2026-10-18: /ndt-software-for-oil-gas and /ndt-software-for-aerospace retired (vercel.json 301s to the
+// refinery/petrochemical and aerospace owners; they duplicated those owners and the oil & gas page claimed
+// the ERP computes corrosion rates and API inspection intervals).
 
 routes.push({
   path: '/ndt-software-for-power-generation',
@@ -14160,6 +14148,7 @@ assertCourseNextStepClean(BUILT_PATHS); // 2026-10-12: course next-step targets 
 assertVideosClean(BUILT_PATHS); // §52
 assertScreenshotsClean(BUILT_PATHS); // §53
 assertMoneyPagesClean(BUILT_PATHS); // 2026-10-12 moneypages: copy guard + every link target built
+assertSoftwareOwnersClean(BUILT_PATHS); // 2026-10-18: product page copy (no numerals/prices/time promises/contradicted claims), links built, wave 16 software titles in sync with React copies
 assertCaseStoriesClean(BUILT_PATHS); // §53
 assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target built, anchors clean
 assertOwnerLinksClean(BUILT_PATHS); // 2026-10-12 owner links: owners built, links only to owners, no prices/claims/numerals, blogs.json titles in sync
@@ -14365,6 +14354,7 @@ routes.forEach(route => {
     route = finalizeNaTrainingRoute(route);
     route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
     route = applyMoneyPagesRoute(route);
+    route = applySoftwareOwnersRoute(route); // 2026-10-18: /ndt-inspection-software product page rebuilt from src/data/software-owners-2026-10.json
   route = applyBuyerEvaluation(route); // 2026-10-12 moneypages: last body writer for /erp + /consulting; Level III, written-practice, author Person
     route = applyAscanRoute(route); // 2026-10-12: /practical-ndt NDT-simulator intro + tool link; /tools UT tools list
     route = applyPracticalSimRoute(route); // 2026-10-17: /practical-ndt Practise now + method/workplace grids + simulator limits; city/geo-hub link block
@@ -14407,6 +14397,7 @@ console.log(`🔎 Competitive coverage 2026-10-10: ${JSON.stringify(coverageStat
 console.log(`🎬 Product videos: ${videoStats.pages} pages`);
 console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);
 console.log(`💼 Money pages 2026-10-12: ${JSON.stringify(moneyPagesStats)}`);
+console.log(`🧰 Software owners 2026-10-18: ${JSON.stringify(softwareOwnerStats)}`);
 console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
 console.log(`🎯 Owner links 2026-10-12: ${JSON.stringify(ownerLinkStats)}`);

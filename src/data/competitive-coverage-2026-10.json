@@ -327,57 +327,6 @@
         }
       ]
     },
-    "/ndt-inspection-software": {
-      "h2": "NDT management software for inspection companies: report-only tools versus a connected system",
-      "intro": [
-        "Searches for NDT software, NDT management software or ERP for inspection companies lead to two kinds of product. Report-only tools are good report generators: templates for each method, field capture and a PDF at the end. A connected system also runs the business around the report: technician certifications, instrument calibration, crew dispatch, timesheets and invoicing, so that the report and the evidence behind it come from the same records.",
-        "Small inspection companies often start with spreadsheets and a report template, then outgrow them when an auditor asks whether a technician was certified, and an instrument calibrated, on the day a report was signed. That point-in-time question is the one to put to every vendor."
-      ],
-      "points": [
-        [
-          "What is NDT software?",
-          "Software that captures NDT examination results in method-specific reports and manages the qualifications, equipment and approvals behind them."
-        ],
-        [
-          "Certification tracking",
-          "Technician certificates by scheme, level and method, including SNT-TC-1A, NAS 410 and ISO 9712, with vision-test currency and warnings before anything expires."
-        ],
-        [
-          "Field capture that works offline",
-          "Reports drafted on site with no signal, including photographs, and synchronised later."
-        ],
-        [
-          "Approvals",
-          "Prepared, reviewed and approved signatures on versioned templates, with approved procedure revisions locked."
-        ],
-        [
-          "Hosting",
-          "A cloud service, or self-hosted on your own infrastructure where a client or regulator requires it."
-        ],
-        [
-          "Oil and gas inspection software for third-party inspection companies",
-          "NDT software for inspection companies and third-party inspection bodies working to API 510, API 570, API 653 and ASME Section V. The software supports a quality system such as ISO 17020; it does not confer accreditation."
-        ]
-      ],
-      "faq": [
-        {
-          "q": "Does NDT reporting software work offline?",
-          "a": "Some does and some does not. Test it with the device in flight mode during a trial: start a report, add photographs, close the app, and check that nothing is lost when it reconnects. The Atlantis field app keeps drafts and photographs on the device until it can sync."
-        },
-        {
-          "q": "Is a report-only tool enough for a small inspection company?",
-          "a": "It can be, if certifications, calibration and dispatch are already under control somewhere else. If those live in spreadsheets, the gaps tend to appear at audit time, and a connected system closes them. The NDT software buyer checklist lists the questions that separate the two."
-        },
-        {
-          "q": "How do you prevent an uncertified technician from signing a report?",
-          "a": "Track every certificate and vision test with its expiry, warn before it lapses, and warn when a timesheet or assignment uses a technician whose certificate is not valid. Approval by a reviewer who checks qualification at sign-off closes the loop. Ask each vendor to show this live with an expired record."
-        },
-        {
-          "q": "Does it include NDT certification tracking software and calibration management software?",
-          "a": "Yes. Technician certificates are tracked per method and level with expiry alerts, and an expired certificate stops that technician being assigned or signing a report. Instruments and probes carry calibration due dates the same way. For an inspection body working to ISO 17020, the same records form the audit trail, which is why it is used as ISO 17020 inspection body software as well as for reporting."
-        }
-      ]
-    },
     "/digital-twins": {
       "h2": "Inspection data management on a 3D model: IDMS, CMLs and where a digital twin fits",
       "intro": [

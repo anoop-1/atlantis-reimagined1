@@ -430,8 +430,6 @@ const NDTForOilGas = lazy(() => import("./pages/ndt-for-oil-gas"));
 const NDTForAerospace = lazy(() => import("./pages/ndt-for-aerospace"));
 const NDTForPowerGeneration = lazy(() => import("./pages/ndt-for-power-generation"));
 // Industry × Product (DT + ERP + Reporting) software pillars
-const NDTSoftwareForOilGas = lazy(() => import("./pages/ndt-software-for-oil-gas"));
-const NDTSoftwareForAerospace = lazy(() => import("./pages/ndt-software-for-aerospace"));
 const NDTSoftwareForPowerGeneration = lazy(() => import("./pages/ndt-software-for-power-generation"));
 const BestNDTReportingSoftware2026 = lazy(() => import("./pages/best-ndt-reporting-software-2026"));
 // Blog Posts
@@ -3566,8 +3564,6 @@ export default function RouteTable() { return (
                   <Route path="/ndt-for-oil-gas" element={<LazyRoute Component={NDTForOilGas} />} />
                   <Route path="/ndt-for-aerospace" element={<LazyRoute Component={NDTForAerospace} />} />
                   <Route path="/ndt-for-power-generation" element={<LazyRoute Component={NDTForPowerGeneration} />} />
-                  <Route path="/ndt-software-for-oil-gas" element={<LazyRoute Component={NDTSoftwareForOilGas} />} />
-                  <Route path="/ndt-software-for-aerospace" element={<LazyRoute Component={NDTSoftwareForAerospace} />} />
                   <Route path="/ndt-software-for-power-generation" element={<LazyRoute Component={NDTSoftwareForPowerGeneration} />} />
                   <Route path="/best-ndt-reporting-software-2026" element={<LazyRoute Component={BestNDTReportingSoftware2026} />} />
                   {/* Blog Posts */}
