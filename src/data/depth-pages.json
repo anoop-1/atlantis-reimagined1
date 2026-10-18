@@ -12101,6 +12101,30 @@
       {
         "q": "Is UT cheaper than RT on a weld inspection job?",
         "a": "On the shot itself, RT is often cheaper per weld on thin wall. On the project, UT wins whenever radiography stops other trades. Encoded PAUT costs more per weld in equipment and qualified time, then returns it by removing night shifts, exclusion boundaries and the standby crews that sit idle while a source is exposed. Price the schedule, not the line item."
+      },
+      {
+        "q": "Can ultrasonic testing legally replace radiography under ASME?",
+        "a": "Yes, through named routes. Section VIII Division 1 authorises it in UW-51(a)(4), which requires compliance with Section VIII Division 2 paragraph 7.5.5 and Section V Article 4 Mandatory Appendix VIII with Appendix IX. Section I permits it via Code Case 2235, Code Case 2816 or PW-52.1. Code Case 2235-13 applies to welds 1/2 in. (13 mm) and thicker and requires a device employing automatic computer-based data acquisition."
+      },
+      {
+        "q": "Why is RT still specified when UT finds cracks better?",
+        "a": "Three reasons hold it in place: a permanent image any third party re-reads without the technician, lower per-weld cost on thin wall, and client specifications written before encoded ultrasonics had a code home. The first is genuine and is only answered by encoded PAUT or TOFD, which record the complete unprocessed data set. The second ignores schedule cost. The third is inertia that a citation fixes."
+      },
+      {
+        "q": "What thickness range does AWS D1.1 allow for ultrasonic testing?",
+        "a": "Clause 8.19.1 applies conventional ultrasonic testing to groove welds and heat-affected zones between 5/16 in. (8 mm) and 8 in. (200 mm) inclusive, and excludes tube-to-tube T-, Y- and K-connections from that procedure. Acceptance comes from Table 8.2 for statically loaded nontubular connections and cyclically loaded connections in compression, and Table 8.3 for cyclically loaded nontubular connections in tension."
+      },
+      {
+        "q": "Does radiography require shutting down the work area?",
+        "a": "It requires a controlled boundary. 10 CFR 20.1003 sets a high radiation area at more than 0.1 rem in 1 hour at 30 cm, and 10 CFR 20.1301 limits unrestricted areas to 0.002 rem in any one hour. The radiographer surveys, posts and physically controls the boundary and maintains continuous direct visual surveillance against unauthorised entry. In practice adjacent trades stop or the shot moves to night shift."
+      },
+      {
+        "q": "Is TOFD a substitute for RT or an addition to UT?",
+        "a": "Both, depending on the code route. ASME treats TOFD as one of only two acceptable technique families — with phased array — when UT replaces required RT, provided acquisition is computer-based and the equipment is mechanically mounted and guided. Section V Article 4 Mandatory Appendix III carries its technique rules. On many heavy-wall procedures TOFD is paired with encoded PAUT so that each covers the other's near-surface and lateral-wave blind zones."
+      },
+      {
+        "q": "Who is allowed to interpret the results of each method?",
+        "a": "Under Code Case 2235-13(f), personnel performing and evaluating ultrasonic examinations must be qualified and certified in accordance with their employer's written practice, with ASNT SNT-TC-1A or CP-189 used as a guideline, and only Level II or III personnel analyse data or interpret results. For industrial radiography, 10 CFR 34.43(a) requires certification through a recognised radiographer certification program plus at least two months of on-the-job training."
       }
     ],
     "sections": [
@@ -12186,6 +12210,30 @@
       }
     ],
     "faq": [
+      {
+        "q": "Which method finds lack of fusion more reliably?",
+        "a": "Ultrasonics. Lack of sidewall fusion is a flat face lying parallel to the bevel, which presents a mirror to an angled sound beam and returns high amplitude. The same flaw is a few thousandths of an inch of missing metal along the radiographic beam path, so it produces almost no density change on film. Angle-beam UT or PAUT is the correct call whenever the procedure history shows fusion defects."
+      },
+      {
+        "q": "Which method finds porosity and slag more reliably?",
+        "a": "Radiography. Rounded voids and slag pockets have genuine volume, remove density along the beam path, and appear as unambiguous dark indications that a second reader confirms without re-scanning anything. Ultrasonics detects them, but scattered small reflectors are slower to characterise and easier to dismiss as noise. Where the dominant repair mode on a job is porosity, RT stays the efficient choice."
+      },
+      {
+        "q": "Does UT need access to both sides of the weld?",
+        "a": "No. Ultrasonics scans from one surface, which is why it survives on vessels with internals, on nozzles, on pipe with limited clearance and on structures where the back face is buried. Radiography needs the source on one side and film or a digital detector on the other. On a closed vessel or a backed joint, that requirement alone eliminates RT before any technical comparison starts."
+      },
+      {
+        "q": "How large is a radiographic exclusion zone in practice?",
+        "a": "It is set by survey, not by a fixed number. 10 CFR 20.1003 defines a radiation area as more than 0.005 rem in 1 hour at 30 cm and a high radiation area as more than 0.1 rem in 1 hour at 30 cm. 10 CFR 20.1301 caps the dose in an unrestricted area at 0.002 rem in any one hour. The radiographer sets and watches the boundary against those readings."
+      },
+      {
+        "q": "Which method leaves the better permanent record?",
+        "a": "Both, once the ultrasonic examination is encoded. Radiographic film or a digital image is re-readable by anyone. Manual UT leaves a report of one person's opinion. Encoded PAUT and TOFD close that gap: ASME Code Case 2235-13(e) requires the data set to be recorded in unprocessed form with no gating, filtering or thresholding, so a third party reopens the raw response later."
+      },
+      {
+        "q": "Is UT cheaper than RT on a weld inspection job?",
+        "a": "On the shot itself, RT is often cheaper per weld on thin wall. On the project, UT wins whenever radiography stops other trades. Encoded PAUT costs more per weld in equipment and qualified time, then returns it by removing night shifts, exclusion boundaries and the standby crews that sit idle while a source is exposed. Price the schedule, not the line item."
+      },
       {
         "q": "Can ultrasonic testing legally replace radiography under ASME?",
         "a": "Yes, through named routes. Section VIII Division 1 authorises it in UW-51(a)(4), which requires compliance with Section VIII Division 2 paragraph 7.5.5 and Section V Article 4 Mandatory Appendix VIII with Appendix IX. Section I permits it via Code Case 2235, Code Case 2816 or PW-52.1. Code Case 2235-13 applies to welds 1/2 in. (13 mm) and thicker and requires a device employing automatic computer-based data acquisition."
@@ -32610,6 +32658,26 @@
       {
         "q": "What does a CUI inspection report have to show?",
         "a": "The susceptibility ranking and its inputs, the screening method and coverage per circuit, screening results including locations that were clear, every insulation removal point with the reason it was chosen, confirmed thickness data with instrument and calibration, as-found photographs, disposition of each finding, and the insulation reinstatement detail. Without coverage and reasoning, the record cannot support an interval decision."
+      },
+      {
+        "q": "Is CUI inspection required by code?",
+        "a": "API 570 requires external inspection of piping systems and directs NDE for CUI at suspect locations on insulated circuits within the susceptible temperature bands. It is not a separate optional programme; it is part of the piping inspection plan. For US facilities covered by the OSHA process safety management standard, the mechanical integrity element makes inspection of covered equipment a regulatory obligation as well as a code one."
+      },
+      {
+        "q": "Does the insulation always have to come off?",
+        "a": "No, and a programme that removes insulation everywhere is spending most of its money on sound pipe. Removal is the confirmation step, applied where ranking, visual evidence or screening has already identified something. What does have to come off is a collar for guided wave, and enough at each confirmed anomaly to clean the surface and take a contact measurement."
+      },
+      {
+        "q": "Can CUI inspection be done while the unit is running?",
+        "a": "Yes for the screening steps. Pulsed eddy current works through insulation and jacketing at operating temperature with no removal, and profile radiography needs only radiation control rather than a shutdown. Targeted stripping and reinstatement are usually easier to schedule during a turnaround, which is why the screening campaign should run ahead of the outage so the removal list is ready."
+      },
+      {
+        "q": "Do insulated storage tanks need CUI inspection too?",
+        "a": "Yes. Insulated tank shells, roof-to-shell junctions, nozzles and wind girders trap water in the same way insulated piping does, and the shell temperature often sits squarely in the susceptible band. External inspection under API 653 covers the insulation condition and the evidence of ingress, and the same screening hierarchy applies before any insulation comes off a shell course."
+      },
+      {
+        "q": "Can you review an existing CUI programme rather than run the inspection?",
+        "a": "Yes. A programme review checks the susceptibility ranking against the API temperature bands and service data, tests whether screening coverage matches the population claimed, examines how removal locations were chosen, and looks at whether PEC averages have been filed as thickness readings. That review often finds more than another round of scanning would."
       }
     ],
     "sections": [
@@ -32680,6 +32748,30 @@
     ],
     "faq": [
       {
+        "q": "Who does corrosion under insulation inspection in US refineries?",
+        "a": "CUI inspection is bought from NDT service companies with pulsed eddy current, radiography and guided wave capability plus inspectors able to build the ranking. The credential that matters is not the instrument list; it is whether the contractor produces a susceptibility ranking, screening coverage records and confirmed thickness data, rather than a strip-and-look scope priced by the foot. Atlantis works across US refining, petrochemical and midstream sites."
+      },
+      {
+        "q": "How often does insulated piping need CUI inspection?",
+        "a": "The interval comes from the piping inspection plan, not from a fixed CUI schedule. API 570 drives external and CUI inspection frequency from the piping class, remaining life and the risk assessment, with insulated circuits in the susceptible temperature bands escalated ahead of the rest. Circuits with a CUI history, cycling service or damaged jacketing move to the front regardless of the calendar interval."
+      },
+      {
+        "q": "What temperature range does corrosion under insulation occur in?",
+        "a": "API 570 directs CUI inspection on carbon and low-alloy steel operating between 10°F and 350°F (-12°C to 175°C), and on austenitic and duplex stainless steels between 140°F and 400°F (60°C to 205°C). API 583 puts the highest-risk band for carbon steel at roughly 170°F to 230°F (77°C to 110°C). Intermittent-service and cold-service lines are also in scope."
+      },
+      {
+        "q": "Can you find CUI without removing the insulation?",
+        "a": "Screening, yes; confirmation, no. Pulsed eddy current measures average remaining wall through insulation and jacketing without removal. Profile radiography images the wall in silhouette. Guided wave screens long runs from a single collar. All three narrow the population. None produces a thickness reliable enough for a remaining-life calculation, so the final measurement still comes from a small, targeted strip and contact ultrasound."
+      },
+      {
+        "q": "What drives the cost of a CUI inspection programme?",
+        "a": "Access above everything, since scaffold, rope access and permits typically outweigh the inspection hours. Then the amount of insulation removed and reinstated, which is why ranking before stripping is the main cost lever. Then circuit count, screening method and coverage density. A programme built on a susceptibility ranking inspects a fraction of the footage for the same confidence. Atlantis quotes on request."
+      },
+      {
+        "q": "What does a CUI inspection report have to show?",
+        "a": "The susceptibility ranking and its inputs, the screening method and coverage per circuit, screening results including locations that were clear, every insulation removal point with the reason it was chosen, confirmed thickness data with instrument and calibration, as-found photographs, disposition of each finding, and the insulation reinstatement detail. Without coverage and reasoning, the record cannot support an interval decision."
+      },
+      {
         "q": "Is CUI inspection required by code?",
         "a": "API 570 requires external inspection of piping systems and directs NDE for CUI at suspect locations on insulated circuits within the susceptible temperature bands. It is not a separate optional programme; it is part of the piping inspection plan. For US facilities covered by the OSHA process safety management standard, the mechanical integrity element makes inspection of covered equipment a regulatory obligation as well as a code one."
       },
@@ -32697,7 +32789,7 @@
       },
       {
         "q": "Can you review an existing CUI programme rather than run the inspection?",
-        "a": "Yes. A programme review checks the susceptibility ranking against the API temperature bands and service data, tests whether screening coverage matches the population claimed, examines how removal locations were chosen, and looks at whether PEC averages have been filed as thickness readings. That review usually finds more than another round of scanning would, and it costs less."
+        "a": "Yes. A programme review checks the susceptibility ranking against the API temperature bands and service data, tests whether screening coverage matches the population claimed, examines how removal locations were chosen, and looks at whether PEC averages have been filed as thickness readings. That review often finds more than another round of scanning would."
       }
     ]
   },
@@ -79442,12 +79534,12 @@
   },
   {
     "slug": "/standards/astm-e164",
-    "title": "ASTM E164 Weld UT: Coverage, DAC and Transfer Correction",
-    "description": "ASTM E164 covers contact UT of weldments 1/4 in. to 8 in. thick, demands a straight beam lamination scan first, and carries no acceptance criteria.",
+    "title": "ASTM E164-24 Weld UT: Scope, Calibration, Coverage, Limits",
+    "description": "ASTM E164-24 contact ultrasonic testing of weldments 0.250 to 8 in. thick: straight beam survey, calibration, transfer correction, coverage and reporting.",
     "h1": "How ASTM E164 Is Actually Applied to Weld Ultrasonic Testing",
-    "answer": "ASTM E164 is a Practice with mandatory language covering contact pulse-echo ultrasonic testing of welds in wrought ferrous and aluminium products from about 1/4 in. to 8 in. thick. It fixes calibration on side-drilled holes and notches, transfer correction, scanning coverage and reporting. It contains no acceptance criteria; those come from the construction code.",
+    "answer": "ASTM E164, Standard Practice for Contact Ultrasonic Testing of Weldments, uses mandatory language for manual contact pulse-echo examination of welds joining wrought ferrous or aluminium alloy materials 0.250 in. to 8 in. (6.4 mm to 203 mm) thick. The current edition is E164-24. It fixes calibration, transfer correction, scanning coverage and reporting; acceptance criteria come from the referencing code.",
     "expansion": "E164 occupies an awkward and useful middle ground. It is more prescriptive than a guide, because it uses shall, but it is not a construction code, so it never tells you what is rejectable. What it does is fix the physics of a contact weld examination so that two technicians in different shops produce comparable data: a straight beam survey of the base metal before any angle beam work, a distance amplitude curve built on side-drilled holes in a block of representative material and thickness, a transfer correction when the test surface differs acoustically from the block, angle selection that puts the beam as near normal to the expected fusion faces as geometry allows, and coverage of the full weld volume plus heat affected zone from both sides where access permits. Everything contentious downstream — the dB rating, the flaw length, the disposition — belongs to the code that invoked it.",
-    "source": "ASTM E164, Standard Practice for Contact Ultrasonic Testing of Weldments; ASTM E2700 (contact phased array examination of welds), E2373 (time of flight diffraction), E317 (evaluation of ultrasonic instrument performance), E1316 (standard terminology for NDT); ASME BPVC Section V Article 4 and Section VIII Division 1 Mandatory Appendix 12; AWS D1.1 Clause 8; ASME B31.3 Table 341.3.2; API 1104 Section 9; ASNT SNT-TC-1A, ANSI/ASNT CP-189 and ISO 9712 for personnel.",
+    "source": "ASTM E164-24, Standard Practice for Contact Ultrasonic Testing of Weldments (ASTM store: active edition, last updated 24 December 2024); ASTM E2700 (contact phased array examination of welds), E2373 (time of flight diffraction), E317 (evaluation of ultrasonic instrument performance), E1316 (standard terminology for NDT); ASME BPVC Section V Article 4 and Section VIII Division 1 Mandatory Appendix 12; AWS D1.1 Clause 8; ASME B31.3 Table 341.3.2; API 1104 Section 9; ASNT SNT-TC-1A, ANSI/ASNT CP-189 and ISO 9712 for personnel.",
     "table": {
       "caption": "E164 requirements, where each is enforced, and the finding it generates when it is skipped",
       "columns": [
@@ -79516,6 +79608,10 @@
     },
     "facets": [
       {
+        "q": "What is the current edition of ASTM E164?",
+        "a": "E164-24, listed as the active edition on the ASTM store (last updated 24 December 2024), titled Standard Practice for Contact Ultrasonic Testing of Weldments. Its scope covers A-scan pulse-echo examination of specific weld configurations in wrought ferrous or aluminium alloys from 0.250 in. to 8 in. thick. Cite the designation with its year in procedures and purchase orders."
+      },
+      {
         "q": "What thickness range does ASTM E164 actually cover?",
         "a": "Roughly 1/4 in. to 8 in., that is about 6 mm to 200 mm, in wrought ferrous and aluminium alloy products. Below that band the near-surface dead zone and the wall-to-wavelength relationship make conventional contact angle beam unreliable, which is why thin-wall stainless tubing work migrates to phased array, TOFD or radiography. Applying E164 to a 5 mm wall and reporting full coverage is a finding waiting to happen."
       },
@@ -79538,6 +79634,26 @@
       {
         "q": "Is ASTM E164 the right document for phased array or TOFD?",
         "a": "No. Contact phased array examination of welds is covered by ASTM E2700, and time of flight diffraction by ASTM E2373. Those practices carry their own calibration, focal law and encoder requirements that E164 never contemplated. A procedure that cites E164 while the technician runs a linear array with a wedge and an encoder is describing one examination and performing another, and reviewers do notice."
+      },
+      {
+        "q": "Has ASTM E164 been renamed?",
+        "a": "Its title has been adjusted across revisions, moving between phrasings such as ultrasonic contact examination of weldments and contact ultrasonic testing of weldments, while the designation E164 stayed constant. Cite the designation with the revision year in your procedure and purchase order, because specifications written years apart may reference wording that no longer matches the current document even though the technical intent is continuous."
+      },
+      {
+        "q": "Does E164 require the procedure to be demonstrated?",
+        "a": "A written procedure is expected and the referencing code usually requires demonstration on a qualification specimen or a representative production part with known reflectors. Under ASME Section V the demonstration is to the satisfaction of the Inspector. Outside ASME jurisdiction the client specification decides, and on critical work a mock-up containing realistic flaws, rather than side-drilled holes alone, is the only honest demonstration of detection capability."
+      },
+      {
+        "q": "What frequency and angles are normally used under E164?",
+        "a": "Typically 2.25 MHz for carbon steel weld examination, sometimes 5 MHz on thinner sections for resolution or lower frequencies on attenuative material, with refracted shear angles of 45, 60 and 70 degrees selected so the beam meets the expected fusion faces as near normal as geometry allows. The technique sheet must state the combination used and the reason, not simply the equipment available."
+      },
+      {
+        "q": "How does temperature affect an E164 examination?",
+        "a": "Sound velocity, attenuation and couplant behaviour all change with temperature, so calibration performed on a block at a substantially different temperature from the part introduces error. ASME Section V Article 4 caps the difference between calibration block and examination surface, commonly at 25 degrees Fahrenheit. On hot or cold work the procedure must state the temperature range and the couplant qualified for it, and verification must be repeated within that range."
+      },
+      {
+        "q": "Can E164 results be used later for fitness-for-service assessment?",
+        "a": "Only if the report is specific enough. A fitness-for-service assessment under API 579 needs flaw height, length, position through wall and orientation, and a conventional amplitude-based contact examination reported as an indication rating rarely supplies height with adequate confidence. If the intent is future assessment, specify a sizing technique and reporting format capable of it at the outset rather than reconstructing it from an amplitude report years later."
       }
     ],
     "sections": [
@@ -79615,6 +79731,34 @@
       }
     ],
     "faq": [
+      {
+        "q": "What is the current edition of ASTM E164?",
+        "a": "E164-24, listed as the active edition on the ASTM store (last updated 24 December 2024), titled Standard Practice for Contact Ultrasonic Testing of Weldments. Its scope covers A-scan pulse-echo examination of specific weld configurations in wrought ferrous or aluminium alloys from 0.250 in. to 8 in. thick. Cite the designation with its year in procedures and purchase orders."
+      },
+      {
+        "q": "What thickness range does ASTM E164 actually cover?",
+        "a": "Roughly 1/4 in. to 8 in., that is about 6 mm to 200 mm, in wrought ferrous and aluminium alloy products. Below that band the near-surface dead zone and the wall-to-wavelength relationship make conventional contact angle beam unreliable, which is why thin-wall stainless tubing work migrates to phased array, TOFD or radiography. Applying E164 to a 5 mm wall and reporting full coverage is a finding waiting to happen."
+      },
+      {
+        "q": "Why does E164 require a straight beam scan of the base metal first?",
+        "a": "Because a lamination or a large inclusion in the plate will reflect or deflect the angle beam before it ever reaches the weld, so the technician sees a clean screen and reports full coverage on a volume that was never insonified. The straight beam survey of the scanning surface maps those obstructions first. Skipping it is the single most common cause of a missed fusion-face flaw on thick plate."
+      },
+      {
+        "q": "What is transfer correction and why is it always missing?",
+        "a": "Transfer correction accounts for the difference in sound entry and attenuation between the calibration block and the actual test piece, caused by surface roughness, curvature, coating, grain structure or temperature. It is measured, usually by comparing back-wall or angle beam responses on block and part, and applied in decibels to the reference level. It is missing because it takes a second technician and ten minutes, and because nobody audits for it until something is missed."
+      },
+      {
+        "q": "Can I calibrate to E164 and accept to AWS D1.1?",
+        "a": "Not safely. The D1.1 dB rating subtracts a reference level established by D1.1's own calibration on its specified reference reflector and sound path, then applies an attenuation factor and reads the result against a table. Import a different reference reflector or a distance amplitude curve from another practice and the indication rating number no longer means what the acceptance table assumes. Calibrate to the standard whose acceptance criteria you will apply."
+      },
+      {
+        "q": "Does E164 apply to austenitic stainless and dissimilar metal welds?",
+        "a": "It is written for wrought ferrous and aluminium alloy weldments, and coarse-grained austenitic weld metal defeats the assumptions behind it: the beam skews, attenuates and scatters, so a distance amplitude curve built on a carbon steel block is meaningless. Austenitic and dissimilar metal welds need dedicated techniques, low-frequency dual-element or phased array probes, and a mock-up demonstration on representative material before anyone claims detection capability."
+      },
+      {
+        "q": "Is ASTM E164 the right document for phased array or TOFD?",
+        "a": "No. Contact phased array examination of welds is covered by ASTM E2700, and time of flight diffraction by ASTM E2373. Those practices carry their own calibration, focal law and encoder requirements that E164 never contemplated. A procedure that cites E164 while the technician runs a linear array with a wedge and an encoder is describing one examination and performing another, and reviewers do notice."
+      },
       {
         "q": "Has ASTM E164 been renamed?",
         "a": "Its title has been adjusted across revisions, moving between phrasings such as ultrasonic contact examination of weldments and contact ultrasonic testing of weldments, while the designation E164 stayed constant. Cite the designation with the revision year in your procedure and purchase order, because specifications written years apart may reference wording that no longer matches the current document even though the technical intent is continuous."
@@ -80203,89 +80347,73 @@
   },
   {
     "slug": "/standards/nace-sp0188",
-    "title": "NACE SP0188 Standard — Holiday Test Voltage by Thickness",
-    "description": "NACE SP0188 picks the method by coating thickness: wet sponge at or below 500 microns, high-voltage spark above it, at 525 x the square root of mils.",
-    "h1": "Holiday Testing New Coatings: Getting the Voltage Right",
-    "answer": "NACE SP0188 is the practice for detecting discontinuities, or holidays, in new protective coatings on conductive substrates. Measured dry film thickness selects the technique: low-voltage wet sponge at or below 500 microns, high-voltage spark testing above it. Spark voltage is calculated from the measured thickness, not the specified thickness, and SP0188 sets no limit on how many holidays are acceptable.",
-    "expansion": "Holiday testing looks like the simplest inspection on a coatings job and generates more disputes than any other. The reason is that the test is destructive if you get the voltage wrong. A spark tester set from the specified thickness rather than the measured thickness will burn pinholes through sound film wherever the applicator ran thin, and the applicator then has to repair damage the inspector created. SP0188 addresses this directly by tying the voltage to thickness actually measured on the work. The standard also draws a hard boundary around itself. It is written for new coatings on conductive substrates only. It does not cover aged coatings, coatings in service, coatings on concrete or any other non-conductive substrate, and it does not decide whether the coating passes. The number of permitted holidays, the repair method and the retest requirement all live in the owner's coating specification.",
-    "source": "NACE SP0188 (formerly RP0188), Discontinuity (Holiday) Testing of New Protective Coatings on Conductive Substrates, maintained by AMPP; ASTM D5162; ASTM G62; NACE SP0178; SSPC-PA 2 dry film thickness measurement",
+    "title": "NACE SP0188-2024 Holiday Testing: What Changed and Why",
+    "description": "NACE SP0188-2024 changed holiday test voltage and lowered the high-voltage threshold to 10 mils. Wet sponge vs spark testing, what changed, what to check.",
+    "h1": "NACE SP0188-2024: Holiday Testing of New Coatings",
+    "answer": "NACE SP0188 is the standard practice for discontinuity (holiday) testing of new protective coatings on conductive substrates. The current edition, SP0188-2024, published in January 2024, replaced the earlier recommended-voltage table with a calculation based on Paschen's law and allows high-voltage testing on coatings down to 10 mils (250 µm), where the 2006 edition recommended it only above 20 mils (500 µm).",
+    "expansion": "The change matters on site because the new voltage settings are, in the words of a JPCL review of the edition, significantly higher than the previous ones at the same thickness. An inspector still working from the 2006 table will under-test a coating that the specification says must be tested to the 2024 edition, and an inspector applying 2024 voltages to a job written against 2006 may apply more voltage than the contract expects. The edition the coating specification invokes therefore decides the voltage, and the inspection and test plan should name it. Two things have not changed. SP0188 is written for new coatings on conductive substrates only; it does not cover aged or in-service coatings or coatings on concrete. And it does not decide whether the coating passes: the number of permitted holidays, the repair method and the retest requirement all live in the owner's coating specification.",
+    "source": "NACE SP0188-2024, Discontinuity (Holiday) Testing of New Protective Coatings on Conductive Substrates (revises SP0188-2006), ANSI Webstore listing; C. Walker, Changes to Holiday Testing Standards and the Risks to Your Coating Projects, JPCL, July/August 2024; ASTM D5162; ASTM G62",
     "table": {
-      "caption": "SP0188 test voltage by measured dry film thickness",
+      "caption": "NACE SP0188: what changed between the 2006 and 2024 editions",
       "columns": [
-        "Measured DFT (mils)",
-        "Measured DFT (microns)",
-        "Technique",
-        "Formula applied",
-        "Approximate test voltage"
+        "Topic",
+        "SP0188-2006",
+        "SP0188-2024"
       ],
       "rows": [
         [
-          "5",
-          "125",
-          "Low-voltage wet sponge",
-          "Not applicable; fixed low-voltage DC source, typically 9 to 90 V",
-          "67.5 V typical"
+          "Publication",
+          "2006 edition",
+          "Published 26 January 2024; revises SP0188-2006"
         ],
         [
-          "10",
-          "250",
-          "Low-voltage wet sponge",
-          "Not applicable; fixed low-voltage DC source",
-          "90 V typical"
+          "Coatings that may be high-voltage tested",
+          "Recommended for dry film thickness above 20 mils (500 µm)",
+          "Permitted for dry film thickness down to 10 mils (250 µm)"
         ],
         [
-          "20",
-          "500",
-          "Boundary: wet sponge at or below, spark above",
-          "525 x square root of 20, where spark testing is specified",
-          "Approximately 2,350 V"
+          "Basis for the test voltage",
+          "A recommended voltage table that the JPCL review describes as based on anecdotal evidence",
+          "A calculation based on Paschen's law, checked against more than 200,000 holiday tests on coatings 10 to 400 mils thick"
         ],
         [
-          "30",
-          "750",
-          "High-voltage spark",
-          "525 x square root of 30",
-          "Approximately 2,875 V"
+          "Level of the test voltage",
+          "Lower settings at a given thickness",
+          "Significantly higher settings at a given thickness, per the JPCL review; precalculated values are in an appendix of the edition"
         ],
         [
-          "40",
-          "1,000",
-          "High-voltage spark, band boundary",
-          "525 x square root of 40, or 1,250 x square root of 40",
-          "Approximately 3,320 V or 7,900 V"
+          "Coating damage",
+          "No specific warning",
+          "Warns that the test voltage can damage some coatings, such as specialty or highly filled systems with lower dielectric strength"
         ],
         [
-          "60",
-          "1,500",
-          "High-voltage spark",
-          "1,250 x square root of 60",
-          "Approximately 9,680 V"
-        ],
-        [
-          "80",
-          "2,000",
-          "High-voltage spark",
-          "1,250 x square root of 80",
-          "Approximately 11,180 V"
-        ],
-        [
-          "120",
-          "3,000",
-          "High-voltage spark",
-          "1,250 x square root of 120",
-          "Approximately 13,690 V"
+          "Thickness used to set the voltage",
+          "Measured dry film thickness",
+          "Average measured dry film thickness, measured to a recognised practice such as SSPC-PA 2, ASTM D7091 or ASTM D6132"
         ]
       ],
-      "note": "Voltages derive from the SP0188 formulas: 525 x the square root of thickness in mils, or 3,294 x the square root of thickness in millimetres, up to 1 mm; and 1,250 x square root of mils, or 7,843 x square root of millimetres, above 1 mm. Thickness must be measured on the work rather than taken from the product data sheet, and the specification must state which band a nominal 40 mil system falls into."
+      "note": "Summary in our own words of the changes reported by C. Walker in JPCL (July/August 2024) and the ANSI Webstore listing. Voltages are not reproduced here: take them from the edition your specification invokes."
     },
     "facets": [
       {
-        "q": "What dry film thickness decides between wet sponge and spark testing?",
-        "a": "500 microns, 20 mils. At or below that measured thickness the low-voltage wet sponge method applies; above it, high-voltage spark testing. The reason is physical rather than administrative: thin films cannot withstand spark voltages and will be perforated by the test itself, while a low-voltage sponge cannot drive a detectable current through a thick film. The decision is made on measured thickness, not on the specified system thickness."
+        "q": "What changed in NACE SP0188-2024?",
+        "a": "SP0188-2024, published on 26 January 2024, replaced the earlier recommended-voltage table with a test voltage calculated from Paschen's law and checked against more than 200,000 holiday tests on coatings 10 to 400 mils thick. It allows high-voltage testing down to 10 mils (250 µm) instead of above 20 mils (500 µm), and it warns that the test voltage can damage some coatings."
       },
       {
-        "q": "How is the spark test voltage calculated?",
-        "a": "By formula from measured thickness. Up to 1 millimetre, 40 mils, the voltage is 525 times the square root of the thickness in mils, or 3,294 times the square root of the thickness in millimetres. Above 1 millimetre the constants become 1,250 and 7,843 respectively. A 30 mil system therefore tests at roughly 2,875 volts and a 60 mil system at roughly 9,680 volts, a difference no operator should be improvising."
+        "q": "What dry film thickness allows high-voltage spark testing under SP0188-2024?",
+        "a": "SP0188-2024 permits high-voltage testing on coating systems down to 10 mils (250 µm) dry film thickness. The 2006 edition recommended high-voltage testing only for coatings above 20 mils (500 µm), with low-voltage wet sponge testing for thinner films. Check the thickness limits for each technique in the edition your specification invokes."
+      },
+      {
+        "q": "How is the spark test voltage set under SP0188-2024?",
+        "a": "From the average measured dry film thickness, using the edition's calculation based on Paschen's law; the edition also gives a table of precalculated voltages in an appendix. The JPCL review of the edition reports that the new settings are significantly higher than the old ones at the same thickness, so a voltage taken from the 2006 table will under-test a coating specified to the 2024 edition."
+      },
+      {
+        "q": "Which edition of SP0188 does my specification invoke?",
+        "a": "Whichever edition the contract or coating specification names. Specifications written before 2024 may still cite SP0188-2006, and the two editions give different voltages for the same thickness. If the specification cites SP0188 with no year, agree the edition in writing before testing starts; the JPCL review recommends specifying the latest version."
+      },
+      {
+        "q": "Can holiday testing damage a sound coating?",
+        "a": "Yes, and SP0188-2024 adds warnings about it: some specialty or highly filled coatings have a lower dielectric strength than the test voltage. Excess voltage, a stationary electrode, slow travel over an edge or a weld crown, and voltage set from nominal rather than measured thickness all initiate discharge through intact film. The damage looks exactly like a discovered holiday."
       },
       {
         "q": "Can an aged or in-service coating be holiday tested to SP0188?",
@@ -80293,111 +80421,150 @@
       },
       {
         "q": "Does SP0188 state how many holidays are acceptable?",
-        "a": "No, and assuming otherwise causes contractual disputes. SP0188 is a detection practice and nothing more. Coverage, permitted holiday count, repair method, cure time before retest and the retest requirement all belong to the owner's coating specification. For immersion linings the usual position is 100 percent coverage with zero permitted holidays, but that position has to be written down rather than inferred from the standard."
+        "a": "No, and assuming otherwise causes contractual disputes. SP0188 is a detection practice. Coverage, permitted holiday count, repair method, cure time before retest and the retest requirement all belong to the owner's coating specification. For immersion linings the usual position is 100 percent coverage with zero permitted holidays, but that position has to be written down rather than inferred from the standard."
       },
       {
         "q": "Why does a zinc-rich primer indicate holidays everywhere?",
-        "a": "Because it is conductive by design. Zinc-rich primers protect galvanically, which requires electrical continuity with the steel, so a spark tester sees a continuous conductive path across perfectly sound film. The same happens with linings pigmented with carbon black, graphite or metallic flake. Such primers are tested only as part of the completed system once the insulating coats are applied, with voltage set from total measured system thickness."
+        "a": "Because it is conductive by design. Zinc-rich primers protect galvanically, which requires electrical continuity with the steel, so a spark tester sees a continuous conductive path across perfectly sound film. The same happens with linings pigmented with carbon black, graphite or metallic flake. Such primers are tested only as part of the completed system once the insulating coats are applied, with the voltage set from the total measured system thickness."
       },
       {
         "q": "Does the surface have to be dry before high-voltage testing?",
         "a": "Yes, and this is the most common source of false indications on site. Dew, condensation on a cold substrate, or a surface wiped down and not dried will conduct across the film. Soluble salt residues and conductive dust do the same thing. Practically, the surface temperature should sit comfortably above dew point and the film should be fully cured, because retained solvent leaves the coating conductive as well."
+      },
+      {
+        "q": "Is SP0188 the same as ASTM D5162?",
+        "a": "They cover the same two techniques but are separate documents with separate voltage guidance and scope wording. SP0188, formerly NACE RP0188, addresses new coatings on conductive substrates. ASTM D5162 addresses non-conductive protective coatings on metallic substrates, and ASTM G62 covers pipeline coatings. Where a specification cites more than one, reconcile the voltage requirements before work starts rather than during it."
+      },
+      {
+        "q": "How often should the tester output voltage be verified?",
+        "a": "Against a calibrated kilovoltmeter, typically at the start of each shift or each time the instrument is set up, because output drifts with battery condition, electrode wear and cable length. Record the verification with the test data. An instrument trusted on its own display can deliver a voltage well above the intended value and perforate sound coating throughout a shift."
+      },
+      {
+        "q": "Do repaired holidays have to be retested?",
+        "a": "That requirement comes from the coating specification rather than from SP0188, but any competent specification requires it. The repair area is prepared, feathered into the surrounding coating, recoated to the specified thickness, allowed to reach the stated cure before retest, and then tested again at the voltage derived from the repaired thickness. Retesting before cure regenerates the same indication and wastes a second repair cycle."
       }
     ],
     "sections": [
       {
-        "heading": "What SP0188 is, and the boundary it draws around itself",
+        "heading": "What SP0188 covers, and the boundary it draws around itself",
         "paragraphs": [
-          "SP0188 is the standard practice for discontinuity testing, universally called holiday testing, of new protective coatings applied to conductive substrates. A holiday is any void, pinhole, thin spot, inclusion or crack that leaves a conductive path from the surface of the coating down to the steel underneath. The practice describes how to find them, and it describes nothing else.",
-          "Three exclusions decide most disputes. The practice is written for new coatings, so aged coatings, coatings that have been in immersion service and coatings contaminated by process residues fall outside it. It applies to conductive substrates, so coatings on concrete, masonry or composites are not covered. And it establishes no acceptance criteria whatsoever, which is why a specification saying test per SP0188 without saying what a pass looks like has in fact specified nothing.",
-          "Its companions are ASTM D5162, which covers the same two techniques for non-conductive coatings on metallic substrates, and ASTM G62 for pipeline coatings. Referencing documents point at all three inconsistently. When a coating specification cites SP0188 and an ASTM practice together, the requirements need to be reconciled before mobilisation, because the voltage guidance and the surface condition expectations are not identical between them."
+          "NACE SP0188, Discontinuity (Holiday) Testing of New Protective Coatings on Conductive Substrates, is the standard practice for finding holidays in new coatings and linings applied to conductive, typically metal, substrates. A holiday is any void, pinhole, thin spot, inclusion or crack that leaves a conductive path from the surface of the coating down to the steel underneath. The practice covers both high-voltage and low-voltage detection. It describes how to find holidays, and nothing else.",
+          "Three exclusions decide most disputes. The practice is written for new coatings, so aged coatings, coatings that have been in immersion service and coatings contaminated by process residues fall outside it. It applies to conductive substrates, so coatings on concrete, masonry or composites are not covered. And it establishes no acceptance criteria, which is why a specification saying test per SP0188 without saying what a pass looks like has in fact specified nothing.",
+          "Its companions are ASTM D5162, which covers the same two techniques for non-conductive coatings on metallic substrates, and ASTM G62 for pipeline coatings. When a coating specification cites SP0188 and an ASTM practice together, reconcile the requirements before mobilisation, because the voltage guidance and the surface condition expectations are not identical between them."
         ]
       },
       {
-        "heading": "Wet sponge or spark: 500 microns decides",
+        "heading": "What changed in SP0188-2024",
         "paragraphs": [
-          "Dry film thickness selects the technique, and the dividing line is 500 microns, 20 mils. At or below that thickness the low-voltage wet sponge method is used. Above it, high-voltage spark testing applies. The reason is physical rather than administrative: a thin film cannot survive the voltage a thick film requires, and a low-voltage sponge cannot drive a detectable current through a thick one.",
-          "The wet sponge method uses a direct current source, typically in the range of 9 to 90 volts, a sponge dampened with water containing a wetting agent to lower surface tension, and a ground return connected to bare substrate. The sponge is passed over the coating slowly, on the order of 0.3 metres per second, and a holiday completes the circuit and triggers the alarm. The sponge must be damp, not dripping; free water running across the surface produces false alarms and can bridge into an adjacent area.",
-          "High-voltage testing uses a pulsed or continuous DC source and a conductive electrode, brush, spring or rolling, moved across the surface at a controlled rate with the substrate grounded. A discontinuity produces a visible and audible spark. Because the technique works by breaking down the air gap at the flaw, it will equally break down sound coating if the voltage exceeds what the film can withstand, which is why voltage selection is the entire discipline."
+          "NACE SP0188 was republished on 26 January 2024 as SP0188-2024, revising the 2006 edition. According to C. Walker's review in the Journal of Protective Coatings and Linings (July/August 2024), the earlier recommended voltage table had been based on anecdotal evidence. The 2024 edition replaces it with a calculation based on Paschen's law, the physics of electrical breakdown across a gas gap, and the work behind it studied more than 200,000 holiday tests on coatings from 10 to 400 mils thick.",
+          "Three practical changes follow. High-voltage testing can now be used on coating systems with a dry film thickness down to 10 mils (250 µm), where the 2006 edition recommended it only above 20 mils (500 µm). The new voltage settings are significantly higher than the previous ones at the same thickness. And the edition adds warnings that the test voltage can damage some coatings, such as specialty or highly filled systems whose dielectric strength is lower than that of common coatings.",
+          "The edition sets the voltage from the average measured dry film thickness, measured to a recognised practice such as SSPC-PA 2, ASTM D7091 or ASTM D6132, and gives precalculated voltages in an appendix. Take the voltage from that appendix, or from the calculation in the edition, rather than from a table copied from an older procedure."
         ]
       },
       {
-        "heading": "Setting the voltage from measured thickness",
+        "heading": "Which edition does your specification invoke?",
         "paragraphs": [
-          "SP0188 derives test voltage from film thickness by formula. For coatings up to 1 millimetre, 40 mils, the voltage is 525 times the square root of the thickness in mils, or 3,294 times the square root of the thickness in millimetres. Above 1 millimetre the constants change to 1,250 and 7,843 respectively. Both forms give the same answer within rounding; the mils form is the one field crews actually use on the back of a tally sheet.",
-          "The step at 40 mils is worth understanding before it happens to you. At 40 mils the lower formula returns roughly 3,320 volts and the upper formula returns roughly 7,900 volts. Two inspectors testing the same coating, one treating it as the top of the thin range and one as the bottom of the thick range, will apply voltages differing by more than a factor of two. The specification has to say which band a nominal 40 mil system falls in, or the argument happens on site with the applicator watching.",
-          "The word measured matters more than the formula does. Thickness for voltage selection comes from gauge readings taken on the work in accordance with the applicable dry film thickness measurement practice, not from the product data sheet. A system specified at 20 mils and applied at 32 mils will be under-tested if 20 is used, and a system specified at 32 mils but applied at 18 mils will be burned through. Both failures are common and both are avoidable in the same five minutes."
+          "The contract governs. Specifications and inspection and test plans written before 2024 often cite SP0188-2006, and the two editions give different voltages for the same thickness. A specification that cites SP0188 without a year leaves the inspector and the applicator to pick an edition on site, which is how the voltage argument starts.",
+          "Agree the edition in writing before testing starts, and put it in the inspection and test plan next to the technique and the thickness range. Where the owner wants the 2024 voltages on a job written against 2006, confirm with the coating manufacturer that the system's dielectric strength can take them; the 2024 edition's own warning is about exactly that risk."
+        ]
+      },
+      {
+        "heading": "Wet sponge or spark testing",
+        "paragraphs": [
+          "Low-voltage wet sponge testing uses a direct current source, a sponge dampened with water containing a wetting agent to lower surface tension, and a ground return connected to bare substrate. The sponge is passed over the coating slowly, and a holiday completes the circuit and triggers the alarm. The sponge must be damp, not dripping; free water running across the surface produces false alarms and can bridge into an adjacent area.",
+          "High-voltage testing uses a pulsed or continuous DC source and a conductive electrode, brush, spring or rolling, moved across the surface at a controlled rate with the substrate grounded. A discontinuity produces a visible and audible spark. Because the technique works by breaking down the air gap at the flaw, it will equally break down sound coating if the voltage exceeds what the film can withstand, which is why voltage selection is the whole discipline.",
+          "Under SP0188-2024 the high-voltage method reaches thinner films than before, down to 10 mils. Which technique a job uses, and at what thickness each applies, should come from the edition the specification invokes and be written into the inspection and test plan."
         ]
       },
       {
         "heading": "Coatings you cannot test this way at all",
         "paragraphs": [
-          "Holiday testing depends entirely on the coating being an insulator. Coatings that conduct do not merely give inconsistent results; they give continuous indications across sound film, and crews respond by winding the voltage down until the alarm stops, at which point the test detects nothing at all but still gets recorded as performed and signed.",
-          "The usual offenders are inorganic and organic zinc-rich primers, which are deliberately conductive so they can protect galvanically, and linings pigmented with carbon black, graphite or metallic flake. A zinc primer cannot be spark tested on its own. It can be tested once the insulating intermediate and topcoat are applied, with the voltage then set from the total system thickness. Testing at primer stage and testing the finished system are different tests answering different questions, and only one of them is possible.",
-          "Very thin films are the other exclusion. A 50 micron shop primer will not survive any meaningful spark voltage and is a wet sponge subject if it is tested at all. Moisture-cured and solvent-retaining coatings that have not reached full cure are equally poor candidates, because residual solvent leaves the film conductive and the test reports holidays that will not exist a week later. Cure schedule before test schedule is the rule that prevents this."
+          "Holiday testing depends entirely on the coating being an insulator. Coatings that conduct do not merely give inconsistent results; they give continuous indications across sound film, and crews respond by winding the voltage down until the alarm stops, at which point the test detects nothing but still gets recorded as performed.",
+          "The usual offenders are inorganic and organic zinc-rich primers, which are deliberately conductive so they can protect galvanically, and linings pigmented with carbon black, graphite or metallic flake. A zinc primer cannot be spark tested on its own. It can be tested once the insulating intermediate and topcoat are applied, with the voltage then set from the total system thickness.",
+          "Coatings that have not reached full cure are poor candidates too, because residual solvent leaves the film conductive and the test reports holidays that will not exist a week later. Cure schedule before test schedule is the rule that prevents this."
         ]
       },
       {
         "heading": "The conditions that manufacture false indications",
         "paragraphs": [
-          "A surprising share of reported holidays are artefacts of the conditions rather than defects in the coating. Surface moisture is the single biggest cause: dew, condensation from a cold substrate, or a surface wiped down and not dried will carry current across the film and produce indications that move as the surface dries. High-voltage testing requires a dry surface, and a surface temperature comfortably above dew point is the practical control.",
-          "Conductive contamination does the same thing. Soluble salt residues, overspray of conductive materials, damp insulation debris and finger contamination on a tank lining all provide paths the tester will find. So does an inadequate ground: a clamp bitten onto painted steel, or onto a flange face with a gasket in between, leaves a high-resistance return that suppresses genuine indications rather than creating false ones, which is considerably harder to notice.",
-          "Then there is the operator. Travel speed that is too fast misses small holidays because the electrode does not dwell long enough to break down the gap. Travel speed that is too slow, or an electrode held stationary at a point, will initiate a discharge through sound film. Edges, weld crowns, bolt heads and internal corners concentrate field strength, so induced damage happens there first, which is also exactly where genuine holidays cluster because film thickness is hardest to hold there."
+          "A surprising share of reported holidays are artefacts of the conditions rather than defects in the coating. Surface moisture is the biggest cause: dew, condensation from a cold substrate, or a surface wiped down and not dried will carry current across the film and produce indications that move as the surface dries. High-voltage testing requires a dry surface, and a surface temperature comfortably above dew point is the practical control.",
+          "Conductive contamination does the same thing. Soluble salt residues, overspray of conductive materials, damp insulation debris and finger contamination on a tank lining all provide paths the tester will find. An inadequate ground, such as a clamp bitten onto painted steel or onto a flange face with a gasket in between, leaves a high-resistance return that suppresses genuine indications, which is considerably harder to notice.",
+          "Then there is the operator. Travel that is too fast misses small holidays because the electrode does not dwell long enough to break down the gap. Travel that is too slow, or an electrode held stationary, can initiate a discharge through sound film. Edges, weld crowns, bolt heads and internal corners concentrate field strength, so induced damage happens there first, which is also where genuine holidays cluster because film thickness is hardest to hold there."
         ]
       },
       {
         "heading": "Acceptance criteria come from the owner, not the standard",
         "paragraphs": [
-          "This is the point that ends most specification arguments once it is understood. SP0188 tells you how to detect a discontinuity. It does not tell you how many are tolerable, whether an area is rejected, how the holiday is repaired, or whether the repair is retested. Every one of those decisions belongs to the coating specification written for the job, and if the specification is silent, the parties will fill the silence differently.",
-          "A workable specification states the coverage, commonly 100 percent for immersion service linings and tank floors and a defined percentage for atmospheric service; the technique to be used and the voltage or the formula used to derive it; the permitted holiday count; the repair procedure including surface preparation and feathering of the repair area; the cure period before retest; and the record to be produced. Written that way, the inspector and the applicator argue about the coating rather than about the standard.",
-          "Where the specification is silent, the practical default for immersion linings is 100 percent coverage and zero permitted holidays, because a single pinhole in a lining is a corrosion cell with the entire tank surface acting as its cathode. Atmospheric coatings are rarely holiday tested at all outside critical areas. Getting the wording right before bid is the cheapest intervention available on a coatings project, and it is a normal part of [Level III technical authority support](/consulting)."
+          "SP0188 tells you how to detect a discontinuity. It does not tell you how many are tolerable, whether an area is rejected, how the holiday is repaired, or whether the repair is retested. Each of those decisions belongs to the coating specification written for the job, and if the specification is silent, the parties will fill the silence differently.",
+          "A workable specification states the SP0188 edition, the coverage, the technique and how the voltage is derived, the permitted holiday count, the repair procedure including surface preparation and feathering of the repair area, the cure period before retest, and the record to be produced. Written that way, the inspector and the applicator argue about the coating rather than about the standard.",
+          "Getting that wording right before bid is the cheapest intervention available on a coatings project, and reviewing it is a normal part of [Level III technical authority support](/consulting)."
         ]
       },
       {
         "heading": "Instrument verification, safety and the records that survive",
         "paragraphs": [
-          "The tester's output voltage must be verified against a calibrated kilovoltmeter and the verification recorded, because output drifts with battery state, electrode wear and cable length. Many specifications require verification at the start of each shift. A tester reading 5,000 volts on its own display while delivering 8,000 is burning the coating it is meant to inspect, and there is no way to know that without measuring the output independently.",
-          "Safety is not a footnote on this test. High-voltage testing inside a tank or vessel takes place in a confined space that may hold solvent vapour from the coating just applied. Spark testing an incompletely cured lining in an unventilated tank is an ignition source in a flammable atmosphere. Lower explosive limit monitoring, forced ventilation and a hold on testing until vapour has cleared are the controls, and they belong in the inspection and test plan rather than in the incident report.",
-          "The record that survives an argument identifies the item and area tested, the measured dry film thickness range used to set the voltage, the technique, the instrument and its verification, the voltage applied, the number and location of holidays found, the repair reference and the retest result. Reports assembled that way pass an [independent report review](/report-validation) without a query, and they are far easier to retrieve years later when they sit in an [inspection management system](/erp) rather than in a site folder."
+          "The tester's output voltage should be verified against a calibrated kilovoltmeter and the verification recorded, because output drifts with battery state, electrode wear and cable length. A tester reading one voltage on its own display while delivering another is either burning the coating or under-testing it, and there is no way to know without measuring the output independently.",
+          "High-voltage testing inside a tank or vessel takes place in a confined space that may hold solvent vapour from the coating just applied. Spark testing an incompletely cured lining in an unventilated tank is an ignition source in a flammable atmosphere. Atmosphere monitoring, forced ventilation and a hold on testing until vapour has cleared are the controls, and they belong in the inspection and test plan.",
+          "The record that survives an argument identifies the item and area tested, the SP0188 edition, the measured dry film thickness used to set the voltage, the technique, the instrument and its verification, the voltage applied, the number and location of holidays found, the repair reference and the retest result. Records kept that way are easier to retrieve years later when they sit in an [inspection management system](/erp) rather than in a site folder."
         ]
       },
       {
-        "heading": "How the coating inspection team is deployed",
+        "heading": "Repair coatings and the thickness gradient that produces a false pass",
         "paragraphs": [
-          "Lining and coating campaigns run on the applicator's schedule, which means inspection has to be present continuously rather than by periodic visit. Atlantis mobilises inspection personnel from Houston and Hyderabad to the fabrication yard, the coating shop or the tank site, and once mobilised the team remains deployed for the duration of the contract rather than flying in for hold points and hoping the schedule held.",
-          "That continuity is what makes hold points work at all. The same inspector who verified the surface preparation and recorded the soluble salt result is the one who measures film thickness, sets the holiday test voltage from those readings, and signs off the repairs. Handing a lining job between rotating inspectors is how a coating ends up accepted against three different readings of the same specification.",
-          "Where the wider scope includes weld examination of the substrate before lining, personnel are qualified and certified under a written practice to SNT-TC-1A or ISO 9712, and [NDT training and certification](/training) can be delivered against your own written practice rather than a generic syllabus. To scope a coating and lining inspection package, [describe the asset and the governing specification](/contact)."
-        ]
-      },
-      {
-        "heading": "Repair coatings and the DFT gradient that produces a false pass",
-        "paragraphs": [
-          "A repair patch on an in-service coating is rarely applied to a uniform dry film thickness across its full area — DFT typically feathers down toward the patch edge where it overlaps the original coating, and a holiday detection reading taken only at the patch centre, where DFT is thickest and the coating most defect-free, can pass while the feathered edge, where the coating is thinnest and most likely to carry an undetected discontinuity, is never tested at the voltage appropriate to its actual measured thickness.",
-          "This produces a specific and recoverable error: the test voltage under SP0188 is calculated from the measured DFT, and a single voltage calculated from a centre-of-patch reading and applied uniformly across a feathered repair will be systematically too high for the thin edge zone — a condition that itself risks damaging a coating that is otherwise sound, or too low to properly test a discontinuity in a thicker zone measured elsewhere on the same patch.",
-          "A defensible repair holiday test takes DFT readings across the repair area including the feathered transition, not only at the patch centre, and sets the test voltage from the thinnest zone actually being tested in that pass — accepting that a single repair patch with a genuine DFT gradient may need more than one calculated voltage if it is tested in more than one zone. Recording only a single pass or fail result for the whole patch, without the DFT readings that justified the voltage used, leaves a later reviewer unable to tell whether the test was actually valid for the zone that eventually leaks."
+          "A repair patch is rarely applied to a uniform dry film thickness across its full area. Thickness feathers down toward the patch edge where it overlaps the original coating, so a reading taken only at the patch centre, where the film is thickest, can set a voltage that is wrong for the thin edge, where an undetected discontinuity is most likely.",
+          "Because the voltage is derived from measured thickness, a single voltage calculated from a centre-of-patch reading and applied across a feathered repair will be too high for the thin edge zone, which risks damaging sound coating, or too low for a thicker zone elsewhere on the same patch.",
+          "A defensible repair test takes thickness readings across the repair area, including the feathered transition, and sets the voltage for each zone tested. Recording only a single pass or fail for the whole patch, without the readings that justified the voltage, leaves a later reviewer unable to tell whether the test was valid for the zone that eventually leaks."
         ]
       }
     ],
     "faq": [
       {
-        "q": "Is SP0188 the same as ASTM D5162?",
-        "a": "They cover the same two techniques but are separate documents with separate voltage guidance and scope wording. SP0188, formerly NACE RP0188 and now maintained under AMPP, addresses new coatings on conductive substrates. ASTM D5162 addresses non-conductive protective coatings on metallic substrates, and ASTM G62 covers pipeline coatings. Where a specification cites more than one, reconcile the voltage requirements before work starts rather than during it."
+        "q": "What changed in NACE SP0188-2024?",
+        "a": "SP0188-2024, published on 26 January 2024, replaced the earlier recommended-voltage table with a test voltage calculated from Paschen's law and checked against more than 200,000 holiday tests on coatings 10 to 400 mils thick. It allows high-voltage testing down to 10 mils (250 µm) instead of above 20 mils (500 µm), and it warns that the test voltage can damage some coatings."
       },
       {
-        "q": "What wetting agent is used in the wet sponge test?",
-        "a": "A small quantity of a low-residue surfactant is added to clean water so the solution wets the surface and penetrates fine pinholes instead of beading off. Household detergents are commonly used in practice, but the quantity matters: too much leaves a conductive residue that has to be rinsed off afterwards, and free water running down the surface causes false alarms. The sponge should be damp, not dripping."
+        "q": "What dry film thickness allows high-voltage spark testing under SP0188-2024?",
+        "a": "SP0188-2024 permits high-voltage testing on coating systems down to 10 mils (250 µm) dry film thickness. The 2006 edition recommended high-voltage testing only for coatings above 20 mils (500 µm), with low-voltage wet sponge testing for thinner films. Check the thickness limits for each technique in the edition your specification invokes."
+      },
+      {
+        "q": "How is the spark test voltage set under SP0188-2024?",
+        "a": "From the average measured dry film thickness, using the edition's calculation based on Paschen's law; the edition also gives a table of precalculated voltages in an appendix. The JPCL review of the edition reports that the new settings are significantly higher than the old ones at the same thickness, so a voltage taken from the 2006 table will under-test a coating specified to the 2024 edition."
+      },
+      {
+        "q": "Which edition of SP0188 does my specification invoke?",
+        "a": "Whichever edition the contract or coating specification names. Specifications written before 2024 may still cite SP0188-2006, and the two editions give different voltages for the same thickness. If the specification cites SP0188 with no year, agree the edition in writing before testing starts; the JPCL review recommends specifying the latest version."
+      },
+      {
+        "q": "Can holiday testing damage a sound coating?",
+        "a": "Yes, and SP0188-2024 adds warnings about it: some specialty or highly filled coatings have a lower dielectric strength than the test voltage. Excess voltage, a stationary electrode, slow travel over an edge or a weld crown, and voltage set from nominal rather than measured thickness all initiate discharge through intact film. The damage looks exactly like a discovered holiday."
+      },
+      {
+        "q": "Can an aged or in-service coating be holiday tested to SP0188?",
+        "a": "No. The practice is written for new coatings. Aged films, and particularly linings that have been in immersion service, absorb moisture and process fluid, which changes their dielectric behaviour and produces indications that are not discontinuities at all. High-voltage testing of an old lining can also drive damage into film that was still serviceable. Condition assessment of existing coatings needs a different approach and a different written specification."
+      },
+      {
+        "q": "Does SP0188 state how many holidays are acceptable?",
+        "a": "No, and assuming otherwise causes contractual disputes. SP0188 is a detection practice. Coverage, permitted holiday count, repair method, cure time before retest and the retest requirement all belong to the owner's coating specification. For immersion linings the usual position is 100 percent coverage with zero permitted holidays, but that position has to be written down rather than inferred from the standard."
+      },
+      {
+        "q": "Why does a zinc-rich primer indicate holidays everywhere?",
+        "a": "Because it is conductive by design. Zinc-rich primers protect galvanically, which requires electrical continuity with the steel, so a spark tester sees a continuous conductive path across perfectly sound film. The same happens with linings pigmented with carbon black, graphite or metallic flake. Such primers are tested only as part of the completed system once the insulating coats are applied, with the voltage set from the total measured system thickness."
+      },
+      {
+        "q": "Does the surface have to be dry before high-voltage testing?",
+        "a": "Yes, and this is the most common source of false indications on site. Dew, condensation on a cold substrate, or a surface wiped down and not dried will conduct across the film. Soluble salt residues and conductive dust do the same thing. Practically, the surface temperature should sit comfortably above dew point and the film should be fully cured, because retained solvent leaves the coating conductive as well."
+      },
+      {
+        "q": "Is SP0188 the same as ASTM D5162?",
+        "a": "They cover the same two techniques but are separate documents with separate voltage guidance and scope wording. SP0188, formerly NACE RP0188, addresses new coatings on conductive substrates. ASTM D5162 addresses non-conductive protective coatings on metallic substrates, and ASTM G62 covers pipeline coatings. Where a specification cites more than one, reconcile the voltage requirements before work starts rather than during it."
       },
       {
         "q": "How often should the tester output voltage be verified?",
-        "a": "Against a calibrated kilovoltmeter, and typically at the start of each shift or each time the instrument is set up, because output drifts with battery condition, electrode wear and cable length. The verification should be recorded with the test data. An instrument trusted on its own display readout can deliver a voltage well above the calculated value and perforate sound coating throughout an entire shift."
+        "a": "Against a calibrated kilovoltmeter, typically at the start of each shift or each time the instrument is set up, because output drifts with battery condition, electrode wear and cable length. Record the verification with the test data. An instrument trusted on its own display can deliver a voltage well above the intended value and perforate sound coating throughout a shift."
       },
       {
         "q": "Do repaired holidays have to be retested?",
         "a": "That requirement comes from the coating specification rather than from SP0188, but any competent specification requires it. The repair area is prepared, feathered into the surrounding coating, recoated to the specified thickness, allowed to reach the stated cure before retest, and then tested again at the voltage derived from the repaired thickness. Retesting before cure regenerates the same indication and wastes a second repair cycle."
-      },
-      {
-        "q": "Can holiday testing damage a sound coating?",
-        "a": "Yes, and that is the central risk of the high-voltage method. Excess voltage, a stationary electrode, slow travel over an edge or a weld crown, and voltage set from nominal rather than measured thickness all initiate discharge through intact film. The damage looks exactly like a discovered holiday, so it gets repaired and never recorded as induced. Verifying the instrument and deriving voltage from measured thickness are the controls."
       }
     ]
   },

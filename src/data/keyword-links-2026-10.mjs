@@ -34,7 +34,7 @@ const T = {
   cmap: { href: '/corrosion-mapping', anchors: ['corrosion mapping services'] },
   pv: { href: '/inspection/pressure-vessel-inspection-services', anchors: ['pressure vessel inspection services'] },
   training: { href: '/training', anchors: ['NDT training courses', 'NDT certification courses', 'NDT training and certification', 'PAUT and TOFD training'] },
-  online: { href: '/ndt-training-online', anchors: ['online NDT courses', 'live online NDT training', 'blended NDT training'] },
+  online: { href: '/ndt-training-online', anchors: ['online NDT courses', 'self-paced online NDT training', 'blended NDT training'] }, // 2026-10-18 owner: no live online classes
   hours: { href: '/tools/snt-tc-1a-hours-planner', anchors: ['SNT-TC-1A hours planner', 'training and experience hours planner'] },
   sim: { href: '/practical-ndt', anchors: ['NDT simulator', 'NDT training simulator', 'browser-based NDT practice', 'NDT simulation software'] },
   // 2026-10-12: the UT-specific simulator anchors moved to the A-scan tool page, which owns them.

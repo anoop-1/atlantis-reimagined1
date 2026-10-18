@@ -2689,7 +2689,22 @@
     },
     {
       "source": "/blog/astm-e165-radiographic-examination-standards",
-      "destination": "/blog/astm-e165-pt-standard-test-method-2028",
+      "destination": "/glossary/astm-e165",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/astm-e165-pt-standard-test-method-2028",
+      "destination": "/glossary/astm-e165",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/astm-e164-contact-ultrasonic-2028",
+      "destination": "/standards/astm-e164",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/nace-sp0188-holiday-detection-2028",
+      "destination": "/standards/nace-sp0188",
       "statusCode": 301
     },
     {

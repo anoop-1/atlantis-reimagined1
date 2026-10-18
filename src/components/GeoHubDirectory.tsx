@@ -18,7 +18,7 @@ const HOSTS: Record<string, { label: string; heading?: string; intro?: string; f
   consulting: { label: "NDT Level III Consulting" },
   inspection: { label: "NDT Inspection Services" },
   erp: { label: "NDT ERP" },
-  practical: { label: "Practical NDT" },
+  // practical: listed by PracticalNdtDirectory instead (2026-10-18).
   // API inspection programme 2026-10-04 (hosted on /inspection-services).
   api653: { label: "API 653 tank inspection support", heading: "API 653 storage tank inspection support by state and province", intro: API_INTRO },
   api510: { label: "API 510 pressure vessel inspection support", heading: "API 510 pressure vessel inspection support by state and province", intro: API_INTRO },

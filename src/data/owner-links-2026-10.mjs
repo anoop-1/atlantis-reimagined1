@@ -59,6 +59,7 @@ export const OWNERS = {
   wp: '/ndt-written-practice-development',
   procedure: '/consulting/ndt-technical-procedure-development',
   psm: '/consulting/osha-psm-mechanical-integrity-ndt',
+  turnaround: '/blog/digital-twin-for-refinery-turnaround-planning-what-it-actually-changes', // 2026-10-18 traffic: one owner for turnaround twin content
 };
 
 /**
@@ -145,6 +146,7 @@ const IMS = `[inspection management software](${OWNERS.ims})`;
 const REP = `[NDT reporting software](${OWNERS.reporting})`;
 const TWIN = `[asset integrity digital twin](${OWNERS.twin})`;
 const TWINREP = `[digital twin inspection reporting](${OWNERS.twinReporting})`;
+const TURN = `[digital twins for turnarounds](${OWNERS.turnaround})`;
 const RTUT = `[RT vs UT comparison](${OWNERS.rtut})`;
 const D11 = `[AWS D1.1 acceptance criteria](${OWNERS.d11})`;
 const COST = `[NDT inspection cost by method](${OWNERS.cost})`;
@@ -398,6 +400,15 @@ export const OWNER_PAGES = {
     description: 'How a digital twin puts CML thickness trends, damage mapping and corrosion-rate forecasts on one 3D model, and what integrity teams at refineries, FPSOs and pipelines use it for.',
     h1: 'Digital Twins for Integrity Teams: A Practical Guide',
     p: `For the Atlantis platform itself, see the ${TWIN} page; for the inspection reports it issues, see ${TWINREP}.`,
+  },
+  // 2026-10-18 (traffic): turnaround twin content routes to one owner (the planning guide).
+  '/blog/digital-twin-roi-for-refinery-turnarounds-a-real-cost-benefit-framework': {
+    source: 'blog',
+    p: `This page weighs costs and benefits. The planning sequence they come from, with scope built on inspection history, access planned in the model and NDT results recorded on the CMLs, is set out in ${TURN}.`,
+  },
+  '/digital-twins/turnaround-planning-scaffolding-access': {
+    source: 'depth',
+    p: `Access planning is one stage of the turnaround; the whole sequence, from scope to the as-found record that sets the next one, is set out in ${TURN}.`,
   },
   '/digital-twins-ndt-guide-2026': {
     source: 'tsx',

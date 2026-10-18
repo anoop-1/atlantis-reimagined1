@@ -38,7 +38,11 @@
  * data is permitted and wanted. No Atlantis price appears here; the CTA routes
  * to training and to the enquiry form.
  */
+import { readFileSync } from 'node:fs';
 import { loadKnowledgeTs } from './route-reconcile.mjs';
+// 2026-10-18: sourced figures only — the same table/paragraph HTML React renders (SalaryLevelPage.tsx).
+import { sourceTableHtml, whyHtml, planHtml, inlineLinks } from '../src/data/salary-sources-2026-10.mjs';
+const SALARY_SOURCES = JSON.parse(readFileSync(new URL('../src/data/salary-sources-2026-10.json', import.meta.url), 'utf8'));
 
 const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -53,22 +57,6 @@ function relatedProse(related) {
   return `    <p>Where to go next: ${links.length > 1 ? `${lead} and ${tail}` : tail}.</p>\n`;
 }
 
-function renderTable(caption, rows) {
-  if (!rows || !rows.length) return '';
-  return (
-    `    <table>\n      <caption>${esc(caption)}</caption>\n` +
-    '      <thead><tr><th scope="col">Segment</th><th scope="col">Range</th><th scope="col">What drives it</th></tr></thead>\n' +
-    '      <tbody>\n' +
-    rows
-      .map(
-        (r) =>
-          `        <tr><th scope="row">${esc(r.segment)}</th><td>${esc(r.range)}</td><td>${esc(r.note)}</td></tr>`,
-      )
-      .join('\n') +
-    '\n      </tbody>\n    </table>\n'
-  );
-}
-
 /**
  * Build the static body from the config. Ordered so the direct answer is the
  * first thing in the DOM: retrieval works on passages, and the passage a model
@@ -78,7 +66,7 @@ function renderSalaryBody(cfg) {
   let out = '';
   out += '  <header><nav aria-label="Main Navigation">';
   out += '<a href="/">Home</a><a href="/training">Training</a><a href="/asnt-certification">ASNT Certification</a>';
-  out += '<a href="/ndt-technician-salary">Salary Guide</a><a href="/contact">Contact</a>';
+  out += '<a href="/blog/ndt-salary-guide-2026-global">Salary Guide</a><a href="/contact">Contact</a>';
   out += '</nav></header>\n  <main>\n';
   out += `    <h1>${esc(cfg.h1)}</h1>\n`;
 
@@ -86,26 +74,20 @@ function renderSalaryBody(cfg) {
   // lint pass and the AI-retrieval layer both recognise it.
   out += `    <div data-citation-block="answer">\n      <p>${esc(cfg.quickAnswer)}</p>\n    </div>\n`;
 
+  // 2026-10-18: the published sources, with dates and samples, before any discussion.
+  out += `    ${sourceTableHtml(SALARY_SOURCES, cfg.sourceIds || [])}\n    ${whyHtml(SALARY_SOURCES, true)}\n`;
+
   if (cfg.drivers && cfg.drivers.length) {
     out += '    <h2>What moves the number</h2>\n';
     for (const d of cfg.drivers) {
-      out += `    <h3>${esc(d.h)}</h3>\n    <p>${esc(d.body)}</p>\n`;
+      out += `    <h3>${esc(d.h)}</h3>\n    <p>${inlineLinks(d.body)}</p>\n`;
     }
-  }
-
-  if (cfg.table) out += renderTable(cfg.table.caption, cfg.table.rows);
-
-  if (cfg.intl && cfg.intl.length) {
-    out += renderTable('International comparison — the same role in other markets', cfg.intl);
-    out += '    <p>International rows are for comparison only. Atlantis delivers training on-site '
-      + 'at employers\' facilities across the United States, with theory online; see <a href="/training-usa">NDT training '
-      + 'across the US</a> for delivery by region.</p>\n';
   }
 
   if (cfg.progression && cfg.progression.length) {
     out += '    <h2>Moving up from here</h2>\n';
     for (const p of cfg.progression) {
-      out += `    <h3>${esc(p.h)}</h3>\n    <p>${esc(p.body)}</p>\n`;
+      out += `    <h3>${esc(p.h)}</h3>\n    <p>${inlineLinks(p.body)}</p>\n`;
     }
   }
 
@@ -116,16 +98,21 @@ function renderSalaryBody(cfg) {
     }
   }
 
-  out += '    <h2>Turning a pay band into a plan</h2>\n';
-  out += '    <p>Every band on this page is an output of certification decisions. The route between '
-    + 'them runs through documented training hours, examination and on-the-job experience under a '
-    + 'qualified Level III — see <a href="/asnt-certification">ASNT certification requirements by '
-    + 'level</a> and <a href="/blog/ndt-training-hours-requirements-by-method">training hours by '
-    + 'method</a> for what each step demands. Employers building a cohort rather than an individual '
-    + 'should start at <a href="/corporate-ndt-training">employer-sponsored NDT training</a>.</p>\n';
+  out += `    ${planHtml(SALARY_SOURCES)}\n`;
   out += relatedProse(cfg.related);
   out += '  </main>';
   return out;
+}
+
+function withFaqPage(sd, faqs) {
+  const node = { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
+  const isFaq = (n) => n && n['@type'] === 'FAQPage';
+  if (!sd) return { '@context': 'https://schema.org', '@graph': [node] };
+  if (Array.isArray(sd)) return [...sd.filter((n) => !isFaq(n)), { '@context': 'https://schema.org', ...node }];
+  if (Array.isArray(sd['@graph'])) return { ...sd, '@graph': [...sd['@graph'].filter((n) => !isFaq(n)), node] };
+  if (isFaq(sd)) return { '@context': 'https://schema.org', ...node };
+  const { '@context': _c, ...rest } = sd;
+  return { '@context': 'https://schema.org', '@graph': [rest, node] };
 }
 
 /**
@@ -146,6 +133,8 @@ export async function applySalaryStaticRender(routes) {
     const body = renderSalaryBody(cfg);
     r.bodyContent = body;
     r.h1 = cfg.h1;
+    // 2026-10-18: FAQPage from the Q&A rendered above (visible in both layers, §20.8).
+    if (cfg.faqs && cfg.faqs.length) r.structuredData = withFaqPage(r.structuredData, cfg.faqs);
     if (cfg.title) r.title = cfg.title;
     if (cfg.description) r.description = cfg.description;
     out.applied++;

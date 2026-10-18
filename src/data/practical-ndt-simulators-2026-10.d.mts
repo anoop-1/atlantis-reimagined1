@@ -56,6 +56,8 @@ export const PAGE_BY_SLUG: Record<string, SimPage>;
 export const SIM_PATHS: string[];
 export const HUB: {
   practiseNow: { lead: string; href: string; label: string; tail: string };
+  evidence: { h2: string; paras: string[] };
+  checked: { h2: string; paras: string[]; levelsIntro: string; levels: [string, string][] };
   statsSentence: string;
   methodGrid: { h2: string; intro: string };
   workplaceGrid: { h2: string; intro: string; others: string };
@@ -67,3 +69,4 @@ export function plain(s: string): string;
 export function resolveBlock(block: SimBlock, page: SimPage, hours: SntHours): SimBlock;
 export function pageModel(page: SimPage, hours: SntHours): SimModel;
 export function pageSchema(model: SimModel): Record<string, unknown>;
+export function hubLearningResource(): Record<string, unknown>;

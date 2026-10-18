@@ -628,11 +628,13 @@ export const TERM_FACTS = {
       'Assuming automatic recognition across schemes. PCN, CSWIP and other ISO 9712 bodies are mutually comparable but not automatically interchangeable, and acceptance is set by the specification.',
   },
   'astm-e165': {
+    // 2026-10-18: designation and edition checked on the ASTM store (E165/E165M-23, Standard Practice for
+    // Liquid Penetrant Testing for General Industry, last updated 1 Aug 2023). Its visible FAQ lives in glossary.json `definition`, which both layers render.
     principle:
-      'The ASTM standard practice for liquid penetrant examination, describing how the examination is performed — surface preparation, penetrant application and dwell, excess removal, developer application and evaluation.',
+      'The ASTM standard practice for liquid penetrant testing for general industry (current edition E165/E165M-23), describing how the examination is performed: surface preparation, penetrant application and dwell, excess removal, developer application and evaluation.',
     practice:
       'It is a practice, so it tells you how to do the examination and not what is acceptable. Acceptance criteria come from the referencing code or specification.',
-    codes: 'ASTM E165; ASTM E1417 for process requirements; ASME Section V Article 6 as the code equivalent.',
+    codes: 'ASTM E165/E165M; ASTM E1417/E1417M for aerospace and other high-sensitivity work; ASME Section V, which adopts it as SE-165, with Article 6 for ASME code work.',
     pitfall:
       'Quoting it as an acceptance standard in a report. Doing so leaves the acceptance basis undefined, which is a finding at audit.',
   },

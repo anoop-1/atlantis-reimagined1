@@ -69,7 +69,7 @@ const CERTS = {
 
 /** The pages currently gaining hardest in this cluster — route relevance to and from them. */
 const DETAIL_PAGES = [
-  ['/blog/api-510-570-653-exam-schedule-2026', 'every 2026 exam window and application deadline'],
+  ['/blog/api-510-570-653-exam-schedule-2026', 'API 510, 570 and 653 test dates and application deadlines for 2027'], // 2026-10-18: 2027 windows published
   ['/blog/api-510-body-of-knowledge-2026-changes-explained', 'what changed in the current body of knowledge'],
   ['/blog/api-icp-pass-rates-510-vs-570-vs-653-2026', 'how the three exams compare in difficulty'],
   ['/blog/asnt-level-3-fees-2026-complete-pricing-table', 'what drives the cost of certification'],

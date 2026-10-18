@@ -140,6 +140,38 @@
         [
           "/consulting/api-653-tank-inspector-services",
           "API 653 tank inspection consulting"
+        ],
+        [
+          "/3d-scanning-tank",
+          "Tank scanning services: settlement and shell geometry for API 653"
+        ]
+      ]
+    },
+    "/blog/api-510-exam-prep-study-guide-tips": {
+      "h": "Check the next exam window",
+      "p": "API 510 exams run in fixed testing windows, and each application deadline falls months before the window opens.",
+      "links": [
+        [
+          "/blog/api-510-570-653-exam-schedule-2026",
+          "2027 API 510 exam windows"
+        ]
+      ]
+    },
+    "/tools/ut-angle-beam-calculator": {
+      "h": "The technique behind the numbers",
+      "p": "Skip distance and sound path only matter once the angle, frequency and calibration are right for the weld.",
+      "links": [
+        [
+          "/blog/shear-wave-ut-for-thick-section-inspection",
+          "Shear wave angle beam inspection"
+        ],
+        [
+          "/blog/reference-standards-and-block-calibration-in-ut",
+          "UT calibration blocks and reference standards"
+        ],
+        [
+          "/practical-ndt/ultrasonic-testing-simulator",
+          "Practise angle-beam UT in the simulator"
         ]
       ]
     },
@@ -650,6 +682,146 @@
         [
           "/practical-ndt/eddy-current-simulator",
           "Eddy current simulator: null, scan and read the impedance plane"
+        ]
+      ]
+    },
+    "/ultrasonic-testing": {
+      "h": "Practise ultrasonic testing",
+      "p": "Rehearse calibration, scanning and reporting in a browser before the job, and read the practice that governs contact weld UT.",
+      "links": [
+        [
+          "/practical-ndt/ultrasonic-testing-simulator",
+          "Ultrasonic testing simulator: calibration to report"
+        ],
+        [
+          "/practical-ndt/phased-array-ut-simulator",
+          "Phased array UT simulator"
+        ],
+        [
+          "/practical-ndt/tofd-simulator",
+          "TOFD simulator"
+        ],
+        [
+          "/practical-ndt/process-plant",
+          "Process plant NDT simulator: weld, corrosion and tube jobs"
+        ],
+        [
+          "/tools/ultrasonic-a-scan-simulator",
+          "Free A-scan simulator, no sign-up"
+        ],
+        [
+          "/standards/astm-e164",
+          "ASTM E164 weld UT"
+        ]
+      ]
+    },
+    "/phased-array-ut": {
+      "h": "Practise the phased array set-up",
+      "p": "Choose the array and wedge, set the focal laws and scan a weld in the browser before the job.",
+      "links": [
+        [
+          "/practical-ndt/phased-array-ut-simulator",
+          "Phased array UT simulator"
+        ],
+        [
+          "/practical-ndt/tofd-simulator",
+          "TOFD simulator"
+        ]
+      ]
+    },
+    "/tofd-testing": {
+      "h": "Practise TOFD set-up and scanning",
+      "p": "Set the probe-centre separation and read the lateral wave, back wall and tip signals in the browser.",
+      "links": [
+        [
+          "/practical-ndt/tofd-simulator",
+          "TOFD simulator"
+        ],
+        [
+          "/tools/tofd-calculator",
+          "TOFD calculator: probe centre separation and tip depth"
+        ]
+      ]
+    },
+    "/radiographic-testing": {
+      "h": "Practise radiography without a source",
+      "p": "Choose the technique, place the IQI, make the exposure and review the image in the browser.",
+      "links": [
+        [
+          "/practical-ndt/radiography-simulator",
+          "Radiography simulator"
+        ],
+        [
+          "/practical-ndt/welding-workshop",
+          "Weld inspection simulator: the welding workshop"
+        ]
+      ]
+    },
+    "/magnetic-particle-testing": {
+      "h": "Practise magnetic particle testing",
+      "p": "Magnetise in two directions, read the indications and demagnetise in the browser, and see how MT compares with PT.",
+      "links": [
+        [
+          "/practical-ndt/magnetic-particle-simulator",
+          "Magnetic particle testing simulator"
+        ],
+        [
+          "/practical-ndt/welding-workshop",
+          "Weld inspection simulator: the welding workshop"
+        ],
+        [
+          "/blog/mt-vs-pt-comparison",
+          "MT vs PT compared"
+        ]
+      ]
+    },
+    "/penetrant-testing": {
+      "h": "Practise penetrant testing",
+      "p": "Clean, apply, dwell, remove, develop and inspect in the browser, and see how PT compares with MT.",
+      "links": [
+        [
+          "/practical-ndt/penetrant-testing-simulator",
+          "Penetrant testing simulator"
+        ],
+        [
+          "/practical-ndt/aviation",
+          "Aviation NDT simulator: the aircraft hangar"
+        ],
+        [
+          "/blog/mt-vs-pt-comparison",
+          "MT vs PT compared"
+        ]
+      ]
+    },
+    "/visual-testing": {
+      "h": "Practise visual testing",
+      "p": "Direct, borescope and drone inspection practice in the browser, from the bench to the job.",
+      "links": [
+        [
+          "/practical-ndt/visual-testing-simulator",
+          "Visual testing simulator"
+        ],
+        [
+          "/practical-ndt/ndt-lab",
+          "NDT lab simulator: bench specimens and reference blocks"
+        ]
+      ]
+    },
+    "/eddy-current-testing": {
+      "h": "Practise eddy current testing",
+      "p": "Null the probe, scan and read the impedance plane in the browser, on airframe parts and exchanger tubes.",
+      "links": [
+        [
+          "/practical-ndt/eddy-current-simulator",
+          "Eddy current testing simulator"
+        ],
+        [
+          "/practical-ndt/heat-exchanger",
+          "Heat exchanger tube inspection simulator"
+        ],
+        [
+          "/practical-ndt/aviation",
+          "Aviation NDT simulator: the aircraft hangar"
         ]
       ]
     },

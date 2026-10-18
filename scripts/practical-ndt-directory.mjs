@@ -4,6 +4,7 @@
 // discovers only via the sitemap. The React layer renders the same data in
 // src/components/PracticalNdtDirectory.tsx (two-layer rule).
 import { readFileSync, existsSync } from 'fs';
+import { WHERE, whereGroups } from '../src/data/practical-ndt-where-2026-10.mjs';
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
@@ -11,14 +12,12 @@ export function practicalNdtDirectoryHtml(root = process.cwd()) {
   const file = `${root}/src/data/practical-ndt-directory.json`;
   if (!existsSync(file)) return '';
   const groups = JSON.parse(readFileSync(file, 'utf-8'));
-  const parts = groups.map((g) => {
-    const head = g.slug
-      ? `<h3><a href="/practical-ndt-${g.slug}">Practical NDT in ${esc(g.name)}</a></h3>`
-      : `<h3>${esc(g.name)}</h3>`;
-    const links = g.cities.map((c) => `<li><a href="/practical-ndt-${c.slug}">${esc(c.city)}</a></li>`).join('');
-    return `${head}<ul>${links}</ul>`;
-  });
-  return `<section class="practical-ndt-directory"><h2>Practical NDT across North America</h2><p>Browse the NDT simulator by state or province, or go straight to your city. Every page covers the local industries, regulators and the environments and methods that match the work there.</p>${parts.join('')}</section>`;
+  const hubsFile = `${root}/src/data/geo-hubs.json`;
+  const hubs = existsSync(hubsFile) ? JSON.parse(readFileSync(hubsFile, 'utf-8')) : [];
+  // 2026-10-18 (traffic): one compact section (src/data/practical-ndt-where-2026-10.mjs) instead of
+  // 29 "Practical NDT in {State}" H3 groups plus a separate country directory.
+  const lines = whereGroups(groups, hubs).map((g) => `<p><strong>${esc(g.label)}:</strong> ${g.links.map(([href, name]) => `<a href="${href}">${esc(name)}</a>`).join(' · ')}</p>`);
+  return `<section class="practical-ndt-directory"><h2>${esc(WHERE.h2)}</h2><p>${esc(WHERE.intro)}</p>${lines.join('')}</section>`;
 }
 
 export function applyPracticalNdtDirectory(routes, root = process.cwd()) {

@@ -22,7 +22,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import {
   PAGES, METHOD_FAMILIES, WORKPLACES, CATALOGUE, HUB, CITY_BLOCK, SIM_MARKER, SIM_PATHS, HUB_PATH,
-  pageModel, pageSchema, pagePath, tokens, plain,
+  pageModel, pageSchema, pagePath, tokens, plain, hubLearningResource,
 } from '../src/data/practical-ndt-simulators-2026-10.mjs';
 import { PRACTICAL_CLAIM_RULES } from './practical-ndt-claims.mjs';
 
@@ -94,6 +94,35 @@ export function practiseNowHtml() {
   return `<p ${SIM_MARKER}><strong>${esc(n.lead)}:</strong> ${a(n.href, n.label)}, ${esc(n.tail)}.</p>`;
 }
 
+/** 2026-10-18 (traffic): the evidence and attempt-checking sections, before "Inside the Simulator". */
+export function hubEvidenceHtml() {
+  const ev = HUB.evidence;
+  const ck = HUB.checked;
+  return `
+    <section ${SIM_MARKER} id="evidence" aria-label="${esc(ev.h2)}">
+      <h2>${esc(ev.h2)}</h2>
+      ${ev.paras.map((x) => `<p>${inline(x)}</p>`).join('\n      ')}
+    </section>
+    <section ${SIM_MARKER} id="attempt-check" aria-label="${esc(ck.h2)}">
+      <h2>${esc(ck.h2)}</h2>
+      ${ck.paras.map((x) => `<p>${inline(x)}</p>`).join('\n      ')}
+      <p>${esc(ck.levelsIntro)}</p>
+      <ul>${ck.levels.map(([k, v]) => `<li><strong>${esc(k)}:</strong> ${esc(v)}</li>`).join('')}</ul>
+    </section>
+`;
+}
+
+/** Adds the hub LearningResource beside its SoftwareApplication (idempotent by @id). */
+function withHubLearningResource(sd) {
+  const node = hubLearningResource();
+  const has = (n) => n && n['@id'] === node['@id'];
+  if (!sd) return { '@context': 'https://schema.org', '@graph': [node] };
+  if (Array.isArray(sd)) return sd.some((n) => has(n) || (n && Array.isArray(n['@graph']) && n['@graph'].some(has))) ? sd : [...sd, { '@context': 'https://schema.org', ...node }];
+  if (Array.isArray(sd['@graph'])) return sd['@graph'].some(has) ? sd : { ...sd, '@graph': [...sd['@graph'], node] };
+  const { '@context': _c, ...rest } = sd;
+  return { '@context': 'https://schema.org', '@graph': [rest, node] };
+}
+
 export function hubSectionsHtml() {
   const methods = METHOD_FAMILIES.map((f) => `<li>${a(f.href, `${f.code}: ${f.name}`)} (${f.jobs} jobs): ${esc(f.note)}</li>`).join('');
   const places = WORKPLACES.filter((w) => w.slug).map((w) => `<li>${a(`/practical-ndt/${w.slug}`, w.name)}: ${esc(w.note)}</li>`).join('');
@@ -139,6 +168,7 @@ export function cityBlockHtml() {
 const STALE_STATS = /Practical NDT currently offers 5 workplace environments, 12 NDT methods and 33 guided lessons\./;
 const ASCAN_CALLOUT = /<p data-ascan-tool="2026-10">[\s\S]*?<\/p>/;
 const SKILL_LEVELS_H2 = '<h2>Built for Every Skill Level</h2>';
+const INSIDE_H2 = '<h2>Inside the Simulator: Environments &amp; Methods</h2>';
 export const CITY_PATH_RE = /^\/practical-ndt-[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 /** Runs right after applyAscanRoute in the prerender route loop. Idempotent (marker). */
@@ -157,8 +187,10 @@ export function applyPracticalSimRoute(route) {
     }
     const sections = hubSectionsHtml();
     body = body.includes(SKILL_LEVELS_H2) ? body.replace(SKILL_LEVELS_H2, `${sections}    ${SKILL_LEVELS_H2}`) : body.replace(/<\/main>/i, `${sections}</main>`);
+    const evidence = hubEvidenceHtml();
+    body = body.includes(INSIDE_H2) ? body.replace(INSIDE_H2, `${evidence}    ${INSIDE_H2}`) : body.replace(/<\/main>/i, `${evidence}</main>`);
     practicalSimStats.hub++;
-    return { ...route, bodyContent: body };
+    return { ...route, bodyContent: body, structuredData: withHubLearningResource(route.structuredData) };
   }
   if (CITY_PATH_RE.test(p)) {
     const i = body.lastIndexOf('</main>');

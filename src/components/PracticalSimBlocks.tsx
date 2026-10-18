@@ -134,6 +134,47 @@ export function PracticalSimHubSections() {
   );
 }
 
+/** 2026-10-18 (traffic): evidence and attempt-checking sections, same data as the crawler's hubEvidenceHtml(). */
+export function PracticalSimEvidence() {
+  const ev = HUB.evidence;
+  const ck = HUB.checked;
+  return (
+    <>
+      <section id="evidence" className="py-16" data-practical-sim="2026-10" aria-label={ev.h2}>
+        <div className="container mx-auto px-6 max-w-5xl">
+          <h2 className="text-3xl font-bold mb-6 text-center">{ev.h2}</h2>
+          {ev.paras.map((x) => (
+            <p key={x} className="text-muted-foreground text-lg leading-relaxed mb-4">
+              <SimInline text={x} />
+            </p>
+          ))}
+        </div>
+      </section>
+      <section id="attempt-check" className="py-16 bg-muted/30" data-practical-sim="2026-10" aria-label={ck.h2}>
+        <div className="container mx-auto px-6 max-w-5xl">
+          <h2 className="text-3xl font-bold mb-6 text-center">{ck.h2}</h2>
+          {ck.paras.map((x) => (
+            <p key={x} className="text-muted-foreground text-lg leading-relaxed mb-4">
+              <SimInline text={x} />
+            </p>
+          ))}
+          <p className="text-muted-foreground text-lg leading-relaxed mb-3">{ck.levelsIntro}</p>
+          <ul className="space-y-2">
+            {ck.levels.map(([k, v]) => (
+              <li key={k} className="flex items-start gap-2 text-muted-foreground">
+                <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong className="text-foreground">{k}:</strong> {v}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    </>
+  );
+}
+
 /** The one shared link block on every /practical-ndt-{city} page and practical geo hub. */
 export function PracticalSimCityLinks() {
   const b = CITY_BLOCK;

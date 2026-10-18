@@ -1,7 +1,7 @@
 {
   "_note": "Ranking release 2026-10-17 (CLAUDE.md §58). One source for both layers: src/data/rank-wave14-2026-10.mjs renders this file for the crawler HTML (scripts/rank-wave14-2026-10.mjs, before applyOwnerLinksRoute) and for React (src/components/RankWave14Block.tsx). answers: a query-verbatim H2 plus a 40-60 word direct answer at the top of the page (§25.4); an entry with `service` also carries what you receive, what the method finds and does not, and where we work. routes: one exact-anchor sentence after the intro of each indexable page in a city family, pointing at the national owner. salary: sourced data note, author and date on the salary owners (ranges unchanged, §47.1). consultingCity: city-scoped title/H1/description for US consulting city pages. No Atlantis prices, no turnaround promises, no invented figures.",
-  "updated": "2026-10-17",
-  "updatedLabel": "17 October 2026",
+  "updated": "2026-10-18",
+  "updatedLabel": "18 October 2026",
   "answers": {
     "/compare/asnt-vs-pcn": {
       "q": "What's the difference between PCN and ASNT NDT courses?",
@@ -27,7 +27,7 @@
     },
     "/blog/api-510-570-653-exam-schedule-2026": {
       "q": "When are the API 510 and API 570 test dates?",
-      "a": "API 510 and API 570 are taken in fixed testing windows that API publishes. API's schedule, checked September 12, 2026, lists API 510 windows of January 2–23, May 8–29 and September 4–25, 2026, and API 570 windows of February 6–27, June 5–26 and October 9–30, 2026. API's current API 510 effectivity sheet also covers January and May 2027.",
+      "a": "API 510 and API 570 are taken in fixed testing windows that API publishes. API's schedule, checked October 18, 2026, lists 2027 API 510 windows of January 2–22, May 7–28 and September 3–24, and API 570 windows of January 29–February 19, June 4–25 and October 8–29. The January 2027 API 510 application deadline is October 29, 2026.",
       "more": "Confirm current windows and application deadlines on [API's ICP schedule](https://www.api.org/products-and-services/individual-certification-programs/schedules-and-fees).",
       "layer": "seo-editorial"
     },
@@ -203,7 +203,7 @@
       "/ndt-level-1-salary",
       "/ndt-inspector-salary"
     ],
-    "note": "Data note: O*NET OnLine reports a US median wage of $78,350 a year ($37.67 an hour) for Non-Destructive Testing Specialists (O*NET 17-3029.01), from BLS 2025 wage data for the broader engineering technologists and technicians group (SOC 17-3029). O*NET does not break pay down by certification level, so the level ranges on this page draw on wider market data.",
+    "note": "Data note: O*NET OnLine reports a US median wage of $78,350 a year ($37.67 an hour) for Non-Destructive Testing Specialists (O*NET 17-3029.01), from BLS 2025 wage data for the broader engineering technologists and technicians group (SOC 17-3029). O*NET does not break pay down by certification level; the source table on this page shows what other named sources report, with their samples and dates.",
     "sourceLabel": "O*NET OnLine, 17-3029.01 Non-Destructive Testing Specialists",
     "sourceUrl": "https://www.onetonline.org/link/summary/17-3029.01",
     "author": "Anoop Rayavarapu",

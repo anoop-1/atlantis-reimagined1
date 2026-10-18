@@ -272,7 +272,9 @@ const SNIPPETS = {
         CTR, the snippet/AI-overview capture pattern (§25.4). ─────────────── */
   '/blog/ndt-salary-guide-2026-global': {
     q: 'How much does an NDT technician make?',
-    a: 'In the United States an NDT technician typically earns $45,000–$70,000 a year at Level II, rising to $70,000–$120,000+ at Level III, with entry-level Level I roles starting around $35,000–$50,000. Method mix, industry and travel move the number substantially — aerospace, rope access and turnaround work pay above the base ranges.',
+    // 2026-10-18: the unsourced Level I/II/III ranges are gone; the one sourced figure (O*NET, checked 18 Oct 2026).
+    // The guide's <main> is rebuilt in seo-editorial-2026-09-12.mjs from src/data/salary-sources-2026-10.json.
+    a: 'An NDT technician in the US earns a median of $78,350 a year ($37.67 an hour), according to O*NET OnLine’s wage data for Non-Destructive Testing Specialists (17-3029.01). Pay rises with certification level, method and travel; published sources differ because they measure different groups.',
   },
   '/blog/api-510-570-653-exam-schedule-2026': {
     q: 'When are the API 510, 570 and 653 exams held?',

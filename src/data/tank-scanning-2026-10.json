@@ -1,0 +1,62 @@
+{
+  "_note": "2026-10-18 (traffic workstream). Body of /3d-scanning-tank, rendered by scripts/scanning-industry-routes-2026-08-16.mjs. React shows the same prerendered copy (DynamicCityRoute sends the scanning-industry slugs in src/data/scan-industry-slugs.json to the prerendered page, not the city template). Title and description: src/data/ctr-wave16/traffic.json. Facts checked 18 Oct 2026: API MPMS Chapter 2.2 parts from the API 2024 Petroleum Measurement catalogue; Annex B and shell-distortion points from Equity Engineering Group (2023, 2026). No prices, no accuracy figures, no time promises.",
+  "checked": "2026-10-18",
+  "h1": "Tank Scanning Services: 3D Laser Scanning for Storage Tanks",
+  "intro": "Tank scanning services capture the geometry of an aboveground storage tank as a dense, measured point cloud: the shell, the roof, the nozzles and, when the tank is open, the bottom. That geometry feeds the settlement, plumbness and out-of-roundness checks an API 653 evaluation depends on. A laser scan records surfaces, not wall thickness, so floor corrosion and shell thickness still come from MFL floor scanning and ultrasonic testing.",
+  "sections": [
+    {
+      "h2": "What a tank scan measures",
+      "html": "<p>Each of these is a geometric question that an API 653 evaluation asks:</p><ul><li><strong>Settlement.</strong> Shell elevations all the way round and, with the tank out of service, the bottom profile, for evaluation against API 653 Annex B: uniform settlement, planar tilt, differential (out-of-plane) shell settlement, edge settlement and local bottom depressions.</li><li><strong>Shell plumbness and out-of-roundness.</strong> The distortion measurements API 653 sets tolerances for, taken course by course over the full shell.</li><li><strong>Floating roof and seal geometry.</strong> The roof's position and the shell's shape along the roof's travel, where distortion makes a roof bind.</li><li><strong>Nozzles, manways and appurtenances.</strong> Positions and orientations for repair and modification design.</li><li><strong>Dents, bulges and local deformation.</strong> Mapped against the surrounding shell, so their extent is measured rather than estimated.</li></ul>"
+    },
+    {
+      "h2": "Why scan rather than survey station by station",
+      "html": "<p>A manual survey measures elevations and offsets at a set of stations. The default differential-settlement method in API 653 Annex B fits a cosine curve to those measurements, and Equity Engineering Group notes that the method is highly sensitive to measurement spacing (<a href=\"https://e2g.com/industry-insights-ar/a-deep-dive-into-aboveground-storage-tank-settlement-evaluation\" rel=\"noopener\">E2G, 2023</a>). A scan records the whole shell, so settlement and distortion can be read at whatever spacing the engineer chooses, and the same cloud can be measured again later without going back to site.</p><p>Where the screening checks fail, the cloud becomes the input to a detailed assessment. E2G describes shell distortion data as \"commonly captured via tank shell scanning (either internally or externally)\", then cleaned, registered to reference points and mapped onto a finite element model (<a href=\"https://e2g.com/?p=33232\" rel=\"noopener\">E2G, 2026</a>). Atlantis delivers the capture and the registered cloud; the fitness-for-service assessment stays with the owner's engineer.</p>"
+    },
+    {
+      "h2": "Scanning a tank in service",
+      "html": "<p>The external shell can usually be scanned with the tank in service, from the ground around it, within the site's permits and hazardous-area rules. Record the liquid level at the time of the scan: a shell under product load does not have the shape it has empty, so surveys should be compared at a similar fill. The bottom, the underside of a fixed roof and other internal surfaces need the tank out of service, cleaned and gas-free, which is why bottom settlement is usually captured during an internal inspection. For roofs, stacks and other elevated surfaces, see <a href=\"/3d-scanning/drone-lidar-inspection-tanks-stacks-flares\">drone LiDAR for tanks, stacks and flares</a>.</p>"
+    },
+    {
+      "h2": "Laser scanning vs MFL floor scanning",
+      "html": "<p>\"Tank scanning\" also means MFL floor scanning, and the two answer different questions. A laser scan measures geometry: where the steel is. <a href=\"/magnetic-flux-leakage-testing\">MFL tank floor scanning</a> finds metal loss in the floor plates, from topside and underside corrosion, and the suspect areas are then sized with ultrasonic testing. A laser scan will not find floor corrosion, and an MFL scan will not measure settlement, so on an internal inspection the two are often done in the same outage. For what the rest of the inspection involves, see <a href=\"/blog/api-653-tank-inspection-guide\">API 653 tank inspection</a>; to practise MFL floor scanning and UT shell surveys, see the <a href=\"/practical-ndt/storage-tank\">storage tank inspection simulator</a>.</p>"
+    },
+    {
+      "h2": "What a scan will not tell you",
+      "html": "<p>A scan records surfaces, not wall thickness. It will not give remaining shell or floor thickness, find a crack at the shell-to-bottom weld, or say how much life the tank has left. Those are examination questions, answered by MFL, <a href=\"/ultrasonic-testing-refining\">ultrasonic thickness work</a> and weld examination under the owner's API 653 programme. That is why scanning and inspection belong in the same scope rather than one standing in for the other.</p>"
+    },
+    {
+      "h2": "Tank calibration and strapping",
+      "html": "<p>Capacity tables for upright cylindrical tanks are produced under API MPMS Chapter 2.2, which covers manual tank strapping (2.2A), the optical reference line method (2.2B), optical triangulation (2.2C), internal electro-optical distance ranging (2.2D) and the total station reference line method (2.2G) (<a href=\"https://www.api.org/-/media/Files/Publications/2024-Catalog/2024-Petroleum-Measurement.pdf\" rel=\"noopener\">API Petroleum Measurement catalogue, 2024</a>). A capacity table used for custody transfer is produced to one of those methods. A scan captured for integrity is not a calibration table, but the shell geometry it records supports the calibration work and shows where a tank has deformed since it was last strapped.</p>"
+    },
+    {
+      "h2": "Deliverables",
+      "html": "<p>The deliverable list is agreed in the scope. It usually includes a registered point cloud in E57 (ASTM E2807) as the archive copy, plus an indexed working copy for the software you use, such as RCP/RCS for Autodesk or POD for Bentley (see <a href=\"/3d-scanning/point-cloud-file-formats-e57-las-rcp\">point cloud file formats</a>); settlement and distortion data extracted from the cloud at the stations your engineer specifies; and, where requested, a mesh or model for repair design or for a <a href=\"/digital-twins\">digital twin</a> that keeps the tank's inspection history on the model.</p>"
+    },
+    {
+      "h2": "How Atlantis delivers",
+      "html": "<p>Atlantis mobilises scanning crews to your site, using terrestrial laser scanning, photogrammetry or drone capture as the tank and its surroundings demand, and delivers the registered cloud and the deliverables your engineering team actually uses. We do not claim a survey office in every market, and say so plainly. See <a href=\"/3d-scanning-services\">3D scanning services</a> for the wider service, or <a href=\"/contact?service=3d-scanning\">scope a tank scan</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a 3D scan measure tank settlement?",
+      "a": "Yes. External shell elevations all the way round give the data for the API 653 Annex B shell settlement checks, and with the tank out of service the bottom profile can be captured too. The inspector or engineer evaluates that data against Annex B."
+    },
+    {
+      "q": "Does a laser scan find floor corrosion?",
+      "a": "No. A laser scan measures the surface it can see. Floor-plate corrosion, including underside corrosion, is found with MFL floor scanning and sized with ultrasonic testing."
+    },
+    {
+      "q": "Can a tank be scanned in service?",
+      "a": "The external shell usually can, from the ground, within the site's permits and hazardous-area rules; record the liquid level at the time of the scan. The bottom and internal surfaces need the tank out of service, cleaned and gas-free."
+    },
+    {
+      "q": "What file formats are delivered?",
+      "a": "Usually E57 as the archive copy, plus an indexed working copy for the software you use, such as RCP/RCS for Autodesk or POD for Bentley. The formats are agreed in the scope."
+    },
+    {
+      "q": "Does a tank scan replace an API 653 inspection?",
+      "a": "No. It supplies the geometry an API 653 evaluation uses. Thickness, floor condition and weld integrity come from the examinations, and the inspector makes the API 653 decisions."
+    }
+  ]
+}
