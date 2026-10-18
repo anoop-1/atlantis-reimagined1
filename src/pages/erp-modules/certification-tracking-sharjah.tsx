@@ -21,7 +21,7 @@ const data = {
   "cityUseCases": [
     "A mid-size Sharjah inspection contractor serving Sharjah National Oil Corporation (SNOC) and Crescent Petroleum deploys certification & personnel qualification as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Sharjah EPC quality team standardizes certification & personnel qualification across 4 simultaneous project sites in the UAE market. Daily reports, audit packages, and customer-format reports flow to BUTINAH Marine portals automatically.",
-    "A growing Sharjah-based service provider integrates certification & personnel qualification with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Sharjah Cement — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing Sharjah-based service provider integrates certification & personnel qualification with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Sharjah Cement — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Sharjah inspection company uses certification & personnel qualification to pass Sharjah Economic Development and Hamriyah Free Zone Authority (HFZA) audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [

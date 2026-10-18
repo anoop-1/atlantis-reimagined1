@@ -17,7 +17,7 @@ const data = {
   "industryUseCases": [
     "A 25-person pipeline integrity & ili service runs corrosion tracking as a standalone module — replacing 3 spreadsheets and 2 disconnected SaaS tools — and reports a 60–80% reduction in administrative time within 90 days.",
     "A multinational pipeline integrity & ili services deploys corrosion tracking across 12 sites under a global rollout. Region-specific data residency and language localization support GDPR, India DPDP Act, and Saudi NDMO requirements.",
-    "A growing pipeline integrity & ili service integrates corrosion tracking with their existing ERP (NetSuite, QuickBooks, or SAP) and CMMS — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing pipeline integrity & ili service integrates corrosion tracking with their existing ERP (NetSuite, QuickBooks, or SAP) and CMMS — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "An audit-driven pipeline integrity & ili services uses corrosion tracking to pass ISO 9001 / ISO 17025 / AS9100 / customer-specific quality audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "industryCodes": [

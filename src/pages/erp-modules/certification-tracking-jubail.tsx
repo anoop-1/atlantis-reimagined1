@@ -21,7 +21,7 @@ const data = {
   "cityUseCases": [
     "A mid-size Jubail inspection contractor serving SASREF (Aramco / Shell) and SADAF (SABIC / Dow) deploys certification & personnel qualification as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Jubail EPC quality team standardizes certification & personnel qualification across 4 simultaneous project sites in the Saudi Arabia market. Daily reports, audit packages, and customer-format reports flow to Kemya (SABIC / ExxonMobil) portals automatically.",
-    "A growing Jubail-based service provider integrates certification & personnel qualification with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Petrokemya (SABIC) — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing Jubail-based service provider integrates certification & personnel qualification with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Petrokemya (SABIC) — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Jubail inspection company uses certification & personnel qualification to pass Royal Commission Jubail and Yanbu (RCJY) and HRSD labor audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [

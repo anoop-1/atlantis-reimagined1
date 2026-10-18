@@ -18,7 +18,7 @@ const data = {
   "cityUseCases": [
     "A mid-size Saudi Arabia inspection contractor serving Saudi Aramco upstream/downstream and SABIC petrochemicals deploys corrosion tracking as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Saudi Arabia EPC quality team standardizes corrosion tracking across 4 simultaneous project sites in the Saudi Arabia market. Daily reports, audit packages, and customer-format reports flow to Ma'aden mining portals automatically.",
-    "A growing Saudi Arabia-based service provider integrates corrosion tracking with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by SADAF — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing Saudi Arabia-based service provider integrates corrosion tracking with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by SADAF — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Saudi Arabia inspection company uses corrosion tracking to pass HRSD and GAMI audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [

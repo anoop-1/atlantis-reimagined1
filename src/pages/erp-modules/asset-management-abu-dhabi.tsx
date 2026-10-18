@@ -15,7 +15,7 @@ const data = {
   "cityUseCases": [
     "A mid-size Abu Dhabi inspection contractor serving ADNOC Onshore and ADNOC LNG deploys asset integrity & equipment register as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Abu Dhabi EPC quality team standardizes asset integrity & equipment register across 4 simultaneous project sites in the UAE market. Daily reports, audit packages, and customer-format reports flow to Borouge polyethylene portals automatically.",
-    "A growing Abu Dhabi-based service provider integrates asset integrity & equipment register with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Fertil ammonia/urea — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing Abu Dhabi-based service provider integrates asset integrity & equipment register with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Fertil ammonia/urea — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Abu Dhabi inspection company uses asset integrity & equipment register to pass ADNOC HSE and ADQCC audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [

@@ -21,7 +21,7 @@ const data = {
   "cityUseCases": [
     "A mid-size Ho Chi Minh City inspection contractor serving PetroVietnam (PVN) and Vietsovpetro offshore JV deploys certification & personnel qualification as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Ho Chi Minh City EPC quality team standardizes certification & personnel qualification across 4 simultaneous project sites in the Vietnam market. Daily reports, audit packages, and customer-format reports flow to Long Son Petrochemicals (SCG) portals automatically.",
-    "A growing Ho Chi Minh City-based service provider integrates certification & personnel qualification with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Binh Son Refining (BSR, Dung Quat) — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing Ho Chi Minh City-based service provider integrates certification & personnel qualification with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Binh Son Refining (BSR, Dung Quat) — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Ho Chi Minh City inspection company uses certification & personnel qualification to pass PetroVietnam vendor approval and MOIT Ministry of Industry and Trade audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [

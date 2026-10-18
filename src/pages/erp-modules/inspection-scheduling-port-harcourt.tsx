@@ -20,7 +20,7 @@ const data = {
   "cityUseCases": [
     "A mid-size Port Harcourt inspection contractor serving NNPCL Port Harcourt Refining Company (PHRC) and Shell SPDC deploys inspection scheduling & interval management as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Port Harcourt EPC quality team standardizes inspection scheduling & interval management across 4 simultaneous project sites in the Nigeria market. Daily reports, audit packages, and customer-format reports flow to Eni AGIP portals automatically.",
-    "A growing Port Harcourt-based service provider integrates inspection scheduling & interval management with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by TotalEnergies E&P Nigeria onshore — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
+    "A growing Port Harcourt-based service provider integrates inspection scheduling & interval management with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by TotalEnergies E&P Nigeria onshore — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Port Harcourt inspection company uses inspection scheduling & interval management to pass NUPRC upstream and NMDPRA downstream audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [
