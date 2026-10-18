@@ -19,7 +19,7 @@ export const GEO_HUB_HOSTS = {
   consulting: { hub: '/consulting', label: 'NDT Level III Consulting' },
   inspection: { hub: '/inspection-services', label: 'NDT Inspection Services' },
   erp: { hub: '/erp', label: 'NDT ERP' },
-  practical: { hub: '/practical-ndt', label: 'Practical NDT' },
+  // practical: listed by the compact /practical-ndt directory instead (scripts/practical-ndt-directory.mjs, 2026-10-18).
   // API inspection programme 2026-10-04: three state/province families and the
   // code-question guides, all hosted on /inspection-services.
   api653: { hub: '/inspection-services', label: 'API 653 tank inspection support', heading: 'API 653 storage tank inspection support by state and province', intro: GEO_API_INTRO },

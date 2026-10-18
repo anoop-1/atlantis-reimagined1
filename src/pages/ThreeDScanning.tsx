@@ -3,6 +3,10 @@ import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
+// 2026-10-18 (traffic): title and description from the wave-16 file the crawler uses.
+import W16 from "@/data/ctr-wave16/traffic.json";
+
+const META = (W16 as Record<string, { title: string; description: string }>)["/3d-scanning-services"];
 
 const modalities = [
   {
@@ -34,8 +38,8 @@ export default function ThreeDScanning() {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="3D Scanning Services — LiDAR, Photogrammetry & Drone Surveys | Atlantis NDT"
-        description="Atlantis NDT 3D scanning services: survey-grade LiDAR, photogrammetry and drone-based capture for as-built models, tank & vessel deformation surveys, corrosion mapping, BIM and digital twins. ASNT Level III led. Quote: info@atlantisndt.com"
+        title={META.title}
+        description={META.description}
         keywords="3D scanning services, LiDAR scanning, laser scanning, photogrammetry, drone 3D scanning, UAV survey, as-built modelling, point cloud, reality capture, tank deformation survey, digital twin scanning, reverse engineering, BIM scanning, dimensional control"
         canonical="https://atlantisndt.com/3d-scanning-services"
       />

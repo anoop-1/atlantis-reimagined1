@@ -27,6 +27,13 @@
  * §18 no pricing · §24.2 mobilised delivery, no fabricated presence.
  */
 import { TRAINING_REGIONS } from '../src/data/industry-training-matrix.mjs';
+import { readFileSync } from 'fs';
+
+// 2026-10-18 (traffic): the tank page body lives in one data file; the slug list is
+// shared with React (DynamicCityRoute), which shows these pages' prerendered copy.
+const loadJson = (rel) => JSON.parse(readFileSync(new URL(rel, import.meta.url), 'utf-8'));
+const TANK = loadJson('../src/data/tank-scanning-2026-10.json');
+export const SCAN_INDUSTRY_SLUGS = loadJson('../src/data/scan-industry-slugs.json');
 
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -104,12 +111,31 @@ export const SCAN_INDUSTRIES = {
   },
 };
 
+if (JSON.stringify(Object.keys(SCAN_INDUSTRIES)) !== JSON.stringify(SCAN_INDUSTRY_SLUGS)) {
+  throw new Error('scanning-industry: SCAN_INDUSTRIES keys must equal src/data/scan-industry-slugs.json (React routing reads that list)');
+}
+
+/** /3d-scanning-tank, from src/data/tank-scanning-2026-10.json (visible Q&A → FAQPage via traffic-2026-10-18.mjs). */
+function tankBody(siblings) {
+  const sections = TANK.sections.map((x) => `\n    <h2>${esc(x.h2)}</h2>\n    ${x.html}`).join('');
+  const faq = TANK.faq.map((f) => `\n    <h3>${esc(f.q)}</h3>\n    <p>${esc(f.a)}</p>`).join('');
+  return `
+  <main><article>
+    <h1>${esc(TANK.h1)}</h1>
+    <p>${esc(TANK.intro)}</p>${sections}
+    <h2>Questions about tank scanning</h2>${faq}
+    <h2>Scanning in other sectors</h2>
+    <p>${siblings}.</p>
+  </article></main>`;
+}
+
 function scanBody(slug, s) {
   const links = s.links.map(([h, t]) => L(h, t)).join(' · ');
   const siblings = Object.entries(SCAN_INDUSTRIES).filter(([k]) => k !== slug)
     .map(([k, v]) => L(`/3d-scanning-${k}`, v.name)).join(' · ');
+  if (slug === 'tank') return tankBody(siblings);
   return `
-  <article>
+  <main><article>
     <h1>${esc(s.title.split('—')[0].trim())}</h1>
     <h2>Why ${esc(s.name.toLowerCase())} sites scan</h2>
     <p>${esc(s.why)}</p>
@@ -126,7 +152,7 @@ function scanBody(slug, s) {
     ${L('/contact?service=3d-scanning', 'scope a scan')}.</p>
     <h2>Scanning in other sectors</h2>
     <p>${siblings}.</p>
-  </article>`;
+  </article></main>`;
 }
 
 export function scanningIndustryRoutes() {

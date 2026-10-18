@@ -29,8 +29,9 @@ import DeepContent from "@/components/DeepContent";
 import UtAscanDemo, { ASCAN_TOOL_PATH } from "@/components/sprint/UtAscanDemo";
 import ASCAN from "@/data/ascan-simulator-2026-10.json"; // 2026-10-12: intro + tool link, same text as scripts/ascan-simulator-2026-10.mjs
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
-import { PractiseNowLine, PracticalSimHubSections } from "@/components/PracticalSimBlocks"; // 2026-10-17: same data as scripts/practical-ndt-simulators-2026-10.mjs
-import { CATALOGUE } from "@/data/practical-ndt-simulators-2026-10.mjs";
+import { PractiseNowLine, PracticalSimHubSections, PracticalSimEvidence } from "@/components/PracticalSimBlocks"; // 2026-10-17: same data as scripts/practical-ndt-simulators-2026-10.mjs
+import { CATALOGUE, hubLearningResource } from "@/data/practical-ndt-simulators-2026-10.mjs";
+import W16 from "@/data/ctr-wave16/traffic.json"; // 2026-10-18: wave-16 title/description, the layer the crawler applies last
 
 // What is inside the simulator today. 2026-10-17: figures from the owner-approved white paper
 // (CATALOGUE in src/data/practical-ndt-simulators-2026-10.mjs, the same numbers the crawler hub
@@ -43,11 +44,11 @@ const SIM_STATS = [
 ];
 
 const ENVIRONMENTS = [
-   { name: "NDT Lab", meta: "12 methods · 52 jobs", detail: "Bench specimens and reference blocks for learning each method from first principles." },
-   { name: "Welding Workshop", meta: "12 methods · 52 jobs", detail: "Weld coupons and fabrication joints inspected the way a shop QC technician does." },
-   { name: "Aircraft Hangar", meta: "12 methods · 54 jobs", detail: "Airframe and component inspection in a maintenance-hangar setting." },
-   { name: "Oil & Gas Site", meta: "12 methods · 73 jobs", detail: "Weld, corrosion, tube and screening practice within a process-plant setting." },
-   { name: "Storage Tank", meta: "UT shell thickness · MFL floor screening", detail: "Tank shell thickness surveys and floor screening on a full-size tank." },
+   { name: "NDT Lab", meta: "Shared catalogue", detail: "Bench specimens and reference blocks for learning each method from first principles." },
+   { name: "Welding Workshop", meta: "Shared catalogue", detail: "Weld coupons and fabrication joints inspected the way a shop QC technician does." },
+   { name: "Aircraft Hangar", meta: "Shared catalogue", detail: "Airframe and component inspection in a maintenance-hangar setting." },
+   { name: "Oil & Gas Site", meta: "Shared catalogue", detail: "Weld, corrosion, tube and screening practice within a process-plant setting." },
+   { name: "Storage Tank", meta: "Dedicated installation: UT shell thickness · MFL floor screening", detail: "Tank shell thickness surveys and floor screening on a full-size tank." },
 ];
 
 const METHOD_FAMILIES = [
@@ -103,13 +104,14 @@ const LEVELS = [
    {
       title: "Level III / Team Lead",
       description:
-         "Level IIIs use the platform to build and assign scenario sets for their own crews, benchmark technician performance objectively, and identify where a team's coverage of defect types or methods has gaps — before an audit or a real job finds them.",
+         "Level IIIs use the platform to build and assign scenario sets for their own crews, compare technicians on the same jobs under the same evidence rules, and identify where a team's coverage of defect types or methods has gaps — before an audit or a real job finds them.",
    },
 ];
 
 const structuredData = {
    "@context": "https://schema.org",
    "@graph": [
+      hubLearningResource(),
       {
          "@type": "SoftwareApplication",
          "@id": "https://atlantisndt.com/practical-ndt#software",
@@ -188,8 +190,8 @@ export default function PracticalNdt() {
          />
 
          <SEOHead
-            title={MONEY_META["/practical-ndt"].title}
-            description={MONEY_META["/practical-ndt"].description}
+            title={(W16 as Record<string, { title: string; description: string }>)["/practical-ndt"]?.title ?? MONEY_META["/practical-ndt"].title}
+            description={(W16 as Record<string, { title: string; description: string }>)["/practical-ndt"]?.description ?? MONEY_META["/practical-ndt"].description}
             keywords="NDT simulator, NDT training simulator, practical NDT training, NDT skills practice, 3D NDT simulation, NDT simulation software, phased array training simulator, NDT game based learning"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/practical-ndt"
@@ -255,27 +257,9 @@ export default function PracticalNdt() {
          {/* 2026-10-09 sprint (Day 4): simplified, clearly labelled A-scan demo with standalone and inside-the-ERP demo requests. */}
          <UtAscanDemo fullPageLink />
 
-         {/* Why practice matters */}
-         <section className="py-16">
-            <div className="container mx-auto px-6 max-w-5xl">
-               <h2 className="text-3xl font-bold mb-6 text-center">Why Hands-On Practice Is the Bottleneck</h2>
-               <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                  Real proficiency in NDT is built through repetition against a wide range of defect
-                  types — and that is exactly what's hardest to get in the real world. Specimens with
-                  known, documented flaws are expensive and scarce. Lab time competes with production
-                  schedules. Rare defect geometries might show up once a year on a real job, if at all.
-                  Meanwhile, skills that aren't used regularly perish — a technician who spent six months
-                  on thickness surveys can lose sharpness on weld interpretation fast.
-               </p>
-               <p className="text-muted-foreground text-lg leading-relaxed">
-                  Practical NDT removes the scarcity. An unlimited, ever-growing library of realistic
-                  defect scenarios is available on demand, with step-by-step procedure feedback on every attempt and
-                  the interpretation reviewed by the instructor
-                  — so a technician (or an entire crew) can drill exactly the method, defect type and
-                  difficulty level that matters most, as often as it takes to get it right.
-               </p>
-            </div>
-         </section>
+         {/* 2026-10-18: evidence (MIL-HDBK-1823A, HSE PANI 3) and how an attempt is checked, from the shared hub data */}
+
+         <PracticalSimEvidence />
 
          {/* Inside the simulator: environments + methods */}
          <section id="methods" className="py-16 bg-muted/30">
@@ -387,7 +371,7 @@ export default function PracticalNdt() {
                         {[
                            "Builds pattern recognition before a trainee's first real specimen",
                            "Keeps working technicians sharp between assignments",
-                           "Gives Level IIIs a way to benchmark and close team skill gaps",
+                           "Gives Level IIIs a common measure of procedural competence across a crew",
                            "Never claims to grant certification or replace the practical exam",
                         ].map((item) => (
                            <li key={item} className="flex items-start gap-2 text-muted-foreground">

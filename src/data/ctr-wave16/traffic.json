@@ -63,5 +63,17 @@
   "/blog/digital-twin-roi-for-refinery-turnarounds-a-real-cost-benefit-framework": {
     "title": "Digital Twin ROI for Turnarounds: A Cost-Benefit Framework",
     "description": "How to judge digital twin ROI for a refinery turnaround: the cost levers a twin changes, how to measure them after the outage, and what to ask a vendor."
+  },
+  "/3d-scanning-services": {
+    "title": "3D Scanning Services: LiDAR and Laser Scans for Industry",
+    "description": "3D laser scanning, LiDAR and photogrammetry for plants, refineries and tank farms: capture methods, accuracy specs, deliverables, and what scans miss."
+  },
+  "/3d-scanning-tank": {
+    "title": "Tank Scanning Services: 3D Laser Scans for API 653 Tanks",
+    "description": "Tank scanning services: 3D laser scans of storage tanks for settlement, shell out-of-roundness, verticality and roof geometry, tied to API 653 inspection."
+  },
+  "/practical-ndt": {
+    "title": "NDT Simulator: Practise UT, PAUT, RT, MT in Your Browser",
+    "description": "NDT simulator for practical training: 12 method families, 12 workplaces, 473 jobs, each a full procedure. Free A-scan tool, no sign-up. Demo on request."
   }
 }

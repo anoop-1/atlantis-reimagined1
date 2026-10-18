@@ -99,7 +99,7 @@ const UT = {
   code: 'UT',
   hoursCode: 'UT',
   crumb: 'UT practical simulator',
-  title: 'UT Practical Simulator: Calibration to Report | Atlantis NDT',
+  title: 'Ultrasonic Testing Simulator: Calibration to Report Practice', // 2026-10-18 (traffic): leads with the searched term
   description: 'Practise ultrasonic testing in a browser: probe choice, couplant, two-reference calibration, gated scanning, coverage, angle beams and the training report.',
   h1: 'UT Practical Simulator: Practise Ultrasonic Testing from Calibration to Report',
   intro: 'The UT practical simulator in Atlantis Practical NDT runs normal-beam, angle-beam and thickness jobs in a browser-based 3D workplace. UT is the largest part of the catalogue, with 208 of its 473 jobs. You clean the surface, apply couplant, connect the probe, calibrate on two references, set gates and scan until the coverage map is complete, and each step is credited only when the simulation has recorded the evidence for it. There is no "next" button. To read a single A-scan first, with no sign-up, open the [free ultrasonic A-scan simulator](/tools/ultrasonic-a-scan-simulator).',
@@ -119,6 +119,9 @@ const UT = {
       { p: 'Practical NDT computes UT signals analytically, not with a full-wave or finite-element solver, so a scan runs at interactive frame rates on a phone, a laptop or a headset and behaves the same on each. The screen height of an echo before gain is A = 80 · ρ · E · T · exp[−α(f) · s], where ρ is the reflectivity of the reflector, E combines the beam footprint with the reflector\'s size and orientation, T is the share of energy that got past nearer reflectors and s is the sound path. Attenuation is scaled from its value at 5 MHz: α(f) = α₅ · (f / 5 MHz) to the power 1.3.' },
       { p: 'Two consequences are worth practising on purpose. The footprint widens with sound path in proportion to wavelength over probe diameter, so a small, deep reflector returns less than a large, shallow one. And a planar reflector answers strongly only close to normal incidence, so probe angle and scan direction decide what appears on the screen. Grain noise is a fixed function of position, which means the same scan always shows the same noise and one attempt can be compared fairly with the next. Angle-beam jobs unfold the first, second and third legs through the plate. The UT runtime carries 22 specimen datasets: nine base-metal, ten weld and three casting.' },
     ] },
+    { id: 'kind', h2: 'Training simulator or engineering simulation?', body: [
+      { p: 'Engineering simulation software models wave propagation to design and validate an inspection technique. A training simulator such as Practical NDT uses analytical signal models that run on a phone or a headset, so that a trainee can rehearse performing the procedure: probe choice, calibration, coverage and reporting. Use engineering simulation to qualify a technique, and a training simulator to practise carrying it out.' },
+    ] },
     { id: 'evidence', h2: 'Why manual UT is drilled as a procedure', body: [
       { p: 'In the UK PANI 3 programme, 40 operators gave the same manual ultrasonic task to the same welded test pieces. Average detection per test piece ranged from 58% to 67%, individual defects were missed at rates from 13% to 58%, and years of experience predicted performance less well than measures of ability did. The study also found that 54% of operators did not consider all the information available from their scans before deciding what an indication was. That is an error of method, not of knowledge, and it is the kind of error repetition with feedback can reduce. In the simulator, interpretation is written against recorded observations and then reviewed by the instructor; the software gives no automated verdict.' },
     ] },
@@ -136,6 +139,7 @@ const UT = {
   ],
   faq: [
     { q: 'Is the UT simulator the same as the free A-scan tool?', a: 'No. The [A-scan tool](/tools/ultrasonic-a-scan-simulator) draws one straight-beam A-scan over a flat plate so you can learn gain, range and gates. The Practical NDT UT jobs add the whole procedure: probe choice, couplant, two-reference calibration, gated scanning with a coverage map, angle beams through three legs, the calibration check and the training report.' },
+    { q: 'Can I practise ultrasonic testing for free?', a: 'Yes, in part. The free [A-scan tool](/tools/ultrasonic-a-scan-simulator) runs in your browser with no sign-up and teaches gain, range and gates on a straight-beam A-scan. The full UT practicals in Practical NDT are shown on request in a demo.' },
     { q: 'Does the UT simulator include DAC or TCG?', a: 'Not yet. Distance-amplitude correction and time-corrected gain are not part of the practice runtime in the current release, and the job brief says so.' },
     { q: 'Can UT simulator time count as experience hours?', a: 'Record it as training. Experience is work performed in the work environment; simulator practice can count as organised training only where your written practice allows it.' },
   ],
@@ -877,6 +881,30 @@ if (PAGES.map((p) => p.slug).join() !== PRACTICAL_SIM_SLUGS.join()) {
 
 export const HUB = {
   practiseNow: { lead: 'Practise now', href: ASCAN_PATH, label: 'free ultrasonic A-scan simulator', tail: 'in your browser, no sign-up' },
+  // 2026-10-18 (traffic): replaces the hand-written "Why Hands-On Practice Is the Bottleneck" copy in
+  // both layers (its "unlimited, ever-growing library" overstated a 473-job catalogue). Evidence as the
+  // white paper states it (§2.1, refs 1-2), attempt checking as §3-4 describe it.
+  evidence: {
+    h2: 'Why practice is the bottleneck: the evidence',
+    paras: [
+      'Practical skill is the hardest part of NDT qualification to deliver. Every repetition needs a flawed specimen, a working instrument and an instructor’s time, and a rare defect geometry may turn up once a year on a real job.',
+      'Reliability research keeps finding that the person doing the inspection is the largest source of variation. MIL-HDBK-1823A, the US Department of Defense handbook on the reliability of NDE systems, states that “in many applications the human conducting the inspection is the most significant variable in the process” (MIL-HDBK-1823A, 2009). In the UK HSE PANI 3 programme, 40 operators inspecting the same welded test pieces achieved average detection frequencies of 58% to 67% per test piece (HSE Research Report RR617, 2008).',
+      'Practical NDT was built so that a technician can repeat complete, procedure-driven inspections, with every attempt recorded.',
+    ],
+  },
+  checked: {
+    h2: 'How an attempt is checked',
+    paras: [
+      'Every practical follows the same twelve-step procedure, from the work order and confirming that specimen, material and method agree, through calibration on the reference, the examination and a data-quality review, to the post-check, the training report and the debrief. A read-only procedure evaluator credits only recorded evidence and withdraws credit for a step that would invalidate a real inspection, such as an unverified calibration or incomplete coverage.',
+      'Interpretation is reviewed by the instructor, not scored by the software. Examination specimens carry unidentified reflectors whose key the instructor holds, and the learner record shows the settings, coverage and repeated checks behind each attempt.',
+    ],
+    levelsIntro: 'Each job runs at three levels of assistance, from guided to independent, so the same job serves first practice, building fluency and rehearsal before an examination:',
+    levels: [
+      ['Guided', 'the instruction, the expected result and the recovery for each step'],
+      ['Coached', 'the instruction and the recovery; the expected result is hidden'],
+      ['Independent', 'the work order only'],
+    ],
+  },
   // The stale crawler sentence ("5 workplace environments, 12 NDT methods and 33 guided lessons")
   // is replaced with this one; React reads the same CATALOGUE for its stat row.
   statsSentence: `Practical NDT currently offers ${CATALOGUE.workplaces} workplaces, ${CATALOGUE.methodFamilies} method families and ${CATALOGUE.lessons} practical lessons, from which the catalogue generates ${CATALOGUE.jobs} jobs.`,
@@ -967,6 +995,23 @@ export function pageModel(page, hours) {
     linksHeading: 'Next steps',
     breadcrumbs: [['/', 'Home'], [HUB_PATH, 'Practical NDT'], [path, page.crumb]],
     closer: SHARED_CLOSER,
+  };
+}
+
+/** 2026-10-18 (traffic): LearningResource for the /practical-ndt hub, beside its SoftwareApplication (both layers). */
+export function hubLearningResource() {
+  return {
+    '@type': 'LearningResource',
+    '@id': `${SITE}${HUB_PATH}#learning-resource`,
+    name: 'Atlantis Practical NDT simulator',
+    url: `${SITE}${HUB_PATH}`,
+    inLanguage: 'en',
+    learningResourceType: 'Simulation',
+    educationalLevel: ['Beginner', 'Intermediate', 'Advanced'],
+    educationalUse: 'Practical NDT training',
+    teaches: METHOD_FAMILIES.map((f) => `${f.name} (${f.code})`),
+    audience: { '@type': 'EducationalAudience', educationalRole: 'NDT trainees, technicians, instructors and training managers' },
+    provider: { '@id': `${SITE}/#organization` },
   };
 }
 

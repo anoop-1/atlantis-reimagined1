@@ -1,5 +1,8 @@
 import { useLocation } from "react-router-dom";
 import { lazy, Suspense } from "react";
+// 2026-10-18: the seven 3D-scanning industry pages (/3d-scanning-tank etc.) are not cities;
+// they fall through to NotFound, which shows their prerendered page (PrerenderedFallback).
+import SCAN_INDUSTRY_SLUGS from "@/data/scan-industry-slugs.json";
 
 const MethodLocationPage = lazy(() => import("@/components/MethodLocationPage"));
 const DynamicTrainingPage = lazy(() => import("@/components/DynamicTrainingPage"));
@@ -51,7 +54,7 @@ export default function DynamicCityRoute() {
   }
 
   // Match 3d-scanning-{city}
-  if (path.startsWith("3d-scanning-") && path !== "3d-scanning-services") {
+  if (path.startsWith("3d-scanning-") && path !== "3d-scanning-services" && !(SCAN_INDUSTRY_SLUGS as string[]).includes(path.slice("3d-scanning-".length))) {
     const city = path.slice("3d-scanning-".length);
     if (city) {
       return (
