@@ -759,11 +759,8 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                 "description": `Professional NDT consulting services in ${location.name}`,
                 "url": `https://atlantisndt.com/ndt-consulting-${location.slug}`,
                 "telephone": "+1-281-840-8969",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": location.name,
-                    "addressCountry": location.country
-                },
+                // 2026-10-18 (owner): no office in this city — areaServed only, no city PostalAddress.
+                "areaServed": { "@type": "City", "name": location.name },
                 "parentOrganization": {
                     "@type": "Organization",
                     "name": "Atlantis NDT",

@@ -213,12 +213,7 @@ export default function AdvancedMethodLocationPage() {
         "description": pageDescription,
         "url": `https://atlantisndt.com/services/${slug}`,
         "telephone": "+1-800-505-3554",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": city.name,
-          "addressRegion": city.region,
-          "addressCountry": city.country
-        },
+        // 2026-10-18 (owner): no office in this city — areaServed only, no city PostalAddress.
         "areaServed": { "@type": "City", "name": city.name },
         "serviceType": method.name,
         "provider": { "@id": "https://atlantisndt.com/#organization" }

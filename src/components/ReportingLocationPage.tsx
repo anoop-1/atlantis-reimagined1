@@ -359,11 +359,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
         url: canonicalUrl,
         telephone: "+1-281-840-8969",
         email: "info@atlantisndt.com",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: city,
-          addressCountry: country
-        },
+        // 2026-10-18 (owner): no office in this city — areaServed only, no city PostalAddress.
         areaServed: { "@type": "City", name: city },
         parentOrganization: { "@id": "https://atlantisndt.com/#organization" }
       }

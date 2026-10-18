@@ -85,11 +85,7 @@ export default function ConsultingServicesMiddleEast() {
                 "description": "ARAMCO-compliant NDT Level III consulting services in Middle East",
                 "url": "https://atlantisndt.com/consulting-me",
                 "email": "info@atlantisndt.com",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressCountry": "AE",
-                    "addressRegion": "Middle East"
-                },
+                // 2026-10-18 (owner): no Middle East office — the real addresses are Houston and Hyderabad.
                 "areaServed": ["Saudi Arabia", "UAE", "Qatar", "Kuwait", "Bahrain", "Oman"],
                 "priceRange": "$$$$"
             },

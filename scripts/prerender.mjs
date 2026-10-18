@@ -9586,8 +9586,8 @@ consultingCities.forEach(citySlug => {
         "url": canonical,
         "telephone": "+1-281-840-8969",
         "email": "info@atlantisndt.com",
-        "address": { "@type": "PostalAddress", "addressLocality": cityName, "addressCountry": countryCode },
-        "areaServed": { "@type": "Place", "name": cityName },
+        // 2026-10-18 (owner): no office in this city — areaServed only, no city PostalAddress.
+        "areaServed": { "@type": "City", "name": cityName },
         "serviceType": "NDT Level III Consulting",
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
       },
