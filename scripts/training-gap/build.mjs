@@ -123,7 +123,7 @@ for (const p of pages) {
   p.relatedHtml =
     `<nav data-block="exam-prep-related" aria-label="Related exam preparation">` +
     `<h2>Related ASNT exam preparation</h2><ul>${others.map(li).join('')}` +
-    `<li><a href="/asnt-level-iii-training">ASNT Level III training overview</a></li>` +
+    `<li><a href="/asnt-level-iii-training">NDT Level 3 training and fees</a></li>` +
     `<li><a href="/ndt-training-online">Online NDT training</a></li>` +
     `<li><a href="/training">All NDT training courses</a></li>` + practiceLis(p) + `</ul></nav>`;
 }
