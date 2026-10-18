@@ -11,9 +11,11 @@ export default function ContactDetails() {
    const serviceLinks = SERVICES.map((p) => ({ name: p.name, href: p.path }));
    const resourceLinks = RESOURCES.map((p) => ({ name: p.name, href: p.path }));
 
+   // 2026-10-18 (owner): map links are Google Maps searches for the real addresses
+   // (the old maps.app.goo.gl short link did not resolve to the Houston address).
    const socialLinks = [
       { name: "LinkedIn", href: "https://linkedin.com/company/atlantis-ndt" },
-      { name: "Google Maps", href: "https://maps.app.goo.gl/Lalha-Residence-Houston" },
+      { name: "Google Maps", href: "https://www.google.com/maps/search/?api=1&query=700+Smith+St+Houston+TX+77002" },
       { name: "WhatsApp", href: "https://wa.me/+12818408969" },
    ];
 
@@ -21,12 +23,12 @@ export default function ContactDetails() {
       {
          name: "Houston, USA",
          address: "700 Smith St #61070, SMB#52788",
-         mapUrl: "https://maps.app.goo.gl/Lalha-Residence-Houston"
+         mapUrl: "https://www.google.com/maps/search/?api=1&query=700+Smith+St+Houston+TX+77002"
       },
       {
          name: "Hyderabad, India",
          address: "5-68/48-132, Hyderabad-500078",
-         mapUrl: "https://maps.google.com/?q=Atlantis+NDT+Hyderabad+India"
+         mapUrl: "https://www.google.com/maps/search/?api=1&query=5-68%2F48-132+Hyderabad+500078"
       },
    ];
 
