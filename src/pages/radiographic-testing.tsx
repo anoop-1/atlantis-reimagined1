@@ -997,7 +997,7 @@ export default function RadiographicTesting() {
               Need RT Consultation?
             </h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers provide RT procedure development,
+              Our ASNT NDT Level III provides RT procedure development,
               radiation safety program consulting, and personnel certification
               support.
             </p>

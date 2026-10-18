@@ -573,7 +573,7 @@ export default function EddyCurrentTesting() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need ECT Consultation?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers provide procedure development, personnel certification, and inspection program management.
+              Talk to us about your eddy current requirements; who performs and reviews the work is confirmed per project.
             </p>
             <Link to="/contact" className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm">
               Contact Our ECT Experts

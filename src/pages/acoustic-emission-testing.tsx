@@ -659,7 +659,7 @@ export default function AcousticEmissionTesting() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need AET Consulting?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers design AET programs for pressure vessels, storage tanks, and pipelines per ASME Section V and API requirements.
+              Talk to us about your AET requirements for pressure vessels, storage tanks or pipelines; who performs and reviews the work is confirmed per project.
             </p>
             <Link
               to="/contact"

@@ -72,7 +72,7 @@ export default function NDTForPowerGeneration() {
             <Navigation />
             <SEOHead
                 title="[Critical Infrastructure] NDT Power Generation - Asset Integrity"
-                description="NDT for power generation: boiler, turbine, pipeline inspection. Prevent downtime, extend asset life. ASNT certified, 24/7 response."
+                description="NDT for power generation: boiler, turbine and high-energy piping inspection by UT, PAUT, MT and PT, with reports reviewed by an ASNT NDT Level III."
                 keywords="power generation NDT, power plant NDT, turbine blade inspection, boiler tube testing, generator NDT, ASME Section V power, HRSG inspection, steam turbine NDT, nuclear NDT, power plant outage inspection, condenser tube inspection, ASNT power generation, NRC qualified NDT"
                 canonical="https://atlantisndt.com/ndt-for-power-generation"
                 structuredData={structuredData}
@@ -85,7 +85,7 @@ export default function NDTForPowerGeneration() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="flex items-center gap-2 text-emerald-200 mb-4"><Zap className="w-5 h-5" /><span>Industry Solutions</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Services for Power Generation</h1>
-                        <p className="text-xl text-emerald-100 max-w-3xl mb-8">Comprehensive inspection, training, and consulting for power plants. Turbines, boilers, generators, and balance of plant. ASME qualified outage support teams.</p>
+                        <p className="text-xl text-emerald-100 max-w-3xl mb-8">Comprehensive inspection, training, and consulting for power plants. Turbines, boilers, generators, and balance of plant, with reports reviewed by an ASNT NDT Level III.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get Free Quote</Link>
                             <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View Consulting Services</Link>

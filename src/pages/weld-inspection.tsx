@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "Why is Phased Array UT (PAUT) replacing radiographic testing for weld inspection?",
-    a: "Phased Array UT (PAUT) is replacing film RT and increasingly competing with digital radiography for weld inspection for several practical and technical reasons. First, PAUT requires no radiation — no exclusion zone, no radiation licensing, no dose monitoring, and no restrictions in occupied areas. Second, PAUT provides better defect characterisation — it can size planar defects (cracks, lack of fusion) more accurately than RT which is less sensitive to planar defects parallel to the beam. Third, PAUT offers faster inspection — a single pass with an appropriate probe assembly covers the full weld volume. Fourth, PAUT results are immediately available as digital files — no film processing or darkroom. Fifth, PAUT is accepted by the major codes: ASME V Appendix IV, AWS D1.1 Annex K (UT alternative), API 1104 for pipeline welds. Limitations of PAUT include: it requires a qualified Level II PAUT technician; surface condition must be suitable; it is less effective than RT for detecting laminar inclusions and certain volumetric defects.",
+    a: "Phased Array UT (PAUT) is replacing film RT and increasingly competing with digital radiography for weld inspection for several practical and technical reasons. First, PAUT requires no radiation — no exclusion zone, no radiation licensing, no dose monitoring, and no restrictions in occupied areas. Second, PAUT provides better defect characterisation — it can size planar defects (cracks, lack of fusion) more accurately than RT which is less sensitive to planar defects parallel to the beam. Third, PAUT offers faster inspection — a single pass with an appropriate probe assembly covers the full weld volume. Fourth, PAUT results are immediately available as digital files — no film processing or darkroom. Fifth, PAUT is accepted by the major codes: ASME V Appendix IV, AWS D1.1 (Annex H in the 2020 edition), API 1104 for pipeline welds. Limitations of PAUT include: it requires a qualified Level II PAUT technician; surface condition must be suitable; it is less effective than RT for detecting laminar inclusions and certain volumetric defects.",
   },
   {
     q: "What weld defects can RT detect that UT cannot?",
@@ -63,7 +63,7 @@ const weldMethods = [
   {
     method: "Phased Array UT (PAUT)",
     icon: Activity,
-    role: "Primary volumetric inspection method for most weld types. S-scan beam steering provides full weld volume coverage in a single pass. Replaces RT in most onshore applications. Excellent sensitivity to planar defects (cracks, lack of fusion). ASME V App IV, AWS D1.1 Annex K.",
+    role: "Primary volumetric inspection method for most weld types. S-scan beam steering provides full weld volume coverage in a single pass. Accepted in place of RT where the code permits. Excellent sensitivity to planar defects (cracks, lack of fusion). ASME V App IV, AWS D1.1:2020 Annex H.",
     badge: "Preferred Method",
     badgeColor: "bg-blue-100 text-blue-800",
   },
@@ -91,7 +91,7 @@ const weldMethods = [
   {
     method: "Visual Testing (VT)",
     icon: CheckCircle,
-    role: "Mandatory first-stage inspection for all welds. Checks profile, surface condition, undercut, overlap, cracks, crater defects, and weld geometry. Must be completed before any other NDT. AWS D1.1 Table 9.1 dimensional acceptance criteria.",
+    role: "Mandatory first-stage inspection for all welds. Checks profile, surface condition, undercut, overlap, cracks, crater defects, and weld geometry. Must be completed before any other NDT. AWS D1.1:2020 Table 8.1 visual acceptance criteria.",
     badge: "Mandatory First Step",
     badgeColor: "bg-red-100 text-red-800",
   },
@@ -140,7 +140,7 @@ const defectTable = [
 const standards = [
   {
     code: "AWS D1.1",
-    scope: "Structural Welding Code — Steel. Governs weld inspection for structural steel in buildings, bridges, and structures. RT, UT (Annex K for PAUT), MT, PT acceptance criteria.",
+    scope: "Structural Welding Code — Steel. Governs weld inspection for structural steel in buildings, bridges, and structures. RT, UT (Annex H for PAUT in D1.1:2020), MT, PT acceptance criteria.",
   },
   {
     code: "ASME Section IX",
@@ -226,7 +226,7 @@ export default function WeldInspection() {
     "@graph": [
       {
         "@type": "Article",
-        "headline": "Weld Inspection Services | NDT Methods for Weld Quality Control",
+        "headline": "Weld Inspection Services: VT, MT, PT, UT, PAUT and TOFD",
         "description": "Complete guide to weld inspection: NDT methods (RT, UT, PAUT, MT, PT, VT), weld defect types, governing codes AWS D1.1, ASME Section IX, API 1104. ASNT Level III consulting.",
         "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "publisher": {
@@ -270,10 +270,10 @@ export default function WeldInspection() {
               NDT Hub Guide · Updated February 2026
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
-              Weld Inspection Services | NDT Methods for Weld Quality Control
+              Weld Inspection Services: VT, MT, PT, UT, PAUT and TOFD
             </h1>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Weld inspection is the single largest application of NDT — accounting for approximately 15% of all industrial NDT volume globally. From AWS D1.1 structural steel to ASME Section IX pressure equipment and API 1104 pipeline welds, the right inspection method is critical to weld quality and fitness for service.
+              Weld inspection is one of the most common applications of NDT. From AWS D1.1 structural steel to ASME Section IX pressure equipment and API 1104 pipeline welds, the right inspection method is critical to weld quality and fitness for service.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -300,7 +300,7 @@ export default function WeldInspection() {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { label: "Share of All NDT", value: "~15%" },
+              { label: "Report Review", value: "ASNT Level III" },
               { label: "Primary Codes", value: "AWS, ASME, API" },
               { label: "Key Technique", value: "PAUT / RT / MT" },
               { label: "Defect Types", value: "6 Major Categories" },
@@ -359,7 +359,7 @@ export default function WeldInspection() {
               <h3 className="font-bold text-[#004aad] mb-3">Key Fact: Weld Inspection Scope</h3>
               <ul className="space-y-2 text-slate-700">
                 {[
-                  "Weld inspection is the largest single application of NDT — approximately 15% of all industrial NDT by volume",
+                  "Weld inspection is one of the most common applications of NDT",
                   "All major construction codes require a minimum of visual testing (VT) for 100% of welds",
                   "Volumetric NDT (RT or UT) is required for all pressure-retaining welds in oil & gas and power generation",
                   "PAUT is now accepted by AWS D1.1, ASME V, and API 1104 as an alternative to conventional RT",
@@ -498,7 +498,7 @@ export default function WeldInspection() {
                 { title: "Better sensitivity to planar defects", detail: "Lack of fusion and cracking — the most critical weld defects from a structural integrity perspective — are planar defects. PAUT beam steering at multiple angles across the weld volume provides significantly better detection of these planar defects compared to RT, which is insensitive to defects parallel to the X-ray beam." },
                 { title: "Real-time digital results", detail: "PAUT produces immediate digital data files (S-scans, B-scans, C-scans) that can be reviewed on-site, transmitted electronically, and archived digitally. No film processing, no darkroom, no chemical disposal." },
                 { title: "Faster inspection", detail: "A single PAUT pass with an appropriate probe assembly provides full weld volume coverage including the heat affected zone. Combined with encoded mechanical scanning, PAUT typically achieves 2–5 times the linear coverage rate of conventional UT and eliminates RT setup and shot-per-shot workflow." },
-                { title: "Code acceptance", detail: "PAUT is accepted by ASME V Appendix IV (pressure equipment), AWS D1.1 Annex K (structural welds), API 1104 (pipeline welds), and most major operating company specifications. Written procedure qualification and technique file are required." },
+                { title: "Code acceptance", detail: "PAUT is accepted by ASME V Appendix IV (pressure equipment), AWS D1.1 Annex H in the 2020 edition (structural welds), API 1104 (pipeline welds), and most major operating company specifications. Written procedure qualification and technique file are required." },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 bg-white rounded-xl p-5 shadow border border-slate-100">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
@@ -527,7 +527,7 @@ export default function WeldInspection() {
                     { char: "Defect sizing accuracy", paut: "Excellent (with TOFD)", rt: "Moderate", dr: "Moderate" },
                     { char: "Through-wall height measurement", paut: "Yes (TOFD/PAUT)", rt: "No (image only)", dr: "No (image only)" },
                     { char: "Results availability", paut: "Immediate", rt: "After film processing", dr: "Near-immediate" },
-                    { char: "Code acceptance", paut: "ASME V App IV, AWS D1.1 Annex K, API 1104", rt: "All codes", dr: "Most codes (ASME V Art 2)" },
+                    { char: "Code acceptance", paut: "ASME V App IV, AWS D1.1:2020 Annex H, API 1104", rt: "All codes", dr: "Most codes (ASME V Art 2)" },
                     { char: "Typical cost (relative)", paut: "Medium", rt: "Medium (film) + disposal", dr: "High (equipment)" },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -583,12 +583,12 @@ export default function WeldInspection() {
                 {
                   step: 3,
                   title: "Technique Qualification / Demonstration",
-                  detail: "For UT and PAUT, ASME Code Cases and many operating company specifications require a Technique Qualification (TQ) — a documented demonstration that the procedure can detect the specified defects on representative mockups. AWS D1.1 Annex K requires an Equipment Verification Test for UT. PAUT procedures for ASME work must be qualified per ASME V Appendix IV.",
+                  detail: "For UT and PAUT, ASME Code Cases and many operating company specifications require a Technique Qualification (TQ) — a documented demonstration that the procedure can detect the specified defects on representative mockups. AWS D1.1 sets its own UT equipment qualification and calibration requirements. PAUT procedures for ASME work must be qualified per ASME V Appendix IV.",
                 },
                 {
                   step: 4,
                   title: "Accept / Reject Criteria Application",
-                  detail: "Accept/reject criteria are defined by the governing code, not the NDT method standard. ASME VIII Div 1 (UW-51/UW-52), AWS D1.1 Table 9.1 (VT) / Clause 9 (RT, UT), API 1104 Section 9 (RT), and B31.3 (Para 341) each specify specific defect size limits. The NDT technician reports all indications; the Authorized Inspector (AI) or CWI applies the code acceptance criteria to determine disposition.",
+                  detail: "Accept/reject criteria are defined by the governing code, not the NDT method standard. ASME VIII Div 1 (UW-51/UW-52), AWS D1.1:2020 Table 8.1 (VT) / Clause 8 (RT, UT), API 1104 Section 9 (RT), and B31.3 (Para 341) each specify specific defect size limits. The NDT technician reports all indications; the Authorized Inspector (AI) or CWI applies the code acceptance criteria to determine disposition.",
                 },
                 {
                   step: 5,
@@ -786,7 +786,7 @@ export default function WeldInspection() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need Weld Inspection Support?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers develop AWS D1.1, ASME V, and API 1104 weld inspection procedures, qualify PAUT techniques, and provide Level III review services globally.
+              Our ASNT NDT Level III develops AWS D1.1, ASME V and API 1104 weld inspection procedures, qualifies PAUT techniques and provides Level III review services.
             </p>
             <Link
               to="/contact"

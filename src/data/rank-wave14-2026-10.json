@@ -60,7 +60,7 @@
     "/inspection-services": {
       "q": "What NDT inspection services does Atlantis NDT provide?",
       "a": "Atlantis NDT performs the NDE for API 510, 570 and 653 programmes and for new construction: UT thickness and CML surveys, PAUT and TOFD weld examination, corrosion mapping, tank floor MFL, MT, PT and VT. Technicians are mobilised to your site anywhere in the USA, reports are Level III-reviewed, and your Authorized Inspector remains inspector of record.",
-      "more": "By method: [ultrasonic inspection services](/ultrasonic-testing) · [PAUT inspection services](/inspection/phased-array-inspection-services) · [weld inspection services](/weld-inspection).",
+      "more": "By method and asset: [ultrasonic inspection services](/ultrasonic-testing) · [PAUT inspection services](/inspection/phased-array-inspection-services) · [corrosion mapping services](/corrosion-mapping) · [weld inspection services](/weld-inspection) · [magnetic particle testing](/magnetic-particle-testing) · [penetrant testing](/penetrant-testing) · [pressure vessel inspection services](/inspection/pressure-vessel-inspection-services) · [power plant NDT](/power-generation-ndt-services) · [maritime NDT services](/marine-offshore-ndt-services).",
       "area": true
     },
     "/ultrasonic-testing": {
@@ -113,6 +113,23 @@
         "misses": "No single method finds every flaw type, so the code or specification sets the mix of methods, and acceptance is decided by the governing code, not by the method.",
         "links": "[PAUT inspection services](/inspection/phased-array-inspection-services) · [ultrasonic inspection services](/ultrasonic-testing) · [request an inspection quote](/contact?service=inspection)"
       }
+    },
+    "/inspection/pressure-vessel-inspection-services": {
+      "q": "What do pressure vessel inspection services include?",
+      "a": "Pressure vessel inspection services provide the NDE behind an API 510 inspection: external and on-stream UT thickness at CMLs, internal examination during an outage, PAUT and TOFD on welds and nozzles, corrosion mapping and surface crack detection. Your API 510 inspector stays inspector of record, and Atlantis NDT reports are reviewed by an ASNT NDT Level III.",
+      "service": {
+        "method": "vessel NDE",
+        "receive": [
+          "Thickness readings per CML, with current and previous values against your CML IDs",
+          "Indications located and sized, and evaluated against the code you name",
+          "The procedure, technique sheet, calibration and technician certification records used on the job",
+          "A deviations log of areas not examined, with the reason",
+          "A report reviewed by an ASNT NDT Level III before it is issued"
+        ],
+        "finds": "Wall loss and remaining thickness at CMLs, localised corrosion in mapped areas, and surface and internal cracking at welds and nozzles.",
+        "misses": "Internal surfaces need entry, or an on-stream alternative your inspector justifies under API 510; UT needs a surface the sound can enter; insulation stays on only where a profile technique is planned.",
+        "links": "[ultrasonic inspection services](/ultrasonic-testing) · [corrosion mapping services](/corrosion-mapping) · [request an inspection quote](/contact?service=inspection)"
+      }
     }
   },
   "area": "Where we work: nationwide. Technicians are mobilised to your site anywhere in the USA; apart from the Houston office there is no local office, so mobilisation is planned and quoted for each job.",
@@ -140,6 +157,42 @@
       "pattern": "^/phased-array-ut$",
       "owner": "/inspection/phased-array-inspection-services",
       "text": "Buying phased array work rather than reading about the method? See [PAUT inspection services](/inspection/phased-array-inspection-services)."
+    },
+    {
+      "family": "pv-city",
+      "pattern": "^/inspection/pressure-vessel-inspection-services-[a-z0-9-]+$",
+      "owner": "/inspection/pressure-vessel-inspection-services",
+      "text": "For the national service, with the API 510 NDE scope, what you receive and how crews are mobilised, see [pressure vessel inspection services](/inspection/pressure-vessel-inspection-services)."
+    },
+    {
+      "family": "api510-state",
+      "pattern": "^/api-510-pressure-vessel-inspection-[a-z0-9-]+$",
+      "owner": "/inspection/pressure-vessel-inspection-services",
+      "text": "For the national service and what an API 510 NDE scope includes, see [pressure vessel inspection services](/inspection/pressure-vessel-inspection-services)."
+    },
+    {
+      "family": "marine-city",
+      "pattern": "^/industry/marine-ndt-[a-z0-9-]+$",
+      "owner": "/marine-offshore-ndt-services",
+      "text": "For the national service, with the methods used, what you receive and how crews are mobilised, see [maritime NDT services](/marine-offshore-ndt-services)."
+    },
+    {
+      "family": "marine-sector",
+      "pattern": "^/verticals/marine$",
+      "owner": "/marine-offshore-ndt-services",
+      "text": "Buying shipyard or offshore NDT rather than reading about the sector? See [maritime NDT services](/marine-offshore-ndt-services)."
+    },
+    {
+      "family": "power-city",
+      "pattern": "^/industry/power-generation-ndt-[a-z0-9-]+$",
+      "owner": "/power-generation-ndt-services",
+      "text": "For the national service, with boiler tube weld inspection, outage roles and what you receive, see [power plant NDT services](/power-generation-ndt-services)."
+    },
+    {
+      "family": "power-sector",
+      "pattern": "^/(?:ndt-for-power-generation|verticals/power-gen)$",
+      "owner": "/power-generation-ndt-services",
+      "text": "Buying outage NDT rather than reading about the sector? See [power plant NDT services](/power-generation-ndt-services)."
     }
   ],
   "salary": {
