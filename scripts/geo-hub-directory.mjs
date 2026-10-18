@@ -15,7 +15,8 @@ export const GEO_GUIDE_INTRO = 'Plain answers to the code questions asset owners
 // family -> section hub that hosts its directory + display label (+ optional
 // heading / intro / flat list). Keep in step with src/components/GeoHubDirectory.tsx.
 export const GEO_HUB_HOSTS = {
-  training: { hub: '/training', label: 'NDT Training' },
+  // training: 2026-10-18 (training.md §5.4) the training state/province hubs are listed in the one
+  // "Nationwide" directory on /training (src/data/training-nationwide-2026-10.mjs), not a second one here.
   consulting: { hub: '/consulting', label: 'NDT Level III Consulting' },
   inspection: { hub: '/inspection-services', label: 'NDT Inspection Services' },
   erp: { hub: '/erp', label: 'NDT ERP' },

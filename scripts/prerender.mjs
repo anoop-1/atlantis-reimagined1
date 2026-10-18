@@ -1047,9 +1047,9 @@ Object.assign(CTR_OVERRIDES, {
     description: 'NDT training Dubai UAE — ADNOC + DUBAL + Emirates Steel aligned. UT, RT, MT, PT, ET, VT, PAUT, TOFD. ASNT SNT-TC-1A training.'
   },
   '/ndt-training-online': {
-    // 2026-10-10 §48: the page describes live sessions with replays (self-paced is only the refresher), so the title no longer says "Self-Paced".
-    title: 'NDT Training Online: Live Classes + Replays, Level III-Led',
-    description: 'Live online NDT theory led by an ASNT Level III, with replays, mock exams and code drills. Practical training is supervised in person. Get a quote.'
+    // 2026-10-18 (owner): there are NO live online classes — theory is self-paced with Level III support. Superseded by wave 16 (src/data/ctr-wave16/training.json, same copy).
+    title: 'Online NDT Training: Self-Paced Level I–III, Level III-Led',
+    description: 'Self-paced online NDT training to SNT-TC-1A in UT, RT, MT, PT, VT and more: start any month, Level III support, simulator practice, practical at your site.'
   },
   '/blog/ut-level-2-practice-questions': {
     title: 'UT Level II Practice Questions 2026 — Free Mock Exam (50+ Questions)',
@@ -3114,7 +3114,7 @@ const corePages = [
     title: 'Online NDT Training | ASNT Level I II III Virtual Courses | Atlantis NDT',
     description: 'Online NDT training for ASNT SNT-TC-1A Level I, II, III certification. UT, MT, PT, RT, ET, VT theory modules. Flexible schedule, instructor support. Enrol from anywhere.',
     bodyH1: 'Online NDT Training Courses',
-    bodyText: 'Online NDT training for ASNT SNT-TC-1A certification. Level I and II theory courses for UT, MT, PT, RT, ET, and VT methods. Live virtual and self-paced options. Practical component must be completed in-person. Not sure which level you need? See <a href="/ndt-level-1-training">NDT Level 1 Training</a>, <a href="/ndt-level-2-training">NDT Level 2 Training</a>, and <a href="/asnt-level-iii-training">ASNT Level III Training</a>. Prefer an in-person option? See <a href="/ndt-training-near-me">NDT Training Near Me</a>.',
+    bodyText: 'Online NDT training for ASNT SNT-TC-1A certification. Level I and II theory courses for UT, MT, PT, RT, ET, and VT methods. Theory is self-paced online, with an ASNT NDT Level III answering your questions. Practical component must be completed in-person. Not sure which level you need? See <a href="/ndt-level-1-training">NDT Level 1 Training</a>, <a href="/ndt-level-2-training">NDT Level 2 Training</a>, and <a href="/asnt-level-iii-training">ASNT Level III Training</a>. Prefer an in-person option? See <a href="/ndt-training-near-me">NDT Training Near Me</a>.',
   },
   {
     // Phase 4 fix (2026-08-11): without an explicit override here, this path
@@ -9241,7 +9241,7 @@ corePages.forEach(p => {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "Online NDT Training - ASNT Level I, II, III Certification",
-      "description": "Online NDT training for ASNT SNT-TC-1A certification. Level I and II theory courses for UT, MT, PT, RT, ET, and VT methods. Live virtual and self-paced options.",
+      "description": "Online NDT training for ASNT SNT-TC-1A certification. Level I and II theory courses for UT, MT, PT, RT, ET, and VT methods, self-paced online with ASNT NDT Level III support.",
       "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
       "educationalLevel": "Professional",
       "courseCode": "NDT-ONLINE",

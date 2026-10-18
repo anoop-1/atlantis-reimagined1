@@ -32,11 +32,11 @@
     "quote": [
       "Methods and levels",
       "Number of trainees",
-      "Delivery: on site at your facility, online, or a scheduled cohort",
+      "Delivery: online or at your facility",
       "Whether exams and practical specimens are included",
-      "Dates and any travel"
+      "When you want to start, and any travel"
     ],
-    "quoteNote": "Send those five things and the quote comes back within one business day. No published course fees on this page.",
+    "quoteNote": "Send those five things and we reply within one business day.",
     "flowHeading": "From enquiry to enrolment",
     "flow": [
       {
@@ -48,12 +48,12 @@
         "p": "We confirm whether you need training, exams, certification support or all three, and check the prerequisites."
       },
       {
-        "h": "Quote and dates",
-        "p": "A written quote with on-site, online or cohort dates."
+        "h": "Quote",
+        "p": "A written quote for training online or at your facility."
       },
       {
         "h": "Enrol",
-        "p": "Complete the short enrolment and requirements form and confirm seats."
+        "p": "Complete the short enrolment and requirements form and confirm the trainees."
       },
       {
         "h": "Train and examine",

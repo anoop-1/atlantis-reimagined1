@@ -40,7 +40,9 @@ import { sanitiseString } from './training-na.mjs';
 import { applyCanadaCertification, assertCanadaCertificationClean, canadaCertStats } from './canada-certification-2026-10.mjs'; // 2026-10-16 Canada: which certification does your job need?
 import { recordTrainingGeoHonesty, trainingGeoHonestyStats, isGeoTrainingPath } from './training-geo-honesty-2026-10.mjs'; // 2026-10-16 no implied local presence / dates on city, region and industry training pages
 import { HOUSTON_PATH, houstonBodyHtml, houstonStructuredData, assertHoustonClean } from './houston-training-2026-10.mjs'; // 2026-10-18 /ndt-training-houston rebuilt from one data file (training.md §5.1)
-import { applyLevel3Block, assertLevel3Clean } from './level3-training-2026-10.mjs'; // 2026-10-18 /asnt-level-iii-training cost + exam-prep sections (training.md §5.3)
+import { applyLevel3Block, assertLevel3Clean } from './level3-training-2026-10.mjs';
+import { trainingHubFaqHtml } from '../src/data/training-hub-faq-2026-10.mjs'; // 2026-10-18 /training visible FAQ, one list with src/pages/Training.tsx (training.md §5.4)
+import { applyOnlineTraining, assertOnlineTrainingClean } from './online-training-2026-10.mjs'; // 2026-10-18 /ndt-training-online course table + template blocks removed (training.md §5.5) // 2026-10-18 /asnt-level-iii-training cost + exam-prep sections (training.md §5.3)
 
 const ROOT = process.cwd();
 const readJson = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf-8'));
@@ -48,6 +50,7 @@ export const FACTS = readJson('src/data/course-facts.json');
 export const HOURS = readJson('src/data/snt-tc-1a-hours.json');
 export const SESSIONS = readJson('src/data/course-sessions.json');
 export const COPY = readJson('src/data/training-release-2026-10.json');
+const HUB_FAQ = readJson('src/data/training-hub-faq-2026-10.json');
 const ENQUIRY = readJson('src/data/training-enquiry-copy-2026-10.json'); // 2026-10-16 no dates on city/region/industry training pages
 const ABOUT = readJson('src/data/about-2026-10.json');
 export const HYDERABAD_ADDRESS = (ABOUT.addresses.find((a) => /Hyderabad/.test(a.label)) || {}).text;
@@ -149,7 +152,7 @@ export const RULES = [
     '<h2>Course format and scheduling</h2><p>Courses run as single-method Level I or Level II courses, multi-method programmes such as the five-method packages, and ASNT Level III exam preparation. Theory is self-paced online with Level III support, or on-site for company teams; practical sessions run at your facility. There is no fixed public calendar: dates are agreed with each employer or candidate when you enquire.</p>', null],
   ['training-regions', ['/training'],
     /<h2>Regional Cohorts[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
-    '<h2>Regional training pages</h2><p>United States and Canada: the city, state and province pages under Nationwide on this page, and <a href="/ndt-training-usa">NDT training USA</a>. Middle East: <a href="/training-me">Middle East training</a> (published online fees), <a href="/ndt-training-saudi-arabia">Saudi Arabia</a>, <a href="/ndt-training-dubai">Dubai</a>, <a href="/ndt-training-abu-dhabi">Abu Dhabi</a> and <a href="/ndt-training-jubail">Jubail</a>. India: <a href="/training-india">NDT training India</a> and <a href="/ndt-training-hyderabad">Hyderabad</a>, where Atlantis has an office. Europe: <a href="/ndt-training-london">London</a>. South East Asia: <a href="/ndt-training-singapore">Singapore</a>. Everywhere, training is delivered self-paced online or on-site at your facility; Atlantis does not run training centres.</p>', null],
+    '<h2>Regional training pages</h2><p>United States and Canada: the city, state and province pages under Nationwide on this page, <a href="/ndt-training-usa">NDT training USA</a> and <a href="/ndt-training-houston">NDT training in Houston</a>. Middle East: <a href="/training-me">Middle East training</a> (published online fees), <a href="/ndt-training-saudi-arabia">Saudi Arabia</a>, <a href="/ndt-training-dubai">Dubai</a>, <a href="/ndt-training-abu-dhabi">Abu Dhabi</a> and <a href="/ndt-training-jubail">Jubail</a>. India: <a href="/training-india">NDT training India</a> and <a href="/ndt-training-hyderabad">Hyderabad</a>, where Atlantis has an office. Europe: <a href="/ndt-training-london">London</a>. South East Asia: <a href="/ndt-training-singapore">Singapore</a>. Everywhere, training is delivered self-paced online or on-site at your facility; Atlantis does not run training centres.</p>', null],
   ['training-practicals', ['/training'],
     /<h2>The Practical-Week Architecture[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
     '<h2>How practical training works</h2><p>Practical training runs on real specimens. For on-site courses the instructor brings reference specimens and calibration blocks to your facility and trains on your own equipment; for online courses the practical sessions run at your employer\'s facility. The practical examination is administered by an ASNT Level III under your employer\'s written practice. Between sessions, candidates practise on the <a href="/practical-ndt">Practical NDT simulator</a>, which is practice only and not a substitute for the practical examination.</p>', null],
@@ -174,6 +177,12 @@ export const RULES = [
   ['training-faq-recert', ['/training'],
     /Available as a public cohort, an online refresher, or bundled into a/,
     'Available as an online refresher or bundled into a', 'Available as an online refresher or bundled into a'],
+  // 2026-10-18 (training.md §5.4): the whole Round-6 FAQ (Q1-Q8 numbering, "Pricing?", "Online cohorts?",
+  // "Is Atlantis cohort accepted…") and the "Free Consultation + Tailored Quote within 24 Hours" section
+  // become the one visible FAQ in src/data/training-hub-faq-2026-10.json, shared with Training.tsx.
+  ['training-faq', ['/training'],
+    /<h2>Frequently Asked Questions<\/h2>[\s\S]*?<h2>Free Consultation \+ Tailored Quote within 24 Hours<\/h2>\s*<p>[\s\S]*?<\/p>/,
+    trainingHubFaqHtml(HUB_FAQ, HOURS), null],
   // ── online formats (/training Q6, /training-me Q7, Saudi Q7) ─────────────
   ['online-formats', ['/training', '/training-me'],
     /Hybrid online \+ practical-week format via (?:<a href="\/lms">)?Atlantis LMS(?:<\/a>)?\.?/,
@@ -509,6 +518,7 @@ export function applyTrainingReleaseRoute(route) {
       if (ca.title) meta = { ...meta, title: ca.title, ogTitle: ca.ogTitle, description: ca.description, ogDesc: ca.ogDesc };
     }
     ({ body, sd } = applyLevel3Block(path, body, sd)); // 2026-10-18: no-op except on /asnt-level-iii-training
+    body = applyOnlineTraining(path, body); // 2026-10-18: no-op except on /ndt-training-online
     if (CITY[path] && !body.includes('data-training-release="city-courses"')) {
       body = body.includes('class="training-paths"') ? insertAfterSection(body, '<section class="training-paths"', cityCoursesHtml(path)) : insertAfterIntro(body, cityCoursesHtml(path));
       stats.cityCourses++;
@@ -576,6 +586,7 @@ export function assertTrainingReleaseClean(BUILT_PATHS) {
   assertCanadaCertificationClean(BUILT_PATHS); // throws on its own errors
   assertHoustonClean(BUILT_PATHS); // 2026-10-18 Houston page: links built, no forbidden wording, FAQ shape
   assertLevel3Clean(BUILT_PATHS); // 2026-10-18 Level III cost + exam-prep block
+  assertOnlineTrainingClean(BUILT_PATHS); // 2026-10-18 online course table
   if (errs.length) throw new Error('training release 2026-10 gate failed:\n  ' + errs.join('\n  '));
   return true;
 }

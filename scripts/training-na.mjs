@@ -21,6 +21,7 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 import { hoursCell, methodCourseNode } from '../src/data/course-markup-2026-10.mjs'; // 2026-10-12: one Course/hours builder for both layers
 import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian titles/metas/H1s (ASNT SNT-TC-1A), same entry as src/lib/na-training.ts
+import { nationwideHubEntries, NATIONWIDE_INTRO } from '../src/data/training-nationwide-2026-10.mjs'; // 2026-10-18: state/province hubs merged into the one Nationwide directory
 import { CTR_WAVE16_OVERRIDES } from './ctr-wave16-overrides.mjs'; // 2026-10-18: a wave-16 snippet on an NA city page is newer than the city template title
 
 const ROOT = process.cwd();
@@ -30,6 +31,7 @@ const NA = readJson('src/data/na-training-cities.json').cities;
 const FACTS = readJson('src/data/course-facts.json');
 const HOURS = readJson('src/data/snt-tc-1a-hours.json');
 const CANADA = readJson('src/data/canada-certification-2026-10.json');
+const GEO_HUBS = readJson('src/data/geo-hubs.json');
 
 export const MS_FORM_URL = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
 export const EMPLOYER_PATH = '/snt-tc-1a-employer-certification-program';
@@ -242,17 +244,21 @@ export function nationwideBlockHtml() {
     ['United States — states and regions', ([, , c, k]) => c === 'USA' && (k === 'state' || k === 'region')],
     ['Canada', ([, , c]) => c === 'Canada'],
   ];
-  const parts = groups.map(([h, f]) => {
+  const hubs = nationwideHubEntries(GEO_HUBS, new Set(Object.keys(NA).map((slug) => `/ndt-training-${slug}`)));
+  const hubGroup = ['usCity', 'usState', 'canada'];
+  const parts = groups.map(([h, f], gi) => {
     const items = Object.entries(NA).filter(([, e]) => f(e))
       .map(([slug]) => naMeta(slug))
+      .map((m) => ({ path: `/ndt-training-${m.slug}`, label: m.label }))
+      .concat(hubs.filter((x) => x.group === hubGroup[gi]))
       .sort((a, b) => a.label.localeCompare(b.label))
-      .map((m) => `<li><a href="/ndt-training-${m.slug}">NDT training in ${esc(m.label)}</a></li>`).join('');
+      .map((m) => `<li><a href="${m.path}">NDT training in ${esc(m.label)}</a></li>`).join('');
     return `<h3>${h}</h3><ul class="nationwide-list">${items}</ul>`;
   }).join('\n      ');
   return `
     <section class="training-nationwide" aria-label="NDT training nationwide">
       <h2>Nationwide: NDT training by city, state and region</h2>
-      <p>Every programme below is delivered online or onsite at the employer&#39;s facility under ASNT Level III oversight — Atlantis does not run walk-in training centres. Pick your market for local industries, codes and employer requirements.</p>
+      <p>${esc(NATIONWIDE_INTRO).replace(/'/g, '&#39;')}</p>
       ${parts}
     </section>`;
 }

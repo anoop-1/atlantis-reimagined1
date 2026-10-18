@@ -15,6 +15,9 @@ import onlineDeep from "@/data/deep-content/ndt-training-online.json";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import SNT_HOURS from "@/data/snt-tc-1a-hours.json";
 import { OnlineNearMePointer } from "@/components/TrainingReleaseBlocks"; // 2026-10-12: pointer to /training#ndt-training-near-me (no second near-me H2)
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees"; // 2026-10-18 (owner): US fees allowed here; path-driven, never typed
+import ONLINE from "@/data/online-training-2026-10.json"; // 2026-10-18: "Online NDT courses by method" table, same JSON as the crawler (scripts/online-training-2026-10.mjs)
+import WAVE16 from "@/data/ctr-wave16/training.json"; // 2026-10-18: title/description from the wave-16 file
 
 // 2026-10-16: hours read from src/data/snt-tc-1a-hours.json (SNT-TC-1A recommended classroom
 // hours; Level II is in addition to Level I) instead of typed figures that disagreed with it.
@@ -32,7 +35,7 @@ const courses = [
         levels: ["Level I", "Level II"],
         levelI: `${SNT_HOURS.classroom[k][0]} hrs`,
         levelII: `+${SNT_HOURS.classroom[k][1]} hrs`,
-        format: "Live Virtual",
+        format: "Self-paced",
         standard: "ASNT SNT-TC-1A",
         included,
     })),
@@ -50,9 +53,9 @@ const courses = [
 const benefits = [
     "Learn from anywhere in the world — no travel required",
     "Same SNT-TC-1A theory hours as on-site training",
-    "Live online sessions led by an ASNT Level III",
+    "Self-paced theory, with an ASNT Level III answering your questions",
     "Enroll any time of year — no fixed course dates",
-    "Recorded sessions for review",
+    "Study at your own pace, around your shifts",
     "A documented training record for your employer",
     "No travel or accommodation needed for the theory",
     "Questions answered by an ASNT Level III"
@@ -62,12 +65,12 @@ const whyOnline = [
     {
         icon: Globe,
         title: "Train From Anywhere",
-        description: "Wherever you work — the United States, Canada, the Middle East, India, Europe or South East Asia — the live online sessions deliver the same ASNT SNT-TC-1A curriculum. No visa, no travel, no accommodation costs. All you need is a stable internet connection and a computer."
+        description: "Wherever you work — the United States, Canada, the Middle East, India, Europe or South East Asia — the self-paced online course delivers the same ASNT SNT-TC-1A curriculum. No visa, no travel, no accommodation costs. All you need is a stable internet connection and a computer."
     },
     {
         icon: Clock,
         title: "Start Any Month",
-        description: "Enrollment is open all year, with course starts in the first week of each month and no fixed course dates. Most of the material is self-paced, and live sessions are recorded so you can catch up."
+        description: "Enrollment is open all year, with course starts in the first week of each month and no fixed course dates. The theory is self-paced, so you study around your shifts and catch up whenever you need to."
     },
     {
         icon: Award,
@@ -76,19 +79,18 @@ const whyOnline = [
     },
     {
         icon: Users,
-        title: "Live Instructor Support",
-        description: "Live online sessions are led by an ASNT Level III. You can ask questions in real time, take part in discussions, and get feedback on practice exam questions and calculations."
+        title: "Level III Support",
+        description: "An ASNT NDT Level III answers your course questions throughout, and gives feedback on practice exam questions and calculations. There are no live classes to attend."
     }
 ];
 
 const whatIsIncluded = [
-    { item: "Live online sessions", included: true },
+    { item: "Self-paced online theory with ASNT Level III support", included: true },
     { item: "Pre-recorded theory module video library", included: true },
     { item: "Digital course notes and study guides (PDF)", included: true },
     { item: "Practical NDT simulator practice", included: true },
     { item: "Practice examination questions for each method", included: true },
-    { item: "Instructor Q&A sessions (email and live)", included: true },
-    { item: "Recorded session replays", included: true },
+    { item: "Answers to your course questions from an ASNT Level III", included: true },
     { item: "Certificate of training completion (a training record, not a certification)", included: true },
     { item: "Hands-on practical training", included: false },
     { item: "Practical examination on reference specimens", included: false },
@@ -98,7 +100,7 @@ const whatIsIncluded = [
 
 const certificationPath = [
     { step: 1, title: "Enrol in Online Theory Course", description: "Enroll in your chosen method and level at any time of year. Course starts run in the first week of each month, and you can begin the self-paced material once your enrollment is confirmed." },
-    { step: 2, title: "Complete Online Theory Training", description: "Work through the self-paced material and join the live online sessions or their replays. Complete all ASNT SNT-TC-1A minimum theory hours. Instructors track your attendance and progress throughout the course." },
+    { step: 2, title: "Complete Online Theory Training", description: "Work through the self-paced material online and send your questions to the Level III. Complete all ASNT SNT-TC-1A minimum theory hours. Instructors track your attendance and progress throughout the course." },
     { step: 3, title: "Practice Written Examination", description: "Sit multiple ASNT-format practice examinations online with instant feedback. Review incorrect answers with instructor explanations. Prepare for the final written examination, which is administered under your employer's written practice." },
     { step: 4, title: "Complete Practical Training (In-Person Required)", description: "The practical component CANNOT be completed online. Practical training runs at your employer's facility, on its own equipment and parts, under an ASNT Level III. Practice in the Practical NDT simulator beforehand helps, but it does not replace this. Atlantis does not run training centres." },
     { step: 5, title: "Sit Written & Practical Examinations", description: "Pass the written and practical examinations your employer's written practice sets, including its pass marks, administered by its Level III or an outside Level III. Your employer also carries out the vision examination before certification is issued." },
@@ -109,7 +111,7 @@ const certificationPath = [
 const faqs = [
     {
         question: "Is online NDT training effective?",
-        answer: "For theory, yes. Self-paced material is combined with live online sessions led by an ASNT Level III, with real-time questions and recorded replays, and the same ASNT SNT-TC-1A minimum training hours are covered. The Practical NDT simulator helps you visualise equipment responses and signal interpretation. Hands-on skill still comes from the supervised practical on real parts."
+        answer: "For theory, yes. The self-paced material is backed by an ASNT Level III who answers your questions, and the same ASNT SNT-TC-1A minimum training hours are covered. The Practical NDT simulator helps you visualise equipment responses and signal interpretation. Hands-on skill still comes from the supervised practical on real parts."
     },
     {
         question: "What equipment do I need?",
@@ -125,7 +127,7 @@ const faqs = [
     },
     {
         question: "How does online NDT training work technically?",
-        answer: "Live online sessions are led by an ASNT Level III. You can see the instructor's screen (presentations, equipment diagrams, simulations), ask questions by audio or chat, and take part in group exercises. Sessions are recorded for replay. Self-paced modules use pre-recorded video with embedded knowledge-check questions. Progress is tracked on our learning management platform."
+        answer: "The theory is self-paced online: pre-recorded video modules with knowledge-check questions, digital notes and practice exams, with progress tracked on our learning management platform. An ASNT Level III answers your course questions by email or message. There are no live classes to attend, so you study around your shifts."
     },
     {
         question: "How long do I have access to the course materials?",
@@ -165,7 +167,7 @@ export default function NDTTrainingOnline() {
                 "@type": "Course",
                 "name": "Online NDT Training",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "Online NDT certification training. Live virtual ASNT SNT-TC-1A courses for UT, MT, PT, RT, ET, VT. Level I and Level II theory from anywhere in the world.",
+                "description": "Online NDT certification training. Self-paced ASNT SNT-TC-1A courses for UT, MT, PT, RT, ET, VT with ASNT NDT Level III support. Level I and Level II theory from anywhere in the world.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": "online",
@@ -181,8 +183,8 @@ export default function NDTTrainingOnline() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training Online: Live Classes + Replays, Level III-Led"
-                description="Live online NDT theory led by an ASNT Level III, with replays, mock exams and code drills. Practical training is supervised in person. Get a quote."
+                title={WAVE16["/ndt-training-online"].title}
+                description={WAVE16["/ndt-training-online"].description}
                 keywords="online NDT training, virtual NDT courses, NDT training online, ASNT online certification, NDT e-learning, remote NDT training, online UT training, online MT training, NDT Level II online, virtual NDT certification"
                 canonical="https://atlantisndt.com/ndt-training-online"
                 structuredData={structuredData}
@@ -211,7 +213,7 @@ export default function NDTTrainingOnline() {
                             <span className="gradient-text">Online</span> NDT Training
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            Online NDT theory from anywhere in the world: ASNT SNT-TC-1A theory courses for Level I and Level II, self-paced with live online sessions led by an ASNT Level III, and enrollment open all year. The practical is completed in person at your employer's facility.
+                            Online NDT theory from anywhere in the world: ASNT SNT-TC-1A theory courses for Level I and Level II, self-paced, with an ASNT Level III answering your questions, and enrollment open all year. The practical is completed in person at your employer's facility.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">
@@ -230,7 +232,7 @@ export default function NDTTrainingOnline() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div><div className="text-4xl font-bold text-primary mb-2">100%</div><div className="text-muted-foreground">Online Theory</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">Live</div><div className="text-muted-foreground">Level III Instructors</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">Support throughout</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">Global</div><div className="text-muted-foreground">Access</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">Year-round</div><div className="text-muted-foreground">Enrollment</div></div>
                     </div>
@@ -254,58 +256,44 @@ export default function NDTTrainingOnline() {
 
             <OnlineNearMePointer />
 
-            {/* Courses Table */}
-            <section className="py-20">
+            {/* Courses Table — 2026-10-18: "Online NDT courses by method", from src/data/online-training-2026-10.json + snt-tc-1a-hours.json (same as the crawler) */}
+            <section className="py-20" data-online-courses>
                 <div className="container mx-auto max-w-6xl px-6">
-                    <motion.div
-                        className="text-center mb-12"
-                        initial={{ y: 20, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        viewport={{ once: true }}
-                    >
-                        <h2 className="text-3xl font-bold mb-4">Online Courses Available</h2>
-                        <p className="text-muted-foreground">All live virtual courses are delivered by ASNT Level III certified instructors and cover full ASNT SNT-TC-1A minimum theory hours.</p>
-                    </motion.div>
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl font-bold mb-4">{ONLINE.h2}</h2>
+                        <p className="text-muted-foreground">{ONLINE.intro}</p>
+                    </div>
                     <div className="overflow-x-auto">
                         <table className="w-full text-sm border-collapse">
+                            <caption className="text-left text-muted-foreground mb-3">{ONLINE.caption}</caption>
                             <thead>
                                 <tr className="bg-primary/10">
-                                    <th className="text-left p-3 font-semibold border border-border">NDT Method</th>
-                                    <th className="text-left p-3 font-semibold border border-border">Levels</th>
-                                    <th className="text-left p-3 font-semibold border border-border">Level I Hours</th>
-                                    <th className="text-left p-3 font-semibold border border-border">Level II Hours</th>
-                                    <th className="text-left p-3 font-semibold border border-border">Format</th>
-                                    <th className="text-left p-3 font-semibold border border-border">Standard</th>
+                                    {ONLINE.head.map((h) => <th key={h} scope="col" className="text-left p-3 font-semibold border border-border">{h}</th>)}
                                 </tr>
                             </thead>
                             <tbody>
-                                {courses.map((course, index) => (
-                                    <motion.tr
-                                        key={course.method}
-                                        className={index % 2 === 0 ? "bg-background" : "bg-secondary/20"}
-                                        initial={{ opacity: 0 }}
-                                        whileInView={{ opacity: 1 }}
-                                        viewport={{ once: true }}
-                                        transition={{ delay: index * 0.04 }}
-                                    >
-                                        <td className="p-3 border border-border font-medium">{course.method}</td>
-                                        <td className="p-3 border border-border">{course.levels.join(", ")}</td>
-                                        <td className="p-3 border border-border">{course.levelI}</td>
-                                        <td className="p-3 border border-border">{course.levelII}</td>
-                                        <td className="p-3 border border-border">
-                                            <span className={`text-xs px-2 py-1 rounded-full font-medium ${course.format === "Live Virtual" ? "bg-blue-100 text-blue-800" : "bg-green-100 text-green-800"}`}>
-                                                {course.format}
-                                            </span>
-                                        </td>
-                                        <td className="p-3 border border-border text-xs text-muted-foreground">{course.standard}</td>
-                                    </motion.tr>
-                                ))}
+                                {ONLINE.methods.map(([k, href, label], index) => {
+                                    const key = k as keyof typeof SNT_HOURS.classroom;
+                                    return (
+                                        <tr key={k} className={index % 2 === 0 ? "bg-background" : "bg-secondary/20"}>
+                                            <th scope="row" className="p-3 border border-border font-medium text-left">{SNT_HOURS.methodNames[key as keyof typeof SNT_HOURS.methodNames]}</th>
+                                            <td className="p-3 border border-border">{SNT_HOURS.classroom[key][0]}</td>
+                                            <td className="p-3 border border-border">{SNT_HOURS.classroom[key][1]}</td>
+                                            <td className="p-3 border border-border">{ONLINE.start}</td>
+                                            <td className="p-3 border border-border">{ONLINE.format}</td>
+                                            <td className="p-3 border border-border">{ONLINE.practical}</td>
+                                            <td className="p-3 border border-border"><Link to={href} className="text-primary underline">{label}</Link></td>
+                                        </tr>
+                                    );
+                                })}
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-muted-foreground mt-4">Online training covers the theory portion only. Practical examination must be completed in-person. Contact us to plan your theory and the practical at your employer's facility.</p>
+                    <p className="text-sm text-muted-foreground mt-4" dangerouslySetInnerHTML={{ __html: ONLINE.after }} />
+                    <p className="text-sm text-muted-foreground mt-2">{ONLINE.feesLead}</p>
                 </div>
             </section>
+            <ApprovedTrainingFees />
 
             {/* Why Choose Online Training */}
             <section className="py-20 bg-secondary/30">

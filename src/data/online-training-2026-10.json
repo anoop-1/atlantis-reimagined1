@@ -1,0 +1,21 @@
+{
+  "_note": "2026-10-18 (training workstream; spec /home/claude/wt/shared/rea/training.md §5.5; owner: no live online classes). One source for the 'Online NDT courses by method' table on /ndt-training-online: crawler scripts/online-training-2026-10.mjs (called from applyTrainingReleaseRoute) and React src/pages/ndt-training-online.tsx. Classroom hours come from src/data/snt-tc-1a-hours.json by method key; practice-test links are the canonical paths in src/data/practice-tests/*.json. US fees appear only through the approved table (slot after the table; path allowlisted in approved-training-fees.json).",
+  "path": "/ndt-training-online",
+  "h2": "Online NDT courses by method",
+  "intro": "Each method runs online at Level I and Level II. The classroom hours are the SNT-TC-1A recommended minimums; your employer's written practice sets the binding numbers, and Level II hours are in addition to Level I.",
+  "caption": "Online NDT courses: SNT-TC-1A classroom hours, how the course runs and the next step",
+  "head": ["Method", "Level I classroom hours", "Level II classroom hours", "Start", "Format", "Practical", "Next step"],
+  "start": "Any month (first-week starts); enrolment open all year",
+  "format": "Self-paced theory, with an ASNT NDT Level III answering your questions",
+  "practical": "Practical NDT simulator, then supervised practical at your employer's facility",
+  "methods": [
+    ["UT", "/blog/ut-level-2-practice-questions", "UT Level 2 practice test"],
+    ["RT", "/blog/rt-level-2-practice-questions-2026-free-mock-exam", "RT Level 2 practice test"],
+    ["MT", "/blog/mt-level-2-practice-questions-2026-free-mock-exam", "MT Level 2 practice test"],
+    ["PT", "/blog/pt-level-2-practice-questions-2026-free-mock-exam", "PT Level 2 practice test"],
+    ["VT", "/blog/vt-level-2-practice-questions-2026-free-mock-exam", "VT Level 2 practice test"],
+    ["ET", "/blog/et-level-2-practice-questions-2026-free-mock-exam", "ET Level 2 practice test"]
+  ],
+  "after": "PAUT and TOFD build on UT Level II, and their hours are set by your written practice. All eight methods have free practice questions: <a href=\"/ndt-practice-tests\">NDT Level 2 exam questions and answers</a>.",
+  "feesLead": "Training in the United States? The published US fees are below; for other regions, the fee table links the regional pages."
+}

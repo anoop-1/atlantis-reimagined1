@@ -42,6 +42,8 @@
  */
 import { MS_FORM_URL, MS_FORM_LABEL } from "@/lib/enquiry-endpoint";
 import { Link } from "react-router-dom";
+// 2026-10-18: default copy is the shared enquiry wording (no dates, no same-day promise; owner: "we reply within one business day").
+import ENQUIRY from "@/data/training-enquiry-copy-2026-10.json";
 
 export interface TrainingEnquiryCTAProps {
   /** Sets the heading and supporting line to the page's context. */
@@ -54,8 +56,8 @@ export interface TrainingEnquiryCTAProps {
 }
 
 export default function TrainingEnquiryCTA({
-  heading = "Ask about NDT training dates and delivery",
-  body = "Tell us the methods and levels you need and how many technicians. We reply with available dates, the delivery options that fit, and what your written practice requires — usually the same working day.",
+  heading = ENQUIRY.heading,
+  body = ENQUIRY.body,
   variant = "block",
   showCorporateLink = true,
 }: TrainingEnquiryCTAProps) {
@@ -100,7 +102,7 @@ export default function TrainingEnquiryCTA({
             to="/corporate-ndt-training"
             className="text-blue-800 dark:text-blue-300 underline underline-offset-2 text-sm"
           >
-            Training a whole crew? See employer-sponsored cohorts
+            Training a whole crew? See employer-sponsored training
           </Link>
         )}
       </div>

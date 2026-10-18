@@ -14,7 +14,7 @@ const GUIDE_INTRO =
   "Plain answers to the code questions asset owners ask before scoping an API 510, 570 or 653 inspection: intervals, methods, data requirements and what the Authorized Inspector needs from the NDE contractor.";
 
 const HOSTS: Record<string, { label: string; heading?: string; intro?: string; flat?: boolean }> = {
-  training: { label: "NDT Training" },
+  // training: 2026-10-18 listed in the one Nationwide directory (src/components/NaTrainingNationwide.tsx).
   consulting: { label: "NDT Level III Consulting" },
   inspection: { label: "NDT Inspection Services" },
   erp: { label: "NDT ERP" },
