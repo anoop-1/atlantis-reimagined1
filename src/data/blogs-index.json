@@ -226,13 +226,13 @@
  },
  {
   "slug": "shear-wave-ut-for-thick-section-inspection",
-  "title": "Shear Wave UT: Angle Beam Inspection of Thick-Section Welds",
+  "title": "Shear Wave NDT: Angle Beam UT Explained for Weld Inspection",
   "category": "NDT Methods",
   "metaDescription": "Shear wave NDT explained: how angle beam UT turns sound into a transverse wave, angle and skip distance, calibration blocks, and where shear"
  },
  {
   "slug": "compression-wave-vs-shear-wave-technical-differences",
-  "title": "Compression Wave vs Shear Wave UT: Technical Differences",
+  "title": "Compression vs Shear Wave UT: Differences That Matter",
   "category": "NDT Methods",
   "metaDescription": "Compression vs shear waves in UT: particle motion, velocity and wavelength in steel, mode conversion, critical angles, and which mode a proc"
  },
@@ -280,7 +280,7 @@
  },
  {
   "slug": "reference-standards-and-block-calibration-in-ut",
-  "title": "UT Reference Standards and Calibration Blocks: What Each Does",
+  "title": "UT Calibration Blocks and Reference Standards Explained",
   "category": "NDT Methods",
   "metaDescription": "UT calibration and reference blocks: IIW-type, ASME Section V side-drilled-hole and ASTM E127/E428 blocks, DAC, transfer correction and the "
  },
