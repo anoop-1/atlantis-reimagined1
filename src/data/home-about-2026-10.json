@@ -1,0 +1,47 @@
+{
+  "_note": "2026-10-18: the homepage 'about' copy, rendered by BOTH layers (React src/components/HomeAbout.tsx on /, crawler scripts/home-first-screen.mjs). Before this it lived only in the crawler HTML (the Round-7 body), so visitors saw it for a few seconds and then lost it when React took over. Rule fixes made in the move: no numerals in ERP copy ('30+ integrated business apps' -> 'integrated business apps'); no reply-time promises other than the owner-approved 'we reply within one business day' (2026-10-18); online theory is self-paced with Level III support, no live classes (owner, 2026-10-18). Inline HTML is limited to <a href> and <strong>.",
+  "heading": "Atlantis NDT — Non-Destructive Testing Services, Training, Consulting & Software",
+  "intro": "Atlantis NDT is a founder-led non-destructive testing company delivering inspection services, NDT training and certification, ASNT Level III consulting, and purpose-built inspection software. Founded and led by Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience. The company has offices in Houston, Texas and Hyderabad, India, and delivers work remotely, online, or on-site at the client's facility. Its Level III-led consulting covers ultrasonic, radiographic, magnetic particle, penetrant and visual testing for oil & gas, aerospace, marine, power generation and manufacturing.",
+  "sections": [
+    {
+      "h2": "Four Product Segments",
+      "paragraphs": [
+        "<strong><a href=\"/training\">NDT Training & Certification</a></strong> — Level I, II, and III courses per ASNT SNT-TC-1A across UT, RT, MT, PT, ET, VT and advanced methods (PAUT, TOFD), plus <a href=\"/asnt-certification\">ASNT certification</a> preparation. Theory is self-paced online with an ASNT NDT Level III answering questions; practicals run in the Practical NDT simulator and in person at your facility.",
+        "<strong><a href=\"/consulting\">ASNT Level III Consulting</a></strong> — outsourced Level III services, written practice development, procedure development and qualification, and code compliance across ASME, API, AWS, ISO, and EN standards.",
+        "<strong><a href=\"/erp\">Atlantis ERP</a></strong> — affordable, fully customizable NDT inspection management software built on integrated business apps: work orders, technician certification tracking, calibration management, quoting, invoicing, and <a href=\"/best-ndt-reporting-software-2026\">NDT reporting software</a> that turns field data into client-ready reports.",
+        "<strong><a href=\"/digital-twins\">Digital Twins</a></strong> — an enterprise digital twin platform for asset integrity: 3D asset visualization, defect mapping, corrosion overlay, predictive analytics, and turnaround planning, delivered via web or VR/AR."
+      ]
+    },
+    {
+      "h2": "Inspection Services, 3D Scanning & NDT Connect",
+      "paragraphs": [
+        "Beyond software and training, Atlantis NDT delivers field <a href=\"/inspection-services\">inspection services</a> — corrosion mapping, phased array UT, tank floor MFL, and API 510/570/653 driven inspection programs — plus <a href=\"/3d-scanning-services\">3D laser scanning services</a> using LiDAR, photogrammetry, and drone capture to build accurate as-built models of plants, tanks, and structures. Our <a href=\"/ndt-connect\">NDT Connect</a> marketplace links qualified inspectors with companies that need certified personnel, and our free <a href=\"/resources\">resources library</a> offers checklists, templates, and study guides authored by an ASNT NDT Level III."
+      ]
+    },
+    {
+      "h2": "Where we work",
+      "paragraphs": [
+        "Atlantis NDT has offices in Houston, Texas and Hyderabad, India, and delivers remotely, online, or on-site at the client's facility. The services are built for operators, fabricators, EPCs and inspection companies. Explore <a href=\"/case-studies\">case studies</a>, browse the <a href=\"/blog\">NDT blog</a>, or learn more <a href=\"/about\">about the company</a>."
+      ]
+    },
+    {
+      "h2": "Why Atlantis NDT",
+      "list": [
+        "ASNT Level III authorship — training content and procedures written by an ASNT NDT Level III",
+        "Employer-based certification under SNT-TC-1A",
+        "Affordable, accessible, fully customizable software — ERP, reporting, and digital twins under one roof",
+        "Remote, online or on-site delivery at your facility",
+        "VR/AR-enhanced learning and digital-twin-driven asset integrity innovation"
+      ],
+      "paragraphs": [
+        "Precision. Quality. Trust in NDT. <a href=\"/contact\">Contact Atlantis NDT</a> for a free consultation and a tailored proposal."
+      ]
+    },
+    {
+      "h2": "Atlantis NDT Products & Services",
+      "paragraphs": [
+        "Atlantis NDT supports inspection organisations end to end: <a href=\"/erp\">NDT inspection management software — Atlantis ERP</a> for work orders, certification tracking and audit-ready records; a <a href=\"/digital-twins\">digital twin platform for asset integrity</a> that overlays inspection history on a navigable 3D model; modern <a href=\"/best-ndt-reporting-software-2026\">NDT reporting software</a>; <a href=\"/training\">NDT training & certification</a> backed by ASNT Level III authorship; <a href=\"/consulting\">ASNT Level III consulting</a>; and <a href=\"/3d-scanning-services\">3D laser scanning services</a>. Affordable. Accessible. Fully customizable. Book a <a href=\"/contact\">free consultation</a> for a tailored quote."
+      ]
+    }
+  ]
+}

@@ -109,7 +109,7 @@ function nearestServedAncestor(path, exists, served) {
  * @param opts.minAgeDays  a family younger than this is exempt
  */
 export function consolidateSaturatedFamilies(routes, opts) {
-  const { served, exists, familyAgeDays, minAgeDays = 21, impressions = new Map() } = opts;
+  const { served, exists, familyAgeDays, minAgeDays = 21, impressions = new Map(), protect = new Set() } = opts;
   const impressionsOf = (p) => impressions.get(p) || 0;
   const has = (p) => exists.has(p);
   const isServed = (p) => served.has(p);
@@ -148,6 +148,10 @@ export function consolidateSaturatedFamilies(routes, opts) {
     for (const m of members) {
       // A page that works is never consolidated away.
       if (isServed(m.path)) continue;
+      // Owner pages (one owner per buyer intent, §56/§58) and hubs the owner map routes to keep
+      // their own canonical even before Google has served them (2026-10-18: /erp/apps/ndt-reports,
+      // the target of a 301, was about to canonicalise to /erp).
+      if (protect.has(m.path)) continue;
       // Geo hubs (scripts/build-geo-hubs.mjs) are the one owner page per
       // product x state/province/country. Canonicalising /ndt-consulting-utah
       // to a served Texas sibling would point a state query at the wrong

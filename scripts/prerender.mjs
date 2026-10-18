@@ -14019,6 +14019,8 @@ if (pseoNoindexApplied > 0) {
 
       const sat = consolidateSaturatedFamilies(routes, {
         served, exists, impressions, familyAgeDays, minAgeDays: 21,
+        // 2026-10-18: owner pages never consolidate (software owner map + the ERP app hub and LMS app).
+        protect: new Set([...Object.values((await import('../src/data/owner-links-2026-10.mjs')).SOFTWARE_INTENT_OWNERS).map((g) => g.owner), '/erp/apps', '/erp/apps/ndt-reports', '/erp/apps/elearning']),
       });
       if (sat.consolidated) {
         console.log(

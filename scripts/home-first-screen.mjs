@@ -20,6 +20,8 @@ import { dirname, join } from 'path';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 export const HOME = JSON.parse(readFileSync(join(HERE, '..', 'src', 'data', 'home-first-screen.json'), 'utf8'));
+// 2026-10-18: the homepage 'about' copy, shared with React (src/components/HomeAbout.tsx).
+export const HOME_ABOUT = JSON.parse(readFileSync(join(HERE, '..', 'src', 'data', 'home-about-2026-10.json'), 'utf8'));
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -42,6 +44,17 @@ export function homeFirstScreenHtml() {
     `<p><button type="submit">${esc(HOME.form.submit)}</button></p>` +
     `<p>${esc(HOME.form.note)}</p>` +
     `</form></section>`;
+}
+
+// Same markup order and copy as src/components/HomeAbout.tsx. Paragraphs carry their own
+// inline <a>/<strong>; headings, intro and list items are plain text.
+export function homeAboutHtml() {
+  const secs = HOME_ABOUT.sections.map((s) =>
+    `<h2>${esc(s.h2)}</h2>` +
+    (s.list ? `<ul>${s.list.map((li) => `<li>${esc(li)}</li>`).join('')}</ul>` : '') +
+    (s.paragraphs || []).map((p) => `<p>${p}</p>`).join('')
+  ).join('');
+  return `<section id="home-about" aria-labelledby="home-about-heading"><h2 id="home-about-heading">${esc(HOME_ABOUT.heading)}</h2><p>${esc(HOME_ABOUT.intro)}</p>${secs}</section>`;
 }
 
 // Targeted rewrites of the Round-7 homepage body. Each pattern is a claim that
@@ -73,6 +86,8 @@ export function applyHomeFirstScreen(homeHtml, bodyHtml) {
   for (const [re, to] of CLAIM_FIXES) body = body.replace(re, to);
   // Exactly one H1: demote the legacy one, then put the first screen at the top of <main>.
   body = body.replace(/<h1>([\s\S]*?)<\/h1>/g, '<h2>$1</h2>');
+  // 2026-10-18: the Round-7 <article> is replaced by the shared about copy (both layers).
+  body = body.replace(/<article>[\s\S]*?<\/article>/, () => homeAboutHtml());
   body = /<main>/.test(body) ? body.replace('<main>', `<main>${homeFirstScreenHtml()}`) : `<main>${homeFirstScreenHtml()}</main>${body}`;
 
   let html = homeHtml.replace(/(<div id="root">)[\s\S]*?(<\/div>\s*<\/body>)/, (_m, o, c) => `${o}\n${body}\n${c}`);

@@ -340,10 +340,10 @@ try {
   // docs/marketing/* are internal drafts, not shipped pages — scanned only
   // with --include-docs so the gate stays focused on what Google can see.
   const scope = process.argv.includes('--include-docs')
-    ? 'src/ scripts/prerender.mjs scripts/approved-pricing.mjs docs/'
-    : 'src/ scripts/prerender.mjs scripts/approved-pricing.mjs';
+    ? 'src/ scripts/prerender.mjs scripts/approved-pricing.mjs public/llms.txt public/llms-full.txt docs/'
+    : 'src/ scripts/prerender.mjs scripts/approved-pricing.mjs public/llms.txt public/llms-full.txt'; // 2026-10-18: AI-crawler files (llms-full.txt carried Atlantis prices until today)
   FILES = execSync(`git ls-files --cached --others --exclude-standard ${scope}`, { cwd: ROOT })
-    .toString().split('\n').filter((f) => /\.(tsx|ts|mjs|json)$/.test(f) || /\.md$/.test(f));
+    .toString().split('\n').filter((f) => /\.(tsx|ts|mjs|json)$/.test(f) || /\.md$/.test(f) || /^public\/llms(-full)?\.txt$/.test(f));
 } catch {
   FILES = [];
 }

@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
 import home from "@/data/home-first-screen.json";
 import SeeItFirst from "@/components/sprint/SeeItFirst";
+import HomeAbout from "@/components/HomeAbout"; // 2026-10-18: same copy as the crawler HTML (home-about-2026-10.json)
 
 export default function Index() {
    // Combined structured data with Organization and Service schemas
@@ -354,6 +355,8 @@ export default function Index() {
 
          {/* Client logos removed 2026-10-12 (owner): sectors only, no client names. */}
          <SectorsServed />
+
+         <HomeAbout />
 
          {/* Final CTA */}
          <section className="py-20 bg-gray-100 text-black">
