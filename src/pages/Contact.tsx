@@ -96,13 +96,13 @@ export default function Contact() {
          icon: Mail,
          title: "Email",
          details: "info@atlantisndt.com",
-         subtitle: "24/7 Support",
+         subtitle: "Enquiries, scopes and quotes",
       },
       {
          icon: MapPin,
          title: "Location",
          details: "Houston, USA",
-         subtitle: "Multiple Locations",
+         subtitle: "and Hyderabad, India",
       },
       {
          icon: Clock,
@@ -433,8 +433,8 @@ export default function Contact() {
                               Get in Touch
                            </CardTitle>
                            <p className="text-muted-foreground">
-                              Fill out the form and we'll respond within 24
-                              hours.
+                              Fill out the form and we reply within one
+                              business day.
                            </p>
                         </CardHeader>
                         <CardContent>
@@ -754,12 +754,12 @@ export default function Contact() {
                   transition={{ duration: 0.8 }}
                >
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Emergency Inspection Services
+                     Urgent Inspection Requests
                   </h2>
                   <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90 text-black">
-                     Critical equipment failure? We provide 24/7 emergency
-                     inspection services to get your operations back online
-                     safely.
+                     Critical equipment problem? Call with the equipment, the
+                     governing code and the site details; we reply within one
+                     business day and agree any mobilisation during scoping.
                   </p>
                   <Button
                      size="lg"
@@ -767,7 +767,7 @@ export default function Contact() {
                      className="bg-transparent border-primary text-primary hover:bg-primary hover:text-white"
                      onClick={() => (window.location.href = "tel:+12818408969")}
                   >
-                     Emergency Hotline: +1 (281) 840-8969
+                     Call: +1 (281) 840-8969
                   </Button>
                </motion.div>
             </div>

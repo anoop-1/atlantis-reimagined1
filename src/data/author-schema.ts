@@ -53,7 +53,6 @@ export const ATLANTIS_PUBLISHER = {
     "addressCountry": "USA",
   },
   "hasCredential": [
-    { "@type": "EducationalOccupationalCredential", "name": "ISO 9001:2015 Certified" },
     { "@type": "EducationalOccupationalCredential", "name": "ASNT SNT-TC-1A Compliant Written Practice" },
   ],
 } as const;

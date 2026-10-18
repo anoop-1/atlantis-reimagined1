@@ -15,7 +15,7 @@ export default function AerospaceNdtServices() {
     "name": "Aerospace NDT Services NDT Services",
     "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
     "serviceType": "Non-Destructive Testing",
-    "description": "Professional Aerospace NDT Services NDT inspection and testing services. Certified inspectors, advanced equipment, industry compliance."
+    "description": "Aerospace NDT: aircraft structure, engine component and composite inspection, with procedures and reports reviewed by an ASNT NDT Level III in UT, RT, MT, PT and VT."
   };
 
   return (
@@ -23,7 +23,7 @@ export default function AerospaceNdtServices() {
       <Navigation />
       <SEOHead
         title="Aerospace NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Aerospace NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Aircraft and engine."
+        description="Aerospace NDT for aircraft structure, engines and composites: UT, RT, MT, PT and VT, Level III-reviewed. Support for your own Nadcap and AS9100 audits."
         keywords="Aerospace NDT Services NDT services, Aerospace NDT Services inspection, NDT testing Aerospace NDT Services"
         canonical="https://atlantisndt.com/aerospace-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}
@@ -36,7 +36,7 @@ export default function AerospaceNdtServices() {
               Aerospace NDT Services <span className="gradient-text">NDT Services</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Aircraft and engine inspection Professional inspection services. Certified inspectors. Advanced NDT equipment. Industry-compliant testing and reporting.
+              Aircraft, engine and composite inspection by technicians certified under their employer&apos;s written practice, with procedures and reports reviewed by an ASNT NDT Level III in UT, RT, MT, PT and VT. Atlantis holds no Nadcap accreditation or AS9100 certification; we support the audit requirements of your own programme.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -54,9 +54,9 @@ export default function AerospaceNdtServices() {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div><div className="text-4xl font-bold text-primary mb-2">US + Canada</div><div className="text-muted-foreground">North America-Wide</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">ASNT/API</div><div className="text-muted-foreground">Certified</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Your Audit</div><div className="text-muted-foreground">Nadcap &amp; AS9100 Support</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">ASNT-Led</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">All Methods</div><div className="text-muted-foreground">Available</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">5 Methods</div><div className="text-muted-foreground">UT, RT, MT, PT, VT</div></div>
           </div>
         </div>
       </section>
