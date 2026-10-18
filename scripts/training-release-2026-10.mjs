@@ -58,6 +58,13 @@ export const HYDERABAD_ADDRESS = (ABOUT.addresses.find((a) => /Hyderabad/.test(a
 const BUILD_DATE = new Date();
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+// 2026-10-18 (owner): /training is global; one country list for both layers (React TrainingByCountry.tsx).
+export const TRAINING_COUNTRIES = readJson('src/data/training-countries-2026-10.json');
+export function trainingCountriesHtml(c = TRAINING_COUNTRIES) {
+  const groups = c.groups.map((g) => `<h3>${esc(g.name)}</h3><ul>${g.links.map(([href, label]) => `<li><a href="${href}">NDT training in ${esc(label)}</a></li>`).join('')}</ul>`).join('');
+  return `<h2>${esc(c.h2)}</h2><p>${esc(c.intro)}</p>${groups}`;
+}
 const strip = (s) => String(s).replace(/<[^>]+>/g, '').replace(/&amp;/g, '&');
 const fill = (s, vars) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 
@@ -141,7 +148,7 @@ export const RULES = [
   // ── /training ───────────────────────────────────────────────────────────
   ['training-intro', ['/training'],
     /Atlantis NDT founder (?:<a [^>]*>)?Anoop Rayavarapu(?:<\/a>)? — ASNT NDT Level III (?:multi-method|in UT, RT, MT, PT and VT) — runs the global NDT training program from[\s\S]*?framework requirements\./,
-    'Atlantis NDT founder <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a>, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience, leads the training. Courses are ASNT SNT-TC-1A Level I and Level II in UT, PAUT, TOFD, RT, MT, PT, VT and ET, plus ASNT Level III exam preparation, delivered self-paced online with Level III support, on-site at your facility, or blended, for technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia.', null],
+    'Atlantis NDT founder <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a>, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience, leads the training. Courses are ASNT SNT-TC-1A Level I and Level II in UT, PAUT, TOFD, RT, MT, PT, VT and ET, plus ASNT Level III exam preparation, delivered self-paced online with Level III support, on-site at your facility, or blended, for technicians and employers worldwide.', null],
   ['training-matrix', ['/training'],
     /<h2>The Method × Level Matrix[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
     `<h2>The Method × Level Matrix — UT, PAUT, TOFD, RT, MT, PT, VT, ET</h2><p>SNT-TC-1A recommended classroom hours, with on-the-job experience hours in brackets: ${methodHoursSentence()}. Level II hours are in addition to Level I. PAUT and TOFD Level II build on conventional UT Level II, with hours set by the employer's written practice. The five-method packages (VT, PT, MT, UT, RT) total ${packageHours(HOURS, 0)} classroom hours at Level I and ${packageHours(HOURS, 1)} at Level II. Your written practice sets the binding figures; every method and level is in the <a href="/resources/training-requirements-matrix">training requirements matrix</a>. Course pages: <a href="/asnt-level-2-ut-online-course">ASNT Level 2 UT online course</a>, <a href="/paut-level-2-training-course">PAUT Level 2 training course</a>, <a href="/tofd-training-certification-course">TOFD training and certification course</a>, <a href="/eddy-current-testing-level-2-course">eddy current (ET) Level 2 course</a> and <a href="/ndt-level-2-recertification-course">NDT Level 2 recertification course</a>.</p>`, null],
@@ -153,7 +160,7 @@ export const RULES = [
     '<h2>Course format and scheduling</h2><p>Courses run as single-method Level I or Level II courses, multi-method programmes such as the five-method packages, and ASNT Level III exam preparation. Theory is self-paced online with Level III support, or on-site for company teams; practical sessions run at your facility. There is no fixed public calendar: dates are agreed with each employer or candidate when you enquire.</p>', null],
   ['training-regions', ['/training'],
     /<h2>Regional Cohorts[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
-    '<h2>Regional training pages</h2><p>United States and Canada: the city, state and province pages under Nationwide on this page, <a href="/ndt-training-usa">NDT training USA</a> and <a href="/ndt-training-houston">NDT training in Houston</a>. Middle East: <a href="/training-me">Middle East training</a> (published online fees), <a href="/ndt-training-saudi-arabia">Saudi Arabia</a>, <a href="/ndt-training-dubai">Dubai</a>, <a href="/ndt-training-abu-dhabi">Abu Dhabi</a> and <a href="/ndt-training-jubail">Jubail</a>. India: <a href="/training-india">NDT training India</a> and <a href="/ndt-training-hyderabad">Hyderabad</a>, where Atlantis has an office. Europe: <a href="/ndt-training-london">London</a>. South East Asia: <a href="/ndt-training-singapore">Singapore</a>. Everywhere, training is delivered self-paced online or on-site at your facility; Atlantis does not run training centres.</p>', null],
+    trainingCountriesHtml(), null], // 2026-10-18 owner: global hub; country pages from src/data/training-countries-2026-10.json
   ['training-practicals', ['/training'],
     /<h2>The Practical-Week Architecture[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
     '<h2>How practical training works</h2><p>Practical training runs on real specimens. For on-site courses the instructor brings reference specimens and calibration blocks to your facility and trains on your own equipment; for online courses the practical sessions run at your employer\'s facility. The practical examination is administered by an ASNT Level III under your employer\'s written practice. Between sessions, candidates practise on the <a href="/practical-ndt">Practical NDT simulator</a>, which is practice only and not a substitute for the practical examination.</p>', null],
@@ -169,8 +176,8 @@ export const RULES = [
     `For UT, SNT-TC-1A recommends ${H('UT', 0)} classroom hours and ${O('UT', 0)} hours of experience for Level I, then a further ${H('UT', 1)} classroom hours and ${O('UT', 1)} hours of experience for Level II. The classroom hours take weeks; the experience hours are logged on the job, and your written practice sets the binding figures.`],
   ['training-faq-fees', ['/training'],
     /Affordable\. Accessible\. Fully customizable\. Pricing varies by region, cohort size, scope, and corporate-program overlays\. Tailored quote (?:within 24 hours|on request)\./, // 2026-10-18 sweep: source now says 'on request'
-    'US fees for Level I and Level II, per method and as five-method packages, and for the online Level III refresher are published in the fee table on this page. Middle East, Europe and South East Asia fees are on the regional pages; other regions and on-site or corporate programmes are quoted, and we reply within one business day.',
-    'US fees for Level I and Level II, per method and as five-method packages, and for the online Level III refresher are published in the fee table on this page. Middle East, Europe and South East Asia fees are on the regional pages; other regions and on-site or corporate programmes are quoted, and we reply within one business day.'],
+    'Course fees depend on your country: Register &amp; Buy Now on the Atlantis portal shows the fee for where you are. Published fee tables are on the country pages for the United States, the Middle East, Europe and South East Asia; on-site and corporate programmes are quoted, and we reply within one business day.',
+    'Course fees depend on your country: Register &amp; Buy Now on the Atlantis portal shows the fee for where you are. Published fee tables are on the country pages for the United States, the Middle East, Europe and South East Asia; on-site and corporate programmes are quoted, and we reply within one business day.'],
   ['training-faq-corporate', ['/training'],
     /Yes — on-site corporate cohorts for Aramco contractor pools, ADNOC framework holders, NTPC, Reliance, HAL, Boeing supplier-tier\./,
     'Yes — on-site courses at your facility for company crews, with practical sessions on your own equipment and ASNT Level III oversight. See <a href="/corporate-ndt-training">corporate NDT training</a>.',

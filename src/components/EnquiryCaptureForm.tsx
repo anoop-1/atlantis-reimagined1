@@ -63,7 +63,7 @@ const COPY = {
     trustSignals: [
       "ASNT NDT Level III lead consultant",
       "Procedures / Audits / Written Practice — all in-house",
-      "ISO 17020 + ISO 17025 + ISO 9001 framework",
+      "ISO 9001 and ISO 14001 certified",
       "On-site + remote + hybrid delivery models",
       "Free consultation + tailored quote on request",
     ],

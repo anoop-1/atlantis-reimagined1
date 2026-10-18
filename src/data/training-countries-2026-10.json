@@ -1,0 +1,12 @@
+{
+  "_note": "2026-10-18 (owner): the primary /training page is global; country-specific content lives on the country pages below, which are indexed and in the sitemap. One list for both layers: React TrainingByCountry.tsx and the crawler (scripts/training-release-2026-10.mjs, rule training-regions). Every href must be a built, indexable page (checked by assertTrainingCountriesClean in scripts/training-conversion-2026-10.mjs).",
+  "h2": "NDT training by country",
+  "intro": "Atlantis NDT trains technicians and employers worldwide: self-paced online with ASNT Level III support, or on-site at your facility. Each country page covers the local certification scheme, the industries that hire and what employers ask for. Register & Buy Now shows the course fee for your country.",
+  "groups": [
+    { "name": "Americas", "links": [["/ndt-training-usa", "the United States"], ["/ndt-training-canada", "Canada"], ["/ndt-training-mexico", "Mexico"], ["/ndt-training-brazil", "Brazil"]] },
+    { "name": "Middle East", "links": [["/training-me", "the Middle East"], ["/ndt-training-uae", "the United Arab Emirates"], ["/ndt-training-saudi-arabia", "Saudi Arabia"], ["/ndt-training-qatar", "Qatar"], ["/ndt-training-kuwait", "Kuwait"], ["/ndt-training-oman", "Oman"]] },
+    { "name": "Europe", "links": [["/ndt-training-london", "the United Kingdom"], ["/ndt-training-rotterdam", "the Netherlands"], ["/ndt-training-paris", "France"], ["/ndt-training-milan", "Italy"], ["/ndt-training-norway", "Norway"]] },
+    { "name": "Asia-Pacific", "links": [["/training-india", "India"], ["/ndt-training-singapore", "Singapore"], ["/ndt-training-malaysia", "Malaysia"], ["/ndt-training-philippines", "the Philippines"], ["/ndt-training-australia", "Australia"]] },
+    { "name": "Africa", "links": [["/ndt-training-nigeria", "Nigeria"]] }
+  ]
+}

@@ -70,7 +70,7 @@
     "path": "/training",
     "id": "ndt-training-near-me",
     "h2": "NDT training near me",
-    "answer": "Atlantis NDT does not run walk-in training centres. Courses are primarily self-paced online, with enrolment throughout the year and Level III support for clarifications. Course starts run in the first week of each month, and learners may also join at other times. Company teams can discuss on-site or blended delivery. Hands-on training, equipment and the practical examination must be arranged separately under your employer’s written practice. We support technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia, from offices in Houston (USA) and Hyderabad (India).",
+    "answer": "Atlantis NDT does not run walk-in training centres. Courses are primarily self-paced online, with enrolment throughout the year and Level III support for clarifications. Access opens the moment you enrol. Company teams can discuss on-site or blended delivery. Hands-on training, equipment and the practical examination must be arranged separately under your employer’s written practice. We support technicians and employers worldwide, from offices in Houston (USA) and Hyderabad (India).",
     "formatsH3": "How the training reaches you",
     "formats": [
       [
@@ -185,7 +185,7 @@
       }
     },
     "h2": "Courses and training hours for {label} technicians",
-    "intro": "Each course is ASNT SNT-TC-1A training at Level I or Level II, led by an ASNT NDT Level III and delivered online (primarily self-paced, with starts in the first week of each month), on-site at your facility in {label}, or blended. The hours below are the SNT-TC-1A recommended minimums for classroom training and on-the-job experience; your employer's written practice sets the binding figures.",
+    "intro": "Each course is ASNT SNT-TC-1A training at Level I or Level II, led by an ASNT NDT Level III and delivered online (primarily self-paced, with access from the moment you enrol), on-site at your facility in {label}, or blended. The hours below are the SNT-TC-1A recommended minimums for classroom training and on-the-job experience; your employer's written practice sets the binding figures.",
     "caption": "SNT-TC-1A recommended hours by method and level",
     "columns": [
       "Method",

@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
-import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import TrainingByCountry from "@/components/TrainingByCountry";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
 import TrainingPathway from "@/components/sprint/TrainingPathway";
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
@@ -103,7 +103,7 @@ export default function Training() {
       "@type": "EducationalOrganization",
       "name": "Atlantis NDT Training",
       "description": "ASNT SNT-TC-1A NDT training led by an ASNT NDT Level III, delivered as self-paced online theory with Level III support or on-site at the client's facility",
-      "areaServed": ["United States", "Canada", "Middle East", "India", "Europe", "South East Asia"],
+      "areaServed": "Worldwide",
    };
 
 
@@ -128,7 +128,7 @@ export default function Training() {
          "url": "https://atlantisndt.com"
       },
       "serviceType": "NDT Training and Certification",
-      "areaServed": ["US", "AE", "SA", "IN", "GB", "SG"],
+      "areaServed": "Worldwide",
       "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A. Hands-on training across UT, MT, PT, VT, RT, and ET methods.",
       "offers": {
          "@type": "Offer",
@@ -150,7 +150,7 @@ export default function Training() {
          <SEOHead
             title={MONEY_META["/training"].title}
             description={MONEY_META["/training"].description}
-            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East, ASNT Level 2 UT online course, PAUT Level 2 training course, TOFD training and certification course, NDT Level 2 recertification course, onsite NDT training for technicians`}
+            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training India, NDT training Middle East, ASNT Level 2 UT online course, PAUT Level 2 training course, TOFD training and certification course, NDT Level 2 recertification course, onsite NDT training for technicians`}
             structuredData={structuredData}
             canonical="https://atlantisndt.com/training"
          />
@@ -200,7 +200,7 @@ export default function Training() {
             </div>
          </motion.section>
 
-         <TrainingPathChooser label="the USA and Canada" />
+         <TrainingPathChooser />
          {/* 2026-10-09 sprint (Day 5): training vs exam vs certification, prerequisites, quote drivers, enquiry-to-enrolment steps and a short form. */}
          <TrainingPathway />
          {/* 2026-10-12 training release: query-verbatim "NDT training near me" + direct answer (same copy as the crawler). */}
@@ -409,165 +409,8 @@ export default function Training() {
                </div>
             </div>
          </section>
-         {/* Regional Training Programs Section */}
-         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-slate-900/10">
-            <div className="max-w-6xl mx-auto">
-               <motion.div
-                  className="text-center mb-12"
-                  initial={{ y: 20, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                     Regional Training Programs
-                  </h2>
-                  <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                     Specialized NDT training tailored to your regional market and industry needs
-                  </p>
-               </motion.div>
-               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <motion.div
-                     initial={{ opacity: 0, y: 20 }}
-                     whileInView={{ opacity: 1, y: 0 }}
-                     viewport={{ once: true }}
-                     transition={{ duration: 0.6 }}
-                  >
-                     <Card className="h-full hover:shadow-lg transition-shadow bg-card border-primary/20 hover:border-primary">
-                        <CardHeader>
-                           <CardTitle className="text-primary">USA Training</CardTitle>
-                           <p className="text-sm text-muted-foreground mt-2">
-                              Aerospace and industrial NDT programs nationwide
-                           </p>
-                        </CardHeader>
-                        <CardContent>
-                           <ul className="space-y-2 mb-6 text-sm">
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>ASNT SNT-TC-1A Compliant</span>
-                              </li>
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>Aerospace NDT Method Training (SNT-TC-1A)</span>
-                              </li>
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>Phased Array & TOFD Training</span>
-                              </li>
-                           </ul>
-                           <Link to="/training-usa" className="cursor-pointer">
-                              <Button variant="outline" className="w-full text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
-                                 USA training details
-                              </Button>
-                           </Link>
-                        </CardContent>
-                     </Card>
-                  </motion.div>
-                  <motion.div
-                     initial={{ opacity: 0, y: 20 }}
-                     whileInView={{ opacity: 1, y: 0 }}
-                     viewport={{ once: true }}
-                     transition={{ duration: 0.6, delay: 0.1 }}
-                  >
-                     <Card className="h-full hover:shadow-lg transition-shadow bg-card border-primary/20 hover:border-primary">
-                        <CardHeader>
-                           <CardTitle className="text-primary">Middle East Training</CardTitle>
-                           <p className="text-sm text-muted-foreground mt-2">
-                              GCC oil & gas offshore training programs
-                           </p>
-                        </CardHeader>
-                        <CardContent>
-                           <ul className="space-y-2 mb-6 text-sm">
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>ARAMCO-Compliant Programs</span>
-                              </li>
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>Offshore Platform Focus</span>
-                              </li>
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>NDT Procedure Development Training</span>
-                              </li>
-                           </ul>
-                           <Link to="/training-me" className="cursor-pointer">
-                              <Button variant="outline" className="w-full text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
-                                 Middle East training details
-                              </Button>
-                           </Link>
-                        </CardContent>
-                     </Card>
-                  </motion.div>
-                  <motion.div
-                     initial={{ opacity: 0, y: 20 }}
-                     whileInView={{ opacity: 1, y: 0 }}
-                     viewport={{ once: true }}
-                     transition={{ duration: 0.6, delay: 0.2 }}
-                  >
-                     <Card className="h-full hover:shadow-lg transition-shadow bg-card border-primary/20 hover:border-primary">
-                        <CardHeader>
-                           <CardTitle className="text-primary">India Training</CardTitle>
-                           <p className="text-sm text-muted-foreground mt-2">
-                              Manufacturing and industrial NDT programs
-                           </p>
-                        </CardHeader>
-                        <CardContent>
-                           <ul className="space-y-2 mb-6 text-sm">
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>ASNT SNT-TC-1A Based</span>
-                              </li>
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>Manufacturing Focus</span>
-                              </li>
-                              <li className="flex items-center gap-2">
-                                 <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>Multi-State Coverage</span>
-                              </li>
-                           </ul>
-                           <Link to="/training-india" className="cursor-pointer">
-                              <Button variant="outline" className="w-full text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
-                                 India training details
-                              </Button>
-                           </Link>
-                        </CardContent>
-                     </Card>
-                  </motion.div>
-               </div>
-
-               {/* Quick Links to All Training Locations */}
-               <motion.div
-                  className="mt-12 text-center"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-               >
-                  <p className="text-muted-foreground mb-4">Explore training in more locations:</p>
-                  <div className="flex flex-wrap justify-center gap-3">
-                     <Link to="/ndt-training-usa" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
-                        🇺🇸 USA Training
-                     </Link>
-                     <Link to="/ndt-training-houston" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
-                        NDT training in Houston
-                     </Link>
-                     <Link to="/ndt-training-dubai" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
-                        🇦🇪 Dubai & UAE
-                     </Link>
-                     <Link to="/ndt-training-saudi-arabia" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
-                        🇸🇦 Saudi Arabia
-                     </Link>
-                     <Link to="/ndt-training-india" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
-                        🇮🇳 India
-                     </Link>
-                     <Link to="/ndt-training-online" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
-                        💻 Online Training
-                     </Link>
-                  </div>
-               </motion.div>
-            </div>
-         </section>
+         {/* 2026-10-18 (owner): global hub — country pages carry the country-specific content */}
+         <TrainingByCountry />
          {/* Practical NDT simulator (was an unevidenced VR/AR section; 2026-10-12) */}
          <section className="py-20 overflow-x-hidden">
             <div className="container mx-auto px-6">
@@ -711,7 +554,6 @@ export default function Training() {
          <div id="training-enquiry" className="scroll-mt-24">
             <EnquiryCaptureForm variant="training" />
          </div>
-         <NaTrainingNationwide />
          <ApprovedTrainingFees />
          <ContactDetails />
       </div>

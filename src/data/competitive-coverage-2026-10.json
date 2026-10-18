@@ -4,7 +4,7 @@
     "/training": {
       "h2": "NDT training and certification courses: how to choose the right route",
       "intro": [
-        "Most people searching for NDT training, nondestructive testing training, an NDT school or an NDT certification program are really choosing between three things: a full-time school programme, short method courses, or training arranged through an employer. Under SNT-TC-1A in the USA, none of them certifies you on its own. The employer certifies, once training, documented experience and the general, specific and practical examinations are complete. Atlantis NDT training is built for that route to employer certification, led by an ASNT Level III. We do not run a walk-in NDT training center and there are no fixed course dates: courses run year-round and start when you or your crew are ready. Theory is online, and practicals are done in the Practical NDT simulator and in person at your employer's facility.",
+        "Most people searching for NDT training, nondestructive testing training, an NDT school or an NDT certification program are really choosing between three things: a full-time school programme, short method courses, or training arranged through an employer. Under SNT-TC-1A, none of them certifies you on its own. The employer certifies, once training, documented experience and the general, specific and practical examinations are complete. Atlantis NDT training is built for that route to employer certification, led by an ASNT Level III. We do not run a walk-in NDT training center and there are no fixed course dates: courses run year-round and start when you or your crew are ready. Theory is online, and practicals are done in the Practical NDT simulator and in person at your employer's facility.",
         "Choose the route by what you need to walk out with. A career changer usually needs Level I and Level II theory plus supervised practical time. A working technician adding a method needs that method's course and the experience log to go with it. An employer needs a crew trained to its own written practice, often on-site, without sending people away for weeks."
       ],
       "points": [
@@ -35,10 +35,6 @@
         [
           "Other schemes",
           "PCN and CSWIP are UK central-certification schemes, ISO 9712 is the international standard behind them, and NAS 410 governs aerospace. Atlantis training is delivered to SNT-TC-1A; candidates who need another scheme should check its own recognised-training rules first."
-        ],
-        [
-          "NDT certification, Canada",
-          "Canadian certification is issued under CAN/CGSB-48.9712 through the Natural Resources Canada certification body, not by any training provider. See the question below before enrolling for Canadian work."
         ]
       ],
       "faq": [
@@ -48,11 +44,7 @@
         },
         {
           "q": "Can you get NDT certified online?",
-          "a": "You can complete the theory online, and many employers accept documented online classroom hours. You cannot complete the practical examination or the experience hours online, and certification itself is issued by your employer under its written practice, not by a website or a training provider."
-        },
-        {
-          "q": "Is NDT training accepted for NDT certification in Canada?",
-          "a": "Canada uses a national ISO 9712-based certification scheme (CAN/CGSB-48.9712), and its rules require training from a recognised training organisation. Atlantis is not a recognised training organisation in Canada, so Canadian candidates who need national certification should confirm recognition with the certifying body before enrolling anywhere."
+          "a": "You can complete the theory online, and the practical examination can be administered by an ASNT Level III over a video call where the written practice allows it. Experience hours cannot be earned online: they are logged on the job. Certification itself is issued under the employer's written practice, not by a website or a training provider."
         },
         {
           "q": "What is the difference between an NDT school and employer-based training?",
@@ -69,7 +61,7 @@
       "points": [
         [
           "Self-paced theory with Level III support",
-          "Atlantis online theory is self-paced: you work through the material at your own pace, an ASNT NDT Level III answers your questions, and practice questions sit between modules. Course starts run in the first week of each month."
+          "Atlantis online theory is self-paced: you work through the material at your own pace, an ASNT NDT Level III answers your questions, and practice questions sit between modules. Access opens the moment you enrol."
         ],
         [
           "Documented hours",

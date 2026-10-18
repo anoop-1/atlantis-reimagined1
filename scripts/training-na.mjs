@@ -218,10 +218,10 @@ export function pathsBlockHtml(label) {
   const indiv = `${MS_FORM_URL}&amp;path=individual`;
   return `
     <section class="training-paths" aria-label="Choose your training path">
-      <h2>Two training routes for ${esc(label)}</h2>
+      <h2>Two training routes${label ? ` for ${esc(label)}` : ''}</h2>
       <div class="training-path">
         <h3>I&#39;m an individual technician</h3>
-        <p>You want Level I or Level II in one method, or you are preparing for ASNT Level III. Theory is online and primarily self-paced, with starts in the first week of each month; your employer (or the employer you are joining) certifies you under its written practice, and the practical examination is administered by an ASNT Level III on real specimens. <a href="${indiv}" rel="noopener">Send a course enquiry</a> or read <a href="/ndt-training-online">NDT training online</a> first.</p>
+        <p>You want Level I or Level II in one method, or you are preparing for ASNT Level III. Theory is online and primarily self-paced, with access from the moment you enrol; your employer (or the employer you are joining) certifies you under its written practice, and the practical examination is administered by an ASNT Level III on real specimens. <a href="${indiv}" rel="noopener">Send a course enquiry</a> or read <a href="/ndt-training-online">NDT training online</a> first.</p>
       </div>
       <div class="training-path">
         <h3>I&#39;m training a company team</h3>
@@ -234,7 +234,7 @@ export function routingBlockHtml(label) {
   return `
     <section class="training-national-links" aria-label="National NDT training programmes">
       <h2>National programmes behind this ${esc(label)} page</h2>
-      <p>This page covers NDT training for employers and technicians in ${esc(label)}. The national programmes live on their own pages: <a href="/training">NDT training</a> (every method and level across the USA and Canada), <a href="/ndt-training-online">NDT training online</a>, <a href="/snt-tc-1a-training-certification">SNT-TC-1A training and certification</a>, <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a>, <a href="/asnt-level-iii-training">ASNT Level III training</a> and <a href="${CONSULTING_OWNER}">ASNT Level III consulting</a>. Hours by method and level are in the <a href="/resources/training-requirements-matrix">training requirements matrix</a>; practise on the <a href="/practical-ndt">Practical NDT simulator</a>.</p>
+      <p>This page covers NDT training for employers and technicians in ${esc(label)}. The national programmes live on their own pages: <a href="/training">NDT training</a> (every method and level, for candidates worldwide), <a href="/ndt-training-online">NDT training online</a>, <a href="/snt-tc-1a-training-certification">SNT-TC-1A training and certification</a>, <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a>, <a href="/asnt-level-iii-training">ASNT Level III training</a> and <a href="${CONSULTING_OWNER}">ASNT Level III consulting</a>. Hours by method and level are in the <a href="/resources/training-requirements-matrix">training requirements matrix</a>; practise on the <a href="/practical-ndt">Practical NDT simulator</a>.</p>
     </section>`;
 }
 
@@ -453,8 +453,9 @@ export function prepareNaTrainingRoutes(routes) {
     }
     if (OWNER_PAGES.includes(r.path) && typeof r.bodyContent === 'string') {
       let body = ensureMain(r.bodyContent);
-      if (r.path === '/training' && !body.includes('class="training-paths"')) body = insertAfterIntro(body, pathsBlockHtml('the USA and Canada'));
-      if (!body.includes('class="training-nationwide"')) body = insertBeforeMainEnd(body, nationwideBlockHtml());
+      if (r.path === '/training' && !body.includes('class="training-paths"')) body = insertAfterIntro(body, pathsBlockHtml(null)); // 2026-10-18 owner: /training is global
+      // 2026-10-18 owner: the global hub lists countries instead (training-countries-2026-10.json); the city/state directory stays on the other owner pages.
+      if (r.path !== '/training' && !body.includes('class="training-nationwide"')) body = insertBeforeMainEnd(body, nationwideBlockHtml());
       if (r.path !== EMPLOYER_PATH && !body.includes(`href="${EMPLOYER_PATH}"`)) {
         body = insertBeforeMainEnd(body, `\n    <p>Certifying a whole crew? See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a>.</p>`);
       }

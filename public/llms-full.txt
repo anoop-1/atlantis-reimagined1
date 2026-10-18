@@ -8,7 +8,7 @@ This file follows the llmstxt.org format. It states only facts Atlantis NDT stan
 
 ## About Atlantis NDT
 
-Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience. NAS 410 Level 3 services are provided through an associate who holds NAS 410 Level 3. The company has offices in Houston, Texas and Hyderabad, India, and works for operators, fabricators, EPCs and inspection companies in oil and gas, petrochemical, aerospace, marine, power generation and manufacturing.
+Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience. NAS 410 Level 3 services are provided through an associate who holds NAS 410 Level 3. The company is certified to ISO 9001 (quality management) and ISO 14001 (environmental management); it holds no ISO/IEC 17020 or 17025 accreditation. It has offices in Houston, Texas and Hyderabad, India, and works for operators, fabricators, EPCs and inspection companies in oil and gas, petrochemical, aerospace, marine, power generation and manufacturing.
 
 - [About](https://atlantisndt.com/about)
 - [Contact](https://atlantisndt.com/contact)
@@ -18,7 +18,7 @@ Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop 
 ## NDT Training
 
 - ASNT SNT-TC-1A Level I and Level II courses in UT, RT, MT, PT, VT and ET, plus PAUT and TOFD; ASNT NDT Level III exam preparation.
-- Courses are 100% online and self-paced, built to ASNT SNT-TC-1A and ASNT CP-105: recorded video lectures, practical videos, PDF study notes, quizzes, mock tests and a question bank, the 3D Practical NDT simulator (included at no extra cost) and guidance from an ASNT NDT Level III. Portal access is valid for one year and enrolment is open all year.
+- Courses are 100% online and self-paced, built to ASNT SNT-TC-1A and ASNT CP-105: recorded video lectures, practical videos, PDF study notes, quizzes, mock tests and a question bank, the 3D Practical NDT simulator (included at no extra cost) and guidance from an ASNT NDT Level III. Portal access opens the moment the candidate enrols, at any time of year, and is valid for one year.
 - The General, Specific and Practical examinations are administered by Atlantis's Level III; the practical can be administered online over a video call. In-person hands-on training at the employer's facility is available on request. Atlantis NDT has no training centre or classroom.
 - A course gives documented training hours; it does not certify anyone. Under SNT-TC-1A the employer certifies, under its written practice. ASNT also runs central ASNT NDT Level II (MT, PT, RT, UT, VT) and Level III programmes.
 - Canada: courses train to ASNT SNT-TC-1A. Work that names CAN/CGSB-48.9712 needs certification from NRCan or CWB Group, with training from one of their Recognized Training Organizations, which Atlantis NDT is not.

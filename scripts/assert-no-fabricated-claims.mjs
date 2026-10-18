@@ -258,7 +258,9 @@ export const RULES = [
   ['TIME-PROMISE', /\bmobili[sz]\w*\s+(?:on site\s+|statewide\s+|to (?:the )?(?:site|plant)\s+)?(?:with)?in\s+24\s*(?:–|-|to)\s*72\s*hours\b|\b24\s*(?:–|-|to)\s*72[- ]hour mobili[sz]ation\b|on-site mobilisation 24-72/i, null, null, SWEEP_SCOPE],
   ['LIVE-CLASS', /(?<!\bno )(?<!\bnot )\blive[- ]online (?:or|and) on-?site\b|\b[Oo]nline, live-virtual\b|\blive-virtual (?:classroom|classes|cohorts?|delivery)\b|(?<!\bno )(?<!\bare no )\blive online (?:theory|classroom|classes|cohorts?|sessions)\b|\blive, instructor-led\b|\blive instructor support\b/i, null, null, SWEEP_SCOPE],
   ['FOUNDER-METHODS', /\bASNT NDT Level III,? (?:certified,? )?multi-method\b|\(ASNT NDT Level III certified, multi-method\)|\(founder, multi-method Level III\)/, null, null, SWEEP_SCOPE],
-  ['ISO-CLAIM', /Atlantis NDT <strong>ISO 9001:2015<\/strong> quality system|"ISO 9001:2015 Certified"/, null, null, SWEEP_SCOPE],
+  // 2026-10-18 (owner): Atlantis is certified to ISO 9001 and ISO 14001; it holds no ISO/IEC 17020 or 17025
+  // accreditation and is not a 17024 certification body. Block bundles that present 17020/17025/17024 as Atlantis's own.
+  ['ISO-CLAIM', /ISO 9001 \+ (?:ISO )?17020 \+ (?:ISO )?17025 \+ (?:ISO )?17024 framework|ISO 17020 \+ ISO 17025 \+ ISO 9001 framework|>ISO 9001 \+ 17020 \+ 17025 (?:quality system|alignment)<|Atlantis NDT ISO 9001 \+ ISO 17020 \+ ISO 17025|\bAtlantis(?: NDT)? is (?:ISO\/IEC |ISO )?170(?:20|25) accredited/, null, null, SWEEP_SCOPE],
 ];
 
 // Self-test for the 2026-10-18 sweep rules: known-bad strings must match, third-party facts and
@@ -271,12 +273,12 @@ export const RULES = [
     'Free 30-min consultation + tailored quote within 24 hours.', 'We reply within 24 hours.', 'Ultrasonic testing Chicago 2026 | Free Quote 24h',
     'Remote procedure authoring + Level III sign-off (24-hour turnaround)', 'Crews mobilise within 24-72 hours from Houston', '3D Scanning UK 2026 | Same-Day Quote',
     'Training is delivered online, live-virtual, or onsite at your facility.', 'Live online theory, practicals at your facility.', 'delivered live online or onsite',
-    'Anoop Rayavarapu (ASNT NDT Level III, multi-method)', 'records kept under the Atlantis NDT <strong>ISO 9001:2015</strong> quality system',
+    'Anoop Rayavarapu (ASNT NDT Level III, multi-method)', 'audit-ready records, ISO 9001 + 17020 + 17025 + 17024 framework, quote on request', '<a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 quality system</a>',
   ];
   const good = [
     'We reply within one business day.', 'Prometric emails a score report, typically within 24 hours.', 'ITPs commonly specify 24 to 72 hours\' notice for witness points.',
     'Theory is self-paced online with ASNT Level III support.', 'There are no live online classes: you work through the material online.',
-    'ASNT NDT Level III in UT, RT, MT, PT and VT', 'a major client calls asking for a same-day quote on a six-week turnaround',
+    'ASNT NDT Level III in UT, RT, MT, PT and VT', 'Atlantis NDT is certified to ISO 9001 and ISO 14001', 'a major client calls asking for a same-day quote on a six-week turnaround',
   ];
   const broken = [...bad.filter((t) => !hit(t)).map((t) => `missed: ${t}`), ...good.filter(hit).map((t) => `false positive: ${t}`)];
   if (broken.length) {

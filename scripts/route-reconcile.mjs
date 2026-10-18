@@ -501,7 +501,7 @@ ${p?.examCenters?.length ? `    <h2>Third-party examination centres named for th
 ${p?.certPathwayNote ? `    <h2>Recommended certification pathway</h2>\n    <p>${esc(p.certPathwayNote)}</p>` : ''}
     <h2>Delivery formats</h2>
     <ul>
-      <li>Online theory through <a href="/lms">Atlantis LMS</a>, primarily self-paced, with enrolment open all year and starts in the first week of each month.</li>
+      <li>Online theory through <a href="/lms">Atlantis LMS</a>, primarily self-paced, with enrolment open all year and access from the moment you enrol.</li>
       <li>On-site corporate training at your facility using your equipment and specimens.</li>
       <li>Practical training in the <a href="/practical-ndt">Practical NDT simulator</a> and in person at your facility, with the practical examination on real specimens under your written practice.</li>
     </ul>

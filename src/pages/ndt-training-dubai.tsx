@@ -147,7 +147,7 @@ const industries = [
 ];
 
 const certificationPath = [
-    { step: 1, title: "Apply & Enrol", description: "Submit application with ID and experience documentation. Enrolment is open all year, with course starts in the first week of each month." },
+    { step: 1, title: "Apply & Enrol", description: "Submit application with ID and experience documentation. Enrolment is open all year, with access from the moment you enrol." },
     { step: 2, title: "Attend Training Course", description: "Complete the theory online (per ASNT SNT-TC-1A minimum hours), then supervised practical sessions at your employer's facility under an ASNT Level III." },
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written exam covering NDT theory, equipment principles, codes and standards. Minimum 70% pass mark required." },
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on proficiency on reference test specimens. Flaws must be correctly detected and reported per the relevant standard." },

@@ -6694,8 +6694,8 @@ export const CITATION_LAYERS_GENERATED = {
               "a": "Ultrasonic testing in oil, gas and power; visual first in structural fabrication. UT carries the largest hour requirement, the widest employer demand, and the clearest progression into phased array and API in-service work. Penetrant and magnetic particle certify fastest and add least on their own. Certify against what local employers examine, not across every method thinly."
           },
           {
-              "q": "Does ISO 9712 certification work in the United States?",
-              "a": "US employers accept it as evidence of training and examination, then certify the technician under their own written practice to SNT-TC-1A or CP-189, because US construction codes reference the employer-based scheme. ISO 9712 is the required route into European pressure equipment work. Technicians moving between the two markets hold both and bridge by examination rather than starting over."
+              "q": "Does ISO 9712 certification count where employers use SNT-TC-1A?",
+              "a": "Employers working to SNT-TC-1A accept it as evidence of training and examination, then certify the technician under their own written practice to SNT-TC-1A or CP-189, because codes such as ASME and AWS reference the employer-based scheme. ISO 9712 is the required route into European pressure equipment work. Technicians moving between the two markets hold both and bridge by examination rather than starting over."
           },
           {
               "q": "What does Level III authorise that Level II does not?",

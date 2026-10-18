@@ -70,7 +70,7 @@ const whyOnline = [
     {
         icon: Clock,
         title: "Start Any Month",
-        description: "Enrollment is open all year, with course starts in the first week of each month and no fixed course dates. The theory is self-paced, so you study around your shifts and catch up whenever you need to."
+        description: "Enrollment is open all year: access opens the moment you enroll, and there are no fixed course dates. The theory is self-paced, so you study around your shifts and catch up whenever you need to."
     },
     {
         icon: Award,
@@ -99,7 +99,7 @@ const whatIsIncluded = [
 ];
 
 const certificationPath = [
-    { step: 1, title: "Enrol in Online Theory Course", description: "Enroll in your chosen method and level at any time of year. Course starts run in the first week of each month, and you can begin the self-paced material once your enrollment is confirmed." },
+    { step: 1, title: "Enrol in Online Theory Course", description: "Enroll in your chosen method and level at any time of year. Access opens the moment you enrol, and you can begin the self-paced material once your enrollment is confirmed." },
     { step: 2, title: "Complete Online Theory Training", description: "Work through the self-paced material online and send your questions to the Level III. Complete all ASNT SNT-TC-1A minimum theory hours. Instructors track your attendance and progress throughout the course." },
     { step: 3, title: "Practice Written Examination", description: "Sit multiple ASNT-format practice examinations online with instant feedback. Review incorrect answers with instructor explanations. Prepare for the final written examination, which is administered under your employer's written practice." },
     { step: 4, title: "Complete Practical Training (In-Person Required)", description: "The practical component CANNOT be completed online. Practical training runs at your employer's facility, on its own equipment and parts, under an ASNT Level III. Practice in the Practical NDT simulator beforehand helps, but it does not replace this. Atlantis does not run training centres." },
@@ -526,7 +526,7 @@ export default function NDTTrainingOnline() {
             <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
                 <div className="container mx-auto max-w-4xl px-6 text-center">
                     <h2 className="text-3xl font-bold mb-4">Start Learning from Anywhere</h2>
-                    <p className="text-muted-foreground mb-8 text-lg">Enrollment is open all year, with course starts in the first week of each month and no fixed course dates.</p>
+                    <p className="text-muted-foreground mb-8 text-lg">Enrollment is open all year: access opens the moment you enroll, and there are no fixed course dates.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact">
                             <Button size="lg">Enrol Now</Button>

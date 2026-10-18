@@ -112,6 +112,9 @@ export function assertTrainingConversionClean(knownPaths) {
   if (NAMES.test(text)) problems.push(`customer/prospect name in training-conversion-2026-10.json: ${text.match(NAMES)[0]}`);
   if (NAS410_PRINCIPAL.test(text)) problems.push('NAS 410 Level 3 attributed to the founder; it is through an associate (CLAUDE.md §51.2)');
   if (faqItems(CONVERSION).length < 20) problems.push('Training FAQ lost questions');
+  // 2026-10-18: the global /training hub links only built country pages (src/data/training-countries-2026-10.json).
+  const countries = JSON.parse(readFileSync(join(ROOT, 'src/data/training-countries-2026-10.json'), 'utf-8'));
+  for (const g of countries.groups) for (const [href] of g.links) if (!known.has(href)) problems.push(`country page ${href} is not built`);
   const probe = eligibilityCheck(HOURS, { method: 'UT', level: 'II', training: 80, experience: 840, vision: true });
   if (!probe || !probe.ready) problems.push('eligibility checker: UT Level II with 80 h / 840 h / vision should be ready');
   const short = eligibilityCheck(HOURS, { method: 'MT', level: 'I', training: 0, experience: 0, vision: false });

@@ -2731,6 +2731,11 @@
       "source": "/consulting/written-practice-development",
       "destination": "/ndt-written-practice-development",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/asnt-vs-pcn-certification-comparison",
+      "destination": "/compare/asnt-vs-pcn",
+      "statusCode": 301
     }
   ],
   "rewrites": []

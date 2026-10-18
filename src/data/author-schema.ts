@@ -54,6 +54,8 @@ export const ATLANTIS_PUBLISHER = {
   },
   "hasCredential": [
     { "@type": "EducationalOccupationalCredential", "name": "ASNT SNT-TC-1A Compliant Written Practice" },
+    { "@type": "EducationalOccupationalCredential", "name": "ISO 9001 certified quality management system" },
+    { "@type": "EducationalOccupationalCredential", "name": "ISO 14001 certified environmental management system" },
   ],
 } as const;
 

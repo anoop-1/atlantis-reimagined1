@@ -124,7 +124,7 @@ const whyUSA = [
     {
         icon: Building2,
         title: "Online + On-Site Delivery Nationwide",
-        description: "Theory and exam preparation delivered online and primarily self-paced, with starts in the first week of each month; hands-on practical training runs in the Practical NDT simulator and on-site at your facility, anywhere in the USA. Atlantis has no training centres."
+        description: "Theory and exam preparation delivered online and primarily self-paced, with access from the moment you enrol; hands-on practical training runs in the Practical NDT simulator and on-site at your facility, anywhere in the USA. Atlantis has no training centres."
     }
 ];
 
@@ -168,7 +168,7 @@ const faqs = [
     },
     {
         question: "Is online training available?",
-        answer: "Yes. Theory is online and primarily self-paced, with enrolment open all year and starts in the first week of each month, and it covers the full theory component. Practice runs in the Practical NDT simulator, and practical examinations take place in person at the employer's facility under its written practice. Online training works well for candidates who want to pre-study before attending a practical block."
+        answer: "Yes. Theory is online and primarily self-paced, with enrolment open all year and access from the moment you enrol, and it covers the full theory component. Practice runs in the Practical NDT simulator, and practical examinations take place in person at the employer's facility under its written practice. Online training works well for candidates who want to pre-study before attending a practical block."
     },
     {
         question: "What's included in the training?",
@@ -188,7 +188,7 @@ const faqs = [
     },
     {
         question: "What is the training schedule?",
-        answer: "There are no fixed course dates. Enrolment is open all year, theory is primarily self-paced, and course starts run in the first week of each month. On-site courses for a company team are arranged with the employer. Contact us about your method and level."
+        answer: "There are no fixed course dates. Enrolment is open all year, theory is primarily self-paced, and access opens the moment you enrol. On-site courses for a company team are arranged with the employer. Contact us about your method and level."
     },
     {
         question: "Can I get Level III certification without having Level II?",

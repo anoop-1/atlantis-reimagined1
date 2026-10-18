@@ -172,7 +172,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
                   <CardTitle className="flex items-center gap-2 text-lg"><Laptop2 className="w-5 h-5" /> Online</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm space-y-2">
-                  <p>Online theory, primarily self-paced, with enrolment open all year and starts in the first week of each month. Practice runs in the Practical NDT simulator.</p>
+                  <p>Online theory, primarily self-paced, with enrolment open all year and access from the moment you enrol. Practice runs in the Practical NDT simulator.</p>
                   <p className="text-muted-foreground"><strong>Good for:</strong> distributed teams, pre-work before a turnaround, refresher cycles.</p>
                   <p className="text-muted-foreground"><strong>Practicals:</strong> at your facility, with the practical exam on real specimens.</p>
                 </CardContent>

@@ -170,7 +170,10 @@ export function applyIndustryMatrixInbound(routes, append) {
   put('/training', 'Training by industry',
     `Certification demand looks different in every sector — the methods, the regime, the employers. Sector-specific paths: `
     + Object.keys(INDUSTRY_TRAINING).filter((k) => !INDUSTRY_TRAINING[k].cellOnly).map((s) => `<a href="/${s}-ndt-training">${esc(INDUSTRY_TRAINING[s].name)}</a>`).join(' · ')
-    + ` · <a href="/aerospace-ndt-training">Aerospace</a>. By region: `
+    + ` · <a href="/aerospace-ndt-training">Aerospace</a>.`);
+  // 2026-10-18 owner: /training is global, so the US/Canada regional pages are listed on the US country page instead.
+  put('/ndt-training-usa', 'NDT training by US region',
+    `The regional pages group US and Canadian markets by industry and code regime: `
     + Object.entries(TRAINING_REGIONS).map(([s, r]) => `<a href="/ndt-training-${s}">${esc(r.name)}</a>`).join(' · ') + '.');
 
   // Near-me hub → regions

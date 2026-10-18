@@ -146,7 +146,7 @@ const COURSES = [
 const DELIVERY_FORMATS = [
   { courseLabel: "UT Level II — on-site course at your facility", detail: "Instructor, calibration blocks and specimens brought to your site", format: "Onsite" },
   { courseLabel: "RT Level II — blended", detail: "Online theory, film-interpretation practical at your facility", format: "Hybrid" },
-  { courseLabel: "Any method — online theory", detail: "Primarily self-paced, with starts in the first week of each month; practical examined at your employer's site", format: "Online" },
+  { courseLabel: "Any method — online theory", detail: "Primarily self-paced, with access from the moment you enrol; practical examined at your employer's site", format: "Online" },
 ];
 
 // "CGSB" in the profile data is shorthand for CAN/CGSB-48.9712; its certificates
@@ -188,7 +188,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `Can I take NDT training in ${profile.city} part-time or online?`,
-      answer: `Yes. Theory is online and primarily self-paced, so it can be fitted around work, with starts in the first week of each month. Practice runs in the Practical NDT simulator, and the practical training and the practical examination run on real specimens at your employer's facility under an ASNT Level III. Companies can also book onsite delivery for a whole crew. Atlantis has no walk-in training centre in ${profile.city}.`,
+      answer: `Yes. Theory is online and primarily self-paced, so it can be fitted around work, with access from the moment you enrol. Practice runs in the Practical NDT simulator, and the practical training and the practical examination run on real specimens at your employer's facility under an ASNT Level III. Companies can also book onsite delivery for a whole crew. Atlantis has no walk-in training centre in ${profile.city}.`,
     },
     {
       question: `What jobs can I get after NDT certification in ${profile.country}?`,

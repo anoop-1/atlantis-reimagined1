@@ -58,7 +58,7 @@ const answerLabel = (c) => ANSWER_LABEL[c] || c;
 // One delivery statement for every city (owner, 2026-10-12): no centre, no venue,
 // no dated cohorts; theory online and primarily self-paced, practicals in the
 // simulator and at the customer's own facility (src/data/training-availability.json).
-const DELIVERY_ROW = ['Delivery', 'Online theory, primarily self-paced · practicals in the Practical NDT simulator and in person at your facility', 'No Atlantis training centre here; enrol any time of year, with starts in the first week of each month'];
+const DELIVERY_ROW = ['Delivery', 'Online theory, primarily self-paced · practicals in the Practical NDT simulator and in person at your facility', 'No Atlantis training centre here; enrol any time of year, with access from the moment you enrol'];
 
 function renderCityLayer(p) {
   const certMix = [p.primaryCert, p.secondaryCert, ...(p.otherCerts || [])].filter(Boolean).map(certLabel);
@@ -125,7 +125,7 @@ function renderCityLayer(p) {
     { q: `Which NDT certification do employers in ${p.city} ask for?`, a: `${certLabel(p.primaryCert)} leads this market${p.secondaryCert ? `, with ${certLabel(p.secondaryCert)} also recognised` : ''}. ${p.certPathwayNote || ''}`.trim() },
     { q: `What does an NDT technician earn in ${p.city}?`, a: `Level I sits at ${sb.levelI || 'the local entry band'}, Level II at ${sb.levelII || 'the local qualified band'}${sb.usdReference && sb.currency !== 'USD' ? ` (about ${sb.usdReference})` : ''}, and Level III at ${sb.levelIII || 'the senior band'}. Certification level moves pay more than any other factor; method premiums stack on top.` },
     { q: `Where are NDT certification exams administered near ${p.city}?`, a: centers.length ? `${centers.join(' and ')} administer${centers.length > 1 ? '' : 's'} ${(p.examCenters[0].bodies || [p.primaryCert]).map(certLabel).join(', ')} examinations for this market. Employer-certified schemes also allow examinations at the employer's own facility under an approving Level III.` : `Employer-based schemes allow examinations at the employer's facility under an approving Level III, which is how most employer programmes in this market are examined.` },
-    { q: `How is NDT training delivered in ${p.city}?`, a: `Online and in person. Theory is online and primarily self-paced: you can enrol any time of year, with starts in the first week of each month and Level III support for course questions. Practical training runs in the Practical NDT simulator and in person at your employer's facility, on its own equipment, and the practical examination is taken on real specimens under the employer's written practice. Atlantis has no training centre or classroom in ${p.city}.` },
+    { q: `How is NDT training delivered in ${p.city}?`, a: `Online and in person. Theory is online and primarily self-paced: you can enrol any time of year, with access from the moment you enrol and Level III support for course questions. Practical training runs in the Practical NDT simulator and in person at your employer's facility, on its own equipment, and the practical examination is taken on real specimens under the employer's written practice. Atlantis has no training centre or classroom in ${p.city}.` },
   ];
 
   const parts = [];
