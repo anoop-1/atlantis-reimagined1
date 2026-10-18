@@ -24,10 +24,15 @@
 
 const T = {
   tank: { href: '/consulting/api-653-tank-inspector-services', anchors: ['API 653 tank inspection services', 'storage tank inspection services', 'aboveground storage tank inspection', 'tank floor MFL scanning with UT prove-up'] },
-  vessel: { href: '/consulting/api-510-pressure-vessel-inspector-services', anchors: ['API 510 inspection services', 'pressure vessel inspection services', 'API 510 pressure vessel inspection support'] },
+  vessel: { href: '/consulting/api-510-pressure-vessel-inspector-services', anchors: ['API 510 inspection services', 'API 510 pressure vessel inspection support'] },
   piping: { href: '/consulting/api-570-piping-inspector-services', anchors: ['API 570 piping inspection services', 'piping thickness surveys at every CML', 'process piping inspection to API 570'] },
   interval: { href: '/tools/api-inspection-interval-calculator', anchors: ['API 510, API 570 and API 653 interval calculator', 'free inspection interval and remaining life calculator', 'corrosion rate and next inspection calculator'] },
-  technique: { href: '/inspection-services', anchors: ['phased array ultrasonic testing services', 'TOFD inspection services', 'ultrasonic thickness measurement services', 'corrosion mapping services', 'NDT inspection services', 'third party inspection services'] },
+  technique: { href: '/inspection-services', anchors: ['TOFD inspection services', 'NDT inspection services', 'third party inspection services'] },
+  // 2026-10-18 (p18 inspection): method anchors go to the method owners (CLAUDE.md §58 owner map), not the hub.
+  paut: { href: '/inspection/phased-array-inspection-services', anchors: ['phased array ultrasonic testing services', 'PAUT inspection services'] },
+  ut: { href: '/ultrasonic-testing', anchors: ['ultrasonic thickness measurement services', 'ultrasonic inspection services'] },
+  cmap: { href: '/corrosion-mapping', anchors: ['corrosion mapping services'] },
+  pv: { href: '/inspection/pressure-vessel-inspection-services', anchors: ['pressure vessel inspection services'] },
   training: { href: '/training', anchors: ['NDT training courses', 'NDT certification courses', 'NDT training and certification', 'PAUT and TOFD training'] },
   online: { href: '/ndt-training-online', anchors: ['online NDT courses', 'live online NDT training', 'blended NDT training'] },
   hours: { href: '/tools/snt-tc-1a-hours-planner', anchors: ['SNT-TC-1A hours planner', 'training and experience hours planner'] },
@@ -43,11 +48,14 @@ const T = {
   scan: { href: '/3d-scanning-services', anchors: ['industrial 3D laser scanning', 'plant and refinery laser scanning', 'scan-to-CAD for process plants', 'tank laser scanning'] },
 };
 
+// The technique slot rotates over the hub and the method owners in the shares the old six-anchor
+// hub entry had: half hub anchors, one sixth each for PAUT, UT thickness and corrosion mapping.
+const TECHNIQUE = ['technique', 'paut', 'technique', 'ut', 'technique', 'cmap'];
 const FAMILIES = {
-  tank: { intro: ['Planning tank work?', 'For storage tanks:'], targets: ['tank', 'interval', 'technique'] },
-  vessel: { intro: ['Planning vessel work?', 'For pressure vessels:'], targets: ['vessel', 'interval', 'technique'] },
-  piping: { intro: ['Planning piping work?', 'For piping circuits:'], targets: ['piping', 'interval', 'technique'] },
-  technique: { intro: ['Need this examination done?', 'From technique to field service:'], targets: ['technique', ['tank', 'vessel', 'piping', 'interval'], 'level3'] },
+  tank: { intro: ['Planning tank work?', 'For storage tanks:'], targets: ['tank', 'interval', TECHNIQUE] },
+  vessel: { intro: ['Planning vessel work?', 'For pressure vessels:'], targets: ['vessel', 'interval', 'pv'] },
+  piping: { intro: ['Planning piping work?', 'For piping circuits:'], targets: ['piping', 'interval', TECHNIQUE] },
+  technique: { intro: ['Need this examination done?', 'From technique to field service:'], targets: [TECHNIQUE, ['tank', 'vessel', 'piping', 'interval'], 'level3'] },
   training: { intro: ['Planning your training?', 'Training routes:'], targets: ['training', 'online', 'hours'] },
   trainingSim: { intro: ['Practise between courses:', 'Training routes:'], targets: ['sim', 'ascan', 'training'] },
   level3: { intro: ['Need Level III cover?', 'Level III and programme support:'], targets: ['level3', 'hours', 'training'] },
