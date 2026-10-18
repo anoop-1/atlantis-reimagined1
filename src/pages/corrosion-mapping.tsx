@@ -246,7 +246,7 @@ export default function CorrosionMapping() {
 
       <div className="container mx-auto max-w-6xl px-6 py-12 grid md:grid-cols-3 gap-12">
         {/* Main Content */}
-        <article className="md:col-span-2 space-y-14">
+        <article className="md:col-span-2 space-y-14 min-w-0">
 
           {/* Introduction */}
           <section>

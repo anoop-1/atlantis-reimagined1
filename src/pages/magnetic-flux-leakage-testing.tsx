@@ -239,7 +239,7 @@ export default function MagneticFluxLeakageTesting() {
       </div>
 
       <div className="container mx-auto max-w-6xl px-6 py-12 grid md:grid-cols-3 gap-12">
-        <article className="md:col-span-2 space-y-14">
+        <article className="md:col-span-2 space-y-14 min-w-0">
 
           {/* How It Works */}
           <motion.section

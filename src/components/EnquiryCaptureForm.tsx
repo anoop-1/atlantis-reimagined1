@@ -94,7 +94,7 @@ const COPY = {
       "Survey-grade LiDAR + photogrammetry + drone",
       "ASNT NDT Level III led every delivery",
       "Output: LAS, E57, RCP, RCS, Revit, IFC, AutoCAD",
-      "Same-day quote (within 24 hours)",
+      "We reply within one business day",
       "API code-aligned deliverables",
     ],
   },

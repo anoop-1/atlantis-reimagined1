@@ -107,8 +107,8 @@ export default function Contact() {
       {
          icon: Clock,
          title: "Response Time",
-         details: "< 24 Hours",
-         subtitle: "Emergency Available",
+         details: "One business day",
+         subtitle: "We reply to every enquiry",
       },
    ];
 
@@ -368,8 +368,8 @@ export default function Contact() {
       <div className="min-h-screen pt-20 bg-background">
          <Navigation />
          <SEOHead
-            title="Contact Atlantis NDT - 24H Response [Expert Support]"
-            description="Get expert NDT support in 24 hours. Contact Atlantis NDT for training, inspection, consulting. Call +1 (281) 840-8969. Free quote, multiple locations."
+            title="Contact Atlantis NDT — Training, Software and Consulting"
+            description="Contact Atlantis NDT at info@atlantisndt.com for SNT-TC-1A training, Level III consulting, NDT reporting, ERP or digital twin demos. Quote on request."
             keywords="contact NDT services, Atlantis NDT contact, NDT inspection quote, professional NDT consulting"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/contact"
@@ -613,7 +613,7 @@ export default function Contact() {
                                        <div className="space-y-1" data-enquiry-confirmed="1">
                                           <p className="font-semibold">Thank you, your enquiry is in.</p>
                                           {confirmed?.id && <p className="text-sm">Reference: <span className="font-mono">{confirmed.id}</span></p>}
-                                          <p className="text-sm">The Atlantis NDT team will reply by email within 24 hours with next steps, usually a short call to confirm scope.</p>
+                                          <p className="text-sm">The Atlantis NDT team will reply by email within one business day with next steps, usually a short call to confirm scope.</p>
                                           {confirmed && NEXT_READ[confirmed.service] && (
                                              <p className="text-sm">While you wait: <a className="underline font-medium" href={NEXT_READ[confirmed.service].path}>{NEXT_READ[confirmed.service].label} →</a></p>
                                           )}
@@ -622,7 +622,7 @@ export default function Contact() {
                                  </div>
                               )}
                               <p className="text-xs text-muted-foreground">
-                                 Replies come from the Atlantis NDT team within 24 hours. Your details are used only to answer this enquiry.
+                                 Replies come from the Atlantis NDT team within one business day. Your details are used only to answer this enquiry.
                               </p>
                               <Button
                                  type="submit"
