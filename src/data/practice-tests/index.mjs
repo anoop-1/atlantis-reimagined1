@@ -51,9 +51,10 @@ export const LEVEL2_EXAM_PREP = ['/asnt-ndt-level-ii-exam-prep', 'ASNT NDT Level
 
 export const PRACTICE_HUB = {
   path: '/ndt-practice-tests',
-  title: 'NDT Practice Tests and Exam Prep: Free Level II Questions',
-  description: 'Free NDT Level II practice tests for UT, PAUT, TOFD, RT, MT, PT, VT and ET: original questions with answers and explanations, plus exam prep guides.',
-  h1: 'NDT Practice Tests and Exam Prep',
+  // 2026-10-18 (training.md §5.12): the hub owns "NDT Level 2 exam questions and answers".
+  title: 'NDT Level 2 Exam Questions and Answers: Free Practice Tests',
+  description: 'Free NDT Level 2 exam questions and answers for UT, PAUT, TOFD, RT, MT, PT, VT and ET: 30 original questions per method with explanations, plus exam prep.',
+  h1: 'NDT Level 2 Practice Tests: Exam Questions and Answers',
   enquiry: '/contact?service=training&subject=NDT%20training%20enquiry',
 };
 

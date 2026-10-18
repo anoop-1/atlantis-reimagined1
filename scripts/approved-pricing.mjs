@@ -106,6 +106,10 @@ export const ERP_MARKER = 'data-approved-erp-pricing';
 // comment (scripts/money-pages-2026-10.mjs places it before the demo call to action).
 // Without it the section goes before the last </main>, as before.
 export const ERP_PLANS_SLOT = '<!--erp-plans-slot-->';
+// 2026-10-18: a page body may reserve the position of the training fee table the same way
+// (scripts/houston-training-2026-10.mjs puts it under its cost answer). On a path that is not
+// allowlisted the slot is removed and no table is added.
+export const TRAINING_FEES_SLOT = '<!--training-fees-slot-->';
 
 function tableHtml(t) {
   const head = t.columns.map((c) => `<th scope="col">${esc(c)}</th>`).join('');
@@ -232,8 +236,10 @@ export function injectApprovedPricing(html, path) {
   const region = trainingRegionForPath(path);
   if (region && !out.includes(TRAINING_MARKER)) {
     out = out.replace(NO_PRICING_LINE, 'Published fees for this region are in the fee table on this page; group, corporate and custom programmes vary by');
-    out = out.replace(/<\/main>(?![\s\S]*<\/main>)/i, renderTrainingFeesHtml(region) + '  </main>');
+    if (out.includes(TRAINING_FEES_SLOT)) out = out.replace(TRAINING_FEES_SLOT, () => renderTrainingFeesHtml(region));
+    else out = out.replace(/<\/main>(?![\s\S]*<\/main>)/i, renderTrainingFeesHtml(region) + '  </main>');
   }
+  out = out.split(TRAINING_FEES_SLOT).join('');
   const mode = erpModeForPath(path);
   if (mode === 'section' && !out.includes(ERP_MARKER)) {
     out = out.replace(NO_PRICING_LINE, 'In the USA and Canada the plans are published below; elsewhere pricing varies by');

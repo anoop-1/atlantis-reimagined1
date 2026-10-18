@@ -21,6 +21,8 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 import { hoursCell, methodCourseNode } from '../src/data/course-markup-2026-10.mjs'; // 2026-10-12: one Course/hours builder for both layers
 import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian titles/metas/H1s (ASNT SNT-TC-1A), same entry as src/lib/na-training.ts
+import { nationwideHubEntries, NATIONWIDE_INTRO } from '../src/data/training-nationwide-2026-10.mjs'; // 2026-10-18: state/province hubs merged into the one Nationwide directory
+import { CTR_WAVE16_OVERRIDES } from './ctr-wave16-overrides.mjs'; // 2026-10-18: a wave-16 snippet on an NA city page is newer than the city template title
 
 const ROOT = process.cwd();
 const SITE = 'https://atlantisndt.com';
@@ -29,6 +31,7 @@ const NA = readJson('src/data/na-training-cities.json').cities;
 const FACTS = readJson('src/data/course-facts.json');
 const HOURS = readJson('src/data/snt-tc-1a-hours.json');
 const CANADA = readJson('src/data/canada-certification-2026-10.json');
+const GEO_HUBS = readJson('src/data/geo-hubs.json');
 
 export const MS_FORM_URL = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
 export const EMPLOYER_PATH = '/snt-tc-1a-employer-certification-program';
@@ -61,7 +64,7 @@ export function naMeta(slug) {
     slug, name, st, country, kind, label, Label,
     title,
     h1: title,
-    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. Quote within one business day.`,
+    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`,
   };
 }
 
@@ -222,7 +225,7 @@ export function pathsBlockHtml(label) {
       </div>
       <div class="training-path">
         <h3>I&#39;m training a company team</h3>
-        <p>You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your facility or blended with online theory, with Level III oversight and an audit-ready file. See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a> or <a href="/contact?service=training&amp;subject=Company%20team%20training">request a company team training quote</a> — quote within one business day.</p>
+        <p>You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your facility or blended with online theory, with Level III oversight and an audit-ready file. See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a> or <a href="/contact?service=training&amp;subject=Company%20team%20training">request a company team training quote</a>. We reply within one business day.</p>
       </div>
     </section>`;
 }
@@ -241,17 +244,21 @@ export function nationwideBlockHtml() {
     ['United States — states and regions', ([, , c, k]) => c === 'USA' && (k === 'state' || k === 'region')],
     ['Canada', ([, , c]) => c === 'Canada'],
   ];
-  const parts = groups.map(([h, f]) => {
+  const hubs = nationwideHubEntries(GEO_HUBS, new Set(Object.keys(NA).map((slug) => `/ndt-training-${slug}`)));
+  const hubGroup = ['usCity', 'usState', 'canada'];
+  const parts = groups.map(([h, f], gi) => {
     const items = Object.entries(NA).filter(([, e]) => f(e))
       .map(([slug]) => naMeta(slug))
+      .map((m) => ({ path: `/ndt-training-${m.slug}`, label: m.label }))
+      .concat(hubs.filter((x) => x.group === hubGroup[gi]))
       .sort((a, b) => a.label.localeCompare(b.label))
-      .map((m) => `<li><a href="/ndt-training-${m.slug}">NDT training in ${esc(m.label)}</a></li>`).join('');
+      .map((m) => `<li><a href="${m.path}">NDT training in ${esc(m.label)}</a></li>`).join('');
     return `<h3>${h}</h3><ul class="nationwide-list">${items}</ul>`;
   }).join('\n      ');
   return `
     <section class="training-nationwide" aria-label="NDT training nationwide">
       <h2>Nationwide: NDT training by city, state and region</h2>
-      <p>Every programme below is delivered online or onsite at the employer&#39;s facility under ASNT Level III oversight — Atlantis does not run walk-in training centres. Pick your market for local industries, codes and employer requirements.</p>
+      <p>${esc(NATIONWIDE_INTRO).replace(/'/g, '&#39;')}</p>
       ${parts}
     </section>`;
 }
@@ -274,7 +281,7 @@ export function courseFactsHtml(path) {
     ['Scheme', 'ASNT SNT-TC-1A (employer-based)'],
     ['Prerequisites', esc(prereq)],
     ['Training hours', hours],
-    ['Delivery', 'Live online · Onsite at your facility'],
+    ['Delivery', 'Self-paced online theory with Level III support · Onsite at your facility'],
     ['Practical exam', 'Administered by an ASNT Level III under your written practice'],
     ['Practice', '<a href="/practical-ndt">Practical NDT simulator</a> (practice only — not a substitute for the practical exam)'],
     ['Instructor', 'Anoop Rayavarapu, ASNT NDT Level III'],
@@ -284,7 +291,7 @@ export function courseFactsHtml(path) {
       <table><caption>${esc(f.short)} ${esc(f.level)} course facts</caption><tbody>
         ${rows.map(([k, v]) => `<tr><th scope="row">${k}</th><td>${v}</td></tr>`).join('\n        ')}
       </tbody></table>
-      <p><a href="/contact?service=training&amp;subject=${subject}"><strong>Request a course quote</strong></a> — no published prices; quote within one business day.</p>
+      <p><a href="/contact?service=training&amp;subject=${subject}"><strong>Request a course quote</strong></a>. We reply within one business day; published US fees are on the <a href="/training-usa#training-fees">US training page</a>.</p>
     </section>`;
 }
 
@@ -337,7 +344,7 @@ function employerRouteObject() {
   <main>
     <h1>${d.h1}</h1>
     <p>${d.intro}</p>
-    <p><a href="${MS_FORM_URL}" rel="noopener"><strong>Request a programme quote</strong></a> · <a href="/contact?service=training&amp;subject=SNT-TC-1A%20employer%20programme">Talk to an ASNT Level III</a> — quote within one business day.</p>
+    <p><a href="${MS_FORM_URL}" rel="noopener"><strong>Request a programme quote</strong></a> · <a href="/contact?service=training&amp;subject=SNT-TC-1A%20employer%20programme">Talk to an ASNT Level III</a>. We reply within one business day.</p>
 ${sections}
     <h2>Frequently asked questions</h2>
 ${faq}
@@ -485,6 +492,9 @@ export function finalizeNaTrainingRoute(route) {
   const counts = {};
   const bodyContent = typeof route.bodyContent === 'string' ? sanitiseString(route.bodyContent, counts, false) : route.bodyContent;
   for (const [k, v] of Object.entries(counts)) FINAL_SANITISED[k] = (FINAL_SANITISED[k] || 0) + v;
+  // 2026-10-18: wave 16 (src/data/ctr-wave16/*.json) is the newest snippet layer; the CTR pass in
+  // prerender.mjs already put it on the route, so keep it instead of the city template title.
+  if (CTR_WAVE16_OVERRIDES[route.path]) return { ...route, bodyContent };
   return { ...route, bodyContent, title: m.title, ogTitle: m.title, description: m.description, ogDesc: m.description };
 }
 export const FINAL_SANITISED = {};

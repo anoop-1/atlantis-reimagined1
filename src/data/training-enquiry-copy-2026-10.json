@@ -1,5 +1,5 @@
 {
   "_note": "2026-10-16. Enquiry wording for city, region and industry training pages: courses run year-round with no fixed dates, theory online and primarily self-paced, practicals in the Practical NDT simulator and at the customer's facility. Read by the React city templates (TrainingEnquiryCTA props) and by scripts/training-release-2026-10.mjs (crawler rule on the static training CTA).",
   "heading": "Ask about NDT training and practical arrangements",
-  "body": "Tell us the methods and levels you need, how many technicians and where they work. We reply with the delivery options that fit, how the practical at your facility would work, and what your written practice requires, usually the same working day."
+  "body": "Tell us the methods and levels you need, how many technicians and where they work. We reply within one business day with the delivery options that fit, how the practical at your facility would work, and what your written practice requires."
 }

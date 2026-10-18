@@ -45,7 +45,7 @@ export default function CourseFactsBlock({ path }: { path: string }) {
     ["Scheme", "ASNT SNT-TC-1A (employer-based)"],
     ["Prerequisites", f.prereq || facts.prereqByLevel[f.levelIdx]],
     ["Training hours", hoursText],
-    ["Delivery", "Live online · Onsite at your facility"],
+    ["Delivery", "Self-paced online theory with Level III support · Onsite at your facility"],
     ["Practical exam", "Administered by an ASNT Level III under your written practice"],
     ["Practice", <><Link to="/practical-ndt" className="text-primary underline">Practical NDT simulator</Link> (practice only — not a substitute for the practical exam)</>],
     ["Instructor", "Anoop Rayavarapu, ASNT NDT Level III"],
@@ -69,7 +69,7 @@ export default function CourseFactsBlock({ path }: { path: string }) {
           <Link to={`/contact?service=training&subject=${subject}`} className="bg-primary text-primary-foreground px-4 py-2 rounded-md font-medium inline-block">
             Request a course quote
           </Link>
-          <span className="text-xs text-muted-foreground ml-3">No published prices; quote within one business day.</span>
+          <span className="text-xs text-muted-foreground ml-3">We reply within one business day; published US fees are on the <Link to="/training-usa#training-fees" className="underline text-primary">US training page</Link>.</span>
         </div>
       </div>
       <CourseSessionsTable path={path} />

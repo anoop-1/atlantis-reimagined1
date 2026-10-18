@@ -23,7 +23,7 @@ type Pair = [string, string];
 type Copy = {
   nearMe: {
     id: string; h2: string; answer: string; formatsH3: string; formats: Pair[]; certH3: string; certAnswer: string;
-    citiesH3: string; cities: Pair[]; citiesNote: string; ctaHref: string; ctaText: string; ctaAfter: string;
+    citiesH3: string; cities: Pair[]; citiesNote: string; ctaHref: string; ctaText: string; ctaAfter: string; schoolNote?: string;
   };
   onlinePointer: { html: string };
   cityCourses: {
@@ -93,6 +93,7 @@ export function NearMeTrainingBlock() {
         <Link to={c.ctaHref} className="text-primary underline font-semibold">{c.ctaText}</Link>
         {c.ctaAfter}
       </p>
+      {c.schoolNote && <p className="text-muted-foreground mt-3"><Rich html={c.schoolNote} /></p>}
     </section>
   );
 }

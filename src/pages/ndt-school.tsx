@@ -22,6 +22,12 @@ import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
 import { GraduationCap, ShieldQuestion, ClipboardCheck, ArrowRight } from "lucide-react";
+// 2026-10-18 (training.md §5.6): side-by-side + "How to find an NDT school near you", same data as the crawler.
+import SCHOOL from "@/data/ndt-school-2026-10.json";
+import HOUSTON from "@/data/houston-training-2026-10.json";
+import { schoolCompareTable } from "@/data/ndt-school-2026-10.mjs";
+
+const COMPARE = schoolCompareTable(SCHOOL, HOUSTON);
 
 const EVALUATION = [
   {
@@ -99,6 +105,27 @@ export default function NdtSchool() {
           </p>
         </section>
 
+        <section data-ndt-school="compare">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">{COMPARE.h2}</h2>
+          <p className="text-muted-foreground mb-4">{COMPARE.intro}</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border">
+              <caption className="text-left p-2 font-medium">{COMPARE.caption}</caption>
+              <thead>
+                <tr>{COMPARE.head.map((h, i) => <th key={i} scope="col" className="text-left p-2 border-b">{h}</th>)}</tr>
+              </thead>
+              <tbody>
+                {COMPARE.rows.map((r) => (
+                  <tr key={r[0]} className="border-b align-top">
+                    <th scope="row" className="text-left p-2 font-medium">{r[0]}</th>
+                    {r.slice(1).map((c, i) => <td key={i} className="p-2 text-muted-foreground">{c}</td>)}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         <section>
           <div className="flex items-center gap-3 mb-6">
             <ClipboardCheck className="w-7 h-7 text-[#004aad]" />
@@ -119,6 +146,11 @@ export default function NdtSchool() {
             </Link>{" "}
             covers the trade-offs honestly.
           </p>
+        </section>
+
+        <section data-ndt-school="find">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">{SCHOOL.find.h2}</h2>
+          <p className="text-muted-foreground [&_a]:text-[#004aad] [&_a]:underline" dangerouslySetInnerHTML={{ __html: SCHOOL.find.html }} />
         </section>
 
         <section>
@@ -155,8 +187,8 @@ export default function NdtSchool() {
             there: theory runs online all year, and we deliver the hands-on part at employer facilities
             across the Gulf Coast, which for a company
             qualifying a crew is the better shape: your equipment, your procedures, your Written
-            Practice. Individuals in Houston looking for a route in should read the{" "}
-            <Link to="/ndt-training-houston" className="text-[#004aad] hover:underline">Houston training page</Link>{" "}
+            Practice. Individuals in Houston looking for a route in should read{" "}
+            <Link to="/ndt-training-houston" className="text-[#004aad] hover:underline">NDT training and certification in Houston</Link>{" "}
             for the local employer landscape and enquire below — enrollment is open all year, with no
             fixed course dates.
           </p>

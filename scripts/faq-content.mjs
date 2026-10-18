@@ -300,7 +300,9 @@ function faqsFor(path) {
   if (m && m[1] !== 'services') return SCANNING_FAQS(label(m[1]));
 
   m = path.match(/^\/ndt-training-([a-z0-9-]+)$/);
-  if (m) return TRAINING_FAQS(label(m[1]));
+  // 2026-10-18: /ndt-training-online and /ndt-training-near-me are national pages, not cities
+  // ("Atlantis has no training centre online" was rendering on the online owner page).
+  if (m && m[1] !== 'online' && m[1] !== 'near-me') return TRAINING_FAQS(label(m[1]));
 
   m = path.match(/^\/(ultrasonic-testing|radiographic-testing|magnetic-particle-testing|penetrant-testing|eddy-current-testing|visual-testing)-([a-z0-9-]+)$/);
   if (m) return METHOD_CITY_FAQS(METHOD_LABELS[m[1]], label(m[2]));

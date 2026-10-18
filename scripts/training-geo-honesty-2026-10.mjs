@@ -54,6 +54,26 @@ export const GEO_HONESTY_RULES = [
   ['atlantis-exam-centre', /\bAtlantis(?: NDT)?(?:['’]s)? (?:exam(?:ination)?|test(?:ing)?|training) cent(?:er|re)\b/i, false],
   ['exam-slot', /\bbooks? your exam slot\b/i, false],
   ['ways-to-train-in', /\bways to train in [A-Z]/, false],
+  // 2026-10-18 (training.md §5.1; owner decisions: no live online classes, no time promises but
+  // "we reply within one business day"): phrases removed at source from the training city template
+  // (prerender.mjs trainingCityPages) and the Houston page. They fire on every geo training page.
+  ['cohort-length', /\bcohorts? (?:typically )?run (?:\w+|\d+) to (?:\w+|\d+) days\b|\bthree to ten days per method\b/i, false],
+  ['cohort-size', /\b(?:on-site|onsite) cohorts? of \d+ to \d+\b/i, false],
+  ['mobilised-from-base', /\bmobili[sz]ation point for on-site cohorts\b|\b(?:instructors|examiners)(?: and examiners)? (?:are )?mobili[sz]ed from (?:Houston|Atlantis)/i, false],
+  ['turnaround-schedule', /\bOur US training schedule is structured around\b/i, false],
+  ['live-instructor-led-online', /\b(?:live,? )?instructor-led online sessions?\b/i, false],
+  ['cohort-cta', /\bTalk to an ASNT Level III about an? [A-Z][\w .'-]{0,30} cohort\b/, false],
+];
+
+// 2026-10-18: owner pages rebuilt from one data file carry the full owner rules (no cohort, no live
+// online classes or replays, no time promise except "we reply within one business day", no
+// template boilerplate). [label, regex, paths]. The wider geo family still carries some of this
+// wording from older generators, so these rules are scoped to the pages that have been cleaned.
+export const OWNER_PAGE_RULES = [
+  ['owner-cohort', /\bcohorts?\b/i, ['/ndt-training-houston']],
+  ['owner-live-online', /\blive online\b|\blive-virtual\b|\blive classes\b|\breplays?\b|\binstructor-led online\b/i, ['/ndt-training-houston']],
+  ['owner-time-promise', /\bquotes? within\b|\bwithin 24 hours\b|\b24-hour\b|\bsame[- ]week\b|\bsix to eight weeks\b/i, ['/ndt-training-houston']],
+  ['owner-boilerplate', /\baffordable, accessible\b|\bquote on request\b/i, ['/ndt-training-houston']],
 ];
 
 const viol = [];
@@ -80,11 +100,12 @@ function sentenceAround(text, index, length) {
   return text.slice(a, Math.min(text.length, b + 1)).trim();
 }
 
-/** Returns [{rule, sentence}] for one page body. */
-export function scanTrainingGeoHonesty(html) {
+/** Returns [{rule, sentence}] for one page body (owner-page rules too when `path` is given). */
+export function scanTrainingGeoHonesty(html, path = null) {
   const text = textOf(html);
   const out = [];
-  for (const [label, rx, needsAtlantis] of GEO_HONESTY_RULES) {
+  const rules = [...GEO_HONESTY_RULES, ...OWNER_PAGE_RULES.filter(([, , paths]) => path && paths.includes(path)).map(([l, rx]) => [l, rx, false])];
+  for (const [label, rx, needsAtlantis] of rules) {
     const g = new RegExp(rx.source, rx.flags.includes('g') ? rx.flags : rx.flags + 'g');
     let m;
     while ((m = g.exec(text)) !== null) {
@@ -100,7 +121,7 @@ export function scanTrainingGeoHonesty(html) {
 export function recordTrainingGeoHonesty(path, html, noindex = false) {
   if (!isGeoTrainingPath(path) || typeof html !== 'string') return;
   checked++;
-  for (const v of scanTrainingGeoHonesty(html)) viol.push({ path, noindex, ...v });
+  for (const v of scanTrainingGeoHonesty(html, path)) viol.push({ path, noindex, ...v });
 }
 
 export function trainingGeoHonestyStats() {

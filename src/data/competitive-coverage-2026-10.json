@@ -10,7 +10,7 @@
       "points": [
         [
           "Online NDT courses and blended training",
-          "Theory is taught live online by an ASNT Level III with replays, and the hands-on block is supervised in person at the employer's facility, on its own equipment and parts. This blended NDT training route keeps people working while they train."
+          "Theory is self-paced online, with an ASNT NDT Level III answering questions, and the hands-on block is supervised in person at the employer's facility, on its own equipment and parts. This blended NDT training route keeps people working while they train."
         ],
         [
           "NDT practical training",
@@ -48,7 +48,7 @@
         },
         {
           "q": "Can you get NDT certified online?",
-          "a": "You can complete the theory online, and many employers accept live online classroom hours. You cannot complete the practical examination or the experience hours online, and certification itself is issued by your employer under its written practice, not by a website or a training provider."
+          "a": "You can complete the theory online, and many employers accept documented online classroom hours. You cannot complete the practical examination or the experience hours online, and certification itself is issued by your employer under its written practice, not by a website or a training provider."
         },
         {
           "q": "Is NDT training accepted for NDT certification in Canada?",
@@ -63,31 +63,31 @@
     "/ndt-training-online": {
       "h2": "Online NDT courses compared: what to check before you enrol",
       "intro": [
-        "Online NDT courses range from self-paced video libraries to live virtual classrooms taught by a Level III. The difference matters, because your employer's written practice decides which training hours it will accept, and many written practices ask for instructor-led training with a record of attendance.",
-        "Before you enrol in any online NDT training, check four things: whether sessions are live or recorded, how attendance and hours are documented, where the practical block happens, and whether the course outline follows the topics in ANSI/ASNT CP-105 that your written practice references."
+        "Online NDT courses range from self-paced libraries to live virtual classrooms. The difference matters, because your employer's written practice decides which training hours it will accept, and some written practices ask for instructor-led hours with a record of attendance.",
+        "Before you enrol in any online NDT training, check four things: whether the course is live or self-paced, how training hours are documented, where the practical block happens, and whether the course outline follows the topics in ANSI/ASNT CP-105 that your written practice references."
       ],
       "points": [
         [
-          "Live online classroom",
-          "Atlantis online sessions are taught live by an ASNT Level III, with replays for revision and practice questions between sessions."
+          "Self-paced theory with Level III support",
+          "Atlantis online theory is self-paced: you work through the material at your own pace, an ASNT NDT Level III answers your questions, and practice questions sit between modules. Course starts run in the first week of each month."
         ],
         [
           "Documented hours",
-          "Attendance is recorded so your employer can file it as training hours under its written practice."
+          "Training hours are recorded per person so your employer can file them under its written practice."
         ],
         [
           "Blended NDT training",
           "Theory online, practical in person: the hands-on block is supervised at your employer's facility, on its own equipment and parts. Courses run year-round with no fixed dates."
         ],
         [
-          "Practice between sessions",
-          "The Practical NDT simulator lets you practise UT, PAUT, TOFD and other methods in the browser between classes, as organised training only."
+          "Practice between modules",
+          "The Practical NDT simulator lets you practise UT, PAUT, TOFD and other methods in the browser between modules, as organised training only."
         ]
       ],
       "faq": [
         {
           "q": "Are online NDT courses accepted by employers?",
-          "a": "Usually, when the course is instructor-led, the hours are documented and the outline matches what the employer's written practice requires. Ask your Level III to confirm before you enrol; the written practice is the document that decides."
+          "a": "Usually, when the hours are documented and the outline matches what the employer's written practice requires; some written practices also ask for instructor-led hours. Ask your Level III to confirm before you enrol; the written practice is the document that decides."
         },
         {
           "q": "Can I take the NDT practical exam online?",

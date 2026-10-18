@@ -13,6 +13,14 @@
         "Blended"
       ]
     },
+    "/ndt-training-houston": {
+      "name": "NDT Training and Certification in Houston — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for Houston technicians and employers, led by an ASNT NDT Level III: self-paced online theory with year-round enrolment and Level III support, practicals in the Practical NDT simulator and at your employer's facility, and certification by your employer under its written practice.",
+      "modes": [
+        "Online",
+        "Blended"
+      ]
+    },
     "/ndt-training-canada": {
       "name": "NDT Training in Canada — ASNT SNT-TC-1A Level I and Level II",
       "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Canada, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
@@ -62,7 +70,7 @@
     "path": "/training",
     "id": "ndt-training-near-me",
     "h2": "NDT training near me",
-    "answer": "Atlantis NDT does not run walk-in training centres. Courses are primarily self-paced online, with enrolment throughout the year and Level III support for clarifications. Course starts run in the first week of each month, and learners may also join at other times. Company teams can discuss instructor-led, on-site or blended delivery. Hands-on training, equipment and the practical examination must be arranged separately under your employer’s written practice. We support technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia, from offices in Houston (USA) and Hyderabad (India).",
+    "answer": "Atlantis NDT does not run walk-in training centres. Courses are primarily self-paced online, with enrolment throughout the year and Level III support for clarifications. Course starts run in the first week of each month, and learners may also join at other times. Company teams can discuss on-site or blended delivery. Hands-on training, equipment and the practical examination must be arranged separately under your employer’s written practice. We support technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia, from offices in Houston (USA) and Hyderabad (India).",
     "formatsH3": "How the training reaches you",
     "formats": [
       [
@@ -75,11 +83,11 @@
       ],
       [
         "Blended",
-        "Live online theory first, then a practical block at your facility under an ASNT Level III."
+        "Self-paced online theory first, then a practical block at your facility under an ASNT Level III."
       ],
       [
         "Instructor-led sessions for teams",
-        "Discuss the methods, levels, shift patterns and instructor availability before agreeing a live or on-site course."
+        "Discuss the methods, levels, shift patterns and instructor availability before agreeing an on-site course."
       ],
       [
         "Practice between sessions",
@@ -136,9 +144,10 @@
       ]
     ],
     "citiesNote": "Every US and Canadian city, state and province page is listed under Nationwide on this page.",
+    "schoolNote": "Comparing schools rather than courses? Read <a href=\"/ndt-school\">NDT schools: what they teach</a>.",
     "ctaHref": "/contact?service=training&subject=Training%20near%20me",
     "ctaText": "Tell us where your team is",
-    "ctaAfter": ": methods, levels, number of trainees and preferred format. We reply with a quote within one business day."
+    "ctaAfter": ": methods, levels, number of trainees and preferred format. We reply within one business day."
   },
   "onlinePointer": {
     "path": "/ndt-training-online",
@@ -200,7 +209,7 @@
       "india": "Fees for training in India are quoted for your methods, levels and number of trainees."
     },
     "ctaText": "Ask about a course for {label}",
-    "ctaAfter": " — quote within one business day."
+    "ctaAfter": ". We reply within one business day."
   },
   "canada": {
     "paths": [

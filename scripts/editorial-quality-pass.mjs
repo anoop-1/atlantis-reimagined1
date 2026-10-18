@@ -38,7 +38,11 @@ export function applyEditorialQuality($,path){
   if(u.canonical&&existsSync('dist'+u.canonical+'/index.html'))$('link[rel="canonical"]').attr('href','https://atlantisndt.com'+u.canonical);
   if(u.title)$('title').text(u.title);
   if(u.description)$('meta[name="description"]').attr('content',u.description);
-  if(u.replace){root.children().not('script,style,header,footer,nav').remove();root.prepend('<main>'+u.html+'</main>');}
+  if(u.replace){
+   // 2026-10-18: keep an approved training-fee table (written by scripts/approved-pricing.mjs on allowlisted paths only) at the
+   // upgrade's <!--training-fees-slot--> instead of discarding it with the old main; no slot or no table, no fees.
+   const fees=root.find('section[data-approved-training-fees]').first();const feesHtml=fees.length?$.html(fees):'';
+   root.children().not('script,style,header,footer,nav').remove();root.prepend('<main>'+String(u.html).split('<!--training-fees-slot-->').join(feesHtml)+'</main>');}
   else{root.find('[data-editorial-upgrade]').remove();const html='<section data-editorial-upgrade="2026-10-12">'+u.html+'</section>';root.find('main').length?root.find('main').first().append(html):root.append(html);}
   changed=true;
  }

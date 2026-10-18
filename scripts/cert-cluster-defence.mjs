@@ -123,7 +123,7 @@ export function applyCertClusterDefence(routes, append) {
       ${faqs.map(([q, a]) => `<div><h3>${esc(q)}</h3><p>${a}</p></div>`).join('\n      ')}
 
       <h2>Preparing with support</h2>
-      <p>Structured preparation materially outperforms self-study on these examinations, mainly because they reward judgement and clause navigation rather than recall. Programmes run year-round: on-site for employer groups preparing together, and as blended delivery with theory completed online through <a href="/lms">Atlantis LMS</a> ahead of an intensive block. <a href="/contact?service=training">Ask about the next cohort</a>.</p>
+      <p>Structured preparation materially outperforms self-study on these examinations, mainly because they reward judgement and clause navigation rather than recall. Preparation runs year-round: self-paced online through <a href="/lms">Atlantis LMS</a>, with an ASNT NDT Level III answering questions, and on-site for employer groups preparing together. <a href="/contact?service=training">Send a training enquiry</a>; we reply within one business day.</p>
 
       <p>Related: <a href="/training">all NDT training</a> · <a href="/asnt-certification">ASNT certification</a> · <a href="/consulting">ASNT Level III consulting</a> · <a href="/inspection-management-software">tracking certification currency across a team</a>.</p>
     </section>`);

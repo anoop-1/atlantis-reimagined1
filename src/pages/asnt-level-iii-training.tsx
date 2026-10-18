@@ -11,6 +11,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import Level3CostPrepBlock from "@/components/Level3CostPrepBlock"; // 2026-10-18: cost + exam-prep sections, same JSON as the crawler block
+import WAVE16 from "@/data/ctr-wave16/training.json"; // 2026-10-18: title/description live in the wave-16 file (crawler layer reads the same entry)
 
 /**
  * /asnt-level-iii-training — REBUILD, 2026-08-11.
@@ -52,9 +54,9 @@ const timeline = [
 const faqs = [
   { question: "What are the prerequisites for ASNT Level III certification?", answer: "The standard route requires prior Level II certification in the method, plus documented NDT experience. ASNT publishes three eligibility routes for ASNT NDT Level III (see asnt.org): an engineering or physical-science degree plus at least 12 months (252 days) of NDT experience, two years of engineering or science study plus at least 24 months (504 days), or no college degree plus at least 48 months (1,008 days). For an employer-issued SNT-TC-1A Level III, the employer's Written Practice sets the experience requirement. Under SNT-TC-1A, your employer's written practice also requires current vision examinations (near-vision acuity and color contrast)." },
   { question: "What is the ASNT Level III exam format?", answer: "Three possible components. The Basic examination covers materials and processes, common discontinuities and the certification schemes themselves, and is taken once regardless of how many methods you certify in. ASNT lists the Basic as 135 questions in four hours; the UT, RT and ET method exams are 135 questions in four hours, and the MT, PT and VT method exams are 90 questions in two hours. The Method examination is taken once per method and covers principles, equipment, technique selection, interpretation and procedure development for that method. A Specific examination, covering an individual employer's codes and procedures, is optional and only required where that employer's Written Practice calls for it." },
-  { question: "How long does it realistically take to become Level III?", answer: "The exams themselves can be prepared for over weeks, but the experience requirement is what actually sets the calendar. ASNT counts total NDT experience for ASNT NDT Level III: at least 12 months (252 days) with a four-year engineering or physical-science degree, 24 months (504 days) with two years of such study, or 48 months (1,008 days) with no college. How long that takes depends on what you have already documented and how much of the method's work is available to you." },
+  { question: "How long does it take to become NDT Level 3?", answer: "The exams themselves can be prepared for over weeks, but the experience requirement is what actually sets the calendar. ASNT counts total NDT experience for ASNT NDT Level III: at least 12 months (252 days) with a four-year engineering or physical-science degree, 24 months (504 days) with two years of such study, or 48 months (1,008 days) with no college. How long that takes depends on what you have already documented and how much of the method's work is available to you." },
   { question: "Does ASNT or my employer issue Level III certification?", answer: "Both paths exist. An employer-issued Level III, under SNT-TC-1A or the related ANSI/ASNT CP-189 standard, is appointed by your employer's own Written Practice once you have passed the required exams and met the experience requirement — it is tied to that employer the same way Level I and II are. ASNT NDT Level III and ASNT 9712 Level III are issued directly by ASNT as a portable, third-party credential and follow you between employers. Which one applies to you depends on which exams you sit and which programme your employer participates in." },
-  { question: "Can I prepare for ASNT Level III online?", answer: "Yes. The preparation — materials science, code interpretation, procedure-writing practice and exam technique for the Basic and Method exams — runs as self-paced material plus live online sessions with replays, and enrollment is open all year. ASNT's Basic and Method exams are computer-based exams taken at Pearson VUE test centers or other approved ASNT locations; an employer's Specific exam is given under its written practice." },
+  { question: "Can I take an NDT Level 3 course online?", answer: "Yes. The preparation — materials science, code interpretation, procedure-writing practice and exam technique for the Basic and Method exams — is self-paced online, with an ASNT NDT Level III answering your questions, and enrollment is open all year. ASNT's Basic and Method exams are computer-based exams taken at Pearson VUE test centers or other approved ASNT locations; an employer's Specific exam is given under its written practice." },
   { question: "Is there an ASNT Level III refresher or recertification course?", answer: "Yes. ASNT NDT Level III certifications are renewed every five years, either by points (a minimum of 25 over the five years, with continued active Level III work in each method) or by retaking the method exams; the Basic is not retaken. For an employer-issued SNT-TC-1A or CP-189 Level III, the written practice sets the recertification cycle. A refresher course targeted at renewal typically covers what has changed in the relevant codes and standards since your last certification, plus a review of the Basic and Method exam content, rather than starting theory instruction from zero." },
   { question: "What does a Level III do that a Level II does not?", answer: "Level III is the technical-authority role: writing and approving inspection procedures, selecting appropriate NDT methods for a given application, interpreting codes and standards, training and certifying Level I and II personnel, and taking responsibility for the technical adequacy of an NDT programme. Level II performs and interprets tests within an established procedure; Level III writes the procedure and answers for it." },
   { question: "I want to hire a Level III, not become one — where do I go?", answer: "This page covers becoming a Level III yourself. If you are looking to engage an outsourced or contract ASNT Level III as the technical authority of record for your company, see our dedicated Level III consulting service." },
@@ -73,7 +75,7 @@ const courseSchema = {
   "description": "ASNT NDT Level III exam preparation: Basic examination, Method examination, procedure development, and experience-hour pathway guidance across UT, RT, MT, PT, ET and VT.",
   "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
   "hasCourseInstance": [
-    { "@type": "CourseInstance", "courseMode": "online", "description": "Live-virtual and self-paced Basic/Method exam-prep and refresher modules" },
+    { "@type": "CourseInstance", "courseMode": "online", "description": "Self-paced online Basic/Method exam-prep and refresher modules with ASNT NDT Level III support" },
     { "@type": "CourseInstance", "courseMode": "onsite", "description": "Proctored Basic, Method and Specific examinations; procedure-development practical" },
   ],
   "educationalLevel": "Professional",
@@ -85,8 +87,8 @@ export default function ASNTLevelIIITraining() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="ASNT Level 3 Training 2026 — Online Prep, Refresher Course & Exam Prerequisites"
-        description="ASNT Level 3 / NDT Level III training: prerequisites, Basic + Method exam format, realistic timeline, and refresher courses. Online prep + in-person proctored exam, nationwide."
+        title={WAVE16["/asnt-level-iii-training"].title}
+        description={WAVE16["/asnt-level-iii-training"].description}
         keywords="ndt level 3 training, asnt level 3 online training, asnt ndt level 3 refresher course, ndt level 3 preparatory course, online ndt level 3 training, ndt level iii online courses, asnt level iii training"
         canonical="https://atlantisndt.com/asnt-level-iii-training"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema, faqSchema] }}
@@ -243,6 +245,8 @@ export default function ASNTLevelIIITraining() {
         </div>
       </section>
 
+      <Level3CostPrepBlock />
+
       {/* Delivery model + refresher */}
       <section className="py-16 bg-secondary/30">
         <div className="container mx-auto max-w-5xl px-6">
@@ -257,7 +261,7 @@ export default function ASNTLevelIIITraining() {
                 <CardTitle>Online exam preparation</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground text-sm leading-relaxed">Materials science, code interpretation, procedure-writing practice and exam-technique coaching for the Basic and Method exams, delivered live-virtual or self-paced. This is the part most "asnt level 3 online training" searches are actually looking for.</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">Materials science, code interpretation, procedure-writing practice and exam-technique coaching for the Basic and Method exams, self-paced online with an ASNT NDT Level III answering your questions. This is the part most "asnt level 3 online training" searches are actually looking for.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-sm">
@@ -318,7 +322,7 @@ export default function ASNTLevelIIITraining() {
         { title: "NDT Level 2 Training", href: "/ndt-level-2-training", description: "Prerequisites, hours and the ASNT 9712 pathway", icon: "training" },
         { title: "ASNT Level III Consulting Services", href: "/consulting/ndt-consulting-level-iii", description: "Hiring a Level III? Start here instead", icon: "consulting" },
         { title: "Inspection Procedures Management", href: "/erp/inspection-procedures-management-software", description: "Author + version-control NDT procedures", icon: "erp" },
-        { title: "NDT Salary Guide 2026", href: "/blog/ndt-salary-guide-2026-global", description: "Pay by certification level", icon: "blog" },
+        { title: "NDT Level 3 Salary", href: "/ndt-level-3-salary", description: "What Level III roles pay", icon: "blog" },
         { title: "Online NDT Training", href: "/ndt-training-online", description: "How the online exam-prep + in-person proctored exam model works", icon: "training" },
         { title: "NDT Training Near Me", href: "/ndt-training-near-me", description: "Find delivery options across the US", icon: "training" },
       ]} />

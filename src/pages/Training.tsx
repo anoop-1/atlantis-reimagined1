@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
-import GeoHubDirectory from '@/components/GeoHubDirectory';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
@@ -22,6 +21,12 @@ import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts
 // 2026-10-12 training release: "NDT training near me" block + Course info node shared with the crawler.
 import { NearMeTrainingBlock, releaseCourseNode, HOURS } from "@/components/TrainingReleaseBlocks";
 import { packageHours } from "@/data/course-markup-2026-10.mjs";
+import HUB_FAQ from "@/data/training-hub-faq-2026-10.json";
+import { trainingHubFaq } from "@/data/training-hub-faq-2026-10.mjs";
+
+// 2026-10-18 (training.md §5.4): the one visible /training FAQ, shared with the crawler layer.
+const HUB_FAQ_ITEMS = trainingHubFaq(HUB_FAQ as { h2: string; items: [string, string][] }, HOURS);
+
 export default function Training() {
    const courses = [
       {
@@ -97,75 +102,20 @@ export default function Training() {
    const eduOrg = {
       "@type": "EducationalOrganization",
       "name": "Atlantis NDT Training",
-      "description": "ASNT SNT-TC-1A NDT training led by an ASNT NDT Level III, delivered live online or on-site at the client's facility",
+      "description": "ASNT SNT-TC-1A NDT training led by an ASNT NDT Level III, delivered as self-paced online theory with Level III support or on-site at the client's facility",
       "areaServed": ["United States", "Canada", "Middle East", "India", "Europe", "South East Asia"],
    };
 
 
-   const faqSchemaData = [
-      {
-         "@type": "Question",
-         "name": "What NDT training levels are available?",
-         "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "NDT training follows three levels: Level I (basic application), Level II (independent testing and reporting), and Level III (program management, procedure development, and technical authority)."
-         }
-      },
-      {
-         "@type": "Question",
-         "name": "How long is NDT training?",
-         "acceptedAnswer": {
-            "@type": "Answer",
-            "text": `SNT-TC-1A recommends classroom hours by method and level: for example UT ${HOURS.classroom.UT[0]} hours at Level I and ${HOURS.classroom.UT[1]} more at Level II, MT ${HOURS.classroom.MT[0]} and ${HOURS.classroom.MT[1]}, PT ${HOURS.classroom.PT[0]} and ${HOURS.classroom.PT[1]}. The five-method packages total ${packageHours(HOURS, 0)} hours at Level I and ${packageHours(HOURS, 1)} at Level II, plus on-the-job experience logged at work.`
-         }
-      },
-      {
-         "@type": "Question",
-         "name": "Do you offer online NDT training?",
-         "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Theory runs as live online sessions led by an ASNT NDT Level III. Practical training and the practical examination run on real specimens at your employer's facility; Atlantis does not run training centres."
-         }
-      },
-      {
-         "@type": "Question",
-         "name": "Do you offer NDT Level 2 recertification or renewal training?",
-         "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes — we run a dedicated NDT Level 2 recertification / renewal course for inspectors approaching their 5-year SNT-TC-1A or CP-189 cycle, covering technique refreshers, current code editions, and vision-test documentation ahead of the renewal exam. Available as an online refresher or bundled into a corporate group NDT training contract for inspection company staff."
-         }
-      }
-   ];
-
+   // 2026-10-18 (training.md §5.4): FAQPage JSON-LD only from the visible FAQ below, one list with the crawler
+   // (src/data/training-hub-faq-2026-10.json via scripts/training-release-2026-10.mjs).
    const faq = {
       "@type": "FAQPage",
-      "mainEntity": [
-         ...faqSchemaData,
-         {
-            "@type": "Question",
-            "name": "What NDT certification levels do you offer?",
-            "acceptedAnswer": {
-               "@type": "Answer",
-               "text": "Level I and Level II training and examinations to ASNT SNT-TC-1A, certified by your employer under its written practice, and ASNT Level III exam preparation."
-            }
-         },
-         {
-            "@type": "Question",
-            "name": "Do you provide hands-on practical training?",
-            "acceptedAnswer": {
-               "@type": "Answer",
-               "text": "Yes. Practical sessions run on real specimens at your facility: for on-site courses the instructor brings reference specimens and calibration blocks and trains on your own equipment, and the practical examination is administered by an ASNT Level III."
-            }
-         },
-         {
-            "@type": "Question",
-            "name": "Are courses available in India?",
-            "acceptedAnswer": {
-               "@type": "Answer",
-               "text": "Yes. Courses run live online or on-site at your facility in India, and Atlantis has an office in Hyderabad. See NDT training in Hyderabad."
-            }
-         }
-      ]
+      "mainEntity": HUB_FAQ_ITEMS.map((f) => ({
+         "@type": "Question",
+         "name": f.q,
+         "acceptedAnswer": { "@type": "Answer", "text": f.text },
+      })),
    };
 
    const serviceSchema = {
@@ -401,66 +351,14 @@ export default function Training() {
                   Frequently asked questions
                </h3>
                <Accordion type="single" collapsible>
-                  <AccordionItem value="q1">
-                     <AccordionTrigger>
-                        What NDT certification levels do you offer?
-                     </AccordionTrigger>
-                     <AccordionContent>
-                        <p className="text-muted-foreground">
-                           Level I and Level II training and examinations to
-                           ASNT SNT-TC-1A, certified by your employer under its
-                           written practice, and ASNT Level III exam preparation.
-                        </p>
-                     </AccordionContent>
-                  </AccordionItem>
-
-                  <AccordionItem value="q2">
-                     <AccordionTrigger>
-                        Do you provide hands-on practical training?
-                     </AccordionTrigger>
-                     <AccordionContent>
-                        <p className="text-muted-foreground">
-                           Yes. Practical sessions run on real specimens at your
-                           facility: for on-site courses the instructor brings
-                           reference specimens and calibration blocks and trains on
-                           your own equipment, and the practical examination is
-                           administered by an ASNT Level III.
-                        </p>
-                     </AccordionContent>
-                  </AccordionItem>
-
-                  <AccordionItem value="q3">
-                     <AccordionTrigger>
-                        Are courses available in India?
-                     </AccordionTrigger>
-                     <AccordionContent>
-                        <p className="text-muted-foreground">
-                           Yes. Courses run live online or on-site at your
-                           facility in India, and Atlantis has an office in
-                           Hyderabad. See{" "}
-                           <Link to="/ndt-training-hyderabad" className="text-primary underline">
-                              NDT training in Hyderabad
-                           </Link>
-                           .
-                        </p>
-                     </AccordionContent>
-                  </AccordionItem>
-
-                  <AccordionItem value="q4">
-                     <AccordionTrigger>
-                        Do you offer NDT Level 2 recertification or renewal training?
-                     </AccordionTrigger>
-                     <AccordionContent>
-                        <p className="text-muted-foreground">
-                           Yes — our NDT Level 2 recertification / renewal
-                           course refreshes technique, current code editions,
-                           and vision-test documentation ahead of your 5-year
-                           SNT-TC-1A or CP-189 cycle. Available as an online
-                           refresher or as part of a corporate NDT technician
-                           training contract for inspection company staff.
-                        </p>
-                     </AccordionContent>
-                  </AccordionItem>
+                  {HUB_FAQ_ITEMS.map((f, i) => (
+                     <AccordionItem key={f.q} value={`q${i + 1}`}>
+                        <AccordionTrigger>{f.q}</AccordionTrigger>
+                        <AccordionContent>
+                           <p className="text-muted-foreground [&_a]:text-primary [&_a]:underline" dangerouslySetInnerHTML={{ __html: f.html }} />
+                        </AccordionContent>
+                     </AccordionItem>
+                  ))}
                </Accordion>
             </div>
          </section>
@@ -651,6 +549,9 @@ export default function Training() {
                      <Link to="/ndt-training-usa" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
                         🇺🇸 USA Training
                      </Link>
+                     <Link to="/ndt-training-houston" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
+                        NDT training in Houston
+                     </Link>
                      <Link to="/ndt-training-dubai" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
                         🇦🇪 Dubai & UAE
                      </Link>
@@ -683,7 +584,7 @@ export default function Training() {
                      </h2>
                      <p className="text-lg text-muted-foreground mb-6">
                         Online practical NDT simulation for hands-on method
-                        practice between live sessions. It is practice only, not a
+                        practice between online modules. It is practice only, not a
                         substitute for the practical examination.
                      </p>
                      <ul className="space-y-3 mb-8">
@@ -693,7 +594,7 @@ export default function Training() {
                         </li>
                         <li className="flex items-center gap-3">
                            <GraduationCap className="w-5 h-5 text-primary" />
-                           <span>Practice between live sessions</span>
+                           <span>Practice between online modules</span>
                         </li>
                         <li className="flex items-center gap-3">
                            <GraduationCap className="w-5 h-5 text-primary" />
@@ -757,8 +658,8 @@ export default function Training() {
                            <div className="mt-8 p-6 bg-primary/5 rounded-lg">
                               <p className="text-center text-muted-foreground">
                                  Training is led by founder Anoop Rayavarapu, ASNT NDT
-                                 Level III in UT, RT, MT, PT and VT, and delivered live
-                                 online or on-site at your facility.
+                                 Level III in UT, RT, MT, PT and VT, and delivered as
+                                 self-paced online theory or on-site at your facility.
                               </p>
                            </div>
                         </CardContent>
@@ -768,7 +669,6 @@ export default function Training() {
             </div>
          </section>
 
-         <GeoHubDirectory family="training" />
          {/* CTA Section */}
          <section className="py-20 bg-gray-100">
             <div className="container mx-auto px-6 text-center">
@@ -783,7 +683,7 @@ export default function Training() {
                   </h2>
                   <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
                      Tell us the methods, levels, number of trainees and where
-                     you work, and we reply with a quote within one business day.
+                     you work, and we reply within one business day.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                      {/* <Button
