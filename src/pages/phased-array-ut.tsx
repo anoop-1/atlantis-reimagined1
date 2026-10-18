@@ -693,7 +693,7 @@ export default function PhasedArrayUT() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need PAUT Consultation?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers develop ASME Appendix IV PAUT procedures, qualify techniques on representative mock-ups, and manage weld inspection programs.
+              Our ASNT NDT Level III develops ASME Appendix IV PAUT procedures, qualifies techniques on representative mock-ups and manages weld inspection programmes.
             </p>
             <Link
               to="/contact"

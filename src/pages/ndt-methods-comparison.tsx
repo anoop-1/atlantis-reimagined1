@@ -776,7 +776,7 @@ export default function NDTMethodsComparison() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need Method Selection Help?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers help you select the right NDT method for your application — matching defect types, materials, codes, and budget to the optimal inspection strategy.
+              Our ASNT NDT Level III helps you select the right NDT method for your application — matching defect types, materials, codes, and budget to the optimal inspection strategy.
             </p>
             <Link
               to="/contact"

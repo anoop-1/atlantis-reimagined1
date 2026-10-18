@@ -1,3 +1,51 @@
 {
-  "_note": "CTR wave 16 (inspection workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files."
+  "_note": "CTR wave 16 (inspection workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files.",
+  "/inspection/pressure-vessel-inspection-services": {
+    "title": "Pressure Vessel Inspection Services: API 510 NDE Support",
+    "description": "Pressure vessel inspection services across the USA: API 510 external and internal NDE, UT and PAUT at CMLs, corrosion mapping, Level III-reviewed reports."
+  },
+  "/power-generation-ndt-services": {
+    "title": "Power Station NDT: Boiler Tube, HRSG and Piping Inspection",
+    "description": "Power plant NDT for outages: boiler tube and header welds, HRSG, B31.1 high-energy piping and turbine parts by UT, PAUT, MT and PT, Level III-reviewed."
+  },
+  "/marine-offshore-ndt-services": {
+    "title": "Maritime NDT Services: Shipyard, Hull and Offshore NDT",
+    "description": "Maritime and marine NDT inspection services: shipyard weld UT, PAUT, MT and PT, hull and offshore structure examination, Level III-reviewed reports."
+  },
+  "/corrosion-mapping": {
+    "title": "Corrosion Mapping Services: PAUT and AUT C-Scan Wall Loss",
+    "description": "Corrosion mapping services across the USA: encoded PAUT and AUT C-scans of vessels, piping and tanks, thickness grids you can trend, Level III-reviewed."
+  },
+  "/inspection/weld-inspection-services-us": {
+    "title": "How to Buy Weld Inspection: CWI vs NDT, Codes and Scope",
+    "description": "A buyer's guide to weld inspection on US projects: CWI vs NDT Level II, AWS D1.1, ASME IX and API 1104 acceptance, shop vs field, and scoping the work."
+  },
+  "/blog/mining-equipment-weld-inspection": {
+    "title": "Mining Equipment and Wheel Weld Inspection: UT, MT, D1.1",
+    "description": "Weld inspection for mining equipment and haul truck wheels: fatigue and hydrogen cracking, the UT, PAUT and MT that find them, and AWS D1.1 acceptance."
+  },
+  "/blog/pipeline-integrity-management-ili-dig-verification-and-api-1163-explained": {
+    "title": "ILI Dig Verification and API 1163: NDE at Integrity Digs",
+    "description": "What happens at an ILI verification dig: the NDE crew's UT, PAUT and MT, how findings are compared with the tool call under API 1163, and 49 CFR 192/195."
+  },
+  "/blog/surface-breaking-crack-detection-comprehensive-methods": {
+    "title": "Surface Crack Detection: MT, PT or Eddy Current?",
+    "description": "Surface crack detection compared: magnetic particle, penetrant and eddy current, what each finds on which material, and how to buy it as a field service."
+  },
+  "/pipeline-inspection-services": {
+    "title": "Pipeline Inspection Services: UT, PAUT and Weld NDT",
+    "description": "Pipeline and plant piping NDT across the USA: UT thickness and corrosion mapping, CUI, PAUT and girth weld examination, Level III-reviewed. No ILI runs."
+  },
+  "/magnetic-particle-testing": {
+    "title": "Magnetic Particle Testing Services: Yoke MT to ASTM E709",
+    "description": "Magnetic particle testing on site across the USA: yoke, prod and coil technique to ASTM E709 and ASME V Article 7, with reports reviewed by a Level III."
+  },
+  "/blog/pipe-wall-thickness-inspection-ut-procedures": {
+    "title": "Pipe Wall Thickness UT: CMLs, Corrosion Rate, Remaining Life",
+    "description": "Probe choice for rough and hot surfaces, CML placement, short and long-term corrosion rates, and how remaining life is calculated under API 570."
+  },
+  "/blog/ndt-for-power-generation-boiler-tube-and-turbine-blade-inspection": {
+    "title": "Boiler Tube and Turbine Blade NDT for Power Plants",
+    "description": "Boiler tube and turbine blade NDT for power plants: tube wastage, creep and overheating, blade fatigue and stress corrosion, and the NDT methods for each."
+  }
 }

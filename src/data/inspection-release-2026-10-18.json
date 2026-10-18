@@ -1,0 +1,221 @@
+{
+  "_note": "Inspection release 2026-10-18 (competitor teardown /home/claude/wt/shared/rea/inspection.md in-session). One source for both layers: src/data/inspection-release-2026-10-18.mjs renders this file; scripts/inspection-release-2026-10-18.mjs inserts it into the crawler HTML (after the rank-wave14 answer, or before the named heading) and adds FAQPage and Service JSON-LD from the same Q&A, and the pages that carry it are in publishedPaths (src/lib/published-pages.ts), so React shows the same <main>. rewrites: full bodies for the power and maritime owner pages (industryServicePages in prerender.mjs). Every industry fact names its public source; Atlantis facts come from p17-rules / CLAUDE.md / the live site. Methods offered: UT, PAUT, TOFD, RT, MT, PT, VT. No prices, no time promises except 'we reply within one business day', no accreditations.",
+  "updated": "2026-10-18",
+  "area": "Where we work: nationwide. Technicians are mobilised to your site anywhere in the USA; apart from the Houston office there is no local office, so mobilisation is planned and quoted for each job.",
+  "pages": {
+    "/inspection/pressure-vessel-inspection-services": {
+      "sections": [],
+      "service": { "name": "Pressure vessel inspection services", "serviceType": "API 510 pressure vessel NDE" }
+    },
+    "/inspection/phased-array-inspection-services": {
+      "sections": [],
+      "service": { "name": "PAUT inspection services", "serviceType": "Phased array ultrasonic testing" }
+    },
+    "/ultrasonic-testing": {
+      "place": "afterAnswer",
+      "sections": [
+        {
+          "id": "ut-pipe-thickness",
+          "h2": "UT pipe inspection and pipe wall thickness testing",
+          "paragraphs": [
+            "UT pipe inspection on process piping is mostly thickness work: readings at the condition monitoring locations (CMLs) that your API 570 inspection plan defines, so each campaign measures the same metal and the corrosion rate between campaigns is real. Readings follow a written procedure based on ASTM E797, the standard practice for measuring thickness by the manual ultrasonic pulse-echo contact method, which ASME Section V adopts in Article 23 as SE-797. The report states the instrument mode used for the readings.",
+            "Where wall loss is localised, for example under deposits, at injection points or along the bottom of a line, single readings can miss the minimum, so an encoded grid replaces them: see [corrosion mapping services](/corrosion-mapping). Atlantis NDT mobilises UT technicians to plants anywhere in the USA and returns readings tabulated per CML, with the instrument, probe and calibration records attached."
+          ],
+          "sources": ["API 570, Piping Inspection Code", "ASTM E797/E797M", "ASME BPVC Section V, Article 23 (SE-797)"]
+        },
+        {
+          "id": "ut-who-reviews",
+          "h2": "Who reviews the work",
+          "paragraphs": [
+            "Atlantis NDT's ASNT NDT Level III is its founder, Anoop Rayavarapu: ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. Procedures and technique sheets are approved at Level III, and reports are reviewed by an ASNT NDT Level III before they are issued. See [his profile](/authors/anoop-rayavarapu) and a real engagement: [UT weld inspection procedure code update](/case-studies/ut-weld-inspection-procedure-code-update-lng)."
+          ]
+        }
+      ],
+      "faq": {
+        "h2": "Ultrasonic inspection services: buyer questions",
+        "items": [
+          { "q": "Is ultrasonic testing done on site or in a laboratory?", "a": "On site. Atlantis NDT mobilises UT technicians and equipment to your plant, shop or job site anywhere in the USA; apart from the Houston office there is no local office, so mobilisation is planned and quoted for each job." },
+          { "q": "What do you need from us to quote a UT job?", "a": "The component list or isometrics, material and nominal thickness, the CML or weld numbers, access and insulation details, operating temperature, the acceptance code and your dates. Every job is quoted on request, and we reply within one business day." },
+          { "q": "Can UT measure pipe wall thickness through paint?", "a": "Often, yes. In echo-to-echo mode a thickness gauge measures between successive back-wall echoes, which leaves out a thin, well-bonded coating; thick or disbonded coatings are removed at the reading point. The measurement practice is ASTM E797, and the report states which mode was used." },
+          { "q": "Who is qualified to perform ultrasonic testing?", "a": "Under ASNT SNT-TC-1A the employer certifies its technicians to a written practice: a Level II sets up, performs and interprets the examination, and a Level III approves procedures. Atlantis NDT reports are reviewed by an ASNT NDT Level III before they are issued." }
+        ]
+      },
+      "service": { "name": "Ultrasonic inspection services", "serviceType": "Ultrasonic testing" }
+    },
+    "/inspection-services-indiana": {
+      "place": "afterAnswer",
+      "sections": [
+        {
+          "id": "mt-indiana-technique",
+          "h2": "Magnetic particle inspection in Indiana mills and plants: technique and standards",
+          "paragraphs": [
+            "Field magnetic particle inspection is mostly yoke work: an AC yoke for surface cracks on welds and repairs, wet fluorescent particles under UV-A light where sensitivity matters, and dry or wet visible particles where the area cannot be darkened. Technique follows ASTM E709, the standard guide for magnetic particle testing, and ASME Section V Article 7; structural welds are accepted to AWS D1.1 and pressure equipment to the code that governs it.",
+            "MT works only on ferromagnetic steel, so austenitic stainless steel and aluminium need [penetrant testing](/penetrant-testing) instead. Atlantis NDT performs MT on site in Indiana by mobilising technicians; there is no Indiana office. For the method in detail, see [magnetic particle testing](/magnetic-particle-testing)."
+          ],
+          "sources": ["ASTM E709, Standard Guide for Magnetic Particle Testing", "ASME BPVC Section V, Article 7", "AWS D1.1"]
+        }
+      ],
+      "faq": {
+        "h2": "Magnetic particle inspection in Indiana: technique questions",
+        "items": [
+          { "q": "Wet fluorescent or dry powder for a mill weld repair?", "a": "Wet fluorescent particles give the highest sensitivity to fine surface cracks but need UV-A light and a darkened area; dry powder suits hot or rough surfaces where a wet bath is impractical. ASTM E709 covers both techniques, and the procedure names the one used." },
+          { "q": "Does magnetic particle inspection work on stainless steel?", "a": "Only on ferromagnetic grades. Austenitic stainless steels such as 304 and 316 are non-magnetic, so welds in them are examined with penetrant testing to ASME Section V Article 6 instead." }
+        ]
+      }
+    },
+    "/blog/mining-equipment-weld-inspection": {
+      "place": { "before": "<h2>Frequently Asked Questions</h2>" },
+      "sections": [
+        {
+          "id": "haul-truck-wheel-rim",
+          "h2": "Haul truck wheel and rim weld inspection",
+          "paragraphs": [
+            "Off-the-road mining wheels are welded assemblies, and rim components crack in service. MSHA's Tire and Rim Safety best-practice card ([BP-30](https://www.msha.gov/sites/default/files/Alerts%20and%20Hazards/BP%20Cards/BP-30%20Tire%20and%20Rim%20Safety.pdf)) tells mine personnel to check tires and rims for damage and defects before any work, to inspect the lock ring for damage, to replace cracked, bent, broken, damaged or severely rusted rim components, and never to weld or cut on an assembled tire or apply heat to a wheel.",
+            "Wheel makers examine the welds themselves: one off-the-road wheel manufacturer states that its full-penetration wheel welds receive 100% phased array ultrasonic inspection and lists magnetic particle testing as a step in its wheel recertification process ([otrwheel.com](https://otrwheel.com/mining)). For a fleet, that splits the NDT in two: MT on a cleaned, demounted rim finds surface-breaking cracks at welds and ring grooves, and UT or PAUT examines full-penetration welds through their thickness. See [magnetic particle testing](/magnetic-particle-testing) and [PAUT inspection services](/inspection/phased-array-inspection-services)."
+          ],
+          "sources": ["MSHA Best Practice Series BP-30, Tire and Rim Safety", "otrwheel.com/mining"]
+        }
+      ]
+    },
+    "/blog/pipeline-integrity-management-ili-dig-verification-and-api-1163-explained": {
+      "place": { "before": "<h2>Probability of Detection" },
+      "sections": [
+        {
+          "id": "nde-at-integrity-digs",
+          "h2": "NDE at integrity digs: what the NDE crew does, and what it does not",
+          "paragraphs": [
+            "An integrity dig exposes the pipe at an in-line inspection (ILI) call so the anomaly can be measured directly. The excavation contractor digs, cleans and recoats; the NDE crew measures, with UT thickness and corrosion mapping for metal loss, UT or PAUT for crack depth and MT for surface cracking such as stress corrosion cracking colonies, and records each measurement against the tool call so the operator can compare field and ILI results.",
+            "For gas transmission lines, [49 CFR 192.493](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192/subpart-L/section-192.493) requires in-line inspection to comply with API STD 1163, and [49 CFR 192.712](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192/subpart-I/section-192.712) names ASME B31G among the remaining-strength methods for corrosion metal loss; for hazardous liquid lines, [49 CFR 195.452](https://www.law.cornell.edu/cfr/text/49/195.452) names ASME B31G in its integrity management rule. The remaining-strength assessment belongs to the operator's engineers. Atlantis NDT supplies the NDE at the dig and the report, reviewed by an ASNT NDT Level III; it does not excavate and does not run in-line inspection tools."
+          ],
+          "sources": ["49 CFR 192.493 and 192.712", "49 CFR 195.452", "API STD 1163", "ASME B31G"]
+        }
+      ],
+      "faq": {
+        "h2": "NDE at integrity digs: questions",
+        "items": [
+          { "q": "Does Atlantis NDT excavate or run the in-line inspection tool?", "a": "No. The excavation contractor exposes and recoats the pipe and the ILI vendor runs the tool. Atlantis NDT supplies the NDE crew that measures the anomaly at the dig, and the report, reviewed by an ASNT NDT Level III." },
+          { "q": "Which NDE methods are used at a verification dig?", "a": "UT thickness and corrosion mapping for metal loss, UT or PAUT for crack depth, and MT for surface cracking such as SCC. Each measurement is recorded against the ILI feature so the operator can compare field and tool results under API 1163." }
+        ]
+      }
+    },
+    "/blog/surface-breaking-crack-detection-comprehensive-methods": {
+      "place": "afterIntro",
+      "sections": [
+        {
+          "id": "surface-crack-field-service",
+          "h2": "Surface crack detection as a field service",
+          "paragraphs": [
+            "Atlantis NDT performs magnetic particle testing on ferromagnetic steel (ASME Section V Article 7, ASTM E709) and penetrant testing on stainless steel, aluminium and other non-magnetic materials (ASME Section V Article 6, ASTM E165) on site anywhere in the USA. Reports state the technique, materials and lighting checks and evaluate indications against your acceptance code, reviewed by an ASNT NDT Level III. See [magnetic particle testing services](/magnetic-particle-testing) and [penetrant testing services](/penetrant-testing)."
+          ],
+          "sources": ["ASME BPVC Section V, Articles 6 and 7", "ASTM E709", "ASTM E165"]
+        }
+      ]
+    }
+  },
+  "rewrites": {
+    "/power-generation-ndt-services": {
+      "nav": "<header><nav aria-label=\"Main Navigation\"><a href=\"/\">Home</a><a href=\"/inspection-services\">Inspection services</a><a href=\"/consulting\">Consulting</a><a href=\"/training\">Training</a><a href=\"/contact\">Contact</a></nav></header>",
+      "h1": "Power Plant NDT Services: Boilers, HRSGs, Turbines and Piping",
+      "intro": "Atlantis NDT supplies the nondestructive examination behind planned power plant outages: UT, PAUT, TOFD, MT, PT and VT on boiler tubes and welds, headers, HRSGs, high-energy piping and turbine parts, with reports reviewed by an ASNT NDT Level III.",
+      "sections": [
+        {
+          "id": "power-what-covers",
+          "h2": "What does power station NDT cover?",
+          "paragraphs": [
+            "Power station NDT examines the components that crack or thin in service and are found at outages: boiler waterwall, superheater and reheater tubes and their welds, headers and drums, HRSG tubes and headers, high-energy piping, and turbine and generator parts. Atlantis NDT mobilises technicians for planned outages anywhere in the USA; radiography, where the code requires it, is scoped with the job."
+          ]
+        },
+        {
+          "id": "power-boiler-tube-welds",
+          "h2": "Boiler tube weld inspection",
+          "paragraphs": [
+            "Boiler tube butt welds are thin-walled and closely spaced. ASME Section I paragraph PW-11 sets the radiographic and ultrasonic examination of welded butt joints in boilers, and ASME B31.1 Table 136.4 sets the type and extent of mandatory examination for power piping welds; the US Coast Guard's rules for marine boilers and piping cite the same paragraph and table ([46 CFR 52.05-20](https://www.law.cornell.edu/cfr/text/46/52.05-20), [46 CFR 56.95-10](https://www.ecfr.gov/current/title-46/chapter-I/subchapter-F/part-56/subpart-56.95/section-56.95-10)).",
+            "Where the governing code or the owner's specification permits ultrasonic examination, encoded PAUT gives a recorded scan of each weld instead of a film, and the scan plan has to show coverage of the weld volume. Tube wall loss from fireside erosion or corrosion is a separate job: UT thickness on cleaned tube surfaces at recorded locations, so the next outage measures the same points."
+          ],
+          "sources": ["ASME BPVC Section I, PW-11", "ASME B31.1, Table 136.4", "46 CFR 52.05-20 and 56.95-10"]
+        },
+        {
+          "id": "power-headers-piping",
+          "h2": "Headers, drums and high-energy piping",
+          "paragraphs": [
+            "Welds and high-stress locations on headers, drums and high-energy piping are examined with UT, PAUT, TOFD and MT. Which locations are examined, the acceptance standard and any life assessment belong to the plant's engineering programme; the NDE report gives that programme located, sized indications and thickness readings it can trend from one outage to the next."
+          ]
+        },
+        {
+          "id": "power-outage-roles",
+          "h2": "Who does what at an outage",
+          "paragraphs": [
+            "Jurisdictional boiler and pressure vessel inspections are made by commissioned inspectors. The [National Board of Boiler and Pressure Vessel Inspectors](https://www.nationalboard.org/Index.aspx?pageID=392) commissions in-service inspectors for the periodic inspections that jurisdictions require and Authorized Inspectors for the inspections the ASME Code requires. Atlantis NDT is not a commissioned or Authorized Inspector: it supplies the NDE those inspectors and your engineers rely on, and your inspector remains inspector of record."
+          ],
+          "sources": ["National Board of Boiler and Pressure Vessel Inspectors, Commissioned Inspectors"]
+        }
+      ],
+      "receive": [
+        "Examination records per weld, tube or location: method, procedure, extent and result",
+        "Indications located and sized, and evaluated against the acceptance criteria you name",
+        "Thickness readings tabulated against recorded locations you can find again at the next outage",
+        "Technician certification and equipment calibration records",
+        "A report reviewed by an ASNT NDT Level III before it is issued"
+      ],
+      "links": "[PAUT inspection services](/inspection/phased-array-inspection-services) · [ultrasonic inspection services](/ultrasonic-testing) · [weld inspection services](/weld-inspection) · [boiler tube and turbine blade NDT guide](/blog/ndt-for-power-generation-boiler-tube-and-turbine-blade-inspection) · [request an outage NDT quote](/contact?service=inspection)",
+      "faq": {
+        "h2": "Power plant NDT: questions",
+        "items": [
+          { "q": "Can PAUT replace radiography on boiler tube welds?", "a": "Where the construction code or the owner's specification permits ultrasonic examination, yes. The scan plan must show coverage of the weld volume, and acceptance comes from the governing code, not from the method." },
+          { "q": "Do you provide the jurisdictional boiler inspection?", "a": "No. Jurisdictional boiler and pressure vessel inspections are made by commissioned inspectors. Atlantis NDT supplies the NDE they rely on, and your inspector remains inspector of record." },
+          { "q": "What do you need from us to plan outage NDT?", "a": "The outage window, the components and weld or tube locations in scope, drawings or tube maps, materials, access and scaffolding plans, the acceptance code and the reporting format you need. Every job is quoted on request, and we reply within one business day." }
+        ]
+      },
+      "service": { "name": "Power plant NDT services", "serviceType": "Nondestructive testing for power generation" }
+    },
+    "/marine-offshore-ndt-services": {
+      "nav": "<header><nav aria-label=\"Main Navigation\"><a href=\"/\">Home</a><a href=\"/inspection-services\">Inspection services</a><a href=\"/consulting/maritime-ndt-consulting\">Maritime consulting</a><a href=\"/training\">Training</a><a href=\"/contact\">Contact</a></nav></header>",
+      "h1": "Maritime and Marine NDT Inspection Services",
+      "intro": "Atlantis NDT performs maritime NDT on shipyard welds, hull structure and offshore structures: VT, MT and PT for surface defects, UT and PAUT for weld volume and plate thickness, with reports reviewed by an ASNT NDT Level III.",
+      "sections": [
+        {
+          "id": "marine-what-covers",
+          "h2": "What maritime NDT services cover",
+          "paragraphs": [
+            "Maritime NDT examines welds in new construction and repair, hull plating and structure, and offshore structures. Visual examination comes first on every weld, MT or PT finds surface-breaking cracks, and UT or PAUT examines weld volume and measures plate thickness, with TOFD where the specification calls for it. Atlantis NDT mobilises technicians to shipyards, drydocks and ports anywhere in the USA."
+          ]
+        },
+        {
+          "id": "marine-class",
+          "h2": "Class surveys and thickness measurement",
+          "paragraphs": [
+            "Hull thickness measurements that support a classification survey are normally taken by a firm the classification society has approved as a service supplier: IACS Unified Requirement Z17, Procedural Requirements for Service Suppliers, includes specific provisions for firms engaged in thickness measurements ([UR Z17](https://irclass.org/media/5751/2-relevant-sections-of-ur-z17-rev16.pdf)). Before ordering gauging for a class survey, confirm with the attending classification society which approval the measurements need; acceptance of the results is the attending surveyor's decision.",
+            "For NDT on new construction of classed ships and offshore structures, IACS UR W35 sets requirements for NDT suppliers, including the Level 3 who approves procedures: see [maritime NDT consulting](/consulting/maritime-ndt-consulting).",
+            "Atlantis NDT structures its marine reports to the content of IACS Recommendation No. 20, IACS UR W11 and IMO MSC.1/Circ.1409 where they apply, for vessels classed with ABS, DNV, Lloyd's Register, Bureau Veritas or another society."
+          ],
+          "sources": ["IACS UR Z17, Procedural Requirements for Service Suppliers", "IACS UR W35"]
+        },
+        {
+          "id": "marine-navy",
+          "h2": "Naval and government ship work",
+          "paragraphs": [
+            "US Navy and Navy-contract work follows NAVSEA Technical Publication T9074-AS-GIB-010/271, which governs NDT personnel, procedures and equipment on that work: personnel are certified under the activity's own written practice developed per ASNT SNT-TC-1A, with additional minimums set by the publication. See [NAVSEA NDT requirements for shipyards](/consulting/navsea-ndt-requirements-shipyard)."
+          ],
+          "sources": ["NAVSEA T9074-AS-GIB-010/271"]
+        }
+      ],
+      "receive": [
+        "Examination records per weld or area: method, procedure, extent and result, against your weld map or hull drawing",
+        "Indications located and sized, and evaluated against the rules or specification you name",
+        "Thickness readings tabulated against the locations on your drawing",
+        "Technician certification and equipment calibration records",
+        "A report reviewed by an ASNT NDT Level III before it is issued"
+      ],
+      "links": "[ultrasonic inspection services](/ultrasonic-testing) · [PAUT inspection services](/inspection/phased-array-inspection-services) · [weld inspection services](/weld-inspection) · [maritime NDT consulting](/consulting/maritime-ndt-consulting) · [request a shipyard NDT quote](/contact?service=inspection)",
+      "faq": {
+        "h2": "Maritime NDT services: questions",
+        "items": [
+          { "q": "Which NDT methods are used on shipyard welds?", "a": "Visual examination on every weld, MT or PT for surface cracks, and UT or PAUT for volumetric examination where the rules or the specification call for it. The class rules or the owner's specification set the extent of examination and the acceptance criteria." },
+          { "q": "Who accepts the NDT results on a classed vessel?", "a": "The attending class surveyor. Atlantis NDT reports the examination against the rules or specification you name, reviewed by an ASNT NDT Level III; acceptance of the results is the surveyor's decision." },
+          { "q": "What do you need from us to quote shipyard NDT?", "a": "The vessel or structure, the weld map or hull drawings, materials and thicknesses, the rules or specification and acceptance criteria, access, the yard or port location and your dates. Every job is quoted on request, and we reply within one business day." }
+        ]
+      },
+      "service": { "name": "Maritime and marine NDT inspection services", "serviceType": "Nondestructive testing for shipyards and offshore structures" }
+    }
+  }
+}

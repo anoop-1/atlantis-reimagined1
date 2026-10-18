@@ -631,7 +631,7 @@ export default function CorrosionMapping() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need Corrosion Mapping?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers design and execute corrosion mapping programs with full API 510/570/653 compliant reporting; your API Authorized Inspector remains inspector of record for remaining-life and interval decisions.
+              Our ASNT NDT Level III designs corrosion mapping programmes and reviews the reports, with full API 510/570/653 compliant reporting; your API Authorized Inspector remains inspector of record for remaining-life and interval decisions.
             </p>
             <Link
               to="/contact"

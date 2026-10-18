@@ -225,6 +225,12 @@ export const RULES = [
   ['TURNAROUND-PROMISE', /returned signed and stamped within (?:two|three|\d+)\s*(?:to|-|–)\s*(?:three|four|five|\d+) business days/i],
   // 2026-10-12 (owner): no client names or logos anywhere on the site (sectors only).
   ['CLIENT-LOGO', /\/logos\/clients\/|Trusted by (?:<[^>]*>)?Industry Leaders|NDT Consulting Client"/i],
+  // 2026-10-18 (inspection release): removed from the inspection owners and their templates;
+  // invented sizing figures, unverified equipment, invented shares and outcomes, cohorts, plural
+  // Level III teams, qualified-team claims and the old 24-hour quote lines must not return.
+  ['INSPECTION-CLAIM', /Sizing accuracy: ±1-2 mm|inspectors run Olympus OmniScan X3|approximately 15% of all industrial NDT|inspection-planning effort reduced \d|Atlantis MT Pack|Level II MT cohort|practical week runs full calibration drill|Our ASNT Level III engineers|Replaces RT in most onshore applications|PAUT replacing RT for most weld applications|ASME qualified outage support teams|ASME\/NRC qualified|NRC qualified, ASME|AISC certified inspectors|NAS-410 certified, NADCAP compliant/i],
+  ['INSPECTION-CLAIM', /Tailored \$\{(?:cityName|city\.name|v\.name)\}[^`]{0,40}quote within 24 hours|sectors with certified \$\{(?:m\.short|method\.shortName)\} inspection teams/],
+  ['INSPECTION-CLAIM', /within 24 hours|24-hour turnaround/i, null, null, /^src\/data\/(?:deep-content\/inspection__(?:pressure-vessel-inspection-services|piping-circuit-inspection-cml)\.json|inspection-release-2026-10-18\.json)$/],
 ];
 
 // Self-test for the 2026-10-11 founder rules: known-bad strings must match and

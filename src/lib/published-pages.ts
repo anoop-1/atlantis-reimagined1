@@ -9,6 +9,13 @@ export const publishedPaths = new Set([
   '/blog/api-510-570-653-exam-schedule-2026',
   '/blog/asme-b31-3-process-piping-requirements', '/blog/asme-b31-3-process-piping-code-explained',
   '/consulting/asnt-level-iii-consulting-services', '/compliance',
+  // 2026-10-18 inspection release: crawler <main> is the one source (sections, FAQ, template claim fixes).
+  '/ultrasonic-testing', '/magnetic-particle-testing', '/corrosion-mapping', '/inspection-services-indiana', '/ndt-for-power-generation',
+  '/power-generation-ndt-services', '/marine-offshore-ndt-services', '/pipeline-inspection-services', '/oil-gas-ndt-services', '/aerospace-ndt-services',
+  '/petrochemical-ndt-services', '/nuclear-ndt-services', '/construction-ndt-services', '/verticals/refining', '/verticals/petrochem', '/verticals/marine',
+  '/verticals/aerospace', '/verticals/lng', '/verticals/mining', '/verticals/power-gen', '/verticals/hydrogen', '/verticals/ccs', '/verticals/offshore-wind',
+  '/blog/mining-equipment-weld-inspection', '/blog/pipeline-integrity-management-ili-dig-verification-and-api-1163-explained',
+  '/blog/surface-breaking-crack-detection-comprehensive-methods',
 ]);
 export const usesPublishedContent = (path: string) => publishedPaths.has(path) || publicationCache.get(path)?.editorial === true || /^\/(ar|es)\//.test(path);
 

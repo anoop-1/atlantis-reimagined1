@@ -641,7 +641,7 @@ export default function TOFDTesting() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need TOFD Consultation?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers develop ASME Appendix III TOFD procedures, qualify combined PAUT+TOFD programs, and provide specialist TOFD training and consulting.
+              Our ASNT NDT Level III develops ASME Appendix III TOFD procedures, qualifies combined PAUT+TOFD programmes and provides TOFD training and consulting.
             </p>
             <Link
               to="/contact"

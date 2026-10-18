@@ -699,7 +699,7 @@ export default function GuidedWaveTesting() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need GWT Consulting?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers develop GWT procedures, qualify personnel, and design CUI screening programs for refineries, pipelines, and offshore assets.
+              Talk to us about guided wave screening for refineries, pipelines or offshore assets; who performs and reviews the work is confirmed per project.
             </p>
             <Link
               to="/contact"

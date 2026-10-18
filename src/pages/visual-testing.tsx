@@ -935,7 +935,7 @@ export default function VisualTesting() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need VT Consultation?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers provide VT procedure development,
+              Our ASNT NDT Level III provides VT procedure development,
               ASME Article 9 compliance review, drone VT program setup, and
               ASNT VT training.
             </p>
