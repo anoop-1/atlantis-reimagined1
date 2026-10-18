@@ -62,7 +62,7 @@ const dtFaqs = [
    },
    {
       q: "How long does an integration take from kickoff to first asset live?",
-      a: "Pilot asset live in 4-6 weeks for a single circuit (one storage tank, one piping circuit, one heat exchanger, or one pressure vessel). Plant-wide rollout for a typical 200-asset refinery is 6-9 months. Greenfield mega-projects (LNG terminal, petrochemical complex, FPSO commissioning) sit on a 12-18 month deployment plan that runs alongside the commissioning schedule. The Atlantis deployment team is fronted by an ASNT Level III engineer plus a solution architect; their first job in week 1 is reading your existing IDMS / EAM dump (Meridium, Maximo, AssetWise, Mtell), mapping functional locations, and standing up the data pipeline."
+      a: "It depends on the asset count, the data you already hold and the integrations in scope, so the timeline is scoped with you during the demo and written into the proposal. A typical sequence starts with a pilot on a single circuit (one storage tank, one piping circuit, one heat exchanger or one pressure vessel): reading your existing inspection and asset records, mapping functional locations and loading the reference data, then the twin geometry and the NDE-record migration."
    },
    {
       q: "Which inspection standards and regulatory codes does the platform support natively?",
@@ -98,7 +98,7 @@ const dtFaqs = [
    },
    {
       q: "How does the platform scale from a pilot to a full enterprise rollout?",
-      a: "Scale is engineered in from day one. The data model partitions per-asset, per-tenant; rendering uses level-of-detail mesh decimation so large scenes stay responsive. Large deployments can run as a single-tenant instance, so one customer is not affected by another customer's load. The deployment pattern we recommend: pilot on one circuit (week 1-6), validate against your Level III's existing workflow, expand to one full unit (month 2-4), expand to a full plant (month 5-9), then horizontal expansion across the operator's portfolio at 1-2 plants per quarter. Each stage has its own acceptance check before the next one starts."
+      a: "Scale is engineered in from day one. The data model partitions per-asset, per-tenant; rendering uses level-of-detail mesh decimation so large scenes stay responsive. Large deployments can run as a single-tenant instance, so one customer is not affected by another customer's load. The deployment pattern we recommend: pilot on one circuit, validate it against your Level III's existing workflow, expand to one full unit, then a full plant, then across the operator's portfolio. Each stage has its own acceptance check before the next one starts, and the timeline for each is agreed in the proposal."
    }
 ];
 

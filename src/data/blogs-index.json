@@ -226,15 +226,15 @@
  },
  {
   "slug": "shear-wave-ut-for-thick-section-inspection",
-  "title": "Shear Wave UT for Thick Section Inspection [2026]",
+  "title": "Shear Wave UT: Angle Beam Inspection of Thick-Section Welds",
   "category": "NDT Methods",
-  "metaDescription": "How angled shear wave probes detect laminations and delaminations in thick sections, and why angle selection and calibration decide whether "
+  "metaDescription": "Shear wave NDT explained: how angle beam UT turns sound into a transverse wave, angle and skip distance, calibration blocks, and where shear"
  },
  {
   "slug": "compression-wave-vs-shear-wave-technical-differences",
-  "title": "Compression Wave vs Shear Wave: Technical Differences [2026]",
+  "title": "Compression Wave vs Shear Wave UT: Technical Differences",
   "category": "NDT Methods",
-  "metaDescription": "Compression and shear ultrasonic wave modes trade speed for sensitivity differently, a look at the physics behind probe selection and defect"
+  "metaDescription": "Compression vs shear waves in UT: particle motion, velocity and wavelength in steel, mode conversion, critical angles, and which mode a proc"
  },
  {
   "slug": "multi-group-phased-array-scanning-techniques",
@@ -280,9 +280,9 @@
  },
  {
   "slug": "reference-standards-and-block-calibration-in-ut",
-  "title": "Reference Standards and Block Calibration in UT [2026]",
+  "title": "UT Reference Standards and Calibration Blocks: What Each Does",
   "category": "NDT Methods",
-  "metaDescription": "A guide to the reference blocks UT inspectors calibrate against: DAC, notch, and side-drilled-hole standards, and why traceability makes res"
+  "metaDescription": "UT calibration and reference blocks: IIW-type, ASME Section V side-drilled-hole and ASTM E127/E428 blocks, DAC, transfer correction and the "
  },
  {
   "slug": "probe-selection-and-frequency-optimization",
@@ -1169,8 +1169,8 @@
  },
  {
   "slug": "mt-vs-pt-comparison",
-  "title": "MT vs PT 2026: Magnetic Particle vs Liquid Penetrant Comparison",
-  "metaDescription": "MT vs PT comparison 2026: materials, sensitivity, speed, cost, temperature, code coverage, surface prep. Free Atlantis NDT decision guide."
+  "title": "MT vs PT: Magnetic Particle vs Penetrant Testing",
+  "metaDescription": "MT vs PT side by side: materials, surface vs near-surface flaws, ASTM and ASME Section V references, prep and dwell, speed, and when a code "
  },
  {
   "slug": "paut-vs-tofd-comparison",
@@ -4856,8 +4856,8 @@
  },
  {
   "slug": "digital-twin-for-refinery-turnaround-planning-what-it-actually-changes",
-  "title": "Digital Twin for Refinery Turnaround Planning: What It Actually Changes",
-  "metaDescription": "What a digital twin actually changes in refinery turnaround planning: scope development, interference detection, and connecting NDT data to "
+  "title": "Digital Twins for Turnarounds: Scope, Access, NDT Data",
+  "metaDescription": "How digital twins help refinery turnarounds: scope from inspection history, access planned in the model, NDT results on the CMLs, and what t"
  },
  {
   "slug": "digital-twin-vs-traditional-rbi-software-where-the-line-actually-is",
@@ -5066,8 +5066,8 @@
  },
  {
   "slug": "digital-twin-roi-for-refinery-turnarounds-a-real-cost-benefit-framework",
-  "title": "Digital Twin ROI for Refinery Turnarounds: A Real Cost-Benefit Framework",
-  "metaDescription": "Digital twin ROI framework for refinery turnarounds: reduced scope creep, schedule overrun, NDT re-work, and confined space exposure, with a"
+  "title": "Digital Twin ROI for Turnarounds: A Cost-Benefit Framework",
+  "metaDescription": "How to judge digital twin ROI for a refinery turnaround: the cost levers a twin changes, how to measure them after the outage, and what to a"
  },
  {
   "slug": "digital-twin-platforms-compared-atlantis-vs-antea-dnv-synergi-and-aveva-apm",
