@@ -39,6 +39,7 @@ import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58: q
 import CourseNextStep from "@/components/CourseNextStep";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
+import { DEPTH_FAQ_HEADING, depthFaqFor } from "@/data/depth-faq-2026-10-18.mjs"; // 2026-10-18: visible FAQ = FAQPage, same rule as the crawler
 
 // Owner page for the SNT-TC-1A head term: carries the nationwide city block.
 const TRAINING_OWNER_DEPTH = new Set(["/snt-tc-1a-training-certification"]);
@@ -66,7 +67,14 @@ function inlineLinks(text: string) {
     if (m.index > last) parts.push(text.slice(last, m.index));
     const [, label, href] = m;
     const h = href.trim();
-    if (/^\/[^\s]*$/.test(h)) {
+    // 2026-10-18: a file download (e.g. /templates/x.docx) is a plain anchor, not a client-side route.
+    if (/^\/[^\s]*\.[a-z0-9]{2,5}$/i.test(h)) {
+      parts.push(
+        <a key={`l${k++}`} href={h} className="text-primary hover:underline">
+          {label}
+        </a>,
+      );
+    } else if (/^\/[^\s]*$/.test(h)) {
       parts.push(
         <Link key={`l${k++}`} to={h} className="text-primary hover:underline">
           {label}
@@ -98,6 +106,8 @@ export interface DepthPageData {
   table: { caption: string; columns: string[]; rows: string[][]; note?: string };
   facets: { q: string; a: string }[];
   sections: { heading: string; paragraphs: string[] }[];
+  /** 2026-10-18: optional service sections rendered before the table (both layers). */
+  lead?: { heading: string; paragraphs: string[] }[];
   faq: { q: string; a: string }[];
 }
 
@@ -137,13 +147,16 @@ export default function DepthPage({ slug }: { slug?: string }) {
 
   // 2026-10-12 owner links: softened title/H1 where this page competed with an owner page.
   const om = ownerMetaFor(page.slug);
+  // 2026-10-18: where the depth FAQ is shown, schema lists exactly what is shown (§20.8).
+  const visibleFaq = depthFaqFor(page);
+  const schemaFaq = visibleFaq.reason === "not enabled" || visibleFaq.reason === "all repeat facets" ? page.faq : visibleFaq.items;
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
       <SEOHead
         title={om?.title ?? page.title}
         description={page.description}
         canonical={`https://atlantisndt.com${page.slug}`}
-        faq={page.faq.map((f) => ({ question: f.q, answer: f.a }))}
+        faq={schemaFaq.map((f) => ({ question: f.q, answer: f.a }))}
         structuredData={courseFactsSchema(page.slug) ? { "@context": "https://schema.org", "@graph": [courseFactsSchema(page.slug)] } : undefined}
       />
       <Navigation />
@@ -160,6 +173,17 @@ export default function DepthPage({ slug }: { slug?: string }) {
 
         <AuthorByline />
         <CourseNextStep path={page.slug} placement="answer" />
+
+        {(page.lead ?? []).map((s, i) => (
+          <section key={`lead${i}`} className="my-8">
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 text-balance">{s.heading}</h2>
+            {s.paragraphs.map((p, j) => (
+              <p key={j} className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+                {inlineLinks(p)}
+              </p>
+            ))}
+          </section>
+        ))}
 
         <DecompositionTable
           caption={page.table.caption}
@@ -182,11 +206,25 @@ export default function DepthPage({ slug }: { slug?: string }) {
         {/* Facets sit after the body: each is scored as its own passage, and
             they answer the predictable follow-up questions rather than the head
             query the answer block already resolved. */}
-        <div className="mt-12 border-t border-slate-200 dark:border-slate-800 pt-8">
-          {page.facets.map((f, i) => (
-            <FacetSection key={i} question={f.q} answer={f.a} />
-          ))}
-        </div>
+        {page.facets.length > 0 && (
+          <div className="mt-12 border-t border-slate-200 dark:border-slate-800 pt-8">
+            {page.facets.map((f, i) => (
+              <FacetSection key={i} question={f.q} answer={f.a} />
+            ))}
+          </div>
+        )}
+
+        {visibleFaq.items.length > 0 && (
+          <section data-depth-faq="2026-10-18" aria-label={DEPTH_FAQ_HEADING} className="mt-12 border-t border-slate-200 dark:border-slate-800 pt-8">
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 text-balance">{DEPTH_FAQ_HEADING}</h2>
+            {visibleFaq.items.map((f, i) => (
+              <div key={i} className="mb-6">
+                <h3 className="text-lg font-bold mb-2">{f.q}</h3>
+                <p className="text-slate-700 dark:text-slate-300 leading-relaxed">{inlineLinks(f.a)}</p>
+              </div>
+            ))}
+          </section>
+        )}
 
         {/* 2026-09-29: intent-matched lead magnet (mock exam / gap check) after the free content. */}
         <LeadMagnetSlot placement="inline" path={path} />

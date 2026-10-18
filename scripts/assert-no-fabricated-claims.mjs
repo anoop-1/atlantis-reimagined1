@@ -158,6 +158,11 @@ export const RULES = [
   ['NON-ASNT-SCHEME-OFFER', /\b(?:plus|and to|including)\s+NAS[- ]?410\s*(?:\/|and|&)\s*EN 4179 aerospace qualification\b/i],
   ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?\b(?:(?!\b(?:not|no|never|nor|only)\b|n['’]t\b)[^.;<"`]){0,60}\b(?:delivers?|offers?|provides?|trains?|examines?|runs?)\b(?:(?!\b(?:not|no|never|nor)\b|n['’]t\b)[^.;(<"`]){0,40}\bNAS[- ]?410\b[^.;<"`]{0,30}\b(?:training|qualification|examinations?|courses?)\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\bNAS[- ]?410\b[^.;<"`]{0,60}\b(?:training|qualification|examination)\b[^.;<"`]{0,40}\b(?:delivered|examined|provided|run) by Atlantis\b/i, null, 'NEG'],
+  // NAS410-RL3-HOLDER (2026-10-18 consulting teardown): the Responsible Level 3 designation is
+  // held by the associate who holds NAS 410 Level 3, never by Atlantis or the founder. Fails on
+  // "we hold it under contract" / "Atlantis holds Responsible Level 3" / "we hold the Responsible
+  // Level 3" unless "associate" follows in the same sentence.
+  ['NAS410-RL3-HOLDER', /\b(?:we hold it under contract|Atlantis(?: NDT)? holds (?:the )?Responsible Level 3|we hold the Responsible Level 3)\b(?![^.;<"`]*\bassociate\b)/i],
   // SECURITY-CLAIM (2026-10-10, CLAUDE.md §48): certifications, cipher suites and
   // uptime SLAs Atlantis has never evidenced. ~50 ERP/DT FAQ answers claimed
   // "ISO 27001-certified infrastructure", "AES-256 / TLS 1.3" and "99.95% uptime".

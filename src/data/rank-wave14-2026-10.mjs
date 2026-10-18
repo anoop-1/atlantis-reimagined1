@@ -245,7 +245,8 @@ export function level3ProfessionalServiceNode(l3, { site, orgId, authorId }) {
     description: l3.qa.answer,
     parentOrganization: { '@id': orgId },
     founder: { '@id': authorId },
-    areaServed: { '@type': 'Place', name: 'Worldwide' },
+    // 2026-10-18 consulting teardown: US and Canada first, then worldwide.
+    areaServed: [{ '@type': 'Country', name: 'United States' }, { '@type': 'Country', name: 'Canada' }, { '@type': 'Place', name: 'Worldwide' }],
     knowsAbout: ['ASNT SNT-TC-1A', 'ANSI/ASNT CP-189', 'NDT written practice development', 'NDT procedure approval', 'NDT personnel examination'],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

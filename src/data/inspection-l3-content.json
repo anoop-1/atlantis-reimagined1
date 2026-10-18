@@ -423,7 +423,7 @@
         ],
         "faqs": [
           { "q": "Can an outside Level III be named in our written practice?", "a": "Yes. SNT-TC-1A allows an employer to use an outside agency Level III; the written practice must say so and define the arrangement." },
-          { "q": "Which methods can be covered?", "a": "The methods the Level III holds certification in. Confirm your methods in the enquiry and we will state what can be covered." }
+          { "q": "How is the method scope written down?", "a": "In the designation letter and the proposal: each method covered is listed, and anything outside the Level III's certification is named as a separate arrangement before work starts." }
         ],
         "ctaSubject": "Outsourced Level III / Level III of record"
       },
@@ -466,7 +466,7 @@
           "Approval and issue, with a demonstration if the specification requires one."
         ],
         "faqs": [
-          { "q": "Do you also qualify procedures by demonstration?", "a": "Yes. See [procedure qualification and demonstration](/consulting/ndt-technical-procedure-development) for how demonstrations are planned and recorded." },
+          { "q": "Do you also qualify procedures by demonstration?", "a": "Yes. See [NDT procedure qualification and demonstration](/consulting/ndt-procedure-qualification-demonstration) for how demonstrations are planned and recorded, and [NDT procedure development and review](/consulting/ndt-technical-procedure-development) for writing and reviewing the procedure itself." },
           { "q": "Will you approve a procedure you did not write?", "a": "Yes, if it meets the code and specification after review. If it does not, we say what must change." }
         ],
         "ctaSubject": "Procedure approval / review"

@@ -89,6 +89,7 @@
     "paths": [
       {
         "key": "written-practice",
+        "owner": {"href": "/ndt-written-practice-development", "label": "NDT written practice development"},
         "option": "Written practice (SNT-TC-1A / CP-189)",
         "h": "Written practice",
         "p": "A new or rewritten employer written practice to ASNT SNT-TC-1A or ANSI/ASNT CP-189, checked against the codes and customer specifications you work to.",
@@ -105,6 +106,7 @@
       },
       {
         "key": "procedures",
+        "owner": {"href": "/consulting/ndt-technical-procedure-development", "label": "NDT procedure development and review"},
         "option": "Procedures and technique sheets",
         "h": "Procedures and technique sheets",
         "p": "NDT procedures and technique sheets per method, written to the referencing code (for example ASME Section V or AWS D1.1), with a demonstration where the code calls for one.",
@@ -121,6 +123,7 @@
       },
       {
         "key": "qualification",
+        "owner": {"href": "/consulting/ndt-consulting-level-iii#level-iii-deliverables", "label": "Level III examinations and certification files"},
         "option": "Qualification and certification programme",
         "h": "Qualification and certification programme",
         "p": "Examinations written, administered and graded under your written practice, practical specimens and records, and certification files your auditors can follow.",
@@ -137,6 +140,7 @@
       },
       {
         "key": "audits",
+        "owner": {"href": "/consulting/ndt-consulting-level-iii#audit-support", "label": "Level III audit support"},
         "option": "Audits and ongoing Level III support",
         "h": "Audits and ongoing Level III support",
         "p": "Preparation for customer or ISO-style audits, responses to findings, and retained or interim Level III cover when you have no Level III of your own.",

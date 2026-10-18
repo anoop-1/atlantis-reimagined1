@@ -195,7 +195,7 @@ export function consultingMainHtml(geoHtml = '') {
     <section id="${c.delivers.id}" ${MONEY_MARKER}>
       <h2>${esc(c.delivers.heading)}</h2>
       ${ul(c.delivers.items)}
-    </section>${level3PathsHtml()}
+    </section>${level3PathsHtml()}${consultingByCodeHtml()}
     <section id="client-logos" ${MONEY_MARKER}>
       <h2>${esc(SECTORS.heading)}</h2>
       <p>${esc(SECTORS.sub)}</p>
@@ -245,6 +245,19 @@ ${blockFor(c.path, applyVideoRoute)}
 `;
 }
 
+/* 2026-10-18 consulting teardown: "Consulting by programme and code" (both layers read MP.consultingByCode). */
+export function consultingByCodeHtml() {
+  const b = MP.consultingByCode;
+  if (!b) return '';
+  return `
+    <section id="${b.id}" ${MONEY_MARKER}>
+      <h2>${esc(b.heading)}</h2>
+      ${b.paragraphs.map((p) => `<p>${mdInline(p)}</p>`).join('\n      ')}
+      <p><strong>Sources:</strong> ${esc(b.source)}</p>
+    </section>`;
+}
+const mdInline = (s) => esc(s).replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, (_m, t, h) => `<a href="${h}">${t}</a>`);
+
 function consultingStructuredData() {
   const c = MP.consulting;
   return {
@@ -258,7 +271,7 @@ function consultingStructuredData() {
         url: `${SITE}/consulting`,
         provider: { '@id': ORG_ID },
         serviceType: ['ASNT Level III NDT consulting', 'NDT written practice development', 'NDT procedure development and approval', 'NDT audit readiness'],
-        areaServed: { '@type': 'Place', name: 'Worldwide' },
+        areaServed: [{ '@type': 'Country', name: 'United States' }, { '@type': 'Country', name: 'Canada' }, { '@type': 'Place', name: 'Worldwide' }],
       },
       faqNode('/consulting', c.faq),
       ...pageNodes('/consulting', META['/consulting'].title, `${SITE}/consulting#service`),
@@ -323,7 +336,6 @@ export function writtenPracticeLinkHtml() {
 }
 const WP_AFTER = {
   '/resources/ndt-written-practice-template': /<p>Atlantis NDT can develop a fully customized Written Practice[\s\S]*?<\/p>/,
-  '/consulting/written-practice-development': /<p>Atlantis NDT delivers fully customised, audit-ready written practices[\s\S]*?<\/p>/,
 };
 function patchWrittenPractice(route) {
   const re = WP_AFTER[route.path];
@@ -382,11 +394,13 @@ export function assertMoneyPagesClean(knownPaths) {
     const m = META[k];
     if (!m || m.title.length > 60 || m.description.length < 140 || m.description.length > 155) errs.push(`meta geometry ${k}`);
   }
-  if (!/outsourced/i.test(META[MP.level3.path].title) || !/outside agency/i.test(META[MP.level3.path].title) || !/ASNT Level III Consulting/i.test(META[MP.level3.path].title)) errs.push('Level III title lost outsourced / outside agency / ASNT Level III Consulting');
+  // 2026-10-18 consulting teardown: the title leads with the head term and the 'outside NDT Level 3 consultant' phrasing.
+  if (!/^ASNT Level III Consulting\b/.test(META[MP.level3.path].title) || !/outside NDT Level 3 consultant/i.test(META[MP.level3.path].title)) errs.push('Level III title lost ASNT Level III Consulting / outside NDT Level 3 consultant');
+  if (/\bLevel III Consulting\b/.test(MP.consulting.h1)) errs.push('/consulting H1 competes with the Level III owner head term');
   for (const slug of [MP.erp.caseStory.slug, ...MP.consulting.stories.slugs]) if (!storyBy(slug)) errs.push(`unknown case story ${slug}`);
   if (knownPaths) {
     const before = [screenshotStats.pages, videoStats.pages]; // blockFor() counts; this render is a check, not a page
-    const html = erpMainHtml() + consultingMainHtml() + level3BlockHtml() + writtenPracticeLinkHtml();
+    const html = erpMainHtml() + consultingMainHtml() + level3BlockHtml() + writtenPracticeLinkHtml() + consultingByCodeHtml();
     [screenshotStats.pages, videoStats.pages] = before;
     for (const m of html.matchAll(/href="(\/[^"#?]*)/g)) {
       const t = m[1].replace(/\/$/, '') || '/';

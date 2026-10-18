@@ -190,7 +190,7 @@
   },
   "consulting": {
     "path": "/consulting",
-    "h1": "NDT Level III Consulting \u2014 Written Practices, Procedures, Certification Programmes and Audits",
+    "h1": "NDT Consulting Services \u2014 Written Practices, Procedures, Certification Programmes and Audits",
     "kicker": "Independent technical authority for compliance, quality and risk reduction",
     "intro": "Atlantis NDT gives inspection companies, fabricators, EPCs and asset owners the Level III authority their NDT programme needs without a Level III on the payroll: written practices, procedures and technique sheets, examinations and certification files, and audit readiness, each delivered as signed documents your auditors can follow. Engagements are led by the founder, an ASNT NDT Level III, delivered remotely or on site, and quoted as a defined scope.",
     "ledBy": {
@@ -251,7 +251,7 @@
         ]
       },
       "timeline": {
-        "h": "Timeline",
+        "h": "Steps",
         "steps": [
           {
             "h": "Scoping call and document request",
@@ -274,7 +274,7 @@
             "p": "Examinations are prepared, administered and graded under the new written practice, and certification files are assembled."
           }
         ],
-        "note": "For a four-method programme this typically takes five to seven weeks from the document request. The proposal confirms dates against any audit or contract deadline.",
+        "note": "The proposal confirms dates against any audit or contract deadline.",
         "caption": "Typical SNT-TC-1A written-practice engagement, step by step"
       },
       "stays": {
@@ -391,10 +391,19 @@
     "answer": "NDT consulting from Atlantis gives your company the ASNT Level III authority an SNT-TC-1A programme depends on, without a Level III on the payroll. The founder, an ASNT NDT Level III in UT, RT, MT, PT and VT, writes your written practice, approves procedures and technique sheets, prepares and grades examinations, assembles certification files and prepares you for customer and third-party audits.",
     "answerSource": "ASNT SNT-TC-1A (2024 edition), Recommended Practice for personnel qualification and certification"
   },
+  "consultingByCode": {
+    "id": "consulting-by-programme",
+    "heading": "Consulting by programme and code",
+    "paragraphs": [
+      "Most consulting work starts from the code or programme your customer audits you against. Under OSHA PSM, the NDT half of mechanical integrity is inspector qualification, procedures and the five-element inspection record in 29 CFR 1910.119(j)(4)(iv): see [PSM NDT services](/consulting/osha-psm-mechanical-integrity-ndt). Pipeline audits test personnel certification, procedure approval, calibration and examination records together, with operator qualification as a separate regime: see [pipeline audit preparation](/blog/pipeline-audit-preparation-what-operators-check).",
+      "Aerospace suppliers need a Responsible Level 3 under NAS 410, which we provide through an associate who holds NAS 410 Level 3: see [NAS 410 Responsible Level 3](/consulting/nas-410-responsible-level-3). For API 510, 570 and 653 programs, we perform the NDE your inspector calls for and interpret it under Level III authority: see [NDT inspection services](/inspection-services) and the [API 510 program audit](/consulting/api-510-program-audit)."
+    ],
+    "source": "eCFR, 29 CFR 1910.119(j); 49 CFR Parts 192 and 195; NAS 410"
+  },
   "level3": {
     "path": "/consulting/ndt-consulting-level-iii",
-    "h1": "Outsourced ASNT Level III (Level 3) Consulting \u2014 Your Outside Agency Level III for Written Practices, Procedures and Audits",
-    "intro": "Atlantis NDT provides ASNT Level III consulting as an outsourced, outside agency Level III for inspection contractors, fabricators, EPCs and asset owners that need NDT Level III services without a Level III on staff. We author and approve written practices, write and approve procedures, prepare and grade examinations, and support audits, on a retainer or per engagement. An NDT Level 3 consultant and an NDT Level III consultant are the same qualification.",
+    "h1": "ASNT Level III Consulting \u2014 Your Outside NDT Level 3 Consultant for Written Practices, Procedures and Audits",
+    "intro": "Atlantis NDT provides ASNT Level III consulting as an outside agency: NDT Level 3 consulting services for companies that need Level III authority without a Level III on the payroll. Your company stays the certifying employer. The Level III writes and approves the technical documents, prepares and grades examinations, and supports your audits.",
     "qa": {
       "id": "what-is-outsourced-level-iii",
       "h2": "What is an outsourced NDT Level III?",
@@ -415,7 +424,7 @@
         },
         {
           "label": "written-practice development",
-          "href": "/consulting/written-practice-development"
+          "href": "/ndt-written-practice-development"
         },
         {
           "label": "free written-practice template",
@@ -429,7 +438,7 @@
     },
     "expert": {
       "id": "named-level-iii",
-      "h2": "Your named Level III",
+      "h2": "Your NDT Level 3 consultant: Anoop Rayavarapu",
       "p": "Level III work at Atlantis NDT is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers; NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3.",
       "verify": "You can confirm a current ASNT certification yourself in [ASNT's certificant directory](https://certification.asnt.org). See also [about the founder](/authors/anoop-rayavarapu)."
     },
@@ -497,11 +506,138 @@
         "How will you treat our existing procedures: rewrite them, review them, or approve them as written?",
         "Who covers methods or schemes outside your own, such as NAS 410 Level 3, and are they named in the proposal?"
       ]
+    },
+    "audit": {
+      "id": "level-iii-audit-trail",
+      "h2": "The four signatures an auditor traces",
+      "paragraphs": [
+        "An auditor does not assess your Level III in the abstract. The auditor picks a technician's certificate and walks backwards through four signatures, stopping at the first one that is missing, unsigned, out of method scope or out of date: written practice approval, procedure approval, examination approval and grading, and the qualification recommendation behind the certificate.",
+        "SNT-TC-1A anchors the first and the third: the employer's written practice is on file and approved by the employer's Level III, and the Level III approves and grades the examinations given for certification. ASME Section V, Article 1 (T-150) anchors the second where the referencing Code Section requires examinations to a written procedure. The fourth is the one firms get wrong: an outside Level III recommends qualification, and the certifying signature belongs to the employer. [NDT written practice development](/ndt-written-practice-development) covers the document at the top of the chain."
+      ]
+    },
+    "methodScope": {
+      "id": "level-iii-method-scope",
+      "h2": "Method scope: the limit on every signature",
+      "paragraphs": [
+        "Every one of those signatures is bounded by method. Certification is granted method by method, so a Level III certified in UT and PT approves UT and PT procedures and grades UT and PT examinations, and cannot reach other methods with the same signature. Seniority does not extend scope, and neither does a customer's willingness to accept it at the time.",
+        "Two controls keep an arrangement inside its scope. The scope statement lists the methods covered, the scheme each was certified under and the certification expiry; ASNT NDT Level III certification renews on a five-year cycle. And adding a method triggers a scope review before the first procedure in it is written. See [what an outside Level III can and cannot sign](/consulting/outside-ndt-level-3-can-and-cannot-do)."
+      ]
+    },
+    "faq": {
+      "id": "level-iii-faq",
+      "h2": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can an outside Level III sign our written practice?",
+          "a": "Yes, and it is one of the main reasons firms engage one. SNT-TC-1A requires the written practice to be on file and approved by the employer's Level III, and an outside agency Level III designated in that document satisfies the requirement. An auditor checks two things: that the person holds current certification in the relevant methods, and that the involvement is genuine and documented rather than a name on a cover sheet."
+        },
+        {
+          "q": "Can an outside agency certify my NDT employees?",
+          "a": "No. Under SNT-TC-1A certification is employer-based, so your company issues and signs the certificates. An outside Level III supplies the approving authority: written practice, examinations, procedure approval and oversight. The certifying employer remains you."
+        },
+        {
+          "q": "Which methods can be covered?",
+          "a": "UT (including the phased array and TOFD techniques), RT, MT, PT and VT, the five methods in which the founder holds ASNT NDT Level III certification. NAS 410 Level 3 work is provided through an associate who holds NAS 410 Level 3. Other methods need a Level III certified in them; that is raised at scoping and named in the proposal, never covered by extending a signature beyond its scope."
+        },
+        {
+          "q": "Our Level III resigned: what happens to our certifications?",
+          "a": "Existing certifications remain valid, but the authority that approved them has gone. Until a replacement Level III is designated, no new personnel can be qualified, no procedure can be approved, and the next audit will ask who currently holds that authority. Designating an interim outside Level III closes the gap; see [what to do when your Level III resigns](/consulting/ndt-level-3-resigned-what-to-do)."
+        },
+        {
+          "q": "Is an outside Level III cheaper than hiring one?",
+          "a": "Usually, when your Level III work is intermittent: a staff Level III is a full salary against demand that comes in cycles of written practice reviews, procedure approvals, examinations and audits. The comparison turns on how often you qualify people and approve procedures rather than on headcount alone, and the proposal is quoted on that scope."
+        },
+        {
+          "q": "Which scheme applies: SNT-TC-1A, CP-189 or NAS 410?",
+          "a": "Your customer contract decides. Aerospace work and Nadcap accreditation invoke NAS 410. Contracts specifying ANSI/ASNT CP-189 impose a standard using \"shall\" rather than a recommended practice. Absent either, SNT-TC-1A employer-based certification is the default across US industrial work."
+        },
+        {
+          "q": "Does an outside Level III cover a Nadcap audit?",
+          "a": "A designated Responsible Level 3 satisfies the personnel-authority requirement under NAS 410, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results: vision test currency, OJT documentation and retained examination papers remain the employer's responsibility. Atlantis provides NAS 410 Level 3 services through an associate who holds NAS 410 Level 3."
+        },
+        {
+          "q": "Can a fractional Level III sign off on new inspection procedures?",
+          "a": "Yes. Procedure and technique approval is core to the Level III role whether the engagement is full-time or outsourced; what changes with a fractional arrangement is the review cadence, not the signature authority. The approval stays within the methods the Level III holds."
+        },
+        {
+          "q": "What does an NDT Level III consultant do?",
+          "a": "An NDT Level III consultant writes and approves the documents your NDT programme runs on (the written practice, procedures and technique sheets), administers and grades the qualification examinations, interprets codes and standards, and supports audits. The consultant acts for your company; your company remains the employer that certifies its technicians."
+        },
+        {
+          "q": "Will our customers accept a procedure approved by an outsourced Level III?",
+          "a": "Generally yes, when the outside Level III is named in your written practice, holds the method certification and the approval is documented. Some aerospace primes and operators require their own approval of outside Level IIIs, so check each customer's requirements before relying on it."
+        }
+      ]
+    },
+    "related": {
+      "id": "level-iii-related",
+      "h2": "More on ASNT Level III consulting",
+      "links": [
+        {
+          "label": "NDT written practice development",
+          "href": "/ndt-written-practice-development"
+        },
+        {
+          "label": "NDT procedure development and review",
+          "href": "/consulting/ndt-technical-procedure-development"
+        },
+        {
+          "label": "what an outside Level III can and cannot sign",
+          "href": "/consulting/outside-ndt-level-3-can-and-cannot-do"
+        },
+        {
+          "label": "what happens when your Level III resigns",
+          "href": "/consulting/ndt-level-3-resigned-what-to-do"
+        },
+        {
+          "label": "interim Level III cover",
+          "href": "/consulting/interim-ndt-level-3"
+        },
+        {
+          "label": "NAS 410 certification requirements",
+          "href": "/nas-410-certification-requirements"
+        },
+        {
+          "label": "Nadcap AC7114 audit readiness",
+          "href": "/consulting/nadcap-ac7114-audit-readiness"
+        },
+        {
+          "label": "PSM NDT services",
+          "href": "/consulting/osha-psm-mechanical-integrity-ndt"
+        },
+        {
+          "label": "SNT-TC-1A training and certification for employers",
+          "href": "/snt-tc-1a-training-certification"
+        },
+        {
+          "label": "SNT-TC-1A vs CP-189",
+          "href": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison"
+        },
+        {
+          "label": "oil and gas NDT consulting",
+          "href": "/consulting/oil-gas-ndt-consulting"
+        },
+        {
+          "label": "aerospace NDT consulting and NAS 410",
+          "href": "/consulting/aerospace-ndt-consulting"
+        },
+        {
+          "label": "nuclear NDT consulting",
+          "href": "/consulting/nuclear-ndt-consulting"
+        },
+        {
+          "label": "maritime NDT consulting",
+          "href": "/consulting/maritime-ndt-consulting"
+        },
+        {
+          "label": "NDT consulting services",
+          "href": "/consulting"
+        }
+      ]
     }
   },
   "writtenPracticeLink": {
     "pages": [
-      "/consulting/written-practice-development",
       "/resources/ndt-written-practice-template"
     ],
     "before": "No Level III on staff? Atlantis can also act as your ",

@@ -147,7 +147,7 @@ const RELATED_BLOCK = (regime) =>
   '<section data-citation-block="related"><p>Related: ' +
   `<a href="/compliance/${regime.slug}">the ${esc(regime.shortName)} overview</a>, ` +
   '<a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>, ' +
-  '<a href="/consulting/written-practice-development">written practice development</a>, ' +
+  '<a href="/ndt-written-practice-development">written practice development</a>, ' +
   '<a href="/consulting/ndt-technical-procedure-development">NDT procedure development</a> and ' +
   '<a href="/consulting/ndt-program-audit-gap-assessment">a programme gap assessment</a>. ' +
   'Firms without a Level III on staff should start at ' +
@@ -206,7 +206,7 @@ function relatedLinks(r) {
   return [
     { to: `/compliance/${r.slug}`, label: `the ${r.shortName} overview` },
     { to: '/consulting/ndt-consulting-level-iii', label: 'outsourced ASNT Level III cover' },
-    { to: '/consulting/written-practice-development', label: 'written practice development' },
+    { to: '/ndt-written-practice-development', label: 'written practice development' },
     { to: '/consulting/ndt-technical-procedure-development', label: 'NDT procedure development' },
     { to: '/consulting/ndt-program-audit-gap-assessment', label: 'a programme gap assessment' },
     { to: '/consulting/interim-ndt-level-3', label: 'interim Level III cover' },

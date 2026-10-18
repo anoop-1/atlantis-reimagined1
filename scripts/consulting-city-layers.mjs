@@ -159,7 +159,7 @@ function renderConsultingLayer(city, d) {
   parts.push(
     '<section data-citation-block="related"><p>' +
     `Related: <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>, ` +
-    `<a href="/consulting/written-practice-development">written practice development</a>, ` +
+    `<a href="/ndt-written-practice-development">written practice development</a>, ` +
     `<a href="/consulting/ndt-technical-procedure-development">NDT procedure development</a>, ` +
     `<a href="/consulting/ndt-level-3-exam-oversight">examination oversight</a> and ` +
     `<a href="/corporate-ndt-training">employer-sponsored training cohorts</a>. ` +

@@ -177,6 +177,8 @@ const labelFor = (route) =>
 const CURATED_RELATED = {
   '/compliance/csa-b51': ['/compliance/tssa-ontario', '/compliance/absa-alberta', '/compliance/csa-z662'],
   '/compliance/csa-z662': ['/compliance/csa-b51', '/compliance/absa-alberta', '/compliance/tssa-ontario'],
+  // 2026-10-18 consulting teardown: on-topic related reading (src/data/consulting-release-2026-10-18.json).
+  ...JSON.parse(readFileSync(new URL('../src/data/consulting-release-2026-10-18.json', import.meta.url), 'utf-8')).curatedRelated,
 };
 const CURATED_LABELS = {
   '/compliance/csa-b51': 'CSA B51 Compliance for Inspection Companies',

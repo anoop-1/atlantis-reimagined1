@@ -1,3 +1,51 @@
 {
-  "_note": "CTR wave 16 (consulting workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files."
+  "_note": "CTR wave 16 (consulting workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files.",
+  "/ndt-written-practice-development": {
+    "title": "NDT Written Practice Development — SNT-TC-1A and CP-189",
+    "description": "NDT written practice development by a named ASNT NDT Level III: new or revised to SNT-TC-1A 2024 or CP-189, with record templates and a free sample DOCX."
+  },
+  "/consulting/osha-psm-mechanical-integrity-ndt": {
+    "title": "PSM NDT Services: 1910.119(j) Inspection and Records",
+    "description": "PSM NDT services for 29 CFR 1910.119(j): NDE for API 510, 570 and 653 programs, interpreted under ASNT Level III authority, with audit-ready records."
+  },
+  "/consulting/outside-ndt-level-3-can-and-cannot-do": {
+    "title": "What an Outside NDT Level III Can and Cannot Sign",
+    "description": "Under SNT-TC-1A and CP-189 an outside Level III writes your practice, sets and grades exams and approves procedures. The employer still certifies."
+  },
+  "/consulting/ndt-consulting-level-iii": {
+    "title": "ASNT Level III Consulting | Outside NDT Level 3 Consultant",
+    "description": "ASNT Level III consulting from a named outside NDT Level 3 consultant: written practices, procedure approval, exams and audit support. Quote on request."
+  },
+  "/consulting": {
+    "title": "NDT Consulting Services: Level III-Led Programs & Audits",
+    "description": "NDT consulting services led by an ASNT NDT Level III: SNT-TC-1A written practices, procedure approval, exams and audit readiness, as signed documents."
+  },
+  "/consulting/ndt-technical-procedure-development": {
+    "title": "NDT Procedure Development and Review | ASNT Level III",
+    "description": "NDT procedure development and review by an ASNT NDT Level III: UT, PAUT, TOFD, RT, MT, PT and VT procedures and technique sheets to ASME Section V."
+  },
+  "/blog/ndt-certification-nationwide-us-contracts-multi-site": {
+    "title": "NDT Certification for Nationwide US Contracts — One Program",
+    "description": "How a US inspection contractor runs one SNT-TC-1A program across states and client sites, and what a contract means when it asks for ASNT certification."
+  },
+  "/blog/pipeline-audit-preparation-what-operators-check": {
+    "title": "Pipeline Audit Preparation Services — What Auditors Check",
+    "description": "Pipeline audit preparation: the records auditors pull first, the operator qualification boundary, recurring findings, and a Level III documentation audit."
+  },
+  "/blog/written-practice-development-what-an-asnt-level-iii-consultant-actually-delivers": {
+    "title": "What a Written Practice Engagement Delivers, Item by Item",
+    "description": "SNT-TC-1A written practice vs. CP-189 explained: training/experience hour tables, exam and recert requirements, and what a Level III consultant delivers."
+  },
+  "/blog/ndt-procedure-development-consulting-writing-procedures-that-pass-audit": {
+    "title": "Writing NDT Procedures That Pass Audit: Where They Fail",
+    "description": "NDT procedure consulting for ASME Section V, API 1104 compliance: essential variables, qualification demonstration, and mock-audit preparation."
+  },
+  "/consulting-usa": {
+    "title": "US NDT Compliance by State: Codes and Level III Cover",
+    "description": "US NDT compliance by state: the codes and rules that drive inspection work, how an ASNT Level III engagement runs, and where to go next for your state."
+  },
+  "/ndt-consulting-texas": {
+    "title": "NDT Consulting in Texas: Refining, Pipeline, Petrochemical",
+    "description": "NDT consulting in Texas for refining, pipeline and petrochemical work: written practices, procedures and audit support from an ASNT NDT Level III."
+  }
 }

@@ -31,8 +31,8 @@ const stateData: Record<string, StateData> = {
     name: "Texas", abbreviation: "TX", slug: "texas",
     heroTitle: "NDT Level III Consulting & Training in Texas",
     heroSubtitle: "ASNT Level III-led NDT consulting for the energy capital of the world, serving oil & gas, petrochemical, aerospace, and power generation industries across Texas.",
-    metaTitle: "NDT Level III Consultant in Texas | ASNT Certified | Houston HQ | Atlantis NDT",
-    metaDescription: "ASNT Level III NDT consulting in Texas from Houston-based Atlantis NDT. Procedure development, program audits, SNT-TC-1A compliance for oil & gas, petrochemical, aerospace. Serving Houston, Dallas, San Antonio, Austin, Midland.",
+    metaTitle: "NDT Consulting in Texas: Refining, Pipeline, Petrochemical", // 2026-10-18: no "HQ" or "ASNT Certified" (§54), off the Level III owner head term
+    metaDescription: "NDT consulting in Texas for refining, pipeline and petrochemical work: written practices, procedures and audit support from an ASNT NDT Level III.",
     industries: [
       { name: "Oil & Gas", description: "500+ refineries and petrochemical plants along the Gulf Coast. API 510/570/653 inspection programs for pressure vessels, piping, and storage tanks.", icon: "factory" },
       { name: "Aerospace & Defense", description: "Lockheed Martin, Bell, L3Harris facilities requiring NAS-410 NDT programs and Level III oversight.", icon: "shield" },
@@ -58,7 +58,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Texas has the highest demand for NDT professionals in the US, driven by the concentration of oil & gas, petrochemical, aerospace, and power generation industries. The Permian Basin and Gulf Coast corridor alone require thousands of certified NDT technicians and Level III consultants.",
     regulatoryNotes: "Texas follows ASME, API, and AWS codes for pressure equipment and structural welding. TCEQ and Railroad Commission of Texas regulations add state-specific inspection requirements for pipelines, storage tanks, and emission control equipment.",
-    trainingInfo: "Atlantis NDT offers ASNT Level I, II, and III certification training for Texas teams, delivered online, live-virtual, or onsite at your facility. All 6 major NDT methods (UT, RT, MT, PT, ET, VT) plus advanced techniques (PAUT, TOFD).",
+    trainingInfo: "Atlantis NDT offers ASNT SNT-TC-1A-based Level I, II and III training for Texas teams, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Methods: UT, RT, MT, PT, VT and ET, plus PAUT and TOFD. Your company certifies its technicians under its written practice.",
   },
   "california": {
     name: "California", abbreviation: "CA", slug: "california",

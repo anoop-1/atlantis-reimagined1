@@ -668,7 +668,7 @@
           "Free NDT written practice template"
         ],
         [
-          "/consulting/written-practice-development",
+          "/ndt-written-practice-development",
           "Written practice development and review"
         ],
         [
@@ -690,7 +690,7 @@
           "Free NDT written practice template"
         ],
         [
-          "/consulting/written-practice-development",
+          "/ndt-written-practice-development",
           "Written practice development and review"
         ],
         [
@@ -712,7 +712,7 @@
           "Free NDT written practice template"
         ],
         [
-          "/consulting/written-practice-development",
+          "/ndt-written-practice-development",
           "Written practice development and review"
         ],
         [
@@ -734,7 +734,7 @@
           "Free NDT written practice template"
         ],
         [
-          "/consulting/written-practice-development",
+          "/ndt-written-practice-development",
           "Written practice development and review"
         ],
         [
@@ -912,20 +912,6 @@
         [
           "/contact?service=consulting&subject=Procedure%20revision%20to%20current%20code%20editions",
           "Ask about a procedure revision"
-        ]
-      ]
-    },
-    "/consulting/ndt-technical-procedure-development": {
-      "h": "A procedure revision we completed",
-      "p": "How a UT weld inspection procedure was brought up to the current editions of AWS D1.1, the ASME code and SNT-TC-1A, and what an edition update has to check.",
-      "links": [
-        [
-          "/case-studies/ut-weld-inspection-procedure-code-update-lng",
-          "Case study: a UT weld inspection procedure brought up to current code editions"
-        ],
-        [
-          "/case-studies",
-          "All case studies"
         ]
       ]
     },

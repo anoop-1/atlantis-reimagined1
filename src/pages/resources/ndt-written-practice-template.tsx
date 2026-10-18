@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
 import OutsourcedLevel3Link from "@/components/OutsourcedLevel3Link";
+import CR from "@/data/consulting-release-2026-10-18.json";
+import { renderOwnerInline } from "@/data/owner-links-2026-10.mjs";
 
 export default function NDTWrittenPracticeTemplate() {
   useEffect(() => {
@@ -90,6 +92,8 @@ export default function NDTWrittenPracticeTemplate() {
               Atlantis NDT can develop a fully customized Written Practice tailored to your industry, customer base, and Level III preferences — and supply the supporting forms, training records, and examination banks.
             </p>
             <OutsourcedLevel3Link className="text-slate-700 mt-3" />
+            {/* 2026-10-18: same paragraph as the crawler HTML (scripts/consulting-release-2026-10-18.mjs) */}
+            <p className="text-slate-700 mt-3 [&_a]:text-[#004aad] [&_a]:underline" data-consulting-release="2026-10-18" dangerouslySetInnerHTML={{ __html: renderOwnerInline(CR.templatePage.p) }} />
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-white rounded-xl shadow border border-slate-100 p-8">

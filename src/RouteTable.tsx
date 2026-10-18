@@ -2244,7 +2244,6 @@ const NDTConsultingPortHedland = lazy(() => import("./pages/ndt-consulting-port-
 const ConsultingRbiProgramDesign = lazy(() => import("./pages/consulting/rbi-program-design"));
 const ConsultingFitnessForServiceApi579 = lazy(() => import("./pages/consulting/fitness-for-service-api-579"));
 const ConsultingApi510ProgramAudit = lazy(() => import("./pages/consulting/api-510-program-audit"));
-const ConsultingWrittenPracticeDevelopment = lazy(() => import("./pages/consulting/written-practice-development"));
 const ConsultingNdtTechnicalProcedureDevelopment = lazy(() => import("./pages/consulting/ndt-technical-procedure-development"));
 // === /Consulting day-2 expansion 2026-05-25 ===
 
@@ -5417,7 +5416,6 @@ export default function RouteTable() { return (
                   <Route path="/consulting/rbi-program-design" element={<LazyRoute Component={ConsultingRbiProgramDesign} />} />
                   <Route path="/consulting/fitness-for-service-api-579" element={<LazyRoute Component={ConsultingFitnessForServiceApi579} />} />
                   <Route path="/consulting/api-510-program-audit" element={<LazyRoute Component={ConsultingApi510ProgramAudit} />} />
-                  <Route path="/consulting/written-practice-development" element={<LazyRoute Component={ConsultingWrittenPracticeDevelopment} />} />
                   <Route path="/consulting/ndt-technical-procedure-development" element={<LazyRoute Component={ConsultingNdtTechnicalProcedureDevelopment} />} />
                   {/* === /Consulting day-2 expansion 2026-05-25 === */}
 
