@@ -1,8 +1,8 @@
 {
-  "_note": "Single source for /asnt-certification (2026-10-16). Resolved by src/data/asnt-certification-2026-10.mjs for both layers: React src/pages/asnt-certification.tsx and the crawler page (scripts/editorial-upgrades.mjs, replace). Hours come from src/data/snt-tc-1a-hours.json via {l1Class} {l1Exp} {l2Class} {l2Exp}; {l3Months} and {exam.*} come from level3 below. ASNT programme facts and fees as published on certification.asnt.org, checked 2026-10-16. No Atlantis prices (CLAUDE.md §18).",
+  "_note": "Single source for /asnt-certification (2026-10-16). Resolved by src/data/asnt-certification-2026-10.mjs for both layers: React src/pages/asnt-certification.tsx and the crawler page (scripts/editorial-upgrades.mjs, replace). Hours come from src/data/snt-tc-1a-hours.json via {l1Class} {l1Exp} {l2Class} {l2Exp}; {l3Months} and {exam.*} come from level3 below. ASNT programme facts and fees as published on certification.asnt.org, checked 2026-10-16 (Level III day definition checked 2026-10-18). {l3DaysList} is built from level3.eligibility. 2026-10-18 (owner): Atlantis's approved US fees may appear here, but only as the table scripts/approved-pricing.mjs renders from src/data/approved-training-fees.json into the <!--training-fees-slot--> after the cost section (the path is allowlisted there); never type an Atlantis amount in this file (CLAUDE.md §18).",
   "path": "/asnt-certification",
-  "title": "ASNT Certification — Level I, II, III Requirements 2026",
-  "description": "ASNT certification explained: SNT-TC-1A employer-based vs CP-189, ASNT NDT Level II/III and ASNT 9712: hours per method, exams, vision and 5-year renewal.",
+  "title": "ASNT Certification: Level I–III Requirements and Costs 2026",
+  "description": "ASNT certification explained: SNT-TC-1A vs ASNT NDT Level II/III and ASNT 9712, hours per method, Level 3 requirements, exam fees and what else it costs.",
   "h1": "ASNT NDT Certification & ASNT 9712 Guide 2026",
   "lead": "How ASNT certification works: employer-based certification under SNT-TC-1A and CP-189, and the central credentials ASNT examines and issues itself, ASNT NDT Level II, ASNT NDT Level III and ASNT 9712. Hours by method, examinations, vision checks, renewal and ASNT exam fees, checked against ASNT's published requirements in October 2026.",
   "cta": [
@@ -75,13 +75,15 @@
   },
   "level3": {
     "h2": "What does ASNT NDT Level III require?",
+    "reqH2": "ASNT Level 3 requirements",
+    "req": "To earn ASNT NDT Level III you need documented NDT experience in the methods you apply for, under qualified supervision: {l3DaysList}. ASNT counts a day as at least seven hours, worked on one day or accumulated. You then pass the NDT Basic exam and at least one Method exam, and renew every five years.",
     "intro": "ASNT NDT Level III is ASNT's central Level III certification. First-time applicants pass the NDT Basic exam and at least one method exam; the exams are multiple-choice and computer-based. Experience must be in NDT, under qualified supervision, in the methods applied for.",
     "eligibilityCaption": "ASNT NDT Level III minimum experience by education, as published by ASNT",
     "eligibilityHead": ["Education", "Minimum NDT experience"],
     "eligibility": [
-      { "education": "Four-year degree in engineering or physical science", "months": 12, "days": 252 },
-      { "education": "Two full academic years of engineering or physical science study", "months": 24, "days": 504 },
-      { "education": "No college", "months": 48, "days": 1008 }
+      { "education": "Four-year degree in engineering or physical science", "short": "with a four-year engineering or physical-science degree", "months": 12, "days": 252 },
+      { "education": "Two full academic years of engineering or physical science study", "short": "with two full academic years of such study", "months": 24, "days": 504 },
+      { "education": "No college", "short": "without college", "months": 48, "days": 1008 }
     ],
     "examsCaption": "ASNT NDT Level III examinations as published by ASNT, checked October 2026",
     "examsHead": ["Examination", "Items", "Time allowed"],
@@ -92,9 +94,17 @@
     ],
     "renewal": "ASNT NDT Level III is renewed every five years, by application with points or by examination. Under SNT-TC-1A the employer still certifies its Level III under the written practice; under CP-189 the Level III must hold ASNT NDT Level III.",
     "links": [
-      ["/asnt-level-iii-training", "ASNT Level III training"],
+      ["/asnt-level-iii-training", "NDT Level 3 training and fees"],
       ["/asnt-level-iii-basic-exam-prep", "Level III Basic exam prep"]
     ]
+  },
+  "cost": {
+    "h2": "How much does NDT certification cost?",
+    "paras": [
+      "No single price exists, because up to three parties charge. Training providers set course fees: Atlantis's published US fees for Level I, Level II and the online Level III refresher are in the fee table below. ASNT charges per exam for its central credentials, at member and nonmember rates, in the ASNT tables after it. Under SNT-TC-1A your employer's Level III gives the general, specific and practical exams under its written practice, so those are the employer's arrangement, not ASNT's.",
+      "Also plan for the vision examination your written practice requires and, if you take ASNT's central exams, ASNT membership if you want the member rate."
+    ],
+    "link": ["/training-usa", "NDT training in the USA"]
   },
   "fees": {
     "h2": "How much are ASNT exam fees?",
@@ -155,7 +165,7 @@
     { "q": "Can I get ASNT certified online?", "a": "Theory training can be completed online, and the ASNT NDT Level III exams are computer-based. Practical examinations need hands-on work with real equipment: under SNT-TC-1A the employer gives them, and for ASNT NDT Level II ASNT states that employers carry out the practical exams. Atlantis delivers theory online and supervises practical training at the employer's facility." },
     { "q": "Is ASNT certification recognised internationally?", "a": "ASNT describes its central certifications as internationally recognised, but the scheme a job needs is set by the contract or client specification. Some specifications, particularly in Europe, name ISO 9712 or PCN instead, and ASNT 9712 is the ASNT programme designed to meet ISO 9712:2021. Check the specification before choosing a route." },
     { "q": "Does an Atlantis course certify me?", "a": "No. A course provides classroom training hours and a training record. Under SNT-TC-1A your employer certifies you after verifying your training and experience and giving the examinations its written practice requires. ASNT certifies only through its own examinations." },
-    { "q": "What does an NDT technician earn?", "a": "O*NET lists a median wage of $78,350 a year for Non-Destructive Testing Specialists (17-3029.01). The figure uses BLS data for the broader Engineering Technologists and Technicians, Except Drafters, All Other group, so treat it as an indication rather than a figure for a specific level." }
+    { "q": "How much does NDT certification cost?", "a": "Up to three parties charge. The training provider sets course fees, and Atlantis's published US fees are in the fee table on this page. ASNT charges per exam for its central credentials, at member and nonmember rates. Under SNT-TC-1A the employer's Level III gives the general, specific and practical exams under its written practice." }
   ],
   "related": [
     ["/snt-tc-1a-certification", "SNT-TC-1A certification overview"],
@@ -170,7 +180,9 @@
     ["/ndt-training-usa", "NDT training in the USA"],
     ["/ndt-training-dubai", "NDT training in Dubai"],
     ["/resources/training-requirements-matrix", "Training requirements matrix"],
-    ["/compare/asnt-vs-pcn", "ASNT vs PCN comparison"]
+    ["/compare/asnt-vs-pcn", "ASNT vs PCN comparison"],
+    ["/blog/how-long-does-ndt-training-take", "How long NDT training takes"],
+    ["/blog/iso-9712-certification-process-step-by-step-guide", "ISO 9712 certification"]
   ],
   "sources": [
     ["https://certification.asnt.org/", "ASNT certification programmes"],

@@ -1,3 +1,15 @@
 {
-  "_note": "CTR wave 16 (training workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files."
+  "_note": "CTR wave 16 (training workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files.",
+  "/ndt-training-houston": {
+    "title": "NDT Training and Certification in Houston, TX: Level I–III",
+    "description": "Houston NDT training to ASNT SNT-TC-1A, Level I–III in UT, RT, MT, PT and VT. Self-paced theory year-round; practicals in the simulator and at your site."
+  },
+  "/asnt-level-iii-training": {
+    "title": "NDT Level 3 Training and ASNT Level III Exam Prep (Online)",
+    "description": "NDT Level 3 training: ASNT Level III eligibility (252, 504 or 1,008 days), Basic and Method exams, ASNT exam fees, and a self-paced online refresher."
+  },
+  "/ndt-training-online": {
+    "title": "Online NDT Training: Self-Paced Level I–III, Level III-Led",
+    "description": "Self-paced online NDT training to SNT-TC-1A in UT, RT, MT, PT, VT and more: start any month, Level III support, simulator practice, practical at your site."
+  }
 }

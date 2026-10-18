@@ -3,7 +3,8 @@
 // src/data/asnt-certification-2026-10.mjs — the same resolver that builds the crawler page through
 // scripts/editorial-upgrades.mjs (one source per fact, CLAUDE.md §19.1/§46.3). Hours come from
 // src/data/snt-tc-1a-hours.json. ASNT facts and fees as published on certification.asnt.org, checked
-// October 2026. No Atlantis prices; the old ACCP fee table, salary bands and invisible FAQ/HowTo schema are gone.
+// October 2026. The old ACCP fee table, salary bands and invisible FAQ/HowTo schema are gone. Atlantis US fees appear only
+// through <ApprovedTrainingFees /> (owner, 2026-10-18), never typed here.
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -23,6 +24,7 @@ import ASNT_CERT from "@/data/asnt-certification-2026-10.json";
 import { resolveAsntCertification } from "@/data/asnt-certification-2026-10.mjs";
 import { buildTechArticleSchema } from "@/data/author-schema";
 import { ServiceContextBlock } from "@/components/InspectionL3Content";
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees"; // 2026-10-18: path-driven US fee table (path allowlisted in approved-training-fees.json)
 
 const page = resolveAsntCertification(ASNT_CERT, SNT_HOURS);
 const linkClass = "text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80";
@@ -174,6 +176,12 @@ export default function ASNTCertification() {
                         <p className="text-slate-700">{page.level2.p}</p>
                         <p className="text-slate-700 mt-4">Prepare with <A link={page.level2.link} />.</p>
                     </div>
+                    {page.level3.reqH2 && (
+                        <div id="asnt-level-3-requirements">
+                            <h2 className="text-3xl font-bold mb-4">{page.level3.reqH2}</h2>
+                            <p className="text-slate-700">{page.level3.req}</p>
+                        </div>
+                    )}
                     <div>
                         <h2 className="text-3xl font-bold mb-4">{page.level3.h2}</h2>
                         <p className="text-slate-700 mb-6">{page.level3.intro}</p>
@@ -184,6 +192,17 @@ export default function ASNTCertification() {
                     </div>
                 </div>
             </section>
+
+            {page.cost && (
+                <section id="ndt-certification-cost" className="py-16 bg-white">
+                    <div className="container mx-auto max-w-4xl px-6">
+                        <h2 className="text-3xl font-bold mb-4">{page.cost.h2}</h2>
+                        {page.cost.paras.map((p) => <p key={p} className="text-slate-700 mb-4">{p}</p>)}
+                        <p className="text-slate-700">Published US training fees are also on <A link={page.cost.link} />.</p>
+                    </div>
+                </section>
+            )}
+            <ApprovedTrainingFees />
 
             <section id="fees" className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">

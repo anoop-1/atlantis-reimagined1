@@ -220,7 +220,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
         <div className="container mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">Start Your NDT Career in {name}</h2>
           <p className="text-lg text-blue-100 mb-8">
-            Tell us the methods, levels and head-count you need for {name}, {region} — quote within one business day.
+            Tell us the methods, levels and head-count you need for {name}, {region}. We reply within one business day.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-[#004aad] hover:bg-slate-100">

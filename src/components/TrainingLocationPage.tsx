@@ -548,8 +548,8 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               </Link>
               ; your written practice sets the binding figures.{" "}
               {feeRegion
-                ? "Published fees for this region are in the fee table further down this page; group and corporate programmes are quoted within one business day."
-                : "No published prices — quote within one business day."}
+                ? "Published fees for this region are in the fee table further down this page; group and corporate programmes are quoted. We reply within one business day."
+                : "Fees for this region are quoted. We reply within one business day."}
             </p>
           </motion.div>
           <div className="overflow-x-auto">

@@ -69,7 +69,7 @@ export default function CourseFactsBlock({ path }: { path: string }) {
           <Link to={`/contact?service=training&subject=${subject}`} className="bg-primary text-primary-foreground px-4 py-2 rounded-md font-medium inline-block">
             Request a course quote
           </Link>
-          <span className="text-xs text-muted-foreground ml-3">No published prices; quote within one business day.</span>
+          <span className="text-xs text-muted-foreground ml-3">We reply within one business day; published US fees are on the <Link to="/training-usa#training-fees" className="underline text-primary">US training page</Link>.</span>
         </div>
       </div>
       <CourseSessionsTable path={path} />

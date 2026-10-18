@@ -44,7 +44,7 @@ export function naTrainingMeta(slug: string): NaTrainingMeta | null {
   if (ca) return { slug, name, st, country, kind, label, title: ca.title, h1: ca.h1, description: ca.description };
   return {
     slug, name, st, country, kind, label, title, h1: title,
-    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — live online or onsite at your facility. Quote within one business day.`,
+    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`,
   };
 }
 

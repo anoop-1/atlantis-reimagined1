@@ -10907,7 +10907,7 @@ methodPages.forEach(m => {
 // ─── Training City Pages ─────────────────────────────────────────────────
 
 const trainingCityPages = [
-  { slug: 'houston', city: 'Houston', region: 'USA', detail: 'Houston is the registered US base of Atlantis NDT and the mobilisation point for on-site cohorts across the Gulf Coast refining and petrochemical corridor.' },
+  { slug: 'houston', city: 'Houston', region: 'USA', detail: 'Atlantis NDT has an office address in Houston but no classroom, campus or training site there; Houston training is for the Gulf Coast refining and petrochemical corridor.' },
   { slug: 'new-york', city: 'New York', region: 'USA', detail: 'New York City NDT training for aerospace, manufacturing, and construction industries. Manhattan and tri-state area.' },
   { slug: 'los-angeles', city: 'Los Angeles', region: 'USA', detail: 'LA-based NDT training for aerospace (Boeing, Northrop Grumman), oil refining, and manufacturing sectors.' },
   { slug: 'chicago', city: 'Chicago', region: 'USA', detail: 'Chicago NDT training for manufacturing, power generation, and pipeline industries across the Midwest.' },
@@ -10931,17 +10931,17 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
   const richBody = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/training-usa">US Training</a><a href="/asnt-certification">ASNT</a><a href="/contact">Contact</a></nav></header>
   <main>
     <h1>NDT Training in ${city} — ASNT SNT-TC-1A Level I, II and III</h1>
-    <p><strong>Atlantis NDT</strong> delivers employer-based NDT training in ${city}, ${region}: ASNT Level III-led Level I and Level II courses, examinations and certification records issued under your company's SNT-TC-1A or CP-189 written practice. ${detail} Training runs on-site at your facility with instructors mobilised from Atlantis NDT's Houston, Texas base for the engagement, or as online theory with an in-person practical — there is no requirement to send technicians to a school.</p>
+    <p><strong>Atlantis NDT</strong> delivers employer-based NDT training in ${city}, ${region}: ASNT Level III-led Level I and Level II courses, examinations and certification records issued under your company's SNT-TC-1A or CP-189 written practice. ${detail} Theory is self-paced online with ASNT NDT Level III support, and practicals run in the Practical NDT simulator and in person at your facility — there is no requirement to send technicians to a school.</p>
     <h2>Employer-based certification under SNT-TC-1A</h2>
     <p>In the United States, NDT personnel are qualified and certified by their employer under a written practice that follows ASNT Recommended Practice SNT-TC-1A, or the ANSI/ASNT CP-189 standard. Atlantis NDT works inside that structure: an ASNT NDT Level III reviews or authors your written practice, delivers the classroom hours SNT-TC-1A recommends for each method and level, administers the general, specific and practical examinations, and signs the certification records your customers and auditors ask to see. See <a href="/asnt-certification">how ASNT certification works</a> and <a href="/snt-tc-1a-training-certification">SNT-TC-1A training and certification for employers</a>.</p>
     <h2>Methods and levels delivered in ${city}</h2>
-    <p>Level I and Level II courses in ultrasonic testing (UT, including thickness and shear-wave weld examination), phased array UT (PAUT), radiographic testing and film interpretation (RT), magnetic particle testing (MT), liquid penetrant testing (PT), visual testing (VT) and eddy current testing (ET), each built to the SNT-TC-1A training-hour tables and examined against your procedures on your equipment. <a href="/ndt-level-1-training">Level I</a> and <a href="/ndt-level-2-training">Level II</a> cohorts typically run three to ten days per method; <a href="/asnt-level-iii-training">Level III</a> candidates are prepared for the ASNT Basic and Method examinations.</p>
+    <p>Level I and Level II courses in ultrasonic testing (UT, including thickness and shear-wave weld examination), phased array UT (PAUT), radiographic testing and film interpretation (RT), magnetic particle testing (MT), liquid penetrant testing (PT), visual testing (VT) and eddy current testing (ET), each built to the SNT-TC-1A training-hour tables and examined against your procedures on your equipment. <a href="/ndt-level-1-training">Level I</a> and <a href="/ndt-level-2-training">Level II</a> classroom hours follow the SNT-TC-1A recommendations for each method; <a href="/asnt-level-iii-training">Level III</a> candidates are prepared for the ASNT Basic and Method examinations.</p>
     <h2>What a ${city} employer receives</h2>
     <p>A written practice reviewed or authored to SNT-TC-1A 2024 or CP-189, course records showing the hours delivered per technician, examination papers and graded practicals with the specimens used, a certification record per person per method, and a recertification calendar. The file is prepared to survive a customer audit — the question an auditor asks in ${city} is not where the technician trained but whether the employer's certification record is complete. Ongoing Level III oversight is available through <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III consulting</a>.</p>
     <h2>Delivery in ${city}</h2>
-    <p>On-site cohorts of 4 to 25 technicians at your plant, yard or shop, with Atlantis NDT bringing calibration blocks, reference specimens and examination materials; blended delivery with the theory online and the practical on your equipment; or fully online theory for Level I and Level II general examinations where your written practice permits it. Instructors and examiners are mobilised from Houston for the duration of the engagement. See <a href="/corporate-ndt-training">employer-sponsored NDT training</a> and <a href="/training-usa">NDT training across the US</a>.</p>
-    <h2>Talk to an ASNT Level III about a ${city} cohort</h2>
-    <p>Send the methods, levels and head-count you need certified and, if you have one, your current written practice. An ASNT NDT Level III will map the training hours and examinations required and return a tailored proposal — affordable, accessible and fully customizable, with a quote on request. <a href="/contact">Request a training proposal</a>.</p>
+    <p>Self-paced online theory with ASNT NDT Level III support, with practical sessions at your plant, yard or shop on your own equipment; for company teams, on-site training with Atlantis NDT bringing calibration blocks, reference specimens and examination materials. See <a href="/corporate-ndt-training">employer-sponsored NDT training</a> and <a href="/training-usa">NDT training across the US</a>.</p>
+    <h2>Talk to an ASNT Level III about training in ${city}</h2>
+    <p>Send the methods, levels and head-count you need certified and, if you have one, your current written practice. An ASNT NDT Level III will map the training hours and examinations required and return a tailored proposal. <a href="/contact">Request a training proposal</a>; we reply within one business day.</p>
   </main>`;
 
   routes.push({
@@ -13340,12 +13340,13 @@ routes.push({
   const mUrl = epSrc.match(/MS_FORM_URL\s*=\s*'([^']+)'/) || epSrc.match(/MS_FORM_URL\s*=[\r\n\s]*'([^']+)'/);
   if (!mUrl) throw new Error('MS_FORM_URL not found in enquiry-endpoint.ts — the training CTA pass would emit a dead link');
   const FORM_URL = mUrl[1];
+  const ENQ = JSON.parse(readFileSync(join(ROOT, 'src/data/training-enquiry-copy-2026-10.json'), 'utf-8')); // 2026-10-18: one enquiry copy for every training page (no dates, no time promise but one business day)
   const ctaHtml =
     '\n<section data-cta="training-enquiry" aria-label="Training enquiry">' +
-    '<h2>Ask about NDT training dates and delivery</h2>' +
-    '<p>Tell us the methods and levels you need and how many technicians. We reply with available dates, the delivery options that fit, and what your written practice requires — usually the same working day.</p>' +
+    '<h2>' + ENQ.heading + '</h2>' +
+    '<p>' + ENQ.body + '</p>' +
     '<p><a href="' + FORM_URL + '" target="_blank" rel="noopener noreferrer">Request a quote / enrol</a>' +
-    ' · <a href="/corporate-ndt-training">Employer-sponsored cohorts</a>' +
+    ' · <a href="/corporate-ndt-training">Employer-sponsored training</a>' +
     ' · <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a></p></section>';
   // 2026-10-04: CWI info pages — Atlantis offers no CWI prep, so no "enrol" there.
   const cwiCtaHtml =

@@ -1,0 +1,28 @@
+{
+  "_note": "2026-10-18 (training workstream; spec /home/claude/wt/shared/rea/training.md §5.3). One source for the cost and exam-preparation sections on /asnt-level-iii-training: crawler scripts/level3-training-2026-10.mjs (called from applyTrainingReleaseRoute) and React src/components/Level3CostPrepBlock.tsx read this file. ASNT exam formats and fees come from src/data/asnt-certification-2026-10.json (level3.exams, fees.tables[1]); the Atlantis Level III refresher fees appear only as the approved US table that scripts/approved-pricing.mjs (crawler) and ApprovedTrainingFees.tsx (React) render from src/data/approved-training-fees.json into the slot after the cost paragraph. The five Basic domains are the ones /asnt-level-iii-basic-exam-prep teaches. Never type an amount here.",
+  "path": "/asnt-level-iii-training",
+  "cost": {
+    "h2": "What NDT Level 3 costs: the course plus ASNT's exams",
+    "paras": [
+      "The online Level III refresher is self-paced and exam-focused, priced per method in the table below. The fee covers online course access, study materials, mock exams and instructor support, and ASNT examination fees are paid separately to ASNT. ASNT charges for the NDT Basic and each Method exam at member and nonmember rates, listed after the fee table."
+    ],
+    "asntH3": "ASNT NDT Level III exam fees",
+    "salaryNote": "For what a Level III earns, see"
+  },
+  "prep": {
+    "h2": "NDT Level 3 exam preparation course: what it covers",
+    "intro": "First-time ASNT NDT Level III candidates pass the NDT Basic exam and at least one Method exam. The Basic covers five areas, and preparation works through each of them:",
+    "domains": [
+      ["NDT certification", "SNT-TC-1A and ANSI/ASNT CP-189 in detail: qualification versus certification, the written practice, training and experience by level and method, the general, specific and practical exams, vision, recertification and revocation."],
+      ["Application of NDT methods", "Level II-degree familiarity with the common methods beyond your own, and method selection for a given component and discontinuity."],
+      ["NDT training", "How a training programme is structured, how classroom hours relate to experience, and how training records are kept under a written practice."],
+      ["Materials science and process technology", "Metals, heat treatment and the manufacturing and in-service processes that create discontinuities, linked to the method that finds each one."],
+      ["Codes, standards, specifications and procedures", "How the documents fit together, what a procedure must contain, how acceptance criteria are applied and who approves a procedure."]
+    ],
+    "examsLead": "ASNT's Level III exam formats, as published by ASNT:",
+    "after": "Study is self-paced online, with an ASNT NDT Level III answering your questions, and enrolment is open all year. See the <a href=\"/asnt-level-iii-basic-exam-prep\">Level III Basic exam prep</a> page, the <a href=\"/resources/asnt-level-iii-study-guide\">ASNT Level III study guide</a> and <a href=\"/asnt-certification#asnt-level-3-requirements\">ASNT Level 3 requirements</a>."
+  },
+  "faq": [
+    ["How much does NDT Level 3 certification cost?", "Two parts. The online Level III refresher is priced per method in the fee table on this page and covers course access, study materials, mock exams and instructor support. ASNT's own exam fees are separate and paid to ASNT: one NDT Basic exam plus at least one Method exam, at member or nonmember rates, as listed in the ASNT table on this page."]
+  ]
+}

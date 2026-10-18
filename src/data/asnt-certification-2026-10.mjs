@@ -16,6 +16,8 @@
  */
 
 export const ASNT_CERT_PATH = '/asnt-certification';
+/** Same token as scripts/approved-pricing.mjs (TRAINING_FEES_SLOT); kept literal so no pricing module is imported here. */
+export const TRAINING_FEES_SLOT = '<!--training-fees-slot-->';
 
 const nums = (list) => list.map((v) => {
   const n = Number(v);
@@ -39,6 +41,8 @@ export function resolveAsntCertification(data, hours) {
     l2Class: range(keys.map((k) => hours.classroom[k][1])),
     l2Exp: range(keys.map((k) => hours.ojt[k][1])),
     l3Months: `${Math.min(...months)} to ${Math.max(...months)}`,
+    // 2026-10-18: "at least 252 days with …, 504 days with … or 1,008 days without college"
+    l3DaysList: data.level3.eligibility.map((e, i, all) => `${i === 0 ? 'at least ' : i === all.length - 1 ? 'or ' : ''}${e.days.toLocaleString('en-US')} days ${e.short}`).join(', '),
   };
   for (const e of data.level3.exams) vars[`exam.${e.key}`] = `${e.items} questions in ${e.hours} hours`;
   const fill = (s) => String(s).replace(/\{([a-zA-Z0-9.]+)\}/g, (_, k) => {
@@ -77,7 +81,11 @@ export function asntCertificationHtml(m) {
   s.push(`<section><h2>${esc(m.levels.h2)}</h2><p>${esc(m.levels.intro)}</p>${table(m.levels.caption, m.levels.head, m.levels.items.map((r) => r.map(esc)))}</section>`);
   s.push(`<section><h2>${esc(m.hours.h2)}</h2><p>${esc(m.hours.intro)}</p>${table(m.hours.caption, m.hours.head, m.hoursRows.map((r) => [`<a href="${attr(r.href)}">${esc(r.name)}</a>`, r.classroom, r.experience]))}<p>${esc(m.hours.after)} ${a(m.hours.link)}.</p></section>`);
   s.push(`<section><h2>${esc(m.level2.h2)}</h2><p>${esc(m.level2.p)}</p><p>Prepare with ${a(m.level2.link)}.</p></section>`);
+  if (m.level3.reqH2) s.push(`<section id="asnt-level-3-requirements"><h2>${esc(m.level3.reqH2)}</h2><p>${esc(m.level3.req)}</p></section>`);
   s.push(`<section><h2>${esc(m.level3.h2)}</h2><p>${esc(m.level3.intro)}</p>${table(m.level3.eligibilityCaption, m.level3.eligibilityHead, m.eligibilityRows.map((r) => r.map(esc)))}${table(m.level3.examsCaption, m.level3.examsHead, m.examRows.map((r) => r.map(esc)))}<p>${esc(m.level3.renewal)}</p><p>Prepare with ${m.level3.links.map(a).join(' and ')}.</p></section>`);
+  // 2026-10-18: the whole-cost answer, then the approved US fee table (filled into the slot by
+  // scripts/approved-pricing.mjs on allowlisted paths only), then ASNT's own exam fees.
+  if (m.cost) s.push(`<section id="ndt-certification-cost"><h2>${esc(m.cost.h2)}</h2>${m.cost.paras.map((p) => `<p>${esc(p)}</p>`).join('')}<p>Published US training fees are also on ${a(m.cost.link)}.</p></section>${TRAINING_FEES_SLOT}`);
   s.push(`<section><h2>${esc(m.fees.h2)}</h2><p>${esc(m.fees.intro)}</p>${m.fees.tables.map((t) => `${table(t.caption, m.fees.head, t.rows.map((r) => r.map(esc)))}<p>Source: ${a([t.url, t.urlLabel])}.</p>`).join('')}<p>${esc(m.fees.renewalNote)} See the ${a(m.fees.renewalLink)}.</p></section>`);
   s.push(`<section><h2>${esc(m.training.h2)}</h2>${m.training.paras.map((p) => `<p>${esc(p)}</p>`).join('')}${ul(m.training.links.map(a))}</section>`);
   s.push(`<section><h2>Frequently asked questions about ASNT certification</h2>${m.faqs.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}</section>`);

@@ -36,7 +36,7 @@ export default function TrainingPathChooser({ label }: { label: string }) {
             </h3>
             <p className="text-muted-foreground text-sm mb-4">
               You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your
-              facility or blended with online theory, with Level III oversight and an audit-ready file. Quote
+              facility or blended with online theory, with Level III oversight and an audit-ready file. We reply
               within one business day.
             </p>
             <div className="flex flex-wrap gap-3 text-sm">

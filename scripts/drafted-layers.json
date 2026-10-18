@@ -1692,8 +1692,8 @@
   {
     "route": "/asnt-level-iii-training",
     "answer": "ASNT Level III is the technical-authority certification. The holder writes and approves inspection procedures, selects methods for a given application, authors and owns the employer's Written Practice, and trains, examines and certifies Level I and Level II personnel. ASNT's published routes require 12, 24 or 48 months of documented NDT experience, depending on education.",
-    "expansion": "Level III is the only level that creates authority rather than exercising it. A Level II works inside an approved procedure; a Level III writes that procedure, qualifies it for a specific material, thickness range and geometry, approves it, and answers for it to an auditor. The same person is named in the employer's Written Practice as the authority who trains, examines and certifies Level I and Level II personnel. Examination has three parts: a Basic exam on materials, processes, discontinuities and the certification schemes, taken once and carried across every method; a Method exam per method sought; and an employer-specific exam where a Written Practice calls for one. ASNT publishes three eligibility routes on asnt.org: 12 months of NDT experience with an engineering or physical-science degree, 24 months with two years of such study, 48 months without a degree. US Level III roles run $80,000–$130,000.",
-    "source": "ASNT NDT Level III eligibility routes published on asnt.org; ASNT Recommended Practice No. SNT-TC-1A; ANSI/ASNT CP-189, Standard for Qualification and Certification of Nondestructive Testing Personnel; ANSI/ASNT CP-105 topical outlines for the Basic and Method examinations; ASNT ACCP Professional Level III. US pay bands cross-referenced from /blog/ndt-salary-guide-2026-global.",
+    "expansion": "Level III is the only level that creates authority rather than exercising it. A Level II works inside an approved procedure; a Level III writes that procedure, qualifies it for a specific material, thickness range and geometry, approves it, and answers for it to an auditor. The same person is named in the employer's Written Practice as the authority who trains, examines and certifies Level I and Level II personnel. ASNT's own examination has two parts: a Basic exam on materials, processes, discontinuities and the certification schemes, taken once and carried across every method, and a Method exam per method sought; an employer's Written Practice can add a specific exam on its own codes and procedures. ASNT publishes three eligibility routes on asnt.org: 12 months of NDT experience with an engineering or physical-science degree, 24 months with two years of such study, 48 months without a degree. ASNT NDT Level III is renewed every five years.",
+    "source": "ASNT NDT Level III eligibility routes published on asnt.org; ASNT Recommended Practice No. SNT-TC-1A; ANSI/ASNT CP-189, Standard for Qualification and Certification of Nondestructive Testing Personnel; ANSI/ASNT CP-105 topical outlines for the Basic and Method examinations; ASNT 9712 Level III (which replaced ACCP), as described on certification.asnt.org.",
     "table": {
       "caption": "Five ways to hold Level III authority — issuer, portability, prerequisite and scope",
       "columns": [
@@ -1726,11 +1726,11 @@
           "Third-party evidence of Level III competence; the employer still names the Level III in its Written Practice"
         ],
         [
-          "ACCP Professional Level III",
+          "ASNT 9712 Level III",
           "ASNT directly",
           "Yes",
-          "Level II experience route plus ASNT examination",
-          "Portable third-party Level III, preferred in aerospace and government-adjacent work"
+          "ASNT 9712 examinations, including practical exams",
+          "Portable third-party Level III designed to meet ISO 9712:2021"
         ],
         [
           "Contract / outsourced Level III of record",
@@ -1745,7 +1745,7 @@
     "facets": [
       {
         "q": "What does an ASNT Level III earn in the United States?",
-        "a": "US Level III roles run $80,000–$130,000 a year, a 30–60% step over the $55,000–$80,000 Level II band. The step is paid for authority, not tenure: procedure approval, personnel certification and audit defence are liabilities an employer cannot delegate downward. Consulting-track Level IIIs bill hourly and annualise higher at realistic utilisation. Full bands sit in the NDT Salary Guide 2026."
+        "a": "O*NET lists a $78,350 median annual wage (2025) for the broader occupation group that includes non-destructive testing specialists, and does not break pay down by certification level. Level III pay depends on the method, the sector and whether the role is staff or contract, because procedure approval, personnel certification and audit defence are the employer's liabilities. The NDT Level 3 salary page sets out level-specific ranges."
       },
       {
         "q": "What can a Level III approve that a Level II cannot?",
@@ -1753,7 +1753,7 @@
       },
       {
         "q": "How much documented experience does Level III require?",
-        "a": "ASNT's published routes for ASNT NDT Level III (asnt.org): 12 months (252 days) with a four-year engineering or physical-science degree, 24 months (504 days) with two years of such study, 48 months (1,008 days) without a college degree, a day being at least 7 hours of supervised NDT work. An employer's SNT-TC-1A Written Practice sets its own Level III requirement. A current annual near-vision acuity and colour-contrast test must also be on file at the time of examination."
+        "a": "ASNT's published routes for ASNT NDT Level III (asnt.org): 12 months (252 days) with a four-year engineering or physical-science degree, 24 months (504 days) with two years of such study, 48 months (1,008 days) without a college degree, a day being at least 7 hours of supervised NDT work. An employer's SNT-TC-1A Written Practice sets its own Level III requirement, including the vision examinations it calls for."
       },
       {
         "q": "Do I need a separate Level III exam for every method?",
@@ -1765,7 +1765,7 @@
       },
       {
         "q": "Does ASNT Level III certification expire?",
-        "a": "Yes. Recertification runs on a periodic cycle set by ASNT for ASNT-issued Level III and ACCP, or by the employer's Written Practice under SNT-TC-1A and CP-189. Refresher preparation targets what has changed in the relevant codes and standards since the last certification plus a Basic and Method content review, not first-time theory instruction. The annual vision test is separate and must stay current."
+        "a": "Yes. ASNT NDT Level III is renewed every five years, by application with points or by examination, and under SNT-TC-1A and CP-189 the employer's Written Practice sets the recertification interval. Refresher preparation targets what has changed in the relevant codes and standards since the last certification plus a Basic and Method content review, not first-time theory instruction."
       }
     ]
   },

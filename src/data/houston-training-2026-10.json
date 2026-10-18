@@ -1,0 +1,152 @@
+{
+  "_note": "Single source for /ndt-training-houston (2026-10-18, training workstream; spec /home/claude/wt/shared/rea/training.md §5.1). Rendered by scripts/houston-training-2026-10.mjs from applyTrainingReleaseRoute (crawler); the page is a published path (src/lib/published-pages.ts), so readers see the same <main>. Hours come from src/data/snt-tc-1a-hours.json via {c.KEY.L} (classroom), {o.KEY.L} (experience), {pkg.L} (five-method package sum) and {hoursList}; ASNT exam fees from src/data/asnt-certification-2026-10.json; Atlantis US fees only through the <!--training-fees-slot--> filled by scripts/approved-pricing.mjs from src/data/approved-training-fees.json. Never type an hour figure or an amount here. ASNT Houston facts checked on asnt.org/education/asnt-houston (18 Oct 2026); O*NET facts on onetonline.org 17-3029.01 (18 Oct 2026). Title and description: src/data/ctr-wave16/training.json.",
+  "path": "/ndt-training-houston",
+  "h1": "NDT Training and Certification in Houston, TX",
+  "breadcrumb": [["/", "Home"], ["/training", "NDT Training"], ["/ndt-training-usa", "USA"], ["/ndt-training-texas", "Texas"], [null, "Houston"]],
+  "lead": "ASNT SNT-TC-1A Level I and Level II training in UT, RT, MT, PT and VT, plus PAUT, TOFD and ET courses and ASNT Level III exam preparation, for technicians and employers in Houston. This page answers the questions people in Houston ask first: how the training works without a campus, how long it takes, what it costs, who certifies you and where ASNT's own exams are held.",
+  "howItWorks": {
+    "h2": "NDT training in Houston without a campus: how it works",
+    "paras": [
+      "Atlantis NDT has an office address in Houston but no classroom, campus or training site there. Theory is self-paced online and runs all year: starts are in the first week of each month, and you can enrol at other times too, with an ASNT NDT Level III answering course questions as you go. Practicals are done in the <a href=\"/practical-ndt\">Practical NDT simulator</a> and in person at your employer's facility, on its own equipment. A course gives you documented training hours; under SNT-TC-1A your employer certifies you, and ASNT runs its own central exams at ASNT Houston.",
+      "There is no Atlantis classroom building to drive to on the Katy Freeway or the Gulf Freeway. The classroom is on your screen, and the practical happens where you already work. For crews spread across the Ship Channel, Freeport and Beaumont–Port Arthur, that is usually simpler than getting everyone to one room."
+    ]
+  },
+  "routes": {
+    "h2": "NDT school, ASNT Houston or online + on-site: which route fits?",
+    "intro": "Three ways to train for NDT work in Houston, side by side. None of them hands you an SNT-TC-1A certificate on its own: that comes from your employer.",
+    "caption": "Three routes to NDT training and certification in Houston",
+    "head": ["", "NDT school programme", "ASNT Houston (912 Gemini St.)", "Atlantis NDT: online + at your facility"],
+    "rows": [
+      ["What it is", "A programme you attend in person; length and tuition are set by the school", "ASNT's own facility: instructor-led courses and, in ASNT's words, \"the only location that offers the full suite of ASNT certification exams\"", "Self-paced theory with ASNT NDT Level III support, the Practical NDT simulator, and supervised practical training at your employer's facility"],
+      ["When you start", "The school's calendar", "ASNT's course calendar; ASNT does not offer walk-in testing", "Any month (starts in the first week of each month); enrolment is open all year"],
+      ["Where the practical happens", "The school's lab", "ASNT Houston's training labs", "The simulator, then your employer's equipment"],
+      ["Does it certify you?", "No: under SNT-TC-1A the employer certifies", "ASNT issues ASNT NDT Level II, ASNT NDT Level III and ASNT 9712 after its own exams", "No: you get training hours and a training record; your employer certifies you"],
+      ["Fees", "Set by each school", "ASNT exam fees (listed below)", "US fees published below"]
+    ]
+  },
+  "duration": {
+    "h2": "How long is NDT training?",
+    "paras": [
+      "Two clocks run. Classroom hours: SNT-TC-1A recommends, per method, these hours for Level I and then Level II: {hoursList}. Atlantis's US five-method packages (VT, PT, MT, UT and RT) follow those figures: {pkg.0} hours for Level I and {pkg.1} hours for Level II. Because theory is self-paced, the calendar time depends on how much you study each week.",
+      "Experience hours set the real pace. For UT, SNT-TC-1A recommends {o.UT.0} hours of experience in the method for Level I and a further {o.UT.1} for Level II, logged on paid work under supervision. Your employer's written practice sets the binding numbers. See <a href=\"/blog/how-long-does-ndt-training-take\">how long NDT training takes</a> for the full picture, or plan your own hours with the <a href=\"/tools/snt-tc-1a-hours-planner\">SNT-TC-1A hours planner</a>."
+    ],
+    "caption": "SNT-TC-1A recommended minimum hours by method. Level II hours are in addition to Level I; your employer's written practice sets the binding numbers.",
+    "head": ["Method", "Classroom, Level I", "Classroom, Level II", "Experience in the method, Level I", "Experience in the method, Level II"]
+  },
+  "cost": {
+    "h2": "What NDT training and certification cost in Houston",
+    "paras": [
+      "Certification has up to three cost lines. Training: Atlantis's US fees for Level I and Level II, per method and as five-method packages, and for the online Level III refresher, are in the table below. ASNT exam fees apply only if you take ASNT's central exams: ASNT lists the initial ASNT NDT Level II exam (general and specific) per method, and the Level III Basic and method exams, at member and nonmember rates. Employer examinations under SNT-TC-1A are given by the employer's Level III under its written practice. For the wider picture, see <a href=\"/asnt-certification\">NDT certification cost</a>."
+    ],
+    "asntH3": "ASNT exam fees",
+    "asntIntro": "As published by ASNT and checked in October 2026. ASNT's own pages carry the current schedule; ASNT does not set training fees."
+  },
+  "exams": {
+    "h2": "Where you take ASNT exams in Houston",
+    "paras": [
+      "ASNT runs its own facility at 912 Gemini St., Houston, TX 77058, and describes it as \"the only location that offers the full suite of ASNT certification exams\". Exams there must be booked in advance; ASNT does not offer walk-in testing. ASNT Houston also runs instructor-led courses in its own training labs. Atlantis does not run an exam centre: you can train with Atlantis online and at your facility and sit ASNT's central exams at Gemini St. See <a href=\"https://www.asnt.org/education/asnt-houston\" rel=\"noopener\">ASNT Houston on asnt.org</a> and <a href=\"/asnt-certification\">how ASNT certification works</a>."
+    ]
+  },
+  "courses": {
+    "h2": "Courses and methods for Houston work",
+    "intro": "Each course follows the SNT-TC-1A recommended structure for its method and level: the physics, equipment, calibration, technique, interpretation and codes that the general and specific examinations draw on. The table maps each method to the Houston work it feeds, which tells you which course to take first.",
+    "caption": "NDT methods, levels and the Houston work each one feeds",
+    "head": ["Method", "Levels", "What Houston employers use it for", "Prerequisite"],
+    "rows": [
+      ["Ultrasonic Testing (UT)", "I, II, III exam prep", "Thickness readings at condition-monitoring locations on process piping, shear-wave weld examination on ASME B31.3 piping and ASME Section VIII vessels, lamination checks on plate at fabrication shops", "None for Level I; Level II needs Level I plus documented experience per your written practice"],
+      ["Phased Array UT (PAUT)", "I, II", "Corrosion mapping on vessels, exchangers and columns; encoded weld examination where the construction code and owner accept UT in place of radiography", "Normally UT Level II first"],
+      ["Time of Flight Diffraction (TOFD)", "I, II", "Flaw sizing on thick-wall vessel seams, heavy-wall fabrication and girth welds; often run with PAUT", "Normally UT Level II first"],
+      ["Radiographic Testing (RT)", "I, II, III exam prep", "Film, CR and DR weld radiography on pipelines to API 1104, process piping to ASME B31.3 and shop-built vessels; profile radiography for corrosion under insulation", "None for Level I training; Texas radiation safety certification is a separate requirement (see below)"],
+      ["Magnetic Particle Testing (MT)", "I, II, III exam prep", "Structural steel to AWS D1.1 in fabrication yards, oilfield tubular and lifting-gear inspection, crack checks on pump and compressor parts", "None for Level I"],
+      ["Liquid Penetrant Testing (PT)", "I, II, III exam prep", "Stainless and nickel-alloy welds in petrochemical units, valve and pump bodies, non-magnetic forgings and precision aerospace parts", "None for Level I"],
+      ["Visual Testing (VT)", "I, II, III exam prep", "Weld visual inspection to AWS D1.1, ASME and API 1104; pre- and post-turnaround visual checks; the foundation for every other method", "None for Level I"],
+      ["Eddy Current Testing (ET)", "I, II", "Heat-exchanger and condenser tube inspection, surface crack detection on non-ferrous and coated parts", "None for Level I"]
+    ],
+    "after": [
+      "<strong>Which course first?</strong> For refinery and petrochemical work, VT, PT and MT are the quickest first certifications; UT is the long build that most in-service work depends on, and PAUT and TOFD come after a solid UT Level II. For pipeline and fabrication work, RT and VT carry more weight. <a href=\"/contact?service=training&amp;subject=NDT%20training%20Houston%20-%20course%20sequence\">Ask a Level III which course to take first</a>, or start with <a href=\"/ndt-level-1-training\">NDT Level 1 training</a>, <a href=\"/ndt-level-2-training\">NDT Level 2 training</a> or <a href=\"/asnt-level-iii-training\">ASNT Level III exam preparation</a>."
+    ]
+  },
+  "certPath": {
+    "h2": "SNT-TC-1A certification path, step by step",
+    "steps": [
+      ["Your employer's written practice.", "Every SNT-TC-1A certification starts here. The written practice defines the training hours, experience hours, examinations, vision requirements and recertification interval for each method and level. If you do not have an employer yet, your training records still count: the employer who hires you certifies you under its own document."],
+      ["Formal classroom training.", "You complete the method- and level-specific training hours the written practice sets. Atlantis delivers the theory self-paced online, with on-site options for company teams, and issues training records showing the hours and topics covered. The recommended minimums are in the <a href=\"/resources/training-requirements-matrix\">NDT training requirements matrix</a>."],
+      ["Documented on-the-job experience.", "You log experience in the method under a certified Level II or Level III. In Houston this usually means paid work on thickness surveys, weld inspection or fabrication QC. Experience, not classroom time, is what decides how fast you reach Level II."],
+      ["General, specific and practical examinations.", "A Level III administers three exams. The general exam tests method theory, the specific exam tests the employer's procedures, equipment and codes, and the practical exam is hands-on work on real specimens with a documented checklist. Grading follows the written practice."],
+      ["Vision examination.", "Near-vision acuity and colour contrast are checked and recorded at the interval your written practice sets."],
+      ["Certification by the employer.", "The employer's certifying authority signs a record listing the method, level, date, exam results, training and experience. This is the record an owner-operator's QA group or an auditor asks for when your crew arrives at the gate."],
+      ["Recertification.", "Certifications expire on the interval your written practice sets, and renewal is by examination or documented continuing performance, depending on the practice."]
+    ],
+    "after": "For the employer side, see <a href=\"/snt-tc-1a-training-certification\">SNT-TC-1A training and certification</a> and the <a href=\"/snt-tc-1a-employer-certification-program\">SNT-TC-1A certification programme for NDT companies</a>."
+  },
+  "work": {
+    "h2": "Where NDT technicians work in Houston",
+    "intro": "Houston NDT work is spread across more sectors than the Ship Channel refineries. Knowing which one you are aiming at changes which methods, codes and site requirements matter.",
+    "items": [
+      ["Refining and petrochemicals.", "Pasadena, Deer Park, Baytown, La Porte, Channelview and Texas City, plus the chemical complexes at Freeport. The work is in-service inspection of piping, vessels, exchangers and tanks, with ASME Section V for technique and ASME B31.3 and Section VIII for construction and repair."],
+      ["LNG and export terminals.", "Liquefaction and export facilities along the Texas coast generate construction-phase weld inspection (RT, PAUT, VT) and later in-service programmes."],
+      ["Pipelines.", "New-construction girth welds are examined to API 1104. Intrastate pipeline safety in Texas is overseen by the Railroad Commission of Texas and interstate lines by federal PHMSA regulations. Operators also require operator qualification (OQ) for covered tasks, which is separate from NDT certification."],
+      ["Oilfield equipment manufacturing.", "Wellhead, pressure-control, drilling-tool and OCTG shops in north and northwest Houston rely on MT, PT and UT."],
+      ["Fabrication yards and module builders.", "Structural steel to AWS D1.1, pressure vessels to ASME Section VIII and offshore structures need VT, MT, UT and RT on a production schedule."],
+      ["Aerospace and space.", "Work around Clear Lake and Ellington Field needs PT, ET and UT on precision parts, usually under an aerospace personnel standard your employer specifies."]
+    ],
+    "licensing": "<strong>Radiography licensing in Texas.</strong> Texas is an NRC Agreement State. Industrial radiography is regulated by the Texas Department of State Health Services (DSHS) Radiation Control Program under 25 TAC §289.255, and Texas issues its own industrial radiographer certification: you complete a radiation safety course that meets the rule, then log documented on-the-job training as a trainee under an authorised radiographer trainer. This is separate from, and in addition to, your SNT-TC-1A RT certification. The NDT certificate says you can interpret a radiograph; the DSHS certification says you may work with a source or X-ray tube. Our RT course covers method and interpretation, not the state radiation safety course.",
+    "extras": "<strong>What Houston employers ask for on top of the NDT card:</strong> a site safety orientation for the plant or industrial area, drug and alcohol screening, a Transportation Worker Identification Credential (TWIC) for work inside port and marine terminals regulated under the Maritime Transportation Security Act, and OQ on pipeline work. None of these is NDT training, but all of them decide whether a certified technician can start work on day one."
+  },
+  "careers": {
+    "h2": "NDT careers in Houston: what the data says",
+    "paras": [
+      "O*NET lists a $78,350 median annual wage (2025) for the occupation group that includes non-destructive testing specialists, average projected growth of 3% to 4% for 2025–2035 and about 5,400 openings, and 68% of respondents report a high-school diploma or equivalent as the entry requirement. Source: <a href=\"https://www.onetonline.org/link/summary/17-3029.01\" rel=\"noopener\">O*NET 17-3029.01</a>. Read <a href=\"/blog/is-ndt-a-good-career\">is NDT a good career</a> for the trade-offs, and <a href=\"/ndt-inspector-salary\">NDT technician salary</a> for pay by role."
+    ]
+  },
+  "level3": {
+    "h2": "Level III services for Houston NDT companies",
+    "paras": [
+      "Atlantis supports Houston employers with written practice development or revision, Level III procedure writing and approval, examination administration and grading, certification record review and pre-audit gap reviews. Technicians recruited from other employers need their certifications re-issued under your written practice: a Level II from another company is not your Level II until your Level III has checked the records and given your specific and practical exams. See <a href=\"/consulting/ndt-consulting-level-iii\">outsourced ASNT Level III consulting</a>."
+    ]
+  },
+  "simulator": {
+    "h2": "Practise before the practical exam",
+    "paras": [
+      "Many candidates fail the practical, not the written. <a href=\"/practical-ndt\">Practical NDT</a>, the Atlantis 3D simulator, lets trainees practise 12 method families in 12 workplaces, including an NDT lab, a welding workshop, an oil and gas site and a storage tank. Use it to rehearse set-up order, scanning patterns, indication recognition and reporting. The simulator is practice only: it does not replace the practical exam on real specimens or count toward documented experience hours. For theory revision, work through the <a href=\"/ndt-practice-tests\">NDT Level 2 exam questions and answers</a>."
+    ]
+  },
+  "instructor": {
+    "h2": "Who leads the training",
+    "paras": [
+      "Training is led by <a href=\"/authors/anoop-rayavarapu\">Anoop Rayavarapu</a>, founder of Atlantis NDT, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience."
+    ]
+  },
+  "faqH2": "Frequently asked questions about NDT training in Houston",
+  "faq": [
+    ["Is there an NDT school near me in Houston?", "Houston has NDT schools that run campus programmes, and ASNT runs its own training and exam facility at 912 Gemini St. Atlantis NDT is not a school: there is no Atlantis classroom or campus in Houston. Theory is self-paced online with an ASNT NDT Level III answering questions, and practicals run in the Practical NDT simulator and at your employer's facility. The route table on this page compares the three."],
+    ["How long does NDT training take?", "Classroom hours are the short part. SNT-TC-1A recommends {c.UT.0} classroom hours for UT Level I and a further {c.UT.1} for Level II, and the five-method packages come to {pkg.0} hours at Level I and {pkg.1} at Level II. Experience sets the pace: for UT, {o.UT.0} hours in the method for Level I and a further {o.UT.1} for Level II. Your employer's written practice sets the binding numbers."],
+    ["How much does NDT certification cost in Houston?", "Up to three parties charge. Atlantis's published US fees for Level I, Level II and the online Level III refresher are in the fee table on this page. If you take ASNT's central exams, ASNT charges per exam at member and nonmember rates, listed under the fee table. Employer examinations under SNT-TC-1A are given by the employer's Level III under its written practice."],
+    ["Will a training course certify me?", "No. A course gives you documented training hours and a training record. Under SNT-TC-1A your employer certifies you, once your training and experience hours, vision examination and the general, specific and practical examinations under its written practice are complete. ASNT issues ASNT NDT Level II, ASNT NDT Level III and ASNT 9712 only after its own examinations."],
+    ["Can I get NDT certified online?", "You can do the theory online. It is self-paced, with an ASNT NDT Level III answering course questions, and enrolment is open all year with starts in the first week of each month. The practical cannot be done online: it is done in person on real equipment at your employer's facility, with Practical NDT simulator practice beforehand. Certification is then issued by your employer."],
+    ["Where do I take ASNT exams in Houston?", "At ASNT Houston, 912 Gemini St., Houston, TX 77058, which ASNT describes as the only location that offers the full suite of ASNT certification exams. Exams must be booked in advance, because ASNT does not offer walk-in testing. Atlantis does not run an exam centre; employer examinations under SNT-TC-1A are given by the employer's own Level III."],
+    ["Can you train our crew at our Baytown, Pasadena or Freeport facility?", "Yes. For company teams, the course can run on-site at your facility, with the practical sessions on your own equipment and specimens under ASNT Level III oversight, while the theory stays online and self-paced around rotations. Dates are agreed with you, because there are no public course dates. Send the methods, levels and number of technicians you need trained."],
+    ["Do I need a licence for radiography in Texas?", "Yes, if you will handle sources or operate industrial X-ray equipment. Texas DSHS regulates industrial radiography under 25 TAC §289.255 and issues its own radiographer certification. You get it by completing a qualifying radiation safety course and documented trainee on-the-job training under an authorised radiographer trainer. That is on top of your SNT-TC-1A RT method certification, so check current DSHS requirements first."],
+    ["Who teaches the courses?", "Training is led by Anoop Rayavarapu, founder of Atlantis NDT and ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. He oversees the course content and answers course questions, and examinations under your employer's written practice can be administered by an Atlantis ASNT NDT Level III."],
+    ["Is NDT a good career in Houston?", "O*NET lists a $78,350 median annual wage (2025) for the occupation group that includes non-destructive testing specialists, average projected growth of 3% to 4% for 2025–2035 and about 5,400 openings. 68% of respondents report a high-school diploma or equivalent as the entry requirement. The Houston sectors listed on this page, from refining to fabrication, all employ NDT technicians."]
+  ],
+  "cta": {
+    "h2": "Ask about NDT training in Houston",
+    "html": "Tell us the methods and levels you need and whether you are training on your own or as a company team. <a href=\"/contact?service=training&amp;subject=NDT%20training%20Houston\"><strong>Send a Houston training enquiry</strong></a>. We reply within one business day."
+  },
+  "relatedH2": "Related NDT training pages",
+  "related": [
+    ["/training", "NDT training and certification"],
+    ["/ndt-training-online", "Online NDT training"],
+    ["/ndt-school", "NDT schools: what they teach and how to choose"],
+    ["/asnt-certification", "ASNT certification requirements"],
+    ["/training-usa", "NDT training in the USA"],
+    ["/ndt-training-texas", "NDT training in Texas"],
+    ["/ndt-training-pasadena-texas", "NDT training in Pasadena"],
+    ["/ndt-training-baytown", "NDT training in Baytown"],
+    ["/ndt-training-sugar-land", "NDT training in Sugar Land"],
+    ["/ndt-training-texas-city", "NDT training in Texas City"],
+    ["/ndt-training-beaumont", "NDT training in Beaumont"],
+    ["/ndt-training-gulf-coast", "NDT training on the Gulf Coast"]
+  ]
+}

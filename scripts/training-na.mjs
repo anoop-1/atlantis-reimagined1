@@ -21,6 +21,7 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 import { hoursCell, methodCourseNode } from '../src/data/course-markup-2026-10.mjs'; // 2026-10-12: one Course/hours builder for both layers
 import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian titles/metas/H1s (ASNT SNT-TC-1A), same entry as src/lib/na-training.ts
+import { CTR_WAVE16_OVERRIDES } from './ctr-wave16-overrides.mjs'; // 2026-10-18: a wave-16 snippet on an NA city page is newer than the city template title
 
 const ROOT = process.cwd();
 const SITE = 'https://atlantisndt.com';
@@ -61,7 +62,7 @@ export function naMeta(slug) {
     slug, name, st, country, kind, label, Label,
     title,
     h1: title,
-    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. Quote within one business day.`,
+    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`,
   };
 }
 
@@ -222,7 +223,7 @@ export function pathsBlockHtml(label) {
       </div>
       <div class="training-path">
         <h3>I&#39;m training a company team</h3>
-        <p>You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your facility or blended with online theory, with Level III oversight and an audit-ready file. See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a> or <a href="/contact?service=training&amp;subject=Company%20team%20training">request a company team training quote</a> — quote within one business day.</p>
+        <p>You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your facility or blended with online theory, with Level III oversight and an audit-ready file. See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a> or <a href="/contact?service=training&amp;subject=Company%20team%20training">request a company team training quote</a>. We reply within one business day.</p>
       </div>
     </section>`;
 }
@@ -284,7 +285,7 @@ export function courseFactsHtml(path) {
       <table><caption>${esc(f.short)} ${esc(f.level)} course facts</caption><tbody>
         ${rows.map(([k, v]) => `<tr><th scope="row">${k}</th><td>${v}</td></tr>`).join('\n        ')}
       </tbody></table>
-      <p><a href="/contact?service=training&amp;subject=${subject}"><strong>Request a course quote</strong></a> — no published prices; quote within one business day.</p>
+      <p><a href="/contact?service=training&amp;subject=${subject}"><strong>Request a course quote</strong></a>. We reply within one business day; published US fees are on the <a href="/training-usa#training-fees">US training page</a>.</p>
     </section>`;
 }
 
@@ -337,7 +338,7 @@ function employerRouteObject() {
   <main>
     <h1>${d.h1}</h1>
     <p>${d.intro}</p>
-    <p><a href="${MS_FORM_URL}" rel="noopener"><strong>Request a programme quote</strong></a> · <a href="/contact?service=training&amp;subject=SNT-TC-1A%20employer%20programme">Talk to an ASNT Level III</a> — quote within one business day.</p>
+    <p><a href="${MS_FORM_URL}" rel="noopener"><strong>Request a programme quote</strong></a> · <a href="/contact?service=training&amp;subject=SNT-TC-1A%20employer%20programme">Talk to an ASNT Level III</a>. We reply within one business day.</p>
 ${sections}
     <h2>Frequently asked questions</h2>
 ${faq}
@@ -485,6 +486,9 @@ export function finalizeNaTrainingRoute(route) {
   const counts = {};
   const bodyContent = typeof route.bodyContent === 'string' ? sanitiseString(route.bodyContent, counts, false) : route.bodyContent;
   for (const [k, v] of Object.entries(counts)) FINAL_SANITISED[k] = (FINAL_SANITISED[k] || 0) + v;
+  // 2026-10-18: wave 16 (src/data/ctr-wave16/*.json) is the newest snippet layer; the CTR pass in
+  // prerender.mjs already put it on the route, so keep it instead of the city template title.
+  if (CTR_WAVE16_OVERRIDES[route.path]) return { ...route, bodyContent };
   return { ...route, bodyContent, title: m.title, ogTitle: m.title, description: m.description, ogDesc: m.description };
 }
 export const FINAL_SANITISED = {};
