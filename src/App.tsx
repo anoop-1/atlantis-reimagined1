@@ -13,6 +13,7 @@ const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); 
 const ProductVideoBlock = lazy(() => import("./components/ProductVideoBlock")); // §52
 const ProductScreenshotsBlock = lazy(() => import("./components/ProductScreenshotsBlock")); // §53
 const TrainingUpgradeBlock = lazy(() => import("./components/TrainingUpgradeBlock")); // 2026-10-16 training upgrade
+const TrainingCtaBar = lazy(() => import("./components/TrainingCtaBar")); // 2026-10-18 eligibility · FAQs · Register & Buy Now on training city/regional pages
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -56,6 +57,7 @@ const App = () => (
                   <NextStepsBlock />
                   <TrainingAvailabilityBlock />
                   <TrainingUpgradeBlock />
+                  <TrainingCtaBar />
                </Suspense>
                <GlobalEnquireCTA />
                <CustomAppNotice />

@@ -548,6 +548,8 @@ const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
 const NdtPracticeTests = lazy(() => import("./pages/NdtPracticeTests")); // 2026-10-16 practice-test hub (src/data/practice-tests)
+const NdtTrainingFaq = lazy(() => import("./pages/NdtTrainingFaq")); // 2026-10-18 training FAQ (src/data/training-conversion-2026-10.json)
+const SntTc1aEligibility = lazy(() => import("./pages/SntTc1aEligibility")); // 2026-10-18 SNT-TC-1A eligibility checker
 const PracticalNdtSimulatorPage = lazy(() => import("./pages/PracticalNdtSimulatorPage")); // 2026-10-17 Practical NDT method + workplace pages (src/data/practical-ndt-simulators-2026-10.mjs)
 import { PRACTICAL_SIM_SLUGS } from "./data/practical-ndt-simulator-slugs.mjs";
 const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
@@ -6816,6 +6818,8 @@ export default function RouteTable() { return (
                   <Route path="/asnt-level-iii-et-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/asnt-ndt-level-ii-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/ndt-practice-tests" element={<LazyRoute Component={NdtPracticeTests} />} />
+                  <Route path="/ndt-training-faq" element={<LazyRoute Component={NdtTrainingFaq} />} />
+                  <Route path="/snt-tc-1a-eligibility" element={<LazyRoute Component={SntTc1aEligibility} />} />
                   <Route path="/can-you-get-ndt-certified-online" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/ndt-level-1-training" element={<LazyRoute Component={NdtLevel1Training} />} />
                   <Route path="/ndt-level-2-training" element={<LazyRoute Component={NdtLevel2Training} />} />

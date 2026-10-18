@@ -18,13 +18,13 @@ Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop 
 ## NDT Training
 
 - ASNT SNT-TC-1A Level I and Level II courses in UT, RT, MT, PT, VT and ET, plus PAUT and TOFD; ASNT NDT Level III exam preparation.
-- Courses run year-round: theory is primarily self-paced online with an ASNT NDT Level III answering questions; starts are in the first week of each month and enrolment is open all year.
-- Practicals are done in the Practical NDT simulator and in person at the employer's facility, on the employer's equipment. Atlantis NDT has no training centre or classroom.
+- Courses are 100% online and self-paced, built to ASNT SNT-TC-1A and ASNT CP-105: recorded video lectures, practical videos, PDF study notes, quizzes, mock tests and a question bank, the 3D Practical NDT simulator (included at no extra cost) and guidance from an ASNT NDT Level III. Portal access is valid for one year and enrolment is open all year.
+- The General, Specific and Practical examinations are administered by Atlantis's Level III; the practical can be administered online over a video call. In-person hands-on training at the employer's facility is available on request. Atlantis NDT has no training centre or classroom.
 - A course gives documented training hours; it does not certify anyone. Under SNT-TC-1A the employer certifies, under its written practice. ASNT also runs central ASNT NDT Level II (MT, PT, RT, UT, VT) and Level III programmes.
 - Canada: courses train to ASNT SNT-TC-1A. Work that names CAN/CGSB-48.9712 needs certification from NRCan or CWB Group, with training from one of their Recognized Training Organizations, which Atlantis NDT is not.
-- US training fees are published on the US training page; other regions are quoted on request.
+- Training fees are published on the training pages for the USA, the Middle East, Europe and South East Asia. Registration and payment are on the Atlantis portal (https://portal.atlantisndt.com), which shows the fee for the visitor's country.
 
-Pages: [Training](https://atlantisndt.com/training) · [Training USA](https://atlantisndt.com/training-usa) · [Level 1](https://atlantisndt.com/ndt-level-1-training) · [Level 2](https://atlantisndt.com/ndt-level-2-training) · [ASNT Level III](https://atlantisndt.com/asnt-level-iii-training) · [Online](https://atlantisndt.com/ndt-training-online) · [Practice tests](https://atlantisndt.com/ndt-practice-tests)
+Pages: [Training](https://atlantisndt.com/training) · [Training FAQ](https://atlantisndt.com/ndt-training-faq) · [SNT-TC-1A eligibility checker](https://atlantisndt.com/snt-tc-1a-eligibility) · [Training USA](https://atlantisndt.com/training-usa) · [Level 1](https://atlantisndt.com/ndt-level-1-training) · [Level 2](https://atlantisndt.com/ndt-level-2-training) · [ASNT Level III](https://atlantisndt.com/asnt-level-iii-training) · [Online](https://atlantisndt.com/ndt-training-online) · [Practice tests](https://atlantisndt.com/ndt-practice-tests)
 
 ---
 
@@ -82,7 +82,7 @@ Page: [3D scanning services](https://atlantisndt.com/3d-scanning-services)
 
 ## Pricing
 
-Atlantis NDT does not publish prices except: US training fees (on the US training pages) and ERP plans for the USA and Canada (on the ERP pricing page). Everything else — consulting, inspection, Digital Twin Reporting, Practical NDT, reporting software, custom work — is quoted on request.
+Atlantis NDT does not publish prices except: training fees for the USA, the Middle East, Europe and South East Asia (on those training pages; the Atlantis portal shows each country's fee at registration) and ERP plans for the USA and Canada (on the ERP pricing page). Everything else — consulting, inspection, Digital Twin Reporting, Practical NDT, reporting software, custom work — is quoted on request.
 
 ---
 
@@ -96,7 +96,7 @@ Atlantis NDT does not publish prices except: US training fees (on the US trainin
 ## Related properties
 
 - [NDT Connect](https://ndt-connect.com): the NDT marketplace run by the same owner, linking companies that need inspection with qualified providers.
-- [Client portal](https://portal.atlantisndt.com): sign-in for Atlantis ERP customers.
+- [Atlantis portal](https://portal.atlantisndt.com): training registration and payment (the fee shown is for the visitor's country), and sign-in for Atlantis ERP customers.
 
 ## Crawler notes
 

@@ -1,9 +1,11 @@
 /**
  * Single source of truth for the lead-capture endpoint — 2026-08-12.
  *
- * Owner directive: every lead journey ends at the Microsoft Form. There is no
- * checkout, no payment link and no Buy Now anywhere on the site (the Stripe
- * flow was removed 2026-08-12); enquiries are converted by phone.
+ * Owner directive: every lead journey ends at the Microsoft Form; enquiries are
+ * converted by phone. The on-site Stripe flow was removed 2026-08-12. Since
+ * 2026-10-18 the published training fee tables carry one "Register & Buy Now"
+ * button to portal.atlantisndt.com (src/data/approved-training-fees.json →
+ * buyNow), which prices by country; it is not an enquiry endpoint.
  *
  * The URL was already hard-coded across 19 training pages. Centralising it here
  * means a form change is one edit, not a site-wide grep.

@@ -2,8 +2,11 @@
 // Path-driven: renders ONLY on pages listed in src/data/approved-training-fees.json
 // for a region, and never on an India page. Safe to place in shared templates.
 // The crawler layer emits the same table from the same JSON (scripts/approved-pricing.mjs).
+// 2026-10-18 (owner): one "Register & Buy Now" button after the tables, to the
+// Atlantis portal (portal.atlantisndt.com), which prices by the visitor's country.
 import { Link, useLocation } from "react-router-dom";
 import { TRAINING_FEES, fmtMoney, trainingRegionForPath } from "@/lib/approved-pricing";
+import conversion from "@/data/training-conversion-2026-10.json";
 
 export default function ApprovedTrainingFees({ className = "" }: { className?: string }) {
   const { pathname } = useLocation();
@@ -45,6 +48,18 @@ export default function ApprovedTrainingFees({ className = "" }: { className?: s
             </table>
           </div>
         ))}
+      </div>
+      <div data-training-buy-now className="mt-6 flex flex-col sm:flex-row sm:items-center gap-3 rounded-xl border border-primary/30 bg-primary/5 p-4">
+        <a
+          href={conversion.buyNow.href}
+          target="_blank"
+          rel="noopener"
+          data-cta-variant="training-register-buy"
+          className="inline-flex shrink-0 items-center justify-center rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90"
+        >
+          {conversion.buyNow.label}
+        </a>
+        <p className="text-sm text-muted-foreground">{conversion.buyNow.note}</p>
       </div>
       <ul className="list-disc pl-6 mt-6 space-y-1 text-sm text-muted-foreground">
         {r.notes.map((n) => (

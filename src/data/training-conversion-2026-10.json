@@ -1,0 +1,160 @@
+{
+  "_note": "2026-10-18 (owner). One source for: the Register & Buy Now button (fee tables and the training CTA bar), the three-button bar on every training city/regional page (Check your eligibility, Training FAQs, Register & Buy Now), /ndt-training-faq and /snt-tc-1a-eligibility. Read by React (TrainingCtaBar, NdtTrainingFaq, SntTc1aEligibility, ApprovedTrainingFees) and the crawler (scripts/training-conversion-2026-10.mjs, scripts/approved-pricing.mjs). FAQ answers are the ones Atlantis gave prospects by email (owner's Training FAQ doc, 2026-10-18), edited only for consistency with the site: no customer names, no prices (the portal prices by country), and the items the owner marked To confirm or listed under Answers to settle (who certifies, refunds, practical location, single-method prices, written-practice pricing, financing recognition) are left out until decided. NAS 410: through an associate (CLAUDE.md §51.2).",
+  "buyNow": {
+    "href": "https://portal.atlantisndt.com",
+    "label": "Register & Buy Now",
+    "note": "Registration and payment are on the Atlantis portal, which shows the course fees for your country."
+  },
+  "bar": {
+    "lead": "Self-paced online NDT training to ASNT SNT-TC-1A, open to candidates worldwide. Start any time.",
+    "buttons": [
+      { "variant": "training-bar-eligibility", "label": "Check your eligibility", "href": "/snt-tc-1a-eligibility" },
+      { "variant": "training-bar-faq", "label": "Training FAQs", "href": "/ndt-training-faq" },
+      { "variant": "training-bar-buy", "label": "Register & Buy Now", "href": "https://portal.atlantisndt.com" }
+    ],
+    "note": "The portal shows the course fee for your country."
+  },
+  "includes": {
+    "h2": "What every course includes",
+    "intro": "Students enrol from around the world. The course is self-paced, so there is no timetable to fit: you start when you are ready and study wherever you are.",
+    "items": [
+      "Study material written to ASNT SNT-TC-1A and ASNT CP-105",
+      "Recorded video lectures",
+      "Practical videos for each method",
+      "The 3D Practical NDT simulation portal, at no extra cost",
+      "PDF study notes",
+      "Quizzes, mock tests and a question bank",
+      "Guidance from an ASNT NDT Level III, with a call when you want one",
+      "General, Specific and Practical examinations, administered by our Level III",
+      "Certification support under ASNT SNT-TC-1A and a Training Completion Certificate",
+      "One year of portal access"
+    ]
+  },
+  "faq": {
+    "path": "/ndt-training-faq",
+    "title": "NDT Training FAQ: Online SNT-TC-1A Courses | Atlantis NDT",
+    "description": "Real questions NDT students and employers ask: online self-paced delivery, online practical exams, SNT-TC-1A eligibility, payment plans and group training.",
+    "h1": "NDT Training FAQ: Real Questions from Students and Employers",
+    "answer": "Atlantis NDT courses are 100% online and self-paced, built to ASNT SNT-TC-1A and ASNT CP-105, with practical work on the 3D Practical NDT portal and guidance from an ASNT NDT Level III. These are the questions prospects and students have actually asked us, most of them from the USA, with the answers we gave.",
+    "sections": [
+      {
+        "id": "delivery",
+        "h2": "Programme and delivery",
+        "items": [
+          ["How is the training delivered?", "100% online and self-paced: recorded video sessions, study materials, mock tests and a question bank, practical work on our 3D interactive portal, guidance from an ASNT NDT Level III, and a Training Completion Certificate."],
+          ["Can I study around a full-time job?", "Yes. Portal access is valid for one year, so you learn on your own schedule. The course is built to ASNT SNT-TC-1A and ASNT CP-105."],
+          ["When are classes held, and at what time of day?", "There are no fixed class times. The training is pre-recorded and self-paced, so you study whenever suits you, wherever you are, and you book a call with our Level III when you want one."],
+          ["Is the 3D simulator an extra cost?", "No. The Practical NDT simulator is included with every course, and you get access as soon as you enrol."],
+          ["Can I speak with the Level III before I pay?", "Yes. We offer a 30-minute call with our ASNT NDT Level III to walk through the platform and your certification path."],
+          ["Can the practical exam be done online? Does that satisfy SNT-TC-1A?", "Yes. The practical examination is administered by our Level III over a Microsoft Teams call with camera and screen sharing. SNT-TC-1A requires examinations to be administered by a Level III; it does not require them to be in person. If you are certified under an employer's written practice, check that it allows a remotely administered practical."],
+          ["Do you offer hands-on training before the practical?", "Yes: practice on the 3D simulator plus live sessions with our Level III. In-person hands-on training is also available on request, including group training at your facility."],
+          ["Do you offer API 510, 570 or 653 training?", "No. We no longer provide API training; our courses are NDT training based on ASNT SNT-TC-1A."]
+        ]
+      },
+      {
+        "id": "exams",
+        "h2": "Exams, certification and acceptance",
+        "items": [
+          ["Are the General, Specific and Practical exams included, and can they be taken online?", "Yes. The online course includes the General, Specific and Practical examinations, administered online by our Level III."],
+          ["Does the course include an ASNT-issued certificate in the ASNT database?", "No. The course covers training and examination to ASNT SNT-TC-1A. ASNT-issued credentials, such as ASNT NDT Level II or Level III, are applied for separately with ASNT."],
+          ["Is the certificate issued by ASNT?", "No. Atlantis NDT issues the Training Completion Certificate and the examination records under ASNT SNT-TC-1A (2024); ASNT does not issue them."],
+          ["How long until certificates are issued?", "About 7 to 8 business days after you finish the modules, provided you meet the SNT-TC-1A examination and experience criteria."],
+          ["Will ASNT accept your training for their exams?", "ASNT does not pre-approve or endorse training providers. Our course is built to SNT-TC-1A and CP-105 so that it covers the required training hours and topics; passing an ASNT exam then depends on the candidate."],
+          ["Can you certify me under my company's written practice?", "Yes, acting as your outside NDT Level III. We need a letter on company letterhead confirming that the company is engaging an NDT Level III consultant (retainer or pro-rata). We can also write or update your written practice to SNT-TC-1A (2024), quoted separately."],
+          ["I have no field experience. Can I still get certified?", "After training you receive a Training Completion Certificate. Certification needs documented on-the-job experience in the method, which we cannot provide, and practical training hours do not count towards it, although the simulator gives you exposure to each method. Once you join an employer and gain that experience, we complete your certification to the relevant level at no additional cost."],
+          ["Are you ISO 9712 certified?", "No. Our training is led by an ASNT NDT Level III and follows ASNT SNT-TC-1A, not ISO 9712."]
+        ]
+      },
+      {
+        "id": "eligibility",
+        "h2": "Eligibility, experience and documents",
+        "items": [
+          ["I am new to NDT. Where do I start?", "With Level I. Level II under SNT-TC-1A needs the Level I and II training hours plus documented experience in the method, so newcomers take the combined Level I and II route."],
+          ["I already have field experience or a CWI. Does that count?", "Usually, yes. Experienced candidates and CWIs often already meet the experience criteria. Send us your hours and we confirm what remains."],
+          ["What documents do you need?", "Existing NDT certificates, a current vision (visual acuity) examination, experience letters and logs, and a working email address. Experience information must be on company letterhead to be considered valid."],
+          ["Can a certified technician be moved onto a new written practice?", "If they have worked continuously in the method for the past year, they sit the General, Specific and Practical examinations. If there were gaps, they are retrained under the written practice."]
+        ]
+      },
+      {
+        "id": "payment",
+        "h2": "Registration and payment",
+        "items": [
+          ["How do I register and pay?", "Use Register & Buy Now. The Atlantis portal shows the course fee for your country and takes payment, and your portal access opens once payment is received."],
+          ["Can I pay in instalments?", "Yes: 50% to enrol and 50% on completion. Contact us before you register and we set up the plan; portal access opens once the first payment is received."],
+          ["Do you offer financial support?", "The 50/50 instalment plan is available to anyone who needs it."],
+          ["Do you offer Net 30 to companies?", "Not as standard. Credit terms are possible for companies but are priced accordingly."]
+        ]
+      },
+      {
+        "id": "group",
+        "h2": "Starting, timing and group training",
+        "items": [
+          ["When can I start?", "As soon as we receive your details and payment; theory access opens straight away."],
+          ["How long does it take?", "It is self-paced within one year of portal access. On-site group training at your facility is typically a five-day (40-hour) course, arranged with four to six weeks' lead time; a practical day runs six to eight hours."],
+          ["Can your instructor train at our facility?", "Yes. A Level III travels to you for group practical training. Quotes include equipment, materials, examinations and travel, and you provide a well-lit room for the trainees."],
+          ["Do you support Level III candidates?", "Yes. Our ASNT NDT Level III preparation covers the Basic and method examinations, with mock exams modelled on the ASNT format."],
+          ["Do you support NAS 410, Nadcap or NAVSEA programmes?", "Yes. NAS 410 Level 3 services are provided through an associate who holds NAS 410 Level 3, alongside our ASNT NDT Level III. We write and qualify procedures to NAVSEA T9074-AS-GIB-010/271, referencing S9074-AR-GIB-010/278 and MIL-STD-2035A where required, and can act as your Level III of record on retainer."]
+        ]
+      }
+    ],
+    "callHref": "/contact?service=training&subject=30-minute%20call%20with%20the%20Level%20III",
+    "callLabel": "Book a 30-minute call with our Level III"
+  },
+  "eligibility": {
+    "path": "/snt-tc-1a-eligibility",
+    "title": "SNT-TC-1A Eligibility Checker: Level I & II | Atlantis NDT",
+    "description": "Check whether you meet ASNT SNT-TC-1A for NDT Level I or II: training hours, method experience and the vision exam, by method, with a free online checker.",
+    "h1": "SNT-TC-1A Eligibility: Are You Ready for NDT Level I or II?",
+    "answer": "Under ASNT SNT-TC-1A (2024), you are eligible for Level I or Level II certification in a method when you have completed the recommended classroom training hours, have documented experience hours in that method, hold a current vision examination, and pass the General, Specific and Practical examinations. SNT-TC-1A is a recommended practice: the written practice you are certified under sets the binding requirements.",
+    "checker": {
+      "h2": "Check your eligibility",
+      "intro": "Pick the method and the level you are aiming for, then enter the hours you can document. The checker compares them with the SNT-TC-1A recommended minimums.",
+      "crawlerNote": "The interactive checker runs in your browser. The same figures are in the tables below.",
+      "screening": "This is a screening against the SNT-TC-1A recommended minimums, not a certification decision. Send us your documents and our Level III confirms what remains."
+    },
+    "hoursH2": "Training and experience hours by method",
+    "hoursIntro": "SNT-TC-1A recommended minimums. Level II figures are in addition to Level I; going straight to Level II without time at Level I needs the sum of both.",
+    "sections": [
+      {
+        "h2": "Level II without Level I",
+        "paragraphs": ["SNT-TC-1A treats Level II experience as time spent at Level I or equivalent. A candidate qualifying directly to Level II with no time at Level I needs the sum of the Level I and Level II training and experience hours, which is why newcomers take the combined Level I and II course."]
+      },
+      {
+        "h2": "Vision examination",
+        "list": [
+          "Near vision: natural or corrected, in at least one eye, reading a minimum of Jaeger Number 2 (or equivalent type and size letter) at not less than 12 in. (30.5 cm). Taken every 12 months.",
+          "Colour contrast: you must be able to distinguish and differentiate contrast among the colours or shades of grey used in the method, as your written practice specifies."
+        ]
+      },
+      {
+        "h2": "What counts as experience",
+        "list": [
+          "Hours you have worked in the method, documented on company letterhead in experience letters and logs.",
+          "Training hours, practical course hours and simulator time do not count as experience.",
+          "Experienced technicians and CWIs often already meet the experience criteria; send your hours and we confirm what remains.",
+          "Your written practice may also set a minimum of total NDT experience across all methods."
+        ]
+      },
+      {
+        "h2": "Examinations",
+        "paragraphs": ["Each level needs a General examination (the principles of the method), a Specific examination (the procedures, codes and equipment you will use) and a Practical examination on real specimens, administered by a Level III. SNT-TC-1A recommends a composite grade of at least 80%, with no single examination below 70%."]
+      },
+      {
+        "h2": "Documents to send",
+        "list": [
+          "Existing NDT certificates",
+          "A current vision (visual acuity) examination",
+          "Experience letters and logs on company letterhead",
+          "A working email address"
+        ]
+      },
+      {
+        "h2": "Level III and advanced methods",
+        "paragraphs": ["ASNT NDT Level III eligibility depends on your education and experience rather than a fixed number of method hours; see ASNT's published requirements. PAUT and TOFD requirements are set by the written practice and usually build on UT Level II."]
+      }
+    ],
+    "asntLevel3Href": "https://certification.asnt.org/certification/asnt-ndt-level-iii",
+    "contactHref": "/contact?service=training&subject=SNT-TC-1A%20eligibility%20check",
+    "contactLabel": "Send your hours to our Level III"
+  }
+}

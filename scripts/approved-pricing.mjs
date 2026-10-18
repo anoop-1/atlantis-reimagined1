@@ -116,6 +116,17 @@ function tableHtml(t) {
   return `<table><caption>${esc(t.caption)}</caption><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
 }
 
+// 2026-10-18 (owner): one Register & Buy Now button beside every published fee
+// table, to the Atlantis portal, which shows the fee for the visitor's country.
+// Same JSON as ApprovedTrainingFees.tsx: src/data/training-conversion-2026-10.json → buyNow.
+const CONVERSION = JSON.parse(readFileSync(join(ROOT, 'src/data/training-conversion-2026-10.json'), 'utf-8'));
+export function buyNowHtml() {
+  const b = CONVERSION.buyNow;
+  if (!b || !/^https:\/\/portal\.atlantisndt\.com\/?/.test(b.href)) throw new Error('approved-training-fees.json buyNow.href must be https://portal.atlantisndt.com');
+  // Same classes as ApprovedTrainingFees.tsx: this copy is on screen until React takes over.
+  return `<div data-training-buy-now class="mt-6 flex flex-col sm:flex-row sm:items-center gap-3 rounded-xl border border-primary/30 bg-primary/5 p-4"><a href="${attr(b.href)}" target="_blank" rel="noopener" data-cta-variant="training-register-buy" class="inline-flex shrink-0 items-center justify-center rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90">${esc(b.label)}</a> <p class="text-sm text-muted-foreground">${esc(b.note)}</p></div>`;
+}
+
 export function renderTrainingFeesHtml(regionKey) {
   const r = TRAINING.regions[regionKey];
   if (!r) return '';
@@ -127,6 +138,7 @@ export function renderTrainingFeesHtml(regionKey) {
       <h2 id="training-fees-h">${esc(r.heading)}</h2>
       <p>${esc(r.intro)}</p>
       ${r.tables.map(tableHtml).join('\n      ')}
+      ${buyNowHtml()}
       <ul>${r.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
       <p>Published fees for other regions: ${others}. ${esc(TRAINING.contactText)} <a href="${attr(TRAINING.contactHref)}">Contact us for fees in your region</a>.</p>
     </section>
