@@ -2,7 +2,11 @@
 // each with its own hover dropdown listing everything in that line. Resources (blog,
 // tools, downloads, case studies, statistics) live in the footer, not the header.
 // One list for the header (Navigation.tsx) and the footer (ContactDetails.tsx).
-export type MenuItem = { name: string; path: string; blurb: string };
+import { INSPECTION_NAV } from "@/data/inspection-section/index.mjs";
+
+export type SubMenuItem = { name: string; path: string; children?: SubMenuItem[] };
+// `children` (2026-10-18): Services → Inspection opens a nested flyout listing the inspection section.
+export type MenuItem = { name: string; path: string; blurb: string; children?: SubMenuItem[] };
 
 export const PRODUCTS: MenuItem[] = [
    { name: "Atlantis ERP", path: "/erp", blurb: "Run your whole NDT business" },
@@ -15,7 +19,7 @@ export const PRODUCTS: MenuItem[] = [
 
 export const SERVICES: MenuItem[] = [
    { name: "NDT Training", path: "/training", blurb: "ASNT Level III-led courses" },
-   { name: "Inspection Services", path: "/inspection-services", blurb: "UT, PAUT, TOFD and API 510/570/653" },
+   { name: INSPECTION_NAV.name, path: INSPECTION_NAV.path, blurb: INSPECTION_NAV.blurb ?? "", children: INSPECTION_NAV.children },
    { name: "NDT Level III Consulting", path: "/consulting", blurb: "Written practices, procedures, audits" },
    { name: "NDT Report Validation", path: "/report-validation", blurb: "Independent review of issued reports" },
    { name: "3D Scanning Services", path: "/3d-scanning-services", blurb: "Laser scanning of plant and assets" },
