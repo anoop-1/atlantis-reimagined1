@@ -86,7 +86,7 @@ import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './
 import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats } from './software-owners-2026-10.mjs'; // 2026-10-18 software: /ndt-inspection-software product page (last body writer, one JSON for both layers)
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
-import { inspectionSectionRoutes, assertInspectionSectionClean } from './inspection-section-2026-10.mjs'; // 2026-10-18 inspection section (src/data/inspection-section)
+import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18 inspection section (src/data/inspection-section)
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
 import { applyTrafficRoute, assertTrafficClean, trafficStats } from './traffic-2026-10-18.mjs'; // 2026-10-18 traffic workstream: FAQPage from visible Q&A on the pages it fixed
@@ -1757,7 +1757,7 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
     // internal links to /consulting, /ndt-training, /digital-twins,
     // /best-ndt-reporting-software-2026, /ndt-erp-solution — this funnels
     // head-term link equity into the pillar hubs across all ~2,477 pages.
-    const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a> <a href="/inspection-services">NDT Inspection Services</a> <a href="/digital-twin-reporting">Digital Twin Reporting</a> <a href="/practical-ndt">Practical NDT Simulation</a> <a href="/contact">Contact Atlantis NDT</a></nav>`;
+    const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a> <a href="/inspection">Inspection Services</a> <a href="/digital-twin-reporting">Digital Twin Reporting</a> <a href="/practical-ndt">Practical NDT Simulation</a> <a href="/contact">Contact Atlantis NDT</a></nav>`;
     const augmentedBody = bodyContent + PILLAR_NAV;
     // The dist template closes #root immediately before </body> with no body
     // <script> tag, so the previous /<\/div>\s*<script/ anchor never matched
@@ -14377,6 +14377,7 @@ routes.forEach(route => {
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
+    route = applyInspectionRegionalRoute(route); // 2026-10-19: regional inspection pages link up into the /inspection section (before the related links)
     route = applyKeywordLinksRoute(route); // 2026-10-10 §50: keyword-anchored related links, after coverage, before next steps
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
     route = applyTrainingReleaseRoute(route);

@@ -10,6 +10,7 @@ const TrainingAvailabilityBlock = lazy(() => import("./components/TrainingAvaila
 const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §48
 const CompetitiveCoverageBlock = lazy(() => import("./components/CompetitiveCoverageBlock")); // §49
 const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); // §50
+const InspectionRegionalLinks = lazy(() => import("./components/InspectionRegionalLinks")); // 2026-10-19 regional inspection pages → /inspection section
 const ProductVideoBlock = lazy(() => import("./components/ProductVideoBlock")); // §52
 const ProductScreenshotsBlock = lazy(() => import("./components/ProductScreenshotsBlock")); // §53
 const TrainingUpgradeBlock = lazy(() => import("./components/TrainingUpgradeBlock")); // 2026-10-16 training upgrade
@@ -53,6 +54,7 @@ const App = () => (
                   <ProductVideoBlock />
                   <ProductScreenshotsBlock />
                   <CompetitiveCoverageBlock />
+                  <InspectionRegionalLinks />
                   <KeywordLinksBlock />
                   <NextStepsBlock />
                   <TrainingAvailabilityBlock />

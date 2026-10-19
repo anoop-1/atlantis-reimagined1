@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import erpCatalog from "@/data/erp-apps-catalog.json";
 
@@ -27,132 +27,12 @@ const navItems: NavItem[] = [
    { name: "Contact", path: "/contact" },
 ];
 
-// 2026-10-18: a Services entry with children (Inspection) opens a nested flyout on hover or
-// keyboard focus. It flips to the left when there is no room on the right, closes on Escape,
-// and lists grandchildren (Advanced / Conventional NDT) indented under their parent.
-const FlyoutItem = ({ sub }: { sub: NavSub }) => {
-   const [open, setOpen] = useState(false);
-   const [flip, setFlip] = useState(false);
-   const ref = useRef<HTMLDivElement>(null);
-   const btnRef = useRef<HTMLButtonElement>(null);
-   const id = `flyout-${sub.path.replace(/[^a-z0-9]+/gi, "-")}`;
-   // Escape closes the flyout even when it was opened by hover (focus may be elsewhere).
-   useEffect(() => {
-      if (!open) return;
-      const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
-      document.addEventListener("keydown", onKey);
-      return () => document.removeEventListener("keydown", onKey);
-   }, [open]);
-   const show = () => {
-      const r = ref.current?.getBoundingClientRect();
-      if (r) setFlip(r.right + 300 > window.innerWidth);
-      setOpen(true);
-   };
-   return (
-      <div
-         ref={ref}
-         className="relative"
-         onMouseEnter={show}
-         onMouseLeave={() => setOpen(false)}
-         onFocus={show}
-         onBlur={(e) => { if (!ref.current?.contains(e.relatedTarget as Node)) setOpen(false); }}
-         onKeyDown={(e) => {
-            if (e.key === "Escape" && open) { e.stopPropagation(); setOpen(false); btnRef.current?.focus(); }
-         }}
-      >
-         <div className={`flex items-stretch rounded-lg ${open ? "bg-slate-50 shadow-sm" : "hover:bg-slate-50 hover:shadow-sm"}`}>
-            <Link to={sub.path} className="flex-1 block px-3 py-2">
-               <span className="block text-sm font-semibold text-gray-900">{sub.name}</span>
-               {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
-            </Link>
-            <button
-               ref={btnRef}
-               type="button"
-               className="px-2 text-gray-500 hover:text-primary"
-               aria-label={`${sub.name} submenu`}
-               aria-haspopup="true"
-               aria-expanded={open}
-               aria-controls={id}
-               onClick={show}
-               onKeyDown={(e) => {
-                  if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-                     e.preventDefault(); show();
-                     requestAnimationFrame(() => (document.querySelector(`#${id} a`) as HTMLElement | null)?.focus());
-                  }
-               }}
-            >
-               <ChevronRight size={16} className={flip ? "rotate-180" : ""} />
-            </button>
-         </div>
-         <div
-            id={id}
-            className={`absolute top-0 z-10 w-72 ${flip ? "right-full pr-1" : "left-full pl-1"} transition-all duration-150 ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}
-         >
-            <ul className="bg-white shadow-xl rounded-xl border p-2 text-left" aria-label={sub.name}>
-               {(sub.children || []).map((c) => (
-                  <li key={c.path}>
-                     <Link to={c.path} className="block rounded-md px-3 py-1.5 text-sm font-medium text-gray-800 hover:bg-slate-50 hover:text-primary">
-                        {c.name}
-                     </Link>
-                     {c.children?.length ? (
-                        <ul className="pl-3 mb-1">
-                           {c.children.map((g) => (
-                              <li key={g.path}>
-                                 <Link to={g.path} className="block rounded-md px-3 py-1 text-sm text-gray-600 hover:bg-slate-50 hover:text-primary">
-                                    ↳ {g.name}
-                                 </Link>
-                              </li>
-                           ))}
-                        </ul>
-                     ) : null}
-                  </li>
-               ))}
-            </ul>
-         </div>
-      </div>
-   );
-};
-
-// Mobile: a child list that expands under its parent.
-const MobileNested = ({ sub, close }: { sub: NavSub; close: () => void }) => {
-   const [open, setOpen] = useState(false);
-   const id = `m-${sub.path.replace(/[^a-z0-9]+/gi, "-")}`;
-   return (
-      <div>
-         <div className="flex items-center justify-between">
-            <Link to={sub.path} className="block py-1 text-gray-600 hover:text-primary" onClick={close}>{sub.name}</Link>
-            <button
-               type="button"
-               className="p-2 text-gray-500"
-               aria-label={`${open ? "Collapse" : "Expand"} ${sub.name}`}
-               aria-expanded={open}
-               aria-controls={id}
-               onClick={() => setOpen(!open)}
-            >
-               <ChevronDown size={16} className={`transform transition-transform ${open ? "rotate-180" : ""}`} />
-            </button>
-         </div>
-         {open && (
-            <ul id={id} className="pl-4 pb-1 space-y-0.5 border-l ml-1">
-               {(sub.children || []).map((c) => (
-                  <li key={c.path}>
-                     <Link to={c.path} className="block py-0.5 text-sm text-gray-600 hover:text-primary" onClick={close}>{c.name}</Link>
-                     {c.children?.length ? (
-                        <ul className="pl-3">
-                           {c.children.map((g) => (
-                              <li key={g.path}>
-                                 <Link to={g.path} className="block py-0.5 text-sm text-gray-500 hover:text-primary" onClick={close}>↳ {g.name}</Link>
-                              </li>
-                           ))}
-                        </ul>
-                     ) : null}
-                  </li>
-               ))}
-            </ul>
-         )}
-      </div>
-   );
-};
+// 2026-10-19 (owner: "i still dont see inspection sub menu"): Services opens as a mega menu in
+// the same style as Products. Left: the services. Right: the Inspection section's own menu
+// (src/data/inspection-section/index.mjs → INSPECTION_NAV), visible as soon as Services opens,
+// with Advanced / Conventional NDT under NDT Inspection Services the way ERP's featured apps sit
+// under their parent app. Mobile shows the same list under Inspection.
+const servicesWithMenu = SERVICES.find((s) => s.children?.length);
 
 export const Navigation = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -295,21 +175,53 @@ export const Navigation = () => {
                                     </div>
                                  </div>
                               </div>
+                           ) : servicesWithMenu && item.dropdown.some((sub) => sub.children?.length) ? (
+                              <div
+                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(46rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
+                              >
+                                 <div className="bg-white shadow-xl rounded-xl border grid grid-cols-[15rem_1fr] overflow-hidden">
+                                    <div className="bg-slate-50 p-3 space-y-1 border-r">
+                                       {item.dropdown.map((sub) => (
+                                          <Link key={sub.name} to={sub.path} className={`block rounded-lg px-3 py-2 hover:bg-white hover:shadow-sm ${sub.children?.length ? "bg-white shadow-sm" : ""}`}>
+                                             <span className={`block text-sm font-semibold ${sub.children?.length ? "text-primary" : "text-gray-900"}`}>{sub.name}</span>
+                                             {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
+                                          </Link>
+                                       ))}
+                                    </div>
+                                    <div className="p-5">
+                                       <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-3">Inspection services</p>
+                                       <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-left">
+                                          {(servicesWithMenu.children || []).map((c: SubMenuItem) => (
+                                             <div key={c.path}>
+                                                <Link to={c.path} className="block text-sm font-medium text-gray-800 hover:text-primary">
+                                                   {c.name}
+                                                </Link>
+                                                {c.children?.map((g) => (
+                                                   <Link key={g.path} to={g.path} className="block pl-3 text-sm font-semibold text-primary hover:underline">
+                                                      ↳ {g.name}
+                                                   </Link>
+                                                ))}
+                                             </div>
+                                          ))}
+                                       </div>
+                                       <div className="mt-4 pt-3 border-t flex flex-wrap gap-x-6 gap-y-1 text-sm">
+                                          <Link to={servicesWithMenu.path} className="font-semibold text-primary hover:underline">All inspection services →</Link>
+                                          <Link to="/contact?service=inspection&subject=Inspection%20enquiry" className="text-gray-600 hover:text-primary">Talk to an inspector →</Link>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                            ) : (
                               <div
                                  className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(34rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
                               >
                                  <div className="bg-white shadow-xl rounded-xl border p-3 grid grid-cols-2 gap-1">
-                                    {item.dropdown.map((sub) =>
-                                       sub.children?.length ? (
-                                          <FlyoutItem key={sub.name} sub={sub} />
-                                       ) : (
-                                          <Link key={sub.name} to={sub.path} className="block rounded-lg px-3 py-2 hover:bg-slate-50 hover:shadow-sm">
-                                             <span className="block text-sm font-semibold text-gray-900">{sub.name}</span>
-                                             {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
-                                          </Link>
-                                       )
-                                    )}
+                                    {item.dropdown.map((sub) => (
+                                       <Link key={sub.name} to={sub.path} className="block rounded-lg px-3 py-2 hover:bg-slate-50 hover:shadow-sm">
+                                          <span className="block text-sm font-semibold text-gray-900">{sub.name}</span>
+                                          {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
+                                       </Link>
+                                    ))}
                                  </div>
                               </div>
                            )}
@@ -390,17 +302,29 @@ export const Navigation = () => {
                               <div className="pl-4 space-y-1">
                                  {item.dropdown.map((sub) => (
                                     <div key={sub.name}>
-                                       {sub.children?.length ? (
-                                          <MobileNested sub={sub} close={() => setIsOpen(false)} />
-                                       ) : (
                                        <Link
                                           to={sub.path}
-                                          className="block py-1 text-gray-600 hover:text-primary"
+                                          className={`block py-1 hover:text-primary ${sub.children?.length ? "font-medium text-primary" : "text-gray-600"}`}
                                           onClick={() => setIsOpen(false)}
                                        >
                                           {sub.name}
                                        </Link>
-                                       )}
+                                       {sub.children?.length ? (
+                                          <div className="pl-4 pb-1 grid grid-cols-2 gap-x-3">
+                                             {sub.children.map((c) => (
+                                                <div key={c.path}>
+                                                   <Link to={c.path} className="block py-0.5 text-sm text-gray-500 hover:text-primary" onClick={() => setIsOpen(false)}>
+                                                      {c.name}
+                                                   </Link>
+                                                   {c.children?.map((g) => (
+                                                      <Link key={g.path} to={g.path} className="block pl-2 py-0.5 text-sm font-medium text-primary" onClick={() => setIsOpen(false)}>
+                                                         ↳ {g.name}
+                                                      </Link>
+                                                   ))}
+                                                </div>
+                                             ))}
+                                          </div>
+                                       ) : null}
                                        {sub.erpMenu && (
                                           <div className="pl-4 pb-1 grid grid-cols-2 gap-x-3">
                                              {coreApps.map((a) => (

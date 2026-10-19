@@ -1,198 +1,299 @@
 /**
- * /inspection section (2026-10-18): landing, NDT hub, advanced/conventional lists, service pages
- * and method pages. One model for both layers: src/data/inspection-section/index.mjs. The crawler
- * HTML (scripts/inspection-section-2026-10.mjs) renders the same pages, so the two layers say the
- * same thing. No prices, no client names.
+ * /inspection section (2026-10-18, restyled 2026-10-19): landing, NDT hub, advanced/conventional
+ * lists, service pages and method pages. One model for both layers:
+ * src/data/inspection-section/index.mjs (copy, order, class names and icon choices). The crawler
+ * HTML (scripts/inspection-section-2026-10.mjs) renders the same pages with the same classes, so
+ * the prerendered paint and the React page look the same.
+ *
+ * Owner 2026-10-19: "maintain UI UX consistency as rest of the website" — this page uses the same
+ * pieces as InspectionServices.tsx and the training pages: Navigation, gradient hero with the
+ * primary + dark buttons, Card grids with an icon tile, alternating bg-muted/30 sections, the
+ * themed Accordion for FAQs, the inspection RFQ wizard, the blue call-to-action band and
+ * ContactDetails as the footer. No prices, no client names.
  */
 import { Link, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
+import {
+  ArrowRight, Award, CheckCircle2, ClipboardCheck, Eye, FileCheck, Gauge, Layers, MapPin, Radar, ScanSearch,
+  ShieldCheck, Users, Wrench, type LucideIcon,
+} from "lucide-react";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import ContactDetails from "@/components/ContactDetails";
+import InspectionRfqWizard from "@/components/InspectionRfqWizard";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import {
-  ENQUIRY,
-  INSPECTION_PAGES,
-  inspectionPage,
+  GRID_COLS,
+  HIGHLIGHT_ICONS,
+  ICON_FOR,
+  INSPECTION_REGIONS,
+  QUOTE_ANCHOR,
+  TALK,
+  UI,
+  childPages,
   inspectionBreadcrumbs,
+  inspectionPage,
   inspectionSchema,
   listFor,
   type InspPage,
-  type InspSection,
 } from "@/data/inspection-section/index.mjs";
 
-const LINK = "text-primary underline underline-offset-2 hover:no-underline";
+const ICONS: Record<string, LucideIcon> = { ScanSearch, Radar, Eye, ShieldCheck, Gauge, Users, ClipboardCheck, Wrench, Award, FileCheck, Layers };
+const Icon = ({ name, className }: { name?: string; className: string }) => {
+  const C = name ? ICONS[name] : undefined;
+  return C ? <C className={className} aria-hidden="true" /> : null;
+};
 
-function SectionBlock({ s }: { s: InspSection }) {
-  const paras = Array.isArray(s.p) ? s.p : s.p ? [s.p] : [];
+/** Hash links ("#rfq") stay plain anchors so the browser scrolls to the form. */
+const Go = ({ to, className, children }: { to: string; className: string; children: React.ReactNode }) =>
+  to.startsWith("#") ? <a href={to} className={className}>{children}</a> : <Link to={to} className={className}>{children}</Link>;
+
+function Checks({ items, small }: { items: string[]; small?: boolean }) {
   return (
-    <section id={s.id} className="mt-12 scroll-mt-24">
-      <h2 className="text-2xl font-bold mb-4">{s.h}</h2>
-      {paras.map((t, i) => (
-        <p key={i} className="text-muted-foreground leading-relaxed mb-4">{t}</p>
+    <ul className={small ? "space-y-2" : UI.list}>
+      {items.map((x) => (
+        <li key={x} className={small ? UI.listCardItem : UI.li}>
+          <CheckCircle2 className={small ? UI.checkSm : UI.check} aria-hidden="true" />
+          <span>{x}</span>
+        </li>
       ))}
-      {s.list && (
-        <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-          {s.list.map((li) => <li key={li} className="leading-relaxed">{li}</li>)}
-        </ul>
-      )}
-      {s.table && (
-        <div className="overflow-x-auto rounded-lg border">
-          <table className="w-full text-sm">
-            <thead className="bg-muted">
-              <tr>{s.table.head.map((c) => <th key={c} className="text-left p-3 font-semibold">{c}</th>)}</tr>
-            </thead>
-            <tbody>
-              {s.table.rows.map((r) => (
-                <tr key={r[0]} className="border-t align-top">
-                  {r.map((c, i) => <td key={i} className="p-3">{c}</td>)}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-    </section>
+    </ul>
   );
 }
 
-function Bullets({ id, h, items }: { id: string; h: string; items?: string[] }) {
-  if (!items?.length) return null;
+function Pills({ items }: { items: [string, string][] }) {
   return (
-    <section id={id} className="mt-12 scroll-mt-24">
-      <h2 className="text-2xl font-bold mb-4">{h}</h2>
-      <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-        {items.map((x) => <li key={x}>{x}</li>)}
-      </ul>
-    </section>
+    <div className={UI.pillGrid}>
+      {items.map(([href, label]) => (
+        <Link key={href} to={href} className={UI.pill}>
+          <span className={UI.pillText}>{label}</span>
+          <ArrowRight className={UI.pillIcon} aria-hidden="true" />
+        </Link>
+      ))}
+    </div>
   );
 }
 
 function PageBody({ page }: { page: InspPage }) {
   const crumbs = inspectionBreadcrumbs(page);
   const list = listFor(page);
-  const kids =
-    page.kind === "landing"
-      ? []
-      : INSPECTION_PAGES.filter((c) => c.parent === page.path && !(list || []).some((m) => m.href === c.path));
-  return (
-    <main className="container mx-auto max-w-5xl px-6 pt-24 pb-16">
-      <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">
-        <ol className="flex flex-wrap gap-1">
-          {crumbs.map((c, i) => (
-            <li key={c.path} className="flex items-center gap-1">
-              {i > 0 && <span aria-hidden="true">/</span>}
-              {i === crumbs.length - 1 ? <span>{c.label}</span> : <Link to={c.path} className="hover:underline">{c.label}</Link>}
-            </li>
-          ))}
-        </ol>
-      </nav>
+  const kids = childPages(page);
+  // Same alternation as the crawler HTML: every content section after the hero flips the background.
+  let alt = false;
+  const next = () => { const c = alt ? UI.sectionAlt : UI.section; alt = !alt; return c; };
+  const triple = ([
+    ["codes", "Governing codes and standards", page.codes],
+    ["deliverables", "What you receive", page.deliverables],
+    ["industries", "Industries served", page.industries],
+  ] as [string, string, string[] | undefined][]).filter(([, , v]) => v?.length) as [string, string, string[]][];
 
-      <header className={page.kind === "landing" ? "rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 p-8 md:p-12" : ""}>
-        <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">{page.eyebrow || "Inspection"}</p>
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-5">{page.h1}</h1>
-        <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl">{page.intro}</p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link to={ENQUIRY} className="inline-flex items-center rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary/90">
-            Request an inspection quote
-          </Link>
-          {page.kind === "landing" && (
-            <Link to="#services" className="inline-flex items-center rounded-md border px-5 py-3 font-semibold hover:bg-muted">
-              Explore services
-            </Link>
-          )}
+  return (
+    <>
+      <motion.section className={UI.hero} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
+        <div className={UI.container}>
+          <nav aria-label="Breadcrumb">
+            <ol className={UI.crumbs}>
+              {crumbs.map((c, i) => (
+                <li key={c.path} className="flex items-center gap-2">
+                  {i > 0 && <span aria-hidden="true">/</span>}
+                  {i === crumbs.length - 1 ? <span className="text-foreground">{c.label}</span> : <Link to={c.path} className={UI.crumbLink}>{c.label}</Link>}
+                </li>
+              ))}
+            </ol>
+          </nav>
+          <motion.div className={UI.heroInner} initial={{ y: 24, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1, duration: 0.6 }}>
+            <p className={UI.eyebrow}>{page.eyebrow || "Inspection"}</p>
+            <h1 className={UI.h1}>{page.h1}</h1>
+            <p className={UI.lede}>{page.intro}</p>
+            <div className={UI.ctaRow}>
+              <a href={QUOTE_ANCHOR} className={UI.btnPrimary}>Request a Quote <ArrowRight className="w-4 h-4" aria-hidden="true" /></a>
+              <Link to={TALK} className={UI.btnDark}>Talk to an Inspector</Link>
+            </div>
+          </motion.div>
         </div>
-      </header>
+      </motion.section>
 
       {page.highlights && (
-        <section id="highlights" className="mt-10 grid gap-4 md:grid-cols-3">
-          {page.highlights.map((x) => (
-            <div key={x.h} className="rounded-xl border p-5">
-              <h2 className="font-semibold mb-2">{x.h}</h2>
-              <p className="text-sm text-muted-foreground leading-relaxed">{x.p}</p>
+        <section id="highlights" className={next()}>
+          <div className={UI.wide}>
+            <div className={UI.grid3}>
+              {page.highlights.map((x, i) => (
+                <div key={x.h} className={UI.card}>
+                  <div className={UI.iconTile}><Icon name={HIGHLIGHT_ICONS[i % HIGHLIGHT_ICONS.length]} className={UI.icon} /></div>
+                  <h2 className="text-lg font-semibold mb-2">{x.h}</h2>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{x.p}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </section>
       )}
 
       {page.cards && (
-        <section id="services" className="mt-12 scroll-mt-24">
-          <h2 className="text-2xl font-bold mb-4">{page.kind === "landing" ? "Inspection services" : "Choose a service line"}</h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {page.cards.map((c) => (
-              <Link key={c.href} to={c.href} className="group rounded-xl border p-5 transition hover:border-primary hover:shadow-md">
-                <h3 className="font-semibold text-lg group-hover:text-primary">{c.label} →</h3>
-                <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{c.text}</p>
-              </Link>
-            ))}
+        <section id="services" className={next()}>
+          <div className={UI.wide}>
+            <h2 className={UI.h2Center}>{page.kind === "landing" ? "Inspection services" : "Choose a service line"}</h2>
+            <p className={UI.sub}>
+              {page.kind === "landing"
+                ? "Start with the service line, then go down to the method or scope you need."
+                : "Each service line lists its methods, with a page for each one."}
+            </p>
+            <div className={UI.cardGrid}>
+              {page.cards.map((c) => (
+                <Link key={c.href} to={c.href} className={UI.linkCard}>
+                  {ICON_FOR[c.href] && <div className={UI.iconTile}><Icon name={ICON_FOR[c.href]} className={UI.icon} /></div>}
+                  <h3 className={UI.linkCardTitle}>{c.label}</h3>
+                  <p className={UI.linkCardText}>{c.text}</p>
+                  <span className={UI.linkCardMore}>Explore <ArrowRight className="w-4 h-4" aria-hidden="true" /></span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}
 
       {list && (
-        <section id="methods" className="mt-12 scroll-mt-24">
-          <h2 className="text-2xl font-bold mb-4">{page.group === "advanced" ? "Advanced NDT methods" : "Conventional NDT methods"}</h2>
-          <div className="overflow-x-auto rounded-lg border">
-            <table className="w-full text-sm">
-              <thead className="bg-muted">
-                <tr><th className="text-left p-3">Method</th><th className="text-left p-3">What it is used for</th><th className="text-left p-3">Key codes</th></tr>
-              </thead>
-              <tbody>
-                {list.map((m) => (
-                  <tr key={m.href} className="border-t align-top">
-                    <td className="p-3 font-medium"><Link to={m.href} className={LINK}>{m.label}</Link></td>
-                    <td className="p-3 text-muted-foreground">{m.text}</td>
-                    <td className="p-3 text-muted-foreground">{m.codes}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+        <section id="methods" className={next()}>
+          <div className={UI.wide}>
+            <h2 className={UI.h2}>{page.group === "advanced" ? "Advanced NDT methods" : "Conventional NDT methods"}</h2>
+            <div className={UI.tableWrap}>
+              <table className={UI.table}>
+                <thead className={UI.thead}>
+                  <tr><th className={UI.th}>Method</th><th className={UI.th}>What it is used for</th><th className={UI.th}>Key codes</th></tr>
+                </thead>
+                <tbody>
+                  {list.map((m) => (
+                    <tr key={m.href} className={UI.tr}>
+                      <td className={UI.tdFirst}><Link to={m.href} className={UI.tdLink}>{m.label}</Link></td>
+                      <td className={UI.td}>{m.text}</td>
+                      <td className={UI.td}>{m.codes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
       )}
 
-      {(page.sections || []).map((s) => <SectionBlock key={s.id} s={s} />)}
-      <Bullets id="codes" h="Governing codes and standards" items={page.codes} />
-      <Bullets id="deliverables" h="What you receive" items={page.deliverables} />
-      <Bullets id="industries" h="Industries served" items={page.industries} />
+      {(page.sections || []).map((s) => {
+        const paras = Array.isArray(s.p) ? s.p : s.p ? [s.p] : [];
+        return (
+          <section key={s.id} id={s.id} className={next()}>
+            <div className={s.table ? UI.wide : UI.narrow}>
+              <h2 className={UI.h2}>{s.h}</h2>
+              {paras.map((t, i) => <p key={i} className={UI.p}>{t}</p>)}
+              {s.list && <Checks items={s.list} />}
+              {s.table && (
+                <div className={UI.tableWrap}>
+                  <table className={UI.table}>
+                    <thead className={UI.thead}><tr>{s.table.head.map((c) => <th key={c} className={UI.th}>{c}</th>)}</tr></thead>
+                    <tbody>
+                      {s.table.rows.map((r) => (
+                        <tr key={r[0]} className={UI.tr}>{r.map((c, i) => <td key={i} className={i ? UI.td : UI.tdFirst}>{c}</td>)}</tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          </section>
+        );
+      })}
+
+      {triple.length > 0 && (
+        <section id="scope" className={next()}>
+          <div className={UI.wide}>
+            <div className={`grid gap-6 ${GRID_COLS[triple.length]}`}>
+              {triple.map(([id, h, items]) => (
+                <div key={id} id={id} className={UI.card}>
+                  <h2 className={UI.listCardTitle}>{h}</h2>
+                  <Checks items={items} small />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {page.kind === "landing" && (
+        <section id="regions" className={next()}>
+          <div className={UI.wide}>
+            <h2 className={UI.h2Center}>{INSPECTION_REGIONS.h2}</h2>
+            <p className={UI.sub}>{INSPECTION_REGIONS.intro}</p>
+            <div className={UI.cardGrid}>
+              {INSPECTION_REGIONS.groups.map((g) => (
+                <div key={g.name} className={UI.regionCard}>
+                  <h3 className={UI.regionTitle}><MapPin className="w-4 h-4" aria-hidden="true" />{g.name}</h3>
+                  <ul className={UI.regionList}>
+                    {g.links.map(([href, label]) => <li key={href}><Link to={href} className={UI.regionLink}>{label}</Link></li>)}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            <p className={UI.regionFoot}>
+              {INSPECTION_REGIONS.footnote.map(([href, label]) => (
+                <Link key={href} to={href} className="inline-flex items-center gap-1 font-medium text-primary hover:underline">
+                  {label} <ArrowRight className="w-4 h-4 inline" aria-hidden="true" />
+                </Link>
+              ))}
+            </p>
+          </div>
+        </section>
+      )}
 
       {page.faqs?.length ? (
-        <section id="faq" className="mt-12 scroll-mt-24">
-          <h2 className="text-2xl font-bold mb-4">Frequently asked questions</h2>
-          {page.faqs.map((f) => (
-            <div key={f.q} className="mb-5">
-              <h3 className="font-semibold mb-1">{f.q}</h3>
-              <p className="text-muted-foreground leading-relaxed">{f.a}</p>
-            </div>
-          ))}
+        <section id="faq" className={next()}>
+          <div className={UI.narrow}>
+            <h2 className={UI.h2}>Frequently asked questions</h2>
+            <Accordion type="single" collapsible>
+              {page.faqs.map((f, i) => (
+                <AccordionItem key={f.q} value={`q${i + 1}`}>
+                  <AccordionTrigger className="text-left">{f.q}</AccordionTrigger>
+                  <AccordionContent><p className="text-muted-foreground leading-relaxed">{f.a}</p></AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
         </section>
       ) : null}
 
       {kids.length > 0 && (
-        <section id="subpages" className="mt-12">
-          <h2 className="text-2xl font-bold mb-4">In this section</h2>
-          <ul className="list-disc pl-6 space-y-2">
-            {kids.map((c) => <li key={c.path}><Link to={c.path} className={LINK}>{c.navLabel}</Link></li>)}
-          </ul>
+        <section id="subpages" className={next()}>
+          <div className={UI.wide}>
+            <h2 className={UI.h2}>In this section</h2>
+            <Pills items={kids.map((c) => [c.path, c.navLabel])} />
+          </div>
         </section>
       )}
 
       {page.related?.length ? (
-        <section id="related" className="mt-12">
-          <h2 className="text-2xl font-bold mb-4">Related</h2>
-          <ul className="list-disc pl-6 space-y-2">
-            {page.related.map(([h, l]) => <li key={h}><Link to={h} className={LINK}>{l}</Link></li>)}
-          </ul>
+        <section id="related" className={next()}>
+          <div className={UI.wide}>
+            <h2 className={UI.h2}>Related</h2>
+            <Pills items={page.related} />
+          </div>
         </section>
       ) : null}
 
-      <section id="enquire" className="mt-14 rounded-2xl bg-primary/5 p-8">
-        <h2 className="text-2xl font-bold mb-3">Talk to an inspection engineer</h2>
-        <p className="text-muted-foreground mb-5">
-          Send the equipment list or drawings, the inspection you need and your timing. Quotes are prepared for each scope and region.
-        </p>
-        <Link to={ENQUIRY} className="inline-flex items-center rounded-md bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary/90">
-          Request an inspection quote
-        </Link>
+      <section className="py-14">
+        <div className={UI.container}>
+          <div className={UI.band}>
+            <h2 className={UI.bandH2}>Talk to an inspection engineer</h2>
+            <p className={UI.bandP}>
+              Send the equipment list or drawings, the inspection you need and your timing. Quotes are prepared for each scope and region.
+            </p>
+            <Go to={QUOTE_ANCHOR} className={UI.btnWhite}>Request a Quote <ArrowRight className="w-4 h-4" aria-hidden="true" /></Go>
+          </div>
+        </div>
       </section>
-    </main>
+
+      <section id="enquire" className={UI.sectionAlt}>
+        <div className={UI.rfqWrap}>
+          <InspectionRfqWizard />
+        </div>
+      </section>
+    </>
   );
 }
 
@@ -200,7 +301,7 @@ export default function InspectionSection() {
   const { pathname } = useLocation();
   const page = inspectionPage(pathname) || inspectionPage("/inspection")!;
   return (
-    <>
+    <div className="min-h-screen pt-20">
       <SEOHead
         title={page.title}
         description={page.description}
@@ -208,7 +309,10 @@ export default function InspectionSection() {
         structuredData={inspectionSchema(page)}
       />
       <Navigation />
-      <PageBody page={page} />
-    </>
+      <main>
+        <PageBody page={page} />
+      </main>
+      <ContactDetails />
+    </div>
   );
 }
