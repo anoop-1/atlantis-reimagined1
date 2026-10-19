@@ -86,7 +86,8 @@ import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './
 import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats } from './software-owners-2026-10.mjs'; // 2026-10-18 software: /ndt-inspection-software product page (last body writer, one JSON for both layers)
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
-import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18 inspection section (src/data/inspection-section)
+import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
+import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
 import { applyTrafficRoute, assertTrafficClean, trafficStats } from './traffic-2026-10-18.mjs'; // 2026-10-18 traffic workstream: FAQPage from visible Q&A on the pages it fixed
@@ -2520,7 +2521,7 @@ countryRegions.forEach(c => {
     <p>${c.name} inspector certification: ${c.cert}. Atlantis trains to ASNT SNT-TC-1A; other schemes listed here are sat through their own accredited body and tracked on request via <a href="/atlantis-academy">Atlantis NDT Academy</a> + <a href="/atlantis-iso-17024">ISO 17024 personnel cert body alignment</a>.</p>
 
     <h2>${c.name} Regulatory Framework</h2>
-    <p>${c.name} inspection operates under: ${c.regs}. Audit-defensible records per ISO 9001:2015 + ISO 17020 (inspection body) + ISO 17025 (calibration laboratory) + ISO 17024 (personnel cert body) retained via <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <p>${c.name} inspection operates under: ${c.regs}. The records an ISO 9001, ISO/IEC 17020 or ISO/IEC 17025 audit asks for can be kept in <a href="/erp">Atlantis NDT ERP</a>; Atlantis NDT itself is certified to ISO 9001 and ISO 14001.</p>
 
     <h2>Atlantis NDT Stack in ${c.name}</h2>
     <p>Integrated software + services stack for ${c.name} customers: <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + cert tracking + calibration + audit-ready records), <a href="/digital-twins">Digital Twin platform</a> (3D asset model + damage-mechanism heat-map + inspection-data overlay), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture with code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> (inspector training + recertification), <a href="/atlantis-academy">Atlantis NDT Academy</a> (multi-scheme cert pathway), <a href="/3d-scanning-services">3D Scanning Services</a> (LiDAR + photogrammetry + drone), <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (PAUT/RT/UT machine-learning defect classification with mandatory ASNT NDT Level III approval).</p>
@@ -2891,7 +2892,7 @@ const corePages = [
     <h2>Integrations</h2>
     <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p>
     <h2>Code + Compliance Framework</h2>
-    <p>Audit-ready records per ISO 9001:2015 + ISO 17020 (inspection body) + ISO 17025 (calibration laboratory) + ISO 17024 (personnel certification). Every inspection + procedure revision + inspector cert + calibration cert timestamped with reviewer approval recorded + retained per regulatory rule (typically 7-10 years for refining/petrochem, 20+ years for nuclear, life-of-asset for marine). Client codes (ASME B&amp;PV Sections V, VIII, IX and XI, API, AWS) are recorded as references on jobs, procedures and reports.</p>
+    <p>Records kept ready for your ISO 9001, ISO/IEC 17020, ISO/IEC 17025 or ISO/IEC 17024 audits. Every inspection + procedure revision + inspector cert + calibration cert timestamped with reviewer approval recorded + retained per regulatory rule (typically 7-10 years for refining/petrochem, 20+ years for nuclear, life-of-asset for marine). Client codes (ASME B&amp;PV Sections V, VIII, IX and XI, API, AWS) are recorded as references on jobs, procedures and reports.</p>
     <h2>Industries Served</h2>
     <p>NDT inspection contractors + EPC operators + asset owners in refining (Aramco / ADNOC / Shell / ExxonMobil / Marathon / Valero / Phillips 66), petrochem (BASF / Dow / SABIC / Reliance / Petronas), marine + offshore (FPSO + drydock + jackup operators, IACS class society), aerospace (Boeing / Airbus / Lockheed / Pratt &amp; Whitney / Safran), power generation (NTPC / EDF / TVA), LNG (Qatargas / Cheniere / Pertamina), mining (BHP / Rio Tinto / Vale), hydrogen, CCS, offshore wind. See <a href="/verticals">verticals</a> for vertical-specific scoping.</p>
     <h2>290+ ERP City Pages</h2>
@@ -10076,6 +10077,7 @@ routes.push(...cycleRoutes());
 routes.push(...caseStoryRoutes());
 routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator (scripts/ascan-simulator-2026-10.mjs)
 routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (scripts/inspection-section-2026-10.mjs)
+routes.push(...consultingSectionRoutes()); // 2026-10-19: Level III consulting topic pages (scripts/consulting-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
 routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
@@ -14101,6 +14103,7 @@ if (pseoNoindexApplied > 0) {
     if (pr.pruned) console.log(`✂️  Zero-impression prune: ${pr.pruned} pages noindexed (follow) ${JSON.stringify(pr.byFamily)} · protected: ${pr.protectedEarning} earning, ${pr.protectedRecent} recent, ${pr.skippedResearched} researched`);
     else console.log(`✂️  Zero-impression prune: no tranche enabled (${pr.note || 'idle'})`);
   }
+  { const re = applyConsultingIndexable(routes); if (re.length) console.log(`🧭 Consulting menu pages made indexable: ${re.join(', ')}`); } // 2026-10-19
 
   const meta = disambiguateMeta(routes);
   if (meta.fixedTitles || meta.fixedDescs) console.log(`🏷️  Meta disambiguation: ${meta.fixedTitles} duplicate titles + ${meta.fixedDescs} duplicate descriptions made unique`);
@@ -14167,6 +14170,7 @@ assertTrainingReleaseClean(BUILT_PATHS); // 2026-10-12 training release: Course 
 assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links built, no prices/dates/pass rates/venues, founder credential exact
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 assertTrainingConversionClean(BUILT_PATHS); // 2026-10-18: FAQ + eligibility pages built, bar targets built, no prices/names
+assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55
@@ -14377,6 +14381,7 @@ routes.forEach(route => {
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
+    route = applyConsultingRoute(route); // 2026-10-19: Level III consulting services cards (/consulting, Level III page) + topic up-links on detailed consulting pages
     route = applyInspectionRegionalRoute(route); // 2026-10-19: regional inspection pages link up into the /inspection section (before the related links)
     route = applyKeywordLinksRoute(route); // 2026-10-10 §50: keyword-anchored related links, after coverage, before next steps
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>

@@ -5,7 +5,8 @@ import {erpEditorialContent} from './erp-editorial-content.mjs';
 import {correctLegacyEditorialClaims} from './editorial-legacy-claims.mjs';
 import {EDITORIAL_PAGE_UPGRADES as upgrades} from './editorial-upgrades.mjs'; // editorial-page-upgrades.json + generated practice tests
 import {extractVisibleFaqs} from './seo-postpass.mjs';
-import {INSPECTION_PATHS} from '../src/data/inspection-section/index.mjs'; // 2026-10-19: the inspection section renders its own React page (RFQ wizard, accordion), never the editorial copy
+import {INSPECTION_PATHS} from '../src/data/inspection-section/index.mjs';
+import {CONSULTING_PATHS} from '../src/data/consulting-section/index.mjs'; // 2026-10-19: consulting topic pages render their own React page (enquiry form, accordion) // 2026-10-19: the inspection section renders its own React page (RFQ wizard, accordion), never the editorial copy
 // 2026-10-16: an upgrade with faqSchema:true gets FAQPage JSON-LD rebuilt from the visible Q&A in its own html
 // (<h3>Q1: …?</h3><p>…</p>, the format BlogDetail's buildFAQPageSchema also reads), after the prune below.
 const editorialFaqSchema=(u,url)=>{const faqs=extractVisibleFaqs(u.html).map(f=>({q:f.q.replace(/^Q\d+:\s*/,''),a:f.a}));if(faqs.length<2)throw new Error('editorial-quality-pass: faqSchema set but fewer than two visible Q&A pairs for '+url);return JSON.stringify({'@context':'https://schema.org','@type':'FAQPage','@id':url+'#faq',mainEntity:faqs.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}).replaceAll('<','\\u003c');};
@@ -13,7 +14,7 @@ const editorialFaqSchema=(u,url)=>{const faqs=extractVisibleFaqs(u.html).map(f=>
 // and sometimes markup, so both sides drop tags and entities and keep only lower-case letters and digits.
 const ENT={amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',rsquo:"'",lsquo:"'",rdquo:'"',ldquo:'"',ndash:'-',mdash:'-',hellip:'...'};
 const faqNorm=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi,(m,c)=>c[0]==='#'?String.fromCodePoint(c[1]==='x'||c[1]==='X'?parseInt(c.slice(2),16):parseInt(c.slice(1),10)):(ENT[c.toLowerCase()]??' ')).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,' ').trim();
-const INSPECTION_SECTION_PATHS=new Set(INSPECTION_PATHS);
+const INSPECTION_SECTION_PATHS=new Set([...INSPECTION_PATHS,...CONSULTING_PATHS]);
 const interactivePaths=new Set(["/", "/about", "/contact", "/training", "/training-usa", "/training-me", "/training-india", "/consulting", "/consulting-usa", "/consulting-me", "/consulting-india", "/erp", "/erp/pricing", "/erp/apps", "/free-trial", "/ndt-erp-integration-matrix", "/ndt-inspection-software", "/inspection-management-software", "/practical-ndt", "/digital-twins", "/digital-twin-reporting", "/inspection-services", "/3d-scanning-services", "/ndt-training-online", "/consulting/ndt-consulting-level-iii", "/tools/ultrasonic-a-scan-simulator", "/tools", "/snt-tc-1a-eligibility", "/ndt-training-faq", "/blog", "/case-studies"]);
 const staleHeadings=/^(?:Atlantis NDT Integrated Stack|Atlantis NDT Stack Integration(?: in .*)?|Code Stack \+ Compliance|Delivery Model \+ Free Consultation|Built for any business that runs on operations|Questions buyers ask before they commit)$/;
 const cleanText=s=>s.replaceAll('Free Quote 24h','Request a quote').replaceAll('office sits in Houston, Hyderabad, or a third location entirely','office is located').replaceAll('big Houston training labs','available practical-training facilities').replace(/\bseamlessly\s+/gi,'').replace(/\bworld-class\s+/gi,'').replace(/\bunparalleled\s+/gi,'').replace(/\bcutting[- ]edge\s+/gi,'').replace(/\bgame changer\b/gi,'useful tool').replace(/\brevolutionizing\b/gi,'changing');

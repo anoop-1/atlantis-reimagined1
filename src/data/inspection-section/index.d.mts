@@ -8,7 +8,7 @@ export type InspPage = {
   sections?: InspSection[]; codes?: string[]; deliverables?: string[]; industries?: string[];
   faqs?: { q: string; a: string }[]; related?: [string, string][];
 };
-export type InspNavItem = { name: string; path: string; blurb?: string; children?: InspNavItem[] };
+export type InspNavItem = { name: string; path: string; blurb?: string; menuTitle?: string; allLabel?: string; talk?: [string, string]; children?: InspNavItem[] };
 export const SITE: string;
 export const ENQUIRY: string;
 export const ADVANCED_LIST: InspListItem[];
@@ -35,3 +35,6 @@ export function inspectionRegionalLinksFor(path: string): InspRegionalLinks | nu
 export const INSPECTION_REGIONAL_MARKER: string;
 export function childPages(page: InspPage): InspPage[];
 export function inspectionRegionalHtml(b: InspRegionalLinks | null): string;
+// 2026-10-19: built on src/data/service-section/core.mjs
+export const INSPECTION_SECTION: import('../service-section/core.mjs').ServiceSectionModel;
+export const INSPECTION_NAV_EXTRA: never;

@@ -71,7 +71,7 @@ const L = {
   tss: ['/inspection/technical-staffing-services', 'Technical staffing services'],
   com: ['/inspection/commissioning', 'Commissioning inspection'],
   ta: ['/inspection/turnarounds-shutdowns', 'Turnaround and shutdown inspection'],
-  api: ['/inspection-services', 'API 510, 570 and 653 inspection'],
+  api: ['/inspection-services', 'API 510, 570, 580 and 653 inspection'],
   mfl: [`${ADV}/mfl-tank-floor-inspection`, 'MFL tank floor scanning'],
   aut: [`${ADV}/automated-ultrasonic-testing`, 'Automated UT of girth welds'],
   pec: [`${ADV}/pulsed-eddy-current`, 'Pulsed eddy current (CUI screening)'],

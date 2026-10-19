@@ -157,6 +157,10 @@
       ],
       "points": [
         [
+          "API 580 risk-based inspection",
+          "Risk-based inspection to API 580, with API 581 where a quantitative method is wanted, turns your inspection history into a plan of methods, coverage and due dates for API 510, 570 and 653 equipment."
+        ],
+        [
           "Ultrasonic thickness measurement",
           "Spot UT thickness readings at condition monitoring locations (CMLs) on vessels, piping and tanks, reported against t-min with corrosion rates and remaining life."
         ],

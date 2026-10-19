@@ -38,9 +38,9 @@ export const SPRINT_H1 = {
   '/digital-twins': 'Asset Integrity Digital Twin — Your Inspection Data and CMLs on One 3D Model',
   '/digital-twin-reporting': 'Digital Twin NDT Reporting Software — Every Reading on the 3D Asset',
   '/practical-ndt': 'NDT Simulator for Hands-On UT, PAUT, RT, MT and More — Atlantis Practical NDT',
-  '/training': 'NDT Training Courses — UT, PAUT, TOFD, RT, MT, PT and More, Led by an ASNT Level III',
+  '/training': 'NDT Training Courses — UT, RT, MT, PT, VT and MFL, Led by an ASNT Level III', // owner 2026-10-19: no PAUT/TOFD in the header; MFL and VT added (React Training.tsx says the same)
   '/consulting': 'NDT Consulting Services — Written Practices, Procedures, Certification Programmes and Audits', // 2026-10-18: off the Level III owner's head term
-  '/inspection-services': 'API 510, 570 and 653 Inspection Services — Pressure Vessels, Piping and Storage Tanks',
+  '/inspection-services': 'API 510, 570, 580 and 653 Inspection Services — Pressure Vessels, Piping, Storage Tanks and RBI', // owner 2026-10-19: API 580 added
 };
 
 // ── section renderers ────────────────────────────────────────────────────────

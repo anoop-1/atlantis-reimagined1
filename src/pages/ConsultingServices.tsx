@@ -97,6 +97,8 @@ export default function ConsultingServices() {
                </div>
             </div>
          </motion.section>
+         {/* 2026-10-19: "NDT Level III consulting services" cards (ConsultingServicesBlock), same place as in the crawler HTML */}
+         <div data-slot-anchor="consultingsvc" />
 
          {/* What every engagement delivers */}
          <section id={C.delivers.id} className="py-14 bg-white scroll-mt-24">

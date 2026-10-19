@@ -27,17 +27,19 @@ const navItems: NavItem[] = [
    { name: "Contact", path: "/contact" },
 ];
 
-// 2026-10-19 (owner: "i still dont see inspection sub menu"): Services opens as a mega menu in
-// the same style as Products. Left: the services. Right: the Inspection section's own menu
-// (src/data/inspection-section/index.mjs → INSPECTION_NAV), visible as soon as Services opens,
-// with Advanced / Conventional NDT under NDT Inspection Services the way ERP's featured apps sit
-// under their parent app. Mobile shows the same list under Inspection.
-const servicesWithMenu = SERVICES.find((s) => s.children?.length);
+// 2026-10-19 (owner: "i still dont see inspection sub menu" / "listed in navigation"): Services
+// opens as a mega menu in the same style as Products. Left: the services. Right: the submenu of the
+// service under the pointer — Inspection (src/data/inspection-section → INSPECTION_NAV) by default,
+// NDT Level III Consulting (src/data/consulting-section → CONSULTING_NAV) on hover or focus — with
+// grandchildren (Advanced / Conventional NDT, consulting by industry) under their parent the way
+// ERP's featured apps sit under their app. Mobile lists the same items under each service.
+const servicesWithMenu = SERVICES.filter((s) => s.children?.length);
 
 export const Navigation = () => {
    const [isOpen, setIsOpen] = useState(false);
    const [scrolled, setScrolled] = useState(false);
    const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+   const [activeService, setActiveService] = useState<string>(servicesWithMenu[0]?.name ?? "");
    const location = useLocation();
 
    // Escape closes an open desktop dropdown, including one opened by hover.
@@ -175,24 +177,39 @@ export const Navigation = () => {
                                     </div>
                                  </div>
                               </div>
-                           ) : servicesWithMenu && item.dropdown.some((sub) => sub.children?.length) ? (
+                           ) : servicesWithMenu.length && item.dropdown.some((sub) => sub.children?.length) ? (() => {
+                              const panel = servicesWithMenu.find((x) => x.name === activeService) ?? servicesWithMenu[0];
+                              return (
                               <div
-                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(46rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
+                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(48rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
                               >
                                  <div className="bg-white shadow-xl rounded-xl border grid grid-cols-[15rem_1fr] overflow-hidden">
                                     <div className="bg-slate-50 p-3 space-y-1 border-r">
-                                       {item.dropdown.map((sub) => (
-                                          <Link key={sub.name} to={sub.path} className={`block rounded-lg px-3 py-2 hover:bg-white hover:shadow-sm ${sub.children?.length ? "bg-white shadow-sm" : ""}`}>
-                                             <span className={`block text-sm font-semibold ${sub.children?.length ? "text-primary" : "text-gray-900"}`}>{sub.name}</span>
-                                             {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
-                                          </Link>
-                                       ))}
+                                       {item.dropdown.map((sub) => {
+                                          const isActive = Boolean(sub.children?.length) && sub.name === panel.name;
+                                          return (
+                                             <Link
+                                                key={sub.name}
+                                                to={sub.path}
+                                                onMouseEnter={() => sub.children?.length && setActiveService(sub.name)}
+                                                onFocus={() => sub.children?.length && setActiveService(sub.name)}
+                                                aria-haspopup={sub.children?.length ? "true" : undefined}
+                                                className={`flex items-start justify-between gap-2 rounded-lg px-3 py-2 hover:bg-white hover:shadow-sm ${isActive ? "bg-white shadow-sm" : ""}`}
+                                             >
+                                                <span>
+                                                   <span className={`block text-sm font-semibold ${isActive ? "text-primary" : "text-gray-900"}`}>{sub.name}</span>
+                                                   {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
+                                                </span>
+                                                {sub.children?.length ? <span aria-hidden="true" className={`mt-0.5 text-xs ${isActive ? "text-primary" : "text-gray-400"}`}>›</span> : null}
+                                             </Link>
+                                          );
+                                       })}
                                     </div>
                                     <div className="p-5">
-                                       <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-3">Inspection services</p>
+                                       <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-3">{panel.menuTitle ?? panel.name}</p>
                                        <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-left">
-                                          {(servicesWithMenu.children || []).map((c: SubMenuItem) => (
-                                             <div key={c.path}>
+                                          {(panel.children || []).map((c: SubMenuItem) => (
+                                             <div key={c.path + c.name}>
                                                 <Link to={c.path} className="block text-sm font-medium text-gray-800 hover:text-primary">
                                                    {c.name}
                                                 </Link>
@@ -205,13 +222,14 @@ export const Navigation = () => {
                                           ))}
                                        </div>
                                        <div className="mt-4 pt-3 border-t flex flex-wrap gap-x-6 gap-y-1 text-sm">
-                                          <Link to={servicesWithMenu.path} className="font-semibold text-primary hover:underline">All inspection services →</Link>
-                                          <Link to="/contact?service=inspection&subject=Inspection%20enquiry" className="text-gray-600 hover:text-primary">Talk to an inspector →</Link>
+                                          <Link to={panel.path} className="font-semibold text-primary hover:underline">{panel.allLabel ?? `All ${panel.name}`} →</Link>
+                                          {panel.talk && <Link to={panel.talk[0]} className="text-gray-600 hover:text-primary">{panel.talk[1]} →</Link>}
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                           ) : (
+                              );
+                           })() : (
                               <div
                                  className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(34rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
                               >

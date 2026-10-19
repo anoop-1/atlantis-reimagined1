@@ -16,8 +16,8 @@
     "description": "NDT ERP software for certifications, calibration, dispatch and inspection reports. Built for inspection companies. Request a demo or 14-day free trial."
   },
   "/inspection-services": {
-    "title": "API 510, 570 & 653 NDT Inspection: Vessels, Piping, Tanks",
-    "description": "NDE for your API 510, 570 and 653 program: UT and PAUT thickness, CML surveys, tank floor MFL and CUI screening, led by an ASNT Level III. Get a quote."
+    "title": "API 510, 570, 580 & 653 Inspection: Vessels, Piping, Tanks",
+    "description": "NDE and RBI for your API 510, 570, 580 and 653 program: UT and PAUT thickness, CML surveys, tank floor MFL, CUI screening and risk-based inspection plans."
   },
   "/digital-twins": {
     "title": "Asset Integrity Digital Twin: NDT Data & CMLs in 3D",

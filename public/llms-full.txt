@@ -34,13 +34,15 @@ Outsourced Level III support for inspection companies and asset owners: SNT-TC-1
 
 Pages: [Level III consulting](https://atlantisndt.com/consulting/ndt-consulting-level-iii) · [Consulting](https://atlantisndt.com/consulting) · [Written practice development](https://atlantisndt.com/ndt-written-practice-development) · [Free written practice template](https://atlantisndt.com/resources/ndt-written-practice-template)
 
+Topic pages: [NDT audit consulting](https://atlantisndt.com/consulting/ndt-audit-consulting) (mock audits against SNT-TC-1A, Nadcap, client and code requirements) · [Client and subcontractor approval audits](https://atlantisndt.com/consulting/subcontractor-approval-audits) (preparing for an operator's approval audit, or auditing NDT subcontractors on the client's behalf) · [SNT-TC-1A training programme setup](https://atlantisndt.com/consulting/snt-tc-1a-training-program-setup) · [NDT documentation requirements](https://atlantisndt.com/consulting/ndt-documentation-requirements) · [NDT regulatory compliance](https://atlantisndt.com/consulting/ndt-regulatory-compliance) · [ISO 9001, ISO/IEC 17020 and 17025 for NDT](https://atlantisndt.com/consulting/iso-9001-17020-17025-ndt). Atlantis NDT is certified to ISO 9001 and ISO 14001; it is not accredited to ISO/IEC 17020 or ISO/IEC 17025 and is not a certification or accreditation body.
+
 ---
 
 ## Inspection Services
 
-Field inspection in UT, PAUT, TOFD, RT, MT, PT and VT, with reports reviewed by a Level III; API 510, 570 and 653 inspection programme support. Technicians are mobilised to the client's site anywhere in the USA; apart from the Houston office there is no local office, so mobilisation is planned and quoted for each job.
+Field inspection in UT, PAUT, TOFD, RT, MT, PT and VT, with reports reviewed by a Level III; API 510, 570 and 653 inspection programme support and API 580 risk-based inspection plans; technical staffing includes IRATA rope-access NDT technicians. Technicians are mobilised to the client's site anywhere in the USA; apart from the Houston office there is no local office, so mobilisation is planned and quoted for each job.
 
-Pages: [Inspection services](https://atlantisndt.com/inspection-services) · [Ultrasonic testing](https://atlantisndt.com/ultrasonic-testing) · [Phased array inspection](https://atlantisndt.com/inspection/phased-array-inspection-services) · [Weld inspection](https://atlantisndt.com/weld-inspection)
+Pages: [Inspection](https://atlantisndt.com/inspection) · [API 510, 570, 580 and 653 inspection](https://atlantisndt.com/inspection-services) · [Ultrasonic testing](https://atlantisndt.com/ultrasonic-testing) · [Phased array inspection](https://atlantisndt.com/inspection/phased-array-inspection-services) · [Weld inspection](https://atlantisndt.com/weld-inspection)
 
 ---
 

@@ -260,7 +260,7 @@ export const RULES = [
   ['FOUNDER-METHODS', /\bASNT NDT Level III,? (?:certified,? )?multi-method\b|\(ASNT NDT Level III certified, multi-method\)|\(founder, multi-method Level III\)/, null, null, SWEEP_SCOPE],
   // 2026-10-18 (owner): Atlantis is certified to ISO 9001 and ISO 14001; it holds no ISO/IEC 17020 or 17025
   // accreditation and is not a 17024 certification body. Block bundles that present 17020/17025/17024 as Atlantis's own.
-  ['ISO-CLAIM', /ISO 9001 \+ (?:ISO )?17020 \+ (?:ISO )?17025 \+ (?:ISO )?17024 framework|ISO 17020 \+ ISO 17025 \+ ISO 9001 framework|>ISO 9001 \+ 17020 \+ 17025 (?:quality system|alignment)<|Atlantis NDT ISO 9001 \+ ISO 17020 \+ ISO 17025|\bAtlantis(?: NDT)? is (?:ISO\/IEC |ISO )?170(?:20|25) accredited/, null, null, SWEEP_SCOPE],
+  ['ISO-CLAIM', /ISO 9001 \+ (?:ISO )?17020 \+ (?:ISO )?17025 \+ (?:ISO )?17024 framework|ISO 17020 \+ ISO 17025 \+ ISO 9001 framework|>ISO 9001 \+ 17020 \+ 17025 (?:quality system|alignment)<|Atlantis NDT ISO 9001 \+ ISO 17020 \+ ISO 17025|publishes audit-ready records per[^.<]{0,60}(?:<a [^>]*>)?ISO 9001(?:<\/a>)?:?(?:2015)? \+ ISO 17020|records per ISO 9001:2015 \+ ISO 17020 \(inspection body\)|>ISO 9001 \+ 17020 \+ 17025<\/a>|How is this auditable for ISO 9001 \+ ISO 17020|\bZero typical findings\b|\bAtlantis(?: NDT)? is (?:ISO\/IEC |ISO )?170(?:20|25) accredited/, null, null, SWEEP_SCOPE],
 ];
 
 // Self-test for the 2026-10-18 sweep rules: known-bad strings must match, third-party facts and
@@ -274,11 +274,12 @@ export const RULES = [
     'Remote procedure authoring + Level III sign-off (24-hour turnaround)', 'Crews mobilise within 24-72 hours from Houston', '3D Scanning UK 2026 | Same-Day Quote',
     'Training is delivered online, live-virtual, or onsite at your facility.', 'Live online theory, practicals at your facility.', 'delivered live online or onsite',
     'Anoop Rayavarapu (ASNT NDT Level III, multi-method)', 'audit-ready records, ISO 9001 + 17020 + 17025 + 17024 framework, quote on request', '<a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 quality system</a>',
+    'Atlantis NDT publishes audit-ready records per <a href="/atlantis-iso-9001">ISO 9001</a>:2015 + ISO 17020 (inspection body) + ISO 17025 (calibration laboratory)', 'The Atlantis NDT <a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025</a> alignment page details the audit roadmap.', 'Audit-trail retained per regulatory rule. Zero typical findings vs spreadsheet-based stacks.',
   ];
   const good = [
     'We reply within one business day.', 'Prometric emails a score report, typically within 24 hours.', 'ITPs commonly specify 24 to 72 hours\' notice for witness points.',
     'Theory is self-paced online with ASNT Level III support.', 'There are no live online classes: you work through the material online.',
-    'ASNT NDT Level III in UT, RT, MT, PT and VT', 'Atlantis NDT is certified to ISO 9001 and ISO 14001', 'a major client calls asking for a same-day quote on a six-week turnaround',
+    'ASNT NDT Level III in UT, RT, MT, PT and VT', 'Atlantis NDT is certified to ISO 9001 and ISO 14001', 'the company is certified to ISO 9001 and ISO 14001 and is not accredited to ISO/IEC 17020 or ISO/IEC 17025', 'That is the evidence an ISO 9001, ISO/IEC 17020 or ISO/IEC 17025 auditor asks to see.', 'a major client calls asking for a same-day quote on a six-week turnaround',
   ];
   const broken = [...bad.filter((t) => !hit(t)).map((t) => `missed: ${t}`), ...good.filter(hit).map((t) => `false positive: ${t}`)];
   if (broken.length) {

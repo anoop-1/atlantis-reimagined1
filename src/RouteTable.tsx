@@ -546,6 +546,7 @@ const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
 const InspectionSection = lazy(() => import("./pages/InspectionSection")); // 2026-10-18 inspection section (src/data/inspection-section)
+const ConsultingSection = lazy(() => import("./pages/ConsultingSection")); // 2026-10-19 Level III consulting topic pages (src/data/consulting-section)
 const NdtPracticeTests = lazy(() => import("./pages/NdtPracticeTests")); // 2026-10-16 practice-test hub (src/data/practice-tests)
 const NdtTrainingFaq = lazy(() => import("./pages/NdtTrainingFaq")); // 2026-10-18 training FAQ (src/data/training-conversion-2026-10.json)
 const SntTc1aEligibility = lazy(() => import("./pages/SntTc1aEligibility")); // 2026-10-18 SNT-TC-1A eligibility checker
@@ -6849,6 +6850,13 @@ export default function RouteTable() { return (
                   {/* Industry-Specific NDT + Location: Oil&Gas, Aerospace, etc. × 40 cities */}
                   <Route path="/industry/:slug" element={<LazyRoute Component={IndustryLocationPage} />} />
                   {/* Inspection Services + Location: Weld, Tank, Pipeline, Corrosion × 50 cities */}
+                  {/* 2026-10-19 NDT Level III consulting topic pages */}
+                  <Route path="/consulting/ndt-audit-consulting" element={<LazyRoute Component={ConsultingSection} />} />
+                  <Route path="/consulting/subcontractor-approval-audits" element={<LazyRoute Component={ConsultingSection} />} />
+                  <Route path="/consulting/snt-tc-1a-training-program-setup" element={<LazyRoute Component={ConsultingSection} />} />
+                  <Route path="/consulting/ndt-documentation-requirements" element={<LazyRoute Component={ConsultingSection} />} />
+                  <Route path="/consulting/ndt-regulatory-compliance" element={<LazyRoute Component={ConsultingSection} />} />
+                  <Route path="/consulting/iso-9001-17020-17025-ndt" element={<LazyRoute Component={ConsultingSection} />} />
                   {/* 2026-10-18 inspection section — static routes outrank /inspection/:slug */}
                   <Route path="/inspection" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services" element={<LazyRoute Component={InspectionSection} />} />

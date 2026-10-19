@@ -251,7 +251,7 @@ export const SECTION_PAGES = [
           ['Welding inspection', 'CSWIP 3.1 and 3.2 welding inspectors; AWS CWI and SCWI'],
           ['Coating and painting inspection', 'AMPP (formerly NACE) coating inspectors (CIP levels); BGAS-CSWIP painting inspectors'],
           ['NDT technicians', 'employer-certified to ASNT SNT-TC-1A, ASNT central (ASNT 9712) and ISO 9712 (PCN and equivalent) Level II and Level III in UT, PAUT, TOFD, RT, MT, PT, VT and ET'],
-          ['Specialist roles', 'QA/QC inspectors, inspection coordinators, data and report reviewers, rope-access NDT technicians (IRATA/SPRAT)'],
+          ['Specialist roles', 'QA/QC inspectors, inspection coordinators, data and report reviewers, IRATA rope-access NDT technicians'],
         ],
       } },
       { id: 'checks', h: 'How certifications are checked', list: [

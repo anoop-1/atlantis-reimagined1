@@ -3,10 +3,12 @@
 // tools, downloads, case studies, statistics) live in the footer, not the header.
 // One list for the header (Navigation.tsx) and the footer (ContactDetails.tsx).
 import { INSPECTION_NAV } from "@/data/inspection-section/index.mjs";
+import { CONSULTING_NAV } from "@/data/consulting-section/index.mjs";
 
 export type SubMenuItem = { name: string; path: string; children?: SubMenuItem[] };
+export type MenuPanel = { menuTitle?: string; allLabel?: string; talk?: [string, string] };
 // `children` (2026-10-18): Services → Inspection opens a nested flyout listing the inspection section.
-export type MenuItem = { name: string; path: string; blurb: string; children?: SubMenuItem[] };
+export type MenuItem = { name: string; path: string; blurb: string; children?: SubMenuItem[] } & MenuPanel;
 
 export const PRODUCTS: MenuItem[] = [
    { name: "Atlantis ERP", path: "/erp", blurb: "Run your whole NDT business" },
@@ -19,8 +21,8 @@ export const PRODUCTS: MenuItem[] = [
 
 export const SERVICES: MenuItem[] = [
    { name: "NDT Training", path: "/training", blurb: "ASNT Level III-led courses" },
-   { name: INSPECTION_NAV.name, path: INSPECTION_NAV.path, blurb: INSPECTION_NAV.blurb ?? "", children: INSPECTION_NAV.children },
-   { name: "NDT Level III Consulting", path: "/consulting", blurb: "Written practices, procedures, audits" },
+   { name: INSPECTION_NAV.name, path: INSPECTION_NAV.path, blurb: INSPECTION_NAV.blurb ?? "", children: INSPECTION_NAV.children, menuTitle: INSPECTION_NAV.menuTitle, allLabel: INSPECTION_NAV.allLabel, talk: INSPECTION_NAV.talk },
+   { name: "NDT Level III Consulting", path: "/consulting", blurb: "Audits, SNT-TC-1A programmes, compliance, ISO", children: CONSULTING_NAV.children, menuTitle: CONSULTING_NAV.menuTitle, allLabel: CONSULTING_NAV.allLabel, talk: CONSULTING_NAV.talk },
    { name: "NDT Report Validation", path: "/report-validation", blurb: "Independent review of issued reports" },
    { name: "3D Scanning Services", path: "/3d-scanning-services", blurb: "Laser scanning of plant and assets" },
    { name: "Business Consulting", path: "/business-consulting", blurb: "Set-up, quality systems and growth" },

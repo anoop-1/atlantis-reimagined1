@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
+import { PORTAL } from "@/data/training-conversion-2026-10.mjs"; // 2026-10-19 owner: Register & Buy Now in the hero → portal.atlantisndt.com/course (region-based prices)
 import TrainingByCountry from "@/components/TrainingByCountry";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
 import TrainingPathway from "@/components/sprint/TrainingPathway";
@@ -25,7 +26,7 @@ import HUB_FAQ from "@/data/training-hub-faq-2026-10.json";
 import { trainingHubFaq } from "@/data/training-hub-faq-2026-10.mjs";
 
 // 2026-10-18 (training.md §5.4): the one visible /training FAQ, shared with the crawler layer.
-const HUB_FAQ_ITEMS = trainingHubFaq(HUB_FAQ as { h2: string; items: [string, string][] }, HOURS);
+const HUB_FAQ_ITEMS = trainingHubFaq(HUB_FAQ as unknown as { h2: string; items: [string, string][] }, HOURS);
 
 export default function Training() {
    const courses = [
@@ -170,7 +171,7 @@ export default function Training() {
                >
                   {/* 2026-10-09 sprint (Day 3): buyer-focused H1 (same text in the crawler HTML). */}
                   <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                     NDT Training <span className="gradient-text">Courses</span> — UT, PAUT, TOFD, RT, MT, PT and More, Led by an ASNT Level III
+                     NDT Training <span className="gradient-text">Courses</span> — UT, RT, MT, PT, VT and MFL, Led by an ASNT Level III
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed">
                      Professional NDT training programs designed to advance your
@@ -180,22 +181,29 @@ export default function Training() {
                   <p className="mt-3 text-sm text-muted-foreground">
                      Led by <Link to="/authors/anoop-rayavarapu" className="text-primary underline underline-offset-2">Anoop Rayavarapu, ASNT NDT Level III</Link>
                   </p>
+                  {/* 2026-10-19 (owner): Register & Buy Now goes to the portal course page, which shows the price for the visitor's country; the Microsoft Form enquiry stays beside it. */}
                   <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+                     <a
+                        href={PORTAL}
+                        target="_blank"
+                        rel="noopener"
+                        data-cta-variant="training-hero-buy"
+                        className="inline-block px-8 py-4 rounded-lg bg-primary text-white font-semibold text-lg hover:opacity-90 transition-opacity"
+                     >
+                        Register &amp; Buy Now →
+                     </a>
                      <a
                         href={MS_FORM_URL}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block px-8 py-4 rounded-lg bg-primary text-white font-semibold text-lg hover:opacity-90 transition-opacity"
-                     >
-                        Enquire About Training →
-                     </a>
-                     <a
-                        href="#training-enquiry"
                         className="inline-block px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold text-lg hover:bg-primary/5 transition-colors"
                      >
-                        Or send us a message
+                        Enquire About Training
                      </a>
                   </div>
+                  <p className="mt-4 text-sm text-muted-foreground">
+                     Prices are shown for your country on the course page. Questions first? <a href="#training-enquiry" className="text-primary underline underline-offset-2">Send us a message</a>.
+                  </p>
                </motion.div>
             </div>
          </motion.section>

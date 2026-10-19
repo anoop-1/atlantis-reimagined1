@@ -125,9 +125,9 @@ export default function InspectionServices() {
          <Navigation />
          <QuickAnswerBox
             question="What inspection services does Atlantis NDT provide?"
-            answer="Atlantis NDT delivers third-party NDT inspection services for pressure vessels (API 510), piping (API 570), storage tanks (API 653), welds, pipelines, and corrosion assessment — performed and reviewed by ASNT SNT-TC-1A qualified personnel. This is inspection work, not exam prep or certification training."
+            answer="Atlantis NDT delivers third-party NDT inspection services for pressure vessels (API 510), piping (API 570), storage tanks (API 653) and risk-based inspection planning (API 580), plus welds, pipelines and corrosion assessment — performed and reviewed by ASNT SNT-TC-1A qualified personnel. This is inspection work, not exam prep or certification training."
             bullets={[
-               "API 510 pressure vessel, API 570 piping, and API 653 tank inspection — plus weld, pipeline and corrosion assessment",
+               "API 510 pressure vessel, API 570 piping and API 653 tank inspection, API 580 risk-based inspection, plus weld, pipeline and corrosion assessment",
                "Primary coverage: North America and the Middle East; growing coverage across India",
                "ASNT SNT-TC-1A qualified personnel; audit-ready, code-compliant reporting",
             ]}
@@ -156,8 +156,8 @@ export default function InspectionServices() {
                >
                   {/* 2026-10-09 sprint (Day 3): buyer-focused H1 carrying the API 510/570/653 inspection queries (same text in the crawler HTML). */}
                   <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                     API 510, 570 and 653 Inspection Services{" "}
-                     <span className="gradient-text">— Pressure Vessels, Piping and Storage Tanks</span>
+                     API 510, 570, 580 and 653 Inspection Services{" "}
+                     <span className="gradient-text">— Pressure Vessels, Piping, Storage Tanks and RBI</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                      Third-party in-service inspection for pressure vessels, piping, storage tanks, welds,
