@@ -121,11 +121,22 @@ export default function NDTConsultingLevelIII() {
             <section id={L3.deliverables.id} className="py-12 bg-slate-50 scroll-mt-24">
                 <div className="container mx-auto max-w-4xl px-6 text-slate-700">
                     <h2 className="text-2xl font-bold text-slate-900 mb-4">{L3.deliverables.h2}</h2>
-                    <ul className="list-disc pl-6 space-y-2">
-                        {L3.deliverables.items.map((d) => (
-                            <li key={d.name}><strong>{d.name}:</strong> {d.text}</li>
-                        ))}
-                    </ul>
+                    <div className="overflow-x-auto">
+                        <table className="w-full text-left text-sm border border-slate-200 bg-white">
+                            <caption className="sr-only">{L3.deliverables.h2}</caption>
+                            <thead className="bg-slate-100 text-slate-900">
+                                <tr><th scope="col" className="p-3">Deliverable</th><th scope="col" className="p-3">What you receive</th></tr>
+                            </thead>
+                            <tbody>
+                                {L3.deliverables.items.map((d) => (
+                                    <tr key={d.name} className="border-t border-slate-200 align-top">
+                                        <th scope="row" className="p-3 font-semibold text-slate-900">{d.name}</th>
+                                        <td className="p-3" dangerouslySetInnerHTML={{ __html: inlineLinks(d.text) }} />
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </section>
             <section id={L3.process.id} className="py-12 bg-white scroll-mt-24">

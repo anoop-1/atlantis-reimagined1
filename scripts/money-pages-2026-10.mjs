@@ -283,7 +283,7 @@ function consultingStructuredData() {
 export function level3BlockHtml() {
   const l = MP.level3;
   return `
-    <section id="${l.qa.id}" ${MONEY_MARKER}>
+    <section id="${l.qa.id}" data-citation-block="answer" ${MONEY_MARKER}>
       <h2>${esc(l.qa.h2)}</h2>
       <p>${esc(l.qa.answer)}</p>
       ${l.qa.more.map((p) => `<p>${esc(p)}</p>`).join('\n      ')}

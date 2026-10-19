@@ -14393,6 +14393,7 @@ routes.forEach(route => {
     route = applyRankWave14Route(route); // 2026-10-17 §58: top-of-page direct answers + routing lines + salary notes + city-scoped consulting titles (after owner links)
     route = applyInspectionReleaseRoute(route); // 2026-10-18 inspection release: sourced sections + visible FAQ after the direct answer, FAQPage/Service JSON-LD
     route = applyConsultingReleaseRoute(route); // 2026-10-18 consulting teardown (last body writer for its three paths)
+    if (route.path === '/consulting/ndt-technical-procedure-development' || route.path === '/consulting/ndt-consulting-level-iii') route = applyConsultingRoute(route); // 2026-10-19: the teardown rebuilds these <main>s, so re-apply the services cards / topic up-links (idempotent)
     route = applyTrafficRoute(route); // 2026-10-18 traffic: FAQPage rebuilt from the visible Q&A on its fixed pages (last schema writer)
     route = applyTrainingCtaBar(route); // 2026-10-18: eligibility · FAQs · Register & Buy Now bar after the H1 intro (after any top-of-page answer)
     writeRoute(route.path, route, baseTemplate);

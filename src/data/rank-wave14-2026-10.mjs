@@ -224,7 +224,8 @@ export function level3SectionsHtml(l3, marker = '') {
     out.push(`<section id="${esc(l3.expert.id)}"${m}><h2>${esc(l3.expert.h2)}</h2><p>${inlineLinks(l3.expert.p)}</p><p>${inlineLinks(l3.expert.verify)}</p></section>`);
   }
   if (l3.deliverables) {
-    out.push(`<section id="${esc(l3.deliverables.id)}"${m}><h2>${esc(l3.deliverables.h2)}</h2><ul>${l3.deliverables.items.map((d) => `<li><strong>${esc(d.name)}:</strong> ${inlineLinks(d.text)}</li>`).join('')}</ul></section>`);
+    // 2026-10-19: a captioned table (citation spec: a real table beats the aggregators' lists).
+    out.push(`<section id="${esc(l3.deliverables.id)}"${m}><h2>${esc(l3.deliverables.h2)}</h2><table><caption>${esc(l3.deliverables.h2)}</caption><thead><tr><th scope="col">Deliverable</th><th scope="col">What you receive</th></tr></thead><tbody>${l3.deliverables.items.map((d) => `<tr><th scope="row">${esc(d.name)}</th><td>${inlineLinks(d.text)}</td></tr>`).join('')}</tbody></table></section>`);
   }
   if (l3.process) {
     out.push(`<section id="${esc(l3.process.id)}"${m}><h2>${esc(l3.process.h2)}</h2><ol>${l3.process.steps.map((s) => `<li><strong>${esc(s.h)}.</strong> ${inlineLinks(s.p)}</li>`).join('')}</ol><p>${inlineLinks(l3.process.note)}</p></section>`);
