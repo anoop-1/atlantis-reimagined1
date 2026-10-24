@@ -14405,6 +14405,13 @@ routes.forEach(route => {
     if (route.path === '/consulting/ndt-technical-procedure-development' || route.path === '/consulting/ndt-consulting-level-iii') route = applyConsultingRoute(route); // 2026-10-19: the teardown rebuilds these <main>s, so re-apply the services cards / topic up-links (idempotent)
     route = applyTrafficRoute(route); // 2026-10-18 traffic: FAQPage rebuilt from the visible Q&A on its fixed pages (last schema writer)
     route = applyTrainingCtaBar(route); // 2026-10-18: eligibility · FAQs · Register & Buy Now bar after the H1 intro (after any top-of-page answer)
+    // 2026-10-24: a few later writers rebuild <main> (training release for /ndt-training-houston, Hyderabad, …);
+    // put back any 2026-10-24 block they dropped. Each applier is idempotent and only runs where its block is missing.
+    if (typeof route.bodyContent === 'string') {
+      if (!route.bodyContent.includes('data-geo-depth="2026-10"')) route = applyGeoDepth(route);
+      if (!route.bodyContent.includes('data-intent-route="2026-10"')) route = applyIntentRoute(route);
+      if (!route.bodyContent.includes('data-free-downloads="2026-10"')) route = applyDownloadsRoute(route);
+    }
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {

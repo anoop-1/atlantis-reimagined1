@@ -2329,5 +2329,95 @@
   "country": "US",
   "title": "NDT Training in Wyoming: ASNT Level I-III, Online & Onsite",
   "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-alberta",
+  "family": "inspection",
+  "name": "Alberta",
+  "region": "Western Canada",
+  "country": "CA",
+  "title": "NDT Inspection Services Alberta | ABSA, PAUT, API 510/570",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-arizona",
+  "family": "inspection",
+  "name": "Arizona",
+  "region": "Southwest, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Arizona | UT, PAUT, MT, PT, RT, VT",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-calgary",
+  "family": "inspection",
+  "name": "Calgary",
+  "region": "Western Canada",
+  "country": "CA",
+  "title": "NDT Inspection Services Calgary | UT, PAUT, MT, PT, RT",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-florida",
+  "family": "inspection",
+  "name": "Florida",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Florida | Weld, UT, PAUT, RT, Tank NDE",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-houston",
+  "family": "inspection",
+  "name": "Houston",
+  "region": "Gulf Coast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Houston | UT, PAUT, TOFD, RT, MT, PT",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-huntsville",
+  "family": "inspection",
+  "name": "Huntsville",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Huntsville AL | PT, MT, UT, PAUT, RT",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-manitoba",
+  "family": "inspection",
+  "name": "Manitoba",
+  "region": "Prairies, Canada",
+  "country": "CA",
+  "title": "NDT Inspection Services Manitoba | UT, PAUT, MT, PT, RT",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-massachusetts",
+  "family": "inspection",
+  "name": "Massachusetts",
+  "region": "Northeast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Massachusetts | PT, UT, PAUT, RT, MT",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-ontario",
+  "family": "inspection",
+  "name": "Ontario",
+  "region": "Central Canada",
+  "country": "CA",
+  "title": "NDT Inspection Services Ontario | TSSA, PAUT, API 510/653",
+  "publishedAt": "2026-10-24"
+ },
+ {
+  "path": "/inspection-services-phoenix",
+  "family": "inspection",
+  "name": "Phoenix",
+  "region": "Southwest, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Phoenix | UT, PAUT, MT, PT, RT, VT",
+  "publishedAt": "2026-10-24"
  }
 ]
