@@ -3426,6 +3426,11 @@ Owner: "my onedrive has a lot of report templates, add those to the respective p
 - Fixed facts found by the writers: Houston "500+ refineries" (now "largest concentration of US refining and petrochemical capacity"), Dallas "ExxonMobil HQ in Spring (just south)", Chicago "Boeing Commercial Airplanes' headquarters" (`dt-city-data.mjs`, `MethodLocationPage.tsx`).
 - **Flagged for the owner, not changed:** 180 geo-hub sentences say RT is done "by crews licensed in {state}" (a legal requirement, but reads as an Atlantis licence); Tampa weld/MFL/guided-wave pages list API 579/580/581 and "ASNT Level II & III certified inspectors"; `/consulting/refining-ndt-consulting-tampa` (Florida has no refinery) and `/training/cwi-training-tampa` (CWI not taught); `/ndt-consulting-south-carolina` and `/ndt-consulting-hawaii` imply named clients and offer RBI/FFS/17020 support; ET pages cite ASTM E243 for in-service tubes (E690 is the in-service practice); `/consulting/ndt-consulting-hamilton-ontario` says Stelco Hamilton runs blast furnaces; `/inspection/tank-inspection-services-denver` names Valero.
 
+### 62.4b Shipped and submitted
+- Live: commit `a566334f` (deploy run success, ~4 min); verified live: the 10 hubs (200, own canonical, indexable), `.xlsx` served as spreadsheetml, practice PDFs as application/pdf, routing/download/depth blocks in the live HTML. The entry-chunk hash differs from a local build because CI injects the VITE_* secrets — verify by content, not hash.
+- IndexNow: 498 URLs accepted (10 hubs, 61 depth pages, download placements, 8 template pages, the city pages that now route to hubs, top-400 routed pages by demand) — list `scripts/indexing-url-list-2026-10-24.json`.
+- GSC (owner's Chrome): `https://atlantisndt.com/sitemap-index.xml` resubmitted (a domain property needs the full URL, not a relative path); URL Inspection → Request indexing for all 10 hubs; the 11th request hit "Quota exceeded" (~10/day). Next day: request `/ndt-report-templates`, `/ndt-practice-tests`, `/ndt-level-2-training`.
+
 ### 62.5 Rules from this cycle
 - Place-named search is <1% of demand: do not mint city pages without a query; deepen what earns.
 - API 510/570/653 copy: Atlantis does the NDE and data review; never "provides API inspectors".
