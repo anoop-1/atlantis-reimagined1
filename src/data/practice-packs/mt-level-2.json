@@ -1,0 +1,793 @@
+{
+  "id": "mt-level-2",
+  "method": "MT",
+  "methodName": "Magnetic Particle Testing",
+  "level": "Level II",
+  "lastReviewed": "2026-10-24",
+  "general": {
+    "intro": "Forty original questions on magnetism, current types and field direction, magnetizing technique, equipment and particles, process control checks, interpretation of discontinuities and demagnetization. The set includes worked calculations on permeability, field strength, coil ampere-turns, L/D ratio, current selection and bath concentration.",
+    "questions": [
+      {
+        "id": "mt2g-01",
+        "topic": "Principles",
+        "q": "A steel sample carries a flux density of 12,000 gauss when the magnetizing force is 20 oersteds. What is its permeability at that point, in CGS units (air = 1)?",
+        "options": ["240,000", "0.0017", "600", "12,020"],
+        "answer": 2,
+        "explanation": "Permeability is the ratio of flux density to magnetizing force: B/H = 12,000 ÷ 20 = 600. It is not a fixed property of the steel; it changes along the magnetization curve and falls as the material approaches saturation.",
+        "ref": "General MT principle (B–H relationship)"
+      },
+      {
+        "id": "mt2g-02",
+        "topic": "Principles",
+        "q": "On a steel's initial magnetization curve, what is the region called where large further increases in magnetizing force produce very little increase in flux density?",
+        "options": ["Saturation", "Coercive force", "Residual magnetism", "Reluctance"],
+        "answer": 0,
+        "explanation": "At saturation nearly all magnetic domains are already aligned, so extra magnetizing force adds little flux. Coercive force is the reverse force needed to bring the flux density back to zero, and residual magnetism is what remains once the force is removed.",
+        "ref": "General MT principle (magnetization curve)"
+      },
+      {
+        "id": "mt2g-03",
+        "topic": "Principles",
+        "q": "A material that is only weakly attracted by a strong magnet, with a relative permeability slightly greater than 1, is classed as:",
+        "options": ["Diamagnetic", "Ferromagnetic", "Paramagnetic", "Magnetically hard"],
+        "answer": 2,
+        "explanation": "Paramagnetic materials, such as aluminum and austenitic stainless steel, are weakly attracted and cannot be examined by MT. Diamagnetic materials such as copper have a relative permeability slightly below 1 and are weakly repelled, while ferromagnetic materials have a relative permeability far above 1.",
+        "ref": "General MT principle"
+      },
+      {
+        "id": "mt2g-04",
+        "topic": "Principles",
+        "q": "Direct current is passed end to end through a solid steel bar. How does the circular field strength vary inside the bar?",
+        "options": [
+          "Zero at the center, rising to a maximum at the surface",
+          "Maximum at the center, falling to zero at the surface",
+          "Uniform from the center out to the surface",
+          "Maximum midway between the center and the surface"
+        ],
+        "answer": 0,
+        "explanation": "The field at any radius inside the bar depends on the current enclosed within that radius, so it is zero at the center and greatest at the surface; outside the bar it falls off with distance. With AC, the skin effect concentrates the field even more toward the surface.",
+        "ref": "General MT principle (circular magnetization)"
+      },
+      {
+        "id": "mt2g-05",
+        "topic": "Principles",
+        "q": "The field strength 50 mm from the center of a long, straight conductor is 2,000 A/m. With the same current and no ferromagnetic material nearby, what is it 100 mm from the center?",
+        "options": ["4,000 A/m", "1,000 A/m", "500 A/m", "2,000 A/m"],
+        "answer": 1,
+        "explanation": "Outside a straight conductor H = I ÷ (2 × pi × r), so field strength is inversely proportional to distance, not to its square: 2,000 × 50/100 = 1,000 A/m. The 500 A/m option wrongly applies an inverse-square law.",
+        "ref": "General MT principle (field around a conductor)"
+      },
+      {
+        "id": "mt2g-06",
+        "topic": "Principles",
+        "q": "A solid steel bar and a steel tube have the same outside diameter. Each is magnetized by passing the same current through it end to end. How does the magnetizing force at the outside surface compare?",
+        "options": [
+          "It is about the same for both",
+          "It is higher on the tube, which has less metal",
+          "It is higher on the bar, which carries more current",
+          "It is zero on the tube"
+        ],
+        "answer": 0,
+        "explanation": "At the outside surface H = I ÷ (2 × pi × r), which depends only on the current and the radius, not on whether the part is hollow. What differs is the inside surface of the tube, where current passed through the wall produces almost no field.",
+        "ref": "General MT principle (circular magnetization)"
+      },
+      {
+        "id": "mt2g-07",
+        "topic": "Current types and field direction",
+        "q": "If the frequency of the alternating magnetizing current is increased, how does the depth of the effective field in the part change?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It does not change",
+          "It increases, but only in high-permeability steel"
+        ],
+        "answer": 1,
+        "explanation": "Alternating current is confined near the surface by the skin effect, and the effective depth becomes shallower as frequency and permeability increase. This is why line-frequency AC suits surface cracks, while DC magnetizes deeper.",
+        "ref": "General MT principle (skin effect)"
+      },
+      {
+        "id": "mt2g-08",
+        "topic": "Current types and field direction",
+        "q": "Why is AC a poor choice for the residual method unless the equipment controls where in the cycle the current stops?",
+        "options": [
+          "AC cannot magnetize ferromagnetic steel",
+          "The residual field varies with the point at which current stops",
+          "AC leaves a residual field too strong to read",
+          "AC heats the part close to its Curie temperature during the shot"
+        ],
+        "answer": 1,
+        "explanation": "Depending on where in the cycle the current happens to stop, the part can be left with anything from very little residual field to nearly its full retained value, so results vary from shot to shot. Equipment intended for AC residual work controls the cutoff point; otherwise DC or rectified current is used for the residual method.",
+        "ref": "General MT principle; ASTM E709"
+      },
+      {
+        "id": "mt2g-09",
+        "topic": "Current types and field direction",
+        "q": "A long shaft is magnetized in a coil with three-phase full-wave rectified current. What is the purpose of a quick-break (rapid cutoff) circuit?",
+        "options": [
+          "To demagnetize the shaft after each shot",
+          "To convert the field to circular for longitudinal discontinuities",
+          "To reduce heating of the coil windings",
+          "To improve detection of transverse discontinuities at the ends"
+        ],
+        "answer": 3,
+        "explanation": "With full-wave rectified current the field collapses slowly, and the ends of a longitudinally magnetized part can be left weakly magnetized. A rapid cutoff induces a current pulse in the part that strengthens magnetization near the ends, where transverse discontinuities would otherwise be missed.",
+        "ref": "General MT principle; ASTM E1444"
+      },
+      {
+        "id": "mt2g-10",
+        "topic": "Current types and field direction",
+        "q": "A steel ring, such as a bearing race, is threaded onto a central conductor and current is passed through the conductor. Which discontinuities are best detected?",
+        "options": [
+          "Circumferential cracks that run around the ring",
+          "Radial and axial cracks, which lie across the circumference",
+          "Laminations lying parallel to the ring faces",
+          "None, because a closed ring cannot carry a magnetic field at all"
+        ],
+        "answer": 1,
+        "explanation": "Current through the conductor produces a circular field that follows the ring's circumference, so it crosses radial cracks on the faces and axial cracks on the bore and outside surface. Circumferential discontinuities lie parallel to this field and need a different technique, such as induced-current magnetization, which drives current around the ring.",
+        "ref": "General MT principle; ASTM E709"
+      },
+      {
+        "id": "mt2g-11",
+        "topic": "Technique and calculations",
+        "q": "What is the main advantage of multidirectional (swinging-field) magnetization?",
+        "options": [
+          "It removes the need to verify field adequacy",
+          "It allows nonferromagnetic alloys such as aluminum to be examined",
+          "It leaves a permanent residual field for later checks",
+          "It finds discontinuities of several orientations in one setup"
+        ],
+        "answer": 3,
+        "explanation": "Two or more fields are applied in rapid succession, so the resultant field sweeps through many directions and discontinuities of different orientations can be revealed in one setup. Field adequacy must still be shown in each direction, usually with artificial flaw shims.",
+        "ref": "General MT principle; ASTM E1444"
+      },
+      {
+        "id": "mt2g-12",
+        "topic": "Technique and calculations",
+        "q": "Your procedure gives NI = 45,000 ÷ (L/D) for a part lying against the inside wall of a low-fill-factor coil. A bar 150 mm long and 50 mm in diameter is placed in a 10-turn coil. What current is required?",
+        "options": ["15,000 A", "4,500 A", "1,500 A", "500 A"],
+        "answer": 2,
+        "explanation": "L/D = 150 ÷ 50 = 3, so NI = 45,000 ÷ 3 = 15,000 ampere-turns, and dividing by the 10 turns gives 15,000 ÷ 10 = 1,500 A. The 15,000 A option forgets to divide by the number of turns, 4,500 A forgets to divide by L/D, and 500 A divides by L/D twice.",
+        "ref": "General MT practice (coil ampere-turns, formula as stated in the procedure); ASTM E1444"
+      },
+      {
+        "id": "mt2g-13",
+        "topic": "Technique and calculations",
+        "q": "A part 100 mm long and 60 mm in diameter must be magnetized longitudinally in a coil. What is its L/D ratio, and what is a common remedy?",
+        "options": [
+          "About 1.7; add ferromagnetic pole pieces or place parts end to end",
+          "About 0.6; add coil turns to raise the flux density",
+          "About 1.7; reduce the current because the part will saturate",
+          "About 3.3; apply the usual coil formula without change"
+        ],
+        "answer": 0,
+        "explanation": "L/D = 100 ÷ 60, about 1.7. A short part has a strong self-demagnetizing effect from its own poles, and the usual coil formulas do not apply below an L/D of about 2, so pole pieces or a string of parts end to end are used to lengthen the effective part.",
+        "ref": "General MT principle (L/D ratio); ASTM E1444"
+      },
+      {
+        "id": "mt2g-14",
+        "topic": "Technique and calculations",
+        "q": "A procedure specifies 1,000 A per 25 mm for head shots and, for noncircular sections, bases the current on the greatest diagonal of the cross-section. What current is required for a rectangular bar 40 mm × 30 mm?",
+        "options": ["1,600 A", "2,800 A", "1,200 A", "2,000 A"],
+        "answer": 3,
+        "explanation": "The diagonal is 50 mm (40² + 30² = 1,600 + 900 = 2,500 = 50²), so the current is 50 ÷ 25 × 1,000 = 2,000 A. Using the longer side gives 1,600 A and adding the two sides gives 2,800 A, both of which misapply the rule.",
+        "ref": "General MT practice (current from cross-section, rule as stated in the procedure)"
+      },
+      {
+        "id": "mt2g-15",
+        "topic": "Technique and calculations",
+        "q": "Why is the continuous method generally more sensitive than the residual method?",
+        "options": [
+          "It uses larger particles that are easier to see",
+          "Particles see the full applied field, not the weaker residual one",
+          "It can be used only with AC, which is always the more sensitive current",
+          "The residual method cannot use fluorescent particles"
+        ],
+        "answer": 1,
+        "explanation": "The field present while the particles are mobile is the full applied field, which is always stronger than the residual field left after the current stops. The residual method also depends on the steel's retentivity, so it suits only magnetically hard materials.",
+        "ref": "General MT principle; ASTM E709"
+      },
+      {
+        "id": "mt2g-16",
+        "topic": "Technique and calculations",
+        "q": "For which part is the residual method most likely to be suitable?",
+        "options": [
+          "A low-carbon steel plate",
+          "An annealed soft-iron pole piece",
+          "A hardened high-carbon steel tool part",
+          "An austenitic stainless steel fitting"
+        ],
+        "answer": 2,
+        "explanation": "The residual method needs high retentivity, which hardened high-carbon and tool steels have. Low-carbon steel and soft iron retain too little field, and austenitic stainless steel is not ferromagnetic.",
+        "ref": "General MT principle"
+      },
+      {
+        "id": "mt2g-17",
+        "topic": "Equipment and materials",
+        "q": "Dry magnetic powders are usually a blend of elongated and more rounded particles. Why?",
+        "options": [
+          "Elongated ones align in leakage fields; rounded ones flow freely",
+          "Rounded ones fluoresce; elongated ones give visible contrast",
+          "Elongated ones resist moisture; rounded ones resist heat",
+          "Rounded ones carry current to discontinuities at the surface"
+        ],
+        "answer": 0,
+        "explanation": "Elongated particles form stronger poles and line up in leakage fields, building clear indications. Rounded particles flow and spread more freely over the surface, so a blend gives both mobility and indication-forming ability.",
+        "ref": "General MT principle (dry particles)"
+      },
+      {
+        "id": "mt2g-18",
+        "topic": "Equipment and materials",
+        "q": "Black visible particles are used on a dark, as-welded surface. What is the usual way to improve contrast?",
+        "options": [
+          "Switch to AC so the black particles appear brighter",
+          "Apply a thick primer coat so the particles stand out",
+          "Add particles until the whole surface is covered",
+          "Apply a thin, even white contrast coating"
+        ],
+        "answer": 3,
+        "explanation": "A thin white contrast coating makes dark particles easy to see. It must be kept thin, because any coating holds particles away from the leakage field, and a procedure that uses one should show that indications can still be detected through it.",
+        "ref": "General MT practice"
+      },
+      {
+        "id": "mt2g-19",
+        "topic": "Equipment and materials",
+        "q": "A settling test on a fluorescent wet bath gives 0.05 mL of particles in a 100 mL sample. The procedure range is 0.1 to 0.4 mL. What should be done?",
+        "options": [
+          "Continue, since a low concentration improves contrast",
+          "Add particle concentrate, re-agitate and repeat the settling test",
+          "Add carrier to dilute the bath",
+          "Raise the UV-A intensity at the surface to make up for the shortfall"
+        ],
+        "answer": 1,
+        "explanation": "A reading of 0.05 mL is half the 0.1 mL minimum, so indications may be too weak to see. The bath is corrected by adding concentrate, agitated and retested before use; adding carrier would lower the concentration further.",
+        "ref": "General MT practice; ASTM E709"
+      },
+      {
+        "id": "mt2g-20",
+        "topic": "Equipment and materials",
+        "q": "After a settling test on a used fluorescent bath, the liquid above the settled particles glows noticeably under UV-A. What does this indicate?",
+        "options": [
+          "The bath is at the ideal concentration",
+          "The UV-A lamp is being held too close to the tube",
+          "The bath is contaminated or the pigment has separated; replace it",
+          "The particles are too coarse and should be replaced with finer ones"
+        ],
+        "answer": 2,
+        "explanation": "The carrier itself should not fluoresce. A glowing carrier means contamination or fluorescent pigment that has separated from the particles, which raises background fluorescence and reduces contrast, so the bath should be replaced.",
+        "ref": "General MT practice; ASTM E709"
+      },
+      {
+        "id": "mt2g-21",
+        "topic": "Equipment and materials",
+        "q": "In wet MT with a water-based carrier, what is a water-break test used for?",
+        "options": [
+          "To check that the bath wets the surface as a continuous film",
+          "To measure the particle concentration of the bath",
+          "To verify the UV-A intensity at the surface",
+          "To check the carrier's flash point before it is used on hot parts"
+        ],
+        "answer": 0,
+        "explanation": "Water-based baths rely on wetting agents. If the film breaks into beads or patches instead of covering the surface evenly, the surface is not adequately wetted, often because of oil or too little wetting agent, and particle coverage will be poor.",
+        "ref": "General MT practice; ASTM E1444"
+      },
+      {
+        "id": "mt2g-22",
+        "topic": "Equipment and materials",
+        "q": "Fluorescent magnetic particles are excited by UV-A. What wavelength band is used, and where is the typical peak?",
+        "options": [
+          "200–280 nm, peaking near 254 nm",
+          "320–400 nm, peaking near 365 nm",
+          "400–700 nm, peaking near 550 nm",
+          "700–1,000 nm, peaking near 850 nm"
+        ],
+        "answer": 1,
+        "explanation": "UV-A is the long-wave ultraviolet band, about 320–400 nm, and lamps for MT peak near 365 nm. The particles absorb it and emit visible yellow-green light; 254 nm is UV-C, which is hazardous and not used.",
+        "ref": "General MT principle (fluorescence)"
+      },
+      {
+        "id": "mt2g-23",
+        "topic": "Equipment and materials",
+        "q": "On a curved pipe surface, one leg of an electromagnetic yoke makes poor contact and leaves an air gap. What is the effect?",
+        "options": [
+          "The field becomes circular instead of longitudinal",
+          "Sensitivity improves because flux leaks at the gap",
+          "There is no effect provided AC is used",
+          "The field in the part drops because the gap adds reluctance"
+        ],
+        "answer": 3,
+        "explanation": "Air has far higher reluctance than steel, so even a small gap reduces the flux driven into the part between the legs. Articulated legs should be adjusted so both poles stay in firm contact.",
+        "ref": "General MT principle (magnetic circuit)"
+      },
+      {
+        "id": "mt2g-24",
+        "topic": "Equipment and materials",
+        "q": "In a stationary wet unit, a tool-steel ring with small holes drilled at increasing depths below its outside surface is magnetized with a central conductor. What is it used for?",
+        "options": [
+          "Calibrating the unit's ammeter",
+          "Measuring UV-A intensity at the bench",
+          "Checking overall system performance",
+          "Demagnetizing small parts after examination"
+        ],
+        "answer": 2,
+        "explanation": "The ring is magnetized at the specified currents and the number of hole indications is compared with the required minimum. It checks the equipment, particles and technique together, but it does not replace calibration of the ammeter.",
+        "ref": "General MT practice; ASTM E1444"
+      },
+      {
+        "id": "mt2g-25",
+        "topic": "Current types and field direction",
+        "q": "Prods are placed on either side of a butt weld so that the line between them runs across the weld. Which discontinuities in the weld are best detected at that placement?",
+        "options": [
+          "Transverse cracks, lying across the weld",
+          "Longitudinal cracks, lying along the weld axis",
+          "Only subsurface porosity, in any orientation",
+          "Discontinuities in all orientations equally"
+        ],
+        "answer": 0,
+        "explanation": "Current flows along the line between the prods and the field circles that current path, so it crosses discontinuities lying parallel to the line between the prods, here across the weld. Longitudinal cracks need the prods placed along the weld axis, which is why each area is examined with two placements about 90° apart.",
+        "ref": "General MT principle (prod technique)"
+      },
+      {
+        "id": "mt2g-26",
+        "topic": "Technique and calculations",
+        "q": "In the dry continuous method, how should the powder be applied and the excess removed?",
+        "options": [
+          "Poured on heavily, then brushed off after the current stops",
+          "Dusted on lightly, with excess blown off gently while the field is on",
+          "Mixed into a slurry and wiped on with a cloth",
+          "Thrown on, with excess removed by strong air after demagnetizing"
+        ],
+        "answer": 1,
+        "explanation": "A light, even cloud lets particles drift to leakage fields, and removing the excess with gentle air while the part is magnetized keeps indications in place. Heavy application masks indications, and strong air or removing excess after the field is gone can strip off weakly held indications.",
+        "ref": "General MT practice; ASTM E709"
+      },
+      {
+        "id": "mt2g-27",
+        "topic": "Technique and calculations",
+        "q": "MT must be done on a weld that is still at about 250 °C (480 °F). Which approach is appropriate?",
+        "options": [
+          "A petroleum-based fluorescent bath, since heat improves mobility",
+          "A water-based visible bath applied generously",
+          "Dry powder rated by its manufacturer for that temperature",
+          "Any particles, since surface temperature does not affect MT"
+        ],
+        "answer": 2,
+        "explanation": "Wet carriers evaporate on hot surfaces, petroleum carriers add a fire risk, and fluorescent pigments degrade with heat. Dry powders are made for elevated temperatures, but only within the manufacturer's stated range unless the procedure has been qualified at that temperature.",
+        "ref": "General MT practice"
+      },
+      {
+        "id": "mt2g-28",
+        "topic": "Technique and calculations",
+        "q": "Some specifications require MT of welds in high-strength steels to be delayed for a set number of hours after welding. Why?",
+        "options": [
+          "So that residual magnetism left by the welding arc has time to decay",
+          "Because particles will not stick to a freshly welded surface",
+          "So the weld can cool below its Curie temperature",
+          "Because hydrogen cracking can appear hours after the weld cools"
+        ],
+        "answer": 3,
+        "explanation": "Hydrogen absorbed during welding can cause delayed cracking in the weld or heat-affected zone, sometimes hours after the joint has cooled. Examining too early can miss cracks that form later, so high-strength and quenched-and-tempered steels often carry a waiting period.",
+        "ref": "General welding and MT practice"
+      },
+      {
+        "id": "mt2g-29",
+        "topic": "Interpretation and discontinuities",
+        "q": "MT of rolled bar stock shows a straight, sharp, sometimes intermittent indication running lengthwise along the bar. What is it most likely to be?",
+        "options": ["A seam", "A grinding crack", "A cold shut", "A shrinkage cavity"],
+        "answer": 0,
+        "explanation": "Seams form when surface discontinuities in the original billet are elongated by rolling, so they appear as straight lines parallel to the rolling direction. Cold shuts and shrinkage are casting discontinuities, and grinding cracks follow a finishing operation.",
+        "ref": "General MT interpretation"
+      },
+      {
+        "id": "mt2g-30",
+        "topic": "Interpretation and discontinuities",
+        "q": "After surface grinding of a hardened part, MT shows a network of fine sharp lines, or a series of fine lines at right angles to the grinding direction. What are they most likely to be?",
+        "options": ["Nonmetallic inclusions", "Magnetic writing", "Forging laps", "Grinding cracks"],
+        "answer": 3,
+        "explanation": "Local overheating during grinding sets up thermal stresses that crack hardened surfaces, typically in a network or as lines perpendicular to the grinding direction. They are shallow but sharp, and they are relevant indications.",
+        "ref": "General MT interpretation"
+      },
+      {
+        "id": "mt2g-31",
+        "topic": "Interpretation and discontinuities",
+        "q": "During in-service MT, a tight, fairly smooth crack is found starting at the corner of a keyway in a rotating shaft. What is its most likely origin?",
+        "options": [
+          "Fatigue initiated at a stress concentration",
+          "A forging lap that was opened up by later machining",
+          "Shrinkage left from the original casting",
+          "Porosity left from an earlier weld repair"
+        ],
+        "answer": 0,
+        "explanation": "Fatigue cracks are service-induced and start where cyclic stress is concentrated, such as keyways, fillets, threads and holes. Laps and shrinkage are manufacturing discontinuities and would not typically start at a machined keyway corner.",
+        "ref": "General MT interpretation"
+      },
+      {
+        "id": "mt2g-32",
+        "topic": "Interpretation and discontinuities",
+        "q": "MT on the cut bevel of a steel plate before welding shows a straight indication running parallel to the plate surfaces near mid-thickness. What is it most likely to be?",
+        "options": ["A transverse crack", "A crater crack", "A lamination", "Magnetic writing"],
+        "answer": 2,
+        "explanation": "A lamination is a planar discontinuity parallel to the plate surfaces, so it breaks the surface only at edges and bevels, where it shows as a line along the edge. It cannot be found by MT on the plate face; ultrasonic testing is used for that.",
+        "ref": "General MT interpretation"
+      },
+      {
+        "id": "mt2g-33",
+        "topic": "Interpretation and discontinuities",
+        "q": "A broad, fuzzy indication follows the fusion line of a weld between two ferritic steels of different composition. It reappears every time the joint is magnetized and has no sharp edges. What is the most likely cause?",
+        "options": [
+          "A permeability change at the boundary, to be confirmed as nonrelevant",
+          "Lack of fusion, which must be rejected without further checks",
+          "Magnetic writing left by contact with another magnetized part",
+          "Low bath concentration collecting along the fusion line"
+        ],
+        "answer": 0,
+        "explanation": "Abrupt changes in permeability, at dissimilar-metal boundaries, heat-affected zones or cold-worked areas, create leakage fields that give diffuse indications. They are nonrelevant only once confirmed, for example by another method or light surface conditioning; magnetic writing would not return after demagnetization.",
+        "ref": "General MT interpretation"
+      },
+      {
+        "id": "mt2g-34",
+        "topic": "Interpretation and discontinuities",
+        "q": "Which of these is a false indication rather than a nonrelevant one?",
+        "options": [
+          "Particles held where two steels of different permeability meet",
+          "Particles trapped by roughness or drainage, not by leakage",
+          "Particles held at a sharp fillet radius by geometric leakage",
+          "Particles held along the edge of a press-fit assembly"
+        ],
+        "answer": 1,
+        "explanation": "A false indication is not caused by a magnetic leakage field; the particles are held mechanically or left behind by drainage. Nonrelevant indications are real leakage fields from geometry, permeability changes or fits, but not from discontinuities.",
+        "ref": "General MT interpretation"
+      },
+      {
+        "id": "mt2g-35",
+        "topic": "Interpretation and discontinuities",
+        "q": "A star-shaped indication is found at the end of a weld bead where the arc was broken. What is it most likely to be?",
+        "options": ["Undercut", "A slag line", "A lamination", "A crater crack"],
+        "answer": 3,
+        "explanation": "Crater cracks form in the weld pool at the end of a bead as it shrinks on solidifying, and often look star-shaped. Undercut runs along the weld toe, and slag lines are usually elongated and parallel to the weld axis.",
+        "ref": "General MT interpretation (weld discontinuities)"
+      },
+      {
+        "id": "mt2g-36",
+        "topic": "Interpretation and discontinuities",
+        "q": "On a steel casting, an MT indication is ragged and branching and lies at a fillet where a thin section joins a thick one. What is it most likely to be?",
+        "options": ["A seam", "A grinding crack", "A hot tear", "A forging burst"],
+        "answer": 2,
+        "explanation": "Hot tears form during solidification when contraction is restrained, typically at changes in section, and give ragged, branched indications. Seams and forging bursts belong to wrought products, not castings.",
+        "ref": "General MT interpretation (casting discontinuities)"
+      },
+      {
+        "id": "mt2g-37",
+        "topic": "Demagnetization",
+        "q": "What happens when a magnetized steel part is heated above its Curie temperature?",
+        "options": [
+          "Its retentivity rises once it cools",
+          "Its residual field doubles as domains realign",
+          "It loses its residual magnetism",
+          "Nothing changes unless current is also applied"
+        ],
+        "answer": 2,
+        "explanation": "Above the Curie temperature (about 770 °C for iron) the steel stops being ferromagnetic and its domains lose alignment, so it cools essentially demagnetized. It is the most complete method but rarely practical, because the heating can change the part's metallurgical properties.",
+        "ref": "General MT principle (demagnetization)"
+      },
+      {
+        "id": "mt2g-38",
+        "topic": "Demagnetization",
+        "q": "After demagnetizing a bar that had been circularly magnetized, a field indicator held near it shows almost no reading. Why might a residual field still be present?",
+        "options": [
+          "Field indicators respond only to AC fields",
+          "The circular field is contained within the part",
+          "The particles absorbed the residual field during the examination",
+          "Demagnetization automatically converts the field to longitudinal"
+        ],
+        "answer": 1,
+        "explanation": "A circular field in a part without discontinuities closes on itself, so there is little external field for an indicator to read. A common practice is to apply a longitudinal field at least as strong and then demagnetize, so that the remaining field can be measured.",
+        "ref": "General MT principle; ASTM E709"
+      },
+      {
+        "id": "mt2g-39",
+        "topic": "Demagnetization",
+        "q": "When demagnetizing with a fixed-current AC coil, how is the gradually decreasing field usually obtained?",
+        "options": [
+          "Switch the coil off with the part at its center",
+          "Pass the part through quickly several times with the coil off",
+          "Rotate the part once inside the energized coil",
+          "Withdraw it slowly until well clear of the energized coil"
+        ],
+        "answer": 3,
+        "explanation": "Moving the part slowly away from the energized coil exposes it to a reversing field that weakens with distance, which is what demagnetization needs. Switching the coil off with the part inside can leave a residual field.",
+        "ref": "General MT practice (demagnetization)"
+      },
+      {
+        "id": "mt2g-40",
+        "topic": "Demagnetization",
+        "q": "When demagnetizing a long part, why is it often positioned with its long axis running east–west?",
+        "options": [
+          "To align it with the earth's field for a stronger effect",
+          "Because demagnetizing coils only work in that direction",
+          "To keep the demagnetizing coil from overheating",
+          "To reduce magnetization picked up from the earth's field"
+        ],
+        "answer": 3,
+        "explanation": "The horizontal component of the earth's field runs roughly north–south, so a long part lying north–south can pick up a small longitudinal field from it. Laying the part east–west keeps the earth's field across the part, where it has little effect.",
+        "ref": "General MT practice (demagnetization)"
+      }
+    ]
+  },
+  "specific": {
+    "intro": "Written against the documents named below; check the edition your written practice and contract name. The questions test applying an Article 7 procedure (technique and current, field adequacy, lighting, calibration, procedure variables, demagnetization and records) and the acceptance criteria an MT Level II most often works to on US pressure vessels, process piping and structural steel.",
+    "documents": [
+      "ASME BPVC Section V, Article 7 (2023 edition)",
+      "ASME BPVC Section VIII, Division 1, Mandatory Appendix 6 (2023 edition)",
+      "ASME B31.3 Process Piping (2022 edition)",
+      "AWS D1.1/D1.1M Structural Welding Code – Steel (2020 edition)"
+    ],
+    "questions": [
+      {
+        "id": "mt2s-01",
+        "topic": "Technique and coverage",
+        "q": "An examiner checks a butt weld with an electromagnetic yoke, placing it once at each location with the legs straddling the weld. Under ASME Section V, Article 7, what else is required?",
+        "options": [
+          "Nothing more, provided the yoke passed its lifting-power check",
+          "A second examination of each area with the flux about 90° to the first",
+          "A second pass in the same orientation using fluorescent particles",
+          "A residual-method check after the yoke is removed"
+        ],
+        "answer": 1,
+        "explanation": "Article 7 requires at least two separate examinations of each area, with the lines of flux in the second approximately perpendicular to those in the first, and enough overlap for 100% coverage. A single yoke orientation finds mainly discontinuities lying across the line between the poles.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-02",
+        "topic": "Equipment checks",
+        "q": "A DC electromagnetic yoke will be used with its legs at a maximum spacing of 150 mm (6 in.). At that spacing it lifts a 4.5 kg (10 lb) test weight but not an 18 kg (40 lb) one. Under Article 7, the yoke:",
+        "options": [
+          "May be used, because 10 lb applies to every yoke type",
+          "May be used at that spacing, but only for the residual method",
+          "May not be used at that spacing; DC yokes need at least 40 lb",
+          "May be used if it is switched to half-wave rectified current"
+        ],
+        "answer": 2,
+        "explanation": "Article 7 requires an AC yoke to lift at least 10 lb (4.5 kg), and a DC or permanent-magnet yoke at least 40 lb (18 kg), at the maximum pole spacing that will be used. The spacing could be reduced and the check repeated at the new maximum.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-03",
+        "topic": "Prod technique (calculation)",
+        "q": "Prods are used on a plate 25 mm (1 in.) thick with a prod spacing of 150 mm (6 in.). What magnetizing current range does Article 7 require?",
+        "options": ["600 to 750 A", "540 to 660 A", "900 to 1,100 A", "100 to 125 A"],
+        "answer": 0,
+        "explanation": "For sections 19 mm (3/4 in.) thick or more, Article 7 requires 100 to 125 A per inch (4 to 5 A/mm) of prod spacing: 6 × 100 = 600 A and 6 × 125 = 750 A. The 540–660 A option uses the 90–110 A/in. range that applies only to sections thinner than 19 mm.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-04",
+        "topic": "Prod technique",
+        "q": "Which prod setup meets Article 7?",
+        "options": [
+          "AC current, 150 mm (6 in.) spacing, remote switch fitted",
+          "Rectified current, 225 mm (9 in.) spacing, remote switch fitted",
+          "Rectified current, 150 mm (6 in.) spacing, current on before the tips touch",
+          "Rectified current, 175 mm (7 in.) spacing, remote switch fitted"
+        ],
+        "answer": 3,
+        "explanation": "Article 7 requires direct or rectified current for prods, a prod spacing not exceeding 200 mm (8 in.), and a remote switch so current is applied only after the prods are positioned, to avoid arcing. Spacings below about 75 mm (3 in.) are usually impractical because particles band around the prods.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-05",
+        "topic": "Direct contact technique (calculation)",
+        "q": "A solid round bar 6 in. (150 mm) in diameter is to be magnetized by direct contact. Your Article 7 procedure calls for 300 to 800 A per inch of outer diameter, but the unit's maximum output is 1,500 A. What does Article 7 require?",
+        "options": [
+          "Proceed at 1,500 A, since the range is only a recommendation",
+          "Use the maximum current available and demonstrate field adequacy",
+          "Proceed at 1,500 A with AC, which penetrates more deeply than DC",
+          "Stop, because direct contact is not permitted on bars over 5 in. (125 mm)"
+        ],
+        "answer": 1,
+        "explanation": "The range calls for 6 × 300 = 1,800 A up to 6 × 800 = 4,800 A, so 1,500 A falls short. When the required current cannot be obtained, Article 7 allows the maximum obtainable current to be used, provided field adequacy is then demonstrated, for example with artificial flaw shims. AC would not help, because the skin effect keeps its field nearer the surface.",
+        "ref": "ASME BPVC Section V, Article 7 (2023); current range as stated in the procedure"
+      },
+      {
+        "id": "mt2s-06",
+        "topic": "Coil technique (calculation)",
+        "q": "Your Article 7 procedure gives ampere-turns = 35,000 ÷ [(L/D) + 2] for parts with an L/D of 4 or more in a fixed coil. A bar 400 mm long and 50 mm in diameter is placed in a 5-turn coil. What current is required (within ±10%)?",
+        "options": ["3,500 A", "1,125 A", "700 A", "875 A"],
+        "answer": 2,
+        "explanation": "L/D = 400 ÷ 50 = 8, so ampere-turns = 35,000 ÷ (8 + 2) = 3,500, and dividing by 5 turns gives 700 A. Leaving out the + 2 gives 875 A, and forgetting to divide by the number of turns gives 3,500 A.",
+        "ref": "ASME BPVC Section V, Article 7 (2023); formula as stated in the procedure"
+      },
+      {
+        "id": "mt2s-07",
+        "topic": "Field adequacy",
+        "q": "A pie-shaped magnetic particle field indicator is used to verify field adequacy under Article 7. How is it placed, and what shows an adequate field?",
+        "options": [
+          "Copper side away from the part; a clear line forms with current on",
+          "Copper side against the part; read after the current stops",
+          "Either side against the part; any build-up at its outer edge",
+          "Copper side away from the part; read after demagnetizing"
+        ],
+        "answer": 0,
+        "explanation": "The indicator is placed with its copper-plated side away from the examination surface. An adequate field is shown when a clearly defined line of particles forms across the copper face while particles are applied with the magnetizing force on; if none forms, the technique must be changed.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-08",
+        "topic": "Field adequacy",
+        "q": "A Hall-effect tangential-field probe is used to verify field adequacy for a direct-contact shot. With the current applied, the peak reading is 22 G (about 1.75 kA/m). What is the correct conclusion under Article 7?",
+        "options": [
+          "Adequate; any reading above 20 G is accepted",
+          "Adequate, if confirmed by a reading with the current off",
+          "Not adequate; at least 100 G (8 kA/m) is required",
+          "Not adequate; the field must be 30 to 60 G while magnetizing"
+        ],
+        "answer": 3,
+        "explanation": "Article 7 treats a tangential field of 30 to 60 G (2.4 to 4.8 kA/m), measured while the magnetizing force is applied, as adequate. At 22 G the current or technique must be changed and the field verified again.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-09",
+        "topic": "Lighting",
+        "q": "Visible (nonfluorescent) particles are used. What minimum light intensity does Article 7 require at the examination surface?",
+        "options": ["100 fc (1,076 lx)", "50 fc (538 lx)", "20 fc (215 lx)", "2 fc (21.5 lx)"],
+        "answer": 0,
+        "explanation": "Article 7 requires at least 100 fc (1,076 lx) on the examination surface for visible particles, measured with a light meter before the examination or provided by a verified light source. Darkened viewing applies to fluorescent particles, not visible ones.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-10",
+        "topic": "Lighting",
+        "q": "During a fluorescent examination, the UV-A lamp is unplugged and moved to another power outlet. Under Article 7, what must happen before the examination continues?",
+        "options": [
+          "Nothing, since it was measured at the start of the shift",
+          "Return the lamp to its manufacturer for recalibration",
+          "Remeasure UV-A; at least 1,000 µW/cm² at the surface",
+          "Wait 30 minutes so the examiner's eyes readapt"
+        ],
+        "answer": 2,
+        "explanation": "UV-A intensity must be measured before use, whenever the lamp's power source is interrupted or changed, and at the end of the examination or series of examinations, and it must be at least 1,000 µW/cm² at the examination surface. Article 7's dark-adaptation period for examiners is at least 5 minutes, not 30.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-11",
+        "topic": "Equipment calibration (calculation)",
+        "q": "A unit with a 2,000 A full-scale ammeter is checked against a calibrated test meter at three output levels (unit reading / test meter): 500 / 560 A, 1,000 / 1,150 A and 1,500 / 1,720 A. Article 7 allows ±10% of full scale. The unit is:",
+        "options": [
+          "Acceptable; the average deviation is under 10% of full scale",
+          "Out of tolerance; at 1,500 A it is off by 11% of full scale",
+          "Acceptable; each deviation is within 15% of its own reading",
+          "Acceptable; only the mid-range level must meet ±10%"
+        ],
+        "answer": 1,
+        "explanation": "Each reading is compared with full scale: 60 A is 3%, 150 A is 7.5% and 220 A is 11% of 2,000 A. The 1,500 A level exceeds ±10%, so the unit must be corrected before use. Article 7 calls for this check at least once a year and after major electrical repair, periodic overhaul or damage.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-12",
+        "topic": "Procedure requirements",
+        "q": "Your MT procedure was qualified by demonstration because the referencing Code requires it. Which change requires requalification under Article 7?",
+        "options": [
+          "Using another manufacturer's AC yoke of the same type",
+          "Changing the demagnetizing technique",
+          "Switching from the yoke technique to prods",
+          "Changing the post-examination cleaning technique"
+        ],
+        "answer": 2,
+        "explanation": "The magnetizing technique is an essential variable in Article 7, so moving from a yoke to prods requires the procedure to be requalified by demonstration. Equipment of the same type, the demagnetizing technique and the post-examination cleaning technique are nonessential; changing them needs a revision of, or addendum to, the procedure, not requalification.",
+        "ref": "ASME BPVC Section V, Article 7 (2023), procedure requirements table"
+      },
+      {
+        "id": "mt2s-13",
+        "topic": "Evaluation",
+        "q": "A broad area of heavy particle accumulation covers part of a weld, and nothing beneath it can be seen. Under Article 7, what is required?",
+        "options": [
+          "Record it as one rounded indication and continue",
+          "Evaluate it against the acceptance criteria as a single indication",
+          "Accept it, since broad accumulations are always nonrelevant",
+          "Clean the area and re-examine it, since such masking is prohibited"
+        ],
+        "answer": 3,
+        "explanation": "Article 7 prohibits broad areas of particle accumulation that might mask indications from discontinuities; the area must be cleaned and re-examined, often with the technique adjusted. Such an accumulation cannot be evaluated or accepted as it stands.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-14",
+        "topic": "Demagnetization",
+        "q": "Under Article 7, when must a part be demagnetized after examination?",
+        "options": [
+          "When residual magnetism could affect later processing or use",
+          "Always, before any indication is evaluated",
+          "Only if the residual field exceeds 3 G (240 A/m)",
+          "Never on welds, because the welding heat has already removed the field"
+        ],
+        "answer": 0,
+        "explanation": "Article 7 requires demagnetization when residual magnetism could interfere with subsequent processing or usage, such as arc blow during later welding, and allows it any time after the examination is complete. Any numeric limit on the remaining field comes from the referencing Code, specification or procedure.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-15",
+        "topic": "Documentation",
+        "q": "A rejectable indication is found. Under Article 7, what must be recorded about it as a minimum?",
+        "options": [
+          "Its location only; repair staff measure the rest",
+          "A photograph alone, without a written record",
+          "Its depth, found by exploratory grinding",
+          "Its type (linear or rounded), location and extent"
+        ],
+        "answer": 3,
+        "explanation": "Rejectable indications must be recorded with at least their type (linear or rounded), location and extent (length, diameter or aligned). Nonrejectable indications are recorded as the referencing Code Section specifies, and the examination record also covers items such as the procedure and revision, equipment and current type, particles, lighting equipment, examiner and date.",
+        "ref": "ASME BPVC Section V, Article 7 (2023)"
+      },
+      {
+        "id": "mt2s-16",
+        "topic": "Acceptance: ASME VIII-1 Appendix 6 (calculation)",
+        "q": "Under ASME Section VIII, Division 1, Mandatory Appendix 6, an MT indication on a weld measures 3 mm (1/8 in.) long and 0.8 mm (1/32 in.) wide. How is it classified and dispositioned?",
+        "options": [
+          "Rounded; acceptable because it is under 5 mm (3/16 in.)",
+          "Nonrelevant, because its width is under 1.5 mm (1/16 in.)",
+          "Linear and relevant; rejectable",
+          "Linear; acceptable because it is under 5 mm (3/16 in.)"
+        ],
+        "answer": 2,
+        "explanation": "Length ÷ width = 1/8 ÷ 1/32 = 4, which is more than 3, so it is linear, and its major dimension exceeds 1/16 in. (1.5 mm), so it is relevant. Appendix 6 accepts no relevant linear indications, so the imperfection must be removed or reduced to an acceptable size and the area re-examined.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 6 (2023)"
+      },
+      {
+        "id": "mt2s-17",
+        "topic": "Acceptance: ASME VIII-1 Appendix 6",
+        "q": "Under Appendix 6, which of these groups of rounded indications on a weld surface is rejectable?",
+        "options": [
+          "One rounded indication 4 mm (5/32 in.) across",
+          "Four in a line, each 2 mm across, 0.8 mm (1/32 in.) apart edge to edge",
+          "Three in a line, each 2 mm across, 0.8 mm (1/32 in.) apart edge to edge",
+          "Four scattered, each 2 mm across, at least 25 mm apart"
+        ],
+        "answer": 1,
+        "explanation": "Appendix 6 rejects relevant rounded indications larger than 3/16 in. (5 mm) and four or more relevant rounded indications in a line separated by 1/16 in. (1.5 mm) or less edge to edge. A single 4 mm indication, three in a line, or widely scattered indications do not meet either rejection rule.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 6 (2023)"
+      },
+      {
+        "id": "mt2s-18",
+        "topic": "Acceptance: ASME VIII-1 Appendix 6",
+        "q": "An examiner believes an indication is nonrelevant, caused by a permeability change, but has not verified it. How must it be treated under Appendix 6?",
+        "options": [
+          "As a defect until re-examination or other NDT shows otherwise",
+          "As nonrelevant, on the examiner's own judgment and experience",
+          "As acceptable if it is shorter than 5 mm (3/16 in.)",
+          "As a rounded indication, whatever its shape"
+        ],
+        "answer": 0,
+        "explanation": "Appendix 6 requires any indication believed to be nonrelevant to be regarded as a defect unless re-examination by the same method, other NDT methods or surface conditioning shows that no unacceptable imperfection is present. The examiner's belief alone is not a basis for dismissing it.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 6 (2023)"
+      },
+      {
+        "id": "mt2s-19",
+        "topic": "Acceptance: ASME B31.3",
+        "q": "On an ASME B31.3 piping system, a required random examination reveals a defect in one weld. Under the Code's progressive sampling rules, what comes next?",
+        "options": [
+          "Examine every weld on the line at once by radiography",
+          "Repair the defect and accept the lot without more sampling",
+          "Examine one more weld by any welder, using penetrant testing",
+          "Two more welds of that kind, same welder, same examination"
+        ],
+        "answer": 3,
+        "explanation": "B31.3 progressive sampling requires two additional samples of the same kind, by the same welder or operator, given the same type of examination. If both are acceptable, the defective weld is repaired and re-examined and the items represented are accepted; if either is defective, two further samples are examined for each defective item found, and a further failure means all items represented must be repaired or replaced, or fully examined and repaired as necessary.",
+        "ref": "ASME B31.3 (2022), progressive sampling for examination"
+      },
+      {
+        "id": "mt2s-20",
+        "topic": "Acceptance: AWS D1.1",
+        "q": "On a statically loaded structure built to AWS D1.1, MT shows a 3 mm (1/8 in.) crack at the toe of a fillet weld. How is it dispositioned?",
+        "options": [
+          "Acceptable, because short cracks are allowed in statically loaded work",
+          "Rejectable; any crack fails the visual criteria used for MT",
+          "Acceptable if it is less than 1 mm (1/32 in.) deep",
+          "Evaluated against ASME Section VIII, Appendix 6 instead"
+        ],
+        "answer": 1,
+        "explanation": "AWS D1.1 has MT performed to ASTM E709 and evaluates welds tested by MT against its visual inspection acceptance criteria, under which any crack is unacceptable regardless of size or location. The crack must be repaired and the repaired weld re-examined.",
+        "ref": "AWS D1.1/D1.1M:2020 (visual inspection acceptance criteria; MT per ASTM E709)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,734 @@
+{
+  "id": "ut-level-2",
+  "method": "UT",
+  "methodName": "Ultrasonic Testing",
+  "level": "Level II",
+  "lastReviewed": "2026-10-24",
+  "general": {
+    "intro": "Forty original questions on ultrasonic principles and physics, search units and instruments, calibration and technique, and the interpretation of indications. Calculation questions show the working in the explanation.",
+    "questions": [
+      {
+        "id": "ut2g-01",
+        "topic": "Principles and physics",
+        "q": "What is the wavelength of a 2.25 MHz shear wave in steel, taking the shear velocity as 3,240 m/s?",
+        "options": ["1.44 mm", "2.63 mm", "2.88 mm", "7.29 mm"],
+        "answer": 0,
+        "explanation": "λ = v ÷ f = 3,240,000 mm/s ÷ 2,250,000 Hz = 1.44 mm. 2.63 mm is the longitudinal wavelength at the same frequency (5,920 m/s), and 2.88 mm doubles the answer as if for a round trip; wavelength does not depend on the return path.",
+        "ref": "General UT principle (λ = v/f)"
+      },
+      {
+        "id": "ut2g-02",
+        "topic": "Principles and physics",
+        "q": "Using N = D²·f/(4v), what is the approximate near-field length in water of a 12.7 mm (0.5 in.) diameter, 5 MHz immersion probe (water velocity 1,480 m/s)?",
+        "options": ["34 mm", "68 mm", "136 mm", "272 mm"],
+        "answer": 2,
+        "explanation": "N = 12.7² × 5,000,000 ÷ (4 × 1,480,000 mm/s) = 8.06×10⁸ ÷ 5.92×10⁶ ≈ 136 mm. The same probe in steel (5,920 m/s) would have a near field of only about 34 mm: the lower velocity of water shortens the wavelength and lengthens the near field.",
+        "ref": "General UT principle (near-field approximation)"
+      },
+      {
+        "id": "ut2g-03",
+        "topic": "Principles and physics",
+        "q": "Using sin γ = 1.22 λ/D, what is the beam-divergence half-angle (beam axis to first null) of a 5 MHz, 10 mm diameter straight-beam probe in steel (longitudinal velocity 5,920 m/s)?",
+        "options": ["4.2°", "6.8°", "8.3°", "16.6°"],
+        "answer": 2,
+        "explanation": "λ = 5,920,000 ÷ 5,000,000 = 1.184 mm; sin γ = 1.22 × 1.184 ÷ 10 = 0.144, so γ ≈ 8.3°. 16.6° is the total included angle, and 6.8° leaves out the 1.22 factor.",
+        "ref": "General UT principle (beam divergence)"
+      },
+      {
+        "id": "ut2g-04",
+        "topic": "Principles and physics",
+        "q": "Sound at normal incidence passes from water (acoustic impedance 1.48 MRayl) into steel (46.5 MRayl). Approximately what fraction of the incident sound energy is reflected at the interface?",
+        "options": ["6%", "12%", "50%", "88%"],
+        "answer": 3,
+        "explanation": "R = ((Z₂ − Z₁) ÷ (Z₂ + Z₁))² = (45.02 ÷ 47.98)² ≈ 0.938² ≈ 0.88, so about 88% of the energy is reflected and only about 12% enters the steel. The 0.938 figure is the pressure (amplitude) ratio; energy needs the square.",
+        "ref": "General UT principle (acoustic impedance and reflection)"
+      },
+      {
+        "id": "ut2g-05",
+        "topic": "Principles and physics",
+        "q": "In immersion testing of steel (water 1,480 m/s; steel longitudinal 5,920 m/s; steel shear 3,240 m/s), at approximately what incident angle in the water is the first critical angle reached?",
+        "options": ["14.5°", "27.2°", "45.0°", "75.5°"],
+        "answer": 0,
+        "explanation": "sin θ = 1,480 ÷ 5,920 = 0.25, so θ ≈ 14.5°. Beyond it only a refracted shear wave enters the steel, until the second critical angle at sin θ = 1,480 ÷ 3,240 ≈ 0.457, or about 27.2°.",
+        "ref": "Snell's law; critical angles"
+      },
+      {
+        "id": "ut2g-06",
+        "topic": "Principles and physics",
+        "q": "An acrylic wedge produces a 45° refracted shear wave in steel (shear velocity 3,230 m/s). If the same wedge is used on aluminum (shear velocity 3,130 m/s), what is the approximate refracted shear angle?",
+        "options": ["39°", "43°", "45°", "47°"],
+        "answer": 1,
+        "explanation": "The incident angle in the wedge is unchanged, so sin θ(Al) = sin 45° × (3,130 ÷ 3,230) = 0.707 × 0.969 ≈ 0.685, giving θ ≈ 43°. Nominal wedge angles are stated for steel and must be verified on any other material.",
+        "ref": "Snell's law"
+      },
+      {
+        "id": "ut2g-07",
+        "topic": "Principles and physics",
+        "q": "Which statement about Rayleigh (surface) waves is correct?",
+        "options": [
+          "They travel faster than longitudinal waves in the same material, so they arrive first",
+          "They propagate easily through water, which is why immersion systems rely on them",
+          "Their particle motion is purely parallel to the direction of travel",
+          "They are slightly slower than shear waves and confined close to the surface"
+        ],
+        "answer": 3,
+        "explanation": "Rayleigh waves travel at a little under the shear velocity with elliptical particle motion, and most of their energy lies within about one wavelength of the surface. That makes them sensitive to surface-breaking cracks, and equally to couplant, oil or a finger on the surface.",
+        "ref": "General UT principle (wave modes)"
+      },
+      {
+        "id": "ut2g-08",
+        "topic": "Principles and physics",
+        "q": "In the far field, ignoring attenuation, a 2 mm flat-bottom hole at 50 mm gives an echo of 80% FSH. Approximately what height would the same size flat-bottom hole give at 100 mm, with the gain unchanged?",
+        "options": ["20%", "28%", "40%", "56%"],
+        "answer": 0,
+        "explanation": "For a reflector smaller than the beam, far-field echo amplitude falls with the square of distance, about 12 dB per doubling: 80% ÷ 4 = 20%. A large flat back wall falls about 6 dB per doubling (40%), and a long side-drilled hole about 9 dB (28%).",
+        "ref": "General UT principle (distance-amplitude behavior in the far field)"
+      },
+      {
+        "id": "ut2g-09",
+        "topic": "Principles and physics",
+        "q": "A material attenuates sound by 0.02 dB per millimeter of travel. Ignoring beam spread, how much more attenuation loss does a pulse-echo signal from a reflector at 250 mm depth suffer than one from a reflector at 100 mm depth?",
+        "options": ["2 dB", "3 dB", "5 dB", "6 dB"],
+        "answer": 3,
+        "explanation": "The deeper reflector adds 150 mm of travel each way, 300 mm in total: 300 × 0.02 = 6 dB. 3 dB counts the extra path one way only, and 5 dB is the one-way loss to the deeper reflector.",
+        "ref": "General UT principle (attenuation)"
+      },
+      {
+        "id": "ut2g-10",
+        "topic": "Principles and physics",
+        "q": "An indication is 18 dB lower than the reference echo. What is its amplitude as a fraction of the reference amplitude?",
+        "options": ["About one-third", "About one-sixth", "About one-eighth", "About one-eighteenth"],
+        "answer": 2,
+        "explanation": "Amplitude ratio = 10^(18/20) ≈ 7.9, so the indication is about one-eighth of the reference. Each 6 dB halves the amplitude: 6, 12 and 18 dB give one-half, one-quarter and one-eighth.",
+        "ref": "General UT principle (decibel ratios)"
+      },
+      {
+        "id": "ut2g-11",
+        "topic": "Equipment and search units",
+        "q": "Why are high-frequency contact transducer elements thinner, and more fragile, than low-frequency elements?",
+        "options": [
+          "A thin element keeps the near field short, which high frequencies require",
+          "The element resonates when its thickness is half a wavelength in the element material",
+          "Thin elements have a higher Curie temperature, which high frequencies need",
+          "Thin elements generate shear waves directly, which high-frequency angle-beam work requires"
+        ],
+        "answer": 1,
+        "explanation": "The fundamental resonance occurs when the element thickness equals half the wavelength in the piezoelectric material, so thickness is inversely proportional to frequency. Doubling the frequency halves the element thickness.",
+        "ref": "General UT principle (transducer construction)"
+      },
+      {
+        "id": "ut2g-12",
+        "topic": "Equipment and search units",
+        "q": "What happens if a polarized ceramic transducer element is heated above its Curie temperature?",
+        "options": [
+          "Its resonant frequency doubles until the element cools down again",
+          "It switches from generating longitudinal waves to generating shear waves",
+          "Its damping increases, which improves near-surface resolution",
+          "It loses its piezoelectric properties and does not regain them on cooling"
+        ],
+        "answer": 3,
+        "explanation": "Above the Curie temperature the ceramic depolarizes and stops being piezoelectric, and it does not recover on cooling. High-temperature delay lines, probes and limited contact times exist to keep the element well below that limit.",
+        "ref": "General UT principle (piezoelectric materials)"
+      },
+      {
+        "id": "ut2g-13",
+        "topic": "Equipment and search units",
+        "q": "Why do thickness gauges using dual-element probes apply a V-path correction, and where is the uncorrected error largest?",
+        "options": [
+          "The beams travel at an angle, so the path exceeds twice the thickness; the error is largest on thin sections",
+          "The delay material slows the sound, so readings are low; the error is largest on thick sections",
+          "The acoustic barrier absorbs energy, so readings drift with gain; the error is the same at every thickness",
+          "The elements are wired in series, so readings double; the error is largest on thick sections"
+        ],
+        "answer": 0,
+        "explanation": "The transmit and receive beams are angled toward each other, so the sound path forms a V that is longer than twice the thickness. The proportional difference is greatest when the part is thin, which is why gauges correct for it and calibration should bracket the thickness range.",
+        "ref": "General UT practice (dual-element thickness measurement); ASTM E797"
+      },
+      {
+        "id": "ut2g-14",
+        "topic": "Equipment and search units",
+        "q": "Why is a single-element delay-line probe normally limited to relatively thin material?",
+        "options": [
+          "The delay line converts the beam to a shear wave after a few millimeters of travel",
+          "The delay line lengthens the near field so that thick parts always lie inside it",
+          "Delay-line repeat echoes can overlap or mask the back-wall echoes from thicker parts",
+          "Delay lines can only be coupled with water, which limits them to thin sheet"
+        ],
+        "answer": 2,
+        "explanation": "The delay line produces its own repeat echoes at a fixed interval set by its length. If the part is thick enough that its back-wall echo arrives after the first delay-line repeat, the two sets of echoes interleave and readings become unreliable.",
+        "ref": "General UT practice (delay-line probes)"
+      },
+      {
+        "id": "ut2g-15",
+        "topic": "Equipment and search units",
+        "q": "In phased-array ultrasonics, what is a focal law?",
+        "options": [
+          "The rule that the focal distance cannot exceed the near-field length of one element",
+          "The set of element time delays used on transmit and receive to steer and focus the beam",
+          "The calibration curve that corrects amplitude for each angle in a sectorial scan",
+          "The relationship between element pitch and the highest usable frequency"
+        ],
+        "answer": 1,
+        "explanation": "Each focal law fires and receives the elements with calculated delays so their wavefronts combine into a beam at the chosen angle and focal depth. A sectorial or linear scan is a sequence of focal laws; angle-corrected gain is a separate calibration step.",
+        "ref": "General PAUT principle"
+      },
+      {
+        "id": "ut2g-16",
+        "topic": "Equipment and search units",
+        "q": "Which change to a phased-array set-up most directly reduces grating lobes?",
+        "options": [
+          "Increasing the element pitch relative to the wavelength",
+          "Raising the frequency while keeping the same element pitch",
+          "Reducing the element pitch relative to the wavelength",
+          "Steering the beam to larger angles"
+        ],
+        "answer": 2,
+        "explanation": "Grating lobes form when the element pitch is large compared with the wavelength, and they grow with steering angle. Keeping the pitch small relative to the wavelength (ideally below about half a wavelength) suppresses them; raising the frequency at the same pitch makes them worse.",
+        "ref": "General PAUT principle (array design)"
+      },
+      {
+        "id": "ut2g-17",
+        "topic": "Equipment and search units",
+        "q": "A set of reference blocks has flat-bottom holes of different diameters, all at the same metal travel distance. What is the set used for?",
+        "options": [
+          "Establishing how echo amplitude falls with distance for one reflector size",
+          "Checking the horizontal linearity of the instrument time base across the screen",
+          "Measuring the refracted angle and exit point of angle-beam probes",
+          "Establishing how echo amplitude varies with reflector area at a fixed distance"
+        ],
+        "answer": 3,
+        "explanation": "This is an area-amplitude set. A distance-amplitude set does the opposite, using the same hole diameter at several metal travel distances to build a distance-amplitude curve.",
+        "ref": "ASTM E127 and E428 (flat-bottom-hole reference blocks)"
+      },
+      {
+        "id": "ut2g-18",
+        "topic": "Equipment and search units",
+        "q": "During a gain (amplitude control) linearity check, an echo set at 40% FSH is raised by 6 dB and peaks at 60% FSH. What does this show?",
+        "options": [
+          "The instrument is working correctly, because any increase in echo height shows the control functions",
+          "The gain control is inaccurate and must be corrected before amplitude-based evaluation",
+          "The probe is damaged, because a 6 dB increase should add exactly 6% FSH, giving 46%",
+          "The screen is saturating, which is normal above 50% FSH"
+        ],
+        "answer": 1,
+        "explanation": "Adding 6 dB doubles the amplitude, so 40% FSH should become about 80%. A result of 60% means the calibrated gain steps cannot be trusted, and any DAC comparison or dB rating made with that control would be wrong.",
+        "ref": "General UT practice; ASME BPVC Section V, Article 4 (2023), amplitude control linearity"
+      },
+      {
+        "id": "ut2g-19",
+        "topic": "Equipment and search units",
+        "q": "How does time-corrected gain (TCG) differ from a drawn DAC curve?",
+        "options": [
+          "TCG adds gain with time so equal reflectors at different depths display at the same height",
+          "TCG lowers the gain with time so that grain noise at long sound paths is suppressed",
+          "TCG applies only to straight-beam thickness work, where a DAC cannot be drawn",
+          "TCG uses the back-wall echo instead of reference reflectors, so no block is needed"
+        ],
+        "answer": 0,
+        "explanation": "A DAC keeps the gain fixed and draws a curve through the falling peaks of the reference reflectors. TCG builds the same correction into the receiver, so the reference reflectors all display at one height and indications are judged against a horizontal line. Both are built from the same reference reflectors.",
+        "ref": "General UT practice (DAC and TCG)"
+      },
+      {
+        "id": "ut2g-20",
+        "topic": "Equipment and search units",
+        "q": "A flat-faced angle-beam wedge is used on a small-diameter pipe. Which problem is most likely?",
+        "options": [
+          "The curvature turns the beam into a surface wave, so no volumetric coverage is achieved",
+          "The near-field length falls to zero, so 6 dB drop sizing becomes impossible",
+          "Mode conversion is suppressed, so only a longitudinal wave enters the pipe wall",
+          "The probe rocks, coupling varies, and the beam angle and exit point can shift"
+        ],
+        "answer": 3,
+        "explanation": "A flat wedge on a convex surface touches along a line, so the probe rocks, the couplant layer varies, and the effective incident angle and exit point change. Procedures therefore call for contoured wedges, and ASME Section V Article 4 requires a curved calibration block for examination surfaces of 20 in. (500 mm) diameter or less.",
+        "ref": "General UT practice; ASME BPVC Section V, Article 4 (2023), calibration block curvature"
+      },
+      {
+        "id": "ut2g-21",
+        "topic": "Technique and calibration",
+        "q": "On a steel part (longitudinal velocity 5,920 m/s), the time between two successive back-wall echoes is 10.0 µs. What is the thickness?",
+        "options": ["14.8 mm", "29.6 mm", "59.2 mm", "118.4 mm"],
+        "answer": 1,
+        "explanation": "Successive back-wall echoes are one round trip apart, so thickness = v × t ÷ 2 = 5.92 mm/µs × 10.0 µs ÷ 2 = 29.6 mm. 59.2 mm forgets that the sound travels down and back.",
+        "ref": "General UT principle (time of flight)"
+      },
+      {
+        "id": "ut2g-22",
+        "topic": "Technique and calibration",
+        "q": "A thickness gauge set to the velocity of steel (5,920 m/s) is used on an aluminum part (6,320 m/s) and reads 20.0 mm. What is the actual thickness?",
+        "options": ["10.7 mm", "18.7 mm", "20.0 mm", "21.4 mm"],
+        "answer": 3,
+        "explanation": "The gauge measures time and converts it with the velocity it was given, so true thickness = 20.0 × 6,320 ÷ 5,920 ≈ 21.4 mm. Aluminum is faster, so the steel setting under-reads; 18.7 mm applies the ratio upside down.",
+        "ref": "General UT practice (velocity calibration); ASTM E797"
+      },
+      {
+        "id": "ut2g-23",
+        "topic": "Technique and calibration",
+        "q": "A gauge is calibrated on a room-temperature steel block and then used, without any correction, on steel pipe at about 200 °C. How will the readings compare with the true thickness?",
+        "options": [
+          "They will read thicker, because sound velocity in steel falls as temperature rises",
+          "They will read thinner, because steel expands when it is heated",
+          "They will be unaffected, because the gauge measures time rather than velocity",
+          "They will read thinner, because sound velocity in steel rises with temperature"
+        ],
+        "answer": 0,
+        "explanation": "Velocity in steel falls as temperature rises, so the echo takes longer and the gauge, still using the room-temperature velocity, reports more thickness than is present. Hot work needs a temperature correction or calibration on a block at the component temperature, plus a suitable probe and couplant.",
+        "ref": "General UT practice (temperature effects on velocity)"
+      },
+      {
+        "id": "ut2g-24",
+        "topic": "Technique and calibration",
+        "q": "In immersion testing of a 40 mm steel plate (water 1,480 m/s; steel longitudinal 5,920 m/s), what minimum water path keeps the second front-surface echo from appearing before the first back-wall echo?",
+        "options": ["Just over 2.5 mm", "Just over 5 mm", "Just over 10 mm", "Just over 40 mm"],
+        "answer": 2,
+        "explanation": "The second front-surface echo arrives one water round trip after the first, so the water round trip must be longer than the steel round trip: W > T × (1,480 ÷ 5,920) = 40 × 0.25 = 10 mm. A margin above this is used so the echoes are clearly separated.",
+        "ref": "General UT practice (immersion water path)"
+      },
+      {
+        "id": "ut2g-25",
+        "topic": "Technique and calibration",
+        "q": "A focused immersion probe has a focal length of 76 mm in water. With a 50 mm water path to a steel part (water 1,480 m/s; steel 5,920 m/s), at approximately what depth in the steel does the beam focus?",
+        "options": ["6.5 mm", "13 mm", "26 mm", "104 mm"],
+        "answer": 0,
+        "explanation": "The remaining 26 mm of water focal distance is shortened in steel by the velocity ratio: 26 × 1,480 ÷ 5,920 ≈ 6.5 mm. This is the usual approximation, water path = focal length − (metal depth × steel velocity ÷ water velocity).",
+        "ref": "General UT practice (focused immersion probes)"
+      },
+      {
+        "id": "ut2g-26",
+        "topic": "Technique and calibration",
+        "q": "A 70° shear-wave probe gives a weld indication at a sound path of 30 mm on the first leg. What is the surface distance from the probe index point to the indication?",
+        "options": ["10.3 mm", "15.0 mm", "21.2 mm", "28.2 mm"],
+        "answer": 3,
+        "explanation": "Surface distance = sound path × sin θ = 30 × sin 70° = 30 × 0.940 ≈ 28.2 mm. The depth is 30 × cos 70° ≈ 10.3 mm.",
+        "ref": "Angle-beam geometry"
+      },
+      {
+        "id": "ut2g-27",
+        "topic": "Technique and calibration",
+        "q": "For a 60° probe on a 25 mm plate, what sound path corresponds to the half-skip point, where the beam reaches the back wall?",
+        "options": ["43.3 mm", "50.0 mm", "86.6 mm", "100.0 mm"],
+        "answer": 1,
+        "explanation": "Sound path to the back wall = T ÷ cos θ = 25 ÷ cos 60° = 25 ÷ 0.5 = 50 mm. 43.3 mm is the half-skip surface distance (T × tan 60°), and 100 mm is the full-skip sound path.",
+        "ref": "Angle-beam geometry"
+      },
+      {
+        "id": "ut2g-28",
+        "topic": "Technique and calibration",
+        "q": "A single-V butt weld has a 30° bevel angle (60° included angle). Which refracted angle meets the fusion face at normal incidence, giving the best response from lack of sidewall fusion?",
+        "options": ["30°", "45°", "60°", "70°"],
+        "answer": 2,
+        "explanation": "The fusion face lies 30° from vertical, so its normal lies 60° from vertical, and a 60° beam meets it squarely (first leg from the opposite side, or second leg from the bevel side). In general the best angle is 90° minus the bevel angle.",
+        "ref": "Angle-beam geometry; weld examination practice"
+      },
+      {
+        "id": "ut2g-29",
+        "topic": "Technique and calibration",
+        "q": "A painted steel pipe must be measured for remaining wall without removing the coating. Which gauge mode gives the steel thickness alone?",
+        "options": [
+          "Initial-pulse-to-first-back-wall mode with a dual-element probe",
+          "Echo-to-echo mode, timing successive back-wall echoes in the steel",
+          "Through-transmission with two probes on opposite sides of the wall",
+          "Any mode, provided the velocity is set to that of the coating"
+        ],
+        "answer": 1,
+        "explanation": "Successive back-wall echoes are separated by a round trip in the steel only, so the coating delay drops out. Timing from the initial pulse includes the coating, which is slow and can add far more apparent thickness than it really has.",
+        "ref": "General UT practice (thickness measurement modes); ASTM E797"
+      },
+      {
+        "id": "ut2g-30",
+        "topic": "Technique and calibration",
+        "q": "In a TOFD set-up the probe center separation is 80 mm. A tip signal from a point midway between the probes has a total sound path in steel of 100 mm after wedge delays are removed. How deep is the tip?",
+        "options": ["30 mm", "40 mm", "50 mm", "60 mm"],
+        "answer": 0,
+        "explanation": "Each half of the path is 50 mm, running from a probe 40 mm horizontally from the tip, so depth = the square root of (50² − 40²) = the square root of 900 = 30 mm. 50 mm treats the half path as vertical, and 60 mm wrongly uses the full path with the full separation.",
+        "ref": "TOFD geometry"
+      },
+      {
+        "id": "ut2g-31",
+        "topic": "Interpretation and evaluation",
+        "q": "In TOFD, which signal characteristic helps distinguish the diffracted signal from the upper tip of a crack from that of the lower tip?",
+        "options": [
+          "The upper-tip signal is always much higher in amplitude than the lower-tip signal",
+          "Only the lower tip produces a diffracted signal; the upper tip reflects",
+          "The two tip signals are of opposite phase",
+          "The upper-tip signal arrives before the lateral wave"
+        ],
+        "answer": 2,
+        "explanation": "Diffracted signals from the upper and lower tips are 180° out of phase with each other, much as the lateral wave and back-wall echo are. Tip signals are weak and of similar amplitude, and nothing from below the surface arrives before the lateral wave.",
+        "ref": "TOFD interpretation"
+      },
+      {
+        "id": "ut2g-32",
+        "topic": "Interpretation and evaluation",
+        "q": "Using the DGS (AVG) method, an indication is rated as having an equivalent reflector size of 3 mm. What does this mean?",
+        "options": [
+          "The discontinuity is 3 mm long, measured along the scanning direction",
+          "The discontinuity lies 3 mm below the scanning surface of the part",
+          "The discontinuity measures 3 mm in through-wall height",
+          "It reflects as much as a 3 mm disc reflector at the same distance"
+        ],
+        "answer": 3,
+        "explanation": "Equivalent reflector size compares the echo with an ideal flat disc normal to the beam at the same distance. A real flaw that is tilted, rough or irregular returns less sound than a disc of its true size, so the real flaw can be considerably larger.",
+        "ref": "General UT practice (DGS/AVG evaluation)"
+      },
+      {
+        "id": "ut2g-33",
+        "topic": "Interpretation and evaluation",
+        "q": "During angle-beam weld scanning, an echo is suspected to come from the weld cap. Pressing a couplant-wet finger on the cap where the beam is predicted to strike makes the echo flicker and drop. What does this indicate?",
+        "options": [
+          "The echo comes from the cap surface profile",
+          "The echo comes from a subsurface flaw just below the cap",
+          "The couplant layer under the probe is too thin",
+          "The probe index point has shifted through wedge wear"
+        ],
+        "answer": 0,
+        "explanation": "Damping the surface absorbs energy only if the beam actually reaches that surface at that point, so the echo comes from the cap profile. An internal flaw echo would not respond to touching the surface.",
+        "ref": "General UT interpretation (geometric indications)"
+      },
+      {
+        "id": "ut2g-34",
+        "topic": "Interpretation and evaluation",
+        "q": "An echo does not move when the probe is moved over the part, but shifts along the time base when the pulse repetition frequency (PRF) is changed. What is the most likely cause?",
+        "options": [
+          "A fixed reflector inside the wedge or the delay material",
+          "A lamination lying parallel to the scanning surface of the part",
+          "A wrap-around echo from the previous pulse; the PRF is too high",
+          "Electrical noise picked up from a welding set working nearby"
+        ],
+        "answer": 2,
+        "explanation": "If pulses fire before echoes from the previous pulse have died away, late echoes appear on the next trace at a position set by the pulse timing, so changing the PRF moves them. A wedge echo stays put whatever the PRF; lowering the PRF removes the ghost.",
+        "ref": "General UT interpretation (non-relevant signals)"
+      },
+      {
+        "id": "ut2g-35",
+        "topic": "Interpretation and evaluation",
+        "q": "During straight-beam testing along the length of a long, narrow bar, a series of evenly spaced echoes appears after the first back-wall echo. What is the usual cause?",
+        "options": [
+          "Evenly spaced transverse cracks along the length of the bar",
+          "Mode conversion of the spreading beam at the side walls",
+          "Ringing of a poorly damped transducer element",
+          "Excess couplant trapped beneath the search unit"
+        ],
+        "answer": 1,
+        "explanation": "The diverging beam strikes the side walls and part of it mode-converts to shear and back, so delayed signals arrive at regular intervals after the back-wall echo. These trailing echoes are non-relevant; a real discontinuity would normally appear before the back wall.",
+        "ref": "General UT interpretation (mode-converted signals)"
+      },
+      {
+        "id": "ut2g-36",
+        "topic": "Interpretation and evaluation",
+        "q": "On straight-beam scanning of a forging, the back-wall echo drops sharply over a small area but no separate echo appears. Coupling is confirmed to be good. Which explanation fits?",
+        "options": [
+          "A lamination lying parallel to the scanning surface of the forging",
+          "Drift of the instrument time base during the scan",
+          "A locally smoother scanning surface in that area",
+          "An inclined planar flaw deflecting the sound away from the probe"
+        ],
+        "answer": 3,
+        "explanation": "A tilted planar reflector can intercept the beam and send the sound sideways, so the back wall drops with no echo returning. A parallel lamination would give its own strong echo. A loss of back reflection is therefore investigated further, for example with angle beams.",
+        "ref": "General UT interpretation (loss of back reflection)"
+      },
+      {
+        "id": "ut2g-37",
+        "topic": "Interpretation and evaluation",
+        "q": "An angle-beam indication plots on the fusion face line, gives a high, smooth echo from one side of the weld, and is weak or absent from the other side. What is the most likely discontinuity?",
+        "options": ["Lack of sidewall fusion", "Cluster porosity in the weld center", "Root concavity", "A transverse crack in the cap"],
+        "answer": 0,
+        "explanation": "Lack of sidewall fusion is planar and lies along the bevel, so it reflects strongly when the beam meets the fusion face squarely and weakly from the other direction. Porosity responds similarly from both sides, and root concavity plots at the root.",
+        "ref": "General UT interpretation (plotting and echo behavior)"
+      },
+      {
+        "id": "ut2g-38",
+        "topic": "Interpretation and evaluation",
+        "q": "An indication peaks at 30% FSH at a sound path where the DAC curve is at 60% FSH. How is its amplitude expressed relative to DAC?",
+        "options": ["−12 dB (25% of DAC)", "−6 dB (50% of DAC)", "−3 dB (71% of DAC)", "+6 dB (200% of DAC)"],
+        "answer": 1,
+        "explanation": "30 ÷ 60 = 0.5, and 20 log₁₀(0.5) ≈ −6 dB, so the indication is 50% of DAC. Amplitude is always compared with the DAC at the indication's own sound path, not with screen height alone.",
+        "ref": "General UT practice (DAC evaluation; decibel ratios)"
+      },
+      {
+        "id": "ut2g-39",
+        "topic": "Interpretation and evaluation",
+        "q": "How is coarse-grain noise usually distinguished from a discontinuity echo?",
+        "options": [
+          "Noise is always higher in amplitude than any genuine discontinuity echo",
+          "Noise appears only close to the back wall, and only in coarse-grained material",
+          "Noise shifts randomly as the probe moves; a real reflector plots consistently",
+          "Noise disappears when the gain is raised to scanning level"
+        ],
+        "answer": 2,
+        "explanation": "Grain scatter comes from many small boundaries, so its pattern changes as the probe moves a millimeter or two. A real reflector peaks, falls away smoothly and plots to the same position from every probe position that reaches it. Raising the gain makes noise worse, not better.",
+        "ref": "General UT interpretation (noise and relevant indications)"
+      },
+      {
+        "id": "ut2g-40",
+        "topic": "Interpretation and evaluation",
+        "q": "To find the minimum remaining wall in an area of internal pitting, which approach is most reliable?",
+        "options": [
+          "A single spot reading taken at the center of each square of the inspection grid",
+          "Continuous scanning or imaging of the area, then confirming the lowest readings",
+          "Averaging several readings in each area to smooth out the pits",
+          "Measuring the thickest point and subtracting the design corrosion allowance"
+        ],
+        "answer": 1,
+        "explanation": "Pits are small and isolated, so spot readings can miss them and averaging hides them. Continuous scanning with a dual-element probe, or a B-scan or C-scan, finds the deepest pits, which are then confirmed. Very small pit bottoms can still be under-called, which is why the procedure specifies the probe and method.",
+        "ref": "General UT practice (corrosion thickness measurement); ASTM E797"
+      }
+    ]
+  },
+  "specific": {
+    "intro": "Written against the documents named below; check the edition your written practice and contract name. The questions test applying a written procedure: essential variables, calibration confirmation, scanning, records and acceptance decisions on described indications.",
+    "documents": [
+      "ASME BPVC Section V, Article 4 (2023 edition)",
+      "ASME BPVC Section V, Article 5 and adopted standard SE-797 (2023 edition)",
+      "ASME BPVC Section VIII, Division 1, Mandatory Appendix 12 (2023 edition)",
+      "ASME B31.3-2022, Process Piping (ultrasonic examination acceptance criteria)",
+      "AWS D1.1/D1.1M:2020, Clause 8, Part F (UT of groove welds)"
+    ],
+    "questions": [
+      {
+        "id": "ut2s-01",
+        "topic": "Procedure requirements",
+        "q": "A UT procedure has been qualified by demonstration because the referencing Code Section requires it. Under ASME Section V Article 4, which change requires the procedure to be requalified?",
+        "options": [
+          "Using a different brand of couplant of the same type",
+          "Changing the post-examination cleaning method",
+          "Changing the format in which the calibration data are recorded on the report",
+          "Changing the search-unit nominal frequency from 2.25 MHz to 5 MHz"
+        ],
+        "answer": 3,
+        "explanation": "Table T-421 lists search-unit type, frequency and element size and shape as essential variables, so a frequency change requires requalification by demonstration. Couplant brand or type, post-examination cleaning and the records to be kept are nonessential variables.",
+        "ref": "ASME BPVC Section V, Article 4, Table T-421 (2023)"
+      },
+      {
+        "id": "ut2s-02",
+        "topic": "Procedure requirements",
+        "q": "A technician needs to use a couplant type other than the one named in the written procedure, and the new couplant meets the contaminant limits. Under Article 4, what does this change require with respect to the written procedure?",
+        "options": [
+          "Nothing, because couplant selection is outside the scope of the written procedure",
+          "Requalification of the procedure by demonstration",
+          "A revision of, or an addendum to, the written procedure, without requalification",
+          "Nothing, provided the couplant actually used is named on the examination report"
+        ],
+        "answer": 2,
+        "explanation": "Couplant brand name or type is a nonessential variable, so no requalification is needed. Article 4 still requires every change from the written procedure, essential or nonessential, to be covered by a revision of the procedure or an addendum to it. Because the couplant is part of the examination system, a calibration check is also made before scanning with it.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), written procedure requirements"
+      },
+      {
+        "id": "ut2s-03",
+        "topic": "Couplant",
+        "q": "For UT of austenitic stainless steel or titanium, which couplant contaminant must be controlled by certification under Article 4?",
+        "options": ["Halides (chlorides plus fluorides)", "Sulfur", "Free water content", "Lead and other low-melting-point metals"],
+        "answer": 0,
+        "explanation": "Couplant used on austenitic stainless steel or titanium must be certified for halide content (chlorides plus fluorides), because halides can promote stress corrosion cracking. Sulfur is the contaminant controlled for nickel-base alloys.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), couplant contaminant control"
+      },
+      {
+        "id": "ut2s-04",
+        "topic": "Calibration",
+        "q": "At a calibration check during an Article 4 examination, the response from a calibration reflector is higher than at calibration by more than the permitted tolerance (sensitivity has increased). What must be done?",
+        "options": [
+          "Void every data sheet since the last valid calibration and re-scan all of that area",
+          "Correct the calibration and re-examine the indications recorded since the last valid check",
+          "Record the change in the report and take no other action, because nothing could have been missed",
+          "Reduce the gain by the amount of the change and carry on, leaving earlier results as they are"
+        ],
+        "answer": 1,
+        "explanation": "With sensitivity higher than calibrated, nothing was missed but recorded amplitudes are overstated, so the calibration is corrected, the correction is noted in the record, and indications recorded since the last valid calibration or calibration check are re-examined and their values changed or re-recorded. Voiding the data sheets and re-examining the area is the action when sensitivity has decreased.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), calibration confirmation"
+      },
+      {
+        "id": "ut2s-05",
+        "topic": "Calibration",
+        "q": "Partway through an Article 4 weld examination, a damaged search-unit cable is replaced with another of the same type and length. What is required before scanning continues?",
+        "options": [
+          "Nothing, because the replacement cable is the same type and length",
+          "Requalification of the written procedure",
+          "A screen height linearity check only",
+          "A calibration check of the examination system"
+        ],
+        "answer": 3,
+        "explanation": "Article 4 calibrates the complete examination system, so when any part of it is changed (a cable, search unit, wedge or instrument, for example) a calibration check on the basic calibration block must confirm the distance range points and sensitivity. Requalification is triggered by essential-variable changes, and linearity checks follow their own interval.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), calibration confirmation (system changes)"
+      },
+      {
+        "id": "ut2s-06",
+        "topic": "Calibration blocks",
+        "q": "Article 4 requires a curved basic calibration block for examination surfaces of 20 in. (500 mm) diameter or less. A curved block of 10 in. (250 mm) diameter is available. On which of these component surface diameters may it be used?",
+        "options": ["8 in. (200 mm)", "14 in. (350 mm)", "16 in. (400 mm)", "30 in. (750 mm)"],
+        "answer": 1,
+        "explanation": "A single curved block may be used on surfaces from 0.9 to 1.5 times its own diameter, here 9 in. to 15 in. (225 mm to 375 mm), so only 14 in. qualifies. Above 20 in. a block of essentially the same curvature, or a flat block, is used instead.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), calibration block curvature"
+      },
+      {
+        "id": "ut2s-07",
+        "topic": "Scanning",
+        "q": "For this examination, none of Article 4's conditions that permit scanning faster than the standard maximum speed have been demonstrated. Which manual scanning practice meets Article 4?",
+        "options": [
+          "100 mm/s (4 in./s), each pass overlapping 15% of the element dimension",
+          "200 mm/s (8 in./s), each pass overlapping 15% of the element dimension",
+          "100 mm/s (4 in./s), each pass overlapping 5% of the element dimension",
+          "200 mm/s (8 in./s), each pass overlapping 50% of the element dimension"
+        ],
+        "answer": 0,
+        "explanation": "Article 4 limits search-unit speed to 150 mm/s (6 in./s) unless the Article's conditions for faster scanning are demonstrated, and requires each pass to overlap at least 10% of the transducer element dimension parallel to the direction of scan indexing. Only the first option meets both limits.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), scanning"
+      },
+      {
+        "id": "ut2s-08",
+        "topic": "Records",
+        "q": "Besides the rejectable indications found, which item must an Article 4 examination record include?",
+        "options": [
+          "The welding procedure specification number used for the weld",
+          "Heat numbers from the material test reports of both members",
+          "The identification stamp of each welder who deposited the weld",
+          "Areas of restricted access or welds that could not be examined"
+        ],
+        "answer": 3,
+        "explanation": "The Article 4 record must show areas of restricted access or inaccessible welds, alongside items such as procedure, instrument and search-unit identification, calibration data, the surfaces examined, the indications or areas cleared, personnel and date. Welding and material details belong to other records.",
+        "ref": "ASME BPVC Section V, Article 4 (2023), examination records"
+      },
+      {
+        "id": "ut2s-09",
+        "topic": "Evaluation",
+        "q": "Under ASME Section VIII, Division 1, Mandatory Appendix 12, which weld indications must be investigated to determine their shape, identity and location?",
+        "options": [
+          "Only indications that exceed 100% of the reference level",
+          "Only indications longer than 1/4 in. (6 mm)",
+          "Any indication greater than 20% of the reference level",
+          "Only indications that also appear on radiographs"
+        ],
+        "answer": 2,
+        "explanation": "Appendix 12 requires imperfections producing indications greater than 20% of the reference level to be investigated far enough to determine shape, identity and location, so they can be judged against the acceptance standards. Amplitude relative to the reference level and length are applied in that judgment.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 12 (2023)"
+      },
+      {
+        "id": "ut2s-10",
+        "topic": "Acceptance criteria",
+        "q": "Under Section VIII, Division 1, Appendix 12, a butt weld 1/2 in. (12.7 mm) thick, excluding reinforcement, shows a slag-type indication that exceeds the reference level and is 5/16 in. (8 mm) long. What is the decision?",
+        "options": [
+          "Acceptable, because slag is volumetric and has no length limit",
+          "Acceptable, because the limit for this thickness is t/3",
+          "Rejectable, because the length exceeds 1/4 in. (6 mm) for t up to 3/4 in. (19 mm)",
+          "Rejectable, because any indication above the reference level is rejectable regardless of length"
+        ],
+        "answer": 2,
+        "explanation": "For imperfections other than cracks, lack of fusion and incomplete penetration, an indication exceeding the reference level is rejectable if longer than 1/4 in. (6 mm) for t up to 3/4 in. (19 mm). At 5/16 in. (8 mm) this one exceeds the limit; t/3 applies only from 3/4 in. to 2-1/4 in.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 12 (2023)"
+      },
+      {
+        "id": "ut2s-11",
+        "topic": "Acceptance criteria",
+        "q": "Under Appendix 12, what is the maximum acceptable length of an indication that exceeds the reference level, is not characterized as a crack, lack of fusion or incomplete penetration, and lies in a weld 1-1/2 in. (38 mm) thick?",
+        "options": ["1/4 in. (6 mm)", "1/2 in. (12.7 mm)", "3/4 in. (19 mm)", "1-1/2 in. (38 mm)"],
+        "answer": 1,
+        "explanation": "For t from 3/4 in. to 2-1/4 in. (19 mm to 57 mm) the limit is t/3: 1-1/2 in. ÷ 3 = 1/2 in. (38 mm ÷ 3 ≈ 12.7 mm). Longer than that, with amplitude above the reference level, the indication is rejectable.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 12 (2023)"
+      },
+      {
+        "id": "ut2s-12",
+        "topic": "Acceptance criteria",
+        "q": "Under Appendix 12, an indication at 60% of the reference level, 3 mm long, is investigated and characterized as lack of fusion. What is the decision?",
+        "options": [
+          "Acceptable, because its amplitude is below the reference level",
+          "Acceptable, because it is shorter than 1/4 in. (6 mm)",
+          "Acceptable once a second technician has confirmed the length and amplitude",
+          "Rejectable, because lack of fusion is unacceptable regardless of length"
+        ],
+        "answer": 3,
+        "explanation": "Indications characterized as cracks, lack of fusion or incomplete penetration are unacceptable regardless of length. The reference-level amplitude and length limits apply only to other imperfections.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 12 (2023)"
+      },
+      {
+        "id": "ut2s-13",
+        "topic": "Acceptance criteria",
+        "q": "Under Appendix 12, a slag-type indication in a 1 in. (25 mm) weld peaks at 80% of the reference level and is 1 in. (25 mm) long. What is the decision?",
+        "options": [
+          "Acceptable: below the reference level, and not a crack, lack of fusion or incomplete penetration",
+          "Rejectable, because its length exceeds t/3 for this thickness, whatever its amplitude",
+          "Rejectable, because no indication longer than 3/4 in. (19 mm) is permitted",
+          "Acceptable only after radiography confirms that the indication is slag"
+        ],
+        "answer": 0,
+        "explanation": "For imperfections other than cracks, lack of fusion and incomplete penetration, the length limits apply only to indications that exceed the reference level. At 80% of the reference level this one is acceptable whatever its length, though it is still investigated and documented as the procedure requires.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 12 (2023)"
+      },
+      {
+        "id": "ut2s-14",
+        "topic": "Acceptance criteria",
+        "q": "Under ASME B31.3, a butt weld joins a 12.7 mm (0.500 in.) wall pipe to a 22 mm (0.875 in.) wall fitting. A linear-type indication exceeds the reference level. Above what length is it unacceptable?",
+        "options": ["4.2 mm", "6 mm (1/4 in.)", "7.3 mm", "19 mm (3/4 in.)"],
+        "answer": 1,
+        "explanation": "Tw is the nominal wall of the thinner component, 12.7 mm. Because Tw is not more than 19 mm, the limit is 6 mm (1/4 in.). Tw/3 applies only for Tw over 19 mm up to 57 mm, and the thicker member is never used.",
+        "ref": "ASME B31.3-2022, ultrasonic examination acceptance criteria"
+      },
+      {
+        "id": "ut2s-15",
+        "topic": "Acceptance criteria",
+        "q": "Under ASME B31.3, a linear-type indication exceeding the reference level is found in a butt weld with Tw = 65 mm (2.56 in.). Above what length is it unacceptable?",
+        "options": ["6 mm (1/4 in.)", "19 mm (3/4 in.)", "21.7 mm (Tw/3)", "65 mm (Tw)"],
+        "answer": 1,
+        "explanation": "For Tw over 57 mm (2-1/4 in.) the limit is capped at 19 mm (3/4 in.). Tw/3 would give 65 ÷ 3 ≈ 21.7 mm, but that formula applies only up to Tw = 57 mm.",
+        "ref": "ASME B31.3-2022, ultrasonic examination acceptance criteria"
+      },
+      {
+        "id": "ut2s-16",
+        "topic": "AWS D1.1",
+        "q": "Under AWS D1.1 Clause 8, using an instrument with gain controls in dB, an indication reaches the reference line at a gain of 45 dB. The reference level from the 1.5 mm (0.060 in.) hole in the IIW block was set at 48 dB, and the sound path to the indication is 3.5 in. (89 mm). What is the indication rating d?",
+        "options": ["−8 dB", "−2 dB", "+2 dB", "+8 dB"],
+        "answer": 0,
+        "explanation": "Attenuation factor c = 2 dB per inch of sound path beyond the first inch = 2 × (3.5 − 1) = 5 dB. d = a − b − c = 45 − 48 − 5 = −8 dB. A more negative rating is a stronger, more severe indication, and it is then compared with the acceptance table for the thickness and probe angle.",
+        "ref": "AWS D1.1/D1.1M:2020, Clause 8, Part F (indication rating)"
+      },
+      {
+        "id": "ut2s-17",
+        "topic": "AWS D1.1",
+        "q": "Which angle-beam search unit meets AWS D1.1 Clause 8 requirements for testing groove welds, assuming the element size is within the permitted range?",
+        "options": [
+          "5 MHz, 70° refracted angle",
+          "2.25 MHz, 55° refracted angle",
+          "2.25 MHz, 60° refracted angle",
+          "1 MHz, 45° refracted angle"
+        ],
+        "answer": 2,
+        "explanation": "D1.1 requires angle-beam search units of 2 to 2.5 MHz producing a refracted angle within ±2° of 70°, 60° or 45°. The 5 MHz and 1 MHz units are outside the frequency range, and 55° is not one of the permitted angles.",
+        "ref": "AWS D1.1/D1.1M:2020, Clause 8, Part F (UT equipment)"
+      },
+      {
+        "id": "ut2s-18",
+        "topic": "AWS D1.1",
+        "q": "Before angle-beam testing under AWS D1.1, the base metal in the scanning area is checked with a straight beam. One area shows total loss of back reflection where it would interfere with normal weld scanning. What is required?",
+        "options": [
+          "Reject the weld, because a lamination in the scanning area is rejectable under Clause 8",
+          "Raise the gain until the back reflection returns and continue the normal scanning pattern",
+          "Disregard it, because base metal is outside the scope of groove-weld testing",
+          "Report its size, location and depth, and examine the weld by an alternate scanning procedure"
+        ],
+        "answer": 3,
+        "explanation": "The straight-beam check finds laminar reflectors that would block or redirect the angle beam. Such an area is reported with its size, location and depth from the scanning face, and the weld is examined using an alternate scanning procedure so that coverage is still achieved.",
+        "ref": "AWS D1.1/D1.1M:2020, Clause 8, Part F (base metal testing)"
+      },
+      {
+        "id": "ut2s-19",
+        "topic": "Article 5 materials",
+        "q": "ASME Section V Article 5 refers the examination of carbon and low-alloy steel forgings to which adopted standard, as amended by the Article?",
+        "options": ["SA-388/SA-388M", "SA-578/SA-578M", "SA-609/SA-609M", "SE-797"],
+        "answer": 0,
+        "explanation": "SA-388 covers ultrasonic examination of steel forgings (Article 5 names SA-745 for austenitic steel forgings). SA-578 is straight-beam examination of rolled plate, SA-609 covers castings, and SE-797 is thickness measurement by the contact pulse-echo method.",
+        "ref": "ASME BPVC Section V, Article 5 (2023), examination of product forms"
+      },
+      {
+        "id": "ut2s-20",
+        "topic": "Thickness measurement",
+        "q": "A thickness-measurement procedure for carbon steel piping, written to ASME Section V Article 5 and SE-797, expects readings between 6 mm and 18 mm. Which calibration approach best fits the method?",
+        "options": [
+          "A single point on a 25 mm block, because the gauge response is linear",
+          "Two points on an aluminum step block, converted afterward by the velocity ratio",
+          "Two points on a carbon steel step block, one near 6 mm and one near 18 mm",
+          "No block, entering the published handbook velocity for carbon steel"
+        ],
+        "answer": 2,
+        "explanation": "Calibrating on the same material at a thin and a thick step that bracket the expected range sets both the zero offset (probe delay and V-path effects) and the velocity. A single point outside the range, a different material or a handbook velocity alone leaves errors that grow toward the thin end.",
+        "ref": "ASME BPVC Section V, Article 5 (2023); SE-797 (ASTM E797)"
+      }
+    ]
+  }
+}

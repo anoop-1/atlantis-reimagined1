@@ -67,6 +67,12 @@ const INTENT_FIELDS: Record<string, IntentField[]> = {
       { name: "standard", label: "Governing document", options: ["SNT-TC-1A", "ANSI/ASNT CP-189", "NAS 410 / EN 4179", "ISO 9712", "Customer specification", "Not sure"] },
       { name: "timing", label: "Deadline", options: ["Audit or deadline within 30 days", "Within this quarter", "No fixed date"] },
    ],
+   // 2026-10-24 owner: free starter templates on the site; anything more is quoted.
+   templates: [
+      { name: "need", label: "What do you need?", options: ["Report templates in our format", "Practice or qualification exams", "Procedure or written-practice pack", "Calibration and equipment records", "Something else"] },
+      { name: "methods", label: "Methods", placeholder: "e.g. UT, PAUT, RT, MT, PT, IRIS, MFL" },
+      { name: "standard", label: "Industry and code", placeholder: "e.g. refinery, API 570 / ASME B31.3; aerospace, NAS 410" },
+   ],
    "3d-scanning": [
       { name: "assetType", label: "What needs scanning?", placeholder: "e.g. plant area, vessel, structure" },
       { name: "location", label: "Site location", placeholder: "City, state / province" },
@@ -81,6 +87,7 @@ const NEXT_READ: Record<string, { label: string; path: string }> = {
    training: { label: "Browse training courses", path: "/training" },
    inspection: { label: "Inspection services we perform", path: "/inspection-services" },
    consulting: { label: "What our Level III consulting covers", path: "/consulting" },
+   templates: { label: "Free NDT report templates", path: "/ndt-report-templates" },
 };
 
 export default function Contact() {
@@ -175,6 +182,7 @@ export default function Contact() {
       if (s.includes("train")) return "training";
       if (s.includes("consult")) return "consulting";
       if (s.includes("inspect")) return "inspection";
+      if (s.includes("template")) return "templates";
       return "";
    };
 
@@ -552,6 +560,9 @@ export default function Contact() {
                                     </option>
                                     <option value="consulting">
                                        Level III Consulting
+                                    </option>
+                                    <option value="templates">
+                                       Custom templates &amp; practice exams
                                     </option>
                                     <option value="other">
                                        Something else

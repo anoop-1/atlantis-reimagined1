@@ -14,6 +14,7 @@ import data from "@/data/software-assets/report-templates.json";
 export default function ReportTemplatePage({ slug }: { slug: string }) {
   const m = data.methods.find((x) => x.slug === slug) ?? data.methods[0];
   const canonical = `https://atlantisndt.com${m.path}`;
+  const xlsxUrl = `/templates/xlsx/${m.slug}.xlsx`;
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
@@ -38,14 +39,18 @@ export default function ReportTemplatePage({ slug }: { slug: string }) {
           <h1 className="text-3xl md:text-5xl font-bold mb-4">{m.h1}</h1>
           <p className="text-lg text-muted-foreground mb-6">{m.lead}</p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href={m.printUrl} target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg">
+            {/* 2026-10-24 (owner): direct Excel download, written as Atlantis Engineering Consultants with no logo. */}
+            <a href={xlsxUrl} download data-download={`xlsx:${m.slug}`} className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg">
+              <Download className="w-4 h-4" /> Download Excel (.xlsx)
+            </a>
+            <a href={m.printUrl} target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-primary text-primary font-semibold rounded-lg">
               <Printer className="w-4 h-4" /> Print / save as PDF
             </a>
             <a href={m.csvUrl} download className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-primary text-primary font-semibold rounded-lg">
               <Download className="w-4 h-4" /> Download CSV
             </a>
             <a href="#request-template" className="inline-flex items-center justify-center px-6 py-3 border border-primary text-primary font-semibold rounded-lg">
-              Editable Word/Excel version
+              Custom template? Request a quotation
             </a>
           </div>
         </div>

@@ -1,0 +1,863 @@
+{
+  "id": "rt-level-2",
+  "method": "RT",
+  "methodName": "Radiographic Testing",
+  "level": "Level II",
+  "lastReviewed": "2026-10-24",
+  "general": {
+    "intro": "Forty original questions on radiation physics and sources, film and digital equipment, exposure and geometry calculations, technique, interpretation of weld radiographs, and radiation safety, pitched at what an RT Level II must know and be able to calculate.",
+    "questions": [
+      {
+        "id": "rt2g-01",
+        "topic": "Principles and physics",
+        "q": "In an X-ray tube, the continuous (bremsstrahlung) part of the spectrum is produced mainly when:",
+        "options": [
+          "Fast electrons are slowed down in the electric field of the target nuclei",
+          "Outer-shell electrons drop into vacancies in the inner shells of target atoms",
+          "Unstable target nuclei decay and emit photons of fixed energy",
+          "The heated filament releases electrons toward the anode"
+        ],
+        "answer": 0,
+        "explanation": "Bremsstrahlung ('braking radiation') comes from electrons losing energy as target nuclei deflect and slow them, giving a continuous range of photon energies up to the tube kV. Electrons filling inner-shell vacancies produce the separate characteristic lines, and the filament only supplies the electrons.",
+        "ref": "General radiation physics"
+      },
+      {
+        "id": "rt2g-02",
+        "topic": "Principles and physics",
+        "q": "Using λmin (in angstroms) = 12.4 / kV, what is the shortest wavelength produced by an X-ray tube operating at 200 kV?",
+        "options": [
+          "0.62 Å",
+          "2.48 Å",
+          "0.062 Å",
+          "16.1 Å"
+        ],
+        "answer": 2,
+        "explanation": "λmin = 12.4 / 200 = 0.062 Å. The shortest wavelength corresponds to an electron giving up all of its 200 keV in a single interaction, so raising the kV shortens λmin.",
+        "ref": "Duane-Hunt relation; general X-ray physics"
+      },
+      {
+        "id": "rt2g-03",
+        "topic": "Principles and physics",
+        "q": "Why is a gamma-ray source with high specific activity (activity per unit mass) preferred for radiography?",
+        "options": [
+          "Its gamma rays have higher energy, so they can penetrate much thicker sections of steel",
+          "For the same activity the source can be physically smaller, which reduces geometric unsharpness",
+          "Its half-life is longer, so the source needs replacing less often",
+          "It produces less scattered radiation inside the part, so masking is unnecessary"
+        ],
+        "answer": 1,
+        "explanation": "High specific activity packs the required curies into a smaller pellet, which reduces the source size F in Ug = F·d/D. Gamma energy and half-life are fixed by the isotope, not by its specific activity.",
+        "ref": "General RT principle (gamma sources)"
+      },
+      {
+        "id": "rt2g-04",
+        "topic": "Principles and physics",
+        "q": "A sealed source emits two principal gamma rays of about 1.17 MeV and 1.33 MeV. Which isotope is it?",
+        "options": [
+          "Ir-192",
+          "Se-75",
+          "Yb-169",
+          "Co-60"
+        ],
+        "answer": 3,
+        "explanation": "Co-60 emits gamma rays at about 1.17 and 1.33 MeV, which suits thick steel sections. The main Ir-192 lines lie roughly between 0.3 and 0.6 MeV, and Se-75 and Yb-169 are lower still, which is why they are used on thinner sections.",
+        "ref": "Isotope properties (general RT knowledge)"
+      },
+      {
+        "id": "rt2g-05",
+        "topic": "Principles and physics",
+        "q": "Radiographic contrast, the difference in density between two areas of a radiograph, is the combined result of:",
+        "options": [
+          "Geometric unsharpness and inherent unsharpness",
+          "Graininess and the type of screen used",
+          "Subject contrast and film (detector) contrast",
+          "The source-to-film distance alone"
+        ],
+        "answer": 2,
+        "explanation": "Subject contrast is the difference in radiation leaving different parts of the object, and film contrast is how strongly the film turns that difference into a density difference. Unsharpness and graininess affect definition, not contrast.",
+        "ref": "General RT principle (radiographic sensitivity)"
+      },
+      {
+        "id": "rt2g-06",
+        "topic": "Principles and physics",
+        "q": "Which one of these changes, on its own, increases the inherent (film) unsharpness of a radiograph?",
+        "options": [
+          "Increasing the source-to-film distance while keeping the same source",
+          "Changing to a higher-energy source, such as Co-60 instead of Ir-192",
+          "Shortening the development time while keeping the same temperature",
+          "Radiographing a thinner part of the same material with the same source"
+        ],
+        "answer": 1,
+        "explanation": "Higher-energy photons release secondary electrons that travel farther through the emulsion before stopping, so each point is recorded over a wider area. Source-to-film distance affects geometric unsharpness, not inherent unsharpness.",
+        "ref": "General RT principle (image definition)"
+      },
+      {
+        "id": "rt2g-07",
+        "topic": "Equipment and materials",
+        "q": "Which sequence is correct for manual processing of industrial radiographic film?",
+        "options": [
+          "Fix, develop, stop bath, wash, dry",
+          "Develop, wash, dry, fix",
+          "Stop bath, develop, fix, dry, wash",
+          "Develop, stop bath, fix, wash, dry"
+        ],
+        "answer": 3,
+        "explanation": "The developer turns exposed silver halide into metallic silver, the stop bath halts development and protects the fixer, the fixer removes the remaining halide, and washing removes the fixer before drying. Fixer left in the emulsion discolors the film in storage.",
+        "ref": "General film processing practice (see ASTM E999)"
+      },
+      {
+        "id": "rt2g-08",
+        "topic": "Equipment and materials",
+        "q": "In manual processing, the developer is several degrees warmer than the temperature the development time was set for, and the time is not adjusted. The most likely result is:",
+        "options": [
+          "Higher density and increased chemical fog",
+          "Lower density and less fog",
+          "No change, because only time affects development",
+          "Lower contrast with unchanged density"
+        ],
+        "answer": 0,
+        "explanation": "Development speeds up as temperature rises, so the film is effectively over-developed and both density and fog increase. This is why manual development follows a time-temperature chart.",
+        "ref": "General film processing practice"
+      },
+      {
+        "id": "rt2g-09",
+        "topic": "Equipment and materials",
+        "q": "After development and the stop bath, the film goes into the fixer. What does the fixer mainly do?",
+        "options": [
+          "Convert exposed silver halide into black metallic silver",
+          "Remove the unexposed silver halide and harden the emulsion",
+          "Neutralize the developer and stop development",
+          "Reduce surface tension so the film dries without water spots"
+        ],
+        "answer": 1,
+        "explanation": "Fixer dissolves the silver halide that was not developed, which makes the image permanent, and it hardens the gelatin. The other options describe the developer, the stop bath and a wetting agent.",
+        "ref": "General film processing practice"
+      },
+      {
+        "id": "rt2g-10",
+        "topic": "Equipment and materials",
+        "q": "On the straight-line portion of a film's characteristic curve the average gradient is 4.0. Two adjacent areas receive exposures that differ by 0.05 in log relative exposure. What density difference should be expected between them?",
+        "options": [
+          "0.0125",
+          "0.05",
+          "0.20",
+          "0.80"
+        ],
+        "answer": 2,
+        "explanation": "Gradient is the slope ΔD / Δlog E, so ΔD = 4.0 × 0.05 = 0.20. A film with a higher gradient turns the same small exposure difference into a larger, easier-to-see density difference.",
+        "ref": "Film characteristic curve"
+      },
+      {
+        "id": "rt2g-11",
+        "topic": "Equipment and materials",
+        "q": "Two films from a double-film exposure are viewed superimposed. At one spot the individual film densities are 1.4 and 1.7. What is the combined density at that spot?",
+        "options": [
+          "1.55",
+          "1.7",
+          "2.38",
+          "3.1"
+        ],
+        "answer": 3,
+        "explanation": "Each film transmits a fraction of the light and the fractions multiply, so the logarithmic densities add: 1.4 + 1.7 = 3.1. Averaging (1.55) or multiplying the densities (2.38) gives the wrong result.",
+        "ref": "Film density definition (D = log10 of incident / transmitted light)"
+      },
+      {
+        "id": "rt2g-12",
+        "topic": "Equipment and materials",
+        "q": "Why are offset (dark) and gain (flat-field) calibrations performed on a digital detector array (DDA)?",
+        "options": [
+          "To correct pixel-to-pixel differences in dark signal and sensitivity, so a uniform exposure gives a uniform image",
+          "To convert grey values into film-density units so that film density limits can be applied directly to the digital image",
+          "To erase the latent image held in the photostimulable phosphor before the next exposure",
+          "To measure the effective focal spot size of the X-ray tube"
+        ],
+        "answer": 0,
+        "explanation": "Every pixel has its own dark signal and response, and offset and gain correction removes this fixed pattern so it cannot mask or mimic real features. Erasing a phosphor plate is a CR step, and DDA grey values are not film densities.",
+        "ref": "General DDA practice (see ASTM E2698 / E2737)"
+      },
+      {
+        "id": "rt2g-13",
+        "topic": "Equipment and materials",
+        "q": "Which image quality indicator is used to measure the basic spatial resolution (total image unsharpness) of a digital radiograph?",
+        "options": [
+          "Hole-type (plaque) IQI",
+          "Single-wire IQI set",
+          "Duplex wire IQI",
+          "Step wedge"
+        ],
+        "answer": 2,
+        "explanation": "The duplex wire IQI carries pairs of high-density wires whose diameter and gap become progressively smaller, and the first pair that can no longer be separated gives the total unsharpness and basic spatial resolution. Hole-type and single-wire IQIs indicate overall contrast sensitivity rather than resolving power.",
+        "ref": "ASTM E2002; ISO 19232-5"
+      },
+      {
+        "id": "rt2g-14",
+        "topic": "Equipment and materials",
+        "q": "In an X-ray tube, the target face is set at an angle to the electron beam mainly so that:",
+        "options": [
+          "The beam leaving the window contains photons of a single energy instead of a continuous spectrum",
+          "The effective focal spot seen from the film is smaller than the area the electrons actually strike",
+          "Electrons that miss the target are trapped before they can reach the tube window",
+          "Tube current can be raised without any change in the filament temperature"
+        ],
+        "answer": 1,
+        "explanation": "This is the line-focus principle: the area struck by electrons can be large enough to spread the heat, while its projection toward the part is small, which keeps geometric unsharpness down.",
+        "ref": "General X-ray equipment principle"
+      },
+      {
+        "id": "rt2g-15",
+        "topic": "Technique and calculations",
+        "q": "Limited access forces the source-to-film distance down from 36 in. (914 mm) to 24 in. (610 mm). The original technique needed 4.0 min. How long should the new exposure be to keep the same film density?",
+        "options": [
+          "9.0 min",
+          "6.0 min",
+          "2.67 min",
+          "1.78 min"
+        ],
+        "answer": 3,
+        "explanation": "Exposure time is proportional to the square of the distance: 4.0 × (24/36)² = 4.0 × 0.444 = 1.78 min. 2.67 min is a straight-line correction, and 9.0 min applies the ratio the wrong way round.",
+        "ref": "Inverse square law"
+      },
+      {
+        "id": "rt2g-16",
+        "topic": "Technique and calculations",
+        "q": "A technique calls for 90 Ci·min. The Ir-192 source measured 60 Ci exactly 74 days ago. Taking the half-life as 74 days, what exposure time is needed today?",
+        "options": [
+          "1.5 min",
+          "3.0 min",
+          "4.5 min",
+          "6.0 min"
+        ],
+        "answer": 1,
+        "explanation": "One half-life has passed, so the source is now 30 Ci, and 90 Ci·min ÷ 30 Ci = 3.0 min. Using the original 60 Ci gives 1.5 min and under-exposes the film.",
+        "ref": "Radioactive decay; exposure in Ci·min"
+      },
+      {
+        "id": "rt2g-17",
+        "topic": "Technique and calculations",
+        "q": "A Co-60 source had an activity of 20 Ci when it was installed. Taking the half-life as 5.27 years, what is its approximate activity 10.5 years later?",
+        "options": [
+          "5 Ci",
+          "10 Ci",
+          "2.5 Ci",
+          "1.9 Ci"
+        ],
+        "answer": 0,
+        "explanation": "10.5 years is about two half-lives (10.5 ÷ 5.27 ≈ 2.0), so the activity is 20 × (½)² ≈ 5 Ci. Exposure times for the same technique are now about four times those at installation.",
+        "ref": "Radioactive decay"
+      },
+      {
+        "id": "rt2g-18",
+        "topic": "Technique and calculations",
+        "q": "A procedure limits geometric unsharpness to 0.020 in. (0.51 mm). The source size is 0.15 in. (3.8 mm) and the distance from the source side of the weld to the film is 1.5 in. (38 mm). Using Ug = F·d/D, what is the minimum source-to-object distance D?",
+        "options": [
+          "7.5 in.",
+          "12.75 in.",
+          "11.25 in.",
+          "16.9 in."
+        ],
+        "answer": 2,
+        "explanation": "D = F·d / Ug = 0.15 × 1.5 / 0.020 = 11.25 in. (about 286 mm). Adding d gives the minimum source-to-film distance of 12.75 in., which is a different quantity.",
+        "ref": "Geometric unsharpness (Ug = F·d/D)"
+      },
+      {
+        "id": "rt2g-19",
+        "topic": "Technique and calculations",
+        "q": "An X-ray exposure of 15 mA·min gives the required density at a source-to-film distance of 600 mm. The distance must be increased to 750 mm and the tube will run at 5 mA at the same kV. What exposure time is needed?",
+        "options": [
+          "1.9 min",
+          "3.0 min",
+          "3.75 min",
+          "4.7 min"
+        ],
+        "answer": 3,
+        "explanation": "The new exposure is 15 × (750/600)² = 15 × 1.5625 ≈ 23.4 mA·min, and 23.4 ÷ 5 mA ≈ 4.7 min. 3.0 min ignores the distance change, and 3.75 min applies it linearly.",
+        "ref": "Inverse square law; exposure in mA·min"
+      },
+      {
+        "id": "rt2g-20",
+        "topic": "Technique and calculations",
+        "q": "A feature inside a part is 10 mm wide. The source is 600 mm from the feature and the feature is 150 mm from the film. Ignoring unsharpness, how wide is its image on the film?",
+        "options": [
+          "8.0 mm",
+          "12.5 mm",
+          "10.0 mm",
+          "15.0 mm"
+        ],
+        "answer": 1,
+        "explanation": "Magnification = source-to-film distance ÷ source-to-object distance = (600 + 150) / 600 = 1.25, so the image is 10 × 1.25 = 12.5 mm. Keeping the object close to the film keeps both enlargement and unsharpness small.",
+        "ref": "Projection geometry"
+      },
+      {
+        "id": "rt2g-21",
+        "topic": "Technique and calculations",
+        "q": "A planar crack is most likely to be detected by radiography when the radiation beam is:",
+        "options": [
+          "Parallel to the plane of the crack",
+          "Perpendicular to the plane of the crack",
+          "At about 45° to the plane of the crack",
+          "At any angle, provided the IQI sensitivity is met"
+        ],
+        "answer": 0,
+        "explanation": "With the beam running along the crack plane, the radiation travels through the crack over its full through-wall height, so the missing-material path and the density change are greatest. Across the plane, a tight crack removes almost no material from the beam path, and a visible IQI does not prove sensitivity to planar flaws.",
+        "ref": "General RT principle (discontinuity orientation)"
+      },
+      {
+        "id": "rt2g-22",
+        "topic": "Technique and calculations",
+        "q": "What is the main advantage of placing an Ir-192 source on the axis of a vessel to radiograph a girth seam, with film wrapped around the outside?",
+        "options": [
+          "Both walls are imaged, so each film carries two weld images",
+          "Geometric unsharpness is eliminated",
+          "The full circumference can be radiographed in a single exposure",
+          "No IQIs are needed, because the geometry is fixed"
+        ],
+        "answer": 2,
+        "explanation": "A centered (panoramic) exposure radiates the whole circumference at once through a single wall, so one exposure covers the seam. Geometric unsharpness is still present and IQIs are still required.",
+        "ref": "General RT technique (panoramic exposure)"
+      },
+      {
+        "id": "rt2g-23",
+        "topic": "Technique and calculations",
+        "q": "Two exposures are made with the source shifted parallel to the film between them. The image of a discontinuity moves farther than the image of a lead marker taped to the film-side surface. This shows that the discontinuity is:",
+        "options": [
+          "At the film-side surface, level with the marker",
+          "Closer to the film than the film-side marker itself",
+          "Outside the part, on the cassette or film holder",
+          "Farther from the film than the marker, toward the source side"
+        ],
+        "answer": 3,
+        "explanation": "In the parallax (tube-shift) method an image moves in proportion to how far its object is from the film. An image that shifts more than the film-side marker belongs to something nearer the source.",
+        "ref": "General RT technique (parallax method)"
+      },
+      {
+        "id": "rt2g-24",
+        "topic": "Interpretation and discontinuities",
+        "q": "On a radiograph of a butt weld with the cap left on, a dark, irregular line follows the edge of the cap image along one toe. The most likely cause is:",
+        "options": [
+          "Excess cap reinforcement",
+          "Undercut at the cap toe",
+          "A tungsten inclusion",
+          "Incomplete penetration at the root"
+        ],
+        "answer": 1,
+        "explanation": "Undercut is a groove melted into the base metal at the toe, so less metal lies in the beam path and a darker line appears along the edge of the cap. A visual check of the weld surface confirms it, while incomplete penetration normally lies on the root centerline.",
+        "ref": "General RT interpretation"
+      },
+      {
+        "id": "rt2g-25",
+        "topic": "Interpretation and discontinuities",
+        "q": "Two roughly parallel, dark, intermittent lines running along the weld on either side of the root pass, often called 'wagon tracks', are usually caused by:",
+        "options": [
+          "Slag trapped along the toes of the root bead",
+          "Transverse cracks running across the root pass",
+          "Burn-through at intervals along the root pass",
+          "Uniformly scattered porosity in the fill passes"
+        ],
+        "answer": 0,
+        "explanation": "Slag left in the grooves along each toe of the root bead images as two dark lines parallel to the weld. Transverse cracks run across the weld, and burn-through shows as a localized dark area.",
+        "ref": "General RT interpretation"
+      },
+      {
+        "id": "rt2g-26",
+        "topic": "Interpretation and discontinuities",
+        "q": "A fine, dark, slightly wavy line runs across a weld roughly perpendicular to its axis, with tapering ends. Reflected-light examination shows the emulsion is undamaged at that spot. The indication is most likely:",
+        "options": [
+          "Elongated slag",
+          "Lack of sidewall fusion",
+          "A transverse crack",
+          "Root concavity"
+        ],
+        "answer": 2,
+        "explanation": "A tight, irregular line with tapering ends is typical of a crack, and its orientation across the weld makes it transverse. Slag and sidewall lack of fusion usually run along the weld, and the reflected-light check has already ruled out an emulsion mark.",
+        "ref": "General RT interpretation"
+      },
+      {
+        "id": "rt2g-27",
+        "topic": "Interpretation and discontinuities",
+        "q": "A radiograph of a coarse-grained austenitic stainless steel weld shows a mottled pattern that changes markedly when the beam angle is altered by a few degrees. The pattern is most likely:",
+        "options": [
+          "Cluster porosity spread through the weld metal",
+          "Microfissuring along the weld centerline",
+          "Developer streaking from uneven agitation",
+          "Diffraction mottling from the grain structure"
+        ],
+        "answer": 3,
+        "explanation": "Large grains diffract the beam, and the pattern depends strongly on orientation, so a small change in angle rearranges it. Real porosity or fissures stay in place apart from a small geometric shift.",
+        "ref": "General RT interpretation"
+      },
+      {
+        "id": "rt2g-28",
+        "topic": "Interpretation and discontinuities",
+        "q": "Dark, branching, tree-like marks appear on a processed radiograph. The most likely cause is:",
+        "options": [
+          "A network of fine, interconnected cracks in the part",
+          "Static electricity discharged during film handling",
+          "Film that was bent sharply before it was exposed",
+          "Scratches in the surface of the lead intensifying screen"
+        ],
+        "answer": 1,
+        "explanation": "A static discharge, often when film is pulled quickly from its box or interleaving in dry air, exposes the emulsion in jagged, branching patterns. Film bent before exposure gives light crescent-shaped marks instead.",
+        "ref": "Film artifact guidance (film manufacturers' image guides)"
+      },
+      {
+        "id": "rt2g-29",
+        "topic": "Interpretation and discontinuities",
+        "q": "A film was sharply bent while being loaded into its cassette, before exposure. After processing, the crimp mark will usually appear:",
+        "options": [
+          "Lighter than the surrounding film",
+          "Darker than the surrounding film",
+          "Invisible, because processing removes pressure effects",
+          "Darker on one side and lighter on the other"
+        ],
+        "answer": 0,
+        "explanation": "Pressure on the emulsion before exposure desensitizes it, leaving a light, lower-density crescent. A crimp made after exposure but before processing shows dark, which helps establish when the damage happened.",
+        "ref": "Film artifact guidance (film manufacturers' image guides)"
+      },
+      {
+        "id": "rt2g-30",
+        "topic": "Interpretation and discontinuities",
+        "q": "Before recording a small, light, rounded indication in a steel weld as a tungsten inclusion, what should the interpreter check first?",
+        "options": [
+          "That the IQI was placed on the film side",
+          "That the density at the spot exceeds 4.0",
+          "Whether a slower, finer-grained film would show the indication more clearly",
+          "Whether spatter or another surface feature is present at that spot"
+        ],
+        "answer": 3,
+        "explanation": "Spatter and other surface metal also image light, and a visual check of the part settles the question. Tungsten inclusions are expected only where a tungsten-electrode process such as GTAW was used.",
+        "ref": "General RT interpretation"
+      },
+      {
+        "id": "rt2g-31",
+        "topic": "Radiation safety",
+        "q": "A survey meter reads 50 mR/h (about 0.5 mSv/h) at 10 ft (about 3 m) from an unshielded gamma source. Using the inverse square law, at about what distance will the dose rate fall to 2 mR/h (about 0.02 mSv/h)?",
+        "options": [
+          "20 ft (6 m)",
+          "125 ft (38 m)",
+          "50 ft (15 m)",
+          "250 ft (76 m)"
+        ],
+        "answer": 2,
+        "explanation": "The dose rate must fall by a factor of 25, so the distance must increase by √25 = 5: 10 ft × 5 = 50 ft (3 m × 5 = 15 m). Multiplying the distance by 25 (250 ft) wrongly treats dose rate as falling linearly with distance.",
+        "ref": "Inverse square law"
+      },
+      {
+        "id": "rt2g-32",
+        "topic": "Radiation safety",
+        "q": "Assume an exposure-rate constant of 0.5 R/h per curie at 1 m for an Ir-192 source. What is the approximate unshielded exposure rate 10 m from a 40 Ci source?",
+        "options": [
+          "2 R/h",
+          "0.2 R/h (200 mR/h)",
+          "0.02 R/h (20 mR/h)",
+          "20 R/h"
+        ],
+        "answer": 1,
+        "explanation": "At 1 m the rate is 0.5 × 40 = 20 R/h, and at 10 m it is 20 ÷ 10² = 0.2 R/h (200 mR/h). The constant here is a round teaching value; use the figure in your own procedure for real work.",
+        "ref": "Inverse square law; source output"
+      },
+      {
+        "id": "rt2g-33",
+        "topic": "Radiation safety",
+        "q": "A shielding material has a tenth-value layer (TVL) of 16 mm for a given gamma source. What thickness reduces a narrow-beam dose rate of 1,000 mR/h to 1 mR/h?",
+        "options": [
+          "16 mm",
+          "32 mm",
+          "160 mm",
+          "48 mm"
+        ],
+        "answer": 3,
+        "explanation": "Each TVL cuts the dose rate to one tenth, and 1,000 to 1 is a factor of 10³, so three TVLs are needed: 3 × 16 = 48 mm. Real shielding designs add margin for scattered radiation (buildup).",
+        "ref": "Tenth-value layer"
+      },
+      {
+        "id": "rt2g-34",
+        "topic": "Radiation safety",
+        "q": "At a work position the dose rate is 400 mR/h. Two half-value layers of shielding are placed between the source and the worker, and the worker moves to twice the original distance. What is the new dose rate?",
+        "options": [
+          "25 mR/h",
+          "50 mR/h",
+          "100 mR/h",
+          "12.5 mR/h"
+        ],
+        "answer": 0,
+        "explanation": "Two HVLs reduce the rate to (½)² = ¼, and doubling the distance reduces it by another ¼: 400 × ¼ × ¼ = 25 mR/h. Shielding and distance factors multiply.",
+        "ref": "Half-value layer; inverse square law"
+      },
+      {
+        "id": "rt2g-35",
+        "topic": "Radiation safety",
+        "q": "A technician receives 0.04 mSv (4 mrem) while working for 6 minutes at 3 m from a source. If the same task were done in 3 minutes at 6 m, what dose would be received?",
+        "options": [
+          "0.02 mSv (2 mrem)",
+          "0.01 mSv (1 mrem)",
+          "0.005 mSv (0.5 mrem)",
+          "0.0025 mSv (0.25 mrem)"
+        ],
+        "answer": 2,
+        "explanation": "Dose is dose rate × time. Halving the time halves the dose, and doubling the distance quarters the dose rate: 0.04 × ½ × ¼ = 0.005 mSv.",
+        "ref": "Time, distance and shielding"
+      },
+      {
+        "id": "rt2g-36",
+        "topic": "Radiation safety",
+        "q": "Before using a survey meter at the start of a radiography job, the radiographer should confirm that:",
+        "options": [
+          "It reads exactly zero inside the darkroom",
+          "Its calibration is current, the battery check is satisfactory and it responds to a check source",
+          "Its alarm has been set to the annual occupational dose limit",
+          "Its serial number matches the serial number stamped on the exposure device it will be used with"
+        ],
+        "answer": 1,
+        "explanation": "A meter that is out of calibration, has a weak battery or does not respond to a known source cannot be trusted to show whether the source is exposed. Natural background means a working meter rarely reads exactly zero.",
+        "ref": "Radiation safety practice (survey instruments)"
+      },
+      {
+        "id": "rt2g-37",
+        "topic": "Radiation safety",
+        "q": "While approaching an exposure device after an exposure, a radiographer sees a Geiger-Mueller survey meter that had been reading upscale suddenly drop to near zero. What is the safest interpretation?",
+        "options": [
+          "The source has just retracted into the device, so the area is now safe to enter",
+          "The battery has recovered, so the latest low reading is the reliable one to use",
+          "Background radiation has fallen; re-zero the meter and continue the approach",
+          "The meter may be saturated or failing; withdraw and check with a second, working instrument"
+        ],
+        "answer": 3,
+        "explanation": "Geiger-Mueller detectors can saturate in very high fields and read falsely low, and a failing meter can also drop out. A sudden fall to near zero close to a source must be treated as an instrument problem until a working meter proves otherwise.",
+        "ref": "Radiation safety practice (survey instruments)"
+      },
+      {
+        "id": "rt2g-38",
+        "topic": "Radiation safety",
+        "q": "Under US NRC rules for industrial radiography (10 CFR Part 34), what must each radiographer and radiographer's assistant wear during field radiographic operations?",
+        "options": [
+          "A direct-reading dosimeter, an operating alarm ratemeter and a personnel dosimeter (film badge, OSL or TLD)",
+          "A personnel dosimeter only, processed monthly, since that badge is the legal dose of record for each individual worker",
+          "An alarm ratemeter only, because it warns in real time",
+          "A survey meter worn on the belt, in place of any dosimeter"
+        ],
+        "answer": 0,
+        "explanation": "Part 34 requires all three: the direct-reading dosimeter gives a running total, the alarm ratemeter warns of high dose rates, and the processed personnel dosimeter is the dose of record. None of them replaces surveys with a survey meter.",
+        "ref": "10 CFR 34.47"
+      },
+      {
+        "id": "rt2g-39",
+        "topic": "Radiation safety",
+        "q": "Under 10 CFR Part 20, a 'high radiation area' is one in which an individual could receive more than what dose in one hour at 30 cm from the source?",
+        "options": [
+          "0.02 mSv (2 mrem)",
+          "0.05 mSv (5 mrem)",
+          "1 mSv (100 mrem)",
+          "5 Gy (500 rad)"
+        ],
+        "answer": 2,
+        "explanation": "A high radiation area is defined at more than 1 mSv (0.1 rem) in one hour at 30 cm. More than 0.05 mSv (5 mrem) in one hour at 30 cm defines a radiation area, and more than 5 Gy (500 rad) in one hour at 1 m defines a very high radiation area.",
+        "ref": "10 CFR 20.1003 (definitions)"
+      },
+      {
+        "id": "rt2g-40",
+        "topic": "Radiation safety",
+        "q": "After cranking the source in, the survey shows that an Ir-192 source has not returned to the exposure device. What should the radiographer do first?",
+        "options": [
+          "Withdraw to a safe distance, keep the boundary secured and watched, and notify the radiation safety officer",
+          "Disconnect the guide tube from the device and look inside it to find out exactly where the source has stopped",
+          "Lift the guide tube quickly and carry the source back to the device",
+          "Keep cranking harder until the drive cable moves freely"
+        ],
+        "answer": 0,
+        "explanation": "The first priorities are to limit exposure by distance, stop anyone entering the area, and call in the people authorized to recover the source under the emergency procedures. Handling the guide tube or forcing the drive can deliver a serious dose or make the situation worse.",
+        "ref": "Radiation safety practice (source retrieval and emergency procedures)"
+      }
+    ]
+  },
+  "specific": {
+    "intro": "Twenty questions written against the documents named below: the ASME Section V Article 2 technique and image-quality requirements, and the acceptance criteria an RT Level II most often applies. Check the edition your written practice and contract name before relying on any value.",
+    "documents": [
+      "ASME BPVC Section V, Article 2 (2023 edition)",
+      "ASME BPVC Section VIII, Division 1 (2023 edition): UW-51, UW-52 and Mandatory Appendix 4",
+      "ASME B31.3 Process Piping (2022 edition): Table 341.3.2 and para. 341.3.4",
+      "AWS D1.1/D1.1M:2020 Structural Welding Code - Steel, Clause 8"
+    ],
+    "questions": [
+      {
+        "id": "rt2s-01",
+        "topic": "Densitometry",
+        "q": "When a densitometer is calibrated under ASME Section V Article 2, readings are taken at the steps closest to 1.0, 2.0, 3.0 and 4.0 on a calibrated step tablet. The densitometer is acceptable if every reading is within what tolerance of the stated value?",
+        "options": [
+          "±0.02 density units",
+          "±0.05 density units",
+          "±0.10 density units",
+          "±0.20 density units"
+        ],
+        "answer": 1,
+        "explanation": "Article 2 accepts the densitometer when each reading is within ±0.05 of the density stated for the national standard step tablet or traceable step wedge calibration film. A densitometer outside this tolerance cannot be used to verify radiograph density until it has been corrected and recalibrated.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - densitometer calibration"
+      },
+      {
+        "id": "rt2s-02",
+        "topic": "IQI selection",
+        "q": "An IQI of the same alloy material group as the part is not available. Under ASME Section V Article 2, which IQI may be used instead?",
+        "options": [
+          "Any IQI of the correct designation, whatever its material",
+          "An IQI of a material with greater radiation absorption than the part, to be conservative",
+          "None; the examination must wait for an IQI of the same group",
+          "An IQI of a material group with less radiation absorption than the part"
+        ],
+        "answer": 3,
+        "explanation": "A less-absorbing IQI is harder to see than one matching the part, so resolving its essential hole or wire still shows at least the required sensitivity. A more-absorbing IQI would image too easily and overstate the sensitivity achieved.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - IQI selection (material)"
+      },
+      {
+        "id": "rt2s-03",
+        "topic": "IQI selection",
+        "q": "A butt weld in 12.7 mm (½ in.) nominal plate has an estimated cap reinforcement of 2 mm, within the referencing code's maximum, and a 6 mm backing strip left in place. Under ASME Section V Article 2, what thickness is the IQI selected for?",
+        "options": [
+          "12.7 mm",
+          "18.7 mm",
+          "14.7 mm",
+          "20.7 mm"
+        ],
+        "answer": 2,
+        "explanation": "For welds with reinforcement, the IQI is based on the nominal single-wall thickness plus the estimated reinforcement (not exceeding the code maximum): 12.7 + 2 = 14.7 mm. Backing rings and strips are not counted as part of the thickness for IQI selection, so 18.7 mm and 20.7 mm are wrong.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - IQI selection (size)"
+      },
+      {
+        "id": "rt2s-04",
+        "topic": "IQI placement",
+        "q": "When a wire IQI is used on a butt weld under ASME Section V Article 2, how must it be placed?",
+        "options": [
+          "On the weld, with the wires running across the weld (perpendicular to its length)",
+          "On the base metal beside the weld, with the wires parallel to the weld",
+          "On the weld, with the wires running along the weld length so that each one lies on the cap",
+          "On the film side only, with the wires at 45° to the weld"
+        ],
+        "answer": 0,
+        "explanation": "Article 2 requires the wire IQI to be placed on the weld with the length of the wires perpendicular to the length of the weld, so each wire crosses the weld metal being evaluated. The identification numbers, and any 'F' letter, must stay out of the area of interest unless the geometry makes that impractical.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - IQI placement"
+      },
+      {
+        "id": "rt2s-05",
+        "topic": "IQI placement",
+        "q": "A complete girth weld is radiographed in one exposure with the source on the vessel axis and several film holders around the outside. Under ASME Section V Article 2, what is the minimum number of IQIs required?",
+        "options": [
+          "One, placed anywhere on the circumference",
+          "Two, about 180° apart",
+          "Three, spaced about 120° apart",
+          "One per film holder, whatever the number of holders"
+        ],
+        "answer": 2,
+        "explanation": "For a single exposure with the source on the axis covering the full circumference, Article 2 requires at least three IQIs about 120° apart. Extra film locations may be needed to achieve that spacing.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - number of IQIs (special cases)"
+      },
+      {
+        "id": "rt2s-06",
+        "topic": "Density limits",
+        "q": "On a single-film X-ray radiograph made without a shim, the density through the body of the hole-type IQI is 2.5. Densities across the area of interest range from 2.2 to 3.4. Applying ASME Section V Article 2, what is required?",
+        "options": [
+          "Nothing further, because every reading lies within 1.8 to 4.0",
+          "A new exposure with an additional IQI for the area at 3.4, which is more than 30% above the IQI density",
+          "Rejection of the radiograph, because the area at 2.2 is more than 15% below the IQI density",
+          "An additional IQI for the area at 2.2 only, because the low-density areas are always the least sensitive ones"
+        ],
+        "answer": 1,
+        "explanation": "The permitted band is −15% to +30% of the IQI density: 2.5 × 0.85 = 2.125 and 2.5 × 1.30 = 3.25. Even with the rounding to the nearest 0.1 that Article 2 allows, 2.2 is inside the band and 3.4 is above it, so that area needs an additional IQI and the radiograph must be retaken.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - density limitations and density variation"
+      },
+      {
+        "id": "rt2s-07",
+        "topic": "Geometric unsharpness",
+        "q": "A butt weld in 19 mm plate has a 2 mm cap on the source side and 1.5 mm of root reinforcement on the film side, and the film is in contact with the root (ignore cassette and screen thickness). The source size is 3.0 mm and the source-to-cap distance is 600 mm. Using the Article 2 definitions, what is the geometric unsharpness?",
+        "options": [
+          "0.095 mm",
+          "0.105 mm",
+          "0.108 mm",
+          "0.113 mm"
+        ],
+        "answer": 3,
+        "explanation": "Article 2 measures d from the source side of the weld to the film, so d = 2 + 19 + 1.5 = 22.5 mm, and D from the source to the weld. Ug = F·d/D = 3.0 × 22.5 / 600 = 0.1125, about 0.113 mm. Using only the plate (0.095 mm) or plate plus cap (0.105 mm) understates it, and 0.108 mm comes from wrongly dividing by the source-to-film distance (622.5 mm).",
+        "ref": "ASME BPVC Section V (2023), Article 2 - geometric unsharpness"
+      },
+      {
+        "id": "rt2s-08",
+        "topic": "Backscatter",
+        "q": "How does ASME Section V Article 2 require the lead 'B' backscatter check symbol to be used?",
+        "options": [
+          "Attached to the back of each film holder during each exposure",
+          "Placed on the source side of the part, next to the IQI, during each exposure",
+          "Attached to the front of the film holder, facing the source, for the first exposure of each shift only",
+          "Used only when the film holder rests on a floor, wall or other surface that may reflect radiation"
+        ],
+        "answer": 0,
+        "explanation": "The symbol goes on the back of each film holder for every exposure, because its image is how the interpreter judges whether radiation scattered from behind the cassette reached the film. Backscatter conditions change with every set-up, so a sample check is not enough; the minimum letter height and thickness are stated in the edition your procedure names.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - backscatter radiation"
+      },
+      {
+        "id": "rt2s-09",
+        "topic": "Film identification",
+        "q": "Which statement reflects the ASME Section V Article 2 requirement for identifying radiographs?",
+        "options": [
+          "Lead letters and numbers must be used; light imprinting or other marking methods are not permitted",
+          "Identification is needed only on radiographs that show rejectable indications or repairs",
+          "It must keep a permanent correlation between film and part, and must not obscure the area of interest",
+          "It may be recorded on the film envelope only, provided the envelope stays with the film"
+        ],
+        "answer": 2,
+        "explanation": "Article 2 requires permanent identification on the radiograph, traceable to the contract, component, weld or part, plus the manufacturer's name or symbol and the date. The information need not appear as radiographic images, so lead letters are one option rather than a requirement, but it must not obscure the area of interest; marking only the envelope breaks the link once the film is removed.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - radiograph identification"
+      },
+      {
+        "id": "rt2s-10",
+        "topic": "Location markers",
+        "q": "Under ASME Section V Article 2, where must location markers be placed, and how are their positions recorded?",
+        "options": [
+          "On the cassette, with their positions written on the film envelope",
+          "On the film before exposure, with positions kept in the radiographer's logbook",
+          "Anywhere convenient, because the IQI image already demonstrates coverage",
+          "On the part, with positions permanently marked on it or recorded on a map"
+        ],
+        "answer": 3,
+        "explanation": "Markers on the part stay with the part, so the area of interest on each film can be traced to its exact location and the overlap between films proves full coverage. Where the surface cannot be marked, a dimensional map kept with the technique details serves the same purpose.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - location markers"
+      },
+      {
+        "id": "rt2s-11",
+        "topic": "Technique records",
+        "q": "Which group of items must appear in the documented radiographic technique details under ASME Section V Article 2?",
+        "options": [
+          "Isotope or X-ray voltage, source size, and the distances D and d used in the Ug calculation",
+          "Ambient temperature, humidity and wind conditions recorded at the time of each individual exposure",
+          "Developer and fixer lot numbers, replenishment rates and the processor temperature log",
+          "The radiographer's eye-examination date and the densitometer's serial number"
+        ],
+        "answer": 0,
+        "explanation": "The technique details record what governs image quality and allows the exposure to be repeated: the radiation source, source size, D and d, film type and number per holder, material and weld thickness, single- or double-wall exposure and viewing, and the marker map if used. The other items may be kept elsewhere but are not part of the technique details.",
+        "ref": "ASME BPVC Section V (2023), Article 2 - technique documentation details"
+      },
+      {
+        "id": "rt2s-12",
+        "topic": "ASME VIII UW-51",
+        "q": "A fully radiographed (UW-51) butt weld joins a 50 mm (2 in.) shell course to a 38 mm (1.5 in.) course, with no fillet weld. An isolated slag inclusion 14 mm (0.55 in.) long is found. What is the decision?",
+        "options": [
+          "Accept: the limit is one-third of 50 mm, about 16.7 mm",
+          "Reject: the limit is one-third of the thinner member, 38 mm, about 12.7 mm",
+          "Accept: the limit is 19 mm (¾ in.) for welds of this thickness",
+          "Reject: no elongated indication over 6 mm (¼ in.) is permitted at any thickness"
+        ],
+        "answer": 1,
+        "explanation": "UW-51 limits elongated indications to t/3 for t from 19 mm to 57 mm (¾ in. to 2¼ in.), and where members differ in thickness t is the thinner one: 38 / 3 ≈ 12.7 mm, so 14 mm is rejectable. The 19 mm limit applies only above 57 mm, and the 6 mm limit only up to 19 mm.",
+        "ref": "ASME BPVC Section VIII, Division 1 (2023), UW-51(b)"
+      },
+      {
+        "id": "rt2s-13",
+        "topic": "ASME VIII UW-51",
+        "q": "On a fully radiographed (UW-51) weld 25 mm thick, an indication 4 mm long is interpreted as lack of sidewall fusion. What is the decision?",
+        "options": [
+          "Accept: it is shorter than 6 mm",
+          "Accept: it is shorter than t/3 (about 8.3 mm)",
+          "Reject: incomplete fusion is unacceptable at any length",
+          "Evaluate it as a rounded indication under Appendix 4"
+        ],
+        "answer": 2,
+        "explanation": "UW-51 rejects any indication characterized as a crack or a zone of incomplete fusion or penetration, whatever its length. Length limits apply only to other elongated indications such as slag, so identifying the indication type correctly decides the outcome.",
+        "ref": "ASME BPVC Section VIII, Division 1 (2023), UW-51(b)"
+      },
+      {
+        "id": "rt2s-14",
+        "topic": "ASME VIII UW-51",
+        "q": "A fully radiographed (UW-51) weld has t = 25 mm. Four aligned slag indications, 7, 7, 6 and 6 mm long, are each separated by 20 mm of sound weld, all within 100 mm of weld length. What is the decision?",
+        "options": [
+          "Accept: each indication is shorter than t/3 (about 8.3 mm)",
+          "Accept: the whole group lies within a length of 12t (300 mm)",
+          "Reject: aligned indications of any size are never permitted in a fully radiographed weld, whatever their spacing",
+          "Reject: their aggregate length (26 mm) exceeds t in 12t, and the spacing is less than 6L (42 mm)"
+        ],
+        "answer": 3,
+        "explanation": "Each indication passes the individual t/3 limit, but UW-51 also rejects an aligned group whose total length exceeds t in a length of 12t, unless successive indications are more than 6L apart, where L is the longest indication (7 mm). Here 26 mm > 25 mm and 20 mm < 42 mm, so the group is rejectable.",
+        "ref": "ASME BPVC Section VIII, Division 1 (2023), UW-51(b)"
+      },
+      {
+        "id": "rt2s-15",
+        "topic": "ASME VIII Appendix 4",
+        "q": "On a fully radiographed Section VIII, Division 1 weld, an indication measures 3.0 mm long and 0.8 mm wide. How is it classified for evaluation?",
+        "options": [
+          "As a rounded indication, because it is under 4 mm long",
+          "As an elongated indication, because its length is more than three times its width",
+          "As a rounded indication, because its length is less than four times its width",
+          "As a nonrelevant indication, because it is under 1 mm wide"
+        ],
+        "answer": 1,
+        "explanation": "Appendix 4 defines rounded indications as those with a length of three times the width or less. 3.0 / 0.8 = 3.75, so this indication is elongated and is judged against the UW-51 elongated-indication limits instead.",
+        "ref": "ASME BPVC Section VIII, Division 1 (2023), Mandatory Appendix 4"
+      },
+      {
+        "id": "rt2s-16",
+        "topic": "ASME VIII UW-52",
+        "q": "Under UW-52 spot radiography, a spot radiograph shows a rejectable slag inclusion. Apart from repairing that defect, what does UW-52 require next?",
+        "options": [
+          "Full radiography of every weld in the vessel",
+          "No further radiography is needed, provided the repaired area is re-radiographed and found acceptable",
+          "Two additional spots in the same weld increment, at locations away from the original spot",
+          "A repeat exposure of the same spot with a more sensitive IQI"
+        ],
+        "answer": 2,
+        "explanation": "A failed spot triggers two more spots in the same weld increment. If both are acceptable the increment is accepted once the defect is repaired and re-examined; if either fails, the whole increment is either rewelded or fully radiographed with all defective welding corrected.",
+        "ref": "ASME BPVC Section VIII, Division 1 (2023), UW-52"
+      },
+      {
+        "id": "rt2s-17",
+        "topic": "ASME B31.3",
+        "q": "A girth weld in ASME B31.3 Normal Fluid Service shows incomplete penetration at the root. Its depth is within the table limit, but the indications total 45 mm in one 150 mm length of weld. What is the decision?",
+        "options": [
+          "Reject: cumulative incomplete penetration exceeds 38 mm in a 150 mm weld length",
+          "Accept: the depth is within the limit, so length is not a factor",
+          "Accept: incomplete penetration has no length limit in Normal Fluid Service",
+          "Reject: incomplete penetration is never permitted in any fluid service"
+        ],
+        "answer": 0,
+        "explanation": "For girth welds in Normal Fluid Service, Table 341.3.2 limits both the depth of incomplete penetration and its cumulative length: no more than 38 mm (1.5 in.) in any 150 mm (6 in.) of weld, or 25% of the total weld length if that is less. Incomplete penetration is not rejected outright in this service, but both limits must be met, and 45 mm exceeds the length limit.",
+        "ref": "ASME B31.3-2022, Table 341.3.2"
+      },
+      {
+        "id": "rt2s-18",
+        "topic": "ASME B31.3",
+        "q": "Random radiography under ASME B31.3 finds a defective girth weld. Under the progressive examination rules, what must happen next, besides repairing that weld?",
+        "options": [
+          "Every weld in the piping system must be radiographed",
+          "The repaired weld is re-radiographed, with no further sampling",
+          "The welder must be requalified on a new test coupon before any further production welds are examined or accepted",
+          "Two additional welds of the same kind, by the same welder or welding operator, get the same examination"
+        ],
+        "answer": 3,
+        "explanation": "Progressive examination adds two more samples of the same kind for each defect found. If they pass, the welds they represent are accepted; if either fails, two further samples are taken for each defective item, and a further failure means all items represented are repaired or replaced, or fully examined and corrected.",
+        "ref": "ASME B31.3-2022, para. 341.3.4"
+      },
+      {
+        "id": "rt2s-19",
+        "topic": "AWS D1.1",
+        "q": "Before applying the AWS D1.1 Clause 8 radiographic acceptance criteria to a nontubular groove weld, which fact must the interpreter know?",
+        "options": [
+          "The date of the welder's most recent qualification test, and the position in which that test was taken",
+          "Whether the connection is statically or cyclically loaded (and, if cyclic, tension or compression)",
+          "The filler metal brand and classification used for the root and fill passes",
+          "Whether the weld was made in the flat, horizontal or vertical position"
+        ],
+        "answer": 1,
+        "explanation": "D1.1 sets different RT acceptance limits for statically and cyclically loaded nontubular connections, with separate limits for tension and compression under cyclic loading. The contract documents state which applies, and using the wrong set can accept a weld that should be rejected.",
+        "ref": "AWS D1.1/D1.1M:2020, Clause 8"
+      },
+      {
+        "id": "rt2s-20",
+        "topic": "AWS D1.1",
+        "q": "AWS D1.1 requires edge blocks when radiographing thicker butt joints. What is their purpose?",
+        "options": [
+          "To reduce edge burn-off and scatter at the plate edges so the weld ends can be evaluated",
+          "To hold the IQI in position on the weld",
+          "To act as the shim under the hole-type IQI",
+          "To carry the weld identification numbers and the location markers clear of the area of interest"
+        ],
+        "answer": 0,
+        "explanation": "Without edge blocks, radiation passing around the plate edge overexposes and undercuts the image at the ends of the weld, where discontinuities often occur. Blocks of radiographically clean steel, centered on the weld and set tight against the plate, make the ends image like the rest of the joint.",
+        "ref": "AWS D1.1/D1.1M:2020, Clause 8 (radiographic procedure)"
+      }
+    ]
+  }
+}

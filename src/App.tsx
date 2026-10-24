@@ -8,6 +8,9 @@ import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 // data files) so they stay out of the entry bundle (Lighthouse: entry 349 KB gz, TBT ~1 s).
 const TrainingAvailabilityBlock = lazy(() => import("./components/TrainingAvailabilityBlock"));
 const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §48
+const GeoDepthBlock = lazy(() => import("./components/GeoDepthBlock")); // 2026-10-24 researched local blocks on earning geo pages
+const IntentRouteBlock = lazy(() => import("./components/IntentRouteBlock")); // 2026-10-24 reading pages -> the product their readers buy next
+const FreeDownloadsBlock = lazy(() => import("./components/FreeDownloadsBlock")); // 2026-10-24 free templates + practice PDFs + custom-templates CTA
 const CompetitiveCoverageBlock = lazy(() => import("./components/CompetitiveCoverageBlock")); // §49
 const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); // §50
 const InspectionRegionalLinks = lazy(() => import("./components/InspectionRegionalLinks")); // 2026-10-19 regional inspection pages → /inspection section
@@ -55,6 +58,9 @@ const App = () => (
                <Suspense fallback={null}>
                   <ProductVideoBlock />
                   <ProductScreenshotsBlock />
+                  <GeoDepthBlock />
+                  <IntentRouteBlock />
+                  <FreeDownloadsBlock />
                   <CompetitiveCoverageBlock />
                   <ConsultingServicesBlock />
                   <ConsultingTopicLinks />

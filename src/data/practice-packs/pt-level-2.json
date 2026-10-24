@@ -1,0 +1,862 @@
+{
+  "id": "pt-level-2",
+  "method": "PT",
+  "methodName": "Liquid Penetrant Testing",
+  "level": "Level II",
+  "lastReviewed": "2026-10-24",
+  "general": {
+    "intro": "Forty original questions on penetrant principles, penetrant systems and materials, processing technique, process control checks and the interpretation of indications. The set includes worked unit conversions and make-up calculations of the kind a Level II meets in practice.",
+    "questions": [
+      {
+        "id": "pt2g-01",
+        "topic": "Principles",
+        "q": "A liquid is said to wet a solid surface well when its contact angle with that surface is:",
+        "options": [
+          "Greater than 90°",
+          "Exactly 90°",
+          "Small, approaching 0°",
+          "Close to 180°"
+        ],
+        "answer": 2,
+        "explanation": "The smaller the contact angle, the further the liquid spreads over the surface and the stronger its capillary pull into a narrow opening. A liquid with a contact angle above 90° is pushed out of a narrow opening rather than drawn into it.",
+        "ref": "General PT principle (wetting and capillarity)"
+      },
+      {
+        "id": "pt2g-02",
+        "topic": "Principles",
+        "q": "For a liquid that wets the surface, capillary rise in a narrow opening is roughly inversely proportional to the width of the opening. If one crack is half as wide as another in the same material, the capillary rise of the same penetrant in the narrower crack is about:",
+        "options": [
+          "Half as much",
+          "The same",
+          "Four times as much",
+          "Twice as much"
+        ],
+        "answer": 3,
+        "explanation": "Capillary rise h ≈ 2γcosθ / (ρ·g·w) scales with 1/w for the same liquid and surface, so h₂ = h₁ × (w₁ / w₂) = h₁ × 2. A narrower opening still holds less penetrant in total, so tight cracks need adequate dwell and a sensitive enough system to show.",
+        "ref": "General PT principle (capillary rise)"
+      },
+      {
+        "id": "pt2g-03",
+        "topic": "Principles",
+        "q": "Penetrant viscosity mainly affects:",
+        "options": [
+          "How fast the penetrant spreads over the surface and fills openings",
+          "Whether the penetrant can enter a crack at all, however long it dwells",
+          "The color of the final indication",
+          "The UV-A wavelength needed to make the dye fluoresce"
+        ],
+        "answer": 0,
+        "explanation": "Viscosity governs the rate of flow, so a thicker penetrant needs longer to cover the surface and fill openings. Whether it can enter at all depends mainly on wetting (surface tension and contact angle), not on viscosity.",
+        "ref": "General PT principle"
+      },
+      {
+        "id": "pt2g-04",
+        "topic": "Principles",
+        "q": "UV-A lamps used for fluorescent penetrant inspection are designed to emit most strongly at a wavelength of about:",
+        "options": [
+          "254 nm",
+          "365 nm",
+          "450 nm",
+          "550 nm"
+        ],
+        "answer": 1,
+        "explanation": "Inspection lamps peak near 365 nm in the UV-A band, which excites the dye to emit visible yellow-green light. 254 nm is short-wave UV-C, which is hazardous and not used, and 450–550 nm is already visible light.",
+        "ref": "ASTM E1417; ASTM E3022"
+      },
+      {
+        "id": "pt2g-05",
+        "topic": "Principles",
+        "q": "In standard penetrant terminology, penetrant dwell time is measured as:",
+        "options": [
+          "The time from the end of the rinse to the start of developing",
+          "Only the time after application is complete and the penetrant has fully drained",
+          "The time the developer is left on the part before viewing",
+          "All the time the penetrant is in contact with the surface, including application and drain time"
+        ],
+        "answer": 3,
+        "explanation": "Dwell time runs from first contact until removal begins, and it includes the time taken to apply the penetrant and the drain time. The time the developer is left on is the development time, a separate step with its own limits.",
+        "ref": "ASTM E1316 (terminology); ASTM E165"
+      },
+      {
+        "id": "pt2g-06",
+        "topic": "Principles",
+        "q": "A part is examined near the bottom of the procedure's permitted temperature range. What is the main effect on the penetrant?",
+        "options": [
+          "It becomes more viscous, so it enters openings more slowly",
+          "Its volatile carrier evaporates faster than at room temperature",
+          "A visible dye loses its red color",
+          "Its surface tension falls, so it wets the part more readily"
+        ],
+        "answer": 0,
+        "explanation": "Cold penetrant is thicker and flows more slowly, which is why some codes lengthen minimum dwell times at the low end of the range. Below the qualified range the procedure has to be qualified for that temperature rather than simply given a longer dwell.",
+        "ref": "General PT principle"
+      },
+      {
+        "id": "pt2g-07",
+        "topic": "Principles",
+        "q": "What is the most likely problem when penetrant is applied to a part whose surface is well above the procedure's maximum temperature?",
+        "options": [
+          "The penetrant becomes too viscous to enter tight cracks until the part cools",
+          "The developer will not adhere to the surface afterward",
+          "Capillary action stops working once the surface is warm",
+          "Its volatile constituents evaporate and it can dry on the surface"
+        ],
+        "answer": 3,
+        "explanation": "Heat drives off the volatile part of the penetrant, so it thickens or dries before it can enter and later bleed out, and some fluorescent dyes lose brightness when overheated. High-temperature work needs materials and a procedure qualified for that temperature.",
+        "ref": "General PT principle"
+      },
+      {
+        "id": "pt2g-08",
+        "topic": "Principles",
+        "q": "A contact thermometer on the part reads 54 °C. The procedure's temperature range is 40–125 °F. Is the part within range?",
+        "options": [
+          "Yes; 54 °C is about 97 °F",
+          "Yes; 54 °C is about 122 °F",
+          "No; 54 °C is about 129 °F",
+          "No; 54 °C is about 140 °F"
+        ],
+        "answer": 2,
+        "explanation": "°F = °C × 1.8 + 32 = 54 × 1.8 + 32 = 97.2 + 32 = 129.2 °F, which is above 125 °F (52 °C). Let the part cool into range, or use a procedure qualified for the higher temperature; 97 °F is the error of forgetting to add 32.",
+        "ref": "Unit conversion; general PT practice"
+      },
+      {
+        "id": "pt2g-09",
+        "topic": "Materials and systems",
+        "q": "In the sensitivity classification used in AMS 2644 and ASTM E1417 for Type I (fluorescent) penetrants, which level is the most sensitive?",
+        "options": [
+          "Level 1/2",
+          "Level 1",
+          "Level 3",
+          "Level 4"
+        ],
+        "answer": 3,
+        "explanation": "Type I sensitivity runs from Level 1/2 (ultra-low) through Levels 1, 2 and 3 to Level 4 (ultra-high). Higher levels reveal finer discontinuities but are also harder to remove from rough surfaces.",
+        "ref": "AMS 2644; ASTM E1417"
+      },
+      {
+        "id": "pt2g-10",
+        "topic": "Materials and systems",
+        "q": "A shop changes from a Level 2 to a Level 4 fluorescent penetrant for rough as-cast parts and changes nothing else. What is the most likely result?",
+        "options": [
+          "No change, because sensitivity level only matters on smooth parts",
+          "Heavier background fluorescence that can mask or mimic indications",
+          "Indications become smaller than the discontinuities causing them",
+          "The penetrant can no longer be removed with a water rinse"
+        ],
+        "answer": 1,
+        "explanation": "A more sensitive penetrant is also held more strongly by surface roughness, so rough parts show more background. The sensitivity level is chosen to suit both the smallest discontinuity of interest and the surface condition.",
+        "ref": "General PT principle; ASTM E1417"
+      },
+      {
+        "id": "pt2g-11",
+        "topic": "Materials and systems",
+        "q": "For which job is a water-washable (Method A) penetrant usually the most practical choice?",
+        "options": [
+          "High volumes of rough-surfaced castings and threaded parts",
+          "Very shallow, wide discontinuities on smooth machined parts",
+          "A single field weld at a site with no water supply",
+          "Parts that must not be exposed to water at any stage"
+        ],
+        "answer": 0,
+        "explanation": "Method A rinses easily and quickly off rough and complex surfaces, which suits production lines. The trade-off is that the rinse can also remove penetrant from shallow, wide openings, and it needs water, so it does not suit isolated field work.",
+        "ref": "ASTM E165; general PT practice"
+      },
+      {
+        "id": "pt2g-12",
+        "topic": "Materials and systems",
+        "q": "A single pipe-support weld on a rack must be examined where no water or electrical power is available. Which system fits best?",
+        "options": [
+          "Type I, Method D processed in an immersion line",
+          "Type I, Method B with a lipophilic emulsifier dip tank",
+          "Type II, Method C using aerosol penetrant, remover and nonaqueous developer",
+          "Type I, Method A with a portable UV-A lamp and a recirculating-air drying oven"
+        ],
+        "answer": 2,
+        "explanation": "A visible solvent-removable kit is portable and needs only the aerosols, lint-free cloths and adequate white light, which is why it dominates field work. The other systems need rinse water, tanks, UV-A lighting or an oven.",
+        "ref": "ASTM E165; general PT practice"
+      },
+      {
+        "id": "pt2g-13",
+        "topic": "Materials and systems",
+        "q": "Why is a lipophilic emulsifier (Method B) normally applied by immersion or flowing rather than by brushing?",
+        "options": [
+          "Brushing mixes it unevenly into the penetrant, risking over-removal",
+          "Lipophilic emulsifier can be brushed only onto visible penetrants",
+          "A brushed coat dries before the emulsification time has started",
+          "Immersion is required so the emulsifier reaches the inside of hollow parts"
+        ],
+        "answer": 0,
+        "explanation": "Lipophilic emulsifier acts by diffusing into the oily penetrant layer over a controlled time. Brushing adds mechanical mixing that speeds the action unevenly and risks over-removal, whereas immersion or flow-on followed by a timed drain keeps it controlled.",
+        "ref": "ASTM E1417; ASTM E165"
+      },
+      {
+        "id": "pt2g-14",
+        "topic": "Materials and systems",
+        "q": "In a hydrophilic post-emulsifiable process (Method D), what is the purpose of the water pre-rinse before the remover is applied?",
+        "options": [
+          "To start the emulsification reaction so the remover can then act more quickly",
+          "To wet the part so that the developer will adhere",
+          "To cool the part before it enters the remover tank",
+          "To wash off most of the surface penetrant before the remover is applied"
+        ],
+        "answer": 3,
+        "explanation": "The pre-rinse removes the bulk of the oily surface penetrant before the remover is used. That limits penetrant build-up in the remover bath and leaves the remover only a thin film to act on, which makes the removal step easier to control.",
+        "ref": "ASTM E1417; ASTM E165"
+      },
+      {
+        "id": "pt2g-15",
+        "topic": "Materials and systems",
+        "q": "In the developer classification of AMS 2644 and ASTM E1417, a nonaqueous developer intended for Type I (fluorescent) penetrant is designated Form:",
+        "options": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "answer": 3,
+        "explanation": "Form a is dry powder, Form b water-soluble, Form c water-suspendable and Form d nonaqueous for Type I. Form e is nonaqueous for Type II, and Form f covers specific applications.",
+        "ref": "AMS 2644; ASTM E1417"
+      },
+      {
+        "id": "pt2g-16",
+        "topic": "Materials and systems",
+        "q": "Water-soluble developer (Form b) is generally not used with which penetrant system?",
+        "options": [
+          "Type I, Method A (water-washable)",
+          "Type I, Method B (lipophilic post-emulsifiable)",
+          "Type I, Method D (hydrophilic post-emulsifiable)",
+          "Type I penetrants of sensitivity Level 3 or 4"
+        ],
+        "answer": 0,
+        "explanation": "A water-washable penetrant already contains its emulsifier, so a water-based developer solution can dissolve it and wash it out of shallow discontinuities. Water-soluble developer is also normally excluded for Type II (visible) penetrants because it does not form the white contrasting coat they need; check the exclusions in the specification your procedure follows.",
+        "ref": "ASTM E165; ASTM E1417; general PT practice"
+      },
+      {
+        "id": "pt2g-17",
+        "topic": "Materials and systems",
+        "q": "A solvent remover labeled Class 2 under AMS 2644 and ASTM E1417 is:",
+        "options": [
+          "Halogenated",
+          "Non-halogenated",
+          "A water-based hydrophilic remover",
+          "A specific-application remover"
+        ],
+        "answer": 1,
+        "explanation": "Class 1 removers are halogenated, Class 2 non-halogenated and Class 3 specific-application. Non-halogenated removers are usually chosen where halogen residues are a concern, such as on austenitic stainless steel and titanium, though certified contaminant limits still apply where a code requires them.",
+        "ref": "AMS 2644; ASTM E1417"
+      },
+      {
+        "id": "pt2g-18",
+        "topic": "Process and technique",
+        "q": "Which sequence is correct for a fluorescent lipophilic post-emulsifiable (Method B) process using dry powder developer?",
+        "options": [
+          "Clean, penetrant, dwell, water pre-rinse, emulsifier, emulsification time, final rinse, dry, developer",
+          "Clean, penetrant, dwell, emulsifier, emulsification time, water rinse, dry, developer",
+          "Clean, emulsifier, penetrant, dwell, water rinse, developer, dry",
+          "Clean, penetrant, dwell, emulsifier, developer, water rinse, dry"
+        ],
+        "answer": 1,
+        "explanation": "Lipophilic emulsifier goes straight onto the penetrant-coated surface with no pre-rinse, acts for a controlled time and is then rinsed off with water. Dry powder developer is applied to a dry part, so drying comes before developing. A water rinse before the remover belongs to Method D.",
+        "ref": "ASTM E1417; ASTM E165"
+      },
+      {
+        "id": "pt2g-19",
+        "topic": "Process and technique",
+        "q": "In a typical water-washable line using aqueous (water-suspendable) developer, where does the drying step fall in the sequence?",
+        "options": [
+          "Before the developer, as it does with dry powder developer",
+          "After the developer, which is applied to the wet, rinsed part",
+          "Nowhere; aqueous developer is viewed while still wet",
+          "Only after interpretation, to dry the part before post-cleaning"
+        ],
+        "answer": 1,
+        "explanation": "In a typical line aqueous developer is applied to the wet part straight after rinsing, and drying then forms the developer coating. Dry powder and nonaqueous developers, by contrast, go onto a part that has already been dried.",
+        "ref": "ASTM E1417; ASTM E165"
+      },
+      {
+        "id": "pt2g-20",
+        "topic": "Process and technique",
+        "q": "Why do procedures limit the time between removing excess penetrant (and drying) and applying developer?",
+        "options": [
+          "Penetrant in shallow openings can dry out, so less of it bleeds into the developer",
+          "Developer applied late draws penetrant from the surface background instead of the openings",
+          "The emulsifier keeps acting on the part until the developer stops it",
+          "The UV-A lamp must not be left on for long between parts"
+        ],
+        "answer": 0,
+        "explanation": "Developer works on penetrant that is still liquid in the opening. A long delay, especially on a warm part, lets it thicken or evaporate and weakens or loses indications from fine discontinuities.",
+        "ref": "General PT principle; ASME BPVC Section V, Article 6"
+      },
+      {
+        "id": "pt2g-21",
+        "topic": "Process and technique",
+        "q": "A drying oven is set much hotter than the procedure allows. What is the main risk to the examination?",
+        "options": [
+          "Developer builds up too thickly on the part",
+          "Background fluorescence increases across the part",
+          "The emulsifier carried over on the part becomes more aggressive and over-removes penetrant",
+          "Penetrant in discontinuities dries out and fluorescent dye can lose brightness"
+        ],
+        "answer": 3,
+        "explanation": "Overdrying bakes the penetrant in the opening so it no longer bleeds out well, and heat can degrade fluorescent dyes. Procedures cap oven and part temperatures, and parts should leave the oven as soon as they are dry.",
+        "ref": "ASTM E1417; general PT principle"
+      },
+      {
+        "id": "pt2g-22",
+        "topic": "Process and technique",
+        "q": "A part that has already been processed and examined must be reprocessed. What must be done first?",
+        "options": [
+          "Apply a fresh coat of developer over the old coating",
+          "Reapply penetrant directly over the old developer",
+          "Remove all developer and penetrant, then repeat every step",
+          "Re-examine under a brighter UV-A lamp instead of reprocessing"
+        ],
+        "answer": 2,
+        "explanation": "Old developer blocks openings, and old penetrant residue changes how new penetrant enters and bleeds out. The part is cleaned completely and taken through every step again; repeated reprocessing can still weaken indications, so it is kept to a minimum.",
+        "ref": "ASTM E1417; general PT practice"
+      },
+      {
+        "id": "pt2g-23",
+        "topic": "Process and technique",
+        "q": "A 250 L hydrophilic remover tank is to be made up at 10% concentration by volume. How much remover concentrate is needed?",
+        "options": [
+          "2.5 L concentrate and 247.5 L water",
+          "10 L concentrate and 240 L water",
+          "25 L concentrate and 225 L water",
+          "50 L concentrate and 200 L water"
+        ],
+        "answer": 2,
+        "explanation": "Concentrate = 0.10 × 250 L = 25 L, leaving 250 − 25 = 225 L of water. The concentration used must be within the manufacturer's and procedure's limits and is then verified, typically with a refractometer.",
+        "ref": "Calculation; ASTM E1417"
+      },
+      {
+        "id": "pt2g-24",
+        "topic": "Process and technique",
+        "q": "A part was acid-etched before fluorescent PT but was not properly neutralized and rinsed. What is the most likely effect?",
+        "options": [
+          "Brighter indications, because the acid has etched the openings wider and deeper",
+          "Acid residue in discontinuities can reduce or destroy the dye's fluorescence",
+          "No effect, provided the part is completely dry",
+          "The developer turns pink wherever acid remains"
+        ],
+        "answer": 1,
+        "explanation": "Acids and chromates left in openings attack fluorescent dyes and reduce their brightness, so a real crack may give a faint indication or none. Etching must be followed by neutralizing, rinsing and drying.",
+        "ref": "ASTM E1417; ASTM E165"
+      },
+      {
+        "id": "pt2g-25",
+        "topic": "Process control",
+        "q": "A known-defect panel has a chrome-plated area with crack centers and a separate grit-blasted area (as on the PSM-5 type). What is the grit-blasted area used to judge?",
+        "options": [
+          "Fine-crack detection sensitivity",
+          "UV-A intensity at the panel surface",
+          "Removal (washability) and background",
+          "Developer coating thickness"
+        ],
+        "answer": 2,
+        "explanation": "The crack centers show whether the system still detects fine cracks, while the grit-blasted area shows how easily surface penetrant comes off and how much background remains. Both are compared with a record made when the materials were known to be good.",
+        "ref": "ASTM E1417; general PT practice"
+      },
+      {
+        "id": "pt2g-26",
+        "topic": "Process control",
+        "q": "Why is the dry powder developer in a fluorescent line periodically examined under UV-A?",
+        "options": [
+          "To confirm the powder fluoresces brightly enough to give a uniform viewing background",
+          "To estimate its particle size from the glow",
+          "To check the UV-A lamp's output against the powder",
+          "To find fluorescent penetrant contamination that could cause false indications"
+        ],
+        "answer": 3,
+        "explanation": "Dry developer picks up penetrant from processed parts, and fluorescent specks in the powder can be transferred to a part and look like indications. Clean developer should show no significant fluorescence.",
+        "ref": "ASTM E1417"
+      },
+      {
+        "id": "pt2g-27",
+        "topic": "Process control",
+        "q": "The concentration of a water-soluble or water-suspendable developer bath is commonly checked with:",
+        "options": [
+          "A refractometer",
+          "A hydrometer",
+          "A UV-A radiometer",
+          "A settling tube"
+        ],
+        "answer": 1,
+        "explanation": "Aqueous developer concentration is checked by specific gravity with a hydrometer against the manufacturer's values. A refractometer is used for hydrophilic remover concentration, and a settling tube belongs to wet magnetic particle testing.",
+        "ref": "ASTM E1417"
+      },
+      {
+        "id": "pt2g-28",
+        "topic": "Process control",
+        "q": "A white-light meter at the examination surface reads 1,300 lx. Approximately what is this in foot-candles? (1 fc = 10.76 lx)",
+        "options": [
+          "About 13 fc",
+          "About 121 fc",
+          "About 140 fc",
+          "About 1,300 fc"
+        ],
+        "answer": 1,
+        "explanation": "fc = lx ÷ 10.76 = 1,300 ÷ 10.76 ≈ 121 fc. That exceeds a 100 fc (1,076 lx) minimum such as the one in ASME Section V Article 6.",
+        "ref": "Unit conversion; ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2g-29",
+        "topic": "Process control",
+        "q": "A UV-A radiometer reads 1,200 µW/cm². Expressed in W/m², this is:",
+        "options": [
+          "0.12 W/m²",
+          "1.2 W/m²",
+          "120 W/m²",
+          "12 W/m²"
+        ],
+        "answer": 3,
+        "explanation": "1 µW/cm² = 10⁻⁶ W ÷ 10⁻⁴ m² = 0.01 W/m², so 1,200 × 0.01 = 12 W/m². ASME Section V Article 6 states its UV-A minimum as 1,000 µW/cm² and ISO 3059 states 10 W/m², which is the same value.",
+        "ref": "Unit conversion; ASME BPVC Section V, Article 6 (2023); ISO 3059"
+      },
+      {
+        "id": "pt2g-30",
+        "topic": "Interpretation",
+        "q": "Grinding cracks on a hardened steel surface typically appear in PT as:",
+        "options": [
+          "A single straight line running exactly along the grinding marks",
+          "Isolated round spots spread evenly over the ground area",
+          "A crazed network, or fine lines across the grinding direction",
+          "A broad, diffuse stain over the whole ground area"
+        ],
+        "answer": 2,
+        "explanation": "Local overheating during grinding sets up thermal stresses that crack the surface in a crazed network or in fine lines across the grinding direction. Lines that follow the grinding marks exactly are more often surface texture and need confirming.",
+        "ref": "General PT interpretation"
+      },
+      {
+        "id": "pt2g-31",
+        "topic": "Interpretation",
+        "q": "A star-shaped indication at the end of a weld bead most likely shows:",
+        "options": [
+          "A crater crack",
+          "Lack of sidewall fusion",
+          "Undercut",
+          "A slag inclusion"
+        ],
+        "answer": 0,
+        "explanation": "Crater cracks form as the weld pool at the end of a pass solidifies and shrinks, often in a star or radiating pattern. Lack of fusion and slag are usually below the surface, and undercut is an open groove at the toe that is normally measured during visual examination.",
+        "ref": "General PT interpretation (weld discontinuities)"
+      },
+      {
+        "id": "pt2g-32",
+        "topic": "Interpretation",
+        "q": "On a casting, a smooth-edged linear indication where two streams of molten metal met without fully fusing is most likely:",
+        "options": [
+          "A hot tear",
+          "A cold shut",
+          "Gas porosity",
+          "A forging lap"
+        ],
+        "answer": 1,
+        "explanation": "A cold shut forms where streams of metal that have cooled too far meet but do not fuse, leaving a smooth, often curved line. Hot tears are ragged and usually sit at changes in section, porosity gives rounded indications, and laps occur in wrought products.",
+        "ref": "General PT interpretation (casting discontinuities)"
+      },
+      {
+        "id": "pt2g-33",
+        "topic": "Interpretation",
+        "q": "When examining an in-service part for fatigue cracks, where should the examination be concentrated?",
+        "options": [
+          "At stress raisers such as fillet radii, hole edges and thread roots",
+          "On flat, lightly loaded areas away from any change in section",
+          "Only on areas where the paint has been left intact",
+          "Only on the thickest sections of the part"
+        ],
+        "answer": 0,
+        "explanation": "Fatigue cracks start where cyclic stress is highest, at geometric stress raisers and surface damage. Knowing how the part is loaded and where cracks are likely to start is part of a Level II's interpretation.",
+        "ref": "General PT interpretation (service discontinuities)"
+      },
+      {
+        "id": "pt2g-34",
+        "topic": "Interpretation",
+        "q": "Fine, highly branched cracks are found on an austenitic stainless steel pipe near a weld in a chloride-bearing environment. The most likely mechanism is:",
+        "options": [
+          "Mechanical fatigue",
+          "Lamination",
+          "Chloride stress corrosion cracking",
+          "Lack of fusion"
+        ],
+        "answer": 2,
+        "explanation": "Chloride stress corrosion cracking of austenitic stainless steel typically gives fine, branched cracks, often where residual stress is high, such as weld heat-affected zones. Fatigue cracks are usually single and unbranched.",
+        "ref": "General PT interpretation (service discontinuities)"
+      },
+      {
+        "id": "pt2g-35",
+        "topic": "Interpretation",
+        "q": "PT on the flame-cut edge of a thick plate shows a linear indication running parallel to the plate faces near mid-thickness. This is most likely:",
+        "options": [
+          "A lamination",
+          "A crater crack",
+          "A cold shut",
+          "A grinding crack"
+        ],
+        "answer": 0,
+        "explanation": "Laminations lie parallel to the plate surface, so PT can show them only where they break out on edges and cut faces. On the plate faces themselves they are not visible to PT.",
+        "ref": "General PT interpretation (product-form discontinuities)"
+      },
+      {
+        "id": "pt2g-36",
+        "topic": "Interpretation",
+        "q": "During fluorescent inspection a bright line is traced to a lint fiber that picked up penetrant from the inspector's glove. How is the indication best classified?",
+        "options": [
+          "False; it does not come from an opening in the part",
+          "Relevant, because it is linear and clearly visible",
+          "Nonrelevant, caused by the part's design or geometry",
+          "Rejectable, because it is a linear indication"
+        ],
+        "answer": 0,
+        "explanation": "A false indication is produced by something other than a discontinuity, here penetrant carried on a fiber, so the fiber is removed and the area re-examined to confirm nothing lies beneath it. Bleed-out from a press fit or keyway is a different case: penetrant from a real opening that is part of the design. ASTM E1316 counts false indications among nonrelevant ones, and either kind must be confirmed before it is set aside.",
+        "ref": "ASTM E1316 (terminology); general PT interpretation"
+      },
+      {
+        "id": "pt2g-37",
+        "topic": "Interpretation",
+        "q": "Which statement correctly separates interpretation from evaluation?",
+        "options": [
+          "They are the same step described with different words",
+          "Evaluation decides whether an indication is relevant; interpretation then applies the acceptance criteria",
+          "Interpretation is reserved for Level III personnel; evaluation may be done by Level I",
+          "Interpretation decides whether it is relevant; evaluation judges it against acceptance criteria"
+        ],
+        "answer": 3,
+        "explanation": "In ASTM E1316 terms, interpretation determines whether an indication is relevant, nonrelevant or false, and evaluation then determines whether a relevant indication is cause to accept or reject the part. A Level II is normally qualified to do both.",
+        "ref": "ASTM E1316 (terminology); ASNT SNT-TC-1A"
+      },
+      {
+        "id": "pt2g-38",
+        "topic": "Interpretation",
+        "q": "What can a PT indication reliably tell you about the depth of a discontinuity?",
+        "options": [
+          "Its exact depth, calculated from the width of the indication",
+          "Its depth, judged from how many minutes the indication takes to appear",
+          "Nothing exact; bleed-out only hints at the volume of trapped penetrant",
+          "Its depth, provided a fluorescent penetrant of Level 3 or higher is used"
+        ],
+        "answer": 2,
+        "explanation": "The volume of penetrant in an opening affects how fast and how much it bleeds out, so a large, quick indication hints at a larger discontinuity. PT cannot measure depth; progressive grinding with re-examination, or a method such as UT, is needed.",
+        "ref": "General PT interpretation"
+      },
+      {
+        "id": "pt2g-39",
+        "topic": "Interpretation",
+        "q": "After a solvent-removable visible-dye examination, the whole developed area shows a uniform pink haze. The most likely cause is:",
+        "options": [
+          "Over-removal of the excess penetrant",
+          "Inadequate removal of the excess surface penetrant",
+          "A developer coat that was too thin",
+          "A penetrant dwell time that was too short"
+        ],
+        "answer": 1,
+        "explanation": "Surface penetrant left behind after removal stains the developer everywhere, giving a background that can hide real indications. The area is cleaned and re-examined with better removal technique.",
+        "ref": "General PT practice; ASME BPVC Section V, Article 6"
+      },
+      {
+        "id": "pt2g-40",
+        "topic": "Interpretation",
+        "q": "On a weld known to contain a crack, a visible-dye examination shows only a faint, light pink line. Which processing error is most likely?",
+        "options": [
+          "Excess penetrant was left on the surface",
+          "The penetrant was brushed on instead of sprayed, as the procedure allows",
+          "Excessive cleaning during removal took penetrant out of the crack",
+          "The dwell time was much longer than the minimum"
+        ],
+        "answer": 2,
+        "explanation": "Over-removal, for example using too much solvent, draws penetrant out of the discontinuity so less is left to stain the developer. ASME Section V Article 6 notes that light pink indications may indicate excessive cleaning.",
+        "ref": "ASME BPVC Section V, Article 6 (2023); general PT practice"
+      }
+    ]
+  },
+  "specific": {
+    "intro": "Written against the documents named below; check the edition your written practice and contract name. The questions test applying an Article 6 procedure and the acceptance criteria a PT Level II most often works to on US pressure vessels and process piping.",
+    "documents": [
+      "ASME BPVC Section V, Article 6 (2023 edition)",
+      "ASME BPVC Section VIII, Division 1, Mandatory Appendix 8 (2023 edition)",
+      "ASME B31.3 Process Piping (2022 edition)"
+    ],
+    "questions": [
+      {
+        "id": "pt2s-01",
+        "topic": "Procedure requirements",
+        "q": "A written procedure qualified under ASME Section V Article 6 specifies a minimum penetrant dwell of 15 minutes on welds. Production asks to use 10 minutes. How must this change be handled?",
+        "options": [
+          "As a nonessential change that only needs a note on the examination report",
+          "As no change at all, because 10 minutes still exceeds the Article 6 table minimum for welds",
+          "As an essential-variable change requiring revision and, where required, requalification",
+          "As acceptable without revision if the development time is increased by 5 minutes"
+        ],
+        "answer": 2,
+        "explanation": "Article 6 lists a decrease in penetrant dwell time as an essential variable. Every change from the written procedure needs a revision or addendum, and where the referencing Code requires qualification an essential-variable change also needs requalification by demonstration; the table minimum does not override the written procedure.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-02",
+        "topic": "Procedure requirements",
+        "q": "A qualified Article 6 procedure is changed only to add a different post-examination cleaning method. Which statement is correct?",
+        "options": [
+          "Nonessential: revise the procedure or add an addendum; no requalification is needed",
+          "It is an essential variable, so the procedure must be requalified by demonstration",
+          "No action is needed, because post-cleaning takes place after the examination is complete",
+          "The change is allowed only if the Authorized Inspector witnesses a new demonstration"
+        ],
+        "answer": 0,
+        "explanation": "Article 6 lists the post-examination cleaning technique as a nonessential variable, so changing it does not require requalification. Article 6 still requires every change, essential or nonessential, to be made by revising the written procedure or issuing an addendum.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-03",
+        "topic": "Temperature",
+        "q": "A carbon steel weld must be examined when its surface is at 30 °F (−1 °C). The procedure covers only the standard Article 6 temperature range. What is an acceptable course of action?",
+        "options": [
+          "Proceed, but double the penetrant dwell time to compensate for the slower penetration",
+          "Proceed, provided the penetrant cans have been kept at room temperature so the liquid stays thin",
+          "Proceed using dry developer, which is not affected by the low part temperature",
+          "Warm the area locally so the part stays within 40–125 °F (5–52 °C) throughout the examination"
+        ],
+        "answer": 3,
+        "explanation": "Article 6 permits local heating or cooling provided the part stays within the standard range throughout the examination. Below 40 °F the procedure must be qualified at the proposed temperature, for example with a comparator block; a doubled dwell applies only from 40 °F up to 50 °F (5–10 °C) and is not a license to work colder.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-04",
+        "topic": "Dwell and development",
+        "q": "Using the minimum dwell times in Article 6 (no qualified alternative), a weld is examined with its surface at 45 °F (7 °C). What is the minimum penetrant dwell time?",
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
+        "answer": 1,
+        "explanation": "Table T-672 gives 5 minutes for welds in the 50–125 °F (10–52 °C) range and requires twice the listed penetrant dwell from 40 °F up to 50 °F (5–10 °C): 2 × 5 = 10 minutes. Twenty minutes would be the doubled value for wrought products such as forgings, which are listed at 10 minutes.",
+        "ref": "ASME BPVC Section V, Article 6 (2023), Table T-672"
+      },
+      {
+        "id": "pt2s-05",
+        "topic": "Dwell and development",
+        "q": "Nonaqueous developer is sprayed on at 10:00 and the coating is dry at 10:03. With no alternative qualified, when may final interpretation be made?",
+        "options": [
+          "Between 10:00 and 10:30",
+          "Between 10:10 and 11:00",
+          "Between 10:13 and 11:03",
+          "At any time after 10:03"
+        ],
+        "answer": 2,
+        "explanation": "Article 6 starts the developing time when a wet developer coating is dry (10:03), and final interpretation is made not less than 10 nor more than 60 minutes after that: 10:13 to 11:03. Longer periods are allowed only if bleed-out does not alter the results, and a surface too large to finish within the window is examined in increments.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-06",
+        "topic": "Contaminant control",
+        "q": "Under Article 6 alone, for which material is certification of the contaminant content of the penetrant materials NOT required?",
+        "options": [
+          "Alloy 625 (nickel-base) weld overlay",
+          "SA-516 Grade 70 carbon steel plate",
+          "Type 316L austenitic stainless steel pipe",
+          "Grade 2 titanium tube"
+        ],
+        "answer": 1,
+        "explanation": "Article 6 requires contaminant certification for penetrant materials used on nickel-base alloys (sulfur), austenitic or duplex stainless steels and titanium (halogens). Carbon steel is not on that list, although a client specification may still call for low-contaminant materials.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-07",
+        "topic": "Contaminant control",
+        "q": "You are about to examine Type 304 stainless steel welds. The batch number on your penetrant can does not appear on any contaminant certification you hold. What should you do?",
+        "options": [
+          "Use it, because the same product name appears on a certification",
+          "Use it, and post-clean the welds thoroughly afterward",
+          "Use it, provided the can is still within its shelf life",
+          "Do not use that can until certification for that batch is obtained"
+        ],
+        "answer": 3,
+        "explanation": "Article 6 certifications must include the manufacturer's batch numbers and the test results, so they cover specific batches, not a product name. Without one, the batch cannot be shown to meet the halogen limits for austenitic stainless steel, and post-cleaning does not cure that.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-08",
+        "topic": "Technique restrictions",
+        "q": "A color contrast examination of a weld gave a doubtful result. The client asks you to re-examine the same area with a fluorescent penetrant for higher sensitivity. Under Article 6:",
+        "options": [
+          "Not permitted; a fluorescent examination shall not follow a color contrast one",
+          "Permitted once the area has been wiped clean with solvent",
+          "Permitted if both penetrants come from the same manufacturer",
+          "Required, because a fluorescent penetrant is more sensitive than visible dye"
+        ],
+        "answer": 0,
+        "explanation": "Visible dye left in the discontinuity can suppress the fluorescence of the second penetrant, so Article 6 prohibits a fluorescent examination after a color contrast one. A doubtful indication is resolved by re-examination as the procedure allows or by another method.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-09",
+        "topic": "Surface preparation",
+        "q": "Before examination, Article 6 requires the surface to be examined and the adjacent area to be dry and free of dirt, grease, scale, spatter, paint and similar matter. How far must the adjacent area extend as a minimum?",
+        "options": [
+          "1/2 in. (13 mm)",
+          "1 in. (25 mm)",
+          "2 in. (50 mm)",
+          "6 in. (150 mm)"
+        ],
+        "answer": 1,
+        "explanation": "Article 6 requires the examination surface and all adjacent areas within at least 1 in. (25 mm) to be clean and dry. Contamination next to the area can be carried into it and mask or mimic indications.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-10",
+        "topic": "Excess penetrant removal",
+        "q": "Water-washable penetrant is being removed with a water spray at 60 psi (414 kPa) and 100 °F (38 °C). Does this meet Article 6?",
+        "options": [
+          "Yes; both values are within the Article 6 limits",
+          "Yes, provided a coarse spray nozzle is used",
+          "No; the water temperature exceeds the Article 6 limit",
+          "No; the water pressure exceeds the 50 psi (350 kPa) limit"
+        ],
+        "answer": 3,
+        "explanation": "Article 6 limits the rinse to 50 psi (350 kPa) and 110 °F (43 °C). The temperature here is acceptable, but the pressure is too high and can wash penetrant out of discontinuities.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-11",
+        "topic": "Developers",
+        "q": "Which developer may NOT be used with a color contrast (visible) penetrant under Article 6?",
+        "options": [
+          "Nonaqueous (solvent-suspended) developer",
+          "Aqueous suspendable developer",
+          "Dry powder developer",
+          "None; any developer form may be used"
+        ],
+        "answer": 2,
+        "explanation": "Article 6 permits only wet developer with color contrast penetrants, since dry powder does not form the uniform white coating that red indications need. With fluorescent penetrants, either wet or dry developer may be used.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-12",
+        "topic": "Lighting",
+        "q": "Before evaluating a visible-dye examination, a white-light meter at the examination surface reads 80 fc (861 lx). What is the correct decision under Article 6?",
+        "options": [
+          "Not acceptable; raise the light to at least 100 fc (1,076 lx) at the surface",
+          "Acceptable; the Article 6 minimum for visible-dye evaluation is 50 fc (538 lx)",
+          "Acceptable, because natural daylight is available on site",
+          "Not acceptable; the minimum is 200 fc (2,152 lx)"
+        ],
+        "answer": 0,
+        "explanation": "Article 6 requires at least 100 fc (1,076 lx) of natural or supplemental white light at the examination surface for evaluating color contrast indications, measured with a white-light meter or provided by a verified light source. 80 fc falls short, so the lighting is improved before evaluation.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-13",
+        "topic": "Lighting",
+        "q": "A fluorescent examination series begins with a UV-A reading of 1,350 µW/cm² at the surface. The reading at the end of the series is 820 µW/cm². What is the most defensible action?",
+        "options": [
+          "Accept the results, since the opening reading met the requirement with margin to spare",
+          "Average the two readings (about 1,085 µW/cm²) and accept the results",
+          "Re-examine the work done since the last acceptable reading, at 1,000 µW/cm² or more",
+          "Record the low reading and lower the procedure minimum to 800 µW/cm²"
+        ],
+        "answer": 2,
+        "explanation": "Article 6 requires at least 1,000 µW/cm² at the surface and requires the intensity to be measured before use, whenever the power source is interrupted or changed, and at completion. A failed closing check means the work since the last good reading cannot be shown to meet the procedure, so it is repeated with the lamp restored or replaced, reprocessing any parts whose interpretation window has passed.",
+        "ref": "ASME BPVC Section V, Article 6 (2023); procedure logic"
+      },
+      {
+        "id": "pt2s-14",
+        "topic": "Calibration",
+        "q": "A UV-A radiometer was last calibrated 14 months ago and has been in storage since. Under Article 6, can it be used today?",
+        "options": [
+          "Yes, because it has not been used since it was calibrated",
+          "Yes, provided it agrees with a second meter in the shop",
+          "No; it must be replaced, because calibrated meters expire after 12 months",
+          "No; it must be calibrated first, as the annual calibration has lapsed"
+        ],
+        "answer": 3,
+        "explanation": "Article 6 requires visible and UV-A light meters to be calibrated at least once a year and whenever repaired, and a meter that has not been used for a year or more is calibrated before use. Recalibration, not replacement, returns it to service.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-15",
+        "topic": "Documentation",
+        "q": "An indication is found to be rejectable. As a minimum, what does Article 6 require to be recorded for it?",
+        "options": [
+          "Its type (linear or rounded), location and extent",
+          "Only the weld number and the word 'reject' on the summary sheet",
+          "A photograph of the developed indication with a scale in view",
+          "Its estimated depth below the surface and its length"
+        ],
+        "answer": 0,
+        "explanation": "Rejectable indications must be recorded with at least their type, location and extent. Nonrejectable indications are recorded as the referencing Code Section specifies; a photograph is one way to make the record but is not the minimum content.",
+        "ref": "ASME BPVC Section V, Article 6 (2023)"
+      },
+      {
+        "id": "pt2s-16",
+        "topic": "Acceptance: ASME VIII-1 App. 8",
+        "q": "Under ASME VIII Division 1 Mandatory Appendix 8, an isolated indication measures 3/32 in. (2.4 mm) long and 1/32 in. (0.8 mm) wide. What is the correct evaluation?",
+        "options": [
+          "Rejectable, because it is a relevant linear indication over 1/16 in. (1.5 mm)",
+          "Not relevant, because its width is below 1/16 in. (1.5 mm)",
+          "Rejectable, because every relevant rounded indication is rejectable",
+          "Acceptable: it is a relevant rounded indication not over 3/16 in. (5 mm)"
+        ],
+        "answer": 3,
+        "explanation": "Length ÷ width = (3/32) ÷ (1/32) = 3, and an indication is linear only when its length is greater than three times its width, so this one is rounded. Its major dimension of 3/32 in. exceeds 1/16 in., so it is relevant, but a relevant rounded indication is rejected only above 3/16 in. or when four or more lie in line at 1/16 in. or less apart.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 8 (2023)"
+      },
+      {
+        "id": "pt2s-17",
+        "topic": "Acceptance: ASME VIII-1 App. 8",
+        "q": "Under Appendix 8, four rounded indications, each about 3/32 in. (2.4 mm) in diameter, lie in a straight line with about 1/32 in. (0.8 mm) between adjacent edges. What is the evaluation?",
+        "options": [
+          "Acceptable, because each indication is under 3/16 in. (5 mm)",
+          "Rejectable: four or more in line, 1/16 in. (1.5 mm) or less apart edge to edge",
+          "Acceptable, because the in-line rule applies only to linear indications",
+          "Not relevant, because rounded indications under 1/8 in. (3 mm) are disregarded"
+        ],
+        "answer": 1,
+        "explanation": "Appendix 8 rejects four or more relevant rounded indications in a line separated by 1/16 in. or less, edge to edge, even when each one alone would be acceptable. Each is relevant because 3/32 in. exceeds the 1/16 in. relevance threshold.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 8 (2023)"
+      },
+      {
+        "id": "pt2s-18",
+        "topic": "Interpretation: ASME VIII-1 App. 8",
+        "q": "Under Appendix 8, an examiner believes an indication at a weld toe is nonrelevant and caused by surface geometry. How must it be treated?",
+        "options": [
+          "Recorded as nonrelevant on the examiner's judgment alone",
+          "Ignored if it is shorter than 3/16 in. (5 mm)",
+          "Regarded as an imperfection until re-examination shows otherwise",
+          "Accepted if a second qualified Level II examines it visually and agrees"
+        ],
+        "answer": 2,
+        "explanation": "Appendix 8 treats any indication believed nonrelevant as an imperfection until re-examination by the same or another NDE method, or surface conditioning, shows that no unacceptable imperfection is present. A doubtful indication is settled by evidence, not by opinion.",
+        "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 8 (2023)"
+      },
+      {
+        "id": "pt2s-19",
+        "topic": "Acceptance: ASME B31.3",
+        "q": "Random liquid penetrant examination specified by the engineering design for a Normal Fluid Service piping system reveals a crack in a fillet weld. The weld is ground out and rewelded. How must the repair be examined under ASME B31.3?",
+        "options": [
+          "Visually only, because the repaired length is short and the crack has been removed",
+          "By the same methods, extent and acceptance criteria as the original weld",
+          "By radiography, which replaces the original method for all repairs",
+          "Not at all, provided the welder holds a current qualification"
+        ],
+        "answer": 1,
+        "explanation": "B31.3 does not accept cracks, and it requires a defective item to be repaired or replaced and the new work reexamined by the same methods, to the same extent and by the same acceptance criteria as the original work. Because the defect was found by random examination, progressive sampling of that welder's work also applies.",
+        "ref": "ASME B31.3 (2022)"
+      },
+      {
+        "id": "pt2s-20",
+        "topic": "Acceptance: ASME B31.3",
+        "q": "Random PT specified by the engineering design for a B31.3 piping system finds a defect in one weld made by Welder W. Under progressive sampling, what is the next step besides repairing the defective weld?",
+        "options": [
+          "Examine two more of Welder W's welds of the same kind, by the same method",
+          "Examine every weld Welder W has made on the project",
+          "Examine one additional weld of the same kind made by any welder on the system",
+          "Nothing further; repairing the defective weld closes the matter"
+        ],
+        "answer": 0,
+        "explanation": "B31.3 progressive sampling first requires two additional samples of the same kind by the same welder, given the same examination. If both are acceptable, the items they represent are accepted; if either is defective, two further samples are examined for each defective item, and further defects lead to full examination, or repair or replacement, of all items represented.",
+        "ref": "ASME B31.3 (2022)"
+      }
+    ]
+  }
+}

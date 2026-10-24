@@ -1,5 +1,7 @@
-// "Get the editable Word/Excel version" request for the NDT report template
-// pages (2026-09-29). Sends through the same EmailJS enquiry path as
+// Custom-template quotation request on the NDT report template pages. 2026-09-29: was
+// "email me the editable version"; 2026-10-24 (owner): the Excel version is now a direct
+// download, so this form asks for templates in the visitor's own format and is quoted.
+// Originally (2026-09-29) Sends through the same EmailJS enquiry path as
 // EnquiryCaptureForm, subject "Template request — {method}". Falls back to a
 // mailto to info@atlantisndt.com when EmailJS env vars are missing.
 import { useRef, useState, FormEvent } from "react";
@@ -17,19 +19,19 @@ export default function TemplateRequestForm({ method, templateName }: Props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
-  const [format, setFormat] = useState("Word");
+  const [format, setFormat] = useState("This report in our company format");
   const [note, setNote] = useState("");
-  const subject = `Template request — ${method}`;
+  const subject = `Custom template quotation — ${method}`;
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
     if (submitting.current) return;
     submitting.current = true;
     const enquiryId = newEnquiryId();
-    const context = enquiryContext("reporting");
+    const context = enquiryContext("templates");
     setStatus("sending");
     const details =
-      `Enquiry ID: ${enquiryId}\nForm: template-request\nTemplate: ${templateName}\nFormat wanted: ${format}\n` +
+      `Enquiry ID: ${enquiryId}\nForm: custom-template-request\nTemplate: ${templateName}\nWhat is needed: ${format}\n` +
       `Name:    ${name}\nEmail:   ${email}\nCompany: ${company || "(not provided)"}\n` +
       `Source:  ${typeof window !== "undefined" ? window.location.pathname : "(unknown page)"}\n\nNote:\n${note || "(none)"}`;
     try {
@@ -63,7 +65,7 @@ export default function TemplateRequestForm({ method, templateName }: Props) {
         },
         { publicKey },
       );
-      trackAcceptedEnquiry(enquiryId, "template-request", "reporting", "emailjs");
+      trackAcceptedEnquiry(enquiryId, "custom-template-request", "templates", "emailjs");
       setStatus("sent");
     } catch (err) {
       console.error("EmailJS error", err);
@@ -76,12 +78,12 @@ export default function TemplateRequestForm({ method, templateName }: Props) {
   return (
     <section id="request-template" className="container mx-auto px-6 max-w-3xl py-10">
       <div className="rounded-xl border-2 border-primary/20 bg-white p-6">
-        <h2 className="text-2xl font-bold mb-2">Get the editable Word or Excel version</h2>
+        <h2 className="text-2xl font-bold mb-2">Need it in your own format? Request a custom template</h2>
         <p className="text-muted-foreground mb-5">
-          We will email you the editable {templateName} so you can add your logo and adjust fields to your procedure. Nothing else is sent unless you ask.
+          The Excel version of the {templateName} above is free to download. If you need it in your company's or your client's format, matched to your procedure and code, or a template for another method, tell us what you need and we will reply with a quotation.
         </p>
         {status === "sent" ? (
-          <p className="text-green-700 font-semibold">Thanks — the editable template is on its way to {email || "your inbox"}.</p>
+          <p className="text-green-700 font-semibold">Thanks. We have your request and will reply to {email || "your inbox"} with a quotation within one business day.</p>
         ) : (
           <form onSubmit={onSubmit} className="grid gap-4 sm:grid-cols-2">
             <label className="text-sm font-semibold">
@@ -97,23 +99,24 @@ export default function TemplateRequestForm({ method, templateName }: Props) {
               <input value={company} onChange={(e) => setCompany(e.target.value)} className="mt-1 w-full rounded-md border px-3 py-2 font-normal" />
             </label>
             <label className="text-sm font-semibold">
-              Format
+              What do you need?
               <select value={format} onChange={(e) => setFormat(e.target.value)} className="mt-1 w-full rounded-md border px-3 py-2 font-normal">
-                <option>Word</option>
-                <option>Excel</option>
-                <option>Both</option>
+                <option>This report in our company format</option>
+                <option>This report in our client's format</option>
+                <option>Templates for other methods</option>
+                <option>A complete report pack for our written practice</option>
               </select>
             </label>
             <label className="text-sm font-semibold sm:col-span-2">
-              Anything to adapt? (optional)
-              <textarea rows={2} value={note} onChange={(e) => setNote(e.target.value)} className="mt-1 w-full rounded-md border px-3 py-2 font-normal" placeholder="Client specification, extra fields, language…" />
+              Methods, industry, code or client specification (optional)
+              <textarea rows={2} value={note} onChange={(e) => setNote(e.target.value)} className="mt-1 w-full rounded-md border px-3 py-2 font-normal" placeholder="e.g. PAUT and TOFD for B31.3 piping; client format attached on reply" />
             </label>
             <button type="submit" disabled={status === "sending"} className="sm:col-span-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground disabled:opacity-60">
-              {status === "sending" ? "Sending…" : "Email me the editable template"}
+              {status === "sending" ? "Sending…" : "Request a quotation"}
             </button>
             {status === "error" && (
               <p className="sm:col-span-2 text-sm text-red-600">
-                Something went wrong. Email <a className="underline" href={`mailto:info@atlantisndt.com?subject=${encodeURIComponent(subject)}`}>info@atlantisndt.com</a> and we will send it.
+                Something went wrong. Email <a className="underline" href={`mailto:info@atlantisndt.com?subject=${encodeURIComponent(subject)}`}>info@atlantisndt.com</a> and we will reply with a quotation.
               </p>
             )}
           </form>

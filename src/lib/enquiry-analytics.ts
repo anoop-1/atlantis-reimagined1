@@ -91,6 +91,7 @@ export function businessEventFor(service: string, leadType = '', businessLine = 
 }
 /** Short tag put at the front of every enquiry email subject so Outlook rules can file it. */
 export function pipelineFor(service: string, leadType = ''): string {
+  if ((service || '').toLowerCase() === 'templates') return 'TEMPLATES'; // 2026-10-24: custom templates / practice exams quotation
   const ev = businessEventFor(service, leadType);
   switch (ev) {
     case 'erp_demo_request': return 'ERP';
@@ -124,7 +125,7 @@ export function isQualifiedLead(input: { email?: string; company?: string; stage
 const BUSINESS_LINE: Record<string, string> = {
   'level-iii': 'consulting', training: 'training', 'practical-ndt': 'practical-ndt', consulting: 'consulting', inspection: 'inspection',
   erp: 'software', reporting: 'software', lms: 'software', academy: 'training',
-  'digital-twins': 'digital-twins', dt: 'digital-twins', '3d-scanning': '3d-scanning',
+  'digital-twins': 'digital-twins', dt: 'digital-twins', '3d-scanning': '3d-scanning', templates: 'templates',
 };
 export function leadMeta(service: string, formId: string, leadType?: string) {
   let magnet = '';

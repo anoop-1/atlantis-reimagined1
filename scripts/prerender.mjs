@@ -88,6 +88,9 @@ import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from '.
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
+import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
+import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
+import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
 import { applyTrafficRoute, assertTrafficClean, trafficStats } from './traffic-2026-10-18.mjs'; // 2026-10-18 traffic workstream: FAQPage from visible Q&A on the pages it fixed
@@ -14170,6 +14173,9 @@ assertTrainingReleaseClean(BUILT_PATHS); // 2026-10-12 training release: Course 
 assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links built, no prices/dates/pass rates/venues, founder credential exact
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 assertTrainingConversionClean(BUILT_PATHS); // 2026-10-18: FAQ + eligibility pages built, bar targets built, no prices/names
+assertGeoDepthClean(BUILT_PATHS); // 2026-10-24: depth blocks pass the content rules, link only to built pages
+assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
+assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
@@ -14380,6 +14386,9 @@ routes.forEach(route => {
     route = applyVideoRoute(route); // 2026-10-10 §52: product video facade + VideoObject, ahead of coverage
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
+    route = applyGeoDepth(route); // 2026-10-24: researched local depth block (before routing + downloads)
+    route = applyIntentRoute(route); // 2026-10-24: intent routing (careers -> training + Practical NDT, calculators -> consulting/ERP, codes -> procedure + inspection + training)
+    route = applyDownloadsRoute(route); // 2026-10-24: free downloads + custom-templates quotation CTA, ahead of the coverage block
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyConsultingRoute(route); // 2026-10-19: Level III consulting services cards (/consulting, Level III page) + topic up-links on detailed consulting pages
     route = applyInspectionRegionalRoute(route); // 2026-10-19: regional inspection pages link up into the /inspection section (before the related links)

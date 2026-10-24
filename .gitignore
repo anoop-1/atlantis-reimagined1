@@ -93,3 +93,6 @@ scripts/depth-pages-routes.txt
 
 # Build-time TypeScript data cache
 .tsdata/
+
+# Python bytecode from the template/practice-pack builders (2026-10-24)
+__pycache__/

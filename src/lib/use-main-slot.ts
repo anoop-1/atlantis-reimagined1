@@ -6,7 +6,7 @@
 // HTML puts the same block. With neither, it returns null and the caller renders inline.
 import { useEffect, useState } from "react";
 
-const SLOT_ORDER = ["consultingsvc:", "availability:", "video:", "shots:", "coverage:", "inspection:", "related:", "next:", "training:"]; // inspection: (2026-10-19) sits just before the related links, as in the crawler HTML // training: last, as in the crawler HTML (2026-10-16)
+const SLOT_ORDER = ["consultingsvc:", "availability:", "video:", "shots:", "geodepth:", "route:", "downloads:", "coverage:", "inspection:", "related:", "next:", "training:"]; // inspection: (2026-10-19) sits just before the related links, as in the crawler HTML // training: last, as in the crawler HTML (2026-10-16)
 
 export function useMainSlot(key: string, active: boolean): HTMLElement | null {
   const [slot, setSlot] = useState<HTMLElement | null>(null);

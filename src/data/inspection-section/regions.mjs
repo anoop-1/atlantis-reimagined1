@@ -25,8 +25,10 @@ export const INSPECTION_REGIONS = {
       state('alaska', 'Alaska'), state('washington', 'Washington'), state('alabama', 'Alabama'), state('mississippi', 'Mississippi'),
       state('illinois', 'Illinois'), state('indiana', 'Indiana'), state('ohio', 'Ohio'), state('michigan', 'Michigan'),
       state('pennsylvania', 'Pennsylvania'), state('new-jersey', 'New Jersey'), state('new-york', 'New York'),
+      state('florida', 'Florida'), state('arizona', 'Arizona'), state('massachusetts', 'Massachusetts'), // 2026-10-24 targeted geo build
+      state('houston', 'Houston'), state('phoenix', 'Phoenix'), state('huntsville', 'Huntsville'), // city NDT inspection hubs (same URL family)
     ] },
-    { name: 'Canada', links: [tpi('calgary', 'Calgary'), tpi('edmonton', 'Edmonton'), tpi('fort-mcmurray', 'Fort McMurray'), tpi('halifax', 'Halifax')] },
+    { name: 'Canada', links: [state('alberta', 'Alberta'), state('ontario', 'Ontario'), state('manitoba', 'Manitoba'), state('calgary', 'Calgary (NDT inspection)'), tpi('calgary', 'Calgary'), tpi('edmonton', 'Edmonton'), tpi('fort-mcmurray', 'Fort McMurray'), tpi('halifax', 'Halifax')] },
     { name: 'Europe', links: [
       tpi('aberdeen', 'Aberdeen'), tpi('london', 'London'), tpi('glasgow', 'Glasgow'), tpi('edinburgh', 'Edinburgh'), tpi('newcastle', 'Newcastle'),
       tpi('rotterdam', 'Rotterdam'), tpi('antwerp', 'Antwerp'), tpi('hamburg', 'Hamburg'), tpi('bergen', 'Bergen'), tpi('gdansk', 'Gdańsk'),
@@ -103,12 +105,51 @@ const FAMILIES = [
   [/^\/inspection\/piping-circuit-inspection-cml$/, ['aim', 'rbi', 'pec', 'api']],
 ];
 
+// 2026-10-24 (targeted geo build, CLAUDE.md §62): every regional page links up to the general
+// "NDT inspection services in {place}" hub for its city, or its state/province hub; state hubs link
+// down to their city hubs. Live GSC showed "ndt calgary", "ndt inspections in phoenix", "ndt services
+// in huntsville al" and "ndt houston" landing on training/consulting pages for want of such a hub.
+const HUB = (slug, name) => [`/inspection-services-${slug}`, `NDT inspection services in ${name}`];
+const PLACE_HUB = [
+  // city hubs
+  [['houston'], HUB('houston', 'Houston')], [['calgary'], HUB('calgary', 'Calgary')],
+  [['phoenix'], HUB('phoenix', 'Phoenix')], [['huntsville'], HUB('huntsville', 'Huntsville')],
+  // state / province hubs for cities without their own hub
+  [['dallas', 'fort-worth', 'san-antonio', 'austin', 'corpus-christi', 'beaumont', 'port-arthur', 'midland', 'odessa', 'el-paso', 'baytown', 'pasadena-texas', 'deer-park', 'galveston', 'texas-city', 'freeport', 'freeport-texas', 'midland-texas'], HUB('texas', 'Texas')],
+  [['baton-rouge', 'new-orleans', 'lake-charles', 'shreveport'], HUB('louisiana', 'Louisiana')],
+  [['tulsa', 'oklahoma-city'], HUB('oklahoma', 'Oklahoma')],
+  [['los-angeles', 'san-diego', 'san-francisco', 'bakersfield', 'san-jose', 'sacramento', 'long-beach', 'oakland'], HUB('california', 'California')],
+  [['anchorage'], HUB('alaska', 'Alaska')], [['seattle', 'tacoma', 'spokane'], HUB('washington', 'Washington')],
+  [['mobile', 'birmingham', 'montgomery'], HUB('alabama', 'Alabama')], [['pascagoula', 'gulfport', 'jackson'], HUB('mississippi', 'Mississippi')],
+  [['chicago', 'joliet'], HUB('illinois', 'Illinois')], [['indianapolis', 'gary', 'whiting'], HUB('indiana', 'Indiana')],
+  [['cleveland', 'cincinnati', 'columbus-ohio', 'toledo-ohio'], HUB('ohio', 'Ohio')], [['detroit'], HUB('michigan', 'Michigan')],
+  [['pittsburgh', 'philadelphia'], HUB('pennsylvania', 'Pennsylvania')], [['newark'], HUB('new-jersey', 'New Jersey')],
+  [['new-york', 'buffalo'], HUB('new-york', 'New York')],
+  [['tampa', 'miami', 'jacksonville', 'orlando'], HUB('florida', 'Florida')], [['boston'], HUB('massachusetts', 'Massachusetts')],
+  [['tucson'], HUB('arizona', 'Arizona')], [['edmonton', 'fort-mcmurray'], HUB('alberta', 'Alberta')],
+  [['toronto', 'sarnia', 'hamilton', 'ottawa'], HUB('ontario', 'Ontario')], [['winnipeg'], HUB('manitoba', 'Manitoba')],
+];
+const CITY_PARENT = { houston: ['texas', 'Texas'], huntsville: ['alabama', 'Alabama'], phoenix: ['arizona', 'Arizona'], calgary: ['alberta', 'Alberta'] };
+const STATE_CHILDREN = { texas: ['houston', 'Houston'], alabama: ['huntsville', 'Huntsville'], arizona: ['phoenix', 'Phoenix'], alberta: ['calgary', 'Calgary'] };
+function placeHubFor(p) {
+  const m = /^\/inspection-services-([a-z-]+)$/.exec(p);
+  if (m) {
+    const c = STATE_CHILDREN[m[1]];
+    if (c) return HUB(c[0], c[1]);
+    const up = CITY_PARENT[m[1]];
+    return up ? HUB(up[0], up[1]) : null;
+  }
+  for (const [slugs, link] of PLACE_HUB) if (slugs.some((s) => p.endsWith(`-${s}`))) return link;
+  return null;
+}
+
 /** Up-link block for a regional inspection page, or null. Never links a page to itself. */
 export function inspectionRegionalLinksFor(path) {
   const p = (path || '').replace(/\/+$/, '') || '/';
   for (const [re, keys] of FAMILIES) {
     if (!re.test(p)) continue;
-    const links = [L.hub, ...keys.map((k) => L[k])].filter(([href]) => href !== p);
+    const place = placeHubFor(p);
+    const links = [L.hub, ...(place ? [place] : []), ...keys.map((k) => L[k])].filter(([href]) => href !== p);
     return {
       intro: 'Part of Atlantis NDT inspection services',
       links,

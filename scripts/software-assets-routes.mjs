@@ -63,7 +63,7 @@ const methodRoutes = T.methods.map((m) => ({
   bodyContent: page(
     m.h1,
     m.lead,
-    `<p><a href="${m.printUrl}">Printable template (save as PDF)</a> · <a href="${m.csvUrl}" download>Download CSV</a> · <a href="/contact?service=reporting&amp;subject=${encodeURIComponent(m.subject)}">Request the editable Word/Excel version</a></p>`,
+    `<p><a href="/templates/xlsx/${m.slug}.xlsx" download>Download Excel (.xlsx)</a> · <a href="${m.printUrl}">Printable template (save as PDF)</a> · <a href="${m.csvUrl}" download>Download CSV</a> · <a href="/contact?service=templates&amp;subject=${encodeURIComponent(`Custom template quotation — ${m.short || m.h1}`)}">Custom template? Request a quotation</a></p>`,
     m.bodyHtml,
   ),
   structuredData: {
@@ -87,6 +87,7 @@ const methodRoutes = T.methods.map((m) => ({
         associatedMedia: [
           { '@type': 'MediaObject', name: `${m.h1} (print view)`, contentUrl: `${SITE}${m.printUrl}`, encodingFormat: 'text/html' },
           { '@type': 'MediaObject', name: `${m.h1} (CSV)`, contentUrl: `${SITE}${m.csvUrl}`, encodingFormat: 'text/csv' },
+          { '@type': 'MediaObject', name: `${m.h1} (Excel)`, contentUrl: `${SITE}/templates/xlsx/${m.slug}.xlsx`, encodingFormat: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' },
         ],
       },
       faqPage(m.faqs),

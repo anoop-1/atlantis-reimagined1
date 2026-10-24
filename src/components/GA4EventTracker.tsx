@@ -25,9 +25,12 @@ export default function GA4EventTracker() {
       // 2026-10-18: training CTA bar (Check your eligibility / Training FAQs).
       const barVariant = a.getAttribute('data-cta-variant') || '';
       if (barVariant.startsWith('training-bar-')) { trackEngagement('training_cta_click', { cta_variant: barVariant, destination_path: url.pathname }); return; }
-      if (/^\/templates\/.+\.(xlsx|docx|pdf|csv)$/i.test(url.pathname)) { trackEngagement('template_download', { template_file: url.pathname.split('/').pop() }); return; }
+      if (/^\/(templates|downloads)\/.+\.(xlsx|docx|pdf|csv)$/i.test(url.pathname)) { trackEngagement('template_download', { template_file: url.pathname.split('/').pop(), download_kind: a.closest('[data-free-downloads]') ? 'free-downloads-block' : '(inline)' }); return; } // 2026-10-24: /downloads/practice PDFs too
+      // 2026-10-24: intent-routing block (reading page -> product page).
+      const routeKind = a.getAttribute('data-route-link');
+      if (routeKind && url.pathname !== '/contact') { trackEngagement('intent_route_click', { route_kind: routeKind, destination_path: url.pathname }); return; }
       if (url.pathname === '/contact') {
-        const allowed = ['training','erp','consulting','digital-twins','3d-scanning','reporting','inspection','practical-ndt'];
+        const allowed = ['training','erp','consulting','digital-twins','3d-scanning','reporting','inspection','practical-ndt','templates'];
         const requested = url.searchParams.get('service') || '';
         const service = allowed.includes(requested) ? requested : serviceForPath(window.location.pathname);
         rememberEnquiryIntent(service);

@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}", "./src/data/inspection-section/**/*.mjs", "./src/data/service-section/**/*.mjs", "./src/data/consulting-section/**/*.mjs"], // 2026-10-19: the inspection section's shared class names (crawler + React)
+  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}", "./src/data/inspection-section/**/*.mjs", "./src/data/service-section/**/*.mjs", "./src/data/consulting-section/**/*.mjs", "./src/data/free-downloads-2026-10.mjs", "./src/data/intent-routes-2026-10.mjs"], // 2026-10-19: the inspection section's shared class names (crawler + React)
   prefix: "",
   theme: {
     container: {
