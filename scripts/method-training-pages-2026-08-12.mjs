@@ -133,8 +133,13 @@ export const METHOD_TRAINING = {
   },
 };
 
+// 2026-10-25: the pages shipped as a bare <section> with no site header and no <main>, so the
+// crawler HTML had no navigation links and none of the global main-slot blocks (intent routes,
+// downloads, related links) could attach. Wrapped in the standard header + main like other pages.
+const NAV = '<header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/inspection">Inspection</a><a href="/erp">ERP</a><a href="/practical-ndt">Practical NDT</a><a href="/contact">Contact</a></nav></header>';
+
 function body(slug, m) {
-  return `
+  return `${NAV}<main>
     <section aria-label="${esc(m.name)} training in detail">
       <h1>${esc(m.title)}</h1>
       <p>${esc(m.hero)}</p>
@@ -142,12 +147,12 @@ function body(slug, m) {
       <h2>What ${esc(m.short)} training actually covers</h2>
       <p>${esc(m.physics)}</p>
 
-      <h2>${esc(m.short)} training by certification level</h2>
-      <h3>${esc(m.short)} Level I</h3>
+      <h2>${esc(m.short)} training by certification level: Level 1, 2 and 3</h2>
+      <h3>${esc(m.short)} Level 1 (Level I) training</h3>
       <p>${esc(m.levels.one)}</p>
-      <h3>${esc(m.short)} Level II</h3>
+      <h3>${esc(m.short)} Level 2 (Level II) training</h3>
       <p>${esc(m.levels.two)}</p>
-      <h3>${esc(m.short)} Level III</h3>
+      <h3>${esc(m.short)} Level 3 (Level III) training</h3>
       <p>${esc(m.levels.three)}</p>
 
       <h2>How the pathway is structured</h2>
@@ -177,14 +182,15 @@ function body(slug, m) {
       <p>Under SNT-TC-1A, no — employer-based certification lapses when you leave, though your documented experience travels with you and the new employer can certify you against their Written Practice. Under ISO 9712 the certificate is yours. This distinction is worth understanding before choosing a route. <a href="/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison">The comparison in full</a>.</p>
 
       <p>Next: <a href="/training">all NDT training programmes</a> · <a href="/ndt-training-near-me">finding training near you</a> · <a href="/contact?service=training">ask about ${esc(m.short)} training for your team</a>.</p>
-    </section>`;
+    </section></main>`;
 }
 
 /** Routes to inject — these paths do not exist yet, so they are pushed as new prerender entries. */
 export function methodTrainingRoutes() {
   return Object.entries(METHOD_TRAINING).map(([slug, m]) => ({
     path: `/${slug}`,
-    title: `${m.title} | Atlantis NDT`,
+    // 2026-10-25: numerals lead the title (the queries say "level 1", not "level I"); <= 60 chars.
+    title: `${m.name.replace(/ \(.*\)$/, '')} Training: ${m.short} Level 1, 2 and 3`,
     description: m.desc,
     canonical: `https://atlantisndt.com/${slug}`,
     bodyContent: body(slug, m),

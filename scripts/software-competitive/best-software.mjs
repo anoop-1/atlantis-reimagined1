@@ -15,7 +15,10 @@ const META = (p) => WAVE16[p] || WAVE15[p];
 
 export const BEST_PATH = '/best-ndt-reporting-software-2026';
 export const BEST_TITLE = META(BEST_PATH).title;
-export const BEST_H1 = 'Best NDT Reporting Software: Nine Platforms Compared by an ASNT Level III';
+// 2026-10-25: H1 and title name "NDT software" as well — Google already sends this page "ndt software"
+// (406 impr / 90d at p20.3), "best ndt software" (67 at p6.2) and "non destructive testing software"
+// (59 at p25.1) alongside "ndt reporting software" (293 at p11.0); none of those words were in the title.
+export const BEST_H1 = 'Best NDT Software and NDT Reporting Software: Nine Platforms Compared by an ASNT Level III';
 export const BEST_DESC = META(BEST_PATH).description;
 /** Page intro under the H1, both layers (replaces the Round-7 intro in the crawler HTML). */
 export const BEST_INTRO = 'Reviewed by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience. Nine NDT reporting and management platforms are compared on what each vendor publishes about itself, with Atlantis included on the same terms and every competitor fact linked to its source.';
@@ -24,6 +27,18 @@ export const BEST_INTRO = 'Reviewed by Atlantis NDT founder Anoop Rayavarapu, AS
 export const BEST_ANSWER = {
   h2: 'What is NDT reporting software?',
   text: 'NDT reporting software turns field inspection data into signed, method-specific reports for UT, RT, MT, PT, VT, PAUT and other methods. It holds the template, the technician and the instrument behind each result, and the review and approval that release the report to the client. Some products stop at the report; an NDT ERP also runs certifications, dispatch and invoicing.',
+};
+
+/** 2026-10-25: "NDT software" is three different products; the head query mixes them (GSC 90d, see BEST_H1). */
+export const BEST_KINDS = {
+  h2: 'What does \u201cNDT software\u201d mean? Three kinds of product',
+  intro: 'Searches for NDT software mix three different products, and most buyers only need two of them. Knowing which one you are shopping for saves a demo cycle.',
+  items: [
+    ['Instrument and data-analysis software.', 'Supplied by the equipment maker to set up scans and analyse acquired data, for example Evident\u2019s <a href="https://ims.evidentscientific.com/en/insights/omnipc-freeware" rel="noopener">OmniPC</a> for OmniScan phased array and TOFD files, or Zetec\u2019s UltraVision. It reads the instrument\u2019s data. It does not run your jobs, your technicians\u2019 certificates or your invoices.'],
+    ['NDT reporting software.', 'Turns field results into signed, method-specific reports, with templates, review and approval. This page compares the platforms in this group.'],
+    ['NDT inspection management software, often called an NDT ERP.', 'Runs the business around the report: technician certifications, instrument calibration, dispatch, timesheets and invoicing. Atlantis is in this group; our page on <a href="/ndt-inspection-software">NDT inspection software</a> sets out what it covers.'],
+  ],
+  outro: 'Most inspection companies get the first kind with their instruments and choose one of the other two for everything after acquisition. The comparison below covers the second and third kinds side by side.',
 };
 
 /** Spreadsheets vs a reporting-only tool vs an NDT ERP, for report production (no vendor named). */
@@ -181,6 +196,10 @@ ${(f.paragraphs || []).map((p) => `<p>${esc(p)}</p>`).join('\n')}${f.bullets ? `
 <h2>${esc(BEST_ANSWER.h2)}</h2>
 <p>${esc(BEST_ANSWER.text)}</p>
 </section>
+<h2>${esc(BEST_KINDS.h2)}</h2>
+<p>${esc(BEST_KINDS.intro)}</p>
+<ul>${BEST_KINDS.items.map(([h, t]) => `<li><strong>${esc(h)}</strong> ${t}</li>`).join('')}</ul>
+<p>${esc(BEST_KINDS.outro)}</p>
 <p><strong>Short answer:</strong> the best NDT software for a North American inspection company is the one that covers the whole job, from the request to the invoice, without re-keying. On that test the platforms that actually compete are Floodlight, AgileNDT, DRIVE NDT, Zertify, OMS, InspectionBank, Waygate InspectionWorks, the product sold as NDT Reporting Software, and Atlantis. They are not interchangeable: some are reporting tools, some are data platforms, and a few run the business around the report. The table below shows where each one stops.</p>
 <p>Disclosure: Atlantis NDT publishes this page and is one of the platforms compared. The comparison is unranked and every competitor fact links to the vendor's own page, so you can check it.</p>
 <p data-last-reviewed="2026-10-18"><strong>Last reviewed:</strong> vendor pages re-checked on ${BEST_RECHECKED} by Anoop Rayavarapu, ASNT NDT Level III (UT, RT, MT, PT, VT).</p>
