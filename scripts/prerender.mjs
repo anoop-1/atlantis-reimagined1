@@ -48,6 +48,7 @@ import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './
 import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './ctr-wave11-overrides.mjs';
 import { CTR_WAVE12_OVERRIDES, assertWave12 } from './ctr-wave12-overrides.mjs';
 import { CTR_WAVE13_OVERRIDES, assertWave13 } from './ctr-wave13-overrides.mjs';
+import { CTR_WAVE17_OVERRIDES, assertWave17 } from './ctr-wave17-overrides.mjs'; // 2026-10-26 North American competitor keywords (CLAUDE.md §64)
 import { CTR_WAVE16_OVERRIDES, assertWave16 } from './ctr-wave16-overrides.mjs'; // 2026-10-18 competitor-teardown snippets (five workstream files)
 import { CTR_WAVE15_OVERRIDES, assertWave15 } from './ctr-wave15-overrides.mjs'; // 2026-10-17 ERP/software snippets (owner per intent)
 import { CTR_WAVE14_OVERRIDES, assertWave14 } from './ctr-wave14-overrides.mjs'; // 2026-10-17 ranking release (CLAUDE.md §58)
@@ -89,6 +90,7 @@ import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from '.
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
+import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
 import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
 import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
@@ -11990,8 +11992,11 @@ function _resolve3DScanArchetypeKey(slug) {
     'melbourne': { hook: 'Victoria\'s refinery + port + infrastructure hub', industries: 'Altona + Geelong refining (Viva Energy / ExxonMobil), Port of Melbourne + container terminals, Metro Tunnel BIM, heritage scanning, Yallourn + Loy Yang power infrastructure', deliverables: 'survey-grade point cloud, BIM + as-built CAD, DT-ready models, refinery turnaround scoping, port + container terminal scans, infrastructure + power deformation surveys' },
   };
   let _n = 0;
+  // 2026-10-26 §64: the city list is derived from other route families, so non-place slugs leaked in
+  // ("3D Scanning Services in Near ME", "… in Ndt Software"). They are not places; 301 to the hub (vercel.json).
+  const _NOT_PLACES = new Set(['near-me', 'ndt-software', 'online', 'usa', 'software-comparison', 'vs-3d-model-ndt', 'vs-generic-erp', 'api-510-570-580-mapping']);
   for (const city of _cities) {
-    if (city === 'services') continue;
+    if (city === 'services' || _NOT_PLACES.has(city)) continue;
     const name = _tc(city);
     const deep = DEEP_3D_SCAN[city];
     let body;
@@ -13117,6 +13122,7 @@ routes.push(apiGuideHubRoute());
   assertWave9Lengths(); assertNoPricesInWave9();
   assertWave11Lengths(); assertWave11Clean(); assertWave12();
   assertWave13();
+  console.log(`🎯 CTR wave 17 (NA competitor keywords, 2026-10-26): ${assertWave17()} overrides`);
   console.log(`🎯 CTR wave 16 (competitor teardown, 2026-10-18): ${assertWave16()} overrides`);
   assertWave15(); // 2026-10-17 ERP/software: geometry, no numerals, React copies in sync
   assertWave14();
@@ -14179,6 +14185,8 @@ assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links b
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 assertTrainingConversionClean(BUILT_PATHS); // 2026-10-18: FAQ + eligibility pages built, bar targets built, no prices/names
 assertGeoDepthClean(BUILT_PATHS); // 2026-10-24: depth blocks pass the content rules, link only to built pages
+assertWave17(BUILT_PATHS); // 2026-10-26: every wave 17 path is a built page
+assertNaKeywordDepthClean(BUILT_PATHS); // 2026-10-26 §64: competitor-keyword sections pass the content rules, link only to built pages
 assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
 assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
@@ -14196,6 +14204,7 @@ assertTrafficClean(BUILT_PATHS); // 2026-10-18 traffic: FAQ-rebuild paths are bu
 const AUTHORED_GEOMETRY_WAVES = [
   CTR_WAVE7_OVERRIDES, CTR_WAVE8_OVERRIDES, CTR_WAVE9_OVERRIDES, CTR_WAVE10_OVERRIDES,
   CTR_WAVE11_OVERRIDES, CTR_WAVE12_OVERRIDES, CTR_WAVE13_OVERRIDES,
+  CTR_WAVE17_OVERRIDES,
   CTR_WAVE16_OVERRIDES,
   CTR_WAVE15_OVERRIDES,
   CTR_WAVE14_OVERRIDES, // 2026-10-17 ranking release
@@ -14265,7 +14274,8 @@ routes.forEach(route => {
     // Wave 12 (2026-10-08) is the newest layer. See ctr-wave12-overrides.mjs.
     // Wave 13 (2026-10-10) is the newest layer. See ctr-wave13-overrides.mjs.
     // Wave 15 (2026-10-17, ERP/software paths only) outranks wave 14 (2026-10-17, non-software ranking release); see ctr-wave15/14-overrides.mjs.
-    const w11 = CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
+    // Wave 17 (2026-10-26, NA competitor keywords) is the newest layer; see ctr-wave17-overrides.mjs.
+    const w11 = CTR_WAVE17_OVERRIDES[route.path] || CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
     const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];
@@ -14435,6 +14445,7 @@ routes.forEach(route => {
       if (!route.bodyContent.includes('data-free-downloads="2026-10"')) route = applyDownloadsRoute(route);
       if (!route.bodyContent.includes('data-guide-library="2026-10"')) route = applyApiGuideLibrary(route);
     }
+    route = applyNaKeywordDepth(route); // 2026-10-26 §64: last body writer for its owner pages (H1 synonym + competitor-keyword section, idempotent)
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14447,6 +14458,7 @@ if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverr
 console.log(`🎯 CTR wave 10 applied: ${wave10Applied} routes`);
 console.log(`🧱 Main layout: ${mainLayoutWrapped} bare page bodies wrapped in the site header + <main>`);
 assertApiGuideLibraryClean(BUILT_PATHS);
+console.log(`🔑 NA keywords 2026-10-26: ${naKeywordStats.blocks} competitor-keyword sections, ${naKeywordStats.h1} H1 synonyms written`);
 console.log(`🛒 Training conversion 2026-10-18: ${trainingConversionStats.pages} pages, CTA bar on ${trainingConversionStats.bars} training pages`);
 console.log(`🏷️  ACCP -> ASNT 9712 wording: ${accpRewritten} mentions on ${accpPages} pages`);
 console.log(`🧲 Lead magnets (static): mock_exam ${leadMagnetStats.mock_exam}, gap_check ${leadMagnetStats.gap_check}, career ${leadMagnetStats.career}, inspection_consult ${leadMagnetStats.inspection_consult}, method_training ${leadMagnetStats.method_training}`);

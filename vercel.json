@@ -2991,6 +2991,46 @@
       "source": "/ndt-consulting-calgary",
       "destination": "/consulting/ndt-consulting-calgary",
       "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-near-me",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-ndt-software",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-online",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-usa",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-software-comparison",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-vs-3d-model-ndt",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-vs-generic-erp",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-api-510-570-580-mapping",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
     }
   ],
   "rewrites": []

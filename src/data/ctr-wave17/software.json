@@ -1,0 +1,19 @@
+{
+  "_note": "CTR wave 17 (software, 2026-10-26): North American competitor keywords (CLAUDE.md §64). Path -> title (<=60), description (140-155). Merged by scripts/ctr-wave17-overrides.mjs. /ndt-erp-solution and /erp/apps/ndt-reports are retitled in ctr-wave15-software-meta.json instead (one source: their React readers use that file).",
+  "/drive-ndt-alternatives": {
+    "title": "DRIVE NDT Alternatives 2026: NDT Workflow Software Compared",
+    "description": "DRIVE NDT alternatives for North American inspection companies: Floodlight, Agile NDT, OMS, InspectionBank, Zertify and Atlantis compared on the workflow."
+  },
+  "/erp/apps/certificates": {
+    "title": "NDT Certification Tracking and Records Management Software",
+    "description": "NDT certification records management: technician certificates by scheme, method and level, vision tests and expiry warnings, for SNT-TC-1A and CP-189."
+  },
+  "/erp/apps/asset-management": {
+    "title": "NDT Equipment Tracking and Calibration Scheduling Software",
+    "description": "Inspection equipment tracking by serial number: calibration scheduling, certificates and due dates, issue and return, and a warning before an item is used."
+  },
+  "/inspection-management-software": {
+    "title": "NDT Inspection Management Software for Service Companies",
+    "description": "Inspection management software built for NDT service companies, not asset owners: personnel qualification, calibration control, crew scheduling, reports."
+  }
+}

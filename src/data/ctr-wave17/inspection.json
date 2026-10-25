@@ -1,0 +1,59 @@
+{
+  "_note": "CTR wave 17 (inspection, 2026-10-26): North American competitor keywords (CLAUDE.md §64). Path -> title (<=60), description (140-155). Merged by scripts/ctr-wave17-overrides.mjs.",
+  "/eddy-current-tube-inspection": {
+    "title": "Heat Exchanger Tube Inspection Services: ECT, RFT, IRIS",
+    "description": "Heat exchanger inspection services in the US and Canada: eddy current for non-ferrous tubes, RFT and IRIS for carbon steel, tube maps and plugging lists."
+  },
+  "/pipeline-inspection-services": {
+    "title": "Pipeline Integrity Inspection: ILI Verification, UT, PAUT",
+    "description": "Pipeline integrity inspection at the dig: ILI verification with UT, PAUT and MPI, touch-point and CUI checks, Level III-reviewed. We do not run ILI tools."
+  },
+  "/inspection/third-party-inspection-houston": {
+    "title": "Vendor and Source Inspection Houston: Third Party Inspection",
+    "description": "Vendor inspection and source inspection at Houston supplier works: ITP hold points witnessed, NDE reviewed, MTR heat numbers verified before release."
+  },
+  "/inspection/phased-array-inspection-services": {
+    "title": "Phased Array Ultrasonic Testing Services (PAUT Inspection)",
+    "description": "Phased array ultrasonic testing services across the USA: encoded PAUT weld exams, corrosion mapping and crack sizing, with raw data and Level III review."
+  },
+  "/magnetic-flux-leakage-testing": {
+    "title": "MFL Inspection: Magnetic Flux Leakage Testing Explained",
+    "description": "MFL inspection explained: how magnetic flux leakage tools scan tank floors, pipelines and wire rope for metal loss, their limits, and why UT confirms it."
+  },
+  "/services/mfl-pipeline-inspection": {
+    "title": "MFL Corrosion Inspection for Pipelines: ILI and Dig Checks",
+    "description": "How MFL corrosion inspection finds metal loss in pipelines, what in-line tools miss, and how UT and PAUT at the dig confirm each call. We do not run ILI."
+  },
+  "/inspection/ndt-inspection-services": {
+    "title": "Nondestructive Testing Services: Advanced and Conventional",
+    "description": "Nondestructive testing services by the names buyers use: magnetic particle inspection, dye penetrant, industrial X-ray, PAUT, MFL and heat exchanger ECT."
+  },
+  "/magnetic-particle-testing": {
+    "title": "Magnetic Particle Inspection (MPI) and MT Testing Services",
+    "description": "Magnetic particle inspection on site across the USA: yoke, prod and coil MT, visible or wet fluorescent, to ASTM E709 and ASME V Article 7, Level III-led."
+  },
+  "/penetrant-testing": {
+    "title": "Liquid Penetrant Testing Services: Dye Penetrant Inspection",
+    "description": "Liquid penetrant testing services and dye penetrant inspection: visible and fluorescent PT to ASME V Article 6 and ASTM E165, Level III-reviewed reports."
+  },
+  "/radiographic-testing": {
+    "title": "Radiographic Testing Services: Industrial X-Ray and Gamma",
+    "description": "Industrial X-ray and gamma radiographic testing to ASME Section V Article 2 and ISO 17636: technique set for your wall thickness, IQI-proven sensitivity."
+  },
+  "/inspection/turnarounds-shutdowns": {
+    "title": "Turnaround Inspection Services: Shutdown NDT and Planning",
+    "description": "Turnaround inspection services: NDE scope planned from your API 510 and 570 work lists, vessel, exchanger and piping NDT, repair NDE and daily reporting."
+  },
+  "/inspection/aboveground-storage-tank-inspection": {
+    "title": "Aboveground Storage Tank (AST) Inspection Services: API 653",
+    "description": "AST inspection to API 653: routine, external, UT and internal scope, MFL tank floor scans, settlement survey and the interval calculation, Level III-led."
+  },
+  "/inspection/pressure-vessel-inspection-services": {
+    "title": "API 510 Pressure Vessel Inspection Services (NDE Support)",
+    "description": "API 510 pressure vessel inspection support across the USA: external and internal NDE, UT and PAUT at CMLs, corrosion mapping, Level III-reviewed reports."
+  },
+  "/inspection/ndt-inspection-services/advanced-ndt/mfl-tank-floor-inspection": {
+    "title": "MFL Tank Floor Inspection and Scanning for API 653",
+    "description": "MFL tank floor inspection of aboveground storage tanks: magnetic flux leakage floor scanning with UT prove-up, to API 653 and its Annex G qualification."
+  }
+}

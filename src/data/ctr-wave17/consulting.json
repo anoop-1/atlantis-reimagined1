@@ -1,0 +1,23 @@
+{
+  "_note": "CTR wave 17 (consulting, 2026-10-26): North American competitor keywords (CLAUDE.md §64). Path -> title (<=60), description (140-155). Merged by scripts/ctr-wave17-overrides.mjs.",
+  "/consulting": {
+    "title": "NDT Consulting Services: Level III NDT Program Management",
+    "description": "NDT consulting and NDT program management by an ASNT NDT Level III: written practices, procedure approval, exams, certification files and audit readiness."
+  },
+  "/consulting/ndt-technical-procedure-development": {
+    "title": "NDT Procedure Writing and Development: Level III Review",
+    "description": "NDT procedure writing and review by an ASNT NDT Level III: UT, PAUT, TOFD, RT, MT, PT and VT procedures and technique sheets to ASME Section V and AWS."
+  },
+  "/ndt-written-practice-development": {
+    "title": "NDT Written Practice Development and Review (SNT-TC-1A)",
+    "description": "NDT written practice development, review and revision by a named ASNT NDT Level III: new or updated to SNT-TC-1A or CP-189, with record templates."
+  },
+  "/consulting/ndt-audit-consulting": {
+    "title": "NDT Auditing Services: Level III Audits and Audit Prep",
+    "description": "NDT auditing services and compliance audit preparation by an ASNT Level III: written practice, certification files, procedures and reports checked first."
+  },
+  "/consulting/subcontractor-approval-audits": {
+    "title": "NDT Supplier Audits and Subcontractor Approval Audits",
+    "description": "NDT supplier audits by an ASNT NDT Level III: prepare for a client's subcontractor approval audit, or audit NDT subcontractors before you approve them."
+  }
+}

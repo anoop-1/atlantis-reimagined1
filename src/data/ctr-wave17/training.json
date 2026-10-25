@@ -1,0 +1,31 @@
+{
+  "_note": "CTR wave 17 (training, 2026-10-26): North American competitor keywords (CLAUDE.md §64). Path -> title (<=60), description (140-155). Merged by scripts/ctr-wave17-overrides.mjs.",
+  "/training": {
+    "title": "NDT Training Courses: Level 1, 2, 3 Program (SNT-TC-1A)",
+    "description": "Non-destructive testing courses and NDT training programs to SNT-TC-1A: UT, RT, MT, PT, VT and more, Level 1 to 3, self-paced online, Level III support."
+  },
+  "/ndt-level-1-training": {
+    "title": "NDT Level 1 Training: Intro to NDT Course and Certification",
+    "description": "NDT Level 1 (Level I) training: an introduction to NDT course, the training and experience hours per method, and how your employer certifies you."
+  },
+  "/ut-level-1-training": {
+    "title": "UT Level 1 Course: Ultrasonic Testing and Thickness Gauging",
+    "description": "UT Level 1 course to ASNT SNT-TC-1A, including ultrasonic thickness measurement to ASTM E797: self-paced online theory, practical on site, Level III-led."
+  },
+  "/asnt-level-2-ut-online-course": {
+    "title": "UT Level 2 Online Course: ASNT Level II Ultrasonic Testing",
+    "description": "UT Level 2 online course: shear-wave weld examination, DAC and TCG calibration, flaw sizing and ASME and AWS acceptance, with the practical on site."
+  },
+  "/ultrasonic-testing-training": {
+    "title": "Ultrasonic Testing Training Course: UT Level 1, 2 and 3",
+    "description": "Ultrasonic testing training and ultrasonic inspection courses at Level I, II and III: the physics, the calibration skills and what the practical tests."
+  },
+  "/paut-level-2-training-course": {
+    "title": "PAUT Level 2 Training Course and Level II Refresher",
+    "description": "PAUT Level 2 training course and Level II refresher: phased array weld examination and corrosion mapping to ASME Section V, on the SNT-TC-1A pathway."
+  },
+  "/asnt-level-iii-basic-exam-prep": {
+    "title": "ASNT Level III Basic Exam Prep and Refresher Course",
+    "description": "ASNT Level III Basic exam prep and refresher: the five content domains of the 135-question exam, a study plan, and self-paced prep with Level III support."
+  }
+}

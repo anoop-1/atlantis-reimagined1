@@ -1,12 +1,12 @@
 {
-  "_note": "CTR wave 15 (2026-10-17): ERP / NDT software snippets, one source. Read by scripts/ctr-wave15-overrides.mjs (crawler), src/data/money-pages.ts (/ndt-inspection-software, both layers), scripts/software-competitive/best-software.mjs (/best-ndt-reporting-software-2026, both layers), scripts/erp-generic-positioning.mjs (ERP_HUB_META /ndt-erp-solution) and src/pages/ndt-erp-solution.tsx, NDTConnect.tsx. Depth pages, blogs.json posts and src/data/erp-apps/*.json carry copies that assertWave15 checks for equality. Rules: title <= 60, description 140-155, no numerals except standards designations, no prices. 2026-10-18: paths retitled in CTR wave 16 (src/data/ctr-wave16/software.json) were moved there and removed here: /ndt-inspection-software, /best-ndt-reporting-software-2026, /erp/software-for-tank-inspection-companies-us, /erp/software-for-pipeline-inspection-companies-us, /erp/software-for-refinery-petrochemical-inspection-us, /blog/construction-quality-assurance-software-third-party-inspection-meets-erp.",
+  "_note": "CTR wave 15 (2026-10-17): ERP / NDT software snippets, one source. Read by scripts/ctr-wave15-overrides.mjs (crawler), src/data/money-pages.ts (/ndt-inspection-software, both layers), scripts/software-competitive/best-software.mjs (/best-ndt-reporting-software-2026, both layers), scripts/erp-generic-positioning.mjs (ERP_HUB_META /ndt-erp-solution) and src/pages/ndt-erp-solution.tsx, NDTConnect.tsx. Depth pages, blogs.json posts and src/data/erp-apps/*.json carry copies that assertWave15 checks for equality. Rules: title <= 60, description 140-155, no numerals except standards designations, no prices. 2026-10-18: paths retitled in CTR wave 16 (src/data/ctr-wave16/software.json) were moved there and removed here: /ndt-inspection-software, /best-ndt-reporting-software-2026, /erp/software-for-tank-inspection-companies-us, /erp/software-for-pipeline-inspection-companies-us, /erp/software-for-refinery-petrochemical-inspection-us, /blog/construction-quality-assurance-software-third-party-inspection-meets-erp. 2026-10-26 (CLAUDE.md §64): /ndt-erp-solution and /erp/apps/ndt-reports retitled from the North American competitor-keyword research here (their React readers use this file), not in wave 17.",
   "/ndt-erp-solution": {
-    "title": "How an NDT ERP Works: From Certificates to Invoices",
-    "description": "How an ERP built for NDT companies links technician certifications, instrument calibration, crew dispatch, method reports and invoicing. Free trial."
+    "title": "NDT Management Software (NDT ERP): Certificates to Invoices",
+    "description": "NDT management software for inspection companies: technician certificates, calibration, dispatch, offline method reports, e-signature and invoicing."
   },
   "/erp/apps/ndt-reports": {
-    "title": "NDT Reports App in Atlantis ERP: Field to Signed Report",
-    "description": "The NDT Reports app inside Atlantis ERP: method-specific reports, offline field capture, review and approval with signatures, your own templates."
+    "title": "NDT Report Software: Custom Templates and E-Signature",
+    "description": "NDT reporting software with a custom report template for each method, offline field capture, review and approval with electronic signature, your layout."
   },
   "/erp/apps/ndt-reports/usa": {
     "title": "NDT Reports App for US Inspection Companies",
