@@ -3499,6 +3499,8 @@ Owner: "go on ahead with the plan … all the new pages and unlisted pages or un
 - ERP feature claims in those sections were checked against the app pages first (timesheets warn on invalid certificates; Team Assignments blocks double-booking and warns on out-of-calibration equipment; reports approve with signatures; procedures have locked approved revisions and history). **No claim of dispatch blocking on certificates, audit trail on every record, or NCRs** — not verified.
 - **3D scanning junk slugs**: the 3D city list is derived from other route families, so "near-me", "ndt-software", "online", "usa", "software-comparison", "vs-3d-model-ndt", "vs-generic-erp", "api-510-570-580-mapping" rendered as "3D Scanning Services in Near ME". Excluded in the generator (`_NOT_PLACES`) and 301'd to /3d-scanning-services.
 
+- **Live 2026-10-26** (commits 83dc1229 + 84ec382f, deploy run success): 32/32 titles and descriptions, 18/18 sections and 13/13 H1s verified in dist; live curl and the rendered page in Chrome show the new title, H1 and section (React keeps them). IndexNow: 34 changed URLs accepted (`scripts/indexing-url-list-2026-10-26.json`). Next GSC Request-indexing quota goes to these owner pages, inspecting first.
+
 ### 64.4 Not done, and why
 - The owner's "reverse-engineer anything" repo on the Mac was not used: the folder-access request timed out and was not repeated (ask in chat; retry only when the owner says it is ready). The research used public competitor pages and directories instead.
 - 235 thin /ndt-erp-<place> pages carry "inspection management software" in title/H1 and compete with /inspection-management-software — queued for Sprint 2 (retitle the template, do not delete).
