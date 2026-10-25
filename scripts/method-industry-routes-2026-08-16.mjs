@@ -44,6 +44,11 @@ const INDUSTRY_LINKS = {
   rail: { consulting: null, training: '/manufacturing-ndt-training' },
 };
 
+// 2026-10-25: GSC lists 18 of these pages as "Soft 404" (crawled mid-September). They shipped as a bare
+// <article> with no site header and no <main>, so crawlers saw a page with no navigation and none of the
+// global main-slot blocks could attach. Wrapped in the standard header + main like the rest of the site.
+const NAV = '<header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/inspection">Inspection</a><a href="/erp">ERP</a><a href="/practical-ndt">Practical NDT</a><a href="/contact">Contact</a></nav></header>';
+
 function body(methodKey, industryKey) {
   const m = METHODS[methodKey];
   const ind = INDUSTRIES[industryKey];
@@ -54,7 +59,7 @@ function body(methodKey, industryKey) {
   const otherMethods = Object.keys(METHODS).filter((k) => k !== methodKey)
     .map((k) => L(`/${k}-${industryKey}`, METHODS[k].short)).join(' · ');
 
-  return `
+  return `${NAV}<main>
   <article>
     <h1>${esc(m.name)} in ${esc(ind.name)}: What It Finds, What It Misses, and What Governs It</h1>
 
@@ -91,7 +96,7 @@ function body(methodKey, industryKey) {
 
     <h2>Other methods in ${esc(ind.name.toLowerCase())}</h2>
     <p>${otherMethods}.</p>
-  </article>`;
+  </article></main>`;
 }
 
 export function methodIndustryRoutes() {

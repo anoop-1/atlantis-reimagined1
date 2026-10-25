@@ -68,7 +68,7 @@ for (const [path, { file }] of pages) {
     if (upgrade.description) $('meta[name="description"]').attr('content', upgrade.description);
     if (upgrade.replaceMain) {
       // 2026-10-24: keep the prerender-written depth / routing / downloads blocks when the main is replaced.
-      const keep = $('main section[data-geo-depth="2026-10"],main section[data-intent-route="2026-10"],main section[data-free-downloads="2026-10"]').map((_, e) => $.html(e)).get().join('');
+      const keep = $('main section[data-geo-depth="2026-10"],main section[data-intent-route="2026-10"],main section[data-free-downloads="2026-10"],main section[data-keep-on-rewrite]').map((_, e) => $.html(e)).get().join('');
       $('main').html(upgrade.replaceMain + keep); $('script[type="application/ld+json"]').remove();
     }
     if (upgrade.html) $('main').append(upgrade.html);

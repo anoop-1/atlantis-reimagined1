@@ -47,7 +47,7 @@ export function applyEditorialQuality($,path){
    const fees=root.find('section[data-approved-training-fees]').first();const feesHtml=fees.length?$.html(fees):'';
    // 2026-10-24: the intent-routing block and the free-downloads block are written by prerender for this path
    // (scripts/intent-routes-2026-10.mjs, scripts/free-downloads-2026-10.mjs); carry them into the rewritten main.
-   const keep=root.find('section[data-geo-depth="2026-10"],section[data-intent-route="2026-10"],section[data-free-downloads="2026-10"]').map((_,e)=>$.html(e)).get().join('');
+   const keep=root.find('section[data-geo-depth="2026-10"],section[data-intent-route="2026-10"],section[data-free-downloads="2026-10"],section[data-keep-on-rewrite]').map((_,e)=>$.html(e)).get().join('');
    root.children().not('script,style,header,footer,nav').remove();root.prepend('<main>'+String(u.html).split('<!--training-fees-slot-->').join(feesHtml)+keep+'</main>');}
   else{root.find('[data-editorial-upgrade]').remove();const html='<section data-editorial-upgrade="2026-10-12">'+u.html+'</section>';root.find('main').length?root.find('main').first().append(html):root.append(html);}
   changed=true;

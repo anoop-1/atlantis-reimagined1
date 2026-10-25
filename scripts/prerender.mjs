@@ -19,6 +19,7 @@ import { ABOUT, aboutBodyHtml } from './about-page-2026-10.mjs';
 import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes, extractFromTsx, propsFromPageFile, extractAppRoutes } from './route-reconcile.mjs';
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { methodTrainingRoutes, assertNoPricesInMethodTraining } from './method-training-pages-2026-08-12.mjs';
+import { apiGuideHubRoute, applyApiGuideLibrary, assertApiGuideLibraryClean } from './api-guide-library-2026-10.mjs'; // 2026-10-25 §64: hub + topical links for the 50 API guides
 import { ndtSchoolRoute, assertNoPricesInNdtSchool } from './ndt-school-page-2026-08-16.mjs';
 import { predixAlternativesRoute, assertNoPricesInDtPhase } from './phase-d-dt-2026-08-16.mjs';
 import { industryMatrixRoutes, applyIndustryMatrixInbound, assertNoPricesInIndustryMatrix, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
@@ -12971,6 +12972,10 @@ ${urls}
   console.log(`🎓 Method-training pages: ${mt.length} added (UT/RT/MT/PT/VT/ET)`);
 }
 
+// ─── /api-inspection hub 2026-10-25 (§64) ───────────────────────────────
+// 23 of the 50 API guides sat in "Discovered – currently not indexed" with 2–7 inbound links each.
+routes.push(apiGuideHubRoute());
+
 // ─── /ndt-school 2026-08-16 (Phase T2) ──────────────────────────────────
 // School-intent cluster ranks p3.5–13 in the USA with clicks and NO owning
 // page — 21 queries scattered across city pages and the salary guide.
@@ -14195,6 +14200,21 @@ const AUTHORED_GEOMETRY_WAVES = [
   CTR_WAVE15_OVERRIDES,
   CTR_WAVE14_OVERRIDES, // 2026-10-17 ranking release
 ];
+// 2026-10-25 (CLAUDE.md §64): 116 sitemap pages (method × industry, industry-training, regional consulting,
+// method-training …) shipped their body as a bare <article> or <section> with no site header and no <main>.
+// Crawlers saw no navigation links on them, and every main-slot block (intent routes, downloads, depth,
+// related links) silently skipped them. GSC listed 18 of them as "Soft 404". Wrap them like every other page.
+const MAIN_LAYOUT_NAV = '<header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/inspection">Inspection</a><a href="/erp">ERP</a><a href="/practical-ndt">Practical NDT</a><a href="/contact">Contact</a></nav></header>';
+let mainLayoutWrapped = 0;
+function ensureMainLayout(route) {
+  if (!route || route.path === '/' || typeof route.bodyContent !== 'string' || !route.bodyContent.trim()) return route;
+  const b = route.bodyContent;
+  if (/<main[\s>]/i.test(b)) return route;
+  if (!/<h1[\s>]/i.test(b)) return route; // not a content body; leave it to its own writer
+  mainLayoutWrapped++;
+  const head = /<header[\s>]/i.test(b) ? '' : MAIN_LAYOUT_NAV;
+  return { ...route, bodyContent: `${head}<main>${b}</main>` };
+}
 let ctrOverridesApplied = 0;
 let accpRewritten = 0, accpPages = 0;
 let wave10Applied = 0;
@@ -14386,6 +14406,8 @@ routes.forEach(route => {
     route = applyVideoRoute(route); // 2026-10-10 §52: product video facade + VideoObject, ahead of coverage
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
+    route = ensureMainLayout(route); // 2026-10-25: bare <article>/<section> bodies get the site header + <main> (116 sitemap pages lacked it)
+    route = applyApiGuideLibrary(route); // 2026-10-25 §64: API guide sibling links + owner-page library block
     route = applyGeoDepth(route); // 2026-10-24: researched local depth block (before routing + downloads)
     route = applyIntentRoute(route); // 2026-10-24: intent routing (careers -> training + Practical NDT, calculators -> consulting/ERP, codes -> procedure + inspection + training)
     route = applyDownloadsRoute(route); // 2026-10-24: free downloads + custom-templates quotation CTA, ahead of the coverage block
@@ -14411,6 +14433,7 @@ routes.forEach(route => {
       if (!route.bodyContent.includes('data-geo-depth="2026-10"')) route = applyGeoDepth(route);
       if (!route.bodyContent.includes('data-intent-route="2026-10"')) route = applyIntentRoute(route);
       if (!route.bodyContent.includes('data-free-downloads="2026-10"')) route = applyDownloadsRoute(route);
+      if (!route.bodyContent.includes('data-guide-library="2026-10"')) route = applyApiGuideLibrary(route);
     }
     writeRoute(route.path, route, baseTemplate);
     generated++;
@@ -14422,6 +14445,8 @@ routes.forEach(route => {
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
 console.log(`🎯 CTR wave 10 applied: ${wave10Applied} routes`);
+console.log(`🧱 Main layout: ${mainLayoutWrapped} bare page bodies wrapped in the site header + <main>`);
+assertApiGuideLibraryClean(BUILT_PATHS);
 console.log(`🛒 Training conversion 2026-10-18: ${trainingConversionStats.pages} pages, CTA bar on ${trainingConversionStats.bars} training pages`);
 console.log(`🏷️  ACCP -> ASNT 9712 wording: ${accpRewritten} mentions on ${accpPages} pages`);
 console.log(`🧲 Lead magnets (static): mock_exam ${leadMagnetStats.mock_exam}, gap_check ${leadMagnetStats.gap_check}, career ${leadMagnetStats.career}, inspection_consult ${leadMagnetStats.inspection_consult}, method_training ${leadMagnetStats.method_training}`);

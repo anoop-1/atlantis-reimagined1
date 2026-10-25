@@ -2736,6 +2736,261 @@
       "source": "/blog/asnt-vs-pcn-certification-comparison",
       "destination": "/compare/asnt-vs-pcn",
       "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-saginaw",
+      "destination": "/ndt-training-michigan",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-shaybah",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-consulting-atlanta",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-braddock",
+      "destination": "/ndt-training-pennsylvania",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-gary",
+      "destination": "/ndt-training-indiana",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/tank-inspection-services",
+      "destination": "/inspection/aboveground-storage-tank-inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-complete-guide-courses-certification-global",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/pipeline-inspection-services",
+      "destination": "/pipeline-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-dallas-texas",
+      "destination": "/ndt-training-dallas",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-panama-city",
+      "destination": "/ndt-training-florida",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-austin",
+      "destination": "/ndt-training-austin",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-saskatoon",
+      "destination": "/ndt-training-saskatchewan",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-colorado-springs",
+      "destination": "/ndt-training-colorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-pine-bluff",
+      "destination": "/ndt-training-arkansas",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/refining-ndt-training-martinez-california",
+      "destination": "/ndt-training-martinez",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-groton",
+      "destination": "/ndt-training-groton",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-melbourne-florida",
+      "destination": "/ndt-training-florida",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-wood-river",
+      "destination": "/ndt-training-illinois",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-pine-bluff",
+      "destination": "/ndt-training-arkansas",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-wichita-kansas",
+      "destination": "/ndt-training-wichita",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-port-angeles",
+      "destination": "/ndt-training-washington",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-cleveland",
+      "destination": "/ndt-training-cleveland",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting/power-ndt-consulting-harrisburg-pennsylvania",
+      "destination": "/ndt-consulting-pennsylvania",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-gary-indiana",
+      "destination": "/ndt-training-indiana",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-argentina",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-phoenix-arizona",
+      "destination": "/ndt-training-phoenix",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting/ndt-consulting-london",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/houston-ndt",
+      "destination": "/inspection-services-houston",
+      "statusCode": 301
+    },
+    {
+      "source": "/hyderabad-ndt",
+      "destination": "/ndt-training-hyderabad",
+      "statusCode": 301
+    },
+    {
+      "source": "/midland-ndt",
+      "destination": "/ndt-training-midland",
+      "statusCode": 301
+    },
+    {
+      "source": "/odoo-erp-ndt-companies",
+      "destination": "/erp",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-570-training-new-york",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-653-training-baltimore",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-570-training-atlanta",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/corrosion-inspection-services",
+      "destination": "/corrosion-mapping",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-sioux-falls-south-dakota",
+      "destination": "/ndt-training-south-dakota",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-toledo-ohio",
+      "destination": "/ndt-training-ohio",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-linden-new-jersey",
+      "destination": "/ndt-training-new-jersey",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/rail-ndt-training-baltimore",
+      "destination": "/ndt-training-baltimore",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-norfolk",
+      "destination": "/ndt-training-norfolk",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-east-chicago",
+      "destination": "/ndt-training-indiana",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-donaldsonville-louisiana",
+      "destination": "/ndt-training-louisiana",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/refining-ndt-training-plaquemine",
+      "destination": "/ndt-training-louisiana",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-colorado-springs",
+      "destination": "/ndt-training-colorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/portland",
+      "destination": "/ndt-training-portland",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/indianapolis",
+      "destination": "/ndt-training-indianapolis",
+      "statusCode": 301
+    },
+    {
+      "source": "/2024/05/19/damages-due-to-corrosion",
+      "destination": "/blog/damage-mechanisms-in-refineries-a-field-guide-to-api-571",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-services-dubai",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-consulting-usa-level-iii-guide",
+      "destination": "/consulting/ndt-consulting-level-iii",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/top-100-ndt-questions-2025",
+      "destination": "/ndt-practice-tests",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-consulting-calgary",
+      "destination": "/consulting/ndt-consulting-calgary",
+      "statusCode": 301
     }
   ],
   "rewrites": []
