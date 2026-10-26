@@ -188,6 +188,10 @@ export default function Index() {
             </div>
          </section>
 
+         {/* 2026-10-26 (owner): the product video sits just before "See it working before you talk to us".
+             ProductVideoBlock attaches here (use-main-slot); the crawler copy puts it in the same place. */}
+         <div data-slot-anchor="video" />
+
          {/* 2026-10-09 sprint (Day 3): proof you can try — one tool or funnel per line. */}
          <SeeItFirst />
 

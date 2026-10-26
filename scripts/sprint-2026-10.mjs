@@ -312,7 +312,8 @@ export function applySprintHome(html) {
   const i = html.indexOf('</main>');
   if (i < 0) return html;
   sprintStats.home++;
-  return html.slice(0, i) + homeStripHtml() + html.slice(i);
+  // 2026-10-26 (owner): the product video goes just before this strip, as in src/pages/Index.tsx (product-videos.mjs fills the anchor).
+  return html.slice(0, i) + '<div data-slot-anchor="video"></div>' + homeStripHtml() + html.slice(i);
 }
 
 /** Copy guard: no prices in anything this module emits; no numerals in ERP copy. */

@@ -32,8 +32,13 @@ export function applyVideoRoute(route) {
       <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
     </section>
 `;
+  // 2026-10-26: a page that places the video itself carries an empty <div data-slot-anchor="video"></div>
+  // (the homepage, before "See it working before you talk to us"), mirroring the React anchor in use-main-slot.
+  const ANCHOR = '<div data-slot-anchor="video"></div>';
+  const a = route.bodyContent.indexOf(ANCHOR);
   const i = route.bodyContent.lastIndexOf('</main>');
-  const body = i >= 0 ? route.bodyContent.slice(0, i) + html + route.bodyContent.slice(i) : route.bodyContent + html;
+  const body = a >= 0 ? route.bodyContent.slice(0, a) + `<div data-slot-anchor="video">${html}</div>` + route.bodyContent.slice(a + ANCHOR.length)
+    : i >= 0 ? route.bodyContent.slice(0, i) + html + route.bodyContent.slice(i) : route.bodyContent + html;
   videoStats.pages++;
   return { ...route, bodyContent: body };
 }
