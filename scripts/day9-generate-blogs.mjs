@@ -144,7 +144,7 @@ BLOGS.push(blog({
 </ul>
 
 <h2>Personnel Qualification — Article 2 + ASNT SNT-TC-1A / ISO 9712</h2>
-<p>Article 2 itself does not certify personnel — it references ASNT SNT-TC-1A, CP-189, ACCP, ISO 9712, or an employer-approved equivalent (e.g., NAS 410 for aerospace). For pressure-equipment work in the US, the dominant scheme is SNT-TC-1A Level II RT. For European / Middle Eastern projects, ISO 9712 Level 2 RT is more common.</p>
+<p>Article 2 itself does not certify personnel — it references ASNT SNT-TC-1A, CP-189, ACCP, ISO 9712, or an employer-approved equivalent. For pressure-equipment work in the US, the dominant scheme is SNT-TC-1A Level II RT. For European / Middle Eastern projects, ISO 9712 Level 2 RT is more common.</p>
 <p>Annual eye exam (near-vision Jaeger J1 + colour-perception Ishihara) is required by both ASNT SNT-TC-1A § 8.2 and ISO 9712 § 7.4 — and is the second most common audit finding when missing from the Level II cert pack. ${A.level3} provides written-practice authoring, training-hour audit, and exam administration to keep your RT roster Article 2-compliant year-round.</p>
 
 <h2>Frequently Asked Questions</h2>
@@ -233,7 +233,7 @@ BLOGS.push(blog({
 </ul>
 
 <h2>Article 5 Personnel Qualification</h2>
-<p>Article 5 inspections require ASNT SNT-TC-1A Level II UT (or ISO 9712 Level 2 UT, or NAS 410 Level 2 UT for aerospace). The same eye-test requirement (Jaeger J1 + Ishihara) applies as Article 4. UT-T-specific training emphasises calibration discipline, velocity correction, and CML-grid interpretation. ${A.level3} provides written-practice and procedure approval for UT-T programs at refineries and offshore operators globally.</p>
+<p>The same eye-test requirement (Jaeger J1 + Ishihara) applies as Article 4. UT-T-specific training emphasises calibration discipline, velocity correction, and CML-grid interpretation. ${A.level3} provides written-practice and procedure approval for UT-T programs at refineries and offshore operators globally.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Q1: How often must I calibrate during an Article 5 survey?</h3>
@@ -315,7 +315,7 @@ BLOGS.push(blog({
 </ul>
 
 <h2>Personnel Qualification</h2>
-<p>${A.sntTcOnePost} Level II PT (or ISO 9712 Level 2 PT; NAS 410 Level 2 PT for aerospace) is required for personnel interpreting Article 6 examinations. PT is often the first cert in a multi-method inspector's path because of the lower training-hour requirement (8 hrs for Level I, 8 additional for Level II per SNT-TC-1A 2024). Pair with annual eye test (J1 + Ishihara). ${A.level3} provides written-practice and recertification audit support.</p>
+<p>${A.sntTcOnePost} Level II PT (or ISO 9712 Level 2 PT. PT is often the first cert in a multi-method inspector's path because of the lower training-hour requirement (8 hrs for Level I, 8 additional for Level II per SNT-TC-1A 2024). Pair with annual eye test (J1 + Ishihara). ${A.level3} provides written-practice and recertification audit support.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Q1: Why use PT instead of MT on a stainless-steel weld?</h3>
@@ -403,7 +403,7 @@ BLOGS.push(blog({
 </ul>
 
 <h2>Personnel Qualification</h2>
-<p>Same path as Article 6 PT: ${A.sntTcOnePost} Level II MT, ISO 9712 Level 2 MT, or NAS 410 Level 2 MT for aerospace. Annual eye test (Jaeger J1 + Ishihara) mandatory. ${A.level3} provides written-practice and procedure-approval support for combined MT + PT + UT + RT programs.</p>
+<p>Same path as Article 6 PT: ${A.sntTcOnePost} Level II MT or ISO 9712 Level 2 MT MT for aerospace. Annual eye test (Jaeger J1 + Ishihara) mandatory. ${A.level3} provides written-practice and procedure-approval support for combined MT + PT + UT + RT programs.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Q1: Why does AC give a stronger surface indication than DC?</h3>

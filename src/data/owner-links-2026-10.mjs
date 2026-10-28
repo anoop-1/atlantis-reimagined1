@@ -198,10 +198,7 @@ export const OWNER_PAGES = {
     title: 'What a Written Practice Engagement Delivers, Item by Item',
     p: `For the service itself, see ${WP()}; the ${L3()} page covers procedure approval and audit support alongside it.`,
   },
-  '/blog/third-party-asnt-level-iii-consulting-for-aerospace-nas-410-programs': {
-    source: 'blog',
-    p: `Atlantis provides NAS 410 Level 3 services through an associate who holds NAS 410 Level 3; how that sits alongside ASNT Level III cover is explained on our ${L3()} page.`,
-  },
+  
   '/blog/midstream-api-653-program-audits-what-an-outsourced-level-iii-actually-checks': {
     source: 'blog',
     p: `The programme audit described here is one of the engagements set out on our ${L3('outsourced NDT Level III')} page.`,
@@ -355,8 +352,8 @@ export const OWNER_PAGES = {
   '/blog/ndt-software-for-aerospace-industry-2026-buyer-guide': {
     source: 'blog',
     family: 'industry',
-    title: 'Choosing NDT Software for Aerospace: A NAS 410 Checklist',
-    description: 'What aerospace NDT suppliers should check in software: NAS 410 certification and vision tests, technique revisions, calibration records and audit trails.',
+    title: 'Choosing NDT Software for Aerospace: A Nadcap Supplier Checklist',
+    description: 'What aerospace NDT suppliers should check in software: personnel certification and vision tests, technique revisions, calibration records and audit trails.',
     p: `For aerospace specifically, our page on [aerospace NDT software for Nadcap suppliers](${OWNERS.aerospace}) sets out what the software does and does not do; our page on ${SW} covers the rest.`,
   },
   '/blog/ndt-software-for-construction-2026-buyer-guide': {
@@ -366,10 +363,7 @@ export const OWNER_PAGES = {
     description: 'What construction NDT and special inspection firms should check in software: signed field reports, inspector certificates and the records owners ask for.',
     p: `For construction specifically, our page on [construction quality control software](${OWNERS.construction}) sets out what the software does and does not do; our page on ${SW} covers the rest.`,
   },
-  '/blog/software-for-aerospace-ndt-quality-control-nas-410-as9100-and-nadcap-in-one-platform': {
-    source: 'blog',
-    p: `What Atlantis holds for a Nadcap supplier, and what stays with your quality system, is set out on our page for [aerospace NDT software for Nadcap suppliers](${OWNERS.aerospace}).`,
-  },
+  
 
   // ── Digital Twin → /digital-twins (+ /digital-twin-reporting) ──
   '/blog/what-is-asset-integrity-digital-twin-2026': {

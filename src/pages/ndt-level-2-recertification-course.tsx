@@ -24,13 +24,13 @@ const data: MethodCourseData = {
   overview: [
     "NDT certifications don't just quietly expire — they run on a documented 5-year SNT-TC-1A or CP-189 recertification cycle, and how that cycle is satisfied depends on your employer's written practice. Many technicians recertify based on continued satisfactory performance plus documented evidence (a supervisor's evaluation, current work record, and up-to-date vision test) with no formal re-examination required. Others — particularly under written practices that mandate periodic re-testing, or after a lapse beyond the grace period — need to sit a recertification exam that mirrors the original Level II exam structure at a reduced scope.",
     "Separately, and on a much shorter clock, every certified NDT technician needs an annual vision test — near-vision acuity (typically Jaeger J-2) and colour-vision screening where the method requires it. It's the single most common compliance gap in an inspection company's personnel records, precisely because it runs on a different schedule than the certification itself and is easy to let lapse unnoticed between audits.",
-    "This recertification / renewal course is built for working inspectors who are current, not new: a condensed refresher on your method's technique and any code-edition changes since your last certification (SNT-TC-1A 2024 updates, NAS 410 Revision 5, and relevant ASME/API edition changes), vision-test documentation support, and — where your written practice requires it — structured exam preparation.",
+    
   ],
   highlightTitle: "Recertification vs Full Re-Examination",
   highlightBody:
     "Recertification (continued satisfactory performance, documented under your employer's written practice, no exam) and re-certification by exam (a formal re-test, required if you've lapsed beyond the grace period or your scheme mandates periodic re-testing) are not the same process. This course supports both paths — the first with documentation and vision-test support, the second with structured technique and code-update review ahead of the exam.",
   curriculum: [
-    "Code-edition change review (SNT-TC-1A 2024 update, NAS 410 Rev 5, relevant ASME/API editions)",
+    
     "Method-specific technique refresher (UT, PAUT, TOFD, RT, MT, PT, ET as applicable)",
     "Equipment and calibration-practice refresher",
     "Employer written-practice review and documentation gap-check",
@@ -43,7 +43,7 @@ const data: MethodCourseData = {
     {
       title: "Confirm your current certification status",
       detail:
-        "We review your current or recently-lapsed Level II certification, method(s), certifying scheme (SNT-TC-1A, ISO 9712, NAS 410), and how much of your 5-year cycle remains.",
+        "We review your current or recently-lapsed Level II certification, method(s), certifying scheme (SNT-TC-1A, ISO 9712), and how much of your 5-year cycle remains.",
     },
     {
       title: "Gap-check against your written practice",

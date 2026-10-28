@@ -76,13 +76,12 @@
     "country": "USA",
     "lat": 34.0522,
     "lng": -118.2437,
-    "localContext": "Los Angeles NDT splits between aerospace and the South Bay refining strip: Chevron's El Segundo refinery (about 269,000 bpd), PBF Energy's Torrance refinery and Marathon's Carson complex keep a year-round base of UT and API-driven inspection work along the coast. The aerospace side is unmatched — SpaceX builds Falcon and Dragon hardware in Hawthorne, Northrop Grumman's Space Park in Redondo Beach produces satellites and the James Webb-class spacecraft bus, and Boeing's El Segundo campus is one of the largest satellite factories in the world, all feeding NAS-410 penetrant, radiography and ultrasonic inspection demand through their supplier chains. The Ports of Los Angeles and Long Beach, the busiest container complex in the Western Hemisphere, add crane, terminal and marine structural inspection. LA's American Aerospace Technical Academy, a nonprofit training school, runs NAS-410 and SNT-TC-1A Level I/II programs specifically to feed these primes.",
+    "localContext": "Los Angeles NDT splits between aerospace and the South Bay refining strip: Chevron's El Segundo refinery (about 269,000 bpd), PBF Energy's Torrance refinery and Marathon's Carson complex keep a year-round base of UT and API-driven inspection work along the coast. The Ports of Los Angeles and Long Beach, the busiest container complex in the Western Hemisphere, add crane, terminal and marine structural inspection. LA's American Aerospace Technical Academy, a nonprofit training school, runs SNT-TC-1A Level I/II programs specifically to feed these primes.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "NAS 410",
       "AWS CWI"
     ],
-    "certPathwayNote": "Refinery and port work follows standard SNT-TC-1A/ASNT qualification, but LA's aerospace primes and their machine shops certify to NAS 410, so technicians targeting SpaceX, Northrop or Boeing supplier work need ASNT-style training delivered against NAS 410 requirements.",
+    "certPathwayNote": "Refinery and port work follows standard SNT-TC-1A/ASNT qualification, while LA's aerospace primes and their machine shops certify technicians under their own aerospace written practices, so technicians targeting aerospace supplier work should expect employer qualification on top of ASNT-style training.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 50,000–65,000/year",
@@ -184,10 +183,9 @@
     "localContext": "Fayetteville's inspection economy orbits Fort Bragg, one of the largest U.S. Army installations by population and home to the XVIII Airborne Corps and Army Special Operations Command — a base that sustains steady demand for weld, airframe and ground-support-equipment inspection through its maintenance contractors. The Goodyear tire plant on Ramsey Street, running since 1969 with roughly 1,700 workers, has long been the area's largest single-site private employer, though Goodyear has announced the plant will close by the end of 2027 — pushing local technicians toward defense and chemical-sector work. Chemours' Fayetteville Works, a large fluorochemicals complex on the Cape Fear River near White Oak, keeps fixed-equipment inspection crews busy on pressure vessels and piping. Fayetteville Technical Community College anchors the training pipeline with welding technology courses that include destructive and non-destructive testing.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "AWS CWI",
-      "NAS 410 (aerospace contractors)"
+      "AWS CWI"
     ],
-    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants; technicians targeting Fort Bragg aviation-maintenance work also encounter NAS 410 requirements. ISO 9712 has essentially no local pull.",
+    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants. ISO 9712 has essentially no local pull.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 40,000–50,000/year",
@@ -213,10 +211,9 @@
     "localContext": "Southern New Hampshire is BAE Systems country: more than 6,500 BAE employees work across Nashua, Hudson, Merrimack and Manchester, with the Electronic Systems headquarters and the Richard Reed Microelectronics Center in Nashua, and a renovated Manchester engineering and production facility opened in 2019. GE Aerospace's Hooksett plant, ten minutes up Route 3A, employs nearly 900 people machining critical jet-engine components — the kind of rotating hardware that carries hard NDT acceptance criteria on every part. That defense-electronics and engine-component mix means Manchester technicians see more FPI, eddy current and ultrasonic work on precision aerospace parts than on heavy plate. Great Bay Community College, on the Seacoast, runs one of New England's few dedicated nondestructive testing certificate programs and feeds these employers directly.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "NAS 410",
       "AWS CWI"
     ],
-    "certPathwayNote": "Aerospace primes like BAE Systems and GE Aerospace certify in-house under ASNT SNT-TC-1A frameworks, but their supplier audits push NAS 410 compliance for aerospace method certification — so a Manchester technician's fastest path pairs ASNT-based Level II quals with aerospace-specific method hours.",
+    "certPathwayNote": "Aerospace primes like BAE Systems and GE Aerospace certify in-house under ASNT SNT-TC-1A frameworks with aerospace-specific supplier audit requirements, so a Manchester technician's fastest path pairs ASNT-based Level II quals with aerospace-specific method hours.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 44,000–56,000/year",
@@ -285,10 +282,9 @@
     "localContext": "Buffalo's NDT demand comes from a heavyweight automotive-and-aerospace manufacturing base rather than from process plants. GM's Tonawanda Engine plant (Tonawanda Powertrain) machines and assembles engines across three facilities on the Niagara River, while Ford's Buffalo Stamping Plant in Hamburg — nearly 2.5 million square feet, open since 1950 — produces sheet-metal stampings and welded sub-assemblies for plants across North America, work that leans on weld inspection and resistance-weld verification. Moog Inc., headquartered in East Aurora, is one of Western New York's largest employers with more than 3,500 regional employees building flight controls and motion systems, and announced a $25 million Erie County expansion adding 500 jobs in 2022. Precision aerospace components at Moog and powertrain castings at GM give Buffalo technicians an unusual spread of penetrant, magnetic particle and ultrasonic work within one metro.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "NAS 410",
       "AWS CWS/CWI"
     ],
-    "certPathwayNote": "Employer-based ASNT SNT-TC-1A certification is the standard across Buffalo's automotive and aerospace plants; Moog's flight-hardware work adds NAS 410 aerospace certification requirements at supplier level. There is no meaningful ISO 9712 market in Western New York.",
+    "certPathwayNote": "Employer-based ASNT SNT-TC-1A certification is the standard across Buffalo's automotive and aerospace plants. There is no meaningful ISO 9712 market in Western New York.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 42,000–54,000/year",
@@ -376,13 +372,12 @@
     "country": "USA",
     "lat": 33.9192,
     "lng": -118.4165,
-    "localContext": "El Segundo pairs heavy refining with the densest aerospace cluster in the country. Chevron's El Segundo Refinery, rated around 290,000 barrels per day, is the largest refinery on the West Coast and supplies roughly 20% of Southern California's gasoline and over 40% of its jet fuel; the October 2025 jet-fuel-unit fire and subsequent repairs put sustained demand on fixed-equipment inspection crews. On the aerospace side, Boeing's satellite factory, Raytheon (RTX) facilities and Los Angeles Air Force Base — home of U.S. Space Force Space Systems Command — all sit inside El Segundo, with SpaceX's Hawthorne factory next door. That mix means technicians here split between API-style refinery UT work and NAS 410-governed penetrant, radiographic and ultrasonic inspection of flight hardware.",
+    "localContext": "El Segundo pairs heavy refining with the densest aerospace cluster in the country. Chevron's El Segundo Refinery, rated around 290,000 barrels per day, is the largest refinery on the West Coast and supplies roughly 20% of Southern California's gasoline and over 40% of its jet fuel; the October 2025 jet-fuel-unit fire and subsequent repairs put sustained demand on fixed-equipment inspection crews. On the aerospace side, Boeing's satellite factory, Raytheon (RTX) facilities and Los Angeles Air Force Base — home of U.S. Space Force Space Systems Command — all sit inside El Segundo, with SpaceX's Hawthorne factory next door.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "NAS 410",
       "API 510"
     ],
-    "certPathwayNote": "The refinery hires against SNT-TC-1A/ASNT qualifications while the satellite and defense plants require NAS 410 aerospace certification, so the strongest El Segundo résumés carry ASNT Level II plus NAS 410 in PT or RT.",
+    "certPathwayNote": "The refinery hires against SNT-TC-1A/ASNT qualifications while the satellite and defense plants add their own aerospace certification requirements, so the strongest El Segundo résumés carry ASNT Level II plus documented aerospace method experience in PT or RT.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 48,000–62,000/year",
@@ -443,10 +438,9 @@
     "localContext": "Albuquerque's NDT demand comes from federal laboratories and defense rather than oil — New Mexico's petroleum activity sits far southeast in the Permian Basin. Sandia National Laboratories, headquartered on Kirtland Air Force Base, maintains nondestructive testing capability within its Design, Evaluation, and Test Technology Facility, and Kirtland also hosts Air Force Research Laboratory directorates. Inspection work at Sandia, Kirtland and other federal sites layers government contracting and security-clearance requirements on top of technical qualification, which thins the candidate pool and rewards certified locals. Independent firms such as 505NDE, LLC serve the metro's structural, weld and industrial inspection needs, alongside AWS CWI work generated by commercial construction.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "NAS 410",
       "AWS CWI"
     ],
-    "certPathwayNote": "Lab and Air Force work is qualified to ASNT/SNT-TC-1A practice, often with NAS 410 required on aerospace hardware; clearance-eligible ASNT Level II technicians are the scarce commodity in this market.",
+    "certPathwayNote": "Lab and Air Force work is qualified to ASNT/SNT-TC-1A practice, often with additional aerospace requirements on flight hardware; clearance-eligible ASNT Level II technicians are the scarce commodity in this market.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 40,000–52,000/year",
@@ -527,13 +521,12 @@
     "country": "USA",
     "lat": 32.3668,
     "lng": -86.3,
-    "localContext": "Montgomery's inspection work comes from automotive manufacturing, composite aerostructures and military aviation. Hyundai Motor Manufacturing Alabama has built vehicles in Montgomery since 2005, and its stamping, welding and supplier network generates continuous weld-quality and materials inspection demand. About 35 miles away in Tallassee, GKN Aerospace employs over 1,000 people producing composite aerostructures for Airbus, Sikorsky, Bell and HondaJet — a plant operating since 1985 and one of the region's biggest sources of NAS 410-governed NDT jobs. Maxwell Air Force Base and its Gunter Annex anchor the federal presence, and the Alabama Air National Guard's 187th Fighter Wing flies the F-35 from Dannelly Field, bringing modern airframe maintenance to the metro.",
+    "localContext": "Montgomery's inspection work comes from automotive manufacturing, composite aerostructures and military aviation. Hyundai Motor Manufacturing Alabama has built vehicles in Montgomery since 2005, and its stamping, welding and supplier network generates continuous weld-quality and materials inspection demand. Maxwell Air Force Base and its Gunter Annex anchor the federal presence, and the Alabama Air National Guard's 187th Fighter Wing flies the F-35 from Dannelly Field, bringing modern airframe maintenance to the metro.",
     "primaryCert": "ASNT",
     "otherCerts": [
-      "NAS 410",
       "AWS CWI"
     ],
-    "certPathwayNote": "Automotive plants hire against ASNT/SNT-TC-1A qualification while GKN's composite work requires NAS 410 certification, so central Alabama technicians typically start on the ASNT track and add NAS 410 to reach aerospace pay.",
+    "certPathwayNote": "Automotive plants hire against ASNT/SNT-TC-1A qualification while GKN's composite work adds aerospace-specific employer certification, so central Alabama technicians typically start on the ASNT track and add aerospace qualification through their employer to reach aerospace pay.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 38,000–50,000/year",
@@ -645,7 +638,7 @@
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "Automotive and crane manufacturing set the tone: Toyota's supplier quality chain and Link-Belt's lifting-equipment welds both call for ASNT SNT-TC-1A qualified technicians, and Lockheed's defense sustainment work layers NAS-410-style aerospace expectations on top. ASNT remains the baseline credential across all three.",
+    "certPathwayNote": "ASNT remains the baseline credential across all three.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 41,000–52,000/year",

@@ -19,7 +19,7 @@ export default function InventoryManagementErpForIndia() {
       useCases={[
         { useCase: "IOCL/HPCL/BPCL multi-refinery contractor", body: "Example: a Mumbai contractor tracks consumables across Mumbai HQ, Vadodara site, Mathura FIFO base and Visakh remote camp." },
         { useCase: "Reliance Jamnagar mega-turnaround vendor", body: "Example: a Jamnagar contractor tags every consumable lot to Reliance Phase I / Phase II asset with TAN opportunity-crude-aware material flagging." },
-        { useCase: "Bangalore aerospace HAL/GE/PW supplier", body: "Example: a Bangalore aerospace contractor manages NAS 410 / NADCAP-aware consumables with per-aircraft serial-number traceability." },
+        { useCase: "Bangalore aerospace HAL/GE/PW supplier", body: "Example: a Bangalore aerospace contractor manages NADCAP-aware consumables with per-aircraft serial-number traceability." },
         { useCase: "Kolkata SAIL multi-plant consumables", body: "Example: a Kolkata contractor tracks consumables across SAIL Durgapur / Burnpur / Bokaro / Rourkela plant inspection sites with state-specific factory-act-aligned documentation." },
       ]}
       keyFeatures={[

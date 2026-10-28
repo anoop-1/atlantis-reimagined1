@@ -49,7 +49,7 @@ export const BOFU_POSTS: MoneyPage[] = [
   P(
     'tracking-asnt-certification-expiry-at-scale',
     'How NDT Companies Track ASNT Certification Expiry at Scale (Without Losing an Audit)',
-    'Tracking SNT-TC-1A, ISO 9712 and NAS 410 currency across a large technician base: what the written practice actually requires, why spreadsheets fail at around 30 technicians, and how to enforce currency at dispatch.',
+    'Tracking SNT-TC-1A, ISO 9712 and certification currency across a large technician base: what the written practice actually requires, why spreadsheets fail at around 30 technicians, and how to enforce currency at dispatch.',
     'asnt certification tracking, snt-tc-1a certification tracking, ndt certification expiry, iso 9712 recertification tracking, technician qualification management, certification tracking software',
     'Tracking ASNT Certification Expiry Across a Whole Technician Base',
     'The failure mode is never one certificate. It is the interaction between method, level, vision exam, on-the-job hours and a client-specific approval — across a hundred people.',
@@ -58,7 +58,7 @@ export const BOFU_POSTS: MoneyPage[] = [
       {
         h2: 'What the written practice actually obliges you to hold',
         paragraphs: [
-          'Under ASNT SNT-TC-1A the employer certifies, which means the employer carries the evidence. For each technician and each method you need the certification level and date, the general, specific and practical examination records with scores, documented training hours, documented on-the-job experience hours, the annual near-vision acuity and colour-contrast examination, and the revision of the written practice under which certification was granted. ANSI/ASNT CP-189 tightens several of these; NAS 410 and EN 4179 add aerospace-specific requirements including outside-agency involvement in some cases; ISO 9712 shifts certification to a third party but leaves you holding the employer-side authorisation record.',
+          'Under ASNT SNT-TC-1A the employer certifies, which means the employer carries the evidence. For each technician and each method you need the certification level and date, the general, specific and practical examination records with scores, documented training hours, documented on-the-job experience hours, the annual near-vision acuity and colour-contrast examination, and the revision of the written practice under which certification was granted. ANSI/ASNT CP-189 tightens several of these; ISO 9712 shifts certification to a third party but leaves you holding the employer-side authorisation record.',
           'The practical consequence is that "is Ahmed certified?" is not a yes/no question. It is a question about a specific method, at a specific level, on a specific date, against a specific written practice revision — and a spreadsheet column cannot represent that.',
         ],
       },

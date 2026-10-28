@@ -21,7 +21,7 @@ export default function InventoryManagementErpForMalaysia() {
         { useCase: "PETRONAS multi-asset contractor", body: "Example: a KL contractor tracks consumables across KL HQ, Pengerang site warehouse, Bintulu FIFO base and Kerteh remote camp." },
         { useCase: "MLNG Bintulu cryogenic-spares contractor", body: "Example: a Bintulu contractor tags every consumable lot to MLNG Train 1-9 asset with 9% Ni cryogenic-material flagging." },
         { useCase: "RAPID Pengerang petrochemical supplier", body: "Example: a Pengerang contractor manages RAPID PRefChem complex consumables with Johor Petroleum Development Corporation permit-aware import documentation." },
-        { useCase: "Penang aerospace MRO consumables", body: "Example: a Penang aerospace contractor tracks AAT, Spirit AeroSystems Subang, UMW Aerospace consumables with NAS 410 / EN 4179-aware per-aircraft serial-number traceability." },
+        { useCase: "Penang aerospace MRO consumables", body: "Example: a Penang aerospace contractor tracks AAT, Spirit AeroSystems Subang and UMW Aerospace consumables with per-aircraft serial-number traceability." },
       ]}
       keyFeatures={[
         "Multi-warehouse stock control (KL/Johor/Pengerang/Bintulu/Kerteh/Melaka/Penang/Kuching)",

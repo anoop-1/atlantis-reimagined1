@@ -54,7 +54,7 @@ export const GAP_CITIES = {
   boston: {
     name: 'Boston', state: 'Massachusetts',
     base: 'Greater Boston pairs an old industrial and maritime base with a modern one: shipyards and port infrastructure on the harbour, power generation around the region, a dense biotech and pharmaceutical process-plant cluster, and aerospace and defence manufacturing along the 128 corridor.',
-    regime: 'Marine work answers to classification societies and, at the naval facilities, to military technical requirements; process plant runs ASME with state jurisdictional oversight; aerospace suppliers run NAS 410 or EN 4179 with OEM approval per method.',
+    regime: 'Marine work answers to classification societies and, at the naval facilities, to military technical requirements; process plant runs ASME with state jurisdictional oversight.',
     methods: {
       'ultrasonic-testing': 'UT spans three quite different populations here — hull and structural thickness on the marine side, pressure-equipment thickness and weld examination in the process plants, and composite and forging inspection for the aerospace suppliers, each with its own procedure family.',
       'radiographic-testing': 'RT concentrates in fabrication and pharmaceutical process-plant construction, where closure welds on stainless systems must be examined before insulation and validation close the work out.',

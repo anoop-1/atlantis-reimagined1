@@ -166,7 +166,7 @@ export const STRAGGLER_CONTENT = {
     h: 'What an outsourced Level III engagement covers in practice',
     body: `<h2>The functions, separated</h2>
       <ul>
-        <li>Written practice authoring and annual review to SNT-TC-1A, CP-189, NAS 410 or ISO 9712 — including the review most quality systems commit to and few perform.</li>
+        <li>Written practice authoring and annual review to SNT-TC-1A, CP-189 or ISO 9712 — including the review most quality systems commit to and few perform.</li>
         <li>Procedure development and approval per method, qualified for the specific materials, thickness ranges and geometries in scope rather than written generically.</li>
         <li>Personnel qualification: general, specific and practical examinations, vision examination administration, and reconstruction of training and experience records where they are incomplete.</li>
         <li>Technique and equipment validation, including demonstration of coverage for phased array scan plans.</li>

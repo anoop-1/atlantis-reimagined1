@@ -24,7 +24,7 @@ const data: MethodCourseData = {
   overview: [
     "Eddy Current Testing (ET) uses electromagnetic induction — an alternating-current coil generates a magnetic field, which induces circulating 'eddy' currents in a nearby conductive material; a surface crack, corrosion, wall loss, or a change in material conductivity distorts those eddy currents in a detectable way. It's a non-contact, fast-scanning method, which makes it especially well suited to production-line surface inspection and internal tube inspection where physical access is limited.",
     "A Level II ET technician works independently: selecting coil type and frequency, interpreting the impedance-plane display, distinguishing real defect signals from lift-off and edge-effect noise, and reporting findings against applicable acceptance criteria. Two applications dominate real-world ET work — surface-crack detection on non-ferromagnetic materials (where MT can't be used), and internal bobbin-probe or array inspection of heat-exchanger and condenser tube bundles.",
-    "This ET Level 2 certification course covers both applications, delivered ASNT NDT Level III-led with online theory and on-site hands-on practical, and follows the ASNT SNT-TC-1A pathway used across oil & gas, power generation and aerospace supply work. Aerospace NAS 410 certification is issued by the employer under its own written practice, not by Atlantis.",
+    "This ET Level 2 certification course covers both applications, delivered ASNT NDT Level III-led with online theory and on-site hands-on practical, and follows the ASNT SNT-TC-1A pathway used across oil & gas, power generation and aerospace supply work. Aerospace certification is issued by the employer under its own written practice, not by Atlantis.",
   ],
   highlightTitle: "Where ET Fits",
   highlightBody:
@@ -82,7 +82,7 @@ const data: MethodCourseData = {
     {
       question: "Is ET Level 2 training relevant for aerospace work?",
       answer:
-        "Yes for the method — eddy current is a core method on aerospace components, and the fundamentals taught in this course apply. The certification is a separate matter: Atlantis trains to ASNT SNT-TC-1A only, while aerospace employers certify to NAS 410 (EN 4179 in Europe) under their own written practice through a Responsible Level 3, who decides whether SNT-TC-1A hours count.",
+        "Yes for the method — eddy current is a core method on aerospace components, and the fundamentals taught in this course apply. The certification is a separate matter: Atlantis trains to ASNT SNT-TC-1A only, while aerospace employers certify to the customer-specified aerospace standard (EN 4179 in Europe) under their own written practice through a Responsible Level 3, who decides whether SNT-TC-1A hours count.",
     },
     {
       question: "How many hours does the ET Level 2 course take?",

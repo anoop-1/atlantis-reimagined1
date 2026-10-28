@@ -282,7 +282,7 @@ export default function TrainingUSA() {
               <CardContent>
                 <p className="text-muted-foreground">
                   Yes, most employers in aerospace, oil & gas, and manufacturing require ASNT SNT-TC-1A certification for NDT technicians; aerospace employers usually certify to
-                  NAS410 under their own written practice instead. Our training follows ASNT SNT-TC-1A and
+                  Our training follows ASNT SNT-TC-1A and
                   prepares you for a career in non-destructive testing.
                 </p>
               </CardContent>

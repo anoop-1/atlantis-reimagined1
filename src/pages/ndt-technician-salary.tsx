@@ -465,7 +465,7 @@ export default function NDTTechnicianSalary() {
                   rank: 4,
                   industry: "Aerospace / Defence",
                   premium: "+15–25% vs industrial",
-                  detail: "NAS-410 / nadcap qualified technicians with aerospace experience are in demand. Strong benefits packages typical.",
+                  detail: "Strong benefits packages typical.",
                 },
                 {
                   rank: 5,

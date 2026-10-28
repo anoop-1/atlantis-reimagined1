@@ -7,7 +7,7 @@
  *                                    city/regional page (showsTrainingCtaBar). Runs last in the
  *                                    route loop, so it lands after any top-of-page direct answer.
  *   assertTrainingConversionClean()  both pages built; every bar target built (or the portal);
- *                                    no prices, no customer names, NAS 410 through the associate
+ *                                    no prices, no customer names, no NAS 410 (§65)
  *
  * Model, copy and HTML renderers: src/data/training-conversion-2026-10.{json,mjs} — the same
  * files the React layer reads (TrainingCtaBar.tsx, NdtTrainingFaq.tsx, SntTc1aEligibility.tsx).

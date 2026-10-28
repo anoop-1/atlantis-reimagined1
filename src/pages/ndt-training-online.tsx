@@ -139,7 +139,7 @@ const faqs = [
     },
     {
         question: "Which NDT certification standards can I prepare for online?",
-        answer: "Our online courses are built to ASNT SNT-TC-1A, the recommended practice most US employers base their written practices on. Atlantis does not offer ISO 9712, NAS 410 or other schemes' training; the physics is the same, but if you need another scheme, check its own training requirements first."
+        answer: "Our online courses are built to ASNT SNT-TC-1A, the recommended practice most US employers base their written practices on. Atlantis does not offer ISO 9712 or other schemes' training; the physics is the same, but if you need another scheme, check its own training requirements first."
     }
 ];
 

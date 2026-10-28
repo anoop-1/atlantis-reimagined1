@@ -54,7 +54,7 @@ const caseStudies = [
   },
   {
     title: "Indian aerospace NDT supplier (Bangalore, 30 technicians)",
-    body: "Serving HAL, GE Aviation India, Pratt & Whitney India and Boeing supplier-base inspection work, the contractor needed NAS 410 Rev 5 currency tracking, NADCAP audit-pack export and DGCA Form CA-39 generation. SAP S/4HANA Public Cloud quote: enterprise-tier licensing in the multi-crore-INR range over 5 years. Atlantis NDT ERP delivered the same scope as affordable, accessible, fully customizable SaaS; cleared NADCAP MAUP audit with zero findings.",
+    body: "SAP S/4HANA Public Cloud quote: enterprise-tier licensing in the multi-crore-INR range over 5 years. Atlantis NDT ERP delivered the same scope as affordable, accessible, fully customizable SaaS; cleared NADCAP MAUP audit with zero findings.",
   },
   {
     title: "Canadian oil-sands inspection contractor (Edmonton, 38 technicians)",

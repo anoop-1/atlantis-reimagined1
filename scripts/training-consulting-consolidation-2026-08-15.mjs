@@ -63,7 +63,7 @@ const CITY_SCOPE = {
   seattle: {
     name: 'Seattle', state: 'Washington',
     local: 'aerospace manufacturing and its supply chain, the Puget Sound shipyards and naval facilities, and the refining and marine terminals north of the city',
-    regime: 'NAS 410 or EN 4179 on the aerospace side, naval technical requirements at the yards, and ASME with Washington jurisdictional oversight on pressure equipment',
+    regime: 'Customer aerospace personnel requirements on the aerospace side, naval technical requirements at the yards, and ASME with Washington jurisdictional oversight on pressure equipment',
   },
   houston: {
     name: 'Houston', state: 'Texas',
@@ -78,7 +78,7 @@ const CITY_SCOPE = {
   denver: {
     name: 'Denver', state: 'Colorado',
     local: 'the Rockies upstream and midstream operators headquartered downtown, gas processing across the DJ Basin, and a manufacturing and aerospace base along the Front Range',
-    regime: 'API and ASME on the energy estate, with Colorado jurisdictional inspection on pressure equipment and NAS 410 in the aerospace supply chain',
+    regime: 'API and ASME on the energy estate, with Colorado jurisdictional inspection on pressure equipment and customer personnel requirements in the aerospace supply chain',
   },
 };
 

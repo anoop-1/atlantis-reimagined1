@@ -83,7 +83,7 @@ const data: MethodCourseData = {
     {
       question: "How many hours does the ASNT Level 2 UT course take?",
       answer:
-        `SNT-TC-1A recommended training-hour guidance puts UT Level II at ${sntHours.classroom.UT[1]} classroom hours, in addition to the hours already completed at Level I, plus documented on-the-job experience hours specific to the method. Actual hours can vary by your prior experience and the certifying scheme (ASNT SNT-TC-1A, ISO 9712, or NAS 410 for aerospace work).`,
+        `SNT-TC-1A recommended training-hour guidance puts UT Level II at ${sntHours.classroom.UT[1]} classroom hours, in addition to the hours already completed at Level I, plus documented on-the-job experience hours specific to the method. Actual hours can vary by your prior experience and the certifying scheme (ASNT SNT-TC-1A or ISO 9712 for aerospace work).`,
     },
     {
       question: "Do I need a Level I certification before taking Level II?",
@@ -95,11 +95,7 @@ const data: MethodCourseData = {
       answer:
         "UT Level II certification runs on a 5-year SNT-TC-1A or CP-189 recertification cycle. Separately, an annual vision test (near-vision and colour-vision screening) is required on a shorter clock than the certification itself — it's the single most common thing that lapses unnoticed. See our NDT Level 2 recertification / renewal course when your cycle approaches.",
     },
-    {
-      question: "Can this course lead to NAS 410 certification for aerospace work?",
-      answer:
-        "Not directly. Atlantis trains to ASNT SNT-TC-1A only. NAS 410 (and EN 4179 in Europe) certification is issued by an aerospace employer under its own written practice through its Responsible Level 3, who decides whether SNT-TC-1A training hours count toward that record. The UT fundamentals are the same under both schemes.",
-    },
+    
   ],
   relatedLinks: [
     { to: "/paut-level-2-training-course", label: "PAUT Level 2 Training Course", desc: "Advanced phased-array UT for weld and corrosion mapping" },

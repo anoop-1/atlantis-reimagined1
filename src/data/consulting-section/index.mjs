@@ -6,8 +6,8 @@
 // the site). Each topic links down to the detailed consulting pages that already exist, and those
 // pages link back up (consultingTopicLinksFor). One model for React (ConsultingSection.tsx →
 // ServiceSectionPage) and the crawler (scripts/consulting-section-2026-10.mjs).
-// Rules: no prices; founder = ASNT NDT Level III in UT, RT, MT, PT, VT (§54); NAS 410 Level 3 work
-// through the associate (§51.2); Atlantis is ISO 9001 + ISO 14001 certified, not accredited to
+// Rules: no prices; founder = ASNT NDT Level III in UT, RT, MT, PT, VT (§54); NAS 410 is not named or
+// offered anywhere on the site (§65, owner 2026-10-28); Atlantis is ISO 9001 + ISO 14001 certified, not accredited to
 // ISO/IEC 17020 or 17025 and not a certification/accreditation body (§59.6); time promise only
 // "we reply within one business day" (§59.2).
 import { createServiceSection, upLinkHtml } from '../service-section/core.mjs';
@@ -29,7 +29,7 @@ export const CONSULTING_TOPIC_PATHS = P;
 const WHO = {
   id: 'who', h: 'Who does the work',
   p: [
-    'Consulting is led by ASNT NDT Level III personnel. Our founder holds ASNT NDT Level III in UT, RT, MT, PT and VT, with more than eleven years of international NDT field experience. Aerospace work that needs a NAS 410 Level 3 is led through our associate who holds NAS 410 Level 3.',
+    'Consulting is led by ASNT NDT Level III personnel. Our founder holds ASNT NDT Level III in UT, RT, MT, PT and VT, with more than eleven years of international NDT field experience.',
     'A Level III signs only within the methods they are certified in. Where a scope needs another method or scheme, the proposal names who will cover it before work starts. Under SNT-TC-1A the certifying authority always remains the employer; an outside Level III writes and approves the technical documents, prepares and grades examinations and signs in the capacity the written practice assigns.',
   ],
 };
@@ -37,7 +37,7 @@ const WHO = {
 const AUDIT_BY_INDUSTRY = [
   ['refining', 'Refining'], ['petrochemical', 'Petrochemical'], ['pipeline', 'Pipeline'], ['power-generation', 'Power generation'],
   ['offshore', 'Offshore and subsea'], ['lng', 'LNG'], ['tank-terminals', 'Tank terminals'], ['fabrication', 'Fabrication and vessel shops'],
-  ['maritime', 'Maritime'], ['shipbuilding', 'Shipbuilding and repair'], ['nuclear', 'Nuclear'], ['aerospace', 'Aerospace (NAS 410 and Nadcap)'],
+  ['maritime', 'Maritime'], ['shipbuilding', 'Shipbuilding and repair'], ['nuclear', 'Nuclear'], ['aerospace', 'Aerospace (Nadcap)'],
   ['infrastructure', 'Bridges and infrastructure'], ['mining', 'Mining and minerals'], ['steel-metals', 'Steel and metals'],
 ].map(([s, l]) => [`/consulting/level-iii-audit-support-${s}`, l]);
 
@@ -96,7 +96,7 @@ const PAGES = [
       { id: 'by-industry', h: 'Audit support by industry', p: 'Each industry page covers the codes, the regulator or client schemes and the records that audits in that sector focus on.', links: AUDIT_BY_INDUSTRY },
       WHO,
     ],
-    codes: ['ASNT SNT-TC-1A', 'ANSI/ASNT CP-189', 'ISO 9712', 'NAS 410 / EN 4179 (through our associate)', 'ISO 9001 clause 9.2 (internal audit)', 'Client and operator specifications'],
+    codes: ['ASNT SNT-TC-1A', 'ANSI/ASNT CP-189', 'ISO 9712',  'ISO 9001 clause 9.2 (internal audit)', 'Client and operator specifications'],
     deliverables: ['Audit plan and checklist built for your scope', 'Findings report with clause references', 'Corrective action plan with owners', 'Closure verification record'],
     industries: ['Refining and petrochemical', 'Pipelines and terminals', 'Power generation', 'Fabrication and construction', 'Aerospace', 'Marine and offshore'],
     faqs: [
@@ -117,7 +117,6 @@ const PAGES = [
       { href: '/consulting/iacs-service-supplier-approval', label: 'IACS service supplier approval', text: 'Class approval of service suppliers under IACS UR Z17: per society, renewed on a cycle.' },
       { href: '/consulting/utm-operator-qualification-class-approval', label: 'UTM firm class approval', text: 'Thickness measurement firms are audited on operator files before procedures.' },
       { href: '/consulting/esp-survey-readiness-consulting', label: 'ESP survey readiness', text: 'Enhanced survey programme gauging goes to firms already on the class approved list.' },
-      { href: '/consulting/nas-410-responsible-level-3', label: 'NAS 410 responsible Level 3', text: 'Aerospace primes expect one named responsible Level 3; it can be contracted.' },
       { href: '/consulting/faa-part-145-repair-station-ndt', label: 'FAA Part 145 repair station NDT', text: 'What an NDT rating means for a repair station and how auditors read it.' },
       { href: '/consulting/navsea-ndt-requirements-shipyard', label: 'NAVSEA shipyard NDT', text: 'NAVSEA Technical Publication 271 and what Navy yards expect of NDT suppliers.' },
       { href: '/consulting/aar-m-1003-ndt-tank-car-facility', label: 'AAR M-1003 tank car facilities', text: 'NDT elements of AAR M-1003 quality assurance for tank car facilities.' },
@@ -266,7 +265,7 @@ const PAGES = [
         ['OSHA 29 CFR 1910.119(j) process safety management', 'US facilities handling highly hazardous chemicals above threshold quantities', 'Inspection and testing to recognised and generally accepted good engineering practice (commonly API 510, 570 and 653), documented, with deficiencies corrected'],
         ['PHMSA 49 CFR Parts 192 and 195', 'US gas and hazardous liquid pipelines', 'Nondestructive testing of welds by personnel trained and qualified in the procedures and equipment used (192.243, 195.234), with API 1104 incorporated by reference'],
         ['ASME Boiler and Pressure Vessel Code and NBIC', 'Pressure equipment under state or provincial jurisdiction', 'Personnel qualified as the referencing code section requires, commonly to SNT-TC-1A or CP-189, with Authorized Inspector acceptance'],
-        ['FAA 14 CFR Part 145', 'US repair stations holding NDT ratings', 'NDT personnel qualified to the standard the repair station manual adopts, commonly NAS 410'],
+        
         ['NRC 10 CFR 50 Appendix B and ASME Section XI', 'Nuclear plants and their suppliers', 'A quality assurance programme, and CP-189 certification for Section XI NDE personnel'],
         ['BSEE 30 CFR Part 250', 'US offshore platforms', 'Inspection programmes and records the regulator can review'],
         ['Classification society rules (IACS members)', 'Ships and offshore units', 'Service supplier approval and NDT personnel requirements in the class rules'],

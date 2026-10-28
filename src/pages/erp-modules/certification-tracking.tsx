@@ -8,7 +8,7 @@ const data = {
   "intro": "An NDT, welding, or inspection service company lives or dies by the currency of its technicians' certifications. A single expired ASNT Level II certificate on the wrong job can cost the contract, fail an audit, and damage the relationship with a major operator. Most companies manage this in a spreadsheet that nobody updates. Atlantis NDT ERP's personnel qualification module is the single source of truth for every technician credential — automatically tracked, monitored, and surfaced before it lapses.",
   "features": [
     "Per-person credential register with scan + OCR of physical certificates",
-    "Multi-scheme support: ASNT SNT-TC-1A, CP-189, ASNT 9712 (formerly ACCP), ISO 9712, PCN, CSWIP, AWS CWI / SCWI / CAWI, AWS CWE / CWS, NACE CIP, BGAS-CSWIP, API 510 / 570 / 653 / 580, NACE / AMPP corrosion, NAS-410, ASNT Level III",
+    "Multi-scheme support: ASNT SNT-TC-1A, CP-189, ASNT 9712 (formerly ACCP), ISO 9712, PCN, CSWIP, AWS CWI / SCWI / CAWI, AWS CWE / CWS, NACE CIP, BGAS-CSWIP, API 510 / 570 / 653 / 580, NACE / AMPP corrosion, ASNT Level III",
     "Expiry-alert engine: dashboard + email + SMS at 180 / 90 / 60 / 30 / 7 day windows",
     "Vision acuity testing tracker (Jaeger near vision + color discrimination) per ASNT requirements",
     "Annual proficiency / retraining tracking with score and instructor signature",
@@ -22,7 +22,7 @@ const data = {
   ],
   "useCases": [
     "Inspection company on the Aramco approved-vendor list managing 60 SAEP-1142 qualified technicians",
-    "Aerospace NDT shop tracking NAS-410 qualifications + customer specifications (Boeing, Airbus, Bombardier)",
+    "Aerospace NDT shop tracking qualifications + customer specifications (Boeing, Airbus, Bombardier)",
     "Welding contractor maintaining 150 AWS CWIs across 12 states with state-specific licensing",
     "Marine survey firm tracking IIMS, IMCA, CSWIP 3.1U / 3.2U underwater inspector qualifications",
   ],

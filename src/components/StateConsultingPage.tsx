@@ -35,7 +35,7 @@ const stateData: Record<string, StateData> = {
     metaDescription: "NDT consulting in Texas for refining, pipeline and petrochemical work: written practices, procedures and audit support from an ASNT NDT Level III.",
     industries: [
       { name: "Oil & Gas", description: "500+ refineries and petrochemical plants along the Gulf Coast. API 510/570/653 inspection programs for pressure vessels, piping, and storage tanks.", icon: "factory" },
-      { name: "Aerospace & Defense", description: "Lockheed Martin, Bell, L3Harris facilities requiring NAS-410 NDT programs and Level III oversight.", icon: "shield" },
+      { name: "Aerospace & Defense", description: "Lockheed Martin, Bell, L3Harris facilities requiring Nadcap-ready NDT programs and ASNT Level III oversight.", icon: "shield" },
       { name: "Petrochemical", description: "The Texas Gulf Coast hosts the largest petrochemical concentration in the Western Hemisphere.", icon: "building" },
       { name: "Wind Energy", description: "Texas leads the nation in wind energy capacity. Turbine tower and blade inspection requires specialized NDT programs.", icon: "trending" },
     ],
@@ -67,7 +67,7 @@ const stateData: Record<string, StateData> = {
     metaTitle: "NDT Level III Consultant in California | Aerospace & Refinery NDT | Atlantis NDT",
     metaDescription: "ASNT Level III NDT consulting in California. Certified inspectors for aerospace (Boeing, Northrop Grumman), refineries (Chevron, Marathon), and power generation. Serving Los Angeles, San Francisco, San Diego, Sacramento.",
     industries: [
-      { name: "Aerospace & Defense", description: "Boeing, Northrop Grumman, Raytheon, SpaceX — California leads US aerospace manufacturing requiring NAS-410 NDT programs.", icon: "shield" },
+      { name: "Aerospace & Defense", description: "Lockheed Martin, Bell, L3Harris facilities requiring Nadcap-ready NDT programs and ASNT Level III oversight.", icon: "shield" },
       { name: "Refining & Energy", description: "Chevron Richmond, Marathon Martinez, and PBF Torrance refineries require API 510/570/653 inspection programs.", icon: "factory" },
       { name: "Infrastructure", description: "Bridges, dams, transportation infrastructure require structural NDT inspection under Caltrans specifications.", icon: "building" },
       { name: "Semiconductor & Tech", description: "Advanced manufacturing quality control for Silicon Valley's fabrication facilities.", icon: "trending" },

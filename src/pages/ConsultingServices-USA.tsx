@@ -20,7 +20,7 @@ export default function ConsultingServicesUSA() {
         {
             icon: Award,
             title: 'Aerospace NDT Level III Services',
-            description: 'NAS410, Nadcap AC7114, and FAA-compliant Level III consulting for aerospace and defense sectors'
+            description: 'Nadcap AC7114, and FAA-compliant Level III consulting for aerospace and defense sectors'
         },
         {
             icon: Plane,
@@ -70,7 +70,6 @@ export default function ConsultingServicesUSA() {
         { standard: 'ASNT SNT-TC-1A', description: 'Primary guideline for NDT personnel qualification' },
         { standard: 'ASME Section V', description: 'Nondestructive examination standards' },
         { standard: 'API 510/570/653', description: 'Pressure vessel and piping inspection' },
-        { standard: 'NAS410', description: 'Aerospace NDT personnel certification' },
         { standard: 'CP-189', description: 'DoD personnel qualification standard' },
         { standard: 'AWS D1.1', description: 'Structural welding code' }
     ];
@@ -118,7 +117,7 @@ export default function ConsultingServicesUSA() {
             <SEOHead
                 title="US NDT Compliance by State: Codes and Level III Cover"
                 description="US NDT compliance by state: the codes and rules that drive inspection work, how an ASNT Level III engagement runs, and where to go next for your state."
-                keywords="NDT Level III consulting USA, NDT consulting USA, ASNT Level III consulting, ndt level iii consulting, NDT Level III services, NDT procedure writing, ASNT consulting, API inspection consulting USA, ASME NDT consulting, Nadcap consulting, NDT program management, NAS410 consulting, NDT Level III Houston, aerospace NDT consulting, oil gas NDT Level III"
+                keywords="NDT Level III consulting USA, NDT consulting USA, ASNT Level III consulting, ndt level iii consulting, NDT Level III services, NDT procedure writing, ASNT consulting, API inspection consulting USA, ASME NDT consulting, Nadcap consulting, NDT program management, NDT Level III Houston, aerospace NDT consulting, oil gas NDT Level III"
                 canonical="https://atlantisndt.com/consulting-usa"
                 structuredData={serviceSchema}
                 hreflangLinks={[
@@ -144,7 +143,7 @@ export default function ConsultingServicesUSA() {
                             <span className="text-blue-600">For Aerospace & Industrial Excellence</span>
                         </h1>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-                            ASNT-certified Level III NDT consulting for aerospace, oil & gas, and manufacturing. Expert ASME, API, and NAS410 compliance.
+                            ASNT-certified Level III NDT consulting for aerospace, oil & gas, and manufacturing. Expert ASME and API compliance.
                             Advanced Level III services in Phased Array, TOFD, and digital radiography nationwide.
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
@@ -270,7 +269,7 @@ export default function ConsultingServicesUSA() {
                                 </p>
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span>NAS 410 Level 3 services for aerospace through an associate who holds NAS 410 Level 3</span>
+                                    <span></span>
                                 </p>
                             </CardContent>
                         </Card>

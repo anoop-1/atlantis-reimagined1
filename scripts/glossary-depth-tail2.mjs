@@ -72,7 +72,7 @@ export const TERM_FACTS_TAIL2 = {
   'jaeger-j2': {
     principle: 'A near-vision acuity level on the Jaeger test-type scale — some written practices and specifications accept J2 at a defined distance where others require J1; the requirement is whatever the governing document states.',
     practice: 'The operative discipline is identical to J1: annual (or specified) verification, corrected vision acceptable if recorded and worn, and records current for every examiner. Where a client specification demands J1 and the written practice says J2, the contract governs — check before mobilising.',
-    codes: 'SNT-TC-1A, CP-189 and NAS 410 each state near-vision requirements; employers pin the specific chart and distance in the Written Practice.',
+    codes: 'employers pin the specific chart and distance in the Written Practice.',
     pitfall: 'Assuming vision requirements are uniform across programmes. A technician compliant under one employer\'s J2-based practice can be non-compliant on a J1-specified contract the same week — verification against the governing document, not habit.',
   },
   'x-ray-tube': {

@@ -1,5 +1,5 @@
 {
-  "_note": "2026-10-12 release, SEO audit actions 3 and 9 (moneypages workstream). One source for both layers: the React pages (src/pages/Erp.tsx, src/pages/ConsultingServices.tsx, src/pages/ndt-consulting-level-iii.tsx, the two written-practice pages) and the crawler HTML (scripts/money-pages-2026-10.mjs, the last body writer for these paths). Titles and descriptions live in src/data/money-page-meta.json. Rules: no Atlantis price anywhere (ERP plans render only from approved-erp-pricing.json); no numerals in ERP copy except standards names; no client names or outcome figures (case stories come from case-stories-2026-10.json); founder = ASNT NDT Level III in UT, RT, MT, PT, VT with 11+ years; NAS 410 Level 3 services only through an associate who holds NAS 410 Level 3; the client-logo carousel is the owner's and is mirrored, not edited.",
+  "_note": "2026-10-12 release, SEO audit actions 3 and 9 (moneypages workstream). One source for both layers: the React pages (src/pages/Erp.tsx, src/pages/ConsultingServices.tsx, src/pages/ndt-consulting-level-iii.tsx, the two written-practice pages) and the crawler HTML (scripts/money-pages-2026-10.mjs, the last body writer for these paths). Titles and descriptions live in src/data/money-page-meta.json. Rules: no Atlantis price anywhere (ERP plans render only from approved-erp-pricing.json); no numerals in ERP copy except standards names; no client names or outcome figures (case stories come from case-stories-2026-10.json); founder = ASNT NDT Level III in UT, RT, MT, PT, VT with 11+ years; the client-logo carousel is the owner's and is mirrored, not edited.",
   "erp": {
     "path": "/erp",
     "h1": "ERP for NDT and Inspection Companies \u2014 Certifications, Calibration, Dispatch and Reports in One System",
@@ -218,7 +218,7 @@
         "A named ASNT Level III, with the methods they can approve stated in the proposal.",
         "Records an auditor can trace: examinations, grading, vision tests and certification files kept the way your written practice says.",
         "A defined scope and a quote before work starts, delivered remotely or on site.",
-        "NAS 410 Level 3 services for aerospace suppliers, delivered through an associate who holds NAS 410 Level 3."
+        ""
       ]
     },
     "engagement": {
@@ -342,7 +342,7 @@
       },
       {
         "q": "Which certification schemes do you work to?",
-        "a": "Employer written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189. NAS 410 Level 3 services for aerospace suppliers are delivered through an associate who holds NAS 410 Level 3. ISO 9712 and PCN certification is examined by their own accredited bodies."
+        "a": "Employer written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189. ISO 9712 and PCN certification is examined by their own accredited bodies."
       },
       {
         "q": "What is the method scope constraint?",
@@ -396,9 +396,9 @@
     "heading": "Consulting by programme and code",
     "paragraphs": [
       "Most consulting work starts from the code or programme your customer audits you against. Under OSHA PSM, the NDT half of mechanical integrity is inspector qualification, procedures and the five-element inspection record in 29 CFR 1910.119(j)(4)(iv): see [PSM NDT services](/consulting/osha-psm-mechanical-integrity-ndt). Pipeline audits test personnel certification, procedure approval, calibration and examination records together, with operator qualification as a separate regime: see [pipeline audit preparation](/blog/pipeline-audit-preparation-what-operators-check).",
-      "Aerospace suppliers need a Responsible Level 3 under NAS 410, which we provide through an associate who holds NAS 410 Level 3: see [NAS 410 Responsible Level 3](/consulting/nas-410-responsible-level-3). For API 510, 570 and 653 programs, we perform the NDE your inspector calls for and interpret it under Level III authority: see [NDT inspection services](/inspection-services) and the [API 510 program audit](/consulting/api-510-program-audit)."
+      "For API 510, 570 and 653 programs, we perform the NDE your inspector calls for and interpret it under Level III authority: see [NDT inspection services](/inspection-services) and the [API 510 program audit](/consulting/api-510-program-audit)."
     ],
-    "source": "eCFR, 29 CFR 1910.119(j); 49 CFR Parts 192 and 195; NAS 410"
+    "source": "eCFR, 29 CFR 1910.119(j); 49 CFR Parts 192 and 195"
   },
   "level3": {
     "path": "/consulting/ndt-consulting-level-iii",
@@ -409,14 +409,14 @@
       "h2": "What is an outsourced NDT Level III?",
       "answer": "An outsourced NDT Level III is an ASNT Level III engaged from outside your company, an outside agency Level III, who carries out the Level III duties your written practice assigns: approving procedures and techniques, preparing and grading examinations, and overseeing personnel qualification. Your company remains the certifying employer.",
       "more": [
-        "SNT-TC-1A allows an employer to use an outside agency for Level III services, and NAS 410 lets an employer designate an outside agency Level 3 in writing. Either way the arrangement is written into the employer's written practice, which names what the outside Level III signs.",
+        "Either way the arrangement is written into the employer's written practice, which names what the outside Level III signs.",
         "What stays with your company: the written practice itself, the decision to certify, the certificates and the records. What the outside agency Level III brings: the technical approval, the examinations and the audit-ready paperwork behind each certification."
       ],
       "founder": "Atlantis's Level III work is led by founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience. A Level III approves only within the methods they hold, so every proposal names the methods it covers."
     },
     "covers": {
       "h2": "What our NDT Level III consulting covers",
-      "p": "Written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189; NDT procedures and technique sheets approved within the Level III's certified methods; personnel qualification, examinations and vision-test records; and audit preparation and responses for customer, supplier and ISO-style audits. Aerospace programmes under NAS 410 are covered by our NAS 410 Level 3 services, described further down this page.",
+      "p": "Written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189; NDT procedures and technique sheets approved within the Level III's certified methods; personnel qualification, examinations and vision-test records; and audit preparation and responses for customer, supplier and ISO-style audits. Aerospace programmes under the customer-specified aerospace standard are covered by our ASNT NDT Level III consulting, described further down this page.",
       "links": [
         {
           "label": "NDT consulting services",
@@ -439,7 +439,7 @@
     "expert": {
       "id": "named-level-iii",
       "h2": "Your NDT Level 3 consultant: Anoop Rayavarapu",
-      "p": "Level III work at Atlantis NDT is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers; NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3.",
+      "p": "Level III work at Atlantis NDT is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers.",
       "verify": "You can confirm a current ASNT certification yourself in [ASNT's certificant directory](https://certification.asnt.org). See also [about the founder](/authors/anoop-rayavarapu)."
     },
     "deliverables": {
@@ -504,7 +504,7 @@
         "Have you written practices and procedures for our codes and customer specifications, such as ASME Section V, AWS D1.1 or a client's own standard?",
         "What do you sign, and what stays with us? Certification stays with the employer; the outside Level III signs what the written practice assigns.",
         "How will you treat our existing procedures: rewrite them, review them, or approve them as written?",
-        "Who covers methods or schemes outside your own, such as NAS 410 Level 3, and are they named in the proposal?"
+        ""
       ]
     },
     "audit": {
@@ -537,7 +537,7 @@
         },
         {
           "q": "Which methods can be covered?",
-          "a": "UT (including the phased array and TOFD techniques), RT, MT, PT and VT, the five methods in which the founder holds ASNT NDT Level III certification. NAS 410 Level 3 work is provided through an associate who holds NAS 410 Level 3. Other methods need a Level III certified in them; that is raised at scoping and named in the proposal, never covered by extending a signature beyond its scope."
+          "a": "UT (including the phased array and TOFD techniques), RT, MT, PT and VT, the five methods in which the founder holds ASNT NDT Level III certification. Other methods need a Level III certified in them; that is raised at scoping and named in the proposal, never covered by extending a signature beyond its scope."
         },
         {
           "q": "Our Level III resigned: what happens to our certifications?",
@@ -548,12 +548,12 @@
           "a": "Usually, when your Level III work is intermittent: a staff Level III is a full salary against demand that comes in cycles of written practice reviews, procedure approvals, examinations and audits. The comparison turns on how often you qualify people and approve procedures rather than on headcount alone, and the proposal is quoted on that scope."
         },
         {
-          "q": "Which scheme applies: SNT-TC-1A, CP-189 or NAS 410?",
-          "a": "Your customer contract decides. Aerospace work and Nadcap accreditation invoke NAS 410. Contracts specifying ANSI/ASNT CP-189 impose a standard using \"shall\" rather than a recommended practice. Absent either, SNT-TC-1A employer-based certification is the default across US industrial work."
+          "q": "Which scheme applies: SNT-TC-1A or CP-189?",
+          "a": "Your customer contract decides. Contracts specifying ANSI/ASNT CP-189 impose a standard using \"shall\" rather than a recommended practice. Absent either, SNT-TC-1A employer-based certification is the default across US industrial work."
         },
         {
           "q": "Does an outside Level III cover a Nadcap audit?",
-          "a": "A designated Responsible Level 3 satisfies the personnel-authority requirement under NAS 410, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results: vision test currency, OJT documentation and retained examination papers remain the employer's responsibility. Atlantis provides NAS 410 Level 3 services through an associate who holds NAS 410 Level 3."
+          "a": "A designated Responsible Level 3 satisfies the personnel-authority requirement under the customer-specified aerospace standard, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results: vision test currency, OJT documentation and retained examination papers remain the employer's responsibility."
         },
         {
           "q": "Can a fractional Level III sign off on new inspection procedures?",
@@ -594,8 +594,8 @@
           "href": "/consulting/interim-ndt-level-3"
         },
         {
-          "label": "NAS 410 certification requirements",
-          "href": "/nas-410-certification-requirements"
+          "label": "SNT-TC-1A eligibility and hours",
+          "href": "/snt-tc-1a-eligibility"
         },
         {
           "label": "Nadcap AC7114 audit readiness",
@@ -618,7 +618,7 @@
           "href": "/consulting/oil-gas-ndt-consulting"
         },
         {
-          "label": "aerospace NDT consulting and NAS 410",
+          "label": "aerospace NDT consulting",
           "href": "/consulting/aerospace-ndt-consulting"
         },
         {

@@ -11,7 +11,7 @@ import { Package, ArrowRight, Mail } from "lucide-react";
 
 const modules = [
   { slug: "inventory-management", name: "Inventory Management", desc: "NDT equipment, probes, calibration blocks, consumables, source tracking. ISO 17025 traceability." },
-  { slug: "certification-tracking", name: "Certification & Personnel Qualification", desc: "ASNT, ISO 9712, PCN, CSWIP, AWS CWI, NACE, API, NAS-410, ASNT Level III tracking. 180/90/60/30-day expiry alerts." },
+  { slug: "certification-tracking", name: "Certification & Personnel Qualification", desc: "ASNT, ISO 9712, PCN, CSWIP, AWS CWI, NACE, API, ASNT Level III tracking. 180/90/60/30-day expiry alerts." },
   { slug: "calibration-management", name: "Calibration Management", desc: "ISO/IEC 17025:2017 + ANSI Z540 compliant calibration. Uncertainty budgets per GUM. Multi-discipline." },
   { slug: "work-order-management", name: "Work Order & Job Management", desc: "Quote → work order → field execution → report → invoice. Multi-client, multi-project, day-rate + T&M + fixed-price." },
   { slug: "inspection-scheduling", name: "Inspection Scheduling", desc: "Due-date reminders, never miss a due date." },

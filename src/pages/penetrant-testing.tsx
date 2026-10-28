@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "How long does PT Level II certification take?",
-    a: "Per ASNT SNT-TC-1A, PT Level II requires a minimum of 80 classroom training hours and 1,600 hours of documented field experience (reduced to 200 hours with an engineering degree). Candidates must pass General and Specific written exams and a practical demonstration exam administered by an employer-qualified Level III. Total time to achieve Level II from no prior experience typically ranges from 6 months to 2 years. For aerospace FPI, NAS-410 qualification has additional requirements including UV light intensity verification and reference standard usage. Atlantis NDT offers PT Level I/II training and Level III exam preparation.",
+    a: "Per ASNT SNT-TC-1A, PT Level II requires a minimum of 80 classroom training hours and 1,600 hours of documented field experience (reduced to 200 hours with an engineering degree). Candidates must pass General and Specific written exams and a practical demonstration exam administered by an employer-qualified Level III. Total time to achieve Level II from no prior experience typically ranges from 6 months to 2 years. For aerospace FPI, qualification has additional requirements including UV light intensity verification and reference standard usage. Atlantis NDT offers PT Level I/II training and Level III exam preparation.",
   },
   {
     q: "What sensitivity levels are used in fluorescent penetrant testing?",
@@ -78,7 +78,7 @@ const sensitivityLevels = [
 const industries = [
   {
     title: "Aerospace",
-    detail: "Turbine blades, compressor discs, engine cases, landing gear, and fastener holes. FPI (fluorescent penetrant inspection) is mandatory for most aerospace safety-critical parts per AMS 2644 and NAS-410 personnel qualification requirements. NADCAP audits cover PT process control, UV light intensity, and reference standard usage.",
+    detail: "Turbine blades, compressor discs, engine cases, landing gear, and fastener holes. NADCAP audits cover PT process control, UV light intensity, and reference standard usage.",
     link: "/ndt-for-aerospace",
   },
   {
@@ -106,7 +106,7 @@ const governingCodes = [
   { std: "AMS 2644", scope: "FPI qualification specification — sensitivity levels 1/2 through 4" },
   { std: "API 570 Appendix B", scope: "PT for in-service piping inspection under piping inspection code" },
   { std: "AWS D1.1", scope: "PT for structural steel welds — buildings, bridges, and structures" },
-  { std: "NAS-410 / AMS 2644", scope: "Aerospace personnel qualification for PT/FPI inspection" },
+  { std: "AMS 2644", scope: "Aerospace personnel qualification for PT/FPI inspection" },
 ];
 
 const comparisonRows = [
@@ -403,10 +403,10 @@ export default function PenetrantTesting() {
           {/* Certification */}
           <section className="bg-white rounded-2xl p-8 shadow border border-slate-100">
             <h2 id="certification" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
-              PT Certification: ASNT, ISO 9712 &amp; NAS-410
+              PT Certification: ASNT, ISO 9712
             </h2>
             <p className="text-slate-700 leading-relaxed mb-5">
-              PT technicians must be certified to perform and interpret inspections on code-required work. The most widely recognised certification schemes are ASNT SNT-TC-1A (USA industrial), ISO 9712 (international/Europe), and NAS-410 (aerospace). For aerospace FPI work, many customers also require AMS 2644 process qualification in addition to personnel certification.
+              PT technicians must be certified to perform and interpret inspections on code-required work. The most widely recognised certification schemes are ASNT SNT-TC-1A (USA industrial), ISO 9712 (international/Europe). For aerospace FPI work, many customers also require AMS 2644 process qualification in addition to personnel certification.
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               {[
@@ -434,7 +434,7 @@ export default function PenetrantTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-4">
-              Atlantis NDT delivers ASNT SNT-TC-1A PT training at Level I, II, and III, self-paced online or onsite at your facility. For aerospace clients, our instructors cover NAS-410 and AMS 2644 requirements including UV light verification, reference standard usage, and process control documentation.
+              Atlantis NDT delivers ASNT SNT-TC-1A PT training at Level I, II, and III, self-paced online or onsite at your facility. For aerospace clients, our instructors cover AMS 2644 requirements including UV light verification, reference standard usage, and process control documentation.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">
@@ -545,7 +545,7 @@ export default function PenetrantTesting() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need PT Consultation?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III PT engineers provide procedure development, AMS 2644 FPI qualification, and written practice management for ASME V, API, AWS, and NAS-410 codes.
+              Our ASNT Level III PT engineers provide procedure development, AMS 2644 FPI qualification, and written practice management for ASME V, API and AWS codes.
             </p>
             <Link to="/contact" className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm">
               Contact Our PT Experts

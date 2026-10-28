@@ -212,7 +212,7 @@ export default function CorporateNDTTraining() {
                 "API 570 piping inspector",
                 "API 653 above-ground-tank inspector",
                 "ASNT Level III certification prep",
-                "NAS 410 / EN 4179 aerospace",
+                
                 "CSWIP 3.1 / 3.2 welding inspector",
               ].map((m, i) => (
                 <div key={i} className="flex items-start gap-2 p-3 border rounded">

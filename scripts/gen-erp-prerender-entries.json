@@ -113,10 +113,10 @@
   },
   {
     "path": "/erp-industries/aerospace-quality-control",
-    "title": "ERP for Aerospace QC, NDT, and MRO Companies (AS9100, NAS-410) | Atlantis NDT ERP",
-    "description": "AS9100D quality management, NAS-410 NDT personnel qualification, aircraft MRO work-order management, FAA / EASA / DGCA regulatory compliance, customer-specific (Boeing / Airbus / Bombardier / Pratt & Whitney) quality flow-down.",
+    "title": "ERP for Aerospace QC, NDT, and MRO Companies (AS9100) | Atlantis NDT ERP",
+    "description": "",
     "bodyH1": "ERP for Aerospace Quality Control & MRO",
-    "bodyText": "Aerospace quality is the highest standard in industrial inspection. AS9100D extends ISO 9001 with industry-specific requirements; NAS-410 governs NDT personnel qualification; customer-specific specifications from Boeing (D6-82479), Airbus (AITM), Bombardier, Embraer, and Pratt & Whitney (ASQR-01) add another layer. The aerospace ERP configuration handles all of it."
+    "bodyText": "Aerospace quality is the highest standard in industrial inspection. AS9100D extends ISO 9001 with industry-specific requirements; customer-specific specifications from Boeing (D6-82479), Airbus (AITM), Bombardier, Embraer, and Pratt & Whitney (ASQR-01) add another layer. The aerospace ERP configuration handles all of it."
   },
   {
     "path": "/erp-industries/metrology-laboratories",

@@ -74,7 +74,7 @@ export default function EsNdtErpSolution() {
         {
           title: "Gestión de técnicos y personal",
           description:
-            "Rastree cada certificación — ASNT SNT-TC-1A, ISO 9712, ABENDI, IRAM-IAS, ICONTEC, NAS 410 — con matriz de métodos, registros de agudeza visual (Jaeger #2 / Snellen 20/30), fechas de retest anual y cartas del empleador. Alertas automáticas a 90, 60 y 30 días antes del vencimiento.",
+            "Rastree cada certificación — ASNT SNT-TC-1A, ISO 9712, ABENDI, IRAM-IAS, ICONTEC — con matriz de métodos, registros de agudeza visual (Jaeger #2 / Snellen 20/30), fechas de retest anual y cartas del empleador. Alertas automáticas a 90, 60 y 30 días antes del vencimiento.",
           features: [
             "Seguimiento multi-metodología: UT, RT, MT, PT, VT, ET",
             "Registros anuales de agudeza visual",

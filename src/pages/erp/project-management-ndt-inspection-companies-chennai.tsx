@@ -14,13 +14,13 @@ const data: ErpTripleCrossProps = {
   "desc": "Project Management ERP for NDT inspection companies in Chennai — auto / refining / nuclear / aerospace project workflows, automotive PPAP, BARC Kalpakkam supplier audits, CPCL Manali turnarounds. Demo: info@atlantisndt.com.",
   "introPara1": "NDT inspection companies in Chennai run multi-sector projects simultaneously — automotive supplier qualification (Hyundai, BMW, Renault-Nissan, Daimler), CPCL Manali refinery turnarounds (230,000 bpd), Kalpakkam nuclear supplier work (FBTR, MAPS, PFBR), Kamarajar Port heavy industrial, and aerospace component inspection. Each customer segment has distinct project gates and audit cycles.",
   "introPara2": "Chennai NDT contractors manage parallel project pipelines across automotive PPAP (Production Part Approval Process), refinery turnaround scheduling, nuclear-grade BARC supplier audits, port-authority structural inspection, and aerospace customer audits. Project management for Chennai NDT contractors is the operational spine that orchestrates multi-sector deliverables.",
-  "introPara3": "Configured for Chennai, the module pre-loads operator-specific project gates from CPCL Manali, automotive OEMs (Hyundai, BMW, Renault-Nissan, Daimler), BARC Kalpakkam, compliance templates against API 510/570/653, automotive Q/A, BARC nuclear-grade qualification, NAS 410 Rev 5 (aerospace), bilingual Tamil / English documentation, and the audit frameworks that PESO, BARC, AERB, DGCA and TNPCB actually use.",
+  "introPara3": "Configured for Chennai, the module pre-loads operator-specific project gates from CPCL Manali, automotive OEMs (Hyundai, BMW, Renault-Nissan, Daimler), BARC Kalpakkam, compliance templates against API 510/570/653, automotive Q/A, BARC nuclear-grade qualification, bilingual Tamil / English documentation, and the audit frameworks that PESO, BARC, AERB, DGCA and TNPCB actually use.",
   "features": [
     "Project management configured for Chennai's auto / refining / nuclear / aerospace market",
     "Automotive supplier PPAP project workflow (Hyundai, BMW, Renault-Nissan, Daimler)",
     "CPCL Manali refinery turnaround project scheduling",
     "Nuclear-grade BARC Kalpakkam supplier audit project workflow",
-    "Multi-sector personnel-currency-driven assignment (ISNT / ASNT / NAS 410 Rev 5)",
+    "Multi-sector personnel-currency-driven assignment (ISNT / ASNT)",
     "Customer-specific audit-cycle integration",
     "Audit-ready PDF compliance package for any client / auditor in 30 seconds",
     "Field-data capture offline-capable for Chennai / Sriperumbudur / Kalpakkam sites",
@@ -44,7 +44,7 @@ const data: ErpTripleCrossProps = {
     "Example: an NDT inspection company in Chennai preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
-    ["Is Project Management configured for NDT inspection companies operating in Chennai?", "Yes. The Project Management module is pre-loaded with automotive PPAP project workflow, CPCL Manali refinery turnaround scheduling, BARC Kalpakkam nuclear-grade supplier audit workflow, and cross-code templates (API 510/570/653, automotive Q/A, BARC nuclear, NAS 410 Rev 5 aerospace)."],
+    ["Is Project Management configured for NDT inspection companies operating in Chennai?", "Yes."],
     ["Which Chennai regulators does Project Management align with?", "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Tamil Nadu Pollution Control Board (TNPCB). The AERB Chennai office specifically covers Kalpakkam nuclear inspection authorizations."],
     ["Can Chennai NDT inspection companies integrate Project Management with automotive OEM portals?", "Yes. The platform supports vendor-portal flow with Hyundai, BMW India, Renault-Nissan, Daimler India. Automotive-OEM PPAP project deliverables are auto-formatted."],
     ["What does Project Management cost for an NDT inspection company in Chennai?", "Project Management is bundled inside the standard Atlantis NDT ERP subscription — affordable, accessible and fully customizable, quote on request. Invoicing in INR or USD."],

@@ -136,7 +136,7 @@ const industries = [
     },
     {
         title: "Aerospace — Seattle, LA, Dallas",
-        description: "Boeing, Lockheed Martin, Northrop Grumman, Raytheon, and hundreds of tier-1 and tier-2 aerospace suppliers employ NDT technicians under NAS-410 (formerly MIL-HDBK-410). NADCAP-accredited programs require ongoing NDT personnel qualification.",
+        description: "Boeing, Lockheed Martin, Northrop Grumman, Raytheon, and hundreds of tier-1 and tier-2 aerospace suppliers employ NDT technicians under the customer-specified aerospace standard (formerly MIL-HDBK-410). NADCAP-accredited programs require ongoing NDT personnel qualification.",
         demand: "Very High"
     },
     {
@@ -164,7 +164,7 @@ const certificationPath = [
 const faqs = [
     {
         question: "What certifications does Atlantis offer?",
-        answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III. We do not offer NAS-410 training; aerospace employers certify to NAS-410 under their own written practice. Ask us about ASNT Level III consulting for your written practice development."
+        answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III. We do not offer aerospace training; aerospace employers certify to the customer-specified aerospace standard under their own written practice. Ask us about ASNT Level III consulting for your written practice development."
     },
     {
         question: "Is online training available?",
@@ -180,7 +180,7 @@ const faqs = [
     },
     {
         question: "Is ASNT CP-189 better than SNT-TC-1A?",
-        answer: "They serve different purposes. SNT-TC-1A is employer-based: the employer writes the practice and certifies their own technicians. CP-189 is a third-party central certification administered by ASNT directly. CP-189 (and the associated ASNT 9712 program) provides portability — your certification follows you between employers. Many US operators accept both. Aerospace may prefer CP-189 or NAS-410. We recommend discussing with your target employer which standard is required."
+        answer: "They serve different purposes. SNT-TC-1A is employer-based: the employer writes the practice and certifies their own technicians. CP-189 is a third-party central certification administered by ASNT directly. CP-189 (and the associated ASNT 9712 program) provides portability — your certification follows you between employers. Many US operators accept both. Aerospace may prefer CP-189. We recommend discussing with your target employer which standard is required."
     },
     {
         question: "What is the NDT Level II written examination like?",

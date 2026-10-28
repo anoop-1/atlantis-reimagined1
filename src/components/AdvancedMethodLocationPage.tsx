@@ -120,7 +120,7 @@ function getCityContext(cityName: string, country: string, region: string, indus
     if (industries.includes("Aerospace") || industries.includes("Defense")) {
       return {
         industryFocus: `${cityName}'s ${industries.slice(0, 2).join(" and ").toLowerCase()} sector requires the highest levels of inspection precision and reliability.`,
-        regulations: "FAA regulations, NAS 410 (Aerospace NDT Personnel Qualification), Nadcap accreditation requirements, and DCMA contract quality requirements apply.",
+        regulations: "FAA regulations, customer aerospace personnel qualification requirements, Nadcap accreditation requirements, and DCMA contract quality requirements apply.",
         keyChallenge: `Advanced materials (composites, titanium alloys, superalloys) used in ${cityName}'s aerospace manufacturing require specialized inspection approaches beyond conventional NDT.`,
         marketInsight: `${cityName} hosts major aerospace manufacturing and MRO facilities, creating a specialized market for high-precision NDT services.`
       };

@@ -17,7 +17,7 @@ export const ROUND3_ANGLES = {
     'Robotic Crawler-Based UT — In-Service Inspection of Tall Vessels',
   ],
   'aerospace-ndt-standards': [
-    'NAS 410 vs EN 4179 — Aerospace NDT Cert Cross-Recognition',
+    
     'Boeing D1-9000 + Pratt & Whitney Procedural Overlays Decoded',
     'Composite UT C-Scan for Wing-Skin Inspection',
     'Eddy Current Array (ECA) for Fastener-Hole Inspection',

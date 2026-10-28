@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "What codes and standards govern magnetic particle testing?",
     answer:
-      "ASME BPVC Section V Article 7 for general MT; ASME Section VIII UW-51 for vessel welds; AWS D1.1 Clause 8 for structural welds; API 1104 for pipelines; ASTM E709 and E3024 for general technique; ASTM E1444 for aerospace; ISO 17638 for European weld testing with ISO 23278 for acceptance criteria. Aerospace adds NAS 410 and AMS 2641 for vehicle carriers. MT of ferromagnetic castings is typically governed by ASTM A275 or the relevant MSS-SP.",
+      "ASME BPVC Section V Article 7 for general MT; ASME Section VIII UW-51 for vessel welds; AWS D1.1 Clause 8 for structural welds; API 1104 for pipelines; ASTM E709 and E3024 for general technique; ASTM E1444 for aerospace; ISO 17638 for European weld testing with ISO 23278 for acceptance criteria. Aerospace adds AMS 2641 for vehicle carriers. MT of ferromagnetic castings is typically governed by ASTM A275 or the relevant MSS-SP.",
   },
   {
     question: "How much does MT cost and when is it faster than UT?",
@@ -198,7 +198,7 @@ export default function MagneticParticleTestingHub() {
                 <tr><td className="px-4 py-3 font-medium">ASME VIII UW-51</td><td className="px-4 py-3">Acceptance criteria</td><td className="px-4 py-3">Pressure vessel welds</td></tr>
                 <tr><td className="px-4 py-3 font-medium">ASTM E709</td><td className="px-4 py-3">Standard practice</td><td className="px-4 py-3">General industrial MT</td></tr>
                 <tr><td className="px-4 py-3 font-medium">ASTM E3024</td><td className="px-4 py-3">WFMT specifically</td><td className="px-4 py-3">Critical fatigue components</td></tr>
-                <tr><td className="px-4 py-3 font-medium">ASTM E1444</td><td className="px-4 py-3">Aerospace practice</td><td className="px-4 py-3">NAS 410 rotating parts</td></tr>
+                <tr><td className="px-4 py-3 font-medium">ASTM E1444</td><td className="px-4 py-3">Aerospace practice</td><td className="px-4 py-3"></td></tr>
                 <tr><td className="px-4 py-3 font-medium">AWS D1.1 Clause 8</td><td className="px-4 py-3">Structural steel welds</td><td className="px-4 py-3">Bridges, buildings, crane booms</td></tr>
                 <tr><td className="px-4 py-3 font-medium">API 1104</td><td className="px-4 py-3">Pipeline girth welds</td><td className="px-4 py-3">Cross-country pipeline MT</td></tr>
                 <tr><td className="px-4 py-3 font-medium">ISO 17638 / 23278</td><td className="px-4 py-3">European weld MT</td><td className="px-4 py-3">EU pressure directive scope</td></tr>
@@ -219,7 +219,7 @@ export default function MagneticParticleTestingHub() {
               </CardContent></Card>
             <Card><CardHeader><CardTitle className="text-base">Aerospace</CardTitle></CardHeader>
               <CardContent className="text-sm text-slate-700 leading-relaxed">
-                Landing-gear steels, turbine disks, engine mounts. Mandatory WFMT under ASTM E1444 and NAS 410 Level II inspectors.
+                Landing-gear steels, turbine disks, engine mounts.
               </CardContent></Card>
             <Card><CardHeader><CardTitle className="text-base">Power Generation</CardTitle></CardHeader>
               <CardContent className="text-sm text-slate-700 leading-relaxed">

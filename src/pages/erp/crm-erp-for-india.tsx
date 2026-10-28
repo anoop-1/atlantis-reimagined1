@@ -21,7 +21,7 @@ export default function CrmErpForIndia() {
         { useCase: "Mumbai BPCL/HPCL/RIL contractor", body: "Example: a Mumbai inspection firm tracks parallel BPCL Mumbai Refinery, HPCL Mumbai Refinery, Reliance Jamnagar and ONGC Mumbai High pipelines with PESO Form XVI submission status." },
         { useCase: "Hyderabad/Vizag BHEL/HPCL/RINL specialist", body: "Example: a Hyderabad-based contractor routes opportunities by AERB radiography source-handling licence and ISNT Level II/III currency." },
         { useCase: "Jamnagar Reliance refinery turnaround vendor", body: "Example: a Jamnagar contractor manages Reliance Jamnagar Phase I + Phase II + Nayara Vadinar parallel pipelines with NACE MR0175 sour-service tagging." },
-        { useCase: "Bangalore aerospace HAL/GE/PW supplier", body: "Example: a Bangalore inspection firm tracks HAL, BEL, ISRO, GE Aviation India, Pratt & Whitney India, Honeywell, Collins, Safran and Boeing supplier opportunities with NAS 410 Rev 5 / NADCAP currency." },
+        { useCase: "Bangalore aerospace HAL/GE/PW supplier", body: "Example: a Bangalore inspection firm tracks HAL, BEL, ISRO, GE Aviation India, Pratt & Whitney India, Honeywell, Collins, Safran and Boeing supplier opportunities with NADCAP currency." },
       ]}
       keyFeatures={[
         "PESO Form XVI/XIV statutory-submission integration",

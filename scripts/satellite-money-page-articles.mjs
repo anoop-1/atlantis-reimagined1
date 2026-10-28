@@ -204,8 +204,8 @@ const ARTICLES = [
     title: 'What Nadcap Auditors Look At Before They Look At Your Technique',
     description:
       'Technique quality is rarely where a Nadcap audit is lost. The findings cluster in personnel currency, process control and the ability to reconstruct a past inspection — all of which are records problems.',
-    keywords: ['Nadcap', 'NAS 410', 'EN 4179', 'aerospace NDT', 'AC7114'],
-    author: 'Hélène Dupuis, NAS 410 Level 3',
+    keywords: ['Nadcap',  'EN 4179', 'aerospace NDT', 'AC7114'],
+    author: '',
     date: '2026-07-08',
     category: 'Aerospace',
     readTime: '9 min read',
@@ -213,7 +213,7 @@ const ARTICLES = [
       <p>Suppliers preparing for a Nadcap NDT audit tend to over-prepare the technical demonstration and under-prepare the records. The distribution of findings suggests that is backwards.</p>
 
       <h2>Personnel currency</h2>
-      <p>Under NAS 410 and EN 4179 the employer certifies against a written practice, with a designated Level 3, documented training and experience hours, and annual vision examinations. Findings cluster here for the same reason they cluster everywhere: the vision examination runs on a shorter cycle than the method certification it supports, and nothing in a typical process checks the two against each other at the moment work is assigned.</p>
+      <p>Under the customer-specified aerospace standard the employer certifies against a written practice, with a designated Level 3, documented training and experience hours, and annual vision examinations. Findings cluster here for the same reason they cluster everywhere: the vision examination runs on a shorter cycle than the method certification it supports, and nothing in a typical process checks the two against each other at the moment work is assigned.</p>
       <p>The structural fix is the same one used in the pressure-equipment world — make currency a condition of assignment rather than a report someone reviews monthly. Systems that <a href="https://atlantisndt.com/erp-modules/certification-tracking" target="_blank" rel="noopener">track certification currency and block assignment when anything lapses</a> remove the failure mode instead of monitoring it.</p>
 
       <h2>Process control on the technique sheet, not the procedure</h2>
@@ -275,7 +275,7 @@ const ARTICLES = [
     title: 'Why Composite Inspection Records Are Harder Than Metal Records',
     description:
       'Acceptance criteria come from the OEM specification rather than a general code, so the same indication can be acceptable on one programme and rejectable on another. That single difference changes what a record has to contain.',
-    keywords: ['composite inspection', 'delamination', 'NAS 410', 'OEM specification', 'ultrasonic composite'],
+    keywords: ['composite inspection', 'delamination',  'OEM specification', 'ultrasonic composite'],
     author: 'Ravi Deshmukh, ASNT NDT Level III',
     date: '2026-07-06',
     category: 'Composites',
@@ -291,7 +291,7 @@ const ARTICLES = [
       <ul>
         <li>The part number and revision, because the layup — and therefore the reference standard — changes with it.</li>
         <li>The technique sheet revision, and the reference standard used, identified by serial rather than by type.</li>
-        <li>The operator's NAS 410 or EN 4179 qualification state as at the date of examination, not as at today.</li>
+        
         <li>Equipment and probe calibration status covering the examination date.</li>
         <li>The specification and revision providing the acceptance criteria, and the clause applied to the disposition.</li>
       </ul>

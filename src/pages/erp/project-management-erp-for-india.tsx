@@ -20,7 +20,7 @@ export default function ProjectManagementErpForIndia() {
         { useCase: "IOCL Mathura/Panipat refinery turnaround", body: "Example: a Delhi-NCR contractor manages IOCL Mathura turnaround across 280 vessel inspections." },
         { useCase: "Reliance Jamnagar mega-turnaround", body: "Example: a Jamnagar contractor runs parallel Reliance Phase I + Phase II turnaround inspection projects." },
         { useCase: "ONGC Mumbai High offshore platform shutdown", body: "Example: a Mumbai contractor tracks ONGC Mumbai High platform-shutdown inspection across BHN, BPA, BPB and BHF platforms with sea-water damage models." },
-        { useCase: "Bangalore aerospace HAL/GE/PW supplier project", body: "Example: a Bangalore aerospace contractor manages HAL fighter-aircraft engine-component inspection projects with NAS 410 Rev 5 / NADCAP-aware scope tracking." },
+        { useCase: "Bangalore aerospace HAL/GE/PW supplier project", body: "Example: a Bangalore aerospace contractor manages HAL fighter-aircraft engine-component inspection projects with NADCAP-aware scope tracking." },
       ]}
       keyFeatures={[
         "IOCL / HPCL / BPCL / Reliance / Nayara / ONGC turnaround templates",

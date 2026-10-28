@@ -315,7 +315,7 @@ function erpHub(region, ctx) {
     <h2>What actually decides the purchase in ${esc(region.name)}</h2>
     <p>${esc(region.marketNote)}</p>
     <ul>
-      <li>Certification currency per method — SNT-TC-1A, ISO 9712, NAS 410 and client-specific approvals — with computed status, 90-day expiry warning tasks, email alerts, timesheet warnings and blocked double-booking.</li>
+      <li>Certification currency per method — SNT-TC-1A, ISO 9712 and client-specific approvals — with computed status, 90-day expiry warning tasks, email alerts, timesheet warnings and blocked double-booking.</li>
       <li>Calibration control with ISO 17025 traceability across flaw detectors, thickness gauges, probes, wedges, reference blocks and step wedges.</li>
       <li>Condition-driven inspection scheduling: next-inspection dates computed from measured corrosion rate under API 510/570/653 rather than a fixed calendar.</li>
       <li>Offline mobile field capture for confined spaces, vessels, offshore platforms and remote sites with no connectivity.</li>

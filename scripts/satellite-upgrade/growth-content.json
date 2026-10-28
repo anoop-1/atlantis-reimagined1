@@ -765,7 +765,7 @@
     "description": "Map customer requirements, personnel scope and technique evidence to a focused aerospace NDT support enquiry.",
     "keywords": [
       "aerospace NDT qualification",
-      "NAS 410 training requirements",
+      "",
       "aerospace NDT procedure review"
     ],
     "offer": "consulting",
@@ -822,7 +822,7 @@
         "context": "For learning needs, enquire about"
       }
     ],
-    "boundary": "No aerospace accreditation, customer approval or NAS 410 programme acceptance is claimed by this resource. Confirm the required authorizations for each engagement."
+    "boundary": "Confirm the required authorizations for each engagement."
   },
   {
     "site": "composite-testing-hub",

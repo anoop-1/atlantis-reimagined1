@@ -251,7 +251,7 @@ export const METHOD_PAGES = [
         'Results are qualitative maps; flaw size is measured from the image against reference standards.',
       ] },
     ],
-    codes: ['ASTM E2581 (shearography of polymer matrix composites and sandwich core materials in aerospace)', 'Customer and OEM procedures (e.g. aircraft structural repair manuals) where they apply', 'NAS 410 / EN 4179 personnel requirements for aerospace work, met by the inspecting personnel'],
+    codes: ['ASTM E2581 (shearography of polymer matrix composites and sandwich core materials in aerospace)', 'Customer and OEM procedures (e.g. aircraft structural repair manuals) where they apply'],
     deliverables: ['Shearogram images with flaw outlines and sizes', 'Coverage map of the inspected area', 'Disposition against the applicable acceptance criteria'],
     industries: ['Aerospace and defence', 'Wind energy', 'Marine composites', 'Composite pressure vessels'],
     related: [['/inspection/ndt-inspection-services/advanced-ndt/infrared-thermography', 'Infrared thermography'], ['/ultrasonic-testing', 'Ultrasonic testing'], ['/inspection/ndt-inspection-services/advanced-ndt', 'All advanced NDT methods']],

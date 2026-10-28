@@ -544,7 +544,7 @@ BLOGS.push(blog({
 <ol>
   <li><strong>Basic Exam</strong> — 135 questions, 4 hours, covers materials science, NDT process fundamentals, quality management, certification ladder. Taken ONCE — covers the foundational knowledge applicable across all methods.</li>
   <li><strong>Method Exam</strong> — 66 questions, 2.5 hours, taken ONCE per method you certify in. Methods: UT, RT, MT, PT, ET, VT, AE, IR. Each method exam covers physics + equipment + technique + interpretation + safety + codes for that method.</li>
-  <li><strong>Specific Exam (optional / employer-based)</strong> — covers code + standard + spec + procedure for your industry. Common: ASME Section V + API + AWS for refining; NAS 410 + EN 4179 + boeing-specific for aerospace.</li>
+  <li><strong>Specific Exam (optional / employer-based)</strong> — covers code + standard + spec + procedure for your industry. Common: ASME Section V + API + AWS for refining; EN 4179 + boeing-specific for aerospace.</li>
 </ol>
 <p>You can certify in just 1 method or layer multiple methods over time. Each additional method = additional Method exam fee + additional prep + additional OJT documentation.</p>
 
@@ -566,7 +566,7 @@ BLOGS.push(blog({
   <li>Basic exam mock + Method exam mocks per method</li>
   <li>Materials-science deep-dive</li>
   <li>NDE method-specific physics + equipment + technique + interpretation drills</li>
-  <li>Industry-spec Specific-exam guidance (ASME V + API for refining; NAS 410 for aerospace; ISO 9712 for global)</li>
+  
   <li>12-month material access</li>
   <li>Multi-method bundle discount</li>
   <li>96% first-attempt pass rate</li>

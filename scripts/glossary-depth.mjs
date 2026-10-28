@@ -611,7 +611,7 @@ export const TERM_FACTS = {
     practice:
       'Certification is by the employer, against the employer\'s Written Practice. That makes it flexible and makes verification harder: the meaningful question at audit is not whether someone is certified but whether the Written Practice complies and whether the records demonstrate the individual met it.',
     codes:
-      'ASNT SNT-TC-1A as the recommended practice; ANSI/ASNT CP-189 as the standard alternative where a standard rather than a guideline is required; NAS 410 in aerospace.',
+      'ASNT SNT-TC-1A as the recommended practice; ANSI/ASNT CP-189 as the standard alternative where a standard rather than a guideline is required.',
     pitfall:
       'Citing SNT-TC-1A as though it were a specification. It recommends; the employer\'s Written Practice is the governing document, and auditors ask for that.',
     faq: [
@@ -623,7 +623,7 @@ export const TERM_FACTS = {
       'The Personnel Certification in Non-Destructive Testing scheme operated by BINDT in the UK, providing third-party certification under ISO 9712 across methods and industry sectors.',
     practice:
       'Like other ISO 9712 schemes, certification is by method and sector with defined training and experience prerequisites, examination at an approved centre, and periodic renewal and recertification.',
-    codes: 'ISO 9712; BINDT PCN scheme documents; EN 4179 / NAS 410 where aerospace applies.',
+    codes: 'ISO 9712; BINDT PCN scheme documents.',
     pitfall:
       'Assuming automatic recognition across schemes. PCN, CSWIP and other ISO 9712 bodies are mutually comparable but not automatically interchangeable, and acceptance is set by the specification.',
   },

@@ -141,7 +141,7 @@ export const TERM_FACTS_TAIL = {
   'cp-189': {
     principle: 'ANSI/ASNT CP-189: the standard (not recommended practice) for NDT personnel qualification — fixed minimum requirements where SNT-TC-1A offers adaptable guidance.',
     practice: 'The practical difference is latitude: under CP-189 the employer certifies but cannot tailor hour and examination requirements downward, and a certified Level III must be the examiner. Contracts wanting supplier consistency specify it for exactly that reason.',
-    codes: 'ANSI/ASNT CP-189; SNT-TC-1A as the recommended-practice sibling; NAS 410 in aerospace.',
+    codes: 'ANSI/ASNT CP-189; SNT-TC-1A as the recommended-practice sibling.',
     pitfall: 'Writing "SNT-TC-1A/CP-189" in a written practice as if interchangeable. A programme claiming CP-189 compliance inherits its fixed requirements — auditors check against the standard, not the guideline.',
   },
   'joint-efficiency': {

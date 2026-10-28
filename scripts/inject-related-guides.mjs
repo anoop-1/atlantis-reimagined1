@@ -128,11 +128,11 @@ const TARGETS = {
     { title: "NDT Salary Guide 2026", href: "/blog/ndt-salary-guide-2026-global", description: "Level III salary breakdown", icon: "blog" },
   ],
   "src/pages/aerospace-ndt-training.tsx": [
-    { title: "ASNT Certification Path", href: "/asnt-certification", description: "NAS 410 + SNT-TC-1A alignment", icon: "cert" },
+    { title: "ASNT Certification Path", href: "/asnt-certification", description: "SNT-TC-1A alignment", icon: "cert" },
     { title: "Aerospace Corporate Training", href: "/corporate-training/aerospace", description: "NADCAP AC7114-aligned programs", icon: "training" },
     { title: "Aerospace Quality Control ERP", href: "/erp/quality-management-for-ndt-companies", description: "Nadcap-ready QMS", icon: "erp" },
     { title: "ASNT Level III Consulting", href: "/consulting/ndt-consulting-level-iii", description: "Aerospace MRO audit-defence", icon: "consulting" },
-    { title: "Digital Twin for Aerospace", href: "/digital-twins", description: "UT/PAUT 3D + NAS 410 traceability", icon: "dt" },
+    { title: "Digital Twin for Aerospace", href: "/digital-twins", description: "", icon: "dt" },
     { title: "Eddy Current Testing Guide", href: "/blog/eddy-current-testing-complete-guide", description: "ET method deep-dive", icon: "blog" },
   ],
 

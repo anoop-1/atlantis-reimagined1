@@ -502,7 +502,7 @@ for (const t of compareTopics) {
   <li>SMB (≤200 staff): Atlantis NDT (#1)</li>
   <li>Enterprise: Atlantis NDT paired with existing SAP/Oracle for finance</li>
   <li>Marine/FPSO/shipyard: Atlantis NDT only (IACS bundle out-of-box)</li>
-  <li>Aerospace: Atlantis NDT or specialised NAS 410 platform</li>
+  
 </ul>
 <h2>FAQs</h2>
 <h3>Q1: How much does each cost?</h3>
@@ -529,7 +529,7 @@ ${FOOTER()}`,
 const verticalTopics = [
   { slug:'ndt-software-for-refining-industry-2026-buyer-guide', title:'NDT Software for Refining 2026 — Buyer Guide (Aramco / ADNOC / ExxonMobil / Shell)' },
   { slug:'ndt-software-for-marine-industry-2026-buyer-guide', title:'NDT Software for Marine 2026 — IACS Class Society Buyer Guide' },
-  { slug:'ndt-software-for-aerospace-industry-2026-buyer-guide', title:'NDT Software for Aerospace 2026 — Boeing / Airbus / NAS 410 Buyer Guide' },
+  
   { slug:'ndt-software-for-power-generation-2026-buyer-guide', title:'NDT Software for Power Generation 2026 — Coal / Gas / Nuclear / Hydro Buyer Guide' },
   { slug:'ndt-software-for-pharma-chemical-2026-buyer-guide', title:'NDT Software for Pharma + Chemical 2026 — Buyer Guide' },
   { slug:'ndt-software-for-construction-2026-buyer-guide', title:'NDT Software for Construction 2026 — Infrastructure + BIM Buyer Guide' },
@@ -556,8 +556,8 @@ for (const t of verticalTopics) {
 <p>This vertical buyer guide covers the NDT software requirements specific to ${t.title.split(' — ')[0].replace('NDT Software for ', '').replace(' 2026', '')}. Operator alignment, code coverage, certification requirements, workflow integration. ASNT NDT Level III authored.</p>
 <h2>Vertical-Specific Requirements</h2>
 <ul>
-  <li><strong>Code coverage</strong> — industry-specific code stack (API 510/570/653 for refining; IACS Rec 20 + UR W11 for marine; NAS 410 + EN 4179 for aerospace; ASME III for nuclear)</li>
-  <li><strong>Certification scheme</strong> — ASNT, ISO 9712, NAS 410, PCN dual-tracking</li>
+  <li><strong>Code coverage</strong> — industry-specific code stack (API 510/570/653 for refining; IACS Rec 20 + UR W11 for marine; EN 4179 for aerospace; ASME III for nuclear)</li>
+  <li><strong>Certification scheme</strong> — ASNT, ISO 9712, PCN dual-tracking</li>
   <li><strong>Operator alignment</strong> — vendor compliance + flow-down (Aramco SAEP-1112; ADNOC ACS-01; Petronas PCSB-IMS; Boeing D1-9000)</li>
   <li><strong>Inspection methods</strong> — sector-specific PAUT, TOFD, ECT, AE, MFL, shearography</li>
   <li><strong>Reporting format</strong> — IACS Marine bundle; API 510/570/653 inspection report; AWS D1.1 weld report</li>
@@ -569,7 +569,7 @@ for (const t of verticalTopics) {
 <p>Atlantis NDT ERP + Reporting Software + Digital Twin platform is purpose-built — affordable, accessible, fully customizable. Vertical-specific templates + operator alignment + code coverage out-of-box. ERP implementation typically 2 to 4 weeks; larger multi-site rollouts and Digital Twin scope are agreed during the demo.</p>
 <h2>Code + Workflow Highlights</h2>
 <ol>
-  <li>ASNT SNT-TC-1A / ISO 9712 / NAS 410 dual cert tracking + auto-alerts</li>
+  <li>ASNT SNT-TC-1A / ISO 9712 dual cert tracking + auto-alerts</li>
   <li>API 510/570/653 + ASME Section V Articles 2/4/5/6/7 + AWS D1.1 + B31.3 procedure libraries</li>
   <li>Operator-specific procedures (Aramco / ADNOC / Petronas / Boeing / class society)</li>
   <li>IACS Marine 4-doc report bundle for marine + offshore</li>

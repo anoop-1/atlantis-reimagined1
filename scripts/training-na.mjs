@@ -119,7 +119,7 @@ export const SANITISE_RULES = [
   ['cgsb-scheme', /the CGSB scheme is central certification/g, 'the CAN/CGSB-48.9712 scheme (certification by NRCan&#39;s NDT Certification Body or CWB Group) is central certification', "the CAN/CGSB-48.9712 scheme (certification by NRCan's NDT Certification Body or CWB Group) is central certification"],
   ['cgsb-source', /Source:<\/strong> CGSB scheme requirements/g, 'Source:</strong> CAN/CGSB-48.9712, certified by the NRCan NDT Certification Body or CWB Group (the CGSB published the standard and closed on April 1, 2026)', null],
   ['cgsb-source-txt', /Source: CGSB scheme requirements/g, "Source: CAN/CGSB-48.9712, certified by the NRCan NDT Certification Body or CWB Group (the CGSB published the standard and closed on April 1, 2026)", null],
-  ['nas410-offer', /SNT-TC-1A and NAS ?410 (Level I\/II )?training/g, 'SNT-TC-1A training (NAS 410 employers qualify separately under their own program)', null],
+  
 ];
 
 export function sanitiseString(s, counts, isText) {

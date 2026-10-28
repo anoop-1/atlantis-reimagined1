@@ -36,7 +36,7 @@ export interface ErpIndustryAppPageProps {
   faqs: { question: string; answer: string }[];
   /** Pricing currency note (optional, defaults to USD-only) */
   pricingNote?: string;
-  /** Trust badge subtitle e.g. "ASNT / NAS 410 / NADCAP ready" */
+  /** Trust badge subtitle e.g. "ASNT / EN 4179 / NADCAP ready" */
   trustBadge?: string;
   /** Country slug for LocalBusiness JSON-LD (e.g. "saudi-arabia") — emits country-level LocalBusiness when present */
   countrySlug?: string;

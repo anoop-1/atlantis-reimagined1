@@ -91,8 +91,8 @@ export const COMPARE_DEPTH = {
 export const CORPTRAIN_DEPTH = {
   aerospace: `
       <h2>What aerospace NDT training actually involves</h2>
-      <p>Aerospace runs the strictest personnel regime in NDT: NAS 410 / EN 4179 govern qualification, employers hold approval through a Responsible Level III, and Nadcap audits test the training records as hard as the technique. Corporate programmes here are built backwards from the audit: documented classroom hours per method and level, OJT logged against the requirement, examinations with the right question balance, and eye examinations on schedule. Method emphasis follows the fleet — FPI lines and eddy current dominate, UT for bond and composite work, with digital radiography growing.</p>
-      <p>Atlantis builds aerospace programmes to the employer's written practice and audit calendar: curriculum mapped to NAS 410 hour requirements, examinations question-banked per method, and the records package delivered audit-ready. <a href="/contact?service=training">Scope a programme</a> before the next Nadcap window, not after the finding.</p>`,
+      <p>Corporate programmes here are built backwards from the audit: documented classroom hours per method and level, OJT logged against the requirement, examinations with the right question balance, and eye examinations on schedule. Method emphasis follows the fleet — FPI lines and eddy current dominate, UT for bond and composite work, with digital radiography growing.</p>
+      <p><a href="/contact?service=training">Scope a programme</a> before the next Nadcap window, not after the finding.</p>`,
   'battery-manufacturing': `
       <h2>NDT competency for battery plants</h2>
       <p>Gigafactories concentrate three inspection problems: weld integrity at production speed (busbars, can seams, tab welds — laser and ultrasonic processes with tiny defect tolerances), thermal and imaging methods for cell and module screening, and the plant-services layer every heavy factory carries — pressure systems, structural steel, lifting equipment. Training demand splits accordingly: production-line staff need method-specific qualification on the joining processes they screen; plant engineering needs conventional UT/VT/MT competency under SNT-TC-1A.</p>
@@ -103,7 +103,7 @@ export const CORPTRAIN_DEPTH = {
       <p>Atlantis trains site QA teams on the codes their scope actually cites, with SNT-TC-1A qualification for the NDT methods and documentation that survives the owner's audit. <a href="/contact?service=training">Programme scoping</a> fits the construction schedule, including night-shift cohorts.</p>`,
   defense: `
       <h2>Defence NDT training: two regimes at once</h2>
-      <p>Defence work spans both worlds — NAS 410-governed aerospace components and NAVSEA/military-standard ship and ground-system work — often inside one supplier. Training programmes must respect the split: aerospace-side technicians qualified under the employer's EN 4179/NAS 410 written practice, heavy-side technicians under SNT-TC-1A with the military standards (and their tighter documentation) layered on. Clearance-friendly delivery matters: on-site programmes with cleared instructors beat sending staff out.</p>
+      <p>Clearance-friendly delivery matters: on-site programmes with cleared instructors beat sending staff out.</p>
       <p>Atlantis builds defence-supplier programmes to the contract's named standards, delivered at your facility, with records structured for DCMA-style scrutiny. <a href="/contact?service=training">Discuss the contract requirements</a> — the standards list drives everything.</p>`,
   fabrication: `
       <h2>Training a fab shop's inspection bench</h2>

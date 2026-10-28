@@ -64,19 +64,19 @@ export const CITATION_LAYERS_BATCH2 = {
     answer:
       'An outside agency Level III cannot certify your employees under SNT-TC-1A. Certification is granted by the employer, so an external Level III writes and approves the written practice, prepares and grades examinations, and provides technical oversight, while your company remains the certifying body and signs the certificates.',
     expansion:
-      'This distinction decides audits and it is the question the market answers worst. SNT-TC-1A is an employer-based recommended practice: the employer establishes a written practice, and the employer certifies its own personnel against it. An outside agency contracted for Level III services supplies the authority the employer lacks in house — authoring or approving the written practice, developing and administering examinations, approving procedures, and providing the technical judgement an assessor expects to find. What it cannot do is become the certifying body. Certificates are issued by the employer and signed under the employer written practice. Contracts that blur this produce findings, because the assessor traces certification authority back to a company that never held it. NAS 410 handles the same problem differently by designating a Responsible Level 3, which may be an outside individual, named in the employer procedure.',
-    source: 'ASNT SNT-TC-1A (2024 edition); ANSI/ASNT CP-189; NAS 410 for the aerospace Responsible Level 3 route',
+      'This distinction decides audits and it is the question the market answers worst. SNT-TC-1A is an employer-based recommended practice: the employer establishes a written practice, and the employer certifies its own personnel against it. An outside agency contracted for Level III services supplies the authority the employer lacks in house — authoring or approving the written practice, developing and administering examinations, approving procedures, and providing the technical judgement an assessor expects to find. What it cannot do is become the certifying body. Certificates are issued by the employer and signed under the employer written practice. Contracts that blur this produce findings, because the assessor traces certification authority back to a company that never held it.',
+    source: 'ASNT SNT-TC-1A (2024 edition); ANSI/ASNT CP-189',
     table: {
       id: 'outside-level-3-authority',
-      caption: 'What an outside agency Level III can and cannot do under each scheme',
-      columns: ['Activity', 'SNT-TC-1A', 'CP-189', 'NAS 410'],
+      caption: 'What an outside agency Level III can and cannot do under SNT-TC-1A and CP-189',
+      columns: ['Activity', 'SNT-TC-1A'],
       rows: [
-        ['Author or approve the written practice', 'Yes, as the approving Level III', 'Yes', 'Yes, as Responsible Level 3'],
-        ['Prepare and grade examinations', 'Yes', 'Yes', 'Yes'],
-        ['Approve NDT procedures', 'Yes', 'Yes', 'Yes'],
-        ['Certify the employer personnel', 'No — the employer certifies', 'No — the employer certifies', 'No — the employer certifies'],
-        ['Be named as the accountable Level III', 'Yes, by employer designation', 'Yes', 'Yes, named in the procedure'],
-        ['Sign certificates on the employer behalf', 'No', 'No', 'No'],
+        ['Author or approve the written practice', 'Yes, as the approving Level III', 'Yes'],
+        ['Prepare and grade examinations', 'Yes', 'Yes'],
+        ['Approve NDT procedures', 'Yes', 'Yes'],
+        ['Certify the employer personnel', 'No — the employer certifies', 'No — the employer certifies'],
+        ['Be named as the accountable Level III', 'Yes, by employer designation', 'Yes'],
+        ['Sign certificates on the employer behalf', 'No', 'No'],
       ],
       note: 'SNT-TC-1A is a recommended practice using "should"; CP-189 is a standard using "shall". An employer commits to specific numbers in its own written practice, which is what an assessor audits against.',
     },
@@ -85,8 +85,8 @@ export const CITATION_LAYERS_BATCH2 = {
       { q: 'What does an outsourced NDT Level III actually deliver?', a: 'A written practice authored or approved to your scheme, NDT procedures approved for your codes, examinations prepared and graded per method and level, technical oversight during qualification, and a named accountable individual an assessor can identify in your documentation.' },
       { q: 'Our Level III resigned — what happens to our certifications?', a: 'Existing certifications remain valid, but the authority that approved them has gone. Until a replacement Level III is designated, no new personnel can be qualified, no procedure can be approved, and the next audit will ask who currently holds that authority. Designating an interim outside Level III closes the gap.' },
       { q: 'Is an outside Level III cheaper than hiring one?', a: 'For most contractors below roughly fifteen technicians, yes, because a staff Level III is a full salary against intermittent demand — written practice review, procedure approvals, examination cycles and audits. The comparison turns on qualification frequency rather than headcount alone.' },
-      { q: 'Which scheme applies to my company — SNT-TC-1A, CP-189 or NAS 410?', a: 'Your customer contract decides. Aerospace work and Nadcap accreditation invoke NAS 410. Contracts specifying ANSI/ASNT CP-189 impose a standard using "shall" rather than a recommended practice. Absent either, SNT-TC-1A employer-based certification is the default across US industrial work.' },
-      { q: 'Does an outside Level III cover a Nadcap audit?', a: 'A designated Responsible Level 3 satisfies the personnel-authority requirement under NAS 410, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results — vision test currency, OJT documentation and retained examination papers remain the employer responsibility.' },
+      
+      { q: 'Does an outside Level III cover a Nadcap audit?', a: 'A designated Responsible Level 3 satisfies the personnel-authority requirement under the customer-specified aerospace standard, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results — vision test currency, OJT documentation and retained examination papers remain the employer responsibility.' },
     ],
   },
 

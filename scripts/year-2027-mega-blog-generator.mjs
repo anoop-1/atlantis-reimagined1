@@ -204,7 +204,7 @@ for (const [vKey, vName, items] of q2Verticals) {
 const q2More = [
   ['ndt-roi-calculator-refining-2027','NDT ROI Calculator Refining 2027 — Worked Examples','ROI by inspection hour savings, RBI interval extension, FFS acceleration for refining operators'],
   ['ndt-roi-calculator-marine-2027','NDT ROI Calculator Marine 2027 — Worked Examples','ROI by class-society report bundle automation + drydock-delay-day savings'],
-  ['ndt-roi-calculator-aerospace-2027','NDT ROI Calculator Aerospace 2027 — Worked Examples','ROI by NAS 410 cert tracking + Boeing D1-9000 procedural alignment'],
+  
   ['ndt-roi-calculator-power-generation-2027','NDT ROI Calculator Power Generation 2027 — Worked Examples','ROI by ASME XI ISI optimisation + ASME Section I boiler tube inspection'],
   ['ndt-roi-calculator-lng-2027','NDT ROI Calculator LNG 2027 — Worked Examples','ROI by API 620/625 tank inspection + BOG compressor monitoring'],
   ['ndt-roi-calculator-mining-2027','NDT ROI Calculator Mining 2027 — Worked Examples','ROI by haul-truck frame inspection + tailings dam structural NDT'],
@@ -239,7 +239,7 @@ const q3Topics = [
   ['atlantis-free-consultation-2027-how-it-works','Atlantis NDT Free Consultation 2027 — How It Works','free 30-min consultation flow, ASNT Level III scoping, custom-demo, tailored quote'],
   ['atlantis-asnt-level-iii-engagement-free-consultation-2027','Atlantis ASNT Level III Engagement 2027 — Free Consultation','outsourced ASNT Level III consulting engagement scoping, SLA structure'],
   ['atlantis-api-510-570-653-cohort-free-consultation-2027','Atlantis API 510/570/653 Cohort 2027 — Free Consultation','API ICP 5-day intensive cohort booking flow, free scoping consultation'],
-  ['atlantis-ndt-training-free-consultation-2027','Atlantis NDT Training 2027 — Free Consultation','NDT training cohort booking flow, ASNT + ISO 9712 + NAS 410 paths'],
+  ['atlantis-ndt-training-free-consultation-2027','Atlantis NDT Training 2027 — Free Consultation','NDT training cohort booking flow, ASNT + ISO 9712 paths'],
   ['atlantis-ndt-consulting-free-consultation-2027','Atlantis NDT Consulting 2027 — Free Consultation','NDT consulting engagement scoping flow, free 30-min consultation'],
   // 15 case study deepens
   ['atlantis-case-study-aramco-refining-2027','Atlantis NDT Case Study — Saudi Aramco Refining Inspection 2027','anonymised Aramco-region refining inspection company customer case study'],
@@ -293,7 +293,7 @@ const q4Topics = [
   ['ndt-salary-survey-2027-by-region-method','NDT Salary Survey 2027 — By Region + Method + Cert','industry-wide salary survey by region, method, certification level, sector'],
   ['ndt-technology-trends-2027','NDT Technology Trends 2027 — AI, Digital Twin, Robotics','technology trends — AI + Digital Twin + robotics + drones + new methods'],
   ['ndt-regulatory-updates-2027','NDT Regulatory Updates 2027 — Code Changes Decoded','code changes — ASME V, API 510/570/653, AWS D1.1, IACS, jurisdictional updates'],
-  ['ndt-cert-trends-2027-asnt-iso-pcn-nas-410','NDT Cert Trends 2027 — ASNT, ISO 9712, PCN, NAS 410','certification scheme trends, multi-scheme adoption, recertification cycle changes'],
+  ['ndt-cert-trends-2027-asnt-iso-pcn-nas-410','NDT Cert Trends 2027 — ASNT, ISO 9712, PCN','certification scheme trends, multi-scheme adoption, recertification cycle changes'],
   ['ndt-inspection-software-trends-2027','NDT Inspection Software Trends 2027','software adoption trends, SaaS vs on-prem, ERP + DT + reporting consolidation'],
   ['ndt-services-market-trends-2027','NDT Services Market Trends 2027','services market — inspection contractor consolidation, regional dynamics'],
   ['ndt-training-market-trends-2027','NDT Training Market Trends 2027','training market — LMS adoption, blended learning, ASNT cohort sizes'],

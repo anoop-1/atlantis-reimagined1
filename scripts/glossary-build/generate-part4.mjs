@@ -9,7 +9,7 @@ const entries = [
   // ───────── CERTIFICATION ─────────
   e('level-i', 'NDT Level I', 'certification',
     'An NDT Level I is qualified to perform specific calibrations, conduct specific NDT examinations following written procedures, and record results, but is not authorized to set up tests, interpret results for accept/reject, or report results without Level II/III oversight.',
-    "<h2>Definition</h2><p>Level I is the entry-level NDT qualification under <a href='/glossary/snt-tc-1a'>SNT-TC-1A</a>, <a href='/glossary/iso-9712'>ISO 9712</a>, and <a href='/glossary/nas-410'>NAS 410</a>. Training requirements typically include 24–40 hours method-specific training plus a documented period of practical experience.</p>",
+    "<h2>Definition</h2><p>Training requirements typically include 24–40 hours method-specific training plus a documented period of practical experience.</p>",
     ['level-ii', 'level-iii', 'snt-tc-1a', 'qualification-vs-certification'],
     ['ndt-career-progression-from-technician-to-manager']
   ),

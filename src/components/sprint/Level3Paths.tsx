@@ -68,7 +68,7 @@ export default function Level3Paths() {
               defaultChoice={path}
               stages={["Audit or deadline within 30 days", "Within this quarter", "No fixed date"]}
               stageLabel="Deadline"
-              selects={[{ name: "standard", label: "Governing document", choices: ["SNT-TC-1A", "ANSI/ASNT CP-189", "NAS 410 / EN 4179", "ISO 9712", "Customer specification", "Not sure"] }]}
+              selects={[{ name: "standard", label: "Governing document", choices: ["SNT-TC-1A", "ANSI/ASNT CP-189",  "ISO 9712", "Customer specification", "Not sure"] }]}
             />
           </div>
         )}

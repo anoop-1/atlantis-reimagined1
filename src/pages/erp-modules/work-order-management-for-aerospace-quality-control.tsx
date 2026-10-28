@@ -5,8 +5,8 @@ const data = {
   "industrySlug": "aerospace-quality-control",
   "industryName": "Aerospace Quality Control",
   "title": "Work Order & Job Management for Aerospace Quality Control",
-  "desc": "Work Order & Job Management for Aerospace Quality Control — purpose-configured module from Atlantis NDT ERP. AS9100D / AS9120 / AS9110 (MRO), NAS-410 Rev 5, FAA 14 CFR Part 145 / 21. Demo: info@atlantisndt.com.",
-  "intro": "An inspection company is a project-based business. Each job has a unique scope, a unique customer specification, a unique team, a unique timeline, and a unique compliance footprint.\n\nFor aerospace quality control, the work order & job management module is configured around the codes, regulators, and operator-specific requirements you face every day: AS9100D / AS9120 / AS9110 (MRO), NAS-410 Rev 5, FAA 14 CFR Part 145 / 21, EASA Part 145 / Part-M, DGCA CAR Section 2 / Series E. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Boeing — commercial / defense, Airbus — commercial / defense, Bombardier — business aviation, Embraer — regional jet so your team is productive on day one — not after six months of configuration.",
+  "desc": "Work Order & Job Management for Aerospace Quality Control — purpose-configured module from Atlantis NDT ERP. AS9100D / AS9120 / AS9110 (MRO), FAA 14 CFR Part 145 / 21. Demo: info@atlantisndt.com.",
+  "intro": "An inspection company is a project-based business. Each job has a unique scope, a unique customer specification, a unique team, a unique timeline, and a unique compliance footprint.\n\nFor aerospace quality control, the work order & job management module is configured around the codes, regulators, and operator-specific requirements you face every day: AS9100D / AS9120 / AS9110 (MRO), FAA 14 CFR Part 145 / 21, EASA Part 145 / Part-M, DGCA CAR Section 2 / Series E. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Boeing — commercial / defense, Airbus — commercial / defense, Bombardier — business aviation, Embraer — regional jet so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Quote → Work Order → Project hierarchy with parent-child relationships",
     "Customer / contract / project / job / work order / line item — fully drilled-down billing structure",
@@ -24,11 +24,11 @@ const data = {
   ],
   "industryCodes": [
     "AS9100D / AS9120 / AS9110 (MRO)",
-    "NAS-410 Rev 5",
+    
     "FAA 14 CFR Part 145 / 21",
     "EASA Part 145 / Part-M",
     "DGCA CAR Section 2 / Series E",
-    "DOD MIL-STD-410 / NAS-410",
+    
     "ASTM E1417 / E1444 / E1742 / E2375 (aerospace NDT)",
     "ISO 9712 — annex on aerospace"
   ],
@@ -43,7 +43,7 @@ const data = {
     "Safran — engine / components"
   ],
   "industryPain": [
-    "NAS-410 qualification matrix in Excel — version drift across departments",
+    
     "Customer-specific quality clauses (Boeing D-590, AITM, ASQR-01) flow-down is informal — audit findings",
     "Work-order traceability per FAA 14 CFR Part 145 — manual paper trails",
     "FOD prevention program not integrated with work-order — incident risk"
@@ -51,7 +51,7 @@ const data = {
   "faqs": [
     [
       "Does work order & job management work specifically for aerospace quality control?",
-      "Yes. The module is configured for aerospace quality control workflow with pre-built templates aligned to AS9100D / AS9120 / AS9110 (MRO), NAS-410 Rev 5, FAA 14 CFR Part 145 / 21, EASA Part 145 / Part-M. Operator-specific quality clauses for Boeing — commercial / defense, Airbus — commercial / defense, Bombardier — business aviation are pre-loaded so the system is productive on day one without months of custom configuration."
+      "Yes. The module is configured for aerospace quality control workflow with pre-built templates aligned to AS9100D / AS9120 / AS9110 (MRO), FAA 14 CFR Part 145 / 21, EASA Part 145 / Part-M. Operator-specific quality clauses for Boeing — commercial / defense, Airbus — commercial / defense, Bombardier — business aviation are pre-loaded so the system is productive on day one without months of custom configuration."
     ],
     [
       "How does the system integrate with our existing aerospace quality control tools?",

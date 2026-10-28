@@ -395,7 +395,7 @@ function getCityContext(city: string, service: string): string {
       "piping-inspection-services": "Onshore process piping and offshore platform piping both see aggressive service in the region — high-salinity marine exposure offshore, high-temperature desert exposure onshore. API 570 CUI surveys are a standing requirement given jacketed and insulated piping across both environments."
     },
     "New York": {
-      "weld-inspection-services": "Aerospace and defense manufacturing centers require NAS 410 compliance alongside AWS standards. Construction and infrastructure projects demand certified inspectors for structural steel acceptance.",
+      "weld-inspection-services": "Construction and infrastructure projects demand certified inspectors for structural steel acceptance.",
       "tank-inspection-services": "Industrial storage and hazardous material handling facilities require strict API 653 and regulatory compliance. Environmental regulations demand rigorous inspection documentation.",
       "pipeline-inspection-services": "Gas and liquid distribution networks serving metropolitan infrastructure require ASME B31.4 and B31.8 compliance. Regulatory scrutiny is intense.",
       "corrosion-inspection-services": "Industrial waterfront facilities face severe salt spray corrosion. Aging infrastructure requires aggressive monitoring and fitness-for-service analysis.",

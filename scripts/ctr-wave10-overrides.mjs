@@ -192,14 +192,8 @@ export const CTR_WAVE10_OVERRIDES = {
     title: 'API 617 Centrifugal Compressor Standard — What It Requires',
     description: 'API 617 explained: scope for axial and centrifugal compressors, material and NDE rules for casings, impellers and rotors, shop testing and records.',
   },
-  '/blog/nas-410-aerospace-ndt-certification-explained': {
-    title: 'NAS 410 Aerospace NDT Certification — Requirements 2026',
-    description: 'NAS 410 for aerospace NDT: Level 1, 2 and 3 requirements, EN 4179 equivalence, the employer written practice, vision tests and recertification.',
-  },
-  '/blog/nas-410-vs-snt-tc-1a': {
-    title: 'NAS 410 vs SNT-TC-1A — Aerospace NDT Certification Compared',
-    description: 'NAS 410 vs SNT-TC-1A: training and experience hours by method (16 vs 4 PT hours), exam rules, the Level 3 divide and which one your contract binds.',
-  },
+  
+  
   '/blog/api-570-piping-inspection-code-requirements': {
     title: 'API 570 Piping Inspection — Intervals, CMLs, Corrosion Rates',
     description: 'API 570 piping inspection: intervals by piping class, CML spacing, corrosion-rate and remaining-life math, minimum thickness, repairs and alterations.',
@@ -259,14 +253,8 @@ export const CTR_WAVE10_OVERRIDES = {
   },
 
   // ── Compliance guides (US regulated buyers) ──
-  '/compliance/nas-410/pt': {
-    title: 'NAS 410 / EN 4179 Penetrant Testing (PT) Requirements',
-    description: 'What NAS 410 and EN 4179 require for penetrant testing: procedure approval, who signs it, PT personnel certification, equipment evidence and audits.',
-  },
-  '/compliance/nas-410/written-practice': {
-    title: 'NAS 410 Written Practice — What It Must Contain (EN 4179)',
-    description: 'What an NAS 410 / EN 4179 written practice must contain, who signs it, how auditors test it, record retention, and why a generic template falls short.',
-  },
+  
+  
   '/compliance/10-cfr-50-appendix-b': {
     title: '10 CFR 50 Appendix B — QA Requirements for NDT Suppliers',
     description: '10 CFR 50 Appendix B for NDT suppliers: who it binds, the 18 quality assurance criteria, documents auditors request, findings and Level III sign-off.',

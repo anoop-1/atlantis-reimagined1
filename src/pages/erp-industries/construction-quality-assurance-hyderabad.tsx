@@ -36,7 +36,7 @@ const data: ErpIndustryCityProps = {
     "IS 2825 / IS 7822 (pressure vessels)",
     "AERB SC/IR-1 (radiation safety)",
     "DGCA CAR Section 2 (aerospace)",
-    "NAS-410 / ASTM E1417 / E1444 (aerospace NDT)",
+    "ASTM E1417 / E1444 (aerospace NDT)",
     "API 510 / 570",
     "ASNT SNT-TC-1A + ISNT",
     "PESO, BARC, AERB, DGCA (aerospace), Telangana State Pollution Control Board, CDSCO (pharma), DRDO QA"

@@ -125,7 +125,7 @@ export default function NdtErpImplementationTimeline() {
               Discovery + Design in days 1-30, Build + Integrate + Train in days 31-60, UAT + Go-Live + Hypercare in days 61-90.
             </p>
             <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Larger or more complex deployments (50+ techs, SAP S/4HANA
-              with custom modules, aerospace NAS 410 plus API 510/570/653 plus ASME Section V reporting, multi-entity) typically
+             
               extend to 4-6 months but follow the same phased structure.
             </p>
             <h2 className="text-3xl font-bold text-foreground mt-10">Phase 1: Days 1-30 &mdash; Discovery, Design, Scope Lock</h2>

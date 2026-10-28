@@ -131,7 +131,7 @@ const industries = [
   },
   {
     name: "Aerospace",
-    desc: "Aerospace NDT follows NAS-410 certification requirements (more stringent than ASNT SNT-TC-1A). Primary methods: ET for fatigue crack detection in airframe structures and engine discs, UT for composite laminate inspection and forging inspection, fluorescent PT for engine components. Every aircraft component undergoes NDT at manufacture and during MRO maintenance intervals.",
+    desc: "Aerospace NDT follows certification requirements (more stringent than ASNT SNT-TC-1A). Primary methods: ET for fatigue crack detection in airframe structures and engine discs, UT for composite laminate inspection and forging inspection, fluorescent PT for engine components. Every aircraft component undergoes NDT at manufacture and during MRO maintenance intervals.",
     link: "/ndt-for-aerospace",
   },
   {

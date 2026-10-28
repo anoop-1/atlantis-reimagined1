@@ -113,7 +113,6 @@ BLOGS.push(blog({
 <tr><td>ASNT NDT Level III Basic</td><td>~65-72%</td></tr>
 <tr><td>ASNT NDT Level III Method (UT/RT)</td><td>~58-65%</td></tr>
 <tr><td>PCN / ISO 9712 Level 2 (per method)</td><td>~70-78%</td></tr>
-<tr><td>NAS 410 Level II (per method)</td><td>~72-80%</td></tr>
 </table>
 <p>The API ICP suite sits in the middle of the difficulty range — easier than ASNT Level III Method, harder than PCN Level 2 — because of the heavy code-navigation + RBI/FFS calc load.</p>
 
@@ -230,7 +229,7 @@ BLOGS.push(blog({
 <ol>
   <li><strong>Basic Exam</strong> (135 questions, 4 hours): materials science, NDT process fundamentals, quality management, certification ladder. Taken ONCE — covers foundational knowledge applicable to all methods.</li>
   <li><strong>Method Exam</strong> (66 questions per method, 2.5 hours each): physics + equipment + technique + interpretation per method. Taken per method certified.</li>
-  <li><strong>Specific Exam (optional, employer-based):</strong> codes + standards + procedures for your industry. Common: ASME V + API for refining; NAS 410 + Boeing-specific for aerospace; ISO 9712 for international.</li>
+  <li><strong>Specific Exam (optional, employer-based):</strong> codes + standards + procedures for your industry.</li>
   <li><strong>Experience minimum:</strong> 4 years (with degree) or 12,600 hours (high-school diploma)</li>
   <li><strong>Recertification:</strong> 5 years — by re-exam OR by approved continuing-experience pathway</li>
 </ol>
@@ -239,7 +238,7 @@ BLOGS.push(blog({
 <p>ACCP wins when:</p>
 <ul>
   <li><strong>You work across multiple employers</strong> — contracting, consulting, multi-site EPC. ACCP saves re-cert at every new employer.</li>
-  <li><strong>You target aerospace work</strong> — most aerospace primes (Boeing, Lockheed, Northrop Grumman, Pratt & Whitney) prefer third-party certification; ACCP fits, though NAS 410 is the aerospace-specific overlay.</li>
+  <li><strong>You target aerospace work</strong> — most aerospace primes (Boeing, Lockheed, Northrop Grumman, Pratt & Whitney) prefer third-party certification.</li>
   <li><strong>You target European / Global EPC contracts</strong> — ACCP is easier to map to ISO 9712 equivalence than SNT-TC-1A.</li>
   <li><strong>You're a senior multi-method Level III</strong> — your card stays portable as you move between operator-side and consulting roles.</li>
 </ul>
@@ -267,8 +266,6 @@ BLOGS.push(blog({
 <p><strong>A:</strong> Both are third-party portable schemes. ACCP follows ASNT's question bank + training hours; ISO 9712 follows the country's accredited certification body (PCN, COFREND, DGZfP, AINDT, CGSB). Some employers accept ACCP as ISO 9712 equivalent; others require formal ISO 9712 cards. Senior inspectors often hold both.</p>
 <h3>Q5: Can I hold ACCP and SNT-TC-1A simultaneously?</h3>
 <p><strong>A:</strong> Yes. Many senior inspectors hold ACCP for portability + SNT-TC-1A at their primary employer for cost efficiency.</p>
-<h3>Q6: How does NAS 410 fit ACCP?</h3>
-<p><strong>A:</strong> NAS 410 is aerospace-specific (US prime contractors); EN 4179 is the European aerospace equivalent. Many aerospace inspectors hold ACCP + NAS 410 (or ACCP + EN 4179). The schemes overlap in training-hour minimums.</p>
 <h3>Q7: Where can I take the ACCP exam?</h3>
 <p><strong>A:</strong> ASNT-administered, available at ASNT-approved test centres globally. Houston, Dubai, Mumbai, Singapore, London, Toronto are common. ASNT publishes the test-centre directory.</p>
 <h3>Q8: What's the Atlantis NDT 5-day ACCP UT Level 2 schedule?</h3>

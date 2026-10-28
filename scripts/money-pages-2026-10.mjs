@@ -386,7 +386,7 @@ export function assertMoneyPagesClean(knownPaths) {
   for (const t of copyOf(MP.erp)) if (/\d/.test(t.replace(STANDARDS, '').replace(/\b14-day\b/g, ''))) errs.push(`numeral in ERP copy: ${t.slice(0, 80)}`);
   for (const k of ['erp', 'consulting']) if (MP[k].h1 !== SPRINT_H1[MP[k].path]) errs.push(`${k} H1 differs from SPRINT_H1`);
   if (/\bET\b/.test(MP.level3.qa.founder) || /\bNAS\s?410\b/.test(MP.level3.qa.founder)) errs.push('founder line names ET or NAS 410');
-  if (MP.level3.expert && (/\bET\b|eddy|six methods|1[2-9]\+ years/i.test(MP.level3.expert.p) || !/UT, RT, MT, PT and VT/.test(MP.level3.expert.p) || !/associate who holds NAS 410 Level 3/.test(MP.level3.expert.p))) errs.push('Level III expert block: founder credential wording');
+  if (MP.level3.expert && (/\bET\b|eddy|six methods|1[2-9]\+ years/i.test(MP.level3.expert.p) || !/UT, RT, MT, PT and VT/.test(MP.level3.expert.p) || /NAS\s?410/.test(MP.level3.expert.p))) errs.push('Level III expert block: founder credential wording');
   if (MP.level3.process && /within \d|\bdays?\b|\bweeks?\b|\b24\s*h/i.test(JSON.stringify(MP.level3.process))) errs.push('Level III process: no turnaround promises');
   const p = FOUNDER_PERSON;
   if (/NAS\s?410|\bET\b|Eddy|\d{2,}\s?(?:years|yrs)/i.test(JSON.stringify(p).replace(/11\+ years/, ''))) errs.push('founder Person carries a non-approved fact');

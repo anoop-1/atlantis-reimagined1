@@ -21,7 +21,7 @@ export default function CrmErpForMalaysia() {
         { useCase: "Kuala Lumpur PETRONAS vendor", body: "Example: a KL inspection firm tracks parallel PETRONAS Carigali, PCSB, PETRONAS Chemicals and MLNG Bintulu pipelines with DOSH PMA and AELB currency." },
         { useCase: "Johor / Pengerang RAPID specialist", body: "Example: a Pengerang contractor routes opportunities by PETRONAS PTS qualification scope across PRefChem (Pengerang Refining and Petrochemical)." },
         { useCase: "Bintulu MLNG / Sarawak gas vendor", body: "Example: a Bintulu-based inspection firm manages MLNG Train 1-9, Sarawak Gas, Bintulu Crude Oil Terminal and Petronas Floating LNG (PFLNG Satu / Dua) parallel pipelines." },
-        { useCase: "Penang aerospace MRO supplier", body: "Example: a Penang contractor tracks AAT (Asia Aeronautical Technic), Spirit AeroSystems Subang, UMW Aerospace, MRO/Mahir aerospace-MRO opportunities with NAS 410 / EN 4179 / CAAM Part 145 currency." },
+        { useCase: "Penang aerospace MRO supplier", body: "Example: a Penang contractor tracks AAT (Asia Aeronautical Technic), Spirit AeroSystems Subang, UMW Aerospace, MRO/Mahir aerospace-MRO opportunities with EN 4179 / CAAM Part 145 currency." },
       ]}
       keyFeatures={[
         "PETRONAS Technical Standards (PTS) qualification scope",

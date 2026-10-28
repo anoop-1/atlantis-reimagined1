@@ -107,7 +107,7 @@ export default function NDTTrainingLosAngeles() {
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle className="text-lg">Aerospace-Focused Curriculum</CardTitle></CardHeader>
-              <CardContent><p className="text-muted-foreground text-sm">SNT-TC-1A method training applied to aerospace parts; NAS410 certification stays with your employer.</p></CardContent>
+              <CardContent><p className="text-muted-foreground text-sm">SNT-TC-1A method training applied to aerospace parts; aerospace certification stays with your employer.</p></CardContent>
             </Card>
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle className="text-lg">Advanced Methods</CardTitle></CardHeader>

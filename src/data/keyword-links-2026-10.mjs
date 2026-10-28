@@ -39,7 +39,7 @@ const T = {
   sim: { href: '/practical-ndt', anchors: ['NDT simulator', 'NDT training simulator', 'browser-based NDT practice', 'NDT simulation software'] },
   // 2026-10-12: the UT-specific simulator anchors moved to the A-scan tool page, which owns them.
   ascan: { href: '/tools/ultrasonic-a-scan-simulator', anchors: ['ultrasonic testing simulator', 'A-scan simulator', 'flaw detector simulator', 'free UT A-scan practice tool'] },
-  level3: { href: '/consulting/ndt-consulting-level-iii', anchors: ['outsourced NDT Level III', 'contract and on-call Level III services', 'NDT Level 3 consultant', 'written practice and procedure development', 'SNT-TC-1A consulting', 'NAS 410 Level 3 services'] },
+  level3: { href: '/consulting/ndt-consulting-level-iii', anchors: ['outsourced NDT Level III', 'contract and on-call Level III services', 'NDT Level 3 consultant', 'written practice and procedure development', 'SNT-TC-1A consulting'] },
   erp: { href: '/erp', anchors: ['NDT ERP software', 'NDT business management software', 'ERP for inspection companies', 'NDT company management software'] },
   software: { href: '/ndt-inspection-software', anchors: ['NDT inspection software', 'NDT management software', 'NDT software for inspection companies'] }, // 2026-10-18: exact anchors only (the other two belong to /inspection-management-software and the cert/calibration owners)
   checklist: { href: '/resources/ndt-software-buyer-checklist', anchors: ['NDT software buyer checklist', 'questions to ask NDT software vendors'] },

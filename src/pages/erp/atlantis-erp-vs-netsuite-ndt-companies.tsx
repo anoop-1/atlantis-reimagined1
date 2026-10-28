@@ -74,7 +74,7 @@ const caseStudies = [
   },
   {
     title: "Aerospace quality-control inspection firm (Bangalore + Toulouse, 36 technicians)",
-    body: "Serving GE Aviation, Pratt & Whitney, Safran, Honeywell Aerospace and Boeing supplier-base work, the contractor needed NAS 410 Rev 5 currency tracking, NADCAP MAUP audit-pack export, DGCA Form CA-39 and EASA Part-145 documentation across two legal entities. NetSuite quote: quoted by vendor over 5 years. Atlantis NDT ERP quoted by vendor over 5 years (multi-entity premium). Cleared next NADCAP MAUP audit with zero findings.",
+    body: "NetSuite quote: quoted by vendor over 5 years. Atlantis NDT ERP quoted by vendor over 5 years (multi-entity premium). Cleared next NADCAP MAUP audit with zero findings.",
   },
   {
     title: "Marine survey company (Singapore + Dubai, 22 technicians)",

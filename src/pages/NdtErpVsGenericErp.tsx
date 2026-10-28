@@ -121,7 +121,7 @@ export default function NdtErpVsGenericErp() {
               then hit a second wall trying to force SAP or NetSuite to model their workflow. Today the category includes Atlantis NDT Suite,
               Mistras Group DRIVE, Oceaneering NDTMS, InspectionXpert, and a handful of regional players. The best tools share five attributes:
               NDT-native data model, mobile offline capture, API-ready integrations, digital twin hooks, and a reporting engine aligned to
-              ASME Section V / API 510 / API 570 / API 653 / NAS 410.
+             
             </p>
             <p>
               Inspection management software is often used interchangeably with NDT ERP, but technically inspection management is the
@@ -306,8 +306,8 @@ export default function NdtErpVsGenericErp() {
             </p>
             <p>
               <strong>Question 3:</strong> what is your compliance profile? If your scope is dominated by ASME Section V and
-              API 510/570/653, every mainstream NDT ERP covers you. If you serve aerospace (NAS 410, Nadcap), verify that
-              the vendor has NAS-410 eligibility records, composite inspection templates, and Nadcap audit-ready document
+              API 510/570/653, every mainstream NDT ERP covers you. If you serve aerospace (Nadcap), verify that
+             
               control. If you serve nuclear, verify ASME Section XI, 10 CFR 50 Appendix B pedigree. If you serve offshore
               (DNV, API 2X), verify that the vendor has referenceable offshore deployments.
             </p>

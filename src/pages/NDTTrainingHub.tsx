@@ -345,7 +345,7 @@ export default function NDTTrainingHub() {
                 <p><strong>Scheme type:</strong> ASNT-issued third-party certification — the portable sibling of SNT-TC-1A.</p>
                 <p><strong>Where it wins:</strong> Aerospace, multi-site operators, government contractors. Recognized alongside SNT-TC-1A in North America.</p>
                 <p><strong>Portability:</strong> Fully portable — the certification stays with you, not the employer.</p>
-                <p><strong>Best for:</strong> Aerospace NAS 410 work, independent consultants, and technicians expecting multiple employer moves.</p>
+                <p><strong>Best for:</strong> </p>
               </CardContent>
             </Card>
           </div>

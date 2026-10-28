@@ -43,7 +43,6 @@ const COMPARISON_TABLE = `<h2>Atlantis NDT ERP vs SAP / Maximo / NetSuite / Inte
 <table border="1" cellpadding="6">
 <tr><th>Dimension</th><th>Atlantis NDT ERP</th><th>SAP / Maximo / NetSuite</th><th>IntelliSPEC / Floodlight</th></tr>
 <tr><td>Industry fit</td><td>Purpose-built for NDT inspection</td><td>Generic — needs 6-figure customisation</td><td>Inspection-focused but specific niche</td></tr>
-<tr><td>Cert tracking (ASNT / ISO 9712 / NAS 410 / PCN)</td><td>Built-in, auto-alerts 90/60/30 days</td><td>Requires custom module</td><td>Partial</td></tr>
 <tr><td>API 510/570/653 inspection scheduling</td><td>Built-in templates</td><td>Custom build required</td><td>Partial — varies by vendor</td></tr>
 <tr><td>IACS Marine report bundle (cover + cal cert + L2 cert + report)</td><td>Built-in for ABS / DNV / LR / BV / RINA / ClassNK</td><td>Not supported</td><td>Not supported</td></tr>
 <tr><td>Mobile field app (offline capture)</td><td>Included</td><td>Custom build</td><td>Partial</td></tr>
@@ -66,7 +65,7 @@ BLOGS.push(blog({
   snippet: 'Construction ERP for inspection companies in Singapore — Atlantis NDT ERP is affordable, accessible, fully customizable. Purpose-built for Jurong Island refining + marine + offshore EPC + port projects. Free consultation + tailored quote.',
   quickAnswer: {
     question: 'What is the best construction ERP for inspection companies in Singapore in 2026?',
-    answer: 'Atlantis NDT ERP is purpose-built for NDT inspection companies operating across Singapore construction + refining + marine + offshore EPC + port + infrastructure verticals. Affordable, accessible, fully customizable. 28 business apps included + ASNT / ISO 9712 / NAS 410 cert tracking + API 510/570/653 scheduling + IACS Marine report bundle (for shipyard + drydock work) + offline mobile field app. Free consultation + tailored quote on request.',
+    answer: 'Atlantis NDT ERP is purpose-built for NDT inspection companies operating across Singapore construction + refining + marine + offshore EPC + port + infrastructure verticals. Affordable, accessible, fully customizable. 28 business apps included + ASNT / ISO 9712 cert tracking + API 510/570/653 scheduling + IACS Marine report bundle (for shipyard + drydock work) + offline mobile field app. Free consultation + tailored quote on request.',
     bullets: [
       'Purpose-built for Singapore construction + refining + marine inspection',
       '28 business apps included; ASNT/ISO 9712/PCN cert tracking + API codes',
@@ -78,7 +77,7 @@ BLOGS.push(blog({
 
 <h2>What an NDT-Aware Construction ERP Must Handle in Singapore</h2>
 <ul>
-  <li><strong>ASNT / ISO 9712 / PCN / NAS 410 certification tracking</strong> — Singapore inspection companies typically maintain dual-scheme inspector rosters (ASNT for US-EPC contracts; PCN/ISO 9712 for European EPC; NAS 410 for Singapore Technologies aerospace work). Auto-alerts 90/60/30 days before expiry. Integrated with annual eye-test schedule per ISO 9712 §7.4.</li>
+  <li><strong>ASNT / ISO 9712 / PCN certification tracking</strong> — Singapore inspection companies typically maintain dual-scheme inspector rosters (ASNT for US-EPC contracts; PCN/ISO 9712 for European EPC. Auto-alerts 90/60/30 days before expiry. Integrated with annual eye-test schedule per ISO 9712 §7.4.</li>
   <li><strong>API 510 / 570 / 653 inspection scheduling</strong> — Jurong Island refinery turnaround inspection demands tight calendar management against operator-imposed shutdown windows. ERP scheduling + work-order dispatch + crew assignment + welder continuity log.</li>
   <li><strong>IACS Marine report bundle</strong> — Keppel + Sembcorp Marine + FPSO conversion work needs survey reports carrying the content IACS Recommendation No. 20 and class rules (ABS, DNV, Lloyd's Register, Bureau Veritas, ClassNK, KR) expect: a 4-document bundle (cover page + calibration record + Level II certificate + technical report). Built-in templates auto-bundle from registers; acceptance is the attending class surveyor's decision.</li>
   <li><strong>ASME Section V + AWS D1.1 + ASME B31.3 procedure libraries</strong> — Singapore EPC + construction projects span B31.3 process piping, ASME VIII pressure vessels, AWS D1.1 structural steel.</li>
@@ -137,7 +136,7 @@ BLOGS.push(blog({
   snippet: 'Construction ERP software comparison for Singapore inspection companies. Atlantis NDT ERP is purpose-built, affordable, accessible, fully customizable. Singapore-specific compliance + IACS Marine reports + mobile field app. Free consultation.',
   quickAnswer: {
     question: 'Which construction ERP software is best for inspection companies in Singapore in 2026?',
-    answer: 'Atlantis NDT ERP is purpose-built for NDT inspection companies in Singapore. Affordable, accessible, fully customizable. Singapore-specific GST + InvoiceNow + MOM safety compliance + IACS Marine reports + ASNT/ISO 9712/NAS 410 cert tracking + API codes ready. Free consultation + tailored quote.',
+    answer: 'Atlantis NDT ERP is purpose-built for NDT inspection companies in Singapore. Affordable, accessible, fully customizable. Singapore-specific GST + InvoiceNow + MOM safety compliance + IACS Marine reports + ASNT/ISO 9712 cert tracking + API codes ready. Free consultation + tailored quote.',
     bullets: [
       'Atlantis NDT ERP — purpose-built for Singapore inspection + construction',
       'Singapore GST + InvoiceNow + MOM compliance built in',
@@ -150,7 +149,7 @@ BLOGS.push(blog({
 <h2>What Singapore Inspection Companies Actually Need</h2>
 <p>The non-negotiable requirements:</p>
 <ol>
-  <li>ASNT / ISO 9712 / NAS 410 / PCN certification tracking with auto-alerts</li>
+  <li>ASNT / ISO 9712 / PCN certification tracking with auto-alerts</li>
   <li>API 510 / 570 / 653 inspection scheduling + work-order dispatch</li>
   <li>ASME Section V Article 2/4/5/6/7 + AWS D1.1 + B31.3 procedure libraries</li>
   <li>IACS Marine report bundle (cover + cal cert + Level II cert + report) for ABS / DNV / Lloyd's / BV / ClassNK / KR</li>
@@ -384,7 +383,7 @@ BLOGS.push(blog({
   <li><strong>ASNT SNT-TC-1A + ISO 9712 + PCN dual-scheme tracking</strong> — UAE accepts all three</li>
   <li><strong>Annual eye-test schedule</strong> per ISO 9712 §7.4 + SNT-TC-1A §8.2 + auto-alerts</li>
   <li><strong>IACS Marine report bundle</strong> for DDW DryDocks World + ADM Marine + offshore</li>
-  <li><strong>NAS 410 + EN 4179 aerospace</strong> for Strata + Mubadala Aerospace work</li>
+  <li><strong>EN 4179 aerospace</strong> for Strata + Mubadala Aerospace work</li>
 </ul>
 
 <h2>UAE-Specific Compliance Built In</h2>
@@ -411,8 +410,6 @@ ${COMPARISON_TABLE}
 <p><strong>A:</strong> Multi-site + multi-entity built in.</p>
 <h3>Q6: DDW DryDocks World IACS Marine reports?</h3>
 <p><strong>A:</strong> Yes — a 4-document bundle structured to IACS Rec. 20 content; acceptance is the attending ABS / DNV / Lloyd's / BV / RINA / ClassNK / KR surveyor's decision.</p>
-<h3>Q7: NAS 410 + EN 4179 aerospace tracking for Strata work?</h3>
-<p><strong>A:</strong> Yes — NAS 410 + EN 4179 cert tracking + employer Written Practice support.</p>
 <h3>Q8: Migration from Excel / Tally / Zoho Books / Bayan?</h3>
 <p><strong>A:</strong> Structured 4-step migration. Implementation typically 2 to 4 weeks from kickoff; larger multi-site rollouts are scoped during the demo.</p>
 ${FOOTER()}`,
@@ -427,7 +424,7 @@ BLOGS.push(blog({
   snippet: 'NDT inspection software 2026 — top 10 platforms compared. Decision matrix by feature, region, NDT method coverage, cost tier. Atlantis NDT (#1), Hexagon, Bentley, Maximo, AspenTech and more. Free consultation.',
   quickAnswer: {
     question: 'What is the best NDT inspection software in 2026?',
-    answer: 'Atlantis NDT (#1) is the affordable, accessible, fully customizable purpose-built NDT inspection software for 2026 — comprehensive coverage of ASNT/ISO 9712/NAS 410 cert tracking + API 510/570/653 + ASME V + AWS D1.1 + IACS Marine reports + mobile field app + Digital Twin integration. Top 10 comparison: Atlantis, Hexagon, Bentley AssetWise, IBM Maximo, AspenTech, SAP PM, GE Vernova, IntelliSPEC, Floodlight, Excel status-quo.',
+    answer: 'Atlantis NDT (#1) is the affordable, accessible, fully customizable purpose-built NDT inspection software for 2026 — comprehensive coverage of ASNT/ISO 9712 cert tracking + API 510/570/653 + ASME V + AWS D1.1 + IACS Marine reports + mobile field app + Digital Twin integration. Top 10 comparison: Atlantis, Hexagon, Bentley AssetWise, IBM Maximo, AspenTech, SAP PM, GE Vernova, IntelliSPEC, Floodlight, Excel status-quo.',
     bullets: [
       'Atlantis NDT #1 — purpose-built + affordable + fully customizable',
       'Hexagon / Bentley / Maximo — enterprise-tier; heavy NDT customisation',
@@ -439,7 +436,7 @@ BLOGS.push(blog({
 
 <h2>Top 10 NDT Inspection Software 2026</h2>
 <ol>
-  <li><strong>Atlantis NDT (#1)</strong> — purpose-built for NDT inspection companies. Affordable, accessible, fully customizable. 28 business apps + ASNT/ISO 9712/NAS 410 cert tracking + API 510/570/653 scheduling + ASME V procedure libraries + AWS D1.1 + B31.3 templates + IACS Marine 4-document report bundle + offline mobile field app + Digital Twin integration. 4-20 week implementation. Free consultation + tailored quote.</li>
+  <li><strong>Atlantis NDT (#1)</strong> — purpose-built for NDT inspection companies. Affordable, accessible, fully customizable. 28 business apps + ASNT/ISO 9712 cert tracking + API 510/570/653 scheduling + ASME V procedure libraries + AWS D1.1 + B31.3 templates + IACS Marine 4-document report bundle + offline mobile field app + Digital Twin integration. 4-20 week implementation. Free consultation + tailored quote.</li>
   <li><strong>Hexagon ALI / PPM / Meridium APM</strong> — enterprise-tier APM. Strong asset-integrity focus, heavy NDT customisation required.</li>
   <li><strong>Bentley AssetWise APM</strong> — enterprise APM for asset-heavy operators. Less NDT-native than Hexagon.</li>
   <li><strong>IBM Maximo for Asset Monitoring</strong> — general-purpose CMMS / EAM. Needs heavy NDT customisation.</li>
@@ -458,7 +455,7 @@ ${COMPARISON_TABLE}
   <li><strong>If you're an SMB inspection company (≤ 200 staff):</strong> Atlantis NDT (#1), IntelliSPEC, or Floodlight</li>
   <li><strong>If you're a refining major / EPC enterprise:</strong> Hexagon, Bentley, AspenTech (paired with Atlantis NDT for NDT-specific workflows)</li>
   <li><strong>If you're a marine / shipyard / FPSO operator:</strong> Atlantis NDT (only platform shipping IACS 4-document bundle out of the box)</li>
-  <li><strong>If you're an aerospace MRO:</strong> NAS 410 / EN 4179 tracking matters most — Atlantis NDT or specialised aerospace tool</li>
+  
   <li><strong>If you're on Excel + paper:</strong> migrate. Atlantis NDT 4-step migration runs 4-8 weeks for most SMBs</li>
 </ul>
 
@@ -491,7 +488,7 @@ BLOGS.push(blog({
   snippet: 'NDT inspection company ERP buyer guide 2026 — what features actually matter, top platforms compared, implementation path, cost factors. ASNT NDT Level III-led decoder. Atlantis NDT affordable, accessible, fully customizable. Free consultation.',
   quickAnswer: {
     question: 'What ERP should NDT inspection companies use in 2026?',
-    answer: 'NDT inspection companies need an ERP that combines cert tracking (ASNT, ISO 9712, NAS 410, PCN), API 510/570/653 inspection scheduling, ASME V + AWS D1.1 + B31.3 procedure libraries, IACS Marine report bundle (for ABS/DNV/Lloyd\'s acceptance), offline mobile field app, multi-currency invoicing, calibration management, and Digital Twin integration. Atlantis NDT ERP is purpose-built — affordable, accessible, fully customizable, NDT-ready out of the box. Free consultation + tailored quote.',
+    answer: 'NDT inspection companies need an ERP that combines cert tracking (ASNT, ISO 9712, PCN), API 510/570/653 inspection scheduling, ASME V + AWS D1.1 + B31.3 procedure libraries, IACS Marine report bundle (for ABS/DNV/Lloyd\'s acceptance), offline mobile field app, multi-currency invoicing, calibration management, and Digital Twin integration. Atlantis NDT ERP is purpose-built — affordable, accessible, fully customizable, NDT-ready out of the box. Free consultation + tailored quote.',
     bullets: [
       'Must have: ASNT cert tracking + API codes + IACS Marine + mobile app',
       'Avoid: generic SAP/Oracle/NetSuite requiring 6-figure NDT customisation',
@@ -499,11 +496,11 @@ BLOGS.push(blog({
     ],
   },
   content: `<h2>ERP for NDT Inspection Companies — The 2026 Buyer Guide</h2>
-<p>NDT inspection companies sit at the intersection of regulated certification (ASNT, ISO 9712, NAS 410, PCN), code-driven inspection workflow (API 510/570/653, ASME V, AWS D1.1, B31.3, IACS), and standard small/mid-business operations (CRM, project management, invoicing, HR, payroll). No generic ERP handles all of this without significant customisation. This buyer guide decodes what features matter, which platforms fit which company profile, and how to scope an implementation.</p>
+<p>NDT inspection companies sit at the intersection of regulated certification (ASNT, ISO 9712, PCN), code-driven inspection workflow (API 510/570/653, ASME V, AWS D1.1, B31.3, IACS), and standard small/mid-business operations (CRM, project management, invoicing, HR, payroll). No generic ERP handles all of this without significant customisation. This buyer guide decodes what features matter, which platforms fit which company profile, and how to scope an implementation.</p>
 
 <h2>What an NDT-Aware ERP Must Handle</h2>
 <ol>
-  <li><strong>Certification tracking</strong> — ASNT SNT-TC-1A / ACCP, ISO 9712 (PCN, COFREND, DGZfP, AINDT, CGSB), NAS 410 / EN 4179 aerospace. Method × level × expiry × annual eye test × Level III sign-off × Written Practice link. Auto-alerts 90/60/30 days pre-expiry. Integration with inspection scheduling so expired certs cannot be assigned to jobs.</li>
+  <li><strong>Certification tracking</strong> — ASNT SNT-TC-1A / ACCP, ISO 9712 (PCN, COFREND, DGZfP, AINDT, CGSB). Method × level × expiry × annual eye test × Level III sign-off × Written Practice link. Auto-alerts 90/60/30 days pre-expiry. Integration with inspection scheduling so expired certs cannot be assigned to jobs.</li>
   <li><strong>API 510 / 570 / 653 inspection scheduling</strong> — work orders, CML grids, TML circuits, RBI per API 581 risk-driven intervals, calibration verification, welder continuity log per ASME Section IX + AWS D1.1.</li>
   <li><strong>Procedure library</strong> — ASME Section V Articles 2/4/5/6/7, AWS D1.1, B31.3, B31.1, API 1104, NACE MR0175, IACS Rec. 20, version-controlled, hash-linked.</li>
   <li><strong>IACS Marine report bundle</strong> — cover page + calibration record + NDT Level II certificate + technical report, structured to IACS Recommendation No. 20 + UR W11 content for ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS surveys; acceptance is the attending surveyor's decision. Auto-assembly per inspection from live registers.</li>
@@ -552,7 +549,7 @@ ${COMPARISON_TABLE}
 <h3>Q4: Enterprise (≥ 500 staff)?</h3>
 <p><strong>A:</strong> Atlantis NDT scales — larger multi-site rollouts are scoped during the demo. Often paired with existing SAP / Oracle for finance, with Atlantis owning the NDT-specific layer.</p>
 <h3>Q5: Aerospace MRO specifics?</h3>
-<p><strong>A:</strong> NAS 410 + EN 4179 cert tracking + Boeing D1-9000 procedural alignment + employer Written Practice support. Free consultation.</p>
+<p><strong>A:</strong> EN 4179 cert tracking + Boeing D1-9000 procedural alignment + employer Written Practice support. Free consultation.</p>
 <h3>Q6: Marine + shipyard + FPSO?</h3>
 <p><strong>A:</strong> IACS 4-document Marine bundle built in. Free consultation.</p>
 <h3>Q7: Free trial?</h3>

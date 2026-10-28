@@ -36,7 +36,7 @@ const L3_CITY = {
     name: 'San Diego',
     body: `
       <h2>Who employs Level IIIs in San Diego</h2>
-      <p>San Diego's Level III demand is naval and aerospace before anything else: the shipbuilding and repair yards on the bay work under NAVSEA technical requirements that lean hard on Level III oversight, and the aerospace and defence manufacturers across the county run NAS 410 programmes where the Responsible Level III is a named, audited role. Add the region's biotech-driven pressure equipment and the utility fleet, and the market rewards a Level III who can move between military-adjacent documentation discipline and commercial code work.</p>
+      <p>Add the region's biotech-driven pressure equipment and the utility fleet, and the market rewards a Level III who can move between military-adjacent documentation discipline and commercial code work.</p>
       <h2>The pathway from here</h2>
       <p>Most San Diego candidates arrive as Level IIs out of the yards or the aerospace shops with deep single-method experience. The Level III examinations reward breadth — the Basic examination spans materials, all methods and certification programmes — so preparation is usually about widening, not deepening. Atlantis prepares candidates through structured programmes built by practising Level IIIs, delivered on-site for employer cohorts or blended for individuals, and for companies the faster route is often engaging <a href="/consulting/ndt-consulting-level-iii">outsourced Level III authority</a> while internal candidates qualify.</p>`,
   },
@@ -46,7 +46,7 @@ const L3_CITY = {
       <h2>Who employs Level IIIs in Cincinnati</h2>
       <p>Cincinnati sits at the centre of an aero-engine economy: the engine plants and their supplier web up and down the I-75 corridor run Nadcap-audited NDT where the Level III owns procedures, technique sheets and personnel qualification — and answers for them in audits that check technical content, not just signatures. Around that core, the region's machining, casting and general manufacturing base runs industrial programmes under SNT-TC-1A, and the Ohio River's barge and terminal work adds a different code family entirely.</p>
       <h2>The pathway from here</h2>
-      <p>The aerospace route and the industrial route diverge earlier here than in most cities: NAS 410 candidates need documented hours under an approved programme, while SNT-TC-1A candidates build the employer-based record. A Cincinnati Level III who holds both worlds — Nadcap audit fluency plus ASME/AWS code work — is rare and priced accordingly. Atlantis runs preparation for the ASNT Basic and method examinations, on-site for employer cohorts across the corridor, with <a href="/consulting/ndt-consulting-level-iii">interim Level III cover</a> available while candidates qualify.</p>`,
+      <p>A Cincinnati Level III who holds both worlds — Nadcap audit fluency plus ASME/AWS code work — is rare and priced accordingly. Atlantis runs preparation for the ASNT Basic and method examinations, on-site for employer cohorts across the corridor, with <a href="/consulting/ndt-consulting-level-iii">interim Level III cover</a> available while candidates qualify.</p>`,
   },
   '/training/asnt-level-iii-training-tampa': {
     name: 'Tampa',

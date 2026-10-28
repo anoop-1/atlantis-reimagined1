@@ -367,7 +367,7 @@ export const ndtIndustries = [
     shortName: "Aerospace",
     description: "High-precision NDT solutions for aircraft, engines, and aerospace component manufacturing",
     applications: ["Composite structure inspection", "Engine component testing", "Fatigue crack detection", "Bonded joint inspection", "Landing gear examination"],
-    standards: ["NAS 410", "EN 4179", "ASTM E2580", "SAE AMS 2632", "Nadcap AC7114"],
+    standards: [ "EN 4179", "ASTM E2580", "SAE AMS 2632", "Nadcap AC7114"],
     keyServices: ["Automated UT scanning", "Eddy current surface inspection", "Fluorescent penetrant testing", "X-ray computed tomography", "Thermography"]
   },
   {

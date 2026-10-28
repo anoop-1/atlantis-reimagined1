@@ -407,9 +407,9 @@ const entries = [
     ['asnt-snt-tc-1a-vs-cp-189-comparison']
   ),
 
-  e('nas-410', 'NAS 410 / EN 4179 Aerospace NDT Personnel Qualification', 'standard',
-    'NAS 410 is the aerospace-industry standard for qualification and certification of NDT personnel in the manufacture and overhaul of aerospace products, harmonized with EN 4179 in Europe.',
-    "<h2>Definition</h2><p>NAS 410 supersedes the older MIL-STD-410 for commercial aerospace NDT. It defines Level I, II, and III qualification analogous to SNT-TC-1A but with tighter training-hour requirements and required experience for safety-critical aerospace inspection. EN 4179 is the European edition (identical content).</p>",
+  e('nas-410', '', 'standard',
+    '',
+    "<h2>Definition</h2><p>It defines Level I, II, and III qualification analogous to SNT-TC-1A but with tighter training-hour requirements and required experience for safety-critical aerospace inspection. EN 4179 is the European edition (identical content).</p>",
     ['snt-tc-1a', 'iso-9712', 'level-iii', 'astm-e1417', 'astm-e1444'],
     ['aerospace-composite-inspection-ndt-methods-guide']
   ),

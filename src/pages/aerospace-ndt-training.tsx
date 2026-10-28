@@ -11,10 +11,10 @@ import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 // 2026-10-08: Atlantis training is ASNT SNT-TC-1A ONLY. This page used to offer
-// "NAS 410 / EN 4179 certification" training (plus unsupported pass-rate,
+// aerospace personnel certification training (plus unsupported pass-rate,
 // trainee-count, Nadcap and OEM-recognition claims). It now offers aerospace
-// NDT method training under SNT-TC-1A and explains NAS 410 / EN 4179 as
-// information only. Keep the title and H1 identical to the prerender entry
+// NDT method training under SNT-TC-1A and explains aerospace certification as
+// information only. 2026-10-28: NAS 410 is no longer named anywhere on the site (owner). Keep the title and H1 identical to the prerender entry
 // for /aerospace-ndt-training in scripts/prerender.mjs.
 
 const courses = [
@@ -31,17 +31,17 @@ const benefits = [
     "Online theory plus hands-on practicals onsite at your facility",
     "Practicals on your own parts and reference standards when delivered onsite",
     "Training and examination records structured for your employer's written practice",
-    "A plain account of where SNT-TC-1A training stops and NAS 410 certification begins"
+    "A plain account of where SNT-TC-1A training stops and employer aerospace certification begins"
 ];
 
 const nas410Points = [
     {
-        title: "NAS 410 and EN 4179",
-        body: "NAS 410, published by the Aerospace Industries Association, is the standard most of the aerospace supply chain uses to qualify and certify NDT personnel. EN 4179 is the European counterpart, and the two are harmonised. Primes and Nadcap audits call for them in place of SNT-TC-1A."
+        title: "Customer aerospace requirements",
+        body: "Most of the aerospace supply chain qualifies and certifies NDT personnel to a personnel standard the prime or customer specifies, with EN 4179 used in Europe. Primes and Nadcap audits call for that standard rather than SNT-TC-1A alone."
     },
     {
         title: "The employer's written practice",
-        body: "Under NAS 410 the employer certifies its own Level 1 and Level 2 personnel under a written practice. The written practice names a Responsible Level 3, who approves procedures and techniques, controls the examinations and signs the certifications. Training hours, experience, examinations and vision checks are recorded against that written practice."
+        body: "The employer certifies its own Level 1 and Level 2 personnel under a written practice. The written practice names a Responsible Level 3, who approves procedures and techniques, controls the examinations and signs the certifications. Training hours, experience, examinations and vision checks are recorded against that written practice."
     },
     {
         title: "The National Aerospace NDT Board",
@@ -49,7 +49,7 @@ const nas410Points = [
     },
     {
         title: "Where Atlantis fits",
-        body: "Atlantis delivers NDT method training under ASNT SNT-TC-1A only. Atlantis does not deliver NAS 410 or EN 4179 training, examinations or certification. If you work to NAS 410, your Responsible Level 3 decides whether and how SNT-TC-1A training hours count toward your record."
+        body: "Atlantis delivers NDT method training under ASNT SNT-TC-1A only. If you work to the customer-specified aerospace standard, your Responsible Level 3 decides whether and how SNT-TC-1A training hours count toward your record."
     }
 ];
 
@@ -58,7 +58,7 @@ export default function AerospaceNDTTraining() {
         "@context": "https://schema.org",
         "@type": "Course",
         "name": "Aerospace NDT Training (ASNT SNT-TC-1A)",
-        "description": "NDT method training under ASNT SNT-TC-1A for aerospace applications: UT, ET, PT, RT and VT. Atlantis does not deliver NAS 410 or EN 4179 training, examinations or certification; those are issued by the employer under its written practice.",
+        "description": "NDT method training under ASNT SNT-TC-1A for aerospace applications: UT, ET, PT, RT and VT. Aerospace certification is issued by the employer under its written practice.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT" }
     };
 
@@ -66,9 +66,9 @@ export default function AerospaceNDTTraining() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Aerospace NDT Training (ASNT SNT-TC-1A) | NAS 410 Explained | Atlantis NDT"
-                description="Aerospace NDT method training under ASNT SNT-TC-1A: UT, ET, PT, RT and VT for aircraft structure, engines and composites. How NAS 410 / EN 4179 certification works and who issues it."
-                keywords="aerospace NDT training, ASNT SNT-TC-1A aerospace, aircraft NDT training, composite inspection training, aerospace UT training, NAS 410 explained, EN 4179"
+                title="Aerospace NDT Training (ASNT SNT-TC-1A) | Atlantis NDT"
+                description="Aerospace NDT method training under ASNT SNT-TC-1A: UT, ET, PT, RT and VT for aircraft structure, engines and composites. How aerospace certification works and who issues it."
+                keywords="aerospace NDT training, ASNT SNT-TC-1A aerospace, aircraft NDT training, composite inspection training, aerospace UT training, ASNT Level III aerospace consulting, EN 4179"
                 canonical="https://atlantisndt.com/aerospace-ndt-training"
                 structuredData={structuredData}
             />
@@ -85,7 +85,7 @@ export default function AerospaceNDTTraining() {
                         <p className="text-xl text-slate-300 max-w-3xl mb-8">
                             NDT method training under ASNT SNT-TC-1A for aerospace inspectors: aircraft structure,
                             engine components and composites. Led by an ASNT NDT Level III and delivered online and onsite.
-                            Aerospace certification itself (NAS 410 / EN 4179) is issued by your employer, as explained below.
+                            Aerospace certification itself is issued by your employer, as explained below.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition text-center">Request a Training Quote</Link>
@@ -142,9 +142,9 @@ export default function AerospaceNDTTraining() {
 
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-5xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">NAS 410 and EN 4179: How Aerospace Certification Works</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">How Aerospace Certification Works</h2>
                     <p className="text-center text-slate-600 mb-10 max-w-3xl mx-auto">
-                        This section is for information. Atlantis trains to ASNT SNT-TC-1A and does not offer NAS 410 or EN 4179 training or certification.
+                        This section is for information. Atlantis trains to ASNT SNT-TC-1A and provides ASNT Level III consulting; it does not issue aerospace certification.
                     </p>
                     <div className="grid md:grid-cols-2 gap-6">
                         {nas410Points.map((p) => (
@@ -160,7 +160,7 @@ export default function AerospaceNDTTraining() {
             <section className="py-16 bg-gradient-to-r from-slate-700 to-slate-800 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Plan Aerospace NDT Method Training</h2>
-                    <p className="text-slate-300 mb-8 text-lg">Tell us the methods, levels and parts you inspect. We will scope ASNT SNT-TC-1A training and explain how the records sit beside your employer's NAS 410 written practice.</p>
+                    <p className="text-slate-300 mb-8 text-lg">Tell us the methods, levels and parts you inspect. We will scope ASNT SNT-TC-1A training and explain how the records sit beside your employer's written practice.</p>
                     <Link to="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition">Request a Training Quote</Link>
                 </div>
             </section>
@@ -192,7 +192,7 @@ export default function AerospaceNDTTraining() {
               {
                     "title": "Digital Twin for Aerospace",
                     "href": "/digital-twins",
-                    "description": "UT/PAUT 3D + NAS 410 traceability",
+                    "description": "UT/PAUT 3D + personnel traceability",
                     "icon": "dt"
               },
               {

@@ -197,9 +197,9 @@
     "title": "NDT Consulting: Level III Cover, Written Practice and Audits",
     "description": "The full ASNT Level III consulting catalogue: written practice, procedures, examination oversight, retained and interim cover, audits, programme build, succession.",
     "h1": "The engagement catalogue, the regimes behind it, and how work starts",
-    "answer": "Atlantis consulting covers written practice authoring, NDT procedure development and demonstration, examination writing and grading, retained or interim Level III cover, programme audits and gap assessment, programme build for new inspection firms, and Level III succession. Work runs across SNT-TC-1A, CP-189, NAS 410, EN 4179 and ISO 9712. Method scope decides who can sign what.",
-    "expansion": "Every engagement resolves to a document somebody has to defend. The written practice is the root: SNT-TC-1A requires the employer to prepare one and have it approved by the employer's Level III, and every certificate the company issues traces back to it. Procedures sit under that, approved by a Level III and, where the referencing code demands it, demonstrated before an inspector under ASME Section V Article 1 T-150. Examination records sit under those. The regime is chosen by the customer contract, not by preference: aerospace and Nadcap work invokes NAS 410 or EN 4179, contracts naming ANSI/ASNT CP-189 impose a standard written in shall rather than a recommended practice written in should, and ISO 9712 replaces the employer scheme with third-party certification held by the individual. Scope from the artefact backwards and the regime becomes an input, not an argument.",
-    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition) and ANSI/ASNT CP-189 for employer-based certification; ISO 9712 for third-party certification; NAS 410 and EN 4179 for aerospace and Nadcap-accredited suppliers; ASME BPVC Section V Article 1 T-150 for written and revised NDE procedures; ASNT published Level III recertification cycle and the 2026 update replacing the 2020 reference editions with 2024.",
+    "answer": "Atlantis consulting covers written practice authoring, NDT procedure development and demonstration, examination writing and grading, retained or interim Level III cover, programme audits and gap assessment, programme build for new inspection firms, and Level III succession. Work runs across SNT-TC-1A, CP-189 and ISO 9712. Method scope decides who can sign what.",
+    "expansion": "Every engagement resolves to a document somebody has to defend. The written practice is the root: SNT-TC-1A requires the employer to prepare one and have it approved by the employer's Level III, and every certificate the company issues traces back to it. Procedures sit under that, approved by a Level III and, where the referencing code demands it, demonstrated before an inspector under ASME Section V Article 1 T-150. Examination records sit under those. Scope from the artefact backwards and the regime becomes an input, not an argument.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition) and ANSI/ASNT CP-189 for employer-based certification; ISO 9712 for third-party certification; ASME BPVC Section V Article 1 T-150 for written and revised NDE procedures; ASNT published Level III recertification cycle and the 2026 update replacing the 2020 reference editions with 2024.",
     "table": {
       "caption": "The consulting engagement catalogue — what each produces, what triggers it, and how long it runs",
       "columns": [
@@ -210,13 +210,6 @@
         "Shape of the work"
       ],
       "rows": [
-        [
-          "Written practice authoring",
-          "An adopted, employer-signed written practice",
-          "First client audit, or a scheme edition change",
-          "SNT-TC-1A, CP-189, NAS 410",
-          "One document cycle, then annual review"
-        ],
         [
           "Procedure development",
           "Approved technique procedures, per method",
@@ -276,11 +269,11 @@
       },
       {
         "q": "Which certification regimes does Atlantis work across?",
-        "a": "ASNT SNT-TC-1A and ANSI/ASNT CP-189 for employer-based US industrial work, NAS 410 and EN 4179 for aerospace and Nadcap-accredited suppliers, and ISO 9712 where a customer requires third-party certification held by the individual. The customer contract selects the regime. Programmes that quietly mix two are the most common finding in a first audit."
+        "a": "The customer contract selects the regime. Programmes that quietly mix two are the most common finding in a first audit."
       },
       {
         "q": "Who decides which regime applies to us?",
-        "a": "Your customer, through the contract and the purchase order. Aerospace primes and Nadcap accreditation invoke NAS 410 or EN 4179. Contracts naming CP-189 impose mandatory requirements rather than recommendations. Absent an explicit clause, SNT-TC-1A employer-based certification is the default across US industrial work. Declare the choice in the written practice and apply it consistently."
+        "a": "Your customer, through the contract and the purchase order. Contracts naming CP-189 impose mandatory requirements rather than recommendations. Absent an explicit clause, SNT-TC-1A employer-based certification is the default across US industrial work. Declare the choice in the written practice and apply it consistently."
       },
       {
         "q": "What is the method scope constraint?",
@@ -333,7 +326,7 @@
         "paragraphs": [
           "Level III cover comes in three shapes, and choosing the wrong one is the usual source of friction later. Retained cover names a Level III of record continuously, sized to your qualification calendar and your procedure churn. Project cover attaches to a defined scope — a contract, a procedure set, a single facility — and ends when that scope does. Interim cover fills a hole that has already opened, and is judged on speed and on what it leaves behind.",
           "Retained cover suits firms whose contracts require a named Level III at all times and whose demand is steady but low. Project cover suits EPCs and fabricators with a defined job and a defined end date. Interim cover suits a firm that has just lost its Level III and now cannot qualify a technician or approve a procedure until somebody is designated. [Interim NDT Level 3 cover](/consulting/interim-ndt-level-3) sets out how that gap is closed, how fast, and what the handover has to contain.",
-          "In every shape, the arrangement is documented in the employer's written practice. SNT-TC-1A permits an employer to engage an outside agency Level III for technical work provided the arrangement is written down. NAS 410 goes further: the employer identifies a Responsible Level 3 in writing to act on its behalf in qualification and certification matters, and that person may come from an outside agency. The full role is set out under [ASNT Level III consulting services](/consulting/ndt-consulting-level-iii)."
+          "In every shape, the arrangement is documented in the employer's written practice. SNT-TC-1A permits an employer to engage an outside agency Level III for technical work provided the arrangement is written down. The full role is set out under [ASNT Level III consulting services](/consulting/ndt-consulting-level-iii)."
         ]
       },
       {
@@ -384,7 +377,7 @@
       },
       {
         "q": "Which standard should our written practice be written against?",
-        "a": "Whichever one your customer contracts name. Aerospace and Nadcap-accredited work invokes NAS 410 or EN 4179. Contracts specifying ANSI/ASNT CP-189 impose a standard written in mandatory language, with additional requirements for experience, examinations and record keeping. Absent an explicit clause, SNT-TC-1A employer-based certification is the default across US industrial work. Declare the choice explicitly in the document and apply it consistently — mixed programmes are the finding auditors write first."
+        "a": "Whichever one your customer contracts name. Contracts specifying ANSI/ASNT CP-189 impose a standard written in mandatory language, with additional requirements for experience, examinations and record keeping. Absent an explicit clause, SNT-TC-1A employer-based certification is the default across US industrial work. Declare the choice explicitly in the document and apply it consistently — mixed programmes are the finding auditors write first."
       },
       {
         "q": "How quickly can a written practice or a procedure be turned around?",
@@ -392,7 +385,7 @@
       },
       {
         "q": "Do you work outside the United States?",
-        "a": "Yes. The United States is the primary market, and engagements run across other Western markets on the same basis. Documentation work is regime-specific rather than location-specific: SNT-TC-1A and CP-189 travel with US contracts, NAS 410 and EN 4179 with aerospace supply chains, ISO 9712 where a customer requires third-party certification. Remote delivery covers most of the work; site presence is scheduled where demonstrations, practical examinations or audit attendance require it."
+        "a": "Yes. The United States is the primary market, and engagements run across other Western markets on the same basis. Remote delivery covers most of the work; site presence is scheduled where demonstrations, practical examinations or audit attendance require it."
       },
       {
         "q": "What do you need from us to start?",
@@ -406,8 +399,8 @@
     "description": "What an outsourced ASNT NDT Level III does day to day, the four signatures an auditor traces, method scope limits, and what your firm must still own itself.",
     "h1": "What a Level III of record actually does, month to month",
     "answer": "An outsourced Level III holds technical authority inside your programme without joining your payroll. The work is four recurring signatures: the written practice, each NDT procedure, the examination record, and the qualification recommendation, plus method oversight and audit attendance. Certification itself stays with the employer under SNT-TC-1A and cannot be delegated to any agency, however complete the outside work is.",
-    "expansion": "The role is misread as coverage when it is really custody of a signature chain. SNT-TC-1A requires the employer to prepare a written practice approved by the employer's Level III, and assigns the Level III responsibility for approving and grading qualification examinations. ASME Section V Article 1 T-150 requires written procedures, with a revised procedure prepared and approved by a Level III whenever an essential variable changes. NAS 410 goes further and requires the employer to identify a Responsible Level 3 in writing, a role an outside agency Level 3 can hold. What none of those clauses permits is the outside party issuing the certificate. That stays with the employer, along with training records, documented experience, vision test currency and retained examination papers. An auditor asks the employer for that evidence, and the consultant's name on the procedure does not answer the question.",
-    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition) on written practice preparation, Level III approval and grading of examinations, and recommended recertification intervals; ANSI/ASNT CP-189; NAS 410 on the employer-identified Responsible Level 3 and outside agency Level 3 involvement; ASME BPVC Section V Article 1 T-150 on written and revised procedures; ASNT published five-year Level III renewal cycle.",
+    "expansion": "The role is misread as coverage when it is really custody of a signature chain. SNT-TC-1A requires the employer to prepare a written practice approved by the employer's Level III, and assigns the Level III responsibility for approving and grading qualification examinations. ASME Section V Article 1 T-150 requires written procedures, with a revised procedure prepared and approved by a Level III whenever an essential variable changes. What none of those clauses permits is the outside party issuing the certificate. That stays with the employer, along with training records, documented experience, vision test currency and retained examination papers. An auditor asks the employer for that evidence, and the consultant's name on the procedure does not answer the question.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition) on written practice preparation, Level III approval and grading of examinations, and recommended recertification intervals; ANSI/ASNT CP-189; ASME BPVC Section V Article 1 T-150 on written and revised procedures; ASNT published five-year Level III renewal cycle.",
     "table": {
       "caption": "The signature chain an auditor traces backwards from a technician's certificate",
       "columns": [
@@ -582,18 +575,18 @@
       },
       {
         "q": "Does a designated Responsible Level 3 close a Nadcap audit?",
-        "a": "It satisfies the personnel-authority requirement under NAS 410, which AC7114 assesses, and NAS 410 permits an outside agency Level 3 to hold that designation when the employer identifies them in writing. It does not by itself close the record-based findings that generate most Nadcap results — vision test currency, on-the-job training documentation and retained examination papers stay with the employer and are produced by the employer."
+        "a": "It does not by itself close the record-based findings that generate most Nadcap results — vision test currency, on-the-job training documentation and retained examination papers stay with the employer and are produced by the employer."
       }
     ]
   },
   {
     "slug": "/ndt-training-denver",
-    "title": "NDT Training Denver: NAS 410 Aerospace vs SNT-TC-1A Refinery",
-    "description": "Denver NDT training splits along two standards: NAS 410 for Lockheed, BAE and Sierra Space, SNT-TC-1A for Suncor Commerce City and the DJ Basin. Choose first.",
+    "title": "NDT Training Denver: Aerospace vs SNT-TC-1A Refinery Routes",
+    "description": "Denver NDT training splits two ways: aerospace customer requirements at Lockheed, BAE and Sierra Space; SNT-TC-1A at Suncor Commerce City and the DJ Basin.",
     "h1": "How Denver's Aerospace-and-Refinery Split Decides Your NDT Certification Route",
-    "answer": "Denver runs two separate NDT certification systems. Aerospace employers on the Front Range certify to NAS 410, where every requirement is mandatory and Level III examinations are graded by a National Aerospace NDT Board. The Suncor Commerce City refinery and DJ Basin operators certify to SNT-TC-1A, an employer-written practice. Pick the standard before you pick the method or the school.",
-    "expansion": "The Front Range is one of the few US metros where an NDT candidate can pick the wrong certification and still pass every exam. Colorado holds the nation's second-largest aerospace economy and ranks first per capita for private aerospace employment, per the Colorado Space Coalition — Lockheed Martin alone reports more than 14,000 Colorado employees across a Waterton Canyon campus of over six million square feet. That work certifies under NAS 410, published by the Aerospace Industries Association, where every clause reads \"shall\" and Level III examinations are graded by a National Aerospace NDT Board rather than by your employer. Ninety miles of the same corridor runs on SNT-TC-1A, a recommended practice your employer rewrites into its own written practice. A Suncor-facing UT Level II and a Lockheed-facing UT Level II are not interchangeable documents, and no volume of classroom hours converts one into the other.",
-    "source": "ASNT certification requirement and 2026 fee tables (certification.asnt.org); ASNT Recommended Practice No. SNT-TC-1A; NAS 410, Aerospace Industries Association; Colorado Space Coalition and Choose Colorado aerospace cluster data; Lockheed Martin Colorado site disclosures; BAE Systems / Ball Aerospace transaction close, 16 February 2024; Sierra Space corporate filings; Suncor Commerce City refinery disclosures and Inspectioneering turnaround reporting, March 2026.",
+    "answer": "Denver runs two separate NDT certification systems. Aerospace employers on the Front Range certify to the customer-specified aerospace standard, where every requirement is mandatory and Level III examinations are graded by a National Aerospace NDT Board. The Suncor Commerce City refinery and DJ Basin operators certify to SNT-TC-1A, an employer-written practice. Pick the standard before you pick the method or the school.",
+    "expansion": "The Front Range is one of the few US metros where an NDT candidate can pick the wrong certification and still pass every exam. Colorado holds the nation's second-largest aerospace economy and ranks first per capita for private aerospace employment, per the Colorado Space Coalition — Lockheed Martin alone reports more than 14,000 Colorado employees across a Waterton Canyon campus of over six million square feet. That work certifies under the aerospace personnel standard the primes flow down, where every clause reads \"shall\" and Level III examinations are graded by a National Aerospace NDT Board rather than by your employer. Ninety miles of the same corridor runs on SNT-TC-1A, a recommended practice your employer rewrites into its own written practice. A Suncor-facing UT Level II and a Lockheed-facing UT Level II are not interchangeable documents, and no volume of classroom hours converts one into the other.",
+    "source": "ASNT certification requirement and 2026 fee tables (certification.asnt.org); ASNT Recommended Practice No. SNT-TC-1A; Colorado Space Coalition and Choose Colorado aerospace cluster data; Lockheed Martin Colorado site disclosures; BAE Systems / Ball Aerospace transaction close, 16 February 2024; Sierra Space corporate filings; Suncor Commerce City refinery disclosures and Inspectioneering turnaround reporting, March 2026.",
     "table": {
       "caption": "What each Front Range employer segment certifies against, and what it buys",
       "columns": [
@@ -604,20 +597,6 @@
         "Recertification interval"
       ],
       "rows": [
-        [
-          "Space and satellite primes — Lockheed Martin Waterton Canyon, BAE Systems Space & Mission Systems (Boulder, Broomfield, Westminster)",
-          "NAS 410, implemented through the prime's own written practice",
-          "Fluorescent PT, ET, RT and digital radiography of castings and welds, UT of bonded and machined structure",
-          "A National Aerospace NDT Board (NANDTB), not the employer",
-          "5 years, fixed"
-        ],
-        [
-          "Spacecraft build and integration — Sierra Space, Louisville",
-          "NAS 410",
-          "PT, UT of composite bondlines, RT/DR, VT of structural joints",
-          "NANDTB",
-          "5 years, fixed"
-        ],
         [
           "Suncor Commerce City refinery — Colorado's only refinery, ~98,000 bpd",
           "SNT-TC-1A written practice, with API inspection codes layered above it",
@@ -647,7 +626,7 @@
           "3–5 years"
         ]
       ],
-      "note": "NAS 410 recertification is a fixed five-year cycle. SNT-TC-1A leaves the interval to the employer, commonly three to five years. Verify the interval in the written practice you will be certified under, never in the standard itself."
+      "note": "SNT-TC-1A leaves the interval to the employer, commonly three to five years. Verify the interval in the written practice you will be certified under, never in the standard itself."
     },
     "facets": [
       {
@@ -656,7 +635,7 @@
       },
       {
         "q": "Does an ASNT NDT Level II certificate satisfy a Colorado aerospace employer?",
-        "a": "No, not on its own. NAS 410 requires examination on aerospace hardware and a NANDTB-graded Level III, and ASNT certification is not accepted as meeting those requirements beyond the general examination. An ASNT Level II proves method knowledge and shortens your onboarding at Lockheed Martin, BAE Systems Space & Mission Systems or Sierra Space, but the employer still qualifies you against its own NAS 410 written practice."
+        "a": "No, not on its own. An ASNT Level II proves method knowledge and shortens your onboarding at Lockheed Martin, BAE Systems Space & Mission Systems or Sierra Space, but the employer still qualifies you against its own aerospace written practice."
       },
       {
         "q": "Where do Denver candidates sit ASNT computer-based examinations?",
@@ -672,15 +651,15 @@
       },
       {
         "q": "Is online NDT training accepted on the Front Range?",
-        "a": "Theory delivered online is accepted for the classroom hours in a written practice. Practical hours are not. SNT-TC-1A and NAS 410 both require demonstrated hands-on capability, and ASNT places responsibility for visual acuity, practical and job-specific examinations on the employer. A hybrid route — online theory, in-person lab and practical — is the format that clears an audit."
+        "a": "Theory delivered online is accepted for the classroom hours in a written practice. Practical hours are not. SNT-TC-1A both require demonstrated hands-on capability, and ASNT places responsibility for visual acuity, practical and job-specific examinations on the employer. A hybrid route — online theory, in-person lab and practical — is the format that clears an audit."
       }
     ],
     "sections": [
       {
         "heading": "Two certification systems share one metro, and they do not talk to each other",
         "paragraphs": [
-          "The mistake that costs Denver candidates a year is treating \"NDT training\" as one product. It is two. NAS 410 governs who may perform, interpret and accept NDT on aircraft, spacecraft, missiles and engine components. SNT-TC-1A governs pressure equipment, pipelines, structural steel and refining. NAS 410 says \"shall\" throughout — nothing in it is optional. SNT-TC-1A says \"should\", and the employer selects, modifies and documents what it will enforce inside its own written practice.",
-          "The consequence is practical. A technician qualified to a refinery written practice who applies to a space prime does not arrive with transferable Level II status. NAS 410 imposes tighter vision requirements, requires examination on aerospace parts rather than generic specimens, mandates NANDTB grading for Level III instead of employer grading, and fixes recertification at five years. The refinery route allows an employer-graded Level III and a three-to-five-year interval the employer sets.",
+          "The mistake that costs Denver candidates a year is treating \"NDT training\" as one product. It is two. SNT-TC-1A governs pressure equipment, pipelines, structural steel and refining. SNT-TC-1A says \"should\", and the employer selects, modifies and documents what it will enforce inside its own written practice.",
+          "The consequence is practical. A technician qualified to a refinery written practice who applies to a space prime does not arrive with transferable Level II status. The refinery route allows an employer-graded Level III and a three-to-five-year interval the employer sets.",
           "Decide which side of that line your career sits on before you pay for a single hour. If the answer is aerospace, your written practice is the prime's. If the answer is energy or fabrication, start from our [US NDT training programme](/training-usa) and the method sequence below."
         ]
       },
@@ -690,14 +669,6 @@
           "Front Range aerospace demand concentrates in surface and volumetric methods suited to castings, forgings, welded assemblies and bonded composite structure. Fluorescent penetrant leads, because it is the workhorse for machined aluminium and titanium parts. Eddy current follows for surface and near-surface cracking on conductive components. Radiography and digital radiography cover castings and closure welds. Ultrasonics covers bondline integrity and thickness on machined structure. Magnetic particle appears where ferromagnetic hardware is in scope, which is a smaller share than it is in refining.",
           "Energy demand on the same corridor inverts that ranking. Suncor Commerce City and the DJ Basin buy ultrasonic thickness on piping circuits and vessels, phased array on welds and corrosion mapping, radiography on girth welds against API 1104 and ASME B31.8 acceptance, and MT and PT as surface confirmation. Visual testing sits underneath all of it and is the cheapest credential to hold.",
           "The overlap between the two lists is ultrasonics and penetrant. That overlap is the reason a Denver candidate who certifies in UT and PT first stays hireable regardless of which employer calls back."
-        ]
-      },
-      {
-        "heading": "The NAS 410 route, clause by clause",
-        "paragraphs": [
-          "NAS 410 is published by the Aerospace Industries Association and is the personnel standard the US aerospace primes require of anyone performing NDT on flight hardware. Its structure resembles SNT-TC-1A — Level I, II and III, training hours, experience hours, examinations — but the enforcement is different in kind. Requirements are mandatory rather than recommended, and the employer cannot dilute them in a written practice the way SNT-TC-1A permits.",
-          "The three provisions that matter most to a Denver candidate are the vision requirements, the aerospace-parts examination requirement and the Level III grading route. NAS 410 vision testing is stricter and repeated more frequently. Practical examinations must use aerospace hardware representative of what you will inspect, so generic weld coupons do not qualify you. Level III candidates must sit examinations graded by a National Aerospace NDT Board, not by an internal Level III.",
-          "EN 4179 is the European counterpart and tracks NAS 410 closely, which matters if you intend to work between US and EU programmes. Our [ASNT certification guide](/asnt-certification) explains where ASNT credentials do and do not carry into an aerospace written practice."
         ]
       },
       {
@@ -728,7 +699,7 @@
         "heading": "Delivery formats that fit a hundred-mile corridor",
         "paragraphs": [
           "The Front Range employer base is strung from Fort Collins through Boulder, Broomfield, Westminster, Denver, Commerce City, Littleton and Louisville. Nobody commutes that corridor daily for a twelve-day radiography course. The formats that survive here are hybrid — theory delivered online and consumed on shift rotation, then a compressed in-person block for laboratory work and practical demonstration.",
-          "For employers, the more efficient structure is on-site delivery. Bringing the instructor and the specimens to your facility removes travel entirely, lets the practical examination use your own hardware rather than generic coupons, and produces qualification records tied to the parts your written practice actually covers. That last point matters more under NAS 410 than under SNT-TC-1A, because aerospace practical examinations must use representative aerospace parts.",
+          "For employers, the more efficient structure is on-site delivery. Bringing the instructor and the specimens to your facility removes travel entirely, lets the practical examination use your own hardware rather than generic coupons, and produces qualification records tied to the parts your written practice actually covers. That last point matters more under the customer-specified aerospace standard than under SNT-TC-1A, because aerospace practical examinations must use representative aerospace parts.",
           "We run this as [corporate NDT training](/corporate-ndt-training) delivered at your site, in your methods, against your written practice. Affordable, accessible, fully customizable — request a quote and we will scope it against your headcount and method list."
         ]
       },
@@ -752,7 +723,7 @@
     "faq": [
       {
         "q": "Can I work at Lockheed Martin or Sierra Space with an ASNT NDT Level II?",
-        "a": "You can be hired with one, but you will be re-qualified under the employer's NAS 410 written practice. NAS 410 requires examination on aerospace hardware and NANDTB-graded Level III oversight, and ASNT certification does not substitute for those beyond the general examination. Treat the ASNT credential as evidence of method competence that shortens onboarding, not as a transferable aerospace qualification."
+        "a": "Treat the ASNT credential as evidence of method competence that shortens onboarding, not as a transferable aerospace qualification."
       },
       {
         "q": "How much do ASNT NDT Level II examinations cost in 2026?",
@@ -774,12 +745,12 @@
   },
   {
     "slug": "/ndt-training-atlanta",
-    "title": "NDT Training Atlanta: Part 145 MRO, NAS 410 and Exam Centers",
-    "description": "Atlanta NDT training follows engines: Delta TechOps MRO work, Plant Vogtle and Bowen, and a Marietta ASNT exam center. Method mix, NAS 410 and delivery formats.",
+    "title": "NDT Training Atlanta: Part 145 MRO, Engines and Exam Centers",
+    "description": "Atlanta NDT training follows engines: Delta TechOps MRO work, Plant Vogtle and Bowen, and a Marietta ASNT exam center.",
     "h1": "Why Atlanta's NDT Method Mix Is Set by Engine Shops Rather Than Weld Shops",
     "answer": "Atlanta's NDT demand is engine-driven. Delta TechOps, the largest airline MRO in North America, runs eddy current, fluorescent penetrant, Barkhausen noise and radiography under FAA repair station DALR026A — so aerospace personnel standards, not weld codes, govern the hiring. Marietta hosts one of only three ASNT Authorized Exam Centers worldwide.",
     "expansion": "Most NDT training pages written for a US metro assume a refining or pipeline market and default to weld radiography and UT thickness. Atlanta breaks that assumption. The anchor employer is Delta TechOps, certified as FAA repair station DALR026A and EASA.145.4380, running certified repair station operations in Atlanta and Minneapolis, and it publishes an NDT method set that reads nothing like a refinery's: eddy current, magnetic Barkhausen noise, ultrasound, magnetic particle, fluorescent penetrant, radiography and infrared thermography. Barkhausen noise in particular does not appear in energy-sector written practices at all — it is a grinding-burn and residual-stress method specific to hardened rotating components. Layered above that is Part 145, which regulates the repair station rather than the technician, and imposes a documentation and authorisation regime that sits on top of whatever personnel standard the shop uses. Certify in the wrong direction here and you will be qualified for work Atlanta does not buy much of.",
-    "source": "Delta TechOps certifications page and IATA capabilities overview (FAA repair station DALR026A, EASA.145.4380); 14 CFR Part 145; ASNT certification requirement and 2026 fee tables (certification.asnt.org); ASNT Authorized Exam Center listing, Applied Technical Services, Marietta GA; ASNT Recommended Practice No. SNT-TC-1A; NAS 410, Aerospace Industries Association; Georgia Power and EIA data on Plant Vogtle Units 3 and 4 commercial operation (31 July 2023 and 29 April 2024); Georgia Power integrated resource plan filings on Plant Bowen and Plant Scherer.",
+    "source": "Delta TechOps certifications page and IATA capabilities overview (FAA repair station DALR026A, EASA.145.4380); 14 CFR Part 145; ASNT certification requirement and 2026 fee tables (certification.asnt.org); ASNT Authorized Exam Center listing, Applied Technical Services, Marietta GA; ASNT Recommended Practice No. SNT-TC-1A; Georgia Power and EIA data on Plant Vogtle Units 3 and 4 commercial operation (31 July 2023 and 29 April 2024); Georgia Power integrated resource plan filings on Plant Bowen and Plant Scherer.",
     "table": {
       "caption": "Atlanta employer segments, the standard each applies, and the methods each buys",
       "columns": [
@@ -790,20 +761,6 @@
         "What the hiring manager checks first"
       ],
       "rows": [
-        [
-          "Airline engine and component MRO — Delta TechOps, Atlanta",
-          "NAS 410 / ATA 105-style written practice",
-          "Eddy current, fluorescent penetrant, magnetic Barkhausen noise, UT, MT, RT, infrared",
-          "14 CFR Part 145 repair station (DALR026A); EASA.145.4380",
-          "Method-specific qualification on aerospace hardware, plus current vision test"
-        ],
-        [
-          "Airframe and line maintenance",
-          "NAS 410",
-          "ET of fastener holes and lap joints, PT, UT of structure, VT",
-          "14 CFR Part 145 and the operator's maintenance programme",
-          "ET Level II and demonstrated hole-probe technique"
-        ],
         [
           "Nuclear generation — Plant Vogtle Units 3 and 4, AP1000s near Waynesboro",
           "ASME Section XI / employer written practice under SNT-TC-1A",
@@ -840,7 +797,7 @@
           "MT and VT held together, plus willingness to travel"
         ]
       ],
-      "note": "Part 145 governs the repair station, not the individual. Holding a NAS 410 Level II does not authorise you to release work — that authorisation comes from the repair station's own procedures manual and its roster of authorised personnel."
+      "note": "Part 145 governs the repair station, not the individual."
     },
     "facets": [
       {
@@ -849,15 +806,11 @@
       },
       {
         "q": "Does FAA Part 145 certify NDT technicians?",
-        "a": "No. Part 145 certifies the repair station as an organisation — Delta TechOps holds FAA certificate DALR026A and EASA.145.4380. The repair station's procedures manual then defines who is authorised to perform and release NDT, drawing on a personnel standard such as NAS 410. Your NDT certificate qualifies you for the method; the repair station's authorisation roster is what lets you sign the work off."
+        "a": "No. Part 145 certifies the repair station as an organisation — Delta TechOps holds FAA certificate DALR026A and EASA.145.4380. The repair station's procedures manual then defines who is authorised to perform and release NDT, drawing on a personnel standard. Your NDT certificate qualifies you for the method; the repair station's authorisation roster is what lets you sign the work off."
       },
       {
         "q": "Where is the nearest ASNT Authorized Exam Center to Atlanta?",
         "a": "Marietta, Georgia — inside the metro. ASNT recognises three Authorized Exam Centers worldwide: Houston, Marietta and one in Saudi Arabia. Marietta is operated by Applied Technical Services, which has run laboratory testing, calibration and NDT from that site since 1967. Written computer-based tests are also available through Pearson VUE, but practical examinations are scheduled directly with the exam centre."
-      },
-      {
-        "q": "How does NAS 410 differ from SNT-TC-1A for an Atlanta MRO job?",
-        "a": "NAS 410 is mandatory in every clause; SNT-TC-1A is a recommended practice the employer tailors. NAS 410 imposes stricter and more frequent vision testing, requires practical examination on aerospace hardware, mandates NANDTB-graded Level III examinations rather than employer grading, and fixes recertification at five years against SNT-TC-1A's employer-set three-to-five-year interval."
       },
       {
         "q": "What NDT work does Plant Vogtle generate?",
@@ -881,15 +834,14 @@
         "heading": "What FAA Part 145 adds on top of an NDT certificate",
         "paragraphs": [
           "Part 145 is a regulation about organisations. It certifies the repair station, sets out what ratings it holds, and requires a repair station manual and quality control manual that define processes, records and the authority to approve articles for return to service. It does not certify you. This is the distinction candidates get wrong most often.",
-          "In practice this means your NDT certification qualifies you for the method, and the repair station's own procedures then determine whether you are on the authorised personnel roster for that method, on that article type, under that rating. Those procedures reference a personnel standard — NAS 410 for aerospace — and add repair-station-specific requirements on training records, continuation training, technique sheets and record retention.",
+          "In practice this means your NDT certification qualifies you for the method, and the repair station's own procedures then determine whether you are on the authorised personnel roster for that method, on that article type, under that rating.",
           "The consequence for a training decision is that Atlanta MRO employers care intensely about the auditability of your qualification record, not just the certificate on the wall. Hours must be evidenced, the practical must have used representative hardware, and the vision test must be current. A [documented, defensible record](/report-validation) is the thing that survives an FAA or customer audit."
         ]
       },
       {
-        "heading": "NAS 410 or SNT-TC-1A: the fork every Atlanta candidate hits",
+        "heading": "SNT-TC-1A: the fork every Atlanta candidate hits",
         "paragraphs": [
-          "NAS 410 is published by the Aerospace Industries Association and governs who may perform, interpret and accept NDT on aircraft, spacecraft, missiles and aerospace engine components. Every requirement in it is expressed as \"shall\". SNT-TC-1A is a recommended practice using \"should\", which the employer selects from and adapts inside its own written practice. That single grammatical difference produces the entire divergence in how the two systems behave.",
-          "The four differences that decide an Atlanta career: NAS 410 vision requirements are tighter and tested more frequently; NAS 410 practical examinations must use aerospace parts, so generic weld coupons do not qualify you; NAS 410 Level III examinations must be graded by a National Aerospace NDT Board rather than by an internal Level III; and NAS 410 recertification runs on a fixed five-year cycle against SNT-TC-1A's employer-set three-to-five years.",
+          "Every requirement in it is expressed as \"shall\". SNT-TC-1A is a recommended practice using \"should\", which the employer selects from and adapts inside its own written practice. That single grammatical difference produces the entire divergence in how the two systems behave.",
           "If you are heading for Delta TechOps or an aerospace supplier, the aerospace route is the only one that counts. If you are heading for Vogtle, Bowen, Scherer or a fabrication shop, work from [what SNT-TC-1A actually requires](/compliance/asnt-snt-tc-1a) and build the hours ledger it demands."
         ]
       },
@@ -921,7 +873,7 @@
         "heading": "Delivery formats that work around a shift roster",
         "paragraphs": [
           "MRO and generation both run rosters that make a twelve-consecutive-day radiography course impossible for most incumbent staff. The formats that clear in Atlanta are hybrid: theory delivered online and consumed across a rotation, then a compressed in-person block for laboratory work and practical demonstration, scheduled against the shift pattern rather than against a training calendar.",
-          "For employers, on-site delivery is materially better than sending people out. The instructor and specimens come to your facility, the practical examination uses your own hardware — which NAS 410 requires anyway — and the resulting qualification records tie directly to the articles in your repair station rating or your written practice scope. It also removes the travel and downtime that makes external courses expensive in ways tuition alone does not capture.",
+          "For employers, on-site delivery is materially better than sending people out. The instructor and specimens come to your facility, the practical examination uses your own hardware and the resulting qualification records tie directly to the articles in your repair station rating or your written practice scope. It also removes the travel and downtime that makes external courses expensive in ways tuition alone does not capture.",
           "We deliver this as [corporate NDT training](/corporate-ndt-training) across UT, PAUT, RT, MT, PT, VT and ET, structured against your standard. Affordable, accessible, fully customizable — [request a quote](/contact) and we will scope it to your method list and headcount."
         ]
       },
@@ -936,8 +888,8 @@
       {
         "heading": "The five-year clock and what breaks it",
         "paragraphs": [
-          "ASNT NDT Level II certification renews on a five-year cycle. NAS 410 fixes recertification at five years as well. SNT-TC-1A leaves the interval to the employer, commonly three to five years, stated in the written practice. Whichever governs you, the clock is the least of the risks — what actually breaks certifications is a lapse in the supporting evidence rather than a missed date.",
-          "Three failure modes recur. Vision testing lapses, which invalidates every examination performed after the expiry under a NAS 410 written practice. Method scope drifts, where a shop adopts phased array or digital radiography without amending the written practice or requalifying personnel. And the responsible Level III leaves, which leaves every certificate issued under their signature without a technically accountable owner.",
+          "ASNT NDT Level II certification renews on a five-year cycle. SNT-TC-1A leaves the interval to the employer, commonly three to five years, stated in the written practice. Whichever governs you, the clock is the least of the risks — what actually breaks certifications is a lapse in the supporting evidence rather than a missed date.",
+          "Three failure modes recur. Vision testing lapses, which invalidates every examination performed after the expiry under an aerospace written practice. Method scope drifts, where a shop adopts phased array or digital radiography without amending the written practice or requalifying personnel. And the responsible Level III leaves, which leaves every certificate issued under their signature without a technically accountable owner.",
           "All three are audit findings, and all three are retroactive. Employers who cannot keep a Level III on staff between recruitments use [ASNT Level III consulting](/consulting/ndt-consulting-level-iii) to hold the accountability without a permanent headcount."
         ]
       }
@@ -949,7 +901,7 @@
       },
       {
         "q": "Is an ASNT NDT Level II enough for an Atlanta aerospace job?",
-        "a": "It gets you interviewed, not authorised. Aerospace employers requalify incoming technicians against their own NAS 410 written practice, which requires practical examination on aerospace hardware and NANDTB-graded Level III oversight. ASNT certification is not accepted as satisfying NAS 410 beyond the general examination. It remains valuable evidence of method knowledge and shortens the internal qualification path considerably."
+        "a": "It gets you interviewed, not authorised. Aerospace employers requalify incoming technicians against their own aerospace written practice, which requires practical examination on aerospace hardware and NANDTB-graded Level III oversight. It remains valuable evidence of method knowledge and shortens the internal qualification path considerably."
       },
       {
         "q": "What does ASNT NDT Level II certification cost in 2026?",
@@ -1162,7 +1114,7 @@
     "description": "ASNT Level III prep for San Diego: Basic and method exam structure, experience rules, the NAVSEA-aligned naval exam, and the local shipyard employer base.",
     "h1": "Level III Preparation for San Diego's Ship Repair, Naval Aviation and Defense Manufacturing Base",
     "answer": "ASNT NDT Level III requires the Basic exam — 135 questions in four hours — plus one method exam per method: 135 questions in four hours for UT, RT, ET, AE and LT, and 90 questions in two hours for MT, PT, VT, IR and MFL. San Diego demand is driven by ship repair, naval aviation and defense manufacturing, not refining.",
-    "expansion": "San Diego's Level III demand does not come from refining, because there is no refinery in San Diego County. It comes from a defense industrial base running on written practices tied to NAVSEA and aerospace specifications rather than API. General Dynamics NASSCO — the only full-service shipyard on the US West Coast — plus BAE Systems San Diego Ship Repair and Continental Maritime of San Diego, both Master Ship Repair contractors for the Navy, each need Level III coverage for the methods in their NDT programs. Fleet Readiness Center Southwest at NAS North Island runs depot-level aircraft maintenance, which pulls nondestructive inspection into NAS-410 territory instead. That mix is why a San Diego candidate should choose method exams differently than a Gulf Coast candidate would, and why the [written practice](/compliance/asnt-snt-tc-1a) governing the job you want is worth reading before you book anything.",
+    "expansion": "San Diego's Level III demand does not come from refining, because there is no refinery in San Diego County. It comes from a defense industrial base running on written practices tied to NAVSEA and aerospace specifications rather than API. General Dynamics NASSCO — the only full-service shipyard on the US West Coast — plus BAE Systems San Diego Ship Repair and Continental Maritime of San Diego, both Master Ship Repair contractors for the Navy, each need Level III coverage for the methods in their NDT programs. Fleet Readiness Center Southwest at NAS North Island runs depot-level aircraft maintenance, which pulls nondestructive inspection into aerospace qualification territory instead. That mix is why a San Diego candidate should choose method exams differently than a Gulf Coast candidate would, and why the [written practice](/compliance/asnt-snt-tc-1a) governing the job you want is worth reading before you book anything.",
     "source": "ASNT certification program pages for ASNT NDT Level III (eligibility routes, examination structure, recertification points and period) and the Naval Shipbuilders NDT Level III Specific exam; NAVSEA Technical Publication T9074-AS-GIB-010/271 scope statement; published company profiles for General Dynamics NASSCO, BAE Systems San Diego Ship Repair, Continental Maritime of San Diego and Fleet Readiness Center Southwest; Glassdoor (2026) and Salary.com (2025) US wage aggregates for ASNT NDT Level III.",
     "table": {
       "caption": "The ASNT NDT Level III exam set, and the naval exam that applies locally",
@@ -1261,7 +1213,7 @@
         "paragraphs": [
           "General Dynamics NASSCO has designed and built ships in San Diego's industrial corridor since 1960 and is the only full-service shipyard on the US West Coast, producing auxiliary and support ships for the Navy alongside oil tankers and dry cargo carriers for commercial markets, with a substantial repair business supporting the fleet. New construction and repair both generate continuous weld examination, which means ultrasonic, magnetic particle, penetrant, visual and radiographic programs running simultaneously under a single written practice.",
           "BAE Systems San Diego Ship Repair, operating since the mid-1970s, repairs, overhauls and modernises Navy surface warfare ships and commercial vessels at its own yard, at Naval Station San Diego, and at neighbouring yards. Continental Maritime of San Diego is a Certified Master Ship Repair contractor for the Navy and Military Sealift Command, covering shipfitting, welding, pipefitting, machinery repair, marine electrical, sheet metal fabrication and boiler repair. Every one of those trades produces welds that somebody has to examine and somebody has to approve the procedure for.",
-          "Fleet Readiness Center Southwest, at the NAS North Island complex, is the largest of the Navy's six main Fleet Readiness Centers, supporting Navy and Marine Corps tactical, logistical and rotary-wing aircraft and their components. Aircraft depot work is a different nondestructive testing world from shipyard work: eddy current on fastener holes and skins, fluorescent penetrant run as a production line, and a personnel qualification regime that looks like NAS-410 rather than SNT-TC-1A."
+          "Fleet Readiness Center Southwest, at the NAS North Island complex, is the largest of the Navy's six main Fleet Readiness Centers, supporting Navy and Marine Corps tactical, logistical and rotary-wing aircraft and their components."
         ]
       },
       {
@@ -5106,7 +5058,7 @@
     "h1": "ASTM E1444 magnetic particle practice: the requirements that bite",
     "answer": "ASTM E1444/E1444M is a practice for magnetic particle testing of ferromagnetic materials. It prescribes how the examination is performed — magnetization, particle application, lighting, system checks and demagnetization — but sets no accept or reject criteria. Those come from the referencing drawing, code or purchase order. E1444 mandates the continuous method, written procedures approved by a Level III, and documented daily performance verification.",
     "expansion": "The practice is written for critical hardware and is the document most aerospace primes invoke by name; ASTM published E3024 in 2016 for general industry, and confusing the two is a common procurement error. E1444 assumes a qualified operator, a written procedure, and an equipment fleet under a documented verification schedule: ammeter accuracy checked semi-annually, yoke lifting force verified, UV-A irradiance measured at the start of every shift, and bath concentration read in a 100 mL pear-shaped centrifuge tube. Field direction and adequacy are demonstrated with artificial flaw shims applied to the part, not with a pie gauge held near it — that substitution is the single most frequent audit finding written against E1444 programmes. Two magnetizations at roughly ninety degrees are required because magnetic particle testing only reveals discontinuities that cut the flux path, and demagnetization plus post-cleaning close the sequence before the part moves downstream.",
-    "source": "ASTM E1444/E1444M Standard Practice for Magnetic Particle Testing; ASTM E3024/E3024M; ASTM E709 Standard Guide for Magnetic Particle Testing; ASTM E1316 Standard Terminology for Nondestructive Examinations; ASTM E3022 (UV-A lamp performance); ASME BPVC Section V Article 7 and Section VIII Division 1 Appendix 6; ASNT SNT-TC-1A; ANSI/ASNT CP-189; NAS 410.",
+    "source": "ASTM E1444/E1444M Standard Practice for Magnetic Particle Testing; ASTM E3024/E3024M; ASTM E709 Standard Guide for Magnetic Particle Testing; ASTM E1316 Standard Terminology for Nondestructive Examinations; ASTM E3022 (UV-A lamp performance); ASME BPVC Section V Article 7 and Section VIII Division 1 Appendix 6; ASNT SNT-TC-1A; ANSI/ASNT CP-189.",
     "table": {
       "caption": "ASTM E1444 process controls, limits and verification intervals",
       "columns": [
@@ -5207,7 +5159,7 @@
         "heading": "Written procedure, personnel and the Level III signature",
         "paragraphs": [
           "E1444 requires a written procedure, and the procedure must be specific enough that two technicians on different shifts produce the same examination: part or part family, surface condition, magnetizing technique and current values, particle type and vehicle, method, lighting, demagnetization limit, and the acceptance document being applied. Generic procedures that say 'magnetize in accordance with the applicable specification' fail on the first serious audit, because they hand the essential variable back to the operator and leave nothing to verify against.",
-          "Personnel are qualified to the employer's written practice, which follows SNT-TC-1A, ANSI/ASNT CP-189, NAS 410 in aerospace, or ISO 9712. The written practice — not the wallet card — is the auditable object, and it must state training hours, experience hours, examination content and the vision requirement, including near vision to Jaeger J1 at 12 in and a colour or contrast differentiation test taken annually. We build and defend those documents as part of [ASNT Level III consulting](/consulting), and deliver the underlying method instruction through [NDT training to ASNT SNT-TC-1A](/training).",
+          "Personnel are qualified to the employer's written practice, which follows SNT-TC-1A, ANSI/ASNT CP-189 in aerospace, or ISO 9712. The written practice — not the wallet card — is the auditable object, and it must state training hours, experience hours, examination content and the vision requirement, including near vision to Jaeger J1 at 12 in and a colour or contrast differentiation test taken annually. We build and defend those documents as part of [ASNT Level III consulting](/consulting), and deliver the underlying method instruction through [NDT training to ASNT SNT-TC-1A](/training).",
           "The procedure must be approved by a Level III qualified in magnetic particle testing. Two findings recur with tedious regularity: a Level III certified in ultrasonics signing an MT procedure because he is the only Level III on site, and a procedure revision issued without re-approval after an essential variable changed — a new particle brand, a different carrier, a change from coil to cable wrap. Both are avoidable in an afternoon and both cost audit days when they are found."
         ]
       },
@@ -5290,7 +5242,7 @@
     "h1": "ASTM E1417 Liquid Penetrant Testing: The Requirements That Actually Get Audited",
     "answer": "ASTM E1417 governs how a liquid penetrant examination is performed, not whether the part passes. It fixes processing temperature at 4-52 C, a ten-minute minimum penetrant dwell, rinse water at or below 40 psi, and 1000 uW/cm2 of UV-A at 380 mm with ambient white light held under 2 foot-candles. Acceptance criteria come from the drawing or the referencing code, never from E1417 itself.",
     "expansion": "The practice is written as a process specification. It designates a penetrant system by type, method, sensitivity level and developer form, then constrains each processing step with a number: how warm the part may be, how long penetrant must sit, how the excess may be removed, how long developer must dwell, how bright the lamp must be, and how often each of those is verified. Nothing in it tells an inspector how large an indication may be. That single division causes most of the confusion around E1417 in procurement documents, because a purchase order that cites only E1417 has specified a process with no pass or fail rule attached. The second thing buyers miss is that E1417 does not qualify penetrant materials. Materials must appear on the qualified products list maintained under AMS 2644, and the certificate of conformance for each batch is part of the inspection record.",
-    "source": "ASTM E1417/E1417M Standard Practice for Liquid Penetrant Testing; ASTM E165 Standard Practice for Liquid Penetrant Examination for General Industry; SAE AMS 2644 Inspection Material, Penetrant, and its qualified products list; ASTM E1316 Standard Terminology for Nondestructive Examinations; ASTM E3022 Standard Practice for Measurement of Emission Characteristics and Requirements for LED UV-A Lamps Used in Fluorescent Penetrant and Magnetic Particle Testing; ASME BPVC Section V Article 6 and Section VIII Division 1 Mandatory Appendix 8; NAS 410 and EN 4179 for aerospace personnel qualification; ASNT SNT-TC-1A and ANSI/ASNT CP-189 for industrial personnel qualification.",
+    "source": "ASTM E1417/E1417M Standard Practice for Liquid Penetrant Testing; ASTM E165 Standard Practice for Liquid Penetrant Examination for General Industry; SAE AMS 2644 Inspection Material, Penetrant, and its qualified products list; ASTM E1316 Standard Terminology for Nondestructive Examinations; ASTM E3022 Standard Practice for Measurement of Emission Characteristics and Requirements for LED UV-A Lamps Used in Fluorescent Penetrant and Magnetic Particle Testing; ASME BPVC Section V Article 6 and Section VIII Division 1 Mandatory Appendix 8; ASNT SNT-TC-1A and ANSI/ASNT CP-189 for industrial personnel qualification.",
     "table": {
       "caption": "Operative processing limits and process-control checks under ASTM E1417",
       "columns": [
@@ -5394,7 +5346,7 @@
         "heading": "What ASTM E1417 controls, and what it deliberately leaves out",
         "paragraphs": [
           "ASTM E1417 establishes the minimum requirements for performing liquid penetrant testing to detect discontinuities open to the surface: cracks, seams, laps, cold shuts, laminations, lack of fusion, porosity and through-leaks. It is a process document. Every requirement in it concerns how the examination is carried out, not what the result means. Read it that way and the structure becomes obvious; read it expecting a pass or fail rule and it will appear incomplete, because it is intentionally silent on that point.",
-          "Four things sit outside its scope and are routinely assumed to sit inside. First, acceptance criteria, which belong to the drawing, the purchase order or the referencing construction code. Second, qualification of the penetrant materials themselves, which is governed by AMS 2644 and its qualified products list. Third, personnel certification, which is handled by NAS 410 or EN 4179 in aerospace and by an SNT-TC-1A written practice elsewhere. Fourth, subsurface discontinuities of any kind, since a penetrant examination can only find what breaks the surface.",
+          "Four things sit outside its scope and are routinely assumed to sit inside. First, acceptance criteria, which belong to the drawing, the purchase order or the referencing construction code. Second, qualification of the penetrant materials themselves, which is governed by AMS 2644 and its qualified products list. Fourth, subsurface discontinuities of any kind, since a penetrant examination can only find what breaks the surface.",
           "That division matters commercially. A purchase order that says examine per ASTM E1417 has specified a process and nothing more. If the buyer intends a specific rejection threshold, it must be written separately. Where a client is drafting that language, our [ASNT Level III consulting](/consulting) practice writes the procedure and the acceptance clause together so that the two documents cannot disagree once parts are on the floor."
         ]
       },
@@ -5486,7 +5438,7 @@
       },
       {
         "q": "Who is qualified to interpret penetrant indications under E1417?",
-        "a": "Personnel qualified and certified under the applicable scheme: NAS 410 or EN 4179 for aerospace, an employer written practice built on ASNT SNT-TC-1A or ANSI/ASNT CP-189 elsewhere, or ISO 9712 certification where that scheme is contracted. Vision requirements, including near-vision acuity and colour or contrast differentiation where visible dye is used, are checked annually and the record must be current on the date of examination."
+        "a": "Vision requirements, including near-vision acuity and colour or contrast differentiation where visible dye is used, are checked annually and the record must be current on the date of examination."
       },
       {
         "q": "Does ASTM E1417 apply outside aerospace?",
@@ -5597,7 +5549,7 @@
         "heading": "What E94 Covers, and the Four Things It Deliberately Does Not",
         "paragraphs": [
           "ASTM E94 is a guide to radiographic examination using industrial radiographic film, and the words industrial radiographic film in the title carry the entire scope argument. Within that boundary it is thorough: selection of X-ray energy or gamma source, film system class under E1815, lead screens and their thickness, exposure geometry and source-to-film distance, image quality indicators, backscatter protection, processing whether manual or automatic, viewing conditions, and storage of the finished radiographs. It is the document that explains why the numbers are what they are.",
-          "Four exclusions decide most disputes. E94 sets no acceptance criteria, so nothing in it can tell you whether a 0.09 in. rounded indication is rejectable. It does not qualify personnel; that job belongs to SNT-TC-1A, ANSI/ASNT CP-189, NAS 410 or ISO 9712 depending on the sector. It does not address radiation safety, which is regulatory rather than technical. And it does not cover computed radiography or digital detector arrays, which live in E2033, E2698, E2445 and E2446.",
+          "Four exclusions decide most disputes. E94 sets no acceptance criteria, so nothing in it can tell you whether a 0.09 in. rounded indication is rejectable. It does not qualify personnel; that job belongs to SNT-TC-1A, ANSI/ASNT CP-189 or ISO 9712 depending on the sector. It does not address radiation safety, which is regulatory rather than technical. And it does not cover computed radiography or digital detector arrays, which live in E2033, E2698, E2445 and E2446.",
           "When a client specification says only radiography per ASTM E94, somebody still has to convert a guide into an enforceable technique sheet before the first exposure. Deciding source, energy, film class, IQI type and quality level, density window and coverage overlap, then defending those choices to a third-party reviewer, is exactly the work covered by [ASNT Level III consulting](/consulting)."
         ]
       },
@@ -5685,7 +5637,7 @@
       },
       {
         "q": "Who is allowed to interpret radiographs made under E94?",
-        "a": "E94 does not decide this. Interpretation authority comes from the employer's written practice under SNT-TC-1A or ANSI/ASNT CP-189, from NAS 410 in aerospace, or from ISO 9712 certification, and the referencing code states which of those is acceptable. In practice a Level II interprets and a Level III owns the procedure, the technique qualification and final technical authority for the method."
+        "a": "E94 does not decide this. In practice a Level II interprets and a Level III owns the procedure, the technique qualification and final technical authority for the method."
       }
     ]
   },
@@ -5908,7 +5860,7 @@
         "paragraphs": [
           "NDT hiring in the US is not evenly distributed. It clusters tightly around four industrial corridors, and each one leans on a different mix of methods. The Gulf Coast, running from Houston through Beaumont/Port Arthur, Baton Rouge, and Lake Charles, carries the country's highest concentration of refining, petrochemical, and LNG capacity, and demand there spikes hard around planned turnaround (TAR) season. Corrosion mapping and weld inspection on pressure vessels and piping dominate — conventional and phased array UT, RT, MT, and PT all see steady work. Ship channel and coastal refining complexes in particular run dense concentrations of piping and vessel inspection scopes, and many companies staff up seasonally rather than carrying a full turnaround crew year-round.",
           "The Rockies and Permian Basin corridor is upstream- and midstream-heavy: pipeline construction and integrity inspection, tubular goods, and wellhead equipment drive demand for UT thickness surveys, MT on tubulars and connections, RT and phased array UT on pipeline girth welds, and corrosion-under-insulation surveys as fields mature. Crews here tend to be smaller and more mobile than Gulf Coast turnaround teams, and technicians often need to be comfortable working remote pad and right-of-way locations rather than a fixed plant site.",
-          "The Great Lakes and Midwest corridor runs on fabrication rather than process plants — structural steel, rail car manufacturing, and heavy equipment fabrication shops need MT and PT on castings and welds plus UT weld inspection to AWS D1.1, largely feeding ASME Section VIII pressure vessel and structural fabrication work. The Pacific corridor is different again: aerospace and marine dominate, eddy current testing sees far more use than in the other three corridors, and ISO 9712 or NAS410-aligned certification shows up more often because of aerospace supply chain requirements. Our [phased array training](/phased-array-training) and [ultrasonic testing](/ultrasonic-testing) programs are built to flex across these method mixes rather than assuming one corridor's demand profile."
+          "The Great Lakes and Midwest corridor runs on fabrication rather than process plants — structural steel, rail car manufacturing, and heavy equipment fabrication shops need MT and PT on castings and welds plus UT weld inspection to AWS D1.1, largely feeding ASME Section VIII pressure vessel and structural fabrication work. Our [phased array training](/phased-array-training) and [ultrasonic testing](/ultrasonic-testing) programs are built to flex across these method mixes rather than assuming one corridor's demand profile."
         ]
       },
       {
@@ -6491,7 +6443,7 @@
         "paragraphs": [
           "The difference is not only travel and location. A corporate cohort is built to leave the employer holding a defensible written practice, not just a room of trained people — every candidate tests against the same procedure set, on the same specimens, under the same proctor, so the grading is internally consistent across the crew. That consistency is exactly what a client audit is checking for when several technicians on one job are carrying certifications issued by different providers in different years under different written practices. Cohorts are usually scheduled around a plant's outage or turnaround calendar rather than a fixed course date, and the practical portion draws on the facility's own welds, castings or machined parts, so the qualification maps onto the scope of work the crew will actually be assigned rather than a generic reference set.",
           "Individual enrolment runs the opposite way out of necessity. A single candidate typically qualifies against a portable written practice and a standard specimen set, which suits someone moving between employers or working through a contract-inspection or staffing house rather than certifying for one plant's use. That portability is a starting point, not a guarantee — an incoming Level II is still checked against the receiving employer's own written practice and specific exam before being put on that facility's work. A Dallas–Fort Worth operator standing up a certification programme without a Level III on staff typically pairs the corporate route with an [outsourced designated Level III of record](/consulting/ndt-consulting-level-iii) so the written practice itself, not just the trained crew, survives the engagement.",
-          "The demand behind those corporate bookings is concrete rather than abstract. Lockheed Martin runs F-35 Lightning II final assembly at its Fort Worth plant, work qualified under NAS 410 and EN 4179 rather than SNT-TC-1A; Bell, headquartered in Fort Worth, builds helicopters under the same aerospace framework; and Energy Transfer, headquartered in Dallas, operates pipeline and midstream assets qualified under SNT-TC-1A with acceptance to API 1104 and the ASME B31 series. Add the structural steel fabrication shops serving both industries and North Texas construction generally, and a single Dallas–Fort Worth region ends up running two largely separate certification economies side by side — which is exactly why a corporate cohort's written practice has to be built for the specific code stack the crew will be tested against, not a generic multi-industry template."
+          "The demand behind those corporate bookings is concrete rather than abstract. Lockheed Martin runs F-35 Lightning II final assembly at its Fort Worth plant, work qualified under the customer-specified aerospace standard rather than SNT-TC-1A; Bell, headquartered in Fort Worth, builds helicopters under the same aerospace framework; and Energy Transfer, headquartered in Dallas, operates pipeline and midstream assets qualified under SNT-TC-1A with acceptance to API 1104 and the ASME B31 series. Add the structural steel fabrication shops serving both industries and North Texas construction generally, and a single Dallas–Fort Worth region ends up running two largely separate certification economies side by side — which is exactly why a corporate cohort's written practice has to be built for the specific code stack the crew will be tested against, not a generic multi-industry template."
         ]
       },
       {
@@ -6787,7 +6739,7 @@
           "Radiographic testing carries a regulatory requirement in the UAE that sits entirely outside NDT personnel certification: the Federal Authority for Nuclear Regulation (FANR) licenses the possession, transport and use of the sealed radioactive sources — and separately, the X-ray equipment — that industrial radiography depends on. A company or facility running gamma or X-ray crews in Dubai needs that FANR authorization in addition to having ASNT- or ISO 9712-certified RT personnel; the two approvals are checked independently, and a fully certified RT technician still cannot legally work a source the employer isn't licensed to hold.",
           "Marine and offshore work at Dubai's drydocks layers on a third framework: hull and structural thickness surveys performed for classification purposes follow the extent-of-measurement and reporting conventions set out in IACS Recommendation No. 20, the industry convention classification societies use for UT thickness measurement during class surveys. A technician trained generically in UT thickness gauging still needs orientation to how a class survey report is structured and how much of a structure a given survey type requires measuring before a class surveyor will accept that work — a gap that shows up quickly on a first dry-docking assignment if it isn't addressed in training.",
           "Statutory equipment — pressure vessels, cranes, lifting gear — is a fourth, separate gate: Dubai Municipality or a DM-accredited third-party inspection body has to accept the inspecting organisation, independent of both the certification scheme and any operator's own vendor list. A technician can hold a fully current ISO 9712 certificate and still need their employer or inspection body to carry DM accreditation before that person's reports are accepted for statutory purposes. Atlantis maps all of this — FANR licensing, classification-society convention, DM statutory accreditation, and the underlying [certification standards](/standards) — against whatever scheme a corporate cohort is training toward, rather than treating a training certificate as the only box left to check.",
-          "Aviation MRO adds one more distinction worth knowing before assuming an industrial ASNT Level III can sign off aircraft NDT: NAS 410 and EN 4179 both use a Responsible Level 3 role that is legally accountable for an organisation's NDT quality system under GCAA oversight, and that role typically requires aviation-specific experience rather than general industrial experience alone, even for someone who already holds an ASNT Level III in the same method. A company standing up an in-house aviation NDT function in Dubai has to qualify or engage a Responsible Level 3 separately from whatever Level III oversight it already runs for industrial work."
+          "A company standing up an in-house aviation NDT function in Dubai has to qualify or engage a Responsible Level 3 separately from whatever Level III oversight it already runs for industrial work."
         ]
       }
     ],
@@ -7430,7 +7382,7 @@
   {
     "slug": "/consulting/ndt-consulting-seattle",
     "answer": "Beyond the aerospace and technology flow-down, the refining and marine-terminal corridor along the Strait of Juan de Fuca adds a second, code-driven layer of demand: hydroprocessing units running high-temperature hydrogen and sulfur-bearing streams, storage tanks under seismic exposure, and hull structures under class-society survey — each disposed through RBI, FFS, or a construction code rather than employer certification alone.",
-    "expansion": "That split runs through everything Atlantis handles in Seattle. On the aerospace side, the written practice sits under NAS 410 or SNT-TC-1A and the Level III's signature covers procedure approval, personnel certification, and technique validation for the supplier's own facility — the client contract, not a construction code, sets the bar. On the refining and marine side, the governing document is a code: ASME Section V or VIII for pressure equipment, API 653 for storage tanks, class-society rules for hull structure. The risk-based inspection and fitness-for-service work covered elsewhere on this page applies almost exclusively to that second category. A firm operating across both — a Tier 1 aerospace supplier that also holds a storage-terminal contract, for instance — needs a Level III who can move between an employer-certification audit and a code-compliance review without treating either as an afterthought.",
+    "expansion": "That split runs through everything Atlantis handles in Seattle. On the aerospace side, the written practice sits under the customer-specified aerospace standard or SNT-TC-1A and the Level III's signature covers procedure approval, personnel certification, and technique validation for the supplier's own facility — the client contract, not a construction code, sets the bar. On the refining and marine side, the governing document is a code: ASME Section V or VIII for pressure equipment, API 653 for storage tanks, class-society rules for hull structure. The risk-based inspection and fitness-for-service work covered elsewhere on this page applies almost exclusively to that second category. A firm operating across both — a Tier 1 aerospace supplier that also holds a storage-terminal contract, for instance — needs a Level III who can move between an employer-certification audit and a code-compliance review without treating either as an afterthought.",
     "source": "API 579-1/ASME FFS-1",
     "sections": [
       {
@@ -7447,7 +7399,7 @@
         "paragraphs": [
           "Seattle's aerospace manufacturing base builds airframes that are a majority-composite by structural weight on the newer widebody programmes, and that shifts the inspection toolkit away from what a metals-only NDT programme is built around. Delamination, disbond at adhesive bond lines, and low-velocity impact damage that leaves no visible surface mark are the failure modes that matter on carbon-fiber structure, and none of them respond to magnetic particle or dye penetrant inspection the way a forged steel component does.",
           "The methods that do work are pulse-echo and through-transmission ultrasonics (increasingly phased-array for scan-rate and imaging reasons), bond testers using mechanical impedance or resonance for adhesive disbond, and flash thermography for near-surface impact damage — each qualified against reference standards containing known, characterized flaws rather than judged by eye. A Level III supporting a supplier in this market is qualifying and approving techniques across that whole set, not just the traditional five methods.",
-          "Certification basis matters here too. Aerospace suppliers typically qualify personnel to NAS 410 or EN 4179 rather than SNT-TC-1A, and the written practice has to reflect whichever a given prime contractor's flow-down specifications require — Boeing's own internal NDT specification series is a common example. The Level III's sign-off extends into engineering disposition: providing NDT input to a Material Review Board decision on an out-of-tolerance indication is routine work in this sector in a way it rarely is in refining.",
+          "Certification basis matters here too. Aerospace suppliers typically qualify personnel to the customer-specified aerospace standard rather than SNT-TC-1A, and the written practice has to reflect whichever a given prime contractor's flow-down specifications require — Boeing's own internal NDT specification series is a common example. The Level III's sign-off extends into engineering disposition: providing NDT input to a Material Review Board decision on an out-of-tolerance indication is routine work in this sector in a way it rarely is in refining.",
           "Metallic structure hasn't disappeared from these airframes — landing gear, engine pylons, and fastener holes throughout the wing box are still eddy current and radiographic inspection territory, often on the same production line and the same written practice as the composite work. A Level III programme here has to keep both skill sets current in the same personnel roster rather than treating composite NDT as a separate specialty bolted onto a metals programme."
         ]
       },
@@ -7492,10 +7444,6 @@
       }
     ],
     "faq": [
-      {
-        "q": "Does Atlantis align written practice to Boeing's internal NDT specification series as well as NAS 410?",
-        "a": "Yes. Where a prime contractor's flow-down specifications add requirements on top of the personnel-certification standard, the written practice and procedure set are built to satisfy both — the certification scheme and the customer-specific specification are treated as two separate documents that both have to pass audit."
-      },
       {
         "q": "How does corrosion under insulation change what an RBI programme actually schedules in this climate?",
         "a": "It raises the inspection frequency and priority assigned to insulated carbon-steel circuits operating in the CUI temperature window, and it usually adds a periodic insulation-removal sampling requirement — a step a drier-climate refinery's RBI programme might schedule far less often."
@@ -7580,7 +7528,7 @@
   {
     "slug": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
     "answer": "SNT-TC-1A is ASNT's recommended practice: \"should\" language, the employer's Level III sets hours and examinations, and the Level III may be employer-certified. CP-189 is an ANSI standard: \"shall\" language, fixed minimum training and experience hours, re-examination at recertification, and a Level III who must hold an ASNT NDT Level III certificate. Both require an employer written practice.",
-    "expansion": "The choice rarely rests with the employer. Referencing codes and customer specifications name the document: the API inspection codes, API 1104 and AWS D1.1 send the auditor to an employer written practice modelled on SNT-TC-1A; ASME Section V accepts either; nuclear in-service inspection under ASME Section XI names CP-189; aerospace names NAS 410 instead of either; Canadian code work requires CAN/CGSB-48.9712 certification. What CP-189 changes in practice is the Level III's own credential, the removal of the training-hour reductions SNT-TC-1A permits, mandatory re-examination at recertification and after an interruption of service, and record content that an auditor can trace from certificate back to question paper. Employers serving both markets write one practice on CP-189's clauses, state that it also meets SNT-TC-1A, and document which SNT-TC-1A flexibilities they have chosen not to use. The practical examination and the specific examinations remain the employer's to write under either document.",
+    "expansion": "The choice rarely rests with the employer. Referencing codes and customer specifications name the document: the API inspection codes, API 1104 and AWS D1.1 send the auditor to an employer written practice modelled on SNT-TC-1A; ASME Section V accepts either; nuclear in-service inspection under ASME Section XI names CP-189; Canadian code work requires CAN/CGSB-48.9712 certification. What CP-189 changes in practice is the Level III's own credential, the removal of the training-hour reductions SNT-TC-1A permits, mandatory re-examination at recertification and after an interruption of service, and record content that an auditor can trace from certificate back to question paper. Employers serving both markets write one practice on CP-189's clauses, state that it also meets SNT-TC-1A, and document which SNT-TC-1A flexibilities they have chosen not to use. The practical examination and the specific examinations remain the employer's to write under either document.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A (2024), Sections 6, 8 and 9 and Table 6.3.1A; ANSI/ASNT CP-189 (2020), Sections 5 through 9; read against ASME BPVC Section V, Article 1, T-120(e) and ASME Section XI, IWA-2300.",
     "sections": [
       {
@@ -7635,7 +7583,7 @@
         "paragraphs": [
           "Refining and petrochemical: the API inspection codes and owner-user inspection programs send you to the employer's written practice modelled on SNT-TC-1A, and a refinery's own examination specification will typically add overrides — no training-hour reductions, a named minimum experience, Level II for interpretation, sometimes a requirement that the Level III hold the ASNT certificate. Read those overrides as the customer moving toward CP-189 on the points that matter to them. Pipeline construction under API 1104 likewise requires interpretation by Level II or III personnel certified under SNT-TC-1A or an equivalent it lists; the 49 CFR pipeline safety rules require qualified personnel and documented procedures rather than naming a document, so the operator's specification governs.",
           "Nuclear: in-service inspection under ASME Section XI names CP-189 directly, with Section XI's own additions layered on top, including performance demonstration for ultrasonic examination under its Appendix VIII. Nuclear construction and NQA-1 supplier programs reach the same place through the utility's or prime's quality specification, because a quality program built on \"shall\" cannot hang from a recommended practice. If a purchase order carries a nuclear quality clause, expect CP-189 or SNT-TC-1A with nuclear overrides, and expect the auditor to check the Level III's ASNT certificate first.",
-          "Aerospace and Canada are the two markets where neither ASNT document is the answer. Aircraft and aerospace primes specify NAS 410 in North America or EN 4179 in Europe, an employer-based scheme with its own Level 3 requirements audited under Nadcap; ASNT Level III certificates are used within it as one route to Level 3, but an SNT-TC-1A or CP-189 practice does not satisfy it, so a company serving both aerospace and energy customers runs two practices. In Canada, code work requires CAN/CGSB-48.9712 certification issued by NRCan's NDT Certification Body or CWB Group, and a technician holding only an employer certificate needs the CGSB credential before working to CSA codes — see [NDT training for the Canadian market](/ndt-training-canada) for how the two schemes sit together."
+          "Aerospace and Canada are the two markets where neither ASNT document is the answer. In Canada, code work requires CAN/CGSB-48.9712 certification issued by NRCan's NDT Certification Body or CWB Group, and a technician holding only an employer certificate needs the CGSB credential before working to CSA codes — see [NDT training for the Canadian market](/ndt-training-canada) for how the two schemes sit together."
         ]
       },
       {
@@ -7674,7 +7622,7 @@
       },
       {
         "q": "Which document do aerospace and Canadian customers require?",
-        "a": "Neither, in both cases. Aerospace primes specify NAS 410 in North America or EN 4179 in Europe, an employer-based scheme with its own Level 3 requirements audited under Nadcap; ASNT Level III certificates are used within it as one route to Level 3, but an SNT-TC-1A or CP-189 written practice does not satisfy it. In Canada, code work requires CAN/CGSB-48.9712 certification issued by NRCan's NDT Certification Body or CWB Group, and neither ASNT document substitutes for it. An inspection company serving energy, aerospace and Canadian customers runs a separate qualification document for each market rather than one practice."
+        "a": "Neither, in both cases. In Canada, code work requires CAN/CGSB-48.9712 certification issued by NRCan's NDT Certification Body or CWB Group, and neither ASNT document substitutes for it. An inspection company serving energy, aerospace and Canadian customers runs a separate qualification document for each market rather than one practice."
       },
       {
         "q": "Do refineries and pipeline operators ever specify CP-189?",

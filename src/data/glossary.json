@@ -2366,8 +2366,7 @@
     "definition": "<h2>Definition</h2><p>E1417 specifies sensitivity levels 1/2/3/4 for fluorescent penetrants, requires daily system performance checks with Type 1 panels, and tighter water-rinse pressure and dwell-time controls.</p>",
     "relatedTerms": [
       "astm-e165",
-      "penetrant-testing",
-      "nas-410"
+      "penetrant-testing"
     ],
     "relatedBlogs": []
   },
@@ -2379,8 +2378,7 @@
     "definition": "<h2>Definition</h2><p>E1444 requires Ketos ring quarterly checks, daily QQI shim or pie-gauge field-strength verification, and a documented written procedure. It is the MT counterpart to E1417 for aerospace.</p>",
     "relatedTerms": [
       "astm-e709",
-      "magnetic-particle-testing",
-      "nas-410"
+      "magnetic-particle-testing"
     ],
     "relatedBlogs": []
   },
@@ -2419,23 +2417,6 @@
     ]
   },
   {
-    "slug": "nas-410",
-    "term": "NAS 410 / EN 4179 Aerospace NDT Personnel Qualification",
-    "category": "standard",
-    "shortDefinition": "NAS 410 is the aerospace-industry standard for qualification and certification of NDT personnel in the manufacture and overhaul of aerospace products, harmonized with EN 4179 in Europe.",
-    "definition": "<h2>Definition</h2><p>NAS 410 supersedes the older MIL-STD-410 for commercial aerospace NDT. It defines Level I, II, and III qualification analogous to SNT-TC-1A but with tighter training-hour requirements and required experience for safety-critical aerospace inspection. EN 4179 is the European edition (identical content).</p>",
-    "relatedTerms": [
-      "snt-tc-1a",
-      "iso-9712",
-      "level-iii",
-      "astm-e1417",
-      "astm-e1444"
-    ],
-    "relatedBlogs": [
-      "aerospace-composite-inspection-ndt-methods-guide"
-    ]
-  },
-  {
     "slug": "pcn",
     "term": "PCN (Personnel Certification in Non-Destructive Testing)",
     "category": "standard",
@@ -2468,7 +2449,7 @@
     "term": "NDT Level I",
     "category": "certification",
     "shortDefinition": "An NDT Level I is qualified to perform specific calibrations, conduct specific NDT examinations following written procedures, and record results, but is not authorized to set up tests, interpret results for accept/reject, or report results without Level II/III oversight.",
-    "definition": "<h2>Definition</h2><p>Level I is the entry-level NDT qualification under <a href='/glossary/snt-tc-1a'>SNT-TC-1A</a>, <a href='/glossary/iso-9712'>ISO 9712</a>, and <a href='/glossary/nas-410'>NAS 410</a>. Training requirements typically include 24–40 hours method-specific training plus a documented period of practical experience.</p>",
+    "definition": "<h2>Definition</h2><p>Training requirements typically include 24–40 hours method-specific training plus a documented period of practical experience.</p>",
     "relatedTerms": [
       "level-ii",
       "level-iii",

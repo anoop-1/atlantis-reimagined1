@@ -8,7 +8,7 @@ export const CERT_INFO_MODIFIED = '2026-10-18';
 export const CERT_INFO_PATHS = new Set([
   '/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison',
   '/blog/iso-9712-certification-process-step-by-step-guide',
-  '/nas-410-certification-requirements',
+  
   '/blog/en-4179-recertification-european-aerospace-2028',
   '/consulting/navsea-ndt-requirements-shipyard',
 ]);

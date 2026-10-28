@@ -462,7 +462,7 @@ export default function TrainingRequirementsMatrix() {
         <div className="container mx-auto max-w-4xl px-6">
           <h2 className="text-3xl font-bold mb-4">Get the Editable Version</h2>
           <p className="text-blue-100 mb-8 text-lg">
-            Need this training matrix in an editable Excel format? Contact us for a customizable version with additional schemes (NAVSEA, NAS 410, EN 4179) and calculation tools.
+            Need this training matrix in an editable Excel format?
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <button

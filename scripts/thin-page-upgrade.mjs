@@ -368,7 +368,7 @@ const CONSULTING_BODY = (place, ctx) => `
 
       <h2>Service lines</h2>
       ${ul([
-        'Written practice authoring and revision to ASNT SNT-TC-1A, ANSI/ASNT CP-189, NAS 410 or ISO 9712, including the annual review most quality systems require and few actually perform',
+        'Written practice authoring and revision to ASNT SNT-TC-1A, ANSI/ASNT CP-189 or ISO 9712, including the annual review most quality systems require and few actually perform',
         'Procedure development and approval across UT, PAUT, TOFD, RT, MT, PT, ET and VT, written against the governing construction or in-service code and qualified on representative specimens',
         'Personnel qualification and certification — general, specific and practical examinations, vision examination administration, and the experience-hour records that support them',
         'Inspection-data review and NDT method selection that give your RBI engineers measured corrosion rates rather than default rates',
@@ -512,7 +512,7 @@ export function upgradeStandardsPages(routes) {
       <h2>What has to be in place for compliance to be demonstrable</h2>
       ${ul([
         'A written procedure qualified against this standard for the specific materials, thickness ranges and geometries in scope — not a generic procedure covering everything',
-        'Personnel certified for the method and level under ASNT SNT-TC-1A, ANSI/ASNT CP-189, NAS 410 or ISO 9712, current on the date the examination was performed',
+        'Personnel certified for the method and level under ASNT SNT-TC-1A, ANSI/ASNT CP-189 or ISO 9712, current on the date the examination was performed',
         'Equipment, probes and reference standards in calibration on that date, with traceability to a national standard under ISO 17025',
         'The applicable edition of the standard recorded against the examination, so historical work stays assessed under the edition then in force',
         'Technique sheets under the same revision control as the procedure above them — the most frequently uncontrolled document in an otherwise compliant quality system',

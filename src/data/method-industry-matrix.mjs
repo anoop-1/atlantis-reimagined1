@@ -46,7 +46,7 @@ export const METHODS = {
     name: 'Penetrant Testing', short: 'PT',
     physics: `Penetrant testing draws a low-viscosity liquid into surface-breaking discontinuities by capillary action, then blots it back out onto a developer where the indication becomes visible — under white light for visible dye, under UV-A for fluorescent systems. It works on any non-porous material, which is precisely why it exists alongside MT.`,
     limits: `What PT will not do: find anything that does not break the surface, work on porous or heavily coated material, or survive a poor clean — the examination is only as good as the pre-cleaning, and most PT failures are cleaning failures. Dwell and developer times are process parameters, not suggestions.`,
-    codes: `ASME Section V Article 6; ASTM E1417 for the process; ISO 3452 internationally; aerospace scopes add OEM and NAS 410 process controls above all of these.`,
+    codes: `ASME Section V Article 6; ASTM E1417 for the process; ISO 3452 internationally.`,
   },
   'visual-testing': {
     name: 'Visual Testing', short: 'VT',
@@ -58,7 +58,7 @@ export const METHODS = {
     name: 'Eddy Current Testing', short: 'ET',
     physics: `Eddy current testing induces circulating currents in a conductive material and reads the impedance change a discontinuity causes. It needs no couplant and no contact, which makes it the fastest surface and near-surface method available — and, in tube form, the only practical way to screen thousands of heat-exchanger tubes inside a shutdown window.`,
     limits: `What ET will not do: examine non-conductive material, penetrate deeply (the effect is confined near the surface, more so as frequency rises), or produce results anyone can interpret without training — signal interpretation is the whole skill, and lift-off, edge effects and permeability variation all masquerade as indications.`,
-    codes: `ASME Section V Article 8 for tubing; ASTM E243 and E571 for specific product forms; aerospace surface examination runs under NAS 410 with OEM technique requirements.`,
+    codes: `ASME Section V Article 8 for tubing; ASTM E243 and E571 for specific product forms.`,
   },
 };
 
@@ -104,7 +104,7 @@ export const INDUSTRIES = {
     name: 'Aviation & Aerospace',
     assets: `Airframe structure and fastener rows, engine hardware — discs, blades, cases — landing gear, wheels, and the growing composite content on both structure and control surfaces.`,
     mechanisms: `Fatigue cracking at stress concentrations is the mechanism the entire inspection programme exists to catch, with corrosion in structure, disbonds in composite repairs, and thermal damage in hot sections.`,
-    regime: `NAS 410 or EN 4179 for personnel with a named responsible Level 3; Nadcap accrediting the process; FAA Part 145 governing the repair station; OEM maintenance manuals supplying acceptance criteria rather than a code.`,
+    regime: `Nadcap accrediting the process; FAA Part 145 governing the repair station; OEM maintenance manuals supplying acceptance criteria rather than a code.`,
   },
   power: {
     name: 'Power Generation',

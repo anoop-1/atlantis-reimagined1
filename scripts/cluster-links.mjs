@@ -48,10 +48,9 @@ export const CLUSTERS = {
       { path: '/consulting/outside-ndt-level-3-can-and-cannot-do', anchor: 'what an outside Level III can and cannot do' },
       { path: '/consulting/ndt-level-3-resigned-what-to-do', anchor: 'what happens when your Level III resigns' },
       { path: '/consulting/nadcap-ac7114-audit-readiness', anchor: 'Nadcap AC7114 audit readiness' },
-      { path: '/consulting/nas-410-responsible-level-3', anchor: 'the NAS 410 Responsible Level 3' },
       { path: '/consulting/ndt-level-3-exam-oversight', anchor: 'who writes and grades certification exams' },
       { path: '/consulting/ndt-consulting-level-iii', anchor: 'outsourced Level III scope and retainer' },
-      { path: '/nas-410-certification-requirements', anchor: 'NAS 410 certification requirements' },
+      { path: '/snt-tc-1a-eligibility', anchor: 'SNT-TC-1A eligibility and hours' },
     ],
   },
   twins: {
@@ -99,7 +98,7 @@ export const CLUSTERS = {
       { path: '/consulting/petrochemical-ndt-consulting', anchor: 'petrochemical NDT consulting and PSM records' },
       { path: '/consulting/energy-utilities-ndt-consulting', anchor: 'energy and utilities NDT consulting' },
       { path: '/consulting/nuclear-ndt-consulting', anchor: 'nuclear NDT consulting and ASME Section XI' },
-      { path: '/consulting/aerospace-ndt-consulting', anchor: 'aerospace NDT consulting and NAS 410' },
+      { path: '/consulting/aerospace-ndt-consulting', anchor: 'aerospace NDT consulting and Nadcap readiness' },
       { path: '/consulting/aviation-ndt-consulting', anchor: 'aviation MRO NDT consulting' },
       { path: '/consulting/maritime-ndt-consulting', anchor: 'maritime NDT consulting and class survey' },
       { path: '/consulting/offshore-ndt-consulting', anchor: 'offshore NDT consulting' },
@@ -222,7 +221,7 @@ export const CLUSTERS = {
     label: 'NDT training by industry',
     members: [
       { path: '/oil-gas-ndt-training', anchor: 'oil and gas NDT training' },
-      { path: '/aerospace-ndt-training', anchor: 'aerospace NDT training and NAS 410' },
+      { path: '/aerospace-ndt-training', anchor: 'aerospace NDT training' },
       { path: '/aviation-ndt-training', anchor: 'aviation MRO NDT training' },
       { path: '/nuclear-ndt-training', anchor: 'nuclear NDT training' },
       { path: '/maritime-ndt-training', anchor: 'maritime and offshore NDT training' },
@@ -237,7 +236,7 @@ export const CLUSTERS = {
     members: [
       { path: '/blog/ndt-training-hours-requirements-by-method', anchor: 'training hours by method and scheme' },
       { path: '/blog/asnt-snt-tc-1a-certification-requirements', anchor: 'SNT-TC-1A requirements' },
-      { path: '/nas-410-certification-requirements', anchor: 'NAS 410 requirements' },
+      { path: '/snt-tc-1a-eligibility', anchor: 'SNT-TC-1A eligibility and hours' },
       { path: '/blog/ndt-salary-guide-2026-global', anchor: 'NDT pay by certification level' },
       { path: '/ndt-certification-guide', anchor: 'the full certification cost picture' },
     ],

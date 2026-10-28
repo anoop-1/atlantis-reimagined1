@@ -450,7 +450,7 @@ ${profile ? `    <h2>What ${esc(city)} inspection companies get out of it</h2>
 ` : ''}
     <h2>Modules inspection companies actually switch for</h2>
     <ul>
-      <li><a href="/erp-modules/certification-tracking">Certification tracking</a> — SNT-TC-1A / ISO 9712 / NAS 410 currency with computed status, 90-day expiry warning tasks, email alerts and blocked double-booking.</li>
+      <li><a href="/erp-modules/certification-tracking">Certification tracking</a> — SNT-TC-1A / ISO 9712 / certification currency with computed status, 90-day expiry warning tasks, email alerts and blocked double-booking.</li>
       <li><a href="/erp-modules/calibration-management">Calibration management</a> — instrument, block and probe calibration intervals with ISO 17025 traceability chains.</li>
       <li><a href="/erp-modules/work-order-management">Work order management</a> — multi-crew, multi-site dispatch with mobile offline field capture.</li>
       <li><a href="/erp-modules/document-control">Document control</a> — procedures, written practices and technique sheets under ISO 9001 revision control.</li>
@@ -522,7 +522,7 @@ function consultingCityBody(k, slug, cityLabel) {
     },
     {
       question: `Which codes and client audit regimes does the consulting cover in ${city}?`,
-      answer: `ASNT SNT-TC-1A, ANSI/ASNT CP-189, NAS 410 and ISO 9712 for personnel; ASME Section V, Section VIII and Section IX, AWS D1.1, API 510/570/653/1104 and ISO 17635/17636/17640 for procedures; ISO 9001, ISO 17020 and ISO 17025 for the quality system. Operator-specific approvals — Aramco, ADNOC, QatarEnergy, KOC, Petronas, Shell and similar — are prepared against the client's own vendor-qualification checklist.`,
+      answer: `ASNT SNT-TC-1A, ANSI/ASNT CP-189 and ISO 9712 for personnel; ASME Section V, Section VIII and Section IX, AWS D1.1, API 510/570/653/1104 and ISO 17635/17636/17640 for procedures; ISO 9001, ISO 17020 and ISO 17025 for the quality system. Operator-specific approvals — Aramco, ADNOC, QatarEnergy, KOC, Petronas, Shell and similar — are prepared against the client's own vendor-qualification checklist.`,
     },
     {
       question: `How fast can procedures and written practices be turned around?`,
@@ -541,7 +541,7 @@ ${ctx ? `    <h2>The ${esc(city)} asset base and what it demands</h2>\n    <p>${
     <h2>Engagement types</h2>
     <ul>
       <li>Outsourced Level III of record — named on your written practice, available for audits.</li>
-      <li>Procedure and written-practice authoring to SNT-TC-1A, CP-189, NAS 410 and ISO 9712.</li>
+      <li>Procedure and written-practice authoring to SNT-TC-1A, CP-189 and ISO 9712.</li>
       <li>Personnel examination and certification, including practical and specific exams.</li>
       <li>ISO 17020 / ISO 17025 accreditation support and internal audit.</li>
       <li>Failure investigation, root-cause analysis and independent technical review.</li>

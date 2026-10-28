@@ -71,9 +71,9 @@ const COPY = {
   training: {
     badge: "Inspector — Free Training Pathway Consultation",
     title: "Book Your Free Training Pathway Consultation",
-    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III-led training under your SNT-TC-1A or CP-189 written practice, with ISO 9712 and NAS 410 pathways.",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III-led training under your SNT-TC-1A or CP-189 written practice, with ISO 9712 pathways.",
     subject: "Training Enquiry — Atlantis NDT (from /training)",
-    usecasePlaceholder: "ASNT Level I/II/III (UT/RT/MT/PT/VT/ET/PAUT/TOFD), written practice development, ISO 9712, NAS 410 / EN 4179 aerospace…",
+    usecasePlaceholder: "ASNT Level I/II/III (UT/RT/MT/PT/VT/ET/PAUT/TOFD), SNT-TC-1A written practice development, ASNT Level III consulting…",
     submitLabel: "Book My Free Pathway Call",
     trustSignals: [
       "ASNT NDT Level III-led delivery",
@@ -131,12 +131,12 @@ const COPY = {
   academy: {
     badge: "Inspector — Free Atlantis NDT Academy Consultation",
     title: "Book Your Free Atlantis NDT Academy Consultation",
-    sub: "Affordable. Accessible. Fully Customizable. ASNT, ISO 9712 and NAS 410 pathway curation, ASNT NDT Level III-led.",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT and ISO 9712 pathway curation, ASNT NDT Level III-led.",
     subject: "Academy Enquiry — Atlantis NDT (from /atlantis-academy)",
-    usecasePlaceholder: "ASNT Level I/II/III pathway, recertification tracking, ISO 9712, NAS 410 / EN 4179 aerospace cert pathway scoping…",
+    usecasePlaceholder: "ASNT Level I/II/III pathway, recertification tracking, ISO 9712 cert pathway scoping…",
     submitLabel: "Book My Free Academy Call",
     trustSignals: [
-      "Multi-scheme pathway curation (ASNT / ISO 9712 / NAS 410)",
+      "Multi-scheme pathway curation (ASNT / ISO 9712)",
       "Recertification calendar tracked per technician",
       "Written practice and records audit-ready",
       "ASNT NDT Level III led delivery",

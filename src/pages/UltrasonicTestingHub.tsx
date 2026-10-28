@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "What codes and standards govern ultrasonic testing?",
     answer:
-      "Primary codes: ASME BPVC Section V Article 4 (UT general), Article 5 (in-service), Article 23 (SE-797 for thickness); ASME Section VIII UW-53; AWS D1.1 Clause 8 for structural welds; API 1104 for pipelines; EN/ISO 17640 for European weld testing; EN/ISO 16811 for sensitivity; EN/ISO 22232 for equipment. PAUT specifically is governed by ASME V Article 4 Mandatory Appendix IV and ASTM E2700. Aerospace UT follows SAE AMS 2154 and NAS 410.",
+      "Primary codes: ASME BPVC Section V Article 4 (UT general), Article 5 (in-service), Article 23 (SE-797 for thickness); ASME Section VIII UW-53; AWS D1.1 Clause 8 for structural welds; API 1104 for pipelines; EN/ISO 17640 for European weld testing; EN/ISO 16811 for sensitivity; EN/ISO 22232 for equipment. PAUT specifically is governed by ASME V Article 4 Mandatory Appendix IV and ASTM E2700. Aerospace UT follows SAE AMS 2154.",
   },
   {
     question: "What UT training and certification do I need?",
@@ -239,7 +239,7 @@ export default function UltrasonicTestingHub() {
             <Card>
               <CardHeader><CardTitle className="text-base">Aerospace</CardTitle></CardHeader>
               <CardContent className="text-sm text-slate-700 leading-relaxed">
-                Composite laminate bond inspection, turbine disk exams, landing gear strut UT. NAS 410 Level II crews; AMS 2154 compliance.
+                Composite laminate bond inspection, turbine disk exams, landing gear strut UT.
                 <Link to="/ndt-for-aerospace" className="block mt-2 text-[#004aad] hover:underline">Aerospace NDT →</Link>
               </CardContent>
             </Card>

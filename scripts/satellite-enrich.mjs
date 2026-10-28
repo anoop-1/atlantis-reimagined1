@@ -473,18 +473,10 @@ const TOPIC_PROFILES = {
     publisher: 'Aerospace NDT Standards Editorial',
     homeColor: 'sky',
     container: 'standards',
-    audience: 'aerospace NDT inspectors, NAS 410 candidates, NADCAP auditors',
+    audience: '',
     primary: 'aerospace NDT and certification',
     angles: [
-      {
-        slug: 'nas-410-vs-en-4179-aerospace-certification-paths',
-        title: 'NAS 410 vs EN 4179: Two Aerospace NDT Certification Paths Compared',
-        h1: 'NAS 410 vs EN 4179: Two Aerospace NDT Certification Paths Compared',
-        keywords: ['NAS 410', 'EN 4179', 'aerospace NDT certification', 'NANDTB'],
-        focus: 'nas-en',
-        date: '2024-08-05',
-        author: 'Capt. Russell Fairchild, NANDTB Level III',
-      },
+      
       {
         slug: 'composite-aircraft-structure-ndt-cfrp-inspection',
         title: 'Composite Aircraft Structure NDT: CFRP Inspection Methods',

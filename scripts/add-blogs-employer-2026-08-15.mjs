@@ -155,7 +155,7 @@ const POSTS = [
 
 <h2>Where equivalence genuinely does apply</h2>
 <p>Between personnel certification schemes covering the same method and level, there is real comparability — <a href="/compare/asnt-vs-pcn">ASNT and PCN</a>, and <a href="/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison">ISO 9712 against SNT-TC-1A</a>, qualify the same technical competence through different administrative routes. The structural difference is who certifies: SNT-TC-1A puts it on the employer, ISO 9712 and PCN on a third-party body. For an employer accepting an incoming technician, a central certification is easier to verify; an employer-based certification from a previous company is <strong>not transferable</strong> and the technician must be certified under your own programme regardless of what they hold.</p>
-<p>Aerospace is its own regime — NAS 410 and EN 4179 govern there, with customer approval frequently layered on top, and a general industrial certification does not carry across.</p>
+
 
 <h2>Wording that survives an audit</h2>
 <p>State the requirement by scope and name the acceptable qualifications for it explicitly. Say who has authority to approve an exception, require it in writing against the named scope, and keep the record with the personnel file. Avoid open-ended phrases like "or equivalent" with no named approver — an auditor reads that as no policy at all. And state plainly that certifications issued by a previous employer are re-established under your own Written Practice, because that is the single most common misunderstanding when experienced technicians join.</p>

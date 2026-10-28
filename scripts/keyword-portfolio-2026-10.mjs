@@ -79,7 +79,7 @@ const P = {
     ['ndt level iii consulting', '/consulting/ndt-consulting-level-iii', 5, 4], ['asnt level iii consulting', '/consulting/ndt-consulting-level-iii', 5, 4],
     ['ndt level 3 consultant', '/consulting/ndt-consulting-level-iii', 5, 4], ['outsourced level iii', '/consulting/ndt-consulting-level-iii', 5, 4],
     ['ndt level iii services', '/consulting/ndt-consulting-level-iii', 5, 4], ['snt-tc-1a consulting', '/consulting/ndt-consulting-level-iii', 5, 4],
-    ['nas 410 level 3 services', '/consulting/ndt-consulting-level-iii', 5, 4], ['personnel qualification support', '/consulting/ndt-consulting-level-iii', 4, 4],
+     ['personnel qualification support', '/consulting/ndt-consulting-level-iii', 4, 4],
     ['ndt written practice', '/ndt-written-practice-development', 4, 4], ['written practice development', '/ndt-written-practice-development', 5, 4],
     ['snt-tc-1a written practice', '/ndt-written-practice-development', 4, 4], ['cp-189 written practice', '/ndt-written-practice-development', 4, 5],
     ['ndt procedure development', '/consulting/ndt-technical-procedure-development', 5, 4],

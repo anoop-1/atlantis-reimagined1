@@ -80,7 +80,7 @@ const RULES = {
     [': UT/PAUT/RT readings mapped to a 3D asset model, API 581 RBI scoring and API 579 fitness-for-service on measured thickness.', ': UT/PAUT/RT readings mapped to a 3D asset model, with CML thickness trends and corrosion rates on every circuit.'],
     ['personnel certification, RBI per API 580/581 and FFS per API 579.', 'personnel certification and NDT programme audits.'],
     // ERP has no automatic lockout: real feature = computed status, 90-day warning tasks, email alerts, timesheet warnings, blocked double-booking
-    ['SNT-TC-1A / ISO 9712 / NAS 410 currency with automatic dispatch lockout on lapse.', 'SNT-TC-1A / ISO 9712 / NAS 410 currency with computed status, 90-day expiry warning tasks, email alerts and blocked double-booking.'],
+    ['SNT-TC-1A / ISO 9712 / certification currency with automatic dispatch lockout on lapse.', 'SNT-TC-1A / ISO 9712 / certification currency with computed status, 90-day expiry warning tasks, email alerts and blocked double-booking.'],
     ['and any expiry blocks assignment to a job automatically. Equipment calibration works the same way — an out-of-calibration flaw detector, thickness gauge or reference block cannot be dispatched.', 'and each certificate carries a computed status, with 90-day expiry warning tasks, email alerts, timesheet warnings and blocked double-booking. Equipment calibration is tracked the same way — due dates on every flaw detector, thickness gauge and reference block raise warnings before they lapse.'],
     // fabricated per-city savings figures and case stories (ERP_CITY_PROFILES) are no longer rendered
     ["    <p>${esc(sanitizePricing(profile.uniqueLocalROI))}</p>\n", ''],
@@ -88,7 +88,7 @@ const RULES = {
     ["    ${profile.localCaseStudy ? `<h3>Case study</h3><p>${esc(sanitizePricing(profile.localCaseStudy))}</p>` : ''}` : ''}", "` : ''}"],
   ],
   'src/data/dt-competitor-knowledge.ts': [
-    ['Native SNT-TC-1A / ISO 9712 / NAS 410 currency with dispatch lockout on lapse', 'Native SNT-TC-1A / ISO 9712 / NAS 410 currency with computed status, 90-day expiry warnings and blocked double-booking'],
+    ['Native SNT-TC-1A / ISO 9712 / certification currency with dispatch lockout on lapse', 'Native SNT-TC-1A / ISO 9712 / certification currency with computed status, 90-day expiry warnings and blocked double-booking'],
     ['Native, with dispatch lockout on lapse', 'Native, with 90-day expiry warnings and blocked double-booking'],
     ['currency and dispatch lockout are outside', 'currency and expiry warnings are outside'],
     ['currency model or dispatch lockout', 'currency model or expiry warnings'],
@@ -239,7 +239,7 @@ RULES['scripts/prerender.mjs'].push(
   ['ASNT NDT Level III + API ICP-certified inspectors.', 'ASNT NDT Level III-led, with inspectors holding the API certifications your code requires, confirmed per project.'],
   ['— ASNT NDT Level III + API ICP certified.', '— ASNT NDT Level III lead consultant.'],
   ["'Our consultants hold ASNT + ISO 9712 + API ICP dual-scheme cert rosters.'", "'Our lead consultant holds ASNT NDT Level III (multi-method).'"],
-  ['multi-scheme cert roster (ASNT + ISO 9712 + API ICP + NACE CIP + CSWIP + PCN + NAS 410 + EN 4179 aerospace)', 'inspectors holding the certifications your code requires (ASNT, ISO 9712, API, NAS 410 and others), confirmed per project'],
+  ['multi-scheme cert roster (ASNT + ISO 9712 + API ICP + NACE CIP + CSWIP + PCN + EN 4179 aerospace)'],
 );
 RULES['scripts/round7-body-overrides.mjs'].push(
   ['procedure development and qualification, API RBI program design, fitness-for-service per API 579, and code compliance', 'procedure development and qualification, and code compliance'],

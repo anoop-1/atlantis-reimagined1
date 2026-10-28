@@ -34,7 +34,7 @@ const Q1_ROUND3_ALTS = [
   ['How does the Free Consultation actually work?', 'Free 30-minute call with Atlantis NDT founder (ASNT NDT Level III certified, multi-method). Output: tailored scoping doc, recommended phased rollout, integration map, tailored quote within 24 hours. No commitment.'],
   ['What multi-region delivery does Atlantis support?', 'Offices in Houston (USA) and Hyderabad (India); work elsewhere is delivered remotely or onsite at your facility, confirmed in your RFQ. Remote procedure authoring + Level III sign-off 24-hour turnaround. Hybrid: local Level II + Atlantis Level III remote oversight.'],
   ['How does Atlantis support customer success post go-live?', 'Monthly performance review, quarterly health-check, annual audit-readiness drill, on-demand Level III escalation and recertification reminders.'],
-  ['Can Atlantis support our specific regulatory framework?', 'Yes — ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP + PCN + ACCP + NAS 410 + EN 4179 + GOST + JIS + KS + GB + ABENDI + AINDT + CGSB + ABSA + TSSA + Eurocode + NACE MR0175 + ISO 15156 all supported.'],
+  ['Can Atlantis support our specific regulatory framework?', 'Yes — ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP + PCN + ACCP + EN 4179 + GOST + JIS + KS + GB + ABENDI + AINDT + CGSB + ABSA + TSSA + Eurocode + NACE MR0175 + ISO 15156 all supported.'],
 ];
 
 function pickQ1(seed) {

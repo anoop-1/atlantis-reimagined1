@@ -225,7 +225,7 @@ for (const [slug, title, focus] of roboTopics) {
 
 // 6. New verticals (15)
 const newVerticals = [
-  ['ndt-for-defense-industry-2028-buyer-guide','NDT for Defense Industry 2028 — Buyer Guide','defense + military NDT inspection per AS9100D + NAS 410 + MIL-STD-410'],
+  ['ndt-for-defense-industry-2028-buyer-guide','NDT for Defense Industry 2028 — Buyer Guide','defense + military NDT inspection per AS9100D + MIL-STD-410'],
   ['ndt-for-naval-shipbuilding-2028','NDT for Naval Shipbuilding 2028 — Decoded','naval shipbuilding NDT per NAVSEA T9074-AS-GIB-010 + ABS/DNV class'],
   ['ndt-for-pharma-bpe-2028','NDT for Pharma BPE 2028 — Decoded','pharmaceutical bio-process equipment NDT per ASME BPE + FDA + EMA'],
   ['ndt-for-food-processing-2028','NDT for Food Processing 2028 — Decoded','food-processing equipment NDT — 3-A Sanitary Standards + FDA Food Code alignment'],
@@ -334,7 +334,6 @@ const processBlogs = [
   ['api-icp-recertification-2028','API ICP Recertification 2028 — Decoded','API ICP recertification pathway — re-exam vs continuing experience'],
   ['asnt-recertification-pathway-2028','ASNT Recertification Pathway 2028','ASNT cert recertification — Level II + III pathways'],
   ['iso-9712-recertification-2028','ISO 9712 Recertification 2028','ISO 9712 5-year + 10-year recertification cycle'],
-  ['nas-410-recertification-aerospace-2028','NAS 410 Recertification Aerospace 2028','NAS 410 recertification for aerospace primes'],
   ['en-4179-recertification-european-aerospace-2028','EN 4179 Recertification European Aerospace 2028','EN 4179 recertification for Airbus + Safran + MTU'],
   ['written-practice-authoring-snt-tc-1a-2028','Written Practice Authoring SNT-TC-1A 2028','employer Written Practice authoring per SNT-TC-1A'],
   ['written-practice-cp-189-2028','Written Practice CP-189 2028','CP-189 employer standard implementation'],

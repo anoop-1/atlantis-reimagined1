@@ -129,7 +129,7 @@ const P = [
   ['/blog/api-510-inspection-intervals-sour-wet-h2s-service', 'ut1', 'API 510', 'inservice'],
   ['/blog/api-570-piping-inspection-code-requirements', 'ut1', 'API 570', 'inservice'],
   ['/blog/api-510-pressure-vessel-inspection-code', 'ut1', 'API 510', 'inservice'],
-  ['/blog/nas-410-aerospace-ndt-certification-explained', null, 'NAS 410', 'aero'],
+  
   // Exam-prep posts: the method and level the questions are for. 2026-10-16: the duplicate
   // practice-question URLs are retired (301, vercel.json); only each set's canonical page is mapped.
   ['/blog/ut-level-1-practice-questions', 'ut1', 'UT Level 1', 'exam'],
@@ -190,10 +190,10 @@ export function courseNextStepFor(path) {
   if (e.kind === 'aero') {
     return {
       kind: 'aero',
-      heading: 'Next step: NAS 410 Level 3 services',
-      lead: 'NAS 410 certification is employer-based and runs under the employer\'s Responsible Level 3.',
+      heading: 'Next step: ASNT Level III consulting for aerospace programmes',
+      lead: 'Aerospace certification is employer-based and runs under the employer\'s written practice and Responsible Level 3.',
       course: null,
-      note: 'Atlantis provides NAS 410 Level 3 services through an associate who holds NAS 410 Level 3.',
+      note: 'Atlantis provides ASNT NDT Level III consulting for the written practice, procedures, examinations and audit preparation, plus ASNT SNT-TC-1A-based method training.',
     };
   }
   const c = COURSES[e.course];
@@ -232,7 +232,7 @@ export function courseNextStepHtml(path, placement = 'end') {
     : `<p style="${PS}">${esc(b.lead)} ${esc(b.note)}</p>`;
   const employer = b.course
     ? `<p style="${PS}"><strong>For employers:</strong> ${l3} covers procedures, the written practice, qualification examinations and audit support for your technicians.</p>`
-    : `<p style="${PS}"><strong>For employers:</strong> ${l3} covers procedures, written practices, qualification examinations and audit support; NAS 410 Level 3 work is delivered through the associate.</p>`;
+    : `<p style="${PS}"><strong>For employers:</strong> ${l3} covers procedures, written practices, qualification examinations and audit support.</p>`;
   const q = RELATED_QUESTION.get(norm(path));
   const related = q ? `<p style="${PS}"><strong>Related code question:</strong> <a href="${q[0]}" style="${A}">${esc(q[1])}</a>.</p>` : '';
   return `<section ${COURSE_NEXT_STEP_MARKER} data-placement="end" aria-label="Course next step" style="${BOX}"><h2 style="${H2}">${esc(b.heading)}</h2>${first}${employer}${related}</section>`;

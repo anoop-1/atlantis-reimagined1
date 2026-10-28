@@ -471,7 +471,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                                 ))}
                             </div>
                             <p className="text-slate-600 mt-6 text-sm">
-                                Codes are covered as context for procedure writing. NAS 410 / EN 4179 aerospace personnel are certified by their employer under its written practice with a Responsible Level 3; Atlantis's offer is ASNT Level III exam preparation and SNT-TC-1A Level III services.
+                                Codes are covered as context for procedure writing.
                             </p>
                         </CardContent>
                     </Card>

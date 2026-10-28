@@ -124,7 +124,7 @@ const industryApplications = [
   },
   {
     title: "Aerospace",
-    detail: "Composite UT for delaminations, disbonds, and voids in carbon fibre and glass fibre structures per AMS 2630. Engine component inspection (discs, blades, casings) using immersion UT. Airframe structural inspection using portable PAUT. Forging inspection using immersion or contact UT per AMS 2154. Aerospace UT inspection must comply with NAS-410 or EN 4179 certification requirements, and inspection procedures must be qualified under NADCAP.",
+    detail: "Composite UT for delaminations, disbonds, and voids in carbon fibre and glass fibre structures per AMS 2630. Engine component inspection (discs, blades, casings) using immersion UT. Airframe structural inspection using portable PAUT. Forging inspection using immersion or contact UT per AMS 2154.",
     link: "/ndt-for-aerospace",
   },
   {
@@ -327,7 +327,7 @@ export default function UltrasonicTesting() {
               Ultrasonic Testing offers decisive advantages over other NDT methods: it is the only method that provides both detection and accurate depth sizing of internal flaws without radiation, making it uniquely valuable for fitness-for-service assessments. Unlike radiographic testing (RT), which projects a two-dimensional shadow image, UT provides three-dimensional information — the flaw's depth, height, and through-wall extent can all be measured. Unlike eddy current testing, UT works on non-conductive materials and penetrates the full thickness of the component. Unlike magnetic particle or penetrant testing, UT reveals internal volumetric and planar defects, not just surface-breaking cracks.
             </p>
             <p className="text-lg text-slate-700 leading-relaxed mb-5">
-              The oil & gas industry relies on UT for pressure vessel corrosion monitoring per API 510, piping inspection per API 570, storage tank floor assessment, and pipeline girth weld inspection per API 1104. Power generation uses UT for boiler tube thickness surveys, turbine rotor bore examination, and critical weld inspection per ASME Section XI. Aerospace employs immersion UT and phased array UT for composite delamination detection and engine component examination per NAS-410. Manufacturing uses UT for forging, casting, and weld quality control. Infrastructure inspection depends on UT for bridge weld assessment and structural integrity evaluation.
+              The oil & gas industry relies on UT for pressure vessel corrosion monitoring per API 510, piping inspection per API 570, storage tank floor assessment, and pipeline girth weld inspection per API 1104. Power generation uses UT for boiler tube thickness surveys, turbine rotor bore examination, and critical weld inspection per ASME Section XI. Manufacturing uses UT for forging, casting, and weld quality control. Infrastructure inspection depends on UT for bridge weld assessment and structural integrity evaluation.
             </p>
             <p className="text-lg text-slate-700 leading-relaxed mb-5">
               Atlantis NDT provides expert UT services across all six major UT techniques — from conventional pulse-echo and corrosion mapping to phased array UT, TOFD, and guided wave testing. Our ASNT Level III UT engineers develop ASME-compliant procedures, qualify technique demonstrations, and deliver Level I, II, and III UT training programs. Whether you need a UT consulting partner for a complex inspection challenge or ASNT certification training for your inspectors, Atlantis NDT has the expertise and experience.

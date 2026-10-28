@@ -94,12 +94,12 @@ export const COURSE_RETITLES = {
   '/et-level-1-training': {
     title: 'ET Level 1 Course — Online & Onsite ASNT Training',
     h1: 'ET Level 1 Course — Eddy Current Testing Level I Training',
-    description: 'ET Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 eddy current hours, with the NAS 410 aerospace route explained. Online or onsite.',
+    description: 'ET Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 eddy current hours, with the aerospace route explained. Online or onsite delivery.',
   },
   '/et-level-2-training': {
     title: 'ET Level 2 Course — Online & Onsite ASNT Training',
     h1: 'ET Level 2 Course — Eddy Current Testing Level II Training',
-    description: 'ET Level 2 course under ASNT SNT-TC-1A: 80 training hours, 840 experience hours, impedance-plane interpretation and the NAS 410 contrast. Online or onsite.',
+    description: 'ET Level 2 course under ASNT SNT-TC-1A: 80 training hours, 840 experience hours, impedance-plane interpretation and the aerospace contrast. Online or onsite.',
   },
 };
 

@@ -365,7 +365,7 @@ const locationIntros: Record<string, { intro: string; marketInsight: string; reg
     "san-antonio": {
         intro: "San Antonio anchors a major defense and aerospace corridor, with Joint Base San Antonio, Boeing, and Lockheed Martin operations driving demand for ASNT Level III consulting in military and aviation applications.",
         marketInsight: "Sustained defense spending and the Eagle Ford Shale's midstream infrastructure create dual-track consulting opportunities across aerospace and petroleum sectors.",
-        regionalChallenge: "Meeting both DoD and commercial aerospace quality requirements alongside oil and gas codes demands consultants fluent in NAS 410, SNT-TC-1A, and API standards simultaneously."
+        regionalChallenge: "Meeting both DoD and commercial aerospace quality requirements alongside oil and gas codes demands consultants fluent in aerospace customer requirements, SNT-TC-1A, and API standards simultaneously."
     },
     "fort-worth": {
         intro: "Fort Worth's industrial landscape combines Lockheed Martin's F-35 production line, Bell's tiltrotor manufacturing, and a robust refining corridor that collectively sustain year-round NDT consulting demand.",
@@ -495,7 +495,7 @@ const locationIntros: Record<string, { intro: string; marketInsight: string; reg
     },
     "pune": {
         intro: "Pune anchors Maharashtra's automotive, heavy-engineering and aerospace cluster. The city hosts Tata Motors, Bajaj Auto, Bharat Forge, Mahindra & Mahindra, Thermax, Kirloskar, and the Indian Air Force's Lohegaon base, while the Talegaon and Chakan industrial belts host hundreds of Tier-1 suppliers to global OEMs.",
-        marketInsight: "India's defence-manufacturing push (HAL, DRDO, BEL programs), the Tata Air India Airbus assembly project and ongoing automotive electrification create growing demand for Level III consulting in aerospace NDT (NAS 410), forging inspection, casting RT and UT, and welding qualification under ASME IX, AWS D1.1 and EN 15614.",
+        marketInsight: "India's defence-manufacturing push (HAL, DRDO, BEL programs), the Tata Air India Airbus assembly project and ongoing automotive electrification create growing demand for Level III consulting in aerospace NDT, forging inspection, casting RT and UT, and welding qualification under ASME IX, AWS D1.1 and EN 15614.",
         regionalChallenge: "Pune's manufacturers serve simultaneous customer codes — Boeing, Airbus, Caterpillar, GE, Daimler — each with its own NDT requirements. Consultants here must translate global aerospace and automotive standards into procedures Indian shop floors can execute, while supporting ISO 9712 / Indian Society for NDT (ISNT) personnel certification."
     },
     "vadodara": {
@@ -588,7 +588,7 @@ const colorMap: Record<string, { bg: string; text: string; light: string; border
 const consultingServices = [
     {
         title: "Written Practice & Procedure Development",
-        description: "Development and review of NDT written practices and procedures compliant with ASNT SNT-TC-1A, CP-189, NAS-410, and industry-specific codes including API, ASME Section V, and AWS D1.1. Our Level III consultants create customized documentation that addresses your specific equipment, personnel qualifications, and inspection requirements.",
+        description: "Development and review of NDT written practices and procedures compliant with ASNT SNT-TC-1A, CP-189, and industry-specific codes including API, ASME Section V, and AWS D1.1. Our Level III consultants create customized documentation that addresses your specific equipment, personnel qualifications, and inspection requirements.",
         icon: FileText
     },
     {
@@ -707,7 +707,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
         },
         {
             question: "Can you develop employer-based NDT certification programs?",
-            answer: "Absolutely. We specialize in designing and implementing employer-based NDT certification programs compliant with ASNT SNT-TC-1A, CP-189, ISO 9712, or NAS-410 requirements. This includes developing training curricula, written and practical examinations, qualification records, and ongoing recertification procedures tailored to your organization's specific needs and inspection scope."
+            answer: "Absolutely. We specialize in designing and implementing employer-based NDT certification programs compliant with ASNT SNT-TC-1A, CP-189 or ISO 9712 requirements. This includes developing training curricula, written and practical examinations, qualification records, and ongoing recertification procedures tailored to your organization's specific needs and inspection scope."
         },
         {
             question: "How quickly can you respond to urgent consulting needs?",
@@ -715,7 +715,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
         },
         {
             question: "Who leads the Level III work, and in which methods?",
-            answer: "Level III work is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers; NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3."
+            answer: "Level III work is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers."
         },
         {
             question: `Is an "NDT Level 3 consultant" in ${location.name} the same as an NDT Level III consultant?`,

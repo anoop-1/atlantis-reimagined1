@@ -47,7 +47,7 @@ export default function NDTConsultingLevelIII() {
             <SEOHead
                 title={L3_META.title}
                 description={L3_META.description}
-                keywords="outsourced NDT Level III, outside agency Level III, NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT independent technical review, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
+                keywords="outsourced NDT Level III, outside agency Level III, NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT independent technical review, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure"
                 canonical="https://atlantisndt.com/consulting/ndt-consulting-level-iii"
                 structuredData={structuredData}
             />

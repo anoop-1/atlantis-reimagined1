@@ -134,7 +134,7 @@ const industries = [
     },
     {
         title: "Aerospace & Defence (HAL, ISRO, DRDO)",
-        description: "HAL (Hindustan Aeronautics Limited), ISRO, and DRDO employ NDT technicians for aircraft structural inspection, rocket component testing, and defence equipment quality control. NAS-410 and NADCAP compliance awareness is valued.",
+        description: "HAL (Hindustan Aeronautics Limited), ISRO, and DRDO employ NDT technicians for aircraft structural inspection, rocket component testing, and defence equipment quality control. NADCAP compliance awareness is valued.",
         demand: "High"
     },
     {

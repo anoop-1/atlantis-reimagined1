@@ -171,7 +171,7 @@ const INDUSTRIES = {
     name: 'Aerospace',
     nameLong: 'Aerospace and Aviation',
     keyAssets: 'engine fan blades, composite wing skins, landing gear forgings, titanium fittings',
-    primaryCodes: ['NAS 410', 'AS9100', 'AS9110', 'EN 4179', 'FAA AC 43.13', 'Boeing BAC 5980', 'Airbus AITM 6-0008'],
+    primaryCodes: [ 'AS9100', 'AS9110', 'EN 4179', 'FAA AC 43.13', 'Boeing BAC 5980', 'Airbus AITM 6-0008'],
     typicalScopeNote: 'AOG (Aircraft on Ground) call-outs respond inside 4 hours and clear under Part 145 release',
     aliases: ['aerospace', 'aerospace-mro', 'defense', 'aviation'],
   },

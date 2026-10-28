@@ -10759,1442 +10759,6 @@
   "kind": "document"
  },
  {
-  "slug": "/compliance/nas-410",
-  "title": "NAS 410 / EN 4179 Compliance for Inspection Companies",
-  "description": "NDT providers and in-house NDT functions serving aerospace manufacturing, maintenance, repair and overhaul — engine and airframe shops, casting and forging suppliers",
-  "h1": "NAS 410 / EN 4179 Compliance for Inspection Service Providers",
-  "answer": "NDT providers and in-house NDT functions serving aerospace manufacturing, maintenance, repair and overhaul — engine and airframe shops, casting and forging suppliers, and independent NDT houses on aerospace approved-supplier lists. Primes flow the requirement down through purchase orders, and Nadcap audits it under AC7114. Personnel are qualified under employer-based certification, so a contracted Level III can sign the written practice and administer examinations for the firm.",
-  "expansion": "Firms selling into both US and European aerospace supply chains have to satisfy the NAS 410 and EN 4179 halves consistently. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "NAS 410 / EN 4179 at a glance — authority, scope and what it demands",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Authority",
-     "Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them.",
-     "The body that issues, audits and can withdraw"
-    ],
-    [
-     "Applies to",
-     "NDT providers and in-house NDT functions serving aerospace manufacturing, maintenance, repair and overhaul — engine and airframe shops, casting and forging suppliers,.",
-     "Whether this binds your firm at all"
-    ],
-    [
-     "Personnel certification",
-     "Employer-based — the firm certifies its own, under a qualified Level III",
-     "Decides whether an outsourced Level III can sign for you"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Track the dates the regime sets, not from memory"
-    ],
-    [
-     "Methods in scope",
-     "PT, MT, UT, PAUT, RT (film), RT-D / digital radiography",
-     "Each method needs its own procedure and qualified personnel"
-    ],
-    [
-     "Industries",
-     "Aerospace manufacturing, Aviation MRO and overhaul, Engine components, Castings and forgings, Defence aviation",
-     "Where this regime shows up in contracts"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "Who does NAS 410 / EN 4179 apply to?",
-    "a": "NDT providers and in-house NDT functions serving aerospace manufacturing, maintenance, repair and overhaul — engine and airframe shops, casting and forging suppliers, and independent NDT houses on aerospace approved-supplier lists. Primes flow the requirement down through purchase orders, and Nadcap audits it under AC7114. Firms selling into both US and European aerospace supply chains have to satisfy the NAS 410 and EN 4179 halves consistently."
-   },
-   {
-    "q": "Can an outsourced Level III sign for NAS 410 / EN 4179 compliance?",
-    "a": "Yes. NAS 410 / EN 4179 accepts employer-based certification, which places the obligation on the employer and allows a contracted Level III to write and sign the written practice, approve procedures and administer examinations. The Level III must be qualified in each method they sign for, and the employer still owns the records."
-   },
-   {
-    "q": "What documents does a NAS 410 / EN 4179 audit ask for?",
-    "a": "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3, Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications, Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records, Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme, NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3. Auditors open records before they open manuals, because a manual describes intent while records show practice. The most common failure is a documented system that does not match what the technicians actually do."
-   },
-   {
-    "q": "How often is NAS 410 / EN 4179 renewed?",
-    "a": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance."
-   },
-   {
-    "q": "What are the most common NAS 410 / EN 4179 findings?",
-    "a": "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances, Required pre-audit package not sent to the auditor 30 days before the audit, Corrective actions from the previous Nadcap audit no longer implemented at the following audit, Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services. These recur because they are records problems rather than capability problems — the work is being done correctly and the evidence is not being kept."
-   },
-   {
-    "q": "Which NDT methods does NAS 410 / EN 4179 cover?",
-    "a": "PT, MT, UT, PAUT, RT (film), RT-D / digital radiography, ET. Each method in scope needs its own approved procedure and personnel qualified in that specific method; a Level III qualified in ultrasonics cannot sign for radiography."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Personnel certification under NAS 410 / EN 4179",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   },
-   {
-    "heading": "The audit sequence",
-    "paragraphs": [],
-    "items": [
-     "Apply for Nadcap accreditation through PRI's eAuditNet / EANSM platform and select the AC7114 checklists matching the methods and techniques actually performed",
-     "Complete the self-audit against those checklists including all applicable job audits, and send the required package to the auditor 30 days before the audit",
-     "On-site audit covering scope and general information, customer and procurement requirements, internal NDT audits, personnel proficiency and certification records, examinations and vision testing, Level 3 responsibilities and inspection status control — plus live job audits on real parts",
-     "Auditor uploads nonconformance reports; the supplier responds with root cause and corrective action, reviewed by PRI staff engineers",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit",
-     "First reaccreditation audit within twelve months of the initial audit; subsequent reaccreditation intervals extend to 18 or 24 months under the Supplier Merit Program based on audit performance"
-    ]
-   },
-   {
-    "heading": "Documents an auditor asks for",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Findings firms get against NAS 410 / EN 4179",
-    "paragraphs": [],
-    "items": [
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "Required pre-audit package not sent to the auditor 30 days before the audit",
-     "Corrective actions from the previous Nadcap audit no longer implemented at the following audit",
-     "Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services",
-     "Written procedure and observed practice disagree during a job audit — the technique the operator ran is not the technique the procedure specifies",
-     "Equivalency of experience carried in from a prior employer or programme not evaluated and documented by the Responsible Level 3 or the NANDTB",
-     "Written practice not approved, or not re-approved, by the current Responsible Level 3 after a personnel change",
-     "Process timing steps missed during a job audit — PRI's published lists cite eddy current step-one timing among the recurring job-audit nonconformances",
-     "US firm holding only a NAS 410 Level 3 finds it insufficient for a European customer who requires a NANDTB-approved Level 3"
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "hub"
- },
- {
-  "slug": "/compliance/nas-410/audit-preparation",
-  "title": "NAS 410 / EN 4179 Audit Preparation",
-  "description": "How a NAS 410 / EN 4179 audit runs, what Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and p",
-  "h1": "NAS 410 / EN 4179 Audit Preparation for Inspection Companies",
-  "answer": "A NAS 410 / EN 4179 audit runs in 6 stages, beginning with apply for nadcap accreditation through pri's eauditnet / eansm platform and select.. Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN.",
-  "expansion": "NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires. What separates firms that clear an audit from firms that collect findings is not the quality of the documentation but whether it describes what actually happens. The finding recorded most often is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "NAS 410 / EN 4179 audit — stages and what each tests",
-   "columns": [
-    "Stage",
-    "What happens",
-    "What it tests"
-   ],
-   "rows": [
-    [
-     "Stage 1",
-     "Apply for Nadcap accreditation through PRI's eAuditNet / EANSM platform and select the AC7114 checklists matching the methods and techniques.",
-     "Where the paperwork is tested against itself"
-    ],
-    [
-     "Stage 2",
-     "Complete the self-audit against those checklists including all applicable job audits, and send the required package to the auditor 30.",
-     "Where the paperwork is tested against practice"
-    ],
-    [
-     "Stage 3",
-     "On-site audit covering scope and general information, customer and procurement requirements, internal NDT audits, personnel proficiency and certification records, examinations.",
-     "Where the paperwork is tested against practice"
-    ],
-    [
-     "Stage 4",
-     "Auditor uploads nonconformance reports; the supplier responds with root cause and corrective action, reviewed by PRI staff engineers",
-     "Where the paperwork is tested against practice"
-    ],
-    [
-     "Stage 5",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit",
-     "Where the paperwork is tested against practice"
-    ],
-    [
-     "Stage 6",
-     "First reaccreditation audit within twelve months of the initial audit; subsequent reaccreditation intervals extend to 18 or 24 months under.",
-     "Where the paperwork is tested against practice"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Tracked from the dates the regime sets, not the last audit"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "How long does NAS 410 / EN 4179 audit preparation take?",
-    "a": "Document work — the written practice, procedures and quality manual — takes weeks. What cannot be compressed is documented experience and records history: on-the-job hours accrue in real time, and calibration and certification history cannot be back-filled. Firms that start when the audit is scheduled rather than announced clear it without findings."
-   },
-   {
-    "q": "What does a NAS 410 / EN 4179 auditor look at first?",
-    "a": "Records, not manuals. A manual states intent; records show practice. The usual opening move is to take a completed job and trace it back to the technician's certification, the instrument's calibration, the approved procedure and the report — and see whether all four reconcile."
-   },
-   {
-    "q": "What are the most common NAS 410 / EN 4179 findings?",
-    "a": "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances, Required pre-audit package not sent to the auditor 30 days before the audit, Corrective actions from the previous Nadcap audit no longer implemented at the following audit, Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services. Almost all of them are evidence problems rather than capability problems: the work was done correctly and the proof was not kept, or was kept somewhere the firm could not retrieve during the audit."
-   },
-   {
-    "q": "Can a consultant attend the NAS 410 / EN 4179 audit?",
-    "a": "Yes, and it changes the outcome. Someone who has sat through the same audit at other firms answers in the auditor's own terms, produces the right record without a search, and stops a clarification turning into a finding. The firm still owns every answer — the consultant does not speak for it."
-   },
-   {
-    "q": "What happens after a NAS 410 / EN 4179 finding?",
-    "a": "A corrective action with a deadline, and evidence of closure at the next audit. Repeat findings are treated far more seriously than first ones, because they show the corrective-action system itself is not working."
-   },
-   {
-    "q": "Does NAS 410 / EN 4179 require a pre-audit or gap assessment?",
-    "a": "Not as a requirement, but the arithmetic favours it: a gap assessment finds the same evidence problems the auditor would, without the finding attached, and while there is still time to fix them. Firms entering their first NAS 410 / EN 4179 audit blind typically collect findings that a sampling exercise would have caught."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "What the auditor asks to see",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Findings to close before the audit",
-    "paragraphs": [],
-    "items": [
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "Required pre-audit package not sent to the auditor 30 days before the audit",
-     "Corrective actions from the previous Nadcap audit no longer implemented at the following audit",
-     "Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services",
-     "Written procedure and observed practice disagree during a job audit — the technique the operator ran is not the technique the procedure specifies",
-     "Equivalency of experience carried in from a prior employer or programme not evaluated and documented by the Responsible Level 3 or the NANDTB",
-     "Written practice not approved, or not re-approved, by the current Responsible Level 3 after a personnel change",
-     "Process timing steps missed during a job audit — PRI's published lists cite eddy current step-one timing among the recurring job-audit nonconformances",
-     "US firm holding only a NAS 410 Level 3 finds it insufficient for a European customer who requires a NANDTB-approved Level 3"
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "audit"
- },
- {
-  "slug": "/compliance/nas-410/written-practice",
-  "title": "Written Practice for NAS 410 / EN 4179",
-  "description": "What a written practice must contain under NAS 410 / EN 4179, who signs it, and how Aerospace Industries Association (AIA) publishes NAS 410, distributed through Acc",
-  "h1": "Written Practice for NAS 410 / EN 4179",
-  "answer": "NAS 410 / EN 4179 names this requirement as \"Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3\". The employer's Level III owns it, and a contracted Level III can author and sign it.",
-  "expansion": "The finding auditors record against this document is: Written procedure and observed practice disagree during a job audit — the technique the operator ran is not the technique the procedure specifies. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Written Practice under NAS 410 / EN 4179 — owner, content and how it is tested",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Document",
-     "Written Practice",
-     "the document that defines how the employer qualifies and certifies its own NDT personnel"
-    ],
-    [
-     "Owner",
-     "the employer's Level III",
-     "The signature an auditor traces back"
-    ],
-    [
-     "Where it is checked",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit; First reaccreditation audit within twelve months.",
-     "Usually against a sampled job, not in isolation"
-    ],
-    [
-     "Common failure",
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "The gap between the manual and the job file"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "What must a written practice contain under NAS 410 / EN 4179?",
-    "a": "It has to satisfy NAS 410 / EN 4179 as Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them. enforces it: the document that defines how the employer qualifies and certifies its own NDT personnel. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
-   },
-   {
-    "q": "Who signs the written practice for NAS 410 / EN 4179?",
-    "a": "The employer's Level III. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
-   },
-   {
-    "q": "How does a NAS 410 / EN 4179 auditor test this document?",
-    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
-   },
-   {
-    "q": "How long must NAS 410 / EN 4179 records be kept?",
-    "a": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
-   },
-   {
-    "q": "Does a generic template satisfy NAS 410 / EN 4179?",
-    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
-   },
-   {
-    "q": "What happens if this document is missing at a NAS 410 / EN 4179 audit?",
-    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances"
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Where this sits in the NAS 410 / EN 4179 evidence pack",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Personnel certification context",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "document"
- },
- {
-  "slug": "/compliance/nas-410/equipment-calibration-records",
-  "title": "Equipment Calibration Records for NAS 410 / EN 4179",
-  "description": "What a equipment calibration records must contain under NAS 410 / EN 4179, who signs it, and how Aerospace Industries Association (AIA) publishes NAS 410, distribute",
-  "h1": "Equipment Calibration Records for NAS 410 / EN 4179",
-  "answer": "NAS 410 / EN 4179 names this requirement as \"Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors\". The equipment custodian owns it, and a contracted Level III can author and sign it.",
-  "expansion": "The finding auditors record against this document is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Equipment Calibration Records under NAS 410 / EN 4179 — owner, content and how it is tested",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Document",
-     "Equipment Calibration Records",
-     "the traceable evidence that every instrument was in calibration on the day it was used"
-    ],
-    [
-     "Owner",
-     "the equipment custodian",
-     "The signature an auditor traces back"
-    ],
-    [
-     "Where it is checked",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit; First reaccreditation audit within twelve months.",
-     "Usually against a sampled job, not in isolation"
-    ],
-    [
-     "Common failure",
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "The gap between the manual and the job file"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "What must a equipment calibration records contain under NAS 410 / EN 4179?",
-    "a": "It has to satisfy NAS 410 / EN 4179 as Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them. enforces it: the traceable evidence that every instrument was in calibration on the day it was used. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
-   },
-   {
-    "q": "Who signs the equipment calibration records for NAS 410 / EN 4179?",
-    "a": "The equipment custodian. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
-   },
-   {
-    "q": "How does a NAS 410 / EN 4179 auditor test this document?",
-    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
-   },
-   {
-    "q": "How long must NAS 410 / EN 4179 records be kept?",
-    "a": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
-   },
-   {
-    "q": "Does a generic template satisfy NAS 410 / EN 4179?",
-    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
-   },
-   {
-    "q": "What happens if this document is missing at a NAS 410 / EN 4179 audit?",
-    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances"
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Where this sits in the NAS 410 / EN 4179 evidence pack",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Personnel certification context",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "document"
- },
- {
-  "slug": "/compliance/nas-410/examination-records",
-  "title": "Examination Records for NAS 410 / EN 4179",
-  "description": "What a examination records must contain under NAS 410 / EN 4179, who signs it, and how Aerospace Industries Association (AIA) publishes NAS 410, distributed through ",
-  "h1": "Examination Records for NAS 410 / EN 4179",
-  "answer": "NAS 410 / EN 4179 names this requirement as \"Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records\". The employer's Level III owns it, and a contracted Level III can author and sign it.",
-  "expansion": "The finding auditors record against this document is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Examination Records under NAS 410 / EN 4179 — owner, content and how it is tested",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Document",
-     "Examination Records",
-     "the general, specific and practical examination papers and results behind each certification"
-    ],
-    [
-     "Owner",
-     "the employer's Level III",
-     "The signature an auditor traces back"
-    ],
-    [
-     "Where it is checked",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit; First reaccreditation audit within twelve months.",
-     "Usually against a sampled job, not in isolation"
-    ],
-    [
-     "Common failure",
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "The gap between the manual and the job file"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "What must a examination records contain under NAS 410 / EN 4179?",
-    "a": "It has to satisfy NAS 410 / EN 4179 as Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them. enforces it: the general, specific and practical examination papers and results behind each certification. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
-   },
-   {
-    "q": "Who signs the examination records for NAS 410 / EN 4179?",
-    "a": "The employer's Level III. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
-   },
-   {
-    "q": "How does a NAS 410 / EN 4179 auditor test this document?",
-    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
-   },
-   {
-    "q": "How long must NAS 410 / EN 4179 records be kept?",
-    "a": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
-   },
-   {
-    "q": "Does a generic template satisfy NAS 410 / EN 4179?",
-    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
-   },
-   {
-    "q": "What happens if this document is missing at a NAS 410 / EN 4179 audit?",
-    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances"
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Where this sits in the NAS 410 / EN 4179 evidence pack",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Personnel certification context",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "document"
- },
- {
-  "slug": "/compliance/nas-410/records-retention",
-  "title": "Records Retention Schedule for NAS 410 / EN 4179",
-  "description": "What a records retention schedule must contain under NAS 410 / EN 4179, who signs it, and how Aerospace Industries Association (AIA) publishes NAS 410, distributed t",
-  "h1": "Records Retention Schedule for NAS 410 / EN 4179",
-  "answer": "NAS 410 / EN 4179 names this requirement as \"Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications\". The QA manager owns it, and a contracted Level III can author and sign it.",
-  "expansion": "The finding auditors record against this document is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Records Retention Schedule under NAS 410 / EN 4179 — owner, content and how it is tested",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Document",
-     "Records Retention Schedule",
-     "how long each record is kept, where, and who can retrieve it during an audit"
-    ],
-    [
-     "Owner",
-     "the QA manager",
-     "The signature an auditor traces back"
-    ],
-    [
-     "Where it is checked",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit; First reaccreditation audit within twelve months.",
-     "Usually against a sampled job, not in isolation"
-    ],
-    [
-     "Common failure",
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "The gap between the manual and the job file"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "What must a records retention schedule contain under NAS 410 / EN 4179?",
-    "a": "It has to satisfy NAS 410 / EN 4179 as Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them. enforces it: how long each record is kept, where, and who can retrieve it during an audit. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
-   },
-   {
-    "q": "Who signs the records retention schedule for NAS 410 / EN 4179?",
-    "a": "The QA manager. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
-   },
-   {
-    "q": "How does a NAS 410 / EN 4179 auditor test this document?",
-    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
-   },
-   {
-    "q": "How long must NAS 410 / EN 4179 records be kept?",
-    "a": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
-   },
-   {
-    "q": "Does a generic template satisfy NAS 410 / EN 4179?",
-    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
-   },
-   {
-    "q": "What happens if this document is missing at a NAS 410 / EN 4179 audit?",
-    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances"
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Where this sits in the NAS 410 / EN 4179 evidence pack",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Personnel certification context",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "document"
- },
- {
-  "slug": "/compliance/nas-410/corrective-actions",
-  "title": "Corrective Action Records for NAS 410 / EN 4179",
-  "description": "What a corrective action records must contain under NAS 410 / EN 4179, who signs it, and how Aerospace Industries Association (AIA) publishes NAS 410, distributed th",
-  "h1": "Corrective Action Records for NAS 410 / EN 4179",
-  "answer": "NAS 410 / EN 4179 names this requirement as \"Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented\". The management representative owns it, and a contracted Level III can author and sign it.",
-  "expansion": "The finding auditors record against this document is: Corrective actions from the previous Nadcap audit no longer implemented at the following audit. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Corrective Action Records under NAS 410 / EN 4179 — owner, content and how it is tested",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Document",
-     "Corrective Action Records",
-     "what the firm did about previous findings, which is the first thing a repeat auditor opens"
-    ],
-    [
-     "Owner",
-     "the management representative",
-     "The signature an auditor traces back"
-    ],
-    [
-     "Where it is checked",
-     "The Nadcap NDT Task Group votes to accredit, fail, or issue merit; First reaccreditation audit within twelve months.",
-     "Usually against a sampled job, not in isolation"
-    ],
-    [
-     "Common failure",
-     "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-     "The gap between the manual and the job file"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "What must a corrective action records contain under NAS 410 / EN 4179?",
-    "a": "It has to satisfy NAS 410 / EN 4179 as Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them. enforces it: what the firm did about previous findings, which is the first thing a repeat auditor opens. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
-   },
-   {
-    "q": "Who signs the corrective action records for NAS 410 / EN 4179?",
-    "a": "The management representative. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
-   },
-   {
-    "q": "How does a NAS 410 / EN 4179 auditor test this document?",
-    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
-   },
-   {
-    "q": "How long must NAS 410 / EN 4179 records be kept?",
-    "a": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
-   },
-   {
-    "q": "Does a generic template satisfy NAS 410 / EN 4179?",
-    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
-   },
-   {
-    "q": "What happens if this document is missing at a NAS 410 / EN 4179 audit?",
-    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances"
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Where this sits in the NAS 410 / EN 4179 evidence pack",
-    "paragraphs": [],
-    "items": [
-     "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-     "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-     "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-     "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-     "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-     "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-    ]
-   },
-   {
-    "heading": "Personnel certification context",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "document"
- },
- {
-  "slug": "/compliance/nas-410/pt",
-  "title": "PT Requirements Under NAS 410 / EN 4179",
-  "description": "What NAS 410 / EN 4179 requires for Liquid Penetrant Testing: procedure approval, personnel qualification, equipment evidence and what an auditor samples.",
-  "h1": "Liquid Penetrant Testing (PT) Requirements Under NAS 410 / EN 4179",
-  "answer": "Consumables are batch-controlled: certificates for each batch, contamination checks, and the sulphur and halogen limits where the material demands it. NAS 410 / EN 4179, enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris.: Employer-based, with a named accountable individual.",
-  "expansion": "An auditor examining PT asks for penetrant, developer, cleaner and emulsifier batch records, plus the light meters for the inspection environment. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Liquid Penetrant Testing under NAS 410 / EN 4179 — procedure, personnel and evidence",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Method",
-     "Liquid Penetrant Testing (PT)",
-     "Needs its own procedure and its own qualified personnel"
-    ],
-    [
-     "Procedure approval",
-     "The employer's Level III, qualified in this method",
-     "The signature an auditor traces"
-    ],
-    [
-     "Other methods in scope",
-     "MT, UT, PAUT, RT (film), RT-D / digital radiography, ET",
-     "Each needs separate qualification"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Applies to the personnel certification behind this method"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "Does NAS 410 / EN 4179 require a separate procedure for PT?",
-    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
-   },
-   {
-    "q": "Who can approve a PT procedure under NAS 410 / EN 4179?",
-    "a": "A Level III qualified in PT. Because NAS 410 / EN 4179 accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover PT, and an auditor will check that before accepting the signature."
-   },
-   {
-    "q": "What PT records does a NAS 410 / EN 4179 audit sample?",
-    "a": "The approved procedure, the technician's PT certification on the date of work, and the equipment evidence — penetrant, developer, cleaner and emulsifier batch records, plus the light meters for the inspection environment. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
-   },
-   {
-    "q": "What is the most common PT finding at audit?",
-    "a": "Batch certificates missing for consumables used, or dwell time not recorded. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under NAS 410 / EN 4179 is recorded the same way as not having done the work."
-   },
-   {
-    "q": "Can a technician certified elsewhere perform PT under NAS 410 / EN 4179?",
-    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
-   },
-   {
-    "q": "What equipment evidence does PT need under NAS 410 / EN 4179?",
-    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
-   },
-   {
-    "q": "How do PT requirements differ from the other methods in NAS 410 / EN 4179?",
-    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. NAS 410 / EN 4179 also covers MT, UT, PAUT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Personnel certification for PT",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "method"
- },
- {
-  "slug": "/compliance/nas-410/mt",
-  "title": "MT Requirements Under NAS 410 / EN 4179",
-  "description": "What NAS 410 / EN 4179 requires for Magnetic Particle Testing: procedure approval, personnel qualification, equipment evidence and what an auditor samples.",
-  "h1": "Magnetic Particle Testing (MT) Requirements Under NAS 410 / EN 4179",
-  "answer": "System performance is verified rather than assumed: lift tests on yokes and field indicator checks are dated records an auditor expects to see per shift or per job. NAS 410 / EN 4179, enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris.: Employer-based, with a named accountable individual.",
-  "expansion": "An auditor examining MT asks for yoke or bench unit, ammeter, field indicators, lift-test weights and the consumables in use. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Magnetic Particle Testing under NAS 410 / EN 4179 — procedure, personnel and evidence",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Method",
-     "Magnetic Particle Testing (MT)",
-     "Needs its own procedure and its own qualified personnel"
-    ],
-    [
-     "Procedure approval",
-     "The employer's Level III, qualified in this method",
-     "The signature an auditor traces"
-    ],
-    [
-     "Other methods in scope",
-     "PT, UT, PAUT, RT (film), RT-D / digital radiography, ET",
-     "Each needs separate qualification"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Applies to the personnel certification behind this method"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "Does NAS 410 / EN 4179 require a separate procedure for MT?",
-    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
-   },
-   {
-    "q": "Who can approve a MT procedure under NAS 410 / EN 4179?",
-    "a": "A Level III qualified in MT. Because NAS 410 / EN 4179 accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover MT, and an auditor will check that before accepting the signature."
-   },
-   {
-    "q": "What MT records does a NAS 410 / EN 4179 audit sample?",
-    "a": "The approved procedure, the technician's MT certification on the date of work, and the equipment evidence — yoke or bench unit, ammeter, field indicators, lift-test weights and the consumables in use. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
-   },
-   {
-    "q": "What is the most common MT finding at audit?",
-    "a": "Yoke lift test not recorded, or field adequacy not demonstrated for the geometry. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under NAS 410 / EN 4179 is recorded the same way as not having done the work."
-   },
-   {
-    "q": "Can a technician certified elsewhere perform MT under NAS 410 / EN 4179?",
-    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
-   },
-   {
-    "q": "What equipment evidence does MT need under NAS 410 / EN 4179?",
-    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
-   },
-   {
-    "q": "How do MT requirements differ from the other methods in NAS 410 / EN 4179?",
-    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. NAS 410 / EN 4179 also covers PT, UT, PAUT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Personnel certification for MT",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "method"
- },
- {
-  "slug": "/compliance/nas-410/ut",
-  "title": "UT Requirements Under NAS 410 / EN 4179",
-  "description": "What NAS 410 / EN 4179 requires for Ultrasonic Testing: procedure approval, personnel qualification, equipment evidence and what an auditor samples.",
-  "h1": "Ultrasonic Testing (UT) Requirements Under NAS 410 / EN 4179",
-  "answer": "Sensitivity setting is the auditable step: the reference block used must itself be in calibration and traceable, and its identity recorded on the report. NAS 410 / EN 4179, enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris.: Employer-based, with a named accountable individual.",
-  "expansion": "An auditor examining UT asks for instrument, probes, cables, couplant, and the calibration and reference blocks used to set sensitivity. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Ultrasonic Testing under NAS 410 / EN 4179 — procedure, personnel and evidence",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Method",
-     "Ultrasonic Testing (UT)",
-     "Needs its own procedure and its own qualified personnel"
-    ],
-    [
-     "Procedure approval",
-     "The employer's Level III, qualified in this method",
-     "The signature an auditor traces"
-    ],
-    [
-     "Other methods in scope",
-     "PT, MT, PAUT, RT (film), RT-D / digital radiography, ET",
-     "Each needs separate qualification"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Applies to the personnel certification behind this method"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "Does NAS 410 / EN 4179 require a separate procedure for UT?",
-    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
-   },
-   {
-    "q": "Who can approve a UT procedure under NAS 410 / EN 4179?",
-    "a": "A Level III qualified in UT. Because NAS 410 / EN 4179 accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover UT, and an auditor will check that before accepting the signature."
-   },
-   {
-    "q": "What UT records does a NAS 410 / EN 4179 audit sample?",
-    "a": "The approved procedure, the technician's UT certification on the date of work, and the equipment evidence — instrument, probes, cables, couplant, and the calibration and reference blocks used to set sensitivity. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
-   },
-   {
-    "q": "What is the most common UT finding at audit?",
-    "a": "An in-calibration instrument used with an unidentified or out-of-calibration reference block. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under NAS 410 / EN 4179 is recorded the same way as not having done the work."
-   },
-   {
-    "q": "Can a technician certified elsewhere perform UT under NAS 410 / EN 4179?",
-    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
-   },
-   {
-    "q": "What equipment evidence does UT need under NAS 410 / EN 4179?",
-    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
-   },
-   {
-    "q": "How do UT requirements differ from the other methods in NAS 410 / EN 4179?",
-    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. NAS 410 / EN 4179 also covers PT, MT, PAUT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Personnel certification for UT",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "method"
- },
- {
-  "slug": "/compliance/nas-410/paut",
-  "title": "PAUT Requirements Under NAS 410 / EN 4179",
-  "description": "What NAS 410 / EN 4179 requires for Phased Array Ultrasonics: procedure approval, personnel qualification, equipment evidence and what an auditor samples.",
-  "h1": "Phased Array Ultrasonics (PAUT) Requirements Under NAS 410 / EN 4179",
-  "answer": "Procedure qualification usually requires a demonstration on a representative flawed sample, and the scan plan forms part of the approved procedure rather than a field decision. NAS 410 / EN 4179, enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris.: Employer-based, with a named accountable individual.",
-  "expansion": "An auditor examining PAUT asks for the phased array unit, wedges, encoders, and the calibration blocks used for wedge delay, sensitivity and TCG. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Phased Array Ultrasonics under NAS 410 / EN 4179 — procedure, personnel and evidence",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Method",
-     "Phased Array Ultrasonics (PAUT)",
-     "Needs its own procedure and its own qualified personnel"
-    ],
-    [
-     "Procedure approval",
-     "The employer's Level III, qualified in this method",
-     "The signature an auditor traces"
-    ],
-    [
-     "Other methods in scope",
-     "PT, MT, UT, RT (film), RT-D / digital radiography, ET",
-     "Each needs separate qualification"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Applies to the personnel certification behind this method"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "Does NAS 410 / EN 4179 require a separate procedure for PAUT?",
-    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
-   },
-   {
-    "q": "Who can approve a PAUT procedure under NAS 410 / EN 4179?",
-    "a": "A Level III qualified in PAUT. Because NAS 410 / EN 4179 accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover PAUT, and an auditor will check that before accepting the signature."
-   },
-   {
-    "q": "What PAUT records does a NAS 410 / EN 4179 audit sample?",
-    "a": "The approved procedure, the technician's PAUT certification on the date of work, and the equipment evidence — the phased array unit, wedges, encoders, and the calibration blocks used for wedge delay, sensitivity and TCG. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
-   },
-   {
-    "q": "What is the most common PAUT finding at audit?",
-    "a": "Data acquired outside the scan plan the procedure qualified, or encoder position not recorded. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under NAS 410 / EN 4179 is recorded the same way as not having done the work."
-   },
-   {
-    "q": "Can a technician certified elsewhere perform PAUT under NAS 410 / EN 4179?",
-    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
-   },
-   {
-    "q": "What equipment evidence does PAUT need under NAS 410 / EN 4179?",
-    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
-   },
-   {
-    "q": "How do PAUT requirements differ from the other methods in NAS 410 / EN 4179?",
-    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. NAS 410 / EN 4179 also covers PT, MT, UT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Personnel certification for PAUT",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "method"
- },
- {
-  "slug": "/compliance/nas-410/et",
-  "title": "ET Requirements Under NAS 410 / EN 4179",
-  "description": "What NAS 410 / EN 4179 requires for Eddy Current Testing: procedure approval, personnel qualification, equipment evidence and what an auditor samples.",
-  "h1": "Eddy Current Testing (ET) Requirements Under NAS 410 / EN 4179",
-  "answer": "Response is set against a reference standard for the specific material and geometry, so a standard qualified for one alloy does not carry to another. NAS 410 / EN 4179, enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris.: Employer-based, with a named accountable individual.",
-  "expansion": "An auditor examining ET asks for instrument, probes, and the reference standards carrying the notches or holes used to set the response. NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "source": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026.",
-  "table": {
-   "caption": "Eddy Current Testing under NAS 410 / EN 4179 — procedure, personnel and evidence",
-   "columns": [
-    "Item",
-    "What applies",
-    "Why it matters"
-   ],
-   "rows": [
-    [
-     "Regime",
-     "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-     "Enforced by Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them."
-    ],
-    [
-     "Method",
-     "Eddy Current Testing (ET)",
-     "Needs its own procedure and its own qualified personnel"
-    ],
-    [
-     "Procedure approval",
-     "The employer's Level III, qualified in this method",
-     "The signature an auditor traces"
-    ],
-    [
-     "Other methods in scope",
-     "PT, MT, UT, PAUT, RT (film), RT-D / digital radiography",
-     "Each needs separate qualification"
-    ],
-    [
-     "Renewal",
-     "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-     "Applies to the personnel certification behind this method"
-    ]
-   ]
-  },
-  "facets": [
-   {
-    "q": "Does NAS 410 / EN 4179 require a separate procedure for ET?",
-    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
-   },
-   {
-    "q": "Who can approve a ET procedure under NAS 410 / EN 4179?",
-    "a": "A Level III qualified in ET. Because NAS 410 / EN 4179 accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover ET, and an auditor will check that before accepting the signature."
-   },
-   {
-    "q": "What ET records does a NAS 410 / EN 4179 audit sample?",
-    "a": "The approved procedure, the technician's ET certification on the date of work, and the equipment evidence — instrument, probes, and the reference standards carrying the notches or holes used to set the response. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
-   },
-   {
-    "q": "What is the most common ET finding at audit?",
-    "a": "Reference standard not representative of the material or geometry examined. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under NAS 410 / EN 4179 is recorded the same way as not having done the work."
-   },
-   {
-    "q": "Can a technician certified elsewhere perform ET under NAS 410 / EN 4179?",
-    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
-   },
-   {
-    "q": "What equipment evidence does ET need under NAS 410 / EN 4179?",
-    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
-   },
-   {
-    "q": "How do ET requirements differ from the other methods in NAS 410 / EN 4179?",
-    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. NAS 410 / EN 4179 also covers PT, MT, UT, PAUT, RT (film), and each carries its own procedure, its own personnel qualification and its own equipment evidence."
-   }
-  ],
-  "sections": [
-   {
-    "heading": "Personnel certification for ET",
-    "paragraphs": [
-     "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3."
-    ]
-   }
-  ],
-  "related": [
-   {
-    "to": "/compliance/nas-410",
-    "label": "the NAS 410 / EN 4179 overview"
-   },
-   {
-    "to": "/consulting/ndt-consulting-level-iii",
-    "label": "outsourced ASNT Level III cover"
-   },
-   {
-    "to": "/ndt-written-practice-development",
-    "label": "written practice development"
-   },
-   {
-    "to": "/consulting/ndt-technical-procedure-development",
-    "label": "NDT procedure development"
-   },
-   {
-    "to": "/consulting/ndt-program-audit-gap-assessment",
-    "label": "a programme gap assessment"
-   },
-   {
-    "to": "/consulting/interim-ndt-level-3",
-    "label": "interim Level III cover"
-   }
-  ],
-  "kind": "method"
- },
- {
   "slug": "/compliance/iso-9712",
   "title": "ISO 9712 Compliance for Inspection Companies",
   "description": "Inspection service providers bidding work where the client specification names ISO 9712, EN ISO 9712 or a national identical adoption instead of an employer-based.",
@@ -35485,7 +34049,7 @@
    {
     "heading": "Personnel certification under Nadcap NDT / AC7114",
     "paragraphs": [
-     "Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to NAS 410/EN 4179. The employer, not the contractor, still signs the certifications."
+     "Employer-based. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to the customer-specified aerospace standard. The employer, not the contractor, still signs the certifications."
     ]
    },
    {
@@ -35512,8 +34076,7 @@
      "Subscriber Matrix of Nadcap Subscribers that have approved the supplier for NDT — inaccuracy here is stated cause for a follow-up audit",
      "Personnel certification packages: training records, experience, latest written and practical examinations, vision and colour-perception records",
      "Annual internal NDT audit records, and the documented annual maintenance (technical proficiency) review for each certified individual in each method",
-     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended",
-     "Proof on file of NAS 410 / EN 4179 certification for any outside-agency or corporate Level 3 used for examinations, procedure or technique approval, hardware inspection, or as Responsible Level 3"
+     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended"
     ]
    },
    {
@@ -35525,7 +34088,6 @@
      "Techniques shown on an individual's certificate that do not appear as techniques in the written practice (question 5.2.3)",
      "Near-vision examination not repeated annually, colour perception not repeated at least every five years, or the exam administered by someone not designated in writing by the Responsible Level 3 (questions 5.4.6, 5.4.7)",
      "No documented annual maintenance review in each method for each individual certified to process and inspect hardware — the requirement applies to Level 3s too, and the record must name reviewee, reviewer, process and acceptance criteria, part identification, method and disposition",
-     "No proof on file of the outside or corporate Level 3's NAS 410 / EN 4179 certification (question 5.5.4)",
      "Annual internal NDT audit missing, or not covering the inspection process, planning and traveller documentation, personnel certification records, procedures and equipment",
      "Inspection status identifiers (stamps, initials, clock numbers) not controlled — no issue, recall and traceability register, or an identifier available to someone other than the individual it is assigned to"
     ]
@@ -35651,8 +34213,7 @@
      "Subscriber Matrix of Nadcap Subscribers that have approved the supplier for NDT — inaccuracy here is stated cause for a follow-up audit",
      "Personnel certification packages: training records, experience, latest written and practical examinations, vision and colour-perception records",
      "Annual internal NDT audit records, and the documented annual maintenance (technical proficiency) review for each certified individual in each method",
-     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended",
-     "Proof on file of NAS 410 / EN 4179 certification for any outside-agency or corporate Level 3 used for examinations, procedure or technique approval, hardware inspection, or as Responsible Level 3"
+     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended"
     ]
    },
    {
@@ -35664,7 +34225,6 @@
      "Techniques shown on an individual's certificate that do not appear as techniques in the written practice (question 5.2.3)",
      "Near-vision examination not repeated annually, colour perception not repeated at least every five years, or the exam administered by someone not designated in writing by the Responsible Level 3 (questions 5.4.6, 5.4.7)",
      "No documented annual maintenance review in each method for each individual certified to process and inspect hardware — the requirement applies to Level 3s too, and the record must name reviewee, reviewer, process and acceptance criteria, part identification, method and disposition",
-     "No proof on file of the outside or corporate Level 3's NAS 410 / EN 4179 certification (question 5.5.4)",
      "Annual internal NDT audit missing, or not covering the inspection process, planning and traveller documentation, personnel certification records, procedures and equipment",
      "Inspection status identifiers (stamps, initials, clock numbers) not controlled — no issue, recall and traceability register, or an identifier available to someone other than the individual it is assigned to"
     ]
@@ -35780,14 +34340,13 @@
      "Subscriber Matrix of Nadcap Subscribers that have approved the supplier for NDT — inaccuracy here is stated cause for a follow-up audit",
      "Personnel certification packages: training records, experience, latest written and practical examinations, vision and colour-perception records",
      "Annual internal NDT audit records, and the documented annual maintenance (technical proficiency) review for each certified individual in each method",
-     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended",
-     "Proof on file of NAS 410 / EN 4179 certification for any outside-agency or corporate Level 3 used for examinations, procedure or technique approval, hardware inspection, or as Responsible Level 3"
+     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended"
     ]
    },
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to NAS 410/EN 4179. The employer, not the contractor, still signs the certifications."
+     "Employer-based. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to the customer-specified aerospace standard. The employer, not the contractor, still signs the certifications."
     ]
    }
   ],
@@ -35901,14 +34460,13 @@
      "Subscriber Matrix of Nadcap Subscribers that have approved the supplier for NDT — inaccuracy here is stated cause for a follow-up audit",
      "Personnel certification packages: training records, experience, latest written and practical examinations, vision and colour-perception records",
      "Annual internal NDT audit records, and the documented annual maintenance (technical proficiency) review for each certified individual in each method",
-     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended",
-     "Proof on file of NAS 410 / EN 4179 certification for any outside-agency or corporate Level 3 used for examinations, procedure or technique approval, hardware inspection, or as Responsible Level 3"
+     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended"
     ]
    },
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to NAS 410/EN 4179. The employer, not the contractor, still signs the certifications."
+     "Employer-based. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to the customer-specified aerospace standard. The employer, not the contractor, still signs the certifications."
     ]
    }
   ],
@@ -36022,14 +34580,13 @@
      "Subscriber Matrix of Nadcap Subscribers that have approved the supplier for NDT — inaccuracy here is stated cause for a follow-up audit",
      "Personnel certification packages: training records, experience, latest written and practical examinations, vision and colour-perception records",
      "Annual internal NDT audit records, and the documented annual maintenance (technical proficiency) review for each certified individual in each method",
-     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended",
-     "Proof on file of NAS 410 / EN 4179 certification for any outside-agency or corporate Level 3 used for examinations, procedure or technique approval, hardware inspection, or as Responsible Level 3"
+     "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended"
     ]
    },
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to NAS 410/EN 4179. The employer, not the contractor, still signs the certifications."
+     "Employer-based. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to the customer-specified aerospace standard. The employer, not the contractor, still signs the certifications."
     ]
    }
   ],
@@ -36066,7 +34623,7 @@
   "title": "PT Requirements Under Nadcap NDT / AC7114",
   "description": "What Nadcap NDT / AC7114 requires for Liquid Penetrant Testing: procedure approval, personnel qualification, equipment evidence and what an auditor samples.",
   "h1": "Liquid Penetrant Testing (PT) Requirements Under Nadcap NDT / AC7114",
-  "answer": "Consumables are batch-controlled: certificates for each batch, contamination checks, and the sulphur and halogen limits where the material demands it. Nadcap NDT / AC7114, enforced by Performance Review Institute (PRI), a not-for-profit affiliate of SAE International, administering Nadcap.: Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals.",
+  "answer": "Consumables are batch-controlled: certificates for each batch, contamination checks, and the sulphur and halogen limits where the material demands it. Nadcap NDT / AC7114, enforced by Performance Review Institute (PRI), a not-for-profit affiliate of SAE International, administering Nadcap.: Employer-based.",
   "expansion": "An auditor examining PT asks for penetrant, developer, cleaner and emulsifier batch records, plus the light meters for the inspection environment. AC7114 is the base checklist of the Nadcap NDT programme, and it audits the NDT quality system rather than any one method. It covers customer requirement flowdown and the sequencing of NDT operations, procurement control over sub-tier calibration and cleaning/etching facilities, an annual internal NDT audit, control and traceability of inspection status identifiers, inspection and traveller records, and calibration including interval extension. Section 5 audits people: the written practice, certification packages, vision records, the Responsible Level 3, outside Level 3 agencies and training course outlines. AC7114 is never used alone — every accredited method adds a slash sheet, and each prime may add a supplemental question set. The general quality system is covered by AS9100/EN9100, AC7004, or ISO/IEC 17025 for test houses.",
   "source": "AC7114 Rev L (Issued 1997-07, Revised 21-SEP-2017, superseding Rev K, to be used on audits starting on or after 31-DEC-2017) read in full for question numbering and Compliance Assessment Guidance. Current revisions confirmed from PRI-issued Nadcap NDT certificates and Scopes of Accreditation: AC7114 Rev S (audits on/after 19-May-2024) and AC7114S Rev R (on/after 10-Nov-2024) on 2025-dated certificates; AC7114 Rev R and AC7114S Rev Q on a certificate expiring 31 May 2026; AC7114 Rev P and AC7114S Rev O on a certificate expiring 31 May 2023. PRI Nadcap FAQ (accreditation length wording) and Getting Started pages, accessed 21 Aug 2026.",
   "table": {
@@ -36138,7 +34695,7 @@
    {
     "heading": "Personnel certification for PT",
     "paragraphs": [
-     "Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to NAS 410/EN 4179. The employer, not the contractor, still signs the certifications."
+     "Employer-based. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to the customer-specified aerospace standard. The employer, not the contractor, still signs the certifications."
     ]
    }
   ],
@@ -36248,7 +34805,7 @@
    {
     "heading": "Personnel certification under AC7114 slash sheets",
     "paragraphs": [
-     "The slash sheets do not create a separate certification scheme — certification stays employer-based to NAS 410/EN 4179 under the base document. What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit. So the Level 3 — internal or external — must hold NAS 410/EN 4179 certification in every method whose slash sheet is on the scope, and personnel certificates must name the technique, not just the method."
+     "What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit."
     ]
    },
    {
@@ -36541,7 +35098,7 @@
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "The slash sheets do not create a separate certification scheme — certification stays employer-based to NAS 410/EN 4179 under the base document. What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit. So the Level 3 — internal or external — must hold NAS 410/EN 4179 certification in every method whose slash sheet is on the scope, and personnel certificates must name the technique, not just the method."
+     "What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit."
     ]
    }
   ],
@@ -36659,7 +35216,7 @@
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "The slash sheets do not create a separate certification scheme — certification stays employer-based to NAS 410/EN 4179 under the base document. What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit. So the Level 3 — internal or external — must hold NAS 410/EN 4179 certification in every method whose slash sheet is on the scope, and personnel certificates must name the technique, not just the method."
+     "What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit."
     ]
    }
   ],
@@ -36769,7 +35326,7 @@
    {
     "heading": "Personnel certification under FAA Part 145 (NDI limited rating)",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    },
    {
@@ -36807,7 +35364,7 @@
      "Quality control manual silent on how proficiency of inspection personnel is established and maintained, which §145.211(c)(1)(iv) requires explicitly",
      "Employee training program treated as generic safety training with no method-specific initial and recurrent NDI content, or training records not retained for the full two years required by §145.163(c)",
      "Vision examinations lapsed beyond the one-year period, or colour-perception limitations never evaluated and approved in writing by the responsible Level III",
-     "Written practice references SNT-TC-1A or NAS 410 but the recertification intervals actually applied do not match the standard the organisation says it follows",
+     "Written practice references SNT-TC-1A but the recertification intervals actually applied do not match the standard the organisation says it follows",
      "Outside agency used for training, qualification or testing without that use being provided for in the written practice, as AC 65-31B paragraph 9b requires",
      "No documented qualification and surveillance of the noncertificated NDT contractor performing work under the repair station certificate",
      "Calibration of NDI measuring and test equipment performed without stated intervals in the quality control manual or without traceability to a national standard"
@@ -36945,7 +35502,7 @@
      "Quality control manual silent on how proficiency of inspection personnel is established and maintained, which §145.211(c)(1)(iv) requires explicitly",
      "Employee training program treated as generic safety training with no method-specific initial and recurrent NDI content, or training records not retained for the full two years required by §145.163(c)",
      "Vision examinations lapsed beyond the one-year period, or colour-perception limitations never evaluated and approved in writing by the responsible Level III",
-     "Written practice references SNT-TC-1A or NAS 410 but the recertification intervals actually applied do not match the standard the organisation says it follows",
+     "Written practice references SNT-TC-1A but the recertification intervals actually applied do not match the standard the organisation says it follows",
      "Outside agency used for training, qualification or testing without that use being provided for in the written practice, as AC 65-31B paragraph 9b requires",
      "No documented qualification and surveillance of the noncertificated NDT contractor performing work under the repair station certificate",
      "Calibration of NDI measuring and test equipment performed without stated intervals in the quality control manual or without traceability to a national standard"
@@ -36986,7 +35543,7 @@
   "description": "What a written practice must contain under FAA Part 145 (NDI limited rating), who signs it, and how Federal Aviation Administration, Flight Standards Service; day-to",
   "h1": "Written Practice for FAA Part 145 (NDI limited rating)",
   "answer": "FAA Part 145 (NDI limited rating) names this requirement as \"Written NDI qualification and certification program — the written practice — describing training, examination, qualification, documentation, proficiency maintenance, and the steps to decertify, retrain or recertify.\". The employer's Level III owns it, and a contracted Level III can author and sign it.",
-  "expansion": "The finding auditors record against this document is: Written practice references SNT-TC-1A or NAS 410 but the recertification intervals actually applied do not match the standard the organisation says it follows. Part 145 does not describe NDT techniques; it regulates the organisation that performs them. The FAA issues a limited rating for 'Nondestructive inspection, testing, and processing' under §145.61(b)(9), and §145.61(c) requires the repair station's operations specifications to name the specification used for the specialized service — either a civil or military specification currently used by industry and approved by the FAA, or one the applicant develops and the FAA approves. Around that sit §145.151 personnel, §145.155 inspection personnel proficiency and English literacy, §145.163 an FAA-approved initial and recurrent training program with records kept at least two years, and §145.211(c) a quality control manual that must describe how inspection personnel proficiency is established and maintained and how measuring and test equipment is calibrated, including intervals.",
+  "expansion": "The finding auditors record against this document is: Written practice references SNT-TC-1A but the recertification intervals actually applied do not match the standard the organisation says it follows. Part 145 does not describe NDT techniques; it regulates the organisation that performs them. The FAA issues a limited rating for 'Nondestructive inspection, testing, and processing' under §145.61(b)(9), and §145.61(c) requires the repair station's operations specifications to name the specification used for the specialized service — either a civil or military specification currently used by industry and approved by the FAA, or one the applicant develops and the FAA approves. Around that sit §145.151 personnel, §145.155 inspection personnel proficiency and English literacy, §145.163 an FAA-approved initial and recurrent training program with records kept at least two years, and §145.211(c) a quality control manual that must describe how inspection personnel proficiency is established and maintained and how measuring and test equipment is calibrated, including intervals.",
   "source": "14 CFR §§145.51, 145.55, 145.59, 145.61, 145.151, 145.155, 145.163, 145.211 as published in the electronic CFR via Cornell LII, current text including Docket FAA-2016-8744 Amdt. 145-31 (81 FR 49163, 27 July 2016) for §145.61 and Amdt. 145-32 (83 FR 9176, 5 March 2018) for §145.163. FAA Advisory Circular 65-31B, 'Training, Qualification, and Certification of Nondestructive Inspection Personnel,' dated 2/24/14, initiated by AFS-300, cancelling AC 65-31A of 25 April 2003, read in full — paragraphs 3, 5d, 5u, 6, 8, 9, 10, 11 and 12. Accessed 21 Aug 2026.",
   "table": {
    "caption": "Written Practice under FAA Part 145 (NDI limited rating) — owner, content and how it is tested",
@@ -37068,7 +35625,7 @@
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37188,7 +35745,7 @@
    {
     "heading": "Personnel certification context",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37297,7 +35854,7 @@
    {
     "heading": "Personnel certification for PT",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37406,7 +35963,7 @@
    {
     "heading": "Personnel certification for MT",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37515,7 +36072,7 @@
    {
     "heading": "Personnel certification for UT",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37624,7 +36181,7 @@
    {
     "heading": "Personnel certification for RT",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37733,7 +36290,7 @@
    {
     "heading": "Personnel certification for ET",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],
@@ -37842,7 +36399,7 @@
    {
     "heading": "Personnel certification for VT",
     "paragraphs": [
-     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
+     "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice."
     ]
    }
   ],

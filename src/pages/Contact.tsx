@@ -64,14 +64,14 @@ const INTENT_FIELDS: Record<string, IntentField[]> = {
    // qualification and certification programmes, audits and ongoing support).
    consulting: [
       { name: "scope", label: "Which Level III path?", options: ["Written practice (SNT-TC-1A / CP-189)", "Procedures and technique sheets", "Qualification and certification programme", "Audits and ongoing Level III support", "Other"] },
-      { name: "standard", label: "Governing document", options: ["SNT-TC-1A", "ANSI/ASNT CP-189", "NAS 410 / EN 4179", "ISO 9712", "Customer specification", "Not sure"] },
+      { name: "standard", label: "Governing document", options: ["SNT-TC-1A", "ANSI/ASNT CP-189",  "ISO 9712", "Customer specification", "Not sure"] },
       { name: "timing", label: "Deadline", options: ["Audit or deadline within 30 days", "Within this quarter", "No fixed date"] },
    ],
    // 2026-10-24 owner: free starter templates on the site; anything more is quoted.
    templates: [
       { name: "need", label: "What do you need?", options: ["Report templates in our format", "Practice or qualification exams", "Procedure or written-practice pack", "Calibration and equipment records", "Something else"] },
       { name: "methods", label: "Methods", placeholder: "e.g. UT, PAUT, RT, MT, PT, IRIS, MFL" },
-      { name: "standard", label: "Industry and code", placeholder: "e.g. refinery, API 570 / ASME B31.3; aerospace, NAS 410" },
+      { name: "standard", label: "Industry and code", placeholder: "e.g." },
    ],
    "3d-scanning": [
       { name: "assetType", label: "What needs scanning?", placeholder: "e.g. plant area, vessel, structure" },

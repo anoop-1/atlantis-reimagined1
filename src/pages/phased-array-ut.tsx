@@ -107,7 +107,7 @@ const industryApplications = [
   },
   {
     title: "Aerospace",
-    detail: "Composite layer inspection for delaminations, disbonds, and voids in carbon fibre structures. Bonded structure assessment per AMS 2630. Titanium airframe weld inspection. Engine component bore inspection using encoded PAUT systems. PAUT of aerospace components requires NADCAP-approved procedures and NAS-410 certified technicians.",
+    detail: "Composite layer inspection for delaminations, disbonds, and voids in carbon fibre structures. Bonded structure assessment per AMS 2630. Titanium airframe weld inspection. Engine component bore inspection using encoded PAUT systems.",
     link: "/ndt-for-aerospace",
   },
   {

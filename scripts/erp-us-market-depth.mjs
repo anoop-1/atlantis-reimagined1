@@ -46,7 +46,7 @@ const TYPE_FIT = {
     <p>Shop work also produces a scheduling texture unlike plant outages: many small jobs, short notice, same-week turnarounds. Work order management that shows which technicians hold the right stamps and who is actually free beats a whiteboard the moment a company runs more than one crew, and job-level costing shows which shop accounts pay for the relationship and which quietly consume it.</p>`,
   aerospace: `
     <h2>The audit reality of aerospace and defence NDT</h2>
-    <p>Aerospace NDT lives under a different regime: NAS 410 personnel requirements, Nadcap special-process audits, OEM approvals per method — and an audit trail expectation that treats a missing record as a nonconformance regardless of whether the work itself was sound. For an inspection company in this market, the system of record is the product: technician qualification histories, eye-exam currency, procedure revisions, equipment calibration chains traceable to standards, all retrievable in the form an auditor expects on the day the auditor asks.</p>
+    <p>For an inspection company in this market, the system of record is the product: technician qualification histories, eye-exam currency, procedure revisions, equipment calibration chains traceable to standards, all retrievable in the form an auditor expects on the day the auditor asks.</p>
     <p>Inspection management software built for this world holds the written practice, the qualification matrix and the calibration register in one place, so audit preparation stops being an annual archaeology project. The companies that do this well quote Nadcap-scope work with confidence; the ones that do not simply avoid the market's best-paying contracts.</p>`,
   marine: `
     <h2>Marine and port inspection: survey-driven, class-society-shaped</h2>
@@ -283,7 +283,7 @@ export const US_MARKETS = {
   'los-angeles': {
     name: 'Los Angeles', type: 'refining',
     base: 'Los Angeles concentrates West Coast refining — the complexes at El Segundo, Carson, Wilmington and Torrance — beside the largest port complex in the hemisphere and an aerospace manufacturing base that never left.',
-    work: 'Refinery API programmes under the country\'s tightest regulatory scrutiny, port crane and terminal examination, and aerospace work carrying NAS 410 personnel requirements.',
+    work: 'Refinery API programmes under the country\'s tightest regulatory scrutiny, port crane and terminal examination, and aerospace work carrying customer-flowed personnel requirements.',
     anchor: 'the refinery belt from El Segundo to Wilmington, the San Pedro Bay terminals, and the aerospace plants across the south bay',
   },
   'long-beach': {
@@ -307,7 +307,7 @@ export const US_MARKETS = {
   seattle: {
     name: 'Seattle', type: 'aerospace',
     base: 'Puget Sound\'s inspection market is aerospace-first — the airframer\'s plants and their supplier web — layered over shipyards, the ports of Seattle and Tacoma, and the refineries up at Anacortes and Cherry Point.',
-    work: 'Aerospace examination under NAS 410 and Nadcap expectations, ship repair and naval work at the yards, port equipment surveys, and refinery programmes north along the sound.',
+    work: 'Aerospace examination under the customer-specified aerospace standard and Nadcap expectations, ship repair and naval work at the yards, port equipment surveys, and refinery programmes north along the sound.',
     anchor: 'the airframe plants at Everett and Renton, the shipyards at Bremerton and Harbor Island, and the refineries near Anacortes',
   },
   portland: {
@@ -343,7 +343,7 @@ export const US_MARKETS = {
   'fort-worth': {
     name: 'Fort Worth', type: 'aerospace',
     base: 'Fort Worth builds fighters and moves freight: the defence aviation plant and its supplier web, a major rail hub, and the Barnett Shale\'s remaining midstream infrastructure.',
-    work: 'Defence-aerospace examination is the anchor — NAS 410 personnel, OEM approvals, audit-grade records — with rail, fabrication and gas-infrastructure work around it.',
+    work: 'Defence-aerospace examination is the anchor — customer personnel requirements, OEM approvals, audit-grade records — with rail, fabrication and gas-infrastructure work around it.',
     anchor: 'the aviation plant on the west side, the rail yards, and the gas infrastructure across the basin',
   },
   'san-antonio': {

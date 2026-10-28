@@ -23,7 +23,7 @@ const inspectionCrmFeatures = [
   { feature: "Multi-customer configuration", description: "Per-customer procedures, report templates, calibration standards, equipment lists, technician approval lists, contract pricing schedules" },
   { feature: "Technician availability visibility", description: "Read-access to operational scheduling, filtered by certification, availability, customer approval, geography, OPITO/OGUK rest rules" },
   { feature: "Equipment readiness", description: "Equipment register with calibration validity dates, location tracking, maintenance status; auto-flagging of equipment unavailable in proposed project window" },
-  { feature: "Certification coverage", description: "Technician certification database with ASNT, ISO 9712, PCN, CSWIP, NAS 410, API 510/570/653 mappings; auto-coverage analysis per tender scope" },
+  { feature: "Certification coverage", description: "Technician certification database with ASNT, ISO 9712, PCN, CSWIP, API 510/570/653 mappings; auto-coverage analysis per tender scope" },
   { feature: "Cold email + nurture campaigns", description: "Native multi-persona email campaigns (Atlantis Brand, NDT Connect Brand, vertical campaigns); BCC tracking; engagement scoring; reply routing" },
   { feature: "Pipeline forecasting", description: "Weighted pipeline value, time-to-close forecast, revenue forecast by month/quarter, win-rate by segment, cohort analysis, lost-bid root cause" },
   { feature: "Operator portal integration", description: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation." },

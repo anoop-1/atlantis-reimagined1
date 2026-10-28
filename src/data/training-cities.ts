@@ -611,12 +611,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 39.1031, lng: -84.5120,
     localContext:
-      "Cincinnati anchors the Ohio Valley manufacturing belt — GE Aviation (the world's largest commercial-engine maker, HQ in Evendale), Procter & Gamble, Cincinnati Milacron tool & die, AK Steel. Aerospace NDT (NAS-410, Nadcap AC7114) drives Level II/III demand, supplemented by petrochemical work along the Ohio River.",
+      "Cincinnati anchors the Ohio Valley manufacturing belt — GE Aviation (the world's largest commercial-engine maker, HQ in Evendale), Procter & Gamble, Cincinnati Milacron tool & die, AK Steel. Aerospace NDT (Nadcap AC7114) drives Level II/III demand, supplemented by petrochemical work along the Ohio River.",
     primaryCert: "ASNT",
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "GE Aviation and its supply chain use ASNT SNT-TC-1A with NAS-410 aerospace overlay. ASNT certification is essential; NAS-410 employer letters add a layer specific to aerospace primes.",
+      "GE Aviation and its supply chain use ASNT SNT-TC-1A, with aerospace-specific employer requirements on top. ASNT certification is essential; aerospace employers add their own qualification layer for the primes.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -710,7 +710,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Automotive Tier 1 suppliers use ASNT SNT-TC-1A with IATF 16949 quality framework. Aerospace primes layer on NAS-410. AWS CWI is the welding inspection credential of choice.",
+      "Automotive Tier 1 suppliers use ASNT SNT-TC-1A with IATF 16949 quality framework. AWS CWI is the welding inspection credential of choice.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -741,7 +741,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Fort Worth aerospace primes operate under ASNT SNT-TC-1A and NAS-410 / EN 4179, with Nadcap AC7114 accreditation for NDT suppliers. ASNT Level II in PT, MT, UT and ET is the minimum hire.",
+      "Fort Worth aerospace primes operate under ASNT SNT-TC-1A, with Nadcap AC7114 accreditation for NDT suppliers. ASNT Level II in PT, MT, UT and ET is the minimum hire.",
     salary: {
       currency: "USD",
       levelI: "USD 48,000–62,000/year",
@@ -772,7 +772,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Kansas City defense and aerospace work follows ASNT SNT-TC-1A with NAS-410 for aerospace. Rail inspection follows AAR/FRA-recognised programs that still rely on ASNT for personnel qualification.",
+      "Rail inspection follows AAR/FRA-recognised programs that still rely on ASNT for personnel qualification.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -990,7 +990,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Oklahoma oil & gas and Tinker AFB aerospace both default to ASNT SNT-TC-1A. NAS-410 layered for aerospace; API 1104 weld inspection mandatory for pipeline work.",
+      "Oklahoma oil & gas and Tinker AFB aerospace both default to ASNT SNT-TC-1A.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -1021,7 +1021,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Boeing Defense work in St. Louis follows ASNT SNT-TC-1A + NAS-410. Wood River Refinery and adjacent petrochemical operations use ASNT + API 510/570/653. AWS CWI is widely held.",
+      "Boeing Defense work in St. Louis follows ASNT SNT-TC-1A. Wood River Refinery and adjacent petrochemical operations use ASNT + API 510/570/653. AWS CWI is widely held.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -1052,7 +1052,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Tulsa oil & gas and refining work runs on ASNT SNT-TC-1A + API 510/570/653. American Airlines MRO uses ASNT + NAS-410 / FAA Part 145 framework.",
+      "Tulsa oil & gas and refining work runs on ASNT SNT-TC-1A + API 510/570/653. American Airlines MRO uses ASNT / FAA Part 145 framework.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -1145,7 +1145,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Pacific Northwest aerospace and shipbuilding use ASNT SNT-TC-1A with NAS-410 / Nadcap AC7114 for aerospace primes. Vigor follows ABS / NAVSEA for ship-side work.",
+      "Pacific Northwest aerospace and shipbuilding use ASNT SNT-TC-1A with Nadcap AC7114 for aerospace primes. Vigor follows ABS / NAVSEA for ship-side work.",
     salary: {
       currency: "USD",
       levelI: "USD 48,000–62,000/year",
@@ -1176,7 +1176,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Hill AFB and Northrop Grumman defense work follows ASNT SNT-TC-1A + NAS-410 + MIL-STD-2154. SLC refining work follows ASNT + API 510/570/653.",
+      "Hill AFB and Northrop Grumman defense work follows ASNT SNT-TC-1A + MIL-STD-2154. SLC refining work follows ASNT + API 510/570/653.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -1207,7 +1207,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "San Diego naval ship repair follows ASNT SNT-TC-1A + MIL-STD-2154 + NAVSEA TP248/271. Aerospace primes layer NAS-410 / Nadcap on top of ASNT.",
+      "San Diego naval ship repair follows ASNT SNT-TC-1A + MIL-STD-2154 + NAVSEA TP248/271. Aerospace primes layer Nadcap on top of ASNT.",
     salary: {
       currency: "USD",
       levelI: "USD 50,000–64,000/year",
@@ -1238,7 +1238,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Tampa fertiliser, power-gen and ship-repair work runs on ASNT SNT-TC-1A. Honeywell aerospace adds NAS-410 / Nadcap AC7114. AWS CWI is widely held by fabrication-side staff.",
+      "Tampa fertiliser, power-gen and ship-repair work runs on ASNT SNT-TC-1A. Honeywell aerospace adds Nadcap AC7114. AWS CWI is widely held by fabrication-side staff.",
     salary: {
       currency: "USD",
       levelI: "USD 42,000–56,000/year",
@@ -1269,7 +1269,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "DC-area defense work follows ASNT SNT-TC-1A + NAS-410 / MIL-STD-2154 frameworks. Infrastructure and rail NDT relies on ASNT + AWS CWI, with API 570 for utility piping.",
+      "DC-area defense work follows ASNT SNT-TC-1A / MIL-STD-2154 frameworks. Infrastructure and rail NDT relies on ASNT + AWS CWI, with API 570 for utility piping.",
     salary: {
       currency: "USD",
       levelI: "USD 48,000–62,000/year",
@@ -1300,7 +1300,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Baltimore defense, port and power-gen work follows ASNT SNT-TC-1A. NAS-410 for aerospace primes; API 510/570/653 for utility piping/vessel work.",
+      "Baltimore defense, port and power-gen work follows ASNT SNT-TC-1A.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -1331,7 +1331,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Rolls-Royce and Allison Indianapolis work follows ASNT SNT-TC-1A + NAS-410 + Nadcap AC7114. Pharma pressure-vessel inspection uses ASME BPE + ASNT.",
+      "Rolls-Royce and Allison Indianapolis work follows ASNT SNT-TC-1A + Nadcap AC7114. Pharma pressure-vessel inspection uses ASME BPE + ASNT.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -1362,7 +1362,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "New England defense and aerospace work follows ASNT SNT-TC-1A + NAS-410 + MIL-STD-2154. Submarine inspection at Electric Boat uses NAVSEA TP248/271 with ASNT certification basis.",
+      "New England defense and aerospace work follows ASNT SNT-TC-1A + MIL-STD-2154. Submarine inspection at Electric Boat uses NAVSEA TP248/271 with ASNT certification basis.",
     salary: {
       currency: "USD",
       levelI: "USD 50,000–64,000/year",
@@ -1393,7 +1393,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Boeing Commercial uses ASNT SNT-TC-1A + EN 4179 / NAS-410 + Nadcap AC7114. Suppliers must hold Nadcap; ASNT Level II in PT/MT/UT/ET is the entry hire. Refining work uses API 510/570/653 + ASNT.",
+      "Boeing Commercial uses ASNT SNT-TC-1A + Nadcap AC7114. Suppliers must hold Nadcap; ASNT Level II in PT/MT/UT/ET is the entry hire. Refining work uses API 510/570/653 + ASNT.",
     salary: {
       currency: "USD",
       levelI: "USD 50,000–66,000/year",
@@ -1559,7 +1559,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Quebec industrial work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group. Aerospace employers qualify NDT staff to NAS 410 or EN 4179 under their own programmes, and some aerospace postings accept ASNT alongside CAN/CGSB-48.9712.",
+      "Quebec industrial work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group. Aerospace employers qualify NDT staff to the customer-specified aerospace standard under their own programmes, and some aerospace postings accept ASNT alongside CAN/CGSB-48.9712.",
     salary: {
       currency: "CAD",
       levelI: "CAD 52,000–68,000/year",
@@ -1609,7 +1609,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard. The Canadian General Standards Board, which published it, ceased operations on April 1, 2026; certificates are issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group, and NRCan says its certification services continue without change. Aerospace composite and engine-MRO employers commonly qualify NDT staff to NAS 410 or EN 4179 under their own programmes, and some postings accept ASNT alongside CAN/CGSB-48.9712.",
+      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard. The Canadian General Standards Board, which published it, ceased operations on April 1, 2026; certificates are issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group, and NRCan says its certification services continue without change. Aerospace composite and engine-MRO employers commonly qualify NDT staff to the customer-specified aerospace standard under their own programmes, and some postings accept ASNT alongside CAN/CGSB-48.9712.",
     salary: {
       currency: "CAD",
       levelI: "CAD 50,000–66,000/year",
@@ -1682,12 +1682,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "India",
     lat: 12.9716, lng: 77.5946,
     localContext:
-      "Bangalore (Bengaluru) is India's aerospace and defense capital — Hindustan Aeronautics Limited (HAL), Indian Space Research Organisation (ISRO), Bharat Earth Movers, Boeing India, Airbus India, Collins Aerospace and a deep IT-services overlay (Wipro, Infosys, TCS). Aerospace NDT (NAS-410, Nadcap AC7114) drives the local market.",
+      "Bangalore (Bengaluru) is India's aerospace and defense capital — Hindustan Aeronautics Limited (HAL), Indian Space Research Organisation (ISRO), Bharat Earth Movers, Boeing India, Airbus India, Collins Aerospace and a deep IT-services overlay (Wipro, Infosys, TCS). Aerospace NDT (Nadcap AC7114) drives the local market.",
     primaryCert: "ASNT",
     secondaryCert: "ISNT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "HAL, ISRO and aerospace primes (Boeing/Airbus India suppliers) use ASNT SNT-TC-1A with NAS-410 overlay. ISNT is the Indian National Society for NDT — its certification is widely respected for domestic work.",
+      "ISNT is the Indian National Society for NDT — its certification is widely respected for domestic work.",
     salary: {
       currency: "INR",
       levelI: "INR 25,000–45,000/month",
@@ -1713,7 +1713,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISNT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "Chennai refining (CPCL) and L&T fabrication follow ASNT SNT-TC-1A. Automotive supply chain uses IATF 16949 quality + ASNT. Aerospace work layers NAS-410 / Nadcap.",
+      "Chennai refining (CPCL) and L&T fabrication follow ASNT SNT-TC-1A. Automotive supply chain uses IATF 16949 quality + ASNT. Aerospace work layers Nadcap.",
     salary: {
       currency: "INR",
       levelI: "INR 22,000–42,000/month",
@@ -1947,7 +1947,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the NAS-410 / EN 4179 + Nadcap AC7114 overlay Boeing Aerostructures and BAE Australia require. Viva Geelong and other Victorian employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the Nadcap AC7114 overlay Boeing Aerostructures and BAE Australia require. Viva Geelong and other Victorian employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
     salary: {
       currency: "AUD",
       levelI: "AUD 68,000–92,000/year",
@@ -1998,7 +1998,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the NAS-410 / EN 4179 / MIL-STD-2154 overlays BAE Australia and Thales require for defence work (AS 3669 / AS 4037 codes for pressure vessels). Local employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the MIL-STD-2154 overlays BAE Australia and Thales require for defence work (AS 3669 / AS 4037 codes for pressure vessels). Local employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
     salary: {
       currency: "AUD",
       levelI: "AUD 72,000–98,000/year",
@@ -2228,7 +2228,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the EN 4179 / NAS-410 + Nadcap AC7114 overlay Airbus and Lufthansa Technik use. German NDT also operates under DIN-EN-ISO 9712 (DGZfP administered — Deutsche Gesellschaft für Zerstörungsfreie Prüfung), sat separately through its own accredited centres.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the Nadcap AC7114 overlay Airbus and Lufthansa Technik use. German NDT also operates under DIN-EN-ISO 9712 (DGZfP administered — Deutsche Gesellschaft für Zerstörungsfreie Prüfung), sat separately through its own accredited centres.",
     salary: {
       currency: "EUR",
       levelI: "EUR 38,000–52,000/year",
@@ -2279,7 +2279,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["PCN", "ASNT"],
     certPathwayNote:
-      "Framatome and EDF nuclear work follows COFREND COSAC (nuclear-specific) + ISO 9712. Airbus/Safran aerospace uses EN 4179 / NAS-410 + Nadcap AC7114. PCN accepted for cross-channel work.",
+      "Framatome and EDF nuclear work follows COFREND COSAC (nuclear-specific) + ISO 9712. Airbus/Safran aerospace uses Nadcap AC7114. PCN accepted for cross-channel work.",
     salary: {
       currency: "EUR",
       levelI: "EUR 36,000–48,000/year",
@@ -3187,7 +3187,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["CSWIP"],
     certPathwayNote:
-      "Aerospace and defense work in Huntsville requires NAS 410 (for aerospace primes) and ASNT SNT-TC-1A. Most contracts are NADCAP-audited and require Level II UT/PT/MT/ET certification per the prime's NDT procedure.",
+      "Most contracts are NADCAP-audited and require Level II UT/PT/MT/ET certification per the prime's NDT procedure.",
     salary: {
       currency: "USD",
       levelI: "USD 50,000–62,000/year",
@@ -3218,7 +3218,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["CSWIP"],
     certPathwayNote:
-      "Power-gen turbine MRO uses ASNT SNT-TC-1A with API 510 / 570 for ancillary plant. Aerospace work follows NAS 410 with NADCAP audit. Both Mitsubishi Power and Siemens Energy require Level II UT/PT/MT/ET per the OEM procedure.",
+      "Power-gen turbine MRO uses ASNT SNT-TC-1A with API 510 / 570 for ancillary plant. Aerospace work follows customer requirements with NADCAP audit. Both Mitsubishi Power and Siemens Energy require Level II UT/PT/MT/ET per the OEM procedure.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -4107,12 +4107,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 37.6872, lng: -97.3301,
     localContext:
-      "Wichita is the historic 'Air Capital of the World' — Textron Aviation (Cessna and Beechcraft general-aviation manufacturing) is headquartered here, and Spirit AeroSystems' Wichita plant, source of 737 fuselages and major 787/777 structures, became part of Boeing Commercial Airplanes when Boeing completed its $4.7B acquisition of Spirit in December 2025. Bombardier converted its former Learjet final-assembly site into its US headquarters, flight-test center and Bombardier Defense operation after ending Learjet production in March 2022, retaining more than 1,200 jobs across seven service-center hangars. The city's dense aerostructures supply chain keeps demand high for RT, UT, ET and PT technicians qualified to aerospace NAS 410 standards.",
+      "Wichita is the historic 'Air Capital of the World' — Textron Aviation (Cessna and Beechcraft general-aviation manufacturing) is headquartered here, and Spirit AeroSystems' Wichita plant, source of 737 fuselages and major 787/777 structures, became part of Boeing Commercial Airplanes when Boeing completed its $4.7B acquisition of Spirit in December 2025. Bombardier converted its former Learjet final-assembly site into its US headquarters, flight-test center and Bombardier Defense operation after ending Learjet production in March 2022, retaining more than 1,200 jobs across seven service-center hangars.",
     primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "Textron Aviation and the former Spirit AeroSystems plant (now integrated into Boeing Commercial Airplanes) qualify personnel under ASNT SNT-TC-1A with a NAS 410 and Nadcap AC7114 aerospace overlay; Bombardier's Wichita defense and MRO operation applies the same basis. ASNT Level II is the standard hire; Level III sign-off additionally requires NAS 410 employer certification.",
+      "Textron Aviation and the former Spirit AeroSystems plant (now integrated into Boeing Commercial Airplanes) qualify personnel under ASNT SNT-TC-1A with a Nadcap AC7114 aerospace overlay; Bombardier's Wichita defense and MRO operation applies the same basis.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -4143,7 +4143,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "Pratt & Whitney and RTX sibling Collins Aerospace qualify personnel under ASNT SNT-TC-1A with NAS 410 and Nadcap AC7114 overlay for engine and avionics work; F135 fighter-engine production adds ITAR-controlled radiography and eddy current procedures specific to defense contracts. Sikorsky in Stratford applies the same NAS 410 basis for rotorcraft structure inspection.",
+      "Pratt & Whitney and RTX sibling Collins Aerospace qualify personnel under ASNT SNT-TC-1A with Nadcap AC7114 overlay for engine and avionics work; F135 fighter-engine production adds ITAR-controlled radiography and eddy current procedures specific to defense contracts.",
     salary: {
       currency: "USD",
       levelI: "USD 52,000–68,000/year",
@@ -4174,7 +4174,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "Boeing South Carolina qualifies personnel under ASNT SNT-TC-1A with NAS 410 and Nadcap AC7114 overlay for 787 structure and systems inspection. The Naval Nuclear Power Training Command trains active-duty Navy reactor operators on a separate military qualification track rather than civilian ASNT certification, but the base draws a steady pool of instructors and technicians with naval nuclear backgrounds into the regional civilian NDT workforce after service.",
+      "Boeing South Carolina qualifies personnel under ASNT SNT-TC-1A with Nadcap AC7114 overlay for 787 structure and systems inspection. The Naval Nuclear Power Training Command trains active-duty Navy reactor operators on a separate military qualification track rather than civilian ASNT certification, but the base draws a steady pool of instructors and technicians with naval nuclear backgrounds into the regional civilian NDT workforce after service.",
     salary: {
       currency: "USD",
       levelI: "USD 48,000–63,000/year",
@@ -4205,7 +4205,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["CSWIP"],
     certPathwayNote:
-      "Gulfstream qualifies airframe and engine inspection personnel under ASNT SNT-TC-1A with NAS 410 and Nadcap AC7114 overlay. Hyundai Metaplant's stamping, chassis and battery-pack welds are inspected under AWS D1.1/D8.1 by ASNT-qualified technicians. Port and marine-terminal structural work follows API and AWS practice rather than an aerospace overlay.",
+      "Gulfstream qualifies airframe and engine inspection personnel under ASNT SNT-TC-1A with Nadcap AC7114 overlay. Hyundai Metaplant's stamping, chassis and battery-pack welds are inspected under AWS D1.1/D8.1 by ASNT-qualified technicians. Port and marine-terminal structural work follows API and AWS practice rather than an aerospace overlay.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–61,000/year",
@@ -4386,7 +4386,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "The market spans two regimes: refinery and Eagle Ford facility work under ASNT SNT-TC-1A with API certification for in-service inspection, and aviation MRO under NAS 410 or EN 4179 personnel requirements with operator or OEM approval per method. Technicians who hold qualification in both are rare and priced accordingly.",
+      "The market spans two regimes: refinery and Eagle Ford facility work under ASNT SNT-TC-1A with API certification for in-service inspection, and aviation MRO under aerospace personnel requirements with operator or OEM approval per method. Technicians who hold qualification in both are rare and priced accordingly.",
     salary: {
       currency: "USD",
       levelI: "USD 45,000–60,000/year",
@@ -4606,7 +4606,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "Arkansas Nuclear One and Delek's El Dorado refinery qualify personnel under ASNT SNT-TC-1A with ASME Section XI (nuclear) or API 510/570/653 (refining) overlays; Lockheed Martin's Camden missile plant applies NAVSEA T9074-AS-GIB-010/271 and MIL-STD-2035 and NAS 410-aligned radiographic and ultrasonic procedures for interceptor-body inspection, and most roles there require a DoD security clearance.",
+      "Arkansas Nuclear One and Delek's El Dorado refinery qualify personnel under ASNT SNT-TC-1A with ASME Section XI (nuclear) or API 510/570/653 (refining) overlays.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -4823,7 +4823,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "Seabrook Station qualifies personnel under ASNT SNT-TC-1A with ASME Section XI in-service inspection under NRC oversight; BAE Systems' Nashua Trusted Foundry applies NAS 410 and Nadcap AC7114 overlays for defense-microelectronics package inspection, with most roles requiring a DoD security clearance.",
+      "Seabrook Station qualifies personnel under ASNT SNT-TC-1A with ASME Section XI in-service inspection under NRC oversight; BAE Systems' Nashua Trusted Foundry applies Nadcap AC7114 overlays for defense-microelectronics package inspection, with most roles requiring a DoD security clearance.",
     salary: {
       currency: "USD",
       levelI: "USD 50,000–65,000/year (clearance premium at BAE)",
@@ -4947,7 +4947,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "GlobalFoundries' Essex Junction fab qualifies tool and process-equipment inspection personnel under SEMI-standard and ASNT-aligned procedures; Vermont Yankee's decommissioning applies DOE/NRC nuclear-facility procedures, and Collins Aerospace's Vergennes plant qualifies personnel under ASNT SNT-TC-1A with NAS 410 aerospace overlay.",
+      "GlobalFoundries' Essex Junction fab qualifies tool and process-equipment inspection personnel under SEMI-standard and ASNT-aligned procedures.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",
@@ -5087,7 +5087,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["PCN"],
     certPathwayNote:
-      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted on CNOOC's Bohai Bay offshore work and export-facing Sinopec Tianjin turnaround packages. Airbus Tianjin's final-assembly-line suppliers use EN 4179 / NAS-410 aerospace overlays; domestic plant inspection runs on China Special Equipment Inspection (CSEI) + ISO 9712, sat separately through China's own accredited centres.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted on CNOOC's Bohai Bay offshore work and export-facing Sinopec Tianjin turnaround packages.",
     salary: {
       currency: "CNY",
       levelI: "CNY 8,200–13,800/month",

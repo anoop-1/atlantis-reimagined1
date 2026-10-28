@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "What codes govern eddy current testing?",
     answer:
-      "Primary standards: ASME BPVC V Article 8 (general ECT), Article 26 for tubing; ASTM E309 (ECT of welded tubing), E571 (aerospace bolt holes), E3052 (ECA); ISO 15549 (general ECT) and ISO 17643 (weld ECT). Aerospace adds NAS 410, AMS 2644, and OEM-specific procedures like Boeing BAC 5682. Heat exchanger tubing work follows the EPRI tube examination guidelines on top of ASME V Article 26. Conductivity measurement follows ASTM E1004.",
+      "Primary standards: ASME BPVC V Article 8 (general ECT), Article 26 for tubing; ASTM E309 (ECT of welded tubing), E571 (aerospace bolt holes), E3052 (ECA); ISO 15549 (general ECT) and ISO 17643 (weld ECT). Aerospace adds AMS 2644, and OEM-specific procedures like Boeing BAC 5682. Heat exchanger tubing work follows the EPRI tube examination guidelines on top of ASME V Article 26. Conductivity measurement follows ASTM E1004.",
   },
   {
     question: "How much does eddy current testing cost?",
@@ -196,7 +196,7 @@ export default function EddyCurrentTestingHub() {
             <Card>
               <CardHeader><CardTitle className="text-lg">Aerospace Fastener & Skin Inspection</CardTitle></CardHeader>
               <CardContent className="text-sm text-slate-700 leading-relaxed space-y-2">
-                <p>Rotating pencil probes in fastener holes per ASTM E571. ECA pads scanning rivet rows on fuselage and wing skins through paint. NAS 410 Level II crews. Boeing and Airbus approved procedures on file.</p>
+                <p>Rotating pencil probes in fastener holes per ASTM E571. ECA pads scanning rivet rows on fuselage and wing skins through paint. Boeing and Airbus approved procedures on file.</p>
                 <p><strong>Defects targeted:</strong> fatigue cracks radiating from fastener holes, corrosion under countersinks, skin-to-stringer bond integrity.</p>
               </CardContent>
             </Card>
@@ -236,7 +236,7 @@ export default function EddyCurrentTestingHub() {
                 <tr><td className="px-4 py-3 font-medium">ASTM E1004</td><td className="px-4 py-3">Conductivity</td><td className="px-4 py-3">Aluminium heat-treat sorting</td></tr>
                 <tr><td className="px-4 py-3 font-medium">ISO 15549</td><td className="px-4 py-3">General principles</td><td className="px-4 py-3">European ECT scope</td></tr>
                 <tr><td className="px-4 py-3 font-medium">ISO 17643</td><td className="px-4 py-3">Weld ECT</td><td className="px-4 py-3">EU structural weld examination</td></tr>
-                <tr><td className="px-4 py-3 font-medium">NAS 410 / AMS 2644</td><td className="px-4 py-3">Aerospace</td><td className="px-4 py-3">NAS 410 Level II ECT</td></tr>
+                <tr><td className="px-4 py-3 font-medium">AMS 2644</td><td className="px-4 py-3">Aerospace</td><td className="px-4 py-3"></td></tr>
               </tbody>
             </table>
           </div>

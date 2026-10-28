@@ -118,10 +118,10 @@ export const METHOD_IN_INDUSTRY = {
   },
   aviation: {
     'ultrasonic-testing': 'Aerospace UT covers composite structures and bond lines as well as metal — impact damage mapping on skins, lamination checks on machined billets, and thickness on corrosion-suspect areas.',
-    'radiographic-testing': 'Aircraft radiography examines castings, honeycomb water ingress and closed structure where disassembly is uneconomic, under NAS 410 / EN 4179 personnel requirements.',
+    'radiographic-testing': 'Aircraft radiography examines castings, honeycomb water ingress and closed structure where disassembly is uneconomic, under customer aerospace personnel requirements.',
     'magnetic-particle-testing': 'Landing gear and engine components in martensitic steels are magnetic particle territory — high-strength parts where grinding cracks and fatigue must be found at overhaul.',
     'eddy-current-testing': 'Eddy current is aviation\'s surface method of choice — fastener hole inspection with rotating probes, surface cracks at radii, and conductivity sorting after fire or heat damage.',
-    'penetrant-testing': "Fluorescent penetrant inspection is aerospace's signature process: engine and airframe components pass through controlled FPI lines under NAS 410 personnel and Nadcap process audit, at sensitivity levels field methods never reach.",
+    'penetrant-testing': "Fluorescent penetrant inspection is aerospace's signature process: engine and airframe components pass through controlled FPI lines under customer personnel requirements and Nadcap process audit, at sensitivity levels field methods never reach.",
     'visual-testing': 'Detailed visual inspection under an approved maintenance programme is the most performed aircraft inspection of all, with borescope work extending it inside engines and closed bays.',
   },
   power: {
@@ -222,7 +222,7 @@ export const CITIES = {
   dubai: {
     name: 'Dubai', industries: ['aviation', 'marine', 'fabrication', 'power'],
     base: 'Dubai\'s inspection market is unusually diverse for the Gulf: Emirates\' MRO operations, the drydocks on the creek and at Jebel Ali, dense construction fabrication, and DEWA\'s power and desalination fleet all buy NDT — with ENOC\'s Jebel Ali refinery adding process work.',
-    scheme: 'Dubai Municipality and DM-accredited third parties govern statutory equipment, while aviation work runs under GCAA-approved organisation rules with NAS 410-style personnel requirements; multinationals typically specify ASNT or PCN in contracts.',
+    scheme: 'Dubai Municipality and DM-accredited third parties govern statutory equipment, while aviation work runs under GCAA-approved organisation rules with aerospace-specific personnel requirements; multinationals typically specify ASNT or PCN in contracts.',
     assets: 'airframe and engine components in MRO, ship repair steel at the drydocks, structural fabrication for construction, and DEWA generation and desalination plant',
   },
   nigeria: {
@@ -240,7 +240,7 @@ export const CITIES = {
   dallas: {
     name: 'Dallas–Fort Worth', industries: ['aviation', 'fabrication', 'pipeline', 'automotive'],
     base: 'DFW\'s market is aerospace-led — airframe manufacturing and MRO, defence programmes at Fort Worth — backed by a large structural fabrication base and the midstream corridors that cross North Texas.',
-    scheme: 'Aerospace scopes demand NAS 410 / EN 4179 qualified personnel under Nadcap-audited processes, a materially different regime from the SNT-TC-1A basis that governs the region\'s structural and midstream work.',
+    scheme: 'Aerospace scopes demand aerospace-specific personnel qualification under Nadcap-audited processes, a materially different regime from the SNT-TC-1A basis that governs the region\'s structural and midstream work.',
     assets: 'airframe assemblies and engine components, structural steel for commercial construction, gathering and transmission pipelines, and manufacturing plant equipment',
   },
   australia: {
@@ -282,7 +282,7 @@ export const CITIES = {
   seattle: {
     name: 'Seattle', industries: ['aviation', 'marine', 'fabrication', 'power'],
     base: 'Puget Sound\'s inspection market is built around aerospace manufacturing and its supplier web, the shipyards and ferry fleet on the Sound, and hydro generation east of the Cascades supported from the metro.',
-    scheme: 'Aerospace primes enforce NAS 410 / EN 4179 qualification under Nadcap-accredited processes; marine work follows class society and USCG requirements — two demanding regimes that rarely accept each other\'s paperwork.',
+    scheme: 'Aerospace primes enforce their own personnel qualification requirements under Nadcap-accredited processes; marine work follows class society and USCG requirements — two demanding regimes that rarely accept each other\'s paperwork.',
     assets: 'airframe structures and composite assemblies, ferry and naval steel, supplier-tier machined and welded parts, and hydro turbine components',
   },
   toronto: {
@@ -312,7 +312,7 @@ export const CITIES = {
   boston: {
     name: 'Boston', industries: ['power', 'aviation', 'fabrication', 'marine'],
     base: 'New England\'s inspection work runs through Boston — gas and nuclear generation support, aerospace and defence suppliers along the 128 corridor, marine work across the harbour and shipyards, and the LNG import terminal at Everett.',
-    scheme: 'Massachusetts statutory equipment follows NBIC with state boiler enforcement; defence and aerospace suppliers carry NAS 410 personnel requirements and ITAR-controlled documentation, which shapes who can even see the work.',
+    scheme: 'Massachusetts statutory equipment follows NBIC with state boiler enforcement; defence and aerospace suppliers carry customer personnel requirements and ITAR-controlled documentation, which shapes who can even see the work.',
     assets: 'power plant pressure parts, aerospace and defence components, harbour and terminal infrastructure, and LNG import equipment',
   },
   'south-africa': {
@@ -360,7 +360,7 @@ export const CITIES = {
   'los-angeles': {
     name: 'Los Angeles', industries: ['refining', 'aviation', 'marine', 'fabrication'],
     base: 'The South Bay refinery cluster — El Segundo, Carson, Wilmington, Torrance — runs beside the largest port complex in the Americas and an aerospace industry that never left the basin, giving LA parallel process, marine and aviation inspection economies.',
-    scheme: 'California adds SCAQMD environmental constraints and Cal/OSHA PSM enforcement on top of the usual NBIC and API framework; aerospace primes require NAS 410 qualification, and refinery turnaround badging processes need lead time.',
+    scheme: 'California adds SCAQMD environmental constraints and Cal/OSHA PSM enforcement on top of the usual NBIC and API framework; aerospace primes set their own personnel qualification requirements, and refinery turnaround badging processes need lead time.',
     assets: 'South Bay refinery units and tank farms, port cranes and terminal infrastructure, airframe and space hardware, and structural fabrication',
   },
   qatar: {
@@ -446,7 +446,7 @@ export const CITIES = {
   hyderabad: {
     name: 'Hyderabad', industries: ['aviation', 'fabrication', 'power', 'automotive'],
     base: 'Hyderabad has become India\'s aerospace manufacturing city: Tata\'s aerostructure joint ventures build fuselage and wing assemblies for global OEMs, Safran and GE run engine-component plants, and defence programmes cluster around the DRDO missile complex — all of it under aerospace NDT rules — alongside pharma equipment fabrication and the NTPC power belt to the north.',
-    scheme: 'Aerospace work runs under NAS 410 / EN 4179 personnel requirements with OEM (Nadcap-audited) special-process approval — a different regime from industrial NDT entirely; industrial plant follows IBR for boilers and ISNT (NCB) or ASNT certification in contracts.',
+    scheme: 'Aerospace work runs under aerospace-specific personnel requirements with OEM (Nadcap-audited) special-process approval — a different regime from industrial NDT entirely; industrial plant follows IBR for boilers and ISNT (NCB) or ASNT certification in contracts.',
     assets: 'aerostructure assemblies and engine components, defence hardware, pharmaceutical process equipment, boiler and power plant components, and precision castings and forgings',
   },
   surat: {

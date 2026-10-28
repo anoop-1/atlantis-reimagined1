@@ -124,7 +124,7 @@ const industries: Record<string, IndustryData> = {
   "aerospace-ndt": {
     name: "Aerospace NDT Services",
     slug: "aerospace-ndt",
-    description: "Aerospace NDT operates in an unforgiving environment where component failure at 35,000 feet carries zero margin for error and catastrophic consequences for human life. The aerospace industry—encompassing commercial airframes, military aircraft, rotorcraft, and space launch vehicles—mandates the most stringent quality and inspection standards globally. Every production aircraft component undergoes 100% inspection per Federal Aviation Administration (FAA) regulations and OEM specifications. The NAS 410 (National Aerospace Standard) certification system is specific to aerospace and supersedes ASNT levels for airframe and engine inspection roles. Composite materials have revolutionized aerospace design but created new NDT challenges: disbonds, fiber waviness, matrix cracking, and impact damage are invisible to the naked eye yet catastrophic in flight. Fatigue cracks initiate and propagate from stress concentrations, fastener holes, and weld anomalies—early detection is essential before cracks approach critical size. The cold-worked fastener holes and precise fit-up requirements of aerospace structures demand UT and ET methods of exceptional sensitivity. Probability of detection (POD) analysis is mandatory, requiring statistical validation that inspection methods achieve specified detection thresholds. Maintenance organizations (MROs) performing depot-level overhauls face mounting pressure to reduce turnaround time while maintaining uncompromising inspection quality—automated and advanced techniques have become essential for competitive viability.",
+    description: "Aerospace NDT operates in an unforgiving environment where component failure at 35,000 feet carries zero margin for error and catastrophic consequences for human life. The aerospace industry—encompassing commercial airframes, military aircraft, rotorcraft, and space launch vehicles—mandates the most stringent quality and inspection standards globally. Every production aircraft component undergoes 100% inspection per Federal Aviation Administration (FAA) regulations and OEM specifications. Composite materials have revolutionized aerospace design but created new NDT challenges: disbonds, fiber waviness, matrix cracking, and impact damage are invisible to the naked eye yet catastrophic in flight. Fatigue cracks initiate and propagate from stress concentrations, fastener holes, and weld anomalies—early detection is essential before cracks approach critical size. The cold-worked fastener holes and precise fit-up requirements of aerospace structures demand UT and ET methods of exceptional sensitivity. Probability of detection (POD) analysis is mandatory, requiring statistical validation that inspection methods achieve specified detection thresholds. Maintenance organizations (MROs) performing depot-level overhauls face mounting pressure to reduce turnaround time while maintaining uncompromising inspection quality—automated and advanced techniques have become essential for competitive viability.",
     ndtMethods: [
       {
         name: "Ultrasonic Testing (UT) - Advanced Techniques",
@@ -164,7 +164,7 @@ const industries: Record<string, IndustryData> = {
       }
     ],
     standards: [
-      "NAS 410 - Certification and Qualification of Nondestructive Testing Personnel",
+      
       "AS9100 - Quality Management Systems for Aerospace Industry",
       "BAC 5571 - Boeing Nondestructive Test Specification",
       "MIL-STD-1916 - Single Sampling Plans and Tables for Inspection by Attributes",
@@ -614,7 +614,7 @@ export const IndustryLocationPage: React.FC = () => {
     "knowsAbout": industry.ndtMethods.map(m => m.name),
     "hasCredential": [
       { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
-      { "@type": "EducationalOccupationalCredential", "credentialCategory": "NAS 410" }
+      { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT SNT-TC-1A" }
     ]
   };
 

@@ -124,7 +124,7 @@ export const CITATION_LAYERS = {
       },
       {
         q: 'Do NDT salaries differ by state in the US?',
-        a: 'Yes, and the driver is industry rather than cost of living. Gulf Coast refining states — Texas and Louisiana — pay above the national band for UT and RT because turnaround demand concentrates there. Aerospace clusters in Washington and Kansas pay above band for ET and NAS 410 qualified technicians.',
+        a: 'Yes, and the driver is industry rather than cost of living. Gulf Coast refining states — Texas and Louisiana — pay above the national band for UT and RT because turnaround demand concentrates there.',
       },
     ],
   },

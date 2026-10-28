@@ -8,7 +8,7 @@ This file follows the llmstxt.org format. It states only facts Atlantis NDT stan
 
 ## About Atlantis NDT
 
-Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience. NAS 410 Level 3 services are provided through an associate who holds NAS 410 Level 3. The company is certified to ISO 9001 (quality management) and ISO 14001 (environmental management); it holds no ISO/IEC 17020 or 17025 accreditation. It has offices in Houston, Texas and Hyderabad, India, and works for operators, fabricators, EPCs and inspection companies in oil and gas, petrochemical, aerospace, marine, power generation and manufacturing.
+Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience. Atlantis provides ASNT NDT Level III consulting and ASNT SNT-TC-1A-based NDT training. The company is certified to ISO 9001 (quality management) and ISO 14001 (environmental management); it holds no ISO/IEC 17020 or 17025 accreditation. It has offices in Houston, Texas and Hyderabad, India, and works for operators, fabricators, EPCs and inspection companies in oil and gas, petrochemical, aerospace, marine, power generation and manufacturing.
 
 - [About](https://atlantisndt.com/about)
 - [Contact](https://atlantisndt.com/contact)

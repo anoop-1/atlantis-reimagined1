@@ -108,9 +108,9 @@ const standardsByApplication = [
   },
   {
     application: "Aerospace Components",
-    usa: "NAS-410, AMS-STD-2154",
-    europe: "EN 4179 (= NAS-410)",
-    international: "NAS-410/EN 4179, Nadcap",
+    usa: "AMS-STD-2154",
+    europe: "EN 4179",
+    international: "Nadcap",
   },
   {
     application: "Nuclear Components",
@@ -195,11 +195,11 @@ const faqs = [
   },
   {
     q: "What acceptance criteria standard is most stringent?",
-    a: "In general, nuclear codes (ASME Section III for USA, RCC-M for France) have the most stringent acceptance criteria, followed by aerospace standards (NAS-410/Nadcap requirements). Among conventional industrial codes, ASME Section VIII Division 1 is generally more stringent than API 1104 for weld inspection — ASME Section VIII rejects any crack and any lack of fusion, while API 1104 allows limited lack of fusion in some circumstances. AWS D1.1 falls between ASME VIII and API 1104 in stringency. European EN/ISO standards use a quality level system (B, C, D) where level B is the most stringent and level D is the most lenient. The choice of acceptance criteria should be driven by the consequence of failure and the applicable regulatory framework.",
+    a: "In general, nuclear codes (ASME Section III for USA, RCC-M for France) have the most stringent acceptance criteria, followed by aerospace standards (Nadcap requirements). Among conventional industrial codes, ASME Section VIII Division 1 is generally more stringent than API 1104 for weld inspection — ASME Section VIII rejects any crack and any lack of fusion, while API 1104 allows limited lack of fusion in some circumstances. AWS D1.1 falls between ASME VIII and API 1104 in stringency. European EN/ISO standards use a quality level system (B, C, D) where level B is the most stringent and level D is the most lenient. The choice of acceptance criteria should be driven by the consequence of failure and the applicable regulatory framework.",
   },
   {
     q: "How do I know which NDT standard to use?",
-    a: "The applicable NDT standard is determined by: (1) the construction code specified in the engineering design — for example, if equipment is designed per ASME Section VIII, the NDE standard is ASME Section V; (2) the project specification — the owner/client may specify additional or alternative NDE requirements; (3) the regulatory framework — jurisdiction-specific regulations may mandate certain standards (e.g., PED in Europe requires EN/ISO standards); (4) the industry — aerospace uses NAS-410/Nadcap, pipeline uses API 1104, structural steel uses AWS D1.1. When in doubt, consult the project specification or contact Atlantis NDT for expert guidance on standard selection.",
+    a: "The applicable NDT standard is determined by: (1) the construction code specified in the engineering design — for example, if equipment is designed per ASME Section VIII, the NDE standard is ASME Section V; (2) the project specification — the owner/client may specify additional or alternative NDE requirements; (3) the regulatory framework — jurisdiction-specific regulations may mandate certain standards (e.g., PED in Europe requires EN/ISO standards); (4) the industry — aerospace uses Nadcap, pipeline uses API 1104, structural steel uses AWS D1.1. When in doubt, consult the project specification or contact Atlantis NDT for expert guidance on standard selection.",
   },
 ];
 

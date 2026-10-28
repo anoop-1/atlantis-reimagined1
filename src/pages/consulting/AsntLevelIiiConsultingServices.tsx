@@ -26,7 +26,7 @@ import {
 
 export default function AsntLevelIiiConsultingServices() {
     const deliverables = [
-        { title: "SNT-TC-1A Written Practice Authoring", description: "A documented Written Practice tailored to your scope of work — methods (UT, RT, MT, PT, VT, ET, TOFD, PAUT, Phased Array), industry sector, examination types and qualification levels. Built against the current ASNT SNT-TC-1A 2024 edition and harmonised with ISO 9712 / ANSI CP-189 / NAS-410 where the customer base requires it." },
+        { title: "SNT-TC-1A Written Practice Authoring", description: "A documented Written Practice tailored to your scope of work — methods (UT, RT, MT, PT, VT, ET, TOFD, PAUT, Phased Array), industry sector, examination types and qualification levels. Built against the current ASNT SNT-TC-1A 2024 edition and harmonised with ISO 9712 / ANSI CP-189 where the customer base requires it." },
         { title: "Outsourced ASNT Level III of Record", description: "A named ASNT NDT Level III signs as your responsible Level III for procedure approval, technique validation, certification examinations and audit defence, in the methods the Level III holds: UT, RT, MT, PT and VT. Replaces the cost of a full-time Level III hire." },
         { title: "Procedure Development &amp; Code Mapping", description: "NDT procedures authored to ASME V Article 1-23, AWS D1.1/D1.5, API 5L/650/620/1104, NORSOK M-101, EN ISO 17640 / 17636-1 / 23279 — with traceable code citation, technique sheets, calibration blocks and acceptance criteria mapped to your customer specs." },
         { title: "Expert Witness &amp; Independent Technical Opinion", description: "Written, signed Level III opinions for rejected inspections, weld disputes, dropped-object failures, fatigue cracking, defect-acceptance disputes and insurer/regulator escalations. Court-ready report formats; deposition support available." },
@@ -58,7 +58,7 @@ export default function AsntLevelIiiConsultingServices() {
         },
         {
             title: "Aerospace programmes under Nadcap NDT (AC7114)",
-            text: "Nadcap NDT audits expect a Responsible Level 3 qualified to NAS 410. Atlantis delivers NAS 410 Level 3 services through an associate who holds NAS 410 Level 3: gap review against AC7114, written practice and procedure revisions, and audit preparation.",
+            text: "Nadcap NDT audits expect a Responsible Level 3 named in the written practice. Atlantis provides the ASNT NDT Level III consulting behind it: gap review against AC7114, written practice and procedure revisions, and audit preparation.",
         },
         {
             title: "A disputed inspection result",
@@ -70,7 +70,7 @@ export default function AsntLevelIiiConsultingServices() {
         "Refineries &amp; petrochemical complexes (ASME V, API 510/570/653, customer SAES/AGES specs)",
         "Pipeline fabrication, installation &amp; integrity (API 1104, ASME B31.4/B31.8, ISO 13847)",
         "Pressure vessel &amp; boiler shops (ASME VIII Div 1/2, ASME I, API 510)",
-        "Aerospace MRO &amp; primes (Nadcap NDT AC7114, NAS-410, customer specs — Boeing, Airbus, Rolls-Royce)",
+        "Aerospace MRO &amp; primes (Nadcap NDT AC7114, customer specs — Boeing, Airbus, Rolls-Royce)",
         "Power generation (steam, gas, nuclear) — ASME III/V/XI, EPRI guidelines, EN ISO 17636",
         "Offshore &amp; subsea (DNV-OS-F101, NORSOK M-101, Shell DEP, BP GIS)",
         "Fabrication, structural &amp; welding shops (AWS D1.1/D1.5, EN ISO 17640, EN 1090)",
@@ -80,7 +80,7 @@ export default function AsntLevelIiiConsultingServices() {
     const faqs = [
         { q: "What is the difference between an in-house Level III and an outsourced ASNT Level III consultant?", a: "An in-house Level III is a full-time employee — typically $180-260K loaded cost in the US, $120-180K in the GCC, and frequently impossible to recruit at all in some markets. An outsourced ASNT Level III consultant (Atlantis NDT model) signs as your responsible Level III for SNT-TC-1A purposes, approves your procedures, signs personnel qualifications, attends audits and answers technical authority calls — without the headcount cost. SNT-TC-1A 2024 explicitly recognises external Level III arrangements provided the responsibility, authority and documentation are clear." },
         { q: "Which methods does Atlantis NDT cover at Level III?", a: "Atlantis NDT's Level III work is led by founder Anoop Rayavarapu, who holds ASNT NDT Level III certification in five methods: UT, RT, MT, PT and VT. Procedures, examinations and personnel records are signed in those methods. If your scope includes other methods or specialist techniques (eddy current, AUT girth weld, IRIS, NFA, ACFM), raise them at scoping: the proposal states which methods Atlantis signs for and which need a Level III certified in that method." },
-        { q: "Can an outsourced Level III defend a Saudi Aramco, ADNOC or Nadcap audit?", a: "Yes, provided the engagement letter, Written Practice and procedure approvals are all in order. The Written Practice names the Level III by certification number, the procedures carry that Level III&apos;s signature, and audit-day responsibility is agreed in writing before the audit. For Nadcap NDT (AC7114) the Responsible Level 3 must be qualified to NAS 410; Atlantis provides that through an associate who holds NAS 410 Level 3." },
+        { q: "Can an outsourced Level III defend a Saudi Aramco, ADNOC or Nadcap audit?", a: "Yes, provided the engagement letter, Written Practice and procedure approvals are all in order. The Written Practice names the Level III by certification number, the procedures carry that Level III&apos;s signature, and audit-day responsibility is agreed in writing before the audit. For Nadcap NDT (AC7114) the Responsible Level 3 must be qualified to the customer-specified aerospace standard." },
         { q: "How fast can Atlantis NDT stand up an ASNT Level III of record engagement?", a: "The timeline is set in the proposal and depends mostly on how quickly you can share your existing procedures, personnel records and customer specifications. If an audit date is already fixed, say so when you get in touch so the work is planned around it." },
         { q: "Do you also provide expert witness and independent technical opinions?", a: "Yes. Independent Level III opinions are issued under a separate scope-of-work — typically used for rejected inspection campaigns, weld disputes, defect-acceptance disputes, insurer / regulator escalations, or court cases. Reports follow the format expected for litigation use and the signing Level III is available for deposition. We do not provide expert witness services to a customer where we also act as Level III of record (to avoid the obvious conflict)." },
     ];
@@ -229,16 +229,16 @@ export default function AsntLevelIiiConsultingServices() {
                         <Card>
                             <CardHeader>
                                 <Shield className="text-amber-600 h-8 w-8 mb-2" />
-                                <CardTitle>NAS 410 Level 3 (aerospace)</CardTitle>
+                                <CardTitle>Aerospace programmes (Nadcap AC7114)</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-slate-700">NAS 410 Level 3 services for aerospace programmes are delivered through an associate who holds NAS 410 Level 3.</p>
+                                <p className="text-slate-700">ASNT NDT Level III consulting for aerospace suppliers: gap review against AC7114, written practice and procedure revisions, and audit preparation.</p>
                             </CardContent>
                         </Card>
                         <Card>
                             <CardHeader>
                                 <BookOpen className="text-amber-600 h-8 w-8 mb-2" />
-                                <CardTitle>SNT-TC-1A 2024 / ISO 9712 / NAS-410</CardTitle>
+                                <CardTitle>SNT-TC-1A 2024 / ISO 9712</CardTitle>
                             </CardHeader>
                             <CardContent>
                                 <p className="text-slate-700">Written Practice and personnel qualification systems built against the certification scheme actually in use at your customer base.</p>

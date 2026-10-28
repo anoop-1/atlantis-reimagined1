@@ -92,13 +92,13 @@ export const THIN_CITIES = {
   'east-hartford': {
     name: 'East Hartford', state: 'Connecticut',
     base: 'East Hartford is aero-engine country: Pratt & Whitney is headquartered here, with Sikorsky and Collins Aerospace across the region, forming one of the densest aerospace manufacturing clusters in the United States.',
-    work: 'Aerospace NDT runs under NAS 410 or EN 4179 personnel requirements with Nadcap special-process audits — a fundamentally different regime from industrial work, where the training records are audited as hard as the technique and the employer holds approval through a Responsible Level III.',
+    work: 'Aerospace NDT runs under customer-flowed personnel requirements with Nadcap special-process audits — a fundamentally different regime from industrial work, where the training records are audited as hard as the technique and the employer holds approval through a Responsible Level III.',
     methods: 'Fluorescent penetrant inspection above all, eddy current on engine components, UT for composites and forgings, with RT on castings.',
   },
   'fort-worth': {
     name: 'Fort Worth', state: 'Texas',
     base: 'Fort Worth builds fighters and moves freight: the defence aviation plant on the west side anchors an aerospace supplier web, a major rail hub runs through the city, and Barnett Shale midstream infrastructure remains across the region.',
-    work: 'Defence-aerospace examination is the anchor — NAS 410 personnel requirements, OEM approvals per method, and audit-grade records — with rail, fabrication and gas-infrastructure work providing a second, quite different stream under SNT-TC-1A.',
+    work: 'Defence-aerospace examination is the anchor — customer personnel requirements, OEM approvals per method, and audit-grade records — with rail, fabrication and gas-infrastructure work providing a second, quite different stream under SNT-TC-1A.',
     methods: 'Penetrant and eddy current on aerospace components, UT on structures and rail, MT at overhaul, RT where castings and welds demand it.',
   },
   groton: {
@@ -110,7 +110,7 @@ export const THIN_CITIES = {
   indianapolis: {
     name: 'Indianapolis', state: 'Indiana',
     base: 'Indianapolis carries a diversified industrial base: aerospace engine manufacture and MRO, pharmaceutical process plant, automotive and heavy-vehicle suppliers, and the logistics infrastructure of a national distribution hub.',
-    work: 'Aerospace work runs the NAS 410 regime; process and manufacturing work runs SNT-TC-1A under ASME and AWS codes. Technicians who can move between the two are unusually employable here.',
+    work: 'Technicians who can move between the two are unusually employable here.',
     methods: 'Penetrant and eddy current on aerospace components, UT and RT on pressure equipment and fabrication, MT on structures and lifting gear.',
   },
   jacksonville: {
@@ -128,7 +128,7 @@ export const THIN_CITIES = {
   'north-charleston': {
     name: 'North Charleston', state: 'South Carolina',
     base: 'North Charleston builds 787s. Boeing\'s South Carolina final assembly and fuselage operations anchor an aerospace cluster, with the port and a growing manufacturing base alongside.',
-    work: 'Composite structure dominates the aerospace inspection scope here — a different problem from metallic airframes, requiring ultrasonic techniques tuned to bond lines and delamination rather than crack detection, under NAS 410 personnel rules and Nadcap audit.',
+    work: 'Composite structure dominates the aerospace inspection scope here — a different problem from metallic airframes, requiring ultrasonic techniques tuned to bond lines and delamination rather than crack detection, under customer personnel rules and Nadcap audit.',
     methods: 'UT for composite bond and delamination inspection above all, thermography as a complementary technique, penetrant and eddy current on metallic components.',
   },
   orlando: {
@@ -163,7 +163,7 @@ export const THIN_CITIES = {
   },
   'san-diego': {
     name: 'San Diego', state: 'California',
-    base: 'San Diego is naval and aerospace before anything else: shipbuilding and repair yards on the bay working under NAVSEA requirements, and aerospace and defence manufacturers across the county running NAS 410 programmes.',
+    base: 'San Diego is naval and aerospace before anything else: shipbuilding and repair yards on the bay working under NAVSEA requirements, and aerospace and defence manufacturers across the county running their own aerospace personnel programmes.',
     work: 'The market rewards a technician who can move between military-adjacent documentation discipline and commercial code work — the yards and the aerospace shops have different regimes, and the region\'s biotech process equipment and utility fleet add a third.',
     methods: 'UT and MT on ship structure and repair welds, penetrant and eddy current on aerospace components, RT in the yards, VT throughout.',
   },

@@ -83,7 +83,7 @@ export const INDUSTRIES = [
   { key: 'pulp-paper', name: 'pulp and paper', context: 'recovery boilers, digesters and black liquor service; aggressive corrosion regimes' },
   { key: 'mining-minerals', name: 'mining and minerals', context: 'fixed plant, conveyors, crushers and process vessels in remote locations' },
   { key: 'steel-metals', name: 'steel and primary metals', context: 'furnaces, ducting and heavy structural steel; high-temperature and abrasion' },
-  { key: 'aerospace', name: 'aerospace manufacturing and MRO', context: 'NAS 410 personnel qualification, tight traceability, small critical parts' },
+  { key: 'aerospace', name: 'aerospace manufacturing and MRO', context: '' },
   { key: 'marine-shipyard', name: 'marine and shipyard', context: 'class society survey cycles with IACS members; hull and machinery scope' },
   { key: 'fabrication-shops', name: 'fabrication shops', context: 'ASME Section VIII and IX new construction, weld-driven, per-project rather than per-asset' },
   { key: 'pressure-vessel-manufacturers', name: 'pressure vessel manufacturers', context: 'ASME U-stamp production with Authorized Inspector involvement' },

@@ -94,7 +94,7 @@ const industries = [
   },
   {
     title: "Aerospace",
-    detail: "Landing gear components, engine mounts, fastener holes (with encircling coil), and ferromagnetic structural members. Aerospace MT is governed by AMS 2640, ASTM E1444, and NAS-410 personnel qualification requirements. WFMT with fluorescent particles is typically required for safety-critical aerospace parts.",
+    detail: "Landing gear components, engine mounts, fastener holes (with encircling coil), and ferromagnetic structural members. Aerospace MT is governed by AMS 2640 and ASTM E1444 personnel qualification requirements. WFMT with fluorescent particles is typically required for safety-critical aerospace parts.",
     link: "/ndt-for-aerospace",
   },
   {
@@ -112,7 +112,7 @@ const governingCodes = [
   { std: "API 570 Appendix B", scope: "MT for in-service piping inspection per piping inspection code" },
   { std: "ASTM E1444", scope: "MT of aerospace parts — procedure and acceptance criteria" },
   { std: "AMS 2640", scope: "Aerospace MT specification for fluorescent particle inspection" },
-  { std: "MIL-STD-1949 / NAS-410", scope: "Military and aerospace personnel qualification for MT" },
+  { std: "MIL-STD-1949", scope: "Military and aerospace personnel qualification for MT" },
 ];
 
 function FAQItem({ q, a }: { q: string; a: string }) {
@@ -374,10 +374,10 @@ export default function MagneticParticleTesting() {
           {/* Certification */}
           <section className="bg-white rounded-2xl p-8 shadow border border-slate-100">
             <h2 id="certification" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
-              MT Certification: ASNT, ISO 9712 &amp; NAS-410
+              MT Certification: ASNT, ISO 9712
             </h2>
             <p className="text-slate-700 leading-relaxed mb-5">
-              MT technicians must be certified to perform and interpret inspections on code work. The most widely recognised certification schemes are ASNT SNT-TC-1A (USA industrial), ASNT CP-189 (central certification), ISO 9712 (international), and NAS-410 (aerospace). Three certification levels apply to MT:
+              MT technicians must be certified to perform and interpret inspections on code work. The most widely recognised certification schemes are ASNT SNT-TC-1A (USA industrial), ASNT CP-189 (central certification), ISO 9712 (international). Three certification levels apply to MT:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               {[

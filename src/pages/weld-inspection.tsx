@@ -175,7 +175,7 @@ const industries = [
   },
   {
     name: "Aerospace",
-    detail: "Structural airframe welds, engine component welds. NAS-410 certification requirements, AMS specifications. Fluorescent PT and UT critical for aerospace weld acceptance.",
+    detail: "Structural airframe welds, engine component welds. Fluorescent PT and UT critical for aerospace weld acceptance.",
   },
   {
     name: "Shipbuilding",

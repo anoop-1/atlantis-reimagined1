@@ -144,11 +144,11 @@ const CITY_CTX = {
     cluster: 'BHEL Hyderabad and Visakhapatnam, HPCL Visakh refinery, ISRO and BDL suppliers, ECIL, and the Genome Valley pharma cluster',
     bodies: 'PESO, BARC, AERB, DGCA (aerospace), Telangana State Pollution Control Board, CDSCO (pharma), DRDO QA',
     operators: ['BHEL Hyderabad', 'HPCL Visakh refinery', 'Bharat Dynamics Ltd (BDL)', 'Electronics Corporation of India (ECIL)', 'ISRO supplier ecosystem', 'Defence Research & Development Organisation (DRDO) suppliers', 'Reddy Labs / Aurobindo (pharma equipment)', 'NTPC Ramagundam'],
-    codes: ['IBR (Indian Boiler Regulations)', 'IS 2825 / IS 7822 (pressure vessels)', 'AERB SC/IR-1 (radiation safety)', 'DGCA CAR Section 2 (aerospace)', 'NAS-410 / ASTM E1417 / E1444 (aerospace NDT)', 'API 510 / 570', 'ASNT SNT-TC-1A + ISNT'],
+    codes: ['IBR (Indian Boiler Regulations)', 'IS 2825 / IS 7822 (pressure vessels)', 'AERB SC/IR-1 (radiation safety)', 'DGCA CAR Section 2 (aerospace)', 'ASTM E1417 / E1444 (aerospace NDT)', 'API 510 / 570', 'ASNT SNT-TC-1A + ISNT'],
     flavor: 'Hyderabad inspection demand spans an unusually wide industrial mix — heavy engineering at BHEL, aerospace NDT for ISRO and BDL, pharma equipment qualification, plus HPCL refinery support',
     seasonality: 'milder climate enables year-round operations; pharma annual qualification cycles dominate Q4',
     keyClient: 'BHEL',
-    keyCode: 'NAS-410',
+    keyCode: '',
   },
   'london': {
     region: 'the United Kingdom and wider European NDT market',
@@ -445,7 +445,7 @@ const INDUSTRY_CITY_LENS = {
   'pipeline-integrity-services':
     'Pipeline integrity service providers here aggregate ILI vendor data (MFL, UT, EMAT, caliper), dig verification campaigns, and API 1163 / 1160 statutory submissions across long-haul networks',
   'aerospace-quality-control':
-    'Aerospace QC and MRO firms here track NAS-410 personnel qualification, AS9100D quality systems, and customer-specific specifications (Boeing, Airbus, OEM) with zero tolerance for documentation gaps',
+    'Aerospace QC and MRO firms here track personnel qualification, AS9100D quality systems, and customer-specific specifications (Boeing, Airbus, OEM) with zero tolerance for documentation gaps',
   'metrology-laboratories':
     'Metrology laboratories here manage multi-discipline uncertainty budgets, proficiency testing, customer-asset chain-of-custody, and ISO 17025 accreditation-audit readiness across dimensional, electrical, pressure, mass, and thermal disciplines',
   'industrial-coatings-inspection':
@@ -557,7 +557,7 @@ function buildUseCases(industry, city, ctx) {
       `A regional ILI services company in ${c} submits ${ctx.bodies.split(',')[0].trim()} statutory pipeline reports automatically from underlying inspection data — eliminating manual reporting deadlines as a risk source.`,
     ],
     'aerospace-quality-control': [
-      `A NAS-410 NDT shop in ${c} manages 35 ${op}-approved aerospace NDT technicians with method-and-customer-specific qualification matrices — including periodic vision and proficiency tests.`,
+      `${c} manages 35 ${op}-approved aerospace NDT technicians with method-and-customer-specific qualification matrices — including periodic vision and proficiency tests.`,
       `An MRO facility in ${c} runs AS9100D + FAA/EASA Part 145 + customer ${op2} flow-down clauses on a single platform — IMS audits unify across all schemes.`,
       `A composite-component inspection shop in ${c} integrates phased-array UT and shearography results with ${op3} customer specification compliance evidence per part number.`,
       `A defence aerospace supplier in ${c} maintains AS9100D quality records and customer-specific FOD prevention compliance per AS9146 — daily dashboard visible across production areas.`,

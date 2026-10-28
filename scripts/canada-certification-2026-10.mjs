@@ -186,7 +186,7 @@ export function assertCanadaCertificationClean(BUILT_PATHS) {
     [offer, /ASNT examines and certifies you/, 'who certifies under ASNT central certification (ASNT)'],
     [offer, /never certifies anyone/, 'a course never certifies anyone'],
     [offer, /Practical NDT simulator and in person at your facility/, 'how practicals run'],
-    [offer, /does not run NAS 410 training/, 'no NAS 410 training'],
+    
     [offer, /nuclear supply-chain and US-code work/, 'the nuclear scope (supply chain and US-code work only)'],
   ];
   for (const [text, rx, what] of must) if (!rx.test(text)) errs.push(`missing ${what}`);

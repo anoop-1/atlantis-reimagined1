@@ -27,7 +27,7 @@ const data = {
     "PCN GEN",
     "CSWIP 3.1 / 3.2 / 3.3",
     "AWS QC1",
-    "NAS-410 Rev 5",
+    
     "API ICP — 510 / 570 / 580 / 653",
     "ASME Section V"
   ],

@@ -788,7 +788,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     ],
     "whereAtlantisWins": "Atlantis is built for the inspection side of the relationship as well as the ownership side. The same platform runs the inspection company's certification currency, calibration traceability, crew scheduling and job costing, and the operator's CML thickness trending, corrosion-rate and remaining-life trending and inspection history on the 3D twin - which matters because the data quality problem in most integrity programmes starts in the field, not in the model. Deployment is measured in weeks per unit, geometry can come from LiDAR, photogrammetry, drone survey or existing BIM/CAD rather than requiring a specific capture route, and full REST API plus documented bulk export is available from day one rather than negotiated at renewal.",
     "ndtGaps": [
-      "No personnel qualification model - SNT-TC-1A / ISO 9712 / NAS 410 currency and expiry warnings are outside the product's scope",
+      "No personnel qualification model - SNT-TC-1A / ISO 9712 / certification currency and expiry warnings are outside the product's scope",
       "No instrument, probe and reference-block calibration register with ISO 17025 traceability",
       "No multi-client separation for inspection contractors working across several operators",
       "No work-order costing, progress billing or contract margin visibility",
@@ -803,7 +803,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       },
       {
         "factor": "Personnel qualification",
-        "atlantis": "Native SNT-TC-1A / ISO 9712 / NAS 410 currency with computed status, 90-day expiry warnings and blocked double-booking",
+        "atlantis": "Native SNT-TC-1A / ISO 9712 / certification currency with computed status, 90-day expiry warnings and blocked double-booking",
         "competitor": "Not in scope"
       },
       {

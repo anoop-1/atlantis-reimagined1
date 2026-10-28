@@ -55,7 +55,7 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
       {
         h: "Industry documentation regimes narrow the pool",
         body:
-          "Nuclear work under ASNT CP-189 and aerospace work under NAS 410 add documentation and customer requirements that narrow the qualified pool. Oil and gas work follows the capital and turnaround cycle. None of the public sources above reports Level III pay by industry, so treat these as reasons pay differs, not as figures.",
+          "Nuclear work under ASNT CP-189 and aerospace work under customer specifications add documentation requirements that narrow the qualified pool. Oil and gas work follows the capital and turnaround cycle. None of the public sources above reports Level III pay by industry, so treat these as reasons pay differs, not as figures.",
       },
       {
         h: "An API inspector certification opens a separate track",

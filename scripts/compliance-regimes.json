@@ -688,7 +688,7 @@
    "EPC and export fabrication",
    "Power generation",
    "Pipelines",
-   "Aerospace supply chain (as a supplement to, not a substitute for, NAS 410)"
+   ""
   ],
   "renewal": "Certificates run five years and are renewed through a structured credit-point system rather than automatic re-examination; technical training supporting the initial certification stays valid for a maximum of ten years. ACCP transition dates are fixed and published: ASNT stopped accepting first-time ACCP applications on 15 May 2023 and stopped renewing existing ACCP certificants on 30 August 2023, with a transition period running to September 2028 when the ACCP programme sunsets. A 2026 ASNT article describes the last active ACCP certifications expiring in 2029. A restricted ACCP Level II VT route for AWS CWI/SCWI holders was extended by 24 months beginning 1 July 2023 by agreement between ASNT and AWS.",
   "commonFindings": [
@@ -709,73 +709,6 @@
    "iso-17025"
   ],
   "sources": "ASNT newsroom, 'Important Update to ACCP and CWI/SCWI Certification Program' (asnt.org) — verbatim dates: new applications stopped 15 May 2023, renewals stopped 30 August 2023, transition to September 2028, 24-month CWI/SCWI extension from 1 July 2023. ASNT Materials Evaluation, 'Understanding ASNT 9712: How It Relates to ISO 9712 and What Sets It Apart' (asnt.org/me/26/8) — identical adoption, 80% practical pass mark, mandatory flaw detection, psychometric validation, acceptance of employer-based training certificates, ACCP retirement with last certifications expiring 2029, and the statement that ASNT is pursuing ANAB ISO/IEC 17024 accreditation for ASNT 9712. ASNT 9712 Level II and Level III certification pages, certification.asnt.org — training days, experience days, exam structure, five-year validity, ten-year training validity, and published fees (Level II single technique US$1,270 member / US$1,345 non-member; multi-technique bundles US$1,620–1,970 member; Level III packages roughly US$1,190–1,820 member depending on method and whether the candidate already holds ASNT NDT Level III; individual exam components US$120–655). ANSI/ASNT CP-9712 (2023) listed on asnt.org/standards-publications/standards as the US adoption of ISO 9712:2021. All checked August 2026."
- },
- {
-  "slug": "nas-410",
-  "name": "NAS 410, Certification and Qualification of Nondestructive Test Personnel, with its harmonised European counterpart EN 4179, Aerospace series — Qualification and approval of personnel for non-destructive testing",
-  "shortName": "NAS 410 / EN 4179",
-  "jurisdiction": "United States (NAS 410); Europe (EN 4179), treated as technically equivalent",
-  "countryCode": "US",
-  "authority": "Aerospace Industries Association (AIA) publishes NAS 410, distributed through Accuris. EN 4179 is prepared by ASD-STAN and published through CEN. Enforcement is by the airframe and engine primes through purchase-order flow-down, by the Performance Review Institute (PRI) through Nadcap audits to AC7114, and by aviation regulators — the FAA treats personnel qualified under EN 4179 as technically equivalent to NAS 410. National Aerospace NDT Boards (NANDTBs) operate in countries that have established them.",
-  "appliesTo": "NDT providers and in-house NDT functions serving aerospace manufacturing, maintenance, repair and overhaul — engine and airframe shops, casting and forging suppliers, and independent NDT houses on aerospace approved-supplier lists. Primes flow the requirement down through purchase orders, and Nadcap audits it under AC7114. Firms selling into both US and European aerospace supply chains have to satisfy the NAS 410 and EN 4179 halves consistently.",
-  "employerCertificationAccepted": true,
-  "summary": "NAS 410 sets minimum requirements for qualifying and certifying Level 1, Level 2, Level 3 and Senior Level 3 personnel performing NDT, NDI or NDE in the aerospace manufacturing, service, maintenance and overhaul industries. Revision 6 was released by AIA and Accuris on 1 December 2025 and introduces a new Appendix D creating an additional pathway to Level 3 qualification, under which Level 2 personnel complete designated NDT activities that earn points toward qualification. EN 4179 is technically equivalent as published; the 2026 edition superseded EN 4179:2021 and carries annexes on the Level 3 recertification credit system, Level 1-limited personnel, and NANDTB requirements. Personnel certified to earlier revisions need not recertify until their current certification expires.",
-  "personnelCertification": "Employer-based, with a named accountable individual. The employer shall identify in writing a Responsible Level 3 to act on its behalf in matters regarding the NDT qualification and certification process; that person shall be certified as a Level 3 in one or more NDT methods and shall have thorough knowledge of the written instructions, codes, specifications and standards the employer uses. NAS 410 does not require an ASNT NDT Level III certificate, though an employer's written practice may accept one as evidence of the General examination. Contracting the Responsible Level 3 role to an outside agency is common and workable — but only the employer certifies personnel, and in Europe a NANDTB may need to approve the Level 3.",
-  "requiredDocuments": [
-   "Written practice for the training, qualification and certification of NDT personnel, approved by the Responsible Level 3",
-   "Written designation of the Responsible Level 3, plus that person's Level 3 certification records and evidence of knowledge of the employer's codes and specifications",
-   "Individual qualification files: training, experience, General, Specific and Practical examination results, and vision test records",
-   "Documented determination by the Responsible Level 3 — or by a NANDTB where one applies — of the adequacy and equivalency of experience carried in from a prior employer or programme",
-   "NDT procedures and work instructions for each method and technique, approved by the Responsible Level 3",
-   "Customer and procurement requirement flow-down records showing which prime specifications apply to which work",
-   "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap audit remain implemented",
-   "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
-   "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before the audit"
-  ],
-  "auditProcess": [
-   "Apply for Nadcap accreditation through PRI's eAuditNet / EANSM platform and select the AC7114 checklists matching the methods and techniques actually performed",
-   "Complete the self-audit against those checklists including all applicable job audits, and send the required package to the auditor 30 days before the audit",
-   "On-site audit covering scope and general information, customer and procurement requirements, internal NDT audits, personnel proficiency and certification records, examinations and vision testing, Level 3 responsibilities and inspection status control — plus live job audits on real parts",
-   "Auditor uploads nonconformance reports; the supplier responds with root cause and corrective action, reviewed by PRI staff engineers",
-   "The Nadcap NDT Task Group votes to accredit, fail, or issue merit",
-   "First reaccreditation audit within twelve months of the initial audit; subsequent reaccreditation intervals extend to 18 or 24 months under the Supplier Merit Program based on audit performance"
-  ],
-  "methodsInScope": [
-   "PT",
-   "MT",
-   "UT",
-   "PAUT",
-   "RT (film)",
-   "RT-D / digital radiography",
-   "ET"
-  ],
-  "industries": [
-   "Aerospace manufacturing",
-   "Aviation MRO and overhaul",
-   "Engine components",
-   "Castings and forgings",
-   "Defence aviation",
-   "Space hardware"
-  ],
-  "renewal": "Personnel certification expiry is set by the employer's written practice; NAS 410 states that personnel certified to previous revisions of NAS 410 or EN 4179 need not recertify to the requirements of the new revision until their current certification expires. The company-level cycle is separate and defined by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
-  "commonFindings": [
-   "Self-audit not performed, or performed without all applicable job audits — consistently among the most-cited AC7114 nonconformances",
-   "Required pre-audit package not sent to the auditor 30 days before the audit",
-   "Corrective actions from the previous Nadcap audit no longer implemented at the following audit",
-   "Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services",
-   "Written procedure and observed practice disagree during a job audit — the technique the operator ran is not the technique the procedure specifies",
-   "Equivalency of experience carried in from a prior employer or programme not evaluated and documented by the Responsible Level 3 or the NANDTB",
-   "Written practice not approved, or not re-approved, by the current Responsible Level 3 after a personnel change",
-   "Process timing steps missed during a job audit — PRI's published lists cite eddy current step-one timing among the recurring job-audit nonconformances",
-   "US firm holding only a NAS 410 Level 3 finds it insufficient for a European customer who requires a NANDTB-approved Level 3"
-  ],
-  "relatedRegimes": [
-   "asnt-snt-tc-1a",
-   "ansi-asnt-cp-189",
-   "iso-9712",
-   "iso-17025"
-  ],
-  "sources": "AIA press release, 'AIA and Accuris Release NAS410 Revision 6, Advancing Aerospace Safety and Workforce Development' (aia-aerospace.org) — release date 1 December 2025, Appendix D points-based Level 2 to Level 3 pathway, Accuris as sole source for AIA subscription content. NAS 410 Rev 5 (2020) scope and the four levels (Level 1, 2, 3, Senior Level 3) from standard catalogue records. NAS 410 paragraph 4.5 'Responsible Level 3' wording quoted from ndt.net technical forum discussion citing the standard text; treat the paragraph number as indicative and confirm against Rev 6. EN 4179:2021 (BS/DS editions) and EN 4179:2026, listed by BSI and DIN distributors as the current edition published 2026, superseding EN 4179:2021 — verified through distributor catalogue listings rather than the CEN portal. FAA/EASA harmonisation and technical equivalence of EN 4179 and NAS 410 from published NDT qualification literature and the FAA's NDT memorandum for production approval holders. Nadcap AC7114 audit content, top nonconformances and the Supplier Merit Program 12/18/24-month intervals from PRI (p-r-i.org) course outlines and Nadcap programme material, plus Quality Magazine's Nadcap NDT audit perspective. Checked August 2026."
  },
  {
   "slug": "iso-9712",
@@ -2440,7 +2373,7 @@
   "authority": "Performance Review Institute (PRI), a not-for-profit affiliate of SAE International, administering Nadcap on behalf of the Nadcap NDT Task Group and its subscribing primes",
   "appliesTo": "Any site that performs NDT on aerospace hardware: independent inspection service providers and NDT test houses, and captive NDT departments inside machining, casting, forging, fabrication and MRO shops. It binds when a subscribing prime — Boeing, GE Aviation, Pratt & Whitney, Rolls-Royce, Collins Aerospace, Safran, Honeywell, Lockheed Martin, Sikorsky, Bell, Eaton — flows Nadcap accreditation down as a purchase-order condition. Accreditation is granted per site and per method, not per company.",
   "summary": "AC7114 is the base checklist of the Nadcap NDT programme, and it audits the NDT quality system rather than any one method. It covers customer requirement flowdown and the sequencing of NDT operations, procurement control over sub-tier calibration and cleaning/etching facilities, an annual internal NDT audit, control and traceability of inspection status identifiers, inspection and traveller records, and calibration including interval extension. Section 5 audits people: the written practice, certification packages, vision records, the Responsible Level 3, outside Level 3 agencies and training course outlines. AC7114 is never used alone — every accredited method adds a slash sheet, and each prime may add a supplemental question set. The general quality system is covered by AS9100/EN9100, AC7004, or ISO/IEC 17025 for test houses.",
-  "personnelCertification": "Employer-based. AC7114 audits the supplier's own written practice built to AIA/NAS 410 (EN 4179 in Europe); PRI certifies no individuals. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to NAS 410/EN 4179. The employer, not the contractor, still signs the certifications.",
+  "personnelCertification": "Employer-based. Crucially the checklist explicitly contemplates an outsourced Level 3. Question 5.5.1 lets the employer designate either an Internal or an External Responsible Level 3 — a corporate Level 3 not stationed at the site counts as external. 5.5.2 requires every audited method to be covered by a Level 3, internal or external. 5.5.3 asks whether outside agencies provide Level 3 services and 5.5.4 requires documentation on file proving that outside Level 3 is certified to the customer-specified aerospace standard. The employer, not the contractor, still signs the certifications.",
   "requiredDocuments": [
    "Completed self-audit checklists — AC7114 plus every applicable slash sheet and supplement — uploaded to eAuditNet no less than 30 days before the scheduled audit, with the procedure and paragraph referenced for each question",
    "NDT written practice for qualification and certification of personnel, approved by the Responsible Level 3",
@@ -2451,7 +2384,7 @@
    "Personnel certification packages: training records, experience, latest written and practical examinations, vision and colour-perception records",
    "Annual internal NDT audit records, and the documented annual maintenance (technical proficiency) review for each certified individual in each method",
    "Calibration certificates providing traceability to the unit of measure, and documented justification where a calibration interval has been extended",
-   "Proof on file of NAS 410 / EN 4179 certification for any outside-agency or corporate Level 3 used for examinations, procedure or technique approval, hardware inspection, or as Responsible Level 3"
+   ""
   ],
   "auditProcess": [
    "Register the site in eAuditNet, select the AC7114 base plus the slash sheets and subscriber supplements matching the methods and primes in scope, and request an audit date — PRI states most audits occur three to six months after scheduling is confirmed.",
@@ -2485,7 +2418,7 @@
    "Techniques shown on an individual's certificate that do not appear as techniques in the written practice (question 5.2.3)",
    "Near-vision examination not repeated annually, colour perception not repeated at least every five years, or the exam administered by someone not designated in writing by the Responsible Level 3 (questions 5.4.6, 5.4.7)",
    "No documented annual maintenance review in each method for each individual certified to process and inspect hardware — the requirement applies to Level 3s too, and the record must name reviewee, reviewer, process and acceptance criteria, part identification, method and disposition",
-   "No proof on file of the outside or corporate Level 3's NAS 410 / EN 4179 certification (question 5.5.4)",
+   "",
    "Annual internal NDT audit missing, or not covering the inspection process, planning and traveller documentation, personnel certification records, procedures and equipment",
    "Inspection status identifiers (stamps, initials, clock numbers) not controlled — no issue, recall and traceability register, or an identifier available to someone other than the individual it is assigned to"
   ],
@@ -2505,7 +2438,7 @@
   "authority": "Performance Review Institute (PRI) — Nadcap NDT Task Group; the supplemental 'S' sheets are owned by the individual subscribing primes",
   "appliesTo": "Every Nadcap NDT auditee, because the base AC7114 alone cannot be accredited. A shop adds one slash sheet for each method it wants on its Scope of Accreditation, plus the 'S' supplemental sheet for each prime that has approved it. A firm running penetrant, magnetic particle and film radiography is therefore audited against at least four criteria documents plus supplements in a single visit.",
   "summary": "The slash sheets are where Nadcap NDT gets method-specific. AC7114 states it 'is supplemented by Audit Criteria for specific NDT processes to be accredited and shall be used with the applicable Subscriber Supplemental Checklists.' Each method has a numbered slash sheet audited alongside the base; each has an 'S' twin carrying prime-specific questions keyed to subscriber codes; and each has a lettered attachment form on which the site declares its materials and equipment for that method. Scope, revision and effective date are all tracked per sheet, so a single site's certificate routinely lists documents at different revisions with different 'to be used on audits on/after' dates. Getting the slash-sheet selection wrong is the fastest way to have real work fall outside the accredited scope.",
-  "personnelCertification": "The slash sheets do not create a separate certification scheme — certification stays employer-based to NAS 410/EN 4179 under the base document. What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit. So the Level 3 — internal or external — must hold NAS 410/EN 4179 certification in every method whose slash sheet is on the scope, and personnel certificates must name the technique, not just the method.",
+  "personnelCertification": "What they do is define the granularity: the base checklist's certification-record table is laid out by slash sheet, with a row for AC7114/1, /2, '/3 and /7', /4, /5, /6, /8 and /9, and the auditor reviews at least one certification package for each method at each level issued since the last audit.",
   "requiredDocuments": [
    "The applicable slash sheet completed as a self-audit for every method in scope, uploaded with the base AC7114 self-audit 30 days before the audit",
    "The applicable subscriber supplemental sheet (AC7114S, AC7114/1S, /2S, /3S, /4S, /5S, /10S) for each prime shown on the Subscriber Matrix",
@@ -2566,7 +2499,7 @@
   "authority": "Federal Aviation Administration, Flight Standards Service; day-to-day oversight sits with the repair station's responsible Flight Standards office",
   "appliesTo": "NDT firms whose inspection results are used to return civil aeronautical articles to service. A standalone NDT house needs its own repair station certificate carrying the §145.61(b)(9) limited rating for nondestructive inspection, testing, and processing. Alternatively the firm works as a noncertificated contractor to a repair station, in which case the repair station must qualify and surveil it under its own quality control system. Covers aircraft, engines, propellers, accessories and components.",
   "summary": "Part 145 does not describe NDT techniques; it regulates the organisation that performs them. The FAA issues a limited rating for 'Nondestructive inspection, testing, and processing' under §145.61(b)(9), and §145.61(c) requires the repair station's operations specifications to name the specification used for the specialized service — either a civil or military specification currently used by industry and approved by the FAA, or one the applicant develops and the FAA approves. Around that sit §145.151 personnel, §145.155 inspection personnel proficiency and English literacy, §145.163 an FAA-approved initial and recurrent training program with records kept at least two years, and §145.211(c) a quality control manual that must describe how inspection personnel proficiency is established and maintained and how measuring and test equipment is calibrated, including intervals.",
-  "personnelCertification": "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency; therefore, most certifications are employer-based and are not transferrable.' The AC lists acceptable standards — AIA-NAS-410, ATA Specification 105, CAN/CGSB-48.9712-95, ISO 9712, MIL-STD-410E (rescinded but acceptable), ASNT SNT-TC-1A, and prEN 4179. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice.",
+  "personnelCertification": "Employer-based, and the FAA says so plainly. AC 65-31B defines certification as 'written testimony of qualification that the employer typically issues' and states: 'In the United States, there is no national certifying agency. It defines an 'Outside Agency' as an independent body under contract for NDI services, explicitly including consultants and self-employed individuals, and paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing at the organisation's option and as provided in its written practice.",
   "requiredDocuments": [
    "Application for a repair station certificate and rating, with the attachments required by §145.51(a)",
    "Operations specifications containing the specification used to perform the specialized service, per §145.61(c)",
@@ -2608,7 +2541,7 @@
    "Quality control manual silent on how proficiency of inspection personnel is established and maintained, which §145.211(c)(1)(iv) requires explicitly",
    "Employee training program treated as generic safety training with no method-specific initial and recurrent NDI content, or training records not retained for the full two years required by §145.163(c)",
    "Vision examinations lapsed beyond the one-year period, or colour-perception limitations never evaluated and approved in writing by the responsible Level III",
-   "Written practice references SNT-TC-1A or NAS 410 but the recertification intervals actually applied do not match the standard the organisation says it follows",
+   "Written practice references SNT-TC-1A but the recertification intervals actually applied do not match the standard the organisation says it follows",
    "Outside agency used for training, qualification or testing without that use being provided for in the written practice, as AC 65-31B paragraph 9b requires",
    "No documented qualification and surveillance of the noncertificated NDT contractor performing work under the repair station certificate",
    "Calibration of NDI measuring and test equipment performed without stated intervals in the quality control manual or without traceability to a national standard"

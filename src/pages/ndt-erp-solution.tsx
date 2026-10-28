@@ -40,7 +40,7 @@ const modules = [
         icon: Award,
         slug: "certification-tracking",
         description:
-            "Centralized ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN, CSWIP, CGSB-48.9712, NAS 410, EN 4179 record-keeping with parallel qualification sets per technician. Vision acuity (Jaeger #2 + Snellen 20/30 + Ishihara color), recurrent OJT logs, employer-of-record letters, and exam-score archive. Automated 90/60/30/7-day expiry alerts to inspector and supervisor, plus audit-ready certification packages on demand."
+            "Centralized ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN, CSWIP, CGSB-48.9712 record-keeping with parallel qualification sets per technician. Vision acuity (Jaeger #2 + Snellen 20/30 + Ishihara color), recurrent OJT logs, employer-of-record letters, and exam-score archive. Automated 90/60/30/7-day expiry alerts to inspector and supervisor, plus audit-ready certification packages on demand."
     },
     {
         title: "Equipment Calibration",
@@ -94,7 +94,7 @@ const industries = [
         icon: Plane,
         slug: "aerospace",
         description:
-            "NAS 410 Revision 5 and EN 4179 personnel tracking with Specific Procedure qualification, Method certification, annual acuity, and 5-year recertification. The procedure-library module supports linking technician qualifications to the aerospace-prime house specifications your team is contracted under — such as Boeing GP-150 or Airbus AIPS-01. NADCAP audit packages auto-generate."
+            "Aerospace personnel tracking (EN 4179 and customer standards) with Specific Procedure qualification, Method certification, annual acuity, and 5-year recertification. The procedure-library module supports linking technician qualifications to the aerospace-prime house specifications your team is contracted under — such as Boeing GP-150 or Airbus AIPS-01. NADCAP audit packages auto-generate."
     },
     {
         name: "Marine",
@@ -146,7 +146,7 @@ const competitorLinks = [
 const atlantisAddons = [
     "ASNT SNT-TC-1A written practice authoring",
     "ISO 9712 method matrix configurator",
-    "NAS 410 / EN 4179 aerospace track",
+    
     "API 510/570/653 inspection workflows",
     "ASME BPVC Section V procedure library",
     "NACE MR0175 sour-service damage models",
@@ -251,7 +251,7 @@ export default function NDTERPSolution() {
                 keywords:
                     "NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking, API 510 ERP, NDT scheduling software, Atlantis ERP NDT, SAP NDT alternative, Maximo NDT alternative",
                 dependencies:
-                    "ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, EN 4179, NAS 410, ISO 9001:2015, ISO 17020, ISO 17025, ASTM E797, API Q1, API 510, API 570, API 653"
+                    "ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, ISO 9001:2015, ISO 17020, ISO 17025, ASTM E797, API Q1, API 510, API 570, API 653"
             }),
             { "@type": "Organization", "@id": "https://atlantisndt.com/#organization", ...ATLANTIS_PUBLISHER },
             { "@type": "Person", "@id": "https://atlantisndt.com/#anoop-rayavarapu", ...ATLANTIS_AUTHOR_ANOOP },
@@ -264,7 +264,7 @@ export default function NDTERPSolution() {
                 "operatingSystem": "Cloud / Web (browser); iOS; Android; on-premise Docker",
                 "softwareVersion": "2026.5",
                 "description":
-                    "ERP software pre-configured for NDT inspection service companies. Manages personnel certifications (ASNT SNT-TC-1A, ISO 9712, NAS 410), equipment calibration (ASTM E797), procedures (ISO 17020), projects, financials, and client portal in one integrated platform.",
+                    "ERP software pre-configured for NDT inspection service companies. Manages personnel certifications (ASNT SNT-TC-1A, ISO 9712), equipment calibration (ASTM E797), procedures (ISO 17020), projects, financials, and client portal in one integrated platform.",
                 "url": URL,
                 "publisher": { "@id": "https://atlantisndt.com/#organization" },
                 "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
@@ -317,7 +317,7 @@ export default function NDTERPSolution() {
                         <p className="text-xl text-orange-50 mb-4 leading-relaxed">
                             Atlantis NDT ERP runs your inspection business end-to-end — NDT technician
                             certification tracking that flags expiring credentials automatically (ASNT,
-                            ISO 9712, PCN, NAS 410), equipment calibration management, inspection company
+                            ISO 9712, PCN), equipment calibration management, inspection company
                             scheduling and crew dispatch, invoicing, and ISO 9001 document control — on
                             an Atlantis ERP backbone.
                         </p>
@@ -449,7 +449,7 @@ export default function NDTERPSolution() {
                             services. What Atlantis ERP does not ship is
                             the NDT inspection industry's regulatory body of knowledge: ASNT SNT-TC-1A
                             written practice templates, ISO 9712 method matrices, ASTM E797 calibration
-                            intervals, API 510/570/653 report layouts, NAS 410 vision acuity tests,
+                           
                             NACE MR0175 sour-service damage models, AERB and NRC radiographer dose
                             ledgers. On a vanilla Atlantis ERP (or any generic ERP) those concepts have to be
                             custom-built — typically a 6-18 month enterprise-tier consulting engagement.
@@ -503,7 +503,7 @@ export default function NDTERPSolution() {
                                     <tr className="border-t bg-orange-50">
                                         <td className="px-3 py-3 font-semibold text-orange-700">Atlantis NDT ERP</td>
                                         <td className="px-3 py-3">Yes (NDT add-on modules)</td>
-                                        <td className="px-3 py-3">ASNT/ISO 9712/PCN/NAS 410 native</td>
+                                        <td className="px-3 py-3">ASNT/ISO 9712/PCN native</td>
                                         <td className="px-3 py-3">4 weeks</td>
                                         <td className="px-3 py-3">Affordable SaaS — fully customizable</td>
                                         <td className="px-3 py-3">Hosted or on-prem</td>
@@ -713,7 +713,7 @@ export default function NDTERPSolution() {
                             <Link to="/ndt-erp-halifax" className="text-orange-600 hover:underline">Halifax</Link> on
                             a decades-long shipbuilding programme's structural-weld examination,{" "}
                             <Link to="/ndt-erp-montreal" className="text-orange-600 hover:underline">Montreal</Link> on
-                            NAS 410-adjacent civil-aerospace personnel tracking,{" "}
+                           {" "}
                             <Link to="/ndt-erp-toronto" className="text-orange-600 hover:underline">Toronto</Link> on
                             nuclear-refurbishment documentation discipline, and{" "}
                             <Link to="/ndt-erp-vancouver" className="text-orange-600 hover:underline">Vancouver</Link> on
@@ -721,8 +721,7 @@ export default function NDTERPSolution() {
                             <Link to="/erp-modules/certification-tracking" className="text-orange-600 hover:underline">
                                 certification tracking module
                             </Link>{" "}
-                            holds CAN/CGSB-48.9712 alongside ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN,
-                            CSWIP and NAS 410 as parallel qualification sets per technician, so a company
+                            holds CAN/CGSB-48.9712 alongside ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN and CSWIP as parallel qualification sets per technician, so a company
                             running Canadian and international accounts from one office is not forced to
                             choose which scheme its records are built around.
                         </p>

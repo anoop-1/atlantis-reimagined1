@@ -14,12 +14,12 @@ const data: ErpTripleCrossProps = {
   "desc": "Customer Relationship Management (CRM) ERP module for NDT inspection companies in Hyderabad, India. Aligned to ASNT / ISO 9712 / ISNT in parallel, with operator flow-down for BHEL, HPCL Visakh, BDL and PESO / BARC / AERB compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "NDT inspection companies operating in Hyderabad, India face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic CRMs cannot model — and that combination shapes how customer relationship management actually has to work on the ground. Hyderabad is the South India NDT hub, home to BHEL Ramachandrapuram (heavy electrical equipment), HPCL Visakh refinery (160,000 bpd, 350 km east), Bharat Dynamics Ltd defence manufacturing, HAL Hyderabad aerospace, ECIL nuclear instrumentation, and a fast-growing pharmaceutical NDT belt (Dr Reddy's, Aurobindo, Divi's Laboratories, Hetero Drugs at Genome Valley).",
   "introPara2": "For a mid-size Hyderabad NDT inspection contractor, customer relationship management is not back-office — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. A single CRM gap on the wrong opportunity can cost the contract and damage the relationship with a major operator. Atlantis NDT ERP's CRM module is purpose-configured for the codes, operators and regulators that matter in Hyderabad — not a generic SaaS bolted to a spreadsheet of opportunities.",
-  "introPara3": "Configured for Hyderabad — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from BHEL Hyderabad, HPCL Visakh, BDL, HAL, ECIL, once uploaded — compliance templates against IBR / IS 2825 / AERB SC/IR-1 / OISD-141 / NAS 410 Rev 5 (for HAL aerospace supplier work), and the audit frameworks that PESO, BARC, AERB, DGCA and the Telangana State Pollution Control Board actually use. Field-data capture is offline-capable for Hyderabad project sites, multi-language reporting supports Telugu / Hindi / English document formats, and the platform is delivered as multi-tenant SaaS with regional data residency.",
+  "introPara3": "Field-data capture is offline-capable for Hyderabad project sites, multi-language reporting supports Telugu / Hindi / English document formats, and the platform is delivered as multi-tenant SaaS with regional data residency.",
   "features": [
     "CRM module configured for Hyderabad's multi-sector inspection-services market (heavy electrical, refining, defence, aerospace, pharma)",
     "Multi-method scope (UT, RT, MT, PT, ET, VT, PAUT, TOFD, LRUT, ECA) tied to opportunity records",
     "ASNT SNT-TC-1A / ISO 9712 / ISNT in parallel certification cross-mapping",
-    "NAS 410 Rev 5 aerospace endorsement tracking for HAL / BDL supplier work",
+    
     "Operator-specific opportunity templates for BHEL, HPCL Visakh, BDL, HAL, ECIL, Dr Reddy's",
     "Hyderabad regulator compliance dashboard for PESO, BARC, AERB, DGCA, TSPCB",
     "Audit-ready PDF compliance package for any client / auditor in 30 seconds",
@@ -77,10 +77,6 @@ const data: ErpTripleCrossProps = {
     [
       "What does CRM cost for an NDT inspection company in Hyderabad?",
       "CRM is bundled inside the standard Atlantis NDT ERP subscription — affordable, accessible and fully customizable, quote on request — there is no per-module licence fee. For Hyderabad customers, invoicing is supported in INR or USD with daily FX update. The subscription covers cloud hosting (with optional India data residency), quarterly upgrades, all 35+ pre-configured ERP modules, mobile apps, knowledge-base access and email / SMS support."
-    ],
-    [
-      "Does CRM handle NAS 410 Rev 5 for HAL / BDL aerospace supplier work?",
-      "Yes. NAS 410 Rev 5 aerospace NDT personnel certification (the current standard for HAL, BDL, ISRO and DGCA-regulated work) is tracked alongside generic ISNT and ASNT certifications. Customer-specific written-practice endorsements per HAL, BDL or ISRO ecosystem are stored as separate qualification chains."
     ]
   ]
 } as ErpTripleCrossProps;

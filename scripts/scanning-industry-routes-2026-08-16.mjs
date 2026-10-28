@@ -79,7 +79,7 @@ export const SCAN_INDUSTRIES = {
     desc: 'Metrology-grade scanning for aerospace manufacture and MRO: tooling and jig verification, reverse engineering of legacy parts, assembly fit-up and as-maintained capture.',
     why: `Aerospace tolerances make geometry a quality characteristic rather than a convenience. Tooling drifts, legacy parts have no model, and assembly interfaces must be proven before build rather than discovered during it — all questions metrology-grade capture answers directly.`,
     uses: `Jig and tooling verification against nominal; reverse engineering of out-of-production components; assembly fit-up and gap/flush analysis; composite part conformance to CAD; and as-maintained capture on airframes during heavy check.`,
-    pairing: `Dimensional conformance is one half of aerospace quality; the other is subsurface integrity — fluorescent PT, ET and composite UT under NAS 410 process control.`,
+    pairing: `Dimensional conformance is one half of aerospace quality; the other is subsurface integrity — fluorescent PT, ET and composite UT under Nadcap process control.`,
     links: [['/eddy-current-testing-aviation', 'ET in aerospace'], ['/consulting/aerospace-ndt-consulting', 'aerospace programme consulting'], ['/aerospace-ndt-training', 'aerospace NDT training']],
   },
   fabrication: {

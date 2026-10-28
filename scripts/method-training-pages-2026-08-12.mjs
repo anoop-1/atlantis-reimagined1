@@ -97,7 +97,7 @@ export const METHOD_TRAINING = {
     practical: 'The practical examination tests process discipline under observation: adequate cleaning, correct dwell, controlled removal, thin uniform developer, and evaluation under the required lighting. Fluorescent examination adds dark-adaptation and UV-intensity requirements that candidates routinely underestimate.',
     codes: 'ASME Section V Article 6, ASTM E165 and E1417, ISO 3452 series, with acceptance from the referencing construction code.',
     employers: 'Aerospace above all — fluorescent penetrant inspection is a Nadcap-audited special process — plus casting and forging manufacture, petrochemical alloy and stainless work, marine aluminium, and any operation with non-ferromagnetic components.',
-    advanced: 'Aerospace PT runs under NAS 410 or EN 4179 personnel requirements rather than SNT-TC-1A alone, with employer approval per method. A candidate targeting aerospace should train toward that regime deliberately. <a href="/corporate-training/aerospace">Aerospace training programmes</a>.',
+    advanced: 'A candidate targeting aerospace should train toward that regime deliberately. <a href="/corporate-training/aerospace">Aerospace training programmes</a>.',
   },
   'visual-testing-training': {
     name: 'Visual Testing (VT)', short: 'VT',

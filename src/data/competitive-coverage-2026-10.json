@@ -31,10 +31,6 @@
         [
           "Limited certification",
           "Some employers certify technicians for one technique only, such as UT thickness measurement or RT film interpretation. The written practice defines the limited scope and the training that goes with it."
-        ],
-        [
-          "Other schemes",
-          "PCN and CSWIP are UK central-certification schemes, ISO 9712 is the international standard behind them, and NAS 410 governs aerospace. Atlantis training is delivered to SNT-TC-1A; candidates who need another scheme should check its own recognised-training rules first."
         ]
       ],
       "faq": [
@@ -95,10 +91,6 @@
       ],
       "points": [
         [
-          "SNT-TC-1A, CP-189 and NAS 410 written practices",
-          "An SNT-TC-1A written practice, a CP-189 written practice where customers require the standard, or a NAS 410 written practice for aerospace work, with the training, experience, examination and vision requirements spelled out by method and level."
-        ],
-        [
           "Procedures, technique sheets and work instructions",
           "NDT procedure development to the governing code, such as ASME Section V or Section XI, and technique sheets or work instructions that let a Level II apply the procedure to a specific part."
         ],
@@ -115,16 +107,8 @@
           "Internal audits of the NDT programme and preparation for customer, supplier or Nadcap audits. Audit preparation reduces findings; it does not guarantee a result."
         ],
         [
-          "NAS 410 Level 3 and aerospace",
-          "NAS 410 has its own rules for a Responsible Level 3 and for outside agencies, ATA 105 applies to some airline maintenance programmes, and some primes add their own approval requirements. Scope is confirmed against your customers' requirements in the proposal."
-        ],
-        [
           "SNT-TC-1A consulting",
           "Writing or revising the written practice, setting training and experience requirements, preparing and grading examinations under your programme, and keeping the certification records your customers and auditors check."
-        ],
-        [
-          "NAS 410 Level 3 services",
-          "NAS 410 Level 3 work for aerospace suppliers is delivered by an associate of Atlantis who holds NAS 410 Level 3 certification, with Atlantis managing the engagement. It covers written practices to NAS 410 and EN 4179, procedure and technique approval, and support for Nadcap audits. Where the employer's written practice allows it, the associate can act as an authorized independent outside agency for Level 3 functions. Who is designated Responsible Level 3 is the employer's decision and is set out in the proposal."
         ],
         [
           "Personnel qualification support",
@@ -851,10 +835,6 @@
         [
           "Job audits",
           "Live jobs walked against the procedure, which is where most findings come from."
-        ],
-        [
-          "NAS 410 Level 3",
-          "NAS 410 Level 3 authority is provided by an associate of Atlantis who holds NAS 410 Level 3 certification."
         ]
       ],
       "faq": [

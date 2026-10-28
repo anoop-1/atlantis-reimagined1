@@ -134,7 +134,7 @@ const INSPECTION_MANAGEMENT_SOFTWARE: MoneyPage = {
         'Atlantis NDT ERP puts the six things that actually run an inspection company on one platform, so that a change in one is visible in the others: a certification that lapses on Friday removes that technician from Monday\'s dispatch automatically.',
       ],
       bullets: [
-        'People — method-level qualification per SNT-TC-1A, CP-189, ISO 9712 or NAS 410, with vision exams, examination records, on-the-job hours and the governing written-practice revision.',
+        'People — method-level qualification per SNT-TC-1A, CP-189 or ISO 9712, with vision exams, examination records, on-the-job hours and the governing written-practice revision.',
         'Equipment — instruments, probes, wedges, reference blocks and step wedges with calibration intervals, certificates and traceability to a national standard.',
         'Work — multi-crew, multi-site scheduling and dispatch, with mobilisation, standby and travel captured as costed time.',
         'Assets — client plant/unit/line/component hierarchies with persistent CML and TML identity across campaigns.',

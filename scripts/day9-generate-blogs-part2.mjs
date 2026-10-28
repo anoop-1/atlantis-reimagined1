@@ -139,46 +139,39 @@ ${FOOTER([A.api570, A.ffs, A.dt])}`,
 // ───────────────────────────────────────────────────────────────
 BLOGS.push(blog({
   id: 307,
-  title: 'NAS 410 Aerospace NDT Certification 2026 — Requirements + EN 4179 Comparison',
+  title: '',
   slug: 'nas-410-aerospace-ndt-certification-explained',
-  metaDescription: 'NAS 410 aerospace NDT certification 2026 — Level I/II/III requirements, EN 4179 equivalence, NANDTB / NDT 2 Pri-Lev1, employer responsibility, recertification. ASNT Level III practical guide.',
-  snippet: 'NAS 410 is the aerospace NDT personnel certification standard — managed via NANDTB (US) and aligned with EN 4179 (Europe). This 2026 guide explains Level I/II/III requirements, employer responsibilities, NDT 2 Pri-Lev1 recertification, and which prime contractors require which scheme.',
+  metaDescription: 'ASNT Level III practical guide.',
+  snippet: 'This 2026 guide explains Level I/II/III requirements, employer responsibilities, NDT 2 Pri-Lev1 recertification, and which prime contractors require which scheme.',
   category: 'Certifications',
   quickAnswer: {
-    question: 'What is NAS 410 NDT certification?',
-    answer: 'NAS 410 (National Aerospace Standard) is the aerospace NDT personnel-certification standard published by the Aerospace Industries Association (AIA). It defines Level I, II, and III qualification for ultrasonic, radiographic, magnetic particle, liquid penetrant, eddy current, and visual inspection of aerospace parts. Administered via the National Aerospace NDT Board (NANDTB) in the US; equivalent to EN 4179 in Europe via formal recognition by Aerospace Industries Association of Europe.',
+    question: '',
+    answer: 'It defines Level I, II, and III qualification for ultrasonic, radiographic, magnetic particle, liquid penetrant, eddy current, and visual inspection of aerospace parts. Administered via the National Aerospace NDT Board (NANDTB) in the US; equivalent to EN 4179 in Europe via formal recognition by Aerospace Industries Association of Europe.',
     bullets: [
-      'NAS 410 = US aerospace standard (NANDTB); EN 4179 = European equivalent (formal recognition)',
+      
       'Level II = independent perform + interpret; Level III = procedure approval + Level I/II certify',
       'Recertification every 5 yr; annual eye test (Jaeger J1 + Ishihara) per § 7.7',
     ],
   },
-  content: `<h2>NAS 410 Aerospace NDT Certification — Practical 2026 Guide</h2>
-<p><strong>NAS 410</strong> (latest revision NAS 410, Rev 5, 2021) is the aerospace NDT personnel-certification standard — the rules that govern who is allowed to perform, interpret, and approve NDT on aircraft, spacecraft, missiles, and aerospace engine components. It is published by the Aerospace Industries Association (AIA), administered through the National Aerospace NDT Board (NANDTB), and required by every major US aerospace prime: Boeing, Lockheed Martin, Northrop Grumman, Raytheon Technologies (Pratt &amp; Whitney + Collins Aerospace + Raytheon), Sikorsky, GE Aviation, SpaceX, Blue Origin, Honeywell Aerospace, and the Department of Defense.</p>
-
-<h2>NAS 410 vs ASNT SNT-TC-1A vs ISO 9712 — Why a Separate Standard?</h2>
-<p>${A.sntTcOnePost} is an employer-based recommended practice covering pressure equipment, refining, structural fabrication, and general industry. It works for refineries, power plants, pipelines — but aerospace primes demand higher rigour and uniformity. NAS 410 fills that gap: tighter eye-test rules, deeper Level III oversight, mandatory NANDTB-graded exams for Level III (instead of employer-graded), and tighter recertification cycle (5 years vs SNT-TC-1A's recommended 3-5 years).</p>
-<p>For European aerospace work — Airbus, Safran, MTU, Leonardo, BAE Systems — the equivalent is EN 4179. NAS 410 and EN 4179 are mutually recognised via formal industry agreement. An NDT engineer certified under one is generally accepted by the other after a paperwork check, but the receiving prime may require local-language exam coverage and country-specific procedure review.</p>
+  content: `${A.sntTcOnePost} is an employer-based recommended practice covering pressure equipment, refining, structural fabrication, and general industry. It works for refineries, power plants, pipelines — but aerospace primes demand higher rigour and uniformity.</p>
+<p>For European aerospace work — Airbus, Safran, MTU, Leonardo, BAE Systems — the equivalent is EN 4179. An NDT engineer certified under one is generally accepted by the other after a paperwork check, but the receiving prime may require local-language exam coverage and country-specific procedure review.</p>
 
 <h2>Three Levels of Certification</h2>
 <ul>
-  <li><strong>Level I:</strong> performs NDT under written instructions of a Level II or III; sets up equipment; records data; cannot interpret or sign-off. Training hours per Table 1 of NAS 410. Typical 40 hrs UT, 40 hrs RT, 12 hrs MT, 8 hrs PT, 40 hrs ET, 8 hrs VT.</li>
+  <li><strong>Level I:</strong> performs NDT under written instructions of a Level II or III; sets up equipment; records data; cannot interpret or sign-off. Typical 40 hrs UT, 40 hrs RT, 12 hrs MT, 8 hrs PT, 40 hrs ET, 8 hrs VT.</li>
   <li><strong>Level II:</strong> performs, interprets, and signs off on NDT inspection; certifies Level I personnel; develops technique sheets under Level III supervision. Additional 40+ training hrs beyond Level I; 1,200–2,000 OJT hrs depending on method.</li>
-  <li><strong>Level III:</strong> approves NDT procedures; certifies Level I/II personnel; develops the employer's Written Practice (the NAS 410 equivalent to SNT-TC-1A WP); represents employer to NANDTB. ASNT Level III exam OR NAS 410 Level III exam (administered by NANDTB) required, plus a written Practical exam at the employer.</li>
+  <li><strong>Level III:</strong> approves NDT procedures; certifies Level I/II personnel; represents employer to NANDTB.</li>
 </ul>
 
 <h2>Eye Test and Color Perception — § 7.7</h2>
-<p>NAS 410 § 7.7 mandates annual eye test:</p>
+
 <ul>
   <li><strong>Near-vision acuity:</strong> Jaeger J1 letters at 12 inches (305 mm), one eye at a time, with corrective lenses if worn (correction must be the working pair used during inspection)</li>
   <li><strong>Color perception:</strong> Ishihara plates or equivalent — must identify the four basic colors used in NDT (red, green, blue, yellow). Fluorescent UV work requires special color test.</li>
   <li><strong>Documentation:</strong> annual eye exam record kept in personnel file; expired eye test = automatic suspension from NDT work until re-tested.</li>
 </ul>
 
-<h2>NAS 410 Required Methods</h2>
-<p>Methods commonly certified under NAS 410:</p>
-<ul>
-  <li>${A.ut} (UT) — pulse-echo, phased-array, TOFD for forging and casting inspection</li>
+${A.ut} (UT) — pulse-echo, phased-array, TOFD for forging and casting inspection</li>
   <li>${A.rt} (RT + film + DR + CR) — for casting, weld, and composite inspection</li>
   <li>${A.mt} (MT) — for ferromagnetic engine components (turbine blades from Ni-base alloys are NOT ferro; MT only on steel)</li>
   <li>${A.pt} (PT) — workhorse for non-ferro surface inspection on aluminum, titanium, Ni-base alloys</li>
@@ -188,7 +181,7 @@ BLOGS.push(blog({
 </ul>
 
 <h2>Employer Written Practice — § 5</h2>
-<p>NAS 410 § 5 requires every employer to maintain a Written Practice describing their NDT program: methods used, certifying Level III, training records, OJT logs, exam administration procedures, eye-test schedule, recertification process, dispute resolution. The Written Practice is the employer's binding rule book. Prime contractors audit it on every recertification cycle.</p>
+<p>The Written Practice is the employer's binding rule book. Prime contractors audit it on every recertification cycle.</p>
 
 <h2>Recertification — § 9</h2>
 <p>Level I and II recertify every 5 years per § 9.3:</p>
@@ -201,7 +194,7 @@ BLOGS.push(blog({
 <p>Level III recertify by ASNT exam (open exam every 5 years), or by re-examination at the employer with NANDTB-approved exam content, or by a combination of OJT + training credit.</p>
 
 <h2>NDT 2 Pri-Lev1 — Boeing's Layered Requirement</h2>
-<p>Boeing D1-9000 Quality Control Specification adds a layer above NAS 410: "NDT 2 Pri-Lev1" personnel must be certified under NAS 410 AND complete Boeing-specific procedural training (D1-1000-series documents) for the parts they inspect. Other primes maintain similar overlays — Lockheed (LM Aero Quality Notes), Pratt &amp; Whitney (PWA documents), GE Aviation (GE-AS Plant Specifications).</p>
+<p>Other primes maintain similar overlays — Lockheed (LM Aero Quality Notes), Pratt &amp; Whitney (PWA documents), GE Aviation (GE-AS Plant Specifications).</p>
 
 <h2>NDT Methods Specific to Aerospace</h2>
 <ul>
@@ -212,24 +205,13 @@ BLOGS.push(blog({
   <li><strong>Acoustic emission (AE):</strong> in-service crack-growth monitoring on critical structural members; used on B-1B bomber and some commercial fleets</li>
 </ul>
 
-<h2>NAS 410 + ASNT Cross-Certification</h2>
-<p>Many inspectors hold BOTH ASNT (SNT-TC-1A or ACCP) AND NAS 410. The two programs require different training-hour minimums and exam structures, but the training overlaps significantly. ${A.level3} runs combined cohorts that satisfy both schemes simultaneously — common for inspectors transitioning between aerospace MRO and oil & gas / power-gen work.</p>
+<h2>ASNT Cross-Certification</h2>
+<p>The two programs require different training-hour minimums and exam structures, but the training overlaps significantly. ${A.level3} runs combined cohorts that satisfy both schemes simultaneously — common for inspectors transitioning between aerospace MRO and oil & gas / power-gen work.</p>
 
 <h2>Frequently Asked Questions</h2>
-<h3>Q1: Is NAS 410 the same as SNT-TC-1A?</h3>
-<p><strong>A:</strong> No. SNT-TC-1A is the broader employer-based standard for general industry; NAS 410 is the aerospace-specific standard with stricter eye test, exam administration, and Level III oversight. Both share the Level I/II/III structure but the rigour and recertification differ. SNT-TC-1A inspectors are not automatically accepted on aerospace contracts.</p>
-<h3>Q2: How do I get NAS 410 certified?</h3>
-<p><strong>A:</strong> Through your aerospace employer (or aerospace-aligned training provider). The employer's Written Practice + NANDTB-listed Level III certifies you. Independent NAS 410 certification (without an employer) is not the typical path — you need an aerospace employer to formally sponsor you.</p>
-<h3>Q3: Can my SNT-TC-1A Level II UT be converted to NAS 410 Level II UT?</h3>
-<p><strong>A:</strong> No automatic conversion. The employer's Level III may grant credit for training hours + OJT under the prior scheme, but you still must complete NAS 410-specific employer training and pass the NAS 410 exam administered by the employer's NANDTB-listed Level III.</p>
-<h3>Q4: How does NAS 410 differ from EN 4179?</h3>
-<p><strong>A:</strong> The two are formally cross-recognised. EN 4179 is the European Aerospace standard (EASA Part 21 + Part 145 reference it). The Aerospace Industries Association of America and the European AIA jointly declare equivalency. In practice, most inspectors document both schemes on their cert card for global mobility.</p>
 <h3>Q5: How often must I recertify?</h3>
-<p><strong>A:</strong> Every 5 years per NAS 410 § 9. Continuous employment in the method waives the re-exam in most cases; a gap &gt; 1 year forces re-examination. Annual eye test is non-negotiable — miss it once, suspended until re-tested.</p>
-<h3>Q6: What's the salary uplift for NAS 410 vs general SNT-TC-1A?</h3>
+<p>Continuous employment in the method waives the re-exam in most cases; a gap &gt; 1 year forces re-examination. Annual eye test is non-negotiable — miss it once, suspended until re-tested.</p>
 <p><strong>A:</strong> Aerospace pays ~15–30 % more than general industry for the same method/level — see ${A.salary} for current verified figures. The premium reflects tighter prime-contractor audits, stricter cert maintenance, and higher liability exposure. Level III aerospace NDT engineers in the US run $140–180K base.</p>
-<h3>Q7: Is NAS 410 required for FAA repair stations?</h3>
-<p><strong>A:</strong> FAA AC 65-31B references NAS 410 as the standard for repair-station NDT personnel; Part 145 maintenance organisations comply with NAS 410 (or EN 4179 outside US). State + military overlays may add additional requirements.</p>
 <h3>Q8: How do I find NANDTB-listed Level III consultants?</h3>
 <p><strong>A:</strong> NANDTB publishes the listed-Level-III directory at nandtb.com. Many aerospace MROs without an in-house Level III contract with listed consultants. Atlantis NDT runs Level III procedure-approval + audit-support for aerospace operators in the US, Middle East, and India.</p>
 ${FOOTER([A.sntTcOnePost, A.asnt, A.salary])}`,
@@ -323,7 +305,7 @@ BLOGS.push(blog({
 <ul>
   <li><strong>Plan to work primarily in the US, India, MENA refining/petchem, Latin America:</strong> SNT-TC-1A first</li>
   <li><strong>Plan to work primarily in Europe, UK, Australia, NZ, South Africa:</strong> ISO 9712 first</li>
-  <li><strong>Aerospace work:</strong> ${A.asnt} + NAS 410 / EN 4179 — SNT-TC-1A is the prerequisite ASNT cert for the NAS 410 ladder</li>
+  <li><strong>Aerospace work:</strong> ${A.asnt}</li>
   <li><strong>Global EPC / contractor mobility:</strong> hold BOTH; the cost is modest, the project-access uplift is large</li>
   <li><strong>Asset owner / in-house inspection team:</strong> SNT-TC-1A is sufficient (you don't need portability)</li>
 </ul>
@@ -339,12 +321,10 @@ BLOGS.push(blog({
 <p><strong>A:</strong> Both schemes: training course (1–2 weeks per method per level) + 6–18 months OJT (depending on hours/week) + exam. Total path from zero to UT Level II: ~12–18 months under either scheme.</p>
 <h3>Q5: Are SNT-TC-1A and ISO 9712 both accepted on offshore platforms?</h3>
 <p><strong>A:</strong> Depends on the project. North Sea (UK / Norway) → PCN / ISO 9712 mandatory. Gulf of Mexico → SNT-TC-1A. Brazilian Petrobras → SNT-TC-1A. UAE / Saudi → either, often both required by contract.</p>
-<h3>Q6: How does NAS 410 fit between SNT-TC-1A and ISO 9712?</h3>
-<p><strong>A:</strong> NAS 410 is aerospace-specific (US prime contractors); EN 4179 is the European aerospace equivalent. Both share the Level I/II/III structure with SNT-TC-1A + ISO 9712 but layer stricter eye-test + recertification + NANDTB-graded Level III exam. Aerospace inspectors typically hold ${A.sntTcOnePost} + NAS 410, or ISO 9712 + EN 4179.</p>
+<p>Both share the Level I/II/III structure with SNT-TC-1A + ISO 9712 but layer stricter eye-test + recertification + NANDTB-graded Level III exam. Aerospace inspectors typically hold ${A.sntTcOnePost}</p>
 <h3>Q7: Can I hold BOTH schemes simultaneously?</h3>
 <p><strong>A:</strong> Yes. Most senior multi-region inspectors do. ${A.level3} runs employer cohorts that satisfy both schemes' training-hour + exam minimums in a single intensive program — common path for inspectors moving between MENA, Europe, and global EPC contracts.</p>
-<h3>Q8: How does this comparison apply to API + NAS 410 + AWS CWI?</h3>
-<p><strong>A:</strong> Different layer. ASNT + ISO 9712 + NAS 410 + EN 4179 = METHOD certifications (UT, RT, MT, PT, ET, VT). API ICP (${A.api510}, ${A.api570}, ${A.api653}) and AWS CWI are INSPECTION / CODE certifications layered on top. A typical senior refining inspector holds: SNT-TC-1A Level II in UT+RT+MT+PT + API 510 + API 570 + sometimes AWS CWI.</p>
+<p><strong>A:</strong> Different layer. ASNT + ISO 9712 + EN 4179 = METHOD certifications (UT, RT, MT, PT, ET, VT). API ICP (${A.api510}, ${A.api570}, ${A.api653}) and AWS CWI are INSPECTION / CODE certifications layered on top. A typical senior refining inspector holds: SNT-TC-1A Level II in UT+RT+MT+PT + API 510 + API 570 + sometimes AWS CWI.</p>
 ${FOOTER([A.asnt, A.sntTcOnePost, A.salary])}`,
 }));
 
@@ -691,6 +671,6 @@ BLOGS.push(blog({
 ${FOOTER([A.dt, A.dtRoi, A.erp, A.reporting])}`,
 }));
 
-console.log(`Cluster B generated: ${BLOGS.length - 3} blogs (this file contains B31.3, NAS 410, SNT vs ISO + 4 DT cluster)`);
+console.log(`Cluster B generated: ${BLOGS.length - 3} blogs (this file contains B31.3, SNT vs ISO + 4 DT cluster)`);
 writeFileSync(join(__dirname, '_day9-blogs-part2.json'), JSON.stringify(BLOGS, null, 2), 'utf-8');
 console.log(`Wrote part 2 (${BLOGS.length} blogs) → scripts/_day9-blogs-part2.json`);

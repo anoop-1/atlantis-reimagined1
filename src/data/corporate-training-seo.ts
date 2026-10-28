@@ -72,7 +72,7 @@ const COUNTRY_ARCHETYPES: Record<string, CountryArchetype> = {
   US: {
     anchorIndustries: ['refining & petrochemicals', 'upstream oil & gas', 'aerospace manufacturing', 'power generation'],
     employers: ['major Gulf Coast refiners', 'midstream pipeline operators', 'aerospace OEM tier-1 suppliers', 'regional EPC contractors'],
-    certBodies: ['ASNT SNT-TC-1A', 'API 510/570/653', 'AWS D1.1', 'NAS 410 (aerospace)'],
+    certBodies: ['ASNT SNT-TC-1A', 'API 510/570/653', 'AWS D1.1'],
     currency: 'USD',
     priceNote: 'USD; T&E additional for onsite engagements',
     compliance: 'OSHA PSM, EPA RMP, and state PE regulations apply.',
@@ -216,7 +216,7 @@ const COUNTRY_ARCHETYPES: Record<string, CountryArchetype> = {
   FR: {
     anchorIndustries: ['aerospace (Airbus)', 'nuclear (EDF)', 'petrochemicals', 'rail (Alstom)'],
     employers: ['Airbus Toulouse', 'Safran', 'EDF', 'TotalEnergies'],
-    certBodies: ['COFREND EN 4179 / NAS 410', 'EN ISO 9712', 'ASNT'],
+    certBodies: [ 'EN ISO 9712', 'ASNT'],
     currency: 'EUR',
     priceNote: 'EUR invoice; VAT 20% applies',
     compliance: 'ASN (nuclear), DGAC (aerospace), and French labour code apply.',
@@ -224,7 +224,7 @@ const COUNTRY_ARCHETYPES: Record<string, CountryArchetype> = {
   ES: {
     anchorIndustries: ['refining (Repsol)', 'aerospace (Airbus España)', 'shipyards (Navantia)', 'rail'],
     employers: ['Repsol', 'Cepsa', 'Navantia', 'Airbus Getafe'],
-    certBodies: ['AEND EN ISO 9712', 'NAS 410', 'ASNT'],
+    certBodies: ['AEND EN ISO 9712',  'ASNT'],
     currency: 'EUR',
     priceNote: 'EUR invoice',
     compliance: 'Spanish INSST labour rules and MITMA aerospace oversight apply.',
@@ -371,8 +371,8 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
     onsiteTravelRadius: '200 km — London, Reading, Crawley, Southampton, Bristol',
     priceRangeUSD: 'Affordable batch pricing — quote on request',
     localPriceNote: 'GBP invoice; VAT 20%',
-    localCertBodies: ['PCN / BINDT', 'NAS 410 / EN 4179', 'ISO 9712', 'CSWIP'],
-    topMethodsInDemand: ['Rail axle & bogie UT for HS2/Crossrail', 'Aerospace FPI + ET to NAS 410 / EN 4179', 'PAUT + TOFD for nuclear contractor tier'],
+    localCertBodies: ['PCN / BINDT',  'ISO 9712', 'CSWIP'],
+    topMethodsInDemand: ['Rail axle & bogie UT for HS2/Crossrail',  'PAUT + TOFD for nuclear contractor tier'],
   },
   'rotterdam': {
     anchorIndustries: ['petrochemicals', 'port terminals & tank storage', 'offshore wind EPC', 'bunkering'],

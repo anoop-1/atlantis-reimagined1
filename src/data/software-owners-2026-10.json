@@ -51,7 +51,7 @@
         },
         {
           "h3": "Technician certification tracking",
-          "p": "Certificates record the scheme (SNT-TC-1A, CP-189, ISO 9712, PCN, CSWIP or another, such as NAS 410), level, method, certifying body, issue and expiry, with near-vision, far-vision and colour tests alongside. Status is worked out automatically and warning tasks are raised before anything expires, so renewals become planned work.",
+          "p": "Certificates record the scheme (SNT-TC-1A, CP-189, ISO 9712, PCN, CSWIP or another), level, method, certifying body, issue and expiry, with near-vision, far-vision and colour tests alongside. Status is worked out automatically and warning tasks are raised before anything expires, so renewals become planned work.",
           "link": { "href": "/erp/apps/certificates", "label": "NDT certification tracking software" }
         },
         {
@@ -88,7 +88,7 @@
         { "href": "/erp/software-for-tank-inspection-companies-us", "label": "Tank inspection software", "p": "API 653 work: MFL floor scans, UT thickness on shell and nozzles, visual findings and the technician and instrument behind each reading." },
         { "href": "/erp/software-for-pipeline-inspection-companies-us", "label": "Pipeline inspection software", "p": "PHMSA-regulated pipelines: weld-by-weld RT and UT records to API 1104, technician certificates and offline capture on the right-of-way." },
         { "href": "/erp/software-for-refinery-petrochemical-inspection-us", "label": "Refinery and petrochemical inspection software", "p": "Turnaround reports, PMI and hardness records, and the certificates and instruments behind them, for contractors working under OSHA PSM." },
-        { "href": "/erp/software-for-aerospace-ndt-suppliers-us", "label": "Aerospace NDT software for Nadcap suppliers", "p": "NAS 410 certification and vision-test records, procedure revisions, calibration and method reports for suppliers who are audited against Nadcap." },
+        { "href": "/erp/software-for-aerospace-ndt-suppliers-us", "label": "Aerospace NDT software for Nadcap suppliers", "p": "Personnel certification and vision-test records, procedure revisions, calibration and method reports for suppliers who are audited against Nadcap." },
         { "href": "/blog/construction-quality-assurance-software-third-party-inspection-meets-erp", "label": "Construction quality control software", "p": "Special inspection and QA/QC firms: signed field reports, inspector certificates and the records an IBC Chapter 17 programme relies on." },
         { "href": "/erp-industries/oilfield-services", "label": "Oilfield inspection software", "p": "Call-out crews, MFL and UT reports on tubulars, standby and travel time, and technician and equipment records." }
       ]
@@ -156,7 +156,7 @@
       },
       {
         "q": "Which certification schemes does it track?",
-        "a": "SNT-TC-1A, CP-189, ISO 9712, PCN and CSWIP, or another scheme such as NAS 410, with level, method, certifying body, issue and expiry, and near-vision, far-vision and colour tests. Other credentials clients check before mobilisation, such as API inspector or AWS CWI certificates, can be held under another scheme."
+        "a": "SNT-TC-1A, CP-189, ISO 9712, PCN and CSWIP, or another scheme, with level, method, certifying body, issue and expiry, and near-vision, far-vision and colour tests. Other credentials clients check before mobilisation, such as API inspector or AWS CWI certificates, can be held under another scheme."
       },
       {
         "q": "Can we keep our clients' report formats?",

@@ -1240,12 +1240,6 @@
   "metaDescription": "ASME B31.3 Process Piping Code explained — fluid services (Normal, Category D, Category M, Severe Cyclic, High Pressure), examination extent"
  },
  {
-  "slug": "nas-410-aerospace-ndt-certification-explained",
-  "title": "NAS 410 Aerospace NDT Certification 2026 — Requirements + EN 4179 Comparison",
-  "category": "Certifications",
-  "metaDescription": "NAS 410 aerospace NDT certification 2026 — Level I/II/III requirements, EN 4179 equivalence, NANDTB / NDT 2 Pri-Lev1, employer responsibilit"
- },
- {
   "slug": "digital-twin-for-tank-inspection-api-653-integration-guide",
   "title": "Digital Twin for Tank Inspection — API 653 Integration Guide 2026",
   "category": "Digital Twin",
@@ -1607,9 +1601,9 @@
  },
  {
   "slug": "ndt-software-for-aerospace-industry-2026-buyer-guide",
-  "title": "Choosing NDT Software for Aerospace: A NAS 410 Checklist",
+  "title": "Choosing NDT Software for Aerospace: A Nadcap Supplier Checklist",
   "category": "Vertical Buyer Guides",
-  "metaDescription": "What aerospace NDT suppliers should check in software: NAS 410 certification and vision tests, technique revisions, calibration records and "
+  "metaDescription": "What aerospace NDT suppliers should check in software: personnel certification and vision tests, technique revisions, calibration records an"
  },
  {
   "slug": "ndt-software-for-power-generation-2026-buyer-guide",
@@ -2449,7 +2443,7 @@
   "slug": "ndt-roi-calculator-aerospace-2027",
   "title": "NDT ROI Calculator Aerospace — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Aerospace — Worked Examples — ROI by NAS 410 cert tracking + Boeing D1-9000 procedural alignment. ASNT NDT Level III auth"
+  "metaDescription": "NDT ROI Calculator Aerospace — Worked Examples — ROI by personnel certification tracking + Boeing D1-9000 procedural alignment. ASNT NDT Lev"
  },
  {
   "slug": "ndt-roi-calculator-power-generation-2027",
@@ -2557,7 +2551,7 @@
   "slug": "atlantis-ndt-training-free-consultation-2027",
   "title": "Atlantis NDT Training — Free Consultation",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT Training — Free Consultation — NDT training cohort booking flow, ASNT + ISO 9712 + NAS 410 paths. ASNT NDT Level III authored. "
+  "metaDescription": "Atlantis NDT Training — Free Consultation — NDT training cohort booking flow, ASNT + ISO 9712 paths. ASNT NDT Level III authored. Free Atlan"
  },
  {
   "slug": "ndt-software-free-trial-vs-paid-2027-decoded",
@@ -2678,12 +2672,6 @@
   "title": "NDT Regulatory Updates — Code Changes Decoded",
   "category": "2027 Q4",
   "metaDescription": "NDT Regulatory Updates — Code Changes Decoded — code changes — ASME V, API 510/570/653, AWS D1.1, IACS, jurisdictional updates. ASNT NDT Lev"
- },
- {
-  "slug": "ndt-cert-trends-2027-asnt-iso-pcn-nas-410",
-  "title": "NDT Cert Trends — ASNT, ISO 9712, PCN, NAS 410",
-  "category": "2027 Q4",
-  "metaDescription": "NDT Cert Trends — ASNT, ISO 9712, PCN, NAS 410 — certification scheme trends, multi-scheme adoption, recertification cycle changes. ASNT NDT"
  },
  {
   "slug": "ndt-inspection-software-trends-2027",
@@ -3253,7 +3241,7 @@
   "slug": "ndt-for-defense-industry-2028-buyer-guide",
   "title": "NDT for Defense Industry — Buyer Guide",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Defense Industry — Buyer Guide — defense + military NDT inspection per AS9100D + NAS 410 + MIL-STD-410. ASNT NDT Level III authored."
+  "metaDescription": "NDT for Defense Industry — Buyer Guide — defense + military NDT inspection per AS9100D + MIL-STD-410. ASNT NDT Level III authored. Free Atla"
  },
  {
   "slug": "ndt-for-naval-shipbuilding-2028",
@@ -3590,12 +3578,6 @@
   "title": "ISO 9712 Recertification",
   "category": "2028 Certification + Procedure",
   "metaDescription": "ISO 9712 Recertification — ISO 9712 5-year + 10-year recertification cycle. ASNT NDT Level III authored. Free Atlantis NDT consultation + ta"
- },
- {
-  "slug": "nas-410-recertification-aerospace-2028",
-  "title": "NAS 410 Recertification Aerospace",
-  "category": "2028 Certification + Procedure",
-  "metaDescription": "NAS 410 Recertification Aerospace — NAS 410 recertification for aerospace primes. ASNT NDT Level III authored. Free Atlantis NDT consultatio"
  },
  {
   "slug": "en-4179-recertification-european-aerospace-2028",
@@ -4050,11 +4032,6 @@
   "metaDescription": "How CMMS for fabrication shops should track welding equipment PM, electrode oven calibration, WPS/PQR compliance, in-house NDT gear, and cra"
  },
  {
-  "slug": "software-for-aerospace-ndt-quality-control-nas-410-as9100-and-nadcap-in-one-platform",
-  "title": "Software for Aerospace NDT Quality Control: NAS 410, AS9100, and Nadcap in One Platform",
-  "metaDescription": "A quality manager's guide to running NAS 410 certification, AS9100D, and Nadcap AC7114 audit evidence through one ERP platform instead of sp"
- },
- {
   "slug": "inventory-management-software-for-ndt-companies-consumables-film-and-probes",
   "title": "Inventory Management Software for NDT Companies: Consumables, Film, and Probes",
   "metaDescription": "How NDT shops should track film lots, PT/MT consumables, UT probes, calibration blocks, and radioactive sources in inventory software built "
@@ -4460,11 +4437,6 @@
   "metaDescription": "Phased array UT requires different training than conventional UT: focal laws, scan plan validation, TCG calibration, and sizing accuracy. He"
  },
  {
-  "slug": "ndt-training-for-aerospace-nas-410-and-what-makes-it-different-from-oil-and-gas",
-  "title": "NDT Training for Aerospace: NAS 410 and What Makes It Different From Oil and Gas",
-  "metaDescription": "NAS 410 aerospace NDT qualification differs sharply from ASNT SNT-TC-1A oil-and-gas programs. Training hours, Level III approval, and NADCAP"
- },
- {
   "slug": "how-to-compare-ndt-training-providers-before-you-enroll",
   "title": "How to Compare NDT Training Providers Before You Enroll",
   "metaDescription": "How to compare NDT training providers before you enroll: instructor credentials, curriculum hours, hands-on ratio, OJT support, and employer"
@@ -4732,7 +4704,7 @@
  {
   "slug": "ndt-for-aerospace-manufacturing-what-makes-it-different-from-oil-and-gas-inspection",
   "title": "NDT for Aerospace Manufacturing: What Makes It Different From Oil and Gas Inspection",
-  "metaDescription": "Aerospace NDT vs. oil and gas inspection: NAS 410, AS9100, NADCAP, materials, technique mix, and acceptance criteria compared for inspection"
+  "metaDescription": "Aerospace NDT vs. oil and gas inspection: AS9100, NADCAP, materials, technique mix, and acceptance criteria compared for inspection professi"
  },
  {
   "slug": "ndt-for-automotive-manufacturing-weld-inspection-at-production-speed",
@@ -4813,11 +4785,6 @@
   "slug": "consulting-services-for-ndt-companies-pursuing-iso-iec-17025-accreditation",
   "title": "Consulting Services for NDT Companies Pursuing ISO/IEC 17025 Accreditation",
   "metaDescription": "ISO/IEC 17025 accreditation consulting for NDT labs: measurement uncertainty budgets, method validation, calibration traceability, and the a"
- },
- {
-  "slug": "third-party-asnt-level-iii-consulting-for-aerospace-nas-410-programs",
-  "title": "Third-Party ASNT Level III Consulting for Aerospace NAS 410 Programs",
-  "metaDescription": "Third-party ASNT Level III consulting for aerospace NAS 410 programs: written practice setup, exam oversight, and audit readiness for Boeing"
  },
  {
   "slug": "consulting-for-canadian-ndt-companies-cgsb-48-9712-written-practice-setup",

@@ -163,7 +163,7 @@ export const PHASE5_CTR_OVERRIDES = {
   '/blog/aerospace-composite-inspection-ndt-methods-guide': {
     title: 'Aerospace Composite Inspection 2026 — Detecting Delamination, Disbond and Impact Damage',
     description:
-      'NDT for aerospace composites: pulse-echo UT, phased array, through-transmission, bond testing, thermography and shearography compared on delamination, disbond, porosity and barely-visible impact damage, with NAS 410 and AS9100 personnel requirements.',
+      'NDT for aerospace composites: pulse-echo UT, phased array, through-transmission, bond testing, thermography and shearography compared on delamination, disbond, porosity and barely-visible impact damage, with AS9100 personnel requirements.',
   },
 
   // top query "api 579 analysis" 48i @ p33
@@ -191,7 +191,7 @@ export const PHASE5_CTR_OVERRIDES = {
   '/penetrant-testing-los-angeles': {
     title: 'Liquid Penetrant Inspection in Los Angeles 2026 — Nadcap-Aligned PT Services',
     description:
-      'Liquid penetrant inspection services in Los Angeles for aerospace, defence and general manufacturing: fluorescent and visible dye methods, Nadcap-aligned process control, NAS 410 certified technicians and ASTM E1417 compliant procedures.',
+      'Liquid penetrant inspection services in Los Angeles for aerospace, defence and general manufacturing: fluorescent and visible dye methods, Nadcap-aligned process control and ASTM E1417 compliant procedures.',
   },
 
   // top query "asnt level iii consulting" 11i @ p43 — page competes with /consulting; differentiate

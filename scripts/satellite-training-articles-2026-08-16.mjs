@@ -45,8 +45,8 @@ const ARTICLES = [
     publisher: 'NDT Knowledge Hub',
     slug: 'why-sector-decides-your-ndt-qualification-path',
     title: 'Why the Sector You Work In Decides Your NDT Qualification Path',
-    description: 'SNT-TC-1A, NAS 410, NAVSEA and ASME XI qualify people differently. A practical map of which regime governs where, and what it means for a technician planning a career.',
-    keywords: ['ndt qualification', 'snt-tc-1a', 'nas 410', 'asme section xi', 'ndt career path'],
+    description: 'SNT-TC-1A, NAVSEA and ASME XI qualify people differently. A practical map of which regime governs where, and what it means for a technician planning a career.',
+    keywords: ['ndt qualification', 'snt-tc-1a',  'asme section xi', 'ndt career path'],
     author: 'Ravi Menon',
     date: '2026-08-16',
     readTime: '8 min read',
@@ -56,7 +56,7 @@ const ARTICLES = [
 
 <h2>Four regimes, four different logics</h2>
 <p><strong>SNT-TC-1A</strong> governs most US industrial work and puts certification in the employer's hands. Your credential is issued by the company you work for, valid inside its written practice, and it does not travel — a new employer certifies you again. This is the model in refining, chemicals, fabrication and most general plant work.</p>
-<p><strong>NAS 410</strong> (and EN 4179 in Europe) governs aerospace, and the structural difference is the named responsible Level 3 who owns the programme, with OEM approval requirements layered per programme on top. Certification remains employer-issued, but the audit regime — Nadcap accrediting the process itself — is considerably tighter.</p>
+<p>Certification remains employer-issued, but the audit regime — Nadcap accrediting the process itself — is considerably tighter.</p>
 <p><strong>NAVSEA technical requirements</strong> govern naval shipbuilding and repair, layering qualification demands over SNT-TC-1A. Yards building or repairing naval vessels run some of the most rigorously audited certification programmes in US industry, and technicians trained inside them carry documentation habits that stand out everywhere else. The sector's shape is set out well in this overview of <a href="${A}/maritime-ndt-training">maritime NDT training and the yards that drive it</a>.</p>
 <p><strong>ASME Section XI</strong>, wrapped in 10 CFR 50 Appendix B quality requirements, governs commercial nuclear in-service inspection — and adds something no other regime has: performance demonstration, where a technician must find and size real flaws in blind specimens before being permitted on plant. The DOE complex adds federal orders above that again. The employer landscape and its qualification layers are mapped in this guide to <a href="${A}/nuclear-ndt-training">nuclear NDT training and the DOE-complex employers</a>.</p>
 
@@ -169,8 +169,8 @@ const ARTICLES = [
     publisher: 'Aerospace NDT Standards',
     slug: 'crossing-from-industrial-ndt-into-aerospace',
     title: 'Crossing From Industrial NDT Into Aerospace: What Actually Transfers',
-    description: 'Moving from an SNT-TC-1A programme into NAS 410 work is routine but never automatic. What carries over, what must be rebuilt, and why manufacturing and MRO differ.',
-    keywords: ['nas 410', 'en 4179', 'aerospace ndt', 'nadcap', 'part 145'],
+    description: 'What carries over, what must be rebuilt, and why manufacturing and MRO differ.',
+    keywords: [ 'en 4179', 'aerospace ndt', 'nadcap', 'part 145'],
     author: 'Helen Ashcroft',
     date: '2026-08-16',
     readTime: '8 min read',
@@ -182,7 +182,7 @@ const ARTICLES = [
 <p>Method physics transfers completely — ultrasound behaves the same in a forging as in a pressure vessel. Instrument competence transfers. Indication interpretation transfers in principle. A technician who is genuinely good at conventional UT will be genuinely good at aerospace UT once the acceptance context is learned.</p>
 
 <h2>What does not</h2>
-<p><strong>The certification structure.</strong> NAS 410 is not SNT-TC-1A with a different cover. It requires a named responsible Level 3 with defined authority, and it specifies training, experience and examination requirements that do not map one-to-one onto an industrial programme. Certification does not port; it is re-established. Employers plan the bridge deliberately — the regime differences are laid out in this overview of <a href="${A}/consulting/aerospace-ndt-consulting">aerospace NDT programme requirements</a>.</p>
+<p><strong>The certification structure.</strong> It requires a named responsible Level 3 with defined authority, and it specifies training, experience and examination requirements that do not map one-to-one onto an industrial programme. Certification does not port; it is re-established. Employers plan the bridge deliberately — the regime differences are laid out in this overview of <a href="${A}/consulting/aerospace-ndt-consulting">aerospace NDT programme requirements</a>.</p>
 <p><strong>Sensitivity expectations.</strong> Aerospace fluorescent penetrant and eddy current run at sensitivities general industry rarely needs, with process control to match — bath concentration, emulsification timing, light levels, all monitored and recorded.</p>
 <p><strong>The acceptance authority.</strong> In industrial work a code supplies acceptance criteria. In aerospace, particularly maintenance, the OEM manual does. Writing procedures against the wrong document is the most common early error a crossing-over shop makes.</p>
 
@@ -190,7 +190,7 @@ const ARTICLES = [
 <p>Aerospace manufacturing means production-scale examination: penetrant lines, machined-structure eddy current, composite ultrasonics, Nadcap accreditation of the process. Maintenance — the MRO side — means finding in-service damage on assembled aircraft and engine hardware inside an FAA Part 145 repair station, where capability lists and airline vendor audits shape everything. The employer landscape and method mix on that side are described in this guide to <a href="${A}/aviation-ndt-training">aviation MRO NDT work</a>. A technician should choose deliberately, because the two build different résumés.</p>
 
 <h2>The realistic sequence</h2>
-<p>Get hired into an aerospace programme on the strength of transferable method competence, expect to re-qualify under NAS 410, start on the method with the highest volume (usually penetrant or eddy current), and treat programme-specific OEM approvals as the asset that compounds. Two of those and the next conversation is much easier.</p>
+<p>Get hired into an aerospace programme on the strength of transferable method competence, expect to re-qualify under the customer-specified aerospace standard, start on the method with the highest volume (usually penetrant or eddy current), and treat programme-specific OEM approvals as the asset that compounds. Two of those and the next conversation is much easier.</p>
 `,
   },
 ];

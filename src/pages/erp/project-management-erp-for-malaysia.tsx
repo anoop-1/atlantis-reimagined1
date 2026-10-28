@@ -20,7 +20,7 @@ export default function ProjectManagementErpForMalaysia() {
         { useCase: "PETRONAS Carigali offshore-platform inspection", body: "Example: a KL contractor manages PETRONAS Carigali Sarawak-offshore platform inspection across Baronia / Bokor / Patricia / Tukau platforms." },
         { useCase: "MLNG Bintulu Train 7 turnaround", body: "Example: a Bintulu contractor runs MLNG Train 7 cryogenic-inspection project with 9% Ni weld inspection." },
         { useCase: "RAPID Pengerang turnaround", body: "Example: a Pengerang contractor manages RAPID PRefChem refinery-and-petrochemical turnaround across 380 vessels." },
-        { useCase: "Penang aerospace MRO supplier project", body: "Example: a Penang aerospace contractor manages AAT / Spirit AeroSystems Subang / UMW Aerospace supplier projects with NAS 410 / EN 4179 / CAAM Part 145-aware scope tracking." },
+        { useCase: "Penang aerospace MRO supplier project", body: "Example: a Penang aerospace contractor manages AAT / Spirit AeroSystems Subang / UMW Aerospace supplier projects with CAAM Part 145-aware scope tracking." },
       ]}
       keyFeatures={[
         "PETRONAS / MLNG / RAPID / Sarawak Petchem turnaround templates",

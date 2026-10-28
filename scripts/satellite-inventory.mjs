@@ -43,7 +43,7 @@ function inferTopic(satName, sample) {
     pipeline: ['pipeline', 'gas pipeline', 'oil pipeline'],
     'pressure vessel': ['pressure vessel', 'asme viii', 'pressure-vessel'],
     corrosion: ['corrosion', 'cui ', 'pitting'],
-    aerospace: ['aerospace', 'aircraft', 'nas 410', 'nadcap'],
+    aerospace: ['aerospace', 'aircraft',  'nadcap'],
     nuclear: ['nuclear', 'reactor', 'asme iii'],
     subsea: ['subsea', 'offshore', 'deepwater', 'rov'],
     welding: ['weld', 'aws d1.1', 'welding'],

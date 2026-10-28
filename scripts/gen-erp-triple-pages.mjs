@@ -68,7 +68,7 @@ const CITY_CTX = {
     cluster: 'BHEL Hyderabad, HPCL Visakh refinery, ISRO and BDL suppliers, ECIL, Genome Valley pharma cluster',
     operators: ['BHEL Hyderabad', 'HPCL Visakh refinery', 'Bharat Dynamics Ltd', 'Electronics Corporation of India', 'ISRO supplier ecosystem', 'DRDO suppliers', 'Reddy Labs / Aurobindo', 'NTPC Ramagundam'],
     regulators: ['PESO', 'BARC', 'AERB', 'DGCA', 'Telangana Pollution Control Board', 'CDSCO'],
-    codes: ['IBR', 'IS 2825', 'AERB SC/IR-1', 'DGCA CAR Section 2', 'NAS-410 / ASTM E1417 / E1444'],
+    codes: ['IBR', 'IS 2825', 'AERB SC/IR-1', 'DGCA CAR Section 2', 'ASTM E1417 / E1444'],
     flavor: 'an unusually wide industrial mix — heavy engineering, aerospace NDT, pharma equipment qualification, and refinery support', },
   'london':        { name: 'London',         country: 'UK',           iso: 'GB', lat: 51.5074,  lng: -0.1278,
     market: 'the corporate headquarters cluster for global IOCs',
@@ -315,9 +315,9 @@ const INDUSTRY_CTX = {
   },
   'aerospace-quality-control': {
     short: 'aerospace QA / MRO',
-    lens: 'aerospace QC and MRO firms operate under NAS-410 personnel qualification, AS9100D quality systems, FAA / EASA Part 145 oversight, and customer-specific specifications (Boeing, Airbus, Bombardier, Rolls-Royce) with zero tolerance for documentation gaps',
+    lens: '',
     flavour: 'an audit finding that closes a Part 145 approval costs months of regulator dialogue to recover from',
-    typicalClient: 'NAS-410 NDT shop or AS9100D-certified MRO facility',
+    typicalClient: '',
   },
   'oilfield-services': {
     short: 'oilfield services contractor',

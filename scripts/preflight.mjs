@@ -176,6 +176,30 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
     placeholder.length ? `${placeholder.length} pages still carry placeholder text (backlog: scripts/pricing-placeholder-backlog.json)` : 'clean');
 }
 
+// ── 4b. NAS 410 (owner, 2026-10-28, CLAUDE.md §65) ───────────────────────────
+// The site names no NAS 410 and offers no NAS 410-based training or consulting;
+// ASNT Level III consulting and ASNT SNT-TC-1A-based training replace it. The
+// retired NAS 410 URLs 301 (vercel.json), so nothing may link to them either.
+// Case-sensitive on purpose: lower-case "nas-410" slugs survive only inside
+// redirect and route-matching code, never as reader-visible text.
+{
+  const NAS = /\bNAS[ -]?410\b|\bNas ?410\b/;
+  const LINK = /href="(?:https:\/\/atlantisndt\.com)?\/[^"]*nas-410[^"]*"/i;
+  const named = [], linked = [];
+  for (const f of files) {
+    const raw = readFileSync(f, 'utf-8');
+    if (NAS.test(raw)) named.push(routeOf(f));
+    if (LINK.test(raw)) linked.push(routeOf(f));
+  }
+  const assetDir = join(DIST, 'assets');
+  const chunks = existsSync(assetDir)
+    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && NAS.test(readFileSync(join(assetDir, n), 'utf-8')))
+    : [];
+  add('No NAS 410 named on the site', named.length === 0 && chunks.length === 0,
+    named.length || chunks.length ? `${named.length} pages, ${chunks.length} JS chunks: ${[...named, ...chunks].slice(0, 4).join(', ')}` : 'clean');
+  add('No links to retired NAS 410 URLs', linked.length === 0, linked.length ? `${linked.length} pages: ${linked.slice(0, 4).join(', ')}` : 'clean');
+}
+
 // ── 5. Sitemap integrity ─────────────────────────────────────────────────────
 {
   const smDir = join(ROOT, 'public');
@@ -205,7 +229,12 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
     const self = routeOf(f);
     for (const m of html.matchAll(/href=["'](\/[^"'#?]*)["']/g)) if (m[1] !== self) inbound.add(m[1].replace(/\/$/, '') || '/');
   }
-  const orphans = layered.filter((r) => !inbound.has(r));
+  let redirected = new Set();
+  try {
+    const vj = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf-8'));
+    redirected = new Set((vj.redirects || []).map((r) => r.source).filter((x) => typeof x === 'string' && !/[:*(]/.test(x)).map((x) => x.replace(/\/$/, '') || '/'));
+  } catch {}
+  const orphans = layered.filter((r) => !inbound.has(r) && !redirected.has(r));
   add('No orphaned citation pages', orphans.length === 0,
     orphans.length ? `${orphans.length} with no inbound link: ${orphans.slice(0, 4).join(', ')}` : `all ${layered.length} linked`);
 }
