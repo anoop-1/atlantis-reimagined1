@@ -8,12 +8,12 @@ export default function CrmForAerospaceQualityControl() {
       appName="CRM (Customer Relationship Management)"
       industry="aerospace quality control"
       breadcrumbLabel="CRM for Aerospace QA"
-      trustBadge="AS9100 / NADCAP ready"
-      metaDescription="Atlantis NDT ERP CRM for aerospace quality control companies — AS9100 / EN 9100 customer-portal flow-down, NADCAP audit-cycle awareness, personnel-currency matching, Boeing / Airbus / GE / Pratt & Whitney / Safran customer-specific written practices. Quote on request."
-      heroBody="Atlantis NDT ERP CRM for aerospace quality control firms — AS9100 / EN 9100 customer-portal opportunity flow, NADCAP MAUP audit-cycle pipeline tracking, personnel-currency-driven opportunity matching, and customer-specific written-practice opportunity routing for Boeing, Airbus, Embraer, Bombardier, Lockheed Martin, Northrop Grumman, GE Aviation, Pratt & Whitney, Rolls-Royce, Safran, Honeywell Aerospace and Collins Aerospace. Part of the all-apps-included subscription."
+      trustBadge="AS9100 / SNT-TC-1A / NADCAP ready"
+      metaDescription="Atlantis NDT ERP CRM for aerospace quality control companies — AS9100 / EN 9100 customer-portal flow-down, NADCAP audit-cycle awareness, SNT-TC-1A personnel-currency matching, Boeing / Airbus / GE / Pratt & Whitney / Safran customer-specific written practices. Quote on request."
+      heroBody="Atlantis NDT ERP CRM for aerospace quality control firms — AS9100 / EN 9100 customer-portal opportunity flow, NADCAP MAUP audit-cycle pipeline tracking, SNT-TC-1A personnel-currency-driven opportunity matching, and customer-specific written-practice opportunity routing for Boeing, Airbus, Embraer, Bombardier, Lockheed Martin, Northrop Grumman, GE Aviation, Pratt & Whitney, Rolls-Royce, Safran, Honeywell Aerospace and Collins Aerospace. Part of the all-apps-included subscription."
       whatItIs={[
         "Pipeline cycles are governed by NADCAP MAUP audit cycles (24 months for standard accreditation, 12 months for merit), AS9100 Rev D / EN 9100 quality-management-system surveillance audits, FAA Part 145 and EASA Part-145 repair-station renewals, and customer-specific written practices that differ between every OEM.",
-        "This eliminates the recurring 'won the work, can't staff it' problem that plagues aerospace inspection firms.",
+        "The CRM matches opportunities to qualified technicians via personnel currency under your SNT-TC-1A-based written practice — when an opportunity requires UT Level II for Boeing 787 composite-bondline inspection per BSS7039, the CRM checks which technicians hold the specific Boeing endorsement (not just a generic UT Level II), the OJT hours-on-the-aircraft, the recent vision-test currency, the eye-exam expiry, and confirms availability before letting business development advance the opportunity. This eliminates the recurring 'won the work, can't staff it' problem that plagues aerospace inspection firms.",
       ]}
       useCases={[
         { useCase: "Use Case 1", body: "Example: a Wichita airframe NDT shop records each opportunity with NDT service type, industry sector and estimated technicians and days, so estimators see staffing needs before they quote." },
@@ -26,7 +26,7 @@ export default function CrmForAerospaceQualityControl() {
         "NADCAP MAUP audit-cycle tracking (24-month standard, 12-month merit)",
         "AS9100 Rev D / EN 9100 surveillance-audit calendar per customer",
         "FAA Part 145 / EASA Part-145 repair-station renewal alerts",
-        
+        "SNT-TC-1A written-practice personnel-currency matching per opportunity",
         "Customer-specific written-practice mapping (Boeing BSS7039, Airbus AITM, GE/CFM, P&W)",
         "Aircraft-program tagging (737 MAX, 787, A320neo, A350, A380, A220, E2, CRJ, Embraer KC-390)",
         "Engine-program tagging (PW1000G, V2500, CFM56, CFM LEAP, GE90, GEnx, GE9X, Trent XWB)",
@@ -49,7 +49,7 @@ export default function CrmForAerospaceQualityControl() {
       ]}
       faqs={[
         { question: "Does the CRM ingest opportunities from OEM supplier portals?", answer: "Yes. New opportunities, RFQs and qualification renewals are ingested as CRM leads / opportunities with auto-populated customer, part-number, aircraft-program, written-practice and certification-requirement fields." },
-        
+        { question: "How does personnel-currency matching work?", answer: "Every opportunity carries the customer-specific written-practice requirement (e.g. Boeing BSS7039 UT Level II for 737 fuselage, Airbus AITM 6-1001 UT Level II for A350 wing). The CRM queries the personnel-qualification register, matches technicians who hold the specific OEM endorsement (not just a generic written-practice certification), checks current vision-test and eye-exam expiry, confirms recent OJT hours, and surfaces the qualified-and-available shortlist. This prevents winning work the firm can't staff." },
         { question: "Can the CRM track NADCAP MAUP audit-cycle pipelines?", answer: "Yes. NADCAP MAUP audit cycles drive much of the aerospace QA market — every approved supplier must pass MAUP audit on a 24-month standard or 12-month merit cycle. The CRM tracks every customer's last MAUP audit date, next-due date and current finding-status, so business development can target NADCAP-deficient suppliers with audit-readiness consulting opportunities, and existing customers' next audit cycles are visible 18 months ahead." },
         { question: "How does the platform handle ITAR / EAR export-control constraints?", answer: "Opportunities carrying ITAR (International Traffic in Arms Regulations) or EAR (Export Administration Regulations) restrictions are flagged. Only US-person technicians and ITAR-clearance-current staff can be assigned. Customer-specific export-control overlay (e.g. F-35 program restrictions, B-21 black-program restrictions) is layered on top so the CRM enforces compliance without manual checks." },
         { question: "Does the CRM track customer-specific written practices?", answer: "Yes. The CRM holds a written-practice library per customer: Boeing BSS7039, Airbus AITM 6-1001, Embraer NE 27-001, Lockheed Martin LM C-22, Northrop Grumman NG-5051, GE Aviation GE C50TF, Pratt & Whitney PWA-MCL, Rolls-Royce RR MTSP, Safran Aircraft Engines QA-04. Each opportunity carries the applicable written-practice code; only technicians qualified to that exact written practice can be assigned." },

@@ -38,7 +38,7 @@ const INDUSTRY_METHODS = {
   offshore: 'UT structural and topside work, MT for fatigue-driven weld examination, and eddy current/ACFM through coatings',
   pipeline: 'RT to API 1104, AUT/PAUT for girth welds, and MT at dig sites',
   marine: 'UT thickness gauging at survey scale, MT on fatigue details, and visual survey discipline',
-  aviation: 'eddy current above all, PT on components, and UT for composites — under customer aerospace personnel rules',
+  aviation: 'eddy current above all, PT on components, and UT for composites — under an SNT-TC-1A-based aerospace written practice carrying the OEM and prime flow-down',
   power: 'UT including phased array on rotors and headers, MT during outages, and eddy current on condenser tubing',
   mining: 'UT on structures and wear components, MT on ground-engaging and lifting equipment',
   fabrication: 'VT to CWI-style acceptance first, then UT and RT for coded work',

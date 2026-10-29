@@ -18,14 +18,14 @@ const componentNDTMatrix = [
         component: "Aircraft Structures (Airframe)",
         description: "Fuselage skin, wing spars, ribs, empennage, and structural frames — both metallic and composite layups",
         methods: ["Eddy Current Array (ECA)", "UT Shear Wave", "Phased Array UT (PAUT)", "Radiographic Testing"],
-        standards: "FAA AC 43.13-1B, AMS 2647",
+        standards: "FAA AC 43.13-1B, OEM NDT manuals",
         challenge: "Multi-layer lap joints, hidden corrosion, fatigue cracks at fastener holes",
     },
     {
         component: "Engine Components",
         description: "Turbine blades, compressor discs, shafts, casings, combustion chambers, and fan blades",
         methods: ["Fluorescent Penetrant Inspection (FPI)", "Magnetic Particle Inspection (MPI)", "Eddy Current Testing", "UT Immersion"],
-        standards: "AMS 2640 (MT), AMS 2644 (PT), ASTM E1417",
+        standards: "ASTM E1444 (MT), AMS 2644 (PT), ASTM E1417",
         challenge: "Complex geometries, superalloy materials, tight tolerances, thermal fatigue cracking",
     },
     {
@@ -39,21 +39,21 @@ const componentNDTMatrix = [
         component: "Landing Gear",
         description: "High-strength steel cylinders, torque links, axles, brake assemblies, and chrome-plated components",
         methods: ["Magnetic Particle Inspection", "Fluorescent Penetrant", "Eddy Current", "UT Shear Wave"],
-        standards: "AMS 2640 (MT), AMS 2644 (PT), MIL-HDBK-6870",
+        standards: "ASTM E1444 (MT), AMS 2644 (PT), MIL-HDBK-6870",
         challenge: "Complex geometry, high-strength steel susceptibility to hydrogen embrittlement cracking",
     },
     {
         component: "Fastener Holes",
         description: "Bolt holes, rivet holes, and fastener bores in wing and fuselage structure",
         methods: ["Rotating Bobbin Probe ECT", "Eddy Current Array", "UT Bolt Hole Scan"],
-        standards: "AMS 2647, FAA NDT procedures",
+        standards: "OEM NDT manuals, FAA NDT procedures",
         challenge: "Second-layer cracks, tight access, detection at multiple depths through structure",
     },
     {
         component: "Forgings & Castings",
         description: "Structural forgings, gearbox castings, actuator bodies, and precision-cast turbine components",
         methods: ["Radiographic Testing (RT)", "UT Immersion", "Fluorescent Penetrant Inspection"],
-        standards: "ASTM E1444 (MT), AMS 2630 (RT), AMS 2644 (PT)",
+        standards: "ASTM E1444 (MT), ASTM E1742 (RT), AMS 2644 (PT)",
         challenge: "Volumetric porosity, shrinkage, laps, seams, and subtle material discontinuities",
     },
 ];
@@ -84,22 +84,22 @@ const standardsData = [
         scope: "FPI materials & process",
     },
     {
-        standard: "AMS 2640",
-        fullName: "AMS 2640 — Inspection, Magnetic Particle",
-        description: "SAE AMS specification for magnetic particle inspection in aerospace. Specifies magnetic field strengths, particle media, and technique requirements for MPI of aerospace components.",
+        standard: "ASTM E1444",
+        fullName: "ASTM E1444 — Standard Practice for Magnetic Particle Testing",
+        description: "The magnetic particle practice aerospace specifications invoke; it superseded AMS 2640. Specifies magnetic field strengths, particle media, and technique requirements for MPI of aerospace components.",
         scope: "Magnetic particle inspection",
     },
     {
-        standard: "AMS 2630",
-        fullName: "AMS 2630 — Inspection, Radiographic",
+        standard: "ASTM E1742",
+        fullName: "ASTM E1742 — Standard Practice for Radiographic Examination",
         description: "Defines radiographic inspection requirements for aerospace castings, welds, and assemblies. Specifies film sensitivity, image quality indicators, and acceptance criteria for aerospace RT.",
         scope: "Radiographic inspection",
     },
     {
         standard: "AMS 2647",
-        fullName: "AMS 2647 — Inspection, Electromagnetic (Eddy Current)",
-        description: "Aerospace specification for eddy current inspection of metallic aerospace components. Covers probe calibration, reference standard requirements, and technique qualifications for aircraft structure inspection.",
-        scope: "Eddy current inspection",
+        fullName: "AMS 2647 — Fluorescent Penetrant Inspection, Aircraft and Engine Component Maintenance",
+        description: "SAE specification for fluorescent penetrant inspection of aircraft and engine components in maintenance and overhaul, covering cleaning, process control and inspection conditions for in-service parts.",
+        scope: "FPI in maintenance",
     },
     {
         standard: "ASTM E1417",
@@ -143,7 +143,7 @@ const atlantisServices = [
     {
         icon: Shield,
         title: "NADCAP Audit Preparation & Support",
-        description: "Pre-audit gap analysis, corrective action support, and on-site assistance for NADCAP NDT accreditation. We have supported aerospace suppliers through successful first-time NADCAP audits.",
+        description: "Pre-audit gap analysis, corrective action support, and on-site assistance for NADCAP NDT accreditation. We prepare aerospace suppliers for first accreditation and reaccreditation audits.",
         link: "/consulting",
     },
     {
@@ -349,7 +349,7 @@ export default function NDTForAerospace() {
                         {[
                             { stat: "SNT-TC-1A", label: "Based Aerospace Written Practices" },
                             { stat: "All AMS", label: "NDT Method Specifications" },
-                            { stat: "50+", label: "Level III Experts" },
+                            { stat: "5 Methods", label: "ASNT NDT Level III (UT, RT, MT, PT, VT)" },
                             { stat: "Composite & Metallic", label: "Structure Expertise" },
                         ].map(({ stat, label }) => (
                             <div key={stat}>
@@ -376,10 +376,10 @@ export default function NDTForAerospace() {
                                 Aerospace structures span an enormous range of materials and forms. Modern commercial aircraft combine aluminium alloy airframes, titanium fasteners, high-temperature nickel superalloy engine components, high-strength steel landing gear, and increasingly large proportions of carbon fibre reinforced polymer (CFRP) composite primary structure. The Boeing 787 Dreamliner and Airbus A350 are both more than 50% composite by weight. Each material class demands a different NDT approach: eddy current for metallic structure, ultrasonic testing and thermography for composites, fluorescent penetrant inspection for engine superalloys, and magnetic particle inspection for ferromagnetic steel components.
                             </p>
                             <p>
-                                The regulatory framework for aerospace NDT is defined at multiple levels. At the personnel level, the employer's written practice governs inspector training, experience, examination, and certification: built on ASNT SNT-TC-1A, it carries the customer's flow-down requirements, while EASA-regulated organisations in Europe work to EN 4179. At the process level, NADCAP accreditation is required by most commercial aircraft prime contractors as a supply chain prerequisite. NDT procedures must reference applicable AMS (Aerospace Material Specifications) including AMS 2640 for magnetic particle, AMS 2644 for liquid penetrant, AMS 2630 for radiographic testing, and AMS 2647 for eddy current. Military programs additionally reference MIL-HDBK-6870 and specific contract requirements. At the regulatory level, FAA Advisory Circular AC 43.13-1B governs acceptable aircraft inspection and repair methods for civil MRO, while EASA Part-145 defines the quality system requirements for approved maintenance organisations.
+                                The regulatory framework for aerospace NDT is defined at multiple levels. At the personnel level, the employer's written practice governs inspector training, experience, examination, and certification: built on ASNT SNT-TC-1A, it carries the customer's flow-down requirements, while EASA-regulated organisations in Europe work to EN 4179. At the process level, NADCAP accreditation is required by most commercial aircraft prime contractors as a supply chain prerequisite. NDT procedures must reference applicable AMS (Aerospace Material Specifications) including ASTM E1444 for magnetic particle, ASTM E1417 and AMS 2644 for liquid penetrant process and materials, ASTM E1742 for radiographic testing, and AMS 2647 for fluorescent penetrant inspection in maintenance. Military programs additionally reference MIL-HDBK-6870 and specific contract requirements. At the regulatory level, FAA Advisory Circular AC 43.13-1B governs acceptable aircraft inspection and repair methods for civil MRO, while EASA Part-145 defines the quality system requirements for approved maintenance organisations.
                             </p>
                             <p>
-                                Atlantis NDT's aerospace NDT consultants have served as Level III authority for aircraft OEMs, engine overhaul shops, MRO facilities, and Tier 1 composite manufacturers. Our team has developed aerospace written practices from scratch, guided aerospace suppliers through first-time NADCAP audits, written and qualified procedures for composite structure inspection programmes, and provided independent ASNT Level III services for organisations that lack internal Level III capability. We bring both the technical depth and the regulatory familiarity needed to navigate aerospace NDT compliance effectively.
+                                Atlantis NDT's aerospace consulting is led by ASNT NDT Level III personnel; our founder holds ASNT NDT Level III in UT, RT, MT, PT and VT. We build aerospace written practices on ASNT SNT-TC-1A, prepare suppliers for Nadcap AC7114 audits, write and qualify inspection procedures, and act as the outside agency Level III for organisations that lack internal Level III capability in those methods. We bring both the technical depth and the regulatory familiarity needed to navigate aerospace NDT compliance effectively.
                             </p>
                         </div>
 

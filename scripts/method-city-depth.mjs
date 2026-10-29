@@ -360,7 +360,7 @@ export const CITIES = {
   'los-angeles': {
     name: 'Los Angeles', industries: ['refining', 'aviation', 'marine', 'fabrication'],
     base: 'The South Bay refinery cluster — El Segundo, Carson, Wilmington, Torrance — runs beside the largest port complex in the Americas and an aerospace industry that never left the basin, giving LA parallel process, marine and aviation inspection economies.',
-    scheme: 'California adds SCAQMD environmental constraints and Cal/OSHA PSM enforcement on top of the usual NBIC and API framework; aerospace primes add their personnel flow-down to the SNT-TC-1A-based written practice, and refinery turnaround badging processes need lead time.',
+    scheme: 'California adds SCAQMD environmental constraints and Cal/OSHA PSM enforcement on top of the usual NBIC and API framework; aerospace primes add their personnel flow-down to an SNT-TC-1A-based written practice, and refinery turnaround badging processes need lead time.',
     assets: 'South Bay refinery units and tank farms, port cranes and terminal infrastructure, airframe and space hardware, and structural fabrication',
   },
   qatar: {

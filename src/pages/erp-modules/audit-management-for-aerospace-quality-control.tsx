@@ -23,11 +23,11 @@ const data = {
   ],
   "industryCodes": [
     "AS9100D / AS9120 / AS9110 (MRO)",
-    
+    "ASNT SNT-TC-1A (2024) written practice",
     "FAA 14 CFR Part 145 / 21",
     "EASA Part 145 / Part-M",
     "DGCA CAR Section 2 / Series E",
-    
+    "Nadcap AC7114 (NDT) via PRI eAuditNet",
     "ASTM E1417 / E1444 / E1742 / E2375 (aerospace NDT)",
     "ISO 9712 — annex on aerospace"
   ],
@@ -42,7 +42,7 @@ const data = {
     "Safran — engine / components"
   ],
   "industryPain": [
-    
+    "SNT-TC-1A written-practice qualification matrix and OEM endorsements in Excel — version drift across departments",
     "Customer-specific quality clauses (Boeing D-590, AITM, ASQR-01) flow-down is informal — audit findings",
     "Work-order traceability per FAA 14 CFR Part 145 — manual paper trails",
     "FOD prevention program not integrated with work-order — incident risk"

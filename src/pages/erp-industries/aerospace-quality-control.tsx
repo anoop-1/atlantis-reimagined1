@@ -2,10 +2,10 @@ import ErpIndustryPage from '@/components/ErpIndustryPage';
 const data = {
   "slug": "aerospace-quality-control",
   "name": "Aerospace Quality Control",
-  "title": "ERP for Aerospace QC, NDT, and MRO Companies (AS9100)",
+  "title": "ERP for Aerospace QC, NDT & MRO Companies (AS9100, SNT-TC-1A)",
   "h1": "ERP for Aerospace Quality Control & MRO",
-  "desc": "AS9100D quality management, NDT personnel qualification records, aircraft MRO work-order management, FAA / EASA / DGCA regulatory compliance, customer-specific (Boeing / Airbus / Bombardier / Pratt & Whitney) quality flow-down.",
-  "intro": "Aerospace quality is the highest standard in industrial inspection. AS9100D extends ISO 9001 with industry-specific requirements; customer-specific specifications from Boeing (D6-82479), Airbus (AITM), Bombardier, Embraer, and Pratt & Whitney (ASQR-01) add another layer. The aerospace ERP configuration handles all of it.",
+  "desc": "AS9100D quality management, SNT-TC-1A-based NDT personnel qualification, aircraft MRO work-order management, FAA / EASA / DGCA regulatory compliance, customer-specific (Boeing / Airbus / Bombardier / Pratt & Whitney) quality flow-down.",
+  "intro": "Aerospace quality is the highest standard in industrial inspection. AS9100D extends ISO 9001 with industry-specific requirements; NDT personnel qualification runs on the employer's ASNT SNT-TC-1A-based written practice; customer-specific specifications from Boeing (D6-82479), Airbus (AITM), Bombardier, Embraer, and Pratt & Whitney (ASQR-01) add another layer. The aerospace ERP configuration handles all of it.",
   "modules": [
     "certification-tracking",
     "document-control",
@@ -18,11 +18,11 @@ const data = {
   ],
   "regs": [
     "AS9100D / AS9120 / AS9110 (MRO)",
-    
+    "ASNT SNT-TC-1A (2024) written practice",
     "FAA 14 CFR Part 145 / 21",
     "EASA Part 145 / Part-M",
     "DGCA CAR Section 2 / Series E",
-    
+    "Nadcap AC7114 (NDT) via PRI eAuditNet",
     "ASTM E1417 / E1444 / E1742 / E2375 (aerospace NDT)",
     "ISO 9712 — annex on aerospace"
   ],
@@ -39,7 +39,7 @@ const data = {
     "Northrop Grumman — defense"
   ],
   "pain": [
-    
+    "SNT-TC-1A written-practice qualification matrix and OEM endorsements in Excel — version drift across departments",
     "Customer-specific quality clauses (Boeing D-590, AITM, ASQR-01) flow-down is informal — audit findings",
     "Work-order traceability per FAA 14 CFR Part 145 — manual paper trails",
     "FOD prevention program not integrated with work-order — incident risk",
@@ -47,8 +47,8 @@ const data = {
   ],
   "faqs": [
     [
-      "Does it support personnel qualification?",
-      "Yes. The qualification matrix supports method, technique, and customer-specific qualifications (e.g., Boeing FPI Level II per D-590)."
+      "Does it support aerospace personnel qualification under an SNT-TC-1A written practice?",
+      "Yes. Qualification under your ASNT SNT-TC-1A-based written practice is native — training hours, experience, General / Specific / Practical examinations, vision-test currency and recertification are all tracked per technician, with each customer's aerospace requirements and OEM endorsements layered on top. The qualification matrix supports method, technique, and customer-specific qualifications (e.g., Boeing FPI Level II per D-590) and exports as a Nadcap AC7114 audit pack for PRI eAuditNet. Atlantis also provides ASNT NDT Level III consulting to write or update the written practice itself."
     ],
     [
       "How are Boeing / Airbus / OEM customer quality clauses managed?",
