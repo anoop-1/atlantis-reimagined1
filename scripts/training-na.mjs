@@ -80,7 +80,7 @@ export const SANITISE_RULES = [
   ['exam-admin-locally', /(ASNT|CGSB|ASNT, CGSB) examinations administered locally/g, 'Employer exams by an ASNT Level III', null],
   ['exam-slot', /Atlantis NDT books your exam slot as part of the training package\.?/g, 'Your Level III schedules the employer examinations under your written practice.', null],
   ['authorized-exam-centers', /\s*[^.<>"]*one of only three ASNT Authorized Exam Centers worldwide[^.<>"]*\./g, '', ''],
-  ['training-runs-on-other-scheme', /Training runs on [A-Z0-9 ]+ and [A-Z0-9 ]+ certification, delivered on-site, at arranged venues, or blended\./g, 'Atlantis training runs to ASNT SNT-TC-1A only, with online theory and practicals in the Practical NDT simulator and at your facility.', null],
+  ['training-runs-on-other-scheme', /Training runs on [A-Z0-9 ]+ and [A-Z0-9 ]+ certification, delivered on-site, at arranged venues, or blended\./g, 'Atlantis training runs to ASNT SNT-TC-1A for industrial and aerospace employers, with online theory and practicals in the Practical NDT simulator and at your facility.', null],
   ['other-scheme-required', /Local employers here also commonly require ([^.,<"]+), sat separately through its own accredited body\./g, 'Some local employers also ask for $1, a separate scheme sat through its own body; Atlantis does not train or examine for it.', null],
   ['cswip-recognised', /ASNT leads this market, with ([A-Z0-9 ]+) also recognised\./g, 'ASNT SNT-TC-1A leads this market; $1 appears on some contracts as a separate scheme that Atlantis does not deliver.', null],
   ['in-person-classroom', /([Dd])elivered as in-person classroom, /g, '$1elivered as online classroom training, ', null],

@@ -136,7 +136,7 @@ const industries = [
     },
     {
         title: "Aerospace — Seattle, LA, Dallas",
-        description: "Boeing, Lockheed Martin, Northrop Grumman, Raytheon, and hundreds of tier-1 and tier-2 aerospace suppliers employ NDT technicians under the customer-specified aerospace standard (formerly MIL-HDBK-410). NADCAP-accredited programs require ongoing NDT personnel qualification.",
+        description: "Boeing, Lockheed Martin, Northrop Grumman, Raytheon, and hundreds of tier-1 and tier-2 aerospace suppliers employ NDT technicians under employer written practices aligned to prime flow-down and Nadcap AC7114. NADCAP-accredited programs require ongoing NDT personnel qualification.",
         demand: "Very High"
     },
     {
@@ -164,7 +164,7 @@ const certificationPath = [
 const faqs = [
     {
         question: "What certifications does Atlantis offer?",
-        answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III. We do not offer aerospace training; aerospace employers certify to the customer-specified aerospace standard under their own written practice. Ask us about ASNT Level III consulting for your written practice development."
+        answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III. We deliver ASNT SNT-TC-1A-based training for aerospace too; aerospace employers certify under their own written practice, aligned to prime flow-down and Nadcap AC7114. Ask us about ASNT Level III consulting for your written practice development."
     },
     {
         question: "Is online training available?",

@@ -238,7 +238,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
               ))}
             </div>
             <p className="text-sm text-muted-foreground mt-3">
-              Atlantis NDT trains to ASNT SNT-TC-1A only. Other schemes listed here are examined and certified by their own bodies.
+              Atlantis NDT trains to ASNT SNT-TC-1A. Other schemes listed here are examined and certified by their own bodies.
             </p>
           </section>
 

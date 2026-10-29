@@ -507,7 +507,7 @@
       },
       {
         "q": "Does the outside Level III need to be ASNT NDT Level III certified?",
-        "a": "Under CP-189, yes: employer certification at Level III requires a current ASNT NDT Level III certificate in the applicable method. Under SNT-TC-1A the employer's written practice sets the route, and many practices adopt the ASNT certificate as the qualifying route anyway. Under the customer-specified aerospace standard the Responsible Level 3 must be certified as a Level 3 in one or more methods the employer uses."
+        "a": "Under CP-189, yes: employer certification at Level III requires a current ASNT NDT Level III certificate in the applicable method. Under SNT-TC-1A the employer's written practice sets the route, and many practices adopt the ASNT certificate as the qualifying route anyway. In aerospace programmes audited to Nadcap AC7114, the Responsible Level 3 must be certified as a Level 3 in one or more methods the employer uses."
       },
       {
         "q": "Can the same outside agency train, examine and audit us?",
@@ -3458,9 +3458,9 @@
         ],
         [
           "Level III's own examination",
-          "Outside agency, ASNT, or a NANDTB where one exists",
+          "An independent outside agency, or ASNT",
           "The employer's written practice defines the accepted route",
-          "Outside agency or NANDTB; never the candidate, never a subordinate of the candidate",
+          "Outside agency or ASNT; never the candidate, never a subordinate of the candidate",
           "Set by the administering body",
           "Certificate plus the score report from the administering body, held in the employer's file"
         ]
@@ -3474,7 +3474,7 @@
       },
       {
         "q": "Who may administer a Level III candidate's own examination?",
-        "a": "An outside agency, ASNT, or a NANDTB where one exists. Never the candidate, and never someone who reports to the candidate. This is where the rule bites hardest, because a shop's only Level III cannot examine themselves into a higher method and cannot have their own Level II run the paper. The route is a third party, and it is the same reason many shops contract Level III oversight in the first place: the independence is structural rather than asserted."
+        "a": "An independent outside agency, or ASNT. Never the candidate, and never someone who reports to the candidate. This is where the rule bites hardest, because a shop's only Level III cannot examine themselves into a higher method and cannot have their own Level II run the paper. The route is a third party, and it is the same reason many shops contract Level III oversight in the first place: the independence is structural rather than asserted."
       },
       {
         "q": "How many questions does each examination part require?",
@@ -3581,7 +3581,7 @@
       },
       {
         "q": "Does an ASNT Level III certificate replace our employer examinations?",
-        "a": "No. An ASNT Level III certificate is third-party evidence of method knowledge and, under the customer-specified aerospace standard, a current certificate in the method satisfies the general examination requirement. It does not satisfy the specific examination, because that tests your procedures, your equipment and your customer requirements, and no third party can examine a candidate on documents they have never seen. Employer certification remains an act of the employer regardless of what third-party credentials the candidate holds."
+        "a": "No. An ASNT Level III certificate is third-party evidence of method knowledge and, where the employer’s written practice allows, a current certificate in the method satisfies the general examination requirement. It does not satisfy the specific examination, because that tests your procedures, your equipment and your customer requirements, and no third party can examine a candidate on documents they have never seen. Employer certification remains an act of the employer regardless of what third-party credentials the candidate holds."
       },
       {
         "q": "Who grades the practical if our only Level III is the candidate?",
@@ -4376,7 +4376,7 @@
         "heading": "The written practice is the first document a surveyor asks for",
         "paragraphs": [
           "W35 §2.1 lists what must be available to the Society on request. For companies running an in-house certification scheme, that list names a written practice developed in accordance with a recognised standard such as ASNT SNT-TC-1A 2020 or ANSI/ASNT CP-189 2020. W35 §2.3 then sets the bar the practice has to clear: employer-based qualification may be accepted if the Society reviews the written practice and finds it acceptable, and the practice shall, excepting the impartiality requirements of a certification body, generally comply with ISO 9712:2021.",
-          "That one sentence is where most US shipyard NDT departments fail. A written practice cloned from a template has never been mapped clause by clause against ISO 9712:2021, has never been submitted for Society review, and names no responsible Level III — the same defect that dominates aerospace findings under the customer-specified aerospace standard and Nadcap AC7114. We rewrite the practice against both standards, produce the gap analysis the surveyor asks for, and name the accountable Level III inside the document rather than in an org chart."
+          "That one sentence is where most US shipyard NDT departments fail. A written practice cloned from a template has never been mapped clause by clause against ISO 9712:2021, has never been submitted for Society review, and names no responsible Level III — the same defect that dominates aerospace findings under prime flow-down and Nadcap AC7114. We rewrite the practice against both standards, produce the gap analysis the surveyor asks for, and name the accountable Level III inside the document rather than in an org chart."
         ]
       },
       {
@@ -9932,7 +9932,7 @@
     "description": "What counts as NDT on-the-job experience, the fields a compliant log entry needs, who signs it, and how to rebuild undocumented hours with employer attestation.",
     "h1": "The OJT Hour Log That Survives an Audit — and the One That Doesn't",
     "answer": "OJT hours are supervised, hands-on time performing the method — setup, calibration, scanning, interpretation and reporting — not classroom study or site standby. A compliant log entry records date, hours, method and technique, equipment, the part and procedure, the activity performed, and a certified Level II or III supervisor's signature. Undocumented hours can be reconstructed through inspection reports, job travelers and a signed employer attestation.",
-    "expansion": "OJT hours are the documented, supervised, hands-on portion of NDT qualification — the number SNT-TC-1A, CP-189 and ISO 9712 all demand before certification, and the number candidates most often cannot prove. Creditable time covers surface preparation, equipment setup, calibration, data acquisition, evaluation against acceptance criteria and report writing performed under a certified Level II or III. Classroom and e-learning hours count as training, never experience; standby time counts as nothing. A defensible log entry carries date, hours, method, technique, equipment ID, part and procedure reference, the activity performed, and the supervisor's signature and certification level. When years went unlogged, hours are rebuilt from inspection reports, job travelers and timesheets, then bound by a signed employer attestation a Level III reviews and accepts. Under the customer-specified aerospace standard the log gates the exams themselves: specific exam at 75% of hours, practical at 100%.",
+    "expansion": "OJT hours are the documented, supervised, hands-on portion of NDT qualification — the number SNT-TC-1A, CP-189 and ISO 9712 all demand before certification, and the number candidates most often cannot prove. Creditable time covers surface preparation, equipment setup, calibration, data acquisition, evaluation against acceptance criteria and report writing performed under a certified Level II or III. Classroom and e-learning hours count as training, never experience; standby time counts as nothing. A defensible log entry carries date, hours, method, technique, equipment ID, part and procedure reference, the activity performed, and the supervisor's signature and certification level. When years went unlogged, hours are rebuilt from inspection reports, job travelers and timesheets, then bound by a signed employer attestation a Level III reviews and accepts. In aerospace written practices aligned to prime flow-down, the log gates the exams themselves: specific exam at 75% of hours, practical at 100%.",
     "source": "ASNT SNT-TC-1A (2020 edition, Table 6.3.1A; 2024 edition, para. 6.4); ASNT NDT Level III eligibility criteria, certification.asnt.org",
     "table": {
       "caption": "Copy-ready OJT log entry: seven fields, worked examples, and why auditors ask",
@@ -10029,7 +10029,7 @@
         "heading": "Who signs, and what the signature asserts",
         "paragraphs": [
           "The supervising signature belongs to the certified individual who directed the work — a Level II or Level III in the same method, identified by name and certification level. That signature asserts three things: the activity happened, the hours are accurate, and the trainee worked under qualified direction. A quality manager's countersignature can close the employer's record, but it cannot substitute for method supervision the manager is not certified to provide.",
-          "The candidate signs too, and the dual signature makes retroactive falsification uncomfortable in both directions. At certification time, the employer's Level III totals the log against the written-practice table and accepts or rejects it. Under the customer-specified aerospace standard that acceptance happens progressively, because the specific exam is administered only after 75% of required hours are logged and the practical only after 100%. An unsigned log delays exams, which delays certification, which delays billable capability."
+          "The candidate signs too, and the dual signature makes retroactive falsification uncomfortable in both directions. At certification time, the employer's Level III totals the log against the written-practice table and accepts or rejects it. In aerospace written practices aligned to prime flow-down, that acceptance happens progressively, because the specific exam is administered only after 75% of required hours are logged and the practical only after 100%. An unsigned log delays exams, which delays certification, which delays billable capability."
         ]
       },
       {
@@ -10346,7 +10346,7 @@
         "heading": "The designation letter and what it actually authorizes",
         "paragraphs": [
           "The designation letter is the first artifact, and it is signed by employer management rather than by the Level III. It names the individual, lists the exact NDT methods within scope, states the effective and expiry dates, and enumerates the authorities granted: approving the written practice, approving examination questions, approving and qualifying procedures, and recommending personnel for certification. An auditor reads this letter before anything else, because it establishes whether the person answering questions has standing to answer them at all.",
-          "Aerospace personnel standards define an outside agency as an independent organization providing NDT services to implement their requirements, and include consultants and self-employed individuals inside that definition. Contracting the role is anticipated by the standards. The written designation is what makes it operative rather than informal.",
+          "SNT-TC-1A and aerospace written practices define an outside agency as a company or individual providing NDT Level III services, which brings consultants and self-employed Level IIIs inside that definition. Contracting the role is anticipated by the standards. The written designation is what makes it operative rather than informal.",
           "The letter does not transfer certification authority. Under SNT-TC-1A the certifying authority is a person designated in the written practice, and an outside agency cannot certify the employer's personnel. The contracted Level III states that examinations were administered and passed and that written-practice criteria were met; the employer signs. Employers that let a consultant sign certification records create a defect harder to remediate than the vacancy it was meant to solve. The boundary is set out in /consulting/outside-ndt-level-3-can-and-cannot-do."
         ]
       },
@@ -10492,7 +10492,7 @@
       },
       {
         "q": "What is the most frequent finding?",
-        "a": "Vision currency. It is the only requirement whose clock attaches to individuals annually rather than to documents, so it lapses silently between audits. SNT-TC-1A calls for annual near-vision acuity — Jaeger Number 2 or equivalent at not less than 12 inches — and color contrast differentiation at initial certification and five-year intervals. Aerospace programs under the customer-specified aerospace standard apply different criteria."
+        "a": "Vision currency. It is the only requirement whose clock attaches to individuals annually rather than to documents, so it lapses silently between audits. SNT-TC-1A calls for annual near-vision acuity — Jaeger Number 2 or equivalent at not less than 12 inches — and color contrast differentiation at initial certification and five-year intervals. Aerospace written practices aligned to prime flow-down apply different criteria."
       },
       {
         "q": "Are graded examination papers required to be retained?",
@@ -10548,7 +10548,7 @@
         "heading": "Vision currency and why it dominates the findings list",
         "paragraphs": [
           "Vision findings are the most frequent because vision is the only requirement with an annual clock attached to individuals rather than to documents. SNT-TC-1A calls for annual near-vision acuity examination — Jaeger Number 2 or equivalent at a distance of not less than 12 inches, or an equivalent such as an Ortho-Rater minimum of 8 — together with color contrast differentiation demonstrating the capability to distinguish the colors or shades of gray used in the method, at initial certification and at five-year intervals thereafter.",
-          "Aerospace programs diverge and the assessment must not blur them. Aerospace personnel standards set their own near-vision criterion and require the vision test to be administered by personnel trained and designated by the Responsible Level 3 or by qualified medical personnel — an administrator requirement, not merely a result requirement.",
+          "Aerospace programs diverge and the assessment must not blur them. Aerospace written practices aligned to prime flow-down set their own near-vision criterion and require the vision test to be administered by personnel trained and designated by the Responsible Level 3 or by qualified medical personnel — an administrator requirement, not merely a result requirement.",
           "A vision gap has one property that makes sequencing simple: it closes in a day and cannot be closed retroactively. A test performed now evidences current acuity. It cannot evidence acuity during the eleven months it was overdue, and reports issued in that window carry the gap with them. Remediation is therefore two-part — restore currency immediately, then assess whether work performed during the lapse requires technical review or re-examination of the product."
         ]
       },
@@ -12746,7 +12746,7 @@
       {
         "heading": "Industry: the same card pays differently across sectors",
         "paragraphs": [
-          "Aerospace and nuclear pay a documentation premium. The inspection is not harder; the traceability, the personnel qualification records and the audit exposure are. Technicians in those sectors sit at the top of the staff band with modest overtime and heavy paperwork. Aerospace personnel qualification runs under the customer-specified aerospace standard rather than SNT-TC-1A, which changes the examination and eligibility requirements an employer has to meet before it can certify anyone onto a method.",
+          "Aerospace and nuclear pay a documentation premium. The inspection is not harder; the traceability, the personnel qualification records and the audit exposure are. Technicians in those sectors sit at the top of the staff band with modest overtime and heavy paperwork. Aerospace personnel qualification layers prime flow-down and Nadcap AC7114 onto an SNT-TC-1A-based written practice, which changes the examination and eligibility requirements an employer has to meet before it can certify anyone onto a method.",
           "Refinery and petrochemical work pays an availability premium instead. The base looks ordinary and the year does not, because turnarounds compress twelve months of work into six weeks of twelve-hour days. Fabrication and structural shops pay the lowest bands with the most predictable hours. Pipeline construction sits between them and swings hardest with capital spending. Power generation outage work behaves like refinery turnaround work on a shorter and more predictable cycle.",
           "Sector choice therefore sets the shape of the income, not only its size. A fabrication shop Level II on $68,000 with no travel and a turnaround Level II on $68,000 base with eighteen weeks of shutdown work do not take home the same money, and the difference runs to five figures. Compare offers on annualised all-in, and read the [NDT inspector salary page](/ndt-inspector-salary) for how inspection-titled roles price the same underlying skills differently."
         ]
@@ -16019,7 +16019,7 @@
         "heading": "Aviation next door pulls a third, incompatible scheme into the same building",
         "paragraphs": [
           "Fleet Readiness Center Southeast at NAS Jacksonville is a naval aviation depot in the same metro, and its supplier base sits within a short drive of the same yards that feed Mayport. A Jacksonville NDT firm that takes airframe or component work alongside ship repair is now running a maritime scheme and an aerospace scheme in one shop, under one quality manual, with one pool of technicians.",
-          "Those schemes are not interchangeable. Aerospace prime and depot supply chains qualify NDT personnel under the customer-specified aerospace standard and audit under AC7114, which assigns a Responsible Level 3 with duties that do not map cleanly onto the NAVSEA Examiner role or the IACS supervisor role. Cross-certifying a technician across all three without a documented basis is the finding that ends the audit.",
+          "Those schemes are not interchangeable. Aerospace prime and depot supply chains qualify NDT personnel under written practices aligned to prime flow-down and audit under AC7114, which assigns a Responsible Level 3 with duties that do not map cleanly onto the NAVSEA Examiner role or the IACS supervisor role. Cross-certifying a technician across all three without a documented basis is the finding that ends the audit.",
           "The separation has to be designed before the work is accepted, not after a nonconformance. In practice that means one quality manual with two clearly bounded annexes, a technician authorisation matrix naming the scheme each certification was issued under, and training hours logged against the correct scheme rather than pooled. We map those boundaries against AC7114 and cover the aerospace side through /consulting/aviation-ndt-consulting, so a Jacksonville firm holds maritime and aviation approvals concurrently with a defensible line between them and can show an auditor exactly where that line runs."
         ]
       },
@@ -25178,7 +25178,7 @@
     "description": "Why a UT Level III cannot approve an RT procedure, how method scope is recorded, how firms cover methods their Level III lacks, and how auditors find it.",
     "h1": "One certificate, one method — and the signature block that gives you away",
     "answer": "A Level III certificate is issued per method. Signing an RT procedure on a UT certificate is the most common Level III audit finding there is, because SNT-TC-1A makes the Level III responsible only for the operations for which qualified. Cover the gap with a second method-certified Level III, written delegation, or by sitting the ASNT method exam.",
-    "expansion": "ASNT issues the NDT Level III credential method by method: one Basic examination of 135 questions over four hours, then a separate method examination for each method held — 135 questions and four hours for UT, RT, ET, LT and AE, 90 questions and two hours for MT, PT, VT, IR and MFL. SNT-TC-1A mirrors that structure and makes the Level III responsible for the NDT operations for which qualified. Certification records must state the level, the method or technique, and limitations if any. Nothing in that chain lets a UT Level III approve an RT technique sheet, grade an RT practical, or certify an RT Level II. Firms close the gap by contracting a method-certified Level III, by written delegation under the customer-specified aerospace standard, or by sending their own Level III to the ASNT method examination.",
+    "expansion": "ASNT issues the NDT Level III credential method by method: one Basic examination of 135 questions over four hours, then a separate method examination for each method held — 135 questions and four hours for UT, RT, ET, LT and AE, 90 questions and two hours for MT, PT, VT, IR and MFL. SNT-TC-1A mirrors that structure and makes the Level III responsible for the NDT operations for which qualified. Certification records must state the level, the method or technique, and limitations if any. Nothing in that chain lets a UT Level III approve an RT technique sheet, grade an RT practical, or certify an RT Level II. Firms close the gap by contracting a method-certified Level III, by written delegation where aerospace flow-down permits it, or by sending their own Level III to the ASNT method examination.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A (2020), Sections 5, 8 and 9; ANSI/ASNT CP-189 (2024); ASNT Certification Services published NDT Level III examination schedule; PRI Nadcap AC7114 audit criteria; documented ASME Section V and SNT-TC-1A audit non-conformances discussed on ndt.net.",
     "table": {
       "caption": "Signature blocks an auditor cross-references against one Level III's certification record",
@@ -46831,7 +46831,7 @@
         "paragraphs": [
           "A client audit is commercial and specific. The client's integrity engineer wants to know that the data feeding their mechanical integrity programme is sound, and they will usually pick items they already suspect. Expect questions about CML repeatability, about outliers you kept and outliers you discarded, and about whether your rate calculations match the ones their own system produces from your data.",
           "An accreditation assessment under ISO/IEC 17020 or 17025 is systemic. The assessor cares less about any individual number and more about whether the management system controls the process: impartiality arrangements, personnel authorisation, procedure control, equipment records, review before issue, and the handling of nonconforming work. They will still trace one number end to end, but as a test of the system rather than of the number.",
-          "A process safety audit under 29 CFR 1910.119 arrives through the client and reaches you as a contractor. The mechanical integrity provisions require inspection and testing at frequencies following recognised and generally accepted good engineering practice, with results documented, and deficiencies corrected before further use or with a documented basis for safe continued operation. As the contractor supplying that documentation, you are expected to produce records that satisfy the operator's obligation, not merely your own. Aerospace work under the customer-specified aerospace standard and Nadcap adds a fourth and much more prescriptive personnel and process audit on top."
+          "A process safety audit under 29 CFR 1910.119 arrives through the client and reaches you as a contractor. The mechanical integrity provisions require inspection and testing at frequencies following recognised and generally accepted good engineering practice, with results documented, and deficiencies corrected before further use or with a documented basis for safe continued operation. As the contractor supplying that documentation, you are expected to produce records that satisfy the operator's obligation, not merely your own. Aerospace work under prime flow-down and Nadcap adds a fourth and much more prescriptive personnel and process audit on top."
         ]
       },
       {
@@ -52029,7 +52029,7 @@
         "heading": "When the client regime redefines what adequate means",
         "paragraphs": [
           "The same plant can face three incompatible definitions of an adequately qualified technician depending on who is buying the steel. For general industrial and construction customers, an employer-based SNT-TC-1A or CP-189 certification is the expectation and the practice governs. That is the baseline the document should be written to.",
-          "Sell specialty alloy or forged product into aerospace and the personnel regime changes to the customer-specified aerospace standard, audited through Nadcap. It is not a matter of relabelling the existing practice; it is a separate qualification scheme, and running both simultaneously requires the document to be structured so that the aerospace scope is unambiguously segregated from the general industrial scope.",
+          "Sell specialty alloy or forged product into aerospace and the personnel regime adds prime flow-down requirements, audited through Nadcap. It is not a matter of relabelling the existing practice; it is a separate qualification scheme, and running both simultaneously requires the document to be structured so that the aerospace scope is unambiguously segregated from the general industrial scope.",
           "Automotive customers audited under IATF 16949 require personnel performing non-destructive evaluation to be qualified, and customer-specific requirements typically name ASNT or ISO 9712 as the route. Export into the European pressure equipment regime shifts the ground again: for higher-category equipment, personnel performing non-destructive tests of permanent joints must be approved by a recognised third-party organisation, which an employer-based certificate does not satisfy no matter how well written the practice is. That last one surprises people late in a project, when the equipment is built and the paperwork will not clear."
         ]
       },
@@ -54329,7 +54329,7 @@
       },
       {
         "q": "How does aviation work at the Army depot differ from the industrial side?",
-        "a": "Entirely. Depot-level rotorcraft maintenance qualifies personnel under the customer-specified aerospace standard and the governing technical publications, with a named responsible Level 3 and a structure that does not map onto SNT-TC-1A. Fluorescent penetrant lines, eddy current on aluminium structure and bonded or composite inspection are the dominant scope. The important discipline for a Coastal Bend service company working both sides is to keep the two qualification regimes in separate documents; blending them produces a practice that satisfies neither auditor."
+        "a": "Entirely. Depot-level rotorcraft maintenance qualifies personnel under the customer’s aerospace flow-down and the governing technical publications, with a named responsible Level 3 and its own aerospace written practice, separate from the industrial one. Fluorescent penetrant lines, eddy current on aluminium structure and bonded or composite inspection are the dominant scope. The important discipline for a Coastal Bend service company working both sides is to keep the two qualification regimes in separate documents; blending them produces a practice that satisfies neither auditor."
       },
       {
         "q": "What should we ask a prospective Level III before appointing one?",
@@ -54485,7 +54485,7 @@
         "paragraphs": [
           "The three refineries in and around the city — CITGO, Valero and Flint Hills Resources — generate the steadiest ultrasonic workload: thickness monitoring on process circuits, fired heater tube examination, weld examination during turnarounds, and the damage-mechanism-driven scope that comes out of an API 571-informed review. The export side of the port, the largest crude export gateway in the country, adds dock and jetty piping, loading manifolds and above-ground storage tanks, where coating, marine atmosphere and access dominate the technique choice.",
           "North of the harbor the material mix changes. The ethane cracker corridor at Gregory brings high-temperature furnace and transfer-line scope; LNG liquefaction on the La Quinta Channel brings cryogenic austenitic and 9 percent nickel work; the Steel Dynamics mill at Sinton and the hot briquetted iron plant at Portland bring plate lamination examination, structural welding and mill-support pressure equipment. Ingleside adds heavy offshore fabrication with thick-section and tubular joint ultrasonics under AWS D1.1 and owner structural specifications.",
-          "And Corpus Christi Army Depot at the naval air station is a reminder that not all local ultrasonics lives under the same rulebook — depot rotorcraft work qualifies personnel under the customer-specified aerospace standard with a named responsible Level 3, examines aluminium and bonded structure, and should never be folded into an industrial written practice. A regional service company chasing both markets needs two documents, not one flexible one."
+          "And Corpus Christi Army Depot at the naval air station is a reminder that not all local ultrasonics lives under the same rulebook — depot rotorcraft work qualifies personnel under the customer’s aerospace flow-down with a named responsible Level 3, examines aluminium and bonded structure, and should never be folded into an industrial written practice. A regional service company chasing both markets needs two documents, not one flexible one."
         ]
       },
       {
@@ -55164,7 +55164,7 @@
         "paragraphs": [
           "SNT-TC-1A and CP-189 both certify by method. Ultrasonic testing is the method. Phased array, time of flight diffraction, encoded corrosion mapping, immersion, guided wave and high temperature techniques are techniques within it, and none of them arrive automatically with a UT Level II certificate. If your written practice does not define a technique, set out its additional training and examination content, and mark the resulting limitation on the certificate, then every job performed with that technique rests on a certification that never contemplated it. That is not a theoretical exposure: it is the finding that most often invalidates completed work retrospectively.",
           "Limited certifications cut the other way too. A technician whose practical examination was a thickness survey holds evidence of competence in thickness measurement, not weld interpretation, and the certificate should say so. Where it does not, the dispatcher has no way to know, and the sales team will happily promise weld scanning. An auditor who pulls that practical examination has a finding whether or not the field work was sound, because the record does not support the scope the company sold.",
-          "Scheme boundaries matter as much as technique boundaries. Houston shops feeding the aerospace and space supply chains around Clear Lake work to the customer-specified aerospace standard and the prime's own requirements, which handle the Level 3 role and examination administration differently from SNT-TC-1A. Work that crosses to Canada or Europe usually needs ISO 9712 or CAN/CGSB-48.9712 certification, which is issued centrally rather than by the employer. A US employer certificate does not travel across those borders, however good the technician is."
+          "Scheme boundaries matter as much as technique boundaries. Houston shops feeding the aerospace and space supply chains around Clear Lake need a separate aerospace written practice, which Atlantis builds on SNT-TC-1A and aligns to the prime's own requirements for the Level 3 role and examination administration. Work that crosses to Canada or Europe usually needs ISO 9712 or CAN/CGSB-48.9712 certification, which is issued centrally rather than by the employer. A US employer certificate does not travel across those borders, however good the technician is."
         ]
       },
       {
@@ -57608,7 +57608,7 @@
       },
       {
         "q": "Can one written practice cover nuclear and aerospace scope too?",
-        "a": "No. Personnel examining components under a station inservice inspection programme qualify by performance demonstration under ASME Section XI rules, inside a quality programme meeting 10 CFR 50 Appendix B, which is a separate and heavier regime. Aerospace work on flight hardware certifies to the customer-specified aerospace standard and to the customer NDE standard. One site written practice cannot quietly cover all three regimes without saying exactly where each applies."
+        "a": "No. Personnel examining components under a station inservice inspection programme qualify by performance demonstration under ASME Section XI rules, inside a quality programme meeting 10 CFR 50 Appendix B, which is a separate and heavier regime. Aerospace work on flight hardware certifies personnel under an SNT-TC-1A-based written practice aligned to prime flow-down and the customer NDE standard. One site written practice cannot quietly cover all three regimes without saying exactly where each applies."
       },
       {
         "q": "How is a Level III of record different from an API inspector?",
@@ -57661,7 +57661,7 @@
         "heading": "Nuclear and aerospace scope in the same metro",
         "paragraphs": [
           "Commercial NDT programmes do not reach into either of these regimes, and pretending otherwise is a serious exposure. Personnel examining components under a nuclear station's inservice inspection programme qualify through performance demonstration under ASME Section XI rules, working inside a quality assurance programme that meets 10 CFR 50 Appendix B, with supplier requirements typically flowed down through ASME NQA-1. Employer certification under SNT-TC-1A is necessary background but nowhere near sufficient, and a written practice that implies otherwise creates a compliance problem the moment it is submitted.",
-          "Aerospace manufacturing runs on a different axis again. Personnel certify to the customer-specified aerospace standard, procedures are approved against the customer's own NDE specification, and the surrounding quality system expectations — AS9100, and process approvals where they apply — are structurally unlike anything in a refinery. The paperwork discipline is higher and the tolerance for undocumented judgement is close to zero. A Level III moving between a refinery turnaround and a flight hardware programme has to change posture, not just paperwork.",
+          "Aerospace manufacturing runs on a different axis again. Personnel certify under an SNT-TC-1A-based written practice aligned to prime flow-down, procedures are approved against the customer's own NDE specification, and the surrounding quality system expectations — AS9100, and process approvals where they apply — are structurally unlike anything in a refinery. The paperwork discipline is higher and the tolerance for undocumented judgement is close to zero. A Level III moving between a refinery turnaround and a flight hardware programme has to change posture, not just paperwork.",
           "For an organisation working across these markets — and in this metro plenty do — the written practice has to state the boundaries explicitly. Which methods and levels are certified under the site practice, which personnel additionally hold performance demonstration qualification and for what, which hold certification and under whose programme, and what work each is permitted to sign. Ambiguity here is not a documentation preference; it is how a technician ends up signing something they were never qualified to sign."
         ]
       },
@@ -61264,7 +61264,7 @@
       },
       {
         "q": "How much training and experience does UT Level I require?",
-        "a": "The employer's written practice governs, but it is normally written against SNT-TC-1A, which recommends 40 hours of classroom training in ultrasonics for Level I and a substantial block of documented experience hours in the method — in the region of 210 hours — with an additional total-NDT experience figure. ISO 9712 instead specifies nominal training hours plus experience counted in months of industrial work, roughly three months for Level 1 in ultrasonics. Aerospace work under the customer-specified aerospace standard uses its own table again."
+        "a": "The employer's written practice governs, but it is normally written against SNT-TC-1A, which recommends 40 hours of classroom training in ultrasonics for Level I and a substantial block of documented experience hours in the method — in the region of 210 hours — with an additional total-NDT experience figure. ISO 9712 instead specifies nominal training hours plus experience counted in months of industrial work, roughly three months for Level 1 in ultrasonics. Aerospace written practices aligned to prime flow-down use their own table again."
       },
       {
         "q": "What does the practical examination test?",
@@ -61280,7 +61280,7 @@
       },
       {
         "q": "Which Corpus Christi employers hire UT Level I technicians?",
-        "a": "Third-party NDT service contractors first — they staff refinery and midstream terminal thickness programmes, turnaround crews and shop weld examination. Beyond that: fabrication and pipe shops building to ASME and AWS codes, LNG and cryogenic storage projects on the channel, marine and barge repair yards, pipeline and terminal operators on the Eagle Ford midstream network, and aerospace depot maintenance work, which qualifies personnel under the customer-specified aerospace standard rather than SNT-TC-1A alone."
+        "a": "Third-party NDT service contractors first — they staff refinery and midstream terminal thickness programmes, turnaround crews and shop weld examination. Beyond that: fabrication and pipe shops building to ASME and AWS codes, LNG and cryogenic storage projects on the channel, marine and barge repair yards, pipeline and terminal operators on the Eagle Ford midstream network, and aerospace depot maintenance work, which qualifies personnel under the customer’s aerospace flow-down layered on SNT-TC-1A."
       }
     ],
     "sections": [
@@ -61372,7 +61372,7 @@
       },
       {
         "q": "Is UT Level I enough to work on aerospace components at the depot?",
-        "a": "Aerospace NDT personnel are qualified under the customer-specified aerospace standard, which sets its own classroom and experience requirements, mandates documented on-the-job training, and imposes specific requirements on the Level III who administers the programme. An employer's SNT-TC-1A-based certification does not automatically satisfy it. If aerospace work is the goal, confirm which document the employer's programme is built on before starting."
+        "a": "Aerospace NDT personnel are qualified under a written practice aligned to prime flow-down, which sets its own classroom and experience requirements, mandates documented on-the-job training, and imposes specific requirements on the Level III who administers the programme. An employer's SNT-TC-1A-based certification does not automatically satisfy it. If aerospace work is the goal, confirm which document the employer's programme is built on before starting."
       },
       {
         "q": "What single habit most improves a new Level I's data quality?",
@@ -63449,7 +63449,7 @@
         "heading": "Which Tulsa employers and sectors impose these requirements",
         "paragraphs": [
           "Tulsa's inspection demand comes from three overlapping bases. Midstream gas gathering, processing and transmission — the sector the city is genuinely built on — drives pipeline and compressor station work, where personnel certification to SNT-TC-1A sits alongside separate operator qualification requirements under federal pipeline regulation. Refining and petrochemical work in and around the city drives turnaround inspection, where the personnel file is checked at the gate before a technician is badged. Fabrication and pressure equipment shops drive new-construction examination under ASME.",
-          "Layered on top of all of it is aerospace maintenance, repair and overhaul, which is a substantial employer of NDT technicians in Tulsa and which raises the bar. Aerospace work runs to the customer-specified aerospace standard, which sets its own training and experience minimums, imposes tighter conditions on the use of outside agency Level 3s, and expects a level of documentation discipline that a shop coming from general industry finds unfamiliar. A technician who can move between the two worlds is unusually employable here.",
+          "Layered on top of all of it is aerospace maintenance, repair and overhaul, which is a substantial employer of NDT technicians in Tulsa and which raises the bar. Aerospace employers align their SNT-TC-1A-based practice to prime flow-down, which sets its own training and experience minimums, imposes tighter conditions on the use of outside agency Level 3s, and expects a level of documentation discipline that a shop coming from general industry finds unfamiliar. A technician who can move between the two worlds is unusually employable here.",
           "The practical consequence for an owner or QA manager is that one written practice may need to serve several client regimes at once. That is manageable, but only if the practice is explicit about which requirements apply to which work. The failure mode is a single generic practice that satisfies none of them closely — passing the easy audit, and being taken apart at the first serious one."
         ]
       }
@@ -63714,7 +63714,7 @@
           "Written practice / certification scheme"
         ]
       ],
-      "note": "The hours shown for SNT-TC-1A are the recommended minimums in its training and experience table for a high-school-graduate candidate; the table's footnotes adjust them for other educational backgrounds. Aerospace employers working to the customer-specified aerospace standard apply that document's own training and experience minimums instead, along with tighter conditions on outside agency Level 3 involvement."
+      "note": "The hours shown for SNT-TC-1A are the recommended minimums in its training and experience table for a high-school-graduate candidate; the table's footnotes adjust them for other educational backgrounds. Aerospace employers align their SNT-TC-1A-based practice to prime flow-down, which adds its own training and experience minimums and tighter conditions on outside agency Level 3 involvement."
     },
     "facets": [
       {
@@ -63839,7 +63839,7 @@
       },
       {
         "q": "How is UT Level I different in aerospace work?",
-        "a": "The framework changes. Aerospace employers work to the customer-specified aerospace standard, which sets its own training and experience minimums and imposes tighter conditions on outside agency Level 3 involvement and on the certifying process. The technical problem changes too: thin sections, complex geometry, fatigue cracking at fastener holes and fillet radii, and far smaller rejectable flaw sizes than corrosion work assumes. A technician crossing from energy to aerospace typically requires additional training and re-examination under the receiving employer's programme."
+        "a": "The framework changes. Aerospace employers align their SNT-TC-1A-based practice to prime flow-down, which sets its own training and experience minimums and imposes tighter conditions on outside agency Level 3 involvement and on the certifying process. The technical problem changes too: thin sections, complex geometry, fatigue cracking at fastener holes and fillet radii, and far smaller rejectable flaw sizes than corrosion work assumes. A technician crossing from energy to aerospace typically requires additional training and re-examination under the receiving employer's programme."
       }
     ]
   },
@@ -64742,7 +64742,7 @@
       },
       {
         "q": "Does Atlantis prepare candidates for ISO 9712 examinations?",
-        "a": "No. Atlantis trains and certifies to ASNT SNT-TC-1A only. Candidates who need ISO 9712 sit that examination separately through its own accredited certification body — the examination and the certificate come from that body, not from Atlantis, which is the entire point of a third-party scheme."
+        "a": "No. Atlantis delivers ASNT SNT-TC-1A-based training. Candidates who need ISO 9712 sit that examination separately through its own accredited certification body — the examination and the certificate come from that body, not from Atlantis, which is the entire point of a third-party scheme."
       },
       {
         "q": "Can training be delivered on site at a Corpus Christi plant or contractor yard?",
@@ -65554,7 +65554,7 @@
       },
       {
         "q": "Which Tulsa industries employ ultrasonic testing technicians?",
-        "a": "Four clusters carry the work. Midstream pipeline and gas processing operations, including the large regional tank storage concentration west of the city. Pressure vessel, heat exchanger and oilfield equipment fabrication, which generates weld and plate examination. Commercial aircraft maintenance and overhaul, which runs under the customer-specified aerospace standard rather than SNT-TC-1A. And general steel fabrication and inland barge work around the Port of Catoosa on the McClellan-Kerr navigation system."
+        "a": "Four clusters carry the work. Midstream pipeline and gas processing operations, including the large regional tank storage concentration west of the city. Pressure vessel, heat exchanger and oilfield equipment fabrication, which generates weld and plate examination. Commercial aircraft maintenance and overhaul, which runs under the customer’s aerospace flow-down, often layered on SNT-TC-1A. And general steel fabrication and inland barge work around the Port of Catoosa on the McClellan-Kerr navigation system."
       }
     ],
     "sections": [
@@ -95168,7 +95168,7 @@
         "paragraphs": [
           "Some customers specify ANSI/ASNT CP-189 rather than SNT-TC-1A. CP-189 is a standard, so its requirements are mandatory rather than recommended, its training and experience minimums cannot be reduced in the practice, re-examination is required at recertification, and the Level III who signs must hold a current ASNT NDT Level III certificate in the method. A programme that satisfies CP-189 satisfies SNT-TC-1A; the reverse is not true. Atlantis writes practices that meet both where the customer base demands it — the differences are set out in [SNT-TC-1A vs CP-189](/blog/asnt-snt-tc-1a-vs-cp-189-comparison) and in the [CP-189 requirements](/compliance/ansi-asnt-cp-189) page.",
           "ISO 9712 is different in kind: a central certification body examines and issues, and the certificate belongs to the individual. A US or Canadian employer that hires an ISO 9712 Level 2 still has to certify that person under its own written practice before they sign a report on the employer's behalf — ISO 9712 does not replace employer certification, though the practice can credit the training and experience behind it. Employers selling into Europe or the Middle East often run both, with the employer certificate for domestic code work and the ISO 9712 certificate for contracts that call for it; the trade-offs are covered in [ISO 9712 vs SNT-TC-1A](/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison) and [ASNT vs PCN](/compare/asnt-vs-pcn).",
-          "In Canada, code work — pressure equipment, pipelines, structural steel under the provincial safety authorities and CSA codes — requires CAN/CGSB-48.9712 certification issued by NRCan's NDT Certification Body or CWB Group, and no employer programme replaces it. Employer-based SNT-TC-1A certification is still legitimately used in Canada for US-owned facilities that run a corporate written practice, for aerospace organisations qualifying under the customer-specified aerospace standard, for in-house inspection outside CAN/CGSB-48.9712-mandated scopes, and as a supplementary employer certification that records the specific procedures and equipment a CAN/CGSB-48.9712-certified technician has been trained on. Atlantis mobilises to Canadian sites from Houston on the same basis as US sites and writes the practice so the two schemes do not conflict; see [NDT training in Canada](/ndt-training-canada). Atlantis is not an NRCan or CWB examination centre."
+          "In Canada, code work — pressure equipment, pipelines, structural steel under the provincial safety authorities and CSA codes — requires CAN/CGSB-48.9712 certification issued by NRCan's NDT Certification Body or CWB Group, and no employer programme replaces it. Employer-based SNT-TC-1A certification is still legitimately used in Canada for US-owned facilities that run a corporate written practice, for aerospace organisations aligned to prime flow-down, for in-house inspection outside CAN/CGSB-48.9712-mandated scopes, and as a supplementary employer certification that records the specific procedures and equipment a CAN/CGSB-48.9712-certified technician has been trained on. Atlantis mobilises to Canadian sites from Houston on the same basis as US sites and writes the practice so the two schemes do not conflict; see [NDT training in Canada](/ndt-training-canada). Atlantis is not an NRCan or CWB examination centre."
         ]
       },
       {
@@ -95202,7 +95202,7 @@
       },
       {
         "q": "Does SNT-TC-1A employer certification apply in Canada?",
-        "a": "Only outside CAN/CGSB-48.9712-mandated scopes. Canadian code work on pressure equipment, pipelines and structural steel requires CAN/CGSB-48.9712 certification through NRCan's NDT Certification Body or CWB Group. Employer-based SNT-TC-1A programmes are legitimately used in Canada for US-owned corporate practices, aerospace under the customer-specified aerospace standard, in-house non-code inspection, and as a supplementary record of the procedures a CAN/CGSB-48.9712-certified technician has been trained on."
+        "a": "Only outside CAN/CGSB-48.9712-mandated scopes. Canadian code work on pressure equipment, pipelines and structural steel requires CAN/CGSB-48.9712 certification through NRCan's NDT Certification Body or CWB Group. Employer-based SNT-TC-1A programmes are legitimately used in Canada for US-owned corporate practices, aerospace aligned to prime flow-down, in-house non-code inspection, and as a supplementary record of the procedures a CAN/CGSB-48.9712-certified technician has been trained on."
       },
       {
         "q": "What does an SNT-TC-1A audit actually check?",
@@ -95354,7 +95354,7 @@
       {
         "heading": "Canadian companies, and what the service does not cover",
         "paragraphs": [
-          "Companies in Canada are served on the same basis, with the practice written to respect where CAN/CGSB-48.9712 certification is mandatory for code work and where employer-based certification applies: US-owned corporate practices, aerospace under the customer-specified aerospace standard, and in-house non-code inspection. Atlantis is not an NRCan or CWB examination centre and does not issue ISO 9712 certificates; the written practice is drawn so those schemes and the employer's own certification do not conflict.",
+          "Companies in Canada are served on the same basis, with the practice written to respect where CAN/CGSB-48.9712 certification is mandatory for code work and where employer-based certification applies: US-owned corporate practices, aerospace aligned to prime flow-down, and in-house non-code inspection. Atlantis is not an NRCan or CWB examination centre and does not issue ISO 9712 certificates; the written practice is drawn so those schemes and the employer's own certification do not conflict.",
           "The service does not include certification of API 510, 570 or 653 inspectors, which are individual certifications administered by API and outside the scope of an employer written practice.",
           "To start, send the methods you certify or intend to certify, the codes and customer specifications you work to, and your current practice if you have one. An ASNT NDT Level III reads them and returns a scoped proposal for a review, a revision, or a practice written from the beginning. [Request a written practice review](/contact?service=consulting&subject=Written%20practice%20review)."
         ]

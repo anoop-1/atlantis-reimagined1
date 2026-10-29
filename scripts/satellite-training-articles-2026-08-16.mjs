@@ -190,7 +190,7 @@ const ARTICLES = [
 <p>Aerospace manufacturing means production-scale examination: penetrant lines, machined-structure eddy current, composite ultrasonics, Nadcap accreditation of the process. Maintenance — the MRO side — means finding in-service damage on assembled aircraft and engine hardware inside an FAA Part 145 repair station, where capability lists and airline vendor audits shape everything. The employer landscape and method mix on that side are described in this guide to <a href="${A}/aviation-ndt-training">aviation MRO NDT work</a>. A technician should choose deliberately, because the two build different résumés.</p>
 
 <h2>The realistic sequence</h2>
-<p>Get hired into an aerospace programme on the strength of transferable method competence, expect to re-qualify under the customer-specified aerospace standard, start on the method with the highest volume (usually penetrant or eddy current), and treat programme-specific OEM approvals as the asset that compounds. Two of those and the next conversation is much easier.</p>
+<p>Get hired into an aerospace programme on the strength of transferable method competence, expect to re-qualify under the employer’s SNT-TC-1A-based written practice and customer flow-down, start on the method with the highest volume (usually penetrant or eddy current), and treat programme-specific OEM approvals as the asset that compounds. Two of those and the next conversation is much easier.</p>
 `,
   },
 ];

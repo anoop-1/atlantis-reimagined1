@@ -307,7 +307,7 @@ export const US_MARKETS = {
   seattle: {
     name: 'Seattle', type: 'aerospace',
     base: 'Puget Sound\'s inspection market is aerospace-first — the airframer\'s plants and their supplier web — layered over shipyards, the ports of Seattle and Tacoma, and the refineries up at Anacortes and Cherry Point.',
-    work: 'Aerospace examination under the customer-specified aerospace standard and Nadcap expectations, ship repair and naval work at the yards, port equipment surveys, and refinery programmes north along the sound.',
+    work: 'Aerospace examination under prime flow-down and Nadcap expectations, ship repair and naval work at the yards, port equipment surveys, and refinery programmes north along the sound.',
     anchor: 'the airframe plants at Everett and Renton, the shipyards at Bremerton and Harbor Island, and the refineries near Anacortes',
   },
   portland: {

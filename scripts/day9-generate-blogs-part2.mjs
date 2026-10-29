@@ -146,7 +146,7 @@ BLOGS.push(blog({
   category: 'Certifications',
   quickAnswer: {
     question: '',
-    answer: 'It defines Level I, II, and III qualification for ultrasonic, radiographic, magnetic particle, liquid penetrant, eddy current, and visual inspection of aerospace parts. Administered via the National Aerospace NDT Board (NANDTB) in the US; equivalent to EN 4179 in Europe via formal recognition by Aerospace Industries Association of Europe.',
+    answer: 'It defines Level I, II, and III qualification for ultrasonic, radiographic, magnetic particle, liquid penetrant, eddy current, and visual inspection of aerospace parts. In the US, aerospace employers certify personnel under their own written practices, which Atlantis builds on ASNT SNT-TC-1A aligned to prime flow-down and Nadcap AC7114; EN 4179 applies in Europe.',
     bullets: [
       
       'Level II = independent perform + interpret; Level III = procedure approval + Level I/II certify',
@@ -160,7 +160,7 @@ BLOGS.push(blog({
 <ul>
   <li><strong>Level I:</strong> performs NDT under written instructions of a Level II or III; sets up equipment; records data; cannot interpret or sign-off. Typical 40 hrs UT, 40 hrs RT, 12 hrs MT, 8 hrs PT, 40 hrs ET, 8 hrs VT.</li>
   <li><strong>Level II:</strong> performs, interprets, and signs off on NDT inspection; certifies Level I personnel; develops technique sheets under Level III supervision. Additional 40+ training hrs beyond Level I; 1,200–2,000 OJT hrs depending on method.</li>
-  <li><strong>Level III:</strong> approves NDT procedures; certifies Level I/II personnel; represents employer to NANDTB.</li>
+  <li><strong>Level III:</strong> approves NDT procedures; certifies Level I/II personnel; represents employer to Nadcap auditors.</li>
 </ul>
 
 <h2>Eye Test and Color Perception — § 7.7</h2>
@@ -191,7 +191,7 @@ ${A.ut} (UT) — pulse-echo, phased-array, TOFD for forging and casting inspecti
   <li>OJT or refresher training documented</li>
   <li>Practical re-exam (may be waived if continuous employment and recent inspection records demonstrate proficiency)</li>
 </ul>
-<p>Level III recertify by ASNT exam (open exam every 5 years), or by re-examination at the employer with NANDTB-approved exam content, or by a combination of OJT + training credit.</p>
+<p>Level III recertify by ASNT exam (open exam every 5 years), or by re-examination at the employer under its SNT-TC-1A-based written practice, or by a combination of OJT + training credit.</p>
 
 <h2>NDT 2 Pri-Lev1 — Boeing's Layered Requirement</h2>
 <p>Other primes maintain similar overlays — Lockheed (LM Aero Quality Notes), Pratt &amp; Whitney (PWA documents), GE Aviation (GE-AS Plant Specifications).</p>
@@ -212,8 +212,8 @@ ${A.ut} (UT) — pulse-echo, phased-array, TOFD for forging and casting inspecti
 <h3>Q5: How often must I recertify?</h3>
 <p>Continuous employment in the method waives the re-exam in most cases; a gap &gt; 1 year forces re-examination. Annual eye test is non-negotiable — miss it once, suspended until re-tested.</p>
 <p><strong>A:</strong> Aerospace pays ~15–30 % more than general industry for the same method/level — see ${A.salary} for current verified figures. The premium reflects tighter prime-contractor audits, stricter cert maintenance, and higher liability exposure. Level III aerospace NDT engineers in the US run $140–180K base.</p>
-<h3>Q8: How do I find NANDTB-listed Level III consultants?</h3>
-<p><strong>A:</strong> NANDTB publishes the listed-Level-III directory at nandtb.com. Many aerospace MROs without an in-house Level III contract with listed consultants. Atlantis NDT runs Level III procedure-approval + audit-support for aerospace operators in the US, Middle East, and India.</p>
+<h3>Q8: How do I find an ASNT Level III consultant for aerospace NDT?</h3>
+<p><strong>A:</strong> Start with an ASNT NDT Level III certified in each method you use. Many aerospace MROs without an in-house Level III contract with listed consultants. Atlantis NDT runs Level III procedure-approval + audit-support for aerospace operators in the US, Middle East, and India.</p>
 ${FOOTER([A.sntTcOnePost, A.asnt, A.salary])}`,
 }));
 
@@ -321,7 +321,7 @@ BLOGS.push(blog({
 <p><strong>A:</strong> Both schemes: training course (1–2 weeks per method per level) + 6–18 months OJT (depending on hours/week) + exam. Total path from zero to UT Level II: ~12–18 months under either scheme.</p>
 <h3>Q5: Are SNT-TC-1A and ISO 9712 both accepted on offshore platforms?</h3>
 <p><strong>A:</strong> Depends on the project. North Sea (UK / Norway) → PCN / ISO 9712 mandatory. Gulf of Mexico → SNT-TC-1A. Brazilian Petrobras → SNT-TC-1A. UAE / Saudi → either, often both required by contract.</p>
-<p>Both share the Level I/II/III structure with SNT-TC-1A + ISO 9712 but layer stricter eye-test + recertification + NANDTB-graded Level III exam. Aerospace inspectors typically hold ${A.sntTcOnePost}</p>
+<p>Aerospace written practices keep the SNT-TC-1A + ISO 9712 Level I/II/III structure but layer stricter eye-test, recertification and Level III exam rules from prime flow-down. Aerospace inspectors typically hold ${A.sntTcOnePost}</p>
 <h3>Q7: Can I hold BOTH schemes simultaneously?</h3>
 <p><strong>A:</strong> Yes. Most senior multi-region inspectors do. ${A.level3} runs employer cohorts that satisfy both schemes' training-hour + exam minimums in a single intensive program — common path for inspectors moving between MENA, Europe, and global EPC contracts.</p>
 <p><strong>A:</strong> Different layer. ASNT + ISO 9712 + EN 4179 = METHOD certifications (UT, RT, MT, PT, ET, VT). API ICP (${A.api510}, ${A.api570}, ${A.api653}) and AWS CWI are INSPECTION / CODE certifications layered on top. A typical senior refining inspector holds: SNT-TC-1A Level II in UT+RT+MT+PT + API 510 + API 570 + sometimes AWS CWI.</p>

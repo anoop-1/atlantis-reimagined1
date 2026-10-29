@@ -1610,7 +1610,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     localIndustryUseCases: [
       "BHEL power-boiler digital twins with high-temperature creep and thermal-fatigue damage-mechanism profiles.",
       "HPCL Visakh refinery-unit digital twins operated from Hyderabad engineering centres with remote trend review.",
-      "Defence-supplier aerospace component digital twins under the customer-specified aerospace standard with NDT-traceable inspection records.",
+      "Defence-supplier aerospace component digital twins under SNT-TC-1A-based written practices with NDT-traceable inspection records.",
     ],
     localCompliance: ["AERB", "IBR 1950", "PESO"],
     localCaseStudy: "",
@@ -1706,7 +1706,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     localIndustryUseCases: [
       "Power-station and nuclear-supply-chain vessel digital twins with ONR-traceable inspection evidence.",
       "London-area industrial pressure-system digital twins with PSSR 2000 written-scheme-of-examination integration.",
-      "Aerospace Part-145 component digital twins under the customer-specified aerospace standard with NDT-traceable records.",
+      "Aerospace Part-145 component digital twins under SNT-TC-1A-based written practices with NDT-traceable records.",
     ],
     localCompliance: ["HSE UK", "ONR (nuclear)", "PSSR 2000", "EASA Part-145"],
     localCaseStudy: "A London-headquartered consultancy used the Atlantis NDT Digital Twin to aggregate Hinkley Point supply-chain NDT records across 14 pressure-vessel components and delivered an ONR-acceptable integrity submission 3 weeks ahead of schedule — the customer (a Tier-1 nuclear EPC) has since adopted the platform as its audit-evidence standard.",

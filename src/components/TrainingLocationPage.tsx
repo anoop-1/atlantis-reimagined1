@@ -486,7 +486,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               {profile.certPathwayNote}
             </p>
             <p className="text-sm text-muted-foreground max-w-2xl mx-auto mt-3">
-              Atlantis trains and examines to ASNT SNT-TC-1A only. Any other
+              Atlantis trains and examines to ASNT SNT-TC-1A. Any other
               scheme shown below is context — what some local employers also
               ask for — and is sat separately through its own body.
             </p>

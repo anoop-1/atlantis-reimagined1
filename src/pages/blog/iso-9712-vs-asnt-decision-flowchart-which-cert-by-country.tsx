@@ -340,8 +340,8 @@ export default function ISO9712VsASNTDecisionFlowchartByCountry() {
                                 <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-amber-900 text-lg mb-2">The aerospace override</h4>
-                                    <p className="text-amber-900 text-sm mb-2">If you are inspecting aircraft primary structure, engine components, or anything that falls under NADCAP AC7114 — neither ISO 9712 nor ASNT SNT-TC-1A is sufficient on its own. The governing documents are the customer-specified aerospace standard in the US and <strong>EN 4179</strong> in Europe. Both Boeing and Airbus reference these directly in their NDT requirements.</p>
-                                    <p className="text-amber-900 text-sm">Aerospace personnel standards typically require Outside Agency Qualification (OAQ) with practical exams scored against industry-standard specimens.</p>
+                                    <p className="text-amber-900 text-sm mb-2">If you are inspecting aircraft primary structure, engine components, or anything that falls under NADCAP AC7114 — neither ISO 9712 nor ASNT SNT-TC-1A is sufficient on its own. The governing documents are Nadcap AC7114 and the primes’ own NDT specifications in the US and <strong>EN 4179</strong> in Europe. Both Boeing and Airbus reference these directly in their NDT requirements.</p>
+                                    <p className="text-amber-900 text-sm">Aerospace written practices often call for Outside Agency Qualification (OAQ) with practical exams scored against industry-standard specimens.</p>
                                 </div>
                             </div>
                         </div>

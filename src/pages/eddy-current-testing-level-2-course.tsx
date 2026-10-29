@@ -82,7 +82,7 @@ const data: MethodCourseData = {
     {
       question: "Is ET Level 2 training relevant for aerospace work?",
       answer:
-        "Yes for the method — eddy current is a core method on aerospace components, and the fundamentals taught in this course apply. The certification is a separate matter: Atlantis trains to ASNT SNT-TC-1A only, while aerospace employers certify to the customer-specified aerospace standard (EN 4179 in Europe) under their own written practice through a Responsible Level 3, who decides whether SNT-TC-1A hours count.",
+        "Yes for the method — eddy current is a core method on aerospace components, and the fundamentals taught in this course apply. Certification stays with the employer: Atlantis delivers ASNT SNT-TC-1A-based training, aerospace included, and aerospace employers certify under their own written practice (EN 4179 in Europe) through a Responsible Level 3, who decides how SNT-TC-1A hours count.",
     },
     {
       question: "How many hours does the ET Level 2 course take?",

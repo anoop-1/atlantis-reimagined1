@@ -416,7 +416,7 @@
     },
     "covers": {
       "h2": "What our NDT Level III consulting covers",
-      "p": "Written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189; NDT procedures and technique sheets approved within the Level III's certified methods; personnel qualification, examinations and vision-test records; and audit preparation and responses for customer, supplier and ISO-style audits. Aerospace programmes under the customer-specified aerospace standard are covered by our ASNT NDT Level III consulting, described further down this page.",
+      "p": "Written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189; NDT procedures and technique sheets approved within the Level III's certified methods; personnel qualification, examinations and vision-test records; and audit preparation and responses for customer, supplier and ISO-style audits. Aerospace written practices built on SNT-TC-1A and aligned to customer flow-down and Nadcap AC7114 are covered by our ASNT NDT Level III consulting, described further down this page.",
       "links": [
         {
           "label": "NDT consulting services",
@@ -553,7 +553,7 @@
         },
         {
           "q": "Does an outside Level III cover a Nadcap audit?",
-          "a": "A designated Responsible Level 3 satisfies the personnel-authority requirement under the customer-specified aerospace standard, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results: vision test currency, OJT documentation and retained examination papers remain the employer's responsibility."
+          "a": "A designated Responsible Level 3 satisfies the personnel-authority requirement that AC7114 assesses against prime flow-down and the employer’s written practice. It does not by itself close the record findings that generate most Nadcap results: vision test currency, OJT documentation and retained examination papers remain the employer's responsibility."
         },
         {
           "q": "Can a fractional Level III sign off on new inspection procedures?",

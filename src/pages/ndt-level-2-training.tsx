@@ -248,7 +248,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  ASNT 9712 earns its value when a client, contract or international employer specifies ISO 9712-based certification, and for technicians who expect to work across employers or countries. US aerospace work usually runs under the customer-specified aerospace standard rather than either ASNT scheme.
+                  ASNT 9712 earns its value when a client, contract or international employer specifies ISO 9712-based certification, and for technicians who expect to work across employers or countries. US aerospace work runs under employer written practices, which Atlantis builds on ASNT SNT-TC-1A, aligned to prime flow-down and Nadcap AC7114.
                 </p>
               </CardContent>
             </Card>

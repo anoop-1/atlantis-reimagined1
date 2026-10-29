@@ -1559,7 +1559,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Quebec industrial work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group. Aerospace employers qualify NDT staff to the customer-specified aerospace standard under their own programmes, and some aerospace postings accept ASNT alongside CAN/CGSB-48.9712.",
+      "Quebec industrial work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group. Aerospace employers qualify NDT staff under their own written practices, aligned to customer flow-down and Nadcap AC7114, and some aerospace postings accept ASNT alongside CAN/CGSB-48.9712.",
     salary: {
       currency: "CAD",
       levelI: "CAD 52,000–68,000/year",
@@ -1609,7 +1609,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard. The Canadian General Standards Board, which published it, ceased operations on April 1, 2026; certificates are issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group, and NRCan says its certification services continue without change. Aerospace composite and engine-MRO employers commonly qualify NDT staff to the customer-specified aerospace standard under their own programmes, and some postings accept ASNT alongside CAN/CGSB-48.9712.",
+      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard. The Canadian General Standards Board, which published it, ceased operations on April 1, 2026; certificates are issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group, and NRCan says its certification services continue without change. Aerospace composite and engine-MRO employers commonly qualify NDT staff under their own written practices, aligned to customer flow-down and Nadcap AC7114, and some postings accept ASNT alongside CAN/CGSB-48.9712.",
     salary: {
       currency: "CAD",
       levelI: "CAD 50,000–66,000/year",

@@ -3851,7 +3851,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Cincinnati": {
     "contractors": "Cincinnati's NDT demand is anchored by GE Aviation's Evendale jet-engine campus (one of the largest aerospace NDT users in the US), Duke Energy's Zimmer Power Station, and Procter & Gamble's manufacturing sites. Mistras Group and Acuren both operate Cincinnati-area service centers supporting turbine-component RT/UT/FPI and power-plant tube inspection; TEAM Industrial Services also serves the greater Cincinnati-Dayton industrial corridor.",
-    "regulators": "Ohio's Department of Commerce, Division of Industrial Compliance administers the statutory Boiler and Pressure Vessel program; OSHA Region 5 enforces PSM and general industry standards. Aerospace NDT at GE Aviation Evendale falls under FAA oversight and AS9100 quality requirements. Cincinnati inspectors certify under ASNT SNT-TC-1A, with aerospace technicians additionally qualified to the customer-specified aerospace standard.",
+    "regulators": "Ohio's Department of Commerce, Division of Industrial Compliance administers the statutory Boiler and Pressure Vessel program; OSHA Region 5 enforces PSM and general industry standards. Aerospace NDT at GE Aviation Evendale falls under FAA oversight and AS9100 quality requirements. Cincinnati inspectors certify under ASNT SNT-TC-1A, with aerospace written practices also aligned to customer flow-down and Nadcap AC7114.",
     "currencyExample": {
       "currency": "USD",
       "amount": "Quote on request",
@@ -3907,7 +3907,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "El Segundo": {
     "contractors": "El Segundo hosts Chevron's El Segundo Refinery, one of the largest on the US West Coast, alongside a dense aerospace corridor including Raytheon/RTX, The Aerospace Corporation, and Los Angeles Air Force Base (Space Systems Command). Acuren and Mistras Group both operate South Bay Los Angeles service centers supporting refinery turnaround UT/RT and aerospace weld/casting NDT; TEAM Industrial Services also serves the LA Basin.",
-    "regulators": "CalGEM regulates upstream well integrity; Cal/OSHA's Pressure Vessel Unit administers statutory vessel inspection and PSM enforcement under Title 8 CCR 5189; the South Coast Air Quality Management District governs refinery emissions permitting. El Segundo inspectors certify under ASNT SNT-TC-1A, with aerospace technicians additionally qualified to the customer-specified aerospace standard.",
+    "regulators": "CalGEM regulates upstream well integrity; Cal/OSHA's Pressure Vessel Unit administers statutory vessel inspection and PSM enforcement under Title 8 CCR 5189; the South Coast Air Quality Management District governs refinery emissions permitting. El Segundo inspectors certify under ASNT SNT-TC-1A, with aerospace written practices also aligned to customer flow-down and Nadcap AC7114.",
     "currencyExample": {
       "currency": "USD",
       "amount": "Quote on request",
@@ -4175,7 +4175,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Seattle": {
     "contractors": "Seattle's metro area is anchored by Boeing's Everett and Renton final-assembly plants (among the largest aerospace NDT operations in the world), alongside Shell's Puget Sound Refinery (Anacortes), Marathon Petroleum's (formerly Andeavor) Anacortes Refinery, and BP's Cherry Point Refinery near Blaine. Mistras Group and Acuren both maintain Puget Sound service centers supporting refinery turnaround UT/RT and aerospace weld/composite NDT; TEAM Industrial Services also serves the region.",
-    "regulators": "Washington's Department of Labor & Industries (L&I) administers statutory boiler and pressure vessel inspection and operates its own federally approved OSHA state plan (WISHA); the Washington State Department of Ecology governs refinery air/water permitting. Aerospace NDT at Boeing falls under FAA oversight and AS9100 quality requirements. Seattle-area inspectors certify under ASNT SNT-TC-1A, with aerospace technicians additionally qualified to the customer-specified aerospace standard.",
+    "regulators": "Washington's Department of Labor & Industries (L&I) administers statutory boiler and pressure vessel inspection and operates its own federally approved OSHA state plan (WISHA); the Washington State Department of Ecology governs refinery air/water permitting. Aerospace NDT at Boeing falls under FAA oversight and AS9100 quality requirements. Seattle-area inspectors certify under ASNT SNT-TC-1A, with aerospace written practices also aligned to customer flow-down and Nadcap AC7114.",
     "currencyExample": {
       "currency": "USD",
       "amount": "Quote on request",
@@ -4788,7 +4788,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Fort Worth": {
     "contractors": "Fort Worth hosts Lockheed Martin's F-35 Lightning II final assembly plant, the largest fighter-aircraft production line in the world, and Bell Textron's helicopter manufacturing headquarters. Aerospace-focused NDT is supplied by Lockheed Martin's own Level II/III inspection workforce, NDE Labs, and Nadcap-accredited third-party providers performing UT, RT, PT and eddy current inspection on airframe structures and composites.",
-    "regulators": "The FAA regulates airworthiness and quality systems for Fort Worth's aerospace manufacturers under 14 CFR Part 21; TDLR administers the Texas Boiler Law for ancillary pressure equipment; OSHA Region VI covers general industry safety. Aerospace NDT personnel in Fort Worth certify under the customer-specified aerospace standard alongside ASNT SNT-TC-1A written practices, both referenced in Lockheed Martin and Bell supplier quality manuals.",
+    "regulators": "The FAA regulates airworthiness and quality systems for Fort Worth's aerospace manufacturers under 14 CFR Part 21; TDLR administers the Texas Boiler Law for ancillary pressure equipment; OSHA Region VI covers general industry safety. Aerospace NDT personnel in Fort Worth certify under ASNT SNT-TC-1A written practices aligned to the flow-down in Lockheed Martin and Bell supplier quality manuals.",
     "currencyExample": {
       "currency": "USD",
       "amount": "Quote on request",
@@ -4986,7 +4986,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Orlando": {
     "contractors": "Orlando hosts Lockheed Martin's Missiles and Fire Control campus, developing missile-defense and rotary/mission systems, alongside Kaman Precision Products' manufacturing facility. National Inspection and Consultants (Nadcap NDT and AS9100 accredited, approved by Lockheed Martin, Boeing, Northrop Grumman, Pratt & Whitney and Safran), Arcadia Aerospace Industries and Trident NDT Services supply UT, RT, PT and ET crews for aerospace component inspection across the metro.",
-    "regulators": "The FAA regulates airworthiness and production quality for Orlando's aerospace manufacturers under 14 CFR Part 21; the Florida Bureau of Fire Prevention (Boiler Safety Program, under the State Fire Marshal) administers statutory pressure-vessel inspection for ancillary equipment; OSHA Region IV covers general industry safety. Orlando aerospace NDT personnel certify under the customer-specified aerospace standard alongside ASNT SNT-TC-1A written practices.",
+    "regulators": "The FAA regulates airworthiness and production quality for Orlando's aerospace manufacturers under 14 CFR Part 21; the Florida Bureau of Fire Prevention (Boiler Safety Program, under the State Fire Marshal) administers statutory pressure-vessel inspection for ancillary equipment; OSHA Region IV covers general industry safety. Orlando aerospace NDT personnel certify under ASNT SNT-TC-1A written practices aligned to customer flow-down and Nadcap AC7114.",
     "currencyExample": {
       "currency": "USD",
       "amount": "Quote on request",
@@ -5050,7 +5050,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Savannah": {
     "contractors": "Savannah is anchored by Gulfstream Aerospace's headquarters and manufacturing/repair-station complex, one of the region's largest employers, alongside the Georgia Ports Authority's Port of Savannah — one of the busiest container ports in the US — and the new Hyundai Metaplant America EV facility in nearby Bryan County. TN NDT supplies ultrasonic, magnetic particle, liquid penetrant, eddy current and radiographic inspection to Savannah manufacturers, alongside Gulfstream's own in-house NDT Level I-III workforce.",
-    "regulators": "The FAA regulates airworthiness and repair-station quality for Gulfstream under 14 CFR Part 145; the Georgia Office of Insurance and Safety Fire Commissioner's Boiler Inspection unit administers statutory pressure-equipment inspection; OSHA Region IV covers general industry safety at Savannah's port and manufacturing facilities. Savannah aerospace NDT personnel certify under the customer-specified aerospace standard alongside ASNT SNT-TC-1A written practices.",
+    "regulators": "The FAA regulates airworthiness and repair-station quality for Gulfstream under 14 CFR Part 145; the Georgia Office of Insurance and Safety Fire Commissioner's Boiler Inspection unit administers statutory pressure-equipment inspection; OSHA Region IV covers general industry safety at Savannah's port and manufacturing facilities. Savannah aerospace NDT personnel certify under ASNT SNT-TC-1A written practices aligned to customer flow-down and Nadcap AC7114.",
     "currencyExample": {
       "currency": "USD",
       "amount": "Quote on request",

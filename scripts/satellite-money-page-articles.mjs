@@ -213,7 +213,7 @@ const ARTICLES = [
       <p>Suppliers preparing for a Nadcap NDT audit tend to over-prepare the technical demonstration and under-prepare the records. The distribution of findings suggests that is backwards.</p>
 
       <h2>Personnel currency</h2>
-      <p>Under the customer-specified aerospace standard the employer certifies against a written practice, with a designated Level 3, documented training and experience hours, and annual vision examinations. Findings cluster here for the same reason they cluster everywhere: the vision examination runs on a shorter cycle than the method certification it supports, and nothing in a typical process checks the two against each other at the moment work is assigned.</p>
+      <p>Under an SNT-TC-1A-based aerospace written practice aligned to customer flow-down, the employer certifies its personnel, with a designated Level 3, documented training and experience hours, and annual vision examinations. Findings cluster here for the same reason they cluster everywhere: the vision examination runs on a shorter cycle than the method certification it supports, and nothing in a typical process checks the two against each other at the moment work is assigned.</p>
       <p>The structural fix is the same one used in the pressure-equipment world — make currency a condition of assignment rather than a report someone reviews monthly. Systems that <a href="https://atlantisndt.com/erp-modules/certification-tracking" target="_blank" rel="noopener">track certification currency and block assignment when anything lapses</a> remove the failure mode instead of monitoring it.</p>
 
       <h2>Process control on the technique sheet, not the procedure</h2>

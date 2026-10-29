@@ -493,7 +493,7 @@ const TOPIC_PROFILES = {
         keywords: ['engine disk inspection', 'eddy current array', 'aero engine NDT', 'rotating component NDT'],
         focus: 'engine',
         date: '2025-05-06',
-        author: 'Capt. Russell Fairchild, NANDTB Level III',
+        author: 'Capt. Russell Fairchild, NDT Level III',
       },
       {
         slug: 'nadcap-audit-readiness-aerospace-ndt-shop',
@@ -511,7 +511,7 @@ const TOPIC_PROFILES = {
         keywords: ['FPI process control', 'fluorescent penetrant aerospace', 'ASTM E1417', 'FPI line'],
         focus: 'fpi',
         date: '2026-03-30',
-        author: 'Capt. Russell Fairchild, NANDTB Level III',
+        author: 'Capt. Russell Fairchild, NDT Level III',
       },
     ],
   },

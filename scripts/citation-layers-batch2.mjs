@@ -86,7 +86,7 @@ export const CITATION_LAYERS_BATCH2 = {
       { q: 'Our Level III resigned — what happens to our certifications?', a: 'Existing certifications remain valid, but the authority that approved them has gone. Until a replacement Level III is designated, no new personnel can be qualified, no procedure can be approved, and the next audit will ask who currently holds that authority. Designating an interim outside Level III closes the gap.' },
       { q: 'Is an outside Level III cheaper than hiring one?', a: 'For most contractors below roughly fifteen technicians, yes, because a staff Level III is a full salary against intermittent demand — written practice review, procedure approvals, examination cycles and audits. The comparison turns on qualification frequency rather than headcount alone.' },
       
-      { q: 'Does an outside Level III cover a Nadcap audit?', a: 'A designated Responsible Level 3 satisfies the personnel-authority requirement under the customer-specified aerospace standard, which AC7114 assesses. It does not by itself close the record findings that generate most Nadcap results — vision test currency, OJT documentation and retained examination papers remain the employer responsibility.' },
+      { q: 'Does an outside Level III cover a Nadcap audit?', a: 'A designated Responsible Level 3 satisfies the personnel-authority requirement that AC7114 assesses against prime flow-down and the employer’s written practice. It does not by itself close the record findings that generate most Nadcap results — vision test currency, OJT documentation and retained examination papers remain the employer responsibility.' },
     ],
   },
 
