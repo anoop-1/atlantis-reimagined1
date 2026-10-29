@@ -107,7 +107,7 @@ const whyIndia = [
     {
         icon: Award,
         title: "ASNT SNT-TC-1A Training (ISNT Explained)",
-        description: "Atlantis NDT trains to ASNT SNT-TC-1A only, the scheme most private-sector international employers ask for. ISNT (Indian Society for Non-Destructive Testing) certification, often specified for Indian PSU (Public Sector Undertaking) positions, is obtained through ISNT itself."
+        description: "Atlantis NDT trains to ASNT SNT-TC-1A, the scheme most private-sector international employers ask for. ISNT (Indian Society for Non-Destructive Testing) certification, often specified for Indian PSU (Public Sector Undertaking) positions, is obtained through ISNT itself."
     },
     {
         icon: DollarSign,
@@ -157,7 +157,7 @@ const certificationPath = [
 const faqs = [
     {
         question: "Is ASNT certification valid in India?",
-        answer: "Yes, ASNT certification is widely recognised in India across oil & gas, power generation, and manufacturing industries. International companies and export-oriented Indian companies generally prefer ASNT. Atlantis trains to ASNT SNT-TC-1A only; ISNT and ISO 9712 certifications are obtained through their own certification bodies."
+        answer: "Yes, ASNT certification is widely recognised in India across oil & gas, power generation, and manufacturing industries. International companies and export-oriented Indian companies generally prefer ASNT. Atlantis trains to ASNT SNT-TC-1A; ISNT and ISO 9712 certifications are obtained through their own certification bodies."
     },
     {
         question: "Which cities have training centers?",
@@ -169,7 +169,7 @@ const faqs = [
     },
     {
         question: "ISNT vs ASNT — which certification is better for PSU jobs in India?",
-        answer: "For Indian PSU (Public Sector Undertaking) jobs at ONGC, BPCL, IOCL, BHEL, and similar organisations, ISNT certification is typically specified in job postings and tender documents. For private sector, international contractors, and export-oriented roles, ASNT SNT-TC-1A is preferred. Many technicians hold both. Atlantis trains to ASNT SNT-TC-1A only; ISNT certification is obtained through ISNT."
+        answer: "For Indian PSU (Public Sector Undertaking) jobs at ONGC, BPCL, IOCL, BHEL, and similar organisations, ISNT certification is typically specified in job postings and tender documents. For private sector, international contractors, and export-oriented roles, ASNT SNT-TC-1A is preferred. Many technicians hold both. Atlantis trains to ASNT SNT-TC-1A; ISNT certification is obtained through ISNT."
     },
     {
         question: "Is BARC certification needed for nuclear sector NDT work in India?",
@@ -327,7 +327,7 @@ export default function NDTTrainingIndia() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-muted-foreground mt-4">Level III training is advanced and requires prior Level II certification. Duration varies by method. Atlantis trains to ASNT SNT-TC-1A only; ISNT certification is obtained through ISNT.</p>
+                    <p className="text-xs text-muted-foreground mt-4">Level III training is advanced and requires prior Level II certification. Duration varies by method. Atlantis trains to ASNT SNT-TC-1A; ISNT certification is obtained through ISNT.</p>
                 </div>
             </section>
 

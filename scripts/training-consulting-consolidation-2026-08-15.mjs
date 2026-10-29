@@ -63,7 +63,7 @@ const CITY_SCOPE = {
   seattle: {
     name: 'Seattle', state: 'Washington',
     local: 'aerospace manufacturing and its supply chain, the Puget Sound shipyards and naval facilities, and the refining and marine terminals north of the city',
-    regime: 'Customer aerospace personnel requirements on the aerospace side, naval technical requirements at the yards, and ASME with Washington jurisdictional oversight on pressure equipment',
+    regime: 'SNT-TC-1A-based written practices with the primes’ flow-down on the aerospace side, naval technical requirements at the yards, and ASME with Washington jurisdictional oversight on pressure equipment',
   },
   houston: {
     name: 'Houston', state: 'Texas',

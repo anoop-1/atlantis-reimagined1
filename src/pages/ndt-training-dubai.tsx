@@ -159,7 +159,7 @@ const certificationPath = [
 const faqs = [
     {
         question: "Is ASNT certification recognised in UAE?",
-        answer: "Yes, ASNT SNT-TC-1A is widely recognised across the UAE oil & gas industry by ADNOC, its subsidiaries, and the entire network of international contractors operating in the region. Atlantis NDT trains to ASNT SNT-TC-1A only; ISO 9712 and PCN are sat through their own certification bodies."
+        answer: "Yes, ASNT SNT-TC-1A is widely recognised across the UAE oil & gas industry by ADNOC, its subsidiaries, and the entire network of international contractors operating in the region. Atlantis NDT trains to ASNT SNT-TC-1A; ISO 9712 and PCN are sat through their own certification bodies."
     },
     {
         question: "Where does training take place?",

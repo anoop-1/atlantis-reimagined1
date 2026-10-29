@@ -183,7 +183,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       ],
       [
         "Does Atlantis provide ISO 9712 or PCN certification training?",
-        "No. The Certificates app can record ISO 9712, PCN and CSWIP certificates your technicians hold, but Atlantis training programs are based on ASNT SNT-TC-1A only."
+        "No. The Certificates app can record ISO 9712, PCN and CSWIP certificates your technicians hold, but Atlantis training programs are based on ASNT SNT-TC-1A."
       ]
     ]
   },

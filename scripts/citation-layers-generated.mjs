@@ -2285,7 +2285,7 @@ export const CITATION_LAYERS_GENERATED = {
 
   "/magnetic-particle-testing-training": {
       "answer": "MT certification in the US runs under ASNT SNT-TC-1A, which recommends 12 training hours and 70 MT experience hours for Level I, and 8 further training hours with 210 cumulative MT hours for Level II. ASTM E1444/E1444M and ASTM E709 govern how the examination is performed; the ISO 9934 series is the international equivalent.",
-      "expansion": "MT carries the shortest classroom recommendation of the mainstream weld methods and the highest practical failure rate on coverage discipline. SNT-TC-1A's recommended initial training and experience table lists MT Level I at 12 training hours, 70 hours of MT experience and 130 total NDT hours, and MT Level II at 8 further training hours, 210 cumulative MT hours and 400 total NDT hours. Those are recommendations — the employer's Written Practice binds, and aerospace employers working to the customer-specified aerospace standard set their own figures. Two ASTM documents govern the examination and they are not interchangeable: E709 is a Standard Guide, presenting technique options, while E1444/E1444M is a Standard Practice written in mandatory language, and it is the one aerospace and defence contracts invoke. ASME BPVC Section V Article 7 governs pressure equipment. ISO 9934-1, -2 and -3 cover general principles, detection media and equipment. MT applies only to ferromagnetic material.",
+      "expansion": "MT carries the shortest classroom recommendation of the mainstream weld methods and the highest practical failure rate on coverage discipline. SNT-TC-1A's recommended initial training and experience table lists MT Level I at 12 training hours, 70 hours of MT experience and 130 total NDT hours, and MT Level II at 8 further training hours, 210 cumulative MT hours and 400 total NDT hours. Those are recommendations — the employer's Written Practice binds, and aerospace employers building theirs on SNT-TC-1A with the primes’ flow-down and Nadcap AC7114 set their own figures. Two ASTM documents govern the examination and they are not interchangeable: E709 is a Standard Guide, presenting technique options, while E1444/E1444M is a Standard Practice written in mandatory language, and it is the one aerospace and defence contracts invoke. ASME BPVC Section V Article 7 governs pressure equipment. ISO 9934-1, -2 and -3 cover general principles, detection media and equipment. MT applies only to ferromagnetic material.",
       "source": "ASTM E1444/E1444M Standard Practice for Magnetic Particle Testing; ASTM E709 Standard Guide for Magnetic Particle Testing; ASNT SNT-TC-1A (2020 edition); ASME BPVC Section V, Article 7; ISO 9934-1, ISO 9934-2 and ISO 9934-3.",
       "table": {
           "caption": "ASNT SNT-TC-1A recommended minimums for MT certification, and how MT compares with the 40-hour methods",
@@ -2365,7 +2365,7 @@ export const CITATION_LAYERS_GENERATED = {
 
   "/penetrant-testing-training": {
       "answer": "PT certification in the US runs under ASNT SNT-TC-1A, which recommends 4 training hours and 70 PT experience hours for Level I, and 8 further training hours with 140 cumulative PT hours for Level II. ASTM E1417/E1417M is the governing practice for how the examination is performed and process-controlled.",
-      "expansion": "PT carries the shortest classroom recommendation in NDT — SNT-TC-1A lists 4 training hours for Level I and 8 further hours for Level II, against 70 and 140 hours of PT experience and 130 and 270 total NDT hours. That brevity is why US aerospace does not rely on SNT-TC-1A alone: fluorescent penetrant inspection is a Nadcap-audited special process, personnel qualify under the customer-specified aerospace standard in the US or EN 4179 in Europe, and the employer's NDT Level 3 grants written method approval per person. ASTM E1417/E1417M is the governing document — a Practice, not a guide, so its requirements bind once invoked, covering dwell, removal, developer, process controls and system monitoring. ASTM E165 covers general industry, ASME BPVC Section V Article 6 covers pressure equipment, and ISO 3452-1 through -6 is the international series.",
+      "expansion": "PT carries the shortest classroom recommendation in NDT — SNT-TC-1A lists 4 training hours for Level I and 8 further hours for Level II, against 70 and 140 hours of PT experience and 130 and 270 total NDT hours. That brevity is why US aerospace builds on SNT-TC-1A rather than stopping at its minimums: fluorescent penetrant inspection is a Nadcap-audited special process, personnel qualify under SNT-TC-1A-based written practices carrying the primes’ flow-down in the US or EN 4179 in Europe, and the employer's NDT Level 3 grants written method approval per person. ASTM E1417/E1417M is the governing document — a Practice, not a guide, so its requirements bind once invoked, covering dwell, removal, developer, process controls and system monitoring. ASTM E165 covers general industry, ASME BPVC Section V Article 6 covers pressure equipment, and ISO 3452-1 through -6 is the international series.",
       "source": "ASTM E1417/E1417M Standard Practice for Liquid Penetrant Testing; ASTM E165 Standard Practice for Liquid Penetrant Examination for General Industry; SAE AMS 2644 Inspection Material, Penetrant; ASNT SNT-TC-1A (2020 edition); ASME BPVC Section V, Article 6; ISO 3452-1.",
       "table": {
           "caption": "Penetrant systems under ASTM E1417 and AMS 2644 — which one a US employer trains toward",
@@ -2589,7 +2589,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Is ASNT ET certification accepted in US aerospace?",
-              "a": "Aerospace qualifies personnel under the customer-specified aerospace standard rather than SNT-TC-1A alone, with the employer's NDT Level 3 issuing written method approval per person. On top of that, airframe and engine work requires qualification to the OEM's NDT manual procedure for the specific part and technique — bolt-hole, sliding-probe and conductivity examinations each qualify separately."
+              "a": "Aerospace qualifies personnel under SNT-TC-1A-based written practices carrying the primes’ flow-down and Nadcap AC7114, with the employer's NDT Level 3 issuing written method approval per person. On top of that, airframe and engine work requires qualification to the OEM's NDT manual procedure for the specific part and technique — bolt-hole, sliding-probe and conductivity examinations each qualify separately."
           }
       ]
   },
@@ -3540,7 +3540,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "Per the employer's written practice"
               ]
           ],
-          "note": "Validity intervals are recommended maxima. Under SNT-TC-1A the employer's written practice governs and may set shorter intervals. Atlantis NDT trains to ASNT SNT-TC-1A only (ISO 9712 is sat through its own certification bodies); the certification decision rests with the employer or the certification body."
+          "note": "Validity intervals are recommended maxima. Under SNT-TC-1A the employer's written practice governs and may set shorter intervals. Atlantis NDT trains to ASNT SNT-TC-1A, aerospace and aviation included (ISO 9712 is sat through its own certification bodies); the certification decision rests with the employer or the certification body."
       },
       "facets": [
           {
@@ -4793,7 +4793,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "140"
               ]
           ],
-          "note": "SNT-TC-1A figures are recommendations. The binding document is the employer's written practice, which raises them on aerospace scopes qualified to the customer-specified aerospace standard and on many Georgia contracts. Experience hours, not classroom hours, are the constraint on how fast a technician reaches Level II."
+          "note": "SNT-TC-1A figures are recommendations. The binding document is the employer's written practice, which raises them on aerospace scopes built on SNT-TC-1A with the primes’ flow-down and on many Georgia contracts. Experience hours, not classroom hours, are the constraint on how fast a technician reaches Level II."
       },
       "facets": [
           {
@@ -4814,7 +4814,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Which methods does Atlanta's industrial base certify in most?",
-              "a": "Ultrasonic testing and radiography for power generation and pressure equipment across Georgia; magnetic particle and penetrant for structural and fabrication work; eddy current and fluorescent penetrant for aerospace manufacturing and MRO, where personnel qualify under the customer-specified aerospace standard rather than SNT-TC-1A. A Georgia programme built on that demand beats one covering every method thinly."
+              "a": "Ultrasonic testing and radiography for power generation and pressure equipment across Georgia; magnetic particle and penetrant for structural and fabrication work; eddy current and fluorescent penetrant for aerospace manufacturing and MRO, where personnel qualify under SNT-TC-1A-based written practices carrying the primes’ flow-down and Nadcap AC7114. A Georgia programme built on that demand beats one covering every method thinly."
           },
           {
               "q": "Can we certify our own technicians without an outside body?",
@@ -7032,7 +7032,7 @@ export const CITATION_LAYERS_GENERATED = {
 
   "/ndt-training-dallas": {
       "answer": "Atlantis delivers NDT training for Dallas–Fort Worth on-site at your own facility anywhere in Texas, through online enrolment open all year, or blended — online theory with a supervised practical block at the employer's facility. No Atlantis classroom operates in DFW. Programmes run Level I and Level II across UT, PAUT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
-      "expansion": "Dallas–Fort Worth splits into two inspection economies running different rulebooks. Aerospace and defence manufacturing — airframe structure, engine hardware, castings and forgings — qualifies personnel under the customer-specified aerospace standard and its European equivalent EN 4179, where a designated Responsible Level 3 approves the written practice and accepts the qualification of every Level 1 and Level 2, and the process itself is audited to the Nadcap AC7114 criteria administered by the Performance Review Institute. Fluorescent penetrant and eddy current dominate that work. North Texas pipeline, midstream and structural fabrication runs the other rulebook: SNT-TC-1A or ANSI/ASNT CP-189 personnel certification, with acceptance drawn from ASME Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1. A technician certified for one economy is not automatically acceptable in the other, and choosing the wrong route first is the most expensive sequencing error in this market.",
+      "expansion": "Dallas–Fort Worth splits into two inspection economies running different rulebooks. Aerospace and defence manufacturing — airframe structure, engine hardware, castings and forgings — qualifies personnel under SNT-TC-1A-based written practices carrying the primes’ flow-down, or EN 4179 in Europe, where a designated Responsible Level 3 approves the written practice and accepts the qualification of every Level 1 and Level 2, and the process itself is audited to the Nadcap AC7114 criteria administered by the Performance Review Institute. Fluorescent penetrant and eddy current dominate that work. North Texas pipeline, midstream and structural fabrication runs the other rulebook: SNT-TC-1A or ANSI/ASNT CP-189 personnel certification, with acceptance drawn from ASME Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1. A technician certified for one economy is not automatically acceptable in the other, and choosing the wrong route first is the most expensive sequencing error in this market.",
       "source": "ASNT Recommended Practice No. SNT-TC-1A, 2024 edition; ANSI/ASNT CP-189; Nadcap NDT audit criteria AC7114 series (Performance Review Institute); ASME BPVC Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1/D1.1M for acceptance.",
       "table": {
           "caption": "Choosing a delivery route for a Dallas–Fort Worth NDT programme",

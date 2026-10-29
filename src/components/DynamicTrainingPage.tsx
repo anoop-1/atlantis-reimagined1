@@ -153,7 +153,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{na ? na.h1 : `NDT Training in ${name}`}</h1>
             <p className="text-xl text-slate-300 mb-6 max-w-3xl">{detail}</p>
-            <p className="text-sm text-slate-400 mb-2">Schemes local employers reference (Atlantis trains to ASNT SNT-TC-1A only):</p>
+            <p className="text-sm text-slate-400 mb-2">Schemes local employers reference (Atlantis trains to ASNT SNT-TC-1A):</p>
             <div className="flex flex-wrap gap-3">
               {certStandards.map(cert => (
                 <span key={cert} className="bg-white/10 px-3 py-1 rounded-full text-sm">{cert}</span>

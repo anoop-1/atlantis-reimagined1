@@ -366,7 +366,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       ],
       [
         "Does Atlantis train technicians for ISO 9712 or PCN?",
-        "No. Atlantis training is based on ASNT SNT-TC-1A only. The Certificates app simply records ISO 9712, PCN or CSWIP certificates your technicians already hold."
+        "No. Atlantis training is based on ASNT SNT-TC-1A. The Certificates app simply records ISO 9712, PCN or CSWIP certificates your technicians already hold."
       ]
     ]
   },
