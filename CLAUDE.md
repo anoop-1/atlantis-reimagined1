@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-28 (§65 — NAS 410 removed from the whole site: 22 URLs 301'd, ~430 files rewritten, aerospace/aviation pages hand-checked, preflight gate fails on any "NAS 410"; offers are ASNT Level III consulting + SNT-TC-1A-based training; §64 — indexation fixes (51 redirects, header + main on 116 bare pages, /api-inspection hub, Soft 404 / Not found validation started, IndexNow 93) and North American competitor keywords on owner pages: CTR wave 17 (30 titles + 2 in the wave 15 software meta), 18 guarded keyword sections carrying 89 phrases, 13 H1 synonyms, 3D scanning junk slugs 301'd; §63 — 10× traffic plan (Claude Doc) with GSC-sized bridge, authority found to be the binding constraint (≈12 relevant linking sites), wrong-page check on 9 money terms, Sprint 1: "NDT software" title/section, pipeline metal-loss depth, fired heater tube guide, method-training layout + Level 1/2/3; §62 — free Excel report templates + branded Level II practice PDFs with a custom-template quotation CTA, intent routing on ~3,160 reading pages, targeted US/Canada geo build: 10 inspection hubs + 61 researched depth blocks; §61 — Level III consulting section (6 topic pages on a shared service template, Services menu panel), API 580, IRATA, /training header + Buy Now, stale ISO 17020/17025 blog block removed; §60 — Inspection section: /inspection + 21 sub-pages in the site's design, Services mega menu with the Inspection submenu, regional inspection pages linked in; §59 — homepage first paint, owner decisions, Register & Buy Now to the portal, 3-button bar on 525 training pages, /ndt-training-faq, /snt-tc-1a-eligibility; §58 — US ranking release: one owner per product, 14 national Practical NDT simulator pages, Canada SNT-TC-1A offer, FAQ schema prune fix; §57 — NDT training upgrade for the Americas: practice tests, training pages, Canada; §52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
+**Last updated:** 2026-10-29 (§66 — correction: aerospace and aviation pages kept, NAS 410 replaced by the ASNT offer (Level III consulting, SNT-TC-1A-based training, inspection): 21 retired pages restored on new URLs, ~40 aerospace units rewritten from the original, sitewide wording sweep, live city pages made sticky against the similarity gates; §65 — NAS 410 removed from the whole site: 22 URLs 301'd, ~430 files rewritten, aerospace/aviation pages hand-checked, preflight gate fails on any "NAS 410"; offers are ASNT Level III consulting + SNT-TC-1A-based training; §64 — indexation fixes (51 redirects, header + main on 116 bare pages, /api-inspection hub, Soft 404 / Not found validation started, IndexNow 93) and North American competitor keywords on owner pages: CTR wave 17 (30 titles + 2 in the wave 15 software meta), 18 guarded keyword sections carrying 89 phrases, 13 H1 synonyms, 3D scanning junk slugs 301'd; §63 — 10× traffic plan (Claude Doc) with GSC-sized bridge, authority found to be the binding constraint (≈12 relevant linking sites), wrong-page check on 9 money terms, Sprint 1: "NDT software" title/section, pipeline metal-loss depth, fired heater tube guide, method-training layout + Level 1/2/3; §62 — free Excel report templates + branded Level II practice PDFs with a custom-template quotation CTA, intent routing on ~3,160 reading pages, targeted US/Canada geo build: 10 inspection hubs + 61 researched depth blocks; §61 — Level III consulting section (6 topic pages on a shared service template, Services menu panel), API 580, IRATA, /training header + Buy Now, stale ISO 17020/17025 blog block removed; §60 — Inspection section: /inspection + 21 sub-pages in the site's design, Services mega menu with the Inspection submenu, regional inspection pages linked in; §59 — homepage first paint, owner decisions, Register & Buy Now to the portal, 3-button bar on 525 training pages, /ndt-training-faq, /snt-tc-1a-eligibility; §58 — US ranking release: one owner per product, 14 national Practical NDT simulator pages, Canada SNT-TC-1A offer, FAQ schema prune fix; §57 — NDT training upgrade for the Americas: practice tests, training pages, Canada; §52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -3570,3 +3570,104 @@ Not changed: /ndt-for-aerospace has only ~280 words in `<main>`. That was pre-ex
 - Preflight 14/14. Pricing PASS. Fabricated claims PASS.
 - RBI/FFS: the same 6 pre-existing owner-decision failures.
 - Commits on release-2026-10-24: source 3532d47c, build outputs + this section next.
+
+
+---
+
+## 66. Correction: aerospace and aviation pages kept, NAS 410 replaced by the ASNT offer — 2026-10-29
+
+Owner, correcting §65: "No, i need you to keep aviation and aerospace pages, just remove NAS 410, we offer same ASNT and SNT-TC-1A based consulting, training, inspection, for them as well instead of NAS 410, this is what i asked you to do".
+
+**🔴 STANDING RULE (supersedes the §65 rule and its wording guidance):**
+- The site names no NAS 410, and no NANDTB.
+- Aerospace and aviation are served like every other sector: **ASNT NDT Level III consulting**, **ASNT SNT-TC-1A-based training** and **NDT inspection**.
+- **How to write it:** "the employer certifies under its own written practice, which Atlantis builds on ASNT SNT-TC-1A, aligned to the customer's (prime/OEM) flow-down and Nadcap AC7114".
+- **Never write** "the customer-specified aerospace standard", "rather than SNT-TC-1A", "Atlantis does not offer aerospace training", or any other line that reads as the offer not applying to aerospace.
+- **Do not claim** that SNT-TC-1A alone satisfies every prime, Nadcap or FAA requirement.
+- **Do not claim** that Atlantis is, or supplies, a designated Responsible Level 3. It provides the ASNT Level III consulting behind the role, and can act as outside agency Level III in UT, RT, MT, PT and VT.
+- Statements that Atlantis does not train for ISO 9712, PCN, CSWIP, CGSB, AINDT, CWI or API stay; those are accurate.
+
+### 66.1 What §65 got wrong, and the lesson
+§65 deleted rather than replaced. It deleted:
+- 22 aerospace pages, because their URL or subject named NAS 410
+- ~2,000 sentences
+- every NAS 410 FAQ, table row and column, and section
+
+It swapped the rest for filler that argued against the owner's own offer: "an MRO technician typically certifies under the customer-specified aerospace standard … rather than SNT-TC-1A". Main aerospace pages lost 10–25% of their text; /consulting/aerospace-ndt-consulting lost ~940 words.
+
+**Lesson:** "remove X, replace it with Y" means every X sentence becomes a Y sentence in context. A deletion engine plus a neutral placeholder phrase is the wrong tool. Measure the loss before claiming completion: build the pre-change commit in a worktree and diff each page's sentences old vs new.
+
+### 66.2 Restored pages (new URLs; the old nas-410 URLs 301 to them, map in vercel.json)
+- **Consulting and certification:**
+  - /consulting/nas-410-responsible-level-3 → /consulting/aerospace-responsible-level-iii
+  - /nas-410-certification-requirements → /aerospace-ndt-certification-requirements
+- **Compliance:** /compliance/nas-410 (+11 sub-pages) → /compliance/aerospace-ndt (+ the same sub-pages). This is a new regime, `aerospace-ndt` in scripts/compliance-regimes.json, generated with the shared builder. The two regimes that pointed `relatedRegimes` at nas-410 now point here.
+- **7 blogs:**
+  - /blog/nas-410-vs-snt-tc-1a → /blog/snt-tc-1a-for-aerospace-ndt
+  - → /blog/aerospace-ndt-certification-explained
+  - → /blog/aerospace-ndt-recertification-2028
+  - → /blog/third-party-asnt-level-iii-consulting-for-aerospace-programs
+  - → /blog/ndt-training-for-aerospace-and-what-makes-it-different-from-oil-and-gas
+  - → /blog/software-for-aerospace-ndt-quality-control-as9100-and-nadcap-in-one-platform
+  - → /blog/ndt-cert-trends-2027-asnt-iso-pcn
+- **/glossary/nas-410** stays retired, redirected to /glossary/snt-tc-1a. A definition of NAS 410 cannot exist without naming it.
+
+### 66.3 Kept pages re-written from the ORIGINAL (7d83ea50), replace-not-delete
+The following were re-done from the original:
+- **Depth records:** aerospace/aviation consulting (hubs, Wichita, Fort Worth, Huntsville), written practice, audit support, UT procedure, UT training, report review, 3 ERP depth pages, Nadcap AC7114 readiness, FAA Part 145, ET Level 1/2, training hours by method, Pacific Northwest, Southern California, OKC, Tulsa, Wichita UT.
+- **Content files:** 5 aerospace/aviation city training files and Chicago aerospace.
+- **Blogs:** 16 aerospace blogs, plus the EN 4179 page override in editorial-page-upgrades.json.
+- **React pages:** /aerospace-ndt-training, /ndt-for-aerospace (+ a 480-word "How Atlantis supports aerospace NDT programmes" section), corporate aerospace training, 2 aerospace TSX blogs.
+- **Shared sources:**
+  - aerospace citation layers
+  - the aerospace segments of training-industry-city, consulting-industry-city, method-city-depth, noindex-recovery and method-industry-matrix
+  - 49 aerospace ERP pages
+  - the US ERP app routes and their React JSON copies
+
+Depth routes are reproducible from their records (`renderBody` in depth-page-render.mjs), so a rewritten record is re-rendered into depth-pages-routes.mjs. Splice the entry; do not re-serialise the file, because the routes file carries hand-patch whitespace.
+
+⚠️ **Wording changes the generated page set.** The similarity gates in training-industry-city / consulting-industry-city decide which city pages exist. The §65 wording made 35 extra /training/aerospace-ndt-training-* pages pass and dropped 4 others. The aerospace segments were re-worded until the generators reproduce the original page set.
+
+⚠️ **Override layers mask records.** /blog/en-4179-recertification-european-aerospace-2028 renders its body from editorial-page-upgrades.json, not the blog record. Check override layers before assuming a record edit shows.
+
+### 66.4 Sitewide wording sweep
+Every remaining sentence with the filler or a "does not offer aerospace" hedge was extracted from source string literals and JSON values. Each was rewritten in context and applied as an exact replacement inside literals: 292 in round 1, 54 in round 2, plus 6 by hand. The tool is scratchpad `sweep.mjs`, which uses the TypeScript parser for code and walks JSON with its formatting preserved.
+
+### 66.5 Also fixed on the way
+- /ndt-for-aerospace:
+  - removed "50+ Level III Experts" and the "served as Level III authority for aircraft OEMs" claim
+  - corrected spec errors: AMS 2630 is UT not RT (now ASTM E1742 for RT); AMS 2640 is superseded by ASTM E1444; AMS 2647 is FPI in maintenance, not eddy current
+- Nadcap slash-sheet numbering corrected where articles had it wrong. The site's sourced numbering: /1 PT, /2 MT, /3 UT, /4 film RT, /5 ET, /10 digital RT.
+
+### 66.6 Gate
+preflight block 4b gains **"Aerospace offer not hedged"**: it fails on "customer-specified aerospace standard" or NANDTB in any built page.
+
+### 66.7 Verified on the final build (2026-10-29)
+- 8,196 built pages:
+  - 0 pages name NAS 410.
+  - 0 pages contain the hedge phrases.
+  - 0 links to retired URLs.
+- Preflight passes **15/15**. Pricing PASS, fabricated claims PASS. RBI/FFS shows the same 6 pre-existing owner-decision failures.
+- Sitemaps: 10, holding 5,641 URLs, all built.
+- **Page set compared with the pre-change build (7d83ea50):**
+  - **No live URL lost.** The only pages that are gone are the retired nas-410 URLs, and all of them 301 to the restored pages.
+  - New pages: the 21 restored ones, plus two ERP city pages (monroe-michigan, spartanburg) that the gate admitted.
+- **Aerospace word counts are back at or above the original.**
+  - /consulting/aerospace-ndt-consulting: 3,702 originally, 2,760 after §65, ~3,860 now.
+  - /aviation-ndt-training-san-antonio: 3,382, then 2,929, now ~3,500.
+  - /ndt-for-aerospace: main text ~280 → ~770 words.
+
+### 66.8 Safeguard: live city pages are sticky
+The NAS 410 pass also changed city profile data, which feeds the greedy similarity gates. That data was restored with the replacement wording:
+- consulting `localCompliance` and profiles
+- ERP `city-profiles.ts`
+- training city notes
+
+The restore alone did not settle the gates: four live URLs dropped out, and when they came back three others dropped. **`scripts/published-city-pages.mjs`** now loads the list of generated city pages that were live before 2026-10-28 (`published-city-pages-2026-10.json`, 1,421 paths). The ERP, consulting and training gates accept those paths whatever the similarity score; new paths still have to pass.
+
+**Rule:** after any copy change that touches city data, compare the built page set with the previous build before shipping. A gate must never silently unpublish a live URL.
+
+### 66.9 Owner items noticed, not changed
+- /snt-tc-1a-eligibility gives near-vision as "every 12 months", while the SNT-TC-1A regime record deliberately states no interval. Decide on one statement.
+- A few China and Australia blog lines say Atlantis "trains and certifies" to SNT-TC-1A. Under SNT-TC-1A the employer certifies.
+- The ERP city profiles still carry invented-looking case studies (see §59 owner items).

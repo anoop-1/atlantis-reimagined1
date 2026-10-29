@@ -1,8 +1,8 @@
 {
-  "pages": 8194,
-  "sitemapUrls": 5626,
+  "pages": 8196,
+  "sitemapUrls": 5627,
   "fixedLinks": 212,
-  "unlinkedMissing": 902,
+  "unlinkedMissing": 900,
   "missingTargets": {
     "/ndt-erp-baltimore": 17,
     "/ndt-erp-boston": 17,
@@ -215,8 +215,6 @@
     "/digital-twin-port-arthur-texas": 1,
     "/digital-twin-lake-charles-louisiana": 1,
     "/api-653-tank-inspection-guide": 1,
-    "/ndt-erp-dothan": 1,
-    "/ndt-erp-rochester-new-york": 1,
     "/digital-twin-aiken": 1,
     "/digital-twin-antofagasta": 1,
     "/digital-twin-arkansas": 1,
