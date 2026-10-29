@@ -1212,11 +1212,11 @@
   {
     "slug": "/blog/ndt-training-hours-requirements-by-method",
     "title": "NDT Training Hours by Method: 12 for PT Level II, 80 for UT",
-    "description": "Penetrant Level II takes 12 training hours under SNT-TC-1A, 32 under the customer-specified aerospace standard and 40 under ISO 9712. Full hours matrix for UT, RT, MT, PT, VT and ET inside.",
+    "description": "Penetrant Level II takes 12 training hours under SNT-TC-1A and 40 under ISO 9712. Full hours matrix for UT, RT, MT, PT, VT and ET, plus what aerospace adds.",
     "h1": "NDT Training and Experience Hours by Method and Certification Scheme",
-    "answer": "Direct entry to Level II under ASNT SNT-TC-1A takes 12 classroom hours for penetrant, 20 for magnetic particle, 24 for visual, and 80 each for ultrasonic, radiography and eddy current. ISO 9712 sets the same routes at 40, 40, 40, 120, 120 and 80 hours.",
-    "expansion": "Three variables have to be pinned down before any hour figure means anything. First, the entry route: every scheme publishes a Level I number and a Level II increment, and a candidate going straight to Level II owes the sum of both. Quoting the increment alone understates penetrant training by two thirds. Third, the unit: SNT-TC-1A publishes hours, ISO 9712 publishes training hours but experience in months of industrial work at a nominal 40-hour week, and ASNT's own 9712 programme publishes training and experience in days. Converting between them without stating the assumed day length produces numbers that look authoritative and are wrong. The matrix below fixes all three variables at once.",
-    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024), Table 6.3.1A; ISO 9712:2021, minimum training and minimum industrial experience requirements; ASNT 9712 published training and experience durations.",
+    "answer": "Direct entry to Level II under ASNT SNT-TC-1A takes 12 classroom hours for penetrant, 20 for magnetic particle, 24 for visual, and 80 each for ultrasonic, radiography and eddy current. ISO 9712 sets the same routes at 40, 40, 40, 120, 120 and 80 hours. Aerospace written practices build on the SNT-TC-1A figures and add process-control training, practicals on representative parts and per-method experience logs.",
+    "expansion": "Three variables have to be pinned down before any hour figure means anything. First, the entry route: every scheme publishes a Level I number and a Level II increment, and a candidate going straight to Level II owes the sum of both. Quoting the increment alone understates penetrant training by two thirds. Second, the scheme: SNT-TC-1A is an employer-adapted recommended practice that aerospace written practices build on with customer flow-down requirements, and ISO 9712 is a central third-party certification standard operated by accredited bodies. Third, the unit: SNT-TC-1A publishes hours, ISO 9712 publishes training hours but experience in months of industrial work at a nominal 40-hour week, and ASNT's own 9712 programme publishes training and experience in days. Converting between them without stating the assumed day length produces numbers that look authoritative and are wrong. The matrix below fixes all three variables at once.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024), Table 6.3.1A; ISO 9712:2021, minimum training and minimum industrial experience requirements; ASNT 9712 published training and experience durations; PRI Nadcap AC7114 audit criteria for aerospace written practice context.",
     "table": {
       "caption": "Formal training and experience for direct entry to Level II (no prior Level I), by method and certification scheme",
       "columns": [
@@ -1270,7 +1270,7 @@
           "4 months"
         ]
       ],
-      "note": "All figures are direct-entry totals so the three schemes sit on the same route. ISO 9712 expresses experience in months of industrial NDT experience based on a nominal 40-hour week, which puts a 12-month ultrasonic requirement near 2,000 hours — roughly double the SNT-TC-1A in-method figure, and the reason ISO looks lighter in the training column and far heavier overall. SNT-TC-1A additionally imposes a separate total-hours-in-NDT requirement that runs alongside the in-method column: 1,600 hours for UT, RT and ET at direct-entry Level II, 530 for MT, and 400 for PT and VT. Radiation safety training for RT is a regulatory obligation separate from every one of these numbers."
+      "note": "All figures are direct-entry totals so the two schemes sit on the same route. ISO 9712 expresses experience in months of industrial NDT experience based on a nominal 40-hour week, which puts a 12-month ultrasonic requirement near 2,000 hours — roughly double the SNT-TC-1A in-method figure, and the reason ISO looks lighter in the training column and far heavier overall. SNT-TC-1A additionally imposes a separate total-hours-in-NDT requirement that runs alongside the in-method column: 1,600 hours for UT, RT and ET at direct-entry Level II, 530 for MT, and 400 for PT and VT. Aerospace written practices built on SNT-TC-1A keep these figures and add dated per-method logs, Level III-approved examinations and practicals on representative parts. Radiation safety training for RT is a regulatory obligation separate from every one of these numbers."
     },
     "facets": [
       {
@@ -1283,7 +1283,7 @@
       },
       {
         "q": "Do the training hours change if I already hold Level I in that method?",
-        "a": "Yes, and this is the most common source of confusion in published figures. Every scheme states the Level II number as an increment on top of Level I. Penetrant is 4 hours at Level I and 8 more at Level II under SNT-TC-1A. A certified Level I owes 8; someone starting from zero owes 12. The same logic applies to experience hours in all three schemes."
+        "a": "Yes, and this is the most common source of confusion in published figures. Every scheme states the Level II number as an increment on top of Level I. Penetrant is 4 hours at Level I and 8 more at Level II under SNT-TC-1A. A certified Level I owes 8; someone starting from zero owes 12. The same logic applies to experience hours in both schemes."
       },
       {
         "q": "Does ASNT publish requirements in days rather than hours?",
@@ -1291,7 +1291,7 @@
       },
       {
         "q": "Can an employer set training hours below the SNT-TC-1A table?",
-        "a": "An employer's Level III can define different hours in the written practice with documented technical justification, because SNT-TC-1A is a recommended practice rather than a mandatory standard. What an employer cannot do is eliminate training, experience, examination or recertification as programme elements. Under the customer-specified aerospace standard the position reverses entirely: those hour tables are mandatory minimums and no written practice may go below them."
+        "a": "An employer's Level III can define different hours in the written practice with documented technical justification, because SNT-TC-1A is a recommended practice rather than a mandatory standard. What an employer cannot do is eliminate training, experience, examination or recertification as programme elements. Aerospace programmes reverse the position: the written practice states its hours as firm minimums aligned to customer flow-down, and AC7114 assessors check each record against them."
       },
       {
         "q": "How long does the experience requirement take in calendar time?",
@@ -1303,14 +1303,22 @@
         "heading": "The Hours Only Mean Something Once You Fix the Entry Route",
         "paragraphs": [
           "Nearly every disagreement about NDT training hours dissolves once both parties state whether they are quoting a Level I figure, a Level II increment, or a direct-entry total. SNT-TC-1A lists penetrant as 4 hours at Level I and 8 hours at Level II. Neither number is the answer to \"how much training does a Level II penetrant technician need\". A candidate with no prior certification owes 12; a certified Level I owes 8.",
-          "The schemes are explicit about this. SNT-TC-1A states that where a person is qualified directly to Level II with no time at Level I, both the required experience and the required training hours are the sum of the times required for Level I and Level II. ISO 9712 applies the same additive rule for direct access.",
-          "This is why the matrix on this page fixes the route at direct entry across all three schemes. It is the only comparison that answers the question a hiring manager or a training coordinator actually has, which is what an uncertified new hire costs in classroom time and supervised work before they can be signed off to interpret results independently."
+          "The schemes are explicit about this. SNT-TC-1A states that where a person is qualified directly to Level II with no time at Level I, both the required experience and the required training hours are the sum of the times required for Level I and Level II. ISO 9712 applies the same additive rule for direct access. A well-built aerospace written practice goes further and tabulates the direct-entry total as its own line, removing the arithmetic entirely.",
+          "This is why the matrix on this page fixes the route at direct entry across both schemes. It is the only comparison that answers the question a hiring manager or a training coordinator actually has, which is what an uncertified new hire costs in classroom time and supervised work before they can be signed off to interpret results independently."
+        ]
+      },
+      {
+        "heading": "Should Versus Shall: Why SNT-TC-1A Numbers Move and Aerospace Programmes Hold Them",
+        "paragraphs": [
+          "SNT-TC-1A is a recommended practice. Its title says so, and ASNT is unambiguous that the document exists for employers to adapt into their own written practice. The hour table is a recommended initial training and experience level. A Level III with documented technical justification can specify different numbers for that employer's scope of work, and doing so is a legitimate use of the document rather than a deviation from it.",
+          "There are limits. A small set of provisions in SNT-TC-1A are written as mandatory: an employer cannot eliminate training, experience, examination or recertification as elements; the written practice requires Level III approval and has to be on file; examination questions require Level III endorsement; and nobody may administer their own certification examination or have it administered by a subordinate. The flexibility is in the numbers, not in the architecture.",
+          "Aerospace programmes invert this. An aerospace written practice built on SNT-TC-1A states its hours as floors in mandatory language, aligned to the customer's flow-down requirements, and an AC7114 assessor or prime auditor checks the training record against the specific minimum for that method. The same 80 ultrasonic hours mean something different in each setting: an anchor a Level III may move in a general industry written practice, and a line item an auditor will verify in an aerospace one. Copying an aerospace written practice into a general industry shop imports rigidity nobody asked for; copying the reverse fails audit."
         ]
       },
       {
         "heading": "Employer-Based Versus Central Certification Changes Who Owns the Hours",
         "paragraphs": [
-          "SNT-TC-1A are employer-based schemes. The employer trains, examines and certifies against its own written practice, and where the individual holds no independent third-party credential the certification is deemed revoked when employment terminates. The hours belong to the individual as a documented history; the certificate belongs to the employment relationship.",
+          "SNT-TC-1A is an employer-based scheme, and so is every aerospace written practice built on it. The employer trains, examines and certifies against its own written practice, and where the individual holds no independent third-party credential the certification is deemed revoked when employment terminates. The hours belong to the individual as a documented history; the certificate belongs to the employment relationship.",
           "ISO 9712 is a central certification scheme. An accredited certification body, operating under ISO/IEC 17024, examines the candidate independently of any employer and issues a certificate that travels with the person. The employer's role shrinks to authorizing the individual to operate on specific equipment and procedures. This is the dominant model across Europe, much of Asia, and for internationally mobile contract technicians.",
           "The structural consequence explains the training hour gap better than any other factor. Under an employer-based scheme, formal training is one input among several, and the employer supplies procedure training, part familiarization and supervision afterward. Under a central scheme there is no afterward, so the mandated syllabus carries the whole competence burden. That is why ISO 9712 penetrant training runs 40 hours to SNT-TC-1A's 12, while the eventual competence expectations are broadly comparable."
         ]
@@ -1318,17 +1326,17 @@
       {
         "heading": "Why Penetrant and Magnetic Particle Show the Widest Spread",
         "paragraphs": [
-          "The surface methods produce the most extreme cross-scheme divergence in the entire matrix. Direct-entry Level II penetrant training runs 12 hours under SNT-TC-1A, 32 under the customer-specified aerospace standard and 40 under ISO 9712 — a range of more than three to one for the same nominal qualification. Magnetic particle behaves similarly at 20, 32 and 40 hours.",
+          "The surface methods produce the most extreme cross-scheme divergence in the entire matrix. Direct-entry Level II penetrant training runs 12 hours under SNT-TC-1A and 40 under ISO 9712 — a range of more than three to one for the same nominal qualification. Magnetic particle behaves similarly at 20 and 40 hours.",
           "The explanation is that penetrant and magnetic particle look procedurally simple and are not. The instrumentation is minimal, so the training time compresses easily, but the failure modes are almost entirely in process control: dwell time, emulsification, developer application, lighting levels, ambient light limits, bath concentration, field direction and adequacy, demagnetization. None of these are visible in the output the way a mis-set ultrasonic gate is.",
-          "Aerospace and central certification schemes both push these hours up because they cannot rely on downstream employer supervision to catch process drift. For a general industry employer using SNT-TC-1A, the 12-hour penetrant figure is a floor to build on, not a target to hit. Employers writing a practice at exactly the recommended minimum for surface methods are the ones who later find fluorescent penetrant findings in a customer audit."
+          "Aerospace written practices and central certification schemes both push this training up: aerospace because process control under ASTM E1417 and E1444 is what customer and AC7114 audits test, central schemes because no downstream employer supervision exists to catch process drift. For a general industry employer using SNT-TC-1A, the 12-hour penetrant figure is a floor to build on, not a target to hit. Employers writing a practice at exactly the recommended minimum for surface methods are the ones who later find fluorescent penetrant findings in a customer audit."
         ]
       },
       {
         "heading": "Ultrasonic and Radiography Converge at 80 Hours, Then Diverge",
         "paragraphs": [
-          "The volumetric methods behave differently. SNT-TC-1A both require 80 hours of direct-entry Level II training for ultrasonic, and both require 80 for single-modality radiography. On training duration alone, aerospace is not more demanding for UT and RT than general industry.",
-          "The divergence is in content and specimens. Eighty hours spent on carbon steel weld inspection and eighty hours spent on titanium forgings and honeycomb bondline evaluation are the same duration and not the same qualification. Hour-for-hour equivalence arguments fail on exactly this point.",
-          "Radiography adds a modality axis that neither of the other schemes mirrors. As digital and computed radiography displace film across aerospace and increasingly across oil and gas, the dual-modality figure is the one worth planning against."
+          "The volumetric methods behave differently. SNT-TC-1A sets 80 hours of direct-entry Level II training for ultrasonic and for radiography, with 840 in-method experience hours, and aerospace written practices built on it change the content of those hours rather than their count. On training duration alone, aerospace is not more demanding for UT and RT than general industry.",
+          "The divergence is in content and specimens. Aerospace practical examinations use aerospace hardware with representative discontinuities in aerospace alloys and geometries, evaluated against aerospace acceptance criteria. Eighty hours spent on carbon steel weld inspection and eighty hours spent on titanium forgings and honeycomb bondline evaluation are the same duration and not the same qualification. Hour-for-hour equivalence arguments fail on exactly this point.",
+          "Radiography adds a modality axis that the hour table does not show. An aerospace written practice should scope film and non-film radiography as distinct qualifications, so a technician expected to work in both modalities carries training, experience and a practical examination in each, set in the written practice and checked at audit. As digital and computed radiography displace film across aerospace and increasingly across oil and gas, dual-modality qualification is the one worth planning against."
         ]
       },
       {
@@ -1358,20 +1366,20 @@
       {
         "heading": "Making the Hours Auditable Rather Than Reconstructable",
         "paragraphs": [
-          "Auditors rarely dispute whether a technician is competent. They dispute whether the file proves it.",
+          "Auditors rarely dispute whether a technician is competent. They dispute whether the file proves it. The failure pattern is consistent across general industry SNT-TC-1A shops and aerospace suppliers alike: training certificates that name a course but not its hour count, syllabus or instructor; experience logged in a spreadsheet that was rebuilt from memory; examination results without the Level III approval the standard requires; vision records filed by year rather than by person, so a lapse is invisible until someone looks.",
           "A certification record that holds up has one row per person per method carrying the training hours with their source document, a running in-method experience total that increments from actual work records, the total-NDT figure where the scheme requires it, examination scores broken out by part and composite, current vision and colour differentiation dates, and the certificate expiry. When those fields are queryable, an audit is an export. When they are not, it is three weeks of archaeology.",
-          "Atlantis builds this into the systems NDT firms already run. Our fully customized ERP for NDT companies carries technician certification tracking with expiry alerting, equipment calibration control and ISO 9001 document control in one place. Our NDT reporting software links inspection reports back to the certified technician who produced them, which is how in-method hours accumulate as a by-product of doing the work. Our training programmes cover Level I and Level II across UT, RT, MT, PT, VT and ET, and our outsourced ASNT Level III consulting supports written practice development and file review for employers without in-house Level 3 coverage. Affordable, accessible, fully customizable. Request a demo or a quote at /contact, or email info@atlantisndt.com."
+          "Atlantis builds this into the systems NDT firms already run. Our fully customized ERP for NDT companies carries technician certification tracking with expiry alerting, equipment calibration control and ISO 9001 document control in one place. Our NDT reporting software links inspection reports back to the certified technician who produced them, which is how in-method hours accumulate as a by-product of doing the work. Our training programmes cover Level I and Level II across UT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A, including [aerospace NDT training](/aerospace-ndt-training) for aerospace and aviation employers, and our outsourced ASNT Level III consulting supports written practice development and file review for employers without in-house Level 3 coverage. Affordable, accessible, fully customizable. Request a demo or a quote at /contact, or email info@atlantisndt.com."
         ]
       }
     ],
     "faq": [
       {
         "q": "Is there a single official NDT training hours table that covers every method and scheme?",
-        "a": "No published document spans all three schemes, because each is issued by a different body for a different certification model. Any combined matrix, including this one, is a compilation. Verify against the specific edition your contract or written practice invokes before committing to a plan."
+        "a": "No published document spans every scheme, because each is issued by a different body for a different certification model. SNT-TC-1A Table 6.3.1A covers the ASNT recommended practice, aerospace written practices build on it with customer flow-down requirements, and ISO 9712 covers central third-party certification. Any combined matrix, including this one, is a compilation. Verify against the specific edition your contract or written practice invokes before committing to a plan."
       },
       {
         "q": "Which scheme should a North American NDT service company build its written practice around?",
-        "a": "SNT-TC-1A is the default for oil and gas, petrochemical, power, fabrication and pipeline work across the United States and Canada, and most client specifications name it directly. ISO 9712 matters when your technicians work internationally or your client is a European or Asian owner-operator."
+        "a": "SNT-TC-1A is the default for oil and gas, petrochemical, power, fabrication and pipeline work across the United States and Canada, and most client specifications name it directly. If you supply aerospace, build on the same SNT-TC-1A base and add what aerospace audits look for: a written Level III designation (the Responsible Level 3 in Nadcap AC7114), Level III approval of instructors and examination material, practical examinations on representative parts and per-method experience logs, as in our [aerospace written practice work](/consulting/written-practice-for-aerospace). ISO 9712 matters when your technicians work internationally or your client is a European or Asian owner-operator."
       },
       {
         "q": "Do phased array, TOFD or digital radiography have their own training hour requirements?",
@@ -1379,7 +1387,7 @@
       },
       {
         "q": "How often does NDT certification need renewing, and does that reset the training hours?",
-        "a": "Recertification does not repeat initial training hours. It verifies continued competence through examination, documented continuing performance, or continuing education as the written practice defines, together with the current vision records the scheme requires."
+        "a": "ASNT describes a recommended maximum interval of five years; the employer's written practice sets the actual interval, and an aerospace written practice aligns it to customer flow-down requirements. Recertification does not repeat initial training hours. It verifies continued competence through examination, documented continuing performance, or continuing education as the written practice defines, together with the current vision records the scheme requires."
       },
       {
         "q": "Can training hours completed at one employer be credited by the next?",
@@ -3202,61 +3210,70 @@
   {
     "slug": "/consulting/nadcap-ac7114-audit-readiness",
     "title": "Nadcap AC7114 Findings Land on Records, Not on Technique",
-    "description": "AC7114 findings cluster on four record types: lapsed vision tests, undocumented OJT, examination papers never retained, and a written practice naming no Level 3.",
+    "description": "AC7114 findings cluster on four record types: lapsed vision tests, undocumented OJT, exam papers never retained, and a written practice naming no Level 3.",
     "h1": "What a Nadcap NDT Assessor Pulls From Your Personnel Files First",
-    "answer": "Nadcap AC7114 findings concentrate on records, not on technique. Assessors sample personnel files and write nonconformances for a lapsed annual vision test, on-the-job hours logged as one summary line, examination papers discarded once the score was transcribed, and a written practice that never names the Responsible Level 3 as a person. Fix the paperwork and the audit shortens.",
-    "expansion": "AC7114 is the Nadcap audit criteria for nondestructive testing. The baseline covers the quality system, personnel and process control; the slash sheets carry method detail, with AC7114/1 penetrant, /2 magnetic particle, /3 ultrasonic, /4 film radiography, /5 eddy current, plus sheets for ultrasonic inspection of rotating components, remote interpretation of film and digital images, and digital radiography using detector arrays and computed radiography. Suppliers rehearse the slash sheets because those read like technique. The nonconformances land somewhere else. The four highest-frequency defects are all clerical. A missing date, a missing signature, a missing paper, a missing name. Technician competence has no bearing on any of them.",
+    "answer": "Nadcap AC7114 findings concentrate on records, not on technique. Assessors sample personnel files and write nonconformances for a lapsed vision test, on-the-job hours logged as one summary line, examination papers discarded once the score was transcribed, and a written practice that never names the Responsible Level 3 as a person. Fix the paperwork and the audit shortens.",
+    "expansion": "AC7114 is the Nadcap audit criteria for nondestructive testing. The baseline covers the quality system, personnel and process control; the slash sheets carry method detail, with AC7114/1 penetrant, /2 magnetic particle, /3 ultrasonic, /4 film radiography, /5 eddy current, plus sheets for ultrasonic inspection of rotating components, remote interpretation of film and digital images, and digital radiography using detector arrays and computed radiography. Suppliers rehearse the slash sheets because those read like technique. The nonconformances land somewhere else. An assessor working a fixed number of days pulls a personnel list, samples files, and compares each file against two things at once: your own written practice, and the customer flow-down requirements it was written to meet. The four highest-frequency defects are all clerical. A missing date, a missing signature, a missing paper, a missing name. Technician competence has no bearing on any of them.",
     "source": "PRI Nadcap audit criteria AC7114 for nondestructive testing and slash sheets AC7114/1 (penetrant), /2 (magnetic particle), /3 (ultrasonic), /4 (film radiography), /5 (eddy current), /7 (ultrasonic, rotating components), /9 (remote interpretation) and /10 (digital radiography), published on eAuditNet; PRI Nadcap Supplier Audit Guide (1 August 2023) for nonconformance response timing and merit status; ASNT Recommended Practice No. SNT-TC-1A (2024), paras 5.1, 5.5, 5.6 and 8.1.1.",
     "table": {
-      "caption": "AC7114 personnel records: what the assessor asks for, what the written practice sets as the floor, and the defect that gets written up",
+      "caption": "AC7114 personnel records: what the assessor asks for, what the aerospace written practice sets as the floor, and the defect that gets written up",
       "columns": [
         "Record type",
         "What the assessor asks to see",
+        "Aerospace written practice (SNT-TC-1A based)",
         "The defect that gets written up"
       ],
       "rows": [
         [
           "Vision examination",
           "A dated, signed vision report for every name sampled from the personnel list, plus the colour record",
+          "Near-vision acuity and colour contrast differentiation, each at the interval the written practice states, tracked per individual",
           "Near-vision current but the colour contrast plates never repeated after hire; or an annual test that slipped from 14 March to 2 April"
         ],
         [
           "On-the-job experience hours",
           "A dated accumulation log showing hours by method, work performed and the certified individual supervising",
+          "Minimum experience hours per method and level, built on the SNT-TC-1A minimums, with examination sequencing against those hours stated",
           "One retrospective line reading \"requirements met\", signed on certification day, which cannot demonstrate examination sequencing"
         ],
         [
           "Examination papers",
           "The general, specific and practical papers, the answer keys, the candidate's marked responses and the part scores",
+          "No single general, specific or practical examination below 70 percent, and a composite of at least 80 percent, as SNT-TC-1A recommends",
           "Only the composite score retained; papers and keys lived on the departed Level 3's laptop and no longer exist"
         ],
         [
           "Written practice",
           "The controlled document, its revision history, the approval signature and the page naming the Responsible Level 3",
+          "The employer names its Responsible Level 3 in writing, with the methods covered and an effective date",
           "A job title named instead of a person, or a named Level 3 who resigned two revisions ago and was never replaced in the text"
         ],
         [
           "The Level 3's own qualification file",
           "Certification in each covered method, the examination evidence behind it, current vision record, and the written designation",
+          "The Responsible Level 3 is qualified as the written practice states and the employer holds the supporting records",
           "\"Our consultant keeps those\" — the contracted Level 3's records sit at the consultancy and cannot be produced during the audit"
         ],
         [
           "Certification records",
           "The signed certification record showing training, experience, examination results, vision status and the signing authority",
+          "The employer certifies its own employees and maintains the record while certification is in effect",
           "Certification record signed by the outside agency rather than an officer of the employer"
         ],
         [
           "Procedures and technique sheets",
           "Approval signature and date from a Level 3 qualified in that method, on every document in the audited scope",
+          "Procedures approved by the applicable Level 3, internal or external",
           "A technique sheet revised by engineering and issued without re-approval; revision date later than the approval date on the same page"
         ],
         [
           "Personnel list",
           "A current list of all NDT personnel including trainees and suspended individuals, with method, level, certification expiry and vision due date",
+          "Records that substantiate every entry on the list",
           "The list does not reconcile to the files or to the signatures on inspection reports from the accreditation period"
         ]
       ],
-      "note": "Every row is a paper defect, not a competence defect. Assessors read dates and signatures, so build the tracker off each individual's own test date rather than a company-wide anniversary."
+      "note": "Every row is a paper defect, not a competence defect. Assessors read dates and signatures, so build the tracker off each individual's own test date rather than a company-wide anniversary. Where your written practice promises more than SNT-TC-1A recommends, the written practice is the standard you are audited against."
     },
     "facets": [
       {
@@ -3265,7 +3282,7 @@
       },
       {
         "q": "Does Nadcap accept an external Level 3 as our Responsible Level 3?",
-        "a": "Yes. Two conditions attach. The individual is named in writing for your facility with the methods stated, and copies of their certification, examination evidence and current vision record live in your personnel files. An empty folder with a consultant's phone number is a nonconformance."
+        "a": "Yes. AC7114 recognises an applicable Level 3 who is internal, external, or qualified and approved by the Nadcap user, and SNT-TC-1A's employer-based model lets a firm engage an outside agency Level III. Two conditions attach. The individual is named in writing for your facility with the methods stated, and copies of their certification, examination evidence and current vision record live in your personnel files. An empty folder with a consultant's phone number is a nonconformance."
       },
       {
         "q": "Which AC7114 slash sheet applies to our scope?",
@@ -3273,7 +3290,7 @@
       },
       {
         "q": "What vision records does an AC7114 assessor ask to see?",
-        "a": "The signed report itself, not a tracker entry. It states the date, the chart or plates used, the distance, which eye was tested, whether acuity was corrected or uncorrected, the result against Jaeger 1 or equivalent, and the name and signature of the examiner. The examiner is an eye care professional or a person the Responsible Level 3 designated and trained. Near vision is annual. Colour contrast differentiation runs on initial certification and at five-year intervals, and that second record is the one most often missing entirely."
+        "a": "The signed report itself, not a tracker entry. It states the date, the chart or plates used, the distance, which eye was tested, whether acuity was corrected or uncorrected, the result against the acuity standard the written practice states, and the name and signature of the examiner. The examiner is an eye care professional or a person the Responsible Level 3 designated and trained. Near vision and colour contrast differentiation each run on the interval the written practice sets, and the colour contrast record is the one most often missing entirely."
       },
       {
         "q": "Can we be audited on a method our Level 3 is not certified in?",
@@ -3288,7 +3305,7 @@
       {
         "heading": "The Assessor Samples Files Before Watching a Single Shot",
         "paragraphs": [
-          "The AC7114 audit runs against a personnel list you supply. Shops lose points here by writing an ambitious written practice, promising more hours or a tighter recertification interval than the standard asks, then certifying people against the standard instead of their own text.",
+          "The AC7114 audit runs against a personnel list you supply. The assessor picks names from it, pulls the corresponding qualification files, and reads each file against two documents at once: your written practice, and the customer flow-down requirements behind it. A file that satisfies SNT-TC-1A but falls short of your own written practice is still a nonconformance, because the written practice is the commitment your primes flowed down and accepted. Shops lose points here by writing an ambitious written practice, promising more hours or a tighter recertification interval than the standard asks, then certifying people against the standard instead of their own text.",
           "The second reconciliation is the list against reality. The list shows every certified technician, every trainee, and everyone suspended or lapsed, with method, level, certification expiry and vision due date. Assessors compare that list to the people working the floor during the audit and to the signatures on inspection records from the past accreditation period. A technician who signed a penetrant report in March and does not appear on the list produces a finding that touches product, which is a heavier category to answer than a records gap.",
           "This is why AC7114 preparation that opens with technique demonstrations opens in the wrong place. The technique portion is defended by procedures, technique sheets and a competent operator, and most shops already have all three. The personnel portion is defended by paper generated over years by people who have since left the company. Rebuild that paper first. Ordering the work this way also frees your Level 3's audit-week hours for the job audits, which is the one part of the assessment where their physical presence changes the outcome."
         ]
@@ -3296,23 +3313,23 @@
       {
         "heading": "Vision: The Finding That Writes Itself",
         "paragraphs": [
-          "Aerospace programmes require an annual near-vision examination and a colour contrast check at set intervals. Both are administered by an eye care professional or by a person the Responsible Level 3 designates and has trained to administer the test. The annual cadence is what breaks. A technician tested on 14 March one year and 2 April the next has a gap on the face of the record, and the assessor reads dates rather than intentions. Scheduling drift of three weeks produces the same finding as forgetting entirely.",
-          "The colour contrast record is the one most often missing outright. Shops treat vision as a single annual event, run the near-vision chart every year, and never repeat the pseudo-isochromatic plates after the hiring physical. Five years later the record does not exist. Penetrant and magnetic particle files carry the highest exposure, because contrast and colour perception are the sensory basis of those methods, and an assessor reading a fluorescent penetrant file looks for that record specifically rather than incidentally.",
+          "An aerospace written practice sets a near-vision acuity examination and a colour contrast differentiation examination, each on its own interval, and the assessor checks both against it. Both are administered by an eye care professional or by a person the Responsible Level 3 designates and has trained to administer the test. The near-vision cadence is what breaks. Where the written practice sets it at twelve months, a technician tested on 14 March one year and 2 April the next has a gap on the face of the record, and the assessor reads dates rather than intentions. Scheduling drift of three weeks produces the same finding as forgetting entirely.",
+          "The colour contrast record is the one most often missing outright. Shops treat vision as a single annual event, run the near-vision chart every year, and never repeat the pseudo-isochromatic plates after the hiring physical. When the repeat falls due, the record does not exist. Penetrant and magnetic particle files carry the highest exposure, because contrast and colour perception are the sensory basis of those methods, and an assessor reading a fluorescent penetrant file looks for that record specifically rather than incidentally.",
           "Two controls close this permanently. Put vision due dates on the same tracker that carries certification expiry, and drive each date off the individual's own last test rather than a company-wide anniversary. Then keep the actual signed report: chart or plates used, distance, eye tested, corrected or uncorrected, result, examiner name, signature and date. A spreadsheet cell reading \"vision current\" is a management aid, not a record. The signed report is the record, and it is what gets handed across the table."
         ]
       },
       {
         "heading": "On-the-Job Hours: The Log Nobody Kept Until the Week Before",
         "paragraphs": [
-          "Aerospace programmes commonly sequence the specific and practical examinations against logged experience hours, and that sequencing is only auditable if hours accumulate on dated entries. A single line stating the technician met the requirement, signed on the day of certification, cannot demonstrate that the specific examination came after 75 percent, because there is no dated accumulation for the examination date to be compared against.",
+          "The written practice sets minimum experience hours per method and level, built on the SNT-TC-1A minimums, and an aerospace written practice commonly sequences the examinations against those hours: the specific examination once a stated share of the experience is logged, the practical once all of it is. That sequencing is only auditable if hours accumulate on dated entries. A single line stating the technician met the requirement, signed on the day of certification, cannot demonstrate that the specific examination came at the point the written practice sets, because there is no dated accumulation for the examination date to be compared against.",
           "A defensible log carries the date, the hours, the method, the type of work or part family, and the name of the certified individual who supervised. It is signed periodically, not reconstructed. Assessors test the log against other evidence in the building: timesheets, job travellers, shift records, inspection reports. Hours logged for ultrasonic inspection on a day the plant was shut, or four hundred hours accumulated by a technician who spent that quarter on another contract, converts a records finding into a question about integrity, and that question has a different escalation path.",
-          "Trainees are the population most at risk, because their files stay open longest and the person supervising them changes with the shift pattern. Assign one owner for trainee logs, in most shops the Level 3 or a designated Level 2, and review them monthly rather than at certification. Our method-by-method breakdown of the formal training and experience minimums sits at /snt-tc-1a-eligibility, which is the figure set your written practice must meet or exceed before any of this logging matters."
+          "Trainees are the population most at risk, because their files stay open longest and the person supervising them changes with the shift pattern. Assign one owner for trainee logs, in most shops the Level 3 or a designated Level 2, and review them monthly rather than at certification. Our method-by-method breakdown of the formal training and experience minimums sits at /aerospace-ndt-certification-requirements, which is the figure set your written practice must meet or exceed before any of this logging matters."
         ]
       },
       {
         "heading": "Examination Papers: Retention Is the Requirement, Not the Score",
         "paragraphs": [
-          "The file contains the examinations, not a transcription of their outcome. That means the general, specific and practical papers or their controlled equivalents, the answer keys used, the candidate's marked responses, the individual part scores and the composite calculation. A file recording only \"82 percent\" cannot demonstrate that no individual part fell below 70, and the assessor has no route to that conclusion other than the papers themselves.",
+          "The file contains the examinations, not a transcription of their outcome. That means the general, specific and practical papers or their controlled equivalents, the answer keys used, the candidate's marked responses, the individual part scores and the composite calculation. SNT-TC-1A grading, which the aerospace written practice carries, recommends a composite of at least 80 percent with no single examination below 70 percent. A file recording only \"82 percent\" cannot demonstrate that no individual part fell below 70, and the assessor has no route to that conclusion other than the papers themselves.",
           "The practical examination file is the thinnest one in most shops and the one assessors read hardest. It identifies the specimens by control number, states the discontinuities present in each, records what the candidate detected and how they reported it, captures the instrument and settings used, and carries the checklist the examiner scored. Where the practical included writing or interpreting a technique, that work product belongs in the file as well. A practical recorded as a single pass mark on a certification form is not an examination record.",
           "Two structural defects recur. Examination material lives on one person's laptop, so when that person leaves, neither the papers nor the keys survive; the resignation sequence and how to recover from it is set out at /consulting/ndt-level-3-resigned-what-to-do. And the specific examination cites a procedure at a revision superseded two years earlier, which tells an assessor the examination bank has never been reviewed against the current procedure set. Both close by treating the bank as a controlled document with an owner, a revision history and a review cycle."
         ]
@@ -3320,7 +3337,7 @@
       {
         "heading": "The Written Practice That Never Names a Person",
         "paragraphs": [
-          "AC7114 audits the written practice as the governing document, then audits everything else against it. An assessor asks who that is, and the answer must be a person, in writing, with the covered methods stated and an effective date. A written practice naming a Level 3 who resigned eighteen months ago is worse than one naming nobody, because it proves the document is not maintained.",
+          "AC7114 audits the written practice as the governing document, then audits everything else against it. The recurring defect is that the document names a role, \"the NDT Level III\", where an aerospace written practice has to identify the Responsible Level 3 as a named individual. An assessor asks who that is, and the answer must be a person, in writing, with the covered methods stated and an effective date. A written practice naming a Level 3 who resigned eighteen months ago is worse than one naming nobody, because it proves the document is not maintained.",
           "The second defect is drift between promise and practice. The written practice commits to annual technique reviews, a defined recertification interval, a specified examination structure and a designated examination administrator, and then the shop operates on a different rhythm. Each of those commitments is an audit question waiting to be asked. Read the document as an assessor would, sentence by sentence, and for every \"shall\" identify the record that proves it happened in the last twelve months. Where no record exists, produce one or change the sentence.",
           "Approval is the third. The written practice carries the Responsible Level 3's approval signature and date, and every procedure and technique sheet in the audited scope carries approval from a Level 3 qualified in that method. Engineering revisions issued without re-approval are common and are always caught, because the revision history and the approval block sit on the same page and the dates contradict each other. Reviewing approval dates against revision dates across the whole document set takes an afternoon and removes an entire finding category."
         ]
@@ -3328,9 +3345,9 @@
       {
         "heading": "Your Outside Level 3's Records Belong in Your Building",
         "paragraphs": [
-          "What the audit does not accept is an empty folder. The supplier holds the contracted Level 3's qualification evidence: certification in each method being covered, the examination evidence behind that certification, a current vision record, and the written designation naming them for your facility. Assessors ask for this file early, and \"our consultant has that\" reads as a nonconformance because responsibility for the records rests on the employer, not the agency.",
+          "SNT-TC-1A's employer-based model lets a firm engage an outside agency Level III, and AC7114 recognises an external Level 3 approving procedures. What the audit does not accept is an empty folder. The supplier holds the contracted Level 3's qualification evidence: certification in each method being covered, the examination evidence behind that certification, a current vision record, and the written designation naming them for your facility. Assessors ask for this file early, and \"our consultant has that\" reads as a nonconformance because responsibility for the records rests on the employer, not the agency.",
           "The service agreement carries audit weight of its own. State the methods covered, the activities delegated, written practice approval, procedure and technique sheet approval, examination preparation, administration and grading, internal NDT audits, the response time for approvals, and the requirement that the Level 3 be available on site for the audit. Nadcap audits are scheduled well in advance through eAuditNet, so contract availability for those specific dates rather than assuming a consultant with several clients will be free during your window.",
-          "The boundary between what the outside Level 3 approves and what your company signs is the single most misread part of the arrangement, and we set it out in full at /consulting/outside-ndt-level-3-can-and-cannot-do. The agency qualifies; the employer certifies. An officer of the employer signs the certification record. Certification records signed by the consultancy are a finding under the customer-specified aerospace standard and under SNT-TC-1A alike, and correcting them after the fact means reissuing every affected record."
+          "The boundary between what the outside Level 3 approves and what your company signs is the single most misread part of the arrangement, and we set it out in full at /consulting/outside-ndt-level-3-can-and-cannot-do. The agency qualifies; the employer certifies. An officer of the employer signs the certification record. Certification records signed by the consultancy are a finding under SNT-TC-1A and at AC7114 alike, and correcting them after the fact means reissuing every affected record."
         ]
       },
       {
@@ -3352,8 +3369,8 @@
       {
         "heading": "How Atlantis Prepares an AC7114 Audit",
         "paragraphs": [
-          "Atlantis works the personnel side of AC7114 as a records project with a Level 3 attached.",
-          "Your company retains the certification signature, because that authority never moves. The retainer structure is described under [outsourced ASNT Level III consulting](/consulting/ndt-consulting-level-iii). Ask for a readiness gap assessment or a quote for outsourced Level III support and we will scope it against your methods, your headcount and your audit date."
+          "Atlantis works the personnel side of AC7114 as a records project with ASNT NDT Level III consulting attached. We reconstruct the personnel list and reconcile it against inspection records, audit every sampled file against your written practice and your customers' flow-down requirements in parallel, rebuild examination material as a controlled bank with question sets, answer keys and retention rules, place vision and certification expiry on one tracker driven by individual test dates, and rewrite the written practice on an SNT-TC-1A base, aligned to your flow-down requirements and AC7114, so it names a Responsible Level 3 and asserts only what your records can prove.",
+          "Where you need Level III cover behind the Responsible Level 3 role, Atlantis can act as your outside agency Level III in UT, RT, MT, PT and VT through [ASNT NDT Level III consulting for aerospace](/consulting/aerospace-responsible-level-iii): approving procedures and technique sheets in those methods, preparing, administering and grading examinations, running the internal NDT audit and attending the assessment. Your company makes the written designation and retains the certification signature, because that authority never moves. The retainer structure is described under [outsourced ASNT Level III consulting](/consulting/ndt-consulting-level-iii). Ask for a readiness gap assessment or a quote for outsourced Level III support and we will scope it against your methods, your headcount and your audit date."
         ]
       }
     ],
@@ -3368,7 +3385,7 @@
       },
       {
         "q": "Does Nadcap require our Level 3 to hold ASNT Level III certification?",
-        "a": "A current ASNT Level III certificate in the method satisfies the general examination requirement, which is why most aerospace Level 3s in the United States hold one. The United States has no NANDTB, so qualification runs employer-based with primes and Nadcap performing the oversight role that a national board performs in Europe under EN 4179. What the audit checks is that the qualification route your written practice describes is the route your Level 3's file actually documents."
+        "a": "The audit reads your Level 3's file against your written practice, so the written practice sets the qualification route. A current ASNT NDT Level III certificate in the method is the credential most aerospace Level 3s in the United States hold, and an SNT-TC-1A-based written practice can state it as that route. In the United States qualification runs employer-based, with primes and Nadcap performing the oversight role. What the audit checks is that the qualification route your written practice describes is the route your Level 3's file actually documents."
       },
       {
         "q": "How long does Nadcap NDT accreditation last?",
@@ -3376,7 +3393,7 @@
       },
       {
         "q": "Can Atlantis attend the Nadcap audit with us?",
-        "a": "Yes. Where you have an employed Level 3 and need reinforcement, we attend as support: managing the records room, retrieving sampled files, and drafting root cause responses in parallel while the assessment continues. Ask for a quote and we will scope it against your audit date, your methods and the size of your personnel list."
+        "a": "Yes. Where Atlantis acts as your outside agency Level III in UT, RT, MT, PT or VT, attendance is written into the agreement against your scheduled audit dates rather than left to availability. Where you have an employed Level 3 and need reinforcement, we attend as support: managing the records room, retrieving sampled files, and drafting root cause responses in parallel while the assessment continues. Ask for a quote and we will scope it against your audit date, your methods and the size of your personnel list."
       }
     ]
   },
@@ -5971,61 +5988,74 @@
   {
     "slug": "/et-level-1-training",
     "title": "ET Level 1 Course — Online & Onsite ASNT Training",
-    "description": "ET Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 eddy current hours, with the aerospace route explained. Online or onsite delivery.",
+    "description": "ET Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 eddy current hours, for aerospace, aviation and industrial employers. Online or onsite.",
     "h1": "ET Level 1 Course — Eddy Current Testing Level I Training",
-    "answer": "ET Level I requires 40 hours of formal training and 210 hours of eddy current experience under SNT-TC-1A, certified by your employer through general, specific, and practical exams. Level I runs preset, calibrated scans — signal interpretation waits for Level II.",
-    "expansion": "Eddy current is the one common method where the governing standard genuinely depends on industry, so an ET Level I plan starts with a destination question. General industry — tubing inspection, conductivity sorting, weld testing — runs on SNT-TC-1A's employer-based model: 40 training hours, 210 method hours from Table 6.3.1A, written practice, five-year recertification. Aerospace employers work to the customer-specified aerospace standard, which typically asks for more experience hours. Either way, Level I work is executing preset scans — lift-off compensated, reference-standard calibrated — with go/no-go thresholds, because impedance-plane interpretation is reserved for Level II. Method fundamentals are at /eddy-current-testing-training, entry-level context at /ndt-level-1-training, and hour tables at /blog/ndt-training-hours-requirements-by-method.",
-    "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A",
+    "answer": "ET Level I requires 40 hours of formal training and 210 hours of eddy current experience under SNT-TC-1A, certified by your employer through general, specific, and practical exams. Atlantis delivers that training under ASNT SNT-TC-1A for aerospace and aviation employers too; their written practice adds customer flow-down requirements, Level III-approved exams and practicals on representative parts. Level I runs preset, calibrated scans — signal interpretation waits for Level II.",
+    "expansion": "Eddy current is aviation's volume method, and the written practice that will certify you depends on industry, so an ET Level I plan starts with a destination question. General industry — tubing inspection, conductivity sorting, weld testing — runs on SNT-TC-1A's employer-based model: 40 training hours, 210 method hours from Table 6.3.1A, a written practice, and recertification at the interval it sets within ASNT's recommended five-year maximum. Aerospace manufacturing and MRO build on the same SNT-TC-1A base, starting from the same 40 training hours and 210 method hours, and add what aerospace audits look for: a written Level III designation (the Responsible Level 3 in Nadcap AC7114), Level III-approved examinations, practicals on representative parts, per-method experience logs, vision tracking, and limited certification for single tasks. Either way, Level I work is executing preset scans — lift-off compensated, reference-standard calibrated — with go/no-go thresholds, because impedance-plane interpretation is reserved for Level II. Method fundamentals are at /eddy-current-testing-training, entry-level context at /ndt-level-1-training, and hour tables at /blog/ndt-training-hours-requirements-by-method.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024), Table 6.3.1A; PRI Nadcap AC7114 audit criteria for aerospace written practice context",
     "table": {
-      "caption": "ET Level I requirements under SNT-TC-1A",
+      "caption": "ET Level I requirements: SNT-TC-1A baseline and the aerospace written practice",
       "columns": [
         "Requirement",
-        "SNT-TC-1A (general industry)"
+        "SNT-TC-1A (general industry)",
+        "Aerospace written practice (SNT-TC-1A based)"
       ],
       "rows": [
         [
           "Document status",
-          "Recommended practice — employer's written practice governs"
+          "Recommended practice — employer's written practice governs",
+          "Built on SNT-TC-1A, aligned to customer flow-down and AC7114"
         ],
         [
           "Formal training",
+          "40 hours",
           "40 hours"
         ],
         [
           "Method experience",
-          "210 hours"
+          "210 hours",
+          "210 hours minimum, logged per method with dates and supervisor"
         ],
         [
           "General exam",
-          "Closed-book; question count per written practice"
+          "Closed-book; question count per written practice",
+          "Closed-book; Level III-approved question bank"
         ],
         [
           "Specific exam",
-          "Open/closed per written practice"
+          "Open/closed per written practice",
+          "Covers customer process specs and OEM procedures"
         ],
         [
           "Vision",
-          "Near-vision annually; color at ≤5-year intervals"
+          "Near-vision and color contrast; interval per written practice",
+          "Near-vision and color tracked per individual; checked at AC7114 audit"
         ],
         [
           "Limited certifications",
-          "Employer-defined limited Level I possible"
+          "Employer-defined limited Level I possible",
+          "Limited certification for a specific test on specific parts, scoped in writing"
         ],
         [
           "Refresher trigger",
-          "Per written practice"
+          "Per written practice",
+          "Stated in the written practice and checked at audit"
         ]
       ],
-      "note": "Employers certify under both systems. European aerospace equivalent is EN 4179."
+      "note": "The employer certifies in both columns; the aerospace written practice also names its Responsible Level 3 in writing, which AC7114 assessors check."
     },
     "facets": [
+      {
+        "q": "Does my ET Level I training carry over to aerospace work?",
+        "a": "Yes. Your employer's customer base decides which written practice certifies you. Aerospace primes and their supply chains flow down their own requirements on top of SNT-TC-1A; oil and gas, power, and general manufacturing run the SNT-TC-1A baseline. Training overlaps heavily — the experience logging, exam content and practical specimens differ."
+      },
       {
         "q": "What does an ET Level I actually do all day?",
         "a": "Runs calibrated, preset inspections: conductivity sorting of alloys, coating thickness checks, surface scans around fasteners with pencil probes, or feeding tubes through encircling coils — recording responses against go/no-go thresholds set up by a Level II."
       },
       {
         "q": "How long does ET Level I take?",
-        "a": "One week for the 40-hour course, then 210 supervised hours (SNT-TC-1A) in roughly six to eight weeks of full-time work — or 400 hours under the customer-specified aerospace standard, closer to three months. One week for the 40-hour course, then 210 supervised hours under SNT-TC-1A, roughly six to eight weeks of full-time work. Aerospace programmes ask for more experience hours, so the clock runs longer there."
+        "a": "One week for the 40-hour course, then 210 supervised hours (SNT-TC-1A) in roughly six to eight weeks of full-time work. An aerospace written practice that flows down more hours stretches the clock, so check yours before planning."
       },
       {
         "q": "Is eddy current harder to learn than UT?",
@@ -6033,26 +6063,36 @@
       },
       {
         "q": "Can ET Level I evaluate indications?",
-        "a": "No. Level I executes tests and records responses per written instruction. Judging whether a signal is a crack, lift-off, edge effect, or conductivity change is impedance-plane interpretation — the defining Level II skill under both SNT-TC-1A."
+        "a": "No. Level I executes tests and records responses per written instruction. Judging whether a signal is a crack, lift-off, edge effect, or conductivity change is impedance-plane interpretation — the defining Level II skill in every SNT-TC-1A-based written practice, aerospace included."
+      },
+      {
+        "q": "What is a limited ET Level I certification?",
+        "a": "A certification scoped in the written practice to one specific test on a specific part or feature — for example, a single bolt-hole inspection task. It carries reduced requirements and strict scope limits, letting aerospace shops certify production personnel narrowly and quickly."
       }
     ],
     "sections": [
       {
-        "heading": "Two standards, one method: pick your track first",
+        "heading": "One baseline, two destinations: pick your track first",
         "paragraphs": [
-          "Eddy current qualification runs on two parallel systems, and the split follows industry lines almost perfectly. General industry — heat-exchanger tubing, conductivity sorting, weld and surface inspection in energy and manufacturing — uses SNT-TC-1A: an ASNT recommended practice implemented through each employer's written practice. Aerospace manufacturing, overhaul and their supply chains work to customer-specified aerospace standards whose requirements are mandatory and approved by a Responsible Level 3. Both are employer-based certification; the difference is rigidity and hours."
+          "Eddy current qualification runs on one baseline with two destinations, and the split follows industry lines almost perfectly. General industry — heat-exchanger tubing, conductivity sorting, weld and surface inspection in energy and manufacturing — uses SNT-TC-1A: an ASNT recommended practice implemented through each employer's written practice. Aerospace manufacturing, overhaul, and their supply chains build their written practices on the same SNT-TC-1A base and add customer flow-down requirements, written as mandatory 'shall' statements and approved by a named Responsible Level 3. Both are employer-based certification; the difference is rigidity and audit evidence. Since aerospace is eddy current's largest employment market, most ET careers eventually pass through an aerospace written practice — worth knowing before choosing a first course."
         ]
       },
       {
         "heading": "The SNT-TC-1A numbers for ET Level I",
         "paragraphs": [
-          "Table 6.3.1A recommends 40 hours of formal training and 210 hours of eddy current experience for Level I, within roughly 400 total NDT hours — the same tier as UT and RT, reflecting the method's theoretical density. The employer's Level III administers general, specific, and practical exams at a recommended 80 percent composite, annual near-vision checks apply, and recertification comes due at intervals not exceeding five years. Candidates with two years of engineering or science study may qualify for reduced classroom hours, a provision that matters more in ET than most methods because electrical-background candidates absorb the theory faster. Full method-by-method comparisons live at /blog/ndt-training-hours-requirements-by-method."
+          "Table 6.3.1A recommends 40 hours of formal training and 210 hours of eddy current experience for Level I, within roughly 400 total NDT hours — the same tier as UT and RT, reflecting the method's theoretical density. The employer's Level III administers general, specific, and practical exams at a recommended 80 percent composite with no single exam below 70 percent, vision checks run at the interval the written practice sets, and ASNT describes a recommended maximum recertification interval of five years, with the written practice setting the actual one. Candidates with two years of engineering or science study may qualify for reduced classroom hours, a provision that matters more in ET than most methods because electrical-background candidates absorb the theory faster. Full method-by-method comparisons live at /blog/ndt-training-hours-requirements-by-method."
+        ]
+      },
+      {
+        "heading": "What aerospace written practices add — and why",
+        "paragraphs": [
+          "An aerospace written practice keeps the SNT-TC-1A 40 formal training hours for ET Level I and hardens what SNT-TC-1A leaves flexible. Experience is logged per method with dates and a supervising signature, so an AC7114 assessor can trace every hour. The general and specific examinations come from a Level III-approved question bank, with the specific exam built on the customer's process specifications and OEM procedures. Vision is tracked per individual and checked at audit. Refresher training applies when certification does not follow training within the period the written practice sets. And the written practice names the employer's Responsible Level 3 in writing. Aerospace justifies the extra weight simply: eddy current findings on fatigue-critical airframe and engine parts leave no margin for marginal qualification. The method detail sits under [aerospace ET requirements](/compliance/aerospace-ndt/et)."
         ]
       },
       {
         "heading": "What a Level I does: preset scans, not interpretation",
         "paragraphs": [
-          "Level I eddy current work is executing inspections a Level II has already engineered. The technician calibrates on a reference standard with EDM notches or drilled holes, verifies instrument response, then runs the prescribed scan — a pencil probe around fastener heads, an encircling coil on bar stock, a conductivity meter sorting alloy batches, a coating-thickness check on anodized parts — recording results against preset alarm gates. What Level I explicitly does not do is decide what a signal means. Lift-off wobble, edge effect, permeability noise, and real cracks can all deflect the same trace; separating them on the impedance plane is Level II authority under both standards. The discipline of the role is procedural fidelity."
+          "Level I eddy current work is executing inspections a Level II has already engineered. The technician calibrates on a reference standard with EDM notches or drilled holes, verifies instrument response, then runs the prescribed scan — a pencil probe around fastener heads, an encircling coil on bar stock, a conductivity meter sorting alloy batches, a coating-thickness check on anodized parts — recording results against preset alarm gates. What Level I explicitly does not do is decide what a signal means. Lift-off wobble, edge effect, permeability noise, and real cracks can all deflect the same trace; separating them on the impedance plane is Level II authority in every written practice. The discipline of the role is procedural fidelity."
         ]
       },
       {
@@ -6064,36 +6104,44 @@
       {
         "heading": "Exams and vision requirements",
         "paragraphs": [
-          "Under SNT-TC-1A, certification requires the standard three exams — closed-book general on ET fundamentals, specific on employer procedures, practical demonstrating calibration and scanning on real standards — at a recommended 80 percent composite. Vision requirements diverge meaningfully: SNT-TC-1A calls for annual near-vision at Jaeger No. For ET specifically, color perception matters at the screen — phase-coded trace displays assume it."
+          "Under SNT-TC-1A, certification requires the standard three exams — closed-book general on ET fundamentals, specific on employer procedures, practical demonstrating calibration and scanning on real standards — at a recommended 80 percent composite. Aerospace written practices draw the questions from a Level III-approved bank and add a proficiency demonstration typical of aerospace practicals: full setup, standardization, scan, and documentation on representative hardware. Vision covers near-vision acuity, at Jaeger No. 2 or equivalent under SNT-TC-1A, and color-contrast differentiation, at intervals the written practice states; aerospace written practices track each individual's due date because AC7114 assessors read those dates. For ET specifically, color perception matters at the screen — phase-coded trace displays assume it."
         ]
       },
       {
         "heading": "Where ET Level I gets hired",
         "paragraphs": [
-          "The second market is power and process industry tubing — condenser and heat-exchanger bundles inspected in outage seasons — plus alloy verification and weld testing in general manufacturing under SNT-TC-1A. Entry postings ask for the 40-hour certificate, documented trainee status, and increasingly a preference for candidates already inside an aerospace written practice. Because aerospace concentrates in specific regions — Wichita, Seattle, Connecticut's engine corridor, Texas and Florida MRO hubs — ET Level I mobility often matters more than in other methods."
+          "Aerospace absorbs most US eddy current capacity: airframe manufacturers, engine shops, and MRO stations inspecting fastener holes, wheel assemblies, turbine components, and structural repairs under aerospace written practices. The second market is power and process industry tubing — condenser and heat-exchanger bundles inspected in outage seasons — plus alloy verification and weld testing in general manufacturing under SNT-TC-1A. Entry postings ask for the 40-hour certificate, documented trainee status, and increasingly a preference for candidates already inside an aerospace written practice. Because aerospace concentrates in specific regions — Wichita, Seattle, Connecticut's engine corridor, Texas and Florida MRO hubs — ET Level I mobility often matters more than in other methods."
         ]
       },
       {
         "heading": "Pay and the case for moving to Level II fast",
         "paragraphs": [
-          "Entry ET pay tracks the general NDT floor — ZipRecruiter's NDT Level 2 band runs $48,000–$90,000 and Level I sits below its midpoint — against a BLS all-levels median of $78,350 for nondestructive testing specialists (May 2025). That makes the Level I phase an investment period: every logged hour counts toward the Level II requirement in the employer's written practice. US-first pay bands by method and industry are maintained at /blog/ndt-salary-guide-2026-global."
+          "Entry ET pay tracks the general NDT floor — ZipRecruiter's NDT Level 2 band runs $48,000–$90,000 and Level I sits below its midpoint — against a BLS all-levels median of $78,350 for nondestructive testing specialists (May 2025). The premium arrives with interpretation authority: aerospace ET Level IIs command strong rates precisely because the 840-hour direct-Level II experience requirement, logged to aerospace audit standard, keeps supply tight. That makes the Level I phase an investment period: every logged hour counts toward the Level II requirement. US-first pay bands by method and industry are maintained at /blog/ndt-salary-guide-2026-global."
         ]
       },
       {
         "heading": "Starting ET Level I with Atlantis",
         "paragraphs": [
-          "Employers get the full certification infrastructure from our ASNT Level III consultants: written practice development, examination administration with compliant question banks, vision programs, and audit-ready records. Affordable, accessible, fully customizable to your parts, probes, and procedures. Explore the method curriculum at /eddy-current-testing-training and the entry landscape at /ndt-level-1-training, then request a quote for a seat or a complete program."
+          "Atlantis NDT delivers 40-hour ET Level I training under ASNT SNT-TC-1A, aligned to the ASNT body of knowledge, for aerospace and aviation employers as well as general industry — one course, either destination. Employers get the full certification infrastructure from our ASNT Level III consultants: SNT-TC-1A written practices aligned to customer flow-down requirements and AC7114, controlled examination banks, vision programs, and audit-ready records, with the employer signing the certification. Affordable, accessible, fully customizable to your parts, probes, and procedures. See [aerospace NDT training](/aerospace-ndt-training) and [aviation NDT training](/aviation-ndt-training), explore the method curriculum at /eddy-current-testing-training and the entry landscape at /ndt-level-1-training, then request a quote for a seat or a complete program."
         ]
       }
     ],
     "faq": [
       {
+        "q": "Do the 40 training hours work for aerospace employers?",
+        "a": "Yes, when the course outline covers the required body of knowledge — SNT-TC-1A specifies 40 formal training hours for ET Level I, and an aerospace written practice built on it starts from the same figure. The difference is downstream: dated experience logs, Level III-approved exams, practicals on representative parts and individual vision tracking."
+      },
+      {
         "q": "Can prior electronics experience reduce my ET requirements?",
-        "a": "Under SNT-TC-1A, two years of engineering or science study can reduce classroom hours at the Level III's discretion, and documented prior training may be credited."
+        "a": "Under SNT-TC-1A, two years of engineering or science study can reduce classroom hours at the Level III's discretion, and documented prior training may be credited. An aerospace written practice credits documented previous training and experience and states plainly whether any reduction applies."
       },
       {
         "q": "Is ET Level I certification portable?",
-        "a": "No — certification is employer-issued under both standards and ends with employment."
+        "a": "No — certification is employer-issued under SNT-TC-1A and every written practice built on it, and ends with employment. Your training certificates and experience logs transfer, and aerospace shops accept documented prior hours; recertification with a new employer is fast when records are complete."
+      },
+      {
+        "q": "Does Atlantis train ET Level I for aviation MRO employers?",
+        "a": "Yes. Atlantis delivers ET Level I training on ASNT SNT-TC-1A for aviation MRO and repair station employers; the repair station's written practice adds its OEM manual requirements and the FAA Part 145 training programme. Multinational aerospace employers typically run one written practice across their sites."
       },
       {
         "q": "Does ET Level I cover tube inspection?",
@@ -6104,61 +6152,74 @@
   {
     "slug": "/et-level-2-training",
     "title": "ET Level 2 Course — Online & Onsite ASNT Training",
-    "description": "ET Level 2 course under ASNT SNT-TC-1A: 80 training hours, 840 experience hours, impedance-plane interpretation and the aerospace contrast. Online or onsite.",
+    "description": "ET Level 2 course under ASNT SNT-TC-1A for aerospace and aviation: 80 training hours, 840 experience hours, impedance-plane interpretation. Online or onsite.",
     "h1": "ET Level 2 Course — Eddy Current Testing Level II Training",
-    "answer": "ET Level II under SNT-TC-1A requires 80 cumulative training hours (40 plus 40) and 840 cumulative experience hours (210 plus 630). Level II holds interpretation authority: reading the impedance plane and dispositioning parts.",
-    "expansion": "Eddy current Level II is where the aerospace demand story concentrates. The standards diverge exactly where it costs time: formal training is 40+40 hours under both systems, but SNT-TC-1A's cumulative 840 experience hours become 1,200 under the customer-specified aerospace standard for direct Level 2 (400 at Level 1 plus 800 more with prior Level 1 certification). General industry keeps its own Level II market in heat-exchanger tubing analysis. Method fundamentals are at /eddy-current-testing-training, the cross-method Level II view at /ndt-level-2-training, and full hour tables at /blog/ndt-training-hours-requirements-by-method.",
-    "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A",
+    "answer": "ET Level II under SNT-TC-1A requires 80 cumulative training hours (40 plus 40) and 840 cumulative experience hours (210 plus 630). Atlantis delivers that training under ASNT SNT-TC-1A for aerospace and aviation employers, whose written practice adds Level III-approved exams, practicals on representative hardware and per-method experience logs. Level II holds interpretation authority: reading the impedance plane and dispositioning parts.",
+    "expansion": "Eddy current Level II is where the aerospace demand story concentrates. Airframe and engine inspection is fatigue-crack detection around fasteners, bolt holes, and blade roots — work that only an interpreting Level II can disposition, and the logged experience behind that authority keeps qualified supply chronically short. SNT-TC-1A sets the hours: formal training is 40+40, and experience is a cumulative 840 hours (210 plus 630). Aerospace written practices built on it add what audits look for — Level III-approved examination banks, practicals on representative hardware, per-method experience logs, individual vision tracking, and a Responsible Level 3 named in writing. General industry keeps its own Level II market in heat-exchanger tubing analysis. Method fundamentals are at /eddy-current-testing-training, the cross-method Level II view at /ndt-level-2-training, and full hour tables at /blog/ndt-training-hours-requirements-by-method.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024), Table 6.3.1A; PRI Nadcap AC7114 audit criteria for aerospace written practice context",
     "table": {
-      "caption": "ET Level II requirements under SNT-TC-1A",
+      "caption": "ET Level II requirements: SNT-TC-1A baseline and the aerospace written practice",
       "columns": [
         "Requirement",
-        "SNT-TC-1A (general industry)"
+        "SNT-TC-1A (general industry)",
+        "Aerospace written practice (SNT-TC-1A based)"
       ],
       "rows": [
         [
           "Formal training, cumulative",
+          "80 hours (40 Level I + 40 Level II)",
           "80 hours (40 Level I + 40 Level II)"
         ],
         [
           "Experience, cumulative",
-          "840 hours (210 + 630)"
+          "840 hours (210 + 630)",
+          "840 hours minimum, logged per method with dates and supervisor"
         ],
         [
           "General exam",
-          "Closed-book; content per written practice"
+          "Closed-book; content per written practice",
+          "Closed-book; Level III-approved question bank"
         ],
         [
           "Specific exam",
-          "Per written practice"
+          "Per written practice",
+          "Covers customer process specs and OEM procedures"
         ],
         [
           "Practical exam",
-          "Calibration, scan, evaluation on samples"
+          "Calibration, scan, evaluation on samples",
+          "Proficiency demonstration on representative aerospace hardware"
         ],
         [
           "Vision",
-          "Near-vision annually; color at ≤5-year intervals"
+          "Near-vision and color contrast; interval per written practice",
+          "Near-vision and color tracked per individual; checked at audit"
         ],
         [
           "Interpretation authority",
-          "Evaluates and dispositions per code/procedure"
+          "Evaluates and dispositions per code/procedure",
+          "Sets up, standardizes, interprets, accepts/rejects; guides Level 1s"
         ],
         [
           "Recertification",
-          "≤5-year interval per written practice"
+          "≤5-year interval per written practice",
+          "Interval per written practice, aligned to customer flow-down; refresher rules stated"
         ]
       ],
-      "note": "SNT-TC-1A certification is employer-based."
+      "note": "Both columns are employer-based. The aerospace written practice carries Responsible Level 3 approval, which AC7114 assessors check."
     },
     "facets": [
+      {
+        "q": "Why do aerospace employers ask for more than the SNT-TC-1A minimums?",
+        "a": "Aerospace eddy current findings disposition fatigue-critical hardware — engine disks, wing attachments, bolt holes — where a missed crack is catastrophic. Aerospace written practices hold the SNT-TC-1A hours as firm minimums and add dated logs, Level III-approved exams and practicals on real hardware, which buys judgment that classroom hours cannot."
+      },
       {
         "q": "What does an ET Level II do that a Level I cannot?",
         "a": "Set up and standardize equipment from scratch, choose frequencies and probes within procedure limits, interpret impedance-plane signals — separating cracks from lift-off, edge effect, and permeability noise — accept or reject parts, document dispositions, and supervise Level I technicians and trainees."
       },
       {
         "q": "How long does it take to reach ET Level II in aerospace?",
-        "a": "The SNT-TC-1A route at 840 hours runs a few months faster."
+        "a": "With SNT-TC-1A's 840 cumulative experience hours, a full-time trainee needs roughly five to seven months of logged method time plus 80 training hours and exams. Where the aerospace written practice flows down more hours or part-specific practicals, plan for about a year."
       },
       {
         "q": "Is heat-exchanger tubing analysis a Level II job?",
@@ -6166,7 +6227,7 @@
       },
       {
         "q": "Do aerospace employers accept SNT-TC-1A ET Level II?",
-        "a": "Generally no. Your training and logged hours carry over, but the employer must certify you under its aerospace written practice, including its mandated exams and annual vision."
+        "a": "Yes, as a foundation. Aerospace employers certify under their own written practice, which Atlantis builds on SNT-TC-1A with the primes' flow-down requirements added. Your training and logged hours carry over, but the employer must examine and certify you under that written practice, including its Level III-approved exams, practicals on aerospace hardware and vision tracking."
       },
       {
         "q": "What surface techniques does aerospace ET Level II cover?",
@@ -6175,21 +6236,21 @@
     ],
     "sections": [
       {
-        "heading": "The SNT-TC-1A hour-stack",
+        "heading": "The SNT-TC-1A hour-stack, and what aerospace adds",
         "paragraphs": [
-          "Formal training is 40 hours at Level I plus 40 at Level II, 80 cumulative. SNT-TC-1A recommends 210 plus 630 hours of experience — 840 cumulative in the method — and aerospace programmes set higher experience floors. Plan your timeline against the standard your target industry actually uses; the tables for every method are at /blog/ndt-training-hours-requirements-by-method."
+          "Formal training under SNT-TC-1A is 40 hours at Level I plus 40 at Level II, 80 cumulative. Experience is 210 plus 630 hours — 840 cumulative in the method — alongside a separate total-hours-in-NDT figure of 1,600 at direct-entry Level II. Aerospace written practices start from the same hour-stack and change what the hours must prove: every hour logged per method with dates and a supervising signature, on the part families the customer flows down. SNT-TC-1A's table is a recommendation employers adapt; an aerospace written practice holds its figures as firm minimums because AC7114 assessors check each record against them. Plan your timeline against the written practice your target industry actually uses; the tables for every method are at /blog/ndt-training-hours-requirements-by-method."
         ]
       },
       {
         "heading": "Interpretation authority: the impedance plane is the job",
         "paragraphs": [
-          "An ET Level II's defining skill is reading the impedance plane — the two-dimensional display where every signal is a vector whose phase and amplitude encode what caused it. Lift-off sweeps one direction; conductivity change another; a surface crack breaks the eddy current flow with a phase signature that deepens predictably with flaw depth. The Level II separates these in real time, on parts where edge effect, fastener geometry, and permeability noise all crowd the screen. Under both standards, that judgment carries disposition authority: accept, reject, document, and defend. It is also why the experience walls exist — phase discrimination is pattern recognition, and pattern recognition is built only from hours of standardized, supervised looking."
+          "An ET Level II's defining skill is reading the impedance plane — the two-dimensional display where every signal is a vector whose phase and amplitude encode what caused it. Lift-off sweeps one direction; conductivity change another; a surface crack breaks the eddy current flow with a phase signature that deepens predictably with flaw depth. The Level II separates these in real time, on parts where edge effect, fastener geometry, and permeability noise all crowd the screen. Under every written practice, that judgment carries disposition authority: accept, reject, document, and defend. It is also why the experience walls exist — phase discrimination is pattern recognition, and pattern recognition is built only from hours of standardized, supervised looking."
         ]
       },
       {
         "heading": "Why aerospace demand concentrates at ET Level II",
         "paragraphs": [
-          "Aerospace is the largest eddy current employer because the method is unmatched for surface and near-surface fatigue cracks in conductive alloys — exactly the failure mode that governs aircraft structures. Airframe programs inspect fastener holes and skin around them; engine shops inspect disk bores, blade roots, and dovetails; MRO stations re-inspect on every heavy check. The result is a persistent seller's market for certified aerospace ET Level IIs, concentrated around US aerospace hubs — Wichita, the Puget Sound, Connecticut's engine corridor, and the Texas and Florida MRO belts."
+          "Aerospace is the largest eddy current employer because the method is unmatched for surface and near-surface fatigue cracks in conductive alloys — exactly the failure mode that governs aircraft structures. Airframe programs inspect fastener holes and skin around them; engine shops inspect disk bores, blade roots, and dovetails; MRO stations re-inspect on every heavy check. All of it requires an interpreting Level II under an aerospace written practice, and the 840 logged experience hours behind each one mean supply cannot surge when demand does. The result is a persistent seller's market for certified aerospace ET Level IIs, concentrated around US aerospace hubs — Wichita, the Puget Sound, Connecticut's engine corridor, and the Texas and Florida MRO belts."
         ]
       },
       {
@@ -6199,48 +6260,56 @@
         ]
       },
       {
-        "heading": "Exams under both standards — and where candidates fail",
+        "heading": "Exams in general and aerospace programs — and where candidates fail",
         "paragraphs": [
-          "SNT-TC-1A prescribes the familiar trio — general, specific, practical — at a recommended 80 percent composite, with content set by the written practice. Failure patterns are consistent across both systems: candidates pass the written exams and stumble on practical interpretation — misreading phase on a bolt-hole standard, or failing to re-verify standardization after a probe change."
+          "SNT-TC-1A prescribes the familiar trio — general, specific, practical — at a recommended 80 percent composite, with content set by the written practice. Aerospace written practices harden the structure: the general exam is closed-book from a Level III-approved question bank; the specific covers the employer's specifications and techniques; and the practical is a proficiency demonstration on representative hardware, from setup and standardization through scan, interpretation, and documentation. Failure patterns are consistent across both: candidates pass the written exams and stumble on practical interpretation — misreading phase on a bolt-hole standard, or failing to re-verify standardization after a probe change. An aerospace written practice also states the documented remedial training required before any re-examination."
         ]
       },
       {
-        "heading": "Vision requirements: annual, and stricter in aerospace",
+        "heading": "Vision requirements: tracked per person, audited in aerospace",
         "paragraphs": [
-          "SNT-TC-1A's regime — annual near-vision at Jaeger No. 2 or equivalent from not less than 12 inches, color-contrast differentiation at intervals not exceeding five years — is the general-industry baseline. For eddy current the color requirement is functional, not formal: modern instruments encode channels and alarm states in color, and array systems paint C-scans in graded palettes. Lapsed vision exams suspend certification immediately under both systems, and aerospace auditors check vision records with the same rigor as exam scores — an easily avoided finding that shows up in real audits constantly."
+          "SNT-TC-1A's regime — near-vision at Jaeger No. 2 or equivalent from not less than 12 inches, plus color-contrast differentiation, at intervals the written practice sets — is the baseline. Aerospace written practices track both examinations per individual for every certified level, because AC7114 assessors read each date. For eddy current the color requirement is functional, not formal: modern instruments encode channels and alarm states in color, and array systems paint C-scans in graded palettes. Lapsed vision exams suspend certification immediately under any written practice, and aerospace auditors check vision records with the same rigor as exam scores — an easily avoided finding that shows up in real audits constantly."
         ]
       },
       {
         "heading": "What ET Level II pays in the US",
         "paragraphs": [
-          "ZipRecruiter's NDT Level 2 band runs $48,000 to $90,000 with top earners above it, and the BLS median for all nondestructive testing specialists sits at $78,350 (May 2025). Multi-technique holders (surface, bolt-hole rotary, array, tubing) out-earn single-technique peers consistently. US-first bands by method, industry, and region — including how aerospace ET compares against pipeline RT and PAUT premiums — are maintained at /blog/ndt-salary-guide-2026-global."
+          "ZipRecruiter's NDT Level 2 band runs $48,000 to $90,000 with top earners above it, and the BLS median for all nondestructive testing specialists sits at $78,350 (May 2025). Aerospace ET Level IIs cluster in the upper half of that range: the logged experience aerospace audits demand restricts supply, and primes pay for it — with engine-shop and nuclear tubing-analysis roles at the top of the method. Multi-technique holders (surface, bolt-hole rotary, array, tubing) out-earn single-technique peers consistently. US-first bands by method, industry, and region — including how aerospace ET compares against pipeline RT and PAUT premiums — are maintained at /blog/ndt-salary-guide-2026-global."
         ]
       },
       {
         "heading": "Routes to ET Level II: ladder, direct, and crossover",
         "paragraphs": [
-          "Three routes lead here. The ladder route certifies Level I first — 40 hours training, 210 or 400 experience hours by standard — then adds the second 40-hour course and remaining hours. The direct route runs the full stack as a documented trainee: 80 training and 840 hours under SNT-TC-1A, or 1,200 under the customer-specified aerospace standard, then examines straight to Level II. Complete personal records make every route faster."
+          "Three routes lead here. The ladder route certifies Level I first — 40 hours training, 210 experience hours — then adds the second 40-hour course and remaining hours. The direct route runs the full stack as a documented trainee: 80 training and 840 experience hours under SNT-TC-1A, then examines straight to Level II. The crossover route brings a certified ET Level II across the industry boundary — general industry to aerospace or back — carrying training certificates and logged hours but requiring full re-examination under the new employer's written practice, including aerospace practicals, Level III-approved exams and vision tracking when moving toward aerospace. Complete personal records make every route faster."
         ]
       },
       {
         "heading": "Training ET Level II with Atlantis",
         "paragraphs": [
-          "For employers, our ASNT Level III consultants deliver the full program: compliant written practices with Responsible Level 3 review, examination banks meeting the 40/30 question minimums, annual vision tracking, and audit-ready records. Affordable, accessible, fully customizable to your hardware and specifications. Start from /eddy-current-testing-training and /ndt-level-2-training, then request a quote for seats or a complete certification program."
+          "Atlantis NDT's 40-hour ET Level II course is built around interpretation: impedance-plane analysis drills, phase-depth discrimination on EDM-notched standards, bolt-hole and surface-scan practicals, and tubing-signal fundamentals — delivered under ASNT SNT-TC-1A for aerospace, aviation MRO and general industry employers alike. For employers, our ASNT Level III consultants deliver the full program: SNT-TC-1A written practices aligned to customer flow-down requirements and AC7114, controlled examination banks, individual vision tracking, and audit-ready records, with the employer signing the certification. Affordable, accessible, fully customizable to your hardware and specifications. Start from [aerospace NDT training](/aerospace-ndt-training), [aviation NDT training](/aviation-ndt-training), /eddy-current-testing-training and /ndt-level-2-training, then request a quote for seats or a complete certification program."
         ]
       }
     ],
     "faq": [
       {
         "q": "Can I certify directly to ET Level II without holding Level I?",
-        "a": "Yes, under both standards. SNT-TC-1A requires the summed hours — 80 training, 840 experience."
+        "a": "Yes. SNT-TC-1A requires the summed hours — 80 training, 840 experience. An aerospace written practice permits the same direct route, with every hour logged as a documented trainee under qualified supervision before examination."
+      },
+      {
+        "q": "Do my SNT-TC-1A hours count with an aerospace employer?",
+        "a": "Documented training and experience hours carry over — aerospace written practices accept verifiable prior records. But the new employer must still examine and certify you under its own written practice, meeting its exam, practical and vision requirements in full."
       },
       {
         "q": "Is eddy current array a separate certification from ET Level II?",
         "a": "Typically an additional technique qualification on top of conventional ET Level II, with supplemental training and practical examination defined in the written practice — parallel to how PAUT sits atop conventional UT. Array-qualified Level IIs command a premium."
       },
       {
+        "q": "How often must an aerospace ET Level II recertify?",
+        "a": "ASNT describes a recommended maximum interval of five years; the employer's written practice sets the actual interval, aligned to customer flow-down requirements, with vision exams tracked throughout and refresher training triggered by gaps — including a lapse between training and certification, or extended interruption of method work."
+      },
+      {
         "q": "What should I study for the ET Level II general exam?",
-        "a": "Impedance-plane theory, phase-depth relationships, skin depth and frequency selection, probe types and field patterns, standardization discipline, and signal discrimination — cracks versus lift-off, edge, and permeability effects. Under the customer-specified aerospace standard, expect at least 40 closed-book questions across that span."
+        "a": "Impedance-plane theory, phase-depth relationships, skin depth and frequency selection, probe types and field patterns, standardization discipline, and signal discrimination — cracks versus lift-off, edge, and permeability effects. In an aerospace written practice, expect a closed-book exam from a Level III-approved bank across that span."
       }
     ]
   },
@@ -13645,12 +13714,12 @@
   },
   {
     "slug": "/consulting/faa-part-145-repair-station-ndt",
-    "title": "An FAA NDT Rating Is a 145.61(b)(9) Limited Rating, Not an Add-On",
-    "description": "Nondestructive testing is a §145.61(b)(9) limited rating. What your QCM, training program and opspec must contain, which NDT standards the FAA accepts, and why.",
+    "title": "FAA NDT Rating: A 145.61(b)(9) Limited Rating, Not an Add-On",
+    "description": "Nondestructive testing is a §145.61(b)(9) limited rating. What your QCM, training program and opspec must contain, and which NDT standards the FAA accepts.",
     "h1": "14 CFR Part 145 Repair Station NDT: Rating, Manuals, Personnel",
     "answer": "Nondestructive testing is a limited rating under 14 CFR 145.61(b)(9), \"Nondestructive inspection, testing, and processing.\" Section 145.61(c) requires your operations specifications to name the specification you work to. Your quality control manual must carry inspector-proficiency procedures under 145.211(c)(1)(iv), and your FAA-approved training program under 145.163 must cover initial and recurrent NDT training.",
     "expansion": "The FAA does not certificate NDT technicians. AC 65-31B states plainly that in the United States there is no national certification requirement or standard for NDI personnel; qualification is employer-based and non-transferable. That single fact drives everything else. Because the certificate belongs to the employer, the repair station must own a written practice, name a Level III with authority to approve procedures, and hold examination and vision records for as long as each qualification is in effect. AC 65-31B paragraph 9b permits a qualified outside agency to provide NDI training, qualification and testing when the written practice says so. The FAA's own guidance sanctions an outsourced Level III. The repair station manual, quality control manual and FAA-approved training program then have to describe that arrangement: who the Level III is, what standard the shop works to, and how proficiency is maintained between audits.",
-    "source": "Verified against 14 CFR 145.61, 145.151, 145.155, 145.161, 145.163, 145.209 and 145.211 as published on Cornell LII; FAA AC 65-31B dated 2/24/14; FAA AC 25-29 dated 9/20/13; FAA AC 145-9A dated 10/6/17; FAA AC 145-10 dated 7/8/05.",
+    "source": "Verified against 14 CFR 145.61, 145.151, 145.155, 145.161, 145.163, 145.209 and 145.211 as published on Cornell LII; FAA AC 65-31B dated 2/24/14; FAA AC 25-29 dated 9/20/13; FAA AC 145-9A dated 10/6/17; FAA AC 145-10 dated 7/8/05; and the FAA memorandum \"Qualification Standards for Nondestructive Testing\" from AIR-200 and AFS-300 dated 15 June 2007. SNT-TC-1A references are to ASNT Recommended Practice No. SNT-TC-1A (2024). No Atlantis fee, rate or price is stated anywhere on this page.",
     "table": {
       "caption": "What each Part 145 document has to say about NDT, and which rule drives it",
       "columns": [
@@ -13691,6 +13760,12 @@
           "Training manager; approved by the FAA"
         ],
         [
+          "NDT written practice",
+          "Not a Part 145 document",
+          "Levels, classroom hours, OJT, examinations, vision, recertification intervals, built on SNT-TC-1A with OEM and customer requirements added",
+          "Level III"
+        ],
+        [
           "Personnel rosters",
           "14 CFR 145.161",
           "Every NDT inspector, with job title, total years of experience, prior employers and dates; updated within 5 business days of a change",
@@ -13712,7 +13787,7 @@
       },
       {
         "q": "Which NDT personnel standard does the FAA accept?",
-        "a": "The FAA also accepts other standards described in your quality manual if the Administrator finds them acceptable."
+        "a": "AC 65-31B paragraph 6 lists, among others, ASNT SNT-TC-1A, ATA Specification 105, CAN/CGSB-48.9712, ISO 9712 and the rescinded MIL-STD-410E. The FAA also accepts other standards described in your quality manual if the Administrator finds them acceptable. Atlantis builds Part 145 written practices on SNT-TC-1A and adds the OEM manual and customer requirements the work calls for."
       },
       {
         "q": "How often must NDT personnel be recertified?",
@@ -13753,7 +13828,7 @@
         "paragraphs": [
           "Section 145.155(a) requires the repair station to ensure persons performing inspections are thoroughly familiar with the applicable regulations and with the inspection methods, techniques, practices, aids, equipment and tools used to determine the airworthiness of the article, and proficient in using the various types of inspection equipment and visual inspection aids appropriate to that article. Section 145.155(b) requires inspectors to understand, read and write English. Those are competence statements. They are not certificates, and a Level II card on its own does not satisfy them.",
           "AC 145-9A section 5.8.3 explains how the FAA expects you to make competence auditable. The manual should say how initial qualification is established, whether by testing, previous experience or training; the minimum amount of experience required before an inspector can be listed on the roster; and who, by job title, makes that determination. Section 5.8.4 adds the sentence that ties Part 145 to the NDT world: inspectors performing NDT may need to meet the qualification requirements of other industry standards, such as eye exams.",
-          "That sentence is the hinge of the whole page. Part 145 never defines what an NDT Level II is. SNT-TC-1A defines it, through a written practice that a Level III owns and signs. Getting the written practice right first is what makes the proficiency procedure in the quality control manual short, specific and defensible, which is the sequence we follow in [NDT written practice development](/ndt-written-practice-development). Writing the QCM procedure first and back-filling a written practice produces two documents that disagree, and an inspector reads both."
+          "That sentence is the hinge of the whole page. Part 145 never defines what an NDT Level II is. The written practice defines it, built on SNT-TC-1A with your OEM manual and customer requirements added, and a Level III owns and signs it. Getting the written practice right first is what makes the proficiency procedure in the quality control manual short, specific and defensible, which is the sequence we follow in [NDT written practice development](/ndt-written-practice-development). Writing the QCM procedure first and back-filling a written practice produces two documents that disagree, and an inspector reads both."
         ]
       },
       {
@@ -13768,7 +13843,8 @@
         "heading": "Which NDT standards the FAA actually accepts",
         "paragraphs": [
           "On 15 June 2007 the FAA issued a memorandum from AIR-200 and AFS-300 titled Qualification Standards for Nondestructive Testing, addressed to all Manufacturing Inspection Office managers, all Manufacturing Inspection District and Satellite Offices, and all Flight Standards District Offices. It is information only and not national policy, and it opens with the fact that governs everything downstream: in the United States there is no national certification requirement or standard for aviation NDT personnel.",
-          "The memo lists the standards acceptable to the FAA. MIL-STD-410E, rescinded by the Department of Defense but still considered acceptable. ATA Specification 105, Guidelines for Training and Qualifying Personnel in Nondestructive Testing Methods. And SNT-TC-1A, described as a document providing guidelines for employers to establish in-house certification programs. AC 65-31B paragraph 6 repeats the list and adds CAN/CGSB-48.9712 and ISO 9712."
+          "The memo lists the standards acceptable to the FAA, including the following. MIL-STD-410E, rescinded by the Department of Defense but still considered acceptable. ATA Specification 105, Guidelines for Training and Qualifying Personnel in Nondestructive Testing Methods. And SNT-TC-1A, described as a document providing guidelines for employers to establish in-house certification programs. AC 65-31B paragraph 6 repeats the list and adds CAN/CGSB-48.9712 and ISO 9712.",
+          "For airframe, engine and component work the practical answer is an SNT-TC-1A written practice that adds what OEM process specifications and prime contracts call out: a Responsible Level 3 named in writing, Level III approval of instructors and examination material, practical examinations on representative parts, per-method experience logs and vision-examination tracking. Our page on aerospace NDT certification requirements at /aerospace-ndt-certification-requirements sets out the levels, hours and examination structure, and /consulting/aerospace-responsible-level-iii covers the ASNT NDT Level III consulting behind the Responsible Level 3 role, the single most common gap when a Part 145 shop moves from general aviation into prime-contract work. Atlantis delivers the [SNT-TC-1A-based method training](/aviation-ndt-training) behind that written practice; the repair station adds its OEM manual requirements and its Part 145 training program."
         ]
       },
       {
@@ -13815,8 +13891,12 @@
         "a": "Not to perform and report inspections. AC 65-31B states that inspection personnel qualified under it may be eligible for FAA repairman certification with an NDI rating, and paragraph 12 requires personnel records to include a copy of any repairman certificate issued. The certificate matters at return to service: AC 145-9A section 5.8.6 notes that if the person performing the final inspection is also authorized to approve an article for return to service, that person must be certificated under Part 65 for repair stations located within the United States."
       },
       {
+        "q": "Can a Part 145 shop build its NDT programme on SNT-TC-1A?",
+        "a": "Yes, as far as the FAA is concerned. AC 65-31B paragraph 6 lists SNT-TC-1A among acceptable standards, with a note that it is intended as a guideline for organisations to establish their own written practice for the qualification of NDT personnel and is not intended to be used as a strict specification. The work is in the written practice: OEM process specifications and prime contracts on aerospace work flow down their own requirements, so the written practice is built on SNT-TC-1A and aligned to them, and to AC7114 where Nadcap applies. Your operations specification under 145.61(c) has to name the specification you genuinely work to."
+      },
+      {
         "q": "How does an FAA NDT rating relate to Nadcap AC7114?",
-        "a": "They are separate approvals with overlapping evidence. The FAA rating authorises the repair station to perform NDT and return the article to service under Part 145. A shop pursuing both runs one written practice, one Level 3, one set of technician records and one set of procedures, then presents them to two audit bodies with different checklists. The duplication is in the paperwork, not in the programme."
+        "a": "They are separate approvals with overlapping evidence. The FAA rating authorises the repair station to perform NDT and return the article to service under Part 145. Nadcap AC7114 is a prime-driven special process accreditation that audits the same shop against its written practice and the customer's process specifications. A shop pursuing both runs one written practice, one Level 3, one set of technician records and one set of procedures, then presents them to two audit bodies with different checklists. The duplication is in the paperwork, not in the programme."
       },
       {
         "q": "What happens to the rating if our Level III leaves?",

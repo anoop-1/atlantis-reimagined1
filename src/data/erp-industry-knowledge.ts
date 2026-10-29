@@ -3,7 +3,7 @@ export interface IndustryKnowledge { headline: string; overview: string; ndtAngl
 export const industryKnowledge: Record<string, IndustryKnowledge> = {
   "aerospace-quality-control": {
     "headline": "ERP for aerospace NDT shops: certified personnel, approved procedures and reviewed reports",
-    "overview": "Aerospace NDT work, whether in an MRO hangar, a component shop or a supplier to a prime, depends on three things auditors check every time: qualified inspectors, approved techniques and calibrated equipment, all tied to a signed report. The Atlantis NDT ERP covers each of these. Vision tests are tracked separately with near vision, colour perception and contrast, and warnings start 90 days before expiry. The Procedures app controls technique documents through submitted, reviewed, approved and published with locked revisions. Asset Management tracks UT instruments, eddy current units, UV lamps, yokes and reference standards by serial number with calibration certificates and expiry alerts. NDT Reports covers UT, PAUT, ECT, PT, MT, RT, CR and more, with inspector, reviewer and approver signatures. Aerospace-specific records such as first article forms or material review boards are not standard features and are configured during implementation where needed.",
+    "overview": "Aerospace NDT work, whether in an MRO hangar, a component shop or a supplier to a prime, depends on three things auditors check every time: qualified inspectors, approved techniques and calibrated equipment, all tied to a signed report. The Atlantis NDT ERP covers each of these. The Certificates app records technician certifications with scheme, level, method, certifying body and dates, and the scheme list includes an 'other' option so qualifications under an aerospace employer written practice, built on SNT-TC-1A with the customer's requirements added, can be recorded alongside ASNT, ISO 9712, PCN or CSWIP. Vision tests are tracked separately with near vision, colour perception and contrast, and warnings start 90 days before expiry. The Procedures app controls technique documents through submitted, reviewed, approved and published with locked revisions. Asset Management tracks UT instruments, eddy current units, UV lamps, yokes and reference standards by serial number with calibration certificates and expiry alerts. NDT Reports covers UT, PAUT, ECT, PT, MT, RT, CR and more, with inspector, reviewer and approver signatures. Aerospace-specific records such as first article forms or material review boards are not standard features and are configured during implementation where needed.",
     "ndtAngle": "In aerospace NDT, a single lapsed vision test or an uncontrolled technique sheet can become an audit finding against the whole shop. The Atlantis NDT ERP puts dated, signed records behind each step: certification status computed automatically, procedure revisions locked once approved, calibration certificates stored per serial number, and reports signed by inspector, reviewer and approver. Timesheets warn if a technician logs work while a certificate is not valid.",
     "capabilities": [
       "Technician certifications by scheme, level and method, including an 'other' scheme for employer written practices",
@@ -17,7 +17,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
     ],
     "workflow": "A job is created with the customer PO, part or component details, methods and applicable specifications, and tasks are set up for each component or batch. The planner checks each inspector's certificates, vision test and medical fitness in their NDT profile, then reserves the calibrated equipment the technique requires; if a unit is already reserved or its calibration has lapsed, Team Assignments flags it. The inspector works to the approved technique revision, records results in the method report, for example ECT indications or PT method and developer, and signs. The reviewer and approver sign before the report is sent, and the PDF is produced in the customer's required template. Hours are logged against the job by work type and feed invoicing. Ahead of a customer or accreditation audit, the quality manager reviews the Expiring Soon and Expired menus, the calibration certificate register and pending procedure approvals, so any gap is closed before the auditor arrives.",
     "compliance": [
-      
+      "Aerospace written-practice qualifications (SNT-TC-1A based, with customer flow-down requirements) recorded per technician",
       "ASNT SNT-TC-1A and CP-189 certification records",
       "Customer and prime specifications referenced on procedures and reports",
       "Calibrated equipment and reference standard records",
@@ -34,8 +34,8 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
     "roi": "Inspector qualification, technique approval and equipment calibration are visible at a glance, so gaps are closed before an audit rather than during it. Vision tests stop lapsing unnoticed between multi-year certification cycles, because they carry their own warnings. Reports carry their signatures and references, which makes customer queries and source inspections quicker to answer, and quality staff spend less time assembling evidence by hand.",
     "faqs": [
       [
-        "Can we record qualifications?",
-        "Yes."
+        "Can we record certifications under our aerospace written practice?",
+        "Yes. Certification records include SNT-TC-1A and an 'other' scheme option, so certifications under an employer written practice built on SNT-TC-1A plus your customer's aerospace requirements can be recorded with level, method and dates."
       ],
       [
         "Does the ERP generate first article inspection forms?",
