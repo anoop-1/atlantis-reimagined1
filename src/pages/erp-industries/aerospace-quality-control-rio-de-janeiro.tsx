@@ -63,7 +63,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Does it support aerospace personnel qualification under an SNT-TC-1A written practice?",
-      "Yes. Qualification under your ASNT SNT-TC-1A-based written practice is native — training hours, experience, General / Specific / Practical examinations, vision-test currency and recertification are all tracked per technician, with each customer's aerospace requirements and OEM endorsements layered on top. The qualification matrix supports method, technique, and customer-specific qualifications (e.g., Boeing FPI Level II per D-590) and exports as a Nadcap AC7114 audit pack for PRI eAuditNet. Atlantis also provides ASNT NDT Level III consulting to write or update the written practice itself."
+      "Yes. Qualification under your ASNT SNT-TC-1A-based written practice is native — training hours, experience, General / Specific / Practical examinations, vision tests and recertification are tracked per technician, with customer aerospace requirements and OEM endorsements on top. The qualification matrix supports method, technique, and customer-specific qualifications (e.g., Boeing FPI Level II per D-590) and exports a Nadcap AC7114 audit pack for PRI eAuditNet. Atlantis's ASNT NDT Level III consulting can draft the written practice itself."
     ],
     [
       "How are Boeing / Airbus / OEM customer quality clauses managed?",
