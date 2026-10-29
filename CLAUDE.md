@@ -3657,6 +3657,8 @@ preflight block 4b gains **"Aerospace offer not hedged"**: it fails on "customer
   - /aviation-ndt-training-san-antonio: 3,382, then 2,929, now ~3,500.
   - /ndt-for-aerospace: main text ~280 → ~770 words.
 
+**Deployed 2026-10-29** (main 32199285, Deploy to VPS run 40913759945 succeeded). Live check: the 7 sampled pages return 200 with new titles, 4 old nas-410 URLs 301 to their new pages, 0 "NAS 410" or hedge phrases on the 4 sampled aerospace pages, and the homepage video sits just before "See it working before you talk to us".
+
 ### 66.8 Safeguard: live city pages are sticky
 The NAS 410 pass also changed city profile data, which feeds the greedy similarity gates. That data was restored with the replacement wording:
 - consulting `localCompliance` and profiles
