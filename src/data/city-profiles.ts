@@ -447,7 +447,7 @@ export const ERP_CITY_PROFILES: Record<string, CityProductProfile> = {
     localCaseStudy: "A Chennai NDT contractor bidding into Kalpakkam nuclear supply-chain work replaced an Access DB radiographer dose tracker with Atlantis NDT ERP and cleared a BARC/AERB surveillance audit with zero findings — the platform's dose-record exports are now the contractor's standard AERB submission format.",
     faqs: [
       { question: "Does the ERP track AERB radiographer dose records for Kalpakkam and nuclear-supply-chain work?", answer: "Yes. Each radiographer has a live dose ledger (annual, 5-year rolling, lifetime) with automatic alerts at AERB threshold points. Ir-192 and Se-75 source activity decay is calculated per source serial, and AERB-format dose submissions are exportable in one click." },
-      
+      { question: "Can we track ISNT, ASNT and DGCA aerospace qualifications for the same technician?", answer: "Yes. Parallel qualifications are native to the profile, and the scheduler picks the correct scheme per work order — ISNT for PESO-regulated refineries, ASNT SNT-TC-1A written practices for aerospace supplier audits, and BARC endorsement for nuclear jobs." },
       { question: "Does the ERP support CPCL Manali refinery inspection report formats?", answer: "Yes. CPCL, IOCL Chennai and Nagapattinam refinery header/footer formats and circuit numbering conventions are pre-loaded, including the standard deviation-note and corrective-action sections each facility requires." },
       { question: "Can reports be produced in Tamil alongside English for Tamil Nadu state regulatory submissions?", answer: "Yes. Bilingual Tamil/English layouts are supported for factories-act and state-pollution-control submissions. Most client facing inspection reports remain English-only as per PESO/OISD precedent, with Tamil summary pages on request." },
     ],
@@ -457,14 +457,14 @@ export const ERP_CITY_PROFILES: Record<string, CityProductProfile> = {
     localIndustryUseCases: [
       "BHEL Ramachandrapuram heavy-equipment NDT for power generation pressure parts with IBR Form VI / VII evidence.",
       "HPCL Visakh refinery remote work coordination from Hyderabad engineering centres — live corrosion trending in a shared dashboard.",
-      "Defence and aerospace supplier audits (HAL, BDL, DRDO) with MIL-STD qualification matrices.",
+      "Defence and aerospace supplier audits (HAL, BDL, DRDO) with written-practice / MIL-STD qualification matrices.",
     ],
-    localCompliance: ["IBR 1950", "PESO", "AERB", "ISNT", "ASNT SNT-TC-1A",  "BIS IS 2825"],
+    localCompliance: ["IBR 1950", "PESO", "AERB", "ISNT", "ASNT SNT-TC-1A", "Aerospace written practice (SNT-TC-1A based)", "BIS IS 2825"],
     localCaseStudy: "A Hyderabad-headquartered NDT firm with deployed crews in Visakh, Jamnagar and Barmer unified eleven field site spreadsheets into Atlantis NDT ERP and, over two quarters, reduced aborted mobilisations (caused by stale qualification records) from nine to zero.",
     faqs: [
       { question: "Do you support Telugu/English bilingual inspector reports for Telangana industrial submissions?", answer: "Yes. Inspection reports can be generated in bilingual Telugu/English for Telangana factories-act submissions and Telugu-speaking client sites; most refinery clients (HPCL Visakh, IOCL Paradip) still receive English-only reports as per their standard." },
       { question: "Can the ERP coordinate crews between Hyderabad HQ and project sites in Visakh, Jamnagar or Barmer?", answer: "Yes. The multi-site view shows HQ engineering staff, field-deployed crews and sub-contracted technicians in a single roster with qualification currency, travel days and per-client written-practice alignment enforced before a work order can be assigned." },
-      
+      { question: "Does the platform track aerospace written-practice qualifications for HAL, BDL or DRDO supplier work?", answer: "Yes. Written-practice methods/levels, vision tests and recurrent training are tracked alongside ASNT and ISNT qualifications. The scheduler will not allow a technician without the aerospace written-practice qualification to be placed on a HAL or BDL work order." },
       { question: "Can we host within India for data-residency?", answer: "Yes. AWS Mumbai, AWS Hyderabad and Azure Central India are supported hosting regions. Dedicated tenancy with Indian-data-only policies is available for defence-supplier contractors." },
     ],
   },
@@ -854,7 +854,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     uniqueLocalROI: "Philadelphia/Delaware Valley inspection firms serving Monroe Energy Trainer refinery, the Marcus Hook ethane-export complex and Boeing Rotorcraft Ridley Park using Atlantis NDT ERP typically cut multi-state (PA/NJ/DE) OSHA PSM evidence assembly from days to hours, saving an estimated USD 200-280k/yr on a 25-technician crew.",
     localIndustryUseCases: [
       "Marcus Hook Industrial Complex NGL and ethane-export terminal inspection with OSHA PSM evidence packs.",
-      "Boeing Rotorcraft Ridley Park (V-22 Osprey, CH-47 Chinook) supplier certification currency tracking alongside industrial scopes.",
+      "Boeing Rotorcraft Ridley Park (V-22 Osprey, CH-47 Chinook) supplier written-practice certification currency tracking alongside industrial scopes.",
       "Multi-state mobilisation tracking across PA/NJ/DE for PBF Energy Delaware City and Eddystone power-complex inspection crews.",
     ],
     localCompliance: ["OSHA Region III", "EPA Region 3", "PADEP", "NJDEP", "DNREC", "PHMSA"],
@@ -885,7 +885,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localIndustryUseCases: [
       "Sinopec Yanshan refinery and petrochemical complex turnaround inspection with TSG 21-2016 special-equipment evidence-pack export.",
       "Multi-operator CNPC/Sinopec/CNOOC contractor-portal certification-record consolidation for firms bidding across all three majors.",
-      "AVIC and CALT aerospace-grade supplier certification currency tracking alongside industrial pressure-equipment scopes.",
+      "AVIC and CALT aerospace-grade supplier written-practice certification currency tracking alongside industrial pressure-equipment scopes.",
     ],
     localCompliance: ["SAMR (TSG 21-2016)", "NNSA (nuclear supply chain)", "MEE", "CCAA", "ChSNDT (GB/T 9445)"],
     localCaseStudy: "A Beijing-based inspection firm serving Sinopec's Yanshan complex consolidated CNPC, Sinopec and CNOOC contractor-portal evidence exports into Atlantis NDT ERP and cut multi-operator audit-pack assembly from several days to a single afternoon.",
@@ -894,7 +894,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     uniqueLocalROI: "Casablanca-based inspection firms serving OCP Group's phosphate-processing complexes, Renault Tanger Med and the Boeing/Airbus/Safran aerospace cluster at Nouaceur using Atlantis NDT ERP typically cut AMSSNuR radiography-licensing and IMANOR evidence prep from days to hours, saving an estimated MAD 900k-1.3M/yr on a 25-technician crew.",
     localIndustryUseCases: [
       "OCP Group Jorf Lasfar and Safi fertiliser-complex pressure-equipment inspection with IMANOR-format evidence export.",
-      "Renault Tanger Med and Stellantis Kenitra automotive-supplier weld and certification currency tracking.",
+      "Renault Tanger Med and Stellantis Kenitra automotive-supplier weld and written-practice certification currency tracking.",
       "Boeing/Airbus/Safran/Hexcel Casablanca Nouaceur aerospace-supplier NADCAP audit-pack export alongside trilingual Arabic/French/English documentation.",
     ],
     localCompliance: ["AMSSNuR (nuclear/radiological safety)", "IMANOR", "CNSS", "ISO 9712", "Personal Data Protection Law 09-08"],
@@ -921,14 +921,14 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Manila-based inspection firm serving Petron's Bataan refinery replaced manual DOLE OSH-standard tracking with Atlantis NDT ERP and cut certification-expiry write-offs across a 25-technician roster to near zero.",
   },
   'orlando': {
-    uniqueLocalROI: "Orlando-based inspection firms serving Lockheed Martin's Missiles and Fire Control campus and Kaman Precision Products using Atlantis NDT ERP typically cut certification currency and FAA Part 21 evidence prep from days to hours, saving an estimated USD 90-140k/yr on a 15-technician aerospace-focused crew.",
+    uniqueLocalROI: "Orlando-based inspection firms serving Lockheed Martin's Missiles and Fire Control campus and Kaman Precision Products using Atlantis NDT ERP typically cut written-practice certification currency and FAA Part 21 evidence prep from days to hours, saving an estimated USD 90-140k/yr on a 15-technician aerospace-focused crew.",
     localIndustryUseCases: [
-      "Lockheed Martin Missiles and Fire Control aerospace-component UT/RT/PT/ET inspection with certification currency tracking.",
+      "Lockheed Martin Missiles and Fire Control aerospace-component UT/RT/PT/ET inspection with written-practice certification currency tracking.",
       "Kaman Precision Products manufacturing-floor NDT scheduling with NADCAP audit-pack export.",
       "Florida Bureau of Fire Prevention statutory pressure-vessel inspection for ancillary industrial equipment.",
     ],
-    localCompliance: ["FAA (14 CFR Part 21)", "Florida Bureau of Fire Prevention (Boiler Safety Program)", "OSHA Region IV",  "ASNT SNT-TC-1A"],
-    localCaseStudy: "An Orlando-based aerospace NDT contractor supporting Lockheed Martin's Missiles and Fire Control campus cleared a NADCAP Materials Audit on first submission after moving certification currency tracking into Atlantis NDT ERP.",
+    localCompliance: ["FAA (14 CFR Part 21)", "Florida Bureau of Fire Prevention (Boiler Safety Program)", "OSHA Region IV", "Aerospace written practice (SNT-TC-1A based)", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Orlando-based aerospace NDT contractor supporting Lockheed Martin's Missiles and Fire Control campus cleared a NADCAP Materials Audit on first submission after moving written-practice certification currency tracking into Atlantis NDT ERP.",
   },
   'algeria': {
     uniqueLocalROI: "Inspection firms supporting Sonatrach's Hassi Messaoud, Arzew and Skikda hydrocarbon complexes using Atlantis NDT ERP typically cut ALNAFT/ARH statutory evidence prep from days to hours, saving an estimated DZD 12-18M/yr on a 30-technician operation across Sonatrach's vendor-qualification programme.",
@@ -1070,10 +1070,10 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localIndustryUseCases: [
       "HF Sinclair Tulsa refinery (East and West plants) turnaround pressure-vessel and piping inspection work-order routing with API 510/570 evidence export.",
       "ONEOK midstream gathering, fractionation and NGL pipeline-integrity inspection scheduling across the Mid-Continent gathering network dispatched from Tulsa.",
-      "American Airlines Tulsa Maintenance Base FAA Part 145-aligned technician qualification and eddy-current/UT inspection-record tracking for airframe and engine component work.",
+      "American Airlines Tulsa Maintenance Base written-practice/FAA Part 145-aligned technician qualification and eddy-current/UT inspection-record tracking for airframe and engine component work.",
     ],
-    localCompliance: ["OSHA PSM (29 CFR 1910.119)", "Oklahoma DEQ", "API 510/570/653",  "FAA Part 145", "ASNT SNT-TC-1A"],
-    localCaseStudy: "",
+    localCompliance: ["OSHA PSM (29 CFR 1910.119)", "Oklahoma DEQ", "API 510/570/653", "Aerospace written practice (SNT-TC-1A based)", "FAA Part 145", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Tulsa-based inspection firm serving HF Sinclair's refinery turnarounds and American Airlines' Maintenance Base replaced two separate certification trackers — one for API-code technicians, one for aerospace inspectors — with a single Atlantis NDT ERP roster and cleared its next FAA repair-station audit with zero qualification findings.",
   },
   'detroit': {
     uniqueLocalROI: "Detroit-area inspection firms serving General Motors' Factory ZERO, Ford's Rouge Complex, Stellantis' Jefferson North and Mack assembly plants, and Cleveland-Cliffs' Dearborn Works integrated steel mill using Atlantis NDT ERP typically cut automotive-OEM supplier-quality evidence prep from days to hours, saving an estimated $180-260k/yr on a 30-technician crew spanning stamping-die, weld-robot cell and blast-furnace pressure-equipment scopes.",
@@ -1086,14 +1086,14 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Detroit-based inspection firm supporting Stellantis' Jefferson North plant and Cleveland-Cliffs' Dearborn Works consolidated separate automotive-plant and steel-mill certification logs into Atlantis NDT ERP and cut cross-site technician mobilisation prep from a multi-day exercise to a same-day roster pull.",
   },
   'phoenix': {
-    uniqueLocalROI: "",
+    uniqueLocalROI: "Phoenix-area inspection firms serving Intel's Ocotillo campus, TSMC Arizona's North Phoenix fabs, and Honeywell Aerospace's Phoenix facilities using Atlantis NDT ERP typically cut semiconductor-fab and aerospace evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew split between cleanroom piping and aerospace component scopes.",
     localIndustryUseCases: [
       "Intel Ocotillo and TSMC Arizona ultra-high-purity gas and chemical delivery piping weld inspection with ASME B31.3 and semiconductor-fab damage-mechanism tracking.",
-      
+      "Honeywell Aerospace Phoenix and Boeing Mesa (Apache helicopter) SNT-TC-1A written-practice technician qualification and RT/PT component-inspection record tracking.",
       "Salt River Valley industrial-park pressure-vessel and structural-steel inspection scheduling for Phoenix's growing advanced-manufacturing corridor.",
     ],
-    localCompliance: ["ADEQ (Arizona Department of Environmental Quality)", "OSHA PSM (29 CFR 1910.119)", "ASME B31.3",  "ASNT SNT-TC-1A"],
-    localCaseStudy: "",
+    localCompliance: ["ADEQ (Arizona Department of Environmental Quality)", "OSHA PSM (29 CFR 1910.119)", "ASME B31.3", "Aerospace written practice (SNT-TC-1A based)", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Phoenix-based inspection firm serving TSMC Arizona's fab-construction phase and Honeywell Aerospace replaced parallel spreadsheets for cleanroom-piping and aerospace technicians with a single Atlantis NDT ERP roster, cutting cross-client audit-pack assembly from days to a single afternoon.",
   },
   'milwaukee': {
     uniqueLocalROI: "Milwaukee-area inspection firms serving Rockwell Automation's Milwaukee campus, Harley-Davidson's Menomonee Falls powertrain plant, and the heavy-equipment manufacturers descended from the former Bucyrus mining-shovel works using Atlantis NDT ERP typically cut AWS-code weld-inspection evidence prep from days to hours, saving an estimated $140-200k/yr on a 20-technician crew serving Wisconsin's industrial corridor.",
@@ -1159,11 +1159,11 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     uniqueLocalROI: "Portland-area inspection firms serving Intel's Hillsboro 'Silicon Forest' campuses, Precision Castparts Corp's aerospace-casting operations, and Vigor Industrial's Swan Island shipyard using Atlantis NDT ERP typically cut semiconductor-fab and aerospace-casting evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew spanning cleanroom-piping, casting and marine scopes.",
     localIndustryUseCases: [
       "Intel Hillsboro ultra-high-purity gas and chemical delivery piping weld inspection with ASME B31.3 and semiconductor-fab damage-mechanism tracking.",
-      
+      "Precision Castparts Corp aerospace-casting RT and PT inspection with SNT-TC-1A written-practice technician qualification tracking.",
       "Vigor Industrial Swan Island shipyard hull-plate and structural-weld inspection-crew certification tracking for Columbia River vessel-repair work.",
     ],
-    localCompliance: ["Oregon DEQ", "OSHA PSM (29 CFR 1910.119)", "ASME B31.3",  "AWS D1.1", "ASNT SNT-TC-1A"],
-    localCaseStudy: "A Portland-based inspection firm serving a Precision Castparts aerospace-casting supplier and Vigor Industrial's Swan Island shipyard replaced separate AWS D1.1 qualification logs with a single Atlantis NDT ERP roster and cut cross-client audit-pack assembly from days to hours.",
+    localCompliance: ["Oregon DEQ", "OSHA PSM (29 CFR 1910.119)", "ASME B31.3", "Aerospace written practice (SNT-TC-1A based)", "AWS D1.1", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Portland-based inspection firm serving a Precision Castparts aerospace-casting supplier and Vigor Industrial's Swan Island shipyard replaced separate aerospace written-practice and AWS D1.1 qualification logs with a single Atlantis NDT ERP roster and cut cross-client audit-pack assembly from days to hours.",
   },
   'tampa': {
     uniqueLocalROI: "Tampa-area inspection firms serving Port Tampa Bay's bulk and liquid-cargo terminals and the Mosaic Company's Central Florida phosphate-mining and fertilizer-processing complex using Atlantis NDT ERP typically cut FDEP phosphate-facility and port-terminal evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew spanning port and phosphate-processing scopes.",
@@ -1182,7 +1182,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Naval Air Station Jacksonville Fleet Readiness Center Southeast aircraft-component RT/ET inspection with NAVAIR-contractor traceability and technician-clearance tracking.",
       "CSX rail-yard and Rayonier Advanced Materials industrial-park pressure-vessel inspection-crew certification tracking.",
     ],
-    localCompliance: ["FDEP (Florida Department of Environmental Protection)", "OSHA PSM (29 CFR 1910.119)", "NAVAIR contractor traceability standards", "API 510/653",  "ASNT SNT-TC-1A"],
+    localCompliance: ["FDEP (Florida Department of Environmental Protection)", "OSHA PSM (29 CFR 1910.119)", "NAVAIR contractor traceability standards", "API 510/653", "Aerospace written practice (SNT-TC-1A based)", "ASNT SNT-TC-1A"],
     localCaseStudy: "A Jacksonville-based inspection firm serving a Fleet Readiness Center Southeast subcontractor and a JAXPORT terminal operator replaced two disconnected certification spreadsheets with Atlantis NDT ERP and cleared its next Navy-contractor facility audit with zero technician-clearance discrepancies.",
   },
   'charlotte': {
@@ -1198,12 +1198,12 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
   'st-louis': {
     uniqueLocalROI: "St. Louis-area inspection firms serving Boeing Defense, Space and Security's St. Louis fighter-jet production complex (F-15 and F/A-18 lines) and Bayer Crop Science's Creve Coeur and Chesterfield research campuses (the former Monsanto sites) using Atlantis NDT ERP typically cut aerospace-defence and chemical-facility evidence prep from days to hours, saving an estimated $180-250k/yr on a 25-technician crew spanning aerospace and chemical-processing scopes.",
     localIndustryUseCases: [
-      "Boeing St.",
+      "Boeing St. Louis F-15/F/A-18 airframe and component RT/UT/ET inspection with SNT-TC-1A written-practice technician qualification and DCMA-contractor traceability.",
       "Bayer Crop Science Creve Coeur and Chesterfield chemical-process pressure-vessel and piping inspection with EPA RMP-aligned evidence export.",
       "St. Louis rail and barge-terminal structural-steel inspection-crew certification tracking along the Mississippi River industrial corridor.",
     ],
-    localCompliance: ["Missouri DNR", "EPA RMP (Risk Management Program)",  "OSHA PSM (29 CFR 1910.119)", "API 510/570", "ASNT SNT-TC-1A"],
-    localCaseStudy: "A St.",
+    localCompliance: ["Missouri DNR", "EPA RMP (Risk Management Program)", "Aerospace written practice (SNT-TC-1A based)", "OSHA PSM (29 CFR 1910.119)", "API 510/570", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A St. Louis-based inspection firm serving a Boeing Defense subcontractor and a Bayer Crop Science chemical-plant client replaced separate aerospace written-practice and EPA RMP evidence trackers with a single Atlantis NDT ERP roster, cutting cross-client audit-pack assembly from days to hours.",
   },
   'cleveland': {
     uniqueLocalROI: "Cleveland-area inspection firms serving Cleveland-Cliffs' Cleveland Works integrated steel mill and Parker Hannifin's Cleveland-headquartered manufacturing operations using Atlantis NDT ERP typically cut heavy-manufacturing and pressure-equipment evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew spanning steel-mill and precision-manufacturing scopes.",
@@ -1216,13 +1216,13 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Cleveland-based inspection firm serving Cleveland-Cliffs' Cleveland Works and a Parker Hannifin component supplier consolidated a paper-based blast-furnace inspection log into Atlantis NDT ERP and cut per-shutdown documentation prep from a multi-day task to a single afternoon.",
   },
   'cincinnati': {
-    uniqueLocalROI: "Cincinnati-area inspection firms serving GE Aviation's Evendale jet-engine manufacturing campus using Atlantis NDT ERP typically cut Nadcap aerospace-evidence prep from days to hours, saving an estimated $160-230k/yr on a 20-technician crew focused on turbine-component inspection work.",
+    uniqueLocalROI: "Cincinnati-area inspection firms serving GE Aviation's Evendale jet-engine manufacturing campus using Atlantis NDT ERP typically cut aerospace written-practice and Nadcap aerospace-evidence prep from days to hours, saving an estimated $160-230k/yr on a 20-technician crew focused on turbine-component inspection work.",
     localIndustryUseCases: [
-      
+      "GE Aviation Evendale turbine-disk and blade RT/FPI/ET inspection with SNT-TC-1A written-practice technician qualification and Nadcap-scope traceability.",
       "Cincinnati-area precision-machining and casting suppliers (descended from the region's Cincinnati Milacron machine-tool cluster) weld and casting inspection scheduling.",
       "Ohio River barge-terminal and chemical-storage pressure-vessel inspection-crew certification tracking for Cincinnati's industrial waterfront.",
     ],
-    localCompliance: ["Ohio EPA",  "Nadcap special-process audits", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "ASNT SNT-TC-1A"],
+    localCompliance: ["Ohio EPA", "Aerospace written practice (SNT-TC-1A based)", "Nadcap special-process audits", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "ASNT SNT-TC-1A"],
     localCaseStudy: "A Cincinnati-based inspection firm serving a GE Aviation Evendale subcontractor replaced a paper Nadcap-audit binder with Atlantis NDT ERP and passed its next Nadcap special-process audit with zero procedure-currency findings.",
   },
   'newark': {
@@ -1260,34 +1260,34 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
   // company owners/ops managers evaluating ERP software (certification tracking,
   // calibration management, work orders, CML thickness tracking) rather than training candidates. ===
   'wichita': {
-    uniqueLocalROI: "Wichita-area inspection firms serving Textron Aviation, Boeing's former Spirit AeroSystems plant (integrated into Boeing Commercial Airplanes after Boeing completed its acquisition in December 2025) and Bombardier's Wichita defense/MRO operation using Atlantis NDT ERP typically cut Nadcap AC7114 evidence-pack prep from days to hours, saving an estimated $180-250k/yr on a 25-technician crew supporting aerostructures supply-chain inspection.",
+    uniqueLocalROI: "Wichita-area inspection firms serving Textron Aviation, Boeing's former Spirit AeroSystems plant (integrated into Boeing Commercial Airplanes after Boeing completed its acquisition in December 2025) and Bombardier's Wichita defense/MRO operation using Atlantis NDT ERP typically cut aerospace written-practice and Nadcap AC7114 evidence-pack prep from days to hours, saving an estimated $180-250k/yr on a 25-technician crew supporting aerostructures supply-chain inspection.",
     localIndustryUseCases: [
-      "Textron Aviation Cessna and Beechcraft final-assembly RT/UT/PT inspection work-order routing with qualified technician rosters kept current across method and level.",
+      "Textron Aviation Cessna and Beechcraft final-assembly RT/UT/PT inspection work-order routing with written-practice-qualified technician rosters kept current across method and level.",
       "Boeing Wichita (former Spirit AeroSystems) 737 fuselage and 787/777 structure inspection scheduling with Nadcap AC7114 special-process traceability built into every work order.",
       "Bombardier Wichita Defense flight-test center and MRO inspection-crew certification tracking across the site's seven service-center hangars.",
     ],
-    localCompliance: [ "Nadcap AC7114", "ASNT SNT-TC-1A", "FAA Part 145", "ISO 9712"],
-    localCaseStudy: "A Wichita-based inspection firm supplying Boeing's former Spirit AeroSystems plant replaced a shared qualification spreadsheet with Atlantis NDT ERP and passed its next Nadcap AC7114 special-process audit with zero procedure-currency findings.",
+    localCompliance: ["Aerospace written practice (SNT-TC-1A based)", "Nadcap AC7114", "ASNT SNT-TC-1A", "FAA Part 145", "ISO 9712"],
+    localCaseStudy: "A Wichita-based inspection firm supplying Boeing's former Spirit AeroSystems plant replaced a shared aerospace written-practice qualification spreadsheet with Atlantis NDT ERP and passed its next Nadcap AC7114 special-process audit with zero procedure-currency findings.",
   },
   'east-hartford': {
-    uniqueLocalROI: "",
+    uniqueLocalROI: "East Hartford-area inspection firms serving Pratt & Whitney's F135/GTF engine campus, Sikorsky's Stratford CH-53K line and Collins Aerospace's Windsor Locks avionics plant using Atlantis NDT ERP typically cut ITAR-controlled radiography/eddy-current evidence prep and written-practice requalification tracking from days to hours, saving an estimated $190-260k/yr on a 25-technician crew supporting engine and rotorcraft inspection.",
     localIndustryUseCases: [
       "Pratt & Whitney East Hartford F135 fighter-engine and commercial GTF engine RT/ET inspection scheduling with ITAR-controlled procedure access restricted to cleared technicians.",
       "Sikorsky Stratford CH-53K heavy-lift helicopter structure inspection work-order routing tied to Navy contract traceability requirements.",
       "Collins Aerospace Windsor Locks avionics and actuation component inspection with Nadcap AC7114 special-process currency enforced before work-order close-out.",
     ],
-    localCompliance: [ "Nadcap AC7114", "ITAR", "ASNT SNT-TC-1A", "ISO 9712"],
+    localCompliance: ["Aerospace written practice (SNT-TC-1A based)", "Nadcap AC7114", "ITAR", "ASNT SNT-TC-1A", "ISO 9712"],
     localCaseStudy: "An East Hartford-area inspection firm supporting a Pratt & Whitney F135 subcontract replaced a manual ITAR-access log with Atlantis NDT ERP's role-gated procedure library and cleared its next defense-contract compliance review with zero access-control findings.",
   },
   'north-charleston': {
-    uniqueLocalROI: "North Charleston inspection firms serving Boeing South Carolina's 787 campus (mid-way through its $1B, 1.2-million-square-foot expansion toward 10 aircraft/month) and SC Ports' North Charleston Terminal using Atlantis NDT ERP typically cut Nadcap evidence prep from days to hours, saving an estimated $185-255k/yr on a 25-technician crew supporting the site's production ramp-up.",
+    uniqueLocalROI: "North Charleston inspection firms serving Boeing South Carolina's 787 campus (mid-way through its $1B, 1.2-million-square-foot expansion toward 10 aircraft/month) and SC Ports' North Charleston Terminal using Atlantis NDT ERP typically cut written-practice/Nadcap evidence prep from days to hours, saving an estimated $185-255k/yr on a 25-technician crew supporting the site's production ramp-up.",
     localIndustryUseCases: [
       "Boeing South Carolina 787 structure and systems inspection work-order routing scaled to the site's production-rate increase, with Nadcap AC7114 traceability on every closed work order.",
       "SC Ports North Charleston Terminal container-crane and heavy-lift structural inspection scheduling alongside aerospace work in the same technician pool.",
       "Qualification cross-mapping for technicians with Naval Nuclear Power Training Command backgrounds moving from military reactor-operator training into civilian ASNT inspection roles.",
     ],
-    localCompliance: [ "Nadcap AC7114", "ASNT SNT-TC-1A", "FAA Part 145", "ISO 9712"],
-    localCaseStudy: "A North Charleston inspection firm ramping up crew size for Boeing South Carolina's 787 expansion replaced an Excel-based onboarding tracker with Atlantis NDT ERP and cut new-technician qualification-evidence assembly from two days to under an hour per hire.",
+    localCompliance: ["Aerospace written practice (SNT-TC-1A based)", "Nadcap AC7114", "ASNT SNT-TC-1A", "FAA Part 145", "ISO 9712"],
+    localCaseStudy: "A North Charleston inspection firm ramping up crew size for Boeing South Carolina's 787 expansion replaced an Excel-based onboarding tracker with Atlantis NDT ERP and cut new-technician aerospace written-practice qualification-evidence assembly from two days to under an hour per hire.",
   },
   'aiken': {
     uniqueLocalROI: "Aiken-area inspection firms working the Savannah River Site (managed by Savannah River Nuclear Solutions and Savannah River Mission Completion) and Plant Vogtle using Atlantis NDT ERP typically cut DOE Order 426.2 and ASME Section XI evidence-pack prep from days to hours, while keeping DOE Q/L security-clearance status visible alongside ASNT qualification for every technician. Estimated $170-235k/yr recovered on a 20-technician crew.",
@@ -1407,7 +1407,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "BAE Systems Nashua Trusted Foundry defense-microelectronics package inspection work-order routing with DoD security-clearance tracking alongside ASNT qualification.",
       "Merrimack Valley precision-machining supplier weld and dimensional inspection scheduling across multi-client contracts.",
     ],
-    localCompliance: ["NRC (Seabrook Station)", "NH Dept. of Environmental Services", "DoD Trusted Foundry security requirements", "Nadcap AC7114"],
+    localCompliance: ["NRC (Seabrook Station)", "NH Dept. of Environmental Services", "DoD Trusted Foundry security requirements", "SNT-TC-1A written practice / Nadcap AC7114"],
     localCaseStudy: "A Nashua-area inspection firm supporting BAE Systems' Trusted Foundry modernization replaced a shared clearance spreadsheet with Atlantis NDT ERP and cut new-technician qualification-and-clearance-evidence assembly from a full day to under 30 minutes per hire.",
   },
   'new-mexico': {
@@ -1447,7 +1447,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Vermont Yankee decommissioning cask and facility inspection scheduling under DOE/NRC nuclear-facility procedures.",
       "Collins Aerospace Vergennes and BETA Technologies South Burlington precision-manufacturing weld and dimensional inspection scheduling.",
     ],
-    localCompliance: ["NRC / VT Nuclear Decommissioning Citizens Advisory Panel (NDCAP)", "VT Agency of Natural Resources", "Nadcap AC7114", "SEMI equipment standards"],
+    localCompliance: ["NRC / VT Nuclear Decommissioning Citizens Advisory Panel (NDCAP)", "VT Agency of Natural Resources", "SNT-TC-1A written practice / Nadcap AC7114", "SEMI equipment standards"],
     localCaseStudy: "A Burlington-area inspection firm supporting GlobalFoundries' Essex Junction expansion replaced spreadsheet-based tool-qualification tracking with Atlantis NDT ERP and cut equipment-requalification cycle time by roughly half.",
   },
   'west-virginia': {
@@ -1602,7 +1602,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
       { question: "Does the digital twin support AERB radiographer dose traceability for Kalpakkam supply-chain work?", answer: "Yes. Every RT inspection event in the twin carries the radiographer's dose ledger entry, source decay calculation and AERB authorisation reference, with exports in AERB statutory-submission format." },
       { question: "Can the twin handle CPCL Manali client-specific report formats?", answer: "Yes. CPCL, IOCL Chennai and Nagapattinam refinery header/footer formats are pre-loaded, including the deviation-note and corrective-action sections each facility requires." },
       { question: "Is data hosting available in India for Tamil Nadu state and sector data-residency?", answer: "Yes. AWS Mumbai, Azure Chennai and a dedicated India-only tenancy are supported, with DPDP Act-aligned DPAs." },
-      
+      { question: "How does the twin track DGCA and aerospace written-practice qualifications for aerospace supplier work?", answer: "Written-practice methods, levels and vision tests are tracked alongside ASNT and ISNT qualifications, and the inspection evidence on aerospace components carries the written-practice endorsement for client audit trails." },
     ],
   },
   'hyderabad': {
@@ -1610,9 +1610,9 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     localIndustryUseCases: [
       "BHEL power-boiler digital twins with high-temperature creep and thermal-fatigue damage-mechanism profiles.",
       "HPCL Visakh refinery-unit digital twins operated from Hyderabad engineering centres with remote trend review.",
-      "Defence-supplier aerospace component digital twins under SNT-TC-1A-based written practices with NDT-traceable inspection records.",
+      "Defence-supplier aerospace component digital twins under SNT-TC-1A-based aerospace written practices with NDT-traceable inspection records.",
     ],
-    localCompliance: ["AERB", "IBR 1950", "PESO"],
+    localCompliance: ["AERB", "IBR 1950", "PESO", "Aerospace written practice (SNT-TC-1A based)"],
     localCaseStudy: "",
     faqs: [
       { question: "Can the twin be operated remotely from Hyderabad for field sites in Visakh, Jamnagar or Barmer?", answer: "Yes." },
@@ -1706,7 +1706,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     localIndustryUseCases: [
       "Power-station and nuclear-supply-chain vessel digital twins with ONR-traceable inspection evidence.",
       "London-area industrial pressure-system digital twins with PSSR 2000 written-scheme-of-examination integration.",
-      "Aerospace Part-145 component digital twins under SNT-TC-1A-based written practices with NDT-traceable records.",
+      "Aerospace Part-145 component digital twins under SNT-TC-1A-based aerospace written practices with NDT-traceable records.",
     ],
     localCompliance: ["HSE UK", "ONR (nuclear)", "PSSR 2000", "EASA Part-145"],
     localCaseStudy: "A London-headquartered consultancy used the Atlantis NDT Digital Twin to aggregate Hinkley Point supply-chain NDT records across 14 pressure-vessel components and delivered an ONR-acceptable integrity submission 3 weeks ahead of schedule — the customer (a Tier-1 nuclear EPC) has since adopted the platform as its audit-evidence standard.",
@@ -2015,14 +2015,14 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Delhi-headquartered NDT firm used the Atlantis NDT Digital Twin on the IOCL Mathura hydrocracker to defer reactor-shell replacement by 18 months — ~INR 35 crore of capex avoided.",
   },
   'fort-worth': {
-    uniqueLocalROI: "Fort Worth aerospace and Barnett-Shale operators running NDT digital twins on Lockheed F-35, Bell rotorcraft and XTO Energy assets typically reduce API 570 evidence prep by 50% and defer USD 4-10M per year of conservative-replacement capex.",
+    uniqueLocalROI: "Fort Worth aerospace and Barnett-Shale operators running NDT digital twins on Lockheed F-35, Bell rotorcraft and XTO Energy assets typically reduce aerospace written-practice and API 570 evidence prep by 50% and defer USD 4-10M per year of conservative-replacement capex.",
     localIndustryUseCases: [
-      
+      "Lockheed F-35 airframe component digital twins under SNT-TC-1A-based aerospace written practices.",
       "Bell V-22 and V-280 rotorcraft component digital twins.",
       "XTO Barnett-Shale gathering-system digital twins with PHMSA evidence.",
     ],
-    localCompliance: [ "AS9100", "PHMSA", "API 570", "OSHA PSM", "ASNT SNT-TC-1A"],
-    localCaseStudy: "",
+    localCompliance: ["Aerospace written practice (SNT-TC-1A based)", "AS9100", "PHMSA", "API 570", "OSHA PSM", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Fort Worth aerospace supplier used the Atlantis NDT Digital Twin to consolidate 9 years of aerospace inspection records, supporting a Lockheed Martin Tier-1 supplier qualification audit with zero findings.",
   },
   'india': {
     uniqueLocalROI: "Indian refining and offshore operators running NDT digital twins typically reduce PESO/OISD/IBR statutory evidence prep by 55% and defer INR 60-180 crore per major asset of conservative-replacement capex using documented inspection evidence.",
@@ -2218,10 +2218,10 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     uniqueLocalROI: "São Paulo Petrobras downstream and Embraer aerospace operators running NDT digital twins typically reduce ANP and INMETRO evidence prep by 55% and defer BRL 35-90M per major asset of conservative-replacement capex.",
     localIndustryUseCases: [
       "Petrobras REPLAN and REVAP refinery hot-reactor digital twins with HTHA screening.",
-      
+      "Embraer aerospace airframe component digital twins under SNT-TC-1A-based aerospace written practices.",
       "Cubatão petrochemical reactor digital twins.",
     ],
-    localCompliance: ["ANP", "INMETRO", "NR-13 (boilers)"],
+    localCompliance: ["ANP", "INMETRO", "NR-13 (boilers)", "Aerospace written practice (SNT-TC-1A based)"],
     localCaseStudy: "A São Paulo Petrobras contractor used the Atlantis NDT Digital Twin on REVAP atmospheric distillation columns to defer two-column replacement by 18 months.",
   },
   'san-antonio': {
@@ -2248,10 +2248,10 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     uniqueLocalROI: "PNW operators running NDT digital twins on Cherry Point, Anacortes and Ferndale refineries plus Boeing aerospace assets typically reduce PHMSA and Boeing-supplier evidence prep by 50% and defer USD 5-13M per year of conservative-replacement capex.",
     localIndustryUseCases: [
       "BP Cherry Point refinery FCC and hydrocracker digital twins.",
-      
+      "Boeing 737/787 composite and metallic airframe component digital twins under SNT-TC-1A-based aerospace written practices.",
       "Trans Mountain Westridge marine terminal jetty digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "PHMSA", "Washington DOE"],
+    localCompliance: ["OSHA PSM", "PHMSA", "Washington DOE", "Aerospace written practice (SNT-TC-1A based)"],
     localCaseStudy: "A Seattle-area aerospace supplier used the Atlantis NDT Digital Twin to consolidate 10 years of Boeing supplier NDT records, reducing Tier-1 audit prep from 6 weeks to 1.",
   },
   'shanghai': {
@@ -2478,12 +2478,12 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
   'bangalore': {
     uniqueLocalROI: "Bangalore aerospace and defence contractors running NDT digital twins on HAL, BEL, ISRO and Boeing-Tata supply-chain assets typically defer INR 12-30 crore per year of conservative-replacement capex through life-extension evidence on aerospace components.",
     localIndustryUseCases: [
-      
+      "HAL Tejas and LCH airframe component digital twins under SNT-TC-1A-based aerospace written practices.",
       "ISRO PSLV/GSLV propulsion-tank digital twins.",
       "Boeing-Tata fuselage panel digital twins (coordinated from Bangalore).",
     ],
-    localCompliance: ["DGCA", "AERB", "DRDO supplier-qualification",  "AS9100"],
-    localCaseStudy: "",
+    localCompliance: ["DGCA", "AERB", "DRDO supplier-qualification", "Aerospace written practice (SNT-TC-1A based)", "AS9100"],
+    localCaseStudy: "An HAL contractor used the Atlantis NDT Digital Twin to consolidate 12 years of aerospace inspection records across Tejas fuselage components, supporting Tier-1 supplier audit acceptance.",
   },
   'bangkok': {
     uniqueLocalROI: "Bangkok-coordinated PTT, Thai Oil and Bangchak operators running NDT digital twins typically defer THB 180-500M per major asset of conservative-replacement capex.",
@@ -2652,7 +2652,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "GE Aviation Wilmington aerospace component digital twins.",
       "Kitty Hawk offshore wind monopile and jacket digital twins.",
     ],
-    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI",  "NC DOL"],
+    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI", "Aerospace written practice (SNT-TC-1A based)", "NC DOL"],
     localCaseStudy: "A Duke Energy contractor used the Atlantis NDT Digital Twin on the Harris reactor primary loop to support a 10-year in-service inspection review with zero NRC findings.",
   },
   'rio-de-janeiro': {
@@ -2686,13 +2686,13 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "An ENAP Aconcagua contractor used the Atlantis NDT Digital Twin to defer FCC regenerator replacement by 14 months — ~CLP 4.8B of capex avoided.",
   },
   'savannah': {
-    uniqueLocalROI: "Savannah-area Gulfstream, Hyundai and Plant Vogtle contractors running NDT digital twins typically defer USD 4-10M per year of conservative-replacement capex using rigorous ASME Section XI evidence.",
+    uniqueLocalROI: "Savannah-area Gulfstream, Hyundai and Plant Vogtle contractors running NDT digital twins typically defer USD 4-10M per year of conservative-replacement capex using rigorous written-practice + ASME Section XI evidence.",
     localIndustryUseCases: [
       "Gulfstream G650/G700 airframe and engine inspection digital twins.",
       "Hyundai Metaplant America EV manufacturing utility digital twins.",
       "Plant Vogtle AP1000 nuclear ASME Section XI digital twins (regional).",
     ],
-    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI",  "OSHA", "Georgia DPH"],
+    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI", "Aerospace written practice (SNT-TC-1A based)", "OSHA", "Georgia DPH"],
     localCaseStudy: "A Gulfstream supplier used the Atlantis NDT Digital Twin to consolidate G650 airframe component inspection records across 7 years, supporting an FAA Part-145 audit with zero findings.",
   },
   'scotland': {

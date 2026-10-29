@@ -76,12 +76,12 @@
     "country": "USA",
     "lat": 34.0522,
     "lng": -118.2437,
-    "localContext": "Los Angeles NDT splits between aerospace and the South Bay refining strip: Chevron's El Segundo refinery (about 269,000 bpd), PBF Energy's Torrance refinery and Marathon's Carson complex keep a year-round base of UT and API-driven inspection work along the coast. The Ports of Los Angeles and Long Beach, the busiest container complex in the Western Hemisphere, add crane, terminal and marine structural inspection. LA's American Aerospace Technical Academy, a nonprofit training school, runs SNT-TC-1A Level I/II programs specifically to feed these primes.",
+    "localContext": "Los Angeles NDT splits between aerospace and the South Bay refining strip: Chevron's El Segundo refinery (about 269,000 bpd), PBF Energy's Torrance refinery and Marathon's Carson complex keep a year-round base of UT and API-driven inspection work along the coast. The aerospace side is unmatched — SpaceX builds Falcon and Dragon hardware in Hawthorne, Northrop Grumman's Space Park in Redondo Beach produces satellites and the James Webb-class spacecraft bus, and Boeing's El Segundo campus is one of the largest satellite factories in the world, all feeding aerospace penetrant, radiography and ultrasonic inspection demand through their supplier chains. The Ports of Los Angeles and Long Beach, the busiest container complex in the Western Hemisphere, add crane, terminal and marine structural inspection. LA's American Aerospace Technical Academy, a nonprofit training school, runs SNT-TC-1A Level I/II programs specifically to feed these primes.",
     "primaryCert": "ASNT",
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "Refinery and port work follows standard SNT-TC-1A/ASNT qualification, while LA's aerospace primes and their machine shops certify technicians under their own aerospace written practices, so technicians targeting aerospace supplier work should expect employer qualification on top of ASNT-style training.",
+    "certPathwayNote": "Refinery and port work follows standard SNT-TC-1A/ASNT qualification, and LA's aerospace primes and their machine shops certify under their own written practices, built on SNT-TC-1A with the primes' flow-down added, so technicians targeting SpaceX, Northrop or Boeing supplier work need ASNT-based method training plus the aerospace techniques those written practices specify.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 50,000–65,000/year",
@@ -185,7 +185,7 @@
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants. ISO 9712 has essentially no local pull.",
+    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants; technicians targeting Fort Bragg aviation-maintenance work also meet aerospace written-practice requirements. ISO 9712 has essentially no local pull.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 40,000–50,000/year",
@@ -213,7 +213,7 @@
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "Aerospace primes like BAE Systems and GE Aerospace certify in-house under ASNT SNT-TC-1A frameworks with aerospace-specific supplier audit requirements, so a Manchester technician's fastest path pairs ASNT-based Level II quals with aerospace-specific method hours.",
+    "certPathwayNote": "Aerospace primes like BAE Systems and GE Aerospace certify in-house under ASNT SNT-TC-1A frameworks, but their supplier audits push aerospace written-practice and customer flow-down requirements for method certification — so a Manchester technician's fastest path pairs ASNT-based Level II quals with aerospace-specific method hours.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 44,000–56,000/year",
@@ -284,7 +284,7 @@
     "otherCerts": [
       "AWS CWS/CWI"
     ],
-    "certPathwayNote": "Employer-based ASNT SNT-TC-1A certification is the standard across Buffalo's automotive and aerospace plants. There is no meaningful ISO 9712 market in Western New York.",
+    "certPathwayNote": "Employer-based ASNT SNT-TC-1A certification is the standard across Buffalo's automotive and aerospace plants; Moog's flight-hardware work adds aerospace written-practice and customer flow-down requirements at supplier level. There is no meaningful ISO 9712 market in Western New York.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 42,000–54,000/year",
@@ -372,12 +372,12 @@
     "country": "USA",
     "lat": 33.9192,
     "lng": -118.4165,
-    "localContext": "El Segundo pairs heavy refining with the densest aerospace cluster in the country. Chevron's El Segundo Refinery, rated around 290,000 barrels per day, is the largest refinery on the West Coast and supplies roughly 20% of Southern California's gasoline and over 40% of its jet fuel; the October 2025 jet-fuel-unit fire and subsequent repairs put sustained demand on fixed-equipment inspection crews. On the aerospace side, Boeing's satellite factory, Raytheon (RTX) facilities and Los Angeles Air Force Base — home of U.S. Space Force Space Systems Command — all sit inside El Segundo, with SpaceX's Hawthorne factory next door.",
+    "localContext": "El Segundo pairs heavy refining with the densest aerospace cluster in the country. Chevron's El Segundo Refinery, rated around 290,000 barrels per day, is the largest refinery on the West Coast and supplies roughly 20% of Southern California's gasoline and over 40% of its jet fuel; the October 2025 jet-fuel-unit fire and subsequent repairs put sustained demand on fixed-equipment inspection crews. On the aerospace side, Boeing's satellite factory, Raytheon (RTX) facilities and Los Angeles Air Force Base — home of U.S. Space Force Space Systems Command — all sit inside El Segundo, with SpaceX's Hawthorne factory next door. That mix means technicians here split between API-style refinery UT work and penetrant, radiographic and ultrasonic inspection of flight hardware under the plants' aerospace written practices.",
     "primaryCert": "ASNT",
     "otherCerts": [
       "API 510"
     ],
-    "certPathwayNote": "The refinery hires against SNT-TC-1A/ASNT qualifications while the satellite and defense plants add their own aerospace certification requirements, so the strongest El Segundo résumés carry ASNT Level II plus documented aerospace method experience in PT or RT.",
+    "certPathwayNote": "The refinery hires against SNT-TC-1A/ASNT qualifications while the satellite and defense plants certify under aerospace written practices built on SNT-TC-1A with their primes' flow-down, so the strongest El Segundo résumés carry ASNT Level II plus documented aerospace PT or RT experience.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 48,000–62,000/year",
@@ -440,7 +440,7 @@
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "Lab and Air Force work is qualified to ASNT/SNT-TC-1A practice, often with additional aerospace requirements on flight hardware; clearance-eligible ASNT Level II technicians are the scarce commodity in this market.",
+    "certPathwayNote": "Lab and Air Force work is qualified to ASNT/SNT-TC-1A practice, often with prime flow-down requirements added on aerospace hardware; clearance-eligible ASNT Level II technicians are the scarce commodity in this market.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 40,000–52,000/year",
@@ -521,12 +521,12 @@
     "country": "USA",
     "lat": 32.3668,
     "lng": -86.3,
-    "localContext": "Montgomery's inspection work comes from automotive manufacturing, composite aerostructures and military aviation. Hyundai Motor Manufacturing Alabama has built vehicles in Montgomery since 2005, and its stamping, welding and supplier network generates continuous weld-quality and materials inspection demand. Maxwell Air Force Base and its Gunter Annex anchor the federal presence, and the Alabama Air National Guard's 187th Fighter Wing flies the F-35 from Dannelly Field, bringing modern airframe maintenance to the metro.",
+    "localContext": "Montgomery's inspection work comes from automotive manufacturing, composite aerostructures and military aviation. Hyundai Motor Manufacturing Alabama has built vehicles in Montgomery since 2005, and its stamping, welding and supplier network generates continuous weld-quality and materials inspection demand. About 35 miles away in Tallassee, GKN Aerospace employs over 1,000 people producing composite aerostructures for Airbus, Sikorsky, Bell and HondaJet — a plant operating since 1985 and one of the region's biggest sources of aerospace NDT jobs. Maxwell Air Force Base and its Gunter Annex anchor the federal presence, and the Alabama Air National Guard's 187th Fighter Wing flies the F-35 from Dannelly Field, bringing modern airframe maintenance to the metro.",
     "primaryCert": "ASNT",
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "Automotive plants hire against ASNT/SNT-TC-1A qualification while GKN's composite work adds aerospace-specific employer certification, so central Alabama technicians typically start on the ASNT track and add aerospace qualification through their employer to reach aerospace pay.",
+    "certPathwayNote": "Automotive plants hire against ASNT/SNT-TC-1A qualification while GKN's composite work adds its aerospace written practice and customer flow-down, so central Alabama technicians typically start on the ASNT track and build aerospace method experience to reach aerospace pay.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 38,000–50,000/year",
@@ -638,7 +638,7 @@
     "otherCerts": [
       "AWS CWI"
     ],
-    "certPathwayNote": "ASNT remains the baseline credential across all three.",
+    "certPathwayNote": "Automotive and crane manufacturing set the tone: Toyota's supplier quality chain and Link-Belt's lifting-equipment welds both call for ASNT SNT-TC-1A qualified technicians, and Lockheed's defense sustainment work layers aerospace written-practice expectations on top. ASNT remains the baseline credential across all three.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 41,000–52,000/year",

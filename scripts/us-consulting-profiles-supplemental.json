@@ -22,10 +22,11 @@
     "localCompliance": [
       "API 510 / 570 / 653",
       "OSHA PSM (29 CFR 1910.119)",
-      "FAA 14 CFR Part 145 repair station requirements",
+      "Aerospace written practice (SNT-TC-1A based) and FAA 14 CFR Part 145 repair station requirements",
       "ASNT SNT-TC-1A",
       "49 CFR 192 / 195",
-      "ASME BPVC Section VIII Div 1 and NBIC NB-23"
+      "ASME BPVC Section VIII Div 1 and NBIC NB-23",
+      "FAA 14 CFR Part 145 repair station requirements"
     ]
   },
   {
@@ -49,6 +50,7 @@
     ],
     "industrialProfile": "Huntsville's inspection demand is propulsion and nuclear, not process. Blue Origin's 600,000-square-foot Blue Engine plant builds BE-4 and BE-3U engines at high rate; NASA's Marshall Space Flight Center on Redstone Arsenal owns Space Launch System development; and west in Decatur, United Launch Alliance's 1.6-million-square-foot factory assembles Vulcan Centaur and barges it down the Tennessee River. TVA's Browns Ferry plant, 28 miles out in Limestone County, runs three GE boiling-water reactors at 3,775 MWe. Mazda Toyota Manufacturing USA and Nucor Steel Decatur add automotive and steel volume alongside the aerospace work.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "NASA-STD-5009 (NDE of fracture-critical hardware)",
       "10 CFR 50 Appendix B",
       "ASME BPVC Section XI (in-service inspection)",
@@ -79,10 +81,11 @@
     "localCompliance": [
       "API 510 / 570 / 653",
       "OSHA PSM (29 CFR 1910.119)",
-      "AS9100",
+      "Aerospace written practice (SNT-TC-1A based) and AS9100",
       "ASME BPVC Section VIII Div 1 and NBIC NB-23",
       "49 CFR 192 / 195",
-      "AWS D1.1"
+      "AWS D1.1",
+      "AS9100"
     ]
   },
   {
@@ -110,6 +113,7 @@
       "ASME BPVC Section V",
       "AWS D1.1 / D1.6",
       "ASNT SNT-TC-1A",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ITAR (22 CFR 120-130)"
     ]
   },
@@ -251,10 +255,11 @@
     "localCompliance": [
       "Cal/OSHA Process Safety Management for Petroleum Refineries (8 CCR 5189.1)",
       "API 510 / 570 / 653",
-      "Nadcap AC7114 (aerospace NDT)",
+      "Aerospace written practice (SNT-TC-1A based) and Nadcap AC7114 (aerospace NDT)",
       "ASTM E1417 / E1444 penetrant and magnetic particle",
       "AWS D1.1 and D1.8 seismic supplement",
-      "ASME Section VIII / NBIC NB-23"
+      "ASME Section VIII / NBIC NB-23",
+      "Nadcap AC7114 (aerospace NDT)"
     ]
   },
   {
@@ -365,6 +370,7 @@
     ],
     "industrialProfile": "Mobile builds aluminium warships and Airbus jets off the same bay. Austal USA on Blakeley Island produced the Independence-class LCS and Spearhead-class EPF and holds a contract for up to eleven Offshore Patrol Cutters. At the Mobile Aeroplex at Brookley, Airbus assembles A319, A320 and A321 aircraft, adding A220 production in 2019. North of the city, AM/NS Calvert, the ArcelorMittal and Nippon Steel joint venture, and Outokumpu's stainless line run flat-rolled steel, while SSAB's Axis mini-mill makes 1.25 million tonnes of discrete and coiled plate a year. The Port of Mobile is Alabama's only deep-water port. Naval, aerospace and plate acceptance codes all land on one crew.",
     "localCompliance": [
+      "EN 4179 and Aerospace written practice (SNT-TC-1A based) NDT personnel qualification (Airbus programme)",
       "NAVSEA Standard Items and T9074-AS-GIB-010/271",
       "ABS Rules for Steel Vessels and USCG Subchapter M",
       "ASTM A578 / A435 ultrasonic examination of plate",
@@ -425,9 +431,10 @@
       "OSHA PSM (29 CFR 1910.119)",
       "API 510 / 570 / 653",
       "49 CFR 193 and NFPA 59A (LNG facilities)",
-      "FAA 14 CFR Part 145 (depot and aviation MRO)",
+      "Aerospace written practice (SNT-TC-1A based) and FAA 14 CFR Part 145 (depot and aviation MRO)",
       "USCG 33 CFR 154 (marine transfer operations)",
-      "ASNT SNT-TC-1A"
+      "ASNT SNT-TC-1A",
+      "FAA 14 CFR Part 145 (depot and aviation MRO)"
     ]
   },
   {
@@ -829,6 +836,7 @@
     ],
     "industrialProfile": "San Antonio's inspection demand is aerospace sustainment and heavy assembly, not refining. Port San Antonio at Kelly Field hosts two of the world's largest aircraft sustainment operations: Boeing's Global Services San Antonio large-aircraft MRO, opened 1998, and StandardAero's 600,000-square-foot engine facility with indoor and outdoor test cells serving the Air Force, Navy, Coast Guard and DHS, on the region's longest runway at 11,500 feet. Toyota Motor Manufacturing Texas builds full-size trucks here and International Motors is investing $250 million in a new I-35 plant. CPS Energy runs J.K. Spruce 1 and 2 above 1,300 MW at Calaveras Lake and holds a 40 percent share of the South Texas Project.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based) (aerospace NDT personnel qualification)",
       "FAA 14 CFR Part 145 (repair stations)",
       "Nadcap and AMS 2644 (penetrant materials)",
       "10 CFR 50 Appendix B (CPS Energy South Texas Project share)",
@@ -1030,6 +1038,7 @@
     ],
     "industrialProfile": "Torrance pairs a 166,000-b/d refinery with one of Southern California's densest aerospace supplier clusters. PBF's Torrance refinery occupies about 700 acres, carries a Nelson complexity of 13.8, and makes CARB gasoline, diesel, jet fuel, LPG, coke and sulfur. Two miles away at Zamperini Field, Robinson Helicopter builds, assembles and flight-tests every R22, R44 and R66 it ships. Honeywell's largest Southern California plant, on West 190th Street, builds and overhauls TPE331 and HTF7000 turbine engines; Moog makes flight controls and landing gear here; LISI Aerospace and Conesys supply fasteners and connectors. Refinery turnaround inspection and FAA repair-station NDT run side by side in one city.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based) aerospace NDT personnel qualification",
       "FAA 14 CFR Part 145 repair station requirements",
       "ASTM E1417 penetrant and ASTM E1444 magnetic particle",
       "Cal/OSHA Refinery PSM (8 CCR §5189.1) and OSHA PSM 29 CFR 1910.119",
@@ -1285,7 +1294,8 @@
       "API 510 / 570 / 653",
       "ASME BPVC Section VIII and Section V",
       "NBIC NB-23",
-      "ASNT SNT-TC-1A"
+      "ASNT SNT-TC-1A",
+      "Aerospace written practice (SNT-TC-1A based)"
     ]
   },
   {
@@ -1370,6 +1380,7 @@
       "API 510 / 570 / 653",
       "AWS D1.1 structural welding",
       "AAR M-1003 rail car and locomotive repair quality assurance",
+      "Aerospace written practice (SNT-TC-1A based) and ASNT SNT-TC-1A for defense program NDT personnel",
       "ASNT SNT-TC-1A for defense program NDT personnel"
     ]
   },
@@ -1770,6 +1781,7 @@
       "ASTM A388 ultrasonic examination of heavy steel forgings",
       "ASTM E1417 and E1444 penetrant and magnetic particle",
       "ASME Section VIII Div. 1 and NBIC NB-23",
+      "ASNT SNT-TC-1A and Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -1967,12 +1979,13 @@
     ],
     "industrialProfile": "Cleveland's inspection work concentrates in the Cuyahoga flats and the western aerospace corridor. Cleveland-Cliffs Cleveland Works is one of the most productive integrated mills in the world, and its No. 6 blast furnace was restarted through July 2025 as Dearborn's was idled. Howmet Aerospace's Cleveland Operations runs the 50,000-ton forging press, turning out large structural forgings where ultrasonic and penetrant acceptance criteria are contractual. Ford's Cleveland Engine Plant in Brook Park, Lincoln Electric in Euclid, Parker Hannifin and Swagelok fill out the manufacturing base, NASA Glenn adds propulsion and materials testing, and Vistra's 1,268 MW Perry BWR is 40 miles northeast on Lake Erie.",
     "localCompliance": [
-      "ASNT SNT-TC-1A",
+      "ASNT SNT-TC-1A and Aerospace written practice (SNT-TC-1A based)",
       "ASTM E1417 and E1444 penetrant and magnetic particle",
       "ASTM A388 and AMS 2630 ultrasonic inspection of forgings",
       "ASME Section VIII Div. 1 and NBIC NB-23",
       "AWS D1.1",
-      "10 CFR 50 Appendix B and ASME Section XI (Perry)"
+      "10 CFR 50 Appendix B and ASME Section XI (Perry)",
+      "ASNT SNT-TC-1A"
     ]
   },
   {
@@ -3962,6 +3975,7 @@
       "CSA B51 with CRN registration recorded in Manitoba",
       "CSA W47.1 / W59 CWB certification for structural fabrication",
       "CSA W178.1 / W178.2 welding inspection certification",
+      "Nadcap NDT accreditation and Aerospace written practice (SNT-TC-1A based) personnel qualification for aerospace suppliers",
       "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
     ]
   },
@@ -4991,6 +5005,7 @@
       "API 510/570",
       "ASME BPVC Section V & VIII",
       "FAA 14 CFR Part 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -5102,6 +5117,7 @@
       "NBIC NB-23",
       "ASME BPVC Section V & VIII",
       "FAA 14 CFR Part 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -5124,8 +5140,9 @@
       "Georgia Power Plant McIntosh",
       "Port of Savannah Garden City Terminal"
     ],
-    "industrialProfile": "Savannah's industrial mix is shifting out of pulp and into aerospace and automotive. Gulfstream Aerospace — the Southeast's largest aerospace manufacturer, about 13,000 employees — builds, completes and services large-cabin business jets here, driving penetrant, magnetic-particle and ultrasonic work under SNT-TC-1A-based written practices, customer flow-down and Nadcap. Hyundai Motor Group's $7.6 billion Metaplant America, 25 miles west on I-16, spans more than 16 million square feet and is sized for up to 500,000 EVs and hybrids a year. Georgia-Pacific's Savannah River Mill runs at Rincon and Georgia Power's Plant McIntosh in Effingham County generates 1.38 GW with a proposed expansion toward 3 GW. International Paper announced in 2025 it is closing its Savannah and Riceboro mills.",
+    "industrialProfile": "Savannah's industrial mix is shifting out of pulp and into aerospace and automotive. Gulfstream Aerospace — the Southeast's largest aerospace manufacturer, about 13,000 employees — builds, completes and services large-cabin business jets here, driving penetrant, magnetic-particle and ultrasonic work under SNT-TC-1A-based aerospace written practices and Nadcap. Hyundai Motor Group's $7.6 billion Metaplant America, 25 miles west on I-16, spans more than 16 million square feet and is sized for up to 500,000 EVs and hybrids a year. Georgia-Pacific's Savannah River Mill runs at Rincon and Georgia Power's Plant McIntosh in Effingham County generates 1.38 GW with a proposed expansion toward 3 GW. International Paper announced in 2025 it is closing its Savannah and Riceboro mills.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "FAA 14 CFR Part 145",
       "AWS D1.1",
@@ -5182,6 +5199,7 @@
     ],
     "industrialProfile": "North Charleston carries the Lowcountry's manufacturing weight. Boeing South Carolina is the sole global final-assembly site for the 787 Dreamliner and broke ground in November 2025 on a $1 billion campus expansion to lift build rates. Detyens Shipyards, on the former Charleston Naval Shipyard, is among the largest commercial repair yards on the US East Coast, with 33 marine and industrial firms sharing the site. Mercedes-Benz Vans in Ladson has assembled over 430,000 Sprinter, Metris and eSprinter vans since 2006. Ingevity's plant, operating since the 1940s, is investing $53.3 million. In adjacent Berkeley County, Nucor Steel Berkeley rolls up to 3.5 million tons of sheet and structural steel and Century Aluminum's Mt. Holly smelter is nameplated near 230,000 tonnes.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AWS D1.1",
       "ASME BPVC Section V & VIII",
@@ -5367,6 +5385,7 @@
     ],
     "industrialProfile": "Tucson's industrial base is missiles and copper. RTX's Missiles & Defense business is headquartered on the south side beside Tucson International and is Arizona's third-largest industrial employer, with something on the order of 10,000 to 13,000 people building missile hardware. Davis-Monthan AFB hosts the 309th AMARG boneyard, while Bombardier's Tucson Service Centre on Aero Park Boulevard and Ascent Aviation at Tucson International and Pinal Airpark run heavy airframe maintenance. South of the city, ASARCO's Mission mine at Sahuarita and Freeport-McMoRan's Sierrita mine at Green Valley are large open-pit copper operations. Caterpillar moved its Surface Mining & Technology headquarters to a Tucson campus in 2019; TEP's Sundt station now runs entirely on gas.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "FAA 14 CFR Part 145",
       "ASNT SNT-TC-1A",
@@ -5393,6 +5412,7 @@
     ],
     "industrialProfile": "Yuma's inspection demand comes from test ranges and agriculture rather than heavy process plants, and the metro has no refinery, mill or shipyard. Yuma Proving Ground, an Army Test and Evaluation Command site headquartered about 30 miles north across western Yuma and southwestern La Paz counties, is the county's largest single civilian employer and hosts General Motors' Desert Proving Ground on leased land inside the range. MCAS Yuma is the busiest air station in the Marine Corps and supports roughly 80 percent of the Corps' air-to-ground aviation training. Gowan Company, a family-owned agrochemical group, is headquartered downtown and formulates through Gowan Milling. Union Pacific's Sunset Route and the rail-served Asher Inland Port carry the freight.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "FAA 14 CFR Part 145",
       "ASNT SNT-TC-1A",
       "AWS D1.1",
@@ -5452,7 +5472,8 @@
       "API 510 / 570 / 653",
       "OSHA PSM 29 CFR 1910.119",
       "ASME BPVC Section VIII and Section V",
-      "NBIC NB-23"
+      "NBIC NB-23",
+      "Aerospace written practice (SNT-TC-1A based)"
     ]
   },
   {
@@ -5475,6 +5496,7 @@
     "localCompliance": [
       "API 653 and API 570",
       "OSHA PSM 29 CFR 1910.119",
+      "Aerospace written practice (SNT-TC-1A based)",
       "AWS D1.1",
       "ASME BPVC Section VIII",
       "ASNT SNT-TC-1A"
@@ -5499,6 +5521,7 @@
     ],
     "industrialProfile": "Paramount packs an unusual amount of heavy industry into 4.7 square miles of Los Angeles County: renewable fuels plus aerospace forging. World Energy holds the former Paramount Petroleum and AltAir site, a 66-acre complex that once refined 39,500 b/d of crude and now makes renewable diesel, renewable gasoline and sustainable aviation fuel from waste oils, fats and greases for United Airlines, UPS, Boeing and the Defense Department. Four forge shops operate in the same city: Weber Metals, an Otto Fuchs company running a $180 million, 60,000-ton (540 MN) pull-down die press whose first production part was a 737 MAX main landing gear beam; Carlton Forge Works, a Precision Castparts seamless rolled ring producer; plus Press Forge and Mattco Forge.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AMS-STD-2154 ultrasonic inspection of wrought metals",
       "ASTM E1444 magnetic particle testing",
@@ -5808,6 +5831,7 @@
     ],
     "industrialProfile": "Wichita Falls builds aerospace metal and process equipment rather than running process plant, which makes its inspection profile unlike the refinery towns south and west of it. Howmet Aerospace's Wichita Falls Operations produces investment castings and aerospace components for jet engines. Vitro Architectural Glass — the former PPG flat-glass plant, about 322 people at the handover — added a jumbo magnetron-sputtered coater billed as the largest of its kind in North America. Tranter engineers and builds plate heat exchangers from its Wichita Falls headquarters, and Westlake Pipe & Fittings is adding a 190,000 square foot PVCO pipe plant on Industrial Drive. Sheppard AFB hosts the 82nd Training Wing and ENJJPT.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AWS D1.1",
       "ASME BPVC Section V & VIII",
@@ -5943,6 +5967,7 @@
     ],
     "industrialProfile": "Davenport anchors the Quad Cities, where aerospace metal, off-highway equipment, an Army arsenal and a nuclear station all sit within twenty miles of each other. Arconic's Davenport Works at Riverdale is the hub of the company's aerospace plate and sheet business and is building a new casting complex, the 'Pit 10' project, to expand ingot and recycled-aluminum capacity. John Deere Davenport Works builds construction and forestry machines. Rock Island Arsenal, on the island between Davenport and Rock Island, is the largest government-owned weapons manufacturing arsenal in the United States and the region's biggest employer at roughly 6,250. Constellation's Quad Cities station near Cordova runs two GE boiling-water reactors, about 1,880 MW gross.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "10 CFR 50 Appendix B",
       "ASME BPVC Section XI",
@@ -6179,6 +6204,7 @@
       "NBIC NB-23",
       "AWS D1.1",
       "ASNT SNT-TC-1A",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114"
     ]
   },
@@ -6998,6 +7024,7 @@
     ],
     "industrialProfile": "Everett is Boeing's widebody town. The Everett plant, the largest building in the world by volume, assembles the 767 and KC-46A and the 777 and 777X, and since 6 July 2026 also runs a new $1 billion 737 MAX North Line — the first 737 final assembly outside Renton. The Port of Everett is Washington's second-largest port by economic output and moves the largest aerospace components for the 767, 777, 777X and KC-46 programmes by sea, rail and heavy haul; its 40-acre Norton Terminal, built on the remediated Kimberly-Clark mill site, opened in 2022. Naval Station Everett homeports seven guided-missile destroyers plus Coast Guard and Military Sealift Command vessels. Fluke Corporation designs and manufactures test instruments here.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based) NDT personnel qualification",
       "AS9100 aerospace quality management",
       "ASTM E1417 liquid penetrant examination",
       "ASTM E1444 magnetic particle examination",
@@ -7580,6 +7607,7 @@
       "ASME BPVC Section V",
       "AWS D1.1",
       "ASNT SNT-TC-1A",
+      "Aerospace written practice (SNT-TC-1A based)",
       "MSHA 30 CFR Part 46",
       "Minnesota Boiler Code (Minn. R. ch. 5225)"
     ]
@@ -7712,6 +7740,7 @@
     ],
     "industrialProfile": "Muskegon is a foundry and investment-casting town that turned aerospace. Howmet Aerospace is the county's largest manufacturer at about 1,900 employees, running plants around Muskegon and Whitehall on a lost-wax investment casting business begun locally as MISCO in 1952 — turbine airfoils and engine structures, where radiography and fluorescent penetrant are contractual rather than optional. Eagle Alloy, Eagle Precision Parts, Port City Group, CWC Textron and Aludyne extend the metalcasting cluster, and ADAC Automotive supplies exterior trim. Manufacturing employs close to 14,000 across Muskegon County, over 21% of those working. Verplank's terminal on the decommissioned B.C. Cobb site is West Michigan's largest deep-water port, taking 1,000-footers and over a million tons a year.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AS9100",
       "ASTM E1417",
@@ -7874,6 +7903,7 @@
     ],
     "industrialProfile": "Buffalo's industrial base is narrower than its skyline suggests: heavy steel ended at Lackawanna, and what remains is precision aerospace plus automotive components. Moog, headquartered in East Aurora, employs more than 3,500 in Western New York and opened a $150 million, 150,000 sq ft Advanced Integrated Manufacturing building in August 2026, next to a 120,000 sq ft space actuation and avionics centre for launch vehicles and spacecraft; Astronics is also East Aurora. GM's Tonawanda Propulsion plant — three buildings, 3.1 million sq ft on 190 acres, about 1,735 workers — is taking an $888 million retooling for the next-generation small-block V-8, due complete in 2027. Ford's Buffalo Stamping Plant at Woodlawn presses sheetmetal and welded sub-assemblies.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AS9100",
       "ASTM E1417",
@@ -7905,6 +7935,7 @@
       "ASME B31.3",
       "ASME BPVC Section V",
       "AWS D1.1",
+      "Aerospace written practice (SNT-TC-1A based)",
       "12 NYCRR Part 4 (NY Boiler Code)"
     ]
   },
@@ -7957,6 +7988,7 @@
     "localCompliance": [
       "10 CFR 50 Appendix B",
       "ASME BPVC Section XI",
+      "Aerospace written practice (SNT-TC-1A based)",
       "AS9100",
       "ASTM E1417",
       "12 NYCRR Part 4 (NY Boiler Code)"
@@ -7985,6 +8017,7 @@
       "OSHA PSM",
       "API 510/570/653",
       "ASME V/VIII",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASNT SNT-TC-1A"
     ]
@@ -8013,6 +8046,7 @@
       "API 510/570/653",
       "ASME V/VIII",
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -8068,6 +8102,7 @@
       "API 510/570/653",
       "AWS D1.1",
       "ASME V/VIII",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -8090,6 +8125,7 @@
     "industrialProfile": "Santa Fe Springs is a purpose-built industrial city rather than a plant town. Its oil field, drilled from 1921 and the largest US producer of petroleum products by 1929, is now largely depleted, leaving scattered pumping units and production facilities along the Telegraph Road and Norwalk Boulevard corridor. What replaced it is a dense aerospace supply chain: Nadcap-accredited plating houses such as Precision Control Finishing running electroless nickel, gold, silver, copper and tin-lead for airframe and engine work, alongside sheet-metal and precision machine shops including A&A Aerospace and Research Metal Industries, with Brenntag Pacific supplying the metal-finishing chemistry. The Waste Disposal Inc. Superfund site records what the earlier era left behind.",
     "localCompliance": [
       "Nadcap AC7114",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A",
       "AWS D1.1",
       "ASME V/VIII",
@@ -9526,6 +9562,7 @@
     ],
     "industrialProfile": "La Porte's anchor is Howmet Aerospace's La Porte Operations at 1110 East Lincolnway, an Engine Products site casting nickel-superalloy airfoils and structural castings for aero engines and industrial gas turbines. Founded in 1957 as an Alcoa investment-casting plant, it took a $100 million, 320,000-square-foot expansion opened in 2015 for narrow-body, wide-body and military engine parts, and employs about 470. MonoSol runs a PVOH film plant on Genesis Drive, New York Blower builds industrial fans, and Jaeger-Unitek, B&B Manufacturing and Alexander Chemical fill out the base. The county's heavy tenants sit in Kingsbury Industrial Park, the former Kingsbury Ordnance Plant.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASNT SNT-TC-1A",
       "AWS D1.1",
@@ -9756,6 +9793,7 @@
     "industrialProfile": "Cahokia, now part of Cahokia Heights, is an aviation town. St. Louis Downtown Airport, owned by Bi-State Development and opened in 1929 as Curtiss-Steinberg Field, is Illinois' third-busiest airport behind O'Hare and Midway, with three paved runways, an instrument landing system, a control tower and about 103,000 aircraft operations a year. Gulfstream Aerospace is the largest tenant, a large-cabin maintenance, repair and overhaul and completions centre with roughly 375 employees and 140 more coming for custom cabinetry and exterior paint capacity. Ideal Aviation runs maintenance, avionics and flight training; Helicopters Inc. maintains around seventy electronic news gathering helicopters from the field.",
     "localCompliance": [
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASNT SNT-TC-1A"
     ]
@@ -10097,6 +10135,7 @@
     ],
     "industrialProfile": "Ravenswood is Constellium Rolled Products, a 1957 aluminium mill on Route 2 that ranks among the world's largest rolled-products plants, with more than 1,200 employees making plate, sheet and coil for aerospace, defense, marine, transportation and industrial customers. It rolled plate for NASA's Artemis II, holds a Department of Defense grant to optimise armor-plate production, restarted a rebuilt cold rolling mill, and was selected for up to $75 million from DOE's Industrial Demonstrations Program to decarbonise its casthouses. Star Plastics compounds resin in town and Armstrong World Industries' Millwood ceiling plant is upriver. The Kaiser-built Century Aluminum smelter next door closed in 2009 and holds no air permit.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASNT SNT-TC-1A",
       "AWS D1.1",
@@ -10152,6 +10191,7 @@
     ],
     "industrialProfile": "Huntington is a metals and rail town. Huntington Alloys, the Special Metals division now under Precision Castparts, runs a 130-acre nickel-alloy complex described as the largest of its type in the world, melting, forging and finishing Inconel and Monel grades as a Title V major source. Steel of West Virginia, Steel Dynamics' specialty-shapes mill, idled its melt shop in 2025 and is putting about $30 million into its two rolling mills. CSX's Huntington Heavy Repair Shop rebuilds EMD and GE locomotives, passed AAR M-1003 audits four years running and is converting units to hydrogen. J.H. Fletcher builds underground mining machines; Catlettsburg refinery is ten miles west.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "AAR M-1003",
       "AWS D1.1",
       "ASME V/VIII",
@@ -10294,6 +10334,7 @@
     "localCompliance": [
       "ABS/DNV",
       "AWS D1.1",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASME Section VIII",
       "ASNT SNT-TC-1A"
@@ -10321,6 +10362,7 @@
       "NBIC NB-23",
       "ASME Section VIII",
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -10345,6 +10387,7 @@
     "industrialProfile": "Southern Oregon's industry clusters at White City and Central Point rather than in Medford proper. Erickson Inc. at Central Point is the manufacturer and world's largest operator of the S-64 Aircrane, having made over 1,350 changes to the airframe, instrumentation and payload systems — rotor heads, main-rotor spars and dynamic components that live on eddy current and fluorescent penetrant. Biomass One's 36.5 MW wood-waste plant at White City runs grate boilers on mill residue. Harry & David, the largest employer in southern Oregon at about 1,700 year-round and 6,700 seasonal, plus Amy's Kitchen's White City plant, put steam, ammonia refrigeration and bakery lines in the same corridor. Lithia Motors keeps its Fortune 500 headquarters here.",
     "localCompliance": [
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASME Section I/VIII",
       "NBIC NB-23",
       "OSHA PSM 29 CFR 1910.119",
@@ -10374,6 +10417,7 @@
       "ASME Section V/VIII",
       "ASME B31.1",
       "NBIC NB-23",
+      "Aerospace written practice (SNT-TC-1A based)",
       "OSHA PSM 29 CFR 1910.119",
       "ASNT SNT-TC-1A"
     ]
@@ -10508,6 +10552,7 @@
       "ASME Section V/VIII",
       "NBIC NB-23",
       "AWS D1.1",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -10667,7 +10712,8 @@
       "ASME Section V/VIII",
       "NBIC NB-23",
       "AWS D1.1",
-      "ASNT SNT-TC-1A"
+      "ASNT SNT-TC-1A",
+      "Aerospace written practice (SNT-TC-1A based)"
     ]
   },
   {
@@ -10716,6 +10762,7 @@
     ],
     "industrialProfile": "Worcester still forges and grinds. Saint-Gobain Abrasives - Norton, founded here and bought by Saint-Gobain in 1990 - is the city's largest industrial employer at roughly 1,650 people, producing bonded and coated abrasives and engineered ceramics. David Clark Company has built aviation life-support here since the anti-g suit: pressure suits, oxygen systems and noise-attenuating headsets. Primetals Technologies carries on Morgan Construction's rolling-mill machinery line for the steel industry. Ten minutes out in North Grafton, Wyman-Gordon - Precision Castparts, ultimately Berkshire Hathaway - operates 35,000-ton and 50,000-ton closed-die presses, the larger an ASME historic mechanical engineering landmark, forging titanium and nickel jet-engine and landing-gear components. Polar Beverages bottles at national scale.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASNT SNT-TC-1A",
       "ASME Section V",
@@ -10822,7 +10869,8 @@
       "ASNT SNT-TC-1A",
       "ASME Section V",
       "AWS D1.1",
-      "ABS/DNV"
+      "ABS/DNV",
+      "Aerospace written practice (SNT-TC-1A based)"
     ]
   },
   {
@@ -10874,7 +10922,8 @@
       "ASNT SNT-TC-1A",
       "ASME Section V",
       "ABS/DNV",
-      "AWS D1.1"
+      "AWS D1.1",
+      "Aerospace written practice (SNT-TC-1A based)"
     ]
   },
   {
@@ -10897,6 +10946,7 @@
     "industrialProfile": "Bangor is the market town, distribution centre and transport hub for a five-county region of some 330,000 people, and its industrial base is narrow and specific rather than broad - two facilities carry most of the technical inspection work. C&L Aviation Group operates from Bangor International Airport as an FAA-certificated repair station handling MRO, interiors, avionics, engine sales and component repair on ATR, Dash 8, CRJ, Saab and Embraer regional aircraft plus Citation, Challenger, Hawker and Gulfstream business jets. Across the Penobscot in Brewer, Cianbro's Eastern Manufacturing Facility fabricates petrochemical and power modules - structural, mechanical, piping, electrical, instrumentation and coating - for barge-out delivery. Versant Power runs eastern and northern Maine's transmission grid from the city.",
     "localCompliance": [
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A",
       "AWS D1.1",
       "ASME Section V/VIII"
@@ -10948,6 +10998,7 @@
     "industrialProfile": "Brunswick's industry is the former Naval Air Station, redeveloped by the Midcoast Regional Redevelopment Authority as Brunswick Landing and still served by an active runway at Brunswick Executive Airport. Mölnlycke Health Care runs the largest manufacturing operation on the campus; STARC Systems builds reusable containment wall systems; VarneyCNC does precision machining; bluShift Aerospace develops bio-derived rocket propulsion; Greisen Aerospace, Concorde Aerospace, Stratton Aviation and FlightLevel Aviation work the flight line; and Kennebec River Biosciences, Coastal BioPharm and Maridose fill out the life-science side. TechPlace adds 45,000 square feet of shared machine shop, paint booth, composite oven and lab space. Bath Iron Works, the region's dominant employer ten miles away in Bath, also leases here.",
     "localCompliance": [
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASNT SNT-TC-1A",
       "AWS D1.1",
@@ -11021,8 +11072,9 @@
       "Georgia Power (middle Chattahoochee dams)",
       "Global Payments / TSYS"
     ],
-    "industrialProfile": "Columbus is a one-anchor industrial town, and the anchor is aero-engine work: Pratt & Whitney's Columbus plant carries about 1,850 people on the city's 2025 employer roll, the largest private industrial payroll in the Chattahoochee Valley and the reason Nadcap qualifications matter here at all. Fort Benning — restored to that name on 3 March 2025, now honoring Cpl. Fred G. Benning — is far larger at roughly 42,500, but it is a maneuver training installation, not a depot. Aflac, Global Payments/TSYS and Synovus make Columbus a back-office city; the rest of the industrial base is W. C. Bradley's Char-Broil, headquartered here, and Georgia Power's chain of Chattahoochee dams between West Point Lake and Walter F. George.",
+    "industrialProfile": "Columbus is a one-anchor industrial town, and the anchor is aero-engine work: Pratt & Whitney's Columbus plant carries about 1,850 people on the city's 2025 employer roll, the largest private industrial payroll in the Chattahoochee Valley and the reason aerospace written-practice and Nadcap qualifications matter here at all. Fort Benning — restored to that name on 3 March 2025, now honoring Cpl. Fred G. Benning — is far larger at roughly 42,500, but it is a maneuver training installation, not a depot. Aflac, Global Payments/TSYS and Synovus make Columbus a back-office city; the rest of the industrial base is W. C. Bradley's Char-Broil, headquartered here, and Georgia Power's chain of Chattahoochee dams between West Point Lake and Walter F. George.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "FAA 14 CFR 145",
       "ASNT SNT-TC-1A",
@@ -11077,7 +11129,8 @@
       "AWS D1.1",
       "ASNT SNT-TC-1A",
       "FAA 14 CFR 145",
-      "ASME V/VIII"
+      "ASME V/VIII",
+      "Aerospace written practice (SNT-TC-1A based)"
     ]
   },
   {
@@ -11128,6 +11181,7 @@
       "10 CFR 50 App B",
       "ASME V/VIII",
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -11281,6 +11335,7 @@
     ],
     "industrialProfile": "The Golden Triangle is the densest heavy-industrial cluster in Mississippi away from the Coast, and it is all clustered on and around Golden Triangle Regional Airport. Steel Dynamics runs the flat-roll mini-mill Severstal opened in October 2007 and SDI bought in 2014 for $1.625 billion, with total site investment reaching $1.8 billion. PACCAR has built truck engines north of the airport since late 2010 for Peterbilt, Kenworth and DAF. On airport property Airbus Helicopters assembles UH-72 Lakotas in an 85,000 sq ft plant plus a 220,000 sq ft second phase from 2007, and Boeing's Aurora Flight Sciences and Stark Aerospace build unmanned aircraft. International Paper's Columbus mill and Nouryon's sodium chlorate plant carry process work; Columbus AFB's 14th Flying Training Wing flies T-6As, T-38Cs and T-1As.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AWS D1.1",
       "ASME V/VIII",
@@ -11307,6 +11362,7 @@
     ],
     "industrialProfile": "Tupelo is a furniture town that added an automotive spine. Toyota Motor Manufacturing Mississippi at Blue Springs has built the Corolla since November 2011, 170,000 vehicles a year with about 2,250 employees. Cooper Tire's Tupelo consumer-tire plant, now part of Goodyear after the 2021 acquisition, is the other large process plant, and the upholstered-furniture cluster around Lee, Union and Tippah counties — Ashley took Gentry Furniture at Ripley in 1999 — still accounts for roughly 22,000 jobs, close to 13 percent of regional employment. Tupelo Regional Airport runs an unusual second line of work: Universal Asset Management dismantles A330s, A340s, 747-400s and 777s there for parts recovery, alongside a National Guard AH-64 and UH-72 aviation support facility.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "FAA 14 CFR 145",
       "AWS D1.1",
       "ASME V/VIII",
@@ -11335,6 +11391,7 @@
       "AWS D1.1",
       "ASME V/VIII",
       "NBIC NB-23",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A"
     ]
   },
@@ -11569,6 +11626,7 @@
     "industrialProfile": "Missoula is thin on process industry and it is worth saying so plainly: the Smurfit-Stone pulp mill at Frenchtown shut in 2010 and is now an EPA cleanup site, and the Bonner sawmill and plywood plant closed in 2008 and 2007. What remains that needs inspection is aviation and rail. Neptune Aviation Services flies its BAe 146 large air tanker fleet from Missoula and keeps a comprehensive machine shop and in-house non-destructive testing for airframe and structural work, sustaining a 99% dispatch rate. Montana Rail Link was headquartered here with about 1,000 employees until BNSF took the lease back on 1 January 2024; the yard is now BNSF's MRL Subdivision.",
     "localCompliance": [
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A",
       "AAR M-1003",
       "AWS D1.1"
@@ -11909,6 +11967,7 @@
     ],
     "industrialProfile": "Sandusky is a tourism town — Cedar Point is far and away the largest employer at roughly 6,600 — with three serious industrial tenants behind it. NASA Glenn's Neil A. Armstrong Test Facility on Scheid Road, the former Plum Brook Station, holds the world's largest space environment simulation chamber and the vacuum and propulsion cells used to qualify Orion, and it is why aerospace-grade inspection exists here at all. MetalTek's Sandusky International division on West Water Street pours centrifugal castings; Mack Iron Works on Warren Street fabricates plate and vessels; Ventra Sandusky on Tiffin Avenue stamps and moulds automotive parts at about 800. U.S. Tsubaki, Lewco and Polynt Composites finish a genuinely short list.",
     "localCompliance": [
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASME V/VIII",
       "AWS D1.1",
@@ -12013,6 +12072,7 @@
     "localCompliance": [
       "AWS D1.1",
       "ASME V/VIII",
+      "Aerospace written practice (SNT-TC-1A based)",
       "ASNT SNT-TC-1A",
       "MIL-STD-2154"
     ]
@@ -12142,6 +12202,7 @@
     "localCompliance": [
       "ASME V",
       "ASME VIII",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "AWS D1.1",
       "FAA 14 CFR 145"
@@ -12168,6 +12229,7 @@
     "localCompliance": [
       "AWS D1.1",
       "ASNT SNT-TC-1A",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "ASME V"
     ]
@@ -12297,6 +12359,7 @@
     "industrialProfile": "Greensboro's aerospace cluster sits on Piedmont Triad International's field. Honda Aircraft builds HondaJets and is tooling a $55.7 million line for the 2600; AAR bought HAECO Americas' widebody heavy-check base for $78 million in November 2025, folding 1,600 staff into its airframe MRO network; Marshall Aerospace opened a $50 million inspection facility; Boom's Overture Superfactory was completed in June 2024 and is still ramping. Volvo Group North America and Mack Trucks run world headquarters at 7900 National Service Road. Toyota's $13.9 billion Liberty battery plant in Randolph County began shipping in 2025 toward 14 lines. Colonial Pipeline's tank farm plus the TransMontaigne and PF&T terminals hold over a million barrels.",
     "localCompliance": [
       "FAA 14 CFR 145",
+      "Aerospace written practice (SNT-TC-1A based)",
       "Nadcap AC7114",
       "API 653",
       "49 CFR 195",
