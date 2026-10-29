@@ -1601,9 +1601,9 @@
  },
  {
   "slug": "ndt-software-for-aerospace-industry-2026-buyer-guide",
-  "title": "Choosing NDT Software for Aerospace: A Nadcap Supplier Checklist",
+  "title": "Choosing NDT Software for Aerospace: A Nadcap Checklist",
   "category": "Vertical Buyer Guides",
-  "metaDescription": "What aerospace NDT suppliers should check in software: personnel certification and vision tests, technique revisions, calibration records an"
+  "metaDescription": "What aerospace NDT suppliers should check in software: personnel certs and vision tests, technique revisions, calibration records and audit "
  },
  {
   "slug": "ndt-software-for-power-generation-2026-buyer-guide",
@@ -2263,55 +2263,55 @@
   "slug": "ndt-services-aerospace-boeing-2027-decoded",
   "title": "NDT Services Aerospace — Boeing Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Boeing Decoded — aerospace NDT inspection for boeing — operator-specific workflows, code coverage, asset-integrity "
+  "metaDescription": "Aerospace NDT inspection for Boeing — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Quo"
  },
  {
   "slug": "ndt-services-aerospace-airbus-2027-decoded",
   "title": "NDT Services Aerospace — Airbus Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Airbus Decoded — aerospace NDT inspection for airbus — operator-specific workflows, code coverage, asset-integrity "
+  "metaDescription": "Aerospace NDT inspection for Airbus — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Quo"
  },
  {
   "slug": "ndt-services-aerospace-lockheed-2027-decoded",
   "title": "NDT Services Aerospace — Lockheed Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Lockheed Decoded — aerospace NDT inspection for lockheed — operator-specific workflows, code coverage, asset-integr"
+  "metaDescription": "Aerospace NDT inspection for Lockheed — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Q"
  },
  {
   "slug": "ndt-services-aerospace-northrop-2027-decoded",
   "title": "NDT Services Aerospace — Northrop Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Northrop Decoded — aerospace NDT inspection for northrop — operator-specific workflows, code coverage, asset-integr"
+  "metaDescription": "Aerospace NDT inspection for Northrop — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Q"
  },
  {
   "slug": "ndt-services-aerospace-pratt-whitney-2027-decoded",
   "title": "NDT Services Aerospace — Pratt Whitney Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Pratt Whitney Decoded — aerospace NDT inspection for pratt whitney — operator-specific workflows, code coverage, as"
+  "metaDescription": "Aerospace NDT inspection for Pratt Whitney — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III author"
  },
  {
   "slug": "ndt-services-aerospace-raytheon-2027-decoded",
   "title": "NDT Services Aerospace — Raytheon Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Raytheon Decoded — aerospace NDT inspection for raytheon — operator-specific workflows, code coverage, asset-integr"
+  "metaDescription": "Aerospace NDT inspection for Raytheon — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Q"
  },
  {
   "slug": "ndt-services-aerospace-safran-2027-decoded",
   "title": "NDT Services Aerospace — Safran Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Safran Decoded — aerospace NDT inspection for safran — operator-specific workflows, code coverage, asset-integrity "
+  "metaDescription": "Aerospace NDT inspection for Safran — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Quo"
  },
  {
   "slug": "ndt-services-aerospace-mtu-2027-decoded",
   "title": "NDT Services Aerospace — Mtu Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Mtu Decoded — aerospace NDT inspection for mtu — operator-specific workflows, code coverage, asset-integrity progra"
+  "metaDescription": "Aerospace NDT inspection for Mtu — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Quote "
  },
  {
   "slug": "ndt-services-aerospace-collins-2027-decoded",
   "title": "NDT Services Aerospace — Collins Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Collins Decoded — aerospace NDT inspection for collins — operator-specific workflows, code coverage, asset-integrit"
+  "metaDescription": "Aerospace NDT inspection for Collins — operator-specific workflows, code coverage, asset-integrity programs. ASNT NDT Level III authored. Qu"
  },
  {
   "slug": "ndt-services-power-coal-2027-decoded",
@@ -2443,7 +2443,7 @@
   "slug": "ndt-roi-calculator-aerospace-2027",
   "title": "NDT ROI Calculator Aerospace — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Aerospace — Worked Examples — ROI by personnel certification tracking + Boeing D1-9000 procedural alignment. ASNT NDT Lev"
+  "metaDescription": "NDT ROI Calculator Aerospace — worked examples: ROI by written-practice cert tracking + Boeing D1-9000 procedural alignment. ASNT NDT Level "
  },
  {
   "slug": "ndt-roi-calculator-power-generation-2027",
@@ -3583,7 +3583,7 @@
   "slug": "en-4179-recertification-european-aerospace-2028",
   "title": "EN 4179 Recertification European Aerospace",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "EN 4179 Recertification European Aerospace — EN 4179 recertification for Airbus + Safran + MTU. ASNT NDT Level III authored. Free Atlantis N"
+  "metaDescription": "EN 4179 recertification for European aerospace NDT: the written practice, vision and examination records, and ASNT Level III consulting supp"
  },
  {
   "slug": "written-practice-authoring-snt-tc-1a-2028",
@@ -4258,8 +4258,8 @@
  },
  {
   "slug": "ndt-reporting-software-for-aerospace-nadcap-ready-documentation",
-  "title": "NDT Reporting Software for Aerospace: NADCAP-Ready Documentation",
-  "metaDescription": "What NADCAP-ready NDT documentation for aerospace suppliers actually requires — part traceability, calibration chains to NIST, and procedure"
+  "title": "Aerospace NDT Reporting Software: NADCAP-Ready Documentation",
+  "metaDescription": "What NADCAP-ready NDT documentation for aerospace suppliers requires — part traceability, calibration chains to NIST, and procedure-specific"
  },
  {
   "slug": "switching-ndt-reporting-software-a-migration-checklist-for-inspection-companies",
@@ -4473,7 +4473,7 @@
  },
  {
   "slug": "ndt-training-in-tianjin-asnt-certification-for-aerospace-and-offshore-oil-inspectors",
-  "title": "NDT Training in Tianjin: ASNT Certification for Aerospace and Offshore Oil Inspectors",
+  "title": "NDT Training in Tianjin: ASNT for Aerospace and Offshore Oil",
   "metaDescription": "How ASNT SNT-TC-1A certification fits alongside domestic certification for Tianjin's aerospace supply chain and CNOOC Bohai Bay offshore ins"
  },
  {
@@ -4703,8 +4703,8 @@
  },
  {
   "slug": "ndt-for-aerospace-manufacturing-what-makes-it-different-from-oil-and-gas-inspection",
-  "title": "NDT for Aerospace Manufacturing: What Makes It Different From Oil and Gas Inspection",
-  "metaDescription": "Aerospace NDT vs. oil and gas inspection: AS9100, NADCAP, materials, technique mix, and acceptance criteria compared for inspection professi"
+  "title": "NDT for Aerospace Manufacturing vs. Oil and Gas Inspection",
+  "metaDescription": "Aerospace NDT vs. oil and gas inspection: written practices, AS9100, NADCAP, materials, techniques and acceptance criteria compared for insp"
  },
  {
   "slug": "ndt-for-automotive-manufacturing-weld-inspection-at-production-speed",
@@ -5096,5 +5096,38 @@
   "title": "Fired Heater Tube Inspection: Methods, API 573 and Scope",
   "category": "Inspection Applications",
   "metaDescription": "How fired heater and furnace tubes are inspected: thermography, visual, UT thickness, creep swell and in-line pigging, under API RP 573 and "
+ },
+ {
+  "slug": "aerospace-ndt-certification-explained",
+  "title": "Aerospace NDT Certification Explained: SNT-TC-1A + Nadcap",
+  "category": "Certifications",
+  "metaDescription": "How aerospace NDT personnel are certified under an employer's SNT-TC-1A written practice: hours, exams, vision, recertification and what Nad"
+ },
+ {
+  "slug": "aerospace-ndt-recertification-2028",
+  "title": "Aerospace NDT Recertification : SNT-TC-1A Planning",
+  "category": "2028 Certification + Procedure",
+  "metaDescription": "Plan aerospace NDT recertification under an SNT-TC-1A written practice: interval, vision exams, continuing-activity evidence and audit-ready"
+ },
+ {
+  "slug": "ndt-cert-trends-2027-asnt-iso-pcn",
+  "title": "NDT Cert Trends — ASNT, ISO 9712, PCN",
+  "category": "2027 Q4",
+  "metaDescription": "NDT Cert Trends — ASNT, ISO 9712, PCN: scheme trends, multi-scheme adoption, recertification cycles and SNT-TC-1A notes for aerospace progra"
+ },
+ {
+  "slug": "ndt-training-for-aerospace-and-what-makes-it-different-from-oil-and-gas",
+  "title": "NDT Training for Aerospace: How It Differs From Oil and Gas",
+  "metaDescription": "How aerospace NDT training differs from oil and gas under ASNT SNT-TC-1A: customer flow-down, Nadcap AC7114 audits, training hours, vision a"
+ },
+ {
+  "slug": "software-for-aerospace-ndt-quality-control-as9100-and-nadcap-in-one-platform",
+  "title": "Aerospace NDT QC Software: AS9100 and Nadcap in One Platform",
+  "metaDescription": "A quality manager's guide to running SNT-TC-1A personnel records, AS9100D and Nadcap AC7114 audit evidence for aerospace NDT in one ERP, not"
+ },
+ {
+  "slug": "third-party-asnt-level-iii-consulting-for-aerospace-programs",
+  "title": "Third-Party ASNT Level III Consulting for Aerospace Programs",
+  "metaDescription": "Third-party ASNT Level III consulting for aerospace NDT programs: SNT-TC-1A written practice, exam oversight and Nadcap AC7114 audit readine"
  }
 ]
