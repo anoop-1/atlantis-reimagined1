@@ -198,6 +198,14 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
   add('No NAS 410 named on the site', named.length === 0 && chunks.length === 0,
     named.length || chunks.length ? `${named.length} pages, ${chunks.length} JS chunks: ${[...named, ...chunks].slice(0, 4).join(', ')}` : 'clean');
   add('No links to retired NAS 410 URLs', linked.length === 0, linked.length ? `${linked.length} pages: ${linked.slice(0, 4).join(', ')}` : 'clean');
+  // 2026-10-29 (owner): aerospace and aviation get the same ASNT Level III consulting,
+  // SNT-TC-1A-based training and inspection as every other sector. The first NAS 410
+  // pass swapped the standard for filler ("the customer-specified aerospace standard")
+  // that read as if SNT-TC-1A did not apply to aerospace; NANDTB only exists in the
+  // NAS 410 / EN 4179 scheme. Neither may return.
+  const HEDGE = /customer-specified aerospace standard|\bNANDTBs?\b/i;
+  const hedged = files.filter((f) => HEDGE.test(readFileSync(f, 'utf-8'))).map(routeOf);
+  add('Aerospace offer not hedged', hedged.length === 0, hedged.length ? `${hedged.length} pages: ${hedged.slice(0, 4).join(', ')}` : 'clean');
 }
 
 // ── 5. Sitemap integrity ─────────────────────────────────────────────────────

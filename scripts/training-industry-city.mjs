@@ -91,11 +91,11 @@ const SECTORS = {
   aerospace: {
     match: /aerospace|aviation|space|defen[cs]e|missile/i,
     label: 'Aerospace',
-    scheme: 'the customer\'s aerospace personnel requirements on top of SNT-TC-1A method training, because the primes flow that down',
+    scheme: 'the employer\'s SNT-TC-1A-based aerospace written practice, with the primes\' flow-down added on top',
     methods: 'PT and MT first — they carry most aerospace part volume — then UT, RT and ET',
-    levelNote: 'Aerospace programmes demand materially more formal training and experience than SNT-TC-1A recommends for the same level in several methods, so a technician moving into aerospace from refinery work retrains rather than transfers.',
+    levelNote: 'The primes\' flow-down calls for materially more formal training hours for the same level in several methods, plus practical examinations on representative parts, so a technician moving into aerospace from refinery work retrains rather than transfers. Atlantis delivers the ASNT SNT-TC-1A-based method training the aerospace written practice is built on.',
     cohort: 'process-line technicians and inspectors working to technique sheets written per part number',
-    related: '/aerospace-ndt-training',
+    related: '/aerospace-ndt-certification-requirements',
   },
   nuclear: {
     match: /nuclear/i,

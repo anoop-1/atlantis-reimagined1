@@ -72,7 +72,7 @@ const SECTORS = {
     mechanisms:
       'Fatigue cracking at stress concentrations and fastener holes; corrosion, including exfoliation and intergranular attack in aluminium alloys; delamination, disbond and barely visible impact damage in composites; creep and thermal fatigue in hot-section engine parts; and hydrogen embrittlement in high-strength steels.',
     methods: 'Fluorescent penetrant and magnetic particle for surface indications, ultrasonic and phased array for internal defects and composite delamination, eddy current for fastener-hole and surface cracking, radiography for castings and assemblies, and thermography or shearography for bond and honeycomb condition.',
-    codes: 'Customer-flowed personnel qualification requirements, AS9100 for the quality system, Nadcap AC7114 for process accreditation, ASTM E1417 and E1444 for penetrant and magnetic particle, plus the OEM process specification that supplies the acceptance criteria.',
+    codes: 'An SNT-TC-1A-based written practice carrying the primes\' flow-down for personnel qualification, AS9100 for the quality system, Nadcap AC7114 for process accreditation, ASTM E1417 and E1444 for penetrant and magnetic particle, plus the OEM process specification that supplies the acceptance criteria.',
     distinct:
       'The defining difference from industrial work is that acceptance criteria come from the OEM process specification for that part rather than from a general code, so the same indication can be acceptable on one programme and rejectable on another. Records must therefore cite the specification and revision applied, not merely the examination standard.',
   },

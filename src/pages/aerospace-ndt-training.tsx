@@ -10,12 +10,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
-// 2026-10-08: Atlantis training is ASNT SNT-TC-1A ONLY. This page used to offer
-// aerospace personnel certification training (plus unsupported pass-rate,
-// trainee-count, Nadcap and OEM-recognition claims). It now offers aerospace
-// NDT method training under SNT-TC-1A and explains aerospace certification as
-// information only. 2026-10-28: NAS 410 is no longer named anywhere on the site (owner). Keep the title and H1 identical to the prerender entry
-// for /aerospace-ndt-training in scripts/prerender.mjs.
+// 2026-10-08: Atlantis aerospace training is ASNT SNT-TC-1A-based method
+// training (unsupported pass-rate, trainee-count, Nadcap and OEM-recognition
+// claims removed). 2026-10-29: aerospace content restored on the SNT-TC-1A
+// basis, with ASNT NDT Level III consulting for the aerospace written practice
+// (owner). Keep the title and H1 identical to the prerender entry for
+// /aerospace-ndt-training in scripts/prerender.mjs.
 
 const courses = [
     { name: "Ultrasonic Testing (UT)", levels: "Level I, II, III", duration: "40-80 hours", focus: "Composite inspection, bonding" },
@@ -31,25 +31,25 @@ const benefits = [
     "Online theory plus hands-on practicals onsite at your facility",
     "Practicals on your own parts and reference standards when delivered onsite",
     "Training and examination records structured for your employer's written practice",
-    "A plain account of where SNT-TC-1A training stops and employer aerospace certification begins"
+    "A plain account of where SNT-TC-1A training stops and your employer's aerospace certification begins"
 ];
 
-const nas410Points = [
+const aerospacePoints = [
     {
-        title: "Customer aerospace requirements",
-        body: "Most of the aerospace supply chain qualifies and certifies NDT personnel to a personnel standard the prime or customer specifies, with EN 4179 used in Europe. Primes and Nadcap audits call for that standard rather than SNT-TC-1A alone."
+        title: "What aerospace customers add",
+        body: "Aerospace primes flow personnel-qualification requirements down to suppliers, and Nadcap audits the NDT programme against AC7114. An aerospace written practice built on ASNT SNT-TC-1A adds what those audits look for: a written Level III designation (the Responsible Level 3 in AC7114), Level III approval of instructors and examination material, practical examinations on representative parts, per-method experience logs and vision-examination tracking."
     },
     {
         title: "The employer's written practice",
-        body: "The employer certifies its own Level 1 and Level 2 personnel under a written practice. The written practice names a Responsible Level 3, who approves procedures and techniques, controls the examinations and signs the certifications. Training hours, experience, examinations and vision checks are recorded against that written practice."
+        body: "In an aerospace programme the employer certifies its own Level 1 and Level 2 personnel under a written practice. The written practice names a Responsible Level 3, who approves procedures and techniques, controls the examinations and signs the certifications. Training hours, experience, examinations and vision checks are recorded against that written practice."
     },
     {
-        title: "The National Aerospace NDT Board",
-        body: "In countries that have a National Aerospace NDT Board (NANDTB), the board provides independent national oversight. It can examine and qualify Level 3 personnel, approve outside agencies and examination material, and act as the authority aerospace primes recognise. Where no board exists, Level 3 qualification runs through an approved outside agency and the primes' own requirements."
+        title: "Outside agency Level III",
+        body: "Under SNT-TC-1A the written practice is approved by an NDT Level III, and no one may administer a certification examination to themselves or a subordinate. A firm with no Level III on staff engages an outside agency Level III, who can write and approve the written practice, build and grade examinations and recommend certification. The employer still signs and issues the certificate."
     },
     {
         title: "Where Atlantis fits",
-        body: "Atlantis delivers NDT method training under ASNT SNT-TC-1A only. If you work to the customer-specified aerospace standard, your Responsible Level 3 decides whether and how SNT-TC-1A training hours count toward your record."
+        body: "Atlantis delivers ASNT SNT-TC-1A-based method training for aerospace employers, with records structured for an aerospace written practice. Behind it sits ASNT NDT Level III consulting: written practices, procedures and technique sheets, examinations and Nadcap AC7114 audit preparation, with Atlantis able to act as the outside agency Level III in UT, RT, MT, PT and VT. Your Responsible Level 3 credits the training hours under your written practice."
     }
 ];
 
@@ -58,7 +58,7 @@ export default function AerospaceNDTTraining() {
         "@context": "https://schema.org",
         "@type": "Course",
         "name": "Aerospace NDT Training (ASNT SNT-TC-1A)",
-        "description": "NDT method training under ASNT SNT-TC-1A for aerospace applications: UT, ET, PT, RT and VT. Aerospace certification is issued by the employer under its written practice.",
+        "description": "NDT method training under ASNT SNT-TC-1A for aerospace applications: UT, ET, PT, RT and VT, with records structured for the employer's aerospace written practice and ASNT NDT Level III consulting behind it.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT" }
     };
 
@@ -67,8 +67,8 @@ export default function AerospaceNDTTraining() {
             <Navigation />
             <SEOHead
                 title="Aerospace NDT Training (ASNT SNT-TC-1A) | Atlantis NDT"
-                description="Aerospace NDT method training under ASNT SNT-TC-1A: UT, ET, PT, RT and VT for aircraft structure, engines and composites. How aerospace certification works and who issues it."
-                keywords="aerospace NDT training, ASNT SNT-TC-1A aerospace, aircraft NDT training, composite inspection training, aerospace UT training, ASNT Level III aerospace consulting, EN 4179"
+                description="Aerospace NDT method training under ASNT SNT-TC-1A in UT, ET, PT, RT and VT for airframes, engines and composites, with ASNT Level III consulting behind it."
+                keywords="aerospace NDT training, ASNT SNT-TC-1A aerospace, aircraft NDT training, composite inspection training, aerospace UT training, ASNT Level III aerospace consulting, aerospace written practice"
                 canonical="https://atlantisndt.com/aerospace-ndt-training"
                 structuredData={structuredData}
             />
@@ -144,10 +144,13 @@ export default function AerospaceNDTTraining() {
                 <div className="container mx-auto max-w-5xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">How Aerospace Certification Works</h2>
                     <p className="text-center text-slate-600 mb-10 max-w-3xl mx-auto">
-                        This section is for information. Atlantis trains to ASNT SNT-TC-1A and provides ASNT Level III consulting; it does not issue aerospace certification.
+                        Your employer certifies. Atlantis supports the programme behind that certification with ASNT SNT-TC-1A-based training and{" "}
+                        <Link to="/consulting/aerospace-ndt-consulting" className="text-blue-700 hover:underline">ASNT NDT Level III consulting for aerospace</Link>:{" "}
+                        <Link to="/consulting/written-practice-for-aerospace" className="text-blue-700 hover:underline">aerospace written practices</Link>, examinations and{" "}
+                        <Link to="/consulting/nadcap-ac7114-audit-readiness" className="text-blue-700 hover:underline">Nadcap AC7114 audit preparation</Link>.
                     </p>
                     <div className="grid md:grid-cols-2 gap-6">
-                        {nas410Points.map((p) => (
+                        {aerospacePoints.map((p) => (
                             <Card key={p.title}>
                                 <CardHeader><CardTitle className="text-lg">{p.title}</CardTitle></CardHeader>
                                 <CardContent><p className="text-sm text-slate-700 leading-relaxed">{p.body}</p></CardContent>
@@ -160,7 +163,7 @@ export default function AerospaceNDTTraining() {
             <section className="py-16 bg-gradient-to-r from-slate-700 to-slate-800 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Plan Aerospace NDT Method Training</h2>
-                    <p className="text-slate-300 mb-8 text-lg">Tell us the methods, levels and parts you inspect. We will scope ASNT SNT-TC-1A training and explain how the records sit beside your employer's written practice.</p>
+                    <p className="text-slate-300 mb-8 text-lg">Tell us the methods, levels and parts you inspect. We will scope ASNT SNT-TC-1A training and explain how the records sit beside your employer's aerospace written practice.</p>
                     <Link to="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition">Request a Training Quote</Link>
                 </div>
             </section>

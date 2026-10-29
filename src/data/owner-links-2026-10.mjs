@@ -178,6 +178,14 @@ export const OWNER_PAGES = {
     source: 'blog',
     p: `This guide covers becoming a Level III yourself. If your company needs Level III authority now, our ${L3()} page sets out how an outside agency Level III is engaged.`,
   },
+  '/blog/third-party-asnt-level-iii-consulting-for-aerospace-programs': {
+    source: 'blog',
+    p: `Atlantis provides ASNT NDT Level III consulting for aerospace programmes, and can act as the outside agency Level III in UT, RT, MT, PT and VT; how that engagement works is set out on our ${L3()} page.`,
+  },
+  '/blog/software-for-aerospace-ndt-quality-control-as9100-and-nadcap-in-one-platform': {
+    source: 'blog',
+    p: `What Atlantis holds for a Nadcap supplier, and what stays with your quality system, is set out on our page for [aerospace NDT software for Nadcap suppliers](${OWNERS.aerospace}).`,
+  },
   '/blog/asnt-level-iii-ndt-consulting-guide': {
     source: 'blog',
     title: 'ASNT Level III Explained: Requirements, Exams, Career Paths',

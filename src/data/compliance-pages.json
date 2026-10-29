@@ -54630,5 +54630,1489 @@
   "description": "The 4 regimes governing NDT and inspection service providers in Brazil, who enforces each, and which accept employer certification.",
   "h1": "NDT Compliance Regimes in Brazil",
   "kind": "jurisdiction"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt",
+  "title": "Aerospace NDT (SNT-TC-1A) Compliance for Inspection Companies",
+  "description": "Aerospace NDT compliance under an SNT-TC-1A written practice: who it applies to, Nadcap AC7114 and customer flow-down, records auditors sample and findings.",
+  "h1": "Aerospace NDT (SNT-TC-1A) Compliance for Inspection Service Providers",
+  "answer": "Aerospace NDT compliance applies to manufacturers, MRO shops, FAA Part 145 repair stations and NDT suppliers that certify personnel for aerospace work under an SNT-TC-1A written practice. Certification is employer-based, so a contracted ASNT Level III can write and sign the written practice and administer examinations, and the customer's flow-down and Nadcap AC7114 decide what that practice must add.",
+  "expansion": "Engine and airframe shops, casting and forging suppliers and independent NDT houses on approved-supplier lists add their customers' flow-down requirements to that written practice, and Nadcap audits the result under AC7114 when a prime makes accreditation a purchase-order condition. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Aerospace NDT (SNT-TC-1A) at a glance — authority, scope and what it demands",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Authority",
+     "ASNT publishes SNT-TC-1A; the employer's NDT Level III approves the written practice. Primes flow requirements down in purchase orders, PRI audits suppliers to Nadcap AC7114 and the FAA oversees Part 145 repair stations.",
+     "The body that issues, audits and can withdraw"
+    ],
+    [
+     "Applies to",
+     "Aerospace manufacturers, MRO shops, FAA Part 145 repair stations and NDT suppliers certifying personnel for aerospace work",
+     "Whether this binds your firm at all"
+    ],
+    [
+     "Personnel certification",
+     "Employer-based — the firm certifies its own, under a qualified Level III",
+     "Decides whether an outsourced Level III can sign for you"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Track the dates the regime sets, not from memory"
+    ],
+    [
+     "Methods in scope",
+     "PT, MT, UT, PAUT, RT (film), RT-D / digital radiography",
+     "Each method needs its own procedure and qualified personnel"
+    ],
+    [
+     "Industries",
+     "Aerospace manufacturing, Aviation MRO and overhaul, Engine components, Castings and forgings, Defence aviation",
+     "Where this regime shows up in contracts"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "Who does Aerospace NDT (SNT-TC-1A) apply to?",
+    "a": "Aerospace manufacturers, MRO shops, FAA Part 145 repair stations and NDT suppliers that certify NDT personnel for aerospace work under an SNT-TC-1A written practice. Engine and airframe shops, casting and forging suppliers and independent NDT houses on approved-supplier lists add their customers' flow-down requirements to that written practice, and Nadcap audits the result under AC7114 when a prime makes accreditation a purchase-order condition."
+   },
+   {
+    "q": "Can an outsourced Level III sign for Aerospace NDT (SNT-TC-1A) compliance?",
+    "a": "Yes. Aerospace NDT (SNT-TC-1A) accepts employer-based certification, which places the obligation on the employer and allows a contracted Level III to write and sign the written practice, approve procedures and administer examinations. The Level III must be qualified in each method they sign for, and the employer still owns the records."
+   },
+   {
+    "q": "What documents does an Aerospace NDT (SNT-TC-1A) audit ask for?",
+    "a": "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements, Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials, Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results, NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable, Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require. Auditors open records before they open manuals, because a manual describes intent while records show practice. The most common failure is a documented system that does not match what the technicians actually do."
+   },
+   {
+    "q": "How often is Aerospace NDT (SNT-TC-1A) renewed?",
+    "a": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance."
+   },
+   {
+    "q": "What are the most common Aerospace NDT (SNT-TC-1A) findings?",
+    "a": "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances, Required pre-audit package not sent to the auditor 30 days before the audit, Corrective actions from the previous Nadcap audit no longer implemented at the following audit, Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services. These recur because they are records problems rather than capability problems — the work is being done correctly and the evidence is not being kept."
+   },
+   {
+    "q": "Which NDT methods does Aerospace NDT (SNT-TC-1A) cover?",
+    "a": "PT, MT, UT, PAUT, RT (film), RT-D / digital radiography, ET. Each method in scope needs its own approved procedure and personnel qualified in that specific method; a Level III qualified in ultrasonics cannot sign for radiography."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Personnel certification under Aerospace NDT (SNT-TC-1A)",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   },
+   {
+    "heading": "The audit sequence",
+    "paragraphs": [],
+    "items": [
+     "Confirm which requirements apply: the prime's flow-down, the AC7114 base checklist and the slash checklists for the methods and techniques actually performed",
+     "Apply through PRI's eAuditNet and complete the self-audit against those checklists, including all applicable job audits; send the required package to the auditor 30 days before the audit",
+     "On-site audit covering customer and procurement requirements, internal NDT audits, the written practice and certification files, examinations and vision testing, Level III responsibilities and inspection status control, plus live job audits on real parts",
+     "Auditor raises nonconformance reports; the supplier responds with root cause and corrective action, reviewed by PRI staff engineers",
+     "The Nadcap NDT Task Group votes on accreditation",
+     "First reaccreditation audit within twelve months of the initial audit; the Supplier Merit Program can extend later intervals to 18 or 24 months based on audit performance"
+    ]
+   },
+   {
+    "heading": "Documents an auditor asks for",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Findings firms get against Aerospace NDT (SNT-TC-1A)",
+    "paragraphs": [],
+    "items": [
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "Required pre-audit package not sent to the auditor 30 days before the audit",
+     "Corrective actions from the previous Nadcap audit no longer implemented at the following audit",
+     "Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services",
+     "Written procedure and observed practice disagree during a job audit: the technique the operator ran is not the technique the procedure specifies",
+     "Experience carried in from a prior employer accepted without the Level III's documented evaluation",
+     "Written practice not re-approved by the current Level III after a personnel change",
+     "Process timing steps missed during a job audit; PRI's published lists cite eddy current step-one timing among the recurring job-audit nonconformances",
+     "A customer flow-down requirement, such as a practical examination on the customer's own parts, missing from the written practice, so certifications meet SNT-TC-1A but not the purchase order"
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "hub"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/audit-preparation",
+  "title": "Aerospace NDT (SNT-TC-1A) Audit Preparation",
+  "description": "How an aerospace NDT audit runs under an SNT-TC-1A programme: Nadcap AC7114 self-audit, job audits, the findings firms collect and what to close first.",
+  "h1": "Aerospace NDT (SNT-TC-1A) Audit Preparation for Inspection Companies",
+  "answer": "An aerospace NDT audit runs in six stages, from confirming which requirements apply (the prime's flow-down, the AC7114 base checklist and the method slash checklists) to the Nadcap Task Group vote. Auditors sample finished jobs back to the written practice, certification files and calibration records, so preparation means reconciling records to jobs rather than rewriting manuals.",
+  "expansion": "For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree. What separates firms that clear an audit from firms that collect findings is not the quality of the documentation but whether it describes what actually happens. The finding recorded most often is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Aerospace NDT (SNT-TC-1A) audit — stages and what each tests",
+   "columns": [
+    "Stage",
+    "What happens",
+    "What it tests"
+   ],
+   "rows": [
+    [
+     "Stage 1",
+     "Confirm which requirements apply: the prime's flow-down, the AC7114 base checklist and the slash checklists for the methods and techniques.",
+     "Where the paperwork is tested against itself"
+    ],
+    [
+     "Stage 2",
+     "Apply through PRI's eAuditNet and complete the self-audit against those checklists, including all applicable job audits; send the required package.",
+     "Where the paperwork is tested against practice"
+    ],
+    [
+     "Stage 3",
+     "On-site audit covering customer and procurement requirements, internal NDT audits, the written practice and certification files, examinations and vision testing,.",
+     "Where the paperwork is tested against practice"
+    ],
+    [
+     "Stage 4",
+     "Auditor raises nonconformance reports; the supplier responds with root cause and corrective action, reviewed by PRI staff engineers",
+     "Where the paperwork is tested against practice"
+    ],
+    [
+     "Stage 5",
+     "The Nadcap NDT Task Group votes on accreditation",
+     "Where the paperwork is tested against practice"
+    ],
+    [
+     "Stage 6",
+     "First reaccreditation audit within twelve months of the initial audit; the Supplier Merit Program can extend later intervals to 18.",
+     "Where the paperwork is tested against practice"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Tracked from the dates the regime sets, not the last audit"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "How long does Aerospace NDT (SNT-TC-1A) audit preparation take?",
+    "a": "Document work — the written practice, procedures and quality manual — takes weeks. What cannot be compressed is documented experience and records history: on-the-job hours accrue in real time, and calibration and certification history cannot be back-filled. Firms that start when the audit is scheduled rather than announced clear it without findings."
+   },
+   {
+    "q": "What does an Aerospace NDT (SNT-TC-1A) auditor look at first?",
+    "a": "Records, not manuals. A manual states intent; records show practice. The usual opening move is to take a completed job and trace it back to the technician's certification, the instrument's calibration, the approved procedure and the report — and see whether all four reconcile."
+   },
+   {
+    "q": "What are the most common Aerospace NDT (SNT-TC-1A) findings?",
+    "a": "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances, Required pre-audit package not sent to the auditor 30 days before the audit, Corrective actions from the previous Nadcap audit no longer implemented at the following audit, Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services. Almost all of them are evidence problems rather than capability problems: the work was done correctly and the proof was not kept, or was kept somewhere the firm could not retrieve during the audit."
+   },
+   {
+    "q": "Can a consultant attend the Aerospace NDT (SNT-TC-1A) audit?",
+    "a": "Yes, and it changes the outcome. Someone who has sat through the same audit at other firms answers in the auditor's own terms, produces the right record without a search, and stops a clarification turning into a finding. The firm still owns every answer — the consultant does not speak for it."
+   },
+   {
+    "q": "What happens after an Aerospace NDT (SNT-TC-1A) finding?",
+    "a": "A corrective action with a deadline, and evidence of closure at the next audit. Repeat findings are treated far more seriously than first ones, because they show the corrective-action system itself is not working."
+   },
+   {
+    "q": "Does Aerospace NDT (SNT-TC-1A) require a pre-audit or gap assessment?",
+    "a": "Not as a requirement, but the arithmetic favours it: a gap assessment finds the same evidence problems the auditor would, without the finding attached, and while there is still time to fix them. Firms entering their first Aerospace NDT (SNT-TC-1A) audit blind typically collect findings that a sampling exercise would have caught."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What the auditor asks to see",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Findings to close before the audit",
+    "paragraphs": [],
+    "items": [
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "Required pre-audit package not sent to the auditor 30 days before the audit",
+     "Corrective actions from the previous Nadcap audit no longer implemented at the following audit",
+     "Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services",
+     "Written procedure and observed practice disagree during a job audit: the technique the operator ran is not the technique the procedure specifies",
+     "Experience carried in from a prior employer accepted without the Level III's documented evaluation",
+     "Written practice not re-approved by the current Level III after a personnel change",
+     "Process timing steps missed during a job audit; PRI's published lists cite eddy current step-one timing among the recurring job-audit nonconformances",
+     "A customer flow-down requirement, such as a practical examination on the customer's own parts, missing from the written practice, so certifications meet SNT-TC-1A but not the purchase order"
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "audit"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/written-practice",
+  "title": "Written Practice for Aerospace NDT (SNT-TC-1A)",
+  "description": "What an aerospace NDT written practice built on SNT-TC-1A must contain, who approves it, and how Nadcap AC7114 and customer auditors test it against jobs.",
+  "h1": "Written Practice for Aerospace NDT (SNT-TC-1A)",
+  "answer": "The aerospace written practice is the document that defines how the employer trains, examines and certifies its NDT personnel. Built on ASNT SNT-TC-1A (2024), it is approved by the employer's NDT Level III and carries the customer's aerospace flow-down requirements; a contracted Level III can author and sign it.",
+  "expansion": "The finding auditors record against this document is: Written procedure and observed practice disagree during a job audit: the technique the operator ran is not the technique the procedure specifies. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Written Practice under Aerospace NDT (SNT-TC-1A) — owner, content and how it is tested",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Document",
+     "Written Practice",
+     "the document that defines how the employer qualifies and certifies its own NDT personnel"
+    ],
+    [
+     "Owner",
+     "the employer's Level III",
+     "The signature an auditor traces back"
+    ],
+    [
+     "Where it is checked",
+     "The Nadcap NDT Task Group votes on accreditation; First reaccreditation audit within twelve months of the initial audit;.",
+     "Usually against a sampled job, not in isolation"
+    ],
+    [
+     "Common failure",
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "The gap between the manual and the job file"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "What must a written practice contain under Aerospace NDT (SNT-TC-1A)?",
+    "a": "It has to satisfy Aerospace NDT (SNT-TC-1A) as ASNT publishes SNT-TC-1A; primes, Nadcap and the FAA audit its application. The employer's NDT Level III approves the written practice built on it, primes flow personnel and process requirements down through purchase orders, the Performance Review Institute (PRI) audits NDT suppliers to Nadcap AC7114, and the FAA oversees repair stations under 14 CFR Part 145 with Advisory Circular 65-31B as its guidance on NDI personnel. enforces it: the document that defines how the employer qualifies and certifies its own NDT personnel. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
+   },
+   {
+    "q": "Who signs the written practice for Aerospace NDT (SNT-TC-1A)?",
+    "a": "The employer's Level III. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+   },
+   {
+    "q": "How does an Aerospace NDT (SNT-TC-1A) auditor test this document?",
+    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
+   },
+   {
+    "q": "How long must Aerospace NDT (SNT-TC-1A) records be kept?",
+    "a": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
+   },
+   {
+    "q": "Does a generic template satisfy Aerospace NDT (SNT-TC-1A)?",
+    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
+   },
+   {
+    "q": "What happens if this document is missing at an Aerospace NDT (SNT-TC-1A) audit?",
+    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Where this sits in the Aerospace NDT (SNT-TC-1A) evidence pack",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Personnel certification context",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "document"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/equipment-calibration-records",
+  "title": "Equipment Calibration Records for Aerospace NDT (SNT-TC-1A)",
+  "description": "Equipment calibration and process control records for aerospace NDT: what Nadcap AC7114 auditors sample, flow-down to subcontractors and common gaps.",
+  "h1": "Equipment Calibration Records for Aerospace NDT (SNT-TC-1A)",
+  "answer": "Aerospace NDT (SNT-TC-1A) names this requirement as \"Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors\". The equipment custodian owns it, and a contracted Level III can author and sign it.",
+  "expansion": "The finding auditors record against this document is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Equipment Calibration Records under Aerospace NDT (SNT-TC-1A) — owner, content and how it is tested",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Document",
+     "Equipment Calibration Records",
+     "the traceable evidence that every instrument was in calibration on the day it was used"
+    ],
+    [
+     "Owner",
+     "the equipment custodian",
+     "The signature an auditor traces back"
+    ],
+    [
+     "Where it is checked",
+     "The Nadcap NDT Task Group votes on accreditation; First reaccreditation audit within twelve months of the initial audit;.",
+     "Usually against a sampled job, not in isolation"
+    ],
+    [
+     "Common failure",
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "The gap between the manual and the job file"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "What must a equipment calibration records contain under Aerospace NDT (SNT-TC-1A)?",
+    "a": "It has to satisfy Aerospace NDT (SNT-TC-1A) as ASNT publishes SNT-TC-1A; primes, Nadcap and the FAA audit its application. The employer's NDT Level III approves the written practice built on it, primes flow personnel and process requirements down through purchase orders, the Performance Review Institute (PRI) audits NDT suppliers to Nadcap AC7114, and the FAA oversees repair stations under 14 CFR Part 145 with Advisory Circular 65-31B as its guidance on NDI personnel. enforces it: the traceable evidence that every instrument was in calibration on the day it was used. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
+   },
+   {
+    "q": "Who signs the equipment calibration records for Aerospace NDT (SNT-TC-1A)?",
+    "a": "The equipment custodian. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+   },
+   {
+    "q": "How does an Aerospace NDT (SNT-TC-1A) auditor test this document?",
+    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
+   },
+   {
+    "q": "How long must Aerospace NDT (SNT-TC-1A) records be kept?",
+    "a": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
+   },
+   {
+    "q": "Does a generic template satisfy Aerospace NDT (SNT-TC-1A)?",
+    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
+   },
+   {
+    "q": "What happens if this document is missing at an Aerospace NDT (SNT-TC-1A) audit?",
+    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Where this sits in the Aerospace NDT (SNT-TC-1A) evidence pack",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Personnel certification context",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "document"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/examination-records",
+  "title": "Examination Records for Aerospace NDT (SNT-TC-1A)",
+  "description": "Aerospace NDT examination records under an SNT-TC-1A written practice: General, Specific and Practical exams on representative parts and vision records.",
+  "h1": "Examination Records for Aerospace NDT (SNT-TC-1A)",
+  "answer": "Aerospace NDT (SNT-TC-1A) names this requirement as \"Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results\". The employer's Level III owns it, and a contracted Level III can author and sign it.",
+  "expansion": "The finding auditors record against this document is: A customer flow-down requirement, such as a practical examination on the customer's own parts, missing from the written practice, so certifications meet SNT-TC-1A but not the purchase order. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Examination Records under Aerospace NDT (SNT-TC-1A) — owner, content and how it is tested",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Document",
+     "Examination Records",
+     "the general, specific and practical examination papers and results behind each certification"
+    ],
+    [
+     "Owner",
+     "the employer's Level III",
+     "The signature an auditor traces back"
+    ],
+    [
+     "Where it is checked",
+     "The Nadcap NDT Task Group votes on accreditation; First reaccreditation audit within twelve months of the initial audit;.",
+     "Usually against a sampled job, not in isolation"
+    ],
+    [
+     "Common failure",
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "The gap between the manual and the job file"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "What must a examination records contain under Aerospace NDT (SNT-TC-1A)?",
+    "a": "It has to satisfy Aerospace NDT (SNT-TC-1A) as ASNT publishes SNT-TC-1A; primes, Nadcap and the FAA audit its application. The employer's NDT Level III approves the written practice built on it, primes flow personnel and process requirements down through purchase orders, the Performance Review Institute (PRI) audits NDT suppliers to Nadcap AC7114, and the FAA oversees repair stations under 14 CFR Part 145 with Advisory Circular 65-31B as its guidance on NDI personnel. enforces it: the general, specific and practical examination papers and results behind each certification. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
+   },
+   {
+    "q": "Who signs the examination records for Aerospace NDT (SNT-TC-1A)?",
+    "a": "The employer's Level III. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+   },
+   {
+    "q": "How does an Aerospace NDT (SNT-TC-1A) auditor test this document?",
+    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
+   },
+   {
+    "q": "How long must Aerospace NDT (SNT-TC-1A) records be kept?",
+    "a": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
+   },
+   {
+    "q": "Does a generic template satisfy Aerospace NDT (SNT-TC-1A)?",
+    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
+   },
+   {
+    "q": "What happens if this document is missing at an Aerospace NDT (SNT-TC-1A) audit?",
+    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Where this sits in the Aerospace NDT (SNT-TC-1A) evidence pack",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Personnel certification context",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "document"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/records-retention",
+  "title": "Records Retention Schedule for Aerospace NDT (SNT-TC-1A)",
+  "description": "Records retention for aerospace NDT under an SNT-TC-1A written practice: certification files, examination papers and job records customers can audit.",
+  "h1": "Records Retention Schedule for Aerospace NDT (SNT-TC-1A)",
+  "answer": "Aerospace NDT (SNT-TC-1A) names this requirement as \"Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require\". The QA manager owns it, and a contracted Level III can author and sign it.",
+  "expansion": "The finding auditors record against this document is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Records Retention Schedule under Aerospace NDT (SNT-TC-1A) — owner, content and how it is tested",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Document",
+     "Records Retention Schedule",
+     "how long each record is kept, where, and who can retrieve it during an audit"
+    ],
+    [
+     "Owner",
+     "the QA manager",
+     "The signature an auditor traces back"
+    ],
+    [
+     "Where it is checked",
+     "The Nadcap NDT Task Group votes on accreditation; First reaccreditation audit within twelve months of the initial audit;.",
+     "Usually against a sampled job, not in isolation"
+    ],
+    [
+     "Common failure",
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "The gap between the manual and the job file"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "What must a records retention schedule contain under Aerospace NDT (SNT-TC-1A)?",
+    "a": "It has to satisfy Aerospace NDT (SNT-TC-1A) as ASNT publishes SNT-TC-1A; primes, Nadcap and the FAA audit its application. The employer's NDT Level III approves the written practice built on it, primes flow personnel and process requirements down through purchase orders, the Performance Review Institute (PRI) audits NDT suppliers to Nadcap AC7114, and the FAA oversees repair stations under 14 CFR Part 145 with Advisory Circular 65-31B as its guidance on NDI personnel. enforces it: how long each record is kept, where, and who can retrieve it during an audit. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
+   },
+   {
+    "q": "Who signs the records retention schedule for Aerospace NDT (SNT-TC-1A)?",
+    "a": "The QA manager. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+   },
+   {
+    "q": "How does an Aerospace NDT (SNT-TC-1A) auditor test this document?",
+    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
+   },
+   {
+    "q": "How long must Aerospace NDT (SNT-TC-1A) records be kept?",
+    "a": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
+   },
+   {
+    "q": "Does a generic template satisfy Aerospace NDT (SNT-TC-1A)?",
+    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
+   },
+   {
+    "q": "What happens if this document is missing at an Aerospace NDT (SNT-TC-1A) audit?",
+    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Where this sits in the Aerospace NDT (SNT-TC-1A) evidence pack",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Personnel certification context",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "document"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/corrective-actions",
+  "title": "Corrective Action Records for Aerospace NDT (SNT-TC-1A)",
+  "description": "Corrective action records for aerospace NDT: closing Nadcap AC7114 and customer findings with root cause and evidence that survives the next audit.",
+  "h1": "Corrective Action Records for Aerospace NDT (SNT-TC-1A)",
+  "answer": "Aerospace NDT (SNT-TC-1A) names this requirement as \"Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented\". The management representative owns it, and a contracted Level III can author and sign it.",
+  "expansion": "The finding auditors record against this document is: Corrective actions from the previous Nadcap audit no longer implemented at the following audit. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Corrective Action Records under Aerospace NDT (SNT-TC-1A) — owner, content and how it is tested",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Document",
+     "Corrective Action Records",
+     "what the firm did about previous findings, which is the first thing a repeat auditor opens"
+    ],
+    [
+     "Owner",
+     "the management representative",
+     "The signature an auditor traces back"
+    ],
+    [
+     "Where it is checked",
+     "The Nadcap NDT Task Group votes on accreditation; First reaccreditation audit within twelve months of the initial audit;.",
+     "Usually against a sampled job, not in isolation"
+    ],
+    [
+     "Common failure",
+     "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+     "The gap between the manual and the job file"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "What must a corrective action records contain under Aerospace NDT (SNT-TC-1A)?",
+    "a": "It has to satisfy Aerospace NDT (SNT-TC-1A) as ASNT publishes SNT-TC-1A; primes, Nadcap and the FAA audit its application. The employer's NDT Level III approves the written practice built on it, primes flow personnel and process requirements down through purchase orders, the Performance Review Institute (PRI) audits NDT suppliers to Nadcap AC7114, and the FAA oversees repair stations under 14 CFR Part 145 with Advisory Circular 65-31B as its guidance on NDI personnel. enforces it: what the firm did about previous findings, which is the first thing a repeat auditor opens. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job."
+   },
+   {
+    "q": "Who signs the corrective action records for Aerospace NDT (SNT-TC-1A)?",
+    "a": "The management representative. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+   },
+   {
+    "q": "How does an Aerospace NDT (SNT-TC-1A) auditor test this document?",
+    "a": "By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one."
+   },
+   {
+    "q": "How long must Aerospace NDT (SNT-TC-1A) records be kept?",
+    "a": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance. Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track."
+   },
+   {
+    "q": "Does a generic template satisfy Aerospace NDT (SNT-TC-1A)?",
+    "a": "No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately."
+   },
+   {
+    "q": "What happens if this document is missing at an Aerospace NDT (SNT-TC-1A) audit?",
+    "a": "It is a finding, and depending on the regime it can suspend the certificate rather than merely generate a corrective action. The related finding auditors record most often is: Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Where this sits in the Aerospace NDT (SNT-TC-1A) evidence pack",
+    "paragraphs": [],
+    "items": [
+     "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+     "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+     "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+     "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+     "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+     "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+     "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+     "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+     "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+    ]
+   },
+   {
+    "heading": "Personnel certification context",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "document"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/pt",
+  "title": "PT Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "description": "Penetrant testing for aerospace under an SNT-TC-1A written practice: procedure approval, personnel qualification, ASTM E1417 controls and audit sampling.",
+  "h1": "Liquid Penetrant Testing (PT) Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "answer": "Consumables are batch-controlled: certificates for each batch, contamination checks, and the sulphur and halogen limits where the material demands it. In an aerospace programme the employer certifies the PT technician under its SNT-TC-1A written practice, a Level III certified in PT approves the procedure, and Nadcap audits the job against the method's AC7114 slash checklist.",
+  "expansion": "An auditor examining PT asks for penetrant, developer, cleaner and emulsifier batch records, plus the light meters for the inspection environment. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Liquid Penetrant Testing under Aerospace NDT (SNT-TC-1A) — procedure, personnel and evidence",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Method",
+     "Liquid Penetrant Testing (PT)",
+     "Needs its own procedure and its own qualified personnel"
+    ],
+    [
+     "Procedure approval",
+     "The employer's Level III, qualified in this method",
+     "The signature an auditor traces"
+    ],
+    [
+     "Other methods in scope",
+     "MT, UT, PAUT, RT (film), RT-D / digital radiography, ET",
+     "Each needs separate qualification"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Applies to the personnel certification behind this method"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "Does Aerospace NDT (SNT-TC-1A) require a separate procedure for PT?",
+    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
+   },
+   {
+    "q": "Who can approve a PT procedure under Aerospace NDT (SNT-TC-1A)?",
+    "a": "A Level III qualified in PT. Because Aerospace NDT (SNT-TC-1A) accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover PT, and an auditor will check that before accepting the signature."
+   },
+   {
+    "q": "What PT records does an Aerospace NDT (SNT-TC-1A) audit sample?",
+    "a": "The approved procedure, the technician's PT certification on the date of work, and the equipment evidence — penetrant, developer, cleaner and emulsifier batch records, plus the light meters for the inspection environment. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
+   },
+   {
+    "q": "What is the most common PT finding at audit?",
+    "a": "Batch certificates missing for consumables used, or dwell time not recorded. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under Aerospace NDT (SNT-TC-1A) is recorded the same way as not having done the work."
+   },
+   {
+    "q": "Can a technician certified elsewhere perform PT under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
+   },
+   {
+    "q": "What equipment evidence does PT need under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
+   },
+   {
+    "q": "How do PT requirements differ from the other methods in Aerospace NDT (SNT-TC-1A)?",
+    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. Aerospace NDT (SNT-TC-1A) also covers MT, UT, PAUT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Personnel certification for PT",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "method"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/mt",
+  "title": "MT Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "description": "Magnetic particle testing for aerospace under an SNT-TC-1A written practice: procedure approval, ASTM E1444 controls, personnel and audit evidence.",
+  "h1": "Magnetic Particle Testing (MT) Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "answer": "System performance is verified rather than assumed: lift tests on yokes and field indicator checks are dated records an auditor expects to see per shift or per job. In an aerospace programme the employer certifies the MT technician under its SNT-TC-1A written practice, a Level III certified in MT approves the procedure, and Nadcap audits the job against the method's AC7114 slash checklist.",
+  "expansion": "An auditor examining MT asks for yoke or bench unit, ammeter, field indicators, lift-test weights and the consumables in use. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Magnetic Particle Testing under Aerospace NDT (SNT-TC-1A) — procedure, personnel and evidence",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Method",
+     "Magnetic Particle Testing (MT)",
+     "Needs its own procedure and its own qualified personnel"
+    ],
+    [
+     "Procedure approval",
+     "The employer's Level III, qualified in this method",
+     "The signature an auditor traces"
+    ],
+    [
+     "Other methods in scope",
+     "PT, UT, PAUT, RT (film), RT-D / digital radiography, ET",
+     "Each needs separate qualification"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Applies to the personnel certification behind this method"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "Does Aerospace NDT (SNT-TC-1A) require a separate procedure for MT?",
+    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
+   },
+   {
+    "q": "Who can approve a MT procedure under Aerospace NDT (SNT-TC-1A)?",
+    "a": "A Level III qualified in MT. Because Aerospace NDT (SNT-TC-1A) accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover MT, and an auditor will check that before accepting the signature."
+   },
+   {
+    "q": "What MT records does an Aerospace NDT (SNT-TC-1A) audit sample?",
+    "a": "The approved procedure, the technician's MT certification on the date of work, and the equipment evidence — yoke or bench unit, ammeter, field indicators, lift-test weights and the consumables in use. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
+   },
+   {
+    "q": "What is the most common MT finding at audit?",
+    "a": "Yoke lift test not recorded, or field adequacy not demonstrated for the geometry. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under Aerospace NDT (SNT-TC-1A) is recorded the same way as not having done the work."
+   },
+   {
+    "q": "Can a technician certified elsewhere perform MT under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
+   },
+   {
+    "q": "What equipment evidence does MT need under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
+   },
+   {
+    "q": "How do MT requirements differ from the other methods in Aerospace NDT (SNT-TC-1A)?",
+    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. Aerospace NDT (SNT-TC-1A) also covers PT, UT, PAUT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Personnel certification for MT",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "method"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/ut",
+  "title": "UT Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "description": "Ultrasonic testing for aerospace under an SNT-TC-1A written practice: procedure approval, reference standards, personnel qualification and audit sampling.",
+  "h1": "Ultrasonic Testing (UT) Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "answer": "Sensitivity setting is the auditable step: the reference block used must itself be in calibration and traceable, and its identity recorded on the report. In an aerospace programme the employer certifies the UT technician under its SNT-TC-1A written practice, a Level III certified in UT approves the procedure, and Nadcap audits the job against the method's AC7114 slash checklist.",
+  "expansion": "An auditor examining UT asks for instrument, probes, cables, couplant, and the calibration and reference blocks used to set sensitivity. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Ultrasonic Testing under Aerospace NDT (SNT-TC-1A) — procedure, personnel and evidence",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Method",
+     "Ultrasonic Testing (UT)",
+     "Needs its own procedure and its own qualified personnel"
+    ],
+    [
+     "Procedure approval",
+     "The employer's Level III, qualified in this method",
+     "The signature an auditor traces"
+    ],
+    [
+     "Other methods in scope",
+     "PT, MT, PAUT, RT (film), RT-D / digital radiography, ET",
+     "Each needs separate qualification"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Applies to the personnel certification behind this method"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "Does Aerospace NDT (SNT-TC-1A) require a separate procedure for UT?",
+    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
+   },
+   {
+    "q": "Who can approve a UT procedure under Aerospace NDT (SNT-TC-1A)?",
+    "a": "A Level III qualified in UT. Because Aerospace NDT (SNT-TC-1A) accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover UT, and an auditor will check that before accepting the signature."
+   },
+   {
+    "q": "What UT records does an Aerospace NDT (SNT-TC-1A) audit sample?",
+    "a": "The approved procedure, the technician's UT certification on the date of work, and the equipment evidence — instrument, probes, cables, couplant, and the calibration and reference blocks used to set sensitivity. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
+   },
+   {
+    "q": "What is the most common UT finding at audit?",
+    "a": "An in-calibration instrument used with an unidentified or out-of-calibration reference block. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under Aerospace NDT (SNT-TC-1A) is recorded the same way as not having done the work."
+   },
+   {
+    "q": "Can a technician certified elsewhere perform UT under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
+   },
+   {
+    "q": "What equipment evidence does UT need under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
+   },
+   {
+    "q": "How do UT requirements differ from the other methods in Aerospace NDT (SNT-TC-1A)?",
+    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. Aerospace NDT (SNT-TC-1A) also covers PT, MT, PAUT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Personnel certification for UT",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "method"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/paut",
+  "title": "PAUT Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "description": "Phased array UT for aerospace under an SNT-TC-1A written practice: procedure demonstration, scan plans, personnel qualification and what auditors check.",
+  "h1": "Phased Array Ultrasonics (PAUT) Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "answer": "Procedure qualification usually requires a demonstration on a representative flawed sample, and the scan plan forms part of the approved procedure rather than a field decision. In an aerospace programme the employer certifies the PAUT technician under its SNT-TC-1A written practice, a Level III certified in PAUT approves the procedure, and Nadcap audits the job against the method's AC7114 slash checklist.",
+  "expansion": "An auditor examining PAUT asks for the phased array unit, wedges, encoders, and the calibration blocks used for wedge delay, sensitivity and TCG. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Phased Array Ultrasonics under Aerospace NDT (SNT-TC-1A) — procedure, personnel and evidence",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Method",
+     "Phased Array Ultrasonics (PAUT)",
+     "Needs its own procedure and its own qualified personnel"
+    ],
+    [
+     "Procedure approval",
+     "The employer's Level III, qualified in this method",
+     "The signature an auditor traces"
+    ],
+    [
+     "Other methods in scope",
+     "PT, MT, UT, RT (film), RT-D / digital radiography, ET",
+     "Each needs separate qualification"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Applies to the personnel certification behind this method"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "Does Aerospace NDT (SNT-TC-1A) require a separate procedure for PAUT?",
+    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
+   },
+   {
+    "q": "Who can approve a PAUT procedure under Aerospace NDT (SNT-TC-1A)?",
+    "a": "A Level III qualified in PAUT. Because Aerospace NDT (SNT-TC-1A) accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover PAUT, and an auditor will check that before accepting the signature."
+   },
+   {
+    "q": "What PAUT records does an Aerospace NDT (SNT-TC-1A) audit sample?",
+    "a": "The approved procedure, the technician's PAUT certification on the date of work, and the equipment evidence — the phased array unit, wedges, encoders, and the calibration blocks used for wedge delay, sensitivity and TCG. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
+   },
+   {
+    "q": "What is the most common PAUT finding at audit?",
+    "a": "Data acquired outside the scan plan the procedure qualified, or encoder position not recorded. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under Aerospace NDT (SNT-TC-1A) is recorded the same way as not having done the work."
+   },
+   {
+    "q": "Can a technician certified elsewhere perform PAUT under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
+   },
+   {
+    "q": "What equipment evidence does PAUT need under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
+   },
+   {
+    "q": "How do PAUT requirements differ from the other methods in Aerospace NDT (SNT-TC-1A)?",
+    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. Aerospace NDT (SNT-TC-1A) also covers PT, MT, UT, RT (film), RT-D / digital radiography, and each carries its own procedure, its own personnel qualification and its own equipment evidence."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Personnel certification for PAUT",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "method"
+ },
+ {
+  "slug": "/compliance/aerospace-ndt/et",
+  "title": "ET Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "description": "Eddy current testing for aerospace under an SNT-TC-1A written practice: reference standards per alloy, procedure approval, personnel and audit evidence.",
+  "h1": "Eddy Current Testing (ET) Requirements Under Aerospace NDT (SNT-TC-1A)",
+  "answer": "Response is set against a reference standard for the specific material and geometry, so a standard qualified for one alloy does not carry to another. In an aerospace programme the employer certifies the ET technician under its SNT-TC-1A written practice, a Level III certified in ET approves the procedure, and Nadcap audits the job against the method's AC7114 slash checklist.",
+  "expansion": "An auditor examining ET asks for instrument, probes, and the reference standards carrying the notches or holes used to set the response. For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026.",
+  "table": {
+   "caption": "Eddy Current Testing under Aerospace NDT (SNT-TC-1A) — procedure, personnel and evidence",
+   "columns": [
+    "Item",
+    "What applies",
+    "Why it matters"
+   ],
+   "rows": [
+    [
+     "Regime",
+     "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+     "Enforced through customer flow-down, Nadcap AC7114 audits and, for repair stations, the FAA under Part 145"
+    ],
+    [
+     "Method",
+     "Eddy Current Testing (ET)",
+     "Needs its own procedure and its own qualified personnel"
+    ],
+    [
+     "Procedure approval",
+     "The employer's Level III, qualified in this method",
+     "The signature an auditor traces"
+    ],
+    [
+     "Other methods in scope",
+     "PT, MT, UT, PAUT, RT (film), RT-D / digital radiography",
+     "Each needs separate qualification"
+    ],
+    [
+     "Renewal",
+     "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+     "Applies to the personnel certification behind this method"
+    ]
+   ]
+  },
+  "facets": [
+   {
+    "q": "Does Aerospace NDT (SNT-TC-1A) require a separate procedure for ET?",
+    "a": "Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined \"NDT procedure\" covering several methods is a finding under every regime that names procedures individually."
+   },
+   {
+    "q": "Who can approve a ET procedure under Aerospace NDT (SNT-TC-1A)?",
+    "a": "A Level III qualified in ET. Because Aerospace NDT (SNT-TC-1A) accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover ET, and an auditor will check that before accepting the signature."
+   },
+   {
+    "q": "What ET records does an Aerospace NDT (SNT-TC-1A) audit sample?",
+    "a": "The approved procedure, the technician's ET certification on the date of work, and the equipment evidence — instrument, probes, and the reference standards carrying the notches or holes used to set the response. The auditor works backwards from a finished job, so every item has to reconcile with the report and its stated acceptance criteria."
+   },
+   {
+    "q": "What is the most common ET finding at audit?",
+    "a": "Reference standard not representative of the material or geometry examined. It is a records failure rather than a technique failure — the examination was performed correctly and the evidence supporting it cannot be produced, which under Aerospace NDT (SNT-TC-1A) is recorded the same way as not having done the work."
+   },
+   {
+    "q": "Can a technician certified elsewhere perform ET under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Not automatically. Employer-based certification ends when the holder leaves, so the new employer must certify them under its own written practice. Prior training and documented experience transfer as evidence; the certificate itself does not."
+   },
+   {
+    "q": "What equipment evidence does ET need under Aerospace NDT (SNT-TC-1A)?",
+    "a": "Calibration status traceable to the day of use, covering the instrument and its accessories — probes, cables, blocks and reference standards for ultrasonics; sources and densitometers for radiography. An in-calibration instrument with an out-of-calibration reference block fails the same way as an uncalibrated one."
+   },
+   {
+    "q": "How do ET requirements differ from the other methods in Aerospace NDT (SNT-TC-1A)?",
+    "a": "Scope, qualification and evidence are method-specific, so the differences are real rather than administrative. Aerospace NDT (SNT-TC-1A) also covers PT, MT, UT, PAUT, RT (film), and each carries its own procedure, its own personnel qualification and its own equipment evidence."
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Personnel certification for ET",
+    "paragraphs": [
+     "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work."
+    ]
+   }
+  ],
+  "related": [
+   {
+    "to": "/compliance/aerospace-ndt",
+    "label": "the aerospace NDT compliance overview"
+   },
+   {
+    "to": "/consulting/aerospace-ndt-consulting",
+    "label": "ASNT Level III consulting for aerospace"
+   },
+   {
+    "to": "/consulting/written-practice-for-aerospace",
+    "label": "aerospace written practice development"
+   },
+   {
+    "to": "/aerospace-ndt-training",
+    "label": "SNT-TC-1A-based aerospace NDT training"
+   },
+   {
+    "to": "/aerospace-ndt-services",
+    "label": "aerospace NDT inspection"
+   },
+   {
+    "to": "/compliance/nadcap-ac7114",
+    "label": "Nadcap AC7114"
+   },
+   {
+    "to": "/compliance/asnt-snt-tc-1a",
+    "label": "the SNT-TC-1A overview"
+   }
+  ],
+  "kind": "method"
  }
 ]

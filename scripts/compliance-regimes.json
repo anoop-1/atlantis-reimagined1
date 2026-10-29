@@ -568,7 +568,7 @@
    "iso-9712",
    "iso-17025",
    "iso-17020",
-   "nas-410"
+   "aerospace-ndt"
   ],
   "sources": "ASNT Recommended Practice No. SNT-TC-1A (2024), with Addendum — ASNT product listing (source.asnt.org) and ASNT standards page (asnt.org/standards-publications/standards); the addendum took effect May 2025 and ASNT recommends use with ANSI/ASNT CP-105 (2024). ASNT 'Ten Key Shalls of SNT-TC-1A' and 'What to Do in an Audit' (asnt.org blog). ASNT Employer-Based Certification Accreditation Program, certification.asnt.org — audit stages, three-year validity and published audit fees (single site and multi-site up to 150 technicians US$5,300; 151–500 technicians US$6,150; 500+ by quote), checked August 2026. 49 CFR 192.243(a)–(b) quoted from the govinfo CFR text. ASME Section V Article 1 T-120 and Section VIII Div. 1 UW-54 taken from secondary technical summaries, not read from the code; treat the clause designations as indicative. Vision examination frequency deliberately not stated as a number here — it was not verified against the 2024 text.",
   "personnelCertificationVerified": true
@@ -921,7 +921,7 @@
    "asnt-snt-tc-1a",
    "ansi-asnt-cp-189",
    "iso-9712",
-   "nas-410"
+   "aerospace-ndt"
   ],
   "sources": "ISO/IEC 17025:2017, third edition, read from the ISO-published redline preview: title page and the full table of contents showing the restructure into Clause 4 general requirements (4.1 impartiality, 4.2 confidentiality), Clause 5 structural, Clause 6 resource (6.1 general, 6.2 personnel, 6.3 facilities and environmental conditions, 6.4 equipment, 6.5 metrological traceability, 6.6 externally provided products and services), Clause 7 process (7.1 to 7.11), Clause 8 management system with Options A and B, and Annexes A and B. Currency confirmed: no 2026 revision of ISO/IEC 17025 exists, unlike ISO/IEC 17020:2026 and ISO/IEC 17024:2026. A2LA R212, Specific Requirements — Nondestructive Testing Laboratory Accreditation Program, publication date 10 September 2025, read in full — general criteria (ISO/IEC 17025 for testing laboratories, ISO/IEC 17020 for inspection bodies), the ASTM E543 / E1212 option, the mandatory ASTM E1359 self-assessment checklist submitted before the assessment, the P102 equipment calibration list quoted method by method, the F215 scope selection list, and the scope breakdown conventions with A2LA's own code-section examples. A2LA ISO/IEC 17025:2017 FAQ (a2la.org) — process steps, ~60-day assessor assignment, 30-day corrective action window, and the 7-month/6-month renewal and surveillance and 4-month/3-month annual review lead times, plus the F104 proficiency testing requirement. Deficiency statistics attributed to A2LA assessor data as reported by Ideagen and in published A2LA top-10 deficiency material — treat the percentages as A2LA-reported, not audited by us. ASTM E543-26, Standard Specification for Agencies Performing Nondestructive Testing, confirmed on the ASTM store as the current designation, last updated 21 January 2026 (A2LA's R212 still cites the older title 'Standard Practice for Evaluating Agencies Performing Nondestructive Testing'). Checked August 2026."
  },
@@ -3864,5 +3864,72 @@
    "asme-bpvc-section-v"
   ],
   "sources": "API Standard 1104 announcement page, api.org — confirms the 22nd edition and its scope covering gas and arc welding used in the construction and in-service repair of pipes and components for the compression, pumping and pipeline transmission of crude oil, petroleum products, fuel gases, carbon dioxide and nitrogen; the July 2021 publication date appears in reseller listings, not on API's own page. American Welding Society study guide for API Standard 1104, 22nd edition (pubs.aws.org) — verified for the clause structure: Section 4 Specifications; Section 5 Qualification of Welding Procedures with Filler Metal Additions; Section 6 Qualification of Welders including 6.6 Nondestructive Testing, Butt Welds Only; Section 7 Design and Preparation of a Joint for Production Welding; Section 8 Inspection and Testing of Production Welds with 8.1 Rights of Inspection, 8.2 Methods of Inspection, 8.3 Qualification of Inspection Personnel and 8.4 Certification of NDT Personnel; Section 9 Acceptance Standards for NDT with 9.3 Radiographic, 9.4 Magnetic Particle, 9.5 Liquid Penetrant, 9.6 Ultrasonic, 9.7 Visual Acceptance Standards for Undercutting and 9.8 Visual Acceptance Standards for Internal Concavity; Section 10 Repair and Removal of Weld Defects with 10.4 Repair Welder Qualification; Section 11 Procedures for Nondestructive Testing with 11.1 Radiographic, 11.2 Magnetic Particle, 11.3 Liquid Penetrant and 11.4 Ultrasonic; Section 12 Mechanized Welding with Filler Metal Additions; Annex A Alternative Acceptance Standards for Girth Welds with A.2 Stress Analysis; and Annex B In-service Welding with B.5 Inspection and Testing of In-service Welds and B.6 Standards of Acceptability: NDT (Including Visual). 49 CFR 192.7 and 195.3 in the eCFR, text current to 1 August 2026, for the incorporated 21st edition and the sections for which it is IBR approved. The full text of clauses 8.3 and 8.4 could not be obtained from a primary source; their titles and location in the standard are verified, their wording is deliberately not quoted here. Accessed 21 August 2026."
+ },
+ {
+  "slug": "aerospace-ndt",
+  "name": "Aerospace NDT personnel qualification and certification under an employer written practice built on ASNT SNT-TC-1A, audited through customer flow-down, Nadcap AC7114 and FAA Part 145",
+  "shortName": "Aerospace NDT (SNT-TC-1A)",
+  "jurisdiction": "United States",
+  "countryCode": "US",
+  "authority": "ASNT publishes SNT-TC-1A; primes, Nadcap and the FAA audit its application. The employer's NDT Level III approves the written practice built on it, primes flow personnel and process requirements down through purchase orders, the Performance Review Institute (PRI) audits NDT suppliers to Nadcap AC7114, and the FAA oversees repair stations under 14 CFR Part 145 with Advisory Circular 65-31B as its guidance on NDI personnel.",
+  "appliesTo": "Aerospace manufacturers, MRO shops, FAA Part 145 repair stations and NDT suppliers that certify NDT personnel for aerospace work under an SNT-TC-1A written practice. Engine and airframe shops, casting and forging suppliers and independent NDT houses on approved-supplier lists add their customers' flow-down requirements to that written practice, and Nadcap audits the result under AC7114 when a prime makes accreditation a purchase-order condition.",
+  "employerCertificationAccepted": true,
+  "summary": "For aerospace NDT the personnel standard is the employer's written practice. Built on ASNT SNT-TC-1A (2024), it qualifies Level I, Level II and Level III personnel through training, documented experience, General, Specific and Practical examinations and vision examinations, approved by an NDT Level III. Aerospace work adds what the customer flows down: prime process specifications, ASTM E1417, E1444 and E2375 technique requirements and practical examinations on representative parts. Nadcap AC7114 then audits whether the written practice, the certification files and the job records agree.",
+  "personnelCertification": "Employer-based. The employer certifies its own NDT personnel under a written practice built on ASNT SNT-TC-1A and approved by an NDT Level III, and names in writing the Level III responsible for the programme. Nadcap AC7114 calls that person the Responsible Level 3 and accepts an internal or an external (outside agency) Level III, provided documentation on file shows the Level III meets the customer's specified requirements. Aerospace customers add their own conditions through the purchase order, such as practical examinations on representative parts and prime process specifications, so the written practice has to carry them. Atlantis provides ASNT NDT Level III consulting for aerospace written practices, procedures, examinations and audit preparation, can act as the outside agency Level III in UT, RT, MT, PT and VT, and delivers ASNT SNT-TC-1A-based training and NDT inspection for aerospace and aviation work.",
+  "requiredDocuments": [
+   "Written practice for the training, qualification and certification of NDT personnel, built on ASNT SNT-TC-1A (2024), approved by the employer's NDT Level III and carrying the customer's aerospace flow-down requirements",
+   "Written designation of the Level III responsible for the programme, with that person's ASNT NDT Level III certificates or the outside-agency agreement and credentials",
+   "Individual certification files: training hours, documented experience, General, Specific and Practical examination results on representative aerospace parts, and current vision examination results",
+   "NDT procedures and technique sheets for each method, approved by a Level III certified in that method and traceable to the prime specification and to ASTM E1417, E1444 or E2375 as applicable",
+   "Records retention schedule covering certification files, examination papers and job records for the period the customer contract and the written practice require",
+   "Customer and procurement requirement flow-down records showing which prime specifications apply to which part numbers and jobs",
+   "Internal NDT audit records, plus evidence that corrective actions from the previous Nadcap or customer audit remain implemented",
+   "Equipment calibration, system performance check and process control records, including calibration requirements flowed down to subcontractors",
+   "The completed AC7114 self-audit package, including all applicable job audits, sent to the auditor before a Nadcap audit"
+  ],
+  "auditProcess": [
+   "Confirm which requirements apply: the prime's flow-down, the AC7114 base checklist and the slash checklists for the methods and techniques actually performed",
+   "Apply through PRI's eAuditNet and complete the self-audit against those checklists, including all applicable job audits; send the required package to the auditor 30 days before the audit",
+   "On-site audit covering customer and procurement requirements, internal NDT audits, the written practice and certification files, examinations and vision testing, Level III responsibilities and inspection status control, plus live job audits on real parts",
+   "Auditor raises nonconformance reports; the supplier responds with root cause and corrective action, reviewed by PRI staff engineers",
+   "The Nadcap NDT Task Group votes on accreditation",
+   "First reaccreditation audit within twelve months of the initial audit; the Supplier Merit Program can extend later intervals to 18 or 24 months based on audit performance"
+  ],
+  "methodsInScope": [
+   "PT",
+   "MT",
+   "UT",
+   "PAUT",
+   "RT (film)",
+   "RT-D / digital radiography",
+   "ET"
+  ],
+  "industries": [
+   "Aerospace manufacturing",
+   "Aviation MRO and overhaul",
+   "Engine components",
+   "Castings and forgings",
+   "Defence aviation",
+   "Space hardware"
+  ],
+  "renewal": "Personnel recertification follows the employer's written practice. ASNT describes a recommended maximum interval of five years between renewals, and an aerospace customer can set a shorter interval or extra practical re-examination through its flow-down. Vision examination records must be current on the day of work. The company-level cycle is set by Nadcap: the first reaccreditation audit falls within twelve months of the initial audit, after which the Supplier Merit Program can extend the interval to 18 or 24 months depending on audit performance.",
+  "commonFindings": [
+   "Self-audit not performed, or performed without all applicable job audits, consistently among the most-cited AC7114 nonconformances",
+   "Required pre-audit package not sent to the auditor 30 days before the audit",
+   "Corrective actions from the previous Nadcap audit no longer implemented at the following audit",
+   "Calibration requirements not flowed down to subcontracted calibration or subcontracted NDT services",
+   "Written procedure and observed practice disagree during a job audit: the technique the operator ran is not the technique the procedure specifies",
+   "Experience carried in from a prior employer accepted without the Level III's documented evaluation",
+   "Written practice not re-approved by the current Level III after a personnel change",
+   "Process timing steps missed during a job audit; PRI's published lists cite eddy current step-one timing among the recurring job-audit nonconformances",
+   "A customer flow-down requirement, such as a practical examination on the customer's own parts, missing from the written practice, so certifications meet SNT-TC-1A but not the purchase order"
+  ],
+  "relatedRegimes": [
+   "asnt-snt-tc-1a",
+   "nadcap-ac7114",
+   "faa-14-cfr-145",
+   "ansi-asnt-cp-189"
+  ],
+  "sources": "ASNT Recommended Practice No. SNT-TC-1A (2024) with Addendum, ASNT standards listing (asnt.org), for personnel qualification, certification and the recommended recertification interval. PRI Nadcap programme material and AC7114 for the audit sequence, the 30-day pre-audit package, recurring nonconformances, the Responsible Level 3 questions (5.5.1 to 5.5.4) and the Supplier Merit Program 12/18/24-month intervals (p-r-i.org), plus Quality Magazine's Nadcap NDT audit perspective. 14 CFR Part 145 and FAA Advisory Circular 65-31B for repair-station NDI personnel and outside agencies. Research checked August 2026."
  }
 ]

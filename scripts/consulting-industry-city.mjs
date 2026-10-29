@@ -76,9 +76,9 @@ const SECTORS = {
   aerospace: {
     match: /aerospace|aviation|space|defen[cs]e|missile/i,
     label: 'Aerospace',
-    regime: 'Nadcap AC7114 accreditation and customer aerospace personnel qualification requirements, flowed down through the prime contractors',
+    regime: 'Nadcap AC7114 accreditation and SNT-TC-1A-based personnel qualification, with the prime contractors\' requirements flowed down on top',
     methods: ['PT', 'MT', 'UT', 'RT', 'ET'],
-    signs: 'the written practice against the customer\'s aerospace requirements rather than general-industry defaults, the technique sheets per part number, and the Nadcap self-audit before the on-site',
+    signs: 'the written practice against prime specifications, technique sheets per part number, and the Nadcap self-audit before the on-site',
     pain: 'A Nadcap audit is scored against the checklist line by line, and the failure rate on first submission is high enough that most firms budget for a re-audit.',
     related: '/consulting/nadcap-ac7114-audit-readiness',
   },

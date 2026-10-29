@@ -1564,63 +1564,81 @@
   },
   {
     "route": "/aviation-ndt-training",
-    "answer": "Aviation MRO NDT training certifies technicians under the customer-specified aerospace standard — a standard whose requirements are mandatory — rather than the general-industry recommended practice SNT-TC-1A. A named Responsible Level 3 approves the training, sets the examinations and signs the certificate, the employer issues it, and it expires at five years. 14 CFR Part 145 governs the repair station wrapped around all of it.",
-    "expansion": "In-service aviation inspection is a different qualification regime from aerospace manufacturing and from general industry. EN 4179 is its European counterpart and the two are maintained in step. Every method needs a named Responsible Level 3 qualified in that method; candidates sit general, specific and practical examinations; near-vision acuity is tested annually; and certification lapses at five years unless recertified. The FAA does not certify NDI personnel. It certifies the repair station under 14 CFR Part 145 and the mechanic under Part 65, and Advisory Circular 65-31B is where it points operators and stations for the personnel standard. OEM engine and airframe manuals then layer type-specific technique approvals on top, which is why an MRO technician's value compounds with each programme qualification.",
-    "source": "EN 4179:2021; ATA Specification 105; FAA Advisory Circular 65-31B; 14 CFR Part 145 Subpart D (Personnel).",
+    "answer": "Atlantis delivers aviation MRO NDT training on ASNT SNT-TC-1A; the repair station's written practice adds its OEM manual requirements and the FAA Part 145 training programme. A named Responsible Level 3 approves the training, sets the examinations and recommends certification, and the employer issues the certificate for the interval its written practice sets. 14 CFR Part 145 governs the repair station wrapped around all of it.",
+    "expansion": "In-service aviation inspection is a different qualification regime from aerospace manufacturing and from general industry. SNT-TC-1A is a recommended practice, so the repair station's written practice is what binds — it states its rules as requirements the station meets, not options it considers. Every method needs a named Responsible Level 3 qualified in that method; candidates sit general, specific and practical examinations; vision examinations run on the cycle the written practice sets; and certification lapses at the end of its interval unless recertified, with ASNT describing a recommended maximum of five years. The FAA does not certify NDI personnel. It certifies the repair station under 14 CFR Part 145 and the mechanic under Part 65, and Advisory Circular 65-31B is where it points operators and stations for the personnel standard. OEM engine and airframe manuals then layer type-specific technique approvals on top, which is why an MRO technician's value compounds with each programme qualification.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024); ATA Specification 105; FAA Advisory Circular 65-31B; 14 CFR Part 145 Subpart D (Personnel).",
     "table": {
-      "caption": "Aviation MRO versus general industry (SNT-TC-1A): what changes when an employer hires across",
+      "caption": "General industry SNT-TC-1A programme versus an aviation MRO programme built on SNT-TC-1A: what changes when an employer hires across",
       "columns": [
         "Qualification element",
-        "General industry — ASNT SNT-TC-1A",
+        "General industry SNT-TC-1A programme",
+        "Aviation MRO programme built on SNT-TC-1A (what the repair station's written practice adds)",
         "What the MRO employer must do"
       ],
       "rows": [
         [
+          "Status of the document",
+          "Recommended practice; the employer's written practice is what binds",
+          "Same SNT-TC-1A base; the station's practice adds OEM manual and customer requirements as binding rules",
+          "Write the practice to meet those requirements, not around them"
+        ],
+        [
           "Who issues the certificate",
           "The employer, under a Level III",
+          "The employer, under a named Responsible Level 3",
           "Name the Responsible Level 3 for every method in the practice"
         ],
         [
           "Level 3 authority",
           "ASNT NDT Level III or an equivalent route defined in the practice",
+          "ASNT NDT Level III held or contracted, per method, designated in writing",
           "Verify the Level 3 covers every method the station is rated for"
         ],
         [
           "Examination",
           "General, specific and practical, per method",
-          "Re-examine incoming SNT-TC-1A technicians; scores do not transfer"
+          "General, specific and practical, per method, with practicals on representative parts",
+          "Re-examine incoming general-industry technicians; scores do not transfer"
         ],
         [
           "Vision",
-          "Near-vision acuity tested annually",
-          "Put vision testing on the same annual cycle as other personnel records"
+          "Near-vision acuity and colour contrast, on the cycle the written practice sets",
+          "Near-vision acuity plus colour contrast differentiation, tracked in the written practice and checked at audit",
+          "Put vision testing on the same tracked cycle as other personnel records"
         ],
         [
           "Certification life",
-          "Five years recommended, then recertify",
+          "ASNT recommended maximum of five years; the written practice sets the actual interval",
+          "The station's written practice sets the interval, then recertify",
           "Track expiry per person per method, not one date per person"
         ],
         [
           "Portability between employers",
+          "None; the receiving employer certifies",
           "None; the receiving employer certifies",
           "Credit documented prior training and OJT, then examine and certify"
         ],
         [
           "Regulatory wrapper",
           "Construction or in-service code — ASME, AWS, API",
+          "14 CFR Part 145; OEM engine and airframe manuals per type",
           "Map every approved technique to the OEM manual that calls for it"
         ]
       ],
-      "note": "Aerospace manufacturing keeps the same personnel standard and adds Nadcap accreditation audited to AC7114."
+      "note": "A technician certified under one employer's written practice is not automatically certified under another's, because certification is always issued by the employer. Aerospace manufacturing keeps the same written-practice structure and adds Nadcap accreditation audited to AC7114."
     },
     "facets": [
       {
         "q": "Does the FAA certify NDT technicians?",
-        "a": "No. The FAA certifies repair stations under 14 CFR Part 145 and mechanics under Part 65; it issues no NDI certificate to an individual. The technician is certified by the employer against ATA Specification 105, and Advisory Circular 65-31B is where the FAA points operators and repair stations for that personnel standard."
+        "a": "No. The FAA certifies repair stations under 14 CFR Part 145 and mechanics under Part 65; it issues no NDI certificate to an individual. The technician is certified by the employer under its written practice, built on SNT-TC-1A or ATA Specification 105, and Advisory Circular 65-31B is where the FAA points operators and repair stations for that personnel standard."
       },
       {
         "q": "Can an SNT-TC-1A Level II from oil and gas move straight into a Part 145 shop?",
-        "a": "Not automatically. The methods transfer; the certification does not. Budget the bridge as weeks of examination and technique familiarisation, not a paperwork transfer."
+        "a": "Not automatically. The methods transfer; the certification does not. The repair station's Responsible Level 3 reviews documented prior training and on-the-job hours, credits what the records support, then re-examines the candidate general, specific and practical under the station's own written practice, on its procedures and representative parts. Budget the bridge as weeks of examination and technique familiarisation, not a paperwork transfer."
+      },
+      {
+        "q": "What is ATA Specification 105 and how does it relate to SNT-TC-1A?",
+        "a": "ATA Specification 105 is the airline industry's guideline for training, qualifying and certifying NDT personnel. It covers the same ground as an SNT-TC-1A written practice — Level 3 authority, three-part examination, vision testing, recertification — from the operator side rather than the general-industry side. Carrier maintenance programmes commonly cite 105; MRO and OEM-driven work more often cites the OEM manual and the prime's specification."
       },
       {
         "q": "Which method does an aviation MRO hire for first?",
@@ -1628,11 +1646,11 @@
       },
       {
         "q": "How does aerospace manufacturing differ from MRO for NDT qualification?",
-        "a": "Same personnel standard, different audit. Manufacturing runs aerospace qualification underneath Nadcap accreditation, where the NDT process itself is audited against AC7114 and the prime contractor's own specification. Manufacturing hunts process escapes in new material; MRO hunts fatigue and corrosion damage accumulated in service."
+        "a": "Same written-practice structure, different audit. Manufacturing runs its written practice underneath Nadcap accreditation, where the NDT process itself is audited against AC7114 and the prime contractor's own specification. MRO runs it underneath 14 CFR Part 145 and the OEM maintenance manual. Manufacturing hunts process escapes in new material; MRO hunts fatigue and corrosion damage accumulated in service."
       },
       {
         "q": "What NDI personnel records must a Part 145 repair station produce on request?",
-        "a": "The written practice itself, the named Responsible Level 3's qualification in each method, and for every technician: education and experience, training hours, documented on-the-job hours, general, specific and practical examination results, a current vision test, the Level 3's signature, and the certification date with its five-year expiry. Auditors read the expiry column first."
+        "a": "The written practice itself, the named Responsible Level 3's qualification in each method, and for every technician: education and experience, training hours, documented on-the-job hours, general, specific and practical examination results, a current vision test, the Level 3's signature, and the certification date with the expiry its written practice sets. Auditors read the expiry column first."
       }
     ]
   },
@@ -1819,13 +1837,14 @@
   },
   {
     "route": "/aerospace-ndt-training",
-    "answer": "Atlantis aerospace NDT training is method training under ASNT SNT-TC-1A. Aerospace employers certify personnel to the customer-specified aerospace standard instead: the employer certifies Level 1 and Level 2 through a designated Responsible Level 3, and Nadcap audits that programme against AC7114. EN 4179 is the harmonized European equivalent. Atlantis does not deliver aerospace training or certification.",
-    "expansion": "Aerospace NDT training is built backwards from the audit. Under the customer-specified aerospace standard the employer certifies Level 1 and Level 2 personnel through a designated Responsible Level 3, who owns the written practice, the examination material and the technique approvals. Nadcap, administered by the Performance Review Institute for SAE, audits that programme to AC7114 and its method slash sheets — AC7114/1 penetrant, AC7114/2 magnetic particle, AC7114/3 ultrasonic, AC7114/4 eddy current — and reads training records, examination results and vision records as closely as the technique itself. Fluorescent penetrant runs as a controlled special process to ASTM E1417 using AMS 2644 qualified materials. Eddy current owns engine and airframe surface inspection. Ultrasonics addresses composite bond lines, disbonds and forgings rather than weld flaws.",
-    "source": "EN 4179 (ASD-STAN); Nadcap AC7114 audit criteria and method slash sheets (Performance Review Institute / SAE); ASTM E1417 liquid penetrant practice; AMS 2644 penetrant material qualification; ISO 9712 for comparison.",
+    "answer": "Atlantis aerospace NDT training is method training under ASNT SNT-TC-1A, delivered against the employer's aerospace written practice. The employer certifies Level 1 and Level 2 through a designated Responsible Level 3, the written practice adds the customer's flow-down requirements, and Nadcap audits that programme against AC7114. Atlantis also provides the ASNT NDT Level III consulting behind that programme.",
+    "expansion": "Aerospace NDT training is built backwards from the audit. Atlantis builds aerospace NDT programmes on an ASNT SNT-TC-1A written practice and adds what aerospace audits look for: a written Level III designation, practical examinations on representative parts, per-method experience logs and vision-examination tracking. The employer certifies Level 1 and Level 2 personnel through a designated Responsible Level 3, who owns the written practice, the examination material and the technique approvals. Nadcap, administered by the Performance Review Institute for SAE, audits that programme to AC7114 and its method slash sheets — AC7114/1 penetrant, AC7114/2 magnetic particle, AC7114/3 ultrasonic, AC7114/4 eddy current — and reads training records, examination results and vision records as closely as the technique itself. Fluorescent penetrant runs as a controlled special process to ASTM E1417 using AMS 2644 qualified materials. Eddy current owns engine and airframe surface inspection. Ultrasonics addresses composite bond lines, disbonds and forgings rather than weld flaws.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024); EN 4179 (ASD-STAN); Nadcap AC7114 audit criteria and method slash sheets (Performance Review Institute / SAE); ASTM E1417 liquid penetrant practice; AMS 2644 penetrant material qualification; ISO 9712 for comparison.",
     "table": {
-      "caption": "",
+      "caption": "An SNT-TC-1A aerospace programme against SNT-TC-1A, EN 4179 and ISO 9712 — what changes when the buyer is aerospace",
       "columns": [
         "Requirement",
+        "Aerospace written practice (SNT-TC-1A based, US aerospace)",
         "SNT-TC-1A (US general industry)",
         "EN 4179 (Europe aerospace)",
         "ISO 9712 (international)"
@@ -1833,47 +1852,60 @@
       "rows": [
         [
           "Publishing body",
+          "ASNT, with the prime's flow-down requirements added",
           "ASNT",
           "ASD-STAN",
           "ISO"
         ],
         [
+          "Document character",
+          "Employer written practice aligned to prime flow-down and Nadcap AC7114",
+          "Recommended practice; the employer writes its own practice",
+          "European aerospace standard",
+          "Central certification standard"
+        ],
+        [
           "Who certifies Level 1 and 2",
+          "The employer, through a designated Responsible Level 3",
           "The employer, per its Written Practice",
-          "The employer, under a Level 3 accepted by the national aerospace board",
+          "The employer, under its Level 3, per EN 4179",
           "An independent certification body accredited to ISO/IEC 17024"
         ],
         [
           "Level 3 qualification route",
+          "ASNT NDT Level III, employed or contracted as an outside agency, designated in writing",
           "ASNT Level III examination or employer examination",
-          "National Aerospace NDT Board",
+          "Defined by EN 4179 and national oversight",
           "Certification body examination"
         ],
         [
           "Vision requirement",
-          "Annual near-vision; colour requirement set by the Written Practice",
+          "Near-vision plus colour contrast, tracked in the written practice and checked at audit",
+          "Near-vision; colour requirement and interval set by the Written Practice",
           "Annual near-vision plus colour differentiation",
           "Annual near-vision plus colour differentiation"
         ],
         [
           "Audit that reads the records",
+          "Nadcap AC7114 plus prime source audits",
           "Customer audit or ISO 9001 surveillance",
-          "Nadcap plus national aerospace board oversight",
+          "Nadcap plus national oversight",
           "Accreditation body assessment of the certification body"
         ],
         [
           "Where it is named in contracts",
+          "Aerospace purchase orders flowing down prime specifications and Nadcap",
           "Refinery, pipeline, fabrication and power",
           "European aerospace supply chain",
           "Markets that recognise ISO personnel certification"
         ]
       ],
-      "note": "Atlantis delivers NDT method training under ASNT SNT-TC-1A only."
+      "note": "Atlantis delivers NDT method training under ASNT SNT-TC-1A and the ASNT NDT Level III consulting behind an aerospace written practice. The certificate is issued by your company through its Responsible Level 3 — no training provider can issue one on an employer's behalf."
     },
     "facets": [
       {
         "q": "Does an ASNT Level II certificate qualify me for aerospace NDT work?",
-        "a": "Not on its own. US aerospace qualifies personnel to the customer-specified aerospace standard, where the employer certifies Level 1 and Level 2 against its own written practice through a designated Responsible Level 3. Prior SNT-TC-1A training and documented experience count toward that record, but the certification itself is issued by the aerospace employer and audited by Nadcap. Europe applies EN 4179 the same way."
+        "a": "Not on its own. The aerospace employer certifies Level 1 and Level 2 against its own written practice, built on SNT-TC-1A with its customers' requirements added, through a designated Responsible Level 3. Prior SNT-TC-1A training and documented experience count toward that record, but the certification itself is issued by the aerospace employer and audited by Nadcap. Europe applies EN 4179 the same way."
       },
       {
         "q": "What is Nadcap AC7114 and who has to pass it?",
@@ -1889,11 +1921,11 @@
       },
       {
         "q": "Who is the Responsible Level 3 and why does every aerospace supplier need one?",
-        "a": "That individual qualifies through an Outside Agency examination or a National Aerospace NDT Board. The role is filled by an employee or by contract, and Nadcap verifies the designation and its scope."
+        "a": "Nadcap AC7114 expects the employer to designate in writing a Responsible Level 3 who owns the written practice, approves techniques and procedures, sets and grades examinations, and recommends Level 1 and Level 2 personnel for certification. On an SNT-TC-1A-based programme that person is an NDT Level III qualified in each method they sign for. The role is filled by an employee or by contract, and Nadcap verifies the designation and its scope."
       },
       {
         "q": "Can Atlantis deliver aerospace NDT method training at our facility?",
-        "a": "Yes, under ASNT SNT-TC-1A. Atlantis delivers UT, ET, PT, RT and VT method training on your equipment under ASNT Level III oversight, with training records your Responsible Level 3 can review. Request a scoped programme and a quote."
+        "a": "Yes, under ASNT SNT-TC-1A. Atlantis delivers UT, ET, PT, RT and VT method training on your equipment under ASNT Level III oversight, with training records your Responsible Level 3 can review. The training is aligned to your aerospace written practice, and Atlantis can also write that practice, prepare examinations and act as your outside agency Level III in UT, RT, MT, PT and VT. Request a scoped programme and a quote."
       }
     ]
   },
@@ -9453,48 +9485,68 @@
     ]
   },
   {
-    "route": "/blog/nas-410-aerospace-ndt-certification-explained",
-    "answer": "Every major US prime — Boeing, Lockheed Martin, Northrop Grumman, GE Aviation, SpaceX — and the DoD require it. Europe's equivalent is EN 4179; the two are mutually recognized by formal industry agreement. Recertification runs every five years with an annual eye test.",
-    "expansion": "Level I performs under written instructions and cannot interpret or sign off — Table 1 training hours run 40 for UT, RT and ET, 12 for MT, 8 for PT and VT. Level II adds 40+ training hours and 1,200–2,000 OJT hours per method, interprets, signs off and certifies Level I. Level III approves procedures, writes the Written Practice and must pass the ASNT or NANDTB-administered Level III exam — employer-graded exams are not accepted at Level III. §7.7 mandates an annual Jaeger J1 near-vision test at 12 inches plus color perception; an expired eye test suspends the inspector automatically. Boeing layers NDT 2 Pri-Lev1 D1-9000 procedural training on top, and Lockheed, Pratt & Whitney and GE maintain equivalent overlays.",
-    "source": "EN 4179 for European primes under EASA Part 21/145; FAA AC 65-31B for repair-station NDT personnel.",
+    "route": "/blog/aerospace-ndt-certification-explained",
+    "answer": "Aerospace NDT certification is an employer programme, not a card from an outside body. Atlantis builds it on an ASNT SNT-TC-1A (2024) written practice approved by a Level III and aligned to purchase-order flow-down, the prime's specifications and Nadcap AC7114. Every major US prime flows down its own requirements on top. ASNT describes a recommended maximum recertification interval of five years; the written practice sets the actual interval.",
+    "expansion": "Certification is employer-based: the written practice names the certifying Level III and sets training, experience, examination, vision and recertification rules for every method and level, and primes and Nadcap audit against it. SNT-TC-1A recommends Level I training and experience of 40 and 210 hours for UT, RT and ET, 12 and 70 for MT, 4 and 70 for PT and 8 and 70 for VT, with Level II figures in addition. Each level sits General, Specific and Practical examinations administered by a Level III — a composite of at least 80%, no single examination below 70% — and aerospace Specific and Practical examinations use the customer's procedures and representative parts. Level III approves procedures and the written practice and must be qualified in each method signed for; a firm without one engages an outside agency Level III, and the employer still issues the certificate. Boeing layers D1-9000 procedural training on top, and Lockheed, Pratt & Whitney and GE maintain equivalent overlays.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) with ANSI/ASNT CP-105; Nadcap AC7114 (Performance Review Institute); EN 4179 for European primes under EASA Part 21/145; FAA AC 65-31B and 14 CFR 145.163 for repair-station NDT personnel.",
     "table": {
-      "caption": "",
+      "caption": "Aerospace NDT certification levels under an SNT-TC-1A written practice — authority, hours and examination path",
       "columns": [
         "Level",
         "Authority",
-        "Training hours (Table 1)",
-        "OJT hours",
+        "Training hours (SNT-TC-1A recommended)",
+        "Experience hours (SNT-TC-1A recommended)",
         "Exam administered by"
       ],
       "rows": [
         [
           "Level I",
-          "Performs under written instructions; sets up equipment, records data; no interpretation or sign-off",
-          "40 UT / 40 RT / 40 ET / 12 MT / 8 PT / 8 VT",
-          "Per method per Table 1",
-          "Employer's NANDTB-listed Level III"
+          "Performs set-ups and records data under written instructions; no interpretation or sign-off",
+          "40 UT / 40 RT / 40 ET / 12 MT / 4 PT / 8 VT",
+          "210 UT, RT, ET / 70 MT, PT, VT",
+          "The employer's Level III or an outside agency Level III"
         ],
         [
           "Level II",
-          "Performs, interprets, signs off; certifies Level I; drafts technique sheets under Level III supervision",
-          "40+ beyond Level I",
-          "1,200–2,000 per method",
-          "Employer's NANDTB-listed Level III"
+          "Sets up, calibrates, interprets and owns the accept or reject call; drafts technique sheets under Level III supervision",
+          "A further 40 UT / 40 RT / 40 ET / 8 MT / 8 PT / 16 VT",
+          "A further 630 UT, RT, ET / 210 MT / 140 PT, VT",
+          "The employer's Level III or an outside agency Level III"
         ],
         [
           "Level III",
-          "Approves procedures; certifies Level I/II; writes the Written Practice; represents employer to NANDTB",
-          "Per method history and Written Practice",
-          "—",
-          "ASNT or NANDTB Level III exam plus employer practical"
+          "Writes and approves procedures and the Written Practice; builds and grades examinations; recommends certification",
+          "Set by education and experience, not method hours",
+          "Per ASNT NDT Level III eligibility",
+          "ASNT NDT Level III examination plus any practical the written practice requires"
         ]
       ],
-      "note": "Recertification every 5 years per §9; a gap over 1 year in the method forces re-examination per §9.3. The annual §7.7 eye test (Jaeger J1 at 12 in., Ishihara color) suspends the inspector on lapse until retested."
+      "note": "ASNT describes a recommended maximum recertification interval of five years; the employer's written practice sets the actual interval and the vision-examination cycle. The 2024 edition restricts eye drops used to improve vision."
     },
     "facets": [
       {
+        "q": "How does an aerospace programme differ from a general-industry SNT-TC-1A programme?",
+        "a": "Both run on an employer written practice and share the Level I/II/III structure. The aerospace written practice adds what the purchase order flows down: the prime's specifications, a written Level III designation, practical examinations on representative parts, per-method experience logs and vision-examination tracking, all audited against Nadcap AC7114. General-industry certificates are not automatically accepted on aerospace contracts."
+      },
+      {
+        "q": "How do I get certified for aerospace NDT work?",
+        "a": "Through an aerospace employer. The employer certifies you under its written practice on its Level III's recommendation — independent certification without an employer sponsor is not the path. An existing SNT-TC-1A Level II gets no automatic conversion: the Level III can credit prior training hours and experience, but you must still complete the employer's aerospace training and pass the examinations its Level III administers."
+      },
+      {
+        "q": "What does a Nadcap AC7114 auditor check on personnel?",
+        "a": "The written practice and its Level III approval, certification packages, vision records, the designated Level III, outside Level III agencies and training course outlines. Auditors trace a finished job back to the technician's certificate, the approved procedure and the report. Frequent findings: a written practice that misses a method or technique performed at the site, and certificate techniques it does not name."
+      },
+      {
+        "q": "What does the vision examination require?",
+        "a": "Near vision, natural or corrected, in at least one eye, reading a minimum of Jaeger Number 2 or equivalent at not less than 12 inches (30.5 cm), plus colour contrast among the colours or shades of grey used in the method — for fluorescent PT and MT, the indications read under UV-A. The written practice sets the cycle; an expired vision record that does not stop the technician working is a common audit finding."
+      },
+      {
         "q": "What is Boeing's NDT 2 Pri-Lev1 requirement?",
-        "a": "Boeing's D1-9000 quality specification requires inspectors to hold certification and complete Boeing-specific procedural training in the D1-1000-series documents for the parts they inspect."
+        "a": "A Boeing overlay above the employer's certification. Boeing's D1-9000 quality specification requires inspectors to hold certification and complete Boeing-specific procedural training in the D1-1000-series documents for the parts they inspect. Other primes run equivalent layers — Lockheed's LM Aero Quality Notes, Pratt & Whitney's PWA documents, GE Aviation's GE-AS plant specifications — so a certificate alone does not clear you onto a prime's hardware."
+      },
+      {
+        "q": "Does an FAA Part 145 repair station need an NDT written practice?",
+        "a": "A Part 145 repair station must maintain an employee training programme under 14 CFR 145.163, and FAA AC 65-31B covers NDI personnel training, qualification and certification; the written practice shows how NDT technicians are trained, examined and certified. Atlantis builds it on ASNT SNT-TC-1A and aligns it with the station's manuals and its customers' requirements. Aerospace work also pays: the premium over general-industry work for the same method and level runs 15–30%."
       }
     ]
   },

@@ -60,6 +60,12 @@ const componentNDTMatrix = [
 
 const standardsData = [
     {
+        standard: "SNT-TC-1A",
+        fullName: "ASNT SNT-TC-1A (2024) — Personnel Qualification and Certification in Nondestructive Testing",
+        description: "ASNT's recommended practice for employer-based qualification and certification of NDT personnel. For aerospace work the employer's written practice is built on SNT-TC-1A and aligned to customer flow-down requirements and Nadcap AC7114: a written Level III designation, practical examinations on representative parts, per-method experience logs and vision-examination tracking.",
+        scope: "Personnel certification (employer written practice)",
+    },
+    {
         standard: "EN 4179",
         fullName: "EN 4179 — Qualification and Approval of NDT Personnel in Aerospace",
         description: "The European aerospace NDT personnel standard, mandated by EASA Part-145 maintenance organisations and Airbus, Rolls-Royce, and European OEMs. Requires employer-based qualification and independent Level 3 oversight.",
@@ -124,8 +130,8 @@ const standardsData = [
 const atlantisServices = [
     {
         icon: FileText,
-        title: "ASNT Level III Written Practice Development",
-        description: "Development and review of employer written practices under ASNT SNT-TC-1A, aligned to your customers' aerospace flow-downs. Covers all NDT methods, personnel qualification records, and audit-ready documentation.",
+        title: "Aerospace Written Practices (SNT-TC-1A Based)",
+        description: "Development and review of aerospace written practices built on ASNT SNT-TC-1A and aligned to your customers' flow-down requirements and Nadcap AC7114. Covers all NDT methods, personnel qualification records, and audit-ready documentation.",
         link: "/consulting/written-practice-for-aerospace",
     },
     {
@@ -143,7 +149,7 @@ const atlantisServices = [
     {
         icon: Award,
         title: "Personnel Qualification Records Review",
-        description: "Review of training-hour, experience, examination and vision records against your written practice before an audit. Certification of your personnel stays with your Responsible Level 3; Atlantis provides ASNT NDT Level III review and does not certify aerospace personnel.",
+        description: "ASNT NDT Level III review of training-hour, experience, examination and vision records against your aerospace written practice before an audit. Your company certifies its personnel; Atlantis checks the records, sets and grades examinations under your written practice, and flags gaps before the auditor does.",
         link: "/asnt-certification",
     },
     {
@@ -155,8 +161,8 @@ const atlantisServices = [
     {
         icon: GraduationCap,
         title: "Aerospace NDT Method Training (ASNT SNT-TC-1A)",
-        description: "NDT method training under ASNT SNT-TC-1A for aerospace inspectors: classroom theory and hands-on practical in UT, ET, PT, RT and VT. Your employer\'s written practice decides how the hours count toward aerospace certification.",
-        link: "/training",
+        description: "NDT method training under ASNT SNT-TC-1A for aerospace inspectors: classroom theory and hands-on practical in UT, ET, PT, RT and VT, with records structured for your aerospace written practice, plus ASNT Level III exam preparation.",
+        link: "/aerospace-ndt-training",
     },
 ];
 
@@ -188,7 +194,10 @@ const aerofaqs = [
         q: "What NDT methods are used in aerospace?",
         a: "Aerospace NDT relies on six primary methods. Eddy Current Testing (ECT) — particularly rotating probe and eddy current array variants — is the dominant method for aircraft structural inspection, bolt hole inspection, and surface crack detection in metallic structures. Fluorescent Penetrant Inspection (FPI/PT) is used extensively for engine components and precision machined parts. Magnetic Particle Inspection (MPI/MT) is used for ferromagnetic engine and landing gear components. Ultrasonic Testing (UT and PAUT) is the primary technique for composite material inspection, bond line assessment, and forgings. Radiographic Testing (RT and digital RT) is used for castings, welds, and composite analysis. Visual Testing (VT), including borescope inspection, supports engine internal inspection and structural assessment.",
     },
-    
+    {
+        q: "How is an aerospace NDT programme built on ASNT SNT-TC-1A?",
+        a: "SNT-TC-1A (2024) is ASNT's recommended practice for employer-based qualification and certification of NDT personnel, and it is the basis Atlantis uses for aerospace written practices. The aerospace written practice then adds what Nadcap AC7114 auditors and primes look for: a written Level III designation (the Responsible Level 3 in AC7114), Level III approval of instructors and examination material, practical examinations on representative parts, per-method experience logs and vision-examination tracking. Training hours, experience and examination content are set in the written practice to meet each customer's flow-down requirements, and the auditor checks the personnel records against it. Recertification works the same way: ASNT describes a recommended maximum interval of five years, and the employer's written practice sets the actual interval. The same SNT-TC-1A framework is common in petrochemical and power work; in aerospace it carries the prime's additions.",
+    },
     {
         q: "How is composite material inspected using NDT?",
         a: "Composite material NDT — primarily for carbon fibre reinforced polymer (CFRP) and fiberglass/honeycomb sandwich structures — relies on methods sensitive to internal delaminations, disbonds, and impact damage without the use of ionising radiation for thin sections. Pulse echo ultrasonic testing (single-sided, no couplant contact probe or water jet squirter) is the primary production inspection method. Through-transmission UT using two transducers either side of the panel gives excellent sensitivity to voids and delaminations. Infrared thermography (flash thermography) provides rapid large-area screening and is increasingly used in MRO. Shearography (interferometry) detects subsurface disbonds by measuring surface strain under vacuum or thermal excitation. The choice of method depends on component geometry, access, production rate, and defect type.",
@@ -211,7 +220,7 @@ const aerofaqs = [
     },
     {
         q: "What qualifications do aerospace NDT inspectors need?",
-        a: "Aerospace NDT inspectors are typically qualified to the personnel standard their customer specifies (North America and most global aerospace programs) or EN 4179 (Europe and EASA-regulated MROs). Both require documented training hours per method and level, verified practical experience on aerospace hardware, written examinations covering general NDT principles and method-specific knowledge, a practical examination demonstrating ability to detect reference defects, and Level III review and certification sign-off by the employer. Atlantis NDT provides ASNT SNT-TC-1A-based method training and ASNT Level III consulting for the written practice, procedures and examinations behind that certification.",
+        a: "Aerospace NDT inspectors are certified by their employer under a written practice that meets the customer's flow-down requirements and Nadcap AC7114; EASA-regulated MROs in Europe work to EN 4179. The written practice requires documented training hours per method and level, verified practical experience on aerospace hardware, written examinations covering general NDT principles and method-specific knowledge, a practical examination demonstrating ability to detect reference defects, current vision-examination records, and Level III review and certification sign-off. Atlantis NDT builds these written practices on ASNT SNT-TC-1A, delivers SNT-TC-1A-based method training for the inspectors, and can act as the employer's outside agency Level III in UT, RT, MT, PT and VT.",
     },
 ];
 
@@ -252,7 +261,7 @@ export default function NDTForAerospace() {
                 "@type": "ProfessionalService",
                 "name": "Atlantis NDT — Aerospace NDT Consulting",
                 "url": "https://atlantisndt.com/ndt-for-aerospace",
-                "description": "NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, ASNT Level III written practices and procedures, NADCAP audit preparation.",
+                "description": "Expert NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, SNT-TC-1A-based aerospace written practices, NADCAP audit preparation. ASNT Level III consultants.",
                 "provider": {
                     "@type": "Organization",
                     "name": "Atlantis NDT",
@@ -264,7 +273,7 @@ export default function NDTForAerospace() {
                     "@type": "OfferCatalog",
                     "name": "Aerospace NDT Services",
                     "itemListElement": [
-                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ASNT Level III Written Practice Development" } },
+                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aerospace Written Practice Development (SNT-TC-1A Based)" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "NADCAP Audit Preparation" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Composite Material NDT Consulting" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aerospace NDT Procedure Development" } },
@@ -286,8 +295,8 @@ export default function NDTForAerospace() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT for Aerospace | Aircraft, Composite & Engine Component Inspection | ASNT Level III | Atlantis NDT"
-                description="NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, ASNT Level III written practices and procedures, NADCAP audit prep."
+                title="NDT for Aerospace: Aircraft, Composite & Engine | Atlantis NDT"
+                description="NDT consulting for aerospace: airframe, composite and engine component inspection, SNT-TC-1A-based written practices, Nadcap audit prep and Level III support."
                 keywords="NDT for aerospace industry, aircraft NDT inspection, aerospace non-destructive testing, composite material NDT, ASNT Level III aerospace consulting, aerospace written practice, NADCAP NDT qualification, aircraft structural inspection, engine component NDT, aerospace eddy current testing, aircraft ultrasonic inspection, fluorescent penetrant inspection aerospace, EN 4179 aerospace NDT, NADCAP audit preparation, AMS 2644 penetrant"
                 canonical="https://atlantisndt.com/ndt-for-aerospace"
                 structuredData={structuredData}
@@ -310,7 +319,7 @@ export default function NDTForAerospace() {
                             NDT for Aerospace | Aircraft, Composite &amp; Engine Component Inspection
                         </h1>
                         <p className="text-xl text-blue-100 max-w-3xl mb-4 leading-relaxed">
-                            Safety-critical aerospace structures demand the highest standard of non-destructive testing. Atlantis NDT provides ASNT Level III consultants with deep aerospace expertise — delivering written practices, NADCAP audit preparation, and specialist procedures for aircraft structures, engine components, and composite materials, plus ASNT SNT-TC-1A-based method training.
+                            Safety-critical aerospace structures demand the highest standard of non-destructive testing. Atlantis NDT provides ASNT Level III consultants with deep aerospace expertise — delivering aerospace written practices built on ASNT SNT-TC-1A, NADCAP audit preparation, and specialist procedures for aircraft structures, engine components, and composite materials, plus SNT-TC-1A-based method training.
                         </p>
                         <p className="text-blue-200 max-w-2xl mb-8">
                             Serving aircraft OEMs, MRO organisations, defence programs, and Tier 1 suppliers across the USA, Europe, and Asia-Pacific.
@@ -338,7 +347,7 @@ export default function NDTForAerospace() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                         {[
-                            { stat: "SNT-TC-1A", label: "Compliant Written Practices" },
+                            { stat: "SNT-TC-1A", label: "Based Aerospace Written Practices" },
                             { stat: "All AMS", label: "NDT Method Specifications" },
                             { stat: "50+", label: "Level III Experts" },
                             { stat: "Composite & Metallic", label: "Structure Expertise" },
@@ -367,7 +376,7 @@ export default function NDTForAerospace() {
                                 Aerospace structures span an enormous range of materials and forms. Modern commercial aircraft combine aluminium alloy airframes, titanium fasteners, high-temperature nickel superalloy engine components, high-strength steel landing gear, and increasingly large proportions of carbon fibre reinforced polymer (CFRP) composite primary structure. The Boeing 787 Dreamliner and Airbus A350 are both more than 50% composite by weight. Each material class demands a different NDT approach: eddy current for metallic structure, ultrasonic testing and thermography for composites, fluorescent penetrant inspection for engine superalloys, and magnetic particle inspection for ferromagnetic steel components.
                             </p>
                             <p>
-                                The regulatory framework for aerospace NDT is defined at multiple levels. At the personnel level, aerospace customers flow down their own qualification requirements (EN 4179 in Europe), more prescriptive than the general industry standard ASNT SNT-TC-1A. At the process level, NADCAP accreditation is required by most commercial aircraft prime contractors as a supply chain prerequisite. NDT procedures must reference applicable AMS (Aerospace Material Specifications) including AMS 2640 for magnetic particle, AMS 2644 for liquid penetrant, AMS 2630 for radiographic testing, and AMS 2647 for eddy current. Military programs additionally reference MIL-HDBK-6870 and specific contract requirements. At the regulatory level, FAA Advisory Circular AC 43.13-1B governs acceptable aircraft inspection and repair methods for civil MRO, while EASA Part-145 defines the quality system requirements for approved maintenance organisations.
+                                The regulatory framework for aerospace NDT is defined at multiple levels. At the personnel level, the employer's written practice governs inspector training, experience, examination, and certification: built on ASNT SNT-TC-1A, it carries the customer's flow-down requirements, while EASA-regulated organisations in Europe work to EN 4179. At the process level, NADCAP accreditation is required by most commercial aircraft prime contractors as a supply chain prerequisite. NDT procedures must reference applicable AMS (Aerospace Material Specifications) including AMS 2640 for magnetic particle, AMS 2644 for liquid penetrant, AMS 2630 for radiographic testing, and AMS 2647 for eddy current. Military programs additionally reference MIL-HDBK-6870 and specific contract requirements. At the regulatory level, FAA Advisory Circular AC 43.13-1B governs acceptable aircraft inspection and repair methods for civil MRO, while EASA Part-145 defines the quality system requirements for approved maintenance organisations.
                             </p>
                             <p>
                                 Atlantis NDT's aerospace NDT consultants have served as Level III authority for aircraft OEMs, engine overhaul shops, MRO facilities, and Tier 1 composite manufacturers. Our team has developed aerospace written practices from scratch, guided aerospace suppliers through first-time NADCAP audits, written and qualified procedures for composite structure inspection programmes, and provided independent ASNT Level III services for organisations that lack internal Level III capability. We bring both the technical depth and the regulatory familiarity needed to navigate aerospace NDT compliance effectively.
@@ -551,7 +560,7 @@ export default function NDTForAerospace() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold mb-4">Aerospace NDT Services from Atlantis NDT</h2>
                         <p className="text-blue-200 max-w-2xl mx-auto">
-                            From building your aerospace written practice from scratch to guiding your team through a NADCAP audit, our Level III consultants provide end-to-end aerospace NDT programme support.
+                            From building your SNT-TC-1A-based aerospace written practice from scratch to guiding your team through a NADCAP audit, our Level III consultants provide end-to-end aerospace NDT programme support.
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -569,6 +578,26 @@ export default function NDTForAerospace() {
                                 </Card>
                             </Link>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* ── How Atlantis Supports Aerospace Programmes ─────────────────── */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-4xl px-6">
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900">
+                        How Atlantis Supports Aerospace NDT Programmes
+                    </h2>
+                    <div className="space-y-5 text-slate-700 leading-relaxed text-lg">
+                        <p>Atlantis supports aerospace and aviation NDT programmes in three ways: ASNT NDT Level III consulting, ASNT SNT-TC-1A-based method training, and NDT inspection. Your company certifies its own personnel throughout; Atlantis builds and maintains the programme behind that decision. The work is led by Atlantis founder Anoop Rayavarapu, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has 11+ years of NDT experience.</p>
+                        <h3 className="text-xl font-bold text-slate-900 pt-2">Written Practice and Level III Consulting</h3>
+                        <p>Atlantis builds aerospace written practices on ASNT SNT-TC-1A (2024) and aligns them to your customers' flow-down requirements and Nadcap AC7114. The written practice carries what aerospace audits look for: a written Level III designation (the Responsible Level 3 in AC7114), Level III approval of instructors and examination material, practical examinations on representative parts, per-method experience logs and vision-examination tracking. Recertification is set there too: ASNT describes a recommended maximum interval of five years, and the written practice sets the actual interval. Where you have no Level III on staff, Atlantis can act as the outside agency Level III in UT, RT, MT, PT and VT, writing and approving the written practice, procedures and technique sheets and building and grading examinations, while your company signs and issues the certificates. See <Link to="/consulting/written-practice-for-aerospace" className="text-blue-700 hover:underline font-medium">aerospace written practice consulting</Link> and <Link to="/consulting/aerospace-ndt-consulting" className="text-blue-700 hover:underline font-medium">aerospace NDT consulting</Link>.</p>
+                        <h3 className="text-xl font-bold text-slate-900 pt-2">Audit Preparation</h3>
+                        <p>Before a Nadcap AC7114 audit, a customer source audit or an FAA Part 145 repair-station review, Atlantis checks procedures, technique sheets, calibration records and personnel files against the checklist the auditor will use, and helps you close findings with corrective actions that hold at re-audit. AC7114 findings tend to land on records rather than technique, so the review starts with the certification files. Nadcap accreditation and AS9100 certification sit with your organisation; Atlantis prepares the NDT evidence behind them. See <Link to="/consulting/nadcap-ac7114-audit-readiness" className="text-blue-700 hover:underline font-medium">Nadcap AC7114 audit readiness</Link> and <Link to="/consulting/level-iii-audit-support-aerospace" className="text-blue-700 hover:underline font-medium">Level III audit support for aerospace</Link>.</p>
+                        <h3 className="text-xl font-bold text-slate-900 pt-2">Method Training</h3>
+                        <p>Atlantis delivers ASNT SNT-TC-1A-based Level 1 and Level 2 method training in UT, ET, PT, RT and VT for aerospace employers, with online theory and practicals at your facility on your own parts and reference standards, plus ASNT Level III exam preparation for senior inspectors. Training and examination records are structured so your Responsible Level 3 can credit the hours under your written practice. See <Link to="/aerospace-ndt-training" className="text-blue-700 hover:underline font-medium">aerospace NDT training</Link>, <Link to="/aviation-ndt-training" className="text-blue-700 hover:underline font-medium">aviation NDT training</Link> for Part 145 MRO teams, <Link to="/training/ultrasonic-testing-training-for-aerospace" className="text-blue-700 hover:underline font-medium">ultrasonic testing training for aerospace</Link> and <Link to="/asnt-level-iii-training" className="text-blue-700 hover:underline font-medium">ASNT Level III exam preparation</Link>.</p>
+                        <h3 className="text-xl font-bold text-slate-900 pt-2">Aerospace Inspection</h3>
+                        <p>Atlantis provides <Link to="/aerospace-ndt-services" className="text-blue-700 hover:underline font-medium">aerospace NDT inspection</Link> on airframe, engine, landing-gear and composite parts in UT (including PAUT), RT, MT, PT and VT. Technicians are certified by their employer to its SNT-TC-1A written practice, procedures and reports are reviewed by an ASNT NDT Level III, and any additional personnel requirements in a prime specification are confirmed per project. To start, send your written practice, customer specifications and next audit date through the <Link to="/contact" className="text-blue-700 hover:underline font-medium">contact page</Link>; scope and quote are on request.</p>
                     </div>
                 </div>
             </section>
@@ -609,35 +638,35 @@ export default function NDTForAerospace() {
                 </div>
             </section>
 
-            {/* ── Aerospace customer requirements vs SNT-TC-1A Comparison ──────────────────────────── */}
+            {/* ── Aerospace written practice vs general-industry SNT-TC-1A ──────────────── */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-10 text-slate-900">
-                        Aerospace Customer Requirements vs. ASNT SNT-TC-1A: Key Differences
+                        Aerospace Written Practice vs. General-Industry SNT-TC-1A: Key Differences
                     </h2>
                     <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow">
                         <table className="w-full text-sm">
                             <thead className="bg-blue-800 text-white">
                                 <tr>
                                     <th className="text-left p-4 font-semibold">Requirement</th>
-                                    <th className="text-left p-4 font-semibold">Aerospace customer requirements</th>
+                                    <th className="text-left p-4 font-semibold">Aerospace written practice (SNT-TC-1A based)</th>
                                     <th className="text-left p-4 font-semibold">ASNT SNT-TC-1A (General Industry)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {[
                                     ["Primary industry", "Aerospace & defence", "Oil & gas, petrochemical, general industry"],
-                                    ["Training hours (Level II ET)", "80 hours minimum", "Employer-defined (typically 40–80 hours)"],
-                                    ["Experience hours (Level II ET)", "1,600 hours minimum", "Employer-defined"],
-                                    ["Written examination", "Mandatory — general + specific + practical", "Mandatory — employer-administered or ASNT"],
-                                    ["Level III oversight", "Employer Level III required", "Employer Level III (or external) acceptable"],
-                                    ["Written practice", "Mandatory, specific format", "Mandatory, employer-defined format"],
-                                    ["European equivalent", "EN 4179", "ISO 9712 (partially equivalent)"],
-                                    
-                                ].map(([req, nas, asnt], i) => (
+                                    ["Training hours (Level II ET)", "Set in the written practice to the customer's flow-down; Level III approves instructors and course material", "Employer-defined (typically 40–80 hours)"],
+                                    ["Experience hours (Level II ET)", "Logged per method and verified against the written practice", "Employer-defined"],
+                                    ["Written examination", "Mandatory — general + specific + practical on representative parts", "Mandatory — employer-administered or ASNT"],
+                                    ["Level III oversight", "Written Level III designation (the Responsible Level 3 in AC7114)", "Employer Level III (or external) acceptable"],
+                                    ["Written practice", "Mandatory, built on SNT-TC-1A and aligned to customer flow-downs and AC7114", "Mandatory, employer-defined format"],
+                                    ["European counterpart", "EN 4179 (EASA Part-145 and European primes)", "ISO 9712 (partially equivalent)"],
+                                    ["Nadcap AC7114", "Audited against the written practice: Level III designation, examinations, experience and vision records", "Needs the aerospace additions in the middle column before an AC7114 audit"],
+                                ].map(([req, aero, asnt], i) => (
                                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                                         <td className="p-4 font-semibold text-slate-800">{req}</td>
-                                        <td className="p-4 text-slate-700">{nas}</td>
+                                        <td className="p-4 text-slate-700">{aero}</td>
                                         <td className="p-4 text-slate-600">{asnt}</td>
                                     </tr>
                                 ))}
@@ -645,7 +674,7 @@ export default function NDTForAerospace() {
                         </table>
                     </div>
                     <p className="text-slate-500 text-sm mt-4 text-center">
-                        Need help setting up an aerospace programme? <Link to="/asnt-certification" className="text-blue-700 hover:underline font-medium">See how ASNT SNT-TC-1A certification works →</Link>
+                        Need an aerospace written practice built on ASNT SNT-TC-1A? <Link to="/consulting/written-practice-for-aerospace" className="text-blue-700 hover:underline font-medium">Aerospace written practice consulting →</Link> or <Link to="/asnt-certification" className="text-blue-700 hover:underline font-medium">see how ASNT SNT-TC-1A certification works →</Link>
                     </p>
                 </div>
             </section>
@@ -735,7 +764,7 @@ export default function NDTForAerospace() {
                         Ready to Strengthen Your Aerospace NDT Programme?
                     </h2>
                     <p className="text-blue-100 mb-8 text-lg max-w-2xl mx-auto">
-                        Whether you need an aerospace written practice built from scratch, NADCAP audit preparation, composite NDT procedures, or an independent Level III consultant — Atlantis NDT's aerospace experts are ready to help.
+                        Whether you need an SNT-TC-1A-based aerospace written practice built from scratch, NADCAP audit preparation, composite NDT procedures, or an independent Level III consultant — Atlantis NDT's aerospace experts are ready to help.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link

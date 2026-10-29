@@ -3034,12 +3034,12 @@
     },
     {
       "source": "/consulting/nas-410-responsible-level-3",
-      "destination": "/consulting/ndt-consulting-level-iii",
+      "destination": "/consulting/aerospace-responsible-level-iii",
       "statusCode": 301
     },
     {
       "source": "/nas-410-certification-requirements",
-      "destination": "/snt-tc-1a-eligibility",
+      "destination": "/aerospace-ndt-certification-requirements",
       "statusCode": 301
     },
     {
@@ -3049,97 +3049,97 @@
     },
     {
       "source": "/compliance/nas-410",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/written-practice",
-      "destination": "/compliance/asnt-snt-tc-1a/written-practice",
+      "destination": "/compliance/aerospace-ndt/written-practice",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/audit-preparation",
-      "destination": "/compliance/asnt-snt-tc-1a/audit-preparation",
+      "destination": "/compliance/aerospace-ndt/audit-preparation",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/records-retention",
-      "destination": "/compliance/asnt-snt-tc-1a/records-retention",
+      "destination": "/compliance/aerospace-ndt/records-retention",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/equipment-calibration-records",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/equipment-calibration-records",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/examination-records",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/examination-records",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/corrective-actions",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/corrective-actions",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/pt",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/pt",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/mt",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/mt",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/ut",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/ut",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/paut",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/paut",
       "statusCode": 301
     },
     {
       "source": "/compliance/nas-410/et",
-      "destination": "/compliance/asnt-snt-tc-1a",
+      "destination": "/compliance/aerospace-ndt/et",
       "statusCode": 301
     },
     {
       "source": "/blog/nas-410-recertification-aerospace-2028",
-      "destination": "/asnt-certification",
+      "destination": "/blog/aerospace-ndt-recertification-2028",
       "statusCode": 301
     },
     {
       "source": "/blog/nas-410-aerospace-ndt-certification-explained",
-      "destination": "/aerospace-ndt-training",
+      "destination": "/blog/aerospace-ndt-certification-explained",
       "statusCode": 301
     },
     {
       "source": "/blog/nas-410-vs-snt-tc-1a",
-      "destination": "/snt-tc-1a-eligibility",
+      "destination": "/blog/snt-tc-1a-for-aerospace-ndt",
       "statusCode": 301
     },
     {
       "source": "/blog/third-party-asnt-level-iii-consulting-for-aerospace-nas-410-programs",
-      "destination": "/consulting/ndt-consulting-level-iii",
+      "destination": "/blog/third-party-asnt-level-iii-consulting-for-aerospace-programs",
       "statusCode": 301
     },
     {
       "source": "/blog/ndt-training-for-aerospace-nas-410-and-what-makes-it-different-from-oil-and-gas",
-      "destination": "/aerospace-ndt-training",
+      "destination": "/blog/ndt-training-for-aerospace-and-what-makes-it-different-from-oil-and-gas",
       "statusCode": 301
     },
     {
       "source": "/blog/software-for-aerospace-ndt-quality-control-nas-410-as9100-and-nadcap-in-one-platform",
-      "destination": "/erp/software-for-aerospace-ndt-suppliers-us",
+      "destination": "/blog/software-for-aerospace-ndt-quality-control-as9100-and-nadcap-in-one-platform",
       "statusCode": 301
     },
     {
       "source": "/blog/ndt-cert-trends-2027-asnt-iso-pcn-nas-410",
-      "destination": "/asnt-certification",
+      "destination": "/blog/ndt-cert-trends-2027-asnt-iso-pcn",
       "statusCode": 301
     }
   ],

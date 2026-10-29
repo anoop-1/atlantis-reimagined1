@@ -4140,6 +4140,7 @@ export default function RouteTable() { return (
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-personnel-certification-tracking" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/snt-tc-1a-for-aerospace-ndt" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/ndt-ojt-hours-log-requirements" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compare/aws-cwi-vs-api-577-vs-asnt-level-ii" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/interim-ndt-level-3" element={<LazyRoute Component={DepthPage} />} />
@@ -4155,6 +4156,7 @@ export default function RouteTable() { return (
                   <Route path="/consulting/ndt-level-3-resigned-what-to-do" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/digital-twins-ndt/ut-thickness-overlay" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/digital-twin-vs-idms" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/aerospace-ndt-certification-requirements" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/ndt-training-hours-requirements-by-method" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-software-rfp-requirements-checklist" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/iso-17020-software-for-ndt-inspection-bodies" element={<LazyRoute Component={DepthPage} />} />
@@ -4166,6 +4168,7 @@ export default function RouteTable() { return (
                   <Route path="/diconde-ndt-data-standards-digital-twin" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/deliver-twin-ready-ndt-data" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/nadcap-ac7114-audit-readiness" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aerospace-responsible-level-iii" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ndt-level-3-exam-oversight" element={<LazyRoute Component={DepthPage} />} />
                   {/* Industry consulting, rebuilt 2026-08-19. The first five of
                       these already existed and earned zero impressions between
