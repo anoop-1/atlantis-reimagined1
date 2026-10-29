@@ -51,6 +51,7 @@
  */
 import { loadKnowledge, loadKnowledgeTs } from './route-reconcile.mjs';
 import { shingleSimilarity } from './family-citation-layers.mjs';
+import { PUBLISHED_CITY_PAGES } from './published-city-pages.mjs';
 
 const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -560,7 +561,7 @@ export async function applyErpFamilyLayers(routes) {
 
       const city = d.name || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
       const rendered = renderErpCity(city, d);
-      if (tooSimilar('erpcity', rendered.answer)) { out.skippedSimilar++; continue; }
+      if (!PUBLISHED_CITY_PAGES.has(path) && tooSimilar('erpcity', rendered.answer)) { out.skippedSimilar++; continue; }
       accepted.erpcity.push(rendered.answer);
 
       routes.push({

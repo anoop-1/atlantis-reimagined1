@@ -27,6 +27,7 @@
  * asserted here, because they are not in this data store.
  */
 import { shingleSimilarity } from './family-citation-layers.mjs';
+import { PUBLISHED_CITY_PAGES } from './published-city-pages.mjs';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian cells take their title/meta/H1 from the Canada JSON
@@ -282,7 +283,7 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       // gateAnswer always scores the sector's own scheme text, so the Canada wording
       // (2026-10-16) cannot change which pages get built either.
       const { gateAnswer } = sp ? render(city, d, sec) : render(city, dd, sec);
-      if (accepted.some((a) => shingleSimilarity(gateAnswer, a) > gate)) { out.skippedSimilar++; continue; }
+      if (!PUBLISHED_CITY_PAGES.has(path) && accepted.some((a) => shingleSimilarity(gateAnswer, a) > gate)) { out.skippedSimilar++; continue; }
       accepted.push(gateAnswer);
 
       // Same title-budget rule as the consulting generator: city first past the

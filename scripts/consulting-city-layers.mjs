@@ -36,6 +36,7 @@ import { loadKnowledgeTs } from './route-reconcile.mjs';
 // Hoisted to module scope: it was a dynamic import inside the new-route block,
 // so the layering loop below could not see it.
 import { shingleSimilarity } from './family-citation-layers.mjs';
+import { PUBLISHED_CITY_PAGES } from './published-city-pages.mjs';
 
 const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -306,7 +307,7 @@ export async function applyConsultingCityLayers(routes) {
         localCompliance: erpProfiles[slug]?.localCompliance || suppCompliance[slug] || d.localCompliance || [],
       };
       const { html, answer } = renderConsultingLayer(city, dd);
-      if (acceptedAnswers.some((a) => shingleSimilarity(answer, a) > 0.55)) { out.skipped++; continue; }
+      if (!PUBLISHED_CITY_PAGES.has(path) && acceptedAnswers.some((a) => shingleSimilarity(answer, a) > 0.55)) { out.skipped++; continue; }
       acceptedAnswers.push(answer);
       const sectors = (dd.industries || []).slice(0, 2).join(', ');
 

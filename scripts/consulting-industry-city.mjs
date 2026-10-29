@@ -28,6 +28,7 @@
  * CLAUDE.md §18: no Atlantis price appears in any generated string.
  */
 import { shingleSimilarity } from './family-citation-layers.mjs';
+import { PUBLISHED_CITY_PAGES } from './published-city-pages.mjs';
 
 const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -246,7 +247,7 @@ export function buildConsultingIndustryCity(cityData, existingPaths, { gate = 0.
       if (out.routes.length >= limit) break;
 
       const { html, answer } = render(city, d, sec);
-      if (accepted.some((a) => shingleSimilarity(answer, a) > gate)) { out.skippedSimilar++; continue; }
+      if (!PUBLISHED_CITY_PAGES.has(path) && accepted.some((a) => shingleSimilarity(answer, a) > gate)) { out.skippedSimilar++; continue; }
       accepted.push(answer);
 
       // TITLE BUDGET — the city must survive truncation.
