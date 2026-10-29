@@ -3515,6 +3515,8 @@ GSC: the phrases in 64.2 by position on their owner page; titles showing in the 
 
 ## 65. NAS 410 removed from the site — ASNT Level III consulting and SNT-TC-1A-based training instead — 2026-10-28
 
+> ⚠️ **Corrected by §66 (owner, 2026-10-29).** The aerospace pages this section retired are back on new URLs, and the "customer aerospace requirements" wording below is withdrawn: aerospace and aviation get the same ASNT Level III consulting, SNT-TC-1A-based training and inspection as every other sector. Read §66 for the rule.
+
 Owner: "Lets remove NAS 410 word or NAS 410 based training and consulting form our website, keep ASNT level III consulting, and ASNT SNT_TC_1A based training instead, replace NAS 410 with this one. including in aviation industry pages."
 
 **🔴 STANDING RULE (supersedes the NAS 410 lines in §51.2, §57–§64 and the "NAS 410 via associate" arrangement):** the site names no NAS 410 anywhere — not as an offer, not through an associate, not as context. The offers are **ASNT NDT Level III consulting** and **ASNT SNT-TC-1A-based training**. Aerospace context is written as "customer aerospace requirements" or "the customer-specified aerospace standard", and nothing may say SNT-TC-1A satisfies a prime's requirement. Atlantis does not claim to hold an aerospace Responsible Level 3 designation; it provides the ASNT Level III consulting behind the role, and who may be designated is set by the customer. Nadcap AC7114, EN 4179, Part 145 and prime specs may still be named as context.
