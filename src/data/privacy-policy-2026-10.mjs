@@ -33,10 +33,15 @@ export const PP_CLASS = {
   ul: 'list-disc pl-6 space-y-2 text-muted-foreground leading-relaxed mb-4',
   link: 'text-primary underline underline-offset-2 break-words',
   strong: 'font-semibold text-foreground',
-  tableWrap: 'overflow-x-auto mb-4 rounded-lg border border-border',
-  table: 'w-full min-w-[34rem] text-sm text-left',
+  // Below md each row stacks as a labelled card (the cell's column name comes from
+  // data-label), so no column hides behind a horizontal scroll on a phone.
+  tableWrap: 'mb-4 rounded-lg border border-border overflow-hidden',
+  table: 'block md:table w-full text-sm text-left',
+  thead: 'hidden md:table-header-group',
+  tbody: 'block md:table-row-group',
+  tr: 'block md:table-row border-t border-border first:border-t-0 md:first:border-t',
   th: 'bg-secondary/50 px-3 py-2 font-semibold text-foreground align-top',
-  td: 'px-3 py-2 align-top text-muted-foreground border-t border-border',
+  td: 'block md:table-cell px-3 py-1 first:pt-3 last:pb-3 md:py-2 md:first:pt-2 md:last:pb-2 align-top text-muted-foreground before:content-[attr(data-label)] before:block before:text-xs before:font-semibold before:text-foreground md:before:content-none',
 };
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -70,10 +75,10 @@ function blockHtml(b) {
   if (b.ul) return `<ul class="${PP_CLASS.ul}">${b.ul.map((li) => `<li>${inlineHtml(li)}</li>`).join('')}</ul>`;
   if (b.table) {
     const { head, rows } = b.table;
-    return `<div class="${PP_CLASS.tableWrap}"><table class="${PP_CLASS.table}"><thead><tr>${head
+    return `<div class="${PP_CLASS.tableWrap}"><table class="${PP_CLASS.table}"><thead class="${PP_CLASS.thead}"><tr>${head
       .map((h) => `<th scope="col" class="${PP_CLASS.th}">${inlineHtml(h)}</th>`)
-      .join('')}</tr></thead><tbody>${rows
-      .map((r) => `<tr>${r.map((c) => `<td class="${PP_CLASS.td}">${inlineHtml(c)}</td>`).join('')}</tr>`)
+      .join('')}</tr></thead><tbody class="${PP_CLASS.tbody}">${rows
+      .map((r) => `<tr class="${PP_CLASS.tr}">${r.map((c, i) => `<td data-label="${esc(head[i])}" class="${PP_CLASS.td}">${inlineHtml(c)}</td>`).join('')}</tr>`)
       .join('')}</tbody></table></div>`;
   }
   throw new Error(`privacy-policy: unknown block ${JSON.stringify(b)}`);
