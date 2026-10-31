@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-29 (§66 — correction: aerospace and aviation pages kept, NAS 410 replaced by the ASNT offer (Level III consulting, SNT-TC-1A-based training, inspection): 21 retired pages restored on new URLs, ~40 aerospace units rewritten from the original, sitewide wording sweep, live city pages made sticky against the similarity gates; §65 — NAS 410 removed from the whole site: 22 URLs 301'd, ~430 files rewritten, aerospace/aviation pages hand-checked, preflight gate fails on any "NAS 410"; offers are ASNT Level III consulting + SNT-TC-1A-based training; §64 — indexation fixes (51 redirects, header + main on 116 bare pages, /api-inspection hub, Soft 404 / Not found validation started, IndexNow 93) and North American competitor keywords on owner pages: CTR wave 17 (30 titles + 2 in the wave 15 software meta), 18 guarded keyword sections carrying 89 phrases, 13 H1 synonyms, 3D scanning junk slugs 301'd; §63 — 10× traffic plan (Claude Doc) with GSC-sized bridge, authority found to be the binding constraint (≈12 relevant linking sites), wrong-page check on 9 money terms, Sprint 1: "NDT software" title/section, pipeline metal-loss depth, fired heater tube guide, method-training layout + Level 1/2/3; §62 — free Excel report templates + branded Level II practice PDFs with a custom-template quotation CTA, intent routing on ~3,160 reading pages, targeted US/Canada geo build: 10 inspection hubs + 61 researched depth blocks; §61 — Level III consulting section (6 topic pages on a shared service template, Services menu panel), API 580, IRATA, /training header + Buy Now, stale ISO 17020/17025 blog block removed; §60 — Inspection section: /inspection + 21 sub-pages in the site's design, Services mega menu with the Inspection submenu, regional inspection pages linked in; §59 — homepage first paint, owner decisions, Register & Buy Now to the portal, 3-button bar on 525 training pages, /ndt-training-faq, /snt-tc-1a-eligibility; §58 — US ranking release: one owner per product, 14 national Practical NDT simulator pages, Canada SNT-TC-1A offer, FAQ schema prune fix; §57 — NDT training upgrade for the Americas: practice tests, training pages, Canada; §52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
+**Last updated:** 2026-10-31 (§67 — /privacy-policy added, URL only: not in navigation, footer or any related-links block; one JSON for both layers; preflight check "Privacy policy is URL-only"; §66 — correction: aerospace and aviation pages kept, NAS 410 replaced by the ASNT offer (Level III consulting, SNT-TC-1A-based training, inspection): 21 retired pages restored on new URLs, ~40 aerospace units rewritten from the original, sitewide wording sweep, live city pages made sticky against the similarity gates; §65 — NAS 410 removed from the whole site: 22 URLs 301'd, ~430 files rewritten, aerospace/aviation pages hand-checked, preflight gate fails on any "NAS 410"; offers are ASNT Level III consulting + SNT-TC-1A-based training; §64 — indexation fixes (51 redirects, header + main on 116 bare pages, /api-inspection hub, Soft 404 / Not found validation started, IndexNow 93) and North American competitor keywords on owner pages: CTR wave 17 (30 titles + 2 in the wave 15 software meta), 18 guarded keyword sections carrying 89 phrases, 13 H1 synonyms, 3D scanning junk slugs 301'd; §63 — 10× traffic plan (Claude Doc) with GSC-sized bridge, authority found to be the binding constraint (≈12 relevant linking sites), wrong-page check on 9 money terms, Sprint 1: "NDT software" title/section, pipeline metal-loss depth, fired heater tube guide, method-training layout + Level 1/2/3; §62 — free Excel report templates + branded Level II practice PDFs with a custom-template quotation CTA, intent routing on ~3,160 reading pages, targeted US/Canada geo build: 10 inspection hubs + 61 researched depth blocks; §61 — Level III consulting section (6 topic pages on a shared service template, Services menu panel), API 580, IRATA, /training header + Buy Now, stale ISO 17020/17025 blog block removed; §60 — Inspection section: /inspection + 21 sub-pages in the site's design, Services mega menu with the Inspection submenu, regional inspection pages linked in; §59 — homepage first paint, owner decisions, Register & Buy Now to the portal, 3-button bar on 525 training pages, /ndt-training-faq, /snt-tc-1a-eligibility; §58 — US ranking release: one owner per product, 14 national Practical NDT simulator pages, Canada SNT-TC-1A offer, FAQ schema prune fix; §57 — NDT training upgrade for the Americas: practice tests, training pages, Canada; §52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -3673,3 +3673,41 @@ The restore alone did not settle the gates: four live URLs dropped out, and when
 - /snt-tc-1a-eligibility gives near-vision as "every 12 months", while the SNT-TC-1A regime record deliberately states no interval. Decide on one statement.
 - A few China and Australia blog lines say Atlantis "trains and certifies" to SNT-TC-1A. Under SNT-TC-1A the employer certifies.
 - The ERP city profiles still carry invented-looking case studies (see §59 owner items).
+
+
+---
+
+## 67. Privacy policy page, URL only — 2026-10-31
+
+Owner: "add a page atlantisndt.com/privacy-policy … use high quality content, draft a privacy policy, add it, do not show it in navigation or footer, just URL should exist."
+
+### 67.1 What exists
+- **/privacy-policy**: 15 sections, ~3,000 words. Indexable, self-canonical, in sitemap-core.xml (lastmod = effective date).
+- **One source:** `src/data/privacy-policy-2026-10.json`. Inline markup is limited to `**bold**` and `[label](href)`.
+- **One renderer:** `privacyArticleHtml()` in `src/data/privacy-policy-2026-10.mjs`. The React page (`src/pages/PrivacyPolicy.tsx`) and the crawler body (`scripts/privacy-policy-page.mjs`) both render that HTML string, so the two layers cannot drift. The .mjs is in tailwind `content`.
+- **Tables:** below `md` each row stacks as a labelled card (`data-label`), so no column hides behind a horizontal scroll on a phone.
+
+### 67.2 🔴 URL-only rule
+- No navigation or footer link, and no link from any page.
+- `seo-postpass.mjs` → `URL_ONLY_PAGES` keeps it out of orphan rescue in both directions. The first build had placed a "Related reading" block on the policy page and linked to it from 10 other pages.
+- The policy's Contact section links to /contact. That link also stops `writeRoute` appending the generic "Speak to an ASNT NDT Level III" sales block to a legal page.
+- **preflight block 4b: "Privacy policy is URL-only"** fails if any built page links to /privacy-policy or the page carries a related-reading block.
+- `keyword-links-2026-10.mjs` EXCLUDE and `GlobalEnquireCTA` SUPPRESSED already covered `/privacy-policy`.
+
+### 67.3 Facts it states (checked against the code 2026-10-31)
+**If any of these change, update the JSON.**
+- **Controller:** Atlantis Engineering Consultants LLC, with the addresses from about-2026-10.json.
+- **Contact forms:** EmailJS → the Microsoft 365 mailbox, with /api/contact as backup. Microsoft Forms (enquiry-endpoint.ts).
+- **Analytics:** GA4 G-XQZQGSF245, including the load-time bot signal. No ad or social pixels on the site.
+- **Third-party lookups and embeds:** ipwho.is city lookup, only on /ndt-training-near-me (useVisitorCity.ts). YouTube embeds use youtube-nocookie and load only after a click.
+- **Browser storage:** sessionStorage keys only (landing path, intent, lead magnet, satellite referral, visitor city).
+- **Hosting and payments:** Hostinger VPS hosts the site. Payment happens on portal.atlantisndt.com; the site collects no card data.
+- **Rights sections:** EEA/UK/Switzerland, US states (California categories), Canada (PIPEDA) and India (DPDP Act 2023, grievance contact).
+
+### 67.4 Owner items (not legal advice; confirm or amend)
+1. **No cookie consent banner.** GA4 sets `_ga` cookies for EU/UK visitors before any consent. Those laws expect opt-in for analytics cookies, so add a consent banner with Google Consent Mode before Europe (priority market 2) is pushed. The policy does not claim consent is collected.
+2. **Google signals / Google Ads linking in GA4.** The policy says nothing is sold or shared for cross-context behavioural advertising. If remarketing audiences are enabled, that statement and the US section need changing.
+3. **Retention periods** are drafted, not yet confirmed:
+   - enquiries: 24 months
+   - contracts and training records: normally up to 7 years
+4. **Portal payment provider** is not named. Add it if the owner wants it named.
