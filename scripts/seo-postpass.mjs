@@ -201,8 +201,12 @@ const CURATED_LABELS = {
   '/compliance/tssa-ontario': 'TSSA Compliance for Inspection Companies',
 };
 
+// 2026-10-31 (owner): /privacy-policy is reached by URL only. It never receives a
+// related-reading block and is never linked from another page's block.
+const URL_ONLY_PAGES = new Set(['/privacy-policy']);
+
 export function rescueOrphans(routes, { linksPerPage = 6 } = {}) {
-  const indexable = routes.filter((r) => !r.path.includes(':') && !r.path.includes('*') && !r.noindex && r.bodyContent);
+  const indexable = routes.filter((r) => !r.path.includes(':') && !r.path.includes('*') && !r.noindex && r.bodyContent && !URL_ONLY_PAGES.has(r.path));
   const byPath = new Map(indexable.map((r) => [r.path, r]));
 
   // Count inbound links from prerendered bodies only — that is what Google's

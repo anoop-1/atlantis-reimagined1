@@ -206,6 +206,14 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
   const HEDGE = /customer-specified aerospace standard|\bNANDTBs?\b/i;
   const hedged = files.filter((f) => HEDGE.test(readFileSync(f, 'utf-8'))).map(routeOf);
   add('Aerospace offer not hedged', hedged.length === 0, hedged.length ? `${hedged.length} pages: ${hedged.slice(0, 4).join(', ')}` : 'clean');
+  // 2026-10-31 (owner): /privacy-policy exists by URL only. No other page links to it
+  // (navigation, footer or any body block), and it carries no related-reading block.
+  const PP_FILE = join(DIST, 'privacy-policy', 'index.html');
+  const PP_LINK = /href="(?:https:\/\/atlantisndt\.com)?\/privacy-policy\/?["#?]/;
+  const ppLinkers = files.filter((f) => f !== PP_FILE && PP_LINK.test(readFileSync(f, 'utf-8'))).map(routeOf);
+  const ppExtras = existsSync(PP_FILE) && /class="related-pages"/.test(readFileSync(PP_FILE, 'utf-8'));
+  add('Privacy policy is URL-only', existsSync(PP_FILE) && ppLinkers.length === 0 && !ppExtras,
+    !existsSync(PP_FILE) ? 'not built' : ppLinkers.length ? `${ppLinkers.length} pages link to it: ${ppLinkers.slice(0, 4).join(', ')}` : ppExtras ? 'related-reading block on the page' : 'clean');
 }
 
 // ── 5. Sitemap integrity ─────────────────────────────────────────────────────
