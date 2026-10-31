@@ -1,0 +1,242 @@
+{
+  "_note": "2026-10-31 (owner): privacy policy at /privacy-policy, reachable by URL only. Never link it from the navigation or the footer. One source for both layers: src/pages/PrivacyPolicy.tsx (React) and scripts/privacy-policy-page.mjs (crawler HTML) both render this file. Inline markup: **bold** and [label](href) only. Every statement about data handling was checked against the code on 2026-10-31 (GA4 G-XQZQGSF245 in index.html; EmailJS + /api/contact backup in the forms; Microsoft Forms in src/lib/enquiry-endpoint.ts; ipwho.is in src/hooks/useVisitorCity.ts; sessionStorage keys in src/lib/enquiry-analytics.ts, lead-magnets.ts, satellite-referral.ts; youtube-nocookie facade in ProductVideoBlock.tsx). If any of those change, update this file.",
+  "path": "/privacy-policy",
+  "title": "Privacy Policy | Atlantis NDT",
+  "description": "How Atlantis NDT collects, uses, shares and protects personal information from enquiries, forms and website analytics, and the privacy rights you have.",
+  "h1": "Privacy Policy",
+  "effectiveDate": "2026-10-31",
+  "effectiveLabel": "31 October 2026",
+  "updatedLabel": "31 October 2026",
+  "intro": [
+    "This policy explains what personal information Atlantis NDT collects when you use atlantisndt.com or contact us, why we collect it, who we share it with, how long we keep it and the choices and rights you have. We have written it in plain language. If anything is unclear, email [info@atlantisndt.com](mailto:info@atlantisndt.com) and we will explain."
+  ],
+  "summaryHeading": "The short version",
+  "summary": [
+    "We collect what you send us through our forms, emails and calls, plus usage statistics from Google Analytics.",
+    "We use it to answer your enquiry, prepare quotes, deliver our training, consulting, inspection and software services, and improve the website.",
+    "We do not sell your personal information, and this website loads no advertising or social-media tracking pixels.",
+    "You can ask us at any time to show you, correct or delete the information we hold about you."
+  ],
+  "sections": [
+    {
+      "id": "who-we-are",
+      "heading": "1. Who we are",
+      "blocks": [
+        { "p": "Atlantis NDT is the trading name of **Atlantis Engineering Consultants LLC**, based in Houston, Texas, USA, with an office in Hyderabad, India. Atlantis Engineering Consultants LLC decides how and why the personal information described in this policy is used, which makes it the \"controller\" (or \"data fiduciary\") of that information. In this policy, \"Atlantis NDT\", \"we\", \"us\" and \"our\" mean Atlantis Engineering Consultants LLC." },
+        { "ul": [
+          "**Houston, USA:** 700 Smith St #61070, SMB#52788, Houston, Texas, USA",
+          "**Hyderabad, India:** 5-68/48-132, Hyderabad-500078, India",
+          "**Email:** [info@atlantisndt.com](mailto:info@atlantisndt.com)",
+          "**Phone:** [+1 (281) 840-8969](tel:+12818408969)"
+        ] }
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "2. What this policy covers",
+      "blocks": [
+        { "p": "This policy applies to atlantisndt.com and its pages, to the enquiry and resource-request forms on it, to our enquiry form hosted on Microsoft Forms, and to the emails, calls and messages you exchange with us about our services." },
+        { "p": "**Course registration and payment.** Registration, payment and course access take place on [portal.atlantisndt.com](https://portal.atlantisndt.com). Payment card details entered there are handled by the portal's payment provider; this website does not collect payment card details. We use the information you give us through the portal for the purposes described in this policy, such as giving you access to your course and keeping your training records." },
+        { "p": "**When we act for our clients.** When we work on an employer's NDT certification programme, written practice or audit, we may handle that employer's personnel records, such as training hours, experience logs, examination results and vision examination results, on the employer's behalf and under its instructions. In that role the employer decides how those records are used and its own privacy notice applies. We keep such records confidential and use them only to do the work we were engaged for." },
+        { "p": "**Other websites.** Our pages link to other organisations' websites, such as standards bodies, certification bodies and YouTube. Those websites have their own privacy policies and we are not responsible for how they handle information." }
+      ]
+    },
+    {
+      "id": "information-we-collect",
+      "heading": "3. Information we collect",
+      "blocks": [
+        { "h3": "Information you give us" },
+        { "ul": [
+          "**Contact and enquiry forms:** your name, email address, phone number, company, country or location, the service you are interested in, and what you tell us about your needs, for example the methods and levels, number of trainees, asset type, governing code, scope and timing.",
+          "**Free resources:** when you request a resource such as a practice exam or a written-practice gap check, your name, email address, employer or company, and the methods, levels or number of technicians it should cover.",
+          "**Our Microsoft Forms enquiry form:** the answers you choose to give.",
+          "**Correspondence:** what you send us by email, phone or message, and our notes of calls with you.",
+          "**Customers and course participants:** the information we need to deliver what you have bought, such as participant names, course progress and completion records, and billing and contact details."
+        ] },
+        { "p": "Please do not send sensitive information, such as health information or government identification numbers, through our website forms. If a service genuinely needs it, we will tell you how to provide it securely." },
+        { "h3": "Information collected automatically" },
+        { "ul": [
+          "**Usage statistics (Google Analytics):** the pages you visit, how you arrived (for example from a search engine, another website or a campaign link), the links, buttons, forms, downloads and videos you interact with, your device type, browser, operating system, screen size and language, and an approximate location (city, region and country) worked out from your IP address. Google states that Google Analytics 4 does not log or store IP addresses.",
+          "**Automated-traffic check:** when a page loads, the site checks a few technical browser signals, for example whether the browser reports that it is being automated or reports a blank screen size, so that bots can be kept out of our statistics. The result is sent to Google Analytics with the visit. It is not used to identify you.",
+          "**Server logs:** our web server records each request it receives, including the IP address, date and time, the page requested, the referring page and the browser's user-agent string. We use these logs to keep the site running and secure.",
+          "**Approximate city:** our NDT-training-near-you page addresses you by your nearest city. Your browser first estimates it from its time-zone setting and may then ask the ipwho.is location service, which uses your IP address to return an approximate city. The result is kept in your browser for that session only; we do not store it on our servers.",
+          "**Visit context:** during a visit the site keeps a few values in your browser's session storage: the page you landed on, the service you were reading about, a free resource you chose and, if you followed a link from one of our other websites, which one. This lets an enquiry reach us with its context. Session storage is cleared when you close the tab or browser."
+        ] },
+        { "h3": "Information from other sources" },
+        { "ul": [
+          "**Your employer or a colleague**, when they enrol you on a course or name you as a contact for a project.",
+          "**Public professional sources**, such as company websites and professional networking profiles, when we research a business we think may be interested in our services. We use only business contact details found this way."
+        ] }
+      ]
+    },
+    {
+      "id": "how-we-use",
+      "heading": "4. How we use information",
+      "blocks": [
+        { "p": "The table shows what we use personal information for and, for visitors in the European Economic Area, the United Kingdom and Switzerland, the legal basis we rely on." },
+        { "table": {
+          "head": ["Purpose", "Information used", "Legal basis"],
+          "rows": [
+            ["Answer your enquiry and prepare a quote", "Contact and enquiry details, correspondence", "Steps you asked us to take before a contract; our legitimate interest in responding to business enquiries"],
+            ["Deliver training, consulting, inspection and software services, and keep records of them", "Customer and participant information, correspondence", "Performance of a contract; legal obligation for records we must keep"],
+            ["Follow up by phone or email on an enquiry you made", "Contact details and enquiry", "Our legitimate interest in converting enquiries into work; you can ask us to stop at any time"],
+            ["Send occasional information about our services to business contacts", "Name, business email address, company", "Our legitimate interest, or your consent where local law requires it; every message lets you opt out"],
+            ["Understand how the website is used and improve it", "Usage statistics", "Our legitimate interest in running and improving our website"],
+            ["Keep the website and our systems secure and filter out automated traffic", "Server logs, automated-traffic check", "Our legitimate interest in security"],
+            ["Meet legal obligations, resolve disputes and enforce our terms", "Any relevant information", "Legal obligation; our legitimate interest in protecting our rights"]
+          ]
+        } },
+        { "p": "Where we rely on legitimate interests, we have weighed them against your rights and expectations, and you can object at any time (see [Your privacy rights](#your-rights))." },
+        { "p": "We do not make decisions about you based solely on automated processing that produce legal or similarly significant effects for you." }
+      ]
+    },
+    {
+      "id": "cookies",
+      "heading": "5. Cookies and similar technologies",
+      "blocks": [
+        { "p": "Cookies are small files a website stores in your browser; session storage works in a similar way but is cleared when you close the tab or browser. This website uses the following:" },
+        { "table": {
+          "head": ["Name", "Set by", "Purpose", "How long it lasts"],
+          "rows": [
+            ["_ga", "Google Analytics", "Distinguishes visitors so visits can be counted", "2 years"],
+            ["_ga_<ID>", "Google Analytics", "Keeps track of the current visit", "2 years"],
+            ["atlantis-landing-path and related visit-context values", "atlantisndt.com (session storage)", "Pass the context of your visit into an enquiry", "Until you close the tab or browser"],
+            ["atlantis:visitor-city:v1", "atlantisndt.com (session storage)", "Remembers your approximate city for page headings", "Until you close the tab or browser"]
+          ]
+        } },
+        { "p": "**Videos.** Where a page has a video, it is embedded in YouTube's privacy-enhanced mode (youtube-nocookie.com) and nothing loads from YouTube until you press play. Once you do, YouTube may set cookies or similar storage under [Google's privacy policy](https://policies.google.com/privacy)." },
+        { "p": "**Your choices.** You can block or delete cookies in your browser settings, and you can stop Google Analytics from collecting data about your visits with Google's [opt-out browser add-on](https://tools.google.com/dlpage/gaoptout). The website works without cookies. To learn how Google uses information from sites that use its services, see [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites)." }
+      ]
+    },
+    {
+      "id": "sharing",
+      "heading": "6. Who we share information with",
+      "blocks": [
+        { "p": "We share personal information only with the service providers that help us run our business, under terms that limit how they may use it, and with others where the law requires. Our service providers are:" },
+        { "ul": [
+          "**Google:** Google Analytics (usage statistics) and YouTube (videos, only after you press play).",
+          "**Microsoft:** Microsoft 365, where our email, enquiries and correspondence are held, and Microsoft Forms, which hosts our enquiry form.",
+          "**EmailJS:** delivers contact-form submissions from your browser to our mailbox. If EmailJS is unavailable, the form sends your submission through our own web server instead.",
+          "**Hostinger:** hosts the server that runs atlantisndt.com and its logs.",
+          "**ipwho.is:** returns an approximate city for our NDT-training-near-you page.",
+          "**The payment provider on portal.atlantisndt.com:** processes course payments."
+        ] },
+        { "p": "We may also share personal information:" },
+        { "ul": [
+          "with your employer, if your employer arranged or paid for your training, limited to your attendance, progress and completion records;",
+          "with professional advisers, such as accountants, auditors and lawyers, who are bound by confidentiality;",
+          "with courts, regulators, law enforcement or other authorities where the law requires it, or where it is needed to protect the rights, property or safety of Atlantis NDT, our customers or others;",
+          "with a buyer or successor if our business is reorganised, merged or sold, on the condition that it continues to protect the information as this policy describes."
+        ] },
+        { "p": "**We do not sell personal information**, and we do not rent or trade mailing lists." }
+      ]
+    },
+    {
+      "id": "transfers",
+      "heading": "7. International transfers",
+      "blocks": [
+        { "p": "We are based in the United States, we have an office in India, and our service providers process information in several countries. Your information may therefore be transferred to, stored in and accessed from countries other than your own, including the United States and India, whose data protection laws may differ from those where you live." },
+        { "p": "Where the law requires it, these transfers are protected by recognised safeguards, such as the European Commission's Standard Contractual Clauses (with the UK addendum) offered by our providers, or a provider's certification under the EU-U.S. Data Privacy Framework and its UK and Swiss extensions." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "8. How long we keep information",
+      "blocks": [
+        { "p": "We keep personal information only for as long as we need it for the purposes in this policy:" },
+        { "ul": [
+          "**Enquiries that do not lead to work:** up to 24 months after our last contact with you, then deleted.",
+          "**Customer, contract and invoicing records:** for the length of our relationship and afterwards for as long as tax, accounting and other legal requirements oblige us, normally up to seven years.",
+          "**Training records** (enrolment, progress and completion): for as long as they may be needed as evidence of your training, normally up to seven years after completion, unless you ask us to delete them sooner and no legal obligation requires us to keep them.",
+          "**Google Analytics data:** event-level data is kept for the retention period set in our account, which is no longer than 14 months; aggregated reports that do not identify you may be kept longer.",
+          "**Server logs:** for a limited period for security and troubleshooting, then deleted or overwritten.",
+          "**Marketing opt-outs:** we keep your email address on a suppression list so that we can respect your choice."
+        ] }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "9. How we protect information",
+      "blocks": [
+        { "p": "Every page of atlantisndt.com is served over HTTPS, so what you type into our forms is encrypted on its way to us. Access to enquiries and customer records is limited to the people who need it for their work, and the business accounts that hold them are protected by passwords and access controls." },
+        { "p": "No method of transmitting or storing information is completely secure, so we cannot guarantee absolute security. If a breach affects your personal information, we will notify you and the relevant authorities where the law requires." }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "heading": "10. Your privacy rights",
+      "blocks": [
+        { "p": "Wherever you live, you can ask us to:" },
+        { "ul": [
+          "tell you what personal information we hold about you and give you a copy of it;",
+          "correct information that is wrong or incomplete;",
+          "delete your information;",
+          "stop sending you marketing, at any time and without giving a reason;",
+          "stop or limit a particular use of your information, or object to a use based on our legitimate interests;",
+          "give you the information you provided in a portable, machine-readable format;",
+          "withdraw any consent you have given, without affecting what we did before you withdrew it."
+        ] },
+        { "p": "**How to make a request.** Email [info@atlantisndt.com](mailto:info@atlantisndt.com) with \"Privacy request\" in the subject line, or call [+1 (281) 840-8969](tel:+12818408969). To protect your information we may ask you to confirm your identity, usually by replying from the email address we hold. We aim to acknowledge requests within one business day and to complete them within one month. If a request is complex we may extend this where the law allows, and we will tell you why. There is normally no charge." },
+        { "p": "Some rights have legal limits. For example, we may need to keep records that the law requires us to keep. If a limit applies, we will explain it." }
+      ]
+    },
+    {
+      "id": "regional",
+      "heading": "11. Additional information for your region",
+      "blocks": [
+        { "h3": "European Economic Area, United Kingdom and Switzerland" },
+        { "p": "You have the rights listed in section 10 under the GDPR, the UK GDPR and the Swiss Federal Act on Data Protection. You can also complain to the data protection authority where you live or work, or where you think a breach happened; in the UK this is the Information Commissioner's Office ([ico.org.uk](https://ico.org.uk)). We would appreciate the chance to resolve your concern first." },
+        { "h3": "United States" },
+        { "p": "Residents of California and of other US states with consumer privacy laws may have the right to know what personal information we collect, use and disclose; to access, correct and delete it; to opt out of its sale, of its sharing for cross-context behavioural advertising, and of targeted advertising and profiling; and not to be treated differently for exercising these rights." },
+        { "p": "In the past 12 months we have collected the following categories of personal information, from the sources described in section 3, for the purposes in section 4, and disclosed each of them for business purposes to the service providers in section 6:" },
+        { "ul": [
+          "**Identifiers:** name, email address, phone number, IP address.",
+          "**Professional or employment information:** employer, role, methods and levels, training records.",
+          "**Commercial information:** the services you asked about or bought.",
+          "**Internet or other electronic network activity:** website usage statistics.",
+          "**Approximate geolocation:** city, region and country worked out from your IP address."
+        ] },
+        { "p": "We do not sell personal information or share it for cross-context behavioural advertising, and we do not use sensitive personal information to infer characteristics about you. You may make a request yourself or through an authorised agent, in which case we may ask for proof of the agent's authority. If we decline a request, you may appeal by replying to our decision; if we refuse your appeal, you may contact your state attorney general." },
+        { "h3": "Canada" },
+        { "p": "Under the Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial laws, you may access and correct your personal information and withdraw your consent, subject to legal and contractual limits. If you are not satisfied with our response, you may complain to the Office of the Privacy Commissioner of Canada ([priv.gc.ca](https://www.priv.gc.ca))." },
+        { "h3": "India" },
+        { "p": "Under the Digital Personal Data Protection Act, 2023, you may ask for a summary of the personal data we process about you and with whom we have shared it; ask us to correct, complete, update or erase it; have a grievance addressed; and nominate another person to exercise your rights if you die or become incapacitated. Send grievances to [info@atlantisndt.com](mailto:info@atlantisndt.com) with \"Grievance\" in the subject line. If we do not resolve your grievance, you may approach the Data Protection Board of India." },
+        { "h3": "Elsewhere" },
+        { "p": "If the law where you live gives you other rights over your personal information, contact us and we will honour them." }
+      ]
+    },
+    {
+      "id": "children",
+      "heading": "12. Children",
+      "blocks": [
+        { "p": "Our website and services are intended for adults working in, or training for, industrial and engineering roles. They are not directed at children, and we do not knowingly collect personal information from anyone under 18. If you believe a child has sent us personal information, contact us and we will delete it." }
+      ]
+    },
+    {
+      "id": "signals",
+      "heading": "13. Do Not Track and Global Privacy Control",
+      "blocks": [
+        { "p": "There is no agreed standard for browser Do Not Track signals, and this website does not respond to them. If your browser sends a Global Privacy Control signal, we treat it as a request to opt out of any sale or sharing of your personal information. As explained above, we do not sell or share personal information in that sense." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "14. Changes to this policy",
+      "blocks": [
+        { "p": "We may update this policy as our website, services or the law change. The \"Last updated\" date at the top of this page shows when it last changed. If a change is significant, we will make it clear on this page and, where appropriate, tell our customers directly." }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "15. Contact us",
+      "blocks": [
+        { "p": "For questions, requests or complaints about this policy or about how we handle personal information, contact:" },
+        { "ul": [
+          "**Email:** [info@atlantisndt.com](mailto:info@atlantisndt.com) (subject line \"Privacy\")",
+          "**Phone:** [+1 (281) 840-8969](tel:+12818408969)",
+          "**Post:** Atlantis Engineering Consultants LLC, 700 Smith St #61070, SMB#52788, Houston, Texas, USA"
+        ] }
+      ]
+    }
+  ]
+}

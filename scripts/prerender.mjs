@@ -88,6 +88,7 @@ import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './
 import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats } from './software-owners-2026-10.mjs'; // 2026-10-18 software: /ndt-inspection-software product page (last body writer, one JSON for both layers)
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
+import { privacyPolicyRoute } from './privacy-policy-page.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
@@ -10086,6 +10087,7 @@ routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (s
 routes.push(...consultingSectionRoutes()); // 2026-10-19: Level III consulting topic pages (scripts/consulting-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
+routes.push(privacyPolicyRoute()); // 2026-10-31: /privacy-policy (scripts/privacy-policy-page.mjs); not linked from navigation or footer
 routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
@@ -12736,6 +12738,7 @@ function getLastmodForPath(path, index = 0) {
   }
 
   // Static pages (about, FAQ, contact): 2026-02-15
+  if (path === '/privacy-policy') return '2026-10-31'; // policy effective date (src/data/privacy-policy-2026-10.json)
   if (['/about', '/faq', '/contact', '/privacy', '/terms'].includes(path)) {
     return '2026-02-15';
   }
@@ -12749,7 +12752,7 @@ function getLastmodForPath(path, index = 0) {
 function categorizeRoute(path) {
   // Categorize routes for sitemap distribution
   if (path === '/' || path === '/about' || path === '/faq' || path === '/contact' ||
-      path === '/privacy' || path === '/terms' || path === '/services') {
+      path === '/privacy' || path === '/privacy-policy' || path === '/terms' || path === '/services') {
     return 'core';
   }
   if (path.startsWith('/blog/')) return 'blog';
