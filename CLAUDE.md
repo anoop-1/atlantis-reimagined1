@@ -3704,6 +3704,10 @@ Owner: "add a page atlantisndt.com/privacy-policy … use high quality content, 
 - **Hosting and payments:** Hostinger VPS hosts the site. Payment happens on portal.atlantisndt.com; the site collects no card data.
 - **Rights sections:** EEA/UK/Switzerland, US states (California categories), Canada (PIPEDA) and India (DPDP Act 2023, grievance contact).
 
+### 67.3a Status
+**Not deployed.** Committed on `release-2026-10-24` (abff5ce5 … 808d9af9).  
+Owner, 2026-11-02: "deploy it along with next SEO deployment". The next push of the release branch to main carries it; verify /privacy-policy returns 200 live and that preflight still shows "Privacy policy is URL-only" PASS.
+
 ### 67.4 Owner items (not legal advice; confirm or amend)
 1. **No cookie consent banner.** GA4 sets `_ga` cookies for EU/UK visitors before any consent. Those laws expect opt-in for analytics cookies, so add a consent banner with Google Consent Mode before Europe (priority market 2) is pushed. The policy does not claim consent is collected.
 2. **Google signals / Google Ads linking in GA4.** The policy says nothing is sold or shared for cross-context behavioural advertising. If remarketing audiences are enabled, that statement and the US section need changing.
