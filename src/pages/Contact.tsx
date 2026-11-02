@@ -321,7 +321,7 @@ export default function Contact() {
                         `Service: ${formData.service || "(not selected)"}\n\n` +
                         (detailLines ? `Details:\n${detailLines}\n\n` : "") +
                         `Message:\n${formData.message}`,
-                     subject: `[${pipeline}] Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
+                     subject: `[${pipeline}] ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
                      to_email: "info@atlantisndt.com",
                   },
                   { publicKey },
@@ -338,7 +338,7 @@ export default function Contact() {
             const res = await fetch("/api/contact", {
                method: "POST",
                headers: { "Content-Type": "application/json" },
-               body: JSON.stringify({ ...formData, details: `Pipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\n${detailLines}`, subject: `[${pipeline}] Contact form`, enquiryId, ...context, form_id: "contact" }),
+               body: JSON.stringify({ ...formData, details: `Pipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\n${detailLines}`, subject: `[${pipeline}] ${`${formData.firstName} ${formData.lastName}`.trim()}`, enquiryId, ...context, form_id: "contact" }),
             });
             const result = await res.json().catch(() => ({} as any));
             if (!res.ok || !result?.ok || !result?.enquiryId) {

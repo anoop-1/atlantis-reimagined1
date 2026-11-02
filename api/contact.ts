@@ -19,10 +19,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     company = '',
     service = '',
     message = '',
-    website = '', enquiryId: requestedId = '', target_region = '', landing_path = '', page_path = '', form_id = 'contact',
+    website = '', enquiryId: requestedId = '', target_region = '', landing_path = '', page_path = '', form_id = 'contact', subject: requestedSubject = '',
   } = (req.body ?? {}) as Record<string, string>;
 
-  const fields = [firstName,lastName,email,phone,company,service,message,website,requestedId,target_region,landing_path,page_path,form_id];
+  const fields = [firstName,lastName,email,phone,company,service,message,website,requestedId,target_region,landing_path,page_path,form_id,requestedSubject];
   if (fields.some(value => typeof value !== 'string')) return res.status(400).json({ error: 'Invalid field type' });
   if (website) return res.status(400).json({ error: 'Submission rejected' });
   if (fields.some(value => value.length > 5000)) return res.status(400).json({ error: 'Field too long' });
@@ -63,7 +63,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const transport = nodemailer.createTransport(transportOptions);
 
-  const subject = `Contact form: ${firstName} ${lastName}${service ? ` — ${service}` : ''}`;
+  // Subject is "[PIPELINE] Name (Company) — Service" (owner, 2026-11-02): the tag leads, no "Contact form:" filler.
+  const subject = /^\[[A-Z0-9-]+\] /.test(requestedSubject)
+    ? requestedSubject.replace(/[\r\n]+/g, ' ').slice(0, 200)
+    : `[GENERAL] ${firstName} ${lastName}${company ? ` (${company})` : ''}${service ? ` — ${service}` : ''}`.replace(/\s+/g, ' ').trim();
   const text =
     `New contact form submission from atlantisndt.com\n\n` + context +
     `Name: ${firstName} ${lastName}\n` +
