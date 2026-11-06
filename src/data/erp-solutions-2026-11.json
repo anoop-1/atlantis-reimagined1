@@ -1,0 +1,1556 @@
+{
+ "hub": {
+  "title": "Problems We Solve for NDT Inspection Companies | Atlantis NDT",
+  "description": "Expired certifications, overdue calibration, late reports, unbilled work: the problems NDT inspection companies face, and how one platform removes them.",
+  "h1": "The problems inspection companies bring to us, and how the platform removes them",
+  "answer": "Most trouble in running an NDT inspection company comes from records kept in different places: certifications in one spreadsheet, calibration in another, reports in email and billing in accounting. Pick the problem you recognise. Each guide shows the workflow that removes it and the modules that do the work.",
+  "listHeading": "Pick the problem you recognise",
+  "paragraphs": [
+   "These guides are written for owners, operations managers and quality managers of inspection companies. Each one starts with the symptoms you see on a normal week, shows what the problem costs when it is left alone, and then walks through how the work runs once certifications, equipment, jobs, reports and invoices live in one system.",
+   "None of them claims software makes a technician competent or replaces a Level III. What it does is make the evidence complete, current and easy to find, so that people spend their time on inspection instead of chasing paperwork."
+  ],
+  "dashboardTab": "certifications"
+ },
+ "pages": [
+  {
+   "slug": "expired-technician-certifications",
+   "title": "Technician Certification Expired Before the Audit?",
+   "description": "A technician's cert or eye test lapsed and nobody saw it until the client did. Why NDT certifications slip, what it costs, and how to catch expiries in time.",
+   "h1": "When a technician's certification expires before anyone notices",
+   "eyebrow": "Certification control",
+   "primaryQuery": "technician certification expired before audit",
+   "answer": "Certifications lapse unnoticed because expiry dates sit in spreadsheets, PDFs and wallets that nobody reviews daily. The fix is one record per technician, method and scheme, with status worked out from the dates, warning tasks raised well before expiry, and a timesheet warning if anyone logs hours on a lapsed cert. A Level III still decides recertification.",
+   "problem": {
+    "headline": "Why certification lapses slip through in NDT companies",
+    "paragraphs": [
+     "The pattern is familiar. A Level II UT technician is on a unit during a turnaround when the client's QA reviewer asks for his qualification pack. The certificate is fine; the near-vision exam ran out a few weeks ago. He is stood down, the crew is short, and the operations manager spends the evening on the phone. Nobody was careless. The date was simply in a place nobody happened to be looking that week.",
+     "Certification data in most inspection companies is spread across a QA spreadsheet, scanned certificates in a shared drive, eye-test cards in technicians' wallets and the Level III's memory of who sat which exam. Each source is right on its own. The trouble is that no single source raises its hand when a date approaches, and the people who build crews are rarely the people who keep the records.",
+     "It gets worse as the roster grows. Technicians hold several methods at different levels, some under your SNT-TC-1A written practice and some under CP-189 or a client-specific scheme, each with its own cycle. Vision tests usually run on a shorter rhythm than certificates. Add a busy season and a manual tracker stops being a control and becomes a hope."
+    ],
+    "symptoms": [
+     {
+      "t": "Eye tests on paper",
+      "d": "Vision results live on cards or clinic emails, so a valid certificate can sit beside a lapsed near-vision exam without anyone seeing the mismatch."
+     },
+     {
+      "t": "One spreadsheet guardian",
+      "d": "Expiry tracking depends on the QA manager remembering to sort a sheet, and it stops entirely while she is on leave or on an audit."
+     },
+     {
+      "t": "Gate-side surprises",
+      "d": "Clients find the lapsed document during pre-mobilisation checks or at the site gate, the most expensive moment to discover it."
+     },
+     {
+      "t": "Mixed schemes, one column",
+      "d": "In-house, CP-189 and client qualifications carry different validity rules that a single expiry column cannot represent honestly."
+     },
+     {
+      "t": "Reports signed regardless",
+      "d": "Hours get logged and reports get signed by someone whose method certification had already run out, and it only surfaces at audit."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What a missed expiry actually costs",
+    "items": [
+     {
+      "t": "Stood-down technicians",
+      "d": "A technician removed from site leaves the crew short, pushes the schedule and often means bringing in a replacement at your own expense."
+     },
+     {
+      "t": "Reports under question",
+      "d": "Work signed by someone whose certification had lapsed may have to be re-examined or re-issued, and the client is entitled to ask for that."
+     },
+     {
+      "t": "Audit findings",
+      "d": "Auditors sample a report and ask for the examiner's qualification on that date. A gap there is a finding against your written practice, not a paperwork slip."
+     },
+     {
+      "t": "Vendor-list risk",
+      "d": "Repeated lapses tell a client your quality system is not controlling people, and approved-vendor status is harder to win back than to keep."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Make expiry dates raise the alarm on their own",
+    "paragraphs": [
+     "In Atlantis NDT ERP, each certification is its own record on the technician's employee file: scheme, level, method, certifying body, issue and expiry dates, OJT and training hours, exam result and the scanned certificate. Status is computed from the dates, so a record moves from active to expiring soon to expired without anyone ticking a box. Vision tests are separate records holding near, far, colour and contrast results, the examiner, the clinic and the file.",
+     "A daily check raises a warning task for each certificate and vision test approaching expiry and assigns it to the person responsible, so renewal becomes planned work rather than a rescue. Email alerts go to the recipients you choose, with your own look-ahead and a resend interval so an ignored reminder comes back. If hours are still logged against a technician whose certificate is not valid, the timesheet shows a warning before those hours are approved and billed.",
+     "What the software does not do is decide competence. Recertification, the examination and any decision to revoke stay with your Level III under your written practice. A certificate check inside the dispatch step itself is not standard; it can be added as part of an agreed customization, and until then planners read status from the technician profile and the expiring list."
+    ],
+    "steps": [
+     {
+      "t": "Load every certificate",
+      "d": "Existing registers are imported technician by technician, with each method recorded separately and the scanned certificate attached to the right record."
+     },
+     {
+      "t": "Set scheme templates",
+      "d": "For each scheme you use, a template fixes validity, whether a vision test and exam are required, and the minimum OJT and training hours."
+     },
+     {
+      "t": "Work the morning lists",
+      "d": "The QA manager opens the Expiring Soon and Expired menus each day and closes warning tasks by booking exams and eye tests."
+     },
+     {
+      "t": "Route the alerts",
+      "d": "Daily emails go to QA and operations for technician certificates, and separately to whoever owns the company's own accreditations."
+     },
+     {
+      "t": "Catch the last miss",
+      "d": "The timesheet warning flags hours logged on an invalid certificate while the job is live, so the technician can be swapped before the report goes out."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "certificates",
+     "why": "Holds each certification and vision test with computed status, warning tasks and configurable email alerts."
+    },
+    {
+     "app": "employees",
+     "why": "Carries the NDT profile, including highest level, methods held, radiation badge and medical fitness expiry, on the same record."
+    },
+    {
+     "app": "timesheets",
+     "why": "Warns when hours are logged for a technician whose certificate is not valid, before approval and billing."
+    },
+    {
+     "app": "dashboards",
+     "why": "Counts certificates expiring and expired so managers see the position without opening a list."
+    }
+   ],
+   "dashboardTab": "certifications",
+   "beforeAfter": [
+    {
+     "before": "Expiry dates in a spreadsheet, sorted when someone remembers.",
+     "after": "Status computed every day from the dates on each certification record."
+    },
+    {
+     "before": "Eye-test cards carried in wallets and photographed on request.",
+     "after": "Vision tests stored as their own records with clinic, results and file."
+    },
+    {
+     "before": "The client finds the lapsed document at pre-mobilisation.",
+     "after": "A warning task reaches the responsible person well before the date."
+    },
+    {
+     "before": "Hours on a lapsed cert discovered after invoicing.",
+     "after": "A timesheet warning raised while the job is still running."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How do we stop NDT certifications expiring without anyone noticing?",
+     "a": "Move every certification and vision test onto structured records whose status is worked out from the dates, then let daily warning tasks and email alerts reach named people well before expiry. The resend interval matters: one ignored email should not be the end of the reminder."
+    },
+    {
+     "q": "Does the system prevent a technician with an expired cert from being dispatched?",
+     "a": "Not by default. Team Assignments blocks double-booking and warns on out-of-calibration equipment, and Timesheets warns when hours are logged on an invalid certificate. A certification check built into the dispatch step can be added as agreed customization."
+    },
+    {
+     "q": "Can one technician hold certifications under different schemes?",
+     "a": "Yes. Each certification is a separate record with its own scheme, level, method, certifying body and dates, so an in-house SNT-TC-1A certificate and a CP-189 or client-specific qualification sit side by side, each with its own status."
+    },
+    {
+     "q": "Who decides recertification?",
+     "a": "Your Level III, under your written practice. The software records exam sheets, OJT and training hours and flags what is due, but it does not judge whether a technician is competent or sign anyone off."
+    },
+    {
+     "q": "Can we try it with our own technicians?",
+     "a": "Yes. Send the schemes and methods your people hold and we will show them in the Certificates app with expiry lists and alerts configured. Pricing is quote on request, and a free trial is available."
+    }
+   ],
+   "related": [
+    "/erp/ndt-personnel-certification-tracking",
+    "/erp/ndt-certificates-management-software",
+    "/erp/audit-preparation-software-inspection-firms",
+    "/erp/apps/certificates"
+   ]
+  },
+  {
+   "slug": "equipment-past-calibration",
+   "title": "NDT Equipment Used Past Its Calibration Date?",
+   "description": "An instrument went to site with a lapsed calibration and reports now hang on it. How it happens, what it costs, and how to catch it before the crew mobilises.",
+   "h1": "When an instrument goes to site past its calibration date",
+   "eyebrow": "Calibration control",
+   "primaryQuery": "ndt equipment used past calibration date",
+   "answer": "Out-of-calibration instruments reach site because the calibration list and the issue counter live apart. Track each flaw detector, probe, yoke, meter and reference block by serial number with its certificate and due date, warn the planner when a lapsed unit is assigned, and filter timesheets by serial to trace the jobs it touched.",
+   "problem": {
+    "headline": "How lapsed instruments end up on inspection jobs",
+    "paragraphs": [
+     "Calibration rarely fails in the lab. It fails at the issue counter. The equipment coordinator keeps a calibration list, the storeman hands out kit from the shelf, and the crew leader grabs a spare thickness gauge from the truck on the way out. If the list and the shelf are not the same record, a flaw detector with a lapsed certificate leaves the building looking exactly like one that is current.",
+     "The gaps multiply with the inventory. Probes and wedges get swapped between kits. UV-A meters, light meters and densitometers carry certificates nobody thinks about until a PT or RT auditor asks. Calibration blocks and step wedges are treated as furniture. Rented units arrive with paperwork that goes into an inbox, and a conditional result with a range limitation is noted on a PDF that nobody re-reads.",
+     "Then the question arrives from a client or a third-party inspector: show me that this serial was within calibration on the date of this report, and who calibrated it. If answering means opening email threads and asking technicians what they carried, the problem is not the lab. It is that the instrument's history is not kept in one place."
+    ],
+    "symptoms": [
+     {
+      "t": "Sticker checks at the gate",
+      "d": "The client's inspector spots an expired label on site before your own office does, and the crew waits while a replacement is found."
+     },
+     {
+      "t": "Certificates in inboxes",
+      "d": "Calibration certificates arrive by email from the lab and get filed wherever the recipient happens to put them."
+     },
+     {
+      "t": "Ancillary kit forgotten",
+      "d": "Light meters, UV-A meters, densitometers and reference blocks are missed because the tracker only lists the expensive instruments."
+     },
+     {
+      "t": "Unknown holder",
+      "d": "Nobody can say for certain who has a given gauge or which job it was on last week, so recalls depend on phone calls."
+     },
+     {
+      "t": "Conditional results ignored",
+      "d": "An instrument that passed with a range limitation is issued for work outside that range because the limitation never left the certificate."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "The bill for a report built on a lapsed instrument",
+    "items": [
+     {
+      "t": "Re-inspection at your expense",
+      "d": "Results produced with an out-of-calibration instrument may have to be withdrawn and the work repeated, usually without the client paying for the second visit."
+     },
+     {
+      "t": "Lost site time",
+      "d": "A crew stood down at the gate while a calibrated unit is couriered in burns paid time and the client's patience together."
+     },
+     {
+      "t": "Audit exposure",
+      "d": "Calibration traceability is among the first things a quality auditor samples. An expired or missing certificate behind a signed report is a finding, not an oversight."
+     },
+     {
+      "t": "Credibility with the client's inspector",
+      "d": "Third-party and authorised inspectors remember the contractor whose kit failed the check, and they look harder at the next job."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Give every serial number its own calibration history",
+    "paragraphs": [
+     "The Asset Management app keeps one record per serialised item: type, asset tag, firmware, accessories, current holder, condition and lifecycle stage such as active, in calibration or in repair. Each record carries a calibration frequency and status. Every calibration event is logged with the provider, certificate number, standard used, range, stated uncertainty, whether the lab is accredited, the result, including conditional passes, and the next due date.",
+     "A certificate register stores each PDF with the lab's accreditation number and a valid, expiring or expired status, and calibration alerts reach the equipment coordinator with your own recipients, look-ahead and resend settings. When a planner assigns a serial to a job in Team Assignments, a lapsed calibration produces a warning before mobilisation. Issue and return run through supervisor and manager approval, with condition recorded at both ends, so you always know who had what.",
+     "Be clear about the limits. The system warns; it does not physically stop someone lifting a gauge off a shelf, and it does not decide whether past results stand. If an instrument is later found out of tolerance, filtering timesheet lines by its serial lists the jobs and reports it touched, and your Level III and procedures decide what has to be re-examined."
+    ],
+    "steps": [
+     {
+      "t": "Register the whole pool",
+      "d": "Import the equipment list by serial, including probes, wedges, meters, calibration blocks and step wedges, not just the headline instruments."
+     },
+     {
+      "t": "Load certificates and due dates",
+      "d": "Attach each current calibration certificate with lab details and next due date, so status and alerts are right from the first day."
+     },
+     {
+      "t": "Issue against approval",
+      "d": "Kit leaves the store on an approved issue request with its condition recorded, and comes back the same way."
+     },
+     {
+      "t": "Warn at planning time",
+      "d": "Team Assignments flags an assigned serial whose calibration has lapsed while there is still time to swap it or send it to the lab."
+     },
+     {
+      "t": "Trace when tolerance fails",
+      "d": "Filter timesheet lines by serial to list every job an instrument worked on since its last acceptable calibration."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "asset-management",
+     "why": "Serial register with calibration events, certificate register, issue and return approvals, reservations and movement history."
+    },
+    {
+     "app": "team-assignments",
+     "why": "Blocks double-booking of a serial and warns when an assigned instrument is out of calibration."
+    },
+    {
+     "app": "timesheets",
+     "why": "Records the equipment serial on each line, giving per-job usage evidence for traceability and billing."
+    },
+    {
+     "app": "purchase",
+     "why": "Types calibration labs as vendors with accreditation details and links order lines to the serial being sent."
+    }
+   ],
+   "dashboardTab": "calibration",
+   "beforeAfter": [
+    {
+     "before": "Calibration list on one laptop, kit on a different shelf.",
+     "after": "One serial record holding status, holder and certificate together."
+    },
+    {
+     "before": "Lab certificates scattered across email threads.",
+     "after": "A certificate register with the PDF, lab accreditation number and status."
+    },
+    {
+     "before": "A lapsed unit discovered by the client at the gate.",
+     "after": "A warning shown to the planner when the serial is assigned."
+    },
+    {
+     "before": "An out-of-tolerance finding followed by guesswork.",
+     "after": "A timesheet filter by serial that lists the affected jobs."
+    }
+   ],
+   "faq": [
+    {
+     "q": "What should we do if an instrument is found out of calibration after use?",
+     "a": "Identify every job it was used on since its last acceptable calibration, then let your procedures and Level III decide which results need review. Recording the serial on each timesheet line is what makes that list quick to produce."
+    },
+    {
+     "q": "Does the software stop a lapsed instrument going out?",
+     "a": "It makes it hard to happen by accident: status sits on the record, alerts go out ahead of the due date and Team Assignments warns the planner. The final check still belongs to your people and procedures."
+    },
+    {
+     "q": "Can we track calibration blocks and reference standards?",
+     "a": "Yes. Any serialised item can carry a calibration frequency and certificate history, including reference blocks, step wedges, light meters, UV-A meters and densitometers."
+    },
+    {
+     "q": "Is this integrity software for our clients' plant?",
+     "a": "No. It manages the instruments and accessories your company owns or rents. Your clients' vessels, piping and tanks belong in their own integrity systems."
+    },
+    {
+     "q": "How do we see it with our own kit?",
+     "a": "Bring your current equipment spreadsheet to a demo and we will show how it maps onto serial records. Pricing is quote on request."
+    }
+   ],
+   "related": [
+    "/erp/ndt-equipment-calibration-tracking-software",
+    "/erp/inspection-scheduling-crew-dispatch-software",
+    "/erp/apps/asset-management"
+   ]
+  },
+  {
+   "slug": "late-inspection-reports",
+   "title": "Inspection Reports Late to the Client? | Atlantis NDT",
+   "description": "Field work finishes on time but the signed NDT report reaches the client days later. Where reports stall between scan and send, and how to keep them moving.",
+   "h1": "Why your inspection reports reach the client late",
+   "eyebrow": "Report turnaround",
+   "primaryQuery": "inspection reports late to client",
+   "answer": "NDT reports run late because the delay sits in hand-offs, not in the field: re-typing readings, chasing a reviewer, hunting for the latest template and the right probe serial. Capture method-specific data once against the job, route it through inspector, reviewer and approver stages everyone can see, and issue it in the client's own format.",
+   "problem": {
+    "headline": "Where a finished scan turns into a late report",
+    "paragraphs": [
+     "The technician usually knows the result before leaving the weld. What follows is the slow part: readings in a notebook or on a wet clipboard, photos on a personal phone, then an evening in the site cabin or a morning in the office re-keying everything into a Word or Excel template that has been edited by too many hands. The Level II signs a printout, the Level III reviews it when they reach it, and the client receives a PDF well after the crew has moved on.",
+     "During a turnaround the problem compounds. Reports from several methods pile into the same review queue, the reviewer is also on the unit, and nobody can say which reports are drafted, which are waiting for review and which are approved but sitting unsent. The client chases by email, the office chases the technician, and the technician is already mobilising for the next job.",
+     "Late is often the lesser problem. Re-keying is where a thickness reading gets transposed, last week's probe serial is copied forward, or the acceptance standard in the header belongs to a different client. A report that arrives late and wrong costs far more than one that is merely late."
+    ],
+    "symptoms": [
+     {
+      "t": "Evening re-typing",
+      "d": "Technicians or office staff rebuild each report from field notes, which delays issue and invites transcription errors."
+     },
+     {
+      "t": "Invisible review queue",
+      "d": "Nobody can see at a glance which reports wait on a reviewer and which are approved but not yet sent."
+     },
+     {
+      "t": "Template drift",
+      "d": "Several versions of the client's format circulate, and the wrong one goes out often enough to be noticed."
+     },
+     {
+      "t": "Equipment from memory",
+      "d": "The instrument and probe on the report are typed from recollection rather than from what was actually issued."
+     },
+     {
+      "t": "Clients doing the chasing",
+      "d": "The client's engineer asks for reports before your office even knows they are overdue."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What slow reporting does to the business",
+    "items": [
+     {
+      "t": "Delayed payment",
+      "d": "Many clients will not approve an invoice until they hold the report, so every report left waiting is cash left waiting too."
+     },
+     {
+      "t": "Rework and re-issue",
+      "d": "Transcription errors caught by the client mean corrected revisions, fresh signatures and an awkward explanation of what changed."
+     },
+     {
+      "t": "Reviewer exhaustion",
+      "d": "Your Level III spends evenings formatting and chasing rather than checking technique, coverage and sizing, the part only they can do."
+     },
+     {
+      "t": "Lost tender ground",
+      "d": "Report turnaround is something clients compare between contractors, and a reputation for slow paperwork follows you into the next bid."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Capture once, review in the open, issue in their format",
+    "paragraphs": [
+     "The NDT Reports app opens a method-specific report against the job, with work order, client request, contract, drawing, WPS and procedure references carried across. Each method has its own fields and numbering: a probe calibration table for UT, source, technique and IQI details for RT, focal laws for PAUT, readings by direction for thickness surveys. The field app is an installable web app that works offline and syncs when signal returns, and it shows the technician the equipment actually issued to them.",
+     "Every report moves through draft, in progress, review, approved and sent, with inspector, reviewer and approver signatures and a field for a third-party or authorised inspector. Because the stages are tracked, operations and QA can see which reports are stuck in review, which are approved but unsent and which jobs have no report yet. Output uses your versioned company templates in Excel, Word, PDF or HTML, with Excel fields mapped to the cells your clients already recognise.",
+     "Software cannot make a careful review faster than the reviewer. What it removes is the waiting around the review: the re-typing, the template hunt and the uncertainty about where a report sits. The Level III still checks technique and acceptance against the code, such as ASME Section V or AWS D1.1, and still decides whether a report goes back to the technician."
+    ],
+    "steps": [
+     {
+      "t": "Open from the job",
+      "d": "The report is created from the work order, so job, site and code references arrive filled in rather than retyped."
+     },
+     {
+      "t": "Record at the weld",
+      "d": "The technician picks the method, captures readings, weld lines and photos, signs on screen and previews the PDF before submitting."
+     },
+     {
+      "t": "Work the review queue",
+      "d": "Reviewers see submitted reports in one queue and approve or return them with comments, with the stage visible to everyone."
+     },
+     {
+      "t": "Issue in their template",
+      "d": "Approved reports go out in the client's versioned format, and the record shows when each one left the building."
+     },
+     {
+      "t": "Watch the backlog",
+      "d": "Operations checks reports approved but unsent and jobs with no report, and clears them before the client asks."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "ndt-reports",
+     "why": "Method-specific report types, a staged review workflow, offline field capture and versioned client templates."
+    },
+    {
+     "app": "project",
+     "why": "Holds the job's PO, codes, scope, acceptance criteria and task-level procedure and WPS references the report draws on."
+    },
+    {
+     "app": "asset-management",
+     "why": "Supplies the instruments and probes issued to the technician, so the report names the kit actually used."
+    },
+    {
+     "app": "procedures",
+     "why": "Provides the approved procedure revision the report quotes by number."
+    }
+   ],
+   "dashboardTab": "reports",
+   "beforeAfter": [
+    {
+     "before": "Readings re-keyed from a notebook into an old template.",
+     "after": "Method-specific fields filled once at the weld, offline if needed."
+    },
+    {
+     "before": "Reports waiting in a reviewer's inbox nobody else can see.",
+     "after": "A shared review queue with a visible stage on every report."
+    },
+    {
+     "before": "Several versions of the client's format in circulation.",
+     "after": "Versioned templates, with a record of which was in use and when."
+    },
+    {
+     "before": "The client chasing reports by email.",
+     "after": "Approved-but-unsent reports listed for operations to clear."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Why are our NDT reports late even when the field work is on schedule?",
+     "a": "Usually because each report passes through manual hand-offs after the scan: transcription, formatting, printing for review and chasing signatures. Removing the re-typing and making the review stage visible attacks the delay where it actually sits."
+    },
+    {
+     "q": "Can technicians complete reports without signal on site?",
+     "a": "Yes. The NDT Reports field app is an installable web app that stores drafts and photos on the device and syncs when a connection returns."
+    },
+    {
+     "q": "Can we keep the report layouts our clients insist on?",
+     "a": "Yes. Company templates can be Excel, Word, PDF or HTML and are versioned. Excel templates are filled by mapping report fields to cells, so the client keeps the layout they know."
+    },
+    {
+     "q": "Who signs off the report?",
+     "a": "Inspector, reviewer and approver each sign within the workflow, and a third-party or authorised inspector can be recorded where the client's inspector witnesses the work. Who may hold each role follows your written practice."
+    },
+    {
+     "q": "Does faster reporting mean less review?",
+     "a": "No. The technical review stays with a qualified Level II or Level III. The aim is to take the clerical waiting out of the process, not the check. Send a redacted sample report and we will rebuild it in a demo."
+    }
+   ],
+   "related": [
+    "/erp/inspection-reporting-software-code-templates",
+    "/erp/client-portal-inspection-reports",
+    "/erp/apps/ndt-reports",
+    "/best-ndt-reporting-software-2026"
+   ]
+  },
+  {
+   "slug": "double-booked-crews",
+   "title": "Technicians Double-Booked on Two Jobs Again?",
+   "description": "One Level II on two jobs and a flaw detector promised to both. Why NDT dispatch double-books people and kit, and how to surface clashes at planning time.",
+   "h1": "When the same technician and the same kit are booked on two jobs",
+   "eyebrow": "Crew dispatch",
+   "primaryQuery": "technicians double booked on two jobs",
+   "answer": "Double-booking happens when people, leave, training and equipment live in separate places and only the dispatcher joins them up. Put every technician's assignments, leave, training and sickness on one availability calendar, book instruments by serial number on the same assignment, and let the system refuse a clash at the moment of booking instead of on Monday morning.",
+   "problem": {
+    "headline": "Why NDT dispatch produces clashes",
+    "paragraphs": [
+     "A client rings late on a Thursday wanting UT Level IIs and a PAUT technician on site first thing Monday. The coordinator checks the whiteboard, the shared planning sheet and a couple of messaging groups. One technician looks free but is booked on a refresher. Another is free, but the phased array set he always takes is promised to a different job. Both facts were known to someone. Neither was in front of the person doing the booking.",
+     "Dispatch in an inspection company has to line up the right people, holding the right qualifications, carrying the right calibrated equipment, at the right site on the right dates. When those facts live in different places, the dispatcher becomes the integration layer and carries the joins in their head. That holds on a quiet week with an experienced coordinator. It fails during a turnaround surge, or in the week that coordinator takes leave.",
+     "Equipment clashes are sneakier than people clashes. A technician will tell you they are already booked; a TOFD scanner will not. Separate project managers can each plan around the only unit in the store, and the second one finds out when the crate is empty or the instrument is already on a truck to another state."
+    ],
+    "symptoms": [
+     {
+      "t": "Leave by text message",
+      "d": "Holiday requests arrive informally and reach HR, but never the plan the dispatcher is actually reading."
+     },
+     {
+      "t": "Training weeks off the radar",
+      "d": "Refresher courses and recertification exams take people out of circulation without appearing anywhere operations checks."
+     },
+     {
+      "t": "The empty crate",
+      "d": "An instrument is promised to two jobs on paper and found missing when the second crew arrives at the store."
+     },
+     {
+      "t": "Dispatcher as single point of failure",
+      "d": "Only one person knows how the week fits together, and the plan wobbles whenever they are away."
+     },
+     {
+      "t": "Cannot say who was there",
+      "d": "When a client later asks which technicians worked a job, the answer depends on old messages and memory."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What clashes cost when they surface late",
+    "items": [
+     {
+      "t": "Last-minute substitutes",
+      "d": "Replacing a double-booked technician at short notice means overtime, extra travel and sometimes a subcontractor the client never approved."
+     },
+     {
+      "t": "Idle crews",
+      "d": "A crew on site without its instrument, or waiting for one to be driven in, bills little and costs a great deal."
+     },
+     {
+      "t": "Broken promises to clients",
+      "d": "Named personnel on a crew list who fail to arrive damage the relationship faster than almost any technical issue."
+     },
+     {
+      "t": "Exhausted coordinators",
+      "d": "Schedulers spending weekends repairing the plan are the people most likely to leave, and they take the knowledge with them."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "One calendar that refuses the second booking",
+    "paragraphs": [
+     "In Team Assignments each job becomes an assignment that ties together the client work, the site with its GPS coordinates, the mobilisation and demobilisation dates, the technicians and the equipment serial numbers going with them. Every technician has one availability calendar with assigned, leave, training, sick and unavailable entries, and overlapping entries are blocked. Approved leave from Time Off lands on the same calendar, so a holiday blocks dispatch without anybody copying it across.",
+     "Equipment is booked by serial number from the Asset Management register. If a flaw detector, yoke, probe or exposure device is already committed for those dates, the second booking is refused, and an assigned instrument with lapsed calibration raises a warning. Each technician record shows current assignment, utilisation and next available date, and jobs move through planned, dispatched, in field, submitted and closed on calendar, kanban and list views.",
+     "There are honest limits. The system can only block clashes it knows about, so leave and training have to be entered. Certification checks at the assignment step are not standard out of the box. And it will not tell you whether a technician is the right person for an awkward nozzle or a high-temperature scan: that judgement stays with your supervisors and Level III."
+    ],
+    "steps": [
+     {
+      "t": "Load people and kit",
+      "d": "Technicians with their methods and levels, and equipment by serial with calibration dates, go in first so clash checks work immediately."
+     },
+     {
+      "t": "Connect leave and training",
+      "d": "Approved leave flows in from Time Off and training weeks are entered as training, so availability reflects reality."
+     },
+     {
+      "t": "Plan in the calendar",
+      "d": "Coordinators build crews where conflicts are visible, and a refused booking appears the moment it is attempted."
+     },
+     {
+      "t": "Move jobs through stages",
+      "d": "The kanban board shows what is waiting to dispatch, what is in the field and what is submitted but not closed."
+     },
+     {
+      "t": "Read utilisation before promising",
+      "d": "Owners and sales check utilisation and next available dates before committing a start date to a client."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "team-assignments",
+     "why": "Availability calendar, double-booking protection for technicians and serials, calibration warnings and staged dispatch."
+    },
+    {
+     "app": "time-off",
+     "why": "Feeds approved leave into the technician availability calendar used for dispatch."
+    },
+    {
+     "app": "asset-management",
+     "why": "Supplies the serial-numbered equipment and reservations that clash checks run against."
+    },
+    {
+     "app": "employees",
+     "why": "Lets planners filter technicians by level and method and read their NDT profile while building a crew."
+    }
+   ],
+   "dashboardTab": "jobs",
+   "beforeAfter": [
+    {
+     "before": "Whiteboard, planning sheet and chat groups consulted in turn.",
+     "after": "One assignment record with people, site, dates and serials."
+    },
+    {
+     "before": "Leave known to HR but not to dispatch.",
+     "after": "Approved leave blocks the technician on the calendar."
+    },
+    {
+     "before": "Two jobs promised the only TOFD unit.",
+     "after": "The second booking of a serial is refused at the moment it is made."
+    },
+    {
+     "before": "Start dates promised from gut feel.",
+     "after": "Next available date and utilisation read from real assignments."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How do NDT companies stop double-booking technicians?",
+     "a": "By keeping assignments, leave, training and sickness on one calendar per technician and letting the system refuse overlaps at booking time. The same rule applied to equipment serials solves the empty-crate problem."
+    },
+    {
+     "q": "Does it check certifications when I build a crew?",
+     "a": "The technician's NDT profile and the Certificates app show qualification status while you plan, and a timesheet raises a warning later if the certificate behind logged time is not valid. A hard block at the assignment step is something we configure only when it is in your implementation scope."
+    },
+    {
+     "q": "Can subcontract technicians go on the calendar?",
+     "a": "Yes. Freelance or subcontract technicians can be set up as records so their availability and assignments are tracked like staff. How their certifications and billing are handled is agreed during implementation."
+    },
+    {
+     "q": "Can technicians see their own jobs?",
+     "a": "Yes. Through the NDT Reports field app a technician can pull the jobs and equipment assigned to them, and supervisors can use the ERP in a mobile browser."
+    },
+    {
+     "q": "What is the quickest way to judge it?",
+     "a": "Send a rough picture of your crew, methods and typical week, and we will run a demo with that sample. Pricing is quote on request."
+    }
+   ],
+   "related": [
+    "/erp/inspection-scheduling-crew-dispatch-software",
+    "/erp/apps/team-assignments",
+    "/erp"
+   ]
+  },
+  {
+   "slug": "work-done-not-invoiced",
+   "title": "Inspection Work Done but Not Yet Invoiced?",
+   "description": "Crews finished the job weeks ago and the invoice has not gone out, or went out short. Where NDT billing leaks, and how to see won work that is still unbilled.",
+   "h1": "When completed inspection work sits unbilled",
+   "eyebrow": "Billing and cash",
+   "primaryQuery": "work done but not invoiced",
+   "answer": "Inspection work goes unbilled when the facts an invoice needs, from standby hours and equipment serials to consumables, per diem and the client PO, are recorded in the field but rebuilt by hand later. Capture them against the job as they happen, approve them, and track confirmed work that has not yet been invoiced.",
+   "problem": {
+    "headline": "How finished jobs fall out of the billing cycle",
+    "paragraphs": [
+     "Inspection companies seldom lose money on the inspection itself. They lose it in the week after, when someone sits down with field sheets, a spreadsheet of hours, the client's rate schedule and an email thread about which crew stayed an extra night. The invoice is built by hand, goes out late and usually goes out missing something: standby agreed at the permit office, a PAUT unit that sat on the job longer than the log says, couplant and film drawn from the store.",
+     "Some work never reaches an invoice at all. A small call-out finished on a Friday, a variation the client approved on the phone, a final invoice waiting for a report stuck in review. Each one is small. Together they are the gap between the work your crews delivered and the revenue your accounts show, and nobody owns that gap because it lives between operations and finance.",
+     "Then there is the rejected invoice: a wrong PO number, line items that do not match the client's cost codes, labour and equipment lumped into a single figure. The client's accounts payable team sends it back, and the payment clock starts again from the beginning."
+    ],
+    "symptoms": [
+     {
+      "t": "Standby in the margin",
+      "d": "Time spent waiting for permits or scaffolding is noted informally, if at all, and rarely survives to the invoice."
+     },
+     {
+      "t": "Equipment by estimate",
+      "d": "Instrument charges depend on someone remembering which units went to site and for how long."
+     },
+     {
+      "t": "Receipts in envelopes",
+      "d": "Per diem, lodging and consumables bought on site arrive weeks later with no job number on them."
+     },
+     {
+      "t": "Bounced invoices",
+      "d": "Clients return invoices for a wrong PO, a missing site reference or lines that do not match their cost codes."
+     },
+     {
+      "t": "No list of unbilled work",
+      "d": "Nobody can produce, on demand, the jobs that are confirmed or complete but still not invoiced."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What unbilled work does to cash and margin",
+    "items": [
+     {
+      "t": "Revenue written off quietly",
+      "d": "Small items that miss the first invoice are awkward to add later and are often absorbed rather than raised."
+     },
+     {
+      "t": "Slower cash",
+      "d": "Late and rejected invoices push payment further out, while payroll, per diem and travel for the next job still have to be funded."
+     },
+     {
+      "t": "Disputes you cannot win",
+      "d": "Without a dated, approved record of standby or overtime, the client's challenge usually succeeds by default."
+     },
+     {
+      "t": "Misleading margins",
+      "d": "Jobs look more profitable than they were when costs land in overhead and the matching recharge never reaches the client."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Let the job's own records build the invoice",
+    "paragraphs": [
+     "In Atlantis NDT ERP the commercial thread starts at the quote. Quotations records job type, site, dates and applicable codes, with standby, overtime and mobilisation as lines of their own, and an accepted quote becomes a sales order that can be set to create the project. The project then holds the client PO and contract, so the reference the client's accounts team checks is set once, at the start.",
+     "During the job, timesheet entries carry work type, method, site, equipment serial, billable flag and rate multiplier, and a supervisor approves them. Expenses captures receipts and per diem against the job, with re-billable categories flowing onto the sales order. Invoicing then shows labour, equipment and consumables as separate subtotals, with lines that can carry technician, method, serial and hours, laid out the way the client's approvers expect to read it.",
+     "On the Business overview dashboard, a confirmed-not-invoiced card shows work won but not yet billed, next to invoiced, collected, receivables and overdue, and a needs-attention tab gathers what has slipped. What the system cannot do is renegotiate your contract: if standby or per diem is not chargeable under your terms, recording it shows the cost but will not make the client pay it."
+    ],
+    "steps": [
+     {
+      "t": "Quote every charge type",
+      "d": "Standby, overtime, mobilisation, equipment and consumables appear as lines on the quote, so the client accepts them before work starts."
+     },
+     {
+      "t": "Record the PO once",
+      "d": "The client PO and contract sit on the project and carry through to every interim and final invoice."
+     },
+     {
+      "t": "Approve time as you go",
+      "d": "Supervisors approve timesheet entries daily or weekly, checking standby and multipliers against the site diary."
+     },
+     {
+      "t": "Push recharges to the job",
+      "d": "Approved expenses in re-billable categories land on the sales order ready for the next invoice."
+     },
+     {
+      "t": "Review unbilled work weekly",
+      "d": "Finance and operations go through the confirmed-not-invoiced and overdue figures together and clear the list."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "invoicing",
+     "why": "NDT invoice header with project, PO, site and sector, and separate labour, equipment and consumables subtotals."
+    },
+    {
+     "app": "timesheets",
+     "why": "Approved hours by work type, with billable flag, rate multiplier and equipment serial, feed billing."
+    },
+    {
+     "app": "expenses",
+     "why": "Receipts and per diem captured against the job, with re-billable categories flowing to the sales order."
+    },
+    {
+     "app": "dashboards",
+     "why": "Business overview cards for confirmed-not-invoiced, invoiced, collected, receivables and overdue."
+    }
+   ],
+   "dashboardTab": "sales",
+   "beforeAfter": [
+    {
+     "before": "Invoice rebuilt from paper sheets the week after the job.",
+     "after": "Approved timesheet lines flow into a draft invoice for review."
+    },
+    {
+     "before": "Standby noted in the margin and forgotten.",
+     "after": "Standby logged as its own work type with date and site."
+    },
+    {
+     "before": "Equipment charges guessed from memory.",
+     "after": "Invoice lines carry the serial of the instrument that was issued."
+    },
+    {
+     "before": "No view of won work still unbilled.",
+     "after": "A confirmed-not-invoiced figure reviewed every week."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How do we find inspection work that was done but never invoiced?",
+     "a": "Compare confirmed orders with what has been invoiced. On the Business overview dashboard that comparison is a single confirmed-not-invoiced figure, and the needs-attention tab helps finance and operations work through what sits behind it."
+    },
+    {
+     "q": "Can we bill standby and overtime properly?",
+     "a": "Where your contract allows it, yes. Standby is a timesheet work type of its own, and a rate multiplier on each line covers overtime, night or weekend rates as you define them."
+    },
+    {
+     "q": "Will invoices show the client's PO and site?",
+     "a": "Yes. The invoice header holds the project, job or PO number, site, invoice type and industry sector, which are the references accounts payable teams check before approving."
+    },
+    {
+     "q": "Can it handle retention and progress billing on long jobs?",
+     "a": "Interim and final invoices are separated by invoice type, and cost centres follow a long project. Retention and progress billing rules depend on your contracts and are configured as agreed customization."
+    },
+    {
+     "q": "Is there a trial?",
+     "a": "Yes, a free trial is available, and a demo can be built around one of your typical jobs. Pricing is quote on request."
+    }
+   ],
+   "related": [
+    "/erp/inspection-job-costing-profitability",
+    "/erp/apps/invoicing",
+    "/erp/apps/timesheets",
+    "/erp"
+   ]
+  },
+  {
+   "slug": "superseded-procedures-in-the-field",
+   "title": "Superseded NDT Procedure Still Used on Site?",
+   "description": "A crew worked to an old revision and the report quotes a procedure that no longer exists. Why procedure control breaks, and how to keep one live revision.",
+   "h1": "When the crew is working to a superseded procedure",
+   "eyebrow": "Document control",
+   "primaryQuery": "superseded ndt procedure used in the field",
+   "answer": "Superseded procedures reach the field when revisions live in shared drives, email and printed binders with no single register that says which revision is current. Hold each procedure as a controlled record, route every revision through review and Level III approval, lock what is approved, publish only the current revision, and keep earlier ones as snapshots for audit.",
+   "problem": {
+    "headline": "How old revisions keep turning up on site",
+    "paragraphs": [
+     "A client issues a revised specification, your Level III updates the UT procedure for butt welds, and the new revision goes into the shared drive. Meanwhile a printed copy of the previous revision is in the site cabin, another sits on a technician's tablet, and the report template still quotes the old number. Nobody chose to ignore the change. The old copies simply never learned they had been replaced.",
+     "Procedures change constantly in an inspection company: a new code edition, a client specification, a new phased array unit with a different setup, a scan plan that did not work on an awkward nozzle. Each change should produce a reviewed and approved revision. In practice, a few revisions later there are several near-identical files and nobody is certain which one the client accepted or who signed the cover page.",
+     "The confusion often runs wider than procedures. The written practice governs people, procedures govern how a method is applied, and technique sheets apply a procedure to a specific component. When all three are called procedures and filed together, a revision to one is easily mistaken for a revision to another."
+    ],
+    "symptoms": [
+     {
+      "t": "Revisions that disagree",
+      "d": "The report quotes one revision, the cabin binder holds another and the shared drive a third."
+     },
+     {
+      "t": "Missing approval evidence",
+      "d": "An auditor asks who approved the current PAUT procedure and the signed cover page cannot be found."
+     },
+     {
+      "t": "Silent edits",
+      "d": "Approved documents are quietly corrected in place, so the version the client accepted no longer exists."
+     },
+     {
+      "t": "Stalled approvals",
+      "d": "Revisions wait for weeks because the Level III is travelling and nothing reminds them."
+     },
+     {
+      "t": "Change by corridor",
+      "d": "Rejections and comments are given verbally, so the author never sees a clear reason for the change."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "Why an outdated procedure is expensive",
+    "items": [
+     {
+      "t": "Work done to the wrong requirement",
+      "d": "Inspection performed to a superseded scanning sensitivity or acceptance reference may need repeating once the client spots it."
+     },
+     {
+      "t": "Reports that cannot be defended",
+      "d": "A report quoting a procedure number that no longer exists invites the question of what was really applied."
+     },
+     {
+      "t": "Document control findings",
+      "d": "Uncontrolled copies and missing approval records are standard findings in client audits and ISO 9001 surveillance visits."
+     },
+     {
+      "t": "Client approval delays",
+      "d": "Clients who approve procedures before work starts lose confidence when the revision they approved is not the one on site."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "A register that says which revision is current",
+    "paragraphs": [
+     "The Procedures app holds each procedure as a record with its document number, revision, method, scope, material, applicable standard such as ASME Section V or a client specification, and acceptance criteria, with the body written in the record or the controlled file attached. Written practices, procedures and technique sheets can share the register, separated by a numbering convention agreed at setup, so the relationship between them stays visible to your Level III.",
+     "Each revision moves through draft, submitted, reviewed, approved and published, with rejected and archived states for real life. The record captures who prepared, reviewed and approved it and on which dates, and email notifications and reminders keep pending approvals in front of the approver. Approved revisions are locked; a change means a new revision through the same workflow, and every earlier revision is kept as a snapshot.",
+     "Field access is configured to match how you issue procedures, so technicians see published revisions while drafts and archived ones stay out of their way. Paper is a discipline the software cannot police: if you still print, mark printed copies as uncontrolled. A read-and-acknowledge step can be added as customization, and Surveys can run a read-and-understood check once a revision is published."
+    ],
+    "steps": [
+     {
+      "t": "Inventory the library",
+      "d": "List every procedure with its current revision, method, standard and approver, which usually exposes duplicates and gaps."
+     },
+     {
+      "t": "Agree the rules",
+      "d": "Numbering, revision convention and who reviews and approves for each method are set to match your quality manual."
+     },
+     {
+      "t": "Run a real revision",
+      "d": "Take a procedure that is due for update from draft to published with your own team to test the settings."
+     },
+     {
+      "t": "Link to jobs and reports",
+      "d": "Project tasks and NDT reports reference procedures from the register, so the crew works to what the job was planned against."
+     },
+     {
+      "t": "Confirm understanding",
+      "d": "After publication, send a short Surveys questionnaire so there is a record of who has read the change."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "procedures",
+     "why": "Controlled register with an approval workflow, locked revisions, snapshots and email reminders to approvers."
+    },
+    {
+     "app": "surveys",
+     "why": "Read-and-understood checks after a revision is published, recorded per technician."
+    },
+    {
+     "app": "ndt-reports",
+     "why": "Captures procedure and standard references on every report, so the client sees the revision actually used."
+    },
+    {
+     "app": "project",
+     "why": "Carries procedure and WPS references on each inspection task."
+    }
+   ],
+   "dashboardTab": "reports",
+   "beforeAfter": [
+    {
+     "before": "A shared-drive folder of near-identical files.",
+     "after": "One register that shows the published revision plainly."
+    },
+    {
+     "before": "Approved documents edited in place.",
+     "after": "Approved revisions locked, with changes made by new revision."
+    },
+    {
+     "before": "Approvals waiting on a travelling Level III.",
+     "after": "Email reminders keep the pending queue in view."
+    },
+    {
+     "before": "No proof of what was in force last year.",
+     "after": "A snapshot of every revision with author, reviewer and approver."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How do we stop technicians using an old procedure revision?",
+     "a": "Keep one register in which only the published revision is the working document, lock approved revisions, and configure field access so technicians see what is current. Paper copies need their own control, so mark printed copies as uncontrolled."
+    },
+    {
+     "q": "Can the AI write our procedures?",
+     "a": "It can produce a first draft from the method, scope, material, standard and acceptance criteria you enter, with a built-in template if the AI service is unavailable. A qualified author edits it and a Level III reviews and approves it before publication."
+    },
+    {
+     "q": "Can we show an auditor what changed between revisions?",
+     "a": "Yes. Every revision is kept as a snapshot with who prepared, reviewed and approved it, so the old and new versions can be compared directly."
+    },
+    {
+     "q": "We have no Level III in-house. Who approves?",
+     "a": "Approval should sit with a qualified Level III for the method. Atlantis offers procedure writing and review by ASNT Level III personnel through its consulting service, and the results can then be controlled in the register."
+    },
+    {
+     "q": "Can we load our existing procedures?",
+     "a": "Yes. Loading your current library is part of implementation, so you start with your real register. Bring one of your procedures to a demo, available on request."
+    }
+   ],
+   "related": [
+    "/erp/inspection-procedures-management-software",
+    "/erp/audit-preparation-software-inspection-firms",
+    "/erp/apps/procedures"
+   ]
+  },
+  {
+   "slug": "audit-evidence-scramble",
+   "title": "Scrambling for Evidence Before Every Audit?",
+   "description": "Each client or ISO 9001 audit means rebuilding qualification, calibration and report files. Why evidence scatters, and how to answer an audit sample fast.",
+   "h1": "When every audit turns into a scramble for evidence",
+   "eyebrow": "Audit readiness",
+   "primaryQuery": "scrambling for evidence before audit",
+   "answer": "Audit scrambles happen because the evidence exists but is stored apart from the job it proves. An auditor samples a finished report and works backwards to the examiner's certification and vision test on that date, the instrument's calibration, the procedure revision and the approvals. Keep those linked to the job and the binder hunt disappears.",
+   "problem": {
+    "headline": "Why audit evidence is always somewhere else",
+    "paragraphs": [
+     "The week before a client audit or an ISO 9001 surveillance visit has a familiar shape. Someone prints the written practice and finds the last revision was never signed. The QA manager rebuilds qualification packs from scanned certificates and photographed eye tests. The equipment coordinator searches email for certificates from the calibration lab. A Level III spends an evening reconstructing which procedure revision applied to a job finished months ago.",
+     "None of this is inventing evidence. The documents existed when the work was done. They were simply filed by whoever created them, wherever suited that person: the report on the shared drive, the certification in a folder per technician, the calibration certificate in an inbox, the procedure in a binder. The audit asks a question that crosses all of those places at once, and so does the scramble.",
+     "Auditors sample. They pick a report and follow it backwards: was the examiner qualified, and was their vision current, on the examination date; was this serial within calibration; which procedure revision was in force; who reviewed and who approved. Answer the first sample completely and promptly, and the audit tends to stay narrow. Fumble it, and the auditor reasonably widens the sample."
+    ],
+    "symptoms": [
+     {
+      "t": "Pre-audit overtime",
+      "d": "Quality staff spend the days before an audit assembling files instead of running the quality system."
+     },
+     {
+      "t": "Rebuilt qualification packs",
+      "d": "Technician files are reassembled from scattered scans each time a client or auditor asks."
+     },
+     {
+      "t": "Calibration by inbox search",
+      "d": "Finding the certificate behind a past report means searching email and ringing the lab."
+     },
+     {
+      "t": "Revision archaeology",
+      "d": "Nobody can say quickly which procedure revision applied on a particular date."
+     },
+     {
+      "t": "Evidence that depends on a person",
+      "d": "Some answers can only be found by one colleague, and the audit lands in the week they are away."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What the scramble costs beyond the audit week",
+    "items": [
+     {
+      "t": "Avoidable findings",
+      "d": "Evidence that existed but could not be produced on the day is recorded as missing, and the finding stands until it is closed."
+     },
+     {
+      "t": "Wider sampling",
+      "d": "A slow or incomplete first answer gives the auditor reason to sample more jobs, which multiplies the effort."
+     },
+     {
+      "t": "Lost management time",
+      "d": "Owners, QA managers and the Level III are pulled away from paying work and client relationships to paperwork that should already be in order."
+     },
+     {
+      "t": "Prequalification friction",
+      "d": "Client vendor questionnaires ask the same questions, and a company that struggles to answer them is quietly marked down."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Keep the evidence where the job is",
+    "paragraphs": [
+     "Atlantis NDT ERP stores the evidence an auditor traces as linked records rather than loose files. The NDT report carries the work order, procedure and standard references and the inspector, reviewer and approver signatures. The examiner's certifications and vision tests sit on their employee record with dates and attachments. The instrument's calibration events and certificate PDF sit on its serial record, and timesheets record which serial was used on which job.",
+     "Because the procedure register preserves each earlier revision alongside its author, reviewer, approver and dates, the revision in force on a given day can be shown rather than remembered. Examination records keep the general, specific and practical results behind each certification. Company certifications such as an ISO 9001 registration carry their own expiry alerts, and changes to employee records are tracked in the record history, showing what was updated and by whom.",
+     "Software will not make an inadequate system pass. If the written practice is out of date, a technician was never properly examined, or reports were signed outside a certification, the records will show that too, and sooner. The value is that the true picture is available on the day, and the gaps surface while there is still time to close them."
+    ],
+    "steps": [
+     {
+      "t": "Pick a finished job",
+      "d": "Choose a recent report and trace it backwards in the system exactly as an auditor would, to find the weak links."
+     },
+     {
+      "t": "Attach what is missing",
+      "d": "Load certificates, vision tests, calibration PDFs and procedure revisions onto the records they belong to."
+     },
+     {
+      "t": "Clear the warnings",
+      "d": "Work the expired certificate and calibration overdue lists until each is empty or explained."
+     },
+     {
+      "t": "Answer questionnaires from records",
+      "d": "Pull procedure lists and qualification packs from the registers instead of building them by hand."
+     },
+     {
+      "t": "Make the trace routine",
+      "d": "Repeat the internal trace on a sample of jobs, using a Surveys checklist to record what was checked."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "certificates",
+     "why": "Certifications, vision tests and exam sheets with dates and attachments on the technician record."
+    },
+    {
+     "app": "asset-management",
+     "why": "Calibration events and a certificate register per serial, showing calibration status on any date."
+    },
+    {
+     "app": "procedures",
+     "why": "Revision snapshots with author, reviewer and approver for every procedure."
+    },
+    {
+     "app": "ndt-reports",
+     "why": "Signed reports carrying procedure, standard and work order references."
+    }
+   ],
+   "dashboardTab": "certifications",
+   "beforeAfter": [
+    {
+     "before": "Qualification packs rebuilt before each audit.",
+     "after": "Certificates, eye tests and exam sheets attached to the technician record."
+    },
+    {
+     "before": "Calibration certificates searched for in email.",
+     "after": "The certificate PDF and history on the instrument's serial record."
+    },
+    {
+     "before": "The revision in force reconstructed from memory.",
+     "after": "Revision snapshots with approval dates in the register."
+    },
+    {
+     "before": "Audit answers that depend on one colleague.",
+     "after": "Anyone with access can trace a sampled report."
+    }
+   ],
+   "faq": [
+    {
+     "q": "What evidence do NDT audits usually ask for?",
+     "a": "For a sampled report: the examiner's certification and vision test valid on the examination date, the calibration status of the instrument used, the procedure revision applied, and evidence of review and approval. The written practice in force is often requested alongside."
+    },
+    {
+     "q": "Will the software make us audit-ready by itself?",
+     "a": "No. It holds and links evidence and flags expiries before they become findings. Whether your written practice, examinations and approvals are adequate is still a matter for your Level III and your quality system."
+    },
+    {
+     "q": "Can it help with client prequalification questionnaires?",
+     "a": "Yes. Procedure lists, company certifications and technician qualification packs can be pulled from their registers rather than assembled by hand for each questionnaire."
+    },
+    {
+     "q": "Does it replace a full audit management system?",
+     "a": "No. Surveys can run internal audit checklists and keep a consistent record of what was checked, but it is not a complete audit management system. The aim is operational evidence that is already in order."
+    },
+    {
+     "q": "Can we see it with one of our own jobs?",
+     "a": "Yes. A demo is on request, and we can trace one of your typical jobs from report back to qualifications and calibration. Pricing is quote on request."
+    }
+   ],
+   "related": [
+    "/erp/audit-preparation-software-inspection-firms",
+    "/erp/ndt-personnel-certification-tracking",
+    "/erp/ndt-equipment-calibration-tracking-software",
+    "/erp/inspection-procedures-management-software"
+   ]
+  },
+  {
+   "slug": "unknown-job-margins",
+   "title": "Don't Know Which Inspection Jobs Make Money?",
+   "description": "Revenue looks healthy but nobody can say which clients, methods or turnarounds earn a margin. Why job profit hides, and how to see it while the work is live.",
+   "h1": "When you cannot tell which jobs actually make money",
+   "eyebrow": "Job margin",
+   "primaryQuery": "which inspection jobs are profitable",
+   "answer": "Job margins stay hidden because revenue arrives on one invoice while cost arrives in fragments: hours, travel, standby, per diem, consumables, equipment and report preparation, many without a job number. Record each cost against the job when it happens, split revenue by service line and sector, and compare clients and methods on margin rather than turnover.",
+   "problem": {
+    "headline": "Why job profitability is invisible in most NDT firms",
+    "paragraphs": [
+     "Ask an inspection company owner which clients are profitable and the answer usually comes from instinct and turnover. The refinery that sends the biggest shutdown feels like the best account. The fabrication shop that pays promptly feels like a small one. Whether either earns a real margin is often unknown until the accountant closes the year, and even then the figure describes the company, not the job.",
+     "The reason is structural. Revenue is captured cleanly, because it comes from one invoice produced by one process. Cost arrives in pieces: payroll for technicians, per diem and lodging for travelling crews, consumables drawn from the store, calibration and repair bills for the instruments used, standby the contract did not cover, and the Level III's evening spent reviewing reports. Only some of those pieces carry a job number.",
+     "So the margin on a given job is revenue minus whichever costs happened to be coded to it, which is a flattering number. It flatters unevenly, too. Out-of-town turnarounds and complex multi-method scopes carry the most uncoded cost, and they are exactly the jobs that look best on a revenue report."
+    ],
+    "symptoms": [
+     {
+      "t": "Turnover as the scorecard",
+      "d": "Clients and service lines are ranked by sales because there is no reliable cost figure to rank them by."
+     },
+     {
+      "t": "Costs in overhead",
+      "d": "Per diem, consumables and non-billable hours land in general overhead rather than on the job that caused them."
+     },
+     {
+      "t": "Quarter-end surprises",
+      "d": "Margin is discovered when accounts close the period, far too late to change how a live job is run."
+     },
+     {
+      "t": "Re-quoting blind",
+      "d": "The next quote for a client repeats last year's rates without knowing whether last year's job made money."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What not knowing job margins costs",
+    "items": [
+     {
+      "t": "Chasing the wrong work",
+      "d": "Sales effort flows toward work that looks biggest rather than work that pays, and the unprofitable pattern repeats."
+     },
+     {
+      "t": "Underpriced quotes",
+      "d": "Standby, travel and setup that were absorbed last time get absorbed again because nobody saw them."
+     },
+     {
+      "t": "Cash strain disguised as growth",
+      "d": "A busy order book can sit alongside tightening cash when the extra work carries thin or negative margin."
+     },
+     {
+      "t": "Weak negotiating position",
+      "d": "Without evidence of what a client's jobs cost to deliver, rate discussions rest on opinion."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Attach each cost to the job that caused it",
+    "paragraphs": [
+     "The fix starts with the job record. In Atlantis NDT ERP the project holds the client PO, site, methods and assigned crew, and the records created during the work point back to it. Timesheet lines carry work type, method, site and equipment serial, with a billable flag that keeps non-billable hours visible as cost. Expenses link per diem, lodging, mileage and site purchases to the project or sales order, so field spend follows the job instead of disappearing into overhead.",
+     "Purchase lines for calibration, repairs and consumables can point to the instrument serial they were for, and consumables are issued through a movement ledger. On the revenue side, invoices carry the industry sector and cost centres such as branch or service line, with separate labour, equipment and consumables subtotals. The financial dashboard shows revenue, cost of sales, gross margin, operating expenses and outstanding balances as a year-long trend.",
+     "The limit is honest: a margin is only as good as the costs linked to the job. If report preparation or travel is not recorded against the job, it will not appear there. Views by job, client or service line beyond the standard set are configured during implementation as part of the agreed scope, and the system will not set your rates for you. It shows where the evidence points."
+    ],
+    "steps": [
+     {
+      "t": "Open the job record on day one",
+      "d": "Every job gets a project record the moment it is won, so time, expenses and purchases have one reference to point at."
+     },
+     {
+      "t": "Log non-billable time too",
+      "d": "Travel, setup and rework the client does not pay for are logged as non-billable, so the cost is visible even when it is not invoiced."
+     },
+     {
+      "t": "Link field spend promptly",
+      "d": "Technicians attach per diem and site purchases to the job when they submit expenses, not weeks later."
+     },
+     {
+      "t": "Tag revenue by line",
+      "d": "Cost centres and sector on each invoice let you compare conventional NDT, advanced UT, training and consulting work."
+     },
+     {
+      "t": "Review before re-quoting",
+      "d": "Before quoting a repeat client, look at what the last job actually consumed against what it billed."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "project",
+     "why": "One job record holding PO, site, methods and crew, which time, expenses and purchases point back to."
+    },
+    {
+     "app": "timesheets",
+     "why": "Billable and non-billable hours by work type and method, keeping unbilled effort visible as cost."
+    },
+    {
+     "app": "expenses",
+     "why": "Per diem, lodging and site spend linked to the project or sales order."
+    },
+    {
+     "app": "invoicing",
+     "why": "Cost centres, sector and labour, equipment and consumables subtotals, feeding the financial dashboard."
+    }
+   ],
+   "dashboardTab": "jobs",
+   "beforeAfter": [
+    {
+     "before": "Clients ranked by turnover alone.",
+     "after": "Revenue split by sector and cost centre beside the costs linked to each job."
+    },
+    {
+     "before": "Per diem buried in overhead.",
+     "after": "Expenses linked to the job they were incurred for."
+    },
+    {
+     "before": "Margin learned at year end.",
+     "after": "Gross margin and cost of sales on a running trend."
+    },
+    {
+     "before": "Repeat quotes copied from last year.",
+     "after": "The last job's recorded hours, standby and spend reviewed first."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How can an NDT company see which jobs are profitable?",
+     "a": "Record costs against the job as they happen, including non-billable hours, per diem and consumables, and tag revenue by service line and sector. The comparison then becomes what each job billed against what it actually consumed."
+    },
+    {
+     "q": "Does the system calculate margin per job automatically?",
+     "a": "It brings a job's time, expenses and invoices together and shows company gross margin on the financial dashboard. Views by job, client or service line beyond the standard set are configured during implementation as agreed customization."
+    },
+    {
+     "q": "Why do turnaround jobs often look better than they are?",
+     "a": "Because travel, per diem, standby and extended reporting are the costs most likely to miss the job record, and turnarounds carry the most of them."
+    },
+    {
+     "q": "Will it tell us what to charge?",
+     "a": "No. Rates and commercial terms are your decision. The system records them consistently and shows the cost evidence behind each job, which makes the next pricing conversation better informed."
+    },
+    {
+     "q": "How do we get a quote?",
+     "a": "Quote on request, based on the apps and customization you need. For a demo, bring the figures from a recent turnaround and we will show how its costs would land on the job."
+    }
+   ],
+   "related": [
+    "/erp/inspection-job-costing-profitability",
+    "/erp/apps/dashboards",
+    "/erp"
+   ]
+  },
+  {
+   "slug": "running-on-spreadsheets",
+   "title": "Running Your NDT Company on Spreadsheets?",
+   "description": "Certificates, calibration, crews, reports and invoices in separate spreadsheets joined by one tired person. When that stops working, and how to move off.",
+   "h1": "When the whole inspection business runs on spreadsheets",
+   "eyebrow": "Spreadsheet sprawl",
+   "primaryQuery": "ndt company running on spreadsheets",
+   "answer": "Spreadsheets fail an NDT company not because they are bad tools but because each holds one slice of the business and a person joins them up. When certifications, calibration, crews, reports and billing are separate files, errors hide in the joins. Moving to one system lets each fact be entered once and read by everyone who needs it.",
+   "problem": {
+    "headline": "How spreadsheets quietly become the operating system",
+    "paragraphs": [
+     "It starts sensibly. A certification tracker for the QA manager, a calibration list for the equipment room, a planning sheet for dispatch, a rates workbook for quoting, a timesheet template for the crews and an accounting package for invoices. Each file is well kept by its owner and each works. For a small team, together they are a reasonable way to run an inspection company.",
+     "The trouble is what sits between the files. To put a crew on a job, someone reads the planning sheet, checks the cert tracker, checks the calibration list and remembers who is on leave. To invoice the job, someone re-keys hours from timesheets, checks the rates workbook and hunts for the PO in email. The company's real integration layer is a handful of experienced people copying and comparing, and they are the busiest people in the building.",
+     "Growth breaks it. A second base, a run of turnarounds, a client who wants qualification packs before mobilisation, an auditor who samples a job from last spring. Formulas break when rows are inserted, versions multiply on laptops, and the file everyone trusts turns out to be the copy someone saved locally last week."
+    ],
+    "symptoms": [
+     {
+      "t": "Version roulette",
+      "d": "Several copies of the same tracker exist, and nobody is sure which one is current."
+     },
+     {
+      "t": "The same fact typed repeatedly",
+      "d": "A technician's name, a job PO or an instrument serial is entered separately in every file it appears in."
+     },
+     {
+      "t": "Key-person dependency",
+      "d": "Certain files only make sense to whoever built them, which makes holidays a risk."
+     },
+     {
+      "t": "Checks done by eye",
+      "d": "Whether a technician is qualified or an instrument calibrated is confirmed by someone comparing sheets side by side."
+     },
+     {
+      "t": "No single picture",
+      "d": "A simple question such as how much won work is unbilled takes a morning of collation to answer."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What spreadsheet sprawl costs as you grow",
+    "items": [
+     {
+      "t": "Errors in the joins",
+      "d": "Mistakes happen not inside a sheet but in the copy between sheets: the wrong rate, a transposed serial, a missed leave entry."
+     },
+     {
+      "t": "Senior time on clerical work",
+      "d": "Operations managers and Level IIIs spend hours collating rather than planning work or reviewing technique."
+     },
+     {
+      "t": "Fragile audits",
+      "d": "Evidence spread across files is slow to assemble and easy to get partly wrong under time pressure."
+     },
+     {
+      "t": "A ceiling on growth",
+      "d": "The business can only take on as much work as the people joining the spreadsheets can hold in their heads."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Enter each fact once and let the apps share it",
+    "paragraphs": [
+     "Atlantis NDT ERP replaces the joins rather than the people. Technicians are employee records with an NDT profile, and their certifications and vision tests sit on that record. Instruments are serial records with calibration history. A job is a project with its PO, site, methods and crew. Because these are the same records everywhere, a timesheet can warn on an invalid certificate, dispatch can refuse a double-booked serial, and an invoice can carry the PO without anyone copying it.",
+     "The Business overview dashboard gives the owner the cross-company view that used to need collation: confirmed quotations, open quotations awaiting the customer or past validity, quotation win rate, confirmed work not yet invoiced, invoiced, collected, receivables and overdue, with company and currency filters and period selection. Tabs separate sales and quotations, invoices and cash, training, enquiries and operations, and a needs-attention tab lists what has slipped.",
+     "Moving off spreadsheets is a project, not a switch. Data is cleaned and imported, rules are agreed and people are trained on the parts they use. Many companies start with a few apps, such as Certificates, Asset Management and Timesheets, and add the rest later. Some teams run the old tracker alongside for a short period until they trust the new register, which is sensible."
+    ],
+    "steps": [
+     {
+      "t": "List the spreadsheets",
+      "d": "Inventory every tracker in use, who owns it and which other files it gets compared against."
+     },
+     {
+      "t": "Start where the joins hurt",
+      "d": "Begin with the apps that remove the most re-keying, often certificates, equipment and timesheets."
+     },
+     {
+      "t": "Import, do not retype",
+      "d": "Existing registers are cleaned and imported, so the first day starts with your real data."
+     },
+     {
+      "t": "Retire files deliberately",
+      "d": "Once a register is live and trusted, archive the spreadsheet it replaced so nobody keeps updating both."
+     },
+     {
+      "t": "Add apps in sequence",
+      "d": "Bring in quoting, dispatch, reports and invoicing as each team is ready, connecting them as you go."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "dashboards",
+     "why": "Business overview with quotation, billing, cash and needs-attention views across companies and currencies."
+    },
+    {
+     "app": "employees",
+     "why": "One technician record with NDT profile, documents and availability, instead of a folder per person."
+    },
+    {
+     "app": "project",
+     "why": "The job record that quotes, timesheets, reports and invoices all point back to."
+    },
+    {
+     "app": "quotations",
+     "why": "Structured quotes with job type, site, dates and codes that convert into the job without retyping."
+    }
+   ],
+   "dashboardTab": "sales",
+   "beforeAfter": [
+    {
+     "before": "A tracker per department, joined by hand.",
+     "after": "Shared records read by every app that needs them."
+    },
+    {
+     "before": "Qualification checked by comparing sheets.",
+     "after": "A timesheet warning when a certificate is not valid."
+    },
+    {
+     "before": "Unbilled work found by a morning of collation.",
+     "after": "A confirmed-not-invoiced card on the Business overview."
+    },
+    {
+     "before": "Files only their author understands.",
+     "after": "Records with defined fields and role-based access."
+    }
+   ],
+   "faq": [
+    {
+     "q": "When should an NDT company stop running on spreadsheets?",
+     "a": "Usually when keeping files consistent with each other takes more effort than the work they track, or when errors start appearing in the copying between files rather than inside any one sheet. Growth, a second base and audit pressure tend to bring that point forward."
+    },
+    {
+     "q": "Do we have to move everything at once?",
+     "a": "No. Many companies start with Certificates, Asset Management and Timesheets and add the other apps later. The connections between apps apply as each one is added."
+    },
+    {
+     "q": "Will our existing data come across?",
+     "a": "Yes. We import your current registers, including technicians, certificates, equipment and open invoices, during implementation, so day one begins with real records rather than an empty system."
+    },
+    {
+     "q": "Can the platform handle more than one company or currency?",
+     "a": "The Business overview dashboard has company and currency filters, so a group running more than one entity can view them separately or together."
+    },
+    {
+     "q": "Can we try before committing?",
+     "a": "Yes. You can start on a free trial, and both a guided demo and a quote are available on request."
+    }
+   ],
+   "related": [
+    "/erp",
+    "/ndt-inspection-software",
+    "/erp/apps/dashboards"
+   ]
+  },
+  {
+   "slug": "paper-training-and-ojt-records",
+   "title": "Training and OJT Hours Still on Paper? | Atlantis NDT",
+   "description": "Classroom hours on sign-in sheets, OJT in notebooks, and a Level III rebuilding it all for the audit. How to keep SNT-TC-1A training evidence on one record.",
+   "h1": "When training and OJT records still live on paper",
+   "eyebrow": "Training records",
+   "primaryQuery": "ndt training and ojt records on paper",
+   "answer": "Paper training records fail when a Level III must prove a technician met the training and experience your written practice requires, and the evidence is spread across sign-in sheets, logbooks and emails. Keep course completions and quiz results in a learning portal, and OJT hours, training hours and exam scores on each certification record.",
+   "problem": {
+    "headline": "Why training evidence is so hard to produce",
+    "paragraphs": [
+     "Under an employer-based scheme such as SNT-TC-1A, your written practice sets the training and experience a technician needs before certification at each level, and your company has to be able to show it. In many inspection firms that showing depends on paper: classroom sign-in sheets in a box file, OJT hours in a trainee's logbook countersigned when someone remembers, quiz papers marked by hand and a Level III's own notes on who sat which practical.",
+     "The records are usually honest. They are just hard to add up. A trainee rotating between shutdowns accumulates hours under several supervisors at several sites, some written down and some not. A refresher held on a wet afternoon in the workshop never makes it into the file. When the trainee is ready for examination, or an auditor samples a Level II's qualification, someone has to reconstruct the history from fragments and hope the arithmetic holds.",
+     "Field schedules make classroom training fragile as well. Sessions are cancelled because half the crew is mobilised, new hires wait for a trainer to be free, and practice on real specimens competes with paying work for the same calibration blocks and flawed samples."
+    ],
+    "symptoms": [
+     {
+      "t": "Logbooks in lockers",
+      "d": "OJT hours are recorded in personal notebooks that travel with the trainee and occasionally go missing."
+     },
+     {
+      "t": "Sign-in sheets as proof",
+      "d": "The only evidence a course happened is a signed sheet in a box file, with no record of what was covered or assessed."
+     },
+     {
+      "t": "Hand-marked quizzes",
+      "d": "Question papers are photocopied and marked manually, so results are slow and rarely kept in a usable form."
+     },
+     {
+      "t": "Reconstruction before exams",
+      "d": "Before a trainee is examined, the Level III spends hours adding up experience from scattered records."
+     },
+     {
+      "t": "Practice crowded out",
+      "d": "Trainees get little scanning practice because specimens and instruments are committed to client work."
+     }
+    ]
+   },
+   "cost": {
+    "headline": "What paper training records put at risk",
+    "items": [
+     {
+      "t": "Qualification you cannot evidence",
+      "d": "If training and experience cannot be shown against the written practice, an auditor can question the certification itself, not only the paperwork."
+     },
+     {
+      "t": "Slower progression",
+      "d": "Trainees wait longer for examination because nobody can confirm quickly that they have met the requirements."
+     },
+     {
+      "t": "Level III time lost",
+      "d": "Your most qualified person spends evenings on arithmetic and filing instead of teaching and examining."
+     },
+     {
+      "t": "Records that leave with people",
+      "d": "When a supervisor or trainee moves on, the notebooks and local files that held the evidence often go too."
+     }
+    ]
+   },
+   "solution": {
+    "headline": "Put the learning and the hours on the technician record",
+    "paragraphs": [
+     "The eLearning app gives you a course portal organised into Level I, Level II and Level III sections, with video lessons played from your OneDrive or SharePoint library under download protection, quizzes that can import question banks from Word, completion certificates and a dashboard for each learner. Admins create accounts and revoke access when someone leaves. Each enrolled learner also gets a section that opens Practical NDT, with UT, PAUT, RT, MT, PT, VT, ET and TOFD scenarios on virtual welds, pipes, vessels and castings.",
+     "Formal qualification evidence lives in the Certificates app. Each certification records OJT hours, training hours and whether the exam was passed, and exam sheets hold general, specific and practical scores against a passing score set to your written practice. Certificate templates can hold the minimum OJT and training hours for each scheme, so the Level III can see from the employee record where each trainee stands. How course completions feed training hours is agreed during implementation.",
+     "Two boundaries matter. A course completion certificate is not NDT certification; certification remains the employer's decision under the written practice, with Level III oversight. And practice in a simulator builds familiarity, but it is neither the on-the-job experience a scheme requires nor a substitute for the practical examination on real parts."
+    ],
+    "steps": [
+     {
+      "t": "Mirror the written practice",
+      "d": "Agree course sections, completion rules and the minimum hours for each scheme so the system reflects your document."
+     },
+     {
+      "t": "Bring existing material in",
+      "d": "Connect the video library and import Word question banks rather than building courses from nothing."
+     },
+     {
+      "t": "Enrol and practise",
+      "d": "Invite trainees to their level's course and switch on Practical NDT access so practice sits between modules."
+     },
+     {
+      "t": "Record hours as they accrue",
+      "d": "Supervisors confirm OJT and training hours on the certification record instead of in a personal logbook."
+     },
+     {
+      "t": "Examine with the evidence ready",
+      "d": "Before examination, the Level III reviews hours, quiz results and exam sheets in one place, then decides."
+     }
+    ]
+   },
+   "modules": [
+    {
+     "app": "elearning",
+     "why": "Level-structured course portal with video lessons, imported quizzes, completion certificates and Practical NDT access."
+    },
+    {
+     "app": "certificates",
+     "why": "OJT hours, training hours and exam sheets with general, specific and practical scores on each certification."
+    },
+    {
+     "app": "surveys",
+     "why": "Competency questionnaires and new-hire baseline checks that help the Level III decide what extra training is needed."
+    },
+    {
+     "app": "team-assignments",
+     "why": "Training weeks recorded on the availability calendar, so trainees are not dispatched by mistake."
+    }
+   ],
+   "dashboardTab": "certifications",
+   "beforeAfter": [
+    {
+     "before": "OJT hours in a personal logbook.",
+     "after": "OJT and training hours recorded on the certification record."
+    },
+    {
+     "before": "Classroom attendance proved by a sign-in sheet.",
+     "after": "Course progress and completion kept for each learner in the portal."
+    },
+    {
+     "before": "Question papers photocopied and hand-marked.",
+     "after": "Quizzes built from imported question banks, with results stored."
+    },
+    {
+     "before": "Practice limited by spare specimens.",
+     "after": "Simulator scenarios between lessons, alongside practicals on real parts."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How should an NDT company record OJT hours for SNT-TC-1A?",
+     "a": "Against the technician's certification for the relevant method, confirmed by a supervisor as the hours accrue rather than reconstructed later. Your written practice defines what counts and who may confirm it; the system records it consistently."
+    },
+    {
+     "q": "Does completing an eLearning course certify a technician?",
+     "a": "No. A completion certificate shows a course was finished. Certification is the employer's decision under its written practice, based on training, experience and examination, with Level III oversight."
+    },
+    {
+     "q": "Do Practical NDT simulator sessions count as experience?",
+     "a": "They should not be treated as on-the-job experience. Simulator practice is training and familiarisation, and whether any of it counts toward training hours is for your written practice to define."
+    },
+    {
+     "q": "Can we use our existing training videos and question banks?",
+     "a": "Yes. Videos play from OneDrive or SharePoint with download protection, and Word question banks can be imported into quizzes for your Level III to review."
+    },
+    {
+     "q": "Can we sell courses to outside learners?",
+     "a": "Yes. Online course sales are supported through the portal, while internal courses stay private. A demo is on request."
+    }
+   ],
+   "related": [
+    "/erp/ndt-personnel-certification-tracking",
+    "/erp/apps/elearning",
+    "/erp/apps/certificates"
+   ]
+  }
+ ]
+}

@@ -19,6 +19,7 @@
  */
 
 export const CURATED_CITY_SLUGS: Set<string> = new Set([
+  'oak-ridge','richland','augusta','peoria','memphis','kitimat','kincardine','sudbury','st-johns','monterrey', // ERP North America 2026-11-06
   // ── USA — Top 25 Industrial/Energy Hubs ──────────────────────────
   'houston',
   'new-orleans',
@@ -357,6 +358,7 @@ export const DT_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have an /ndt-erp-{slug} page. */
 export const ERP_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'baltimore','indianapolis','oak-ridge','richland','san-diego','augusta','peoria','memphis','kitimat','kincardine','sudbury','winnipeg','st-johns','monterrey', // ERP North America 2026-11-06
   'birmingham','portland','newark','billings','casper','williston','salt-lake-city','freeport','gary','tampa','jacksonville', // ERP US push 2026-08-06
   'map-ta-phut','rayong','ulsan','yeosu','daesan','kawasaki','yokkaichi','mailiao','karachi','colombo','antwerp','wilhelmshaven','ludwigshafen','leuna','tarragona','sines','porvoo','gdansk','schwechat','le-havre','jazan','rabigh','sitra','skikda','arzew','mohammedia','mangalore','paradip','panipat','dahej','cartagena','talara','esmeraldas','tula','salina-cruz','mombasa','pointe-noire','whiting','garyville','toledo-ohio', // scale add 2026-07-24
   'adelaide','geelong','kwinana','mackay','wollongong','new-plymouth','whangarei','tauranga','saint-john','regina','saskatoon','nanticoke', // AU/NZ/CA add 2026-07-24

@@ -351,6 +351,8 @@ export const CONSULTING_ICONS = {
   [P.audit]: 'ClipboardList', [P.sub]: 'Handshake', [P.snt]: 'GraduationCap',
   [P.docs]: 'FileText', [P.reg]: 'Scale', [P.iso]: 'BadgeCheck',
   [L3]: 'Award', '/ndt-written-practice-development': 'BookOpen', '/consulting/ndt-technical-procedure-development': 'FileCheck',
+  // 2026-11-06: new service cards reuse icons the crawler and React already ship.
+  '/consulting/ndt-procedure-qualification-demonstration': 'BadgeCheck', '/consulting/ndt-level-iii-documentation': 'FileText', '/consulting/ndt-audit-documentation': 'ClipboardList',
 };
 
 export const CONSULTING_SECTION = createServiceSection({
@@ -372,6 +374,24 @@ export const CONSULTING_SECTION = createServiceSection({
 export const CONSULTING_PAGES = CONSULTING_SECTION.PAGES;
 export const CONSULTING_PATHS = CONSULTING_SECTION.PATHS;
 
+// 2026-11-06 (owner): procedure qualification & demonstration, Level III documentation and
+// audit documentation join the consulting services (depth pages in src/data/depth-pages.json).
+const Q = {
+  qual: '/consulting/ndt-procedure-qualification-demonstration',
+  l3docs: '/consulting/ndt-level-iii-documentation',
+  auditDocs: '/consulting/ndt-audit-documentation',
+};
+export const L3_DOC_PAGES = [
+  ['/consulting/ndt-vision-examination-records', 'Vision examination records'],
+  ['/consulting/ndt-training-records-and-certificates', 'Training records & certificates'],
+  ['/consulting/ndt-experience-logs', 'Experience (OJT) logs'],
+  ['/consulting/project-specific-ndt-procedures', 'Project-specific procedures'],
+  ['/consulting/ndt-bridging-documents', 'Bridging documents'],
+  ['/consulting/ndt-risk-assessments', 'NDT risk assessments'],
+  ['/consulting/ndt-audit-documentation', 'Audit documentation'],
+  ['/consulting/custom-ndt-documents', 'Custom documents'],
+];
+
 /** "NDT Level III consulting services" card block on /consulting and the Level III page. */
 export const CONSULTING_SERVICES_BLOCK = {
   h2: 'NDT Level III consulting services',
@@ -383,6 +403,9 @@ export const CONSULTING_SERVICES_BLOCK = {
     { href: P.snt, label: 'SNT-TC-1A training programme setup', text: 'Written practice, training, experience records, examinations and certification records set up end to end.' },
     { href: '/ndt-written-practice-development', label: 'Written practice development', text: 'A written practice drafted or revised to the current SNT-TC-1A edition and your scope.' },
     { href: '/consulting/ndt-technical-procedure-development', label: 'Procedure development', text: 'Method procedures and technique sheets written to the governing code and approved by a Level III.' },
+    { href: Q.qual, label: 'Procedure qualification & demonstration', text: 'Procedures proven on representative samples and demonstrated to the client or Level III before production work.' },
+    { href: Q.l3docs, label: 'Level III documentation', text: 'Vision and training records, experience logs, project-specific procedures, bridging documents, risk assessments and custom documents.' },
+    { href: Q.auditDocs, label: 'Audit documentation', text: 'The evidence pack a client, operator or ISO 9001 auditor asks for, assembled and checked before the audit.' },
     { href: P.docs, label: 'Documentation requirements', text: 'The document set an NDT programme needs, who signs each document and how long to keep it.' },
     { href: P.reg, label: 'Regulatory compliance', text: 'NDT programmes mapped against OSHA PSM, PHMSA, ASME and NBIC, FAA, NRC and class rules.' },
     { href: P.iso, label: 'ISO 9001, 17020 & 17025 requirements', text: 'Preparation for ISO 9001 certification or ISO/IEC 17020 and 17025 accreditation.' },
@@ -403,6 +426,8 @@ export const CONSULTING_NAV = {
     { name: 'SNT-TC-1A Training Programme Setup', path: P.snt },
     { name: 'Written Practice Development', path: '/ndt-written-practice-development' },
     { name: 'Procedure Development', path: '/consulting/ndt-technical-procedure-development' },
+    { name: 'Procedure Qualification & Demonstration', path: Q.qual },
+    { name: 'Level III Documentation', path: Q.l3docs, children: L3_DOC_PAGES.map(([path, name]) => ({ name, path })) },
     { name: 'Documentation Requirements', path: P.docs },
     { name: 'Regulatory Compliance', path: P.reg },
     { name: 'ISO 9001, 17020 & 17025', path: P.iso },
@@ -419,6 +444,7 @@ export const CONSULTING_NAV = {
 const T = {
   audit: [P.audit, 'Audit consulting'], sub: [P.sub, 'Client & subcontractor approval audits'], snt: [P.snt, 'SNT-TC-1A training programme setup'],
   docs: [P.docs, 'Documentation requirements'], reg: [P.reg, 'Regulatory compliance'], iso: [P.iso, 'ISO 9001, 17020 & 17025 requirements'],
+  qual: [Q.qual, 'Procedure qualification & demonstration'], l3docs: [Q.l3docs, 'Level III documentation'], auditDocs: [Q.auditDocs, 'Audit documentation'],
 };
 const TOPIC_FAMILIES = [
   [/^\/consulting\/level-iii-audit-support-[a-z-]+$/, ['audit', 'docs', 'sub']],
@@ -427,7 +453,10 @@ const TOPIC_FAMILIES = [
   [/^\/consulting\/(?:iacs-service-supplier-approval|utm-operator-qualification-class-approval|esp-survey-readiness-consulting|aerospace-responsible-level-iii|navsea-ndt-requirements-shipyard|aar-m-1003-ndt-tank-car-facility|faa-part-145-repair-station-ndt)$/, ['sub', 'reg', 'audit']],
   [/^\/consulting\/(?:osha-psm-mechanical-integrity-ndt|nqa-1-nuclear-supplier-ndt-program|nuclear-ndt-consulting|offshore-ndt-consulting|energy-utilities-ndt-consulting|aviation-ndt-consulting)$/, ['reg', 'audit', 'docs']],
   [/^\/consulting\/(?:ndt-program-for-a-startup-inspection-company|ndt-examination-question-bank-development|ndt-level-3-exam-oversight|multi-site-ndt-program-harmonisation|ndt-level-iii-succession-planning)$/, ['snt', 'docs', 'audit']],
-  [/^\/consulting\/(?:ndt-procedure-qualification-demonstration|outside-ndt-level-3-can-and-cannot-do|ndt-level-3-resigned-what-to-do)$/, ['docs', 'snt', 'audit']],
+  [/^\/consulting\/ndt-procedure-qualification-demonstration$/, ['l3docs', 'docs', 'snt', 'audit']],
+  [/^\/consulting\/(?:outside-ndt-level-3-can-and-cannot-do|ndt-level-3-resigned-what-to-do)$/, ['docs', 'snt', 'audit']],
+  [/^\/consulting\/ndt-level-iii-documentation$/, ['qual', 'auditDocs', 'docs', 'snt']],
+  [/^\/consulting\/(?:ndt-vision-examination-records|ndt-training-records-and-certificates|ndt-experience-logs|project-specific-ndt-procedures|ndt-bridging-documents|ndt-risk-assessments|ndt-audit-documentation|custom-ndt-documents)$/, ['l3docs', 'qual', 'docs', 'audit']],
   [/^\/(?:ndt-written-practice-development|consulting\/ndt-technical-procedure-development)$/, ['snt', 'docs', 'audit', 'iso']],
 ];
 export function consultingTopicLinksFor(path) {

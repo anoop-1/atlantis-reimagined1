@@ -173,6 +173,7 @@ export const Navigation = () => {
                                        <div className="mt-4 pt-3 border-t flex flex-wrap gap-x-6 gap-y-1 text-sm">
                                           <Link to="/erp/apps" className="font-semibold text-primary hover:underline">See all {erpCatalog.apps.length} ERP apps →</Link>
                                           <Link to="/erp/apps#custom" className="text-gray-600 hover:text-primary">Custom apps on request →</Link>
+                                          <Link to="/erp/solutions" className="text-gray-600 hover:text-primary">Problems we solve →</Link>
                                        </div>
                                     </div>
                                  </div>
@@ -359,6 +360,9 @@ export const Navigation = () => {
                                              ))}
                                              <Link to="/erp/apps" className="col-span-2 py-1 text-sm font-semibold text-primary" onClick={() => setIsOpen(false)}>
                                                 All {erpCatalog.apps.length} ERP apps →
+                                             </Link>
+                                             <Link to="/erp/solutions" className="col-span-2 py-1 text-sm text-gray-600" onClick={() => setIsOpen(false)}>
+                                                Problems we solve →
                                              </Link>
                                              <Link to="/erp/apps#custom" className="col-span-2 py-1 text-sm text-gray-600" onClick={() => setIsOpen(false)}>
                                                 Custom apps on request →

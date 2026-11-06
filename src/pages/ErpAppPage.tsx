@@ -15,6 +15,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import NotFound from "@/pages/NotFound";
 import catalog from "@/data/erp-apps-catalog.json";
+import ErpDashboardPreview from "@/components/erp/ErpDashboardPreview";
+import { MODULE_DASHBOARD_TAB } from "@/data/erp-module-dashboards-2026-11.mjs";
 
 interface AppPageData {
   h1: string;
@@ -130,13 +132,19 @@ export default function ErpAppPage() {
             className="container mx-auto px-6 pt-12 max-w-4xl prose prose-lg prose-headings:font-bold prose-a:text-primary"
             dangerouslySetInnerHTML={{ __html: partA }}
           />
+          {/* 2026-11-06: sample dashboard for the NDT modules (crawler: described figure, scripts/erp-solutions-pages.mjs). */}
+          {MODULE_DASHBOARD_TAB[app.slug] && !region && (
+            <section className="container mx-auto px-4 sm:px-6 max-w-5xl py-8" aria-label="Sample dashboard">
+              <ErpDashboardPreview initialTab={MODULE_DASHBOARD_TAB[app.slug]} />
+            </section>
+          )}
           {partB && (
             <>
               <aside className="container mx-auto px-6 max-w-4xl my-8">
                 <div className="rounded-xl bg-primary text-primary-foreground p-6 md:flex items-center justify-between gap-6">
                   <div>
                     <p className="text-xl font-bold">See {app.name} running on your own jobs</p>
-                    <p className="opacity-90">A 30-minute walkthrough set up around your methods, crews and clients.</p>
+                    <p className="opacity-90">A short walkthrough set up around your methods, crews and clients.</p>
                   </div>
                   <Link
                     to={demo}

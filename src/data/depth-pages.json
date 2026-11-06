@@ -96005,5 +96005,1478 @@
         "a": "Either works, provided the arrangement is written. Where an employer has no Level III on staff it can engage an outside agency Level III under a written agreement to write and approve the written practice, build and grade examinations and recommend certification. The employer still issues the certificates and keeps the records. Atlantis provides that ASNT Level III consulting in UT, RT, MT, PT and VT; [request a consultation](/contact)."
       }
     ]
+  },
+  {
+    "slug": "/consulting/ndt-level-iii-documentation",
+    "title": "NDT Level III Documentation: The Records Auditors Test",
+    "description": "Written practice, procedures, vision, training and OJT records, bridging documents, risk assessments and audit packs, drafted and reviewed by a Level III.",
+    "h1": "Level III documentation: every record behind a signed NDT report",
+    "answer": "Level III documentation is the record set that makes an NDT result defensible: the written practice, approved procedures and technique sheets, each technician's vision, training, experience, examination and certification records, and the project documents that tie them to a contract. Atlantis drafts, reviews and gap-checks that set, with technical approval by an ASNT NDT Level III.",
+    "expansion": "An inspection report is only as strong as the weakest record behind it. The technician who signed it needs a certification letter, and that letter rests on examination results, training hours, logged experience and a current vision examination. The procedure they followed needs Level III approval, a code edition that matches the contract and, where a code or client demands it, a qualification record. The job itself needs whatever the contract added: a project procedure, a bridging document to the client's rules, a task risk assessment. Under ASNT SNT-TC-1A the employer certifies and its written practice decides what each record must contain; ANSI/ASNT CP-189 turns much of that into firm requirements. Auditors test the set by taking one report and walking backwards through every link. This page maps the whole document set and points to a dedicated page for each part of it.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024, with Addendum); ANSI/ASNT CP-189 (2024); ANSI/ASNT CP-105 (2024); ASME BPVC Section V, Article 1; ISO 9001:2015 clause 7.5 (documented information).",
+    "table": {
+      "caption": "The Level III document set: what each record proves, who asks for it and who signs it",
+      "columns": [
+        "Document",
+        "What it proves",
+        "Who asks to see it",
+        "Who signs or owns it"
+      ],
+      "rows": [
+        [
+          "Written practice",
+          "How the employer trains, examines and certifies personnel, and what each level may do",
+          "Client supplier auditors, ISO 9001 registrars, code inspectors",
+          "The employer; reviewed and approved by its Level III"
+        ],
+        [
+          "Procedures and technique sheets",
+          "The examination is repeatable and matches the code edition and acceptance criteria on the contract",
+          "Authorized Inspectors, client NDT reviewers, third-party inspectors",
+          "A Level III certified in the method"
+        ],
+        [
+          "Procedure qualification records",
+          "The technique finds what it must, where a code or client demands proof",
+          "Authorized Inspector, owner's technical authority",
+          "Supervising Level III, with a named witness"
+        ],
+        [
+          "Vision examination records",
+          "The technician could see what the method requires on the dates they signed reports",
+          "Auditors sampling personnel files",
+          "The examiner the written practice authorizes"
+        ],
+        [
+          "Training records and certificates",
+          "Organized training in the method and level was completed, with hours, content and instructor",
+          "Auditors, clients approving named personnel",
+          "Training provider; accepted by the employer's Level III"
+        ],
+        [
+          "Experience (OJT) logs",
+          "Time in the method under qualified supervision, entry by entry",
+          "Auditors, new employers verifying a hire",
+          "Supervisor in the method; reviewed by the Level III"
+        ],
+        [
+          "Examination records",
+          "General, specific and practical examinations were taken, graded and passed",
+          "Auditors, anyone challenging a certification",
+          "The Level III who prepared and graded them"
+        ],
+        [
+          "Certification records",
+          "The employer certified the person for a method and level, with dates and expiry",
+          "Every client audit",
+          "The employer's certifying authority"
+        ],
+        [
+          "Project-specific procedures",
+          "The general procedure was adapted to this contract's code edition, materials and acceptance criteria",
+          "Client reviewers before mobilization",
+          "Level III in the method; client acceptance where the contract requires"
+        ],
+        [
+          "Bridging documents",
+          "The contractor's documents satisfy a client whose requirements differ",
+          "Operator quality or technical authority",
+          "Both parties' named signatories"
+        ],
+        [
+          "NDT risk assessments",
+          "Hazards and technical limitations were assessed before work started",
+          "Site HSE, permit issuers, owner's inspection lead",
+          "Contractor prepares; the site and licensee approve their parts"
+        ],
+        [
+          "Audit documentation packs",
+          "Evidence is current, indexed and traceable before the auditor arrives",
+          "Supplier auditors, prequalification reviewers, registrars",
+          "Quality manager; Level III for technical content"
+        ],
+        [
+          "Custom documents",
+          "Records are captured the same way every time, with every field traced to a requirement",
+          "Internal quality, clients reviewing report formats",
+          "Document owner named in the quality system"
+        ]
+      ],
+      "note": "Where the referencing code or contract assigns a signature differently, that assignment governs the job, and the written practice should explain how the two fit together."
+    },
+    "facets": [
+      {
+        "q": "What counts as NDT Level III documentation?",
+        "a": "Any document a Level III writes, approves or verifies as part of the NDT programme: the written practice, procedures, technique sheets, examination materials and grading, and the review of personnel qualification records before certification. Records the employer owns, such as certification letters and calibration logs, belong in the same set, because the Level III's approvals mean little without them."
+      },
+      {
+        "q": "Can an outside Level III approve our documents?",
+        "a": "Yes. SNT-TC-1A allows an employer to engage an outside agency, including an outside Level III, for technical work, while the employer remains the certifying authority. The outside Level III approves only within the methods they hold. Atlantis's ASNT NDT Level III covers UT, RT, MT, PT and VT; see [what an outsourced Level III covers](/consulting/ndt-consulting-level-iii)."
+      },
+      {
+        "q": "Does it matter whether we follow SNT-TC-1A or CP-189?",
+        "a": "It changes the language of your obligations. SNT-TC-1A is a recommended practice: the employer adopts it through a written practice, and once adopted its recommendations become the employer's own requirements. CP-189 is an ANSI standard written in mandatory terms. Contracts and codes name one or the other, sometimes a specific edition, and your documents must follow the one named."
+      },
+      {
+        "q": "Which edition of SNT-TC-1A should our documents cite?",
+        "a": "The one your written practice adopts, unless a code or contract names another. ASNT's current edition is SNT-TC-1A (2024, with Addendum), but construction codes reference particular editions and update on their own cycle. The written practice should state its edition, and a bridging note should cover any contract that calls up a different one."
+      },
+      {
+        "q": "Who owns the documents once Atlantis has drafted them?",
+        "a": "You do. Documents are issued under your document control, with your numbering, revision history and approval signatures, because the written practice and procedures are the employer's. Atlantis supplies editable files and a record of its review, so an auditor can see who drafted each document, who approved it and on what basis."
+      },
+      {
+        "q": "Where should a programme with no documents start?",
+        "a": "With the written practice, because every other record is measured against it: it sets the levels, the training and experience the programme requires, the examinations and the vision tests. Procedures come next, then personnel files, then project documents. Our [written practice development](/ndt-written-practice-development) service and the free [written practice template](/resources/ndt-written-practice-template) cover the first step."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One signed report, traced backwards",
+        "paragraphs": [
+          "Every NDT document exists to answer one question about one report: was this examination valid? An auditor pulls a report at random and asks who signed it. The technician's certification letter must name the method and level and be in date on the report date. Behind the letter sit the examination records, the training record, the experience log and the vision examination. If any of those is missing or out of date, the letter loses its footing, and so does every report it covered.",
+          "The second trace runs through the procedure. The report names a procedure and revision; that procedure needs approval by a Level III in the method, a code edition that matches the contract and acceptance criteria the client recognises. Where a code or client requires a demonstration, there must be a qualification record too. The third trace is equipment: the instrument, probe, block or indicator named on the report must match a current calibration or verification record. Our documentation work is organised around these three traces, because that is how documents are tested."
+        ]
+      },
+      {
+        "heading": "The personnel file: five records that make one certification",
+        "paragraphs": [
+          "A certification under an employer-based scheme is a decision the employer makes on evidence, and the evidence is five records: proof of organized training in the method and level, an experience log showing time in the method under qualified supervision, general, specific and practical examination results, a current vision examination, and the certification letter itself. Each has its own failure modes and its own page: [vision examination records](/consulting/ndt-vision-examination-records), [training records and certificates](/consulting/ndt-training-records-and-certificates) and [experience logs](/consulting/ndt-experience-logs).",
+          "The certification letter is where the five meet. It should state the method, the level, any technique or product limitation the written practice imposes, the certification date, the expiry and the signature of the employer's certifying authority. A letter that says only Level II UT, with no expiry and no reference to the examinations behind it, is the point at which a client auditor stops reading and starts writing. We review existing files against the written practice clause by clause before anyone else does."
+        ]
+      },
+      {
+        "heading": "Procedures, technique sheets and qualification records",
+        "paragraphs": [
+          "General procedures cover a method across the codes, materials and thickness ranges a company normally works in. They are written to the governing code's requirements for a written procedure and approved by a Level III certified in the method; our [technical procedure development](/consulting/ndt-technical-procedure-development) page covers that drafting. Technique sheets and scan plans sit underneath, fixing the settings for a particular weld, component or geometry so two technicians examining the same joint produce comparable results.",
+          "Two procedure documents sit at the edges of the set. Where a construction code or client requires proof that a technique detects what it must, the procedure needs a demonstration and a qualification record, covered on our [procedure qualification by demonstration](/consulting/ndt-procedure-qualification-demonstration) page. Where a contract names its own code edition, client specification or acceptance criteria, the general procedure is adapted into a [project-specific procedure](/consulting/project-specific-ndt-procedures) that cites the document it derives from."
+        ]
+      },
+      {
+        "heading": "Contract documents: bridging and risk",
+        "paragraphs": [
+          "Contracts introduce requirements no general programme anticipates. An operator may require a certification scheme the contractor does not use, an added practical examination, a different edition of ASME Section V or its own report format. A [bridging document](/consulting/ndt-bridging-documents) lists each of those requirements, shows where the contractor's documents meet it and records how each gap is closed, so both sides sign the same understanding before mobilization rather than arguing about it during the job.",
+          "Site work also needs a task [risk assessment](/consulting/ndt-risk-assessments). For NDT that means the personal hazards of the job, from radiography exposure planning to confined space entry, and the technical risk that the chosen method misses the damage the owner is worried about. Atlantis prepares and reviews that documentation; licensing, permits and site HSE approval remain with the radiation licensee and the client."
+        ]
+      },
+      {
+        "heading": "Audit packs and documents made to order",
+        "paragraphs": [
+          "When an audit is booked, the documents above are reassembled into the order the auditor will ask for them. An [audit documentation pack](/consulting/ndt-audit-documentation) indexes personnel files, procedure approvals, calibration evidence and sample reports to the client's questionnaire or the registrar's clause list, and a mock audit tests the pack before the real one. The free [client audit evidence pack checklist](/resources/client-audit-evidence-pack-checklist) shows the structure.",
+          "The rest of the set is paperwork every programme needs and no standard supplies in finished form: report templates, calibration and verification logs, work instructions, quality-manual sections and client-specific checklists. These [custom documents](/consulting/custom-ndt-documents) are drafted to your written practice and procedures so that each field on a form traces to a requirement, and technicians are not asked to record anything nobody will read."
+        ]
+      },
+      {
+        "heading": "Who signs what, and where an outside Level III stops",
+        "paragraphs": [
+          "Signatures follow the written practice and the referencing code. The employer certifies personnel; Atlantis does not, and no outside consultant can. The Level III approves procedures and technique documents, prepares and grades examinations, and reviews qualification evidence in the capacity the written practice assigns. An outside Level III takes on those roles only within the methods they hold. Atlantis's ASNT NDT Level III holds UT, RT, MT, PT and VT, and the approvals we sign are limited to those five.",
+          "For any other method, eddy current for example, we draft documents to the same standard and they are approved by a Level III certified in that method, frequently the client's own. Atlantis is certified to ISO 9001 and ISO 14001. It is not a personnel certification body and issues no certifications under any scheme, which keeps the line between the consultant who drafts and the employer who certifies clear in the record."
+        ]
+      },
+      {
+        "heading": "How a documentation engagement runs",
+        "paragraphs": [
+          "We start from what you have. Send the written practice, a sample of personnel files, the procedures in use and the specification of the contract or audit that prompted the call. We return a gap list that separates what would stop an approval from what an auditor would merely note, and from that list we agree which documents to repair, which to replace and which to write new. Drafts are reviewed by an ASNT NDT Level III before they reach you for approval.",
+          "Every engagement is scoped to the documents you need rather than a fixed package, and every deliverable arrives as an editable file ready for your document control. If you are not sure which part of the set is weakest, tell us which audit, client or contract is coming and we will tell you where we would look first. [Ask for a documentation quote](/contact?service=consulting&subject=Level%20III%20documentation) and we will scope it from your existing records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do we have to rewrite our documents when ASNT publishes a new SNT-TC-1A edition?",
+        "a": "No. A new edition changes nothing until your written practice adopts it or a code or contract calls it up. When you decide to move, a clause-by-clause comparison shows which documents change; the written practice and a handful of forms usually carry most of it. We run that comparison and draft the revisions."
+      },
+      {
+        "q": "Can Atlantis certify our technicians?",
+        "a": "No. Under SNT-TC-1A and CP-189 certification is the employer's act. An outside Level III can prepare and grade examinations, review training, experience and vision evidence, and sign in the capacity your written practice assigns, but the certification letter is issued by your own certifying authority."
+      },
+      {
+        "q": "Can you work inside our document management system?",
+        "a": "Yes. We deliver editable files to your numbering and templates, or specify the fields so your system administrator can build them. We do not need to host your documents and prefer not to: controlled copies should live in one place, under your control."
+      },
+      {
+        "q": "What do you need from us to quote?",
+        "a": "The written practice, the procedure list, two or three representative personnel files, and the contract, client specification or audit notice behind the request. From those we can see how far the set is from where it needs to be and scope the work to match."
+      },
+      {
+        "q": "Do you cover methods other than UT, RT, MT, PT and VT?",
+        "a": "We draft documents for other methods, but our Level III approval is limited to the five methods held. For eddy current or any other method, approval comes from a Level III certified in it, which can be your own Level III or one you nominate."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-vision-examination-records",
+    "title": "NDT Vision Examination Records: Acuity and Color Contrast",
+    "description": "What an NDT vision examination record must show: examiner, chart, correction, result, date and signature, with the interval your written practice sets.",
+    "h1": "Vision examination records that hold up when an auditor checks the date",
+    "answer": "An NDT vision examination record proves a technician passed near-vision acuity and color contrast tests on a stated date, using a stated chart or method, with or without correction, given by someone the written practice authorizes, and signed. The retest interval comes from your written practice and the governing document edition it adopts.",
+    "expansion": "ASNT SNT-TC-1A and ANSI/ASNT CP-189 both call for two vision examinations. Near-distance acuity is tested on a Jaeger chart or an equivalent the governing document accepts, in natural or corrected vision. Color contrast differentiation tests whether the examinee can distinguish the colors or shades of gray used in the method, as the employer specifies. Neither result means much in an audit unless the record shows how the test was done and by whom. The retest interval is not a number to copy from a training handout: it comes from the employer's written practice, which follows a particular edition of SNT-TC-1A or CP-189, and a client specification can impose its own. Atlantis aligns the record form, the written practice clause and the due-date tracking so all three say the same thing, and reviews existing records for the gaps an auditor will find.",
+    "source": "ASNT SNT-TC-1A (2024, with Addendum), vision examination requirements; ANSI/ASNT CP-189 (2024); the employer's written practice; client specifications invoked by contract.",
+    "table": {
+      "caption": "Fields a vision examination record needs, and the audit question each one answers",
+      "columns": [
+        "Record field",
+        "What to write",
+        "Audit question it answers",
+        "Defect auditors find"
+      ],
+      "rows": [
+        [
+          "Examinee",
+          "Full name and the identifier used in the certification file",
+          "Is this the person who signed the reports?",
+          "Initials or a nickname with no link to the file"
+        ],
+        [
+          "Test type",
+          "Near-vision acuity and color contrast entered as separate results",
+          "Were both tests done, or only one?",
+          "A single pass box covering both"
+        ],
+        [
+          "Chart or method",
+          "The acuity chart used, and the color contrast test with the colors or shades it covered",
+          "Was the test the one the written practice specifies?",
+          "Eye test OK, with no chart named"
+        ],
+        [
+          "Conditions",
+          "Eye or eyes tested, distance as the chart designates, with or without correction",
+          "Did the technician pass under the conditions they work in?",
+          "Correction worn but not recorded"
+        ],
+        [
+          "Result",
+          "The line or score achieved and pass or fail against the written practice criterion",
+          "Does the result meet the stated criterion?",
+          "Pass ticked, result left blank"
+        ],
+        [
+          "Administered by",
+          "Name, role and the basis on which the written practice authorizes them",
+          "Was the examiner allowed to give the test?",
+          "A clinic stamp with no named examiner"
+        ],
+        [
+          "Date and next due",
+          "Test date for each test, and the due date calculated from the written practice clause",
+          "Was the record current on every report date?",
+          "No due date, or one taken from an edition the programme does not follow"
+        ],
+        [
+          "Review signature",
+          "Examiner signature, plus Level III or designee review where the written practice requires it",
+          "Did anyone check the record before filing?",
+          "Unsigned photocopy"
+        ]
+      ],
+      "note": "Calculate the due date from the clause in your own written practice, not from a remembered figure for a standard edition the programme may not use."
+    },
+    "facets": [
+      {
+        "q": "What must an NDT vision examination record include?",
+        "a": "The examinee's name and an identifier that matches the certification file, the two tests recorded separately, the chart or method used, whether correction was worn, the result against the written practice criterion, the date, the next due date, and the name and signature of the person who administered it. A clinic stamp with a pass tick answers none of those audit questions on its own."
+      },
+      {
+        "q": "How often must NDT vision examinations be repeated?",
+        "a": "As often as your written practice says, and the written practice takes its interval from the edition of SNT-TC-1A or CP-189 it adopts, or from a client specification that is stricter. The two tests do not necessarily share an interval. Check the clause in your own written practice before setting due dates; we align the record and the tracker to that clause."
+      },
+      {
+        "q": "Who is allowed to give an NDT vision examination?",
+        "a": "Whoever your written practice authorizes, within the limits of the governing document and any client specification. That can be an eye-care professional or a trained in-house designee. Either way the record should name the person and the file should hold the basis of their authorization, because an auditor who cannot see why the examiner was allowed to test will treat the result as unproven."
+      },
+      {
+        "q": "Can a technician pass the vision examination wearing glasses?",
+        "a": "Yes. Near-vision acuity can be met with natural or corrected vision. The record must say which, and the written practice should require that any correction used to pass is worn while performing and interpreting examinations. A record that hides the correction leaves a technician signing reports under conditions nobody tested."
+      },
+      {
+        "q": "Is color contrast differentiation the same as a color blindness test?",
+        "a": "Not necessarily. The requirement is the ability to distinguish the colors or shades of gray used in the methods the person is certified for, as the employer specifies. A general color vision test can serve if the written practice accepts it, but a method-specific test, such as reading red penetrant indications against white developer, is a legitimate route and is recorded as such."
+      },
+      {
+        "q": "What happens to reports signed after a vision record has lapsed?",
+        "a": "They are exposed. Retest the technician first, then identify every report signed between the due date and the new test, and record the lapse as a nonconformance under your quality system. Whether the client must be told is set by the contract. Do not backdate or re-sign anything; an honest trail is the only version an auditor can accept."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two tests, two entries on the record",
+        "paragraphs": [
+          "Near-vision acuity and color contrast differentiation test different abilities for different reasons. Acuity is about resolving fine detail at working distance: a hairline indication on a magnetic particle test, a small porosity image on a radiograph, a fine crack seen during visual testing. Color contrast is about telling one color or shade from another when an indication is defined by contrast with its background. A technician can pass one and fail the other, which is why the record needs two separate results rather than a single pass box.",
+          "Separate entries also matter because the two tests can fall due at different times. If the form records one combined date, the tracker can only calculate one due date, and one of the two tests will either be repeated needlessly or allowed to lapse unnoticed. Recording each test with its own date, method, result and next due date adds one line to the form and removes an entire class of audit finding."
+        ]
+      },
+      {
+        "heading": "The interval belongs to your written practice, not to a handout",
+        "paragraphs": [
+          "Training material, wall charts and forum posts quote retest intervals as if they were universal. They are not. Under SNT-TC-1A the employer sets the interval in its written practice, guided by the edition of the recommended practice it adopts. CP-189 states its own requirement in mandatory terms. A client specification can impose something stricter for work on its assets. The interval that applies to a given technician on a given contract is the one the governing documents for that work produce, and it should be written down in exactly one place.",
+          "That place is the written practice. The vision record should carry a due date calculated from that clause, and the tracking system should read the same clause. When the written practice moves to a new edition of SNT-TC-1A, or a contract imposes a stricter requirement, due dates for every technician need recalculating on the day the change takes effect. Atlantis aligns the record form, the written practice wording and the tracker, so none of them can quietly disagree with the others."
+        ]
+      },
+      {
+        "heading": "Designing a color contrast test around the methods you certify",
+        "paragraphs": [
+          "Because the requirement is tied to the colors or shades used in the method, the test should be designed around what technicians actually look at. For fluorescent magnetic particle and penetrant work, that is a bright indication against a dark background under UV-A light. For color contrast penetrant, it is red dye bleeding into white developer. For radiography, it is distinguishing densities or gray levels on film or a monitor. Visual testing can involve color cues such as heat tint or coating condition.",
+          "A written practice that specifies the color contrast test by method gives the examiner something concrete to administer and the auditor something concrete to check. Where a general color vision test is used instead, the written practice should say it is accepted and what result counts as a pass. Either route is defensible. What fails audits is a record that says only color vision normal, with nothing linking that statement to the methods the person signs reports in."
+        ]
+      },
+      {
+        "heading": "Who administers, and how to show they were allowed to",
+        "paragraphs": [
+          "The written practice should name who may administer vision examinations. Some employers send technicians to an eye-care professional; others train a designee, often a Level II or the quality coordinator, to give the tests in-house under the Level III's oversight. Both work if the written practice says so and the governing document and client specification allow it. The record must name the actual examiner, not just the clinic or department, and carry their signature.",
+          "For an in-house designee, keep evidence of how they were trained to give the test, who authorized them and when. Keep the test materials under control too: a faded or photocopied acuity chart, or a chart used at the wrong distance or in poor light, changes the test. Auditors who know the subject ask to see the chart. When a clinic administers the test, ask for a report that names the chart used and states the result in the terms your written practice criterion uses, or record the equivalence yourself."
+        ]
+      },
+      {
+        "heading": "How auditors test vision records",
+        "paragraphs": [
+          "An auditor rarely reads a vision record in isolation. They start from a report, find the technician, and check that both vision tests were current on the report date. Then they check that the record names a chart or method, that the examiner was authorized, that the result meets the written practice criterion, and that any correction used is recorded. For a recent hire, they ask where the record came from and whether the written practice allows a test given under a previous employer's programme to stand.",
+          "The second test is systemic: how does the company know a vision examination is due? A spreadsheet maintained by one person who is on leave, or a reminder set in a personal calendar, will be challenged. Auditors want to see due dates generated from the written practice clause, reviewed on a schedule and acted on before expiry. Our [audit documentation packs](/consulting/ndt-audit-documentation) include a vision-currency trace for every technician named in the pack."
+        ]
+      },
+      {
+        "heading": "Repairing missing, lapsed or borrowed records",
+        "paragraphs": [
+          "When a record is missing or lapsed, the repair sequence matters more than speed. Retest the technician, under an authorized examiner, with a properly completed record. Then determine the exposure: which reports were signed while the record was out of date or absent. Raise a nonconformance under the quality system, assess whether any of those reports needs review, and notify the client where the contract requires it. Nothing should be backdated, re-signed or quietly replaced, because a reconstructed record that looks original is worse than an honest gap.",
+          "Borrowed records are a quieter version of the same problem. A new hire arrives with a vision report from a previous employer, and it goes straight into the file. Whether that is acceptable is a written practice decision, and the written practice should say how recent such a test must be and whether the test is repeated on hire. Without that clause, the borrowed record is evidence of someone else's programme, not yours."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on vision records",
+        "paragraphs": [
+          "The work covers four things: a vision record form with separate fields for each test, chart or method, correction, result, examiner and due date; written practice wording that states the tests, the criteria, the authorized examiners and the interval for the edition you follow; a short instruction for in-house designees; and a review of existing records against all three, with a list of technicians whose files need attention. The wording is reviewed by an ASNT NDT Level III and approved by whichever Level III your written practice names.",
+          "Vision records are a small document with a long reach, since every report a technician signs depends on them. If you want to know whether yours would survive a client audit, send us the written practice and a handful of personnel files. [Request a quote for a vision record review](/contact?service=consulting&subject=Vision%20examination%20records) and we will scope it to the size of your team."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can we accept a vision examination from a technician's previous employer?",
+        "a": "Only if your written practice says you can and states the conditions, such as how recent the test must be and what the record must show. Without that clause, retest on hire. A previous employer's record shows their examiner and their criterion, which are not necessarily yours."
+      },
+      {
+        "q": "Does an optometrist's report satisfy the requirement?",
+        "a": "It can, if it names the chart or test used and gives the result in terms your written practice criterion can be checked against. Eye-care reports often use a different notation, so record the equivalence on your own form and have the Level III or designee review it before filing."
+      },
+      {
+        "q": "Should vision results sit in the certification file or a medical file?",
+        "a": "Keep the pass or fail result, the test, the examiner and the dates in the certification file, because auditors need them there. Keep any wider clinical detail separately, in line with the privacy rules where you operate. The certification file needs proof of fitness for the method, not a medical history."
+      },
+      {
+        "q": "Does a vision record need a Level III signature?",
+        "a": "Only if your written practice requires one. Asking the Level III or a designee to review each record before it is filed catches missing fields early. Whatever the rule, write it down and follow it, because an auditor tests the file against the written practice, not against habit."
+      },
+      {
+        "q": "Can vision due dates be tracked in our training or ERP system?",
+        "a": "Yes. Any system works if the due date is calculated from the written practice clause, the two tests are tracked separately and someone acts on the alert. The system is evidence of control only when its logic matches what the written practice says."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-training-records-and-certificates",
+    "title": "NDT Training Records and Certificates That Pass Audit",
+    "description": "Formal NDT training hour records, course outlines, certificates and instructor evidence, mapped to the method and level hours your written practice specifies.",
+    "h1": "Training records that show what was taught, by whom, for which level",
+    "answer": "An NDT training record proves a candidate completed organized training in a specific method and level: the hours, the outline covered, the dates, the provider, the instructor and any course assessment. A certificate on its own rarely shows all of that. The hours must meet what your written practice specifies, which SNT-TC-1A gives as recommendations.",
+    "expansion": "Under ASNT SNT-TC-1A, training hours by method and level are recommendations; the employer converts them into requirements in its written practice and can add to them. ANSI/ASNT CP-189 sets its training requirements in mandatory language, and ANSI/ASNT CP-105 (2024) defines the topical outlines that describe what a course should cover. The training record is the evidence that each candidate met the written practice before sitting examinations. It fails when it shows a course title but no hours, hours but no method or level, an outline nobody can match to the body of knowledge, online modules with no evidence of completion, or an instructor whose competence is undocumented. Atlantis builds the record set around your written practice: an hours ledger per candidate, method and level; outlines mapped to CP-105 topics; certificate and instructor-file templates; and an ASNT NDT Level III review of the records you already hold.",
+    "source": "ASNT SNT-TC-1A (2024, with Addendum), training requirements and recommended training tables; ANSI/ASNT CP-105 (2024) topical outlines; ANSI/ASNT CP-189 (2024); ASME BPVC Section V, Article 1; the employer's written practice.",
+    "table": {
+      "caption": "What a training certificate usually shows, against what the training record must show",
+      "columns": [
+        "Element",
+        "On a typical certificate",
+        "What the training record adds",
+        "Why an auditor asks"
+      ],
+      "rows": [
+        [
+          "Course",
+          "Course title and date",
+          "Method, level and the outline revision actually taught",
+          "A title does not prove the content suited the level sought"
+        ],
+        [
+          "Hours",
+          "A total, sometimes",
+          "Hours by method and level, net of breaks and non-method sessions, tallied against the written practice",
+          "Hours decide eligibility for examination"
+        ],
+        [
+          "Content",
+          "Rarely anything",
+          "Topics covered, mapped to CP-105 or to the outline the written practice adopts",
+          "Shows the body of knowledge was addressed"
+        ],
+        [
+          "Instructor",
+          "A signature, if any",
+          "Name and the qualification basis the written practice requires",
+          "Training by an unqualified instructor is open to challenge"
+        ],
+        [
+          "Assessment",
+          "A pass statement",
+          "Course test results, filed apart from certification examinations",
+          "A course quiz is not a certification examination"
+        ],
+        [
+          "Provider",
+          "Logo and address",
+          "Internal or outside provider, and the employer's documented acceptance of it",
+          "The employer stays responsible for training it accepts"
+        ],
+        [
+          "Delivery",
+          "Seldom stated",
+          "Classroom, on-site or self-paced online, and how completion was verified",
+          "Self-paced hours need evidence they were spent"
+        ],
+        [
+          "Acceptance",
+          "Nothing",
+          "Level III or designee review confirming the hours count toward this certification",
+          "Ties the training to a certification decision"
+        ]
+      ],
+      "note": "Keep every certificate. File it behind the training record as supporting evidence, never in place of it."
+    },
+    "facets": [
+      {
+        "q": "How many training hours does an NDT Level I or Level II need?",
+        "a": "The hours your written practice specifies. SNT-TC-1A gives recommended hours by method and level, CP-189 states requirements, and a client specification or code can add more for particular techniques. Because the figures differ by method, level and edition, we build each candidate's ledger directly from the table in your written practice rather than from a generic chart."
+      },
+      {
+        "q": "Is a training certificate enough evidence for an audit?",
+        "a": "Rarely. A certificate shows that a course happened. The training record must show it was the right course for the method and level, that the candidate completed the required hours, what content was covered, who taught it and that the employer accepted it. File the certificate as support and let the record carry the argument."
+      },
+      {
+        "q": "Do training hours count toward experience?",
+        "a": "No. SNT-TC-1A defines experience as work in the method under qualified supervision and excludes time spent in organized training programmes. Practical exercises inside a course are training, even when they involve real equipment and real parts. Keep the two ledgers separate; see our page on [experience logs](/consulting/ndt-experience-logs)."
+      },
+      {
+        "q": "Who may deliver NDT training under SNT-TC-1A?",
+        "a": "The employer's own staff or an outside provider, so long as the written practice describes how training is given and the employer accepts the provider. Auditors ask who taught the course and why that person was competent to. Record the answer in an instructor file: certifications held by method and level, and any teaching qualification the written practice requires."
+      },
+      {
+        "q": "Does self-paced online training count toward the hours?",
+        "a": "It can, if the written practice accepts it and the record proves completion. That means module-level completion data, time spent, assessments passed and a link to the candidate's identity, not just a final certificate. Hands-on skill still comes from practical training and experience, which online hours do not replace."
+      },
+      {
+        "q": "What is CP-105 and why does it matter to training records?",
+        "a": "ANSI/ASNT CP-105 (2024) sets out the topical outlines for NDT personnel qualification: the body of knowledge by method and level. Mapping each course outline to those topics lets an auditor see at a glance that the training covered what the level requires, and shows where a course leaves gaps the candidate must fill elsewhere."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Hours are the eligibility gate, so count them carefully",
+        "paragraphs": [
+          "Training hours decide when a candidate may sit examinations, which makes them the first number an auditor checks. The written practice should state the hours for each method and level, drawn from SNT-TC-1A's recommendations, CP-189's requirements or a client specification, and say whether hours earned for one level carry toward the next. The training record then tallies each candidate against that table. Without a tally, the auditor does the arithmetic from certificates, and the arithmetic rarely comes out the way the file assumed.",
+          "Count net hours in the method. A course that spends a morning on safety induction, site rules or company procedures does not deliver method hours for that morning, and a combined MT and PT course needs its hours split between the two by a rule the written practice states. When a candidate trains in a technique within a method, such as phased array within ultrasonics, the record should show those hours separately, because ASME Section V adds supplemental requirements for computerized imaging techniques and client specifications can add their own."
+        ]
+      },
+      {
+        "heading": "Course outlines mapped to the body of knowledge",
+        "paragraphs": [
+          "A course outline is the evidence that training covered the right material. For a programme built on SNT-TC-1A or CP-189, the reference point is ANSI/ASNT CP-105, which sets out the topics expected by method and level. Mapping each outline to those topics, one topic at a time, turns a page of course headings into something an auditor can check quickly and shows exactly where a course falls short of the level being sought.",
+          "The mapping also protects the employer when a provider changes its course. Outlines should carry a revision and date, and the training record should cite the revision the candidate actually attended. If a provider drops a topic in a later revision, candidates trained on it need the gap closed elsewhere, and only a revision-controlled outline makes that visible. We prepare outline maps for internal courses and for the outside courses you accept."
+        ]
+      },
+      {
+        "heading": "What a training certificate should carry",
+        "paragraphs": [
+          "A certificate is the document technicians keep, so it travels between employers and ends up in other companies' files. It should name the candidate, the method, the level, the hours, the dates, the provider, the instructor and the outline revision, and it should be signed. None of those fields is hard to print, and together they save a future employer from treating the certificate as unverifiable. We draft certificate templates for in-house training to that standard.",
+          "Receiving employers should still verify. A certificate from an unfamiliar provider, missing hours or naming no level, needs a call to the provider and a note in the file of what was confirmed. The written practice should say whether training from previous employers or schools is accepted and what evidence is needed, because an auditor will test the most recent hires first."
+        ]
+      },
+      {
+        "heading": "Instructor qualification evidence",
+        "paragraphs": [
+          "Auditors ask who taught the course, and the answer belongs in an instructor file: the instructor's certifications by method and level, their experience in the method, any teaching qualification the written practice or client requires, and the courses they are approved to teach. For courses taught by an outside provider, the employer's file should hold the provider's confirmation of the instructor and the employer's own acceptance of the provider.",
+          "The written practice is where instructor requirements are set, and it should be specific. A clause saying training is given by qualified personnel tells an auditor nothing. A clause saying method training is given by a Level III in that method, or by a Level II approved by the Level III for a named course, gives the auditor a rule to check the instructor file against and gives your team a rule to follow when scheduling courses."
+        ]
+      },
+      {
+        "heading": "Training spread across providers, years and techniques",
+        "paragraphs": [
+          "Real careers are untidy. One technician's Level I theory came from a school, their practical training from a former employer and a technique course from an equipment supplier. The record should consolidate all of it into one ledger per method, with each entry traced to its evidence and each accepted or rejected by the Level III with a reason. A pile of certificates in date order is not a ledger.",
+          "Equipment manufacturer training deserves its own line. Instruction on a specific flaw detector or software package is valuable, but it is product training, not method training, unless its content maps to the outline. Record it, note whether the written practice credits it toward any requirement, and keep it from inflating method hours that an auditor will later strip back out."
+        ]
+      },
+      {
+        "heading": "Refresher and recertification training",
+        "paragraphs": [
+          "Recertification brings training records back into play. Whether a technician retrains at recertification, how much and in what form are written practice decisions informed by the governing document. The record should show what was done at recertification with the same rigour as initial training: hours, content, instructor, date and acceptance. Refresher training that leaves no record is, for audit purposes, training that did not happen.",
+          "Refresher records are also where changes to codes and procedures are best evidenced. When a procedure revision changes acceptance criteria, or a client introduces a new reporting requirement, a short documented briefing with attendance and content shows the change reached the people signing reports. That record is small, and it closes a question auditors ask about every revised procedure: how do you know the technicians know?"
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on training records",
+        "paragraphs": [
+          "We build the training record set around your written practice: an hours ledger for each candidate by method and level, outline maps against CP-105, certificate and instructor-file templates, a provider acceptance form, and wording for the training clauses of the written practice where it is vague. Existing files are reviewed by an ASNT NDT Level III, and each candidate's status is reported as eligible, eligible with conditions or not yet eligible. Records from any provider, including [our own SNT-TC-1A-based courses](/training), go through the same acceptance review.",
+          "If a client audit, a recertification cycle or a new contract has put your training files under scrutiny, start with the candidates nearest to examination or audit. [Ask us to quote a training record review](/contact?service=consulting&subject=Training%20records) and tell us which methods and how many technicians are involved."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can we accept training a new hire completed elsewhere?",
+        "a": "Yes, if your written practice allows it and the evidence holds up: method, level, hours, content and provider confirmed. Verify unfamiliar providers directly, record what you confirmed, and have the Level III accept or reject each item with a reason. Unverified certificates should not count toward hours."
+      },
+      {
+        "q": "Should course quizzes be filed with certification examinations?",
+        "a": "No. Course assessments show learning during training; general, specific and practical examinations are the certification examinations your written practice defines. Filing them together invites an auditor to question which result supported certification. Keep course results with the training record and examination papers with the certification file."
+      },
+      {
+        "q": "Can you write our course outlines?",
+        "a": "Yes. We draft outlines for internal courses against the CP-105 topics for each method and level, with revision control and an hours allocation per topic. Outlines in UT, RT, MT, PT and VT are reviewed by our ASNT NDT Level III; others are drafted for approval by a Level III in that method."
+      },
+      {
+        "q": "Does product training from an equipment supplier count?",
+        "a": "Only as far as your written practice credits it. Product training teaches an instrument; method training teaches the physics, technique and interpretation the level requires. Record supplier courses separately and map them to the outline before counting any hours toward method requirements."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-experience-logs",
+    "title": "NDT Experience Logs: OJT Hours by Method and Level",
+    "description": "NDT experience logs that hold up: OJT hours by method and level, supervisor verification, prior-experience checks for new hires and common audit findings.",
+    "h1": "Experience logs that prove the hours happened",
+    "answer": "An NDT experience log records time a candidate spent performing a specific method under qualified supervision, entry by entry: date, hours, the work done, the supervisor and a verification signature. It is the evidence that the experience your written practice requires was actually gained. Organized training does not count toward it, and an unverified total proves nothing.",
+    "expansion": "ASNT SNT-TC-1A defines experience as work activities in a specific NDT method under the direction of qualified supervision, including performing the method and related activities, and excluding time spent in organized training programmes. Its recommended tables distinguish experience in the method from total NDT experience; ANSI/ASNT CP-189 sets its own requirements, and your written practice turns either into the figures your programme uses. The experience log is where certifications tend to rest on assertion: a single letter claiming a total, a log written up from memory just before the examination, the same period claimed under two methods, or a supervisor who was not certified in the method at the time. For new hires the problem moves into someone else's records. Atlantis designs log formats and verification steps, drafts prior-experience verification templates, and reviews existing logs before certification or an audit.",
+    "source": "ASNT SNT-TC-1A (2024, with Addendum), definition of experience and recommended experience tables; ANSI/ASNT CP-189 (2024); the employer's written practice.",
+    "table": {
+      "caption": "A defensible OJT log entry compared with the entries auditors reject",
+      "columns": [
+        "Log element",
+        "Defensible entry",
+        "Weak entry",
+        "Consequence at audit"
+      ],
+      "rows": [
+        [
+          "Date and duration",
+          "Date and the hours spent in the method that day",
+          "A weekly or monthly total",
+          "Hours cannot be checked against timesheets or job records"
+        ],
+        [
+          "Method and technique",
+          "Method, plus technique where the written practice certifies by technique",
+          "NDT, or a job title",
+          "Hours cannot be allocated to a certification"
+        ],
+        [
+          "Work performed",
+          "Job or report number, component and tasks done: set-up, calibration, scanning, evaluation, reporting",
+          "Assisted crew",
+          "No way to tell performing the method from watching it"
+        ],
+        [
+          "Supervisor",
+          "Name, method and level of the supervisor, certified on that date",
+          "A first name or the crew lead",
+          "Supervision by someone unqualified is not qualified supervision"
+        ],
+        [
+          "Verification",
+          "Supervisor initials per entry or per page, with Level III review before certification",
+          "One signature on the final total",
+          "The whole total rests on a single assertion"
+        ],
+        [
+          "Allocation",
+          "Each hour assigned to one method, with combined work split by a stated rule",
+          "The same days in two method logs",
+          "A double-counting finding against every affected certification"
+        ],
+        [
+          "Corroboration",
+          "Report numbers or timesheet references for each entry",
+          "None",
+          "Nothing independent supports the hours"
+        ]
+      ],
+      "note": "Report numbers are the simplest corroboration a log can carry: an auditor can pull the report and see the technician's name on it."
+    },
+    "facets": [
+      {
+        "q": "What counts as NDT experience hours?",
+        "a": "Time spent doing work in the specific method under qualified supervision, including the related activities that belong to the method, such as set-up, calibration, evaluation and reporting. Time in organized training does not count. Watching someone else work is weak evidence unless the written practice defines how observation is credited. Every log entry should make the activity visible."
+      },
+      {
+        "q": "Can practical sessions in a training course count as experience?",
+        "a": "No. Practical exercises inside an organized course are training, however realistic the specimens. They belong in the training record. Experience starts when the candidate does production or production-equivalent work under qualified supervision, and the log should begin there. Mixing the two is one of the first things an auditor separates out, and only the remainder counts."
+      },
+      {
+        "q": "Who may sign an NDT experience log?",
+        "a": "A supervisor certified in the method at the level your written practice requires for supervision, on the date of the work. The Level III, or a designee, then reviews the log before certification. Keep a copy of each supervisor's certification record from the period, so the signature can be checked long after the supervisor has moved on."
+      },
+      {
+        "q": "How do we verify experience claimed by a new hire?",
+        "a": "Ask each previous employer for a letter on its letterhead stating hours by method, the period, the type of work and who supervised, then confirm it directly and note the confirmation. Compare it with the CV and prior certification records. Under SNT-TC-1A certification ends with employment, so the previous certification is evidence for your decision, not something you inherit."
+      },
+      {
+        "q": "Can hours in one method count toward another?",
+        "a": "Not as method experience. Each method's log stands alone, and combined jobs need a written allocation rule, such as recording MT and PT time separately even when performed on the same weld. Total NDT experience, where your written practice uses it, can draw on all methods, which is why the ledger should carry both figures."
+      },
+      {
+        "q": "Do phased array or TOFD hours need logging separately from UT?",
+        "a": "Yes, whenever your written practice certifies by technique or a code or client specification sets technique-specific experience, as ASME Section V does for computerized imaging techniques. Log the technique in every entry from the start. Splitting a general UT total into techniques after the fact is reconstruction, and auditors treat it as such."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why auditors spend time on the experience log",
+        "paragraphs": [
+          "Training produces certificates and examinations produce graded papers, but experience is recorded by the candidate and a supervisor, frequently under time pressure and frequently after the fact. That makes it the record most open to optimism. Auditors know this, so they read logs closely: entry dates against job records, supervisors against certification files, totals against the written practice. A certification that rests on a weak log is exposed even when every other record in the file is sound.",
+          "The fix is not more paperwork but better-designed paperwork. A log built so that each entry names the job, the task and the supervisor, and is initialled close to the time the work was done, takes moments at the end of a shift. Rebuilding a log from memory before an examination, or after an audit finding, takes far longer and convinces nobody."
+        ]
+      },
+      {
+        "heading": "Entry-level logs versus summary sheets",
+        "paragraphs": [
+          "Two formats dominate. A daily or per-job log records each period of work as it happens, with supervisor initials. A summary sheet records totals by month or project, signed by a supervisor at the end. Summary sheets are faster to complete and much weaker as evidence, because a single signature vouches for a long stretch of work nobody can now test. Where a summary is used, it should cite the job records or reports behind each line so the total can be rebuilt if challenged.",
+          "The log should also capture technique, product form and code where your written practice certifies to those distinctions. A UT log that does not separate thickness measurement from weld examination, or manual techniques from encoded ones, cannot support a certification limited to one of them or extended to another. Designing those fields in from the start is easy; adding them later means reconstruction."
+        ]
+      },
+      {
+        "heading": "Supervision that counts as qualified supervision",
+        "paragraphs": [
+          "Qualified supervision means supervision by someone certified in the method at a level the written practice accepts for directing trainees, on the date of the work. Three problems recur. The supervisor held a different method. The supervisor's own certification had lapsed. The supervisor was a crew lead or project manager with no NDT certification at all. Each turns logged hours into unsupervised hours, which the written practice will not credit.",
+          "Supervisors should sign with a name and certification reference, not just initials, at least on the first page they sign. Keep a copy of their certification record from the period, because a supervisor who leaves takes the proof of their qualification with them. The Level III's review before certification should check every supervisor named in the log against that evidence and record the check."
+        ]
+      },
+      {
+        "heading": "Prior experience for new hires",
+        "paragraphs": [
+          "Experienced hires bring hours gained under someone else's supervision and someone else's written practice. Under employer-based certification, those hours count only after the new employer has verified them and decided they meet its own written practice. That means a verification letter from each previous employer stating hours by method, the period, the type of work and the supervisor, followed by a documented confirmation, not just the letter on file.",
+          "Where previous employers have closed, merged or stopped responding, the new employer can look for corroborating evidence: old certification letters, reports bearing the technician's name, client approvals. The written practice should say what corroboration is acceptable and who decides. SNT-TC-1A treats certification as ending when employment ends, so a previous employer's certification letter is evidence, not a certification the new employer inherits; if your written practice offers any route that relies on prior certification, it should state the conditions and the file should show each one met."
+        ]
+      },
+      {
+        "heading": "Findings auditors write against experience records",
+        "paragraphs": [
+          "The same findings appear across very different companies. Logs with no supervisor named, or a supervisor certified in another method. Totals that include course time. Identical hours claimed in two method logs for the same period. Logs that begin after the certification date, showing they were completed to justify a decision already taken. Prior experience accepted on the strength of a CV. Certification letters issued before the Level III reviewed the log, with the review signed later.",
+          "Each finding has the same root: the log was treated as a formality rather than as evidence. An internal audit that samples logs against job records, before a client does, is the quickest way to find out which of these your files carry. Our [NDT audit consulting](/consulting/ndt-audit-consulting) work includes that sample, and the result feeds directly into the corrective actions below."
+        ]
+      },
+      {
+        "heading": "Repairing a log without rewriting history",
+        "paragraphs": [
+          "When a log is weak, the temptation is to rewrite it neatly. Resist it. A reconstructed log must say it is a reconstruction, with the date it was prepared, who prepared it, the sources used, such as timesheets, reports and job files, and a Level III review of each reconstructed entry. Hours that cannot be corroborated from independent records should not be counted, however confident the technician is that the work was done.",
+          "If the corroborated hours fall short of the written practice requirement, the certification decision has to follow the evidence: additional supervised experience, a limited certification where the written practice allows one, or a reassessment of reports signed in the interim. That is uncomfortable, but it is the position an auditor will reach anyway, and reaching it first, with a documented corrective action, is the defensible version."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on experience records",
+        "paragraphs": [
+          "We design log formats suited to your work, from paper logs for field crews to fields a digital system can capture, with method, technique, job reference, task, supervisor and verification built in. We draft prior-experience verification letters and confirmation records for new hires, written practice wording on supervision, allocation and reconstruction, and a review procedure for the Level III. Existing logs are reviewed by an ASNT NDT Level III and each candidate's corroborated total is reported.",
+          "Engagements usually begin with the people closest to certification or recertification, and with any new hires whose prior experience was accepted without verification. [Request a quote for an experience log review](/contact?service=consulting&subject=Experience%20logs) and tell us the methods involved and roughly how many technicians' files are in scope."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a CV enough evidence of prior NDT experience?",
+        "a": "No. A CV is the candidate's own account. Prior experience needs confirmation from the employer that supervised it, stating hours by method, the period and the supervisor, plus a record of how the confirmation was obtained. The CV is useful for spotting gaps and inconsistencies, not for counting hours."
+      },
+      {
+        "q": "Can technicians keep their own experience logs?",
+        "a": "Yes, and they generally should, because they know what they did. What turns the log into evidence is the supervisor's verification close to the time of the work and the Level III's review before certification. A self-kept log with neither is a diary."
+      },
+      {
+        "q": "Our supervisor has left the company. Are their signatures still valid?",
+        "a": "Yes, if they were certified in the method when they signed. Keep a copy of their certification record from that period in the file, because you can no longer ask them for it. If that copy is missing, note what other evidence shows their status at the time."
+      },
+      {
+        "q": "Does a digital log need anything a paper log does not?",
+        "a": "It needs an audit trail. Entries should show who made them and when, edits should be visible rather than overwriting the original, and supervisor approval should be tied to the supervisor's own login. Without those, an auditor cannot tell a contemporaneous entry from one typed in recently."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/project-specific-ndt-procedures",
+    "title": "Project-Specific NDT Procedures for Codes and Client Specs",
+    "description": "NDT procedures and technique sheets written to one project's code edition and client specification, from ASME Section V to AWS D1.1 and API 1104.",
+    "h1": "Procedures written for the contract in front of you",
+    "answer": "A project-specific NDT procedure adapts your general procedure to one contract: the code and edition the contract names, the client's specification, and the materials, thicknesses, joint geometries and acceptance criteria of that job. A Level III in the method approves it, it cites the general procedure it derives from, and the client often reviews it before mobilization.",
+    "expansion": "A general procedure covers a method across the range of work a company normally does. A contract narrows it and sometimes contradicts it. A pressure vessel job pulls in the edition of ASME Section V that the construction code references, with acceptance criteria taken from the construction code rather than from Section V. Structural steel under AWS D1.1 brings that code's own inspection clause, examination technique and acceptance criteria. Pipeline girth welds under API 1104 put the company, meaning the owner or operator, in charge of which personnel certification it accepts. Above the code sits the client specification, adding coverage, reporting, scanning or acceptance requirements of its own. Atlantis reads the contract documents, writes a clause-by-clause compliance matrix, drafts the project procedure or supplement and its technique sheets, and has them approved by an ASNT NDT Level III within UT, RT, MT, PT and VT, or prepared for approval by the client's Level III.",
+    "source": "ASME BPVC Section V, method articles and their written-procedure requirements; AWS D1.1/D1.1M Structural Welding Code — Steel, inspection clause; API Standard 1104, nondestructive testing section; ASNT SNT-TC-1A (2024, with Addendum), Level III responsibilities; client specifications invoked by contract.",
+    "table": {
+      "caption": "General procedure, project procedure or technique sheet: which document a change belongs in",
+      "columns": [
+        "Document",
+        "Scope",
+        "What sends you to it",
+        "Approved by",
+        "Client review"
+      ],
+      "rows": [
+        [
+          "General procedure",
+          "One method across the company's usual codes, materials and thickness ranges",
+          "A new method, a new code family, or a change to a requirement the code treats as essential",
+          "Company Level III in the method",
+          "At prequalification or on request"
+        ],
+        [
+          "Project-specific procedure",
+          "One method on one contract, quoting that contract's code edition and specification clauses",
+          "A code edition, acceptance criterion or technique that differs from the general procedure",
+          "Level III in the method; client acceptance where the contract requires",
+          "Normally before work starts"
+        ],
+        [
+          "Procedure supplement",
+          "Additions to the general procedure for one client, without restating it",
+          "The client specification adds reporting, coverage or documentation detail only",
+          "Level III in the method",
+          "Submitted with the compliance matrix"
+        ],
+        [
+          "Technique sheet or scan plan",
+          "One weld, component or geometry under an approved procedure",
+          "A specific joint, thickness, probe, film or exposure arrangement",
+          "Level II or III, as the written practice allows",
+          "Common for encoded and computerized techniques"
+        ],
+        [
+          "Compliance matrix",
+          "Clause-by-clause map from the client specification to procedure paragraphs",
+          "Every client specification",
+          "Procedure author; checked by the Level III",
+          "Submitted with the procedure"
+        ]
+      ],
+      "note": "Whether a Level II may approve a technique sheet is a written-practice decision, and a code or client specification can take that permission away."
+    },
+    "facets": [
+      {
+        "q": "When does a project need its own NDT procedure?",
+        "a": "When the contract changes something the general procedure fixes: the code or its edition, the acceptance criteria, the technique, the material or thickness range, or the reporting the client requires. Small additions that change nothing technical fit in a supplement. Anything that changes how the examination is performed or judged belongs in a project procedure the client can review as a whole."
+      },
+      {
+        "q": "How does a project procedure relate to the general procedure?",
+        "a": "It should cite the general procedure and revision it derives from and state what it changes, so a reviewer can see the difference rather than rereading everything. When the general procedure is revised, project procedures derived from it need checking. A register linking the two prevents a project running on a procedure whose parent has moved on."
+      },
+      {
+        "q": "Which edition of ASME Section V applies to a project?",
+        "a": "The edition the construction code and the contract invoke, which is not always the newest. Section V supplies the examination methods; the construction code supplies the acceptance criteria and says which Section V requirements apply. A project procedure should state the edition it was written to and the construction code paragraph that sends the work to Section V."
+      },
+      {
+        "q": "What changes when the job is under AWS D1.1?",
+        "a": "D1.1 is self-contained in ways ASME work is not. Its inspection clause sets the ultrasonic technique and acceptance criteria inside the code, and alternative techniques need the qualification route the code provides. A procedure written for ASME work cannot simply be relabelled; it needs rewriting to D1.1's structure, terminology and acceptance tables."
+      },
+      {
+        "q": "Who approves the NDT procedure on an API 1104 pipeline job?",
+        "a": "Technically, the contractor's Level III in the method. API 1104 then leaves the company, meaning the pipeline owner or operator, to decide which personnel certification it accepts, and pipeline contracts commonly require company acceptance of the NDT procedure before production welds are examined. Leave room in the project procedure for that acceptance and record it when given."
+      },
+      {
+        "q": "Can one procedure serve several client specifications?",
+        "a": "Up to a point. A general procedure with a supplement and compliance matrix per client works while the clients ask for compatible things. Once two specifications conflict on technique, acceptance or reporting, separate project procedures are clearer and safer, because a technician should never have to work out from a matrix which rule applies to today's weld."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What a contract changes that a general procedure cannot absorb",
+        "paragraphs": [
+          "General procedures are deliberately broad. They cover the codes a company works to most often, a range of materials and thicknesses, and the techniques it normally uses. That breadth is a strength in the office and a weakness on a contract, because a client reviewing a broad procedure has to work out which parts apply to their job. Where the contract names a code edition the general procedure does not cite, a narrower thickness range, a different calibration reflector or its own acceptance criteria, the procedure no longer describes the work.",
+          "The question to ask of every contract is simple: would a technician following our general procedure, and nothing else, do this job the way the contract requires? If answering it means reading the client specification alongside the procedure, the procedure needs project content. Leaving the technician to reconcile two documents in the field is how jobs end up examined to the wrong criteria."
+        ]
+      },
+      {
+        "heading": "Reading the code chain into the procedure",
+        "paragraphs": [
+          "Most NDT on code work is reached through a chain. A construction code, such as an ASME pressure vessel or piping code, sends examinations to ASME Section V for the method and keeps the acceptance criteria for itself. The contract may then name the code edition. The project procedure has to follow the chain exactly: the Section V edition the construction code references, the method article's written-procedure requirements, and the construction code's acceptance criteria quoted or referenced precisely.",
+          "Other codes are built differently. AWS D1.1 holds its examination technique and acceptance criteria within its own inspection clause. API 1104 sets requirements for pipeline girth weld examination and leaves several decisions to the company. A procedure family that serves all three needs a project document per code family rather than one document trying to cite all of them, because a technician cannot apply ASME and D1.1 acceptance criteria to the same weld."
+        ]
+      },
+      {
+        "heading": "The compliance matrix: turning a client specification into procedure paragraphs",
+        "paragraphs": [
+          "Client specifications are written to be read by many contractors and are rarely organised around any one contractor's procedure. The compliance matrix bridges that: one row per specification clause, quoting the requirement, citing the procedure paragraph that meets it, and marking anything not met with its resolution. Submitted with the project procedure, it lets the client's reviewer check compliance far faster than reading the procedure cold, and it shows the contractor read the specification rather than skimmed it.",
+          "Where the client's specification conflicts with the governing code, the matrix is where the conflict is raised, not buried. Some conflicts resolve because the client's requirement is stricter and can simply be met. Others need the client to decide in writing which requirement governs. When the difference lies between two whole programmes rather than between a specification and a procedure, a [bridging document](/consulting/ndt-bridging-documents) is the better vehicle."
+        ]
+      },
+      {
+        "heading": "Technique sheets and scan plans for the job",
+        "paragraphs": [
+          "A project procedure sets the rules; technique sheets apply them to specific welds and components. For radiography that means source or tube, film or detector, exposure arrangement, image quality indicator placement and coverage. For ultrasonics it means probes, angles, wedges, calibration reflectors, scan surfaces and coverage, and for encoded techniques a scan plan showing beam coverage across the weld volume. Each sheet should name the procedure and revision it sits under.",
+          "Technique sheets are where project detail belongs when it changes from joint to joint, so the procedure itself stays readable. They should be prepared from the project drawings and weld maps before mobilization, reviewed against the procedure and the client specification, and approved at the level the written practice requires. Where a client asks for encoded data or a demonstration of coverage, the scan plan is frequently the document it examines most closely."
+        ]
+      },
+      {
+        "heading": "Approval and client acceptance",
+        "paragraphs": [
+          "SNT-TC-1A places the establishment and approval of techniques and procedures with the Level III, so the project procedure carries the approval of a Level III in the method. On many contracts it then goes to the client, or the client's third-party inspector, for acceptance before production work starts, and that acceptance becomes a hold point in the inspection and test plan. The procedure should record both approvals, with names, roles, dates and the revision approved.",
+          "Atlantis's ASNT NDT Level III approves project procedures in UT, RT, MT, PT and VT, including phased array and TOFD as ultrasonic techniques. Where the project calls for qualification by demonstration rather than approval alone, the procedure needs a qualification record as well; our page on [procedure qualification by demonstration](/consulting/ndt-procedure-qualification-demonstration) covers that route. For other methods we draft for approval by a Level III certified in them."
+        ]
+      },
+      {
+        "heading": "Keeping project procedures from drifting",
+        "paragraphs": [
+          "Project procedures change during jobs. A client query, a field condition or an equipment substitution prompts a revision, and the revision needs the same approvals as the original, plus a note of which examinations were performed to which revision. Field markups on a controlled copy are not revisions. A short revision log inside the procedure, and a rule that superseded copies leave site, stop two versions being used on the same shift.",
+          "When the job closes, the project procedure should be archived with the job records and read once more for what it taught. A clarification that improved the project procedure often belongs in the general procedure too, and a client requirement that keeps recurring is a sign the general procedure should absorb it. Our [technical procedure development](/consulting/ndt-technical-procedure-development) work covers that feedback into the general set."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on project procedures",
+        "paragraphs": [
+          "From the contract, client specification, drawings and your general procedure, we produce the project procedure or supplement, the compliance matrix, technique sheets or scan plans for the joints in scope, and a short list of clarifications the client needs to answer before approval. Technical content is reviewed and approved by an ASNT NDT Level III within the five methods held, and documents are issued under your numbering and document control.",
+          "The best time to call is when the contract arrives, before the procedure becomes the hold point delaying mobilization. [Send the specification for a quote](/contact?service=consulting&subject=Project%20procedure) and we will tell you whether the job needs a full project procedure, a supplement or only technique sheets."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "The client sent us their own procedure. Do we still need ours?",
+        "a": "Usually, unless the contract says the client's procedure governs and your written practice allows your technicians to work to it. Even then, check it against your equipment and personnel, and document that your Level III has reviewed it. Where it conflicts with your own procedures, record which one governs and why."
+      },
+      {
+        "q": "Can we reuse a project procedure on the next contract?",
+        "a": "Only after checking it against the new contract's code edition, specification and scope. Reuse without that check carries the old client's requirements into a job they do not belong to. If two contracts keep needing the same content, that content probably belongs in the general procedure."
+      },
+      {
+        "q": "Do you write procedures for phased array and TOFD?",
+        "a": "Yes, as ultrasonic techniques, with scan plans showing coverage. Approval is by our ASNT NDT Level III in UT. Where a code or client requires the technique to be qualified by demonstration, we scope the demonstration and the qualification record alongside the procedure."
+      },
+      {
+        "q": "What do you need to start a project procedure?",
+        "a": "The contract scope, the client specification and any standards it references, the code and edition, drawings or weld maps, your general procedure and the equipment you plan to use. With those we write the compliance matrix first, which shows quickly how much project content the job needs."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-bridging-documents",
+    "title": "NDT Bridging Documents: Contractor and Client Requirements",
+    "description": "Bridging documents and matrices that reconcile a contractor's written practice and procedures with a client's certification scheme, specs or code edition.",
+    "h1": "Bridging your NDT programme to a client who works to different rules",
+    "answer": "An NDT bridging document reconciles a contractor's written practice and procedures with a client's requirements where the two differ: another certification scheme, a client specification, or a different code edition. It lists each client requirement, shows where the contractor's documents meet it, records each gap and its resolution, and is signed by both parties before work starts.",
+    "expansion": "Two NDT programmes can each be compliant and still disagree. The contractor certifies its people under an employer-based written practice to ASNT SNT-TC-1A; the operator's specification asks for certification under a central scheme built on ISO 9712, such as PCN, or CAN/CGSB-48.9712 in Canada. The client adds a practical examination on its own specimens, a stricter vision requirement or its own report format. The construction code on the contract references an edition of ASME Section V older or newer than the one the contractor's procedures were written to. A bridging document puts each difference on one line and records how it is closed. It cannot convert one certification into another: an SNT-TC-1A certification does not become an ISO 9712 certification by appearing in a matrix. Atlantis prepares the matrix and its supporting evidence and reviews it with an ASNT NDT Level III, and is candid about what a matrix cannot do.",
+    "source": "ISO 9712 (qualification and certification of NDT personnel); CAN/CGSB-48.9712; ASNT SNT-TC-1A (2024, with Addendum); ANSI/ASNT CP-189 (2024); ASME BPVC Section V, Article 1; client specifications invoked by contract.",
+    "table": {
+      "caption": "Columns of a bridging matrix, with one client requirement worked through",
+      "columns": [
+        "Matrix column",
+        "What goes in it",
+        "Worked example",
+        "Who completes it"
+      ],
+      "rows": [
+        [
+          "Client requirement",
+          "Quoted text with document number, revision and clause",
+          "Personnel to hold central-scheme certification or an equivalent the company accepts",
+          "Contractor quality staff, from the contract documents"
+        ],
+        [
+          "Contractor provision",
+          "The written practice or procedure paragraph that addresses the same subject",
+          "Written practice certification clause: employer-based certification to SNT-TC-1A",
+          "Contractor Level III"
+        ],
+        [
+          "Status",
+          "Met, met with supplement, or not met",
+          "Not met as written",
+          "Contractor Level III, checked by the client reviewer"
+        ],
+        [
+          "Resolution",
+          "The action that closes the gap, or the client's written acceptance",
+          "Client accepts employer certification for the named scope, supported by a witnessed practical demonstration on client specimens",
+          "Agreed between client and contractor"
+        ],
+        [
+          "Evidence",
+          "Documents that prove the resolution",
+          "Personnel list, certification records, and a demonstration record signed by the client's witness",
+          "Contractor quality staff"
+        ],
+        [
+          "Approval",
+          "Names, roles, signatures and dates for both parties",
+          "Client technical authority; contractor Level III and quality manager",
+          "Both parties"
+        ]
+      ],
+      "note": "A matrix in which every row reads met deserves a second look; the value of a bridging document sits in the rows that needed a supplement or a decision."
+    },
+    "facets": [
+      {
+        "q": "What is an NDT bridging document?",
+        "a": "A controlled document that sets a client's NDT requirements beside a contractor's written practice and procedures, line by line, and records how every difference is resolved. Both parties sign it and it becomes part of the contract quality documentation, so technicians, inspectors and auditors work from one agreed position rather than from two programmes that quietly disagree."
+      },
+      {
+        "q": "Can a bridging document make SNT-TC-1A certification equivalent to ISO 9712?",
+        "a": "No. ISO 9712 certification is issued by a certification body after examination under that scheme; SNT-TC-1A certification is issued by the employer under its written practice. A bridging document can record that the client accepts employer certification for a defined scope, with supplementary evidence, but it cannot create a certification the person does not hold."
+      },
+      {
+        "q": "Who approves an NDT bridging document?",
+        "a": "Both sides. On the client side, the technical authority for NDT or the quality function named in the contract; on the contractor side, the Level III and the quality manager. Each signature should carry a role and a date, and the document should name the contract and the revisions of each party's documents it reconciles."
+      },
+      {
+        "q": "When is a bridging document better than revising our procedures?",
+        "a": "When the difference belongs to one client or one contract, and changing your general documents would impose that client's rules on everyone else. If the same difference recurs across clients, revise the general documents instead. If the difference is technical and specific to one job, a [project-specific procedure](/consulting/project-specific-ndt-procedures) is often the cleaner answer."
+      },
+      {
+        "q": "How are differences between code editions bridged?",
+        "a": "By comparing the edition your procedures were written to with the edition the contract invokes, paragraph by paragraph for the methods in scope, and listing every change that affects technique, calibration, coverage, acceptance or records. Each change is then marked as already met, met by a project supplement, or carried into a procedure revision before work starts."
+      },
+      {
+        "q": "Does a bridging document replace the client's audit of our programme?",
+        "a": "No. It records an agreed position on requirements; it does not verify that your programme works. Clients frequently audit against the bridging document itself, sampling the evidence it cites. Write it expecting that, and cite only evidence you can produce on the day."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why two compliant programmes still collide",
+        "paragraphs": [
+          "A contractor's NDT programme is built around its written practice, its procedures and the codes it usually works to. An operator's is built around its assets, its history and its corporate specifications. Each can be internally consistent and fully compliant with what it claims, and the two can still disagree on certification, examinations, vision, procedures, reporting and records. Contracts rarely resolve these differences on their own; they reference both sets of documents and leave the conflict to surface on site.",
+          "A bridging document surfaces it in the office instead. The idea is familiar from safety management, where a bridging document sets out how an operator's and a contractor's management systems interface on one site. The NDT version applies the same discipline to technical and quality requirements: list every difference, decide every difference, and sign the decision before mobilization."
+        ]
+      },
+      {
+        "heading": "Certification scheme differences",
+        "paragraphs": [
+          "The hardest differences are between certification schemes. Under SNT-TC-1A and CP-189 the employer certifies its own personnel against its written practice. Under ISO 9712 and the schemes built on it, such as PCN in the United Kingdom and CAN/CGSB-48.9712 in Canada, an independent certification body certifies the individual after examination under that scheme's rules. When an operator's specification names a central scheme and the contractor's people hold employer-based certification, no amount of paperwork makes the two the same.",
+          "What a bridging document can do is record the options and the decision. The client may accept employer-based certification for a defined scope, sometimes with supplementary evidence such as a practical demonstration on the client's specimens, witnessed by the client. The contractor may assign personnel who already hold the scheme the client names. Or the scope may be split between them. Atlantis does not certify personnel under ISO 9712, PCN, CSWIP or CAN/CGSB schemes and does not train for them; our role is to set out the comparison and the evidence honestly."
+        ]
+      },
+      {
+        "heading": "Client requirements that go beyond the written practice",
+        "paragraphs": [
+          "Many differences are additions rather than conflicts. A client may require a practical examination on its own specimens before a technician works on its assets, vision tests on a stricter schedule, more experience in a technique than the written practice requires, named approval of each technician, or its own report format and terminology. Each addition goes on the matrix beside the contractor's provision, which is frequently silent, and the supplement that meets it.",
+          "Some additions sit comfortably in a client-specific supplement. Others would be simpler to adopt generally, because several clients ask for the same thing. The bridging exercise is a good moment to see that pattern: a requirement that turns up on bridging document after bridging document probably belongs in the written practice. Tracking that over time keeps the general documents current and the bridging documents short."
+        ]
+      },
+      {
+        "heading": "Code edition gaps",
+        "paragraphs": [
+          "Code editions create quieter differences. A contractor's procedures are written to the edition of ASME Section V current when they were last revised; the construction code on a contract references a specific edition, which can be older or newer. Personnel requirements can differ too, because a code can reference a particular edition of SNT-TC-1A while the contractor's written practice has moved to the one ASNT currently publishes, the 2024 edition with its Addendum.",
+          "Bridging an edition gap means comparing the two editions for the methods in scope and listing the paragraphs that differ in a way that affects the work: technique, calibration, coverage, acceptance, records or personnel. Each difference is marked as already met, met by a project supplement or requiring a procedure revision before work. Changes that only renumber paragraphs still need noting, because reports and procedures cite paragraph numbers and a reviewer will check them."
+        ]
+      },
+      {
+        "heading": "Building the matrix",
+        "paragraphs": [
+          "The matrix starts with the client's documents, not the contractor's. Every clause of the client specification that touches NDT personnel, procedures, equipment, examination, reporting or records becomes a row, quoted rather than paraphrased so nobody argues later about what it said. The contractor's provision is then found for each row, with the document, revision and paragraph cited. Rows where the contractor's documents are silent matter as much as rows where they conflict.",
+          "Status and resolution come next, and they are where a Level III earns their place in the exercise. Deciding whether a provision genuinely meets a requirement, and whether a proposed supplement closes the gap, are technical judgments. The resolution column should say who must act, what evidence will prove it and whether the client must accept it in writing. A matrix that only states what is different, without resolving it, is a list of problems rather than a bridging document."
+        ]
+      },
+      {
+        "heading": "Approval, control and the life of a bridging document",
+        "paragraphs": [
+          "Once agreed, the bridging document is signed by both parties and issued under document control, normally the contractor's, with the client holding a controlled copy. It names the contract, the client documents and revisions it bridges, and the contractor documents and revisions it relies on. Any later revision on either side triggers a review of the affected rows, which is why a register linking the bridging document to the documents it cites is worth keeping.",
+          "During the job, the bridging document is a working tool. Technicians and supervisors should be briefed on the rows that change how they work, and those briefings recorded. Inspectors and auditors test it by sampling: picking a row, asking for the evidence cited and checking it is current. At close-out, rows that caused trouble are worth reviewing before the next contract with the same client, so the next bridging document starts from experience."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on bridging documents",
+        "paragraphs": [
+          "We read the client's specifications alongside your written practice and procedures, build the matrix, draft the supplements that close gaps, and list the decisions the client must make in writing. Technical judgments in the status and resolution columns are reviewed by an ASNT NDT Level III. For certification-scheme rows, we set out the options and the evidence each requires; the decision rests with the client, and certification under any scheme rests with whoever issues it.",
+          "Bridging documents are most useful early, before a mobilization date fixes everyone's positions. [Request a quote for a bridging document](/contact?service=consulting&subject=Bridging%20document) and send the client specification with your written practice; we will tell you how many rows look like real gaps before you commit to anything."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is an NDT bridging document the same as an HSE bridging document?",
+        "a": "They share an idea but cover different ground. An HSE bridging document sets out how two organisations' safety management systems interface on a site. An NDT bridging document reconciles technical and quality requirements for examinations. On some contracts they are combined; where they are separate, each should reference the other."
+      },
+      {
+        "q": "Can you bridge to a certification scheme you do not certify under?",
+        "a": "Yes. Comparing documents does not require being a certification body for either scheme. We set out what the client's scheme requires, what your programme provides and what evidence would support any acceptance the client chooses to give. We make no claim that one scheme's certification satisfies the other."
+      },
+      {
+        "q": "How long does a bridging document stay valid?",
+        "a": "For the contract and the document revisions it names. A revision on either side, a contract extension with new scope or a change in the code edition invoked means reviewing the affected rows, and the review should be recorded even when nothing changes."
+      },
+      {
+        "q": "Do we need a bridging document for every client?",
+        "a": "Only where a client's requirements differ from your programme in ways that matter to the work. For repeat clients, a standing bridging document reviewed at each new contract saves rebuilding it, and rows that never change are candidates for your general documents."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-risk-assessments",
+    "title": "NDT Risk Assessments: Site Hazards and Technical Limits",
+    "description": "NDT task risk assessments for radiography controlled areas, confined space, height and hot surfaces, plus technical risk: detection limits and coverage gaps.",
+    "h1": "Risk assessments that cover both the hazard and the missed flaw",
+    "answer": "An NDT risk assessment covers two risks before work starts: harm to people, from radiation exposure, confined spaces, work at height and hot surfaces, and technical risk, where the chosen method can miss the damage it is meant to find. Atlantis prepares and reviews this documentation; radiation licensing and site HSE approval stay with the licensee and the client.",
+    "expansion": "Sites already demand a task risk assessment or job safety analysis before NDT starts, and NDT assessments fail when they are generic: a radiography sheet copied from the last job, with nothing about this job's geometry, neighbouring trades or shift pattern. Radiography needs an exposure plan and controlled-area boundaries worked out by the licensee's method for the source or tube in use; in the United States the licensee operates under the NRC or an Agreement State, and its radiation safety officer owns the radiation safety programme. Confined space entry runs under the site's permit programme. Work at height brings access, dropped-object and rescue planning. Hot surfaces bring burns and the temperature limits of couplants, penetrants and probes. The technical side asks what the chosen method can and cannot detect on this component, where coverage will fall short and what the owner should be told. Atlantis drafts and reviews those documents; it does not issue permits or act as radiation safety officer.",
+    "source": "US NRC 10 CFR Part 34 (industrial radiography) and Agreement State equivalents; OSHA 29 CFR 1910.146 and 29 CFR 1926 Subpart AA (confined spaces); OSHA 29 CFR 1926 Subpart M (fall protection); ASME BPVC Section V method articles; client site HSE and permit-to-work procedures.",
+    "table": {
+      "caption": "What an NDT task risk assessment covers, and who owns each control",
+      "columns": [
+        "Risk",
+        "What the assessment records",
+        "Typical controls",
+        "Who approves or owns it"
+      ],
+      "rows": [
+        [
+          "Radiation exposure (RT)",
+          "Source or tube, exposure geometry, controlled-area boundary by the licensee's method, shift timing, neighbouring trades",
+          "Collimation, shielding, barriers and signs, survey on each exposure, night or weekend working, permit coordination",
+          "The licensee's radiation safety officer and the site permit issuer"
+        ],
+        [
+          "Confined space",
+          "Space identification, atmospheric hazards, entry permit, attendant, rescue arrangements",
+          "Permit, gas testing, ventilation, rescue plan, limits on cables and equipment taken inside",
+          "The site's confined space programme and entry supervisor"
+        ],
+        [
+          "Work at height",
+          "Access method, anchor points, dropped objects such as probes, cables and magnets, rescue",
+          "Tagged scaffold, harness, tool tethering, exclusion zone below",
+          "The site's access and scaffold authority"
+        ],
+        [
+          "Hot surfaces",
+          "Expected surface temperature against consumable and probe limits; burn risk",
+          "High-temperature couplant and probes, cool-down periods, gloves, the procedure's qualified temperature range",
+          "Contractor Level III for the technical limit; site HSE for the burn hazard"
+        ],
+        [
+          "Electrical and magnetic (MT)",
+          "Prod or yoke use, arc risk on the surface, flammable atmosphere",
+          "Yokes in place of prods where arcing is unacceptable, hot work permit where required",
+          "The site permit issuer"
+        ],
+        [
+          "Chemical (PT and MT consumables)",
+          "Aerosol flammability, ventilation, safety data sheets, waste",
+          "Ventilation, ignition control, waste handling",
+          "Contractor, with site HSE"
+        ],
+        [
+          "Technical: method limitation",
+          "Damage mechanism against what the method can detect and size here",
+          "Stated rationale for the method, supplementary technique where needed",
+          "Owner's inspection lead, advised by a Level III"
+        ],
+        [
+          "Technical: coverage gap",
+          "Areas that cannot be examined because of access, geometry, insulation or surface",
+          "Coverage map, limitation statement in the report, follow-up plan",
+          "Level III; accepted by the owner"
+        ]
+      ],
+      "note": "A risk assessment does not authorize the work. It informs the permit, and the site issues the permit."
+    },
+    "facets": [
+      {
+        "q": "What should an NDT risk assessment include?",
+        "a": "The task, location and method; the people affected, including other trades; each hazard with its controls; the permits it relies on; emergency and rescue arrangements; and a technical section stating what the method can and cannot find on this component and where coverage will be limited. It should name who prepared it, who reviewed it and which permit it supports."
+      },
+      {
+        "q": "Who is responsible for radiation safety during site radiography?",
+        "a": "The radiography licensee, through its radiation safety officer and the radiographers it assigns, under its licence and the regulator's rules. The site controls the permit and coordination with other work. Atlantis can prepare or review the exposure planning documentation and the risk assessment, but it does not hold that responsibility and does not sign as radiation safety officer."
+      },
+      {
+        "q": "What is technical risk in NDT?",
+        "a": "The risk that the inspection does not deliver the information the owner thinks it does: a method poorly suited to the damage mechanism, a flaw orientation the technique struggles with, a sizing limitation, or areas left unexamined. It is a risk to integrity decisions rather than to people on the day, and it belongs in the same document as the safety hazards."
+      },
+      {
+        "q": "Should probability of detection figures appear in a risk assessment?",
+        "a": "Only where they exist for this technique, flaw type and condition, with the source cited. Probability of detection is measured for specific combinations, and borrowing a figure from a different study misleads. Where no data applies, describe the expected detection capability in words and say it is a Level III judgment. An invented number is worse than an honest description."
+      },
+      {
+        "q": "Can a generic job safety analysis cover NDT work?",
+        "a": "It can serve as the starting template, not the finished assessment. NDT adds hazards a generic analysis misses, from radiation boundaries and UV-A lamps to magnet handling at height and couplant on walkways, and it adds the technical section no safety form asks for. The finished document has to describe this task on this component."
+      },
+      {
+        "q": "Does the risk assessment change if the method changes?",
+        "a": "Yes, on both sides. Replacing radiography with ultrasonics removes the radiation hazard and the controlled area but changes the technical risk, because the two methods respond differently to flaw type and orientation. Any method substitution should reopen the assessment, and the owner should see the revised technical section before accepting the change."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Two registers in one document",
+        "paragraphs": [
+          "A complete NDT risk assessment keeps two registers. The first is familiar to every site: hazards to people from the task, its location and the work going on around it, each with controls and the permits it relies on. The second is particular to inspection: the risk that the examination gives the asset owner a false picture, because of the method's limitations, the flaw types it handles poorly or the areas it cannot reach. Site HSE reviews the first; the owner's inspection lead needs the second.",
+          "Keeping both in one document is deliberate. Many technical limitations come from the same site conditions that drive safety controls: scaffolding that limits probe access, insulation left in place, a hot surface that rules out a penetrant or couplant, a shift restriction that shortens exposure windows. When the two registers are written together, those links are visible, and a decision taken for safety reasons does not silently reduce what the inspection can find."
+        ]
+      },
+      {
+        "heading": "Radiography: exposure planning and controlled areas",
+        "paragraphs": [
+          "Radiography carries the hazard that most shapes site planning. Exposure planning works out, for the source or X-ray tube, the exposure geometry, the collimation and shielding available, where the controlled-area boundary falls and how long the area will be held. Those boundaries are calculated by the licensee's method against the dose limits and boundary criteria of its licence and its regulator, and confirmed by survey with calibrated instruments once the exposure starts.",
+          "The risk assessment records what the exposure plan means for everyone else: which access routes close, which trades must stand down, whether work moves to a night shift, how barriers and signs are placed and checked, and how the area is cleared and reopened. In the United States, industrial radiography licensees work under the NRC's rules in 10 CFR Part 34 or an Agreement State's equivalent rules; elsewhere, under the national regulator's. Licensing, the radiation safety programme and dose records stay with the licensee."
+        ]
+      },
+      {
+        "heading": "Confined space, height and hot surfaces from the inspection side",
+        "paragraphs": [
+          "Confined spaces, elevated work and hot equipment are governed by the site's own programmes, such as permit-required confined space entry and fall protection procedures, and the NDT assessment does not replace them. What it adds is the inspection detail those programmes do not anticipate: cables and umbilicals trailing through a manway, couplant or penetrant residue on ladders and grating, magnets and probes as dropped-object hazards, UV-A lamps that run hot, and long periods spent concentrating on a screen rather than on surroundings.",
+          "Hot surfaces deserve a technical entry as well as a safety one. Penetrants, developers, couplants and probes are made for stated temperature ranges, and a procedure qualified for one range does not cover another. Examining outside that range risks burns and an invalid examination at the same time. The assessment should record the expected surface temperature, the consumables and probes chosen for it, and the procedure range that applies, or the cool-down needed before work."
+        ]
+      },
+      {
+        "heading": "Technical risk: what the method will not tell you",
+        "paragraphs": [
+          "Every NDT method has blind spots, and the asset owner deserves to see them written down. Radiography responds poorly to planar flaws not aligned with the beam. Conventional contact ultrasonics has a near-surface dead zone and relies on surface condition and access. Magnetic particle testing works only on ferromagnetic material and finds surface and near-surface flaws. Penetrant testing finds only flaws open to the surface. Visual testing finds what can be seen and lit. None of this is controversial, yet it is often absent from the documents that justify a method choice.",
+          "The technical section links the damage mechanism the owner is worried about to what the chosen technique can detect and size on this component, in this condition. Where a technique has been qualified by demonstration, that record supports the claim; see [procedure qualification by demonstration](/consulting/ndt-procedure-qualification-demonstration). Where it has not, the section should say the expected capability is a Level III judgment and explain its basis. Probability of detection figures belong only where real data applies."
+        ]
+      },
+      {
+        "heading": "Coverage gaps and limitation statements",
+        "paragraphs": [
+          "Coverage is where technical risk becomes concrete. Supports, nozzles, insulation, attachments, weld caps, scaffold positions and access restrictions all leave areas that cannot be examined as planned. The risk assessment should anticipate them from drawings and a site walk-down where possible, and the plan should say what happens when they are found: a supplementary technique, removal of the obstruction, or a recorded limitation the owner accepts.",
+          "That plan then flows into the report. A report that lists indications but says nothing about coverage achieved invites the reader to assume full coverage. Limitation statements, coverage maps and a clear record of areas not examined give the owner what they need to decide on follow-up. The risk assessment is where that expectation is set before work begins, rather than argued about afterwards."
+        ]
+      },
+      {
+        "heading": "Preparing versus approving: where the boundary sits",
+        "paragraphs": [
+          "Responsibilities in this area are fixed by law and contract, and the documents must respect them. The radiography licensee owns radiation safety. The site owns permits to work, confined space entry, hot work and access. The contractor owns its own task risk assessment and the competence of its people. The owner's inspection lead or integrity engineer owns the decision to accept technical limitations. A risk assessment that blurs these lines is weaker, whoever wrote it.",
+          "Atlantis's role is preparation and review. We draft task risk assessments and the technical section, review a contractor's or licensee's documents for completeness and for consistency with the procedure and the inspection plan, and identify where the technical risk needs the owner's attention. In these engagements we do not take the licensee's role, issue permits, act as radiation safety officer or approve site HSE documents on the client's behalf."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on NDT risk assessments",
+        "paragraphs": [
+          "Deliverables are a task risk assessment template built around the methods you use, completed assessments for specific jobs where you supply the site information, a technical risk section linking damage mechanisms to method capability and coverage, and a review of your existing assessments with a list of gaps. Technical content is reviewed by an ASNT NDT Level III in UT, RT, MT, PT and VT.",
+          "The best moment to involve us is at inspection planning, while method choices and access arrangements can still change. [Ask for a quote on risk assessment documentation](/contact?service=consulting&subject=NDT%20risk%20assessment) and tell us the methods, the type of site, and who holds the radiation licence and the permits on the job."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will Atlantis act as the radiation licensee or safety officer for our job?",
+        "a": "No. The radiography contractor that performs the exposures holds the licence and runs the radiation safety programme, and the site issues the permits. We prepare or review the exposure planning documentation and the task risk assessment so that both are complete and consistent with the procedure."
+      },
+      {
+        "q": "Can one risk assessment be reused across sites?",
+        "a": "The template can; the assessment cannot. Hazards, access, neighbouring work, permits and component condition change from site to site, and so does the technical risk. Reuse the structure and the method-specific content, then complete the site-specific parts afresh for every job."
+      },
+      {
+        "q": "Who should review the technical risk section?",
+        "a": "A Level III certified in the method, for the technical content, and the owner's inspection lead or integrity engineer, who decides whether the stated limitations are acceptable. Record that acceptance, because it is a decision about the asset, not just about the inspection."
+      },
+      {
+        "q": "When does a risk assessment need revising during the work?",
+        "a": "Whenever the conditions it assumed change: a method substitution, a change of source or equipment, new neighbouring work, a different access arrangement, or an unexpected coverage limitation. Record the revision and brief the crew before work continues, rather than relying on the original sign-off."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-audit-documentation",
+    "title": "NDT Audit Documentation Packs: Evidence Before the Audit",
+    "description": "Audit packs for client supplier audits, operator prequalification, ISO 9001 surveillance and internal audits, plus a mock audit and gap list beforehand.",
+    "h1": "The audit pack you build before the auditor builds it for you",
+    "answer": "An NDT audit documentation pack gathers the evidence an auditor will ask for, checked and indexed before they arrive: the written practice, certification files with current vision records, procedure approvals, equipment calibration evidence and sample reports traced to all of them. Atlantis builds the pack, runs a mock audit against it and hands over a prioritized gap list to close.",
+    "expansion": "Four kinds of audit reach an NDT company. A client supplier audit tests whether you can deliver to the client's specification with the people and equipment you propose. Operator prequalification is frequently a desk review of uploaded documents before you are allowed to bid. ISO 9001 surveillance samples clauses of your quality management system: monitoring and measuring resources under 7.1.5, competence under 7.2, documented information under 7.5, external providers under 8.4, internal audit under 9.2 and corrective action under 10.2. Internal audits are your own check, run on your own schedule. Each starts somewhere different, and all of them converge on the same records. The pack is indexed to the auditor's questions rather than to your filing system, so evidence is produced on request instead of hunted for. Our free [client audit evidence pack checklist](/resources/client-audit-evidence-pack-checklist) shows the structure; for a full programme review, see [NDT audit consulting](/consulting/ndt-audit-consulting).",
+    "source": "ISO 9001:2015 clauses 7.1.5, 7.2, 7.5, 8.4, 9.2 and 10.2; ASNT SNT-TC-1A (2024, with Addendum); ANSI/ASNT CP-189 (2024); client supplier audit questionnaires and specifications.",
+    "table": {
+      "caption": "Where each audit starts, and what it ends up sampling",
+      "columns": [
+        "Audit",
+        "Run by",
+        "Starting point",
+        "Records sampled",
+        "Result of an unresolved finding"
+      ],
+      "rows": [
+        [
+          "Client supplier audit",
+          "Client quality staff or its NDT Level III",
+          "The client's specification and your proposal",
+          "Files for the named crew, procedures against the specification, calibration of the kit to be mobilized, sample reports",
+          "Conditional approval, restricted scope or no award"
+        ],
+        [
+          "Operator prequalification",
+          "The operator's contractor management team, often by desk review",
+          "A questionnaire and uploaded evidence",
+          "Written practice, certification matrix, quality certificates, procedure list, safety records",
+          "Not added to the approved bidder list"
+        ],
+        [
+          "ISO 9001 surveillance",
+          "Certification body auditor",
+          "The clause sample planned for the visit and earlier findings",
+          "Competence records, calibration, document control, control of outsourced NDT, internal audits, corrective actions",
+          "A nonconformity requiring corrective action, with certification at risk if it stays open"
+        ],
+        [
+          "Internal audit",
+          "Your own auditor or an outside Level III",
+          "Your audit programme",
+          "Whatever the programme schedules: personnel files, procedures, reports, subcontractors",
+          "Your own finding, closed on your own timetable"
+        ],
+        [
+          "Code inspector review",
+          "Authorized Inspector or third-party inspector",
+          "The job documents",
+          "Procedure approval, personnel certification, demonstration records, reports",
+          "A hold on the job until evidence is produced"
+        ]
+      ],
+      "note": "Every audit type ends at the same records, so build one pack and index it several ways."
+    },
+    "facets": [
+      {
+        "q": "What goes in an NDT audit documentation pack?",
+        "a": "The written practice and its approval; a certification matrix by person, method, level and expiry; personnel files with training, experience, examination and vision records; the procedure list with approvals and code editions; equipment calibration and verification evidence; sample reports; internal audit and corrective action records; and evidence of control over subcontracted NDT. Each item is indexed to the auditor's checklist."
+      },
+      {
+        "q": "How is a mock audit different from an internal audit?",
+        "a": "An internal audit follows your audit programme and checks the system against its own requirements. A mock audit simulates a specific external audit, using that auditor's checklist and sampling style, ahead of the real visit. A mock audit planned within your audit programme, with findings logged and closed, can count as an internal audit as well."
+      },
+      {
+        "q": "What do ISO 9001 auditors look for in an NDT company?",
+        "a": "Evidence that the processes the certificate covers run as the system describes. For NDT that means competence records for certified personnel, calibration status of instruments and reference standards, control of procedures and report formats, control of outsourced NDT, and whether internal audits and corrective actions actually close. They sample, so every sampled record has to stand on its own."
+      },
+      {
+        "q": "How should we prioritize when a client audit is close?",
+        "a": "Start with what the client will sample: files for the crew you have named, procedures for the scope you have quoted, calibration for the equipment you will mobilize, and two or three reports traced end to end. Fix anything that would stop approval first. Improvements an auditor would only note can follow on a corrective action plan."
+      },
+      {
+        "q": "What equipment evidence belongs in the pack?",
+        "a": "Calibration certificates traceable to each instrument's serial number; reference blocks and standards with their material and dimensional certification; the verification records procedures require, such as pre-use checks; light and UV-A meter calibration; magnetic particle yoke checks; and image quality indicators for radiography. Each must be current on the dates of the sampled reports."
+      },
+      {
+        "q": "What is a gap list and how is it ranked?",
+        "a": "The output of the mock audit: every finding, with the evidence that prompted it, ranked by what it would do in the real audit. Findings that would stop approval or certification come first, then findings an auditor would raise, then observations. Each line names an owner, the closure evidence expected and a target date you set."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Four audits, one set of records",
+        "paragraphs": [
+          "Client auditors, prequalification reviewers, certification body auditors and internal auditors ask questions in different orders and with different emphasis. A client auditor starts from their specification and your proposed crew. A prequalification reviewer starts from a questionnaire. An ISO 9001 auditor starts from a clause sample. An internal auditor starts from your audit programme. Before long, all of them are asking for the same personnel files, procedure approvals, calibration records and reports.",
+          "That convergence is what makes a pack worth building. One set of verified records, indexed several ways, serves every audit without being rebuilt each time. The index maps the client's questionnaire or the registrar's clause list to the evidence, so a question is answered by handing over a tab rather than by sending someone to search a shared drive while the auditor waits.",
+          "The written practice opens the pack, because every auditor either reads it first or measures everything else against it. Include the current revision with its approval signatures, the edition of SNT-TC-1A or CP-189 it adopts, and a short list of changes since the last audit. If the written practice and the practice on the floor have drifted apart, an auditor will find the gap within a handful of files, so the pack review checks the two against each other before anything else is indexed."
+        ]
+      },
+      {
+        "heading": "Personnel evidence: files that answer before they are asked",
+        "paragraphs": [
+          "Personnel files absorb a large share of audit time, because each one is a chain of records. The pack should open with a certification matrix showing every person by method, level, certification date and expiry, with vision currency alongside. Behind it sit the files themselves: training records, experience logs, examination records, vision records and the certification letter, each checked against the written practice before the auditor sees it.",
+          "The checks that matter are the ones auditors make: hours against the written practice, supervisors certified in the method, examination papers graded by the right Level III, vision current on the dates of sampled reports, and certification letters stating method, level and expiry. Our pages on [vision records](/consulting/ndt-vision-examination-records), [training records](/consulting/ndt-training-records-and-certificates) and [experience logs](/consulting/ndt-experience-logs) set out what each record needs."
+        ]
+      },
+      {
+        "heading": "Procedure and approval evidence",
+        "paragraphs": [
+          "The pack needs a procedure register: every procedure in use, its revision, the code and edition it is written to, the Level III who approved it and the date, and any client acceptance. Superseded revisions should be identifiable and withdrawn from use. Where a code or client requires qualification by demonstration, the qualification record sits with the procedure it qualifies, and the procedure cites it.",
+          "Client auditors also check fit: does the procedure you would use cover their specification? A compliance matrix or [project-specific procedure](/consulting/project-specific-ndt-procedures) prepared in advance answers that directly. Where your programme and the client's differ more fundamentally, on certification scheme or code edition, a [bridging document](/consulting/ndt-bridging-documents) agreed before the audit takes a whole category of findings off the table."
+        ]
+      },
+      {
+        "heading": "Equipment calibration and verification evidence",
+        "paragraphs": [
+          "Equipment evidence is a matter of traceability. For each instrument, probe, reference block, image quality indicator, light meter and yoke likely to be sampled, the pack should show the current calibration or verification, the standard it was checked against and its due date, all linked by serial number. A certificate that cannot be matched to the item on the bench, or to the item named on a report, is not evidence.",
+          "Procedure-required checks are the second layer: the pre-use or periodic verifications technicians perform under the procedure, such as instrument linearity, UV-A intensity or yoke lifting capability. Auditors pick a report and ask for the checks recorded on that date. If those records live in technicians' notebooks, the pack should either hold copies or show exactly where they are kept and who controls them."
+        ]
+      },
+      {
+        "heading": "Report samples: the trace test",
+        "paragraphs": [
+          "Every serious auditor runs the trace test. They choose a report and follow it: the technician named on it, certified for the method and level on that date, with vision current; the procedure and revision cited, approved and suited to the code; the instrument and probe or source listed, calibrated and verified; the acceptance criteria applied, matching the contract. One broken link is a finding.",
+          "A good pack includes several pre-traced reports, chosen to represent the methods and clients the audit covers, with each link documented. Preparing them is the most efficient rehearsal available, because it exercises every record type at once. If a pre-trace fails, the failure has been found by you, with time to correct the system rather than explain it."
+        ]
+      },
+      {
+        "heading": "The mock audit and the gap list",
+        "paragraphs": [
+          "A mock audit uses the real auditor's checklist and sampling style. For a client audit that means the client's questionnaire and specification; for ISO 9001 surveillance, the clause sample and any findings left open from the last visit; for prequalification, the questionnaire and evidence uploads. An outside Level III conducting the mock audit brings the technical reading a general quality auditor may lack and an independence an in-house reviewer cannot offer.",
+          "The gap list ranks every finding by its likely effect in the real audit: would it stop approval, would an auditor raise it, or is it an observation. Each line records the evidence that prompted it, an owner, the expected closure evidence and a target date. Closure is verified before the audit rather than assumed, and closed items are moved into the pack so the auditor sees the corrected record."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on audit documentation",
+        "paragraphs": [
+          "We assemble and index the pack to the audit you face, check every record against your written practice and procedures, pre-trace sample reports, run the mock audit, and hand over the gap list with drafted corrections where documents need repair. Technical content is reviewed by an ASNT NDT Level III. Atlantis is certified to ISO 9001 and ISO 14001; a mock audit by us is preparation, not certification, and does not replace your registrar's or client's audit.",
+          "If an audit date is already set, tell us the audit type, the scope and the date, and we will build the pack around what the auditor is most likely to sample. [Request an audit pack quote](/contact?service=consulting&subject=Audit%20documentation%20pack) with the auditor's checklist or questionnaire attached if you have it."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can Atlantis support us during the client's audit?",
+        "a": "Where it is agreed in the scope, yes: a Level III can attend to answer technical questions on documents we prepared or reviewed. You remain the auditee, and answers about how your programme runs day to day are yours to give. Most of the value lies in the preparation rather than the attendance."
+      },
+      {
+        "q": "We already failed an audit. Can you help close the findings?",
+        "a": "Yes. We review each finding, separate the immediate correction from the root cause, draft the corrected documents and the corrective action record, and check closure evidence before you submit it. Findings closed with paperwork alone, without fixing the cause, tend to return at the next visit."
+      },
+      {
+        "q": "Is Atlantis a certification body?",
+        "a": "No. Atlantis is certified to ISO 9001 and ISO 14001 by its own registrar. It does not certify management systems or personnel. A mock audit or pack review from us is preparation for an audit that someone else conducts."
+      },
+      {
+        "q": "Do you audit our NDT subcontractors as well?",
+        "a": "Yes, as a separate scope. Control of outsourced NDT is a clause auditors sample, and evidence that you approved and monitor your subcontractors belongs in the pack. Our [subcontractor approval audits](/consulting/subcontractor-approval-audits) page describes that work."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/custom-ndt-documents",
+    "title": "Custom NDT Documents: Forms, Templates, Work Instructions",
+    "description": "Custom NDT forms, report templates, technique sheets, calibration logs, work instructions, quality-manual sections and client checklists, made to order.",
+    "h1": "NDT documents made for the way your inspections actually run",
+    "answer": "Custom NDT documents are the forms, report templates, technique sheets, calibration logs, work instructions, quality-manual sections and client checklists a programme needs and no standard supplies finished. Atlantis drafts them to your written practice, procedures and client specifications, has an ASNT NDT Level III review the technical content, and delivers editable files for your document control.",
+    "expansion": "Codes and standards say what an NDT record must contain; they rarely say how the form should look. The method articles of ASME Section V list what an examination record must include, SNT-TC-1A says what certification records should hold, and ISO 9001 requires documented information to be controlled, but turning those requirements into a report template a technician can complete at height, wearing gloves, is left to the employer. Generic templates fill that gap badly: a UT report with no field for coverage or limitations, a calibration log that cannot link a reference block's serial number to the instrument it checked, a technique sheet with no space for probe and wedge identity. Every field we draft traces to a requirement in a code, your procedure or a client specification, and nothing is asked that nobody uses. Free starting points include our [written practice template](/resources/ndt-written-practice-template); documents made to your programme are quoted on request.",
+    "source": "ASME BPVC Section V, documentation and examination record requirements in the method articles; ASNT SNT-TC-1A (2024, with Addendum); ISO 9001:2015 clause 7.5 (documented information); client specifications and report formats invoked by contract.",
+    "table": {
+      "caption": "Documents made to order, what each is built from, and the fields generic versions leave out",
+      "columns": [
+        "Document",
+        "Built from",
+        "Fields generic versions leave out",
+        "Who keeps it current"
+      ],
+      "rows": [
+        [
+          "Ultrasonic report template",
+          "Procedure, code record requirements, client specification",
+          "Coverage achieved, scan surfaces, limitations, reference block identity, calibration check times",
+          "Quality function; changes approved by the Level III"
+        ],
+        [
+          "Radiographic report and interpretation sheet",
+          "Procedure, code, client specification",
+          "Image quality indicator identity and sensitivity achieved, film or detector identity, image quality checks, exposure geometry",
+          "Quality function and the RT Level III"
+        ],
+        [
+          "MT and PT report templates",
+          "Procedure and client specification",
+          "Technique and consumable batch, white light or UV-A readings, surface temperature, indication sketch and disposition",
+          "Quality function and the Level III"
+        ],
+        [
+          "Technique sheet",
+          "Procedure and component drawings",
+          "Probe and wedge serial numbers, angles or focal laws, index offsets, scan increments, the procedure ranges it sits within",
+          "Level III in the method"
+        ],
+        [
+          "Calibration and verification log",
+          "Equipment list, procedure checks, manufacturer instructions",
+          "Instrument and reference standard serials linked, user, result, action on an out-of-tolerance check",
+          "Equipment custodian"
+        ],
+        [
+          "Work instruction",
+          "One repetitive task under an approved procedure",
+          "Hold points, and the point at which to stop and call a Level II or III",
+          "Quality function"
+        ],
+        [
+          "Quality-manual section for NDT",
+          "Your ISO 9001 system and written practice",
+          "The interface between the quality system and the written practice; control of outsourced NDT",
+          "Quality manager"
+        ],
+        [
+          "Client-specific checklist",
+          "Client specification and audit questionnaire",
+          "Clause references, evidence location and an owner for each item",
+          "Project quality lead"
+        ]
+      ],
+      "note": "A field no requirement asks for is a field technicians learn to skip, so every field on a document we draft is traced to a clause."
+    },
+    "facets": [
+      {
+        "q": "What NDT documents can be made to order?",
+        "a": "Report templates by method, interpretation sheets, technique sheets and scan plan formats, calibration and verification logs, equipment registers, work instructions, NDT sections of a quality manual, personnel record forms, client-specific checklists and audit indexes. If a document records or controls NDT work and needs to match your programme, it can be drafted to it."
+      },
+      {
+        "q": "Why not use free NDT report templates?",
+        "a": "They are a fair starting point and a poor finishing one. A free template matches nobody's procedure exactly, so fields your procedure or client requires are missing and fields nobody needs are present. Use one to start the discussion, then adapt it so every field maps to your procedure, code and client, which is the work we do."
+      },
+      {
+        "q": "Do custom documents need Level III approval?",
+        "a": "Technical documents do: report templates that carry acceptance criteria or calibration requirements, technique sheets, and anything that tells a technician how to perform or judge an examination. Administrative forms follow your document control approval route. The written practice and quality system should state which documents need which approval, and we draft to that."
+      },
+      {
+        "q": "Can documents be set up for a tablet app or inspection software?",
+        "a": "Yes. We deliver editable word-processor and spreadsheet files, or a field specification your system administrator or software supplier can configure, giving each field's requirement, format and validation rule. Digital capture adds needs of its own, such as an audit trail and photo linking, which the specification covers."
+      },
+      {
+        "q": "How are custom documents controlled after delivery?",
+        "a": "Under your document control, like any other controlled document: your numbering, revision status, approval signatures and distribution. We supply the source files and a record of what each field traces to, so later revisions can be checked against the same requirements rather than edited by guesswork."
+      },
+      {
+        "q": "Can you adapt our documents to a client's mandatory report format?",
+        "a": "Yes. Clients frequently impose their own formats. We map each field of the client's format to your procedure and code requirements, identify fields your procedure does not support and add the content needed, so the technician completes one document that satisfies both rather than two that can disagree."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Where standard templates stop",
+        "paragraphs": [
+          "Every NDT programme runs on documents no standard publishes in finished form. Codes state what a record must contain, written practices state what personnel files must hold, and quality systems state that documents must be controlled. Between those requirements and the form a technician actually completes sits a design job that companies tend to do once, quickly, and then live with for years, adding fields for each new client until the form makes sense to nobody.",
+          "Custom documents reverse that. They start from the requirements the document must satisfy: the procedure's reporting clause, the code's record requirements, the client specification and the written practice. Each field is traced to at least one of them, and each requirement to at least one field. The result is a form that is complete without being cluttered, and a record of why every field exists, which turns the next revision into a check rather than a guess."
+        ]
+      },
+      {
+        "heading": "Report templates: the document the client actually reads",
+        "paragraphs": [
+          "Reports are the product most clients see, and a weak template shows up in every one. The template has to carry what the code requires an examination record to contain, what the procedure requires, and what the client specification adds, in an order a reader can follow. For ultrasonics that includes the procedure and revision, the instrument and probes, calibration and reference, scan surfaces, coverage achieved, limitations, and indications with their disposition against stated acceptance criteria.",
+          "Coverage and limitations deserve emphasis because templates leave them out more than anything else. A report listing no recordable indications, with no statement of what was and was not examined, leaves the owner assuming full coverage. A template with a mandatory coverage field and a limitations field, even when the answer is none, closes that gap on every report. Separate templates per method, rather than one form trying to serve them all, keep each one short enough to complete properly."
+        ]
+      },
+      {
+        "heading": "Technique sheets and calibration logs: the field-level records",
+        "paragraphs": [
+          "Technique sheets sit between the procedure and the work, and their format decides whether they are useful. A good format captures the component or joint, the procedure and revision, the equipment by serial number, the settings, the scan or exposure plan and the coverage expected, and states the procedure ranges it relies on. For encoded and phased array work it should hold the scan plan and focal law details an auditor or client reviewer will ask to see.",
+          "Calibration and verification logs fail on linkage. A log that records a check without naming the reference standard used, or names a block without its serial number, cannot support the reports that follow. The format should link the instrument, probe or yoke to the standard used, record the result, the user and the date, and state what happens when a check fails, including how earlier work is assessed. Our free [qualification and calibration register](/resources/qualification-and-calibration-register) shows the register side of this."
+        ]
+      },
+      {
+        "heading": "Work instructions and quality-manual sections",
+        "paragraphs": [
+          "Work instructions help with repetitive tasks, such as a pre-use instrument check or a standard thickness survey, where a short step list is more useful than a full procedure. They must sit under an approved procedure and never contradict it, and they should state the hold points where a technician stops and calls a Level II or Level III. When a work instruction starts repeating procedure content, the two drift apart, so the instruction should reference the procedure rather than copy it.",
+          "NDT sections of a quality manual connect the quality system to the NDT programme: how the written practice is controlled, how procedures are approved, how outsourced NDT is managed, how calibration is controlled and how NDT records are retained. ISO 9001 auditors read these sections to understand the system before sampling it. Drafting them to match the written practice exactly prevents the finding where the manual says one thing and the programme does another."
+        ]
+      },
+      {
+        "heading": "Client-specific checklists and forms",
+        "paragraphs": [
+          "Some clients bring their own documents and expect contractors to use them; others publish specifications with more requirements than anyone can hold in their head. A client-specific checklist turns the specification into a list a project team can work through: each requirement, its clause reference, where the evidence will be, who is responsible and when it is due. It doubles as the index for a client audit and as the brief for the crew.",
+          "Where a client mandates its own forms, the job is mapping rather than design: matching each field to your procedure and code requirements, spotting fields your procedure cannot support, and adding the content needed. Where requirements conflict at a deeper level, on certification scheme or code edition, the checklist points to the [bridging document](/consulting/ndt-bridging-documents) that resolves them."
+        ]
+      },
+      {
+        "heading": "How a custom document is specified, drafted and approved",
+        "paragraphs": [
+          "Each document starts with a short specification: what it is for, who completes it, where, on what medium, and which requirements it must satisfy. From that we draft the document and a trace table showing every field's source requirement. Drafts are reviewed against the procedure and written practice, and technical documents go to an ASNT NDT Level III for review within UT, RT, MT, PT and VT, or to a Level III in the method for anything else.",
+          "Before release, a trial on real or sample work catches fields that are awkward in practice: too small to write in, ambiguous, or in the wrong order for how the task is performed. The final version is issued under your document control with your branding and numbering, and the source files and trace table are handed over so your team can revise it later against the same requirements."
+        ]
+      },
+      {
+        "heading": "What Atlantis delivers on custom documents",
+        "paragraphs": [
+          "Deliverables are the documents themselves in editable formats, the trace table for each, a field specification for any digital system that will host them, and a short note for document control on approval routes and revision triggers. Where you already have documents, we revise rather than replace, keeping your numbering and history where they still serve.",
+          "Tell us which documents you need, which procedures and clients they serve, and how your team will use them in the field. [Request a quote for custom documents](/contact?service=consulting&subject=Custom%20NDT%20documents) and we will scope each one from the requirements it has to meet."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How is a custom document request scoped?",
+        "a": "By the list of documents, the requirements each must satisfy, the medium it will be used on and the approval route. A report template serving one method and one client is a smaller job than a template set serving several methods and clients, and the quote reflects the documents actually in scope."
+      },
+      {
+        "q": "Can you revise our existing documents instead of starting over?",
+        "a": "Yes, and that is often the better route: technicians know the existing layout, and numbering and history are preserved. We trace the existing fields to requirements, remove what nothing requires, add what is missing and keep the familiar structure where it works."
+      },
+      {
+        "q": "Will the documents carry Atlantis branding?",
+        "a": "No. They are your controlled documents, issued with your branding, numbering and approvals. Our review is recorded separately, so an auditor can see who drafted and who reviewed without our name appearing on every page your client receives."
+      },
+      {
+        "q": "Can one report template serve several clients?",
+        "a": "Yes, with a common core and a client annex for requirements specific to each client. That keeps the core stable and puts client variation in one place. When a client's requirements change how the examination is reported throughout, a separate template is cleaner."
+      }
+    ]
   }
 ]

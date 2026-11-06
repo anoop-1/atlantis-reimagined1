@@ -58,6 +58,13 @@ const L = {
   inspection: ["/inspection/ndt-inspection-services", "NDT inspection services, quoted on request"],
   consultingL3: ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT NDT Level III consulting"],
   procedure: ["/consulting/ndt-technical-procedure-development", "Have a Level III write or review the procedure"],
+  // 2026-11-06 (owner): codes and standards pages point at Training, Consulting (procedure
+  // qualification, Level III documentation, audit documentation), ERP and inspection.
+  qualification: ["/consulting/ndt-procedure-qualification-demonstration", "Procedure qualification and demonstration, witnessed by a Level III"],
+  l3docs: ["/consulting/ndt-level-iii-documentation", "Level III documentation: written practice, records, bridging documents"],
+  auditDocs: ["/consulting/ndt-audit-documentation", "Audit documentation packs for client and ISO 9001 audits"],
+  erpProcedures: ["/erp/apps/procedures", "Control procedures and code editions in Atlantis ERP"],
+  erpAuditFix: ["/erp/solutions/audit-evidence-scramble", "Stop the pre-audit evidence scramble with Atlantis ERP"],
   programme: ["/consulting/snt-tc-1a-training-program-setup", "Written practice and SNT-TC-1A programme set-up"],
   erp: ["/erp", "Atlantis ERP: jobs, certifications, calibration and reports in one system"],
   erpCerts: ["/erp/apps/certificates", "Track technician certifications and expiry dates in Atlantis ERP"],
@@ -165,21 +172,31 @@ function ruleFor(p) {
     if (/procedure|written-practice/.test(p)) return block("templates", "Need it written to your code?", "Templates get you started. An ASNT NDT Level III can write or review the document against your code, client specification and written practice.", [L.procedure, L.programme, L.templates]);
     return block("templates", "Beyond templates", "When the same job, procedure, equipment and technician details are typed on every report, move the work into software, or ask us for templates in your own format.", [L.erpReports, L.erpCerts, L.templates]);
   }
+  // 4b. Compliance pages (/compliance/{standard}/{topic}, 475 pages): every one points at
+  // consulting, inspection, training and ERP (2026-11-06; only 74 linked ERP before).
+  if (/^\/compliance(\/|$)/.test(p)) {
+    if (/audit|corrective|documentation|records|nonconform|surveillance/.test(p))
+      return block("compliance", "Get audit-ready, and stay that way", "Auditors read the documents before they watch the work. Atlantis prepares the evidence pack and the Level III documentation behind it, trains the technicians, and Atlantis ERP keeps the records current between audits.", [L.auditDocs, L.l3docs, L.consultingL3, L.training, L.erpAuditFix]);
+    if (mk) return block("compliance", "Need this applied on your job?", "Atlantis writes the procedure to this requirement, qualifies and demonstrates it, carries out the examination and trains technicians in the method. Atlantis ERP keeps the approved revision in front of the crew.", [L.procedure, L.qualification, meth(mk, "service"), meth(mk, "training"), L.erpProcedures]);
+    // 2026-11-07 (owner): grow training, consulting and ERP; inspection neither grows nor shrinks, so
+    // compliance pages that had no block get no new inspection link.
+    return block("compliance", "Meet this requirement without the paperwork pile-up", "Atlantis writes the procedures and Level III documentation this requirement calls for, trains the technicians, and Atlantis ERP keeps certifications and procedure revisions in one place.", [L.l3docs, L.procedure, L.consultingL3, L.training, L.erpProcedures]);
+  }
   // 5. API inspection codes -> inspector services + inspection (never API training).
-  if (api && /certification|training|course/.test(p)) return block("codes", `Next steps for API ${api} candidates and employers`, `Most API ${api} work runs on ultrasonic thickness and flaw data. Candidates can strengthen their UT skills and practise on the simulator; owner-operators can bring in Atlantis for the NDE and data review behind their API ${api} programme, with the Authorized Inspector staying their own.`, [meth("ut", "training"), meth("ut", "sim"), L["api" + api]]);
-  if (api === "510") return block("codes", "Need the NDE behind your API 510 programme?", "Atlantis carries out the thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the readings in one system.", [L.api510, L.vessel, L.erpAssets]);
-  if (api === "570") return block("codes", "Need the NDE behind your API 570 programme?", "Atlantis carries out the CML thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the CMLs and readings in one system.", [L.api570, L.cml, L.erpAssets]);
-  if (api === "653") return block("codes", "Need the NDE behind your API 653 programme?", "Atlantis carries out tank floor, shell and settlement NDE and reviews the data; your Authorized Inspector stays inspector of record.", [L.api653, L.tank, L.erpAssets]);
+  if (api && /certification|training|course/.test(p)) return block("codes", `Next steps for API ${api} candidates and employers`, `Most API ${api} work runs on ultrasonic thickness and flaw data. Candidates can strengthen their UT skills and practise on the simulator; owner-operators can bring in Atlantis for the NDE and data review behind their API ${api} programme, with the Authorized Inspector staying their own.`, [meth("ut", "training"), meth("ut", "sim"), L["api" + api], L.erpCerts]);
+  if (api === "510") return block("codes", "Need the NDE behind your API 510 programme?", "Atlantis carries out the thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the readings in one system.", [L.api510, L.vessel, meth("ut", "training"), L.erpAssets]);
+  if (api === "570") return block("codes", "Need the NDE behind your API 570 programme?", "Atlantis carries out the CML thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the CMLs and readings in one system.", [L.api570, L.cml, meth("ut", "training"), L.erpAssets]);
+  if (api === "653") return block("codes", "Need the NDE behind your API 653 programme?", "Atlantis carries out tank floor, shell and settlement NDE and reviews the data; your Authorized Inspector stays inspector of record.", [L.api653, L.tank, meth("ut", "training"), L.erpAssets]);
   if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Assessments are only as good as the inspection data behind them. Atlantis carries out the NDE that feeds them, and a digital twin keeps the history in view.", [L.rbi, L.integrity, L.twin]);
   if (/nace|cui|corrosion-under-insulation/.test(p)) return block("codes", "Need this inspected?", "Atlantis carries out corrosion and CUI inspection and keeps the findings tied to each asset.", [L.cui, L.rbi, L.erpAssets]);
   // 6. Certification schemes -> training + programme set-up + simulator.
   if (/asnt|snt-tc-1a|cp-189|iso-9712|(^|[-/])accp|(^|[-/])pcn([-/]|$)|nas-410|en-4179|written-practice|certification|level-(i|ii|iii|1|2|3)([-/]|$)/.test(p))
-    return block("certify", "Get certified, or certify your team", "Individuals train and sit examinations under their employer's written practice. Employers need that written practice, and a Level III to run it. Atlantis does both.", [level3 ? L.l3 : L.l2, L.programme, L.practical]);
+    return block("certify", "Get certified, or certify your team", "Individuals train and sit examinations under their employer's written practice. Employers need that written practice, and a Level III to run it. Atlantis does both.", [level3 ? L.l3 : L.l2, L.programme, L.l3docs, L.erpCerts, L.practical]);
   // 7. Codes and standards with a method -> procedure + service + training.
   if (/^\/standards|asme|aws-d1|(^|[-/])b31|astm|(^|[-/])en-iso|nbic|section-v|section-viii|acceptance-criteria/.test(p)) {
-    if (mk) return block("codes", "Need this applied on your job?", "Atlantis writes and reviews procedures to this code, carries out the examination, and trains technicians in the method.", [L.procedure, meth(mk, "service"), meth(mk, "training")]);
-    if (/weld|aws|b31|section-viii/.test(p)) return block("codes", "Need this applied on your job?", "Atlantis writes and reviews procedures to this code, inspects welds against it, and trains technicians in visual weld inspection.", [L.procedure, L.weld, meth("vt", "training")]);
-    return block("codes", "Need this applied on your job?", "Atlantis writes and reviews procedures to the codes you work under, and provides the inspection and the training.", [L.procedure, L.inspection, L.training]);
+    if (mk) return block("codes", "Need this applied on your job?", "Atlantis writes and reviews procedures to this code, carries out the examination, and trains technicians in the method.", [L.procedure, L.qualification, meth(mk, "service"), meth(mk, "training"), L.erpProcedures]);
+    if (/weld|aws|b31|section-viii/.test(p)) return block("codes", "Need this applied on your job?", "Atlantis writes and reviews procedures to this code, inspects welds against it, and trains technicians in visual weld inspection.", [L.procedure, L.qualification, L.weld, meth("vt", "training"), L.erpReports]);
+    return block("codes", "Need this applied on your job?", "Atlantis writes and reviews procedures to the codes you work under, and provides the inspection and the training.", [L.procedure, L.l3docs, L.inspection, L.training, L.erpProcedures]);
   }
   // 8. Training pages -> practice tests + simulator.
   if (/^\/(training|ndt-training|ndt-level-|[a-z-]+-testing-training|phased-array-training|tofd-training|corporate-training|corporate-ndt-training|[a-z-]+-ndt-training|training-)/.test(p))

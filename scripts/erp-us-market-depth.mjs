@@ -47,7 +47,7 @@ const TYPE_FIT = {
   aerospace: `
     <h2>The audit reality of aerospace and defence NDT</h2>
     <p>For an inspection company in this market, the system of record is the product: technician qualification histories, eye-exam currency, procedure revisions, equipment calibration chains traceable to standards, all retrievable in the form an auditor expects on the day the auditor asks.</p>
-    <p>Inspection management software built for this world holds the written practice, the qualification matrix and the calibration register in one place, so audit preparation stops being an annual archaeology project. The companies that do this well quote Nadcap-scope work with confidence; the ones that do not simply avoid the market's best-paying contracts.</p>`,
+    <p>Inspection management software built for this world holds the written practice, the qualification matrix and the calibration register in one place, so audit preparation stops being an annual archaeology project. The companies that do this well quote prime-contractor work with confidence; the ones that do not simply avoid the market's best-paying contracts.</p>`,
   marine: `
     <h2>Marine and port inspection: survey-driven, class-society-shaped</h2>
     <p>Marine NDT runs on the classification societies' clock — gaugings and surveys tied to dry-dock windows that do not move for anyone's staffing problems. Inspection companies serving shipyards and ports juggle vessel projects measured in thousands of thickness readings, crane and cargo-gear examinations under statutory schedules, and clients who want the survey package in the class society's expected format. Software that captures readings against a hull grid and produces the report the surveyor will actually accept saves days per vessel, and days per vessel is what wins yard relationships.</p>
@@ -169,7 +169,7 @@ export const US_MARKETS = {
   denver: {
     name: 'Denver', type: 'pipeline',
     base: 'Denver serves the DJ Basin and the Rockies midstream network, with a refinery in town, gas processing up and down the Front Range, and a growing advanced-manufacturing and aerospace base.',
-    work: 'Facility inspection across the basin\'s plants and compression, refinery programmes at Commerce City, and aerospace-supply-chain work that brings NAS-style personnel expectations into an oilfield market.',
+    work: 'Facility inspection across the basin\'s plants and compression, refinery programmes at Commerce City, and aerospace-supply-chain work that brings customer-flowed personnel expectations into an oilfield market.',
     anchor: 'the Commerce City refinery, the DJ Basin processing plants, and the aerospace manufacturers along the front range',
   },
   'salt-lake-city': {
@@ -307,7 +307,7 @@ export const US_MARKETS = {
   seattle: {
     name: 'Seattle', type: 'aerospace',
     base: 'Puget Sound\'s inspection market is aerospace-first — the airframer\'s plants and their supplier web — layered over shipyards, the ports of Seattle and Tacoma, and the refineries up at Anacortes and Cherry Point.',
-    work: 'Aerospace examination under prime flow-down and Nadcap expectations, ship repair and naval work at the yards, port equipment surveys, and refinery programmes north along the sound.',
+    work: 'Aerospace examination under prime flow-down personnel requirements, ship repair and naval work at the yards, port equipment surveys, and refinery programmes north along the sound.',
     anchor: 'the airframe plants at Everett and Renton, the shipyards at Bremerton and Harbor Island, and the refineries near Anacortes',
   },
   portland: {
@@ -392,7 +392,7 @@ function capabilityBlock(m) {
     <p>Cloud-based, mobile in the field, and fully customizable to how your operation already works. <a href="/ndt-inspection-software">See the NDT inspection software platform</a> · <a href="/erp">the full business management suite</a> · <a href="/contact?service=erp">talk to us about ${esc(m.name)}</a>.</p>`;
 }
 
-function buildBlock(slug, m) {
+export function buildBlock(slug, m) {
   return `
     <section aria-label="NDT ERP for ${esc(m.name)} inspection companies in detail">
       <h2>The ${esc(m.name)} NDT services market, from the provider's side</h2>

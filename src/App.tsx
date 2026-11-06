@@ -9,7 +9,8 @@ import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 const TrainingAvailabilityBlock = lazy(() => import("./components/TrainingAvailabilityBlock"));
 const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §48
 const GeoDepthBlock = lazy(() => import("./components/GeoDepthBlock")); // 2026-10-24 researched local blocks on earning geo pages
-const IntentRouteBlock = lazy(() => import("./components/IntentRouteBlock")); // 2026-10-24 reading pages -> the product their readers buy next
+const IntentRouteBlock = lazy(() => import("./components/IntentRouteBlock"));
+const ErpSolutionLinksBlock = lazy(() => import("./components/ErpSolutionLinksBlock")); // 2026-11-06 ERP pages -> /erp/solutions problem guides // 2026-10-24 reading pages -> the product their readers buy next
 const FreeDownloadsBlock = lazy(() => import("./components/FreeDownloadsBlock")); // 2026-10-24 free templates + practice PDFs + custom-templates CTA
 const CompetitiveCoverageBlock = lazy(() => import("./components/CompetitiveCoverageBlock")); // §49
 const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); // §50
@@ -59,6 +60,7 @@ const App = () => (
                   <ProductVideoBlock />
                   <ProductScreenshotsBlock />
                   <GeoDepthBlock />
+                  <ErpSolutionLinksBlock />
                   <IntentRouteBlock />
                   <FreeDownloadsBlock />
                   <CompetitiveCoverageBlock />

@@ -65,12 +65,12 @@ export const US_REGIONS = {
   'great-lakes-midwest': {
     label: 'the Great Lakes and Midwest',
     note: 'integrated steel, automotive manufacturing, refining and heavy fabrication across the industrial belt',
-    cities: ['chicago', 'gary', 'detroit', 'cleveland', 'toledo-ohio', 'pittsburgh', 'milwaukee', 'minneapolis', 'st-louis', 'kansas-city', 'indianapolis', 'columbus', 'cincinnati'],
+    cities: ['chicago', 'gary', 'detroit', 'cleveland', 'toledo-ohio', 'pittsburgh', 'milwaukee', 'minneapolis', 'st-louis', 'kansas-city', 'indianapolis', 'columbus', 'cincinnati', 'peoria'],
   },
   'southeast': {
     label: 'the Southeast',
     note: 'power generation, aerospace manufacturing, ports and a construction economy growing faster than its inspection workforce',
-    cities: ['atlanta', 'charlotte', 'birmingham', 'nashville', 'memphis', 'jacksonville', 'tampa', 'savannah', 'orlando', 'greenville', 'knoxville'],
+    cities: ['atlanta', 'charlotte', 'birmingham', 'nashville', 'memphis', 'jacksonville', 'tampa', 'savannah', 'orlando', 'greenville', 'knoxville', 'oak-ridge', 'augusta'],
   },
   'northeast-midatlantic': {
     label: 'the Northeast and mid-Atlantic',
@@ -80,7 +80,7 @@ export const US_REGIONS = {
   'west-coast': {
     label: 'the West Coast',
     note: 'West Coast refining under the tightest regulatory scrutiny in the country, port complexes, aerospace and shipyards',
-    cities: ['los-angeles', 'long-beach', 'bakersfield', 'martinez', 'seattle', 'portland', 'san-francisco', 'san-diego', 'sacramento', 'anchorage'],
+    cities: ['los-angeles', 'long-beach', 'bakersfield', 'martinez', 'seattle', 'portland', 'san-francisco', 'san-diego', 'sacramento', 'anchorage', 'richland'],
   },
   'southwest': {
     label: 'the Southwest',
@@ -92,7 +92,7 @@ export const US_REGIONS = {
 const CANADA = {
   label: 'Canada',
   note: 'oil sands, refining and pipeline infrastructure under provincial pressure-equipment regimes (ABSA, TSSA and their provincial equivalents)',
-  cities: ['calgary', 'edmonton', 'fort-mcmurray', 'sarnia', 'saint-john', 'toronto', 'montreal', 'vancouver', 'winnipeg', 'regina', 'saskatoon', 'hamilton'],
+  cities: ['calgary', 'edmonton', 'fort-mcmurray', 'sarnia', 'saint-john', 'toronto', 'montreal', 'vancouver', 'winnipeg', 'regina', 'saskatoon', 'hamilton', 'kitimat', 'kincardine', 'sudbury', 'st-johns'],
 };
 
 const pretty = (slug) => slug.split('-').map((w) => (w === 'st' ? 'St.' : w[0].toUpperCase() + w.slice(1))).join(' ')

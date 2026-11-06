@@ -265,7 +265,7 @@ const SLUG_LABEL_OVERRIDES = {
   'wilmington-california': 'Wilmington, California', 'richmond-california': 'Richmond, California',
   'toledo-ohio': 'Toledo, Ohio', 'hamilton-ontario': 'Hamilton, Ontario', 'linden-nj': 'Linden, NJ',
   'kansas-city': 'Kansas City', 'port-hedland': 'Port Hedland', 'new-plymouth': 'New Plymouth',
-  'fort-mcmurray': 'Fort McMurray', 'fort-saskatchewan': 'Fort Saskatchewan', 'saint-john': 'Saint John',
+  'fort-mcmurray': 'Fort McMurray', 'fort-saskatchewan': 'Fort Saskatchewan', 'saint-john': 'Saint John', 'st-johns': "St. John's", 'oak-ridge': 'Oak Ridge', 'san-diego': 'San Diego',
   'port-harcourt': 'Port Harcourt', 'pointe-noire': 'Pointe-Noire', 'la-porte': 'La Porte',
   'east-chicago': 'East Chicago', 'colorado-springs': 'Colorado Springs', 'salina-cruz': 'Salina Cruz',
   'el-segundo': 'El Segundo', 'long-beach': 'Long Beach', 'san-francisco': 'San Francisco',
@@ -308,7 +308,8 @@ export function propsFromPageFile(file) {
   const abs = resolve(SRC, file.endsWith('.tsx') || file.endsWith('.ts') ? file : `${file}.tsx`);
   if (!existsSync(abs)) return null;
   const src = readFileSync(abs, 'utf8');
-  const grab = (name) => src.match(new RegExp(`${name}=["']([^"']+)["']`))?.[1] || null;
+  // 2026-11-06: match the opening quote, so a value like city="St. John's" keeps its apostrophe.
+  const grab = (name) => { const m = src.match(new RegExp(`${name}="([^"]+)"|${name}='([^']+)'`)); return (m && (m[1] || m[2])) || null; };
   return {
     src,
     city: grab('city'),

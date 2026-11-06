@@ -41,6 +41,7 @@ import {
   trainingPathForCity,
 } from '@/data/city-profiles';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
+import ErpDashboardPreview from '@/components/erp/ErpDashboardPreview'; // 2026-11-06 owner: dashboard models on ERP pages
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -6840,6 +6841,19 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
           </div>
         </div>
       </motion.section>
+
+      {/* ── Dashboard preview (2026-11-06, owner: "include dashboard models … very interactive").
+            Sample data from src/data/erp-dashboard-preview-2026-11.mjs; React only on city pages so
+            the shared widget copy never adds to the city family's similarity score. ─────────── */}
+      <section className="py-14 bg-background" aria-label="Sample dashboard">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+          <div className="max-w-3xl mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight">How an inspection company in {city} sees its week</h2>
+            <p className="mt-2 text-muted-foreground">Certifications, calibration, reports, crews and cash on one screen. Click through the panels: everything here is sample data.</p>
+          </div>
+          <ErpDashboardPreview initialTab="certifications" />
+        </div>
+      </section>
 
       {/* ── Location context ──────────────────────────────────────────────── */}
       <section className="py-16 bg-secondary/20">

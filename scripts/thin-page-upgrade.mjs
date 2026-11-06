@@ -42,6 +42,7 @@ import { applyMethodCityDepth, assertNoPricesInMethodCityDepth } from './method-
 import { applyTrainingCityIntl, assertNoPricesInTrainingIntl } from './training-city-intl.mjs';
 import { applyErpUsMarketDepth, assertErpUsNoNumbers } from './erp-us-market-depth.mjs';
 import { applyErpUsCityTexture, assertCityTextureClean } from './erp-us-city-texture-2026-08-09.mjs';
+import { applyErpNaCities, assertErpNaClean } from './erp-na-cities-2026-11.mjs'; // 2026-11-06 owner: 14 North American ERP city pages
 import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boost-2026-08-06.mjs';
 import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth-2026-08-06.mjs';
 import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-06.mjs';
@@ -724,6 +725,9 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
       const problems = assertCityTextureClean();
       if (problems.length) throw new Error(`erp-us-city-texture: ${problems.join('; ')}`);
     })(), applyErpUsCityTexture(routes, append)),
+    // 2026-11-06 (owner): fourteen researched North American ERP city pages (US, Canada,
+    // Mexico): market block + operating texture + regulation note (scripts/erp-na-cities-2026-11.mjs).
+    erpNa: (assertErpNaClean(), applyErpNaCities(routes, append)),
     // USA head-term boost: additive sections on the pages that OWN the target
     // queries (ndt reporting software p9, inspection software, api 653 tank
     // companies, asnt nationwide contracts).

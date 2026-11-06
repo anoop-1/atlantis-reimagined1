@@ -88,7 +88,9 @@ import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './
 import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats } from './software-owners-2026-10.mjs'; // 2026-10-18 software: /ndt-inspection-software product page (last body writer, one JSON for both layers)
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
-import { privacyPolicyRoute } from './privacy-policy-page.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
+import { privacyPolicyRoute } from './privacy-policy-page.mjs';
+import { erpSolutionRoutes, applyErpSolutionRoute, assertErpSolutionsBuilt, erpSolutionStats } from './erp-solutions-pages.mjs'; // 2026-11-06 owner: ERP problem -> solution pages, dashboards, links
+import { MODULE_PAGES_PROTECTED } from '../src/data/erp-module-dashboards-2026-11.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
@@ -10087,6 +10089,7 @@ routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (s
 routes.push(...consultingSectionRoutes()); // 2026-10-19: Level III consulting topic pages (scripts/consulting-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
+routes.push(...erpSolutionRoutes()); // 2026-11-06: /erp/solutions hub + problem guides (scripts/erp-solutions-pages.mjs)
 routes.push(privacyPolicyRoute()); // 2026-10-31: /privacy-policy (scripts/privacy-policy-page.mjs); not linked from navigation or footer
 routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
 
@@ -12738,6 +12741,7 @@ function getLastmodForPath(path, index = 0) {
   }
 
   // Static pages (about, FAQ, contact): 2026-02-15
+  if (path === '/erp/solutions' || path.startsWith('/erp/solutions/')) return '2026-11-06'; // ERP problem guides
   if (path === '/privacy-policy') return '2026-10-31'; // policy effective date (src/data/privacy-policy-2026-10.json)
   if (['/about', '/faq', '/contact', '/privacy', '/terms'].includes(path)) {
     return '2026-02-15';
@@ -14039,7 +14043,7 @@ if (pseoNoindexApplied > 0) {
       const sat = consolidateSaturatedFamilies(routes, {
         served, exists, impressions, familyAgeDays, minAgeDays: 21,
         // 2026-10-18: owner pages never consolidate (software owner map + the ERP app hub and LMS app).
-        protect: new Set([...Object.values((await import('../src/data/owner-links-2026-10.mjs')).SOFTWARE_INTENT_OWNERS).map((g) => g.owner), '/erp/apps', '/erp/apps/ndt-reports', '/erp/apps/elearning']),
+        protect: new Set([...Object.values((await import('../src/data/owner-links-2026-10.mjs')).SOFTWARE_INTENT_OWNERS).map((g) => g.owner), '/erp/apps', '/erp/apps/ndt-reports', '/erp/apps/elearning', ...MODULE_PAGES_PROTECTED]), // 2026-11-06: NDT module pages with dashboards stay self-canonical
       });
       if (sat.consolidated) {
         console.log(
@@ -14191,6 +14195,7 @@ assertGeoDepthClean(BUILT_PATHS); // 2026-10-24: depth blocks pass the content r
 assertWave17(BUILT_PATHS); // 2026-10-26: every wave 17 path is a built page
 assertNaKeywordDepthClean(BUILT_PATHS); // 2026-10-26 §64: competitor-keyword sections pass the content rules, link only to built pages
 assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
+assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, related targets built
 assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
@@ -14422,6 +14427,7 @@ routes.forEach(route => {
     route = ensureMainLayout(route); // 2026-10-25: bare <article>/<section> bodies get the site header + <main> (116 sitemap pages lacked it)
     route = applyApiGuideLibrary(route); // 2026-10-25 §64: API guide sibling links + owner-page library block
     route = applyGeoDepth(route); // 2026-10-24: researched local depth block (before routing + downloads)
+    route = applyErpSolutionRoute(route); // 2026-11-06: ERP module dashboards + problem-guide links (before routing)
     route = applyIntentRoute(route); // 2026-10-24: intent routing (careers -> training + Practical NDT, calculators -> consulting/ERP, codes -> procedure + inspection + training)
     route = applyDownloadsRoute(route); // 2026-10-24: free downloads + custom-templates quotation CTA, ahead of the coverage block
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
@@ -14444,6 +14450,7 @@ routes.forEach(route => {
     // put back any 2026-10-24 block they dropped. Each applier is idempotent and only runs where its block is missing.
     if (typeof route.bodyContent === 'string') {
       if (!route.bodyContent.includes('data-geo-depth="2026-10"')) route = applyGeoDepth(route);
+      if (!route.bodyContent.includes('data-erp-solution-links="2026-11"') || (/^\/erp\/apps\/[a-z-]+$/.test(route.path) && !route.bodyContent.includes('data-erp-module-dashboard="2026-11"'))) route = applyErpSolutionRoute(route);
       if (!route.bodyContent.includes('data-intent-route="2026-10"')) route = applyIntentRoute(route);
       if (!route.bodyContent.includes('data-free-downloads="2026-10"')) route = applyDownloadsRoute(route);
       if (!route.bodyContent.includes('data-guide-library="2026-10"')) route = applyApiGuideLibrary(route);

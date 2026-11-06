@@ -102,6 +102,8 @@ const Erp = lazy(() => import("./pages/Erp"));
 const ErpAppsHub = lazy(() => import("./pages/ErpAppsHub"));
 const BusinessConsulting = lazy(() => import("./pages/BusinessConsulting"));
 const ErpPricing = lazy(() => import("./pages/ErpPricing")); // USA & Canada ERP plans (owner, 2026-10-07)
+const ErpSolutionsHub = lazy(() => import("./pages/ErpSolutionsHub")); // 2026-11-06 problem -> solution guides
+const ErpSolutionPage = lazy(() => import("./pages/ErpSolutionPage"));
 const ErpAppPage = lazy(() => import("./pages/ErpAppPage"));
 const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
 const InspectionServices = lazy(() => import("./pages/InspectionServices"));
@@ -2596,6 +2598,21 @@ const NDTErpNewark = lazy(() => import("./pages/ndt-erp-newark"));
 const NDTErpBillings = lazy(() => import("./pages/ndt-erp-billings"));
 const NDTErpCasper = lazy(() => import("./pages/ndt-erp-casper"));
 const NDTErpWilliston = lazy(() => import("./pages/ndt-erp-williston"));
+// === ERP North America cities 2026-11-06 (owner) ===
+const NDTErpNa_baltimore = lazy(() => import("./pages/ndt-erp-baltimore"));
+const NDTErpNa_indianapolis = lazy(() => import("./pages/ndt-erp-indianapolis"));
+const NDTErpNa_oak_ridge = lazy(() => import("./pages/ndt-erp-oak-ridge"));
+const NDTErpNa_richland = lazy(() => import("./pages/ndt-erp-richland"));
+const NDTErpNa_san_diego = lazy(() => import("./pages/ndt-erp-san-diego"));
+const NDTErpNa_augusta = lazy(() => import("./pages/ndt-erp-augusta"));
+const NDTErpNa_peoria = lazy(() => import("./pages/ndt-erp-peoria"));
+const NDTErpNa_memphis = lazy(() => import("./pages/ndt-erp-memphis"));
+const NDTErpNa_kitimat = lazy(() => import("./pages/ndt-erp-kitimat"));
+const NDTErpNa_kincardine = lazy(() => import("./pages/ndt-erp-kincardine"));
+const NDTErpNa_sudbury = lazy(() => import("./pages/ndt-erp-sudbury"));
+const NDTErpNa_winnipeg = lazy(() => import("./pages/ndt-erp-winnipeg"));
+const NDTErpNa_st_johns = lazy(() => import("./pages/ndt-erp-st-johns"));
+const NDTErpNa_monterrey = lazy(() => import("./pages/ndt-erp-monterrey"));
 const NDTErpSaltLakeCity = lazy(() => import("./pages/ndt-erp-salt-lake-city"));
 const NDTErpFreeport = lazy(() => import("./pages/ndt-erp-freeport"));
 const NDTErpGary = lazy(() => import("./pages/ndt-erp-gary"));
@@ -3284,6 +3301,8 @@ export default function RouteTable() { return (
                   />
                   <Route path="/erp" element={<Erp />} />
                   <Route path="/erp/pricing" element={<ErpPricing />} />
+                  <Route path="/erp/solutions" element={<ErpSolutionsHub />} />
+                  <Route path="/erp/solutions/:slug" element={<ErpSolutionPage />} />
                   <Route path="/erp/apps" element={<ErpAppsHub />} />
                   <Route path="/business-consulting" element={<BusinessConsulting />} />
                   <Route path="/erp/apps/:app" element={<ErpAppPage />} />
@@ -4085,6 +4104,16 @@ export default function RouteTable() { return (
                   <Route path="/consulting/ndt-level-iii-succession-planning" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/multi-site-ndt-program-harmonisation" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ndt-procedure-qualification-demonstration" element={<LazyRoute Component={DepthPage} />} />
+                  {/* 2026-11-06 owner: Level III documentation services (depth pages) */}
+                  <Route path="/consulting/ndt-level-iii-documentation" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-vision-examination-records" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-training-records-and-certificates" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-experience-logs" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/project-specific-ndt-procedures" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-bridging-documents" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-risk-assessments" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-audit-documentation" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/custom-ndt-documents" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ndt-examination-question-bank-development" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-method-scope-limitations" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation" element={<LazyRoute Component={DepthPage} />} />
@@ -5832,6 +5861,20 @@ export default function RouteTable() { return (
                   <Route path="/ndt-erp-billings" element={<LazyRoute Component={NDTErpBillings} />} />
                   <Route path="/ndt-erp-casper" element={<LazyRoute Component={NDTErpCasper} />} />
                   <Route path="/ndt-erp-williston" element={<LazyRoute Component={NDTErpWilliston} />} />
+                  <Route path="/ndt-erp-baltimore" element={<LazyRoute Component={NDTErpNa_baltimore} />} />
+                  <Route path="/ndt-erp-indianapolis" element={<LazyRoute Component={NDTErpNa_indianapolis} />} />
+                  <Route path="/ndt-erp-oak-ridge" element={<LazyRoute Component={NDTErpNa_oak_ridge} />} />
+                  <Route path="/ndt-erp-richland" element={<LazyRoute Component={NDTErpNa_richland} />} />
+                  <Route path="/ndt-erp-san-diego" element={<LazyRoute Component={NDTErpNa_san_diego} />} />
+                  <Route path="/ndt-erp-augusta" element={<LazyRoute Component={NDTErpNa_augusta} />} />
+                  <Route path="/ndt-erp-peoria" element={<LazyRoute Component={NDTErpNa_peoria} />} />
+                  <Route path="/ndt-erp-memphis" element={<LazyRoute Component={NDTErpNa_memphis} />} />
+                  <Route path="/ndt-erp-kitimat" element={<LazyRoute Component={NDTErpNa_kitimat} />} />
+                  <Route path="/ndt-erp-kincardine" element={<LazyRoute Component={NDTErpNa_kincardine} />} />
+                  <Route path="/ndt-erp-sudbury" element={<LazyRoute Component={NDTErpNa_sudbury} />} />
+                  <Route path="/ndt-erp-winnipeg" element={<LazyRoute Component={NDTErpNa_winnipeg} />} />
+                  <Route path="/ndt-erp-st-johns" element={<LazyRoute Component={NDTErpNa_st_johns} />} />
+                  <Route path="/ndt-erp-monterrey" element={<LazyRoute Component={NDTErpNa_monterrey} />} />
                   <Route path="/ndt-erp-salt-lake-city" element={<LazyRoute Component={NDTErpSaltLakeCity} />} />
                   <Route path="/ndt-erp-freeport" element={<LazyRoute Component={NDTErpFreeport} />} />
                   <Route path="/ndt-erp-gary" element={<LazyRoute Component={NDTErpGary} />} />
