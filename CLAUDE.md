@@ -3771,5 +3771,5 @@ US: baltimore, indianapolis, oak-ridge, richland, san-diego, augusta, peoria, me
 See §68.10 for the deploy. Gates: preflight 16/16 · pricing `--dist` PASS · claims `--dist` PASS · drift guard PASS · intent-route guard PASS · ERP solutions guard PASS · 0 sitemap failures. No new TypeScript errors (baseline 410).
 
 ### 68.10 Status and next checkpoint
-- Owner, 2026-11-07: "push it along with other changes & updates". This release (privacy policy §67 + this section) goes to main together.
+- Owner, 2026-11-07: "push it along with other changes & updates". **Deployed 2026-11-07:** main = 6515c9d7 (Deploy to VPS run 42274687605, success). Live-verified: /erp/solutions, a guide, St. John's and Kincardine ERP pages, two consulting documentation pages, /erp/apps/procedures, /privacy-policy and a compliance page all 200 with real HTML and self-canonicals; the live Contact chunk carries the new subject code. IndexNow: 53 URLs accepted (`scripts/indexnow-queue-2026-11-07.txt`); Google via sitemaps (no Indexing API).
 - **Measure ~2026-12-07** (GSC 28d): impressions on `/erp/solutions/*` and the 14 module pages; ERP city family impressions vs 7/page (§31.1); consulting documentation pages; clicks from `/compliance/*` and codes pages to consulting/training/ERP (`intent_route_click` in GA4); ERP and consulting `generate_lead`.
