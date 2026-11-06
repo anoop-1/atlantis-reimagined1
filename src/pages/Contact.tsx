@@ -15,6 +15,19 @@ import { useSearchParams } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, leadMetaLines, pipelineFor, isQualifiedLead } from "@/lib/enquiry-analytics";
 
+// 2026-11-06 (owner): "keep the main subject only" in the info@ inbox. The subject is the
+// visitor's own topic (the CTA's ?subject=, else the service they picked) and their name.
+const SERVICE_SUBJECTS: Record<string, string> = {
+  erp: "ERP enquiry", "digital-twins": "Digital twin enquiry", "3d-scanning": "3D scanning enquiry",
+  inspection: "Inspection enquiry", reporting: "Reporting software enquiry", "practical-ndt": "Practical NDT enquiry",
+  training: "Training enquiry", consulting: "Level III consulting enquiry", templates: "Custom templates enquiry", other: "Website enquiry",
+};
+function emailSubject(preset: string, service: string, name: string, company: string): string {
+  const topic = preset.trim() || SERVICE_SUBJECTS[service] || "Website enquiry";
+  return `${topic} — ${name}${company ? ` (${company})` : ""}`;
+}
+
+
 // 2026-10-07 owner strategy (Contact Us remembers intent): a few short,
 // optional questions per commercial line, so the enquiry arrives qualified and
 // the reply can be specific. Never required: a short form beats a complete one.
@@ -297,6 +310,9 @@ export default function Contact() {
          if (serviceId && templateId && publicKey) {
             try {
                const fullName = `${formData.firstName} ${formData.lastName}`.trim();
+               // 2026-11-06 (owner): the email subject is the enquiry's own subject and nothing else —
+               // no "[PIPELINE] Contact form:" prefix. The pipeline stays in the message body.
+               const mainSubject = emailSubject(presetSubject, formData.service, fullName, formData.company);
                await emailjs.send(
                   serviceId,
                   templateId,
@@ -321,7 +337,7 @@ export default function Contact() {
                         `Service: ${formData.service || "(not selected)"}\n\n` +
                         (detailLines ? `Details:\n${detailLines}\n\n` : "") +
                         `Message:\n${formData.message}`,
-                     subject: `[${pipeline}] Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
+                     subject: mainSubject,
                      to_email: "info@atlantisndt.com",
                   },
                   { publicKey },
@@ -338,7 +354,7 @@ export default function Contact() {
             const res = await fetch("/api/contact", {
                method: "POST",
                headers: { "Content-Type": "application/json" },
-               body: JSON.stringify({ ...formData, details: `Pipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\n${detailLines}`, subject: `[${pipeline}] Contact form`, enquiryId, ...context, form_id: "contact" }),
+               body: JSON.stringify({ ...formData, details: `Pipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\n${detailLines}`, subject: emailSubject(presetSubject, formData.service, `${formData.firstName} ${formData.lastName}`.trim(), formData.company), enquiryId, ...context, form_id: "contact" }),
             });
             const result = await res.json().catch(() => ({} as any));
             if (!res.ok || !result?.ok || !result?.enquiryId) {

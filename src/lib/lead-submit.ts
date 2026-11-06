@@ -76,9 +76,9 @@ export async function submitLead(input: LeadInput): Promise<LeadResult> {
     `Phone:   ${input.phone || "(not provided)"}\n` +
     `Company: ${input.company || "(not provided)"}\n` +
     (extraLines ? `\n${extraLines}\n` : "");
-  // 2026-10-09: the [PIPELINE] tag leads the subject so an Outlook rule can file
-  // each line's enquiries into its own folder (see CLAUDE.md §46).
-  const subject = `[${pipeline}] ${input.subject} — ${input.name}${input.company ? ` (${input.company})` : ""}`;
+  // 2026-11-06 (owner): subject = the enquiry's own subject + who sent it, nothing else.
+  // The pipeline tag moved out of the subject (it stays in the body: "Pipeline: …").
+  const subject = `${input.subject} — ${input.name}${input.company ? ` (${input.company})` : ""}`;
 
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;

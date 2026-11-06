@@ -19,7 +19,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     company = '',
     service = '',
     message = '',
-    website = '', enquiryId: requestedId = '', target_region = '', landing_path = '', page_path = '', form_id = 'contact',
+    website = '', enquiryId: requestedId = '', target_region = '', landing_path = '', page_path = '', form_id = 'contact', subject: requestedSubject = '',
   } = (req.body ?? {}) as Record<string, string>;
 
   const fields = [firstName,lastName,email,phone,company,service,message,website,requestedId,target_region,landing_path,page_path,form_id];
@@ -63,7 +63,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const transport = nodemailer.createTransport(transportOptions);
 
-  const subject = `Contact form: ${firstName} ${lastName}${service ? ` — ${service}` : ''}`;
+  // 2026-11-06 (owner): the site sends the enquiry's own subject; no "Contact form:" prefix.
+  const subject = requestedSubject.trim() ? requestedSubject.replace(/[\r\n]+/g, ' ').trim().slice(0, 200) : `Website enquiry — ${firstName} ${lastName}${service ? ` (${service})` : ''}`;
   const text =
     `New contact form submission from atlantisndt.com\n\n` + context +
     `Name: ${firstName} ${lastName}\n` +

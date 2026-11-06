@@ -49,7 +49,7 @@ export default function InspectionRfqWizard({ defaultMethod = "", defaultAsset =
     const context = enquiryContext("inspection");
     const method = f.methods.join(", ") || "method not stated";
     const qualified = isQualifiedLead({ email: f.email, company: f.company, stage: f.timeline });
-    const subject = `[INSPECTION-RFQ] Inspection RFQ — ${method} — ${f.location || "location not stated"}`;
+    const subject = `Inspection RFQ — ${method} — ${f.location || "location not stated"}`; // 2026-11-06: no [TAG] prefix (owner)
     const details =
       `Enquiry ID: ${enquiryId}\nPipeline: INSPECTION-RFQ${qualified ? " (form-qualified)" : ""}\nBusiness line: inspection\nLead type: rfq\nLanding page: ${context.landing_path}\nPage: ${context.page_path}\nForm: inspection-rfq\n\n` +
       `Asset type:      ${f.asset_type}\nMethod(s):       ${method}\nLocation:        ${f.location}\nApplicable code: ${f.applicable_code || "(not provided)"}\n` +

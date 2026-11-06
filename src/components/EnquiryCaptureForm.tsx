@@ -26,7 +26,7 @@ const COPY = {
     badge: "Free consultation — no obligation",
     title: "Run Your Whole Business on One Affordable, Fully Customizable Platform",
     sub: "Sales, projects, people, stock, field teams, quality and accounts — joined up, and shaped around the way you already work. Affordable. Accessible. Fully customizable. Book a free consultation and we will show you it running on your own workflow.",
-    subject: "ERP Enquiry — Atlantis (from /erp)",
+    subject: "ERP Enquiry",
     usecasePlaceholder: "What are you trying to fix? Quoting and sales, projects and job costing, field teams, stock, compliance records, or moving off spreadsheets…",
     submitLabel: "Book My Free Consultation",
     trustSignals: [
@@ -42,7 +42,7 @@ const COPY = {
     badge: "Asset Owner — Free Digital Twin Demo",
     title: "Schedule a Free 30-Min Digital Twin Demo for Your Asset",
     sub: "Affordable. Accessible. Fully Customizable. 3D visualisation of API 510 / 570 / 653 inspection data, thickness trends and damage mapping. ASNT Level III led. Free consultation + tailored quote on request.",
-    subject: "Digital Twin Enquiry — Atlantis NDT (from /digital-twins)",
+    subject: "Digital Twin Enquiry",
     usecasePlaceholder: "Which assets (tanks, vessels, piping circuits), where your inspection data lives today, and whether you want it standalone or inside the ERP…",
     submitLabel: "Schedule My Free DT Demo",
     trustSignals: [
@@ -57,7 +57,7 @@ const COPY = {
     badge: "Asset Owner — Free ASNT Level III Consulting Scoping",
     title: "Request a Free ASNT Level III Consulting Scoping Call",
     sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III consulting: procedures, written practices, technique sheets, audits and report review, plus business consulting. Free consultation + tailored quote on request.",
-    subject: "Consulting Enquiry — Atlantis NDT (from /consulting)",
+    subject: "Consulting Enquiry",
     usecasePlaceholder: "API 510/570/653 audit prep, NDT procedure and technique sheet development, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
     submitLabel: "Request My Free Consulting Call",
     trustSignals: [
@@ -72,7 +72,7 @@ const COPY = {
     badge: "Inspector — Free Training Pathway Consultation",
     title: "Book Your Free Training Pathway Consultation",
     sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III-led training under your SNT-TC-1A or CP-189 written practice, with ISO 9712 pathways.",
-    subject: "Training Enquiry — Atlantis NDT (from /training)",
+    subject: "Training Enquiry",
     usecasePlaceholder: "ASNT Level I/II/III (UT/RT/MT/PT/VT/ET/PAUT/TOFD), SNT-TC-1A written practice development, ASNT Level III consulting…",
     submitLabel: "Book My Free Pathway Call",
     trustSignals: [
@@ -87,7 +87,7 @@ const COPY = {
     badge: "Asset Owner — Free 3D Scanning Project Scoping",
     title: "Request a Free 3D Scanning Project Scoping Call",
     sub: "Affordable. Accessible. Fully Customizable. Survey-grade LiDAR + photogrammetry + drone capture. ASNT NDT Level III led. API 653 + 510 + ASME V code-aligned. Free consultation + tailored quote on request.",
-    subject: "3D Scanning Enquiry — Atlantis NDT (from /3d-scanning-services)",
+    subject: "3D Scanning Enquiry",
     usecasePlaceholder: "Tank settlement (API 653), pressure-vessel deformation (API 510), as-built BIM (IFC + Revit + AutoCAD), FPSO drydock + classification, refinery turnaround pre-scoping, heritage scan…",
     submitLabel: "Request My Free 3D Scan Quote",
     trustSignals: [
@@ -102,7 +102,7 @@ const COPY = {
     badge: "Inspection Lead — Free Reporting Software Demo",
     title: "Get a Free 30-Min Reporting Software Demo",
     sub: "Affordable. Accessible. Fully Customizable. Mobile + offline capture. API 510/570/653 and ASME V report templates. ASNT NDT Level III led. Free consultation + tailored quote on request.",
-    subject: "Reporting Software Enquiry — Atlantis NDT (from /best-ndt-reporting-software-2026)",
+    subject: "Reporting Software Enquiry",
     usecasePlaceholder: "Methods you report (UT, PAUT, RT, MT…), how reports are made today, and how many technicians write them…",
     submitLabel: "Get My Free Reporting Demo",
     trustSignals: [
@@ -117,7 +117,7 @@ const COPY = {
     badge: "Training Lead — Free Atlantis NDT LMS Demo",
     title: "Schedule a Free Atlantis NDT LMS Demo",
     sub: "Affordable. Accessible. Fully Customizable. ISO 17024 aligned. SCORM + xAPI + Cmi5 content authoring. Multi-site + multi-language rollout. Free consultation + tailored quote on request.",
-    subject: "LMS Enquiry — Atlantis NDT (from /lms)",
+    subject: "LMS Enquiry",
     usecasePlaceholder: "Who you train (new hires, Level II recertification, a training centre), how many learners, and what you use today…",
     submitLabel: "Schedule My Free LMS Demo",
     trustSignals: [
@@ -132,7 +132,7 @@ const COPY = {
     badge: "Inspector — Free Atlantis NDT Academy Consultation",
     title: "Book Your Free Atlantis NDT Academy Consultation",
     sub: "Affordable. Accessible. Fully Customizable. ASNT and ISO 9712 pathway curation, ASNT NDT Level III-led.",
-    subject: "Academy Enquiry — Atlantis NDT (from /atlantis-academy)",
+    subject: "Academy Enquiry",
     usecasePlaceholder: "ASNT Level I/II/III pathway, recertification tracking, ISO 9712 cert pathway scoping…",
     submitLabel: "Book My Free Academy Call",
     trustSignals: [
@@ -147,7 +147,7 @@ const COPY = {
     badge: "Trainee or Working Tech — Free Practical NDT Demo",
     title: "Book a Free Practical NDT Simulator Demo",
     sub: "Affordable. Accessible. Fully Customizable. Immersive 3D skills practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD — any skill level. Complements formal ASNT training; does not replace the certifying practical exam. Free consultation + tailored quote on request.",
-    subject: "Practical NDT Enquiry — Atlantis NDT (from /practical-ndt)",
+    subject: "Practical NDT Enquiry",
     usecasePlaceholder: "New trainee skill-building, refresher practice between assignments, Level III scenario library for a team, supplementing an existing training program…",
     submitLabel: "Book My Free Simulator Demo",
     trustSignals: [
