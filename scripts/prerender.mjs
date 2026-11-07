@@ -48,6 +48,7 @@ import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './
 import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './ctr-wave11-overrides.mjs';
 import { CTR_WAVE12_OVERRIDES, assertWave12 } from './ctr-wave12-overrides.mjs';
 import { CTR_WAVE13_OVERRIDES, assertWave13 } from './ctr-wave13-overrides.mjs';
+import { CTR_WAVE18_OVERRIDES, assertWave18 } from './ctr-wave18-overrides.mjs'; // 2026-11-07 primary-product CTR from 90-day GSC queries (CLAUDE.md §70)
 import { CTR_WAVE17_OVERRIDES, assertWave17 } from './ctr-wave17-overrides.mjs'; // 2026-10-26 North American competitor keywords (CLAUDE.md §64)
 import { CTR_WAVE16_OVERRIDES, assertWave16 } from './ctr-wave16-overrides.mjs'; // 2026-10-18 competitor-teardown snippets (five workstream files)
 import { CTR_WAVE15_OVERRIDES, assertWave15 } from './ctr-wave15-overrides.mjs'; // 2026-10-17 ERP/software snippets (owner per intent)
@@ -13130,6 +13131,7 @@ routes.push(apiGuideHubRoute());
   assertWave11Lengths(); assertWave11Clean(); assertWave12();
   assertWave13();
   console.log(`🎯 CTR wave 17 (NA competitor keywords, 2026-10-26): ${assertWave17()} overrides`);
+  console.log(`🎯 CTR wave 18 (primary products, 2026-11-07): ${assertWave18()} overrides`);
   console.log(`🎯 CTR wave 16 (competitor teardown, 2026-10-18): ${assertWave16()} overrides`);
   assertWave15(); // 2026-10-17 ERP/software: geometry, no numerals, React copies in sync
   assertWave14();
@@ -14193,6 +14195,7 @@ assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no p
 assertTrainingConversionClean(BUILT_PATHS); // 2026-10-18: FAQ + eligibility pages built, bar targets built, no prices/names
 assertGeoDepthClean(BUILT_PATHS); // 2026-10-24: depth blocks pass the content rules, link only to built pages
 assertWave17(BUILT_PATHS); // 2026-10-26: every wave 17 path is a built page
+assertWave18(BUILT_PATHS); // 2026-11-07: every wave 18 path is a built page
 assertNaKeywordDepthClean(BUILT_PATHS); // 2026-10-26 §64: competitor-keyword sections pass the content rules, link only to built pages
 assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
 assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, related targets built
@@ -14212,6 +14215,7 @@ assertTrafficClean(BUILT_PATHS); // 2026-10-18 traffic: FAQ-rebuild paths are bu
 const AUTHORED_GEOMETRY_WAVES = [
   CTR_WAVE7_OVERRIDES, CTR_WAVE8_OVERRIDES, CTR_WAVE9_OVERRIDES, CTR_WAVE10_OVERRIDES,
   CTR_WAVE11_OVERRIDES, CTR_WAVE12_OVERRIDES, CTR_WAVE13_OVERRIDES,
+  CTR_WAVE18_OVERRIDES,
   CTR_WAVE17_OVERRIDES,
   CTR_WAVE16_OVERRIDES,
   CTR_WAVE15_OVERRIDES,
@@ -14283,7 +14287,8 @@ routes.forEach(route => {
     // Wave 13 (2026-10-10) is the newest layer. See ctr-wave13-overrides.mjs.
     // Wave 15 (2026-10-17, ERP/software paths only) outranks wave 14 (2026-10-17, non-software ranking release); see ctr-wave15/14-overrides.mjs.
     // Wave 17 (2026-10-26, NA competitor keywords) is the newest layer; see ctr-wave17-overrides.mjs.
-    const w11 = CTR_WAVE17_OVERRIDES[route.path] || CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
+    // Wave 18 (2026-11-07, primary products from 90-day GSC queries) is the newest layer; see ctr-wave18-overrides.mjs.
+    const w11 = CTR_WAVE18_OVERRIDES[route.path] || CTR_WAVE17_OVERRIDES[route.path] || CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
     const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];

@@ -1,0 +1,23 @@
+{
+  "_note": "CTR wave 18 (2026-11-07, CLAUDE.md §70), training. Evidence = 90-day GSC queries per page (Chrome UI pull 2026-11-07). /asnt-certification: 7,069 impr p10.7, 66 clicks; level queries 'asnt level 3' p5.7, 'asnt level 2' p9.5, 'asnt level 1' p11.3 never saw the numerals in the title. /snt-tc-1a-certification: 1,049 impr p10.1, 4 clicks; 'what is snt-tc-1a' p7.7, 'snt-tc-1a full form' p7.6. Level 3 fees post: 'level 3 course fees' 366 impr p8.1 + 'level 3 exam fees' 316 p5.7 for 7 clicks; the old title promised a pricing table the page (rightly) no longer has. PAUT post: 'paut vs ut' / 'ut vs paut' p7.7-8 for 1 click. Dubai: 'ndt level 2 course fees in uae' p5, 'ndt level 3 course fees in uae' p4; the page carries the owner's Middle East fee table (approved-training-fees.json). VT Level 2: 'vt level 2 certification' p12.3, 'ndt vt level 2' p3.4. /asnt-certification (7,069 impr p10.7, 66 clicks; 'asnt level 3' p5.7, 'asnt level 2' p9.5, 'asnt level 1' p11.3 never saw the numerals) was retitled in its one source, src/data/asnt-certification-2026-10.json (editorial-upgrades.mjs writes it after the CTR layers), not here.",
+  "/snt-tc-1a-certification": {
+    "title": "What Is SNT-TC-1A? Levels, Hours, Exams and Who Certifies",
+    "description": "SNT-TC-1A is ASNT's recommended practice, not a certificate: your employer certifies you under its written practice. Levels I to III, hours and exams."
+  },
+  "/blog/asnt-level-3-fees-2026-complete-pricing-table": {
+    "title": "ASNT Level 3 Fees 2026: Exam and Course Costs Explained",
+    "description": "ASNT Level III fees by component: application, Basic and method exams, membership discount and recertification, and where to check ASNT's current list."
+  },
+  "/blog/how-paut-training-differs-from-conventional-ut-training": {
+    "title": "PAUT vs UT: How Phased Array Training Differs From UT",
+    "description": "PAUT vs conventional UT training: what changes in physics, scan plans and ASME Section V code work, where TOFD fits, and why UT Level II comes first."
+  },
+  "/ndt-training-dubai": {
+    "title": "NDT Training in Dubai 2026: Level 1 & 2 Courses and Fees",
+    "description": "NDT Level 1 and 2 courses for Dubai and the UAE under ASNT SNT-TC-1A: UT, RT, MT, PT and VT, online package fees in USD and AED, Level III support."
+  },
+  "/vt-level-2-training": {
+    "title": "VT Level 2 Certification Training: Online or Onsite (ASNT)",
+    "description": "VT Level 2 under ASNT SNT-TC-1A: 16 more classroom hours, 140 VT experience hours, weld visual acceptance, exam content, Level III-led, online or onsite."
+  }
+}

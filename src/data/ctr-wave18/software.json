@@ -1,0 +1,7 @@
+{
+  "_note": "CTR wave 18 (2026-11-07, CLAUDE.md §70), ERP/software. No numerals except inside standards designations. /erp/iso-17020-software-for-ndt-inspection-bodies: 382 impr p6.8, 3 clicks over 90 days; the old title ran past the visible window and led with an edition date. Copy says software FOR ISO/IEC 17020 inspection bodies; Atlantis is not accredited to ISO/IEC 17020 and the copy never says so. /best-ndt-reporting-software-2026 is deliberately not here: it sits at p10-18 for its head terms (a position problem, not a snippet problem) and its copy has one source in ctr-wave16/software.json.",
+  "/erp/iso-17020-software-for-ndt-inspection-bodies": {
+    "title": "ISO/IEC 17020 Software for NDT Inspection Bodies: Clause Map",
+    "description": "Software for ISO/IEC 17020 inspection bodies: impartiality, competence, methods, equipment, records and reports mapped clause by clause for NDT companies."
+  }
+}

@@ -1,8 +1,8 @@
 {
   "_note": "Single source for /asnt-certification (2026-10-16). Resolved by src/data/asnt-certification-2026-10.mjs for both layers: React src/pages/asnt-certification.tsx and the crawler page (scripts/editorial-upgrades.mjs, replace). Hours come from src/data/snt-tc-1a-hours.json via {l1Class} {l1Exp} {l2Class} {l2Exp}; {l3Months} and {exam.*} come from level3 below. ASNT programme facts and fees as published on certification.asnt.org, checked 2026-10-16 (Level III day definition checked 2026-10-18). {l3DaysList} is built from level3.eligibility. 2026-10-18 (owner): Atlantis's approved US fees may appear here, but only as the table scripts/approved-pricing.mjs renders from src/data/approved-training-fees.json into the <!--training-fees-slot--> after the cost section (the path is allowlisted there); never type an Atlantis amount in this file (CLAUDE.md §18).",
   "path": "/asnt-certification",
-  "title": "ASNT Certification: Level I–III Requirements and Costs 2026",
-  "description": "ASNT certification explained: SNT-TC-1A vs ASNT NDT Level II/III and ASNT 9712, hours per method, Level 3 requirements, exam fees and what else it costs.",
+  "title": "ASNT Certification 2026: Level 1, 2, 3 Requirements & Exams",
+  "description": "ASNT certification by level: Level 1, 2 and 3 training and experience hours, SNT-TC-1A vs ASNT NDT Level II/III and ASNT 9712, and Level 3 requirements.",
   "h1": "ASNT NDT Certification & ASNT 9712 Guide 2026",
   "lead": "How ASNT certification works: employer-based certification under SNT-TC-1A and CP-189, and the central credentials ASNT examines and issues itself, ASNT NDT Level II, ASNT NDT Level III and ASNT 9712. Hours by method, examinations, vision checks, renewal and ASNT exam fees, checked against ASNT's published requirements in October 2026.",
   "cta": [

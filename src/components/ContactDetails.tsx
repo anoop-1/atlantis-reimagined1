@@ -1,6 +1,7 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import LeadMagnetSlot from "./LeadMagnetSlot";
+import IsoCertificationBadges from "./IsoCertificationBadges";
 import { PRODUCTS, SERVICES, RESOURCES } from "@/data/site-menu";
 
 export default function ContactDetails() {
@@ -141,6 +142,9 @@ export default function ContactDetails() {
                   </div>
                </div>
             </div>
+
+            {/* ISO certifications (owner, 2026-11-07) */}
+            <IsoCertificationBadges />
 
             {/* Footer Bottom */}
             <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">

@@ -36,6 +36,11 @@ const T = {
   training: { href: '/training', anchors: ['NDT training courses', 'NDT certification courses', 'NDT training and certification', 'PAUT and TOFD training'] },
   online: { href: '/ndt-training-online', anchors: ['online NDT courses', 'self-paced online NDT training', 'blended NDT training'] }, // 2026-10-18 owner: no live online classes
   hours: { href: '/tools/snt-tc-1a-hours-planner', anchors: ['SNT-TC-1A hours planner', 'training and experience hours planner'] },
+  // 2026-11-07 (CLAUDE.md §70): the SNT-TC-1A explainer and requirements post had 3 and 54 inbound links while the
+  // 'snt-tc' query family (1,500+ impressions/90d) was split over eight pages at p8-52. They share the hours slot.
+  snt: { href: '/snt-tc-1a-certification', anchors: ['what SNT-TC-1A is', 'SNT-TC-1A explained', 'SNT-TC-1A certification explained'] },
+  sntReq: { href: '/blog/asnt-snt-tc-1a-certification-requirements', anchors: ['SNT-TC-1A certification requirements', 'SNT-TC-1A requirements by level'] },
+  pautut: { href: '/blog/how-paut-training-differs-from-conventional-ut-training', anchors: ['PAUT vs UT training', 'how PAUT training differs from UT'] }, // 2026-11-07: 7 inbound links, 'paut vs ut' p7.7
   sim: { href: '/practical-ndt', anchors: ['NDT simulator', 'NDT training simulator', 'browser-based NDT practice', 'NDT simulation software'] },
   // 2026-10-12: the UT-specific simulator anchors moved to the A-scan tool page, which owns them.
   ascan: { href: '/tools/ultrasonic-a-scan-simulator', anchors: ['ultrasonic testing simulator', 'A-scan simulator', 'flaw detector simulator', 'free UT A-scan practice tool'] },
@@ -56,9 +61,9 @@ const FAMILIES = {
   vessel: { intro: ['Planning vessel work?', 'For pressure vessels:'], targets: ['vessel', 'interval', 'pv'] },
   piping: { intro: ['Planning piping work?', 'For piping circuits:'], targets: ['piping', 'interval', TECHNIQUE] },
   technique: { intro: ['Need this examination done?', 'From technique to field service:'], targets: [TECHNIQUE, ['tank', 'vessel', 'piping', 'interval'], 'level3'] },
-  training: { intro: ['Planning your training?', 'Training routes:'], targets: ['training', 'online', 'hours'] },
-  trainingSim: { intro: ['Practise between courses:', 'Training routes:'], targets: ['sim', 'ascan', 'training'] },
-  level3: { intro: ['Need Level III cover?', 'Level III and programme support:'], targets: ['level3', 'hours', 'training'] },
+  training: { intro: ['Planning your training?', 'Training routes:'], targets: ['training', 'online', ['hours', 'snt', 'sntReq']] },
+  trainingSim: { intro: ['Practise between courses:', 'Training routes:'], targets: ['sim', 'ascan', ['training', 'pautut']] },
+  level3: { intro: ['Need Level III cover?', 'Level III and programme support:'], targets: ['level3', ['hours', 'hours', 'snt'], 'training'] },
   software: { intro: ['Comparing NDT software?', 'Software for inspection companies:'], targets: ['erp', ['software', 'checklist'], 'report3d'] },
   twin: { intro: ['Inspection data on the asset:', 'From readings to the 3D model:'], targets: ['report3d', 'twin', 'interval'] },
   scan: { intro: ['Industrial reality capture:', 'From scan to inspection data:'], targets: ['scan', 'twin', 'tank'] },
