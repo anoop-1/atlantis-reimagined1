@@ -10,6 +10,7 @@
  * The seals are drawn here rather than copied: ISO's own logo may not be used by certified
  * organisations, so each badge names the standard, never the ISO organisation's mark. If the
  * certification body supplies its own certification mark, swap the artwork, not the facts.
+ * Display (owner, 2026-11-07): the footer line names the standards and the scope only — no certification body, no entity name.
  */
 type Badge = { std: string; ed: string; label: string };
 
@@ -47,7 +48,7 @@ export default function IsoCertificationBadges() {
       <div className="min-w-0">
         <p className="text-base font-semibold text-white">ISO certified company</p>
         <p className="mt-1 text-sm leading-relaxed text-gray-400">
-          ISO 9001:2015 quality management and ISO 14001:2015 environmental management, certified by Veritas Management System UK Ltd. for non-destructive testing, inspection and training services (Atlantis Inspection Services Pvt. Ltd.).
+          ISO 9001:2015 quality management and ISO 14001:2015 environmental management for non-destructive testing, inspection and training services.
         </p>
       </div>
     </section>
