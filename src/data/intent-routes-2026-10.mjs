@@ -57,6 +57,8 @@ const L = {
   training: ["/training", "All NDT training courses"],
   inspection: ["/inspection/ndt-inspection-services", "NDT inspection services, quoted on request"],
   consultingL3: ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT NDT Level III consulting"],
+  // 2026-11-07: the page that ranks for "fitness for service consulting" (US p13); the old FFS service URL is retired to /consulting.
+  ffs: ["/blog/fitness-for-service-api-579-consulting-when-you-need-an-outside-level-iii", "Fitness-for-service consulting: an outside Level III for the NDT data"],
   procedure: ["/consulting/ndt-technical-procedure-development", "Have a Level III write or review the procedure"],
   // 2026-11-06 (owner): codes and standards pages point at Training, Consulting (procedure
   // qualification, Level III documentation, audit documentation), ERP and inspection.
@@ -187,7 +189,10 @@ function ruleFor(p) {
   if (api === "510") return block("codes", "Need the NDE behind your API 510 programme?", "Atlantis carries out the thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the readings in one system.", [L.api510, L.vessel, meth("ut", "training"), L.erpAssets]);
   if (api === "570") return block("codes", "Need the NDE behind your API 570 programme?", "Atlantis carries out the CML thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the CMLs and readings in one system.", [L.api570, L.cml, meth("ut", "training"), L.erpAssets]);
   if (api === "653") return block("codes", "Need the NDE behind your API 653 programme?", "Atlantis carries out tank floor, shell and settlement NDE and reviews the data; your Authorized Inspector stays inspector of record.", [L.api653, L.tank, meth("ut", "training"), L.erpAssets]);
-  if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Assessments are only as good as the inspection data behind them. Atlantis carries out the NDE that feeds them, and a digital twin keeps the history in view.", [L.rbi, L.integrity, L.twin]);
+  // 2026-11-07: FFS readers get the FFS consulting page, Level III consulting, UT training and ERP
+  // (inspection link kept); RBI readers keep their three links and gain consulting and ERP.
+  if (/api-579|fitness-for-service|(^|[-/])ffs([-/]|$)/.test(p)) return block("codes", "From assessment to a plan", "An FFS assessment is only as good as the inspection data behind it. Atlantis provides the Level III review of that data, trains the technicians who collect it, and Atlantis ERP keeps the asset history in one place.", [p === L.ffs[0] ? L.consultingL3 : L.ffs, L.consultingL3, meth("ut", "training"), L.erpAssets, L.rbi].filter((x, i, a) => a.findIndex((y) => y[0] === x[0]) === i));
+  if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Assessments are only as good as the inspection data behind them. Atlantis carries out the NDE that feeds them, and a digital twin keeps the history in view.", [L.rbi, L.integrity, L.twin, L.consultingL3, L.erpAssets]);
   if (/nace|cui|corrosion-under-insulation/.test(p)) return block("codes", "Need this inspected?", "Atlantis carries out corrosion and CUI inspection and keeps the findings tied to each asset.", [L.cui, L.rbi, L.erpAssets]);
   // 6. Certification schemes -> training + programme set-up + simulator.
   if (/asnt|snt-tc-1a|cp-189|iso-9712|(^|[-/])accp|(^|[-/])pcn([-/]|$)|nas-410|en-4179|written-practice|certification|level-(i|ii|iii|1|2|3)([-/]|$)/.test(p))

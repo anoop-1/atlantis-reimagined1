@@ -58,7 +58,7 @@ const COPY = {
     title: "Request a Free ASNT Level III Consulting Scoping Call",
     sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III consulting: procedures, written practices, technique sheets, audits and report review, plus business consulting. Free consultation + tailored quote on request.",
     subject: "Consulting Enquiry",
-    usecasePlaceholder: "API 510/570/653 audit prep, NDT procedure and technique sheet development, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
+    usecasePlaceholder: "API 510/570/653 audit prep, NDT procedure and technique sheet development, ASNT written practice authoring, code consulting, client audit preparation, Level III documentation…",
     submitLabel: "Request My Free Consulting Call",
     trustSignals: [
       "ASNT NDT Level III lead consultant",
@@ -71,7 +71,7 @@ const COPY = {
   training: {
     badge: "Inspector — Free Training Pathway Consultation",
     title: "Book Your Free Training Pathway Consultation",
-    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III-led training under your SNT-TC-1A or CP-189 written practice, with ISO 9712 pathways.",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III-led training under your SNT-TC-1A or CP-189 written practice. Tell us your method, level and location and we will map the route.",
     subject: "Training Enquiry",
     usecasePlaceholder: "ASNT Level I/II/III (UT/RT/MT/PT/VT/ET/PAUT/TOFD), SNT-TC-1A written practice development, ASNT Level III consulting…",
     submitLabel: "Book My Free Pathway Call",
@@ -100,7 +100,7 @@ const COPY = {
   },
   reporting: {
     badge: "Inspection Lead — Free Reporting Software Demo",
-    title: "Get a Free 30-Min Reporting Software Demo",
+    title: "Get a Free Reporting Software Demo",
     sub: "Affordable. Accessible. Fully Customizable. Mobile + offline capture. API 510/570/653 and ASME V report templates. ASNT NDT Level III led. Free consultation + tailored quote on request.",
     subject: "Reporting Software Enquiry",
     usecasePlaceholder: "Methods you report (UT, PAUT, RT, MT…), how reports are made today, and how many technicians write them…",
@@ -116,12 +116,12 @@ const COPY = {
   lms: {
     badge: "Training Lead — Free Atlantis NDT LMS Demo",
     title: "Schedule a Free Atlantis NDT LMS Demo",
-    sub: "Affordable. Accessible. Fully Customizable. ISO 17024 aligned. SCORM + xAPI + Cmi5 content authoring. Multi-site + multi-language rollout. Free consultation + tailored quote on request.",
+    sub: "Affordable. Accessible. Fully Customizable. SCORM + xAPI + Cmi5 content authoring. Multi-site + multi-language rollout. Free consultation + tailored quote on request.",
     subject: "LMS Enquiry",
     usecasePlaceholder: "Who you train (new hires, Level II recertification, a training centre), how many learners, and what you use today…",
     submitLabel: "Schedule My Free LMS Demo",
     trustSignals: [
-      "ISO 17024 personnel cert body aligned",
+      "Training records your written practice can rely on",
       "SCORM + xAPI + Cmi5 content authoring",
       "Multi-site + multi-tenant + on-prem options",
       "Native ATS / ERP / HRIS integration",
@@ -131,12 +131,12 @@ const COPY = {
   academy: {
     badge: "Inspector — Free Atlantis NDT Academy Consultation",
     title: "Book Your Free Atlantis NDT Academy Consultation",
-    sub: "Affordable. Accessible. Fully Customizable. ASNT and ISO 9712 pathway curation, ASNT NDT Level III-led.",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT SNT-TC-1A and CP-189 pathway curation, ASNT NDT Level III-led.",
     subject: "Academy Enquiry",
-    usecasePlaceholder: "ASNT Level I/II/III pathway, recertification tracking, ISO 9712 cert pathway scoping…",
+    usecasePlaceholder: "ASNT Level I/II/III pathway, recertification tracking, written practice alignment…",
     submitLabel: "Book My Free Academy Call",
     trustSignals: [
-      "Multi-scheme pathway curation (ASNT / ISO 9712)",
+      "ASNT SNT-TC-1A and CP-189 pathway curation",
       "Recertification calendar tracked per technician",
       "Written practice and records audit-ready",
       "ASNT NDT Level III led delivery",
