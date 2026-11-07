@@ -3849,3 +3849,6 @@ Owner, 2026-11-07: Vercel says the account is over 10 GB and asks for payment; t
 2. New account → project `atlantis-reimagined1` → Settings → General → **Pause Project** (or Settings → Git → Disconnect). Old account: nothing is live there; it can stay paused or the main-site projects can be deleted.
 3. Do NOT pause or delete the satellite projects on the new account.
 4. Remove atlantisndt.com / www from the old project's Domains so the domain is attached only where intended.
+
+### 71.4 Owner paused the project — 2026-11-07
+New-account `atlantis-reimagined1` now returns **503 DEPLOYMENT_PAUSED**; satellites still 200. `atlantis-reimagined.vercel.app` (old public copy) still 200. Owner: hold the release (leads sprint, ISO footer, CTR wave 18, vercel.json stop) for the next push to main.
