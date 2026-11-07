@@ -90,6 +90,7 @@ import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
 import { privacyPolicyRoute } from './privacy-policy-page.mjs';
+import { brochureRoute } from './brochure-page.mjs'; // 2026-11-07 owner: /brochure (view + download the 2026 company brochure), linked from the footer
 import { erpSolutionRoutes, applyErpSolutionRoute, assertErpSolutionsBuilt, erpSolutionStats } from './erp-solutions-pages.mjs'; // 2026-11-06 owner: ERP problem -> solution pages, dashboards, links
 import { MODULE_PAGES_PROTECTED } from '../src/data/erp-module-dashboards-2026-11.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
@@ -10092,6 +10093,7 @@ routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
 routes.push(...erpSolutionRoutes()); // 2026-11-06: /erp/solutions hub + problem guides (scripts/erp-solutions-pages.mjs)
 routes.push(privacyPolicyRoute()); // 2026-10-31: /privacy-policy (scripts/privacy-policy-page.mjs); not linked from navigation or footer
+routes.push(brochureRoute()); // 2026-11-07: /brochure (scripts/brochure-page.mjs)
 routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────

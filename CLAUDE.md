@@ -3852,3 +3852,12 @@ Owner, 2026-11-07: Vercel says the account is over 10 GB and asks for payment; t
 
 ### 71.4 Owner paused the project — 2026-11-07
 New-account `atlantis-reimagined1` now returns **503 DEPLOYMENT_PAUSED**; satellites still 200. `atlantis-reimagined.vercel.app` (old public copy) still 200. Owner: hold the release (leads sprint, ISO footer, CTR wave 18, vercel.json stop) for the next push to main.
+
+## 73. /brochure — company brochure 2026, view + download, footer link — 2026-11-07
+
+Owner, 2026-11-07: add atlantisndt.com/brochure to the footer as a page to view and download the attached PDF.
+- PDF `public/downloads/atlantis-ndt-brochure-2026.pdf` (16 pages, A4, 6.8 MB; downloads as `AtlantisNDT_Brochure_2026.pdf`); page previews `public/downloads/brochure-2026/page-NN.webp` (900 px, 889 KB total, rendered from the PDF with pdftoppm + sharp).
+- One source for both layers: `src/data/brochure-2026.json` → `brochureHtml()` in `src/data/brochure-2026.mjs` (service-section UI classes); React `src/pages/Brochure.tsx` (+ site footer), crawler `scripts/brochure-page.mjs`. Inline PDF viewer on md+; desktop browsers without an inline viewer see a scrollable two-up page gallery instead; phones get the page images. Download and Open buttons fire `brochure_download` / `brochure_open` events. Contents summary with page numbers, links to the six practices, WebPage + DigitalDocument + BreadcrumbList schema. In the sitemap (sitemap-core).
+- Footer bottom row: About · Contact · FAQ · **Brochure** (`ContactDetails.tsx`, so every page and the homepage first paint carry it).
+- `assertBrochureClean`: the PDF and all page previews exist; page copy has no NAS 410, no ISO 9712 training claim, no prices.
+- **The PDF itself** carries a "NAS 410" tag (page 8) and says training is built around "ASNT SNT-TC-1A and ISO 9712" (page 4) — both against standing site rules (§65/§66, claims rules). The HTML page copy avoids both; the owner decides whether to re-issue the PDF. A new edition = replace the PDF + previews and update `pdfBytes`/`pages` in the JSON.
