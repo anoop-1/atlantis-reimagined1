@@ -1,4 +1,7 @@
 {
+  "git": {
+    "deploymentEnabled": false
+  },
   "installCommand": "bun install",
   "trailingSlash": false,
   "headers": [

@@ -3829,3 +3829,23 @@ Combined gap ≈ 120 clicks/90d (~40/month). **Honest scale:** the rest of the p
 
 ### 70.4 Measure ~2026-12-07 (with §69.3)
 GSC per page above: CTR vs the 90d baseline in 70.2, and position for "snt-tc-1a" (p14), "what is snt-tc-1a", "paut vs ut" (p7.7), "iacs ur z17" (p8.7), "asnt level 1/2/3". If the SNT-TC-1A explainer and the requirements post start trading places for the same query, give the head term to one owner in `T.snt`/`T.sntReq` rather than removing the links.
+
+## 71. Vercel: stop building the main site there (VPS is production) — 2026-11-07
+
+Owner, 2026-11-07: Vercel says the account is over 10 GB and asks for payment; the current site runs on the VPS, so stop the Vercel deployment.
+
+### 71.1 What is on Vercel (checked 2026-11-07)
+- **atlantisndt.com and www resolve to the VPS (148.230.122.172, nginx).** Nothing on Vercel serves the live domain.
+- **Old account** `anoop-4270` / team "Anoop's projects" (`team_RvIKW6PFuuliC77dktstAJmQ`): 52 projects incl. the old `atlantis-reimagined1` (still lists atlantisndt.com + www as domains). Last deployment 2026-07-30; `atlantis-reimagined1.vercel.app` returns **402 DEPLOYMENT_DISABLED** — this account has been paused since the §22 limit hit. Both Vercel connectors in this workspace log into THIS account and are **read-only** (pause → 403).
+- **New account** `atlantis15` (§22): the 35 satellites (all 200 — backlink assets, keep) + a second `atlantis-reimagined1` (SSO-protected, 302) that is git-linked to this repo and rebuilds on **every push to main**, in parallel with the VPS GitHub Action.
+- `atlantis-reimagined.vercel.app` serves an old SPA copy publicly (16-URL sitemap, one homepage title on every route, no canonical). Not in the old team's project list; account unknown.
+- **Hobby plans are never billed.** Over a limit, Vercel pauses the account's deployments and offers Pro. Not paying costs nothing for the main site; it matters only if the paused account is the one hosting the satellites.
+
+### 71.2 Shipped (release branch; effective once on main)
+- `vercel.json` → `"git": { "deploymentEnabled": false }`. Stops git-triggered Vercel builds for every project that builds from the repo root, on any account. Satellites build from `backlink-sites/<name>` with their own vercel.json, so they are unaffected. `gen-nginx-config.mjs` reads only redirects/headers/trailingSlash — verified unchanged (583 exact + 21 regex redirects).
+
+### 71.3 Owner actions (need the account the connectors cannot change)
+1. In the account that shows the warning, open **Usage** and note which project used the transfer.
+2. New account → project `atlantis-reimagined1` → Settings → General → **Pause Project** (or Settings → Git → Disconnect). Old account: nothing is live there; it can stay paused or the main-site projects can be deleted.
+3. Do NOT pause or delete the satellite projects on the new account.
+4. Remove atlantisndt.com / www from the old project's Domains so the domain is attached only where intended.
