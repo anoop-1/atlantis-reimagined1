@@ -1,0 +1,107 @@
+{
+  "slug": "milford-haven",
+  "name": "Milford Haven",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Milford Haven Tanker and LNG Carrier Thickness Measurement",
+  "description": "Ultrasonic thickness measurement at Milford Haven for tankers and LNG carriers: CAP gauging, ESP renewal survey scope, deck and cargo piping inspection.",
+  "h1": "Thickness Measurement for Tankers and LNG Carriers at Milford Haven",
+  "intro": "Milford Haven is one of the UK's principal energy ports: a deep, sheltered waterway in Pembrokeshire with a refinery, two LNG import terminals and fuel storage along its shores. The ships here are crude and product tankers and some of the largest LNG carriers afloat, working to the standards of terminals and oil-major vetting. Our technicians travel from India to Pembrokeshire to provide the gauging tanker managers need for CAP, ESP renewal surveys and vetting.",
+  "keywords": [
+    "ultrasonic thickness measurement at milford haven",
+    "tanker inspection at milford haven",
+    "lng carrier thickness gauging",
+    "ship inspection in pembrokeshire",
+    "cap gauging for tankers",
+    "esp renewal survey gauging",
+    "cargo piping inspection",
+    "thickness gauging at milford haven",
+    "utm for tankers uk",
+    "pembroke dock ferry inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Tanker gauging for CAP and vetting",
+      "p": "Crude and product tankers serving the refinery and terminals face CAP requests, SIRE 2.0 vetting and terminal acceptance checks. We gauge cargo and ballast tank structure, deck and piping to the scope each one requires."
+    },
+    {
+      "h": "LNG carriers outside the containment",
+      "p": "At South Hook and Dragon LNG the work on LNG carriers covers ballast tanks, double-hull spaces, cofferdams and the trunk deck, following the ship's own entry and gas-detection procedures."
+    },
+    {
+      "h": "Work where the terminal allows",
+      "p": "Jetty time is limited by terminal rules during cargo transfer, so we plan piping and released deck areas alongside, and leave tank structure for anchorage time or a gas-free window."
+    }
+  ],
+  "port": {
+    "h": "Milford Haven: an energy waterway in Pembrokeshire",
+    "p": [
+      "Milford Haven is a long, deep natural harbour opening to the sea at St Ann's Head in the south-west corner of Wales, and its sheltered depth is why the oil industry chose it. The Port of Milford Haven manages the waterway, whose shores today carry Valero's Pembroke refinery, the South Hook and Dragon LNG import terminals, and fuel storage terminals that receive and distribute refined products. Irish Ferries runs from Pembroke Dock to Rosslare, and the port's Milford Dock and Pembroke Port quays handle fishing, cargo and offshore renewable-energy work.",
+      "The traffic is dominated by energy carriers. Crude and product tankers serve the refinery and the storage terminals; LNG carriers, including the large Q-Flex and Q-Max classes built for Qatari exports, discharge at South Hook; and LNG carriers from a range of sources call at Dragon LNG. These ships are run by managers who answer to oil-major vetting, terminal acceptance criteria and, for much of the LNG fleet, long-term charterers with exacting maintenance expectations of their own. For those managers a Milford Haven call is rarely a casual stop: berth slots are planned well ahead, which is exactly what makes them usable for gauging.",
+      "Ships do not linger at the jetties: a tanker or LNG carrier discharges and sails, and terminal safety rules limit what contractors can do on deck during cargo transfer. The gauging windows come instead from waits at anchor before berthing, from tank cleaning and gas-freeing between cargoes, and from managers using a predictable Milford Haven call to get readings ahead of a renewal survey, a CAP assessment or a vetting inspection. Inspection demand is narrower than at a general cargo port but technically deeper: cargo and ballast tank structure on ageing tankers, cargo and ballast piping, deck structure and vent systems, and on LNG carriers the ballast tanks, double hull and trunk deck that surround the cargo containment."
+    ]
+  },
+  "facilities": {
+    "h": "Jetties, anchorages and quays on the Haven",
+    "p": [
+      "Tanker inspection at Milford Haven jetties is done under the terminal's rules. That means an agreed permit, terminal requirements on the equipment that may be taken into hazardous areas, and restrictions during cargo transfer, so in-service gauging alongside concentrates on what can be done safely: engine-room and ballast piping, structure in the accommodation and machinery areas, and deck areas the terminal releases. The ship's own permit system runs in parallel, and both have to agree before a tank lid is opened.",
+      "Ships waiting to berth anchor in the approaches or within the Haven, and that is where much of the deck and tank work is best done, reached by launch through the ship's agent. A tanker that has completed tank cleaning at anchor can have cargo and ballast tanks gauged in sequence without the clock of a jetty slot. Pembroke Dock and Milford Dock give ordinary quay access for ferries, offshore vessels and smaller cargo ships, where routine in-service gauging is straightforward. Pembroke Dock ferry inspection fits around the Rosslare timetable, with the crew preparing vehicle-deck areas and tanks before the ship berths."
+    ],
+    "list": [
+      "Valero Pembroke refinery jetties — engine-room, ballast and accessible deck piping gauging on crude and product tankers under the terminal's permit system.",
+      "South Hook LNG terminal — ballast and piping checks on large LNG carriers, planned within the terminal's rules around the discharge.",
+      "Dragon LNG terminal — LNG carrier gauging planned with the terminal and the ship's manager around the discharge window.",
+      "Anchorages in and off the Haven — launch-borne deck, vent and tank gauging on tankers waiting for a berth or after tank cleaning.",
+      "Pembroke Dock ferry berth — vehicle-deck, ramp and ballast tank checks on the Rosslare ro-pax, worked around its timetable.",
+      "Pembroke Port and Milford Dock quays — in-service gauging on offshore renewable support vessels and cargo ships alongside."
+    ]
+  },
+  "context": {
+    "h": "Tanker vetting, sulphur rules and port state control at Milford Haven",
+    "p": [
+      "For tanker managers, the regulatory picture at Milford Haven is dominated by the ESP regime and by vetting. Oil tankers fall under the Enhanced Survey Programme of SOLAS chapter XI-1 regulation 2 and the 2011 ESP Code, and from the third renewal survey onwards the extent of cargo and ballast tank gauging grows sharply. Oil-major vetting under OCIMF's SIRE 2.0 regime and charterers' requests for a CAP rating on tankers over about fifteen years old add commercial pressure, and the terminals on the Haven apply their own acceptance criteria before a ship is allowed alongside.",
+      "Milford Haven sits outside the North Sea Emission Control Area, so ships may burn 0.50% sulphur fuel on passage, though at berth in the Haven, as in every UK port, a stay of two hours or more requires 0.10% fuel. That changes at sea on 1 September 2028, when the North-East Atlantic ECA adopted in 2026 applies the 0.10% limit in the waters west of the UK. The Maritime and Coastguard Agency inspects foreign ships on the Haven, following Paris MoU procedures under UK law since Brexit. Tankers arriving from Rotterdam, Antwerp or other EU ports have half of those voyages counted under the EU ETS."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Milford Haven",
+    "p": "Thickness gauging at Milford Haven is mostly tanker and gas-carrier work, planned around discharge, tank cleaning and the time a ship spends at anchor. Every job is agreed with the manager and, where it touches a jetty, with the terminal through the agent. The scenarios below are the ones that recur in an energy port of this kind, and each is shaped by when the ship can be made safe for entry.",
+    "list": [
+      "CAP gauging for tankers: a product tanker past fifteen years, gauged at anchor after tank cleaning, so the class society's CAP assessment has current readings to work from.",
+      "ESP renewal survey gauging on a crude tanker due its third renewal survey: pre-docking readings taken at Milford Haven to fix the steel list before the yard period.",
+      "LNG carrier thickness gauging of ballast tanks and double-hull spaces during a planned stay, with readings referenced to the ship's tank and frame plans.",
+      "Cargo piping inspection on a product tanker: UT of cargo, stripping and ballast lines on deck and in the pump room, ahead of a vetting inspection.",
+      "Ro-pax ferry on the Pembroke Dock–Rosslare service: ramp, vehicle-deck and ballast tank checks across consecutive port stays before its annual refit."
+    ]
+  },
+  "logistics": "Cardiff Airport and Bristol Airport are the nearest international airports, and teams often arrive through Heathrow and continue west by rail or road to Pembrokeshire. The refinery and LNG terminals apply strict ISPS and site-induction rules, so the ship's agent arranges passes and any terminal inductions in advance, and books launches for anchorage work with the port's local providers. The team travels from India on UK visas; because tanker and LNG schedules can move by days, we plan the visit with a margin either side of the expected arrival.",
+  "vessels": [
+    "Crude oil tankers",
+    "Product tankers",
+    "LNG carriers",
+    "Ro-pax ferries",
+    "Offshore renewable support vessels",
+    "Coastal and bunker tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Can tanks be gauged while a tanker is alongside a Milford Haven jetty?",
+      "a": "Generally not during cargo transfer. Terminals restrict contractor work on deck and in cargo spaces while cargo is moving, and tank entry needs the tank gas-free and certified. Jetty time is better used for engine-room and ballast piping and released deck areas; tank structure is best gauged at anchor after cleaning or during a planned stay, which we arrange with the manager and the agent."
+    },
+    {
+      "q": "Do you gauge LNG carriers?",
+      "a": "Yes, outside the cargo containment. On LNG carriers we gauge ballast tanks, double-bottom and side spaces, the trunk deck and cofferdams, plus ballast and sea-water piping. Work in these spaces follows the ship's own entry and gas-detection procedures, and readings are referenced to the ship's tank and frame plans so they can be compared directly at the next survey."
+    },
+    {
+      "q": "Will the North-East Atlantic ECA affect tankers calling at Milford Haven?",
+      "a": "Yes. From 1 September 2028 the 0.10% sulphur limit applies in the waters to the west of the UK, so tankers trading regularly to the Haven will need compliant fuel or a working scrubber for longer parts of each voyage. Scrubber-fitted ships should have wash-water and overboard piping wall thickness checked before then, so any renewal fits a planned docking."
+    },
+    {
+      "q": "How is ship inspection in Pembrokeshire arranged?",
+      "a": "Through the ship's agent. We confirm the scope with the manager, apply for UK visas for the team, and agree boarding with the agent once the ship's arrival is firm, whether that is a jetty, an anchorage reached by launch, or the quays at Pembroke Dock. Terminal inductions are completed before boarding, and the team brings its own ultrasonic gauges and magnetic particle equipment."
+    }
+  ],
+  "nearby": ["falmouth", "cork", "liverpool", "dublin"]
+}

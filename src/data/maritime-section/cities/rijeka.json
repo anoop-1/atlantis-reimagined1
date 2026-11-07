@@ -1,0 +1,113 @@
+{
+  "slug": "rijeka",
+  "name": "Rijeka",
+  "country": "Croatia",
+  "region": "europe",
+  "title": "Rijeka Ship Thickness Measurement: UTM and Hull Gauging",
+  "description": "Thickness measurement in Rijeka for ships at Viktor Lenac, Omišalj and the container terminals: pre-docking gauging, renewal surveys and hull structure.",
+  "h1": "Ultrasonic Thickness Measurement and Hull Gauging in Rijeka",
+  "intro": "Rijeka is Croatia's largest cargo port and home to a ship-repair and conversion yard that takes ships from across the Mediterranean. Around Kvarner Bay, crude tankers and LNG carriers call at Omišalj on Krk, bulk carriers discharge at Bakar, and container ships work the city's terminals. Atlantis NDT mobilises its gauging technicians from India to work on ships in drydock, alongside or at anchor in Kvarner.",
+  "keywords": [
+    "rijeka ship thickness measurement",
+    "thickness measurement in rijeka",
+    "hull gauging in rijeka",
+    "viktor lenac",
+    "pre-docking gauging",
+    "renewal survey gauging",
+    "thickness gauging in kvarner",
+    "utm croatia",
+    "ship inspection rijeka",
+    "ultrasonic thickness measurement croatia"
+  ],
+  "highlights": [
+    {
+      "h": "A repair and conversion yard",
+      "p": "The Viktor Lenac yard at Martinšćica docks tankers, bulk carriers, ferries and offshore units in floating docks, so renewal surveys, steel renewal projects and conversions drive much of the gauging demand around Rijeka."
+    },
+    {
+      "h": "Tankers and LNG at Omišalj",
+      "p": "The JANAF crude terminal and the LNG terminal on Krk receive large tankers and LNG carriers, whose decks, deck piping and accessible ballast tanks can be gauged during discharge under terminal rules."
+    },
+    {
+      "h": "Deep, sheltered Kvarner anchorages",
+      "p": "Kvarner Bay gives deep, sheltered water close to the coast, so ships waiting for a berth or a yard slot can be reached by launch for thickness gauging in Kvarner before or after a docking."
+    }
+  ],
+  "port": {
+    "h": "The port of Rijeka and the Kvarner Bay terminals",
+    "p": [
+      "The port of Rijeka, managed by the Port of Rijeka Authority, spreads well beyond the city's own harbour. Croatia's largest cargo port handles containers, dry and liquid bulk and general cargo. Container ships use the Adriatic Gate terminal at Brajdica and the new Rijeka Gateway terminal on the Zagreb pier. Dry bulk goes to the Bakar terminal in the neighbouring bay, while Omišalj on the island of Krk hosts the JANAF crude oil terminal and the LNG terminal, where a floating storage and regasification unit receives LNG carriers. Rail links run inland to Zagreb, Hungary and central Europe, and Jadrolinija, Croatia's national ferry operator, has its headquarters in the city.",
+      "For thickness gauging the decisive asset is the Viktor Lenac yard at Martinšćica, east of the city, a ship-repair and conversion yard with floating docks that works on tankers, bulk carriers, ferries, offshore units and naval ships. Owners bring ships to Rijeka specifically for dockings and conversions, which makes renewal surveys, steel renewal projects and conversion work the core of local gauging demand. Conversion jobs need measured thicknesses of the structure to be modified, and dockings need pre-docking estimates that the yard can turn into a steel specification before the ship arrives.",
+      "Kvarner Bay gives the area deep, sheltered water close to the coast, so large tankers and bulk carriers can reach Omišalj and Bakar, and ships can lie at anchor in the bay waiting for a berth or a yard slot. That gives two further gauging windows: tankers and LNG carriers during discharge at Krk, and ships at anchor before or after a docking. The Jadrolinija fleet adds a domestic dimension, with island ferries docked in the off-season when timetables are lighter and the yards can take them. Rijeka is therefore less a port of quick calls than a place where ships arrive with time set aside for work."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in Rijeka and around Kvarner",
+    "p": [
+      "Most structured gauging around Rijeka happens at Viktor Lenac. A ship in one of the yard's floating docks is accessible from keel to deck, tanks are cleaned and gas-freed by the yard, and the technicians follow the yard's programme so readings are ready before steel gangs are allocated. For conversion projects the team gauges the structure that will be cut, extended or reinforced, and later re-gauges renewed areas. Ships also lie at the yard's repair quays before and after docking, which gives time for tank work afloat.",
+      "Away from the yard, gauging is done at the terminals. Tankers at the JANAF terminal and LNG carriers at the Omišalj LNG terminal can have their main deck, deck lines and any ballast tanks opened for entry gauged during discharge under strict terminal safety rules. Bulk carriers at Bakar give access to holds and hatch covers once discharged, and container ships at Brajdica and the Zagreb pier offer limited-scope access during cargo work, usually for ballast tanks and hatch covers. The ship's agent arranges ISPS access at each terminal and books launches for ships at anchor in Kvarner."
+    ],
+    "list": [
+      "Viktor Lenac shipyard, Martinšćica — floating dock gauging of bottom shell, sea chests, tanks and structure to be converted, plus re-gauging of renewed steel",
+      "Omišalj, island of Krk — deck, deck piping and ballast tank gauging on crude tankers at the JANAF terminal and LNG carriers at the LNG terminal",
+      "Bakar dry bulk terminal — once a bulk carrier's cargo is out, its holds, hopper tanks and hatch covers are open for gauging",
+      "Adriatic Gate container terminal, Brajdica — hatch cover and ballast tank readings on feeder and mainline container ships, taken around crane work",
+      "Rijeka Gateway terminal, Zagreb pier — container ship gauging within the cargo window, planned with the terminal and the ship's agent",
+      "Kvarner Bay anchorages — ships waiting for a yard slot or a berth, where pre-docking and sale gauging can be done from a launch"
+    ]
+  },
+  "context": {
+    "h": "Port state control, emissions and the Croatian maritime market",
+    "p": [
+      "Croatian port state control officers inspect foreign ships in Rijeka under the Paris MoU, applying the same EU rules used in Italy and Slovenia. Kvarner and the rest of the Adriatic fall within the Mediterranean SOx ECA, effective 1 May 2025, which limits fuel sulphur to 0.10% unless a scrubber achieves the same emissions. For scrubber-fitted ships, a docking at Rijeka is the natural moment to gauge wash-water and overboard piping and the shell around the outlet, while the ship is dry and the system is shut down, rather than chasing those readings in service.",
+      "Calls at Rijeka and Omišalj count towards both EU ETS, extended to shipping in 2024, and FuelEU Maritime, in effect from 2025; for owners deciding whether an older ship justifies a major steel renewal at the yard, the emissions rules and the gauging results are weighed together. Croatia also has a long shipowning and seafaring tradition, with shipping companies along the coast and many Croatian officers and engineers in international fleets, while Split is home to the Croatian Register of Shipping, Croatia's IACS-member classification society. Croatia is in the Schengen area and uses the euro, which keeps travel for yard projects straightforward."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Rijeka",
+    "p": "Rijeka jobs are built around the yard and the Kvarner terminals. Dockings and conversions at Viktor Lenac bring full gauging programmes with pre-docking estimates beforehand; tanker, LNG and bulk calls bring targeted work during cargo operations; and ships at anchor bring condition surveys. We agree scope, sequence and reporting with the superintendent and, where relevant, the yard planner before the team travels.",
+    "list": [
+      "Pre-docking gauging of a product tanker's cargo and ballast tanks at anchor in Kvarner, giving Viktor Lenac a steel renewal estimate before the docking starts",
+      "Bulk carrier renewal survey in a Viktor Lenac floating dock, with hold structure, ballast tanks and bottom shell gauged and areas for renewal marked up for the yard's steel gangs",
+      "Conversion project at Viktor Lenac: thickness readings across the structure being cut into and reinforced, so the design calculations use measured values",
+      "Crude tanker discharging at the JANAF terminal: main deck and ballast tank readings that close out substantial corrosion findings ahead of a CAP inspection",
+      "Off-season docking gauging on a domestic ro-pax ferry, covering vehicle decks, ramps and ballast tanks before the summer timetable begins"
+    ]
+  },
+  "logistics": "Rijeka Airport is on the island of Krk, close to Omišalj, and Zagreb Franjo Tuđman Airport offers wider connections with a motorway link to the coast; Trieste and Ljubljana airports are also within road distance. The yard and the terminals require ISPS or site passes, arranged through the agent or Viktor Lenac, and launch transfers to the Kvarner anchorages are booked by the agent. Croatia's Schengen membership means our Indian technicians enter on a Schengen visa. Yard dockings are booked well ahead, which suits visa planning; terminal calls need dates confirmed as soon as they are known.",
+  "vessels": [
+    "Crude oil tankers",
+    "Product and chemical tankers",
+    "LNG carriers",
+    "Bulk carriers",
+    "Container ships",
+    "Ro-pax ferries",
+    "Offshore units and ships in conversion"
+  ],
+  "faqs": [
+    {
+      "q": "Can you work at the Viktor Lenac yard during a docking?",
+      "a": "Yes. We work there as the shipowner's contractor, inside the yard's own safety and permit regime. The yard arranges access and induction, and we coordinate with its planners so the readings exist before blasting starts and before the steel list is agreed. For conversions we agree the measurement plan with the owner's designers as well as the attending surveyor."
+    },
+    {
+      "q": "Can tankers and LNG carriers be gauged during discharge at Omišalj?",
+      "a": "Partly. Working under the terminal's safety rules and the ship's permits, the team can measure deck plating, deck lines and any ballast tank the officers certify for entry. Cargo tanks on tankers need gas-freeing, and cargo containment on LNG carriers is not gauged in service, so those parts of a programme are planned for a docking."
+    },
+    {
+      "q": "Is pre-docking gauging worthwhile before a Rijeka docking?",
+      "a": "Usually. Measuring the areas most likely to need renewal at anchor in Kvarner, or at the ship's last port before the yard, lets the owner put a realistic steel estimate into the docking specification. The yard can plan material and labour, and the class survey starts with most of the doubtful areas already measured."
+    },
+    {
+      "q": "Do you cover other Croatian ports from Rijeka?",
+      "a": "Yes, when an owner has a ship there. The team can travel along the Croatian coast by road from Rijeka, and a Schengen visa covers the whole of Croatia, so a second ship at Split or another Adriatic port can often be added to the same mobilisation without a separate trip from India."
+    }
+  ],
+  "nearby": [
+    "koper",
+    "trieste",
+    "split",
+    "venice"
+  ]
+}

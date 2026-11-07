@@ -1,0 +1,33 @@
+{
+  "_note": "Maritime inspection city pages (owner request 2026-11-07). One JSON per city in ./cities/{slug}.json. region: europe | middle-east | asia. Page path: /maritime-inspection/{slug}.",
+  "cities": [
+    ["rotterdam","Rotterdam","Netherlands","europe","A"],["amsterdam","Amsterdam","Netherlands","europe","A"],["vlissingen","Vlissingen","Netherlands","europe","A"],
+    ["antwerp","Antwerp","Belgium","europe","A"],["zeebrugge","Zeebrugge","Belgium","europe","A"],["ghent","Ghent","Belgium","europe","A"],
+    ["hamburg","Hamburg","Germany","europe","A"],["bremerhaven","Bremerhaven","Germany","europe","A"],["wilhelmshaven","Wilhelmshaven","Germany","europe","A"],["kiel","Kiel","Germany","europe","A"],["rostock","Rostock","Germany","europe","A"],
+    ["copenhagen","Copenhagen","Denmark","europe","B"],["aarhus","Aarhus","Denmark","europe","B"],["esbjerg","Esbjerg","Denmark","europe","B"],
+    ["oslo","Oslo","Norway","europe","B"],["bergen","Bergen","Norway","europe","B"],["stavanger","Stavanger","Norway","europe","B"],["haugesund","Haugesund","Norway","europe","B"],
+    ["gothenburg","Gothenburg","Sweden","europe","B"],["stockholm","Stockholm","Sweden","europe","B"],["malmo","Malmö","Sweden","europe","B"],["reykjavik","Reykjavík","Iceland","europe","B"],
+    ["helsinki","Helsinki","Finland","europe","C"],["turku","Turku","Finland","europe","C"],["kotka","Kotka","Finland","europe","C"],
+    ["tallinn","Tallinn","Estonia","europe","C"],["riga","Riga","Latvia","europe","C"],["ventspils","Ventspils","Latvia","europe","C"],["liepaja","Liepāja","Latvia","europe","C"],
+    ["klaipeda","Klaipėda","Lithuania","europe","C"],["gdansk","Gdańsk","Poland","europe","C"],["gdynia","Gdynia","Poland","europe","C"],["szczecin","Szczecin","Poland","europe","C"],
+    ["london","London","United Kingdom","europe","D"],["southampton","Southampton","United Kingdom","europe","D"],["liverpool","Liverpool","United Kingdom","europe","D"],["felixstowe","Felixstowe","United Kingdom","europe","D"],
+    ["aberdeen","Aberdeen","United Kingdom","europe","D"],["falmouth","Falmouth","United Kingdom","europe","D"],["newcastle","Newcastle upon Tyne","United Kingdom","europe","D"],["milford-haven","Milford Haven","United Kingdom","europe","D"],
+    ["belfast","Belfast","United Kingdom","europe","D"],["dublin","Dublin","Ireland","europe","D"],["cork","Cork","Ireland","europe","D"],
+    ["le-havre","Le Havre","France","europe","E"],["marseille","Marseille","France","europe","E"],["dunkirk","Dunkirk","France","europe","E"],["brest","Brest","France","europe","E"],["saint-nazaire","Saint-Nazaire","France","europe","E"],
+    ["lisbon","Lisbon","Portugal","europe","E"],["sines","Sines","Portugal","europe","E"],
+    ["algeciras","Algeciras","Spain","europe","F"],["valencia","Valencia","Spain","europe","F"],["barcelona","Barcelona","Spain","europe","F"],["bilbao","Bilbao","Spain","europe","F"],["las-palmas","Las Palmas","Spain","europe","F"],["cadiz","Cádiz","Spain","europe","F"],["gibraltar","Gibraltar","Gibraltar","europe","F"],
+    ["genoa","Genoa","Italy","europe","G"],["trieste","Trieste","Italy","europe","G"],["naples","Naples","Italy","europe","G"],["venice","Venice","Italy","europe","G"],["la-spezia","La Spezia","Italy","europe","G"],["palermo","Palermo","Italy","europe","G"],
+    ["malta","Malta","Malta","europe","G"],["rijeka","Rijeka","Croatia","europe","G"],["split","Split","Croatia","europe","G"],["koper","Koper","Slovenia","europe","G"],["bar-montenegro","Bar","Montenegro","europe","G"],["durres","Durrës","Albania","europe","G"],
+    ["piraeus","Piraeus","Greece","europe","H"],["thessaloniki","Thessaloniki","Greece","europe","H"],["elefsina","Elefsina","Greece","europe","H"],
+    ["limassol","Limassol","Cyprus","europe","H"],["larnaca","Larnaca","Cyprus","europe","H"],
+    ["istanbul","Istanbul","Turkey","europe","H"],["izmit","Izmit","Turkey","europe","H"],["izmir","Izmir","Turkey","europe","H"],["mersin","Mersin","Turkey","europe","H"],["yalova","Yalova","Turkey","europe","H"],
+    ["varna","Varna","Bulgaria","europe","I"],["burgas","Burgas","Bulgaria","europe","I"],["constanta","Constanța","Romania","europe","I"],
+    ["port-said","Port Said","Egypt","middle-east","I"],["alexandria","Alexandria","Egypt","middle-east","I"],["suez","Suez","Egypt","middle-east","I"],
+    ["jeddah","Jeddah","Saudi Arabia","middle-east","I"],["aqaba","Aqaba","Jordan","middle-east","I"],
+    ["dubai","Dubai","United Arab Emirates","middle-east","J1"],["abu-dhabi","Abu Dhabi","United Arab Emirates","middle-east","J1"],["fujairah","Fujairah","United Arab Emirates","middle-east","J1"],["sharjah","Sharjah","United Arab Emirates","middle-east","J1"],
+    ["doha","Doha","Qatar","middle-east","J1"],["ras-laffan","Ras Laffan","Qatar","middle-east","J1"],["bahrain","Bahrain","Bahrain","middle-east","J1"],
+    ["dammam","Dammam","Saudi Arabia","middle-east","J2"],["jubail","Jubail","Saudi Arabia","middle-east","J2"],["sohar","Sohar","Oman","middle-east","J2"],["duqm","Duqm","Oman","middle-east","J2"],["salalah","Salalah","Oman","middle-east","J2"],["kuwait","Kuwait","Kuwait","middle-east","J2"],
+    ["shanghai","Shanghai","China","asia","K"],["ningbo","Ningbo","China","asia","K"],["zhoushan","Zhoushan","China","asia","K"],["qingdao","Qingdao","China","asia","K"],["tianjin","Tianjin","China","asia","K"],["dalian","Dalian","China","asia","K"],
+    ["guangzhou","Guangzhou","China","asia","K"],["shenzhen","Shenzhen","China","asia","K"],["xiamen","Xiamen","China","asia","K"],["hong-kong","Hong Kong","China","asia","K"],["singapore","Singapore","Singapore","asia","K"]
+  ]
+}

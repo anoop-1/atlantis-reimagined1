@@ -1,0 +1,107 @@
+{
+  "slug": "turku",
+  "name": "Turku",
+  "country": "Finland",
+  "region": "europe",
+  "title": "UTM Thickness Gauging in Turku: Ro-Pax & Repair Yard",
+  "description": "Thickness measurement in Turku and Naantali: UTM of ro-pax and cargo hull structure, pre-docking gauging and renewal survey support in the Archipelago Sea.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Turku and Naantali",
+  "intro": "Turku sits at the head of the Archipelago Sea, with LNG-fuelled ro-pax on the Åland route, ro-ro and bulk traffic at neighbouring Naantali, and a cruise shipbuilding yard at Perno. For superintendents whose ships dock, lay by or trade in this corner of Finland, we provide ultrasonic thickness gauging of hull structure, tanks and piping, with a team mobilised from India and scheduled around the docking window or the ferry timetable.",
+  "keywords": [
+    "thickness measurement in turku",
+    "utm thickness gauging in turku",
+    "naantali hull gauging",
+    "turku repair yard",
+    "ro-pax thickness measurement",
+    "pre-docking gauging",
+    "ship inspection in turku",
+    "grounding damage gauging",
+    "hull gauging finland",
+    "utm turku"
+  ],
+  "highlights": [
+    {
+      "h": "Åland-route ferries",
+      "p": "Gauging on the Turku–Åland–Stockholm ferries is fitted into turnarounds and the annual docking, with tanks, voids and vehicle decks split across several visits when the ship cannot leave its schedule."
+    },
+    {
+      "h": "Archipelago contact damage",
+      "p": "Narrow, rocky fairways through the Archipelago Sea make grounding and contact damage a real risk. We gauge around set-in plating and buckled internals so the repair scope rests on measured thickness rather than estimates."
+    },
+    {
+      "h": "Docking at Naantali",
+      "p": "Turku Repair Yard at Naantali docks and repairs merchant and special vessels. Readings taken in the dock bottom, in tanks and on deck early in the stay let steel renewal be agreed before the yard programme fills up."
+    }
+  ],
+  "port": {
+    "h": "Turku, Naantali and the Archipelago Sea trade",
+    "p": [
+      "The Port of Turku lies at the mouth of the Aura River, facing a maze of islands that ships must thread to reach open water. Its best-known traffic is the ro-pax service to Stockholm, which calls in the Åland Islands on the way; Åland sits outside the EU VAT area, which is why the ferries stop there. Some of the ships on this route burn LNG. The harbour also handles ro-ro and general cargo, and the cruise shipbuilding yard at Perno, a little way down the coast, has delivered some of the largest cruise ships in service.",
+      "Naantali, a short distance west, completes the picture. Its port has a ro-pax link to Kapellskär in Sweden, liquid and dry bulk berths, and Turku Repair Yard, a docking and repair yard serving ships from the surrounding sea area. Newbuilding quality control at the cruise yard is the business of the yard and the classification society, so gauging demand around Turku comes from the trading fleet: ferries, ro-ro ships, tankers and bulk carriers calling at Turku and Naantali, and ships that come to Naantali to dock.",
+      "Three things give a gauging team time aboard. Ferries have planned dockings, usually outside the summer peak, and short lay-by periods between sailings. Cargo and bulk ships at Naantali work their cargo over a day or more. And ships arriving for repair spend a set period in dock, where early gauging decides the steel list. What makes the area distinctive is the archipelago itself: winter ice covers these waters in normal years, so ice-class wear is a constant, and the confined fairways mean that a share of repair work follows contact or grounding damage, where the question is how far thinning and deformation extend beyond the visible dent. Ro-pax thickness measurement here is therefore rarely a routine grid alone; it is shaped by the season, the ice and what the ship has touched."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations around Turku and Naantali",
+    "p": [
+      "At the Turku ferry berths, gauging is planned with the ship's officers around the timetable. Work inside ballast tanks and voids needs those spaces ventilated and certified safe by the crew before the team arrives, so the tank sequence is agreed in advance and each visit is used for spaces that are ready. Vehicle decks can be measured only when they are clear of cargo, which on a busy route means the night hours or a service break.",
+      "Naantali offers more time. Bulk carriers and tankers at its berths can have deck, piping and accessible-space gauging done during cargo operations under the ship's permit system, while a ship in dock at Turku Repair Yard can have bottom plating, side shell and tanks measured as soon as staging and cleaning allow. For an owner choosing where to dock, pre-docking gauging at a Turku or Naantali call gives every yard the same measured steel list to work from, which turns renewal into a planned quantity rather than a figure that grows once the ship is out of the water. Naantali hull gauging in dock is also the point at which ice-belt and damage readings from earlier calls are checked from the outside."
+    ],
+    "list": [
+      "Port of Turku ferry berths — Åland and Stockholm ro-pax, gauged during turnarounds or lay-by periods with tanks prepared by the crew",
+      "Turku harbour cargo quays — ro-ro and general cargo ships; deck, hold and hatch-cover gauging while cargo is being worked",
+      "Port of Naantali — ro-pax to Kapellskär plus liquid and dry bulk berths; deck, piping and accessible-space gauging during port stays",
+      "Turku Repair Yard, Naantali — docking and repair yard; shell, double-bottom and tank readings taken in dock to settle renewal with the surveyor",
+      "Anchorages in the Turku approaches — ships waiting for a berth or a dock slot, reached by launch arranged through the ship's agent"
+    ]
+  },
+  "context": {
+    "h": "Regulation and market context for Turku shipping",
+    "p": [
+      "Finland is one of the Paris MoU's port state control members, and the sulphur limit for fuel used in Finnish waters is the Baltic ECA figure of 0.10%. The Turku ferry routes show the main answers to that limit side by side: LNG propulsion on newer ships, compliant low-sulphur fuel on others, and exhaust gas scrubbers on parts of the wider Baltic ro-ro fleet. Ships fitted with scrubbers need their wash-water and overboard piping watched closely, because acidic wash-water attacks pipe walls and the shell connection. The Baltic is also a NOx Emission Control Area for ships built from 2021 onwards. Voyages between Turku and Stockholm run between EU ports, so all of their emissions count under the EU ETS, which took in shipping in 2024, and under FuelEU Maritime, in force since 2025, even though Åland stands outside the EU VAT area.",
+      "Ice is the other constant. The Archipelago Sea freezes in normal winters, and ships calling at Turku and Naantali in the ice season must meet the Finnish winter traffic restrictions, which set minimum ice classes under the Finnish-Swedish Ice Class Rules. Ice-class hulls lose coating and steel along the waterline each winter, and owners who want to keep trading here year-round need ice-belt structure that still meets class requirements. Hull gauging in Finland's archipelago waters therefore often pairs ice-belt work with damage assessment after a contact or grounding."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Turku",
+    "p": "Work around Turku tends to cluster around dockings at Naantali and the ferry schedule, with damage-related gauging arriving at short notice. Because the team travels from India, short-notice jobs are planned against visa status first, so owners who expect to need this kind of help in a season do well to have the paperwork prepared early. A ship inspection in Turku is otherwise scoped as anywhere else: by survey, structure and access.",
+    "list": [
+      "Pre-docking gauging of side shell, bottom areas reachable from inside and ballast tanks on a Baltic ro-ro before she enters the dock at Naantali, so renewals are ordered on day one",
+      "Measurement around grounding damage on a ferry's bottom plating and floors, giving the repair yard and class surveyor an agreed extent of set-in and thinned plate",
+      "Holds, hatch coamings and double-bottom tanks of a general cargo ship gauged for her renewal survey during a lay-by in the Turku approaches",
+      "Scrubber overboard discharge piping and its shell connection on a ro-ro, measured from inside the scrubber and pump spaces while alongside",
+      "Pre-purchase condition gauging of an ice-class coaster or product tanker at Naantali for a buyer who wants measured wastage figures before signing"
+    ]
+  },
+  "logistics": "Most journeys end at Helsinki-Vantaa Airport, followed by a road or rail transfer to Turku; Turku Airport has fewer international links but suits some itineraries. For terminal berths in Turku and Naantali the ship's agent obtains ISPS gate passes, along with launch transport for ships at anchor; for dockings, entry comes through the repair yard. Our technicians need a Schengen visa for Finland, so we agree dates as soon as the docking slot or lay-by is known and keep a margin for consular processing.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Ro-ro cargo ships",
+    "Product and chemical tankers",
+    "Bulk carriers",
+    "General cargo ships",
+    "Ice-class coasters",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge our ferry at Turku Repair Yard during its annual docking?",
+      "a": "Yes, when the owner appoints us and the yard gives access. The yard provides staging or lifts for the shell, and cleaning and gas-freeing of tanks; we start gauging as soon as the first areas are ready so that renewal quantities are known early. Readings are handed over daily, so the class surveyor and the yard can mark renewal areas while the ship is still in the first days of its stay."
+    },
+    {
+      "q": "How do you gauge around grounding damage from the archipelago?",
+      "a": "We lay a reading grid over the damaged area and extend it into plating that looks undamaged, so the edge of the affected zone is defined by measurement. Inside the double bottom we measure floors, girders and longitudinals near the damage. Readings are reported with sketches and photographs against reference values from intact plating, and the surveyor decides the repair extent from that record."
+    },
+    {
+      "q": "Can ice-belt wastage be measured before the winter rather than after it?",
+      "a": "Yes, and for ships that must meet the Finnish winter traffic restrictions an autumn check is often the more useful one. Gauging the ice belt and bow before the season shows whether the structure will carry the ship through another winter or whether renewal should come first. A follow-up after the ice has gone then shows how much the season took."
+    },
+    {
+      "q": "Do LNG-fuelled ferries change the gauging scope?",
+      "a": "Not for hull structure. Ballast tanks, voids, vehicle decks, sea water and fire main piping are gauged as on any ro-pax. The LNG fuel tanks and gas-fuel piping are governed by the IGF Code and the ship's class requirements for gas-fuelled ships, and they are not part of a hull thickness measurement scope; we plan around those spaces and their access restrictions."
+    }
+  ],
+  "nearby": ["helsinki", "stockholm", "tallinn", "kotka"]
+}

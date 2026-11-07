@@ -548,6 +548,7 @@ const TofdCalculator = lazy(() => import("./pages/tools/TofdCalculator"));
 const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 2026-10-10 §48
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
+const MaritimeSection = lazy(() => import("./pages/MaritimeSection")); // 2026-11-07 maritime inspection section (src/data/maritime-section)
 const InspectionSection = lazy(() => import("./pages/InspectionSection")); // 2026-10-18 inspection section (src/data/inspection-section)
 const ConsultingSection = lazy(() => import("./pages/ConsultingSection")); // 2026-10-19 Level III consulting topic pages (src/data/consulting-section)
 const NdtPracticeTests = lazy(() => import("./pages/NdtPracticeTests")); // 2026-10-16 practice-test hub (src/data/practice-tests)
@@ -6903,6 +6904,8 @@ export default function RouteTable() { return (
                   <Route path="/consulting/ndt-regulatory-compliance" element={<LazyRoute Component={ConsultingSection} />} />
                   <Route path="/consulting/iso-9001-17020-17025-ndt" element={<LazyRoute Component={ConsultingSection} />} />
                   {/* 2026-10-18 inspection section — static routes outrank /inspection/:slug */}
+                  <Route path="/maritime-inspection" element={<LazyRoute Component={MaritimeSection} />} />
+                  <Route path="/maritime-inspection/:slug" element={<LazyRoute Component={MaritimeSection} />} />
                   <Route path="/inspection" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services/advanced-ndt" element={<LazyRoute Component={InspectionSection} />} />

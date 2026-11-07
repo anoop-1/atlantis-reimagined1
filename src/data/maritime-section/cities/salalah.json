@@ -1,0 +1,106 @@
+{
+  "slug": "salalah",
+  "name": "Salalah",
+  "country": "Oman",
+  "region": "middle-east",
+  "title": "Salalah Port Thickness Gauging for Container Ships | UTM",
+  "description": "UTM at the Port of Salalah, Oman: hull structure and tank gauging on container ships and feeders, scrubber piping inspection and pre-docking gauging plans.",
+  "h1": "UTM and Hull Thickness Gauging for Ships Calling at Salalah",
+  "intro": "The Port of Salalah is a container transshipment hub on Oman's Arabian Sea coast, where mainline ships exchange boxes with feeders serving the Gulf, the Red Sea, East Africa and the Indian subcontinent, alongside a general cargo terminal and the Salalah Free Zone. Container ships rarely stay long, so gauging here has to be precise and planned. We mobilise a team to Salalah from India and work to a scope agreed with the master: deck and hull girder structure, tanks, scrubber piping and the areas your last survey flagged.",
+  "keywords": [
+    "salalah port thickness gauging",
+    "thickness gauging for container ships",
+    "scrubber piping inspection",
+    "port of salalah",
+    "ship inspection in salalah",
+    "ultrasonic thickness measurement in salalah",
+    "utm salalah",
+    "hull gauging salalah port",
+    "container ship utm oman",
+    "feeder vessel thickness measurement"
+  ],
+  "highlights": [
+    {
+      "h": "Container ship structure, not tanker scope",
+      "p": "Container ships are outside the ESP, but their renewal surveys still call for gauging under IACS UR Z7, and the strength deck, hatch coamings and side tanks carry the hull girder. We concentrate readings where wastage matters for strength."
+    },
+    {
+      "h": "Feeders that age faster",
+      "p": "The regional feeders linking Salalah to smaller ports are often older, geared ships trading through hot, humid waters. Their ballast tanks, hatch covers and deck fittings typically need closer attention than the mainline ships they connect with."
+    },
+    {
+      "h": "Monsoon-aware scheduling",
+      "p": "The khareef, the southwest monsoon season, brings heavy swell to Salalah in summer, affecting anchorage work and launch transfers. We plan boat-dependent gauging outside it and keep monsoon-season jobs to ships lying alongside."
+    }
+  ],
+  "port": {
+    "h": "The Port of Salalah and Its Shipping",
+    "p": [
+      "Salalah's port at Raysut, in the Dhofar region, grew around container transshipment. Its position close to the main east–west route between Asia, the Red Sea and Europe lets mainline services drop and collect boxes that feeders carry onward to ports in the Gulf, the Red Sea, East Africa and the Indian subcontinent. Next to the container terminal, a general cargo terminal handles dry bulk minerals, general and project cargo and liquid cargo for the plants of the Salalah Free Zone and the surrounding industrial area.",
+      "A transshipment call is built around crane moves, and most container ships are alongside only for their box exchange. Gauging on them is therefore selective: a set of spaces and structural areas chosen in advance, with the team boarding as soon as the ship is fast and leaving before departure. Feeders sometimes wait at anchorage for a berth window, which allows more time on board. Bulk carriers loading minerals at the general cargo terminal stay longer and give access to holds before loading begins. Ships that anchor off Salalah between calls can also take limited gauging when the agent arranges it.",
+      "Inspection demand at Salalah follows the container fleet's particular weak points. On large container ships, the upper deck, hatch coamings and longitudinals in the side tanks form the main strength members, often in high-tensile steel where fatigue cracks start at hatch corners and coaming ends, so thickness gauging and crack detection go together there. Many of these ships carry exhaust gas scrubbers, and wash-water discharge piping is a recurring problem. Feeders on regional routes run through the Arabian Sea and the Gulf all year, and their ballast tanks and hatch covers show the wear of constant heat and humidity. The nearest drydock is at Duqm, up the coast, so gauging in Salalah often feeds a docking plan."
+    ]
+  },
+  "facilities": {
+    "h": "Where Gauging Is Done at Salalah",
+    "p": [
+      "Gauging at Salalah is done afloat. On the container terminal, the team works on deck and in accessible tanks while cranes are working, keeping clear of lashing and cargo areas and following the terminal's safety rules. Areas under hatch covers or behind stowed boxes are left for a later call or for docking, so the scope has to be realistic about what a working container ship exposes. Short calls reward preparation: tanks to be gauged should be emptied, ventilated and tested before arrival, so the team does not lose the call waiting for access. At the general cargo terminal, bulk carriers and multipurpose ships give longer access to holds, decks and tanks.",
+      "The anchorage is where feeders and other ships waiting for berths can be gauged at more length, reached by launch through the agent, but sea conditions during the khareef often rule it out. For drydocking, ships from Salalah generally head for Asyad Drydock at Duqm or yards elsewhere in the region. Gauging in Salalah before such a docking gives the yard a measured view of hull structure and tanks, and the team can follow the ship to Duqm for the in-dock part if the owner wants continuity."
+    ],
+    "list": [
+      "Container terminal berths — upper deck, hatch coaming, side tank and scrubber piping gauging on mainline container ships during the box exchange",
+      "Container terminal, feeder calls — ballast tank, hatch cover and deck gauging on regional feeders, which often allow longer access than mainline ships",
+      "General cargo terminal — hold, tank top and hatch cover gauging on bulk carriers loading minerals, done before loading begins",
+      "Salalah anchorage — condition and pre-purchase gauging on ships waiting for a berth, outside the monsoon season",
+      "Asyad Drydock, Duqm — in-dock gauging for ships that dock up the coast after a Salalah call; see our Duqm page"
+    ]
+  },
+  "context": {
+    "h": "Regulation and Market Context at Salalah",
+    "p": [
+      "Oman's port state control is carried out under the Riyadh MoU. The Arabian Sea is not an emission control area, so ships here comply with the 0.50% global sulphur limit, either by burning compliant fuel or by running scrubbers, which are common on the large container ships that call at transshipment hubs. Scrubber wash water is acidic, and on container ships the discharge line often runs through a ballast or void space near the engine room before reaching the shell, so a leak there is both a structural and a pollution problem. Because container ships fall outside the ESP, the gauging extent at renewal is set by IACS UR Z7 and the ship's class rules, and it grows with each renewal survey.",
+      "Container ships on Salalah services are operated by the mainline carriers but frequently owned by charter owners and run by third-party ship managers, who carry the risk of hull condition between charters. Condition recorded at redelivery, and found again at the next charterer's on-hire inspection, affects charter negotiations, so on-hire and off-hire gauging has a clear purpose here. Routing between Asia, the Red Sea and Europe has shifted in recent years, changing which services call at Salalah, so we plan around the call schedule the owner actually has rather than a typical rotation."
+    ]
+  },
+  "eca": "none",
+  "psc": "Riyadh MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Salalah",
+    "p": "Ship inspection in Salalah usually has to fit inside a container ship's call or a feeder's berth window, so jobs are tightly scoped and prepared before the ship arrives. Bulk carriers at the general cargo terminal and ships at anchorage allow broader work, and the results often feed a later docking at Duqm or elsewhere. The scope sheet is shared with the master and chief engineer beforehand, so tanks are ready and the team knows its access route on boarding.",
+    "list": [
+      "A large container ship on a transshipment call: scrubber wash-water discharge and overboard piping gauged during the box exchange, ahead of a docking where pipe renewal is planned",
+      "A container ship approaching its third renewal survey: upper deck, hatch coaming and side tank longitudinal gauging, with crack detection at hatch coaming corners",
+      "A geared feeder waiting at anchorage: ballast tanks, hatch covers and deck fittings gauged to support the owner's decision on steel work at the next docking",
+      "A bulk carrier at the general cargo terminal before loading: hold frame, hopper and tank top gauging for a charterer's on-hire condition record",
+      "A container ship coming off charter: off-hire gauging of deck structure and accessible tanks to document its condition at redelivery"
+    ]
+  },
+  "logistics": "Salalah International Airport serves the city, and our team usually reaches it through Muscat on one of the domestic connections; the port at Raysut is a short drive from the city. The ship's agent arranges ISPS passes for the container and general cargo terminals and launches for anchorage work. Indian technicians need an Omani visa for business travel, which we apply for once the call is confirmed. Container schedules shift, so we keep travel bookings flexible and stay in contact with the agent as the ship's arrival time moves, which is the main risk to a short ultrasonic thickness measurement in Salalah.",
+  "vessels": [
+    "Container ships",
+    "Container feeders",
+    "Bulk carriers",
+    "General cargo and multipurpose ships",
+    "Product tankers",
+    "Tugs and harbour craft"
+  ],
+  "faqs": [
+    {
+      "q": "How much can you gauge during a transshipment call at Salalah?",
+      "a": "Enough for a defined set of areas, not a full survey. A container ship alongside for its box exchange gives time for a planned list: upper deck and coamings in reachable bays, scrubber piping, and one or two prepared tanks. Tanks must be empty, ventilated and tested before arrival. Anything that needs hatch covers off or boxes cleared is better left for a longer stay or the next docking."
+    },
+    {
+      "q": "Do container ships need the same gauging as tankers and bulk carriers?",
+      "a": "No. Container ships are not ESP ships, so the extent of thickness measurement at renewal follows IACS UR Z7 and the class society's rules rather than the enhanced tanker and bulk carrier requirements. That still means substantial gauging as the ship ages, focused on the hull girder, meaning strength deck, hatch coamings, side shell and longitudinals, and on any areas the surveyor finds suspect."
+    },
+    {
+      "q": "Can you work at Salalah during the khareef?",
+      "a": "Alongside, yes; at anchorage, often not. The summer monsoon brings swell that can stop launch transfers and makes boarding at anchor unsafe. We plan monsoon-season jobs on ships at the container or general cargo terminal, and move anchorage work to the months before or after the khareef, or to a port with sheltered water."
+    },
+    {
+      "q": "Can gauging at Salalah be combined with a docking at Duqm?",
+      "a": "Yes. Gauging accessible areas during a Salalah call gives the yard an early measured view of the steel work, and the team can then attend the ship at Asyad Drydock in Duqm for bottom plating, sea chests and the tanks opened in dock. The owner receives one set of readings covering both stages, ready for the surveyor and the repair specification."
+    }
+  ],
+  "nearby": ["duqm", "sohar", "fujairah", "jeddah"]
+}

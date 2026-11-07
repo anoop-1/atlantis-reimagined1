@@ -7,6 +7,7 @@ export type SvcPage = {
   cards?: { href: string; label: string; text: string }[]; cardsTitle?: string; cardsSub?: string; listTitle?: string;
   sections?: SvcSection[]; codes?: string[]; deliverables?: string[]; industries?: string[];
   faqs?: { q: string; a: string }[]; related?: [string, string][];
+  areaServed?: unknown[];
 };
 export type SvcCta = { primaryHref: string; primaryLabel: string; secondaryHref: string; secondaryLabel: string; bandTitle: string; bandText: string; formId: string };
 export type SvcRegions = { h2: string; intro: string; groups: { name: string; links: [string, string][] }[]; footnote: [string, string][] };

@@ -1,0 +1,112 @@
+{
+  "slug": "split",
+  "name": "Split",
+  "country": "Croatia",
+  "region": "europe",
+  "title": "Split UTM and Ship Thickness Measurement for Ferries",
+  "description": "Ship thickness measurement in Split for island ferries, ro-pax and cruise ships: off-season docking gauging, renewal survey support and hull structure.",
+  "h1": "Thickness Measurement for Ferries and Ships in Split",
+  "intro": "Split is Croatia's busiest passenger port, the hub for ferries and catamarans to the central Dalmatian islands and for ro-pax services across the Adriatic to Ancona. Its fleets run hard through the summer and come off service for refits in winter, which is when most gauging is done. Atlantis NDT brings ultrasonic gauging technicians from India to Split for those refits, and for shorter jobs on cruise and cargo ships alongside.",
+  "keywords": [
+    "split utm",
+    "ship thickness measurement in split",
+    "thickness measurement for ferries",
+    "ferry thickness gauging",
+    "thickness gauging in split",
+    "croatian register of shipping",
+    "catamaran thickness gauging",
+    "hull gauging split",
+    "ship inspection split croatia",
+    "ultrasonic thickness measurement croatia"
+  ],
+  "highlights": [
+    {
+      "h": "Winter refits for the island fleet",
+      "p": "Island ferries and catamarans run intensive summer timetables, then come off service for refit; the gauging for renewal and docking surveys falls inside that winter window, which has to be booked early."
+    },
+    {
+      "h": "Steel ferries and aluminium catamarans",
+      "p": "The Split fleet mixes steel car ferries of several generations with high-speed catamarans, many aluminium-hulled, so catamaran thickness gauging needs a gauge calibrated for the alloy and a measurement plan suited to light-alloy structure."
+    },
+    {
+      "h": "A classification society in the city",
+      "p": "The Croatian Register of Shipping, an IACS member, is headquartered in Split, and the city's maritime faculty and crewing agencies make it a centre of Dalmatian seafaring expertise."
+    }
+  ],
+  "port": {
+    "h": "The port of Split: island ferries, Adriatic ro-pax and Kaštela Bay",
+    "p": [
+      "The port of Split, managed by the Port of Split Authority, has two distinct parts. The city harbour, in front of Diocletian's Palace, is the passenger port: Jadrolinija car ferries and catamarans leave throughout the day for Brač, Šolta, Hvar, Vis, Korčula and Lastovo, international ro-pax ferries cross to Ancona in Italy, and cruise ships berth or anchor off the old town in season. The cargo port lies to the north in Kaštela Bay, where the North Harbour terminals at Vranjic and Solin handle dry bulk, containers and general cargo. In summer the passenger berths see a near-continuous sequence of departures and rarely stand empty for long.",
+      "The passenger fleet defines inspection demand. Island services are timetabled intensively in summer and lightly in winter, so operators take ferries and catamarans out of service for dockings, refits and surveys in the off-season and need them back before the summer. That compresses renewal and docking survey work into a few months and makes planning ahead essential. The fleet is mixed: steel car ferries of different generations, and high-speed catamarans, many with aluminium hulls, each needing its own gauging approach. Ro-pax ships on the Ancona route add larger vehicle decks, stern doors and ballast tanks to the workload. Where a ferry spends its winter lay-up at a Split berth rather than in a yard, tank and deck gauging can proceed afloat well before its docking date.",
+      "Split is also a centre of maritime expertise. The Croatian Register of Shipping, an IACS member classification society, has its headquarters in the city, and the University of Split's maritime faculty, together with crewing agencies around the city, supplies officers and engineers to international fleets. Dalmatia's seafaring tradition runs deep. For gauging, that means superintendents and surveyors who know their ships well and expect readings presented clearly on the class formats, with no gaps left to chase after the refit is over and the ship is back in service."
+    ]
+  },
+  "facilities": {
+    "h": "Where thickness gauging happens around Split",
+    "p": [
+      "Off-season ferry work is the core of thickness gauging in Split. Ferries come off service and go to a dock or a repair quay for their winter refit, and that is when vehicle decks, ramps, ballast and void spaces, bottom shell and sea chests can be gauged in full. Where a ferry docks elsewhere on the coast, pre-docking gauging at its Split berth on a quiet day gives the yard and the surveyor a head start before it sails for the dock. Catamarans taken out of the water for hull work give direct access to aluminium plating.",
+      "During the season, work at the city harbour is limited to short windows between sailings and to lay-overs where a ferry stays in Split overnight. Cruise ships berthing at the city port give call-day access, mainly to technical spaces and scrubber piping. In Kaštela Bay, bulk, container and general cargo ships at the North Harbour are gauged alongside during or after cargo work, and ships waiting to berth anchor in the bay. The ship's agent or the operator arranges ISPS passes for each berth and books launches where needed."
+    ],
+    "list": [
+      "City harbour ferry berths — island ferries and ro-pax ships on lay-overs or in off-season lay-up, gauged on vehicle decks, ramps and ballast tanks",
+      "Catamaran berths in the city harbour — aluminium hull, frame and deck gauging on high-speed catamarans during winter lay-up and maintenance",
+      "Ancona ro-pax berths — vehicle deck, stern door and ballast tank gauging on cross-Adriatic ferries in the hours between sailings",
+      "Cruise berths and the anchorage off the old town — a cruise call day leaves time for scrubber discharge line readings and a few technical spaces",
+      "North Harbour, Kaštela Bay — dry bulk and general cargo ships at Vranjic and Solin, with holds, hatch covers and ballast tanks gauged around cargo work",
+      "Kaštela Bay anchorage — launch access to ships awaiting a North Harbour berth, used for pre-purchase and general condition gauging"
+    ]
+  },
+  "context": {
+    "h": "Class, port state control and emissions context in Split",
+    "p": [
+      "Foreign ships in Split are inspected under the Paris MoU, and passenger ships in scheduled service also fall under the EU inspection regime for ro-pax ships and high-speed craft. A ferry classed with the Croatian Register of Shipping, like any other classed ship, needs its survey thickness measurements taken by a firm holding UR Z17 approval from its own class society, so superintendents settle that point at the scoping stage. Gauging for owners' own planning, such as pre-docking estimates or condition checks before a sale, is not tied to that requirement.",
+      "Island ferries, ro-pax ships and cruise ships in Dalmatian waters have operated inside the Mediterranean SOx ECA since 1 May 2025, using 0.10% sulphur fuel or exhaust gas cleaning that meets the equivalent limit. Larger ro-pax ships and cruise ships fitted with scrubbers run them throughout Croatian waters, which puts their wash-water and overboard piping on the inspection list. Both EU ETS (shipping included from 2024) and FuelEU Maritime (from 2025) apply only above a ship-size threshold, which brings in the larger ro-pax and cruise ships, while the smaller island ferries face their own questions of fleet age and renewal planning, where steel condition often decides how long a ferry stays in service."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Split",
+    "p": "Split work follows the season. From late autumn to spring, ferries and catamarans come off service for refits and dockings, and full gauging programmes are carried out against tight return-to-service dates. In summer, jobs are short and targeted: ferries between sailings, cruise ships on call days and cargo ships in Kaštela Bay. We plan winter programmes with operators well in advance.",
+    "list": [
+      "Renewal survey gauging on an island car ferry during its winter refit, covering vehicle deck, ramps, ballast and void spaces and the bottom shell",
+      "High-speed catamaran out of the water for winter maintenance: aluminium plating, frames and deck readings, taken with the gauge set up for the hull alloy",
+      "Pre-docking ferry thickness gauging at a Split berth on a quiet off-season day, before the ferry sails to a yard for its docking",
+      "Cross-Adriatic ro-pax ferry between Ancona sailings: vehicle deck and ballast tank readings that close out items from its last annual survey",
+      "Bulk carrier at the North Harbour in Kaštela Bay after discharge: holds and hatch covers gauged ahead of the ship's intermediate survey"
+    ]
+  },
+  "logistics": "Split Airport, at Kaštela between the city and Trogir, has European connections, many of them seasonal, and Zagreb offers year-round long-haul links with a motorway to the coast. The ship's agent or the operator arranges ISPS passes for the city harbour and the North Harbour, and launches for ships at anchor. Because Croatia is part of Schengen, the team from India travels on Schengen visas. Winter refit programmes are planned months ahead, which leaves ample time for visas; summer work needs the sailing schedule and access window confirmed early.",
+  "vessels": [
+    "Car and passenger ferries",
+    "High-speed catamarans",
+    "Ro-pax ferries",
+    "Cruise ships",
+    "Bulk carriers",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "When is the best time for ferry thickness gauging in Split?",
+      "a": "The off-season, from late autumn to spring, when ferries and catamarans come off service for refits and dockings. That is when tanks, voids and vehicle decks can be opened long enough to gauge them properly. Book early: refit periods are short and return-to-service dates are fixed by the summer timetable."
+    },
+    {
+      "q": "Can you gauge aluminium catamarans as well as steel ferries?",
+      "a": "Yes. Ultrasonic gauges measure aluminium once calibrated for the alloy on a matching reference block. Aluminium high-speed craft tend to corrode at dissimilar-metal joints, around fittings and in wet bilge spaces rather than evenly across the plating, so we agree measurement locations with the superintendent and surveyor before the work starts."
+    },
+    {
+      "q": "Do you work on cargo ships in Kaštela Bay as well as ferries?",
+      "a": "Yes. Bulk carriers and general cargo ships at the North Harbour terminals can be gauged alongside during or after cargo operations, and ships at anchor in Kaštela Bay can be reached by launch through the agent. Holds and hatch covers are usually the focus once cargo is out, with ballast tanks added when the ship can make them safe."
+    },
+    {
+      "q": "Can a Split job be combined with other Croatian ports?",
+      "a": "Yes. Rijeka and the other Adriatic ports are reachable by road, and one Schengen visa is valid along the entire Croatian coast, so a winter refit in Split can be combined with a docking at Rijeka or another ferry refit along the coast in one mobilisation, with each ship reported separately."
+    }
+  ],
+  "nearby": [
+    "rijeka",
+    "bar-montenegro",
+    "durres",
+    "trieste"
+  ]
+}

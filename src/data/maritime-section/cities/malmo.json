@@ -1,0 +1,107 @@
+{
+  "slug": "malmo",
+  "name": "Malmö",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Malmö Hull Thickness Measurement | Ro-Ro & Car Carriers",
+  "description": "Hull thickness measurement in Malmö and the Øresund for ro-ro, car carriers and ferries: UTM of vehicle decks, hull structure and pre-docking gauging.",
+  "h1": "Hull Thickness Measurement for Ro-Ro, Car Carriers and Ferries in Malmö",
+  "intro": "Malmö, together with Trelleborg and Ystad on Sweden's south coast, is a gateway for ro-ro freight, imported cars and ferry traffic between Scandinavia, Germany and Poland. Copenhagen Malmö Port runs the Malmö harbour alongside Copenhagen across the Øresund. Atlantis NDT mobilises a team from India to measure vehicle decks, ramps, ballast tanks and hull structure on ro-ro ships, car carriers and ferries calling in the region.",
+  "keywords": [
+    "malmö hull thickness measurement",
+    "car carrier inspection",
+    "ro-ro ship thickness measurement",
+    "vehicle deck gauging",
+    "trelleborg ferry inspection",
+    "øresund ship inspection",
+    "ramp hinge crack detection",
+    "pre-docking gauging",
+    "thickness measurement malmö",
+    "ultrasonic thickness measurement sweden"
+  ],
+  "highlights": [
+    {
+      "h": "Car import terminal in Malmö",
+      "p": "Car carriers discharge and load vehicles at Malmö's car terminal. Hoistable decks, fixed car decks and ramps can be gauged during the call or a lay-by, with ramp hinges and supports checked by magnetic particle testing."
+    },
+    {
+      "h": "German and Polish ferry corridor",
+      "p": "Ro-pax ships on the Malmö–Travemünde service and the Trelleborg and Ystad routes run high-frequency schedules. Their vehicle decks and machinery piping are measured in short port windows or at the annual docking."
+    },
+    {
+      "h": "One arrival point for the Sound",
+      "p": "Malmö is linked by rail over the Øresund Bridge to Copenhagen Airport, so the team can reach ships on both sides of the Sound and at the south-coast ports from a single arrival point."
+    }
+  ],
+  "port": {
+    "h": "Malmö and the south Swedish ro-ro and ferry ports",
+    "p": [
+      "Malmö's harbour is operated by Copenhagen Malmö Port, the joint company that runs the Danish and Swedish ports on either side of the Øresund. On the Swedish side the traffic is weighted towards rolling cargo: car carriers deliver imported vehicles to one of the largest car-handling terminals in northern Europe, ro-pax ships connect Malmö with Travemünde in Germany, and ro-ro freighters move trailers and cargo across the southern Baltic. The harbour also handles oil products, bulk and general cargo, and the Øresund in front of the city carries a continuous stream of ships passing between the Baltic and the North Sea.",
+      "Along the coast, Trelleborg is Sweden's main ro-ro and ferry port for traffic to Germany and Poland, and Ystad serves ferries to Poland and to Bornholm. Together with Malmö they form a corridor of high-frequency ro-pax and ro-ro services in which ships berth, discharge and load many times a week with tight turnarounds. Trelleborg's ferries share their berths with dense truck traffic, so working areas on the vehicle decks are agreed with the loading officers before each sailing. Many of these ships are built to Finnish-Swedish ice class even though the southern Baltic rarely freezes, because operators move tonnage between routes and charter it into northern trades.",
+      "Gauging demand in Malmö follows the rhythm of this traffic. Ferries and ro-pax ships need vehicle-deck, ramp and piping measurements planned around their timetables, with the major scope carried out at docking. Car carriers often have longer calls or lay-bys during which deck surveys are practical, and ro-ro freighters on fixed schedules may have a regular lay-by that suits targeted work. Øresund ship inspection requests also come from owners whose ships are passing through or anchored in the Sound and need condition gauging before entering the Baltic or after a port state control finding. For many of these owners, Malmö is the most convenient point in their network for an inspection team to reach."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in Malmö and along the south coast",
+    "p": [
+      "In Malmö, the car terminal and the ro-ro berths are the main working locations. Car carriers and ro-ro ships offer open decks and ramps, and measurement can run alongside cargo operations if the vessel and terminal agree a safe working area. The ferry berth for the Travemünde service gives shorter windows, usually for piping and specific deck areas. Tankers discharging oil products at the harbour allow limited ballast and deck work, with cargo tanks left closed. Car carriers sometimes have their hoistable decks raised for loading, which limits access, so we agree the deck sequence with the chief officer.",
+      "Trelleborg and Ystad are within easy reach by road, and the same team can cover ships at all three ports during one visit. Larger ships from the region generally dock elsewhere, often in Poland, Germany, Denmark or Lithuania, and for those dockings we mobilise directly to the yard. Pre-docking measurements in Malmö or Trelleborg are a practical way to define the yard specification for ro-ro and ferry operators who cannot spare their ships for longer in port, because the scope reaching the yard is then based on readings rather than estimates carried forward from the last survey."
+    ],
+    "list": [
+      "Malmö car terminal — fixed and hoistable car-deck gauging, ramp measurements and ramp-hinge crack detection on car carriers during calls and lay-bys.",
+      "Malmö ro-pax berth — vehicle-deck and machinery piping measurements on Travemünde ferries in their scheduled port time.",
+      "Malmö oil harbour — ballast tank and deck gauging on product tankers during discharge, with cargo tanks closed.",
+      "Trelleborg ferry and ro-ro berths — Trelleborg ferry inspection work on vehicle decks, ramps and bow and stern doors during turnarounds or lay-bys.",
+      "Ystad ferry berths — piping and deck gauging on ro-pax ships serving Poland and Bornholm, planned around the timetable.",
+      "Anchorages in the Sound — limited condition gauging on ships waiting in the Øresund, with launches arranged through the agent."
+    ]
+  },
+  "context": {
+    "h": "Baltic ECA, ice class and regulation in the Øresund region",
+    "p": [
+      "Sweden is an EU member and part of the Paris MoU. The Øresund lies within the Baltic Sea SOx ECA at 0.10% sulphur, and ferries and ro-ro ships here mostly burn compliant fuel or LNG, while scrubber-fitted car carriers and ro-ro ships need wash-water and overboard piping checked at each docking. Shipping falls under the EU ETS from 2024 and FuelEU Maritime from 2025, and operators across the Baltic ferry market have responded with battery hybrids, LNG and shore power, retrofits that add structural penetrations and foundations worth measuring before and after installation.",
+      "Ro-ro ships, car carriers and ferries have their own structural weak points. Vehicle decks are wetted by seawater, melt water and de-icing salt brought aboard on vehicles in winter, which concentrates corrosion at deck plating, stiffener connections and drainage gutters. Ramps, bow and stern doors and their hinges take repeated loading and are classic fatigue locations. Car carriers' hoistable decks are lightly built and wear at their supports and lifting points. These are the areas where vehicle deck gauging and crack detection are focused, alongside the ballast tanks and shell structure covered by the hull survey."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Malmö",
+    "p": "Malmö and the neighbouring south-coast ports generate steady, schedule-driven work on rolling-cargo ships. Most scopes are targeted at vehicle decks, ramps and piping, with full renewal-survey gauging carried out at the docking yard and the in-port work used to prepare it. Several ships of the same operator can often be grouped into one mobilisation, since their routes all touch the same few ports.",
+    "list": [
+      "Car carrier inspection during a Malmö lay-by: hoistable deck panels, supports and lifting points measured, and ramp hinges crack-tested before the ship's intermediate survey.",
+      "Ro-ro ship thickness measurement on a south Baltic freighter: trailer-deck plating and drainage gutters gauged where winter salt corrosion was reported.",
+      "Pre-docking gauging of ballast tanks and vehicle decks on a Travemünde ro-pax ship in Malmö, defining steel renewal for its docking in a Polish yard.",
+      "Bow door and ramp structure measurements on a Trelleborg ferry after a class surveyor's recommendation, with magnetic particle testing of the hinge welds.",
+      "Condition gauging on a bulk carrier anchored in the Øresund for a buyer's inspection, covering holds, topside tanks and main deck."
+    ]
+  },
+  "logistics": "Copenhagen Airport is the most practical international gateway, connected to Malmö by train across the Øresund Bridge; Malmö Airport at Sturup mainly handles domestic flights. Trelleborg and Ystad are reached by road or rail from Malmö. All harbour areas are ISPS-controlled, and the ship's agent arranges gate passes and, for anchorage work, launches. Sweden and Denmark are both in the Schengen area, so the team travels from India on Schengen visas and work on both sides of the Sound can be combined in one trip.",
+  "vessels": [
+    "Car carriers (PCTC)",
+    "Ro-ro cargo ships",
+    "Ro-pax ferries",
+    "Product tankers",
+    "Bulk carriers",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can car decks be gauged while a car carrier is working cargo in Malmö?",
+      "a": "Often, provided the terminal and ship agree a safe working area away from vehicle movements. Decks that have been cleared can be measured while others are still being worked, and hoistable decks may need to be positioned by the crew for access to their supports. A lay-by gives more freedom and suits a full deck survey."
+    },
+    {
+      "q": "What parts of a ro-pax ferry wear most on these short routes?",
+      "a": "Vehicle decks, ramps and bow or stern doors see repeated loading on every crossing, and frequent port calls mean many load cycles each year. Corrosion concentrates on deck plating near drains and at stiffener connections, while hinges and ramp supports are where fatigue cracks appear. Seawater and fuel piping in the machinery spaces is the other common renewal item."
+    },
+    {
+      "q": "Can one visit cover ships in Malmö, Trelleborg and Copenhagen?",
+      "a": "Yes, if the ships' schedules line up. The ports are close together and connected by road, rail and the Øresund Bridge, and a single Schengen visa covers both Sweden and Denmark. Combining several ships into one mobilisation is often the most practical way for an operator with a regional fleet to plan its gauging."
+    },
+    {
+      "q": "Do ice-classed ferries on south Baltic routes need ice-belt gauging?",
+      "a": "Even where the route itself rarely freezes, ice class is kept for flexibility and the ice belt remains part of the ship's design. Its plating and frames should be measured as a defined section of the TM plan, particularly if the ship has worked further north or is likely to be chartered into winter trades."
+    }
+  ],
+  "nearby": ["copenhagen", "gothenburg", "rostock", "kiel", "gdansk"]
+}

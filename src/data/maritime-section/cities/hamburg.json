@@ -1,0 +1,109 @@
+{
+  "slug": "hamburg",
+  "name": "Hamburg",
+  "country": "Germany",
+  "region": "europe",
+  "title": "Hamburg Ship Thickness Measurement and UTM Services",
+  "description": "UTM in Hamburg for container ships, tankers and bulk carriers: hull structure gauging, scrubber piping checks and pre-docking surveys at the Elbe docks.",
+  "h1": "Ultrasonic Thickness Measurement in Hamburg for Ships and Fleets",
+  "intro": "Hamburg is Germany's largest port and one of Europe's main container gateways, and it is also a city where a great many container ships are owned and managed. Technical managers here book thickness measurement for vessels calling at the Burchardkai and Altenwerder terminals, for dockings on the south bank of the Elbe, and for ships trading far from Germany. For a Hamburg call we mobilise a team from India and plan it around the Elbe passage and the terminal window.",
+  "keywords": [
+    "hamburg ship thickness measurement",
+    "utm in hamburg",
+    "ultrasonic thickness measurement in hamburg",
+    "thickness measurement in hamburg",
+    "hamburg ship repair",
+    "blohm+voss dock",
+    "pre-docking gauging",
+    "container ship scrubber inspection hamburg",
+    "hull gauging hamburg",
+    "ship inspection hamburg",
+    "ultraschall dickenmessung schiff hamburg"
+  ],
+  "highlights": [
+    {
+      "h": "Container ships on terminal windows",
+      "p": "Large container ships at the Hamburg terminals work cargo continuously and sail on schedule. Scrubber overboard lines, hatch coamings and selected deck structure are gauged inside that window, with the scope agreed before arrival."
+    },
+    {
+      "h": "Dockings at Steinwerder",
+      "p": "The Blohm+Voss docks and the Norderwerft repair yard take commercial ships for repair and docking. Pre-docking gauging during the preceding cargo call lets the yard plan steel before the ship shifts to dock."
+    },
+    {
+      "h": "Ship managers booking from Hamburg",
+      "p": "Many container ship owners and managers run their fleets from Hamburg. Superintendents can book gauging here for a ship anywhere on its rotation, and our team travels to the vessel at the port that suits the schedule."
+    }
+  ],
+  "port": {
+    "h": "Hamburg and the Elbe: the port and its shipping",
+    "p": [
+      "The Port of Hamburg lies upriver on the tidal Elbe, a long pilotage passage from the North Sea, and spreads across the river opposite the city centre. Container traffic dominates: the HHLA terminals at Burchardkai, Altenwerder and Tollerort and the Eurogate terminal handle deep-sea services from Asia and feeder lines into the Baltic. Around them sit bulk terminals for ore, coal and grain, oil and chemical tank terminals, ro-ro and multipurpose berths, and cruise terminals at Altona, HafenCity and Steinwerder. The Hamburg Port Authority manages the port's waterways and infrastructure.",
+      "Ships stay in Hamburg for reasons beyond cargo. The Elbe passage is planned around tide and draught for the largest vessels, so arrival and departure are fixed, and some ships spend a day or more alongside between the two. Feeder ships and short-sea vessels lie at mooring dolphins and lay-by berths between rotations. The ship-repair yards on the south bank bring in vessels for dockings and voyage repairs, while cruise ships turn around at the three cruise terminals, usually within a single day. Ships waiting for berths anchor in the Elbe estuary or out in the German Bight.",
+      "Inspection demand in Hamburg reflects the owner base as much as the traffic. Container ship tonnage providers and liner operators here manage large fleets of similar ships, and they want comparable thickness data across sister vessels to plan steel and decide which ships to keep, sell or recycle. Container ships are not ESP ships, but their hatch coamings, longitudinal deck structure and side shell carry high stresses on large hulls, and some owners gauge those areas beyond the class minimum at renewal surveys. Scrubbers are common on the larger ships, which brings wash-water and overboard pipe wastage into regular scopes. Bulk carriers at the ore and coal terminal and tankers at the oil harbour add ESP work, and the yards add full docking programmes."
+    ]
+  },
+  "facilities": {
+    "h": "Docks, terminals and lay-bys for gauging on the Elbe",
+    "p": [
+      "Hamburg ship repair and docking work is concentrated on the south bank, at the Blohm+Voss docks at Steinwerder and at Norderwerft, both of which take commercial ships. Inside the dock, readings are taken frame by frame to the TM plan, in step with the surveyor's close-up list, and plates for renewal are marked as the yard plans its steel crews. On large container ships the most effective sequence is to gauge deck, side shell and ballast tanks during the last terminal call, so the steel list is fixed before the ship shifts to the yard.",
+      "At the container terminals the working window is set by the cargo plan. Terminals generally allow work on deck and in machinery spaces under the ship's own permit system, which suits scrubber piping, deck and hatch-coaming gauging. Bulk carriers at the ore and coal terminal give a hold window after discharge, and tankers at the oil harbour follow the usual gas-free rules for tank entry. Feeder ships at mooring dolphins and lay-by berths are reached by launch and suit longer jobs, because they often lie idle for a day or two between Baltic rotations."
+    ],
+    "list": [
+      "Blohm+Voss docks, Steinwerder — in-dock renewal survey gauging and close-up survey support for large commercial ships, including steel renewal marking.",
+      "Norderwerft repair yard — docking and voyage-repair gauging on container ships, bulk carriers and other commercial vessels.",
+      "Burchardkai, Altenwerder and Tollerort container terminals — overboard discharge pipes, hatch coamings and upper deck structure measured while cargo is worked.",
+      "Hansaport ore and coal terminal — hold structure and wing tank gauging on bulk carriers in the hours after the grabs finish.",
+      "Oil and chemical tank terminals at the oil harbour — manifold and deck-line readings during cargo work, with cargo tanks entered only after gas-freeing.",
+      "Mooring dolphins and lay-by berths in the river — longer gauging jobs on feeders and short-sea ships between rotations, reached by launch."
+    ]
+  },
+  "context": {
+    "h": "Port state control, emissions rules and the Hamburg owner base",
+    "p": [
+      "Germany applies Paris MoU port state control, and Hamburg and the lower Elbe are within the North Sea SOx ECA, so ships burn fuel of no more than 0.10% sulphur or clean their exhaust. Deep-sea container ships from Asia make that fuel changeover, or start their scrubbers, well before the Elbe pilot boards, and ships heading on to the Baltic through the Kiel Canal stay inside an ECA the whole way. Whether an open-loop scrubber may discharge on the river is a local question, and the agent should confirm the current Elbe position before arrival.",
+      "The owner base gives Hamburg its distinctive demand. Many container ship owners, tonnage providers and liner operators run their fleets from the city, along with bulk and multipurpose owners, and much of the German-controlled fleet trades under open registers. Since EU ETS reached shipping in 2024, and FuelEU Maritime followed in 2025, charter parties have had to allocate those obligations between owner and charterer, which makes the age and condition of chartered tonnage a negotiating point. Owners deciding whether to put an older feeder or Panamax through another survey cycle need its steel condition measured first."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Thickness measurement jobs typical of a Hamburg call",
+    "p": "Hamburg work ranges from tight terminal windows on container ships to full docking programmes on the south bank. For superintendents who manage several sister ships from the city, the most useful jobs are those that build comparable data across the class: the same TM plan, the same locations and the same reporting, ship after ship. Examples of what that looks like in practice:",
+    "list": [
+      "A large container ship at Burchardkai: wall-thickness checks on scrubber wash-water and overboard discharge lines and their shell connections, with the system isolated for the call.",
+      "A feeder container ship lying at a mooring dolphin between Baltic rotations: hatch coaming, deck and ballast tank gauging ahead of its intermediate survey.",
+      "A post-Panamax container ship docking at Steinwerder for its third renewal survey: full TM to the class plan and close-up survey support, with renewal plates marked for the yard.",
+      "A bulk carrier emptied at Hansaport: side-shell frames, lower brackets, hopper sloping plates and topside tanks measured before she ballasts out for the return voyage.",
+      "A tonnage provider comparing three sister ships: identical gauging programmes on each as they call at Hamburg, used to rank the ships for sale or further trading."
+    ]
+  },
+  "logistics": "Hamburg Airport has direct international connections and lies within the city, so the team can reach the terminals and yards by road soon after landing. Terminal and yard access is controlled under ISPS, and the ship's agent registers the technicians and arranges launches for ships at mooring dolphins. Germany is part of the Schengen area, so the technicians travelling from India hold Schengen visas for the job; tell us the docking or call date early, and we will plan around the Elbe arrival time, which can shift with tide and traffic.",
+  "vessels": [
+    "Container ships",
+    "Feeder and short-sea ships",
+    "Bulk carriers",
+    "Product and chemical tankers",
+    "Multipurpose and heavy-lift ships",
+    "Ro-ro ships",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can scrubber piping be gauged during a normal Hamburg terminal call?",
+      "a": "Usually, if the scrubber can be isolated for the call and the ship can give access to the wash-water and overboard lines and the shell connection. The scope is agreed beforehand, readings are taken while cargo work continues, and results are available before departure, so the superintendent can decide on repairs at the next yard stay."
+    },
+    {
+      "q": "We manage the fleet from Hamburg but the ship is elsewhere. Can you still do the job?",
+      "a": "Yes. Our team travels to the vessel, so a Hamburg superintendent can book gauging for a ship calling at another European port, in the Middle East or in Asia. We plan mobilisation around the ship's rotation and the visas needed for that country, and report in the same format whichever port the work is done in."
+    },
+    {
+      "q": "Can gauging start before the ship reaches the yard?",
+      "a": "It can, and on large container ships it should. Measuring deck, side shell and ballast tank structure during the last cargo call in Hamburg gives the yard a steel figure before the ship shifts to Steinwerder or Norderwerft. In dock, the team then concentrates on the areas only reachable with staging and on the surveyor's close-up list."
+    },
+    {
+      "q": "How do you handle the Elbe passage when planning a job?",
+      "a": "Travel is timed to the agent's berthing estimate, which depends on tide and draught for large ships, and keep in touch as it moves. For ships at mooring dolphins, transfers are by launch and are booked by the agent. If a delay pushes the ship past its planned window, we re-sequence the scope rather than rush it."
+    }
+  ],
+  "nearby": ["bremerhaven", "kiel", "wilhelmshaven", "rostock"]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "barcelona",
+  "name": "Barcelona",
+  "country": "Spain",
+  "region": "europe",
+  "title": "Barcelona UTM and Thickness Measurement for Cruise & Cargo",
+  "description": "Ship thickness measurement in Barcelona for cruise ships, ferries and container vessels: hull structure UTM, scrubber piping and renewal survey gauging.",
+  "h1": "Hull Thickness Measurement and Piping Inspection in Barcelona",
+  "intro": "Barcelona is Europe's largest cruise port and a busy gateway for containers, Balearic and Italian ferries, vehicles and LNG. Ships here usually turn around quickly, but cruise ships and ferries keep regular, published schedules, which is exactly what planned thickness gauging needs. We send technicians from India to Barcelona to measure plating, tanks and pipework on turnaround days, lay-overs or refit periods, and to collect the readings a ship needs before a renewal survey docking planned elsewhere.",
+  "keywords": [
+    "barcelona utm",
+    "ship thickness measurement in barcelona",
+    "piping inspection in barcelona",
+    "hull thickness measurement",
+    "cruise ship thickness gauging",
+    "renewal survey gauging",
+    "scrubber piping inspection",
+    "superyacht thickness survey",
+    "ultrasonic thickness gauging barcelona",
+    "ferry hull inspection spain"
+  ],
+  "highlights": [
+    {
+      "h": "Cruise turnaround gauging",
+      "p": "Turnaround days give a fixed working window with an organised technical department on board. We plan tank, void and piping readings across successive calls so that no single visit gets in the way of embarkation."
+    },
+    {
+      "h": "Ferry programmes across lay-overs",
+      "p": "Balearic and Italian ro-pax services return to the same berth on fixed rotations. A gauging programme can be split over several lay-overs, with the crew preparing one group of spaces before each visit."
+    },
+    {
+      "h": "Retrofit and refit structure checks",
+      "p": "Shore power, scrubber and fuel conversions, as well as superyacht refits in the old harbour, open up structure. We confirm plate and frame thickness before cutting starts, so designs rest on measured values."
+    }
+  ],
+  "port": {
+    "h": "Barcelona's port: cruise home port, ferries and container gateway",
+    "p": [
+      "Barcelona is the largest cruise port in Europe and a home port for many Mediterranean itineraries, so its terminals see embarkation and disembarkation days through most of the year, peaking from spring to autumn. The main cruise berths are concentrated on the Adossat Quay, with further terminals closer to the city. Each turnaround brings a ship alongside for a working day with a fixed departure time, a technical department on board and well-organised agency support — conditions that suit carefully scoped piping, void and tank gauging. The cruise fleet calling here mixes newer LNG-fuelled ships with older scrubber-fitted ones, so piping requests range from scrubber wash-water lines to sea-water cooling and fire main systems.",
+      "The port is also a major ferry and ro-ro hub. Ro-pax services run to Palma, Ibiza and Mahón and across to Italy and North Africa, while vehicle terminals load cars for export. In the container business, Hutchison Ports BEST and APM Terminals Barcelona serve deep-sea and short-sea lines, much of their cargo being gateway traffic for Catalonia and the industrial regions behind it. Container ships at the terminals keep tight windows, but feeders and short-sea vessels often stay longer. The Enagás LNG regasification terminal brings gas carriers into the port, and the energy quays handle oil products and chemicals.",
+      "For inspection, Barcelona's defining feature is predictability rather than long stays. Cruise ships and ferries follow published schedules, so gauging can be split across several calls or lay-overs, building a complete picture of a ship's tanks and piping without taking it out of service. Superyacht refit yards in the old harbour, MB92 among them, add another kind of work, with long refit periods for steel-hulled yachts. Whatever yard a commercial ship will dock at for its renewal survey, Barcelona is a practical place to collect pre-docking data on ships that call here week after week."
+    ]
+  },
+  "facilities": {
+    "h": "Barcelona gauging locations, from Adossat Quay to the energy quays",
+    "p": [
+      "On cruise ships, gauging is planned with the ship's technical department around the turnaround: passenger and stores operations take priority, so the team concentrates on machinery spaces, voids, ballast and grey-water tanks prepared by the crew, and on piping runs that can be reached without disturbing hotel areas. Ferries offer a different rhythm, with evening departures and daytime lay-overs at their own berths, which suits a programme spread over several days. Ferry operators usually prepare one group of spaces per lay-over, and the technicians work through them in sequence.",
+      "At the container terminals, work stays in spaces away from the cargo, with the terminal's safety rules applied, while the energy quays and the LNG terminal impose stricter permit regimes and limit what can be entered during cargo operations. Superyacht refits give the longest windows of all: weeks or months in a yard with tanks open, which suits complete thickness surveys of steel hulls, decks and tank structure when a yacht's class renewal falls due. Barcelona's anchorage is used mainly by ships waiting for a berth; anchorage work is possible but usually less useful here than gauging alongside, where access is simpler."
+    ],
+    "list": [
+      "Adossat Quay cruise terminals — gauging of voids, ballast and service tanks and sea-water and scrubber piping during turnaround days",
+      "Ferry berths serving the Balearic Islands and Italy — car-deck, ramp, ballast tank and fire main gauging across lay-overs and winter maintenance",
+      "Hutchison Ports BEST and APM Terminals Barcelona — scrubber pipe and engine-room tank gauging on container ships during cargo operations",
+      "Enagás LNG terminal and the energy quays — hull, ballast tank and deck piping readings on gas carriers and tankers, within terminal permit rules",
+      "Superyacht refit yards in the old harbour, including MB92 — full thickness surveys of steel hulls, decks and tanks during long refit periods",
+      "Vehicle terminal berths — car carriers loading for export, with ramps, hoistable decks and ballast tanks gauged while loading continues"
+    ]
+  },
+  "context": {
+    "h": "Emissions rules, port state control and Barcelona's cruise debate",
+    "p": [
+      "Barcelona lies within the Mediterranean SOx ECA, whose limits have bound ships here since 1 May 2025, and the port also sits under strong local pressure to reduce ship emissions, with the city and the port authority pursuing shore power for ferries and cruise ships and limits on cruise activity close to the centre. For technical managers, the result is constant attention to exhaust and fuel systems: scrubber-equipped ships run their systems throughout the stay where permitted, LNG-fuelled ships are increasingly common, and conversions on either type open up structure that rarely gets gauged.",
+      "Paris MoU inspections in Barcelona are the responsibility of the Capitanía Marítima, and ro-pax ferries on regular EU services also fall under the EU's own inspection regime for ro-ro passenger ships. Shipping entered EU ETS in 2024 and FuelEU Maritime in 2025, which matters most to the ferry and cruise operators that spend much of their time in EU ports and carry the full weight of those rules on intra-EU legs. Retrofits for efficiency or alternative fuels often lead to gauging requests, because structure around new penetrations, foundations and tank spaces has to be confirmed sound before it is modified."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging work that suits Barcelona's ship schedules",
+    "p": "Barcelona work is usually planned as several short visits instead of a single long attendance. A cruise ship might be gauged over two or three turnarounds, a ferry across a week of lay-overs, a superyacht during a single refit. In each case the measurement plan is agreed first, with the crew preparing spaces in the order the technicians will need them. Results are issued as each phase is finished, so the superintendent sees findings early.",
+    "list": [
+      "Cruise ship thickness gauging over successive turnaround days: ballast and grey-water tanks, voids and scrubber wash-water lines, building the dataset needed before the ship's renewal survey docking.",
+      "Fire main and sea-water cooling pipe gauging on a ro-pax ferry on the Balearic or Italian routes, during daytime lay-overs and before the annual survey.",
+      "Ahead of a docking, ballast tank and main deck readings on a container feeder alongside BEST or APM Terminals, with the findings sent to the repair yard beforehand.",
+      "Superyacht thickness survey during a refit in the old harbour: complete hull, deck and tank readings on a steel-hulled yacht, prepared for its class renewal.",
+      "Gauging of structure around a planned shore-power connection or scrubber retrofit on a ferry, confirming plate condition before the yard cuts new openings."
+    ]
+  },
+  "logistics": "Technicians fly from India into Barcelona–El Prat Airport, normally through a Gulf or European hub, and reach the port by road. ISPS passes for the cruise, ferry or container terminal come through the ship's agent, and the refit yard handles access for superyacht work. Schengen visas are needed, so the best results come from giving us the ship's call schedule early — for cruise ships and ferries on fixed rotations, the calls are known months ahead and visa timing is easy to manage around them.",
+  "vessels": [
+    "Cruise ships",
+    "Ro-pax ferries",
+    "Container ships",
+    "LNG carriers",
+    "Car carriers (PCTC)",
+    "Product and chemical tankers",
+    "Superyachts"
+  ],
+  "faqs": [
+    {
+      "q": "How much of a cruise ship can be gauged on a Barcelona turnaround day?",
+      "a": "A useful share, within the limits the turnaround sets. The technicians work in machinery spaces, voids, tanks prepared by the crew and accessible piping runs, keeping clear of passenger areas and stores operations. A complete survey normally takes more than one call, so we plan a sequence of visits and issue readings after each one, giving the technical department a full picture before the ship's next docking."
+    },
+    {
+      "q": "Is shore power changing what gets inspected on Barcelona ferries?",
+      "a": "Shore power and other retrofits mean cutting into structure — for cable entries, switchboard foundations or new equipment rooms — and the plating around those openings should be confirmed sound before work begins. We gauge the affected areas and nearby frames so that the designers and class work from measured thicknesses rather than assumed ones, and so that wastage is found before the yard has committed to a cutting plan."
+    },
+    {
+      "q": "Do you carry out thickness surveys on superyachts in Barcelona?",
+      "a": "Yes, on steel-hulled yachts. During a refit we can measure hull plating, decks, tanks and internal structure and report against the original scantlings for the classification society or flag. The refit yard's schedule and access arrangements decide when each area is available, so we plan the survey around the yard's programme and the yacht's project manager rather than the other way round."
+    },
+    {
+      "q": "Can work continue on a ferry's next call if it is not finished?",
+      "a": "Yes. Because Barcelona ferries return to the same berth on a fixed rotation, an unfinished programme can be picked up on the next lay-over without remobilising, provided the technicians are still in the city. We plan the order of spaces with the chief engineer so that the most important readings — those for the coming survey or a known problem area — are taken first."
+    }
+  ],
+  "nearby": ["valencia", "marseille", "genoa", "la-spezia"]
+}

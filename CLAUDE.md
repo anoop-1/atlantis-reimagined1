@@ -3852,3 +3852,30 @@ Owner, 2026-11-07: Vercel says the account is over 10 GB and asks for payment; t
 
 ### 71.4 Owner paused the project — 2026-11-07
 New-account `atlantis-reimagined1` now returns **503 DEPLOYMENT_PAUSED**; satellites still 200. `atlantis-reimagined.vercel.app` (old public copy) still 200. Owner: hold the release (leads sprint, ISO footer, CTR wave 18, vercel.json stop) for the next push to main.
+
+## 72. Maritime inspection section — 123 pages, NOT deployed — 2026-11-07
+
+Owner, 2026-11-07: maritime (ship) inspection pages city-wise for the big maritime-traffic locations in Europe (all coastal countries incl. UK), the Middle East, Egypt, China and Singapore; maritime keywords (condition assessment, structural integrity, pipeline and scrubber pipeline inspection, 5/15-year surveys, ultrasonic thickness gauging); teams deployed from India; brand theme identical; ≥2,000 words of quality content per page; mark class certification "as needed"; **do not deploy; sitemap only when it goes live.**
+
+### 72.1 Where it lives — branch `maritime-inspection-2026-11` (off `release-2026-10-24`)
+Kept off the release branch so the next push (ISO footer etc.) does not ship it. Merge this branch into the release branch when the owner says to go live; the build then puts the 123 URLs into the sitemaps automatically (no separate sitemap step).
+- Content (one JSON per page): `src/data/maritime-section/city-list.json` (112 ports: slug, name, country, region), `cities/{slug}.json`, `pages/{slug}.json` (landing, 3 region hubs, 7 services).
+- Model (both layers): `src/data/maritime-section/model.mjs` on the shared service-section template (`ServiceSectionPage` / `service-section/core.mjs`) — same design as /inspection and /consulting. React `src/pages/MaritimeSection.tsx` loads only the record it shows (import.meta.glob), so the ~1 MB of city JSON never ships in one chunk. Crawler `scripts/maritime-section-2026-11.mjs` loads all and owns the build guard.
+- URLs: `/maritime-inspection` · `/maritime-inspection/{europe|middle-east|asia}` · 7 services (`ultrasonic-thickness-measurement`, `condition-assessment-programme`, `enhanced-survey-programme`, `renewal-survey-thickness-measurement`, `hull-structural-integrity`, `ship-piping-inspection`, `scrubber-piping-inspection`) · 112 ports `/maritime-inspection/{slug}`. Breadcrumb Home › Inspection › Maritime Inspection › Region › Port. Nav: Services › Inspection › "Maritime Inspection (Ship UTM)".
+- Form: `EnquiryCaptureForm variant="maritime"` (lead_type `rfq` → `inspection_rfq_submit`); no-JS fallback in the crawler script.
+- Small shared edits: `core.mjs` schema takes `pg.areaServed` (City + Country per port); six lucide icons added to `ServiceSectionPage`; editorial-quality pass skips `/maritime-inspection*`.
+
+### 72.2 Class approval — the one switch
+Atlantis is **not yet** approved by any class society as a thickness-measurement firm (DNV audit in preparation). Pages state the IACS UR Z17 rule (class-credited TM needs a firm approved by that ship's society) and list the work that needs no approval (owner/charterer condition gauging, pre-docking steel estimates, pre-purchase, on/off-hire, scrubber and piping checks between surveys). **When a certificate is issued, add it to `CLASS_APPROVALS` in `model.mjs`** (society, scope, certificate no.) and every page switches to the approval statement. The build guard fails on any approval claim while that list is empty.
+
+### 72.3 Guard + verification (build 8,354 pages / 5,795 sitemap URLs, drift PASS)
+`assertMaritimeSectionClean`: every record present; ports ≥2,000 words (actual 2,788–2,900 model words; 3,036–3,297 rendered main-text words); unique titles/descriptions; links built; no price, presence, unoffered-service or approval wording; no sentence (≥10 words) shared between two ports. Pairwise 8-word shingle Jaccard across the 112 port pages: **max 0.239, median 0.190** (gate 0.55). 123/123 indexable, self-canonical, in sitemap. Preflight 16/16, pricing --dist, claims --dist PASS. Hydrated check desktop + 390 px: no errors, no horizontal scroll, form present.
+Writers verified many names online (yards, terminals, the North-East Atlantic ECA adopted at MEPC 84, in force 1 Sep 2027, 0.10% S from Sep 2028); uncertain facilities were left generic.
+
+### 72.4 Owner checks before go-live
+1. Gauges: pages say through-coating readings are taken only where the gauge's through-coating mode is verified; confirm the team's gauges support echo-echo/A-scan or keep that wording.
+2. Spot-read a handful of ports (named yards/terminals are the risk).
+3. Scope: Russia, Ukraine (war), Iran excluded; landlocked countries have no seaports.
+
+### 72.5 Ranking reality
+Current GSC: "ship hull inspection" 369 impr p58.7, "hull inspection" 271 p56.2, "hull corrosion mapping" 111 p15.6 — no maritime authority yet. On-page is now strong; top-3 for port terms will depend on (a) class approvals and the society supplier listings that come with them (where superintendents actually look, and authoritative links), (b) maritime directory listings, (c) links from the marine-offshore satellite. Measure 4–8 weeks after go-live.

@@ -1,0 +1,107 @@
+{
+  "slug": "haugesund",
+  "name": "Haugesund",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Thickness Measurement Haugesund | Shuttle Tankers & OSVs",
+  "description": "Thickness measurement in Haugesund and Karmøy for shuttle tankers, LPG carriers, offshore and coastal ships: UTM of hull structure and renewal surveys.",
+  "h1": "Ship Thickness Measurement in Haugesund and the Karmsund Area",
+  "intro": "Haugesund and neighbouring Karmøy form a compact maritime cluster: shipowners running shuttle tankers, gas carriers and offshore vessels, the headquarters of the Norwegian Maritime Authority, rig and vessel repair yards, the Kårstø gas plant and a busy coastal shipping lane through Karmsundet. Atlantis NDT mobilises a team from India to gauge hull structure, tanks and piping on ships in the area, at yard stays, terminal calls and lay-by berths.",
+  "keywords": [
+    "thickness measurement haugesund",
+    "haugesund ship inspection",
+    "shuttle tanker thickness measurement",
+    "lpg carrier inspection",
+    "offshore vessel gauging",
+    "coastal cargo ship inspection",
+    "renewal survey gauging",
+    "pre-docking gauging",
+    "ultrasonic thickness measurement",
+    "hull gauging karmøy"
+  ],
+  "highlights": [
+    {
+      "h": "Fleets planned from Haugesund",
+      "p": "Owners of DP shuttle tankers, gas carriers and offshore vessels are among the companies run from Haugesund and Karmøy. Renewal and CAP gauging on these ships is planned locally and carried out wherever they dock."
+    },
+    {
+      "h": "LPG carriers at Kårstø",
+      "p": "The Kårstø gas processing plant ships LPG and condensate by sea. Gas carriers loading there can have ballast tanks and deck structure measured alongside when the terminal and master agree on the scope and safety arrangements."
+    },
+    {
+      "h": "Rig and vessel repair yards",
+      "p": "Yards in the Haugesund region repair and upgrade offshore vessels and rigs. Docking periods there are the main window for full renewal-survey gauging on offshore and coastal ships."
+    }
+  ],
+  "port": {
+    "h": "Haugesund, Karmøy and the Karmsund shipping lane",
+    "p": [
+      "Haugesund sits on Karmsundet, the sheltered strait between the mainland and Karmøy that carries much of the coastal traffic moving between southern and western Norway. Coastal cargo ships, tankers, gas carriers and offshore vessels pass through daily, and the town's harbour and the quays on both sides of the strait handle general cargo, bulk and offshore supply work, while ferries and fast passenger boats serve the islands around the strait. The Norwegian Maritime Authority is headquartered in Haugesund, and the town has long been home to shipowners, a tradition that continues with operators of shuttle tankers, gas carriers and offshore vessels.",
+      "Industry around the strait generates its own shipping. The gas processing plant at Kårstø, near Haugesund, receives gas from the North Sea by pipeline and exports LPG and condensate by ship. The aluminium works on Karmøy receives raw materials and ships metal by sea, bringing bulk carriers and general cargo ships into the area. Offshore and rig yards in the region take vessels and units for repair, upgrade and docking, and their quays are often occupied by offshore vessels between contracts. Westcon Yards at Ølensvåg, in the fjords east of Haugesund, is the best known of these and handles both offshore vessels and drilling rigs.",
+      "For gauging, the region offers three kinds of window. Shuttle tankers and gas carriers controlled from Haugesund come to regional yards for maintenance and surveys, though many of them dock abroad as well. Offshore vessels spend charter gaps and reactivation periods at the yards and quays around the strait. And the coastal cargo fleet that passes through Karmsundet includes a good number of older short-sea ships, whose owners often need targeted gauging after a class or port state control finding. Haugesund ship inspection demand is therefore a mix of planned fleet work and short, reactive jobs, with the planned work concentrated in the yards' docking calendars."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens around Haugesund",
+    "p": [
+      "Gauging around Haugesund takes place at repair yards, terminal quays and lay-by berths along Karmsundet and the surrounding fjords. Yards provide docks, quays and the staging needed for a full renewal survey; terminal calls allow limited deck and ballast work; lay-by berths suit offshore vessels and coastal ships waiting between contracts or cargoes. Ships calling at Kårstø or the Karmøy aluminium works can sometimes have a small scope measured during cargo operations, provided it does not hold up the terminal.",
+      "Ships managed from Haugesund that dock outside Norway are a separate category of work. A Haugesund superintendent may need gauging on a shuttle tanker at a yard in Poland or on a gas carrier docking in Asia, and the team then travels directly to that yard and reports back in the agreed format. Within the region, the choice of yard depends on the vessel's size and the scope of repairs, and we work at whichever site the owner contracts, following the yard's own safety induction and permit system. For ships at the aluminium works or Kårstø, the industrial site's own permit rules apply in addition to ISPS access."
+    ],
+    "list": [
+      "Westcon Yards, Ølensvåg — docking-survey and renewal-survey gauging on offshore vessels and other ships taken in for repair and upgrade.",
+      "Kårstø gas terminal — ballast tank and deck measurements on LPG carriers during loading, subject to terminal and master approval.",
+      "Karmøy aluminium works quays — hold, hatch-coaming and ballast tank gauging on bulk carriers discharging raw materials.",
+      "Haugesund harbour quays — targeted gauging on coastal cargo ships after class or port state control findings.",
+      "Lay-by berths along Karmsundet — tank, deck and piping measurements on offshore vessels between charters or during reactivation.",
+      "Overseas docking yards — shuttle tanker and gas carrier renewal gauging for Haugesund-managed fleets, reported to the head-office format."
+    ]
+  },
+  "context": {
+    "h": "Maritime authority, ECA and fleet context in Haugesund",
+    "p": [
+      "As the seat of the Norwegian Maritime Authority, Haugesund is the administrative centre for Norwegian flag-state matters, but the thickness measurement scope at a class survey remains a classification society matter governed by class rules and the IACS unified requirements. Norway is a Paris MoU member, and port state control in Norwegian ports follows the Paris MoU risk-based targeting used across the region. The area lies within the North Sea SOx ECA, where the sulphur limit is 0.10%, and conventional tankers calling here either burn compliant fuel or run scrubbers whose piping needs periodic measurement.",
+      "Shuttle tankers are double-hull oil tankers covered by IACS UR Z10.4, with the extended gauging of cargo and ballast tanks that applies from the third renewal survey onwards, and their charters with oil companies make CAP and vetting performance particularly important. LPG carriers have independent cargo tanks inside hold spaces, so the hull gauging focuses on hold structure, double bottom, wing ballast tanks and deck, while the cargo tanks themselves fall under the gas carrier rules. The coastal fleet passing through Karmsundet includes many general cargo ships with long service lives, and gauging for those owners usually targets hatch coamings, deck plating and ballast tanks."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Haugesund",
+    "p": "Jobs in the Haugesund area range from full renewal-survey gauging on a docked shuttle tanker to a short visit to measure a corroded hatch coaming on a coastal cargo ship. Planned work is scheduled with the superintendent around the yard slot; reactive work depends on visas and the ship's next ports, so we tell the owner plainly when the team can be there.",
+    "list": [
+      "Shuttle tanker thickness measurement at a renewal survey: cargo and ballast tank structure gauged to the TM plan on a double-hull tanker approaching its third renewal survey.",
+      "LPG carrier inspection at Kårstø: wing ballast tanks and main deck structure measured during loading to monitor corrosion recorded at the last survey.",
+      "Offshore vessel gauging at Ølensvåg during a docking: bottom and shell plating, ballast tanks and anchor-handling deck structure for an intermediate survey.",
+      "Coastal cargo ship inspection after a port state control finding: hatch coamings, deck plating and air pipes gauged so the owner and class can agree repairs.",
+      "Pre-docking gauging of hold frames and topside tanks on a bulk carrier at the Karmøy aluminium works, ahead of a docking abroad."
+    ]
+  },
+  "logistics": "Haugesund Airport on Karmøy has scheduled flights to Oslo, and Bergen and Stavanger airports are alternatives with wider international connections, followed by road travel to Haugesund. Yards, the Kårstø terminal and the industrial quays have ISPS and site access controls, with passes arranged through the ship's agent or the yard. Norway is within the Schengen area, so each technician travels from India on a Schengen visa, and planned dockings should be notified as soon as the yard slot is fixed.",
+  "vessels": [
+    "Shuttle tankers",
+    "LPG and gas carriers",
+    "Platform supply and anchor-handling vessels",
+    "Coastal general cargo ships",
+    "Bulk carriers",
+    "Product tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Our shuttle tankers are managed from Haugesund but dock abroad — can you cover both?",
+      "a": "Yes. We take the TM plan and scope from the Haugesund technical department, travel to the docking yard wherever it is, and report daily in the format the superintendent uses for the fleet. If a ship calls in Norway before the docking, pre-docking measurements there can firm up the steel renewal estimate in the yard specification."
+    },
+    {
+      "q": "What can be gauged on an LPG carrier at Kårstø?",
+      "a": "During loading, measurement is limited to areas the master and terminal permit: typically wing and double-bottom ballast tanks once certified safe, and deck structure. Hold spaces around the cargo tanks may be inerted or restricted, and are better measured at a docking or a planned lay-by."
+    },
+    {
+      "q": "Can you respond to a port state control finding on a coastal ship in Haugesund?",
+      "a": "We can scope the measurement quickly with the owner and class, but the team travels from India, so arrival depends on visa status and the ship's movements. If the ship is leaving, it is often better to measure at the next port or at the repair yard, and we help the owner work out the most practical place."
+    },
+    {
+      "q": "Does the Norwegian Maritime Authority set the thickness measurement scope?",
+      "a": "For a classed ship, the scope of thickness measurement at a survey is set by the classification society's rules and the IACS unified requirements, and the class surveyor decides on any extension. The flag state relies on class for hull structure under its delegation, so for gauging purposes the TM plan agreed with the class surveyor is what we work to."
+    }
+  ],
+  "nearby": ["stavanger", "bergen", "esbjerg", "aberdeen"]
+}

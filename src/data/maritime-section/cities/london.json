@@ -1,0 +1,109 @@
+{
+  "slug": "london",
+  "name": "London",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Ship Thickness Measurement London | UTM for Fleet Managers",
+  "description": "Ultrasonic thickness measurement for London-managed fleets and Thames terminals: CAP and ESP gauging, pre-purchase checks and pre-docking scoping.",
+  "h1": "Thickness Measurement for London Ship Managers and Thames Terminals",
+  "intro": "London is where many technical decisions about a ship are taken, even when the ship itself is in Fujairah, Singapore or alongside at Tilbury. Superintendents, sale-and-purchase brokers, P&I clubs and hull underwriters here commission thickness measurement to settle questions of condition before a docking, a purchase or a charter. We mobilise a team from India to wherever the vessel lies, including London Gateway and the river berths, and report in the class TM formats your technical department already reads.",
+  "keywords": [
+    "ship thickness measurement london",
+    "thickness measurement in london",
+    "utm in london",
+    "hull gauging for london ship managers",
+    "pre-purchase gauging london",
+    "ultrasonic thickness gauging on the thames",
+    "ship inspection at london gateway",
+    "thickness gauging at tilbury",
+    "condition gauging for underwriters",
+    "redelivery condition gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Commissioned in London, measured anywhere",
+      "p": "Owners, managers, brokers and underwriters in London order gauging for ships trading worldwide. We take the scope, reference drawings and reporting format from your London desk, then send technicians from India to whichever port the vessel is in."
+    },
+    {
+      "h": "Thames berths from Gateway to wharves",
+      "p": "Container ships at London Gateway, ro-ro and bulk ships at Tilbury and Tilbury2, and cargo ships at the upriver wharves each offer a different working window. The scope is planned to the berth, the tide and the cargo plan."
+    },
+    {
+      "h": "Evidence that stands up commercially",
+      "p": "Pre-purchase, on-hire, off-hire and underwriting decisions need readings tied to the ship's drawings, with gauge, probe and calibration recorded, so that buyers, charterers, clubs and arbitrators can all work from the same data."
+    }
+  ],
+  "port": {
+    "h": "London: where gauging is commissioned, and where the Thames ships call",
+    "p": [
+      "London's weight in shipping comes less from the river than from the decisions made in the City and Westminster. The IMO has its headquarters on the Albert Embankment, IACS keeps its permanent secretariat in Westminster, Lloyd's Register has its global headquarters in the City, and OCIMF, which runs the SIRE tanker inspection programme, is also London-based. Around them sit the Baltic Exchange, the Lloyd's insurance market, the secretariat of the International Group of P&I Clubs, sale-and-purchase and chartering brokers, maritime law firms, and the technical departments of owners and managers, among them many Greek-owned companies with London offices.",
+      "That cluster generates a steady flow of thickness-measurement work that is ordered in London and carried out wherever the ship happens to be. A buyer's technical adviser wants the cargo holds of a fifteen-year-old bulk carrier gauged before the memorandum of agreement is signed. A P&I club or hull underwriter wants evidence of an older tanker's condition before cover is written. A charterer's vetting department asks for a CAP rating on a product tanker. A manager needs a pre-docking estimate of steel renewal so the yard specification can go out to tender. Hull gauging for London ship managers is therefore as much about travel planning, access and report format as about the readings themselves.",
+      "Thickness measurement in London itself takes place on the tidal Thames, which the Port of London Authority manages from Teddington down to the estuary. DP World London Gateway handles deep-sea container ships on tight berth windows; Tilbury and Tilbury2 take ro-ro freight, forest products, grain and construction materials; and wharves along both banks receive marine aggregates, raw sugar, fuels and other bulk cargoes. Container ships work cargo to a fixed schedule, so gauging there concentrates on what can be reached while boxes are moving, whereas bulk and general cargo ships discharging at the river wharves can allow hold and tank access over several days."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens on the Thames and how London jobs are set up",
+    "p": [
+      "Ultrasonic thickness gauging on the Thames is almost always done alongside, because nearly every working berth on the river is a quay or a jetty; launches are needed only for ships in the estuary anchorages. Tide shapes the day. The Thames has a large tidal range, and at the upriver wharves a ship can sit low against the quay at low water, which changes gangway access and how quickly the team reaches upper-deck structure such as hatch coamings and crane pedestals. The cargo plan matters even more than the tide, since holds and tanks become available in the order cargo comes out.",
+      "For London-managed ships outside the UK, the facility that matters is the report rather than the berth. A thickness report laid out on the class TM formats, with readings tied to the frame and strake references on the ship's own drawings, lets a superintendent compare this survey with the last renewal survey without re-keying anything. We agree that reference system, the scope and the deliverables with the London desk before the team travels, so the readings go straight into the ship's planned maintenance and survey records."
+    ],
+    "list": [
+      "DP World London Gateway — in-service gauging of container ships during cargo windows: upper deck, hatch coamings, lashing bridges, and scrubber and sea-water piping in the engine room.",
+      "Port of Tilbury and Tilbury2 — ro-ro and bulk ships alongside long enough for vehicle-deck plating, ramp-hinge crack detection and cargo hold gauging between discharges.",
+      "Upriver aggregate and bulk wharves — hold and hopper gauging on aggregate dredgers and bulk carriers working cargo at riverside berths, planned around the tide.",
+      "Lower Thames fuel and liquid bulk jetties — deck and external piping gauging on product tankers, with tank entry only when the terminal and master confirm gas-free status.",
+      "Thames Estuary anchorages — deck and air-pipe readings on ships held outside the river for a berth or the tide, with the launch booked by the agent.",
+      "Owners' and managers' technical departments in the City — where scope, TM plans and drawing references are agreed before the team travels to the vessel."
+    ]
+  },
+  "context": {
+    "h": "Regulation, vetting and insurance pressure in a London context",
+    "p": [
+      "Ships on the Thames are inside the North Sea and English Channel SOx Emission Control Area, so they burn 0.10% sulphur fuel or run an exhaust gas cleaning system. Scrubber-fitted container ships and bulk carriers calling at London Gateway and Tilbury are natural candidates for wash-water and overboard pipe gauging, because wastage there concentrates where acidic wash water meets the overboard valve and shell penetration, which is hard to see from inside. On the Thames, as at every UK port, inspections of foreign ships are the Maritime and Coastguard Agency's responsibility. Since Brexit the UK has run PSC under its own legislation while remaining a Paris MoU member, and a thin deck or a holed air pipe on an older ship is exactly what an inspector looks for.",
+      "The London market adds commercial reasons to gauge that have nothing to do with the river. Oil-major vetting under OCIMF's SIRE 2.0 regime and charterers' requests for CAP ratings drive tanker gauging. Hull and machinery underwriters and P&I clubs ask for condition evidence on older tonnage before cover is placed or renewed. Charter-party disputes heard before London arbitrators can turn on the condition a ship was in at delivery or redelivery, and contemporaneous thickness records are among the few objective data points either side has."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs commissioned from London",
+    "p": "Most London-commissioned gauging falls into a few patterns, and the scope differs in each. Some jobs are on the Thames; most are wherever the ship happens to be when the decision is taken. In both cases we agree the extent, the reference drawings and the reporting format with the London desk before mobilising, so the readings answer the question that prompted the job.",
+    "list": [
+      "Pre-purchase gauging of a bulk carrier approaching its third renewal survey, scoped by the buyer's London technical adviser to cover cargo hold frames, hopper and topside tank plating and the hatch covers.",
+      "CAP-scope gauging of a product tanker requested by a charterer's vetting team, planned around the ship's trading so that cargo and ballast tanks can be made gas-free and entered.",
+      "Pre-docking steel-renewal estimate for a London-managed ship heading to a yard in the Gulf or Asia, so the specification and steel quantities can be tendered before arrival.",
+      "Container ship inspection at London Gateway: external UT of scrubber overboard and wash-water piping, plus spot gauging of lashing bridge and hatch coaming structure during the cargo window.",
+      "Redelivery condition gauging of a ro-ro vessel, with thickness gauging at Tilbury giving owners and charterers a shared record of deck and ramp structure before the ship leaves the charter.",
+      "Condition gauging for underwriters or a P&I club on an older ship entering cover, concentrating on deck plating, air and vent pipes, hatch coamings and ballast tank structure."
+    ]
+  },
+  "logistics": "For Thames work the team flies into Heathrow, Gatwick, Stansted or London City, depending on which bank and how far downstream the berth lies, and continues to the terminal by road. London Gateway, Tilbury and the river wharves all operate ISPS-controlled gates, so the ship's agent arranges passes against the technicians' names and passports; estuary anchorage jobs need a launch booked the same way. Our technicians travel from India on UK visas, which are applied for once the job is scoped, so we ask for the vessel's schedule as early as it is known.",
+  "vessels": [
+    "Container ships",
+    "Bulk carriers",
+    "Ro-ro vessels",
+    "Product tankers",
+    "Aggregate dredgers",
+    "General cargo ships",
+    "Forest products carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a London-managed ship that is lying outside the UK?",
+      "a": "Yes. Most work commissioned in London is carried out wherever the ship is trading or docking. We send a team from India to that port, agree access with the local ship's agent, and return the report to your technical department in the agreed TM format. Scope, reference drawings and frame numbering are fixed with you before travel, so the results drop straight into the ship's survey records."
+    },
+    {
+      "q": "Do you offer UTM in London for ships alongside at Tilbury or London Gateway?",
+      "a": "Yes. At London Gateway the work is fitted into the container ship's cargo window, so it concentrates on engine-room and scrubber piping, hatch coamings and upper-deck structure. At Tilbury and the river wharves, ro-ro and bulk ships are often alongside longer, which allows vehicle decks, ramps, holds and prepared ballast tanks to be gauged. The agent and terminal issue the passes."
+    },
+    {
+      "q": "How does the pre-purchase gauging London buyers commission differ from survey gauging?",
+      "a": "A pre-purchase job answers a commercial question: how much steel the buyer will have to renew, and when. The scope is set by the buyer's adviser rather than by a class survey programme, and usually concentrates on the structure that will drive the next renewal survey, such as hold frames, hopper and topside tanks on a bulk carrier. Access depends on the seller's cooperation, so we plan it with the brokers."
+    },
+    {
+      "q": "Can thickness records be used in charter or insurance disputes?",
+      "a": "Thickness readings are factual records of plate condition at stated locations on a stated date, which is why owners and charterers want them at delivery and redelivery. We record locations against the ship's drawings, note the gauge, probe and calibration, and keep the raw readings, so the data can be reviewed later by surveyors, underwriters or arbitrators. We provide measurements, not legal or commercial opinions."
+    }
+  ],
+  "nearby": ["felixstowe", "southampton", "rotterdam", "antwerp", "dunkirk"]
+}

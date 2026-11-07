@@ -168,7 +168,7 @@ export function createServiceSection(cfg) {
     const graph = [
       { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: pg.title, description: pg.description, isPartOf: { '@id': `${SITE}/#website` } },
       { '@type': 'Service', '@id': `${url}#service`, name: pg.h1, serviceType: pg.navLabel, description: pg.description, url,
-        provider: { '@type': 'Organization', name: 'Atlantis NDT', url: SITE }, areaServed: cfg.areaServed || ['United States', 'Canada', 'Middle East', 'India'] },
+        provider: { '@type': 'Organization', name: 'Atlantis NDT', url: SITE }, areaServed: pg.areaServed || cfg.areaServed || ['United States', 'Canada', 'Middle East', 'India'] }, // pg.areaServed: 2026-11-07 maritime city pages
       { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.label, item: SITE + c.path })) },
     ];
     if (pg.faqs?.length) graph.push({ '@type': 'FAQPage', mainEntity: pg.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });

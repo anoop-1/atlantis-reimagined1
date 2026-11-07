@@ -1,0 +1,107 @@
+{
+  "slug": "tallinn",
+  "name": "Tallinn",
+  "country": "Estonia",
+  "region": "europe",
+  "title": "Tallinn UTM and Hull Thickness Gauging for Ships",
+  "description": "Thickness measurement in Tallinn at the Old City Harbour, Muuga and Kopli: UTM of ro-pax and tanker hull structure, renewal survey and scrubber piping.",
+  "h1": "Ship Thickness Measurement in Tallinn: Muuga, Kopli and the Ferry Harbour",
+  "intro": "Tallinn handles the busy ferry crossing to Helsinki, cargo and liquid bulk at Muuga, ro-ro at Paldiski and ship repair on the Kopli peninsula. Each brings a different gauging problem, from vehicle decks and ramps on ferries that turn round quickly to ballast tanks on product tankers waiting at Muuga. We mobilise a team from India to Tallinn, timed to the ship's docking slot, lay-by or cargo programme.",
+  "keywords": [
+    "thickness measurement in tallinn",
+    "tallinn utm",
+    "ship thickness measurement in tallinn",
+    "hull thickness gauging",
+    "muuga tanker gauging",
+    "ship inspection in tallinn",
+    "utm in estonia",
+    "ro-pax gauging",
+    "bow door crack detection",
+    "tallinn shipyard"
+  ],
+  "highlights": [
+    {
+      "h": "Shuttle ferries on tight turnarounds",
+      "p": "The Helsinki shuttles berth at the Old City Harbour only briefly between crossings. Gauging is planned for night lay-bys and the annual docking, with vehicle decks, voids and ramp structure measured in stages."
+    },
+    {
+      "h": "Repair docks at Kopli",
+      "p": "Tallinn Shipyard, part of BLRT Grupp, carries out docking and repair on the Kopli peninsula. Gauging at the start of a docking lets the yard and class surveyor agree steel renewal before the dock schedule is set."
+    },
+    {
+      "h": "Liquid and dry bulk at Muuga",
+      "p": "Muuga Harbour east of the city is Estonia's main cargo harbour, with oil-product, dry-bulk and container terminals. Ships waiting or working cargo there can have deck, piping and hold gauging done before a survey or vetting."
+    }
+  ],
+  "port": {
+    "h": "Port of Tallinn traffic and the ships it brings",
+    "p": [
+      "The Port of Tallinn, Tallinna Sadam, runs several harbours with very different trades. The Old City Harbour next to the medieval town is the passenger port: shuttle ferries to Helsinki on a crossing that ranks among Europe's busiest for passengers, an overnight service to Stockholm that calls at Mariehamn, and cruise ships through the summer. Muuga Harbour, east of the city, is the cargo port, with terminals for oil products, dry bulk, grain and containers. Paldiski South Harbour, west along the coast, handles ro-ro and vehicle traffic, and Saaremaa Harbour serves cruise calls on the islands.",
+      "Port stays differ as sharply as the trades. A Helsinki shuttle may be at its berth for little more than the time it takes to swap vehicles and passengers, so its longer breaks come at night and during its planned docking, which operators normally put outside the summer peak. Tankers and bulk carriers at Muuga stay for the length of cargo operations and sometimes wait at anchor in the bay beforehand. Ro-ro ships at Paldiski work their cargo over hours rather than minutes. And ships coming to the Kopli peninsula for repair spend a planned period in dock, where the gauging programme sets the steel list for the whole job.",
+      "What makes Tallinn distinctive is the mechanical punishment of the shuttle trade. Ferries that berth several times a day put repeated loads on bow doors, visors, stern ramps and their hinges and locking devices, and contact with berths and fenders dents side shell. Those are fatigue-prone details where magnetic particle crack detection belongs alongside plating thickness. On the cargo side, Muuga's tanker traffic brings vetting and CAP questions, and its dry-bulk terminals bring the hold wear typical of grab discharge. A Tallinn UTM job is therefore as likely to be about hinges and ramps as about ballast tanks."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging sites in Tallinn, Muuga and Paldiski",
+    "p": [
+      "In the Old City Harbour, work on the ferries is done by agreement with the ship's officers in the hours when vehicle decks are empty, with each visit planned to close off a complete deck section, ramp or tank group. At Muuga, tanker work follows the ship's and the terminal's permit systems: deck plating and piping can be measured during cargo operations, while tank internals wait for gas-free certification. Bulk carriers are gauged hold by hold as they are emptied or before loading starts.",
+      "Tallinn Shipyard on the Kopli peninsula docks ships for repair, and a docking there is the moment when pre-docking gauging done at an earlier call can be checked against the shell from outside, with bottom areas that were out of reach afloat added to the record. Once she is in dock, Kopli's own crews put up staging and clean and gas-free the tanks, and the gauging follows them compartment by compartment. Ships at anchor in Tallinn Bay or Muuga Bay are reached by launch, arranged through the agent, which suits gauging of deck, piping and gas-freed ballast tanks before the ship berths."
+    ],
+    "list": [
+      "Old City Harbour — Helsinki shuttles, Stockholm overnight ferries and summer cruise calls; staged gauging of vehicle decks, voids and ramp structure on lay-by",
+      "Muuga Harbour — oil-product, dry-bulk and container terminals; tanker deck and piping gauging and bulk carrier hold gauging during cargo operations",
+      "Paldiski South Harbour — ro-ro and vehicle traffic west of Tallinn; vehicle-deck plating and ramp hinge crack detection during port calls",
+      "Tallinn Shipyard, Kopli — BLRT Grupp repair yard; in-dock gauging for renewal surveys and verification of readings taken afloat at an earlier call",
+      "Tallinn Bay and Muuga Bay anchorages — tankers and bulk carriers lying off before berthing; teams go out by launch through the agent"
+    ]
+  },
+  "context": {
+    "h": "Regulation, ice and market context in Tallinn",
+    "p": [
+      "Estonia belongs to the Paris MoU, and ships at Tallinn are inspected under its risk-based targeting, which looks harder at older ships and those with a poor record. The Gulf of Finland is part of the Baltic SOx Emission Control Area, with a 0.10% sulphur limit. On the Helsinki crossing that limit has been met partly by LNG-fuelled ferries, while scrubbers are common on ro-ro and ro-pax ships elsewhere on Baltic routes; on scrubber ships, wash-water and overboard piping needs regular gauging. The Helsinki–Tallinn trade runs entirely between EU ports, so the whole of its emissions are caught by the EU ETS, extended to ships in 2024, and by the FuelEU Maritime intensity rules that began in 2025, which pushes operators of older ro-pax to weigh life extension carefully.",
+      "Ice is less severe off Tallinn than in the eastern Gulf, but in hard winters Tallinn Bay and Muuga Bay freeze, the Estonian authorities set ice-class restrictions for their ports, and icebreakers assist traffic. Most ro-pax on the Gulf crossing hold a Finnish-Swedish ice class, so their ice belts lose coating and steel each winter, adding to the wear from berthing. For the tanker trade at Muuga, CAP and vetting gauging matter more than ice: oil majors and charterers routinely ask for CAP on tankers past about fifteen years, and the gauging that supports it is extensive."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Tallinn",
+    "p": "Work in Tallinn divides between the ferry trade, the cargo harbours and the repair yard. Ferry jobs are measured in lay-bys and come with crack detection on doors and ramps; Muuga jobs follow cargo operations; Kopli jobs follow the dock programme. A ship inspection in Tallinn often combines two of these, for example pre-docking gauging at Muuga followed by verification in dock at Kopli.",
+    "list": [
+      "Staged gauging of vehicle decks, voids and accessible ballast tanks on a Helsinki shuttle over several night lay-bys, building the renewal-survey record without losing crossings",
+      "Magnetic particle crack detection on bow-door and stern-ramp hinge lugs and locking devices of a ro-pax during her docking at Kopli",
+      "Deck plating and cargo and ballast piping gauging on a product tanker at Muuga before an oil-major vetting inspection, with gas-freed ballast tanks added where time allows",
+      "Pre-docking gauging of tanks and decks on a ro-ro at Paldiski, so Tallinn Shipyard can plan steel and dock days before she arrives",
+      "Hold frames and hatch coamings measured on a bulk carrier at Muuga's dry-bulk berths, covering holds as they are emptied or before loading starts"
+    ]
+  },
+  "logistics": "Tallinn Airport lies close to the city, within easy reach of the Old City Harbour, Kopli and Muuga by road; Paldiski is a drive west along the coast. Port of Tallinn gate passes and any launch to an anchored ship are booked by the ship's agent, and yard entry at Kopli is arranged with the shipyard. Estonia is a Schengen state, so the team from India travels on a Schengen visa; we confirm the docking or lay-by date early enough to cover the consular process.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Ro-ro cargo and vehicle carriers",
+    "Product tankers",
+    "Bulk carriers",
+    "Container feeder ships",
+    "Cruise ships",
+    "Tugs and harbour craft"
+  ],
+  "faqs": [
+    {
+      "q": "Do you inspect bow doors and ramps as well as plating?",
+      "a": "Yes. On ro-pax and ro-ro ships we combine thickness gauging with magnetic particle or penetrant crack detection at hinge lugs, locking device housings, cleat seatings and the welds that carry door and ramp loads. Ultrasonic testing of selected welds can be added where cracking is suspected below the surface. Results are reported for the ship's records and the class surveyor, who decides on any repair."
+    },
+    {
+      "q": "Can you gauge a tanker at Muuga during discharge?",
+      "a": "Muuga tanker gauging during discharge covers what is outside the cargo tanks: deck plating, the external surface of cargo, ballast and fuel piping, and void spaces or ballast tanks the crew has certified safe. Deck work runs under the permits of both terminal and ship. Cargo tank structure needs gas-free certification, so for CAP or renewal-survey scope we plan that for gas-free days or the yard."
+    },
+    {
+      "q": "Can you work in dock at Tallinn Shipyard?",
+      "a": "Yes, once the owner has engaged us and Tallinn Shipyard has cleared the team for entry. Staging, tank cleaning and gas-freeing belong to the yard's docking scope, and we take each area as it is handed over, starting with the shell and the tanks most likely to need renewal. Readings go to the owner's superintendent and the class surveyor daily, so renewal areas can be marked while the yard is still planning steel."
+    },
+    {
+      "q": "Can a Tallinn job be combined with ships in Helsinki?",
+      "a": "Often. Estonia and Finland are both Schengen states, so one visa covers both cities, and the ferry crossing links them several times a day. If two ships in a fleet have work due in the same period, we sequence them on one trip, for example gauging a shuttle on lay-by in Tallinn and then a cargo ship at Vuosaari, which saves the owners a second mobilisation."
+    }
+  ],
+  "nearby": ["helsinki", "riga", "kotka", "turku"]
+}

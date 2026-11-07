@@ -1,0 +1,132 @@
+{
+  "slug": "europe",
+  "navLabel": "European ports",
+  "title": "Ship Thickness Measurement in Europe | UTM & Hull Gauging",
+  "description": "Ship thickness measurement across Europe: UTM for renewal surveys and CAP, scrubber piping inspection in the SECAs and Med ECA, and ice-class hull gauging.",
+  "h1": "Ship Thickness Measurement and Maritime Inspection in Europe",
+  "eyebrow": "Maritime inspection",
+  "intro": "Europe asks a lot of a ship's steel and piping: Paris MoU inspectors who look hard at structure, sulphur emission control areas from the Baltic to the Mediterranean that keep scrubbers working to the strictest standard, carbon rules that push owners into retrofits, and Baltic winters that test ice-class hulls. Atlantis NDT sends teams from India to European yards, berths and anchorages to measure what those pressures do to a ship: hull and tank thickness for renewal surveys and CAP, wall loss in ship and scrubber piping, and fatigue cracking, planning each mobilisation around the docking and visas.",
+  "highlights": [
+    { "h": "Scrubbers working to the ECA standard", "p": "With the Mediterranean ECA in force since 1 May 2025, a ship on a North Sea to Mediterranean trade spends both ends of her voyage inside an emission control area, and her scrubber piping works harder for it." },
+    { "h": "Gauging ahead of Paris MoU calls", "p": "A port state control inspector who finds wasted or holed structure can detain the ship. Owners trading older tonnage into European ports use condition gauging between surveys to find wastage before an inspector does." },
+    { "h": "Ice-class hulls after the winter", "p": "Baltic and Nordic ice strips coatings and loads the ice belt. Gauging the ice-belt plating and frames after the season shows whether ice damage and wastage need to go into the next docking." }
+  ],
+  "sections": [
+    {
+      "id": "europe-ship-management-clusters",
+      "h": "Who commissions ship gauging in Europe",
+      "p": [
+        "Many of the decisions about the world's ships are made in Europe, even for ships that rarely call there. Greek owners control the largest owned fleet of any nation, and their technical departments in Piraeus and the Athens area plan dockings for bulk carriers and tankers trading worldwide. Limassol in Cyprus is a major centre for third-party ship management. German owners and managers, centred on Hamburg, run large container and multipurpose fleets; Norwegian and Danish companies manage tankers, gas carriers, offshore and specialist tonnage; and London remains a centre for P&I clubs, chartering and marine insurance.",
+        "So an enquiry from Europe is often about a ship somewhere else. A superintendent in Piraeus may want a bulk carrier gauged in China ahead of her third renewal survey; a manager in Hamburg may want scrubber piping checked on a container ship at a Rotterdam lay-by berth. We plan from where the ship will be, and the report goes to whoever commissioned it."
+      ]
+    },
+    {
+      "id": "seca-mediterranean-eca-scrubber-piping",
+      "h": "SECAs, the Mediterranean ECA and scrubber pipe inspection",
+      "p": [
+        "Under MARPOL Annex VI regulation 14, ships in the Baltic Sea and North Sea emission control areas, the latter including the English Channel, must use fuel of 0.10% sulphur or an equivalent method, in practice an exhaust gas cleaning system. Since 1 May 2025 the same limit applies in the Mediterranean Sea ECA. A scrubber burning high-sulphur fuel inside any of these areas must clean to the ECA standard rather than the global one, which takes more wash water in open-loop mode or more alkali in closed-loop mode, and Mediterranean trades that once ran to the global standard now run to the stricter one.",
+        "That matters for the piping. Scrubber wash water is warm and acidic, and it runs through mixed materials joined at flanges and transition pieces, where galvanic and crevice corrosion start. The overboard discharge, the distance piece to the shell and the shell plating around the outlet are where wall loss and leaks concentrate, and a leak below the waterline is a flooding risk.",
+        "Several European ports and coastal states also restrict open-loop discharge in their waters, so hybrid systems spend more time in closed-loop mode, with a different corrosion pattern in the circulation piping and process tank. Scrubber pipe inspection on European trades has to cover both the overboard line and the closed-loop circuit."
+      ]
+    },
+    {
+      "id": "paris-mou-port-state-control",
+      "h": "Paris MoU port state control and the condition of the hull",
+      "p": [
+        "Port state control in the coastal states of the EU, the United Kingdom, Norway and Iceland runs under the Paris MoU. Its inspection regime targets ships by risk profile, so ship type, age, flag, the managing company's record and the ship's own detention history decide how often and how deeply she is inspected. Structural deficiencies, from wasted hatch coamings and deck fittings to corroded ballast tank structure seen through an open manhole, are among the findings that can lead to detention.",
+        "Inspectors do not normally gauge, but they look, and visible wastage invites a closer inspection. Owners trading older bulk carriers and tankers into European ports gauge between surveys, at the areas most likely to draw comment, to know where they stand before the ship arrives. That is owner's work and needs no class approval. If it finds substantial corrosion the class society should be informed, and any survey gauging that follows needs a firm approved by the ship's classification society.",
+        "Black Sea ports also come under the Black Sea MoU, whose members include Bulgaria, Romania, Georgia and Turkey, and Turkey's Aegean and Mediterranean ports are covered by the Mediterranean MoU as well."
+      ]
+    },
+    {
+      "id": "eu-ets-fueleu-retrofit-gauging",
+      "h": "EU ETS, FuelEU Maritime and the retrofit decision",
+      "p": [
+        "Ship emissions have counted under the EU Emissions Trading System from 2024, and FuelEU Maritime has limited the greenhouse gas intensity of the energy used on EU voyages since 2025. With IMO's EEXI and CII requirements alongside, every voyage into and within Europe now carries a carbon question, and owners are answering it with retrofits: energy-saving devices at the hull and propeller, air lubrication, wind-assisted propulsion, shore power connections and dual-fuel conversions.",
+        "Every retrofit raises a structural question first. A rotor sail or suction wing needs a foundation on deck plating that may be twenty years old; an air lubrication system cuts openings in the bottom shell; a fuel conversion adds tanks, pipe runs and penetrations. Gauging the affected structure before the design is fixed tells the naval architect what steel they are attaching to, and stops the yard discovering wasted plating halfway through the job.",
+        "The same rules sharpen the older question of whether to keep, sell or recycle an ageing ship, and steel condition often decides it. Pre-purchase gauging for a buyer, or condition gauging ahead of a fourth or fifth renewal survey, puts a measured answer on that question before anyone commits."
+      ]
+    },
+    {
+      "id": "ice-class-hull-gauging-baltic",
+      "h": "Ice-class hulls: Baltic and Nordic winter service",
+      "p": [
+        "Ships trading to Finnish, Swedish and northern Baltic ports in winter are built to the Finnish-Swedish Ice Class Rules, in classes from IA Super down to IC, and the winter traffic restrictions set the minimum ice class allowed into each port. The ice belt, the strengthened band of shell plating around the waterline, and its frames carry the ice loads; the bow and forefoot take the worst of them.",
+        "Ice abrades coatings faster than anything in open water, and bare steel in the ice belt then corrodes through the summer. Ice also dents plating and trips frames, and cracks can start where frames meet stringers and decks. Gauging the ice belt after the season, with a record of dents and MT on suspect frame connections, gives the owner the evidence for the next docking specification. Docking after the ice season rather than before it means the repair list reflects the winter just finished."
+      ]
+    },
+    {
+      "id": "european-ship-repair-regions",
+      "h": "Where ships are gauged in Europe",
+      "p": [
+        "European ship repair is spread around the coast rather than concentrated in one place. On the North Sea, yards in the Netherlands, Belgium, Germany and northern France handle container ships, ro-ro ships and short-sea tonnage close to the main ports, and Rotterdam, Europe's largest port, adds lay-by berths and anchorages where gauging can be done afloat. Poland's Baltic coast, around Gdańsk and Szczecin, and Klaipėda in Lithuania carry substantial repair and conversion work.",
+        "Further south, the Lisbon and Setúbal area, the Bay of Cádiz and the Canary Islands serve Atlantic and West African traffic; Malta and the Croatian Adriatic yards serve the central Mediterranean; and the Perama and Elefsina areas near Piraeus handle Greek-managed ships and coastal tonnage. Turkey's Tuzla and Yalova clusters on the Sea of Marmara are among the busiest ship-repair areas in the region, and Black Sea yards in Romania and Bulgaria take tankers and bulk carriers out of the Black Sea trades. The port pages for this region cover the yards, berths and anchorages in detail."
+      ]
+    },
+    {
+      "id": "planning-european-gauging-from-india",
+      "h": "Planning a European gauging job from India",
+      "p": [
+        "Our teams need a visa for most European destinations. A Schengen visa covers most EU states and the non-EU Schengen members such as Norway and Iceland, but not every EU state is in the Schengen area, and the United Kingdom, Ireland and Turkey each have their own entry rules. Visa appointments are often the slowest link, so we apply as soon as the docking is confirmed, attaching the yard's or agent's letter that confirms the work, and keep the travel dates flexible within the visa's validity.",
+        "In port, the ship's agent handles access: gate passes for berths and terminals under the ISPS Code, launches for anchorage work, and yard induction for drydock jobs. We send the agent the team's names, passport details and equipment list early. Winter in the Baltic and the North Sea brings short daylight and weather that can stop launches, so anchorage work there carries more contingency than the same job in the Mediterranean."
+      ]
+    },
+    {
+      "id": "european-rules-driving-gauging",
+      "h": "European rules that drive ship gauging demand",
+      "p": [
+        "The table summarises the rules and conditions that shape gauging on European trades, and what each means on board."
+      ],
+      "table": {
+        "head": ["Rule or condition", "Where it applies", "What it means for gauging"],
+        "rows": [
+          ["SOx ECA, 0.10% sulphur (MARPOL Annex VI regulation 14)", "Baltic Sea; North Sea including the English Channel", "Scrubbers clean to the ECA standard; wash-water and overboard piping wear faster"],
+          ["Mediterranean Sea ECA, in force since 1 May 2025", "The whole Mediterranean Sea", "Mediterranean trades now run scrubbers to the ECA standard throughout"],
+          ["Paris MoU port state control", "EU coastal states, the UK, Norway and Iceland", "Structural deficiencies can lead to detention; owners gauge between surveys"],
+          ["FuelEU Maritime (2025 onwards) and the EU ETS for shipping (2024 onwards)", "Voyages into, out of and within the EU and EEA", "Retrofit areas gauged before design; steel condition informs keep-or-sell decisions"],
+          ["Finnish-Swedish Ice Class Rules", "Winter traffic to Finnish, Swedish and northern Baltic ports", "Post-winter ice-belt and frame gauging, with MT at frame connections"]
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "MARPOL Annex VI, regulation 14 (sulphur oxides)",
+    "Baltic Sea, North Sea and Mediterranean Sea emission control areas for SOx",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems",
+    "Paris Memorandum of Understanding on Port State Control",
+    "EU Emissions Trading System, Directive 2003/87/EC as extended to maritime transport",
+    "FuelEU Maritime, Regulation (EU) 2023/1805",
+    "EU MRV Regulation (EU) 2015/757",
+    "Finnish-Swedish Ice Class Rules",
+    "IACS UR Z7, Z10.1 to Z10.5 and Z17",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code"
+  ],
+  "deliverables": [
+    "Gauging report listing as-built and measured thickness, the minimum found and the diminution at every point",
+    "Scrubber piping condition report: minimum wall by spool and joint, located on the piping diagram",
+    "Ice-belt gauging with a dent and frame-damage record and MT results at frame connections",
+    "Steel renewal estimate for the docking specification",
+    "Pre-retrofit condition report for the structure a retrofit will cut into or load",
+    "Photographs and sketches locating every reading"
+  ],
+  "industries": [
+    "Container ships",
+    "Bulk carriers",
+    "Oil and chemical tankers",
+    "Ro-ro and ro-pax ferries",
+    "Ice-class short-sea tonnage",
+    "Gas carriers",
+    "Cruise ships",
+    "Ship-management companies and owners",
+    "Ship-repair yards"
+  ],
+  "faqs": [
+    { "q": "Can you inspect scrubber piping on a ship at a European lay-by berth?", "a": "Yes, if the system can be taken out of service for the stay and the spaces are safe to enter. We gauge the metallic sections of the wash-water and overboard piping at planned points, concentrating on joints, transition pieces, the distance piece to the shell and the surrounding shell plating, and report minimum wall against the owner's or the maker's criteria." },
+    { "q": "Does the Mediterranean ECA change what we should inspect?", "a": "It changes how hard the scrubber works. Since 1 May 2025 a ship burning high-sulphur fuel in the Mediterranean must meet the ECA standard, which means more wash water or more alkali than the global limit needed. More flow through the same piping, with warm and acidic wash water, brings forward the wall loss and joint failures that scrubber piping inspection is meant to catch." },
+    { "q": "Do European port state control inspectors check steel thickness?", "a": "Not normally with a gauge. They examine the structure they can see and reach, and visible wastage, holed or distorted structure and corroded fittings are recorded as deficiencies and can lead to detention. The Paris MoU picks ships by risk, so age and a history of detentions bring more frequent boardings. Condition gauging between surveys finds the problems first." },
+    { "q": "Do your teams need visas to work in Europe?", "a": "Yes, for most destinations. Indian nationals need a Schengen visa for the Schengen states and separate visas for the United Kingdom, Ireland and Turkey, among others. We apply once the docking or port call is confirmed and the yard or agent has written to confirm the work. A short-notice European call is only realistic when the team already holds a valid visa." },
+    { "q": "When should an ice-class ship be gauged?", "a": "After the ice season, ideally a voyage or two before her next docking. Gauging the ice-belt plating, with a record of dents and MT on suspect frame connections, shows what the winter has done and lets the repair specification reflect it. Gauging before the winter records the starting condition, which is useful if the ship has not been gauged for several years." },
+    { "q": "Can a European manager commission gauging on a ship trading elsewhere?", "a": "Yes. A manager in Piraeus, Limassol, Hamburg, Oslo or London can commission gauging for a ship that will be in China, Singapore or the Gulf. We plan from the ship's location: the visa, access and yard arrangements follow the port, and the report goes to the superintendent wherever they sit. The Asia and Middle East pages cover those regions." },
+    { "q": "Can retrofit gauging be combined with renewal survey gauging?", "a": "Yes, and it usually makes sense, because one yard period then serves both. Gauging the retrofit areas a voyage or two before the docking, alongside the pre-docking gauging for the renewal survey, gives the naval architect and the yard the steel condition in time to settle the design and the steel list together. Gauging that is to be credited to the survey still has to be done by a firm that the ship's own classification society has approved." }
+  ]
+}

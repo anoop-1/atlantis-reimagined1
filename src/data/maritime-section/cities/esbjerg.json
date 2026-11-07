@@ -1,0 +1,108 @@
+{
+  "slug": "esbjerg",
+  "name": "Esbjerg",
+  "country": "Denmark",
+  "region": "europe",
+  "title": "Esbjerg Ultrasonic Thickness Measurement | OSVs & SOVs",
+  "description": "Ultrasonic thickness measurement in Esbjerg for offshore wind and supply vessels: hull structure, deck plating, pre-docking gauging and crack detection.",
+  "h1": "Thickness Measurement for Offshore Wind and Supply Vessels in Esbjerg",
+  "intro": "Esbjerg is Denmark's North Sea energy port: the supply base for the Danish oil and gas sector and one of Europe's main ports for installing and servicing offshore wind farms. Service operation vessels, crew transfer vessels, jack-up installation ships, supply vessels and ro-ro freighters all use the harbour. Atlantis NDT mobilises a team from India to gauge hull structure, deck plating and fatigue-prone details on these ships during port stays and planned maintenance periods.",
+  "keywords": [
+    "esbjerg ultrasonic thickness measurement",
+    "esbjerg offshore vessel inspection",
+    "esbjerg hull gauging",
+    "sov inspection",
+    "osv thickness measurement",
+    "jack-up vessel inspection",
+    "crew transfer vessel inspection",
+    "deck plating thickness measurement",
+    "pre-docking gauging",
+    "magnetic particle inspection offshore vessels"
+  ],
+  "highlights": [
+    {
+      "h": "Offshore wind service fleet",
+      "p": "SOVs, CTVs and jack-up installation ships return to Esbjerg between campaigns. Their gangway foundations, crane pedestals and leg housings carry cyclic load and suit magnetic particle crack detection alongside thickness gauging."
+    },
+    {
+      "h": "Supply vessels between charters",
+      "p": "Platform supply vessels serving the Danish sector rotate through Esbjerg. Mud and brine tanks, cargo-rail areas and deck plating worn by cargo handling are the usual OSV thickness measurement priorities."
+    },
+    {
+      "h": "Aluminium hulls need different methods",
+      "p": "Many crew transfer vessels have aluminium hulls. Ultrasonic thickness measurement works on aluminium with the right calibration, but magnetic particle testing does not, so penetrant testing is used for crack detection instead."
+    }
+  ],
+  "port": {
+    "h": "Port Esbjerg: offshore energy, wind and North Sea ro-ro",
+    "p": [
+      "Esbjerg grew as a fishing and North Sea trading port, and today its quays are dominated by offshore energy. For decades it has been the supply base for oil and gas production in the Danish sector of the North Sea, and supply vessels, standby vessels and crew boats still work out of the harbour. Since the large offshore wind farms were built off the Jutland coast, including the Horns Rev projects, Esbjerg has also become one of Europe's main bases for staging, installing and maintaining offshore wind turbines, with extensive laydown areas for blades, towers and foundations.",
+      "The vessel mix reflects that. Jack-up installation vessels and heavy-lift ships load turbine components; cable-lay ships mobilise for export and array cables; service operation vessels with motion-compensated gangways come in for crew change and stores; and crew transfer vessels, many of them aluminium catamarans, run out to the wind farms. Ro-ro freight services cross the North Sea to the UK, and general cargo ships handle project cargo. This is not a port of large tankers or bulk carriers on ESP survey regimes: most ships here are surveyed under the general hull survey requirements, and the inspection points that matter are specific to offshore work.",
+      "Port stays are driven by campaign schedules and weather. When wind or wave conditions stop work offshore, SOVs and CTVs return to port; installation vessels spend days alongside loading the next set of components; supply vessels sit between charters. Those periods, along with planned maintenance stops between seasons, are when gauging gets done in Esbjerg. Offshore vessel owners also tend to schedule intermediate and renewal survey work around charter gaps rather than fixed calendar dates, so the timing of the work is often confirmed late, and visa and travel planning has to allow for that. Winter brings the longest weather stand-downs, while the calmer months are the busiest for installation work."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in the Esbjerg harbour area",
+    "p": [
+      "Most measurement on offshore vessels in Esbjerg takes place alongside in the harbour, at the offshore and wind quays where vessels load and lie between campaigns. Deck plating, cargo tanks, ballast tanks and structural foundations can be reached without dry-docking, and much OSV and SOV maintenance is planned that way. Hull shell measurement below the waterline needs a dock or slipway, so it is usually combined with the vessel's docking survey at a yard. Tank entry on supply vessels follows the owner's permit-to-work system, with tanks cleaned and ventilated by the crew or a cleaning contractor before the team starts.",
+      "Smaller yards on the Jutland west coast build and maintain workboats, while larger offshore vessels generally dock elsewhere in Denmark, Norway, Germany, the Netherlands or Poland. For those ships, an Esbjerg port call before the docking is a sensible time for pre-docking gauging of tanks and decks, leaving the yard stay for shell plating and repairs. Because wind-farm quays are busy staging areas, work on deck is coordinated with the vessel's own loading plan and the quay operator's lifting operations, and exclusion zones around cranes are respected throughout."
+    ],
+    "list": [
+      "Offshore wind quays — gangway foundation, crane pedestal and deck gauging on service operation vessels during weather stand-downs and crew changes.",
+      "Installation vessel berths — deck plating, leg-housing structure and jacking-area crack detection on jack-up vessels while components are loaded for the next campaign.",
+      "Supply base quays — mud, brine and fuel tank gauging and cargo-deck plating measurement on platform supply vessels between charters.",
+      "CTV pontoons — aluminium hull thickness measurement and penetrant testing of welds on crew transfer vessels during maintenance days.",
+      "Ro-ro berths — trailer-deck plating, ramp structure and ballast tank measurement on North Sea ro-ro freighters during scheduled port time.",
+      "Docking yards in Denmark and neighbouring countries — shell and bottom plating gauging on offshore vessels at their docking survey, following pre-docking work in Esbjerg."
+    ]
+  },
+  "context": {
+    "h": "North Sea regulation and offshore market context in Esbjerg",
+    "p": [
+      "Denmark is a Paris MoU state, and Esbjerg sits inside the North Sea SOx ECA at 0.10% sulphur. Offshore vessels here mostly burn distillate fuel, and a growing number run hybrid battery systems or are designed for alternative fuels, so scrubber piping is less of an issue than at a tanker port. The inspection drivers are different: offshore wind developers and turbine suppliers apply their own vessel vetting and audit regimes, and supply vessels serving oil and gas installations face operator audits alongside class and flag surveys. Structural condition records, from thickness readings to crack detection results on foundations, are part of the evidence those audits look for.",
+      "As an EU member, Denmark applies the EU ETS to shipping from 2024 and FuelEU Maritime from 2025; coverage of offshore service vessels depends on their size and type, so owners should confirm how each regime applies to a given ship. For gauging, the more practical local factor is the operating profile. SOVs keep station for long periods with heavy gangway and crane use, jack-ups take repeated jacking loads, and CTVs push their bows against turbine foundations many times a day, which makes the bow fender structure a classic fatigue location. Those load patterns decide where we concentrate measurement and crack detection, rather than the cargo-tank-led scope typical of an ESP ship."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Esbjerg",
+    "p": "Esbjerg work is shaped by the offshore calendar. Many jobs are short and targeted — a set of foundations, a deck area, a group of tanks — and fitted into a port stay or maintenance stop, while larger scopes are tied to a vessel's renewal survey. These are the kinds of jobs the offshore fleet in Esbjerg generates through the year, from the start of the installation season to the winter maintenance period.",
+    "list": [
+      "SOV inspection during a crew-change call: gangway pedestal welds and crane foundation checked by magnetic particle testing, with the surrounding deck plating gauged.",
+      "OSV thickness measurement on a platform supply vessel between charters: liquid mud and brine tanks, cargo rails and deck plating worn by container and pipe handling.",
+      "Jack-up vessel inspection before a new installation campaign: leg-housing structure, jacking-system foundations and main deck plating under the crane track.",
+      "Crew transfer vessel inspection: aluminium hull thickness readings and penetrant testing of bow fender welds after a season of turbine landings.",
+      "Pre-docking gauging of ballast tanks and decks on a North Sea ro-ro freighter, used to scope steel renewal before its renewal survey docking."
+    ]
+  },
+  "logistics": "The usual gateway is Billund Airport, with Copenhagen Airport as an alternative followed by a rail journey across Denmark to Esbjerg; Esbjerg's own airport mainly serves offshore helicopter traffic. The offshore and wind quays are ISPS-controlled and many have additional site induction requirements, which the ship's agent or the vessel operator arranges in advance. Denmark belongs to the Schengen area, so the team travels from India on Schengen visas. Because offshore vessel schedules shift with weather and charters, we agree a mobilisation window with the operator rather than a single fixed date.",
+  "vessels": [
+    "Service operation vessels (SOVs)",
+    "Crew transfer vessels",
+    "Jack-up installation vessels",
+    "Platform supply vessels",
+    "Cable-lay vessels",
+    "Ro-ro cargo ships",
+    "Heavy-lift and project cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you measure aluminium crew transfer vessels in Esbjerg?",
+      "a": "Yes. Ultrasonic thickness gauges measure aluminium plating once the gauge is calibrated on a reference block of the same material. Magnetic particle testing cannot be used on aluminium because it is non-magnetic, so crack detection on CTV welds, for example around bow fenders and waterjet mountings, is done with liquid penetrant instead. We plan the method for each area before the team travels."
+    },
+    {
+      "q": "What do you check on an SOV gangway or crane foundation?",
+      "a": "Thickness of the pedestal shell and of the deck and under-deck structure around it, plus magnetic particle testing of the main welds where cyclic load concentrates: pedestal-to-deck welds, bracket toes and doubler edges. Results are reported with sketches and photographs so that the owner, class and the gangway or crane maker's service engineer can assess them together."
+    },
+    {
+      "q": "Do OSVs and SOVs follow the same survey cycle as tankers and bulk carriers?",
+      "a": "The five-year renewal cycle with annual and intermediate surveys applies, but offshore vessels are not ESP ships, so the extensive cargo-tank gauging required for tankers and bulk carriers at later renewal surveys does not apply in the same way. Gauging scope is set by class rules for the ship type, the surveyor's findings and the owner's own maintenance programme, which often goes further on high-wear areas."
+    },
+    {
+      "q": "Can gauging be fitted into a weather stand-down?",
+      "a": "Sometimes. Stand-downs are not predictable enough to book a team from India for one specifically, but if the team is already in Esbjerg for a planned job, additional vessels from the same fleet can often be added during unplanned days alongside. For planned scope, it is better to agree a mobilisation window around a crew change or maintenance period."
+    }
+  ],
+  "nearby": ["aarhus", "stavanger", "copenhagen", "bremerhaven", "aberdeen"]
+}

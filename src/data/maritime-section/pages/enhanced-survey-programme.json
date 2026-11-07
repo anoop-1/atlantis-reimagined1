@@ -1,0 +1,159 @@
+{
+  "slug": "enhanced-survey-programme",
+  "navLabel": "ESP thickness measurement",
+  "title": "ESP Thickness Measurement | Enhanced Survey Programme",
+  "description": "ESP thickness measurement and close-up survey support for oil tankers, chemical tankers and bulk carriers under SOLAS XI-1/2, the ESP Code and UR Z10.",
+  "h1": "Enhanced Survey Programme (ESP) Thickness Measurement and Close-Up Survey",
+  "eyebrow": "Maritime inspection",
+  "intro": "Oil tankers, chemical tankers and bulk carriers are surveyed under the enhanced survey programme, which turns thickness measurement and close-up survey of cargo and ballast tank structure into a planned, documented process rather than a surveyor's spot check. The survey programme names the thickness measurement firm, and its representative sits in the survey planning meeting. Atlantis NDT mobilises ESP gauging teams from India to the yard or berth, works to the agreed programme, and records results on the IACS forms for the attending surveyor to verify.",
+  "highlights": [
+    {
+      "h": "Gauging to the survey programme",
+      "p": "Readings follow the ESP survey programme agreed between owner and society: the transverse sections, tanks, critical structural areas and suspect areas it names, plus whatever the attending surveyor adds on the day."
+    },
+    {
+      "h": "Substantial corrosion mapped as found",
+      "p": "Wastage beyond three-quarters of the allowable margin is reported to the surveyor while the job is running, with the extended readings the unified requirements call for, rather than discovered later in the office."
+    },
+    {
+      "h": "Planned around the docking",
+      "p": "An ESP renewal survey is booked with a yard long before the ship arrives. Mobilising from India fits that rhythm: visas and travel are arranged against the survey programme and the docking date."
+    }
+  ],
+  "sections": [
+    {
+      "id": "esp-framework",
+      "h": "ESP surveys under SOLAS XI-1/2, the 2011 ESP Code and IACS UR Z10",
+      "p": [
+        "SOLAS chapter XI-1 regulation 2 makes an enhanced programme of inspections mandatory for bulk carriers and oil tankers, applying the 2011 ESP Code. IACS members implement it through a unified requirement for each ship type: UR Z10.1 and Z10.4 for oil tankers, the latter for double-hull designs; UR Z10.2 and Z10.5 for bulk carriers, the latter for double-skin designs; and UR Z10.3, through which class brings chemical tankers into the same regime.",
+        "Compared with an ordinary hull survey under UR Z7, ESP adds discipline in four places. The survey is planned in writing before it starts. Close-up survey and thickness measurement extents are defined for each renewal survey by age. Thickness measurement is carried out by a firm approved by the ship's classification society under UR Z17 and witnessed by its surveyor. And the results are filed on board, where the next surveyor reads them first. The table shows where gauging effort typically concentrates on each ESP ship type."
+      ],
+      "table": {
+        "head": ["ESP ship type", "Unified requirement", "Structure that typically attracts close-up survey and gauging"],
+        "rows": [
+          ["Oil tankers", "UR Z10.1", "Web frame rings and transverses in ballast tanks, deck and bottom transverses, transverse bulkheads, under-deck structure of cargo tanks"],
+          ["Double-hull oil tankers", "UR Z10.4", "Double-bottom and double-side ballast spaces, hopper knuckles, web frames in the wing tanks, cargo tank transverse bulkheads"],
+          ["Bulk carriers", "UR Z10.2", "Cargo hold side frames and end brackets, hatch covers and coamings, transverse bulkheads and stools, topside and hopper tanks"],
+          ["Double-skin bulk carriers", "UR Z10.5", "Double-side spaces and inner hull, hatch covers and coamings, transverse bulkheads and stools, hopper and topside tanks"],
+          ["Chemical tankers", "UR Z10.3", "Ballast tank structure and cargo tank structure, with stainless steel or coated cargo tanks gauged to suit the material"]
+        ]
+      }
+    },
+    {
+      "id": "survey-planning-documents",
+      "h": "ESP survey planning: the questionnaire, the survey programme and the survey report file",
+      "p": [
+        "Planning starts with the survey planning questionnaire, which the owner completes and sends to the society. From it, and from the ship's plans, damage and repair history, cargo and ballast history, coating history and maintenance records, the owner and the society work out a written survey programme. The unified requirements are explicit that the survey is not to commence until that programme has been agreed. It identifies the tanks and spaces for close-up survey, the areas and transverse sections for thickness measurement, the tanks for tank testing, critical structural areas and suspect areas, the conditions for survey and means of access, and the thickness measurement company.",
+        "On board, the survey report file holds the reports of structural surveys, the society's executive hull summary and the thickness measurement reports, and it stays with the ship for life. Supporting documents sit alongside it: the survey programme until the survey is complete, structural plans of cargo and ballast tanks, repair history, cargo and ballast history, inert gas and tank cleaning details, and the crew's own inspection records. A TM report filed there is the first thing the next surveyor opens, so its sketches and point numbering must let a stranger find the same locations years later. What the gauging team needs from the programme:"
+      ],
+      "list": [
+        "The tanks and spaces selected for close-up survey",
+        "The frame position of each transverse section to be gauged",
+        "Suspect areas and areas of substantial corrosion carried over from the last survey",
+        "Critical structural areas identified for this ship or its sister ships",
+        "Cleaning, ventilation, lighting and access arrangements, tank by tank",
+        "The acceptance criteria the society will apply"
+      ]
+    },
+    {
+      "id": "survey-planning-meeting",
+      "h": "The survey planning meeting with class and the thickness measurement firm",
+      "p": [
+        "Before any part of an ESP renewal or intermediate survey begins, the unified requirements call for a survey planning meeting between the attending surveyor, the owner's representative, the thickness measurement firm's representative where one is involved, and the master or an appropriately qualified person appointed by the master or the company. The agenda is laid down: the ship's schedule; arrangements for thickness measurement, including access, cleaning, lighting, ventilation and personal safety; the extent of measurement and the acceptance criteria; the extent of close-up survey and gauging in the light of coating condition and suspect areas; how the measurements will be executed, including representative readings where corrosion is uneven or pitted; the mapping of substantial corrosion; and how findings are communicated between the surveyor, the measurement operator and the owner's representative.",
+        "In practice the meeting decides whether a gauging job runs smoothly. It should settle the order in which tanks will be opened to match gas-freeing and ballast operations, who may call for additional points, how readings beyond limits reach the surveyor and the superintendent on the same day, and the format of daily results. One rule shapes the whole schedule: in areas subject to close-up survey, thickness measurement is carried out at the same time as the close-up survey, so the gauging team and the surveyor move through the tanks together rather than one after the other."
+      ]
+    },
+    {
+      "id": "extents-by-age",
+      "h": "How ESP close-up survey and thickness gauging extents grow with age",
+      "p": [
+        "Each ESP renewal survey adds to the last. At the first, gauging is largely confined to suspect areas and the structure under close-up survey. By the second, transverse sections and wider coverage of deck plating and internal structure appear. The third renewal survey, at about 15 years, is the step change: extensive gauging of cargo and ballast tank structure, more transverse sections and far more close-up survey, and the fourth and later surveys go further again. The renewal survey thickness measurement page sets out the full cycle; for ESP ships the point is that each step is written into the unified requirements, and the surveyor can extend it wherever findings justify.",
+        "Intermediate surveys follow the same direction, and sooner than many owners expect. Between five and ten years the intermediate survey centres on an overall survey of representative ballast tanks and, on bulk carriers, the cargo holds as well. From ten years, the unified requirements for oil tankers and bulk carriers set the intermediate survey to the same extent as the previous renewal survey, although pressure testing and the longitudinal strength evaluation are needed only if the surveyor considers them necessary. In gauging terms, an intermediate survey on a twelve-year-old tanker is a renewal survey in all but name, and it should be planned as one.",
+        "For oil tankers of 130 m in length and upwards, the rules also require an evaluation of hull girder longitudinal strength, using the thicknesses measured at the renewal survey carried out after the ship reaches ten years of age. That evaluation is built from the transverse sections, which is why every member in each belt has to be gauged."
+      ]
+    },
+    {
+      "id": "suspect-areas",
+      "h": "Suspect areas, critical structural areas and coating condition",
+      "p": [
+        "Two categories of location recur in every ESP survey programme. Suspect areas are locations showing substantial corrosion, or considered by the surveyor to be prone to rapid wastage. Critical structural areas are locations identified from calculations as needing monitoring, or from the service history of the ship or similar and sister ships as sensitive to cracking, buckling or corrosion. Both are gauged at each survey, and both depend on the previous TM report to be found again, which is why point numbering carries over from one report to the next.",
+        "Coating condition is graded GOOD, FAIR or POOR under definitions in the unified requirements, and in ballast tanks it changes what happens at annual surveys. Under the double-hull tanker requirements, a ballast tank is examined at every subsequent annual survey where a hard protective coating was never applied, where a soft or semi-hard coating is in use, where substantial corrosion is found, or where the hard coating is less than GOOD and has not been repaired to the surveyor's satisfaction; the other ESP requirements use comparable triggers. Thickness measurement follows where the surveyor considers it necessary, so recording coating condition beside the readings gives the owner the evidence needed to plan coating repair before the tank falls into annual examination."
+      ]
+    },
+    {
+      "id": "substantial-corrosion-follow-up",
+      "h": "Substantial corrosion follow-up and close-up survey support",
+      "p": [
+        "When gauging finds substantial corrosion, the unified requirements call for additional thickness measurements in the affected area, set out in tables for each type of structure, to define its extent before the surveyor decides what follows. On ships built to the IACS Common Structural Rules, the band is defined against the renewal thickness rather than the allowable margin, and identified areas are examined and measured again at annual and intermediate surveys. Areas found at earlier surveys are measured again at the renewal survey, so a substantial corrosion finding stays on the ship's record until the steel is renewed. Wastage beyond the allowable margin requires renewal or repair, either before the survey is completed or under a condition of class.",
+        "Close-up survey support means the gauging team works alongside the surveyor rather than ahead of or behind them: preparing spots, measuring where the surveyor points, extending readings around findings and keeping the sketch current. Cracks, buckling or deformation noticed during gauging are reported to the surveyor straight away. Fatigue-prone details can be checked by magnetic particle crack detection if the surveyor or owner asks. The decisions remain the surveyor's; the team's job is to make sure each one rests on complete readings."
+      ]
+    },
+    {
+      "id": "esp-reporting",
+      "h": "ESP thickness measurement reporting and verification",
+      "p": [
+        "The unified requirements specify the report: measurement locations, measured and original thicknesses, dates, equipment, personnel and their qualifications, and the operator's signature, presented on the IACS forms for the ship type with sketches. The surveyor controlling the measurements on board verifies and signs it, and countersigns the cover page of the final report. The society then issues its executive hull summary to the owner, covering the extent of close-up survey, thickness measurements, tank protection, repairs, conditions of class and, for oil tankers where it applies, the longitudinal strength results.",
+        "ESP gauging credited to the survey must be carried out by a firm holding the approval of the ship's own classification society under IACS UR Z17, and is witnessed by that society's surveyor, who is on board to the extent needed to control the process. Ask us with the vessel's class named, so that the enquiry is answered on that basis. Not all ESP-related gauging is credited: an owner's gauging ahead of the survey to inform the survey programme and the steel estimate, and monitoring of suspect areas between surveys for the owner's own records, need no class approval."
+      ]
+    }
+  ],
+  "codes": [
+    "SOLAS chapter XI-1, regulation 2 – Enhanced survey programme",
+    "2011 ESP Code (IMO)",
+    "IACS UR Z10.1 – Hull surveys of oil tankers",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "IACS UR Z10.4 – Hull surveys of double-hull oil tankers",
+    "IACS UR Z10.5 – Hull surveys of double-skin bulk carriers",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "IACS Common Structural Rules for bulk carriers and oil tankers"
+  ],
+  "deliverables": [
+    "Thickness measurement report on the IACS forms for the ship type, ready for the surveyor's verification",
+    "Sketches with point numbering that carries forward to the next survey",
+    "Daily results during the survey, with readings beyond limits flagged the same day",
+    "Map of substantial corrosion with the extended readings taken",
+    "Coating condition recorded beside the readings",
+    "Pitting and grooving records, and a list of points not gauged with reasons",
+    "Gauging data files for the survey report file and the owner's trending"
+  ],
+  "industries": [
+    "Crude oil tankers",
+    "Double-hull product tankers",
+    "Chemical tankers",
+    "Bulk carriers and ore carriers",
+    "Double-skin bulk carriers",
+    "Ship managers and superintendents",
+    "Ship-repair yards running ESP dockings"
+  ],
+  "faqs": [
+    {
+      "q": "Which ships fall under the enhanced survey programme?",
+      "a": "Bulk carriers and oil tankers, through SOLAS chapter XI-1 regulation 2 and the 2011 ESP Code, implemented by IACS members in UR Z10.1, Z10.2, Z10.4 and Z10.5. Chemical tankers are brought into the same regime by class through UR Z10.3. Other ship types, such as container ships and general cargo ships, are surveyed under the general hull survey requirements, where gauging extents also grow with age but planning is less prescribed."
+    },
+    {
+      "q": "Who prepares the ESP survey programme?",
+      "a": "The owner, in co-operation with the classification society, drawing on the survey planning questionnaire and the ship's records. The thickness measurement firm does not write it, but it should see it in draft, because the programme fixes the transverse sections, tanks and suspect areas the team must gauge and the access the team will rely on. A programme agreed without the gauging firm's input often underestimates staging and time."
+    },
+    {
+      "q": "Does the thickness measurement firm attend the survey planning meeting?",
+      "a": "Yes. The unified requirements list the thickness measurement firm's representative among the attendees, alongside the attending surveyor, the owner's representative and the master or a person appointed by the master or company. The meeting settles the extent of gauging, acceptance criteria, access and safety, and how findings are communicated, so the firm's representative needs to be someone who will be on board running the work."
+    },
+    {
+      "q": "Can ESP thickness measurements be taken before the survey starts?",
+      "a": "Measurements credited to the renewal survey are taken as part of it, with the surveyor in attendance, and in close-up survey areas at the same time as the close-up survey. The renewal survey can begin at the fourth annual survey and be progressed towards the fifth anniversary. Gauging done earlier by the owner is valuable for planning the survey programme and the steel estimate, but it is owner's information, not survey credit."
+    },
+    {
+      "q": "What happens after substantial corrosion is found?",
+      "a": "The area is gauged in more detail to define its extent, recorded in the TM report and the society's summary, and measured again at later surveys; on CSR ships the requirements explicitly add annual and intermediate measurements. The owner can renew the steel, which removes the area from the follow-up, or carry it forward under monitoring. Wastage beyond the allowable margin is a renewal matter, decided by the surveyor."
+    },
+    {
+      "q": "Why is a ten-year-old tanker's intermediate survey so demanding?",
+      "a": "Because from ten years of age the unified requirements for oil tankers and bulk carriers set the intermediate survey to the same extent as the previous renewal survey, apart from pressure testing and the longitudinal strength evaluation unless the surveyor requires them. The gauging, close-up survey and access are therefore comparable to a renewal survey, and should be planned and resourced the same way."
+    },
+    {
+      "q": "Can you provide class survey support on a double-hull tanker's ballast spaces?",
+      "a": "Yes, subject to the class rule on approved firms for credited measurements. Double-hull ballast spaces are large, coated and narrow, so the work depends on ventilation, lighting and permanent means of access or staging being in place, and on coating condition being recorded beside each reading. Planning the tank sequence with the ship's ballast operations is usually what decides how quickly the spaces can be completed."
+    }
+  ]
+}

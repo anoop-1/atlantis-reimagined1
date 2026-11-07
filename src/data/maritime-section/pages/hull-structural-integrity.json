@@ -1,0 +1,178 @@
+{
+  "slug": "hull-structural-integrity",
+  "navLabel": "Hull structural integrity",
+  "title": "Hull Structural Integrity Inspection | Corrosion & Cracks",
+  "description": "Hull structural integrity inspection: thickness gauging, substantial vs excessive corrosion, pitting, grooving, buckling and MT crack detection.",
+  "h1": "Hull structural integrity inspection: corrosion, deformation and fatigue cracking",
+  "eyebrow": "Maritime inspection",
+  "intro": "A hull's structural condition is more than a list of thickness readings. Class surveyors, owners and buyers need to know where the steel has wasted and how, whether general, pitted, grooved or at the edges, whether panels have buckled, and whether the known fatigue details have cracked. Atlantis NDT combines ultrasonic thickness measurement (UTM) with close-up records of corrosion pattern, deformation and magnetic particle crack detection, so the class engineer or your technical department receives measured data to assess against the ship's rules. Teams are mobilised from India to the yard or berth.",
+  "highlights": [
+    {
+      "h": "Corrosion pattern, not just thickness",
+      "p": "Readings are recorded with the pattern that produced them: general wastage, pitting, grooving along weld lines or edge corrosion at cut-outs. The same diminution means different things in each case, and the report says which one you are looking at."
+    },
+    {
+      "h": "Crack detection at known details",
+      "p": "Hatch corners, bracket toes, side longitudinal end connections, slots and scallops are examined visually and, once cleaned, with magnetic particle or penetrant testing by technicians certified under our ASNT SNT-TC-1A written practice."
+    },
+    {
+      "h": "Data the class engineer can use",
+      "p": "Measurements are located by frame, strake and member and set out on the class thickness-measurement formats or your own, so diminution, renewal and hull girder checks can be run from the report without re-entering the tank."
+    }
+  ],
+  "sections": [
+    {
+      "id": "scope",
+      "h": "What a hull structural integrity inspection covers",
+      "p": [
+        "A structural integrity inspection answers a narrower question than a class survey: is the steel that carries the ship's loads still within the limits its rules allow, and where is it heading? That means thickness gauging of the members that matter for local and longitudinal strength, close-up observation of the corrosion pattern on each, records of buckling and set-in plating, and crack detection at the details where fatigue cracks are known to start.",
+        "It is usually commissioned ahead of a renewal survey, when the ship manager wants to know the extent of steel renewal before the yard does; as class survey support during the survey; for a condition assessment inspection or preparation for a condition assessment programme (CAP) on an older tanker or bulk carrier; or within a pre-purchase inspection, where the buyer needs a measured view of the hull structural condition rather than the seller's last survey report."
+      ],
+      "list": [
+        "Hull envelope: bottom, bilge, side shell and deck plating, with attention to the splash zone and strakes in way of ballast tanks.",
+        "Internal structure: webs, longitudinals, stringers, girders, floors, brackets and their end connections.",
+        "Cargo holds and tanks: side shell frames, hopper and topside tank plating, corrugated bulkheads, stools and inner bottom.",
+        "Hatch covers, coamings and coaming brackets on bulk carriers and general cargo ships."
+      ]
+    },
+    {
+      "id": "corrosion-margins",
+      "h": "Corrosion margins: substantial corrosion versus excessive corrosion",
+      "p": [
+        "Every structural member has an as-built thickness and an allowable diminution: the steel the ship's class rules allow it to lose before it must be renewed. For most ships the allowable diminution is set member by member in the society's rules. Ships built to the IACS Common Structural Rules for Bulk Carriers and Oil Tankers express the same idea differently: the drawings carry a net thickness and a corrosion addition, and each gauged thickness is compared with a renewal thickness derived from them. Either way, a reading only means something once it is set against the right original thickness and the right allowance for that member.",
+        "Substantial corrosion is wastage beyond three-quarters of the allowable margin but within acceptable limits; excessive corrosion is wastage beyond the margin. Substantial corrosion found at an intermediate survey has a habit of becoming excessive by the next renewal, so owners who have those locations re-gauged between surveys on the same grid get a corrosion rate rather than a snapshot, and can plan renewal at a docking of their choosing."
+      ],
+      "table": {
+        "head": ["Condition", "What it means", "What usually follows"],
+        "rows": [
+          ["Within margin", "Diminution below three-quarters of the allowable for that member", "No action beyond the normal survey; readings become the baseline for the next round"],
+          ["Substantial corrosion", "Beyond three-quarters of the allowable margin, but within acceptable limits", "Recorded by class and re-gauged at later surveys on enhanced survey programme (ESP) ships; often added to the owner's renewal plan"],
+          ["Excessive corrosion", "Beyond the allowable margin", "Steel renewal or another repair accepted by the classification society before the survey is closed"],
+          ["Suspect area", "Substantial corrosion, or a location the surveyor considers prone to rapid wastage", "Close-up survey and thickness measurement at subsequent surveys"]
+        ]
+      }
+    },
+    {
+      "id": "pitting-grooving",
+      "h": "Pitting, grooving and edge corrosion: how they are measured",
+      "p": [
+        "Ultrasonic thickness gauging measures the steel under the probe. On general corrosion that is representative; on pitted plating it is not. Pitting concentrates on cargo tank bottom plating where water and sediment settle, on the upper faces of horizontal members in ballast tanks, and under failed coating. A spot reading between pits overstates the remaining steel, and a probe on the pitted face often cannot couple at all. We measure pit depth with a pit gauge, measure remaining plate from the smooth side where it is accessible, and describe the intensity, meaning the share of surface affected, because class guidance assesses pitted plating by intensity as well as by the deepest pits.",
+        "Grooving is narrower and more dangerous than its depth suggests. It runs along weld lines, typically in the heat-affected zone beside a stiffener's fillet weld or along a plate butt, where weld and parent metal corrode at different rates, and in ballast tanks it can run the length of a longitudinal. We gauge across the groove at intervals and report its length, width and depth separately from the plate thickness, so it is not averaged away.",
+        "Edge corrosion attacks face flats, cut-outs, lightening holes and manholes, where coating is thinnest, and reduces a face plate's section faster than the web behind it. On bulk carriers, hold frames and their lower brackets lose web and flange together through cargo abrasion and grab contact, so each frame is assessed on its own rather than by the average of the hold."
+      ]
+    },
+    {
+      "id": "buckling-deformation",
+      "h": "Buckling and deformation: what the thickness gauge cannot tell you",
+      "p": [
+        "Thinner plating has less buckling strength, so buckling is often the visible symptom of wastage nobody has measured. Deck and bottom plating amidships carry the highest compressive loads from hull girder bending; bulkheads, webs and stringers in tanks carry compressive and shear loads from cargo and ballast. Typical findings are dished panels between stiffeners, tripped longitudinals, buckled web plating near openings and distorted corrugations.",
+        "Deformation also comes from contact: grab damage on bulk carrier inner bottoms and hoppers, tug and fender contact on the side shell, cargo-handling impact on coamings, and heavy-weather damage forward. We record each one by frame and longitudinal, with extent and depth measured against a straight edge or line, photograph it, and gauge the deformed panel and its neighbours. The surveyor decides whether it is acceptable, needs fairing or needs cropping and renewal; good measurements let that decision be made from the report rather than from memory of a dark tank."
+      ]
+    },
+    {
+      "id": "fatigue-cracking",
+      "h": "Fatigue cracking at known hot spots and magnetic particle crack detection",
+      "p": [
+        "Fatigue cracks start where stress concentrates and the load cycles: at weld toes, bracket ends, abrupt changes of section and cut-outs. Their locations are well documented for each ship type, so crack detection is aimed at specific details rather than spread thinly across the hull.",
+        "Magnetic particle testing is the usual method on hull steel. The weld and a band either side are cleaned to bare metal, or to a coating thin and sound enough for the procedure to remain sensitive, and examined with an electromagnetic yoke using colour-contrast or fluorescent ink to suit the lighting. Penetrant testing is used where the material is not ferromagnetic or the geometry will not take a yoke. Every indication is sketched, measured, photographed and located so the yard can find it again; where crack depth bears on the repair, ultrasonic testing of the weld helps judge how far it has run."
+      ],
+      "list": [
+        "Hatch corners: deck plating and coamings at cargo hatch corners on bulk carriers and container ships, where hull girder and torsional stresses meet a discontinuity.",
+        "Bracket toes: the ends of tripping brackets, longitudinal end brackets and web frame brackets, where a stiff detail stops abruptly on flexible plating.",
+        "Side-shell longitudinal connections: side longitudinal end connections to webs and bulkheads on tankers, loaded by cyclic wave pressure around the waterline.",
+        "Cut-outs: slots for longitudinals in webs, collar plates, scallops and drain holes, especially where the web is not attached to the longitudinal's flange.",
+        "Hopper knuckles and lower stools on bulk carriers, at the inner bottom to hopper junction and corrugated bulkhead stool connections."
+      ]
+    },
+    {
+      "id": "ballast-tank-coatings",
+      "h": "Ballast tank coating breakdown as a corrosion driver",
+      "p": [
+        "In ballast tanks the coating decides the corrosion rate. Seawater, wet-and-dry cycling and heat make them the most aggressive spaces on most ships, and upper parts under a sun-heated deck, or tanks next to heated cargo tanks or the engine room, corrode fastest. Once it breaks down, first at edges, welds and scallops and then in patches, corrosion proceeds locally and quickly, which is why heavily wasted members are so often found beside plating that still measures close to as-built.",
+        "Class rules reflect this. Ballast tank coatings are graded GOOD, FAIR or POOR at surveys, and on ESP ships a ballast tank with POOR coating, a soft or semi-hard coating, or no hard protective coating from new construction is examined at annual intervals from then on, with thickness measurement as the surveyor requires. Dedicated seawater ballast tanks on newer ships are coated to the IMO Performance Standard for Protective Coatings, which improves the starting point but does not remove the need to watch edges and welds.",
+        "While gauging we record the coating condition we see in the same GOOD, FAIR and POOR terms, with breakdown at edges and welds, hard scale and anode state, so each reading can be read against its cause. This supports the structural assessment; it is not a coating inspection. We do not hold coating-inspector certification and do not assess coating systems, film thickness or adhesion."
+      ]
+    },
+    {
+      "id": "class-use-of-data",
+      "h": "How class engineers use the thickness data",
+      "p": [
+        "The surveyor checks that the gauging covers what the survey requires, verifies readings on board and endorses the report. The thicknesses then feed two separate checks. Local strength is assessed member by member against allowable diminution or renewal thickness, which produces the list of plates and stiffeners to renew. Longitudinal strength is assessed for the hull girder: on ESP ships, transverse sections gauged within the 0.5L amidships region give class engineers the deck, bottom, side and bulkhead thicknesses they need to recalculate the hull girder section modulus against the rule requirement.",
+        "That calculation is the classification society's, not ours. Our job is the measured data it needs: readings on the transverse sections the surveyor selected, complete across every member, with original thicknesses from the approved drawings alongside. A longitudinal not reached or a strake not measured stops the calculation. The extent grows with each renewal survey, at around 5, 10, 15, 20 and 25 years, and on ESP ships the third renewal survey and later ones bring extensive gauging of cargo and ballast tank structure."
+      ]
+    },
+    {
+      "id": "who-may-measure",
+      "h": "When class rules decide who takes the readings",
+      "p": [
+        "Ship thickness measurement credited to a class survey must be carried out by a firm approved by that ship's classification society under IACS UR Z17, with the surveyor in attendance as the society requires; the same normally applies to gauging for a society's CAP. Tell us the vessel's class when you enquire.",
+        "Much structural integrity work sits outside that rule because nobody is crediting it to a survey: owner's condition gauging between surveys, pre-docking gauging that sizes the steel renewal before the yard writes its repair specification, tracking of substantial corrosion and suspect areas between class visits, a buyer's pre-purchase inspection, gauging at on-hire or off-hire, and crack detection campaigns at known fatigue details. The standard of work is the same; the client sets the scope."
+      ]
+    },
+    {
+      "id": "reporting",
+      "h": "What you receive after a structural integrity inspection",
+      "p": [
+        "Readings are reported member by member on the society's thickness-measurement formats when the work supports a survey, or on a structured owner's format otherwise, with original thickness, measured thickness, diminution and allowable wherever the original data exist. Substantial and excessive corrosion are flagged, not buried in tables. Pitting, grooving and edge corrosion carry their own measurements; deformations and crack indications come with sketches, photographs and locations. Pre-docking reports add a renewal list by member, location and approximate extent, giving yard and superintendent a shared starting point for the steel renewal estimate."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z10.1 to Z10.5 (enhanced surveys of oil tankers, bulk carriers, chemical tankers, double-hull oil tankers and double-skin bulk carriers)",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "IACS Common Structural Rules for Bulk Carriers and Oil Tankers",
+    "IMO Performance Standard for Protective Coatings, resolution MSC.215(82)",
+    "ASTM E797 (ultrasonic thickness measurement by the manual pulse-echo contact method)",
+    "ASTM E709 and ISO 17638 (magnetic particle testing)",
+    "ISO 3452-1 (penetrant testing)",
+    "ASNT SNT-TC-1A (personnel qualification and certification)"
+  ],
+  "deliverables": [
+    "Thickness readings by member on the class formats or an owner's format, with original thickness, diminution and allowable",
+    "Flagged list of substantial corrosion, excessive corrosion and suspect areas",
+    "Pitting, grooving and edge corrosion measurements reported separately from general plate thickness",
+    "Complete transverse section readings for the class longitudinal strength evaluation",
+    "Deformation records with location, extent, depth and photographs",
+    "Crack indication sketches, lengths, locations and photographs from MT or PT",
+    "Observed coating condition and anode state by tank",
+    "Steel renewal list for pre-docking planning"
+  ],
+  "industries": [
+    "Bulk carriers",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Container ships",
+    "General cargo ships",
+    "Ship managers preparing renewal surveys",
+    "Buyers' technical teams on pre-purchase inspections",
+    "Owners and charterers on on-hire and off-hire surveys"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between substantial and excessive corrosion?",
+      "a": "Substantial corrosion is wastage beyond three-quarters of a member's allowable margin but still within acceptable limits; the member stays in service and class records it for re-gauging at later surveys. Excessive corrosion is wastage beyond the allowable margin, and the member must be renewed or repaired to the classification society's satisfaction before the survey is completed. The margin comes from the ship's class rules or, for Common Structural Rules ships, from the renewal thickness on the drawings."
+    },
+    {
+      "q": "Can ultrasonic thickness measurement find fatigue cracks?",
+      "a": "Not reliably. A thickness gauge measures the wall under the probe, and a fatigue crack running from a weld toe or bracket end is a surface-breaking planar defect that a thickness reading will usually miss. Cracks are found by close visual examination and confirmed with magnetic particle testing, or penetrant testing where MT is not practical. We plan crack detection as a separate task at the known fatigue details, with surface preparation and access arranged for it."
+    },
+    {
+      "q": "What access and preparation does the ship need to arrange?",
+      "a": "Tanks must be gas-free, ventilated and certified safe for entry, with lighting and the ship's enclosed-space entry procedure in force. Staging, cherry pickers or rafting for upper structure are arranged by the owner or the yard. Loose scale is removed at each UT point, and areas for MT are cleaned to bare metal or a thin, sound coating."
+    },
+    {
+      "q": "Is a structural integrity inspection worth including in a pre-purchase inspection?",
+      "a": "It is often the most informative part. The seller's survey status shows what class has recorded; spot gauging of known weak areas, such as ballast tank upper structure, cargo tank bottom plating and hold frames on bulk carriers, together with a look at the fatigue details, tells the buyer what the next renewal survey is likely to find. The extent depends on what the seller allows and how long the ship is available."
+    },
+    {
+      "q": "Do you inspect ballast tank coatings?",
+      "a": "We record the coating condition we see while gauging, using the GOOD, FAIR and POOR terms class uses, and note breakdown at edges and welds and the state of the anodes. That observation helps explain the readings. We do not offer formal coating inspection or coating-system assessment and do not hold coating-inspector certification; if you need one, it should be arranged separately."
+    },
+    {
+      "q": "How early should we book hull gauging ahead of a 15-year special survey?",
+      "a": "As soon as the docking window is known. Our technicians travel from India, so visas, travel and yard access are arranged against the yard's schedule, and we prefer to review the drawings, the previous thickness report and the survey requirements before the team flies. For ESP ships at their third renewal survey or later, pre-docking gauging also gives the yard a steel renewal estimate early enough to order steel and plan the work."
+    }
+  ]
+}

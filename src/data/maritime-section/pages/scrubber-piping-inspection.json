@@ -1,0 +1,210 @@
+{
+  "slug": "scrubber-piping-inspection",
+  "navLabel": "Scrubber pipe inspection",
+  "title": "Scrubber Pipe Inspection | EGCS Wash-Water & Overboard",
+  "description": "Scrubber pipe inspection for EGCS wash-water piping and overboard discharge: UT of metallic lines, GRE visual checks, MT/PT on welds, in-service intervals.",
+  "h1": "Scrubber (EGCS) pipe inspection: wash-water piping and overboard discharge",
+  "eyebrow": "Maritime inspection",
+  "intro": "An exhaust gas cleaning system sends hot, acidic, chloride-rich water through pipework that ends at an opening in the ship's side. The wash-water piping and the overboard discharge are where scrubbers most often fail in service, and a failure there can flood an engine room. Atlantis NDT inspects EGCS wash-water and overboard piping with ultrasonic thickness measurement (UTM) on metallic sections, visual examination of GRE runs and accessible internals, and magnetic particle or penetrant testing on welds. Teams are mobilised from India, between dockings or at the yard.",
+  "highlights": [
+    {
+      "h": "The distance piece comes first",
+      "p": "The section between the overboard valve and the shell cannot be isolated by closing the valve. It is gauged on every visit, around its full circumference and along its accessible length, together with its weld to the shell."
+    },
+    {
+      "h": "Method matched to material",
+      "p": "UT thickness on carbon steel, duplex and super duplex; visual examination of linings, GRE and accessible internals; penetrant testing on duplex welds; and a plain statement of what conventional UT cannot tell you about GRE."
+    },
+    {
+      "h": "Intervals set from your own data",
+      "p": "Repeat readings at fixed locations give a wall loss rate for each critical section, so the next inspection between dockings is set from the ship's own corrosion rather than a general rule of thumb."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-scrubber-piping-fails",
+      "h": "Why scrubber wash-water piping fails",
+      "p": [
+        "A scrubber removes sulphur oxides by washing the exhaust with water, and the water leaves the tower carrying what it has absorbed. Fresh from the tower it is acidic, warm and high in chlorides, and it moves at velocity through bends, reducers and valves on its way down to the overboard. Carbon steel corrodes quickly once its lining or coating is breached, some stainless grades suffer pitting and crevice corrosion, and erosion at changes of direction strips protective films and linings alike.",
+        "The failures that followed the 2020 global sulphur cap, when many ships were retrofitted in a short period, are documented in P&I club and class society loss-prevention notes: wasted overboard pipes and distance pieces, corroded scrubber sea chests, failed GRE joints, and wash water reaching machinery spaces. Poorly sloped runs where acidic water lies, breaks in coatings and linings, unprotected flange faces and galvanic couples between dissimilar metals recur as causes. The IMO's 2021 EGCS Guidelines themselves note that design must balance low-pH discharge against the corrosion resistance of the surfaces it touches, and that surface preparation and protective coatings should prevent premature failure of sea chests, discharge pipework and hull penetrations."
+      ]
+    },
+    {
+      "id": "open-closed-hybrid",
+      "h": "Open-loop, closed-loop and hybrid systems: what the piping sees",
+      "p": [
+        "Open-loop systems put the largest volumes of acidic water through the overboard and concentrate damage there. Closed-loop systems discharge far less but circulate warm, chloride-rich water continuously and depend on correct dosing; a dosing or cooling upset changes the chemistry the piping sees. Hybrid ships that spend more time in closed-loop mode because of local discharge rules shift wear from one circuit to the other, and an inspection plan written for open-loop operation can miss it."
+      ],
+      "table": {
+        "head": [
+          "System",
+          "How wash water is handled",
+          "Piping most exposed"
+        ],
+        "rows": [
+          [
+            "Open-loop",
+            "Seawater is pumped through the tower, its natural alkalinity neutralises the sulphur oxides, and the wash water is monitored and discharged overboard, usually with dilution",
+            "Tower outlet and drain lines, any mixing or reaction section, the overboard line, valve, distance piece and diffuser"
+          ],
+          [
+            "Closed-loop",
+            "Fresh water dosed with an alkali such as caustic soda is circulated and cooled; a small bleed-off is treated and discharged where permitted or held in a holding tank, and residues are landed ashore",
+            "Circulation and cooler lines, bleed-off and treatment lines, holding tank connections, the bleed-off overboard"
+          ],
+          [
+            "Hybrid",
+            "Runs open-loop where discharge is permitted and closed-loop where it is not or where seawater alkalinity is low",
+            "Both circuits, with mode changes altering temperature, chemistry and flow through shared sections"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "overboard-discharge",
+      "h": "The overboard discharge pipe and hull penetration: the known failure location",
+      "p": [
+        "The overboard line runs down to the shell valve; outboard of the valve, a short distance piece connects it to the shell plating, often through an insert plate or doubler, and in some designs through a discharge box or sea chest with a diffuser to dilute the plume. The distance piece is the weak point. It is outboard of the only valve, so closing the valve does not stop a leak through it, and a hole there admits seawater at the ship's draught straight into the machinery space. Temporary plugging is difficult because of the size and position of the connection.",
+        "Damage concentrates on the bore of the distance piece and its weld to the shell, inside any discharge box, and on the shell plating around and aft of the outlet where the plume runs along the hull. Where a duplex or super duplex distance piece joins a carbon steel shell, the steel side is the anode of a galvanic couple and can waste quickly. Some classification societies now ask for scrubber overboard pipe wall thickness to be verified at annual surveys, and P&I club guidance has recommended gauging the distance piece more often than that where it can be reached.",
+        "Our inspection follows that order of risk. From inside the ship, the distance piece and overboard line are gauged on a dense circumferential grid along their accessible length, the valve body is examined, and the welds to the shell and insert are tested with MT on carbon steel or PT on duplex. At docking, the shell plating around and aft of the outlet is gauged and examined, the diffuser and its attachment are inspected, and the bore of the distance piece is examined from outside the hull."
+      ]
+    },
+    {
+      "id": "materials",
+      "h": "Scrubber piping materials and the inspection that suits each",
+      "p": [
+        "Scrubber installations use several materials, often in one system, and each needs a different approach, so planning starts from the maker's piping specification and the yard's as-fitted drawings. Penetrant testing, not magnetic particle testing, is the usual surface method on duplex and super duplex welds, and the only one of the two that works on austenitic stainless steel. On lined steel the outside of the pipe says nothing about the lining, but the steel wall readings show whether corrosion has started behind it; internal visual where it can be had and external UT everywhere together give a defensible picture."
+      ],
+      "table": {
+        "head": [
+          "Material",
+          "Where it is used",
+          "Inspection that works",
+          "Limits"
+        ],
+        "rows": [
+          [
+            "Carbon steel with epoxy or glass-flake lining",
+            "Overboard lines, discharge boxes, larger wash-water runs",
+            "UT of the steel wall from outside on a dense grid; internal visual of the lining where accessible; MT on welds",
+            "UT measures steel, not lining condition; local attack under a failed lining needs close grid spacing or scanning to find"
+          ],
+          [
+            "Rubber-lined carbon steel",
+            "Wash-water lines and pump connections",
+            "UT from outside; visual of the lining at open flanges, removed spools and at docking",
+            "Disbonding and cracking of the rubber are not visible from outside; UT finds the steel loss once corrosion has started"
+          ],
+          [
+            "GRE / GRP",
+            "Wash-water and seawater lines, often long runs in the casing",
+            "Visual examination of surface, joints, flanges and supports; internal visual at open ends",
+            "Conventional UT does not give dependable wall thickness; MT does not apply"
+          ],
+          [
+            "Duplex and super duplex stainless steel",
+            "Distance pieces, overboard sections, tower outlet piping",
+            "UT with velocity calibrated on the same alloy; PT on welds; visual for pitting and crevice attack at flanges",
+            "Galvanic effect on adjoining carbon steel must be checked on the steel side"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gre-limits",
+      "h": "Limits of UT on GRE scrubber piping",
+      "p": [
+        "Glass-reinforced epoxy is used for wash-water lines because it does not corrode, but it does fail: at bonded or laminated joints that were poorly made or cured, where inadequate support lets the pipe sag or vibrate, where a temperature upset exceeds the resin's limits, and at transitions to metallic sections. The failure modes are delamination, cracking, weeping through the laminate and joint separation, not general wall loss.",
+        "Conventional thickness gauges are designed for homogeneous metals. In a laminate of glass fibre and resin, sound is scattered and attenuated at every layer, velocity varies with fibre content and direction, and the bore echo is weak or confused with reflections from within the wall. A number on the display is not a dependable wall thickness, and we do not report one. Specialised techniques for composite inspection exist, but they are not part of our service.",
+        "What we do on GRE is a structured visual examination: the external surface for whitening, cracking, weeping and impact damage; every joint and flange for signs of movement or leakage; supports and guides for spacing, condition and chafe; and, where a spool is open, the bore for erosion and blistering. The connection between the overboard valve and the shell is metallic and is inspected with the overboard."
+      ]
+    },
+    {
+      "id": "regulation",
+      "h": "MARPOL Annex VI regulation 14 and the 2021 EGCS Guidelines",
+      "p": [
+        "MARPOL Annex VI regulation 14 limits the sulphur content of fuel oil used on board to 0.50% m/m globally from 1 January 2020 and to 0.10% m/m inside emission control areas: the Baltic Sea, the North Sea including the English Channel, the North American and United States Caribbean Sea areas and, since 1 May 2025, the Mediterranean Sea. A scrubber lets a ship burn higher-sulphur fuel by achieving an equivalent emission level, accepted by the flag Administration under regulation 4 of the Annex.",
+        "The 2021 Guidelines for Exhaust Gas Cleaning Systems, resolution MEPC.340(77), set how a system is certified and operated: unit certification with continuous monitoring of operating parameters (Scheme A) or continuous emission monitoring (Scheme B); discharge criteria for pH, polycyclic aromatic hydrocarbons, turbidity and nitrates; and the documents the ship carries, including the SOx Emissions Compliance Plan, the Onboard Monitoring Manual and the EGCS record book. Residues must be landed ashore, not discharged or incinerated. The guidelines superseded the 2015 version for systems on ships built, or delivered to existing ships, from 1 June 2022.",
+        "What they do not set is an inspection regime for the piping. Piping integrity sits with the class rules for the installation and its shell connections, the maker's instructions and the owner's planned maintenance system, which is why the interval is the owner's decision, informed by class, the maker and the evidence from the ship."
+      ]
+    },
+    {
+      "id": "discharge-restrictions",
+      "h": "Ports and coastal states that restrict open-loop discharge",
+      "p": [
+        "A number of ports and coastal states restrict or prohibit the discharge of open-loop wash water in their waters, and the rules change. Affected ships switch to closed-loop operation if they have hybrid systems, or to compliant fuel if they do not. For the piping, that changes the duty: closed-loop circuits and holding tanks work harder on ships trading where open-loop is restricted, while open-loop systems may sit idle and partly drained, leaving acidic residue in low points.",
+        "An inspection plan should therefore follow how the system has actually been run since the last docking, not how it was designed to run."
+      ]
+    },
+    {
+      "id": "intervals",
+      "h": "Inspection intervals between docking",
+      "p": [
+        "There is no single correct interval for scrubber pipe inspection. Start with a baseline at installation or the first docking after it, repeat the readings at the same fixed locations at the next opportunity, and use the wall loss between rounds to set the next inspection, always well before the worst location reaches its minimum. A section losing little wall can wait longer; one losing it quickly is inspected sooner and its renewal planned for the next docking.",
+        "Much of the system can be inspected in service. The overboard line, valve and distance piece are reached from inside the engine room or casing, and external UT does not need the line drained; the scrubber is normally taken out of operation and the section isolated while the team works near the overboard, under the ship's own procedures. Pre-docking gauging gives the yard renewal lengths in time to prefabricate spools, so renewal fits inside the docking rather than extending it."
+      ]
+    },
+    {
+      "id": "consequences",
+      "h": "What happens when scrubber piping fails",
+      "p": [
+        "A wash-water leak inside the ship sprays hot, acidic water over whatever lies beneath it, often electrical equipment and cable trays, and corrodes structure never meant to see it. A leak through the distance piece or the shell around it is worse: a hull breach near or below the waterline that the overboard valve cannot isolate, and P&I clubs have recorded engine room flooding from exactly this cause. Wash water backing up from the tower towards the engines when a high-level alarm or drain fails has caused loss of propulsion.",
+        "An EGCS that cannot run means burning compliant fuel and following the flag State's and IMO guidance on reporting a malfunction. Class may impose a condition of class requiring pipe renewal. A port state control officer who finds a leaking overboard, an unapproved temporary repair or a system not operating as certified has grounds for a deficiency or detention, and a repair afloat may not be possible at all, depending on where the ship is. Against that, gauging the critical sections at planned intervals is a short, schedulable job."
+      ]
+    }
+  ],
+  "codes": [
+    "MARPOL Annex VI, regulation 14 (sulphur oxides and particulate matter)",
+    "MARPOL Annex VI, regulation 4 (equivalents)",
+    "2021 Guidelines for Exhaust Gas Cleaning Systems, resolution MEPC.340(77)",
+    "IMO resolution A.753(18), Guidelines for the application of plastic pipes on ships, as amended",
+    "Classification society rules for EGCS installations, piping and shell connections",
+    "ISO 16809 and ASTM E797 (ultrasonic thickness measurement)",
+    "ISO 17638 (magnetic particle testing of welds)",
+    "ISO 3452-1 (penetrant testing)",
+    "ASNT SNT-TC-1A (personnel qualification and certification)"
+  ],
+  "deliverables": [
+    "Circumferential UT grid readings on the distance piece and overboard line, with minimum wall per location",
+    "Wash-water line readings at bends, reducers, valves and low points, on isometric sketches",
+    "MT or PT results on distance piece, insert and shell welds",
+    "Visual examination record for GRE runs, joints, supports and accessible internals",
+    "Shell plating readings around and aft of the outlet at docking",
+    "Wall loss rates and a recommended next inspection point for each critical section",
+    "Spool and section renewal list for pre-docking planning"
+  ],
+  "industries": [
+    "Container ships",
+    "Crude and product tankers",
+    "Bulk carriers",
+    "Car carriers and ro-ro ships",
+    "Cruise ships and ro-pax ferries",
+    "Ship managers and owners' technical departments"
+  ],
+  "faqs": [
+    {
+      "q": "Which part of a scrubber's piping fails most often?",
+      "a": "The overboard discharge: the distance piece between the overboard valve and the shell, its weld to the shell plating, any discharge box or sea chest, and the shell around the outlet. Wash water there may not yet be diluted, coatings fail at their edges, and the section lies outboard of the only valve."
+    },
+    {
+      "q": "Can the overboard pipe be inspected without drydocking?",
+      "a": "Most of it, yes. The overboard line, the valve and the distance piece can be gauged from inside the ship on a dense grid along their accessible length, with the scrubber out of service and the section isolated as the ship's procedures require. The shell plating around the outlet, the diffuser and the bore of the distance piece are inspected at docking."
+    },
+    {
+      "q": "Can you measure the wall thickness of GRE scrubber pipes?",
+      "a": "Not with conventional ultrasonic thickness gauging, and we will not report a number we cannot stand behind. The laminate scatters and attenuates sound and its velocity varies, so a gauge reading is not a dependable thickness. We inspect GRE visually, covering surface, joints, flanges, supports and the accessible bore, and gauge the metallic sections, which is where wall loss actually happens."
+    },
+    {
+      "q": "Does scrubber pipe inspection need a firm with class approval?",
+      "a": "Not for condition monitoring between surveys, which is the owner's maintenance work. Where a classification society requires the overboard pipe thickness to be verified at a survey and the reading is to be credited to it, the society's rules on who may take it apply: thickness measurement credited to a class survey must be carried out by a firm approved by that ship's classification society under IACS UR Z17. Tell us the vessel's class when you enquire."
+    },
+    {
+      "q": "Do you inspect the scrubber tower and monitoring equipment?",
+      "a": "Our scope is the wash-water and seawater piping, the overboard discharge and the shell plating around it. Tower internals, spray nozzles, demisters, wash-water monitoring instruments and emission monitoring belong to the maker's service engineers and to the EGCS surveys under the 2021 Guidelines, and we do not offer inspection of them."
+    },
+    {
+      "q": "What do you need from us to plan a scrubber piping inspection?",
+      "a": "The system type and maker, the piping diagrams and material specification, as-fitted drawings of the overboard and its shell connection, previous inspection reports and repairs since installation, and the operating history: open-loop and closed-loop use and periods out of service. With the port, dates and the ship's agent, we can plan the team's travel from India and the visas it needs."
+    }
+  ]
+}

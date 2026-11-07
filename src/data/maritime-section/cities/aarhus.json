@@ -1,0 +1,107 @@
+{
+  "slug": "aarhus",
+  "name": "Aarhus",
+  "country": "Denmark",
+  "region": "europe",
+  "title": "UTM Thickness Gauging Aarhus | Feeder & Bulk Ship Hulls",
+  "description": "Ultrasonic thickness gauging in Aarhus for feeder ships, bulk carriers and tankers: hull structure, ballast tanks, pre-docking and renewal surveys.",
+  "h1": "Ultrasonic Thickness Gauging for Ships at the Port of Aarhus",
+  "intro": "Aarhus is Denmark's largest container port and a busy short-sea hub for feeders, agricultural bulk carriers, product tankers and Kattegat ferries. When a superintendent needs hull structure, ballast tanks or piping measured during an Aarhus call, Atlantis NDT can mobilise a team from India to the ship and fit the gauging around the short port stays that feeder and short-sea schedules allow.",
+  "keywords": [
+    "thickness gauging aarhus",
+    "utm thickness gauging aarhus",
+    "aarhus hull gauging",
+    "ultrasonic thickness gauging",
+    "feeder ship inspection",
+    "bulk carrier thickness measurement",
+    "ballast tank gauging",
+    "pre-docking gauging",
+    "renewal survey thickness measurement",
+    "ship thickness measurement denmark"
+  ],
+  "highlights": [
+    {
+      "h": "Quick feeder calls, planned scope",
+      "p": "Feeder container ships in Aarhus often turn round quickly. We agree in advance which ballast tanks and deck areas will be opened, so measurement runs alongside cargo operations instead of delaying departure."
+    },
+    {
+      "h": "Grain and feed carriers",
+      "p": "Bulk carriers loading or discharging grain and feed at Aarhus have holds exposed to abrasion and damp cargo residues. Hold frames, hopper plating and tank tops are the usual gauging focus before a renewal survey."
+    },
+    {
+      "h": "Kattegat, inside the Baltic ECA",
+      "p": "Aarhus Bay opens onto the Kattegat, part of the Baltic Sea SOx ECA. Feeders and short-sea ships mostly burn 0.10% sulphur fuel, while larger scrubber-fitted callers need their overboard piping checked."
+    }
+  ],
+  "port": {
+    "h": "The Port of Aarhus and the ships that call there",
+    "p": [
+      "Aarhus is Denmark's largest container port, and its container terminal, operated by APM Terminals, is served mainly by feeder and short-sea services linking Jutland with the hub ports of the North Sea and the Baltic. These feeders are small to medium container ships on tight rotations, often making several Danish and Baltic calls in a week. Alongside them the port handles agricultural and industrial bulk such as grain, feed and building materials, product tankers serving the oil harbour, ro-ro and general cargo, and the fast ferries that cross the Kattegat to Odden on Zealand.",
+      "What makes Aarhus different from a hub port is the length of the stay. A feeder may berth, discharge and load within a single shift, which leaves little time for tank entry. Bulk carriers and general cargo ships usually stay longer, especially when discharging grain or feed with shore equipment, and their ballast tanks are often empty and accessible during discharge, which makes it a practical moment for gauging. Product tankers at the oil harbour remain for the length of discharge, with cargo tanks closed but some ballast and deck structure within reach. Ro-ro and general cargo ships fall between the two, with stays that depend on how much cargo is worked by the ship's own gear and how quickly the berth is needed for the next caller.",
+      "Inspection demand in Aarhus therefore tends to be targeted rather than extensive. Typical requests are condition checks on specific ballast tanks before a docking decision, follow-up measurements after a class surveyor or port state control officer has recorded wastage, and pre-purchase gauging of short-sea tonnage that Danish and other European operators are buying second-hand. Many of these ships are past their second or third renewal survey, so the gauging is often about confirming whether corrosion previously recorded as substantial has progressed to the point where renewal is required."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in and around Aarhus",
+    "p": [
+      "Inside the port, the container terminal, the bulk and general cargo quays and the oil harbour are all ISPS facilities with their own access rules, and gauging is arranged through the ship's agent and the terminal. Bulk quays tend to give the most room for work alongside: holds can be measured between discharge and loading, and ballast tanks emptied during discharge can be entered once the ship has certified them safe. On the container terminal, crane schedules decide when deck areas are clear, so the team works to the terminal planner's sequence and stops when cranes move over the area.",
+      "For docking, ships calling at Aarhus generally go to yards elsewhere. Fayard at Munkebo on Funen is the nearest large Danish repair yard, and Ørskov Yard in Frederikshavn serves northern Jutland; many short-sea operators also dock in Poland or the Baltic states. When the renewal survey is booked at one of those yards, an Aarhus call beforehand is a useful chance to carry out pre-docking gauging and settle the steel renewal estimate before the yard stay begins, rather than discovering the scope once the ship is in dock."
+    ],
+    "list": [
+      "Container terminal (APM Terminals Aarhus) — ballast tank and deck gauging on feeder container ships, timed around crane work and agreed with the terminal.",
+      "Bulk and general cargo quays — hold frames, hopper plating and tank-top measurement on grain and feed carriers between discharge and loading.",
+      "Oil harbour — deck, void-space and ballast tank gauging on product tankers during discharge, with cargo tanks left closed.",
+      "Ferry and ro-ro berths — machinery-space piping and vehicle-deck measurements on Kattegat ferries and ro-ro ships outside their timetabled sailings.",
+      "Fayard, Munkebo — renewal and docking-survey gauging for Aarhus-trading ships routed to Funen for repair.",
+      "Ørskov Yard, Frederikshavn — docking gauging and repair-scope measurement on short-sea ships and ferries in northern Jutland."
+    ]
+  },
+  "context": {
+    "h": "Regulation and market context for Aarhus",
+    "p": [
+      "Denmark is a Paris MoU member, and Aarhus sees a steady flow of older short-sea and feeder tonnage, which the Paris MoU risk profile weights towards more frequent inspection as ships age. Corrosion found during port state control — wasted air pipes, holed ventilators, thinning in deck plating around hatch coamings — often produces a requirement to measure and repair before departure or at the next port. Gauging and reporting the affected structure during the Aarhus stay helps the ship and its class settle the repair scope with the surveyor without losing a further call.",
+      "The Kattegat lies within the Baltic Sea SOx ECA, so ships calling at Aarhus burn 0.10% sulphur fuel or use exhaust gas cleaning systems. As an EU member, Denmark applies the EU ETS to shipping from 2024 and FuelEU Maritime from 2025, and short-sea operators are weighing whether to keep, retrofit or replace older tonnage. Each of those decisions benefits from current thickness data: a retrofit docking needs a steel renewal estimate, a sale needs a credible condition record, and an extended trading life needs a clear view of where corrosion is heading. Winter ice is not normally a factor in Aarhus Bay, but feeders and bulk carriers that continue into the Gulf of Bothnia often carry Finnish-Swedish ice class, and their ice belts warrant separate attention."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Aarhus",
+    "p": "Aarhus jobs are usually compact: a defined set of tanks or structural areas, measured within a port stay and reported before the ship sails or shortly after. Larger renewal-survey scopes are normally carried out at the docking yard, with an Aarhus call used for pre-docking measurements and for confirming which spaces the yard should prepare first, so that the docking starts with the worst areas already identified.",
+    "list": [
+      "Pre-docking gauging of selected ballast tanks on a feeder container ship during an Aarhus call, so the operator can fix the steel renewal estimate before contracting a Polish yard.",
+      "Hold frame and hopper plating measurement on a grain carrier discharging at the bulk quays, following a class recommendation on wastage at the lower frame brackets.",
+      "Bulk carrier thickness measurement for a buyer inspecting a second-hand short-sea ship in Aarhus, covering cargo holds, ballast tanks and main deck.",
+      "Follow-up gauging after a port state control inspection recorded corroded deck plating and air pipes, with results sent to the class surveyor for the repair decision.",
+      "Ballast tank gauging on a product tanker at the oil harbour to monitor corrosion recorded as substantial at the last survey."
+    ]
+  },
+  "logistics": "Billund Airport is the main international gateway for central and southern Jutland, with Aarhus Airport and Copenhagen Airport as alternatives and frequent rail services from Copenhagen to Aarhus. The container terminal, bulk quays and oil harbour are controlled under the ISPS Code, and the ship's agent arranges gate passes for named technicians. Feeder schedules can change at short notice, so we stay in close contact with the agent on berthing times. Denmark is a Schengen state and the team travels from India on Schengen visas; visa lead times mean planned work should be booked as early as possible.",
+  "vessels": [
+    "Feeder container ships",
+    "Bulk carriers",
+    "General cargo ships",
+    "Product tankers",
+    "Ro-ro cargo ships",
+    "Ro-pax and fast ferries"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a feeder ship within a single Aarhus port stay?",
+      "a": "For a defined scope, often yes. If the ballast tanks to be measured are agreed beforehand, emptied and certified safe for entry, the team can work while cargo operations continue. Extensive scopes covering many tanks, cargo holds or the full shell need longer and are better planned for a lay-by or the docking yard, and we help the superintendent split the scope accordingly."
+    },
+    {
+      "q": "Which areas usually wear first on grain and feed carriers calling at Aarhus?",
+      "a": "Hold frames and their lower brackets, hopper plating and tank tops take the most abrasion and corrosion from grab handling and from cargo residues mixed with moisture. Ballast tanks behind the hold plating, especially topside and hopper tanks, are the other usual concern. Those areas are where we focus pre-survey gauging, and where close-up survey findings most often lead to repair requirements."
+    },
+    {
+      "q": "Do Aarhus calls suit pre-purchase gauging?",
+      "a": "They can, particularly for bulk and general cargo ships whose holds and ballast tanks are accessible during discharge. Pre-purchase gauging needs the seller's agreement for tank entry and depends on the time available in port. We measure the areas the buyer's technical team selects and report against the original thicknesses, so the buyer sees the condition before the purchase is concluded."
+    },
+    {
+      "q": "What happens if significant wastage is found shortly before departure?",
+      "a": "We report readings to the master and superintendent as each area is completed, so the owner and class surveyor can decide on repairs, temporary measures or a condition of class while the ship is still in Aarhus. Readings are recorded on the class TM formats, which lets the surveyor compare them directly with the allowable diminution for each structural member."
+    }
+  ],
+  "nearby": ["copenhagen", "esbjerg", "gothenburg", "malmo", "kiel"]
+}

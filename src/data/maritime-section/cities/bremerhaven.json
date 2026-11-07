@@ -1,0 +1,108 @@
+{
+  "slug": "bremerhaven",
+  "name": "Bremerhaven",
+  "country": "Germany",
+  "region": "europe",
+  "title": "UTM and Hull Thickness Gauging in Bremerhaven",
+  "description": "Thickness measurement in Bremerhaven for container ships and car carriers: hull structure UTM, pre-docking gauging at the dry docks and scrubber piping.",
+  "h1": "Hull Thickness Gauging for Container Ships and Car Carriers in Bremerhaven",
+  "intro": "Bremerhaven pairs a long container quay on the open Weser with a car terminal that ships vehicles around the world, and the dry docks in the Fischereihafen and the overseas port give those ships somewhere to be repaired. Superintendents ask for thickness gauging in Bremerhaven on car carriers between cargoes, on container ships at the river quay, and before and during dockings. Each job is carried out by a team we mobilise from India to the vessel.",
+  "keywords": [
+    "hull thickness gauging in bremerhaven",
+    "thickness measurement in bremerhaven",
+    "thickness gauging in bremerhaven",
+    "utm in bremerhaven",
+    "bredo dry docks",
+    "car carrier gauging",
+    "pctc inspection bremerhaven",
+    "container ship thickness measurement bremerhaven",
+    "ship inspection bremerhaven",
+    "hull gauging in bremerhaven"
+  ],
+  "highlights": [
+    {
+      "h": "Car carriers behind the locks",
+      "p": "Vehicle carriers load and discharge at the car terminal inside the Kaiserschleuse and Nordschleuse locks. Clear decks between discharge and loading allow car-deck, ramp and hoistable-deck gauging, with crack detection at the supports."
+    },
+    {
+      "h": "Container quay on the tidal Weser",
+      "p": "Deep-sea container ships berth along the river quay outside the locks and work to tight liner schedules. Scrubber lines, deck and hatch coaming structure are gauged within the cargo window under the ship's permits."
+    },
+    {
+      "h": "Bredo and the Fischereihafen yards",
+      "p": "Bredo Dry Docks and other repair yards in the port dock container ships, ro-ro ships and offshore vessels. Gauging at the preceding terminal call lets the yard plan its steel before the ship enters dock."
+    }
+  ],
+  "port": {
+    "h": "Bremerhaven on the Weser: terminals, locks and ships",
+    "p": [
+      "Bremerhaven sits at the mouth of the Weser as the seaport of the state of Bremen, with bremenports managing the port infrastructure. The container terminals stretch along the open river, where deep-sea services from Asia and the Americas berth without passing a lock. Behind the Kaiserschleuse and Nordschleuse locks, the overseas port basins hold the car terminal, ro-ro and breakbulk berths, and repair quays. Further south, the Fischereihafen area combines a fishing port, food industry and ship-repair yards, and the Columbus Cruise Center handles cruise calls.",
+      "The split between river and basins shapes how ships use the port. Container ships at the river quay come and go on liner schedules, with tide and draught governing departures for the largest of them. Vehicle carriers inside the locks often discharge and load in one call, which leaves a gap with empty decks, and vehicle carriers on liner-style rotations come back to Bremerhaven repeatedly, so a superintendent can spread a gauging programme over successive calls instead of forcing it into one. Ro-ro and project-cargo ships load in stages. The repair yards bring in ships for docking, and offshore wind and research vessels lie alongside between campaigns. Vessels kept waiting for a berth lie at anchor off the Weser mouth or further out in the German Bight.",
+      "Inspection demand here is unusually weighted toward vehicle carriers. Their internal decks, hoistable decks, ramps and side and stern doors carry repeated loads, and the high-and-heavy cargo many of them carry, such as construction machinery, agricultural equipment and rolling stock, concentrates loads on decks and ramps. Because vehicle carriers rarely enter dry dock outside their survey cycle, the terminal call is often the only chance between dockings to measure deck plating under the cargo. Container ships add scrubber piping and hatch coaming work, while dockings in the Fischereihafen bring complete renewal programmes on container ships, ro-ro ships and offshore vessels."
+    ]
+  },
+  "facilities": {
+    "h": "Where Bremerhaven gauging is carried out",
+    "p": [
+      "Bredo Dry Docks, in the Fischereihafen area, operates floating docks that take container ships, ro-ro ships, offshore vessels and other commercial ships, and further repair yards and quays in the port handle afloat work. In dock, hull gauging in Bremerhaven follows the TM plan and the class surveyor's close-up programme. The car terminal, ro-ro berths and breakbulk quays inside the locks are the main afloat workplaces, with time set by the cargo operation and safe access to the decks provided by the ship.",
+      "On the river, the container terminals allow work aboard within the ship's own permit system while cargo continues, which suits scrubber piping, deck structure and hatch coamings. The cruise terminal sees passenger ships whose turnaround days are packed, so gauging there is limited to tightly defined scopes such as specific tanks or piping runs. Offshore wind installation and support vessels laid up in the basins between projects are among the easiest ships to gauge thoroughly, because they are idle and their crews can open tanks and voids without cargo pressure. Ships at the outer anchorages are reached by launch, for small jobs only."
+    ],
+    "list": [
+      "Bredo Dry Docks, Fischereihafen — in-dock renewal and intermediate survey gauging on container ships, ro-ro ships and offshore vessels, with renewal plates marked for the yard.",
+      "Car terminal inside the Kaiserschleuse and Nordschleuse — car carrier gauging of fixed and hoistable decks, ramps and door structure between discharge and loading.",
+      "Container terminals on the Weser river quay — scrubber discharge lines, hatch coamings and deck plating measured during a liner call.",
+      "Ro-ro and breakbulk berths in the overseas port basins — main-deck, tank-top and hold gauging on ro-ro and project-cargo ships during staged loading.",
+      "Lay-by berths in the overseas port — longer jobs on offshore and research vessels between campaigns, including tanks, voids and crane pedestals.",
+      "Columbus Cruise Center — narrowly scoped tank and piping gauging on cruise ships during their turnaround."
+    ]
+  },
+  "context": {
+    "h": "What drives inspection demand around Bremerhaven",
+    "p": [
+      "Bremerhaven is a German port under Paris MoU port state control, and the Weser estuary falls within the North Sea SOx ECA, which holds fuel sulphur to 0.10%. Container ships arriving from long-haul routes switch fuel or run scrubbers before they enter the ECA, and the wash-water and overboard lines on those scrubbers are a known wastage area that rewards regular gauging. Local restrictions on open-loop discharge in port waters should be confirmed with the agent before each call.",
+      "The car terminal handles German-built vehicles for export as well as imports, together with high-and-heavy cargo such as construction and agricultural machinery, so the vehicle carriers here range from pure car carriers to heavy-deck ro-ro designs. Owners are renewing these fleets with new dual-fuel ships, and the older vessels that keep trading on European routes now carry carbon obligations under EU ETS (for shipping from 2024) and FuelEU Maritime (from 2025). Whether an older PCTC is worth another five-year cycle depends partly on how much deck and ramp steel it will need, and gauging during a Bremerhaven call can answer that question with measurements."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Bremerhaven gauging scopes for car carriers, container ships and dockings",
+    "p": "UTM in Bremerhaven varies with where the ship lies. Inside the locks, vehicle carriers and ro-ro ships give a window with clear decks; on the river, container ships give a short working call; in the yards, the docking programme sets the pace. Crack detection at known fatigue details is a common addition on vehicle carriers. Typical jobs at this port include the following.",
+    "list": [
+      "A PCTC between discharge and loading at the car terminal: fixed and hoistable car-deck plating and stiffeners, with magnetic particle testing at hoistable-deck brackets and ramp hinges.",
+      "A high-and-heavy ro-ro ship loading machinery: main-deck and tank-top gauging in the heavy-cargo areas, plus stern-ramp structure, ahead of its renewal survey.",
+      "A container ship at the river quay: scrubber wash-water and overboard pipe wall-thickness checks during the call, with results sent to the superintendent before sailing.",
+      "A container ship docking at Bredo Dry Docks for its second renewal survey: full in-dock measurement programme and assistance to the surveyor during the close-up survey.",
+      "An offshore wind installation vessel laid up in the basins: deck, leg-well, crane pedestal and tank gauging before a new charter."
+    ]
+  },
+  "logistics": "Bremen Airport is the closest airport with European connections, and Hamburg Airport offers wider international routes; both are linked to Bremerhaven by road and rail. The container terminals, the car terminal and the yards are ISPS-controlled, and the agent registers the team and confirms which lock or quay the ship will use. As Germany is in the Schengen area, the team from India travels on Schengen visas, so docking and call dates should be sent as early as possible; we then fix mobilisation to the confirmed berth plan.",
+  "vessels": [
+    "Vehicle carriers (PCTC)",
+    "Container ships",
+    "Ro-ro and high-and-heavy ships",
+    "Offshore wind vessels",
+    "Cruise ships",
+    "Research and fishing vessels",
+    "General cargo and project ships"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best time to gauge a car carrier in Bremerhaven?",
+      "a": "Between discharge and loading, when the decks are clear and the crew can open access to hoistable decks and ramps. The gap is often short, so the scope and sequence are agreed before arrival: the most heavily loaded decks and the ramp areas first, then other decks and ballast tanks as time allows."
+    },
+    {
+      "q": "Which Bremerhaven yard dockings can you support?",
+      "a": "Any docking where the owner or manager brings us in, at Bredo Dry Docks or another yard in the port. We fit around the yard's programme: hull and tank gauging while staging is up, priority areas first so the steel crew is never kept waiting, and the surveyor's close-up list worked through with the crew. Site rules and permits are arranged via the superintendent."
+    },
+    {
+      "q": "Our ro-ro ship carries heavy machinery. Where should we gauge first?",
+      "a": "Start with the main deck and tank top in the heavy-cargo lanes, the deck transverses beneath them, and the stern ramp and its hinges. Wheel and track loads, plus lashing forces at sea, concentrate wear and fatigue there. Adding magnetic particle testing at ramp hinges and lashing doublers gives a fuller picture in the same visit."
+    },
+    {
+      "q": "Can the team move between Bremerhaven and Hamburg or Wilhelmshaven?",
+      "a": "Yes. The three ports are close by road, and one mobilisation can cover ships calling at each, provided the dates are known. We sequence the work around the ships' schedules and the gas-free or access constraints of each, so a superintendent with several ships in the German Bight can use one team rather than several."
+    }
+  ],
+  "nearby": ["wilhelmshaven", "hamburg", "kiel", "rotterdam"]
+}

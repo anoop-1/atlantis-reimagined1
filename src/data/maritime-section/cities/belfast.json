@@ -1,0 +1,107 @@
+{
+  "slug": "belfast",
+  "name": "Belfast",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Belfast Ship Thickness Measurement and UTM Inspection",
+  "description": "Ultrasonic thickness measurement in Belfast: renewal survey and pre-docking gauging at the Harland & Wolff drydock, hull structure on Irish Sea ferries.",
+  "h1": "Ship Thickness Measurement and Hull Inspection in Belfast",
+  "intro": "Belfast built ships for the world for well over a century, and the Harland & Wolff yard on Queen's Island still has its great drydock and building facilities. Around it, Belfast Harbour handles Irish Sea ferries, bulk and general cargo, and offshore wind work. For a superintendent with a ship docking in Belfast, or a ferry running daily to Scotland or England, a team travels from India to the vessel, with the work planned around the yard programme or the ferry timetable.",
+  "keywords": [
+    "belfast ship thickness measurement",
+    "ultrasonic thickness measurement in belfast",
+    "hull inspection in belfast",
+    "thickness gauging in northern ireland",
+    "ship repair in belfast",
+    "pre-docking gauging",
+    "irish sea ferry inspection",
+    "belfast drydock gauging",
+    "belfast lough anchorage",
+    "utm belfast"
+  ],
+  "highlights": [
+    {
+      "h": "A drydock with shipbuilding heritage",
+      "p": "Harland & Wolff's Queen's Island yard takes ships into dock for refit, conversion and survey. We gauge on the owner's side of the job, agreeing the TM plan with the class surveyor before the ship arrives."
+    },
+    {
+      "h": "Ferries gauged between sailings",
+      "p": "Stena Line ro-pax ships to Cairnryan and Birkenhead sail daily but return to the same berths, so vehicle decks, ramps, bow structure and ballast tanks can be worked over several port stays."
+    },
+    {
+      "h": "Sheltered lough, practical launches",
+      "p": "Ships anchored in Belfast Lough while waiting for a berth or a docking slot can be reached by launch through the agent, with more shelter than an open-sea anchorage usually gives."
+    }
+  ],
+  "port": {
+    "h": "Belfast: shipbuilding heritage and a working Irish Sea port",
+    "p": [
+      "Belfast's maritime identity is inseparable from Harland & Wolff, whose Queen's Island yard built liners, tankers and warships through the twentieth century. The yard is now part of Navantia UK and is building ships again, alongside commercial refit work such as cruise ship refurbishment, while its large drydock and building dock remain defining features of the harbour. That combination of heritage and current capability makes Belfast one of the places on the Irish Sea where a ship can be taken into dock for survey, repair or conversion, and ship repair in Belfast draws vessels that do not otherwise trade here.",
+      "Belfast Harbour, run by the Belfast Harbour Commissioners, is Northern Ireland's main port and the hub of its trade with Great Britain. Stena Line ro-pax ferries run to Cairnryan in Scotland and to Birkenhead on the Mersey, and the Isle of Man Steam Packet sails seasonally to Douglas. Bulk carriers bring grain, animal feed and other bulk cargoes for the region's farming economy; general cargo, container and project ships use the harbour's terminals; and the harbour's offshore wind facilities have been used to assemble and load out turbines for Irish Sea wind farms. Belfast Lough gives all of this traffic a sheltered approach and an anchorage at the harbour's door.",
+      "Belfast offers gauging time in two quite different forms. Dockings and refits at the shipyard give full access for survey gauging, often for weeks. And Belfast's ferries, although they sail every day, follow fixed timetables and return to the same berth, which makes a staged in-service programme straightforward to plan. Bulk carriers discharging at the harbour's deep-water berths are typically alongside for several days with holds opening in turn. Inspection demand therefore spans the full range, from renewal-survey and conversion gauging in dock to targeted ferry checks between sailings and hold work on bulk carriers."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships are gauged in Belfast Harbour and Belfast Lough",
+    "p": [
+      "In the shipyard, a ship in drydock gives full access: tanks cleaned and ventilated, shell plating reachable from the dock floor, holds staged where needed. The team works to the TM plan agreed with the class surveyor and the owner's superintendent, and the yard uses the readings to scope steel renewal. For conversions and life-extension projects, gauging before the specification is finalised avoids discovering extra steel once the yard has started cutting, which is when surprises do the most damage to the programme.",
+      "Elsewhere in the harbour, gauging is in-service. Ferries at the Stena terminals are worked around their timetables; bulk carriers at the deep-water berths allow longer hold and tank programmes; and ships at anchor in Belfast Lough can be reached by launch through the agent when the weather allows. Because the harbour sits at the head of a sea lough, the anchorage is better sheltered than an open roadstead, and a launch-borne scope is less likely to be cut short by swell. Ferry work is the most time-critical: the team boards once the ship is secured, works the areas the chief officer releases, and is clear before loading for the next sailing begins."
+    ],
+    "list": [
+      "Harland & Wolff drydock, Queen's Island — renewal-survey, conversion and steel-renewal gauging on ships in dock, with the class surveyor and yard planners.",
+      "Stena Line terminals for Cairnryan and Birkenhead — ferry structure worked in instalments: one vehicle deck, one ramp or one ballast tank per port stay.",
+      "Deep-water berths for grain and feed — bulk carrier holds gauged one by one as the grabs empty them, with topside tanks opened when the crew can release them.",
+      "Container and general cargo terminals — in-service hull and deck gauging on short-sea and project ships during cargo work.",
+      "Belfast Lough anchorage — launch-borne condition gauging on ships waiting for a berth or for a docking slot at the yard.",
+      "Offshore wind terminal quays — deck and crane-foundation crack detection on installation and service vessels between load-outs."
+    ]
+  },
+  "context": {
+    "h": "Port state control, sulphur limits and Belfast's trading pattern",
+    "p": [
+      "Northern Ireland is part of the UK maritime system, so port state control in Belfast is carried out by the Maritime and Coastguard Agency, which since Brexit has continued to apply the Paris MoU regime through UK legislation. Belfast Lough is outside the North Sea SOx ECA, yet the UK's at-berth limit still applies: after two hours alongside, a ship must be on 0.10% sulphur fuel. The North-East Atlantic ECA, adopted by the IMO in 2026 with its sulphur limit applying from 1 September 2028, covers much of the Atlantic seaboard that Belfast ships trade along, and owners should check its final boundary against their own routes when planning fuel and scrubber decisions.",
+      "Belfast's trading pattern is dominated by short Irish Sea crossings. Ferries on the Cairnryan and Birkenhead routes are worked hard on tight timetables, and their refit periods are short and closely planned, so accurate pre-docking gauging is what keeps a refit on schedule. Those routes are UK domestic services and sit outside the EU ETS, unlike sailings to Dublin or continental ports. The shipyard adds a second market: owners bringing vessels to Belfast specifically for docking or conversion, often from outside the region, who need the gauging done to the yard's programme rather than the ship's trading pattern."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Belfast",
+    "p": "Belfast work divides between the drydock and the harbour's working berths. Docking jobs are planned around the yard's programme and the class surveyor's attendance; in-service jobs are fitted around ferry timetables and cargo operations. We agree scope, access and the TM reference system with the superintendent before mobilising, so the readings are ready for the decisions that follow, whether that is a steel order, a refit specification or a purchase.",
+    "list": [
+      "Pre-docking gauging on a ro-pax ferry before a short refit at the Belfast yard, done across several port stays so the steel list is ready when the ship docks.",
+      "Belfast drydock gauging for a bulk carrier's renewal survey at Queen's Island, covering holds, hopper and topside tanks and double bottoms with the class surveyor.",
+      "Conversion or life-extension gauging on a vessel lying in Belfast for a yard project, mapping hull and tank condition before the specification is finalised.",
+      "Hold gauging on a bulk carrier discharging grain at the deep-water berths, worked hold by hold as cargo comes out.",
+      "Launch-borne deck and air-pipe gauging on a ship at the Belfast Lough anchorage while it waits for its docking slot."
+    ]
+  },
+  "logistics": "Belfast has two airports: Belfast International at Aldergrove and George Best Belfast City, which sits beside the harbour. Dublin Airport is a further option for long-haul arrivals, though entering through Dublin brings Irish immigration rules into play alongside UK ones, so we route the team to match the visas they hold. The shipyard, ferry terminals and cargo berths have ISPS-controlled access arranged by the ship's agent or the yard, and launches for Belfast Lough are booked through the agent. Our technicians travel from India, and UK visas are secured as soon as a docking date is confirmed.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Bulk carriers",
+    "General cargo and project ships",
+    "Container feeder ships",
+    "Offshore wind installation and service vessels",
+    "Cruise ships in refit"
+  ],
+  "faqs": [
+    {
+      "q": "Do you gauge ships docked at the Harland & Wolff yard?",
+      "a": "Yes. We work for the owner or manager of the ship, not for the yard, and fit into the docking as a specialist on the owner's side. Before the ship arrives we agree the TM plan with the class surveyor, the access and staging arrangements with the yard through your superintendent, and the order in which tanks will be cleaned. During the docking, corrosion findings are reported as we go, so steel decisions are not left to the end."
+    },
+    {
+      "q": "Can Irish Sea ferry inspection be done without taking the ship out of service?",
+      "a": "Much of it can. Vehicle decks, ramps, bow and stern door structure, engine-room piping and some ballast tanks can be inspected in the gaps between sailings if the crew prepare them in advance. We stage the programme over several port stays and keep the same reference points, so by the time the ferry goes to refit the yard has a full set of readings."
+    },
+    {
+      "q": "What is different about thickness gauging in Northern Ireland?",
+      "a": "Technically nothing: the class rules, IACS requirements and survey cycle are the same as anywhere else. The practical differences are the UK regulatory frame, with port state control by the Maritime and Coastguard Agency, and travel, since the team needs UK visas and a route through Dublin has to account for Irish immigration rules as well. We plan both before the job is confirmed."
+    },
+    {
+      "q": "Is a pre-docking survey worthwhile before a conversion at Belfast?",
+      "a": "For conversions and life-extension projects it is one of the most useful steps. The yard's specification and steel quantities depend on hull and tank condition, and finding extra wastage after work starts upsets the programme. Gauging the areas affected by the conversion, plus the tanks and structure due for survey, gives the yard and the owner one agreed baseline before the contract is fixed."
+    }
+  ],
+  "nearby": ["dublin", "liverpool", "cork", "aberdeen"]
+}

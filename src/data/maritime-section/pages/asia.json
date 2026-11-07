@@ -1,0 +1,130 @@
+{
+  "slug": "asia",
+  "navLabel": "China and Singapore",
+  "title": "Ship Thickness Measurement in China, Hong Kong and Singapore",
+  "description": "Ship thickness measurement in China, Hong Kong and Singapore: UTM for renewal surveys and CAP, hull gauging at yards and anchorages, scrubber piping.",
+  "h1": "Hull Gauging and Ship Thickness Measurement in China, Hong Kong and Singapore",
+  "eyebrow": "Maritime inspection",
+  "intro": "A large part of the world fleet is built in China, docked in China or Singapore and managed from Hong Kong or Singapore, so gauging for a ship trading anywhere often ends up in this region. Atlantis NDT mobilises teams from India to Chinese repair yards, Singapore's anchorages and yards, and Hong Kong for UTM and hull gauging ahead of renewal surveys and CAP, piping and scrubber pipe inspection, and magnetic particle crack detection. Access runs through the yard and the ship's agent, and visas need planning, so we work from the confirmed docking slot.",
+  "highlights": [
+    { "h": "Planned around Chinese yard slots", "p": "Chinese repair yards book docking slots well ahead, and our team's business visa needs an invitation from the yard or another Chinese entity. Starting both together keeps the gauging ready for the day the ship enters dock." },
+    { "h": "Singapore anchorage, between voyages", "p": "Ships calling at Singapore for bunkers, stores or crew changes can be gauged at anchorage by launch through the ship's agent, provided the scope matches the length of the stay and the spaces can be released for entry." },
+    { "h": "Scrubbers fitted at Chinese yards", "p": "Many scrubber retrofits were carried out at Chinese yards around the 2020 global sulphur limit, and those systems are now ageing. Wash-water and overboard piping inspection fits naturally into the same yards' repair dockings." }
+  ],
+  "sections": [
+    {
+      "id": "china-ship-repair-shipbuilding-clusters",
+      "h": "China's ship-repair and shipbuilding clusters",
+      "p": [
+        "China builds more ships than any other country, and its repair capacity is spread across several coastal clusters. The Yangtze River Delta, around Shanghai, Nantong and the Zhoushan archipelago off Ningbo, holds a large concentration of repair yards, and the Zhoushan yards together form one of the largest ship-repair concentrations anywhere. The Bohai Rim yards around Dalian, Qingdao and Tianjin take bulk carriers and tankers on the northern trades; the Pearl River Delta around Guangzhou and Shenzhen serves container ships and South China traffic; and the Fujian yards around Xiamen sit between the two.",
+        "Owners bring ships to Chinese yards for renewal surveys because so many trades begin or end in China: iron ore and coal into the northern ports, crude oil into the terminals at Ningbo-Zhoushan and Qingdao, and containers through every major port on the coast. A bulk carrier discharging Australian or Brazilian ore can reach a nearby yard with little deviation, which is one reason many ESP ships come to China for their later renewal surveys.",
+        "Large repair yards here work at speed, with several ships in dock at once and steel renewal on a tight schedule. Gauging that arrives late holds up the steel list, so the useful approach is pre-docking gauging during the ship's last voyages, with the remaining gauging on arrival planned against the yard's dock schedule."
+      ]
+    },
+    {
+      "id": "bulk-carriers-tankers-china-trades",
+      "h": "Bulk carriers, tankers and container ships on the China trades: what gauging finds",
+      "p": [
+        "Bulk carriers on the iron ore and coal trades take a beating in the holds. Grabs and bulldozers damage frames and tank top plating, coal cargoes can be wet and acidic, and repeated loading and discharge works the hold frame brackets and hatch corners. On single-side-skin ships under UR Z10.2, the side shell frames and their lower brackets are the classic gauging and crack-detection targets; on double-skin ships under UR Z10.5 the attention moves to the hopper and topside tanks, the inner hull and the transverse bulkheads.",
+        "Crude oil tankers delivering to Chinese terminals include VLCCs and Suezmaxes past middle age, where CAP and the later renewal surveys bring the heaviest gauging: deck plating and longitudinals under the deck, pitting of bottom plating in cargo tanks, and the ballast tank structure that UR Z10.1 and Z10.4 single out. For both ship types the previous report and the areas of substantial corrosion it recorded set the starting point.",
+        "Container ships docking in the Yangtze and Pearl River deltas bring a different list. Corrosion matters less than fatigue at the hatch corners and coaming ends, the lashing bridge connections and the upper deck and sheer strake, where wide hatch openings concentrate stress, so magnetic particle crack detection carries as much weight as thickness gauging."
+      ]
+    },
+    {
+      "id": "singapore-anchorage-bunkering-repair",
+      "h": "Singapore: anchorages, bunkering and ship repair",
+      "p": [
+        "Singapore is the world's largest bunkering port, and its anchorages hold ships calling for fuel, stores, crew changes, repairs afloat and orders, as well as ships waiting between charters. That makes Singapore a place where a ship can be met between voyages without a dedicated port call: the team boards by launch, arranged through the ship's agent, and works through the stay.",
+        "Singapore's ship-repair yards handle dockings, conversions and offshore work, and yards across the strait in Batam and in Johor are often weighed against them in the same planning decision. Each sits in a different country with its own entry rules, so a docking that moves from Singapore to Batam changes the visa the team needs. We confirm the yard before applying.",
+        "Open-loop scrubbers may not be used in Singapore port waters, so ships with open-loop systems burn compliant fuel while they are there. A stay at anchorage is therefore a practical moment to isolate the scrubber and gauge the wash-water and overboard piping."
+      ]
+    },
+    {
+      "id": "hong-kong-ship-management-registry",
+      "h": "Hong Kong: ship management, registry and port calls",
+      "p": [
+        "Hong Kong's weight in shipping lies in ship management, finance, insurance and its ship register, one of the largest in the world, more than in dock capacity. Many Hong Kong-managed and Hong Kong-registered ships are docked at mainland Chinese or Singapore yards, so a gauging enquiry from Hong Kong is often about a ship elsewhere in the region. Ships calling at Hong Kong itself can be gauged alongside or, by launch booked through the agent, in the anchorages.",
+        "Hong Kong has its own immigration system, separate from the mainland, and entry to Hong Kong does not give entry to mainland China. A team going on from Hong Kong to a yard in Guangzhou or Shenzhen needs a mainland visa as well, which we arrange at the same time."
+      ]
+    },
+    {
+      "id": "tokyo-mou-port-state-control",
+      "h": "Tokyo MoU port state control",
+      "p": [
+        "China, Hong Kong and Singapore carry out port state control under the Tokyo MoU, the regime that covers most of the Asia-Pacific region. Its targeting works on a ship risk profile built from type, age, flag, company performance and inspection history, and that profile sets how often a ship is boarded. Wasted hatch covers and coamings on bulk carriers, corroded deck structure and air pipe heads on older ships, and holed or distorted structure are familiar reasons for detention.",
+        "For bulk carriers on the ore trades, hatch cover and coaming condition and the hold frames draw attention at every port and every survey. Condition gauging of hold frames, hatch coamings and topside tank structure between surveys gives the superintendent the readings before an inspector or a charterer asks for them, and needs no class approval when it is the owner's own record."
+      ]
+    },
+    {
+      "id": "china-emission-control-scrubber-piping",
+      "h": "China's emission control rules and scrubber pipe inspection",
+      "p": [
+        "China applies its own domestic emission control areas to its coastal waters and inland rivers, with sulphur limits at least as strict as the global limit and stricter in specified waters, and it restricts the discharge of open-loop scrubber wash water in parts of those waters. The rules have been tightened in stages and differ between coastal, port and river waters, so the ship's agent and the operator's compliance team are the right source for the current requirement at a given port.",
+        "The consequence for inspection is that scrubbers on ships trading to China run in a mix of modes, and hybrid systems spend time in closed-loop operation in Chinese and Singapore waters. Closed-loop operation concentrates the wash water and its corrosion load in the circulation piping and process tank; open-loop operation elsewhere wears the overboard line and the shell around the outlet. A docking at a Chinese yard is the natural point to gauge both and to renew the spools near their limit."
+      ]
+    },
+    {
+      "id": "china-visas-shipyard-permits-access",
+      "h": "Practical access: visas, shipyard permits and boarding",
+      "p": [
+        "Indian nationals need a visa for mainland China, and a business visa application normally includes an invitation from a Chinese entity, in practice the yard or the ship's agent. Singapore and Hong Kong each have their own entry requirements. We start the application once the yard and dates are confirmed, and ask for the invitation letter together with the docking confirmation, because it is the item most likely to hold things up.",
+        "Inside a Chinese yard, the yard issues passes for the team and its equipment, runs the safety induction and controls hot work and tank entry permits alongside the ship's own system. Boarding a ship at a Chinese berth or anchorage involves border inspection formalities that the agent arranges. Yards often limit photography, so we agree in advance what the report photographs may show, and every change of plan goes through the yard's project management and the superintendent attending for the owner.",
+        "Reports are issued in English, with readings located on the ship's own drawings, so the superintendent, the yard and the surveyor work from the same sheets."
+      ]
+    },
+    {
+      "id": "where-ships-are-gauged-asia",
+      "h": "Where ships are gauged in China, Hong Kong and Singapore",
+      "p": [
+        "The setting decides what can be done. The table summarises where ships are typically gauged in the region and what each setting suits; the port pages cover each location in detail."
+      ],
+      "table": {
+        "head": ["Area", "Typical setting", "Typical gauging"],
+        "rows": [
+          ["Zhoushan and Ningbo", "Repair yards; crude oil terminals and anchorages", "Renewal survey gauging of tankers and bulk carriers; pre-docking gauging; scrubber piping"],
+          ["Shanghai and the Yangtze delta", "Repair and conversion yards; container terminals", "Container ship and bulk carrier dockings; gauging of retrofit areas"],
+          ["Dalian, Qingdao and Tianjin", "Repair yards; ore, coal and crude terminals", "Hold frames, hatch coamings and topside tanks on bulk carriers; tanker cargo and ballast tanks"],
+          ["Guangzhou, Shenzhen and Xiamen", "Repair yards; container terminals", "Container ship gauging, crack detection at hatch coamings and lashing bridges, piping"],
+          ["Hong Kong", "Berths and anchorages", "Owner's condition gauging and piping inspection during port stays"],
+          ["Singapore", "Anchorages and ship-repair yards", "Short-stay gauging at anchorage; docking gauging; scrubber piping while isolated"]
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "Tokyo Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14 (sulphur oxides)",
+    "China's domestic emission control area rules for coastal and inland waters",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems",
+    "IACS UR Z7, Z10.1 to Z10.5 and Z17",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "ASTM E797 (ultrasonic pulse-echo contact thickness measurement)",
+    "ASTM E709 (magnetic particle testing)"
+  ],
+  "deliverables": [
+    "Thickness measurement report with readings located on the ship's own drawings",
+    "Steel renewal list of plates and stiffeners at or near renewal thickness, ready for the yard",
+    "Hold frame, hatch coaming and topside tank gauging records for bulk carriers",
+    "Scrubber wash-water and overboard piping condition report by spool",
+    "MT crack detection report for hold frame brackets, hatch corners and lashing bridges",
+    "Photographs within the yard's photography rules"
+  ],
+  "industries": [
+    "Bulk carriers (Capesize, Kamsarmax, Supramax)",
+    "VLCC and Suezmax crude tankers",
+    "Container ships",
+    "Product and chemical tankers",
+    "LNG carriers",
+    "Ship-management companies in Hong Kong and Singapore",
+    "Chinese and Singapore ship-repair yards"
+  ],
+  "faqs": [
+    { "q": "Is renewal survey gauging possible for a bulk carrier docking in China?", "a": "We can mobilise a team to the yard for the gauging. Readings that are to be credited to the renewal survey need a firm that the ship's classification society has approved under IACS UR Z17, so name the vessel's class in the enquiry. Pre-docking gauging during the last voyages before the docking, owner's condition gauging and scrubber piping inspection do not need class approval." },
+    { "q": "What do you need from us for a Chinese business visa?", "a": "An invitation letter from a Chinese entity, in practice the yard or the ship's agent, covering the team, the purpose and the dates of the work. We prepare the rest of the application. The invitation is usually the item that takes longest to arrange, so asking the yard for it at the same time as the docking confirmation saves the most time." },
+    { "q": "Can gauging be done at Singapore anchorage?", "a": "Yes, if the scope fits the stay. The team boards by launch through the ship's agent and gauges the structure, piping and scrubber systems that can be released for work during the call. Ballast and cargo tank gauging needs the tanks cleaned, ventilated and released for entry, which suits a longer stay at anchorage, a wait between charters or the docking itself." },
+    { "q": "Which port state control regime covers China, Hong Kong and Singapore?", "a": "The Tokyo MoU. Older bulk carriers and tankers, and ships with a history of deficiencies, are boarded more often under its targeting, and structural condition, hatch covers and coamings and deck structure are frequent areas of attention. Condition gauging between surveys lets the superintendent find and repair wastage before an inspector records it." },
+    { "q": "Do Chinese emission rules affect scrubber inspection?", "a": "Indirectly. China's domestic emission control rules restrict open-loop scrubber discharge in parts of its waters, so scrubber-fitted ships trading there spend time in other modes, and hybrid systems run closed-loop. That shifts where corrosion concentrates, between the overboard line and the closed-loop circulation piping. A docking at a Chinese yard is the natural moment to gauge both." },
+    { "q": "Can a Chinese yard build its steel list from your report?", "a": "Yes. Readings are located on the ship's own drawings, and plates and stiffeners at or near renewal thickness are identified, so the yard can work its steel list directly from the report. Reports are in English, and the yard and the owner's technical staff receive the same sheets, so there is one record of what is to be renewed." },
+    { "q": "Can a Hong Kong-managed ship be gauged in a mainland yard?", "a": "Yes. Many Hong Kong-managed ships dock at yards in the Pearl River Delta or further up the coast. Hong Kong and mainland China have separate immigration systems, so the team needs a mainland visa for the yard even when the enquiry and the management sit in Hong Kong. Tell us the yard as soon as it is chosen." }
+  ]
+}

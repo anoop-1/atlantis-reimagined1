@@ -1,0 +1,107 @@
+{
+  "slug": "stockholm",
+  "name": "Stockholm",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "UTM Thickness Gauging Stockholm | Ro-Pax & Ice-Class",
+  "description": "UTM thickness gauging in Stockholm for ro-pax ferries, ice-class ships and tankers: ice-belt hull structure, pre-docking gauging and renewal survey work.",
+  "h1": "Ultrasonic Thickness Gauging for Ro-Pax and Ice-Class Ships in Stockholm",
+  "intro": "Stockholm's harbours are dominated by large cruise-ferries and ro-pax ships linking Sweden with Finland, Åland and the Baltic states, while Stockholm Norvik and Nynäshamn handle containers, ro-ro freight and tankers. Many of these ships are built to Finnish-Swedish ice class and work through Baltic winters. Atlantis NDT mobilises a team from India to measure ice-belt plating, vehicle decks, tanks and piping, planning around tight ferry schedules and docking periods.",
+  "keywords": [
+    "thickness gauging stockholm",
+    "utm thickness gauging stockholm",
+    "stockholm ship inspection",
+    "ice belt thickness measurement",
+    "ro-pax ferry inspection",
+    "ferry thickness measurement",
+    "vehicle deck thickness measurement",
+    "pre-docking gauging",
+    "renewal survey gauging",
+    "ice class hull inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Ice belts that see real ice",
+      "p": "Ferries and cargo ships trading out of Stockholm meet sea ice in the archipelago and the northern Baltic in hard winters. Ice abrasion strips coating at the waterline, so ice belt thickness measurement deserves its own section in the TM plan."
+    },
+    {
+      "h": "Cruise-ferry turnarounds are tight",
+      "p": "The Helsinki, Turku, Tallinn and Riga ferries spend only part of the day in Stockholm. Machinery piping and accessible decks can be measured in port; ballast tanks and full vehicle-deck surveys belong in the annual docking."
+    },
+    {
+      "h": "Freight and tankers at Nynäshamn",
+      "p": "Stockholm Norvik Port handles container and ro-ro freight, and the refinery at Nynäshamn receives tankers. Both give longer windows for ballast-tank and deck gauging than the city ferry berths."
+    }
+  ],
+  "port": {
+    "h": "Stockholm's ferry, freight and tanker traffic",
+    "p": [
+      "Stockholm is the Swedish end of a dense passenger ferry network across the northern Baltic. Large cruise-ferries sail daily between Stockholm and Helsinki, Turku via the Åland Islands, and Tallinn, with further services to Riga and Mariehamn, berthing at Värtahamnen and Stadsgården on fixed timetables. Ports of Stockholm also runs Kapellskär to the north, a ro-pax and freight port for Åland and Finland routes whose position further out in the archipelago shortens the crossings, and the deep-water Stockholm Norvik Port at Nynäshamn, which handles container and ro-ro traffic, while Nynäshamn's older harbour serves ferries to Gotland and Poland.",
+      "Cargo traffic is spread across these sites. Ro-ro freighters and container feeders call at Norvik and Kapellskär, tankers deliver to the Nynäshamn refinery and to fuel depots in the region, and general cargo ships use smaller quays around the archipelago. Stockholm is also a significant Baltic cruise port in summer, with ships berthing in the city and at Nynäshamn. Ferry traffic runs year-round, so the ships rarely leave service except for their annual docking, and operators plan that docking a long way in advance.",
+      "For gauging, Stockholm's distinctive feature is ice. Most of the ferries and many of the cargo ships calling here are built to Finnish-Swedish ice class, and in a hard winter they work through ice in the archipelago and further north. Ice loads concentrate on the bow and ice belt, and repeated contact with ice abrades coatings and plating along the waterline, so ice-belt wastage and frame condition are standard items for owners and class. Ferry operators in turn need gauging planned into tight timetables: the ships rarely spend a whole day alongside, so most structural measurement is concentrated into annual dockings, with in-port work limited to piping and accessible spaces. Stockholm ship inspection work is therefore heavily planned and seasonal."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in the Stockholm port system",
+    "p": [
+      "The city ferry terminals at Värtahamnen and Stadsgården are workable for short scopes during turnarounds, but space and time are limited and access passes through the ferry operators' security arrangements. Kapellskär and Norvik offer more room and longer stays for freight ships, and tankers at Nynäshamn lie alongside for the length of discharge, giving time for ballast-tank and deck work if the terminal and master agree. Short ferry scopes can also be split across several turnarounds, measuring a few spaces on each call until the planned list is complete.",
+      "Stockholm is not a docking port for large ships, and Swedish and Finnish ferry operators typically dock their ships at yards in Finland, Poland, Estonia, Lithuania, Germany or Denmark. For a ferry, the most effective approach is usually pre-docking gauging in Stockholm on the spaces that can be reached in port, followed by the bulk of the measurement at the yard. Winter work on open decks and at the waterline is affected by short daylight and freezing temperatures, which complicate couplant and surface preparation, so external measurements are better scheduled outside the coldest months where the docking plan allows."
+    ],
+    "list": [
+      "Värtahamnen ferry terminal — machinery-space piping and accessible vehicle-deck measurements on cruise-ferries during their turnarounds.",
+      "Stadsgården ferry berths — piping and deck gauging on ferries during their daytime stay, planned with the chief engineer.",
+      "Kapellskär — gauging on ro-pax and freight ships serving Åland and Finland, where stays allow ballast tank and deck work.",
+      "Stockholm Norvik Port, Nynäshamn — ballast tank and deck gauging on container and ro-ro ships within the berth window.",
+      "Nynäshamn refinery berths — ballast tank, void-space and deck measurement on tankers during discharge, subject to terminal approval.",
+      "Docking yards around the Baltic — ice-belt, shell and tank gauging on Stockholm ferries at their annual or renewal survey docking."
+    ]
+  },
+  "context": {
+    "h": "Ice class, ECA and regulation for ships trading to Stockholm",
+    "p": [
+      "Sweden is a Paris MoU member and an EU state, applying the EU ETS to shipping from 2024 and FuelEU Maritime from 2025, regimes that bear directly on large ro-pax ferries with high fuel consumption and fixed schedules. Stockholm lies inside the Baltic Sea SOx ECA at 0.10% sulphur, and the ferry fleet here has been an early adopter of LNG fuel, battery-hybrid systems and shore power, all of which add foundations, penetrations and piping that need a structural baseline when retrofitted.",
+      "Winter navigation in the northern Baltic is governed by the Finnish-Swedish ice class rules, and the Swedish and Finnish maritime administrations set traffic restrictions that require minimum ice classes for ports in the Gulf of Bothnia and, in severe winters, further south. Owners keep ice class for commercial reasons, and maintaining it means keeping ice-belt plating and frames within the allowances of the ice-strengthening rules. Ice damage such as indents, buckled frames and cracked welds at the bow is typically recorded after a hard winter and repaired at the next docking. Thickness measurement and crack detection on the ice belt and bow structure before the yard stay lets the owner scope those repairs accurately."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Stockholm",
+    "p": "Stockholm work is dominated by ferry operators' docking programmes and by owners of ice-classed cargo ships preparing for or recovering from winter. In-port scopes are kept small to fit timetables, and the main measurement happens at the docking yard, often in another Baltic country, and the results from both stages are combined into a single report for the owner and the class surveyor.",
+    "list": [
+      "Ro-pax ferry inspection before the annual docking: machinery-space seawater and fuel piping measured during turnarounds at Värtahamnen to plan pipe renewals at the yard.",
+      "Ice belt thickness measurement and bow crack detection on an ice-classed ro-ro freighter after a hard winter, scoping steel repairs for the spring docking.",
+      "Vehicle deck thickness measurement on a cruise-ferry at its docking yard: car and trailer decks, ramps and lashing points assessed for corrosion from winter road salt.",
+      "Pre-docking gauging of ballast tanks on a product tanker discharging at Nynäshamn, ahead of a renewal survey in a Baltic yard.",
+      "Renewal survey gauging on a Kapellskär ro-pax ship at a Finnish or Polish yard, combining shell, ice belt and tank measurements in one TM plan."
+    ]
+  },
+  "logistics": "Stockholm Arlanda Airport is the international gateway, connected to the city by rail; Nynäshamn and Kapellskär are reached by road or rail from central Stockholm. Ferry, freight and refinery terminals are all ISPS-controlled, and the ship's agent or the ferry operator arranges access for named technicians. Sweden is a Schengen state, so the team travels from India on Schengen visas, which also cover onward travel to docking yards in Finland, Poland or the Baltic states. Planned dockings should be notified as early as possible, and winter schedules are planned with daylight and temperature in mind.",
+  "vessels": [
+    "Ro-pax ferries and cruise-ferries",
+    "Ro-ro cargo ships",
+    "Container feeders",
+    "Product tankers",
+    "Cruise ships",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can a cruise-ferry be gauged during its Stockholm turnaround?",
+      "a": "Only a limited scope. The ship is alongside for part of the day while passengers and vehicles are exchanged, so tanks are not opened. Machinery-space piping and accessible structure can be measured if planned with the chief engineer, and those readings help define the pipe and steel renewals to be carried out at the annual docking."
+    },
+    {
+      "q": "What should be measured on an ice-classed ship after a hard winter?",
+      "a": "Ice-belt plating and the frames behind it, the bow and forefoot area, and any indents or damaged areas reported by the crew. Thickness measurement shows wastage from abrasion; magnetic particle testing at frame connections and bow welds looks for cracking from ice impact. Recording the results by frame number makes them easy to compare with earlier surveys."
+    },
+    {
+      "q": "Does cold weather affect ultrasonic thickness measurement?",
+      "a": "It affects the practicalities more than the physics. Couplant can thicken or freeze, ice and condensation must be removed from the surface, and battery life and handling suffer in severe cold. Work inside tanks and machinery spaces is largely unaffected; external hull and open-deck measurements are best planned for milder conditions or done at a yard under cover."
+    },
+    {
+      "q": "Where do Stockholm ferries usually dock?",
+      "a": "Ferry operators in the region use yards around the Baltic and North Sea, including in Finland, Poland, Estonia, Lithuania, Germany and Denmark. We mobilise to the yard the operator selects and, where useful, carry out pre-docking measurements in Stockholm beforehand so that the yard specification reflects the ship's actual condition."
+    }
+  ],
+  "nearby": ["helsinki", "turku", "tallinn", "riga", "gothenburg"]
+}

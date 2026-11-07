@@ -1,0 +1,110 @@
+{
+  "slug": "rotterdam",
+  "name": "Rotterdam",
+  "country": "Netherlands",
+  "region": "europe",
+  "title": "Ship Thickness Measurement Rotterdam | UTM & Hull Gauging",
+  "description": "Ultrasonic thickness measurement in Rotterdam for tankers, bulk carriers and container ships: pre-docking hull structure gauging, CAP and scrubber piping.",
+  "h1": "Ship Thickness Measurement and Hull Gauging in Rotterdam",
+  "intro": "Rotterdam is Europe's largest port, and its repair yards draw ships from across the North Sea trades. Superintendents call us when a tanker, bulk carrier or container ship needs gauging that must be finished before the yard fixes its steel list, or when a ship lying on a lay-by berth has a window for close-up survey support. We mobilise a team from India to Rotterdam for each job, planned around the docking date and the ship's agent.",
+  "keywords": [
+    "thickness measurement rotterdam",
+    "ultrasonic thickness measurement in rotterdam",
+    "hull gauging in rotterdam",
+    "rotterdam ship repair",
+    "rotterdam drydock",
+    "cap thickness measurement",
+    "pre-docking gauging in rotterdam",
+    "utm company rotterdam",
+    "tanker thickness gauging rotterdam",
+    "scrubber piping inspection rotterdam",
+    "ship inspection rotterdam"
+  ],
+  "highlights": [
+    {
+      "h": "Steel estimate before the yard slot",
+      "p": "Pre-docking gauging at a Europoort or Botlek berth gives the superintendent a measured steel renewal estimate, so the yard specification and the number of docking days are set on readings rather than allowances."
+    },
+    {
+      "h": "Tankers gauged once gas-free",
+      "p": "Cargo and ballast tank gauging on crude, product and chemical tankers is scheduled around tank cleaning and a gas-free certificate, normally at the repair yard or on a lay-by berth, never during cargo operations."
+    },
+    {
+      "h": "Scrubber piping on deep-sea callers",
+      "p": "Many container ships and tankers calling at Maasvlakte run exhaust gas cleaning systems. We check wash-water and overboard discharge piping and the shell connections for wall loss while the system is shut down."
+    }
+  ],
+  "port": {
+    "h": "Rotterdam: Europe's largest port and the ships it handles",
+    "p": [
+      "The port runs from the city along the Nieuwe Waterweg and the Maas to Maasvlakte, built out into the North Sea on reclaimed land, and each district draws a different kind of ship. Maasvlakte takes the deep-sea container services and the large bulk carriers bringing iron ore and coal. Europoort and Maasvlakte host the crude and product terminals worked by VLCCs, Suezmaxes and Aframaxes. Botlek and Pernis sit among refineries and chemical plants, so product tankers, chemical parcel tankers and gas carriers are constantly shifting between jetties. Feeders, short-sea traders and ro-ro services to the UK and Ireland fill the rest of the waterfront, and cruise ships berth in the city itself at the Wilhelminakade terminal.",
+      "What makes Rotterdam useful for gauging is how long ships stay once they stop working cargo. The port is a major bunkering hub, and many vessels combine bunkers, stores and crew changes with a few days on a lay-by berth or buoy while they wait for a cargo nomination or a yard slot. Deep-draught ships wait at the anchorages off the Maasmond approach. Above all, the repair yards bring ships in specifically to dock, which gives the gauging team gas-free tanks, staging and lighting that a terminal call never offers.",
+      "Inspection demand here is driven by docking planning. Owners trading in North West Europe compare yards in Rotterdam, Antwerp and the German ports, and the steel renewal figure in the docking specification decides how long the ship will stay in dock. A measured estimate, taken weeks before arrival, replaces the yard's allowance with real readings. Tanker owners add another layer: oil-major vetting, CAP gradings and charterer questionnaires all ask for recent, traceable thickness data, and the ESP renewal surveys from the third onward bring extensive gauging of cargo and ballast tank structure that has to be planned rather than discovered on arrival."
+    ]
+  },
+  "facilities": {
+    "h": "Yards, terminals and anchorages where Rotterdam gauging happens",
+    "p": [
+      "Rotterdam ship repair for large merchant ships centres on Damen Shiprepair's Rotterdam yards, including the big Botlek docks, which take tankers, bulk carriers, offshore units and cruise ships. Smaller repair yards and repair quays elsewhere in the Rijnmond area handle short-sea vessels, dredgers and workboats. In dock the team works from yard staging alongside the class surveyor's close-up programme, and readings are recorded against the TM plan so the yard can scope renewals from the same frame, strake and plate references.",
+      "Outside the yards, gauging is a question of access and time. At crude and product jetties the terminal's safety rules govern what can be done during cargo operations: deck plating, deck piping, accessible voids and the external hull above the waterline are normally possible under a permit, while cargo tanks wait until they are gas-free. Lay-by berths and buoys are where longer jobs on trading ships fit best, because the vessel is idle, safe access can be rigged and ballast tanks can be emptied and ventilated. Anchorage work is possible but is limited to what can be opened and made safe at sea."
+    ],
+    "list": [
+      "Damen Shiprepair Rotterdam, Botlek docks — in-dock gauging for renewal surveys, steel replacement and close-up survey support on large tankers, bulk carriers and offshore units.",
+      "Europoort and Maasvlakte oil terminals — deck, deck-piping and topside gauging during discharge; cargo-tank readings only after cleaning and gas-freeing.",
+      "Botlek and Pernis chemical and product jetties — pump-room and cargo piping checks on chemical and product tankers between parcels, under terminal permits.",
+      "Maasvlakte container terminals — scrubber wash-water and overboard piping, hatch coaming and deck gauging within the working window of a call.",
+      "Lay-by berths and buoys within the port — ballast tank, hold and deck gauging on ships idle between cargoes, waiting for a repair slot or laid up.",
+      "Anchorages off the Maasmond — pre-purchase and condition gauging by launch, limited to spaces that can be opened and made safe at anchor."
+    ]
+  },
+  "context": {
+    "h": "Paris MoU, the North Sea ECA and EU rules for ships calling at Rotterdam",
+    "p": [
+      "Ships calling at Rotterdam fall under Paris MoU port state control, carried out by the Dutch inspectorate, and the port sits inside the North Sea SOx Emission Control Area, where fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted. That cap is why so many deep-sea callers here are scrubber ships, and why wall loss in wash-water and overboard piping is a recurring finding. Rules on open-loop wash-water discharge differ between North Sea ports and change over time, so confirm the current local position with the agent before planning to run the system in port.",
+      "Rotterdam is also where EU climate rules meet the older fleet. Shipping has been in the EU Emissions Trading System since 2024 and FuelEU Maritime has applied since 2025, and both change the case for keeping older tonnage trading on European routes. Owners deciding whether a fifteen- or twenty-year-old tanker or bulk carrier is worth another five-year cycle need hard numbers on its steel condition. The port's role as a bunkering hub for LNG and biofuel blends brings ships in for fuel changes too, and those calls can double as gauging windows."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Rotterdam",
+    "p": "Most Rotterdam work falls into one of two patterns. The first is gauging tied to a planned docking, where the TM plan and the class requirements set the scope. The second is gauging on a trading ship that has a short idle window and a specific question to answer, such as a vetting finding or a sale. The scenarios below are typical of what superintendents ask for at this port.",
+    "list": [
+      "A Suezmax due for its third renewal survey: pre-docking gauging of deck, bottom and selected cargo-tank structure alongside, then the full TM programme and close-up survey support once docked at Botlek.",
+      "An Aframax facing oil-major vetting: CAP thickness measurement of cargo and ballast tank structure after tank cleaning on a lay-by berth, recorded so the class society can grade the ship.",
+      "A container ship on a Maasvlakte call: scrubber overboard pipe and shell-connection wall-thickness checks while the system is isolated, reported before the ship sails.",
+      "A Capesize bulk carrier after an ore discharge: hold frame, hopper and topside tank gauging on completion of discharge, ahead of an intermediate survey due later in the year.",
+      "A buyer inspecting a product tanker on a lay-by berth: pre-purchase gauging of deck, ballast tanks and cargo piping to support the sale and purchase decision."
+    ]
+  },
+  "logistics": "Amsterdam Schiphol is the main international gateway, with direct trains to Rotterdam Centraal, and Rotterdam The Hague Airport serves some European routes. Terminal and yard access is controlled under the ISPS Code, so the ship's agent arranges gate passes and submits the technicians' names before the team arrives; anchorage work needs a launch booked through the agent. Because the team travels from India, each technician needs a Schengen visa, so we ask for the docking or arrival window early and plan mobilisation around it rather than around a last-minute call.",
+  "vessels": [
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Container ships",
+    "Bulk carriers",
+    "LPG and LNG carriers",
+    "Ro-ro and ro-pax ferries",
+    "Offshore units and support vessels",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge cargo tanks while a tanker is alongside in Europoort?",
+      "a": "Not while it is working cargo. Terminals in Europoort and Maasvlakte allow deck, deck piping and external gauging under a permit, but entering a cargo tank needs it cleaned, ventilated and certified gas-free. Superintendents usually split the job: deck and piping readings alongside, and the cargo-tank programme at the repair yard or on a lay-by berth after cleaning."
+    },
+    {
+      "q": "How early should we plan gauging for a Rotterdam drydock?",
+      "a": "As soon as the docking window is fixed. The team travels from India and needs Schengen visas, so we plan mobilisation around your dates. Send the TM plan, the survey status and the yard's docking schedule, and we will propose the scope and team size. If you want pre-docking gauging in Rotterdam to feed the yard specification, allow time to gauge the ship on an earlier call."
+    },
+    {
+      "q": "Do you work at the anchorages off Rotterdam?",
+      "a": "Yes, for scopes that suit a ship at anchor: deck, accessible voids, ballast tanks that can be emptied and ventilated, and machinery-space piping. Launch transfers are arranged through the ship's agent, and North Sea weather decides the window. Large hull or cargo-tank programmes are better done alongside or in dock, where staging, lighting and rescue arrangements are easier to provide."
+    },
+    {
+      "q": "Will your readings line up with the yard's steel renewal list?",
+      "a": "That is the point of a pre-docking survey. Readings are taken against the ship's TM plan with frame, strake and plate identification, and plates beyond the allowable margin are flagged as candidates for renewal. The yard can then scope the steelwork from the same references, and the class surveyor sees the same data when attending the survey."
+    }
+  ],
+  "nearby": ["antwerp", "vlissingen", "amsterdam", "zeebrugge", "felixstowe"]
+}

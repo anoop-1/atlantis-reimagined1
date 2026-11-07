@@ -1,0 +1,20 @@
+// Types for src/data/maritime-section/model.mjs
+import type { ServiceSectionModel } from '../service-section/core.mjs';
+export type CityRow = [string, string, string, string, string];
+export const ROOT: string;
+export const FORM_ID: string;
+export const ENQUIRY: string;
+export const TALK: string;
+export const CLASS_APPROVALS: { society: string; scope: string; certificate: string; validUntil?: string }[];
+export const SERVICES: [string, string, string][];
+export const SERVICE_SLUGS: string[];
+export const REGIONS: [string, string][];
+export const REGION_SLUGS: string[];
+export const ICON_FOR: Record<string, string>;
+export const SURVEY_TABLE: { head: string[]; rows: string[][] };
+export const CODES: string[];
+export const DELIVERABLES: string[];
+export function maritimePath(slug: string): string;
+export function classApprovalText(): string;
+export function buildMaritimeSection(cityList: CityRow[], records?: Record<string, unknown>): ServiceSectionModel;
+export function recordFor(pathname: string, cityList: CityRow[]): { kind: 'city' | 'page'; slug: string } | null;

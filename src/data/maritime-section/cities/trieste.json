@@ -1,0 +1,112 @@
+{
+  "slug": "trieste",
+  "name": "Trieste",
+  "country": "Italy",
+  "region": "europe",
+  "title": "Trieste Ultrasonic Thickness Measurement for Ships",
+  "description": "Ultrasonic thickness measurement in Trieste for crude tankers at the SIOT terminal and ro-ro ships on Turkish trades: CAP gauging and hull structure.",
+  "h1": "Thickness Measurement in Trieste for Tankers, Ro-Ro and Container Ships",
+  "intro": "Trieste handles two fleets that rarely stay long: crude tankers discharging at the SIOT marine terminal into the Transalpine Pipeline, and ro-ro ships on scheduled Turkish trailer services. For a superintendent who needs ballast tank, deck or vehicle-deck readings during one of those calls, Atlantis NDT sends a thickness measurement team from India and plans the gauging around the discharge or the cargo turnaround.",
+  "keywords": [
+    "trieste ultrasonic thickness measurement",
+    "thickness measurement in trieste",
+    "ultrasonic thickness measurement in trieste",
+    "tanker gauging",
+    "ro-ro thickness gauging",
+    "cap thickness measurement",
+    "scrubber pipe inspection",
+    "utm trieste",
+    "hull gauging trieste",
+    "ship inspection trieste italy"
+  ],
+  "highlights": [
+    {
+      "h": "Crude tankers feeding central Europe",
+      "p": "The SIOT terminal in the Bay of Muggia supplies the Transalpine Pipeline to Austria, Germany and the Czech Republic, so large crude tankers call regularly, each call a chance to gauge ballast tanks and deck before CAP or vetting."
+    },
+    {
+      "h": "Scheduled Turkish ro-ro rotations",
+      "p": "Ro-ro ships linking Turkish ports with Trieste return on fixed rotations, which lets gauging of trailer decks, internal ramps and ballast tanks be split across consecutive calls without taking the ship off its schedule."
+    },
+    {
+      "h": "Monfalcone in the same port system",
+      "p": "Monfalcone, under the same port authority, has Fincantieri's cruise shipbuilding yard and a commercial port for bulk and general cargo, widening the range of ships one Trieste mobilisation can reach."
+    }
+  ],
+  "port": {
+    "h": "The port of Trieste and the ships that call there",
+    "p": [
+      "Trieste sits at the head of the Adriatic and, with Monfalcone, forms the Eastern Adriatic Sea port system. Its free-port status and its rail links into Austria, Germany, Hungary and the Czech Republic make it a gateway for central Europe rather than a port serving only its own city. The traffic that matters for thickness gauging falls into three groups: crude tankers at the SIOT marine terminal, ro-ro ships carrying trailers on Turkish services, and container ships at the Trieste Marine Terminal on Molo VII. Cruise ships berth at the Stazione Marittima close to the city centre.",
+      "The SIOT terminal, in the Bay of Muggia south of the city, is the sea end of the Transalpine Pipeline, which carries crude to refineries in Austria, southern Germany and the Czech Republic. Tankers discharge at the terminal's jetties and sail once the cargo is pumped ashore, so there is no lay-by period in the usual sense. What every call does offer is a predictable window in which the main deck, deck piping, forecastle spaces and any ballast tanks the ship declares safe for entry can be gauged. For a tanker approaching a CAP inspection, or carrying substantial corrosion items from its last survey, that window is often enough to close out outstanding readings without a special call.",
+      "Ro-ro thickness gauging is a different exercise. The Turkish trailer services run on fixed rotations, and the same ships return to Trieste again and again. Vehicle decks, internal ramps, lashing pockets and the ballast tanks below the main deck take heavy wear from trailer traffic, salt and condensation, and owners want to know where they stand before a renewal survey or a docking. Because the ship will be back on a known date, the programme can be split across several calls, each covering a defined block of spaces, and the full picture is built without delaying cargo work."
+    ]
+  },
+  "facilities": {
+    "h": "Where thickness gauging happens in the Trieste port system",
+    "p": [
+      "In Trieste most gauging is done afloat during cargo operations rather than in a dock, and that shapes how jobs are planned. The scope is fixed in advance as a list of spaces, entry permits are agreed with the master and the terminal, and the team works through the list in the order the ship's operations allow. Tanker gauging at SIOT is governed by the terminal's own safety rules, which are strict about electronic equipment, ignition sources and access to the jetty, so the agent arranges clearance and inductions well before the ship arrives.",
+      "Full CAP-level gauging of cargo tanks needs the ship gas-freed, so owners plan it for a yard stay. The ship-repair yards of the northern Adriatic, including Viktor Lenac near Rijeka, are within easy reach, and the same team can follow the tanker to the yard once it leaves the terminal. Monfalcone adds bulk carriers and general cargo ships at its commercial quays, and ships waiting for a berth lie at anchor in the Gulf of Trieste, where condition gauging can be done from a launch booked by the agent."
+    ],
+    "list": [
+      "SIOT marine terminal, Bay of Muggia — gauging of main deck, deck piping, forecastle spaces and ballast tanks declared safe for entry on crude tankers during discharge",
+      "Ro-ro berths of the port of Trieste — vehicle deck, internal ramp, stern ramp and ballast tank gauging on trailer ships, split across consecutive scheduled calls",
+      "Trieste Marine Terminal, Molo VII — limited-scope gauging of hatch covers, cross-deck structure and scrubber overboard piping on container ships during cargo work",
+      "Stazione Marittima — cruise ships alongside near the city centre, where a turnaround allows readings on scrubber lines and selected void spaces",
+      "Monfalcone commercial port — gauging on bulk carriers and general cargo ships at the quays, including hold frames and hatch coamings once the holds are empty",
+      "Anchorage in the Gulf of Trieste — ships waiting for SIOT or a container berth, reached by a launch the agent books, for sale or off-hire gauging"
+    ]
+  },
+  "context": {
+    "h": "Port state control, emissions rules and the Trieste trades",
+    "p": [
+      "Port state control in Trieste follows the Paris MoU, whose ship risk profile decides how often a tanker or ro-ro ship is boarded. The Mediterranean SOx ECA, in force since 1 May 2025, caps fuel sulphur at 0.10% across the Adriatic unless a scrubber delivers equivalent emissions. Container ships and ro-ro ships fitted with scrubbers now run them to ECA limits for the whole Adriatic passage, and wash-water and overboard piping has become a recurring gauging request, especially where shell penetrations showed pitting at an earlier inspection.",
+      "Tanker managers calling at SIOT also work under oil-major vetting. SIRE inspections and charterers' acceptance criteria weigh the ship's structural condition records, and for older tankers a current CAP rating is often expected before the ship is accepted. EU ETS, in force for shipping since 2024, and FuelEU Maritime, applying since 2025, add commercial pressure on older tonnage in the Turkish ro-ro trades as well: an owner deciding whether to keep, sell or recycle a ship needs gauging records that a buyer or a yard can rely on. Trieste is also the headquarters city of Fincantieri, and with the Monfalcone cruise yard nearby the region has deep shipbuilding expertise to draw on when gauging results lead to repair planning."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Trieste",
+    "p": "Trieste work is shaped by short, predictable calls. A tanker's discharge or a ro-ro ship's turnaround gives a fixed number of hours, and the job is to gather the readings that the class surveyor, the vetting inspector or the buyer needs inside that time. We agree the list of spaces, the permits and the reporting format before the team leaves India, and plan any remaining readings for the next call or the next yard stay.",
+    "list": [
+      "Close-out gauging of substantial corrosion areas in the ballast tanks of a crude tanker at SIOT, so the readings are ready for the next annual survey",
+      "Pre-CAP survey on an older tanker during discharge, measuring the main deck and accessible ballast tanks to show the owner what CAP thickness measurement at the yard is likely to find",
+      "Vehicle deck and internal ramp gauging on a Turkish-trade ro-ro ship, split across several consecutive calls ahead of its renewal survey",
+      "Scrubber wash-water and overboard pipe wall-thickness survey on a container ship at Molo VII while cargo operations continue, repeated on the next call to trend loss",
+      "Hold frame and hatch coaming gauging on a bulk carrier discharging at Monfalcone, with holds empty and access coordinated with the stevedores"
+    ]
+  },
+  "logistics": "Trieste Airport, at Ronchi dei Legionari near Monfalcone, has European connections, and Venice Marco Polo and Ljubljana airports are within road distance for longer-haul arrivals. The ship's agent requests ISPS access for the ro-ro, container and cruise berths and arranges SIOT terminal clearance, which comes with its own safety induction and equipment rules. Our technicians are Indian nationals travelling on Schengen visas. Tanker and ro-ro calls are often confirmed only days ahead, so for repeat work on a scheduled rotation we plan visas around the rotation rather than around a single call.",
+  "vessels": [
+    "Crude oil tankers",
+    "Ro-ro cargo ships",
+    "Container ships",
+    "Cruise ships",
+    "Bulk carriers",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge cargo tanks on a tanker at the SIOT terminal?",
+      "a": "Not during discharge. Cargo tank internals need the ship gas-freed and certified safe for entry, which does not happen at an oil terminal. At SIOT we gauge the main deck, deck piping and the ballast tanks the ship declares safe. Cargo tank gauging for CAP or a renewal survey is planned for a yard stay, and the same team can be mobilised to the yard."
+    },
+    {
+      "q": "How do you handle gauging on a ro-ro ship that only stays a few hours?",
+      "a": "By splitting the programme. We agree with the superintendent which decks, ramps and tanks are measured on each call, mark the locations on the ship's drawings, and pick up the next block on the following rotation. The readings are compiled into one report, so the class surveyor sees a complete set even though it was collected over several calls."
+    },
+    {
+      "q": "Is the Mediterranean ECA a reason for scrubber pipe inspection in Trieste?",
+      "a": "It is a reason to inspect more often. Since 1 May 2025 scrubber-fitted ships in the Adriatic operate their systems to ECA limits, and wash-water attacks overboard piping, discharge valves and the shell around the outlet. Wall-thickness readings at the known weak points, repeated on later calls, show the rate of loss before a leak forces an unplanned repair."
+    },
+    {
+      "q": "Do you cover Monfalcone as well as Trieste?",
+      "a": "Yes. Monfalcone is part of the same port system and a short drive from Trieste, so one mobilisation can cover a bulk carrier at a Monfalcone quay and a tanker or ro-ro ship in Trieste. Give us both ships' schedules when you enquire and we will sequence the work so that neither ship waits for the team."
+    }
+  ],
+  "nearby": [
+    "koper",
+    "venice",
+    "rijeka",
+    "split"
+  ]
+}

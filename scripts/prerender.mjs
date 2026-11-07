@@ -92,6 +92,7 @@ import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversion
 import { privacyPolicyRoute } from './privacy-policy-page.mjs';
 import { erpSolutionRoutes, applyErpSolutionRoute, assertErpSolutionsBuilt, erpSolutionStats } from './erp-solutions-pages.mjs'; // 2026-11-06 owner: ERP problem -> solution pages, dashboards, links
 import { MODULE_PAGES_PROTECTED } from '../src/data/erp-module-dashboards-2026-11.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
+import { maritimeSectionRoutes, assertMaritimeSectionClean } from './maritime-section-2026-11.mjs'; // 2026-11-07 owner: maritime inspection (ship UTM) pages for Europe, Middle East, China, Singapore
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
@@ -10087,6 +10088,7 @@ routes.push(...cycleRoutes());
 routes.push(...caseStoryRoutes());
 routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator (scripts/ascan-simulator-2026-10.mjs)
 routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (scripts/inspection-section-2026-10.mjs)
+routes.push(...maritimeSectionRoutes()); // 2026-11-07: /maritime-inspection section (scripts/maritime-section-2026-11.mjs)
 routes.push(...consultingSectionRoutes()); // 2026-10-19: Level III consulting topic pages (scripts/consulting-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
@@ -14201,6 +14203,7 @@ assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination i
 assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, related targets built
 assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
+assertMaritimeSectionClean(BUILT_PATHS); // 2026-11-07: maritime records complete, >=2,000 words per port, links built, no prices/approval/presence claims
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55

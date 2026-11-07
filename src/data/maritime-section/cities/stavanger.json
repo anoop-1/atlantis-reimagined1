@@ -1,0 +1,108 @@
+{
+  "slug": "stavanger",
+  "name": "Stavanger",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Stavanger UTM: Thickness Measurement for Offshore Vessels",
+  "description": "UTM thickness gauging in Stavanger for supply, anchor-handling and offshore vessels: hull structure, deck wear, pre-docking gauging and crack detection.",
+  "h1": "Ultrasonic Thickness Measurement for Offshore Vessels in Stavanger",
+  "intro": "Stavanger is the centre of Norway's offshore petroleum industry and a growing base for offshore wind. Platform supply vessels, anchor handlers, standby and well-intervention vessels work out of the region's supply bases between North Sea assignments. Atlantis NDT mobilises a team from India to gauge deck plating, tanks, moonpools and towing-equipment foundations on these ships, timed around charter gaps, maintenance stops and docking surveys.",
+  "keywords": [
+    "stavanger utm",
+    "stavanger thickness measurement",
+    "offshore vessel inspection",
+    "ahts inspection",
+    "psv thickness measurement",
+    "moonpool inspection",
+    "deck plating gauging",
+    "pre-docking gauging",
+    "ultrasonic thickness measurement",
+    "offshore vessel crack detection"
+  ],
+  "highlights": [
+    {
+      "h": "Deck wear on anchor handlers",
+      "p": "Chain, wire and anchors dragged across the work deck of an AHTS wear the deck plating and stern roller structure. Mapping that wear by thickness measurement shows where renewal is due before a surveyor finds it."
+    },
+    {
+      "h": "Moonpools and splash zones",
+      "p": "Well-intervention and subsea vessels with moonpools have structure in a permanently wet, wave-washed zone inside the hull. Moonpool walls and their surrounding framing are a recurring gauging and crack detection location."
+    },
+    {
+      "h": "Supply bases with quay access",
+      "p": "The supply base at Dusavik and other bases in the region provide quay space and cranes, so much of the tank and deck gauging on supply vessels can be done alongside without waiting for a dock."
+    }
+  ],
+  "port": {
+    "h": "Stavanger and the offshore fleet of the Norwegian shelf",
+    "p": [
+      "Stavanger became Norway's oil capital when production began on the Norwegian continental shelf, and the city remains home to Equinor's head office and a dense network of operators, drilling contractors, government petroleum authorities and service companies. That concentration shapes the port's traffic: many of the ships calling in the Stavanger region are offshore vessels, including platform supply vessels, anchor-handling tug supply vessels, standby and emergency response vessels, well-intervention ships and subsea construction ships, working fields in the North Sea and further north. Much of the specialist offshore fleet on the Norwegian shelf is Norwegian-owned, and many of its owners keep their technical management on the west coast.",
+      "The supply base at Dusavik and other bases around the city load drilling fluids, cement, pipe and containers for offshore installations, and supply vessels cycle through them on regular rotations. Anchor handlers and subsea vessels arrive between rig moves and construction campaigns. Ferries link Stavanger with Bergen and with Hirtshals in Denmark, and the port also handles cruise ships in summer and general cargo. Base activity is continuous, with vessels loading on deck and in tanks at the same time, so any measurement alongside has to fit the base's lifting and bunkering programme. Interest in floating offshore wind off the Norwegian west coast is adding cable-lay, installation and service vessels to the mix.",
+      "Offshore vessels stay in port when charters end, when weather halts work, and when owners bring them in for maintenance or class surveys. Because their earning days depend on availability, owners plan intermediate and renewal surveys tightly around contract gaps and often carry out tank and deck gauging alongside at the base before going to a yard for underwater work. Stavanger thickness measurement demand is therefore spread through the year, with peaks when owners realign their fleets for new contracts and when laid-up tonnage is brought back into service. Charterers may also ask for condition evidence when a vessel is offered for a long-term contract."
+    ]
+  },
+  "facilities": {
+    "h": "Where offshore vessel gauging happens around Stavanger",
+    "p": [
+      "Most measurement on Stavanger offshore vessels takes place alongside at the supply bases, where quays, cranes and storage space allow tanks and decks to be opened and worked while the ship is off-hire or between voyages. Liquid mud, brine, base-oil and fuel tanks on supply vessels need cleaning and gas-freeing before entry, which the owner arranges at the base before the team starts. Vessels waiting in the Boknafjord for a base slot can occasionally be reached by launch for a small scope, weather permitting. Work on open deck at the bases is planned around crane operations and the North Sea weather that sweeps the quays in winter.",
+      "For docking surveys, offshore vessels go to repair yards on the Norwegian west coast, around Haugesund, Bergen and further north, or to yards in Poland, the Netherlands or Denmark. A vessel docking abroad may still call at Stavanger before or after, and that call is a good moment for pre-docking gauging of the tanks and decks most likely to need steel, so the yard specification is realistic before the ship sails. After the docking, a further call can be used to close out any measurements the yard programme did not reach."
+    ],
+    "list": [
+      "Dusavik supply base — tank, deck plating and cargo-rail gauging on platform supply vessels between voyages, once tanks are cleaned and certified for entry.",
+      "Other supply bases in the Stavanger region — anchor-handling deck, stern roller and winch-foundation measurements on AHTS vessels between rig moves.",
+      "Offshore construction quays — moonpool structure gauging and crane-pedestal crack detection on well-intervention and subsea vessels during mobilisation.",
+      "West-coast repair yards — docking-survey and renewal-survey gauging including bottom and shell plating, following alongside work in Stavanger.",
+      "Boknafjord anchorages — limited scopes on vessels waiting for a quay slot, with launch access arranged by the agent.",
+      "Ferry and cruise berths in the city — machinery piping and deck measurements on ferries during scheduled stays."
+    ]
+  },
+  "context": {
+    "h": "Norwegian shelf requirements and the Stavanger offshore market",
+    "p": [
+      "Norway is a Paris MoU member, and Stavanger lies inside the North Sea SOx ECA at 0.10% sulphur. Most offshore vessels here burn marine gas oil or LNG or run battery-hybrid systems, so exhaust gas cleaning is uncommon on this fleet. Vessels working on the Norwegian continental shelf meet operator vetting and Norwegian regulatory requirements in addition to class and flag surveys, and structural condition records are among the items vetting inspectors and operator auditors examine when assessing a vessel's maintenance.",
+      "Offshore vessels are not ESP ships, so the extensive cargo-tank gauging tied to the later renewal surveys of tankers and bulk carriers does not apply in the same form. What matters instead is where offshore work wears the steel: anchor-handling decks gouged by chain and wire, stern rollers and towing pins, shark jaws and winch foundations under heavy cyclic load, cargo rails and deck plating struck by containers and pipe, moonpools in the splash zone, and liquid cargo tanks holding corrosive brines. Many Norwegian offshore vessels also spent long periods laid up during the downturn in North Sea activity in the second half of the 2010s, and those reactivated hulls warrant a fresh baseline."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Stavanger",
+    "p": "Stavanger scopes are usually built around a vessel's off-hire window. The owner or charterer defines the areas, the vessel prepares tanks at the base, and the team measures and reports so that any renewal can be planned before the next contract begins. Typical work on this fleet, spread across the supply bases, anchorages and repair yards of the region, includes:",
+    "list": [
+      "AHTS inspection between rig moves: work-deck plating mapped for chain wear, stern roller structure gauged and towing-pin foundations checked with magnetic particle testing.",
+      "PSV thickness measurement at Dusavik: liquid mud and brine tanks, cargo rails and main deck measured during a maintenance stop before a new charter.",
+      "Moonpool inspection on a well-intervention vessel: moonpool wall plating gauged and framing welds crack-tested during mobilisation for a new campaign.",
+      "Pre-docking gauging of ballast and fuel tanks on a standby vessel, scoping steel renewal before an intermediate survey at a west-coast yard.",
+      "Reactivation gauging on a supply vessel returning from lay-up: ballast tanks, seawater cooling lines and fire main measured before the reactivation survey."
+    ]
+  },
+  "logistics": "Stavanger Airport, Sola, south-west of the city, has direct connections to Oslo, Copenhagen, Amsterdam and other European hubs. Supply bases are ISPS-controlled and require site inductions and work permits, which the vessel operator or the ship's agent arranges; anchorage work needs a launch booked through the agent. Norway is part of the Schengen area, and the team travels from India on Schengen visas. Because offshore off-hire windows can be confirmed late, we agree a provisional mobilisation window early so that visas are in hand when the date is fixed.",
+  "vessels": [
+    "Platform supply vessels",
+    "Anchor-handling tug supply vessels",
+    "Standby and emergency response vessels",
+    "Well-intervention vessels",
+    "Subsea construction vessels",
+    "Offshore wind service vessels",
+    "Ro-pax ferries"
+  ],
+  "faqs": [
+    {
+      "q": "Can tanks on a supply vessel be gauged alongside at a Stavanger base?",
+      "a": "Yes, provided the tanks are emptied, cleaned and certified safe for entry. Liquid mud and brine tanks need thorough cleaning first, which the owner arranges with the base. Once tanks are open, measurement and reporting run alongside other maintenance, and bottom or shell plating that needs a dry dock is left for the docking survey."
+    },
+    {
+      "q": "What is usually checked on an anchor-handling vessel?",
+      "a": "Work-deck plating for wear from chain and wire, the stern roller and its supporting structure, towing pins and shark jaws with their foundations, winch foundations and the deck structure beneath them. Thickness measurement shows wastage and wear; magnetic particle testing looks for fatigue cracks at the welds that carry the largest loads during anchor handling and towing."
+    },
+    {
+      "q": "Does vetting on the Norwegian shelf call for thickness measurement?",
+      "a": "Vetting inspectors and operator auditors look at structural condition records as part of the vessel's maintenance evidence, and recent gauging results support the owner's position. The specific requirement depends on the operator and the vessel's contract; the gauging scope for a class survey is set by class rules and the attending surveyor."
+    },
+    {
+      "q": "Can work be scheduled at short notice when a vessel comes off charter?",
+      "a": "Only if visas and travel can be arranged in time, which is why we recommend agreeing a provisional window as soon as the off-hire looks likely. For fleets with recurring work in the region, keeping valid Schengen visas for the assigned technicians shortens the lead time considerably."
+    }
+  ],
+  "nearby": ["haugesund", "bergen", "esbjerg", "aberdeen", "oslo"]
+}
