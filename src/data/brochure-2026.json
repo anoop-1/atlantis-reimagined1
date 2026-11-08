@@ -1,8 +1,8 @@
 {
-  "_note": "/brochure (owner, 2026-11-07): view and download the Atlantis NDT company brochure 2026. One source for the React page (src/pages/Brochure.tsx) and the crawler (scripts/brochure-page.mjs). PDF: public/downloads/atlantis-ndt-brochure-2026.pdf; page previews: public/downloads/brochure-2026/page-NN.webp (rendered from the PDF, 900 px wide). To publish a new edition, replace those files and update pdfBytes/pages here.",
+  "_note": "/brochure (owner, 2026-11-07): view and download the Atlantis NDT company brochure 2026. One source for the React page (src/pages/Brochure.tsx) and the crawler (scripts/brochure-page.mjs). PDF: public/downloads/atlantis-ndt-brochure-2026.pdf; page previews: public/downloads/brochure-2026/page-NN.webp (rendered from the PDF, 900 px wide). To publish a new edition, replace those files and update pdfBytes/pages here. 2026-11-08: the maritime services portfolio (public/maritime-brochure.pdf, cover public/downloads/brochure-2026/maritime-cover.webp) is listed in 'more'.",
   "path": "/brochure",
   "title": "Atlantis NDT Company Brochure 2026 (PDF Download)",
-  "description": "View or download the Atlantis NDT 2026 company brochure: NDT training, outside Level III consulting, Practical NDT, Digital Twins and Atlantis ERP.",
+  "description": "View or download the Atlantis NDT 2026 company brochure and maritime services portfolio: NDT training, Level III consulting, inspection and software.",
   "h1": "Atlantis NDT Company Brochure 2026",
   "eyebrow": "Company profile · 2026",
   "intro": "Our 2026 company profile in one 16-page PDF: NDT training from Level I to Level III, outside Level III consulting, client and class-society approval projects, and the software we build for inspection people. Read it here or download it to share with your team.",
@@ -12,23 +12,105 @@
   "pages": 16,
   "previewDir": "/downloads/brochure-2026",
   "contents": [
-    { "pages": "2", "h": "About Atlantis NDT", "p": "An NDT consulting, training and technology firm led by an ASNT NDT Level III in RT, UT, MT, PT and VT, working across oil and gas, maritime, aerospace, petrochemical and power from the USA and India." },
-    { "pages": "3", "h": "Three practices, one standard", "p": "Training, consulting and technology, and how they fit together." },
-    { "pages": "4–5", "h": "Training", "p": "Level I and Level II method courses, ASNT Level III Basic and method preparation, advanced UT awareness (PAUT and TOFD), qualification programmes and refresher courses, delivered online, in the classroom, onsite or in the Practical NDT 3D campus." },
-    { "pages": "6–7", "h": "Consulting", "p": "Outside Level III and Level III of record, procedures and techniques, written practice and qualification, audits and compliance, laboratory support, and client and regulatory approvals." },
-    { "pages": "8", "h": "Client and regulatory approvals", "p": "Preparing NDT and inspection suppliers for client, regulatory and class-society approvals: gap assessment, documentation, personnel records, audit support and surveillance." },
-    { "pages": "9", "h": "Industries and methods", "p": "Oil and gas, maritime, aerospace, petrochemical and power, and the methods we train, consult and build for: RT, UT, MT, PT, VT, PAUT, TOFD, ET, MFL, LRUT, IRIS and PMI." },
-    { "pages": "10–11", "h": "Practical NDT", "p": "A browser-based 3D inspection campus where trainees set up instruments, follow written procedures and report findings, on desktop, mobile and VR." },
-    { "pages": "12", "h": "Atlantis Digital Twins", "p": "A 3D model of each asset carrying its thickness readings, corrosion trends and inspection history, with reports from the same screen." },
-    { "pages": "13", "h": "Atlantis ERP", "p": "An ERP configured for NDT companies, from the first enquiry to the signed report and the paid invoice." },
-    { "pages": "14–15", "h": "One connected ecosystem, and how we work", "p": "Train, inspect, report, manage — and the path from discovery call to proposal, delivery and ongoing support." }
+    {
+      "pages": "2",
+      "h": "About Atlantis NDT",
+      "p": "An NDT consulting, training and technology firm led by an ASNT NDT Level III in RT, UT, MT, PT and VT, working across oil and gas, maritime, aerospace, petrochemical and power from the USA and India."
+    },
+    {
+      "pages": "3",
+      "h": "Three practices, one standard",
+      "p": "Training, consulting and technology, and how they fit together."
+    },
+    {
+      "pages": "4–5",
+      "h": "Training",
+      "p": "Level I and Level II method courses, ASNT Level III Basic and method preparation, advanced UT awareness (PAUT and TOFD), qualification programmes and refresher courses, delivered online, in the classroom, onsite or in the Practical NDT 3D campus."
+    },
+    {
+      "pages": "6–7",
+      "h": "Consulting",
+      "p": "Outside Level III and Level III of record, procedures and techniques, written practice and qualification, audits and compliance, laboratory support, and client and regulatory approvals."
+    },
+    {
+      "pages": "8",
+      "h": "Client and regulatory approvals",
+      "p": "Preparing NDT and inspection suppliers for client, regulatory and class-society approvals: gap assessment, documentation, personnel records, audit support and surveillance."
+    },
+    {
+      "pages": "9",
+      "h": "Industries and methods",
+      "p": "Oil and gas, maritime, aerospace, petrochemical and power, and the methods we train, consult and build for: RT, UT, MT, PT, VT, PAUT, TOFD, ET, MFL, LRUT, IRIS and PMI."
+    },
+    {
+      "pages": "10–11",
+      "h": "Practical NDT",
+      "p": "A browser-based 3D inspection campus where trainees set up instruments, follow written procedures and report findings, on desktop, mobile and VR."
+    },
+    {
+      "pages": "12",
+      "h": "Atlantis Digital Twins",
+      "p": "A 3D model of each asset carrying its thickness readings, corrosion trends and inspection history, with reports from the same screen."
+    },
+    {
+      "pages": "13",
+      "h": "Atlantis ERP",
+      "p": "An ERP configured for NDT companies, from the first enquiry to the signed report and the paid invoice."
+    },
+    {
+      "pages": "14–15",
+      "h": "One connected ecosystem, and how we work",
+      "p": "Train, inspect, report, manage — and the path from discovery call to proposal, delivery and ongoing support."
+    }
   ],
   "links": [
-    ["/training", "NDT training"],
-    ["/consulting", "Level III consulting"],
-    ["/inspection", "Inspection services"],
-    ["/practical-ndt", "Practical NDT"],
-    ["/digital-twins", "Atlantis Digital Twins"],
-    ["/erp", "Atlantis ERP"]
+    [
+      "/training",
+      "NDT training"
+    ],
+    [
+      "/consulting",
+      "Level III consulting"
+    ],
+    [
+      "/inspection",
+      "Inspection services"
+    ],
+    [
+      "/practical-ndt",
+      "Practical NDT"
+    ],
+    [
+      "/digital-twins",
+      "Atlantis Digital Twins"
+    ],
+    [
+      "/erp",
+      "Atlantis ERP"
+    ]
+  ],
+  "more": [
+    {
+      "id": "maritime",
+      "h": "Maritime Services Portfolio",
+      "eyebrow": "Maritime division · 2026",
+      "p": "For shipowners, ship managers and repair yards: condition assessment surveys, UT thickness gauging and corrosion mapping, NDT and advanced UT, machinery diagnostics, docking inspections, and Level III consulting for NDT and gauging suppliers working towards class approval.",
+      "pdf": "/maritime-brochure.pdf",
+      "pdfName": "Atlantis_NDT_Maritime_Brochure_2026.pdf",
+      "pdfBytes": 1033055,
+      "pages": 10,
+      "cover": "/downloads/brochure-2026/maritime-cover.webp",
+      "contents": [
+        "Who we are",
+        "Services under one roof",
+        "Condition assessment survey",
+        "UT thickness gauging",
+        "NDT and advanced NDT",
+        "Machinery diagnostics and periodic inspections",
+        "Docking inspections",
+        "Level III consulting, training and technology",
+        "How we engage"
+      ]
+    }
   ]
 }

@@ -4,6 +4,7 @@ export type Brochure = {
   pdf: string; pdfName: string; pdfBytes: number; pages: number; previewDir: string;
   contents: { pages: string; h: string; p: string }[];
   links: [string, string][];
+  more?: { id: string; h: string; eyebrow: string; p: string; pdf: string; pdfName: string; pdfBytes: number; pages: number; cover: string; contents: string[] }[];
 };
 export const BR: Record<string, string>;
 export function brochureHtml(d: Brochure): string;
