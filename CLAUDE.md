@@ -3925,7 +3925,7 @@ Owner, 2026-11-10: "further refine SEO, to get more training enquiries from USA,
 Build EXIT 0 · drift guard PASS · maritime guard PASS (125 pages, port words min 2,854) · intent routes 231 destinations PASS · preflight 16/16 · pricing PASS (`--dist`) · fabricated claims PASS (`--dist`).
 
 ### 74.5 Not done, and why
-- **Nothing pushed** (owner: "Nothing yet"). To ship: push `release-2026-11-10` to main. The US training commits come first in the history (4bf6deeb … ) if the owner wants training only: push that commit, not the merge.
+- **Nothing pushed** (owner: "Nothing yet"). To ship everything: push `release-2026-11-10` to main. Training only: branch `us-training-2026-11` (main + the US training commits + the React fee fix, no maritime); it is a subset of the verified release but has not been built on its own, so build and run the gates before pushing it.
 - **"Rank first among inspection companies in Europe" cannot be promised.** What decides it: class approved-supplier lists after the DNV/LR/ABS audits (authoritative, where superintendents look); maritime directories and marketplaces (ShipServ "thickness measurement" country categories, MarineTraffic business directory, MarineLink directory, vslSafety/checkyourship provider networks); and links. Owner actions, listed in the project doc.
 - No Dutch/German-language pages: maritime technical buying is done in English; revisit only if GSC shows Dutch queries after go-live.
 - Big-metro US training pages (Atlanta, Denver, San Antonio, Miami) rank p35–56 against local schools: an authority problem, not content.
