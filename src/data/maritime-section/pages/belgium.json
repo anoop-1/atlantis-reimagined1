@@ -1,0 +1,98 @@
+{
+  "slug": "belgium",
+  "navLabel": "Belgium",
+  "title": "Ultrasonic Thickness Measurement Belgium | Ship UTM",
+  "description": "Ship ultrasonic thickness measurement in Belgium: UTM and hull gauging in Antwerp, Zeebrugge and Ghent for chemical tankers, car carriers and bulk carriers.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Belgium",
+  "eyebrow": "Maritime inspection · Belgium",
+  "intro": "Belgium's three seaports each bring a different kind of ship to the gauging plan. Antwerp, the larger half of the Port of Antwerp-Bruges, serves Europe's biggest petrochemical cluster, so chemical and product tankers dominate. Zeebrugge, on the open North Sea coast, is a car carrier, ro-ro and LNG port. Ghent, reached by canal from Terneuzen, handles mid-sized bulk carriers serving the steel and agribulk trades. Superintendents call us for ultrasonic thickness measurement on all three: pre-docking hull structure gauging, cargo piping and tank gauging on chemical tankers, car-deck and hull UTM on vehicle carriers, hold gauging on bulk carriers, and pre-purchase surveys. The team is mobilised from India for each job, planned around the call or the docking.",
+  "highlights": [
+    {
+      "h": "Chemical tankers at their last berth",
+      "p": "Because Antwerp's repair yard sits inside the same dock system as the cargo terminals, a chemical tanker can be gauged at its last discharge berth and arrive at the yard with the steel programme already defined."
+    },
+    {
+      "h": "Car decks gauged between cargoes",
+      "p": "At Zeebrugge the useful window on a vehicle carrier is the gap between discharge and loading, when the car decks are empty and the ship can light them and give safe access to hoistable decks."
+    },
+    {
+      "h": "Bulk carrier holds on the Ghent canal",
+      "p": "Once the grabs have finished at the steelworks quays and the holds are swept, the team works through frames, brackets and hopper plating to the thickness measurement plan before the ship sails."
+    }
+  ],
+  "sections": [
+    {
+      "id": "be-ports",
+      "h": "Where ships are gauged in Belgium",
+      "p": [
+        "The Port of Antwerp-Bruges, formed when Antwerp and Zeebrugge merged, is Europe's second-largest port. Its Antwerp half lies far up the tidal Scheldt: deep-sea container ships work the tidal terminals on the river and at the Deurganck dock, while behind the big sea locks a network of docks serves breakbulk, steel, cars and above all the petrochemical industry. Deep-sea repair centres on EDR Antwerp Shipyard, whose floating docks inside the port take tankers, bulk carriers, cargo ships and offshore units.",
+        "Zeebrugge sits directly on the North Sea coast, north of Bruges, without the long river passage that Antwerp ships make. It is a major European hub for new-car imports and exports and a base for short-sea ro-ro lines to the UK, Ireland and other European ports, and the Fluxys LNG terminal brings gas carriers. It is a cargo and energy port rather than a docking port, so most gauging here is done afloat and planned around the call.",
+        "Ghent is the inland end of North Sea Port, the cross-border port it formed with Zeeland Seaports. Ships enter from the Westerschelde through the sea locks at Terneuzen and follow the Ghent–Terneuzen canal across the Dutch–Belgian border. The canal limits ship size, so the bulk carriers here are smaller than the ore carriers that discharge at Rotterdam, and the steelworks quays on the canal are the most frequent setting for hold gauging."
+      ]
+    },
+    {
+      "id": "be-ut-scope",
+      "h": "Ultrasonic thickness measurement on Belgian jobs",
+      "p": [
+        "Chemical and product tankers in Antwerp bring the most varied scope: cargo tank and ballast tank structure, cargo piping on deck and in the pump room, and the heating coils and their supports where the owner asks for them. Readings on stainless or coated cargo tanks follow the owner's method statement, and every reading is located against frame and strake or spool references so the yard can find it again.",
+        "Vehicle carriers and ro-ro ships at Zeebrugge are gauged on car decks, ramps, the main deck and tank tops, and on the shell where the TM plan calls for it. Bulk carriers at Ghent are gauged in the holds, hopper and topside tanks, and on the hatch coamings. On all three, renewal and intermediate survey gauging follows the plan for the ship's survey number, and pre-purchase or on-hire gauging gives a buyer or charterer measured steel condition before the deal closes."
+      ]
+    },
+    {
+      "id": "be-regime",
+      "h": "Port state control, the North Sea ECA and Scheldt traffic",
+      "p": [
+        "Belgium applies Paris MoU port state control, carried out by the Federal Public Service Mobility and Transport. Antwerp, Zeebrugge, Ghent and the whole Scheldt passage lie inside the North Sea SOx Emission Control Area, where marine fuel may carry no more than 0.10% sulphur, so scrubber-fitted ships run their exhaust gas cleaning systems under whatever wash-water rules apply in Belgian and Dutch waters; the agent confirms the position for the call.",
+        "Under the Paris MoU an older tanker or bulk carrier is a candidate for an expanded inspection, and hull or hold wastage is easy for an inspector to see. Recent gauging and a clear renewal plan on board answer those questions early. For scrubber ships, wash-water and overboard lines remain a common source of wall loss, and a check while the system is shut down in port is far less disruptive than a leak at sea."
+      ]
+    },
+    {
+      "id": "be-planning",
+      "h": "Planning a gauging job in Belgium",
+      "p": [
+        "Send the vessel name or IMO number, the class society, the survey or purpose, the port and the dates. We reply with the scope against the thickness measurement plan, the team size and days, and the mobilisation plan. The team travels from India on Schengen visas arranged for each job, so the earlier the arrival or docking date reaches us, the easier the plan.",
+        "Afloat, the plan follows the cargo programme: the discharge-to-loading gap on car carriers, gas-freeing and ventilation on tankers, and hold cleaning on bulk carriers. In dock, the team works from the yard's staging alongside the surveyor's close-up programme and marks plates for renewal so the steel crew can start without waiting for a second round of readings."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "IACS UR Z17: approval of service suppliers (thickness measurement firms)",
+    "Paris Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14: sulphur oxides and the North Sea ECA",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's TM plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates marked for renewal",
+    "Cargo piping and scrubber piping condition report: minimum wall by spool and joint",
+    "Preliminary readings and photographs shared daily on request"
+  ],
+  "industries": [
+    "Chemical and product tankers",
+    "Vehicle carriers and ro-ro ships",
+    "LNG carriers",
+    "Bulk carriers",
+    "Container ships",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which Belgian ports do you cover for ship thickness measurement?",
+      "a": "Antwerp and Zeebrugge, the two halves of the Port of Antwerp-Bruges, and Ghent on the canal from Terneuzen. Each has its own page describing the ships that call, where gauging happens and the jobs we see there."
+    },
+    {
+      "q": "Can a chemical tanker be gauged in Antwerp before it goes into dock?",
+      "a": "Yes. Once the tanks are clean and gas-free and the spaces are safe to enter, the team gauges the structure and cargo piping at the discharge or lay-by berth, so the yard receives the readings and the steel programme before the ship arrives."
+    },
+    {
+      "q": "Can you gauge a car carrier during a short call at Zeebrugge?",
+      "a": "Often, yes, if the ship can light the decks and give safe access between discharge and loading. For a full renewal survey scope the work is usually split between calls or done at the docking; we plan the split with the superintendent."
+    },
+    {
+      "q": "How much notice do you need for a job in Belgium?",
+      "a": "As much as you can give. The team is mobilised from India on Schengen visas arranged per job. Share the arrival or docking date early, even if it may move, and the plan follows the ship."
+    }
+  ]
+}

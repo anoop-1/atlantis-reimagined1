@@ -3,7 +3,7 @@
   "name": "Genoa",
   "country": "Italy",
   "region": "europe",
-  "title": "Ship Thickness Measurement Genoa | UTM & Hull Gauging",
+  "title": "Ultrasonic Thickness Measurement Genoa | Hull Gauging",
   "description": "Ultrasonic thickness measurement in Genoa for ferries, cruise ships and tankers: renewal survey gauging, pre-docking estimates and scrubber piping checks.",
   "h1": "Ship Thickness Measurement and Hull Gauging in Genoa",
   "intro": "Genoa pairs a busy ship-repair district with year-round ferry, cruise and tanker traffic, so many superintendents meet a drydock or renewal survey here. When a ro-pax ferry is booked into a Genoa drydock, or a tanker at Multedo needs gauging ahead of a CAP or vetting inspection, Atlantis NDT mobilises an ultrasonic thickness measurement team from India to work to the yard programme and the attending surveyor's requirements.",
@@ -105,10 +105,5 @@
       "a": "As early as the docking or inspection date is known. Our team is mobilised from India and needs Schengen visas, so a few weeks of notice is the practical minimum, and more is better in the winter refit season, when yard schedules move and several ferries may be in the drydocks at once."
     }
   ],
-  "nearby": [
-    "la-spezia",
-    "marseille",
-    "naples",
-    "barcelona"
-  ]
+  "nearby": ["la-spezia", "marseille", "naples", "barcelona"]
 }

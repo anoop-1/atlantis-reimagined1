@@ -3,7 +3,7 @@
   "name": "Malta",
   "country": "Malta",
   "region": "europe",
-  "title": "Malta Ship Thickness Measurement | UTM for Malta-Flag Fleet",
+  "title": "Ultrasonic Thickness Measurement Malta | Ship UTM",
   "description": "Ultrasonic thickness measurement in Malta at Grand Harbour, Marsaxlokk and offshore anchorages: renewal survey gauging, CAP support and scrubber piping.",
   "h1": "Ultrasonic Thickness Measurement in Malta: Grand Harbour, Marsaxlokk and Offshore",
   "intro": "Malta sits on the main east–west Mediterranean route and administers Europe's largest ship register, so ships of every type pass its ports, drydocks and offshore bunkering areas. Whether a ship is in drydock at Grand Harbour, working cargo at the Malta Freeport or lying at anchor off the south-east coast between voyages, Atlantis NDT can fly a thickness measurement team in from India and gauge it within the window the owner has.",
@@ -104,10 +104,5 @@
       "a": "As soon as the docking slot is confirmed. That gives time for visas and lets us plan the gauging sequence with the yard, so that readings are taken before blasting and in time for steel renewal decisions. For CAP or renewal surveys on ESP ships, early booking also allows the tank programme to be agreed with the surveyor in advance."
     }
   ],
-  "nearby": [
-    "palermo",
-    "naples",
-    "piraeus",
-    "limassol"
-  ]
+  "nearby": ["palermo", "naples", "piraeus", "limassol"]
 }

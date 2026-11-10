@@ -11,13 +11,13 @@ import * as Lucide from 'lucide-react';
 import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { buildMaritimeSection, CLASS_APPROVALS, SERVICE_SLUGS, REGION_SLUGS, ROOT } from '../src/data/maritime-section/model.mjs';
+import { buildMaritimeSection, CLASS_APPROVALS, SERVICE_SLUGS, REGION_SLUGS, COUNTRY_SLUGS, ROOT } from '../src/data/maritime-section/model.mjs';
 import { SITE, esc } from '../src/data/service-section/core.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA = join(HERE, '..', 'src', 'data', 'maritime-section');
 export const MARITIME_CITY_ROWS = JSON.parse(readFileSync(join(DATA, 'city-list.json'), 'utf8')).cities;
-const PAGE_SLUGS = ['maritime-inspection', ...REGION_SLUGS, ...SERVICE_SLUGS];
+const PAGE_SLUGS = ['maritime-inspection', ...REGION_SLUGS, ...COUNTRY_SLUGS, ...SERVICE_SLUGS];
 
 function loadRecords() {
   const records = {};

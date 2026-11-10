@@ -26,6 +26,13 @@ export const TALK = '/contact?service=inspection&subject=Maritime%20inspection%2
  */
 export const CLASS_APPROVALS = [];
 
+/**
+ * Class approvals in progress (owner, 2026-11-10: "Under way DNV, LR & ABS approvals, scheduled for audit").
+ * Stated as audits in preparation only; never as an approval. Empty this list if the audits are withdrawn.
+ * When a certificate is issued, move that society into CLASS_APPROVALS with its certificate number.
+ */
+export const CLASS_APPROVAL_AUDITS = ['DNV', "Lloyd's Register", 'ABS'];
+
 export const SERVICES = [
   ['ultrasonic-thickness-measurement', 'Ultrasonic Thickness Measurement', 'Hull, tank, deck and bulkhead gauging recorded on the class thickness-measurement formats, with sketches and corrosion flagged against the allowable margins.'],
   ['condition-assessment-programme', 'CAP Thickness Measurement', 'Gauging and close-up survey data for a Condition Assessment Programme, the voluntary class service charterers ask for on older tankers and bulk carriers.'],
@@ -38,6 +45,10 @@ export const SERVICES = [
 export const SERVICE_SLUGS = SERVICES.map(([s]) => s);
 export const REGIONS = [['europe', 'Europe'], ['middle-east', 'Middle East & Egypt'], ['asia', 'China & Singapore']];
 export const REGION_SLUGS = REGIONS.map(([s]) => s);
+/** Country hubs (owner, 2026-11-10: Belgium and the Netherlands are the top priority in Europe). [slug, label, country in city-list] */
+export const COUNTRY_HUBS = [['netherlands', 'Netherlands', 'Netherlands'], ['belgium', 'Belgium', 'Belgium']];
+export const COUNTRY_SLUGS = COUNTRY_HUBS.map(([s]) => s);
+const COUNTRY_HUB_FOR = Object.fromEntries(COUNTRY_HUBS.map(([s, , c]) => [c, s]));
 const REGION_NAME = Object.fromEntries(REGIONS);
 const SERVICE_LABEL = Object.fromEntries(SERVICES.map(([s, l]) => [s, l]));
 const path = (slug) => (slug === 'maritime-inspection' ? ROOT : `${ROOT}/${slug}`);
@@ -111,7 +122,13 @@ export function classApprovalText() {
     const list = CLASS_APPROVALS.map((a) => `${a.society} (${a.scope}, certificate ${a.certificate})`).join('; ');
     return `Atlantis is approved as a thickness measurement firm under IACS UR Z17 by ${list}. For a ship classed with another society, tell us the class when you enquire and we confirm before anything is booked whether the measurement can be credited to the survey. Owner's and charterer's condition gauging, pre-docking steel estimates, pre-purchase and on-hire or off-hire gauging, and scrubber and piping condition checks between surveys do not need class approval.`;
   }
-  return 'Thickness measurement that a classification society credits to a class survey has to be carried out by a firm approved by that society under IACS UR Z17. Tell us the vessel\'s class when you enquire and we confirm, before anything is booked, whether the measurement can be credited to that survey. Owner\'s and charterer\'s condition gauging, pre-docking steel estimates, pre-purchase and on-hire or off-hire gauging, and scrubber and piping condition checks between surveys do not need class approval.';
+  const base = 'Thickness measurement that a classification society credits to a class survey has to be carried out by a firm approved by that society under IACS UR Z17.';
+  const rest = ' Owner\'s and charterer\'s condition gauging, pre-docking steel estimates, pre-purchase and on-hire or off-hire gauging, and scrubber and piping condition checks between surveys do not need class approval.';
+  if (CLASS_APPROVAL_AUDITS.length) {
+    const who = CLASS_APPROVAL_AUDITS.length > 1 ? `${CLASS_APPROVAL_AUDITS.slice(0, -1).join(', ')} and ${CLASS_APPROVAL_AUDITS.at(-1)}` : CLASS_APPROVAL_AUDITS[0];
+    return `${base} Atlantis is preparing for UR Z17 audits with ${who}. Until a certificate is issued, the readings we take are for the owner\'s own decisions, not for credit to a class survey, so tell us the vessel\'s class and the survey due when you enquire and we set the scope for the right purpose.${rest}`;
+  }
+  return `${base} Tell us the vessel\'s class when you enquire and we confirm, before anything is booked, whether the measurement can be credited to that survey.${rest}`;
 }
 
 export const CODES = [
@@ -165,7 +182,7 @@ function cityPage(rec, byslug) {
     deliverables: DELIVERABLES,
     industries: rec.vessels,
     faqs: [...rec.faqs, { q: `Does thickness measurement at ${n} need class approval?`, a: classApprovalText() }],
-    related: [...nearby, [path(rec.region), `Maritime inspection in ${REGION_NAME[rec.region]}`], [ROOT, 'All maritime inspection services']],
+    related: [...nearby, ...(COUNTRY_HUB_FOR[rec.country] ? [[path(COUNTRY_HUB_FOR[rec.country]), `Ship thickness measurement in ${rec.country}`]] : []), [path(rec.region), `Maritime inspection in ${REGION_NAME[rec.region]}`], [ROOT, 'All maritime inspection services']],
     areaServed: placeFor(rec),
   };
 }
@@ -189,7 +206,7 @@ function textPage(rec, kind, parent, byslug, cityList) {
     faqs: rec.faqs,
   };
   if (CLASS_APPROVALS.length) pg.sections.push({ id: 'class-approval', h: 'Class approval', p: [classApprovalText()] });
-  if (kind === 'landing' || kind === 'region') {
+  if (kind === 'landing' || kind === 'region' || kind === 'country') {
     pg.cards = SERVICE_CARDS;
     pg.cardsTitle = 'Maritime inspection services';
     pg.cardsSub = 'Start with the survey or problem; each service page explains the method, the class requirements and the report.';
@@ -203,6 +220,14 @@ function textPage(rec, kind, parent, byslug, cityList) {
     pg.related = [...SERVICES.slice(0, 4).map(([s, l]) => [path(s), l]), ...REGIONS.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
     pg.areaServed = rec.slug === 'europe' ? ['Europe'] : rec.slug === 'middle-east' ? ['Middle East', 'Egypt'] : ['China', 'Hong Kong', 'Singapore'];
   }
+  if (kind === 'country') {
+    const hub = COUNTRY_HUBS.find(([s]) => s === rec.slug);
+    const ports = cityList.filter(([, , country]) => country === hub[2]);
+    pg.sections.push({ id: 'ports', h: `Port pages in ${hub[1]}`, p: [`Each ${hub[1]} port page covers the ships that call, the yards and berths where gauging happens, the port state control picture and the jobs we see there.`], table: { head: ['Port', 'Page'], rows: ports.map(([, name]) => [name, `Ship thickness measurement in ${name}`]) } });
+    pg.related = [...ports.map(([s, name]) => [path(s), `Ultrasonic thickness measurement in ${name}`]), ...COUNTRY_HUBS.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), `Ship thickness measurement in ${l}`]), [path('ultrasonic-thickness-measurement'), 'Ultrasonic thickness measurement (UTM)'], [path('europe'), 'Maritime inspection in Europe']];
+    pg.areaServed = [hub[1]];
+  }
+  if (kind === 'region' && rec.slug === 'europe') pg.related = [...COUNTRY_HUBS.map(([s, l]) => [path(s), `Ship thickness measurement in ${l}`]), ...pg.related];
   if (kind === 'service') {
     pg.related = [...SERVICES.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), l]), ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
   }
@@ -224,6 +249,7 @@ export function buildMaritimeSection(cityList, records = {}) {
   const landing = records['maritime-inspection'];
   pages.push(landing ? textPage(landing, 'landing', null, byslug, cityList) : stub('maritime-inspection', 'landing', null, 'Maritime Inspection'));
   for (const [slug, label] of REGIONS) pages.push(records[slug] ? textPage(records[slug], 'region', ROOT, byslug, cityList) : stub(slug, 'region', ROOT, label));
+  for (const [slug, label] of COUNTRY_HUBS) pages.push(records[slug] ? textPage(records[slug], 'country', path('europe'), byslug, cityList) : stub(slug, 'country', path('europe'), label));
   for (const [slug, label] of SERVICES) pages.push(records[slug] ? textPage(records[slug], 'service', ROOT, byslug, cityList) : stub(slug, 'service', ROOT, label));
   for (const [slug, name, , region] of cityList) pages.push(records[slug] ? cityPage(records[slug], byslug) : stub(slug, 'city', path(region), name));
 
@@ -244,7 +270,7 @@ export function buildMaritimeSection(cityList, records = {}) {
       h2: 'Ports we cover',
       intro: 'Each port page covers the traffic, the yards and anchorages where gauging happens, and the jobs we see there. Teams are mobilised from India to the vessel.',
       groups,
-      footnote: REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`]),
+      footnote: [...COUNTRY_HUBS.map(([s, l]) => [path(s), `Ship thickness measurement in ${l}`]), ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])],
     },
     cta: {
       primaryHref: ENQUIRY, primaryLabel: 'Request a Quote',
@@ -263,6 +289,6 @@ export function recordFor(pathname, cityList) {
   if (p === ROOT) return { kind: 'page', slug: 'maritime-inspection' };
   const m = /^\/maritime-inspection\/([a-z0-9-]+)$/.exec(p);
   if (!m) return null;
-  if (REGION_SLUGS.includes(m[1]) || SERVICE_SLUGS.includes(m[1])) return { kind: 'page', slug: m[1] };
+  if (REGION_SLUGS.includes(m[1]) || COUNTRY_SLUGS.includes(m[1]) || SERVICE_SLUGS.includes(m[1])) return { kind: 'page', slug: m[1] };
   return cityList.some((r) => r[0] === m[1]) ? { kind: 'city', slug: m[1] } : null;
 }

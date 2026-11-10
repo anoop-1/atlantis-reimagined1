@@ -1,0 +1,98 @@
+{
+  "slug": "netherlands",
+  "navLabel": "Netherlands",
+  "title": "Ultrasonic Thickness Measurement Netherlands | Ship UTM",
+  "description": "Ship ultrasonic thickness measurement in the Netherlands: UTM and hull gauging in Rotterdam, Amsterdam and Vlissingen for owners, managers and repair yards.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in the Netherlands",
+  "eyebrow": "Maritime inspection · Netherlands",
+  "intro": "Rotterdam, Amsterdam with IJmuiden, and Vlissingen are where most ultrasonic thickness measurement on merchant ships happens in the Netherlands. Technical superintendents call us for pre-docking gauging that fixes the steel list before a Damen Shiprepair slot, for cargo and ballast tank gauging on tankers once they are gas-free, for scrubber wash-water and overboard piping, and for pre-purchase and on-hire condition surveys. Every job is ultrasonic thickness measurement first: readings taken to the ship's thickness measurement plan, reported against as-built thickness and the class allowance, and handed over as a steel renewal estimate the yard can plan its work on. The team is mobilised from India for each job, planned around the ship's ETA or docking date.",
+  "highlights": [
+    {
+      "h": "Steel list fixed before the yard slot",
+      "p": "Gauging at a Europoort, Botlek or Westpoort berth before docking turns an allowance into a measured steel renewal estimate, so the superintendent negotiates docking days and steel tonnage on readings rather than guesses."
+    },
+    {
+      "h": "Tankers gauged once gas-free",
+      "p": "Crude, product and chemical tankers are gauged after tank cleaning and a gas-free certificate, at the repair yard or a lay-by berth, never during cargo operations, with readings located frame by frame on the tank plan."
+    },
+    {
+      "h": "Scrubber piping on North Sea callers",
+      "p": "Dutch ports sit inside the North Sea SOx Emission Control Area, so many deep-sea callers run exhaust gas cleaning systems. Ultrasonic wall thickness checks find loss in wash-water lines before it becomes a leak at sea."
+    }
+  ],
+  "sections": [
+    {
+      "id": "nl-ports",
+      "h": "Where ships are gauged in the Netherlands",
+      "p": [
+        "Rotterdam is Europe's largest port, and the work follows its districts. Maasvlakte takes the deep-sea container services and the large ore and coal carriers; Europoort and Maasvlakte host the crude and product terminals worked by VLCCs, Suezmaxes and Aframaxes; Botlek and Pernis sit among the refineries and chemical plants. Damen Shiprepair's Rotterdam yards, including the big Botlek docks, take tankers, bulk carriers, offshore units and cruise ships, and in-dock gauging there follows the class surveyor's close-up programme.",
+        "Amsterdam is an inland port reached through the sea locks at IJmuiden and the North Sea Canal. It is a major hub for gasoline blending and storage, a large cocoa and agribulk port and a dry bulk port, so the ships we gauge there are mostly product tankers, bulk carriers and short-sea cargo ships. Damen Shiprepair Amsterdam's floating docks take short-sea ships, dredgers, offshore vessels and workboats; larger deep-sea ships usually dock elsewhere, which makes the Amsterdam call the place to gauge them before they go.",
+        "Vlissingen is the Dutch end of North Sea Port, the cross-border port formed when Zeeland Seaports and the Port of Ghent merged. Damen Shiprepair Vlissingen at Vlissingen-Oost is the main docking facility, and ships bound up the Westerschelde for Antwerp or Ghent pass the town on the way, which makes it a natural point for pre-docking gauging and for ESP renewal survey support."
+      ]
+    },
+    {
+      "id": "nl-ut-scope",
+      "h": "What ultrasonic thickness measurement covers on a Dutch job",
+      "p": [
+        "Most enquiries from Dutch ports fall into five jobs, and all of them are ultrasonic thickness measurement at their core. Pre-docking hull structure gauging sets the steel list before a docking. Renewal and intermediate survey gauging follows the thickness measurement plan for the ship's survey number, with close-up survey support where the surveyor asks for it. Cargo and ballast tank gauging on tankers and bulk carriers is planned around gas-freeing, ventilation and safe access. Scrubber and ship piping checks measure remaining wall on wash-water, overboard, ballast and cargo lines. Pre-purchase and on-hire or off-hire gauging gives a buyer or charterer a measured view of the steel before money changes hands.",
+        "Readings are taken with calibrated ultrasonic thickness gauges, each reading located against frame and strake or spool and joint references, and reported as as-built thickness, measured thickness and diminution. Where corrosion is widespread rather than local, the report flags substantial corrosion against the allowance and recommends where further close-up readings or renewals are needed."
+      ]
+    },
+    {
+      "id": "nl-regime",
+      "h": "Port state control, the North Sea ECA and the rules that drive gauging",
+      "p": [
+        "Ships calling at Dutch ports fall under Paris MoU port state control, carried out in the Netherlands by the Human Environment and Transport Inspectorate. An older tanker or bulk carrier with visible hull wastage is exactly what a port state inspector looks for, and arriving with recent gauging and a clear steel renewal plan answers the first questions before they turn into a detention.",
+        "The whole Dutch coast and its approaches lie inside the North Sea SOx Emission Control Area, where marine fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted. That is why so many callers at Rotterdam and Amsterdam are scrubber ships, and why wall loss in wash-water and overboard piping is a recurring finding. Rules on open-loop wash-water discharge can apply in port and canal waters; the ship's agent confirms the current position for each call."
+      ]
+    },
+    {
+      "id": "nl-planning",
+      "h": "Planning a gauging job in the Netherlands",
+      "p": [
+        "Send the vessel name or IMO number, the class society, the survey or purpose, the port and the dates. We reply with the measurement scope against the thickness measurement plan, the number of technicians and days needed, and the mobilisation plan. Because the team travels from India, give us the docking or arrival date as early as you can: Schengen visas and travel are arranged for each job, and the plan is built around the yard's or terminal's access windows and the ship's agent.",
+        "On board, the team works to the ship's permit-to-work and enclosed-space entry procedures, from yard staging in dock or from the ship's own access afloat. Preliminary readings and photographs are shared daily where the superintendent wants them, so the yard can start planning steel before the final report is issued."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "IACS UR Z17: approval of service suppliers (thickness measurement firms)",
+    "Paris Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14: sulphur oxides and the North Sea ECA",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's TM plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates marked for renewal",
+    "Scrubber and piping condition report: minimum wall by spool and joint",
+    "Preliminary readings and photographs shared daily on request"
+  ],
+  "industries": [
+    "Crude, product and chemical tankers",
+    "Bulk carriers",
+    "Container ships",
+    "Short-sea cargo ships",
+    "Dredgers and offshore vessels",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which Dutch ports do you cover for ship thickness measurement?",
+      "a": "Rotterdam, including Europoort, Botlek, Pernis and Maasvlakte; Amsterdam and IJmuiden along the North Sea Canal; and Vlissingen and the Zeeland side of North Sea Port. Each has its own page describing the ships that call, the yards and berths where gauging happens and the jobs we see there."
+    },
+    {
+      "q": "Can you gauge a ship at a Rotterdam berth before it goes into dock?",
+      "a": "Yes. Pre-docking gauging at a terminal or lay-by berth is one of the most common Dutch jobs. Once the spaces are safe to enter, the team measures the structure in the TM plan, and the superintendent arrives at the yard with a measured steel renewal estimate instead of an allowance."
+    },
+    {
+      "q": "How much notice do you need for a job in the Netherlands?",
+      "a": "As much as you can give. The team is mobilised from India and travels on Schengen visas arranged for each job, so the docking or arrival date should reach us early. Share the date even if it may move; the plan follows the ship."
+    },
+    {
+      "q": "Do you measure scrubber wash-water piping in Dutch ports?",
+      "a": "Yes, when the system can be shut down for the stay and the spaces are safe. We gauge the metallic wash-water and overboard piping at planned points, concentrating on joints, transition pieces and the distance piece to the shell, and report minimum wall against the owner's or maker's criteria."
+    }
+  ]
+}
