@@ -93,6 +93,7 @@ const CompareDigitalTwinVsCmms = lazy(() => import("./pages/compare/DigitalTwinV
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy")); // 2026-10-31 owner: URL only, never in navigation or footer
+const Brochure = lazy(() => import("./pages/Brochure")); // 2026-11-07 owner: company brochure 2026, view + download
 const Training = lazy(() => import("./pages/Training"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -3255,6 +3256,7 @@ export default function RouteTable() { return (
                      <Route path="/" element={<LazyRoute Component={Index} />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/privacy-policy" element={<LazyRoute Component={PrivacyPolicy} />} />
+                  <Route path="/brochure" element={<LazyRoute Component={Brochure} />} />
                   <Route path="/industry" element={<LazyRoute Component={IndustrialAnimation} />} />
                   <Route path="/training" element={<Training />} />
                   <Route path="/training-usa" element={<TrainingUSA />} />

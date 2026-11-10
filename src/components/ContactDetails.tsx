@@ -155,6 +155,7 @@ export default function ContactDetails() {
                   <Link to="/about" className="text-gray-400 hover:text-accent transition">About</Link>
                   <Link to="/contact" className="text-gray-400 hover:text-accent transition">Contact</Link>
                   <Link to="/faq" className="text-gray-400 hover:text-accent transition">FAQ</Link>
+                  <Link to="/brochure" className="text-gray-400 hover:text-accent transition">Brochure</Link>
                </div>
             </div>
          </div>
