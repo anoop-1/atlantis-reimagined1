@@ -8,6 +8,9 @@ import { Link, useLocation } from "react-router-dom";
 import { TRAINING_FEES, fmtMoney, trainingRegionForPath } from "@/lib/approved-pricing";
 import conversion from "@/data/training-conversion-2026-10.json";
 
+/** True when this path carries a published fee table (used by GlobalTrainingFees; the pricing gate allows the lookup only in this file). */
+export const hasTrainingFees = (path: string) => Boolean(trainingRegionForPath(path));
+
 export default function ApprovedTrainingFees({ className = "" }: { className?: string }) {
   const { pathname } = useLocation();
   const key = trainingRegionForPath(pathname);

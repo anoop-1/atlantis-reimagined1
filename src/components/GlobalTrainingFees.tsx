@@ -8,8 +8,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useLocation } from "react-router-dom";
-import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
-import { trainingRegionForPath } from "@/lib/approved-pricing";
+import ApprovedTrainingFees, { hasTrainingFees } from "@/components/ApprovedTrainingFees";
 import { usesPublishedContent } from "@/lib/published-pages";
 import { useMainSlot } from "@/lib/use-main-slot";
 
@@ -18,7 +17,7 @@ const OWN_TABLE = "[data-approved-training-fees]:not([data-fees-global] *)";
 export default function GlobalTrainingFees() {
   const { pathname } = useLocation();
   const path = pathname.replace(/\/$/, "") || "/";
-  const eligible = Boolean(trainingRegionForPath(path)) && !(usesPublishedContent(path) && !import.meta.env.DEV);
+  const eligible = hasTrainingFees(path) && !(usesPublishedContent(path) && !import.meta.env.DEV);
   const [ownTable, setOwnTable] = useState<boolean | null>(null);
 
   useEffect(() => {
