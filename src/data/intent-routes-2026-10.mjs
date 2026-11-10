@@ -96,7 +96,7 @@ const meth = (k, kind) => {
 };
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|3d-scanning|press|careers$|sitemap|embed)/;
+const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime-inspection|3d-scanning|press|careers$|sitemap|embed)/;
 
 // Specialist inspection services, matched before the generic method service page.
 const SERVICES = [
@@ -129,6 +129,15 @@ export function intentRouteFor(rawPath) {
 // city training or consulting page; those pages now point to the city's NDT inspection hub.
 const CITY_HUBS = { houston: "Houston", calgary: "Calgary", phoenix: "Phoenix", huntsville: "Huntsville" };
 
+const MARITIME_PAGE = /ship|hull|marine|maritime|fpso|scrubber|ballast|drydock|naval|jackup|semisub|suez/;
+const MARITIME_SKIP = /^\/maritime-inspection|erp|software|digital-twin|training|consult|salary|apprentic|financing|roi-|tco|level-iii|pressure-vessel|cathodic|asnt-snt/;
+const MARITIME_LINKS = [
+  ["/maritime-inspection/ultrasonic-thickness-measurement", "Ship ultrasonic thickness measurement (UTM)"],
+  ["/maritime-inspection/netherlands", "Ship thickness measurement in the Netherlands: Rotterdam, Amsterdam, Vlissingen"],
+  ["/maritime-inspection/belgium", "Ship thickness measurement in Belgium: Antwerp, Zeebrugge, Ghent"],
+  ["/maritime-inspection", "All maritime inspection services and ports"],
+];
+
 function ruleFor(p) {
   // 2026-11-10 (owner: more training enquiries from the USA): every US city, state and region training
   // page says how training works from that place and hands national intent ("ndt training", "ndt
@@ -153,6 +162,13 @@ function ruleFor(p) {
                : [[`/inspection-services-${city}`, `NDT inspection services in ${name}`], [`/ndt-training-${city}`, `NDT training in ${name}`], L.consultingL3]);
   }
   if (EXCLUDE.test(p)) return null;
+  // 2026-11-10 (owner: maritime UT enquiries from Europe, Belgium and the Netherlands first): pages about
+  // ships, hulls and marine NDT hand the ship owner's intent to the maritime inspection section.
+  if (MARITIME_PAGE.test(p) && !MARITIME_SKIP.test(p)) {
+    return block("maritime", "Need a ship gauged?",
+      "Atlantis carries out ultrasonic thickness measurement (UTM) on merchant ships: pre-docking hull gauging, renewal survey gauging, and tank and scrubber piping checks, with port pages from Rotterdam and Antwerp to Piraeus, Dubai and Singapore. Teams are mobilised from India to the vessel.",
+      MARITIME_LINKS);
+  }
   const mk = methodFor(p);
   const api = /api-(510|570|653)/.exec(p)?.[1];
   const level3 = /level-iii|level-3|(^|[-/])l3([-/]|$)/.test(p);
@@ -248,6 +264,7 @@ export function allRouteTargets() {
   for (const m of Object.values(M)) for (const x of m.slice(0, 3)) s.add(x);
   for (const [, [h]] of SERVICES) s.add(h);
   for (const c of Object.keys(CITY_HUBS)) s.add(`/inspection-services-${c}`);
+  for (const [h] of MARITIME_LINKS) s.add(h);
   s.add(US_TRAINING_OWNER); s.add("/snt-tc-1a-eligibility"); for (const p of Object.keys(US_TRAINING_PAGES)) s.add(p);
   return [...s].filter((h) => h.startsWith("/") && h !== "/contact");
 }
