@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import wave from "@/data/ctr-wave18/us-training-2026-11-10.json"; // 2026-11-10: one source for the crawler title and this page
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
@@ -14,6 +15,7 @@ import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
 import DeepContent from "@/components/DeepContent";
+const WAVE = wave["/ndt-training-usa"];
 
 const courses = [
     {
@@ -232,10 +234,10 @@ export default function NDTTrainingUSA() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training USA | ASNT Certification | SNT-TC-1A & CP-189 | Atlantis NDT"
-                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Online + on-site delivery nationwide. UT, MT, PT, RT, ET, VT. Led by an ASNT NDT Level III."
+                title={WAVE.title}
+                description={WAVE.description}
                 keywords="NDT training USA, ASNT certification, NDT courses USA, ultrasonic testing training, NDT certification Houston, NDT training online, ASNT CP-189, NDT training Texas, aerospace NDT training USA, NDT Level II Houston, NDT Level III USA"
-                canonical="https://atlantisndt.com/training-usa"
+                canonical="https://atlantisndt.com/ndt-training-usa"
                 structuredData={structuredData}
             />
             <Breadcrumbs />

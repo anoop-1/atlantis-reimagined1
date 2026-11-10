@@ -29,7 +29,7 @@ export const ERP = JSON.parse(readFileSync(join(ROOT, ERP_PRICING_FILE), 'utf-8'
 export const ALLOWED_TRAINING_REGIONS = ['US', 'ME', 'EU', 'SEA'];
 export const ALLOWED_ERP_MARKETS = ['US', 'CA'];
 // India is never priced (owner, 2026-10-07) even though an India flyer exists.
-export const INDIA_PATH = /india|hyderabad|bangalore|bengaluru|chennai|mumbai|delhi|pune|kolkata|ahmedabad|kochi|cochin|vizag|visakhapatnam|vadodara|jamnagar|surat|noida|gurgaon|gurugram|coimbatore|bhubaneswar|mangalore|nagpur|lucknow|indore|haldia|paradip|\/(hi|in)\//i;
+export const INDIA_PATH = /india(?!n)|hyderabad|bangalore|bengaluru|chennai|mumbai|delhi|pune|kolkata|ahmedabad|kochi|cochin|vizag|visakhapatnam|vadodara|jamnagar|surat|noida|gurgaon|gurugram|coimbatore|bhubaneswar|mangalore|nagpur|lucknow|indore|haldia|paradip|\/(hi|in)\//i;
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');

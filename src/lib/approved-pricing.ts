@@ -28,7 +28,7 @@ export const ERP_PRICING = erpPricing;
 export type ErpPlan = (typeof erpPricing.plans)[number];
 
 // India is never priced, even if a path is misconfigured in the data file.
-const INDIA_PATH = /india|hyderabad|bangalore|bengaluru|chennai|mumbai|delhi|pune|kolkata|ahmedabad|kochi|cochin|vizag|visakhapatnam|vadodara|jamnagar|surat|noida|gurgaon|gurugram|coimbatore|bhubaneswar|mangalore|nagpur|lucknow|indore|haldia|paradip|\/(hi|in)\//i;
+const INDIA_PATH = /india(?!n)|hyderabad|bangalore|bengaluru|chennai|mumbai|delhi|pune|kolkata|ahmedabad|kochi|cochin|vizag|visakhapatnam|vadodara|jamnagar|surat|noida|gurgaon|gurugram|coimbatore|bhubaneswar|mangalore|nagpur|lucknow|indore|haldia|paradip|\/(hi|in)\//i;
 
 export const fmtUsd = (n: number) => "$" + n.toLocaleString("en-US", { maximumFractionDigits: 0 });
 export const fmtAed = (n: number) =>

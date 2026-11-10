@@ -1,0 +1,7 @@
+{
+  "_note": "2026-11-10 (owner: more training enquiries from the USA). /ndt-training-usa is the US training owner (wave 12); 152 US city, state and region training pages now hand national intent to it (src/data/us-training-2026-11.mjs). The old title promised '40-80 hr courses' and a 'free quote'; the page now carries the published US fee table.",
+  "/ndt-training-usa": {
+    "title": "NDT Training in the USA: Level 1, 2 & 3 Courses and Fees",
+    "description": "Self-paced NDT training for US technicians and employers: SNT-TC-1A Level 1 and 2 in UT, RT, MT, PT and VT, Level III exam prep and published US fees."
+  }
+}

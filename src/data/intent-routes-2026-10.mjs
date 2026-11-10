@@ -20,6 +20,8 @@
 // (scripts/intent-routes-2026-10.mjs). First matching rule wins. No prices (CLAUDE.md §18);
 // API 510/570/653 readers are never offered API training (Atlantis does not sell it).
 
+import { US_TRAINING_PAGES, US_TRAINING_OWNER } from "./us-training-2026-11.mjs"; // 2026-11-10 US training pages
+
 export const ROUTE_MARKER = 'data-intent-route="2026-10"';
 
 // Method -> [service page, training page, simulator page]
@@ -128,6 +130,18 @@ export function intentRouteFor(rawPath) {
 const CITY_HUBS = { houston: "Houston", calgary: "Calgary", phoenix: "Phoenix", huntsville: "Huntsville" };
 
 function ruleFor(p) {
+  // 2026-11-10 (owner: more training enquiries from the USA): every US city, state and region training
+  // page says how training works from that place and hands national intent ("ndt training", "ndt
+  // certification near me", spread over ~70 city pages at p20-87) to the US owner page with an exact anchor.
+  const usPlace = US_TRAINING_PAGES[p];
+  if (usPlace) {
+    const slug = p.slice("/ndt-training-".length);
+    const links = [[US_TRAINING_OWNER, "NDT training in the USA: courses, published US fees, Register & Buy Now"], ["/snt-tc-1a-eligibility", "Check your SNT-TC-1A eligibility"], L.practical, L.tests];
+    if (CITY_HUBS[slug]) links.push([`/inspection-services-${slug}`, `NDT inspection services in ${CITY_HUBS[slug]}`]);
+    return block("us-training", `NDT training and certification from ${usPlace}`,
+      `There is no Atlantis classroom in ${usPlace}. You study the theory online at your own pace, practise in the Practical NDT simulator, and complete hands-on training and the practical examination at your employer's facility, under a written practice built on ASNT SNT-TC-1A. The published US fees are on this page, and Register & Buy Now opens the course on the Atlantis portal.`,
+      links);
+  }
   const city = /^\/(?:ndt-training|consulting\/ndt-consulting|ndt-consulting)-([a-z-]+)$/.exec(p)?.[1];
   if (city && CITY_HUBS[city]) {
     const name = CITY_HUBS[city];
@@ -234,6 +248,7 @@ export function allRouteTargets() {
   for (const m of Object.values(M)) for (const x of m.slice(0, 3)) s.add(x);
   for (const [, [h]] of SERVICES) s.add(h);
   for (const c of Object.keys(CITY_HUBS)) s.add(`/inspection-services-${c}`);
+  s.add(US_TRAINING_OWNER); s.add("/snt-tc-1a-eligibility"); for (const p of Object.keys(US_TRAINING_PAGES)) s.add(p);
   return [...s].filter((h) => h.startsWith("/") && h !== "/contact");
 }
 
