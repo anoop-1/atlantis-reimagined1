@@ -1,0 +1,106 @@
+{
+  "slug": "wilhelmshaven",
+  "name": "Wilhelmshaven",
+  "country": "Germany",
+  "region": "europe",
+  "title": "Wilhelmshaven Tanker & LNG Ship Thickness Measurement",
+  "description": "UTM in Wilhelmshaven for crude tankers, LNG carriers, FSRUs and container ships: ballast tank and hull structure gauging, CAP and ESP survey support.",
+  "h1": "Thickness Gauging for Tankers, LNG Ships and Container Ships in Wilhelmshaven",
+  "intro": "Wilhelmshaven is Germany's deep-water port on the Jade: crude carriers discharge here for the pipelines to inland refineries, LNG arrives through floating regasification units, and the largest container ships call at the JadeWeserPort terminal. These are high-value ships on tight terminal windows, so superintendents ask for carefully scoped tanker inspection in Wilhelmshaven and for gauging on FSRUs that rarely leave their moorings. Our team is mobilised from India to Wilhelmshaven for each job.",
+  "keywords": [
+    "wilhelmshaven tanker thickness measurement",
+    "utm in wilhelmshaven",
+    "tanker inspection in wilhelmshaven",
+    "thickness gauging for tankers",
+    "fsru gauging",
+    "crude tanker gauging",
+    "ballast tank gauging",
+    "lng carrier inspection wilhelmshaven",
+    "jadeweserport ship inspection",
+    "hull gauging in wilhelmshaven"
+  ],
+  "highlights": [
+    {
+      "h": "Crude carriers on discharge",
+      "p": "Laden tankers arriving at the crude jetties have their segregated ballast tanks empty. Where gas readings and terminal rules allow, those tanks, the deck and deck piping can be gauged early in the call, before ballasting begins."
+    },
+    {
+      "h": "FSRUs surveyed on station",
+      "p": "Floating storage and regasification units moored at Wilhelmshaven stay on location for years, so their periodic surveys happen in place. Ballast tank, deck and topside structure gauging is planned around regasification and LNG transfers."
+    },
+    {
+      "h": "The largest container ships",
+      "p": "JadeWeserPort takes container ships that need deep water. Their scrubber piping, hatch coamings and deck structure are gauged within the working call, under the ship's own permit system and the terminal's rules."
+    }
+  ],
+  "port": {
+    "h": "Wilhelmshaven and the Jade: a deep-water energy and container port",
+    "p": [
+      "Wilhelmshaven sits on the Jade, a deep natural channel opening into the German Bight, and that depth is its reason for being. It is Germany's only deep-water port, able to take deep-draught crude carriers and the biggest container ships with fewer tidal constraints than the Elbe or the Weser. The crude oil terminal feeds pipelines to refineries inland, the JadeWeserPort container terminal serves deep-sea liner services, and LNG import terminals built around floating storage and regasification units have given the port a new energy role. Niedersachsen Ports manages the port infrastructure.",
+      "Unlike Hamburg or Bremerhaven, Wilhelmshaven is a terminal port. Crude carriers berth, discharge and leave; container ships work their call and sail; LNG carriers come alongside the FSRUs to transfer cargo. None of them stays long, and there is no commercial dry-docking for ships of this size, so docking work for these vessels goes elsewhere. The exception is the FSRUs themselves, which remain moored for long periods and carry out their surveys on station. Vessels early for their slot ride at anchor in the outer Jade or the German Bight, and the timing of a crude carrier's arrival often depends on weather in the Bight as much as on the terminal.",
+      "That makes Wilhelmshaven an inspection port of tight scopes and careful permits. On crude carriers the questions are about deck, deck piping, pump room lines and ballast tank structure, with cargo tanks left until the ship is cleaned and gas-free elsewhere. Older crude tankers come under IACS UR Z10.1 or, for double-hull designs, Z10.4, and charterers' vetting and CAP gradings ask for recent thickness data. On FSRUs, periodic gauging of ballast tanks, deck and the structure supporting the regasification plant is part of keeping class and the charter in good standing over a long deployment, and it has to be done without interrupting gas send-out."
+    ]
+  },
+  "facilities": {
+    "h": "Jetties, terminals and moorings where gauging takes place",
+    "p": [
+      "The crude oil jetties are the busiest setting for crude tanker gauging in Wilhelmshaven, and also the most controlled. Every job is agreed with the terminal and run under the ship's permit-to-work system; equipment, access routes and timing are fixed before the team boards. The useful scope during a discharge is deck plating and longitudinals, deck piping and supports, the pump room, and segregated ballast tanks while they are still empty and gas readings allow entry.",
+      "The LNG import terminal sits within its own safety zone. On the FSRUs, gauging is planned with the operator around regasification and LNG transfers, and covers ballast tanks, deck, topside support structure and machinery spaces outside the hazardous areas. LNG carriers delivering to the FSRUs offer only short windows. At JadeWeserPort the working call of a large container ship is the window for scrubber piping, deck and hatch coaming gauging, and the outer anchorages are used for small jobs by launch. Ships that need a full docking programme are best gauged here first, with the team then following them to the docking yard to complete the work."
+    ],
+    "list": [
+      "Crude oil terminal jetties — deck, deck piping, pump-room and empty ballast tank gauging on crude carriers during discharge, under terminal and ship permits.",
+      "LNG import terminal and FSRU moorings — ballast tank, deck and topside structure gauging on FSRUs on station, planned with the operator.",
+      "JadeWeserPort container terminal — readings on scrubber discharge pipework, upper deck and hatch coamings of very large container ships during the call.",
+      "Outer Jade and German Bight anchorages — brief launch-supported jobs in deck and machinery spaces on ships at anchor.",
+      "Bulk and general cargo quays — hold and deck gauging on dry bulk and project-cargo ships once discharge is complete."
+    ]
+  },
+  "context": {
+    "h": "Energy security, emissions rules and port state control on the Jade",
+    "p": [
+      "The Jade is covered by the North Sea SOx ECA, which means every ship on it burns 0.10% sulphur fuel or scrubs its exhaust. For crude carriers and container ships coming from outside Europe that means a fuel changeover before arrival or a scrubber in service, and because their calls here are short, a scrubber ship's wash-water and overboard lines should be measured whenever the chance arises. Port state control follows the Paris MoU, under which tankers past a certain age are subject to expanded inspections, so recent gauging records are useful to have aboard.",
+      "The port's energy role grew sharply once Germany began importing LNG by sea, and Wilhelmshaven became one of its main LNG entry points, while the crude terminal remains a key supply route for inland refineries. Both trades rely on long-lived, heavily vetted ships: crude carriers in their second and third survey cycles, LNG carriers that trade for decades, and FSRUs on long charters. The arrival of EU ETS for shipping in 2024 and of FuelEU Maritime in 2025 adds to the pressure on owners to show that older ships are structurally sound before committing them to further European trading."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging requests for Wilhelmshaven terminals",
+    "p": "Wilhelmshaven jobs are short, permitted and pre-planned. A superintendent who wants useful data from a call here sends the TM plan and the terminal's requirements early, agrees a priority list, and accepts that cargo tanks wait for a later gas-free stop. FSRU gauging is the exception: it is planned with the operator over days rather than hours. On trading ships, hull gauging in Wilhelmshaven is rarely a full renewal programme; it is the part that can be done safely in the time available. Typical requests include:",
+    "list": [
+      "A laden Suezmax at the crude jetty: deck plating, deck longitudinals and cargo-line supports gauged during discharge, plus selected empty ballast tanks entered before ballasting.",
+      "An older Aframax facing a charterer's vetting: deck and ballast tank readings at Wilhelmshaven to support a CAP grading, with cargo tank gauging completed at the next yard.",
+      "An FSRU on station: periodic ballast tank and deck structure gauging in support of its class survey, scheduled around regasification and LNG transfers.",
+      "A large container ship at JadeWeserPort: scrubber overboard pipe and shell-connection checks with the system isolated, results issued before departure.",
+      "An LNG carrier delivering to an FSRU: engine-room sea water and fire main piping wall-thickness checks during the cargo transfer window."
+    ]
+  },
+  "logistics": "The nearest airports with international connections are Bremen and Hamburg, from where Wilhelmshaven is reached by road or rail. Every terminal here is ISPS-controlled and the energy terminals add their own inductions, so the ship's agent submits the team's details and equipment list early; launches for anchorage work are arranged through the agent too. Technicians travelling from India need Schengen visas for Germany, and they must be in hand before travel, so share terminal dates as soon as the ship is nominated.",
+  "vessels": [
+    "Crude oil tankers",
+    "LNG carriers",
+    "FSRUs",
+    "Container ships",
+    "Bulk carriers",
+    "General cargo and project ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can ballast tanks be gauged on a crude carrier discharging in Wilhelmshaven?",
+      "a": "Sometimes. A laden tanker arrives with its segregated ballast tanks empty, and if gas readings are acceptable and the terminal and ship permit entry, they can be gauged early in the call. Once ballasting starts, entry stops. The crew prepares ventilation and gas testing, and we confirm the plan with the terminal before the ship arrives."
+    },
+    {
+      "q": "Do you gauge FSRUs moored at the LNG terminal?",
+      "a": "Yes, as part of the operator's planned maintenance or periodic surveys. Work is limited to areas outside the hazardous zones unless the operator's permit system allows otherwise, and it is scheduled around regasification and LNG transfers. Ballast tanks, deck and topside support structure, machinery-space piping and sea water lines are typical scopes."
+    },
+    {
+      "q": "Where do Wilhelmshaven tankers get their cargo tanks gauged?",
+      "a": "Usually at the next yard stay or during a planned cleaning and gas-freeing period, not at the crude jetty. If the vessel's next docking is in North West Europe, we can gauge deck and ballast structure in Wilhelmshaven and complete the cargo tanks at the yard, keeping all the readings in one TM report set."
+    },
+    {
+      "q": "How much notice does a Wilhelmshaven job need?",
+      "a": "Enough for the energy terminals' paperwork and the team's Schengen visas. Terminals ask for names, equipment details and the scope well before the ship berths, and visas take time. Tell us as soon as the ship is nominated or the FSRU work is scheduled, and we will fix mobilisation to the confirmed berthing date."
+    }
+  ],
+  "nearby": ["bremerhaven", "hamburg", "rotterdam", "esbjerg"]
+}

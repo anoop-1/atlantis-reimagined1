@@ -1,0 +1,106 @@
+{
+  "slug": "kiel",
+  "name": "Kiel",
+  "country": "Germany",
+  "region": "europe",
+  "title": "Ferry and Ship Thickness Measurement in Kiel",
+  "description": "UTM in Kiel for ro-pax ferries, cruise ships and Kiel Canal traffic: hull structure and ice belt gauging, plus fire main and sea water piping inspection.",
+  "h1": "Thickness Gauging for Ro-Pax Ferries, Cruise Ships and Canal Traffic in Kiel",
+  "intro": "Kiel's waterfront is built around passenger ships: ro-pax ferries to Norway, Sweden and Lithuania sail from quays close to the city centre, cruise ships turn around at the Ostseekai, and the Kiel Canal's eastern locks at Holtenau bring a steady stream of Baltic traders. Superintendents ask for gauging that fits a ferry's port day or a short canal stop, and for checks on fire main and sea water piping. For each job in Kiel we mobilise a team from India.",
+  "keywords": [
+    "ship thickness measurement in kiel",
+    "thickness measurement in kiel",
+    "utm in kiel",
+    "kiel canal gauging",
+    "ferry thickness measurement",
+    "sea water piping inspection",
+    "ice belt gauging",
+    "ro-pax ship inspection kiel",
+    "cruise ship piping inspection kiel",
+    "hull gauging kiel"
+  ],
+  "highlights": [
+    {
+      "h": "Ferry port days, not idle days",
+      "p": "Ro-pax ferries on the Oslo, Gothenburg and Klaipėda routes spend their port day loading and discharging. Engine-room piping, voids and tanks that can be opened are gauged during that day; hull structure waits for the refit."
+    },
+    {
+      "h": "Kiel Canal gauging at Holtenau",
+      "p": "Ships transiting between the North Sea and the Baltic pass the Holtenau locks, and some stop at Kiel for bunkers, stores or crew. A planned stop can carry deck, piping or ice-belt readings."
+    },
+    {
+      "h": "Fire main and sea water lines",
+      "p": "On passenger ships, fire main, sea water cooling and ballast lines are examined closely by flag and port state inspectors. Wall-thickness surveys of those systems, with wastage mapped against minimum thickness, suit a ferry's turnaround."
+    }
+  ],
+  "port": {
+    "h": "Kiel: ferries, cruise ships and the canal",
+    "p": [
+      "Kiel lies at the head of the Kiel Fjord on Germany's Baltic coast, with the Port of Kiel operating terminals on both shores. The traffic is passenger-led. Ro-pax ferries run to Oslo from the Norwegenkai, to Gothenburg from the Schwedenkai and to Klaipėda from the Ostuferhafen, which also handles ro-ro freight. The Ostseekai and other cruise berths make Kiel one of the main Baltic cruise ports in the summer season. At the northern edge of the city, the Holtenau locks mark the eastern end of the Kiel Canal, the shortcut between the North Sea and the Baltic that spares ships the passage round Denmark.",
+      "None of these ships is idle for long. A ferry on the Oslo or Gothenburg route arrives in the morning and sails again later the same day, every day, and the port day is filled with discharge, loading, stores and maintenance. Cruise ships turn around in a single day. Canal traffic, made up of feeders, short-sea cargo ships, small tankers and Baltic traders, passes through the locks with only brief waits unless a ship has arranged to stop at Kiel. The longest stays are ferries during lay-up or off-hire periods, and ships waiting for a canal slot or for orders.",
+      "That rhythm decides the inspection demand. Passenger ships are surveyed rigorously, and flag administrations and port state inspectors look hard at fire main, sea water and bilge systems, so ferry operators want wall-thickness data on those systems between dockings. Hull structure on ro-pax ships, meaning car decks, ramps, the surroundings of bow and stern doors, and shell plating in way of the ice belt on ice-classed ships, is gauged mainly at refits, but pre-refit gauging in Kiel lets the yard plan the steel. Canal traffic adds short, targeted jobs on ships whose superintendents need a reading before the next port."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging fits around Kiel's quays and the canal",
+    "p": [
+      "The ferry terminals in the city are the main workplaces. On a ro-pax port day the team works through spaces the crew can release while cargo operations continue, such as engine-room and pump-room piping, sea water inlet lines, void spaces, and ballast or fresh water tanks that can be emptied, and stops when the ship prepares to sail. Larger hull programmes are scoped for the refit, with gauging in Kiel used to prepare the steel estimate. The Ostuferhafen's ferry and ro-ro berths, used by Baltic freight and the Klaipėda service, give longer quay time than the passenger terminals and suit car-deck and ramp gauging.",
+      "Cruise berths at the Ostseekai and elsewhere in the fjord give even tighter windows, usually confined to specific systems the technical team has flagged. At Holtenau, ships waiting for the locks or stopping at the canal-side quays can take small, planned jobs, arranged through the agent around the canal's traffic schedule. Off-hire and laid-up ships at quays in the inner fjord are the best opportunities for full deck, tank and hull gauging, because nothing else competes for the crew's time."
+    ],
+    "list": [
+      "Norwegenkai and Schwedenkai ferry terminals — engine-room piping, fire main, void and tank gauging on ro-pax ferries during their daily port stay.",
+      "Ostuferhafen ferry and ro-ro berths — car-deck, ramp and main-deck gauging on Baltic ro-pax and freight ships with longer quay time.",
+      "Ostseekai cruise terminal — narrowly scoped piping and tank wall-thickness checks on cruise ships during turnaround.",
+      "Holtenau locks and canal-side quays — short, pre-planned deck, piping or ice-belt gauging on ships stopping during a Kiel Canal transit.",
+      "Inner fjord lay-by quays — full deck, tank and hull gauging on laid-up or off-hire ferries and cargo ships."
+    ]
+  },
+  "context": {
+    "h": "Baltic rules, ice class and passenger-ship oversight at Kiel",
+    "p": [
+      "Kiel lies inside the Baltic Sea SOx ECA, and ships transiting the Kiel Canal move straight from one ECA to the other, since the North Sea is one too, so the 0.10% sulphur limit applies the whole way. Ferry operators on Kiel routes have met it with scrubbers, compliant fuels and alternative fuels, and the scrubber wash-water and overboard lines on older ferries are known wastage points. German port state control works under the Paris MoU, and passenger ships calling here are inspected with that regime's attention to fire safety and emergency systems.",
+      "Many ships trading through Kiel into the Baltic carry Finnish-Swedish ice class, because ports in the northern Baltic require it in winter. Ice-belt plating takes abrasion and impact that ordinary shell plating does not, and its frames and stringers are worth gauging before the ice season. Passenger ships add EU ro-pax inspection rules and close flag oversight to the usual class cycle. With emissions trading extended to ships in 2024 and FuelEU Maritime targets running from 2025, ferry operators are weighing older tonnage against new, lower-emission ships."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical UTM scopes in Kiel and at Holtenau",
+    "p": "Kiel jobs have to fit schedules that are fixed weeks in advance: a ferry's daily rotation, a cruise ship's turnaround or a ship's canal transit. Ferry thickness measurement gives the best results when a short list of priority spaces is agreed with the chief engineer before arrival and the crew releases each space as the port day goes on. For refits, the work moves to the yard and follows the TM plan. Examples:",
+    "list": [
+      "A ro-pax ferry on the Oslo route during its port day: fire main and sea water cooling line wall-thickness survey in the engine room, reported before departure.",
+      "A Gothenburg-route ferry ahead of its annual refit: car-deck plating, ramp and bow-door surround readings taken in Kiel to prepare the yard's steel list.",
+      "An ice-class Baltic trader stopping at Kiel during a canal transit: ice-belt plating and frame gauging from inside the wing tanks ahead of the winter season.",
+      "A cruise ship turning around at the Ostseekai: ballast and grey-water piping checks in specific sections the technical team has flagged.",
+      "A laid-up ferry at an inner fjord quay: full deck, tank and hull gauging to support a sale or a return to service."
+    ]
+  },
+  "logistics": "Hamburg Airport is the usual international arrival point for Kiel, with road and rail links north to the city. Ferry terminals, cruise berths and canal quays are ISPS-controlled, and the agent arranges passes and, for passenger ships, aligns the team's boarding with the ship's security plan. Germany is a Schengen state, so the technicians from India need Schengen visas; ferry and cruise schedules are published well ahead, which makes it easy to fix a mobilisation date early and avoid last-minute changes.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Cruise ships",
+    "Ro-ro cargo ships",
+    "Feeder container ships",
+    "Short-sea and Baltic cargo ships",
+    "Small product and chemical tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a ferry without taking it out of service?",
+      "a": "Partly. During a Kiel port day we can measure piping systems, voids, accessible tanks and some structure that the crew can release while cargo operations go on, which keeps the ferry on schedule. Main hull, car-deck and ramp programmes for a class renewal survey need the refit period, when the ship is out of service and staging is available."
+    },
+    {
+      "q": "Can a ship stop at Kiel during a canal transit for gauging?",
+      "a": "Yes, if the stop is arranged through the agent with the canal schedule in mind. A planned stop of a few hours at a Kiel or Holtenau quay suits a defined scope: deck plating, a set of tanks, piping in the engine room or ice-belt readings. Larger scopes are better planned for a longer port call."
+    },
+    {
+      "q": "Which piping systems are checked most often on ferries?",
+      "a": "Fire main, sea water cooling, ballast and bilge lines are the usual candidates, along with scrubber wash-water and overboard lines where fitted. Readings are taken at bends, reducers, downstream of valves and where lines pass through tanks or decks, the places where erosion and corrosion concentrate, and compared with the minimum thickness for each line."
+    },
+    {
+      "q": "What should be ready on board before the team arrives?",
+      "a": "A list of priority spaces and systems, isolation and permit arrangements for each, access and lighting, and the ship's TM plan or piping drawings. On a ferry, the chief engineer's release schedule for the port day is the key document. With that in hand, the team can start as soon as the gangway is secured."
+    }
+  ],
+  "nearby": ["hamburg", "rostock", "oslo", "gothenburg", "klaipeda"]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "ship-piping-inspection",
+  "navLabel": "Ship piping inspection",
+  "title": "Ship Piping Inspection | Pipe Wall UT Thickness Gauging",
+  "description": "Ship piping inspection: UT thickness gauging of cargo, ballast, fuel, sea-water, fire main, steam and bilge lines, minimum wall checks, isometric reports.",
+  "h1": "Ship piping and pipeline inspection: wall thickness, corrosion and erosion",
+  "eyebrow": "Maritime inspection",
+  "intro": "Ship piping fails from the inside, at predictable places: the outside of a bend, the run just downstream of a valve, a tee, a low point where water settles. Atlantis NDT gauges pipe walls on cargo, ballast, fuel oil, sea-water cooling, fire main, steam and bilge systems by ultrasonic thickness measurement (UTM), checks every reading against the minimum wall your class rules or your own criteria set, and reports it on isometric sketches a pipe shop can work from. Teams are mobilised from India to the ship in port, at anchorage or in the yard.",
+  "highlights": [
+    {
+      "h": "Readings where pipes actually fail",
+      "p": "Measurement points are concentrated at bends, tees, reducers, downstream of valves and orifices, at low points and under deck supports, rather than spread evenly along straight pipe where wall loss is least likely."
+    },
+    {
+      "h": "Minimum wall, line by line",
+      "p": "Each reading is set against the nominal wall and against the minimum you specify or the class rule gives for that service and diameter, so renewal can be decided spool by spool."
+    },
+    {
+      "h": "Isometrics a pipe shop can use",
+      "p": "Every line gauged is drawn as an isometric sketch with numbered measurement points and tabulated readings, so the same points can be measured again and a wall loss rate calculated."
+    }
+  ],
+  "sections": [
+    {
+      "id": "systems",
+      "h": "Which ship piping systems we inspect, and what attacks each",
+      "p": [
+        "Each piping system on a ship carries a different fluid at a different temperature and velocity, so each has its own damage mechanisms and its own places to look. A useful ship piping inspection plan starts from the system, not from the pipe.",
+        "Material matters as much as service. Most cargo, ballast, bilge and fuel lines are carbon steel; sea-water systems may be galvanised steel, copper-nickel or lined steel; chemical tankers often have stainless steel cargo lines; some ballast systems use glass-reinforced epoxy. Ultrasonic thickness gauging works on the metallic materials once the gauge is calibrated on a reference of the same material. On GRE it does not give dependable wall readings and the inspection is visual; our scrubber pipe inspection page explains why, since GRE is common there."
+      ],
+      "table": {
+        "head": ["System", "Typical damage", "Where to look first"],
+        "rows": [
+          ["Cargo lines (tankers)", "Internal corrosion from water and sediment in crude and products; cargo-specific attack on chemical tankers; external corrosion on deck", "Bottom of horizontal runs, bends after the cargo pumps, drop lines in tanks, deck runs at supports"],
+          ["Ballast lines", "Seawater corrosion inside, worse where lines lie in ballast tanks, pipe tunnels or duct keels and stay wet outside too", "Bends and tees near ballast pumps, low points, lines passing through cargo or fuel tanks"],
+          ["Fuel oil", "Internal corrosion where water settles out; external corrosion of lines routed through ballast tanks", "Low points, tank suctions, transfer lines in double bottoms"],
+          ["Sea-water cooling", "Erosion-corrosion at high velocity; galvanic attack at dissimilar-metal joints", "Pump discharges, bends, reducers, valve outlets, sea chest connections"],
+          ["Fire main", "Internal corrosion and tuberculation from stagnant seawater; external corrosion on deck", "Deck runs, hydrant branches, dead legs, low points"],
+          ["Steam and condensate", "Erosion and flow-accelerated wall loss; corrosion in condensate returns", "Bends and pipe downstream of control valves and traps, condensate low points"],
+          ["Bilge lines", "Intermittent wetting with oily water; corrosion at low points and suctions", "Suction ends in bilge wells, lines through tanks, bends near pumps"]
+        ]
+      }
+    },
+    {
+      "id": "corrosion-erosion",
+      "h": "Internal corrosion and erosion at bends, tees and downstream of valves",
+      "p": [
+        "Wall loss inside a ship's pipe is rarely uniform; velocity, turbulence and where water sits decide where it concentrates. At a bend, the extrados, the outside of the curve, takes the impingement of the flow and wastes first, especially in sea-water and steam lines. At a tee, the branch connection and the run wall opposite the branch see turbulent flow. Downstream of a valve, orifice plate or reducer, the jet leaving the restriction strikes the wall a short distance along, so the worst reading is often past the flange, not at the valve itself.",
+        "In horizontal oil lines, the six o'clock position corrodes where water and sediment settle out; crude tanker cargo lines and fuel transfer lines are typical. Dead legs and low points in fire mains and bilge lines hold stagnant seawater and corrode from the inside. In sea-water cooling systems, erosion-corrosion combines with galvanic attack where copper-nickel, bronze valves and steel pipe meet. Steam lines lose wall downstream of control valves and traps, and condensate returns corrode at their low points.",
+        "These are where a sampling plan should start, and the pattern of findings is itself informative. A line thinned at its bends but not along its straight runs is behaving as expected. A line thinned uniformly suggests a change in the fluid or a failed internal lining, and the inspection should widen."
+      ]
+    },
+    {
+      "id": "ut-pipe-walls",
+      "h": "Ultrasonic thickness gauging of pipe walls on board",
+      "p": [
+        "Pipe-wall gauging uses dual-element probes sized to the pipe diameter, so the probe seats on the curved surface and picks up the minimum remaining wall where the bore is corroded. Readings are taken at fixed clock positions around the circumference, at least twelve, three, six and nine o'clock and more on large-bore pipe, and on both the extrados and intrados of each bend. Where paint is sound, the gauge's multiple-echo mode measures the steel alone so the coating does not inflate the reading; where it is not, the paint is removed at the point.",
+        "Lines do not need to be drained for external UT, which is why it suits ships in service: cargo, ballast and fuel lines can be measured while the ship works, if the permit system allows. Hot lines need care, because sound velocity in steel changes with temperature; steam and heated lines are measured with high-temperature probes and couplant and the readings corrected, or measured after cooling. Isolated pits are the method's blind spot. A reading placed between pits reports more wall than the pipe has left, so where pitting is suspected the probe is scanned across the area and the minimum recorded."
+      ]
+    },
+    {
+      "id": "minimum-wall",
+      "h": "Minimum wall checks against class rules and owner's criteria",
+      "p": [
+        "A thickness reading becomes a decision only when it is compared with a minimum. Classification society rules calculate a required wall from design pressure, add allowances for bending, manufacturing tolerance and a service-dependent corrosion allowance, and also set absolute minimum wall thicknesses for steel pipe by service and outside diameter. Most rules set heavier minima for pipes passing through tanks, such as bilge, air and sounding pipes through ballast or fuel tanks, ballast lines through fuel tanks and fuel lines through ballast tanks, because a leak there contaminates or floods a space nobody can see.",
+        "We do not decide which criterion applies; you or the class surveyor do. Tell us the minimum for each system, or send the relevant class rule table, and every reading will be reported against it, with values below the minimum and those approaching it flagged. Without a criterion we report measured wall against nominal and leave the assessment to your technical department. Pipe below its minimum is normally renewed; clamps, wrapping and doublers are temporary measures that class accepts, if at all, for a limited period."
+      ]
+    },
+    {
+      "id": "sampling-plans",
+      "h": "Sampling plans for pipeline inspection on ships",
+      "p": [
+        "No ship's piping is gauged end to end. A sampling plan decides where readings are taken, how many, and what happens when a low reading turns up. It is built from the piping diagrams, the leak and renewal history of the ship and its sisters, and the damage mechanisms of each system, and it is agreed with the superintendent before the team travels, because the number of locations sets the time needed on board."
+      ],
+      "list": [
+        "Priority locations first: bends, tees, reducers, downstream of valves and orifices, pump suctions and discharges, low points and dead legs.",
+        "Lines whose failure is hardest to see or most harmful: ballast piping and fuel lines in double bottoms and duct keels, lines through cargo or fuel tanks, and pipes near the shell.",
+        "Fixed condition-monitoring locations, marked on the pipe and the isometric, so the next round measures the same points and yields a corrosion rate.",
+        "An expansion trigger: when a reading falls below an agreed level, the grid around it is densified and adjacent fittings are added.",
+        "Lighter sampling of straight runs, enough to confirm that wall loss is local rather than general."
+      ]
+    },
+    {
+      "id": "deck-piping-supports",
+      "h": "Deck piping exposed to weather, pipe supports and clamps",
+      "p": [
+        "Deck piping corrodes from the outside as well. Cargo piping, tank cleaning lines, fire mains, inert gas and vent lines take green water, salt spray and sun, and the damage concentrates where water is trapped: under supports and saddles, beneath U-bolts and clamps, at deck penetrations and sleeves, and at flanges where paint cannot reach. A pipe can look sound along its run and be wasted almost through on the underside of its support.",
+        "Supports cause their own failures. A missing or broken support lets vibration fatigue small-bore branches at their welds; a seized one stops thermal movement on heated lines and overloads the pipe. A clamp that has worn into the pipe leaves a local groove that gauging finds only if a reading is taken at the clamp. We inspect supports visually, release clamps where that can be done safely to gauge beneath them, and use magnetic particle testing on support welds and small-bore connections showing signs of cracking. Insulated lines are gauged where the insulation can be opened, because corrosion under insulation cannot be seen from outside."
+      ]
+    },
+    {
+      "id": "surveys-and-approval",
+      "h": "Piping at class surveys, and work that needs no class approval",
+      "p": [
+        "At renewal surveys of tankers and bulk carriers the surveyor examines piping on deck and in cargo and ballast tanks, and in pump rooms on tankers, and may call for thickness measurement where condition is doubtful. Cargo and ballast lines inside tanks are best gauged while the tanks are open, gas-free and lit for the hull survey, so combining piping work with hull gauging saves a second tank entry. Thickness measurement credited to a class survey must be carried out by a firm approved by that ship's classification society under IACS UR Z17; tell us the vessel's class when you enquire.",
+        "Most piping work falls outside that rule because nobody credits it to a survey: condition monitoring between surveys, pre-docking gauging so pipe renewal can be specified and spools prefabricated before the ship reaches the yard, investigation after a leak, and pre-purchase, on-hire and off-hire gauging."
+      ]
+    },
+    {
+      "id": "isometric-reporting",
+      "h": "Reporting with isometric sketches",
+      "p": [
+        "Every line gauged is drawn as an isometric sketch, not to scale but faithful in routing, fittings, valves and flanges, with each measurement location numbered. Readings are tabulated against those numbers with nominal wall, the minimum applied and the measured minimum at each location, and low values are flagged. Lines are identified by system and by the ship's own line numbering where the piping diagrams provide it, so the report reads alongside the ship's drawings.",
+        "For renewal planning the report lists spools and fittings below their minimum, with locations, which is what a pipe shop needs to prefabricate. Photographs record external corrosion, support defects and anything found outside the scope. On repeat rounds, readings at each fixed location are compared with the previous round and the wall loss rate is shown, so the next inspection can be set before a line reaches its minimum rather than after it leaks."
+      ]
+    }
+  ],
+  "codes": [
+    "Classification society rules for ship piping systems (minimum wall thickness and corrosion allowances)",
+    "IACS UR Z7 and Z10.1 to Z10.5 (hull and enhanced surveys, including piping in the cargo area)",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter II-2, regulation 10 (fire-fighting, including fire mains)",
+    "ISO 16809 (ultrasonic thickness measurement)",
+    "ASTM E797 (ultrasonic thickness measurement by the manual pulse-echo contact method)",
+    "ISO 17638 (magnetic particle testing of welds)",
+    "ASNT SNT-TC-1A (personnel qualification and certification)"
+  ],
+  "deliverables": [
+    "Isometric sketch of every line gauged, with numbered measurement locations",
+    "Reading tables with nominal wall, applied minimum and measured minimum per location",
+    "Flagged list of readings below or approaching the minimum",
+    "Spool and fitting renewal list with locations, for prefabrication",
+    "Photographs of external corrosion, support and clamp defects",
+    "MT results on support welds and small-bore connections where tested",
+    "Wall loss rates on repeat rounds at fixed condition-monitoring locations"
+  ],
+  "industries": [
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Bulk carriers",
+    "Container ships",
+    "LNG and LPG carriers",
+    "Ro-ro and ro-pax ferries",
+    "Offshore support vessels",
+    "Ship managers and owners' technical departments"
+  ],
+  "faqs": [
+    {
+      "q": "Can you measure pipe wall thickness through paint?",
+      "a": "Yes, where the paint is sound and well bonded. In multiple-echo mode the gauge measures the time between successive back-wall echoes, so the coating drops out of the reading. Where paint is cracked, blistered or built up in thick layers, the multiple echoes become unreliable and the paint is removed at the measurement point. The report states which mode was used at each location."
+    },
+    {
+      "q": "Do lines have to be drained or shut down for UT?",
+      "a": "Not for external gauging. Ultrasonic thickness measurement works on full or empty pipe, so cargo, ballast and fuel lines can be measured while the ship works, provided its permit system allows access. Hot lines are measured with high-temperature probes and couplant, with readings corrected for temperature, or after cooling. Internal visual examination is different: it needs the line drained, isolated and opened."
+    },
+    {
+      "q": "How many readings do you take per pipe?",
+      "a": "It depends on the system, the pipe size and the history. Fittings, meaning bends, tees, reducers and the first lengths past valves and orifices, get a full circumferential set at each location, with bends read on both extrados and intrados. Straight runs are sampled more lightly. We settle the plan with your superintendent before travel and widen it on board whenever a reading falls below the agreed trigger."
+    },
+    {
+      "q": "What minimum wall thickness do you check against?",
+      "a": "The one you or the class surveyor specify. Class rules give minimum wall thicknesses by pipe service and diameter, with heavier minima for pipes passing through tanks, and many owners renew at their own criterion above the class minimum. Send us the criterion for each system and every reading will be reported against it. Without one, we report measured wall against nominal and flag significant loss."
+    },
+    {
+      "q": "Can UT find pinholes and pitting in pipes?",
+      "a": "Not with single spot readings. A pinhole or isolated pit is smaller than the spacing between measurement points, so a grid can pass it by. Where pitting is suspected, for example at the bottom of cargo and fuel lines or in sea-water lines with a leak history, the probe is scanned across the area and the minimum recorded. A pressure test remains the definitive check that a line is tight."
+    },
+    {
+      "q": "Do you inspect copper-nickel and stainless steel pipes?",
+      "a": "Yes. Ultrasonic thickness gauging works on copper-nickel, stainless steel and other metallic pipe once the gauge is calibrated on a reference of the same material, because sound velocity differs from carbon steel. Crack detection on non-ferromagnetic pipe uses penetrant testing rather than magnetic particle testing. GRE pipe is different: conventional UT does not give dependable wall readings, and the inspection is visual."
+    },
+    {
+      "q": "Can piping be gauged during a port call or at anchorage?",
+      "a": "Often, yes. Deck lines, engine room systems and pump rooms can be gauged during cargo operations or at anchorage if the ship's work permits allow; lines inside tanks need those tanks open and gas-free, which usually means a docking or a planned tank entry. Our team travels from India, so tell us the port, expected dates and the ship's agent early, so visas and port access can be arranged."
+    }
+  ]
+}

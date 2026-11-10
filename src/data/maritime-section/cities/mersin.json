@@ -1,0 +1,105 @@
+{
+  "slug": "mersin",
+  "name": "Mersin",
+  "country": "Turkey",
+  "region": "europe",
+  "title": "Mersin UTM: Ship Thickness Measurement in the East Med",
+  "description": "Ship thickness measurement in Mersin for container ships, bulkers and tankers at Mersin International Port or anchor: pre-docking UTM and CAP gauging.",
+  "h1": "Ultrasonic Thickness Measurement for Ships at Mersin and the Iskenderun Bay Ports",
+  "intro": "Mersin is Turkey's main gateway on the eastern Mediterranean, with Mersin International Port handling container, bulk, general cargo and ro-ro traffic for the industrial south-east and transit cargo beyond. Along the coast to the east, the Iskenderun Bay ports serve steelworks and the Ceyhan crude oil terminals. For thickness gauging in Mersin and across the bay we mobilise a team from India, timed to the ship's cargo call or anchorage wait.",
+  "keywords": [
+    "mersin utm",
+    "ship thickness measurement in mersin",
+    "thickness measurement in mersin",
+    "thickness gauging in mersin",
+    "mersin international port",
+    "mersin anchorage",
+    "iskenderun bay",
+    "ship inspection in mersin",
+    "ceyhan tanker gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Mixed container and bulk traffic",
+      "p": "Mersin International Port handles container ships alongside bulk carriers with grain, fertiliser and minerals, general cargo and ro-ro ships, giving varied gauging demand from scrubber piping to hold structure."
+    },
+    {
+      "h": "Iskenderun Bay in the same trip",
+      "p": "Iskenderun's steelworks and bulk berths, and the crude terminals at Ceyhan, lie along the bay east of Mersin. A single mobilisation can cover a container ship at Mersin and a bulk carrier or tanker in the bay."
+    },
+    {
+      "h": "Gauging ahead of a distant docking",
+      "p": "Heavy ship repair in Turkey is concentrated in the Marmara rather than on this coast, so readings taken during a Mersin call give the owner a steel estimate before the ship sails for Tuzla, Yalova or a yard abroad."
+    }
+  ],
+  "port": {
+    "h": "Mersin and the eastern Mediterranean trade",
+    "p": [
+      "Mersin lies on Turkey's south coast, west of Adana and the Çukurova plain, one of the country's main agricultural and industrial regions. Mersin International Port, operated under a long-term concession, is the main container and multipurpose port on Turkey's Mediterranean coast and a gateway for cargo moving to and from south-east Turkey and onwards to Iraq and the wider Middle East. Its berths handle container ships on Mediterranean and deep-sea services, bulk carriers, general cargo and project ships, ro-ro vessels and car carriers, and liquid cargo moves through terminals in and around the city.",
+      "The bulk trades are agricultural and industrial: grain imports for the region's flour and feed mills, fertiliser and minerals, and steel and cement cargoes, mostly carried in Handysize and Supramax bulk carriers and general cargo ships. Many of these ships work regional routes linking the eastern Mediterranean, the Black Sea and the Aegean, and they range widely in age and upkeep. Container traffic brings more modern tonnage, including scrubber-fitted ships on long-haul services whose exhaust gas cleaning systems run whenever the ship burns high-sulphur fuel inside the Mediterranean ECA.",
+      "Ships stay long enough to gauge because Mersin is a busy port with berth waits at times, and bulk discharges by grab are slow and sequenced. Anchorage stays off Mersin and in Iskenderun Bay, and multi-day bulk discharges, give the most practical windows. Ship inspection in Mersin tends to be preparation for decisions taken elsewhere: a docking in the Marmara, a sale, a charter, or a CAP or vetting programme for tankers trading to Ceyhan and the Mersin fuel terminals. Because the nearest heavy repair yards are a long voyage away, finding out the steel scope here, rather than on arrival at the yard, is worth more than it would be in a port with a dock next door."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens at Mersin and around Iskenderun Bay",
+    "p": [
+      "At Mersin International Port, container ships are gauged on ballast tanks, deck structure and scrubber systems during their berth windows, and bulk and general cargo ships have holds measured as cargo work allows. Access at the port is governed by the terminal's ISPS and safety procedures, with every visit booked through the ship's agent. Ships waiting at the Mersin anchorage are reached by launch, and a wait for berth is often the best time for a full ballast tank programme, because the crew are not occupied with cargo and tanks can be ventilated without pressure on time.",
+      "Across the bay, the Iskenderun ports handle iron ore, coal and steel for the steelworks and the region's industry, bringing larger bulk carriers than Mersin usually sees, and the Ceyhan marine terminals load crude tankers. Gauging at those locations follows the same pattern, with deck, ballast tanks and accessible holds measured during cargo calls or anchorage waits, and it can be combined with Mersin jobs in one trip by road along the coast. Ceyhan tanker gauging is limited by the terminal's rules on loading days, so it is best combined with anchorage time before or after the call."
+    ],
+    "list": [
+      "Mersin International Port container berths — ballast tank, deck and scrubber piping checks on container ships during scheduled calls",
+      "Mersin International Port bulk and general cargo berths — hold, hatch cover and coaming gauging as discharge frees each hold",
+      "Mersin anchorage — pre-docking and condition gauging on ships waiting for berths, reached by launch arranged by the agent",
+      "Iskenderun Bay steel and bulk berths — gauging on larger bulk carriers discharging iron ore and coal, within terminal rules",
+      "Ceyhan crude terminals — deck, deck piping and ballast tank gauging on crude tankers during loading calls, subject to terminal permits"
+    ]
+  },
+  "context": {
+    "h": "Regulation and trade context on Turkey's Mediterranean coast",
+    "p": [
+      "Turkey belongs to both the Mediterranean MoU and the Black Sea MoU on port state control, and Mersin, on the Mediterranean coast, sees inspections of a traffic mix that includes many older bulk carriers and general cargo ships. The Mediterranean SOx ECA has applied in these waters since 1 May 2025, which means 0.10% sulphur fuel or an exhaust gas cleaning system. For scrubber-fitted ships, wash-water and overboard piping is a predictable source of leaks and thinning that is better found at a berth in Mersin than at sea.",
+      "Commercially, Mersin connects Turkish industry with eastern Mediterranean, Middle Eastern and European markets. Voyages between Mersin and EU ports bring EU ETS and FuelEU Maritime obligations, and ships trading to Egypt and the Levant cross several port state and customs regimes in a short time. For managers, the practical issue is distance from the repair yards: with heavy repair concentrated in the Marmara, a ship that discovers excessive wastage in Mersin faces a long ballast leg to dock, so readings taken during a call here are worth having early. Owners of tankers loading at Ceyhan face oil-major vetting as well, and a CAP rating is often expected on older tonnage."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Mediterranean MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Mersin",
+    "p": "Mersin jobs are set by cargo calls and anchorage waits. Container ships offer short, scheduled windows for ballast tanks and scrubber piping; bulk carriers discharging grain or fertiliser give several days for hold and tank readings; and tankers at Ceyhan or the Mersin terminals give deck and ballast access under terminal rules. Most programmes feed a docking planned elsewhere, usually in the Marmara.",
+    "list": [
+      "Hold, hatch cover and ballast tank gauging on a Supramax discharging grain at Mersin International Port ahead of its third renewal survey in a Marmara yard.",
+      "Checks on a container ship's exhaust gas cleaning discharge piping during a scheduled Mersin call, with the readings sent to the superintendent before the ship sails.",
+      "Pre-docking gauging on a general cargo ship waiting at the Mersin anchorage, to estimate steel renewal before the voyage north to dock.",
+      "Deck and ballast tank gauging for CAP preparation on an Aframax tanker loading at Ceyhan, with the remaining scope planned for the docking yard.",
+      "On-hire condition gauging on a Panamax bulk carrier delivering in Iskenderun Bay into a time charter, recording hold and hatch cover condition for both parties."
+    ]
+  },
+  "logistics": "The team flies into Çukurova International Airport near Tarsus, between Mersin and Adana, usually connecting through Istanbul, and travels by road to Mersin, Iskenderun or Ceyhan. Port passes under ISPS at Mersin International Port, terminal permits at the bay's steel and crude terminals, and launches for anchorage work are arranged through the ship's agent, with crew lists and certificates sent ahead. A Turkish visa is needed for each technician travelling from India, so we begin the application once a likely call is identified and keep it valid across the ship's expected window.",
+  "vessels": [
+    "Container ships",
+    "Bulk carriers",
+    "General cargo and multipurpose ships",
+    "Ro-ro ships and car carriers",
+    "Crude and product tankers",
+    "Chemical tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Is a scheduled Mersin call long enough to gauge a container ship?",
+      "a": "Yes, within the berth window. Container ships rarely stay long, so we target a defined set of ballast tanks, the scrubber wash-water and overboard piping, or a deck area, with spaces prepared and certified safe before arrival. If the programme is larger than one call allows, we split it across successive calls on the same rotation."
+    },
+    {
+      "q": "Is there a ship-repair yard near Mersin for steel renewal?",
+      "a": "The large Turkish repair yards are concentrated in the Marmara, at Tuzla and in Yalova, rather than on the Mediterranean coast. That is why pre-docking gauging during a Mersin call is worthwhile: you can send a measured steel scope to yards before the ship makes the voyage, instead of discovering it on arrival."
+    },
+    {
+      "q": "Can you cover Iskenderun and Ceyhan from a Mersin mobilisation?",
+      "a": "Yes. The bay's ports are linked to Mersin by road, so a team in Mersin can move on to a bulk carrier at Iskenderun or a tanker at Ceyhan without a separate trip. Tell us the expected windows for each ship and we will plan the order of work and the visa period to cover them all."
+    },
+    {
+      "q": "What can be gauged on a crude tanker loading at Ceyhan?",
+      "a": "Cargo tanks are unavailable while the ship is loading, but deck plating, deck piping and ballast tanks certified safe can usually be gauged during the stay, subject to the terminal's permit rules and approval of any equipment used in hazardous areas. For a CAP or renewal programme, that work forms the first part of the gauging, completed later in dock."
+    }
+  ],
+  "nearby": ["limassol", "larnaca", "izmir", "port-said"]
+}

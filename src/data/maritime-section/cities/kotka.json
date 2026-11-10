@@ -1,0 +1,108 @@
+{
+  "slug": "kotka",
+  "name": "Kotka",
+  "country": "Finland",
+  "region": "europe",
+  "title": "Kotka Ship Thickness Measurement | HaminaKotka UTM",
+  "description": "Ship thickness measurement at HaminaKotka: UTM of hull structure on forest-product carriers, chemical tankers and feeders, plus pre-docking gauging.",
+  "h1": "Thickness Measurement and Hull Inspection at Kotka and Hamina",
+  "intro": "Kotka and Hamina together form the Port of HaminaKotka, a main export gateway for Finnish forest products and an entry point for liquid bulk, containers and, through the Hamina LNG terminal, small-scale LNG. Ships here meet the hardest ice on Finland's south coast. We send a gauging team from India to measure hull structure, holds, tanks and piping while ships load, discharge or wait for an icebreaker escort.",
+  "keywords": [
+    "kotka ship thickness measurement",
+    "haminakotka utm",
+    "hull inspection at kotka",
+    "kotka hull gauging",
+    "chemical tanker thickness measurement",
+    "ice class hull gauging",
+    "hamina tanker gauging",
+    "pre-docking gauging",
+    "utm kotka",
+    "thickness measurement hamina"
+  ],
+  "highlights": [
+    {
+      "h": "Hardest ice on the south coast",
+      "p": "The eastern Gulf of Finland freezes earlier and harder than the waters off Helsinki or Turku. Ice-belt and bow plating on ships trading here wear accordingly, and gauging after the season shows how much margin is left."
+    },
+    {
+      "h": "Forest products and long loading",
+      "p": "Paper, pulp and sawn timber are loaded over long port stays at Kotka. That time alongside suits hold, tank-top and deck gauging on sto-ro, lo-lo and general cargo ships without holding up the sailing."
+    },
+    {
+      "h": "Liquid bulk at Hamina",
+      "p": "At Hamina's liquid terminals, chemical and product tankers give us their decks, pipe runs and safe voids while cargo flows. The cargo tanks themselves wait for gas-free days or a yard stay."
+    }
+  ],
+  "port": {
+    "h": "The Port of HaminaKotka and its traffic",
+    "p": [
+      "HaminaKotka is one port company running two neighbouring cities' harbours on the eastern Gulf of Finland, close to the Russian border. In Kotka, Mussalo is the deep-water harbour for containers and bulk, and Hietanen handles ro-ro and vehicle traffic. In Hamina, the harbour is built around liquid bulk, with chemical and oil-product terminals, general cargo berths and the Hamina LNG terminal, which receives small-scale LNG carriers. The cargo base is Finnish industry: paper, board, pulp and sawn timber going out, and chemicals, fuels and containers coming in. Approaches to both harbours run through island-studded coastal fairways that are kept open by icebreakers in winter.",
+      "That cargo base shapes the fleet. Forest products travel on sto-ro and lo-lo ships, ro-ro ships and general cargo vessels that must keep cargo dry, so hatch covers, coamings and hold structure matter as much as the shell. Chemical and product tankers serve the Hamina terminals, and container feeders link Mussalo with the North Sea hubs. Transit flows that once tied the port to the Russian market have shrunk under EU sanctions, which has shifted the traffic further towards Finland's own exports and imports and towards ships on regular Baltic and North Sea loops.",
+      "There is usually time to work: forest-product loading is slow and careful, tankers spend time on discharge and line work, and in winter ships wait at anchor for icebreaker escort through the eastern Gulf. The ice is the distinctive factor. This part of the Gulf usually freezes first on Finland's south coast and clears last, and Finnish winter traffic restrictions reach Kotka and Hamina early in the season. Ships that trade here all winter need a high ice class and an ice belt that still meets it. Kotka hull gauging therefore leans heavily towards the waterline, the bow and the forward shoulders, with hold and tank work for renewal surveys done in the long loading periods."
+    ]
+  },
+  "facilities": {
+    "h": "Where we gauge ships at Kotka and Hamina",
+    "p": [
+      "Most work at HaminaKotka is done alongside during cargo operations. Forest-product ships offer emptied holds before loading starts, and the team can measure tank tops, hold frames and the underside of hatch covers while the stevedores prepare. Because paper and pulp must be loaded into clean, dry holds, we remove couplant residue from every measured area before the hold is handed back. On tankers, deck plating, cargo and ballast piping and void spaces can be gauged under the ship's permit system while cargo is worked. Ro-ro ships at Hietanen are measured on ramps and vehicle decks between cargo flows.",
+      "Where a ship trading here is heading for a repair yard elsewhere in the Baltic, gauging in Kotka or Hamina beforehand hands the chosen yard measured renewal figures and the owner a firm basis for planning dock days. In the ice season, launches to the anchorage depend on conditions, and ships waiting for escort are sometimes easier to reach once they are alongside. We agree timing with the agent so that the team arrives when the ship is accessible, not when the ice decides."
+    ],
+    "list": [
+      "Mussalo harbour, Kotka — container and bulk berths; deck, hatch-coaming and accessible tank gauging on feeders and bulk carriers during loading",
+      "Hietanen harbour, Kotka — ro-ro and vehicle traffic; ramp, vehicle-deck and lashing-area plating measured while cargo is being worked",
+      "Hamina harbour liquid terminals — chemical and product tankers; deck plating, cargo and ballast piping and pump-room gauging in port",
+      "Hamina LNG terminal — small-scale LNG carriers; deck structure, ballast tanks and sea water piping gauged within terminal safety rules",
+      "Forest-product berths in both harbours — sto-ro, lo-lo and general cargo ships; tank-top, hold-frame and hatch-cover gauging before loading",
+      "Anchorage off Kotka — ships held for a berth or for an icebreaker; reached by launch when weather and ice allow"
+    ]
+  },
+  "context": {
+    "h": "Regulatory and market context in the eastern Gulf of Finland",
+    "p": [
+      "Finland is a Paris MoU state, and the eastern Gulf of Finland lies inside the Baltic SOx Emission Control Area, where the 0.10% sulphur limit applies. Container feeders and ro-ro ships on Baltic loops are among the ship types that took up exhaust gas scrubbers, and the wash-water piping, discharge lines and shell connections on those ships deserve regular gauging because acidic wash-water thins steel pipe from the inside. Voyages linking Kotka and Hamina with other EU ports have carried EU ETS obligations since 2024 and FuelEU Maritime requirements since 2025, adding pressure on owners of older feeders and forest-product ships to justify steel renewal with measured data.",
+      "The chemical trade at Hamina brings the ESP regime into play: chemical tankers fall under IACS UR Z10.3, and their renewal surveys require readings across cargo and ballast tank structure, with the extent growing as the ship ages. CAP requests from charterers are common for older tankers. Ice adds the second layer. Under the Finnish-Swedish Ice Class Rules, a ship's ice class is tied to its ice-belt scantlings, and the Finnish winter restrictions that apply to the eastern Gulf decide which ships may call at all. Ice class hull gauging is therefore a commercial question here as much as a survey one."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at HaminaKotka",
+    "p": "Jobs here follow the cargo. Forest-product ships give time in empty holds before loading, tankers give time on deck during discharge, and the ice season gives owners a reason to know their ice-belt figures before the restrictions tighten. Chemical tanker thickness measurement at Hamina is usually split between what can be done in port and what is left for gas-free days or the yard.",
+    "list": [
+      "End-of-winter ice-belt gauging on a forest-product carrier at Kotka, measuring shell plating and frames in the bow and midbody ice belt before her spring docking",
+      "Tank tops and hold frames measured on a sto-ro ship before she loads paper reels at Mussalo, with couplant cleaned off before the holds are released",
+      "Deck plating, cargo pipeline and ballast piping gauging on a chemical tanker at Hamina ahead of an intermediate survey due at her next drydock",
+      "Scrubber wash-water piping and overboard line on a container feeder at Mussalo, measured from the engine casing and pump room during her regular call",
+      "Pre-purchase gauging on an ice-class product tanker at the Kotka anchorage, focused on deck plating, piping and gas-freed ballast tanks"
+    ]
+  },
+  "logistics": "The team flies into Helsinki-Vantaa Airport and drives east to Kotka and Hamina. Terminal access at Mussalo, Hietanen and the Hamina liquid berths needs an ISPS pass, which the ship's agent requests, and the agent also books launch transport for a ship at anchor. Finland requires a Schengen visa for our technicians travelling from India, so the job date is fixed against consular timelines and the ship's loading programme together. Winter jobs carry an extra allowance for icebreaker escort delays, which can move a ship's arrival by a day or more.",
+  "vessels": [
+    "Forest-product carriers (sto-ro and lo-lo)",
+    "Ro-ro cargo ships",
+    "Chemical and product tankers",
+    "Container feeder ships",
+    "Small-scale LNG carriers",
+    "Bulk carriers",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge holds while our ship is loading forest products?",
+      "a": "Yes, in holds that are empty and dry. We start in the holds scheduled last for loading and work back, so the stevedores are never waiting for us. Paper and pulp cargoes are sensitive to contamination, so every measured spot is wiped clean of couplant before the hold is handed back. Tank tops under cargo are measured on the next empty passage."
+    },
+    {
+      "q": "How does the ice affect gauging work at Kotka in winter?",
+      "a": "Work inside the ship is unaffected, apart from using low-temperature couplant in cold spaces. What changes is timing: icebreaker escort can delay arrival, launches to the anchorage may not run in heavy ice, and external shell readings alongside are limited. We build the schedule with the agent around the ship's actual berthing and keep the team flexible by a day where the season demands it."
+    },
+    {
+      "q": "Can you gauge a chemical tanker at Hamina without gas-freeing?",
+      "a": "Partly. Deck plating, external surfaces of cargo and ballast piping, and void spaces certified safe can all be gauged during the port stay, within the ship's permit system. The inside of the cargo tanks and their structure need gas-freeing and an entry certificate from a competent person, so for a renewal or intermediate survey that part is usually scheduled for gas-free days or the yard."
+    },
+    {
+      "q": "Do you gauge ships that trade to Kotka but dock elsewhere?",
+      "a": "Often that is the point of the job. A pre-docking gauging at Kotka or Hamina gives the yard measured renewal quantities ahead of her arrival, so steel can be ordered and dock days planned. The readings are laid out on the class thickness measurement formats the ship will need, and the surveyor at the yard can then verify them rather than start from nothing."
+    }
+  ],
+  "nearby": ["helsinki", "tallinn", "turku"]
+}

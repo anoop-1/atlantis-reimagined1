@@ -1,0 +1,175 @@
+{
+  "slug": "ultrasonic-thickness-measurement",
+  "navLabel": "Ultrasonic thickness measurement",
+  "title": "Ultrasonic Thickness Measurement of Ships | UTM Hull Gauging",
+  "description": "Ultrasonic thickness measurement (UTM) of ship plating, stiffeners, tanks and piping: echo-echo gauging, IACS TM report forms, pitting and grooving.",
+  "h1": "Ultrasonic Thickness Measurement (UTM) and Hull Gauging for Ships",
+  "eyebrow": "Maritime inspection",
+  "intro": "Ultrasonic thickness measurement turns a ship's remaining steel into numbers a surveyor can act on: plating, stiffeners, transverse sections, tanks, decks, bulkheads and piping, each reading set against the as-built thickness and the classification society's allowable diminution. Atlantis NDT mobilises UTM teams from India to the vessel, whether it lies in a shipyard, on a lay-by berth or at anchorage, and works to a gauging plan agreed with the superintendent. Below is how ship thickness measurement should be done, and why each step matters.",
+  "highlights": [
+    {
+      "h": "Every reading traceable",
+      "p": "Each value is tied to a frame number, strake or longitudinal and to a numbered point on a sketch, with calibration records, so the next surveyor, buyer or superintendent can find the same spot and trend the wastage."
+    },
+    {
+      "h": "Through-coating where it works",
+      "p": "Echo-echo readings measure steel through intact paint, so coated ballast tanks and decks are not ground bare at every point. Where corrosion defeats the method, single-echo readings on cleaned steel are taken and identified as such."
+    },
+    {
+      "h": "Teams mobilised from India",
+      "p": "Gauging teams travel to the ship from India, so each job is planned around visas, the vessel's itinerary and the yard's access programme. Early notice of port, dates and class lets mobilisation follow the drydock plan."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-measured",
+      "h": "What ultrasonic thickness measurement on a ship covers",
+      "p": [
+        "Hull gauging is a set of measurements, each answering a different question. Plate-by-plate readings of deck, bottom and side shell show the general wastage of the hull envelope. Readings of longitudinals, web frames, girders and brackets show how the framing that carries the load is holding up. Tank-by-tank gauging captures the localised corrosion that coating breakdown and wet-dry cycling produce.",
+        "The transverse section, often called a belt or girth belt, matters most for the hull girder. It takes in every longitudinal member at one frame position: deck plating and longitudinals, side shell, bilge, bottom and inner bottom, longitudinal bulkheads and their stiffeners. Together those readings let the classification society check the remaining section of the hull girder, and for older oil tankers the rules call for an evaluation of longitudinal strength based on them. A belt with gaps is of little use, so each one is planned so that every member in it can be reached."
+      ],
+      "list": [
+        "Deck, bottom and side shell plating, including sheerstrake, bilge strake and wind-and-water strakes",
+        "Longitudinals, web frames, girders, brackets, stringers and their end connections",
+        "Plane and corrugated bulkheads, stools, and hopper and topside tank structure",
+        "Cargo hold side frames, hatch covers and hatch coamings on dry cargo ships",
+        "Ballast, cargo, fuel and peak tanks, double bottoms, duct keels, voids and cofferdams"
+      ]
+    },
+    {
+      "id": "single-echo-and-echo-echo",
+      "h": "Single-echo and echo-echo (through-coating) thickness gauging",
+      "p": [
+        "An ultrasonic thickness gauge sends a short pulse into the steel, times the echo from the far surface and converts that time to thickness using the sound velocity of the material. In single-echo mode the gauge times from the probe face to the first back-wall echo, so anything under the probe is counted, paint included. Because sound travels far more slowly in a coating than in steel, a layer of paint adds much more to the reading than its own thickness. Single-echo readings therefore need bare metal: scale removed and a small spot cleaned to bright steel.",
+        "Echo-echo mode times the interval between two successive back-wall echoes. Both echoes arise inside the steel, so the coating drops out of the result and the plate can be gauged through intact paint. On a ballast tank with coating in good condition this matters, because grinding hundreds of spots creates hundreds of new corrosion sites. The method needs a reasonably smooth back wall parallel to the front face; heavily corroded, pitted or scaled steel, thick or disbonded coatings and small-bore pipe may not return clean multiple echoes. There the operator switches to single-echo on prepared steel, and the report states which mode produced each value.",
+        "A-scan verification is the operator's check that the number on the display is real. A digital readout alone can lock onto the wrong signal: a lamination reads as heavy wastage, the second back-wall echo on thin material reads as double the thickness, and a pit edge can produce a value that means nothing. The A-scan shows the waveform, so the operator sees which echo was measured. It earns its place on readings near the allowable limit, where a wrong value either renews sound steel or leaves wasted steel in the ship."
+      ]
+    },
+    {
+      "id": "preparation-calibration-probes",
+      "h": "Surface preparation, calibration and probe choice",
+      "p": [
+        "Loose scale, rust, mud and cargo residue give false readings, so spaces are cleaned before gauging starts; that cleaning is the ship's or the yard's work. At each point the operator removes what remains, grinding to bright metal for single-echo readings and leaving sound coating alone where echo-echo is used. Coating condition is noted area by area as gauging proceeds.",
+        "Calibration is checked on a stepped steel reference block covering the expected range at the start of each shift, after any change of probe or cable, at intervals during the day and at the end of the work, and dual-element probes are zeroed before use. Sound velocity is set for the material, which matters on chemical tankers with stainless steel cargo tanks. Hot surfaces near heated cargo tanks, engine rooms or exhaust gas systems need high-temperature probes and couplant, with allowance for the change of velocity with temperature.",
+        "Dual-element probes are the usual choice for corroded hull steel, because they resolve thin remaining walls and respond to pitting on the far side. Single-element probes serve echo-echo work through coatings, and small-diameter probes reach narrow flanges, curved pipe and the bottom of pits. The probe set is decided when the job is scoped, not improvised on board."
+      ]
+    },
+    {
+      "id": "iacs-tm-report-forms",
+      "h": "Recording on the IACS thickness measurement report forms",
+      "p": [
+        "Thickness measurement credited to a class survey is reported on the IACS recommended forms, a numbered set with a version for each ship type. The oil tanker set in UR Z10.1, summarised in the table, shows how the forms divide the structure; bulk carriers, double-hull tankers and other ship types have parallel sets that follow the same logic.",
+        "Each form records the member's original thickness from the approved drawings, the gauged readings (forward and aft, or port and starboard), the diminution in millimetres and as a percentage, and the maximum allowable diminution. Every form refers to a sketch, such as a shell expansion, tank sketch or section sketch, on which each point is numbered so it can be found and repeated at the next survey. The report identifies the ship, dates, place, equipment and operators with their qualifications, and the operator signs it; for class work the attending surveyor verifies it and countersigns the cover page."
+      ],
+      "table": {
+        "head": ["IACS form (oil tankers)", "What it records"],
+        "rows": [
+          ["TM1-T", "All deck plating, all bottom shell plating or side shell plating, plate by plate"],
+          ["TM2-T (i) and (ii)", "Strength deck and sheerstrake plating, and shell plating, at one, two or three transverse sections"],
+          ["TM3-T", "Longitudinal members at one, two or three transverse sections"],
+          ["TM4-T", "Transverse structural members in cargo oil and water ballast tanks within the cargo tank length"],
+          ["TM5-T", "Watertight and oiltight transverse bulkheads"],
+          ["TM6-T", "Miscellaneous structural members"]
+        ]
+      }
+    },
+    {
+      "id": "allowable-diminution",
+      "h": "How readings are compared with original thickness and allowable diminution",
+      "p": [
+        "Diminution is the original thickness minus the gauged thickness, and the society's rules set how much is allowed. For most ships the allowable diminution is a proportion of the original thickness that varies with the member and its position, tighter on main hull girder members than on local structure, with a separate check that the hull girder as a whole keeps enough section. For ships built to the IACS Common Structural Rules, the drawings carry corrosion additions, and readings are compared with a renewal thickness derived from them rather than with a percentage.",
+        "Two thresholds shape every report. Substantial corrosion is wastage beyond three-quarters of the allowable margin but still within the limit; it triggers additional measurements and follow-up at later surveys. Wastage beyond the allowable margin is excessive and requires renewal or repair. The report flags both bands, lists any points that could not be gauged and why, and leaves the acceptance decision where it belongs: with the attending surveyor for class work, and with the owner's technical team for owner's gauging."
+      ]
+    },
+    {
+      "id": "pitting-grooving",
+      "h": "Measuring pitting, grooving and edge corrosion",
+      "p": [
+        "Pitting needs its own method, because an ordinary reading between pits overstates the steel left and a probe sitting across a pit gives erratic values. It is assessed by intensity, judged as the proportion of the area affected against standard pitting intensity diagrams, and by depth at the deepest pits. After cleaning, pit depth is taken with a pit depth gauge and the remaining thickness confirmed with a small-diameter probe or, where the other side is accessible, from the back of the plate. Crude oil cargo tank bottoms and ballast tank bottoms are the usual places to find it.",
+        "Grooving is linear corrosion running along a weld, typically at the toe of the fillet weld where a stiffener meets plating, or along a butt seam. It is common in ballast tanks, on under-deck longitudinals and at the lower brackets of bulk carrier hold frames. A reading taken beside the groove misses it, so the operator measures depth and length with a depth gauge, gauges the root with a small probe where the geometry allows, and records it on the sketch. Grooving at a stiffener connection can detach the stiffener, so the report describes the connection, not only the plate. Edge corrosion at openings, lightening holes and flanges is recorded as remaining width and thickness."
+      ]
+    },
+    {
+      "id": "access",
+      "h": "Access for thickness gauging: staging, rafting and cherry pickers",
+      "p": [
+        "The gauging plan decides the access, and the access decides the schedule. In drydock, the external shell is reached from the dock floor with cherry pickers. Inside tanks and holds, under-deck longitudinals, the top of web frames, upper bulkhead strakes, hold frame upper brackets and the undersides of hatch coamings need staging, cherry pickers in large holds, or rafting. Ships built with permanent means of access under SOLAS regulation II-1/3-6 have walkways and platforms in their tanks that reach much of the structure. Staging and cherry pickers are arranged by the yard or the ship; we specify what the plan needs before the team travels.",
+        "Rafting gauges the upper parts of ballast tanks from an inflatable raft or boat as the tank is filled in stages with clean ballast. The unified requirements set conditions for it, including calm water, a stationary level while the raft is in use and no oil sheen, and the surveyor decides whether they are met. It is slower than staging but avoids scaffolding in the tank, and is not possible in cargo tanks with residues. In any docking, gauging should start early, before blasting, painting and steel work compete for the same staging, so that any renewal it reveals reaches the repair list while the yard is still ordering steel."
+      ]
+    },
+    {
+      "id": "enclosed-space-safety",
+      "h": "Enclosed-space entry and gas-free certificates",
+      "p": [
+        "Every tank, double bottom, void, cofferdam and duct keel is treated as an enclosed space. Entry is under the ship's permit-to-work system, following its safety management system and the IMO recommendations for entering enclosed spaces aboard ships: ventilation, atmosphere testing for oxygen, flammable gas and the toxic gases relevant to the cargo, a standby person at the entrance, communications, rescue equipment and lighting. Tests are repeated during the day and after breaks, and the gauging team carries personal gas monitors throughout.",
+        "In a shipyard, entry also needs the yard's gas-free certificate from its competent person or marine chemist, and our team does not enter a space without a valid certificate and permit. Tanker cargo tanks must be cleaned, gas-freed and purged of inert gas, and on chemical tankers the toxicity of previous cargoes needs attention. Ballast tanks can be short of oxygen simply because corroding steel consumes it, and bulk carrier holds can hold hazards from previous cargoes or fumigation."
+      ]
+    },
+    {
+      "id": "class-and-owner-gauging",
+      "h": "Class survey gauging and owner's condition gauging",
+      "p": [
+        "Where thickness measurement is to be credited to a class survey, the IACS rules require it to be carried out by a firm approved by that ship's classification society under UR Z17, with the society's surveyor in attendance to control the process. Tell us the vessel's class when you enquire, so the scope can be set on that basis.",
+        "Much thickness gauging is not for class at all and needs no class approval: owner's and charterer's condition gauging, pre-docking gauging for a steel renewal estimate, pre-purchase inspection, on-hire and off-hire gauging, and condition monitoring of scrubber and ship piping between surveys. The method and the reporting standard are the same. Other pages in this section cover CAP, ESP and renewal survey gauging, ship piping inspection and magnetic particle crack detection at fatigue-prone details."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull surveys",
+    "IACS UR Z10.1 – Hull surveys of oil tankers, including the TM report forms",
+    "IACS UR Z10.2 to Z10.5 – Hull surveys of bulk carriers, chemical tankers, double-hull oil tankers and double-skin bulk carriers",
+    "IACS UR Z17 – Procedural requirements for service suppliers (thickness measurement firms)",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "SOLAS regulation II-1/3-6 – Means of access for inspections",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement",
+    "ISO 16809 – Non-destructive testing, ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Thickness measurement report on the IACS forms for the ship type",
+    "Sketches with every measurement point numbered and located",
+    "Summary of readings in the substantial corrosion band and beyond allowable diminution",
+    "Pitting and grooving records with depth, extent and remaining thickness",
+    "Gauging data in spreadsheet form for trending between surveys",
+    "Calibration records, equipment details and operator qualifications",
+    "List of areas not gauged, with the reason for each",
+    "Photographs of significant findings"
+  ],
+  "industries": [
+    "Crude oil and product tankers",
+    "Chemical tankers",
+    "Bulk carriers and ore carriers",
+    "Container ships",
+    "General cargo and multipurpose ships",
+    "Gas carriers",
+    "Ship managers and owners' technical departments",
+    "Ship-repair yards",
+    "Buyers, charterers and P&I and H&M surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "How many thickness readings does a ship need?",
+      "a": "There is no single number. For a class survey, the unified requirements set minimum extents that grow with the ship's age and type, the survey programme or the surveyor adds suspect areas, and substantial corrosion triggers further readings. For owner's gauging the purpose sets the extent, from a pre-purchase sample of the areas that reveal condition fastest to a steel renewal estimate concentrated on structure near its limit."
+    },
+    {
+      "q": "Can you measure thickness through paint without removing the coating?",
+      "a": "Yes, where the coating is intact and the back surface of the steel is reasonably smooth, using echo-echo measurement, which excludes the coating from the result. On heavily corroded or pitted steel, thick or disbonded coatings and some small-bore pipe, multiple echoes are not reliable, so the operator cleans a small spot to bare metal and takes a single-echo reading. The report shows which method was used at each point."
+    },
+    {
+      "q": "What do you need from us before the team travels?",
+      "a": "The ship's particulars and class, structural drawings with original scantlings, the last thickness measurement report, the survey status or survey programme for class work, the port or yard and dates, the agent's details, and the cleaning and access plan. Because the team is mobilised from India, the earlier the port and dates are known, the easier visas and travel are to arrange."
+    },
+    {
+      "q": "Can thickness gauging be done while the ship is trading?",
+      "a": "Much of it can. Ballast tanks can be gauged when empty and safe to enter, decks and exposed structure at a port call, cargo holds after discharge, and piping in service where the surface is accessible and not too hot. Tanker cargo tanks need cleaning and gas-freeing first. External bottom shell readings need the ship in drydock, which is why pre-docking gauging concentrates on internal structure."
+    },
+    {
+      "q": "Who carries out the gauging?",
+      "a": "Technicians qualified and certified under the company's written practice to ASNT SNT-TC-1A. Atlantis NDT's founder is the Responsible NDT Level III, holding ASNT NDT Level III in UT, RT, MT, PT and VT, with more than eleven years of international field experience. The company is certified to ISO 9001 and ISO 14001."
+    },
+    {
+      "q": "Do you gauge ship piping as well as hull structure?",
+      "a": "Yes. Ship piping inspection, sometimes searched as pipeline inspection on ships, covers cargo piping, ballast piping, fuel, sea water and fire main lines, and EGCS wash-water and overboard discharge piping. The principles are the same as for hull steel, with smaller probes and closer attention to curvature and temperature. Readings concentrate on bends, tees and reducers, where turbulence accelerates wastage."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "reykjavik",
+  "name": "Reykjavík",
+  "country": "Iceland",
+  "region": "europe",
+  "title": "Ship Thickness Measurement Reykjavík | Trawlers & Cargo",
+  "description": "Ship thickness measurement in Reykjavík for trawlers, container feeders, tankers and cruise ships: UTM of hull structure and pre-docking gauging.",
+  "h1": "Ship Thickness Measurement for Fishing, Cargo and Cruise Vessels in Reykjavík",
+  "intro": "Reykjavík is Iceland's main port: home to much of the country's deep-sea fishing fleet, the container lines that supply the island, the tankers that bring in its fuel, and expedition cruise ships that begin and end Arctic voyages there. Atlantis NDT mobilises a team from India to measure hull structure, tanks and piping on these vessels, planning around North Atlantic weather, short winter daylight and the ship's time in port.",
+  "keywords": [
+    "ship thickness measurement reykjavík",
+    "reykjavík hull gauging",
+    "trawler inspection",
+    "fishing vessel thickness measurement",
+    "expedition cruise ship inspection",
+    "ice belt gauging",
+    "pre-docking gauging",
+    "ultrasonic thickness measurement",
+    "thickness measurement iceland",
+    "ship inspection reykjavik"
+  ],
+  "highlights": [
+    {
+      "h": "Deep-sea trawlers and processing ships",
+      "p": "Freezer trawlers and pelagic vessels landing in Reykjavík have fish holds, refrigeration piping and stern ramps that wear in distinctive ways. Trawler inspection here focuses on those areas alongside the shell and tanks."
+    },
+    {
+      "h": "Expedition cruise turnarounds",
+      "p": "Expedition cruise ships begin and end Greenland and Arctic voyages in Reykjavík. After a season in ice, ice belt gauging and bow inspection during a turnaround or the next docking show what the ice has done."
+    },
+    {
+      "h": "Outside the European ECAs",
+      "p": "Icelandic waters are not part of the North Sea or Baltic Sea SOx ECAs, so the global 0.50% sulphur limit applies at sea. Ships also trading into European ECAs may still run scrubbers whose piping needs checking."
+    }
+  ],
+  "port": {
+    "h": "Reykjavík's harbours and the ships that use them",
+    "p": [
+      "Reykjavík's harbours are run by Faxaflóahafnir, the port authority for the Faxaflói bay area, which also covers the industrial port at Grundartangi to the north. The Old Harbour near the city centre is the base for fishing vessels, whale-watching boats and smaller craft, while Sundahöfn to the east is the main cargo port, where Icelandic container lines run regular services to Europe and North America and where much of the island's imported cargo arrives. Cruise ships berth at Skarfabakki in Sundahöfn and, in smaller numbers, in the Old Harbour.",
+      "Fishing is the defining industry. Iceland's fleet of freezer trawlers, fresh-fish trawlers and pelagic vessels lands and processes catches from the North Atlantic, and many of the larger ships have Reykjavík as their home port or call there regularly. These ships carry refrigeration plants, fish holds and processing decks, and work in heavy weather on long trips, conditions that drive corrosion in holds, ballast and fuel tanks, and wear on trawl decks and stern ramps. Tankers deliver fuel and oil products, bulk carriers serve the aluminium smelter and ferro-silicon plant at Grundartangi, and container feeders keep a regular rotation across the North Atlantic.",
+      "Ships stay in Reykjavík long enough to gauge for different reasons. Trawlers spend days alongside between trips, landing catch, taking stores and carrying out maintenance, and owners often do repair work in Iceland rather than sending vessels abroad. Container feeders and tankers have shorter calls. Expedition cruise ships turn around in port between voyages, and lay up or reposition at the end of the season. Weather is the governing factor: North Atlantic conditions make anchorage work unreliable for much of the year, so Reykjavík hull gauging is planned for alongside berths or the repair yard, and winter daylight shortens the window for any external work. Summer, when the cruise season peaks and the fishing calendar sets the trawlers' schedules, is the busiest period for inspection."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in Reykjavík and around Iceland",
+    "p": [
+      "In Reykjavík, the fishing harbour and the quays around the Old Harbour are where trawlers lie between trips, and most gauging on fishing vessels happens there or at the repair workshops and slipways serving the fleet. Owners generally prefer the work done while the crew is ashore between trips, when fish holds are empty and washed out. Sundahöfn's container and general cargo quays give shorter windows on feeders, while the fuel terminal allows limited ballast and deck work on tankers during discharge. Cruise ships at Skarfabakki are reachable from the quay, and their internal spaces can be worked while passengers change.",
+      "Iceland has ship-repair capacity for fishing vessels and smaller ships, including a significant yard in Akureyri in the north, but large cargo ships and cruise ships dock abroad, typically in Denmark, Norway, Poland, the Faroe Islands or further afield. Grundartangi, on Hvalfjörður north of Reykjavík, is the place to measure bulk carriers serving the smelters while they discharge or load. For ships docking outside Iceland, a Reykjavík call before the docking is a sensible point for pre-docking measurements, since weather rarely allows the same work at anchor."
+    ],
+    "list": [
+      "Old Harbour fishing quays — fish hold, refrigeration piping and stern ramp measurements on trawlers between trips.",
+      "Sundahöfn container quays — ballast tank and deck gauging on container feeders within their berth windows.",
+      "Skarfabakki cruise berth — ice-belt and bow structure gauging on expedition cruise ships during turnarounds or end-of-season lay-ups.",
+      "Reykjavík fuel terminal — deck and ballast tank measurements on product tankers during discharge, with cargo tanks closed.",
+      "Grundartangi industrial port — hold frame, hatch coaming and ballast tank gauging on bulk carriers serving the smelters.",
+      "Icelandic repair yards — docking gauging on fishing vessels and smaller ships at Icelandic slipways and docks, including in Akureyri."
+    ]
+  },
+  "context": {
+    "h": "Regulation, fisheries and Arctic context for Reykjavík",
+    "p": [
+      "Iceland is a Paris MoU member and an EEA state, though not part of the EU. Reykjavík lies outside the North Sea and Baltic Sea SOx ECAs, so the global MARPOL Annex VI limit of 0.50% sulphur applies at sea; national rules for territorial and port waters should be confirmed with the agent, as they can be stricter. Feeders and cruise ships that also trade into European ECAs may carry scrubbers, and their wash-water and overboard piping is worth measuring at each docking.",
+      "Two local factors shape gauging here. First, fishing vessels sit outside the IACS ESP regime and many smaller ones are not classed by an IACS society at all, so their inspection scope is set by class rules for fishing vessels where classed, or by the Icelandic Transport Authority's requirements and the owner's own maintenance programme. Fish holds, refrigeration and seawater cooling piping, and trawl decks are the typical concerns. Second, expedition cruise ships operating in polar waters fall under the IMO Polar Code and carry ice or polar class notations, so their ice belt and bow structure are inspected closely after each Arctic season, and owners want gauging results before deciding the repair scope for the next."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Reykjavík",
+    "p": "Reykjavík work is shaped by the fishing calendar, the summer cruise season and North Atlantic weather. Fishing vessels and cruise ships provide the most predictable windows; cargo ships are measured during their calls or at their docking abroad, with the Reykjavík call used to prepare the yard scope. Fishing vessel work is usually arranged with the owner's technical manager around landings and the vessel's next maintenance stop.",
+    "list": [
+      "Fishing vessel thickness measurement between trips: fish hold plating, refrigeration piping and stern ramp structure on a freezer trawler alongside in the Old Harbour.",
+      "Expedition cruise ship inspection at the end of the Arctic season: ice-belt plating and bow structure gauged at Skarfabakki to scope repairs before the next docking.",
+      "Pre-docking gauging of ballast tanks on a container feeder in Sundahöfn, ahead of a renewal survey at a European yard.",
+      "Hold frame and topside tank measurements on a bulk carrier discharging alumina at Grundartangi, following a class recommendation on hold wastage at the last annual survey.",
+      "Trawler inspection during a slipway stay: shell plating at the waterline, keel and stern areas measured while the vessel is out of the water."
+    ]
+  },
+  "logistics": "Keflavík International Airport is the gateway to Iceland, south-west of Reykjavík and connected to the city by road; it has direct flights to many European cities, so the team travels from India via a European hub. Sundahöfn, the fuel terminal and Grundartangi are ISPS-controlled, with passes arranged through the ship's agent, while fishing harbour access is arranged with the vessel owner. Iceland is in the Schengen area, so the team needs a Schengen visa applied for in India. Winter weather can disrupt flights and outdoor work, so we build some margin into winter schedules.",
+  "vessels": [
+    "Freezer and fresh-fish trawlers",
+    "Pelagic fishing vessels",
+    "Container feeders",
+    "Product tankers",
+    "Bulk carriers",
+    "Expedition cruise ships",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Do you inspect fishing vessels in Reykjavík that are not in an IACS class?",
+      "a": "Yes. Thickness measurement and crack detection are equally useful on fishing vessels outside IACS class, where the scope comes from the flag authority's requirements, the owner's maintenance programme or an insurer's request. We report readings against original thicknesses with sketches, so the owner and surveyor can judge wastage whichever rules apply."
+    },
+    {
+      "q": "What is usually measured on a freezer trawler?",
+      "a": "Fish hold plating and structure where accessible, refrigeration and seawater cooling piping, the trawl deck and stern ramp worn by gear handling, fuel and ballast tanks, and shell plating at the waterline. Gallows and gantry foundations and winch seats are typical places for magnetic particle testing because they carry heavy, repeated loads."
+    },
+    {
+      "q": "Can expedition cruise ships be gauged during a Reykjavík turnaround?",
+      "a": "A limited scope, yes. Internal ice-belt structure from accessible spaces, deck plating and piping can be measured while passengers change. External hull measurements and detailed bow inspection are better done during an end-of-season lay-up or at the docking, where the waterline can be reached safely."
+    },
+    {
+      "q": "How does winter affect gauging in Reykjavík?",
+      "a": "Short daylight, wind and cold limit external work on open decks and the hull, and flights can be disrupted by weather. Work inside tanks, holds and machinery spaces is largely unaffected. For winter jobs we plan the internal scope first, allow margin in the schedule and keep external measurements for a suitable weather window or a covered yard."
+    }
+  ],
+  "nearby": ["bergen", "aberdeen", "oslo", "copenhagen"]
+}

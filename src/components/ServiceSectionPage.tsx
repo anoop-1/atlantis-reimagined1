@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 import {
   ArrowRight, Award, BadgeCheck, BookOpen, Building2, CheckCircle2, ClipboardCheck, ClipboardList, Eye, FileCheck,
   FileText, Gauge, GraduationCap, Handshake, Landmark, Layers, MapPin, Radar, Scale, ScanSearch, ShieldCheck,
-  Users, Wrench, type LucideIcon,
+  Users, Wrench, Ruler, CalendarClock, Workflow, Factory, Anchor, Ship, type LucideIcon,
 } from "lucide-react";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
@@ -26,6 +26,7 @@ import { GRID_COLS, SITE, UI, type ServiceSectionModel, type SvcPage } from "@/d
 const ICONS: Record<string, LucideIcon> = {
   ScanSearch, Radar, Eye, ShieldCheck, Gauge, Users, ClipboardCheck, Wrench, Award, FileCheck, Layers,
   ClipboardList, Handshake, GraduationCap, FileText, Scale, BadgeCheck, BookOpen, Building2, Landmark,
+  Ruler, CalendarClock, Workflow, Factory, Anchor, Ship, // 2026-11-07 maritime inspection section
 };
 const Icon = ({ name, className }: { name?: string; className: string }) => {
   const C = name ? ICONS[name] : undefined;

@@ -1,0 +1,107 @@
+{
+  "slug": "liverpool",
+  "name": "Liverpool",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Liverpool Ship Thickness Measurement and Hull Gauging",
+  "description": "Ultrasonic thickness measurement in Liverpool and Birkenhead: renewal survey gauging in drydock, ESP scope for bulk carriers, ferry hull structure.",
+  "h1": "Ship Thickness Measurement in Liverpool: Hull Gauging on the Mersey",
+  "intro": "Liverpool combines a deep-water container terminal on the river, enclosed docks full of bulk and general cargo ships, a crude oil terminal serving Stanlow, Irish Sea ferry routes and a drydocking shipyard across the water at Birkenhead. That mix produces gauging work of every kind, from ESP renewal scope on a bulk carrier in the docks to ferry structure during a yard period. Our team travels from India to the Mersey for each job and plans around the tide, the locks and the vessel's schedule.",
+  "keywords": [
+    "thickness measurement in liverpool",
+    "liverpool ship thickness measurement",
+    "hull gauging on the mersey",
+    "bulk carrier gauging in liverpool",
+    "drydock gauging at birkenhead",
+    "ferry hull inspection",
+    "esp gauging",
+    "ultrasonic thickness gauging in liverpool",
+    "tanker inspection at tranmere",
+    "utm liverpool"
+  ],
+  "highlights": [
+    {
+      "h": "Enclosed docks that hold ships steady",
+      "p": "Lock-controlled docks keep the water level constant, so bulk and general cargo ships lie steady through long discharges and the team can gauge holds and tanks in the order the cargo plan opens them."
+    },
+    {
+      "h": "Drydock work across the river",
+      "p": "The Birkenhead shipyard's drydocks give full renewal-survey access on ferries and other vessels, with the team working beside the yard's planners and the class surveyor to mark corrosion before any steel is cut."
+    },
+    {
+      "h": "Irish Sea ferries and sulphur deadlines",
+      "p": "Ro-pax ships to Belfast, Dublin and the Isle of Man run to tight timetables. With the North-East Atlantic ECA's sulphur limit due in 2028, scrubber piping and refit gauging are both on owners' agendas."
+    }
+  ],
+  "port": {
+    "h": "Liverpool and the Mersey: a port of locks, river berths and Irish Sea links",
+    "p": [
+      "The Port of Liverpool, operated by Peel Ports, splits into two kinds of berth. The enclosed dock system on the Liverpool and Wirral banks is entered through locks and holds water at a steady level, while Liverpool2 at Seaforth is a river terminal built for large container ships on transatlantic and deep-sea services. Inside the docks, bulk carriers discharge grain, animal feed and biomass or load scrap metal, and general cargo and project ships work alongside for days rather than hours.",
+      "Up river, the Tranmere Oil Terminal on the Wirral bank receives crude for the Stanlow refinery, and ships bound for the Manchester Ship Canal enter at Eastham locks. Irish Sea ferries are the other constant: ro-pax services run from the Mersey to Belfast, Dublin and the Isle of Man on fixed daily timetables. The Birkenhead shipyard long known as Cammell Laird, now part of a wider UK ship-repair group, has drydocks used for ferry, offshore and government vessel work, so a gauging scope on the Mersey can be carried out in dock as well as in service.",
+      "Ships stay long enough to gauge because the enclosed docks act as a working lay-by. A bulk carrier discharging feed or loading scrap can be alongside for several days with holds opening in turn, and ships awaiting cargo or repairs often lie in the docks rather than at anchor in Liverpool Bay. Ferries are the opposite: they turn round in hours and keep to timetables, so their gauging is either done in pieces during the short gaps in the timetable or concentrated into the annual refit at a yard. The result is a port where quick in-service work and full renewal-survey scopes are both routine, and where a superintendent can often choose between them for the same ship. That is why bulk carrier gauging in Liverpool is so often done before the ship ever reaches a yard."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens on the Mersey",
+    "p": [
+      "Most ultrasonic thickness gauging in Liverpool happens inside the enclosed docks, and they suit it well. With the water level held by the locks, a ship lies steady against the quay, gangways stay put through the day, and the team can work holds and tanks to the cargo plan without stopping for the tide. Liverpool2 on the river is tidal and runs tight container windows, so work there concentrates on what can be reached while boxes are moving: engine-room piping, scrubber lines and upper-deck structure on bays already worked.",
+      "At the Birkenhead yard, a ship in drydock opens up everything a renewal survey needs: tanks cleaned and ventilated, staging or access in holds, and shell plating reachable from the dock floor. The gauging team works with the yard's planners and the class surveyor so that readings flagged as substantial corrosion are re-checked and marked before steel is cut. Tanker inspection at Tranmere is done on the terminal's terms and normally limited to deck and piping unless the ship is gas-free. Ferry hull inspection at the yard runs to a tight refit programme, so the tank and deck sequence is agreed before the ship enters the dock."
+    ],
+    "list": [
+      "Royal Seaforth and the north docks — hold, hopper and topside tank gauging on bulk carriers discharging grain, feed or biomass while alongside for several days.",
+      "Liverpool2 container terminal — upper-deck, hatch coaming and scrubber piping measurements on container ships during cargo operations on the river berth.",
+      "Birkenhead shipyard drydocks — full renewal-survey and steel-renewal gauging on ferries and other ships in dock, working beside the yard and the class surveyor.",
+      "Irish Sea ferry berths — vehicle-deck, ramp and bow-door structure checks on ro-pax ships in the gaps between sailings.",
+      "Tranmere Oil Terminal — deck and piping gauging on crude tankers serving Stanlow, under the terminal's permit system.",
+      "Liverpool Bay anchorage — launch-borne deck and vent-pipe gauging on ships waiting for the tide or a lock slot."
+    ]
+  },
+  "context": {
+    "h": "Port state control, sulphur rules and the Irish Sea market",
+    "p": [
+      "Liverpool lies outside the North Sea ECA, whose western limit in the English Channel stops well short of the Irish Sea, so ships here may burn 0.50% sulphur fuel at sea. In port the position is stricter: UK rules have required 0.10% sulphur fuel for ships at berth for two hours or more since 2010. A bigger change is fixed. The North-East Atlantic ECA, adopted by the IMO in 2026, enters into force on 1 September 2027 and brings the 0.10% limit to the waters off the UK's west coast from 1 September 2028. For owners with regular Mersey trades, that date now sits inside fuel and scrubber planning, and existing scrubber piping is worth checking with it in mind.",
+      "Port state control on the Mersey is the work of the Maritime and Coastguard Agency. Brexit did not change the UK's Paris MoU membership, only the legal basis, which is now British legislation rather than EU directives; older bulk carriers and general cargo ships in the docks are typical inspection candidates. For Irish Sea ferries the stronger driver is the annual refit, where class surveys, flag requirements and the operator's own maintenance plan meet in a short yard period, and accurate pre-docking gauging decides whether the steel renewal fits the slot. Ferries trading between the Mersey and Dublin also have half of each voyage counted under the EU ETS, which keeps fleet-renewal decisions under scrutiny."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Liverpool",
+    "p": "Liverpool's work splits between in-service gauging in the docks and full scopes at the Birkenhead yard. Bulk carriers and general cargo ships discharging in the enclosed docks are the commonest in-service jobs; ferries and other vessels in drydock make up the yard work. In both cases we plan around the locks, the tide and the cargo plan, and agree the TM plan with the class surveyor before the team arrives.",
+    "list": [
+      "ESP gauging on a bulk carrier approaching its third renewal survey, carried out in the enclosed docks while holds are discharged in turn, ahead of the ship's docking.",
+      "Annual refit gauging on an Irish Sea ro-pax ferry in drydock at Birkenhead: vehicle-deck plating, ramp structure, ballast tanks and sea-water piping.",
+      "Pre-purchase condition gauging of a general cargo ship lying in the docks between charters, focused on hold frames, tank top and hatch covers.",
+      "Scrubber wash-water and overboard piping UT on a container ship at Liverpool2, timed for a short window during cargo operations.",
+      "Deck, vent-pipe and cargo piping gauging on a crude tanker at Tranmere, giving the manager evidence ahead of a vetting inspection."
+    ]
+  },
+  "logistics": "Manchester Airport is the main international gateway for Mersey jobs, with Liverpool John Lennon Airport closer to the docks for European connections; the team continues by road to the berth. The docks, Liverpool2, Tranmere and the Birkenhead yard each have ISPS-controlled access, and the ship's agent or the yard arranges passes in advance. Ships in Liverpool Bay are reached by launch through the agent. The team travels from India on UK visas, so for yard jobs we fix dates with the shipyard as soon as the docking slot is confirmed.",
+  "vessels": [
+    "Bulk carriers",
+    "Container ships",
+    "Ro-pax ferries",
+    "General cargo and project ships",
+    "Crude tankers",
+    "Product and chemical tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Can a bulk carrier's renewal gauging be done in the Liverpool docks before drydocking?",
+      "a": "Often a large part of it can. In the enclosed docks a bulk carrier lies steady while holds are discharged one after another, which gives time to gauge frames, hopper plating and tank top as each hold empties. Ballast tanks must be cleaned, ventilated and certified safe for entry by the crew. Doing this before docking shortens the yard's own survey work and fixes the steel list early."
+    },
+    {
+      "q": "Do you carry out drydock gauging at Birkenhead?",
+      "a": "Yes, when the owner or manager engages us for a ship docked there. The team arrives for the docking period, the superintendent arranges access and staging with the yard's planners, and gauging follows the agreed TM plan with the class surveyor attending as required. Readings showing substantial or excessive corrosion are marked on the structure so the yard can scope renewal while the ship is still in dock."
+    },
+    {
+      "q": "How will the North-East Atlantic ECA affect scrubber piping inspection for Mersey trades?",
+      "a": "Liverpool is outside any ECA today, but from 1 September 2028 the 0.10% sulphur limit applies in the waters off the UK's west coast. Scrubber-fitted ships trading regularly into the Mersey will rely on their systems more heavily from then on, so knowing the wall thickness of wash-water and overboard lines now gives time to renew sections in a planned yard stay."
+    },
+    {
+      "q": "What about ships waiting at anchor in Liverpool Bay?",
+      "a": "Ships at anchor waiting for the tide or a berth can be gauged from a launch arranged by the agent, weather permitting. The Irish Sea can be lively, so anchorage work suits short, focused scopes such as deck plating, air and vent pipes and accessible tanks; a full tank programme is better done once the ship is alongside and steady in the enclosed docks."
+    }
+  ],
+  "nearby": ["belfast", "dublin", "milford-haven", "cork"]
+}

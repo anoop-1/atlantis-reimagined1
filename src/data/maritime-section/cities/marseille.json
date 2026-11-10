@@ -1,0 +1,110 @@
+{
+  "slug": "marseille",
+  "name": "Marseille",
+  "country": "France",
+  "region": "europe",
+  "title": "Ultrasonic Thickness Measurement Marseille-Fos | Ship UTM",
+  "description": "Thickness measurement in Marseille and Fos for tankers, LNG carriers, ferries and cruise ships: Forme 10 docking gauging, CAP and scrubber piping checks.",
+  "h1": "Ship Thickness Measurement in Marseille and Fos-sur-Mer",
+  "intro": "Marseille-Fos combines two very different harbours: the city basins, with Corsica and North Africa ferries, cruise ships and the Forme 10 repair docks, and the industrial basins at Fos and Lavéra, where crude, product and LNG tankers, container ships and bulk carriers berth. Superintendents call us for docking-survey gauging in Marseille, CAP and vetting-driven gauging on tankers, and scrubber piping checks now that the Mediterranean ECA is in force. For every job a team is mobilised from India to Marseille or Fos.",
+  "keywords": [
+    "thickness measurement in marseille",
+    "ship thickness measurement in marseille",
+    "utm thickness gauging in marseille",
+    "ultrasonic thickness gauging at fos",
+    "cap gauging at fos",
+    "scrubber piping inspection in marseille",
+    "hull inspection in marseille",
+    "lng carrier thickness measurement",
+    "forme 10 drydock gauging",
+    "tanker utm fos-sur-mer"
+  ],
+  "highlights": [
+    {
+      "h": "Forme 10 cruise and ferry dockings",
+      "p": "Large cruise ships and ferries dock at the Chantier Naval de Marseille's Forme 10. Gauging planned into the yard programme gives tank-by-tank readings while renewal decisions can still be made in dock."
+    },
+    {
+      "h": "Tanker work at Fos and Lavéra",
+      "p": "Crude, product and LNG tankers waiting at the Fos anchorage arrive laden with empty ballast tanks, which is the right moment for ballast-tank gauging ahead of CAP, vetting or class surveys."
+    },
+    {
+      "h": "Mediterranean ECA scrubber piping",
+      "p": "Since 1 May 2025 the whole Mediterranean has been a SOx ECA. Scrubber-fitted ferries and cruise ships now work to the ECA standard on every crossing, which puts wash-water and overboard piping under closer watch."
+    }
+  ],
+  "port": {
+    "h": "Marseille-Fos: the port and its shipping",
+    "p": [
+      "The Grand Port Maritime de Marseille, branded Marseille Fos, is France's main Mediterranean port and works as two separate harbours some distance apart along the coast. The eastern basins in the city handle the passenger and short-sea trades: ferries and ro-pax ships to Corsica, Sardinia, Algeria and Tunisia, a heavy cruise programme with both port calls and turnarounds, and ro-ro services across the western Mediterranean. The city harbour also holds the ship-repair docks, which is where most of Marseille's in-dock gauging is done.",
+      "The western basins at Fos-sur-Mer, on the Gulf of Fos, are the industrial port. Container terminals serve deep-sea and Mediterranean services, dry-bulk quays bring ore and coal to the steelworks, and the oil berths at Fos and Lavéra supply the refineries and petrochemical plants around the Étang de Berre. The LNG terminals at Fos, Fos Cavaou among them, receive LNG carriers. Crude tankers, product and chemical tankers and LNG carriers therefore share the approaches with container ships and large bulk carriers, and many of them wait at the Fos anchorage for a berth.",
+      "Gauging windows at Marseille-Fos come from three directions. Cruise ships and ferries come into the city's repair docks for scheduled dockings, and that is when renewal-survey gauging and close-up survey support are planned, alongside the yard's own work. Tankers and LNG carriers are worked at their berths within terminal rules or, more usefully, while waiting at the Fos anchorage, where a laden ship's empty ballast tanks and its deck structure can be gauged by a launch-served team. The third source is the scrubber fleet: since the Mediterranean ECA took effect, ships burning high-sulphur fuel must keep their scrubbers in ECA mode for the whole Mediterranean passage, which keeps wash-water and overboard piping under heavier duty than it saw when the basin only required 0.50% sulphur."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations in Marseille, Fos and Lavéra",
+    "p": [
+      "In the city, the Chantier Naval de Marseille operates the repair docks, including Forme 10, one of the largest dry docks in the Mediterranean and the dock used for large cruise ship dockings. A docking at Forme 10 is the best gauging opportunity in the port: tanks are opened, staging goes up for the yard's own work, and the gauging can run alongside blasting and steelwork in the same programme. The ferry and cruise berths are used for repair afloat between voyages, but turnarounds are short and passenger operations take priority, so gauging there is limited to machinery spaces, tanks the chief engineer can release and exposed decks.",
+      "At Fos and Lavéra the work is tanker and bulk work. Terminal safety rules govern what can be done at the berth: ballast-tank entry during cargo operations needs the terminal's agreement and a valid permit, so many owners prefer to gauge at the anchorage while the ship waits. Container ships at the Fos terminals are handled like other short calls, with ballast tanks and deck structure first. The mistral matters here. The north-westerly wind that funnels down the Rhône valley can stop launch transfers at the Fos anchorage for days at a time, so gauging plans for anchored ships carry a weather allowance."
+    ],
+    "list": [
+      "Forme 10, Chantier Naval de Marseille — renewal-survey and docking gauging on cruise ships, ferries and large merchant ships, worked in step with the yard's blasting and steel programme.",
+      "Other repair docks and repair quays in the city basins — gauging on ro-pax ferries and smaller ships during dockings and repair afloat between sailings.",
+      "Ferry and cruise berths in the eastern basins — short-window gauging of vehicle decks, ramps, machinery-space tanks and scrubber piping during turnarounds.",
+      "Lavéra and Fos oil berths — ballast-tank and deck gauging on crude, product and chemical tankers within the terminal's permit-to-work rules.",
+      "LNG terminals at Fos — LNG carrier thickness measurement in ballast tanks and hull structure, coordinated with the terminal's gas-safety requirements.",
+      "Fos anchorage — launch-served gauging on tankers and bulk carriers waiting for a berth, with a weather allowance for the mistral.",
+      "Fos container and dry-bulk terminals — ballast-tank, hatch coaming and hopper tank gauging on container ships and ore or coal carriers during their calls."
+    ]
+  },
+  "context": {
+    "h": "Mediterranean ECA, port state control and the Marseille shipping cluster",
+    "p": [
+      "The Mediterranean Sea SOx ECA took effect on 1 May 2025, bringing the 0.10% sulphur limit to the whole basin. Ferries and cruise ships out of Marseille that met the global 0.50% cap by running scrubbers now need them to meet the stricter ECA-equivalent emission ratio on every crossing, and the wash-water system, the overboard valves and the shell penetration downstream of them deserve a place on the docking specification. Ships without scrubbers simply burn compliant fuel, so the piping question belongs to the scrubber fleet alone.",
+      "France applies port state control under the Paris MoU, so ships calling at Marseille-Fos fall under the same risk-based targeting as those at any northern European port, and the EU ETS (since 2024) and FuelEU Maritime (since 2025) apply to calls here as at any EU port. Marseille is also a shipping headquarters city: the CMA CGM group has its head office here, and the ferry operators running the Corsica, Sardinia and North Africa routes work from the port. For tankers, vetting is the other driver. Charterers and oil-major vetting often ask for CAP on tankers over about 15 years, and the gauging for it can be split between a Fos call and a docking. Tankers at Lavéra and Fos fall under the ESP Code, with IACS UR Z10.4 for double-hull oil tankers and Z10.3 for chemical tankers setting the gauging extent at each renewal survey."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Marseille and Fos",
+    "p": "Jobs at Marseille-Fos split between planned dockings in the city and opportunistic work on the industrial side, where a ship's waiting time at anchor is the window. For a docking we work from the yard's schedule and the class's requirements; for an anchored tanker, from the ETA, the berth line-up and the weather forecast. Ultrasonic thickness gauging at Fos and in the city typically covers:",
+    "list": [
+      "Renewal-survey gauging and close-up survey support on a cruise ship in Forme 10, with readings taken as tanks are opened and staging is rigged for the yard's steelwork.",
+      "Gauging of scrubber wash-water, discharge and overboard piping on a ro-pax ferry during a short repair period between Corsica crossings.",
+      "CAP gauging at Fos on a crude tanker over 15 years old, starting with ballast tanks at the anchorage and continuing in cargo tanks at the docking yard after gas-freeing.",
+      "Ballast-tank, cofferdam and deck gauging on a laden LNG carrier waiting to berth at Fos, giving early readings ahead of its intermediate survey.",
+      "Hopper and topside ballast-tank gauging on a bulk carrier discharging ore for the Fos steelworks, with hold readings once the holds are clear, ahead of its third renewal survey."
+    ]
+  },
+  "logistics": "The team flies into Marseille Provence Airport at Marignane, which sits between the city basins and Fos, so both sides of the port are reached by road. The ship's agent arranges ISPS gate passes for the terminals and the repair yard, and launch boats for ships at the Fos anchorage; launches are weather-dependent when the mistral blows. France is in the Schengen area, so each technician travels on a Schengen visa obtained in India before departure. For a Forme 10 docking we apply as soon as the yard slot is confirmed; for anchored tankers we plan around the berth line-up and keep the flight flexible.",
+  "vessels": [
+    "Cruise ships",
+    "Ro-pax ferries",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "LNG carriers",
+    "Container ships",
+    "Bulk carriers",
+    "Ro-ro ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can gauging run alongside the yard's work during a Forme 10 docking?",
+      "a": "Yes, and that is the most efficient way to do it. We agree the sequence with the superintendent and the yard: tanks are gauged as soon as they are opened and ventilated, and the yard's staging is used, where the yard allows, for side shell and internal structure before blasting or steel renewal starts. Readings are reported tank by tank so renewal decisions can be made while the ship is still in dock."
+    },
+    {
+      "q": "Has the Mediterranean ECA changed scrubber piping inspection in Marseille?",
+      "a": "It has raised the stakes. Since 1 May 2025 a scrubber-fitted ship must meet the ECA-equivalent emission ratio throughout the Mediterranean, so on ships that trade only inside the basin the system now works to the ECA standard on every crossing. We gauge wash-water supply and discharge lines, bends, reducers and the overboard spool, and record readings at fixed points so the next survey shows the trend."
+    },
+    {
+      "q": "Can you gauge a tanker at Lavéra or Fos while it is discharging?",
+      "a": "Ballast tanks, void spaces and deck structure can sometimes be gauged at the berth, but only with the terminal's agreement and the ship's permit-to-work, and never in cargo tanks during cargo operations. In practice many owners schedule the work at the Fos anchorage before berthing, while the ship is laden and its ballast tanks are empty, which gives uninterrupted access and keeps the terminal's safety rules out of the critical path."
+    },
+    {
+      "q": "How does the mistral affect hull inspection in Marseille and at the Fos anchorage?",
+      "a": "A strong mistral can stop launch transfers and make ladder access and work on exposed decks unsafe. We build a weather allowance into the plan for anchored ships, keep internal tank work for the windiest periods once the team is on board, and agree with the agent in advance how the technicians will get ashore if the wind rises while they are still on the ship."
+    }
+  ],
+  "nearby": ["genoa", "barcelona", "la-spezia", "valencia"]
+}

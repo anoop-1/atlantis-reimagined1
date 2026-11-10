@@ -1,0 +1,112 @@
+{
+  "slug": "palermo",
+  "name": "Palermo",
+  "country": "Italy",
+  "region": "europe",
+  "title": "Palermo UTM: Ship Thickness Gauging and Hull Inspection",
+  "description": "Ultrasonic thickness measurement in Palermo for ferries and cruise ships in drydock or alongside: renewal survey gauging, pre-docking and hull structure.",
+  "h1": "Ship Thickness Gauging and Hull Inspection in Palermo",
+  "intro": "Palermo is where Sicily's ferry links to the mainland, Sardinia and Tunisia meet a shipyard able to dock ferries, ro-pax ships and cruise ships. Superintendents bring ships here for renewal surveys, conversions and refits, and use the daytime layovers of overnight ferries for shorter inspections. Atlantis NDT brings a thickness gauging team from India for both kinds of work, scheduled around the docking plan or the ship's timetable.",
+  "keywords": [
+    "palermo utm",
+    "ultrasonic thickness measurement in palermo",
+    "hull inspection in palermo",
+    "ship repair in palermo",
+    "renewal survey gauging",
+    "ferry thickness gauging",
+    "thickness measurement in palermo",
+    "utm sicily",
+    "palermo drydock thickness measurement",
+    "ship inspection sicily"
+  ],
+  "highlights": [
+    {
+      "h": "A shipyard inside the ferry port",
+      "p": "Fincantieri's Palermo yard repairs, refits and converts ferries, ro-pax ships and cruise ships in its own drydocks, so docking-period gauging and pre-conversion measurement happen a short walk from the passenger quays."
+    },
+    {
+      "h": "Daytime layovers of overnight ferries",
+      "p": "Ro-pax ships arriving from Naples or Genoa in the morning lie alongside until the evening sailing, giving repeated windows to gauge vehicle decks, ramps and ballast tanks ahead of a docking."
+    },
+    {
+      "h": "One port system across western Sicily",
+      "p": "Termini Imerese, Trapani and Porto Empedocle share Palermo's port authority, so ro-ro, ferry and cargo ships elsewhere on the island can be added to the same mobilisation when owners need them."
+    }
+  ],
+  "port": {
+    "h": "The port of Palermo and its ferry, cruise and repair traffic",
+    "p": [
+      "Palermo is the main port of the Western Sicilian Sea port system, which also includes Termini Imerese, Trapani and Porto Empedocle. Its harbour sits directly against the city, and its traffic is dominated by passengers and vehicles: overnight ro-pax services to Naples, Genoa, Civitavecchia, Livorno and Salerno, links to Cagliari and Tunis, ferries and fast craft to Ustica and, in season, the Aeolian Islands, and a steady cruise programme at the Stazione Marittima. Ro-ro cargo services carry trailers and Sicilian produce to mainland ports.",
+      "What sets Palermo apart from other ferry ports is the Fincantieri shipyard inside the harbour, which carries out ship repair and conversion work in its own drydocks alongside its shipbuilding activity. Ferries, ro-pax ships and cruise ships come here for dockings, refurbishments and conversions, and these projects involve exactly the kind of steel renewal planning that thickness gauging supports: measuring before the docking to estimate renewal, measuring during the docking for the class survey, and re-measuring after repairs. Conversion work, where a ship's structure is modified or extended, adds gauging of the areas to be cut into or reinforced.",
+      "The overnight ferry pattern gives Palermo a second kind of inspection window. Ro-pax ships arriving from Naples or Genoa in the morning lie alongside through the day before sailing again in the evening, and their vehicle decks are often empty and accessible for hours. That is enough time to gauge a ramp, a section of vehicle deck or a group of ballast tanks, and over successive calls an owner can build a full picture of an older ferry before committing it to a docking or a sale. Thickness measurement in Palermo on these ferries is therefore often cumulative, built up call by call. Cruise ships, by contrast, give a single turnaround day, and the gauging scope is chosen to match."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in the port of Palermo",
+    "p": [
+      "Ship repair in Palermo centres on the Fincantieri yard, whose drydocks give full access to the bottom shell, sea chests, rudder and stern areas and to double-bottom tanks once they are cleaned and certified gas-free. During a docking the gauging team works to the yard programme: readings are taken before blasting so that original surfaces are measured, and the results feed the steel renewal decisions that the owner and the surveyor make in the first days of the stay, when the yard's steel gangs are being allocated. After undocking, ships often stay at the repair quays to finish refit work, which gives time to re-gauge renewed areas.",
+      "Outside the yard, gauging is done at the ferry and cruise berths. The passenger quays handle the overnight ro-pax ships, ro-ro cargo services and the cruise programme, and access is by ISPS pass through the agent. Termini Imerese, east along the coast and part of the same port system, handles ro-ro and general cargo, and Trapani serves the western islands; both can be added to a Palermo mobilisation when an owner has ships in more than one Sicilian port in the same week."
+    ],
+    "list": [
+      "Fincantieri Palermo shipyard — drydock gauging of bottom shell, sea chests, stern structure and double-bottom tanks during repair, refit and conversion projects",
+      "Repair quays of the Fincantieri yard — afloat gauging of tanks, decks and internal structure while ships complete refit work after undocking",
+      "Ro-pax ferry berths — overnight ferries in from the mainland, alongside until the evening, with vehicle decks, ramps and ballast tanks open for gauging",
+      "Stazione Marittima cruise berths — turnaround-day gauging of exhaust gas cleaning piping, void spaces and items carried over from the previous survey",
+      "Termini Imerese — ro-ro and general cargo ships in the same port system east of Palermo, combined with Palermo work in a single mobilisation",
+      "Trapani — ferries and fast craft serving the Egadi Islands and Pantelleria, and cargo ships at the western end of the port system"
+    ]
+  },
+  "context": {
+    "h": "Port state control, emissions and the Sicilian ferry market",
+    "p": [
+      "Palermo's port state control inspections follow the Paris MoU system used throughout Italy. Ferries and fast craft on scheduled Sicilian routes face an additional layer, the EU's dedicated inspection regime for passenger ships in regular service, so structural deficiencies on a Palermo ferry tend to surface quickly. From 1 May 2025, when the Mediterranean SOx ECA entered into force, the Tyrrhenian and the Sicily Channel became 0.10% sulphur waters for any ship without an equivalent exhaust gas cleaning system. Ro-pax ships and cruise ships fitted with scrubbers therefore run them on every crossing, so their wash-water and overboard piping sees more running hours and deserves regular wall-thickness checks.",
+      "Sicily depends on its sea links, and some of the ships serving them are older tonnage working intensive schedules. For their owners the questions are practical: whether the next renewal survey can be passed with planned steel work, whether a conversion or lengthening is worth doing, or whether the ship should be sold. EU ETS since 2024 and FuelEU Maritime since 2025 add a carbon dimension to those questions for the larger ships. Gauging records taken in Palermo, where the yard and the trading pattern are both at hand, are the factual starting point for each of those decisions."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Palermo",
+    "p": "Palermo work comes in two shapes: full programmes during dockings, refits and conversions at the shipyard, and short, repeated inspections on ferries lying alongside between sailings. We plan the first around the yard schedule and the class survey, and the second around the ship's timetable, with each visit covering a defined block of spaces and all readings compiled into one report.",
+    "list": [
+      "Renewal survey gauging on a ro-pax ferry in a Palermo drydock, covering bottom shell, vehicle decks, ballast tanks and sea chests, with renewal areas marked for the yard",
+      "Gauging of structure to be modified during a ferry conversion at the Fincantieri yard, so the design team works from measured rather than as-built thicknesses",
+      "Pre-docking ferry thickness gauging during an overnight ferry's daytime layover in Palermo, spread over several calls before its scheduled docking",
+      "Cruise ship in refit at the Palermo shipyard: wall-thickness readings along the scrubber wash-water lines down to the shell outlet, taken while the system is shut down",
+      "Off-hire condition gauging on a chartered ro-ro cargo ship at the end of a Sicily–mainland charter, documenting steel condition for both parties"
+    ]
+  },
+  "logistics": "Palermo Falcone Borsellino Airport, west of the city, has domestic and European connections, with long-haul arrivals routed through Rome or Milan. The shipyard and the passenger quays are both inside the port, so equipment moves easily between a docked ship and a ferry alongside. The ship's agent or the yard arranges ISPS access and site induction. The team flies in from India on Schengen visas. Docking and conversion slots at the yard are normally fixed well ahead, which leaves time for visas, while ferry layover work needs dates confirmed as soon as the operator's schedule is known.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Cruise ships",
+    "Ro-ro cargo ships",
+    "High-speed passenger craft",
+    "General cargo ships",
+    "Ships in conversion or refit"
+  ],
+  "faqs": [
+    {
+      "q": "Can you work inside the Fincantieri yard in Palermo during a docking?",
+      "a": "Yes, as a contractor to the owner, working under the yard's site rules and permit system. The yard or the agent arranges site access and induction, and we coordinate the gauging sequence with the yard's planner: original surfaces first, before blasting, and results ready when the owner and surveyor agree the renewal list."
+    },
+    {
+      "q": "What can be gauged on a ferry during a daytime layover in Palermo?",
+      "a": "Usually a defined block: a vehicle deck section, a ramp and its supporting structure, or a group of ballast tanks that the crew can ventilate and make safe. Over several layovers that adds up to a substantial programme. We agree the sequence with the superintendent so that every visit has a clear target and the readings come together in one report."
+    },
+    {
+      "q": "Why gauge a ferry before a conversion?",
+      "a": "Because conversion design is only as good as the thicknesses it assumes. Ferry structure that has been in service for years may have lost metal in places the drawings do not show. Gauging the areas to be cut, reinforced or extended gives the designers and the surveyor measured values, and shows early whether extra renewal belongs in the project scope."
+    },
+    {
+      "q": "Do you cover other Sicilian ports from Palermo?",
+      "a": "Yes. Termini Imerese and Trapani are in the same port system and reachable by road, and the team can travel further within Sicily when a ship is elsewhere on the island. Tell us each ship's location and schedule when you enquire, and we will sequence the work within one mobilisation."
+    }
+  ],
+  "nearby": [
+    "naples",
+    "malta",
+    "genoa",
+    "la-spezia"
+  ]
+}

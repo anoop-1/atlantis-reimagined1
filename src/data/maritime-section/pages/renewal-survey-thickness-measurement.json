@@ -1,0 +1,167 @@
+{
+  "slug": "renewal-survey-thickness-measurement",
+  "navLabel": "Renewal survey gauging",
+  "title": "Renewal Survey Thickness Measurement | Special Survey UTM",
+  "description": "Thickness measurement for ship renewal (special) surveys at 5, 10, 15, 20 and 25 years, intermediate surveys and pre-docking steel renewal estimates.",
+  "h1": "Thickness Measurement for Renewal (Special) Surveys and Intermediate Surveys",
+  "eyebrow": "Maritime inspection",
+  "intro": "Every five years a ship's renewal survey, still widely called the special survey, measures how much steel the hull has lost and decides how much must be renewed before class continues into the next cycle. The gauging grows with each survey, and from the third renewal onwards it usually drives the size of the yard bill. Atlantis NDT mobilises thickness measurement teams from India for renewal and intermediate surveys and, months earlier, for pre-docking gauging that tells the owner what steel renewal to expect before the yards quote.",
+  "highlights": [
+    {
+      "h": "Steel scope known before yards quote",
+      "p": "Pre-docking gauging identifies plates and members at or beyond allowable diminution, so the repair specification sent to yards describes real steel work instead of an open-ended allowance to be settled once the tanks are open."
+    },
+    {
+      "h": "Gauging early in the docking",
+      "p": "Readings are needed in the first days of a docking, before blasting, painting and steel work compete for access. Arrival is planned around tank cleaning, gas-freeing and the yard's staging programme."
+    },
+    {
+      "h": "Mobilisation timed to the slot",
+      "p": "Drydock slots are fixed months ahead, and a team mobilised from India plans visas and travel to match. Share the yard, the docking window and the class early, and the team arrives when gauging can start."
+    }
+  ],
+  "sections": [
+    {
+      "id": "survey-cycle",
+      "h": "The hull survey cycle: annual, intermediate, docking and renewal surveys",
+      "p": [
+        "Class keeps a ship's hull on a five-year cycle. Annual surveys fall within a window around each anniversary date; an intermediate survey takes the place of the second or third annual survey; the bottom is examined at docking surveys twice in each five-year period, one of them with the renewal survey; and the renewal survey closes the cycle. It may be commenced at the fourth annual survey and progressed through the following year to completion by the fifth anniversary. Under the general hull survey requirements, work started earlier is credited only if the whole survey is completed within 15 months.",
+        "The table summarises what each survey typically asks of thickness measurement. The unified requirements set minimums; the surveyor extends them wherever findings warrant, the survey programme adds suspect and critical areas on ESP ships, and the detail differs between general cargo ships and ESP tankers and bulk carriers. Under the ESP requirements, the same survey and thickness measurement of a space cannot be credited to both an intermediate and a renewal survey."
+      ],
+      "table": {
+        "head": ["Survey", "When", "Thickness measurement it typically involves"],
+        "rows": [
+          ["Annual survey", "Every year, within a window around the anniversary date", "Little or none on young ships. Later, readings where the surveyor examines ballast tanks under annual examination, and on CSR ships the follow-up of substantial corrosion areas"],
+          ["Intermediate survey", "In place of the second or third annual survey", "Suspect areas and ballast tanks examined, widening with age; on ESP ships from about ten years, the scope of the previous renewal survey"],
+          ["Docking survey", "Twice in each five-year period, one with the renewal survey", "No fixed extent of its own; bottom and side shell readings where the surveyor's examination calls for them"],
+          ["First renewal survey", "About 5 years", "Mainly suspect areas; on ESP ships, also readings for the general assessment of structure under close-up survey"],
+          ["Second renewal survey", "About 10 years", "Transverse sections appear, starting with deck plating amidships; on ESP ships, wind-and-water strakes in way of them and wider internal readings"],
+          ["Third renewal survey", "About 15 years", "A clear step up: more transverse sections and peak tank internals; on ESP ships each deck plate in the cargo area, wind-and-water strakes across the cargo length and extensive gauging of cargo and ballast tank structure"],
+          ["Fourth renewal survey", "About 20 years", "The widest routine extent: further transverse sections, bottom and keel plating, full-length wind-and-water strakes, exposed decks, hatch covers and coamings, bulkhead lower strakes, sea chests and shell plating at overboard discharges"],
+          ["Fifth renewal survey and later", "About 25 years onwards", "At least the fourth survey's extent, with suspect areas and substantial corrosion carried forward and gauging extended wherever wastage is found"]
+        ]
+      }
+    },
+    {
+      "id": "five-and-ten-year-surveys",
+      "h": "The 5-year and 10-year surveys: building the baseline",
+      "p": [
+        "At the first renewal survey most hulls are close to their as-built condition, and gauging is limited to suspect areas and the structure under close-up survey. It is tempting to treat the 5-year survey lightly. It is also the easiest moment to fix reference points: a modest number of well-documented readings in ballast tanks and at the frame positions later surveys will use gives every future TM report something to compare against.",
+        "By the 10-year survey, ballast tank coatings are usually breaking down at edges, welds and areas of mechanical damage, and transverse sections enter the gauging. The TM report from this survey is the baseline from which the 15-year steel is predicted: dividing the diminution at each point by the ship's age gives a local corrosion rate which, projected forward, shows which members will reach the substantial corrosion band or the renewal limit by the next survey. Owners who add their own readings in ballast tanks and likely renewal areas go into the 15-year docking with a forecast instead of a guess."
+      ]
+    },
+    {
+      "id": "fifteen-and-twenty-year-surveys",
+      "h": "Why the 15-year and 20-year surveys are the expensive ones for steel renewal",
+      "p": [
+        "Three things coincide at the third renewal survey. Coatings come first: the IMO performance standard for ballast tank coatings, made mandatory by SOLAS regulation II-1/3-2, is built around a target useful life of 15 years, and ships built before it applied may lose their original coating sooner. Once coating has gone, corrosion accelerates in the warm, wet, cycling environment of a ballast tank. Margins come second, because fifteen years of general wastage has consumed much of the allowable diminution on members built with modest corrosion additions. Extent comes third: the gauging widens sharply, so diminution that existed at ten years but was never measured is now recorded and has to be dealt with.",
+        "The fourth renewal survey compounds all three. Bottom plating and wind-and-water strakes are gauged far more completely, more transverse sections are taken, and the substantial corrosion found at fifteen years has had five more years to progress. The steel renewed at the 20-year survey is frequently the largest quantity of the ship's life, and it concentrates in predictable places: on tankers, under-deck structure in cargo tanks and the webs, brackets and longitudinals of ballast tanks; on bulk carriers, hold frames and brackets, topside and hopper tank structure, hatch coamings and corrugated bulkheads with their stools; on container and general cargo ships, double-bottom and side ballast tanks and hatch covers.",
+        "The yard's steel invoice is only part of the burden. Steel found late extends the docking, and the extra days off hire can matter more to the owner than the steel itself. That is the argument for knowing the scope before the ship arrives."
+      ]
+    },
+    {
+      "id": "twenty-five-year-survey",
+      "h": "The 25-year survey and later: renew, sell or recycle",
+      "p": [
+        "By the fifth renewal survey the question is commercial as much as technical. Gauging covers at least the extent of the fourth survey, with every suspect area and substantial corrosion finding carried forward, and the surveyor extends it wherever wastage appears. For many owners the gauging result decides whether the ship is worth another five-year cycle, whether it should be sold before the survey, or whether it goes for recycling. A credible steel estimate before that decision, rather than after the yard has opened the tanks, lets the owner make it on facts. Charterers' age policies and requests for a Condition Assessment Programme rating usually weigh in at the same moment; the CAP page covers that side."
+      ]
+    },
+    {
+      "id": "pre-docking-gauging",
+      "h": "Pre-docking gauging and the steel renewal estimate",
+      "p": [
+        "Pre-docking gauging is the owner's own thickness measurement, taken months before the docking at a berth, at anchorage or during a lay-by. It concentrates on the structure most likely to need renewal: ballast tanks, accessible cargo holds and, on tankers, cargo tanks that have been cleaned and gas-freed; decks, hatch covers and coamings; side shell above the waterline; and targeted transverse sections. It is not credited to the renewal survey and needs no class approval, but it follows the same method and reporting standard, so the yard and the surveyor can compare it directly with what they find later.",
+        "The output is a steel renewal estimate: the plates and members at or beyond allowable diminution, those in the substantial corrosion band whose trend suggests they will cross the limit before the survey, and marked-up drawings showing where they are. Each item carries its dimensions and original thickness, so the superintendent or the yard can calculate steel weight. The estimate becomes the steel section of the repair specification, which means the yards' quotations describe the same work and can be compared, and steel of the right grades and thicknesses, with the certificates the society will ask for, can be ordered before the ship arrives.",
+        "An estimate remains an estimate. External bottom plating, upper structure that needs staging, and tanks that cannot be cleaned in service are often out of reach before docking. The report lists what was not gauged and suggests how to allow for it, and the class gauging in the yard may still find more. Planning against a known core of renewal, with an allowance for the unseen remainder, is still far better than planning against nothing."
+      ]
+    },
+    {
+      "id": "planning-around-drydock",
+      "h": "Planning thickness measurement around the drydock slot",
+      "p": [
+        "Slots at well-regarded repair yards are booked months ahead, and a renewal survey docking is the least movable item in a ship's maintenance calendar. Thickness measurement planning should start when the slot is booked, not when the ship sails for the yard. A sequence that works:",
+        "Mobilising from India is planned work, and that suits renewal surveys, because the docking date is known well in advance and visas and travel can be arranged against it. What it suits less is a slot that moves at short notice, so tell us when the date is firm and again if it changes."
+      ],
+      "list": [
+        "Review survey status with the society: due dates, outstanding conditions of class, and suspect areas and substantial corrosion from the last TM report",
+        "For ESP ships, agree the survey programme, which identifies the thickness measurement firm",
+        "Carry out pre-docking gauging and issue the steel renewal estimate to the superintendent",
+        "Send the repair specification, with its steel section, to the shortlisted yards",
+        "Confirm the yard gauging team, approved by the ship's class where readings are to be credited, and start visas and travel",
+        "Gauge in the first days of the docking, with daily results so steel decisions are made while the yard is still planning its work"
+      ]
+    },
+    {
+      "id": "intermediate-survey",
+      "h": "Intermediate survey thickness measurement",
+      "p": [
+        "The intermediate survey sits between renewal surveys and is easy to underestimate. Under the general hull survey requirements, ships between five and ten years have representative ballast tanks examined and ships over ten years have all ballast spaces examined, with cargo spaces added on some older ships; gauging follows the surveyor's findings and any substantial corrosion carried forward. On ESP ships the scope widens much further from about ten years, as the enhanced survey programme page explains. On older double-hull tankers the rules allow the intermediate survey to be started at the second annual survey and completed by the third, which lets an owner spread the gauging over two port calls instead of one."
+      ]
+    },
+    {
+      "id": "class-credited-and-owner-gauging",
+      "h": "Class-credited renewal survey gauging and owner's gauging",
+      "p": [
+        "Readings credited to a renewal or intermediate survey must come from a firm that the ship's own classification society has approved under IACS UR Z17, taken with that society's surveyor attending; name the class in your enquiry and the scope will be set on that basis. Pre-docking gauging, the owner's steel renewal estimate, pre-purchase inspection of a ship approaching survey age, and on-hire or off-hire condition gauging are owner's work and need no class approval. Many owners use both: an owner's estimate months ahead, then class-credited gauging in the yard, measured to the same standard so the two can be compared point by point."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull surveys (general hull survey requirements)",
+    "IACS UR Z10.1 to Z10.5 – ESP hull surveys of oil tankers, bulk carriers, chemical tankers and double-hull and double-skin designs",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "SOLAS regulation II-1/3-2 – Protective coatings for ballast tanks (IMO PSPC)",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Pre-docking steel renewal estimate with marked-up drawings",
+    "Table of members to renew, with location, dimensions and original thickness",
+    "List of members in the substantial corrosion band, with trend against previous reports",
+    "Thickness measurement report on the IACS forms for the ship type",
+    "Sketches with point numbering carried forward from earlier surveys",
+    "Daily results during the docking, with readings beyond limits flagged",
+    "List of areas not gauged before docking, with suggested allowances"
+  ],
+  "industries": [
+    "Crude oil, product and chemical tankers",
+    "Bulk carriers and ore carriers",
+    "Container ships",
+    "General cargo and multipurpose ships",
+    "Gas carriers",
+    "Ship owners, ship managers and superintendents",
+    "Ship-repair yards and drydocks",
+    "Buyers assessing ships near a renewal survey"
+  ],
+  "faqs": [
+    {
+      "q": "Is a renewal survey the same as a special survey?",
+      "a": "Yes. Renewal survey is the current IACS term and special survey the older one, still used across the industry in phrases such as special survey docking or 15-year special survey. Both mean the survey every five years that renews the ship's class for the next cycle, with the hull examination, close-up survey and thickness measurement extents that the ship's age and type require."
+    },
+    {
+      "q": "When should pre-docking gauging be done?",
+      "a": "Early enough for the steel estimate to go into the repair specification before yards quote, and close enough to the docking for the readings to represent the steel the yard will find. In practice that means several months ahead, timed to a port stay or lay-by when ballast tanks and, on tankers, cleaned cargo tanks can be entered safely. Gauging the areas the class gauging will cover makes the later comparison direct."
+    },
+    {
+      "q": "Can pre-docking readings be credited to the renewal survey?",
+      "a": "Only when they are taken as part of the renewal survey: by a firm approved by the ship's classification society, with its surveyor attending, within the period the rules allow for the survey. Owner's gauging taken earlier remains owner's information. It still has real value, because it sizes the steel work and lets the class gauging in the yard concentrate on confirming and extending it."
+    },
+    {
+      "q": "Why did our 15-year survey find so much more steel than the 10-year survey?",
+      "a": "Usually for three reasons together. The gauging extent widens sharply at the third renewal survey, so wastage that was never measured before is now recorded. Ballast tank coatings have often reached the end of their life. And fifteen years of general corrosion has used up much of the allowable margin. Trending the 10-year readings forward is the most reliable way to see it coming."
+    },
+    {
+      "q": "Do container ships and general cargo ships follow the same pattern?",
+      "a": "Broadly, yes. Under the general hull survey requirements the gauging extent also grows at each renewal survey, from suspect areas at the first to transverse sections, exposed deck plating, hatch covers and coamings, wind-and-water strakes and keel plating at the fourth. Planning is less prescribed than for ESP ships and less tank structure is gauged, but double-bottom ballast tanks and hatch covers still drive much of the steel work."
+    },
+    {
+      "q": "How do you turn the gauging into a steel weight?",
+      "a": "Each member to be renewed is reported with its location, dimensions and original thickness from the drawings, grouped by tank or area and marked on the plans. From that table the superintendent or the yard calculates weight in the usual way, adding their own allowances for brackets, inserts and cutting losses. Keeping the calculation with them means the figure in the yard's quotation is one they can stand behind."
+    },
+    {
+      "q": "What if the docking slot moves at short notice?",
+      "a": "Tell us as soon as it does. Because the team is mobilised from India, travel depends on visas and flights, so a date brought forward is harder to meet than one pushed back. Where the gauging is for class credit, the ship's survey window also matters, and the society can advise what flexibility exists. Early notice of a firm date remains the best protection for the schedule."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "felixstowe",
+  "name": "Felixstowe",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Ultrasonic Thickness Measurement Felixstowe | Ship UTM",
+  "description": "Thickness measurement at Felixstowe and Harwich: scrubber piping and hull structure on container ships, plus pre-docking gauging in short cargo windows.",
+  "h1": "Ultrasonic Thickness Measurement for Container Ships at Felixstowe",
+  "intro": "Felixstowe is Britain's busiest container port, and the ships that call are among the largest afloat, running Asia–Europe loops with tight berth windows. Gauging here is about doing useful work in the hours a ship is alongside: scrubber piping, upper-deck structure, accessible tanks, and the readings a manager needs to plan the next docking in Asia. A team flies in from India to meet the call, and can cover Harwich and Ipswich on the same trip where that suits the fleet.",
+  "keywords": [
+    "thickness measurement at felixstowe",
+    "ultrasonic thickness measurement for container ships",
+    "container ship inspection at felixstowe",
+    "scrubber pipe inspection",
+    "thickness gauging at harwich",
+    "pre-docking gauging",
+    "ship inspection in suffolk",
+    "lashing bridge inspection",
+    "hatch coaming gauging",
+    "utm for container ships uk"
+  ],
+  "highlights": [
+    {
+      "h": "Short windows, repeated rotations",
+      "p": "Container ships work cargo continuously and sail on time, but they return on a known rotation. We split larger scopes across consecutive calls and keep the same reference points so the readings from each visit line up."
+    },
+    {
+      "h": "Structure that matters on big boxships",
+      "p": "Hatch coamings, upper-deck longitudinals, lashing bridges and cell guides carry high stress and impact loads, so we combine UT for thickness with magnetic particle testing for cracks at welded connections."
+    },
+    {
+      "h": "Readings for the Asian docking",
+      "p": "Gauging at Felixstowe weeks before a docking in China or Southeast Asia lets the manager send real steel and pipe quantities to the yard, rather than allowances, and order long-lead spools in time."
+    }
+  ],
+  "port": {
+    "h": "Felixstowe, Harwich and the Haven ports",
+    "p": [
+      "The Port of Felixstowe, operated by Hutchison Ports, sits at the mouth of the Orwell and Stour opposite Harwich and handles the largest container ships trading between Asia and northern Europe, alongside feeder and short-sea services that distribute boxes around the UK, Ireland and the near Continent. Harwich International across the water runs Stena Line's ferry to the Hook of Holland and handles ro-ro freight, and Associated British Ports' Ipswich, further up the Orwell, takes grain, aggregates and other bulk cargoes. The Harwich Haven Authority manages the approaches and the deep-water channel the three ports share.",
+      "Large container ships at Felixstowe usually stay alongside for a day or two, working cargo continuously, and they return on a fixed rotation, so the next call is known well in advance. That makes the port a good place for repeated, planned visits rather than one long job: a superintendent can split a gauging scope across consecutive calls and know exactly when the ship will be back. Because many large container ships are drydocked at yards in China or elsewhere in Asia, the readings taken here often decide how much steel and pipe the yard is asked to include in its specification.",
+      "Container ship inspection at Felixstowe is distinctive because the structure that matters on a big boxship is not always where a bulk-carrier specialist would look first. Upper-deck longitudinals and hatch coamings carry high stress and are checked for both thickness and fatigue cracking; lashing bridges and cell guides suffer impact damage from container handling; scrubber casings and overboard lines on scrubber-fitted ships corrode from the inside; and the engine room holds long runs of sea-water piping. Ballast tanks matter too, but entering them during continuous cargo work needs careful planning with the chief officer, because ballast is part of how the ship stays upright and trimmed while boxes move."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging is done in the Haven ports",
+    "p": [
+      "At Felixstowe, the team boards through the terminal's ISPS gate and works while cranes are moving, which closes some areas and opens others. Hatch covers and coamings can be reached between crane moves on bays already worked; engine-room and scrubber piping is unaffected by cargo; and tanks can be entered when the chief officer's ballast plan allows one to be emptied and ventilated without affecting stability during cargo operations. Because the terminal is a busy working quay, the ship's officers and the terminal both need to know where the team is at all times.",
+      "Harwich and Ipswich offer different windows. Ro-ro and freight ships at Harwich work to timetables that a superintendent can plan around, and bulk carriers loading grain or discharging aggregates at Ipswich are often alongside long enough for holds and tanks to be gauged in sequence. Thickness gauging at Harwich and Ipswich can therefore go deeper into tank structure than a single container call allows. Ships waiting for a berth sometimes anchor off the Haven, which allows launch-borne access through the agent in suitable weather, although the southern North Sea can close that option quickly."
+    ],
+    "list": [
+      "Port of Felixstowe deep-sea berths — hatch coaming, upper-deck and lashing bridge inspection, plus scrubber and sea-water piping UT, during the cargo window.",
+      "Felixstowe feeder and short-sea berths — gauging on smaller container ships, which can include older ships approaching their renewal surveys.",
+      "Harwich International — ro-ro and freight ferry structure, vehicle decks and ramps, inspected around fixed sailing schedules.",
+      "Port of Ipswich — hold, hopper and tank gauging on bulk carriers loading grain or discharging aggregates over several days alongside.",
+      "Anchorages off the Haven — short launch-borne scopes on ships queued for a Felixstowe berth, called off quickly if the North Sea gets up."
+    ]
+  },
+  "context": {
+    "h": "Regulatory and market context for container ships calling at Felixstowe",
+    "p": [
+      "Felixstowe lies well inside the North Sea SOx Emission Control Area, so the ships here either burn 0.10% sulphur fuel or run scrubbers. Large container ships were widely fitted with exhaust gas cleaning systems, many of them around the start of the global 0.50% sulphur cap in 2020, and those systems have now been in service for several years. Wash-water and overboard piping, the scrubber casing and the overboard valve area are where wear shows first, and wall-thickness readings help a technical department decide whether to repair at the next call or plan renewal at the next docking.",
+      "Port state control at Felixstowe is the Maritime and Coastguard Agency's responsibility, and the UK has applied the Paris MoU regime under its own law since leaving the EU; a container ship with corroded lashing bridges or a leaking overboard line is an obvious inspection finding. Commercially, a good share of the container ships calling here are chartered from non-operating owners to liner companies, so on-hire and off-hire condition records matter, and a Felixstowe call on the way into or out of a charter is a practical place to take them. Voyages between Felixstowe and EU hubs such as Rotterdam or Antwerp also count half their emissions under the EU ETS."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Felixstowe",
+    "p": "Felixstowe jobs are short, planned and often repeated. We agree the scope with the superintendent and chief officer before arrival, board when the ship is fast alongside, and stop when the terminal is ready to sail her. Where the scope is larger than one call allows, the ship's rotation makes it straightforward to finish on the next visit with the same technicians and the same reference points.",
+    "list": [
+      "Scrubber pipe inspection on a large container ship, with UT readings on wash-water and overboard lines mapped to the piping isometrics so worn spools can be ordered before the Asian docking.",
+      "Hatch coaming gauging and upper-deck longitudinal checks on a container ship approaching its second renewal survey, split across two consecutive Felixstowe calls.",
+      "Lashing bridge inspection after reported impact damage: UT of the affected members and MPI at welded connections, completed within the cargo window.",
+      "Off-hire condition gauging of a chartered feeder container ship before redelivery, giving owner and charterer one agreed set of readings.",
+      "Hold and ballast tank gauging on a bulk carrier loading grain at Ipswich, worked in sequence over several days alongside."
+    ]
+  },
+  "logistics": "For ship inspection in Suffolk the team flies into Heathrow, Stansted or London City and travels to Felixstowe by road; Stansted is the closest of the London airports to the Haven ports. Felixstowe, Harwich and Ipswich each run ISPS-controlled gates, and the ship's agent requests passes before the call; anchorage work needs a launch arranged the same way. Our technicians come from India on UK visas, so we work from the liner schedule, book the call we will join early, and keep a later rotation in reserve in case the first one slips.",
+  "vessels": [
+    "Large container ships",
+    "Feeder container ships",
+    "Ro-ro and freight ferries",
+    "Bulk carriers",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "How much can be gauged at Felixstowe in one container ship call?",
+      "a": "Enough for a focused scope. A typical call allows engine-room and scrubber piping, hatch coamings and upper-deck structure on bays already worked, and possibly one or two ballast tanks if the chief officer can empty and ventilate them without affecting cargo operations. We agree priorities in advance rather than promising a fixed number of readings, and continue on the next rotation if needed."
+    },
+    {
+      "q": "Why gauge at Felixstowe if the ship docks in Asia?",
+      "a": "Because the yard specification depends on the steel and pipe list. Thickness measurement at Felixstowe, weeks or months before docking, lets the manager send the yard real quantities rather than allowances, compare yard offers on the same basis and order long-lead pipe spools in time. The readings also show whether any area needs attention before the docking, which matters for port state control and class."
+    },
+    {
+      "q": "Can you cover Harwich and Ipswich on the same visit?",
+      "a": "Yes, when the schedules line up. The three Haven ports share an approach channel and are close by road, so a team mobilised for a Felixstowe container call can move on to a bulk carrier at Ipswich or a ro-ro ship at Harwich. We plan this with each ship's agent so that passes and boarding times do not clash."
+    },
+    {
+      "q": "Do you inspect lashing bridges and hatch covers as well as tanks?",
+      "a": "Yes. On container ships, lashing bridges, hatch covers, coamings and cell guides take impact loads and repeated stress, and they are inspected for thickness loss and cracking. We use UT for plate and member thickness and magnetic particle testing for cracks at welded connections and brackets, and report findings against the ship's bay and frame numbering."
+    }
+  ],
+  "nearby": ["london", "rotterdam", "antwerp", "zeebrugge", "southampton"]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "gdynia",
+  "name": "Gdynia",
+  "country": "Poland",
+  "region": "europe",
+  "title": "Gdynia Hull Gauging and UTM for Ro-Pax and Feeders",
+  "description": "Ultrasonic thickness measurement in Gdynia for ro-pax, container feeders and Nauta dockings: hull structure gauging, pre-docking and renewal survey UTM.",
+  "h1": "Ship Thickness Measurement and Hull Gauging in Gdynia",
+  "intro": "Gdynia combines container terminals, the ferry to Karlskrona, cruise calls and the Nauta ship-repair yard, and the Tricity area around it is home to maritime universities, crewing agencies and ship managers. That makes it both a place where ships are gauged and a place where gauging for whole fleets is planned. Our technicians travel from India to Gdynia for docking, survey and pre-purchase work, and to wherever a Tricity-managed ship needs it.",
+  "keywords": [
+    "ultrasonic thickness measurement in gdynia",
+    "gdynia hull gauging",
+    "hull gauging in gdynia",
+    "gdynia ship repair",
+    "gdynia utm",
+    "ro-pax thickness measurement",
+    "ship inspection in gdynia",
+    "container feeder gauging",
+    "pre-docking gauging",
+    "thickness measurement poland"
+  ],
+  "highlights": [
+    {
+      "h": "Tricity ship managers",
+      "p": "Gdynia, Gdańsk and Sopot host ship managers, crewing agencies and technical departments that run fleets trading worldwide. Superintendents here often plan gauging for ships far from Poland, and our team travels to wherever the ship is."
+    },
+    {
+      "h": "Dockings at Nauta",
+      "p": "The Nauta ship-repair yard in Gdynia docks merchant and special-purpose vessels. Thickness readings taken as the docking begins give the owner, yard and surveyor a shared basis for deciding what steel comes out."
+    },
+    {
+      "h": "Karlskrona ferries and feeders",
+      "p": "Ro-pax on the Karlskrona route and container feeders at Gdynia's two container terminals run fixed schedules. Gauging is broken into packages that fit their turnarounds, lay-by nights or the next docking."
+    }
+  ],
+  "port": {
+    "h": "Port of Gdynia: terminals, ferries and the Tricity maritime cluster",
+    "p": [
+      "Gdynia was built as a port city, and the harbour still shapes it. The Port of Gdynia has two container terminals handling feeder and short-sea container traffic, a ferry terminal for the Stena Line service to Karlskrona in Sweden, quays for bulk, general and project cargo and ro-ro, and a cruise quay that brings passenger ships through the summer. The Polish Navy has its main base in the northern part of the harbour, separate from the commercial port, and newbuilding and steel fabrication yards share the waterfront with the repair yards.",
+      "The fleet that calls is short-sea in character: container feeders on Baltic and North Sea loops, the Karlskrona ro-pax, ro-ro ships, bulk carriers working grain and other dry cargo, general cargo and multipurpose ships, and offshore and special vessels coming to the yards. The Nauta ship-repair yard docks and repairs merchant and special-purpose ships, and docking traffic is a steady source of gauging work. Ships wait for berths or dock slots at the anchorage in the Gulf of Gdańsk, which Gdynia shares with its neighbour.",
+      "What makes Gdynia distinctive is what happens ashore. Together with Gdańsk and Sopot, the city forms the Tricity, the centre of Polish maritime business. The Maritime University in Gdynia and the region's other maritime schools train officers and engineers, crewing agencies supply Polish seafarers to fleets worldwide, and ship managers and technical departments here run bulk carriers, tankers, container ships and offshore vessels that may never call at a Polish port. For those superintendents, Gdynia UTM work is as likely to mean planning gauging for a ship in Rotterdam or Singapore as for one alongside in their own harbour. Ships do stay long enough to gauge here, at the yards, the ferry lay-bys and the cargo quays, but the cluster's real effect is on how gauging is planned: early, against survey due dates across a fleet, with the report expected on the class formats the ship's society uses."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations in Gdynia",
+    "p": [
+      "At the container terminals, feeder calls are short and regular, so gauging scopes are agreed with the chief officer and chief engineer before arrival and repeated across calls until the area is complete. At the ferry terminal, work on the Karlskrona ro-pax is fitted into lay-by periods, with vehicle decks and voids measured when they are clear and ballast tanks when the crew has made them safe for entry. Bulk and general cargo ships on the cargo quays are gauged during cargo operations, hold by hold, with hopper and topside tanks taken in turn as the crew releases them.",
+      "At Nauta, dock preparation sits with the yard, and our technicians start on the bottom plating and sea chests as soon as the dock is dry and the first tanks are certified, moving on to side shell and piping. For Gdynia ship repair, the value of gauging is in its timing: readings in the first days of a docking let renewal be agreed before the yard commits its labour. Off Gdynia, ships lying at anchor can be boarded from a launch the agent arranges; deck, pipework and gas-freed tanks are the realistic scope there."
+    ],
+    "list": [
+      "Container terminals — feeder and short-sea container ships; deck, hatch-coaming, ballast-tank and scrubber piping gauging during scheduled calls",
+      "Ferry terminal — Stena Line ro-pax to Karlskrona; vehicle-deck, ramp and void gauging in packages fitted to turnarounds and lay-by",
+      "Nauta ship-repair yard — merchant and special-purpose vessels in dock; bottom, sea chest, tank and pipework readings for the renewal list",
+      "Bulk and general cargo quays — bulk carriers and multipurpose ships; hold, tank-top and hatch-coaming gauging while cargo is worked",
+      "Anchorage off Gdynia — ships held before berthing or docking at Nauta, a good moment for pre-purchase or pre-docking gauging reached by launch"
+    ]
+  },
+  "context": {
+    "h": "Regulatory and fleet-management context in Gdynia",
+    "p": [
+      "Gdynia's port state control is Paris MoU, and its approaches are inside the Baltic SECA, so fuel sulphur is held to 0.10% or the exhaust is scrubbed. A good part of the feeder and ro-ro tonnage calling here runs exhaust gas scrubbers, and because what a scrubber may discharge varies from one Baltic coastal state or port to the next, operators often switch modes or fuels as they move along the coast; either way, the wash-water and overboard piping wears and needs measuring. The Karlskrona crossing runs between EU ports, so it carries the full EU ETS obligation that began in 2024 and the FuelEU Maritime requirements in force since 2025.",
+      "The fleet-management cluster sets the commercial context. Technical managers in the Tricity plan renewal and intermediate surveys across fleets of bulk carriers, tankers and container ships trading worldwide, and they need gauging scheduled against survey windows and drydock slots that may be months away, in ports that may be on another continent. For ESP ships, bulk carriers under UR Z10.2 and Z10.5 and tankers under Z10.1 and Z10.4, the gauging extent grows sharply from the third renewal survey, so early planning matters most for older ships."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Gdynia",
+    "p": "Gdynia work splits between ships in the port, mainly ferries, feeders and dockings at Nauta, and ships managed from the Tricity that need gauging elsewhere. Both depend on the same thing: knowing the survey date and the docking slot early. Container feeder gauging is the most routine local work, ro-pax thickness measurement the most tightly scheduled, and a ship inspection in Gdynia for a docking at Nauta the most concentrated.",
+    "list": [
+      "Ballast tanks and vehicle decks of a Karlskrona-route ro-pax gauged in instalments over lay-by nights, so the renewal-survey steel list is ready before the annual docking",
+      "Renewal-survey gauging in dock at Nauta on an offshore support vessel, covering bottom plating, tanks, sea chests and sea water piping",
+      "Scrubber overboard piping and shell connection on a container feeder at one of Gdynia's container terminals during her regular call",
+      "Pre-docking gauging planned with a Tricity technical manager for a bulk carrier calling Gdynia, with the report sent to the yard chosen for her docking",
+      "Magnetic particle crack detection on crane pedestal and hatch-cover hinge welds of a multipurpose ship working cargo at a Gdynia general cargo quay"
+    ]
+  },
+  "logistics": "Gdańsk Lech Wałęsa Airport serves Gdynia as well, with a road connection through the Tricity. Gate passes for the container terminals, ferry terminal and cargo quays are arranged by the ship's agent, entry to the Nauta yard through the yard, and launches serve ships at anchor. Poland applies the Schengen visa regime, so the team coming from India applies in advance; we confirm the job once the docking or port-call date is firm, and can sequence Gdynia work with ships in Gdańsk on the same trip.",
+  "vessels": [
+    "Container feeder ships",
+    "Ro-pax ferries",
+    "Ro-ro cargo ships",
+    "Bulk carriers",
+    "General cargo and multipurpose ships",
+    "Offshore support vessels",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a ship managed from Gdynia but trading elsewhere?",
+      "a": "Yes. We mobilise our team from India to the port where the ship docks or lies, so a Tricity superintendent can order gauging for a ship in another part of Europe, the Middle East or Asia in the same way as for one in Gdynia. The job is planned against the survey window and docking slot, and the report is laid out on the class formats the ship's society requires."
+    },
+    {
+      "q": "Do you gauge ro-pax ferries on the Karlskrona route?",
+      "a": "Yes, in packages. Vehicle decks, ramps and voids are measured during lay-by periods when they are clear, and ballast tanks when the crew has ventilated them and issued entry permits. Each visit closes a defined area, so the renewal-survey record builds up without losing sailings, and whatever needs the ship out of the water is completed at her docking."
+    },
+    {
+      "q": "What can be gauged at a container terminal during a feeder call?",
+      "a": "Within a typical call: deck plating, hatch covers and coamings, the scrubber's wash-water and discharge lines, sea water and fire main lines in the engine room, and any ballast tank the crew has opened and certified. We agree the list with the chief officer and chief engineer before arrival, start immediately on berthing and stop when the ship is ready to sail, picking up on the next call."
+    },
+    {
+      "q": "Is crack detection available alongside the gauging?",
+      "a": "Yes. Magnetic particle testing on ferritic steel and penetrant testing where magnetic methods do not suit can be added to a gauging job, typically at crane pedestals, hatch-cover hinges, ramp hinge lugs and bracket toes where fatigue cracks start. Ultrasonic testing of welds can follow where a crack may extend below the surface."
+    }
+  ],
+  "nearby": ["gdansk", "szczecin", "klaipeda", "copenhagen"]
+}

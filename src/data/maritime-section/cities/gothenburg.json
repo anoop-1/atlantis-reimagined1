@@ -1,0 +1,109 @@
+{
+  "slug": "gothenburg",
+  "name": "Gothenburg",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Gothenburg Ship Thickness Measurement | Tankers & Ro-Ro",
+  "description": "Ship thickness measurement in Gothenburg for tankers, ro-ro and container ships: UTM of hull structure, CAP and ESP gauging, scrubber piping, pre-docking.",
+  "h1": "Ship Thickness Measurement and Hull Gauging in Gothenburg",
+  "intro": "Gothenburg is Scandinavia's largest port, handling crude and product tankers at its energy port, ro-ro and car traffic at Älvsborg, container ships at the Skandia terminal and daily ferries to Denmark and Germany. Atlantis NDT mobilises a team from India to measure hull structure, tanks and piping on ships calling at Gothenburg, planning the work around terminal operations, lay-by periods and the ship's docking schedule.",
+  "keywords": [
+    "gothenburg ship thickness measurement",
+    "gothenburg hull gauging",
+    "tanker thickness measurement",
+    "ro-ro ship inspection",
+    "car deck thickness measurement",
+    "cap thickness measurement",
+    "esp survey gauging",
+    "scrubber piping inspection",
+    "pre-docking gauging",
+    "ship inspection göteborg"
+  ],
+  "highlights": [
+    {
+      "h": "Tankers at the energy port",
+      "p": "Refinery crude arrives at Torshamnen and products move through Skarvik. Tankers alongside allow deck, void and ballast measurement, while CAP and ESP cargo-tank gauging belongs at docking."
+    },
+    {
+      "h": "Ro-ro and car carriers at Älvsborg",
+      "p": "Ro-ro freighters and car carriers have long car and trailer decks, ramps and hoistable decks. Car deck thickness measurement and crack detection at ramp hinges suit the lay-by periods these ships often have."
+    },
+    {
+      "h": "Ice-class ships heading for the Baltic",
+      "p": "Many tankers and ro-ro ships calling at Gothenburg also trade into the northern Baltic in winter under Finnish-Swedish ice class rules. Their ice-belt plating and frames warrant a dedicated section in the TM plan."
+    }
+  ],
+  "port": {
+    "h": "The Port of Gothenburg: energy, ro-ro and container traffic",
+    "p": [
+      "Gothenburg's position on the Kattegat, reachable from the North Sea without passing through the Danish straits, has made it the main gateway for Swedish foreign trade. The port is divided into specialised harbours along the mouth of the Göta älv: the container terminal at Skandia operated by APM Terminals, the ro-ro and car terminals at Älvsborg, the energy port with its crude oil terminal at Torshamnen and product harbour at Skarvik, and the ferry terminals closer to the city, from which Stena Line sails to Frederikshavn and Kiel.",
+      "That mix produces a broad range of ships. Crude tankers deliver to the city's refineries, and product and chemical tankers load and discharge at Skarvik. Car carriers load vehicles built in western Sweden and handle imports, ro-ro freighters connect Gothenburg with the UK and Belgium, and container ships range from feeders to larger ocean-going services. Ro-pax ferries make daily crossings, and bunkering, including LNG, is available for ships working the Kattegat and Skagerrak. Gothenburg is also the home port of major Swedish ferry and tanker owners, whose technical departments plan dockings and gauging for fleets trading well beyond the Kattegat.",
+      "Ships stay in Gothenburg long enough to gauge for several reasons. Tankers lie alongside for discharge and may wait at anchor for a berth; some ro-ro ships on fixed liner schedules have regular lay-by periods; and ships call at the ship-repair facilities in the port area for afloat or docking work. The inspection demand is correspondingly varied: ballast-tank and deck checks on tankers ahead of vetting, car-deck and ramp measurements on ro-ro ships, scrubber piping on ships that run exhaust gas cleaning in the ECA, and pre-docking gauging for owners deciding where to dock. Gothenburg hull gauging work is rarely one type of job for long, and winter adds its own requests as ice-classed ships prepare for Baltic trading."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in the Port of Gothenburg",
+    "p": [
+      "Each harbour in Gothenburg has its own access arrangements and practical limits. At the energy port, tankers alongside are subject to strict terminal safety rules, so measurement is confined to areas the master and terminal approve while cargo operations continue. Ro-ro and car terminals are often the easiest places to work because the ships' decks are open and lay-by periods are common. The container terminal gives shorter windows, usually limited to deck and ballast spaces. Every terminal requires the team to be named in advance on the agent's access list, and some require a site safety briefing on arrival.",
+      "Ship-repair facilities in the port area take afloat and docking repairs, and Swedish-managed ships also dock in Poland, Denmark, the Baltic states and further afield. Anchorages off the port entrance are used by ships waiting for a berth, and those waits can sometimes be used for limited gauging by launch. Where a renewal survey is booked at a yard abroad, a Gothenburg call beforehand is often the best chance for pre-docking measurements, because ballast tanks can be emptied and ventilated while the ship works cargo and the results reach the yard before arrival."
+    ],
+    "list": [
+      "Torshamnen crude terminal — deck, void-space and ballast tank measurement on crude tankers alongside, subject to terminal and master approval.",
+      "Skarvik product harbour — ballast tank and deck gauging on product and chemical tankers during discharge or loading.",
+      "Älvsborg ro-ro and car terminals — car-deck, ramp and hoistable-deck measurements and ramp-hinge crack detection on ro-ro ships and car carriers.",
+      "Skandia container terminal (APM Terminals) — ballast tank and deck gauging on container ships within the berth window.",
+      "Stena ferry terminals — machinery piping and vehicle-deck measurements on ro-pax ferries during scheduled port time.",
+      "Outer anchorages — limited pre-purchase or condition gauging on ships waiting for a berth, with launch access arranged by the agent."
+    ]
+  },
+  "context": {
+    "h": "Swedish regulation, ECA and market context in Gothenburg",
+    "p": [
+      "Sweden is a member of the Paris MoU, and Gothenburg's high volume of tanker and ro-ro calls makes it a regular location for port state control inspections. As an EU member, Sweden applies the EU ETS to shipping from 2024 and FuelEU Maritime from 2025. Gothenburg was an early adopter of shore power at its ferry and ro-ro berths, and liner operators calling here have invested in retrofits such as shore connections, energy-saving devices and battery systems, which add penetrations, foundations and piping that need structural checks before and after installation.",
+      "The port lies on the Kattegat within the SOx ECA, at 0.10% sulphur. Scrubber-fitted tankers and ro-ro ships use their systems continuously in these waters, and operators also have to observe national restrictions on wash-water discharge near the Swedish coast, so ships may run in closed-loop mode or switch fuel close to land. That changes how wash-water and overboard piping are used and where corrosion develops, which is why a scrubber piping inspection at each docking is worthwhile. Gothenburg itself is rarely troubled by ice, but tankers and ro-ro ships calling here often continue to Gulf of Bothnia and Gulf of Finland ports in winter, where traffic restrictions based on Finnish-Swedish ice class apply and ice-belt condition becomes a gauging priority."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Gothenburg",
+    "p": "Gothenburg combines tanker work, liner ro-ro and container calls and docking-related gauging, so scopes vary from a few ballast tanks on a tanker to a full car-deck survey on a car carrier. The common thread is planning around terminal operations and agreeing access with the terminal before the team arrives, so that work starts as soon as the ship is secured alongside.",
+    "list": [
+      "Tanker thickness measurement at Skarvik: ballast tank and deck gauging on a product tanker ahead of a vetting inspection, with cargo tanks left for the docking.",
+      "Ro-ro ship inspection during a lay-by at Älvsborg: trailer-deck plating, ramp structure and hinge welds measured and crack-tested on a North Sea freighter.",
+      "Car deck thickness measurement on a car carrier loading in Gothenburg: hoistable decks, fixed decks and lashing points assessed for wear and corrosion.",
+      "ESP survey gauging preparation for a crude tanker: pre-docking measurements on ballast tanks at Torshamnen to firm up the renewal survey steel estimate.",
+      "Scrubber piping inspection on a scrubber-fitted ro-ro ship: wash-water lines, overboard valves and shell penetrations measured during a scheduled lay-by between North Sea sailings.",
+      "Ice-belt gauging on an ice-classed product tanker before the winter season in the northern Baltic, with frames and plating recorded by strake for later comparison."
+    ]
+  },
+  "logistics": "Göteborg Landvetter Airport is the international gateway, with connections through European hubs, and the port is reached by road from the airport. All terminals are ISPS facilities; the ship's agent arranges gate passes for named technicians at the energy port and the ro-ro, container and ferry terminals, and books launches for anchorage work. Sweden is in the Schengen area, so the team travels from India on Schengen visas. Tanker berthing times at the energy port can move with cargo programmes, so we keep in close contact with the agent and plan the visa period with some margin.",
+  "vessels": [
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Ro-ro cargo ships",
+    "Car carriers (PCTC)",
+    "Ro-pax ferries",
+    "Container ships",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can tankers be gauged while alongside at the Gothenburg energy port?",
+      "a": "Partially. Cargo tanks stay closed during cargo operations, but ballast tanks, void spaces and deck structure can be measured where the master and terminal agree and the ship has certified the spaces safe. For CAP or renewal-survey cargo-tank gauging, the tanks must be gas-free, which normally means a docking or a planned off-hire."
+    },
+    {
+      "q": "What is usually measured on ro-ro ships and car carriers?",
+      "a": "Vehicle-deck plating and its stiffening, ramp structure and hinges, hoistable deck panels and supports, lashing points and the ballast tanks below. Wheel loads, seawater carried in by vehicles and de-icing salt all contribute to wear and corrosion on vehicle decks, while ramp hinges and supports are typical fatigue locations for magnetic particle testing."
+    },
+    {
+      "q": "Should ice-classed ships have their ice belt gauged separately?",
+      "a": "It is worth doing. The ice belt carries additional plating and framing under the Finnish-Swedish ice class rules, and ice abrasion strips coatings at the waterline, so corrosion there can progress faster than elsewhere on the shell. Measuring the ice belt as a defined section of the TM plan gives a clear record from survey to survey."
+    },
+    {
+      "q": "How far ahead should we plan gauging in Gothenburg?",
+      "a": "For planned work, as soon as the call or docking date is known. The team travels from India on Schengen visas, so lead time is mainly visa processing. Liner ro-ro and ferry operators can plan work around regular lay-bys well ahead; tanker work depends on the cargo programme and benefits from a flexible window."
+    }
+  ],
+  "nearby": ["oslo", "copenhagen", "malmo", "aarhus", "stockholm"]
+}

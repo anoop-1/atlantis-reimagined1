@@ -1,0 +1,107 @@
+{
+  "slug": "izmit",
+  "name": "Izmit",
+  "country": "Turkey",
+  "region": "europe",
+  "title": "Izmit Ship Thickness Measurement | UTM Kocaeli",
+  "description": "Ship thickness measurement in Izmit and Kocaeli gulf ports for tankers, car carriers and bulk carriers: pre-docking UTM, CAP and scrubber piping checks.",
+  "h1": "Ultrasonic Thickness Gauging for Ships in the Gulf of Izmit",
+  "intro": "The Gulf of Izmit is the industrial waterway of the eastern Marmara: refinery and petrochemical jetties, chemical and fuel terminals, car terminals, steel and cement berths and container ports line both shores from Gebze to Izmit. The ships that call, from crude and chemical tankers to car carriers, bulk carriers and container ships, stay alongside or at anchor in sheltered water, with the Tuzla and Altınova shipyards close to the mouth of the gulf. We mobilise a team from India for gauging in Izmit and across Kocaeli.",
+  "keywords": [
+    "izmit ship thickness measurement",
+    "utm kocaeli",
+    "ship thickness measurement in izmit",
+    "thickness measurement in izmit",
+    "thickness gauging in kocaeli",
+    "tanker gauging in izmit",
+    "gulf of izmit anchorage",
+    "derince port",
+    "car carrier ramp inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Refinery and chemical tanker calls",
+      "p": "Crude tankers feeding the Tüpraş refinery at Körfez and chemical tankers serving the gulf's terminals form much of the traffic. Their ballast tanks, deck structure and deck piping can be gauged during berth stays within terminal permit rules."
+    },
+    {
+      "h": "Car carriers for the automotive plants",
+      "p": "Pure car and truck carriers loading vehicles from Kocaeli's automotive industry call at the gulf's ro-ro berths. Ramps, car decks and ballast tanks are gauged during port stays, with access coordinated around loading."
+    },
+    {
+      "h": "Yards at the gulf entrance",
+      "p": "Ships needing a docking after a Kocaeli call can move a short distance to Tuzla or to the Altınova yards in Yalova. Pre-docking gauging done during the cargo call gives the yard a steel estimate before arrival."
+    }
+  ],
+  "port": {
+    "h": "The Gulf of Izmit: Kocaeli's ports and their traffic",
+    "p": [
+      "The Gulf of Izmit runs east from the Sea of Marmara into the province of Kocaeli, narrowing towards the city of Izmit at its head. Its shores carry one of the densest concentrations of industry in Turkey: the Tüpraş Izmit refinery at Körfez, petrochemical and chemical plants, steel mills, cement works, automotive factories, and a chain of private port terminals around Dilovası, Derince and Körfez and along the Gölcük shore. The Osmangazi Bridge spans the gulf near its mouth, linking the Gebze side to the southern shore and Yalova. Unlike the Istanbul yards, this is a cargo coast: ships come here to load and discharge rather than to dock, and gauging is fitted around that.",
+      "The traffic reflects that industry. Crude tankers bring feedstock to the refinery, including cargoes from the Black Sea through the Bosphorus; product and chemical tankers load and discharge at the liquid terminals; LPG carriers call at the gas terminals; car carriers load vehicles for export; and bulk carriers bring scrap, coal and raw materials for the steel and cement plants. Container ships call at the gulf's container terminals, which serve the Marmara's industrial hinterland as an alternative to the Istanbul ports. Thickness gauging in Kocaeli therefore spans almost every ship type that trades in the Marmara.",
+      "Several things keep ships in the gulf long enough to gauge. Tankers and bulk carriers often wait at anchor in the gulf for berths; chemical tankers may work several terminals on one call; and car carriers and container ships make regular, scheduled visits that an owner can plan around. Demand for inspection here is shaped by cargo. Chemical and product cargoes test tank coatings, crude cargoes leave sludge and pitting on cargo tank bottoms, and heavy scrap discharged by grab and magnet damages hold structure, while charterers in the tanker trades vet ships closely and expect a clean structural record."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging takes place in the Gulf of Izmit",
+    "p": [
+      "Most gauging in Kocaeli is done during cargo calls. At the refinery and chemical jetties, the terminals' safety rules decide what is possible while cargo is moving, so work concentrates on ballast tanks, deck plating, deck piping and void spaces that can be certified safe. At the bulk berths, holds can be measured once discharged, and on car carriers the ramps, car decks and ballast tanks are reached between loading sessions. At the gulf anchorage, ships waiting for berths can be boarded by launch for longer pre-docking programmes in calm, sheltered water.",
+      "For docking, ships calling in Kocaeli usually move to the yards at Tuzla on the northern shore of the Marmara or to Altınova in Yalova, both close to the mouth of the gulf. That makes the gulf a natural place for pre-docking gauging: a tanker discharging at the refinery can have its ballast tanks and deck measured, and the steel estimate sent to the yard, before it sails for docking. We plan the two jobs together when the ship's programme allows, so the same team can carry the readings through into the dock."
+    ],
+    "list": [
+      "Tüpraş refinery jetties at Körfez — deck, deck piping and ballast tank gauging on crude and product tankers within terminal permit rules",
+      "Chemical and fuel terminals along the northern shore — ballast tank, deck structure and void space gauging on chemical tankers between parcels",
+      "Derince port — bulk carriers and general cargo ships, with hold, hatch cover and frame gauging as cargo work allows",
+      "Car carrier berths — ramp, car deck and ballast tank gauging on pure car and truck carriers during vehicle loading calls",
+      "Gulf of Izmit anchorage — pre-docking and condition gauging on ships waiting for berths, boarded by launch through the agent",
+      "Tuzla and Altınova yards near the gulf entrance — follow-on in-dock gauging when the ship moves from a Kocaeli call to docking"
+    ]
+  },
+  "context": {
+    "h": "Regulation and market context for Kocaeli ports",
+    "p": [
+      "Turkey participates in both the Black Sea MoU and the Mediterranean MoU, and port state control officers at the Marmara ports inspect the tanker, chemical and bulk traffic that dominates the gulf. Because the Mediterranean area's boundary with the Black Sea is drawn at the 41°N parallel, the whole Sea of Marmara, including the Gulf of Izmit, lies inside the Mediterranean SOx ECA in force since 1 May 2025. Ships arriving from Black Sea ports must therefore be on compliant fuel or running scrubbers by the time they reach the gulf, and scrubber wash-water and overboard piping is a regular inspection item on the tankers and bulk carriers calling here.",
+      "Commercially, the gulf is driven by tanker vetting and industrial supply chains. Chemical and product tankers serving the Kocaeli terminals are often chartered by oil and chemical companies with strict vetting, so a ship over about 15 years may need a CAP rating, and coating breakdown in cargo or ballast tanks is watched closely. Voyages from here to EU ports bring EU ETS and FuelEU obligations, and the automotive and steel exporters keep a steady flow of car carriers and bulk carriers on European routes."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Izmit and Kocaeli",
+    "p": "Tanker gauging in Izmit is shaped by the refinery and chemical terminals, which bring a steady stream of product and chemical tankers into the gulf. The rest comes from car carriers on scheduled calls, bulk carriers discharging scrap and coal, and ships preparing to dock across the gulf. Scope is usually set around a single cargo call, sometimes followed by in-dock gauging at the yard.",
+    "list": [
+      "Gauging for CAP preparation on a product tanker past 15 years discharging at the Körfez refinery jetties, covering ballast tanks, deck plating and deck piping during the berth stay.",
+      "Pre-docking gauging on a chemical tanker at the gulf anchorage before it moves to Tuzla for its third renewal survey, with a steel estimate sent to the yard in advance.",
+      "Ramp, car deck and ballast tank gauging on a pure car and truck carrier during a vehicle loading call in the gulf.",
+      "Hold frame, hopper and tank top gauging on a Supramax bulk carrier after discharging scrap, where grab and magnet damage is suspected.",
+      "Scrubber overboard and wash-water piping inspection on a crude tanker at the refinery jetty, requested after the crew found weeping at an overboard flange."
+    ]
+  },
+  "logistics": "The team flies into Istanbul, normally to Sabiha Gökçen Airport on the Anatolian side, and reaches the gulf by road along the northern shore, or across the Osmangazi Bridge for the southern terminals. The ship's agent handles terminal access under ISPS, the refinery and chemical jetty permits and launches for the gulf anchorage, and we send crew lists, technician certificates and equipment details ahead of arrival. Indian passport holders need a Turkish visa, so we apply as soon as the call or docking window is clear and keep the visa period wide enough to absorb berth delays.",
+  "vessels": [
+    "Crude and product tankers",
+    "Chemical tankers",
+    "LPG carriers",
+    "Car carriers",
+    "Bulk carriers",
+    "Container ships",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a tanker at the Tüpraş jetties without delaying cargo work?",
+      "a": "In most cases, provided the terminal agrees the plan. Cargo tanks are not available while loaded or under operation, but certified ballast tanks, deck plating, deck piping and some void spaces can be gauged in parallel with cargo. Gauging is cold work, but the terminal must still approve it and any electronic equipment taken into hazardous areas. We agree the plan with the master, agent and terminal before boarding."
+    },
+    {
+      "q": "Can gauging started in Kocaeli be finished in a Tuzla or Altınova dock?",
+      "a": "Yes, and that is often the best plan. Readings taken in the gulf on ballast tanks, deck and accessible holds or tanks go into the same report as the in-dock readings of bottom and side shell taken later, so the yard and the superintendent work from one data set. The team moves from the gulf to the yard by road."
+    },
+    {
+      "q": "Do you inspect car carrier ramps and decks?",
+      "a": "Yes. We gauge stern and side ramps, hoistable and fixed car decks and their supporting structure, along with ballast tanks and double-bottom spaces. On car carriers, access depends on the loading programme, so we work deck by deck as cargo allows and agree with the chief officer which decks are free at each stage."
+    },
+    {
+      "q": "Can you gauge ships at anchor in the Gulf of Izmit?",
+      "a": "Yes. The agent books a launch, and the sheltered water of the gulf generally makes transfers easier than at an open roadstead. Ships waiting for refinery or chemical berths are a good opportunity for a longer programme in ballast tanks and on deck, provided the crew can certify spaces safe and the ship is not expected to shift berth during the work."
+    }
+  ],
+  "nearby": ["yalova", "istanbul", "izmir", "varna"]
+}

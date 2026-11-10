@@ -1,0 +1,113 @@
+{
+  "slug": "singapore",
+  "name": "Singapore",
+  "country": "Singapore",
+  "region": "asia",
+  "title": "Singapore Ultrasonic Thickness Gauging | Anchorage & Yard",
+  "description": "Thickness measurement in Singapore at anchorage, berth and repair yards: hull structure UTM, CAP and renewal survey gauging, and scrubber pipe inspection.",
+  "h1": "Thickness Gauging for Ships at Singapore's Anchorages and Yards",
+  "intro": "Singapore is the world's largest bunkering port, and its anchorages hold ships calling for fuel, crew changes, stores, surveys and repairs without working cargo. Add one of Asia's main ship-repair clusters and a dense community of ship managers, and it becomes a natural place to gauge a ship between voyages. The typical Singapore job is anchorage work during a stop the ship is making anyway, alongside yard dockings and berth calls; for each one, technicians fly in from India to the vessel.",
+  "keywords": [
+    "singapore ultrasonic thickness gauging",
+    "thickness measurement in singapore",
+    "ship inspection in singapore",
+    "thickness gauging at singapore anchorage",
+    "scrubber piping inspection",
+    "cap gauging",
+    "pre-purchase gauging",
+    "utm singapore",
+    "hull gauging singapore",
+    "utm company singapore"
+  ],
+  "highlights": [
+    {
+      "h": "Gauging during a bunker or crew stop",
+      "p": "A ship already stopping at the Eastern or Western anchorages for fuel, crew or stores is out of cargo operations. A prioritised gauging list fitted to that stay collects condition data without adding a port call."
+    },
+    {
+      "h": "Scrubbers idle in port waters",
+      "p": "Open-loop wash-water discharge is not permitted in Singapore port waters, so many scrubbers are shut down or on closed loop at anchor — the right moment to gauge wash-water lines and overboard penetrations."
+    },
+    {
+      "h": "Yard dockings and conversion work",
+      "p": "Singapore's repair yards handle renewal surveys, major repairs and conversions. Gauging is timed to the yard's cleaning and staging, with readings released space by space for steel renewal decisions."
+    }
+  ],
+  "port": {
+    "h": "Singapore: bunkering hub, anchorage and ship-repair centre",
+    "p": [
+      "Most ships in Singapore waters are not there to load or discharge. They come for bunkers, crew changes, provisions, spare parts, surveys and repairs, and they spend that time at anchor in the Eastern, Western and other designated anchorages off the island. The container terminals, run by PSA and being consolidated at the new Tuas Port in the west, handle one of the world's largest transhipment flows, but the anchorages are where the inspection opportunity is greatest: a ship in ballast at anchor, outside cargo operations, has both time and access for gauging. Owners often time a Singapore stop so that a class survey item or a superintendent's attendance falls into the same anchorage period.",
+      "Ship repair is the second pillar. Seatrium, formed from the combination of the Keppel and Sembcorp Marine yards, carries out repair, upgrade and conversion work alongside its offshore business, and other repair yards in the Tuas, Benoi and Jurong areas take tankers, bulk carriers, container ships, gas carriers and cruise ships for docking. Large conversion projects — tankers turned into floating production units, for example — have long been part of the Singapore yards' business, and each one starts with a thorough assessment of hull condition. Jurong Island's oil and chemical terminals add a steady flow of product and chemical tankers alongside.",
+      "Singapore is also one of Asia's main ship-management centres, with technical managers, owners, charterers' vetting teams and class societies concentrated in a small city. Superintendents can attend a gauging at anchorage and be back at their desks the same day, which makes Singapore a practical place for pre-purchase inspections, on-hire and off-hire condition surveys and pre-docking gauging before a ship goes into a local yard or onward to China or the Middle East. The local bunker tanker fleet, working alongside ship after ship at the anchorages, is an inspection market in its own right."
+    ]
+  },
+  "facilities": {
+    "h": "Launch piers, anchorages and yards in Singapore",
+    "p": [
+      "Singapore gauging starts at the anchorages. The team boards by launch from the city's launch piers — typically Marina South Pier for the eastern anchorages and West Coast Pier for the western ones — as arranged by the ship's agent. A ship at anchor for bunkers or crew change can open ballast tanks and, in ballast, cargo holds; tankers can make cargo tanks available if they are gas-free. Work during bunkering follows the master's restrictions on enclosed-space entry and deck access near the manifold.",
+      "In the yards, gauging supports renewal and intermediate surveys, steel renewal, conversions and repairs, working inside the yard's permit and safety system; each yard runs its own contractor registration, so names and documents go to the yard ahead of the team. At the container terminals and the oil terminals on Jurong Island and elsewhere, berth stays are short and gauging is limited to deck, piping and accessible spaces. Port limits also matter: a ship lying outside Singapore port limits may be in a neighbouring state's waters, where boarding is arranged differently and the agent has to confirm what is allowed before the team goes out."
+    ],
+    "list": [
+      "Eastern and Western anchorages — pre-purchase, on-hire, off-hire and pre-docking gauging on ships calling for bunkers, crew change or stores, boarded by launch.",
+      "Seatrium yards — renewal survey, CAP and conversion-assessment gauging on tankers, bulk carriers and gas carriers in dock and at the repair quays.",
+      "Repair yards at Tuas and Benoi — dockings of tankers, gas carriers and container ships; docking-survey readings and pipe wall-thickness checks.",
+      "PSA container terminals, including Tuas Port — container ships on transhipment calls; hatch coamings, deck plating and the scrubber discharge line, measured while the cranes work.",
+      "Jurong Island oil and chemical terminals — chemical and product tankers alongside; deck structure and piping measured under the terminal's safety rules.",
+      "Harbour bunker tankers — hull, cargo tank and cargo piping gauging on the bunker tankers serving the anchorages, during planned maintenance stops."
+    ]
+  },
+  "context": {
+    "h": "MPA rules, Tokyo MoU and the Singapore market",
+    "p": [
+      "Under the Tokyo MoU, the Maritime and Port Authority of Singapore (MPA) carries out port state control, and it also runs the Singapore Registry of Ships, one of the world's largest flag registers. MPA has not allowed open-loop scrubber wash-water discharge in Singapore port waters since 1 January 2020, so scrubber-fitted ships at anchor run closed-loop, use compliant fuel or shut the scrubber down — and an idle scrubber at anchor is the easiest time to gauge its wash-water and overboard piping and inspect the shell penetrations.",
+      "The bunkering trade adds its own inspection needs. The harbour bunker tankers serving the anchorages work hard, berthing alongside ship after ship in all weather, and their hulls, cargo tanks and piping deserve regular gauging. Beyond bunkering, Singapore's position on the route between Europe, the Middle East and East Asia means owners often use a Singapore call to gather condition data: CAP gauging on an older tanker, a pre-purchase survey, or a steel estimate before a docking in a Singapore yard or further afield. Managers based here also commission gauging for ships docking across Southeast Asia and China, where consistent reporting across the fleet matters."
+    ]
+  },
+  "eca": "none",
+  "psc": "Tokyo MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Singapore",
+    "p": "Ship inspection in Singapore is dominated by anchorage jobs on ships that are already stopping for other reasons, and yard jobs during dockings and conversions. We plan the scope with the superintendent around the ship's stay, book launches through the agent, and mobilise the team from India once the anchorage window or dock date is confirmed. Every report is laid out to the class TM formats.",
+    "list": [
+      "Pre-purchase gauging of an Aframax tanker at the Eastern anchorage during a bunker and crew-change stop, covering ballast tanks and, after gas-freeing, selected cargo tanks.",
+      "Scrubber wash-water and overboard piping gauging on a bulk carrier at anchor while its scrubber is out of service in port waters, with crack detection at shell penetrations.",
+      "Renewal survey and CAP gauging on an ageing VLCC in a Seatrium dock, with readings issued daily for steel renewal planning.",
+      "Hull condition gauging of a tanker being assessed as a conversion candidate at a Singapore yard, giving the owner and its naval architects wide-coverage data.",
+      "Redelivery at the end of a period charter: a container ship at anchorage, with owner and charterer both needing a deck, coaming and ballast tank thickness record before it sails."
+    ]
+  },
+  "logistics": "The team arrives through Singapore Changi Airport. Launches for the anchorages leave from Marina South Pier or West Coast Pier, depending on where the ship lies, and are booked by the agent; PSA terminals and the repair yards each issue their own passes, applied for through the agent or the yard. Indian passport holders need a visa for Singapore, and any work-pass requirement for an assignment is confirmed before travel, so the paperwork starts as soon as the anchorage window or dock date is known. Ships lying outside port limits may need different boarding arrangements, which the agent confirms.",
+  "vessels": [
+    "Crude and product tankers",
+    "Bulk carriers",
+    "Container ships",
+    "LNG and LPG carriers",
+    "Chemical tankers",
+    "Bunker tankers",
+    "Offshore vessels and floating production units"
+  ],
+  "faqs": [
+    {
+      "q": "Is a bunker stop at a Singapore anchorage long enough for useful gauging?",
+      "a": "That depends on the length of the stay and the ship's condition. A short bunker and crew-change stop allows a focused scope — selected ballast tanks, deck structure, piping — while a longer stay for repairs or orders allows much more. We agree a prioritised list with the superintendent so the most important spaces are covered first, and any remainder can be completed at a later call or in the yard."
+    },
+    {
+      "q": "Can scrubber piping inspection be done at anchor in Singapore?",
+      "a": "Yes, and anchor is a good time. Because open-loop discharge is not permitted in Singapore port waters, the scrubber is either running closed-loop or out of service, and when it is shut down, wash-water lines, overboard piping and the shell penetration can be gauged and crack-tested safely. Readings concentrate where flow changes direction or speed — elbows, reducers, the pipe just past each valve — and at the overboard connection itself."
+    },
+    {
+      "q": "Can the team stay with a ship through a Singapore yard period?",
+      "a": "Yes. When a ship docks in Singapore for its renewal survey, intermediate survey or a repair period, we mobilise a team for the docking, work to the yard's permit and safety rules, and measure to the scope the superintendent and class surveyor set. Readings are issued as each space is completed, giving the yard time to renew steel before undocking."
+    },
+    {
+      "q": "What about ships waiting outside port limits?",
+      "a": "Ships lying outside Singapore port limits are a common sight, particularly when trades are slow. They can be gauged, but they may be in the waters of a neighbouring state, launch services and boarding formalities differ, and the agent must confirm what is allowed. If the ship is coming into the Singapore anchorages anyway, thickness gauging at Singapore anchorage is usually the simpler option."
+    }
+  ],
+  "nearby": [
+    "hong-kong",
+    "shenzhen",
+    "guangzhou",
+    "fujairah"
+  ]
+}

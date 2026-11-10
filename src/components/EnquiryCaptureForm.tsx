@@ -12,7 +12,7 @@ import { submitLead, mailtoAction } from "@/lib/lead-submit";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
-  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt";
+  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime";
 }
 
 const COPY = {
@@ -158,6 +158,24 @@ const COPY = {
       "Free consultation + tailored quote on request",
     ],
   },
+  // 2026-11-07 maritime inspection section (/maritime-inspection): ship thickness measurement enquiries.
+  // No class-approval claim here — the section states the IACS UR Z17 rule centrally (model.mjs).
+  maritime: {
+    badge: "Ship thickness measurement — quote on request",
+    title: "Request a Ship Gauging Quote",
+    sub: "Send the vessel name or IMO number, the class society, the survey due and the port. We reply with the scope, the mobilisation plan and a quote for that vessel.",
+    subject: "Maritime inspection enquiry",
+    usecasePlaceholder: "Vessel name / IMO, ship type, class society, survey due (annual, intermediate, renewal No. 3, CAP, owner's survey), port and dates, scope (hull, tanks, piping, scrubber)…",
+    submitLabel: "Request a Quote",
+    trustSignals: [
+      "Teams mobilised from India to the vessel's port",
+      "Responsible NDT Level III: ASNT Level III in UT, RT, MT, PT and VT",
+      "Technicians certified under the company's SNT-TC-1A written practice",
+      "Reports on the class thickness-measurement formats, with sketches",
+      "ISO 9001 and ISO 14001 certified company",
+      "Quote prepared for each vessel, survey and port",
+    ],
+  },
 } as const;
 
 const BUSINESS_LINE: Record<Props["variant"], string> = {
@@ -170,6 +188,7 @@ const BUSINESS_LINE: Record<Props["variant"], string> = {
   lms: "training",
   academy: "training",
   "practical-ndt": "practical-ndt",
+  maritime: "inspection",
 };
 
 // 2026-10-09 sprint: lead_type per line, so the central business-event mapping
@@ -184,6 +203,7 @@ const LEAD_TYPE: Record<Props["variant"], string> = {
   lms: "training_enquiry",
   academy: "training_enquiry",
   "practical-ndt": "ndt_simulation_demo",
+  maritime: "rfq", // businessEventFor → inspection_rfq_submit
 };
 const STAGES = ["Ready to start, within this quarter", "Comparing options", "Just researching"];
 /** Only training enquiries continue to the Microsoft Form (it asks methods, levels, headcount). */

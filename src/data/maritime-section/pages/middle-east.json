@@ -1,0 +1,131 @@
+{
+  "slug": "middle-east",
+  "navLabel": "Middle East and Egypt",
+  "title": "Ship Thickness Measurement in the Middle East and Egypt",
+  "description": "Ultrasonic thickness measurement for ships in the Gulf, Red Sea and Suez: hull gauging, CAP and renewal survey gauging, scrubber and sea water piping.",
+  "h1": "Ship Thickness Measurement and Hull Inspection in the Middle East and Egypt",
+  "eyebrow": "Maritime inspection",
+  "intro": "Ships in the Gulf, the Red Sea and the Suez Canal approaches work in some of the hardest corrosion conditions in commercial service: warm, saline seawater, sun-heated decks over ballast tanks and humid air that defeats coatings. The region is also where many ships dock, bunker and lay up. Atlantis NDT mobilises teams from India, a short journey compared with Europe or the Far East, to gauge hulls and tanks for renewal surveys and CAP, measure wall loss in sea water and scrubber piping, and look for fatigue cracks, at Gulf yards and anchorages and at Egypt's canal ports.",
+  "highlights": [
+    { "h": "Close to India, still planned", "p": "The Gulf is near India and well served by flights, but visas, yard passes and launch bookings still need a confirmed port and dates. We plan around the docking slot or the vessel's call like any other mobilisation." },
+    { "h": "Corrosion that heat accelerates", "p": "Warm, saline seawater, sun-heated decks and humid air speed up coating breakdown and wastage in ballast tanks, cargo tank deckheads and sea water piping. Gauging intervals that suit a North Atlantic trade can be too long here." },
+    { "h": "Work planned around Ramadan and summer", "p": "Shorter working hours in Ramadan and the summer midday break for outdoor work change shift patterns at yards and anchorages. We schedule tank entry and deck gauging around both, rather than discovering them on arrival." }
+  ],
+  "sections": [
+    {
+      "id": "gulf-ship-repair-yards-anchorages",
+      "h": "Gulf ship-repair yards, anchorages and lay-up",
+      "p": [
+        "Drydocks World in Dubai and ASRY in Bahrain are long-established repair yards whose docks see offshore units, bulk carriers, gas carriers and tankers, and further yards and drydocks operate elsewhere in the UAE and in Oman, Qatar and Saudi Arabia. Ships trading to the Gulf, the Indian subcontinent and East Africa dock in the region because it lies on their route.",
+        "Afloat, the anchorages off the main Gulf ports and on the Gulf of Oman coast hold ships waiting for berths, cargo, orders or crew changes, and offshore support vessels and older tonnage lie up in the region between contracts. Laid-up and waiting ships are good gauging candidates: tanks can be cleaned and ventilated without a cargo programme to work around, and the gauging can be finished before the ship is reactivated, sold or sent to the yard.",
+        "Anchorage access is by launch from the port, booked through the ship's agent. The shamal, the strong north-westerly wind over the Gulf, can stop launch transfers for a day or more, so anchorage work carries weather contingency."
+      ]
+    },
+    {
+      "id": "bunkering-anchorages-fujairah",
+      "h": "Bunkering anchorages: short stays, useful gauging",
+      "p": [
+        "Fujairah, on the Gulf of Oman coast, is one of the world's largest bunkering hubs, and its anchorage and the nearby Khor Fakkan anchorage hold ships calling for fuel, stores and crew changes on their way into or out of the Gulf. A bunker call is short, but for a ship that rarely stops anywhere else it is an opportunity: a team can board by launch, gauge what the time allows and leave before she sails.",
+        "Short-stay gauging works when the scope is chosen for the time available. Engine-room and deck piping, scrubber overboard piping and spaces that are already gas-free and open are realistic; full ballast tank gauging usually is not, because the tanks cannot be emptied, ventilated and released for entry inside a bunker call. The superintendent, the chief engineer and our team settle the scope before anyone travels, so the time aboard goes on measurement rather than on waiting for permits."
+      ]
+    },
+    {
+      "id": "suez-canal-red-sea-egypt",
+      "h": "The Suez Canal, the Red Sea and Egypt's ports",
+      "p": [
+        "Ships transiting the Suez Canal wait at the anchorages off Port Said and Suez for their convoy, and Egypt's canal and Mediterranean ports, Port Said, Alexandria and Suez, offer repair and lay-by capacity for ships on the route. A transit wait is rarely long enough for planned gauging, but a ship calling at an Egyptian port for cargo, repair or crew can be gauged there, and the canal-zone yards take repair work from ships on the Europe to Asia route.",
+        "Routing through the Red Sea has been disrupted by regional security since late 2023, and many operators have at times sent ships round the Cape of Good Hope instead. A ship's port rotation can therefore change at short notice, and a job planned for a Red Sea or Suez call may need to move. We plan Red Sea and Egyptian jobs against a confirmed call rather than a voyage plan, and keep the team and visa ready to shift.",
+        "On the Red Sea itself, Jeddah serves Saudi Arabia's western coast and Aqaba is Jordan's only seaport; both handle bulk carriers, container ships and tankers, which we can gauge alongside or at anchor."
+      ]
+    },
+    {
+      "id": "riyadh-mou-mediterranean-mou-psc",
+      "h": "Port state control: Riyadh MoU and Mediterranean MoU",
+      "p": [
+        "The GCC states, Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates, carry out port state control under the Riyadh MoU, and Egypt under the Mediterranean MoU. Both regimes inspect foreign ships calling at member-state ports, record structural deficiencies and can detain a ship whose hull condition falls short. Older tankers, bulk carriers and offshore support vessels working in the region are the ships whose ballast tanks and decks show the climate's effect first, and condition gauging between surveys is how an owner finds that wastage before a port state or vetting inspector does.",
+        "No SOx emission control area has been designated in the Gulf or the Red Sea, which leaves ships on the global 0.50% sulphur limit; scrubber-fitted ships burn high-sulphur fuel with the scrubber cleaning to that standard. Check the current port rule on open-loop discharge before planning to run open-loop at anchorage. Warm intake water adds to the corrosion load on wash-water and overboard piping, which makes a Gulf docking a sensible point to gauge it."
+      ]
+    },
+    {
+      "id": "heat-humidity-warm-seawater-corrosion",
+      "h": "Heat, humidity and warm seawater: why ships corrode faster here",
+      "p": [
+        "Seawater corrosion speeds up with temperature, and the Gulf's water is both warm and more saline than the open ocean. Ballast tanks filled and emptied in it, under decks the sun heats through the day, lose their coatings first at the top of the tank: under the deck and on the upper side shell and longitudinal bulkheads, where heat, oxygen and wet-dry cycling combine. Once the coating has gone, wastage and pitting follow quickly.",
+        "Cargo tanks on crude oil tankers suffer the same heat under the deck, and the deckhead structure corrodes where condensation forms in the inert gas atmosphere. Bottom plating in crude tanks pits under the water and sludge that settle out of the cargo. Sea water cooling, ballast and fire main piping carries warm, aggressive water continuously, and bulk carrier holds sweat in humid air when cargo and closed hatch covers trap it.",
+        "Heat also changes how gauging is done. On a sun-exposed deck the steel can be hotter than standard probes and couplant are made for, and sound velocity in steel shifts with temperature, so deck gauging is scheduled for the cooler hours and the gauge is checked on a reference block at the working temperature."
+      ]
+    },
+    {
+      "id": "offshore-support-vessels-lng-carriers",
+      "h": "Offshore support vessels and LNG carriers",
+      "p": [
+        "The Gulf's offshore oil and gas fields keep a large fleet of offshore support vessels at work: platform supply vessels, anchor handlers, crew boats and accommodation vessels. Many move between contracts, lay-up and reactivation, and each move raises a gauging question. Before reactivation the owner needs to know what lay-up has done to the hull; before a sale the buyer wants pre-purchase gauging; before a new charter the charterer may ask for condition evidence. Cargo deck plating, tank tops and the structure around the stern roller and towing gear take the most wear.",
+        "Qatar's Ras Laffan is one of the world's largest LNG export complexes, and LNG carriers trading from it dock in the region. On a gas carrier our scope is the hull: ballast tanks, double hull spaces, cofferdams, decks and the trunk deck, with ballast, sea water and fire main piping. The cargo containment system has its own inspection regime under the IGC Code and the containment designer's requirements, outside hull thickness gauging."
+      ]
+    },
+    {
+      "id": "ramadan-summer-enclosed-space-scheduling",
+      "h": "Scheduling around Ramadan and summer heat for enclosed-space work",
+      "p": [
+        "Ramadan follows the Islamic lunar calendar, so it moves about eleven days earlier each year and can fall in any season. Working hours are shortened across the Gulf during Ramadan, and yards, agents and port offices keep reduced hours, so permits, passes and launch bookings take longer to arrange. Work continues, but the shift pattern changes; we agree it with the yard in advance and keep critical gauging clear of the Eid al-Fitr holidays that follow.",
+        "In summer the GCC states enforce a midday break for outdoor work, and the air in a tank under a sun-heated deck can be far hotter than on the quay. Enclosed-space entry in that heat needs more than a gas-free certificate: forced ventilation, shorter spells inside, water and rest, and a rescue plan that works in a hot, confined tank. We put deck and external work into the early morning, take tank gauging in the cooler hours or in the tanks ventilated longest, and build the extra time into the plan. The cooler months from late autumn to early spring are the easiest for heavy tank gauging, which is worth weighing if the docking date is flexible."
+      ]
+    },
+    {
+      "id": "planning-gulf-red-sea-gauging-from-india",
+      "h": "Planning a Gulf or Red Sea gauging job from India",
+      "p": [
+        "The journey from India to the Gulf is short and flights are frequent. Visas still set the pace: each Gulf state, Egypt and Jordan has its own entry and work rules for an inspection team, and the ship's agent or the yard will confirm which documents they must issue. We apply as soon as the port and dates are firm. The table shows how the region's working conditions shape the plan."
+      ],
+      "table": {
+        "head": ["Factor", "Effect on the job", "How we plan for it"],
+        "rows": [
+          ["Ramadan", "Shorter working hours at yards, agents and port offices; Eid holidays follow", "Shift pattern agreed with the yard; critical gauging kept clear of the holidays"],
+          ["Summer heat", "Midday outdoor work break; very hot decks and tanks", "Deck work early; tank work in cooler hours with forced ventilation and rest"],
+          ["Short bunker calls", "Hours aboard, not days", "Scope limited to what can be finished: piping, scrubber, open and gas-free spaces"],
+          ["Red Sea routing", "Port rotations can change at short notice", "Plan against a confirmed call; keep the team and visa ready to move"],
+          ["Offshore anchorages", "Launch transfers depend on the weather, including the shamal", "Contingency allowed for anchorage work"]
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "Riyadh Memorandum of Understanding on Port State Control",
+    "Mediterranean Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14 (global sulphur limit)",
+    "IACS UR Z7, Z10.1 to Z10.5 and Z17",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "SOLAS regulation XI-1/7 (atmosphere testing instruments for enclosed spaces)",
+    "SOLAS regulation III/19 (enclosed-space entry and rescue drills)",
+    "IMO Recommendations for entering enclosed spaces aboard ships",
+    "IGC Code (gas carriers; cargo containment is outside hull gauging)",
+    "ASTM E797 (ultrasonic pulse-echo contact thickness measurement)"
+  ],
+  "deliverables": [
+    "Thickness report giving original and measured values, minimum thickness and percentage diminution for every point",
+    "Pitting and wastage record for ballast and cargo tanks, located on the tank plan",
+    "Ship piping and scrubber piping condition report with minimum wall by spool",
+    "Steel renewal estimate for the docking specification",
+    "Pre-reactivation and pre-purchase condition reports for laid-up vessels",
+    "MT crack detection report with indication locations"
+  ],
+  "industries": [
+    "Crude and product tankers",
+    "LNG and LPG carriers",
+    "Offshore support vessels",
+    "Bulk carriers",
+    "Container ships",
+    "Chemical tankers",
+    "Ship-management companies and owners",
+    "Ship-repair yards"
+  ],
+  "faqs": [
+    { "q": "Can you gauge a tanker during a bunker call at Fujairah?", "a": "Part of her, if the scope suits the stay. Engine-room and deck piping, scrubber overboard piping and any spaces already open and gas-free can be gauged in a short call, with the team boarding by launch through the ship's agent. Full ballast or cargo tank gauging normally needs the longer stay of a lay-by, a waiting period at anchorage or the docking itself. We agree the scope before the team travels." },
+    { "q": "Why does ballast tank coating fail faster in the Gulf?", "a": "Heat, salinity and wet-dry cycling all work against it. Warm, saline seawater is more corrosive, and the deck above a ballast tank heats in the sun, so the upper parts of the tank cycle between hot and wet. Coatings break down first under the deck and at the top of the side shell and bulkheads, and pitting and wastage follow once the steel is bare. Shorter gauging intervals catch it earlier." },
+    { "q": "Which port state control regime applies in the Gulf and in Egypt?", "a": "The GCC states carry out port state control under the Riyadh MoU, and Egypt under the Mediterranean MoU. Both inspect foreign ships calling at their ports, record structural deficiencies and can detain ships whose hull condition falls short. Neither regime gauges as such, so owner's condition gauging between surveys is the way to find wastage before an inspection does." },
+    { "q": "Does Ramadan stop inspection work at Gulf yards?", "a": "No, but it changes the working day. Working hours are shortened across the Gulf during Ramadan, and yards, agents and port offices keep reduced hours, so permits and launch bookings take longer. Because Ramadan moves about eleven days earlier each year, check where it falls against your docking. We agree the shift pattern with the yard in advance and keep critical gauging clear of the Eid holidays." },
+    { "q": "Do you inspect LNG cargo containment systems?", "a": "No. On LNG carriers our scope is the hull structure and piping: ballast tanks, double hull spaces, cofferdams, decks and the trunk deck, with ballast, sea water and fire main piping. The cargo containment system is inspected under the IGC Code and the containment designer's requirements by specialists in that system, and sits outside hull thickness gauging." },
+    { "q": "How quickly can a team reach a Gulf port from India?", "a": "The flight is the easy part; the deciding factor is the visa and the access arrangements. Once the port, the dates and the yard's or agent's paperwork are in place, the team travels as soon as the entry approval is issued. Ships that call in the region regularly can be planned ahead, so the paperwork is ready before the call." },
+    { "q": "Can laid-up offshore support vessels be gauged before reactivation?", "a": "Yes, and lay-up is the best time to do it. A laid-up vessel has no cargo or charter programme to work around, so tanks can be cleaned, ventilated and opened in sequence. Gauging deck plating, tank tops, ballast tanks and the stern structure before reactivation shows what lay-up has done to the hull and what must be renewed before the vessel goes back to work or to a buyer." }
+  ]
+}

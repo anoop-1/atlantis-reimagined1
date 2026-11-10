@@ -1,0 +1,107 @@
+{
+  "slug": "zeebrugge",
+  "name": "Zeebrugge",
+  "country": "Belgium",
+  "region": "europe",
+  "title": "Ultrasonic Thickness Measurement Zeebrugge | Ro-Ro & LNG",
+  "description": "Ultrasonic thickness measurement in Zeebrugge for car carriers, ro-ro ships and LNG carriers: hull and car-deck UTM, pre-docking gauging, scrubber piping.",
+  "h1": "Ultrasonic Thickness Measurement for Ro-Ro, Car Carriers and LNG Ships in Zeebrugge",
+  "intro": "Zeebrugge is the coastal half of the Port of Antwerp-Bruges, and its traffic is unlike any other Belgian port: vehicle carriers loading and discharging new cars, short-sea ro-ro links to British and Irish ports, LNG carriers at the Fluxys terminal and container ships at the outer port. Calls are short and scheduled, so superintendents ask for gauging scopes that fit a single call or a lay day. For every Zeebrugge job, technicians travel from India to the ship.",
+  "keywords": [
+    "thickness gauging in zeebrugge",
+    "car carrier thickness gauging",
+    "thickness measurement in zeebrugge",
+    "utm in zeebrugge",
+    "car carrier inspection",
+    "lng carrier gauging",
+    "ro-ro ship inspection zeebrugge",
+    "pctc car deck gauging",
+    "hull gauging in zeebrugge",
+    "ship inspection belgium"
+  ],
+  "highlights": [
+    {
+      "h": "Vehicle carrier decks and ramps",
+      "p": "PCTCs calling for new cars have hoistable and fixed car decks, internal ramps and stern ramps that waste and crack at their supports. Gauging and crack detection at those details fit a discharge-and-load call when the decks are clear."
+    },
+    {
+      "h": "Ro-ro freight ships on fixed rotations",
+      "p": "Unaccompanied ro-ro ships on UK and Irish routes rarely stand idle. Gauging is planned for a weekend lay-over or a scheduled lay day, focusing on main-deck, tank-top and ramp structure where trailer loads concentrate."
+    },
+    {
+      "h": "LNG carrier gauging at the terminal",
+      "p": "LNG carriers at the Fluxys terminal work under strict gas-safety rules. Within the terminal's permits, ballast tanks, deck structure and void spaces outside the cargo containment can be gauged, with cargo-system work left for the dry dock."
+    }
+  ],
+  "port": {
+    "h": "Zeebrugge's coastal port and its scheduled traffic",
+    "p": [
+      "Zeebrugge sits directly on the North Sea coast, north of Bruges, without the long river passage that Antwerp ships make, and that has made it a port for fast, scheduled cargo. It is a major European hub for new-car imports and exports, with vehicle carriers working large car terminals, and a base for short-sea ro-ro lines carrying trailers and containers to the UK, Ireland and other European ports. The Fluxys LNG terminal receives LNG carriers, container ships work the outer port, and cruise ships use Zeebrugge as the gateway to Bruges and Brussels.",
+      "Ships here stay for less time than in Antwerp or Rotterdam, and their timetables are tighter. A car carrier may discharge and load within a day; a ro-ro freighter on a UK service turns around in hours. Gauging therefore depends on finding the window: a lay day built into the rotation, a weekend with reduced sailings, a delay in loading, or the period between discharge and the next cargo when decks are clear. Ships waiting for a berth anchor offshore in Belgian waters, and the inner port behind the Pierre Vandamme lock offers more sheltered berths for longer stays.",
+      "Car carrier inspection here centres on structure that bulk carriers and tankers do not have: multiple internal decks, hoistable decks and their lifting arrangements, internal and stern ramps, and side and bow doors on some designs. Those details carry cyclic loads on every call, and corrosion of deck plating and stiffeners under the cargo is easy to miss. Ro-ro freighters share many of these details, with the added wear of trailers and tug-masters crossing the decks on every call. LNG carriers are different again. They often trade for decades, so their ballast tanks and double-hull structure age while the cargo system stays clean, and gauging concentrates on the hull and ballast spaces rather than the containment."
+    ]
+  },
+  "facilities": {
+    "h": "Finding the gauging window at Zeebrugge's terminals",
+    "p": [
+      "Zeebrugge is primarily a cargo and energy port rather than a docking port, so most gauging here is done afloat and planned around the call. At the car terminals the useful time is the gap between discharge and loading, when car decks are empty and the ship can provide lighting and safe access to the hoistable decks. Ro-ro berths in the inner and outer port suit main-deck and tank-top work on lay days. For full renewal survey programmes, the readings taken here can be passed to the yard where the ship will dock, so hull gauging in Zeebrugge often serves as preparation for that docking.",
+      "The Fluxys LNG terminal and the gas-handling berths sit inside strict safety zones; any work aboard is planned with the terminal and the ship's own permit system, and is usually limited to ballast tanks, deck structure, voids and the engine room. Container ships calling at the outer port offer short windows for scrubber piping and deck checks. The Pierre Vandamme lock gives access to the inner port, where some ships lie for longer and where pre-purchase and condition gauging is most practical, because the vessel is idle and cargo work does not compete for access."
+    ],
+    "list": [
+      "Car terminals in the inner and outer port — car-deck, hoistable-deck and ramp gauging with crack detection at supports, between discharge and loading.",
+      "Ro-ro berths for UK and Irish services — main-deck, tank-top and stern-ramp structure readings during lay days or weekend lay-overs.",
+      "Fluxys LNG terminal — ballast tank, deck and void-space gauging on LNG carriers within terminal permits; containment systems left for dry dock.",
+      "Outer port container terminal — scrubber discharge pipework and deck plating measured while the container ship works cargo.",
+      "Inner port berths behind the Pierre Vandamme lock — longer pre-purchase, on-hire and condition gauging on ships lying alongside.",
+      "Anchorages in Belgian waters off Zeebrugge — short launch-borne jobs on vessels at anchor, when the sea state allows boarding."
+    ]
+  },
+  "context": {
+    "h": "Rules, fuels and a changing car trade at Zeebrugge",
+    "p": [
+      "Ships in Zeebrugge are subject to Paris MoU port state control and operate within the North Sea emission control area for sulphur, with its 0.10% fuel limit. Many car carriers and ro-ro ships on these routes meet it with scrubbers, while a growing number of new vehicle carriers are LNG dual-fuel, and LNG bunkering is available in the port. On the scrubber ships, wash-water and overboard lines remain a common source of wall-loss findings, and the agent can confirm the local rules on open-loop discharge before the system is run near the coast.",
+      "The car trade itself is changing the fleet. Electric vehicles are heavier and carry a different fire risk, and the industry has been revisiting deck strength, fire protection and lashing on vehicle carriers as a result. Owners of older PCTCs that will keep trading on European routes, and now accounting for emissions under the EU ETS (from 2024) and FuelEU Maritime (from 2025), want to know whether deck plating, stiffeners and ramps have the margins the next decade of cargo will demand. Thickness data from a Zeebrugge call is a practical starting point for that assessment."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Tightly timed gauging jobs at Zeebrugge",
+    "p": "UTM in Zeebrugge is short, tightly scheduled work. The superintendent usually defines a narrow scope — a deck, a ramp, a set of tanks — and asks for it to be finished within one call or one lay day, with results available before the ship sails so the next steps can be decided. Work on LNG carriers is agreed with the terminal before the team arrives. Examples:",
+    "list": [
+      "A PCTC between discharge and loading: gauging of the lower hold and fixed car-deck plating, with magnetic particle testing at hoistable-deck support brackets where cracking is suspected.",
+      "A ro-ro freighter on a UK service, during a weekend lay-over: main-deck plating and stiffeners in the trailer lanes, plus crack detection around the stern-ramp hinges.",
+      "An LNG carrier at the Fluxys terminal: ballast tank and double-bottom gauging within the terminal's permit window, ahead of a renewal survey docking elsewhere.",
+      "A container ship at the outer port: wall-thickness readings on the scrubber wash-water lines and overboard pipes, taken with the system shut down and reported the same day.",
+      "Pre-purchase gauging for the prospective buyer of a car carrier lying in the inner port: deck, ramp and ballast tank readings to support the sale."
+    ]
+  },
+  "logistics": "Brussels Airport is the usual arrival point, with road and rail links to Bruges and on to the port. Access to the car, ro-ro and LNG terminals is controlled under ISPS, and the LNG terminal also applies its own induction, so the agent submits the team's details well ahead of the call. Technicians coming from India travel on Schengen visas, and because Zeebrugge windows are short, we tie mobilisation to a confirmed lay day or call rather than an estimate, and keep the agent informed of the team's travel.",
+  "vessels": [
+    "Vehicle carriers (PCTC)",
+    "Ro-ro cargo ships",
+    "LNG carriers",
+    "Container ships",
+    "Cruise ships",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "How much can be gauged on a car carrier during one Zeebrugge call?",
+      "a": "It depends on the gap between discharge and loading. With decks clear, a team can usually cover a defined set of car decks, ramps and their supports, plus a few ballast tanks, provided the crew can empty and ventilate them before loading resumes. We agree the priority list beforehand, so the most important areas are measured first and nothing is left half-done when loading begins."
+    },
+    {
+      "q": "Can you work on an LNG carrier alongside the Zeebrugge terminal?",
+      "a": "Only within the terminal's and the ship's gas-safety rules, which are strict. In practice that means spaces outside the cargo containment: ballast tanks, double bottom, deck structure away from hazardous zones, voids and the engine room. Equipment has to be accepted by the terminal, and everything is agreed through the agent before the ship berths."
+    },
+    {
+      "q": "Is crack detection on ramps and hoistable decks part of the job?",
+      "a": "It can be. Magnetic particle testing at ramp hinges, hoistable-deck supports and lashing-point doublers is a natural addition to deck gauging on ro-ro ships and vehicle carriers, because fatigue cracks at those details often appear before wastage becomes the issue. The scope is agreed in advance so that the ship can prepare the surfaces and access."
+    },
+    {
+      "q": "Where do Zeebrugge ships go for dry-docking, and can your readings travel with them?",
+      "a": "Large dockings are usually taken to yards elsewhere on the North Sea or further afield, chosen by the owner. Readings taken at Zeebrugge carry the TM plan's frame and strake references, which lets the docking yard and the class surveyor use them to plan steel and the close-up survey. Where useful, our team can also travel to the docking yard to complete the programme."
+    }
+  ],
+  "nearby": ["antwerp", "ghent", "vlissingen", "dunkirk", "felixstowe"]
+}

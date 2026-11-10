@@ -1,0 +1,106 @@
+{
+  "slug": "suez",
+  "name": "Suez",
+  "country": "Egypt",
+  "region": "middle-east",
+  "title": "Ultrasonic Thickness Gauging in Suez and Ain Sokhna",
+  "description": "Thickness measurement in Suez, Suez Bay and Ain Sokhna: hull structure gauging, pre-docking UTM at Suez Shipyard and checks before a northbound transit.",
+  "h1": "Ship Thickness Measurement in Suez, Suez Bay and Ain Sokhna",
+  "intro": "Suez sits at the southern end of the canal, where northbound convoys form in Suez Bay, laden tankers discharge into the SUMED pipeline at Ain Sokhna, and ships coming up the Red Sea find repair capacity at Suez Shipyard. Teams are sent from India for anchorage work, berth calls at Adabiya and Ain Sokhna, and dock stays, each scope planned around the ship's transit or cargo schedule.",
+  "keywords": [
+    "ultrasonic thickness gauging in suez",
+    "thickness measurement in suez",
+    "suez bay anchorage gauging",
+    "ain sokhna ship inspection",
+    "suez shipyard thickness measurement",
+    "tanker gauging at ain sokhna",
+    "gulf of suez offshore vessel inspection",
+    "utm suez canal",
+    "hull gauging suez",
+    "ship inspection suez egypt"
+  ],
+  "highlights": [
+    {
+      "h": "Northbound convoys in Suez Bay",
+      "p": "Northbound ships assemble at the Suez Bay anchorage before entering the canal. Short waits suit targeted gauging of suspect areas and piping, while ships anchored for orders, stores or crew changes offer longer windows and wider scopes."
+    },
+    {
+      "h": "Suez Shipyard on the canal approach",
+      "p": "Suez Shipyard, one of the Suez Canal Authority's yards, repairs and docks ships at the southern entrance to the canal. When a ship arrives with structural damage, gauging around the damaged area defines how far plate renewal has to extend."
+    },
+    {
+      "h": "SUMED tankers at Ain Sokhna",
+      "p": "At Ain Sokhna, south of Suez, laden tankers too deep for the canal discharge part or all of their cargo into the SUMED pipeline. The berth time can be used for deck, ballast tank and deck pipeline gauging under terminal rules."
+    }
+  ],
+  "port": {
+    "h": "Suez, Suez Bay and the southern end of the canal",
+    "p": [
+      "The southern end of the Suez Canal opens into Suez Bay at the head of the Gulf of Suez. Port Tewfik marks the canal entrance, Adabiya port lies on the western shore of the bay, and Ain Sokhna, further south along the gulf, combines a deep-water port inside the Suez Canal Economic Zone with the SUMED pipeline's Red Sea terminal. The city of Suez has refineries and an industrial base tied to oil and gas, and the Gulf of Suez is a long-established oil-producing province, served by offshore support vessels working out of the area.",
+      "Traffic here runs in both directions. Northbound ships arriving from the Red Sea anchor in Suez Bay to await their convoy, pilot and canal formalities, while southbound ships leave the canal and head down the gulf. Tankers too deep to transit fully laden use SUMED, discharging at Ain Sokhna so the oil can be pumped across to the Mediterranean, and some then continue through the canal in ballast or part-laden. Bulk carriers bring grain and other cargoes into Adabiya and Ain Sokhna, container ships call at Ain Sokhna, and offshore vessels shuttle between the gulf fields and their shore bases along the coast.",
+      "That mix gives Suez a wider set of gauging windows than its canal role suggests. A transit wait in Suez Bay supports short, targeted measurements; a SUMED discharge at Ain Sokhna supports deck and ballast tank work on a tanker; a bulk carrier discharging at Adabiya or Ain Sokhna leaves empty holds afterwards; and a repair stay at Suez Shipyard supports a full programme. The Red Sea security situation since late 2023 adds another case: a ship that has suffered damage in the southern Red Sea may need a structural assessment before continuing north, and gauging gives class the measured figures to decide on repairs."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens around Suez",
+    "p": [
+      "Suez Shipyard is the main repair yard at the southern end of the canal and the place for in-dock gauging, repair-boundary work and full renewal-survey programmes. Ships diverted there after a transit incident or damage at sea gain most from early gauging: measuring the plating around the damage before the repair specification is drawn up tells the yard and class how far renewal must extend, and shows whether neighbouring structure has thinned beyond what the drawings suggest.",
+      "Afloat work splits between the bay and the gulf ports. Suez Bay anchorage gauging is arranged by launch through the ship's agent and timed against the convoy; Adabiya and Ain Sokhna give alongside access with gate passes requested in advance; and at the SUMED berths, tanker work follows the terminal's rules on portable equipment, permits and simultaneous operations. Gulf of Suez offshore vessel inspection fits between field trips: support vessels returning from the fields can be gauged alongside once deck cargo is cleared and tanks can be opened. The team moves between these locations by road along the western shore of the gulf, so several ships in different berths can be attended on one visit."
+    ],
+    "list": [
+      "Suez Shipyard — Suez Canal Authority repair yard at the canal's southern entrance; dock and repair-berth stays for renewal-survey and repair-boundary gauging.",
+      "Suez Bay anchorage — where northbound convoys assemble; short, focused measurements on deck, tanks and pipework, with boarding by launch through the agent.",
+      "Ain Sokhna port — deep-water container and bulk port in the Suez Canal Economic Zone; hold, tank and deck gauging alongside between cargo operations.",
+      "SUMED terminal, Ain Sokhna — tanker discharge berths for the pipeline to the Mediterranean; deck, ballast tank and deck-pipeline gauging under terminal rules.",
+      "Adabiya port — bulk and general cargo berths on the western shore of Suez Bay; empty-hold gauging after discharge and deck work while alongside."
+    ]
+  },
+  "context": {
+    "h": "Regulatory and security context at Suez",
+    "p": [
+      "Inspections of foreign ships calling at Suez, Adabiya and Ain Sokhna fall to the Egyptian Authority for Maritime Safety, working within the Mediterranean MoU; ships simply transiting the canal are not port state control calls. The Gulf of Suez is not part of the Mediterranean emission control area, and at this end of the canal ships work to the global 0.50% sulphur cap. A northbound ship must nonetheless be on 0.10% fuel, or running its scrubber in ECA mode, by the time it reaches the Mediterranean at Port Said, which makes Suez the last convenient point to check scrubber wash-water and overboard piping before a long ECA leg.",
+      "The security situation in the southern Red Sea, where merchant ships have come under attack since November 2023, pushed many owners onto the Cape of Good Hope route, and canal traffic fell sharply as a result. Ships that do pass Suez follow their owners' and underwriters' security guidance, and we plan attendance at Suez on the same basis. Separately, the Gulf of Suez oil fields keep a fleet of offshore support and supply vessels working locally, and their hull, deck and tank condition is a standing concern for their operators and class between docking periods."
+    ]
+  },
+  "eca": "none",
+  "psc": "Mediterranean MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Suez",
+    "p": "Suez offers more variety than its role as a canal entrance suggests: transit waits, SUMED discharges, bulk calls at Adabiya and Ain Sokhna, offshore vessel lay-overs and repair stays. Each scenario below fits one of those windows, and the scope is agreed against the ship's survey status, the class requirement or the operator's question before the team travels from India.",
+    "list": [
+      "Repair-boundary gauging at Suez Shipyard on a bulk carrier with shell damage, measuring the surrounding plating and internals so class can agree the extent of renewal.",
+      "Measurement of ballast tanks and deck plating on a crude tanker as it discharges into SUMED at Ain Sokhna, giving the operator measured condition before a CAP survey or vetting inspection.",
+      "Targeted re-gauging at the Suez Bay anchorage of corroded deck piping and vent heads on a northbound ship, completed while it waits for its convoy slot.",
+      "Hull and tank gauging on an offshore support vessel alongside between Gulf of Suez field trips, ahead of its intermediate or renewal survey.",
+      "Empty-hold gauging of a bulk carrier after grain discharge at Adabiya, covering frames, hopper plating and transverse bulkheads before it sails in ballast."
+    ]
+  },
+  "logistics": "The team flies into Cairo International Airport and travels by road to Suez, Adabiya or Ain Sokhna, which are linked by road along the gulf. At the anchorage, the ship's agent books the boat and agrees a boarding slot that leaves the ship clear for its convoy; at the ports, the shipyard and the SUMED terminal, the agent obtains gate passes for the team and its equipment, which needs passport details in advance. Visas for Egypt are secured before the technicians leave India, so an early ETA or docking window is what lets us place the team at Suez in time for the ship.",
+  "vessels": [
+    "Crude oil tankers",
+    "Product tankers",
+    "Bulk carriers",
+    "Container ships",
+    "Offshore support and supply vessels",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you do Suez Shipyard thickness measurement on a ship diverted for repair?",
+      "a": "Yes. A diverted ship usually needs two things: a measured picture of the plating and internals around the damage, and confidence that the surrounding structure is sound. We gauge both, lay the readings on the ship's drawings and hand the yard and the attending surveyor the figures to agree the repair. Send the damage report and drawings as soon as the diversion is decided."
+    },
+    {
+      "q": "Is tanker gauging at Ain Sokhna possible during a SUMED discharge?",
+      "a": "On deck and in the ballast tanks, yes. Cargo tanks are inerted and closed during discharge, so they are out of scope, but deck plating, deck cargo and ballast lines and the ballast tanks can be measured, subject to the terminal's rules and the ship's permit system. It is a practical moment to prepare an older tanker for CAP or vetting."
+    },
+    {
+      "q": "What can be measured during a Suez Bay anchorage wait?",
+      "a": "It depends on the time before the convoy. A short wait suits targeted work: re-measuring spots noted at the previous survey, checking deck piping or vent heads, or measuring a deck area a surveyor has questioned. Ships waiting for orders, or stopping for stores or crew changes, can take a wider scope, including ballast tanks if they can be ventilated and entered."
+    },
+    {
+      "q": "Do you cover Ain Sokhna ship inspection and the Gulf of Suez offshore fleet?",
+      "a": "Yes. Ain Sokhna is on the same mobilisation as Suez and Adabiya, and offshore support vessels serving the Gulf of Suez fields can be gauged alongside between trips. For a fleet operator, several ships can be measured on one visit, each reported separately against its own survey programme and class requirements."
+    }
+  ],
+  "nearby": ["port-said", "alexandria", "jeddah", "aqaba"]
+}

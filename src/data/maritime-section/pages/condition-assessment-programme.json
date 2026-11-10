@@ -1,0 +1,155 @@
+{
+  "slug": "condition-assessment-programme",
+  "navLabel": "CAP thickness measurement",
+  "title": "CAP Thickness Measurement | Condition Assessment Programme",
+  "description": "CAP thickness measurement and condition assessment inspection support for older tankers and bulk carriers: pre-CAP gauging, close-up survey and TM data.",
+  "h1": "Condition Assessment Programme (CAP) Thickness Measurement and Condition Assessment Inspection",
+  "eyebrow": "Maritime inspection",
+  "intro": "A Condition Assessment Programme lets an owner show charterers that an older tanker or bulk carrier should be judged on the state of its steel rather than its year of build. The classification society carries out the assessment and issues the CAP rating, and that rating rests on close-up survey and on thickness gauging well beyond what a routine survey needs. Atlantis NDT supplies the measurement side: planning the gauging with the owner and the society's CAP team, mobilising a team from India, and delivering thickness data organised for the society's strength assessment.",
+  "highlights": [
+    {
+      "h": "Measurement, not the rating",
+      "p": "The CAP rating is the classification society's judgement. Our part is the thickness data and close-up survey support behind it, recorded so the society's surveyors and engineers can use it without rework or re-measurement."
+    },
+    {
+      "h": "Pre-CAP gauging before you commit",
+      "p": "An owner's own gauging of critical areas, ahead of booking the CAP survey, shows whether the ship is likely to reach the rating charterers ask for and which steel work should be done first."
+    },
+    {
+      "h": "Data shaped for strength checks",
+      "p": "CAP hull assessments commonly include longitudinal and buckling strength checks based on gauged thicknesses. Readings keyed to frame, longitudinal and strake can go straight into the society's calculations."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-cap",
+      "h": "What a Condition Assessment Programme is",
+      "p": [
+        "CAP is a voluntary service that an owner requests from a classification society. It is not a statutory survey and it is not needed to keep a ship in class, which the annual, intermediate and renewal surveys do. What CAP adds is a graded statement of the ship's actual condition at the time of inspection, prepared to a published procedure. Each society runs its own scheme with its own procedures and report format, and some describe CAP as a service separate from classification itself, carried out independently of the class survey even when the same society classes the ship.",
+        "Most schemes are split into modules. The hull module, where thickness measurement sits, combines detailed visual and close-up survey with extensive gauging and an assessment of strength using the gauged thicknesses: hull girder longitudinal strength, buckling of deck and bottom panels and, in some schemes, fatigue. Machinery and cargo system modules rely on function tests, vibration and oil analysis and similar checks, and are outside the work of a thickness measurement firm.",
+        "Ratings are commonly given on a scale of 1 to 4, running from very good through good and satisfactory to poor, with the exact definitions set by each society. Oil majors and charterers normally look for a rating of 1 or 2."
+      ]
+    },
+    {
+      "id": "why-charterers-ask",
+      "h": "Why charterers and oil-major vetting ask for CAP on older ships",
+      "p": [
+        "Age is a blunt measure of risk, but it is one that charterers can apply consistently, so tanker vetting policies tighten as ships get older. For tankers beyond about 15 years, charterers and oil-major vetting departments often ask for a CAP rating as evidence that the structure has been looked after. A SIRE inspection does not answer that question: it examines operations, documentation and visible condition, and no steel is gauged. CAP fills the gap with measured data and an independent grading of hull structural condition.",
+        "Dry bulk has moved in the same direction. Charterers and vetting providers in the dry bulk trades increasingly look for a CAP rating on older bulk carriers, particularly those carrying heavy cargoes, where hold structure takes punishment from loading and discharge as well as from corrosion. For tankers and bulk carriers alike, the owner's question is the same: will a rating keep this ship in the charter market, and what will it take to obtain one."
+      ],
+      "list": [
+        "A charterer's or oil major's vetting requirement for ships beyond a given age",
+        "Renewal of a time charter, or a new fixture that names CAP as a condition",
+        "A sale in which the buyer wants independent evidence of hull condition",
+        "A life-extension decision ahead of the fourth or fifth renewal survey",
+        "Documenting the result after a major steel renewal"
+      ]
+    },
+    {
+      "id": "how-gauging-feeds-rating",
+      "h": "How CAP thickness measurement and close-up survey feed the rating",
+      "p": [
+        "The society's surveyors carry out the close-up survey, typically across most of the cargo and ballast tanks, recording coating condition, corrosion, pitting, grooving, cracking, buckling and deformation. The thickness measurement that accompanies it is normally more extensive than the class minimum for a renewal survey of the same ship: more transverse sections, more plate-by-plate coverage of the main hull girder, and more internal structure in more tanks. The gauging locations are set by the society's CAP procedure and its surveyor, and the measurement firm works to that plan.",
+        "The society uses the readings twice. First, each structural area is graded by comparing gauged thickness with the original and with the allowable margins, alongside the close-up findings. Second, the gauged thicknesses go into the strength assessment: the hull girder section is recalculated with actual rather than as-built scantlings, and deck and bottom panels are checked for buckling. A transverse section with gaps, or readings that cannot be tied to a specific longitudinal, forces the society either to make assumptions or to ask for more gauging. That is why CAP data has to be complete and exactly located, member by member.",
+        "Because the society carries out the CAP, it will normally expect the gauging firm to hold that society's approval under IACS UR Z17 and its own surveyor to attend, and some schemes add requirements of their own. Confirm the arrangement with the society, and give us the ship's class at the enquiry stage so the job can be scoped against it."
+      ]
+    },
+    {
+      "id": "preparing-for-cap",
+      "h": "Preparing a tanker or bulk carrier for a CAP survey",
+      "p": [
+        "Most CAP hull surveys are held in drydock or at a repair berth, because the volume of tank entry, cleaning and access is close to that of a late-life renewal survey. Owners often schedule CAP alongside a renewal survey to share the cleaning and staging; if so, agree with the society in advance how the measurements will serve both, so the work is not duplicated. The preparation falls mainly on the owner and the yard, and the list below is what a gauging team needs to find in place."
+      ],
+      "list": [
+        "Structural drawings with original scantlings, and the corrosion additions for CSR ships",
+        "Previous thickness measurement reports, class survey records and any conditions of class",
+        "Repair and steel renewal history, ballast tank coating records and crew inspection reports",
+        "Every space to be surveyed cleaned, gas-freed, mucked out, ventilated and lit",
+        "An access plan for staging, cherry pickers, rafting or permanent means of access, agreed with the yard and the surveyor",
+        "Time in the yard programme for gauging alongside the close-up survey and before steel repairs begin"
+      ]
+    },
+    {
+      "id": "pre-cap-gauging",
+      "h": "Pre-CAP condition gauging: knowing the likely result first",
+      "p": [
+        "A disappointing rating is hard to undo once a charterer has seen it, so many owners want an indication before they commit. Pre-CAP gauging is the owner's own condition assessment inspection, carried out weeks or months before the CAP survey. Our team gauges a targeted sample: transverse sections amidships, critical structural areas, ballast tank structure where coatings have failed, deck and bottom plating in known suspect areas and, on bulk carriers, hold frames and their brackets. The readings are compared with the society's allowable margins to show where the ship sits in the substantial corrosion band or beyond it.",
+        "The result tells the owner whether to proceed, which steel to renew before the CAP survey and how much yard time to book. Pre-CAP gauging is not credited by the society and does not need class approval, but it follows the same method and reporting standard, so the numbers are directly comparable with what the CAP gauging will find. Much of it can be done during a port stay or lay-by period, with spaces entered under the ship's own permit system."
+      ]
+    },
+    {
+      "id": "common-cap-findings",
+      "h": "What CAP gauging typically finds on older tankers and bulk carriers",
+      "p": [
+        "On crude and product tankers, the areas that most often decide the hull rating are the under-deck structure of cargo tanks, where the vapour space is corrosive; the web frames, longitudinals and brackets of ballast tanks once their coating has broken down; pitting in cargo tank bottom plating; and the corrugations and stools of transverse bulkheads. On double-hull tankers the double-bottom and double-side ballast spaces carry most of the risk, because their surface area is large and their coating is hard to maintain.",
+        "On bulk carriers, hold structure suffers mechanical damage as well as corrosion. Side frames and their end brackets, the plating and stiffeners of topside and hopper tanks, transverse bulkhead corrugations and lower stools, and hatch coamings and covers are where wastage, grooving and cracking concentrate. Fatigue-prone details found during the close-up survey can be checked by magnetic particle crack detection if the society or the owner asks for it.",
+        "Knowing where the findings usually arise shapes the gauging plan. Readings are concentrated where the rating is decided, rather than spread evenly across structure that rarely changes it."
+      ]
+    },
+    {
+      "id": "what-owner-receives",
+      "h": "What the owner receives, and from whom",
+      "p": [
+        "From us, the owner receives the thickness measurement report on the forms the society requires, with numbered sketches; the gauging data in a format the society's CAP team can use; a summary of readings in the substantial corrosion band and beyond allowable limits; records of pitting and grooving; photographs; and a list of any areas that could not be gauged, with the reason. For pre-CAP gauging, the same data comes with an outline of the steel renewal it implies.",
+        "From the society, the owner receives the CAP rating and its report or declaration, which is the document charterers and vetting departments read. We do not issue or influence the rating, and a pre-CAP gauging indicates where the steel stands, not what the society will conclude. Keeping that line clear protects the owner as well: a CAP rating is worth something to a charterer precisely because the society that gives it is independent of the people who measured the ship."
+      ]
+    }
+  ],
+  "codes": [
+    "Classification society CAP procedures (each society publishes its own scheme)",
+    "IACS UR Z17 – Approval of thickness measurement firms as service suppliers",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "IACS UR Z10.2 and Z10.5 – Hull surveys of bulk carriers and double-skin bulk carriers",
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Thickness measurement report on the society's required forms",
+    "Numbered sketches locating every reading by frame, strake and longitudinal",
+    "Gauging data in a format suitable for the society's strength assessment",
+    "Summary of substantial corrosion and readings beyond allowable limits",
+    "Pitting and grooving records with depth and extent",
+    "Pre-CAP gauging summary with an outline of the steel renewal implied",
+    "Photographs and a list of areas not gauged, with reasons"
+  ],
+  "industries": [
+    "Crude oil tankers",
+    "Product and chemical tankers",
+    "Double-hull tankers",
+    "Bulk carriers and ore carriers",
+    "Ship owners and ship managers",
+    "Charterers' vetting and technical teams",
+    "Ship buyers and their technical advisers"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Condition Assessment Programme compulsory?",
+      "a": "No. CAP is a voluntary service requested by the owner, and the ship stays in class through its normal survey cycle regardless. In practice it becomes necessary when a charterer or oil major makes a CAP rating a condition of fixing an older ship, or when a buyer wants independent evidence of hull condition. Check each charterer's policy, because the rating level asked for and how recent it must be both vary."
+    },
+    {
+      "q": "Does Atlantis NDT issue the CAP rating?",
+      "a": "No. Only the classification society that carries out the CAP issues the rating and its report. Our role is the thickness measurement and close-up survey support the rating depends on and, before the CAP survey, the owner's pre-CAP gauging that shows where the steel stands. Keeping measurement and rating separate is what gives the rating its credibility with charterers."
+    },
+    {
+      "q": "Can CAP gauging be combined with the renewal survey?",
+      "a": "Often it can, and doing both in one docking shares the cleaning, gas-freeing and staging. The scopes differ, though: CAP gauging is usually more extensive than the renewal survey minimum and is organised around the society's CAP procedure. Agree with the society beforehand how the measurements will be credited and reported, so the team gauges once and the data serves both purposes."
+    },
+    {
+      "q": "Which ships typically go through CAP?",
+      "a": "Mainly crude, product and chemical tankers beyond about 15 years, and older bulk carriers, especially those trading in iron ore and other heavy cargoes. Some societies also offer CAP for gas carriers and other ship types. Owners also commission it ahead of a sale or a life-extension decision, independent of any charterer's request, because it documents condition in a form buyers recognise."
+    },
+    {
+      "q": "How long is a CAP rating valid?",
+      "a": "That depends on the society's scheme and, in practice, on each charterer's vetting policy, which may require a rating no older than a set period, or a fresh assessment after major repairs. Ask the society and your main charterers before planning, because the answer decides whether the CAP should be timed with the next renewal survey or carried out on its own."
+    },
+    {
+      "q": "Can pre-CAP gauging be done without a drydock?",
+      "a": "Much of it can. Ballast tanks, decks, accessible cargo holds and, on tankers whose cargo tanks have been cleaned and gas-freed, tank structure within reach can be gauged at a berth or at anchorage. Upper structure that needs staging, and the external bottom shell, are better left to the docking. The report states which areas were sampled and which were not, so the owner knows how far to rely on it."
+    },
+    {
+      "q": "What happens if pre-CAP gauging shows substantial corrosion?",
+      "a": "It is better found now than during the CAP survey. The owner can renew or reinforce the affected structure before the assessment, adjust the docking specification, or decide that the likely rating does not justify the yard work. If the ship is also approaching a class survey, those areas will be gauged again under class rules, so the pre-CAP data helps plan that survey too."
+    }
+  ]
+}

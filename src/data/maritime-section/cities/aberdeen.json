@@ -1,0 +1,107 @@
+{
+  "slug": "aberdeen",
+  "name": "Aberdeen",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Aberdeen Thickness Measurement for Offshore Support Vessels",
+  "description": "Ultrasonic thickness measurement in Aberdeen for North Sea offshore support vessels: renewal survey gauging, cargo tank and deck hull structure, MPI.",
+  "h1": "Thickness Gauging for Offshore Support Vessels in Aberdeen",
+  "intro": "Aberdeen is the supply harbour for the UK North Sea, and its quays are lined with platform supply vessels, anchor handlers, standby and rescue vessels and subsea construction ships. These vessels work hard: decks loaded with pipe and containers, tanks switching between mud, brine and base oil, sterns worn by wire. We send a team from India to gauge them between charters or during a crew change, so that renewal survey and charterer audit findings do not arrive as surprises.",
+  "keywords": [
+    "aberdeen thickness measurement",
+    "ultrasonic thickness measurement in aberdeen",
+    "offshore support vessel inspection",
+    "psv thickness gauging",
+    "ahts stern roller inspection",
+    "hull gauging in aberdeen",
+    "ship inspection in aberdeen",
+    "errv inspection",
+    "osv tank gauging",
+    "utm north sea vessels"
+  ],
+  "highlights": [
+    {
+      "h": "Built for offshore support vessels",
+      "p": "Platform supply vessels, anchor handlers, standby and rescue vessels and construction ships each wear differently. We gauge cargo tanks, working decks and piping, and crack-test stern equipment and crane foundations."
+    },
+    {
+      "h": "Gauging between charters and voyages",
+      "p": "The best windows in Aberdeen come between contracts and during crew changes or quiet periods, when tanks used for mud, brine and base oil can be emptied, cleaned and opened for readings."
+    },
+    {
+      "h": "Ready for charterer audits",
+      "p": "OVID inspections and operators' own vessel assurance look hard at deck, tank and foundation condition. Current thickness and crack-detection records let an owner answer an auditor's questions with data rather than estimates."
+    }
+  ],
+  "port": {
+    "h": "Aberdeen: the North Sea's offshore supply harbour",
+    "p": [
+      "The Port of Aberdeen has served the UK Continental Shelf since the first North Sea oil developments, and its harbour in the city centre is built around the daily rhythm of offshore supply. Platform supply vessels load pipe, containers, drill water, fuel, mud and dry bulk for installations offshore; anchor-handling tug supply vessels mobilise for rig moves and mooring work; emergency response and rescue vessels change crews and take on stores; and subsea construction and inspection ships call between campaigns. The South Harbour at Nigg Bay added deep-water berths suited to larger offshore and decommissioning work, and offshore wind construction and service vessels now share the port with the oil and gas fleet.",
+      "Ships stay long enough to gauge for reasons specific to offshore work. Supply vessels spend part of every round trip alongside loading and back-loading, and they come off charter or wait between contracts at the quay. Crew changes, charterer audits and annual surveys are often taken in port. Swings in North Sea activity also leave vessels idle for weeks at a time, and an idle period is the right moment to open tanks that are full of cargo the rest of the year.",
+      "Inspection demand differs from cargo shipping. Offshore support vessels are judged by charterers as much as by class: operators audit vessels against their own standards and OCIMF's OVID scheme, and visible wastage on a working deck, a corroded air pipe or a cracked crane pedestal foundation will be noticed. Deck plating wears under cargo, and tank structure suffers from the variety of fluids carried. Anchor handlers take heavy, concentrated loads at the stern roller, towing pins and shark jaws, and those details need crack detection as well as thickness readings. Older standby and rescue vessels, some of them converted from other roles, need close attention to shell and tank structure."
+    ]
+  },
+  "facilities": {
+    "h": "Quays and harbours where offshore vessels are gauged",
+    "p": [
+      "Most hull gauging in Aberdeen is done alongside in the city harbour, where the team can work deck structure, cargo tanks and engine-room piping while the vessel is in port. Tank work needs the tanks emptied, cleaned and ventilated, and mud or brine tanks in particular need thorough cleaning before readings mean anything, so the cleaning plan is agreed with the master before the team arrives. Working decks are best gauged when cargo has been discharged and the deck can be cleared in sections, with the readings plotted on the deck plan so worn and gouged areas show up as a pattern rather than a list.",
+      "The South Harbour handles larger vessels and decommissioning and wind projects, where vessels may stay longer between campaigns. Further along the coast, Peterhead to the north and Montrose to the south are also used by offshore vessels, and both can be reached by road from Aberdeen. For vessels heading to a yard in Norway, the Netherlands or Poland for their renewal survey, an Aberdeen port call is a practical place to do the pre-docking gauging, because the vessel is already alongside and the crew can prepare tanks between voyages."
+    ],
+    "list": [
+      "Aberdeen city harbour quays — deck plating, cargo tank and engine-room piping gauging on platform supply vessels between voyages.",
+      "Aberdeen South Harbour, Nigg Bay — longer scopes on larger offshore and construction vessels between campaigns, including crane pedestal and A-frame foundation checks.",
+      "Anchor handler berths — stern roller, towing pin and shark jaw foundation inspection, combining UT with magnetic particle crack detection.",
+      "Peterhead harbour — in-service gauging on supply and standby vessels using the port, reached by road from Aberdeen.",
+      "Montrose harbour — gauging on offshore support and wind service vessels working from the port's quays.",
+      "Quiet-period berths — full tank programmes on idle vessels, when cargo tanks can be emptied, cleaned and opened in sequence."
+    ]
+  },
+  "context": {
+    "h": "North Sea regulation, charterer audits and the offshore market",
+    "p": [
+      "Aberdeen lies within the North Sea SOx Emission Control Area, so the offshore fleet burns 0.10% sulphur fuel, and the piping concerns that matter most on these vessels are usually sea-water cooling, fire main, fuel and the cargo lines between the deck manifolds and the tanks. Port state control in UK waters rests with the Maritime and Coastguard Agency, which after Brexit continued to inspect under the Paris MoU on the basis of UK legislation. Many vessels here fly the UK, Norwegian or open-register flags, and flag-state inspections add another layer of scrutiny for owners.",
+      "The market context is the energy transition. Oil and gas production on the UK Continental Shelf continues alongside a growing decommissioning workload and a rising number of offshore wind projects off the Scottish coast. With relatively few new offshore support vessels ordered over the past decade, many owners are keeping older tonnage working, moving vessels between oil and gas and wind charters, and taking them through renewal surveys at ages where wastage becomes significant. Charterers' vessel assurance processes expect owners to know the condition of their steel, and an Aberdeen thickness measurement record is a straightforward way to show it."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Aberdeen",
+    "p": "Offshore work in Aberdeen comes in short windows between voyages and longer windows between charters. We plan the scope with the vessel's technical manager and master so that tanks are cleaned and certified safe for entry before the team arrives, and so that loading on the quay is not held up. Where a charterer audit or a renewal survey is coming, we prioritise the structure each will look at first.",
+    "list": [
+      "PSV thickness gauging of cargo tanks used for mud, brine and base oil, done between charters after cleaning, ahead of the vessel's renewal survey at a yard abroad.",
+      "AHTS stern roller inspection: UT of the stern roller housing and transom structure, with MPI at towing pin and shark jaw foundations after a season of rig moves.",
+      "Working-deck plating survey on a supply vessel after years of pipe and container cargo, mapping wastage and gouging to plan deck renewal.",
+      "ERRV inspection on an older standby vessel: shell, ballast and fuel tank gauging plus sea-water piping, ahead of a charter renewal.",
+      "Crane pedestal and A-frame foundation crack detection on a subsea construction vessel lying at the South Harbour between campaigns, with the deck cleared for the first time in months."
+    ]
+  },
+  "logistics": "For ship inspection in Aberdeen, the international airport at Dyce is the natural arrival point, with onward connections from London and from European hubs, and the harbour is a short drive away. Supply bases and quays sit behind ISPS-controlled gates, and the vessel's agent or the base operator arranges passes in advance; offshore operators often require site inductions as well, which are completed before the job starts. The team is mobilised from India on UK visas, so we ask for the vessel's expected port days as early as possible and build in a fallback window, because offshore schedules change at short notice.",
+  "vessels": [
+    "Platform supply vessels",
+    "Anchor-handling tug supply vessels",
+    "Emergency response and rescue vessels",
+    "Subsea construction vessels",
+    "Offshore wind service vessels",
+    "Multipurpose offshore vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge PSV cargo tanks that have carried mud and brine?",
+      "a": "Yes, once they are cleaned. Residual mud and brine affect both access and readings, so tanks need to be emptied, washed, ventilated and certified safe for entry. We agree the tank sequence with the master so that some tanks stay in service while others are gauged, and record readings on the tank plans so wastage can be tracked from one survey to the next."
+    },
+    {
+      "q": "Do you combine thickness gauging with crack detection on anchor handlers?",
+      "a": "Yes. On anchor handlers the stern roller, transom, towing pins and shark jaws carry heavy concentrated loads, and fatigue cracking at welded foundations matters as much as plate wastage. We use magnetic particle testing on cleaned weld toes and UT for plate thickness, and report both against the vessel's frame numbering so repairs can be planned."
+    },
+    {
+      "q": "What does an offshore support vessel inspection before a charter audit involve?",
+      "a": "It focuses on what an auditor sees and asks about: working-deck plating, air and vent pipes, cargo tank structure, crane and A-frame foundations, and sea-water and fire-main piping. Readings and photographs are referenced to the vessel's drawings, so the owner can show current condition, explain any repairs already planned, and close audit observations with evidence."
+    },
+    {
+      "q": "Can you work at Peterhead or Montrose as well as Aberdeen?",
+      "a": "Yes. Both harbours are reachable by road from Aberdeen, and offshore support and wind service vessels use them. We arrange access through the vessel's agent or base operator, and a team already in the area can move between ports when schedules allow, which is useful when two vessels in the same fleet are in port in the same week."
+    }
+  ],
+  "nearby": ["stavanger", "bergen", "esbjerg", "newcastle", "haugesund"]
+}

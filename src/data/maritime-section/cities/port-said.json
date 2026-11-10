@@ -1,0 +1,106 @@
+{
+  "slug": "port-said",
+  "name": "Port Said",
+  "country": "Egypt",
+  "region": "middle-east",
+  "title": "UTM Thickness Gauging in Port Said: Suez Canal Ships",
+  "description": "Thickness measurement in Port Said for Suez Canal transits and East Port Said calls: hull structure gauging, scrubber piping UTM and pre-docking checks.",
+  "h1": "Ship Thickness Measurement at Port Said and the Northern Suez Canal",
+  "intro": "Port Said sits at the Mediterranean entrance to the Suez Canal, where southbound convoys assemble and container ships tranship at East Port Said. Few ships stop for long, which makes most work here targeted: a follow-up on suspect areas, a check on scrubber piping, or repair-boundary work at Port Said Shipyard. Technicians fly in from India to fit the ship's schedule, working through the agent at the anchorage, the terminals or the yard.",
+  "keywords": [
+    "utm thickness gauging in port said",
+    "thickness measurement in port said",
+    "suez canal ship inspection",
+    "hull gauging at port said",
+    "port said anchorage gauging",
+    "scrubber piping inspection at port said",
+    "thickness measurement in egypt",
+    "ship inspection port said",
+    "east port said ship inspection",
+    "port said shipyard gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Targeted gauging around the transit",
+      "p": "Southbound ships usually wait only a short time at anchor for their convoy. Port Said anchorage gauging therefore suits targeted measurements, such as re-gauging areas flagged at the last survey or checking a suspect deck or pipe, rather than a full programme."
+    },
+    {
+      "h": "Transhipment calls at East Port Said",
+      "p": "Container ships calling at the East Port Said terminal, on the Sinai side of the canal entrance, spend their time alongside working cargo. Scrubber wash-water and overboard piping, hatch coamings and accessible tanks can be gauged during the call."
+    },
+    {
+      "h": "Repairs at Port Said Shipyard",
+      "p": "Port Said Shipyard, owned by the Suez Canal Authority, takes ships for repair at the northern end of the canal. When a defect found in transit leads to a yard stay, gauging defines the repair boundary and supports the class surveyor's decision."
+    }
+  ],
+  "port": {
+    "h": "Port Said and the northern entrance to the Suez Canal",
+    "p": [
+      "Port Said and Port Fouad face each other across the northern end of the Suez Canal, with the city's west-bank harbour on one side and East Port Said, with its container terminal and industrial zone, on the other. Almost every ship using the canal passes through here, from container ships and tankers to bulk carriers, car carriers and LNG carriers. Southbound ships arrive at the anchorage off Port Said in the Mediterranean, are allocated a convoy and pilot, and enter the canal on schedule; northbound ships leave the canal here. East Port Said is also a transhipment hub inside the Suez Canal Economic Zone, so part of the traffic stops to work cargo rather than simply passing through.",
+      "The defining feature for gauging is time. A transit ship's stay at the anchorage is usually short, and the master's priorities are the canal formalities, the pilot and the convoy. That rules out a full renewal-survey programme on most transit calls, but it leaves room for focused work: measuring an area of suspect corrosion so it can be reported to class, checking a deck pipe or vent that a class surveyor or a port state control inspector has queried, or taking readings on scrubber overboard lines between drydocks. Ships that stop for bunkers, stores, crew changes or repairs, or that wait at anchor for orders, offer longer windows and wider scopes.",
+      "Inspection demand at Port Said is shaped by the canal's role as a junction. Ships heading into the Mediterranean emission control area must be on compliant fuel or running their scrubbers by the time they leave the canal, and scrubber wash-water piping on hard-worked container ships is a recurring inspection concern. Since late 2023, attacks on merchant ships in the southern Red Sea have led many operators to route around the Cape of Good Hope, cutting the number of canal transits. Traffic through Port Said has followed those routing decisions, and attendance here is planned around each owner's current routing."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations at Port Said",
+    "p": [
+      "There are four practical places to work. The anchorage off Port Said is where transit ships and ships waiting for orders lie; the agent books the launch, and boarding is timed so the gauging finishes well before the convoy call. East Port Said's container terminal offers alongside access to ships working transhipment cargo, subject to the terminal's ISPS controls and the stevedores' working zones. The berths of the west-bank harbour handle general cargo, bulk and service vessels, and Port Said Shipyard handles repair work, including drydocking.",
+      "Because time is short, preparation matters more for hull gauging at Port Said than at most ports. We ask for the last thickness measurement report, any class findings or port state control deficiencies, drawings of the area of concern and the expected time at anchor before the team travels, and the measurement points are laid out in advance so the team can board, measure and leave within the window. Where the readings point to a repair, the same data supports the decision on whether to repair at Port Said Shipyard, defer to the next planned yard, or agree a temporary measure with class."
+    ],
+    "list": [
+      "Port Said anchorage — southbound transit ships and ships waiting for orders; targeted deck, tank and piping gauging timed around the convoy schedule.",
+      "East Port Said container terminal — transhipment calls inside the Suez Canal Economic Zone; scrubber piping, hatch coaming and accessible tank gauging alongside.",
+      "Port Said Shipyard — Suez Canal Authority repair yard; drydock and repair-berth stays allow repair-boundary gauging and wider renewal-survey work.",
+      "West-bank harbour berths — general cargo, bulk and service vessel berths in the city; deck, hold and tank gauging during cargo work or lay-by.",
+      "Damietta, west along the coast — a separate Egyptian Mediterranean port where the same mobilisation can attend bulk carriers and container ships."
+    ]
+  },
+  "context": {
+    "h": "Egyptian port state control, the Mediterranean ECA and canal traffic",
+    "p": [
+      "Egypt belongs to the Mediterranean MoU, and the Egyptian Authority for Maritime Safety inspects foreign ships in its ports. For a ship calling at Port Said rather than only transiting, an inspection can raise structural items, and measured thicknesses are what let class and the owner agree whether a repair is needed before sailing. The Suez Canal Authority applies its own rules of navigation and transit requirements, separate from port state control, and the ship's agent is the route for anything that touches them.",
+      "With the Mediterranean SOx ECA in force from 1 May 2025, Port Said is the point by which northbound ships must already be burning 0.10% sulphur fuel or running an equivalent scrubber arrangement. Scrubber-fitted ships that switch modes on entering the Mediterranean put their wash-water and overboard piping through hard service, with erosion and corrosion concentrating at bends, valves and shell penetrations. Gauging those lines during a call, and comparing readings over successive calls, gives the superintendent warning before a leak becomes a detention item. Container lines, tanker operators and bulk owners all route through here, so the same scrubber concern appears across ship types."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Mediterranean MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Port Said",
+    "p": "Port Said work is short and specific. The scenarios below are built around the windows the port actually offers, an anchorage wait before the convoy, a transhipment call at East Port Said or a repair stay at the yard, and the scope is fixed in advance so that the measurement fits the time available, with the reporting format agreed with the superintendent beforehand.",
+    "list": [
+      "Re-gauging of a deck area flagged as suspect at the last annual survey on a southbound tanker at the Port Said anchorage, timed to finish before the convoy call.",
+      "Wall-thickness readings on the scrubber overboard and wash-water lines of a container ship working transhipment cargo at East Port Said, compared with the figures from its previous docking.",
+      "Repair-boundary gauging around a damaged shell or deck area at Port Said Shipyard, showing class where plating is sound and how far renewal must extend.",
+      "Pre-purchase gauging of a bulk carrier waiting at anchor for orders, covering deck, hatch covers and accessible ballast tanks so the buyer's superintendent has measured figures.",
+      "Fire-main and ballast line gauging on a ship that has stopped for bunkers and stores, after pinhole leaks on deck lines raised questions about the rest of the system."
+    ]
+  },
+  "logistics": "Most journeys to Port Said start at Cairo International Airport, followed by a road transfer along the line of the canal. At the anchorage the ship's agent arranges the launch and sets the boarding time against the convoy schedule, while access to East Port Said, the harbour berths and the shipyard requires gate passes requested through the agent with passport details in advance. Egyptian visas for the team are obtained before travel from India, so the earlier the expected arrival window is known, the easier it is to place technicians at Port Said when the ship is actually there.",
+  "vessels": [
+    "Container ships",
+    "Crude and product tankers",
+    "Bulk carriers",
+    "LNG carriers",
+    "Car carriers and ro-ro ships",
+    "Offshore and service vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a ship during a Suez Canal transit stop at Port Said?",
+      "a": "Yes, if the scope fits the time at anchor. A transit stop suits targeted work: re-gauging suspect areas, checking a pipe run or measuring a deck area before class attends. We fix the measurement points from drawings and previous reports before the team boards, and coordinate the boarding time with the agent so the work finishes before the convoy call."
+    },
+    {
+      "q": "Does Suez Canal ship inspection include thickness measurement?",
+      "a": "No. The Suez Canal Authority's checks relate to transit and navigation, and port state control inspections relate to compliance with the conventions; neither measures plate thickness. Gauging is arranged by the owner, usually to answer a question from class, a vetting inspector or the superintendent, and the results go onto the class society's thickness measurement formats."
+    },
+    {
+      "q": "What does the Mediterranean ECA mean for scrubber piping inspection at Port Said?",
+      "a": "Ships entering the Mediterranean from the canal must meet the ECA's 0.10% sulphur limit, so scrubber-fitted ships rely on their systems from Port Said onwards. Wash-water and overboard lines take erosion and corrosion at bends, valves and the shell penetration, and gauging them during a call gives a trend to compare against the readings from the last docking."
+    },
+    {
+      "q": "Do you offer thickness measurement in Egypt beyond Port Said?",
+      "a": "Yes. The same team can attend at Suez and Ain Sokhna at the southern end of the canal, at Alexandria and El Dekheila on the Mediterranean coast, and at Damietta. A ship with gauging split between a transit stop and a later port call can be followed through the country on one mobilisation from India."
+    }
+  ],
+  "nearby": ["suez", "alexandria", "limassol", "larnaca"]
+}

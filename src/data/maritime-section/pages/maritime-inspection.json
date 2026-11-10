@@ -1,0 +1,159 @@
+{
+  "slug": "maritime-inspection",
+  "navLabel": "Maritime inspection",
+  "title": "Ship Thickness Measurement (UTM) and Maritime Inspection",
+  "description": "Ship thickness measurement (UTM) and hull inspection: CAP, ESP and renewal survey gauging, ship and scrubber piping, crack detection. Teams from India.",
+  "h1": "Maritime Inspection: Ship Thickness Measurement, Hull and Piping",
+  "eyebrow": "Maritime inspection",
+  "intro": "Atlantis NDT carries out ultrasonic thickness measurement (UTM) and related inspection on ships: hull gauging for renewal and intermediate surveys, gauging for Condition Assessment Programme (CAP) and enhanced survey programme (ESP) work, pre-docking steel estimates, ship piping and scrubber piping inspection, and magnetic particle crack detection. Every job is a mobilisation from India to the vessel, planned around her schedule, the drydock slot and the visas our technicians need. Send us the vessel, her class and the survey due date, and we will plan the gauging around them.",
+  "highlights": [
+    { "h": "Gauging planned around the survey", "p": "We work back from the survey window: which areas the rules require at this renewal or intermediate survey, what the last report showed and where substantial corrosion was recorded, so the readings answer the surveyor's questions." },
+    { "h": "One Responsible Level III", "p": "Procedures, technician qualification and report review sit with a single Responsible NDT Level III, certified by ASNT in UT, RT, MT, PT and VT, with more than eleven years of international field experience." },
+    { "h": "Mobilised from India, planned early", "p": "Teams travel from India to the yard, berth or anchorage for each job. Visas and access are arranged against the confirmed docking or port call, which is why we ask for dates as early as you have them." }
+  ],
+  "sections": [
+    {
+      "id": "maritime-inspection-services",
+      "h": "Maritime inspection services: what we measure and inspect",
+      "p": [
+        "Most maritime NDT comes back to one question: how much steel is left, and is it enough. Ultrasonic thickness measurement answers it for plating, stiffeners and piping, and it is the measurement that class rules, charterers and buyers all rely on to judge the hull structural condition of a ship. Around it sit the inspections that find what thickness readings cannot: cracks at fatigue-prone details, and local wall loss in systems such as scrubber piping that sit outside the hull survey.",
+        "Each service has its own page with the technical detail; this page shows how they fit together."
+      ],
+      "list": [
+        "Ultrasonic thickness measurement (UTM) of shell and deck plating, tank and hold structure, bulkheads, frames, longitudinals and brackets",
+        "Gauging for renewal (special) surveys, intermediate surveys and the annual-survey follow-up of substantial corrosion, with close-up survey support",
+        "Gauging for the Condition Assessment Programme (CAP), the class society's condition assessment inspection of older ships",
+        "Gauging on ESP ships: oil tankers, chemical tankers and bulk carriers, including double-hull and double-skin designs",
+        "Pre-docking gauging and steel renewal estimates before the yard is contracted",
+        "Condition gauging for pre-purchase inspections and for on-hire and off-hire surveys",
+        "Ship piping inspection: cargo, ballast, fuel oil, sea water cooling and fire main lines",
+        "Scrubber (EGCS) wash-water and overboard discharge piping inspection",
+        "Magnetic particle and penetrant crack detection at fatigue-prone details, and ultrasonic testing of welds"
+      ]
+    },
+    {
+      "id": "who-commissions-ship-gauging",
+      "h": "Who commissions ship thickness gauging, and why",
+      "p": [
+        "Technical superintendents and fleet managers at ship-management companies commission most gauging, usually against a survey due date. They need readings that will satisfy the attending surveyor and, well before that, an honest estimate of the steel the yard will have to renew, because the steel list drives the repair specification and the length of the docking.",
+        "Shipyard project managers call for gauging when a repair specification needs confirming or extending once the ship is in dock. Owners preparing older tankers for oil-major vetting, and the charterers' vetting staff who review them, ask for condition gauging and CAP, which is often expected once a tanker passes about fifteen years. Buyers want pre-purchase gauging, the measurement part of a pre-purchase inspection, before they commit. Owners and charterers use on-hire and off-hire gauging to record the condition a ship was delivered and redelivered in, and P&I and hull and machinery surveyors sometimes need gauging to support a condition survey."
+      ]
+    },
+    {
+      "id": "renewal-intermediate-annual-survey-gauging",
+      "h": "How thickness gauging fits renewal, intermediate and annual surveys",
+      "p": [
+        "The class cycle sets the rhythm: annual surveys, an intermediate survey in place of the second or third annual, and a renewal (special) survey every five years, with two docking surveys in each five-year period. Gauging is light at the first renewal survey and grows with each one. For ESP ships the third renewal survey, the 15-year survey, brings heavy gauging of the cargo and ballast tanks, and the 20-year and 25-year surveys go further, with more transverse sections, more close-up survey and more readings.",
+        "Two consequences matter for planning. The rules allow a renewal survey to be commenced at the fourth annual survey and progressed through the following year, so gauging can be spread between port calls and the docking instead of all landing in the yard period. And areas found with substantial corrosion, where wastage has used up more than three-quarters of the allowable margin without exceeding it, are measured again at later annual and intermediate surveys, so one renewal report sets part of the scope for the next five years. Excessive corrosion, beyond the allowable margin, means renewal.",
+        "Typical findings are general wastage of plating and stiffeners, pitting on tank bottoms and horizontal surfaces, grooving corrosion alongside welds, and edge corrosion at cut-outs and free edges. The gauging plan targets the details each ship type is known for, and the previous report shows where to look harder."
+      ]
+    },
+    {
+      "id": "india-mobilised-inspection-teams",
+      "h": "How an India-mobilised inspection team works",
+      "p": [
+        "We do not keep staff at the ports we serve. Every job is a mobilisation: a team travels from India to the vessel, does the work and returns. We say so plainly because it shapes the planning, and because it suits the way ship managers already work. Drydocks are booked months ahead, and so is our team.",
+        "Planning runs on three calendars at once: the vessel's schedule, which moves; the drydock slot, which the yard confirms and sometimes shifts; and the visa process for the destination country, which has its own lead time. We start the visa application as soon as there is a confirmed port and supporting letters from the yard or the ship's agent, and we keep the team's dates flexible around the docking. When a port call is too short or too uncertain for the scope, we say so and suggest where in the voyage the gauging fits better.",
+        "Procedures, technician qualification and report review sit with one Responsible NDT Level III, our founder, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience. Technicians are qualified and certified under our written practice to ASNT SNT-TC-1A, and Atlantis holds ISO 9001 and ISO 14001 certification. The team travels with its own ultrasonic thickness gauges and magnetic particle testing equipment."
+      ]
+    },
+    {
+      "id": "class-approval-iacs-ur-z17",
+      "h": "Which gauging needs a firm approved by the ship's classification society (IACS UR Z17)",
+      "p": [
+        "Thickness measurement credited to a class survey must be carried out by a firm approved by that ship's classification society under IACS UR Z17. Approval is held separately with each society, so the vessel's class decides which firms may do her survey gauging. On ESP ships the rules also require a survey planning meeting before gauging starts, attended by the surveyor, the master, the owner's representative and the thickness measurement firm, and the surveyor witnesses and controls the measurement.",
+        "A great deal of useful gauging is never credited to a survey and needs no class approval. The table sets out the usual position; where a charterer, financier or insurer sets its own requirement, that requirement governs.",
+        "One practical point: readings taken by a firm the ship's class has not approved cannot later be turned into survey readings. If one gauging is to serve as both the steel estimate and the survey record, the firm must hold that society's approval when the readings are taken."
+      ],
+      "table": {
+        "head": ["Work", "Credited to a class survey?", "Who may do it"],
+        "rows": [
+          ["Renewal (special) survey gauging", "Yes", "A firm approved by the ship's classification society under UR Z17"],
+          ["Intermediate survey gauging and annual-survey gauging of substantial corrosion", "Yes", "A firm approved by the ship's classification society"],
+          ["CAP gauging", "It feeds the society's CAP rating", "Expect the society running the CAP to require a firm it has approved; confirm with the society"],
+          ["Pre-docking steel renewal estimate", "No, unless the same readings are to be offered to the surveyor", "Any competent gauging firm; an approved firm if the readings are to be credited"],
+          ["Gauging for a sale, or at charter delivery and redelivery", "No", "Any competent gauging firm the parties agree on"],
+          ["Scrubber and ship piping condition monitoring between surveys", "No", "Any competent inspection firm"],
+          ["Crack detection for the owner's maintenance records", "No", "Any competent firm with qualified MT and PT technicians"]
+        ]
+      }
+    },
+    {
+      "id": "drydock-lay-by-berth-anchorage-gauging",
+      "h": "Where ships are gauged: drydock, lay-by berth or anchorage",
+      "p": [
+        "In drydock the whole hull is accessible, staging is up and tanks are gas-free, which is why renewal survey gauging gravitates there. The catch is that gauging then sits on the critical path of the docking: late readings delay the steel list, and a late steel list lengthens the yard period.",
+        "Afloat, alongside a lay-by berth or at anchor, much of the internal structure can be gauged during a port stay if the tanks can be cleaned, ventilated and released for entry and the ship's operations allow it. Pre-docking gauging is usually done this way, a voyage or two before the docking, so the steel renewal estimate exists before the yard is contracted; external bottom plating and areas that need staging wait for the dock. Access at anchorage is by launch, arranged through the ship's agent; at a berth it goes through the terminal's ISPS gate pass process.",
+        "Every tank entry runs under the ship's permit-to-work system, and we agree the tank sequence with the chief officer so that gauging follows the cargo and ballast plan rather than holding it up."
+      ]
+    },
+    {
+      "id": "ship-piping-scrubber-crack-detection",
+      "h": "Ship piping, scrubber piping and crack detection",
+      "p": [
+        "Ship piping fails from the inside, so the outside view says little. Sea water cooling and ballast piping loses wall at bends, reducers and downstream of valves; fire mains corrode where water stands; cargo piping on tankers thins along the bottom of horizontal runs. Gauging a planned grid of points on each spool finds the thin sections before a leak does.",
+        "Scrubber wash-water and overboard discharge piping is the newer problem. The wash water is warm and acidic, the materials are mixed (coated or rubber-lined carbon steel, stainless and duplex grades, glass-reinforced plastic), and failures cluster at joints, at the distance piece to the shell and in the shell plating around the discharge. A leak there is a flooding risk, not a maintenance nuisance. Scrubber pipe inspection covers the metallic sections, and the dedicated page explains how.",
+        "Thickness readings do not find cracks. Magnetic particle crack detection does, at the details where fatigue starts: bracket toes, end connections of longitudinals at transverse webs and bulkheads, hatch corners, hopper knuckles and cut-outs. Penetrant testing covers non-magnetic materials, and ultrasonic testing of welds answers questions about defects below the surface."
+      ]
+    },
+    {
+      "id": "ship-inspection-enquiry",
+      "h": "How to send a ship inspection enquiry",
+      "p": [
+        "A complete enquiry lets us plan the team, the visas and the scope in one reply: we come back with the proposed team, the gauging plan, the access and visa arrangements and the dates we can hold. Send what you have from the list below and we will ask for the rest."
+      ],
+      "list": [
+        "Vessel name and IMO number, ship type and year of build",
+        "Classification society, and whether the readings are to be credited to a class survey",
+        "Survey due: which survey (renewal, intermediate, annual or CAP) and its due date or window",
+        "Location and dates: the yard, berth or anchorage, with expected arrival and departure",
+        "Scope: hull gauging, CAP, ship piping, scrubber piping, crack detection, or a combination",
+        "The last thickness measurement report, the survey programme if one exists, and structural drawings such as the midship section, shell expansion and tank plan",
+        "The ship's agent at the port, and the superintendent and on-board contacts"
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 (hull surveys)",
+    "IACS UR Z10.1 to Z10.5 (enhanced surveys of oil tankers, bulk carriers, chemical tankers, double-hull oil tankers and double-skin bulk carriers)",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter XI-1, regulation 2 (enhanced surveys)",
+    "2011 ESP Code (IMO resolution A.1049(27))",
+    "MARPOL Annex VI, regulation 14 (sulphur oxides)",
+    "ASNT SNT-TC-1A (personnel qualification and certification)",
+    "ASTM E797 (ultrasonic pulse-echo contact thickness measurement)",
+    "ASTM E709 (magnetic particle testing)",
+    "ASTM E165 (liquid penetrant testing)",
+    "ISO 9001 and ISO 14001 (company certification)"
+  ],
+  "deliverables": [
+    "Gauging plan agreed before the team travels: areas, points and tank sequence",
+    "Thickness measurement report with original, measured and minimum thickness and diminution for each reading",
+    "Sketches and drawings locating every reading",
+    "Summary of areas of substantial and excessive corrosion",
+    "Steel renewal estimate for pre-docking work",
+    "Ship piping and scrubber piping condition reports with minimum wall by spool",
+    "MT and PT crack detection reports with indication locations",
+    "Technician certificates and equipment calibration records"
+  ],
+  "industries": [
+    "Oil and chemical tankers",
+    "Bulk carriers",
+    "Container ships",
+    "Gas carriers",
+    "Offshore support vessels",
+    "Ro-ro and general cargo ships",
+    "Ship-management companies and owners",
+    "Shipyards",
+    "Charterers' vetting teams",
+    "P&I and H&M surveyors"
+  ],
+  "faqs": [
+    { "q": "What is ultrasonic thickness measurement (UTM) on a ship?", "a": "UTM sends a pulse of ultrasound into the steel and times its echo to measure the remaining thickness from one side, through the coating where the gauge mode allows. On ships it is used on plating, stiffeners and piping to compare measured thickness with the original, work out the diminution and check it against the class society's allowable margins. It underpins renewal survey gauging, CAP, pre-docking steel estimates and condition gauging." },
+    { "q": "Does every thickness gauging job need a firm approved by the ship's class?", "a": "No. Only gauging that is to be credited to a class survey needs a firm approved by that ship's classification society under IACS UR Z17. Owner's and charterer's condition gauging, pre-docking steel estimates, pre-purchase and on/off-hire gauging, and scrubber and piping monitoring between surveys do not need class approval. Include the vessel's class in your enquiry so the plan reflects it from the start." },
+    { "q": "How much notice do you need before a docking?", "a": "Contact us the day the yard confirms the slot. The team travels from India, so the visa application needs a confirmed port and supporting letters, and visa processing has its own lead time that differs by country. Booking early also leaves room for pre-docking gauging a voyage or two before the docking, which gives you a steel estimate before the repair specification is finalised." },
+    { "q": "What does pre-docking gauging give us?", "a": "An estimate of the steel the yard will have to renew, before the yard is contracted: which plates and stiffeners are at or near their renewal thickness, roughly how much area, and where. The superintendent can then write a realistic repair specification and plan the docking length, rather than discovering the steel scope once the ship is already in dock." },
+    { "q": "Who is responsible for the inspection work?", "a": "Procedures, technician qualification and the review of reports sit with our Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT. The technicians on board are qualified and certified under our written practice to ASNT SNT-TC-1A. For gauging credited to a class survey, the attending surveyor witnesses the measurement and decides what is accepted." },
+    { "q": "Which ships do you gauge?", "a": "Oil and chemical tankers, bulk carriers, container ships, gas carriers, offshore support vessels, ro-ro ships and general cargo ships. The ESP ships, meaning oil tankers, chemical tankers and bulk carriers, carry the heaviest gauging scope as they age, and older tankers add CAP to it. Give us the ship type and year of build and we will outline what her next survey is likely to need." }
+  ]
+}

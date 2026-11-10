@@ -1,0 +1,107 @@
+{
+  "slug": "szczecin",
+  "name": "Szczecin",
+  "country": "Poland",
+  "region": "europe",
+  "title": "UTM Thickness Measurement Szczecin and Świnoujście",
+  "description": "Thickness measurement in Szczecin and Świnoujście: UTM of hull structure on bulk carriers, river-sea coasters and ro-pax, plus pre-docking and ESP gauging.",
+  "h1": "Ship Thickness Measurement in Szczecin and Świnoujście",
+  "intro": "Szczecin lies up the Oder behind a long lagoon fairway, while Świnoujście at the sea end has the LNG terminal and the ro-pax berths for Sweden. Between them they handle bulk carriers, river-sea coasters, ferries and LNG carriers, with ship repair at MSR Gryfia. We mobilise a gauging team from India to Szczecin for renewal-survey, pre-docking and pre-purchase work, timed to the ship's stay or its slot in the dock.",
+  "keywords": [
+    "thickness measurement in szczecin",
+    "utm thickness measurement szczecin",
+    "ship thickness measurement in szczecin",
+    "szczecin hull gauging",
+    "msr gryfia",
+    "ship inspection in świnoujście",
+    "bulk carrier gauging",
+    "river-sea coaster",
+    "esp gauging",
+    "utm swinoujscie"
+  ],
+  "highlights": [
+    {
+      "h": "Lagoon and river berths",
+      "p": "Ships reach Szczecin through the Szczecin Lagoon and the lower Oder and moor in low-salinity water. Long cargo stays at the city's bulk and general cargo quays leave time for hold and tank gauging."
+    },
+    {
+      "h": "Repair at MSR Gryfia",
+      "p": "MSR Gryfia docks and repairs merchant vessels in Szczecin. Gauging done as the ship settles in the dock lets the yard and the class surveyor mark renewal areas before the repair schedule is drawn up."
+    },
+    {
+      "h": "Świnoujście ferries and LNG",
+      "p": "At the sea end, ro-pax and rail-capable ferries run to Ystad and Trelleborg, and LNG carriers discharge at the Świnoujście terminal. Their gauging is planned around tight schedules and strict terminal safety rules."
+    }
+  ],
+  "port": {
+    "h": "The Szczecin–Świnoujście port complex",
+    "p": [
+      "Szczecin and Świnoujście are run as one port complex by the Szczecin and Świnoujście Seaports Authority, but they sit at opposite ends of a long approach. Świnoujście lies on the coast at the mouth of the Świna, facing the Pomeranian Bay. From there, ships bound for Szczecin follow a dredged fairway across the Szczecin Lagoon and up the lower Oder to the city's quays. The two ends do different work: Świnoujście takes the ferries to Sweden, the LNG terminal and deeper-draught bulk ships, while Szczecin handles dry bulk such as coal, grain and fertilisers, steel, general and project cargo, and river-sea traffic linked to the Oder waterways towards Germany.",
+      "The fleet reflects that split. At Świnoujście, ro-pax and rail-capable ferries run several services to Ystad and Trelleborg, LNG carriers discharge at the terminal, and bulk carriers work at the coastal berths. Upriver at Szczecin, the typical caller is a handysize or smaller bulk carrier, a general cargo or multipurpose ship, or a river-sea coaster built with shallow draught and low air draught for inland and coastal trades. Szczecin is also the headquarters city of one of Poland's largest dry-bulk shipowners, and ship repair at MSR Gryfia brings docking traffic from short-sea and deep-sea fleets.",
+      "Port stays here are rarely short. The passage across the lagoon and up the river takes time, so ships calling at Szczecin rarely make quick turnarounds; cargo work on bulk and project cargo runs over days; the Sweden ferries stop for lay-bys and go to dock on a planned cycle; and ships docking at MSR Gryfia have a fixed period out of the water. What makes Szczecin hull gauging distinctive is the mix of river-sea and short-sea tonnage. Coasters and river-sea ships have thin plating, many are not ESP ships, and their renewal surveys often find wastage concentrated in ballast tanks, double bottoms and the lower hold. In cold winters the lagoon and river freeze, and icebreaking keeps the fairway open, which lengthens passage times further."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships are gauged around Szczecin",
+    "p": [
+      "On the Szczecin quays, gauging follows cargo operations. Bulk carriers and general cargo ships are measured one hold at a time, whenever a hold stands empty between discharge and loading, with double-bottom, hopper and topside tanks entered under the ship's enclosed-space permits. River-sea coasters, with their compact holds and thin plating, need a dense reading pattern and careful calibration, but their scopes are small enough to finish within a normal cargo stay. Low-salinity water at the quays makes no difference to the method; the readings record what the ship's whole trading life has done to the steel.",
+      "At Świnoujście the pace is different. The ferries keep to timetables, so work on vehicle decks, rail decks, ramps and tanks is packaged to fit lay-by periods. LNG carriers at the terminal are under strict safety rules, so gauging alongside covers only the main deck, ballast tanks and sea water lines, and never the cargo containment system. At MSR Gryfia, the docking crew's staging and tank preparation set the pace, and gauging of the double bottom, side shell and pipework keeps step with it. For ships waiting out in the Pomeranian Bay, the agent arranges a launch."
+    ],
+    "list": [
+      "Szczecin bulk and general cargo quays — bulk carriers, steel and project cargo ships; hold frames, tank tops and hatch coamings gauged during long cargo stays",
+      "MSR Gryfia, Szczecin — ship-repair yard with docking capacity; full hull, tank and piping gauging for renewal surveys and for steel lists drawn up before the ship arrives",
+      "Świnoujście ferry terminal — ro-pax and rail-capable ferries to Ystad and Trelleborg; vehicle-deck, rail-deck and ramp gauging during lay-by",
+      "Świnoujście LNG terminal — LNG carriers discharging; deck, ballast and sea water piping work only, inside the terminal's safety regime",
+      "Świnoujście coastal bulk berths — deeper-draught bulk carriers; hold and ballast-tank gauging during cargo operations",
+      "Pomeranian Bay anchorage — ships waiting off Świnoujście for a berth or the fairway; a launch out of Świnoujście, booked by the agent, carries the team"
+    ]
+  },
+  "context": {
+    "h": "Polish and cross-border context for Szczecin shipping",
+    "p": [
+      "The Pomeranian Bay and the lagoon fairway are Baltic SECA waters, where fuel may contain no more than 0.10% sulphur, and Poland, like its neighbours, enforces port state control through the Paris MoU. The Baltic was the first sulphur ECA to be designated, so ferries on the Sweden routes have worked under tightening sulphur limits for longer than most; operators met the current limit with compliant fuel or exhaust gas scrubbers, and where scrubbers were chosen, the acidic discharge lines are now a standing item in the gauging plan. Because the Ystad and Trelleborg crossings link two EU states, their emissions are fully counted for the EU ETS (shipping joined it in 2024) and for FuelEU Maritime (applied from 2025). The LNG terminal is Poland's import point for seaborne gas, which brings LNG carriers to the coast end of the complex.",
+      "Szczecin's position on the German border shapes its trade and its logistics. Cargo moves between the port and Germany by road, rail and river, and Berlin is closer than Warsaw. For the dry-bulk fleets calling here and managed from the city, gauging under the ESP regime grows with each renewal survey, with IACS UR Z10.2 covering single-side-skin bulk carriers and Z10.5 the double-skin designs, while river-sea and short-sea vessels are surveyed to UR Z7 and their own class rules. Ship inspection in Świnoujście tends to be about ferries and gas carriers, and inspection in Szczecin about bulk and coasters."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Szczecin",
+    "p": "Szczecin jobs follow the split between the two ends of the port. Upriver, the work is bulk carriers, general cargo ships, coasters and dockings at MSR Gryfia; at the coast, it is ferries and LNG carriers on tight schedules. Because bulk carriers make up much of the traffic upriver, bulk carrier gauging is the staple there, with ESP renewal surveys the biggest individual scopes and dockings at MSR Gryfia the most time-critical.",
+    "list": [
+      "ESP renewal-survey gauging on a handysize bulk carrier docked at MSR Gryfia, covering cargo holds, double-bottom and topside tanks, with readings handed to the surveyor daily",
+      "Measuring holds, tank tops and hatch coamings on a river-sea coaster discharging at a Szczecin quay, to plan steel ahead of her next renewal survey",
+      "Vehicle-deck and rail-deck plating gauging on a Trelleborg-route ferry at Świnoujście, staged across lay-by periods, with crack detection at ramp and rail-track fastening welds",
+      "Ballast-tank and deck gauging on an LNG carrier during her stay at Świnoujście, inside the terminal's permit system and away from the cargo containment system",
+      "Gauging for a prospective buyer on a bulk carrier at the Pomeranian Bay anchorage, with hold-frame, deck and ballast-tank wastage set out for the buyer before the deal closes"
+    ]
+  },
+  "logistics": "The team flies into Szczecin-Goleniów Airport or, for wider international connections, Berlin Brandenburg Airport across the German border, and continues by road to Szczecin or Świnoujście. The ship's agent sorts out ISPS gate passes for the quays and terminals and launches for anchored ships; MSR Gryfia handles entry to the yard. Poland and Germany are both Schengen states, so one Schengen visa covers the route for our technicians from India; we fix dates as soon as the docking or cargo window is firm.",
+  "vessels": [
+    "Bulk carriers",
+    "River-sea coasters",
+    "General cargo and project cargo ships",
+    "Ro-pax and rail ferries",
+    "LNG carriers",
+    "Container feeder ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge river-sea coasters on the Oder trade?",
+      "a": "Yes. River-sea coasters have shallow hulls, compact holds and thin plating, so we use probes and calibration suited to thin material and a denser reading pattern than on a deep-sea ship. Many are not ESP ships, but their renewal surveys still need structured gauging of shell, decks, holds and tanks, and the class or flag surveyor needs readings laid out clearly to decide on renewal."
+    },
+    {
+      "q": "Can you gauge LNG carriers at the Świnoujście terminal?",
+      "a": "Within limits. During a terminal call we can gauge deck structure, ballast tanks the crew has made safe, and sea water and fire main piping, all cleared under the LNG terminal's safety regime and the ship's own permits. The cargo containment system is outside our scope. Larger hull gauging scopes on gas carriers are better planned for a docking."
+    },
+    {
+      "q": "Do you work in dock at MSR Gryfia?",
+      "a": "Yes, on the owner's instruction and with the yard's agreement. Gryfia prepares the ship, with staging on the shell, tanks cleaned and certified gas-free, and we follow behind, taking the bottom and the double-bottom tanks first because that is where coasters and bulk carriers on this trade usually lose most steel. A running set of readings is passed to the owner and the surveyor so the renewal plan is fixed in the opening days."
+    },
+    {
+      "q": "Is ice a problem on the Szczecin Lagoon?",
+      "a": "In cold winters the lagoon and the lower Oder freeze, and icebreaking keeps the fairway open, so passage times and berthing can slip. Below deck the ice changes nothing except the couplant we use. We build a margin into winter schedules and keep close contact with the agent, and if the ship is delayed in the ice the team waits ashore rather than at the quay."
+    }
+  ],
+  "nearby": ["gdansk", "gdynia", "rostock", "copenhagen"]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "dublin",
+  "name": "Dublin",
+  "country": "Ireland",
+  "region": "europe",
+  "title": "Dublin Port UTM: Thickness Measurement for Ships in Ireland",
+  "description": "Ultrasonic thickness measurement in Dublin for ro-pax ferries, product tankers and bulk carriers: pre-docking gauging, renewal survey and hull structure.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Dublin Port",
+  "intro": "Dublin Port is Ireland's largest port and the main gateway for its trade with Britain and continental Europe, dominated by ro-ro and ro-pax ferries, with lo-lo container ships, product tankers and bulk carriers alongside. With the city's last working graving dock closed, gauging here is in-service work fitted around timetables and cargo operations. Atlantis sends technicians from India for each Dublin job, and the readings reach the superintendent ahead of the refit or survey that will happen elsewhere.",
+  "keywords": [
+    "dublin port utm",
+    "ultrasonic thickness measurement in dublin",
+    "thickness measurement for ships in ireland",
+    "ship inspection in dublin port",
+    "ro-pax ferry inspection",
+    "hull gauging in ireland",
+    "pre-docking gauging",
+    "tanker gauging in dublin",
+    "dublin bay anchorage",
+    "irish sea ferry gauging"
+  ],
+  "highlights": [
+    {
+      "h": "In-service work for refits elsewhere",
+      "p": "With no working graving dock left in Dublin, gauging here feeds refits and dockings at yards in Britain or on the Continent, and the report has to reach the yard before its specification is fixed."
+    },
+    {
+      "h": "Ferries on fixed timetables",
+      "p": "Irish Sea and continental ro-pax ferries turn round quickly but return to the same berths, so vehicle-deck, ramp, piping and tank inspection can be staged across consecutive calls."
+    },
+    {
+      "h": "EU rules apply in full",
+      "p": "Ireland applies the EU ETS, FuelEU Maritime and the at-berth sulphur limit, and the North-East Atlantic ECA brings 0.10% sulphur fuel to Irish waters at sea from 1 September 2028."
+    }
+  ],
+  "port": {
+    "h": "Dublin Port: Ireland's ferry and unitised cargo gateway",
+    "p": [
+      "Dublin Port, run by Dublin Port Company at the mouth of the Liffey, handles a large part of the ro-ro freight moving between Ireland and Great Britain, along with direct sailings to continental Europe. Irish Ferries and Stena Line run ro-pax services to Holyhead, P&O Ferries sails to Liverpool, and since Brexit more capacity has been placed on direct routes to France and other EU ports that avoid the UK land bridge altogether. Lo-lo container terminals handle feeder and short-sea services linking Dublin with Rotterdam, Antwerp and other hubs.",
+      "Product tankers are the other constant. Dublin is an important entry point for road fuels and other refined products into the east of Ireland, with oil berths and tank storage in the port estate, and the tankers that serve them are mostly product and chemical tankers on regular European runs. Bulk carriers bring animal feed, grain, fertiliser and other cargoes, general cargo ships work the common-user berths, and cruise ships call through the season.",
+      "Without a working commercial drydock, Dublin's gauging windows come from the operating pattern rather than from yard stays. Ro-pax ferries turn around quickly but keep to timetables and come back to the same berths, so a staged programme over consecutive calls is realistic. Product tankers discharge at the oil berths under terminal rules but call often enough on regular trades to plan gauging between cargoes. Bulk carriers discharging feed or grain spend several days alongside with holds opening in turn. Most of the readings taken here feed a docking or refit at a yard in Britain or on the Continent, so the report has to arrive before the yard specification is fixed, and the scope is written with that yard's steel list in mind. Ship inspection in Dublin Port is, in that sense, preparation for work that will be done somewhere else."
+    ]
+  },
+  "facilities": {
+    "h": "Berths in Dublin Port where gauging is done",
+    "p": [
+      "Ferry terminals are the busiest places to work. A ro-pax ferry at Dublin may be discharging and loading freight within a few hours, so the team boards with the crew's agreement, works the vehicle decks and ramps in the areas released between trailer movements, and concentrates below decks on engine-room piping and ballast tanks prepared before arrival. Repeated calls let the programme build up without a dedicated stop, and the same reference points are used on every visit. Irish Sea ferry gauging is easiest when the chief engineer releases one or two ballast tanks per call; over a few weeks that covers the tanks a refit specification needs.",
+      "At the oil berths, terminal rules govern work on deck and tank entry, so tanker gauging in Dublin concentrates on piping and released deck areas while alongside, with tank work planned for a gas-free window. Lo-lo terminals, bulk berths and the cruise berths offer simpler access, and ships waiting at the Dublin Bay anchorage can be reached by launch through the ship's agent when sea conditions allow, which on an exposed bay is not every day. Cruise ships at the cruise berths are in for a day, which suits engine-room and scrubber piping as one stage of a programme spread across the itinerary."
+    ],
+    "list": [
+      "Ro-ro and ro-pax ferry terminals — vehicle-deck, ramp, bow-door and ballast tank checks on Irish Sea and continental ferries, staged over consecutive calls.",
+      "Oil berths — while a product or chemical tanker discharges, UT of deck cargo lines, ballast piping and released deck areas inside the terminal's permit rules.",
+      "Lo-lo container terminals — upper-deck and hatch coaming gauging on feeder container ships during cargo work.",
+      "Bulk and common-user berths — fertiliser and feed carriers alongside for days, long enough for hopper and hold readings once residues are washed out.",
+      "Dublin Bay anchorage — tanker tank work in a gas-free window, or deck readings on cargo ships held off the port, when the bay is calm enough to board."
+    ]
+  },
+  "context": {
+    "h": "EU rules, port state control and the post-Brexit Irish Sea",
+    "p": [
+      "Ireland applies EU maritime law in full. Port state control is carried out by the Marine Survey Office of the Department of Transport as a member of the Paris MoU. Alongside, the EU Sulphur Directive applies: a ship at a Dublin berth beyond two hours must switch to 0.10% sulphur fuel. The EU ETS has covered shipping since 2024, with voyages between Dublin and other EU ports counted in full and those to Holyhead or Liverpool counted at half, and FuelEU Maritime has applied since 2025 on the same basis.",
+      "The Irish Sea lies outside the existing SOx ECAs, but the North-East Atlantic ECA adopted by the IMO in 2026 covers Ireland's waters and will require 0.10% sulphur fuel at sea from 1 September 2028. For ferry and tanker operators on Irish routes, that date and their EU ETS obligations now weigh in decisions on fuel, scrubbers and fleet renewal, and owners extending an older ferry's working life need reliable steel-condition data to justify it to class, to lenders and to themselves. Hull gauging in Ireland is increasingly part of that conversation rather than a box ticked at the refit."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Dublin",
+    "p": "Dublin jobs are in-service and usually tied to a refit or survey that will happen somewhere else. We agree the scope with the superintendent, match it to the ship's timetable or cargo plan, and deliver readings in the class TM format so the yard and the class surveyor can work from them directly. Repeat calls make large scopes manageable even when each individual visit is short.",
+    "list": [
+      "Holyhead-route ro-pax ferry: pre-docking readings split across several Dublin calls, so the steel and pipe list is ready before the ship's annual refit in a British or continental yard.",
+      "Product tanker work: deck, cargo and ballast piping gauging at the oil berths, followed by tank gauging during a gas-free window between cargoes.",
+      "Ro-pax ferry inspection of ramps, hinge lugs and vehicle-deck plating after reported damage, using UT for thickness and MPI for cracks in the gaps between sailings.",
+      "Hold and ballast tank gauging on a bulk carrier discharging animal feed over several days alongside, ahead of its intermediate survey.",
+      "Upper-deck and hatch coaming gauging on a feeder container ship at the lo-lo terminal, ahead of a renewal survey at a continental yard."
+    ]
+  },
+  "logistics": "Dublin Airport is the arrival point, with direct connections from European and Gulf hubs, and the port is a short drive away through the Dublin Port Tunnel. Port terminals and berths are ISPS-controlled, with passes arranged by the ship's agent; launches for Dublin Bay are booked the same way. Ireland is outside both the Schengen area and the UK visa system, so the team travels from India on Irish visas, and a trip that also covers a UK port has to satisfy UK entry rules too; we plan both around the vessel's schedule.",
+  "vessels": [
+    "Ro-pax and ro-ro ferries",
+    "Product and chemical tankers",
+    "Feeder container ships",
+    "Bulk carriers",
+    "Cruise ships",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Why gauge in Dublin if the ship docks elsewhere?",
+      "a": "Because the yard needs the numbers before it starts. With readings taken on Dublin calls weeks ahead of a refit, the superintendent can send the yard a real steel and pipe list, order material in advance, and decide which items need the dock and which can be done afloat. It also reduces the survey work that has to be squeezed into a short refit period."
+    },
+    {
+      "q": "Can you work at the Dublin oil berths?",
+      "a": "Yes, within the terminal's rules. While a tanker is discharging, work is normally limited to piping and deck areas the terminal and master release; tank entry needs the tank gas-free and certified. We plan tanker jobs with the manager and the agent so that tank gauging falls in a suitable window, either between cargoes or at anchor in the bay."
+    },
+    {
+      "q": "Do Indian technicians need separate visas for Ireland and the UK?",
+      "a": "Ireland and the UK run their own immigration systems, and Ireland is not part of Schengen. For a Dublin job our team travels on Irish visas; if the same trip also covers Belfast, Holyhead or Liverpool, UK entry rules apply as well, so we check which visas cover the full itinerary before booking. Applications go in as soon as the scope is confirmed."
+    },
+    {
+      "q": "How does the North-East Atlantic ECA affect ships trading to Dublin?",
+      "a": "From 1 September 2028, ships in Irish waters will need 0.10% sulphur fuel or an exhaust gas cleaning system, as they already do in the North Sea. Scrubber-fitted ferries and tankers will rely on their systems more, so checking wash-water and overboard piping wall thickness before then lets owners plan renewal into a refit rather than react to a failure in service."
+    }
+  ],
+  "nearby": ["belfast", "liverpool", "cork", "milford-haven"]
+}

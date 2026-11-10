@@ -1,0 +1,108 @@
+{
+  "slug": "cork",
+  "name": "Cork",
+  "country": "Ireland",
+  "region": "europe",
+  "title": "Cork Harbour Thickness Measurement: Tankers and Ferries",
+  "description": "Ultrasonic thickness measurement in Cork Harbour for Whitegate tankers, Ringaskiddy container ships and ferries: CAP gauging, hull structure, piping.",
+  "h1": "Ship Thickness Measurement and Gauging in Cork Harbour",
+  "intro": "Cork Harbour is a large natural harbour on Ireland's south coast, home to the country's only oil refinery at Whitegate, the Port of Cork's container terminal at Ringaskiddy, the cruise berth at Cobh and a seasonal ferry to France. Tankers, container ships, bulk carriers and cruise ships all use its sheltered waters. A team mobilised from India gauges ships at the jetties, the terminals or at anchor, and delivers the readings for the survey, vetting or docking that follows.",
+  "keywords": [
+    "cork harbour thickness measurement",
+    "ultrasonic thickness measurement in cork harbour",
+    "ship inspection in cork harbour",
+    "tanker inspection at whitegate",
+    "cap gauging",
+    "container ship inspection at ringaskiddy",
+    "thickness measurement in ireland",
+    "cruise ship gauging at cobh",
+    "hull gauging cork",
+    "utm cork"
+  ],
+  "highlights": [
+    {
+      "h": "Refinery tankers and CAP",
+      "p": "Tankers serving Ireland's only refinery at Whitegate face terminal acceptance, vetting and, as they age, CAP requests. We gauge to the scope required, planned around gas-free windows and the refinery's berth schedule."
+    },
+    {
+      "h": "Ringaskiddy and Cobh calls",
+      "p": "Container ships on fixed rotations at Ringaskiddy and cruise ships on day calls at Cobh suit focused scopes: scrubber and sea-water piping, upper-deck structure and tanks the crew prepare in advance."
+    },
+    {
+      "h": "A sheltered harbour for launch work",
+      "p": "Cork Harbour's shelter makes launch-borne gauging at anchor practical for tankers in a gas-free window, though the entrance is open to southerly weather and the plan allows for it."
+    }
+  ],
+  "port": {
+    "h": "Cork Harbour: refinery, container and cruise traffic on Ireland's south coast",
+    "p": [
+      "Cork Harbour opens to the Celtic Sea at Roches Point and runs inland past Cobh and Ringaskiddy towards the city. The Port of Cork Company operates the harbour's commercial terminals: the Cork Container Terminal at Ringaskiddy, built for deeper-draught container ships; bulk and general cargo berths in the lower and upper harbour; and the cruise berth at Cobh, where cruise ships lie alongside the town. Brittany Ferries sails seasonally from Ringaskiddy to Roscoff, giving the harbour a ro-pax link to Brittany.",
+      "On the eastern side of the harbour, Irving Oil's Whitegate refinery, Ireland's only oil refinery, receives crude by tanker and ships out refined products, which keeps crude and product tankers moving through the harbour all year. For tanker managers that makes Cork the natural place to arrange thickness measurement in Ireland, because their ships call here on a regular cycle. Agricultural imports of feed and fertiliser arrive by bulk carrier to serve the farming economy of Munster, and the industrial estates of the lower harbour add general and project cargo. Container services at Ringaskiddy link Cork with the main continental hubs, and cruise calls at Cobh run through the season.",
+      "Ships stay in Cork long enough to gauge in several ways. Tankers may wait at anchor for a berth at the refinery, and tank cleaning between cargoes opens a gas-free window. Bulk carriers discharging feed and fertiliser spend days alongside. Container ships at Ringaskiddy are on fixed rotations, so the next call is known well in advance. Cruise ships at Cobh are in for a day but return through the season. Inspection demand reflects that mix: CAP and vetting-driven tanker gauging, ESP work on bulk carriers, and short-call scrubber and deck checks on container and cruise ships. Ship inspection in Cork Harbour is therefore planned around four different clocks, and the right one depends on the ship."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging is done in Cork Harbour",
+    "p": [
+      "The Whitegate refinery jetty is run under strict terminal rules: contractors work under a permit, deck activity is restricted during cargo transfer, and tank entry needs a gas-free certificate. Tanker inspection at Whitegate while alongside therefore concentrates on piping and released deck areas, while tank structure is gauged during a gas-free window, often at anchor. The harbour's shelter makes launch work more practical than at an open roadstead, although the entrance is exposed to southerly weather and some days are lost to it. When a tanker anchors inside the harbour rather than off the entrance, the launch run is short and the ship lies steadier for tank work.",
+      "Ringaskiddy offers deep-water quays for container ships, bulk and general cargo, and the ferry, where in-service gauging follows the cargo plan or the ferry's timetable. At Cobh, cruise ships lie alongside the town quay for the day, and the work that fits is engine-room piping, scrubber lines and tanks the crew have prepared. Upper-harbour quays nearer the city take smaller bulk and general cargo ships, often for several days, which suits hold and tank programmes that need cleaning time between stages."
+    ],
+    "list": [
+      "Whitegate refinery jetty — deck and piping gauging on crude and product tankers under the terminal's permit rules, with tank work kept for gas-free windows.",
+      "Cork Container Terminal, Ringaskiddy — container ship inspection at Ringaskiddy covering hatch coamings, upper deck and scrubber piping during cargo windows.",
+      "Ringaskiddy bulk and ferry berths — hold and tank gauging on bulk carriers discharging agri-bulk, and ramp and vehicle-deck checks on the Roscoff ferry.",
+      "Cobh cruise berth — cruise ship gauging at Cobh of engine-room and scrubber piping and prepared tanks during a one-day call.",
+      "Harbour anchorages — launch-borne tank gauging on tankers in a gas-free window, and condition gauging on ships waiting for a berth.",
+      "Upper-harbour city quays — longer in-service gauging on smaller bulk and general cargo ships alongside for several days."
+    ]
+  },
+  "context": {
+    "h": "Irish and EU rules for ships calling at Cork",
+    "p": [
+      "As an EU member state, Ireland applies the full body of EU maritime rules at Cork, and its Marine Survey Office carries out port state control within the Paris MoU. Tankers calling at an oil refinery attract attention from PSC officers, terminal inspectors and vetting inspectors alike. Crude and product tankers trading to Whitegate fall under the ESP regime, and from about fifteen years of age charterers and oil-major vetting often ask them to hold a CAP rating, which makes CAP gauging a recurring requirement for older tonnage in this trade.",
+      "Cork lies outside the North Sea and Baltic ECAs today. Even so, a ship lying alongside at Ringaskiddy or Whitegate for more than two hours must already be on 0.10% fuel under EU rules, and once the North-East Atlantic ECA's sulphur limit takes effect on 1 September 2028, ships will need 0.10% fuel or an exhaust gas cleaning system at sea in Irish waters as well. For owners of scrubber-fitted ships on Irish trades, that date is a reason to check scrubber piping condition well ahead of it. Voyages into Cork also carry EU ETS and FuelEU Maritime obligations, which add to the case for keeping accurate steel-condition records on older ships that owners intend to keep trading."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Cork",
+    "p": "Cork's mix of refinery, container, bulk and cruise traffic gives a varied workload. Tanker jobs are planned around the refinery's schedule and gas-free windows; other jobs follow cargo plans and itineraries. We agree each scope with the superintendent and, for jetty work, with the terminal through the ship's agent, and deliver readings in the format the class surveyor and the yard will use.",
+    "list": [
+      "CAP gauging on a product tanker over fifteen years old trading to Whitegate, with cargo and ballast tanks gauged at anchor after cleaning.",
+      "Crude tanker renewal survey preparation: pre-docking gauging of cargo and ballast tank structure during a Cork call, so the yard steel list is fixed early.",
+      "Scrubber overboard and wash-water piping UT on a container ship at Ringaskiddy, timed to a regular rotation call so worn spools can be ordered before the next docking.",
+      "Hold and topside tank gauging on a bulk carrier discharging fertiliser, where cargo residues make cleaning before gauging especially important.",
+      "Sea-water and grey-water piping and prepared tanks on a cruise ship during a day call at Cobh, as one stage of a staged pre-docking programme."
+    ]
+  },
+  "logistics": "Cork Airport is close to the city and the harbour, with European connections; long-haul arrivals usually come through Dublin Airport and travel south by road or rail, or connect through a European hub to Cork. The Whitegate refinery, the Ringaskiddy terminals and the Cobh cruise berth all have ISPS-controlled access arranged by the ship's agent, and the refinery adds its own site induction. Launches for anchorage work are booked through the agent. Our technicians travel from India on Irish visas, applied for once the scope is set, and we plan the visit around the ship's expected arrival with a margin for delays.",
+  "vessels": [
+    "Crude oil tankers",
+    "Product tankers",
+    "Container ships",
+    "Bulk carriers",
+    "Cruise ships",
+    "Ro-pax ferries",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Do you gauge tankers at the Whitegate refinery?",
+      "a": "Yes, under the refinery terminal's rules. While cargo is moving, work is generally restricted to piping and deck areas released by the terminal and the master. Tank gauging needs a gas-free window, which in practice often means anchorage time after tank cleaning. We plan this with the manager and the ship's agent, and complete the refinery's site induction before boarding."
+    },
+    {
+      "q": "Can you provide the gauging for a CAP assessment on a tanker trading to Ireland?",
+      "a": "Yes, we carry out the thickness measurement work that a CAP assessment draws on. CAP is a voluntary class service run by each classification society, and charterers and vetting often ask for it on tankers over about fifteen years old. The society defines the extent; we gauge cargo and ballast tank structure, deck and shell to that extent and report in the class TM format."
+    },
+    {
+      "q": "Can a Cork job be combined with other Irish or UK ports?",
+      "a": "Yes, where schedules allow. A team in Ireland for a Cork job can travel on to Dublin by road or rail, and with the right UK visas can continue to Milford Haven, Falmouth or Belfast. We plan combined trips with each ship's agent so boarding times and passes line up, which helps when a fleet has several ships trading around Ireland in the same month."
+    },
+    {
+      "q": "Is a day call at Cobh long enough for useful cruise ship gauging?",
+      "a": "For a focused scope, yes. In a day alongside at Cobh, a team can gauge engine-room sea-water and grey-water piping, scrubber wash-water lines and a few tanks the crew have prepared. On its own that is a partial picture; combined with work on other calls in the itinerary it builds the full pre-docking dataset without delaying the ship."
+    }
+  ],
+  "nearby": ["dublin", "milford-haven", "falmouth", "belfast", "brest"]
+}
