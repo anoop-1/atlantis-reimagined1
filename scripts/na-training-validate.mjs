@@ -66,7 +66,7 @@ for (const slug of slugs) {
     if (country === 'Canada') {
       const cm = p.canadaMeta || {};
       if (!cm.title || cm.title.length > 60 || !/SNT-TC-1A/.test(cm.title)) problems.push('canadaMeta.title must be <= 60 chars and say SNT-TC-1A');
-      if (!cm.description || cm.description.length < 120 || cm.description.length > 158) problems.push(`canadaMeta.description ${cm.description?.length} chars (120-158)`);
+      if (!cm.description || cm.description.length < 140 || cm.description.length > 155) problems.push(`canadaMeta.description ${cm.description?.length} chars (140-155, the Canada gate)`);
       if (!cm.h1 || !/SNT-TC-1A/.test(cm.h1)) problems.push('canadaMeta.h1 must say SNT-TC-1A');
     }
     for (const [re, label] of BANNED) { const all = `${p.localContext} ${p.certPathwayNote}`; const mm = all.match(re); if (mm) problems.push(`profile ${label}: "...${all.slice(Math.max(0, mm.index - 40), mm.index + 50)}..."`); }
