@@ -3971,6 +3971,9 @@ Owner, 2026-11-11: "push them all once everything is done … less traffic regar
 - Port and city additions: check duplicates by normalised name (ue/ü, Shannon Foynes/Foynes, Orkney/Scapa Flow) before writing.
 - The brief allowed the O*NET wage once, but the training validator rejects any `$` figure; the pages link to the salary guide instead.
 
+### 75.5b Deployed
+main = 7331ae6148 (Deploy to VPS run 43143339046, success). Build 8,748 pages, 6,190 sitemap URLs, 0 failures; preflight 16/16; pricing PASS (src + dist); claims PASS (dist); maritime guard 473 pages; drift guard PASS; headless check of 7 page types at 1366/390 px, no errors or overflow. Live-verified titles on a port, a port × inspection page, a country page, two new city pages, /ndt-training-usa and the SNT-TC-1A guide; /maritime-inspection/rotterdam 301s to /maritime/rotterdam; sitemap-maritime.xml in the index. IndexNow: 678 URLs accepted (`scripts/indexing-url-list-2026-11-12.json`). The IndexNow key is the existing `public/0e99d20f90e74bcf8fa8e8d4e1207cc0.txt`; `scripts/indexnow-key.json` is gitignored, so a fresh clone must recreate it with that key or the script mints a new, unverified one.
+
 ### 75.6 Checkpoints
 - 2026-11-26 (2 weeks): "snt-tc-1a" position for the requirements post (target back inside p8) and whether the explainer still shows for it; `/ndt-training-usa` and `/ndt-training-online` positions for their keyword lists; impressions on the 44 new city pages.
 - 2026-12-10 (4 weeks): maritime impressions by page type (port, inspection, combo); which ports earn → next port × inspection tranche; US `training_enquiry` and `training_register_buy_click` (GA4, needs access).
