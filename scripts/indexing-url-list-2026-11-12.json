@@ -1,0 +1,2040 @@
+{
+ "generated": "2026-11-12",
+ "note": "Release §75: NA training cities, /maritime section, US fee-table pages, SNT-TC-1A pages",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/ndt-training-sacramento"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-long-beach"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-bakersfield"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-tucson"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-reno"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-colorado-springs"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-spokane"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-tacoma"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-ogden"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-farmington"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-hobbs"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-casper"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-fairbanks"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-lafayette"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-houma"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-shreveport"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-freeport"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-brownsville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-birmingham"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-memphis"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-louisville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-knoxville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-chattanooga"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-greenville-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-raleigh"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-wilmington-north-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-richmond"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-lynchburg"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-portsmouth-new-hampshire"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-albany"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-erie"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-allentown"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-dayton"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-grand-rapids"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-peoria"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-toronto"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-hamilton-ontario"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-sudbury"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-regina"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-saskatoon"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-red-deer"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-grande-prairie"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-kitimat"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/a-coruna"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aabenraa"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aalborg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aarhus"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aberdeen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/abu-dhabi"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/acfm-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/advanced-ndt"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/agioi-theodoroi"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ajaccio"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/akureyri"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/albania"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/alesund"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/alexandria"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/alexandroupoli"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/algeciras"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/algeciras/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/algeciras/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/alicante"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/almeria"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ambarli"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/hatch-cover-ultrasonic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/magnetic-particle-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/scrubber-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/ship-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ancona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antalya"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/condition-assessment-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/hatch-cover-ultrasonic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/ship-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/ultrasonic-weld-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aqaba"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/asia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/augusta"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aveiro"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aviles"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/avonmouth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bahrain"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bandirma"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bar-montenegro"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/barcelona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bari"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/barrow-in-furness"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bastia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bayonne"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/belfast"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/belgium"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bergen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bijela"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bilbao"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/blyth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bodo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bordeaux"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/boulogne-sur-mer"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/braila"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/brake"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bremen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bremerhaven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bremerhaven/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bremerhaven/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/brest"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/brindisi"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/brunsbuettel"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bulgaria"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/burgas"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cadiz"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/caen-ouistreham"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cagliari"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/calais"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/canakkale"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cardiff"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cartagena"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/castellammare-di-stabia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/castellon"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/catania"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ceuta"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/chalkida"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cherbourg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/chioggia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/chios"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/civitavecchia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/concarneau"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/condition-assessment-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/condition-assessment-scheme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/constanta"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/copenhagen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/corfu"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cork"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/corrosion-mapping"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/croatia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cuxhaven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/cyprus"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dalian"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dammam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/delfzijl"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/den-helder"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/denmark"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/derince"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dieppe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/doha"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dordrecht"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dover"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/drogheda"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dubai"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dublin"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dubrovnik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dundee"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dunkirk"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/duqm"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/durres"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dye-penetrant-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/eddy-current-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/eemshaven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/egersund"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/elefsina"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/emden"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/enhanced-survey-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/eregli"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/esbjerg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/estonia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/europe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/falmouth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fawley"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/felixstowe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/felixstowe/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/felixstowe/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ferrol"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/figueira-da-foz"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/finland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fleetwood"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/flensburg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/floro"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/france"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fredericia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/frederikshavn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fredrikstad"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fujairah"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/funchal"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/galati"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/galway"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gavle"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gdansk"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gdansk/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gdansk/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gdynia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gemlik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/genoa"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/genoa/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/genoa/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/germany"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/hatch-cover-ultrasonic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/magnetic-particle-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/ship-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/ultrasonic-weld-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gibraltar"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gijon"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gioia-tauro"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/goole"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gothenburg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/grangemouth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/great-yarmouth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/greece"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/greenock"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/grenaa"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/grimsby"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/guangzhou"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hafnarfjordur"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/halmstad"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hammerfest"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hanko"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/harlingen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/harwich"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hatch-cover-ultrasonic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/haugesund"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/helsingborg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/helsingor"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/helsinki"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/heraklion"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/heysham"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hirtshals"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/holyhead"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hong-kong"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/huelva"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hull"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/iceland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/igoumenitsa"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/immingham"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/infrared-thermography"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/inventory-of-hazardous-materials"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/invergordon"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ipswich"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ireland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/italy"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/izmir"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/izmit"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/jeddah"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/jubail"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kalundborg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/karlshamn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/karlskrona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/karsto"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kavala"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kemi"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kiel"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/killybegs"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kings-lynn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kirkenes"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/klaipeda"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kokkola"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/koper"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kotka"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kotor"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kristiansand"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kristiansund"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/kuwait"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/la-rochelle"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/la-spezia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/larnaca"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/larne"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/larvik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/las-palmas"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/latvia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lavrio"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/le-havre"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/le-havre/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/le-havre/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/leith"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/leixoes"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lerwick"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/liepaja"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/limassol"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lisbon"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/liverpool"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/livorno"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/london"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/londonderry"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lorient"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lowestoft"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/luebeck"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lulea"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lysekil"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/magnetic-particle-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/malaga"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/malmo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/malta"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/mangalia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marghera"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/mariehamn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marin"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marina-di-carrara"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marine-ndt-services"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marseille"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marseille/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marseille/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/mersin"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/messina"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/middle-east"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/milazzo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/milford-haven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/mo-i-rana"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/moerdijk"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/monfalcone"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/mongstad"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/montenegro"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/montrose"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/muuga"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/naantali"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/naples"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/narvik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/netherlands"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/newcastle"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/newport-wales"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/nice"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ningbo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/noise-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/nordenham"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/norrkoping"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/norway"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/odense"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/orkney"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ortona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/oskarshamn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/oslo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ostend"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/oulu"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/oxelosund"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/paldiski"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/palermo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/palma"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/parnu"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/pasaia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/patras"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/perama"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/peterhead"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/phased-array-ultrasonic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piombino"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ploce"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/plymouth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/poland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/police"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ponta-delgada"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/poole"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/pori"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/porsgrunn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/port-la-nouvelle"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/port-said"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/port-talbot"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/portland-dorset"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/porto-torres"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/portsmouth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/portugal"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/porvoo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/pula"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/qingdao"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/raahe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ras-laffan"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rauma"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ravenna"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rendsburg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/reykjavik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rhodes"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/riga"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rijeka"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/romania"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ronne"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rosslare"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rostock"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rosyth"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/condition-assessment-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/magnetic-particle-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/scrubber-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/ultrasonic-weld-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rouen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sagunto"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/saint-malo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/saint-nazaire"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/salalah"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/salamina"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/salerno"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/samsun"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sandnessjoen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/santa-cruz-de-tenerife"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/santander"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sassnitz"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/savona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/scheveningen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/schiedam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/scrubber-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sete"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/setubal"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/seville"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shanghai"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shannon-foynes"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sharjah"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sheerness"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shenzhen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ship-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shoreham"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sibenik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sillamae"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sines"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/singapore"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/skagen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sodertalje"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sohar"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/souda"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/southampton"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/spain"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/split"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/stade"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/stavanger"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/stockholm"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/stord"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/stralsund"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sture"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/suez"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sullom-voe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sunderland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sundsvall"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/swansea"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sweden"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/swinoujscie"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/syros"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/szczecin"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tallinn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/taranto"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tarragona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/teesport"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tekirdag"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/terneuzen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/thessaloniki"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tianjin"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tilbury"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tivat"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tofd-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/torshavn"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/toulon"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trabzon"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trapani"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trelleborg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trieste"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trogir"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tromso"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trondheim"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tulcea"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/turkey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/turku"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ulsteinvik"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ultrasonic-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ultrasonic-weld-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/umea"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/united-kingdom"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/uusikaupunki"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vaasa"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/valencia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/varberg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/varna"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vasilikos"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/venice"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ventspils"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/viana-do-castelo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vigo"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/visual-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/condition-assessment-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/corrosion-mapping"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/magnetic-particle-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/ultrasonic-weld-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlore"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/volos"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/warrenpoint"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/waterford"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/wilhelmshaven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/wismar"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/xiamen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/yalova"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ystad"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zadar"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/magnetic-particle-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/scrubber-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/ship-piping-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/ultrasonic-weld-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zhoushan"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zonguldak"
+  },
+  {
+   "url": "https://atlantisndt.com/training-usa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-usa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-level-1-training"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-level-2-training"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-houston"
+  },
+  {
+   "url": "https://atlantisndt.com/asnt-level-iii-training"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-online"
+  },
+  {
+   "url": "https://atlantisndt.com/asnt-certification"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-aiken"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-alabama"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-alaska"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-albuquerque"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-anchorage"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-appalachia"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-arizona"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-arkansas"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-atlanta"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-austin"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-baltimore"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-bath-maine"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-baytown"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-beaumont"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-billings"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-boston"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-buffalo"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-california"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-charlotte"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-cincinnati"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-cleveland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-colorado"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-columbus-ohio"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-connecticut"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-dallas"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-deer-park"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-delaware"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-denver"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-des-moines"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-detroit"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-duluth"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-east-hartford"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-el-paso"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-el-segundo"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-fayetteville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-florida"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-fort-worth"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-galveston"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-georgia"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-great-lakes"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-groton"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-gulf-coast"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-hawaii"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-honolulu"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-huntsville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-idaho"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-idaho-falls"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-illinois"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-indiana"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-indianapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-iowa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-jackson"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-jacksonville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-kansas"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-kansas-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-kentucky"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-lake-charles"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-las-vegas"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-lexington"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-little-rock"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-louisiana"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-maine"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-martinez"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-maryland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-massachusetts"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-miami"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-michigan"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-mid-atlantic"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-midwest"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-milwaukee"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-minneapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-minnesota"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-mississippi"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-missouri"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-mobile"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-montana"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-montgomery"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-nashville"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-nebraska"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-nevada"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-new-hampshire"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-new-jersey"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-new-mexico"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-new-orleans"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-new-york"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-newark"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-newport-news"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-norfolk"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-north-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-north-charleston"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-north-dakota"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-northeast"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-oak-ridge"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-odessa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-ohio"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-oklahoma"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-oklahoma-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-omaha"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-oregon"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-orlando"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-pacific-northwest"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-pasadena-texas"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-pascagoula"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-pennsylvania"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-permian-basin"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-philadelphia"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-phoenix"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-pittsburgh"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-port-arthur"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-portland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-providence"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-rhode-island"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-richland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-rockies-plains"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-salt-lake-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-san-antonio"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-san-diego"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-san-francisco"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-san-jose"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-savannah"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-seattle"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-south-dakota"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-southeast"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-southern-california"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-springfield"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-sugar-land"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-tampa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-tennessee"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-texas"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-texas-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-texas-inland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-tulsa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-utah"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-vermont"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-virginia"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-washington"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-washington-dc"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-west-coast"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-west-virginia"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-whiting"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-wichita"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-williston"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-wisconsin"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-wyoming"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/asnt-snt-tc-1a-certification-requirements"
+  },
+  {
+   "url": "https://atlantisndt.com/snt-tc-1a-certification"
+  }
+ ]
+}
