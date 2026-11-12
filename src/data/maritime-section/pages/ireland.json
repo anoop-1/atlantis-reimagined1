@@ -1,0 +1,120 @@
+{
+  "slug": "ireland",
+  "navLabel": "Ireland",
+  "title": "Ship Thickness Measurement in Ireland | UTM at Irish Ports",
+  "description": "Ship ultrasonic thickness measurement in Ireland: UTM and hull gauging at Dublin, Cork, Shannon Foynes, Waterford and other Irish ports for owners and managers.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Ireland",
+  "eyebrow": "Maritime inspection · Ireland",
+  "intro": "Ireland is an island trading nation, so almost everything it imports and exports moves by ship. Ro-ro and container services link Dublin and Rosslare with Britain and the continent, Cork handles fuel and containers, Shannon Foynes takes the large bulk carriers that serve the western industrial area, and fishing and ferry fleets work from smaller harbours. We carry out ultrasonic thickness measurement for owners and managers whose ships call at these ports: pre-docking steel estimates, tank and piping gauging, scrubber lines and condition checks before purchase or charter. The team is mobilised from India for each job.",
+  "highlights": [
+    {
+      "h": "Ferries and ro-ro ships on repeat schedules",
+      "p": "Irish Sea and continental ferries return to the same berth every few days, so short lay-by periods are the natural moment for hull, ramp area and piping readings without disturbing the timetable."
+    },
+    {
+      "h": "Bulk and energy on the west coast",
+      "p": "Large bulk carriers and product tankers use the deep water of the Shannon Estuary and Cork Harbour, where gauging at a berth gives an older ship a measured view of its steel before it goes to a repair yard."
+    },
+    {
+      "h": "EU rules, but outside Schengen",
+      "p": "Ireland follows EU maritime law, including the Ship Recycling Regulation, yet it is not part of the Schengen area, so a visit by our team uses an Irish visa rather than the common European one."
+    }
+  ],
+  "sections": [
+    {
+      "id": "ie-ports",
+      "h": "Where ships are gauged in Ireland",
+      "p": [
+        "The east coast is the freight gateway. Dublin Port is the country's busiest, with ro-ro, lo-lo container, bulk and cruise traffic; Drogheda, a short distance north, handles bulk and general cargo; and Rosslare in the south-east is the principal ferry port for services to Wales and France. Ships here are largely short-sea cargo vessels and ro-pax ferries, and many are on fixed rotations, so the same hull can be measured in successive visits at the same berth.",
+        "On the south and west coasts the picture changes. Cork, with its deep harbour, serves tankers, containers and cruise ships, and Waterford takes bulk cargo, containers and agribulk on the River Suir. Shannon Foynes, on the Shannon Estuary, is the country's main bulk port, receiving carriers that supply the alumina, power and agribulk industries nearby. Galway and Killybegs round out the list, with Killybegs being the major fishing port and a base for large fishing vessels."
+      ]
+    },
+    {
+      "id": "ie-fleets",
+      "h": "The ships that drive inspection work in Ireland",
+      "p": [
+        "Short-sea cargo ships and ro-pax ferries make up the largest share, followed by bulk carriers on the west coast and product tankers calling at Cork and Dublin for fuel. The container fleet is mostly feeder vessels, which trade on tight schedules between Irish and continental ports. Fishing vessels and offshore support craft add a smaller but steady demand, particularly around Killybegs and the south coast.",
+        "Ageing short-sea tonnage is a common reason for a gauging request. A ship that has been trading for decades on the Irish Sea sees fatigue in ro-ro decks, wastage in ballast tanks and wall loss in sea-water piping. Owners want to know what steel will need renewing before the next survey, and a measured estimate lets them plan the work around a ferry's low season."
+      ]
+    },
+    {
+      "id": "ie-regime",
+      "h": "Rules and port state control",
+      "p": [
+        "Port state control in Ireland falls under the Marine Survey Office of the Department of Transport, and the country is a member of the Paris Memorandum of Understanding. Inspectors use the same targeting criteria as elsewhere in the region: age, flag, recognised organisation performance and recent deficiencies all raise a ship's profile, and hull condition is one of the first things looked at.",
+        "As an EU member, Ireland applies the EU Ship Recycling Regulation to ships under European flags, which makes a hazardous materials inventory a standing requirement for many owners. The Irish coast lies outside the North Sea and Baltic Emission Control Areas, so the global fuel sulphur limit applies and scrubber use is less widespread than on the North Sea, although some deep-sea callers still run exhaust gas cleaning systems."
+      ]
+    },
+    {
+      "id": "ie-practical",
+      "h": "Weather and practical constraints",
+      "p": [
+        "The Atlantic climate means wind and swell can interrupt open-berth work, especially at exposed west-coast ports and at Rosslare in winter. Ferries are often held in port by weather rather than by the timetable, which sometimes opens an unplanned window; we plan around the ship's agent's advice rather than assume it.",
+        "Tidal range at several Irish ports is moderate, but river berths at Waterford and Shannon Foynes depend on pilotage and tide for arrival and departure, so a gauging visit is aligned with the vessel's actual berth time. Cruise season brings additional traffic to Dublin and Cork between spring and autumn, tightening berth availability for working ships."
+      ]
+    },
+    {
+      "id": "ie-planning",
+      "h": "Planning a job from India",
+      "p": [
+        "Ireland is outside the Schengen area, so Indian nationals need an Irish visa for a visit, which is separate from the visa for most other European states. We confirm the route once the ship's call is known and build the programme around the time it takes. The ship's agent arranges the berth, shore access, port security passes and the safety briefing, and gives us the gangway arrangement and available lighting.",
+        "Dublin and Cork have strict access rules at container and energy terminals, and a gas-free certificate is a condition for entering tanks. The brief names the thickness measurement plan, the frames and strakes to be gauged and the reporting format the owner needs, so the work can be completed within the vessel's stay.",
+        "Fishing vessels and smaller ferries often berth at quays with limited lighting and uneven fendering, so we ask the agent in advance about deck access, shore power and where equipment can be set down. A short pre-job call with the chief engineer or superintendent settles which tanks and spaces are open, which are still to be cleaned, and whether the ship can provide a person to accompany the team on board."
+      ]
+    },
+    {
+      "id": "ie-services",
+      "h": "Which services are asked for most",
+      "p": [
+        "Ultrasonic thickness measurement of hull, tanks and deck is the common request, scheduled before a docking or special survey. Piping gauging on sea-water, ballast and fuel lines follows for older ferries and cargo ships. For ships fitted with exhaust gas cleaning systems, wash-water and overboard lines are checked between dockings.",
+        "Buyers of second-hand short-sea tonnage ask for pre-purchase gauging, and charterers ask for on-hire condition checks on bulk carriers and tankers. Where readings show widespread wastage, the report flags it against the applicable allowance and recommends where close-up examination or renewal is needed."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements for tankers and bulk carriers",
+    "Paris Memorandum of Understanding on Port State Control",
+    "EU Ship Recycling Regulation and the inventory of hazardous materials",
+    "MARPOL Annex VI, regulation 14: global sulphur limit outside emission control areas",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates marked for renewal",
+    "Piping condition report with minimum wall by spool and joint",
+    "Ro-ro deck and ramp area readings on request",
+    "Preliminary readings shared during the job on request"
+  ],
+  "industries": [
+    "Short-sea cargo ships",
+    "Ro-pax ferries and ro-ro ships",
+    "Bulk carriers",
+    "Product tankers",
+    "Feeder container ships",
+    "Fishing vessels",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which Irish ports do you cover for ship thickness measurement?",
+      "a": "Dublin, Cork, Shannon Foynes, Waterford, Rosslare, Drogheda, Galway and Killybegs each have their own page. The work is carried out on the vessel, so a ship calling at another Irish harbour can usually be planned too, subject to the berth, access arrangements and the time available."
+    },
+    {
+      "q": "Is a Schengen visa enough to work in Ireland?",
+      "a": "No. Ireland is in the European Union but outside the Schengen area, so Indian nationals need an Irish visa for a visit. We confirm the route for each job as soon as the ship's call is known and plan the programme around the time the visa takes."
+    },
+    {
+      "q": "Does the North Sea emission area apply to Irish ports?",
+      "a": "No. The Irish coast is outside the North Sea and Baltic Emission Control Areas, so the global fuel sulphur limit applies. Some ships still run scrubbers, particularly deep-sea callers at Cork and Dublin, and their wash-water and overboard piping is gauged in the same way as elsewhere."
+    },
+    {
+      "q": "Can a ferry be gauged between sailings?",
+      "a": "Often, yes. Deck, car-deck, ramp area and accessible piping can be measured during a lay-by if the master and the terminal agree. Tanks need gas-free conditions and access, so they are planned for a longer stay or the annual overhaul. The ship's agent confirms the berth time for each visit."
+    },
+    {
+      "q": "What does the report give the owner?",
+      "a": "It lists every reading against the ship's thickness measurement plan, with as-built thickness, measured thickness and diminution, located by frame and strake. It adds a steel renewal estimate showing which plates need replacing, so the owner can discuss quantities and docking days with the yard on measured figures."
+    }
+  ]
+}

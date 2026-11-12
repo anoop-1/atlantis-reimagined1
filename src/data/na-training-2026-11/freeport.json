@@ -1,0 +1,15 @@
+{
+  "slug": "freeport",
+  "lat": 28.95,
+  "lng": -95.36,
+  "localContext": "Freeport anchors the Brazosport industrial complex in southern Brazoria County. Dow's Texas Operations and BASF run large chemical sites here, Freeport LNG exports liquefied natural gas from Quintana Island, Phillips 66 operates the Sweeny Refinery nearby, and Port Freeport and the Strategic Petroleum Reserve's Bryan Mound site complete the picture. Most NDT work is maintenance and turnaround inspection on vessels, piping, exchangers and tanks, plus project construction, run to ASME Section VIII, ASME B31.3 and the owners' inspection programs. UT, RT, ET and the surface methods carry the load.",
+  "certPathwayNote": "On Brazosport plant sites the NDT contractor usually certifies its technicians under a written practice built on ASNT SNT-TC-1A, and its Level III signs off examinations and vision checks. Plant owners audit those files and set acceptance criteria in their specifications. Some inspector roles also ask for API individual certifications, which sit outside method certification. ASNT central certification is the portable alternative.",
+  "salaryFrom": "texas-city",
+  "siblings": [
+    "houston",
+    "texas-city",
+    "galveston",
+    "sugar-land",
+    "corpus-christi"
+  ]
+}

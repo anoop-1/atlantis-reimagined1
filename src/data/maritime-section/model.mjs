@@ -1,6 +1,10 @@
 // Maritime inspection section (owner request 2026-11-07): ship ultrasonic thickness measurement (UTM),
 // CAP / ESP / renewal-survey gauging, hull structural integrity, ship piping and scrubber piping
 // inspection, for ports in Europe, the Middle East and Egypt, China and Singapore.
+// 2026-11-10 (owner): moved to /maritime/{port}, /maritime/{inspection} and /maritime/{country};
+// survey, compliance and NDT inspection pages added (CAS, special survey, IHM, noise survey, infrared
+// thermography, MPI, DPI, VT, UT weld, PAUT, TOFD, ACFM, eddy current, corrosion mapping, hatch-cover
+// ultrasonic testing); a country page for every European country with two or more port pages.
 //
 // One model for both layers, on the shared service-section template (src/data/service-section/core.mjs),
 // so the pages carry the site's existing design:
@@ -13,7 +17,8 @@
 // no class approval unless it is listed in CLASS_APPROVALS below with its certificate.
 import { createServiceSection } from '../service-section/core.mjs';
 
-export const ROOT = '/maritime-inspection';
+export const ROOT = '/maritime';
+export const LANDING_SLUG = 'maritime';
 export const FORM_ID = 'maritime-enquiry';
 export const ENQUIRY = `#${FORM_ID}`;
 export const TALK = '/contact?service=inspection&subject=Maritime%20inspection%20enquiry';
@@ -33,39 +38,69 @@ export const CLASS_APPROVALS = [];
  */
 export const CLASS_APPROVAL_AUDITS = ['DNV', "Lloyd's Register", 'ABS'];
 
-export const SERVICES = [
-  ['ultrasonic-thickness-measurement', 'Ultrasonic Thickness Measurement', 'Hull, tank, deck and bulkhead gauging recorded on the class thickness-measurement formats, with sketches and corrosion flagged against the allowable margins.'],
-  ['condition-assessment-programme', 'CAP Thickness Measurement', 'Gauging and close-up survey data for a Condition Assessment Programme, the voluntary class service charterers ask for on older tankers and bulk carriers.'],
-  ['enhanced-survey-programme', 'ESP Gauging', 'Thickness measurement and close-up survey support for oil tankers, chemical tankers and bulk carriers under the ESP Code.'],
-  ['renewal-survey-thickness-measurement', 'Renewal Survey Gauging', 'Thickness measurement for the 5, 10, 15, 20 and 25-year renewal surveys and intermediate surveys, plus pre-docking steel estimates.'],
-  ['hull-structural-integrity', 'Hull Structural Integrity', 'Substantial and excessive corrosion, pitting, grooving, buckling and fatigue cracks, with magnetic particle and penetrant crack detection.'],
-  ['ship-piping-inspection', 'Ship Piping Inspection', 'Wall-thickness gauging of cargo, ballast, fuel, sea-water and fire-main piping, with minimum-wall checks and isometric sketches.'],
-  ['scrubber-piping-inspection', 'Scrubber Piping Inspection', 'EGCS wash-water and overboard discharge piping, the hull penetration area and scrubber welds, checked between dockings.'],
+/** [slug, label, card text, group, lucide icon]. Groups: survey | compliance | ndt | advanced. */
+export const SERVICE_DEFS = [
+  ['ultrasonic-thickness-measurement', 'Ultrasonic Thickness Measurement (UTM)', 'Hull, tank, deck and bulkhead gauging recorded on the class thickness-measurement formats, with sketches and corrosion flagged against the allowable margins.', 'survey', 'Ruler'],
+  ['special-survey-thickness-measurement', 'Special Survey Thickness Measurement', 'Gauging for the 5, 10, 15, 20 and 25-year special (renewal) surveys and intermediate surveys, plus pre-docking steel estimates.', 'survey', 'CalendarClock'],
+  ['condition-assessment-scheme', 'CAS (Condition Assessment Scheme)', 'Thickness measurement and survey support for the IMO Condition Assessment Scheme, and what CAS asks of an older tanker today.', 'survey', 'ClipboardList'],
+  ['condition-assessment-programme', 'CAP Thickness Measurement', 'Gauging and close-up survey data for a Condition Assessment Programme, the voluntary class service charterers ask for on older tankers and bulk carriers.', 'survey', 'ClipboardCheck'],
+  ['enhanced-survey-programme', 'ESP Gauging', 'Thickness measurement and close-up survey support for oil tankers, chemical tankers and bulk carriers under the ESP Code.', 'survey', 'ScanSearch'],
+  ['hull-structural-integrity', 'Hull Structural Integrity', 'Substantial and excessive corrosion, pitting, grooving, buckling and fatigue cracks, with magnetic particle and penetrant crack detection.', 'survey', 'ShieldCheck'],
+  ['ship-piping-inspection', 'Ship Piping Inspection', 'Wall-thickness gauging of cargo, ballast, fuel, sea-water and fire-main piping, with minimum-wall checks and isometric sketches.', 'survey', 'Workflow'],
+  ['scrubber-piping-inspection', 'Scrubber Piping Inspection', 'EGCS wash-water and overboard discharge piping, the hull penetration area and scrubber welds, checked between dockings.', 'survey', 'Factory'],
+  ['hatch-cover-ultrasonic-testing', 'Hatch Cover Ultrasonic Tightness Testing', 'Ultrasonic weathertightness testing of hatch covers, doors and closing appliances, with leak locations marked for the crew or the yard.', 'survey', 'Waves'],
+  ['inventory-of-hazardous-materials', 'IHM (Inventory of Hazardous Materials)', 'IHM Part I surveys, sampling and maintenance for the EU Ship Recycling Regulation and the Hong Kong Convention.', 'compliance', 'FileWarning'],
+  ['noise-survey', 'Ship Noise Survey', 'Noise level measurement in accommodation, work and machinery spaces to the IMO Code on Noise Levels on Board Ships, with a survey report for the ship.', 'compliance', 'Volume2'],
+  ['infrared-thermography', 'Infrared Thermography', 'Thermal surveys of switchboards, motor control centres, machinery and exhaust insulation to find hot spots before they fail.', 'compliance', 'Thermometer'],
+  ['marine-ndt-services', 'Marine NDT Services', 'Every NDT method we use on ships, from visual inspection and MPI to PAUT and ACFM, chosen by the defect you are looking for.', 'ndt', 'Layers'],
+  ['visual-inspection', 'Visual Inspection (VT)', 'Close-up visual examination of structure, welds and coatings, recorded so the surveyor and the superintendent see the same thing.', 'ndt', 'Eye'],
+  ['magnetic-particle-inspection', 'Magnetic Particle Inspection (MPI)', 'Surface and near-surface crack detection on welds, brackets, crane pedestals, rudder stocks and other ferromagnetic parts.', 'ndt', 'Magnet'],
+  ['dye-penetrant-inspection', 'Dye Penetrant Inspection (DPI)', 'Surface crack detection on non-magnetic parts: bronze propellers, stainless and duplex piping, aluminium superstructures.', 'ndt', 'Droplet'],
+  ['ultrasonic-weld-inspection', 'Ultrasonic Weld Inspection (UT)', 'Shear-wave UT of butt welds, repairs and inserts to the class or code acceptance criteria, where radiography is impractical.', 'ndt', 'Activity'],
+  ['advanced-ndt', 'Advanced Marine NDT', 'PAUT, TOFD, ACFM, eddy current and corrosion mapping for the jobs conventional NDT cannot do well on a ship.', 'advanced', 'Cpu'],
+  ['phased-array-ultrasonic-testing', 'Phased Array UT (PAUT)', 'Encoded phased-array examination of welds, repairs and castings, with a stored image of every scan.', 'advanced', 'Radar'],
+  ['tofd-inspection', 'TOFD Inspection', 'Time-of-flight diffraction for sizing the height of weld flaws and cracks in thick sections.', 'advanced', 'AudioWaveform'],
+  ['acfm-inspection', 'ACFM Inspection', 'Alternating current field measurement: crack detection and sizing through paint on welds, without blasting the coating off.', 'advanced', 'Zap'],
+  ['eddy-current-inspection', 'Eddy Current Inspection (ECT)', 'Surface crack detection through thin coatings on steel welds, and on aluminium and non-ferrous parts.', 'advanced', 'Gauge'],
+  ['corrosion-mapping', 'Corrosion Mapping', 'Encoded UT C-scans of plating, tank tops and piping, so pitting and wastage are mapped rather than spot-read.', 'advanced', 'Map'],
 ];
+export const SERVICE_GROUPS = [['survey', 'Surveys and class work'], ['compliance', 'Compliance surveys'], ['ndt', 'Marine NDT'], ['advanced', 'Advanced NDT']];
+export const SERVICES = SERVICE_DEFS.map(([slug, label, text]) => [slug, label, text]);
 export const SERVICE_SLUGS = SERVICES.map(([s]) => s);
 export const REGIONS = [['europe', 'Europe'], ['middle-east', 'Middle East & Egypt'], ['asia', 'China & Singapore']];
 export const REGION_SLUGS = REGIONS.map(([s]) => s);
-/** Country hubs (owner, 2026-11-10: Belgium and the Netherlands are the top priority in Europe). [slug, label, country in city-list] */
-export const COUNTRY_HUBS = [['netherlands', 'Netherlands', 'Netherlands'], ['belgium', 'Belgium', 'Belgium']];
-export const COUNTRY_SLUGS = COUNTRY_HUBS.map(([s]) => s);
-const COUNTRY_HUB_FOR = Object.fromEntries(COUNTRY_HUBS.map(([s, , c]) => [c, s]));
 const REGION_NAME = Object.fromEntries(REGIONS);
 const SERVICE_LABEL = Object.fromEntries(SERVICES.map(([s, l]) => [s, l]));
-const path = (slug) => (slug === 'maritime-inspection' ? ROOT : `${ROOT}/${slug}`);
+const path = (slug) => (slug === LANDING_SLUG ? ROOT : `${ROOT}/${slug}`);
 export const maritimePath = path;
 
-export const ICON_FOR = {
-  [path('ultrasonic-thickness-measurement')]: 'Ruler',
-  [path('condition-assessment-programme')]: 'ClipboardCheck',
-  [path('enhanced-survey-programme')]: 'ScanSearch',
-  [path('renewal-survey-thickness-measurement')]: 'CalendarClock',
-  [path('hull-structural-integrity')]: 'ShieldCheck',
-  [path('ship-piping-inspection')]: 'Workflow',
-  [path('scrubber-piping-inspection')]: 'Factory',
-};
+export const countrySlug = (country) => String(country).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+/**
+ * Country pages: every European country with two or more port pages, unless the country name is already
+ * a port slug (Malta, Gibraltar). [slug, label, country as written in city-list.json]
+ */
+export function countryHubs(cityList) {
+  const count = new Map();
+  for (const [, , country, region] of cityList) if (region === 'europe') count.set(country, (count.get(country) || 0) + 1);
+  const citySlugs = new Set(cityList.map((r) => r[0]));
+  return [...count].filter(([c, n]) => n >= 2 && !citySlugs.has(countrySlug(c))).map(([c]) => [countrySlug(c), c, c]);
+}
+
+export const ICON_FOR = Object.fromEntries(SERVICE_DEFS.map(([slug, , , , icon]) => [path(slug), icon]));
 const HIGHLIGHT_ICONS = ['Anchor', 'Ship', 'FileCheck'];
 
-const SERVICE_CARDS = SERVICES.map(([slug, label, text]) => ({ href: path(slug), label, text }));
+const card = ([slug, label, text]) => ({ href: path(slug), label, text });
+const GROUP_INTRO = {
+  survey: 'Thickness measurement and inspection tied to the class survey cycle, charterers\' condition ratings and the structure and systems a hull survey looks at: the work most superintendents call us for first.',
+  compliance: 'Surveys a ship needs for rules outside the hull survey: the hazardous materials inventory for EU port calls and recycling, noise levels for crew spaces, and thermal checks that catch electrical and insulation faults early.',
+  ndt: 'The conventional methods, chosen by the defect: visual inspection for what can be seen, magnetic particle and dye penetrant for surface cracks, and ultrasonic testing for flaws inside a weld.',
+  advanced: 'Encoded and electromagnetic methods for what conventional NDT does poorly on a ship: stored weld images, flaw height in thick plate, cracks found through paint, and wall loss mapped over an area.',
+};
+/** Hubs (landing, regions, countries): survey and compliance services plus the two NDT overview pages. */
+const HUB_CARDS = SERVICE_DEFS.filter(([s, , , g]) => g === 'survey' || g === 'compliance' || s === 'marine-ndt-services' || s === 'advanced-ndt').map(card);
+/** Port pages: the ten services most ships calling at a European port ask for. */
+const CITY_CARD_SLUGS = ['ultrasonic-thickness-measurement', 'special-survey-thickness-measurement', 'condition-assessment-scheme', 'condition-assessment-programme', 'enhanced-survey-programme', 'hull-structural-integrity', 'ship-piping-inspection', 'scrubber-piping-inspection', 'inventory-of-hazardous-materials', 'marine-ndt-services'];
+const CITY_CARDS = CITY_CARD_SLUGS.map((s) => card(SERVICE_DEFS.find((d) => d[0] === s)));
 
 // ── Shared knowledge rendered on every city page (written once, varied by slug) ───────────────────
 const hash = (s) => [...String(s)].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
@@ -152,13 +187,17 @@ function placeFor(rec) {
   return rec.name === rec.country ? [{ '@type': 'Country', name: rec.country }] : [{ '@type': 'City', name: rec.name }, { '@type': 'Country', name: rec.country }];
 }
 
-function cityPage(rec, byslug) {
+const UTM = 'ultrasonic-thickness-measurement';
+const SPECIAL = 'special-survey-thickness-measurement';
+
+function cityPage(rec, byslug, hubFor) {
   const n = rec.name;
-  const nearby = (rec.nearby || []).filter((s) => byslug[s]).map((s) => [path(s), `${byslug[s].name} ship thickness measurement`]);
+  const hub = hubFor[rec.country];
+  const nearby = (rec.nearby || []).filter((s) => byslug[s] && s !== rec.slug).map((s) => [path(s), `${byslug[s].name} ship thickness measurement`]);
   return {
     path: path(rec.slug),
     kind: 'city',
-    parent: path(rec.region),
+    parent: hub ? path(hub) : path(rec.region),
     navLabel: n,
     title: rec.title,
     description: rec.description,
@@ -166,7 +205,7 @@ function cityPage(rec, byslug) {
     eyebrow: `Maritime inspection · ${rec.country}`,
     intro: rec.intro,
     highlights: rec.highlights,
-    cards: SERVICE_CARDS,
+    cards: CITY_CARDS,
     cardsTitle: `Inspection services for ships at ${n}`,
     cardsSub: 'Each service has its own page with the method, the class requirements and what the report contains.',
     sections: [
@@ -182,12 +221,19 @@ function cityPage(rec, byslug) {
     deliverables: DELIVERABLES,
     industries: rec.vessels,
     faqs: [...rec.faqs, { q: `Does thickness measurement at ${n} need class approval?`, a: classApprovalText() }],
-    related: [...nearby, ...(COUNTRY_HUB_FOR[rec.country] ? [[path(COUNTRY_HUB_FOR[rec.country]), `Ship thickness measurement in ${rec.country}`]] : []), [path(rec.region), `Maritime inspection in ${REGION_NAME[rec.region]}`], [ROOT, 'All maritime inspection services']],
+    related: [
+      ...nearby,
+      ...(hub ? [[path(hub), `Ship inspection in ${rec.country}: all ports`]] : []),
+      [path(UTM), 'Ultrasonic thickness measurement (UTM)'],
+      [path(SPECIAL), 'Special survey thickness measurement'],
+      [path(rec.region), `Maritime inspection in ${REGION_NAME[rec.region]}`],
+      [ROOT, 'All maritime inspection services'],
+    ],
     areaServed: placeFor(rec),
   };
 }
 
-function textPage(rec, kind, parent, byslug, cityList) {
+function textPage(rec, kind, parent, cityList, hubs) {
   const pg = {
     path: path(rec.slug),
     kind,
@@ -207,29 +253,42 @@ function textPage(rec, kind, parent, byslug, cityList) {
   };
   if (CLASS_APPROVALS.length) pg.sections.push({ id: 'class-approval', h: 'Class approval', p: [classApprovalText()] });
   if (kind === 'landing' || kind === 'region' || kind === 'country') {
-    pg.cards = SERVICE_CARDS;
+    pg.cards = HUB_CARDS;
     pg.cardsTitle = 'Maritime inspection services';
-    pg.cardsSub = 'Start with the survey or problem; each service page explains the method, the class requirements and the report.';
+    pg.cardsSub = 'Start with the survey or problem; each service page explains the method, the class requirements and the report. Marine NDT and Advanced NDT list every inspection method.';
   }
+  const hubPairs = hubs.map(([s, l]) => [path(s), `Ship inspection in ${l}`]);
   if (kind === 'region') {
-    const rows = [];
     const byCountry = new Map();
-    for (const [slug, name, country, region] of cityList) if (region === rec.slug) byCountry.set(country, [...(byCountry.get(country) || []), name]);
-    for (const [country, names] of byCountry) rows.push([country, names.join(', ')]);
-    pg.sections.push({ id: 'ports', h: `Ports we cover in ${REGION_NAME[rec.slug]}`, p: ['Each port has its own page describing the traffic, the yards and anchorages where gauging happens, and the jobs we see there. The full list of port pages follows at the end of this page.'], table: { head: ['Country', 'Ports'], rows } });
-    pg.related = [...SERVICES.slice(0, 4).map(([s, l]) => [path(s), l]), ...REGIONS.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
+    for (const [, name, country, region] of cityList) if (region === rec.slug) byCountry.set(country, [...(byCountry.get(country) || []), name]);
+    const rows = [...byCountry].map(([country, names]) => [country, names.join(', ')]);
+    pg.sections.push({ id: 'ports', h: `Ports we cover in ${REGION_NAME[rec.slug]}`, p: [rec.slug === 'europe' ? 'Each European country with more than one port page has its own page, listed under "In this section" below, and every port has a page describing the traffic, the yards and anchorages where gauging happens, and the jobs we see there.' : 'Each port has its own page describing the traffic, the yards and anchorages where gauging happens, and the jobs we see there. The full list of port pages follows at the end of this page.'], table: { head: ['Country', 'Ports'], rows } });
+    pg.related = [...SERVICE_DEFS.filter(([, , , g]) => g === 'survey').slice(0, 5).map(([s, l]) => [path(s), l]), [path('marine-ndt-services'), 'Marine NDT services'], ...REGIONS.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
     pg.areaServed = rec.slug === 'europe' ? ['Europe'] : rec.slug === 'middle-east' ? ['Middle East', 'Egypt'] : ['China', 'Hong Kong', 'Singapore'];
   }
   if (kind === 'country') {
-    const hub = COUNTRY_HUBS.find(([s]) => s === rec.slug);
+    const hub = hubs.find(([s]) => s === rec.slug);
     const ports = cityList.filter(([, , country]) => country === hub[2]);
-    pg.sections.push({ id: 'ports', h: `Port pages in ${hub[1]}`, p: [`Each ${hub[1]} port page covers the ships that call, the yards and berths where gauging happens, the port state control picture and the jobs we see there.`], table: { head: ['Port', 'Page'], rows: ports.map(([, name]) => [name, `Ship thickness measurement in ${name}`]) } });
-    pg.related = [...ports.map(([s, name]) => [path(s), `Ultrasonic thickness measurement in ${name}`]), ...COUNTRY_HUBS.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), `Ship thickness measurement in ${l}`]), [path('ultrasonic-thickness-measurement'), 'Ultrasonic thickness measurement (UTM)'], [path('europe'), 'Maritime inspection in Europe']];
+    pg.sections.push({ id: 'ports', h: `Port pages in ${hub[1]}`, p: [`There are ${ports.length} ${hub[1]} port pages: ${ports.map(([, name]) => name).join(', ')}. Each covers the ships that call, the yards and berths where gauging happens, the port state control picture and the jobs we see there; the links are under "In this section" below.`] });
+    const others = hubPairs.filter(([h]) => h !== path(rec.slug));
+    const start = hubs.findIndex(([s]) => s === rec.slug);
+    const neighbours = [...others.slice(start), ...others.slice(0, start)].slice(0, 6);
+    pg.related = [[path(UTM), 'Ultrasonic thickness measurement (UTM)'], [path(SPECIAL), 'Special survey thickness measurement'], [path('inventory-of-hazardous-materials'), 'IHM surveys'], [path('marine-ndt-services'), 'Marine NDT services'], ...neighbours, [path('europe'), 'Maritime inspection in Europe']];
     pg.areaServed = [hub[1]];
   }
-  if (kind === 'region' && rec.slug === 'europe') pg.related = [...COUNTRY_HUBS.map(([s, l]) => [path(s), `Ship thickness measurement in ${l}`]), ...pg.related];
   if (kind === 'service') {
-    pg.related = [...SERVICES.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), l]), ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
+    const def = SERVICE_DEFS.find(([s]) => s === rec.slug);
+    const group = def ? def[3] : 'survey';
+    const same = SERVICE_DEFS.filter(([s, , , g]) => g === group && s !== rec.slug).map(([s, l]) => [path(s), l]);
+    const hubsLinks = [UTM, 'marine-ndt-services', 'advanced-ndt'].filter((s) => s !== rec.slug && !same.some(([h]) => h === path(s))).map((s) => [path(s), SERVICE_LABEL[s]]);
+    const top = ['netherlands', 'belgium', 'united-kingdom', 'germany', 'greece', 'norway'].filter((s) => hubs.some(([h]) => h === s)).map((s) => hubPairs.find(([h]) => h === path(s)));
+    pg.related = [...same, ...hubsLinks, ...top, ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
+  }
+  if (kind === 'landing') {
+    // Services organised by group (owner, 2026-11-10: "organized in a nice fashion"), after the first section.
+    const groupSections = SERVICE_GROUPS.map(([g, label]) => ({ id: `services-${g}`, h: label, p: [GROUP_INTRO[g]], links: SERVICE_DEFS.filter(([, , , gg]) => gg === g).map(([s, l]) => [path(s), l]) }));
+    pg.sections = [pg.sections[0], ...groupSections, ...pg.sections.slice(1)];
+    pg.related = [...hubPairs.slice(0, 8), ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
   }
   return pg;
 }
@@ -245,18 +304,23 @@ function stub(slug, kind, parent, navLabel) {
  */
 export function buildMaritimeSection(cityList, records = {}) {
   const byslug = Object.fromEntries(cityList.map(([slug, name, country, region]) => [slug, { slug, name, country, region }]));
+  const hubs = countryHubs(cityList);
+  const hubFor = Object.fromEntries(hubs.map(([s, , c]) => [c, s]));
   const pages = [];
-  const landing = records['maritime-inspection'];
-  pages.push(landing ? textPage(landing, 'landing', null, byslug, cityList) : stub('maritime-inspection', 'landing', null, 'Maritime Inspection'));
-  for (const [slug, label] of REGIONS) pages.push(records[slug] ? textPage(records[slug], 'region', ROOT, byslug, cityList) : stub(slug, 'region', ROOT, label));
-  for (const [slug, label] of COUNTRY_HUBS) pages.push(records[slug] ? textPage(records[slug], 'country', path('europe'), byslug, cityList) : stub(slug, 'country', path('europe'), label));
-  for (const [slug, label] of SERVICES) pages.push(records[slug] ? textPage(records[slug], 'service', ROOT, byslug, cityList) : stub(slug, 'service', ROOT, label));
-  for (const [slug, name, , region] of cityList) pages.push(records[slug] ? cityPage(records[slug], byslug) : stub(slug, 'city', path(region), name));
+  const landing = records[LANDING_SLUG];
+  pages.push(landing ? textPage(landing, 'landing', null, cityList, hubs) : stub(LANDING_SLUG, 'landing', null, 'Maritime Inspection'));
+  for (const [slug, label] of REGIONS) pages.push(records[slug] ? textPage(records[slug], 'region', ROOT, cityList, hubs) : stub(slug, 'region', ROOT, label));
+  for (const [slug, label] of hubs) pages.push(records[slug] ? textPage(records[slug], 'country', path('europe'), cityList, hubs) : stub(slug, 'country', path('europe'), label));
+  for (const [slug, label] of SERVICES) pages.push(records[slug] ? textPage(records[slug], 'service', ROOT, cityList, hubs) : stub(slug, 'service', ROOT, label));
+  for (const [slug, name, country, region] of cityList) pages.push(records[slug] ? cityPage(records[slug], byslug, hubFor) : stub(slug, 'city', hubFor[country] ? path(hubFor[country]) : path(region), name));
 
   const groups = [];
   const seen = new Map();
   for (const [slug, name, country] of cityList) {
-    if (!seen.has(country)) { seen.set(country, { name: country, links: [] }); groups.push(seen.get(country)); }
+    if (!seen.has(country)) {
+      const g = { name: country, links: hubFor[country] ? [[path(hubFor[country]), `All ${country} ports`]] : [] };
+      seen.set(country, g); groups.push(g);
+    }
     seen.get(country).links.push([path(slug), name]);
   }
   return createServiceSection({
@@ -268,9 +332,9 @@ export function buildMaritimeSection(cityList, records = {}) {
     defaultEyebrow: 'Maritime inspection',
     regions: {
       h2: 'Ports we cover',
-      intro: 'Each port page covers the traffic, the yards and anchorages where gauging happens, and the jobs we see there. Teams are mobilised from India to the vessel.',
+      intro: 'Each port page covers the traffic, the yards and anchorages where gauging happens, and the jobs we see there. Countries with several ports have their own page. Teams are mobilised from India to the vessel.',
       groups,
-      footnote: [...COUNTRY_HUBS.map(([s, l]) => [path(s), `Ship thickness measurement in ${l}`]), ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])],
+      footnote: REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`]),
     },
     cta: {
       primaryHref: ENQUIRY, primaryLabel: 'Request a Quote',
@@ -286,9 +350,9 @@ export function buildMaritimeSection(cityList, records = {}) {
 /** Which record a path needs (React loader): { kind: 'city' | 'page', slug } or null. */
 export function recordFor(pathname, cityList) {
   const p = String(pathname || '').replace(/\/+$/, '');
-  if (p === ROOT) return { kind: 'page', slug: 'maritime-inspection' };
-  const m = /^\/maritime-inspection\/([a-z0-9-]+)$/.exec(p);
+  if (p === ROOT) return { kind: 'page', slug: LANDING_SLUG };
+  const m = /^\/maritime\/([a-z0-9-]+)$/.exec(p);
   if (!m) return null;
-  if (REGION_SLUGS.includes(m[1]) || COUNTRY_SLUGS.includes(m[1]) || SERVICE_SLUGS.includes(m[1])) return { kind: 'page', slug: m[1] };
+  if (REGION_SLUGS.includes(m[1]) || SERVICE_SLUGS.includes(m[1]) || countryHubs(cityList).some(([s]) => s === m[1])) return { kind: 'page', slug: m[1] };
   return cityList.some((r) => r[0] === m[1]) ? { kind: 'city', slug: m[1] } : null;
 }

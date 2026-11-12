@@ -1,0 +1,114 @@
+{
+  "slug": "milazzo",
+  "name": "Milazzo",
+  "country": "Italy",
+  "region": "europe",
+  "title": "Milazzo Ship Thickness Measurement | UTM for Tankers & Ferries",
+  "description": "Ultrasonic thickness measurement at Milazzo for refinery tankers, Aeolian ferries and coasters: hull, tank and piping gauging for survey and owner checks.",
+  "h1": "Ship Hull and Tank Gauging at the Port of Milazzo",
+  "intro": "Milazzo sits on a narrow promontory on Sicily's north-east coast, facing the Aeolian Islands and a short run from the Strait of Messina. Product tankers work the refinery quays, while hydrofoils and ferries leave the town harbour for the islands. Owners gauge ships here before a docking, at the end of a charter or between surveys. Atlantis NDT sends a thickness gauging crew from India to the ship and plans each visit around cargo operations and the ferry timetable.",
+  "keywords": [
+    "milazzo ship thickness measurement",
+    "ultrasonic thickness measurement milazzo",
+    "milazzo utm",
+    "tanker gauging milazzo",
+    "hull inspection milazzo",
+    "aeolian ferry hull inspection",
+    "ship inspection sicily",
+    "pre-docking thickness gauging sicily",
+    "ballast tank thickness measurement",
+    "product tanker steel condition"
+  ],
+  "highlights": [
+    {
+      "h": "Refinery tankers on the Tyrrhenian coast",
+      "p": "Product tankers at the refinery quays spend long periods alongside loading or discharging, and ballast tanks, deck plating and cargo piping can be gauged in the gaps the operation leaves, once entry permits are in place."
+    },
+    {
+      "h": "Island ferries on short rotations",
+      "p": "Hydrofoils and ferries bound for the Aeolian Islands turn round quickly in the town harbour. Their hull and tank work is usually planned for the quieter winter months, when the timetable thins out and the ship can be spared."
+    },
+    {
+      "h": "Repair yards along the same coast",
+      "p": "Messina lies a short distance away, so a ship whose readings point to steel renewal can move to a repair facility for the docking while the Milazzo measurements are already on file for the surveyor and the yard."
+    }
+  ],
+  "port": {
+    "h": "The port of Milazzo: refinery quays, island ferries and open roadstead",
+    "p": [
+      "Milazzo lies on the north-east coast of Sicily, at the base of a long promontory that ends at Capo Milazzo. The harbour looks out across the Tyrrhenian Sea, and on a clear day the Aeolian Islands rise from the water to the north. Larger ships reach the refinery quays across open water, so sea state and wind direction decide when a vessel can berth and, just as important for inspection work, when people can safely be put aboard a ship waiting at anchor. The coastal plain behind the port is heavily industrial, and the commercial quays are kept apart from the passenger side where the island services dock.",
+      "Traffic divides cleanly in two. The first half is energy: product tankers and smaller chemical carriers serve the refinery complex, bringing in crude oil or taking away refined products, with occasional general cargo and dry bulk calls rounding out the commercial side. The second half is island passenger traffic: hydrofoils, fast craft and ro-pax ferries running to the Aeolian Islands, at full strength in summer and much reduced in winter. Between them these trades make Milazzo a port where the ships are often elderly, hard-worked and surveyed on a regular cycle, and where technical managers want an honest picture of tank steel and hull plating before the next survey arrives.",
+      "Berth time is the limiting factor for any inspection. A tanker alongside at the refinery is working cargo, with hazardous-area rules governing what equipment may come aboard and when spark-producing work is permitted, so gauging is arranged with the terminal and the master before the ship arrives. Ferries rest in the town harbour overnight and for part of some rotations, which is easier for access but tight for staging equipment. Summer brings the island timetable at full strength and calmer seas; winter brings rougher weather, fewer sailings and more chances to take a ferry out of service for a steel check. Work at the roadstead is possible in settled conditions but depends on launch transfers."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships can be gauged in and around Milazzo",
+    "p": [
+      "Milazzo itself is not a docking port for large ships. There is no large drydock in the harbour, so a ship whose gauging points to steel renewal is normally sent to a yard elsewhere, with Messina close by along the coast and other Sicilian and mainland yards further afield. What Milazzo does offer is access: refinery quays where tankers lie alongside, passenger berths where ferries rest between rotations, and an open roadstead for ships waiting to berth.",
+      "Realistic gauging here is therefore afloat. On a tanker that means ballast tanks, the main deck and cargo piping once spaces are gas-free and entry permits are issued, usually timed around discharge or a wait at anchor. On a ferry it means vehicle decks, ramps, void spaces and any tanks the crew can clear. Readings taken in Milazzo make a sound pre-docking dataset, so the steel estimate agreed with the repair yard rests on measured thickness rather than on the figures from the previous survey."
+    ],
+    "list": [
+      "Refinery tanker berths: ballast tanks, deck plating and cargo piping of product tankers, scheduled with the terminal and the master",
+      "Town harbour passenger quays: vehicle decks, ramps and void spaces of ferries and fast craft between rotations",
+      "Milazzo roadstead: ships waiting for a berth, reached by launch in settled weather",
+      "Lay-by berths used by coasters and small cargo ships during idle periods or after discharge",
+      "Messina, along the coast: the nearest repair facilities for ships whose readings call for steel renewal in a docking"
+    ]
+  },
+  "context": {
+    "h": "Port state control, regulation and the refinery trade at Milazzo",
+    "p": [
+      "Port state control at Milazzo is carried out by the Italian Coast Guard (Guardia Costiera), working through the harbour master (Capitaneria di Porto), under the Paris MoU system. Tankers calling at a refinery are a standard inspection target, and structural findings on ageing product tankers can lead to detention, which makes an independent set of thickness readings more useful before a visit than after one. Ferries on scheduled island routes also fall under the EU rules for passenger ships in regular service.",
+      "Other regulation shapes the work. Ships calling at EU ports must carry an Inventory of Hazardous Materials with a statement of compliance under the EU Ship Recycling Regulation, and a docking is a convenient moment to bring it up to date. EU ETS and FuelEU Maritime add a carbon accounting layer for larger ships, which makes owners of older tonnage more careful about whether a refit is worth doing. Tankers and ferries fitted with scrubbers also need their wash-water and overboard piping checked as running hours accumulate."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Milazzo",
+    "p": "Work at Milazzo splits between tankers on refinery berths and ferries in the town harbour. Tanker jobs are planned with the terminal and the superintendent so that the gauging fits between cargo operations and safety requirements, while ferry jobs are fitted to the operator's rotation, often in the quieter months. In both cases the team agrees a defined list of spaces beforehand and returns one consolidated report, so that the owner has a single record to take to the yard or the surveyor.",
+    "list": [
+      "Pre-docking gauging of a product tanker's ballast tanks and main deck, taken while the ship lies at the refinery before heading to a repair yard",
+      "Owner's condition gauging of a coastal tanker ahead of a sale or a change of charter",
+      "Winter inspection of an Aeolian ferry's vehicle deck, ramp structure and void spaces while the summer schedule is suspended",
+      "Wall-thickness checks on the scrubber wash-water and overboard piping of a ferry or tanker between surveys",
+      "Off-hire condition gauging of a chartered coaster after discharge, documenting steel condition for owner and charterer"
+    ]
+  },
+  "logistics": "Catania airport is the usual arrival point for the crew, with a road transfer along the Sicilian coast to Milazzo. The team travels from India on Schengen visas, so dates are fixed once the visa lead time is known. Port access and ISPS passes go through the ship's agent, and refinery berths add a safety induction at the terminal gate before equipment is brought aboard.",
+  "vessels": [
+    "Product tankers",
+    "Small chemical tankers",
+    "Hydrofoils and fast ferries",
+    "Ro-pax ferries",
+    "Coastal tankers and bunker barges",
+    "General cargo ships",
+    "Dry bulk coasters",
+    "Tugs and harbour craft"
+  ],
+  "faqs": [
+    {
+      "q": "Can a tanker be gauged while alongside the refinery at Milazzo?",
+      "a": "Often yes, but it has to be agreed with the terminal and the master in advance. Hazardous-area rules decide which instruments can be used and when, and spaces must be gas-free with an entry permit. We usually take deck plating and ballast tanks, keeping clear of the cargo operation and finishing before the ship is due to sail."
+    },
+    {
+      "q": "Is there a drydock at Milazzo for steel renewal?",
+      "a": "Not for large ships. The harbour is a working refinery and ferry port rather than a repair port. Gauging done here normally feeds a docking at a yard elsewhere, such as Messina or another Sicilian or mainland shipyard, so the steel estimate is based on readings taken before the ship arrives."
+    },
+    {
+      "q": "Can you gauge a ship waiting at the Milazzo roadstead?",
+      "a": "Sometimes, if the weather is settled and the ship is gas-free with a safe means of boarding. Launch transfers add planning time, and a swell can end the day early. For ships that are going to berth anyway, it is usually more reliable to wait for the quay and gauge alongside."
+    },
+    {
+      "q": "When is the best time to inspect an Aeolian ferry?",
+      "a": "Winter is generally easiest, because island services thin out and owners can release a ship for several days. Summer rotations leave only short windows. We agree the list of vehicle deck sections, ramps and tanks with the superintendent so each window has a clear target."
+    }
+  ],
+  "nearby": [
+    "messina",
+    "catania",
+    "palermo",
+    "gioia-tauro",
+    "augusta"
+  ]
+}

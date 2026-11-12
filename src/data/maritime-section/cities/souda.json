@@ -1,0 +1,110 @@
+{
+  "slug": "souda",
+  "name": "Souda",
+  "country": "Greece",
+  "region": "europe",
+  "title": "Souda Bay Ship Gauging: UTM for Ferries, Tankers & Cargo",
+  "description": "Ultrasonic thickness gauging at Souda Bay, Chania: ro-pax ferries, cruise ships, fuel tankers and coastal cargo ships, deck, tank and piping readings.",
+  "h1": "Souda Bay, Crete: Thickness Measurement for Ships in a Deep Natural Harbour",
+  "intro": "Souda Bay is one of the deepest natural anchorages in the Mediterranean, tucked into the north-west of Crete beside Chania. Part of it is a naval base, and the commercial port handles ferries, cruise calls, fuel and cargo. Civil ships lie in a sheltered bay with plenty of room at anchor. We mobilise a team from India to the vessel and plan readings around the ship's commercial programme and the bay's access rules.",
+  "keywords": [
+    "souda bay ship inspection",
+    "thickness measurement souda",
+    "ultrasonic gauging chania",
+    "souda port ship utm",
+    "chania ship thickness measurement",
+    "souda bay anchorage",
+    "ship hull inspection crete west",
+    "ro-pax gauging souda",
+    "tanker deck gauging souda bay"
+  ],
+  "highlights": [
+    {
+      "h": "Sheltered bay, calm working water",
+      "p": "Souda Bay's long, deep inlet keeps most weather off ships at anchor and alongside, which makes launch transfers and tank entry planning more predictable than on the open coast of Crete."
+    },
+    {
+      "h": "Civil port next to a naval base",
+      "p": "The commercial quays share the bay with military facilities. We plan civil jobs only, and all access, passes and boat movements are cleared through the ship's agent and the port authority."
+    },
+    {
+      "h": "Fuel and ferry traffic in one bay",
+      "p": "Ro-pax ships on the Piraeus run, cruise calls and product tankers all use the bay, giving a mix of deck, vehicle deck, ballast tank and piping gauging in a single location."
+    }
+  ],
+  "port": {
+    "h": "Souda: a long, deep inlet on the west of Crete",
+    "p": [
+      "Souda Bay cuts into the north coast of Crete west of the Akrotiri peninsula, with the town of Chania a short distance to the west. The inlet is long and deep, and Souda Island at its mouth gives extra protection, so the bay offers sheltered water of a kind that is rare on the exposed Cretan coast. The commercial port at Souda is administered by the Chania Port Authority, and the military installations on the bay are controlled separately, with restrictions on movements and photography that civil visitors should respect.",
+      "Commercial traffic is a steady mix. Ro-pax ferries run overnight from Piraeus, cruise ships call during the season, and product tankers discharge fuel for the western half of the island. General cargo ships and container units deliver supplies for the region around Chania, and fishing and service craft use the smaller quays further along the shore. Many of these ships are coastal or short-sea tonnage on regular Aegean rotations, with ferries following published timetables and cargo ships fitting discharge between other ports. A ship that visits regularly gathers wear at the same predictable places: weather decks, ramps, ballast tank boundaries and piping.",
+      "Because the bay is so well sheltered, anchorage work is more practical here than at most Cretan ports. Ships waiting for a berth or for orders can lie for days without the swell that interrupts boat transfers elsewhere. That helps gauging that needs a longer quiet window, such as deck and hatch cover readings followed by tank entries, and it suits pre-docking surveys on ships that will sail on to a repair yard. The main constraint is not the weather but access: only civil areas and civil anchorage positions are available to us, and the agent decides what can be arranged."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging can be carried out at Souda",
+    "p": [
+      "In the civil port, gauging is done alongside at the ferry and cargo quays and at the fuel berth, with every pass and permit arranged by the ship's agent. A ro-pax ferry alongside offers vehicle decks, ramps and accessible plating, while a cargo ship discharging gives access to open holds and hatch covers. Product tankers at the fuel berth are limited to deck, deck piping and ballast spaces within the terminal's rules, and work may pause during cargo transfer.",
+      "Souda does not have a large repair yard or drydock. Hull work on ships that call here is normally carried out in the Athens repair zones, in the Aegean or in yards elsewhere in the Mediterranean. Gauging at Souda therefore serves as preparation: readings taken at anchor or alongside give the technical manager a measured basis for a steel estimate, and they identify areas that need early attention. For ships laid up in the bay between charters, a fuller programme including ballast tanks and voids can be planned over several days."
+    ],
+    "list": [
+      "Civil passenger and ferry quays — vehicle deck, ramp and ballast tank readings on ro-pax ships during layovers",
+      "Cargo quays — hatch cover, coaming, hold and deck gauging on general cargo ships and coasters during discharge",
+      "Fuel berth — deck, deck piping and ballast space gauging on product tankers within permit rules",
+      "Civil anchorage positions in the bay — pre-docking and condition gauging on ships waiting for orders, reached by launch",
+      "Lay-up positions in the bay — extended gauging of idle ships, planned with the owner's repair list"
+    ]
+  },
+  "context": {
+    "h": "Port state control and the setting of the bay",
+    "p": [
+      "Greek port state control under the Paris MoU is carried out by the Hellenic Coast Guard, and the same authority supervises passenger ship safety on the island routes. Domestic ferries face regular certificate inspections, so owners track structural condition closely, and wastage on vehicle decks and ballast tanks is a recurring theme. The Mediterranean sulphur emission control area, in force since 1 May 2025, applies around Crete. EU ETS (since 2024) and FuelEU Maritime (since 2025) cover voyages to and from Souda.",
+      "The military presence affects planning rather than the technical work. Photography of the bay and of restricted areas is controlled, so our reports show only the vessel under inspection. The agent should confirm which berths and anchorage positions are open to civil work and whether any exercise or restriction is in force on the dates. For ships calling at EU ports, an Inventory of Hazardous Materials is required on board, and a purchase or change of manager can add a condition check to the usual survey cycle."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Souda",
+    "p": "Most Souda jobs are short and targeted, built around the ship's call and agreed in advance with the superintendent. The brief names the spaces, the window and the decision the readings must support, and we report by area as each is completed so the superintendent can act before the ship sails.",
+    "list": [
+      "Vehicle deck and ramp plating readings on a ro-pax ferry during an overnight stay, with ballast tank gauging planned for the winter lay-up.",
+      "Hatch cover and coaming gauging on a general cargo ship discharging at the cargo quay before a new fixture.",
+      "Deck plating and deck piping readings on a coastal product tanker alongside the fuel berth, ahead of a vetting inspection.",
+      "Pre-docking condition gauging at anchor in the bay on an older bulk carrier, giving the manager a steel estimate for a yard in mainland Greece.",
+      "Scrubber overboard piping inspection on a ro-pax ship after the crew found weeping near a shell connection."
+    ]
+  },
+  "logistics": "The team flies in to Chania's Ioannis Daskalogiannis Airport, usually connecting through Athens, and reaches the port by road along the bay. Port passes, any launch boarding and permits for the fuel berth are arranged by the ship's agent, with crew lists and technician certificates sent in advance; the agent also confirms which areas are open to civil work. Because Greece applies the Schengen rules, every technician travels on a Schengen visa obtained in India. We recommend sending us the ship's expected dates as early as they are known, so visa applications can begin before the call is fixed.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Cruise ships",
+    "Product tankers",
+    "General cargo ships and coasters",
+    "Container ships and ro-ro units",
+    "Bulk carriers on regional trades",
+    "Offshore and service craft"
+  ],
+  "faqs": [
+    {
+      "q": "Can ships be gauged at anchor in Souda Bay?",
+      "a": "Yes, at civil anchorage positions. The bay is sheltered, so launch transfers are usually more reliable than on the open Cretan coast. The agent books the launch and confirms the position is open to civil work. Spaces must be ventilated, tested and certified safe before we enter, and the master decides whether weather and the ship's programme allow it."
+    },
+    {
+      "q": "Does the naval base affect our gauging job?",
+      "a": "It affects access and reporting rather than the technique. Only civil areas are used, passes and boat movements are arranged through the agent, and our photographs show only the vessel being inspected. If an exercise or restriction is in force on your dates, the agent will tell us, and we adjust the plan."
+    },
+    {
+      "q": "Is there a drydock at Souda for steel renewal?",
+      "a": "There is no large repair yard here. Ships needing hull steel work normally go to yards near Athens or elsewhere in the Mediterranean. Gauging at Souda is best used as preparation, giving the owner measured readings to compare yard offers and to order plate before the ship leaves Crete."
+    },
+    {
+      "q": "What can be done on a ferry that is only alongside overnight?",
+      "a": "Vehicle deck, ramp and accessible plating readings are realistic in a night stay. Tank entry needs preparation in advance and is better left for winter lay-up. We agree a short list of priority areas with the superintendent and measure them in the available hours."
+    },
+    {
+      "q": "Can one trip cover Souda and Heraklion?",
+      "a": "Often yes. Both are on the north coast of Crete and are linked by road, so one mobilisation can cover ships at each if their dates line up. Tell us the vessels and windows, and we will plan the order of jobs and the visa period as one trip."
+    }
+  ],
+  "nearby": ["heraklion", "piraeus", "syros", "rhodes"]
+}

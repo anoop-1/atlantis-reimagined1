@@ -1,0 +1,20 @@
+{
+  "slug": "grande-prairie",
+  "lat": 55.17,
+  "lng": -118.8,
+  "localContext": "Grande Prairie is the hub of Alberta's Peace Country, where Montney and Duvernay gas feeds wells, gathering lines, compressor stations and processing plants. Forestry mills, oilfield service and heavy-equipment fabrication add work. Pipelines inside Alberta answer to the Alberta Energy Regulator and run to CSA Z662, and pressure equipment is administered by the Alberta Boilers Safety Association. Remote sites and camps make online theory with an employer practical a natural fit for UT, MT, PT and VT technicians.",
+  "certPathwayNote": "Peace Country operators often expect CAN/CGSB-48.9712, certified through NRCan or CWB Group after training from a Recognized Training Organization, which Atlantis is not. Atlantis courses follow ASNT SNT-TC-1A, where the employer's written practice governs examinations and certification, for US-code fabrication, cross-border pipeline contracts and customers who specify ASNT. Radiography needs CNSC exposure device operator certification.",
+  "salaryFrom": "edmonton",
+  "siblings": [
+    "red-deer",
+    "edmonton",
+    "fort-mcmurray",
+    "calgary",
+    "saskatoon"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Grande Prairie | Level 1-3",
+    "description": "ASNT SNT-TC-1A NDT training for Grande Prairie employers and technicians: online theory, practical at your facility, UT, PAUT, RT, MT, PT, VT and Level III.",
+    "h1": "ASNT SNT-TC-1A NDT Training in Grande Prairie, AB: Level 1, 2 and 3 Courses"
+  }
+}

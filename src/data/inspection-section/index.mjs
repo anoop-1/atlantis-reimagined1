@@ -106,6 +106,6 @@ export const INSPECTION_NAV = {
     { name: 'Commissioning', path: '/inspection/commissioning' },
     { name: 'Turnarounds & Shutdowns', path: '/inspection/turnarounds-shutdowns' },
     { name: 'API 510 / 570 / 580 / 653 Inspection', path: '/inspection-services' },
-    { name: 'Maritime Inspection (Ship UTM)', path: '/maritime-inspection' }, // 2026-11-07
+    { name: 'Maritime Inspection (Ship UTM)', path: '/maritime' }, // 2026-11-07; /maritime since 2026-11-10
   ],
 };

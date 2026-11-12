@@ -1,0 +1,15 @@
+{
+  "slug": "raleigh",
+  "lat": 35.78,
+  "lng": -78.64,
+  "localContext": "Raleigh and the Research Triangle mix utilities, life-science manufacturing and general industry rather than heavy process plants. Duke Energy runs the Shearon Harris nuclear station in southwest Wake County and other generation in the region, biopharmaceutical plants in the surrounding counties rely on high-purity process piping, and fabricators, building-systems makers and North Carolina highway bridges fill out the demand. Work runs to ASME, AWS and owner quality rules, so technicians need documented, employer-certified qualification.",
+  "certPathwayNote": "Triangle employers certify technicians under written practices built on ASNT SNT-TC-1A. Nuclear station contractors and pharmaceutical owners add their own quality requirements, which the employer's Level III reconciles with the practice. Individuals without a sponsoring company can pursue ASNT central certification, which Atlantis NDT prepares candidates for.",
+  "salaryFrom": "charlotte",
+  "siblings": [
+    "charlotte",
+    "fayetteville",
+    "norfolk",
+    "greenville-south-carolina",
+    "atlanta"
+  ]
+}

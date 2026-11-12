@@ -1,0 +1,20 @@
+{
+  "slug": "hamilton-ontario",
+  "lat": 43.26,
+  "lng": -79.87,
+  "localContext": "Hamilton is Canada's steel city. ArcelorMittal Dofasco and Stelco's Hamilton Works, now owned by Cleveland-Cliffs, anchor primary metals on the bay, with a Golden Horseshoe base of structural and pressure-equipment fabricators, the Port of Hamilton, rail and highway infrastructure around them. Inspection leans on MT, VT and UT of ferrous plate, welds, forgings and lifting gear to CSA, ASME and AWS requirements, so training should favour those methods and heavy-steel specimens.",
+  "certPathwayNote": "Hamilton employers hire against CAN/CGSB-48.9712 or SNT-TC-1A depending on the customer. Under SNT-TC-1A the employer certifies under its written practice, which suits fabricators selling to US customers. Atlantis courses do not count toward NRCan or CWB Group certification. Radiography additionally needs CNSC exposure device operator certification, a separate federal requirement.",
+  "salaryFrom": "sarnia",
+  "siblings": [
+    "toronto",
+    "sarnia",
+    "buffalo",
+    "detroit",
+    "sudbury"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Hamilton | Levels 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Hamilton steel, fabrication and port employers: self-paced theory, simulator and practical at your site. Not CAN/CGSB-48.9712.",
+    "h1": "NDT Training in Hamilton, ON: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+  }
+}

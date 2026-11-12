@@ -1,0 +1,108 @@
+{
+  "slug": "lowestoft",
+  "name": "Lowestoft",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Lowestoft Ship Gauging | UTM for Wind Farm and Offshore Craft",
+  "description": "Thickness measurement in Lowestoft for wind farm service vessels, standby ships, survey vessels and coasters: hull, tanks and piping, afloat or in dry dock.",
+  "h1": "Ultrasonic Thickness Gauging for Offshore Wind, Survey and Cargo Vessels in Lowestoft",
+  "intro": "Lowestoft, Britain's most easterly port, built trawlers and warships for more than a century and now looks after a different fleet: the vessels that service the offshore wind farms off Suffolk and Norfolk, standby and survey ships, research craft and a modest flow of coasters. A dry dock and slipways in the inner harbour keep repair work in the town. Atlantis sends technicians out from India for each job, whether the vessel lies in the outer harbour, on Lake Lothing or in the dry dock.",
+  "keywords": [
+    "lowestoft ship gauging",
+    "thickness measurement in lowestoft",
+    "utm lowestoft",
+    "offshore wind vessel inspection",
+    "dry dock gauging lowestoft",
+    "ship inspection suffolk",
+    "research vessel thickness measurement",
+    "standby vessel hull gauging",
+    "lake lothing ship repair",
+    "crew transfer vessel ultrasonic testing"
+  ],
+  "highlights": [
+    {
+      "h": "A working dry dock in the harbour",
+      "p": "Lowestoft still has a dry dock and slipways in the inner harbour, used by workboats, standby vessels and other small ships. Bottom plating, sea chests, the rudder and the stern area can be gauged while the hull is dry and the repairer is on hand to act on the results."
+    },
+    {
+      "h": "Wind farm operations on the doorstep",
+      "p": "Operations and maintenance bases for nearby offshore wind farms bring crew transfer vessels in and out every working day, and larger service ships call between campaigns. Short visits that can be repeated suit hull, bow and fender checks across a fleet."
+    },
+    {
+      "h": "The bridge decides the berth",
+      "p": "A bascule bridge separates the outer harbour from Lake Lothing and limits the beam of ships that can reach the inner harbour. Whether a vessel lies inside or outside the bridge shapes how long the team has on board and how the vessel is reached from the quay."
+    }
+  ],
+  "port": {
+    "h": "Lowestoft: outer harbour, Lake Lothing and a long maritime tradition",
+    "p": [
+      "Lowestoft sits on the Suffolk coast at Ness Point, the most easterly point in the United Kingdom, within easy reach of the gas fields and wind farms of the southern North Sea. The harbour has two parts. The outer harbour, enclosed by breakwaters in the 1930s, opens directly to the sea and takes the larger vessels. Behind it, through a bascule bridge, lies Lake Lothing, a natural lake joined to the sea in the 1830s, whose quays held the town's shipyards and much of its fishing fleet. Mutford Lock at the far end links the lake with Oulton Broad and the Broads beyond. Associated British Ports owns and operates the port, and bridge openings for ships bound into the inner harbour are coordinated with the busy road crossing above.",
+      "Fishing and shipbuilding defined Lowestoft for most of the twentieth century. Yards such as Brooke Marine and Richards built trawlers, coasters and naval vessels into the 1980s, and the town's engineering firms grew up around them. Today the trawler fleet is small and the busiest vessels are offshore ones. SSE and ScottishPower Renewables run operations and maintenance bases for wind farms off this coast, with crew transfer vessels heading out for the turbines early each morning and coming back in the evening. Standby and rescue vessels, survey ships and supply vessels for the southern gas fields also use the port, and Cefas, the government's fisheries and marine science agency, has its headquarters in the town. Cargo is modest: agribulks, liquid bulks and project cargo for the energy industry.",
+      "That mix gives gauging a different rhythm from a cargo port. Crew transfer vessels are at sea for the working day and alongside each night, which suits short evening visits or days when the sea state keeps them in. Larger service and survey vessels come in between projects or for crew changes and repairs, and winter weather keeps them alongside more often than summer. Standby vessels rotate between field duty and port on a predictable pattern. Vessels in the dry dock or on the slipways offer the fullest access of all, and the repair yard is the obvious place for the thickness measurement that goes with a docking survey, because the readings and the steel work can be done in the same visit."
+    ]
+  },
+  "facilities": {
+    "h": "Dry dock, slipways and berths for gauging at Lowestoft",
+    "p": [
+      "The dry dock and slipways in the inner harbour set Lowestoft apart from the other ports on this stretch of coast. They are sized for workboats, standby vessels, tugs, pilot craft and smaller coasters rather than large merchant ships, and owners bring vessels to them from well beyond Suffolk. While a vessel is dry, the team can gauge bottom and side shell, sea chests, the rudder and stern frame, and any internal tanks the repairer has opened, and mark areas of substantial corrosion on the steel so the renewal can be scoped before the dock is flooded again.",
+      "Afloat, the outer harbour is the more practical place for longer jobs on bigger vessels, because it avoids the bridge and gives direct access from quays used by the energy industry. ABP has been adding berth space in the outer harbour for offshore energy vessels, which brings more service ships into a sheltered quayside position. Berths along Lake Lothing are sheltered and quiet, well suited to a vessel laid by between contracts or a coaster discharging over a couple of days. There is little call for anchorage work, since the approaches are open to the North Sea and most vessels simply come alongside."
+    ],
+    "list": [
+      "Inner-harbour dry dock: docking survey gauging of bottom plating, sea chests, rudder and stern structure on workboats, standby vessels and small cargo ships.",
+      "Slipways on Lake Lothing: shell and tank readings on smaller craft hauled out for repair.",
+      "Outer harbour energy quays: hull, deck and tank gauging on service operation, survey and supply vessels between campaigns.",
+      "Wind farm operations berths: hull and fender checks on crew transfer vessels in the evening or on weather days.",
+      "Lake Lothing cargo and lay-by berths: hold, tank and condition gauging on coasters and on vessels laid by between contracts."
+    ]
+  },
+  "context": {
+    "h": "Port state control, charterer vetting and the southern North Sea",
+    "p": [
+      "Foreign-flagged cargo ships and some offshore vessels at Lowestoft are subject to port state control by the Maritime and Coastguard Agency, applied through UK regulations that keep the country within the Paris MoU. Much of the local fleet, though, answers more often to its charterers than to port state control. Wind farm operators inspect crew transfer vessels against their own standards and industry guidance, and gas operators vet the standby and supply vessels they hire, so a technical manager who can show recent thickness readings on hull, deck and tanks is in a stronger position when the next inspection comes round.",
+      "Survey and research vessels add requirements of their own. They carry hull-mounted transducers and gondolas, sometimes moon pools, and long runs of sea-water cooling pipe, and the plating around those openings needs careful attention when gauging. Older standby vessels, some converted decades ago from trawlers, are at an age where corrosion in the double bottom, void spaces and fuel tanks is the main question at each renewal survey. As the gas fields wind down and the wind farms grow, owners are deciding which of these vessels to keep, and thickness readings feed directly into that decision."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Lowestoft",
+    "p": "Lowestoft jobs fall into two groups: dry-dock work, where the gauging is part of a docking survey or a repair specification, and afloat work on offshore and survey vessels between voyages. In the dry dock we work to the agreed TM plan and the repairer's programme, so that substantial corrosion is marked while staging is still in place. Afloat, the scope is set by how long the vessel stays and which tanks can be opened safely. Cargo ships are a smaller share of the work but follow the familiar pattern of holds, tank tops and hatch covers taken during discharge.",
+    "list": [
+      "Docking survey gauging on an emergency response and rescue vessel in the inner-harbour dry dock: bottom plating, sea chests and void spaces.",
+      "Hull plating and bow structure checks across a crew transfer vessel fleet, spread over several weather days during one mobilisation.",
+      "Pre-docking steel estimate for a survey vessel between charters, including moon pool and transducer-area plating.",
+      "Fuel and ballast tank gauging on a supply vessel during a maintenance stop in the outer harbour.",
+      "Condition gauging of a tug or pilot vessel hauled out on a slipway, ahead of a decision on refit or replacement."
+    ]
+  },
+  "logistics": "For Lowestoft the team usually flies into London Stansted or Heathrow and travels on by rail or road; Norwich Airport is the nearest airport but has only a small international network. Lowestoft station is served by lines from both Norwich and Ipswich. The technicians travel from India on UK visas, which take longer to arrange than many dry-dock slots, so we ask for the docking date as soon as it is fixed. The repairer issues yard passes for dry-dock work, while the agent or vessel operator arranges access to the port's quays.",
+  "vessels": [
+    "Crew transfer vessels",
+    "Service operation vessels",
+    "Emergency response and rescue vessels",
+    "Survey and research vessels",
+    "Platform supply vessels",
+    "Tugs, pilot boats and workboats",
+    "Coasters and small bulk carriers",
+    "Fishing vessels"
+  ],
+  "faqs": [
+    {
+      "q": "What size of vessel can use the dry dock at Lowestoft?",
+      "a": "It is a small-ship dock, suited to workboats, standby vessels, tugs, pilot craft and smaller coasters rather than ocean-going cargo ships. The repairer can confirm whether a particular vessel fits and when the dock is free. For a vessel that fits, docking survey gauging and steel renewal can be done in one visit; larger ships are gauged afloat at Lowestoft and docked elsewhere."
+    },
+    {
+      "q": "Can a ship reach Lake Lothing past the bridge?",
+      "a": "Only ships narrow enough to pass the bascule bridge, and only when it opens, which is coordinated with road traffic on the crossing. Wider vessels stay in the outer harbour. For gauging this matters because a ship heading for the inner harbour may wait for an opening, so the team's boarding time is agreed with the agent and the harbour on that basis rather than on the ETA alone."
+    },
+    {
+      "q": "Do you gauge crew transfer vessels on weather days?",
+      "a": "Yes. When the sea state keeps crew transfer vessels in port, they lie alongside all day with the crew available, which is the best time for hull plating, bow and fender structure and deck checks. We agree a standing scope with the operator so the team can work through the fleet on whichever days the weather closes in during a mobilisation, and keep the same reference points on each vessel from one year to the next."
+    },
+    {
+      "q": "Can survey vessels be gauged around their transducers and moon pools?",
+      "a": "Yes, with care. Plating around hull-mounted transducers, drop keels, moon pools and sea-water intakes is often heavily stiffened, and coatings there can be thick. We gauge it on cleaned steel or through coatings only where the gauge's through-coating mode has been proven, record every reading against the vessel's drawings, and agree the areas with the ship's engineers and scientific staff first so that no sensitive equipment is disturbed."
+    }
+  ],
+  "nearby": ["great-yarmouth", "ipswich", "felixstowe", "kings-lynn", "rotterdam"]
+}

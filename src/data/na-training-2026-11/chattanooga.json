@@ -1,0 +1,15 @@
+{
+  "slug": "chattanooga",
+  "lat": 35.05,
+  "lng": -85.31,
+  "localContext": "Chattanooga combines river power, nuclear generation, automotive assembly and an old foundry and metalworking tradition. Volkswagen assembles vehicles at its Chattanooga plant, TVA operates the Sequoyah nuclear station at Soddy-Daisy and hydro dams on the Tennessee River, and the Watts Bar nuclear plant lies to the northeast. Rail yards, pipe and casting producers and general fabrication add steady work. Inspection runs to ASME, AWS and owner quality programmes, so documented, employer-certified technicians are in demand.",
+  "certPathwayNote": "Chattanooga employers certify technicians under written practices based on ASNT SNT-TC-1A. Nuclear station contractors and automotive suppliers add their own quality flow-down, which the employer's Level III reconciles with the practice. Individuals without a sponsoring company can take the ASNT central certification route instead, which Atlantis NDT prepares candidates for.",
+  "salaryFrom": "nashville",
+  "siblings": [
+    "knoxville",
+    "nashville",
+    "atlanta",
+    "huntsville",
+    "oak-ridge"
+  ]
+}

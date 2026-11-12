@@ -1,0 +1,110 @@
+{
+  "slug": "oxelosund",
+  "name": "Oxelösund",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Oxelösund Bulk Carrier Thickness Measurement | Holds & Tanks",
+  "description": "Thickness measurement in Oxelösund for bulk carriers and steel cargo ships: cargo hold, hopper and topside tank UTM, crack checks and pre-docking gauging.",
+  "h1": "Ultrasonic Gauging for Bulk Carriers and Steel Cargo Ships at Oxelösund",
+  "intro": "Oxelösund is a steel town with a deep-water port at its door. SSAB's steelworks has long drawn bulk carriers loaded with iron ore, coal and coke, steel plate leaves on general cargo and multipurpose ships, and the port also handles dry bulk and other cargo for customers beyond the mill. Bulk carriers spend the whole of their discharge alongside, which is exactly when holds and wing tanks can be gauged. For each job, technicians fly in from India to meet the ship at the berth.",
+  "keywords": [
+    "thickness measurement oxelösund",
+    "utm oxelosund",
+    "bulk carrier gauging sweden",
+    "cargo hold thickness measurement",
+    "hopper tank gauging",
+    "topside tank thickness measurement",
+    "bulk carrier side frame gauging",
+    "ship inspection oxelösund",
+    "steel cargo ship inspection",
+    "pre-docking gauging bulk carrier"
+  ],
+  "highlights": [
+    {
+      "h": "Cargo holds measured as discharge proceeds",
+      "p": "Grabs and front-end loaders scar tank tops, hopper plating and frame brackets in ore and coal ships. As each hold empties, the team can gauge it and record the damage before the ship sails, giving the owner steel figures ahead of the next survey."
+    },
+    {
+      "h": "Deep water close to the open Baltic",
+      "p": "Oxelösund lies near the open sea with a short approach, and its bulk berths take large bulk carriers. Winter ice tends to be lighter and less persistent here than in the long inlets nearby or in the Gulf of Bothnia."
+    },
+    {
+      "h": "Steel plate on multipurpose ships",
+      "p": "Heavy plate leaving the mill is shipped on general cargo and multipurpose ships, whose tank tops and lashing points take concentrated loads. Gauging and crack detection at those details fit the loading window when the holds are clear."
+    }
+  ],
+  "port": {
+    "h": "Oxelösund: a steelworks port on the Södermanland coast",
+    "p": [
+      "Oxelösund lies on the Södermanland coast south-east of Nyköping, where the mainland meets the outer archipelago and the open Baltic is only a short distance away. The steelworks and the harbour occupy the waterfront next to the town, and the approach from the sea is short and piloted, without the long inland passage that ships make to Norrköping or into Lake Mälaren. Water depth was the reason the steel industry settled here, and the port remains one of the deeper bulk harbours on the Swedish east coast. Ice comes in cold winters, but it rarely closes the port for long, and the Baltic's lack of tide means a ship sits at a constant height against the quay through discharge, which keeps gangway and staging arrangements simple.",
+      "For most of its history the port has served SSAB's integrated steelworks, receiving iron ore pellets, coal and coke for the blast furnaces, much of the ore having travelled by sea from northern Sweden, and shipping out steel plate. Oxelösunds Hamn also handles dry bulk, forest products and other cargo for customers outside the mill. The trade is changing: SSAB has been moving Oxelösund from blast furnace steelmaking towards electric arc furnaces, which in time means fewer cargoes of coking coal and ore and more of scrap and other inputs. The ships that serve the mill will change with it, but the need to know the condition of their holds and tanks will not. Outbound steel, meanwhile, keeps multipurpose and general cargo ships calling at the plate quays throughout the year.",
+      "The ships that call are mainly bulk carriers, from handysize units in the Baltic trades to larger ships on longer routes, plus multipurpose and general cargo ships loading steel. Bulk carriers are the ship type for which the Enhanced Survey Programme was written, and the older ones in these trades carry heavy gauging requirements at their third and fourth renewal surveys. A discharge at Oxelösund typically lasts a few days, enough time to work through the holds as they empty and to enter ballast tanks the crew has prepared. Scrap, when it becomes a larger part of the trade, is notorious for damaging tank tops and frames, so the hold record matters even more for ships moving into that cargo."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging at Oxelösund's bulk and steel berths",
+    "p": [
+      "The discharge berths serving the steelworks are where most of the work happens. As each hold is emptied, the tank top, hopper plating, side frames and brackets become accessible, and the team can gauge them and record grab damage before the hold is swept or the ship moves on. Hopper and topside tanks are entered once the crew has issued a gas-free certificate and an enclosed-space entry permit. The stevedores' programme sets the order, so the scope is planned hold by hold with the chief officer, and quay movements follow the terminal's safety rules.",
+      "At the steel loading quays the window is the time before plate is stowed, which suits tank-top and lashing-point readings and crack detection at load-bearing details. Ships waiting for a berth sometimes lie at anchor off the port; short deck and air-pipe scopes can then be done by launch, arranged through the agent, if the weather allows. Oxelösund has no drydock for ships of this size, so a renewal survey programme is finished at the docking yard the owner selects, and the readings taken here travel with the ship as the pre-docking steel estimate."
+    ],
+    "list": [
+      "Ore and coal discharge berths — hold, hopper and topside tank gauging as each hold empties, with grab damage recorded by frame.",
+      "Steel loading quays — tank-top, lashing-point and hatch-coaming readings on multipurpose ships before plate is stowed.",
+      "General dry bulk berths — cargo hold and ballast tank measurements on bulk carriers serving the port's other customers.",
+      "Anchorage off the approach — short deck and air-pipe scopes by launch on ships waiting for a berth.",
+      "Docking yards elsewhere in the Baltic or North Sea — the rest of a renewal programme, built on readings taken here."
+    ]
+  },
+  "context": {
+    "h": "Bulk carrier rules and a steel industry in transition",
+    "p": [
+      "Port state control at Oxelösund follows the Paris MoU and is carried out by the Swedish Transport Agency, and older bulk carriers rank among the ship types that the Paris MoU targeting system looks at most closely. Bulk carriers also carry their own body of structural rules. The Enhanced Survey Programme sets the gauging and close-up survey extent at each renewal, SOLAS chapter XII adds structural requirements for bulk carriers, and on single side skin ships IACS UR S31 sets renewal criteria for side shell frames and brackets in the cargo holds. Those frames, wasted at their lower ends and damaged by grabs, are a classic finding on ships in ore and coal trades.",
+      "The steel industry around Oxelösund is part of Sweden's push towards fossil-free steel, and the shift to electric arc steelmaking changes the cargo the port receives. Scrap and heavier, more abrasive cargoes treat holds differently from ore pellets and coal, so owners moving ships into that trade, or taking them on charter for it, have good reason to record the condition of tank tops, hopper plating and frames before the first cargo. A clear baseline also helps when a dispute arises over hold damage at the end of a charter, because on-hire and off-hire readings taken on the same TM plan can be compared directly."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "What we are asked to gauge at Oxelösund",
+    "p": "Bulk carrier work dominates. Superintendents use a discharge at Oxelösund to measure holds and wing tanks ahead of an intermediate or renewal survey, to firm up a steel estimate for a docking, or to settle the condition of a ship changing hands or charters. Multipurpose ships loading steel add smaller scopes on tank tops and lashing details. Because the discharge sequence decides when each hold is accessible, we plan the job hold by hold with the chief officer and adjust it as the stevedores progress. Findings of substantial corrosion or cracking are passed to the superintendent the same day, while the ship is still at the berth.",
+    "list": [
+      "Hold frame, bracket and hopper plating gauging on a single side skin bulk carrier discharging coal, against the TM plan for its next renewal survey.",
+      "Topside and hopper tank gauging on an older bulk carrier during an ore discharge, to size steel renewal before a docking.",
+      "MPI at hatch coaming brackets and hopper knuckles where cracking is suspected after heavy-weather voyages.",
+      "Tank-top and lashing-point readings on a multipurpose ship loading steel plate at the mill.",
+      "On-hire gauging of the holds on a bulk carrier entering a charter for scrap or other abrasive cargoes."
+    ]
+  },
+  "logistics": "Stockholm Arlanda is the usual long-haul arrival, with onward travel by train and road via Nyköping; Stockholm Skavsta, near Nyköping, is the closest airport when its European connections suit the journey. The team travels from India on Schengen visas, which we apply for as soon as the discharge date is reasonably certain. Access to the steelworks berths and the port is controlled, so the ship's agent registers the technicians with the terminal in advance and confirms any site induction required before the team can go aboard.",
+  "vessels": [
+    "Handysize and larger bulk carriers",
+    "Ore and coal carriers",
+    "Multipurpose ships loading steel",
+    "Short-sea general cargo ships",
+    "Forest product carriers",
+    "Small dry bulk coasters"
+  ],
+  "faqs": [
+    {
+      "q": "Can cargo holds be gauged while the ship is discharging ore or coal at Oxelösund?",
+      "a": "Yes, one hold at a time as they become empty. The stevedores' sequence decides the order, so we plan with the chief officer which holds open first and work through them while discharge continues elsewhere. Tank tops, hoppers, frames and brackets are measured and damage is recorded before the hold is swept or ballasted. Wing tanks can be entered once gas-free and permitted."
+    },
+    {
+      "q": "Do you measure side frames and brackets on single side skin bulk carriers?",
+      "a": "We do. Frames, their lower brackets and the adjacent shell are gauged at the locations given in the TM plan, with webs and flanges recorded separately so that the readings can be assessed against the class renewal criteria. The assessment itself is made by the class surveyor; our job is to provide complete, well-referenced readings and to flag any frame that looks close to renewal."
+    },
+    {
+      "q": "Is ice a concern at Oxelösund?",
+      "a": "Less than at most Swedish east-coast ports. The short approach from open water means ice is usually lighter and shorter-lived than in the long inlets or the Gulf of Bothnia, although a hard winter can still bring icebreaker assistance and delays. Work inside holds and tanks is not affected by the cold; shell and deck readings are easier outside the coldest weeks."
+    },
+    {
+      "q": "Where do bulk carriers that call at Oxelösund go for dry-docking?",
+      "a": "To yards elsewhere in Europe or further afield, chosen by the owner, because the port has no drydock for ships of this size. Readings taken during an Oxelösund discharge are tied to the TM plan's frame and strake references, so the docking yard and the surveyor can use them directly, and our team can continue the programme at the yard if the owner wants."
+    },
+    {
+      "q": "Can hatch covers and coamings be checked during the call?",
+      "a": "Usually yes. Hatch cover top plating, skirts, coamings and coaming brackets can be gauged when the covers are open for discharge or closed at a break in cargo work, and magnetic particle testing at coaming bracket toes finds cracks that often start there. We schedule the hatch work so that it does not hold up the cranes or the stevedores."
+    }
+  ],
+  "nearby": ["norrkoping", "sodertalje", "stockholm", "oskarshamn"]
+}

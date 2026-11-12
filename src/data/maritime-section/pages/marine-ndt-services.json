@@ -1,0 +1,185 @@
+{
+  "slug": "marine-ndt-services",
+  "navLabel": "Marine NDT Services",
+  "title": "Marine NDT Services for Ships: Methods Chosen by Defect",
+  "description": "Marine NDT for ships: VT, MPI, DPI, UT, PAUT, TOFD, ACFM, eddy current and corrosion mapping, chosen by the defect, the material and the access on board.",
+  "h1": "Marine NDT services: the right inspection method for each part of the ship",
+  "eyebrow": "Maritime inspection · Marine NDT",
+  "intro": "Marine non-destructive testing answers a handful of practical questions about a ship: how much steel is left, whether a weld or a bracket has cracked, whether a repair is sound inside, and whether a crack can be found without stripping the paint. Each question has a method that answers it well and others that answer it badly. This page sets out every NDT method Atlantis NDT uses on ships, what each one finds, where it is used on board and how to choose between them, with teams mobilised from India to the yard or berth.",
+  "highlights": [
+    {
+      "h": "Method chosen by the defect",
+      "p": "We start from what you need to find, whether wall loss, a surface crack, a buried weld flaw or a crack under paint, and the material it sits in, and only then pick the method. A thickness gauge will not find a fatigue crack, and a magnetic yoke will not work on bronze."
+    },
+    {
+      "h": "Conventional and advanced methods",
+      "p": "Visual inspection, magnetic particle, dye penetrant and ultrasonic weld testing cover most shipboard work. When a stored scan image, a measured flaw height, crack detection through coatings or an area map of wall loss is needed, the advanced methods take over on the same job."
+    },
+    {
+      "h": "One Level III behind every procedure",
+      "p": "Procedures, technique sheets and reporting formats come from the founder, whose ASNT NDT Level III certification covers UT, RT, MT, PT and VT. Every technician on the job holds certification under the company's written practice to ASNT SNT-TC-1A for the methods they apply."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-marine-ndt-answers",
+      "h": "What marine NDT answers on a ship",
+      "p": [
+        "Non-destructive testing examines steel, welds, castings and forgings without cutting them up, so the ship stays in service and the part stays in the ship. On a hull, a deck crane or a rudder, the questions it answers are few and practical, and the method should follow the question rather than the habit of whoever turns up with the equipment.",
+        "Most shipboard NDT falls into one of five problems. Wall loss is the commonest, because corrosion is the main reason steel is renewed. Surface cracks come next, at the fatigue details every ship type has. Buried flaws matter in welds, whether in a new insert, a repair or a heavy butt joint. Cracks under paint are a problem of their own, because blasting off a sound coating to look for them creates the corrosion it was meant to prevent. And the material decides what can be used at all: a magnetic method on a bronze propeller finds nothing, however carefully it is applied."
+      ],
+      "list": [
+        "Wall loss and pitting: ultrasonic thickness measurement for spot readings, corrosion mapping for an area",
+        "Surface-breaking cracks in steel: close visual inspection, then magnetic particle inspection",
+        "Surface cracks in bronze, stainless steel and aluminium: dye penetrant inspection, or eddy current where suitable",
+        "Flaws inside a weld: ultrasonic weld inspection, phased array UT and TOFD",
+        "Cracks through paint and coatings: ACFM and eddy current, without blasting"
+      ]
+    },
+    {
+      "id": "methods-compared",
+      "h": "Marine NDT methods compared",
+      "p": [
+        "The table lists the methods we use on ships, what each one is good at, where it is typically applied on board and the standards family its procedure is written to. Each method has its own page in this section with the detail. The Advanced Marine NDT page explains when the encoded and electromagnetic methods are worth their extra set-up time on board."
+      ],
+      "table": {
+        "head": ["Method", "What it finds", "Typical ship applications", "Standards family"],
+        "rows": [
+          ["Visual Inspection (VT)", "Visible cracks, deformation, corrosion pattern, weld profile and surface imperfections, coating breakdown", "Every tank, hold and deck; welds before any other NDT; repair verification", "ISO 17637, ISO 5817, IACS Recommendation 47"],
+          ["Magnetic Particle Inspection (MPI)", "Surface and slightly subsurface cracks in ferromagnetic steel", "Hatch corners, bracket toes, crane pedestals, rudder stocks, shafts, repair welds", "ISO 9934, ISO 17638, ISO 23278, ASTM E709"],
+          ["Dye Penetrant Inspection (DPI)", "Surface-breaking cracks and porosity in non-porous metals", "Bronze propellers, stainless and duplex cargo systems, aluminium structure", "ISO 3452, ISO 23277, ASTM E165"],
+          ["Ultrasonic Thickness Measurement (UTM)", "Remaining wall thickness at a point", "Plating, stiffeners, tanks, decks and piping", "ISO 16809, ASTM E797, IACS thickness measurement report forms"],
+          ["Ultrasonic Weld Inspection (UT)", "Lack of fusion, cracks, slag and porosity inside a weld; laminations in plate", "Butt welds, inserts, full-penetration T-joints, repair welds", "ISO 17640, ISO 11666, ISO 23279"],
+          ["Phased Array UT (PAUT)", "Weld flaws, with an encoded and stored image of the scan", "Heavy butt welds, castings, crane pedestal and rudder welds", "ISO 13588, ISO 19285"],
+          ["TOFD Inspection", "Flaw height and position through the wall, best in thick sections", "Thick plate on large container ships, crack sizing for repair decisions", "ISO 10863, ISO 15626"],
+          ["ACFM Inspection", "Detection and sizing of surface-breaking cracks through paint", "Hatch corners, bracket toes and pedestals where the coating should stay", "Qualified procedure, calibrated on blocks with known defects"],
+          ["Eddy Current Inspection (ECT)", "Surface cracks through thin coatings on steel; cracks in non-ferrous parts", "Painted weld toes, aluminium superstructures", "ISO 15549, ISO 17643"],
+          ["Corrosion Mapping", "Wall loss and pitting mapped over an area as a C-scan", "Tank tops, bottom and deck plating, sea chests, piping", "ISO 16809 for the thickness method, with an encoded UT procedure"]
+        ]
+      }
+    },
+    {
+      "id": "choose-by-defect",
+      "h": "Choosing a method: defect, material and access",
+      "p": [
+        "The first filter is the defect. A thickness gauge measures the steel under the probe and nothing else, so it answers wall loss well and misses a fatigue crack running from a weld toe almost every time. Magnetic particle and dye penetrant inspection see only what reaches the surface; they will not tell you how deep a crack goes or whether there is lack of fusion in the root of a weld. Ultrasonic weld testing looks inside the joint but needs a clean, reasonably smooth scanning surface and a qualified operator to interpret what the screen shows.",
+        "The second filter is the material. Magnetic particle inspection needs ferromagnetic steel. Bronze and nickel-aluminium bronze propellers, austenitic stainless steel and aluminium are non-magnetic, so dye penetrant inspection or eddy current takes over. Duplex stainless steel, common in chemical tanker cargo systems and in scrubber installations, is magnetic, but its two-phase structure makes penetrant the usual choice for its surface cracks and calls for a dedicated ultrasonic procedure for its welds.",
+        "The third filter is access and the condition of the surface. Paint, scale, cargo residue, temperature, the room available for a yoke or a probe, and whether the back of the weld can be reached all change what is practical. Where a conventional method would mean removing a sound coating, ACFM or eddy current through the paint can be the better answer, with any confirmed indication then examined more closely on bare steel."
+      ]
+    },
+    {
+      "id": "ship-applications",
+      "h": "Where NDT is used on board, and which method suits each location",
+      "p": [
+        "The same locations come up on job after job, because they combine high stress, cyclic loading or aggressive corrosion. The list gives the usual first choice for each; the final choice depends on the material, the coating and the question the superintendent or the surveyor is asking."
+      ],
+      "list": [
+        "Hatch corners and coaming end brackets on bulk carriers and container ships: VT and MPI, or ACFM where the coating is to be kept",
+        "Bracket toes, side longitudinal end connections and slots in webs: VT followed by MPI on the cleaned toe",
+        "Crane pedestals, jib heel pins and sheave pins on geared ships: MPI of pedestal welds and pins, UT of full-penetration pedestal joints",
+        "Rudder stock, pintles, couplings and the rudder horn at docking: MPI on steel parts, DPI on bronze or stainless sleeves",
+        "Propeller blades in bronze or nickel-aluminium bronze: DPI at the blade roots and on any repaired area",
+        "Stern tube and shaft areas when the tailshaft is withdrawn: MPI on the steel taper and keyway, DPI on liners",
+        "Welded repairs and insert plates: VT and MPI on fillet welds, UT on butt welds",
+        "Cargo and ballast piping: UTM and corrosion mapping for wall loss, DPI on stainless lines",
+        "Scrubber welds and wash-water piping: DPI and UT on stainless or duplex steel, UTM on the discharge line and hull penetration",
+        "Lifting appliances, hooks and deck fittings: VT and MPI in support of the periodic thorough examination"
+      ]
+    },
+    {
+      "id": "drydock-ndt",
+      "h": "NDT during a drydocking: rudder, propeller, stern and sea chests",
+      "p": [
+        "Some of the most important NDT on a ship can only be done when it is dry. With the rudder lowered, the stock taper, the keyway and the coupling, the pintles and their bushes, and the rudder horn or sole piece welds become reachable. The propeller blades can be examined from staging in the dock, and when the tailshaft is withdrawn for its survey the taper, the keyway ends and the shaft liners can be tested. Sea chests, gratings and the shell around them are another drydock item, usually for wall loss rather than cracks.",
+        "Docking time is the constraint. NDT on the stern gear has to fit between dismantling and reassembly, and crack detection on structure has to happen before blasting and painting cover the surface again or before staging is struck. The practical approach is to agree the NDT list with the superintendent and the yard while the docking specification is being written, so that cleaning, access and power are planned for it, and any repair it reveals reaches the yard while there is still time to carry it out in the same docking."
+      ]
+    },
+    {
+      "id": "surface-preparation",
+      "h": "Surface preparation, coatings and who removes them",
+      "p": [
+        "Every method makes its own demand on the surface. Dye penetrant needs clean bare metal, free of paint, oil, scale and the residue of earlier testing. Magnetic particle inspection is most reliable on bare steel and works through a thin, sound coating only where the procedure has been shown to stay sensitive at that thickness. Ultrasonic weld testing needs a scanning band either side of the weld smooth enough for the probe to couple, which usually means removing loose paint and spatter. ACFM and eddy current are the methods that keep the coating, within the thickness limits of their procedures.",
+        "Coating removal, staging, lighting, ventilation and power are normally provided by the ship or the yard, and recoating afterwards is part of the same plan. We specify the preparation each location needs when the job is scoped, so the yard knows how wide a band to grind at each bracket toe and the ship knows which areas must be dry and clean before the team boards. Settling the surface condition up front is what keeps a team from spending its first day on board waiting for a grinder."
+      ]
+    },
+    {
+      "id": "safety-hot-work",
+      "h": "Enclosed spaces, gas-free certificates and hot work",
+      "p": [
+        "Much marine NDT happens in ballast tanks, double bottoms, cofferdams and cargo holds, so it runs under the ship's permit-to-work system and its enclosed-space entry procedure: ventilation, atmosphere tests for oxygen and for flammable and toxic gases, a standby person at the entrance, and personal gas monitors carried throughout. In a shipyard the yard's gas-free certificate is needed as well, and nobody from our team enters a space without it.",
+        "NDT equipment brings hazards of its own. An electromagnetic yoke is electrical equipment and cannot be used where a flammable atmosphere is possible, so tanker cargo areas must be gas-free before MPI starts. Penetrant cleaners and aerosols are flammable and give off vapour, which calls for ventilation and keeps them away from hot work. NDT also sits inside the repair sequence: a crack is tested to find its ends before gouging, the excavation is tested again to confirm the crack has gone before welding, and the finished weld is tested after any waiting time the welding procedure or the class sets for delayed cracking."
+      ]
+    },
+    {
+      "id": "class-and-qualification",
+      "h": "Class rules, surveyors and operator qualification",
+      "p": [
+        "On ships in service, the classification society's surveyor decides the extent of NDT for a repair and reviews the results, with IACS Recommendation 47, the Shipbuilding and Repair Quality Standard, setting the usual quality expectations for repairs. For new construction, IACS UR W33 sets the minimum non-destructive testing of hull steel welds and UR W34 covers advanced methods such as PAUT, TOFD and digital radiography. Some class rules and yard specifications also set requirements for the NDT supplier or name a particular certification scheme for the operators; tell us the class and the specification at enquiry, and we confirm before booking whether we meet them.",
+        "Thickness measurement is the case where class looks at the firm itself. Where gauging is to be credited to a class survey, IACS UR Z17 requires it to be done by a firm approved by the ship's classification society. Atlantis is preparing for UR Z17 audits with DNV, Lloyd's Register and ABS. Until a certificate is issued, our thickness readings serve the owner's own decisions: condition checks for owners and charterers, pre-docking steel estimates, pre-purchase inspections, on-hire and off-hire surveys, and checks between class surveys.",
+        "All work is planned and supervised by the founder, our Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience. Technicians are qualified and certified under the company's written practice to ASNT SNT-TC-1A, and Atlantis is certified to ISO 9001 and ISO 14001. Teams travel from India to the ship for each job, so mobilisation is planned around visas and the vessel's schedule rather than promised in hours."
+      ]
+    },
+    {
+      "id": "reporting",
+      "h": "What a marine NDT report contains",
+      "p": [
+        "Each report identifies the ship, the location by frame, longitudinal, strake or component, the method and procedure, the equipment and its calibration, the technique settings, the surface condition and the operator with certification level. Findings are recorded with their position, length and, where the method allows, depth or height, set against the acceptance criteria named in the specification, and illustrated with sketches and photographs.",
+        "Areas that could not be tested, and the reason, are listed rather than left out, so the surveyor and the superintendent can see what was covered and what remains open. Where one method raises a question another should answer, such as a crack whose depth matters or wastage that looks close to the limit, the report recommends the follow-up instead of leaving it to be discovered at the next survey."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 17637 – Visual testing of fusion-welded joints",
+    "ISO 17638 and ISO 23278 – Magnetic particle testing of welds and its acceptance levels",
+    "ISO 3452-1 and ISO 23277 – Penetrant testing, and acceptance levels for welds",
+    "ISO 17640 and ISO 11666 – Ultrasonic testing of welds, and acceptance levels",
+    "ISO 16809 – Ultrasonic thickness measurement",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "IACS UR W33 and UR W34 – Non-destructive testing of hull steel welds in new construction",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "NDT reports by method, with procedure, equipment, calibration and operator certification",
+    "Sketches locating every indication by frame, longitudinal or component",
+    "Photographs of significant findings and of the tested areas",
+    "Accept or reject decisions against the acceptance criteria in your specification",
+    "List of areas not tested, with the reason for each",
+    "Recommendations for follow-up testing or repair verification"
+  ],
+  "industries": [
+    "Bulk carriers and geared general cargo ships",
+    "Container ships",
+    "Crude, product and chemical tankers",
+    "Gas carriers",
+    "Offshore support vessels",
+    "Ship managers and owners' technical departments",
+    "Ship-repair yards",
+    "Buyers and charterers' vetting teams"
+  ],
+  "faqs": [
+    {
+      "q": "Which NDT method do I need for a crack at a bracket toe?",
+      "a": "Start with close visual inspection, then clean the toe to bare metal and use magnetic particle inspection, which shows surface-breaking cracks in steel clearly and gives their length. If the paint is sound and you would rather keep it, ACFM can screen through the coating first. Where the crack runs into a full-penetration weld and its depth matters for the repair, ultrasonic testing helps judge how far it goes before the yard starts gouging."
+    },
+    {
+      "q": "Why are so few ship welds radiographed?",
+      "a": "Radiography produces a permanent image and is good at porosity and slag, but on board it needs a licensed source or X-ray set, a controlled exclusion area that halts nearby work, and access to the far side of the joint. Ultrasonic weld testing needs one side only, involves no radiation and is more sensitive to planar flaws such as lack of fusion and cracks. The class rules for the ship set where ultrasonic testing is accepted."
+    },
+    {
+      "q": "Can NDT be done while the ship is trading?",
+      "a": "A good deal of it. MPI of hatch corners, crane pedestals and deck fittings, DPI on stainless cargo lines and UT of welds can be carried out at a port call once the areas are gas-free, accessible and cleaned. Ballast tanks can be inspected when empty and safe to enter. Rudder, propeller and shafting work, and anything on the external bottom, needs the ship in drydock, so it is planned with the docking."
+    },
+    {
+      "q": "What do you need from us to plan an NDT job?",
+      "a": "The vessel name or IMO number, the class society, the locations or components to be tested and their materials, relevant drawings, the specification or acceptance criteria, the port or yard and the dates, and the ship's agent. Tell us how cleaning, staging, power and coating removal will be arranged. Because the team comes from India, early notice of port and dates makes visas and travel easier to settle."
+    },
+    {
+      "q": "Who decides whether an indication is acceptable?",
+      "a": "The technician assesses each indication against the acceptance criteria in the procedure and the specification, and our Responsible NDT Level III reviews the results and the report. The decision on what to do about a finding sits with the client and, where class is involved, with the attending surveyor. We report what was found, where, how large, and against which criterion, so that decision can be made on recorded data."
+    },
+    {
+      "q": "Do you only offer the conventional methods?",
+      "a": "No. Visual, magnetic particle, dye penetrant and ultrasonic weld testing cover most shipboard work, but phased array UT, TOFD, ACFM, eddy current and corrosion mapping are offered for jobs where a stored scan, a measured flaw height, testing through paint or an area map of wall loss is needed. Each has its own page in this section, and the Advanced Marine NDT page compares them."
+    }
+  ]
+}

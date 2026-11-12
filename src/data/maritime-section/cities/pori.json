@@ -1,0 +1,109 @@
+{
+  "slug": "pori",
+  "name": "Pori",
+  "country": "Finland",
+  "region": "europe",
+  "title": "Pori Ship Gauging: UTM at Mäntyluoto and Tahkoluoto",
+  "description": "Ultrasonic thickness measurement in Pori at Mäntyluoto and Tahkoluoto for bulk carriers, feeders, tankers and gas carriers: hold, hull and piping gauging.",
+  "h1": "Thickness Measurement for Bulk, Container and Tanker Calls at the Port of Pori",
+  "intro": "Pori's harbours face the open Bothnian Sea west of the city, split between Mäntyluoto, with its container, general and project cargo quays, and Tahkoluoto, the deep-water harbour for dry bulk, liquid bulk and a small-scale LNG terminal. Bulk carriers discharging for the metals industry inland and tankers serving the region's plants give a gauging crew real time aboard. Atlantis keeps nobody in Pori: for every job, technicians fly in from India to meet the ship.",
+  "keywords": [
+    "thickness measurement in pori",
+    "pori ship gauging",
+    "mantyluoto utm",
+    "tahkoluoto bulk carrier gauging",
+    "bulk carrier hold thickness measurement",
+    "lng carrier ballast tank gauging",
+    "utm pori",
+    "heavy lift ship crane pedestal inspection",
+    "pre-docking steel estimate",
+    "ice class hull gauging pori"
+  ],
+  "highlights": [
+    {
+      "h": "Bulk carriers at Tahkoluoto",
+      "p": "The deep-water berths at Tahkoluoto take the largest dry bulk ships calling on this stretch of coast. Discharge of concentrates and other bulk cargoes leaves holds open for hours at a stretch, which suits frame, hopper and tank-top gauging for ESP surveys."
+    },
+    {
+      "h": "Project and container quays at Mäntyluoto",
+      "p": "Mäntyluoto handles containers, general cargo and heavy project lifts. Feeders on fixed loops, and heavy-lift ships waiting for their cargo to arrive, give windows for deck, hatch-cover, crane-pedestal and scrubber piping readings without stretching the call."
+    },
+    {
+      "h": "Small-scale LNG and liquid bulk",
+      "p": "The LNG terminal and the liquid berths at Tahkoluoto receive small gas carriers and tankers. Their ballast tanks, deck structure and void spaces can be measured inside the terminal's safety rules while the cargo transfer carries on."
+    }
+  ],
+  "port": {
+    "h": "Pori's two harbours on the open Bothnian Sea",
+    "p": [
+      "The Port of Pori is not in the city centre but out on the coast to the west, where the shoreline faces the open Bothnian Sea. Two harbours a short distance apart do different jobs. Mäntyluoto is the older general harbour, with container, ro-ro and conventional berths and room for project cargo, which has included heavy components for energy and industrial plants. Tahkoluoto, further out, was built for deep-draught ships and handles dry bulk, oil products and chemicals, and it also hosts a small-scale LNG import terminal supplying industrial users in western Finland. The approach channels are short by Finnish standards and both harbours sit close to open water, which makes Pori quicker to reach than ports tucked behind long archipelago fairways.",
+      "The traffic follows heavy industry inland. Metals plants up the Kokemäenjoki valley take in concentrates and send out their products, the forest industry exports through the general harbour, and chemicals and fuels arrive at the liquid berths. Container feeders link Mäntyluoto with the main North Sea hubs on regular loops, while heavy-lift and multipurpose ships come and go with project cargo. Offshore wind has added another strand, with a wind farm designed for icy conditions standing in the sea off Tahkoluoto, and installation and service work along the coast brings specialist vessels into the port from time to time. The result is that a gauging crew at Pori meets more bulk carriers and multipurpose ships than ferries, and that sets the shape of the work.",
+      "Ice forms along this coast in most winters, although open water usually lies nearer to Pori than to the ports of the Bay of Bothnia further north. Finnish winter traffic restrictions still apply, setting the ice class and minimum size needed for icebreaker assistance, and the bulk carriers that call in midwinter tend to be ice-classed ships on regular contracts. Port stays are rarely rushed: a bulk discharge can run over several shifts, multipurpose ships wait on cargo readiness, and tankers spend time on discharge and line clearing. Ships held for a berth anchor in the roads off the harbours when ice and weather allow. There is no merchant dry dock at Pori, so docking happens elsewhere and work here is planned as afloat gauging during the call."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations at Mäntyluoto, Tahkoluoto and beyond",
+    "p": [
+      "Bulk carriers at Tahkoluoto are measured as discharge proceeds. Once a hold is emptied and the grabs move on, the team works the lower hopper, the frames and the tank top in that hold before moving to the next, while topside and ballast tanks that the crew has prepared are entered between cargo stages. On tankers and gas carriers at the liquid berths, the work is limited to what the terminal and the ship's permit system allow during transfer: deck plating, piping exteriors, void spaces and the engine room. Feeders and multipurpose ships at Mäntyluoto offer deck, hatch-cover and crane-pedestal work, along with scrubber pipework, during their stay.",
+      "For the dock period, ships trading to Pori go elsewhere. The shipyard at Rauma, a short way down the coast, and Turku Repair Yard at Naantali are the nearest Finnish options, and many owners dock in Poland, the Baltic states or further afield. Gauging at Pori before the ship sails gives whichever yard is chosen a measured steel list, and lets the class surveyor at the yard start from readings that only need verifying. Where an owner wants the whole programme finished in the dock, our team can travel on to the yard and complete it there."
+    ],
+    "list": [
+      "Tahkoluoto dry bulk berths — hold frames, hopper plating and tank tops on bulk carriers, hold by hold as discharge progresses",
+      "Tahkoluoto liquid and LNG berths — deck, piping and void-space gauging on tankers and small gas carriers within terminal rules",
+      "Mäntyluoto container and general cargo quays — deck plating, hatch covers and scrubber lines on feeders and multipurpose ships",
+      "Mäntyluoto project cargo berths — crane pedestals, deck strengthening and tween decks on heavy-lift ships waiting for cargo",
+      "Roads anchorage off the harbours — ships waiting for a berth, reached by launch when ice and sea state allow",
+      "Nearest docking yards at Rauma and Naantali — where the steel list measured at Pori is checked with the ship dry"
+    ]
+  },
+  "context": {
+    "h": "Inspection regime and trade drivers on the Pori coast",
+    "p": [
+      "Traficom, the Finnish Transport and Communications Agency, carries out port state control at Pori under the Paris MoU, and bulk carriers are among the ship types whose structural condition draws particular attention on board. Bulk carriers and tankers trading here fall under the Enhanced Survey Programme, so their intermediate and renewal surveys carry mandatory thickness measurement and close-up survey that widen with age. Ice-classed bulk tonnage often stays on Baltic contracts for decades, and by the third and fourth renewal surveys the gauging extent can be considerable, which is why owners like to know the figures before the ship reaches the dock. Voyages linking Pori with other EU ports count in full under the EU ETS and FuelEU Maritime, and the EU Ship Recycling Regulation expects every ship above its tonnage threshold to carry a current Inventory of Hazardous Materials.",
+      "The cargo matters too. Mineral concentrates are often carried damp, and residues left in holds that are not cleaned and dried between voyages can attack tank tops, hopper plating and frame brackets, so wastage there may outpace what the ship's age would suggest. Chemicals and fuels arriving at the liquid berths bring chemical tankers under IACS UR Z10.3, with CAP ratings sometimes requested by charterers of older ships. In winter, the ice class decides whether a ship can call at all once the restrictions tighten, and readings from the ice belt and bow give the owner the measured basis for keeping a ship on a winter contract."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at the Port of Pori",
+    "p": "Most Pori jobs are done afloat and timed to cargo work, because the port has no dry dock of its own. Bulk carriers bring the larger scopes, often an intermediate survey's worth of hold and ballast tank readings, or a pre-docking estimate for a third renewal survey due at a yard elsewhere. Multipurpose and project-cargo ships bring focused deck and crane-foundation work, and feeders bring scrubber piping checks during routine calls. Tankers and gas carriers bring the narrowest scopes, limited by terminal rules, with the remainder saved for gas-free days. Each scope is written around the berth and the cargo programme before the team travels.",
+    "list": [
+      "Hold-by-hold gauging of frames, hopper plating and tank tops on a bulk carrier discharging concentrate at Tahkoluoto, ahead of its intermediate survey",
+      "Pre-docking steel estimate for an ice-class bulk carrier approaching its second renewal survey, so the chosen yard receives measured quantities",
+      "Crane pedestal, tween-deck and deck-strengthening readings, with MPI at pedestal welds, on a heavy-lift ship waiting at Mäntyluoto",
+      "Scrubber overboard and wash-water lines on a container feeder, measured during its regular Mäntyluoto call",
+      "Ballast tank and deck gauging on a small LNG carrier at the Tahkoluoto terminal, within the terminal's permit window",
+      "Pre-purchase condition gauging on a multipurpose ship for a buyer's superintendent who cannot attend in person"
+    ]
+  },
+  "logistics": "International arrivals are usually through Helsinki-Vantaa, followed by a road journey to the west coast; Pori Airport may suit some itineraries. The ship's agent requests ISPS access for Mäntyluoto or Tahkoluoto and books a launch when the ship is at anchor, and the LNG terminal adds its own safety induction. Finland is in the Schengen area, so technicians coming from India need a Schengen visa, and we set travel dates against the confirmed berth and the consular timetable together.",
+  "vessels": [
+    "Dry bulk carriers",
+    "Multipurpose and heavy-lift ships",
+    "Container feeder ships",
+    "Chemical and product tankers",
+    "Small-scale LNG carriers",
+    "General cargo ships",
+    "Offshore wind installation and service vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can holds be gauged while a bulk carrier discharges at Tahkoluoto?",
+      "a": "Yes, in the holds the stevedores have finished with. We follow the discharge, measuring frames, hopper plating, tank tops and bulkheads in each empty hold while the grabs work elsewhere, and enter ballast and topside tanks the crew has ventilated and certified for entry. Cargo residue has to be swept off the areas we measure, so we agree with the chief officer which holds will be cleaned first."
+    },
+    {
+      "q": "Is there a dry dock at Pori?",
+      "a": "No, Pori has no dry dock for merchant ships. Owners dock at Rauma, at Naantali or at yards across the Baltic, and gauging during a Pori call is commonly used to prepare that docking. The readings carry the frame and strake references of the thickness measurement plan, so the docking yard and the surveyor can verify them in the dock rather than measure everything again."
+    },
+    {
+      "q": "Can you work on a gas carrier at the Pori LNG terminal?",
+      "a": "Within limits. The terminal's and the ship's gas-safety rules decide where work may take place during transfer, so the scope is normally ballast tanks, deck structure outside hazardous zones, voids, the engine room and sea-water piping. Cargo containment and gas piping sit outside a hull thickness measurement scope. Equipment and the team's details are cleared with the terminal through the agent before the ship arrives."
+    },
+    {
+      "q": "Are heavy-lift ships at Mäntyluoto worth gauging while they wait for cargo?",
+      "a": "Usually, because project cargo seldom arrives exactly on schedule. A waiting period suits crane pedestals, deck strengthening under heavy-lift areas, tween-deck pontoons and hatch covers, and magnetic particle testing can be added at pedestal welds where fatigue cracking is a concern. We agree a scope that can stop cleanly if loading starts sooner than expected, so the ship never waits for us."
+    }
+  ],
+  "nearby": ["rauma", "uusikaupunki", "vaasa", "turku", "gavle"]
+}

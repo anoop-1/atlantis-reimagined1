@@ -58,12 +58,12 @@
   "context": {
     "h": "Regulation and market context for Kocaeli ports",
     "p": [
-      "Turkey participates in both the Black Sea MoU and the Mediterranean MoU, and port state control officers at the Marmara ports inspect the tanker, chemical and bulk traffic that dominates the gulf. Because the Mediterranean area's boundary with the Black Sea is drawn at the 41°N parallel, the whole Sea of Marmara, including the Gulf of Izmit, lies inside the Mediterranean SOx ECA in force since 1 May 2025. Ships arriving from Black Sea ports must therefore be on compliant fuel or running scrubbers by the time they reach the gulf, and scrubber wash-water and overboard piping is a regular inspection item on the tankers and bulk carriers calling here.",
+      "Turkey participates in both the Black Sea MoU and the Mediterranean MoU, and port state control officers at the Marmara ports inspect the tanker, chemical and bulk traffic that dominates the gulf. The Mediterranean SOx ECA in force since 1 May 2025 ends at the entrance to the Dardanelles, so the Sea of Marmara, including the Gulf of Izmit, lies outside it and the global 0.50% limit applies in the gulf. Ships that continue into the Aegean must be on compliant fuel or running scrubbers once they pass the Dardanelles, and scrubber wash-water and overboard piping is a regular inspection item on the tankers and bulk carriers calling here.",
       "Commercially, the gulf is driven by tanker vetting and industrial supply chains. Chemical and product tankers serving the Kocaeli terminals are often chartered by oil and chemical companies with strict vetting, so a ship over about 15 years may need a CAP rating, and coating breakdown in cargo or ballast tanks is watched closely. Voyages from here to EU ports bring EU ETS and FuelEU obligations, and the automotive and steel exporters keep a steady flow of car carriers and bulk carriers on European routes."
     ]
   },
-  "eca": "eca-med",
-  "psc": "",
+  "eca": "none",
+  "psc": "Black Sea MoU and Mediterranean MoU",
   "jobs": {
     "h": "Typical thickness gauging jobs in Izmit and Kocaeli",
     "p": "Tanker gauging in Izmit is shaped by the refinery and chemical terminals, which bring a steady stream of product and chemical tankers into the gulf. The rest comes from car carriers on scheduled calls, bulk carriers discharging scrap and coal, and ships preparing to dock across the gulf. Scope is usually set around a single cargo call, sometimes followed by in-dock gauging at the yard.",
@@ -103,5 +103,10 @@
       "a": "Yes. The agent books a launch, and the sheltered water of the gulf generally makes transfers easier than at an open roadstead. Ships waiting for refinery or chemical berths are a good opportunity for a longer programme in ballast tanks and on deck, provided the crew can certify spaces safe and the ship is not expected to shift berth during the work."
     }
   ],
-  "nearby": ["yalova", "istanbul", "izmir", "varna"]
+  "nearby": [
+    "yalova",
+    "istanbul",
+    "izmir",
+    "varna"
+  ]
 }

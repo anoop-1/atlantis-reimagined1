@@ -1,0 +1,107 @@
+{
+  "slug": "dover",
+  "name": "Dover",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Dover Ferry and Cruise Ship Thickness Measurement | Hull UTM",
+  "description": "Thickness measurement at the Port of Dover for cross-Channel ferries, cruise ships and cargo vessels: vehicle decks, ramps, hull and tanks on tight schedules.",
+  "h1": "Ultrasonic Thickness Gauging for Ferries and Cruise Ships at Dover",
+  "intro": "Dover is Britain's busiest ferry port: ro-pax ships shuttle across the Strait to Calais and Dunkirk around the clock, while cruise ships use the Western Docks for turnarounds and calls. Ferries rarely stop for long, so gauging is planned into stand-down periods, refit preparation or a spell at a lay-by berth. Cruise ships give a day alongside. Atlantis sends technicians from India to Dover for each job and fits the work around the operator's timetable rather than the other way round.",
+  "keywords": [
+    "dover ferry thickness measurement",
+    "ultrasonic thickness gauging dover",
+    "utm dover",
+    "ro-pax ferry inspection",
+    "vehicle deck gauging",
+    "cruise ship hull gauging",
+    "ferry refit preparation",
+    "ship inspection kent",
+    "bow door and ramp crack detection",
+    "port of dover ship inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Ferries between sailings",
+      "p": "Cross-Channel ferries turn round quickly and sail many times a day. Gauging is planned for scheduled stand-downs, rest periods at a lay-by berth or quieter night-time gaps, with the scope agreed with the operator's technical department well before the team arrives."
+    },
+    {
+      "h": "Refit steel lists prepared in advance",
+      "p": "Ferries go to yards elsewhere for refit, often in a tight winter slot. Readings taken at Dover beforehand give the yard real steel quantities for vehicle decks, ramps and tanks, so the refit period is spent on repairs rather than on discovering what needs doing."
+    },
+    {
+      "h": "Cruise turnaround days",
+      "p": "Cruise ships alongside in the Western Docks for a turnaround day offer engine-room piping, prepared tanks and open-deck structure while passengers and stores change over. Scopes are coordinated with the ship's technical staff and the cruise terminal's security arrangements."
+    }
+  ],
+  "port": {
+    "h": "Dover: the Strait's ferry port and cruise gateway",
+    "p": [
+      "Dover sits beneath the chalk cliffs at the narrowest point of the English Channel, with the French coast in sight across the Strait on a clear day. The harbour is artificial, enclosed by long breakwaters completed in the late nineteenth and early twentieth centuries, and divided into the Eastern Docks, where the ferry berths and their linkspans are, and the Western Docks, home to the cruise terminals, a cargo terminal and a marina. Just outside the breakwaters runs the Dover Strait traffic separation scheme, one of the busiest shipping lanes in the world, so ships entering and leaving the harbour cross a constant stream of through traffic monitored by the coastguard. The port is a trust port, run by the Dover Harbour Board.",
+      "Ferries are the heart of the port. Several operators run ro-pax ships to Calais and Dunkirk, carrying cars, coaches, foot passengers and, above all, freight lorries, and the ships sail many times a day in each direction for most of the year. The Western Docks have two cruise terminals used for turnarounds by cruise lines that begin and end voyages here, as well as for transit calls. A cargo terminal in the Western Docks handles refrigerated fruit and other cargoes, bringing reefer and general cargo ships alongside, and the harbour's tugs, pilot boats and workboats complete the local fleet. To the north-east, ships of many types anchor in the Downs, the roadstead off Deal, to shelter from weather or wait for orders.",
+      "Ferry timetables leave little slack. A ro-pax ship in regular service may be alongside only for a short turnaround before loading again, and operators plan maintenance into stand-down periods, often overnight or in the quieter winter months when a ship is withdrawn for refit while another covers the route. Cruise ships follow the season, with most calls between spring and autumn. Strong winds in the Strait can suspend sailings, and a ship held in port by weather has unexpected time alongside. For gauging, the practical choices at Dover are a planned stand-down or lay-by period, a cruise turnaround day, or a pre-refit visit timed some weeks before the ship leaves for the yard."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging can be done at Dover",
+    "p": [
+      "Dover has no dry dock for ships of ferry or cruise size, so the work here is afloat. Ferries are gauged at their linkspan berths during stand-downs, or at a lay-by berth when the operator rests a ship, and the team works through vehicle decks, ramps, bow and stern doors, tanks and machinery spaces in an order agreed with the chief engineer and chief officer. Vehicle decks come first on most ferries, because lorry wheels, water, road salt and diesel spills wear the plating and the stiffeners beneath it, and the ramps and doors carry heavy cyclic loads at their hinges and locking devices.",
+      "Cruise ships alongside in the Western Docks give a different kind of access. During a turnaround the ship is busy with passengers, stores and baggage, but machinery spaces, sea-water piping, tanks prepared by the crew and open decks can usually be reached, provided the work is coordinated with the ship's technical staff and terminal security. Reefer and cargo ships at the cargo terminal work cargo for a day or so, which suits hatch cover, deck and machinery-space checks. Anchorage work in the Downs is possible by launch in settled weather, but the roadstead is open to easterly winds, and the agent's advice decides the day."
+    ],
+    "list": [
+      "Eastern Docks ferry berths: vehicle deck, ramp and bow or stern door gauging, with crack detection, during stand-down periods.",
+      "Lay-by berths: longer tank, void space and machinery piping scopes on a ferry rested from service or awaiting refit.",
+      "Western Docks cruise terminals: engine-room piping, prepared tanks and open-deck structure on cruise ships during turnaround days.",
+      "Western Docks cargo terminal: hatch cover, deck and sea-water piping checks on reefer and general cargo ships working cargo.",
+      "The Downs anchorage off Deal: short launch-borne scopes on ships waiting for weather or orders, when conditions allow."
+    ]
+  },
+  "context": {
+    "h": "Ferry safety, inspection regimes and cross-Channel climate rules",
+    "p": [
+      "Ferries on regular cross-Channel service are inspected often, whether by the Maritime and Coastguard Agency acting as flag state for UK-registered ships or under port state control for foreign-flagged ones, which the UK applies in line with the Paris MoU. The capsize of the Herald of Free Enterprise off Zeebrugge in 1987 and the loss of the Estonia in 1994 shaped today's rules on bow doors, watertight integrity and damage stability for ro-pax ships, and inspectors still pay close attention to doors, ramps and their securing arrangements. Thickness and crack-detection records on that structure are part of showing it remains sound.",
+      "Cross-Channel voyages also fall inside European climate rules. For ships of 5,000 gross tonnage and above, the EU Emissions Trading System counts half the emissions of each voyage between Dover and a French port, and FuelEU Maritime limits the greenhouse gas intensity of the energy used on the same basis. Operators have answered with hybrid and battery-assisted ferries on the short crossing, but much of the fleet is older, and a ferry that may stay in service for years yet needs her structure tracked carefully between refits."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Dover",
+    "p": "Most Dover work comes from ferry operators' technical departments, with cruise and cargo ships adding occasional jobs. Ferry scopes follow the refit cycle: gauging ahead of a refit so the yard specification includes real steel quantities, condition checks on vehicle decks and ramps between refits, and pipe gauging in the engine room where leaks have begun. Cruise lines ask for targeted piping and tank work on turnaround days, timed so that nothing disturbs embarkation. We plan each visit around the operator's timetable, agree with the officers which spaces can be opened, and stop when the ship is needed back in service.",
+    "list": [
+      "Pre-refit gauging of a ro-pax ferry's vehicle decks, ramps and ballast tanks, so the yard can be sent steel quantities before the winter refit.",
+      "Bow door, visor and stern door hinge inspection, with MPI and thickness readings on the structure around the locking devices.",
+      "Sea-water cooling and fire-main pipe gauging on a ferry during an overnight stand-down, after a leak in the engine room.",
+      "Prepared tank and machinery piping gauging on a cruise ship during a turnaround day in the Western Docks.",
+      "Hatch cover and deck checks on a reefer ship working cargo at the Western Docks cargo terminal."
+    ]
+  },
+  "logistics": "The team usually flies into London Heathrow or Gatwick and continues to Dover by road or by high-speed train from London St Pancras. Technicians travel from India on UK visas, so we ask for stand-down or refit dates as soon as the operator has them. The port's ferry and cruise areas are tightly controlled for security and border reasons; passes are arranged through the operator or the ship's agent against each technician's passport, and the team is escorted wherever the operator or the port requires it.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Freight ro-ro ferries",
+    "Cruise ships",
+    "Refrigerated cargo ships",
+    "General cargo ships",
+    "Tugs and pilot boats",
+    "Tankers and bulk carriers sheltering in the Downs"
+  ],
+  "faqs": [
+    {
+      "q": "How can a ferry in continuous service be gauged at Dover?",
+      "a": "By planning around the timetable. Operators rest ships for maintenance overnight, during reduced winter schedules, or for longer spells when a ship is withdrawn ahead of refit. We agree the scope for each period with the technical department, have the crew prepare the spaces in advance, and continue on the next stand-down if one period is not enough. Vehicle decks and machinery piping are usually taken first."
+    },
+    {
+      "q": "Is there a dry dock at Dover?",
+      "a": "No. Dover ferries go to yards elsewhere in Britain or on the Continent for refit and docking. Gauging at Dover is usually the preparation for that refit, giving the yard real quantities of steel and pipe to renew, or a check on particular structure between refits. Readings are reported against the ship's own frame and deck references so they can go straight into the refit specification."
+    },
+    {
+      "q": "Can you inspect bow and stern doors on ro-pax ferries?",
+      "a": "Yes. Doors, visors, ramps and their hinges, cleats and locking devices are among the most heavily loaded structures on a ferry. We combine ultrasonic thickness readings on the plating and supporting structure with magnetic particle testing on welds and hinge connections, and report findings against the door drawings so repairs can be planned with the operator's superintendent and the attending class surveyor."
+    },
+    {
+      "q": "Can a cruise ship be gauged during a turnaround at Dover?",
+      "a": "Within limits. A turnaround day is busy with passengers and stores, but engine-room piping, prepared tanks and open-deck structure can usually be reached if the work is agreed with the chief engineer and the terminal beforehand. The scope is kept to what can be finished before sailing, and any wider programme is planned for the ship's next docking or a later call."
+    }
+  ],
+  "nearby": ["calais", "dunkirk", "boulogne-sur-mer", "sheerness", "shoreham", "ostend"]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "germany",
+  "navLabel": "Germany",
+  "title": "Ship Thickness Measurement in Germany | UTM at German Ports",
+  "description": "Ship ultrasonic thickness measurement in Germany: UTM and hull gauging at Hamburg, Bremerhaven, Wilhelmshaven, Kiel and Rostock for owners and managers.",
+  "h1": "Ship Thickness Measurement and Ultrasonic Gauging in Germany",
+  "eyebrow": "Maritime inspection · Germany",
+  "intro": "Germany gives a ship two very different coasts to be gauged on. Hamburg, Bremerhaven, Wilhelmshaven and the smaller Elbe, Weser and Ems ports face the North Sea; Kiel, Lübeck, Rostock and the Mecklenburg-Vorpommern harbours face the Baltic, and the Kiel Canal joins the two. Superintendents ask for ultrasonic thickness measurement here ahead of dockings, for renewal and intermediate survey gauging, on tankers once they are gas-free, and for scrubber and ship piping. Atlantis mobilises its team from India to the ship for each job, planned around the vessel's berth or docking date and Schengen visas.",
+  "highlights": [
+    {
+      "h": "Two coasts, one planning problem",
+      "p": "A North Sea call and a Baltic call are different jobs: tides, locks and tug assistance on one side, ferry timetables and short layovers on the other. The first step is matching the gauging window to the berth the ship will actually occupy."
+    },
+    {
+      "h": "Steel lists before the yard slot",
+      "p": "Gauging the hull before a German or neighbouring docking turns the class allowance into measured readings, so the superintendent can brief the repair yard on likely steel renewal and book docking days with less guesswork."
+    },
+    {
+      "h": "Scrubber piping in both emission areas",
+      "p": "Germany sits inside the North Sea and Baltic sulphur emission control areas, so exhaust gas cleaning is common on regular callers. Wall thickness checks on wash-water and overboard lines find wastage before it becomes a leak."
+    }
+  ],
+  "sections": [
+    {
+      "id": "de-coasts",
+      "h": "Where ships are gauged on the German coast",
+      "p": [
+        "The German North Sea coast is a chain of estuary ports, each with a character of its own. Hamburg lies well upriver on the Elbe and is the country's largest port, handling containers, project cargo and a wide mix of general cargo; its repair and docking capacity makes it a natural place to gauge a ship before she goes into dock. Bremerhaven, at the mouth of the Weser, is built around container and vehicle traffic, and Bremen, Brake and Nordenham further up the river take bulk, breakbulk and forest products. Emden on the Ems is best known for vehicle exports, and Cuxhaven has become a base for offshore wind installation and service vessels as well as fishing and ferry traffic.",
+        "Wilhelmshaven stands apart because it is Germany's deep-water port, with a crude oil terminal and a container terminal that can take the largest ships. Large tankers and bulk carriers that cannot reach the Elbe or Weser call here, which makes it the place where deep-draught tonnage is most often gauged afloat. Brunsbüttel and Stade, on the lower Elbe, serve the chemical and energy industries along that river, so chemical and gas carriers feature in the work there.",
+        "The Baltic coast is smaller in scale but busier in ferry and short-sea traffic. Kiel is a major passenger and ro-ro port and the eastern entrance to the Kiel Canal; Lübeck, with the Travemünde ferry terminals, serves Sweden and Finland; Rostock handles ferries, bulk and cruise ships; Wismar and Stralsund handle forest products, bulk and general cargo; and Sassnitz offers ferry and rail-ferry links across the Baltic. Flensburg, near the Danish border, and Rendsburg, on the canal, are the smaller harbours where coasters and workboats are gauged."
+      ]
+    },
+    {
+      "id": "de-fleets",
+      "h": "The fleets and owners behind German gauging work",
+      "p": [
+        "Germany's importance to ship gauging reaches well beyond its own harbours. German owners and managers, with Hamburg as the centre of gravity, run large container, multipurpose and heavy-lift fleets, and many of those ships spend more time in Asia or the Mediterranean than in German water. A technical department in Hamburg may therefore ask for a ship to be gauged wherever she will be in the weeks before her survey, and we plan the job from the ship's position rather than from the enquirer's address.",
+        "At home, the traffic that keeps gauging busy is a mix of ferries and ro-ro ships on the Baltic, car carriers at Bremerhaven and Emden, tankers and gas carriers on the Elbe and Jade, and the service vessels that support North Sea wind farms. Older ships on liner services and aging coasters in the Baltic are the ones where owners most often want condition gauging between surveys, since port state inspectors and charterers both look hard at hull wastage."
+      ]
+    },
+    {
+      "id": "de-regime",
+      "h": "Port state control, emission areas and the rules that shape the work",
+      "p": [
+        "Ships calling at German ports are inspected under the Paris MoU. Port state control in Germany is carried out by the ship safety division of BG Verkehr, and an older ship with visible wastage in a cargo hold, ballast tank or on deck is exactly what an inspector will notice. Arriving with recent gauging readings and a plan for any renewal answers the first questions before they grow into a detention.",
+        "German waters lie inside two emission control areas: the North Sea on one coast and the Baltic Sea on the other, both capping marine fuel sulphur at 0.10% unless an exhaust gas cleaning system is fitted. The same ship can therefore be a scrubber ship on every German call, and the wash-water and overboard piping carry the wear. As an EU member, Germany also applies the EU Ship Recycling Regulation, which matters for ships carrying an inventory of hazardous materials, and for older ships being prepared for sale or recycling. Rules on wash-water discharge in port can differ by authority, so the ship's agent confirms the position for each call."
+      ]
+    },
+    {
+      "id": "de-practical",
+      "h": "Tides, locks, the Kiel Canal and the winter",
+      "p": [
+        "On the North Sea side, tide and river shape the plan. Hamburg, Bremen and the Weser and Ems ports are reached through tidal rivers, and berths such as those at Brake and Nordenham depend on draught and tide windows; Bremerhaven and Emden work through locks for some berths. Gauging is done at the berth, so the date follows the ship's cargo operations, not the other way round. Tankers are gauged after tank cleaning and a gas-free certificate, and a ship that is loading or discharging is not available for tank work.",
+        "The Kiel Canal, running between Brunsbüttel and Kiel-Holtenau, is one of the busiest artificial waterways in the world, and a canal transit is an opportunity for owners with a ship passing between the North Sea and the Baltic. Baltic ports can be affected by ice in severe winters, mostly in the eastern harbours and shallow inlets, and by autumn and winter storms in both seas. Ferry and cruise ships work to fixed timetables, so gauging on those ships is usually a matter of a short layover and tight coordination with the master and the port."
+      ]
+    },
+    {
+      "id": "de-services",
+      "h": "Which services Germany asks for most",
+      "p": [
+        "Four jobs account for most German enquiries, and ultrasonic thickness measurement sits at the centre of each. Pre-docking hull structure gauging sets the steel list before a ship enters a German or Danish yard. Renewal and intermediate survey support follows the thickness measurement plan for the ship's survey. Tank gauging on chemical and product tankers and on bulk carriers is planned around gas-freeing and ventilation. Piping checks on scrubber wash-water, overboard, ballast and cargo lines measure remaining wall, which matters most on ships that have run scrubbers for several years.",
+        "Pre-purchase and on-hire gauging is the fifth regular request, particularly on secondhand tonnage changing hands through the Hamburg brokerage and finance community. In each case the readings are located against frame and strake references and reported as as-built thickness, measured thickness and diminution, so the owner, charterer or buyer can compare like with like."
+      ],
+      "list": [
+        "Pre-docking hull gauging to fix the steel list before the yard slot",
+        "Renewal and intermediate survey thickness measurement support",
+        "Cargo and ballast tank gauging after gas-freeing",
+        "Scrubber wash-water and overboard piping wall checks",
+        "Pre-purchase and on-hire condition gauging of secondhand ships"
+      ]
+    },
+    {
+      "id": "de-planning",
+      "h": "Planning a gauging job in Germany from India",
+      "p": [
+        "The team travels from India to the ship for each job, so planning starts with the berth, the dates and the entry requirements. Germany is in the Schengen area, so team members need a Schengen visa, and lead time for that varies, which is why we ask for the ship's schedule at the outset and not once the ship is alongside. Port security rules apply at the larger terminals, and the ship's agent arranges access passes and any hot-work or safe-entry permissions the terminal requires.",
+        "Tell us the vessel type and age, her classification society, the thickness measurement plan, the spaces to be gauged and the berth or yard. We then confirm what can be done afloat and what has to wait for the dock, and agree how the report will be formatted for the owner, the surveyor or the buyer. Nothing is booked until those points are settled."
+      ],
+      "list": [
+        "Vessel type, age and class, and the thickness measurement plan",
+        "Spaces to be gauged and whether tanks will be gas-free",
+        "Berth, anchorage or yard, and the dates the ship will be available",
+        "Names for the Schengen visa applications and port access passes"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris MoU port state control",
+    "IACS UR Z10 series (hull surveys)",
+    "MARPOL Annex VI regulation 14 (sulphur limits)",
+    "EU Ship Recycling Regulation",
+    "SOLAS Chapter II-1 and ESP Code for tankers and bulk carriers"
+  ],
+  "deliverables": [
+    "Thickness measurement report with frame-by-frame readings",
+    "Steel renewal estimate for the docking",
+    "Marked-up tank and hull sketches",
+    "Piping wall-thickness schedule for wash-water and ballast lines",
+    "Summary of substantial and excessive corrosion findings"
+  ],
+  "industries": [
+    "Container ships",
+    "Ferries and ro-ro ships",
+    "Chemical and product tankers",
+    "Gas carriers",
+    "Car carriers",
+    "Offshore wind service vessels",
+    "Bulk carriers",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Which German ports suit pre-docking gauging?",
+      "a": "Any port where the ship will lie at a berth for a suitable period works. Hamburg and Bremerhaven are common because of ship repair capacity and frequent liner calls; Wilhelmshaven suits deep-draught tankers and bulk carriers; Kiel and Rostock suit ferries and short-sea ships. We plan around the berth and the cargo programme."
+    },
+    {
+      "q": "Does Germany have emission control area requirements we should plan for?",
+      "a": "Yes. German waters are inside the North Sea and Baltic Sea sulphur emission control areas, so fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted. For ships with scrubbers, wash-water and overboard piping are worth gauging, since those lines see aggressive service and fail quietly."
+    },
+    {
+      "q": "Can tanks be gauged while the ship is at a German berth?",
+      "a": "Yes, once the tanks are cleaned, ventilated and certified gas-free and the terminal permits entry. Gauging cannot overlap with cargo operations in the tank being measured, so the date is set around the ship's loading or discharge programme and the master's safe-entry procedures."
+    },
+    {
+      "q": "How does a team travelling from India handle German entry requirements?",
+      "a": "Germany is in the Schengen area, so team members need Schengen visas, which take time to obtain. We ask for the ship's schedule early, apply for visas once the job is confirmed, and plan the gauging window around the realistic lead time instead of promising a fixed mobilisation date."
+    },
+    {
+      "q": "Which German authority carries out port state control?",
+      "a": "Port state control in Germany is carried out by the ship safety division of BG Verkehr under the Paris MoU. Inspectors look closely at structure and corrosion on older ships, so owners trading into Germany often gauge the hull in advance and arrive with readings and a renewal plan."
+    }
+  ]
+}

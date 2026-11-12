@@ -1,0 +1,131 @@
+{
+  "slug": "albania",
+  "navLabel": "Albania",
+  "title": "Ship Thickness Measurement in Albania | UTM at Durrës and Vlorë",
+  "description": "Ultrasonic thickness measurement for ships in Albania: hull, tank and piping gauging at Durrës and Vlorë, with visa, port and regulatory points explained.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Albania",
+  "eyebrow": "Maritime inspection · Albania",
+  "intro": "Albania's coast faces Italy across the southern Adriatic and the Strait of Otranto, and its ports are a short crossing from Bari, Brindisi and Ancona. Durrës is the principal port, handling ferries, containers, bulk and general cargo, with Vlorë further south serving cargo, oil and passenger traffic. Ultrasonic thickness measurement fits the visits ships make: pre-docking hull gauging, tank and piping checks, and pre-purchase and on-hire gauging. Atlantis NDT mobilises its team from India to the vessel for each job and plans the work around the ship's schedule and Albania's entry rules.",
+  "highlights": [
+    {
+      "h": "Short crossings from Italy",
+      "p": "Durrës links to Bari, Ancona and Trieste by ferry, so ships on that run are gauged at berth between sailings. The window is set by the ferry timetable, and the agent confirms it before the team travels."
+    },
+    {
+      "h": "Cargo and tanker work in the south",
+      "p": "Vlorë and the southern coast handle bulk, general cargo and oil traffic. Tank and hull gauging fits the stay once cargo operations finish and tanks are safe to enter."
+    },
+    {
+      "h": "Outside the EU, with its own entry rules",
+      "p": "Albania is a candidate for EU membership, not a member, and it is outside Schengen. Entry, port formalities and permits follow national rules, so planning starts with the agent and the embassy."
+    }
+  ],
+  "sections": [
+    {
+      "id": "al-ports",
+      "h": "Where ships are gauged in Albania",
+      "p": [
+        "Durrës is Albania's largest port and its main gateway. It sits on a sheltered bay near Tirana, receives passenger and vehicle ferries from Italy, and handles containers, bulk cargo and general cargo. For a ship in a Durrës berth, hull sections reachable from the quay and tanks accessible from inside the ship can be gauged within the cargo and sailing schedule.",
+        "Vlorë lies in the south, on a deep bay off the Adriatic and Ionian junction. It handles bulk cargo, general cargo and oil products, and it has a passenger link to Italy. Local repair capacity is limited, so ships needing a dock typically go to Italy, Croatia, Montenegro or Greece. That makes Albanian gauging largely a pre-docking and condition-assessment job, planned at the call where the ship has the longest stay."
+      ]
+    },
+    {
+      "id": "al-traffic",
+      "h": "The traffic behind the work",
+      "p": [
+        "Albania imports bulk, fuel and general cargo, and its trade has grown with tourism and ferry traffic. The ships we see there are typically coastal tankers, short-sea cargo ships, bulk carriers on regional trades and ferries. Many are older tonnage, so owners want a measured view of the steel before committing to a dock or a sale.",
+        "Because yard capacity is limited, a superintendent often uses a call in Albania to take readings, then books a yard elsewhere in the Adriatic using the steel renewal estimate.",
+        "Italy is only a short crossing away, which gives owners a practical choice: gauge the ship in Durrës or Vlorë, then take the steel list to a yard in Brindisi, Bari or Ancona. Planning the two calls together saves a ship from lying idle between survey and dock."
+      ]
+    },
+    {
+      "id": "al-regime",
+      "h": "Port state control and the rules that apply",
+      "p": [
+        "Albania is not an EU member. Port state control is the responsibility of the General Maritime Directorate, working with the harbour authorities, and the country takes part in regional port state control arrangements for the Mediterranean and Adriatic. The ship's agent confirms the current framework and any detention rules for each call, since these differ from the Paris MoU states across the Adriatic.",
+        "The Mediterranean emission control area covers the Adriatic and Ionian Seas, so the tightened sulphur limit under MARPOL Annex VI, regulation 14, applies to ships in Albanian waters. Because Albania is outside the EU, the EU Ship Recycling Regulation does not apply directly; owners weighing a sale for recycling look to the Hong Kong Convention and the law of the country where the ship would be broken up."
+      ]
+    },
+    {
+      "id": "al-seasonal",
+      "h": "Weather, ferry season and practical limits",
+      "p": [
+        "Summer is the ferry and tourist season at Durrës and Vlorë, with heavy vehicle and passenger traffic and tight quay schedules. Gauging aboard a ferry is possible only within the turnaround and the spaces the ship's management agrees. In winter, southerly gales and swell can affect the open Adriatic and delay arrivals and departures.",
+        "Road transport inside Albania is improving but can be slow between the coast and inland. The agent helps plan transport and the team allows time for it."
+      ]
+    },
+    {
+      "id": "al-job",
+      "h": "What a gauging job looks like on an Albanian call",
+      "p": [
+        "We begin from the ship's thickness measurement plan and her most recent survey report, which show where readings are needed. Ahead of arrival the master identifies the tanks that are clean and gas-free and the agent fixes the berth or anchorage. The team marks the plan against the ship, takes readings with calibrated gauges and records each against its location.",
+        "The window depends on the ship. A ferry at Durrës turns around between sailings, a coastal tanker may wait for a discharge berth, and a bulk carrier stays as long as cargo handling takes. We size the scope to the actual stay and cover the most critical areas first, so that a short call still delivers a usable steel list.",
+        "Because many ships leave Albania for a yard in another country, the report is written to be handed on: as-built, measured and diminution values at each point, photographs and a marked plan, with a steel renewal estimate the receiving yard can plan its work on. Where wastage is general, the report says so and recommends where more readings are needed."
+      ]
+    },
+    {
+      "id": "al-planning",
+      "h": "Planning an Albanian gauging job from India",
+      "p": [
+        "The team travels from India for each job. Albania is outside the Schengen area, so entry follows Albania's own visa rules. The requirement depends on the passport and on other visas held, so we ask the ship's agent and the embassy to confirm it as soon as the schedule is firm. In port, the ship's agent arranges the gangway, security passes and tank-entry permits.",
+        "We ask early for the thickness measurement plan, the last survey reports and the confirmed berth, and plan the mobilisation once entry documents are issued. Readings, photographs and a steel renewal estimate are reported after the job."
+      ]
+    },
+    {
+      "id": "al-services",
+      "h": "Which services Albanian calls ask for",
+      "p": [
+        "Pre-docking hull gauging is the most common request, because ships often leave Albania for a yard elsewhere. Tankers and bulk carriers are gauged in their tanks once cleaning and gas-freeing are done. Pre-purchase and on-hire gauging comes up where ships on regional trades change hands, and piping checks, including scrubber wash-water lines, follow where the ship has an exhaust gas cleaning system."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: Mediterranean emission control area sulphur limit",
+    "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems",
+    "Regional port state control arrangements for the Mediterranean"
+  ],
+  "deliverables": [
+    "Thickness measurement report located by frame and strake, with as-built, measured and diminution values",
+    "Steel renewal estimate marking plates for renewal ahead of a docking",
+    "Tank condition summary for cargo and ballast tanks after gas-freeing",
+    "Piping and scrubber condition report: minimum wall by spool and joint",
+    "Preliminary readings and photographs shared during the job on request"
+  ],
+  "industries": [
+    "Product and chemical tankers",
+    "Bulk carriers",
+    "General cargo ships",
+    "Ferries",
+    "Short-sea cargo ships",
+    "Ship managers and technical superintendents",
+    "Buyers' and charterers' surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "Which Albanian ports can you gauge ships at?",
+      "a": "Durrës and Vlorë. Durrës is the main gateway for ferries, containers and cargo, and Vlorë serves bulk, oil and passenger traffic in the south. The port pages set out what we see at each."
+    },
+    {
+      "q": "Do your technicians need visas for Albania?",
+      "a": "Entry follows Albania's own rules, since it is outside Schengen and the EU. The position depends on the passport and on other visas held, so we ask the ship's agent and embassy to confirm as soon as the schedule is firm, then plan the mobilisation around the documents."
+    },
+    {
+      "q": "Can ships be docked in Albania?",
+      "a": "Local repair capacity is limited, so most ships needing a dock go to Italy, Croatia, Montenegro or Greece. Gauging in Albania is therefore mostly a pre-docking or condition survey, producing a steel renewal estimate that can be used at a yard elsewhere."
+    },
+    {
+      "q": "Is Albania inside an emission control area?",
+      "a": "The Mediterranean emission control area covers the Adriatic and Ionian Seas, so the tightened sulphur limit applies to ships in Albanian waters. Ships with scrubbers get wash-water and overboard piping gauged alongside the hull and tank readings."
+    },
+    {
+      "q": "Does the EU Ship Recycling Regulation apply in Albania?",
+      "a": "Not directly, since Albania is not an EU member. For recycling the relevant instruments are the Hong Kong Convention and the law of the recycling country. Either way, a recent steel assessment helps to value the ship."
+    },
+    {
+      "q": "How long does a gauging job take in Albania?",
+      "a": "It depends on the ship and the scope: a few hours for limited readings on a ferry between sailings, a few days for full hull and tank gauging on a tanker or bulk carrier. We size the plan to the real stay at the port and agree priorities with the superintendent before the team travels."
+    }
+  ]
+}

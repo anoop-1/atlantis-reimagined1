@@ -1,0 +1,114 @@
+{
+  "slug": "blyth",
+  "name": "Blyth",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Blyth Ship Gauging: UTM for Cable-Lay and Offshore Vessels",
+  "description": "Ship thickness gauging at Blyth for cable-lay, construction and offshore support vessels: deck and ballast tank UTM, crane and carousel foundation MPI.",
+  "h1": "Thickness Measurement and Crack Detection for Offshore Vessels at the Port of Blyth",
+  "intro": "Blyth, on the Northumberland coast just north of the Tyne, is a former coal-shipping harbour that has become one of England's busiest offshore wind ports. Cable-lay ships load inter-array cable from quayside tanks, installation fleets mobilise here for North Sea projects, and bulk and project cargo still cross the quays. Offshore vessels lie alongside for days between campaigns, which is when a working deck can be cleared and ballast tanks emptied for gauging. For each Blyth job, Atlantis sends a technician team from India to the vessel.",
+  "keywords": [
+    "blyth ship gauging",
+    "thickness measurement blyth",
+    "utm port of blyth",
+    "cable lay vessel inspection",
+    "offshore construction vessel gauging",
+    "carousel foundation mpi",
+    "offshore wind vessel inspection northumberland",
+    "ship inspection blyth",
+    "ballast tank gauging offshore vessel",
+    "hull gauging north sea wind"
+  ],
+  "highlights": [
+    {
+      "h": "Cable loading at Battleship Wharf",
+      "p": "Inter-array cable for North Sea wind farms is stored in quayside tanks at Battleship Wharf and spooled aboard cable-lay vessels there. Carousel and tensioner foundations, and the deck beneath them, carry heavy loads, so crack detection and deck gauging belong in the period before loading starts."
+    },
+    {
+      "h": "Mobilisation base for installation fleets",
+      "p": "Blyth was the mobilisation base for the Neart na Gaoithe offshore wind farm, with hundreds of vessel calls through the port. Installation and support vessels returning between campaigns can have crane pedestals, seafastening areas and ballast tanks examined before their next contract begins."
+    },
+    {
+      "h": "Afloat work feeding a docking elsewhere",
+      "p": "Gauging at Blyth is done alongside the terminals. Vessels that need a drydock go to the yards on the Tyne or the Tees, so readings taken here become the steel list the yard schedules and plans before the vessel ever leaves Northumberland."
+    }
+  ],
+  "port": {
+    "h": "Blyth: from coal harbour to offshore energy port",
+    "p": [
+      "The Port of Blyth sits at the mouth of the River Blyth in south-east Northumberland, its harbour sheltered behind long breakwater piers a few miles up the coast from the Tyne. It is a trust port, run for the benefit of its area rather than for shareholders, and for much of its history it existed to ship coal from the Northumberland pits. When coal declined, the port rebuilt itself around energy and engineering. It now operates four terminals around the river, among them South Harbour, Battleship Wharf and Bates Clean Energy, with heavy-duty quays, port cranes and access to heavy-lift contractors when outsized components arrive. The open sea is close to the berths, so offshore vessels move between harbour and project site with very little river transit, and a vessel can come in for a few days without losing much working time.",
+      "Offshore wind now sets the rhythm of the port. The Offshore Renewable Energy Catapult, the national research and test centre for offshore renewables, has been based in Blyth since 2013, with a blade-test facility beside the river. The port served as the mobilisation base for the Neart na Gaoithe wind farm off the Scottish coast, handling piles, casings and hundreds of vessel calls. For Seagreen, inter-array cable was delivered by general cargo ships and barges, spooled into storage tanks on the quay and then loaded onto installation vessels, and the same arrangement now carries cable for the Sofia wind farm, whose construction base is also in Blyth. Bulk and unitised cargo continue alongside this work, so cargo ships and barges share the river with cable-lay, construction and support vessels.",
+      "Weather matters more than tide at Blyth. Installation work at sea is concentrated in the months with workable wave heights, and vessels come back to port when a campaign ends, when a weather window closes or when equipment has to be changed between projects. Those returns are the natural moments for inspection: a construction vessel that has been working continuously for months finally has an empty deck, idle cranes and ballast tanks that can be pumped out and ventilated. The port is investing in a longer quay and deeper water at Battleship Wharf for next-generation components, which will bring larger installation and cable vessels into the river. For an inspection team, that means more vessels with heavy deck equipment whose foundations see cyclic loads in a seaway."
+    ]
+  },
+  "facilities": {
+    "h": "Where vessels are gauged and crack-tested at Blyth",
+    "p": [
+      "At Battleship Wharf, the work is shaped by cable. Once inter-array cable is coiled on a vessel's carousel, the deck and the structure beneath it cannot be reached, so carousel, tensioner and chute foundations are checked before loading begins or after the vessel comes back empty. During loading, the team can still work in areas away from the cable path, such as ballast tanks, accommodation and crane foundations on the other side of the deck, and engine-room piping. The sequence is agreed with the vessel's chief officer and the terminal so that nobody is working where cable is moving.",
+      "At the other terminals, construction and support vessels mobilise and demobilise, and cargo ships and barges load and discharge. A vessel lying between contracts is the best opportunity for a complete programme, because seafastening grillages can be removed and the deck plating beneath them gauged, and tanks can be opened in sequence over several days. There is no ship-repair drydock at Blyth that we would plan around, so a vessel that needs docking goes to the yards on the Tyne, at Hebburn, or on the Tees, where UK Docks runs four drydocks on the former Smith's Dock site. Our readings at Blyth let that yard plan its steel work in advance."
+    ],
+    "list": [
+      "Battleship Wharf: cable-lay vessels loading inter-array cable from quayside storage tanks, with foundation checks before or after loading.",
+      "Bates Clean Energy terminal: installation and construction vessels mobilising or demobilising, with crane pedestals and seafastening areas examined.",
+      "South Harbour: bulk and general cargo ships and barges, gauged during discharge where hatches and holds can be reached.",
+      "Quays used between offshore campaigns: full ballast tank, deck and piping programmes on vessels idle for days or weeks.",
+      "Drydocks on the Tyne and the Tees: where Blyth-based vessels go for docking, with our afloat readings feeding the yard's steel list."
+    ]
+  },
+  "context": {
+    "h": "What drives inspection work at Blyth",
+    "p": [
+      "Port state control at Blyth is the Maritime and Coastguard Agency's responsibility, applied under the Paris MoU, which the UK still belongs to and enforces through its own legislation. Many offshore construction and cable vessels fly Dutch, Norwegian, Cypriot, Maltese or other flags and move between UK and Continental projects, so their owners are often managing several regulatory regimes at once. Wind developers and their main contractors vet the vessels they hire, usually through IMCA's Common Marine Inspection Document or OCIMF's offshore vessel inspection database, and a current record of structural condition helps a vessel through that vetting without awkward questions.",
+      "The engineering reason for inspection is fatigue. A cable carousel, a heavy-lift crane or an A-frame transmits large, repeated loads into the hull every time the vessel rolls or lifts, and the welds where foundations meet deck plating and underdeck stiffening are where cracks start. Ballast tanks on these vessels are cycled constantly to keep the vessel trimmed during lifts and cable lay, which strips coatings and accelerates corrosion. Neither problem is visible from the deck. Magnetic particle inspection of foundation welds and thickness measurement of the surrounding plating and tank structure give the owner a record to repair against before the next season's charter."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging and NDT jobs we see at Blyth",
+    "p": "Most Blyth work is on offshore energy vessels, timed to the gaps between campaigns, with a smaller share on cargo ships and barges delivering cable and project cargo. For a vessel arriving to load cable, we work before the cable arrives on deck. For one demobilising, we start once seafastenings are cut away and tanks are pumped out. Cargo ships are gauged within the discharge, hold by hold. In each case the scope is agreed with the vessel manager in advance, so that the team arrives knowing which structures matter most and which spaces the crew will have opened.",
+    "list": [
+      "Magnetic particle inspection of carousel, tensioner and chute foundations on a cable-lay vessel before it loads at Battleship Wharf.",
+      "Deck plating and ballast tank gauging on a construction support vessel lying alongside between wind farm campaigns.",
+      "Weld crack detection around the crane pedestal and seafastening grillage of a vessel demobilising from an installation project.",
+      "Pre-docking steel estimate on an offshore support vessel ahead of a docking on the Tyne or the Tees.",
+      "Hatch coaming and hold gauging on a general cargo ship delivering cable or project cargo to the port.",
+      "Pre-charter condition gauging on a vessel about to be taken on for a cable or construction contract."
+    ]
+  },
+  "logistics": "Newcastle International Airport is the nearest arrival point, and Blyth is reached from it by road through south-east Northumberland. The team travels from India on UK visit visas, which have to be applied for weeks ahead, so the date a campaign ends or a cable load begins is the date we plan back from. Terminal access at Blyth is ISPS-controlled: the ship's agent or the vessel operator arranges passes, and the terminal tells us when loading or mobilisation leaves the relevant deck areas free for inspection.",
+  "vessels": [
+    "Cable-lay vessels",
+    "Offshore construction vessels",
+    "Offshore supply and support vessels",
+    "Heavy-lift and project cargo ships",
+    "General cargo ships and cable barges",
+    "Bulk coasters",
+    "Crew transfer vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can you inspect a cable-lay vessel while it loads cable at Battleship Wharf?",
+      "a": "Partly. Once cable is on the carousel, the deck and structure beneath it are out of reach, so foundation crack detection and under-carousel gauging are best done before loading starts or after the vessel returns empty. During loading we can still work away from the cable path: ballast tanks, crane and accommodation foundations on the other side, and machinery-space piping. The order is agreed with the vessel and the terminal before the team boards."
+    },
+    {
+      "q": "Is there a drydock at Blyth?",
+      "a": "We plan Blyth work as afloat work. A Blyth-based vessel that needs docking would normally go to the nearest yards with drydocks, on the Tyne at Hebburn or on the Tees at UK Docks' four-dock yard. A thickness survey alongside at Blyth before the docking gives the yard a steel list to plan renewals against, which shortens the time the vessel then spends in dock."
+    },
+    {
+      "q": "What should a vessel prepare for a survey between offshore campaigns?",
+      "a": "Ballast tanks pumped out, ventilated and covered by a gas-free certificate and entry permit; seafastening grillages and temporary equipment removed from the areas to be gauged; and loose scale and coating breakdown cleaned off where readings are needed. A list of known problem areas from the last campaign, such as cracked brackets or leaking tanks, helps the team put its time where it matters."
+    },
+    {
+      "q": "Can a vessel that is idle for several weeks be surveyed in full?",
+      "a": "Yes, and that is the best use of the time. Some construction and cable vessels finish their offshore work when the weather closes in at the end of a season. A vessel lying at Blyth for a few weeks can have every ballast tank gauged, the working deck examined under removed equipment, sea chests checked from inside and cooling-water and fire-main piping measured, so repairs are done before the next charter rather than during it."
+    }
+  ],
+  "nearby": [
+    "newcastle",
+    "sunderland",
+    "teesport",
+    "leith",
+    "aberdeen"
+  ]
+}

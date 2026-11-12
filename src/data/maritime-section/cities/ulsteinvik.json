@@ -1,0 +1,107 @@
+{
+  "slug": "ulsteinvik",
+  "name": "Ulsteinvik",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Ulsteinvik Ship Gauging: UTM at Yards for Offshore Vessels",
+  "description": "Thickness gauging in Ulsteinvik for offshore, cable-lay, wind service and expedition ships in yard: docking, conversion and renewal-survey UTM with MPI.",
+  "h1": "Ultrasonic Thickness Measurement at the Ulsteinvik Shipyards",
+  "intro": "Ulsteinvik, on the island of Hareidlandet in Sunnmøre, is a shipbuilding town: Ulstein Verft and Green Yard Kleven build, repair, convert and recycle vessels, surrounded by ship designers, equipment makers and offshore shipowners. Ships come here for dockings, class renewals, upgrades and conversions, so they are out of service and open for access, which is the best possible setting for gauging. Atlantis keeps no one in Ulsteinvik; for each docking, technicians are mobilised from India to the yard where the vessel lies.",
+  "keywords": [
+    "ulsteinvik thickness gauging",
+    "utm ulsteinvik",
+    "shipyard thickness measurement norway",
+    "offshore vessel docking survey gauging",
+    "cable lay vessel class renewal",
+    "service operation vessel docking inspection",
+    "vessel conversion steel survey",
+    "ship recycling ihm norway",
+    "sunnmøre shipyard inspection",
+    "hull gauging ulstein"
+  ],
+  "highlights": [
+    {
+      "h": "Class renewals in a covered dock",
+      "p": "Ulstein Verft's dock hall keeps a ship dry and under a roof, so gauging of shell, double bottom and tanks continues through rain and wind. Cable-lay, construction and wind service vessels come in for class renewal and upgrade dockings."
+    },
+    {
+      "h": "Conversions that reuse old structure",
+      "p": "Supply vessels converted for subsea, offshore wind or aquaculture work keep much of their original hull. Before new steel and equipment go in, owners need readings of the decks, tanks and foundations being reused, with crack detection where loads will change."
+    },
+    {
+      "h": "Recycling decisions and the IHM",
+      "p": "Green Yard Kleven offers vessel recycling alongside newbuilding and repair. A ship heading for recycling needs a current Inventory of Hazardous Materials, and condition gauging beforehand helps an owner decide whether a hull is worth converting or should be retired."
+    }
+  ],
+  "port": {
+    "h": "Ulsteinvik: a yard town in the Sunnmøre maritime cluster",
+    "p": [
+      "Ulsteinvik sits on the western side of Hareidlandet, an island in the outer archipelago of Sunnmøre, where water sheltered by neighbouring islands protects the yards while leaving a short passage to the open sea. The town belongs to a cluster that concentrates an unusual amount of maritime know-how in a small area: shipyards, design houses, makers of propulsion and deck machinery, and the offices of shipowners whose supply, anchor-handling and construction vessels work across the North Sea and well beyond it. The coastal shipping lane past Ålesund is close by, and the exposed sea area around Stad to the south is a familiar weather barrier for vessels moving along the coast to and from the yards here.",
+      "Ulstein Verft builds offshore and wind service vessels, expedition cruise ships and, more recently, ferries, and its aftermarket business handles dockings, repairs, class renewals and upgrades for vessels built there and elsewhere. Green Yard Kleven, the yard formerly known as Kleven Verft, offers newbuilding, repairs, retrofits and recycling. Norwegian yards often have hulls built abroad and towed home for outfitting, so the quays also receive bare hulls arriving for completion. The vessels in for service are a specialised group: cable-lay ships, construction support and walk-to-work vessels for offshore wind, anchor handlers, platform supply vessels, expedition cruise ships and the occasional ferry or fishing vessel from the region.",
+      "Traffic in Ulsteinvik is not a stream of cargo calls but a sequence of yard projects, each lasting from days to months. A class-renewal docking on an offshore vessel is a matter of weeks; a conversion can run far longer. That rhythm suits gauging: tanks are opened and cleaned as part of the yard work, staging goes up for other trades, and the class surveyor attends on a planned schedule. Winter on the Sunnmøre coast is wet and windy, yet much of the work at these yards happens under cover or inside the hull. Many owners aim to have their vessels back in the market before the summer offshore season, which tends to fill the yards' service calendars in winter and spring."
+    ]
+  },
+  "facilities": {
+    "h": "Yard facilities and where the gauging happens",
+    "p": [
+      "At Ulstein Verft the dock hall is the centre of gravity: a vessel floated in is dry, sheltered and lit, and work on the shell, sea chests, rudder and double bottom can run in parallel with the yard's own trades. Afloat work on decks, accommodation and machinery spaces takes place at the outfitting quays. Green Yard Kleven's site has its own quays and steel production and handles repair and retrofit projects as well as recycling, where gauging and hazardous-materials surveys may both be needed before a decision on the hull is taken.",
+      "Whichever yard holds the contract, our team works for the shipowner or manager rather than for the yard, and fits its schedule to the yard's programme: blasting and painting must not cover areas that still need readings, and steel renewal cannot start until substantial corrosion has been marked and agreed. For vessels docking elsewhere in the cluster, at yards on the neighbouring islands or around Ålesund, the same approach applies, and we travel to whichever yard the owner has chosen."
+    ],
+    "list": [
+      "Ulstein Verft dock hall — shell, bottom, sea chest and tank gauging on vessels in dock for class renewal or upgrade.",
+      "Ulstein Verft outfitting quays — deck, foundation and piping measurement during afloat repairs and upgrades.",
+      "Green Yard Kleven — condition gauging and crack detection on vessels in for repair, retrofit or conversion.",
+      "Green Yard Kleven recycling projects — IHM work and hull condition checks before an owner commits to recycling.",
+      "Other yards on Hareidlandet, the nearby islands and around Ålesund — docking and renewal-survey gauging wherever the owner places the vessel."
+    ]
+  },
+  "context": {
+    "h": "A newbuilding cluster servicing an ageing offshore fleet",
+    "p": [
+      "Ulsteinvik lies north of 62°N, so it falls outside the North Sea emission control area, and many vessels built and serviced in the cluster run on distillate, LNG or battery-hybrid systems in any case. Port state control on foreign ships in Norway is the task of the Norwegian Maritime Authority, under the Paris MoU, but for a yard town the more relevant regulator is the vessel's own class society, whose surveyor attends every docking and decides the extent of close-up survey and gauging. Retrofits for lower emissions, many of them part-funded by Norway's NOx Fund, have become a steady source of yard work on Norwegian vessels.",
+      "The offshore fleet that comes to Ulsteinvik for service is ageing. Many supply and anchor-handling vessels were delivered during the building boom of the years before 2015 and are now at or past their third renewal survey, the point at which the extent of gauging rises sharply. Owners deciding whether to keep, convert, sell or recycle such a vessel need thickness data to make that call, and yards like these are where the decision is carried out. For a ship going to recycling, the Inventory of Hazardous Materials has to be brought up to date before the work begins."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs we see at the Ulsteinvik yards",
+    "p": "Work in Ulsteinvik arrives as part of a yard project, and the scope is set by what the owner and class need from the docking or conversion. The most common request is renewal-survey or docking-survey gauging on an offshore or wind service vessel, followed by condition surveys before a conversion and crack detection on foundations and welds where equipment is removed or added. We agree the TM plan with the class surveyor and the yard planner before the vessel arrives, so that readings are taken before blasting, painting or steelwork covers the areas concerned, and so that the steel list reaches the yard early. Examples:",
+    "list": [
+      "A cable-lay vessel in the dock hall for class renewal: shell, double bottom, sea chests and ballast tanks gauged, with substantial corrosion marked for renewal.",
+      "A walk-to-work service vessel for offshore wind at a scheduled docking: tank and deck gauging plus MPI at gangway and crane foundations.",
+      "A platform supply vessel due for conversion to subsea or aquaculture work: condition gauging of decks, tanks and the foundations to be reused, before the conversion is designed.",
+      "An anchor handler at its fourth renewal survey: extended gauging of ballast tanks, chain lockers and the stern roller structure, scheduled with the class surveyor.",
+      "A vessel being assessed for recycling at Green Yard Kleven: IHM update and hull condition readings to support the owner's decision."
+    ]
+  },
+  "logistics": "Ålesund Airport, Vigra, is the main gateway, with flights from Oslo and other Norwegian cities, and Ørsta-Volda Airport at Hovden is closer still for domestic connections. From Ålesund the road to Ulsteinvik includes the ferry crossing from Sulesund to Hareid; from Hovden the Eiksund road tunnel links the mainland with Hareidlandet. Yard passes are issued by the yard at the owner's request. Norway is part of the Schengen area, so our technicians travel from India on Schengen visas, which fit easily around a docking date fixed weeks ahead.",
+  "vessels": [
+    "Platform supply vessels",
+    "Anchor-handling tug supply vessels",
+    "Cable-lay and subsea construction vessels",
+    "Offshore wind service and walk-to-work vessels",
+    "Expedition cruise ships",
+    "Ferries",
+    "Fishing vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can gauging be done while a vessel is in Ulstein Verft's dock hall?",
+      "a": "Yes. A vessel in the dock hall is dry and under cover, which makes shell, bottom and sea-chest readings straightforward and keeps work going in poor weather. The team works to the owner's TM plan and the yard's schedule, so that readings are taken before blasting and painting, and results go to the superintendent and the class surveyor as the work proceeds."
+    },
+    {
+      "q": "Do you work for the yard or for the shipowner?",
+      "a": "For the shipowner or manager. The yard provides access, staging, lighting and gas-free spaces under its contract with the owner, and we report directly to the superintendent and to the attending surveyor. That keeps the measurement independent of the repair contract, which matters when the readings decide how much steel the yard will renew."
+    },
+    {
+      "q": "What should be checked before converting an offshore vessel in Ulsteinvik?",
+      "a": "Start with the structure that the conversion will reuse: main deck plating and stiffeners under new equipment, tanks that will change service, and foundations that will carry new loads. Thickness measurement shows whether that steel has the margins the new design assumes, and magnetic particle testing at existing welds finds fatigue cracks. Doing both before the design is frozen avoids surprises once the vessel is in the yard."
+    },
+    {
+      "q": "Can you gauge a vessel docking at another Sunnmøre yard?",
+      "a": "Yes. The cluster includes several yards on Hareidlandet, on the surrounding islands and around Ålesund, and owners choose among them by slot and capability. We travel to whichever yard holds the contract and follow the same approach there: TM plan agreed beforehand, readings taken before surfaces are covered, and findings reported to the superintendent and surveyor every day."
+    }
+  ],
+  "nearby": ["alesund", "floro", "kristiansund", "bergen"]
+}

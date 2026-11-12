@@ -1,0 +1,113 @@
+{
+  "slug": "bijela",
+  "name": "Bijela",
+  "country": "Montenegro",
+  "region": "europe",
+  "title": "Bijela Shipyard Thickness Gauging | UTM in the Bay of Kotor",
+  "description": "Ultrasonic thickness gauging at the Bijela shipyard, Bay of Kotor: docking-survey hull plating, tanks and refit steel estimates for yachts and small ships.",
+  "h1": "Docking and Refit Thickness Gauging at Bijela, Montenegro",
+  "intro": "Bijela is a shipyard settlement on the western shore of the Bay of Kotor, near Herceg Novi and the Kamenari ferry crossing. The yard has historically repaired and built merchant ships, and its slipway and dock facilities now draw refit work on large yachts and small vessels. Atlantis NDT supports these dockings with ultrasonic gauging, using technicians who travel from India and are not based in Montenegro.",
+  "keywords": [
+    "bijela shipyard thickness gauging",
+    "ultrasonic thickness measurement bijela",
+    "bay of kotor shipyard inspection",
+    "docking survey gauging montenegro",
+    "steel renewal estimate bijela",
+    "utm bijela montenegro",
+    "refit hull plating gauging",
+    "herceg novi ship inspection",
+    "yard thickness measurement montenegro",
+    "bijela ship repair"
+  ],
+  "highlights": [
+    {
+      "h": "A yard for dockings, not call days",
+      "p": "Bijela is where hull work is done, so gauging here is a docking programme: bottom plating, shell, rudder and tanks read while the vessel is out of the water, with results feeding straight into steel renewal decisions."
+    },
+    {
+      "h": "Refit decisions made on measured steel",
+      "p": "A yard specification needs plating thicknesses before blasting and coating. Readings taken early let the owner, the surveyor and the yard agree on renewal areas before the dock schedule tightens."
+    },
+    {
+      "h": "On the Kamenari side of Verige",
+      "p": "Bijela lies near the narrow Verige channel, where a short car ferry crosses between Kamenari and Lepetani. Road access is simple from Herceg Novi, and gauging teams reach the yard from the coast without crossing the bay."
+    }
+  ],
+  "port": {
+    "h": "Bijela and the western side of the Bay of Kotor",
+    "p": [
+      "Bijela is a small settlement within Herceg Novi municipality, on the western shore of the Bay of Kotor and a short distance from the narrow channel of Verige. Its waterfront has been shaped by shipbuilding for generations, and the yard's slipway and dock area are the largest repair facility in Montenegro. The surrounding water is calm, deep and well protected, which makes the site attractive for work that needs stable conditions, such as blasting, coating and precise thickness measurement.",
+      "Traffic at Bijela is unlike that of Kotor or Bar. There are no scheduled services and no cargo terminal: ships come for repair, refit or conversion, stay for the length of the job and then leave. Large yachts and small commercial vessels form the core of the work, and the redevelopment of the site towards yacht refit has changed its character from merchant shipbuilding. Ships and yachts that arrive here have usually been planned for months, and a thickness programme can be built into the work list from the start.",
+      "For inspection, the yard environment is what makes Bijela different. A hull out of the water and with old coating removed is the best condition in which plating can be gauged, and every reading can be mapped to a frame and plate. Tanks open for entry and cleaning give access to internal structure at the same time. The attending surveyor and the yard planner can see steel renewal areas on the day, and the owner's superintendent can approve or revise the specification while the ship is still in the dock."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens at the yard",
+    "p": [
+      "Within the yard, gauging is done on the vessel's hull and internal structure in whichever dock or slipway position it occupies. On a dry hull the technicians work along shell, bottom, bilge keels, rudder and propeller area from ground level or from staging, using couplant suited to the surface state. Inside, tanks that have been cleaned, ventilated and tested are entered under a permit, and gauged along bulkheads, floors and longitudinals. Yard staff control access, lifting and hot work, so the sequence of blasting, gauging and steel work is agreed with the yard planner before the ship enters the dock.",
+      "Ships and yachts that need a pre-docking record can be gauged afloat before arrival, at a berth in Tivat or Kotor or at an anchorage in the bay, and then at the yard for the docking itself. Using the same team for both stages keeps measurement points aligned from estimate to final steel report. For larger commercial ships, the Adriatic yards in Croatia and Italy remain alternatives, and the bay's shipyards compete with them mainly on yacht and small-ship work."
+    ],
+    "list": [
+      "Dry-docked or slipway hull: shell, bottom plating, rudder and propeller area gauged after coating removal",
+      "Cleaned and gas-free tanks: bulkhead, floor and longitudinal readings through tank entry under permit",
+      "Afloat berth at the yard quay: deck, superstructure and accessible tank boundaries before or after the dock period",
+      "Pre-arrival gauging at Tivat or Kotor: steel estimate for the yard from a berth elsewhere in the bay",
+      "Final steel check after renewal: plating readings to confirm the work against the specification"
+    ]
+  },
+  "context": {
+    "h": "Regulation and the Montenegrin yard setting",
+    "p": [
+      "Bijela is in Montenegro, a Paris MoU member, and the Maritime Safety Administration oversees ships and ports there. A ship that has been repaired at a Montenegrin yard re-enters service under the same inspection regime as any other ship in the region, so documented steel work matters when the ship next calls at a Paris MoU port. Class societies attend docking surveys and set the rules for steel renewal limits, while the yard follows the owner's specification and the surveyor's decisions on the day.",
+      "Montenegro is not in the EU, but many ships repaired here trade to EU ports and fall under EU requirements, including the hazardous materials inventory for ships calling there and the carbon rules for voyages touching EU ports. Where thickness readings are meant for credit to a class docking survey, the firm taking them must be acceptable to that society, and the superintendent should confirm this at planning. Readings taken for the owner's estimates and for the yard's quotation are used independently of class. Entry rules for visiting technicians are national and checked in advance."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Bijela",
+    "p": "Bijela jobs follow the yard calendar: a docking is booked, the hull is blasted, and gauging fits into the days between coating removal and steel work. Superintendents benefit from sending us the plating plan, the previous survey's thickness report and the yard's docking schedule early. We use these to plan the team size and the order of measurements, and to check Montenegrin entry lead time before travel from India.",
+    "list": [
+      "Full bottom and shell plating gauging on a yacht on the slipway, after blasting and before steel renewal is marked",
+      "Tank bulkhead and double-bottom readings on a small tanker or workboat under docking survey",
+      "Rudder, stock area and propeller shaft bossing gauging on a vessel in dock, supporting a class surveyor's attendance",
+      "Pre-arrival steel estimate on a ship afloat at Tivat, passed to the yard before the dock date is fixed",
+      "Post-renewal plating check on new insert plates, confirming thickness against the drawing and the yard's specification"
+    ]
+  },
+  "logistics": "Tivat Airport is the nearest, followed by Dubrovnik in Croatia, and both are within a road transfer of the yard along the bay. Herceg Novi is close and the yard issues its own access passes through the owner's representative or the yard planner. Montenegro operates its own visa rules, separate from Schengen, so we check what Indian technicians need when an enquiry arrives and set the mobilisation date accordingly. Yard schedules rarely move for visa delays, so early notice matters.",
+  "vessels": [
+    "Large steel yachts",
+    "Small tankers and bunker barges",
+    "Workboats and tugs",
+    "Coastal passenger ships",
+    "Small general cargo ships",
+    "Pilot and patrol boats",
+    "Floating craft under conversion"
+  ],
+  "faqs": [
+    {
+      "q": "Is Bijela used for commercial ships or only for yachts?",
+      "a": "Historically it was a commercial ship repair and building yard, and today the focus has shifted towards yacht and small-ship refit. What the yard can take at any time depends on its current facilities and schedule, so we confirm the docking arrangement with the owner's superintendent before planning the gauging programme."
+    },
+    {
+      "q": "When in the docking should thickness gauging be carried out?",
+      "a": "After coating removal and before steel renewal areas are marked. That gives clean surfaces for readings and lets the surveyor and the yard see where plating is below the renewal limit. Tank gauging follows cleaning and gas-free certification, and a final check confirms the new insert plates."
+    },
+    {
+      "q": "Can you gauge before the ship arrives at Bijela?",
+      "a": "Yes. A pre-arrival survey afloat at Tivat, Kotor or an anchorage in the bay gives the yard steel estimates before the dock date is fixed. The same technicians can then attend the docking, which keeps measurement locations the same from estimate to final report and reduces repetition."
+    },
+    {
+      "q": "How do you reach a shipyard in Montenegro from India?",
+      "a": "The team travels by air to Tivat, Dubrovnik or Podgorica and continues by road. Montenegro applies its own entry rules to Indian citizens, so we check them when the enquiry comes in, add the lead time to the plan and confirm the yard's site access arrangements with the owner's representative."
+    }
+  ],
+  "nearby": [
+    "tivat",
+    "kotor",
+    "bar-montenegro",
+    "dubrovnik",
+    "durres"
+  ]
+}

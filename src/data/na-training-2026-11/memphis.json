@@ -1,0 +1,15 @@
+{
+  "slug": "memphis",
+  "lat": 35.15,
+  "lng": -90.05,
+  "localContext": "Memphis is a river, rail and air freight city, and most of its inspection work follows that. FedEx maintains aircraft at its Memphis hub, the Valero refinery on the south side runs pressure equipment and piping, Nucor operates a steel mill, and the Tennessee Valley Authority and the local utility keep power plants and substations. Barge terminals, rail yards and fabrication shops fill out the rest. The work runs to ASME, API, AWS and FAA maintenance requirements, so technicians need VT, MT, UT and RT foundations that an employer can document under a written practice.",
+  "certPathwayNote": "In Memphis the employer certifies. A shop, terminal or maintenance operation adopts a written practice built on ASNT SNT-TC-1A, and its Level III signs off examinations. Aviation maintenance customers and utility owners may add their own flow-down requirements, which the employer's Level III reconciles. ASNT central certification is the alternative route for individuals without a sponsoring employer.",
+  "salaryFrom": "nashville",
+  "siblings": [
+    "nashville",
+    "jackson",
+    "little-rock",
+    "birmingham",
+    "knoxville"
+  ]
+}

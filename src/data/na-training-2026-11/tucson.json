@@ -1,0 +1,15 @@
+{
+  "slug": "tucson",
+  "lat": 32.22,
+  "lng": -110.97,
+  "localContext": "Tucson's NDT work splits between aerospace and defence and southern Arizona mining. A missile-systems plant near the airport and its suppliers machine and test precision parts; Davis-Monthan Air Force Base and the 309th Aerospace Maintenance and Regeneration Group bring airframe maintenance; large copper mines and mills need structural, tank and piping inspection. Aerospace leans on PT, MT, ET and UT to customer specifications, mining on VT, MT and UT thickness.",
+  "certPathwayNote": "Employers certify under a written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Defence and aerospace customers flow down their own requirements, which the employer's Level III reconciles. Arizona radiography needs state radiation licensing, separate from method certification.",
+  "salaryFrom": "new-mexico",
+  "siblings": [
+    "phoenix",
+    "albuquerque",
+    "las-vegas",
+    "el-paso",
+    "san-diego"
+  ]
+}

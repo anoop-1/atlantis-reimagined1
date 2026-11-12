@@ -1,0 +1,169 @@
+{
+  "slug": "ultrasonic-weld-inspection",
+  "navLabel": "Ultrasonic Weld Inspection (UT)",
+  "title": "Ultrasonic Weld Inspection on Ships (UT) | Shear-Wave Testing",
+  "description": "Ultrasonic weld inspection on ships: shear-wave UT of butt welds, inserts and repairs to ISO 17640 and ISO 11666, where radiography is impractical on board.",
+  "h1": "Ultrasonic weld inspection (UT) of hull, deck and machinery welds",
+  "eyebrow": "Maritime inspection · Marine NDT",
+  "intro": "Ultrasonic weld inspection looks inside a weld from one side, with no radiation, and finds the flaws that matter most for strength: lack of fusion, cracks and incomplete penetration. On a ship or in a busy repair yard it is usually the practical way to examine butt welds, insert plates, full-penetration T-joints and repairs, where radiography would mean exclusion zones and a halt to other work. Atlantis NDT carries out manual shear-wave UT to the ISO weld-testing standards and the class rules, with teams mobilised from India to the vessel.",
+  "highlights": [
+    {
+      "h": "One-sided access, no radiation",
+      "p": "UT needs a scanning surface on one side of the joint and nothing behind it. Welders, painters and riggers keep working nearby, and no radioactive source has to be licensed, transported and guarded in the port while the testing goes on."
+    },
+    {
+      "h": "Sensitive to planar flaws",
+      "p": "Lack of side-wall fusion, root defects and cracks reflect sound strongly when the beam meets them at a suitable angle. These are the flaws most likely to grow under cyclic loading, and the ones a radiograph can miss when they lie at an awkward angle to the beam."
+    },
+    {
+      "h": "Assessed to named acceptance levels",
+      "p": "Indications are characterised to ISO 23279 and assessed against ISO 11666 acceptance levels, the class rules or your specification, then reported with position, depth, length and amplitude, so the repair decision rests on recorded data rather than on an operator's impression."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-ut",
+      "h": "Why welds on ships are usually tested with ultrasound",
+      "p": [
+        "Radiography gives a picture of a weld and is good at volumetric flaws such as porosity and slag, and many yard specifications still name it. On a ship it is hard work. A gamma source or X-ray set needs the port state's radiation licensing, a controlled area that clears the surrounding decks and spaces, and film or a detector on the far side of the joint, which is often a tank or void that has to be opened and made safe. Every exposure stops other work in that part of the ship.",
+        "Ultrasonic testing avoids all of that. The operator scans from one side, the result is seen as the probe moves, and nobody else has to leave the area. It is also the stronger method for the flaws that threaten structural welds: planar defects such as lack of fusion and cracks reflect ultrasound strongly when the beam meets them squarely, whereas a radiograph shows them clearly only when they lie roughly in line with the radiation. Class rules set where UT is accepted and where radiography is still required, so the method is agreed before work starts."
+      ]
+    },
+    {
+      "id": "how-shear-wave-ut-works",
+      "h": "How manual shear-wave weld testing works",
+      "p": [
+        "An angle probe sends a beam of shear waves into the plate at a known refracted angle, commonly 45°, 60° or 70°, at frequencies usually between 2 and 5 MHz. The beam travels through the plate, reflects from the far surface and crosses the weld in successive legs, and the operator moves the probe towards and away from the weld while stepping along it, so the beam covers the whole weld volume and both fusion faces. A reflector in the weld returns an echo whose position on the screen, together with the beam angle and the probe position, gives its depth and location.",
+        "Range is calibrated on standard blocks, calibration block No. 1 to ISO 2400 and block No. 2 to ISO 7963, and sensitivity is set to ISO 16811, either from reference reflectors such as side-drilled holes used to build a distance-amplitude curve or by the distance-gain-size method. A transfer correction makes up for differences in surface condition and attenuation between the calibration block and the ship's steel, which matters on painted or pitted plate. Probe angles are chosen so the beam meets the expected fusion faces as close to perpendicular as the joint geometry allows."
+      ]
+    },
+    {
+      "id": "standards",
+      "h": "Testing levels, acceptance levels and characterisation",
+      "p": [
+        "Several ISO standards work together for manual UT of welds, and ISO 17635 links them to the weld quality levels of ISO 5817. Which testing level and which acceptance level apply is set by the specification or the class, and should be stated before the team travels, because it changes the number of probe angles and scanning surfaces the job needs.",
+        "Characterisation matters because acceptance treats flaw types differently. Most specifications and class rules do not accept planar indications such as cracks and lack of fusion whatever their amplitude, while small non-planar indications such as isolated porosity may be accepted within the limits of the acceptance level. Echo dynamics as the probe moves, and the response from different beam angles, are how the operator tells the two apart."
+      ],
+      "table": {
+        "head": ["Standard", "What it decides"],
+        "rows": [
+          ["ISO 17640", "Techniques and testing levels A to C, with D for special applications: how many probe angles, from which surfaces and over what scanning area, for ferritic steel welds 8 mm thick and above"],
+          ["ISO 11666", "Acceptance levels 2 and 3 for indications by length and amplitude, corresponding to quality levels B and C of ISO 5817"],
+          ["ISO 23279", "Characterisation of indications as planar or non-planar from echo dynamics and directional reflectivity"],
+          ["ISO 17635", "General rules that select the NDT method and link testing and acceptance levels to the weld quality level"],
+          ["ISO 16811", "Sensitivity and range setting for manual ultrasonic testing"]
+        ]
+      }
+    },
+    {
+      "id": "class-rules",
+      "h": "Class rules for weld NDT on new and existing ships",
+      "p": [
+        "For new construction, IACS UR W33, in force since 1 July 2021, sets the minimum extent and acceptance of conventional NDT of hull steel welds, and UR W34 deals with advanced methods such as phased array UT and TOFD; each society's rules apply them and add requirements of their own. On ships in service, the surveyor decides how much of a repair weld is tested and by which method, guided by the class rules and by IACS Recommendation 47 for repair quality. IACS Recommendation 20, on non-destructive testing of ship hull steel welds, is the guidance many yards and surveyors still refer to when agreeing scope.",
+        "Large container ships add a case of their own. Their hatch coamings and upper decks use extremely thick high-strength plate, and the IACS requirements for that plate call for ultrasonic testing of the block-to-block butt welds in the upper flange as part of the measures against brittle crack propagation. Those joints are thick enough that PAUT or TOFD is often the better tool, and the class sets which methods it accepts for them.",
+        "A yard specification, or the class rules for a newbuilding, may go further and require a recognised NDT supplier or operators certified under a named scheme. If yours does, say so at enquiry; we check the requirement against our own certification and give you a clear answer before anything is booked."
+      ]
+    },
+    {
+      "id": "ship-applications",
+      "h": "Where ultrasonic weld testing is used on board",
+      "p": [
+        "Each job starts with the weld map: which joints, of which type, in what thickness and material, and to which acceptance standard. Thin plating below the range of the standard, small-bore pipe and austenitic welds need their own approach, and the plan says so before the team travels rather than on the staging."
+      ],
+      "list": [
+        "Butt welds of insert plates in shell, deck and bulkhead plating after steel renewal",
+        "Repair welds in full-penetration joints after crack excavation",
+        "Full-penetration T-joints at hatch corners, crane pedestals and heavy brackets",
+        "Rudder horn, sole piece and stern frame welds when they are accessible at docking",
+        "Butt welds in thick plate on large container ships and offshore units",
+        "Cargo, ballast and fuel piping butt welds of suitable diameter and wall thickness",
+        "Scrubber shell and wash-water piping welds, with a procedure suited to stainless or duplex steel"
+      ]
+    },
+    {
+      "id": "laminations",
+      "h": "Lamination checks of plate before and around welding",
+      "p": [
+        "A lamination is a flat separation inside a rolled plate, running parallel to its surfaces. It does little harm under in-plane load, but it deflects an angle beam, can hide a weld flaw behind it and, at a T-joint loaded through the plate's thickness, can open into lamellar tearing. ISO 17640 therefore calls for the parent metal in the scanning zone to be checked with a straight-beam probe, so that a lamination is found before it masks a weld defect or is mistaken for one.",
+        "Where a heavy attachment such as a crane pedestal, a bollard foundation or a large bracket will pull on a plate through its thickness, the plate in way can be checked for laminations before welding, using straight-beam methods such as those of EN 10160 for steel flat product. Finding a lamination at that stage means choosing a different plate or detail; finding it after welding means cutting out new work."
+      ]
+    },
+    {
+      "id": "preparation-access",
+      "h": "Scanning surface, coatings and access",
+      "p": [
+        "A probe needs a scanning band on the plate either side of the weld, wide enough for the beam to cross the whole weld at the chosen angles, and that width grows with plate thickness. The band must be free of spatter, loose scale and flaking paint. Thin, well-bonded paint can sometimes stay, with the transfer correction measured on it, but coating that varies in thickness or is loose upsets coupling and amplitude, so the procedure decides whether it remains. Weld caps too rough or too high to scan across may need dressing, and the specification should say whether that is allowed.",
+        "Couplant, usually a gel, is wiped off afterwards so that paint will adhere. Surface temperature matters too: standard probes and couplants work in normal ambient conditions, while welds just completed or plate next to heated tanks need either suitable equipment or a wait. Access to both sides of the weld, or to both faces of the plate, improves coverage and should be planned together with the staging."
+      ]
+    },
+    {
+      "id": "limits",
+      "h": "Limits of manual UT, and when to move to PAUT or TOFD",
+      "p": [
+        "Manual UT depends heavily on the operator: the scan pattern, the attention paid to small echoes and the judgement on characterisation are human, and a conventional instrument does not store every waveform. Coarse-grained austenitic and duplex welds scatter and bend the beam, so they need techniques of their own, such as those of ISO 22825 for welds in austenitic steels and nickel-based alloys. Very thin plate leaves little room for a beam to work, and the geometry of small-bore pipe and complex nodes limits coverage.",
+        "When the client needs a permanent record of every scan, a measured flaw height to support a repair decision, or faster coverage of long, thick joints, the job moves to the methods described on the Phased Array UT (PAUT) and TOFD Inspection pages. The Advanced Marine NDT page explains when the extra set-up those methods need is justified on board."
+      ]
+    },
+    {
+      "id": "reporting",
+      "h": "What a UT weld report contains",
+      "p": [
+        "Each report identifies the weld by location and drawing reference, the material and thickness, the procedure, testing level and acceptance level, the instrument, probes, calibration blocks, reference sensitivity and transfer correction, and the scanning surfaces used. Every recordable indication is listed with its position along the weld, depth, length, maximum amplitude relative to the reference level and its characterisation, with an accept or reject decision and a sketch. Zones that could not be scanned, and why, are stated.",
+        "Behind each report is a procedure prepared under our founder, the company's Responsible NDT Level III, whose ASNT NDT Level III certificates cover UT, RT, MT, PT and VT and who brings more than eleven years of international field experience to the review. Our UT operators hold certification under Atlantis's written practice to ASNT SNT-TC-1A, and the company's management system is certified to ISO 9001 and ISO 14001."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 17640 – Ultrasonic testing of welds: techniques, testing levels and assessment",
+    "ISO 11666 – Ultrasonic testing of welds: acceptance levels",
+    "ISO 23279 – Ultrasonic testing of welds: characterisation of indications",
+    "ISO 17635 – Non-destructive testing of welds: general rules for metallic materials",
+    "ISO 16811 – Ultrasonic testing: sensitivity and range setting",
+    "IACS UR W33 and UR W34 – Non-destructive testing of hull steel welds in new construction",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "UT weld report per joint with procedure, testing level and acceptance level",
+    "Indication list with position, depth, length, amplitude and characterisation",
+    "Weld map or sketch locating every tested joint and indication",
+    "Calibration and sensitivity records, including the transfer correction",
+    "Lamination check results for parent plate where in scope",
+    "List of joints or zones not scanned, with the reason"
+  ],
+  "industries": [
+    "Ship-repair yards",
+    "Container ships",
+    "Bulk carriers",
+    "Crude, product and chemical tankers",
+    "Offshore units and support vessels",
+    "Ship managers supervising steel renewal",
+    "Contractors installing scrubbers and other retrofits"
+  ],
+  "faqs": [
+    {
+      "q": "Will class accept ultrasonic testing instead of radiography?",
+      "a": "Often, but the class rules for the ship and the weld decide, not the NDT company. For hull welds the rules usually allow ultrasonic testing for butt welds above a certain thickness and set the extent; some joints, materials and specifications still call for radiography. Tell us the class and the yard specification at enquiry, and agree the method with the attending surveyor before welding is complete, so the testing is not repeated."
+    },
+    {
+      "q": "What plate thickness can you test?",
+      "a": "ISO 17640 covers ferritic steel welds 8 mm thick and above, which includes most hull, deck and bulkhead plating. Thinner plate needs a specially developed technique or a different method. At the other end, very thick joints, such as hatch coaming and upper deck butts on large container ships, can be tested with manual UT, but phased array UT or TOFD often gives better coverage and a permanent record."
+    },
+    {
+      "q": "Does the paint need to come off before UT?",
+      "a": "Loose, flaking or uneven paint, spatter and scale must be removed from the scanning band either side of the weld. A thin, sound and even coating can sometimes stay if the procedure allows it and the transfer correction is measured on the coated surface. We state the preparation needed for each weld when the job is scoped, so the yard or the crew can prepare the bands before we arrive."
+    },
+    {
+      "q": "Can you test stainless or duplex welds ultrasonically?",
+      "a": "Yes, with care and a suitable procedure. Austenitic and duplex weld metal has a coarse, directional grain structure that scatters and bends ordinary shear waves, so these welds need probes and techniques chosen for them, such as those described in ISO 22825, and procedure checks on representative blocks. For surface cracks on these materials, dye penetrant inspection is used alongside the ultrasonic examination."
+    },
+    {
+      "q": "What do you need before the team travels?",
+      "a": "The vessel name or IMO number, class, a weld map or list with joint types, thicknesses and materials, the specification with its testing and acceptance levels, the port or yard and dates, and how staging, power and surface preparation will be arranged. Because the team is mobilised from India, the earlier those details arrive, the more easily visas and travel can follow the yard's programme."
+    },
+    {
+      "q": "Can UT tell how deep a crack in a weld goes?",
+      "a": "Manual UT gives an estimate of a flaw's depth position and, by techniques such as the tip-diffraction or amplitude-drop methods, of its through-wall extent, but the accuracy depends on the flaw and the geometry. Where height matters for a repair decision, TOFD measures it more reliably from the signals diffracted at the flaw tips, and phased array UT adds a stored image that can be reviewed later."
+    }
+  ]
+}

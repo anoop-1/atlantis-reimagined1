@@ -1,0 +1,121 @@
+{
+  "slug": "united-kingdom",
+  "navLabel": "United Kingdom",
+  "title": "Ship Thickness Measurement in the UK | UTM at British Ports",
+  "description": "Ship ultrasonic thickness measurement in the United Kingdom: UTM and hull gauging at Southampton, Felixstowe, London, Aberdeen, Belfast and other ports.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in the United Kingdom",
+  "eyebrow": "Maritime inspection · United Kingdom",
+  "intro": "The United Kingdom has one of the longest and busiest coastlines in Europe, and ship gauging follows it: container and car-carrier calls on the south and east coasts, tanker and gas terminals on the Humber, Tees and in Milford Haven, offshore supply ships at Aberdeen and the Shetland terminals, and ferries on the Irish Sea and the Channel. Superintendents ask us for ultrasonic thickness measurement before a docking, for tank and piping gauging on older tonnage, for scrubber wash-water lines and for pre-purchase and charter condition checks. The team is mobilised from India to the vessel for each job, planned around the ship's schedule and the visa route for that visit.",
+  "highlights": [
+    {
+      "h": "One coastline, four very different trades",
+      "p": "Southampton and Felixstowe handle boxes and vehicles, the Humber and Tees handle bulk and liquids, Aberdeen and Shetland serve offshore fleets, and the Irish Sea ports run ferries. Each trade drives a different gauging scope, so we plan by ship type first."
+    },
+    {
+      "h": "Steel readings before a repair slot",
+      "p": "Dry-dock capacity is limited, so owners gauge at a berth before the ship is booked in. A measured steel renewal estimate lets the superintendent agree docking days and plate quantities with the yard on readings rather than allowances."
+    },
+    {
+      "h": "Outside the EU, inside Paris MoU",
+      "p": "British ports follow their own rules since Brexit, yet port state control still runs under the Paris MoU, and the UK keeps its own ship recycling regulations. Hull condition is judged by the same inspection logic as in neighbouring countries."
+    }
+  ],
+  "sections": [
+    {
+      "id": "uk-coasts",
+      "h": "Where ships are gauged around the British coast",
+      "p": [
+        "The south coast is the deep-sea container and cruise side of the country. Southampton takes large container ships, car carriers and the cruise fleet that turns round at the port through the season, while Portsmouth, Poole, Portland and Plymouth see ferries, naval-support and smaller commercial traffic. Falmouth, at the far south-west, is known for its repair yard and for ships laid up or waiting for orders, which makes it a practical place to gauge a vessel that is not working to a tight schedule.",
+        "East Anglia and the Thames estuary handle the country's heaviest container and unitised traffic. Felixstowe is the main deep-sea container gateway, Ipswich, Lowestoft and Great Yarmouth serve short-sea cargo and offshore wind support, and London with Tilbury and Sheerness handles bulk, vehicles, paper, grain and the river's own working fleet. Gauging here is usually done at a berth between cargo operations, so the programme is planned around the terminal's windows.",
+        "The Humber, Tees and Tyne make up the north-east industrial belt. Immingham, Grimsby, Hull, Goole and Teesport together handle coal, ore, biomass, petroleum products, chemicals and ro-ro freight, so tankers, bulk carriers and short-sea ships dominate the list. Newcastle, Sunderland and Blyth add cargo and offshore-related calls. Scotland adds Aberdeen, Peterhead and Montrose for the North Sea supply fleet, Leith, Grangemouth, Rosyth and Dundee on the east, Lerwick, Sullom Voe, Orkney and Invergordon in the north, and Greenock on the Clyde."
+      ]
+    },
+    {
+      "id": "uk-west",
+      "h": "The west coast, Wales and Northern Ireland",
+      "p": [
+        "On the west side, Liverpool is the main container and ro-ro gateway for Atlantic and Irish Sea trade, with Heysham, Fleetwood, Barrow-in-Furness and Holyhead serving ferries, short-sea cargo and specialist work. Wales adds Milford Haven, one of the country's large energy ports for crude, products and gas, along with Cardiff, Newport, Swansea and Port Talbot, where steel, ore and coal shape the traffic. Avonmouth, in the Bristol Channel, handles vehicles, bulk and agribulk.",
+        "Northern Ireland is part of the United Kingdom, and its ports follow the same national rules: Belfast for containers, ro-ro and energy, Larne for the short ferry crossing to Scotland, Warrenpoint for bulk and general cargo, and Londonderry for smaller cargo and ferry traffic. For ships on the Irish Sea service, regular lay-by periods at these berths are the natural moment for hull and tank readings, because the schedule repeats and the vessel can be inspected between sailings."
+      ]
+    },
+    {
+      "id": "uk-regime",
+      "h": "The regulatory picture after Brexit",
+      "p": [
+        "Port state control in the United Kingdom is carried out by the Maritime and Coastguard Agency, and the UK remains a member of the Paris Memorandum of Understanding, so inspectors use the same risk-based approach and detention logic as in the EU. A ship with visible hull wastage, a recent change of manager or an ageing record on the target list is the one most likely to be examined, and recent gauging with a plan for renewals answers many of the first questions.",
+        "The UK is no longer bound by the EU Ship Recycling Regulation. Its own Ship Recycling Regulations apply to ships under the British flag, and owners who also trade to the EU often keep a hazardous materials inventory that satisfies both. Emission rules depend on the coast: the English Channel and North Sea fall inside the North Sea Sulphur Emission Control Area, where fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted, while ports on the Irish Sea and the Atlantic side sit outside any control area and use the global limit."
+      ]
+    },
+    {
+      "id": "uk-seasons",
+      "h": "Weather, tides and practical constraints",
+      "p": [
+        "Tidal range matters more in Britain than most superintendents expect. Locked docks at London, Liverpool, Hull and Avonmouth restrict when a ship can move, and a gauging visit is planned around lock windows rather than around the working day. Winter gales in the North Sea and Western Approaches can delay sailings, shift berths and make staging on deck unsafe, so schedules for open-berth work leave margin.",
+        "Cruise and ferry seasons also shape availability. Southampton and the Scottish ports are busy with cruise ships through summer, which makes berth time tighter, while many ferries are overhauled in winter when the timetable eases. Offshore supply ships work to rig schedules and are often gauged in short port stays at Aberdeen, so we plan readings to fit a call that may last only a day or two."
+      ]
+    },
+    {
+      "id": "uk-planning",
+      "h": "Planning a job from India",
+      "p": [
+        "Because the United Kingdom is outside the Schengen area, a European visa does not cover it. Indian passport holders need a United Kingdom visit visa in advance, and the route and paperwork are confirmed for each job. We start with the ship's agent as soon as the call is known: the agent arranges the berth, the shore pass, port access and security briefing, and tells us about the gangway and lighting arrangements.",
+        "Port security is strict at the large terminals, with pre-registration, personal protective equipment and permit requirements that differ between operators. Work in tanks follows the ship's safety management system, with gas-free certificates, ventilation and an agreed rescue plan. The brief for each job names the thickness measurement plan, the frames and strakes in scope and the reporting format the owner wants."
+      ]
+    },
+    {
+      "id": "uk-services",
+      "h": "Which services owners ask for in Britain",
+      "p": [
+        "Ultrasonic thickness measurement is the starting point. Owners of older tankers and bulk carriers ask for pre-docking steel estimates and for readings to support the special survey cycle. Charterers and buyers ask for measured condition checks at pre-purchase and on-hire. Operators of ferries and offshore support ships ask for piping, tank and hatch or ramp area checks scheduled to fit a short turnaround.",
+        "The North Sea ECA has made scrubber ships common around the British coast, so wash-water and overboard piping gauging is a regular request. Where cracks are suspected, magnetic particle and dye penetrant checks follow the readings. Reports are written against as-built thickness and the applicable allowance, with a renewal estimate that the yard can plan its work against."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements for tankers and bulk carriers",
+    "Paris Memorandum of Understanding on Port State Control, applied by the UK Maritime and Coastguard Agency",
+    "MARPOL Annex VI, regulation 14: sulphur limits and the North Sea Emission Control Area",
+    "UK Ship Recycling Regulations and the inventory of hazardous materials",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates and frames marked for renewal",
+    "Piping and scrubber line condition report by spool and joint",
+    "Tank-by-tank readings located on the ship's drawings",
+    "Photographs and preliminary readings shared during the job on request"
+  ],
+  "industries": [
+    "Tankers and gas carriers",
+    "Bulk carriers",
+    "Container ships",
+    "Car carriers and ro-ro ships",
+    "Ferries and ro-pax ships",
+    "Cruise ships",
+    "Offshore supply and wind support ships",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which British ports do you cover for ship thickness measurement?",
+      "a": "Every port with a page in this section, from Southampton, London, Felixstowe and Liverpool to Aberdeen, Milford Haven, Belfast and the smaller ports on the Humber, Tees, Clyde, Severn and the Scottish islands. If a ship is calling somewhere not listed, ask: the work is done on the vessel, so the port is a scheduling question."
+    },
+    {
+      "q": "Does Brexit change how a ship is inspected in a British port?",
+      "a": "Port state control continues under the Paris MoU, applied by the Maritime and Coastguard Agency, so the inspection logic is familiar. What changes is regulation outside that: the UK has its own ship recycling regulations rather than the EU one, and visas for a visiting team follow UK immigration rules rather than the Schengen route."
+    },
+    {
+      "q": "Do you need a visa to work on a ship in a UK port?",
+      "a": "Yes. The UK is outside Schengen, so Indian nationals travelling to gauge a ship need the appropriate UK visa, arranged before travel. The route depends on the job, so we confirm it as soon as the call is known and plan the programme around the time the visa takes."
+    },
+    {
+      "q": "Are scrubber pipes a concern on British calls?",
+      "a": "They are on the east and south coasts, where the North Sea Emission Control Area applies and many ships run exhaust gas cleaning systems. Wash-water and overboard piping can lose wall quickly, so gauging the lines between dockings finds wastage before it becomes a leak. On Irish Sea and Atlantic routes the question is less common."
+    },
+    {
+      "q": "Can gauging be done while the ship is working cargo?",
+      "a": "Deck, hull above the waterline, hatch coamings and accessible piping can often be gauged during cargo operations if the terminal and master agree. Tank interiors need gas-free conditions and access, so they are scheduled at a lay-by berth or repair yard instead. The ship's agent and the master confirm what is possible for each call."
+    }
+  ]
+}

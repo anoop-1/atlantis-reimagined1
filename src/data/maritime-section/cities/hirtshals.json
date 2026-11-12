@@ -1,0 +1,118 @@
+{
+  "slug": "hirtshals",
+  "name": "Hirtshals",
+  "country": "Denmark",
+  "region": "europe",
+  "title": "Hirtshals UTM: Thickness Gauging for Ferries and Trawlers",
+  "description": "Ship thickness measurement in Hirtshals for Norway ferries, ro-ro freight ships and North Sea trawlers: car-deck, hull, fish-hold and tank gauging, MPI.",
+  "h1": "Ultrasonic Thickness Measurement for Ferries, Ro-Ro and Fishing Vessels at Hirtshals",
+  "intro": "Hirtshals, on the Skagerrak coast of North Jutland, is a main ferry gateway between Denmark and Norway and one of the country's leading fishing harbours. Ro-pax ferries and freight ro-ro ships sail from here to southern and western Norway, the Faroe Islands and Iceland, while Danish and visiting trawlers land catches for the fish auction. Their schedules leave short but regular windows for gauging between sailings or trips. Atlantis sends technicians from India to each vessel, timed to a confirmed berth slot.",
+  "keywords": [
+    "hirtshals thickness gauging",
+    "utm hirtshals",
+    "ferry hull gauging",
+    "ro-pax car deck inspection",
+    "trawler thickness measurement",
+    "fishing vessel inspection denmark",
+    "fish hold gauging",
+    "skagerrak ship inspection",
+    "thickness measurement north jutland",
+    "ship inspection hirtshals"
+  ],
+  "highlights": [
+    {
+      "h": "Norway ferries on tight turnrounds",
+      "p": "Ro-pax ferries to Kristiansand, Larvik, Stavanger and Bergen turn round in hours, and some make more than one round trip a day. Gauging is fitted into overnight lay-bys, quieter gaps in the timetable or the weeks before a scheduled docking."
+    },
+    {
+      "h": "Trawlers between fishing trips",
+      "p": "Danish and visiting trawlers land at the Hirtshals auction and spend a day or two alongside. With holds washed out and the crew ashore, fish holds, trawl decks, gallows foundations and fuel tanks can be measured without costing the vessel a trip."
+    },
+    {
+      "h": "Freight links to the Faroes and Iceland",
+      "p": "Ro-pax and ro-ro services to Tórshavn and Seyðisfjörður cross open North Atlantic water in every season. Bow and stern doors, ramp hinges and forward shell plating on those ships work hard, and crack detection there pairs naturally with deck gauging."
+    }
+  ],
+  "port": {
+    "h": "Hirtshals on the Skagerrak: ferries, freight and fish",
+    "p": [
+      "Hirtshals lies on the exposed north-west coast of Vendsyssel, facing the Skagerrak, where North Sea swell meets the waters leading towards the Oslofjord and the Kattegat. The harbour is man-made, sheltered by long breakwaters rather than a natural inlet, and it was built in the last century to give North Jutland a deep-water port on the open coast. Its position explains its trade: the sea crossing to southern Norway is short from here, and a motorway runs right up to the ferry terminals, so lorries and cars arrive straight off the European road network. Westerly gales and steep seas off the entrance are a normal part of winter, and ships sometimes wait for conditions to ease before entering or sailing.",
+      "Ferry and freight traffic dominates the commercial port. Ro-pax ships run to Kristiansand, Larvik, Stavanger and Bergen, some on fast and frequent rotations and others on longer overnight passages, and several of the newer ferries on these routes burn LNG. Ro-pax and ro-ro services also connect Hirtshals with the Faroe Islands and Iceland, carrying passengers, cars, trailers and containers across some of the roughest water in European ferry service. Beside the ferry terminals, the fishing harbour receives Danish North Sea and Skagerrak trawlers, along with vessels from other fleets landing for the auction and the processing plants, while coasters bring in and take out bulk and general cargo in smaller volumes. The harbour has been extended several times to keep up with larger ferries and freight volumes, so berths of different generations sit side by side.",
+      "Ships at Hirtshals rarely stand idle for long, which shapes how inspection is organised. Ferries on daily Norwegian rotations may lie at their berths overnight or between sailings at quieter times of year, and the North Atlantic service runs on a slower cycle with longer stays at each end. Trawlers come in to land, refuel and take stores, then leave as soon as weather and quota allow. Winter storms on the Skagerrak can delay arrivals and close the window for outside work on deck, while summer brings the peak passenger season, when operators avoid taking a ferry off its route. Planned gauging on the ferries therefore tends to fall in the shoulder seasons or the winter refit period, and fishing work follows the owners' trip pattern."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations in Hirtshals harbour",
+    "p": [
+      "Most gauging at Hirtshals is done afloat at the ship's own berth. The ferry terminals have linkspans and stern-ramp berths where a ro-pax ship can lie overnight or during a gap in the timetable; with vehicle decks empty, the team can work along the lanes, examine door and ramp structure and enter tanks the crew has prepared. Freight ro-ro ships on the Faroes and Iceland service lie longer at each call, which suits a defined set of ballast tanks or a deck section. In the fishing harbour, trawlers lie at the landing quays, and the realistic window is the day between landing and sailing, with holds already washed and open.",
+      "Repair workshops in the harbour serve the fishing fleet and the ferries, but for a full docking ships generally go to larger yards. In North Jutland those are at Skagen, where fishing vessels are built and repaired, and at Frederikshavn; ferries on the Norwegian routes are also docked in Norway, Poland or elsewhere, depending on the owner's contract. Gauging at Hirtshals before a docking lets the owner send the yard a steel estimate and decide what can be renewed during the stay. Anchorage work off Hirtshals is seldom realistic because the open coast gives little shelter, so ships that must be measured afloat are measured alongside."
+    ],
+    "list": [
+      "Ferry berths with linkspans — car-deck lanes, bow and stern doors, ramp hinges and prepared tanks on ro-pax ships lying overnight or between sailings.",
+      "Ro-ro freight berths — ballast tank, tank-top and deck gauging on freight ships serving the Faroe Islands and Iceland during their longer calls.",
+      "Fishing harbour landing quays — fish-hold, trawl-deck and fuel-tank readings on trawlers between landing and sailing.",
+      "Quays used by the harbour's repair workshops — piping and structural checks during afloat repairs, where readings decide which sections to renew.",
+      "Docking yards at Skagen and Frederikshavn — slipway and dock gauging on fishing vessels and smaller ships sent there for repair."
+    ]
+  },
+  "context": {
+    "h": "North Sea fisheries, Norwegian trades and inspection rules",
+    "p": [
+      "Denmark carries out port state control under the Paris MoU through the Danish Maritime Authority, and the ro-pax ferries from Hirtshals also fall under the EU regime for inspecting passenger ro-ro ships and high-speed craft on regular services. Under that regime the ships are inspected at fixed intervals in service, and structural or door findings from those visits often lead to a request for readings. Emissions rules divide the routes: Norway and Iceland apply the EU ETS for shipping and FuelEU Maritime as EEA states, while the Faroe Islands are outside both the EU and the EEA, so a crossing to Tórshavn counts as a voyage to a third country.",
+      "Fishing vessels belong to a different regulatory world. They sit outside the Enhanced Survey Programme that governs tankers and bulk carriers, many Danish trawlers are not classed by an IACS society, and their inspection programme comes from the Danish Maritime Authority's rules for fishing vessels, the insurer and the owner's own maintenance plan. Insulated fish holds, refrigerated seawater tanks on pelagic ships, trawl winch foundations and the stern area where gear is hauled are the typical concerns. On the North Atlantic ferries, bow structure and forward shell plating take repeated slamming in winter, and owners want that area measured before it turns up as a finding."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Thickness gauging work typical of Hirtshals",
+    "p": "Hirtshals jobs divide between the ferry operators, who plan ahead around their timetables and dockings, and the fishing fleet, whose owners usually ask at shorter notice when a surveyor, insurer or their own engineer wants readings. Ferry scopes centre on vehicle decks, doors, ramps and tanks; fishing scopes on holds, decks and the stern. In both cases the work is fitted between sailings, so we agree a ranked list with the master before starting and report the most important results before the ship leaves. Where the ship will dock soon afterwards, the readings go straight into the yard specification. Repeat customers keep the same TM plan from call to call.",
+    "list": [
+      "A ro-pax ferry on a Norwegian route during an overnight lay-by: car-deck plating in the lorry lanes, with MPI at stern-ramp hinges and door locking gear.",
+      "A North Atlantic ro-pax ship during its longer call: forward shell and bow structure gauged after a winter of heavy weather.",
+      "A North Sea trawler between landings: fish-hold plating, refrigerated seawater tank structure and trawl gallows foundations measured, with crack checks at winch seats.",
+      "Pre-docking gauging of ballast tanks and voids on a freight ro-ro ship before it goes to a yard for its renewal survey.",
+      "Fuel and lubricating oil piping UT on a ferry during a short afloat repair by the harbour's workshops."
+    ]
+  },
+  "logistics": "Aalborg Airport is the nearest airport, with connections through Copenhagen and other European hubs, and Billund is an alternative; from either, the team continues by road to Hirtshals. Denmark is a Schengen state, so technicians travelling from India need Schengen visas, and we apply as soon as the ferry operator or trawler owner gives us a date. Ferry terminal access is controlled under ISPS and arranged through the operator or the ship's agent; access to the fishing harbour is agreed with the vessel owner.",
+  "vessels": [
+    "Ro-pax ferries",
+    "LNG-fuelled ferries",
+    "High-speed ferries",
+    "Ro-ro freight ships",
+    "North Sea trawlers",
+    "Pelagic fishing vessels",
+    "Coasters"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ferry be gauged between sailings at Hirtshals?",
+      "a": "A focused scope can. On a short turnround there is only time for deck plating, door and ramp details and perhaps a tank the crew opened at sea; an overnight lay-by or a quiet period in the timetable allows ballast tanks, voids and machinery-space piping as well. We plan the work in the order the operator prefers and stop cleanly when loading has to start."
+    },
+    {
+      "q": "What is checked on a trawler landing at Hirtshals?",
+      "a": "Usually the fish holds and their framing, the refrigerated seawater tanks on pelagic ships, fuel and ballast tanks, the trawl deck and the stern where gear is hauled. Crack detection by magnetic particle testing is often added at the gallows and winch seats, which are loaded every time the gear comes aboard. Readings are reported against original thicknesses, which suits owners working to national rules or an insurer's requirements."
+    },
+    {
+      "q": "Can ships be gauged at anchor off Hirtshals?",
+      "a": "Rarely. The harbour sits on an open coast with no sheltered roadstead, and the Skagerrak swell makes boarding by launch unreliable for much of the year. Ships needing readings at Hirtshals are measured alongside, and if a vessel cannot berth, the work is usually moved to Skagen, Frederikshavn or the ship's next port, where it can lie in calmer water."
+    },
+    {
+      "q": "Where do Hirtshals ships go for docking?",
+      "a": "Fishing vessels often go to yards at Skagen or Frederikshavn, close by in North Jutland, while the ferries and freight ships dock wherever the owner holds a contract, in Denmark, Norway, Poland or further afield. Readings from Hirtshals are referenced to frames and strakes, so the yard can plan steel work and the class surveyor can see the condition before arrival. The team can travel on to the yard if needed."
+    },
+    {
+      "q": "When is the best time of year to gauge a Hirtshals ferry?",
+      "a": "Outside the summer peak. Operators keep every ship in service during the holiday season, so planned gauging usually falls in spring, autumn or the winter period when ships rotate through maintenance and docking. Winter weather on the Skagerrak can stop work on open decks for a day or two, so we schedule internal spaces first and keep external readings for calmer conditions."
+    }
+  ],
+  "nearby": [
+    "frederikshavn",
+    "skagen",
+    "aalborg",
+    "kristiansand",
+    "larvik",
+    "torshavn"
+  ]
+}

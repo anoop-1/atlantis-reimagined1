@@ -1,0 +1,167 @@
+{
+  "slug": "dye-penetrant-inspection",
+  "navLabel": "Dye Penetrant Inspection (DPI)",
+  "title": "Dye Penetrant Inspection (DPI) on Ships | Propellers, Piping",
+  "description": "Dye penetrant inspection (DPI) on ships: bronze propellers, stainless and duplex cargo piping, aluminium structure and valves, to ISO 3452-1 and ISO 23277.",
+  "h1": "Dye penetrant inspection (DPI) for propellers, stainless cargo systems and aluminium",
+  "eyebrow": "Maritime inspection · Marine NDT",
+  "intro": "Dye penetrant inspection finds cracks that break the surface of almost any non-porous metal, which makes it the crack-detection method for the parts of a ship that magnetic particle inspection cannot touch: bronze propellers, stainless and duplex cargo tanks and piping, aluminium superstructures, valve bodies and seawater fittings. It is simple in principle and unforgiving in practice. Atlantis NDT carries out DPI on board and in repair yards, with teams mobilised from India, and controls every step from the first cleaning to the removal of residues afterwards.",
+  "highlights": [
+    {
+      "h": "For non-magnetic metals",
+      "p": "Bronze, nickel-aluminium bronze, austenitic and duplex stainless steel, copper-nickel and aluminium cannot be tested with a yoke. Penetrant works on all of them, and on steel where a yoke cannot be placed, provided the surface is clean and the crack is open to it."
+    },
+    {
+      "h": "Propellers by class severity zone",
+      "p": "Propeller blades are examined by severity zone as the class rules based on IACS UR W24 define them, with most attention given to the highest-stress zone near the root, before and after any repair a propeller specialist carries out on the blades."
+    },
+    {
+      "h": "Clean in, clean out",
+      "p": "Penetrant left in a stainless cargo tank or line can contaminate the next cargo or fail a wall-wash test. Low-halogen materials are used on stainless steel and nickel alloys, and residues are removed and recorded before the system goes back into service."
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-dpi-works",
+      "h": "How dye penetrant inspection works",
+      "p": [
+        "A coloured or fluorescent liquid is applied to a clean surface and left long enough to seep into any crack open to it by capillary action. The excess is then removed from the surface without washing the liquid out of the cracks, and a thin developer is applied. The developer draws the trapped penetrant back out and spreads it into an indication much wider than the crack itself: a red line on a white ground for colour-contrast penetrant, or a glowing line under UV-A light for fluorescent penetrant.",
+        "On board, the solvent-removable colour-contrast system in aerosol cans is the usual choice: it needs no water rinse, no power and no darkness. Fluorescent penetrants are more sensitive and earn their place on machined surfaces and fine fatigue cracks where the area can be darkened. Either way, the method finds only what reaches the surface and is open; a crack packed with corrosion products, paint or smeared metal will not take up penetrant, which is why preparation decides the result. The steps below are followed every time, in this order."
+      ],
+      "list": [
+        "Pre-cleaning to bare metal, then drying so no solvent or water is left in the cracks",
+        "Application of penetrant, and a dwell time set by the procedure for the material and temperature",
+        "Removal of excess penetrant with lint-free cloth lightly moistened with remover, never by flooding the surface",
+        "A thin, even coat of developer",
+        "Inspection under the specified light, and marking of every indication",
+        "Post-cleaning to remove penetrant and developer residues from the part"
+      ]
+    },
+    {
+      "id": "when-dpi",
+      "h": "When DPI is the right method on a ship",
+      "p": [
+        "Penetrant is chosen when the material is not ferromagnetic, when a yoke cannot be placed on the geometry, or when no power is available. The table lists the cases we meet most often on ships and in repair yards."
+      ],
+      "table": {
+        "head": ["Material", "Typical parts on board", "Why DPI"],
+        "rows": [
+          ["Nickel-aluminium bronze and manganese bronze", "Propeller blades and hubs, stern tube and rudder bushes, seawater valves and pump casings", "Non-magnetic; the class rules for cast copper alloy propellers call for penetrant testing"],
+          ["Austenitic stainless steel", "Cargo tanks and piping on chemical tankers, cargo piping on gas carriers, fresh-water and galley systems", "Non-magnetic; cracking at welds and heat-affected zones is surface-breaking"],
+          ["Duplex stainless steel", "Cargo tanks and piping on chemical tankers, scrubber towers and wash-water lines", "Magnetic, but its two-phase structure gives misleading magnetic particle results"],
+          ["Aluminium alloys", "Superstructures, high-speed craft hulls, gangways and accommodation ladders", "Non-magnetic; fatigue cracks at weld toes and the corners of openings"],
+          ["Copper-nickel", "Seawater cooling and fire-main piping, cooler and condenser parts", "Non-magnetic; cracks and pinholes at welds and fittings"],
+          ["Carbon steel", "Threads, small fittings and corners where a yoke will not fit", "Works where magnetic particle inspection cannot be applied"]
+        ]
+      }
+    },
+    {
+      "id": "propellers",
+      "h": "Propeller blades: severity zones, damage and repairs",
+      "p": [
+        "Most fixed-pitch propellers on merchant ships are cast in nickel-aluminium bronze or manganese bronze, and the class rules for cast copper alloy propellers, based on IACS UR W24, divide each blade into severity zones A, B and C. Zone A carries the highest operating stresses: on a conventional low-skew blade it lies on the pressure side, running out from the root fillet; on a highly skewed blade it extends further and includes a strip along the trailing edge on the suction side. Zones B and C follow as stresses fall away towards the tip and the edges.",
+        "The zones decide what is allowed. On a new propeller, penetrant testing of zone A is normally done in the class surveyor's presence, and any repaired area is tested whatever its zone. Repair welding in zone A is generally not permitted unless the society specially agrees, and then with stress-relief heat treatment; welding in zone B needs prior approval, and repairs in zone C are generally allowed. In service, cracks start at the root fillet, at old repairs and at edges damaged by debris or ice, and cavitation erosion roughens the surface in a way that has to be dressed before penetrant can be read.",
+        "Our part is the examination, not the repair. With the ship in dock, blades are cleaned of fouling and any coating in the areas to be tested, examined zone by zone, and every indication is marked and reported by blade, radius and position. When a propeller specialist straightens, grinds or welds a blade, we test before and after the work, so the surveyor sees evidence that the defect was removed and the repair is free of cracks."
+      ]
+    },
+    {
+      "id": "stainless-cargo-systems",
+      "h": "Stainless and duplex cargo tanks and piping on chemical tankers",
+      "p": [
+        "Chemical tankers carry cargo in austenitic or duplex stainless steel tanks and piping, and gas carriers use stainless steel for cargo lines. Cracks there start at welds and heat-affected zones, at pipe supports and branch connections where vibration works on them, and wherever chlorides and heat combine to cause stress corrosion cracking. Penetrant is the natural surface method for all of these.",
+        "The materials need care. Penetrants, removers and developers used on austenitic stainless steel, duplex and nickel alloys should have controlled, low halogen and sulphur content, so the test does not leave behind the contaminants that cause the cracking it is looking for. Post-cleaning is part of the job, not an afterthought: residue left inside a cargo tank or line can contaminate a sensitive cargo or show up in a wall-wash test. We record the consumables used, with batch details, so the ship's cargo officer can confirm compatibility, and leave tested areas clean before the system is closed up."
+      ]
+    },
+    {
+      "id": "aluminium",
+      "h": "Aluminium superstructures and high-speed craft",
+      "p": [
+        "Aluminium deckhouses, high-speed craft hulls and gangways crack at weld toes, at the corners of openings and where aluminium meets steel through transition joints. Aluminium is soft, and so is bronze, which raises a preparation problem: grinding or wire-brushing can smear metal across the mouth of a crack and close it, leaving a clean result over a real defect.",
+        "Preparation on soft metals therefore avoids heavy abrasion, uses brushes and abrasives of a suitable material, and where mechanical work cannot be avoided is followed by a cleaning or etching step that reopens the surface, as the procedure allows. The same caution applies to bronze propeller blades after dressing and to copper-nickel pipe after a joint has been ground."
+      ]
+    },
+    {
+      "id": "process-control",
+      "h": "Temperature, dwell time and process checks",
+      "p": [
+        "Penetrant testing is a chemical process, so it behaves differently in a cold hold in winter and on a sun-heated deck in summer. ISO 3452-1 sets the normal working range at 10 °C to 50 °C; outside it, the process has to be qualified for the actual temperature, with ISO 3452-5 covering higher temperatures and ISO 3452-6 lower ones. Cold surfaces slow penetration and call for longer dwell; hot surfaces dry the penetrant before it can work. Surface temperature is measured and recorded, not guessed.",
+        "Dwell time follows the procedure and the penetrant manufacturer's data for the material and temperature. The performance of the penetrant system is checked on a reference test block of the kind ISO 3452-3 describes, which carries real cracks of known size, at the start of work and whenever a new batch of consumables is opened. Viewing follows ISO 3059: adequate white light for colour-contrast penetrant, or UV-A light with the background darkened for fluorescent penetrant."
+      ]
+    },
+    {
+      "id": "welds-valves-acceptance",
+      "h": "Welds, valves and fittings, and how indications are judged",
+      "p": [
+        "Beyond propellers and cargo systems, DPI is used on stainless and duplex weld repairs, on bronze valve bodies and pump casings after damage or repair, on copper-nickel seawater piping, and on steel parts where a yoke cannot be placed, such as threads, small fittings and the inside of tight corners. It can also confirm that a crack excavation in a non-magnetic part is clean before welding begins.",
+        "Indications are classified by shape and size. A linear indication, markedly longer than it is wide, usually points to a crack, lack of fusion or a cold lap; a rounded indication points to porosity or a pit. Acceptance follows the specification: ISO 23277 acceptance levels for welds under ISO specifications, ASTM E165 or ASTM E1417 where the specification is American, and the class rules for propellers and hull repairs. Before judging, the technician wipes and re-develops any doubtful indication, because bleed-out from rough surfaces and crevices can mimic a defect."
+      ]
+    },
+    {
+      "id": "safety-cleaning",
+      "h": "Safety, ventilation and leaving the system clean",
+      "p": [
+        "Penetrant cleaners and aerosol propellants are flammable and give off vapour, so in tanks and enclosed spaces DPI runs under the ship's permit-to-work system, with ventilation maintained, the atmosphere monitored and no hot work nearby. On gas carriers and chemical tankers the cargo area has to be gas-free before the cans come out. After inspection, developer and penetrant are removed completely, used cloths and empty cans are bagged and handed to the ship or yard for disposal, and the surface is left ready for recoating or return to service."
+      ]
+    },
+    {
+      "id": "reporting",
+      "h": "What a DPI report records",
+      "p": [
+        "Each report gives the part and its location, the material, the procedure, the penetrant system and its sensitivity, consumable batch details, the surface temperature, the dwell and development times, the viewing conditions and the result of the reference block check. Indications are listed with position, length, type and acceptance status, shown on sketches and photographs. For propellers, positions are given by blade, radius and severity zone so the propeller maker and the class surveyor can find them without repeating the search."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 3452-1 – Penetrant testing: general principles",
+    "ISO 3452-3 – Penetrant testing: reference test blocks",
+    "ISO 23277 – Penetrant testing of welds: acceptance levels",
+    "ISO 3059 – Viewing conditions for penetrant and magnetic particle testing",
+    "ASTM E165 – Standard practice for liquid penetrant testing for general industry",
+    "ASTM E1417 – Standard practice for liquid penetrant testing",
+    "IACS UR W24 – Cast copper alloy propellers",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "DPI report per part with procedure, penetrant system, batch details and temperatures",
+    "Indication records with position, length, type and acceptance status",
+    "Propeller results by blade, radius and severity zone",
+    "Sketches and photographs of every relevant indication",
+    "Reference test block check results",
+    "Confirmation that penetrant and developer residues were removed"
+  ],
+  "industries": [
+    "Chemical tankers",
+    "Gas carriers",
+    "Container ships and bulk carriers in drydock",
+    "Ferries and high-speed craft",
+    "Offshore support vessels",
+    "Propeller repair specialists and ship-repair yards",
+    "Ship managers and owners' technical departments"
+  ],
+  "faqs": [
+    {
+      "q": "Can you test a propeller without removing it from the ship?",
+      "a": "Yes. With the ship in drydock and staging rigged around the propeller, the blades can be cleaned and examined in place, zone by zone, on both faces. Fouling and any propeller coating have to be removed in the areas being tested. Removing the propeller is only needed if the hub bore, the shaft taper or a major repair requires it, and that decision rests with the superintendent, the propeller specialist and the surveyor."
+    },
+    {
+      "q": "Why not use magnetic particle inspection on duplex stainless steel?",
+      "a": "Duplex stainless steel is magnetic, so a yoke will magnetise it, but its structure of ferrite and austenite grains makes the magnetic field uneven at a fine scale, and that can produce indications that are not defects. Dye penetrant inspection gives a clearer answer for surface cracks in duplex welds and tanks, with low-halogen materials and careful post-cleaning so the test leaves nothing behind."
+    },
+    {
+      "q": "Will penetrant contaminate our cargo tanks or lines?",
+      "a": "Not if the job is done properly. We use penetrant materials with controlled halogen and sulphur content on stainless steel, remove developer and penetrant completely after inspection, and give the ship a record of the consumables and their batch numbers. The chief officer can then check compatibility with the next cargo and the tank cleaning plan, and the tested areas are left clean for any wall-wash test."
+    },
+    {
+      "q": "Can DPI be carried out in cold weather?",
+      "a": "Yes, with care. ISO 3452-1 covers surfaces between 10 °C and 50 °C as the normal range. Below that, penetrants become sluggish and need longer dwell, and the process has to be qualified at the actual temperature using materials and a procedure suited to it. Warming the area, or waiting for the warmer part of the day, is often the simpler answer, and the surface temperature is recorded either way."
+    },
+    {
+      "q": "Does DPI show how deep a crack is?",
+      "a": "No. Penetrant shows where a crack breaks the surface and how long it is there, but not its depth or how it runs below. The amount of bleed-out gives a rough hint only. On a propeller or a stainless weld, depth is usually established by grinding out the crack and re-testing until the indication disappears; where depth must be known beforehand, eddy current or ultrasonic methods may help, depending on the part."
+    },
+    {
+      "q": "Who carries out DPI?",
+      "a": "Penetrant work is done by technicians certified in PT under the company's ASNT SNT-TC-1A written practice. Procedures come from our founder, the Responsible NDT Level III, whose ASNT NDT Level III certification spans PT, UT, RT, MT and VT, and who has more than eleven years of international NDT field experience. Our quality and environmental management systems are certified to ISO 9001 and ISO 14001."
+    }
+  ]
+}

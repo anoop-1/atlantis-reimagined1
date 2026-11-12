@@ -1,0 +1,112 @@
+{
+  "slug": "hammerfest",
+  "name": "Hammerfest",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Hull Gauging Hammerfest | LNG Carriers and Barents Sea Vessels",
+  "description": "Thickness measurement in Hammerfest for LNG carriers at Melkøya, supply vessels and fishing vessels: hull, ballast tank, deck and piping gauging.",
+  "h1": "Thickness Measurement at Hammerfest for LNG Carriers, Offshore Supply Ships and the Barents Sea Fleet",
+  "intro": "Hammerfest, on the island of Kvaløya in western Finnmark, is the onshore base for oil and gas in the Barents Sea. LNG carriers load at the Hammerfest LNG plant on Melkøya, supply vessels sail from the town's bases to the Goliat and Johan Castberg fields and to drilling rigs, and fishing vessels land at the harbour. Gauging fits between supply runs, inside terminal windows or during crew changes, and it is carried out by technicians who travel from India to the ship for each job.",
+  "keywords": [
+    "hammerfest thickness measurement",
+    "hammerfest hull gauging",
+    "lng carrier thickness gauging",
+    "melkøya lng carrier inspection",
+    "supply vessel gauging barents sea",
+    "offshore vessel utm finnmark",
+    "ship inspection hammerfest",
+    "ballast tank gauging lng carrier",
+    "arctic offshore vessel inspection",
+    "fishing vessel thickness measurement norway"
+  ],
+  "highlights": [
+    {
+      "h": "LNG carriers at Melkøya",
+      "p": "Carriers loading at the Hammerfest LNG plant work inside the terminal's strict gas-safety regime. With permits, ballast tanks, double-bottom spaces and deck structure clear of hazardous zones can be gauged, while the cargo containment system is left for the docking yard."
+    },
+    {
+      "h": "Supply runs into the Barents Sea",
+      "p": "Platform supply vessels serving Goliat, Johan Castberg and exploration rigs make long round trips in harsh water. Mud, brine and fuel tanks, cargo rails and deck plating take a beating, and crew-change stops in Hammerfest give time to measure them."
+    },
+    {
+      "h": "Winter work in western Finnmark",
+      "p": "Snow showers, polar lows and freezing spray make winter the hardest season here. Tank and machinery-space gauging carries on regardless, but deck and hatch readings are fitted around the weather and the short midday twilight of the polar night."
+    }
+  ],
+  "port": {
+    "h": "Hammerfest: Barents Sea energy and a fishing harbour",
+    "p": [
+      "Hammerfest lies on the western side of Kvaløya, facing the sounds that lead out to the open Barents Sea, and has been a trading and fishing port for centuries. Its modern role began with the Snøhvit gas field: gas is piped from the subsea field to Melkøya, a small island across the harbour, where Equinor's Hammerfest LNG plant liquefies it for export by sea. The oil fields that followed, Goliat and later Johan Castberg, both draw on Hammerfest for their supply logistics, and the town has become the northern hub for offshore activity on the Norwegian continental shelf. Exploration drilling in the Barents Sea is supported from the same bases. The plant and the bases have given the town a year-round industrial workforce and services that many Finnmark harbours lack.",
+      "Traffic falls into three groups. LNG carriers call at Melkøya to load cargoes for Europe and other markets. Offshore vessels, platform supply ships, standby and emergency response vessels, and ships supporting drilling rigs work from the supply bases in the town, of which Polarbase is the longest established. The third group is the fishing and coastal fleet: trawlers and coastal boats land at the harbour's fish plants, the coastal express calls daily in both directions, cargo ships bring supplies to Finnmark, and cruise ships visit in summer. Hammerfest is small, but on a busy day all three groups are in port at once. Supply vessels change crews at the bases between trips, and those changeovers set much of the quayside rhythm.",
+      "Weather sets the pace. Hammerfest is far north of the Arctic Circle, with weeks of polar night around midwinter and midnight sun in summer, and the Barents Sea brings sudden polar lows, heavy snow showers and freezing spray in the cold months. The harbour itself stays ice-free, but icing on decks, railings and ladders is a real hazard for anyone working on open deck in winter. Supply vessels regularly shelter or delay sailings in bad weather, and those delays, unwelcome to the logistics planners, are often the most useful gauging windows of the year. Open-deck work is easiest in summer, when the midnight sun allows round-the-clock shifts, while autumn storms can arrive early and spring light returns faster than the cold retreats."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships are gauged at Hammerfest",
+    "p": [
+      "The supply bases are where offshore vessels spend their time in port, loading deck cargo, drilling fluids, fuel and water between trips. Gauging on board is planned with the vessel operator around the loading programme: deck plating and cargo rails while cargo is lifted elsewhere on deck, engine-room piping at any time, and tanks once they have been emptied and cleaned. The bases handle drilling-fluid bulk and waste reception, which makes tank preparation possible within a normal port stay, especially when a crew change or a weather hold stretches it.",
+      "At Melkøya the LNG terminal sets the rules. Any work on a carrier at the jetty is agreed in advance with the terminal and the ship, uses equipment the terminal accepts, and is confined to spaces outside the cargo containment system: ballast tanks, voids, deck structure away from hazardous areas and the engine room. Hammerfest has no dry dock for large ships. Fishing vessels and workboats use slipway yards elsewhere in Finnmark and Troms, while offshore vessels and LNG carriers dock at larger yards further south or abroad, and readings taken in Hammerfest feed their steel estimates."
+    ],
+    "list": [
+      "Offshore supply bases — tank, deck, cargo-rail and piping gauging on PSVs and standby vessels between Barents Sea trips.",
+      "Melkøya LNG jetty — ballast tank, void and deck gauging on LNG carriers within terminal permits, cargo containment excluded.",
+      "Town harbour and fish plant quays — fish-hold and hull readings on trawlers and coastal fishing vessels after landing.",
+      "Coastal express and cargo quays — short machinery-space and deck checks during scheduled calls.",
+      "Berths used during weather holds — fuller tank programmes on offshore vessels kept in port by Barents Sea storms."
+    ]
+  },
+  "context": {
+    "h": "Petroleum regulation, gas terminals and Arctic conditions at Hammerfest",
+    "p": [
+      "Petroleum activity in the Barents Sea falls under Havtil, the Norwegian Ocean Industry Authority, and vessels serving the installations meet the field operators' own requirements on top of class and flag. Foreign ships, most LNG carriers among them, are subject to Paris MoU port state control by the Norwegian Maritime Authority, and ship traffic along the northern coast is watched from the vessel traffic service centre at Vardø. LNG carriers are also vetted by their charterers and screened by the terminal, so a ship with documented ballast tank and hull condition faces fewer surprises when inspectors and vetting officers come aboard.",
+      "The Arctic climate leaves its own marks on steel. Ice on decks and railings is cleared by hand, and the scraping and hammering involved chips coatings and starts corrosion at deck fittings, railing stanchions and hatch edges. Winterisation adds heat-traced pipes, covered walkways and enclosed deck areas, under which wastage can go unnoticed until someone measures it. Supply vessels that have moved north from North Sea work can therefore develop corrosion in places their owners are not used to checking, and a first set of readings after a winter in the Barents Sea is often revealing."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs at Hammerfest",
+    "p": "Most Hammerfest jobs are on offshore vessels and are fitted into a port stay of a day or two, with the operator arranging tank cleaning before the team boards. LNG carrier work is less frequent and always pre-agreed with the terminal. Fishing vessels give shorter, simpler scopes between trips. Winter jobs need extra time for weather, and the scope is ordered so that tanks and machinery spaces, unaffected by snow or darkness, carry the plan when deck work has to wait. Reports are issued before the vessel's next sailing where the operator needs them for a contract or a survey. Typical scopes include:",
+    "list": [
+      "A PSV kept in Hammerfest by a polar low: liquid-mud, brine and base-oil tanks gauged after cleaning, with deck plating and cargo rails.",
+      "An LNG carrier at Melkøya: ballast tank and double-bottom gauging within the terminal's permit window, ahead of a docking elsewhere.",
+      "A standby vessel between field rotations: waterline shell plating, rescue-zone deck structure and MPI at davit foundations.",
+      "A trawler at a fish plant quay: fish-hold and freezer-room bulkhead readings, with crack detection at gantry foundations.",
+      "Pre-purchase gauging of an older supply vessel being sold out of Barents Sea service."
+    ]
+  },
+  "logistics": "Hammerfest has a small regional airport with domestic connections, and Alta Airport, with direct flights from Oslo, is within driving distance; the team usually flies to one of the two and continues by road. The supply bases and the Melkøya terminal are ISPS facilities, and the LNG plant applies its own induction and equipment checks, so the operator or the ship's agent submits the team's details well before arrival. Norway is in the Schengen area, and the technicians travel from India on Schengen visas planned against the vessel's schedule.",
+  "vessels": [
+    "LNG carriers",
+    "Platform supply vessels",
+    "Standby and emergency response vessels",
+    "Anchor-handling and rig support vessels",
+    "Deep-sea trawlers",
+    "Coastal fishing vessels",
+    "Coastal express ships",
+    "Coastal cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge an LNG carrier at Melkøya?",
+      "a": "Only within the terminal's and the ship's gas-safety arrangements. In practice that means ballast tanks, double bottom, voids, deck structure clear of hazardous zones and the engine room, using equipment the terminal has accepted. The cargo containment system is never touched at the jetty, and everything is agreed through the agent and the terminal before the ship arrives."
+    },
+    {
+      "q": "What happens if Barents Sea weather keeps the team from working on deck?",
+      "a": "Alongside the bases, weather rarely stops work inside the ship; it is open-deck readings and boat transfers that suffer. We plan winter scopes with tanks and machinery spaces first, keep deck work flexible, and talk to the operator daily so that a weather hold becomes extra gauging time rather than lost time."
+    },
+    {
+      "q": "Is there a dry dock at Hammerfest?",
+      "a": "Not for large ships. Fishing vessels and small workboats are slipped at yards elsewhere in northern Norway, and offshore vessels and LNG carriers dock at yards further south or abroad. Readings taken in Hammerfest before a vessel leaves give the owner an early steel estimate for that docking. Planning that docking scope from Hammerfest saves time once the ship is at the yard."
+    },
+    {
+      "q": "Which tanks on a supply vessel should be gauged first?",
+      "a": "Usually the liquid-mud and brine tanks, because those cargoes attack coatings and then the steel behind them, followed by base-oil, fuel and ballast tanks. Many owners also ask for cargo-rail foundations and deck plating in the cargo area, which take impact damage from containers and baskets. The order is agreed with the operator in light of the vessel's survey history."
+    }
+  ],
+  "nearby": [
+    "tromso",
+    "kirkenes",
+    "narvik"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "red-deer",
+  "lat": 52.27,
+  "lng": -113.81,
+  "localContext": "Red Deer sits between Calgary and Edmonton, serving gas processing, oilfield service, pipeline maintenance and the Joffre petrochemical complex to the east. Pipelines inside Alberta answer to the Alberta Energy Regulator and run to CSA Z662, pressure equipment is administered by the Alberta Boilers Safety Association, and fabrication shops build to ASME and CSA codes. UT, PAUT, MT, PT and VT dominate turnaround and pipeline integrity work. Technicians often rotate to plants across the province.",
+  "certPathwayNote": "Many central Alberta operators expect CAN/CGSB-48.9712 through NRCan or CWB Group, which needs Recognized Training Organization courses; Atlantis is not one. Atlantis courses follow ASNT SNT-TC-1A, where the employer's written practice governs certification, for US-code fabrication, cross-border pipelines and customers who specify ASNT. Radiography needs CNSC exposure device operator certification.",
+  "salaryFrom": "calgary",
+  "siblings": [
+    "calgary",
+    "edmonton",
+    "grande-prairie",
+    "fort-mcmurray",
+    "saskatoon"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Red Deer | Level 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Red Deer employers and technicians: online theory, practical at your facility, UT, PAUT, RT, MT, PT, VT and Level III.",
+    "h1": "ASNT SNT-TC-1A NDT Training in Red Deer, AB: Level 1, 2 and 3 Courses"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "syros",
+  "name": "Syros",
+  "country": "Greece",
+  "region": "europe",
+  "title": "Ermoupoli, Syros Ship Thickness Measurement | UTM Gauging",
+  "description": "Ultrasonic thickness gauging at Syros (Ermoupoli) for ships repaired at the island shipyard: pre-docking readings, steel renewal estimates and tank UTM.",
+  "h1": "Syros and Ermoupoli: Hull Gauging for Ships Visiting the Island Shipyard",
+  "intro": "Syros is a Cycladic island with an unusual distinction: its main town, Ermoupoli, has a working shipyard, one of the few in the Aegean that handles commercial ships. Ferries, tankers, cargo vessels and workboats come for repair, and readings are taken before, during and after docking. We send a team from India to the ship, and plan the scope with the yard's repair programme.",
+  "keywords": [
+    "syros shipyard thickness measurement",
+    "ermoupoli ship repair gauging",
+    "ultrasonic thickness syros",
+    "ship utm cyclades",
+    "ferry hull gauging syros",
+    "syros dry dock inspection",
+    "ship repair syros greece",
+    "thickness measurement ermoupoli",
+    "steel renewal estimate syros"
+  ],
+  "highlights": [
+    {
+      "h": "Gauging around a yard programme",
+      "p": "At a repair yard, the order matters. We take readings early so the yard knows where plate and labour are needed, then re-measure renewed areas and any further areas opened during the work."
+    },
+    {
+      "h": "Ferries and island tonnage",
+      "p": "Cyclades ferries, coastal tankers, small cargo ships and workboats make up much of the yard's work. Their decks, ramps and ballast tanks respond well to focused readings before docking."
+    },
+    {
+      "h": "Cyclades hub with limited anchorage",
+      "p": "Syros is central among the Cyclades, but the harbour is small. We plan the job around the yard's schedule and the agent's arrangements for quay, launch and access, rather than relying on open anchorage."
+    }
+  ],
+  "port": {
+    "h": "Ermoupoli: the Cyclades' ship-repair island",
+    "p": [
+      "Syros lies in the central Cyclades, between Tinos and Paros, and its capital Ermoupoli is the administrative centre of the island group. In the nineteenth century the port was the most important in Greece, and the shipbuilding and repair tradition survived. Today the working waterfront has a passenger and cargo harbour with ferry calls, a yard on the shore of the bay at Neorion, and a long line of old neoclassical buildings facing the water. The harbour is run by the Syros Port Authority, and the Hellenic Coast Guard handles safety and port state control.",
+      "The yard is the reason a thickness measurement team might come to Syros rather than another Cycladic island. The ONEX Syros Shipyards (formerly Neorion) site handles repairs, conversions and newbuild work, with floating dock capacity and quayside repair berths for the ships it takes. The fleets that use it are mixed: island ferries and ro-pax ships, coastal product tankers, small cargo ships, workboats and some larger vessels. A ship arriving for repair usually has a defined list of work, and the owner wants hull condition known as early as possible.",
+      "The Cyclades are exposed to the strong northerly meltemi in summer, and the harbour at Ermoupoli is small and used by ferries around the clock. Ships waiting for a yard slot do not usually anchor in open water for long, so gauging tends to be done alongside or in the dock. In winter the yard has more space and less weather disruption, and many ferry owners schedule their annual refit for those months. Syros therefore sees a seasonal pattern, with the busiest gauging jobs concentrated between late autumn and spring."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging is done at Syros",
+    "p": [
+      "The most practical setting is the shipyard itself, either afloat at a repair berth or in a floating dock. Docked ships can have bottom shell, sea chests, rudder and propeller area gauged while the hull is dry, and tanks opened for the docking survey can be measured at the same time. Afloat repair is common for ferries, and gauging then concentrates on decks, vehicle decks, side shell and ballast tanks that are accessible. We coordinate the order of work with the yard so that gauging does not hold up other trades.",
+      "Outside the yard, the harbour quays at Ermoupoli handle ferries and cargo ships on short calls. Gauging alongside is possible within the port authority's rules, though stays are brief and tank entry needs advance preparation. The yard's current dock sizes and scheduling should be confirmed with the yard directly, since they change with its programme. For ships bound elsewhere, Syros can also serve as a checkpoint: readings taken on the way to Perama or another repair centre give the technical manager a measured basis for quotations."
+    ],
+    "list": [
+      "ONEX Syros Shipyards at Neorion — floating dock and repair berths, with bottom shell, sea chest and tank gauging during docking surveys",
+      "Yard repair quays — afloat gauging of decks, ramps, side shell and ballast tanks while other repairs proceed",
+      "Ermoupoli ferry and cargo quays — short-call readings on deck and vehicle deck plating, arranged through the agent",
+      "Pre-docking readings on ships entering the yard — scope agreed so steel estimates are ready on arrival",
+      "Post-repair verification — re-measurement of renewed plate and adjacent areas before the ship leaves"
+    ]
+  },
+  "context": {
+    "h": "Port state control and yard-driven regulation",
+    "p": [
+      "Greek port state control under the Paris MoU is the responsibility of the Hellenic Coast Guard, which also supervises passenger ship safety on the Cyclades routes. Ferries on domestic services are surveyed regularly, so a docking or refit at Syros often coincides with a class or flag survey. The Mediterranean sulphur emission control area, in force since 1 May 2025, applies in the Aegean. EU ETS and FuelEU Maritime affect voyages calling at Syros as at any other EU port.",
+      "Because Syros is a yard location, the regulatory context also includes the yard's own requirements. Contractors working on ships in dock follow the yard's safety rules, permit-to-work systems and access controls, and our team follows them as well. Where steel renewal is carried out under the supervision of class or flag, our readings may need to match the format the surveyor expects, so we agree the report layout with the superintendent in advance. Ships called to Greek yards are also expected to carry an up-to-date Inventory of Hazardous Materials."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Syros",
+    "p": "Syros jobs are closely tied to a yard slot. A superintendent books the dock or repair berth, we agree a scope and a sequence with the yard, and the readings are taken at the stages that matter most: before work starts, as areas are opened, and once renewed steel is in place.",
+    "list": [
+      "Pre-docking gauging of the vehicle deck, ramps and ballast tanks of a Cyclades ferry, producing a steel estimate ahead of the yard slot.",
+      "Bottom shell, sea chest and rudder area gauging on a coastal product tanker in the floating dock during its docking survey.",
+      "Deck, hatch cover and ballast tank gauging on a general cargo ship undergoing afloat repair at a yard quay.",
+      "Post-repair re-measurement of renewed side shell plate on a ro-pax ship before it returns to service.",
+      "Scrubber overboard piping inspection on a ferry in the dock, where the shell connection is accessible with the hull dry."
+    ]
+  },
+  "logistics": "Syros has a small airport with limited services, so the team usually flies to Athens and continues to the island by ferry from Piraeus or Rafina, or by a short domestic flight when schedules allow. Port and yard passes under ISPS are arranged by the ship's agent and the yard, using crew lists and technician certificates we send ahead. The Schengen rules apply in Greece, so each technician must hold a Schengen visa issued in India. Because ferry crossings and yard slots both fix dates early, confirm the job as soon as the docking is booked.",
+  "vessels": [
+    "Cyclades ferries and ro-pax ships",
+    "Coastal product tankers",
+    "Small general cargo ships",
+    "Workboats and service craft",
+    "Bulk carriers on short-sea trades",
+    "Passenger and excursion vessels",
+    "Ships in transit to Athens-area yards"
+  ],
+  "faqs": [
+    {
+      "q": "Should gauging be done before the ship arrives at the Syros yard?",
+      "a": "Whenever possible. Readings taken before docking let the yard scope and plan steel renewal accurately, and avoid surprises once tanks are opened. If that is not possible, we can take readings on arrival and report area by area as work proceeds, so the yard can respond while the ship is still in the dock."
+    },
+    {
+      "q": "Can you gauge a ship in the floating dock?",
+      "a": "Yes. With the hull dry we measure bottom shell, sea chests, rudder and propeller areas, and any tanks opened for the docking survey. We coordinate with the yard so that blasting, painting and other trades are not held up, and we agree where scaffolding or staging is needed in advance."
+    },
+    {
+      "q": "Can the yard's exact capabilities be confirmed through you?",
+      "a": "No. We are not agents for the yard, and dock dimensions and current scheduling should be confirmed with the yard or through your own agent. We work from the programme the yard gives you, and we adjust the scope when the slot, the dock or the repair list changes."
+    },
+    {
+      "q": "What if the ship is only at the Ermoupoli quay on a short call?",
+      "a": "Short calls allow focused readings on decks, vehicle decks and accessible plating, but not full tank programmes. We agree a priority list, and spaces need advance preparation if tanks are included. For ballast tanks and voids, a yard stay or lay-up is far more suitable."
+    },
+    {
+      "q": "How does the meltemi affect work at Syros?",
+      "a": "Strong northerlies can delay ferries, launch transfers and berthing for a day or two. Work in dock or at the yard quay is less affected. We leave slack in summer plans and rely on the agent and master to decide when conditions allow boarding."
+    }
+  ],
+  "nearby": ["piraeus", "lavrio", "heraklion", "chalkida", "rhodes"]
+}

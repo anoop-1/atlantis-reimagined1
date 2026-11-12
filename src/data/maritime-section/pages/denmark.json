@@ -1,0 +1,132 @@
+{
+  "slug": "denmark",
+  "navLabel": "Denmark",
+  "title": "Ship Thickness Measurement in Denmark | UTM at Danish Ports",
+  "description": "Ship ultrasonic thickness measurement in Denmark: UTM and hull gauging at Esbjerg, Fredericia, Aarhus, Copenhagen and Skagen for owners and ship managers.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Denmark",
+  "eyebrow": "Maritime inspection · Denmark",
+  "intro": "Denmark is a nation of straits and islands, and its ports reflect that: Esbjerg on the North Sea, Fredericia and Aarhus on the Little Belt and Kattegat, Copenhagen and Helsingør on the Øresund, Skagen at the northern tip, and Rønne on Bornholm. Danish owners and managers run tankers, container ships and ferries around the world, so gauging requests come both for ships calling here and for ships elsewhere. Atlantis NDT mobilises its team from India to the ship for each job, planning around the vessel's schedule, the berth and Schengen visas, and takes ultrasonic thickness readings that feed docking and survey decisions.",
+  "highlights": [
+    {
+      "h": "Danish managers, ships worldwide",
+      "p": "Danish shipping companies manage tankers, container ships and ferries trading far from home. A technical department in Copenhagen may ask for a ship to be gauged in Asia or the Mediterranean, and we plan the work around where the ship will be, not where the request came from."
+    },
+    {
+      "h": "Ferries gauged in short layovers",
+      "p": "Danish ferry routes run to tight timetables, so gauging on a ro-ro or passenger ferry means a short, well-planned layover. The readings are located on the structure plan so the owner can see wastage frame by frame and plan the work for the next yard period."
+    },
+    {
+      "h": "North Sea offshore support ships",
+      "p": "Esbjerg is the base for offshore energy and wind work, and the supply, service and installation vessels working from it are gauged alongside, with attention to deck, bulkhead and ballast tank structure in a hard operating environment."
+    }
+  ],
+  "sections": [
+    {
+      "id": "dk-ports",
+      "h": "Where ships are gauged in Denmark",
+      "p": [
+        "Denmark has no single dominant port, and the work spreads along the coast. Esbjerg, on the west coast, is the country's North Sea gateway and the centre for offshore oil, gas and wind support; supply vessels, installation ships and service craft call there in numbers, and ferry and cargo traffic runs alongside them. Fredericia, on the Little Belt, is a major oil product and bulk port with a rail connection, so product tankers and bulk carriers feature in the work, and the location suits ships passing between the Kattegat and the Baltic.",
+        "Aarhus is the main container and general cargo port on the east of Jutland and also takes ferries and cruise ships. Aalborg, on the Limfjord, handles bulk and general cargo. Frederikshavn and Hirtshals, at the northern end of Jutland, are ferry ports with links to Sweden and Norway, and Grenaa on the Kattegat coast also has a ferry link. Skagen is at the very tip of Jutland, a fishing and service harbour, and the anchorage off it is where many ships wait for orders, which makes it a place where ships are gauged at anchor or alongside during a wait.",
+        "Copenhagen is Denmark's capital port and a major cruise and ferry port, and its location on the Øresund makes it a natural stopping point for ships entering or leaving the Baltic. Helsingør, at the narrowest point of the Øresund, is a ferry port opposite Sweden. On the islands, Kalundborg on Zealand serves the industrial complex around it, Odense on Funen is reached by a channel through Odense Fjord, Rønne on Bornholm is the island's main port, and Aabenraa, near the German border, serves coasters and project cargo."
+      ]
+    },
+    {
+      "id": "dk-fleet",
+      "h": "The shipping companies and fleets that drive the work",
+      "p": [
+        "Denmark's weight in world shipping is large for a country of its size. A.P. Moller-Maersk is one of the world's biggest container carriers, Torm and others operate product tankers and bulk carriers, and DFDS runs one of Europe's major ferry and ro-ro networks. Each of those fleets has a technical department that plans dockings and surveys, and a technical superintendent in Copenhagen may be looking after ships in several oceans at once.",
+        "That pattern shapes the work. Gauging requests arrive tied to a docking window or a survey, often from a manager looking at a ship thousands of miles away, and the practical question is where the ship will be in the weeks before she goes to yard. Older tonnage, second-hand purchases and ships transferring between managers also generate pre-purchase and on-hire condition gauging, where a measured picture of the steel supports the negotiation."
+      ]
+    },
+    {
+      "id": "dk-regime",
+      "h": "Port state control, emission areas and Danish rules",
+      "p": [
+        "Danish port state control is carried out by the Danish Maritime Authority under the Paris MoU, and ships calling at Danish ports are inspected like any other Paris MoU state. Ferries and older cargo ships with visible corrosion are the likeliest to draw attention, so owners often gauge key structure ahead of calls and arrive with readings and a plan for any renewal.",
+        "The Danish straits sit where the North Sea and Baltic Sea emission control areas meet, around the Skagerrak and Kattegat, so fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted. Scrubber ships are therefore common, and wash-water and overboard piping are the part of the system that suffers most. As an EU member, Denmark applies the EU Ship Recycling Regulation, relevant for ships carrying an inventory of hazardous materials. Rules on discharging scrubber wash-water vary between states and ports, and the ship's agent confirms the position at each call."
+      ]
+    },
+    {
+      "id": "dk-practical",
+      "h": "Practical constraints: straits, weather and ferry timetables",
+      "p": [
+        "The Danish straits carry heavy traffic, and anchorages and berths close to them can be busy. Pilotage is compulsory on some routes, and weather in the North Sea and the straits can delay boarding at anchor or at exposed berths. Gauging at anchor depends on sea state and the master's agreement, so the plan includes a fallback berth or date where that is possible.",
+        "Danish winters are usually mild compared with the northern Baltic, though ice can form in shallow inlets and fjords in a hard winter and storms can affect west coast and strait operations. Ferries and ro-ro ships run to fixed timetables, so a gauging job on one typically means a short layover with the structure open and a plan agreed with the master in advance. Cruise calls at Copenhagen and Aarhus are seasonal, with the busy period in summer, and berth availability at those times needs checking early."
+      ]
+    },
+    {
+      "id": "dk-services",
+      "h": "Which services Denmark asks for most",
+      "p": [
+        "Pre-docking hull gauging is the first request, since it turns the class allowance into a measured steel estimate before a Danish or neighbouring yard slot. Renewal and intermediate survey support follows the thickness measurement plan for the ship. Product tanker and bulk carrier owners ask for tank gauging after gas-freeing, and scrubber piping checks are increasingly asked for on ships that have run exhaust gas cleaning for several years.",
+        "Ferry owners often ask for deck, car-deck and hull side checks tied to a short layover, while offshore support ship operators at Esbjerg ask for ballast tank and bulkhead gauging in a harsh service environment. Pre-purchase and on-hire gauging completes the list, particularly for second-hand tonnage coming through Copenhagen's brokerage and finance community."
+      ],
+      "list": [
+        "Pre-docking hull gauging before a yard slot",
+        "Renewal and intermediate survey thickness measurement support",
+        "Tank gauging on product tankers and bulk carriers after gas-freeing",
+        "Scrubber wash-water and overboard piping checks",
+        "Deck and hull side gauging on ferries during layovers"
+      ]
+    },
+    {
+      "id": "dk-planning",
+      "h": "Planning a gauging job in Denmark from India",
+      "p": [
+        "The team travels from India for each job, and Denmark is in the Schengen area, so Schengen visas are needed and lead time varies. We ask for the ship's schedule at the start, so the visa application can run alongside the planning, and we agree a gauging window that fits the vessel's itinerary and the berth. Larger terminals have security requirements, and the ship's agent arranges passes and any permits for working on board.",
+        "When you enquire, tell us the vessel type, age and class, the thickness measurement plan, the spaces to be gauged, and the berth or anchorage. We then confirm what is practical afloat and what must wait for the dock, and agree how the report is formatted for the owner, the surveyor or the buyer."
+      ],
+      "list": [
+        "Vessel type, age, class and the thickness measurement plan",
+        "Spaces to be gauged and gas-free status of tanks",
+        "Berth, anchorage or yard and the dates the ship will be there",
+        "Names for Schengen visa applications and port passes"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris MoU port state control",
+    "IACS UR Z10 series (hull surveys)",
+    "MARPOL Annex VI regulation 14 (sulphur limits)",
+    "EU Ship Recycling Regulation",
+    "ESP Code for tankers and bulk carriers"
+  ],
+  "deliverables": [
+    "Thickness measurement report with frame-by-frame readings",
+    "Steel renewal estimate before docking",
+    "Marked-up hull and tank sketches",
+    "Piping wall-thickness schedule",
+    "Corrosion summary for the owner or surveyor"
+  ],
+  "industries": [
+    "Container ships",
+    "Ferries and ro-ro ships",
+    "Product tankers",
+    "Bulk carriers",
+    "Offshore supply and installation vessels",
+    "Cruise ships",
+    "Coasters and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Which Danish ports suit gauging before a docking?",
+      "a": "Any berth where the ship will lie long enough works. Esbjerg suits offshore support ships, Fredericia suits product tankers and bulk carriers, Aarhus and Copenhagen suit container ships and ferries, and Skagen can serve ships waiting for orders. We choose the place that fits the ship's schedule."
+    },
+    {
+      "q": "Can a ship be gauged at anchor off Skagen?",
+      "a": "Sometimes. It depends on sea state, the master's agreement and safe access to the spaces being measured, so we plan a fallback berth or date. Where conditions allow, a wait at anchor is a useful window for gauging accessible structure and piping."
+    },
+    {
+      "q": "Which Danish authority inspects ships calling at its ports?",
+      "a": "The Danish Maritime Authority carries out port state control under the Paris MoU. Inspectors look hard at corrosion and structure on older ships and ferries, so owners often gauge key spaces beforehand and arrive with readings and a renewal plan."
+    },
+    {
+      "q": "Does Denmark lie inside an emission control area?",
+      "a": "The Danish straits are where the North Sea and Baltic Sea emission control areas meet, so fuel sulphur is capped at 0.10% unless a scrubber is fitted. Ships running scrubbers should have wash-water and overboard piping checked, since those lines wear faster than most."
+    },
+    {
+      "q": "How do you handle Danish entry requirements for a team from India?",
+      "a": "Denmark is in the Schengen area, so the team needs Schengen visas. We ask for the ship's schedule early and start the applications when the job is confirmed, planning around realistic lead times instead of promising a fixed mobilisation date."
+    }
+  ]
+}

@@ -62,7 +62,7 @@
     ]
   },
   "eca": "eca-med",
-  "psc": "Mediterranean MoU",
+  "psc": "Black Sea MoU and Mediterranean MoU",
   "jobs": {
     "h": "Typical thickness gauging jobs in Mersin",
     "p": "Mersin jobs are set by cargo calls and anchorage waits. Container ships offer short, scheduled windows for ballast tanks and scrubber piping; bulk carriers discharging grain or fertiliser give several days for hold and tank readings; and tankers at Ceyhan or the Mersin terminals give deck and ballast access under terminal rules. Most programmes feed a docking planned elsewhere, usually in the Marmara.",
@@ -101,5 +101,10 @@
       "a": "Cargo tanks are unavailable while the ship is loading, but deck plating, deck piping and ballast tanks certified safe can usually be gauged during the stay, subject to the terminal's permit rules and approval of any equipment used in hazardous areas. For a CAP or renewal programme, that work forms the first part of the gauging, completed later in dock."
     }
   ],
-  "nearby": ["limassol", "larnaca", "izmir", "port-said"]
+  "nearby": [
+    "limassol",
+    "larnaca",
+    "izmir",
+    "port-said"
+  ]
 }

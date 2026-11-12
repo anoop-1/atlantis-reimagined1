@@ -174,14 +174,14 @@ for (const [hub, prefix] of [['/consulting-usa','/consulting/ndt-consulting-'],[
 // route array. Omit unverifiable lastmod values rather than refresh dates on
 // every build. The legacy and index entry points both reference this same set.
 const seen = new Set();
-const categories = new Map(['core','blog','glossary','training','consulting-locations','digital-twins','methods','other'].map(c => [c, []]));
+const categories = new Map(['core','blog','glossary','training','consulting-locations','digital-twins','methods','maritime','other'].map(c => [c, []])); // 'maritime' 2026-11-10: /maritime section in its own sitemap
 for (const [path] of pages) {
   const $ = read(path);
   const canonical = $('link[rel="canonical"]').attr('href');
   if (/noindex/i.test($('meta[name="robots"]').attr('content') || '') || canonical !== site + (path === '/' ? '/' : path) || redirects.has(path) || path === '/404') continue;
   if (seen.has(canonical)) throw new Error(`Duplicate sitemap URL ${canonical}`);
   seen.add(canonical);
-  const cat = path.startsWith('/blog/') ? 'blog' : path.startsWith('/glossary/') ? 'glossary' : /training/.test(path) ? 'training' : /consulting/.test(path) ? 'consulting-locations' : /digital-twin/.test(path) ? 'digital-twins' : path.split('/').length > 2 ? 'other' : 'core';
+  const cat = (path === '/maritime' || path.startsWith('/maritime/')) ? 'maritime' : path.startsWith('/blog/') ? 'blog' : path.startsWith('/glossary/') ? 'glossary' : /training/.test(path) ? 'training' : /consulting/.test(path) ? 'consulting-locations' : /digital-twin/.test(path) ? 'digital-twins' : path.split('/').length > 2 ? 'other' : 'core';
   if (!categories.has(cat)) categories.set(cat, []); categories.get(cat).push(canonical);
 }
 // This release has 5,493 local / 5,465 production canonical URLs. Fail closed on an accidental

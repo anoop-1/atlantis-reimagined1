@@ -63,7 +63,7 @@
     ]
   },
   "eca": "eca-med",
-  "psc": "Mediterranean MoU",
+  "psc": "Black Sea MoU and Mediterranean MoU",
   "jobs": {
     "h": "Typical thickness gauging jobs in Izmir and Aliağa",
     "p": "Thickness gauging in Izmir is driven by Aliağa's industry more than by the city port. Tankers at the refinery jetties, bulk carriers discharging scrap and container ships in Nemrut Bay each bring a different scope, and owners deciding between another renewal survey and recycling bring a fourth. The common factor is that work is fitted into cargo calls and anchorage waits rather than yard stays.",
@@ -103,5 +103,10 @@
       "a": "Yes. On container ships and tankers calling at Nemrut Bay terminals we inspect wash-water supply and discharge piping, the overboard sections and the shell connections, where linings fail and pitting develops fastest. Readings and visual findings are reported with locations so the superintendent can plan repairs before a leak becomes a port state control item."
     }
   ],
-  "nearby": ["istanbul", "piraeus", "yalova", "mersin"]
+  "nearby": [
+    "istanbul",
+    "piraeus",
+    "yalova",
+    "mersin"
+  ]
 }

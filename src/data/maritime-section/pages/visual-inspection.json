@@ -1,0 +1,167 @@
+{
+  "slug": "visual-inspection",
+  "navLabel": "Visual Inspection (VT)",
+  "title": "Visual Inspection of Ships (VT) | Structure, Welds, Coatings",
+  "description": "Visual inspection (VT) of ship structure, welds and coatings for owners: pre-survey checks, repair verification, ISO 17637 weld VT and videoscope work.",
+  "h1": "Visual inspection (VT) of ship structure, welds and coatings",
+  "eyebrow": "Maritime inspection · Marine NDT",
+  "intro": "Visual inspection finds more defects on a ship than any other method, and every other NDT method depends on it. Done properly it is close-up, well lit, systematic and recorded: a crack at a bracket toe, grooving along a longitudinal or a buckled web is located by frame and photographed so someone can act on it. Atlantis NDT carries out visual inspection for owners, managers, buyers and charterers, with teams mobilised from India to the ship, and leaves the class close-up survey to the surveyor whose job it is.",
+  "highlights": [
+    {
+      "h": "Before the surveyor arrives",
+      "p": "A pre-survey visual inspection examines the spaces the surveyor will look at and lists what is likely to be found: cracks, deformation, wastage and failed coating. The owner can then decide on repairs before the survey instead of after it, with time to plan steel and staging."
+    },
+    {
+      "h": "Welds examined to ISO 17637",
+      "p": "Weld examination follows ISO 17637, with the lighting and viewing distance it specifies, and imperfections are judged against ISO 5817 quality levels or the repair standard in IACS Recommendation 47, whichever your specification names. Visual acceptance comes before any magnetic particle or ultrasonic test."
+    },
+    {
+      "h": "Findings you can find again",
+      "p": "Every observation carries a location by frame, longitudinal, strake or tank, a photograph with a scale reference and a short description, so the yard, the next superintendent or the class surveyor can return to the exact spot without searching the space again."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-vt-covers",
+      "h": "What visual inspection on a ship covers",
+      "p": [
+        "Visual inspection, VT in NDT shorthand, is the examination of a surface by eye, aided where necessary by lamps, mirrors, magnifiers, gauges and cameras. On a ship it covers three things: the structure, meaning plating, stiffeners, brackets and their connections; the welds, whether original, repaired or newly fitted; and the coatings that protect both. It needs less equipment than any other method and more discipline, because the result depends on the light, the cleanliness of the surface, the distance from it and the inspector's knowledge of where defects start.",
+        "Most cracks on ships are first seen, not first measured. A fatigue crack at a hatch corner shows as a line of rust bleeding through paint long before anyone puts a yoke on it; a buckled panel or a tripped longitudinal is visible from across a tank; grooving along a weld line is obvious once the scale is off. Good visual inspection decides where the other methods are needed and, just as usefully, where they are not."
+      ]
+    },
+    {
+      "id": "close-up-survey-and-owner-vt",
+      "h": "The class close-up survey and the owner's visual inspection",
+      "p": [
+        "The IACS hull survey requirements define a close-up survey as one where the details of structural components are within the close visual inspection range of the surveyor, normally within reach of hand, and set out which tanks, holds and members must be examined that way at each survey for each ship type. That examination belongs to the classification society's surveyor. No other inspection replaces it, and we do not offer one that claims to.",
+        "What an owner can do is look first. A pre-survey visual inspection by an NDT team examines the same structure before the surveyor arrives, at the same close range, and gives the superintendent a list of findings while there is still time to plan repairs, order steel and book staging. It turns the survey into confirmation rather than discovery. The same kind of inspection serves after repairs, to verify that the yard did what the specification asked, and in commercial settings: a buyer's pre-purchase inspection, a charterer's condition check, and on-hire and off-hire surveys where both sides need a dated, photographed record of condition."
+      ],
+      "list": [
+        "Pre-survey inspection ahead of intermediate and renewal surveys",
+        "Repair verification after steel renewal, crack repairs and insert plates",
+        "Pre-purchase inspection of structure and visible welds",
+        "On-hire and off-hire condition records for owners and charterers",
+        "Follow-up of substantial corrosion and suspect areas between class surveys"
+      ]
+    },
+    {
+      "id": "structure",
+      "h": "What we look for in tanks, holds and on deck",
+      "p": [
+        "Each space has its own typical defects, so the inspection is planned space by space rather than as a general walk-through. The table summarises where attention goes in the spaces we are most often asked to examine."
+      ],
+      "table": {
+        "head": ["Space", "What visual inspection concentrates on"],
+        "rows": [
+          ["Ballast tanks and double bottoms", "Coating breakdown at edges and welds, grooving along longitudinals, pitting on horizontal members, cracks at bracket toes and slots, anode condition"],
+          ["Cargo holds of bulk carriers", "Side frames and their lower brackets, grab and bulldozer damage on hopper and inner bottom plating, corrugated bulkhead and stool connections, hatch coaming brackets"],
+          ["Cargo tanks of tankers", "Pitting on bottom plating, corrosion under sediment, cracks at side longitudinal end connections and web frame brackets, heating coil supports"],
+          ["Hatch covers and coamings", "Corrosion and cracking of cover top plates and webs, cleats, compression bars, seal channels and drainage arrangements"],
+          ["Decks and deck fittings", "Wastage around coamings and pipe stools, cracks at hatch corners, crane pedestal and mooring fitting welds, cargo-handling damage"],
+          ["Fore and aft peaks, voids and cofferdams", "Corrosion in poorly ventilated spaces, cracking in panting structure and at stern frame connections, signs of water ingress"],
+          ["Engine room structure", "Tank top and foundation corrosion near the bilges, cracks at machinery seatings and pipe penetrations"]
+        ]
+      }
+    },
+    {
+      "id": "weld-vt",
+      "h": "Visual testing of welds to ISO 17637",
+      "p": [
+        "Weld examination has a standard of its own. ISO 17637 sets the conditions: at least 350 lx of light at the surface, with 500 lx recommended, and the eye within 600 mm of the weld at an angle of not less than 30°. Where direct access is impossible, remote inspection with mirrors, borescopes or cameras is to be considered. On a ship that light seldom exists by accident, so inspection lamps are part of the kit, and a dark tank is not inspected by headtorch alone.",
+        "Imperfections are named in the terms of ISO 6520-1, the classification of geometric imperfections in fusion welds: cracks, undercut, overlap, surface porosity, incomplete filling, excess reinforcement, misalignment, arc strikes and spatter. Fillet weld leg length and throat are checked with weld gauges. Acceptance depends on the specification. For new work the yard may cite ISO 5817 quality levels B, C or D; for repairs on ships in service the usual references are IACS Recommendation 47, the Shipbuilding and Repair Quality Standard, and the class rules. Visual acceptance is always the first gate: a weld with surface cracks or gross undercut fails before anyone spends time on magnetic particle or ultrasonic testing."
+      ]
+    },
+    {
+      "id": "coating-condition",
+      "h": "Recording coating condition in the terms class uses",
+      "p": [
+        "Class surveys grade the coating in ballast tanks as GOOD, FAIR or POOR, and the definitions in the IACS hull survey requirements are specific. GOOD means only minor spot rusting. FAIR means local breakdown at the edges of stiffeners and weld connections, or light rusting over 20% or more of the area under consideration, but less than POOR. POOR means general breakdown of the coating over 20% or more of the area, or hard scale on 10% or more of it.",
+        "Those grades carry consequences: on ships under the enhanced survey programme, a ballast tank found with POOR coating is examined at annual surveys from then on. We record coating condition space by space in the same terms, with photographs, so the owner can see which tanks are close to the line and plan touch-up before the survey. This is an observation in support of the structural inspection, not a coating inspection. We do not measure film thickness or adhesion, assess coating systems or hold coating-inspector qualifications."
+      ]
+    },
+    {
+      "id": "remote-visual",
+      "h": "Remote visual inspection with videoscopes and borescopes",
+      "p": [
+        "Some places are too small, too closed or too awkward for a person. Void spaces behind linings, the inside of a rudder through its drain plug hole, small-diameter pipe, the bore of a hollow pintle or a ventilation trunk can be examined with an articulating videoscope or a rigid borescope, which carries the light and the camera to the surface and records what it sees.",
+        "Remote visual inspection has limits worth stating. Condensation and fog in a closed space blur the image, judging size and depth from a camera image needs a reference in the field of view, and a videoscope shows the surface without measuring the steel behind it. It is a way to decide whether a space needs opening, entering or gauging, not a substitute for entering a tank that needs close-up examination. Where the surveyor must see a space in person, the videoscope record helps plan that visit and the access it will need."
+      ]
+    },
+    {
+      "id": "recording",
+      "h": "How findings are recorded and reported",
+      "p": [
+        "A finding that cannot be found again is of little use. Every observation is tied to the ship's own reference system: frame number and side, longitudinal or girder number, strake, tank or hold, and height above the tank top where it matters. Photographs carry a scale reference and a location label, and the most significant findings are marked on a sketch of the space or on the ship's structural drawings.",
+        "The report lists findings by space and severity, separates what was seen from what we recommend, and flags the locations that need another method: magnetic particle inspection where a crack is suspected in steel, dye penetrant inspection on non-magnetic parts, or ultrasonic thickness measurement where wastage looks close to the allowable limit. Areas not examined, because of access, cargo, water or a missing permit, are listed with the reason, so nobody mistakes a gap for a clean bill of health."
+      ]
+    },
+    {
+      "id": "access-and-safety",
+      "h": "Lighting, cleaning, access and enclosed-space entry",
+      "p": [
+        "Visual inspection is only as good as the surface it looks at. Mud and sediment in ballast tanks, scale on hold frames and cargo residue on tank bottoms hide defects, so spaces are cleaned and, where possible, dried before the inspection; that cleaning is the ship's or the yard's work. Upper parts of tanks and holds need staging, cherry pickers or permanent means of access, and the arrangements fitted to newer ships under SOLAS regulation II-1/3-6 reach much of the structure that once needed scaffolding.",
+        "Every tank and void is an enclosed space. Entry follows the ship's permit-to-work system: the space ventilated and its atmosphere tested, a standby person at the entrance, communications and rescue arrangements in place. In a shipyard the gas-free certificate is needed as well. Our inspectors carry personal gas monitors and their own inspection lighting, and stop work if the atmosphere or the access changes."
+      ]
+    },
+    {
+      "id": "limits",
+      "h": "What visual inspection cannot tell you",
+      "p": [
+        "Visual inspection sees the surface and nothing behind it. It cannot measure the steel left under a corroded face, find a flaw inside a weld, or reliably detect a tight fatigue crack hidden under intact paint. Where the question goes beyond what the eye can answer, the report says so and names the method that can. That is why visual inspection usually opens a job rather than closing it: it narrows the search, and the other methods confirm and measure."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 17637 – Visual testing of fusion-welded joints",
+    "ISO 5817 – Quality levels for imperfections in fusion-welded joints in steel",
+    "ISO 6520-1 – Classification of geometric imperfections in fusion welding",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "IACS UR Z7 and UR Z10 series – Hull surveys, close-up survey and coating condition definitions",
+    "SOLAS regulation II-1/3-6 – Means of access for inspections",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Visual inspection report by space, with findings ranked by severity",
+    "Photographs with scale reference and location for each finding",
+    "Sketches or marked-up drawings locating cracks, deformation and wastage",
+    "Coating condition by space in GOOD, FAIR and POOR terms",
+    "Weld visual inspection records against the named acceptance standard",
+    "Videoscope stills and recordings from remote visual inspection",
+    "Recommendations for MPI, DPI or thickness measurement where needed"
+  ],
+  "industries": [
+    "Bulk carriers",
+    "Oil and chemical tankers",
+    "Container ships",
+    "General cargo and multipurpose ships",
+    "Ship managers preparing class surveys",
+    "Buyers on pre-purchase inspections",
+    "Owners and charterers at on-hire and off-hire"
+  ],
+  "faqs": [
+    {
+      "q": "Can your visual inspection replace the class close-up survey?",
+      "a": "No. The close-up survey is carried out by the classification society's surveyor, and the society decides what it covers and whether the ship meets its rules. Our visual inspection is for the owner: it finds problems before the surveyor does, verifies repairs and records condition for commercial purposes. A good pre-survey inspection usually makes the class survey shorter and more predictable, but it does not stand in for it."
+    },
+    {
+      "q": "How close does a visual inspection need to be?",
+      "a": "For structure, close enough to see the detail clearly, which in practice means the same reach-of-hand distance the class close-up survey uses, with staging or other access where needed. For welds, ISO 17637 asks for the eye within 600 mm of the surface at an angle of at least 30°, with at least 350 lx of light. An inspection carried out from the tank bottom with a torch pointed upwards meets neither."
+    },
+    {
+      "q": "Do the tanks need to be cleaned before you inspect them?",
+      "a": "Yes. Sediment, mud, scale and cargo residue hide exactly the defects the inspection is looking for, especially pitting, grooving and cracks at the bottom of structure. Tanks should be cleaned, ventilated, certified safe for entry and, ideally, dry. If a space cannot be cleaned in time, we inspect what can be seen and record the uncleaned areas in the report as not examined."
+    },
+    {
+      "q": "Do you carry out coating inspections?",
+      "a": "We record the coating condition we see during a structural visual inspection, using the GOOD, FAIR and POOR grades class uses, with photographs and notes on breakdown at edges and welds and on anodes. We do not measure dry film thickness, test adhesion or assess coating systems, and we do not hold coating-inspector certification, so a formal coating inspection should be arranged separately."
+    },
+    {
+      "q": "Can you look inside spaces without entering them?",
+      "a": "Often, yes. An articulating videoscope or a borescope can be passed through a drain plug hole, a small opening or a pipe to examine voids, rudder interiors and similar spaces, and the recording shows what is there. It cannot measure thickness or replace entry where close-up examination is required, but it often tells you whether a space needs opening at all."
+    },
+    {
+      "q": "Who carries out the inspection?",
+      "a": "Inspectors qualified and certified in visual testing under the company's written practice to ASNT SNT-TC-1A, working to procedures set by our founder and Responsible NDT Level III. He holds ASNT NDT Level III in VT as well as UT, RT, MT and PT, with more than eleven years of international field experience. Atlantis NDT is certified to ISO 9001 and ISO 14001."
+    }
+  ]
+}

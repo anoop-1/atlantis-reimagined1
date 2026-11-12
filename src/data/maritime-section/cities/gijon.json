@@ -1,0 +1,113 @@
+{
+  "slug": "gijon",
+  "name": "Gijón",
+  "country": "Spain",
+  "region": "europe",
+  "title": "Gijón El Musel UTM | Bulk Carrier Thickness Gauging",
+  "description": "Ultrasonic thickness gauging at Gijón and El Musel for bulk, coal and ore carriers and gas carriers: holds, tank tops, ballast tanks and pre-docking readings.",
+  "h1": "Hull and Hold Thickness Gauging at the Port of Gijón (El Musel)",
+  "intro": "Gijón's commercial port is El Musel, a deep-water outer harbour cut into the Asturian coast and built around solid bulk: coal, iron ore and other raw materials for the region's industry. Big bulk carriers call here, and they leave behind holds worn by grabs and heavy cargoes. Technicians travel from India to the ship for gauging, usually timed to the discharge programme, with readings feeding a survey or a docking elsewhere on the coast.",
+  "keywords": [
+    "gijón ship thickness gauging",
+    "el musel ultrasonic thickness measurement",
+    "capesize hold gauging spain",
+    "bulk carrier utm gijón",
+    "ship thickness measurement asturias",
+    "ballast tank gauging bulk carrier",
+    "tank top thickness measurement",
+    "esp survey gauging spain",
+    "gijón hull inspection",
+    "ore carrier thickness readings"
+  ],
+  "highlights": [
+    {
+      "h": "Deep-water berths for big bulkers",
+      "p": "El Musel takes some of the largest bulk carriers on Spain's north coast. Large ships mean big holds and long programmes, so we plan gauging hold by hold against the discharge sequence."
+    },
+    {
+      "h": "Coal and ore wear patterns",
+      "p": "Grab damage, abrasion and cargo residue concentrate wear on tank tops, hopper plates and lower frames. Gridded readings show where wastage is general and where it is local."
+    },
+    {
+      "h": "Gas and energy calls too",
+      "p": "The port also has a regasification terminal and handles liquid bulk, so tankers and gas carriers occasionally call. Work on those ships is limited to what the terminal rules and the ship's permit allow."
+    }
+  ],
+  "port": {
+    "h": "El Musel: a purpose-built outer port for raw materials",
+    "p": [
+      "The Autoridad Portuaria de Gijón runs two harbours. The old local port next to the city serves leisure craft and fishing boats, while El Musel, to the west of the town, is the commercial harbour. It was extended into deeper water by large breakwaters and has long straight quays suited to the largest bulk ships trading to the Cantabrian coast. The harbour is exposed to the same north-westerly swells as the rest of this shore, but the outer breakwaters give ships a sheltered working basin once inside.",
+      "The cargo list is dominated by solid bulk. Coal for power and industry, iron ore for the steelworks along this coast, other minerals and scrap move through dedicated terminals with grab cranes and conveyors, and the port also handles steel products, project cargo and some vehicles. A regasification plant built at El Musel gives the port a gas-carrier connection, although its use has varied with the market. Ro-ro and general cargo traffic exist but are small beside the bulk trades, and local fishing and pilot craft use the old harbour.",
+      "That mix brings steady inspection demand for large bulk carriers. Capesize and panamax ships often arrive from ore or coal loading ports with holds that have seen thousands of grab cycles. Under the enhanced survey programme, bulk carriers must have thickness measurement of hold frames, bulkheads and tank boundaries at set points in their life, and the surveyor needs the readings in a usable form. A discharge at El Musel gives a ship a clean opportunity to gauge holds that would otherwise be accessible only in a shipyard, as long as the programme is planned with the stevedores."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging places at El Musel and the wider Gijón area",
+    "p": [
+      "Alongside work happens at the bulk berths of El Musel. Each hold is opened for gauging once the cargo has been discharged and the ship has issued an entry permit, and technicians then move between frames, bulkheads and tank tops on staging or portable platforms arranged by the ship. Large ships have deep holds, so the practical limit is often access height; we agree beforehand which levels can be reached and how the remaining areas will be covered in a later dock. Ballast tanks, including topside and hopper tanks, are measured when emptied and ventilated.",
+      "For drydocking, Gijón itself has shipyards and ship-repair companies on its western side near the port, serving fishing boats, offshore vessels, tugs and coasters, and an owner can send a larger ship to another yard on the northern coast or Galicia. The practical sequence is to gauge at El Musel, build the steel estimate, and have technicians return for post-blast readings if the owner wishes. Anchorage gauging in the open roads outside the breakwaters is possible in calm weather but is uncommon on this exposed coast."
+    ],
+    "list": [
+      "Solid-bulk quays at El Musel: hold frame, bulkhead and tank top gauging on capesize, panamax and supramax carriers after discharge",
+      "Liquid-bulk and energy berths: deck, ballast tank and piping gauging on tankers, subject to the terminal's permit-to-work rules",
+      "Regasification terminal berth: hull, ballast and deck readings on gas carriers during their call",
+      "General cargo and project quays: steel product ships, heavy-lift vessels and ro-ro carriers between cargo operations",
+      "Repair yards and slipways in the Gijón area: smaller ships, offshore support vessels and workboats under repair",
+      "Roads outside the breakwaters: limited pre-arrival gauging by launch in settled weather"
+    ]
+  },
+  "context": {
+    "h": "Spanish inspection practice and bulk-trade pressures",
+    "p": [
+      "The Capitanía Marítima in Gijón carries out port state control for the Paris MoU under the Dirección General de la Marina Mercante. Bulk carriers are one of the categories inspectors scrutinise, because hold frame failures have a long history in the sector, and ships bringing coal or ore to Asturias often appear on routes that include ports with a high share of ageing tonnage. A set of structural readings gathered before a ship loads again helps the master answer questions about holds, hatch covers and coamings with figures rather than with the last survey's summary.",
+      "Environmental and financial rules add another reason to gauge. Ships calling at EU ports need an Inventory of Hazardous Materials under the Ship Recycling Regulation, and owners of older carriers often review structure at the same time as the IHM when deciding whether to sell, scrap or refit. EU ETS and FuelEU Maritime also raise the stakes for ships that burn a lot of fuel on long ore routes, and engineers deciding on retrofits want to know that the steel around any modification is sound before design work begins."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "What gauging at Gijón usually involves",
+    "p": "Most enquiries come from superintendents of large bulk carriers whose survey is approaching, and from owners buying or selling second-hand tonnage on the Atlantic ore and coal trades. The aim is a measurement plan that fits the discharge pattern. Technicians travel from India with portable gauges and magnetic particle equipment, and the team size follows the number of holds. Typical jobs include:",
+    "list": [
+      "Frame, bulkhead and hopper tank gauging in all holds of a capesize carrier after coal discharge, prepared for a special survey on the enhanced programme.",
+      "Tank top plating gauged on a grid in two holds of a panamax ore carrier where grab damage is known, with readings compared to the earlier survey report.",
+      "Hatch cover and coaming gauging with magnetic particle testing at coaming corners on a supramax discharging at the bulk quays.",
+      "Ballast tank and double-bottom readings on a bulker lying in El Musel, producing a steel estimate for a docking at a yard on the northern coast.",
+      "Pre-purchase gauging of holds, tank tops and main deck on a ten-year-old bulk carrier, completed during discharge for a buyer's superintendent."
+    ]
+  },
+  "logistics": "Technicians fly from India through a European hub to Asturias Airport, which serves both Gijón and Avilés, and continue by road to El Musel; Bilbao and Santander airports are fallback routes. The ship's agent arranges ISPS access and books launches where needed. Because Spain is in the Schengen area, travel is scheduled once visas are issued, and for large ships with firm discharge plans the visa application is timed to the confirmed berthing window.",
+  "vessels": [
+    "Capesize and panamax bulk carriers",
+    "Supramax and handymax bulk carriers",
+    "Coal and ore carriers",
+    "Gas carriers",
+    "Product and chemical tankers",
+    "Steel product and general cargo ships",
+    "Heavy-lift and project cargo ships",
+    "Offshore support vessels"
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take to gauge the holds of a capesize carrier at El Musel?",
+      "a": "It depends on the number of holds, their depth and how quickly each is cleared after discharge. A typical enhanced-survey programme runs through the whole discharge period with a team sized to cover several holds in parallel. We agree the order of holds beforehand and tell you realistically which areas can be reached from the tank top and which need staging."
+    },
+    {
+      "q": "Can you gauge a ship at anchor outside El Musel before it berths?",
+      "a": "Sometimes, in settled weather and with a suitable launch, mainly for ballast tanks and deck structure. The coast is exposed, so sea state often rules it out, and hold structure is difficult to read while cargo is aboard. Alongside gauging during discharge is the more reliable arrangement and gives access to the spaces the survey cares about."
+    },
+    {
+      "q": "What happens after the readings if steel renewal is needed?",
+      "a": "The report shows where plates are below the allowable diminution or approaching it, and an owner uses it to build a steel estimate. The renewal itself is done in a shipyard, usually elsewhere on the northern or Galician coast. We can return to the yard for post-blast readings so that the surveyor sees thickness on the areas left in place."
+    },
+    {
+      "q": "Do you gauge gas carriers at the regasification terminal?",
+      "a": "On request, within the terminal's own boarding and permit rules. Work is limited to hull plating, ballast tanks, deck structure and piping outside the cargo containment, and readings are taken when conditions allow. Cargo containment is a separate specialist subject and not something ultrasonic gauging addresses."
+    },
+    {
+      "q": "Is gauging in Gijón useful for a pre-purchase inspection?",
+      "a": "Yes. Buyers of second-hand bulk carriers often want hold and tank readings before a sale is completed, and a discharge at El Musel provides empty holds. We measure to a plan agreed with the buyer's superintendent and report the results so that the structure can be weighed in the deal on facts rather than assumptions."
+    }
+  ],
+  "nearby": ["aviles", "santander", "bilbao", "ferrol", "a-coruna"]
+}

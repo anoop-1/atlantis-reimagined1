@@ -1,0 +1,133 @@
+{
+  "slug": "norway",
+  "navLabel": "Norway",
+  "title": "Ship Thickness Measurement in Norway | UTM at Norwegian Ports",
+  "description": "Ship ultrasonic thickness measurement in Norway: UTM and hull gauging at Stavanger, Bergen, Mongstad, Ålesund and Oslo for tankers, offshore and coastal ships.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Norway",
+  "eyebrow": "Maritime inspection · Norway",
+  "intro": "Norway has one of the longest coastlines in Europe and a maritime economy built on oil and gas, offshore support, fishing, aquaculture and coastal transport. Ships are gauged at Stavanger and Haugesund in the south-west, at Bergen and the Mongstad and Kårstø terminals, at the yards of Møre og Romsdal, at Oslo, and as far north as Hammerfest and Kirkenes. Atlantis NDT mobilises its team from India to the ship for each job, planned around the vessel's berth, weather and Schengen visas, and takes ultrasonic thickness readings for dockings, surveys and condition assessments.",
+  "highlights": [
+    {
+      "h": "Tankers and gas carriers at the terminals",
+      "p": "Mongstad and Kårstø handle crude, product and gas cargoes, and Hammerfest serves LNG. Tankers and gas carriers calling there are gauged at the berth after tank work is complete, with readings recorded against the thickness measurement plan."
+    },
+    {
+      "h": "Offshore support ships after hard service",
+      "p": "Platform supply and offshore vessels work in the North Sea and Norwegian Sea in heavy weather. Gauging deck, bulkhead and ballast tank structure between yard periods shows how much wastage and fatigue has built up under that service."
+    },
+    {
+      "h": "A long coast to plan around",
+      "p": "Distances in Norway are large and weather can close a berth. We plan gauging for the port where the ship will be alongside, check the route and travel time from the nearest airport, and agree a fallback date rather than assume the first plan will hold."
+    }
+  ],
+  "sections": [
+    {
+      "id": "no-coast",
+      "h": "Where ships are gauged along the Norwegian coast",
+      "p": [
+        "Norwegian maritime work divides naturally into regions. In the south-west, Stavanger and its neighbour Sandnes form the centre of the offshore oil and gas industry, with supply bases and service harbours, and Haugesund and Egersund support offshore and fishing fleets. Kristiansand and Porsgrunn, on the Skagerrak coast, handle cargo and industry traffic, and Porsgrunn serves the Grenland industrial area, while Larvik and Fredrikstad are smaller ports with ferry and general cargo links. Oslo, at the head of its fjord, is a passenger, cruise and cargo port.",
+        "The west coast around Bergen is the heart of the shipbuilding and offshore sector. Bergen itself has repair capacity and a busy cruise and coastal passenger trade; Mongstad, to the north, is one of the main crude oil terminals and Kårstø, further south, a major gas processing and export terminal. Stord is known for its heavy-lift offshore construction yard, and Florø is a supply base. Further north, Ålesund and Ulsteinvik are centres of the offshore vessel design and building cluster, and Kristiansund is a supply base for offshore fields.",
+        "Beyond Trondheim the coast stretches into the Arctic. Trondheim, Mo i Rana, Sandnessjøen and Bodø serve industry, fishing and coastal traffic; Narvik is the outlet for iron ore brought by rail from across the Swedish border; Tromsø is a base for Arctic cruise, fishing and research ships; Hammerfest is associated with the LNG plant on Melkøya; and Kirkenes lies in the far north-east of the country. Each is far from the others, so a gauging job in the north means travel planning as much as technical planning."
+      ]
+    },
+    {
+      "id": "no-fleet",
+      "h": "The fleets and industries behind the work",
+      "p": [
+        "Norwegian owners are major operators of tankers, gas carriers, offshore support vessels, and specialised tonnage such as chemical tankers and car carriers, and many of those ships trade worldwide. As with Denmark and Greece, requests often come from technical departments in Oslo or Bergen for ships far from Norway, and the question is where the ship will be before docking.",
+        "Closer to home, the traffic that drives gauging includes the supply and offshore fleet serving the Norwegian continental shelf, the coastal passenger and freight ships serving the long coastline, the fishing and aquaculture fleet including well boats and feed carriers, and tankers and gas carriers loading at the major terminals. Many of these ships operate in harsh conditions, which makes periodic condition gauging a sensible use of time between class surveys."
+      ]
+    },
+    {
+      "id": "no-regime",
+      "h": "Port state control, emission rules and Norwegian practice",
+      "p": [
+        "Norway is a Paris MoU member and port state control is carried out by the Norwegian Maritime Authority. Norway is not in the European Union but is in the European Economic Area and the Schengen area. Older ships with visible wastage are as likely to draw attention here as in any Paris MoU port, and owners trading into Norway often gauge before arrival and keep readings on board.",
+        "The southern Norwegian coast lies within the North Sea sulphur emission control area, which caps marine fuel sulphur at 0.10% unless an exhaust gas cleaning system is fitted; waters further north fall outside that area, so a ship's fuel and scrubber use can change along the coast. Norway also applies tight rules to emissions and discharges in its world heritage fjords, and scrubber wash-water rules can differ by area. The ship's agent confirms the current position for each call, and ships running scrubbers benefit from checking wash-water and overboard piping."
+      ]
+    },
+    {
+      "id": "no-practical",
+      "h": "Weather, daylight and distance",
+      "p": [
+        "The Norwegian coast is mostly ice-free thanks to the warm current, but weather is a real constraint: autumn and winter storms can delay boarding at exposed berths and anchorages, and sea state governs whether gauging at anchor is possible. North of the Arctic Circle the winter brings long darkness, which affects working conditions on deck and on exposed structure, and the summer brings the midnight sun and the busy cruise and fishing seasons.",
+        "Distances are large and flights or road transfers add time, so we check the route from the nearest airport to the berth early. Terminals such as Mongstad and Kårstø have strict access and permit rules, and tanks must be cleaned and certified gas-free before entry. Gauging on offshore ships is planned around the vessel's time in port between assignments, which can be short."
+      ]
+    },
+    {
+      "id": "no-services",
+      "h": "Which services Norway asks for most",
+      "p": [
+        "Pre-docking hull gauging is the first request, setting the steel list before a Norwegian or neighbouring yard period. Offshore vessel owners ask for ballast tank, deck and bulkhead gauging between charters, and tanker and gas carrier owners ask for tank structure and piping checks tied to their survey cycle. Scrubber piping inspection is common on ships using exhaust gas cleaning in the southern North Sea area.",
+        "Coastal passenger ships and fishing vessels generate condition gauging requests ahead of yard periods, and pre-purchase gauging supports the busy second-hand market in offshore and specialised tonnage. In each case readings are located against frame and strake references and reported as as-built thickness, measured thickness and diminution."
+      ],
+      "list": [
+        "Pre-docking hull gauging to set the steel list",
+        "Ballast tank, deck and bulkhead gauging on offshore support ships",
+        "Tank and piping gauging on tankers and gas carriers",
+        "Scrubber wash-water and overboard piping wall checks",
+        "Pre-purchase condition gauging on second-hand tonnage"
+      ]
+    },
+    {
+      "id": "no-planning",
+      "h": "Planning a gauging job in Norway from India",
+      "p": [
+        "The team travels from India for each job. Norway is in the Schengen area, so the team needs Schengen visas, and lead time varies. We ask for the ship's schedule early so visa applications can run alongside planning, and we agree a window that fits the vessel's itinerary and allows for weather at the berth.",
+        "Tell us the vessel type, age and class, the thickness measurement plan, the spaces to be gauged, the berth or yard, and the dates. We confirm what is practical afloat and what must wait for the dock, and agree how the report is formatted for the owner, the surveyor or the buyer. The ship's agent arranges terminal access and any permits."
+      ],
+      "list": [
+        "Vessel type, age, class and the thickness measurement plan",
+        "Spaces to be gauged and gas-free status of tanks",
+        "Berth, anchorage or yard and expected dates",
+        "Names for Schengen visa applications and terminal passes"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris MoU port state control",
+    "IACS UR Z10 series (hull surveys)",
+    "MARPOL Annex VI regulation 14 (sulphur limits)",
+    "Norwegian Maritime Authority regulations",
+    "ESP Code for tankers and bulk carriers"
+  ],
+  "deliverables": [
+    "Thickness measurement report with frame-by-frame readings",
+    "Steel renewal estimate before docking",
+    "Marked-up tank and hull sketches",
+    "Piping wall-thickness schedule",
+    "Corrosion summary for the owner or surveyor"
+  ],
+  "industries": [
+    "Crude and product tankers",
+    "Gas carriers",
+    "Platform supply and offshore support vessels",
+    "Coastal passenger ships",
+    "Fishing and well boats",
+    "Chemical tankers",
+    "Cruise ships",
+    "Car carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Which Norwegian ports are used most for ship gauging?",
+      "a": "Work follows the ships: Stavanger and Haugesund for offshore support, Bergen and Mongstad for tankers and coastal ships, Kårstø for gas carriers, Ålesund and Ulsteinvik for offshore vessels, and Oslo for passenger and cargo ships. We choose the berth where the ship will actually be alongside."
+    },
+    {
+      "q": "Is Norway inside an emission control area?",
+      "a": "The southern coast lies within the North Sea sulphur emission control area, capping fuel sulphur at 0.10% unless a scrubber is fitted, while waters further north are outside it. Ships using scrubbers should have wash-water and overboard piping checked, since rules on discharge also differ by area."
+    },
+    {
+      "q": "Who carries out port state control in Norway?",
+      "a": "The Norwegian Maritime Authority carries out port state control under the Paris MoU. Norway is in the EEA and the Schengen area but not the European Union. Owners with older ships often gauge key spaces beforehand and keep readings on board for inspectors."
+    },
+    {
+      "q": "Can gauging be affected by Norwegian weather?",
+      "a": "Yes. Storms can delay boarding at exposed berths and anchorages, and sea state decides whether gauging at anchor is possible. We plan a fallback berth or date, and in the north we allow for winter darkness and long transfers to the berth."
+    },
+    {
+      "q": "How does the team from India handle Norwegian entry requirements?",
+      "a": "Norway is in the Schengen area, so team members need Schengen visas. We ask for the ship's schedule early, apply once the job is confirmed, and plan the gauging window around realistic lead times instead of promising a fixed mobilisation date."
+    }
+  ]
+}

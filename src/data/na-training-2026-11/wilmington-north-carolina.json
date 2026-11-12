@@ -1,0 +1,15 @@
+{
+  "slug": "wilmington-north-carolina",
+  "lat": 34.23,
+  "lng": -77.94,
+  "localContext": "Wilmington sits on the Cape Fear River with a state-run deepwater port, and the surrounding counties carry a nuclear fuel fabrication plant at Castle Hayne, the Brunswick nuclear plant near Southport, chemical and industrial sites along the river, and a steady flow of bridge, terminal and marine structural work. Nuclear quality assurance, ASME Section XI, AWS D1.1 and D1.5, API 653 for terminals and marine classification rules all appear on local purchase orders. For training, that means employers want records they can defend to an auditor, and technicians who can move between weld, plate and in-service work.",
+  "certPathwayNote": "Most employers around Wilmington certify technicians themselves under a written practice built on ASNT SNT-TC-1A. Nuclear fuel and power work adds quality assurance rules, vendor qualification and sometimes plant-specific access training on top. A course does not certify anyone. ASNT central certification (ASNT 9712 for Level I and II, ASNT Level III exams) is the alternative when an employer or customer asks for a portable credential.",
+  "salaryFrom": "charlotte",
+  "siblings": [
+    "charlotte",
+    "norfolk",
+    "savannah",
+    "north-charleston",
+    "jacksonville"
+  ]
+}

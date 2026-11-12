@@ -1,0 +1,107 @@
+{
+  "slug": "dundee",
+  "name": "Dundee",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Dundee Ship Gauging: UTM for Rigs, Heavy-Lift and Cargo Ships",
+  "description": "Ultrasonic thickness measurement at the Port of Dundee for jack-up rigs, heavy-lift and offshore vessels and cargo ships: hull, preload tank and deck UTM.",
+  "h1": "Thickness Measurement at the Port of Dundee on the Firth of Tay",
+  "intro": "Dundee's port runs along the north bank of the Firth of Tay, with deep riverside berths and heavy-duty quays that Forth Ports has developed for decommissioning and offshore wind. Jack-up rigs come in for repair, heavy-lift and offshore vessels bring in structures from the North Sea, and cargo ships handle grain, forest products and bulk cargoes. Many of these stays are long. Atlantis flies technicians in from India to gauge rig hulls, vessels and cargo ships while they lie alongside on the Tay.",
+  "keywords": [
+    "dundee thickness measurement",
+    "ultrasonic thickness gauging dundee",
+    "jack-up rig hull gauging",
+    "port of dundee ship inspection",
+    "decommissioning vessel inspection",
+    "preload tank thickness measurement",
+    "heavy-lift vessel gauging",
+    "utm firth of tay",
+    "offshore wind vessel inspection dundee",
+    "mpi crack detection rig"
+  ],
+  "highlights": [
+    {
+      "h": "Rigs and heavy-lift vessels alongside",
+      "p": "Jack-up rigs brought into the Tay for repair or refurbishment can stay for weeks. Hull plating, preload and ballast tanks and accessible structure can be gauged while yard work goes on around them, with crack detection at the most highly loaded welds."
+    },
+    {
+      "h": "Decommissioning brings unusual visitors",
+      "p": "Removed North Sea structures arrive on barges and heavy-lift vessels to be dismantled at the quayside. The vessels that carry them, and the barges themselves, often need deck and grillage condition checked after carrying heavy, concentrated loads on the voyage in."
+    },
+    {
+      "h": "Deep berths over a rock riverbed",
+      "p": "The riverside berths have deep water over a bed of rock, so large vessels and rigs can lie alongside. The tidal stream in the Tay still runs along the quays, which affects moorings, any work from a boat and the timing of readings near the waterline."
+    }
+  ],
+  "port": {
+    "h": "Dundee: a river port turned towards energy work",
+    "p": [
+      "The Port of Dundee lies on the north shore of the Firth of Tay, east of the Tay Road Bridge, and is one of the Scottish ports run by Forth Ports. Ships enter the Tay from the North Sea past the sandbanks at the river mouth, where the channel is marked and pilotage is compulsory, and then run up the estuary to berths that face straight onto the river. Unlike Leith and Grangemouth, Dundee's main working berths are tidal riverside quays rather than enclosed docks, so moorings, gangways and any work over the side have to allow for the rise and fall of the tide and for the stream running along the quay. Deep water close to the bank, over a rock bed, is the reason the port can take large heavy-lift vessels and jack-up rigs.",
+      "Over the past decade the port's focus has moved towards energy. Forth Ports invested in a strengthened heavy-lift quay extending the existing Prince Charles Wharf, with large laydown areas behind it, to compete for decommissioning projects and offshore wind work, and companies have set up bases at the port to receive and break down structures removed from North Sea fields. Offshore wind projects off the east coast of Scotland have used the port for components and vessels, and jack-up rigs have been brought into the river for repair, refurbishment or a spell of stacking between contracts. Conventional cargo continues beside this work: grain and agricultural cargoes, forest products and other bulk cargoes moved on coasters and short-sea bulk carriers trading across the North Sea.",
+      "This mix makes the length of a ship's stay at Dundee unusually varied. A coaster discharging grain may be gone in a day or two, while a rig under refurbishment or a vessel waiting for a decommissioning campaign can stay for weeks or months. Weather in the estuary is generally less severe than on the open coast, but easterly gales push swell into the river mouth, and winter fog and short daylight affect deck work. For a thickness measurement programme the long stays are the valuable ones: they allow tanks to be emptied and opened in sequence, decks to be cleared, and readings to be taken without competing with cargo operations. Shorter calls suit targeted work on deck plating, hatch structure and piping."
+    ]
+  },
+  "facilities": {
+    "h": "Quays and work areas for gauging in Dundee",
+    "p": [
+      "Rigs and large vessels lie at the heavy-duty quays at the eastern end of the port, where cranes, laydown areas and services are available and where the contractor carrying out the main repair works controls access. On a jack-up, we gauge hull plating and internal structure, preload and ballast tanks once they are emptied and ventilated, and accessible leg and jack-house structure, and use magnetic particle testing at welds that carry high cyclic loads. The work is planned with the rig owner's representative and the main contractor so that tank entries and lifting operations do not clash.",
+      "Cargo ships use the general berths along the river frontage, where gauging during discharge works in the usual way, hold by hold. For a full docking, ships and offshore vessels from Dundee usually move on to Rosyth or to a northern European yard, which makes a long Dundee stay a good time for the pre-docking readings that set out the steel list for the yard before the vessel leaves the Tay."
+    ],
+    "list": [
+      "Heavy-lift quay at the eastern end — rig hull, preload tank and leg structure gauging during repair or refurbishment.",
+      "Prince Charles Wharf and adjoining berths — deck and grillage checks on heavy-lift vessels and barges after decommissioning lifts.",
+      "General cargo berths on the river frontage — hold and tank gauging on coasters and bulk carriers during discharge.",
+      "Lay-up and stacking periods — full condition surveys on rigs and offshore vessels idle between contracts.",
+      "Wind project berths — deck, crane foundation and tank gauging between installation or maintenance campaigns."
+    ]
+  },
+  "context": {
+    "h": "Port state control, rig surveys and decommissioning rules",
+    "p": [
+      "Ships calling at Dundee are subject to port state control by the Maritime and Coastguard Agency under the Paris MoU, applied through UK law since the UK left the EU. Jack-up rigs follow a different regime: as mobile offshore drilling units they are surveyed under their class society's rules for offshore units and the MODU Code, with periodic surveys that include thickness measurement of hull and preload tank structure, and a rig coming into the Tay for refurbishment is often doing so ahead of one. When it returns to work on the UK Continental Shelf, the operator's own assurance processes and the Health and Safety Executive's offshore regime add further scrutiny of structural condition.",
+      "Decommissioning brings its own rules. Structures removed from the North Sea are dismantled and recycled onshore under waste and environmental permits, and the heavy-lift vessels and barges that bring them in carry concentrated loads on sea-fastenings and grillages, which is why owners often want deck condition checked afterwards. On the ship side, the UK has its own ship recycling regulations in place of the EU regulation, though vessels trading to EU ports still keep an Inventory of Hazardous Materials. Owners moving older offshore vessels or rigs towards recycling can use a Dundee stay to establish structural condition before a sale or a final voyage."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical Dundee thickness measurement jobs",
+    "p": "The work at Dundee falls into three groups: rigs in for repair or stacking, vessels connected with decommissioning and wind projects, and ordinary cargo ships. Rig jobs are the largest and are usually planned weeks ahead with the rig owner and the main contractor, around tank entries and the yard's lifting plan. Heavy-lift and offshore vessels need readings on decks, grillages and tanks after demanding campaigns, often at short notice when a vessel comes free. Cargo ships calling with grain or forest products offer the routine work of hold, tank and piping gauging during discharge. In every case the scope is agreed with the superintendent before the team leaves India, so time on site goes on measurement.",
+    "list": [
+      "Hull and preload tank gauging on a jack-up rig under refurbishment at the heavy-lift quay, ahead of its periodic survey.",
+      "MPI on leg and jack-house welds of a rig stacked in the Tay between contracts.",
+      "Deck plating and grillage inspection on a heavy-lift vessel after delivering a removed topsides module for dismantling.",
+      "Condition survey of a cargo barge used to bring in decommissioned structures, before its next charter.",
+      "Hold and ballast tank gauging on a short-sea bulk carrier discharging grain on the river frontage."
+    ]
+  },
+  "logistics": "Dundee's small airport has limited scheduled services, so the team usually flies into Edinburgh or Aberdeen and continues by road or rail; Dundee sits on the railway between those two cities. Travel from India needs UK visitor visas, which we apply for once the job is likely, and rig owners planning refurbishment periods can give us enough notice to have them in place early. Access to the port is through ISPS-controlled gates, with passes arranged by the ship's agent or, for rigs, by the main contractor running the site.",
+  "vessels": [
+    "Jack-up drilling rigs",
+    "Heavy-lift and project cargo vessels",
+    "Cargo and crane barges",
+    "Offshore supply and construction vessels",
+    "Offshore wind installation and service vessels",
+    "Short-sea bulk carriers and coasters",
+    "General cargo ships with forest products"
+  ],
+  "faqs": [
+    {
+      "q": "Do you carry out thickness measurement on jack-up rigs in Dundee?",
+      "a": "Yes. On a jack-up alongside for repair or stacking, we gauge hull plating and internal structure, preload and ballast tanks after they are emptied and certified for entry, and accessible leg and jack-house structure. Magnetic particle testing covers welds under high cyclic loading. Readings are referenced to the rig's structural drawings so the owner and contractor can plan repairs before the survey."
+    },
+    {
+      "q": "Can a ship on Dundee's tidal riverside berths be gauged over the side?",
+      "a": "Yes, but the tide has to be planned for. On a riverside quay the ship rises and falls through the day and the stream runs along the berth, so shell readings near the waterline are timed with the tide, and any work from a boat needs the harbour's agreement. Most readings, in tanks, holds and on deck, are unaffected by the tide."
+    },
+    {
+      "q": "What can be gauged on a heavy-lift vessel after a decommissioning lift?",
+      "a": "We usually start with deck plating and the grillage and sea-fastening foundations, where the concentrated loads act, and add ballast tanks below the load areas and any structure the crew noticed working or cracking during the voyage. MPI on weld toes at the foundations rules out fatigue cracking, and the results go to the owner before the vessel takes its next charter."
+    },
+    {
+      "q": "How much notice do you need for a rig refurbishment at Dundee?",
+      "a": "As much as the owner can give. Rig periods are usually planned weeks ahead, which suits a team that needs UK visas and agreement with the main contractor on tank entry permits, lifting operations and access. With a scope agreed early, readings can be worked into the refurbishment programme instead of holding it up while tanks wait to be measured."
+    }
+  ],
+  "nearby": ["montrose", "rosyth", "leith", "aberdeen", "grangemouth"]
+}

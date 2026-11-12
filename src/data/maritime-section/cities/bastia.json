@@ -1,0 +1,108 @@
+{
+  "slug": "bastia",
+  "name": "Bastia",
+  "country": "France",
+  "region": "europe",
+  "title": "Bastia UTM Gauging: Ferries to Italy and France, Coasters",
+  "description": "Ship thickness measurement at Bastia, Corsica: ro-pax ferries on Italian and French routes, fuel and cargo coasters, tanks, ramps and decks gauged alongside.",
+  "h1": "Ultrasonic Thickness Measurement for Ships at Bastia",
+  "intro": "Bastia is Corsica's busiest passenger gateway and its ferry links reach Marseille, Toulon and Nice in France and Livorno, Genoa and Savona in Italy. Fuel tankers, cement carriers and general cargo coasters also call at the commercial harbour. With no big drydock on the island, the work is afloat gauging at the ferry berths and quays, and Atlantis NDT brings technicians from India to join the ship during its call.",
+  "keywords": [
+    "ship thickness measurement bastia",
+    "ultrasonic thickness measurement in bastia",
+    "bastia ferry gauging",
+    "ro-pax ferry thickness measurement",
+    "utm corsica port",
+    "hull gauging bastia",
+    "ship inspection in bastia",
+    "coaster tank gauging",
+    "ferry ramp and vehicle deck gauging",
+    "pre-docking gauging italy france ferries"
+  ],
+  "highlights": [
+    {
+      "h": "Ferries to France and Italy",
+      "p": "Ships that serve both the French mainland and the Tuscan and Ligurian coast pass through Bastia, so gauging results can feed dockings at yards in either country."
+    },
+    {
+      "h": "Harbour working around ferry timetables",
+      "p": "Berth stays at the ferry terminal are short and rhythmic. We choose a short list of vehicle-deck, ramp and ballast-tank spaces and gauge them in the quiet hours of the call."
+    },
+    {
+      "h": "Fuel and cement coasters",
+      "p": "Small tankers and bulk coasters discharging at Bastia give holds, hatch coamings and accessible tanks a chance to be gauged between discharge and sailing."
+    }
+  ],
+  "port": {
+    "h": "Bastia's harbours and the ships that call",
+    "p": [
+      "Bastia lies on the north-east coast of Corsica, facing the Tuscan archipelago across the Ligurian Sea. The old harbour, the Vieux-Port, is a small basin beneath the citadel used by yachts and small craft, while the commercial harbour stretches south of the town with ferry terminals, cargo quays and fuel berths. The harbour is protected by breakwaters, and its approaches from the east are open to swell, which affects berthing and anchoring on windy days. Most ships berth alongside rather than anchor.",
+      "Traffic here is unusually international for a small island port. Ro-pax ferries make overnight and day crossings to Livorno, Genoa, Savona and Piombino in Italy, and to Marseille, Toulon and Nice in France; some operate for French companies on the territorial continuity services and others for Italian lines. Fuel tankers supply the island's depots, cement and aggregate carriers serve the building trade, and general cargo coasters bring everything else. Cruise ships come between spring and autumn, some berthing and some anchoring, and fishing and work boats use the smaller basins.",
+      "The shape of the year is simple: crowded summer timetables and thinner winter ones. In July and August ferries run at full capacity with minimal turnaround, and releasing a compartment for inspection is hard. Between October and March schedules relax, and superintendents often use the lull to inspect a ferry before it moves to a mainland yard. Coasters keep a steadier rhythm tied to island demand. That means a gauging job at Bastia is planned as a few well-chosen spaces over a berth stay, with a second visit if the first one runs short, rather than a full-ship survey."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging fits at Bastia",
+    "p": [
+      "Bastia has no drydock that takes ferries or sea-going cargo ships. Hull work, shell gauging out of water and sea chest inspection take place at mainland yards: ferries to and from Italy often use Ligurian or Tuscan yards, and French-flag ships tend to go to the Marseille or Toulon area. That makes the Bastia call valuable for the afloat scope. Ballast tanks, voids, vehicle decks and internal ramps, hatch and door structure, deck piping and scrubber lines can be gauged with the ship alongside and handed to the dock yard as a measured wastage list.",
+      "The ferry terminal berths offer the longest regular stay because the ship is stationary while vehicles load and unload. The commercial quays suit cargo ships and coasters, and the fuel berth suits small tankers whose deck and ballast spaces can be inspected during discharge. Cargo tank interiors need a gas-free certificate and are not normally released for a short fuel call. Access to each berth is arranged through the ship's agent, with each compartment gauged under the ship's own entry permit."
+    ],
+    "list": [
+      "Ferry terminal berths — vehicle decks, ramps, stern and bow doors, ballast tanks and voids gauged during turnaround stays.",
+      "Commercial cargo quays — holds, hatch coamings and deck structure on coasters after discharge.",
+      "Fuel berth — deck, deck-piping and ballast-tank readings on small product tankers.",
+      "Cruise berth and roadstead — short-window gauging of piping and released tanks on cruise ships, depending on weather.",
+      "Lay-by berths — owner's condition checks and pre-purchase gauging on idle vessels.",
+      "Mainland docking yards — Bastia readings supply the steel estimate for dockings in France and Italy."
+    ]
+  },
+  "context": {
+    "h": "Port state control and rules that apply to ships at Bastia",
+    "p": [
+      "As a French port, Bastia comes under the Paris MoU port state control regime, with inspections carried out by the French ship safety centres. Ferries to and from Italy may be flagged in either country or elsewhere in the EU, and port state control applies to them on the same risk-based footing as any foreign ship. For an older ro-pax ferry, a record of wastage in vehicle decks, ramps and watertight doors helps both the superintendent and the inspector understand where concerns lie.",
+      "Shipping has been covered by the EU ETS since 2024 and FuelEU Maritime has applied since 2025, so owners of older Corsica ferries are weighing the economics of keeping them in service against emissions obligations. A thickness record helps decide whether a docking will include major steel renewal. The EU Ship Recycling Regulation requires an Inventory of Hazardous Materials for ships in EU ports, and updates often occur during the same docking. For ships that cross between France and Italy, the scope is set by class rules, whichever flag they fly."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Bastia",
+    "p": "A Bastia job normally begins with the ferry's docking specification and the date of the next class survey. We agree which spaces can be released during the berth stay, then gauge them in a sequence that avoids the loading and unloading peaks. Typical requests:",
+    "list": [
+      "Vehicle-deck, ramp and ballast-tank gauging on a ro-pax ferry ahead of its winter docking at a mainland yard, reported deck by deck.",
+      "Hold and hatch-coaming gauging on a cement or aggregate carrier at the commercial quay during discharge.",
+      "Deck plating and deck piping readings on a small fuel tanker, with cargo tank work planned for a yard stay.",
+      "Pre-purchase condition gauging of a ferry or coaster lying at a lay-by berth, limited to spaces the owner can release.",
+      "Follow-up readings on a renewed vehicle deck or ramp after a mainland docking, to confirm the work against class limits."
+    ]
+  },
+  "logistics": "Bastia Poretta Airport serves the town, with flights from mainland France and other European cities. Technicians from India usually connect through a French or Italian hub. Port access for ferry terminals, cargo quays and the fuel berth is organised by the ship's agent, who also arranges a launch where needed. France is a Schengen state, so visas for the team are applied for in India after the ship's call or docking date is confirmed and the owner has supplied an invitation letter. Ferry timetables are published well in advance and that makes planning straightforward.",
+  "vessels": [
+    "Ro-pax ferries to France and Italy",
+    "Small product and fuel tankers",
+    "Cement and aggregate carriers",
+    "General cargo coasters",
+    "Cruise ships",
+    "Tugs and pilot boats",
+    "Fishing and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ferry on the Italy route be gauged at Bastia?",
+      "a": "Yes, in the spaces the crew can release during the berth stay. Vehicle decks, ramps and ballast tanks are the usual scope. We plan the order of work around loading and unloading, and where the stay is too short we agree a second visit on a later call or move the remaining scope to the docking."
+    },
+    {
+      "q": "Does Bastia have a drydock for ferries?",
+      "a": "No. Ferries and sea-going cargo ships are docked on the mainland, in French or Italian yards. We do the afloat gauging at Bastia and supply a compartment-by-compartment report, which the docking yard and the superintendent can use to estimate the steel renewal before the ship reaches the dock."
+    },
+    {
+      "q": "How busy is Bastia in summer for an inspection?",
+      "a": "Very busy, which limits what a crew can release. High-season ferries have short turnarounds and full decks. We keep the summer scope narrow, focusing on tanks and piping that do not interfere with loading, and recommend that thorough work be planned for the quieter winter months when ships can open more spaces."
+    },
+    {
+      "q": "Can holds on a cement carrier be gauged at the quay?",
+      "a": "Yes, once the hold is discharged, ventilated and declared safe for entry. We gauge hatch coamings, tank-top plating, frames and lower bulkheads, taking readings against the ship's original scantlings and class tolerances. Residual cement dust can hide plating, so crews usually sweep the area before the gauging team starts."
+    }
+  ],
+  "nearby": ["ajaccio", "nice", "livorno", "genoa", "savona", "piombino"]
+}

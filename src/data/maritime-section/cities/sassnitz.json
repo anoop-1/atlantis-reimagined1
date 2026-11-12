@@ -1,0 +1,119 @@
+{
+  "slug": "sassnitz",
+  "name": "Sassnitz",
+  "country": "Germany",
+  "region": "europe",
+  "title": "Sassnitz-Mukran UTM: Offshore Wind Vessels, Ferries and FSRU",
+  "description": "UTM at Sassnitz and Mukran Port for offshore wind service vessels, heavy-lift ships, the Bornholm ferry and LNG units: hull, deck, tank and piping gauging.",
+  "h1": "Ultrasonic Thickness Gauging at Mukran Port and Sassnitz on Rügen",
+  "intro": "On the east coast of Rügen, Sassnitz has two faces: the old town harbour with its fishing cutters and excursion boats, and Mukran Port to the south, a deep-water port built for rail ferries and now busy with offshore wind, project cargo, the Bornholm ferry and a floating LNG terminal. Vessels here range from crew transfer catamarans to heavy-lift ships and a moored regasification unit. Atlantis sends a team out from India for each job and plans the work around crew changes, loading slots or the unit's own maintenance windows.",
+  "keywords": [
+    "sassnitz utm",
+    "mukran port ship inspection",
+    "thickness gauging sassnitz",
+    "offshore wind vessel gauging",
+    "crew transfer vessel hull inspection",
+    "service operation vessel gauging",
+    "fsru thickness measurement",
+    "heavy-lift ship deck gauging",
+    "ship inspection rügen",
+    "bornholm ferry inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Wind farm vessels at crew change",
+      "p": "Service operation vessels return to Mukran for crew changes and stores, and crew transfer vessels base here between trips to Baltic wind farms. Those port days are when hull, deck and tank readings fit, and when gangway and crane pedestal welds can be crack-checked."
+    },
+    {
+      "h": "A regasification unit that stays put",
+      "p": "The floating LNG terminal at Mukran is designed to stay on station rather than sail to a yard. Ballast tanks, deck structure and sea water piping can be followed with gauging from inside the hull while the unit remains in service."
+    },
+    {
+      "h": "Heavy cargo for the offshore industry",
+      "p": "Mukran's heavy-load terminal handles monopiles, foundations and other wind components. Multipurpose and heavy-lift ships lie alongside while that cargo is lifted and secured, and their decks and tank tops can be measured where loads concentrate."
+    }
+  ],
+  "port": {
+    "h": "Sassnitz and Mukran: two harbours on Rügen's east coast",
+    "p": [
+      "Sassnitz stands on the chalk coast of north-east Rügen, close to the Jasmund cliffs, facing the open Baltic towards Bornholm and the Swedish coast. Its old harbour, protected by a long breakwater, is the base for fishing cutters, excursion boats to the cliffs and a few small cargo and service craft. Just south of the town, Mukran Port was built in the 1980s for a rail ferry link across the Baltic, and its deep water, long quays and broad-gauge rail sidings were designed for traffic to the east. That traffic has gone, and the port has reinvented itself around energy and project cargo. Sea access is direct, with no river passage or locks, but the berths face weather from the east, and swell can make boarding at anchor difficult.",
+      "Today Mukran is several ports in one. Offshore wind operators run operations-and-maintenance bases here for wind farms in the German Baltic, with crew transfer vessels leaving early each morning and service operation vessels calling between their long spells in the field. A heavy-load terminal handles foundations, monopiles and other components for new wind farms, worked by heavy-lift and multipurpose ships and by installation vessels. Since 2024 a floating LNG import terminal operated by Deutsche ReGas has been moored at the port, receiving cargoes from LNG carriers. Ferry traffic continues on the Bornholm link to Rønne, though the Trelleborg service ended in September 2024, and some bulk and general cargo also moves across the quays. The port's operating company came under new management at the start of 2025 and has been expanding its offshore terminal.",
+      "Each of these brings its own gauging pattern. Crew transfer vessels are small, fast catamarans, often aluminium, and their hulls take slamming loads every working day, so owners check plating and structure regularly. Service operation vessels are large, complex ships whose walk-to-work gangways and cranes sit on pedestals that carry heavy cyclic loads. Heavy-lift ships have tank tops and decks loaded far beyond what an ordinary cargo ship sees. The floating terminal is a ship that does not sail, so its condition is managed in place. The old harbour adds fishing vessels and excursion boats, small hulls with their own wear patterns, which are gauged in the off-season when they lie idle at their home berths. Few ports of this size see such a spread of hull types within a single season."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens at Sassnitz and Mukran",
+    "p": [
+      "Most work is at Mukran's quays. Service operation vessels lie alongside for crew change and stores, a window of hours rather than days, and the scope is agreed with the vessel's technical team to fit it. Crew transfer vessels are alongside every evening and at weekends when weather keeps them in port, which gives repeated short windows that suit a campaign across a fleet rather than one large job. Heavy-lift ships at the heavy-load terminal lie alongside while cargo is delivered and secured, and their holds and decks can be measured outside the lifting zone. Mukran has no drydock, so dockings go to yards elsewhere on the Baltic or the North Sea, and CTVs are usually lifted out at smaller yards around the coast.",
+      "Work on the floating LNG terminal is planned with its operator and follows strict gas-safety rules, with access confined to spaces outside the cargo containment, such as ballast tanks, voids, deck structure in safe zones and engine-room systems. The Bornholm ferry turns around quickly and is gauged mainly for systems the crew can release. In the old harbour, fishing vessels and excursion boats are examined at their home berths in winter. Ships at anchor off Sassnitz can be reached by boat for small scopes, though easterly weather often rules that out."
+    ],
+    "list": [
+      "Mukran O&M berths — hull, deck and tank gauging on crew transfer vessels, with penetrant testing of welds on aluminium structure.",
+      "Mukran quays for service operation vessels — tank, deck and piping gauging, plus magnetic particle testing of gangway and crane pedestal welds at crew change.",
+      "Heavy-load terminal — tank top, tween-deck and hatch cover gauging on heavy-lift and multipurpose ships while wind components are loaded.",
+      "Floating LNG terminal — ballast tank, void, deck and sea water piping gauging under the operator's permits, outside the cargo containment.",
+      "Ferry berth — piping, void and tank checks on the Bornholm ferry during its port stay.",
+      "Sassnitz old harbour — hull and deck plating on fishing cutters and excursion boats during the winter off-season."
+    ]
+  },
+  "context": {
+    "h": "Offshore rules, LNG operations and port state control",
+    "p": [
+      "Cargo ships, ferries and offshore vessels calling at Mukran come under German port state control within the Paris MoU, carried out by the Ship Safety Division of BG Verkehr. Offshore service vessels are also inspected by their charterers, the wind farm operators, whose vetting looks closely at gangways, cranes and the structure supporting them. EU climate rules are extending to this fleet: offshore ships of 5,000 GT and above have reported emissions under EU MRV since 2025 and are due to enter the EU Emissions Trading System from 2027, while smaller offshore vessels from 400 GT also report under MRV. Ships of every flag calling here need an Inventory of Hazardous Materials.",
+      "The LNG terminal brings gas-carrier rules into a port that was built for ferries. Floating storage and regasification units are kept on station for long periods, so their class follows a programme designed to avoid regular dry-docking, and owner's condition gauging helps track ballast tank and piping wastage in between class surveys. LNG carriers delivering cargo work under terminal procedures that restrict any outside work aboard. Mukran's offshore role is growing as new Baltic wind farms are built and older ones need maintenance, which keeps a large fleet of small service vessels working out of the port all year."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Sassnitz and Mukran",
+    "p": "Mukran work is shaped by the offshore calendar. Crew transfer vessels are best gauged in fleet campaigns spread over several evenings or a spell of bad weather, service operation vessels at their regular crew changes, and heavy-lift ships while components are loaded. The floating terminal is planned well ahead with its operator, whose own maintenance calendar decides when spaces can be released. Crack detection is often part of the scope, because the fatigue-loaded details on these vessels, such as gangway pedestals, crane foundations and catamaran cross-structure, tend to crack before they waste. On aluminium hulls, penetrant testing replaces magnetic particle testing. Examples:",
+    "list": [
+      "A fleet of crew transfer vessels: hull bottom and wet-deck plating gauged boat by boat over several evenings, with penetrant testing at known crack-prone welds.",
+      "A service operation vessel at crew change: ballast tank and deck gauging, plus magnetic particle testing of the walk-to-work gangway pedestal.",
+      "A heavy-lift ship loading monopiles: tank-top and deck plating gauged under the stowage positions before sea-fastenings are welded.",
+      "The floating LNG terminal: ballast tank and sea water piping gauging under the operator's permit system, as part of its in-service condition programme.",
+      "A fishing cutter from the old harbour in the off-season: bottom and side plating, frames and fish-hold structure gauged ahead of a slipping."
+    ]
+  },
+  "logistics": "Berlin Brandenburg and Hamburg are the main international airports, with rail connections through Stralsund to Sassnitz; Rostock-Laage is closer but has few international flights. Mukran's terminals are ISPS-controlled, and the LNG terminal and offshore operators add their own inductions, so the agent or operator registers the team well before arrival. Technicians from India travel on Schengen visas, and offshore vessels' crew-change dates are usually fixed weeks ahead, which helps us book the mobilisation in good time.",
+  "vessels": [
+    "Crew transfer vessels",
+    "Service operation vessels",
+    "Heavy-lift and multipurpose ships",
+    "Wind farm installation vessels",
+    "Floating storage and regasification unit",
+    "LNG carriers",
+    "Ro-pax ferries",
+    "Fishing vessels and excursion boats"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge aluminium crew transfer vessels?",
+      "a": "Yes. Ultrasonic thickness gauges work on aluminium once they are set up for its sound velocity, and the readings are compared with the original plate thickness. Magnetic particle testing does not work on aluminium, so welds are checked with dye penetrant instead. Because CTVs are small, a fleet is usually covered in a short campaign, one boat at a time while the others keep working."
+    },
+    {
+      "q": "Is it possible to work aboard the floating LNG terminal at Mukran?",
+      "a": "Only by arrangement with the operator and within its gas-safety rules. Work is limited to spaces outside the cargo containment, such as ballast tanks, voids, deck structure in safe areas and engine-room piping, and every entry follows the unit's permit system. Equipment must be accepted by the operator. Because the unit stays on station, this in-service gauging supports its condition programme between class surveys."
+    },
+    {
+      "q": "How much can be done on a service operation vessel during a crew change?",
+      "a": "A defined scope fits: typically a group of ballast tanks, deck areas around the gangway and crane, and crack detection at their pedestals. The crew empties and ventilates the tanks before arrival, and the team starts as soon as the vessel is alongside. Larger hull programmes are kept for the vessel's docking, using the readings gathered at crew changes to set the scope."
+    },
+    {
+      "q": "Is there a drydock at Sassnitz or Mukran?",
+      "a": "No. Larger ships dock at repair yards elsewhere on the Baltic or the North Sea, and crew transfer vessels and fishing boats are lifted out at smaller yards around the coast. Gauging at Mukran and in the old harbour is done afloat, and the readings can be sent to the yard before the vessel arrives so that the steel work is planned in advance."
+    },
+    {
+      "q": "Does the weather at Mukran affect the work?",
+      "a": "It can. The port faces the open Baltic, and easterly weather brings swell that makes boarding at anchor unsafe and can delay vessel movements. Work alongside usually continues. For crew transfer vessels, bad weather can actually help, because the boats stay in port and more of the fleet is available to gauge, provided the scope was agreed beforehand."
+    }
+  ],
+  "nearby": [
+    "stralsund",
+    "rostock",
+    "ronne",
+    "ystad",
+    "szczecin"
+  ]
+}

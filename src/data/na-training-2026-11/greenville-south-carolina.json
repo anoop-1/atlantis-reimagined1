@@ -1,0 +1,15 @@
+{
+  "slug": "greenville-south-carolina",
+  "lat": 34.85,
+  "lng": -82.4,
+  "localContext": "Greenville anchors the Upstate corridor between Atlanta and Charlotte, where advanced manufacturing is dense. GE Vernova builds gas turbines in Greenville, Lockheed Martin assembles F-16 fighters at its Greenville facility, BMW's largest plant is in nearby Spartanburg, and Michelin and other tire and textile-machinery firms operate across the region. Duke Energy's Oconee nuclear station lies to the west. Work runs to ASME, AWS, aerospace prime and automotive customer requirements, so technicians need documented, employer-certified qualification.",
+  "certPathwayNote": "Upstate employers certify technicians under written practices based on ASNT SNT-TC-1A. Aerospace, power-turbine and automotive customers add flow-down quality rules and audits, which the employer's Level III reconciles with the practice. Individuals without a sponsor can pursue ASNT central certification, which Atlantis NDT prepares candidates for.",
+  "salaryFrom": "charlotte",
+  "siblings": [
+    "charlotte",
+    "atlanta",
+    "north-charleston",
+    "savannah",
+    "raleigh"
+  ]
+}

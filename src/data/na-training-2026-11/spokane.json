@@ -1,0 +1,15 @@
+{
+  "slug": "spokane",
+  "lat": 47.66,
+  "lng": -117.43,
+  "localContext": "Spokane is the commercial centre of the Inland Northwest, and its inspection work is spread across several sectors: aircraft maintenance and refuelling operations at Fairchild Air Force Base, aluminium rolling at the Kaiser Aluminum Trentwood mill in Spokane Valley, hydroelectric and gas generation run by Avista Utilities, rail and bridge steel, and a base of metal fabricators and machine shops. The work runs to ASME, AWS D1.1 and D1.5, ASTM and customer specifications. For training that means VT, MT, PT and UT first, with RT and PAUT added where a plant or fabricator needs them.",
+  "certPathwayNote": "Most Spokane employers certify under their own written practice based on ASNT SNT-TC-1A: the employer sets training and experience hours, examines the technician, and signs the certification. Military maintenance contractors and aerospace suppliers add the technical orders or customer flow-downs they work under, and their Level III reconciles those with the written practice. ASNT central certification is an alternative route for technicians who change employers often.",
+  "salaryFrom": "seattle",
+  "siblings": [
+    "seattle",
+    "portland",
+    "billings",
+    "idaho-falls",
+    "salt-lake-city"
+  ]
+}

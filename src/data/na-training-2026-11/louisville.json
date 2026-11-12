@@ -1,0 +1,15 @@
+{
+  "slug": "louisville",
+  "lat": 38.25,
+  "lng": -85.76,
+  "localContext": "Louisville's inspection work comes from heavy manufacturing and the river. Ford builds trucks and SUVs at two assembly sites, GE Appliances runs a very large manufacturing campus, the Rubbertown chemical district sits along the Ohio, and UPS operates its worldwide air hub at the airport. Power generation, distilleries with pressure vessels and steel structure, and Ohio River locks and bridges add more. The work runs to ASME, AWS and customer standards, so technicians need weld, structural and thickness skills documented under an employer written practice.",
+  "certPathwayNote": "Louisville employers certify their own technicians. The company adopts a written practice based on ASNT SNT-TC-1A, names the training and experience hours, and has a Level III approve examinations. Automotive, chemical and aviation customers may add flow-down rules. Individuals without a sponsor can pursue ASNT central certification, which Atlantis NDT also prepares candidates for.",
+  "salaryFrom": "cincinnati",
+  "siblings": [
+    "lexington",
+    "cincinnati",
+    "indianapolis",
+    "nashville",
+    "columbus-ohio"
+  ]
+}

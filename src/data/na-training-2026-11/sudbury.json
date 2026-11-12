@@ -1,0 +1,20 @@
+{
+  "slug": "sudbury",
+  "lat": 46.49,
+  "lng": -81,
+  "localContext": "Sudbury's economy is built on underground nickel and copper mining and smelting by Vale and Glencore, backed by a cluster of mining equipment manufacturers and repair shops. Inspection demand sits in welded frames and booms of heavy mobile equipment, hoists and shafts, rotating machinery, wear plate, and pressure vessels and process plant at the smelters. MT, VT and UT dominate, and remote Northern Ontario distances favour online theory with the practical at the employer's site.",
+  "certPathwayNote": "Mines and contractors in Northern Ontario often specify CAN/CGSB-48.9712, certified by NRCan NDTCB or CWB Group through a Recognized Training Organization, which Atlantis is not. Where an OEM or US customer names SNT-TC-1A, the employer certifies under its written practice. Radiography also needs CNSC exposure device operator certification.",
+  "salaryFrom": "sarnia",
+  "siblings": [
+    "toronto",
+    "hamilton-ontario",
+    "montreal",
+    "winnipeg",
+    "sarnia"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Sudbury | Levels 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Sudbury mining and equipment employers: self-paced theory, simulator and practical at your site. Not CAN/CGSB-48.9712.",
+    "h1": "NDT Training in Sudbury, ON: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+  }
+}

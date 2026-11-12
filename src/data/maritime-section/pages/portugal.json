@@ -1,0 +1,118 @@
+{
+  "slug": "portugal",
+  "navLabel": "Portugal",
+  "title": "Ship Thickness Measurement in Portugal | UTM at Portuguese Ports",
+  "description": "Ultrasonic thickness measurement for ships in Portugal: hull and tank gauging at Lisbon, Sines, Leixões, Aveiro, Funchal and Ponta Delgada, planned from India.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Portugal",
+  "eyebrow": "Maritime inspection · Portugal",
+  "intro": "Portugal sits on the Atlantic approaches to Europe, and its ports serve ships on three kinds of voyage: deep-sea calls at Sines and Lisbon, coastal and short-sea trade along the mainland shore, and mid-ocean calls at Madeira and the Azores. Ultrasonic thickness measurement is what technical superintendents ask for in all three: gauging before a docking at the Setúbal peninsula yards, tank and hull readings on tankers and bulk carriers, scrubber and ship piping checks, and pre-purchase or on-hire condition surveys. Atlantis NDT mobilises its team from India to the vessel for each job and plans the work around the ship's schedule.",
+  "highlights": [
+    {
+      "h": "Atlantic ports, no emission control area",
+      "p": "The Portuguese coast, the Azores and Madeira lie outside any sulphur emission control area, so scrubber use here is an owner's economic choice. Wash-water and overboard piping gets checked because the line is old, not because a rule demands it."
+    },
+    {
+      "h": "Gauging ahead of a Lisbon-area docking",
+      "p": "The Tagus estuary and the Setúbal peninsula are where most Portuguese ship repair is concentrated. Readings taken at anchor or alongside before the ship arrives turn the allowance into a steel renewal estimate the yard can plan its work on."
+    },
+    {
+      "h": "Island calls need a plan",
+      "p": "Funchal and Ponta Delgada are ports of call on Atlantic crossings, not repair centres. A short gauging job there has to be fitted to the ship's call length, so the scope is agreed in advance and the tank plan is marked before the team travels."
+    }
+  ],
+  "sections": [
+    {
+      "id": "pt-ports",
+      "h": "Where ships are gauged in Portugal",
+      "p": [
+        "Lisbon is the natural centre of Portuguese ship work. Ships work cargo on the river berths, anchor in the Tagus, or move across to the Setúbal peninsula, where the long-established Lisnave yard at Mitrena has handled large tankers and bulk carriers for decades. For a superintendent, gauging in the estuary before the move to the dock is the ordinary sequence: measure, agree the steel list, then dock.",
+        "Sines, further south, is the country's deep-water port. It takes crude and product tankers at its liquid terminals, a large container operation and bulk cargoes, and ships there are often waiting for a berth or passing along the coast, which suits an anchorage or alongside gauging slot. Leixões serves the Porto region from its protected harbour, with tankers, bulk carriers and container feeders. Aveiro, Figueira da Foz and Viana do Castelo are smaller coastal ports handling short-sea cargo and project work.",
+        "Funchal on Madeira and Ponta Delgada in the Azores sit far out in the Atlantic and see mostly cruise ships, ferries, cargo and fuel supply vessels. Gauging there is practical for ships that cannot wait for the next mainland call, but it depends on the ship's stay and the weather."
+      ]
+    },
+    {
+      "id": "pt-traffic",
+      "h": "The traffic that drives inspection work",
+      "p": [
+        "Portugal is a landing point for Atlantic trade. Tankers deliver crude and refined products, bulk carriers bring grain, coal and minerals, and container ships link the mainland with the Americas, North Africa and northern Europe. Ships of every age pass the coast on the way to somewhere else, including older tonnage on tramp trades whose owners want a measured view of the steel before it commits to a long winter crossing.",
+        "Cruise ships make up a visible share of calls at Lisbon, Funchal and Ponta Delgada. For them, the useful gauging is limited and planned around the turnaround day: piping in machinery spaces, tank boundaries accessible without disrupting guests, and hull sections that can be reached from the dock. The ship's management decides what is practical on a given call."
+      ]
+    },
+    {
+      "id": "pt-regime",
+      "h": "Port state control and the rules that apply",
+      "p": [
+        "Portugal is a Paris MoU state, and port state control is carried out under the national maritime administration, the Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos, working through the port authorities. Older tankers and bulk carriers with visible structural wastage draw the inspector's attention first, and arriving with current gauging and a renewal plan changes the conversation at the gangway.",
+        "Because Portuguese waters are not inside a sulphur emission control area, fuel sulphur is governed by the global limit under MARPOL Annex VI, regulation 14. Ships that still run scrubbers do so for fuel economics, and ships bound for the North Sea or the Mediterranean often cross Portuguese waters on the way. As an EU state, Portugal applies the EU Ship Recycling Regulation to the ships that fly its flag or call under EU rules, so owners of ageing ships weighing a sale for recycling often want a recent steel assessment first."
+      ]
+    },
+    {
+      "id": "pt-seasonal",
+      "h": "Weather, swell and practical limits",
+      "p": [
+        "The Atlantic coast is exposed. Winter swell and westerly gales can close harbour entrances at Leixões, Figueira da Foz and Viana do Castelo, and anchorage work off Lisbon or Sines may be cancelled when the sea state rises. For tank and hull gauging inside the ship the weather matters less, but boarding by pilot launch and the use of staging in cargo tanks depend on the ship staying alongside and steady.",
+        "Summer is easier on mainland berths but busier with cruise ships and ferries on the islands. Berth schedules at Sines and Lisbon tighten when several large ships wait for terminals, so the team plans around the ship's confirmed berth, not an estimate."
+      ]
+    },
+    {
+      "id": "pt-planning",
+      "h": "Planning a Portuguese gauging job from India",
+      "p": [
+        "The team travels from India for each job. Portugal is a Schengen state, so the technicians need Schengen visas, and the application timeline is set by the consulate, not by us. We ask for the ship's agent and the expected arrival and sailing dates early, and we plan the mobilisation to follow the ship's firm schedule once the visas are in hand. Work at Portuguese ports goes through the ship's agent, who arranges gangway access, port security passes and, where the berth demands it, hot work and safe entry permits.",
+        "For work in tanks, the ship supplies gas-free certificates and ventilation, and the team brings calibrated gauges and a thickness measurement plan marked against the ship's drawings. Readings, photographs and a steel renewal estimate are reported to the superintendent once the survey is finished, with preliminary readings shared during the job on request."
+      ]
+    },
+    {
+      "id": "pt-services",
+      "h": "The services Portuguese calls ask for most",
+      "p": [
+        "Pre-docking hull gauging is the most common request, followed by renewal survey thickness measurement support for ships coming due for their special survey. Tankers and bulk carriers are often gauged in cargo and ballast tanks once cleaned. Scrubber and ship piping checks are less frequent here than in the emission control areas, but they are asked for by owners of ships on long Atlantic runs. Pre-purchase and on-hire gauging completes the picture, because Lisbon and Sines see ships changing hands and charterers inspecting hulls before accepting a ship."
+      ]
+    }
+  ],
+  "codes": [
+    "Paris Memorandum of Understanding on Port State Control",
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: sulphur limit outside emission control areas",
+    "EU Ship Recycling Regulation (Regulation (EU) No 1257/2013)",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report located by frame and strake, with as-built, measured and diminution values",
+    "Steel renewal estimate marking plates for renewal ahead of a docking",
+    "Tank condition summary for cargo and ballast tanks after gas-freeing",
+    "Piping and scrubber condition report: minimum wall by spool and joint",
+    "Preliminary readings and photographs shared during the job on request"
+  ],
+  "industries": [
+    "Crude, product and chemical tankers",
+    "Bulk carriers",
+    "Container ships and feeders",
+    "Cruise ships and ferries",
+    "Offshore supply and fuel supply vessels",
+    "Ship managers and technical superintendents",
+    "Repair yards and buyers' surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "Which Portuguese ports can you gauge ships at?",
+      "a": "Lisbon and the Tagus estuary, Sines, Leixões near Porto, Aveiro, Figueira da Foz, Viana do Castelo, Funchal on Madeira and Ponta Delgada in the Azores. Each port page describes the ships and berths we see there, and the right choice depends on where the ship will be and for how long."
+    },
+    {
+      "q": "Do ships in Portuguese waters need to run scrubbers?",
+      "a": "Not because of a local emission control area, since the Portuguese mainland and islands lie outside one. Ships choose scrubbers on fuel economics, and many still pass through here on the way to the North Sea or Mediterranean. We measure wall thickness in wash-water and overboard lines regardless of where the ship trades."
+    },
+    {
+      "q": "Do your technicians need visas for Portugal?",
+      "a": "Yes. Portugal is part of the Schengen area, so technicians travelling from India need Schengen visas, with timing set by the consulate. We start the process as soon as the ship's schedule is confirmed and plan the mobilisation to follow the ship's firm arrival and sailing dates once the visas are issued."
+    },
+    {
+      "q": "Can you gauge a ship at anchor off Lisbon or Sines?",
+      "a": "Often yes, for hull sections and tanks reachable from inside the ship, subject to the ship's agent arranging launch transfers and the sea state allowing safe boarding. Atlantic swell can cancel anchorage work, so we agree a fallback, usually an alongside slot, in the plan before the team travels."
+    },
+    {
+      "q": "What is the usual sequence before a Lisbon-area docking?",
+      "a": "Send the ship's thickness measurement plan, last survey reports and the docking date. We agree the scope, gauge the hull and tanks, and report a steel renewal estimate the yard can use. The superintendent then negotiates docking days and steel tonnage on measured readings."
+    }
+  ]
+}

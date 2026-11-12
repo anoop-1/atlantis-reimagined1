@@ -1,0 +1,107 @@
+{
+  "slug": "shoreham",
+  "name": "Shoreham",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Shoreham Port Thickness Gauging: Aggregate Dredgers & Coasters",
+  "description": "Ultrasonic thickness measurement at Shoreham Port for aggregate dredgers and timber and steel coasters: hoppers, holds, hatch covers and tanks behind the locks.",
+  "h1": "Hull and Hopper Thickness Measurement at Shoreham Port, West Sussex",
+  "intro": "Shoreham Port, on the Sussex coast between Brighton and Worthing, is a bulk and short-sea port whose main working basin is entered through locks. Aggregate dredgers land sand and gravel won from the seabed, and coasters bring timber, steel, grain and other cargoes. Ships behind the lock gates lie in still water while they discharge, which suits thickness gauging well. For every job the technicians travel from India to the ship, and we plan their visit around the locking and the discharge.",
+  "keywords": [
+    "shoreham port thickness gauging",
+    "ultrasonic thickness measurement shoreham",
+    "utm shoreham",
+    "aggregate dredger hopper gauging",
+    "suction dredger inspection",
+    "timber carrier hold gauging",
+    "ship inspection sussex",
+    "coaster thickness measurement",
+    "hopper plating wear",
+    "shoreham ship inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Hoppers that wear from the inside",
+      "p": "Aggregate dredgers carry abrasive sand and gravel in their hoppers on every trip, so hopper plating, the discharge system's casings and the pump and suction pipework wear faster than almost any other ship structure. Regular gauging shows how quickly, and when renewal is due."
+    },
+    {
+      "h": "Still water behind the lock",
+      "p": "The port's main basin is impounded, so ships lie at a steady level whatever the tide is doing outside. Gangways stay put and the ship does not rise and fall against the quay, which makes hold, hopper and tank work easier than at a tidal berth."
+    },
+    {
+      "h": "Dredgers that keep coming back",
+      "p": "During a dredging campaign the same dredgers return to Shoreham again and again, discharging and sailing quickly. A gauging scope can be split across several of those returns, keeping the same reference points so the readings line up from one visit to the next."
+    }
+  ],
+  "port": {
+    "h": "Shoreham: the Adur's mouth and the impounded Canal",
+    "p": [
+      "Shoreham Port lies where the River Adur reaches the sea, with a single harbour entrance between breakwaters. Inside, the port divides into two arms. The western arm follows the tidal river towards Shoreham-by-Sea, with quays that rise and fall with the tide; the eastern arm, known as the Canal, runs parallel to the beach towards Southwick and Portslade and is held at a constant level behind lock gates. Most commercial berths are on the Canal, along with a power station on its southern side, so the locks are the port's front door and almost every cargo ship passes through them. Shoreham Port Authority, a trust port, runs the harbour, and ships take a pilot for the entrance and the lock.",
+      "The port's trade is built on bulk cargoes. Marine aggregates dredged from licensed areas in the English Channel are landed by suction dredgers at wharves on the Canal and go straight into the construction market of Sussex and the south-east. Timber has been landed at Shoreham for many years, and coasters also bring steel, grain, oil products and biomass. A fishing fleet works from the harbour, landing shellfish and other catch, and the port's facilities include a small dry dock. Ship size here is governed by the dimensions of the lock rather than the depth of the sea outside, and at least one modern aggregate dredger has been designed specifically to fit it, which says a good deal about how central that lock is to the port's working life.",
+      "Locking shapes the day. Ships enter and leave the Canal through the locks, and a ship that is ready to sail may wait for her turn, which gives a little slack at the end of a discharge. Aggregate dredgers run tight cycles between the dredging grounds and the wharf, often discharging within hours and sailing again, and they work through most of the year, with winter weather in the Channel the main interruption. Timber and steel coasters stay longer, discharging over a day or more. Southerly and south-westerly gales can make the harbour entrance difficult for small ships, so arrivals tend to bunch up after a blow. For gauging, a coaster discharging in the Canal and a dredger held in port for maintenance are the most generous windows."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging berths, the dry dock and lay-by time at Shoreham",
+    "p": [
+      "The wharves on the Canal are the natural place for gauging: the water is impounded, the ship sits steady at the quay, and cargo work proceeds in a predictable order. On a timber or steel coaster, holds come free as discharge progresses, and the team follows the stevedores with tank-top, frame and hatch cover readings. On an aggregate dredger the hopper is the priority, and it can only be gauged once it is fully discharged and washed down, so that work is planned for the end of a discharge or for a day when the dredger is held in port.",
+      "The port's dry dock is small and suited to fishing vessels, workboats and similar craft rather than seagoing cargo ships, so the dredgers and coasters trading here dock at yards elsewhere on the south coast, in other British ports or on the Continent. Gauging at Shoreham then becomes the step before the docking: a steel estimate for the hopper, double bottom and shell, or a condition check that decides whether the docking can wait. When a dredger is held in port for maintenance, several days become available for her tanks, pump room and pipework, which is the fullest survey Shoreham normally allows."
+    ],
+    "list": [
+      "Aggregate wharves on the Canal: hopper plating, hopper structure and discharge system gauging on dredgers once the cargo is out.",
+      "Timber, steel and grain berths on the Canal: hold-by-hold tank-top, frame and hatch cover gauging during discharge.",
+      "Western arm river quays: deck and accessible tank work on smaller ships, planned around the tidal rise and fall.",
+      "The port's small dry dock: shell and sea chest readings on fishing vessels, workboats and similar craft while they are dry.",
+      "Lay-by berths inside the lock: longer tank, pump room and pipework scopes on dredgers held in port for maintenance."
+    ]
+  },
+  "context": {
+    "h": "Port state control, dredging licences and how dredgers age",
+    "p": [
+      "Foreign-flagged coasters and dredgers at Shoreham are inspected by the Maritime and Coastguard Agency under port state control, which the UK has continued in line with the Paris MoU since leaving the EU. Many aggregate dredgers are UK-flagged, so the MCA meets them as flag state instead, through survey and inspection under UK regulations. Marine aggregate extraction in English waters is licensed by the Marine Management Organisation, and the industry records where its ships dredge through electronic monitoring, so a dredger's operating history is well documented even when her structural history is thinner.",
+      "Aggregate dredgers age in a particular way. The hopper and its discharge system take continuous abrasive wear, ballast tanks alongside the hopper are repeatedly wetted and dried, and the suction pipe gantries and their supports carry heavy, cyclic loads. Some dredgers on the south coast have worked for decades, and owners weighing a renewal survey against a replacement need evidence of how fast the steel is going. For coasters on timber and steel trades the familiar questions apply: hatch cover weathertightness, air pipes and ventilators, and tank tops under heavy cargo, all of which inspectors examine on older ships."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Shoreham",
+    "p": "Shoreham work divides between dredgers and coasters. Dredger owners ask for hopper and structure gauging at regular intervals, because wear is fast and hopper steel renewal is a recurring item at docking, and they want the steel quantities in hand before they book the yard. Coaster managers ask for the usual short-sea scope during discharge. We agree the plan with the master, the wharf operator and the port's locking arrangements, so that the team boards as soon as the ship is secure and finishes before she is ready to lock out.",
+    "list": [
+      "Hopper plating and hopper side gauging on an aggregate dredger at the end of a discharge, with wear rates compared against the previous survey.",
+      "Pre-docking steel estimate for a dredger's double bottom, ballast tanks and suction pipe gantry supports, before a yard booking.",
+      "Tank-top and hold frame gauging on a timber coaster discharging sawn timber in the Canal.",
+      "Hatch cover, coaming and air-pipe gauging on a steel coaster after a port state control observation at an earlier port.",
+      "Pump and discharge pipework gauging on a dredger held in port for maintenance."
+    ]
+  },
+  "logistics": "For Shoreham the team usually flies into London Gatwick, the nearest major airport, or Heathrow, and travels on by rail or road; Shoreham-by-Sea, Southwick and Portslade stations are all on the coast line close to the port. Technicians travel from India on UK visas, so we ask for the ship's expected dates early and keep them updated through the agent. Access to the wharves is controlled by the port and the wharf operators; the agent arranges passes against each technician's passport and confirms the locking time.",
+  "vessels": [
+    "Aggregate suction dredgers",
+    "Coasters and short-sea general cargo ships",
+    "Timber carriers",
+    "Steel and multipurpose ships",
+    "Small product tankers",
+    "Grain and biomass carriers",
+    "Fishing vessels and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can an aggregate dredger's hopper be gauged at Shoreham?",
+      "a": "Yes, once the hopper has been fully discharged and washed down. The end of a discharge, before the dredger sails for her next load, is the usual window, and a day held in port for weather or maintenance gives more time. We gauge hopper plating and stiffeners on a grid agreed with the superintendent, so the readings can be compared directly with earlier surveys and the wear rate worked out."
+    },
+    {
+      "q": "Does the lock affect when the team can board?",
+      "a": "It affects when the ship arrives and leaves, not the work once she is alongside. Ships enter and leave the Canal through the locks, so the agent confirms the locking time and the berth before the team travels. Once inside, the ship lies at a steady level, which makes gangway access and hold work straightforward, and the team works until she prepares to lock out."
+    },
+    {
+      "q": "Is there a dry dock at Shoreham for a coaster or dredger?",
+      "a": "The port's dry dock is small and suited to fishing vessels, workboats and similar craft. Seagoing coasters and dredgers usually dock at yards elsewhere on the south coast, in other British ports or on the Continent. Gauging at Shoreham is then a pre-docking estimate or a condition check, with readings reported on the ship's own frame references so they go straight into the yard specification."
+    },
+    {
+      "q": "Can cargo holds be gauged while timber is being discharged?",
+      "a": "Yes, as each hold is cleared. Timber and steel cargoes leave tank tops reasonably clean, so the team can follow the stevedores, gauging tank tops, lower frames, bilge wells and hold bulkheads in holds that are finished. A deck cargo of timber also loads the hatch covers heavily, so covers and coamings are worth including once the deck is clear."
+    }
+  ],
+  "nearby": ["dover", "sheerness", "portsmouth", "southampton", "dieppe", "le-havre"]
+}

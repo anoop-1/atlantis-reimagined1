@@ -1,0 +1,15 @@
+{
+  "slug": "dayton",
+  "lat": 39.76,
+  "lng": -84.19,
+  "localContext": "Dayton is anchored by Wright-Patterson Air Force Base and the Air Force Research Laboratory, with a dense network of aerospace and defense suppliers, University of Dayton Research Institute materials work, and older foundry, forging and automotive supplier shops. Work runs to customer-specified aerospace requirements, ASTM and ASME methods and quality manuals. Training here needs traceable records and strong penetrant, magnetic particle and UT fundamentals under an employer written practice.",
+  "certPathwayNote": "Dayton employers certify under an SNT-TC-1A written practice, and the employer signs the certificate. Aerospace and defense customers often add flow-down requirements or approvals of their own, which the employer's Level III reconciles with the program. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+  "salaryFrom": "cincinnati",
+  "siblings": [
+    "cincinnati",
+    "columbus-ohio",
+    "indianapolis",
+    "cleveland",
+    "toledo"
+  ]
+}

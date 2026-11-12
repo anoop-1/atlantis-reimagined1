@@ -1,0 +1,132 @@
+{
+  "slug": "finland",
+  "navLabel": "Finland",
+  "title": "Ship Thickness Measurement in Finland | UTM at Finnish Ports",
+  "description": "Ship ultrasonic thickness measurement in Finland: UTM and ice-class hull gauging at Helsinki, Turku, Kotka, Rauma, Oulu and Mariehamn for owners and managers.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Finland",
+  "eyebrow": "Maritime inspection · Finland",
+  "intro": "Finland is a country where ice shapes shipping. Its ports on the Gulf of Finland, the Archipelago Sea and the Gulf of Bothnia handle forest products, metals, chemicals, vehicles and a heavy ferry trade, and almost every ship calling in winter is built or strengthened for ice. Atlantis NDT mobilises its team from India to the ship for each job, planned around the ice season, the berth and Schengen visas, and takes ultrasonic thickness readings for dockings, surveys and ice-class condition checks, with particular attention to the ice belt and the bottom structure that takes the load.",
+  "highlights": [
+    {
+      "h": "Ice belt condition after winter",
+      "p": "Ice scours coatings and loads the plating and frames along the waterline. Gauging the belt after the season shows how much wastage has built up, and whether it belongs in the next yard period or can wait for a later docking."
+    },
+    {
+      "h": "Forest product and bulk carriers",
+      "p": "Rauma, Kotka, Kemi and Oulu handle forest products and bulk cargoes, often on ice-class tonnage trading round the Baltic. Hold structure, tank top and side plating are the usual gauging targets before dockings and surveys."
+    },
+    {
+      "h": "Ferries between Finland and its neighbours",
+      "p": "Helsinki, Turku and Mariehamn connect Finland with Sweden and Estonia on fixed timetables. Gauging a ferry means a short, well-planned layover with access agreed in advance with the master and the terminal."
+    }
+  ],
+  "sections": [
+    {
+      "id": "fi-coasts",
+      "h": "Where ships are gauged on the Finnish coast",
+      "p": [
+        "The Gulf of Finland coast is the country's busiest. Helsinki is the capital port, with passenger ferries to Tallinn and Stockholm, cruise calls, and container and vehicle traffic. Kotka, in the east, is a major export port for forest products and containers, and Porvoo hosts the oil refinery complex, so product tankers call there. Hanko, in the south-west, is a passenger and vehicle port on the southern tip where ice is usually the least troublesome.",
+        "The south-west and the Archipelago Sea are more varied. Turku is a ferry port with services to Sweden and also a shipbuilding town, so cruise ships and ferries are familiar visitors. Mariehamn, on the autonomous Åland Islands, is a ferry hub and home to a number of shipping companies. Uusikaupunki handles vehicle exports and cargo, and Rauma is one of Finland's main ports for forest products and also has a shipyard and marine industry. Pori, on the Bothnian Sea coast, is an industrial and bulk port.",
+        "Further north the Gulf of Bothnia brings colder winters and a heavier ice season. Vaasa is a ferry and industrial port with a strong engine and energy engineering cluster, Kokkola is a chemical and bulk port, Oulu serves forest products and industry, Raahe is a steel port, and Kemi, at the top of the gulf, is associated with forest industry and shipping. Their ice season is longest, and the operating calendar there follows it."
+      ]
+    },
+    {
+      "id": "fi-fleet",
+      "h": "The ships and industries behind the work",
+      "p": [
+        "Finnish shipping revolves around foreign trade by sea: nearly all of the country's imports and exports move through its ports, and forest products, metals, chemicals, fuel and vehicles dominate the cargo mix. Ferry and ro-ro companies link Finland with Sweden, Estonia and Germany, and tankers and cargo ships built for ice serve the winter trade.",
+        "That mix makes ice-class condition checks a routine part of ship management here. A ship that spends part of the year breaking ice or working in ice channels has a belt that wears faster than an open-water ship's, and owners and charterers want measured evidence of its condition before the next survey or docking."
+      ]
+    },
+    {
+      "id": "fi-regime",
+      "h": "Port state control, ice class and Finnish winter navigation",
+      "p": [
+        "Port state control in Finland is carried out by the Finnish Transport and Communications Agency, Traficom, under the Paris MoU. Finland is in the EU and the Schengen area. Older ships and ferries with visible wastage are as likely to draw attention here as anywhere else in the region, and owners often gauge key structure ahead of calls.",
+        "Winter navigation is organised around the Finnish-Swedish Ice Class Rules, which set the hull strength and engine power a ship needs to be assisted by icebreakers in the Finnish and Swedish winter navigation system. The Baltic Sea sulphur emission control area applies to Finnish waters, so fuel sulphur is capped at 0.10% unless a scrubber is fitted. As an EU member, Finland applies the EU Ship Recycling Regulation. The ship's agent confirms current ice restrictions and any scrubber wash-water rules for each call."
+      ]
+    },
+    {
+      "id": "fi-practical",
+      "h": "Ice, short days and ferry timetables",
+      "p": [
+        "The Gulf of Bothnia and the eastern Gulf of Finland freeze in most winters, and ports there depend on icebreaker assistance. Ice can restrict berth access, delay ships and make working on deck harder, so gauging dates in winter come with a fallback. In a mild winter the south-west stays open for most of the season, and in a hard one even southern ports see ice.",
+        "Winter daylight is short in Finland, and cold affects both people and equipment on exposed decks. Where possible we plan gauging inside spaces or in the shoulder months, and we check access, heating and lighting with the ship in advance. Ferries run to fixed timetables, so gauging on one is a short layover, and summer cruise traffic at Helsinki and Turku can make berths tight."
+      ]
+    },
+    {
+      "id": "fi-services",
+      "h": "Which services Finland asks for most",
+      "p": [
+        "Ice belt and bottom gauging after the winter is the signature request, setting the scope of the next docking from measured readings. Pre-docking hull gauging on forest product and bulk carriers is the second, and product tanker owners ask for tank structure and piping checks after gas-freeing. Ferry owners ask for deck and hull checks during layovers, and scrubber piping inspection is growing on ships that run exhaust gas cleaning.",
+        "Pre-purchase and on-hire gauging supports the second-hand market in ice-class tonnage, where condition is a large part of value. In every case readings are located against frame and strake references and reported as as-built thickness, measured thickness and diminution."
+      ],
+      "list": [
+        "Ice belt and bottom gauging after the winter season",
+        "Pre-docking hull gauging on bulk and forest product carriers",
+        "Tank and piping gauging on product tankers",
+        "Scrubber wash-water and overboard piping checks",
+        "Deck and hull gauging on ferries during layovers"
+      ]
+    },
+    {
+      "id": "fi-planning",
+      "h": "Planning a gauging job in Finland from India",
+      "p": [
+        "The team travels from India for each job. Finland is in the Schengen area, so Schengen visas are needed and lead time varies. We ask for the ship's schedule early so visa applications run alongside planning, and we agree a window that fits the ship's itinerary and allows for ice and weather.",
+        "Tell us the vessel type, age, class and ice class, the thickness measurement plan, the spaces to be gauged, the berth or yard, and the dates. Before anything is booked we settle which spaces can be reached afloat, which need the dock, and what format the owner or surveyor wants the report in. The ship's agent arranges port access and any permits, including winter-navigation arrangements where they apply."
+      ],
+      "list": [
+        "Vessel type, age, class and ice class",
+        "Thickness measurement plan and spaces to be gauged",
+        "Berth or yard and expected dates, with an ice fallback",
+        "Names for Schengen visa applications and port passes"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris MoU port state control",
+    "IACS UR Z10 series (hull surveys)",
+    "MARPOL Annex VI regulation 14 (sulphur limits)",
+    "EU Ship Recycling Regulation",
+    "Finnish-Swedish Ice Class Rules"
+  ],
+  "deliverables": [
+    "Thickness measurement report with frame-by-frame readings",
+    "Ice belt and bottom condition summary",
+    "Steel renewal estimate before docking",
+    "Piping wall-thickness schedule",
+    "Marked-up hull and tank sketches"
+  ],
+  "industries": [
+    "Ice-class bulk carriers",
+    "Forest product carriers",
+    "Ferries and ro-ro ships",
+    "Product tankers",
+    "Chemical tankers",
+    "Cruise ships",
+    "Vehicle carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Why does ice class matter for thickness measurement in Finland?",
+      "a": "Ice loads the plating and frames along the waterline and scours coatings, so the belt wears faster than on an open-water ship. Gauging it after winter shows how much steel has been lost and whether it belongs in the next docking or can wait."
+    },
+    {
+      "q": "Which Finnish ports are used for ship gauging?",
+      "a": "Ships are gauged wherever they lie alongside long enough: Helsinki and Turku for ferries and cruise ships, Kotka, Rauma and Kemi for forest product and bulk carriers, Porvoo for tankers, and Oulu or Vaasa in the north. We pick the berth that suits the ship and the ice outlook."
+    },
+    {
+      "q": "Who carries out port state control in Finland?",
+      "a": "The Finnish Transport and Communications Agency, Traficom, carries out port state control under the Paris MoU. Inspectors look hard at corrosion on older ships and ferries, so owners often gauge key spaces beforehand and keep readings on board."
+    },
+    {
+      "q": "Can winter ice delay a gauging job?",
+      "a": "Yes. Ice can restrict berths, delay arrivals and make work on deck harder. We plan a fallback date, work inside spaces where possible, and check heating, lighting and access with the ship in advance so the job is not lost to a late ice report."
+    },
+    {
+      "q": "How does the team from India handle Finnish entry requirements?",
+      "a": "Finland is in the Schengen area, so team members need Schengen visas. The ship's schedule is requested at the outset and applications go in as soon as the job is confirmed, so the gauging window reflects real visa lead times and not a promised date."
+    }
+  ]
+}

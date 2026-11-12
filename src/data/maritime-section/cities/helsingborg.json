@@ -1,0 +1,112 @@
+{
+  "slug": "helsingborg",
+  "name": "Helsingborg",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Helsingborg Ship UTM | Øresund Ferries, Feeders and Ro-Ro",
+  "description": "UTM in Helsingborg for Øresund ferries, container feeders, ro-ro and bulk ships: vehicle-deck, ballast tank and hull gauging plus scrubber pipe checks.",
+  "h1": "Ultrasonic Thickness Gauging for Ferries, Feeders and Ro-Ro Ships in Helsingborg",
+  "intro": "Helsingborg faces Helsingør across the narrowest part of the Øresund, and its harbour combines one of Scandinavia's busiest ferry crossings with container feeders, ro-ro freight and dry and liquid bulk. The ferries shuttle across the Sound all day, while cargo ships work the quays along the waterfront for hours or days at a time. Atlantis has nobody based in the city: for each Helsingborg job the technicians fly in from India, and the measurements are planned around ferry timetables and cargo windows.",
+  "keywords": [
+    "helsingborg ship inspection",
+    "utm helsingborg",
+    "thickness gauging helsingborg",
+    "øresund ferry inspection",
+    "container feeder thickness measurement",
+    "ro-ro vehicle deck gauging",
+    "battery ferry structural inspection",
+    "ballast tank gauging sweden",
+    "scrubber pipe thickness check",
+    "hull gauging öresund"
+  ],
+  "highlights": [
+    {
+      "h": "Shuttle ferries, some on battery power",
+      "p": "Ferries on the Helsingør crossing make many short trips a day, and several have been converted to battery-electric drive. Conversions add battery-room foundations, deck penetrations and cooling pipework, and that new structure deserves its own place in the gauging and crack-detection scope."
+    },
+    {
+      "h": "Container feeders on tight loops",
+      "p": "Feeder ships link Helsingborg's container terminal with the big North Sea hubs, and a call may last only a shift or two. Ballast tanks prepared before arrival, deck plating and scrubber pipework can be measured in that window when the scope is fixed beforehand."
+    },
+    {
+      "h": "Longer stays at ro-ro and bulk quays",
+      "p": "Ro-ro freighters and bulk ships often spend longer alongside than feeders or ferries, and their decks, holds and tanks are easier to reach. Those calls suit owner's condition gauging, pre-purchase work and pre-docking steel estimates that need more than a few hours."
+    }
+  ],
+  "port": {
+    "h": "Helsingborg on the Sound: ferries crossing a busy seaway",
+    "p": [
+      "Helsingborg and Helsingør stand only about four kilometres apart at the northern neck of the Øresund, the strait that carries shipping between the Kattegat and the Baltic. Through traffic moves north and south along the Sound while the ferries cut across it, so the waters off the harbour are among the most closely watched in northern Europe, with a vessel traffic service covering the strait and pilots taking ships into the port. Currents in the Sound are driven by differences in water level between the Baltic and the Kattegat and can run strongly in either direction after a spell of wind, something launch crews and berthing masters keep an eye on. The harbour stretches along the city waterfront, with the ferry terminal close to the centre and the cargo quays spread along the shore beyond it.",
+      "The crossing to Helsingør is the port's most visible trade: frequent ro-pax departures carry cars, lorries and foot passengers between Sweden and Denmark through the day. Behind it sits a substantial cargo port. Helsingborg handles containers on feeder services connecting southern Sweden with North Sea transhipment hubs, ro-ro freight, dry bulk and liquid bulk, and it is generally counted as Sweden's second container port after Gothenburg. The ships are mostly short-sea tonnage: feeder container ships, ro-ro freighters, general cargo ships, small bulkers and coastal tankers, many of them on regular rotations that bring them back to the same berth every week or two. Their owners and managers are spread across Scandinavia, Germany and the Netherlands, so the person deciding on a gauging scope is rarely in Helsingborg when the ship is.",
+      "Ice seldom troubles the northern Sound, so the inspection calendar here is set by schedules rather than seasons. Ferry operators want work fitted into maintenance stops or kept for the annual docking, feeder owners want readings without delaying a loop, and ro-ro and bulk owners can usually spare more time. The harbour has also become a showcase for electric ferries, with batteries charged from the shore at each end of the crossing, and owners of conventional ships watching that example sometimes ask for a structural baseline before deciding on a retrofit of their own. Requests also come from managers whose feeders and coasters call regularly but who have no one of their own nearby to check a ballast tank or a deck repair."
+    ]
+  },
+  "facilities": {
+    "h": "Ferry berths, cargo quays and the next yard",
+    "p": [
+      "Most gauging in Helsingborg happens afloat. At the ferry berths near Knutpunkten, the city's ferry and rail interchange, a shuttle ferry's machinery spaces, voids and parts of the vehicle deck can be worked during a planned maintenance stop, but the main structural scope waits for the docking. At the container terminal the window is the feeder's berth time, so the crew prepares ballast tanks and opens access before the team boards. Ro-ro and bulk quays give more room to work, and a ship lying idle between charters or waiting for cargo is the best opportunity for a broad survey.",
+      "Helsingborg is not a dry-docking port. Ferries and cargo ships calling here generally dock at yards in Denmark, Germany, Poland or elsewhere around the Baltic and North Sea, chosen by the owner, and readings taken in Helsingborg are often the basis of the yard specification. Because Helsingør and Copenhagen are so close, ships on the Danish side of the Sound can be reached on the same trip, which helps operators with several vessels in the area."
+    ],
+    "list": [
+      "Ferry berths by Knutpunkten — vehicle-deck, ramp and machinery piping measurements on Helsingør shuttle ferries during maintenance stops.",
+      "Container terminal — ballast tank, deck and scrubber line readings on feeders within the berth window.",
+      "Ro-ro berths — trailer-deck plating, stern ramp and door structure gauged during lay-overs between sailings.",
+      "Dry and liquid bulk quays — hold, hatch coaming and ballast tank work on small bulkers and coastal tankers, with tank entry on the ship's permit.",
+      "Inner-harbour lay-by berths — pre-purchase and condition gauging on ships waiting for orders or cargo.",
+      "The owner's chosen docking yard — the team travels there to finish renewal-survey gauging begun in Helsingborg."
+    ]
+  },
+  "context": {
+    "h": "Swedish and EU rules for ships on the Øresund",
+    "p": [
+      "Foreign ships in Helsingborg are inspected by the Swedish Transport Agency under the Paris MoU, and the Danish Maritime Authority does the same across the Sound in Helsingør. Ro-pax ferries in regular service between EU ports are also covered by the EU inspection regime for ro-ro passenger ships and high-speed craft, Directive (EU) 2017/2110, which brings structured inspections before a ship enters service and at regular intervals afterwards. Hull condition, vehicle-deck structure and watertight and weathertight doors are central to those inspections, and gauging evidence helps an operator answer questions about wastage before they become deficiencies.",
+      "Battery conversions and shore charging are changing what superintendents ask to have measured on ferries here. Battery rooms add heavy foundations on decks that were not designed for them, new cable and cooling penetrations pass through bulkheads, and air-conditioning and cooling-water pipework adds corrosion-prone runs; all of these benefit from a thickness and crack-detection baseline. For feeders and other cargo ships, the familiar EU requirements apply: an Inventory of Hazardous Materials for ships calling at EU ports, emissions monitored for the EU ETS and FuelEU Maritime, and national limits on scrubber wash-water discharge close to the Swedish coast, which change how the system's pipework is used and where it wears."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs we typically see in Helsingborg",
+    "p": "Helsingborg work tends to be compact and well defined. A ferry operator wants a particular area measured before the docking specification is frozen, a feeder manager wants a ballast tank checked after a vetting or port state control remark, or a buyer wants condition readings on a ro-ro freighter that is about to change hands. Each scope is matched to the time the ship actually spends in port, with the agent and the ship's officers agreeing access before the team boards, and results go to the superintendent the same day so decisions can be taken before the ship sails. Typical jobs include:",
+    "list": [
+      "Battery-room foundations, adjacent deck plating and cooling-water pipework on a converted shuttle ferry, measured and crack-tested during a maintenance stop.",
+      "Ballast tank and deck gauging on a container feeder within one call, ahead of an intermediate survey due later in the year.",
+      "Trailer-deck plating, drainage gutters and stern ramp structure on a ro-ro freighter where de-icing salt has accelerated corrosion.",
+      "Pre-purchase condition gauging of a small bulk carrier lying at a lay-by berth, covering holds, hopper and topside tanks and main deck.",
+      "Scrubber wash-water and overboard line readings on a feeder whose system has started to show leaks at the shell penetration."
+    ]
+  },
+  "logistics": "Copenhagen Airport is the most practical international arrival point; from there trains run across the Øresund Bridge and up the Swedish coast to Helsingborg Central, which sits beside the ferry terminal. Ängelholm–Helsingborg Airport, north of the city, mainly serves domestic flights. Every terminal is ISPS-controlled, so the ship's agent arranges gate passes for the named technicians. Sweden and Denmark are both Schengen states, which means one Schengen visa lets the team travel from India and work on either side of the Sound.",
+  "vessels": [
+    "Ro-pax shuttle ferries",
+    "Container feeder ships",
+    "Ro-ro freighters",
+    "General cargo ships",
+    "Small bulk carriers",
+    "Coastal product and chemical tankers",
+    "Harbour tugs and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can a Helsingør shuttle ferry be gauged without taking it off the route?",
+      "a": "Partly. Short port stops are not long enough for enclosed-space work, but a planned maintenance stop gives time for machinery piping, voids and selected vehicle-deck areas. The complete structural scope, including double bottom and shell, is normally done at the annual docking. We help the operator split the programme so the in-service work feeds directly into the docking specification."
+    },
+    {
+      "q": "What should be measured after a ferry has been converted to battery power?",
+      "a": "The structure that carries the new load and the openings made for it: deck plating and stiffeners under battery-room foundations, the welds of the foundations themselves, bulkheads around new cable and pipe penetrations, and cooling-water and ventilation pipework. Thickness readings set a baseline, and magnetic particle testing at foundation welds finds early fatigue cracks on a ship that loads and unloads many times a day."
+    },
+    {
+      "q": "How much can be done on a container feeder during a Helsingborg call?",
+      "a": "That depends on berth time and preparation. If the crew has emptied, ventilated and certified one or two ballast tanks before arrival, those tanks plus deck plating and scrubber pipework can usually be measured within a normal call. We agree the order of work with the chief officer so that the most important readings are taken before cargo operations finish."
+    },
+    {
+      "q": "Do currents in the Sound affect work at anchor or by launch?",
+      "a": "They can. Water moving between the Baltic and the Kattegat sometimes sets strongly through the narrows, and together with wind it can make a launch transfer uncomfortable or unsafe. Most Helsingborg gauging is done alongside for that reason, and where a ship is waiting off the port, the agent and launch operator decide on the day whether boarding is safe."
+    },
+    {
+      "q": "Where do ships trading through Helsingborg go for docking?",
+      "a": "There is no commercial drydock in Helsingborg, so owners send ferries and cargo ships to yards in Denmark, Germany, Poland or further afield. Readings taken here are tied to the TM plan's frames and strakes, so the yard and the attending class surveyor can use them to plan steel and close-up survey, and our team can go to the yard to complete the programme."
+    }
+  ],
+  "nearby": ["helsingor", "copenhagen", "malmo", "halmstad", "gothenburg"]
+}

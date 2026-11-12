@@ -1,0 +1,106 @@
+{
+  "slug": "holyhead",
+  "name": "Holyhead",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Holyhead Ferry Thickness Measurement | Irish Sea Ro-Pax UTM",
+  "description": "Ultrasonic thickness gauging at Holyhead for Irish Sea ro-pax ferries, visiting cruise ships and workboats: vehicle decks, ramps, ballast tanks and piping.",
+  "h1": "Thickness Gauging for Ferries and Other Ships at Holyhead, Anglesey",
+  "intro": "Holyhead, on Holy Island off the north-west corner of Anglesey, is the main ferry port between Britain and Dublin, with ro-pax ships sailing several times a day across the Irish Sea. Ferries turn round fast, so gauging here means short, well-prepared scopes during layovers, and longer work when a ship lies over or before a refit elsewhere. Cruise ships and workboats call as well. Each job is staffed by technicians who travel from India to Anglesey and board through the ferry operator or the ship's agent.",
+  "keywords": [
+    "holyhead ferry thickness measurement",
+    "ro-pax vehicle deck gauging",
+    "ultrasonic thickness gauging holyhead",
+    "ferry ramp crack detection",
+    "irish sea ferry inspection",
+    "utm holyhead",
+    "pre-refit ferry gauging",
+    "ship inspection anglesey",
+    "bow visor and stern door mpi",
+    "ballast tank gauging ferry"
+  ],
+  "highlights": [
+    {
+      "h": "Two operators on one crossing",
+      "p": "Stena Line and Irish Ferries both run ro-pax services from Holyhead to Dublin. Their ships cross the Irish Sea several times a day in all seasons, so vehicle decks, ramps, bow and stern door structure and ballast tanks carry heavy cyclic loading year after year."
+    },
+    {
+      "h": "Layovers rather than long stays",
+      "p": "A ferry may be alongside for only a couple of hours between sailings, but timetables also contain longer gaps. We fit gauging into those gaps one package at a time, so readings accumulate across a week or two without holding up a single departure."
+    },
+    {
+      "h": "A harbour of refuge",
+      "p": "Holyhead's Victorian breakwater was built to give ships shelter on the Irish Sea, and vessels still use the harbour and bay to wait out bad weather. A ship sheltering there can be reached by launch for a short deck-level scope arranged through her agent."
+    }
+  ],
+  "port": {
+    "h": "Holyhead: Anglesey's ferry port on the Irish Sea",
+    "p": [
+      "Holyhead lies on Holy Island, divided from the rest of Anglesey by a narrow strait that road and railway cross, at the end of the historic routes from London to Ireland. The harbour opens onto Holyhead Bay and is protected by a breakwater begun in the 1840s, the longest in Britain, which created a large sheltered anchorage for sailing ships and steamers alike. Stena Line owns and operates the port, and the ferry terminal connects directly with the railway station and with the A55 expressway, which ends at the harbour. The approach from the Irish Sea is deep and open compared with the estuary ports further south, and the tidal range is moderate, but the Irish Sea itself can stay rough for days at a time in winter, which governs ferry operations and any launch work in the bay.",
+      "Traffic is dominated by the Dublin crossings. Stena Line and Irish Ferries run large ro-pax ships carrying cars, coaches, freight trailers and passengers, and freight makes up a major share of each sailing. Smaller numbers of other ships use the port: cruise ships call during the summer season, offshore and survey vessels occasionally use the quays for work in the Irish Sea, and fishing vessels and workboats use the inner harbour. In December 2024 storm damage to the ferry berths closed the port for several weeks and sent sailings to other ports, a reminder that one harbour carries much of the traffic between North Wales and Dublin, and that the berth a ship is using can change at short notice. Superintendents planning work here should keep that possibility in mind.",
+      "For inspection, Holyhead is a port of short windows. A ferry may be alongside only long enough to discharge and load, and a missed sailing has immediate consequences for passengers and freight customers alike. What helps is the regularity: the same ship returns to the same berth several times a day, week after week, and the timetable shows exactly where the longer layovers fall. Operators also take ships out of service for annual refits at yards elsewhere, and the weeks before a refit are when superintendents most want accurate readings to settle the steel work. Cruise ships in port for a day rarely allow gauging, although expedition and smaller cruise vessels sometimes have specific checks arranged during a call, and relief ferries covering a refit bring their own short-notice requests."
+    ]
+  },
+  "facilities": {
+    "h": "Where and when ships can be gauged at Holyhead",
+    "p": [
+      "Work on the ferries is done at their berths, during layovers agreed with the operator's technical department and the master. Vehicle decks are gauged when they are empty between discharge and loading, following a plan that divides each deck into areas small enough to finish in one window. Ballast tanks, voids and engine-room piping are often easier, because the crew can prepare them in advance and vehicle movements do not affect them. Ramps, bow visor and stern door structure, with their hinges and locking devices, can be checked by magnetic particle inspection when they are open and out of use.",
+      "Holyhead has no drydock able to take the ferries, so refits and docking surveys happen at yards elsewhere in Britain, in Ireland or on the continent. Gauging at Holyhead before the ship leaves for refit lets the operator send the yard a list of plating and piping to renew instead of discovering it on arrival. The inner harbour has quays for fishing vessels and workboats, where routine hull and deck gauging alongside is straightforward, and ships sheltering in the bay can be visited by launch when the sea allows it."
+    ],
+    "list": [
+      "Ferry berths — vehicle deck, ramp and ballast tank gauging on Dublin ro-pax ships during layovers.",
+      "Extended or overnight layovers — larger tank and piping programmes planned with the operator's technical team.",
+      "Cruise berth — targeted checks on visiting cruise or expedition ships by prior arrangement.",
+      "Inner harbour quays — hull and deck gauging on fishing vessels, workboats and small offshore craft.",
+      "Holyhead Bay inside the breakwater — launch-borne deck scopes on ships sheltering from weather."
+    ]
+  },
+  "context": {
+    "h": "Ferry regulation, emissions and port state control at Holyhead",
+    "p": [
+      "Ro-pax ferries on the Dublin route work under a dense set of rules: SOLAS and the passenger-ship stability requirements, flag-state surveys by the ships' registries, class surveys, and port state control by the Maritime and Coastguard Agency at Holyhead and by the Irish maritime authorities at the other end, both following Paris MoU procedures. Because the ships carry passengers, inspectors take ramps, doors and vehicle decks seriously, and operators keep detailed maintenance records. Readings that show where vehicle deck plating, ramp structure or ballast tank boundaries are thinning help an operator meet those expectations and avoid unplanned time out of service.",
+      "Since 2024 the EU Emissions Trading System has covered half of the emissions on voyages between an EU port and a non-EU port, which takes in every crossing between Holyhead and Dublin by ships of 5,000 gross tonnage and above. That has sharpened the focus on fuel efficiency and on whether to keep older ferries or replace them. Ships visiting UK ports are also expected to carry an Inventory of Hazardous Materials under the ship recycling rules Britain kept after leaving the EU. Holyhead sits within the Anglesey Freeport designated in 2023, and energy projects in the Irish Sea may bring more offshore vessels through the port in the years ahead."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs we typically see at Holyhead",
+    "p": "Most Holyhead work is ferry work, built around the timetable rather than a cargo plan. The operator's superintendent tells us which areas a coming refit, class survey or the company's own maintenance plan requires, and we divide that scope into packages that fit the layovers. Readings from each package join a running record, so by the time the ship leaves for refit the operator has a complete picture of the areas in question. Occasional jobs on workboats, fishing vessels or ships sheltering in the bay are planned through the agent, often at short notice, provided the team is already in the country.",
+    "list": [
+      "Pre-refit vehicle deck and ramp gauging on a Dublin ro-pax, spread across a week of layovers.",
+      "Ballast tank, void and sea-water piping UT on a ferry ahead of her intermediate survey.",
+      "MPI on bow visor, stern door hinges and locking devices during an extended layover.",
+      "Scrubber wash-water piping checks on a ferry fitted with an exhaust gas cleaning system.",
+      "Hull and deck condition gauging on a workboat or fishing vessel in the inner harbour."
+    ]
+  },
+  "logistics": "Holyhead is reached through Manchester Airport or Liverpool John Lennon Airport, then by rail along the North Wales coast or by road on the A55. London Heathrow is an alternative, with direct trains from London to Holyhead. The team travels from India on UK visas, and because ferry layovers can be planned weeks ahead, visas and travel are arranged in good time. Access to the ferry berths is through the port's security, with passes arranged by the operator or the ship's agent.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Cruise and expedition ships",
+    "Fishing vessels",
+    "Workboats and multicats",
+    "Offshore and survey vessels",
+    "Coasters"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ferry be gauged without missing a sailing at Holyhead?",
+      "a": "Yes, if the scope is split to fit the timetable. We agree with the operator which layovers can be used, prepare each package in advance, and keep the team clear of vehicle movements and departure preparations. Priority areas go first, and if a layover is cut short the work resumes on the next one. Nothing in our scope should ever hold a ferry at the berth."
+    },
+    {
+      "q": "Is there a drydock at Holyhead?",
+      "a": "Not for ships of ferry size. Ferries and other large vessels go to yards elsewhere for refits and docking surveys. Holyhead is where the preparation happens: gauging vehicle decks, tanks and piping before the refit, so the yard receives a list of steel and pipe renewals and the operator can judge how long the refit really needs to be."
+    },
+    {
+      "q": "Can you work on a ship sheltering inside the Holyhead breakwater?",
+      "a": "Sometimes. A ship waiting for weather in the bay can be boarded by launch if the agent and master agree conditions are safe, and a short deck-level scope is then possible: air pipes, deck plating, hatch coamings or a tank the crew has prepared. Sea state in Holyhead Bay depends heavily on wind direction, so the day is chosen with local advice."
+    },
+    {
+      "q": "What happens if a ferry is moved to another route or berth before the job?",
+      "a": "We follow the ship where we can. Ferry schedules are generally stable, but refits, relief vessels, berth repairs and weather can move a ship between routes or ports. We confirm the ship and berth a few days before travel, keep the scope packages flexible, and if the ship is switched to another port we look at whether the same work can be done there instead."
+    }
+  ],
+  "nearby": ["dublin", "liverpool", "heysham", "belfast", "drogheda", "milford-haven"]
+}

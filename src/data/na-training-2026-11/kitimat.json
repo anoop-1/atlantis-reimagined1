@@ -1,0 +1,20 @@
+{
+  "slug": "kitimat",
+  "lat": 54.05,
+  "lng": -128.65,
+  "localContext": "Kitimat hosts Rio Tinto's modernised aluminium smelter, LNG Canada's export terminal at Douglas Channel, deep-water marine berths and the pipelines serving them. Inspection covers process and cryogenic-service piping, pressure vessels, structural and marine steel, cranes and coastal corrosion. Projects run to owner and engineering-contractor specifications under Technical Safety BC and the BC Energy Regulator, and remote location with rotating crews favours online theory plus a practical at the work site.",
+  "certPathwayNote": "Owners and contractors in northwest BC may name CAN/CGSB-48.9712 (NRCan NDTCB or CWB Group, through a Recognized Training Organization, which Atlantis is not) or an employer-based SNT-TC-1A written practice, often when US owners or codes are involved. Radiography also needs CNSC exposure device operator certification.",
+  "salaryFrom": "vancouver",
+  "siblings": [
+    "vancouver",
+    "edmonton",
+    "calgary",
+    "fort-mcmurray",
+    "winnipeg"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Kitimat | Levels 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Kitimat smelter, LNG and marine employers: self-paced theory, simulator and practical at your site. Not CAN/CGSB-48.9712.",
+    "h1": "NDT Training in Kitimat, BC: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+  }
+}

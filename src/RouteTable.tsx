@@ -6906,8 +6906,8 @@ export default function RouteTable() { return (
                   <Route path="/consulting/ndt-regulatory-compliance" element={<LazyRoute Component={ConsultingSection} />} />
                   <Route path="/consulting/iso-9001-17020-17025-ndt" element={<LazyRoute Component={ConsultingSection} />} />
                   {/* 2026-10-18 inspection section — static routes outrank /inspection/:slug */}
-                  <Route path="/maritime-inspection" element={<LazyRoute Component={MaritimeSection} />} />
-                  <Route path="/maritime-inspection/:slug" element={<LazyRoute Component={MaritimeSection} />} />
+                  <Route path="/maritime" element={<LazyRoute Component={MaritimeSection} />} />
+                  <Route path="/maritime/:slug" element={<LazyRoute Component={MaritimeSection} />} />
                   <Route path="/inspection" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services/advanced-ndt" element={<LazyRoute Component={InspectionSection} />} />

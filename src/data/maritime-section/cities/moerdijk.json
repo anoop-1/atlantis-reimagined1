@@ -1,0 +1,107 @@
+{
+  "slug": "moerdijk",
+  "name": "Moerdijk",
+  "country": "Netherlands",
+  "region": "europe",
+  "title": "Moerdijk Ship UTM: Thickness Gauging for Short-Sea Ships",
+  "description": "Ultrasonic thickness measurement at Moerdijk for short-sea container ships, feeders and chemical tankers: deck, hold, ballast tank and piping gauging.",
+  "h1": "Ship Thickness Measurement at the Port of Moerdijk on the Hollands Diep",
+  "intro": "Moerdijk lies on the Hollands Diep, a few hours upriver from Rotterdam, and has grown into a short-sea and chemical port with scheduled sailings to Scandinavia, the British Isles, Iberia, France and Morocco. Its seagoing callers are mostly feeders, short-sea container ships and coastal chemical tankers, ships that return on a regular rotation and rarely stop for long. That regularity is what makes a gauging plan work. Technicians are sent from India to meet the ship on a confirmed Moerdijk call.",
+  "keywords": [
+    "thickness measurement moerdijk",
+    "utm moerdijk",
+    "ship gauging port of moerdijk",
+    "short-sea ship thickness gauging",
+    "feeder container ship inspection",
+    "chemical tanker piping inspection moerdijk",
+    "hull gauging hollands diep",
+    "ship inspection moerdijk",
+    "coaster thickness measurement netherlands",
+    "ballast tank gauging short-sea"
+  ],
+  "highlights": [
+    {
+      "h": "Scheduled short-sea rotations",
+      "p": "Feeders and short-sea container ships return to Moerdijk on fixed cycles. A gauging scope can be divided across successive calls, so a full set of ballast tank or deck readings is built up without the ship missing a sailing or a terminal slot."
+    },
+    {
+      "h": "Coastal chemical tankers at the terminals",
+      "p": "Small and medium chemical tankers serve the tank storage and the chemicals park, carrying parcels around the Rotterdam–Antwerp cluster. Their piping, heating lines and ballast tanks can be measured between parcels, under each terminal's permit system."
+    },
+    {
+      "h": "Docking a short passage downriver",
+      "p": "Ships trading to Moerdijk normally dock at the repair yards of the Rotterdam area, Schiedam included, a short passage away. Readings taken on a Moerdijk call go with the ship to whichever yard wins the docking, and become its steel plan."
+    }
+  ],
+  "port": {
+    "h": "Moerdijk: an inland seaport between Rotterdam and Antwerp",
+    "p": [
+      "The Port of Moerdijk occupies the south bank of the Hollands Diep, near the bridges that carry road and rail traffic between Holland and Brabant. It is not on the open coast. Seagoing ships reach it from Rotterdam by way of the Oude Maas and the Dordtsche Kil, a river route on which Rijkswaterstaat and the Port of Rotterdam Authority set additional rules. The port itself sets draught, length and beam limits for seagoing vessels, and the longest ships need a special exemption, so its callers are short-sea, feeder and coastal tonnage rather than deep-sea ships. Moerdijk describes itself as the fourth seaport of national importance in the Netherlands, and it is a core port in the EU's trans-European transport network.",
+      "Moerdijk built its trade on three things: a large industrial park centred on process and fine chemicals, a logistics park for warehousing and distribution, and short-sea shipping. The port calls itself the second container port of the Netherlands, with scheduled sailings to Scandinavia, Ireland, the United Kingdom, Spain, Portugal, France and Morocco. Shell's chemicals park and independent tank storage bring coastal chemical and product tankers, while a pipeline network links the site with Rotterdam, Vlissingen and Antwerp for chemicals and industrial gases. Inland barges carry much of the cargo onward, and seagoing ships share the basins with them. The result is a port of frequent, scheduled visits by small and medium-sized ships rather than long stays by large ones, and gauging has to be planned to match.",
+      "The Hollands Diep has been largely closed off from the sea by the Haringvliet sluices, so the tidal rise and fall at Moerdijk is far smaller than at the coast, and river discharge and wind matter as much as the tide. Ships lie alongside with little change in level, which keeps gangway access simple. Ice is rare on these waters but not unknown in a hard winter. The river passage from Rotterdam is made under pilotage and takes a few hours, so a ship's arrival becomes reliable once it has left the Maas, and the team can be at the gate when it berths. Most callers work cargo quickly, which means the useful time is counted in hours, not days, unless a ship is lying over between rotations or waiting for a cargo."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging windows at Moerdijk's terminals and quays",
+    "p": [
+      "Work at Moerdijk is done afloat, and the way to make it succeed is to match the scope to the ship's routine. A feeder that calls every week can carry a ballast tank programme over several visits, with the crew emptying and ventilating one or two tanks on passage before each call. A short-sea ship that lies over at weekends offers a longer window for deck, hatch and hold readings. The container terminal's working rules set where the team may move during cargo operations, and the agent agrees boarding times with the terminal and the master so that gauging never competes with the lashing gangs or the cranes.",
+      "At the chemical and tank-storage jetties, safety rules govern everything on deck. Deck structure, piping and accessible voids are typical permitted work during a call, while cargo tanks wait until the ship is cleaned and gas-free. For a docking, ships go downriver to the repair yards at Schiedam and elsewhere in the Rotterdam area, and a Moerdijk call a few weeks earlier is the natural moment for a pre-docking steel estimate. Owners who keep a coaster or feeder on a Moerdijk rotation for years can also use the calls for periodic condition gauging, tracking wastage rates over time instead of discovering them at the renewal survey."
+    ],
+    "list": [
+      "Container and short-sea terminal — deck, hatch coaming and ballast tank gauging on feeders, spread over successive scheduled calls.",
+      "Stolthaven Moerdijk and other tank-storage jetties — piping, deck and void-space readings on chemical tankers under the terminal's permit.",
+      "Jetties serving Shell's chemicals park — external piping and deck structure checks between parcels, with tank entry only once gas-free.",
+      "General cargo and bulk quays — hold, tank-top and hatch cover readings on coasters after discharge.",
+      "Lay-over berths used between rotations — longer owner's condition and pre-purchase gauging while the ship is idle.",
+      "Repair yards in the Rotterdam area — the docking destination where Moerdijk readings feed the steel plan."
+    ]
+  },
+  "context": {
+    "h": "Paris MoU, chemical-tanker scrutiny and short-sea economics",
+    "p": [
+      "Moerdijk falls under the same Paris MoU port state control regime as the coastal Dutch ports, with inspections by the Inspectie Leefomgeving en Transport. Short-sea ships calling every week are seen by inspectors far more often than a deep-sea ship that visits once a year, and an older feeder with visible deck wastage or a corroded air pipe is an easy target. Coastal chemical tankers face, in addition, the vetting inspections of the chemical companies whose parcels they carry, where structural condition and piping integrity are part of the questionnaire.",
+      "The economics of short-sea shipping make the steel question sharper. Many feeders and coasters on these routes are older ships, and the EU ETS, which covers ships of five thousand gross tonnage and above, together with FuelEU Maritime, adds a carbon bill to every voyage. A smaller coaster may fall below the ETS threshold yet still need an Inventory of Hazardous Materials, which applies from a much lower tonnage. When a renewal survey approaches, owners weigh another cycle against sale or recycling, and measured thickness data on deck, bottom and ballast tanks is what that decision rests on."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging work that fits a Moerdijk rotation",
+    "p": "Most Moerdijk jobs are planned across the ship's timetable rather than inside a single long stay. The superintendent sends the TM plan and the rotation, and we agree which spaces will be prepared for each call, how many technicians are needed to finish each block within the berth time, and how the readings will be combined into one report at the end. For tankers, the gas-free status of each space decides the order. Where a docking is coming up, the final block is finished in time for the yard specification. The examples below are the kind of work this port produces.",
+    "list": [
+      "A feeder container ship on a weekly Moerdijk call: ballast tanks gauged two at a time over successive visits, with the full set reported before its intermediate survey.",
+      "A coastal chemical tanker between parcels at a tank-storage jetty: deck piping, manifold and pump-room line wall thickness under the terminal's permit.",
+      "A short-sea general cargo ship lying over at the weekend: hatch coamings, hatch covers, hold frames and tank top measured while cargo work is stopped.",
+      "Pre-docking gauging on a feeder a few weeks before a Rotterdam-area docking, giving the yard a measured steel list for its specification.",
+      "Scrubber wash-water and overboard pipe checks on a short-sea container ship, done during a call with the system shut down."
+    ]
+  },
+  "logistics": "Moerdijk is reached by road from Rotterdam or Breda, and the nearest airports are Rotterdam The Hague and Eindhoven, with Amsterdam Schiphol and Brussels the main long-haul gateways. Terminal gates are under ISPS control and the chemical sites add their own safety inductions, so the agent registers the team in advance. A team from India travels on Schengen visas, applied for once the target call is identified; because calls here run to a timetable, travel can be fixed to a specific berthing rather than an open estimate.",
+  "vessels": [
+    "Feeder container ships",
+    "Short-sea container ships",
+    "Coastal chemical tankers",
+    "Product tankers",
+    "General cargo coasters",
+    "Short-sea bulk carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ballast tank programme be split over several Moerdijk calls?",
+      "a": "Yes, and on scheduled short-sea ships it is often the only practical way. The crew prepares a defined group of tanks on passage, the team gauges them during the berth time, and the next group follows on a later call. Each block is reported against the TM plan so the readings fit together, and the superintendent sees progress after every visit rather than waiting for the end."
+    },
+    {
+      "q": "Where does a ship trading to Moerdijk go for a drydock?",
+      "a": "Downriver. The repair yards in the Rotterdam area, including the docks at Schiedam, are a short passage from the Hollands Diep, and owners also compare yards in Zeeland, Belgium and Germany. Gauging on a Moerdijk call shortly before the docking turns the yard's steel allowance into measured figures, and the readings carry frame and strake references that the yard and the attending surveyor can use directly."
+    },
+    {
+      "q": "Can you gauge a chemical tanker while it works cargo at Moerdijk?",
+      "a": "Partly. Under the terminal's permit, deck plating, deck piping, manifolds, accessible voids and machinery-space lines can usually be measured while cargo is transferred. Cargo tanks and the spaces connected to them need cleaning, ventilation and a gas-free certificate first, so that part of the programme is planned for a later stop, a lay-by berth or the repair yard."
+    },
+    {
+      "q": "Does the river passage from Rotterdam affect planning?",
+      "a": "It helps more than it hinders. Once a ship has passed the Maas approaches and started up the Oude Maas, its berthing time at Moerdijk becomes predictable, which lets the team travel to meet a known arrival. What changes plans is the cargo side: a delayed container stack or parcel can shorten or lengthen the berth time, so the scope is ordered with the most important spaces first."
+    }
+  ],
+  "nearby": ["dordrecht", "rotterdam", "schiedam", "antwerp", "vlissingen"]
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "advanced-ndt",
+  "navLabel": "Advanced Marine NDT",
+  "title": "Advanced Marine NDT for Ships | PAUT, TOFD, ACFM, ECT, Mapping",
+  "description": "Advanced NDT on ships: phased array UT, TOFD flaw height sizing, ACFM and eddy current crack detection through paint, and corrosion mapping of plating.",
+  "h1": "Advanced marine NDT: when conventional methods are not enough on a ship",
+  "eyebrow": "Maritime inspection · Advanced NDT",
+  "intro": "Magnetic particle, penetrant and manual ultrasonic testing settle most questions on a ship. A few they settle badly: how deep a crack in a 70 mm hatch coaming plate runs, whether a painted bracket toe has cracked without blasting it bare, what a repair weld looked like inside once the staging has gone, or how much of a tank top has wasted rather than what one probe position reads. Advanced NDT exists for those jobs. Atlantis NDT chooses the method by the question and mobilises the team from India to the vessel.",
+  "highlights": [
+    {
+      "h": "Chosen by the question",
+      "p": "Each advanced method answers one question well: phased array gives a stored image of a weld, TOFD the height of a flaw, ACFM and eddy current find cracks through paint, and corrosion mapping shows wall loss across an area. We start from the question, not from the instrument."
+    },
+    {
+      "h": "Records that outlast the docking",
+      "p": "Encoded scans are saved as data files with the probe position on every line, so a superintendent, class engineer or yard can review the examination after the ship has sailed and set it beside the next scan of the same weld or plate."
+    },
+    {
+      "h": "Procedure agreed before travel",
+      "p": "Where a result has to count towards a class requirement, the procedure, scan plan and operator qualifications are put to the society before the team flies, because an accepted procedure decides whether the data is used far more than the make of instrument does."
+    }
+  ],
+  "sections": [
+    {
+      "id": "limits-of-conventional-ndt",
+      "h": "Where conventional NDT runs out on a ship",
+      "p": [
+        "Conventional methods are quick, portable and well understood by every surveyor, and for a handful of welds or a single cracked bracket they remain the right choice. Their limits show up in particular situations. Magnetic particle testing needs the coating removed down to bare steel or a thin sound film, which in a coated ballast tank means blasting, grinding and recoating every detail examined. Penetrant testing sees only what breaks the surface. Manual ultrasonic testing depends on what the operator saw on the screen at the moment of scanning, and afterwards only the written report remains.",
+        "Radiography is awkward on board for different reasons. It needs a controlled area cleared of people, which stops other trades in a yard and is often impossible during cargo or crew operations; it needs access to both sides of the joint; and it shows the length of a crack far better than its height through the wall. Spot thickness readings, finally, give a number at one point, which can miss a pitted patch a short distance away. Each of those gaps is what one of the advanced methods below is designed to close."
+      ]
+    },
+    {
+      "id": "methods-and-problems",
+      "h": "Advanced methods and the problems they solve",
+      "p": [
+        "The table matches each method to the question it answers on a ship. Every method has its own page in this section: Phased Array UT (PAUT), TOFD Inspection, ACFM Inspection, Eddy Current Inspection (ECT) and Corrosion Mapping, each with the technique, the standards, the limits and what the report contains."
+      ],
+      "table": {
+        "head": ["Method", "Question it answers", "Typical ship applications", "Main limits"],
+        "rows": [
+          ["Phased array UT (PAUT)", "Is there a flaw inside this weld, where is it and how long, with an image I can keep?", "Butt welds and inserts, full-penetration T-joints, crane pedestal welds, rudder horn and stern frame castings, thick block joints on large container ships", "Needs a sound scanning surface, room for the probe and wedge, and a qualified procedure for class use"],
+          ["TOFD", "How tall is the flaw through the plate thickness?", "Thick plate and heavy welds, crack sizing before a repair, tracking a known flaw between dockings", "Blind zones near both surfaces; usually paired with PAUT or pulse-echo UT"],
+          ["ACFM", "Has this painted detail cracked, and how long and deep is the crack?", "Hatch corners, bracket toes, side longitudinal end connections, crane pedestals, structural nodes on offshore units", "Surface-breaking cracks only on carbon steel; geometry signals at edges need careful reading"],
+          ["Eddy current (ECT)", "Is there a surface crack under thin paint, or in an aluminium or other non-ferrous part?", "Weld toes on painted steel, aluminium superstructures and high-speed craft, non-ferrous fittings", "Surface and near-surface only; coating thickness limit set by the procedure"],
+          ["Corrosion mapping", "How much wall has been lost across this area, and where is it worst?", "Tank tops, bottom and deck plating, plating around hatch coamings, sea chests, cargo and scrubber piping", "Surface condition, curvature and coatings affect coverage; needs water couplant and scanner access"]
+        ]
+      }
+    },
+    {
+      "id": "combining-methods",
+      "h": "Combining methods: why one technique rarely answers everything",
+      "p": [
+        "The strongest results come from pairs. On a thick butt weld, TOFD sizes the height of any flaw it sees but has blind zones just under the scanning surface and close to the far wall; a phased array scan run on the same encoded line covers those zones and characterises what TOFD found. On painted structure, ACFM or eddy current screens many details quickly with the coating left on, and only the details that give an indication are blasted locally for magnetic particle confirmation, followed where depth matters by ultrasonic sizing. In a pitted tank top, a corrosion map shows where the worst wastage sits and a hand-held dual-element probe and pit depth gauge confirm the minimum values the map points to.",
+        "Planning the pair at the outset saves a second visit. If the defect is a known crack near a bracket toe, for instance, the team arrives with the ACFM probe for screening, magnetic particle equipment for confirmation and a TOFD or phased array set for depth, rather than discovering on board that the first method could only find the crack and not tell anyone how far it runs."
+      ]
+    },
+    {
+      "id": "thick-plate-container-ships",
+      "h": "Thick plate on large container ships",
+      "p": [
+        "The largest container ships carry their hull girder bending loads in very thick upper flange structure: hatch coaming top plates, coaming side plates, sheer strakes and upper deck longitudinals. IACS UR S33, Requirements for use of extremely thick steel plates in container ships, applies to plates over 50 mm and up to 100 mm thick. Its measures include ultrasonic testing of all block-to-block butt joints of the upper flange longitudinal members in the cargo hold region during construction, and periodic NDT of the target block joints after delivery, at intervals the classification society sets.",
+        "For those periodic examinations an encoded phased array scan, with TOFD where flaw height is the concern, gives a record that can be compared from one docking to the next on the same joint, rather than a manual report that says only that no rejectable indication was found. Access to coaming joints often needs staging inside the hold, and the scope of joints is taken from the ship's class records, so both are settled with the superintendent before mobilisation."
+      ]
+    },
+    {
+      "id": "class-acceptance",
+      "h": "Class rules, procedure qualification and operator qualification",
+      "p": [
+        "IACS has unified requirements both for non-destructive testing of ship hull steel welds (UR W33) and for advanced non-destructive testing of materials and welds (UR W34), and the class societies build their rules on them. For advanced methods such as encoded phased array, TOFD and digital radiography, those rules expect the technique to be qualified for the joint and material in question: a written procedure approved by a Level III, demonstration on representative test pieces, and review by the society's surveyor. Whether a phased array scan can stand in for radiography on a particular joint is decided by the class rules and the accepted procedure, not by the inspection company.",
+        "In-service work, such as crack screening with ACFM or eddy current at fatigue-prone details, is normally agreed with the attending surveyor case by case. Some class rules and yard specifications also name a particular certification scheme for NDT operators; if yours does, tell us when you enquire, so we can confirm before anything is booked whether our team meets it.",
+        "Corrosion mapping is a form of thickness measurement, and thickness measurement credited to a class survey must be done by a firm the ship's society has approved under IACS UR Z17. Atlantis holds no such approval yet; audits for it with DNV, Lloyd's Register and ABS are in preparation. Until a certificate is issued, our mapping and gauging serve the owner's own decisions, such as condition checks between surveys, pre-docking steel estimates, pre-purchase inspections and on-hire or off-hire surveys."
+      ]
+    },
+    {
+      "id": "planning-on-board",
+      "h": "Planning access, surface, couplant and data on board",
+      "p": [
+        "Advanced methods are less forgiving of poor preparation than a yoke and a can of ink. Most of the planning is settled from drawings and photographs before the team travels, and the list below is what the superintendent or the yard is asked to arrange or confirm."
+      ],
+      "list": [
+        "Access to both sides of a weld where the scan plan needs it, with clear room along the scan line for the scanner, encoder and probe holders between stiffeners and brackets",
+        "A scanning surface free of weld spatter, loose scale and flaking paint; sound thin coatings can often stay for phased array, ACFM and eddy current, subject to the procedure",
+        "Clean water for ultrasonic couplant and somewhere for it to drain, which matters on tank tops and inside holds",
+        "Staging, cherry pickers or lighting for elevated joints such as coaming welds and crane pedestals",
+        "Enclosed-space entry under the ship's permit system, with gas-free certificates in a yard, and no grinding, gouging or welding on the same joint while scanning is under way",
+        "Time in the programme for the data to be reviewed before the staging is struck, so that any indication can be rescanned or confirmed while access still exists"
+      ]
+    },
+    {
+      "id": "data-and-reporting",
+      "h": "Data analysis and reporting",
+      "p": [
+        "Encoded methods produce data rather than a single answer, so analysis is part of the work. The operator checks coverage and data quality on board; indications are then measured, characterised and set against the acceptance criteria the client or the class has specified, and the report and data are reviewed under the supervision of our Responsible NDT Level III. The report gives each indication's position along the weld, depth, length and, where TOFD or phased array allows, through-wall height, with images, the scan plan and the calibration records.",
+        "Raw data files are supplied with the report in the instrument's native format, alongside images and tables that can be read without special software. The acceptance decision for class work belongs to the surveyor, and the repair decision to the owner and the yard; the report is written so that both can be made without re-entering the tank."
+      ]
+    },
+    {
+      "id": "who-does-the-work",
+      "h": "Who carries out advanced NDT for Atlantis",
+      "p": [
+        "Advanced NDT is planned and supervised by the founder, who is our Responsible NDT Level III and holds ASNT NDT Level III in UT, RT, MT, PT and VT, with more than eleven years of international field experience. Our technicians hold qualification and certification under the company's written practice to ASNT SNT-TC-1A, and the company's quality and environmental management systems are certified to ISO 9001 and ISO 14001. The team is mobilised from India for each job; there is no office, agent or partner at the port, so the dates follow visa lead times and the vessel's schedule."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR W33 – Non-destructive testing of ship hull steel welds",
+    "IACS UR W34 – Advanced non-destructive testing of materials and welds",
+    "IACS UR S33 – Requirements for use of extremely thick steel plates in container ships",
+    "ISO 13588 and ISO 19285 – Phased array ultrasonic testing of welds and its acceptance levels",
+    "ISO 10863 and ISO 15626 – TOFD of welds and its acceptance levels",
+    "ISO 15549 and ISO 17643 – Eddy current testing: general principles, and testing of welds by complex-plane analysis",
+    "ISO 16809 – Ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Written procedure and scan plan agreed before mobilisation",
+    "Indication tables with position, length, depth and through-wall height where the method gives it",
+    "Encoded data files in the instrument's native format, with images for readers without the software",
+    "Corrosion maps with a stated colour scale, minimum thickness and area below the chosen threshold",
+    "Calibration and equipment verification records",
+    "Operator qualifications and the Level III review of the report",
+    "List of areas not examined, with the reason for each"
+  ],
+  "industries": [
+    "Large container ships",
+    "Bulk carriers and ore carriers",
+    "Crude, product and chemical tankers",
+    "Offshore units and FPSOs",
+    "High-speed craft and ferries with aluminium structure",
+    "Ship-repair yards",
+    "Ship managers and owners' technical departments"
+  ],
+  "faqs": [
+    {
+      "q": "When should we use advanced NDT instead of MPI or manual UT?",
+      "a": "When the question cannot be answered well by the conventional method: when you need a stored record of a weld examination, the height of a flaw in thick plate, crack detection on painted structure without blasting, or a picture of wall loss across an area rather than spot readings. For a few accessible welds where only detection matters, magnetic particle or manual ultrasonic testing is usually quicker. We say which approach fits once we know the defect, the structure and the acceptance standard."
+    },
+    {
+      "q": "Will the classification society accept PAUT or TOFD results?",
+      "a": "It depends on the society's rules for the application and on an accepted procedure. Class rules built on IACS UR W34 expect advanced methods to be qualified for the joint and material, with a procedure approved by a Level III and reviewed by the surveyor. For in-service examinations the attending surveyor normally agrees the method beforehand. Tell us the class and the purpose of the examination when you enquire, and we prepare the procedure on that basis."
+    },
+    {
+      "q": "Can advanced NDT be done while the ship is trading?",
+      "a": "Often, yes. ACFM and eddy current screening of deck and hold details, phased array examination of crane pedestal welds, and corrosion mapping of empty ballast tanks or exposed deck plating can be done during port calls, provided spaces are safe to enter and the ship's operations allow access. Thick block joints on coaming structure usually need staging in an empty hold, and external bottom plating needs the ship in drydock."
+    },
+    {
+      "q": "Do you need to remove the paint?",
+      "a": "Not always. ACFM works through typical paint systems, eddy current works through thin non-conductive coatings within the limit the procedure sets, and phased array and corrosion mapping can often scan over a thin, well-bonded coating once the effect has been allowed for in calibration. Loose scale, spatter and flaking paint must still be removed along the scan line. Magnetic particle confirmation, where needed, requires local coating removal at the indication only."
+    },
+    {
+      "q": "What information do you need to plan an advanced NDT job?",
+      "a": "The vessel name or IMO number, class, the purpose of the examination, drawings of the structure or welds in question, any previous NDT or survey reports, photographs of the area, the port or yard and dates, and the acceptance standard if one is specified. Because the team is mobilised from India, early notice of the port and dates leaves time for visas and for the procedure to be agreed with the class where required."
+    },
+    {
+      "q": "What happens to the scan data after the job?",
+      "a": "You receive the raw data files with the report, together with images and tables readable without the instrument software. We keep a copy under our document control, so a later examination of the same joint or plate can be compared with it. Keeping the files matters most for welds and areas that will be examined again, such as thick block joints on container ships or a known flaw being watched until the next docking."
+    }
+  ]
+}

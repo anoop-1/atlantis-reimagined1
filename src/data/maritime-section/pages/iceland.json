@@ -1,0 +1,132 @@
+{
+  "slug": "iceland",
+  "navLabel": "Iceland",
+  "title": "Ship Thickness Measurement in Iceland | UTM at Icelandic Ports",
+  "description": "Ship ultrasonic thickness measurement in Iceland: UTM and hull gauging at Reykjavík, Hafnarfjörður and Akureyri for fishing, cargo, ferry and cruise ships.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Iceland",
+  "eyebrow": "Maritime inspection · Iceland",
+  "intro": "Iceland is an island nation whose economy rests on the sea, and nearly everything it imports or exports travels by ship. Reykjavík and neighbouring Hafnarfjörður on the south-west coast form the main port area, Akureyri anchors the north, and other harbours serve fishing and the aluminium industry. Atlantis NDT mobilises its team from India to the ship for each job, planned around Atlantic weather, the berth and Schengen visas, and takes ultrasonic thickness readings on fishing vessels, cargo ships, ferries and cruise ships for dockings, surveys and condition assessments.",
+  "highlights": [
+    {
+      "h": "Fishing vessels in demanding service",
+      "p": "Trawlers and processing ships work hard in cold, rough water and corrode where salt, ice and washdown meet steel. Gauging deck plating, fish hold structure and ballast tanks shows how much wastage has built up before the next yard period."
+    },
+    {
+      "h": "Island supply lines",
+      "p": "Container ships, ro-ro ships and fuel and bulk carriers are the lifeline of an island, and their owners cannot afford surprise yard time. Condition gauging between surveys gives a measured basis for planning dockings far from home."
+    },
+    {
+      "h": "Few yards on the island",
+      "p": "Docking capacity in Iceland is limited, so many ships go abroad for major work. Gauging at a Reykjavík or Hafnarfjörður berth before the voyage lets the owner brief the foreign yard on likely steel renewal."
+    }
+  ],
+  "sections": [
+    {
+      "id": "is-ports",
+      "h": "Where ships are gauged in Iceland",
+      "p": [
+        "Reykjavík is the capital and the country's busiest port, handling container ships, general cargo, fishing vessels, ferries and a large number of cruise ships in summer. The port serves the whole south-west of Iceland, where most of the population lives, and the container lines that connect Iceland with Europe and North America call here. Gauging in Reykjavík usually takes place at a berth during cargo operations in other holds, or during a layover, and the plan is built around the ship's discharge and loading programme.",
+        "Hafnarfjörður is a short distance south of Reykjavík and shares the same weather and approaches. It has its own harbour, with fishing vessels and cargo calls, and lies near Straumsvík, where the aluminium smelter receives raw materials by sea, so bulk carriers are among the visitors. For a ship whose agent finds Reykjavík crowded in the cruise season, Hafnarfjörður can be a practical alternative.",
+        "Akureyri lies at the head of Eyjafjörður, a long fjord on the north coast. It is a fishing port and an increasingly popular cruise destination, and coasters and cargo ships serve the north from here. Reaching it means a passage through the fjord, and the weather in the north differs from that in the south-west, so gauging dates need a different set of fallbacks. Other harbours around the island, such as Grundartangi and Reyðarfjörður, serve industry and fishing, and ships that call there are gauged on the same principles."
+      ]
+    },
+    {
+      "id": "is-fleet",
+      "h": "The ships and industries behind the work",
+      "p": [
+        "Fishing is the traditional backbone of Icelandic shipping, and the fleet of trawlers, fish processing ships and smaller boats is large for the size of the country. Container lines such as Eimskip and Samskip run regular services to Europe and North America, and ro-ro, fuel and bulk carriers bring in what the island needs and take out aluminium and fish products.",
+        "Cruise ships are the fast-growing visitor, with the main season in summer, and research and survey ships also use Icelandic ports. All of these ships work in an exposed North Atlantic environment, with cold water, ice in some seasons and heavy weather, so hull and structural wastage is a real concern and condition gauging between class surveys is sensible."
+      ]
+    },
+    {
+      "id": "is-regime",
+      "h": "Port state control and the rules that apply",
+      "p": [
+        "Iceland is a member of the Paris MoU, and port state control is carried out by the Icelandic Transport Authority. Iceland is not in the European Union but is in the European Economic Area and the Schengen area. Older ships with visible corrosion are as likely to draw attention here as anywhere else in the Paris MoU region, and owners often gauge key structure ahead of calls.",
+        "Iceland lies outside the North Sea and Baltic Sea sulphur emission control areas, so the global limit of 0.50% on marine fuel sulphur applies in its waters unless an exhaust gas cleaning system is fitted, and cruise ships and ferries running scrubbers should have wash-water and overboard piping checked. Rules on discharging scrubber wash-water, and on emissions in sensitive coastal areas, can differ by authority, and the ship's agent confirms the position for each call."
+      ]
+    },
+    {
+      "id": "is-practical",
+      "h": "Atlantic weather, daylight and distance",
+      "p": [
+        "Icelandic weather is the main practical constraint. Storms can close ports and delay boarding in any season, and winter brings short days and long darkness that affect working conditions on deck. Summer brings long daylight, but also the busy cruise season, when berths in Reykjavík can be tight. We plan gauging with fallbacks, agree who decides if weather stops work, and allow extra margin in the schedule.",
+        "Distance matters as well. Flights to Iceland, transfers from Keflavík to the harbour, and the sea passage for ships serving the north all add time, and anything that has to be shipped from outside the country takes longer than on the mainland. We confirm travel and access arrangements early so a delayed flight or a storm does not cost the job, and a spare day is built into any plan that depends on the ship staying alongside."
+      ]
+    },
+    {
+      "id": "is-services",
+      "h": "Which services Iceland asks for most",
+      "p": [
+        "Pre-docking hull gauging is the first request, because many Icelandic-flag and foreign ships go abroad for yard work and owners want a measured steel estimate before they leave. Fishing vessel owners ask for deck, fish hold and tank gauging, cargo and ro-ro owners ask for hull and ballast tank checks between surveys, and cruise and ferry operators ask for short-layover gauging of selected structure and piping.",
+        "Scrubber piping inspection is growing on cruise ships and ferries that run exhaust gas cleaning, and pre-purchase gauging supports the second-hand trade in fishing and coastal tonnage. Every reading is tied to a frame and strake location and set beside the as-built figure, so the diminution is visible at a glance to whoever reads the report."
+      ],
+      "list": [
+        "Pre-docking hull gauging before a voyage to a foreign yard",
+        "Deck, fish hold and ballast tank gauging on fishing vessels",
+        "Hull and tank checks on container, ro-ro and bulk ships between surveys",
+        "Scrubber wash-water and overboard piping checks",
+        "Pre-purchase condition gauging on second-hand tonnage"
+      ]
+    },
+    {
+      "id": "is-planning",
+      "h": "Planning a gauging job in Iceland from India",
+      "p": [
+        "The team travels from India for each job. Iceland is in the Schengen area, so Schengen visas are needed and lead time varies. We ask for the ship's schedule early so visa applications run alongside planning, and we agree a window that fits the ship's itinerary and leaves room for weather.",
+        "Tell us the vessel type, age and class, the thickness measurement plan, the spaces to be gauged, the berth or anchorage, and the dates. We confirm what is practical afloat and what must wait for a dock, and agree the report format for the owner, the surveyor or the buyer. The ship's agent arranges port access and any permits."
+      ],
+      "list": [
+        "Vessel type, age, class and the thickness measurement plan",
+        "Spaces to be gauged and gas-free status of tanks",
+        "Berth or anchorage and expected dates, with a weather fallback",
+        "Names for Schengen visa applications and port passes"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris MoU port state control",
+    "IACS UR Z10 series (hull surveys)",
+    "MARPOL Annex VI regulation 14 (sulphur limits)",
+    "ESP Code for tankers and bulk carriers",
+    "SOLAS Chapter II-1 (structure)"
+  ],
+  "deliverables": [
+    "Thickness measurement report with frame-by-frame readings",
+    "Steel renewal estimate before the yard period",
+    "Marked-up hull and tank sketches",
+    "Piping wall-thickness schedule",
+    "Corrosion summary for the owner or surveyor"
+  ],
+  "industries": [
+    "Fishing vessels and processing ships",
+    "Container ships",
+    "Ro-ro and ferry ships",
+    "Bulk and fuel carriers",
+    "Cruise ships",
+    "Coasters",
+    "Research and survey ships"
+  ],
+  "faqs": [
+    {
+      "q": "Which Icelandic ports are used for ship gauging?",
+      "a": "Reykjavík and Hafnarfjörður in the south-west are the main places, with Akureyri in the north and other harbours as needed. We choose the berth where the ship will lie long enough, and allow for weather and the summer cruise calendar."
+    },
+    {
+      "q": "Can weather stop a gauging job in Iceland?",
+      "a": "Yes. Storms can close ports and delay boarding in any season, and winter darkness affects working on deck. We plan fallbacks, agree in advance who decides when to stop, and allow extra margin in the schedule for flights and transfers."
+    },
+    {
+      "q": "Who carries out port state control in Iceland?",
+      "a": "The Icelandic Transport Authority carries out port state control under the Paris MoU. Iceland is in the EEA and the Schengen area but not the European Union. Owners with older ships often gauge key spaces beforehand and keep readings on board."
+    },
+    {
+      "q": "Is Iceland inside an emission control area?",
+      "a": "No. Iceland is outside the North Sea and Baltic Sea sulphur emission control areas, so the global 0.50% fuel sulphur limit applies unless a scrubber is fitted. Ships running scrubbers should still check wash-water and overboard piping, since wear occurs wherever they operate."
+    },
+    {
+      "q": "How does the team from India handle Icelandic entry requirements?",
+      "a": "Iceland is in the Schengen area, so team members need Schengen visas. We want the ship's schedule from the first message; applications are lodged when the job is confirmed, and the dates we propose reflect real visa processing, not a fixed promise."
+    }
+  ]
+}

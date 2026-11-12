@@ -1,0 +1,107 @@
+{
+  "slug": "peterhead",
+  "name": "Peterhead",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Peterhead Hull Gauging: UTM for Trawlers and Supply Vessels",
+  "description": "Thickness measurement in Peterhead for pelagic and whitefish trawlers, supply ships and vessels in Peterhead Bay: hull, RSW tank, hold and deck gauging.",
+  "h1": "Ultrasonic Thickness Measurement for Fishing and Offshore Vessels in Peterhead",
+  "intro": "Peterhead, on the Buchan coast north of Aberdeen, is the UK's leading fishing port and also hosts offshore supply and support work in the sheltered waters of Peterhead Bay. Pelagic trawlers with refrigerated seawater tanks, whitefish boats, supply vessels and visiting cargo ships all use the harbour. Landing days, refits and weather stops give time aboard. Atlantis keeps nobody in Peterhead: technicians travel from India to each vessel and work alongside in the fishing harbour or out in the bay.",
+  "keywords": [
+    "peterhead thickness measurement",
+    "ultrasonic thickness gauging peterhead",
+    "fishing vessel hull survey",
+    "pelagic trawler rsw tank inspection",
+    "trawler thickness gauging scotland",
+    "peterhead bay vessel inspection",
+    "supply vessel gauging peterhead",
+    "fishing vessel utm",
+    "hull gauging buchan",
+    "fish hold corrosion survey"
+  ],
+  "highlights": [
+    {
+      "h": "Pelagic and whitefish fleets at home",
+      "p": "No UK port lands more fish than Peterhead, and many of the trawlers working from it are large, steel-hulled vessels. Refrigerated seawater tanks, fish holds and shell plating near the waterline all corrode in ways that systematic thickness gauging tracks well from one refit to the next."
+    },
+    {
+      "h": "A harbour of refuge for offshore work",
+      "p": "Peterhead Bay, enclosed by two long breakwaters, gives sheltered berths and anchorage on an exposed coast. Supply, standby and construction vessels use it between campaigns and while weather passes, which opens windows for deck and tank gauging."
+    },
+    {
+      "h": "Fitting around landing days",
+      "p": "Fishing vessels spend little time in port during a trip, but landing, refit and maintenance days are predictable. Gauging is planned with the skipper and owner to use those days, with holds and tanks prepared once the catch is ashore."
+    }
+  ],
+  "port": {
+    "h": "Peterhead: fishing harbour and offshore bay",
+    "p": [
+      "Peterhead stands at the easternmost point of mainland Scotland on the Buchan coast, north of Aberdeen. Its harbour has two parts: the inner fishing harbour, with the fish market and the quays where trawlers land and refit, and Peterhead Bay to the south, a large expanse of water enclosed by the north and south breakwaters that was built as a harbour of refuge for ships caught on this exposed coast. Ships approach from the open North Sea with no estuary or lock to negotiate, but north-easterly and easterly gales raise a heavy sea at the entrance, and the port authority controls movements in bad weather. Inside the breakwaters the bay gives sheltered berths and anchorage even when the sea outside is rough, which is the main reason the offshore fleet uses it.",
+      "Fishing is the port's identity. The catch landed here includes whitefish such as cod and haddock, taken by demersal trawlers and seine netters, and pelagic species such as mackerel and herring, taken by large pelagic trawlers. Most boats are Scottish-owned, and foreign-flagged vessels land here at times as well, feeding a fish market and processing industry that depend on the flow. Alongside fishing, Peterhead has a long-established offshore role: supply bases in the bay serve North Sea installations, standby and construction vessels use the port between campaigns, and the harbour has handled decommissioning support work. Coasters and short-sea cargo ships bring bulk and general cargoes for the area, so the port sees steel merchant hulls as well as fishing vessels.",
+      "The rhythm of the port follows the fishing calendar and the offshore programme. Pelagic boats fish their quotas intensively in season and then lie in harbour for long periods, which is when refits, surveys and hull work are done; whitefish boats land more often and turn around quickly. Offshore vessels come in for crew changes, stores and shelter, and the bay fills when gales stop work offshore. For thickness gauging, the long harbour periods of the pelagic fleet and the weather-bound days of the offshore fleet are the most useful windows. Short landing calls suit a quick check of a known problem area, such as a fish hold bulkhead or a section of shell plating, rather than a full programme."
+    ]
+  },
+  "facilities": {
+    "h": "Where vessels are gauged at Peterhead",
+    "p": [
+      "Fishing vessels are gauged alongside in the inner harbour, usually once the catch has been landed and the holds or tanks washed out. On a pelagic trawler the refrigerated seawater tanks are the main concern: chilled seawater, fish residues and coating breakdown combine to attack tank plating and internal structure, so the tanks are emptied, cleaned and ventilated and the readings are taken in a pattern that shows pitting and grooving as well as general wastage. Shell plating in way of the waterline, fish pump and deck machinery foundations, and seawater cooling and refrigeration piping complete a typical scope.",
+      "Offshore and cargo vessels use the deep-water berths in Peterhead Bay, where gauging is done alongside or, for vessels at anchor inside the breakwaters, by boat from the harbour. For a full docking, vessels usually leave Peterhead: larger pelagic trawlers often go to yards in Norway, Denmark or the Netherlands, smaller fishing boats are slipped at yards along the Buchan and Moray Firth coast, and offshore vessels dock at Rosyth or across the North Sea. Readings taken in Peterhead before a refit give the yard a steel and coating list in advance."
+    ],
+    "list": [
+      "Inner fishing harbour quays — RSW tank, fish hold and shell gauging on trawlers after landing or during refit.",
+      "Peterhead Bay deep-water berths — deck, tank and piping gauging on supply, standby and construction vessels.",
+      "Anchorage inside the breakwaters — short scopes by boat on vessels sheltering from weather.",
+      "Offshore base quays in the bay — deck plating and crane foundation checks between offshore campaigns.",
+      "Cargo berths — hold and tank gauging on coasters discharging bulk and general cargo."
+    ]
+  },
+  "context": {
+    "h": "Fishing vessel rules, port state control and offshore audits",
+    "p": [
+      "Fishing vessels sit outside SOLAS and the normal port state control regime, so their structure is checked mainly through the UK's fishing vessel survey rules, administered by the Maritime and Coastguard Agency for UK-registered boats, through class surveys for those vessels that are classed, and through the owner's own maintenance. Pelagic trawlers fish in harsh winter seas and carry their catch in tanks that are constantly flooded and pumped out, and owners, insurers and buyers of second-hand vessels increasingly expect documented hull and tank condition rather than a visual judgement alone.",
+      "Merchant and offshore vessels calling at Peterhead are inspected by the MCA under the Paris MoU, on the basis of UK law since Brexit. Offshore vessels also face charterer assurance and OVID inspections, and the decommissioning and support work handled in the bay brings vessels whose decks and foundations have carried heavy, concentrated loads. On recycling, the UK applies its own ship recycling regulations instead of the EU regulation, which is mainly relevant to owners of older offshore and cargo vessels, and ships trading to EU ports keep an Inventory of Hazardous Materials for those calls."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs typical of Peterhead",
+    "p": "Peterhead work is split between the fishing fleet and the offshore and cargo ships using the bay. Pelagic trawler owners ask for RSW tank and hull gauging during the long harbour periods between seasons, usually before a refit or a class or flag survey, so the yard knows what steel and coating work to plan. Whitefish boats bring shorter jobs on fish holds, shell and piping when a problem has been spotted. Offshore vessels need deck, tank and foundation readings between campaigns, and cargo ships calling with bulk cargo offer routine hold and tank work. We plan fishing jobs with the owner and skipper around landing dates, and offshore jobs with the vessel's technical manager and agent.",
+    "list": [
+      "RSW tank gauging on a pelagic trawler tied up between mackerel and herring seasons, with pitting and grooving mapped tank by tank.",
+      "Fish hold, shell and seawater piping gauging on a whitefish trawler after a landing, following a leak reported by the crew.",
+      "Deck plating and crane foundation gauging with MPI on an offshore construction vessel sheltering in Peterhead Bay.",
+      "Cargo tank and deck gauging on a supply vessel between North Sea voyages.",
+      "Pre-refit steel survey on a pelagic trawler before she sails to a yard abroad."
+    ]
+  },
+  "logistics": "Aberdeen International Airport at Dyce is the arrival point, and from there the team drives north to Peterhead, which has no railway. Travel from India requires UK visitor visas, so we ask fishing vessel owners to tell us about a planned tie-up or refit early, and offshore owners to share likely port days with a fallback date. Access to the fishing harbour and to the bay berths is arranged through the port authority and the vessel's agent or owner, and offshore bases may ask for inductions before work starts.",
+  "vessels": [
+    "Pelagic trawlers with RSW tanks",
+    "Whitefish trawlers and seine netters",
+    "Platform supply vessels",
+    "Emergency response and rescue vessels",
+    "Offshore construction and support vessels",
+    "Coasters and short-sea cargo ships",
+    "Fishing vessels from other North Sea nations"
+  ],
+  "faqs": [
+    {
+      "q": "Why do RSW tanks on pelagic trawlers need thickness gauging?",
+      "a": "Refrigerated seawater tanks hold chilled seawater and fish for days at a time, then are pumped out, washed and refilled, so the plating sees seawater, fish oils and repeated temperature changes. Once the coating fails, pitting and grooving can develop quickly at welds and in corners. Regular gauging shows where wastage is advancing, so repairs can be planned for the next refit instead of being found as a leak."
+    },
+    {
+      "q": "Can a fishing vessel be gauged during a landing at Peterhead?",
+      "a": "A short scope, yes. During a landing the holds or tanks are being emptied, so we usually work on shell plating, engine-room piping and any area the crew has flagged, then move into holds and tanks once they are washed out. A full hull and tank programme fits better into a refit or a tie-up between seasons, when the vessel stays in harbour for longer."
+    },
+    {
+      "q": "Do you board vessels sheltering in Peterhead Bay?",
+      "a": "Yes, by boat from the harbour when the vessel is at anchor inside the breakwaters and conditions allow safe boarding. Offshore vessels waiting on weather often have crew free to prepare tanks, which makes the waiting time useful. If the vessel moves to a berth in the bay, the work simply continues alongside without needing a boat."
+    },
+    {
+      "q": "Where do Peterhead trawlers go for drydocking?",
+      "a": "That depends on size. Smaller fishing boats are often slipped at yards along the Buchan and Moray Firth coast, while many larger pelagic trawlers go to yards in Norway, Denmark or the Netherlands for major refits. Readings taken in Peterhead before the vessel leaves give the yard a firm list of plates and stiffeners to renew, so the yard period can be planned properly."
+    }
+  ],
+  "nearby": ["aberdeen", "montrose", "lerwick", "invergordon", "stavanger", "esbjerg"]
+}

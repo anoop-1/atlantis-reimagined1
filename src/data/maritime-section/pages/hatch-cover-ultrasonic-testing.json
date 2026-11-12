@@ -1,0 +1,190 @@
+{
+  "slug": "hatch-cover-ultrasonic-testing",
+  "navLabel": "Hatch cover ultrasonic tightness testing",
+  "title": "Hatch Cover Ultrasonic Tightness Testing | Leak Detection",
+  "description": "Ultrasonic hatch cover tightness testing: open hatch value readings, leak positions on every seal and cross joint, and pre-loading checks for dry cargo ships.",
+  "h1": "Hatch Cover Ultrasonic Tightness Testing: Leaks Located Before the Cargo Gets Wet",
+  "eyebrow": "Maritime inspection · Closing appliances",
+  "intro": "Water through the hatch covers spoils grain, rusts steel and ruins paper, and the claim usually arrives after discharge. An ultrasonic tightness test finds the leak paths before loading: a transmitter in the closed hold, a receiver run along every seal and cross joint outside, and each reading compared with the open hatch value. Atlantis NDT carries out ultrasonic hatch cover testing for owners, charterers and their surveyors, marking every leak position for the crew or the yard, with operators mobilised from India to the ship.",
+  "highlights": [
+    {
+      "h": "No water near the cargo",
+      "p": "Unlike a hose test, the ultrasonic method puts no water into the hold, works in freezing weather and can be carried out with the holds already loaded, so a pre-loading or pre-sailing check does not have to hold up cargo operations."
+    },
+    {
+      "h": "Leak positions, not just pass or fail",
+      "p": "Every joint is traversed and each reading recorded against its position, so the report shows which panel, which side and how far from the corner the sound escaped, and the crew can go straight to the packing or compression bar at fault."
+    },
+    {
+      "h": "Owner's checks and class work kept apart",
+      "p": "Pre-loading checks for charterers and P&I correspondents need no class approval. Testing credited to a class survey needs a firm approved by the ship's classification society under IACS UR Z17, and we say which purpose a test serves before it is booked."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-weathertightness-matters",
+      "h": "Why hatch cover weathertightness matters",
+      "p": [
+        "The hatch covers of a bulk carrier or general cargo ship close the largest openings in its weather deck, and the Load Line Convention requires them to be weathertight. In service that depends on a long run of rubber packing pressed evenly against steel compression bars, at the coamings and at every cross joint between panels. Packing ages, compression bars wear and bend, covers sag and cleats are left loose, and the result is water in the hold that nobody notices until the cargo comes out.",
+        "The cargoes that suffer most are those worth most when dry: grain, soya and rice that cake, sprout or heat; steel coils, plate and wire rod that rust; paper reels and pulp that receivers reject outright; and fertilisers and cement that set or degrade. Charterers and shippers of these cargoes often make a tightness test a condition of loading, and P&I clubs have long encouraged owners to test before loading rather than defend a wet-damage claim afterwards. A cover that leaks badly in heavy weather is a safety concern as well, not only a cargo one."
+      ]
+    },
+    {
+      "id": "how-the-test-works",
+      "h": "How the ultrasonic tightness test works",
+      "p": [
+        "The test uses sound at a frequency far above human hearing. A transmitter is placed inside the hold, on the tank top or on the cargo, and the hatch covers are closed and secured exactly as they would be at sea, with cleats and wedges engaged. Outside, the operator runs a hand-held receiver slowly along every seal: around the perimeter where the covers meet the coaming, along each cross joint between panels, and around access hatches set into the covers. Where the packing is compressed evenly the sound stays inside; where there is a gap, it escapes and the receiver registers it.",
+        "Before the traverse, the operator measures the open hatch value: the reading at an open hatch or access with the transmitter running, which represents sound escaping with nothing in the way. Every later reading is compared with it, so the result does not depend on the size of the hold or the output of the transmitter. Readings greater than a set fraction of the open hatch value mark a leak path; P&I guidance commonly uses 10 per cent, or the threshold the equipment manufacturer specifies. Readings that rise without reaching the threshold point to places where the packing touches the bar but compression is poor, which is where the next leak usually develops.",
+        "The equipment must be of a type approved for the purpose and calibrated, and the transmitter positioned so that its sound reaches every joint; in a long hold, or one partly filled with cargo, that can mean testing from more than one position. Loud machinery, cargo handling or strong wind near the joint can interfere with the readings, so the test is planned for a quiet period in the port programme where possible."
+      ],
+      "table": {
+        "head": ["Reading against the open hatch value", "What it usually means", "Usual action"],
+        "rows": [
+          ["Close to the background level", "Packing compressed evenly; joint tight", "None beyond routine maintenance"],
+          ["Raised, but below the leak threshold", "Contact present, compression reduced locally", "Check the packing for permanent set and the compression bar for wear or distortion at that position"],
+          ["Above the leak threshold (commonly 10% of the open hatch value, or the manufacturer's figure)", "A leak path through the joint", "Repair the packing, compression bar or securing, then retest the joint"]
+        ]
+      }
+    },
+    {
+      "id": "tests-compared",
+      "h": "Ultrasonic test, hose test and chalk test compared",
+      "p": [
+        "Three tests are in common use, and they answer different questions. A hose test sprays water at the joints from outside while someone inside the hold watches for it coming through; it is simple and visual, but it needs an empty hold, cannot be used with water-sensitive cargo aboard or in freezing weather, and a jet that misses a defect or does not reach every joint gives a false pass. IACS Recommendation No. 14 sets out the conditions under which a hose test should be carried out. A chalk test marks the compression bars with chalk and closes and reopens the cover to see whether the packing picked up a continuous line; it shows contact, not compression or tightness.",
+        "The ultrasonic test is the only one of the three that produces a measured reading at a known position, indicates compression as well as leakage, and can be carried out with cargo already in the hold. It does not replace looking at the covers: drain channels, non-return valves and the structure of the panels still need a visual examination, and no test can show that the crew will secure the covers properly at the next port."
+      ],
+      "table": {
+        "head": ["Test", "What it shows", "Main limits"],
+        "rows": [
+          ["Ultrasonic", "Leak paths and poor compression, with each position recorded", "Needs calibrated equipment, a trained operator and reasonably quiet conditions; does not check drains or structure"],
+          ["Hose test", "Water passing through a joint, seen from inside the hold", "Empty hold only; not with water-sensitive cargo or in freezing weather; can miss defects the jet does not reach"],
+          ["Chalk test", "Whether the packing touches the compression bar along its length", "No measure of compression or tightness; covers must be opened and closed"]
+        ]
+      }
+    },
+    {
+      "id": "what-is-examined",
+      "h": "What is examined: packing, compression bars, cross joints, drains and securing",
+      "p": [
+        "A tightness test is only as useful as the explanation of each leak, so the operator looks at the parts that make the seal while traversing them. The list below is what a typical test covers on side-rolling, folding and lift-away covers alike."
+      ],
+      "list": [
+        "Rubber packing in its retaining channels along the cover edges, checked for hardening, cracking, permanent set, paint, missing lengths and joins that have opened",
+        "Compression bars on the coaming top and at the cross joints, checked for wear, bending, wastage, cracks and misalignment",
+        "Cross-joint seals between folding or side-rolling panels, including the wedges and locators that pull the panels together",
+        "The coaming top plate and the steel-to-steel bearing pads, whose wear lets a cover sit too low and over-compress the packing",
+        "Drain channels and non-return valves, which must carry away water that passes the outer seal and stop it flowing back",
+        "Cleats, quick-acting cleats and their rubber washers, checked for corrosion, damage, missing parts and uneven adjustment",
+        "Access hatches, manholes and small covers set into the main panels"
+      ]
+    },
+    {
+      "id": "typical-defects",
+      "h": "Defects commonly behind a failed test",
+      "p": [
+        "Packing is the usual culprit. Rubber that has been compressed for years takes a permanent set and no longer springs back to fill the gap, sections are crushed where a cover has been landed off line, and lengths go missing or are joined badly after repairs. Packing painted over with the rest of the cover loses its elasticity. Renewing packing piecemeal with a different profile or hardness from the original leaves steps at the joins, and steps leak.",
+        "Steel faults are harder to see and take longer to put right, which is why their exact position matters. A wasted or bent compression bar, a distorted coaming top plate or worn bearing pads change the height at which the packing meets the bar, so the same cover can be over-compressed at one corner and open at the next. Cross-joint wedges and locators wear until the panels no longer pull together, and on folding covers the hinges and their pins do the same. Cleats over-tightened to stop a leak crush the packing nearby and often move the leak somewhere else.",
+        "Drainage is the last line of defence. Drain channels blocked with cargo residue or scale, and non-return valves that are seized, damaged or missing, let water that passes the outer seal into the hold or let sea water run back in through the drain. A joint can pass the test while the drains are what flood the hold, so they are looked at on every job."
+      ]
+    },
+    {
+      "id": "when-to-test",
+      "h": "When owners, charterers and P&I correspondents ask for a test",
+      "p": [
+        "Most tests are owner's or charterer's checks with no class involvement. The usual occasions are listed below; for each, the purpose decides how many holds are tested and whether a retest after repairs is part of the job.",
+        "P&I correspondents and cargo surveyors acting for a club or a charterer often attend these tests or commission them. In every case we work to the client's instructions and report what was found, without taking a view on liability."
+      ],
+      "list": [
+        "Before loading grain, steel products, paper, pulp, fertiliser or other water-sensitive cargo, often at the charterer's or shipper's request",
+        "On delivery into or redelivery from a charter, as part of an on-hire or off-hire condition survey",
+        "After hatch cover repairs, packing renewal or compression bar replacement, to confirm the work",
+        "After heavy weather, or after a wet-damage claim, to find where the water came in",
+        "As part of a pre-purchase inspection of a bulk carrier or general cargo ship",
+        "Before a class survey, so that defects are dealt with before the surveyor examines the covers"
+      ]
+    },
+    {
+      "id": "class-credited-testing",
+      "h": "Class-credited testing and the IACS UR Z17 rule",
+      "p": [
+        "IACS UR Z17, the procedural requirements for service suppliers, lists firms engaged in tightness testing of closing appliances such as hatches and doors with ultrasonic equipment among the service suppliers a classification society must approve before it relies on their results. When an ultrasonic test is carried out for a class survey, the society therefore expects a firm it has approved for that service, and its surveyor decides how the result is used.",
+        "Atlantis NDT is not approved by any classification society for this service. We are preparing for UR Z17 audits with DNV, Lloyd's Register and ABS; no certificate has been issued, and until one is issued that covers ultrasonic tightness testing, class-credited testing needs a firm approved by the ship's class society. Our tests serve the owner's and charterer's own decisions: pre-loading checks, on-hire and off-hire surveys, repair verification and checks between surveys, none of which needs class approval. Tell us the ship's class and the reason for the test when you enquire, so the scope and the report are set for the right purpose.",
+        "If a charterer, a P&I club or a class rule asks for operators certified under a particular scheme, include it in the enquiry and we will confirm what applies before the job is booked."
+      ]
+    },
+    {
+      "id": "on-board-and-report",
+      "h": "How a test runs on board and what the report contains",
+      "p": [
+        "Planning starts with the ship's particulars, the hatch cover type and maker, the number of holds, whether they will be empty or loaded, the port, the berth or anchorage, and the dates. The ship arranges for the covers to be closed and secured, power for the hydraulics, and safe access to the coaming tops and cross joints; the team brings and checks its own equipment.",
+        "On board, the open hatch value is taken for each hold, the transmitter is placed, and every joint is traversed and recorded. Each leak is marked on the cover so the crew can find it, photographed and plotted on a sketch of the hatch: the panel, the side, and its distance from a fixed reference such as a corner or a cleat. Where the crew can repair packing or adjust securing while the team is aboard, the affected joints are retested and both results reported.",
+        "The report gives, for each hold, the open hatch value, the readings along each seal, the leak positions on the sketch, observations of packing, compression bars, drains and cleats, photographs, and recommendations ranked by their effect on tightness. The instrument, its calibration and the operator are identified, and the report states plainly that the test records the condition on the day it was made."
+      ]
+    },
+    {
+      "id": "other-closing-appliances",
+      "h": "Doors, access hatches and container ship covers",
+      "p": [
+        "The same method applies to other closing appliances whose seals depend on compressed packing: weathertight doors in the superstructure and deckhouses, small access hatches on deck and in the forecastle, and the closing devices of ventilators. These are tested with the transmitter on the inner side and the receiver run around the frame, and the defects follow the same pattern of aged packing, distorted frames and worn dogs or cleats.",
+        "Container ships need care. Many have pontoon covers designed with gaps between panels and labyrinth seals rather than full weathertight packing, so the test plan follows the ship's design arrangement and does not treat a designed gap as a defect. On ships with fully gasketed covers, the test runs as it does on a bulk carrier."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z17 – Procedural requirements for service suppliers, including ultrasonic tightness testing of closing appliances",
+    "IACS Recommendation No. 14 – Hatch cover securing and tightness",
+    "International Convention on Load Lines, 1966, and its 1988 Protocol",
+    "IACS UR Z7 – Hull classification surveys, including hatch covers and coamings",
+    "The rules of the vessel's classification society",
+    "The hatch cover maker's maintenance manual"
+  ],
+  "deliverables": [
+    "Test report for each hold with the open hatch value and the readings along every seal",
+    "Hatch sketches with each leak position plotted by panel, side and distance from a reference",
+    "Photographs of leak positions and of defects in packing, compression bars, drains and cleats",
+    "Observations of packing, compression bar, drain and securing condition",
+    "Recommendations ranked by their effect on tightness",
+    "Retest results for joints repaired while the team is aboard",
+    "Instrument, calibration and operator details"
+  ],
+  "industries": [
+    "Bulk carriers",
+    "General cargo and multipurpose ships",
+    "Open-hatch and forest product carriers",
+    "Container ships with gasketed hatch covers",
+    "Ship managers and owners' technical departments",
+    "Charterers and shippers of grain, steel and paper",
+    "P&I correspondents and cargo surveyors",
+    "Ship-repair yards after hatch cover repairs"
+  ],
+  "faqs": [
+    {
+      "q": "What is the open hatch value?",
+      "a": "It is the reference reading taken before the test, with the transmitter running in the hold and the receiver at an open hatch or access, so that the sound escapes with nothing in the way. Every reading along the seals is compared with it. Expressing results against the open hatch value removes the effect of hold size and transmitter output, which is what makes readings comparable between holds and between ships."
+    },
+    {
+      "q": "Can the ultrasonic test be done with cargo in the hold?",
+      "a": "Yes. The transmitter can sit on the cargo or on the tank top beside it, and no water goes near the hold, so the test can be done after loading and before sailing, or at any port call during a loaded voyage. Very full holds can restrict where the transmitter is placed, and in that case the operator checks that the sound reaches every joint before relying on low readings."
+    },
+    {
+      "q": "Does an ultrasonic test replace the hose test at a class survey?",
+      "a": "That is for the classification society and its surveyor to decide. Where the society accepts an ultrasonic test for the survey, IACS UR Z17 requires it to be done by a firm the society has approved for ultrasonic tightness testing. Atlantis does not yet hold that approval, so our tests are for owners and charterers. They are still useful before a survey, because defects can be repaired before the surveyor examines the covers."
+    },
+    {
+      "q": "What does the crew need to prepare?",
+      "a": "Covers closed and secured as for sea, with every cleat and wedge engaged, power for the hydraulics, safe access to the coaming tops and cross joints, and lighting if the test runs after dark. Coamings and cross joints should be swept clear of cargo residue. Machinery noise and cargo handling near the hatch should be kept down while a hold is being traversed, and a crew member who knows the covers should stay with the team."
+    },
+    {
+      "q": "What happens when a leak is found?",
+      "a": "The position is marked on the cover, photographed and plotted on the hatch sketch, and the likely cause is noted: packing, compression bar, cross-joint wedge, cleat or drain. Crew repairs such as replacing a length of packing or adjusting cleats can often be done in port and the joint retested before the team leaves. Steel work on compression bars, the coaming top plate or bearing pads is passed to the superintendent for a yard or riding-crew repair."
+    },
+    {
+      "q": "Does a test that passes protect the owner against a wet-damage claim?",
+      "a": "It is good evidence of care taken before loading, because it records measured tightness at known positions on a known date. It does not settle every claim. Covers can be damaged or left unsecured later in the voyage, drains can block, and heavy weather can work a cover loose. The test records the condition on the day it was made, which is why the report states the date, the holds tested and any joints that could not be reached."
+    },
+    {
+      "q": "Do your operators hold a particular certificate for hatch cover testing?",
+      "a": "Tests are planned and supervised by our Responsible NDT Level III, the founder. Technicians are qualified and certified under the company's written practice to ASNT SNT-TC-1A and work to a written procedure for the instrument used. If a charterer, P&I club or class rule specifies an operator certificate, put it in the enquiry; we confirm what applies before anything is booked, rather than discovering a mismatch on board."
+    }
+  ]
+}

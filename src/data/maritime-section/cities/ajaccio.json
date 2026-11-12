@@ -1,0 +1,108 @@
+{
+  "slug": "ajaccio",
+  "name": "Ajaccio",
+  "country": "France",
+  "region": "europe",
+  "title": "Ajaccio Thickness Gauging | Ferry and Coaster UTM in Corsica",
+  "description": "Ultrasonic thickness measurement at Ajaccio, Corsica: mainland ferries, cruise calls, fuel and cargo coasters, tanks, decks and piping gauged alongside.",
+  "h1": "Ship Hull and Tank Gauging at the Port of Ajaccio, Corsica",
+  "intro": "Ajaccio is the main port of south-west Corsica. Ferries link it with Marseille, Toulon and Nice, coasters bring fuel, cement and general freight to the island, and cruise ships anchor off the old town in season. It has no large drydock, so gauging here happens afloat, in the gaps of a ferry or coaster timetable. Atlantis NDT sends its technicians from India to the ship, arranged through the ship's agent.",
+  "keywords": [
+    "ship thickness measurement ajaccio",
+    "ultrasonic thickness measurement in ajaccio",
+    "ajaccio ferry gauging",
+    "utm corsica",
+    "hull gauging corsica",
+    "ship inspection in ajaccio",
+    "coaster thickness measurement",
+    "tank gauging ajaccio port",
+    "corsica fuel tanker inspection",
+    "pre-docking gauging ferry"
+  ],
+  "highlights": [
+    {
+      "h": "Mainland ferry rotations",
+      "p": "Ro-pax ferries from Marseille, Toulon and Nice arrive on regular schedules. Their vehicle decks, ramps and ballast tanks can be gauged during a berth stay and the data used to set a docking steel estimate."
+    },
+    {
+      "h": "Island supply coasters",
+      "p": "Small tankers, bulk coasters and cargo ships feed Corsica's fuel and construction trades. A call at Ajaccio gives access to holds, deck structure and accessible tanks while the ship discharges."
+    },
+    {
+      "h": "Docking happens elsewhere",
+      "p": "Ships needing the bottom checked usually go to a mainland yard. Gauging at Ajaccio supplies the measured wastage list ahead of that docking, so steel work can be planned and ordered in advance."
+    }
+  ],
+  "port": {
+    "h": "Ajaccio, the gulf and the ships that call",
+    "p": [
+      "Ajaccio sits at the head of a wide, deep gulf on the west coast of Corsica, and the harbour opens to the south-west. The commercial quays lie beside the old town, with the ferry terminal close to the centre and cargo berths a short distance along the shore. The gulf's depth lets large vessels come in without difficulty, and the harbour gives reasonable shelter, though the south-westerly wind can make approaches and anchoring uncomfortable. For gauging, the main constraint is not the approach but how long a ship stays and how much of it the crew can release.",
+      "Passenger and vehicle ferries dominate the timetable. Ships from the French mainland make the crossing regularly, many of them operating under the public service arrangements that keep Corsica connected all year, and the same vessels return on a predictable cycle. Freight arrives mostly on coastal tankers, bulk coasters and short-sea cargo ships that serve the island's fuel depots, construction trades and supermarkets. Cruise ships anchor off the town between spring and autumn and run tenders ashore; these calls are too short for anything but a limited scope, and they depend entirely on a calm day.",
+      "The island's seasons shape the work. Summer is the heavy ferry period, with ships running at full stretch and little appetite for releasing tanks, while winter timetables are lighter and more suitable for an inspection that needs spaces to be opened. Superintendents often use that winter window to gauge a ferry afloat before it leaves for a docking on the mainland. Coasters follow the demand for fuel and building materials, which is steadier, so a berth stay during discharge is the natural time to gauge a hold or an accessible tank. Planning therefore starts from the ship's own rotation and from the weather forecast for the gulf."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging is realistic at Ajaccio",
+    "p": [
+      "Ajaccio has repair capacity for small craft and fishing boats, but not a drydock for ferries or sea-going cargo ships. A vessel that needs its shell, sea chests or propeller area examined out of water goes to a yard on the mainland, most often in the Marseille or Toulon area. What we can do at Ajaccio is the afloat portion: vehicle decks, hatch coamings, ballast tanks, void spaces, deck piping and the machinery-space and scrubber piping that the engineering team is ready to release. For many owners that is exactly the data a docking specification needs.",
+      "Berth stays at the ferry terminal give the longest uninterrupted time, since the ship is stationary while vehicles load. Cargo coasters at the commercial quays offer a window during discharge, when holds are empty and can be inspected after ventilation. Ships at anchor in the gulf, whether cruise ships or vessels waiting for a berth, can be reached by launch via the agent. Every compartment needing entry is gauged only under the ship's own entry permit system, and tank spaces on tankers wait for a gas-free certificate."
+    ],
+    "list": [
+      "Ferry terminal berths — gauging of vehicle decks, ramps, stern door structure and ballast tanks during turnarounds.",
+      "Commercial cargo quays — hold, hatch coaming and deck gauging on coasters while they discharge.",
+      "Fuel berth — deck plating, deck piping and accessible ballast tanks on small tankers, with gas-free tanks left for a yard stay.",
+      "Gulf of Ajaccio anchorage — launch-served gauging on cruise ships and vessels awaiting a berth, in settled weather.",
+      "Lay-by berths in the harbour — owners' condition checks on ships idle between charters.",
+      "Mainland yards in Marseille and Toulon — the usual docking destination, fed by readings taken in Ajaccio."
+    ]
+  },
+  "context": {
+    "h": "Port state control and rules that apply to ships at Ajaccio",
+    "p": [
+      "France belongs to the Paris MoU, and port state control inspections of foreign ships in French ports, including those in Corsica, are carried out by the national ship safety centres under the maritime administration. Ferries on island routes may be French-flag or foreign-flag, and the inspection regime treats them according to their risk profile. A visible deficit in structure or watertight integrity found at inspection can delay a sailing, which is a practical argument for an advance gauging check before the winter refit.",
+      "European regulation touches the same ships. Maritime transport has been part of the EU ETS since 2024, and the FuelEU Maritime rules have applied since 2025; both influence how long an owner keeps an older ferry or coaster in service, and so how much steel renewal it is worth spending on. The EU Ship Recycling Regulation requires an Inventory of Hazardous Materials on ships calling at EU ports. Because Corsica is an island with limited yard capacity, a thorough pre-docking gauging report also helps an owner book the dock slot and steel on the mainland with confidence."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Ajaccio",
+    "p": "Most jobs here are small and shaped by a ship's rotation. The superintendent sends the last gauging report and the survey due date, we identify which spaces can be released during the stay, and the team gauges those while the ship works its cargo or passengers. Typical requests:",
+    "list": [
+      "Ballast-tank and vehicle-deck gauging on a mainland ferry in winter, as input to a steel estimate for docking at a mainland yard.",
+      "Hold and hatch-coaming gauging on a bulk or general cargo coaster while it discharges at the commercial quay.",
+      "Deck, deck-piping and accessible ballast-tank readings on a small product tanker discharging at the fuel berth.",
+      "Condition gauging of a coaster on a lay-by berth for a buyer's pre-purchase inspection.",
+      "Scrubber piping and machinery-space pipework readings on a cruise ship at anchor in the gulf, if sea conditions allow a launch."
+    ]
+  },
+  "logistics": "Ajaccio Napoleon Bonaparte Airport serves the town, and flights from mainland France and several European cities connect it. Many technicians would route through Paris or another French hub on their way from India. The ship's agent arranges port access and any launch boat. France is part of the Schengen area, so Schengen visas are obtained in India before travel, usually once the ship's call or docking date is confirmed and the owner has supplied an invitation letter. Ferry and coaster calls are known in advance, which helps schedule the trip.",
+  "vessels": [
+    "Ro-pax ferries from the mainland",
+    "Small product and fuel tankers",
+    "Coastal bulk carriers",
+    "General cargo coasters",
+    "Cruise ships at anchor",
+    "Tugs and pilot boats",
+    "Fishing and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Is there a drydock at Ajaccio?",
+      "a": "Not for ferries or sea-going cargo ships. The port's repair work is for small craft and fishing boats. Ships needing bottom or sea chest inspection go to a mainland yard, typically around Marseille or Toulon. We can gauge afloat at Ajaccio first, so the yard receives a measured steel list when the ship arrives."
+    },
+    {
+      "q": "Can a ferry be gauged during its Ajaccio berth stay?",
+      "a": "Yes, in the spaces the crew can release. Vehicle decks, ramps and ballast tanks are the usual scope, and the plan is built around the loading sequence so the ship's operations are not delayed. Summer timetables leave little room; winter rotations allow a more thorough job and sometimes a second visit."
+    },
+    {
+      "q": "Can tank gauging be done on a small tanker at Ajaccio?",
+      "a": "Deck plating, deck piping and ballast tanks that the ship declares safe can be gauged during discharge. Cargo tanks need a gas-free certificate, which the ship normally arranges for a yard stay rather than a short fuel call. If the tanker is heading to a docking, we scope the cargo tanks for that visit instead."
+    },
+    {
+      "q": "What if the gulf is rough on the day of an anchorage job?",
+      "a": "We plan with a fallback. A strong south-westerly can make a launch transfer unsafe, so the schedule carries an alternative date or a berth call. The agent and the master decide on the day whether boarding is safe, and we do not ask a ship to compromise safety for a thickness reading."
+    }
+  ],
+  "nearby": ["bastia", "nice", "toulon", "marseille", "cagliari"]
+}

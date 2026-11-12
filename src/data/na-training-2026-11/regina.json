@@ -1,0 +1,20 @@
+{
+  "slug": "regina",
+  "lat": 50.45,
+  "lng": -104.61,
+  "localContext": "Regina's NDT work centres on a refinery and upgrader complex, steel pipe and tubular manufacturing, and contractors serving the potash mines outside the city. Provincially regulated pipelines run to CSA Z662 and interprovincial lines to the Canada Energy Regulator, while boilers and pressure vessels fall under the Technical Safety Authority of Saskatchewan. Rail, agricultural equipment and fabrication shops add steady magnetic particle, penetrant and visual work. Few full-time NDT schools serve the southern prairies, so online theory with a practical at the employer fits well.",
+  "certPathwayNote": "Most Regina jobs name CAN/CGSB-48.9712, certified through NRCan or CWB Group after training from a Recognized Training Organization, which Atlantis is not. Atlantis courses follow ASNT SNT-TC-1A, where the employer's written practice governs training, examinations and certification. They suit US-code fabrication, cross-border pipeline work and supply-chain customers who specify ASNT. Radiography also needs CNSC exposure device operator certification.",
+  "salaryFrom": "winnipeg",
+  "siblings": [
+    "saskatoon",
+    "winnipeg",
+    "calgary",
+    "edmonton",
+    "red-deer"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Regina | Level 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Regina employers and technicians: online theory, practical at your facility, UT, RT, MT, PT, VT and Level III support.",
+    "h1": "ASNT SNT-TC-1A NDT Training in Regina, SK: Level 1, 2 and 3 Courses"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "allentown",
+  "lat": 40.6,
+  "lng": -75.47,
+  "localContext": "Allentown, Bethlehem and Easton form the Lehigh Valley, a former steel region that now mixes heavy truck assembly (Mack Trucks' Lehigh Valley Operations in Macungie), industrial gas and cryogenic equipment (Air Products is headquartered in the area), utilities (PPL is based in Allentown), medical device and food manufacturing, cement and quarrying, and one of the East Coast's largest warehouse and logistics clusters. Work follows AWS D1.1, ASME Sections VIII and IX, ASME B31.3 and customer specifications. For training, that means employers who value technicians able to cross fabrication, cryogenic and structural work.",
+  "certPathwayNote": "Lehigh Valley employers certify NDT personnel under their own written practices, generally built on ASNT SNT-TC-1A. Pressure-equipment, truck and industrial-gas customers add flow-down requirements the employer and its Level III must meet. A course does not certify anyone; ASNT central certification is a separate credential for those who want one not tied to a single employer.",
+  "salaryFrom": "philadelphia",
+  "siblings": [
+    "philadelphia",
+    "pittsburgh",
+    "newark",
+    "baltimore",
+    "new-york"
+  ]
+}

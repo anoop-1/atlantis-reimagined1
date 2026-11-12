@@ -1,0 +1,109 @@
+{
+  "slug": "plymouth",
+  "name": "Plymouth",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Plymouth Ship UTM | Thickness Gauging at Millbay and Cattedown",
+  "description": "Ultrasonic thickness measurement in Plymouth for ro-pax ferries, coastal tankers, coasters and research ships: hull, holds, tanks and piping gauged alongside.",
+  "h1": "Ultrasonic Thickness Measurement for Merchant Ships in Plymouth",
+  "intro": "Plymouth is best known for the naval dockyard at Devonport, but its commercial harbour keeps busy too: Brittany Ferries sails from Millbay to Roscoff and Santander, coastal tankers bring fuel into the Cattewater, and coasters handle salt, fertiliser, clay, wood chips and cement at the wharves nearby. Plymouth Sound, behind its breakwater, offers sheltered anchorage. Merchant ships calling here can be gauged alongside during cargo work or a ferry lay-over, by a team that flies from India for the job.",
+  "keywords": [
+    "plymouth thickness measurement",
+    "ultrasonic thickness gauging plymouth",
+    "utm plymouth",
+    "ship inspection devon",
+    "coastal tanker inspection plymouth",
+    "ferry gauging millbay",
+    "cattedown ship inspection",
+    "coaster hold gauging",
+    "plymouth sound anchorage",
+    "pre-docking steel estimate"
+  ],
+  "highlights": [
+    {
+      "h": "Corrosive cargoes in the Cattewater",
+      "p": "Salt and fertiliser are hard on a dry-cargo hold. Coasters discharging them at Victoria Wharf can have side shell, frames, hopper plating and tank top gauged as each hold is emptied, which is where cargo-driven wastage shows first."
+    },
+    {
+      "h": "Coastal tankers on terminal terms",
+      "p": "Petroleum tankers at Cattedown Wharves are gauged within the terminal's permit rules: deck, piping and engine-room work alongside, and tank entry only when the ship is gas-free and both the terminal and the master agree to it."
+    },
+    {
+      "h": "Ferries with a regular rhythm",
+      "p": "The Roscoff and Santander ferries come back to Millbay on a set pattern, so ballast tanks, voids and vehicle-deck structure can be gauged a few spaces at a time across several stays before the winter refit."
+    }
+  ],
+  "port": {
+    "h": "Plymouth's harbours: the Sound, the Hamoaze and the Cattewater",
+    "p": [
+      "Plymouth Sound is a broad bay between Devon and Cornwall, sheltered from the south-west by a long breakwater built across its middle in the nineteenth century. Behind it, the Tamar estuary, known locally as the Hamoaze, runs past HMNB Devonport and the dockyard, while the smaller Cattewater, at the mouth of the River Plym on the east side of the city, holds the commercial wharves. Millbay Docks, below the Hoe, is the ferry port. The Sound and the Hamoaze form a dockyard port under the King's Harbour Master, and the Cattewater is a trust port run by the Cattewater Harbour Commissioners, who also operate Plymouth VTS for traffic in the approaches.",
+      "The commercial traffic is short-sea. Brittany Ferries runs from Millbay to Roscoff and to Santander, and Millbay also takes cruise calls in summer, with smaller cruise ships tendering passengers to the Barbican landing stage. In the Cattewater, Cattedown Wharves receives petroleum tankers and dry bulk, Victoria Wharf handles salt, clay, fertilisers, wood chips and project cargo, and Corporation Wharf runs a cement terminal supplied mainly from Santander. Berths there are dredged for coastal tonnage, and Corporation Wharf is a berth where ships sit on the bottom at low water. Plymouth's fishing fleet lands at Sutton Harbour, and research and survey vessels work from the city's marine science institutions.",
+      "Devonport dominates the Hamoaze, and it shapes the harbour's character: naval movements take priority in the dockyard port, and the drydocks there are given over to naval work. For merchant ships the useful time in Plymouth is time alongside a commercial berth. A coaster discharging in the Cattewater, a tanker at Cattedown waiting to complete its paperwork, a ferry lying over at Millbay or a research ship between cruises each gives a window that a planned gauging scope can fill. Ships waiting for a berth or for orders anchor in the Sound, where the breakwater keeps the sea down, and a launch can reach them from the city's harbours in most weather."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships can be gauged around Plymouth",
+    "p": [
+      "At the Cattewater wharves the work follows the cargo. A coaster with salt or fertiliser is gauged hold by hold as the grabs empty it, with the team working behind the discharge and coming back to the hatch covers and ballast tanks at the end. At Corporation Wharf, where cement ships take the ground at low water, the double bottom and bottom plating repay attention, because repeated sitting on the berth adds loads that an always-afloat ship never sees. Tankers at Cattedown are handled under the terminal's permit system, with deck and engine-room piping the usual scope during a discharge.",
+      "At Millbay the ferry berth gives time on the Roscoff and Santander ships between crossings, when tanks and voids released by the crew can be gauged and the vehicle decks and ramps are clear. Plymouth has no commercial drydock open to merchant ships, so a coaster or ferry needing a docking goes to Falmouth along the coast or to a yard abroad, and the readings taken here travel with it as a pre-docking estimate. For ships at anchor in the Sound, launches are booked by the agent, and the dockyard port's rules on movements apply to anything crossing the water."
+    ],
+    "list": [
+      "Victoria Wharf — hold, frame and tank-top gauging on coasters discharging salt, fertiliser or wood chips.",
+      "Corporation Wharf — bottom plating and double-bottom readings on cement carriers that take the ground at low water.",
+      "Cattedown Wharves — deck, cargo and ballast piping on coastal petroleum tankers under the terminal's permit rules.",
+      "Millbay Docks — ballast tank, void and vehicle-deck gauging on the Roscoff and Santander ferries during lay-overs.",
+      "Plymouth Sound anchorage — launch-borne deck and air-pipe readings on ships waiting for a berth or for orders.",
+      "Research and survey ship berths — hull and sea-water piping checks between research cruises."
+    ]
+  },
+  "context": {
+    "h": "Port state control, protected waters and the coastal tanker trade",
+    "p": [
+      "The Maritime and Coastguard Agency carries out port state control in Plymouth, applying Paris MoU procedures under UK law to foreign-flagged ships. The coasters and coastal tankers that use the Cattewater are often older ships, owned by small European operators, and they are the type most likely to be inspected closely for hold, hatch and tank condition. Coastal tankers also face oil-company vetting: inspections under OCIMF's SIRE 2.0 programme look at hull and piping condition, and a manager with recent thickness readings can answer the inspector's questions with figures rather than assurances.",
+      "Plymouth Sound and its estuaries are protected as a special area of conservation, and the city has declared the UK's first national marine park there. The harbour authorities expect contractors working on ships to keep debris and paint out of the water. For a gauging team, that means coating is removed only in small, contained spots to reach bare steel, and the dust is collected. The protected status also affects repair planning: hot work or blasting arising from a finding is planned with the harbour authority and the repair contractor, not improvised on the day."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Plymouth",
+    "p": "Jobs in Plymouth are mostly in-service gauging timed to a cargo call or a ferry lay-over, with the scope sized to the berth stay and agreed with the superintendent before the ship arrives. The agent confirms which wharf and how long; the terminal, where there is one, confirms what work is permitted. Bigger survey scopes are split across calls on ships that return regularly, as the ferries and many of the coasters do. Each set of readings is tied to the ship's frame and tank numbering, so later visits can be compared directly. The list below covers the work we expect here most often.",
+    "list": [
+      "Hold and tank-top gauging on a coaster discharging salt or fertiliser at Victoria Wharf, where cargo-related corrosion is the main concern.",
+      "Bottom shell and double-bottom readings on a cement carrier at Corporation Wharf, looking for wastage where the ship rests on the berth.",
+      "Deck and cargo piping UT on a coastal product tanker at Cattedown ahead of a SIRE 2.0 inspection.",
+      "Pre-refit steel estimate on a Western Channel ro-pax, built from tanks and voids gauged across several Millbay stays.",
+      "Sea-water piping and hull readings on a research vessel between cruises."
+    ]
+  },
+  "logistics": "Exeter Airport is the nearest with scheduled international flights; Plymouth's own airport closed some years ago. Teams usually arrive at Heathrow or Gatwick and take the train from London Paddington to Plymouth. Millbay, Cattedown and the other wharves are controlled areas, and the ship's agent arranges passes and any terminal induction in advance. Technicians travel from India on UK visas, so we ask for the expected call as early as possible and fix the visit once the agent confirms the berth.",
+  "vessels": [
+    "Ro-pax ferries to Roscoff and Santander",
+    "Coastal petroleum tankers",
+    "Dry-cargo coasters",
+    "Cement carriers",
+    "Project cargo ships",
+    "Small cruise ships",
+    "Research and survey vessels",
+    "Fishing vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can a coaster's holds be gauged while it discharges in the Cattewater?",
+      "a": "Yes. The team works behind the discharge, gauging each hold as it is emptied and cleared enough to reach the side shell, frames, hopper plating and tank top. Salt and fertiliser cargoes leave residues that speed up corrosion, so we pay particular attention to the lower hold and the tank top. Hatch covers and ballast tanks follow once the deck is free."
+    },
+    {
+      "q": "Do you gauge ships at anchor in Plymouth Sound?",
+      "a": "We can, by launch booked through the ship's agent, when the weather allows safe boarding. The breakwater shelters the Sound well, though a strong south-westerly can still make a launch transfer uncomfortable. Anchorage time suits deck, hatch and air-pipe readings; tank entry is easier to organise alongside, so if the ship is due a berth within a day we usually wait for it."
+    },
+    {
+      "q": "Where do merchant ships from Plymouth go for a drydock?",
+      "a": "The drydocks at Devonport are given over to naval work, so merchant ships dock elsewhere, often at Falmouth or at a yard on the Continent. We can gauge the ship in Plymouth before it sails for the docking, giving the yard a steel and pipe list in advance so material can be ordered and the work planned before the ship is in the dock."
+    },
+    {
+      "q": "Why gauge the bottom of a ship that sits on the mud at its berth?",
+      "a": "A ship that takes the ground at low water, as cement carriers do at Corporation Wharf, puts loads into its bottom plating and double bottom that a ship always afloat avoids. Combined with wastage from inside, that can thin and distort plating over time. Gauging the bottom shell from inside the double bottom gives the owner figures to compare with the original thickness and the class margins."
+    }
+  ],
+  "nearby": ["falmouth", "portland-dorset", "brest", "southampton"]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "montrose",
+  "name": "Montrose",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Thickness Measurement Montrose | Wind and Offshore Vessels",
+  "description": "Thickness gauging at Montrose Port for offshore wind crew transfer and service vessels, supply ships and coasters: hull, deck, tank and piping UTM.",
+  "h1": "Ultrasonic Thickness Gauging for Vessels Working from Montrose Port",
+  "intro": "Montrose Port sits at the mouth of the South Esk on the Angus coast, a compact trust port serving North Sea oil and gas, offshore wind and general cargo. The Seagreen wind farm is maintained from a base here and the Inch Cape project uses the port for construction, so crew transfer and service vessels are in and out every day. We mobilise inspection technicians from India to gauge these vessels, supply ships and visiting coasters during crew changes, maintenance days and cargo calls.",
+  "keywords": [
+    "montrose thickness measurement",
+    "ultrasonic thickness gauging montrose",
+    "crew transfer vessel inspection",
+    "aluminium hull thickness gauging",
+    "offshore wind vessel utm",
+    "montrose port ship inspection",
+    "supply vessel gauging angus",
+    "seagreen vessel inspection",
+    "coaster hull gauging scotland",
+    "ctv bow fender inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Wind farm vessels on their home quay",
+      "p": "Crew transfer and service vessels for Seagreen and Inch Cape return to Montrose daily or between rotations. Short maintenance windows suit focused gauging of hulls, deck fittings and fuel tanks, spread over several visits where a full scope is needed."
+    },
+    {
+      "h": "Aluminium and steel hulls",
+      "p": "Many crew transfer vessels have aluminium hulls, which need a gauge set up for aluminium and readings judged against the builder's thicknesses. Supply ships and coasters are steel. We bring reference blocks for both materials, so a mixed fleet is covered in one visit."
+    },
+    {
+      "h": "A narrow entrance with strong streams",
+      "p": "Tidal streams run strongly through the narrow harbour entrance, so ship movements are timed with the pilot. Once alongside, vessels lie at the quay for their working period, and gauging is planned around their sailing time rather than around the state of the tide."
+    }
+  ],
+  "port": {
+    "h": "Montrose: a compact port between Dundee and Aberdeen",
+    "p": [
+      "Montrose lies on the Angus coast between Dundee and Aberdeen, at the point where the River South Esk leaves the tidal Montrose Basin and runs out to the North Sea. The harbour is built along the river's narrow lower reach, so ships come straight in from the sea through a short entrance channel and lie at quays along the river. The ebb and flood through the entrance are notably strong because the whole basin fills and drains through it, and the port's pilots time arrivals and departures accordingly. The port is a trust port managed by the Montrose Port Authority, and its quays, sheds and open laydown areas are compact enough that a team can walk from one vessel to the next in minutes, which is unusual for a port with this much offshore activity.",
+      "Traffic has three strands. Oil and gas companies use the port for supplies, maintenance and decommissioning support, so platform supply vessels and other offshore craft call and pipe and equipment move across the quay. General cargo continues with forest products, agricultural and dry bulk cargoes and break bulk on coasters and short-sea ships. The third and fastest-growing strand is offshore wind. SSE's Seagreen wind farm, fully operational since 2023, is run and maintained from an operations base at the port, and the Inch Cape project off the Angus coast uses Montrose as its construction base and future operations hub. That brings crew transfer vessels, larger service vessels and a steady flow of project cargo, and companies serving offshore moorings are based at the port as well.",
+      "Weather shapes the working week. Easterly and north-easterly gales throw swell at the entrance and can stop vessel movements altogether, which leaves wind farm vessels in port and gives a gauging team time aboard that it would not otherwise get. In calmer spells the crew transfer vessels are out at the turbines from early morning, and the useful windows are evenings, planned maintenance days and crew changes. Supply vessels follow the offshore programme and may spend a day or two alongside loading. Coasters discharging cargo usually stay long enough for hold and tank checks. A sensible plan for Montrose therefore combines a few fixed appointments with the flexibility to use weather days when they come, and winter, with its shorter days and more frequent gales, tends to offer more of them than summer."
+    ]
+  },
+  "facilities": {
+    "h": "Quays and windows for gauging at Montrose",
+    "p": [
+      "All gauging at Montrose is done alongside. On a crew transfer vessel the scope usually covers hull plating from inside, fuel and water tanks, the bow fender structure that takes the push-on loads at the turbine boat landings, deck fittings and the mountings for any crane or gangway, and engine-room piping. Readings on aluminium need a different sound velocity setting from steel, and we check the setting on a reference block of the same alloy before starting. Larger service vessels and supply ships are gauged in the conventional way: decks, tanks, piping and, where requested, crack detection on crane and deck equipment foundations.",
+      "For a docking, vessels based at Montrose go elsewhere. Crew transfer vessels are often lifted out at a boatyard with a hoist, while larger offshore and cargo ships use drydocks such as Rosyth's or yards across the North Sea. The value of Montrose for an owner is that the vessel is close at hand for most of its working life, so condition can be tracked in small steps between dockings and the pre-docking steel and repair list prepared well ahead of the yard period."
+    ],
+    "list": [
+      "Wind farm operations quays — crew transfer and service vessel hull, tank, bow fender and deck fitting gauging between transfers.",
+      "Offshore supply berths — deck plating, cargo tank and piping gauging while a supply vessel is loading or waiting on weather.",
+      "General cargo berths — hold and tank gauging on coasters discharging forest products and bulk cargoes.",
+      "Construction base berths — deck and crane foundation checks on project vessels supporting the Inch Cape build.",
+      "Weather-bound days in port — longer scopes when easterly swell keeps the fleet alongside."
+    ]
+  },
+  "context": {
+    "h": "Port state control, wind farm charters and small-craft rules",
+    "p": [
+      "Merchant ships and larger offshore vessels calling at Montrose come under port state control by the Maritime and Coastguard Agency, which inspects within the Paris MoU on the basis of UK legislation. Many of the smallest vessels in the wind fleet sit under different rules: crew transfer vessels are commonly built and operated to the UK Workboat Code or to class rules for high-speed and light craft, and their surveys look at hull structure, fendering and fittings rather than the cargo-area gauging programmes of a bulk carrier. The charterer is often the stricter judge, because wind farm operators audit vessels before and during a charter.",
+      "Oil and gas work from the port is assessed through operators' vessel assurance and OCIMF's OVID inspections, while wind farm owners run audit regimes of their own with similar expectations of documented hull and deck condition. For older supply vessels moving between oil and gas and wind charters, a current thickness record avoids awkward questions at the audit stage. The UK applies its own ship recycling regulations rather than the EU regulation, which matters mostly to owners selling older tonnage, and coasters trading to EU ports carry an Inventory of Hazardous Materials as they would at any continental port."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging work we see around Montrose",
+    "p": "Montrose jobs are mostly small and repeated rather than large and occasional. A wind farm operator may want each crew transfer vessel in its fleet checked before a charter renewal, which suits a short visit covering several hulls. Supply vessel owners ask for deck, tank and piping readings when a vessel spends a day alongside. Coasters bring hold and tank work during discharge, and project vessels supporting construction offshore need deck and foundation checks when their campaigns end. We plan the visits with the operator's marine coordinator or the ship's agent, and keep the team's schedule flexible enough to use a weather day if the fleet is kept in port.",
+    "list": [
+      "Hull plating, fuel tank and bow fender structure gauging on a fleet of aluminium crew transfer vessels before a charter renewal.",
+      "Deck, crane pedestal and gangway foundation checks with MPI on a wind farm service vessel during a planned maintenance day.",
+      "Cargo tank and deck plating gauging on a platform supply vessel loading for the offshore installations.",
+      "Hold and double-bottom tank gauging on a coaster discharging timber or agricultural cargo.",
+      "Pre-docking readings on an offshore vessel before she leaves Montrose for a yard period elsewhere."
+    ]
+  },
+  "logistics": "Aberdeen International Airport is the closer international gateway, to the north, and Edinburgh Airport serves arrivals from the south; Montrose has its own station on the railway linking the two cities. The team travels from India on UK visitor visas, so a fleet visit planned a few weeks ahead is easier to arrange than a single urgent call. Port access is arranged through the port authority, the vessel's agent or the wind farm operator's marine coordinator, and operators usually require site inductions before anyone boards their vessels.",
+  "vessels": [
+    "Crew transfer vessels",
+    "Offshore wind service and support vessels",
+    "Platform supply vessels",
+    "Anchor handlers and mooring support vessels",
+    "Short-sea general cargo ships and coasters",
+    "Dry bulk carriers on short-sea trades",
+    "Project cargo and multipurpose vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge aluminium crew transfer vessels at Montrose?",
+      "a": "Yes. Aluminium carries sound at a different velocity from steel, so the gauge is set up for the alloy and checked on a reference block before readings start. We gauge hull plating from inside where accessible, tanks, bow fender structure and deck fittings, and report against the builder's thicknesses. Penetrant testing is the right crack check on aluminium welds, because magnetic particle testing only works on ferromagnetic steel."
+    },
+    {
+      "q": "What happens if the weather keeps the wind farm fleet in port?",
+      "a": "Then the team uses it. Easterly swell at the entrance or high seas at the turbines can keep crew transfer vessels alongside for a day or more, and those days are often the best chance to open tanks and work through a full hull scope. We agree in advance with the operator which vessels to gauge first if the fleet is held in, so no time is lost deciding."
+    },
+    {
+      "q": "Is gauging affected by the strong tide at the harbour entrance?",
+      "a": "The work itself is not, because vessels are alongside when we gauge them. The tide affects when ships arrive and leave, since movements through the entrance are timed for the stream, so the sailing time a vessel gives us can be fixed by the tide rather than by its cargo. We plan the scope to fit that window and confirm it with the master."
+    },
+    {
+      "q": "Can you inspect several vessels in one Montrose visit?",
+      "a": "Yes, and that is usually the most practical way to work here. The port is compact, so a team can move between crew transfer vessels, a supply ship and a coaster on the same days. Fleet owners with several vessels based at the port often book one visit that covers each vessel in turn, fitted around their transfer schedule."
+    }
+  ],
+  "nearby": ["dundee", "aberdeen", "peterhead", "leith", "rosyth"]
+}

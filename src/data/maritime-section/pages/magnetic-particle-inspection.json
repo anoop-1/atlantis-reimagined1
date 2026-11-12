@@ -1,0 +1,175 @@
+{
+  "slug": "magnetic-particle-inspection",
+  "navLabel": "Magnetic Particle Inspection (MPI)",
+  "title": "Magnetic Particle Inspection (MPI) on Ships | Crack Detection",
+  "description": "Magnetic particle inspection (MPI) on ships: crack detection at hatch corners, bracket toes, crane pedestals, rudder stocks and shafts, to ISO 17638.",
+  "h1": "Magnetic particle inspection (MPI) for ship structure, stern gear and lifting appliances",
+  "eyebrow": "Maritime inspection · Marine NDT",
+  "intro": "Magnetic particle inspection is the method marine surveyors and superintendents reach for when a steel weld or a forged part may have cracked. It shows surface-breaking and slightly subsurface cracks clearly, gives their length on the spot and needs nothing more than a portable yoke and a power supply. Atlantis NDT carries out MPI on hatch corners, bracket toes, crane pedestals, rudder stocks, pintles, shafts and repair welds, with teams mobilised from India to the shipyard, the berth or the anchorage.",
+  "highlights": [
+    {
+      "h": "Cracks shown, not inferred",
+      "p": "A crack in magnetised steel leaks magnetic flux, and the particles gather over it as a visible line. The indication is marked, measured and photographed on the part itself, so the surveyor and the yard see the same crack the technician saw."
+    },
+    {
+      "h": "Suited to the places ships crack",
+      "p": "Hatch corners, bracket toes, crane pedestal welds, rudder stock tapers and shaft keyways are ferromagnetic steel with well-known fatigue hot spots. MPI examines them quickly once a band either side of the weld or detail has been cleaned to bare metal."
+    },
+    {
+      "h": "Part of the repair sequence",
+      "p": "MPI finds the ends of a crack before gouging, confirms the excavation is clean before welding and checks the finished weld afterwards, so a repaired crack is not simply painted over and found again, a little longer, at the next survey."
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-mpi-works",
+      "h": "How magnetic particle inspection works",
+      "p": [
+        "The part is magnetised, usually with an electromagnetic yoke placed across the area to be tested. Where a crack interrupts the magnetic field, flux leaks out of the surface and attracts fine iron particles applied as a liquid ink or a dry powder. The particles build up along the crack as a sharp line that is far easier to see than the crack itself. Because the method depends on magnetism, it works only on ferromagnetic materials such as hull steel, cast and forged steel and most shaft steels.",
+        "Direction matters. A crack shows best when it lies across the magnetic field and poorly when it runs along it, so each area is magnetised in two directions roughly at right angles. At a bracket toe or along a weld, that means one pass with the yoke placed to find cracks running along the weld and another to find cracks across it. MPI detects cracks that break the surface and those lying just beneath it; it does not measure how deep they run."
+      ]
+    },
+    {
+      "id": "equipment-and-media",
+      "h": "Yokes, inks and viewing conditions on board",
+      "p": [
+        "The AC electromagnetic yoke is the standard shipboard tool: portable, switchable and most sensitive to the surface cracks that matter in fatigue-loaded structure. Its strength is checked with a lift test; ASTM E709 asks an AC yoke to lift at least 4.5 kg (10 lb) at the pole spacing in use. A field indicator confirms that the field at the surface is adequate and runs in the intended direction. Permanent magnets need no power and are sometimes used where none can be brought, but they cannot be switched off, which makes them awkward on large structure and in confined corners.",
+        "Two kinds of detection media are used. Colour-contrast testing applies a thin white contrast paint and then black magnetic ink, giving dark lines on a white ground under ordinary white light; it suits most tanks, holds and decks. Fluorescent ink viewed under UV-A light is more sensitive but needs darkness, so it is used inside tanks, in shaded areas, under a cover or on machined surfaces. ISO 3059 sets the viewing conditions: at least 500 lx of white light for colour-contrast work, and for fluorescent work at least 10 W/m² of UV-A at the surface with background white light of no more than 20 lx."
+      ],
+      "table": {
+        "head": ["Technique", "Where it suits on a ship", "What it needs"],
+        "rows": [
+          ["AC yoke with colour-contrast ink", "Most hull structure, deck fittings, crane pedestals and repair welds in daylight or lit spaces", "Shipboard or portable power, white contrast paint, good white light"],
+          ["AC yoke with fluorescent ink", "Tank interiors, shaded areas, fine cracks on shafts and other machined surfaces", "A darkened area or cover, a UV-A lamp and low background light"],
+          ["Permanent magnet", "Small areas where no power can be brought", "Care placing and removing it; suitable only for small fields"],
+          ["Dry powder", "Rough or warm surfaces where liquid ink would run or dry too fast", "Light application and a gentle air flow to remove the excess"]
+        ]
+      }
+    },
+    {
+      "id": "surface-preparation",
+      "h": "Surface preparation and coatings",
+      "p": [
+        "MPI is most reliable on bare, dry steel. Scale, rust, heavy paint, grease and weld spatter keep the particles away from the surface and weaken the leakage field, so the area under test and a band either side of a weld are cleaned, normally by grinding or power brushing. On a thin, sound coating MPI can still work, but only where the procedure has been shown to keep its sensitivity at the coating thickness present; a thick or multi-coat marine paint system has to come off.",
+        "The contrast paint itself should be thin and even, enough to give a white ground and no more. After testing, ink and contrast paint are cleaned off before repair welding or recoating. Coating removal and recoating are the yard's or the ship's work; we specify the width and position of the bands to be cleaned at each detail so they can be prepared before the team boards rather than discovered on the day."
+      ]
+    },
+    {
+      "id": "hull-details",
+      "h": "MPI on hull structure: hatch corners, bracket toes and connections",
+      "p": [
+        "Fatigue cracks in hulls start at predictable details, and MPI is the confirmation method once close visual inspection has pointed at them or a survey programme lists them. Cracks at these details often show first as a thin rust line through the paint; MPI on the cleaned steel shows where the crack really ends, which is usually further than the rust suggests."
+      ],
+      "list": [
+        "Hatch corners and the end brackets of hatch coamings on bulk carriers and container ships, where hull girder and torsional stresses meet a discontinuity in the deck",
+        "Bracket toes at the ends of longitudinals, web frames and tripping brackets",
+        "Side longitudinal end connections to transverse webs and bulkheads on tankers",
+        "Slots, collar plates and scallops in webs where longitudinals pass through",
+        "Hopper knuckles and lower stool connections in bulk carrier holds",
+        "Welds of bollards, chain stoppers, fairleads and other mooring equipment foundations"
+      ]
+    },
+    {
+      "id": "lifting-appliances",
+      "h": "Crane pedestals, jib heel pins and hooks",
+      "p": [
+        "Geared bulk carriers, multipurpose ships and offshore vessels, and indeed any ship with provision cranes, carry lifting appliances whose failure is sudden and serious. Cracks start at the pedestal-to-deck weld and the pedestal's upper flange, around the slewing ring seat, at jib heel pin bosses, and in pins, sheave pins and hooks. MPI finds them at the surface; full-penetration pedestal welds where depth matters are examined with ultrasonic weld testing as well.",
+        "SOLAS regulation II-1/3-13, which entered into force on 1 January 2026, sets requirements for shipboard lifting appliances, supported by the IMO Guidelines for lifting appliances in MSC.1/Circ.1663, including periodic thorough examination and load testing. MPI does not replace that examination. It supports it, giving the competent person or the class surveyor measured evidence on the welds and pins they are asked to judge, and it is most useful before a load test, when a crack found early is a repair rather than an incident."
+      ]
+    },
+    {
+      "id": "docking-stern-gear",
+      "h": "Rudder stocks, pintles and shafts at docking",
+      "p": [
+        "A drydocking is the chance to test what is under water the rest of the time. With the rudder lowered, the stock is examined at the taper, the keyway ends and the coupling flange or palm, where fretting and fatigue cracks start; pintles are examined on their steel tapers and threads; and the rudder horn, sole piece and stern frame welds can be tested where they carry the rudder's load. Bronze or stainless sleeves and liners on these parts are non-magnetic, so they are examined with dye penetrant instead.",
+        "When the tailshaft is withdrawn for its survey, the taper, the forward end of the keyway and any flange or shrink-fit area are tested, preferably with fluorescent ink for the sensitivity machined surfaces allow. Coupling bolts and intermediate shaft flange areas can be checked at the same time. Because stern gear sits on the critical path of a docking, the NDT is booked against the yard's dismantling schedule, not added at the end when the rudder is already going back up."
+      ]
+    },
+    {
+      "id": "repairs",
+      "h": "MPI in crack repairs: before, during and after welding",
+      "p": [
+        "Class rules and IACS Recommendation 47 expect a crack repair to remove the whole crack and to be welded and examined to an accepted procedure. MPI has a part at each step, and the table shows what it confirms.",
+        "Where a crack has run into a full-penetration joint, MPI cannot say how deep it went, so the repair plan should include ultrasonic testing of the finished joint as well as MPI of its surface."
+      ],
+      "table": {
+        "head": ["Repair step", "What MPI confirms"],
+        "rows": [
+          ["Before excavation", "The full length of the crack and its ends, marked on the steel so the yard removes all of it"],
+          ["After gouging or grinding", "That no trace of the crack remains in the excavation before any welding starts"],
+          ["During multi-pass welding, where specified", "That the root or an intermediate layer is free of cracks before the joint is filled"],
+          ["After welding", "That the finished weld and its toes are free of surface cracks, after any waiting time the procedure sets for delayed cracking"],
+          ["After dressing, where specified", "That grinding the weld flush has not exposed or left a defect at the surface"]
+        ]
+      }
+    },
+    {
+      "id": "acceptance-and-indications",
+      "h": "Indications, acceptance criteria and reporting",
+      "p": [
+        "Not every line of particles is a crack. Sharp changes of section, the toe of a convex weld, the boundary between two steels, scratches carrying local magnetism and excess ink can all hold particles. Telling relevant from non-relevant indications is the technician's skill; where in doubt, the area is cleaned, lightly dressed and tested again. Relevant indications are assessed against the acceptance criteria named in the specification: ISO 23278 acceptance levels where an ISO weld specification applies, and the class rules and IACS Recommendation 47 for hull repairs. In practice, a crack in a ship's structure or stern gear is reported and removed, not accepted.",
+        "Each report records the part and its location, the procedure, the yoke and its lift-test result, the detection medium, the viewing conditions and the surface condition, then every relevant indication with its position, length and orientation, sketched and photographed. Where residual magnetism would affect later welding or machining, the report notes whether the part was demagnetised or left for the yard to deal with."
+      ]
+    },
+    {
+      "id": "limits",
+      "h": "What MPI cannot do, and when another method is needed",
+      "p": [
+        "MPI needs ferromagnetic material, so bronze propellers, austenitic stainless steel and aluminium go to dye penetrant inspection. It shows a crack's length but not its depth, which is a job for ultrasonic testing. It struggles through thick coatings, where ACFM or eddy current can screen without blasting. And it is a surface method: a lack of fusion buried in the middle of a butt weld will not show. A technician who knows those limits states them in the report rather than leaving a clean result to be read as more than it is."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 9934-1 – Magnetic particle testing: general principles",
+    "ISO 17638 – Magnetic particle testing of welds",
+    "ISO 23278 – Magnetic particle testing of welds: acceptance levels",
+    "ISO 3059 – Viewing conditions for penetrant and magnetic particle testing",
+    "ASTM E709 – Standard guide for magnetic particle testing",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "SOLAS regulation II-1/3-13 and MSC.1/Circ.1663 – Lifting appliances",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "MPI report per location with procedure, technique and yoke lift-test record",
+    "Sketches showing each indication's position, length and orientation",
+    "Photographs of indications with a scale reference",
+    "Accept or reject decisions against ISO 23278, the class rules or your specification",
+    "Repair-stage records: crack ends, clean excavation and finished weld",
+    "Notes on areas not tested and on demagnetisation"
+  ],
+  "industries": [
+    "Bulk carriers and geared multipurpose ships",
+    "Container ships",
+    "Crude, product and chemical tankers",
+    "Offshore support vessels",
+    "Ship-repair yards",
+    "Ship managers and owners' technical departments",
+    "Owners' and charterers' surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "Can MPI be carried out through paint?",
+      "a": "Only through a thin, sound coating, and only where the procedure has been shown to keep its sensitivity at that thickness. Most marine paint systems are too thick, so the detail and a band either side are cleaned to bare steel and recoated afterwards. Where removing the coating is unwelcome, ACFM or eddy current can screen through it first, and MPI is then used on bare steel only where an indication needs confirming."
+    },
+    {
+      "q": "Which is better, colour-contrast or fluorescent MPI?",
+      "a": "Fluorescent ink is more sensitive and suits machined surfaces such as shaft tapers, but it needs darkness and a UV-A lamp, which is easy inside a tank and hard on an open deck in daylight. Colour-contrast ink on a white background works in ordinary light and is the usual choice for hull structure, crane pedestals and repair welds. The procedure names the technique for each location."
+    },
+    {
+      "q": "Can you do MPI on a tanker while it is in service?",
+      "a": "Yes, outside hazardous areas and inside them once the area is gas-free and the ship's permit-to-work system allows electrical equipment there. The yoke is electrical, so it must not be used where a flammable atmosphere may be present. Deck structure and fittings, hose-handling crane pedestals and pipe supports on product and chemical tankers are commonly tested at a port call when those conditions are met."
+    },
+    {
+      "q": "Does MPI tell you how deep a crack is?",
+      "a": "No. MPI shows where a surface crack is and how long it is, but not its depth. For a repair, the yard usually grinds or gouges until MPI shows the crack has gone, which finds the depth as the work proceeds. Where the depth must be known beforehand, for example in a full-penetration joint, ultrasonic testing, TOFD or ACFM can estimate it."
+    },
+    {
+      "q": "Can MPI be used on a bronze propeller?",
+      "a": "No. Bronze and nickel-aluminium bronze are not magnetic, so no leakage field forms and MPI finds nothing. Propeller blades are examined with dye penetrant inspection, by the severity zones the class rules define. The same applies to austenitic stainless steel and aluminium. Duplex stainless steel is magnetic but is normally tested with penetrant as well, because its two-phase structure gives confusing magnetic indications."
+    },
+    {
+      "q": "Who carries out MPI?",
+      "a": "MPI is performed by technicians holding magnetic particle testing certification under Atlantis's written practice to ASNT SNT-TC-1A. Our founder, the Responsible NDT Level III, sets the procedures and supervises the work; his ASNT NDT Level III certificates cover MT, UT, RT, PT and VT, and he brings more than eleven years of international field experience. The company holds ISO 9001 and ISO 14001 certification."
+    }
+  ]
+}

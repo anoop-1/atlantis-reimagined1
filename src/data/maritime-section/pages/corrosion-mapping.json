@@ -1,0 +1,169 @@
+{
+  "slug": "corrosion-mapping",
+  "navLabel": "Corrosion Mapping",
+  "title": "Corrosion Mapping of Ships | Encoded UT C-Scan of Plating",
+  "description": "Corrosion mapping on ships: encoded UT C-scans of tank tops, bottom and deck plating, sea chests and piping, for pitting, wastage trends and steel renewal.",
+  "h1": "Corrosion mapping: encoded ultrasonic C-scans of ship plating, tank tops and piping",
+  "eyebrow": "Maritime inspection · Advanced NDT",
+  "intro": "A thickness gauge gives the steel at the spot under the probe. Corrosion mapping gives it everywhere across an area: an encoded ultrasonic scanner records wall thickness on a fine grid and turns it into a colour map, so pitting, grooving and patches of wastage show up where they are rather than between two readings. Atlantis NDT maps tank tops, bottom and deck plating, sea chests and piping for owners who need to know how much steel is left and where, with teams mobilised from India to the ship.",
+  "highlights": [
+    {
+      "h": "Area coverage, not sample points",
+      "p": "Thousands of readings across a plate or pipe spool show the full spread of wall loss: the general level, the deepest patches and the area each covers. Steel renewal can then be sized from measured extent instead of judgement between scattered spot readings."
+    },
+    {
+      "h": "Comparable from survey to survey",
+      "p": "Each map is tied to permanent datum marks and stored as data, so the same area can be scanned again at the next docking and the two maps compared point by point to give a measured corrosion rate for the owner's planning."
+    },
+    {
+      "h": "Honest about what it misses",
+      "p": "Where the probe loses the back-wall signal, at a deep pit, a lamination or poor coupling, the map shows a gap, not a thickness. Gaps and minimum values are checked by hand with a dual-element probe and a pit gauge before the report is issued."
+    }
+  ],
+  "sections": [
+    {
+      "id": "map-versus-spot-readings",
+      "h": "What corrosion mapping adds to spot thickness readings",
+      "p": [
+        "Ship thickness measurement is built on points: a few readings per plate, chosen to represent it, recorded on a sketch and compared with the original thickness. For general corrosion that works well. It works less well where wastage is patchy, as on a tank top worn by cargo and grabs, a bottom plate pitted where water settled, or deck plating corroding in a band along a hatch coaming where water lies. A point can land on sound steel a short distance from a deep patch, and two readings either side of a pit say nothing about the pit.",
+        "Mapping closes that gap by measuring at close spacing over a defined area. The result shows whether a low spot reading was an isolated pit or the edge of a larger patch, how much of a plate has fallen below a chosen thickness, and whether wastage follows a pattern, such as the run of a weld, the footprint of a grab or the flow path of water. Those answers decide whether a plate is renewed, partly renewed with an insert, or left for the next survey."
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "h": "How encoded ultrasonic corrosion mapping works",
+      "p": [
+        "The probe is mounted on a scanner with position encoders, either a small manual frame pushed across the plate or a motorised crawler on magnetic wheels, and moved in a raster pattern over the area. At each step the instrument records the arrival time of the back-wall echo and converts it to thickness using the sound velocity of the steel, set on a stepped reference block. Single-element probes are scanned line by line; phased array linear probes record a strip of readings across their width on each pass, which covers larger areas faster.",
+        "The data is shown as a C-scan, a plan view of the area in which colour represents remaining thickness, with B-scan cross-sections along any chosen line. Because every reading is stored with its position, the analyst can measure the minimum thickness, the mean over any region, and the area below a threshold such as the renewal thickness. The thickness method itself follows the principles of ISO 16809; the encoding, step size and coverage are written into the procedure for each job.",
+        "Water is the usual couplant, fed to the probe as it moves, so the work site needs a clean supply and somewhere for it to drain. Step size along and across the scan is chosen for the purpose: finer where isolated pitting is expected, coarser for general wastage over large plates."
+      ]
+    },
+    {
+      "id": "where-on-a-ship",
+      "h": "Where corrosion mapping is used on a ship",
+      "p": [
+        "Mapping is used where the corrosion pattern matters as much as the thickness, and where the owner wants a baseline to measure change against. The areas below are those most often mapped, either inside the ship when spaces are safe to enter or externally in drydock."
+      ],
+      "list": [
+        "Inner bottom plating and tank tops in cargo holds of bulk carriers, worn by cargo, grabs and bulldozers and attacked by corrosive cargo residues",
+        "Bottom plating in drydock, particularly in way of double-bottom tanks and around suction wells where wastage is local",
+        "Deck plating along hatch coamings and around deck fittings where water collects",
+        "Lower brackets and webs of cargo hold frames on bulk carriers, where a small scanner can follow the member",
+        "Cargo tank bottom plating on crude oil tankers, where pitting develops under water and sediment",
+        "Sea chests and the plating around overboard discharges and other hull penetrations",
+        "Cargo, ballast, fuel and sea-water piping, and scrubber wash-water and overboard discharge piping, where curvature allows"
+      ]
+    },
+    {
+      "id": "pitting",
+      "h": "Finding pitting and isolated deep spots",
+      "p": [
+        "Pitting is the reason many owners ask for mapping, and also where its limits need understanding. A pit narrower than the ultrasonic beam or the scan step can be missed or under-measured, and a sharp conical pit can scatter sound so that no back-wall echo returns from its bottom. The step size and probe are therefore chosen for the pit sizes expected, and the analysis treats a missing back-wall signal as a gap to be checked, never as full thickness.",
+        "Every map is followed by a hand check of the minimum values and the gaps. A dual-element probe confirms the thinnest readings, and where pits can be reached from the corroded side, their depth is measured directly with a pit depth gauge after cleaning. The report describes pitting intensity over each area as well as the deepest pits, because both affect what the classification society or the owner decides about the plate."
+      ]
+    },
+    {
+      "id": "limits",
+      "h": "What limits corrosion mapping on board",
+      "p": [
+        "Corrosion mapping is only as good as the surface it is run on and the access available. The table shows the conditions that most often affect a job on a ship and how each is dealt with."
+      ],
+      "table": {
+        "head": ["Condition", "Effect on the map", "How it is handled"],
+        "rows": [
+          ["Loose scale, rust and cargo residue", "Poor coupling and gaps in the data", "Area cleaned before scanning; that cleaning is arranged by the ship or the yard"],
+          ["Coatings", "A coating adds its own echoes and slows the sound, affecting readings", "Thin sound coatings handled by gating on the steel echoes where the procedure allows; otherwise scanning on prepared steel, stated in the report"],
+          ["Curvature", "Probes lose contact on small-diameter pipe and tight radii", "Contoured wedges or pipe scanners; below the practical diameter, manual readings instead"],
+          ["Stiffeners, welds and fittings", "The scanner cannot cross them, so maps stop at each obstruction", "Area divided into panels between stiffeners and mapped panel by panel"],
+          ["Laminations and inclusions in the plate", "A mid-wall echo can read as severe wastage", "Checked by hand with an A-scan before any value is reported as wall loss"],
+          ["Hot surfaces", "Sound velocity changes and standard probes and couplant suffer", "High-temperature probes and couplant, with a velocity allowance recorded"]
+        ]
+      }
+    },
+    {
+      "id": "trending-and-renewal",
+      "h": "Trending between surveys and sizing steel renewal",
+      "p": [
+        "A single map shows the condition today. Two maps of the same area, taken from the same datum marks at successive dockings, show how fast the steel is going. Subtracting one from the other point by point gives a corrosion rate that is far more dependable than comparing two spot readings that may not have been taken in exactly the same place. With a rate and the renewal thickness from the ship's drawings or class records, the owner can estimate when a plate will reach its limit and plan the renewal at a docking of their choosing, rather than at the one where a surveyor finds it.",
+        "For steel renewal, the map is overlaid with a boundary at the renewal thickness, so the area that needs cropping can be drawn and measured, and an insert sized to cover it with sensible margins to sound steel. That gives the superintendent and the yard a common basis for the steel estimate and the repair specification. The acceptance of any renewal for class remains with the surveyor."
+      ]
+    },
+    {
+      "id": "class-thickness-report",
+      "h": "How mapping relates to the class thickness measurement report",
+      "p": [
+        "Corrosion mapping supports the class thickness measurement report but does not replace it. Gauging credited to a hull survey is reported on the IACS thickness measurement forms for the ship type, point by point against original thickness and allowable diminution, with the society's surveyor attending. A map can feed that report, with minimum and mean values for each plate, and it gives the surveyor evidence for the corrosion pattern, but the form, the extent and the acceptance are set by the class rules and the surveyor.",
+        "Thickness measurement of any kind that a classification society credits to a survey has to be carried out by a firm that society has approved under IACS UR Z17. Atlantis is not yet approved by any society; we are preparing for UR Z17 audits with DNV, Lloyd's Register and ABS, and until a certificate is issued our mapping is for the owner's decisions rather than for survey credit. Those decisions cover a lot of ground: condition checks between surveys, pre-docking steel estimates, pre-purchase inspections, on-hire and off-hire surveys, and trending of known corrosion."
+      ]
+    },
+    {
+      "id": "reporting",
+      "h": "Data, colour scales and the report",
+      "p": [
+        "Colour maps are easy to misread if the scale changes between images, so every map in a report uses a stated, fixed colour scale, with its bands tied to meaningful thicknesses such as the original thickness, the substantial corrosion level and the renewal thickness for that member. Each map is located on a sketch by frame, strake or longitudinal and by datum mark, and carries its minimum, mean and the area below each threshold.",
+        "The report lists the hand-checked minimum values and pit depths, any gaps in coverage with their reason, and the equipment, calibration and procedure used. Raw data is supplied in the instrument's native format alongside images and summary tables that need no special software, so a later scan can be compared with it."
+      ]
+    },
+    {
+      "id": "who-does-the-work",
+      "h": "Who carries out corrosion mapping",
+      "p": [
+        "Corrosion mapping is planned and supervised by the founder of Atlantis, our Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience. Operators are certified under the company's written practice to ASNT SNT-TC-1A, and the company is certified to ISO 9001 and ISO 14001. Each team is mobilised from India to the ship, with no office or agent at the port, so the job is planned around the vessel's schedule, the yard's access programme and visa lead times."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 16809 – Ultrasonic thickness measurement",
+    "ISO 16810 – Ultrasonic testing: general principles",
+    "ISO 18563 series – Verification of ultrasonic phased array equipment, where phased array probes are used",
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z10 series – Hull surveys of oil tankers, bulk carriers and chemical tankers, including the TM report forms",
+    "IACS UR Z17 – Procedural requirements for service suppliers, including thickness measurement firms",
+    "IACS Common Structural Rules for bulk carriers and oil tankers (renewal thickness)",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "C-scan thickness maps with a stated, fixed colour scale and datum references",
+    "Minimum and mean thickness and area below each threshold, per mapped area",
+    "Hand-checked minimum readings and pit depths, with pitting intensity",
+    "Renewal boundary drawings with approximate insert sizes, for pre-docking planning",
+    "Comparison with earlier maps and corrosion rates where a previous scan exists",
+    "Raw data files, calibration records, procedure and operator certificates"
+  ],
+  "industries": [
+    "Bulk carriers and ore carriers",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Container ships",
+    "Ships with exhaust gas cleaning systems",
+    "Owners and ship managers planning steel renewal",
+    "Buyers on pre-purchase inspections",
+    "Ship-repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between corrosion mapping and ultrasonic thickness measurement?",
+      "a": "Both measure remaining wall thickness ultrasonically. Thickness measurement takes individual readings at chosen points, recorded on a sketch and the class forms. Corrosion mapping scans an area with an encoded probe and records thousands of readings, shown as a colour map. Mapping reveals the pattern and extent of wastage and pitting; point gauging remains the format of the class thickness measurement report. Many jobs use both."
+    },
+    {
+      "q": "Can corrosion mapping replace the class thickness measurement report?",
+      "a": "No. Gauging credited to a class survey is reported on the IACS forms, to the extent the class rules and the surveyor require, and must be done by a firm approved by that society under UR Z17. A map can provide minimum and mean values for the report and evidence of the corrosion pattern, but the format, the extent and the acceptance are the society's. For the owner's own decisions, the map is often the more useful record."
+    },
+    {
+      "q": "Can you map through paint?",
+      "a": "Sometimes. On thin, well-bonded coatings the analysis can be set to use the echoes within the steel, so the coating is excluded, where the procedure has been verified for it. On thick, damaged or disbonded coatings, or heavily corroded steel, the coating has to be removed along the scan area. The report states for each map whether it was taken through coating or on prepared steel."
+    },
+    {
+      "q": "How small a pit can corrosion mapping find?",
+      "a": "It depends on the probe, the beam size and the scan step, which are chosen for the pits expected. Narrow, sharp pits can be smaller than the beam or fall between steps, and some return no back-wall echo at all. That is why missing signals are shown as gaps rather than full thickness, and why minimum values and gaps are checked by hand with a dual-element probe and a pit depth gauge before reporting."
+    },
+    {
+      "q": "Which areas of a bulk carrier benefit most from mapping?",
+      "a": "Inner bottom plating in the holds, where cargo, grabs and corrosive residues cause patchy wastage; the lower brackets and webs of hold frames; deck plating along hatch coamings; and ballast tank bottoms where water and sediment lie. Mapping those areas once gives a baseline, and repeating it at the next docking turns two maps into a corrosion rate for renewal planning."
+    },
+    {
+      "q": "What do you need from us to plan a corrosion mapping job?",
+      "a": "The ship's particulars and class, the areas of concern with drawings showing original thicknesses, the last thickness measurement report, photographs of the condition, the port or yard and dates, and what the result will be used for. The ship or yard arranges cleaning, access, water supply and safe entry to enclosed spaces. Early notice helps, because the team travels from India and visas take time."
+    }
+  ]
+}

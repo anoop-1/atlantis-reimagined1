@@ -1,0 +1,110 @@
+{
+  "slug": "umea",
+  "name": "Umeå",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Umeå Ro-Pax and Cargo Ship UTM | Kvarken Ice-Class Gauging",
+  "description": "Ship UTM at Umeå (Holmsund) for the Kvarken ro-pax ferry, ice-class cargo ships and tankers: ice belt, bow, vehicle deck and ballast tank gauging.",
+  "h1": "Thickness Measurement for Ice-Class Ships at Umeå and the Kvarken Crossing",
+  "intro": "Umeå's port is at Holmsund, at the mouth of the Ume River, facing the Kvarken, the narrow and shallow passage where the Gulf of Bothnia pinches between Sweden and Finland. A year-round ro-pax service crosses to Vaasa, and cargo ships load forest products or bring in fuel and bulk, nearly all of them built to work in ice. Gauging here follows the winter: we plan it around ice seasons and docking periods, and the technicians fly in from India to board the ship.",
+  "keywords": [
+    "ship utm umeå",
+    "thickness gauging umea",
+    "holmsund ship inspection",
+    "kvarken ferry inspection",
+    "ice class hull gauging",
+    "ice belt thickness measurement",
+    "ro-pax ferry gauging sweden",
+    "bow structure crack detection",
+    "umeå vaasa ferry",
+    "gulf of bothnia ship inspection"
+  ],
+  "highlights": [
+    {
+      "h": "A ferry that crosses ice every day",
+      "p": "The ro-pax on the Umeå–Vaasa route keeps running through winter, meeting pack ice and ridges in the Kvarken. Its ice belt, bow and frames take the brunt, and piping checks in the machinery spaces can be added during layovers at Holmsund."
+    },
+    {
+      "h": "Ridged ice in a narrow strait",
+      "p": "Wind drives Kvarken ice together into ridges that are hard on any hull, strengthened or not. After a severe winter, indents, buckled frames and coating loss along the waterline are common findings worth measuring before the ship goes to the yard."
+    },
+    {
+      "h": "Cargo ships at the Holmsund quays",
+      "p": "Forest product carriers, tankers and general cargo ships at Holmsund stay for the length of their loading or discharge. Holds, ballast tanks and deck structure can be gauged during that stay, ideally outside the coldest weeks of the year."
+    }
+  ],
+  "port": {
+    "h": "Holmsund, the Kvarken and a port shaped by ice",
+    "p": [
+      "Umeå lies a little inland on the Ume River, and its seaport is at Holmsund, where the river meets the Gulf of Bothnia. The port faces the Kvarken, the stretch where the gulf narrows and becomes shallow between the Swedish coast and the islands off Vaasa, dividing the Bothnian Sea to the south from the Bothnian Bay to the north. Ships reach Holmsund through a piloted fairway among low islands and shoals. The area is famous for land uplift: since the last ice age the land here has been rising steadily, slowly reducing water depths and reshaping the coastline, which is one reason fairways in the Kvarken are surveyed and maintained with care. There is effectively no tide, and the low salinity of the water this far north means freezing begins earlier than on the open Baltic coast further south.",
+      "The most important traffic is the ferry. Wasaline runs the ro-pax link between Umeå and Vaasa, the only year-round passenger and freight crossing of the Kvarken, with the modern dual-fuel ship Aurora Botnia, built in Finland and operated on behalf of the two cities. Cargo traffic covers forest products from inland sawmills and pulp mills, containers and general cargo, oil products for the region's depots, and bulk cargoes for local industry. The port is run together with Vaasa's under the joint company Kvarken Ports, which reflects how closely the two sides of the strait are linked. Many of the cargo ships are short-sea units in Baltic trades, and nearly all carry Finnish-Swedish ice class. Freight trailers crossing on the ferry add a ro-ro element to what is otherwise a dry-cargo and tanker port.",
+      "Ice dominates the year. In a normal winter the Kvarken freezes, and the combination of shallow water, narrow channels and wind makes the ice pile into ridges and compress against ships, conditions that are tougher than the open-sea ice further south. Icebreakers keep the fairway to Holmsund open, but ships pay for the winter in their hulls: ice-belt abrasion, coating loss, bow indents and, after a severe season, cracked or buckled frames. The ferry, crossing on a daily timetable all winter, accumulates this wear faster than any cargo ship. Summer brings open water and the docking season, and that is when most large gauging programmes on ships trading here are done, often at yards in Finland or elsewhere around the Baltic."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships can be gauged at Umeå and Holmsund",
+    "p": [
+      "Holmsund has cargo quays, an oil harbour and the ferry terminal, but no drydock for seagoing ships, so gauging here is done afloat. At the cargo quays, holds and ballast tanks can be measured during loading or discharge once the crew has prepared them. Tankers at the oil harbour follow terminal rules, and access is limited to spaces outside the cargo tanks. On the ferry, layovers at Holmsund allow machinery piping, accessible vehicle-deck plating and void spaces to be measured, but tanks and shell plating are best left to the planned yard period, when the ship is out of service.",
+      "Dockings for ships trading to Umeå take place at yards elsewhere, in Finland, Sweden or further around the Baltic, and are often timed for summer. The most useful local job before a docking is a spring scope on the ice belt and bow, carried out when the ship is alongside and the external shell is free of ice, so the yard can be told what to expect. Winter work at Holmsund is possible inside the ship at any time, but shell and open-deck work in mid-winter is slowed by cold and very short daylight, and plans should allow for ice delaying arrivals."
+    ],
+    "list": [
+      "Holmsund ferry terminal — machinery piping, vehicle deck and void-space readings on the Kvarken ro-pax during layovers.",
+      "Cargo quays — hold, ballast tank and deck gauging on forest product carriers and general cargo ships during cargo work.",
+      "Oil harbour — ballast tank, void and deck measurements on tankers during discharge, with terminal approval.",
+      "Ice-belt and bow scopes alongside in spring — readings taken once the shell is clear of ice, before the summer docking.",
+      "Docking yards in Finland and around the Baltic — completion of shell and tank programmes during the yard period."
+    ]
+  },
+  "context": {
+    "h": "Winter navigation rules and inspection at Umeå",
+    "p": [
+      "Port state control at Umeå is carried out by the Swedish Transport Agency under the Paris MoU. Winter navigation in the Kvarken is managed jointly by Sweden and Finland: the Swedish Maritime Administration and its Finnish counterpart coordinate icebreaker assistance across the Gulf of Bothnia and publish traffic restrictions that set minimum ice classes and sizes for ships bound for ports such as Umeå. Because the Kvarken freezes early and hard, restrictions here usually apply for a long part of the winter, and a ship without an adequate ice class may simply not be assisted. For owners in these trades, the ice class on the certificate and the real condition of the ice belt both have to hold up.",
+      "The ferry link carries a particular weight. It is the only year-round crossing of the strait, so the operator has to fit maintenance and dockings around a timetable that the region depends on, and every day out of service is noticed on both sides. A ship working daily in ridged ice also accumulates structural wear at a rate that a winter or two of cargo voyages cannot match. Thickness measurement and crack detection on the bow, forefoot, ice belt and frames, compared year by year, give the operator and the class a clear trend, so that renewals can be planned for the yard rather than discovered during the season."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging work at Umeå",
+    "p": "The year at Umeå splits into two seasons for gauging. In spring, owners of ice-classed ships want to know what the winter has done: ice-belt wastage, bow indents and any cracking at frame connections. Through summer, the work moves to the docking yards, where full shell and tank programmes are carried out, often building on spring readings taken at Holmsund. Cargo ships in port add targeted hold and ballast-tank scopes at any time of year, planned around their loading or discharge. Because the ferry and many cargo ships return to Holmsund often, a larger scope can be spread over several visits without keeping any ship out of service.",
+    "list": [
+      "Ice-belt thickness measurement and MPI at bow frame connections on the Kvarken ro-pax, ahead of its yard period.",
+      "Spring condition scope on an ice-classed general cargo ship after a winter of Bothnian voyages, sizing repairs for the summer docking.",
+      "Hold and ballast tank gauging on a forest product carrier during loading at Holmsund.",
+      "Ballast tank and deck readings on a product tanker at the oil harbour, as a pre-docking estimate.",
+      "Machinery-space piping UT on the ferry during layovers, so pipe renewals can be specified before the yard."
+    ]
+  },
+  "logistics": "Technicians usually fly to Stockholm Arlanda and connect on a domestic flight to Umeå Airport, from where Holmsund is reached by road. The team travels from India on Schengen visas, which also allow them to cross to Vaasa on the ferry or continue to a docking yard in Finland without a further visa. Access to the port and the ferry terminal is arranged by the ship's agent or the ferry operator. Winter jobs are planned with extra margin, because ice can delay ships and daylight is very short.",
+  "vessels": [
+    "Ro-pax ferry on the Kvarken route",
+    "Ice-class general cargo ships",
+    "Forest product carriers",
+    "Product tankers",
+    "Container feeders",
+    "Small bulk carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Can the Umeå–Vaasa ferry be gauged without disrupting the crossing?",
+      "a": "Partly. Machinery-space piping, accessible vehicle-deck plating and voids can be measured during layovers at Holmsund, spread over several days if needed. Ballast tanks, the shell and the ice belt below the waterline need the ship out of service, so those belong in the planned yard period. Measuring what we can in service lets the yard specification reflect the ship's actual condition."
+    },
+    {
+      "q": "When is the best time of year to gauge an ice-class ship trading to Umeå?",
+      "a": "Spring, once the ice has cleared from the shell, is ideal for the ice belt and bow: the winter's damage is fresh and there is time to plan repairs for a summer docking. Full renewal programmes are best done at the yard. Holds, tanks and piping can be measured in port at any time of year, including mid-winter."
+    },
+    {
+      "q": "Can you work at Holmsund in mid-winter?",
+      "a": "Yes, inside the ship. Holds, ballast tanks, machinery spaces and piping can be measured in any season, as long as the ship arrives and the spaces are prepared. Mid-winter cold and darkness make external shell and deck readings slow and less reliable, so we schedule those for spring or the docking, and we confirm arrival dates with the agent before travelling."
+    },
+    {
+      "q": "Do you also cover the Vaasa side of the Kvarken crossing?",
+      "a": "Yes. Vaasa is in Finland, which is also a Schengen state, so the same visas cover both ends of the route. If a ship's schedule means it will be alongside longer in Vaasa than in Holmsund, we can plan the work there instead, or split a scope between the two ports so it fits the ship's time in port."
+    },
+    {
+      "q": "Where do ships trading to Umeå go for docking?",
+      "a": "To yards in Finland, Sweden or elsewhere around the Baltic, chosen by the owner and usually timed for the open-water season. Readings taken at Holmsund are tied to the TM plan's frame and strake references, so they serve as the pre-docking estimate, and the team can continue the programme at the docking yard."
+    }
+  ],
+  "nearby": ["vaasa", "sundsvall", "lulea", "kokkola", "oulu"]
+}

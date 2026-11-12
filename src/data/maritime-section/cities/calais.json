@@ -1,0 +1,109 @@
+{
+  "slug": "calais",
+  "name": "Calais",
+  "country": "France",
+  "region": "europe",
+  "title": "Calais Ferry & Ro-Ro Ship Gauging | Thickness Measurement",
+  "description": "Ultrasonic thickness measurement at Calais for Dover Strait ferries, ro-ro freight ships and dredgers: vehicle decks, ramps, ballast tanks, SECA piping.",
+  "h1": "Calais Port: Thickness Gauging for Ferries, Ro-Ro Ships and Dredgers",
+  "intro": "Calais is the busiest passenger and freight crossing on the Dover Strait, with ferries and ro-ro ships running to England all day, every day, plus dredgers and service craft working the sandbanks offshore. These ships rarely stay long, which shapes how they are gauged. Technicians travel from India to Calais and work around the schedule, using overnight berths, lay-ups and planned overhaul periods to measure hull, decks, ramps and piping.",
+  "keywords": [
+    "calais ship thickness measurement",
+    "ultrasonic thickness gauging calais",
+    "ferry hull gauging calais",
+    "ro-ro ship inspection calais",
+    "vehicle deck thickness measurement",
+    "ramp gauging ferry",
+    "utm calais port",
+    "dover strait ferry gauging",
+    "scrubber pipe inspection calais",
+    "thickness measurement pas-de-calais"
+  ],
+  "highlights": [
+    {
+      "h": "Ferries on short crossings",
+      "p": "Cross-Channel ferries spend little time alongside, so gauging uses overnight layovers, scheduled maintenance days and lay-ups. A focused scope of vehicle deck, ramp and piping readings can be completed without disturbing the timetable."
+    },
+    {
+      "h": "Freight ro-ro in constant rotation",
+      "p": "Ro-ro freight ships turn quickly at the Calais terminals. We plan gauging for the longer stays, agreeing with the operator which decks, ramps and tanks are released and when, so the vessel stays on schedule."
+    },
+    {
+      "h": "Dredgers on the Channel sandbanks",
+      "p": "Dredgers and service vessels that work the approaches wear hulls and pipework quickly in sand and salt. Gauging them between campaigns catches thinning in pump and discharge piping before it reaches failure."
+    }
+  ],
+  "port": {
+    "h": "Calais: a short-sea gateway with a deep outer harbour and a lock-gated old port",
+    "p": [
+      "Calais lies on the narrowest part of the Dover Strait, with the English coast a short crossing away. The Port Boulogne-Calais operation, run by the Société d'exploitation des ports du Détroit under the Hauts-de-France region, covers both Calais and nearby Boulogne-sur-Mer. At Calais the main ferry and freight terminals sit in a large outer harbour, completed in recent years, with open-water access for big ships, while the older inner basins behind the lock are used by smaller vessels, fishing boats and the port's service craft.",
+      "Traffic is dominated by ro-pax ferries and freight ro-ro ships. Several operators run frequent services to Dover, with large modern ferries carrying cars, coaches and lorries, and the port also receives cargo ships carrying steel, timber, aggregates and project cargo, though in smaller volumes than the ferry flow. Tugs, pilot boats, dredgers and rescue craft are based in the port and support the heavy traffic and the sandbanks offshore, which need regular dredging to keep channels safe. The English Channel here sees some of the world's densest shipping, and the port's pilots and traffic services are used to managing it.",
+      "Time alongside is the factor that governs everything. A ferry's turnround is short and rigid, and a freight ro-ro runs to a similar rhythm, so a team cannot count on hours of uninterrupted access. Overnight layovers, scheduled maintenance days and winter overhaul periods are when substantial gauging can be done. Weather on the Strait can interrupt ferry operation in strong winds, and wind or fog may keep a ship in port longer than planned, which occasionally creates an unplanned window that a team on standby can use with the operator's agreement."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships can be gauged at Calais",
+    "p": [
+      "Ferry berths are working terminals with loading ramps, passenger access and strict security. Gauging there focuses on what is accessible while the ship is in service: the structure of vehicle decks, ramps and ramp hinges, ballast and fuel tanks that the crew can release, machinery-space piping and the scrubber wash-water lines on ships that carry them. Most ferry owners prefer to carry out major steel work during a planned refit at a yard, and the measurements made at Calais become the basis for the steel scope of that refit.",
+      "In the older basins behind the lock, quays take smaller ships for longer stays, and these are the best places for slow, systematic gauging of coasters, dredgers and service craft. The port's repair resources are modest compared with large yards elsewhere on the coast, so ships needing a docking usually go to a bigger facility in another port, and a gauging programme at Calais can be timed to feed straight into that decision. Anchorage in the roads outside the harbour is available to ships waiting for berths or tide."
+    ],
+    "list": [
+      "Ferry terminal berths — vehicle deck, ramp and piping gauging in the gaps between sailings and during overnight layovers.",
+      "Freight ro-ro terminals — deck, ramp and tank gauging on ships released by the operator for the longer stays.",
+      "Outer harbour quays — hull and deck gauging on cargo ships carrying steel, timber and aggregates.",
+      "Inner basins behind the lock — longer gauging of dredgers, coasters and service craft laid by between jobs.",
+      "Lay-up and overhaul periods — extended access for a full ballast tank and shell programme before a refit elsewhere.",
+      "Roads outside the port — launch-assisted work on ships waiting for berth or tide, in suitable weather."
+    ]
+  },
+  "context": {
+    "h": "French port state control and the Dover Strait ferry regime",
+    "p": [
+      "In France, port state control is carried out by the Centres de sécurité des navires, the ship safety centres of the Affaires maritimes administration, under the Paris MoU. Ferries on regular crossings are also subject to the EU's special survey regime for ro-ro ferries, which brings frequent and detailed inspections, and they are classed ships whose society's rules set the extent of structural gauging. Because Calais ferries run constantly in a corrosive, wet environment, vehicle deck plating, lashing points, ramp structures and drain areas are the details that attract most attention.",
+      "Calais lies inside the SECA, so scrubber-fitted ferries and ro-ro ships run their wash-water systems on virtually every crossing. That makes overboard piping a high-wear item, and owners often add it to the gauging scope alongside the deck and tank work. The EU emissions trading scheme and FuelEU Maritime apply to these ships, and the Inventory of Hazardous Materials is required for those over the size threshold, so owners of older ferries also benefit from a steady record of steel condition to support decisions on refit, sale or replacement."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Calais",
+    "p": "Work at Calais is shaped by timetables. We agree a scope with the operator's technical office, identify which spaces and decks are released and when, and plan a team size to match. Readings are reported by deck or tank in the class format, so they can be used at the next survey or passed straight to the yard doing the refit. Where an operator has several ships on the Strait, jobs can be staged over successive visits so each ship stays on its rota.",
+    "list": [
+      "Vehicle deck and ramp gauging on a ro-pax ferry during an overnight layover, ahead of a planned refit.",
+      "Ballast and fuel tank gauging on a ro-ro freight ship released by the operator for a longer stay.",
+      "Scrubber wash-water and overboard piping gauging on a ferry that works entirely inside the SECA.",
+      "Pump and discharge piping gauging on a dredger between campaigns on the Channel sandbanks.",
+      "Pre-purchase condition gauging on an older ro-ro or general cargo ship laid up in the basins."
+    ]
+  },
+  "logistics": "Paris Charles de Gaulle and Brussels are the usual long-haul arrival points, with rail or road onward to Calais; Lille Lesquin is a regional alternative. Technicians travel from India on Schengen visas applied for once the vessel's schedule is confirmed. Because Calais ships run on fixed timetables, the plan uses firm dates agreed with the operator, and passes to the ferry and freight terminals are requested through the ship's agent, who also confirms what time the spaces will be released.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Ro-ro freight ships",
+    "Dredgers",
+    "Tugs and pilot boats",
+    "General cargo ships",
+    "Steel and timber carriers",
+    "Coasters",
+    "Fishing vessels in the inner basins"
+  ],
+  "faqs": [
+    {
+      "q": "How much of a Calais ferry can be gauged without disrupting the timetable?",
+      "a": "A useful amount, if the scope is focused. Vehicle decks, ramps, machinery piping and scrubber lines can be gauged during layovers and quiet periods, and tanks that the crew release can be measured too. A full programme belongs in a refit period, and the readings taken at Calais help the yard fix its steel scope in advance."
+    },
+    {
+      "q": "Do you gauge scrubber piping on ferries that run inside the SECA?",
+      "a": "Yes. Ferries that run on the Dover Strait use their scrubbers on every crossing, so wash-water and overboard piping wears quickly. We gauge spools, bends and overboard connections accessible in the machinery space, report wall thickness against nominal, and flag pieces nearing renewal limits so replacements can be ordered before the next planned stop."
+    },
+    {
+      "q": "Is there a drydock at Calais for ships needing a docking?",
+      "a": "Large ships usually go to a yard in another port for a docking, so we treat Calais as a place for pre-docking gauging. The readings help the superintendent decide which repairs to schedule and give the yard measured steel data to plan against. If the ship docks elsewhere in France or Belgium, one Schengen visa covers the trip."
+    },
+    {
+      "q": "Can dredgers working off Calais be gauged between campaigns?",
+      "a": "Yes. Dredgers lie in the basins or alongside outer quays between jobs, and that is a good time to gauge pump, suction and discharge piping, hopper plating and hull structure. We agree the scope with the owner's superintendent and report the thinnest readings first so repairs can be targeted at what needs it most."
+    }
+  ],
+  "nearby": ["dunkirk", "boulogne-sur-mer", "dover", "ostend", "dieppe"]
+}

@@ -108,6 +108,8 @@
     }
   ],
   "redirects": [
+    { "source": "/maritime-inspection", "destination": "/maritime", "statusCode": 301 },
+    { "source": "/maritime-inspection/:path*", "destination": "/maritime/:path*", "statusCode": 301 },
     {
       "source": "/:path*",
       "has": [

@@ -1,0 +1,117 @@
+{
+  "slug": "sandnessjoen",
+  "name": "Sandnessjøen",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Sandnessjøen Ship Gauging: UTM for Offshore and Service Vessels",
+  "description": "Ship thickness measurement at Sandnessjøen for supply vessels, well boats and coastal ships: tank, deck and hull gauging between Norwegian Sea trips.",
+  "h1": "Ultrasonic Thickness Measurement for Supply Vessels, Well Boats and Coastal Ships at Sandnessjøen",
+  "intro": "Sandnessjøen, on the island of Alsten below the Seven Sisters range, is the offshore town of the Helgeland coast. Supply vessels for the Skarv, Norne and Aasta Hansteen fields work from the Horvnes base, and a growing aquaculture fleet competes with them for quay space. Ships here pause between field trips, during weather holds or for a slipway visit, and those pauses are where gauging fits. Atlantis has nobody based in Helgeland; for each job the technicians fly in from India and go straight to the vessel.",
+  "keywords": [
+    "sandnessjøen thickness measurement",
+    "sandnessjoen ship gauging",
+    "supply vessel tank gauging",
+    "psv thickness measurement norway",
+    "well boat hull gauging",
+    "horvnes supply base vessel inspection",
+    "offshore vessel utm helgeland",
+    "ship inspection sandnessjøen",
+    "mud tank thickness measurement",
+    "coastal ship gauging nordland"
+  ],
+  "highlights": [
+    {
+      "h": "Supply vessels between Norwegian Sea trips",
+      "p": "Platform supply vessels loading at Horvnes for Skarv, Norne and Aasta Hansteen usually turn round within hours, but crew-change days and weather holds give longer stops. Liquid-mud, brine and base-oil tanks, where coatings break down first, are the usual targets."
+    },
+    {
+      "h": "Aquaculture boats filling the harbour",
+      "p": "Well boats, feed carriers and workboats serving Helgeland's salmon farms now take up much of Sandnessjøen's quay length. Fish-hold plating, seawater circulation pipework and sea chests are wetted constantly, and owners use quiet days alongside to have them measured."
+    },
+    {
+      "h": "Slipway repair on the waterfront",
+      "p": "Slipen Mekaniske, the town's slipway yard, moved from building ships to repair, maintenance and conversion work in 2003. A vessel hauled out there exposes its bottom and shell, so a docking-survey gauging scope can run in parallel with the yard's own work."
+    }
+  ],
+  "port": {
+    "h": "Sandnessjøen: an offshore base on the Helgeland coast",
+    "p": [
+      "Sandnessjøen is the main town of Alstahaug municipality, built on the island of Alsten and joined to the mainland by the Helgeland Bridge. It sits on the inner leads of the Helgeland coast, a sheltered sailing route that threads between the mainland and a vast scatter of low islands and skerries, and the coastal express stops here on its way north and south. Out to the west, beyond the skerries, lie the Norwegian Sea fields that turned a fishing and ferry town into a supply port: Skarv, operated by Aker BP, Equinor's Norne field and the Aasta Hansteen spar platform with its subsea facilities. Exploration rigs drilling in the same waters have also drawn their logistics through the town, and most of that offshore activity has built up over the past few decades.",
+      "Traffic at Sandnessjøen is offshore, coastal and aquaculture tonnage rather than deep-sea cargo. Platform supply vessels load deck cargo, drilling fluids, cement and fuel at the Horvnes industrial harbour, where the supply base adjoins three public quays. Standby and emergency response vessels rotate out to the fields, and subsea construction ships have worked from the base on the Aasta Hansteen subsea installation. Alongside them, salmon farming has built up a fleet of well boats, feed carriers and catamaran service boats; the port authority has said that larger well boats and workboats are taking an ever bigger share of the available quay length. Car ferries and express passenger boats link the town with the outer islands, and fishing vessels land at the harbour.",
+      "The inner leads are well protected, but the open Norwegian Sea beyond them is not, and winter storms regularly keep supply vessels in port or bring them back early from the field. For an inspection team those weather days matter: a PSV waiting out a gale at Horvnes is a ship with time on its hands. Sandnessjøen lies a little south of the Arctic Circle, so there is no polar night, but December daylight is brief and open-deck work needs floodlights for most of a shift. Summer turns that round, with long light evenings and calmer seas, which is also when aquaculture operators run their boats hardest and offshore campaigns are at their peak. Icy ladders and decks still complicate winter access, even this far south of Finnmark."
+    ]
+  },
+  "facilities": {
+    "h": "Quays and slipways where a vessel can be gauged at Sandnessjøen",
+    "p": [
+      "Most gauging here is done afloat. At Horvnes, supply vessels lie at the public quays next to the base warehouses and bulk plant, and tank cleaning is arranged through the vessel operator before anyone enters a mud or brine tank. That cleaning step sets the timetable: a liquid-mud tank that still holds residue cannot be measured, while one cleaned and ventilated over a weather day can. Deck plating, cargo rails, the stern roller area on anchor handlers and engine-room pipework can be reached while the ship works cargo, provided the quay operation allows people on deck.",
+      "For hull work out of the water, Slipen Mekaniske's slipway in the town built ferries, fishing boats, gas tankers and cargo ships until 2003 and has since concentrated on repair, maintenance and conversion. A vessel on the slip gives access to bottom plating, sea chests and the stern, which is the moment for a docking-survey gauging programme. Offshore vessels too large for a slipway go to yards further south on the Norwegian coast or abroad, and readings taken in Sandnessjøen beforehand let the owner settle the steel list before the vessel sails. Aquaculture boats, which seldom leave the region, are often measured in the inner harbour during routine service stops."
+    ],
+    "list": [
+      "Horvnes industrial harbour and supply base — tank, deck and piping gauging on PSVs and standby vessels between field trips or during weather holds.",
+      "Slipen Mekaniske slipway — bottom, shell, sea chest and stern gauging on vessels hauled out for repair or conversion.",
+      "Inner harbour berths — fish-hold, circulation-piping and hull readings on well boats and aquaculture service vessels.",
+      "Coastal express and ferry quays — short machinery-space and car-deck checks during scheduled stops or overnight lay-bys.",
+      "Fishing harbour berths — hull and fish-hold gauging on coastal fishing vessels landing catches or lying up between seasons."
+    ]
+  },
+  "context": {
+    "h": "Offshore operators, Norwegian rules and the Helgeland weather",
+    "p": [
+      "The Norwegian Maritime Authority inspects foreign ships at Sandnessjøen under the Paris MoU, though most of the vessels here are Norwegian-flagged offshore, ferry and aquaculture tonnage for which that authority, or a classification society acting for it, is the flag administration. Supply vessels on the Norwegian continental shelf work under contracts that add the field operators' own vessel requirements to those of class, and the petroleum activity itself is overseen by Havtil, the Norwegian Ocean Industry Authority. Documented hull and tank condition is part of what an owner puts forward when a vessel is offered for a new charter.",
+      "Norway was the first state to ratify the Hong Kong Convention on ship recycling, which entered into force in June 2025, so an Inventory of Hazardous Materials is now expected on ships of 500 gross tonnage and above trading here. That touches the ageing end of the PSV fleet: when an older supply vessel is sold out of the North Sea market, the buyer usually wants recent thickness readings alongside the IHM and the class records. In aquaculture the trend runs the other way, towards larger, newly built well boats, but their seawater systems and fish holds still benefit from early baseline readings, because cleaning chemicals and constant flow wear them faster than an ordinary hull."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs that come up at Sandnessjøen",
+    "p": "Jobs at Sandnessjøen are shaped by the offshore schedule and by the weather. The window is usually a stop of one or two days at the base, a weather hold or a slipway period, and scopes are agreed with the vessel operator so that tank cleaning and gas-freeing are done before the team boards. Aquaculture owners tend to ask for focused measurements on systems that have given trouble, while offshore owners want a structured set of readings that will stand up in a charter tender or a sale. Each scope is written against the vessel's own tank plan and frame numbering. Typical examples:",
+    "list": [
+      "A PSV at Horvnes during a weather hold: liquid-mud and brine tanks, cleaned by the crew, gauged together with cargo-rail and deck plating readings.",
+      "An anchor-handling vessel between rig moves: stern roller foundation, towing pin area and chain locker plating, with MPI at the roller supports.",
+      "A well boat in the inner harbour: fish-hold plating, circulation pipework and sea chests, measured on a quiet day between deliveries.",
+      "A fishing vessel or local ferry on the slipway: bottom and shell gauging for the docking survey, with substantial corrosion marked for the yard.",
+      "Pre-purchase gauging of an older supply vessel being sold out of the Norwegian market, covering tanks, deck and engine-room piping."
+    ]
+  },
+  "logistics": "Sandnessjøen has a small regional airport at Stokka, just outside the town, with domestic connections from Oslo through the regional network; the airports at Mosjøen and Mo i Rana, and the coastal road, are alternatives when weather closes the runway. The base and the public quays are ISPS-controlled, and the vessel operator or the ship's agent registers the team before arrival. Norway is in the Schengen area, so the technicians travel from India on a Schengen visa issued by Norway, and offshore owners who signal planned stops early give the visa time to come through.",
+  "vessels": [
+    "Platform supply vessels",
+    "Anchor-handling tug supply vessels",
+    "Standby and emergency response vessels",
+    "Subsea construction vessels",
+    "Well boats and feed carriers",
+    "Aquaculture service catamarans",
+    "Car ferries and express passenger boats",
+    "Coastal fishing vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a supply vessel at Horvnes while it loads for the field?",
+      "a": "Deck plating, cargo rails and engine-room pipework can often be measured while deck cargo is lifted, as long as the work stays clear of the crane operations. Tanks are another matter: mud, brine and base-oil tanks have to be emptied, cleaned and ventilated first, so tank gauging is best planned for a crew-change day, a weather hold or a short off-hire agreed with the charterer."
+    },
+    {
+      "q": "Is there a dry dock at Sandnessjøen?",
+      "a": "Not for large ships. The town's slipway yard takes smaller and mid-sized vessels out of the water for repair and conversion, which covers many local ferries, fishing vessels and aquaculture boats. Larger offshore vessels dock at yards further south or abroad, and readings taken in Sandnessjøen before they leave let the owner order steel ahead of their arrival at the yard."
+    },
+    {
+      "q": "What is measured on a well boat?",
+      "a": "Fish-hold plating and stiffeners, the seawater circulation lines and pump foundations, sea chests and overboard connections. These areas are wetted constantly and cleaned often, so they lose thickness faster than the outer hull. Where the owner has seen leaks or cracking, we add magnetic particle or dye penetrant testing on the suspect welds."
+    },
+    {
+      "q": "Does winter weather stop gauging in Sandnessjøen?",
+      "a": "It changes the plan more than it stops the work. Gales that keep supply vessels in port actually open tank-gauging windows, and work inside tanks and machinery spaces goes on regardless. Open-deck readings are slowed by rain, wind and short December days, so we take deck measurements in the daylight hours and keep tank work for the dark ones."
+    },
+    {
+      "q": "Can readings from Sandnessjøen support a charter tender for an offshore vessel?",
+      "a": "Yes, as the owner's condition data. A structured set of tank, deck and hull readings, reported against original thicknesses with sketches, shows a charterer how the vessel has been maintained. Charterers differ in what they ask for, so we agree the scope with the owner against the tender documents before any work starts."
+    }
+  ],
+  "nearby": [
+    "mo-i-rana",
+    "bodo",
+    "trondheim",
+    "kristiansund"
+  ]
+}

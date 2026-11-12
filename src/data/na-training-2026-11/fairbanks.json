@@ -1,0 +1,15 @@
+{
+  "slug": "fairbanks",
+  "lat": 64.84,
+  "lng": -147.72,
+  "localContext": "Fairbanks anchors Interior Alaska. The Trans-Alaska Pipeline System runs through the region and is maintained by Alyeska, Fort Wainwright and Eielson Air Force Base are major military employers, and Fort Greely lies to the southeast. Gold mining, the North Pole fuel facilities, coal-fired and other power generation and the University of Alaska Fairbanks add more. Arctic temperatures change how inspection is done, from couplant and batteries to penetrant limits, and the codes are ASME, API and AWS.",
+  "certPathwayNote": "Interior Alaska employers generally certify technicians under a written practice based on ASNT SNT-TC-1A, with the employer setting hours, examining and signing the certification. Pipeline operators and military contractors add their own qualification requirements, and the employer's Level III reconciles those with the written practice. ASNT central certification is an alternative for technicians who change employers.",
+  "salaryFrom": "anchorage",
+  "siblings": [
+    "anchorage",
+    "seattle",
+    "tacoma",
+    "williston",
+    "billings"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "police",
+  "name": "Police",
+  "country": "Poland",
+  "region": "europe",
+  "title": "Police (Poland) Ship UTM: Fertiliser and Gas Port Gauging",
+  "description": "Thickness measurement at the Port of Police on the Oder: UTM of bulk carriers discharging phosphate and potash, chemical tankers and gas carrier decks.",
+  "h1": "Ship Thickness Measurement at the Port of Police, Near Szczecin",
+  "intro": "The Port of Police lies on the Oder between the Szczecin Lagoon and Szczecin, and exists mainly to serve the large Grupa Azoty chemical works beside it. Bulk carriers discharge phosphate rock, potash and ilmenite, ships load fertilisers, and tankers and gas carriers bring ammonia, propane and ethylene. Corrosive cargoes make hold and tank gauging a recurring need. For each job, Atlantis mobilises technicians from India to the ship, as the company has no one stationed in Poland.",
+  "keywords": [
+    "police port thickness measurement",
+    "utm police poland",
+    "port police ship inspection",
+    "fertiliser carrier hold gauging",
+    "phosphate bulk carrier inspection",
+    "potash cargo hold corrosion",
+    "gas carrier deck gauging",
+    "ammonia tanker inspection",
+    "szczecin lagoon ship inspection",
+    "oder river port gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Cargoes that eat hold steel",
+      "p": "Potash and fertilisers attract moisture and leave chloride- and nitrate-rich residues, while phosphate rock is abrasive. Bulk carriers on the Police trade lose hold coating and steel faster than ships in cleaner trades, which is why hold gauging matters here."
+    },
+    {
+      "h": "Ammonia, propane and ethylene",
+      "p": "The Mijanka liquid terminal handles ammonia, and the gas terminal built for the Polimery Police plant receives propane and ethylene. Gauging on gas carriers covers deck, ballast tanks and piping, and never touches the cargo containment system."
+    },
+    {
+      "h": "MSR Gryfia just upriver",
+      "p": "Szczecin's ship-repair yard is a short distance up the Oder, so a ship gauged during discharge at Police can be docked at Gryfia with the readings already in hand and the same team following her into the dock."
+    }
+  ],
+  "port": {
+    "h": "The Port of Police on the lower Oder",
+    "p": [
+      "Police is a town on the west bank of the Oder, north of Szczecin, where the river opens into the Szczecin Lagoon. Its port stretches along several kilometres of the river and is reached from the sea by the same fairway that serves Szczecin: in from the Pomeranian Bay at Świnoujście, across the lagoon and into the Oder, where a side channel leads to the Police berths. The fairway was deepened in 2022, raising the draught available on the route, and the port has plans to deepen its own channel and add a heavy-cargo quay. The port authority is controlled by Grupa Azoty Zakłady Chemiczne Police, the chemical company whose works stand behind the quays, with the town as a minority shareholder.",
+      "Each of the port's terminals has its own job. The Marine Terminal receives bulk raw materials and loads fertilisers onto seagoing ships. The Barge Terminal serves river barges and small craft linked to the Oder waterway. The Mijanka terminal is the liquid berth, handling ammonia and other liquid products, and the gas terminal, built for the Polimery Police polypropylene project and in service since the end of 2023, unloads propane and ethylene into cryogenic storage. Most cargo is imported: phosphate rock and phosphorites for phosphoric acid and compound fertilisers, potash, ilmenite for the works' titanium white pigment, sulphuric acid and ammonia. Exports are mainly fertilisers and urea.",
+      "That cargo mix brings a particular fleet. Bulk carriers of various sizes bring phosphate rock, potash and ilmenite, and coasters and bulk ships load fertilisers for European customers. Gas carriers of the semi-refrigerated and fully refrigerated types carry ammonia, propane and ethylene, and chemical tankers bring acid and other liquids. River barges complete the picture. Grab discharge of bulk raw materials is steady but not quick, so bulk carriers stay alongside for days, which is ample time for a gauging team to work through the holds. Hard winters freeze the lagoon and the lower Oder; icebreakers then hold the route open, and passages to Police take longer than usual."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging at the Police terminals",
+    "p": [
+      "At the Marine Terminal, bulk carriers are gauged hold by hold during discharge. Potash and fertiliser residues are hygroscopic and corrosive, so before readings the team cleans each point to bare steel and looks for the pitting and grooving that such cargoes cause in the lower hold, on tank tops and around frame brackets. Hopper and topside tanks are entered under the ship's permits once ventilated. Ships loading fertilisers are measured before loading begins, with hatch covers and coamings included, because a wet fertiliser cargo is a serious claim and a corroded hatch is the usual route for water into the hold.",
+      "At Mijanka and at the gas terminal, the terminal's safety regime decides what can be done. On ammonia and LPG carriers we measure deck plating, ballast tanks certified safe by the crew, and sea-water and fire-main piping, and leave the cargo containment system entirely alone. Chemical tankers are treated the same way, with cargo tank internals left for a gas-free period. We do not plan dockings at Police itself; MSR Gryfia in Szczecin is a short distance upriver, and gauging during a Police discharge gives that yard, or any other the owner chooses, a measured steel list before the ship arrives."
+    ],
+    "list": [
+      "Marine Terminal — bulk carriers discharging phosphate rock, potash and ilmenite and loading fertilisers; hold, tank-top and hatch cover gauging during cargo operations",
+      "Mijanka liquid terminal — ammonia and chemical tankers; deck, ballast-tank and piping measurements inside the terminal's permit system",
+      "Gas terminal — propane and ethylene carriers serving the polypropylene plant; deck and ballast work only, never the containment system",
+      "Barge Terminal — river barges and small craft; hull and hold gauging for owners of inland and river-sea vessels",
+      "MSR Gryfia, Szczecin — in-dock follow-up of readings first taken during a Police discharge"
+    ]
+  },
+  "context": {
+    "h": "Polish inspection rules and the chemical trade at Police",
+    "p": [
+      "Port state control at Police is carried out under the Paris MoU by the Polish maritime administration, through the Szczecin Maritime Office (Urząd Morski w Szczecinie), which also looks after the fairway from Świnoujście. Gas carriers and chemical tankers are higher-risk types in the regime's targeting, and their inspections look hard at deck structure, piping and safety systems. Bulk carriers in the fertiliser and potash trades fall under the ESP rules, and their renewal and intermediate surveys bring close-up survey and transverse sections that a long discharge at Police gives time to prepare.",
+      "Fertiliser cargoes are carried under the IMSBC Code, and some, such as ammonium nitrate-based fertilisers, come with specific requirements for hold cleanliness and separation from heat sources. Charterers loading at Police therefore inspect holds closely, and a ship with flaking coating, loose scale and corroded frames may fail a hold inspection and lose time. Ships calling from outside the EU need an Inventory of Hazardous Materials on board under the EU Ship Recycling Regulation, and voyages between EU ports are counted under the EU ETS and FuelEU Maritime. The gas terminal has added gas carrier calls to a port that previously saw mainly bulk and chemical traffic, and plans for an LPG terminal using the same infrastructure would add more."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Police",
+    "p": "Police jobs are driven by the cargoes. Bulk carriers discharging potash, phosphate rock and ilmenite bring hold gauging for surveys and owner's condition checks, with special attention to corrosion from hygroscopic residues. Fertiliser loaders bring pre-loading hold and hatch cover checks. Gas carriers and chemical tankers bring deck, piping and ballast-tank scopes inside strict terminal rules. With MSR Gryfia so close, pre-docking gauging at Police followed by in-dock verification upriver is an efficient pairing for owners who plan their dockings in Szczecin. Barge and river-sea owners occasionally ask for hull gauging at the Barge Terminal when their craft come up for survey.",
+    "list": [
+      "Hold, hopper and tank-top gauging with pitting records on a bulk carrier discharging potash at the Marine Terminal",
+      "Hatch cover and coaming gauging on a bulk carrier before she loads fertilisers, to support a charterer's hold inspection",
+      "Deck plating, ballast-tank and sea-water piping measurements on an ammonia carrier at Mijanka",
+      "ESP intermediate-survey gauging on a bulk carrier discharging phosphate rock, ahead of her survey",
+      "Pre-docking steel estimate on a bulk carrier at Police, followed by in-dock verification at MSR Gryfia"
+    ]
+  },
+  "logistics": "Szczecin-Goleniów Airport is the nearest to Police, and Berlin Brandenburg offers more international connections; from either, the team continues by road to the port north of Szczecin. Poland is in the Schengen area, so our technicians from India travel on Schengen visas, applied for once the discharge or loading date is fixed. The ship's agent arranges access to the port and its terminals with the port authority, and the chemical works and gas terminal have their own safety rules and inductions. A follow-on docking at Gryfia is arranged with the yard.",
+  "vessels": [
+    "Bulk carriers",
+    "Fertiliser carriers",
+    "LPG and ammonia carriers",
+    "Ethylene carriers",
+    "Chemical tankers",
+    "Coasters and river-sea ships",
+    "River barges"
+  ],
+  "faqs": [
+    {
+      "q": "Why do potash and fertiliser cargoes matter for hold gauging?",
+      "a": "Potash and many fertilisers absorb moisture and leave residues that attack steel once the hold coating breaks down, producing pitting on tank tops, lower frames and brackets. Phosphate rock adds abrasion during grab discharge. On ships in the Police trade we clean each reading point thoroughly, measure in a dense pattern in the lower holds and record pitting depths, because those are the details a surveyor will judge."
+    },
+    {
+      "q": "Can you gauge a gas carrier at the Police gas terminal?",
+      "a": "Within the terminal's rules, yes, but only outside the cargo containment system. During the call we can measure deck plating, ballast tanks certified safe by the crew, and sea-water, fire-main and other piping outside the cargo system, with all work cleared under the terminal's and the ship's permits. A full hull scope on a gas carrier is better left for her next docking, when tanks and spaces can be prepared properly."
+    },
+    {
+      "q": "Can you inspect holds before a fertiliser loading?",
+      "a": "Yes. Before loading we gauge hatch covers, coamings and the hold boundaries, and record coating condition and corrosion in the holds, so the owner can fix problems before the charterer's surveyor inspects. Fertilisers must be kept dry, and a corroded hatch cover or a leaking air pipe into the hold is the usual cause of a wet-cargo claim."
+    },
+    {
+      "q": "Is MSR Gryfia close enough to combine with a Police job?",
+      "a": "Yes. The yard is a short distance up the Oder in Szczecin, so a ship gauged during a Police discharge can be docked there with her steel list already measured. The same team can then follow her into dock to complete the bottom and shell readings and confirm the renewal areas with the surveyor. One mobilisation from India covers both stages."
+    }
+  ],
+  "nearby": ["szczecin", "rostock", "gdynia", "gdansk", "ystad"]
+}

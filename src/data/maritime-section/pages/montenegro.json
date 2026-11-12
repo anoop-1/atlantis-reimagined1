@@ -1,0 +1,131 @@
+{
+  "slug": "montenegro",
+  "navLabel": "Montenegro",
+  "title": "Ship Thickness Measurement in Montenegro | UTM at Bar and Kotor",
+  "description": "Ultrasonic thickness measurement for ships in Montenegro: hull, tank and piping gauging at Bar, Kotor, Tivat and Bijela, with visas and port rules explained.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Montenegro",
+  "eyebrow": "Maritime inspection · Montenegro",
+  "intro": "Montenegro's short Adriatic coast has three working maritime areas: the commercial port of Bar in the south, the Bay of Kotor, one of Europe's deepest natural harbours, and the repair yard at Bijela inside the bay. Ships call for cargo, ferry and cruise turnarounds, and some come for docking. Ultrasonic thickness measurement is the service that fits: pre-docking hull gauging, tank and piping checks, and pre-purchase and on-hire gauging. Atlantis NDT mobilises its team from India to the vessel for each job and plans the work around the ship's schedule and the entry rules for a non-EU state.",
+  "highlights": [
+    {
+      "h": "A small coast with distinct roles",
+      "p": "Bar is the cargo and ferry port, the Bay of Kotor handles cruise ships and the yard at Bijela, and Tivat sits in the same bay. The right call depends on what the ship is doing in Montenegro."
+    },
+    {
+      "h": "Repair yard inside a fjord-like bay",
+      "p": "The yard at Bijela works in the sheltered Bay of Kotor. Gauging the ship at anchor or alongside before docking lets the superintendent set the steel list ahead of the slot."
+    },
+    {
+      "h": "Outside the EU, with its own entry rules",
+      "p": "Montenegro is a candidate for EU membership, not a member, and it is outside Schengen. Entry for technicians, agents and port formalities follow national rules, so planning starts early."
+    }
+  ],
+  "sections": [
+    {
+      "id": "me-ports",
+      "h": "Where ships are gauged in Montenegro",
+      "p": [
+        "Bar is Montenegro's principal commercial port. It handles bulk cargo, general cargo and containers, and it has a regular ferry link across the Adriatic to Italy. Ships often stay for the length of cargo operations, which makes an alongside gauging window workable for hull sections and tanks once cargo work allows safe access.",
+        "The Bay of Kotor lies further up the coast and is a sheltered, steep-sided inlet. Kotor is a cruise destination in a protected old town, and ships anchor or berth there for a day. Tivat, in the same bay, hosts a large marina and sees calls from yachts and commercial vessels. At Bijela, on the bay's shore, a shipyard has long handled repair and refit of cargo ships and tankers, and it is the one place on this coast where docking is routine."
+      ]
+    },
+    {
+      "id": "me-traffic",
+      "h": "The traffic behind the work",
+      "p": [
+        "Montenegro is a small market, so inspection demand follows a few ship types: cargo ships and bulk carriers trading through Bar, ferries on the Italian link, cruise ships at Kotor, and tankers and cargo ships that call at the Bijela yard. Some ships come to Montenegro because the yard has capacity or because owners prefer an Adriatic docking over a longer repositioning voyage.",
+        "For these ships, a pre-docking gauging job is typically the first step, because it fixes the steel list and helps the yard quote steel tonnage and docking days.",
+        "Because the market is small, the same ships reappear: a ferry that crosses to Italy, a cargo ship that loads at Bar, a tanker that docks at Bijela. A superintendent managing such a ship can plan a gauging job against the next known call, which gives time for the entry documents."
+      ]
+    },
+    {
+      "id": "me-regime",
+      "h": "Port state control and the rules that apply",
+      "p": [
+        "Montenegro is not an EU member state. Port state control sits under the national maritime administration and the harbour master's offices at each port, and the country has been a full member of the Paris MoU since July 2023, so ships should expect the same attention to hull and structure. The ship's agent confirms the current position for each call.",
+        "The Mediterranean emission control area covers the Adriatic, so the tightened sulphur limit under MARPOL Annex VI, regulation 14, applies to ships in these waters. Because Montenegro is outside the EU, the EU Ship Recycling Regulation does not apply directly; owners weighing a sale for recycling look to the IMO's Hong Kong Convention and the law of the country where the ship would be broken up."
+      ]
+    },
+    {
+      "id": "me-seasonal",
+      "h": "Weather, tourism and practical limits",
+      "p": [
+        "Summer is the cruise season in the Bay of Kotor, with large ships at anchor or alongside for a day and tight turnarounds. Gauging aboard a passenger ship in the bay is possible only within the spaces and hours the ship's management agrees. In winter, southerly gales can affect Bar and the open coast, though the bay itself is sheltered.",
+        "The roads between Bar and the bay are mountainous and single-lane in places, so travel between sites takes longer than the map suggests. The agent helps plan transport, and the job is scheduled with that in mind."
+      ]
+    },
+    {
+      "id": "me-job",
+      "h": "What a gauging job looks like on a Montenegrin call",
+      "p": [
+        "Planning begins from the ship's thickness measurement plan and her latest survey report, which show where readings are wanted. Before arrival the master states which tanks are clean and gas-free and the agent fixes the berth, anchorage or yard slot. The team marks the plan against the ship, takes readings with calibrated gauges and logs each against its location.",
+        "Montenegro is a small market, so windows are shaped by what the ship is doing. A ship at Bar stays as long as cargo work takes, a cruise ship at Kotor leaves by evening, and a ship at the Bijela yard may stay for weeks. We size the scope to the real stay and cover the most critical areas first, so a short call still delivers a usable steel list.",
+        "The report follows the format the superintendent and the yard already use, with as-built, measured and diminution values at each point, photographs and a marked plan. Where wastage is general, it says so and recommends where more readings or renewals are needed, so the yard can quote with confidence."
+      ]
+    },
+    {
+      "id": "me-planning",
+      "h": "Planning a Montenegrin gauging job from India",
+      "p": [
+        "The team travels from India for each job. Montenegro is outside the Schengen area and the EU, so entry is governed by its own visa rules. Depending on the passport and on whether a visa for another country is held, the process can differ, so we ask the ship's agent and the relevant embassy to confirm the position as early as possible. Work then goes through the ship's agent, who arranges the gangway, port security passes and tank-entry permits.",
+        "We ask early for the thickness measurement plan, the ship's last survey reports and the confirmed berth, anchorage or dry-dock slot, and we plan the mobilisation once the entry documents are issued and the ship's schedule is firm."
+      ]
+    },
+    {
+      "id": "me-services",
+      "h": "Which services Montenegrin calls ask for",
+      "p": [
+        "Pre-docking hull and tank gauging is the most common request, particularly at Bijela. Cargo ships are gauged in their tanks once cleaning and gas-freeing are done. Pre-purchase and on-hire gauging comes up because ships on regional trades change hands. Piping checks, including scrubber wash-water lines, follow a first set of readings where the ship has an exhaust gas cleaning system."
+      ]
+    }
+  ],
+  "codes": [
+    "Paris Memorandum of Understanding on Port State Control",
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: Mediterranean emission control area sulphur limit",
+    "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report located by frame and strake, with as-built, measured and diminution values",
+    "Steel renewal estimate marking plates for renewal ahead of a docking",
+    "Tank condition summary for cargo and ballast tanks after gas-freeing",
+    "Piping and scrubber condition report: minimum wall by spool and joint",
+    "Preliminary readings and photographs shared during the job on request"
+  ],
+  "industries": [
+    "Bulk carriers and general cargo ships",
+    "Product tankers",
+    "Ferries",
+    "Cruise ships",
+    "Repair yards",
+    "Ship managers and technical superintendents",
+    "Buyers' and charterers' surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "Which Montenegrin ports can you gauge ships at?",
+      "a": "Bar, Kotor, Tivat and Bijela. Bar is the main cargo and ferry port, Kotor handles cruise ships, Tivat sits in the same bay, and Bijela has the repair yard. The individual port pages set out the ships and berths we see at each."
+    },
+    {
+      "q": "Do your technicians need visas for Montenegro?",
+      "a": "Entry is governed by Montenegro's own rules, since it is outside Schengen and the EU. The position depends on the passport and on other visas held, so we ask the ship's agent and the embassy to confirm the requirement as soon as the schedule is firm, and we plan the mobilisation around the documents."
+    },
+    {
+      "q": "Is Montenegro inside an emission control area?",
+      "a": "The Mediterranean emission control area covers the Adriatic, so the tightened sulphur limit applies to ships in Montenegrin waters. Ships with scrubbers get wash-water and overboard piping gauged alongside hull and tank readings, wherever they call."
+    },
+    {
+      "q": "Can you gauge a ship at Bijela before docking?",
+      "a": "Yes, usually at anchor in the bay or alongside, before the ship moves into the dock. The aim is to hand the superintendent a measured steel list so that the yard can plan docking days and steel tonnage on readings."
+    },
+    {
+      "q": "Does the EU Ship Recycling Regulation apply in Montenegro?",
+      "a": "Not directly, since Montenegro is not an EU member. Recycling decisions here rest on the Hong Kong Convention and the law of the recycling country. On either route, a recent steel assessment helps to value the ship."
+    },
+    {
+      "q": "How long does a gauging job take in Montenegro?",
+      "a": "It depends on the ship and the scope: a few hours for limited readings during a ferry turnaround, a few days for full hull and tank gauging on a cargo ship or tanker at Bar or Bijela. We size the plan to the real stay and agree priorities with the superintendent before the team travels."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "erie",
+  "lat": 42.13,
+  "lng": -80.09,
+  "localContext": "Erie is Pennsylvania's Great Lakes port city and one of the country's best-known locomotive manufacturing centres, with Wabtec's Erie plant at Lawrence Park. Around it are metal castings and forging suppliers, plastics and tooling shops, ship and boat repair on Presque Isle Bay, paper and packaging plants and the bridges and rail lines of Lake Erie's southern shore. Work runs to AWS D1.1, AAR rail standards, ASME codes and customer specifications. For training, employers need technicians who can move between castings, welds and machined parts, with records that satisfy rail and industrial customers.",
+  "certPathwayNote": "Erie-area employers certify NDT personnel under their own written practices, most often built on ASNT SNT-TC-1A, with rail, pressure-equipment and customer requirements layered on top. A course does not certify anyone; the employer does. ASNT central certification (ASNT 9712 for Level I and II, ASNT Level III exams) is a separate credential for those who want one that is not tied to a single employer.",
+  "salaryFrom": "pittsburgh",
+  "siblings": [
+    "buffalo",
+    "cleveland",
+    "pittsburgh",
+    "great-lakes",
+    "detroit"
+  ]
+}

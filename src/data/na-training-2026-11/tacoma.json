@@ -1,0 +1,15 @@
+{
+  "slug": "tacoma",
+  "lat": 47.25,
+  "lng": -122.44,
+  "localContext": "Tacoma is a working port city on Commencement Bay. The Port of Tacoma's container and bulk terminals, marine fabrication and ship repair, rail yards, pulp and paper manufacturing, steel and metal shops, and the large military presence at Joint Base Lewis-McChord all generate inspection work. Marine and structural steel follows AWS D1.1 and classification society rules, terminals follow owner specifications, and military maintenance follows contractor quality programmes. Visual, magnetic particle, penetrant and ultrasonic testing carry most of the load.",
+  "certPathwayNote": "Tacoma employers generally certify technicians under a written practice based on ASNT SNT-TC-1A, signed off by the employer's Level III. Marine contractors may also answer to classification societies or the U.S. Coast Guard, and defence suppliers to customer flow-downs; the employer's Level III reconciles those with the written practice. ASNT central certification is an alternative for technicians who move between employers.",
+  "salaryFrom": "seattle",
+  "siblings": [
+    "seattle",
+    "portland",
+    "spokane",
+    "anchorage",
+    "richland"
+  ]
+}

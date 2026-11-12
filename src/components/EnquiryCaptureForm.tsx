@@ -158,7 +158,7 @@ const COPY = {
       "Free consultation + tailored quote on request",
     ],
   },
-  // 2026-11-07 maritime inspection section (/maritime-inspection): ship thickness measurement enquiries.
+  // 2026-11-07 maritime inspection section (/maritime): ship thickness measurement enquiries.
   // No class-approval claim here — the section states the IACS UR Z17 rule centrally (model.mjs).
   maritime: {
     badge: "Ship thickness measurement — quote on request",

@@ -1,0 +1,113 @@
+{
+  "slug": "torshavn",
+  "name": "Tórshavn",
+  "country": "Faroe Islands",
+  "region": "europe",
+  "title": "Tórshavn Hull Gauging: UTM for Trawlers, Ferries and Feeders",
+  "description": "Ultrasonic thickness measurement in Tórshavn, Faroe Islands, for pelagic trawlers, longliners, well boats, ferries and cargo ships: hull and tank UTM.",
+  "h1": "Thickness Measurement for Fishing, Aquaculture and Cargo Vessels in Tórshavn",
+  "intro": "Tórshavn is the capital and main port of the Faroe Islands, a self-governing North Atlantic nation within the Kingdom of Denmark. Its harbour serves the islands' pelagic and demersal fishing fleet, the well boats and service vessels of the salmon farms, the ro-pax ferry to Denmark and Iceland and the cargo lines that supply the islands, and it has a shipyard for docking and repair. Atlantis brings technicians from India to the Faroes for each job, planned around the weather and the vessel's schedule.",
+  "keywords": [
+    "tórshavn thickness measurement",
+    "faroe islands ship inspection",
+    "torshavn hull gauging",
+    "pelagic trawler inspection",
+    "well boat thickness gauging",
+    "longliner inspection",
+    "fishing vessel utm",
+    "ship inspection faroe islands",
+    "north atlantic ship gauging",
+    "aquaculture vessel inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Pelagic trawlers and their RSW tanks",
+      "p": "Faroese pelagic trawlers carry catches of mackerel, herring and blue whiting chilled in refrigerated seawater tanks. Those tanks, their cooling piping and the pump rooms that serve them corrode steadily, and gauging between seasons keeps the ships ready for the next fishery."
+    },
+    {
+      "h": "The salmon farming fleet",
+      "p": "Well boats, feed carriers and farm service vessels support the islands' salmon farms in sheltered fjords. Well-boat holds and seawater circulation systems, together with the deck structure under cranes and winches, are where gauging and crack detection find most."
+    },
+    {
+      "h": "Docking without leaving the islands",
+      "p": "With shipyard facilities in Tórshavn and at Skála on Eysturoy, Faroese and visiting vessels can be docked without a long passage abroad. Gauging during a slipway or dock period covers the shell and bottom plating that afloat work cannot reach."
+    }
+  ],
+  "port": {
+    "h": "Tórshavn harbour and the Faroese fleet",
+    "p": [
+      "Tórshavn sits on the east coast of Streymoy, the largest of the eighteen Faroe Islands, with the island of Nólsoy lying across the approach and breaking the swell from the east. The islands stand alone in the North Atlantic between Shetland, Norway and Iceland, and their weather is governed by the depressions that track across that ocean: strong winds, rapidly changing visibility and heavy seas are common in every season, and especially from autumn to spring. The harbour is compact, with quays close to the town centre for fishing vessels, ferries and cargo ships, and the warm ocean current that flows past the islands keeps it free of ice all year. Fog can close in quickly, and harbour movements are planned around it as much as around the wind.",
+      "Fishing is the foundation of the Faroese economy, and Tórshavn is one of its centres. The fleet includes large pelagic trawlers that fish mackerel, herring and blue whiting, demersal trawlers and longliners working for cod, haddock and saithe, and smaller coastal boats, with Faroese owners also operating vessels in distant waters. Salmon farming has grown into the other great industry, and its well boats, feed vessels and service craft are a constant presence in the fjords and harbours. The ro-pax ferry to Hirtshals in Denmark and Seyðisfjörður in Iceland is based at Tórshavn, domestic ferries link the outer islands, and container and ro-ro services connect the Faroes with Denmark, Iceland and continental Europe. Visiting fishing vessels from neighbouring fleets also call to land, refuel or wait out bad weather.",
+      "Faroese ships work hard and spend long periods at sea, so their time in port is precious. Pelagic trawlers fish in intense seasons and lie in harbour between them, which is when maintenance and inspection are planned; demersal vessels and longliners return between trips to land and take stores. Salmon-farm vessels are rarely far from port but also rarely idle, and their owners schedule maintenance around the farms' needs. The international ferry calls on a fixed schedule through the year. For any job, the governing factor is the weather: work inside tanks and holds can carry on through a gale, but boarding, outside work on deck and the team's flights in and out of Vágar can all be held up by it."
+    ]
+  },
+  "facilities": {
+    "h": "Where vessels are gauged in the Faroe Islands",
+    "p": [
+      "In Tórshavn, fishing vessels lie at the harbour quays between seasons and trips, and that is where most afloat gauging takes place: fish holds or refrigerated seawater tanks emptied and cleaned, fuel and ballast tanks opened by the crew, trawl and processing decks clear of gear. Cargo ships and the ferry give shorter windows at their berths, suited to deck, hatch or ramp details and a limited number of tanks. Salmon-farm vessels can be met in Tórshavn or at their bases in other harbours around the islands, which are reached by road through the tunnels and over the bridges that connect most of the archipelago.",
+      "For docking, MEST, the Faroese shipyard group, has a yard in the centre of Tórshavn with slipways and another at Skála on Eysturoy, and between them they repair, rebuild and maintain fishing vessels and other ships from the islands and from Greenland. A vessel on a slipway or in dock gives access to shell plating, bottom, rudder, stern frame and sea chests, and gauging there is coordinated with the yard's programme and the attending surveyor. Ships too large for the Faroese yards dock abroad, typically in Denmark, Norway or Poland, and a Tórshavn call before that docking is a good point to take pre-docking readings."
+    ],
+    "list": [
+      "Tórshavn harbour quays — fish-hold, refrigerated seawater tank and fuel-tank gauging on trawlers and longliners between trips or seasons.",
+      "MEST slipways in central Tórshavn — shell, bottom and stern-area readings on fishing vessels and smaller ships hauled out for repair.",
+      "MEST yard at Skála, Eysturoy — docking and repair gauging on larger Faroese and visiting vessels.",
+      "Ferry and ro-ro berths — deck, ramp and door-area checks on the international ferry and cargo ships during their calls.",
+      "Salmon-farm bases around the islands — well-boat hold, seawater piping and crane-foundation checks on aquaculture vessels."
+    ]
+  },
+  "context": {
+    "h": "Faroese status, North Atlantic fisheries and inspection rules",
+    "p": [
+      "The Faroe Islands are self-governing within the Kingdom of Denmark and, unlike Denmark, are outside both the EU and the EEA. The islands run their own maritime administration and ship register, including an international register used by Faroese and foreign owners, and they take part in the IMO as an associate member. For gauging, the practical consequences are twofold: Faroese-flag fishing vessels follow the islands' own rules where they are not classed by an IACS society, and EU-specific measures do not apply in Faroese waters. A voyage between Tórshavn and an EU port counts as a voyage to a third country under the EU ETS and FuelEU Maritime, which affects the ferry and cargo operators rather than the condition of their ships.",
+      "Ships on the routes from Tórshavn meet Paris MoU port state control when they call in Denmark, Iceland or other European ports, so the condition of a Faroese cargo ship or ferry is examined regularly at the far end of its route. For the fishing fleet, the harsh operating conditions are the main driver: pelagic trawlers with refrigerated seawater tanks, demersal trawlers with heavily loaded gallows and winches, and longliners that spend weeks at sea all build up corrosion and fatigue in predictable places. The salmon farms, working in exposed fjords, put similar demands on well boats and service vessels. Classed fishing vessels follow their society's rules for the type, and owners often add gauging between surveys, because losing a season to unexpected steel work hurts far more than an extra inspection."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging work typical of Tórshavn",
+    "p": "Most Tórshavn jobs involve fishing vessels, and they are timed to the fishing calendar: between pelagic seasons, during a planned yard stay, or on a landing day when the owner has a specific concern. Salmon-farm vessels and the islands' cargo ships provide the rest, along with occasional visiting vessels that use the Faroese yards. Because the team flies in to the islands, we prefer to group work, measuring several vessels for one owner or combining an afloat scope with a yard period, so that one mobilisation covers as much as possible. Reports go to the owner and, where relevant, the surveyor as the work proceeds.",
+    "list": [
+      "A pelagic trawler between the mackerel and herring seasons: refrigerated seawater tank plating, cooling piping and pump-room structure gauged alongside.",
+      "A demersal trawler on the MEST slipway: shell plating at the waterline and in way of the trawl gallows, with MPI at winch and gallows foundations.",
+      "A well boat serving the salmon farms: well-hold structure, seawater circulation piping and crane-pedestal welds checked during a maintenance stop.",
+      "Pre-docking gauging of ballast tanks and voids on a cargo ship calling at Tórshavn, ahead of a docking in a Danish or Polish yard.",
+      "A longliner back from a long trip: fish-hold and fuel-tank readings requested by the insurer after a heavy-weather incident."
+    ]
+  },
+  "logistics": "Vágar Airport is the only airport in the Faroe Islands, linked to Tórshavn by road through a subsea tunnel, and its flights connect with Copenhagen and a few other European cities. The Faroes are not part of the Schengen area, and entry rules differ from Denmark's, so the visa route for technicians from India is checked for each job and started early. The ship's agent or the vessel owner arranges harbour access, and access to the yards is agreed with MEST through the owner.",
+  "vessels": [
+    "Pelagic trawlers",
+    "Demersal trawlers",
+    "Longliners",
+    "Well boats and aquaculture service vessels",
+    "Ro-pax ferries",
+    "Container and ro-ro cargo ships",
+    "Domestic passenger ferries"
+  ],
+  "faqs": [
+    {
+      "q": "What does gauging cover on a pelagic trawler with refrigerated seawater tanks?",
+      "a": "The RSW tanks themselves, which hold the catch in chilled seawater, their internal structure and the cooling and circulation piping that serves them, plus the pump rooms. Fuel and ballast tanks, the trawl deck, the stern ramp and the shell at the waterline complete a typical scope. Magnetic particle testing at gallows, winch and net-drum foundations is often added."
+    },
+    {
+      "q": "Is the weather a problem for work in the Faroes?",
+      "a": "It affects travel and outside work more than the gauging itself. Flights to Vágar can be delayed by wind or fog, and outside work on deck or on the hull stops in a gale, but measurements inside tanks, holds and machinery spaces continue in most conditions. We build margin into the schedule, plan internal spaces first and keep outside readings for the calmer spells between depressions."
+    },
+    {
+      "q": "Can a vessel be docked in the Faroes for a renewal survey?",
+      "a": "Many can. The MEST yards in Tórshavn and at Skála take fishing vessels and other ships for slipway or dock periods, and the team can gauge the shell, bottom and tanks there in step with the yard's work and the class surveyor. Larger ships dock abroad, and a Tórshavn call beforehand is useful for measurements that will shape the yard specification."
+    },
+    {
+      "q": "Does the team need a different visa to work in Tórshavn than in Denmark?",
+      "a": "Yes, the arrangements differ. The Faroe Islands are outside the Schengen area and the EU, so permission to enter the Faroes has to be arranged specifically for technicians travelling from India rather than assumed from a Danish visa. We check the current requirements for each job and apply as soon as dates are known, so share the expected yard period or port call as early as possible."
+    }
+  ],
+  "nearby": [
+    "lerwick",
+    "hirtshals",
+    "reykjavik",
+    "bergen",
+    "aberdeen"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "lafayette",
+  "lat": 30.22,
+  "lng": -92.02,
+  "localContext": "Lafayette is the onshore base of the Gulf of Mexico oil patch. Oilfield service companies, drilling tool and machine shops, and tubular inspection yards around Broussard, Youngsville and Scott inspect drill pipe, casing, tubing and threaded connections before they go offshore. Fabricators at the Port of Iberia build skids, modules and structures, PHI Aviation maintains offshore helicopters from its Lafayette base, and pipelines converge on Henry Hub at Erath. The work runs to API drill stem and tubular standards, API 1104, AWS D1.1 and FAA requirements, so MT, VT and UT come first.",
+  "certPathwayNote": "In Lafayette the employer certifies. Service companies and inspection yards keep a written practice built on ASNT SNT-TC-1A, and their Level III signs off training, experience, examinations and vision checks. Operators add the inspection categories and acceptance criteria in their tubular specifications, and aviation maintenance follows FAA and manufacturer requirements. ASNT central certification is the alternative for technicians who want a credential that moves with them.",
+  "salaryFrom": "lake-charles",
+  "siblings": [
+    "lake-charles",
+    "baton-rouge",
+    "houma",
+    "new-orleans",
+    "beaumont"
+  ]
+}

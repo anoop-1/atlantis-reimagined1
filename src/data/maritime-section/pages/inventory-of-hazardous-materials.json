@@ -1,0 +1,179 @@
+{
+  "slug": "inventory-of-hazardous-materials",
+  "navLabel": "IHM (Inventory of Hazardous Materials)",
+  "title": "IHM Surveys for Ships | Inventory of Hazardous Materials Part I",
+  "description": "IHM Part I for ships under the EU Ship Recycling Regulation and the Hong Kong Convention: document review, on-board sampling, lab analysis and maintenance.",
+  "h1": "Inventory of Hazardous Materials (IHM): Part I surveys, sampling and maintenance",
+  "eyebrow": "Maritime inspection · Compliance survey",
+  "intro": "An Inventory of Hazardous Materials (IHM) records the hazardous materials built into a ship, where each one sits and roughly how much there is, so that crews, repairers and finally the recycling yard can handle them safely. The EU Ship Recycling Regulation has required one on EU-flag ships and on non-EU ships calling at EU ports since 31 December 2020, and the Hong Kong Convention has been in force since 26 June 2025. Atlantis NDT prepares IHM Part I from the ship's documents and an on-board visual and sampling check, then keeps it current.",
+  "highlights": [
+    {
+      "h": "Sampling planned before boarding",
+      "p": "The visual and sampling check plan is written from the ship's documents before anyone travels. On board, samples are taken only where the plan and the master's permission allow, using safe sampling practice, sealed, labelled and tracked to the laboratory."
+    },
+    {
+      "h": "Verification stays with class",
+      "p": "We compile Part I in the format of the IMO guidelines with the evidence behind every entry. The class society or recognised organisation verifies it at the initial survey, and the certificate or Statement of Compliance is issued by the flag or on its behalf."
+    },
+    {
+      "h": "An inventory that stays true",
+      "p": "Part I must change whenever equipment, spares or paint containing listed materials come aboard or leave. We review material declarations as they arrive and update the inventory, so the renewal survey finds a working document rather than a file from the year it was made."
+    }
+  ],
+  "sections": [
+    {
+      "id": "who-needs-an-ihm",
+      "h": "Which ships need an IHM, and which document they carry",
+      "p": [
+        "Two regimes ask for an inventory, and many ships now answer to both. The EU Ship Recycling Regulation, Regulation (EU) No 1257/2013, applies to ships of 500 GT and above. Since 31 December 2020 existing EU-flag ships have had to carry a verified IHM with an Inventory Certificate, and ships under any other flag have needed IHM Part I with a Statement of Compliance when they call at a port or anchorage in the EU; the same applies in Norway and Iceland. Port state control officers in those ports ask to see it, and a missing or plainly outdated inventory is a finding.",
+        "The Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships entered into force on 26 June 2025. Ships of 500 GT and above trading internationally under the flag of a party need an International Certificate on Inventory of Hazardous Materials: new ships from delivery, and existing ships by 26 June 2030 or before they go for recycling if that comes first. Where the flag cannot issue the international certificate, a Statement of Compliance is generally used instead, and the class society advises which applies. A ship that already holds an EU certificate still needs the Hong Kong Convention document, usually issued at its next IHM renewal survey on the strength of the existing Part I. Warships, naval auxiliaries and other government ships in non-commercial service fall outside both regimes."
+      ],
+      "table": {
+        "head": ["Regime", "Ships covered", "Document carried on board", "Issued by"],
+        "rows": [
+          ["EU Ship Recycling Regulation, EU flag", "EU-flag ships of 500 GT and above", "IHM Part I with an Inventory Certificate", "The flag Administration, or a recognised organisation acting for it"],
+          ["EU Ship Recycling Regulation, other flags", "Ships of 500 GT and above calling at an EU port or anchorage, since 31 December 2020", "IHM Part I with a Statement of Compliance", "The flag State's authorities, or an organisation recognised by them"],
+          ["Hong Kong Convention", "Ships of 500 GT and above under the flag of a party; existing ships by 26 June 2030 or before recycling", "International Certificate on Inventory of Hazardous Materials", "The flag Administration, or a recognised organisation on its behalf"],
+          ["Ship going for recycling", "Any ship under either regime at the end of its life", "IHM Parts I, II and III with a ready-for-recycling certificate", "The flag Administration, or a recognised organisation on its behalf"]
+        ]
+      }
+    },
+    {
+      "id": "hazardous-materials",
+      "h": "What goes into the inventory, and where it hides on a ship",
+      "p": [
+        "The IMO guidelines sort the materials into two tables. Table A lists materials whose installation or use is prohibited or restricted, for example asbestos, ozone-depleting substances, polychlorinated biphenyls (PCBs), and anti-fouling systems containing organotin compounds or cybutryne. Table B lists materials to be recorded when present above the threshold values in the guidelines, for example cadmium, hexavalent chromium, lead and mercury and their compounds, polybrominated biphenyls (PBBs), polybrominated diphenyl ethers (PBDEs), polychlorinated naphthalenes (PCNs), radioactive substances and certain short-chain chlorinated paraffins. The EU regulation sets out its own two annexes; they follow the IMO tables closely but add, for example, perfluorooctane sulfonic acid (PFOS) and the flame retardant HBCDD, so an inventory for an EU port call is checked against the EU lists as well.",
+        "Age is a guide, not a rule. SOLAS has prohibited new installation of materials containing asbestos on all ships since 1 January 2011, yet asbestos still turns up in gaskets, insulation and spare parts fitted after that date, often supplied with paperwork that says nothing about it. The table shows where each material is commonly found, which is why the check walks the whole ship rather than only the engine room."
+      ],
+      "table": {
+        "head": ["Material (examples)", "Where it is commonly found on board"],
+        "rows": [
+          ["Asbestos", "Flange gaskets and valve packing, pipe lagging and thermal insulation, fire doors and bulkhead panels, deck underlay, winch brake linings, cable penetrations"],
+          ["Ozone-depleting substances", "Older refrigeration and air-conditioning plant, halon fire-extinguishing systems, some insulation foams"],
+          ["PCBs", "Transformers and capacitors on older ships, cable insulation, paints and sealants"],
+          ["Organotin or cybutryne anti-fouling", "Old anti-fouling layers beneath later coats on the underwater hull and in sea chests"],
+          ["Lead, cadmium, hexavalent chromium", "Primers and paint systems, batteries, plated components"],
+          ["Mercury", "Thermometers, level and pressure switches, fluorescent and discharge lamps"],
+          ["PBBs, PBDEs, short-chain chlorinated paraffins", "Cable sheathing, plastics, rubber, sealants and foams"],
+          ["Radioactive substances", "Some smoke detectors, level gauges and luminous signs"]
+        ]
+      }
+    },
+    {
+      "id": "documents-first",
+      "h": "Documents first: building the visual and sampling check plan",
+      "p": [
+        "For a ship in service, an inventory starts at a desk. The IMO guidelines set out the sequence: collect the information, assess it, prepare a visual and sampling check plan, carry out the check on board, then compile Part I and its location diagram. Skipping straight to the ship produces hundreds of unnecessary samples and still misses equipment nobody thought to look at.",
+        "We ask for the general arrangement and fire control plan, machinery and equipment lists, insulation, piping and accommodation specifications, the coating history of the hull and tanks, maker documentation, records of refits and major repairs, and every Material Declaration and Supplier's Declaration of Conformity the ship holds for equipment fitted since delivery. Each item is then placed in one of three groups: shown by documents to contain a listed material, shown by documents not to, or uncertain. The uncertain items become the plan: which ones will be checked visually, which sampled, and which, where sampling is impractical or unsafe, will be recorded as potentially containing hazardous material and treated in the inventory as if they do. Many class societies like to see that plan before the ship visit, and we send it to them through the owner."
+      ]
+    },
+    {
+      "id": "on-board-check",
+      "h": "The on-board visual and sampling check",
+      "p": [
+        "The visual check confirms that what the documents describe is really there, in the place recorded, and finds what they leave out: replacement pumps, refitted cabins, spare gaskets in the store, a battery bank added during a refit. Every space is walked, from the steering gear flat to the wheelhouse, and each item is located by deck, frame and compartment and photographed.",
+        "Sampling is done with the master's permission and under the ship's permit-to-work system. The technician wears respiratory protection and disposable coveralls where asbestos is suspected, wets the material to keep dust down, takes the smallest sample that will give a result, seals it in labelled double bags and closes the sampled point so nothing is left exposed. Nothing is sampled from live electrical equipment, pressurised systems or fire-integrity divisions where cutting would compromise them; those items are recorded as potentially containing instead. Each sample carries an identifier linked to its photograph and location, and a chain-of-custody record follows it to an accredited independent laboratory, whose certificate of analysis is tied to the same identifier. If a confirmed or strongly suspected hazard is found where the crew works, the master is told on the day rather than in the final report."
+      ]
+    },
+    {
+      "id": "compiling-part-i",
+      "h": "Compiling IHM Part I and the location diagram",
+      "p": [
+        "Part I is ship-specific and follows the standard format in the IMO guidelines, in three parts. Each entry names the item, its location, the listed material, the part of the item that contains it and an approximate quantity, with remarks where an entry rests on a potentially-containing classification rather than on a test result. A location diagram, normally marked up on the general arrangement, shows where each entry is so a repairer or a yard can find it without the original surveyor.",
+        "The evidence file goes with Part I: the document assessment, the check plan, sampling records, laboratory certificates and photographs. A surveyor who can trace any line of the inventory back to its evidence verifies faster, and a later buyer or recycling yard can rely on it."
+      ],
+      "table": {
+        "head": ["Part I section", "What it records", "Typical entries"],
+        "rows": [
+          ["I-1 Paints and coating systems", "Coatings containing Table A or Table B materials", "Anti-fouling history, lead or chromate primers, deck and tank coatings"],
+          ["I-2 Equipment and machinery", "Equipment and machinery containing listed materials", "Gaskets and packing, switchboard components, batteries, refrigeration plant, detectors and gauges"],
+          ["I-3 Structure and hull", "Structural and outfitting materials containing listed materials", "Insulation, deck underlay, joinery panels, fire doors, cable penetrations"]
+        ]
+      }
+    },
+    {
+      "id": "verification-certificate",
+      "h": "Verification and certification: the class society's part",
+      "p": [
+        "Atlantis does not verify or certify an inventory. The class society or recognised organisation reviews Part I and its evidence, carries out the initial survey on board, which includes its own spot checks of the inventory against the ship, and the flag Administration, or the recognised organisation on its behalf, then issues the certificate or Statement of Compliance. Renewal surveys follow at intervals not exceeding five years, and an additional survey can be needed after a major conversion or repair. Our report is never presented as a certificate.",
+        "We hold no IHM accreditation. Some flags and class societies keep their own lists of IHM service suppliers; if yours does, or if a charterer's questionnaire asks for a particular expert qualification, tell us at enquiry so we can confirm before anything is booked."
+      ]
+    },
+    {
+      "id": "ihm-maintenance",
+      "h": "Keeping the IHM up to date after certification",
+      "p": [
+        "An inventory goes out of date with the first spare part delivered after the survey. Both regimes expect it to be maintained for the life of the ship: the safety management system names who is responsible, and every new item of equipment, spare or batch of paint is checked against the listed materials using the supplier's Material Declaration and Supplier's Declaration of Conformity. Items containing listed materials are added to Part I, items removed are struck out with the date, and each change is logged in the revision history.",
+        "The practical difficulty is the declarations themselves: suppliers send them late, send the wrong format or do not send them at all. Our maintenance service takes the purchase records and declarations from the ship or the office, chases what is missing, checks each declaration against the thresholds, updates Part I and the revision log, and flags anything that needs a sample at the next opportunity. Where our technicians are already on board for thickness measurement or NDT, a spot check of the inventory can be added to the same visit."
+      ]
+    },
+    {
+      "id": "2023-guidelines-cybutryne",
+      "h": "Older inventories, the 2023 guidelines and cybutryne",
+      "p": [
+        "Many ships carry an inventory written under the 2011 or 2015 IMO guidelines. Resolution MEPC.379(80), the 2023 Guidelines for the development of the Inventory of Hazardous Materials, replaced them and applies at the latest from the Hong Kong Convention's entry into force. The change that matters most for ships in service is cybutryne, an anti-fouling biocide banned under the AFS Convention for new applications from 1 January 2023.",
+        "Before the next IHM renewal survey, the anti-fouling system has to be checked for cybutryne, from the coating supplier's Material Declaration or, where there is none, by sampling and testing. Cybutryne present above an average of 1,000 mg per kg of dry paint is recorded in Part I and dealt with under the AFS Convention, and its later removal is recorded too. The material declaration format was updated at the same time, so older supplier declarations may need replacing. We review existing inventories against the 2023 guidelines and the EU lists and set out what has to change before the renewal survey."
+      ]
+    },
+    {
+      "id": "recycling-and-pre-purchase",
+      "h": "Parts II and III before recycling, and IHMs in a pre-purchase inspection",
+      "p": [
+        "At the end of a ship's life, Part I is brought up to date and Parts II and III are added: Part II for operationally generated waste such as sludge, oily residues and cargo residues, and Part III for stores. With the final survey done, the ship receives a ready-for-recycling certificate and must go to a facility authorised under the Hong Kong Convention or, for an EU-flag ship, one on the European List of ship recycling facilities. We can prepare the update and Parts II and III with the crew in the weeks before the final voyage.",
+        "For a buyer, the inventory is worth reading during a pre-purchase inspection. A Part I with long lists of potentially-containing entries, no maintenance records since certification, or no cybutryne check points to work and survey findings after delivery, and is better known before the sale is agreed than after."
+      ]
+    }
+  ],
+  "codes": [
+    "Regulation (EU) No 1257/2013 on ship recycling (EU Ship Recycling Regulation)",
+    "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships, 2009 (in force 26 June 2025)",
+    "IMO resolution MEPC.379(80) – 2023 Guidelines for the development of the Inventory of Hazardous Materials",
+    "EMSA Best Practice Guidance on the Inventory of Hazardous Materials",
+    "International Convention on the Control of Harmful Anti-fouling Systems on Ships (AFS Convention)",
+    "SOLAS regulation II-1/3-5 – New installation of materials containing asbestos"
+  ],
+  "deliverables": [
+    "Document assessment with every item classified as containing, not containing or uncertain",
+    "Visual and sampling check plan for review by the owner and the class society",
+    "Sampling records with locations, photographs, chain of custody and laboratory certificates of analysis",
+    "IHM Part I in the IMO guideline format (I-1, I-2, I-3) with a marked-up location diagram",
+    "Summary of hazardous materials found, with locations and approximate quantities",
+    "Maintained Part I with revision log and filed Material Declarations after each change",
+    "Updated Part I with Parts II and III before the final voyage, on request"
+  ],
+  "industries": [
+    "EU-flag ships of all types",
+    "Non-EU ships trading to EU, Norwegian and Icelandic ports",
+    "Owners preparing for the Hong Kong Convention deadline",
+    "Ship managers' technical and HSQE departments",
+    "Buyers reviewing IHMs during pre-purchase inspections",
+    "Owners preparing ships for recycling",
+    "Ship-repair yards on conversion and refit projects"
+  ],
+  "faqs": [
+    {
+      "q": "Does a non-EU ship really need an IHM to call at an EU port?",
+      "a": "Yes, if it is 500 GT or more. Since 31 December 2020 a ship under any non-EU flag calling at a port or anchorage in the EU, or in Norway or Iceland, must carry IHM Part I with a Statement of Compliance, and port state control checks it. With the Hong Kong Convention now in force, most ships trading internationally will also need the convention certificate, for existing ships by 26 June 2030 or before recycling if that is earlier."
+    },
+    {
+      "q": "Who issues the IHM certificate or Statement of Compliance?",
+      "a": "The flag Administration, or a recognised organisation, usually the ship's class society, acting on its behalf, after verifying Part I and carrying out the initial survey on board. Atlantis prepares the inventory and its evidence, takes part in the survey if the owner wishes, and answers the surveyor's questions, but does not verify or certify it. Renewal surveys then follow at intervals not exceeding five years."
+    },
+    {
+      "q": "Do you take samples of suspected asbestos on board?",
+      "a": "Yes, where the check plan calls for a sample, the master gives permission and the ship's permit-to-work allows it. Samples are taken wet, as small as the laboratory needs, sealed and labelled, and the sampled point is closed. Where sampling would damage live equipment, a pressurised system or a fire division, the item is recorded as potentially containing asbestos instead, which the guidelines allow, and is treated as containing it."
+    },
+    {
+      "q": "Our IHM was prepared years ago. Is it still valid?",
+      "a": "Its certificate may be, but the content may not. Check three things: whether Part I has been updated for equipment and spares fitted since, whether the anti-fouling system has been checked for cybutryne as the 2023 guidelines require before the next renewal survey, and whether the inventory covers the EU lists if the ship calls at EU ports. We review an existing inventory against those points and say what needs doing."
+    },
+    {
+      "q": "What do you need from us before the survey?",
+      "a": "General arrangement, fire control plan, machinery and equipment lists, insulation and accommodation specifications, the hull coating history, records of refits and repairs, the existing IHM if there is one, and all Material Declarations and Supplier's Declarations of Conformity on file. With those we prepare the check plan. Because the team travels from India, early notice of the port and dates makes visas and travel simpler."
+    },
+    {
+      "q": "Who carries out the work?",
+      "a": "The work is planned and supervised by Atlantis NDT's founder, the Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience; Atlantis is certified to ISO 9001 and ISO 14001. Laboratory analysis is by an accredited independent laboratory. If your flag, class or charterer asks for a particular IHM expert qualification, tell us at enquiry."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "sweden",
+  "navLabel": "Sweden",
+  "title": "Ship Thickness Measurement in Sweden | UTM at Swedish Ports",
+  "description": "Ship ultrasonic thickness measurement in Sweden: UTM and hull gauging at Gothenburg, Stockholm, Malmö, Luleå and Gävle, including ice-class hull checks.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Sweden",
+  "eyebrow": "Maritime inspection · Sweden",
+  "intro": "Sweden's coastline runs from the Skagerrak and Kattegat in the west, round the Öresund and the southern Baltic, up the Baltic coast to the Gulf of Bothnia. Gothenburg is the largest port; Stockholm, Malmö and Helsingborg handle ferry and cargo traffic; Luleå, Umeå, Sundsvall and Gävle serve the northern industries; and Lysekil, Oxelösund and Södertälje support refining, steel and industry. Atlantis NDT mobilises its team from India to the ship for each job, planned around ice, weather, the berth and Schengen visas, and takes ultrasonic thickness readings for dockings, surveys and ice-class condition checks.",
+  "highlights": [
+    {
+      "h": "Ice-class hulls after the season",
+      "p": "Ships trading to the northern Baltic carry ice class strengthening, and winter service strips coatings and loads the ice belt. Gauging the belt plating and frames after the season shows whether wastage and damage belong in the next docking."
+    },
+    {
+      "h": "Tankers and gas ships at the west coast",
+      "p": "Gothenburg's oil harbour and the Lysekil refinery area draw product and chemical tankers. Tank gauging is done after cleaning and a gas-free certificate, at the berth or a lay-by, with readings located on the thickness measurement plan."
+    },
+    {
+      "h": "Ferries on tight turnarounds",
+      "p": "Swedish ferry routes to Denmark, Germany, Poland, Finland and Estonia run to fixed timetables. Gauging on a ro-ro or passenger ship means a short layover, so the plan is agreed with the master and the structure is opened up in advance."
+    }
+  ],
+  "sections": [
+    {
+      "id": "se-coasts",
+      "h": "Where ships are gauged on the Swedish coast",
+      "p": [
+        "The west coast is Sweden's gateway to the world. Gothenburg, the largest port in the Nordic countries, handles containers, vehicles, oil products and ferries, and its oil harbour at Skarvik supports tanker traffic; ferries to Denmark and Germany leave from here. Further north, Lysekil is the site of a refinery and takes product and chemical tankers, and Varberg and Halmstad on the Kattegat coast handle ferries and general cargo, with Varberg linked to Grenaa in Denmark.",
+        "The south and the Öresund combine ferry traffic with cargo. Malmö, opposite Copenhagen, is a vehicle and general cargo port. Helsingborg, at the narrowest point of the Öresund, is a ferry and container port. Ystad and Karlskrona in the south-east are ferry ports with links to Poland and Bornholm, and Karlskrona also hosts a naval base. Karlshamn takes forest products and general cargo, and Oskarshamn is a ferry link to Gotland, so ships there are often gauged during a short call between island crossings.",
+        "The Stockholm area and the east coast serve the capital and its industry. Stockholm is a major passenger and cruise port with ferries to Finland and Estonia and a route through the archipelago that shapes the timing of calls. Södertälje is reached by a canal and lock and serves the industry around it, Norrköping handles bulk and general cargo, and Oxelösund is associated with the steel industry. North of Stockholm, Gävle, Sundsvall, Umeå and Luleå serve the forest, steel and mining industries around the Gulf of Bothnia, where winter ice is a fact of the operating calendar."
+      ]
+    },
+    {
+      "id": "se-fleet",
+      "h": "The ships and industries behind the work",
+      "p": [
+        "Swedish shipping is a mix of owner and operator types. Tanker and ferry companies, bulk and forest product carriers, offshore and specialist tonnage, and a ferry and ro-ro sector serving the Baltic all generate gauging work. Many Swedish-managed ships trade far from Sweden, so requests often come from technical departments in Gothenburg or Stockholm for ships elsewhere.",
+        "At home, the northern Baltic trades are the distinctive part. Ships carrying iron ore, steel and forest products out of the Gulf of Bothnia are built or strengthened for ice, and their owners pay particular attention to the ice belt and the bottom structure that takes the load. Condition gauging after a winter shows how much wastage has built up and helps set the scope of the next docking."
+      ]
+    },
+    {
+      "id": "se-regime",
+      "h": "Port state control, ice class and emission rules",
+      "p": [
+        "Port state control in Sweden is carried out by the Swedish Transport Agency under the Paris MoU. Ships calling at Swedish ports, especially older ones and ferries with visible corrosion, are likely to draw attention, and owners often gauge key structure ahead of calls and keep the readings on board.",
+        "The Baltic Sea sulphur emission control area covers the Swedish east and south coasts, and the Kattegat and Skagerrak fall within the area where the North Sea and Baltic limits meet, so fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted. Ships trading into the northern Baltic follow the Finnish-Swedish Ice Class Rules, which set requirements for hull strength and engine power; ice-class ships can face more severe wear on the belt, and gauging that area is a standard check. As an EU member, Sweden applies the EU Ship Recycling Regulation."
+      ]
+    },
+    {
+      "id": "se-practical",
+      "h": "Winter navigation, the archipelago and the calendar",
+      "p": [
+        "The Gulf of Bothnia freezes every winter, and winter navigation depends on icebreaker support and ice class. Ports such as Luleå, Umeå and Sundsvall can be affected from mid-winter into spring, and a ship's arrival can be delayed or restricted by ice, which affects when gauging can be done. The Swedish Maritime Administration runs the icebreaking service, and the ship's agent confirms what restrictions apply in a given week.",
+        "The Stockholm archipelago adds pilotage and a winding approach, and the Öresund and Kattegat are busy straits. Ferry and cruise calls at Stockholm and Gothenburg follow seasonal patterns with busy summers, so berth availability needs checking early. Gauging in the north in winter also means working in cold on deck and exposed structure, which shapes the plan for access and working hours."
+      ]
+    },
+    {
+      "id": "se-services",
+      "h": "Which services Sweden asks for most",
+      "p": [
+        "Pre-docking hull gauging is the first request, fixing the steel list before a Swedish or neighbouring yard period. Ice-class ships ask for belt, bottom and frame gauging after the winter, and product tanker owners ask for tank structure and piping checks after gas-freeing. Scrubber piping inspection is increasingly asked for on ferries and tankers that run exhaust gas cleaning.",
+        "Ferry owners often ask for deck and hull checks during layovers, and pre-purchase and on-hire gauging supports the second-hand market for Baltic ferries and ice-class cargo ships. Readings are located against frame and strake references and reported as as-built thickness, measured thickness and diminution."
+      ],
+      "list": [
+        "Pre-docking hull gauging to set the steel list",
+        "Ice belt, bottom and frame gauging on ice-class ships",
+        "Tank and piping gauging on product and chemical tankers",
+        "Scrubber wash-water and overboard piping checks",
+        "Deck and hull gauging on ferries during short layovers"
+      ]
+    },
+    {
+      "id": "se-planning",
+      "h": "Planning a gauging job in Sweden from India",
+      "p": [
+        "The team travels from India for each job. Sweden is in the Schengen area, so the team needs Schengen visas, and lead time varies. We ask for the ship's schedule early so visa applications can run alongside planning, and we agree a window that fits the ship's itinerary and allows for ice and weather in the north.",
+        "Tell us the vessel type, age and class, ice class if any, the thickness measurement plan, the spaces to be gauged, the berth or yard, and the dates. We confirm what is practical afloat and what must wait for the dock, and agree how the report is formatted. The ship's agent arranges port access and any permits."
+      ],
+      "list": [
+        "Vessel type, age, class and ice class",
+        "Thickness measurement plan and spaces to be gauged",
+        "Berth, anchorage or yard and expected dates",
+        "Names for Schengen visa applications and port passes"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris MoU port state control",
+    "IACS UR Z10 series (hull surveys)",
+    "MARPOL Annex VI regulation 14 (sulphur limits)",
+    "EU Ship Recycling Regulation",
+    "Finnish-Swedish Ice Class Rules"
+  ],
+  "deliverables": [
+    "Thickness measurement report with frame-by-frame readings",
+    "Ice belt and bottom condition summary",
+    "Steel renewal estimate before docking",
+    "Piping wall-thickness schedule",
+    "Marked-up hull and tank sketches"
+  ],
+  "industries": [
+    "Ice-class bulk and cargo ships",
+    "Ferries and ro-ro ships",
+    "Product and chemical tankers",
+    "Forest product carriers",
+    "Container ships",
+    "Cruise ships",
+    "Car carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Which Swedish ports suit gauging before a docking?",
+      "a": "Gothenburg and Lysekil suit tankers, Malmö and Helsingborg suit ferries and cargo ships, Stockholm suits passenger ships, and Luleå and Gävle suit ice-class cargo ships. We choose the place that fits the ship's schedule and weather, and the docking date comes first when it is already booked."
+    },
+    {
+      "q": "Does ice affect when a ship can be gauged in Sweden?",
+      "a": "Yes, in the northern Baltic. Ice can delay arrivals and restrict berths from mid-winter into spring, and cold affects working on deck. We plan around ice reports and agree a fallback date, and ice-class ships are often gauged after the season to check the belt."
+    },
+    {
+      "q": "Who carries out port state control in Sweden?",
+      "a": "The Swedish Transport Agency carries out port state control under the Paris MoU. Inspectors look closely at corrosion on older ships and ferries, so owners often gauge key spaces beforehand and keep readings on board."
+    },
+    {
+      "q": "What ice class rules apply to Swedish ports?",
+      "a": "Ships trading to the northern Baltic follow the Finnish-Swedish Ice Class Rules, which set hull strength and engine power requirements by ice class. We gauge ice belt plating and frames as part of a hull condition check, reporting readings against the ship's thickness measurement plan."
+    },
+    {
+      "q": "How does the team from India handle Swedish entry requirements?",
+      "a": "Sweden is in the Schengen area, so team members need Schengen visas. We ask for the ship's schedule early, apply once the job is confirmed, and plan around realistic lead times instead of promising a fixed mobilisation date."
+    }
+  ]
+}

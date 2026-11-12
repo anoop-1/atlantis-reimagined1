@@ -1,0 +1,15 @@
+{
+  "slug": "houma",
+  "lat": 29.6,
+  "lng": -90.72,
+  "localContext": "Houma is a shipbuilding and offshore support town. Bollinger Shipyards builds tugs, barges, liftboats, offshore support vessels and government vessels at its yard on the Houma Navigation Canal, Thoma-Sea Marine Constructors builds vessels nearby, and repair yards across Terrebonne and Lafourche parishes keep the Gulf's workboats running. Port Fourchon, the main supply base for the deepwater Gulf, is an hour south. The work runs to classification society rules, US Coast Guard requirements, AWS D1.1 and API 1104, so VT, MT, PT and UT thickness gauging dominate.",
+  "certPathwayNote": "Houma yards and marine contractors certify their own technicians under written practices built on ASNT SNT-TC-1A. Their Level III reconciles the program with classification society rules and the customer's contract, then signs off examinations and vision checks. Government vessel work can add further customer requirements. ASNT central certification is the route for technicians who want a credential independent of one yard.",
+  "salaryFrom": "new-orleans",
+  "siblings": [
+    "new-orleans",
+    "lafayette",
+    "baton-rouge",
+    "mobile",
+    "lake-charles"
+  ]
+}

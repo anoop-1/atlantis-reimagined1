@@ -1,0 +1,170 @@
+{
+  "slug": "noise-survey",
+  "navLabel": "Ship noise survey",
+  "title": "Ship Noise Survey and Noise Monitoring | IMO Noise Code",
+  "description": "Ship noise surveys and noise monitoring to the IMO Code on Noise Levels on Board Ships, MSC.337(91): class 1 measurements, space limits and survey report.",
+  "h1": "Ship noise surveys and noise level monitoring to the IMO Noise Code",
+  "eyebrow": "Maritime inspection · Compliance survey",
+  "intro": "Noise on board is measured, not guessed. SOLAS regulation II-1/3-12 makes the IMO Code on Noise Levels on Board Ships, resolution MSC.337(91), mandatory for new ships of 1,600 GT and above: it sets maximum levels for each kind of space, fixes the instruments and measurement procedure, and requires a noise survey report on board. Owners also commission noise monitoring in service, after machinery or ventilation changes, crew complaints or a refit. Atlantis NDT carries out ship noise surveys with calibrated class 1 meters, sending the team from India to the vessel.",
+  "highlights": [
+    {
+      "h": "Measured the way the code says",
+      "p": "A precision integrating sound level meter, checked with an acoustic calibrator before and after every series, at positions and under operating conditions recorded in the report, so a later survey can repeat the same measurement and compare like with like."
+    },
+    {
+      "h": "Every space against its limit",
+      "p": "Each reading is set against the code's limit for that type of space and the ship's size. Exceedances are flagged with what was running at the time and, where an octave-band spectrum was taken, the frequencies that dominate, which points to the likely source."
+    },
+    {
+      "h": "Acceptance stays with the flag",
+      "p": "A statutory noise survey report is accepted by the flag Administration or its recognised organisation, not by us. Our in-service reports serve the owner's decisions, the crew's hearing protection programme and the record of what changed after a modification."
+    }
+  ],
+  "sections": [
+    {
+      "id": "which-ships",
+      "h": "Which ships the Noise Code applies to",
+      "p": [
+        "The 2012 Noise Code is mandatory under SOLAS regulation II-1/3-12 for ships of 1,600 GT and above whose building contract was placed on or after 1 July 2014, or, without a contract, whose keel was laid on or after 1 January 2015, or which were delivered on or after 1 July 2018. It applies to those ships in port and at sea whenever seafarers are on board. Certain types are excluded, among them high-speed and dynamically supported craft, fishing vessels, mobile offshore drilling units, pipe-laying and crane barges, dredgers and pleasure yachts not engaged in trade.",
+        "Older ships are not exempt from noise control. SOLAS has long required machinery space noise to be reduced to levels the Administration finds acceptable, with insulation, refuges and ear protectors where needed, and the earlier code, resolution A.468(XII) of 1981, remains the usual benchmark for them. Many managers apply the 2012 limits to their older tonnage anyway, because crew welfare, charterer vetting and the Maritime Labour Convention do not distinguish by build date."
+      ]
+    },
+    {
+      "id": "noise-limits",
+      "h": "Maximum noise levels by space",
+      "p": [
+        "The code sets a maximum A-weighted equivalent continuous sound pressure level for each type of space, with stricter accommodation limits for ships of 10,000 GT and above. The values below are those in chapter 4 of resolution MSC.337(91), in dB(A).",
+        "Two further rules sit around the table. Warning notices must be posted at the entrances to areas where the level exceeds 85 dB(A), and seafarers entering them must be given hearing protection. Where the A-weighted level exceeds 85 dB(A), C-weighted equivalent and peak levels are also measured, because they are what hearing protectors are selected against. Machinery spaces with the plant running are the usual places that need both."
+      ],
+      "table": {
+        "head": ["Space", "1,600 up to 10,000 GT", "10,000 GT and above"],
+        "rows": [
+          ["Machinery spaces", "110", "110"],
+          ["Machinery control rooms", "75", "75"],
+          ["Workshops other than those forming part of machinery spaces", "85", "85"],
+          ["Non-specified work spaces", "85", "85"],
+          ["Navigating bridge and chartrooms", "65", "65"],
+          ["Look-out posts, including bridge wings and windows", "70", "70"],
+          ["Radio rooms (equipment operating, no audio signals)", "60", "60"],
+          ["Radar rooms", "65", "65"],
+          ["Cabins and hospitals", "60", "55"],
+          ["Mess rooms, recreation rooms and offices", "65", "60"],
+          ["Open recreation areas", "75", "75"],
+          ["Galleys, serveries and pantries", "75", "75"],
+          ["Normally unoccupied spaces", "90", "90"]
+        ]
+      }
+    },
+    {
+      "id": "instruments",
+      "h": "Instruments and calibration",
+      "p": [
+        "The code asks for a precision integrating sound level meter meeting IEC 61672-1 class 1, octave-band filters to IEC 61260 where frequency analysis is done, and an acoustic calibrator to IEC 60942 that the meter's maker accepts. The meter and calibrator must be verified at least every two years by a national standards laboratory or an accredited calibration laboratory, and a windscreen is fitted on open deck and wherever air movement from ventilation would disturb the microphone.",
+        "On board, the calibrator is applied before the first measurement and after the last of each series, and the readings are recorded; a drift between the two checks means the series is repeated, not adjusted on paper. The report gives the meter and calibrator models, serial numbers and verification dates, so the surveyor or a later consultant can see what produced each figure. We do not use phone applications or general-purpose meters for survey work, whatever the occasion."
+      ]
+    },
+    {
+      "id": "measurement-conditions",
+      "h": "Operating conditions during the measurement",
+      "p": [
+        "Noise depends on what the ship is doing, so the code fixes the conditions for the survey at sea trials: the ship loaded or in ballast on as straight a course as possible, at normal service speed with the propulsion machinery at not less than 80% of its maximum continuous rating unless otherwise provided, machinery, navigation, radio and radar equipment in normal seagoing operation, ventilation, heating and air conditioning running normally, and doors and windows generally closed. Fog signals and helicopter operations are not carried out during measurements.",
+        "In service, the same conditions are the target, and the most comparable results come from a passage at normal speed. Where an in-service survey has to be done alongside, for example in accommodation next to generators and cargo pumps, we measure under the conditions that actually exist, record which machinery was running and at what load, and say plainly in the report that the result is not a sea-trial measurement. Weather, draught and heading are noted because each changes what the microphone hears."
+      ]
+    },
+    {
+      "id": "survey-report",
+      "h": "The noise survey report",
+      "p": [
+        "The code requires a noise survey report for each ship, in the format given in its appendix, and the report must always be carried on board and be accessible to the crew. For a new ship the measurements are made at sea trials, normally arranged by the yard, and the report is accepted by the flag Administration or the recognised organisation acting for it. After a major conversion, or when the owner wants the record brought up to date, a new survey follows the same format and goes to the same place for acceptance.",
+        "Our report lists the ship's particulars, the operating conditions, the instruments and their verification, and every measurement position marked on a deck plan. For each position it gives the measured A-weighted level, the limit for that space and the margin, with C-weighted equivalent and peak levels where the A-weighted level exceeds 85 dB(A) and octave-band spectra where they were requested. Exceedances are listed separately at the front, because that is the page the superintendent reads first."
+      ]
+    },
+    {
+      "id": "crew-exposure",
+      "h": "Crew noise exposure, hearing protection zones and MLC, 2006",
+      "p": [
+        "The space limits protect people in a given space; the code's exposure limits protect the person across the day. They are designed so that seafarers are not exposed to a 24-hour equivalent level above 80 dB(A); above 85 dB(A), suitable hearing protection or a limit on exposure time is required; and no unprotected crew member should be exposed to peaks above 135 dB(C). An engineer who stands a watch in the control room, spends two hours on maintenance beside a running generator and then sleeps in a cabin above the casing collects exposure from all three.",
+        "The Maritime Labour Convention, 2006 reaches the same point from the crew's side. Regulation 3.1 asks for accommodation free of excessive noise, and Regulation 4.3, with Guideline B4.3.2 on exposure to noise, asks for working conditions that protect seafarers' hearing. Our survey data supports both: a noise map of the engine room that defines the hearing protection zones and the signs at their entrances, measured levels for the tasks that make up a typical working day, and the C-weighted values needed to choose hearing protectors. Medical surveillance and audiometry remain matters for the company and its doctors."
+      ]
+    },
+    {
+      "id": "in-service-monitoring",
+      "h": "In-service noise monitoring: when to measure again",
+      "p": [
+        "A ship's noise survey describes the ship as it was on the day of measurement. Machinery is replaced, propellers are repaired or changed, fans wear, and equipment that did not exist at delivery arrives during later dockings. Each of these can push a space over its limit without anyone noticing until a crew member complains or a vetting inspector asks why a cabin hums.",
+        "Our noise monitoring service compares new measurements at the original positions with the last report, so the effect of a change is shown rather than argued about. It is most useful in the cases below, and in each one a short survey before the change and another after it is worth more than a single measurement afterwards."
+      ],
+      "list": [
+        "After a main or auxiliary engine overhaul or replacement, or a change of turbocharger",
+        "After propeller repair, replacement or a change of design",
+        "After installing an exhaust gas cleaning system, ballast water treatment system or new generator, with their fans and pumps",
+        "After ventilation or air-conditioning changes, including replacement fans and diffusers",
+        "After an accommodation refit, or when cabins change use",
+        "When crew report noise disturbing sleep or communication on the bridge",
+        "Before a vetting inspection or charter where crew welfare is reviewed"
+      ]
+    },
+    {
+      "id": "finding-the-source",
+      "h": "From measurement to source: what the data can and cannot do",
+      "p": [
+        "An A-weighted level says how loud a space is; an octave-band spectrum says why. Low-frequency dominance in a cabin points to structure-borne noise from the propeller or engine; a peak in the mid frequencies near a diffuser points to the air-conditioning system; a tonal peak beside a fan or pump points to that machine. We take spectra at positions over the limit and wherever the client asks, and compare levels with individual machines running and stopped where the ship can allow it.",
+        "That narrows the search. Designing the cure, whether resilient mounts, silencers, damping, re-routed ducts or a different fan, is work for the owner's naval architect, the equipment maker or an acoustic consultant, and our report is written so they can start from it without repeating the measurements."
+      ]
+    }
+  ],
+  "codes": [
+    "SOLAS regulation II-1/3-12 – Protection against noise",
+    "IMO resolution MSC.337(91) – Code on Noise Levels on Board Ships (2012)",
+    "IMO resolution A.468(XII) – Code on noise levels on board ships (1981), the benchmark for older ships",
+    "Maritime Labour Convention, 2006 – Regulation 3.1, Regulation 4.3 and Guideline B4.3.2 (exposure to noise)",
+    "IEC 61672-1 – Sound level meters, specifications (class 1)",
+    "IEC 61260 – Octave-band and fractional-octave-band filters",
+    "IEC 60942 – Sound calibrators"
+  ],
+  "deliverables": [
+    "Noise survey report in the format of the appendix to the code, for acceptance by the flag or its recognised organisation",
+    "Measured A-weighted level at every position, with the limit for the space and the margin",
+    "C-weighted equivalent and peak levels wherever the A-weighted level exceeds 85 dB(A)",
+    "Octave-band spectra at positions over the limit or where requested",
+    "Engine room noise map with hearing protection zones marked",
+    "Instrument and calibrator details with verification certificates and field calibration checks",
+    "Before-and-after comparison where a modification has been made"
+  ],
+  "industries": [
+    "Bulk carriers",
+    "Crude, product and chemical tankers",
+    "Container ships",
+    "Gas carriers",
+    "Ro-ro ships and car carriers",
+    "Offshore support vessels",
+    "Ship managers' HSQE and crewing departments",
+    "Shipyards after conversions and refits"
+  ],
+  "faqs": [
+    {
+      "q": "Does our ship need a noise survey?",
+      "a": "If it is 1,600 GT or more and was contracted on or after 1 July 2014, keel-laid on or after 1 January 2015 without a contract, or delivered on or after 1 July 2018, the 2012 Noise Code applies and a noise survey report must be on board. Older ships are not required to carry that report, but noise in their machinery spaces still has to be controlled, and many owners measure them against the same limits."
+    },
+    {
+      "q": "Can you measure noise while the ship is in port?",
+      "a": "Yes, for in-service monitoring of spaces affected by machinery that runs in port, such as accommodation near generators or cargo pumps, and for engine room noise mapping with the plant running. A statutory survey to the code is measured at sea under the conditions the code sets, so for that, or for a comparison with the original report, a passage at normal service speed gives the result that can be relied on."
+    },
+    {
+      "q": "What happens if a space exceeds its limit?",
+      "a": "For a ship to which the code applies, the exceedance has to be dealt with to the satisfaction of the flag Administration, by reducing the noise, changing how the space is used, or in limited cases through a dispensation the Administration grants where reduction is shown to be impossible. Our report identifies the space, the margin and the likely source; the remedy is decided by the owner with its naval architect or the equipment maker."
+    },
+    {
+      "q": "Who accepts the noise survey report?",
+      "a": "The flag Administration, or the recognised organisation acting for it. Atlantis measures and prepares the report in the format the code sets, but acceptance of a statutory report is not ours to give. For in-service monitoring that is not being submitted, the report goes to the owner and is used for maintenance planning, hearing protection zones and crew welfare records."
+    },
+    {
+      "q": "How often should noise be re-measured?",
+      "a": "The code does not set a re-measurement interval. The sensible trigger is change: new or overhauled machinery, a propeller repair, ventilation work, an accommodation refit or a scrubber installation, and crew complaints. Some managers also re-map the engine room at each docking, so the hearing protection zones and signs match the plant as it now runs."
+    },
+    {
+      "q": "Who carries out the measurements?",
+      "a": "Our technicians, with precision class 1 integrating sound level meters and calibrators verified within the two-year interval the code requires. The work is planned and supervised by the founder, Atlantis NDT's Responsible NDT Level III, with more than eleven years of international field experience, and Atlantis is certified to ISO 9001 and ISO 14001. Teams are mobilised from India for each job."
+    }
+  ]
+}

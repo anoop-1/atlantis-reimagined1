@@ -1,0 +1,113 @@
+{
+  "slug": "sete",
+  "name": "Sète",
+  "country": "France",
+  "region": "europe",
+  "title": "Sète Ship Thickness Measurement | UTM for Bulkers & Ferries",
+  "description": "Ultrasonic thickness gauging at Sète and Frontignan for bulk carriers, product tankers, Morocco ferries and fishing vessels: hull, tank and deck UTM.",
+  "h1": "Ultrasonic Gauging for Ships at Sète and Frontignan",
+  "intro": "Sète is France's busiest fishing harbour on the Mediterranean and also a working commercial port, with bulk quays, an oil product terminal at neighbouring Frontignan, and a ferry link to Morocco. Superintendents ask for gauging here when a bulker, tanker or ro-pax ship is due a survey or needs steel readings ahead of a docking. For each job the inspection team is flown from India to the ship, since there is no base on this coast.",
+  "keywords": [
+    "thickness measurement sete",
+    "ship utm sete",
+    "ultrasonic thickness gauging frontignan",
+    "ro-pax ferry gauging sete",
+    "bulk carrier thickness measurement sete",
+    "ship inspection sete france",
+    "tanker utm frontignan",
+    "ballast tank gauging sete",
+    "scrubber piping inspection sete",
+    "pre-docking steel estimate sete"
+  ],
+  "highlights": [
+    {
+      "h": "Morocco ferry link",
+      "p": "Ro-pax ferries run between Sète and Moroccan ports. Their vehicle decks, ramps and ballast tanks take heavy wear, and short turnarounds make a planned gauging slot worth agreeing with the operator."
+    },
+    {
+      "h": "Bulk quays and a fertiliser trade",
+      "p": "Bulk carriers bring fertiliser, grain and other dry cargo to Sète. Hold frames, tank tops and hatch coamings are the usual targets between discharge and loading."
+    },
+    {
+      "h": "Oil products at Frontignan",
+      "p": "The oil terminal at Frontignan, on the same stretch of coast, takes product tankers. Their ballast tanks can be gauged when the ship's cargo plan leaves them empty."
+    }
+  ],
+  "port": {
+    "h": "Sète: port, lagoon and canals",
+    "p": [
+      "Sète stands on a narrow strip of land between the Mediterranean and the Étang de Thau, the largest lagoon on this coast, and the city is cut by canals that link the lagoon to the sea. The commercial harbour, now operating as Port Sète Sud de France under the Occitanie regional authority, lies at the foot of Mont Saint-Clair, with a long outer breakwater and several basins. A short distance to the north-east, Frontignan has its own oil products terminal, which is considered part of the same port area for many shipping purposes.",
+      "Traffic is a mix. Bulk carriers handle fertiliser, grain, and other agri-bulk cargoes and also dry cargoes for local industry. Product tankers use the oil quays for refined products and fuel oils. The ferry quay serves Ro-Pax lines linking Sète with Morocco. Sète is also an important fishing port, with a large fleet of trawlers and smaller boats, and has a role in the regional wine trade, with bulk wine carried by tanker. The mix is a handful of ship types, each calling at its own quay and often on a regular schedule.",
+      "The sea approach is simple, from the open Gulf of Lion, but the weather deserves respect. The tramontane and the mistral bring strong northerly winds that can limit pilotage and make quay work uncomfortable, while autumn storms can send heavy swell onto the breakwaters. Ships can usually enter in most conditions, but gauging that depends on launch transfers at anchor is weather-limited. The quietest months for planned gauging are late spring and early summer, before the tourist season busies the ferry quay."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships can be gauged at Sète",
+    "p": [
+      "Alongside work is the norm. The bulk and general cargo quays take bulkers and coasters that can be gauged between discharge and loading, with passes issued through the port gate by the ship's agent. The ferry quay allows access to vehicle decks, ramps and accessible tanks during turnarounds, though passenger and freight operations take priority and the technicians must adapt to the timetable. The oil berths at Frontignan follow terminal safety rules, so work in tanks only proceeds with the ship's permit and the terminal's agreement.",
+      "Sète has a repair side focused on fishing boats, tugs, coasters and workboats, with slipways and a small floating or lift capacity, but it is not a place for larger merchant ships to dry-dock. Bulk carriers, product tankers and ferries that need steel renewal usually go to Marseille, La Ciotat, Barcelona or another larger Mediterranean yard. The Sète call then serves as the pre-docking gauging stop, where readings help the owner decide how much steel to plan for before the voyage."
+    ],
+    "list": [
+      "Commercial bulk quays, for hold, hopper tank and hatch coaming gauging on fertiliser and grain carriers.",
+      "Ferry quay, for vehicle deck, ramp and ballast tank gauging on Morocco ro-pax ships during turnarounds.",
+      "Oil product berths at Frontignan, for product tanker ballast tank and deck gauging within terminal rules.",
+      "General cargo berths, for coasters and breakbulk ships alongside.",
+      "Slipways and small repair berths, for fishing vessels, tugs and workboats rather than merchant ships.",
+      "Outer anchorage in the Gulf of Lion, for launch-served work in calm weather only."
+    ]
+  },
+  "context": {
+    "h": "Port state control and Mediterranean rules at Sète",
+    "p": [
+      "Foreign ships calling at Sète are subject to Paris MoU port state control, carried out by the French maritime administration's ship safety centres. Ferries on regular international routes, bulk carriers of mixed age and small tankers all appear in the targeting system, and an inspector who finds corroded decks or tank steel can hold a ship until repairs are agreed. Recent gauging records support the master's case that the steel is sound.",
+      "The Mediterranean is a SOx emission control area, so scrubber-fitted ships working on the Sète-Morocco route use their systems on every crossing, and wash-water and overboard piping carry heavier duty than before. The EU Ship Recycling Regulation requires hazardous-materials inventories on ships calling at EU ports, EU ETS applies to emissions on voyages to and from Sète, and FuelEU Maritime sets rules on fuel. Frontignan's oil terminal also brings tanker vetting and the enhanced survey programme into the picture for product and chemical carriers."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Sète",
+    "p": "Work here splits between the ferry timetable, the bulk quays and the oil berths at Frontignan. For a ferry, we plan against the turnaround and the operator's maintenance list; for a bulker or tanker, against the ship's berth stay. Ultrasonic thickness gauging at Sète usually covers:",
+    "list": [
+      "Vehicle deck, ramp and ballast tank steel on a Morocco ro-pax ferry during a turnaround.",
+      "Scrubber wash-water and overboard piping on a scrubber-fitted ferry, with readings at fixed points.",
+      "Hold frame, hopper tank and hatch coaming gauging on a fertiliser carrier after discharge.",
+      "Ballast tank and cofferdam gauging on a product tanker at Frontignan, ahead of vetting.",
+      "Pre-docking steel estimate on a coaster or small tanker before it sails for a repair yard."
+    ]
+  },
+  "logistics": "Montpellier-Méditerranée airport is the nearest international airport, and Sète lies within road reach of it, while Marseille and Béziers are alternatives when schedules suit. The ship's agent arranges gate passes for the quay and any launch for anchored ships. France is in the Schengen area, so each technician needs a Schengen visa from India before travelling, which sets the lead time. Early notice of the ferry or berth schedule helps us fit the visa and the flights around it.",
+  "vessels": [
+    "Ro-pax ferries on the Morocco route",
+    "Bulk carriers carrying fertiliser and grain",
+    "Product tankers at Frontignan",
+    "Bulk wine tankers",
+    "General cargo ships and coasters",
+    "Fishing vessels and trawlers",
+    "Tugs and pilot boats",
+    "Small cruise and passenger ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ferry be gauged during a Sète turnaround?",
+      "a": "Yes, in the spaces the operator can release. Vehicle decks, ramps, accessible ballast tanks and machinery-space tanks can be gauged while the ship is alongside, but passenger and freight operations come first. We agree a list with the technical manager beforehand and report by location so the findings feed into the next docking list."
+    },
+    {
+      "q": "Is there a drydock in Sète for merchant ships?",
+      "a": "The port has slipways and small repair capacity for fishing boats, tugs and workboats, but not for larger merchant ships. Ships needing steel renewal usually dock at Marseille, La Ciotat or Barcelona. Gauging at Sète gives readings before the voyage so the owner can scope the yard work."
+    },
+    {
+      "q": "Can tankers be gauged at Frontignan?",
+      "a": "Ballast tanks, voids and deck structure can sometimes be gauged at the berth with the ship's permit and the terminal's agreement. Cargo tanks need gas-freeing and are normally done at a docking. Some owners schedule work between cargoes at Frontignan to avoid the terminal's cargo constraints."
+    },
+    {
+      "q": "How do mistral and tramontane winds affect planning?",
+      "a": "Strong northerly winds can stop launch transfers, make deck work unsafe and delay pilotage. We build a weather allowance into plans for anchored ships and keep internal work for the windiest periods once the team is on board. The agent advises on the forecast before the team travels."
+    },
+    {
+      "q": "What documents are needed for tank entry in Sète?",
+      "a": "A gas-free certificate for each tank, an enclosed-space entry permit, a rescue plan and ventilation running during the work. The terminal or ferry operator may add its own permit when the ship is alongside. The master and the superintendent confirm the list of spaces with us before arrival."
+    }
+  ],
+  "nearby": ["marseille", "port-la-nouvelle", "barcelona", "tarragona"]
+}

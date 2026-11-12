@@ -1,0 +1,119 @@
+{
+  "slug": "ambarli",
+  "name": "Ambarlı",
+  "country": "Turkey",
+  "region": "europe",
+  "title": "Ambarlı Ship Gauging: UTM for Container and Ro-Ro Ships",
+  "description": "Thickness gauging at Ambarlı for container ships, tankers and ro-ro ships: UTM of ballast tanks, hatch covers, cell guides and scrubber piping at berth.",
+  "h1": "Ultrasonic Thickness Measurement for Ships Calling at Ambarlı, Istanbul",
+  "intro": "Ambarlı is the container and liquid-cargo harbour on Istanbul's European shore of the Sea of Marmara, a short run from the Bosphorus. Feeder and mainline container ships call on fixed weekly rotations, tankers discharge at the fuel jetties, and a queue of ships often waits at anchor off the coast. Because these calls repeat on a timetable, an owner can plan gauging into a visit instead of waiting for a docking. Technicians travel from India to the ship, taking readings alongside or at anchor.",
+  "keywords": [
+    "ambarli ship thickness gauging",
+    "ambarli container ship inspection",
+    "utm ambarli",
+    "thickness measurement ambarli port",
+    "container ship hatch cover gauging",
+    "cell guide thickness measurement",
+    "ambarli anchorage",
+    "ship gauging istanbul european side",
+    "scrubber piping inspection marmara",
+    "thickness gauging turkey container ship"
+  ],
+  "highlights": [
+    {
+      "h": "Container ships on fixed rotations",
+      "p": "Liner services return to Ambarlı on a predictable cycle, so a superintendent can book a gauging scope for a call weeks ahead, agree it with the terminal and the ship's agent, and have readings ready before the next survey."
+    },
+    {
+      "h": "Hatch covers, coamings and cell guides",
+      "p": "Box ships carry long hatch coamings, lashing structure and cell guides that wear in service. These are reachable between cargo operations, and readings on them often decide what the next docking must include."
+    },
+    {
+      "h": "Scrubber piping on liner tonnage",
+      "p": "Many ships on Marmara and Black Sea liner services run exhaust scrubbers. Wash-water and overboard pipework can be gauged during a berth call, long before the ship is booked into a yard."
+    }
+  ],
+  "port": {
+    "h": "Ambarlı: Istanbul's container coast on the Marmara",
+    "p": [
+      "Ambarlı lies on the northern shore of the Sea of Marmara, in the western districts of Istanbul, some distance from the Bosphorus entrance. The coast here is a continuous line of terminals rather than a single harbour: several private container terminals, general cargo and liquid berths, a power-station jetty and bunkering and fuel facilities share the waterfront. The approach is open water, with the Marmara's changeable winds and short seas, and berthing is by pilot with tugs. Ships bound here have usually come from the Mediterranean through the Dardanelles or from the Black Sea through the Bosphorus.",
+      "Container ships dominate the picture. Mainline vessels bring cargo for Istanbul and the wider Marmara industrial region, and feeder ships link the terminals to the Black Sea, the Aegean and the eastern Mediterranean. Around them are tankers and chemical carriers discharging fuel and liquid products, ro-ro ships and general cargo ships, and ships waiting for a berth or for orders at the anchorage off the coast. Calls can be as short as a day, so the tonnage that passes through is under constant schedule pressure, and owners rarely give up a berth slot for anything that is not essential.",
+      "For gauging, that pressure shapes the whole job. A container ship has no cargo holds to empty and clean, which is an advantage: its ballast tanks, double-bottom and wing tanks, deck, hatch covers and lashing structure are accessible while boxes are worked, provided the crew has prepared and certified the spaces. Ships that stay on liner services for many years accumulate wear at hatch corners, coaming tops and in the ballast tanks that sit beside the cargo area, and superintendents use the Ambarlı calls to track it between dockings without taking the ship out of service."
+    ]
+  },
+  "facilities": {
+    "h": "Where a ship can be gauged at Ambarlı",
+    "p": [
+      "At the container terminals, work is done alongside during cargo operations under the terminal's own access, ISPS and safety rules. A gauging team usually boards through the gangway watch, is escorted to the work area, and keeps clear of the lashing gangs and the cranes. Spaces that can be reached while the ship works are ballast tanks entered from deck, the main deck and hatch cover tops, coaming plating, accessible parts of the cell guide structure and the engine room piping that serves the scrubber. Items that need the hull opened or the ship empty are left for a docking and flagged for it.",
+      "The anchorage off the coast is the second venue. A ship waiting for a berth can be boarded by launch for a longer programme, and the delay that irritates a charterer is useful to the superintendent. Sea state decides whether a launch transfer is sensible, and the scope is ordered so the most important readings come first in case the ship is called to the berth. For anything that needs a dry hull, owners normally send the ship on to the Tuzla yards in Istanbul or to one of the Marmara yards, with gauging readings from Ambarlı carried forward into the docking report."
+    ],
+    "list": [
+      "Container terminal berths — ballast tanks, hatch covers, coamings, cell guide structure and deck gauged during cargo work under terminal permits",
+      "Liquid cargo jetties — deck, deck piping and certified ballast tanks on tankers and chemical carriers within the terminal's hot and cold work rules",
+      "General cargo and ro-ro berths — hold, ramp and car deck structure on ships calling for steel, project cargo or vehicles",
+      "Ambarlı anchorage — pre-docking and condition gauging on ships waiting for a berth, reached by launch through the agent",
+      "Scrubber and engine room piping on liner tonnage — wash-water, overboard and sea water lines checked at the berth",
+      "Handover to a Marmara yard — readings carried forward to a docking at Tuzla or elsewhere on the sea"
+    ]
+  },
+  "context": {
+    "h": "Port state control, harbour authority and trade context",
+    "p": [
+      "Turkey belongs to the Black Sea MoU and the Mediterranean MoU, and the harbour master's office and the Ministry of Transport and Infrastructure oversee ships calling at Ambarlı. Container ships are inspected by risk profile, and structural findings on older tonnage, such as wasted hatch coaming tops, cracked lashing bridges or holed air pipes, tend to appear in deficiency lists long before a docking is due. Turkish ships may be classed with Türk Loydu alongside the major international societies, and owners that run mixed fleets often ask for the same gauging format across all of them.",
+      "Cargo ships that go on to EU ports are drawn into the EU Ship Recycling Regulation, which requires a valid Inventory of Hazardous Materials on board, and into the EU's carbon rules for those voyages. That pushes technical managers to keep their asset records tidy, and measured thickness data from an Ambarlı call is easy to file against the hull record. Turkish liner services run in the Black Sea, Aegean and Mediterranean, and the Marmara's position between them means the port sees many of the same hulls year after year, which makes trend gauging realistic."
+    ]
+  },
+  "eca": "none",
+  "psc": "Black Sea MoU and Mediterranean MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Ambarlı",
+    "p": "Most jobs here are tied to a scheduled call rather than a yard stay. A superintendent chooses a few spaces and structures that most need a reading, we agree a short plan with the terminal and agent, and the team works within the berth window. Some calls are scoped as preparation for a docking elsewhere, and a smaller number are linked to a purchase or a charterer's question. Readings are reported by compartment so they slot into the ship's hull record.",
+    "list": [
+      "Hatch cover and coaming gauging on a feeder container ship over several calls, tracking wastage at the coaming corners between dockings.",
+      "Ballast tank gauging on a mainline container ship during a short berth stay, with wing tanks prepared and certified by the crew before the team boards.",
+      "Cell guide plating and lashing bridge readings on a ship due to dock in the Marmara, giving the yard a list of areas likely to need steel.",
+      "Scrubber wash-water and overboard pipe readings on a liner vessel discharging at a terminal, after a leak was found at a shell connection.",
+      "Deck and deck piping gauging on a product tanker at a liquid jetty within the terminal's work permit conditions.",
+      "Pre-purchase gauging on a second-hand ro-ro ship at the anchorage, with the buyer's surveyor attending by launch."
+    ]
+  },
+  "logistics": "The team flies into Istanbul, using Istanbul Airport or Sabiha Gökçen depending on the day's flights, and reaches Ambarlı by road across the city. Terminal passes are arranged through the ship's agent, who also books launches for anchorage work, so crew lists, technician certificates and equipment lists go to the agent ahead of arrival. Technicians from India need a Turkish visa, so we start the application as soon as the call is nominated and keep the visa period long enough to absorb a berth that shifts.",
+  "vessels": [
+    "Container ships",
+    "Feeder container ships",
+    "Product and chemical tankers",
+    "Ro-ro ships",
+    "General cargo ships",
+    "Bulk carriers",
+    "Vehicle carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Can a container ship be gauged while cargo operations continue?",
+      "a": "In many cases yes. Ballast tanks entered from deck, hatch covers, coamings, the main deck and parts of the cell guide structure can be reached while boxes are worked, provided the terminal accepts the plan and the crew certifies the spaces. We stay out of the lashing and crane zones and agree the order of work with the chief officer."
+    },
+    {
+      "q": "Is there a drydock at Ambarlı?",
+      "a": "No. Ambarlı is a cargo coast, not a repair yard. Ships that need a dry hull usually go on to the Tuzla yards across Istanbul or to another Marmara yard. Readings taken at Ambarlı before that move go to the yard as a steel estimate, which shortens the planning once the ship is in dock."
+    },
+    {
+      "q": "Can you gauge a ship waiting at the Ambarlı anchorage?",
+      "a": "Yes, by launch booked through the agent. A wait at anchor allows a longer programme than a berth call, though the ship may be called to the berth with little notice, so we agree a priority list with the superintendent and take the most important readings first. Sea state and the crew's ability to certify spaces decide how much can be done."
+    },
+    {
+      "q": "What can be checked on scrubber piping at the berth?",
+      "a": "Accessible wash-water and overboard lines in the engine room and at the shell connections can be gauged by ultrasonic thickness measurement during a call, provided the pipework can be reached safely and any lagging removed. Sections that need the ship dry, such as the shell valve and the overboard outlet, are noted for the next docking."
+    },
+    {
+      "q": "How far ahead should a gauging visit be arranged?",
+      "a": "As early as the call is known. Visas for the team, terminal passes and the crew's preparation of spaces all take time, and liner calls can be changed by the operator. We ask for the rotation and the expected berth dates, then confirm the plan once the agent has the terminal slot."
+    }
+  ],
+  "nearby": [
+    "istanbul",
+    "tekirdag",
+    "izmit",
+    "yalova",
+    "bandirma"
+  ]
+}

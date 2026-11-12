@@ -1,0 +1,127 @@
+{
+  "slug": "france",
+  "navLabel": "France",
+  "title": "Ship Thickness Measurement in France | UTM at French Ports",
+  "description": "Ship ultrasonic thickness measurement in France: UTM and hull gauging at Le Havre, Marseille, Dunkirk, Brest, Saint-Nazaire and other ports.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in France",
+  "eyebrow": "Maritime inspection · France",
+  "intro": "France has three working coastlines, and each draws a different kind of ship. The Channel and North Sea ports around Dunkirk, Calais and Le Havre handle containers, ferries and short-sea cargo; the Atlantic coast from Brest to Bayonne combines ship repair, shipbuilding, fishing and bulk trades; and the Mediterranean side, led by Marseille and Fos, takes tankers, gas, cruise ships and ro-ro traffic. We carry out ultrasonic thickness measurement for owners and managers at all three: pre-docking steel estimates, tank and piping gauging, scrubber lines and condition checks. The team is mobilised from India for each job.",
+  "highlights": [
+    {
+      "h": "Three coasts, three scopes of work",
+      "p": "Channel ports are mostly box ships and ferries on rotation, Atlantic ports mix repair yards with bulk and fishing fleets, and Mediterranean ports see tankers and cruise ships. We scope gauging by the ship type that calls rather than by the port name."
+    },
+    {
+      "h": "Yards with dry-dock capacity",
+      "p": "Brest and Saint-Nazaire on the Atlantic and Marseille on the Mediterranean have docks that take large ships, so owners measure steel at a berth first and agree the renewal list with the yard before the ship goes in."
+    },
+    {
+      "h": "Two emission regimes on one flag",
+      "p": "French ports from Dunkirk to Cherbourg sit inside the North Sea control area, while the Atlantic coast is outside any such area and the Mediterranean now has its own. Scrubber piping risk varies with the coast."
+    }
+  ],
+  "sections": [
+    {
+      "id": "fr-channel",
+      "h": "The Channel and North Sea coast",
+      "p": [
+        "Dunkirk is the northern anchor, a deep-water port with container, ro-ro, bulk and steel traffic and a major ferry link across the Channel. Calais and Boulogne-sur-Mer handle short crossings and fishing and cargo fleets, while Dieppe, Caen-Ouistreham and Cherbourg serve ferry routes to England and Ireland. For ships on these routes, lay-by periods are short and regular, so gauging is fitted around a fixed rotation rather than a long stay.",
+        "Le Havre is France's largest container port and part of the combined Seine port system that reaches Rouen and Paris. Large container ships, car carriers and tankers pass through, and Rouen, farther up the river, is a major grain exporter. A ship heading up the Seine can be gauged at Le Havre first, which is useful for older bulk carriers about to load grain and for owners who want readings before a seasonal dry-dock."
+      ]
+    },
+    {
+      "id": "fr-atlantic",
+      "h": "The Atlantic coast, Brittany and the south-west",
+      "p": [
+        "Brest is the country's leading ship repair centre on the Atlantic, with large dry docks that take tankers, bulk carriers, cruise ships and offshore units. Saint-Nazaire, at the mouth of the Loire, is known for building large cruise ships and for its commercial port, which handles bulk, vehicles and heavy lift. Both are places where readings taken at a berth before the dock slot help the superintendent decide the steel scope.",
+        "Further along the coast, Saint-Malo, Lorient and Concarneau are working harbours with ferry and fishing fleets, La Rochelle handles grain, wood and ro-ro cargo, Bordeaux takes bulk and vehicles up the Gironde, and Bayonne serves industrial bulk on the Adour. Fishing vessels and short-sea cargo ships dominate this stretch, and many are older hulls where thickness readings are a practical way to decide on repair or replacement."
+      ]
+    },
+    {
+      "id": "fr-med",
+      "h": "The Mediterranean coast and Corsica",
+      "p": [
+        "Marseille with Fos is the country's largest port by tonnage, handling crude and refined products, gas, containers, ro-ro and a large cruise trade. Its repair yards take ships of many sizes, which makes it a standard place for gauging before a docking or a special survey. Toulon and Sète add naval, ferry and bulk activity, Port-la-Nouvelle serves energy and agribulk, and Nice takes cruise and ferry traffic.",
+        "Ajaccio and Bastia in Corsica are ferry ports with regular services to the mainland and to Italy. Ships on those routes work to fixed timetables with overnight turnarounds in some cases, so gauging is planned around the vessel's rotation and the master's availability. Summer is the busiest season on this coast, with cruise ships and ferries occupying berths."
+      ]
+    },
+    {
+      "id": "fr-regime",
+      "h": "Port state control and emission rules",
+      "p": [
+        "Port state control in France is carried out by the ship safety centres of the maritime administration, and the country is a member of the Paris Memorandum of Understanding. Inspectors work to the common risk-based system, and hull condition features among the first checks on an older ship. As an EU state, France applies the EU Ship Recycling Regulation, so a hazardous materials inventory is a standing requirement for ships under European flags.",
+        "Emission rules change along the coast. The English Channel and North Sea ports fall inside the North Sea control area, where fuel sulphur is capped at 0.10% unless a scrubber is fitted. The Atlantic coast uses the global limit, and the Mediterranean emission control area now applies to French waters there, so scrubber use is common on Marseille calls too. Where scrubbers are fitted, wash-water and overboard piping is a recurring gauging request."
+      ]
+    },
+    {
+      "id": "fr-practical",
+      "h": "Seasons, tides and practical constraints",
+      "p": [
+        "The Channel and Atlantic coasts have strong tides: Saint-Malo and Cherbourg have large tidal ranges, and ports such as Le Havre, Rouen and Bordeaux rely on locks or tidal windows. A gauging visit is aligned with the ship's actual berth time rather than a fixed hour. Autumn and winter storms can disrupt sailings on the Atlantic and Channel, so schedules for open-berth work include margin.",
+        "On the Mediterranean the weather is steadier, but summer cruise and ferry peaks restrict berth availability in Marseille, Nice and Corsica. Port security is strict at container, energy and naval-adjacent terminals, with pre-registration and personal protective equipment required before boarding."
+      ]
+    },
+    {
+      "id": "fr-planning",
+      "h": "Planning a job from India",
+      "p": [
+        "France is in the Schengen area, so a Schengen visa for the right purpose covers entry, and the route is confirmed for each job as soon as the ship's call is known. The ship's agent arranges the berth, shore pass and security briefing, and tells us about gangway and lighting. Tank entry follows the ship's safety management system, with a gas-free certificate and an agreed rescue plan.",
+        "Reports are written in English, with readings located on the ship's thickness measurement plan, which suits French and international owners alike. The brief for each job names the frames and strakes in scope, the piping to be measured and the format required by the owner or charterer."
+      ]
+    },
+    {
+      "id": "fr-services",
+      "h": "What owners in France ask for",
+      "p": [
+        "Pre-docking gauging is the most common request, particularly at Brest, Saint-Nazaire and Marseille where large docks are available. Older tankers and bulk carriers ask for readings tied to the special survey cycle, and charterers ask for measured condition checks on second-hand tonnage. Ferry operators ask for car-deck, ramp area and piping readings fitted to short layovers.",
+        "For scrubber-fitted ships, wash-water lines are measured between dockings. Where readings reveal widespread wastage, the report states how it compares with the allowance and where a closer look or renewal is advised, so the yard can plan the work."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements for tankers and bulk carriers",
+    "Paris Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14: sulphur limits and the North Sea and Mediterranean Emission Control Areas",
+    "EU Ship Recycling Regulation and the inventory of hazardous materials",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates marked for renewal",
+    "Piping and scrubber line condition report by spool and joint",
+    "Car-deck and ramp area readings on request",
+    "Preliminary readings shared during the job on request"
+  ],
+  "industries": [
+    "Container ships",
+    "Tankers and gas carriers",
+    "Bulk carriers and grain ships",
+    "Ro-ro ships and ferries",
+    "Cruise ships",
+    "Fishing vessels",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which French ports do you cover for ship thickness measurement?",
+      "a": "Le Havre, Marseille, Dunkirk, Brest and Saint-Nazaire are the larger commercial and repair ports, and many smaller ones on the Channel, Atlantic and Mediterranean have their own pages. Because the work is done on the ship, a vessel calling at another French harbour can usually be planned as well."
+    },
+    {
+      "q": "Does a Schengen visa cover work on a ship in France?",
+      "a": "France is a Schengen state, so the appropriate Schengen visa covers entry, and we confirm the right category for each job once the ship's call is known. The ship's agent arranges the shore pass and port access, and our team plans the programme around the time the visa takes."
+    },
+    {
+      "q": "Which French coasts have scrubber-related work?",
+      "a": "The Channel and North Sea coast, because the North Sea emission area applies there, and the Mediterranean, now that its emission area covers French waters. The Atlantic coast uses the global sulphur limit, so scrubber pipework is less often an issue, though some deep-sea callers still run exhaust gas cleaning systems."
+    },
+    {
+      "q": "Can gauging be done before a ship goes into dry dock?",
+      "a": "Yes, and it is the usual approach. Readings at a berth before docking give the superintendent a measured steel renewal estimate, so the docking days and plate quantities can be agreed with the yard on figures rather than allowances. Tank readings need gas-free conditions, which the ship arranges."
+    },
+    {
+      "q": "In what language are reports written?",
+      "a": "Reports are written in English and follow the ship's thickness measurement plan, with readings located by frame, strake or spool. That format is accepted by international owners, charterers and yards, and a French summary can be agreed in advance if the owner requires one for internal use."
+    }
+  ]
+}

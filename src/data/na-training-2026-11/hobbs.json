@@ -1,0 +1,15 @@
+{
+  "slug": "hobbs",
+  "lat": 32.7,
+  "lng": -103.14,
+  "localContext": "Hobbs is the centre of Lea County and the New Mexico side of the Permian Basin. Oil and gas producers, gathering and processing plants, pipelines and oilfield service companies dominate, with potash mining and processing to the west and the Urenco enrichment plant near Eunice adding nuclear-fuel-cycle work. The Artesia refinery is within reach, and the Waste Isolation Pilot Plant is near Carlsbad. Work runs to ASME B31 and API codes and operator specifications, and demand follows the pace of drilling.",
+  "certPathwayNote": "Hobbs employers normally certify technicians under a written practice based on ASNT SNT-TC-1A, with the employer setting hours, examining and signing the certification. Operators and plant owners add their own contractor qualification rules, and nuclear facilities impose additional quality and access requirements. ASNT central certification is an alternative for technicians who change employers.",
+  "salaryFrom": "midland",
+  "siblings": [
+    "midland",
+    "odessa",
+    "el-paso",
+    "albuquerque",
+    "permian-basin"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "condition-assessment-scheme",
+  "navLabel": "CAS (Condition Assessment Scheme)",
+  "title": "CAS (Condition Assessment Scheme): Tanker Gauging and Readiness",
+  "description": "The IMO Condition Assessment Scheme (CAS) for older tankers: survey extent, who may gauge for credit, pre-CAS thickness measurement and condition surveys.",
+  "h1": "CAS (Condition Assessment Scheme): Thickness Measurement, Readiness and Condition Surveys for Older Tankers",
+  "eyebrow": "Maritime inspection · Survey support",
+  "intro": "The Condition Assessment Scheme is the IMO's survey regime for older single-hull oil tankers: a flag Administration lets such a tanker keep trading only after a recognised organisation has surveyed it to CAS and the Administration has issued a Statement of Compliance. Few ships still need one, but where CAS applies, the steel decides the outcome. Atlantis NDT helps owners prepare, with pre-CAS gauging, a thickness measurement plan built around the CAS extent, and condition assessment surveys for owners and buyers, carried out by teams mobilised from India.",
+  "highlights": [
+    {
+      "h": "Readiness before the surveyors arrive",
+      "p": "Pre-CAS gauging of deck and bottom plating, wind-and-water strakes and transverse sections shows where the tanker stands against its allowable margins months before the CAS survey, while there is still time to plan steel renewal and book yard space."
+    },
+    {
+      "h": "A gauging plan shaped by CAS",
+      "p": "CAS asks for far more thickness measurement than an ordinary intermediate survey. We lay the plan out against the CAS extent and the IACS oil tanker report forms, so the readings an owner commissions now line up with what the recognised organisation will later require."
+    },
+    {
+      "h": "Plain about who may gauge for credit",
+      "p": "Readings credited to a CAS survey must come from a firm certified by the recognised organisation, with its surveyor attending. Atlantis is preparing for UR Z17 audits and holds no such approval yet, so our gauging on a CAS tanker serves the owner's own decisions."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-cas",
+      "h": "What the IMO Condition Assessment Scheme is",
+      "p": [
+        "The Condition Assessment Scheme was adopted by the IMO's Marine Environment Protection Committee in 2001 as resolution MEPC.94(46), and has been amended several times since. It was written to support the phase-out of single-hull oil tankers under MARPOL Annex I. The rules that call it up were originally regulations 13G and 13H; in the revised Annex I, which entered into force in 2007, they became regulation 20, covering oil tankers delivered before 6 July 1996, and regulation 21, covering oil tankers carrying heavy grade oil.",
+        "CAS does not introduce structural rules of its own. It takes the enhanced survey programme that older tankers already follow as its base and adds to it: a wider close-up survey, more thickness measurement, an evaluation of the hull's structural strength, stricter documentation, and a review of the whole survey by the flag Administration rather than by the classification society alone. A tanker does not pass CAS together with its class survey; it receives a Statement of Compliance from its flag, and that statement is what allows it to keep trading.",
+        "Three parties have separate roles. The recognised organisation, normally the ship's classification society acting for the flag, plans and carries out the survey and writes the CAS Final Report with its recommendation. The Administration reviews that report, through reviewers independent of the organisation that did the survey, and decides whether to issue the Statement of Compliance. The owner, called the Company in the scheme, prepares the ship, supplies the records and arranges the yard, the access and the gauging."
+      ]
+    },
+    {
+      "id": "who-needs-cas",
+      "h": "Which ships still need CAS, and when the term is used loosely",
+      "p": [
+        "When the scheme came in, it touched a large fleet. Under the old regulation 13G, now regulation 20, Category 2 and Category 3 oil tankers had to comply with CAS once they were 15 years old, and an Administration could let such a tanker trade beyond its phase-out date only if the CAS results supported it and, under the main extension provision, not beyond the anniversary of delivery in 2015 or the date the ship reached 25 years, whichever was earlier. Regulation 21 placed comparable controls on tankers carrying heavy grade oil.",
+        "The effect, as intended, is that single-hull oil tankers have largely left international trade, and very few CAS surveys are carried out today. Where the term still comes up on a real ship, it is usually because a flag Administration, a coastal state or a contract refers to it for an older tanker. In that case the first step is to ask the recognised organisation which document is actually required, for which trade and on what timetable.",
+        "More often, CAS is used loosely. Buyers, brokers and superintendents speak of a CAS survey when they mean any condition assessment survey of an older ship, while double-hull tankers and bulk carriers that need an independent condition rating for charterers go for a classification society's Condition Assessment Programme instead, described on our CAP thickness measurement page. The table separates the three."
+      ],
+      "table": {
+        "head": ["Question", "CAS (Condition Assessment Scheme)", "CAP (Condition Assessment Programme)", "Owner's condition assessment survey"],
+        "rows": [
+          ["What it is", "IMO scheme under MARPOL Annex I for older single-hull oil tankers", "Voluntary classification society service that grades a ship's condition", "Inspection and gauging commissioned privately"],
+          ["Who asks for it", "The flag Administration, as a condition of continued trading", "Charterers, oil majors and buyers", "The owner, a buyer or a charterer"],
+          ["What the ship receives", "Statement of Compliance from the Administration", "Rating and report from the society", "Inspection report from the firm that did the work"],
+          ["Who may take credited readings", "A thickness measurement firm certified by the recognised organisation, its surveyor attending", "Normally a firm approved by that society under IACS UR Z17", "No class credit involved, so no class approval is needed"]
+        ]
+      }
+    },
+    {
+      "id": "cas-survey-extent",
+      "h": "What a CAS survey involves on board",
+      "p": [
+        "A CAS survey is timed to coincide with an intermediate or renewal survey under the enhanced survey programme, and its scope reflects the age of the ships it was aimed at. At least two of the organisation's exclusive surveyors carry it out. They make an overall survey of every space in the cargo area, including cargo and ballast tanks, pump rooms, cofferdams, pipe tunnels and voids, and a close-up survey well beyond what a ship of the same age would otherwise get: every web frame ring in the ballast tanks, every transverse bulkhead in the cargo and ballast tanks, and a large share of the cargo tank transverses and web frames.",
+        "The thickness measurement is just as broad. It takes in all deck and bottom plating within the cargo area, all wind-and-water strakes there, three transverse sections, the internal structure of the fore and aft peak tanks and the exposed main deck outside the cargo area, with additional readings wherever the close-up survey or earlier reports point to substantial corrosion. A qualified surveyor of the organisation attends while the readings are taken. The gauged thicknesses then feed the evaluation of the hull's structural strength that the Final Report must contain.",
+        "Subsequent CAS surveys follow at intervals not exceeding five years and six months, aligned with the survey cycle, so a tanker that needs CAS meets it again and again for as long as it trades."
+      ],
+      "table": {
+        "head": ["Stage", "What happens", "Who is responsible"],
+        "rows": [
+          ["Notification and planning", "The Company notifies the Administration and the recognised organisation, completes the Survey Planning Questionnaire and agrees a written survey plan", "The Company, with the organisation"],
+          ["Overall and close-up survey", "Every cargo-area space examined; close-up survey of web frames, bulkheads and transverses to the CAS extent", "Surveyors of the recognised organisation"],
+          ["Thickness measurement", "Deck, bottom, wind-and-water strakes, transverse sections, peak tanks and suspect areas", "A firm certified by the organisation, with its surveyor attending"],
+          ["Strength evaluation", "Hull girder strength assessed from the gauged thicknesses", "The recognised organisation"],
+          ["CAS Final Report", "Findings, repairs carried out and a recommendation on continued operation", "The recognised organisation"],
+          ["Review and Statement of Compliance", "Independent review of the Final Report and the decision whether to issue", "The flag Administration"]
+        ]
+      }
+    },
+    {
+      "id": "planning",
+      "h": "Planning ahead: notice, questionnaire and records",
+      "p": [
+        "CAS is not a survey that can be booked at short notice. The scheme asks the Company to notify the Administration and the recognised organisation at least eight months before the survey is due to start. The organisation then issues the Survey Planning Questionnaire, which the Company completes and returns well before the survey, and the two agree a survey plan setting out the spaces, the close-up survey, the thickness measurement and the access arrangements.",
+        "The questionnaire asks about matters that thickness measurement and inspection records answer: the condition of coatings and anodes, areas of known corrosion, previous repairs and steel renewal, cargo and ballast history, and the findings of earlier surveys. Gaps in that history make planning harder for the organisation and invite a more cautious plan. This is where an owner can usefully involve us. We collate the previous thickness measurement reports into a structured set of readings, show which transverse sections and tanks have no recent data, and recommend where pre-CAS gauging would close the gaps.",
+        "The documents a gauging team needs are those of any extensive tanker gauging, with one addition: the CAS survey plan, or the organisation's draft of it, so that our readings use the same frame references, section positions and tank numbering the organisation will use."
+      ]
+    },
+    {
+      "id": "pre-cas-gauging",
+      "h": "Pre-CAS gauging: the owner's own look at the steel",
+      "p": [
+        "Pre-CAS gauging is commissioned by the owner, ahead of the CAS survey, to answer one question: is this tanker likely to come through, and what steel work will that take? The team gauges a targeted sample: the transverse sections the plan is likely to name, deck plating and under-deck longitudinals in the cargo tanks, bottom plating where cargo tank pitting is expected, wind-and-water strakes, transverse bulkheads, and the internal structure of ballast tanks whose coating has failed.",
+        "Each reading is set against the original thickness from the approved drawings and the allowable diminution, and recorded on the IACS oil tanker report forms, TM1-T to TM6-T, with numbered sketches. The report flags readings in the substantial corrosion band and beyond the allowable margin, and adds an outline of the renewal those readings imply, by tank, member and approximate extent. That outline gives the yard something firm to plan against and the owner a basis for deciding whether to go ahead.",
+        "Pre-CAS gauging is not credited to the CAS survey and does not replace the gauging the organisation will require. Its value is that it uses the same method, references and forms, so the numbers can be compared directly when the credited readings are taken, and surprises are found while there is still time to order steel and reserve a berth at the yard."
+      ]
+    },
+    {
+      "id": "where-steel-is-lost",
+      "h": "Where older single-hull tankers usually lose steel",
+      "p": [
+        "On a single-hull tanker the cargo wing tanks have the side shell as their outer boundary, so the shell plating and side longitudinals are wetted by cargo on one face and by the sea on the other. Wastage there reduces structure that carries both local pressure and hull girder loads, and the connections of side longitudinals to web frames and bulkheads are where fatigue cracks tend to start.",
+        "Cargo tank bottom plating pits where water and sludge settle under crude cargoes, and an ordinary thickness reading between pits overstates the steel left, so pit depths are measured separately. Under-deck structure in the vapour space wastes steadily, particularly the deck longitudinals and the upper parts of web frames. Heating coils in tanks carrying heavy grades raise the temperature of the surrounding structure and with it the corrosion rate. Ballast tanks on older ships, above all those that never had a hard coating or whose coating failed long ago, often carry the heaviest wastage of all, together with grooving along weld lines.",
+        "Category 2 tankers, with protectively located segregated ballast tanks, and Category 3 tankers, the smaller ships below the Category 1 and 2 tonnage limits, differ in arrangement, so the gauging plan is drawn from the ship's own drawings rather than from a standard pattern. Where the close-up survey or our own observation finds cracking at known details, magnetic particle testing confirms its length and extent; the magnetic particle inspection page explains the method."
+      ]
+    },
+    {
+      "id": "who-may-gauge",
+      "h": "Who may take the readings that a CAS survey credits",
+      "p": [
+        "The scheme requires thickness measurement for a CAS survey to be carried out by a firm certified by the recognised organisation, with the organisation's surveyor present to control the process. For the IACS classification societies, the approval of thickness measurement firms follows IACS UR Z17, which sets out how a firm, its procedures, its equipment and its operators are audited before the society accepts its readings for class and statutory surveys.",
+        "Atlantis NDT does not hold that approval from any classification society. We are preparing for UR Z17 audits with DNV, Lloyd's Register and ABS, and until a certificate is issued, CAS-credited gauging has to be done by a firm that the ship's own class society has approved. Our work on a CAS tanker serves the owner's decisions: readiness reviews of the records, pre-CAS gauging, planning the measurement programme, and condition assessment surveys for owners and buyers. Tell us the ship's class and the survey due when you enquire, so the scope is set for the right purpose from the start.",
+        "If a yard specification or the recognised organisation calls for operators certified under a particular scheme, say so in the enquiry and we will confirm what applies before anything is booked."
+      ]
+    },
+    {
+      "id": "condition-surveys",
+      "h": "Condition assessment surveys for owners and buyers",
+      "p": [
+        "Most enquiries that mention CAS today are really for a condition assessment survey of an older tanker: a buyer who wants measured evidence of the hull before a sale closes, an owner weighing further trading or conversion against recycling, or a manager tracking known corrosion between class surveys. These surveys follow the logic of CAS without its formal process. The scope is agreed with the client, the spaces are chosen for what they reveal about the whole ship, and the readings are reported on the IACS forms so they can be compared with past and future class gauging.",
+        "A typical scope combines thickness measurement of deck, bottom and one or more transverse sections with close-up observation of the corrosion pattern in the cargo and ballast tanks we can enter, the coating condition described in the GOOD, FAIR and POOR terms that hull surveys use, pit depths, grooving, and crack detection at known fatigue details. The report states plainly what was sampled and what was not, because a buyer relying on it needs to know how far it reaches."
+      ]
+    },
+    {
+      "id": "tank-entry",
+      "h": "Tank entry and preparation on an older tanker",
+      "p": [
+        "Cargo tanks must be cleaned, gas-freed and purged of inert gas before anyone enters, and older crude carriers can release hydrogen sulphide and benzene from sludge and scale long after the tanks have been washed. Every tank is entered under the ship's permit system, with atmosphere tests before entry and at intervals, a standby person and rescue arrangements, and in a yard the yard's gas-free certificate as well. Our technicians carry personal gas monitors and do not enter a space without a valid permit.",
+        "Single-hull tankers built before the current access rules rarely have the permanent walkways fitted to newer ships, so staging, cherry pickers or rafting in ballast tanks has to be planned for the upper structure and the transverse sections. Mud, sludge and loose scale are removed by the ship or the yard before gauging begins; the team then prepares each measurement point itself."
+      ]
+    }
+  ],
+  "codes": [
+    "IMO Condition Assessment Scheme, resolution MEPC.94(46), as amended",
+    "MARPOL Annex I, regulation 20 (oil tankers delivered before 6 July 1996) and regulation 21 (oil tankers carrying heavy grade oil)",
+    "2011 ESP Code, resolution A.1049(27), applied through SOLAS chapter XI-1 regulation 2",
+    "IACS UR Z10.1 – Hull surveys of oil tankers, including the TM report forms",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "ASTM E797 – Thickness measurement by the manual ultrasonic pulse-echo contact method",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Pre-CAS thickness measurement report on the IACS oil tanker forms, TM1-T to TM6-T",
+    "Numbered sketches locating every reading by frame, strake and longitudinal",
+    "Summary of substantial corrosion and readings beyond the allowable margin",
+    "Pitting, grooving and edge corrosion records with depth and extent",
+    "Collated thickness history from previous reports, with the gaps identified",
+    "Outline steel renewal by tank, member and approximate extent",
+    "Calibration records, equipment details and operator qualifications"
+  ],
+  "industries": [
+    "Older single-hull oil tankers",
+    "Tankers carrying heavy grade oil",
+    "Older double-hull tankers needing a condition rating through CAP",
+    "Ship owners and managers' technical departments",
+    "Ship buyers and their technical advisers",
+    "Charterers' vetting and technical teams",
+    "Ship-repair yards preparing tanker dockings"
+  ],
+  "faqs": [
+    {
+      "q": "Do any ships still need a CAS survey?",
+      "a": "Very few. CAS was tied to the phase-out of single-hull oil tankers under MARPOL Annex I, and those ships have largely left international trade. Where a flag Administration, a coastal state or a contract still refers to CAS for an older tanker, ask the recognised organisation which document is required and when. Many people now say 'CAS survey' when they mean any condition assessment survey, which is a different, privately commissioned inspection."
+    },
+    {
+      "q": "What is the difference between CAS and CAP?",
+      "a": "CAS is a statutory scheme: the flag Administration decides, after reviewing the recognised organisation's survey, whether an older single-hull tanker may keep trading, and issues a Statement of Compliance. CAP is a voluntary classification society service that grades a ship's condition, usually because charterers or buyers want evidence on an older tanker or bulk carrier. Both rely on extensive thickness measurement; our CAP thickness measurement page covers the programme in detail."
+    },
+    {
+      "q": "Can Atlantis NDT carry out the thickness measurement credited to a CAS survey?",
+      "a": "Not at present. CAS-credited readings must come from a firm certified by the recognised organisation, with its surveyor attending, and Atlantis does not yet hold that approval from any classification society. We are preparing for IACS UR Z17 audits with DNV, Lloyd's Register and ABS. Until a certificate is issued, we support the owner before the survey with a records review, pre-CAS gauging and measurement planning, and carry out condition surveys for owners and buyers."
+    },
+    {
+      "q": "Who issues the CAS Statement of Compliance, and how often is the survey repeated?",
+      "a": "The flag Administration issues it, after reviewing the CAS Final Report prepared by the recognised organisation; neither the organisation nor the gauging firm issues it. The review is carried out by people independent of the organisation that did the survey. Subsequent CAS surveys follow at intervals not exceeding five years and six months, aligned with the enhanced survey cycle, so planning for the next one starts soon after the last."
+    },
+    {
+      "q": "Does a double-hull tanker need CAS?",
+      "a": "No. CAS is called up by the MARPOL Annex I regulations dealing with single-hull oil tankers and with tankers carrying heavy grade oil, and a double-hull tanker already meets the construction standard those rules require. When a charterer or buyer wants independent evidence about an older double-hull tanker, the usual answer is a CAP rating from the classification society, backed by extensive thickness measurement, or an owner's condition assessment survey."
+    },
+    {
+      "q": "What should we send before pre-CAS gauging is planned?",
+      "a": "The ship's particulars and class, the structural drawings with original scantlings, the last two thickness measurement reports where available, the survey status and any conditions of class, the repair and steel renewal history, the CAS survey plan or the organisation's draft of it, and the port and dates when the tanks will be open. The team is mobilised from India, so the earlier the dates are known, the easier visas and travel are to arrange."
+    },
+    {
+      "q": "Can pre-CAS gauging be done without drydocking the tanker?",
+      "a": "Largely, yes. Ballast tanks, decks and cleaned, gas-freed cargo tanks can be gauged at a berth or at anchorage, and that covers most of the internal structure that decides the outcome. External bottom plating and upper structure that needs staging are better left to a docking. The report lists what was gauged and what was not, so the owner can judge how much of the likely CAS finding the sample represents."
+    }
+  ]
+}

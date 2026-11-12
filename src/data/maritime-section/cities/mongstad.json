@@ -1,0 +1,111 @@
+{
+  "slug": "mongstad",
+  "name": "Mongstad",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Mongstad Tanker Gauging: UTM at the Crude and LPG Terminal",
+  "description": "Thickness gauging at Mongstad for crude, shuttle and product tankers, LPG carriers and supply vessels: ballast tank, deck and piping UTM within terminal rules.",
+  "h1": "Ultrasonic Thickness Measurement for Tankers, LPG Carriers and Supply Vessels at Mongstad",
+  "intro": "Mongstad, on Fensfjorden north of Bergen, combines Norway's only refinery, a crude oil terminal fed by pipelines and shuttle tankers, an NGL plant exporting propane and butane, and a large offshore supply base. Ships arrive around the clock, and most stay only for the length of a cargo operation, so gauging here is about choosing the right spaces for the time available and the terminal's rules. Each job is carried out by technicians who fly in from India to board the vessel; nobody is posted at the terminal.",
+  "keywords": [
+    "mongstad thickness gauging",
+    "utm mongstad",
+    "tanker thickness measurement norway",
+    "shuttle tanker gauging",
+    "lpg carrier inspection mongstad",
+    "ballast tank gauging tanker",
+    "supply vessel thickness measurement",
+    "mongstad terminal ship inspection",
+    "fensfjorden tanker inspection",
+    "hull gauging western norway"
+  ],
+  "highlights": [
+    {
+      "h": "Refinery product tankers on short calls",
+      "p": "Product tankers loading petrol, diesel and jet fuel at the refinery berths turn round quickly. A scope limited to ballast tanks, the forepeak and deck plating outside the cargo zone, agreed with the master before arrival, is what a single Mongstad loading usually allows."
+    },
+    {
+      "h": "Propane and butane carriers from Vestprosess",
+      "p": "LPG carriers lift propane and butane fractionated from North Sea NGL and stored in rock caverns beside the fjord. Their pressure tanks are docking work, but double-bottom ballast tanks and deck structure can be measured during loading if the master and terminal agree."
+    },
+    {
+      "h": "Supply vessels at the Mongstad base",
+      "p": "The supply base in the industrial park handles a steady flow of platform supply vessels. While a vessel lies at its quay, the crew can open ballast tanks, chain lockers and empty bulk tanks, and the quayside gives the stable, unhurried access that a tanker jetty cannot."
+    }
+  ],
+  "port": {
+    "h": "Mongstad: refinery, crude terminal and supply base on Fensfjorden",
+    "p": [
+      "Mongstad lies on the south shore of Fensfjorden, in the municipalities of Alver and Austrheim, roughly sixty kilometres north of Bergen. Ships approach from the open North Sea past the island of Fedje, where the Fedje vessel traffic service watches the fairways leading to Mongstad and Sture. The fjord is deep and sheltered, and the terminal's jetties accept everything from coastal product tankers to very large crude carriers. Crude arrives by pipeline from Troll, Fram, Kvitebjørn, Gjøa, Vega, Johan Sverdrup and other fields, and by shuttle tanker from fields that load offshore, among them Gullfaks, Statfjord, Heidrun and Åsgard. It is held in rock caverns until it is loaded for export to refineries in Europe, North America and Asia, which is why tankers of every size share the fjord.",
+      "The traffic mix is wider than a crude terminal alone would suggest. The refinery, the only one in Norway, loads petrol, diesel, jet fuel, naphtha and heavier products into product tankers, and receives by sea the feedstock that does not come through a pipeline. The Vestprosess plant separates natural gas liquids piped from Kollsnes via Sture, and its propane and butane leave on LPG carriers. Equinor counts more than 1,500 ship calls a year at the port, placing it among the largest in northern Europe by tonnage. Alongside the energy traffic, the supply base in the industrial park sees a constant rotation of platform supply vessels loading drilling fluids, pipe, containers and provisions for installations on the Norwegian continental shelf.",
+      "Calls are short and timed by the terminal. A crude tanker loads and sails; a product tanker may spend less than a day alongside; an LPG carrier waits for its cargo slot. Ships arriving early may be told to wait offshore or at a position given by the vessel traffic service, but the berth itself is usually where any gauging happens. Winter on this coast brings gales, rain and low daylight rather than ice, and strong wind can interrupt cargo work at an exposed jetty; a weather delay of that kind sometimes gives a team extra hours aboard. Summer's long days make deck work easier, and when the refinery takes a maintenance turnaround, the product tanker traffic changes for weeks, which affects which ships are in the fjord."
+    ]
+  },
+  "facilities": {
+    "h": "Where a ship can be gauged at Mongstad",
+    "p": [
+      "Everything at Mongstad is organised around cargo safety. The crude jetties, refinery product berths and LPG loading berths lie inside the terminal's restricted area, where hot work is forbidden, electrical equipment taken on deck has to satisfy the hazardous-area rules of both ship and terminal, and enclosed-space entry needs the ship's permit together with the terminal's consent. Surface preparation is done by hand, because power tools that might spark are not welcome near cargo. In practice, ultrasonic gauging on a tanker alongside concentrates on segregated ballast tanks, the peak tanks, the engine room and deck plating away from manifolds and vents.",
+      "The supply base is a different working environment. Platform supply vessels lie at quays served by cranes, outside the tanker safety zones, and where the vessel has arranged tank cleaning, bulk and liquid tanks can be entered once they are certified safe. Offshore vessels in port between charters are the most practical gauging jobs at Mongstad. For dry-docking, tankers trading here go to yards chosen by their owners, often far from Norway, and supply vessels to the repair yards along the west coast; readings taken at Mongstad then feed the steel estimate for that docking."
+    ],
+    "list": [
+      "Crude terminal jetties — segregated ballast tanks, peak tanks and deck plating outside the cargo area on crude and shuttle tankers, inside the terminal's permit system.",
+      "Refinery product berths — ballast tank and forepeak gauging on product tankers loading clean or black products.",
+      "Berths loading Vestprosess propane and butane — deck and double-bottom readings on LPG carriers, with the cargo tanks left for dry dock.",
+      "Mongstad supply base quays — tank, chain-locker and deck gauging on platform supply vessels between runs or between charters.",
+      "Repair yards on the west coast — full renewal-survey gauging on supply vessels whose docking follows a period of work from Mongstad."
+    ]
+  },
+  "context": {
+    "h": "Vetting, port state control and the oil-company rules behind a Mongstad call",
+    "p": [
+      "Port state control in Norway is carried out by the Norwegian Maritime Authority under the Paris MoU, and Mongstad's traffic falls squarely into the ship types that draw the closest attention: oil tankers, gas carriers and chemical tankers. Under the Paris MoU regime, those types become candidates for an expanded inspection once they are more than twelve years old, and an inspector looking at an older tanker may examine its structural condition, ballast spaces included, and ask for its thickness measurement and repair records. A tanker whose latest gauging shows wastage close to the allowable diminution, with no plan for renewal, invites questions.",
+      "Commercial vetting carries as much weight as regulation. Tankers chartered to lift crude and products at Mongstad are screened by the charterer and the terminal, and the SIRE 2.0 inspection regime that OCIMF rolled out in 2024 puts more emphasis on what the inspector actually sees on board, which makes coating breakdown and wastage in ballast spaces harder to explain away. Many charterers also expect older tankers to hold a Condition Assessment Programme rating, and that rating rests on thickness data. Supply vessels serving the Norwegian shelf answer to the oil companies' contract standards as well as to class, so an owner tendering for a long charter is better placed with a recent, documented set of readings."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs that fit around Mongstad's cargo windows",
+    "p": "Most Mongstad jobs are short and settled in advance with the master, the ship manager and the terminal: which tanks the crew will empty and ventilate during the loading, which deck areas lie outside the hazardous zone, and when the team may board. Work at the supply base is longer and less constrained, and is often tied to the end of one charter or the start of the next. Where a superintendent wants a full renewal-survey programme, the Mongstad readings become its first instalment and the remainder is finished at the docking yard. Examples of the work we see:",
+    "list": [
+      "A Suezmax loading Norwegian crude for export: two pairs of wing ballast tanks and the forepeak gauged, with the scope agreed with the terminal before berthing, to update the ship's CAP file.",
+      "A product tanker at the refinery berths: deck plating and longitudinals in way of heavy coating breakdown measured from deck outside the cargo zone, with findings sent to the superintendent before sailing.",
+      "An LPG carrier loading propane: double-bottom ballast tanks and the steering gear flat gauged, with cargo tank and cargo piping work deferred to the next docking.",
+      "A platform supply vessel at the supply base between charters: emptied bulk tanks, chain lockers and cargo-rail foundations measured, with MPI at crane pedestal welds.",
+      "A shuttle tanker discharging field crude: pre-docking gauging of the ballast tanks around the bow loading system, to estimate steel ahead of a renewal survey."
+    ]
+  },
+  "logistics": "Bergen Airport, Flesland, is the arrival point, and Mongstad is reached from there by road north through the Bergen area. The crude terminal and the supply base are ISPS facilities with their own induction and security checks, so the ship's agent sends the team's names, passport details and equipment list in advance and confirms the boarding time with the terminal. Norway belongs to the Schengen area, and our technicians travel from India on Schengen visas; a vessel that calls at Mongstad regularly is easiest to serve when the visas are arranged before a specific loading is fixed.",
+  "vessels": [
+    "Crude oil tankers, from coastal tankers to VLCCs",
+    "Shuttle tankers",
+    "Product tankers",
+    "LPG carriers",
+    "Platform supply vessels",
+    "Anchor-handling tug supply vessels",
+    "Coastal tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Can ballast tanks be gauged while a tanker is loading at Mongstad?",
+      "a": "Often, yes. Deballasting during a loading empties the segregated ballast tanks anyway, and once a tank has been ventilated and the ship has issued its enclosed-space entry permit, it can be measured, provided the terminal has agreed to the work. We send the scope, equipment list and boarding plan through the agent before the ship berths, and sequence the tanks so the most important are done first."
+    },
+    {
+      "q": "What about the cargo tanks on a crude or product tanker at Mongstad?",
+      "a": "Cargo tanks are not entered at the terminal. During a loading or discharge they are either full or not gas-free, and entry would need cleaning and gas-freeing that the berth schedule does not allow. Cargo-tank gauging for a renewal survey or CAP is planned for a lay-by period, a repair berth or the docking yard, and we can carry the programme on there."
+    },
+    {
+      "q": "Are ultrasonic gauges allowed on deck at the terminal?",
+      "a": "The terminal and the ship decide which electrical equipment may be used in hazardous areas, and their rules apply to gauges, torches and radios alike. On a tanker, spaces next to cargo tanks, many ballast tanks among them, also count as hazardous, so gas readings and permits govern entry there. We send equipment details for checking before mobilising, and adjust the scope where an area is closed to us."
+    },
+    {
+      "q": "Is the supply base a better place than the terminal to gauge an offshore vessel?",
+      "a": "For supply vessels, yes. At the base quays a vessel is outside the tanker safety zones, cranes can lift equipment aboard, and the crew have time between runs to empty and clean bulk and liquid tanks. A gap between charters, or the days before a vessel sails for a yard, gives enough time for a meaningful scope of tanks, chain lockers and deck structure."
+    },
+    {
+      "q": "Can a tanker waiting for a Mongstad berth be gauged at anchor?",
+      "a": "Only if the ship is waiting where a boat can come alongside safely, the vessel traffic service and the agent agree, and the weather allows boarding by ladder. Off this coast that is rarely certain in winter. When an owner knows a ship will wait, we plan a short scope on deck and in prepared tanks, and keep the berth call as the fallback."
+    }
+  ],
+  "nearby": ["bergen", "floro", "stord", "haugesund", "karsto"]
+}

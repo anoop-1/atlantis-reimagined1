@@ -90,6 +90,16 @@ function translate(r) {
   const wildMatch = /^(.*?)\/:path\*$/.exec(source);
   if (wildMatch) {
     const prefix = wildMatch[1] || '';
+    // 2026-11-10: a destination ending in /:path* keeps the rest of the path
+    // (/maritime-inspection/rotterdam -> /maritime/rotterdam). Earlier rules all collapse to one page.
+    if (/\/:path\*$/.test(destination)) {
+      const base = abs(destination).replace(/\/:path\*$/, '');
+      return {
+        kind: 'regex',
+        key: `^${rxEscape(prefix)}(/.*)?$`,
+        block: `location ~ ^${rxEscape(prefix)}(/.*)?$ { return ${code} ${base}$1; }`,
+      };
+    }
     const dest = abs(destination).replace('/:path*', '');
     // Cover both the bare prefix and anything beneath it.
     return {

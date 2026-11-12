@@ -1,0 +1,112 @@
+{
+  "slug": "eemshaven",
+  "name": "Eemshaven",
+  "country": "Netherlands",
+  "region": "europe",
+  "title": "Eemshaven UTM: Thickness Gauging for Offshore Wind Vessels",
+  "description": "UTM and thickness gauging at Eemshaven for offshore wind installation and service vessels, jack-ups and cable layers: deck, tank, hull and pedestal readings.",
+  "h1": "Thickness Measurement for Offshore Wind and Energy Vessels at Eemshaven",
+  "intro": "Eemshaven is the energy port at the mouth of the Ems, built on reclaimed land on the Groningen coast and open to the tide without locks. Installation vessels, jack-ups, cable layers and service ships use it as a base for wind farms in Dutch and German waters, gas carriers supply the floating LNG terminal, and a ferry links the port with Borkum. Vessels lie alongside for loading, mobilisation and crew changes, which gives time for gauging. Every job is carried out by technicians who travel out from India to the vessel.",
+  "keywords": [
+    "thickness measurement eemshaven",
+    "utm eemshaven",
+    "offshore wind vessel inspection",
+    "jack-up vessel thickness gauging",
+    "service operation vessel gauging",
+    "cable laying vessel inspection",
+    "crane pedestal crack detection",
+    "eemshaven ship inspection",
+    "walk-to-work vessel thickness measurement",
+    "groningen seaports offshore vessels"
+  ],
+  "highlights": [
+    {
+      "h": "Installation vessels during mobilisation",
+      "p": "Jack-ups and heavy-lift ships load turbine components and sea-fastenings at Eemshaven before each campaign. Mobilisation periods open up deck plating, grillage areas, crane pedestals and preload tanks, all of which carry heavy local loads and benefit from gauging and MPI between campaigns."
+    },
+    {
+      "h": "Service ships for operating wind farms",
+      "p": "Service operation vessels and walk-to-work ships based at the port return regularly for crew changes and stores. Gangway and crane foundations, deck structure and ballast tanks can be gauged during those stays, building a running record instead of one large survey."
+    },
+    {
+      "h": "Cable layers between projects",
+      "p": "Subsea power cables come ashore on this stretch of coast, and cable-laying ships prepare for and return from campaigns here. Carousel and tensioner foundations, deck structure and ballast tanks can be measured while a ship waits for its next cable job."
+    }
+  ],
+  "port": {
+    "h": "Eemshaven: an energy port on the open Ems",
+    "p": [
+      "Eemshaven lies at the north-eastern corner of the Netherlands, where the Ems estuary meets the Wadden Sea, a short distance across the water from the German island of Borkum. It is the seaward partner of Delfzijl within Groningen Seaports and the deeper of the two: ships arrive from the North Sea along the Ems fairway and berth in harbour basins open to the tide, with no sea lock to pass. The port was developed on land reclaimed from the Wadden Sea, and its long quays and large open terminal areas suit heavy, bulky cargo. The tidal range and the stream in the outer Ems enter every passage plan, and ships waiting for a berth or for suitable conditions use the anchorages in the Ems approaches.",
+      "Energy defines the traffic. Power stations stand on the edge of the port, subsea power cables to Norway and Denmark come ashore here, and since 2022 a floating LNG import terminal has received gas carriers, set up quickly when Europe needed to replace Russian pipeline gas. Above all, Eemshaven has become one of the main ports on this coast for offshore wind: turbine components, foundations and cables are staged on its terminals and loaded onto installation vessels, while service operation vessels and crew transfer vessels work from the port to maintain operating wind farms. Multipurpose and heavy-lift ships deliver components, and AG Ems runs a ferry to Borkum. Many callers are therefore specialised offshore units rather than ordinary cargo ships, working in rough water with heavy loads on deck.",
+      "The working pattern follows the construction calendar and the North Sea weather. Installation campaigns concentrate in the months with the best weather windows, so installation vessels often mobilise ahead of the summer and then cycle between port and wind farm, loading new components on each trip. Between campaigns, or when a project ends, a jack-up or heavy-lift ship may lie at the quay for weeks while its deck is reconfigured for the next job. Service vessels keep a steadier rhythm through the year, returning for crew changes on a fixed rotation. For a superintendent, Eemshaven therefore offers both short, repeated port stays and occasional long idle periods, and the gauging plan can use either: a package at each crew change, or a complete programme while the vessel waits."
+    ]
+  },
+  "facilities": {
+    "h": "Quays, terminals and docking options for Eemshaven vessels",
+    "p": [
+      "Eemshaven is a working port rather than a repair port, and gauging here is done afloat at the quays and terminals. The offshore wind terminals have heavy-load quays where installation vessels and heavy-lift ships load foundations, towers, blades and nacelles. Mobilisation and demobilisation periods, when sea-fastenings are welded on or cut away and equipment is changed, give access to deck areas that are covered by cargo for most of a campaign. Service vessels use their own berths and pontoons, and their port stays are short but frequent, so work on them is planned in packages that each fit one stay.",
+      "When a docking is due, Eemshaven vessels go elsewhere. Smaller service and crew vessels can dock at Delfzijl, Harlingen or Den Helder, while large installation vessels and jack-ups need the big docks of yards in Germany, the Netherlands or Denmark, chosen by the owner. Readings taken at Eemshaven before the ship sails let the superintendent go into the docking with a defined steel list and a gauging plan for the remaining spaces. Work on the gas carriers serving the floating LNG terminal is planned with the terminal operator under its gas-safety rules and stays outside the cargo containment."
+    ],
+    "list": [
+      "Offshore wind terminals — deck plating, crane pedestals, sea-fastening areas and preload or ballast tanks on installation vessels during mobilisation or demobilisation.",
+      "Service vessel berths — gangway and crane foundations, deck structure and ballast tanks on service operation and walk-to-work vessels during crew-change stays.",
+      "Crew transfer vessel pontoons — hull plating, fender zones and weld checks on aluminium and steel crew boats between shifts.",
+      "Multipurpose and heavy-lift berths — hold, tank-top and hatch cover gauging once components have been discharged.",
+      "Lay-by quays — longer gauging programmes on jack-ups, cable layers and offshore ships idle between projects."
+    ]
+  },
+  "context": {
+    "h": "Offshore audits, emissions rules and conversions at Eemshaven",
+    "p": [
+      "Port state control at Eemshaven follows the Paris MoU and is carried out by the Human Environment and Transport Inspectorate (ILT). Many of the vessels working wind farms from here are on long-term charters, and wind farm owners and turbine makers apply their own vessel audits, in which structural condition, lifting equipment records and tank inspection history all count. On jack-up installation vessels, class surveys the legs, spudcans and jacking systems in detail, and the hull and deck structure that carries the jacking and preload forces deserves the same attention from the owner's side.",
+      "Regulation is tightening around these ships too. The EU ETS has covered larger cargo and passenger ships since 2024 and is due to take in offshore ships of 5,000 GT and above from 2027, which brings in most installation vessels and many service operation vessels. Operators are answering with methanol-capable and battery-hybrid newbuilds, while older vessels are upgraded or converted, and each upgrade puts new equipment on an existing deck. Measuring the existing structure before a conversion, and checking it again after the first seasons of use, is how owners confirm that the hull is carrying its new role safely."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Thickness gauging requests at Eemshaven",
+    "p": "Jobs at Eemshaven are almost always on offshore and energy vessels, and they are timed to the vessel's campaign rather than a cargo call. An installation vessel's superintendent wants deck and pedestal structure checked while the sea-fastenings are off; a service vessel's technical manager wants the gauging spread over several crew changes so the ship never stays in port longer than planned. When a vessel is heading for a yard, the request is a pre-docking gauging that sets the steel list. Crack detection by MPI on steel, or by dye penetrant on aluminium, is often added to the thickness scope. Typical requests:",
+    "list": [
+      "A jack-up installation vessel demobilising after a turbine campaign: deck plating under the sea-fastening grillage, crane pedestal welds by MPI and preload tank gauging.",
+      "A service operation vessel on crew change: gangway foundation, crane pedestal and the surrounding deck structure gauged in sections over successive port stays.",
+      "A heavy-lift ship after discharging foundations: tank-top and hold plating, hatch cover structure and crane foundations measured before the next loading.",
+      "A cable-laying vessel between projects: carousel foundation, deck and ballast tank gauging while the ship waits at a lay-by quay.",
+      "A crew transfer vessel: hull plating in the bow fender zone measured, and welded joints in the aluminium structure checked by dye penetrant."
+    ]
+  },
+  "logistics": "Amsterdam Schiphol is the main international airport, with onward travel by rail to Groningen and by road to Eemshaven; Groningen Airport Eelde and Bremen Airport are alternatives on some routes. The offshore terminals and the LNG terminal operate under ISPS and their own site inductions, which the ship's agent or the terminal arranges before the team arrives. Technicians come from India on Schengen visas, and because offshore campaign dates move with the weather, we keep in touch with the agent and adjust travel to the vessel's confirmed port stay.",
+  "vessels": [
+    "Jack-up installation vessels",
+    "Heavy-lift and multipurpose ships",
+    "Service operation vessels",
+    "Walk-to-work vessels",
+    "Cable-laying vessels",
+    "Crew transfer vessels",
+    "LNG carriers",
+    "Ro-pax ferries"
+  ],
+  "faqs": [
+    {
+      "q": "Is there a drydock at Eemshaven?",
+      "a": "No. Eemshaven is an offshore, energy and cargo port, and gauging here is done afloat. Smaller vessels dock at nearby yards in Delfzijl or Harlingen, and large installation vessels at bigger yards elsewhere. A pre-docking gauging at Eemshaven before the vessel leaves for the yard gives the superintendent a measured steel list to take into the docking."
+    },
+    {
+      "q": "Can deck plating be gauged while sea-fastenings are still welded on?",
+      "a": "Only around them. Plating directly under grillages and stoppers stays hidden until the fastenings are removed, so the best moment is demobilisation, before new sea-fastenings go on for the next campaign. We agree with the superintendent which areas to measure in that gap and add magnetic particle testing where cracks are suspected at old fastening welds."
+    },
+    {
+      "q": "How do you gauge a service vessel without extending its port stay?",
+      "a": "We split the scope into packages that each fit one crew-change stay, starting with the structure the charterer or class cares about most, such as the gangway and crane foundations. Every package is reported against the same TM plan references, so the readings build into one record. The crew prepares the next spaces in advance, and the vessel sails on schedule."
+    },
+    {
+      "q": "Does winter weather stop gauging work at Eemshaven?",
+      "a": "Wind and cold can slow work on open decks, and some deck readings wait for dry surfaces, but internal tanks and enclosed spaces can be gauged in most conditions once they are ventilated. Winter is also when many installation vessels are idle between campaigns, so it is often the most practical season for a longer programme on board."
+    },
+    {
+      "q": "Is MPI suitable for crane pedestals on offshore vessels?",
+      "a": "Yes, on steel pedestals and their welds to the deck, which is where fatigue cracks tend to start under repeated lifting loads. The surface has to be cleaned and the coating removed or kept thin enough for the test, so preparation is agreed with the crew beforehand. Wall thickness of the pedestal and the deck plating around it is gauged in the same visit."
+    }
+  ],
+  "nearby": ["delfzijl", "emden", "wilhelmshaven", "harlingen", "bremerhaven"]
+}

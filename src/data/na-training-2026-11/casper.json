@@ -1,0 +1,15 @@
+{
+  "slug": "casper",
+  "lat": 42.87,
+  "lng": -106.31,
+  "localContext": "Casper is Wyoming's energy service hub. Oil and gas producers and service companies work the Powder River and surrounding basins, refineries and pipelines serve the region, coal-fired and renewable generation supply the grid, and uranium recovery, wind projects and fabrication shops add more. Pressure piping, tanks and vessels follow ASME and API codes and operator specifications, and structural and wind-tower steel follows AWS. Visual, magnetic particle, ultrasonic and radiographic methods all have regular local use.",
+  "certPathwayNote": "Casper employers generally certify technicians under a written practice based on ASNT SNT-TC-1A, with the employer setting hours, examining and certifying. Operators and plant owners add contractor qualification rules of their own, and uranium and nuclear-related work carries additional quality requirements. ASNT central certification is an alternative for technicians who move between employers.",
+  "salaryFrom": "billings",
+  "siblings": [
+    "billings",
+    "denver",
+    "williston",
+    "salt-lake-city",
+    "idaho-falls"
+  ]
+}

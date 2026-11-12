@@ -1,0 +1,15 @@
+{
+  "slug": "long-beach",
+  "lat": 33.77,
+  "lng": -118.19,
+  "localContext": "Long Beach combines the Port of Long Beach and San Pedro Bay terminals with the refining and tank-storage district in nearby Wilmington and Carson, pierside ship repair, coastal gas-fired power stations, offshore oil pipelines, and an aircraft-manufacturing heritage that now includes launch and space-hardware companies. Technicians inspect tanks, process piping, terminal steel and machined aerospace parts to AWS, ASME and API practices, so UT thickness, MT, PT and VT lead demand.",
+  "certPathwayNote": "Harbour, refinery and aerospace employers certify under their own written practice based on ASNT SNT-TC-1A, with aerospace primes flowing down extra requirements that the employer's Level III reconciles. Training hours, logged experience, general, specific and practical examinations and a vision test come first. California radiation safety licensing for radiography is separate from method certification.",
+  "salaryFrom": "los-angeles",
+  "siblings": [
+    "los-angeles",
+    "san-diego",
+    "el-segundo",
+    "southern-california",
+    "california"
+  ]
+}

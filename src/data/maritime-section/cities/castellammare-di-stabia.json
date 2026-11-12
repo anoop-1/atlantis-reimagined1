@@ -1,0 +1,114 @@
+{
+  "slug": "castellammare-di-stabia",
+  "name": "Castellammare di Stabia",
+  "country": "Italy",
+  "region": "europe",
+  "title": "Castellammare di Stabia UTM | Shipyard Thickness Gauging",
+  "description": "Thickness gauging at Castellammare di Stabia for ships in and around the shipyard on the Bay of Naples: new-build steel records, refit and hull readings.",
+  "h1": "Hull and Structure Thickness Gauging at Castellammare di Stabia",
+  "intro": "Castellammare di Stabia is a shipbuilding town on the southern side of the Bay of Naples, where one of Italy's oldest yards still launches ferries and naval vessels beneath Vesuvius. Ships here are often new, in refit or in trials, so gauging is about baselines, repairs and handover records rather than wastage. Atlantis NDT sends a team from India to take readings to the owner's or yard's programme and report in a form the superintendent can use.",
+  "keywords": [
+    "thickness measurement castellammare di stabia",
+    "utm castellammare",
+    "shipyard thickness gauging bay of naples",
+    "ferry refit hull gauging",
+    "newbuild baseline thickness readings",
+    "ship inspection castellammare di stabia",
+    "naval vessel thickness gauging",
+    "utm naples gulf",
+    "hull steel gauging italy shipyard",
+    "post-repair thickness verification"
+  ],
+  "highlights": [
+    {
+      "h": "A shipyard town, not a cargo port",
+      "p": "Castellammare's activity centres on its yard rather than on cargo flows, so the typical ship here is on the building ways, fitting out, in trials or under repair, and thickness work serves those stages."
+    },
+    {
+      "h": "Baseline readings at delivery",
+      "p": "Gauging a newly built or newly converted ship records the as-built plate thickness at agreed points. Years later that record shows how much metal has actually been lost, which an assumed drawing value cannot do."
+    },
+    {
+      "h": "A few minutes from the Naples repair basin",
+      "p": "Naples and its repair yards lie along the same bay, so one mobilisation can cover a ship at Castellammare and others in Naples or Salerno without the team travelling far."
+    }
+  ],
+  "port": {
+    "h": "The harbour of Castellammare di Stabia and its shipbuilding past",
+    "p": [
+      "Castellammare di Stabia sits at the foot of the Sorrento peninsula, on the southeastern side of the Bay of Naples, with Mount Vesuvius to the north and the Lattari hills behind the town. Its small harbour opens directly onto the bay, so there is no lock, no river approach and no meaningful tidal constraint, and the sea state in the bay is usually moderate outside winter storms. The port is part of the Central Tyrrhenian system run from Naples, which also covers Salerno, and its commercial traffic is modest beside its larger neighbours. Its identity comes from the yard on the waterfront.",
+      "The shipyard at Castellammare traces its origins to the royal shipbuilding of the eighteenth century and is now part of the Fincantieri group. It builds ships on launching ways and in basins at the water's edge, and the vessels that emerge have included ferries, ro-pax ships and naval units. As a result the vessels one sees at Castellammare are different from those in a merchant port: hulls under construction, ships alongside for fitting out, completed vessels waiting for trials or delivery, and ships returning for warranty work or conversion. Alongside the yard, the harbour also receives small coasters, local ferries and workboats, and the coast has a growing yacht and leisure sector.",
+      "That profile shapes what thickness gauging is for. On a merchant ship in service the question is how much steel has been lost. At a shipyard the questions are different: does the as-built plate match the specification, what are the baseline values that future surveys will be measured against, and has repair or modification work left the structure at the intended thickness? The answers belong with the owner as much as with the builder, since the owner must live with the ship for decades. A short, careful gauging record made at delivery or at the end of a refit is inexpensive insurance against disputes years later."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging can be carried out around Castellammare di Stabia",
+    "p": [
+      "Most gauging in Castellammare takes place inside or beside the shipyard, under its site rules and permit system, with access arranged by the owner or by the yard's project team. Ships under construction or in fit-out can be measured at the quay while tanks are accessible and staging is in place; completed hulls can be gauged before delivery to give the owner a baseline of key structure. Because the yard controls access to enclosed spaces, gas-free certification and entry permits follow the yard's procedures, and our team coordinates sequencing with the planner to avoid clashing with trades working in the same areas.",
+      "Outside the yard, the harbour offers only limited berths, so ships needing a full docking survey normally go to Naples or Palermo, both well-equipped for repair work. Castellammare is therefore best seen as one stop in a Bay of Naples programme: gauging at the yard for a new or newly refitted ship, then a visit to Naples for older ships in dock, and a call at Salerno for ro-ro and container tonnage. A launch can take the team to ships at anchor in the bay when an owner wants condition readings on a vessel waiting for a berth."
+    ],
+    "list": [
+      "Fincantieri's Castellammare yard — baseline thickness readings on ships under construction, in fit-out or approaching delivery, to the owner's measurement plan",
+      "Yard fitting-out quays — afloat gauging of tanks, decks and structure while systems are installed and spaces remain accessible",
+      "Refit and repair berths — post-repair verification of renewed plate and reinforced areas on ships returned to the yard",
+      "Local harbour quays — small ferries, coasters and workboats gauged alongside during layover or lay-up",
+      "Bay of Naples anchorage — pre-purchase and condition gauging on ships waiting to enter port or changing hands, using a launch",
+      "Naples and Salerno — neighbouring commercial and repair ports that can be combined with a Castellammare visit in one mobilisation"
+    ]
+  },
+  "context": {
+    "h": "Shipbuilding rules, port control and why baselines matter",
+    "p": [
+      "Foreign merchant ships calling in the Naples system are selected for port state control inspection under the Paris MoU, carried out by the Italian Coast Guard, the Guardia Costiera. At a shipyard the picture differs: vessels under construction are controlled by the classification society and the builder's quality system, and the owner's superintendent or attending team checks the work against specification. Independent thickness measurements in this setting give the owner a record of its own, separate from the yard's inspection documents, which can be consulted if questions arise during the warranty period or at the first renewal survey.",
+      "Rules that apply across the EU also matter. The Ship Recycling Regulation asks for an Inventory of Hazardous Materials on ships calling at EU ports, and a well-organised newbuild or conversion project will already have one. EU ETS and FuelEU Maritime shape how owners value hull efficiency and how long they plan to keep older tonnage. For a ship that has just left a yard like Castellammare, a baseline gauging record reduces the uncertainty around future steel renewal decisions, because later readings can be compared against known starting values."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Castellammare di Stabia",
+    "p": "Jobs at Castellammare are tied to the yard's calendar rather than to the cargo season. We typically see baseline measurements near delivery, verification after repair or modification, and condition checks on older ships that pass through the bay. For each, we agree measurement points with the superintendent, coordinate access with the yard, and compile results in a form that can be filed with the ship's records and compared in future surveys.",
+    "list": [
+      "Baseline gauging of bottom shell, tank boundaries and main deck plating on a newly built ferry before delivery, recorded at fixed reference points",
+      "Verification gauging after steel renewal or reinforcement on a refit, confirming renewed plate meets specified thickness",
+      "Gauging of structure to be modified during a conversion, so designers work from measured values instead of drawing values",
+      "Alongside condition readings on a small ferry or workboat during lay-up at the local harbour quays",
+      "Owner's condition gauging on a second-hand ship at anchor in the Bay of Naples before a purchase is completed"
+    ]
+  },
+  "logistics": "Naples International Airport is the closest main gateway and Castellammare di Stabia is reached from it by road or by the regional Circumvesuviana rail line; Rome Fiumicino provides additional long-haul connections. Access to the yard is controlled and arranged through the owner or the yard's project office, while the agent handles access for commercial quays and arranges a launch for ships at anchor. The team comes from India and needs Schengen visas, so visa processing should be planned from the moment a yard schedule is confirmed.",
+  "vessels": [
+    "Newly built ferries and ro-pax ships",
+    "Naval and patrol vessels",
+    "Ships in refit or conversion",
+    "Local ferries and fast craft",
+    "Coasters and workboats",
+    "Yachts and leisure craft",
+    "Ships awaiting berth in the Bay of Naples"
+  ],
+  "faqs": [
+    {
+      "q": "Why gauge a new ship at Castellammare di Stabia?",
+      "a": "To record the as-built thickness at agreed points. That baseline lets the owner measure real metal loss at later surveys instead of relying on drawing values, and it is a record that exists independently of the builder's own inspection documents. It is most useful when taken just before delivery."
+    },
+    {
+      "q": "Can you work inside the shipyard at Castellammare?",
+      "a": "Yes, working as the owner's contractor within the yard's permit system. Access, induction and permits are arranged through the owner or the yard's project team, and we sequence the gauging with the planner so that enclosed-space entry does not conflict with trades working in the same tanks."
+    },
+    {
+      "q": "Is there a drydock at Castellammare for a docking survey?",
+      "a": "The yard has its own facilities, but they serve its building and repair programme. Ships on merchant trades generally dock at Naples or Palermo. We can take pre-docking readings at Castellammare or at anchor in the bay, then follow the ship into dock using the same measurement points."
+    },
+    {
+      "q": "Can you gauge ships at anchor in the Bay of Naples?",
+      "a": "Yes, by launch, when the weather is suitable and the crew has prepared tanks and ensured they are gas-free. It suits pre-purchase and owner's condition work. For surveys tied to a class record we usually recommend gauging alongside or in dock, and we confirm the purpose first."
+    }
+  ],
+  "nearby": [
+    "naples",
+    "salerno",
+    "palermo",
+    "civitavecchia",
+    "gioia-tauro"
+  ]
+}

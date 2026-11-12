@@ -1,0 +1,111 @@
+{
+  "slug": "scheveningen",
+  "name": "Scheveningen",
+  "country": "Netherlands",
+  "region": "europe",
+  "title": "UTM in Scheveningen | Trawler, Survey and Offshore Ship Gauging",
+  "description": "Thickness gauging in Scheveningen for pelagic trawlers, cutters, research and offshore vessels: hull, tank, deck and piping UTM in the fishing harbour.",
+  "h1": "Ultrasonic Thickness Measurement for Fishing, Research and Offshore Vessels in Scheveningen",
+  "intro": "Scheveningen is The Hague's harbour on the open North Sea coast, a working port for the Dutch fishing fleet and for offshore, research and government vessels. Large pelagic freezer trawlers, beam trawlers and cutters lie over here between trips, and survey and support ships use the quays between jobs offshore. Fishing vessels rarely have long, quiet periods, so gauging is fitted into the days between trips. Each Scheveningen job is carried out by technicians who travel from India to the vessel.",
+  "keywords": [
+    "thickness measurement scheveningen",
+    "utm scheveningen",
+    "trawler hull gauging",
+    "fishing vessel thickness measurement",
+    "pelagic trawler inspection",
+    "research vessel hull gauging",
+    "offshore support vessel gauging the hague",
+    "ship inspection scheveningen",
+    "fish hold steel inspection",
+    "ultrasonic thickness measurement fishing vessels"
+  ],
+  "highlights": [
+    {
+      "h": "Freezer trawlers between trips",
+      "p": "Pelagic freezer trawlers spend weeks at sea and come back to port only briefly. The days alongside between trips are when shell plating, tanks and machinery-space piping can be gauged, planned around unloading, maintenance and crew changes."
+    },
+    {
+      "h": "Insulated holds, measured from outside",
+      "p": "Refrigerated fish holds are lined with insulation, so their steel is rarely visible from inside. Readings are taken from the adjacent tanks, the void spaces and the shell, and from the outside of the hull once the vessel is on a slipway or in dock."
+    },
+    {
+      "h": "Survey and support ships between charters",
+      "p": "Offshore survey, wind-farm support and research vessels use Scheveningen's quays between projects. A few days alongside allow deck, A-frame foundation, tank and piping gauging before a charterer's condition survey or the next working season begins."
+    }
+  ],
+  "port": {
+    "h": "Scheveningen: The Hague's harbour on the open coast",
+    "p": [
+      "Scheveningen's harbour lies on an exposed stretch of the Holland coast with no estuary or river to shelter it, and its entrance opens straight onto the North Sea. The port is run by the City of The Hague through its harbour company and operations centre, which manages vessel traffic by VHF. Inside, the harbour divides into three basins with distinct roles. The First Harbour serves commercial fishing, offshore and larger commercial vessels, the tugs and the lifeboat station. The Second Harbour holds the marina, charter boats and small-scale and sport fishing. The Third Harbour takes special vessels such as those of Rijkswaterstaat, research ships and larger sailing ships. Strong onshore winds raise a sea at the entrance, and harbour movements are timed with that in mind.",
+      "Fishing remains the backbone of the harbour, as it was of the village when its boats were still launched from the beach. The Dutch pelagic fleet, whose large freezer trawlers fish for herring, mackerel and other shoaling species across the North Atlantic and beyond, has long registered and based vessels at Scheveningen, and beam trawlers and smaller cutters working the southern North Sea use the harbour too. Around the First Harbour, fish processing, cold storage and marine engineering businesses support the fleet. Offshore activity has grown alongside: wind farms off the Holland coast, offshore test sites and the survey work they generate bring support and survey vessels into port between campaigns. Government vessels, research ships and visiting sail-training ships complete the mix of traffic using the three basins.",
+      "For gauging, the pattern of the fishing year matters more than the tide. Pelagic trawlers follow seasonal fisheries and come into port between trips, often for only a few days, and a planned maintenance period alongside is the best chance for a fuller programme. Beam trawlers and cutters make shorter trips and may be alongside at weekends. The tidal range on this coast is moderate and the basins are open to the tide, so gangways and ladders change angle through the day. Winter storms can keep the fleet in port, which gives time but can also close the entrance to movements for a while. Offshore vessels follow the construction and maintenance calendar of the wind farms, so their idle periods are most likely outside the summer working season."
+    ]
+  },
+  "facilities": {
+    "h": "Quays and docking options for Scheveningen vessels",
+    "p": [
+      "Gauging at Scheveningen is mostly done alongside. A trawler or offshore vessel lying at the quays of the First Harbour can be gauged in its tanks, voids, machinery spaces, decks and accessible structure, with the crew emptying and ventilating tanks in turn and the engine room giving access to sea-water piping and the sea chest areas from inside. Shell plating above the waterline can be reached from the quay or the deck; below it, readings are taken from inside the hull where the structure allows. Insulated fish holds and freezer spaces limit internal access, so readings concentrate on the tanks and voids that border them.",
+      "For a full hull programme with the bottom exposed, vessels based here generally go to a dock or slipway elsewhere. The repair yards of the Rotterdam area, including Schiedam, are close by, and fishing and offshore owners also use repair facilities at IJmuiden and Den Helder and yards in Belgium and Germany. A scope split between Scheveningen and the docking yard works well: internal readings during a stay alongside, and external bottom readings once the vessel is out of the water. Owners of trawlers that land their catch abroad and return to Scheveningen only for maintenance should tell us their lay-over dates early, as these are the realistic windows."
+    ],
+    "list": [
+      "First Harbour fishing quays — tank, void, deck and engine-room piping gauging on pelagic trawlers and cutters between trips.",
+      "First Harbour offshore berths — deck, crane and A-frame foundation, tank and piping readings on survey and support vessels between projects.",
+      "Third Harbour — gauging on research and government vessels during maintenance periods alongside.",
+      "Lay-over berths used during maintenance periods — longer owner's condition and pre-purchase surveys on idle vessels.",
+      "Docks and slipways in the Rotterdam area and along the coast — external bottom readings to complete a programme started alongside."
+    ]
+  },
+  "context": {
+    "h": "Fishing-vessel safety rules, port state control and offshore charters",
+    "p": [
+      "Large fishing vessels sit under a different safety regime from cargo ships. Dutch-flagged fishing vessels of 24 metres and over follow the EU safety rules for fishing vessels, with surveys by the flag administration or a recognised organisation acting for it, and many of the big pelagic trawlers are also classed. Paris MoU port state control is aimed at the merchant ships that use the harbour, such as offshore and survey vessels under foreign flags, rather than at the fishing fleet. For trawler owners, the reasons to gauge are therefore class and flag surveys, insurers' expectations and the resale value of a vessel whose hull has spent years in hard service.",
+      "Offshore vessels answer to a different audience. Charterers in the wind and survey markets inspect vessels before and during contracts, often under industry schemes such as OVID, and they look for evidence of structural condition around cranes, A-frames and deck equipment foundations, where loads concentrate. EU rules apply to the merchant vessels among them in the usual way, including the Inventory of Hazardous Materials for ships calling at EU ports; fishing vessels sit outside the EU ETS for shipping, and many offshore vessels fall below its thresholds. A record of thickness readings kept up to date between dockings answers a charterer's questions faster than a promise to check at the next yard visit."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs that suit Scheveningen's fleet",
+    "p": "Jobs in Scheveningen are compact and timed to the vessel's working pattern. For a trawler the superintendent usually wants the tanks, voids and piping that a maintenance period makes accessible, with particular attention to areas next to the refrigerated holds, where condensation and insulation hide corrosion. For an offshore vessel the focus is often on deck equipment foundations and the structure that carries them. Where a docking is planned, readings taken alongside are prepared so the docking yard can complete the external programme without repeating work, and with a clear list of what could not be reached. Typical scopes at this harbour include:",
+    "list": [
+      "A pelagic freezer trawler during a maintenance stop: fuel and ballast tank structure, voids bordering the fish holds and engine-room sea-water piping gauged.",
+      "A beam trawler at a weekend lay-over: deck plating and derrick foundations measured, with dye penetrant checks at the foundation welds.",
+      "An offshore survey vessel between projects: A-frame and crane foundations gauged with magnetic particle testing at the welds, plus tank and deck readings.",
+      "A research vessel in the Third Harbour: ballast and fuel tanks and accessible shell plating gauged during a maintenance period, ahead of its next docking.",
+      "Pre-purchase gauging of a second-hand cutter or trawler, covering shell, tanks, decks and accessible hold structure before the sale."
+    ]
+  },
+  "logistics": "Amsterdam Schiphol and Rotterdam The Hague Airport are the nearest airports, and from Den Haag Centraal the harbour is reached by tram or road. The harbour company controls movements and the quays, and the vessel's agent or owner arranges the team's access to the berth. Technicians are mobilised from India on Schengen visas, so lay-over dates should be shared as soon as the fishing or charter plan allows; a trawler's return can move with the catch, and we keep travel flexible around the owner's latest estimate.",
+  "vessels": [
+    "Pelagic freezer trawlers",
+    "Beam trawlers and cutters",
+    "Offshore survey vessels",
+    "Wind-farm support vessels",
+    "Research and government vessels",
+    "Tugs",
+    "Sail-training and traditional ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can a freezer trawler be gauged without stripping hold insulation?",
+      "a": "Largely, yes. The steel behind fish-hold insulation is reached from the other side: the shell from outside when the vessel is docked, and the double bottom, wing tanks and voids that border the holds from inside. Where the owner suspects corrosion under insulation at a particular frame, a small section can be opened during maintenance and gauged directly, which is planned with the owner in advance."
+    },
+    {
+      "q": "Is there a drydock at Scheveningen?",
+      "a": "Scheveningen is not where vessels go for a large docking. Fishing and offshore owners take their vessels to yards in the Rotterdam area, to other Dutch coastal ports or abroad. We gauge what is accessible while the vessel lies alongside at Scheveningen and complete the external bottom readings at the docking yard, so the owner receives one report covering both."
+    },
+    {
+      "q": "How much notice does a trawler job need?",
+      "a": "As much as the fishing plan allows. Visas for the team are applied for once a lay-over window is in sight, and the final travel date follows the owner's estimate of the vessel's return. Trips can be extended or shortened by catches and weather, so we stay in touch with the owner during the last days of the trip and adjust the team's arrival accordingly."
+    },
+    {
+      "q": "Can A-frame and crane foundations be checked for cracks as well as gauged?",
+      "a": "Yes. On survey and support vessels the foundations of A-frames, cranes and winches take repeated dynamic loads, and fatigue cracks at the welds are a bigger concern than general corrosion. Magnetic particle testing at those welds is done together with thickness readings of the foundation plating and the deck below, and the results are reported with photographs and locations."
+    },
+    {
+      "q": "Does winter weather affect work in Scheveningen harbour?",
+      "a": "Inside the basins, work alongside continues in most weather, and storms that keep the fleet in port can even create time for gauging. What weather does affect is movement: vessels entering or leaving, and any plan that depends on a vessel shifting to another berth. Deck and external work stops in heavy rain or high wind for safety and reading quality, while tank and engine-room work carries on."
+    }
+  ],
+  "nearby": ["schiedam", "rotterdam", "amsterdam", "den-helder", "dordrecht"]
+}

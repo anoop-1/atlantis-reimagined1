@@ -1,0 +1,121 @@
+{
+  "slug": "poland",
+  "navLabel": "Poland",
+  "title": "Ship Thickness Measurement in Poland | UTM at Polish Ports",
+  "description": "Ship ultrasonic thickness measurement in Poland: UTM and hull gauging at Gdańsk, Gdynia, Szczecin and Police for tanker, bulk and container ship operators.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Poland",
+  "eyebrow": "Maritime inspection · Poland",
+  "intro": "Poland's Baltic coast is home to some of the busiest ports in the region and a long tradition of shipbuilding and repair. Gdańsk takes deep-draught container ships and tankers, Gdynia handles containers, ro-ro and ferries, Szczecin on the Oder serves bulk and general cargo, and Police to the north-west of Szczecin handles chemicals and bulk. Our ultrasonic thickness measurement here covers steel estimates before docking, tank and piping readings, scrubber lines and condition checks for buyers and charterers. The team travels from India for each job, scheduled around the ship's call and any repair slot.",
+  "highlights": [
+    {
+      "h": "Repair yards on the Baltic",
+      "p": "Gdańsk has one of the region's best-known ship repair yards, so owners of tankers, bulk carriers and offshore units gauge the steel at a berth first and agree the renewal list before the ship goes in."
+    },
+    {
+      "h": "Deep-water container and tanker berths",
+      "p": "Gdańsk's northern port receives large container ships and tankers. Gauging at the berth during cargo gaps or in the repair period gives a measured picture of hull and tank condition."
+    },
+    {
+      "h": "Baltic emission rules apply",
+      "p": "Polish waters lie in the Baltic Sulphur Emission Control Area, so many ships run scrubbers, and wash-water and overboard piping is a regular gauging request."
+    }
+  ],
+  "sections": [
+    {
+      "id": "pl-ports",
+      "h": "Where ships are gauged in Poland",
+      "p": [
+        "Gdańsk is the country's largest port. The northern port takes the deep-draught traffic, with a large container terminal, crude and product handling and dry bulk, while the inner port and canal serve general cargo, ro-ro, grain and the ferry link to Sweden. Gdańsk also has shipbuilding and repair yards, which makes it the natural place to gauge ships before a docking, as the readings can be handed to the yard when the ship arrives.",
+        "Gdynia, a few kilometres up the coast, is a container, ro-ro and ferry port with regular services across the Baltic and to Scandinavia, and a base for naval and offshore traffic. Szczecin lies up the Oder estuary with Świnoujście at its mouth, and handles bulk, general cargo, steel and ferries; its yards build and repair smaller ships. Police, close to Szczecin, specialises in chemicals and bulk and is linked to the nearby chemical industry."
+      ]
+    },
+    {
+      "id": "pl-fleets",
+      "h": "The traffic behind the work",
+      "p": [
+        "The fleets include large container ships on transhipment services, product and chemical tankers, dry bulk carriers, ro-ro and ro-pax ships, and short-sea cargo ships. Gdańsk and Gdynia see regular deep-sea and feeder container calls, while Szczecin and Police see more bulk and general cargo. Ferries on the Baltic routes call frequently and are overhauled in the quieter seasons.",
+        "A large share of the work is on ageing tonnage. Polish yards repair a wide range of ships, so owners often plan a docking and ask for gauging beforehand to size the steel work. Charterers and buyers ask for measured condition checks on second-hand ships, particularly bulk carriers and short-sea cargo ships trading in the Baltic and North Sea."
+      ]
+    },
+    {
+      "id": "pl-regime",
+      "h": "Port state control and rules",
+      "p": [
+        "Port state control in Poland is carried out by the maritime offices at the main ports, and the country is a member of the Paris Memorandum of Understanding. Inspectors use the common risk-based targeting, and older ships with visible hull wastage are likely to be inspected closely. As an EU state, Poland applies the EU Ship Recycling Regulation, so a hazardous materials inventory is a standing requirement for ships under European flags.",
+        "Polish waters are part of the Baltic Sulphur Emission Control Area, so fuel sulphur is held to 0.10% unless an exhaust gas cleaning system is fitted. Scrubber ships call at Gdańsk and Gdynia, and the wash-water and overboard pipework they carry wears faster than most systems aboard. Ships that also trade into the northern Baltic may be built to Finnish-Swedish ice class rules, which sets the plating expected in their ice belt."
+      ]
+    },
+    {
+      "id": "pl-practical",
+      "h": "Weather and practical constraints",
+      "p": [
+        "Winters on the Polish coast are milder than in the northern Baltic, but cold, wind and short days still shape open-deck work, and the Oder estuary can carry ice in severe winters. Equipment and couplant are kept warm, and decks and tanks are brought to a workable temperature. Summer sees ferry and cruise peaks, with berths tighter at Gdynia and Gdańsk.",
+        "Port security is strict at container, energy and chemical terminals, with registration, protective equipment and permits required before boarding. Repair yards have their own access and hot-work controls, and gauging in a dock is arranged with the yard so that it does not conflict with other trades working on the ship."
+      ]
+    },
+    {
+      "id": "pl-planning",
+      "h": "Planning a job from India",
+      "p": [
+        "Poland sits inside Schengen, so a Schengen visa of the right category covers entry; we decide which applies when the ship's call is confirmed. The ship's agent obtains the berth, shore pass, port registration and the safety briefing, and passes on what the gangway, lighting and shore power are like.",
+        "Before tanks are opened, the ship confirms gas-free status and a rescue plan under its safety management system. The brief for each job lists the thickness measurement plan, the frames and strakes in scope, the piping to be measured and the report format the owner or yard needs, so readings can go straight into the repair specification.",
+        "Where a ship is booked into a yard, the gauging programme is usually split in two. The first part, at a berth before docking, covers hull, tanks and piping that can be reached afloat; the second, once the ship is in dock, covers bottom plating, rudder and sea chests that can only be reached when the water is out. Splitting the work this way keeps the dock period short, because the yard receives most of the renewal list before the ship arrives.",
+        "Szczecin and Police are reached by a long river passage, so a ship's arrival time depends on pilotage and river conditions. We keep the programme flexible and confirm the berth with the ship's agent shortly before the team travels, so that no one is mobilised for a call that has moved."
+      ]
+    },
+    {
+      "id": "pl-services",
+      "h": "Which services are asked for here",
+      "p": [
+        "Pre-docking ultrasonic thickness measurement is the most common request, producing a steel renewal estimate that the yard can plan around. Tanker and bulk carrier owners ask for tank and bottom plating readings tied to the survey cycle, and ferry operators ask for car-deck and ramp area checks.",
+        "Scrubber-fitted ships have their wash-water lines measured between dockings. Buyers and charterers ask for condition checks on second-hand tonnage, and where wastage is widespread the report compares it with the allowance and recommends where closer examination or renewal is needed."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements for tankers and bulk carriers",
+    "Paris Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14: sulphur limits and the Baltic Sea Emission Control Area",
+    "EU Ship Recycling Regulation and the inventory of hazardous materials",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates marked for renewal, ready for the yard's specification",
+    "Tank wall and bottom plating readings located on the tank plan",
+    "Piping and scrubber line condition report by spool and joint",
+    "Preliminary readings shared during the job on request"
+  ],
+  "industries": [
+    "Container ships",
+    "Crude, product and chemical tankers",
+    "Dry bulk carriers",
+    "Ro-ro ships and ferries",
+    "Short-sea cargo ships",
+    "Offshore units",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which Polish ports do you cover for ship thickness measurement?",
+      "a": "Gdańsk, Gdynia, Szczecin and Police each have a page. The work is carried out on the vessel, so a ship calling at Świnoujście or another Polish harbour can usually be planned too, depending on the berth, access arrangements and the time available during the call."
+    },
+    {
+      "q": "Do I need a Schengen visa to work on a ship in Poland?",
+      "a": "Because Poland is a Schengen state, a Schengen visa of the right category covers entry. We confirm which category fits the job when the call is known, and the programme is timed around the visa, while shore passes and port access come through the ship's agent."
+    },
+    {
+      "q": "Can gauging be done before a ship goes to a Polish repair yard?",
+      "a": "Yes, and it is the usual approach. Readings at a berth before docking give the superintendent a measured steel renewal estimate, so the yard can quote and plan from figures rather than allowances. Tank readings need gas-free conditions, which the ship arranges before the team boards."
+    },
+    {
+      "q": "Are scrubbers common on ships calling in Poland?",
+      "a": "Yes, on larger ships, because the Baltic is a Sulphur Emission Control Area with a 0.10% fuel limit. Exhaust gas cleaning systems let a ship keep burning higher-sulphur fuel, and their wash-water and overboard piping is gauged between dockings to find wall loss before it leaks."
+    },
+    {
+      "q": "What does the report look like?",
+      "a": "Every reading is set against the ship's thickness measurement plan, showing as-built thickness, measured thickness and diminution by frame and strake. A steel renewal estimate follows, so owner and yard can settle quantities and docking days on measured figures."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "heysham",
+  "name": "Heysham",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Heysham Port UTM: Ro-Ro, Ferry and Offshore Vessel Gauging",
+  "description": "Thickness gauging at Heysham for freight ro-ro ships, the Isle of Man ro-pax and offshore support vessels: trailer decks, ramps, ballast tanks and piping.",
+  "h1": "Ultrasonic Thickness Measurement for Ferries and Offshore Vessels at Heysham",
+  "intro": "Heysham, on the edge of Morecambe Bay in Lancashire, is a ferry and freight port linking north-west England with Northern Ireland, the Republic of Ireland and the Isle of Man. Freight ro-ro ships and the Isle of Man ro-pax run to fixed schedules, and offshore vessels have long used the harbour for work in the bay. That regularity makes planned gauging possible even when stays are short. Atlantis flies its technicians in from India for each job, and they board at the berth through the operator or the ship's agent.",
+  "keywords": [
+    "heysham port thickness gauging",
+    "ro-ro ferry vehicle deck gauging",
+    "ultrasonic thickness measurement heysham",
+    "offshore support vessel inspection",
+    "freight ferry ramp inspection",
+    "utm heysham",
+    "isle of man ferry inspection",
+    "morecambe bay ship inspection",
+    "stern ramp hinge mpi",
+    "ballast tank gauging ro-ro"
+  ],
+  "highlights": [
+    {
+      "h": "Freight ferries on fixed rotations",
+      "p": "Stena Line and CLdN run freight ro-ro services from Heysham across the Irish Sea, and the Isle of Man Steam Packet Company sails to Douglas. The same ships return on predictable rotations, so a vehicle deck and tank programme can be built up over several calls."
+    },
+    {
+      "h": "Offshore energy on the doorstep",
+      "p": "The harbour has a long history as a supply base for the gas fields in Morecambe Bay, and offshore support and survey vessels still come and go. Between charters these vessels lie alongside long enough for hull, tank and deck-machinery checks."
+    },
+    {
+      "h": "New ships beside older fleets",
+      "p": "Stena Line has been bringing new hybrid freight ferries onto its Heysham service, while other ships on Irish Sea routes are well into their second or third renewal cycle. For the older ships, readings on trailer decks, ramps and tanks decide how much steel the next refit must include."
+    }
+  ],
+  "port": {
+    "h": "Heysham: a ferry harbour on Morecambe Bay",
+    "p": [
+      "Heysham Port lies on the southern shore of Morecambe Bay, just west of Morecambe and a short drive from Lancaster, beside the two Heysham nuclear power stations. A railway company built the harbour in the early twentieth century as a packet port for Ireland, and it remains an artificial harbour enclosed by breakwaters, with ro-ro linkspans and quays inside. Peel Ports owns and runs it. Morecambe Bay holds the largest expanse of intertidal sand and mud in Britain, with channels that shift and a large tidal range, so ships keep to the buoyed approach and the harbour's own channel. The Irish Sea to the west brings frequent gales in autumn and winter, which can delay sailings and squeeze the time a ship spends alongside.",
+      "Freight is the core of the business. Unaccompanied trailers move between Heysham and ports across the Irish Sea on ro-ro ships run by Stena Line and CLdN, and the Isle of Man Steam Packet Company carries passengers, cars and freight to Douglas. Peel Ports began an upgrade of the trailer park and gate systems in 2025 to handle growing volumes. Offshore vessels also use the harbour: it has served the Morecambe Bay gas fields for decades, and support, survey and standby vessels for offshore energy work come and go. The ships calling are therefore mostly freight ro-ro ships and a ro-pax ferry, with offshore support vessels, workboats and an occasional coaster or project cargo ship making up the remainder of the traffic through the harbour.",
+      "Stays alongside are short for the ferries, often a few hours between arrival and departure, with longer gaps at weekends or overnight on some rotations. Offshore vessels behave differently: between contracts they may lie in the harbour for days or weeks, which suits fuller condition surveys. Because the harbour is enclosed by breakwaters, ships lie sheltered once inside, and the weather mainly decides whether a ship arrives on time. A superintendent planning a Heysham job therefore works from the rotation plan, chooses calls where the ship is due to lie longer, and books the team for those windows, with a second visit if the scope will not fit into one. The linkspans rise and fall with the tide, so ramp work is timed with the crew."
+    ]
+  },
+  "facilities": {
+    "h": "Berths at Heysham where gauging is realistic",
+    "p": [
+      "On freight ro-ro ships, the main deck and lower holds are gauged when empty of trailers, which in practice means the period between discharge and the start of loading. Deck plating along trailer lanes, around lashing points and at the ramp landing wears fastest, and ramp structure, hinge areas and the stern door frame are common items for both thickness and crack checks. Ballast tanks and engine-room piping are prepared by the crew in advance and gauged at any convenient point in the call. On the Isle of Man ro-pax, the work concentrates on vehicle decks, tanks and the hull structure behind them, away from passenger areas.",
+      "Offshore support vessels lying at Heysham between contracts give the longest windows. Tanks for fuel, water, drilling mud and brine, deck plating under cargo areas, crane and A-frame foundations, and sea-water and fire-main piping are typical scope. The harbour has no drydock for vessels of this size, so dockings take place at yards on the Mersey, in Northern Ireland, in Scotland or elsewhere, and Heysham is where the steel list is prepared. Work at the berths is through the port's security, with the operator or agent arranging access."
+    ],
+    "list": [
+      "Freight ro-ro berths — trailer deck, ramp landing and lashing-point gauging between discharge and loading.",
+      "Isle of Man ferry berth — vehicle deck, ballast tank and piping checks on the Douglas ro-pax during layovers.",
+      "Ramps and stern doors — MPI on hinges, locking devices and frame welds while out of use.",
+      "Offshore vessel quays — tank, deck and crane-foundation gauging on support vessels between contracts.",
+      "Lay-by berths inside the harbour — longer condition surveys on vessels waiting for work."
+    ]
+  },
+  "context": {
+    "h": "Port state control and emissions rules on Heysham's routes",
+    "p": [
+      "Port state control at Heysham is carried out by the Maritime and Coastguard Agency, which follows Paris MoU procedures under UK law. Ro-ro ships are inspected not only for structure but for the integrity of doors, ramps and vehicle decks, and passenger ships attract particular attention. Freight ro-ro ships on the Irish routes run hard, with many sailings a week, and deck plating, ramp structure and ballast tank boundaries are where wear shows first. Ships calling here are also expected to carry an Inventory of Hazardous Materials under the ship recycling rules the UK kept from EU law.",
+      "The routes from Heysham fall under different emissions regimes. Any sailing to Dublin counts as a voyage between a non-EU and an EU port, so half of its emissions fall under the EU Emissions Trading System for ships of 5,000 gross tonnage and above, while sailings to Northern Ireland and to the Isle of Man are outside it. That difference shapes fleet deployment and replacement decisions on the Irish Sea. The Isle of Man is a Crown Dependency with its own ship registry, and some ships calling at Heysham fly its flag, which brings Manx flag-state surveys alongside class."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Thickness gauging jobs typical of Heysham",
+    "p": "Heysham jobs fall into two groups. Ferry and freight ro-ro work is built around the rotation plan: a superintendent identifies which calls have longer layovers, and we divide the vehicle deck, ramp, tank and piping scope into packages to fit them. Offshore vessel work is built around contracts: when a vessel is between jobs in the harbour, a fuller condition survey can be done in one visit. In both cases the scope is agreed in advance with the operator, and every reading is tied to the ship's frame numbers so it can be compared from one year to the next.",
+    "list": [
+      "Trailer deck and ramp landing gauging on a freight ro-ro ship, split across several Heysham calls.",
+      "Pre-refit ballast tank and sea-water piping UT on the Isle of Man ro-pax.",
+      "MPI on stern ramp hinges and door locking devices during an extended layover.",
+      "Condition survey of an offshore support vessel between contracts: tanks, cargo deck, crane foundations and piping.",
+      "Scrubber piping checks on a ro-ro ship fitted with an exhaust gas cleaning system."
+    ]
+  },
+  "logistics": "Manchester Airport is the nearest major international gateway, and from there the team travels by rail to Lancaster and on by road to the harbour. Flights from India reach Manchester through a European or Gulf hub. Technicians travel on UK visas, so we apply as soon as a job looks likely. Port access is controlled; the ferry operator or the ship's agent arranges passes and confirms which berth and which calls the team will use, and for offshore vessels the operator's shore base confirms when the vessel will be alongside.",
+  "vessels": [
+    "Freight ro-ro ships",
+    "Ro-pax ferries",
+    "Offshore support vessels",
+    "Survey and standby vessels",
+    "Workboats",
+    "Coasters and project cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can a freight ro-ro ship be gauged during a normal Heysham call?",
+      "a": "Partly. Between discharge and loading the trailer decks are clear, and that window is used for deck plating, lashing-point areas and the ramp landing. Tanks and piping prepared by the crew can be done at any point in the call. For a full programme we use several calls, choosing those with longer layovers on the rotation, so that no departure is delayed."
+    },
+    {
+      "q": "Do you gauge offshore support vessels at Heysham?",
+      "a": "Yes, usually when they are between contracts and lying in the harbour. Typical scope covers fuel, water, mud and brine tanks, cargo deck plating, crane and A-frame foundations, and sea-water and fire-main piping, with MPI on lifting equipment foundations where cracking is suspected. A vessel between jobs often has time for a complete condition survey in a single visit."
+    },
+    {
+      "q": "Is there anywhere to drydock a ship at Heysham?",
+      "a": "No. Ferries, ro-ro ships and offshore vessels from Heysham go to yards elsewhere for docking surveys and refits. We gauge in the harbour beforehand, so the operator can send the yard a steel and pipe renewal list and estimate the length of the docking more accurately, instead of finding the extent of the work once the ship is already in the dock."
+    },
+    {
+      "q": "Does the Morecambe Bay tide affect work at Heysham?",
+      "a": "Mostly through arrival times. The water in the harbour rises and falls with the tide, and the linkspans adjust for it, but ships lie sheltered behind the breakwaters and work on board carries on. The tide and weather in the bay affect pilotage, and Irish Sea gales can delay sailings, so we keep the scope flexible: a late arrival shortens the first package rather than the whole job."
+    }
+  ],
+  "nearby": ["fleetwood", "barrow-in-furness", "liverpool", "belfast", "warrenpoint", "dublin"]
+}

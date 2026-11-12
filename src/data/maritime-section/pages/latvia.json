@@ -1,0 +1,121 @@
+{
+  "slug": "latvia",
+  "navLabel": "Latvia",
+  "title": "Ship Thickness Measurement in Latvia | UTM at Latvian Ports",
+  "description": "Ship ultrasonic thickness measurement in Latvia: UTM and hull gauging at Riga, Ventspils and Liepāja for tanker, bulk, timber and short-sea ship operators.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Latvia",
+  "eyebrow": "Maritime inspection · Latvia",
+  "intro": "Latvia has three ice-free-in-most-winters ports that carry its sea trade: Riga on the Daugava river, Ventspils on the Baltic coast with its oil and bulk terminals, and Liepāja in the south-west with its general cargo and industrial zone. Tankers, bulk carriers, timber ships, container feeders and short-sea cargo vessels all call, along with ferries and cruise ships in season. Our ultrasonic thickness measurement work here covers steel estimates before docking, tank and piping readings, scrubber lines and condition checks for buyers and charterers. The team travels from India for each job, scheduled around the ship's call.",
+  "highlights": [
+    {
+      "h": "Oil and bulk terminals at Ventspils",
+      "p": "Ventspils takes crude and product tankers and dry bulk carriers. Gauging at a berth, after tank cleaning and gas-free certification, gives owners of older tonnage a measured view of tank walls and bottom plating."
+    },
+    {
+      "h": "A river port at Riga",
+      "p": "Ships reach Riga along the Daugava, so many cargo ships are berthed against quays in the city. Short stays during loading windows are the usual moment for hull and deck readings."
+    },
+    {
+      "h": "Baltic emission rules apply",
+      "p": "Latvian waters are in the Baltic Sulphur Emission Control Area, so ships calling here burn low-sulphur fuel or run scrubbers, and wash-water piping is a common gauging request."
+    }
+  ],
+  "sections": [
+    {
+      "id": "lv-ports",
+      "h": "Where ships are gauged in Latvia",
+      "p": [
+        "Riga is the largest port by traffic and handles timber and wood products, grain, containers, general cargo and liquid bulk, with terminals along both banks of the Daugava. Ships range from short-sea cargo vessels to larger bulk carriers, and the river location means many are berthed in a calm, sheltered setting that suits careful measurement. A cruise terminal near the centre receives visiting ships through the summer.",
+        "Ventspils, on the open Baltic coast, is the country's principal energy and bulk port, with oil terminals, dry bulk, fertiliser and agricultural cargoes. Liepāja, to the south, handles general cargo, timber, grain and metals, and has a repair and ship service tradition linked to its industrial zone. Both ports can take larger ships than the river allows, so deep-draught tankers and bulk carriers are gauged there."
+      ]
+    },
+    {
+      "id": "lv-fleets",
+      "h": "Who asks for gauging in Latvia",
+      "p": [
+        "Ship managers with older tankers, bulk carriers and short-sea cargo ships form the core. The Baltic trades attract many ageing hulls, because short-sea voyages and ice-class service keep older tonnage in work for years. Owners want to know the state of tanks and bottom plating before a docking or sale, and charterers want measured evidence before an on-hire.",
+        "Timber and grain ships at Riga and Liepāja load heavy cargo that stresses hatch coamings and deck plating, so deck readings are a regular part of the scope. Ferries and ro-pax ships on the Baltic routes are also gauged between sailings when the master and terminal agree, particularly for car-deck and ramp areas."
+      ]
+    },
+    {
+      "id": "lv-regime",
+      "h": "Port state control and rules",
+      "p": [
+        "Port state control in Latvia is carried out by the national maritime administration, and the country is a member of the Paris Memorandum of Understanding. Inspectors use the common risk-based targeting, and older ships with signs of hull wastage are likely to be examined closely. As an EU state, Latvia applies the EU Ship Recycling Regulation, so a hazardous materials inventory is a standing requirement for ships under European flags.",
+        "Latvia's whole coast falls in the Baltic Sulphur Emission Control Area, where fuel is limited to 0.10% sulphur unless a scrubber is fitted. Scrubber ships call at Riga and Ventspils, and the wash-water and overboard lines they run are among the quicker-wearing pipes aboard. Finnish-Swedish ice class rules are widely used by ships in these trades, which sets the plating thickness expected in the ice belt."
+      ]
+    },
+    {
+      "id": "lv-winter",
+      "h": "Ice, winter and practical constraints",
+      "p": [
+        "The Gulf of Riga can freeze, and ice affects Riga and sometimes Ventspils and Liepāja in cold winters, with icebreaker assistance arranged where needed. Cold also affects the work: gauges and couplant behave differently at low temperatures, so spaces are brought to a workable temperature and calibration is checked frequently.",
+        "Daylight is short in midwinter, so open-deck work is planned for the hours available and lighting is checked in advance. Summer brings the cruise season and some ferry peaks, but berth congestion is generally lighter than in larger Baltic ports, which makes scheduling simpler for working ships."
+      ]
+    },
+    {
+      "id": "lv-planning",
+      "h": "Planning a job from India",
+      "p": [
+        "Latvia lies within Schengen, so the right category of Schengen visa covers entry; we work out which applies once the call is confirmed. Berth, shore pass, port security registration and the safety briefing are arranged through the ship's agent, who also tells us about the gangway, lighting and power on deck.",
+        "Ventspils has strict security at its oil terminals, with permits, protective equipment and escort rules that differ by operator. Tank entry depends on the master's gas-free confirmation and a rescue plan agreed with the ship. Each brief names the thickness measurement plan, the frames and strakes to be gauged and the reporting format required.",
+        "Riga rewards early planning because the river channel and quay allocation decide when a ship can be reached. Where a timber ship loads in stages, readings on deck and in empty holds are taken between loading shifts and the report records which spaces were covered. At Liepāja and Ventspils the same approach applies to bulk carriers waiting for cargo: the waiting period is used for gauging, with the terminal's agreement, so that no extra port call is needed.",
+        "Ships under long-term charter often ask for the same set of readings on every visit, which lets the owner see wastage trends from one survey to the next. We keep each report in a consistent format, with the same reference points, so that readings from successive calls can be laid side by side. That comparison is more useful to a technical manager than a single figure. Where a ship changes hands, the same record gives the buyer a documented starting point."
+      ]
+    },
+    {
+      "id": "lv-services",
+      "h": "Which services are asked for here",
+      "p": [
+        "Ultrasonic thickness measurement of tanks, bottom plating and the ice belt is the usual request, along with pre-docking gauging that produces a steel renewal estimate. Bulk and timber ship owners ask for hatch coaming and deck readings, and tanker owners ask for tank wall readings tied to the survey cycle.",
+        "Scrubber-fitted ships have their wash-water lines measured between dockings. Buyers and charterers ask for condition checks on second-hand Baltic tonnage, and where wastage is widespread the report compares it with the allowance and recommends where renewal or closer examination is needed."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements for tankers and bulk carriers",
+    "Paris Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14: sulphur limits and the Baltic Sea Emission Control Area",
+    "EU Ship Recycling Regulation and the inventory of hazardous materials",
+    "Finnish-Swedish ice class rules and the ice-belt plating they require"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's plan: as-built, measured and diminution at every point",
+    "Tank wall and bottom plating readings located on the tank plan",
+    "Steel renewal estimate with plates marked for renewal",
+    "Piping and scrubber line condition report by spool and joint",
+    "Preliminary readings shared during the job on request"
+  ],
+  "industries": [
+    "Crude and product tankers",
+    "Dry bulk carriers",
+    "Timber and grain ships",
+    "Container feeder ships",
+    "Short-sea cargo ships",
+    "Ferries and ro-pax ships",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which Latvian ports do you cover for ship thickness measurement?",
+      "a": "Riga, Ventspils and Liepāja each have a page. The work is carried out on the vessel, so a ship calling at another Latvian harbour can usually be planned too, depending on the berth, access arrangements and the time available during the call."
+    },
+    {
+      "q": "Do I need a Schengen visa to work on a ship in Latvia?",
+      "a": "As a Schengen state, Latvia accepts a Schengen visa of the right category for entry. We confirm the category when the call is known and arrange the programme around the visa timetable, while the ship's agent obtains the shore pass and port access."
+    },
+    {
+      "q": "Can tanks at Ventspils be gauged?",
+      "a": "Yes, once they are cleaned, ventilated and certified gas-free, and the terminal and master agree. Tank readings are normally planned for a lay-by or repair period rather than during cargo operations. Readings are located on the tank plan and reported against as-built thickness."
+    },
+    {
+      "q": "Why are older ships common in Baltic trades?",
+      "a": "Short-sea voyages, regular loops and ice-class service keep older tonnage working for years, so many Baltic ships have decades of wear. That makes thickness measurement a practical tool for owners deciding between repair, extended service or sale, and for buyers checking steel before purchase."
+    },
+    {
+      "q": "Does winter stop the work?",
+      "a": "Not usually, but it changes how it is done. Equipment and couplant are kept warm, spaces are brought to a workable temperature and daylight is limited, so the programme is planned for the hours available. Ice can delay a ship's arrival, so the agent keeps us informed of changes to the schedule."
+    }
+  ]
+}

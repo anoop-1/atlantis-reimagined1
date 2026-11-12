@@ -96,7 +96,7 @@ const meth = (k, kind) => {
 };
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime-inspection|3d-scanning|press|careers$|sitemap|embed)/;
+const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime($|\/)|3d-scanning|press|careers$|sitemap|embed)/;
 
 // Specialist inspection services, matched before the generic method service page.
 const SERVICES = [
@@ -130,12 +130,12 @@ export function intentRouteFor(rawPath) {
 const CITY_HUBS = { houston: "Houston", calgary: "Calgary", phoenix: "Phoenix", huntsville: "Huntsville" };
 
 const MARITIME_PAGE = /ship|hull|marine|maritime|fpso|scrubber|ballast|drydock|naval|jackup|semisub|suez/;
-const MARITIME_SKIP = /^\/maritime-inspection|erp|software|digital-twin|training|consult|salary|apprentic|financing|roi-|tco|level-iii|pressure-vessel|cathodic|asnt-snt/;
+const MARITIME_SKIP = /^\/maritime($|\/)|erp|software|digital-twin|training|consult|salary|apprentic|financing|roi-|tco|level-iii|pressure-vessel|cathodic|asnt-snt/;
 const MARITIME_LINKS = [
-  ["/maritime-inspection/ultrasonic-thickness-measurement", "Ship ultrasonic thickness measurement (UTM)"],
-  ["/maritime-inspection/netherlands", "Ship thickness measurement in the Netherlands: Rotterdam, Amsterdam, Vlissingen"],
-  ["/maritime-inspection/belgium", "Ship thickness measurement in Belgium: Antwerp, Zeebrugge, Ghent"],
-  ["/maritime-inspection", "All maritime inspection services and ports"],
+  ["/maritime/ultrasonic-thickness-measurement", "Ship ultrasonic thickness measurement (UTM)"],
+  ["/maritime/netherlands", "Ship thickness measurement in the Netherlands: Rotterdam, Amsterdam, Vlissingen"],
+  ["/maritime/belgium", "Ship thickness measurement in Belgium: Antwerp, Zeebrugge, Ghent"],
+  ["/maritime", "All maritime inspection services and ports"],
 ];
 
 function ruleFor(p) {

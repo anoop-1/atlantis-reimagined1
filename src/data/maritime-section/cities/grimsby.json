@@ -1,0 +1,113 @@
+{
+  "slug": "grimsby",
+  "name": "Grimsby",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Grimsby UTM and Crack Testing for Wind Farm Service Vessels",
+  "description": "Thickness gauging in Grimsby for crew transfer vessels, wind service ships, car carriers and coasters: aluminium hull UTM, dye penetrant and ramp checks.",
+  "h1": "Hull Gauging and Weld Inspection for Wind Farm and Cargo Vessels in Grimsby",
+  "intro": "Grimsby was once the largest fishing port in the world. Today its docks near the mouth of the Humber are a base for operating and maintaining offshore wind farms in the southern North Sea, with crew transfer vessels heading out to the turbines every workable day, alongside vehicle imports and a fish market that still trades. Atlantis flies a technician team from India for each job, to gauge and crack-test aluminium workboats, steel service vessels and the cargo ships that use the docks.",
+  "keywords": [
+    "grimsby utm",
+    "crew transfer vessel inspection",
+    "aluminium hull thickness gauging",
+    "ctv dye penetrant testing",
+    "wind farm vessel inspection grimsby",
+    "thickness measurement grimsby",
+    "car carrier ramp inspection",
+    "ship inspection humber estuary",
+    "offshore wind service vessel gauging",
+    "workboat condition survey"
+  ],
+  "highlights": [
+    {
+      "h": "Aluminium CTV hulls need different methods",
+      "p": "Most crew transfer vessels are aluminium catamarans. Thickness gauging aluminium needs the gauge set up on an aluminium reference block, and fatigue cracks at welds are found with dye penetrant, because magnetic particle testing cannot be used on a non-magnetic metal."
+    },
+    {
+      "h": "Wind farm operations base",
+      "p": "Ørsted's East Coast Hub and other wind operators' bases in the Royal Dock keep a large fleet of crew transfer vessels in Grimsby. Hulls slammed every day in short, steep North Sea seas develop fatigue cracking and impact damage that a periodic check finds early."
+    },
+    {
+      "h": "Vehicle imports over the ramps",
+      "p": "Car carriers bring imported vehicles to Grimsby's ro-ro berths. Stern ramp plating, hinge lugs and the car decks inside take repeated wheel loads, and they can be inspected during a discharge call once the vehicles are off."
+    }
+  ],
+  "port": {
+    "h": "Grimsby: from fishing port to wind farm service base",
+    "p": [
+      "Grimsby stands on the south bank of the Humber close to the estuary mouth, a short distance downstream of Immingham, and its port is run by Associated British Ports. The docks are enclosed and entered by lock, with the Royal Dock, the old fish docks and the cargo berths grouped around the tall Dock Tower that has marked the waterfront since the Victorian era. Being so near the mouth of the estuary gives Grimsby a short run out to sea, and that is the reason the offshore wind industry chose it: crew transfer vessels can reach the wind farms off the Yorkshire and Lincolnshire coasts and return within a working day, which a port further up the Humber could not offer as easily.",
+      "Through the middle of the twentieth century Grimsby's trawler fleet fished the North Sea, Iceland and the Arctic, and the town processed fish on an enormous scale. The distant-water fleet is gone, but the fish market still trades, largely on fish that now arrives by road and container rather than from home-port trawlers, and a small number of fishing vessels still work from the docks. The wind industry has replaced much of that maritime activity: operators' maintenance bases line the Royal Dock, crew transfer vessels berth at their pontoons, and larger service vessels support the wind farms offshore for longer spells. Grimsby also handles vehicle imports on car carriers and short-sea general cargo, so steel cargo ships share the port with the aluminium workboat fleet.",
+      "Offshore wind work sets an unusual timetable for an inspection team. Crew transfer vessels sail early in the morning when conditions allow and return in the evening, so during good weather they are rarely free in daylight. When wave heights are too great for a safe transfer to the turbines, the fleet stays in port, and those weather days are the natural time for inspection, along with planned maintenance days that operators schedule for each vessel. Winter brings more weather days but shorter daylight; summer brings fewer stand-downs. Lock times govern movements in and out of the enclosed docks for the larger ships, and the Humber's tides affect arrivals of the car carriers and cargo ships."
+    ]
+  },
+  "facilities": {
+    "h": "Where wind vessels and cargo ships are checked in Grimsby",
+    "p": [
+      "Crew transfer vessels are inspected alongside their operators' pontoons in the Royal Dock. On an aluminium hull, the team gauges deck and hull plating from inside the hull spaces and from the deck, and examines welds at fender attachments, the bow transfer area, engine foundations and the joints between hulls and the wet deck with dye penetrant. Small fuel and water tanks are gauged from outside where internal access is impossible. When a vessel is lifted out of the water for its periodic hull work, the outside of the hulls can be examined as well, which is the best moment for a complete survey.",
+      "Steel ships are worked differently. Car carriers are inspected at the ro-ro berths during a discharge, with ramps and lower car decks reached once vehicles are clear, and short-sea cargo ships are gauged around their cargo operations. Grimsby has no drydock for merchant ships that we would plan around; smaller steel vessels based here can dock at Dunston's graving dock across the river in Hull, and larger ones go to the Tees, the Tyne or a yard across the North Sea. Readings taken in Grimsby beforehand let that yard plan the steel work."
+    ],
+    "list": [
+      "Royal Dock operators' pontoons: crew transfer vessel hull, deck and weld inspection on weather days or planned maintenance days.",
+      "Ro-ro berths for vehicle imports: stern ramp, hinge lug and car-deck checks during a discharge call.",
+      "Cargo berths: hold and deck gauging on short-sea general cargo ships around their cargo work.",
+      "Fish docks: older fishing vessel and workboat hulls checked before a sale or a refit.",
+      "William Wright Dock graving dock in Hull: the nearest drydock for smaller steel vessels based in Grimsby."
+    ]
+  },
+  "context": {
+    "h": "Workboat rules, port state control and the wind market",
+    "p": [
+      "Most crew transfer vessels in UK waters are small enough to be certified under the Maritime and Coastguard Agency's Workboat Code rather than full merchant ship conventions, and many are also built and maintained to a classification society's rules for high-speed or light craft. Either way, hull structure is examined at periodic surveys, and an aluminium hull that has spent years slamming into short seas is where those surveys find trouble. Foreign-flagged ships calling at Grimsby, such as car carriers and cargo ships, are subject to port state control by the Maritime and Coastguard Agency under the Paris MoU.",
+      "Many of the crew transfer vessels built during the first offshore wind boom are now more than a decade old. Aluminium does not corrode the way steel does in sea water, but it suffers fatigue cracking at welds, local thinning from galvanic attack where it meets steel fittings, and impact damage at the bow and fenders. Wind farm operators and vessel charterers expect high availability, and a crack found on a weather day can be repaired before it takes a vessel off contract. For owners selling older vessels to new operators, a condition record also supports the sale."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical inspection jobs in Grimsby",
+    "p": "Grimsby work is mostly on wind farm vessels, with a share on car carriers and cargo ships. For crew transfer vessels, we agree with the operator which vessels will be stood down and on which days, and bring the dye penetrant kit and an aluminium calibration block as well as the thickness gauge. For steel ships, the scope is set by the cargo call. Because weather days cannot be predicted far ahead, CTV jobs are often planned as a short campaign covering several vessels, worked as each becomes available.",
+    "list": [
+      "Dye penetrant testing of hull, wet-deck and fender-weld details on an aluminium crew transfer vessel during a weather day.",
+      "Thickness gauging of aluminium hull plating on a CTV before its periodic out-of-water survey, with the gauge calibrated for aluminium.",
+      "Magnetic particle testing of ramp hinge lugs on a car carrier discharging imported vehicles.",
+      "Pre-purchase condition check on a second-hand crew transfer vessel changing operators.",
+      "Deck and ballast tank gauging on a steel wind service vessel during a port call between offshore rotations."
+    ]
+  },
+  "logistics": "Humberside Airport is the closest airport but has few routes, so most teams fly into Manchester, Leeds Bradford or a London airport and continue by rail to Grimsby Town, with connections through Doncaster. Technicians travel from India on UK visit visas, applied for well ahead, which matters because weather days cannot be booked in advance: a campaign is planned for a period rather than a single day. Access to operators' pontoons is arranged through the operator, and to ABP's ro-ro and cargo berths through the ship's agent.",
+  "vessels": [
+    "Crew transfer vessels (aluminium catamarans)",
+    "Offshore wind service and support vessels",
+    "Pure car and truck carriers",
+    "Short-sea general cargo ships",
+    "Fishing vessels",
+    "Harbour workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge an aluminium crew transfer vessel?",
+      "a": "Yes. Sound travels through aluminium at a different velocity from steel, so the gauge is set up on an aluminium reference block before any readings are taken; readings taken with a steel setting would be wrong. Crack detection on aluminium uses dye penetrant rather than magnetic particle testing. Readings are recorded against the vessel's structural drawings, so the operator can compare them with the original plating thicknesses."
+    },
+    {
+      "q": "When is the best time to inspect a CTV working out of Grimsby?",
+      "a": "On a weather day, when wave heights stop transfers to the turbines and the fleet stays in the Royal Dock, or on a maintenance day the operator has planned. We agree with the operator which vessels can be released and work through them as they become free. A complete survey, including the outside of the hulls, is best timed to the vessel's next lift-out."
+    },
+    {
+      "q": "Where do Grimsby-based steel vessels go for a drydock?",
+      "a": "Smaller steel vessels can dock at Dunston's graving dock at William Wright Dock in Hull, across the Humber. Larger ones go to the yards on the Tees or the Tyne, or to a yard across the North Sea. A thickness survey alongside in Grimsby before the docking gives the yard a steel list in advance, so repairs can be planned and the docking kept as short as possible."
+    },
+    {
+      "q": "Can car carriers be inspected at Grimsby during vehicle discharge?",
+      "a": "Yes, once vehicles are clear of the areas to be examined. The stern ramp is checked for plating wear and cracking at the hinge lugs, and the lower car decks are gauged where wheel loads and moisture cause wastage. Hoistable decks and internal ramps can be included if the ship's officers can position them. The scope is fitted to the discharge time the agent gives us."
+    }
+  ],
+  "nearby": [
+    "immingham",
+    "hull",
+    "goole",
+    "great-yarmouth",
+    "kings-lynn",
+    "esbjerg"
+  ]
+}

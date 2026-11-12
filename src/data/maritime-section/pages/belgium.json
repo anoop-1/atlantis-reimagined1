@@ -5,7 +5,7 @@
   "description": "Ship ultrasonic thickness measurement in Belgium: UTM and hull gauging in Antwerp, Zeebrugge and Ghent for chemical tankers, car carriers and bulk carriers.",
   "h1": "Ultrasonic Thickness Measurement for Ships in Belgium",
   "eyebrow": "Maritime inspection · Belgium",
-  "intro": "Belgium's three seaports each bring a different kind of ship to the gauging plan. Antwerp, the larger half of the Port of Antwerp-Bruges, serves Europe's biggest petrochemical cluster, so chemical and product tankers dominate. Zeebrugge, on the open North Sea coast, is a car carrier, ro-ro and LNG port. Ghent, reached by canal from Terneuzen, handles mid-sized bulk carriers serving the steel and agribulk trades. Superintendents call us for ultrasonic thickness measurement on all three: pre-docking hull structure gauging, cargo piping and tank gauging on chemical tankers, car-deck and hull UTM on vehicle carriers, hold gauging on bulk carriers, and pre-purchase surveys. The team is mobilised from India for each job, planned around the call or the docking.",
+  "intro": "Belgium's three main seaports each bring a different kind of ship to the gauging plan. Antwerp, the larger half of the Port of Antwerp-Bruges, serves Europe's biggest petrochemical cluster, so chemical and product tankers dominate. Zeebrugge, on the open North Sea coast, is a car carrier, ro-ro and LNG port. Ghent, reached by canal from Terneuzen, handles mid-sized bulk carriers serving the steel and agribulk trades. Superintendents call us for ultrasonic thickness measurement on all three: pre-docking hull structure gauging, cargo piping and tank gauging on chemical tankers, car-deck and hull UTM on vehicle carriers, hold gauging on bulk carriers, and pre-purchase surveys. The team is mobilised from India for each job, planned around the call or the docking.",
   "highlights": [
     {
       "h": "Chemical tankers at their last berth",
@@ -28,6 +28,15 @@
         "The Port of Antwerp-Bruges, formed when Antwerp and Zeebrugge merged, is Europe's second-largest port. Its Antwerp half lies far up the tidal Scheldt: deep-sea container ships work the tidal terminals on the river and at the Deurganck dock, while behind the big sea locks a network of docks serves breakbulk, steel, cars and above all the petrochemical industry. Deep-sea repair centres on EDR Antwerp Shipyard, whose floating docks inside the port take tankers, bulk carriers, cargo ships and offshore units.",
         "Zeebrugge sits directly on the North Sea coast, north of Bruges, without the long river passage that Antwerp ships make. It is a major European hub for new-car imports and exports and a base for short-sea ro-ro lines to the UK, Ireland and other European ports, and the Fluxys LNG terminal brings gas carriers. It is a cargo and energy port rather than a docking port, so most gauging here is done afloat and planned around the call.",
         "Ghent is the inland end of North Sea Port, the cross-border port it formed with Zeeland Seaports. Ships enter from the Westerschelde through the sea locks at Terneuzen and follow the Ghent–Terneuzen canal across the Dutch–Belgian border. The canal limits ship size, so the bulk carriers here are smaller than the ore carriers that discharge at Rotterdam, and the steelworks quays on the canal are the most frequent setting for hold gauging."
+      ]
+    },
+    {
+      "id": "be-ostend-coast",
+      "h": "Ostend and the offshore wind trade on the Belgian coast",
+      "p": [
+        "Ostend, west of Zeebrugge, is the smallest of Belgium's four seaports and the most specialised. It does not compete for container or car traffic; it serves the wind farms on the Belgian sandbanks, a beam trawler fleet that lands at the fish auction, and research and government vessels. Installation and crane vessels stage turbine components at the REBO heavy-load terminal, while crew transfer and service operation vessels sail from the harbour to the wind farms.",
+        "For gauging, Ostend works in two ways. IDP Shipyard's shiplifts take crew transfer vessels, fishing vessels, tugs and workboats out of the water and into covered sheds, which suits renewal and docking survey readings on smaller hulls. Larger offshore ships are gauged afloat during mobilisation and demobilisation, when deck plating, crane pedestals and preload tanks are clear of cargo and sea-fastenings; when they need a dock, the readings go with them to a bigger yard.",
+        "The whole Belgian coast is shallow, lined with sandbanks and reached through dredged channels, so deeper ships at Ostend and Zeebrugge time their arrival to the tide, and onshore winter gales can halt launch work at the coastal anchorages. Jobs there are planned with a margin of days rather than a single fixed boarding time."
       ]
     },
     {
@@ -80,7 +89,15 @@
   "faqs": [
     {
       "q": "Which Belgian ports do you cover for ship thickness measurement?",
-      "a": "Antwerp and Zeebrugge, the two halves of the Port of Antwerp-Bruges, and Ghent on the canal from Terneuzen. Each has its own page describing the ships that call, where gauging happens and the jobs we see there."
+      "a": "Antwerp and Zeebrugge, the two halves of the Port of Antwerp-Bruges, Ghent on the canal from Terneuzen, and Ostend on the coast west of Zeebrugge. Each has its own page describing the ships that call, where gauging happens and the jobs we see there."
+    },
+    {
+      "q": "Do you gauge offshore wind vessels at Ostend?",
+      "a": "Yes. Installation, crane and service operation vessels are gauged alongside at Ostend during mobilisation, demobilisation and crew rotations, on deck plating, crane and gangway foundations, sea-fastening areas and ballast or preload tanks. Crew transfer vessels and workboats lifted out at IDP Shipyard can be gauged under cover. Each programme is divided into pieces that fit the vessel's time in port."
+    },
+    {
+      "q": "Can a ship be gauged at anchor in the Scheldt approaches while it waits for Antwerp?",
+      "a": "Sometimes. Ships waiting for a berth or the tide can be boarded by launch arranged through the agent, but tidal streams and North Sea weather make anchorage work hard to schedule. We keep that scope limited to deck, hatch covers and ballast tanks the crew has prepared, and plan the rest of the measurement for the berth or the docking."
     },
     {
       "q": "Can a chemical tanker be gauged in Antwerp before it goes into dock?",

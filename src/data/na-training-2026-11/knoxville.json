@@ -1,0 +1,15 @@
+{
+  "slug": "knoxville",
+  "lat": 35.96,
+  "lng": -83.92,
+  "localContext": "Knoxville is the headquarters city of the Tennessee Valley Authority and sits about twenty-five miles from the Oak Ridge national laboratory and weapons-complex sites. Around it are TVA fossil and nuclear generation, aluminum and automotive-component manufacturing in Blount County, Air National Guard aviation at McGhee Tyson, and a nuclear and defence supply chain. The work runs to ASME Section XI and III, AWS, and owner quality programmes, so technicians need documented qualification and clean records from the start.",
+  "certPathwayNote": "Knoxville-area employers certify technicians under their own written practices built on ASNT SNT-TC-1A. Nuclear and defence customers add quality-assurance flow-down, including performance demonstrations for some UT work, which the employer's Level III reconciles. ASNT central certification remains an option for individuals without a sponsor, and Atlantis NDT prepares candidates for it.",
+  "salaryFrom": "oak-ridge",
+  "siblings": [
+    "oak-ridge",
+    "nashville",
+    "chattanooga",
+    "lexington",
+    "charlotte"
+  ]
+}

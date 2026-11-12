@@ -2,11 +2,17 @@
 import type { ServiceSectionModel } from '../service-section/core.mjs';
 export type CityRow = [string, string, string, string, string];
 export const ROOT: string;
+export const LANDING_SLUG: string;
 export const FORM_ID: string;
 export const ENQUIRY: string;
 export const TALK: string;
 export const CLASS_APPROVALS: { society: string; scope: string; certificate: string; validUntil?: string }[];
 export const SERVICES: [string, string, string][];
+export const SERVICE_DEFS: [string, string, string, string, string][];
+export const SERVICE_GROUPS: [string, string][];
+export const CLASS_APPROVAL_AUDITS: string[];
+export function countrySlug(country: string): string;
+export function countryHubs(cityList: CityRow[]): [string, string, string][];
 export const SERVICE_SLUGS: string[];
 export const REGIONS: [string, string][];
 export const REGION_SLUGS: string[];

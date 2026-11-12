@@ -1,0 +1,15 @@
+{
+  "slug": "portsmouth-new-hampshire",
+  "lat": 43.07,
+  "lng": -70.76,
+  "localContext": "Portsmouth sits on the Piscataqua River, directly across from Portsmouth Naval Shipyard in Kittery, Maine, where the Navy overhauls and modernises submarines. The Seacoast also has the Seabrook nuclear station, the Pease International Tradeport with aviation and technology employers, a working port, and the bridges that connect New Hampshire and Maine. Naval work follows NAVSEA requirements, nuclear work follows ASME Section XI and quality assurance rules, and bridges follow AWS D1.5. For training, supplier records and flow-down requirements matter as much as technique.",
+  "certPathwayNote": "Seacoast employers certify NDT personnel themselves under written practices built on ASNT SNT-TC-1A. Navy and nuclear work add requirements that the employer and its Level III must meet; a course from an outside provider does not satisfy them alone. A course is not certification. ASNT central certification remains available for people who want a credential not tied to one employer.",
+  "salaryFrom": "boston",
+  "siblings": [
+    "boston",
+    "bath-maine",
+    "providence",
+    "groton",
+    "east-hartford"
+  ]
+}

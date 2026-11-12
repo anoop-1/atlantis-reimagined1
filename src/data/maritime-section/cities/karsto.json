@@ -1,0 +1,116 @@
+{
+  "slug": "karsto",
+  "name": "Kårstø",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Kårstø Gas Carrier Gauging: UTM for LPG, Ethane and Condensate",
+  "description": "Ultrasonic thickness measurement at Kårstø for LPG and ethane carriers and condensate tankers: ballast tanks, deck structure, engine-room and scrubber piping.",
+  "h1": "Thickness Measurement for Gas Carriers and Tankers Loading at Kårstø",
+  "intro": "Kårstø, on the Boknafjord between Stavanger and Haugesund, is the gas processing plant where rich gas from the Norwegian shelf is split into dry gas for export by pipeline and liquids for export by ship: propane, butanes, ethane, naphtha and stabilised condensate. LPG carriers, ethane carriers and tankers load at its quay all year round. Gauging here means fitting work around a gas terminal's rules. Atlantis sends its technicians from India for each Kårstø job, coordinated through the ship's agent and the terminal.",
+  "keywords": [
+    "kårstø thickness measurement",
+    "karsto gas terminal ship inspection",
+    "lpg carrier thickness gauging",
+    "ethane carrier inspection",
+    "condensate tanker utm",
+    "gas carrier ballast tank gauging",
+    "boknafjord anchorage",
+    "gas terminal hazardous zone inspection",
+    "esp tanker gauging norway",
+    "ultrasonic thickness measurement rogaland"
+  ],
+  "highlights": [
+    {
+      "h": "Three ship types, one quay",
+      "p": "Fully refrigerated LPG carriers, semi-refrigerated ethane carriers and conventional tankers loading naphtha or condensate all use Kårstø. Each has a different structure and survey regime, so the gauging scope is set ship by ship rather than taken from a single terminal template."
+    },
+    {
+      "h": "Condensate tankers are ESP ships",
+      "p": "Naphtha and stabilised condensate are oil cargoes under MARPOL Annex I, so the tankers lifting them follow the ESP Code. Their cargo and ballast tanks face extended gauging and close-up survey as they age, unlike the gas carriers loading at the neighbouring berth."
+    },
+    {
+      "h": "Ethane runs within Scandinavia",
+      "p": "Ethane from Kårstø is sold under long-term agreements to petrochemical producers, including the Noretyl cracker at Rafnes in Grenland, and the carriers on these runs return to the terminal often. Frequent calls allow a ballast tank programme to be worked through in stages."
+    }
+  ],
+  "port": {
+    "h": "Kårstø on the Boknafjord: a gas plant with a shipping terminal",
+    "p": [
+      "Kårstø lies on the northern shore of the Boknafjord near Susort in Tysvær municipality, in the part of Rogaland between Stavanger and Haugesund. The plant receives rich gas and condensate by pipeline from around thirty fields on the Norwegian continental shelf, separates them, and sends the dry gas on by pipeline to continental Europe. The natural gas liquids and condensate are stored on site, with propane in rock caverns and ethane in tanks, and then leave by sea. Gassco operates the plant on behalf of its owners, with Equinor as technical service provider. The Boknafjord is broad and open to the North Sea in the west, ships approach from the coastal route under pilotage, and an anchorage serves vessels waiting for the quay.",
+      "The shipping is tied entirely to the plant's output. LPG goes to buyers around the world, some of it in large fully refrigerated carriers with prismatic independent tanks, while smaller semi-refrigerated and pressurised carriers serve regional markets. Ethane is sold under long-term contracts to petrochemical producers in Scandinavia and leaves in carriers designed to hold it at very low temperature. Naphtha and stabilised condensate are lifted by product and crude tankers. Together these products generate hundreds of tanker movements a year, spread across the seasons because the plant processes gas continuously, with peaks and troughs set by field production and maintenance shutdowns rather than by weather. Tugs assist ships on and off the quay, and the terminal's marine staff control every berthing.",
+      "Ships at Kårstø stay only as long as loading takes, usually measured in hours rather than days, and the terminal's priority is to keep the berths cycling. That makes the call a narrow window for measurement, bounded by the ship's own gas-safety rules and those of the terminal. Ships waiting for their loading slot sometimes spend time at the Boknafjord anchorage, which can give a few extra hours for work that does not need the quay. The weather is that of the open west coast, with strong wind and rain common in autumn and winter, but loading continues in most conditions, and so can work inside the ship. Exterior measurements on deck and on the hull above the waterline are best kept for calmer days."
+    ]
+  },
+  "facilities": {
+    "h": "What can be measured alongside the Kårstø quay and at anchor",
+    "p": [
+      "Gas carriers at Kårstø are gauged under a combined permit regime: the ship's own enclosed-space and work-permit procedures, and the terminal's rules on hazardous areas, ignition sources and people on the quay. Ultrasonic gauges and portable lamps are electronic equipment, so inside the gas-dangerous zones on deck they are allowed only if certified for the zone or if the area has been declared safe, which in practice keeps measurement on the cargo deck to a minimum during loading. Ballast tanks, the double bottom where it is reached through ballast spaces, the engine room, the steering gear flat and the accommodation block are the usual working areas, once each space has been ventilated and certified.",
+      "Hold spaces around independent cargo tanks are generally kept inerted or under dry air in service and cannot be entered during a terminal call, so hold-side structure and tank supports wait for a docking. Kårstø is a gas plant, not a repair site; gas carriers and tankers dock at specialised yards in northern Europe or further afield, and the regional yards at Ølensvåg and Stord mainly work on offshore vessels, rigs and platform modules. Readings taken at Kårstø therefore usually serve as a pre-docking estimate or as the owner's condition monitoring between surveys."
+    ],
+    "list": [
+      "Kårstø loading berths, gas carriers — ballast tank, engine-room and steering-gear piping and accommodation-area gauging during loading, within permitted zones.",
+      "Kårstø loading berths, tankers — ballast tank and deck gauging on ESP tankers lifting naphtha or condensate, cargo tanks kept closed.",
+      "Boknafjord anchorage — short scopes by launch on ships waiting for a loading slot, where the master and agent agree.",
+      "Docking yards chosen by the owner — hold spaces, tank supports, cargo-tank welds and bottom plating, after pre-docking readings at Kårstø.",
+      "Repeat calls on regional ethane runs — staged ballast tank programmes spread across several loadings."
+    ]
+  },
+  "context": {
+    "h": "Survey regimes and terminal safety behind Kårstø gauging",
+    "p": [
+      "Ships loading at Kårstø come under Paris MoU port state control, carried out by the Norwegian Maritime Authority, whose headquarters are in nearby Haugesund. Gas carriers are built and surveyed to the IGC Code and the class rules for liquefied gas carriers: hull thickness measurement follows the class survey cycle, while the cargo containment system, its secondary barrier and the hold spaces have their own examination requirements tied to the tank type. Fully refrigerated LPG carriers with prismatic tanks use the inner hull as part of the secondary barrier, which makes the condition of hold-side plating and stiffeners a cargo-safety matter as well as a structural one.",
+      "Naphtha and condensate tankers are oil tankers in regulatory terms, so the ESP Code's enhanced surveys apply, with gauging and close-up survey of cargo and ballast tanks increasing at each renewal survey. The oil and gas companies lifting cargo at Kårstø vet the ships they charter, and recent condition data strengthens the owner's position when a ship is nominated. For older gas carriers and tankers in this trade, the Inventory of Hazardous Materials expected of ships calling at EU ports adds a further consideration: whether a ship is worth renewing steel on, or is better sold, depends on knowing its true condition."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging requests at the Kårstø terminal",
+    "p": "Kårstø jobs are short and safety-led. The superintendent defines a scope that the master and the terminal can accept during loading, usually ballast tanks prepared in advance, engine-room and steering-gear piping and selected deck structure outside the hazardous zones, and the team measures within the call. Larger programmes on gas carriers are completed at the docking, where cargo tanks and hold spaces are gas-free and the hull is dry. For frequent callers we plan the work as a sequence over successive loadings, with the team staying in the region between calls when they fall close together, and returning for later loadings when they do not. Typical work includes:",
+    "list": [
+      "Two or three wing and double-bottom ballast tanks on a fully refrigerated LPG carrier, measured during one loading and compared with the last renewal survey.",
+      "Engine-room sea-water, ballast and fire-main piping on an ethane carrier, measured over consecutive calls on its regional run.",
+      "Ballast tank and main deck gauging on a condensate tanker approaching its third renewal survey, to firm up the steel estimate before docking.",
+      "Scrubber wash-water and overboard pipe readings on a gas carrier fitted with an exhaust gas cleaning system, taken with the system shut down.",
+      "Docking follow-up: hold-side plating and tank supports measured at the yard once hold spaces are gas-free, building on ballast readings taken at Kårstø."
+    ]
+  },
+  "logistics": "Haugesund Airport on Karmøy and Stavanger Airport at Sola are both within reach by road, Stavanger offering the wider choice of international connections. Kårstø is a high-security industrial site: besides ISPS access through the ship's agent, the terminal requires advance registration, a safety induction and approval of any equipment taken aboard, so the team's details go in well ahead of the loading date. The technicians travel from India on Schengen visas, and because loading slots can move at short notice, keeping the team's travel plans flexible is sensible.",
+  "vessels": [
+    "Fully refrigerated LPG carriers",
+    "Semi-refrigerated and pressurised LPG carriers",
+    "Ethane carriers",
+    "Condensate and crude tankers",
+    "Naphtha and product tankers",
+    "Tugs"
+  ],
+  "faqs": [
+    {
+      "q": "Can gauging be done on the cargo deck of a gas carrier at Kårstø?",
+      "a": "Only to a limited extent. The cargo deck lies largely within gas-dangerous zones, where electronic gauges and lamps must be certified for the zone or the area must be declared safe by the ship and the terminal. During loading that is rarely possible, so deck structure in those zones is normally measured at a docking or during a gas-free lay-by. Deck areas outside the zones can be measured alongside."
+    },
+    {
+      "q": "Why are condensate tankers treated differently from the gas carriers?",
+      "a": "Because naphtha and condensate are oils under MARPOL Annex I, the ships carrying them are oil tankers for survey purposes and fall under the ESP Code. Their renewal surveys call for gauging of cargo and ballast tank structure that grows with age, plus close-up survey by the class surveyor. Gas carriers follow the gas-carrier rules instead, with different priorities for the hull and the cargo containment."
+    },
+    {
+      "q": "Is the Boknafjord anchorage usable for gauging?",
+      "a": "For a small scope, sometimes. A ship waiting for its loading slot can be reached by launch when the agent arranges one and the master agrees, and ballast tanks prepared in advance or engine-room piping can be measured while she waits. The fjord is open to the west, so boarding depends on wind and sea, and the ship may be called to the quay before the work is finished."
+    },
+    {
+      "q": "What is checked on an ethane carrier that differs from an LPG carrier?",
+      "a": "The hull scope is similar: ballast tanks, double bottom, deck and machinery-space piping. The difference lies in the cargo system, which holds ethane at much lower temperature in pressure tanks, so tank supports, insulation and the surrounding hull deserve attention at the docking. Any cold spots seen on inner-hull plating during a call are reported, since they can point to insulation damage that the yard should investigate."
+    },
+    {
+      "q": "Can a Kårstø job be arranged at short notice?",
+      "a": "Loading slots at Kårstø are often confirmed late and can move, while the team needs Schengen visas and terminal registration before it can board. Owners who expect regular calls get the best results by agreeing a provisional plan early, keeping the team's visas valid and pre-registering the technicians with the terminal through the agent, so that a confirmed slot can be met."
+    }
+  ],
+  "nearby": [
+    "haugesund",
+    "stavanger",
+    "stord",
+    "bergen",
+    "egersund"
+  ]
+}

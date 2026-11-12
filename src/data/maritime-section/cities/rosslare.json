@@ -1,0 +1,106 @@
+{
+  "slug": "rosslare",
+  "name": "Rosslare",
+  "country": "Ireland",
+  "region": "europe",
+  "title": "Rosslare Europort UTM: Ro-Pax Ferry Thickness Measurement",
+  "description": "Thickness measurement at Rosslare Europort for ro-pax ferries to Wales, France and Spain, ro-ro freight ships and car carriers: decks, ramps, tanks and piping.",
+  "h1": "Ultrasonic Thickness Gauging for Ferries at Rosslare Europort",
+  "intro": "Rosslare Europort, on the south-east corner of Ireland in County Wexford, is the country's ferry port for direct sailings to Wales, France and Spain. Ro-pax and ro-ro ships cross to Fishguard and Pembroke Dock, and longer routes reach Cherbourg, Dunkirk and Bilbao, so the port sees both quick-turnaround ferries and freight ships with longer layovers. Repeated calls make staged gauging practical on both. Technicians mobilised from India join the ship for each job and work between sailings.",
+  "keywords": [
+    "rosslare europort utm",
+    "rosslare ferry inspection",
+    "ultrasonic thickness measurement rosslare",
+    "ro-pax ferry thickness measurement",
+    "ferry vehicle deck gauging ireland",
+    "ramp and bow door crack detection",
+    "car carrier deck gauging",
+    "ferry pre-refit gauging",
+    "scrubber piping inspection ferry",
+    "wexford ship inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Short and long crossings side by side",
+      "p": "Ships on the Welsh routes turn round quickly and often, while those sailing to France and Spain spend longer in port between departures. Both suit staged gauging, but the longer layovers allow larger slices of tank and deck work on each call."
+    },
+    {
+      "h": "Direct routes to the Continent",
+      "p": "Since 2021, direct sailings to continental Europe have grown at Rosslare as freight avoids the British land bridge. Ships on those long crossings are worked hard, and their owners want steel and piping condition known well ahead of each refit."
+    },
+    {
+      "h": "A harbour built behind a breakwater",
+      "p": "Rosslare is an artificial harbour sheltered by a breakwater and open to weather from some quarters. Ships alongside are workable in most conditions, but launch work in the bay depends on the forecast, so gauging is usually planned at the berths."
+    }
+  ],
+  "port": {
+    "h": "Rosslare Europort: Ireland's south-east ferry gateway",
+    "p": [
+      "Rosslare Europort lies at Rosslare Harbour village on the low coast of south County Wexford, not far from Carnsore Point, the south-eastern tip of Ireland. The harbour is man-made: a breakwater shelters linkspan berths and quays built for ro-ro traffic, and the approach comes in directly from St George's Channel. Unusually for an Irish port, it is run by Iarnród Éireann, the national railway company, as a division of its business, and a railway line still runs into the terminal. The waters offshore carry steady coastal traffic and the ferries to Wales, and sandbanks off the Wexford coast shape the approaches from the north and south. Strong onshore winds can make berthing difficult and occasionally disrupt sailings, which is the main weather factor for anyone planning work around a ferry's time in port.",
+      "The Welsh crossings are the oldest core of the port: Stena Line sails to Fishguard and Irish Ferries to Pembroke Dock, on short routes with daily departures. Since Brexit the port has added and expanded direct continental services, with ferries and freight ships running to Cherbourg, Dunkirk and Bilbao so that hauliers can avoid British customs altogether, and freight on these longer routes has become a large share of the port's business. Car carriers call to land imported vehicles, and the harbour also handles unitised freight. Plans to develop Rosslare as a base for offshore renewable energy, with investment in new quays, land and road access, point to future traffic from wind farm construction and service vessels working in the Irish Sea and the Celtic Sea.",
+      "Each of these trades gives a different inspection window. A ferry on the Fishguard or Pembroke Dock route spends only a short time at Rosslare between crossings, but repeats the pattern daily, so a programme can be built up over a week or two. Ships on the continental routes cross overnight or longer and usually spend more time at the berth between departures, enough for a ballast tank or a section of vehicle deck per call, and their crews have time at sea to ventilate tanks before arrival. Car carriers stay for the discharge of their vehicles, which opens up deck and ramp structure once a deck has been emptied. Ferry refits mostly fall in the quieter months at yards in Britain or on the Continent, and Rosslare is often the last port where readings can be taken before a ship sails for her overhaul."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging is done at Rosslare Europort",
+    "p": [
+      "Work at Rosslare happens at the linkspan berths. Ferries discharge and load over their stern or bow ramps, and the team boards once the ship is secure, working on vehicle decks in lanes released by the chief officer and in tanks and voids that the crew has prepared. Ramp hinges and bow or stern door structure are examined with MPI where cracking is a concern, and engine-room sea-water and scrubber piping is gauged while the main engines are stopped. The terminal is compact, so moving between the gangway, the car decks and the engine room takes little time, which counts on a short turnaround.",
+      "There is no drydock or ship-repair yard at Rosslare, and no sheltered lay-up area in the harbour. Ships anchoring in the bay or off the harbour to wait out weather or a berth can be boarded by launch through the agent, but the anchorage is open and launch work is only practical in settled conditions. For bottom shell, sea chests and stern gear, gauging waits for the ship's docking elsewhere; at Rosslare the scope is the internal structure, decks, ramps and piping that can be reached while the ship keeps to her schedule."
+    ],
+    "list": [
+      "Linkspan berths for the Welsh routes — vehicle-deck, ramp and ballast tank readings staged across daily turnarounds.",
+      "Continental route berths — larger slices of deck and tank gauging on ferries and freight ships with longer layovers.",
+      "Car carrier calls — main and hoistable deck plating and internal ramps gauged as each deck is emptied of vehicles.",
+      "Ferry engine rooms — sea-water, fire-main and scrubber wash-water piping UT while the engines are stopped.",
+      "Rosslare Bay anchorage — launch-borne deck readings on ships waiting for weather or a berth, in settled conditions only."
+    ]
+  },
+  "context": {
+    "h": "EU rules on the ferry routes from Rosslare",
+    "p": [
+      "Rosslare is an EU port, so port state control falls to the Marine Survey Office of Ireland's Department of Transport, which carries out inspections under the Paris MoU. For ro-pax ships, EU law adds its own regime of regular inspections of ro-ro passenger ships on scheduled services, which brings inspectors on board more often than a cargo ship would expect. Steel condition in vehicle decks, ramp structure, watertight doors and ballast tanks is part of what those inspections look at, and a current set of readings helps the operator answer questions on the spot rather than after the ship has sailed.",
+      "Emissions rules split Rosslare's routes in two. Voyages to Cherbourg, Dunkirk or Bilbao run between EU ports, so the EU ETS and FuelEU Maritime apply to all of their emissions, whereas the crossings to Fishguard and Pembroke Dock end at a non-EU port and count at half. From 2026, shipping companies surrender allowances for the full share of their covered emissions, which raises the value of clean hulls and well-maintained systems. Ships under non-EU flags calling here must carry an Inventory of Hazardous Materials under the EU Ship Recycling Regulation. Together these give operators good reason to keep detailed records of steel and piping condition on the ships they intend to keep on these routes."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Rosslare",
+    "p": "Most of our work at Rosslare is for ferry and ro-ro operators, staged across calls and timed to finish before a refit. Some is reactive, after a ramp or deck incident when an operator needs thickness and crack readings before the next sailing. Car carrier and freight ship jobs are usually single-call condition gauging for the owner. On the continental routes, where layovers are longer, a programme can often be finished in fewer calls. We agree with the superintendent which areas the class surveyor at the refit will want figures for, keep the same reference points through every call, and deliver one consolidated report in class TM format when the programme is complete.",
+    "list": [
+      "Pre-refit gauging on a Fishguard-route ro-pax ferry, spread across a fortnight of turnarounds.",
+      "Ballast tank and void space gauging on a continental-route ferry, two tanks per call during longer layovers.",
+      "Ramp, hinge lug and bow door crack detection with MPI after a reported berthing incident.",
+      "Scrubber wash-water and overboard piping UT on a freight ship trading to a continental port.",
+      "Deck and internal ramp gauging on a car carrier during vehicle discharge."
+    ]
+  },
+  "logistics": "Dublin Airport is the usual arrival point, with the onward journey to Rosslare by road or by the railway line that ends at the port; Cork Airport is an alternative for some connections. Ireland's visa system is separate from both Schengen and the UK, so the team travels from India on Irish visas, and a programme that also covers a ship at its Welsh port of call needs UK entry as well. Terminal access is ISPS-controlled and arranged by the ship's agent or the ferry operator.",
+  "vessels": [
+    "Ro-pax ferries on the Welsh routes",
+    "Long-route ro-pax ferries to France and Spain",
+    "Ro-ro freight ships",
+    "Car carriers",
+    "Occasional cruise ships",
+    "Tugs and harbour craft"
+  ],
+  "faqs": [
+    {
+      "q": "Can ferries be gauged at Rosslare without losing a sailing?",
+      "a": "Yes. We break the scope into pieces that fit each turnaround: a section of vehicle deck, one ramp, a ballast tank ventilated on the inbound crossing. Over successive calls these build into a complete set of readings, all referenced to the same frames. Ships on the continental routes, with longer time alongside, allow bigger pieces, so their programmes finish sooner."
+    },
+    {
+      "q": "Is there a drydock at Rosslare?",
+      "a": "No. Rosslare is a ferry and freight port with no repair yard. Ferries trading here dock at yards in Britain, elsewhere in Europe or further afield for their refits. Gauging at Rosslare in the weeks before is what lets the superintendent send the yard a steel and piping list, so plate and pipe can be ordered before the ship arrives in dock."
+    },
+    {
+      "q": "Can you gauge ships at anchor off Rosslare?",
+      "a": "Only in settled weather. The bay is open water, and launch boarding needs a calm sea and a lee on the ship. When a ship anchors to wait for a berth or for the weather to ease, we can take deck and air-pipe readings by launch through the agent, but anything substantial is better planned at the berth."
+    },
+    {
+      "q": "Does the EU ro-pax inspection regime affect gauging?",
+      "a": "It adds a reason to keep readings on board. Ro-pax ships in regular service are inspected more often than other ships, and inspectors may ask about visible wastage on vehicle decks, ramps or in tanks. Thickness readings taken between refits, with locations marked on sketches, show that the operator knows the condition and has plans for renewal, which is the answer an inspector is looking for."
+    }
+  ],
+  "nearby": ["waterford", "dublin", "cork", "milford-haven", "cherbourg", "drogheda"]
+}

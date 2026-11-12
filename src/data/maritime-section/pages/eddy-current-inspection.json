@@ -1,0 +1,152 @@
+{
+  "slug": "eddy-current-inspection",
+  "navLabel": "Eddy Current Inspection (ECT)",
+  "title": "Eddy Current Inspection (ECT) of Ship Welds and Aluminium",
+  "description": "Eddy current testing on ships: weld crack detection through thin coatings by complex-plane analysis, aluminium superstructures and non-ferrous parts, ISO 17643.",
+  "h1": "Eddy current inspection (ECT) of painted ship welds, aluminium structure and non-ferrous parts",
+  "eyebrow": "Maritime inspection · Advanced NDT",
+  "intro": "Eddy current testing detects surface cracks with a coil held just above the metal, with no ink, no developer and, within limits, no need to strip the paint. On painted steel welds it screens weld toes through thin non-conductive coatings; on aluminium superstructures, high-speed craft and other non-ferrous parts it does work that magnetic particle testing cannot do at all. Atlantis NDT uses ECT on ships to a written procedure calibrated on reference blocks, and mobilises the team from India to the vessel.",
+  "highlights": [
+    {
+      "h": "Through thin coatings",
+      "p": "Weld probes and complex-plane analysis separate the signal of a crack from the change caused by the coating lifting the probe off the steel. Within the coating thickness the procedure covers, weld toes are screened with the paint left in place."
+    },
+    {
+      "h": "Steel, aluminium and other alloys",
+      "p": "Eddy current works on any electrically conductive metal, so the same technique family serves painted steel structure, aluminium deckhouses and craft hulls, and stainless or non-ferrous fittings, each with its own probes, frequencies and reference block."
+    },
+    {
+      "h": "Clean and quick to repeat",
+      "p": "No liquids are applied, nothing has to be washed off afterwards, and results appear as the probe moves. That suits accommodation areas, cargo systems that must stay free of residues, and screening programmes repeated at every port call."
+    }
+  ],
+  "sections": [
+    {
+      "id": "principle",
+      "h": "How eddy current testing works",
+      "p": [
+        "A coil carrying alternating current produces an alternating magnetic field. Brought close to a conductive metal, that field induces circulating currents, the eddy currents, in the surface layer. The eddy currents set up their own field, which acts back on the coil and changes its electrical impedance. Anything that alters the flow of the eddy currents, such as a crack cutting across their path, a change in conductivity or magnetic permeability, or a change in the gap between coil and metal, changes that impedance in its own characteristic way.",
+        "The instrument shows those changes on the complex plane: each change appears as a trace with an amplitude and a phase angle. During calibration the operator sets the display so that lift-off, the signal produced as the probe moves away from the surface, runs in one direction, while cracks of known depth in the reference block appear at a clearly different angle. That separation by phase is what lets a crack be recognised under a layer of paint, and the amplitude of the crack signal gives an approximate indication of its depth.",
+        "Eddy currents concentrate near the surface, and in ferromagnetic steel they penetrate only a very thin layer, so on hull steel ECT is a surface method. In aluminium and other non-ferromagnetic metals, a lower test frequency lets the currents reach a little deeper, which allows some near-surface flaws to be detected as well."
+      ]
+    },
+    {
+      "id": "welds-through-coatings",
+      "h": "Weld inspection through coatings by complex-plane analysis",
+      "p": [
+        "Ferritic steel welds are a difficult surface for eddy currents. The weld metal, the heat-affected zone and the parent plate differ in magnetic permeability, and the as-welded profile varies, so an ordinary probe produces a stream of signals that have nothing to do with cracks. Weld probes are built to suppress those variations, typically with coils arranged so that changes common to both cancel while a crack, which affects them differently, stands out. ISO 17643 sets out how welds are tested this way, using complex-plane analysis.",
+        "The probe is scanned along each weld toe and across the cap in overlapping passes, with its orientation chosen for cracks running along the weld and, where needed, across it. Sensitivity is set on a reference block of similar steel carrying notches of known depth, and the coating is simulated with non-conductive foils of the thickness found on the structure, so that the operator knows what a crack signal looks like under that much paint. As coating thickness increases, the crack signal weakens; the procedure states the maximum it covers, and areas above that limit are recorded and either prepared or examined by another method.",
+        "Coatings that conduct electricity behave differently from paint. Metallic coatings and metal-rich primers alter the eddy current response and have to be checked on the reference block before the procedure is relied upon; where they cannot be compensated for, the area is listed for examination by another method after local preparation."
+      ]
+    },
+    {
+      "id": "aluminium-structure",
+      "h": "Aluminium superstructures and high-speed craft",
+      "p": [
+        "Welded aluminium is used for deckhouses and upper superstructure on ferries, cruise ships and offshore support vessels, for the hulls of high-speed craft and catamarans, and for gangways, accommodation ladders and helideck structures. Aluminium alloys lose strength in the heat-affected zone beside a weld, and vibration and wave loading on fast craft drive fatigue cracks from weld toes, window and door corners, and the ends of stiffeners.",
+        "Magnetic particle testing cannot be used on aluminium. Dye penetrant testing works well, but it needs the paint stripped, chemicals applied and the surface cleaned and repainted afterwards. Eddy current testing detects surface-breaking cracks on aluminium through thin paint without that work, and its greater penetration in aluminium also gives some sensitivity to cracks just below the surface. Conductivity varies between alloys and tempers, so the reference block is chosen to match the structure, and doubtful indications are confirmed with penetrant testing after local paint removal."
+      ]
+    },
+    {
+      "id": "non-ferrous-and-stainless",
+      "h": "Stainless, duplex and non-ferrous parts",
+      "p": [
+        "On chemical tankers, stainless and duplex steel cargo tanks, piping and deck fittings can be screened for surface cracking without leaving penetrant residues in a cargo system. Austenitic stainless steel is non-magnetic and responds much like other non-ferrous metals; duplex grades contain a ferritic phase, so their permeability varies and the procedure is validated on a block of the same grade. Copper-nickel sea-water piping and bronze fittings can also be examined where the geometry allows a probe to follow the surface.",
+        "Propellers are a special case. Surface crack detection on bronze and nickel-aluminium bronze blades, particularly at the blade roots and in repaired areas, is normally carried out by dye penetrant testing, and class rules for propeller repairs often specify it. Eddy current can screen accessible areas where a procedure has been validated for the alloy and the surface curvature, but the method the class rules require for a repair takes precedence."
+      ]
+    },
+    {
+      "id": "choosing-a-method",
+      "h": "Eddy current, magnetic particle or penetrant: choosing on a ship",
+      "p": [
+        "All three methods look for surface cracks, and on a ship the choice usually comes down to the material, the coating and what happens to the surface afterwards. The table summarises the trade-offs a superintendent or yard planner usually weighs."
+      ],
+      "table": {
+        "head": ["Consideration", "Eddy current (ECT)", "Magnetic particle (MPI)", "Dye penetrant (DPI)"],
+        "rows": [
+          ["Materials", "Any conductive metal: steel, aluminium, stainless, copper alloys", "Ferromagnetic steel only", "Any non-porous material"],
+          ["Coating", "Can work through thin non-conductive coatings, within the procedure's limit", "Bare steel or a thin sound film", "Bare, clean surface; paint must be removed"],
+          ["What is detected", "Surface cracks; some near-surface flaws in non-ferrous metals", "Surface and slightly sub-surface cracks", "Surface-breaking flaws only"],
+          ["Chemicals and clean-up", "None", "Magnetic ink and contrast paint, then cleaning", "Penetrant, remover and developer, then thorough cleaning"],
+          ["Depth information", "Approximate, from signal amplitude", "None", "None"],
+          ["Main limits", "Geometry, edges, permeability changes, conductive coatings", "Needs magnetisation access and coating removal", "Dwell times, temperature range, residues in cargo or fuel systems"]
+        ]
+      }
+    },
+    {
+      "id": "calibration-and-limits",
+      "h": "Calibration, reporting thresholds and limits",
+      "p": [
+        "Each job runs to a written procedure giving the probes, frequencies, scanning pattern, the coating thickness covered, the reference block and the reporting threshold. The instrument is set up on the block before work starts, checked at intervals during the day and at the end, and rechecked whenever the probe, cable or frequency changes. Indications above the threshold are marked on the structure, sketched, photographed and recorded with their length and approximate depth.",
+        "Eddy current has limits worth stating plainly. It detects surface and near-surface flaws, not lack of fusion or cracks buried inside a weld, which need ultrasonic methods. Edges, holes, sharp changes of section and very rough surfaces give strong signals of their own, so details such as bracket ends need careful scanning and interpretation. Depth estimates are approximate and become unreliable for deeper cracks, so where depth drives a repair, ultrasonic sizing follows. On ferromagnetic welds, ACFM is often preferred for cracks under thicker coatings."
+      ]
+    },
+    {
+      "id": "tube-testing",
+      "h": "Heat exchanger and condenser tubes",
+      "p": [
+        "Eddy current testing of heat exchanger, cooler and condenser tubes uses internal probes pushed through each tube, different instruments and a different set of standards from the surface weld testing described on this page. If tube testing of a ship's coolers or condensers is part of your requirement, mention it at enquiry and we will discuss it as a separate scope."
+      ]
+    },
+    {
+      "id": "class-and-team",
+      "h": "Class acceptance and who carries out eddy current work",
+      "p": [
+        "Where class rules or a repair procedure name a particular method for a particular examination, such as magnetic particle testing of a finished weld repair or penetrant testing of a repaired propeller, that requirement governs. Eddy current screening in service is agreed with the attending surveyor when the results are to support a survey, and used freely for the owner's own crack programmes. If the class rules or yard specification require operators certified under a particular scheme, tell us when you enquire so we can confirm before booking.",
+        "Atlantis's founder, our Responsible NDT Level III, plans and supervises the company's work and holds ASNT NDT Level III in UT, RT, MT, PT and VT, with more than eleven years of international field experience; eddy current testing is not one of those five methods. Operators are qualified and certified under the company's written practice to ASNT SNT-TC-1A, Atlantis holds ISO 9001 and ISO 14001 certification, and teams travel from India to the ship for each assignment."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 15549 – Eddy current testing: general principles",
+    "ISO 17643 – Eddy current testing of welds by complex-plane analysis",
+    "ISO 15548 series – Equipment for eddy current examination: instrument, probe and system characteristics",
+    "ISO 3452-1 – Penetrant testing: general principles, for confirmation on non-ferrous parts",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "The rules of the vessel's classification society for surveys and repairs",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Written ECT procedure with probes, frequencies, coating limit and reporting threshold",
+    "Indication list with location, length and approximate depth",
+    "Sketches and photographs locating each indication on the structure",
+    "Record of areas examined, including any above the coating limit or not examined",
+    "Penetrant or magnetic particle confirmation reports where carried out",
+    "Reference block details, calibration checks and operator certificates"
+  ],
+  "industries": [
+    "Ferries and ro-ro passenger ships",
+    "Cruise ships with aluminium superstructure",
+    "High-speed craft and aluminium catamarans",
+    "Chemical tankers with stainless or duplex cargo systems",
+    "Offshore support vessels and offshore units",
+    "Bulk carriers and container ships with fatigue-prone details",
+    "Ship-repair yards and owners' technical departments"
+  ],
+  "faqs": [
+    {
+      "q": "Can eddy current find cracks through paint on steel welds?",
+      "a": "Yes, through thin non-conductive coatings, using weld probes and complex-plane analysis to separate crack signals from lift-off. The procedure sets the maximum coating thickness it covers, demonstrated on a reference block with foils of the same thickness. Above that limit the crack signal becomes too weak to rely on, so those areas are recorded and either prepared or examined by another method, such as ACFM or magnetic particle testing."
+    },
+    {
+      "q": "Why use eddy current on aluminium instead of dye penetrant?",
+      "a": "Because it can work through thin paint and leaves nothing behind. Dye penetrant testing on a painted aluminium deckhouse needs the paint stripped, penetrant and developer applied, the surface cleaned and the area repainted. Eddy current screens the same welds with the coating in place and gives some sensitivity to cracks just below the surface. Penetrant testing remains useful to confirm and map an indication once the paint has been removed locally."
+    },
+    {
+      "q": "Does eddy current find flaws inside a weld?",
+      "a": "No. On steel, eddy currents stay very close to the surface, so the method finds surface-breaking cracks, not lack of fusion, porosity or cracks buried in the weld. In aluminium it reaches slightly deeper, but it is still a surface and near-surface method. For the inside of a weld, ultrasonic weld inspection, phased array or TOFD is used."
+    },
+    {
+      "q": "Can eddy current measure how deep a crack is?",
+      "a": "Approximately. The amplitude of a crack signal, compared with notches of known depth in the reference block, gives an estimate for shallow cracks, but the estimate becomes unreliable as cracks get deeper and is affected by crack shape and coating. Where depth decides the repair, ultrasonic methods measure it properly once the crack has been located."
+    },
+    {
+      "q": "What preparation does an eddy current examination need?",
+      "a": "Much less than penetrant or magnetic particle testing. Loose rust, scale, spatter and flaking paint are removed along the scan path, and sound paint can stay if it is within the procedure's coating limit. The team needs safe access to the welds, lighting and, for tanks and voids, entry under the ship's enclosed-space procedure. No water, chemicals or cleaning materials are required."
+    },
+    {
+      "q": "Do you test heat exchanger and condenser tubes with eddy current?",
+      "a": "Tube testing uses internal probes and a different technique from the surface weld testing on this page, so it is scoped separately. If your coolers or condensers need examination, mention it when you enquire, with the exchanger type, tube material and size, and the access available, and we will discuss it as its own scope."
+    }
+  ]
+}

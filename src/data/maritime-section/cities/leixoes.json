@@ -1,0 +1,113 @@
+{
+  "slug": "leixoes",
+  "name": "Leixões",
+  "country": "Portugal",
+  "region": "europe",
+  "title": "Leixões Ship Gauging: UTM at Porto's Seaport | Hull & Tanks",
+  "description": "Ultrasonic thickness measurement at Leixões, the seaport of Porto: container ships, ro-ro, tankers and cruise ships gauged alongside, tanks, decks and piping.",
+  "h1": "Thickness Measurement for Ships at the Port of Leixões, Porto",
+  "intro": "Leixões, at Matosinhos beside Porto, is northern Portugal's main seaport. Container ships, ro-ro vessels, bulk carriers, tankers and cruise ships all use its sheltered artificial harbour, and it sits on the Atlantic route between the Iberian peninsula and northern Europe. Gauging happens alongside during cargo stops and lay-bys, because the port has no large drydock. Atlantis NDT sends a team from India to join each ship.",
+  "keywords": [
+    "ship thickness measurement leixoes",
+    "ultrasonic thickness measurement in leixoes",
+    "utm porto portugal",
+    "hull gauging porto",
+    "ship inspection in leixoes",
+    "container ship ballast tank gauging",
+    "tanker deck and tank gauging portugal",
+    "cruise ship scrubber piping porto",
+    "matosinhos ship inspection",
+    "pre-docking gauging portugal"
+  ],
+  "highlights": [
+    {
+      "h": "A harbour that suits afloat work",
+      "p": "Leixões is an artificial harbour behind long breakwaters, so ships alongside are steady and boarding is straightforward. Ballast tanks, decks and piping can be gauged during cargo operations without sea-state delays."
+    },
+    {
+      "h": "Container and ro-ro regulars",
+      "p": "Feeder and short-sea ships return to the same terminals on regular rotations. Gauging can be planned for a berth stay, then repeated at a later call if the first window covered only part of the scope."
+    },
+    {
+      "h": "Tankers and cruise ships",
+      "p": "Product tankers at the oil terminal and cruise ships at the Leixões cruise terminal give access to deck structure, piping and released tanks, with scope agreed against what each crew can open."
+    }
+  ],
+  "port": {
+    "h": "Leixões, the artificial harbour at Matosinhos",
+    "p": [
+      "The Port of Leixões lies on the Atlantic coast just north of the mouth of the Douro, in the municipality of Matosinhos. It was built as an artificial harbour in the nineteenth century, enclosed by a long northern breakwater and a shorter southern one, and it is the only deep-water commercial port serving Porto and the industrial north of Portugal. Because it is man-made, there is no river bar to cross and no tidal lock, so large ships can enter at most states of the tide; the principal natural difficulty is Atlantic swell at the entrance in winter storms.",
+      "Traffic is varied. Container ships, mostly feeders and regional services, call at the container terminals, ro-ro vessels and car carriers use the dedicated ro-ro berths, and bulk carriers discharge cereals, fertiliser and building materials. Product tankers use an oil terminal in the outer harbour, supplying the fuel and petrochemical needs of the region. Leixões is also a cruise port with a purpose-built terminal at the harbour entrance, and a stream of ships heading for Porto's historic centre call here between spring and autumn. Coastal fishing boats and tugs fill the smaller basins.",
+      "The seasons affect planning. Summer brings the cruise calls, which are short and carry a fixed turnaround, while winter brings occasional storm closures of the entrance and delays to ships waiting offshore. Cargo ship timetables are steadier through the year. A thickness gauging job at Leixões is therefore built around a berth stay or a short wait at an anchorage off the breakwaters. The superintendent tells us which tanks and spaces are empty and safe, we gauge those in order, and a fallback date is kept in the plan for weather. Where the docking is needed, ships move to a yard elsewhere in Portugal or Galicia."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging takes place at Leixões",
+    "p": [
+      "Leixões does not have a drydock sized for sea-going merchant ships, and ships that require a docking, bottom inspection or steel renewal go to yards further along the Portuguese coast or across the border in Galicia. The gauging that suits Leixões is the work done afloat: ballast tanks and void spaces on container ships and bulk carriers, hatch coamings and hold structure on bulkers after discharge, vehicle decks and ramps on ro-ro ships, deck plating and piping on tankers, and scrubber piping on any ship with an exhaust gas cleaning system.",
+      "The container and ro-ro terminals have long quays with steady berths. The bulk berths allow empty holds to be inspected, and the oil terminal in the outer harbour lets us gauge deck areas and ballast spaces during discharge. Cruise ships at the Leixões cruise terminal offer a short turnaround window for tanks and machinery-space pipework. The anchorage off the breakwaters is available for ships waiting for a berth, with launch boats arranged through the ship's agent. Any space that needs entry is gauged under the ship's enclosed-space permit system."
+    ],
+    "list": [
+      "Container terminals — ballast-tank, hatch-cover and deck gauging on feeder ships during cargo work.",
+      "Ro-ro berths — vehicle decks, ramps, ballast tanks and void spaces on ro-ro vessels and car carriers.",
+      "Bulk berths — holds, coamings and tank-top plating on dry bulk carriers after discharge.",
+      "Oil terminal, outer harbour — deck plating, deck piping and accessible ballast tanks on product tankers.",
+      "Leixões cruise terminal — turnaround-window gauging of scrubber piping, tanks and machinery-space pipework.",
+      "Anchorage off the breakwaters — launch-served gauging on ships waiting for a berth, in calm conditions."
+    ]
+  },
+  "context": {
+    "h": "Port state control and regulation at Leixões",
+    "p": [
+      "Portugal is a Paris MoU state, and port state control inspections at Leixões, as at other Portuguese ports, are carried out under the Directorate-General for Natural Resources, Safety and Maritime Services, known by its acronym DGRM, with the harbour master's office running the day-to-day port administration. The regime follows the Paris MoU's risk targeting, so older tankers, bulk carriers and ships with deficiencies on record are inspected more frequently. A measured gauging record taken before arrival gives the superintendent a clear view of what an inspector may find.",
+      "EU rules also shape the market. Shipping has been inside the EU ETS since 2024 and FuelEU Maritime has applied since 2025, which affects how owners plan for older tonnage. The EU Ship Recycling Regulation requires an Inventory of Hazardous Materials on ships calling at EU ports, and thickness measurement is often arranged in the same period as the IHM update. Because Leixões receives many feeder ships on regular loops, owners often schedule one gauging stop per year and compare results against the previous report to see how fast wastage is progressing in ballast tanks and on deck."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Leixões",
+    "p": "Leixões work is short and cargo-led. The superintendent sends the last thickness report and a list of tanks that will be empty on arrival, we agree the order of work, and the team gauges between cargo operations. Typical requests:",
+    "list": [
+      "Ballast-tank and hatch-coaming gauging on a feeder container ship at the container terminal, as part of intermediate survey preparation.",
+      "Hold, coaming and tank-top plating gauging on a dry bulk carrier after discharge at the bulk berth.",
+      "Vehicle-deck, ramp and ballast-tank readings on a car carrier or ro-ro ship, reported deck by deck for a later docking.",
+      "Deck plating and deck-piping gauging on a product tanker at the outer harbour oil terminal, with cargo tanks left for a yard stay.",
+      "Scrubber wash-water and overboard piping readings on a cruise ship at the cruise terminal during turnaround."
+    ]
+  },
+  "logistics": "Francisco Sá Carneiro Airport serves Porto and lies a short drive from Leixões, with flights from most European hubs; technicians from India usually connect through Lisbon or another European city. Port access at the terminals is arranged by the ship's agent, who also books a launch for ships at the anchorage. Portugal belongs to the Schengen area, so Schengen visas are obtained in India before departure, and the application begins once the call is confirmed and the owner has supplied an invitation letter naming the vessel. Ships' schedules can move, so we confirm travel against the latest agent update.",
+  "vessels": [
+    "Feeder and regional container ships",
+    "Ro-ro vessels and car carriers",
+    "Dry bulk carriers",
+    "Product tankers",
+    "Cruise ships",
+    "General cargo and multipurpose ships",
+    "Tugs and pilot boats",
+    "Fishing vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Is there a drydock at Leixões for merchant ships?",
+      "a": "Not one that takes sea-going merchant ships of the size that normally call. Ships needing a docking go to other Portuguese yards or to Galicia. We gauge afloat at Leixões, giving the yard a measured steel list ahead of arrival, and can return to gauge the renewed areas after the docking if the owner asks."
+    },
+    {
+      "q": "Can ballast tanks on a container ship be gauged during cargo work?",
+      "a": "Yes, if the crew has emptied and ventilated them and the entry permit is in place. We choose tanks that are not needed for stability during loading. Hatch covers and coamings can be gauged at the same time when the stowage plan leaves them accessible, which suits a short feeder stay."
+    },
+    {
+      "q": "How does Atlantic swell affect work at Leixões?",
+      "a": "Inside the breakwaters ships are steady, so most work is unaffected. Heavy swell at the entrance in winter storms can delay arrivals or close the port for short periods, and that changes the ship's schedule rather than the work itself. We hold flexibility in the plan so a late arrival does not lose the whole stay."
+    },
+    {
+      "q": "Can a cruise ship be gauged at the Leixões terminal?",
+      "a": "Yes, in the turnaround window. Scrubber piping, machinery-space pipework and tanks that the chief engineer can release are the realistic scope. We agree the list before the call, arrive with the agent's access arranged, and stop if the ship's departure schedule tightens, noting what remains for a later visit."
+    },
+    {
+      "q": "Which ships in Leixões benefit most from advance gauging?",
+      "a": "Older feeder ships, tankers and bulk carriers approaching a survey, and any ship due for sale or charter. A report from a berth call helps the superintendent plan the docking and agree steel work with the yard, and shows class and port state control where wastage sits before an inspector looks."
+    }
+  ],
+  "nearby": ["viana-do-castelo", "aveiro", "vigo", "lisbon", "figueira-da-foz"]
+}

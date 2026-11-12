@@ -1,0 +1,107 @@
+{
+  "slug": "nice",
+  "name": "Nice",
+  "country": "France",
+  "region": "europe",
+  "title": "Nice Ship Gauging: UTM for Ferries, Cruise and Yacht Support",
+  "description": "Ultrasonic thickness measurement at Nice and the Villefranche roadstead: Corsica ferries, cruise ships and support vessels, tanks, decks and scrubber piping.",
+  "h1": "Ultrasonic Thickness Gauging for Ships Calling at Nice",
+  "intro": "Nice is a passenger port first: the Corsica ferries use Port Lympia beside the old town, cruise ships call all season, and the French Riviera keeps a steady flow of large yacht support vessels in the area. Cargo is minor, so gauging here is built around short calls and fixed ferry rotations. Atlantis NDT sends technicians out from India to join the vessel, and the work is planned around the schedule the ship's superintendent gives us.",
+  "keywords": [
+    "ship thickness measurement nice",
+    "ultrasonic thickness measurement in nice",
+    "utm nice france",
+    "ferry thickness gauging",
+    "cruise ship scrubber piping inspection",
+    "hull gauging french riviera",
+    "ship inspection in nice",
+    "villefranche roadstead ship inspection",
+    "ballast tank gauging corsica ferry",
+    "thickness measurement mediterranean ferry"
+  ],
+  "highlights": [
+    {
+      "h": "Corsica ferries on fixed rotations",
+      "p": "Ro-pax ships on the Nice to Corsica routes return to Port Lympia on a known pattern, so gauging of vehicle decks, ramps and ballast tanks can be fitted into a berth stay and repeated on a later call."
+    },
+    {
+      "h": "Cruise calls and turnaround windows",
+      "p": "Cruise ships alongside or at anchor give short, defined access. Scrubber wash-water lines, machinery-space piping and accessible tanks are the usual scope, agreed with the chief engineer beforehand."
+    },
+    {
+      "h": "Pre-docking steel estimates",
+      "p": "Ships that will dock in Marseille, Toulon or a Ligurian yard can be gauged here first, so the repair specification carries measured wastage rather than an allowance for steel renewal."
+    }
+  ],
+  "port": {
+    "h": "Nice, Port Lympia and the ships that call",
+    "p": [
+      "The commercial port of Nice is Port Lympia, a compact harbour cut into the rock at the eastern end of the Baie des Anges and surrounded by the city. Its quays carry the ferry berths, the cruise berth, a yacht basin and a handful of workboat moorings. There is almost no bulk or container traffic: the reason a ship comes here is people and vehicles, or an itinerary that includes the Riviera. The port is small enough that every ship can be reached on foot from the next berth, and it is part of the dense urban waterfront rather than an industrial estate.",
+      "Ferries to Corsica are the backbone of regular traffic. Ro-pax ships run to Bastia, Ajaccio and other Corsican ports, mostly as day or overnight sailings that bring the same hull back to Nice repeatedly. That repetition suits thickness work: a superintendent who wants vehicle decks, internal ramps, stern doors and ballast tanks looked at can pick a berth stay and schedule a second visit later in the season. Cruise ships come between spring and autumn, some berthing at the cruise quay and others anchoring in the bay and using tenders, and neighbouring Villefranche-sur-Mer offers a deep sheltered roadstead that cruise lines use as an alternative.",
+      "Winter changes the picture. Cruise calls thin out, ferry operators run reduced timetables, and ships that are due surveys tend to be sent to yards elsewhere on the French and Italian coasts. A Nice call during that quiet season is therefore a good moment for a pre-docking inspection, because the berth is less pressured and tanks can sometimes be released for a longer period. Weather matters most for ships at anchor: strong easterly or south-easterly swell makes launch work uncomfortable, and the ship's agent will say whether a given day is workable. Expect the plan to carry a fallback date for any scope done off the berth."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging can be done in and around Nice",
+    "p": [
+      "Port Lympia has no commercial drydock for deep-sea tonnage; its repair activity is oriented to yachts and small craft, and a ferry or cruise ship that needs a bottom inspection is normally sent to a yard on the Marseille, Toulon or Ligurian coast. What can be done at Nice is the afloat part of the job: ballast tanks, void spaces, vehicle decks, hatch and ramp structure, accessible machinery-space piping and the full length of scrubber lines where the ship has them. For a ferry that is going to dock elsewhere in the winter, this is where the steel estimate is built.",
+      "Ships lying at the cruise quay or at the ferry berths can be reached with the ship's gangway after the agent has arranged port access, while ships in the bay or at Villefranche need a launch booked through the agent. We prepare a short list of spaces in advance, ask the crew to ventilate and release them, and gauge them in an order that keeps the ship's own operations free. Any space needing a permit is gauged only with the enclosed-space entry permit in place and a gas-free certificate where the compartment calls for one."
+    ],
+    "list": [
+      "Port Lympia ferry berths — afloat gauging of vehicle decks, ramps, stern doors and ballast tanks between Corsica sailings.",
+      "Cruise quay at Port Lympia — turnaround-window gauging of scrubber piping, machinery-space pipework and released tanks.",
+      "Bay of Nice anchorage — launch-served deck and tank gauging for ships waiting or tendering passengers.",
+      "Villefranche-sur-Mer roadstead — sheltered anchorage used by cruise ships, workable for short tank and piping scopes.",
+      "Yacht support vessel berths on the Riviera — gauging of tanks, decks and piping on larger support and escort ships.",
+      "Nearby docking yards — Nice readings feed the steel list for dockings in Marseille, Toulon or Liguria."
+    ]
+  },
+  "context": {
+    "h": "Port state control and the rules that shape gauging at Nice",
+    "p": [
+      "France is a member of the Paris MoU, and port state control inspections on foreign-flag ships in French ports are carried out by the country's ship safety centres under the maritime affairs administration. Passenger ships and ro-pax ferries fall into the Paris MoU's targeting scheme like any other category, and older ferries with wastage on record are inspected more often. Nice receives many ships on regular itineraries, so the same hull may be inspected several times a year, which is a practical reason to know the condition of tanks and decks before arriving.",
+      "Several EU rules also bear on the work. Shipping has been inside the EU ETS since 2024 and FuelEU Maritime has applied since 2025, so owners of older ferries weigh retrofits against remaining life, and a measured steel record helps that decision. The EU Ship Recycling Regulation requires an Inventory of Hazardous Materials on ships calling at EU ports, and thickness data is often collected alongside the IHM update. For ro-pax ships the vehicle deck, hoistable decks and watertight doors are the areas where wastage shows first, so these usually head the scope for a Nice job."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Nice",
+    "p": "Nice work is short and planned. A ferry superintendent sends the docking specification and the last gauging report, we confirm a list of spaces that can be released during the berth stay, and the team gauges while the ship loads and unloads. Cruise operators ask for scrubber piping and machinery-space readings in a turnaround window. Typical requests:",
+    "list": [
+      "Vehicle-deck, ramp and ballast-tank gauging on a Corsica ferry ahead of a winter docking, with readings reported deck by deck for the yard's steel estimate.",
+      "Scrubber wash-water and overboard piping wall-thickness readings on a cruise ship at the cruise quay during a turnaround.",
+      "Pre-purchase condition gauging of a ro-pax ferry that is being sold or chartered, limited to spaces the owner can release.",
+      "Hull and tank gauging on a large yacht support ship alongside, for its owner's intermediate survey preparation.",
+      "Follow-up readings on renewed plating after a docking elsewhere, to confirm the steel work is within the class limits."
+    ]
+  },
+  "logistics": "Nice Côte d'Azur Airport is the entry point and sits close to the port. Port access for ships at the ferry berths and the cruise quay is arranged by the ship's agent, who also books launch boats for ships in the bay or at Villefranche. France is in the Schengen area, so each technician needs a Schengen visa obtained in India, and the application starts once the call or docking date is confirmed and the owner has provided an invitation letter naming the vessel. Ferry timetables are published well ahead, which helps with visa and travel planning.",
+  "vessels": [
+    "Ro-pax ferries to Corsica",
+    "Cruise ships",
+    "Passenger and expedition ships",
+    "Large yacht support vessels",
+    "Pilot boats and harbour tugs",
+    "Small coastal tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Can a Corsica ferry be gauged at Nice between sailings?",
+      "a": "Yes, within the berth stay. The ship's officers identify tanks, voids and deck areas that can be opened without disturbing cargo or passengers, and we plan the order of work around loading. Short stays suit vehicle decks, ramps and ballast tanks; a second visit on a later call can finish what time did not allow."
+    },
+    {
+      "q": "Is there a drydock at Nice for hull inspection?",
+      "a": "Not for deep-sea ferries or cruise ships. Port Lympia's repair work is oriented to yachts and small craft, so a ship needing the shell inspected out of water normally goes to a yard in Marseille, Toulon or Liguria. We can do the afloat gauging at Nice first, so the yard has a measured steel list when the ship arrives."
+    },
+    {
+      "q": "Can you gauge a cruise ship at anchor off Nice or Villefranche?",
+      "a": "Yes, if the ship's schedule allows a calm day and a launch. Tanks, machinery-space piping and scrubber lines are the usual scope. Weather can cancel a day at anchor, so we keep an alternative date or a berth call in the plan, and the agent confirms conditions the morning of the job."
+    },
+    {
+      "q": "What does scrubber pipe inspection at Nice involve?",
+      "a": "We take ultrasonic thickness readings along wash-water supply and overboard discharge piping, on bends, flanges and shell penetrations, and compare them with the ship's installation records. Mediterranean ECA rules mean scrubbers run constantly in these waters, so wall loss accumulates faster than on ships that use them only part of a voyage."
+    }
+  ],
+  "nearby": ["toulon", "marseille", "genoa", "savona", "bastia"]
+}

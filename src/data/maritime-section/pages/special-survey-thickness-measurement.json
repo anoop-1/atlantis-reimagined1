@@ -1,9 +1,9 @@
 {
-  "slug": "renewal-survey-thickness-measurement",
-  "navLabel": "Renewal survey gauging",
-  "title": "Renewal Survey Thickness Measurement | Special Survey UTM",
-  "description": "Thickness measurement for ship renewal (special) surveys at 5, 10, 15, 20 and 25 years, intermediate surveys and pre-docking steel renewal estimates.",
-  "h1": "Thickness Measurement for Renewal (Special) Surveys and Intermediate Surveys",
+  "slug": "special-survey-thickness-measurement",
+  "navLabel": "Special survey gauging",
+  "title": "Special Survey Thickness Measurement | Renewal Survey UTM",
+  "description": "Special survey thickness measurement for ships at 5, 10, 15, 20 and 25 years (renewal surveys), intermediate surveys and pre-docking steel estimates.",
+  "h1": "Special Survey Thickness Measurement: Renewal and Intermediate Survey Gauging",
   "eyebrow": "Maritime inspection",
   "intro": "Every five years a ship's renewal survey, still widely called the special survey, measures how much steel the hull has lost and decides how much must be renewed before class continues into the next cycle. The gauging grows with each survey, and from the third renewal onwards it usually drives the size of the yard bill. Atlantis NDT mobilises thickness measurement teams from India for renewal and intermediate surveys and, months earlier, for pre-docking gauging that tells the owner what steel renewal to expect before the yards quote.",
   "highlights": [

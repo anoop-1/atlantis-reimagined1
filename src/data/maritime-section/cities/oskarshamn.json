@@ -1,0 +1,107 @@
+{
+  "slug": "oskarshamn",
+  "name": "Oskarshamn",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Oskarshamn Ship Thickness Gauging | Ferries & Floating Dock",
+  "description": "Ship thickness measurement in Oskarshamn for Gotland ferries, coasters and workboats: hull and tank UTM at the floating dock, cargo quays and ferry berths.",
+  "h1": "Ultrasonic Thickness Measurement for Ferries, Coasters and Workboats at Oskarshamn",
+  "intro": "Oskarshamn, on the Småland coast across the water from northern Öland, keeps three useful things close together: the ferry terminal for Visby on Gotland, cargo quays handling forest products, bulk and project cargo, and a repair yard with a floating dock. Coasters, ro-pax ferries, workboats and government craft all pass through, and many of them stay long enough to be gauged. The technicians who carry out the work are sent from India to the ship for each job, so we book them against a confirmed call or docking slot.",
+  "keywords": [
+    "thickness gauging oskarshamn",
+    "ship thickness measurement oskarshamn",
+    "utm oskarshamn",
+    "oskarshamn shipyard gauging",
+    "floating dock hull gauging sweden",
+    "gotland ferry inspection",
+    "ro-pax ferry thickness measurement",
+    "coaster hull gauging baltic",
+    "workboat thickness measurement",
+    "ship inspection småland"
+  ],
+  "highlights": [
+    {
+      "h": "A floating dock on the Swedish east coast",
+      "p": "Damen Oskarshamnsvarvet operates a floating dock and repair quay used by ferries, workboats, fishing vessels, pilot and coastguard craft and general cargo ships. Bottom and side shell, sea chests and tanks can be gauged while the ship is lifted and the yard's staging is in place."
+    },
+    {
+      "h": "Gotland ferries between crossings",
+      "p": "Ro-pax ships on the Visby route keep a tight timetable, especially in summer. Machinery-space piping, vehicle-deck plating and accessible voids can be measured during a layover, with shell and tank gauging held back for the yard period when the ferry is out of service."
+    },
+    {
+      "h": "Coasters loading timber and bulk",
+      "p": "Short-sea general cargo ships loading sawn timber and other forest products, or discharging bulk at the cargo quays, often stay long enough for hold and ballast-tank readings. Owners use these calls for condition gauging between surveys and for steel estimates before a docking."
+    }
+  ],
+  "port": {
+    "h": "Oskarshamn's harbour, ferries and cargo trades",
+    "p": [
+      "Oskarshamn faces the Baltic proper from the Småland coast, with the northern part of Öland offshore to the south-east and the open sea towards Gotland to the east. The harbour sits at the head of a bay screened by islands and skerries, and ships reach it along a piloted fairway from open water. Inside, the ferry terminal, the cargo quays and the shipyard are grouped closely together, which makes it easy to shift a ship from one berth to another or into the yard. Like the rest of the Baltic the bay is practically tideless; water levels move with wind and barometric pressure instead, so access between quay and ship changes little over a working day. In a normal winter the southern Baltic stays largely open, and ice here is an occasional problem of cold years rather than a fixture of the season.",
+      "The best-known traffic is the Gotland service. Destination Gotland runs ro-pax ships between Oskarshamn and Visby, carrying passengers, cars and freight trailers, with sailings that rise sharply in the summer months. Alongside the ferries, the cargo port handles short-sea general cargo ships and small bulk carriers loading sawn timber and other forest products, and vessels bringing bulk cargoes and project cargo for industry in the region. North of the town, the nuclear power station at Simpevarp has its own harbour, separate from the commercial port. Workboats, tugs, fishing vessels and pilot and coastguard craft make up the rest of the local fleet, and several of them come to Oskarshamn specifically for the shipyard rather than for cargo. Summer also brings leisure traffic and visiting yachts, which share the inner harbour with the working fleet.",
+      "That mix gives gauging three different rhythms. The ferries run to timetables and come out of service for planned yard periods, typically arranged away from the summer peak, so their thickness measurement is concentrated into a few days each year. Cargo ships call irregularly and stay for the length of loading or discharge, which suits short, targeted scopes on holds, hatch coamings and ballast tanks. Ships arriving at the yard for repair stay for days or weeks, and the most useful moment to gauge them is at the start of the stay, before the steel list and the blasting plan are fixed. For owners of small ships trading in the Baltic, Oskarshamn is one of the few places on the Swedish east coast where all three patterns can be combined in a single visit."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging at the floating dock, the ferry berths and the cargo quays",
+    "p": [
+      "Damen Oskarshamnsvarvet, the harbour's ship repair yard, works a floating dock and a repair quay for vessels that trade mainly in the Baltic: ferries, general cargo ships, workboats, fishing vessels and pilot and coastguard craft. When a ship is lifted in the floating dock, the bottom and side shell, sea chests, rudder area and double-bottom tanks can all be gauged with the yard's staging and lighting in place, and the readings handed to the yard planners before blasting and steel renewal begin. The yard decides whether a given ship fits its dock; we work for the owner or manager, alongside the yard's programme and the attending surveyor.",
+      "Larger bulk carriers and tankers that exceed the dock's limits still have useful windows here. At the cargo quays, holds can be measured as they empty, and ballast tanks prepared by the crew can be entered during a longer stop. The ferry berths suit small in-service scopes on piping, vehicle decks and void spaces during a layover, split across several calls if needed. Ships waiting off the port in calm weather can be boarded by launch for a short deck and air-pipe scope arranged by the agent. For a renewal survey on a ship too big for Oskarshamn, the readings taken here become the pre-docking estimate for whichever yard the owner has chosen."
+    ],
+    "list": [
+      "Damen Oskarshamnsvarvet floating dock — bottom, side shell, sea chests and tanks gauged on ferries, workboats and coasters while the hull is lifted.",
+      "Yard repair quay — afloat repair periods, with piping, deck and tank readings taken alongside the yard's steelwork and blasting.",
+      "Gotland ferry terminal — machinery piping, vehicle decks and voids measured during layovers between Visby crossings.",
+      "Cargo quays — hold, hatch coaming and ballast-tank readings on timber and bulk ships during loading or discharge.",
+      "Waters off the harbour approach — short deck and air-pipe scopes by launch on ships waiting for a berth, weather permitting."
+    ]
+  },
+  "context": {
+    "h": "Port state control, ferry inspections and the Baltic short-sea fleet",
+    "p": [
+      "Ships calling at Oskarshamn fall under Paris MoU port state control, carried out in Sweden by the Swedish Transport Agency. Ro-pax ships and high-speed craft on regular services face a further layer: the EU regime for inspecting the safe operation of ro-ro passenger ships in regular service, under which the authorities inspect a ship before it enters a service and periodically afterwards. Hull and vehicle-deck condition sits naturally inside that attention, and an operator that can show recent thickness data on car decks, ramps and ballast spaces goes into those inspections with fewer open questions. Non-EU-flagged ships calling here must also carry an Inventory of Hazardous Materials under the EU Ship Recycling Regulation.",
+      "Much of the tonnage on this coast is small and old by deep-sea standards. Short-sea coasters in the Baltic timber and bulk trades often keep working for decades, and many carry Finnish-Swedish ice class so that they can serve northern ports in winter. General cargo coasters fall outside the Enhanced Survey Programme, yet their owners face the same questions about wastage in holds, double bottoms and hatch covers, especially before a sale or a long charter. Workboats and fishing vessels add their own pattern of wear, concentrated at the waterline, around fendering and in wet spaces, which is why condition gauging on them tends to follow damage or a planned refit rather than a fixed calendar."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging work at Oskarshamn",
+    "p": "Work at Oskarshamn tends to come from three directions: ferry operators preparing for or carrying out a yard period, owners of small cargo ships using the floating dock or a cargo stop, and operators of workboats and government craft in for repair. Scopes range from a single day of piping readings on a ferry to a full shell and tank programme while a coaster is lifted. Because the yard, the ferry berth and the cargo quays lie so close together, a team mobilised for one job can sometimes take on a second scope on another ship during the same visit, provided both owners have agreed it beforehand.",
+    "list": [
+      "Shell, sea chest and double-bottom gauging on a general cargo coaster lifted in the floating dock, with substantial-corrosion areas marked for the yard.",
+      "Pre-docking piping and vehicle-deck readings on a Gotland ro-pax ship during layovers, so the yard specification lists the right pipe runs and plates.",
+      "Hold, hatch coaming and ballast-tank gauging on a timber carrier during a loading stop, ahead of an intermediate survey.",
+      "Waterline and wet-space gauging on a workboat or pilot vessel during a repair period, with MPI on fender and towing-point welds.",
+      "Pre-purchase condition gauging on a small bulk carrier at the cargo quays, scoped by the buyer's technical adviser."
+    ]
+  },
+  "logistics": "Technicians usually fly into Copenhagen or Stockholm Arlanda and continue by train or road; Kalmar Airport, further south on the same coast, has domestic flights from Stockholm. Sweden is in the Schengen area, so the team travels on Schengen visas, applied for as soon as the yard slot or the call is known. Entry to the shipyard is by yard pass, and access to the ferry and cargo quays goes through the ship's agent, who also books a launch when a ship is to be boarded off the port.",
+  "vessels": [
+    "Ro-pax ferries on the Gotland route",
+    "Short-sea general cargo ships",
+    "Small bulk carriers",
+    "Workboats and tugs",
+    "Fishing vessels",
+    "Pilot and coastguard vessels",
+    "Project cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can my ship be gauged in the Oskarshamn floating dock?",
+      "a": "If the yard accepts the ship into the dock, yes. Damen Oskarshamnsvarvet confirms whether a vessel's size and weight suit its floating dock; once that is settled, we plan the thickness measurement around the docking programme with the superintendent. Shell, sea chests and double-bottom tanks are best measured early in the stay, so the yard and the surveyor can agree steel renewal before blasting and painting start."
+    },
+    {
+      "q": "Can a Visby ferry be gauged while it stays on the timetable?",
+      "a": "Partly. During layovers at Oskarshamn the team can measure machinery-space piping, accessible vehicle-deck plating and void spaces the crew can open quickly. Ballast tanks, shell plating and the bottom need the ship out of service, so those readings belong in the planned yard period. Splitting the scope this way means the yard knows the pipe and plate renewals before the ferry arrives."
+    },
+    {
+      "q": "Does winter ice stop gauging at Oskarshamn?",
+      "a": "Rarely. The southern Baltic is usually open, and work inside holds, tanks, machinery spaces and the floating dock carries on through winter. In a hard winter the archipelago may freeze and arrivals can slip, so we tie mobilisation to the confirmed arrival rather than an estimate. Cold and short daylight slow external work on open decks more than they affect the measurements themselves."
+    },
+    {
+      "q": "Where do bigger ships calling at Oskarshamn go for dry-docking?",
+      "a": "Bulk carriers, tankers and larger ro-ro ships that exceed the floating dock's limits dock at yards elsewhere around the Baltic and the North Sea, chosen by the owner. Readings taken at the Oskarshamn cargo quays are recorded against the TM plan's frame and strake references, so they serve as the pre-docking steel estimate, and the team can travel on to the docking yard if the owner wants the programme finished there."
+    }
+  ],
+  "nearby": ["karlskrona", "karlshamn", "norrkoping", "oxelosund", "stockholm"]
+}

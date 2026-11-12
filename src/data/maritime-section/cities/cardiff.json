@@ -1,0 +1,108 @@
+{
+  "slug": "cardiff",
+  "name": "Cardiff",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Cardiff Ship Thickness Gauging | UTM in the Enclosed Docks",
+  "description": "Ultrasonic thickness measurement at Cardiff docks for general cargo ships, small bulk carriers, sand dredgers and coastal tankers: holds, tanks and piping.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Cardiff's Locked Docks",
+  "intro": "Cardiff's commercial docks sit behind a sea lock on the Severn estuary, where the tidal range is among the largest in the world. Inside, steel, forest products, containers, marine sand and liquid bulks keep general cargo ships, small bulk carriers, dredgers and coastal tankers alongside in level water, which is good ground for gauging. Atlantis keeps no staff in Wales: for each job, technicians fly in from India and work on board while the ship discharges, loads or waits for her next cargo.",
+  "keywords": [
+    "cardiff thickness gauging",
+    "ultrasonic thickness measurement cardiff",
+    "ship gauging cardiff docks",
+    "hull gauging bristol channel",
+    "sand dredger hull inspection",
+    "bulk carrier gauging south wales",
+    "pre-docking steel estimate cardiff",
+    "coastal tanker piping inspection",
+    "utm cardiff",
+    "ship inspection south wales"
+  ],
+  "highlights": [
+    {
+      "h": "Level water behind the sea lock",
+      "p": "The dock water is held at a constant height while the estuary outside rises and falls through its enormous range. A ship moored inside lies quietly against the quay, so gangways, ladders and tank access stay where they were put for the whole working day."
+    },
+    {
+      "h": "Dredgers and coastal tankers on repeat",
+      "p": "Marine aggregate dredgers landing Bristol Channel sand, and small tankers carrying liquid bulks, come back to Cardiff on short cycles. Their hoppers, pump lines and tank structure wear quickly, and frequent calls allow a gauging scope to be shared out over several visits."
+    },
+    {
+      "h": "Steel and timber ships working holds",
+      "p": "Ships handling steel or forest products often spend several days in the docks, opening holds one after another. That sequence suits gauging hold frames, tank tops and hatch coamings as each hold is cleared, well ahead of the ship's next docking."
+    }
+  ],
+  "port": {
+    "h": "Cardiff docks: a locked harbour on the Severn estuary",
+    "p": [
+      "Cardiff stands on the northern shore of the Severn estuary, where it widens into the Bristol Channel, and the rise and fall of the tide here is one of the greatest anywhere on earth. Ships cross wide sandbanks and mudflats through buoyed channels, take a pilot, and enter the docks through a sea lock that deeper-draught vessels can only use within a window around high water. Inside, they lie in Queen Alexandra Dock or Roath Dock, the two remaining commercial basins of a system that before the First World War exported more coal than any other port in the world. Much of the old waterfront has since become Cardiff Bay, held at a fixed level by the barrage finished at the end of the 1990s. Associated British Ports runs the commercial docks as one of its five South Wales ports, together with Newport, Barry, Port Talbot and Swansea.",
+      "Today's trade is mixed rather than dominated by one cargo. Steel products move through the quays for the steel industry in and around the city, forest products and timber arrive for the building trade, and a container terminal handles short-sea and feeder services. Aggregate dredgers bring sand won from the bed of the Bristol Channel to the wharves, liquid bulks are handled for fuel and industrial customers, and project and heavy-lift cargoes pass through for energy and construction work. The ships carrying this trade are mostly modest in size: multipurpose and general cargo ships, handy-sized bulk carriers, container feeders, coastal tankers and dredgers. The lock sets the upper limit on size, so the largest bulk carriers in the estuary use other berths, while the short-sea fleet that does come returns frequently and is run by managers spread across northern Europe.",
+      "The tide shapes the whole call at Cardiff. A ship that misses her lock window waits outside until the next high water, and those hours can be used for deck work only if a launch can reach her safely. Inside the docks the level does not move with the estuary, so cargo work and gauging continue through the tidal cycle and moorings need no constant tending. Winter gales funnel up the Bristol Channel from the Atlantic and can hold ships outside for a day or more, and estuary fog occasionally delays pilotage. For a superintendent, the practical rule is to plan around the lock schedule the agent provides: board once the ship is inside, finish the priority readings before her departure window, and treat any time at anchor as a bonus rather than the core of the job."
+    ]
+  },
+  "facilities": {
+    "h": "Where a ship can be gauged at Cardiff",
+    "p": [
+      "Almost all gauging at Cardiff happens alongside inside the enclosed docks. A general cargo ship discharging steel or timber gives access to holds as they empty, and the crew can open, ventilate and test ballast tanks while cargo work carries on elsewhere on board. Container feeders and tankers turn round faster, so their scopes concentrate on engine-room and ballast piping, the upper deck and tanks prepared before arrival. The dock estate is ISPS-controlled, and the agent obtains gate passes for the team and its equipment in advance.",
+      "Cardiff is a cargo port, not the place most ships go for a drydocking. When a renewal survey needs the hull dry, owners of short-sea ships in the Bristol Channel usually book a yard elsewhere, for example the drydocks at Swansea further west, or the larger repair yards on the Mersey and in Cornwall. Gauging at Cardiff in the weeks before that docking is a common way to settle the steel list early, so the yard can order plate and plan staging before the ship arrives. Ships waiting in the docks between charters, or laid up briefly, give longer windows still."
+    ],
+    "list": [
+      "Queen Alexandra Dock and Roath Dock quays — hold, tank and deck gauging on steel and forest-product ships during cargo work.",
+      "Container terminal berth — piping, upper-deck and prepared-tank readings on feeder ships within their turnaround.",
+      "Aggregate wharves — hopper, suction-pipe and hull plating gauging on sand dredgers between trips.",
+      "Liquid bulk berths — deck and pipework measurements on coastal tankers under the terminal's permit rules.",
+      "Lay-by berths inside the docks — fuller condition surveys on ships awaiting cargo or briefly laid up.",
+      "Outer anchorage — short deck-level scopes by launch while a ship waits for the lock, weather permitting."
+    ]
+  },
+  "context": {
+    "h": "Port state control, ship recycling rules and the Bristol Channel fleet",
+    "p": [
+      "Foreign ships at Cardiff are inspected by the Maritime and Coastguard Agency, which applies Paris MoU procedures through UK legislation. The older general cargo ships and bulk carriers that make up much of the Bristol Channel short-sea trade are the kind the risk-based targeting system tends to select, and a detention for structural wastage disrupts a voyage far more than a planned gauging programme would. Owners should also remember that the UK kept the EU ship recycling rules in its own law after Brexit, so ships calling here are expected to carry an Inventory of Hazardous Materials, and keeping the IHM current often prompts a wider look at structural condition.",
+      "Many of the ships calling at Cardiff fly open-registry or northern European flags and are managed from Hamburg, Rotterdam, Limassol or further afield, so the superintendent rarely sees the ship at the quay. That is where dependable readings taken by a third party earn their place: owner's condition gauging before a charter, or a pre-docking estimate that reaches the owner before the yard's quotation. Dredgers and coastal tankers trading only in UK waters are a different case, with crews who know the ship well and owners who prefer maintenance planned around a seasonal workload rather than a deep-sea charter."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Thickness gauging jobs that come up at Cardiff",
+    "p": "Cardiff jobs are usually planned around a cargo call rather than a yard stay. The superintendent sends the ship's TM plan or the surveyor's list, the agent confirms the berth and the expected time inside the lock, and the team gauges while the ship works. Some scopes are full pre-docking surveys spread across a long discharge; others are focused checks on one area a surveyor or crew member has flagged. Repeat callers such as dredgers and coastal tankers allow a programme to be divided across several visits, which is usually easier on the crew than one concentrated effort, and the readings from each visit are added to one running record.",
+    "list": [
+      "Pre-docking gauging on a multipurpose ship discharging steel: hold frames, tank top and side shell measured so the docking yard has a steel list in advance.",
+      "Second renewal survey preparation on a forest-product carrier, with ballast and double-bottom tanks opened while timber is landed.",
+      "Hopper plating, suction pipe and hull gauging on a marine aggregate dredger between sand deliveries.",
+      "Owner's condition survey of a coastal product tanker covering deck, cargo and ballast piping and accessible tank structure.",
+      "MPI on hatch-cover cleats, crane pedestals or lashing points reported cracked by the crew of a project cargo vessel."
+    ]
+  },
+  "logistics": "The usual route is a long-haul flight into London Heathrow and the train from London to Cardiff Central, which leaves the team a short drive from the dock gates; Cardiff Airport and Bristol Airport offer some European connections. Technicians from India travel on UK visas, so the lead time for a first visit runs to weeks, and repeat jobs move faster once visas are held. The ship's agent arranges ISPS gate passes, confirms the lock time and, if anchorage work is planned, books a launch.",
+  "vessels": [
+    "General cargo and multipurpose ships",
+    "Handy-sized bulk carriers",
+    "Forest-product carriers",
+    "Container feeder ships",
+    "Marine aggregate dredgers",
+    "Coastal product tankers",
+    "Project and heavy-lift ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ship be gauged while it waits for the lock at Cardiff?",
+      "a": "Sometimes, but only for a limited deck-level scope. A ship waiting off the port for the next high water can be boarded by launch if the agent and the master agree the weather is suitable, and the team can then measure air pipes, deck plating and hatch coamings. Tank work is far better left until the ship is inside the docks, where the water stays level and the crew can ventilate and certify spaces without a lock window counting down."
+    },
+    {
+      "q": "Is there a drydock at Cardiff for a renewal survey?",
+      "a": "Cardiff is not where we would plan a renewal docking. Owners of ships trading in the Bristol Channel normally dock elsewhere in South Wales or at larger yards on the Mersey or in Cornwall. What Cardiff offers is time alongside before that docking: we gauge hull, tanks and holds during cargo work, so the steel list, plate quantities and staging plan are ready when the ship reaches the yard."
+    },
+    {
+      "q": "Can sand dredgers be gauged between trips at Cardiff?",
+      "a": "Yes. Aggregate dredgers return to the wharves often and discharge quickly, so the scope is split over several calls. Hopper plating, the suction pipe and its fittings, pump-room piping and the ballast tanks all wear heavily from abrasive sand and seawater, and gauging them in stages shows the owner how wastage is progressing rather than giving a single snapshot just before docking."
+    },
+    {
+      "q": "Do the Severn tides limit how long the team can work on board?",
+      "a": "Inside the docks they do not, because the lock holds the water level and work continues through the tide. The tide matters for arrival and departure, since a ship can only use the lock within a window around high water. We plan boarding for after the ship is safely moored inside and finish the priority readings well before her outbound lock time, which the agent confirms the day before."
+    }
+  ],
+  "nearby": ["newport-wales", "avonmouth", "swansea", "port-talbot", "milford-haven", "falmouth"]
+}

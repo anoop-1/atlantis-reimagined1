@@ -1,0 +1,121 @@
+{
+  "slug": "estonia",
+  "navLabel": "Estonia",
+  "title": "Ship Thickness Measurement in Estonia | UTM at Estonian Ports",
+  "description": "Ship ultrasonic thickness measurement in Estonia: UTM and hull gauging at Tallinn, Paldiski, Sillamäe and Pärnu for ferry, tanker and bulk ship operators.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Estonia",
+  "eyebrow": "Maritime inspection · Estonia",
+  "intro": "Estonia sits on the Gulf of Finland and the Baltic, with the shortest sea crossing to Helsinki in the region and a coastline of harbours that serve ferries, oil products, dry bulk and grain. Tallinn is the main gateway for passenger and cargo traffic, Paldiski on the north-west coast takes ro-ro and bulk, Sillamäe in the north-east handles bulk and liquids, and Pärnu in the south-west serves smaller cargo ships and timber. We carry out ultrasonic thickness measurement for ships at these ports, with the team mobilised from India for each job and planned around the ship's schedule.",
+  "highlights": [
+    {
+      "h": "Ferries on a short, busy crossing",
+      "p": "Passenger and ro-pax ships run frequent services across the Gulf of Finland, so hull, ramp and piping gauging is planned for brief lay-bys at the passenger harbour rather than a long stay."
+    },
+    {
+      "h": "Ice class and winter service",
+      "p": "Ships serving Estonian ports often carry ice class strengthening, and ice abrasion thins the plating around the waterline. Gauging the ice belt before and after winter shows how much steel the season has taken."
+    },
+    {
+      "h": "Baltic emission rules",
+      "p": "Estonian waters lie inside the Baltic Sulphur Emission Control Area, so many calling ships burn low-sulphur fuel or run scrubbers, and wash-water piping is a regular gauging subject."
+    }
+  ],
+  "sections": [
+    {
+      "id": "ee-ports",
+      "h": "Where ships are gauged in Estonia",
+      "p": [
+        "Tallinn is the largest Estonian port, run by Tallinna Sadam through several harbours of different character. The city harbour takes ferries and cruise ships, while Muuga, to the east, is the main cargo harbour for oil products, dry bulk, grain and containers. Ships calling here range from large product tankers to short-sea cargo ships and high-frequency ferries, and each has a different gauging need, from tank wall readings to car-deck and ramp area checks.",
+        "Paldiski, west of Tallinn, has ferry and ro-ro links as well as bulk and general cargo, and its deep-water harbour is used for vessels that need a quiet berth. Sillamäe, on the Gulf of Finland close to the Russian border, specialises in bulk and liquid cargoes. Pärnu, on the Gulf of Riga, is a smaller port exporting timber and agricultural products and receiving short-sea cargo ships, which are typically older hulls."
+      ]
+    },
+    {
+      "id": "ee-fleets",
+      "h": "The traffic behind the work",
+      "p": [
+        "The fleets are mixed. Ro-pax ferries and cruise ships dominate Tallinn's passenger side, while oil product tankers, dry bulk carriers and feeder container ships work the cargo harbours. Short-sea general cargo ships call at the smaller ports. Many of these ships are on regular loops around the Baltic, which means the same vessel returns to the same berth and can be measured in stages across several visits.",
+        "Ageing short-sea cargo tonnage is a frequent reason for a request. A ship that has traded in cold, ice-laden water for many winters shows wastage in ballast tanks, wear on bottom plating and deterioration in sea-water piping. Owners want a measured picture before they decide between repair, extended service and sale."
+      ]
+    },
+    {
+      "id": "ee-regime",
+      "h": "Port state control and the Baltic rules",
+      "p": [
+        "Port state control in Estonia is carried out by the national transport administration, and the country is a member of the Paris Memorandum of Understanding. Inspectors apply the common risk-based targeting, and an older ship with visible hull wastage is likely to be inspected more closely. As an EU state, Estonia applies the EU Ship Recycling Regulation, so a hazardous materials inventory is a standing requirement for ships under European flags.",
+        "The Baltic Sea is a Sulphur Emission Control Area, where fuel sulphur is capped at 0.10% unless an exhaust gas cleaning system is fitted. That has made scrubbers common on larger ships calling at Tallinn and Muuga, and the wash-water and overboard lines they run are one of the faster-wearing systems on board. Ice class rules from the Finnish-Swedish system are widely used by ships trading into the region."
+      ]
+    },
+    {
+      "id": "ee-winter",
+      "h": "Winter navigation and practical constraints",
+      "p": [
+        "Winter shapes the calendar. Ice forms in the Gulf of Finland and in shallower bays, and icebreaker assistance is arranged by the port authority when conditions require. Cold affects the work too: ultrasonic equipment and couplant behave differently at low temperatures, so decks and tanks are prepared to a workable temperature and readings are taken in a way that allows for it.",
+        "Daylight in midwinter is short, so open-deck work is planned for the hours available, and ships' lighting needs to be checked in advance. Summer brings the cruise season and heavier ferry traffic in Tallinn, which restricts berth time, and a ship in the repair period is easier to schedule than one in service during peak weeks."
+      ]
+    },
+    {
+      "id": "ee-planning",
+      "h": "Planning a job from India",
+      "p": [
+        "Estonia belongs to the Schengen area, so a Schengen visa of the right category covers entry, and we settle which one applies as soon as the ship's call is known. Through the ship's agent we obtain the berth, the shore pass, port security registration and the safety briefing, along with details of the gangway, lighting and shore power.",
+        "Port security is strict at Muuga and the oil terminals, with personal protective equipment, permits and escort requirements that vary by operator. Before anyone enters a tank, the master confirms gas-free status and the rescue arrangements under the ship's safety management system. The brief names the thickness measurement plan, the frames and strakes to be gauged and the report format the owner wants.",
+        "Ferries on the Tallinn to Helsinki run turn round quickly, so the superintendent and the chief officer usually agree a short list of priority spaces in advance: ramp and car-deck areas, ballast tanks adjacent to the ice belt and sea-water lines in the engine room. If the schedule slips, the list is cut from the bottom rather than the readings being rushed, and the remaining spaces are completed on the next call.",
+        "Muuga and Sillamäe suit longer stays for tankers and bulk carriers waiting for cargo or berth space. Those waiting periods can be used for tank cleaning and gauging together, provided the terminal allows the work and the ship's agent confirms the berth time. The report is issued to the owner once the readings have been checked against the thickness measurement plan."
+      ]
+    },
+    {
+      "id": "ee-services",
+      "h": "Which services are asked for here",
+      "p": [
+        "Ultrasonic thickness measurement of the ice belt, bottom plating and ballast tanks is the most common request, along with pre-docking gauging for steel estimates. Ferry operators ask for car-deck and ramp area checks, and tanker owners ask for tank wall readings tied to the survey cycle.",
+        "For scrubber-fitted ships, wash-water and overboard pipework is measured between dockings. Buyers and charterers ask for condition checks on second-hand short-sea tonnage, and where wastage is widespread the report states how it compares with the allowance and where renewal is advised."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements for tankers and bulk carriers",
+    "Paris Memorandum of Understanding on Port State Control",
+    "MARPOL Annex VI, regulation 14: sulphur limits and the Baltic Sea Emission Control Area",
+    "EU Ship Recycling Regulation and the inventory of hazardous materials",
+    "Finnish-Swedish ice class rules and the ice-belt plating they require"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's plan: as-built, measured and diminution at every point",
+    "Ice-belt and bottom plating readings compared with as-built thickness",
+    "Steel renewal estimate with plates marked for renewal",
+    "Piping and scrubber line condition report by spool and joint",
+    "Preliminary readings shared during the job on request"
+  ],
+  "industries": [
+    "Ro-pax ferries",
+    "Cruise ships",
+    "Product tankers",
+    "Dry bulk carriers",
+    "Feeder container ships",
+    "Short-sea cargo ships",
+    "Ship managers and technical superintendents",
+    "Repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Which Estonian ports do you cover for ship thickness measurement?",
+      "a": "Tallinn, Paldiski, Sillamäe and Pärnu each have a page. Tallinn includes the city harbour and Muuga. The work is done on the vessel, so a ship calling at another Estonian harbour can usually be planned too, depending on the berth, access arrangements and the time available."
+    },
+    {
+      "q": "Why does ice matter for thickness measurement?",
+      "a": "Ice abrasion wears the plating around the waterline, the ice belt, and ships trading in the Baltic through winter lose steel faster there than in open water. Gauging the belt before and after the season shows how much the winter has taken, and helps the owner decide whether repair can wait."
+    },
+    {
+      "q": "Do I need a Schengen visa to work on a ship in Estonia?",
+      "a": "Because Estonia is a Schengen state, a Schengen visa of the right category covers entry. We confirm which one fits the job when the call is known, and the programme is timed around the visa. Shore passes and port access come through the ship's agent."
+    },
+    {
+      "q": "Are scrubbers common on ships calling in Estonia?",
+      "a": "Yes, on the larger ships, because the Baltic is a Sulphur Emission Control Area with a 0.10% fuel limit. Scrubbers let a ship keep burning higher-sulphur fuel, so wash-water and overboard pipework is gauged between dockings, which finds wall loss before it turns into a leak."
+    },
+    {
+      "q": "Does cold weather affect the readings?",
+      "a": "It affects how the work is done rather than the result. Low temperatures change how couplant and gauges behave, so spaces are brought to a workable temperature, equipment is kept warm between readings and calibration is checked on the spot. Readings are reported against as-built thickness in the same format as in any other season."
+    }
+  ]
+}

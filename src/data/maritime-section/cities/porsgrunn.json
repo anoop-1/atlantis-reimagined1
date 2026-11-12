@@ -1,0 +1,109 @@
+{
+  "slug": "porsgrunn",
+  "name": "Porsgrunn",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Porsgrunn Ship Thickness Measurement | Gas, Chemical and CO2",
+  "description": "Thickness measurement in Porsgrunn and Grenland for gas carriers, CO2 and ammonia ships, chemical tankers and cement carriers: ballast, hull, deck and piping.",
+  "h1": "Ship Thickness Gauging in Porsgrunn and the Grenland Industrial Ports",
+  "intro": "Porsgrunn is the centre of Grenland, the industrial district around the Frierfjord whose port spans Skien, Porsgrunn, Brevik and Langesund. Gas carriers deliver feedstock to the petrochemical plant at Rafnes, fertiliser moves through Herøya, and liquefied CO2 leaves the Brevik cement works for storage beneath the North Sea. Specialised ships making frequent calls need steady attention to hull and piping. Technicians are flown in from India for every Grenland job; nobody from Atlantis is based in the district.",
+  "keywords": [
+    "porsgrunn thickness measurement",
+    "grenland ship inspection",
+    "gas carrier gauging",
+    "co2 carrier inspection",
+    "ammonia carrier ballast tank gauging",
+    "chemical tanker utm norway",
+    "cement carrier hull gauging",
+    "brevik ship inspection",
+    "herøya port",
+    "ultrasonic thickness measurement telemark"
+  ],
+  "highlights": [
+    {
+      "h": "Ethane and LPG for Rafnes",
+      "p": "The cracker at Rafnes runs on ethane and LPG delivered by gas carriers, many of them on short, repeated voyages from Norwegian gas terminals. Ballast tanks and deck structure on these frequent callers can be gauged in stages over successive calls instead of in one long stop."
+    },
+    {
+      "h": "Liquefied CO2 from Brevik",
+      "p": "Since mid-2025 the cement plant at Brevik has captured CO2, liquefied it and loaded it into dedicated carriers bound for the Northern Lights terminal at Øygarden. These new ships have pressure tanks and ballast spaces that owners will want to track from the first survey onwards."
+    },
+    {
+      "h": "Cement and fertiliser in bulk",
+      "p": "Cement carriers loading at Brevik and bulk ships handling fertiliser at Herøya carry cargoes that attack steel in different ways: cement dust abrades and cakes, while fertiliser residues draw in moisture and turn corrosive once wet. Hold and tank-top gauging has to allow for both."
+    }
+  ],
+  "port": {
+    "h": "Grenland: four harbours on one fjord system",
+    "p": [
+      "The port of Grenland is run as a single inter-municipal port for Skien, Porsgrunn and Bamble, with four harbours: Skien at the top of the river, Porsgrunn, the Grenland Terminal at Brevik and Langesund near the open sea. Ships enter from the Skagerrak past Langesund, continue through the Langesundsfjord towards Brevik and into the Frierfjord, and those bound for Porsgrunn and Skien carry on up the narrower waters of the river. Pilotage applies to most commercial ships in these confined approaches, and the inner reaches set limits on size that keep the largest ships at the outer berths. Industrial quays belonging to the big plants sit alongside the public terminals, so a ship's agent in Grenland often deals with a plant's own marine department as much as with the port authority.",
+      "Grenland's shipping follows its industry. At Rafnes in Bamble, the ethylene cracker and polymer plants receive ethane and LPG by gas carrier. Herøya Industrial Park in Porsgrunn, the former Norsk Hydro site, hosts Yara's large mineral-fertiliser plant, which brings bulk ships, general cargo ships and gas carriers to its quays. At Brevik, the cement plant ships cement along the coast and, since June 2025, loads liquefied CO2 captured from its kiln into carriers that take it to Øygarden near Bergen for permanent storage beneath the seabed. The Grenland Terminal at Brevik handles containers and general cargo, Langesund has a ferry link to Denmark, and chemical and product tankers serve the district's plants and fuel installations, giving the port an unusually high share of specialised tonnage for its size.",
+      "These trades produce frequent, regular calls rather than long stays. A gas carrier on a dedicated feedstock run may arrive every week or two, discharge in a day and sail again; a CO2 carrier shuttles between Brevik and Øygarden; cement carriers load and leave. The ships are specialised, their cargo areas are hazardous or pressurised, and their managers rarely want a ship held at a berth that the plant needs for the next cargo. Gauging is therefore planned in stages: a ballast tank or two per call, deck and piping work while the ship lies at the berth, and the cargo-containment work at the docking. Weather in the sheltered fjord rarely stops work alongside, so the binding constraint at Grenland is usually the berth programme of the plants rather than wind or sea."
+    ]
+  },
+  "facilities": {
+    "h": "Industrial berths, terminals and lay-by options in Grenland",
+    "p": [
+      "Most gauging in Grenland happens alongside at the plant berths, under the plant's own safety regime as well as the ship's. At gas and ammonia berths, electronic equipment may be restricted in hazardous zones on deck, and the team agrees with the terminal and the master which spaces can be entered and which instruments are allowed where. Ballast tanks, the engine room, the steering gear flat and piping around the accommodation are usually accessible; cargo tanks, compressor rooms and areas inside the hazardous zones are left for gas-free conditions. Cement and bulk berths are simpler, with holds reached once discharge or loading has stopped and the space has been ventilated.",
+      "Grenland is not a major docking centre for these ships. Gas carriers, CO2 carriers and chemical tankers dock at specialised yards in northern Europe or further afield, and cement carriers and coasters at yards on the Norwegian and Danish coasts. A ship with a longer stay, perhaps waiting for a berth or for cargo, can lie at a lay-by quay or at anchor in the outer fjord, which opens the chance to gauge spaces that need more preparation. Pre-docking readings taken in Grenland give the yard and the class surveyor an early view of the steel work to come."
+    ],
+    "list": [
+      "Rafnes gas berths — ballast tank, deck and engine-room piping gauging on ethane and LPG carriers, within the terminal's hazardous-zone rules.",
+      "Herøya industrial quays — hold, tank-top and coaming readings on fertiliser bulk ships, and ballast work on gas carriers serving the plant.",
+      "Brevik cement and CO2 berths — hull, ballast tank and machinery piping measurements on cement carriers and liquefied CO2 carriers.",
+      "Grenland Terminal at Brevik — scrubber pipework, deck and void-space gauging on container and general cargo ships during cargo work.",
+      "Outer-fjord anchorage and lay-by quays — longer scopes on ships waiting for a berth, arranged through the agent.",
+      "Owner-selected docking yards — renewal survey gauging and crack detection on cargo containment, following pre-docking work in Grenland."
+    ]
+  },
+  "context": {
+    "h": "Gas-carrier, CO2 and chemical regulation behind Grenland gauging",
+    "p": [
+      "Port state control in Grenland is carried out by the Norwegian Maritime Authority under the Paris MoU, and because tankers and gas carriers are among the ship types weighted in Paris MoU targeting, the ships calling here see inspectors regularly. Chemical and oil tankers are ESP ships, so their renewal surveys bring extended gauging and close-up survey of cargo and ballast tanks as they age. Gas carriers sit outside the ESP Code but follow class rules for liquefied gas carriers, where hull gauging concentrates on ballast tanks, the double bottom, hold spaces and deck, and the cargo tanks are examined under the gas-carrier survey requirements. Ammonia carriers bring an added concern: carbon-manganese steel in ammonia service can suffer stress corrosion cracking, so owners look for cracks at cargo tank welds when the tanks are opened, usually at a docking.",
+      "Liquefied CO2 shipping is new, and the ships serving Brevik are among the first purpose-built carriers for carbon capture and storage, with pressurised cargo tanks holding CO2 at low temperature. Their hulls and ballast systems are conventional steel structures, and owners will want baseline readings early so that corrosion can be tracked from the start rather than discovered at a later renewal survey. Norway was the first country to ratify the Hong Kong Convention on ship recycling, which entered into force in June 2025. For older tankers and bulk ships calling in Grenland, the Inventory of Hazardous Materials required for ships trading to EU ports and the gauging programme often share the same docking."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs we see in Grenland",
+    "p": "Grenland work tends to be staged and repetitive rather than one large programme. Frequent callers lend themselves to a rolling plan: a few ballast tanks on each call, so that by the time the ship goes to dock the owner already knows where steel renewal will be needed. Specialised ships need careful coordination between the terminal, the master and the superintendent on which spaces and instruments are allowed. Bulk and cement ships, by contrast, offer straightforward hold access once cargo work stops. All of it is reported against the ship's own thickness measurement plan, so readings from separate calls build into one record for the survey. Typical scopes include:",
+    "list": [
+      "Rolling ballast tank gauging on an ethane carrier serving Rafnes, two or three tanks per call, ahead of its renewal survey.",
+      "Baseline hull and ballast tank readings on a liquefied CO2 carrier at Brevik, to start a corrosion history early in the ship's life.",
+      "Hold, tank-top and hatch coaming gauging on a bulk ship after discharging or loading fertiliser at Herøya.",
+      "Hold plating, tank-top and deck structure measurements on a cement carrier between loadings at Brevik.",
+      "Magnetic particle testing of cargo tank welds on an ammonia carrier in dock, combined with hull gauging and building on pre-docking readings taken in Grenland."
+    ]
+  },
+  "logistics": "Sandefjord Airport Torp is the closest airport with international flights, and Oslo Airport at Gardermoen is the main alternative, with rail and road links to Porsgrunn and Skien. The plant berths at Rafnes, Herøya and Brevik each require their own induction and work permits in addition to ISPS access, so the ship's agent and the plant need the team's details well before the call. Norway is a Schengen country; the technicians travelling from India apply for Schengen visas, and frequent callers on fixed rotations make the planning straightforward.",
+  "vessels": [
+    "Ethane and LPG carriers",
+    "Ammonia carriers",
+    "Liquefied CO2 carriers",
+    "Chemical tankers",
+    "Product tankers",
+    "Cement carriers",
+    "Bulk carriers",
+    "Container and general cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can you work on a gas carrier at the Rafnes or Herøya berths?",
+      "a": "Yes, within the terminal's and the ship's safety rules. That usually means ballast tanks once certified for entry, the engine room, the steering gear flat and deck structure outside the hazardous zones. Electronic equipment may be restricted on parts of the deck, so we agree permitted areas and instruments with the terminal and the master in advance. Cargo tanks and the hold spaces around them are measured at the docking, when they are gas-free."
+    },
+    {
+      "q": "What should be measured on a new liquefied CO2 carrier?",
+      "a": "A baseline of ballast tanks, double bottom, deck plating and machinery-space piping, taken early in the ship's life so that later readings can be compared with known values. CO2 carriers are new to this trade, and the owner's own data on how their hull and ballast systems corrode will be more useful than assumptions borrowed from other ship types."
+    },
+    {
+      "q": "Is stress corrosion cracking a gauging issue on ammonia carriers?",
+      "a": "It is a crack-detection issue rather than a thickness one. Ammonia can cause stress corrosion cracking in carbon-manganese steel cargo tanks, so owners have tank welds examined, typically by magnetic particle testing, when the tanks are gas-free at a docking. Thickness measurement of the hull and ballast spaces is normally done in the same docking, and both can be planned together."
+    },
+    {
+      "q": "How can a frequent caller be gauged without delaying cargo?",
+      "a": "By splitting the scope across calls. We agree a sequence with the superintendent, the master prepares one or two ballast tanks before each arrival, and the team measures them while cargo is discharged. Where calls are close together the team can remain in Grenland between them; otherwise the staged scope is grouped into fewer, larger visits. The readings follow the same frame and strake references and combine into one report."
+    }
+  ],
+  "nearby": ["larvik", "kristiansand", "fredrikstad", "oslo", "hirtshals"]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "trondheim",
+  "name": "Trondheim",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Ultrasonic Thickness Gauging in Trondheim | Coastal Fleet",
+  "description": "Ultrasonic thickness gauging in Trondheim for coastal express ships, cargo ships, well boats and research vessels: hull, hold, tank and piping UTM.",
+  "h1": "Ship Thickness Measurement in Trondheim and the Trondheimsfjord Ports",
+  "intro": "Trondheim, the main city of mid-Norway, lies on the Trondheimsfjord, a long and sheltered fjord whose ports serve industry, fish farming and the coastal express. Cargo ships calling at the industrial quays along the fjord, well boats and feed carriers from the salmon farms of Hitra and Frøya, and the university's research vessels all use these waters. For every Trondheim job we mobilise technicians from India and send them directly to the berth, quay or yard where the vessel is lying.",
+  "keywords": [
+    "trondheim thickness gauging",
+    "utm trondheim",
+    "ship inspection trondheim",
+    "trondheimsfjord ship gauging",
+    "coastal express ship inspection",
+    "aquaculture vessel thickness measurement",
+    "well boat gauging mid norway",
+    "bulk carrier gauging norway",
+    "research vessel inspection",
+    "hull gauging trondheim"
+  ],
+  "highlights": [
+    {
+      "h": "Coastal express ships in both directions",
+      "p": "The coastal express calls at Trondheim northbound and southbound every day. These passenger ships run to a fixed timetable, so engine-room piping, tanks and accessible structure are measured during planned technical stops rather than during an ordinary call."
+    },
+    {
+      "h": "Industrial quays along the fjord",
+      "p": "Bulk carriers and general cargo ships load and discharge at industrial ports around the fjord that serve smelters, a paper mill and the timber and building-materials trades. Hatch coamings, deck plating and ballast tanks can often be measured while cargo work goes on."
+    },
+    {
+      "h": "Salmon farming fleet of Hitra and Frøya",
+      "p": "The islands west of Trondheim hold one of Norway's largest concentrations of salmon farms. Well boats, feed carriers and service vessels supporting them come in for maintenance, which brings gauging work on fish tanks, circulation lines and seawater systems."
+    }
+  ],
+  "port": {
+    "h": "Trondheim and the ports of the Trondheimsfjord",
+    "p": [
+      "Trondheim lies on the south shore of the Trondheimsfjord, one of the longest fjords in Norway, which runs far inland from the Norwegian Sea. Ships enter at Agdenes, where the fjord narrows, and follow a deep, sheltered fairway to the city and on to the ports further in. The port authority's harbours are spread around the fjord, from Orkanger in the south-west to the industrial quays of the inner fjord, so a ship described as being in Trondheim may in practice lie at one of several locations some distance apart by road. The main fairways remain open through the winter, and ice is not a regular problem for shipping in the fjord, which is one reason it has carried trade for so long.",
+      "The traffic is varied rather than heavy. Coastal express ships call daily in both directions, and cruise ships visit through the summer at quays near the city centre. Container and general cargo ships link the region with the continent, while bulk carriers serve industry around the fjord, carrying raw materials and products for smelters, the paper mill at Skogn and the timber and building-materials trades. Fish farming has turned the waters west of the city, around Hitra and Frøya, into a centre for well boats, feed carriers and aquaculture service vessels. NTNU, the university, operates research vessels from Trondheim, and the city has a strong community in marine technology research and ship design.",
+      "Most ships call in Trondheim for cargo, passengers or supplies and leave within a day or two, so gauging has to be fitted to the stay. Longer windows come from vessels laid up in the fjord, research vessels between cruises, aquaculture vessels in for maintenance and ships at the repair workshops around the fjord. Winter brings short days and storms on the outer coast, which can delay ships entering the fjord, while the inner fjord itself is sheltered. Summer is the busy season for cruise and passenger traffic, and the autumn and winter months are when coastal and research vessels tend to schedule their maintenance, which is when most of the longer jobs here take place."
+    ]
+  },
+  "facilities": {
+    "h": "Berths, industrial quays and repair options around the fjord",
+    "p": [
+      "In the city, the quays near the centre handle the coastal express and cruise ships, and the commercial port handles container and general cargo. Industrial quays around the fjord, at Orkanger and further in, serve bulk carriers and cargo ships calling for the plants they supply. During discharge or loading, empty holds, hatch coamings, deck plating and ballast tanks can be gauged, provided the ship's crew and the terminal agree the access and the order of work.",
+      "Repair work is spread among smaller yards and workshops around the fjord and on the outer coast, which maintain ferries, fishing and aquaculture vessels and other coastal craft. Larger vessels go to the yards of the Møre coast or further afield for dry-docking, chosen by the owner. Aquaculture vessels often come to quays near the fish farms or to sheltered berths inside the fjord for maintenance, and idle ships can lie at moorings in the fjord's sheltered arms, where they are reached by boat."
+    ],
+    "list": [
+      "City quays — engine-room piping, tanks and accessible structure on coastal express and cruise ships during planned technical stops.",
+      "Commercial port — deck, hold and ballast tank gauging on container and general cargo ships during cargo work.",
+      "Industrial quays around the fjord — hold, hatch coaming and ballast tank readings on bulk carriers serving the region's plants.",
+      "Maintenance quays for aquaculture vessels — fish tank, circulation piping and pump foundation gauging on well boats and feed carriers.",
+      "Research vessel berths — hull, tank and piping measurement on research ships between cruises.",
+      "Lay-up moorings in the fjord — reactivation gauging on idle ships, reached by boat."
+    ]
+  },
+  "context": {
+    "h": "Port state control, passenger ship rules and fjord industry",
+    "p": [
+      "Trondheim lies well north of 62°N, outside the North Sea emission control area. The Norwegian Maritime Authority carries out port state control on foreign ships under the Paris MoU, and it is also the flag authority for most of the coastal fleet in these waters: coastal express ships, ferries, aquaculture vessels and fishing vessels. Passenger ships on Norwegian coastal routes are surveyed under demanding domestic and international rules, and their operators keep thorough records of structural condition, because a structural finding at the wrong moment can take a ship out of a fixed timetable.",
+      "The coastal fleet in this region has been through a wave of technical change: hybrid and battery systems on coastal express ships and ferries, LNG on some cargo and passenger vessels, and larger, more complex well boats. Retrofits usually reuse older hulls, which raises the question of what condition the existing steel is in before new loads, tanks and foundations are added. Among the bulk carriers and cargo ships calling at the fjord's industrial ports, older tonnage under foreign flags is common, and owners can use a call here to collect thickness data for an approaching intermediate or renewal survey."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs in Trondheim and around the fjord",
+    "p": "Trondheim work is spread across several kinds of vessel and several locations, and each job is planned around a specific stay. Coastal express and passenger ships are measured during planned technical stops, cargo ships during cargo work at the city port or an industrial quay, and aquaculture and research vessels during maintenance periods. The superintendent sets the priorities with us, the agent arranges access and, where the vessel lies away from the city, we plan the team's road transport to that quay. Readings are reported to the superintendent as the work proceeds. Typical jobs include:",
+    "list": [
+      "A coastal express ship during a technical stop: seawater cooling and fire-main piping measured in the engine room, with sections below minimum thickness identified for renewal.",
+      "A bulk carrier discharging at an industrial quay: empty holds, hatch coamings and topside tanks gauged ahead of the ship's intermediate survey.",
+      "A well boat in for maintenance: fish tank structure, circulation lines and pump foundations measured, with crack detection at the foundations.",
+      "A research vessel between cruises: shell plating around transducer and equipment openings, tanks and piping gauged for the owner's maintenance plan.",
+      "A general cargo ship laid up in the fjord: reactivation survey gauging of holds, ballast tanks and hull structure before a return to trading."
+    ]
+  },
+  "logistics": "Trondheim Airport, Værnes, east of the city, has frequent domestic flights and direct links to several European hubs, which makes it the natural arrival point; the industrial ports around the fjord are reached by road from there. Port access is arranged by the ship's agent, and work at a yard by the yard on the owner's request. Norway is part of the Schengen area, so the team from India travels on Schengen visas, and owners planning a technical stop or maintenance period should give notice as soon as the dates are fixed.",
+  "vessels": [
+    "Coastal express ships",
+    "Cruise ships",
+    "Container and general cargo ships",
+    "Bulk carriers",
+    "Well boats and feed carriers",
+    "Aquaculture service vessels",
+    "Research vessels",
+    "Ferries"
+  ],
+  "faqs": [
+    {
+      "q": "Can a coastal express ship be gauged during its Trondheim call?",
+      "a": "Not during an ordinary call, which is too short for safe tank entry or system shutdowns. The practical windows are planned technical stops and maintenance periods, when the operator can shut down piping systems and open tanks. Within those periods, engine-room piping, tanks and accessible structure can be measured, and we plan the work with the ship's technical staff in advance."
+    },
+    {
+      "q": "Which Trondheimsfjord ports can you reach?",
+      "a": "Any of them. The port authority's harbours extend around the fjord, and a ship may lie at the city quays, at Orkanger or at an industrial quay further in. The team travels by road from Værnes or from the city to the quay where the vessel lies, and the agent arranges access. Telling us the exact berth early helps us plan transport and timing."
+    },
+    {
+      "q": "Do you inspect aquaculture vessels from Hitra and Frøya?",
+      "a": "Yes. Well boats, feed carriers and service vessels working the farms around Hitra and Frøya can be measured during maintenance, whether at a quay near the farms or inside the fjord. Fish tanks, circulation piping, sea chests and pump foundations are the usual priorities, and the owner gets a measured basis for planning the next yard visit."
+    },
+    {
+      "q": "Can cargo holds be gauged during discharge at a Trondheim industrial quay?",
+      "a": "Often, once a hold is empty and safe access has been arranged with the ship and the terminal. Hatch coamings, deck plating and topside tanks are accessible during cargo work, and empty holds can be measured as soon as discharge is complete, provided the hold atmosphere is safe. We agree the order of holds with the chief officer so that the work follows the discharge."
+    }
+  ],
+  "nearby": ["kristiansund", "alesund", "sandnessjoen", "bodo"]
+}

@@ -10089,7 +10089,7 @@ routes.push(...cycleRoutes());
 routes.push(...caseStoryRoutes());
 routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator (scripts/ascan-simulator-2026-10.mjs)
 routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (scripts/inspection-section-2026-10.mjs)
-routes.push(...maritimeSectionRoutes()); // 2026-11-07: /maritime-inspection section (scripts/maritime-section-2026-11.mjs)
+routes.push(...maritimeSectionRoutes()); // 2026-11-07: maritime section, at /maritime since 2026-11-10 (scripts/maritime-section-2026-11.mjs)
 routes.push(...consultingSectionRoutes()); // 2026-10-19: Level III consulting topic pages (scripts/consulting-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
@@ -12764,6 +12764,7 @@ function categorizeRoute(path) {
       path === '/privacy' || path === '/privacy-policy' || path === '/terms' || path === '/services') {
     return 'core';
   }
+  if (path === '/maritime' || path.startsWith('/maritime/')) return 'maritime'; // 2026-11-10
   if (path.startsWith('/blog/')) return 'blog';
   if (path.startsWith('/ndt-consulting-') || (path.startsWith('/consulting/') && path !== '/consulting')) {
     return 'consulting-locations';
@@ -14554,7 +14555,7 @@ try {
 
 // ─── Write all sitemaps ────────────────────────────────────────────────────
 
-const categories = ['core', 'blog', 'consulting-locations', 'methods', 'digital-twins', 'training', 'other'];
+const categories = ['core', 'blog', 'consulting-locations', 'methods', 'digital-twins', 'training', 'maritime', 'other'];
 const sitemapUrls = [];
 
 // Generate each category sitemap

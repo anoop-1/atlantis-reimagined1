@@ -1,0 +1,119 @@
+{
+  "slug": "a-coruna",
+  "name": "A Coruña",
+  "country": "Spain",
+  "region": "europe",
+  "title": "A Coruña Ship Thickness Gauging | UTM at Punta Langosteira",
+  "description": "Ultrasonic thickness gauging in A Coruña: tankers at the Punta Langosteira outer port, bulk carriers, cruise ships and fishing vessels, hull and tank UTM.",
+  "h1": "A Coruña UTM: Ship Thickness Gauging at the Inner and Outer Port",
+  "intro": "A Coruña has two harbours: the old inner port beside the city, with cruise and fishing quays, and the outer port at Punta Langosteira, built for tankers and bulk cargo serving the refinery and industry beyond. Ships here are mostly liquid and dry bulk, with fishing and cruise traffic. Our ultrasonic thickness technicians travel from India to the ship, gauging tanks, decks and shell at either port.",
+  "keywords": [
+    "a coruña ship thickness gauging",
+    "ultrasonic thickness measurement a coruña",
+    "utm punta langosteira",
+    "tanker thickness gauging galicia",
+    "ship inspection a coruña",
+    "bulk carrier gauging a coruña",
+    "cruise ship piping gauging a coruña",
+    "ballast tank gauging a coruña",
+    "coruña outer port hull gauging",
+    "fishing vessel utm a coruña"
+  ],
+  "highlights": [
+    {
+      "h": "Tankers at the outer port",
+      "p": "Crude and product tankers serve the refinery through the outer port. Gauging during cargo stops follows the terminal's permit rules and concentrates on deck, pump room and ballast tank structure."
+    },
+    {
+      "h": "Two ports, one mobilisation",
+      "p": "The inner harbour and Punta Langosteira are a short road apart. Ships at either can be covered by the same team, with the plan shifting as berths and cargo timings move."
+    },
+    {
+      "h": "Cruise and fishing in the old harbour",
+      "p": "Cruise ships use the inner quays on short calls, and fishing vessels work from the traditional harbour. Both bring tight windows, so readings are agreed in advance against what the ship can release."
+    }
+  ],
+  "port": {
+    "h": "A Coruña's inner harbour and the Punta Langosteira outer port",
+    "p": [
+      "A Coruña's old port occupies a peninsula on Galicia's north-western coast, with quays along the city's waterfront facing a sheltered inlet. Over decades the heavy industrial traffic outgrew that site, and the port authority built a new outer port at Punta Langosteira, a few miles along the coast and protected by a large breakwater. The newer harbour takes ships that the old one never could, in deeper water and with space for bulk terminals and energy infrastructure, while the inner port keeps the city-centre functions: cruise calls, the fishing fleet and a smaller cargo trade.",
+      "The traffic follows that division. Crude oil for the refinery and its petroleum products travel through the outer port on tankers of varied size, and dry bulk cargoes such as coal, grain and other raw materials arrive on bulk carriers to supply regional industry. General cargo and project cargo move through both harbours, and offshore wind components have become a growing interest, with the outer port set aside for that industry's marshalling and fabrication needs. The inner harbour handles cruise ships on transatlantic and northern European itineraries, trawlers and coastal fishing boats, and ferries and smaller craft working along the coast.",
+      "Weather defines operations. The north-western corner of Spain takes Atlantic storms from autumn to spring, and the outer port's breakwater is exposed to heavy swell that can stop berthing, loading and boarding for days. Ships arriving after a hard crossing of the Bay of Biscay often show the strain in ballast tanks, deck plating and forward structure. For a surveyor, the harbour pair gives variety, because a tanker at Punta Langosteira and a cruise ship in the old port may need work on the same day, and flexible scheduling is a requirement rather than a luxury."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens at A Coruña",
+    "p": [
+      "Most gauging takes place alongside. At the outer port, tankers at the energy berths are measured within the terminal's permit-to-work regime, with deck, pump room and ballast tank readings taken during cargo operations and cargo tanks measured only when gas-free. Bulk carriers at the dry bulk berths allow hold and tank access as discharge progresses, and the long quays give room for systematic readings on frames, hopper tanks and bulkheads. In the inner harbour, cruise ships on the city quays are gauged within their call, and fishing vessels are measured at their own berths.",
+      "A Coruña has repair capacity for small and medium ships in the inner harbour, but large merchant ships needing a docking generally go to a yard in Ferrol, Vigo or elsewhere on the coast. Readings taken at A Coruña become a steel list that goes ahead of the ship, giving the yard a measured starting point. Anchorage work in the bay is possible in moderate conditions with a launch from the agent, though the Atlantic swell restricts it in winter. The gauges and magnetic particle yokes travel with the technicians as personal equipment."
+    ],
+    "list": [
+      "Punta Langosteira energy berths — deck, pump room, ballast tank and piping gauging on crude and product tankers under terminal permits",
+      "Outer-port dry bulk berths — hold frame, hopper tank and ballast tank readings on bulk carriers during discharge",
+      "Outer-port general and project cargo quays — deck and coaming readings on cargo ships, including wind component carriers",
+      "Inner-harbour cruise quays — tank, machinery-space and scrubber piping gauging within the call",
+      "Fishing harbour berths — hull, hold boundary and tank gauging on trawlers and coastal vessels",
+      "Bay anchorage — launch-served readings on waiting ships in moderate conditions, with steel lists sent to onward yards"
+    ]
+  },
+  "context": {
+    "h": "Coastal administration, offshore wind and EU requirements",
+    "p": [
+      "Port state control at A Coruña falls under the Paris MoU, with inspections carried out by the Spanish maritime administration, the Dirección General de la Marina Mercante, through the Capitanía Marítima. Tankers calling at the outer port are of interest to inspectors, particularly older ones, and a measured set of ballast tank and deck readings before arrival is a practical protection for the owner. The Galician coast has a history of serious casualties, which keeps the authorities and the public attentive to the condition of tankers and bulk ships on these approaches.",
+      "EU measures add to the picture. Under the EU's ship recycling rules a hazardous-materials inventory must be on board whenever a ship enters its ports; emissions trading has covered shipping since 2024 and FuelEU Maritime since 2025, so owners with ageing tankers weigh these obligations against the remaining life of their steel. The outer port's role in Spain's plans for offshore wind brings in heavy-lift and installation vessels, whose structures take unusual loads, and gauging those ships before a campaign is a way for charterers to confirm that the hulls are fit for it."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at A Coruña",
+    "p": "Work at A Coruña centres on tankers and bulk carriers at the outer port, with cruise and fishing work in the old harbour. The superintendent provides the survey status and the compartments of concern, we check with the agent and terminal what the cargo plan permits, and the technicians travel from India once the stay is firm. Because the two harbours are separate, the plan names the berth and the access arrangements. Typical requests include:",
+    "list": [
+      "Ballast tank and deck gauging on a product tanker at the outer port during cargo operations, preparing for the next survey.",
+      "Condition gauging of an older crude tanker for an owner weighing life extension against sale, covering ballast tanks and cargo tanks once gas-free.",
+      "Hold frame and hopper tank readings on a bulk carrier discharging coal at the dry bulk berths, ahead of its special survey.",
+      "Scrubber wash-water and overboard piping gauging on a cruise ship during a call in the inner harbour.",
+      "Hull and ballast tank gauging on a heavy-lift vessel before an offshore wind component campaign, to document the structure's state for the charterer."
+    ]
+  },
+  "logistics": "A Coruña's own airport, Alvedro, serves the area, with Santiago de Compostela airport as an alternative; technicians commonly connect through Madrid or Lisbon from India. The outer port is a road journey along the coast from the city. The ship's agent arranges ISPS passes at both harbours and a launch for any anchorage visit. Spain is part of the Schengen area, so each technician needs a visa obtained in India, applied for once the ship's stay is confirmed and supported by an invitation naming the vessel. Storm delays are common, so flights are booked late.",
+  "vessels": [
+    "Crude oil tankers",
+    "Product tankers",
+    "Dry bulk carriers",
+    "General and project cargo ships",
+    "Wind component carriers and heavy-lift vessels",
+    "Cruise ships",
+    "Fishing vessels",
+    "Coastal ferries and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Which of A Coruña's two ports will my ship use?",
+      "a": "Tankers and bulk carriers generally use the outer port at Punta Langosteira, while cruise ships and fishing vessels use the older inner harbour. Your ship's agent will confirm the berth. We plan access around the terminal concerned, and a single mobilisation can cover both harbours where timing allows."
+    },
+    {
+      "q": "Can cargo tanks be gauged while a tanker is alongside?",
+      "a": "Cargo tanks can be measured only when they are gas-free and the terminal's permit rules are met, which usually means after discharge and cleaning. Deck, pump room and ballast tank readings can often be taken during cargo operations, so we plan the work in stages that follow the cargo plan."
+    },
+    {
+      "q": "Is there a drydock at A Coruña for large ships?",
+      "a": "Not for large merchant ships. Small and medium vessels can be repaired in the inner harbour, but bigger ships usually go to Ferrol, Vigo or another yard on the coast. We gauge at A Coruña and prepare the steel list so the yard can plan the docking from measured plate."
+    },
+    {
+      "q": "Does winter weather stop gauging at the outer port?",
+      "a": "Heavy swell can interrupt berthing, boarding and cargo work for days at the exposed outer port. We keep the plan flexible and confirm sea state with the agent before travel. Compartments inside the ship are unaffected by weather once the team is aboard, but getting to the ship is the constraint."
+    },
+    {
+      "q": "Can you gauge ships working on offshore wind projects?",
+      "a": "Yes. Heavy-lift, installation and component-carrier vessels take unusual loads, and charterers sometimes want an independent record of hull condition before a campaign. We measure decks, ballast tanks and hold structure alongside, and report compartment by compartment so the results can support the charterer's vessel acceptance."
+    }
+  ],
+  "nearby": [
+    "ferrol",
+    "vigo",
+    "marin",
+    "gijon",
+    "viana-do-castelo"
+  ]
+}

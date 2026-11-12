@@ -31,6 +31,16 @@
       ]
     },
     {
+      "id": "nl-delta-and-north",
+      "h": "Beyond the main ports: the delta yards, the Westerschelde, the coast and the north",
+      "p": [
+        "Much of the Dutch docking capacity for smaller and specialised ships lies along the rivers of the Rhine–Maas delta rather than at the big cargo terminals. On the Nieuwe Maas at Schiedam, Damen Shiprepair Rotterdam works the old Wilton-Fijenoord site, and its covered drydock lets bottom readings be taken on dry steel whatever the weather. Upriver, Dordrecht and the other Drechtsteden towns build and repair dredgers, workboats and inland ships, so wear gauging on hoppers, bottom doors and suction pipes often runs alongside the hull programme. Moerdijk, on the Hollands Diep, is a short-sea and chemicals port where feeders and coastal chemical tankers call on fixed rotations, which lets a ballast tank programme be split across several visits.",
+        "On the Westerschelde, Terneuzen is the Dutch gateway to the Ghent canal and the chemical side of North Sea Port. Gas carriers and chemical tankers at the Dow jetties, and ammonia ships at Yara's Sluiskil plant, are gauged on deck and in ballast spaces under each terminal's permit, with cargo spaces left until the ship is gas-free; a ship that needs a dock usually crosses the estuary to Vlissingen-Oost.",
+        "On the open North Sea coast, Scheveningen is the base for pelagic freezer trawlers and for survey and support ships between offshore jobs, and its quays suit tank, void and engine-room gauging between trips. Den Helder serves the offshore supply trade for Dutch gas fields and wind farms, the Texel ferries and the navy, and the floating docks of Damen Shipyards Den Helder take ferries, offshore support ships and workboats.",
+        "In the north, Harlingen's shiplift and covered halls at Damen Shiprepair Harlingen suit coasters, ferries and fishing vessels, reached across the tidal channels of the Wadden Sea, which is an IMO Particularly Sensitive Sea Area. Delfzijl, on the Ems estuary, has the Royal Niestern Sander yard and a chemical park, so small chemical tankers and the region's multipurpose coasters make up much of its docking work. Eemshaven, its seaward partner under Groningen Seaports, is an energy and offshore wind port with a floating LNG terminal, where installation and service vessels are gauged during mobilisation and crew-change stays."
+      ]
+    },
+    {
       "id": "nl-ut-scope",
       "h": "What ultrasonic thickness measurement covers on a Dutch job",
       "p": [
@@ -50,7 +60,7 @@
       "id": "nl-planning",
       "h": "Planning a gauging job in the Netherlands",
       "p": [
-        "Send the vessel name or IMO number, the class society, the survey or purpose, the port and the dates. We reply with the measurement scope against the thickness measurement plan, the number of technicians and days needed, and the mobilisation plan. Because the team travels from India, give us the docking or arrival date as early as you can: Schengen visas and travel are arranged for each job, and the plan is built around the yard's or terminal's access windows and the ship's agent.",
+        "Start with five facts: the ship's name or IMO number, her class, what the gauging is for, the Dutch port and the expected dates. We reply with the measurement scope against the thickness measurement plan, the number of technicians and days needed, and the mobilisation plan. Because the team travels from India, give us the docking or arrival date as early as you can: Schengen visas and travel are arranged for each job, and the plan is built around the yard's or terminal's access windows and the ship's agent.",
         "On board, the team works to the ship's permit-to-work and enclosed-space entry procedures, from yard staging in dock or from the ship's own access afloat. Preliminary readings and photographs are shared daily where the superintendent wants them, so the yard can start planning steel before the final report is issued."
       ]
     }
@@ -80,7 +90,15 @@
   "faqs": [
     {
       "q": "Which Dutch ports do you cover for ship thickness measurement?",
-      "a": "Rotterdam, including Europoort, Botlek, Pernis and Maasvlakte; Amsterdam and IJmuiden along the North Sea Canal; and Vlissingen and the Zeeland side of North Sea Port. Each has its own page describing the ships that call, the yards and berths where gauging happens and the jobs we see there."
+      "a": "Rotterdam, including Europoort, Botlek, Pernis and Maasvlakte, with Schiedam, Dordrecht and Moerdijk in the delta; Amsterdam and IJmuiden along the North Sea Canal; Vlissingen and Terneuzen on the Westerschelde; Scheveningen and Den Helder on the North Sea coast; and Harlingen, Delfzijl and Eemshaven in the north. Each has its own page describing the ships that call, the yards and berths where gauging happens and the jobs we see there."
+    },
+    {
+      "q": "Do you gauge offshore wind and offshore support vessels in the Netherlands?",
+      "a": "Yes. At Eemshaven and Den Helder, installation, service operation and supply vessels are gauged while they lie alongside for mobilisation, demobilisation or a crew change: deck plating, crane and gangway foundations, sea-fastening areas and ballast or preload tanks, with magnetic particle testing on foundation welds where the owner asks for it. The work is split into packages that each fit one port stay."
+    },
+    {
+      "q": "Where do smaller ships dock for a survey in the Netherlands?",
+      "a": "Coasters, ferries, fishing vessels and workboats usually dock at the regional yards: the shiplift at Harlingen, Royal Niestern Sander at Delfzijl, the floating docks at Den Helder, the Drechtsteden yards around Dordrecht, or the floating and covered docks at Schiedam. In dock, the team follows the thickness measurement plan while the hull is dry, keeping pace with the surveyor's close-up programme."
     },
     {
       "q": "Can you gauge a ship at a Rotterdam berth before it goes into dock?",

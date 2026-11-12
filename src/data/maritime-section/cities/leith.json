@@ -1,0 +1,108 @@
+{
+  "slug": "leith",
+  "name": "Leith",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Leith Ship Thickness Measurement | UTM in Edinburgh's Port",
+  "description": "Ultrasonic thickness measurement at the Port of Leith for bulk carriers, cargo ships, cruise and offshore wind vessels: hull, tank, deck and piping gauging.",
+  "h1": "Ultrasonic Thickness Gauging for Ships Calling at the Port of Leith",
+  "intro": "Leith is Edinburgh's port on the south shore of the Firth of Forth, and most of its berths sit inside enclosed docks behind a sea lock. Grain and feed carriers, forest-product and project-cargo ships, offshore wind vessels and cruise ships all call. Because a ship inside the lock lies in still water whatever the tide is doing, Leith suits hull, tank and deck gauging during a cargo stay or a repair spell. Technicians fly in from India for each assignment and join the ship at her berth.",
+  "keywords": [
+    "leith thickness measurement",
+    "ultrasonic thickness measurement leith",
+    "port of leith ship inspection",
+    "hull gauging edinburgh",
+    "utm firth of forth",
+    "bulk carrier gauging leith",
+    "offshore wind vessel inspection leith",
+    "ship tank gauging scotland",
+    "pre-docking steel estimate forth",
+    "laid-up vessel inspection leith"
+  ],
+  "highlights": [
+    {
+      "h": "Impounded docks, steady working conditions",
+      "p": "Inside the lock the water level is held, so a ship does not rise and fall with the Forth tide. Gangways, work over the side and readings along the boot-topping can be planned without chasing the tide tables, and a long scope can run across several days without interruption."
+    },
+    {
+      "h": "Agribulk and forest-product ships in hold",
+      "p": "Grain, animal feed and timber cargoes keep bulk carriers and general cargo ships alongside for several days. Holds that are emptied first can be gauged straight away, with hopper and topside plating checked while discharge carries on in the other holds of the same ship."
+    },
+    {
+      "h": "Offshore wind fleet close to its work",
+      "p": "Wind farm construction and service vessels working off the Scottish east coast use Leith between campaigns. Deck plating under sea-fastenings, crane foundations and ballast tanks are far easier to reach once project cargo has gone ashore and the working deck has been cleared."
+    }
+  ],
+  "port": {
+    "h": "Leith: Edinburgh's enclosed deep-water port on the Forth",
+    "p": [
+      "Leith lies on the south shore of the Firth of Forth, a short distance from the centre of Edinburgh, and is run by Forth Ports alongside Grangemouth, Rosyth and Dundee. Ships approach from the North Sea past the Isle of May and Inchkeith with a Forth pilot embarked, and most of them then pass through the port's sea lock into a system of enclosed docks. That lock is the defining feature of the port for anyone planning work on board: arrivals and departures are tied to lock windows, but once inside, a ship lies at a constant level and is sheltered from the swell that easterly weather drives up the Firth. Forth Ports has also built a berth outside the lock for vessels too large to pass through it, aimed mainly at offshore wind work.",
+      "The cargo mix is broad rather than specialised. Grain and animal feed move through the port for Scotland's farms and distilleries, alongside aggregates, forest products and steel, and project cargo comes and goes on heavy-lift and multipurpose ships. Cruise ships of moderate size berth in the docks during the summer season, while the largest anchor further up the Firth and send passengers ashore by tender. In recent years the wind farms built and operated off the east coast of Scotland have brought installation vessels, cable layers and service vessels to the port. Quiet spells in the offshore market have also seen supply vessels laid up in the enclosed docks, which are calm, secure and close to the city, and those idle ships are some of the best gauging opportunities on the Forth.",
+      "The weather of the Forth sets much of the rhythm. Easterly gales can delay pilot boarding and close the approaches to small craft, and in spring and early summer the sea fog known locally as haar can roll in off the North Sea and sit over the Firth for hours, slowing launch work at the anchorages. The cruise season fills the summer, so berths are busiest then, whereas winter tends to bring longer cargo stays and more lay-ups. For thickness gauging this means the most productive work is usually done inside the lock on ships that are alongside for days, while anchorage visits are kept for short targeted scopes. Ships waiting for a berth or a lock window lie at anchor in the outer Firth, and the ship's agent books launches from the harbour when the team has to board out there."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships are gauged in Leith and on the Forth",
+    "p": [
+      "The bulk of gauging at Leith is done alongside inside the enclosed docks. The crew or the stevedores clear a hold, it is ventilated and declared safe, and the team works through frames and plating in sequence while other holds carry on discharging. Ballast tanks are opened under the ship's own entry procedures, and any fuel or cargo tank needs a gas-free certificate first. Because the docks are impounded, shell readings near the waterline can be taken from a work boat or a cherry picker on the quay without the water level shifting during the day.",
+      "For a docking, ships trading to the Forth generally look to the Babcock docks at Rosyth, a short way upriver, or to a yard across the North Sea. A Leith call before that docking is a sensible moment to take pre-docking readings, so the steel list travels to the yard with the repair specification instead of being discovered once the dock is pumped out. Laid-up ships in the docks give the longest windows of all, with time to open every tank in turn."
+    ],
+    "list": [
+      "Enclosed dock berths inside the sea lock — hold, tank and deck gauging during discharge or a repair spell.",
+      "Offshore wind berths — deck, crane foundation and ballast tank gauging between installation campaigns.",
+      "Cruise berths in the docks — piping and tank checks during a summer turnaround, when time allows.",
+      "Lay-up berths in the enclosed docks — full condition surveys on idle offshore and cargo ships.",
+      "Outer Firth anchorages — short targeted scopes by launch on ships waiting for a berth or the lock.",
+      "Rosyth drydocks upriver — follow-on gauging when a ship moves from a Leith call to a docking."
+    ]
+  },
+  "context": {
+    "h": "Port state control, UK rules and the Forth trades",
+    "p": [
+      "Ships calling at Leith come under port state control by the Maritime and Coastguard Agency, which continues to target and inspect foreign ships under the Paris MoU even though the UK has left the EU. Inspectors begin with what the crew can show them, but corroded air pipes, wasted deck plating around hatch coamings and leaking ballast lines are the kind of visible defects that turn a routine inspection into a detention. Owners whose ships trade regularly to the Forth therefore have an interest in keeping deck structure and piping in a condition that survives a walk-round, and current thickness records help answer an inspector's questions when they arise.",
+      "Outside the EU, the UK applies its own ship recycling regulations instead of the EU regulation, but a ship trading between Leith and continental ports still needs an Inventory of Hazardous Materials to call at EU ports, and half of the emissions on a voyage between Leith and an EU port fall under the EU Emissions Trading System. For the wind vessels the closer scrutiny comes from the developers and contractors who charter them, whose vessel audits ask for evidence of deck, tank and foundation condition before a campaign begins."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs that come up at Leith",
+    "p": "Work at Leith tends to follow the cargo calendar and the offshore wind season. Bulk carriers delivering grain or feed offer a few days alongside, enough for hold and topside-tank gauging when the holds are emptied in a sensible order. Wind vessels come in between campaigns with decks cleared of sea-fastenings, which is when crane pedestals and deck plating can be inspected properly. Laid-up offshore ships need a condition baseline before they go back to work or change hands. We plan each job with the superintendent and the ship's agent around the lock schedule, so the team boards as soon as the ship is through the lock and does not lose time waiting on the quay.",
+    "list": [
+      "Hold and hopper plating gauging on a grain carrier during discharge, ahead of her intermediate survey.",
+      "Deck plating and crane foundation inspection with MPI on a wind installation vessel lying in the docks between campaigns.",
+      "Reactivation survey of an offshore supply vessel laid up inside the lock: shell, tanks and sea-water piping.",
+      "Pre-purchase gauging on a multipurpose cargo ship discharging project cargo, scoped by the buyer's technical adviser.",
+      "Sea-water, fire-main and fuel piping UT on a cruise ship during a summer turnaround."
+    ]
+  },
+  "logistics": "Edinburgh Airport is the obvious arrival point, with connections through London and other European and Gulf hubs, and Leith is reached by road across the city. Teams travelling from India need UK visitor visas, so we ask for the expected call as early as possible and keep visas valid for owners who use the Forth often. The port runs under ISPS controls, so the ship's agent requests gate passes and confirms the berth and lock time; for wind vessels the charterer may also require a site induction before the team boards.",
+  "vessels": [
+    "Bulk carriers in the grain and feed trades",
+    "Multipurpose and heavy-lift cargo ships",
+    "General cargo ships with forest products and steel",
+    "Offshore wind installation and cable-lay vessels",
+    "Offshore wind service vessels",
+    "Offshore supply vessels in lay-up",
+    "Cruise ships"
+  ],
+  "faqs": [
+    {
+      "q": "Does the Leith sea lock affect when you can gauge a ship?",
+      "a": "It affects when the ship arrives and leaves rather than the work itself. We plan boarding for just after the ship comes through the lock and agree with the agent which lock window she will sail on, so the scope fits the time in between. Inside the docks the water level stays constant, which makes shell and waterline readings simpler than on a tidal berth."
+    },
+    {
+      "q": "Can you gauge a ship anchored in the Firth of Forth?",
+      "a": "Yes, for short, targeted scopes. The ship's agent arranges a launch from the harbour, and the team boards with portable gauges for deck plating, air pipes, hatch coamings and any tanks the crew have prepared. Haar and easterly swell can stop launch work, so we agree the order of priority beforehand and keep longer scopes for the time the ship spends alongside inside the lock."
+    },
+    {
+      "q": "Where would a ship calling at Leith go for drydocking?",
+      "a": "Usually to Rosyth, where Babcock's docks take commercial vessels as well as naval work, or to a yard across the North Sea. Taking readings during a Leith call means the yard receives a measured steel estimate with the docking specification, so plate can be ordered and the dock period planned around real figures rather than allowances."
+    },
+    {
+      "q": "Do you inspect offshore wind vessels at Leith between campaigns?",
+      "a": "Yes. Once project cargo and sea-fastenings are off the deck, we gauge deck plating, check crane pedestal and grillage welds by magnetic particle testing, and take readings in ballast and fuel tanks that are opened for the purpose. Results are referenced to the vessel's drawings, so the owner can answer charterer audit questions and plan repairs before the next campaign."
+    }
+  ],
+  "nearby": ["rosyth", "grangemouth", "dundee", "montrose", "newcastle", "aberdeen"]
+}

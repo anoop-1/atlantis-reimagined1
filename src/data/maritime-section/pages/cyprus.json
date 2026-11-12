@@ -1,0 +1,128 @@
+{
+  "slug": "cyprus",
+  "navLabel": "Cyprus",
+  "title": "Ship Thickness Measurement in Cyprus | UTM at Limassol & Larnaca",
+  "description": "Ship thickness measurement in Cyprus: UTM and hull gauging at Limassol, Larnaca and Vasilikos, and for Limassol-managed ships docking abroad.",
+  "h1": "Ship Thickness Measurement in Cyprus",
+  "eyebrow": "Maritime inspection · Cyprus",
+  "intro": "Cyprus matters to ship gauging in two ways. Limassol is one of the world's main centres of third-party ship management, so many of the superintendents who commission thickness measurement for ships trading worldwide work there. And the island's own ports, Limassol, Larnaca and the energy port at Vasilikos, see container ships, tankers, cargo ships and a steady flow of ships stopping off the coast for crew changes, stores and bunkers. Atlantis mobilises its team from India for each job, either to a ship calling in Cyprus or to wherever a Cyprus-managed ship is docking.",
+  "highlights": [
+    {
+      "h": "Managed from Limassol, gauged anywhere",
+      "p": "A manager in Limassol may need a bulk carrier gauged in China, a tanker in the Gulf or a container ship in a Mediterranean port. We plan from the ship's position and dates, travel to her, and send the readings back to the superintendent in Cyprus."
+    },
+    {
+      "h": "Short calls used well",
+      "p": "Ships anchored off Limassol and Larnaca for crew changes, stores or bunkers stay for a day or two. With the spaces opened and certified before the team boards, that is enough for targeted gauging of ballast tanks, deck structure, hatch covers and piping."
+    },
+    {
+      "h": "Tankers at Vasilikos",
+      "p": "Product tankers at the Vasilikos energy terminal are gauged on deck, deck piping and accessible ballast spaces under the terminal's permit-to-work, with the cargo tanks left for a gas-free window, a lay-by berth or the next docking."
+    }
+  ],
+  "sections": [
+    {
+      "id": "cy-management",
+      "h": "Limassol's ship managers and the gauging they commission",
+      "p": [
+        "Third-party managers, owners' technical departments and crew managers have made Limassol a ship-management centre over several decades. Their ships seldom call in Cyprus. A superintendent responsible for a dozen bulk carriers or tankers plans renewal surveys, dockings and charter inspections across several continents, and needs gauging at the port or yard where each ship will actually be.",
+        "For those managers we work as a mobilised team rather than a resident one: the enquiry comes from Limassol, the technicians fly from India to the ship, and the report goes back to Limassol. The usual requests are pre-docking gauging to fix the steel list before a yard slot, owner's gauging ahead of a renewal survey so the superintendent knows the likely renewals, gauging before a Condition Assessment Programme survey on an older tanker, and pre-purchase gauging when a manager's client is buying a second-hand ship."
+      ]
+    },
+    {
+      "id": "cy-ports",
+      "h": "Where ships are gauged in Cyprus",
+      "p": [
+        "Limassol port handles the island's container traffic at the Eurogate terminal, together with general cargo, project cargo, offshore supply and cruise calls at the multipurpose berths, and its anchorage is widely used for crew changes and stores. Container ships are usually gauged on ballast tanks, deck structure and scrubber piping during the terminal stay, while multipurpose and offshore vessels give access to holds, decks and tanks.",
+        "Larnaca, further east, has a smaller commercial and passenger port and a wide bay where ships wait for orders, change crews and take stores. Its practical advantage is the international airport on the shore of the bay: the transfer from arrivals to the launch is short, which suits anchorage jobs planned in advance.",
+        "Vasilikos, on the south coast between Limassol and Larnaca, is the island's energy port, with tanker berths for fuel products alongside cargo and project berths. The other two ports are within easy driving distance, so one mobilisation can cover ships at all three locations.",
+        "Deep-sea ships are not normally docked in Cyprus. Hull work below the waterline is planned for a yard elsewhere, often in Greece, Turkey or further afield, and the call in Cyprus is the chance to gauge everything that can be reached afloat before the ship goes there."
+      ]
+    },
+    {
+      "id": "cy-regime",
+      "h": "Port state control, the Cyprus flag and EU rules",
+      "p": [
+        "Port state control in Cyprus comes under the Department of Merchant Shipping and the Deputy Ministry of Shipping, and the Republic belongs to both the Paris MoU and the Mediterranean MoU. Under the Paris MoU risk profile an older bulk carrier or tanker can expect a careful look at its structure, and corroded ballast tanks, hatch coamings or air pipes are exactly the kind of finding that keeps a ship in port.",
+        "Cyprus also keeps one of the larger EU ship registers. Cyprus-flag ships fall under the EU Ship Recycling Regulation, which requires an Inventory of Hazardous Materials on board, and foreign-flag ships calling at Cypriot ports need one too. Emissions trading under EU ETS and the FuelEU Maritime fuel rules apply to voyages to and from Cypriot ports, and they push managers towards retrofits and energy-saving devices that bring structural checks of their own.",
+        "Cypriot waters lie inside the Mediterranean SOx emission control area, in force since 1 May 2025. For scrubber ships that used to run open loop to the global standard, the stricter cleaning duty falls on the wash-water lines and the overboard discharge, which is why scrubber piping checks are a frequent addition to anchorage gauging around the island."
+      ]
+    },
+    {
+      "id": "cy-practical",
+      "h": "Weather, heat and access around the island",
+      "p": [
+        "Cyprus has long, hot summers, and enclosed-space work in ballast tanks and double bottoms goes more slowly in July and August; ventilation, gas testing and rest breaks are built into the day. The anchorages are open roadsteads rather than sheltered harbours, so an easterly blow in Larnaca Bay or a winter storm off Limassol can halt launch services. Anchorage jobs are therefore planned with spare time and with a deck-first scope that still produces useful readings if tank entry is delayed.",
+        "Every boarding, alongside or by launch, is arranged through the ship's agent under the port's ISPS rules and the terminal's safety rules. At the Vasilikos tanker berths, ignition-source controls decide which instruments may be used in each zone, so the equipment list reaches the agent before the team travels."
+      ]
+    },
+    {
+      "id": "cy-planning",
+      "h": "Planning a gauging job in Cyprus from India",
+      "p": [
+        "Cyprus is an EU member state but not part of the Schengen area, so the visa route for the team is Cyprus's own, confirmed for each job, and its lead time is the first constraint on the start date. For a ship calling in Cyprus, give us the vessel name or IMO number, the purpose of the gauging, whether she will be alongside or at anchor, and the expected stay. For a Cyprus-managed ship docking elsewhere, give us the yard and the docking date instead.",
+        "Because anchorage calls are short, the spaces to be gauged should be emptied, ventilated and certified before the team boards. Preliminary readings can be sent at the end of each day, so the superintendent in Limassol sees the condition of the ship before she sails."
+      ]
+    },
+    {
+      "id": "cy-services",
+      "h": "What managers in Cyprus ask us for most",
+      "p": [
+        "The mix of requests reflects a management centre more than a cargo port. These are the jobs that come up most often from Cyprus:"
+      ],
+      "list": [
+        "Pre-docking steel estimates for Cyprus-managed bulk carriers and tankers docking abroad",
+        "Targeted gauging during crew-change and bunker calls off Limassol and Larnaca",
+        "Gauging ahead of a CAP survey on an older tanker, so the manager knows what to expect",
+        "Pre-purchase gauging for clients buying second-hand ships",
+        "Scrubber wash-water and overboard piping checks",
+        "Inventory of Hazardous Materials surveys and updates for EU port calls"
+      ]
+    }
+  ],
+  "codes": [
+    "Paris Memorandum of Understanding on Port State Control",
+    "Mediterranean Memorandum of Understanding on Port State Control",
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: the Mediterranean Sea emission control area",
+    "EU Ship Recycling Regulation (EU) No 1257/2013: Inventory of Hazardous Materials"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's TM plan, issued to the manager's technical department",
+    "Pre-docking steel renewal estimate",
+    "Anchorage gauging summary with readings, sketches and photographs",
+    "Scrubber and piping wall-thickness tables by spool and joint",
+    "Pre-purchase condition gauging report"
+  ],
+  "industries": [
+    "Third-party ship managers",
+    "Bulk carriers",
+    "Crude and product tankers",
+    "Container ships",
+    "Offshore supply and project cargo vessels",
+    "Cruise ships",
+    "Ship buyers and brokers"
+  ],
+  "faqs": [
+    {
+      "q": "Which Cypriot ports do you cover for ship thickness measurement?",
+      "a": "Limassol port and anchorage, Larnaca port and the Larnaca Bay anchorage, and the energy port at Vasilikos. The three are close enough by road for one mobilisation to cover ships at more than one of them. Each port page describes the ships that call, where gauging is practical and the jobs we see there."
+    },
+    {
+      "q": "Can you gauge a Cyprus-managed ship that is docking in another country?",
+      "a": "Yes. Most requests from Limassol managers are for ships somewhere else. Tell us the yard, the docking date, the class and the survey due, and we plan the mobilisation to that yard. The report comes back to the technical department in Limassol, with preliminary readings during the job if the superintendent wants to open the yard discussion early."
+    },
+    {
+      "q": "Is a crew-change call off Limassol long enough for gauging?",
+      "a": "Often, for a targeted scope. If the crew opens, ventilates and certifies the agreed ballast tanks before arrival, a day at anchor covers those tanks plus deck structure, hatch covers and accessible piping. Weather and the ship's other operations decide the rest, so we agree priorities in advance and finish the most important areas first."
+    },
+    {
+      "q": "What visas does the team need to work in Cyprus?",
+      "a": "Cyprus is in the European Union but outside the Schengen area, so the visa route is Cyprus's own rather than a standard Schengen visa, and we confirm it for each job. That lead time sets the earliest start, so share the ship's call or docking date as soon as you know it, even a provisional one."
+    },
+    {
+      "q": "Do you check scrubber piping on ships calling in Cyprus?",
+      "a": "Yes, when the exhaust gas cleaning system can be shut down during the call and the spaces are safe to enter. We gauge the wash-water and overboard lines at planned points, with closer spacing at flanges, reducers and the outboard distance piece, and compare minimum wall with the limits set by the system maker or the owner."
+    }
+  ]
+}

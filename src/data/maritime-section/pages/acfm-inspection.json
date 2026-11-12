@@ -1,0 +1,159 @@
+{
+  "slug": "acfm-inspection",
+  "navLabel": "ACFM Inspection",
+  "title": "ACFM Inspection of Ships | Crack Detection Through Paint",
+  "description": "ACFM crack detection and sizing on ships through paint and coatings: hatch corners, bracket toes, crane pedestals and weld toes, with no blasting or recoating.",
+  "h1": "ACFM inspection: finding and sizing cracks on ship structure without removing the coating",
+  "eyebrow": "Maritime inspection · Advanced NDT",
+  "intro": "Alternating current field measurement finds surface-breaking cracks in steel through paint, and estimates both their length and their depth. On a ship that means fatigue-prone details in coated ballast tanks, holds and decks can be screened without blasting every weld back to bare metal and then recoating it. Atlantis NDT uses ACFM to examine hatch corners, bracket toes, crane pedestals and other weld toes, confirms what it finds with the right follow-up method, and mobilises the team from India to the vessel.",
+  "highlights": [
+    {
+      "h": "The coating stays on",
+      "p": "ACFM needs no electrical contact with the steel, so it reads through typical marine paint systems. Details are screened with the coating intact, and only where a crack is indicated is paint removed for confirmation or repair, which spares sound coating in tanks and holds."
+    },
+    {
+      "h": "Length and depth, not just detection",
+      "p": "Two components of the magnetic field above the surface are measured. One locates the crack ends and gives its length; the other relates to how deep it runs. The repair can be estimated before any coating is broken."
+    },
+    {
+      "h": "Works on as-welded profiles",
+      "p": "The probe is run along rough weld toes and around changes of section without the cap being ground smooth, and each scan is recorded as signal traces, so the examination can be reviewed afterwards rather than resting on the operator's memory."
+    }
+  ],
+  "sections": [
+    {
+      "id": "principle",
+      "h": "How alternating current field measurement works",
+      "p": [
+        "An ACFM probe induces a uniform alternating current in a thin layer at the surface of the steel, flowing across the line being examined, for example across a weld toe. Where there is no crack, the current and the magnetic field it creates above the surface stay undisturbed. A surface-breaking crack forces the current to flow down its faces and around its ends, and that diversion changes the magnetic field, which sensors in the same probe measure as it is moved along the weld.",
+        "Two field components carry the information. The component running parallel to the crack, usually labelled Bx, dips as the probe passes over it, and the depth of that dip relates to how deep the crack runs. The component normal to the surface, Bz, swings one way at one end of the crack and the other way at the other end, which marks its length. Plotted against each other, the two traces form a closed loop often called a butterfly plot, a pattern that helps the operator separate a crack from the signals produced by geometry or by changes in the steel.",
+        "Because the induced field is uniform and the measurement models are known, the length and depth of a crack can be estimated from the readings using sizing tables built from those models, verified on calibration plates with known defects. No electrical contact is needed, so the current is induced and the field measured through non-conductive coatings."
+      ]
+    },
+    {
+      "id": "why-through-paint",
+      "h": "Why examining through paint matters on a ship",
+      "p": [
+        "Magnetic particle testing is sensitive and well understood, but it needs bare steel or a thin, sound film over the weld and a band either side. In a ballast tank, preparing every bracket toe or longitudinal connection for it means grinding or blasting dozens of details, each of which then needs coating repair to the ship's specification. Every broken patch of coating is a new site for corrosion, and the coating repair itself takes yard time, ventilation, staging and dry conditions that may not be available during a port call.",
+        "ACFM changes the order of work. The structure is screened with the coating in place; details that show no indication are left alone, and only those with an indication are opened up, where the crack is then confirmed, sized more closely if needed, and repaired. On a large survey of fatigue details that can reduce coating damage from every detail examined to a handful, and it allows screening between dockings when blasting and recoating are not practical."
+      ]
+    },
+    {
+      "id": "ship-applications",
+      "h": "Where ACFM is used on ships and offshore units",
+      "p": [
+        "ACFM is aimed at the details where fatigue cracks are known to start: weld toes at abrupt ends of stiff members, discontinuities in the hull girder and highly loaded attachments. Those locations are well documented for each ship type, so a screening programme is built from the ship's drawings, its survey history and the owner's own defect records rather than spread thinly over the hull."
+      ],
+      "list": [
+        "Hatch corners and hatch coaming bracket toes on bulk carriers and container ships",
+        "Bracket toes of web frames, tripping brackets and longitudinal end brackets in ballast tanks",
+        "Side shell longitudinal end connections to transverse webs and bulkheads on tankers",
+        "Hopper knuckles, lower stool connections and hold frame lower brackets on bulk carriers",
+        "Crane pedestal welds, jib rest structure and other lifting appliance attachments",
+        "Mooring and towing fitting foundations, and deck attachments with a history of cracking",
+        "Structural nodes and brace connections on offshore units above the waterline"
+      ]
+    },
+    {
+      "id": "scanning-practice",
+      "h": "Scanning practice on rough welds and complex geometry",
+      "p": [
+        "A standard probe is run along each weld toe with the induced current flowing across the weld, which is the orientation that reveals cracks running along the toe, the commonest fatigue crack on ship structure. The cap and the opposite toe are scanned in turn, and where cracks across the weld are possible, as at some bracket ends, the probe is turned and the scan repeated. Smaller pencil probes reach tight corners and scallops, and array probes cover wider areas in fewer passes where the geometry is plain.",
+        "Geometry is where interpretation matters. Plate edges, the ends of brackets and welds, cut-outs and changes of section all disturb the field and produce signals of their own. An experienced operator learns their shapes, scans across the feature to compare, and uses the relationship between the two field components to tell geometry from a crack. Every scan is saved with a note of the location, so indications and the clear scans alike can be reviewed later."
+      ]
+    },
+    {
+      "id": "limits",
+      "h": "What ACFM can and cannot do",
+      "p": [
+        "ACFM is a strong screening and sizing method for surface cracks, but it is not a complete examination of a weld. The table sets out its limits and how a job is planned around them."
+      ],
+      "table": {
+        "head": ["Limit", "What it means on a ship", "How the job is planned around it"],
+        "rows": [
+          ["Surface-breaking cracks only on carbon steel", "Buried weld flaws, lack of fusion inside the joint and laminations are not detected", "Ultrasonic testing, phased array or TOFD where the inside of the weld matters"],
+          ["Coating thickness", "Sensitivity falls as the probe is lifted further from the steel", "Maximum coating thickness set in the procedure and checked on a coated or shimmed calibration plate; thicker build-ups measured and noted"],
+          ["Geometry signals", "Edges, bracket ends, weld ends and cut-outs give signals that can resemble cracks", "Comparison scans across the feature, interpretation by qualified operators, confirmation of doubtful indications"],
+          ["Very short or shallow cracks", "Below the size the procedure demonstrates, detection is not assured", "Detection capability shown on calibration plates; high-risk details may get magnetic particle testing as well"],
+          ["Crack orientation", "Cracks running across the weld need a turned probe", "Second scan direction where transverse cracking is plausible"]
+        ]
+      }
+    },
+    {
+      "id": "calibration",
+      "h": "Procedure, calibration plates and checks during the work",
+      "p": [
+        "Each job runs to a written ACFM procedure stating the probes, the scanning pattern for each type of detail, the coating thickness the procedure covers, the reporting threshold and the sizing method. Before scanning, the system is checked on calibration plates carrying slots or fatigue cracks of known size, with non-conductive shims or a coating representative of the ship's paint to show that the signal is still clear at that thickness. Checks are repeated during the day and at the end of the work.",
+        "Coating thickness on the structure is spot-checked where it looks heavy, because a patch of build-up beyond the procedure's limit has to be recorded as examined at reduced sensitivity, or prepared and rescanned, rather than silently passed."
+      ]
+    },
+    {
+      "id": "confirmation-and-repair",
+      "h": "After an indication: confirmation, sizing and repair",
+      "p": [
+        "Every indication is marked on the structure, located on a sketch by frame, longitudinal and detail, photographed, and recorded with its estimated length and depth. Where a repair is likely, the coating is removed locally and the crack confirmed with magnetic particle testing, which also shows its exact surface path for the welder. If the estimated depth is significant, ultrasonic testing, phased array or TOFD measures how far it runs through the thickness, which decides between grinding out, gouging and rewelding, or cropping and renewal.",
+        "Repair procedures and the final examination of a repair weld are set by the classification society's rules and the yard's repair procedure, which commonly call for magnetic particle testing on the finished weld. ACFM's main role is finding and sizing cracks in service with the least damage to coatings; confirmation and acceptance follow the rules for the repair."
+      ]
+    },
+    {
+      "id": "class-and-team",
+      "h": "Class acceptance and who carries out ACFM",
+      "p": [
+        "For in-service examinations, the method used to look for cracks at fatigue details is normally agreed with the attending surveyor in advance, and owners also use ACFM for their own screening between surveys, where no class acceptance is needed. If your class rules or a yard specification require NDT operators to hold a particular certification scheme, tell us at enquiry so we can confirm before booking whether our team meets it.",
+        "Atlantis's work is planned and supervised by the founder, our Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience; ACFM belongs to the electromagnetic family of methods, which is not one of those five. Operators are qualified and certified under the company's written practice to ASNT SNT-TC-1A, the company is certified to ISO 9001 and ISO 14001, and the team is mobilised from India to the ship for each job."
+      ]
+    }
+  ],
+  "codes": [
+    "The rules of the vessel's classification society for hull surveys and repairs",
+    "IACS UR Z10 series – Hull surveys of oil tankers, bulk carriers and chemical tankers, including close-up survey of fatigue-prone details",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "ISO 17638 and ISO 23278 – Magnetic particle testing of welds and its acceptance levels, for confirmation",
+    "ISO 9934-1 – Magnetic particle testing: general principles",
+    "Written ACFM procedure with calibration on plates carrying known defects",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "ACFM procedure and screening plan listing every detail to be examined",
+    "Indication list with location, estimated length and depth, and signal traces",
+    "Sketches locating each indication by frame, longitudinal and detail, with photographs",
+    "Record of details examined with no indication, and any examined at reduced sensitivity",
+    "Magnetic particle confirmation and ultrasonic sizing reports where carried out",
+    "Calibration records and operator certificates"
+  ],
+  "industries": [
+    "Bulk carriers and ore carriers",
+    "Container ships",
+    "Crude and product tankers",
+    "Offshore units and FPSOs",
+    "Heavy-lift ships and ships with deck cranes",
+    "Ship managers running fatigue crack programmes",
+    "Ship-repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Can ACFM really find cracks through paint?",
+      "a": "Yes, surface-breaking cracks in steel, through non-conductive coatings up to the thickness the procedure has been shown to cover on calibration plates. The method does not need electrical contact with the steel, because it induces a current and measures the resulting magnetic field. Sensitivity falls as coating thickness rises, so heavy build-ups are measured and either recorded as examined at reduced sensitivity or prepared and rescanned."
+    },
+    {
+      "q": "How does ACFM compare with magnetic particle inspection?",
+      "a": "Magnetic particle testing is very sensitive and gives a clear picture of a crack's surface path, but it needs bare steel or a thin sound film, so coated structure has to be prepared and recoated. ACFM works through paint and estimates depth as well as length, but it needs careful interpretation around geometry. On a ship the two work well together: ACFM screens the details, and magnetic particle testing confirms the indications that are going to be repaired."
+    },
+    {
+      "q": "Can ACFM find cracks inside a weld?",
+      "a": "No. On carbon steel ACFM detects cracks that break the surface. Lack of fusion, buried cracks, porosity and laminations inside a weld need volumetric methods such as ultrasonic weld inspection, phased array or TOFD. If a crack found by ACFM appears deep, ultrasonic methods measure how far it runs through the plate before the repair is planned."
+    },
+    {
+      "q": "Will the class surveyor accept ACFM?",
+      "a": "For finding cracks during in-service surveys, the method is normally agreed with the attending surveyor beforehand, and many surveyors are familiar with ACFM screening of coated structure. The final examination of a completed repair weld is usually specified by the class rules or the repair procedure, often as magnetic particle testing. Tell us the class and the purpose when you enquire, and we set the scope accordingly."
+    },
+    {
+      "q": "How do you decide which details to examine?",
+      "a": "From the ship type, the structural drawings, the survey history and any cracking the crew or previous surveys have found. Fatigue cracks concentrate at known details such as hatch corners, bracket toes, side longitudinal connections, hopper knuckles and crane pedestals, so the screening plan lists those details by location. The plan is agreed with the superintendent, and with the surveyor where the work supports a survey."
+    },
+    {
+      "q": "Can ACFM screening be done during a port call?",
+      "a": "Often, yes, because no blasting or recoating is involved. Deck details, crane pedestals and hatch corners can be screened alongside, and empty ballast tanks or holds once they are safe to enter under the ship's enclosed-space procedure. Elevated details need staging or a cherry picker, and the time available depends on cargo operations and the ship's programme."
+    }
+  ]
+}

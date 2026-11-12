@@ -1,0 +1,15 @@
+{
+  "slug": "richmond",
+  "lat": 37.54,
+  "lng": -77.44,
+  "localContext": "Richmond is Virginia's state capital and a river-and-rail industrial hub. Employers in the metro area and along the James River corridor include the chemical complex at Hopewell, Dominion Energy's generation and transmission operations (its Surry and North Anna nuclear stations are a short drive away), the Port of Richmond, metal fabricators, food and tobacco processing plants, and the interstate bridges and rail yards that cross the region. Work runs to AWS D1.1 and D1.5, ASME B31.3 and Section VIII, API 653 for tanks and ASME Section XI at nuclear sites.",
+  "certPathwayNote": "Employers in the Richmond area certify NDT personnel under their own written practice, usually built on ASNT SNT-TC-1A. Nuclear and utility work adds site access rules and quality assurance requirements, and chemical plants add their own owner standards. A training course is not certification. Candidates who need a portable credential can pursue ASNT central certification (ASNT 9712 for Level I and II, ASNT Level III exams).",
+  "salaryFrom": "norfolk",
+  "siblings": [
+    "norfolk",
+    "newport-news",
+    "baltimore",
+    "washington-dc",
+    "charlotte"
+  ]
+}

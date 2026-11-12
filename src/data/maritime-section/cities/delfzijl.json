@@ -1,0 +1,107 @@
+{
+  "slug": "delfzijl",
+  "name": "Delfzijl",
+  "country": "Netherlands",
+  "region": "europe",
+  "title": "Delfzijl Thickness Measurement | Coasters & Chemical Tankers",
+  "description": "Thickness measurement in Delfzijl for coasters, multipurpose ships and small chemical tankers: hold, hatch cover and tank UTM, and docking survey gauging.",
+  "h1": "Ship Thickness Measurement in Delfzijl on the Ems Estuary",
+  "intro": "Delfzijl sits on the Ems estuary in Groningen, a port built around a chemical park, a long tradition of coaster ownership and a shipyard that still docks, converts and builds ships. Multipurpose cargo ships, small chemical tankers and offshore vessels make up much of the traffic, and managers based in the region bring their own ships here for dockings. For each job our technicians travel from India and work aboard wherever the vessel lies: in dock at the yard, at a chemical berth or at a cargo quay.",
+  "keywords": [
+    "thickness measurement delfzijl",
+    "utm delfzijl",
+    "ship gauging groningen",
+    "multipurpose ship hull gauging",
+    "chemical tanker thickness measurement netherlands",
+    "delfzijl ship repair",
+    "coaster special survey gauging",
+    "groningen seaports ship inspection",
+    "hatch cover gauging delfzijl",
+    "ems estuary ship inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Dockings at Royal Niestern Sander",
+      "p": "The shipyard in Delfzijl docks multipurpose ships, coasters and offshore vessels for repair and special survey, and converts and builds ships too. Gauging in dock follows the TM plan while the hull is cleaned and the yard lines up its steelwork, so the readings shape the renewal list early."
+    },
+    {
+      "h": "Chemical park berths at Oosterhorn",
+      "p": "Small chemical tankers serve the industrial area at Oosterhorn. Cargo deck lines, manifolds, pump-room piping and ballast tanks can be gauged within the terminal's permit system, while the cargo tanks wait for cleaning and a gas-free certificate."
+    },
+    {
+      "h": "A home port for short-sea owners",
+      "p": "Royal Wagenborg, which runs a large multipurpose fleet, is headquartered in Delfzijl, and Groningen has a long history of coaster owning. Superintendents close to the port can attend the gauging themselves, which speeds up decisions on steel renewal during a docking."
+    }
+  ],
+  "port": {
+    "h": "Delfzijl, the Ems and the Groningen coaster trade",
+    "p": [
+      "Delfzijl lies on the southern shore of the Ems estuary, where the Eemskanaal leads inland to the city of Groningen. Ships reach it along the Ems fairway, which also serves the German port of Emden, and the estuary is shared with Germany under a long-standing treaty that manages navigation and cooperation without settling the exact border. The seaport is tidal and open to the estuary rather than lying behind sea locks, so a deep-laden ship plans its passage around high water, while smaller ships come and go more freely. Delfzijl and Eemshaven, further out towards the sea, are run together by Groningen Seaports, and they divide the work: Delfzijl takes the chemical, bulk and general cargo trades tied to its industry, Eemshaven the energy and offshore traffic.",
+      "The port's industrial base produces a distinct mix of ships. The chemical park at Delfzijl makes salt, chlorine and other base chemicals, so small chemical tankers and bulk ships carrying salt and raw materials are regular callers. Multipurpose cargo ships handle project cargo, steel and general cargo, and offshore support and service vessels berth here between jobs in the North Sea and the Ems approaches. Groningen province has long been a centre of Dutch coaster ownership, a tradition that grew from family-run ships trading out of its canals and harbours, and Royal Wagenborg, one of the largest Dutch short-sea and multipurpose operators, has its headquarters here. Inland barges reach the port through the Eemskanaal, tying the seaport into the Dutch waterway network.",
+      "Shipbuilding and repair give Delfzijl a second identity. Royal Niestern Sander, on the harbour, builds and converts ships for offshore and short-sea owners and docks vessels for repair and special survey; its recent work has included converting an offshore vessel into a walk-to-work ship and docking multipurpose cargo ships for their class surveys. The wider Groningen region still has shipyards along its canals, so suppliers and experienced shipyard trades are close at hand. For thickness gauging that produces two kinds of job: full programmes during dockings, where the readings feed straight into the yard's steel planning, and targeted gauging on ships working cargo at the industrial berths, where the window is set by the cargo plan and the terminal's safety rules."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships are gauged in Delfzijl",
+    "p": [
+      "Royal Niestern Sander is where Delfzijl dockings happen. Dockings there often include blasting and recoating as well as the class survey, so gauging is timed to the yard's sequence: bottom and shell readings once the hull is clean, then tanks and holds as they are opened and ventilated. Superintendents use the first days to settle the steel list with the class surveyor, because renewals in a busy yard have to be scheduled before the blasting and coating crews move on. Conversions bring their own gauging requirement, which is to measure the existing structure where new foundations, deckhouses or equipment will be welded on.",
+      "Afloat, the industrial berths at Oosterhorn and the general cargo quays are the main workplaces. Chemical berths apply their own permits and gas detection, and tank entry waits for cleaning, ventilation and a gas-free certificate; deck piping and manifolds can often be measured during the stay. At the bulk and general cargo quays, holds become available as they are discharged and swept. Ships with an afloat repair period but no docking lie at the yard's quays or at lay-by berths, where tank and piping gauging can define the repair list. Ships too large or too deep for Delfzijl dock at bigger yards elsewhere on the North Sea coast."
+    ],
+    "list": [
+      "Royal Niestern Sander docks — renewal and docking survey gauging on multipurpose ships, coasters and offshore vessels, timed to the yard's blasting and steel programme.",
+      "The yard's conversion berths — readings on existing deck and hull structure before new foundations, gangways or deckhouses are fitted.",
+      "Chemical park berths at Oosterhorn — cargo piping, manifold and ballast tank gauging on small chemical tankers within the terminal's permits.",
+      "Bulk and general cargo quays — hold, tank-top, hatch cover and coaming readings between discharge and loading.",
+      "Lay-by and repair quays — tank and piping gauging on ships in afloat repair periods or waiting for their next voyage."
+    ]
+  },
+  "context": {
+    "h": "Chemical cargoes, ageing short-sea tonnage and inspection in Delfzijl",
+    "p": [
+      "Ships in Delfzijl come under Paris MoU port state control, carried out by the Dutch Human Environment and Transport Inspectorate (ILT). The chemical tankers serving the industrial area fall under the ESP Code and IACS UR Z10.3, which make each renewal survey heavier than the one before, and chemical charterers vet small parcel tankers as closely as large ones. Cargo lines that carry caustic soda, acids and other aggressive products, and ballast tanks bordering heated cargo tanks, are where wastage tends to appear first, so those areas lead most tanker scopes here.",
+      "Many of the coasters and multipurpose ships calling at Delfzijl are below the 5,000 GT threshold of the EU ETS, so the pressure on older tonnage comes less from carbon rules than from charterers and from the steel itself. When a ship approaches its fourth or fifth renewal survey, the extent of steel renewal decides whether it keeps trading, is sold or goes for recycling, and every ship of 500 GT or more calling at an EU port already has to carry an Inventory of Hazardous Materials for that last step. A condition gauging before the survey gives the owner the facts for that choice."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging jobs we plan for Delfzijl ships",
+    "p": "Delfzijl work is shaped by its yard and its industry. Dockings at Royal Niestern Sander bring full renewal or intermediate survey programmes, often for owners whose superintendents are near enough to attend, while the chemical and cargo berths bring shorter, permit-bound jobs threaded through the cargo plan. Conversion projects add a third type: measuring what is already there before anything new is welded to it. Pre-purchase work on ships lying idle in the port is a fourth, smaller strand. In each case the scope is fixed with the superintendent before mobilisation, and the yard or terminal is told which spaces must be open on which day. Requests we typically see:",
+    "list": [
+      "A multipurpose cargo ship in dock for its special survey: double bottom, tank top, side shell and hold bulkheads gauged to the TM plan, with readings handed to the yard before blasting begins.",
+      "A small chemical tanker at an Oosterhorn berth: cargo deck lines, manifold, pump-room piping and ballast tanks gauged between cargoes, with the cargo tanks added at the next cleaning stop.",
+      "An offshore vessel under conversion: deck plating and supporting structure measured where a gangway foundation and new deck equipment are to be installed.",
+      "A coaster discharging bulk at the cargo quays: hold plating, hopper areas, hatch covers and coamings gauged ahead of an intermediate survey.",
+      "A pre-purchase inspection of a general cargo ship at a lay-by berth: hold, tank and hatch cover readings for the buyer's technical adviser."
+    ]
+  },
+  "logistics": "International arrivals usually come through Amsterdam Schiphol, with rail onward to Groningen and Delfzijl; Groningen Airport Eelde and Bremen Airport in Germany can suit some routings. The yard and the industrial berths sit behind controlled gates, and chemical terminals often require a safety induction, which the ship's agent or the yard arranges in advance. Technicians travel from India on Schengen visas, so we need the docking or arrival date early enough to apply in good time and to book travel to the confirmed day.",
+  "vessels": [
+    "Multipurpose and general cargo ships",
+    "Coasters",
+    "Small chemical tankers",
+    "Small bulk carriers",
+    "Offshore support and walk-to-work vessels",
+    "Heavy-lift and project cargo ships",
+    "Tugs and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a ship during a docking at Royal Niestern Sander?",
+      "a": "Yes, for the owner or manager of the ship. We work to the agreed TM plan alongside the class surveyor and fit around the yard's blasting, coating and steel crews. Readings are reported daily so that steel renewal can be ordered and scheduled while the ship is still in dock, and plates beyond the allowable diminution are marked for the yard."
+    },
+    {
+      "q": "Do Delfzijl's chemical berths allow tank entry for gauging?",
+      "a": "Only when the tanks are clean, ventilated and certified gas-free and the terminal agrees. In practice many chemical tanker jobs at the Oosterhorn berths begin with deck lines, manifolds, pump-room piping and ballast tanks, and the cargo tanks follow at a planned cleaning stop or at the ship's next docking."
+    },
+    {
+      "q": "What does gauging before a conversion at the Delfzijl yard cover?",
+      "a": "It measures the structure that will carry the new equipment: deck plating, beams and girders under a planned gangway or crane foundation, the bulkheads and frames around new openings, and any tanks that will be modified. The readings show whether the existing steel can take the new loads or needs inserts first, so the conversion design is based on measured thickness rather than drawings."
+    },
+    {
+      "q": "What should a coaster owner gauge before committing to another renewal survey?",
+      "a": "The items that usually decide the extent of steel renewal: double bottom and tank-top plating, hold side frames and their brackets, hatch covers and coamings, and the ballast tanks. A condition gauging of those areas, compared with the allowable diminution for the ship, shows whether renewal will be modest or extensive, which is the basis for choosing between the survey, a sale or recycling."
+    }
+  ],
+  "nearby": ["eemshaven", "emden", "harlingen", "wilhelmshaven", "den-helder"]
+}

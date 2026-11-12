@@ -1,0 +1,15 @@
+{
+  "slug": "ogden",
+  "lat": 41.22,
+  "lng": -111.97,
+  "localContext": "Ogden sits beside Hill Air Force Base, home of the Ogden Air Logistics Complex, which maintains fighter aircraft and other weapons systems and draws a ring of aerospace and defence suppliers into northern Utah. Northrop Grumman's propulsion operations in Box Elder County, Williams International's gas turbine engine work in Ogden and a broad machining and composites supplier base add to it. Refineries and pipelines to the south add pressure-equipment work. Aerospace inspection follows customer and military specifications, so documentation discipline matters.",
+  "certPathwayNote": "Aerospace and defence employers around Ogden usually certify technicians under a written practice based on ASNT SNT-TC-1A, with the prime contractor's flow-down requirements and military technical orders layered on top. The employer's Level III reconciles those documents and signs the certification. ASNT central certification is an alternative for technicians who want a credential that is not tied to one employer.",
+  "salaryFrom": "salt-lake-city",
+  "siblings": [
+    "salt-lake-city",
+    "idaho-falls",
+    "denver",
+    "billings",
+    "las-vegas"
+  ]
+}

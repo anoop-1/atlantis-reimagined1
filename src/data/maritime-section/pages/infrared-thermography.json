@@ -1,0 +1,162 @@
+{
+  "slug": "infrared-thermography",
+  "navLabel": "Infrared thermography",
+  "title": "Infrared Thermography for Ships | Electrical & Machinery Surveys",
+  "description": "Infrared thermography on ships: thermal surveys of switchboards, MCCs, transformers, motors, bearings and exhaust insulation, with severity-ranked findings.",
+  "h1": "Infrared thermography on board: electrical, machinery and hot-surface surveys",
+  "eyebrow": "Maritime inspection · Condition monitoring",
+  "intro": "A thermal camera shows what a closed panel and an ammeter cannot: a bolted connection running hot, one phase carrying more than the others, a bearing starting to fail, lagging missing from an exhaust pipe above a fuel line. Atlantis NDT carries out infrared thermography on ships under normal working load, with the ship's electrician opening panels under the ship's own electrical safety procedures, and reports each finding with thermal and visual images, temperature rise, severity and the recommended action. Teams are mobilised from India, often alongside thickness measurement or NDT on the same visit.",
+  "highlights": [
+    {
+      "h": "Under load, or not worth doing",
+      "p": "A loose connection only heats when current flows through it. Surveys are planned for times when generators, cargo pumps, thrusters or reefers are working normally, and the load on each circuit at the moment of the image is recorded beside the finding."
+    },
+    {
+      "h": "Findings ranked for action",
+      "p": "Each anomaly is reported with its temperature rise against a comparable component or ambient, a severity ranking agreed before the survey and a recommended action, ready to enter in the planned maintenance system. The chief engineer and the electrician decide the repair."
+    },
+    {
+      "h": "Safe at an open panel",
+      "p": "Panels are opened only by the ship's electrician, under the permit-to-work and electrical safety procedures of the ship. Our thermographer never touches live parts and works at a safe distance or through infrared windows where they are fitted."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-thermography-finds",
+      "h": "What a thermal survey finds, and what it cannot",
+      "p": [
+        "Every surface emits infrared radiation in proportion to its temperature, and a thermal camera turns that radiation into an image in which differences of a degree or two stand out. On board, most electrical and mechanical faults announce themselves as heat before they fail: resistance at a loose or corroded connection, an overloaded conductor, an unbalanced phase, a contactor with burnt contacts, a bearing short of lubricant, a misaligned coupling, a cooler blocked on one side.",
+        "The method has limits that a good report states. The camera sees surfaces, not the inside of a component, and it cannot see through a closed panel cover unless an infrared window is fitted. Bright metal such as polished busbars and stainless cladding reflects its surroundings, so the operator corrects for emissivity and reflected temperature, or reads from a painted or taped reference spot. A circuit carrying little current shows nothing even when it is faulty. Thermography complements insulation resistance testing, protection relay testing and vibration analysis; it does not replace any of them."
+      ]
+    },
+    {
+      "id": "electrical-scope",
+      "h": "Electrical equipment covered by a ship thermal survey",
+      "p": [
+        "The electrical survey follows power from the generators to the consumers. The table shows the equipment usually included and the faults each typically reveals; the scope for a particular ship is set from its single-line diagram and the chief engineer's priorities."
+      ],
+      "table": {
+        "head": ["Equipment", "Typical findings"],
+        "rows": [
+          ["Main and emergency switchboards", "Hot busbar joints and cable lugs, breaker terminals, current transformer connections, phase imbalance"],
+          ["Generator terminal boxes and breakers", "Loose terminations, overheated cables at the gland, uneven load between phases"],
+          ["Motor control centres and group starter panels", "Contactor and overload relay terminals, fuse holders, starter resistors"],
+          ["Distribution boards and transformers", "Hot connections, overloaded outgoing circuits, transformer winding and terminal heating"],
+          ["Shore connection box", "Plug and socket contacts, cable terminations under shore load"],
+          ["Reefer sockets and reefer distribution panels", "Worn plugs and sockets, overloaded feeder circuits during high reefer load"],
+          ["Steering gear, thruster and cargo pump or crane starters", "Terminal heating, contactor wear, cooling fan failures in drive cabinets"],
+          ["Battery chargers, UPS and scrubber or ballast water treatment panels", "Hot connections, failed cooling, overloaded supplies on retrofitted systems"]
+        ]
+      }
+    },
+    {
+      "id": "load-and-safety",
+      "h": "Working load and electrical safety during the survey",
+      "p": [
+        "Heat from a resistive fault rises with the square of the current, so a connection that is barely warm at light load can be dangerous at full load. The survey is therefore timed for normal operation: at sea for propulsion-related and general services, during cargo operations for cargo pumps and cranes, with reefers connected for reefer circuits, and with shore power connected for the shore connection. The current on each circuit at the time of the image is noted from the switchboard instruments, so the temperature rise can be judged against the load that caused it.",
+        "Opening live panels is the riskiest part of the work and is never left to the visiting team. The ship's electrician or electro-technical officer opens each panel under the ship's permit-to-work and electrical safety procedures, with the protective equipment those procedures require, and closes it again. High-voltage switchboards on larger ships are opened only by persons authorised for high-voltage work under the ship's procedures, or surveyed through infrared windows. Our thermographer stands back at a safe working distance, does not reach into a panel and does not operate switchgear. Where a panel cannot be opened safely in service, it is listed in the report as not surveyed, with the reason."
+      ]
+    },
+    {
+      "id": "machinery-survey",
+      "h": "Rotating machinery, pumps and heat exchangers",
+      "p": [
+        "Mechanical faults generate heat too. Motor frames and bearing housings show bearings that are failing or over-greased; couplings show misalignment as heat at the coupling and the nearer bearings; belts and pulleys show slip. Pumps for cargo, ballast, cooling water and fire main, ventilation fans, compressors, purifiers and gearboxes are all surveyed running, with the temperatures of similar machines compared side by side.",
+        "Heat exchangers and coolers reveal fouling or blocked passes as uneven temperature across the shell or between inlet and outlet; steam traps and condensate lines show traps passing steam or blocked; valves that should be shut show flow by being warm downstream. Where the ship runs vibration or oil analysis, those methods say more about the condition of a bearing; thermography shows quickly where to look first."
+      ]
+    },
+    {
+      "id": "hot-surfaces",
+      "h": "Hot surfaces and insulation in machinery spaces",
+      "p": [
+        "Engine room fires very often start with fuel or lubricating oil sprayed from a failed pipe, flange or fitting onto a hot surface. SOLAS chapter II-2, regulation 4.2.2.6, requires surfaces with temperatures above 220°C that may be impinged as a result of a fuel system failure to be properly insulated, and port state control and class surveyors look for gaps. The usual gaps are insulation pads not refitted after maintenance, lagging damaged at flanges, exhaust manifolds, turbocharger casings and indicator cocks, insulation soaked with oil, and cladding that has come loose.",
+        "A thermal survey of the main and auxiliary engines, exhaust trunks, boilers, exhaust gas economisers and incinerator finds those gaps quickly and records them with an image and a location. The report lists every surface found above 220°C, with its position in relation to fuel and lubricating oil pipes, flanges and fittings, so the crew can restore the insulation or spray screening before a leak finds it. Reflective metal cladding is read with care, using emissivity references, because it can make a hot surface look cool."
+      ]
+    },
+    {
+      "id": "severity-reporting",
+      "h": "Severity ranking and the thermal survey report",
+      "p": [
+        "A temperature on its own means little; what matters is how much hotter a component is than it should be. Each finding is assessed by its temperature rise against a reference: the same component on the other phases, a similar machine under similar load, or ambient air. The thresholds for each severity tier are agreed with the client before the survey, from the equipment maker's data, the owner's maintenance system or a recognised criteria set, so the ranking means the same thing on every ship in the fleet.",
+        "Every finding in the report has a thermal image and a matching visual image, the equipment name and location as they appear in the planned maintenance system, the measured and reference temperatures, the load at the time, the severity, and a recommended action. The report also lists the equipment surveyed with no anomaly, so the baseline is complete, and the equipment that could not be surveyed and why."
+      ],
+      "table": {
+        "head": ["Severity tier", "What the indication usually means", "Typical action"],
+        "rows": [
+          ["Monitor", "A small temperature rise within normal variation", "Record as baseline and compare at the next survey"],
+          ["Plan repair", "A clear rise suggesting a developing fault", "Inspect and repair at the next planned opportunity"],
+          ["Repair soon", "A significant rise; the component is deteriorating", "Repair as soon as the equipment can be taken out of service"],
+          ["Urgent", "A large rise with risk of failure or fire", "Reduce load or isolate where safe and repair without delay"]
+        ]
+      }
+    },
+    {
+      "id": "when-to-survey",
+      "h": "When to schedule a thermal survey",
+      "p": [
+        "For most ships, thermography is the owner's choice rather than a class survey item. Many owners and hull and machinery insurers recommend it, and some class condition-monitoring arrangements accept it as one technique among several; where the ship holds such a notation, its class rules say what is expected. The owner's planned maintenance system is where it usually lives, and a yearly survey gives a baseline that each later survey is compared against.",
+        "Beyond that routine, the useful moments are clear. Survey before a drydock, so faults found go on the repair list, and after it, to check that disturbed connections were remade properly. Survey after electrical retrofits such as scrubbers, ballast water treatment systems or shore power connections, and before the season of heaviest reefer load on container ships. After an electrical fault, a fire or repeated tripping of a breaker, a survey of the affected board shows whether the problem has spread to neighbouring circuits."
+      ]
+    },
+    {
+      "id": "method-and-qualification",
+      "h": "Method, camera settings and personnel",
+      "p": [
+        "The general procedure follows ISO 18434-1 for thermography in condition monitoring, and ASTM E1934 for examining electrical and mechanical equipment. Emissivity, reflected temperature, distance and the field of view of the lens are set for each target and recorded with the image; a narrow lens is used for busbars and terminals at a distance, so that a small hot joint fills enough of the image to be measured. The camera's calibration is traceable, and its date is given in the report.",
+        "The survey is planned and supervised by Atlantis NDT's founder, the Responsible NDT Level III, who has more than eleven years of international field experience, and Atlantis is certified to ISO 9001 and ISO 14001. ISO 18436-7 sets requirements for qualifying thermographers. If your insurer or a class condition-monitoring scheme requires thermographers qualified to a particular scheme, tell us at enquiry so we can confirm before anything is booked."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography, general procedures",
+    "ISO 18436-7 – Condition monitoring and diagnostics of machines, qualification and assessment of personnel, thermography",
+    "ASTM E1934 – Standard guide for examining electrical and mechanical equipment with infrared thermography",
+    "SOLAS chapter II-2, regulation 4.2.2.6 – Protection of high-temperature surfaces",
+    "ISM Code, section 10 – Maintenance of the ship and equipment"
+  ],
+  "deliverables": [
+    "Thermal survey report with a thermal and a visual image for every finding",
+    "Measured and reference temperatures, temperature rise and load at the time of each image",
+    "Severity ranking and recommended action, labelled for the planned maintenance system",
+    "Schedule of surfaces above 220°C near fuel and lubricating oil systems, with locations",
+    "List of equipment surveyed with no anomaly, for the baseline",
+    "List of equipment not surveyed, with the reason",
+    "Comparison with the previous thermal survey where one exists"
+  ],
+  "industries": [
+    "Container ships with large reefer capacity",
+    "Crude, product and chemical tankers",
+    "Gas carriers",
+    "Bulk carriers",
+    "Ro-ro, ro-pax and car carriers",
+    "Offshore support vessels",
+    "Ship managers' technical departments",
+    "Hull and machinery insurers' loss-prevention programmes"
+  ],
+  "faqs": [
+    {
+      "q": "Does the ship have to be at sea for a thermal survey?",
+      "a": "Not for everything, but the equipment has to be working. Generators, switchboards and auxiliary services can be surveyed alongside when the load is representative, cargo pumps during cargo operations, and reefer circuits with containers connected. Propulsion motors, thrusters on some ships and circuits that only carry full load at sea are best surveyed on passage. The survey plan lists which equipment needs which condition, so nothing is surveyed idle and reported as healthy."
+    },
+    {
+      "q": "Who opens the electrical panels?",
+      "a": "The ship's electrician or electro-technical officer, under the ship's permit-to-work and electrical safety procedures, with the protective equipment they require. High-voltage equipment is opened only by persons the ship's procedures authorise for it. Our thermographer does not open panels, reach into them or operate switchgear, and any panel that cannot be opened safely in service is recorded as not surveyed, with the reason."
+    },
+    {
+      "q": "Can thermography find faults inside a closed switchboard?",
+      "a": "Only through infrared windows, which some newer switchboards have fitted for exactly this purpose. A camera cannot see through ordinary steel or glass covers; it would show the temperature of the cover, which says little about a connection inside. Where no window is fitted, the panel has to be opened under the ship's procedures for the hot joints and terminals to be seen and measured."
+    },
+    {
+      "q": "Is infrared thermography required by class?",
+      "a": "We do not present it as a class requirement. Many owners include it in their planned maintenance, hull and machinery insurers often recommend it, and some class condition-monitoring arrangements accept it as one of the techniques used; if your ship holds such a notation, check what its class rules ask for. What SOLAS does require is insulation of surfaces above 220°C that a fuel leak could reach, and a thermal survey is one of the quickest ways of showing that the insulation is complete."
+    },
+    {
+      "q": "How often should a ship's switchboards be surveyed?",
+      "a": "Yearly is the common interval, which gives a baseline and a trend. Add a survey before and after a drydock, after electrical retrofits such as scrubbers or ballast water treatment systems, before the heaviest reefer season on container ships, and after an electrical fault or repeated breaker tripping. Comparing with the previous survey at the same load is what turns images into a maintenance tool."
+    },
+    {
+      "q": "What do you need from the ship before the survey?",
+      "a": "The single-line diagram and equipment list, the planned maintenance names for the equipment, any previous thermal survey report, the chief engineer's list of concerns, and the expected operating condition during the visit. The ship needs to arrange an electrician to open panels under its procedures. Because the team travels from India, the port and dates should be known early for visas and travel."
+    }
+  ]
+}

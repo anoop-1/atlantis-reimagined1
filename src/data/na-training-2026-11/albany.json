@@ -1,0 +1,15 @@
+{
+  "slug": "albany",
+  "lat": 42.65,
+  "lng": -73.76,
+  "localContext": "Albany anchors New York's Capital Region, where heavy electrical manufacturing and power technology have deep roots. GE Vernova builds steam turbines and generators in Schenectady, the Naval Nuclear Laboratory's Knolls site is nearby, the Watervliet Arsenal manufactures large-calibre cannon tubes for the Army, and the Port of Albany handles bulk and project cargo. State transportation, Hudson River bridges and regional pipelines and generating plants add inspection demand. Work follows ASME Sections I, III, V and VIII, AWS D1.1 and D1.5, and customer specifications for rotating equipment.",
+  "certPathwayNote": "Capital Region employers certify NDT technicians under their own written practices, usually built on ASNT SNT-TC-1A. Government, naval and power-equipment customers add flow-down requirements the employer and its Level III must satisfy. A course is not certification. ASNT central certification is a separate credential some technicians pursue alongside or instead of employer certification.",
+  "salaryFrom": "new-york",
+  "siblings": [
+    "new-york",
+    "buffalo",
+    "boston",
+    "east-hartford",
+    "providence"
+  ]
+}

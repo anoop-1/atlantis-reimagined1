@@ -1,0 +1,114 @@
+{
+  "slug": "porto-torres",
+  "name": "Porto Torres",
+  "country": "Italy",
+  "region": "europe",
+  "title": "Porto Torres Ship Gauging | UTM for Ferries and Chemical Ships",
+  "description": "Ultrasonic thickness measurement at Porto Torres, Sardinia, for ro-pax ferries, chemical tankers, bulk carriers and ro-ro ships: hull, deck and tank gauging.",
+  "h1": "Thickness Measurement for Ships at the Port of Porto Torres",
+  "intro": "Porto Torres is the gateway to north-west Sardinia, on the Gulf of Asinara. Ro-pax ferries run from its passenger quays to the mainland, while an industrial port serves chemical plants, a power station and bulk cargoes. Owners gauge ferries, chemical tankers and cargo ships here before dockings and surveys. Atlantis NDT dispatches a thickness measurement team from India to the vessel, with the visit fitted around ferry timetables and industrial berth schedules.",
+  "keywords": [
+    "porto torres ship thickness gauging",
+    "ultrasonic thickness measurement porto torres",
+    "porto torres utm",
+    "ro-pax ferry hull inspection sardinia",
+    "chemical tanker gauging sardinia",
+    "gulf of asinara ship inspection",
+    "bulk carrier gauging sardinia",
+    "ferry thickness measurement genoa sardinia",
+    "ship inspection north sardinia",
+    "pre-docking steel gauging italy"
+  ],
+  "highlights": [
+    {
+      "h": "Mainland ferries on night and day sailings",
+      "p": "Ro-pax ships arrive from the mainland and spend hours alongside before the return sailing, leaving vehicle decks, ramps and ballast tanks open for staged gauging ahead of a docking."
+    },
+    {
+      "h": "An industrial port with chemical shipping",
+      "p": "The industrial side of the port draws chemical tankers and bulk carriers, whose cargo tanks, holds and piping can be gauged when terminal rules and gas-free status allow."
+    },
+    {
+      "h": "Mistral weather that shapes the plan",
+      "p": "The gulf opens to the north-west, so strong winds can disturb berthing and launch work, and a spare day is built into most anchorage and afloat gauging plans."
+    }
+  ],
+  "port": {
+    "h": "The port of Porto Torres: ferry quays, industrial berths and the Gulf of Asinara",
+    "p": [
+      "Porto Torres lies on the north-west coast of Sardinia, on the Gulf of Asinara, facing the open sea towards France and the Italian mainland. The port has two distinct faces. The commercial and passenger port sits close to the town, with quays for ro-pax ferries and ro-ro ships. The industrial port, separate from it, serves chemical and energy plants and the dry and liquid bulk trades that feed them. Both sit under the Sardinian Sea port authority, the same body that oversees Cagliari and other island harbours. The approach from the gulf is straightforward in good weather, and the breakwaters give the quays reasonable shelter, although long northerly swells can still run into the commercial basin and make mooring work slower for larger ferries.",
+      "Passenger and freight ferries are the most visible traffic, connecting Porto Torres with Genoa and other mainland ports and, in the warmer season, with additional routes across the northern Tyrrhenian. Ro-ro cargo moves trailers and containers for the island economy. On the industrial side, chemical tankers bring and take away feedstock and products, bulk carriers deliver raw materials, and small tankers serve local fuel needs. The mix gives Porto Torres a handful of very different ship types in a small harbour, and each has its own gauging priorities.",
+      "Weather is a recurring factor. The Gulf of Asinara is exposed to the north-west, and the mistral can blow hard for several days, delaying ferries and making launch work at the anchorage impractical. Summer timetables put ferries under pressure with little spare time between sailings, while winter is a better season to take a ship out of rotation. Chemical and bulk ships work to cargo programmes rather than seasons, so their windows depend on discharge schedules, berth allocation and the readiness of tanks and holds for entry."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging can take place at Porto Torres",
+    "p": [
+      "Porto Torres is not a major ship repair centre, and larger dockings usually take place at yards elsewhere in Italy, in Malta or beyond. The port is best understood as a place to gauge afloat. At the ferry quays, vehicle decks, ramps, void spaces and ballast tanks can be measured between sailings. At the industrial berths, chemical tankers and bulk carriers can be gauged when the terminal permits, and at the anchorage a ship waiting for its turn can be reached by launch in settled weather. Ship's staff usually have the clearest picture of which tanks are empty, so the superintendent's tank status list is the starting document for every plan.",
+      "For ships whose readings point to steel renewal, the practical route is a docking at a larger yard, with Cagliari and mainland ports as the usual options. Gauging in Porto Torres then supplies an early record that the owner, the surveyor and the yard can all work from. For ships in lay-up or between charters, a longer programme is realistic because the crew is not under time pressure and spaces can be cleaned and ventilated in advance."
+    ],
+    "list": [
+      "Ferry and ro-ro quays: vehicle decks, ramps, void spaces and ballast tanks between sailings",
+      "Industrial port berths: cargo and ballast tanks of chemical tankers and holds of bulk carriers, subject to terminal permits",
+      "Gulf of Asinara anchorage: ships waiting for a berth, reached by launch when the weather allows",
+      "Lay-by positions for ships idle between charters, suited to a longer programme",
+      "Cagliari and mainland yards: larger docking facilities used after gauging results are reviewed"
+    ]
+  },
+  "context": {
+    "h": "Port state control and regulation at Porto Torres",
+    "p": [
+      "Port state control at Porto Torres is carried out by the Italian Coast Guard (Guardia Costiera), working through the harbour master (Capitaneria di Porto), under the Paris MoU system. Chemical tankers and ageing bulk carriers can be targeted for inspection, and corrosion in tanks and holds is a typical area of concern. Ferries on regular services also fall under the EU regime for passenger ships, so structural defects on a ro-pax ship tend to be dealt with quickly.",
+      "Beyond inspections, the EU Ship Recycling Regulation requires ships calling at EU ports to carry an Inventory of Hazardous Materials, which a docking is the natural moment to update. EU ETS and FuelEU Maritime add a carbon dimension to the economics of keeping older ro-pax ships and cargo vessels in service. Chemical tankers and bulk carriers surveyed under the Enhanced Survey Programme need thickness reports in the formats the societies expect, and early gauging in Sardinia keeps the docking schedule on track. Because the port serves both passengers and heavy industry, ships here are watched by two different groups of inspectors, and owners who hold current thickness records are better placed to answer questions from either."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Porto Torres",
+    "p": "Porto Torres work follows the rhythm of ferries and industrial cargoes. A ferry operator wants a staged programme across several calls, a chemical tanker owner wants tank steel checked before a survey, and a bulk carrier superintendent wants holds measured after discharge. We agree the spaces in advance, plan around the berth, and issue one report for the owner and the yard.",
+    "list": [
+      "Staged gauging of a ro-pax ferry's vehicle decks and ballast tanks over several calls ahead of a docking",
+      "Cargo tank gauging on a chemical tanker after cleaning at the industrial berth",
+      "Hold frame and hatch coaming gauging on a bulk carrier following discharge",
+      "Owner's condition gauging of a ro-ro ship at the end of a charter",
+      "Piping wall-thickness measurement on ballast and scrubber lines of a ferry during a winter lay-up"
+    ]
+  },
+  "logistics": "Alghero airport is the closest to Porto Torres, with Olbia and Cagliari as alternatives that need a longer road transfer. The crew travels from India on Schengen visas, so dates are confirmed once visa lead time is known. Ferry berths and industrial quays are reached through the ship's agent, who arranges port passes and terminal inductions, and we provide personnel details and equipment lists as soon as the job is confirmed.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Ro-ro cargo ships",
+    "Chemical tankers",
+    "Bulk carriers",
+    "General cargo ships",
+    "Small product tankers",
+    "Coasters",
+    "Tugs and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ferry be gauged between sailings at Porto Torres?",
+      "a": "Yes, when the crew has cleared the vehicle deck and made the target tanks safe. A ro-pax ship spends hours alongside before the return trip, enough for a defined block. We plan the sequence with the superintendent and merge readings from several calls into one report for the yard."
+    },
+    {
+      "q": "Does the mistral affect gauging at the anchorage?",
+      "a": "It can, since strong north-westerly winds make launch transfers difficult and uncomfortable. We keep a spare day in anchorage plans and prefer a quay berth whenever the ship has one available. When the weather is settled, the anchorage can still give a long, quiet window for tank work."
+    },
+    {
+      "q": "Is there a large drydock at Porto Torres?",
+      "a": "No, large dockings are normally done at yards elsewhere in Italy or in Malta, with Cagliari and mainland ports as common choices. Gauging in Porto Torres gives the owner an early thickness record, so the steel estimate and renewal list are agreed before the ship leaves for the yard."
+    },
+    {
+      "q": "Can chemical tanker cargo tanks be gauged at the industrial berth?",
+      "a": "Yes, after the tanks have been cleaned, ventilated and certified safe, and with the agreement of the terminal and the master. We take bottoms, bulkheads and stiffeners where access allows, and record readings by tank so the surveyor can see where wastage is concentrated."
+    }
+  ],
+  "nearby": [
+    "cagliari",
+    "genoa",
+    "livorno",
+    "bastia",
+    "civitavecchia"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "saskatoon",
+  "lat": 52.13,
+  "lng": -106.67,
+  "localContext": "Saskatoon's NDT demand comes from potash mines and processing sites around the city, uranium producers headquartered here with operations in northern Saskatchewan, agricultural equipment and trailer manufacturing, and pipeline and oilfield service work. Pipelines run to CSA Z662, pressure equipment falls under the Technical Safety Authority of Saskatchewan, and licensed uranium sites answer to the CNSC. Corrosion on tanks and vessels and welding on fabricated equipment make UT, MT, PT and VT the everyday methods.",
+  "certPathwayNote": "Saskatoon employers split between CAN/CGSB-48.9712, certified through NRCan or CWB Group after Recognized Training Organization courses, and ASNT SNT-TC-1A, where the employer's written practice governs certification. Atlantis courses follow SNT-TC-1A for suppliers on US-code work, cross-border contracts and customers who name ASNT. Licensed nuclear sites set their own scheme. Radiography needs CNSC exposure device operator certification.",
+  "salaryFrom": "edmonton",
+  "siblings": [
+    "regina",
+    "edmonton",
+    "winnipeg",
+    "calgary",
+    "red-deer"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Saskatoon | Level 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Saskatoon employers and technicians: online theory, practical at your facility, UT, MT, PT, VT, RT and Level III support.",
+    "h1": "ASNT SNT-TC-1A NDT Training in Saskatoon, SK: Level 1, 2 and 3 Courses"
+  }
+}

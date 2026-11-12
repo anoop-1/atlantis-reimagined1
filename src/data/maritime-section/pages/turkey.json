@@ -1,0 +1,121 @@
+{
+  "slug": "turkey",
+  "navLabel": "Turkey",
+  "title": "Ship Thickness Measurement in Turkey | UTM at Tuzla & Marmara",
+  "description": "Ship thickness measurement in Turkey: UTM and hull gauging at Tuzla, Yalova, Izmit, Aliağa, Mersin and the Black Sea ports, with teams sent from India.",
+  "h1": "Ship Thickness Measurement and Hull Gauging in Turkey",
+  "eyebrow": "Maritime inspection · Turkey",
+  "intro": "Turkey combines a large ship-repair industry with busy cargo coasts on four seas. The yards at Tuzla and Altınova, on opposite shores of the eastern Sea of Marmara, dock ships from across the Black Sea and the Mediterranean; the Gulf of Izmit, Aliağa and Mersin bring tankers, chemical carriers and bulk carriers; and the Black Sea ports work coal, ore and general cargo. Istanbul is a shipowning city in its own right. Atlantis mobilises its team from India for each job, planned around the docking, the cargo call or the wait for a Straits transit.",
+  "highlights": [
+    {
+      "h": "Steel lists before a Tuzla docking",
+      "p": "Ships often wait at the anchorages off Tuzla or Yalova before their dock is free. Gauging during that wait gives the yard a measured steel estimate, so plate can be ordered and welders booked before the ship is opened up."
+    },
+    {
+      "h": "Older ships under the 2025 PSC rules",
+      "p": "Turkey's 2025 port state control regulation puts older ships and structural checks of holds and ballast tanks near the top of the list, and repeated detentions can end in a port ban. Owners trading ageing bulk carriers to Turkish ports gauge ahead of the call."
+    },
+    {
+      "h": "Waiting time at the Straits",
+      "p": "Ships waiting for a Bosphorus or Dardanelles transit, a pilot or orders can lie at anchor for hours or days. With spaces prepared in advance, that wait can carry deck, hatch cover and ballast tank gauging that would otherwise need a port call."
+    }
+  ],
+  "sections": [
+    {
+      "id": "tr-marmara",
+      "h": "The Marmara repair cluster: Tuzla, Altınova and the Gulf of Izmit",
+      "p": [
+        "Most Turkish ship repair is concentrated in a small area of the eastern Sea of Marmara. The Tuzla yards on Istanbul's Anatolian shore, and the Altınova yards in Yalova province across the water, run floating docks, repair quays and conversion berths for bulk carriers, tankers, general cargo ships, offshore vessels and ferries. In dock the team covers bottom and side shell and the tanks opened for survey; at the repair quays it covers holds, tanks, decks and piping before the steel work begins.",
+        "The Gulf of Izmit, whose mouth lies between the two yard zones, is lined with industrial berths: the Tüpraş refinery at Körfez, chemical and fuel terminals, car terminals and the cargo port at Derince. A ship can be gauged at her berth within the terminal's permit rules and then move a short distance to a yard, which makes a combined pre-docking and in-dock programme practical. Elsewhere on the Marmara, Ambarlı on Istanbul's European shore is the main container harbour, while Tekirdağ, Bandırma and Gemlik serve the industry of Thrace, Balıkesir and Bursa."
+      ]
+    },
+    {
+      "id": "tr-coasts",
+      "h": "The Aegean, Mediterranean and Black Sea coasts",
+      "p": [
+        "On the Aegean, the Izmir region divides between the city port at Alsancak and the industrial coast at Aliağa and Nemrut Bay, where refineries, a petrochemical complex, steel mills and ship-recycling yards stand side by side. Tankers and chemical carriers are gauged at their jetties and bulk carriers at the scrap and bulk berths. Further north, Çanakkale looks over the Dardanelles, and ships waiting at the strait's anchorages give short windows for deck and tank readings.",
+        "On the Mediterranean, Mersin is the main gateway for container, bulk and ro-ro traffic, Iskenderun Bay serves steelworks and the crude terminals at Ceyhan, and Antalya, further west, adds cargo and cruise calls.",
+        "The Black Sea coast is more exposed and more industrial. Ereğli and Zonguldak serve a steelworks, coal mines and power stations, Samsun is the main general cargo and ro-ro port of the central coast, and Trabzon in the east handles general cargo and transit trade. Bulk carriers working coal and ore here wear their hold steel quickly, and hold, hopper and tank-top gauging between cargoes is the typical job."
+      ]
+    },
+    {
+      "id": "tr-owners",
+      "h": "Istanbul owners and the ships they send to Turkish yards",
+      "p": [
+        "Istanbul is home to Turkish owners and managers running bulk carriers, general cargo ships, tankers and short-sea tonnage, much of it on Black Sea, Marmara and Mediterranean trades. Many of their ships are older, trade regionally and dock at Turkish yards, so one owner may want pre-docking gauging at Tuzla, condition gauging during a cargo call at Samsun and pre-purchase gauging on a ship being bought, all in the same season. Turkish buyers are active in the second-hand market, and a buyer's condition gauging before subjects are lifted is a regular request."
+      ]
+    },
+    {
+      "id": "tr-regime",
+      "h": "Port state control, the Turkish Straits and emission rules",
+      "p": [
+        "Turkey is a member of the Black Sea MoU and the Mediterranean MoU, and port state control comes under the Ministry of Transport and Infrastructure. A regulation issued in 2025 gives inspection priority to ships with reported damage or deficiencies, to ships banned under the Paris MoU, and to ships over twenty years old certified by organisations outside IACS, and its inspections include structural checks of holds and ballast tanks. A ship detained three times within 36 months can be banned from Turkish ports, so the condition of the steel carries real commercial weight.",
+        "The Bosphorus and the Dardanelles are governed by the Montreux Convention and managed by the Turkish Straits vessel traffic service. Strong currents, heavy traffic and transit rules for large ships and dangerous cargoes mean that many ships anchor before passing, at the Black Sea entrance, off Ahırkapı or in the Dardanelles approaches.",
+        "The Mediterranean SOx emission control area, in force since 1 May 2025, covers Turkey's Aegean and Mediterranean coasts, and its eastern limit is a line drawn across the entrance to the Dardanelles. Beyond that line, in the Sea of Marmara, the Straits and the Black Sea, the global 0.50% sulphur limit applies. A scrubber ship on a Black Sea to Mediterranean trade therefore changes cleaning standard on every voyage, and its wash-water piping works under both.",
+        "Aliağa's ship-recycling yards, north of Izmir, work to the Hong Kong Convention, in force internationally since 26 June 2025, and several of them are on the European List of ship recycling facilities that EU-flag ships must use. A ship sold for recycling there needs an up-to-date Inventory of Hazardous Materials, and owners selling an older ship often combine the IHM update with a last condition record."
+      ]
+    },
+    {
+      "id": "tr-seasons",
+      "h": "Weather, currents and seasons",
+      "p": [
+        "The Sea of Marmara is sheltered compared with the open coasts, but its anchorages still feel the lodos, the south-westerly that blows through the winter, and the poyraz, the north-easterly that funnels down the Bosphorus. Either can stop launch services for a day or more. On the Black Sea coast, winter storms close exposed berths at Ereğli, Zonguldak and Samsun, and summer is the dependable season for anchorage work there. The Aegean has the summer meltemi to plan around, and in the south-east the heat inside tanks slows enclosed-space work in July and August."
+      ]
+    },
+    {
+      "id": "tr-planning",
+      "h": "Planning a gauging job in Turkey from India",
+      "p": [
+        "Turkey is outside the EU and the Schengen area, so the team travels on a Turkish visa arranged for each job, and the visa lead time is the first constraint on the start date. Tell us the ship, her class, the purpose of the gauging, and where and when she will be: an anchorage off Tuzla, a dock at Altınova, a terminal in the Gulf of Izmit or a Black Sea berth. If she is waiting for a dock or a transit, give us the expected window and we plan to it.",
+        "Boarding is arranged through the ship's agent, under the ISPS rules of each port or terminal and the yard's permit system in the repair zones. In the yards, early readings matter most: once a ship is in dock the yard plans its steel crews around the first results, and a steel list settled in the first days avoids holding the ship for a second round of gauging."
+      ]
+    }
+  ],
+  "codes": [
+    "Black Sea Memorandum of Understanding on Port State Control",
+    "Mediterranean Memorandum of Understanding on Port State Control",
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: the Mediterranean Sea emission control area on the Aegean and Mediterranean coasts",
+    "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships, 2009",
+    "EU Ship Recycling Regulation: the European List and the IHM for EU-flag ships recycled in Turkey"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's TM plan: as-built, measured and diminution at every point",
+    "Pre-docking steel renewal estimate for Tuzla, Altınova and other Turkish yards",
+    "Hold, hopper and tank-top gauging records for bulk carriers in coal and ore trades",
+    "Scrubber and ship piping wall-thickness tables",
+    "Inventory of Hazardous Materials update before a sale for recycling"
+  ],
+  "industries": [
+    "Bulk carriers",
+    "General cargo and multipurpose ships",
+    "Crude, product and chemical tankers",
+    "Container ships",
+    "Car carriers and ro-ro ships",
+    "Turkish ship owners and managers",
+    "Ship repair yards",
+    "Owners selling ships for recycling"
+  ],
+  "faqs": [
+    {
+      "q": "Which Turkish ports do you cover for ship thickness measurement?",
+      "a": "Istanbul with Tuzla and Ambarlı, the Altınova yards in Yalova, Izmit and Derince on the Gulf of Izmit, Tekirdağ, Bandırma and Gemlik on the Marmara, Izmir with Aliağa, Çanakkale on the Dardanelles, Mersin and Antalya on the Mediterranean, and Samsun, Trabzon, Ereğli and Zonguldak on the Black Sea. Each port page covers the ships, the berths and yards, and the jobs we see there."
+    },
+    {
+      "q": "Can you gauge a ship at the Tuzla anchorage before she enters dock?",
+      "a": "Yes. Pre-docking gauging at the anchorage off Tuzla or Yalova is one of the most useful Turkish jobs, because it turns the yard's steel allowance into a measured estimate before the ship is in dock. The crew prepares and certifies the agreed spaces, the agent arranges the launch, and the readings go to the superintendent and the yard as they are taken."
+    },
+    {
+      "q": "Can ships waiting for a Bosphorus transit be gauged?",
+      "a": "Sometimes. Ships waiting at the Black Sea entrance, off Ahırkapı or in the Dardanelles approaches can be boarded by launch arranged through the agent, if the master agrees and the spaces are ready. Waits are hard to predict, so we keep the scope to deck, hatch covers, air pipes and prepared ballast tanks, and plan the rest for a berth or a yard."
+    },
+    {
+      "q": "Do you work on ships being sold for recycling at Aliağa?",
+      "a": "We carry out Inventory of Hazardous Materials surveys and updates, and condition gauging, on ships before they are sold or delivered, at their last cargo port or at anchor. The recycling itself and the yard's ship recycling plan are matters for the buyer and the yard; our part ends with the survey report and the readings handed to the seller."
+    },
+    {
+      "q": "How much notice do you need for a job in Turkey?",
+      "a": "As much as you can give. The team travels from India on a Turkish visa arranged for each job, so the visa lead time sets the earliest start. Share the docking, arrival or transit window early, even if it may move, and we keep the mobilisation plan in step with the ship."
+    }
+  ]
+}

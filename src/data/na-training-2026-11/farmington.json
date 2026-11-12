@@ -1,0 +1,15 @@
+{
+  "slug": "farmington",
+  "lat": 36.73,
+  "lng": -108.22,
+  "localContext": "Farmington is the hub of the San Juan Basin, one of the larger natural gas producing regions in the United States. Producers, midstream operators, gathering and processing plants, compressor stations and transmission pipelines surround the city, and the Four Corners Power Plant near Fruitland adds steam-plant and boiler work. Pipeline and pressure-equipment inspection follows ASME B31 codes, API standards and operator specifications, with field welding inspection and in-service thickness work as the daily bread of NDT here.",
+  "certPathwayNote": "Oil, gas and pipeline employers around Farmington generally certify technicians under a written practice based on ASNT SNT-TC-1A: the employer sets training and experience hours, examines the technician, and certifies. Operators and midstream companies often add their own contractor qualification requirements on top. ASNT central certification is an alternative for technicians who move between contractors.",
+  "salaryFrom": "denver",
+  "siblings": [
+    "albuquerque",
+    "denver",
+    "salt-lake-city",
+    "midland",
+    "el-paso"
+  ]
+}

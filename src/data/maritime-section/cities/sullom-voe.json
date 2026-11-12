@@ -1,0 +1,109 @@
+{
+  "slug": "sullom-voe",
+  "name": "Sullom Voe",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Sullom Voe UTM for Shuttle Tankers and Terminal Craft",
+  "description": "Thickness measurement at Sullom Voe for shuttle tankers, crude tankers and terminal tugs: deck, cargo and ballast tank gauging, piping UT and crack checks.",
+  "h1": "Ultrasonic Thickness Gauging for Tankers at the Sullom Voe Terminal",
+  "intro": "Sullom Voe, a long sheltered inlet in the north of Mainland Shetland, is home to the oil terminal that gathers crude from the northern North Sea and from the fields west of Shetland. Oil arrives by pipeline and by shuttle tanker and leaves on export tankers. Tankers spend limited time on the jetties, so gauging here is planned carefully around cargo operations, waiting time and the harbour's own tugs and launches. Technicians travel from India to Shetland for each assignment.",
+  "keywords": [
+    "sullom voe tanker inspection",
+    "shuttle tanker thickness measurement",
+    "ultrasonic thickness gauging sullom voe",
+    "crude tanker deck gauging",
+    "tanker ballast tank utm",
+    "shetland oil terminal ship inspection",
+    "tug hull gauging shetland",
+    "tanker deck piping thickness testing",
+    "utm sullom voe"
+  ],
+  "highlights": [
+    {
+      "h": "Built around tanker cargo operations",
+      "p": "On the jetty a tanker is loading or discharging, so tank entry is limited and every activity runs under the terminal's rules. Deck plating, cargo and ballast piping on deck, air pipes and coamings can still be gauged externally when the master and the terminal agree."
+    },
+    {
+      "h": "Shuttle tankers between liftings",
+      "p": "Dynamically positioned shuttle tankers run a tight cycle between offshore fields and terminals. The gaps that do occur, waiting on weather, on cargo or on a field shutdown, are the realistic windows for ballast tank and piping gauging, and we plan for them with the operator."
+    },
+    {
+      "h": "The harbour's own working fleet",
+      "p": "Tugs, pilot launches and the mooring and oil-spill response craft that keep Sullom Voe running work hard in exposed waters. Their hulls, fendering structure, towing gear foundations and sea-water piping need regular gauging and crack checks, which can be fitted around the tanker schedule."
+    }
+  ],
+  "port": {
+    "h": "Sullom Voe: a deep oil harbour in the north of Shetland",
+    "p": [
+      "Sullom Voe opens off Yell Sound on the north side of Mainland Shetland and runs inland for several miles, giving deep, sheltered water well away from the open sea. Tankers approach through Yell Sound, where tidal streams run strongly between the islands, and pilots and tugs attend the large ships that use the terminal. Shetland Islands Council is the harbour authority, operating the vessel traffic service, pilotage and towage, and the harbour was laid out from the start for crude carriers rather than general shipping. There is no town quayside here in the usual sense: the shore is taken up by the terminal, its tank farm and the gas plant beside it, with small settlements such as Brae close by. That shapes inspection work, because every visit to a ship passes through an industrial site with its own safety rules.",
+      "The terminal gathers crude from two directions. Pipelines bring oil from the fields of the East Shetland Basin and, from the west, the Clair area, while shuttle tankers have carried crude from fields west of Shetland that have no pipeline connection. Export tankers then lift parcels from the tank farm for refineries in Europe and beyond. EnQuest has operated the terminal since 2017, taking over from BP, and the site's future is tied to continued production west of Shetland as the older North Sea fields that once fed it decline. Traffic is therefore dominated by crude tankers, from dynamically positioned shuttle tankers to conventional export ships, together with the harbour's tugs, launches and the occasional supply or project vessel serving the terminal and the gas plant.",
+      "Time at the terminal is short and tightly controlled. A tanker arrives, connects, loads or discharges, and sails, and for most of that stay the cargo tanks are full, being filled or being emptied. Ballast tanks may be emptied during loading, but entering them alongside an oil jetty depends on the terminal operator, the master and the ship's own safety management system. Weather adds to the pressure: Shetland's winter gales can close the jetties or the approaches, leaving ships waiting in sheltered water or at sea. For inspection this makes Sullom Voe a port of careful planning, where the scope is set by what can safely be done in the time the ship is here, and where the harbour's own craft often offer the most practical work."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging fits at Sullom Voe",
+    "p": [
+      "The jetties are the terminal's working berths, and any inspection there runs under its permit system. External UT on deck plating, deck piping, air and vent pipes and hatch coamings is usually the most that can be done during cargo operations, because the cargo deck is a hazardous area and tank entry is not normally allowed while cargo is being worked. Instruments taken onto the deck must also satisfy the terminal's rules for equipment in hazardous areas. That limited scope is still valuable: a superintendent can confirm the condition of deck lines, or of a suspect area noted at the last survey, without diverting the ship. A ship held off the berth by weather or cargo timing is a different case, and there gas-free tanks can be entered under the ship's own permits if the master and the owner agree.",
+      "There is no drydock or repair yard at Sullom Voe, and tankers trading here take their dockings at yards elsewhere in Europe or further afield. When a tug or launch is withdrawn from service for maintenance, it lies alongside without the time pressure of a loading tanker, and that period suits hull, deck and piping work. For shuttle tankers, the most useful Sullom Voe job is often a focused set of readings that feeds the steel estimate for the next docking, taken while the ship is already in Shetland waters and passed to the yard before she arrives."
+    ],
+    "list": [
+      "Terminal jetties — external UT on deck plating, deck cargo and ballast lines, air pipes and coamings, under the terminal's permit system and hazardous-area rules.",
+      "Waiting time off the berth — ballast tank and void-space gauging on gas-free spaces of ships delayed by weather or cargo timing.",
+      "Tug and launch berths — hull, towing-gear foundation and sea-water piping checks on harbour craft during maintenance periods.",
+      "Shuttle tankers between liftings — targeted ballast tank and piping gauging planned with the operator to feed the next docking's steel estimate."
+    ]
+  },
+  "context": {
+    "h": "Terminal rules, tanker vetting and the UK regime",
+    "p": [
+      "Port state control at Sullom Voe is carried out by the Maritime and Coastguard Agency under the Paris MoU, and tankers attract particular attention in the regime's risk-based targeting. For tankers, though, the more frequent scrutiny comes from oil-major vetting under OCIMF's SIRE programme and from terminal acceptance checks, both of which look closely at deck condition, piping and the records behind them. Visible corrosion on deck lines or air pipes draws observations that can complicate the next fixture. A set of recent, well-documented readings lets a technical manager answer those questions with measurements, and close an observation before the next inspection rather than after it.",
+      "Shuttle tankers add their own engineering. Many are dynamically positioned and fitted with bow loading systems, so the bow loading area, the hawser and hose handling structure and the thruster rooms see loads and vibration that ordinary tankers do not, and fatigue cracking at welded details is a known concern alongside corrosion in ballast tanks. As double-hull tankers age, their extensive ballast spaces receive more close-up survey under the ESP Code at each renewal. Combining thickness readings with magnetic particle or dye penetrant testing at the highly stressed details gives the owner a fuller picture than either method alone."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical inspection work at Sullom Voe",
+    "p": "Jobs at Sullom Voe are smaller and more tightly scoped than at a repair port, and they depend on cooperation between the ship, the terminal and the owner. A typical request is for readings on a specific area: deck lines a vetting inspector commented on, a ballast tank that showed coating breakdown at the last survey, or a tug's towing winch foundation. We agree beforehand what can be done on the jetty, what needs the ship to be waiting off the berth, and what is better left to the next docking, so the team's time on board is spent on readings that can actually be taken.",
+    "list": [
+      "External UT on deck cargo, stripping and ballast lines of a crude tanker during loading, following a vetting observation on deck piping.",
+      "Ballast tank gauging on a shuttle tanker held off the berth by weather, with readings sent to the yard as a pre-docking steel estimate.",
+      "Bow loading area and thruster room crack detection on a DP shuttle tanker, combining MPI at welded details with plate thickness readings.",
+      "Hull, bulwark and towing-gear foundation gauging on a harbour tug during a maintenance period alongside.",
+      "Air pipe and vent head survey across the deck of an export tanker, ahead of a terminal acceptance inspection at her next port."
+    ]
+  },
+  "logistics": "Sumburgh Airport, at the southern end of Mainland Shetland, receives Loganair flights from Aberdeen, Edinburgh and Glasgow, and the terminal lies at the opposite end of Mainland, reached by road, so the team stays nearby for the duration of the job. The overnight ferry from Aberdeen to Lerwick is an alternative when flights are cancelled. Our technicians come from India on UK visas, and the terminal's own access arrangements, including inductions and passes for its secure site, are made through the ship's agent and the terminal operator before arrival.",
+  "vessels": [
+    "Crude shuttle tankers",
+    "Crude export tankers",
+    "Dynamically positioned tankers with bow loading",
+    "Harbour tugs",
+    "Pilot and mooring launches",
+    "Oil-spill response craft",
+    "Offshore supply vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can tanks be entered while a tanker is loading at Sullom Voe?",
+      "a": "Normally not. With cargo being worked, the terminal's rules, the ship's safety management system and industry guidance all restrict tank entry, and the master and the terminal decide what is permitted. Deck work is a different matter: external UT on deck plating, piping and air pipes can often proceed under permit with suitable instruments. Tank gauging is best planned for a ship waiting off the berth or for her next port call."
+    },
+    {
+      "q": "Do you inspect the harbour tugs and launches at Sullom Voe?",
+      "a": "Yes, for their owner or operator. Tugs at an oil terminal take heavy escort and berthing loads in exposed water, so hull plating at the fendering, the towing winch and staple foundations, and sea-water cooling piping are the usual priorities. A maintenance period alongside gives time to gauge without interfering with tanker movements, and crack detection on welded foundations can be done in the same visit."
+    },
+    {
+      "q": "What can be gauged on a shuttle tanker during a short call?",
+      "a": "It depends on the time available and the tanks the master can make ready. A realistic short-call scope covers deck plating, deck piping and air pipes, plus one or two gas-free ballast tanks if the ship is waiting and the operator agrees. We set priorities with the superintendent beforehand, usually the areas flagged at the last survey or by a vetting inspector, so the most useful readings are taken first."
+    },
+    {
+      "q": "Is there a drydock near Sullom Voe?",
+      "a": "No. Tankers trading to Shetland dock at yards in mainland Europe or further afield, and the terminal has no repair yard of its own. What Sullom Voe offers is time in sheltered water, so readings taken here can be sent to the yard ahead of the docking. That lets the yard and the class surveyor start from a measured steel estimate instead of an allowance."
+    },
+    {
+      "q": "How does winter weather affect a job at Sullom Voe?",
+      "a": "Shetland's winter gales can stop berthing at the jetties, close the approaches or delay flights to Sumburgh, and short winter days limit outdoor work on deck. We build a spare day into the plan, keep in touch with the agent about the ship's berthing window, and order the scope so that the readings most needed are taken first if the ship's stay is cut short."
+    }
+  ],
+  "nearby": ["lerwick", "orkney", "aberdeen", "bergen", "peterhead"]
+}

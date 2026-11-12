@@ -1,0 +1,115 @@
+{
+  "slug": "hull",
+  "name": "Hull",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Hull Ship Thickness Gauging | Ferries, Feeders and Wind Ships",
+  "description": "Ship thickness gauging in Hull for the Rotterdam ro-pax, container feeders, short-sea cargo and offshore wind vessels: vehicle deck, hold and drydock UTM.",
+  "h1": "Thickness Measurement for Ships in Hull's Humber Docks",
+  "intro": "Hull lies on the north bank of the Humber, its docks entered through locks from a fast-flowing tidal estuary. The overnight ferry to Rotterdam, container feeders, short-sea cargo ships and vessels carrying turbine blades from the Alexandra Dock factory all call, and a ship-repair yard with a graving dock works at William Wright Dock. Stays range from a ferry's day in port to a full docking, so gauging scopes vary widely. A team is flown in from India to the ship for every Hull job.",
+  "keywords": [
+    "hull ship thickness gauging",
+    "thickness measurement hull",
+    "utm hull docks",
+    "ro-pax ferry inspection hull",
+    "ship inspection humber",
+    "drydock gauging william wright dock",
+    "vehicle deck gauging",
+    "container feeder gauging hull",
+    "blade carrier deck inspection",
+    "hull gauging east yorkshire"
+  ],
+  "highlights": [
+    {
+      "h": "Overnight ferry to Rotterdam",
+      "p": "The P&O ro-pax ships on the Hull to Rotterdam route spend the day alongside between overnight crossings. A gauging scope split over several daytime stays covers vehicle decks, ramps, bow and stern structure, voids and ballast tanks without touching the timetable."
+    },
+    {
+      "h": "Graving dock at William Wright Dock",
+      "p": "Dunston (Ship Repairs) runs a graving dock and outfitting pier at William Wright Dock, taking tugs, dredgers, offshore vessels, fishing vessels and coasters. A docking there is the window for shell, double-bottom and tank gauging with the yard's staging in place."
+    },
+    {
+      "h": "Blade cargoes and wind vessels",
+      "p": "Turbine blades made at the Alexandra Dock factory leave Hull by sea for wind farm projects. Ships carrying long blades as deck cargo concentrate loads through stowage frames into the deck, and the welds and plating beneath them repay gauging and crack detection between voyages."
+    }
+  ],
+  "port": {
+    "h": "Hull: enclosed docks on a tidal estuary",
+    "p": [
+      "Kingston upon Hull stands where the River Hull joins the Humber, some way in from the estuary mouth, and its port is a chain of enclosed docks along the north bank run by Associated British Ports. To the east of the city centre lie Alexandra Dock and the King George and Queen Elizabeth docks, which handle the ferry, containers and most bulk and general cargo; to the west, Albert Dock and William Wright Dock are home to the ship-repair yard and smaller berths. Each dock system is entered through a lock from the river, because the Humber's tidal range is large and its streams are strong. Ships arrive and leave around high water, and once inside they lie in impounded water at a steady level, which is a good environment for gauging.",
+      "The best-known ships in Hull are the two P&O ro-pax ferries on the overnight service to Rotterdam's Europoort, which carry passengers, cars and freight and spend each day alongside at King George Dock. Container feeders link Hull with the Continental hubs, and short-sea ships bring forest products, steel and general cargo. Since the Siemens Gamesa blade factory opened at Alexandra Dock as part of the Green Port Hull development, turbine blades have left the port by sea, and offshore wind installation and service vessels pass through the Humber. Downstream, the Saltend chemicals park has a jetty on the river used by chemical tankers. Hull also still carries the memory of its distant-water trawler fleet, which once made it one of the busiest fishing ports in the world.",
+      "The Humber's tides decide the rhythm of every call. Pilotage is compulsory for most merchant ships, and arrivals are timed so that the ship reaches the lock while it is working, which can mean waiting in the river or at anchor for the next tide. Fog in the estuary occasionally delays movements in autumn and winter. For inspection, the locks have a useful side effect: ships tend to stay longer inside the docks than they would at an open riverside berth, because their departure is tied to the tide as well as to cargo. The extra hours are often enough to open one more ballast tank or finish a hold that a tight discharge would otherwise have left unfinished."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging locations in Hull's docks",
+    "p": [
+      "At William Wright Dock, Dunston (Ship Repairs) offers dry docking and afloat repair for smaller ships, including tugs, dredgers, offshore vessels, fishing vessels, coasters and passenger craft. A ship in the graving dock gives full access to bottom and side shell, sea chests and the stern area, while tanks are opened and ventilated to the docking programme. Larger ships trading to Hull that need a drydock book yards on the Tees or the Tyne or across the North Sea, and we gauge them alongside in Hull beforehand so the yard receives the steel list early.",
+      "In the eastern docks, work is in service and follows the ship's schedule. The ferry is worked during its daytime stay at the King George Dock terminal, with the vehicle decks clear between discharge and loading. Container and general cargo ships are gauged around cargo operations. Vessels at Alexandra Dock loading blades or project cargo can have deck foundations checked before or after loading. At the Saltend jetty on the river, chemical tankers are worked inside the terminal's permit system, which usually confines the scope to deck plating and piping unless a tank has been certified gas-free."
+    ],
+    "list": [
+      "William Wright Dock: Dunston's graving dock and outfitting pier for docking survey and afloat repair gauging on smaller ships.",
+      "King George Dock ferry terminal: vehicle-deck, ramp and tank scopes on the Rotterdam ro-pax, divided across daytime stays.",
+      "Container and short-sea cargo berths in the eastern docks: hold, deck and ballast tank gauging during cargo work.",
+      "Alexandra Dock: blade-carrying and wind project vessels, with deck foundation crack detection and plating gauging.",
+      "Saltend jetty on the Humber: deck and piping gauging on chemical tankers within the terminal's rules."
+    ]
+  },
+  "context": {
+    "h": "Regulation and trade on the Humber's north bank",
+    "p": [
+      "The Maritime and Coastguard Agency inspects foreign ships in Hull under the Paris MoU, which the UK continues to apply through its own law. Ships of 5,000 gross tonnage or more sailing between Hull and an EU port have half of that voyage's emissions counted under the EU Emissions Trading System, and FuelEU Maritime applies to the same half. For the Rotterdam ferries and the larger feeders, that has made hull efficiency a commercial matter: owners plan coating renewals at refit with more care, and thickness readings decide where steel has to be renewed before new coating goes on, rather than after.",
+      "Hull is part of the Humber Freeport, and its economy is leaning on offshore wind manufacturing, logistics and energy. For ships that means more project cargo, more blade shipments and more vessels on wind-related charters passing through the docks. Ro-pax ferries bring their own inspection pattern, set by heavy vehicle traffic: wastage and cracking around lashing points and ramp landings, wear on vehicle-deck plating, and corrosion in voids and tanks under the vehicle decks that are rarely opened in service. On ferries that fitted exhaust gas cleaning systems, the wash-water lines and overboard connections deserve a regular wall-thickness check as well."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Hull",
+    "p": "Hull jobs range from a week of daytime sessions on the ferry to a single-day check on a coaster and a full docking at William Wright Dock. For the ferry and the feeders, we agree a programme that the crew can prepare ahead of each call. For dockings, the TM plan is agreed with the class surveyor and the yard. For deck-cargo ships, the timing depends on when the blades or project units are loaded or discharged. Each job is planned around the lock times and the ship's agent's schedule.",
+    "list": [
+      "Daytime gauging on the Rotterdam ro-pax across a week of port stays: vehicle decks, ramps, void spaces and ballast tanks.",
+      "Docking survey gauging on a tug, dredger or offshore vessel in the William Wright Dock graving dock.",
+      "Hatch coaming and hold gauging on a short-sea ship discharging forest products or steel in the eastern docks.",
+      "Magnetic particle testing of blade stowage frame foundations on a deck-cargo vessel after a blade shipment.",
+      "Pre-purchase condition gauging on a coaster lying in the docks between cargoes.",
+      "Scrubber wash-water and overboard piping UT on a scrubber-fitted ferry ahead of its annual refit."
+    ]
+  },
+  "logistics": "Humberside Airport, on the south bank, has a small route network, so most teams fly into Manchester, Leeds Bradford or a London airport and continue by rail to Hull Paragon, which has direct trains from London King's Cross. Our technicians come from India on UK visit visas, applied for well ahead of the job. ABP's dock estate is ISPS-controlled, and the ship's agent arranges passes and confirms lock times, which set when the team can board and how long the ship will stay.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Container feeders",
+    "Short-sea general cargo ships",
+    "Bulk carriers",
+    "Chemical tankers",
+    "Offshore wind installation and service vessels",
+    "Tugs, dredgers and workboats",
+    "Fishing vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can the Hull to Rotterdam ferry be gauged without delaying a sailing?",
+      "a": "Yes. The ferries are alongside in Hull through the day, so the scope is divided into daytime sessions over several calls. The crew prepares the next tanks or voids before each arrival, vehicle decks are worked while they are clear, and the readings are combined into one report. Priorities are agreed with the superintendent, so the spaces needed for the next survey or refit are covered first."
+    },
+    {
+      "q": "What size of ship can dock at William Wright Dock?",
+      "a": "The graving dock there suits smaller ships: tugs, dredgers, fishing vessels, coasters, offshore vessels and similar craft. Larger ships trading to Hull normally dock on the Tees, the Tyne or at a yard across the North Sea. For those, we gauge alongside in Hull before the docking, so the yard has a steel list and the superintendent can agree the repair specification in advance."
+    },
+    {
+      "q": "How do the Humber tides and the locks affect a gauging job?",
+      "a": "They set the start and finish. Ships enter and leave the docks around high water, so the team boards once the ship is through the lock and secured, and the departure tide marks the end of the working window. Inside the docks the water level is steady, which helps when working at shell plating or from staging. The agent confirms lock times so we can plan the day."
+    },
+    {
+      "q": "Can deck-cargo ships carrying turbine blades be checked between voyages?",
+      "a": "Yes, ideally after discharge and before the next load, when the deck is clear. Blade stowage frames are welded or bolted to the deck, and the load passes into the plating and the stiffening underneath. Magnetic particle testing of the foundation welds, thickness readings on the surrounding plating and a check of the underdeck structure from inside show whether repeated blade cargoes are causing cracking or local wastage."
+    }
+  ],
+  "nearby": [
+    "immingham",
+    "grimsby",
+    "goole",
+    "teesport",
+    "rotterdam"
+  ]
+}

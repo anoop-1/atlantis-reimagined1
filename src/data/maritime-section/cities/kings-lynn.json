@@ -1,0 +1,106 @@
+{
+  "slug": "kings-lynn",
+  "name": "King's Lynn",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "King's Lynn Ship Gauging: UTM for Coasters on the Great Ouse",
+  "description": "Ultrasonic thickness measurement at King's Lynn docks for coasters, short-sea bulkers and forest products ships: holds, tank tops, hatch covers, decks.",
+  "h1": "Thickness Measurement for Short-Sea Ships at the Port of King's Lynn",
+  "intro": "King's Lynn is a working cargo port on the tidal Great Ouse, reached through the shifting channels of The Wash. Its trade is short-sea: coasters and small bulk carriers bringing in forest products, steel and fertiliser, and loading grain and other agribulks from the Fens. Ships often wait for the tide to enter or leave, and that wait, together with discharge time in the enclosed docks, gives room for gauging. Each job is staffed by technicians who fly in from India and travel on to the ship.",
+  "keywords": [
+    "king's lynn thickness gauging",
+    "ultrasonic thickness measurement king's lynn",
+    "utm king's lynn",
+    "coaster hull gauging",
+    "ship inspection norfolk",
+    "short-sea bulk carrier gauging",
+    "hatch cover thickness measurement",
+    "tank top gauging",
+    "general cargo ship inspection the wash",
+    "pre-docking steel estimate for coasters"
+  ],
+  "highlights": [
+    {
+      "h": "Tide-bound calls create working time",
+      "p": "Ships for King's Lynn arrive and sail around high water, so a call often includes hours alongside with nothing else happening. A scope on decks, hatch covers, air pipes and one prepared ballast tank can be worked through that wait without touching the cargo plan."
+    },
+    {
+      "h": "Hold work between cargo parcels",
+      "p": "Forest products, steel and agribulk come out of the holds in stages. As each hold is cleared, the tank top, hold frames and bilge wells can be gauged before the next parcel arrives, without holding up the stevedores or the ship's sailing time."
+    },
+    {
+      "h": "Older tonnage on Wash trades",
+      "p": "Many ships on these trades are approaching their third or fourth renewal survey. Readings taken during a King's Lynn call give the manager a steel estimate before the ship is booked into a dry dock elsewhere in Britain or on the near Continent."
+    }
+  ],
+  "port": {
+    "h": "King's Lynn: a tidal river port at the head of The Wash",
+    "p": [
+      "The port lies on the east bank of the Great Ouse, a short distance upstream from where the river enters The Wash, the broad, shallow bay between Norfolk and Lincolnshire. Ships reach it along a buoyed channel cut through sandbanks that move with storms and river flow, so the channel marks are surveyed and shifted regularly and masters take a pilot for the passage. Because there is little water in the approach at low tide, arrivals and departures cluster around high water, and a ship that misses her tide waits outside in The Wash for the next one. The Ouse itself runs hard on the ebb, particularly after heavy rain has drained off the Fens, which is one reason masters prefer the shelter of the enclosed docks to a berth on the open river.",
+      "Associated British Ports operates the docks. Alexandra Dock, completed in the late 1860s, and the larger Bentinck Dock behind it handle most of the cargo, while Riverside Quay on the river takes ships directly on the tide. The port has traditionally lived on exporting the produce of the surrounding farmland, and a grain silo complex stands beside Alexandra Dock. Inbound trades today include forest products and timber, steel, fertiliser, stone and materials for manufacturing and recycling. The ships are coasters and small bulk carriers, many of them owned and managed in north-west Europe, and they often run on regular charters that bring the same ship back to the Wash several times a year, so a superintendent can usually predict her next King's Lynn call.",
+      "Seasons shape the workload. Grain exports follow the harvest, so late summer and the months after bring ships loading out of the silo, while forest products and steel arrive through the year and fertiliser tends to be busiest before the spring growing season. Winter gales in the North Sea can hold arrivals back for days, which means call windows open and close at short notice. For gauging, the consequence is that a King's Lynn call is rarely one uninterrupted shift. The team works with the tide and the cargo: deck and hatch structure while the ship waits to shift berth, holds as they empty, and a ballast tank whenever the master can spare one while the ship lies on an even keel in the dock."
+    ]
+  },
+  "facilities": {
+    "h": "Where a ship can be gauged at King's Lynn",
+    "p": [
+      "King's Lynn has no ship-repair dry dock, so gauging here is afloat work done alongside. The enclosed docks are the best place for it: once inside, the ship sits steady against the quay whatever the tide is doing in the river, and cargo work starts and stops at predictable times. Riverside Quay is more demanding, because the ship rises and falls with the tide, which changes gangway angles through the day and decides when the team can reach upper-deck structure such as hatch coamings and crane pedestals from the quay.",
+      "For a renewal survey or steel renewal, ships on Wash trades go to a dry dock elsewhere, on the east coast of Britain or across the North Sea, and gauging at King's Lynn is usually the step before: a pre-docking steel estimate so the yard quotes against real steel quantities. Ships laid by in the docks between charters sometimes lie idle for days, which opens a full hold and tank survey with time to ventilate spaces in sequence. Anchorage work in The Wash is rarely worth attempting, because the water is exposed, the launch run from the river is long and ships usually wait for only a single tide."
+    ],
+    "list": [
+      "Bentinck Dock berths: hold, tank-top and hatch cover gauging on coasters discharging forest products, steel or fertiliser.",
+      "Alexandra Dock and the silo berth: hold frame and bulkhead readings on ships waiting to load grain, before the holds are passed for cargo.",
+      "Riverside Quay: deck, hatch coaming and air-pipe work on tidal-berth calls, planned around the rise and fall of the ship.",
+      "Ships laid by in the enclosed docks between charters: full ballast tank and hold surveys spread over several days.",
+      "Pre-docking visits a few weeks before a yard booking: steel quantities gathered at King's Lynn for a docking elsewhere."
+    ]
+  },
+  "context": {
+    "h": "Port state control, short-sea trades and end-of-life decisions",
+    "p": [
+      "Foreign ships at King's Lynn are inspected by the Maritime and Coastguard Agency, which runs port state control under UK legislation while keeping the country inside the Paris MoU. General cargo and multipurpose ships have for years been among the types most often detained in the Paris MoU region, and the deficiencies that stop an older coaster tend to be visible ones: wasted air-pipe heads, holed ventilators, corroded hatch cover panels and seals that no longer keep water out. A thickness check on that structure before the ship returns to a port where she is due for inspection is a sensible precaution for any manager running ageing tonnage.",
+      "Many ships on these trades are old enough that their owners are weighing how much life is left in them. Ships calling at UK ports are expected to carry an Inventory of Hazardous Materials under the ship recycling rules the UK kept after leaving the EU, and the Hong Kong Convention on ship recycling has been in force internationally since June 2025. When an owner is deciding between another renewal survey and sale for recycling, a set of readings showing how much steel the next survey would demand is often the piece of evidence that settles the question."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Gauging work we see on King's Lynn calls",
+    "p": "Most King's Lynn work is commissioned by managers of short-sea ships who want a clear picture before a docking, a sale or a new charter, and who know the ship will be in the Wash for a tide or two. The scope is shaped by the cargo: a ship discharging steel coils is examined for tank-top indentation and wastage under the stow, a timber carrier for hatch covers and deck structure that carry deck cargo, and a grain ship for hold frames that must be sound and free of loose scale before loading. We confirm the expected berth and tide with the agent before the team travels, and order the work so the most important readings are taken first.",
+    "list": [
+      "Pre-docking steel estimate on a coaster approaching her third renewal survey: tank tops, double-bottom tanks, hold frames and hatch covers.",
+      "Hatch cover and coaming gauging on a forest products carrier that loads heavy deck cargo, with weathertightness observations for the superintendent.",
+      "Tank-top thickness and pitting records on a general cargo ship discharging steel, taken as each hold empties.",
+      "Pre-purchase gauging of a small bulk carrier lying in the docks between charters, scoped by the buyer's technical adviser.",
+      "Air-pipe, ventilator and ballast tank gauging on an older coaster after a deficiency was raised at an earlier port state control inspection."
+    ]
+  },
+  "logistics": "Teams usually fly into London Stansted or Heathrow and continue to King's Lynn by rail via Cambridge or by road; Norwich Airport is closer but has only a limited international network. The technicians travel from India on UK visas, which should be applied for as soon as a call looks likely, because the visa takes longer to arrange than a coaster's passage across the North Sea. Dock access is through the port's controlled gate, with passes requested by the ship's agent against each technician's passport details and boarding times set around the tide.",
+  "vessels": [
+    "Coasters and short-sea general cargo ships",
+    "Small dry bulk carriers",
+    "Forest products and timber carriers",
+    "Multipurpose ships with steel cargoes",
+    "Grain and agribulk carriers",
+    "Fertiliser and recycled-material carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Is there a dry dock at King's Lynn?",
+      "a": "No. Ships trading to King's Lynn dock elsewhere, at yards on the British east coast or on the near Continent. What King's Lynn offers is time alongside in the enclosed docks, which is enough for a pre-docking steel estimate, an owner's condition survey or a targeted check on holds and hatch covers. The readings then go into the yard specification, so the steel quantities are known before the ship arrives at the dock."
+    },
+    {
+      "q": "Can holds be gauged while cargo is being discharged at King's Lynn?",
+      "a": "Yes, hold by hold. Once a hold is empty and the stevedores have moved on, the tank top, lower frames, bilge wells and hold bulkheads can be gauged while the next hold is still working. We agree the sequence with the chief officer and the stevedores beforehand and leave a space if cargo work resumes there. Steel and forest products leave tank tops fairly clean; fertiliser residue has to be washed off before readings are reliable."
+    },
+    {
+      "q": "How does the tide affect a gauging job on the Great Ouse?",
+      "a": "It sets the start and the finish. Ships arrive and leave around high water, so the useful time is the period alongside between tides. In the enclosed docks the ship stays steady, which makes access easy; at the tidal Riverside Quay she rises and falls with the river, and gangway access and the reach to upper-deck structure change through the day. We plan the scope so nothing important is left for the last hour before sailing."
+    },
+    {
+      "q": "Can you gauge a ship waiting at anchor in The Wash?",
+      "a": "Only rarely. The waters outside the channel are open to northerly and easterly weather, the launch run from the river is long, and ships usually wait for just one tide before heading up to the port. It is far more practical to board once the ship is inside the docks. If a ship is held outside for longer, we can discuss a short deck and air-pipe scope with the agent, subject to weather and launch availability."
+    }
+  ],
+  "nearby": ["great-yarmouth", "lowestoft", "hull", "grimsby", "immingham", "ipswich"]
+}

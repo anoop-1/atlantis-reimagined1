@@ -1,0 +1,108 @@
+{
+  "slug": "caen-ouistreham",
+  "name": "Caen-Ouistreham",
+  "country": "France",
+  "region": "europe",
+  "title": "Ferry UTM at Caen-Ouistreham | Thickness Gauging",
+  "description": "Thickness gauging at Caen-Ouistreham for ro-pax ferries to Portsmouth and cargo ships on the Orne canal: turnaround UTM, vehicle decks, tanks and piping.",
+  "h1": "Ship Gauging for Ferries and Cargo Ships at Caen-Ouistreham",
+  "intro": "Caen-Ouistreham is the Normandy ferry gateway for the crossing to Portsmouth, and the same port system takes cargo ships up the Orne canal to Caen. Ferries spend short turnarounds in Ouistreham and longer layovers when the schedule allows, and those pauses are when their decks, tanks and piping can be measured. Atlantis mobilises technicians from India to meet the ship at the berth, with work planned around the sailing timetable.",
+  "keywords": [
+    "thickness measurement caen",
+    "ferry thickness measurement ouistreham",
+    "ro-pax ferry gauging",
+    "ultrasonic thickness measurement in caen-ouistreham",
+    "vehicle deck gauging",
+    "ship inspection in caen",
+    "utm company ouistreham",
+    "ferry steel gauging normandy",
+    "orne canal ship gauging",
+    "pre-docking gauging ferry"
+  ],
+  "highlights": [
+    {
+      "h": "Ferry turnarounds with a fixed sailing",
+      "p": "A ro-pax ferry on the Portsmouth service is a short call and a hard departure time. The plan lists the vehicle deck, ballast tanks and piping in priority order, so the key readings are finished before the ramp opens."
+    },
+    {
+      "h": "Cargo ships up the Orne canal",
+      "p": "Ships bound for Caen pass through the sea lock at Ouistreham and lie in the city's canal port, where aggregates, cereals and scrap give longer stays that suit hold and deck structure gauging."
+    },
+    {
+      "h": "Steel evidence before the annual refit",
+      "p": "Ferries leave Normandy for refit yards elsewhere. Measurements taken at Ouistreham in the months before give the superintendent a steel list and tell him which areas need the yard's attention first."
+    }
+  ],
+  "port": {
+    "h": "Ouistreham and Caen: two ports on one canal",
+    "p": [
+      "Caen-Ouistreham is the name for the port system at the mouth of the Orne, where the ferry terminal stands on the coast at Ouistreham and a ship canal leads inland to the commercial quays at Caen. A sea lock at Ouistreham separates the tidal estuary from the canal, so every cargo ship bound for Caen is locked in and out. The ferry berths, by contrast, are in the outer harbour at the entrance, and the regular passenger ships pass in and out of the estuary without using the lock. Ports de Normandie, the regional port authority, runs the system alongside the other Normandy ports.",
+      "The ferry route is the identity of the port. Brittany Ferries operates the crossing between Ouistreham and Portsmouth, with day and night sailings and ships that carry passengers, cars, lorries and freight. The terminal at Ouistreham is built for fast turnaround, so ships are discharged and reloaded quickly. The cargo port at Caen takes a different class of ship: coasters and small bulk carriers with aggregates, cereals, fertiliser, scrap and timber, and tankers for petroleum products. The canal's dimensions set the maximum ship size, which is why the cargo fleet here is small and the ferries stay outside.",
+      "For gauging, the two sides of the port offer different things. The ferry berths give short windows with a sailing time that cannot move, and a night service can mean several quiet hours in the middle of the night that the crew and technicians can use. The Caen quays give longer, quieter stays, often a day or more while a ship waits for cargo or a tide through the lock. No large commercial dry dock exists in the system, so ferries and cargo ships needing a docking go to a yard elsewhere, and what Caen-Ouistreham offers is the preparation that makes the docking shorter: measured steel before the ship arrives at the yard."
+    ]
+  },
+  "facilities": {
+    "h": "Where thickness gauging is done at Caen-Ouistreham",
+    "p": [
+      "On the ferry berths at Ouistreham the usable spaces are the ones that are free of passengers and vehicles. Vehicle decks can be gauged when they are empty, between the last vehicle off and the first on, though a short turnaround leaves only a section at a time. Ballast tanks, voids, the engine room and the machinery spaces are less affected by the turnaround and can be worked while the ship is alongside, subject to the ship's permit system. The ferry's own crew prepare access in advance, and the technicians board with the first vehicles off.",
+      "On the cargo side the work is quieter. A coaster or small bulk carrier locked into the Orne canal and lying at a Caen quay can have its holds gauged once they are empty and clean, with coamings, hatch covers and the tank top measured over a morning, and ballast tanks added by a second pair. Product tankers at the oil quays follow the terminal's rules, with ballast tanks and deck work the usual scope. Ships that must dock leave the port for a repair yard in another French port or abroad, which makes the readings taken here useful as a steel estimate."
+    ],
+    "list": [
+      "Ouistreham ferry berths — vehicle deck plating, ramps and ballast tanks gauged during layovers and quiet hours between sailings.",
+      "Ouistreham outer harbour — machinery space piping and sea-water system checks on ferries that lie alongside for an extended stay.",
+      "Sea lock approaches — launch-free readings on cargo ships that wait for the tide to enter the canal, where the ship's agent allows access.",
+      "Caen canal quays — hold, coaming, hatch cover and tank top gauging on coasters and small bulk carriers.",
+      "Caen oil and bulk quays — ballast tank and deck gauging on product tankers and aggregate carriers within the terminal's safety rules."
+    ]
+  },
+  "context": {
+    "h": "Regulation and the Channel ferry trade",
+    "p": [
+      "France applies the Paris MoU for port state control, with inspections carried out by the Centres de sécurité des navires of the French maritime administration. A ro-pax ferry is a particular focus because it carries the public, and its structure, watertight arrangements and fire-fighting systems are under continual scrutiny from flag, class and port state. Thickness readings on vehicle decks, ramps and the lower hull show where wear is developing and let the superintendent plan steel renewal at the next refit, instead of finding it during a survey.",
+      "Passenger ships are not ESP ships, so their gauging follows the class society's survey rules for passenger ship hulls, with extent growing at each special survey. Cargo ships calling at Caen face the Enhanced Survey Programme if they are bulk carriers or tankers. All calls to EU ports fall under EU ETS and FuelEU Maritime, and ships over 500 gross tonnage need an Inventory of Hazardous Materials to meet the EU Ship Recycling Regulation. Operators of the ferries gauge their ships on a rolling basis because a seasonal programme with dense sailings leaves little spare time in dock."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Caen-Ouistreham",
+    "p": "Most requests are for ferries on the Portsmouth route, and the main constraint is the sailing schedule. The superintendent shares the class's gauging requirements, the timetable and the layover periods, and we agree a priority list so that, whatever the turnaround allows, the critical readings come first. Cargo ships at Caen are simpler because they stay longer. Typical jobs include:",
+    "list": [
+      "Vehicle deck plating, ramp and stern door structure gauging on a ro-pax ferry during a long layover at Ouistreham.",
+      "Ballast tank and double-bottom readings on a ferry ahead of its annual refit, giving the superintendent a measured steel list for the yard.",
+      "Wall-thickness checks on sea-water, fire-main and ballast piping of a passenger ship during a scheduled stay alongside.",
+      "Hold frame, coaming and hatch cover gauging on a coaster locked into the canal and lying at a Caen quay.",
+      "Condition gauging for a buyer on a small tanker or bulk carrier during a loading stay at the Caen quays."
+    ]
+  },
+  "logistics": "Technicians normally fly into Paris and continue to Caen by train, a route that reaches the city in a short rail journey, and the ferry terminal is a short road transfer from there. A small airport serves the Caen area but is rarely the practical choice from India. The ship's agent arranges ISPS passes for the ferry terminal or the canal quays. France is in the Schengen area, so each technician needs a Schengen visa, which we apply for once the call or layover is confirmed, supported by an invitation letter from the owner or operator naming the ship.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Coasters and short-sea general cargo ships",
+    "Small bulk carriers (aggregates, cereals, fertiliser)",
+    "Product tankers (small)",
+    "Timber and scrap carriers",
+    "Tugs and pilot boats",
+    "Fishing and workboats",
+    "Yachts and sail-training ships"
+  ],
+  "faqs": [
+    {
+      "q": "How much can be gauged on a ferry during a Ouistreham turnaround?",
+      "a": "A turnaround is short, so the plan targets what can be done safely in the time: sections of the vehicle deck once it is clear, ramp and door structure, and tanks and machinery spaces that do not depend on the loading. Longer layovers, often at night, allow a larger scope. Priorities are agreed with the superintendent before the ship arrives."
+    },
+    {
+      "q": "Is there a drydock at Caen-Ouistreham?",
+      "a": "There is no large commercial dry dock in the port system. Ferries and cargo ships needing a docking survey go to a yard in another French port or abroad. Gauging at Ouistreham or Caen beforehand gives the yard a measured steel list, which shortens the stay in dock."
+    },
+    {
+      "q": "Can cargo ships be gauged in the Caen canal port?",
+      "a": "Yes. Once a coaster or small bulk carrier has been locked into the canal and berthed, empty holds, coamings, hatch covers and ballast tanks can be measured with the ship's permit system in place. The stay at the quay is longer than a ferry turnaround, so the scope can be wider."
+    },
+    {
+      "q": "Does the sea lock affect the planning?",
+      "a": "It can, because cargo ships enter and leave the canal on the tide and the lock's operating times. We take the times the ship's agent confirms and leave room for movement, starting with the spaces that matter most so that a changed lockage does not remove the important readings."
+    }
+  ],
+  "nearby": ["le-havre", "cherbourg", "portsmouth", "southampton", "poole"]
+}

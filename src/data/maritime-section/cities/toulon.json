@@ -1,0 +1,118 @@
+{
+  "slug": "toulon",
+  "name": "Toulon",
+  "country": "France",
+  "region": "europe",
+  "title": "Toulon Ship Gauging | UTM for Ferries, Cruise & Merchant Ships",
+  "description": "Ultrasonic thickness measurement at Toulon and La Seyne for Corsica ferries, cruise ships, merchant vessels and superyachts: hull, tank and scrubber piping UTM.",
+  "h1": "Hull and Tank Thickness Measurement in Toulon",
+  "intro": "Toulon is best known as the French Navy's main Mediterranean base, but the same large natural harbour also holds a civilian side: ferries to Corsica, cruise calls, cargo ships at Brégaillon and a civilian ship-repair sector. Owners and superintendents ask for ultrasonic gauging on commercial ships, ferries and large yachts here. Technicians are flown in from India for each job, and the military dockyard is closed to this work.",
+  "keywords": [
+    "thickness measurement toulon",
+    "ship utm toulon",
+    "ultrasonic thickness gauging toulon",
+    "ferry thickness measurement toulon",
+    "cruise ship gauging toulon",
+    "scrubber piping inspection toulon",
+    "superyacht hull gauging var",
+    "ship inspection la seyne",
+    "ballast tank gauging toulon",
+    "pre-docking steel estimate toulon"
+  ],
+  "highlights": [
+    {
+      "h": "Corsica ferry and cruise calls",
+      "p": "Ro-pax ferries serve Corsica from Toulon and cruise ships call through the season. Their vehicle decks, ramps and tanks are the usual gauging targets during turnarounds."
+    },
+    {
+      "h": "Civilian repair beside a naval base",
+      "p": "The commercial harbour has its own repair berths separate from the navy's dockyard. Merchant ships and ferries can be gauged there, and larger yacht work is nearby at La Ciotat."
+    },
+    {
+      "h": "Mediterranean ECA scrubber piping",
+      "p": "Scrubber-fitted ferries and cruise ships now work in ECA mode on every crossing of the basin. Wash-water and overboard piping is a regular item for gauging at Toulon."
+    }
+  ],
+  "port": {
+    "h": "Toulon: a naval harbour with a civilian side",
+    "p": [
+      "Toulon lies on a deep, sheltered natural harbour on the Var coast, split into the Grande Rade and the Petite Rade by a long breakwater. The French Navy occupies much of the harbour, including the main base of its Mediterranean fleet and its large aircraft carrier, and the area around the naval dockyard is restricted. Civil shipping uses the quays along the city front, the ferry terminal and the cargo area at Brégaillon, which lies on the western side near La Seyne-sur-Mer. The commercial port is managed by the Métropole Toulon Provence Méditerranée.",
+      "Civil traffic is varied rather than large. Ro-pax ferries link Toulon with Corsica and carry passengers and freight, cruise ships call between spring and autumn, and Brégaillon handles ro-ro and general cargo and some project loads. Smaller passenger ships, excursion boats and yachts crowd the old port. The bay also sees naval auxiliaries, tugs and support vessels of the navy, but these belong to the military side and are not available for commercial gauging. In practice the civilian ships we see are ferries, cruise ships, ro-ro ships and general cargo vessels.",
+      "Conditions inside the harbour are sheltered, and the Mediterranean swell is rarely a problem for ships alongside. The mistral can still blow strongly through the Var valleys and make deck work and launch transfers difficult, and winter storms occasionally disrupt cruise and ferry calls. Gauging plans allow for the ferry timetable and cruise season, because turnarounds are short and busiest in summer. Quieter periods in winter and early spring offer longer windows, especially for ships brought in for a planned maintenance period. Ferry schedules are published well ahead, so the plan is usually fixed weeks before the visit."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships can be gauged around Toulon",
+    "p": [
+      "On the civilian side, gauging takes place alongside at the ferry berths, the cruise quays and the cargo berths at Brégaillon, with passes arranged by the ship's agent through the port gate. Ferries and cruise ships offer short windows during turnarounds, limited to spaces that can be released, such as vehicle decks, ramps, accessible tanks and machinery-space tanks. Cargo ships at Brégaillon offer longer berth stays, which suit ballast tank and deck gauging.",
+      "Toulon's civilian ship-repair sector uses repair berths and docks in the commercial harbour that have worked on ferries, tugs and mid-sized merchant ships. Their availability and size should be confirmed with the port and the yard before it is used in a plan. Large yachts and refit projects often go to La Ciotat, a short distance east along the coast, and larger merchant ships may dock at Marseille. The military dockyard and the naval berths are not open for commercial gauging, and we do not plan any work there."
+    ],
+    "list": [
+      "Ferry terminal berths, for vehicle deck, ramp and ballast tank gauging on Corsica ro-pax ships during turnarounds.",
+      "Cruise quays along the city front, for tank, deck and piping gauging during calls and winter lay-up.",
+      "Brégaillon cargo and ro-ro berths, for ballast tank and deck gauging on general cargo and ro-ro ships.",
+      "Civilian repair berths and docks in the commercial harbour, for ferries, tugs and mid-sized ships subject to availability.",
+      "Anchorage in the Petite Rade or the bay, for launch-served work in calm weather.",
+      "Nearby La Ciotat yard, for larger refits and yacht projects that need a long dry docking."
+    ]
+  },
+  "context": {
+    "h": "Port state control and the Mediterranean rules at Toulon",
+    "p": [
+      "France carries out port state control under the Paris MoU, through the ship safety centres of the maritime administration, and foreign ferries, cargo ships and cruise ships at Toulon are eligible for inspection. The ferry fleet on international routes and ageing cargo ships fit the targeting profile. Recent gauging records on the hull, tanks and decks help the master show an inspector the condition of the steel.",
+      "Since the Mediterranean became a SOx emission control area, scrubber-fitted ships have worked to the ECA standard on every crossing, so wash-water supply, discharge and overboard piping sit high on the maintenance list. The EU Ship Recycling Regulation, EU ETS and FuelEU Maritime apply to Toulon calls as at other EU ports. For cruise ships and ferries, the key drivers are class surveys and the operator's own planned maintenance, and the harbour's military neighbourhood means that security rules and access restrictions are strictly enforced for every commercial visit."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs around Toulon",
+    "p": "Work at Toulon follows the ferry timetable, the cruise season and the maintenance plans of the operators. For a ferry, we plan around the turnaround and the operator's list; for a cargo ship, around the berth stay and the agent's confirmation. Ultrasonic thickness gauging here usually covers:",
+    "list": [
+      "Vehicle deck, ramp and ballast tank steel on a Corsica ro-pax ferry during a turnaround.",
+      "Scrubber wash-water, discharge and overboard piping on a scrubber-fitted ferry or cruise ship.",
+      "Ballast tank, deck and bulwark gauging on a general cargo ship at Brégaillon.",
+      "Winter lay-up gauging of tanks and hull plating on a small cruise ship.",
+      "Pre-docking steel estimate before a mid-sized ship or large yacht sails for a repair yard."
+    ]
+  },
+  "logistics": "Toulon-Hyères airport is the closest, with Marseille Provence and Nice as larger international alternatives and a road transfer from either. The ship's agent arranges the passes for the commercial berths and the ISPS procedures that apply in a harbour shared with a naval base. France is in the Schengen area, so every technician needs a Schengen visa from India before departure, and the visa sets the earliest date. Early notice of the ferry or berth schedule helps us fit the travel plan around the ship.",
+  "vessels": [
+    "Corsica ro-pax ferries",
+    "Cruise ships and small expedition ships",
+    "Ro-ro cargo ships",
+    "General cargo ships",
+    "Passenger and excursion vessels",
+    "Tugs and harbour craft",
+    "Superyachts and large refit yachts",
+    "Project cargo and heavy-lift ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can naval ships or the navy's dockyard be gauged?",
+      "a": "No. The military dockyard and naval berths are closed to commercial work, and we do not plan any gauging there. Our work in Toulon is on civilian ships such as ferries, cruise ships, cargo vessels and yachts at the commercial berths."
+    },
+    {
+      "q": "Can a ferry be gauged during a Toulon turnaround?",
+      "a": "Yes, in the spaces the operator can release. Vehicle decks, ramps, accessible ballast tanks and machinery-space tanks can be gauged while the ship is alongside, though passengers and freight come first. We agree the list with the technical manager and report by location for the next docking."
+    },
+    {
+      "q": "Is there a drydock in Toulon for merchant ships?",
+      "a": "Civilian repair berths and docks exist in the commercial harbour, but capacity and dimensions should be confirmed with the port and the yard. Large refits go to La Ciotat or Marseille, and gauging at Toulon gives the owner steel readings before the ship sails to the yard."
+    },
+    {
+      "q": "Do security rules at Toulon slow access?",
+      "a": "Access is controlled more tightly than at a purely commercial port because the harbour is shared with a naval base. The agent arranges passes for the commercial quays, and we send names and passport details early so the checks are done before the team arrives."
+    },
+    {
+      "q": "Which permits are needed before entering tanks at Toulon?",
+      "a": "Every tank or void space needs a gas-free certificate and an enclosed-space entry permit, with a rescue plan and continuous ventilation. The ferry operator or terminal may add its own permit on top. The superintendent shares the list of spaces and the order of work before the team arrives, which keeps turnaround time free for the gauging itself."
+    }
+  ],
+  "nearby": [
+    "marseille",
+    "nice",
+    "ajaccio",
+    "genoa"
+  ]
+}

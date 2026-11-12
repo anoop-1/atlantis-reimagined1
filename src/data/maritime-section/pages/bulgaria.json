@@ -1,0 +1,117 @@
+{
+  "slug": "bulgaria",
+  "navLabel": "Bulgaria",
+  "title": "Ship Thickness Measurement in Bulgaria | UTM at Varna & Burgas",
+  "description": "Ship thickness measurement in Bulgaria: UTM and hull gauging at the Varna repair yards and bulk ports and at Burgas, for bulk carriers and tankers.",
+  "h1": "Ship Thickness Measurement in Bulgaria",
+  "eyebrow": "Maritime inspection · Bulgaria",
+  "intro": "Bulgaria's coast has two main seaports, and between them they cover most of the gauging a Black Sea ship needs. Varna combines dry-bulk ship management, bulk and general cargo terminals and two repair yards that dock ships from across the region. Burgas, to the south, adds a crude and product tanker trade at the Rosenets oil terminal, bulk berths for coal, ore, metals and fertiliser, and a large anchorage in Burgas Bay. Atlantis sends its team from India for each job, timed to the docking, the cargo call or the wait at anchor.",
+  "highlights": [
+    {
+      "h": "Dockings at the Varna yards",
+      "p": "MTG Dolphin and Odessos Shiprepair Yard dock bulk carriers and general cargo ships from around the Black Sea. Gauging in the first days of the stay gives the superintendent and the yard a measured steel list before the staging comes down and the dock period runs on."
+    },
+    {
+      "h": "Tankers and vetting at Burgas",
+      "p": "Crude and product tankers at the Rosenets terminal face oil-major vetting and, on older ships, a Condition Assessment Programme. Gauging deck, deck piping and accessible ballast spaces during the call shows the superintendent where the ship stands before the next inspection."
+    },
+    {
+      "h": "Bulk carriers between cargoes",
+      "p": "Grain, fertiliser, coal and ore all wear hold steel. When the holds are discharged and swept at Varna West or the Burgas bulk berths, frames, brackets, hopper plating and tank tops can be gauged before the next cargo is loaded."
+    }
+  ],
+  "sections": [
+    {
+      "id": "bg-varna",
+      "h": "Varna: repair yards, bulk terminals and ship managers",
+      "p": [
+        "Varna is the centre of Bulgarian shipping. The city is home to dry-bulk owners and managers whose ships trade across the Black Sea and the Mediterranean, and to crewing companies that supply officers and ratings to fleets around the world. Port Varna East, in the city, handles general cargo and containers, while Port Varna West, reached through Varna Lake and the canal towards Devnya, serves the bulk trades of the chemical and cement plants inland.",
+        "The city's two repair yards are where full gauging programmes happen. MTG Dolphin builds as well as repairs ships, while Odessos Shiprepair Yard is a repair and docking yard. A docking there exposes the bottom, the bilge and the lower side shell, and the staging rigged for repairs reaches upper hold frames and the undersides of hatch covers. Ships that do not need a dock can be gauged afloat at the cargo berths or by launch in Varna Bay."
+      ]
+    },
+    {
+      "id": "bg-burgas",
+      "h": "Burgas: tankers, bulk berths and the bay anchorage",
+      "p": [
+        "Burgas is Bulgaria's energy and heavy-bulk port. The Rosenets oil terminal, on the south side of Burgas Bay, serves the Burgas refinery, which makes crude and product tankers the most demanding ships to plan for: gauging at the berth is limited to deck, deck piping and the ballast spaces that can be entered during cargo operations, under the terminal's permit-to-work. Cargo tanks wait for a gas-free window or the next docking.",
+        "The port's bulk berths handle coal, ore, metals and fertiliser, and its city terminal takes general cargo, containers and ro-ro calls. Burgas Bay itself is a large anchorage, and tankers and bulk carriers waiting for a berth can be boarded by launch for a targeted scope when the weather allows. Readings taken at Burgas often feed a docking at Varna or at a yard elsewhere in the region."
+      ]
+    },
+    {
+      "id": "bg-traffic",
+      "h": "The ships and trades behind Bulgarian gauging work",
+      "p": [
+        "Ships calling at Bulgarian ports are mostly regional tonnage: Handysize and Supramax bulk carriers in grain, fertiliser, coal and metals, general cargo and multipurpose ships, small and mid-sized tankers, and feeder container ships. Many are older ships that spend their working lives in the Black Sea and the eastern Mediterranean, passing the Bosphorus on every voyage out. For them, hold condition, hatch coamings, air pipes and ballast tank coatings decide how an inspection goes, and those are the areas owners most often ask us to measure between surveys.",
+        "The harvest brings its own pressure. From mid-summer into the autumn, grain loadings fill the berths and the anchorages and ships wait longer, and a wait at anchor can be used for gauging if the spaces are ready. Fertiliser and coal, both corrosive when wet, make hold gauging after discharge especially worthwhile."
+      ]
+    },
+    {
+      "id": "bg-regime",
+      "h": "Port state control, emissions and EU rules in Bulgaria",
+      "p": [
+        "Port state control in Bulgaria is carried out by the Executive Agency Maritime Administration, under the EU port state control directive and as a member of both the Paris MoU and the Black Sea MoU. An ageing bulk carrier calling at Varna or Burgas is a likely candidate for an expanded inspection, and wasted structure that an inspector can see from the deck, in a hold or through an open manhole soon becomes a deficiency to be cleared before departure.",
+        "The Black Sea is not an emission control area, so the global 0.50% sulphur limit applies in Bulgarian waters and scrubber ships may run in open loop unless a port restricts it. As an EU member, Bulgaria applies EU ETS and FuelEU Maritime to voyages to and from its ports, and the EU Ship Recycling Regulation requires an Inventory of Hazardous Materials on Bulgarian-flag ships and on foreign ships calling there."
+      ]
+    },
+    {
+      "id": "bg-seasons",
+      "h": "Weather and seasons on the Bulgarian coast",
+      "p": [
+        "The western Black Sea is calm for much of the summer and rough in winter. From late autumn to early spring, gales and heavy swell can stop launch work in Varna Bay and Burgas Bay and interrupt cargo at exposed berths, so anchorage gauging in those months needs spare days. Summer is the easy season for boarding by launch, although heat inside tanks still slows enclosed-space work. Ice rarely troubles the Bulgarian seaports, unlike the Danube to the north."
+      ]
+    },
+    {
+      "id": "bg-planning",
+      "h": "Planning a gauging job in Bulgaria from India",
+      "p": [
+        "Bulgaria has been a full member of the Schengen area since 1 January 2025, so the team travels on Schengen visas arranged for each job. Tell us the vessel, her class, what the gauging is for, where she will be, whether at a Varna yard, a cargo berth or at anchor, and the dates. We reply with the scope against the thickness measurement plan, the team size and days, and a mobilisation plan built around the visa lead time.",
+        "Alongside, boarding goes through the ship's agent and the port's ISPS arrangements, and in the yards the yard's permit system applies as well. For tankers at Rosenets, the equipment list goes to the terminal in advance so that it can decide what may be used in each hazardous zone."
+      ]
+    }
+  ],
+  "codes": [
+    "Paris Memorandum of Understanding on Port State Control",
+    "Black Sea Memorandum of Understanding on Port State Control",
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: the global 0.50% sulphur limit in the Black Sea",
+    "EU Ship Recycling Regulation (EU) No 1257/2013: Inventory of Hazardous Materials"
+  ],
+  "deliverables": [
+    "Thickness measurement report to the ship's TM plan: as-built, measured and diminution at every point",
+    "Steel renewal estimate with plates marked for the yard",
+    "Hold, hatch coaming and hopper condition records for bulk carriers",
+    "Deck piping and ballast tank readings for tankers at terminal berths",
+    "Preliminary readings shared daily on request"
+  ],
+  "industries": [
+    "Bulk carriers",
+    "General cargo and multipurpose ships",
+    "Crude and product tankers",
+    "Feeder container ships",
+    "Black Sea ship owners and managers",
+    "Repair yards",
+    "Ship buyers"
+  ],
+  "faqs": [
+    {
+      "q": "Which Bulgarian ports do you cover for ship thickness measurement?",
+      "a": "Varna, including Port Varna East, Port Varna West, the MTG Dolphin and Odessos repair yards and the anchorage in Varna Bay, and Burgas, including the Rosenets oil terminal, the bulk and city berths and the Burgas Bay anchorage. Each port has its own page describing the ships that call, where gauging happens and the jobs we see there."
+    },
+    {
+      "q": "Can you gauge a bulk carrier during a docking at Varna?",
+      "a": "Yes. A docking at one of the Varna yards is the best opportunity for a full programme, with the bottom, bilge and lower side shell exposed and staging rigged in the holds. We gauge in the first days of the stay, mark the plates that need renewal and share readings daily, so the yard can plan its steel before the dock period runs on."
+    },
+    {
+      "q": "Can tankers be gauged at the Rosenets oil terminal?",
+      "a": "Partly. During cargo operations the scope is limited to deck plating, deck piping and the ballast spaces the terminal and the master allow us to enter, using equipment the terminal accepts for its hazardous zones. Cargo tank gauging needs the tanks cleaned and gas-free, so it is planned for a lay-by berth, an anchorage stay after discharge or the next docking."
+    },
+    {
+      "q": "Do scrubber rules in the Black Sea differ from the Mediterranean?",
+      "a": "Yes. The Black Sea is not an emission control area, so the global 0.50% sulphur limit applies there, whereas the Mediterranean has been a 0.10% emission control area since May 2025. A ship trading between the two runs her scrubber to different standards on either side of the Turkish Straits, and her wash-water and overboard piping is worth checking during a Bulgarian call."
+    },
+    {
+      "q": "How much notice do you need for a job in Bulgaria?",
+      "a": "As much as you can give. The team comes from India on Schengen visas arranged for each job, so the visa lead time decides the earliest start. Send the docking or arrival date as soon as you have it, even a provisional one, and we adjust the plan as the ship's schedule firms up."
+    }
+  ]
+}

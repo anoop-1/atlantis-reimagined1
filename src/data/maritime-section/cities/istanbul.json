@@ -60,11 +60,11 @@
     "h": "Port state control, the Turkish Straits and emissions rules",
     "p": [
       "Turkey is a member of both the Black Sea MoU and the Mediterranean MoU on port state control, and ships trading between Black Sea and Marmara ports are inspected regularly. Older bulk carriers and general cargo ships on Black Sea trades attract attention for structural condition, and deficiencies found during port state control, such as wasted hatch coamings, holed ventilators and corroded air pipe heads, are often what prompts an owner to commission gauging ahead of schedule. Turkish-flagged ships and ships managed from Istanbul are classed with a range of societies, including the Turkish society alongside the larger international ones.",
-      "On emissions, the Mediterranean SOx ECA meets the Black Sea at the 41°N parallel, so the Sea of Marmara and Tuzla lie inside the ECA that took effect on 1 May 2025, while the Black Sea itself does not. Ships moving between the Black Sea and Marmara ports therefore cross the ECA boundary near the Strait, and scrubber-fitted ships docking at Tuzla offer a good opportunity to inspect wash-water and overboard piping with the hull dry. Ships trading on to EU ports also carry EU ETS and FuelEU Maritime obligations for those voyages, although Turkey itself is not in the EU."
+      "On emissions, the Mediterranean SOx ECA that took effect on 1 May 2025 ends at the entrance to the Dardanelles, so the Sea of Marmara, Tuzla and the Black Sea all sit outside it and the global 0.50% sulphur limit applies here. Ships sailing on through the Dardanelles into the Aegean cross into the ECA, so many ships calling at Istanbul switch fuel or start their scrubbers on the way out, and scrubber-fitted ships docking at Tuzla offer a good opportunity to inspect wash-water and overboard piping with the hull dry. Ships trading on to EU ports also carry EU ETS and FuelEU Maritime obligations for those voyages, although Turkey itself is not in the EU."
     ]
   },
-  "eca": "eca-med",
-  "psc": "",
+  "eca": "none",
+  "psc": "Black Sea MoU and Mediterranean MoU",
   "jobs": {
     "h": "Typical thickness gauging jobs in Istanbul",
     "p": "Most Istanbul work is linked to a Tuzla docking, either as pre-docking gauging to fix the steel scope or as in-dock gauging during the renewal survey itself. The rest comes from the anchorages and terminals: ships checked between cargoes, on sale or before a charter, often with an Istanbul superintendent attending in person. The concentration of yards also makes it practical to programme several ships in one visit.",
@@ -105,5 +105,11 @@
       "a": "Yes. Wasted air pipe heads, ventilators and coamings are common structural deficiencies on older ships in the Black Sea and Marmara trades. We gauge the affected items and the surrounding structure so the superintendent and the attending class surveyor can decide what to renew, and we extend the scope to nearby deck plating if the readings suggest wider wastage."
     }
   ],
-  "nearby": ["izmit", "yalova", "izmir", "varna", "constanta"]
+  "nearby": [
+    "izmit",
+    "yalova",
+    "izmir",
+    "varna",
+    "constanta"
+  ]
 }

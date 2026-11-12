@@ -1,0 +1,107 @@
+{
+  "slug": "sillamae",
+  "name": "Sillamäe",
+  "country": "Estonia",
+  "region": "europe",
+  "title": "Sillamäe Tanker and Chemical Ship UTM Thickness Measurement",
+  "description": "Ultrasonic thickness measurement in Sillamäe, east Estonia: deck, piping, ballast tank and hold gauging on product tankers, chemical tankers and cargo ships.",
+  "h1": "Thickness Gauging for Tankers and Cargo Ships at Sillamäe",
+  "intro": "Sillamäe is a private deep-water port on Estonia's north-east coast, between Tallinn and Narva and close to the Russian border. Its terminals handle shale oil and heavy oil products, chemicals, liquid fertilisers and general cargo, so tankers dominate the traffic. Long liquid-bulk calls give time to measure deck plating, cargo and ballast piping and ballast tanks. When a ship needs gauging here, we bring technicians in from India for that job alone, as Atlantis keeps no staff in Estonia.",
+  "keywords": [
+    "sillamäe thickness measurement",
+    "utm sillamae",
+    "port of sillamäe tanker inspection",
+    "shale oil tanker gauging",
+    "chemical tanker thickness measurement",
+    "ship inspection east estonia",
+    "ballast tank gauging",
+    "heating coil corrosion",
+    "deck piping gauging",
+    "ida-viru port"
+  ],
+  "highlights": [
+    {
+      "h": "Heavy oil and shale oil cargoes",
+      "p": "Sillamäe's largest terminal stores and loads shale oil, heavy fuel oil and vacuum gas oil. Heated cargoes of this kind leave their own corrosion pattern in tanks, around heating coils and on deck lines, which is where a tanker gauging scope here begins."
+    },
+    {
+      "h": "Chemicals and fertilisers",
+      "p": "Liquid fertiliser and chemical terminals bring chemical tankers whose coated or stainless tanks and their piping must be checked for corrosion and coating breakdown. Deck and pipe gauging fits comfortably inside the cargo stay at the berth."
+    },
+    {
+      "h": "Workable winters",
+      "p": "The port reports that ships reach its berths without icebreaker help in an average winter, unlike many Gulf of Finland harbours. That makes winter gauging at Sillamäe easier to schedule, though a hard winter can still bring ice to this coast."
+    }
+  ],
+  "port": {
+    "h": "The Port of Sillamäe and its liquid-bulk trade",
+    "p": [
+      "Sillamäe lies in Ida-Viru County, on the southern shore of the Gulf of Finland in the far north-east of Estonia, a short distance west of Narva and the border with Russia. The town was built in the Soviet period around an industrial plant and was closed to outsiders for decades. The modern port was developed after independence as a private, landlord-type port, with terminal operators running their own facilities around a deep basin, and a free zone and industrial park behind the quays host dozens of companies. Ships approach directly from the Gulf of Finland, and the berths are deep enough for sizeable tankers and bulk ships as well as the smaller coastal tonnage common on this part of the coast.",
+      "Liquid bulk is the main business. The largest terminal, operated today by Puma Energy Baltics, receives shale oil, heavy fuel oil and vacuum gas oil by rail and stores it in a large tank farm before loading tankers. Shale oil is a product of Ida-Viru County's own oil-shale industry, so part of the cargo is genuinely local. Other terminals handle liquid mineral fertilisers and liquid chemicals, and a multipurpose terminal deals with containers, general and bulk cargo, project cargo and ro-ro. The tanker fleet ranges from small product and chemical tankers to larger ships, and most stay alongside for a full loading cycle that can take a day or more.",
+      "Much of the port's earlier traffic was transit trade with Russia and Belarus, and the sanctions that followed 2022 cut that sharply, so the terminals now depend more on Estonian cargo and on new business. For gauging, the practical point is that the tankers which call are often on regular loading programmes from the terminal, which gives repeated chances to measure the same ship. The port reports favourable ice conditions, with year-round navigation and no icebreaking needed in an average winter, though in hard winters ice forms along this coast and the Estonian authorities can set restrictions. Summer and autumn are the busiest periods for planned work, but tanker gauging here is not tied to the season the way it is at the ice-bound Bothnian ports."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging sites at the Sillamäe terminals",
+    "p": [
+      "Tankers at the oil-product berths are gauged under the terminal's and the ship's permit systems. During loading, the team measures deck plating, the outside of cargo, ballast, heating and vent lines, and the ballast tanks the crew has certified safe. Heated cargoes such as heavy fuel oil and shale oil create condensation and corrosion around heating coils and along tank bottoms, so cargo-tank internals and coils are measured when the tanks are cleaned and gas-free, either at the end of a period on the trade or at the yard. Chemical tankers at the fertiliser and chemical terminals follow the same split between work during cargo operations and work after cleaning.",
+      "General cargo and bulk ships at the multipurpose terminal are gauged hold by hold as the cargo allows. We do not plan dockings at Sillamäe; ships calling here dock at Tallinn Shipyard on the Kopli peninsula, at yards in Finland or further afield, and gauging during a Sillamäe loading can give that yard a steel list in advance. Ships waiting at anchor off the port for a berth can be reached by launch through the agent if the weather and the terminal programme allow."
+    ],
+    "list": [
+      "Oil-product terminal berths — tankers loading shale oil, heavy fuel oil and vacuum gas oil; deck, piping and ballast-tank gauging during loading",
+      "Liquid fertiliser terminal — chemical tankers; deck, pipework and ballast spaces measured inside the terminal's safety regime",
+      "Liquid chemicals terminal — chemical tankers with coated or stainless tanks; external piping and deck gauging, tank internals when gas-free",
+      "Multipurpose cargo terminal — general cargo, bulk, project and ro-ro ships; hold and tank gauging during cargo operations",
+      "Anchorage off Sillamäe — ships waiting for a berth; launch access through the agent in suitable weather"
+    ]
+  },
+  "context": {
+    "h": "Inspection, scrutiny and the tanker trade from Sillamäe",
+    "p": [
+      "Port state control at Sillamäe is the responsibility of the Estonian Transport Administration under the Paris MoU. Tankers and chemical tankers are among the higher-risk ship types in the regime's targeting, and since 2022 the Gulf of Finland has seen tighter scrutiny of tankers, as the Baltic states pay closer attention to the condition, documentation and insurance of older tankers trading in the region. A tanker loading at Sillamäe is therefore better placed with a recent, well-documented condition record, including the gauging behind its last survey. Charterers and terminal operators also vet ships before accepting them, and heavy wastage on deck lines is a common reason for a poor vetting.",
+      "The cargoes themselves set the gauging priorities. Heavy fuel oil and shale oil are carried heated, and repeated heating and cooling, together with water settling out of the cargo, drive corrosion on tank bottoms, coil supports and lower stiffeners. Liquid fertilisers and some chemicals are aggressive to steel wherever coatings fail. Ships that trade into Sillamäe from outside the EU carry an Inventory of Hazardous Materials under the EU Ship Recycling Regulation, and tankers sailing between EU ports have their emissions counted under the EU ETS and FuelEU Maritime."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Sillamäe",
+    "p": "Most Sillamäe work is tanker work during loading: deck, piping and ballast-tank gauging for vetting, intermediate surveys and owner's condition checks, with cargo tank internals planned for gas-free periods. Chemical tankers at the fertiliser and chemical terminals bring smaller scopes on deck and pipework, and the multipurpose terminal brings hold gauging on general cargo and bulk ships. Pre-purchase gauging arises when tankers on the trade change hands, and pre-docking gauging gives Tallinn Shipyard or another yard a steel estimate before a docking. Each job is agreed with the terminal as well as the ship, because terminal permits govern any work on deck during cargo operations.",
+    "list": [
+      "Deck plating and cargo, ballast and heating-line gauging on a product tanker loading heavy fuel oil, ahead of a charterer's vetting",
+      "Ballast-tank gauging with pitting records on a chemical tanker at the liquid fertiliser terminal",
+      "Measurement of heating coils, tank bottoms and lower stiffeners on a shale-oil tanker during a gas-free period",
+      "Hold and hatch coaming gauging on a general cargo ship at the multipurpose terminal",
+      "Pre-docking steel estimate on a tanker loading at Sillamäe before her docking at Kopli"
+    ]
+  },
+  "logistics": "The team flies into Tallinn Airport and drives east through Ida-Viru County to Sillamäe. Estonia is a Schengen state, so our technicians from India travel on Schengen visas, applied for as early as the loading date allows. The ship's agent arranges port access with the port and the terminal operator concerned, and the tanker and chemical terminals require their own safety induction before anyone goes on deck. Where a second ship is due at Muuga or Tallinn in the same week, both jobs can share one trip.",
+  "vessels": [
+    "Product tankers",
+    "Heavy-oil and shale-oil tankers",
+    "Chemical tankers",
+    "General cargo and project cargo ships",
+    "Bulk carriers",
+    "Ro-ro cargo ships",
+    "Tugs and harbour craft"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a tanker's deck and piping during loading at Sillamäe?",
+      "a": "Yes, within the terminal's and the ship's permits. Deck plating, the outside of cargo, ballast, heating and vent lines, and ballast tanks certified safe by the crew can be measured while loading continues. Work near the manifolds and during critical operations is scheduled with the chief officer. Cargo tank internals need gas-free certification and are planned separately, at the end of a period on the trade or at the yard."
+    },
+    {
+      "q": "Why does heated cargo cause extra corrosion?",
+      "a": "Heavy fuel oil and shale oil are carried warm, and the cycle of heating and cooling, together with water settling out of the cargo, attacks tank bottoms, the supports of heating coils and lower stiffeners. The coils themselves thin and leak. We measure those areas closely when tanks are clean and gas-free, and record pitting depths, because isolated deep pits on a tank bottom matter more than the average reading."
+    },
+    {
+      "q": "Is winter a problem for gauging at Sillamäe?",
+      "a": "Usually not. The port reports that in an average winter ships reach it without icebreaker assistance, so winter calls are more predictable than at many Gulf of Finland harbours. In a hard winter ice can still form along the coast. Inside the ship, cold mainly affects how long spaces take to ventilate and the couplant we choose."
+    },
+    {
+      "q": "Where would a ship from Sillamäe go for docking?",
+      "a": "Tallinn Shipyard on the Kopli peninsula, west along the coast, is the obvious Estonian choice, and owners also use yards in Finland, Poland and further afield. We can gauge the ship during a Sillamäe loading so the chosen yard has a steel estimate in advance, and then follow her to the dock to verify the bottom and shell and complete the scope once tanks are gas-free."
+    }
+  ],
+  "nearby": ["tallinn", "kotka", "helsinki", "porvoo"]
+}

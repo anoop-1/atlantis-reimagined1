@@ -1,0 +1,20 @@
+{
+  "slug": "toronto",
+  "lat": 43.65,
+  "lng": -79.38,
+  "localContext": "The Greater Toronto Area is a manufacturing and infrastructure market. Aerospace and aircraft-component suppliers cluster around Pearson airport and the Mississauga and Brampton corridors, while Ontario Power Generation's Darlington and Pickering nuclear stations anchor a nuclear and power supply chain along the lake. Fabricators, pressure-equipment shops, transit and rail owners and gas distribution add steady inspection work. Codes range from CSA and ASME to customer process specifications, so training has to match the specific customer's flow-down.",
+  "certPathwayNote": "In Ontario, employers hire against either CAN/CGSB-48.9712 (central certification through NRCan NDTCB or CWB Group) or SNT-TC-1A. Under SNT-TC-1A the employer certifies under its written practice, often with an aerospace prime's flow-down on top. Atlantis courses count toward the second route only. In-service nuclear inspection follows the licensee's program, and radiography needs CNSC exposure device operator certification.",
+  "salaryFrom": "sarnia",
+  "siblings": [
+    "hamilton-ontario",
+    "sudbury",
+    "sarnia",
+    "montreal",
+    "buffalo"
+  ],
+  "canadaMeta": {
+    "title": "ASNT SNT-TC-1A NDT Training in Toronto | Level 1, 2 & 3",
+    "description": "ASNT SNT-TC-1A NDT training for Toronto employers and technicians: self-paced theory, simulator and practical at your facility. Not CAN/CGSB-48.9712.",
+    "h1": "NDT Training in Toronto, ON: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+  }
+}

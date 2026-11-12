@@ -1,0 +1,15 @@
+{
+  "slug": "lynchburg",
+  "lat": 37.41,
+  "lng": -79.14,
+  "localContext": "Lynchburg is the centre of a nuclear manufacturing cluster in central Virginia. BWX Technologies builds naval reactor components and nuclear equipment in the area, and Framatome operates a nuclear fuel and services business here as well; foundry, pipe, machining and metal fabrication suppliers support them. Work follows ASME Section III and NQA-1 style quality assurance, AWS D1.1 and D1.6, and customer-specific acceptance criteria. For training, that means disciplined records, procedure-driven examinations and employers who audit their own qualification programmes closely.",
+  "certPathwayNote": "Employers around Lynchburg certify NDT personnel under written practices that usually start from ASNT SNT-TC-1A and are then tightened to meet nuclear quality assurance, naval and prime-contractor flow-downs. Those extra requirements belong to the employer's programme and its Level III. A course alone certifies no one; ASNT central certification is a separate, portable alternative.",
+  "salaryFrom": "norfolk",
+  "siblings": [
+    "norfolk",
+    "newport-news",
+    "charlotte",
+    "aiken",
+    "oak-ridge"
+  ]
+}

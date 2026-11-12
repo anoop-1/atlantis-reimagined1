@@ -1,0 +1,15 @@
+{
+  "slug": "bakersfield",
+  "lat": 35.37,
+  "lng": -119.02,
+  "localContext": "Bakersfield is the service centre for Kern County's oil fields: steam-injection production, gathering lines, tank batteries, crude and gas pipelines, and a refining sector moving toward renewable fuels, with wind and solar around Tehachapi. Edwards Air Force Base, the Mojave Air and Space Port and China Lake add aerospace test and maintenance work. Inspection follows ASME, API and federal pipeline-safety practice, so UT thickness, VT, MT and RT lead demand.",
+  "certPathwayNote": "Oilfield, pipeline and aerospace employers certify technicians under a written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Government and prime customers may add flow-down rules the employer's Level III reconciles. California radiation licensing for radiography is separate.",
+  "salaryFrom": "los-angeles",
+  "siblings": [
+    "los-angeles",
+    "martinez",
+    "san-francisco",
+    "southern-california",
+    "california"
+  ]
+}

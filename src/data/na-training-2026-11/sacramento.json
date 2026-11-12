@@ -1,0 +1,15 @@
+{
+  "slug": "sacramento",
+  "lat": 38.58,
+  "lng": -121.49,
+  "localContext": "Sacramento's NDT work is driven by state infrastructure rather than oil: Caltrans bridge and structural steel, the Union Pacific rail yard at Roseville, rocket-propulsion and aerospace suppliers around Rancho Cordova, water conveyance and power generation, gas fields and pipelines in the Sacramento Valley, and electronics plants at Folsom. Welds are examined to AWS D1.1 and D1.5, ASME pressure codes and AAR rail rules, so VT, MT, PT and UT dominate and record-keeping is audited closely.",
+  "certPathwayNote": "Employers in the Capital Region certify technicians under their own written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Aerospace and rail customers flow down their own requirements, which the employer's Level III reconciles. Radiography also needs California radiation safety licensing, which is separate.",
+  "salaryFrom": "los-angeles",
+  "siblings": [
+    "san-francisco",
+    "san-jose",
+    "portland",
+    "california",
+    "los-angeles"
+  ]
+}

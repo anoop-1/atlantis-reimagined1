@@ -1,0 +1,15 @@
+{
+  "slug": "peoria",
+  "lat": 40.69,
+  "lng": -89.59,
+  "localContext": "Peoria is a heavy-equipment center: Caterpillar's manufacturing and engineering presence in the area, plus foundries, forge shops, machine shops and weld fabricators, agricultural processing such as ADM, Illinois River barge and rail logistics, and utility and pipeline work. Inspection runs to AWS and ASTM methods and customer quality manuals. Magnetic particle, penetrant and visual skills lead, with UT and RT added for thick castings and critical welds.",
+  "certPathwayNote": "Peoria manufacturers and suppliers certify technicians under an employer ASNT SNT-TC-1A written practice, and the employer issues the certification. Customer quality manuals may add requirements the Level III reconciles. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+  "salaryFrom": "st-louis",
+  "siblings": [
+    "chicago",
+    "st-louis",
+    "indianapolis",
+    "des-moines",
+    "milwaukee"
+  ]
+}

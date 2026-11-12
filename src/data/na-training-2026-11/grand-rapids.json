@@ -1,0 +1,15 @@
+{
+  "slug": "grand-rapids",
+  "lat": 42.96,
+  "lng": -85.67,
+  "localContext": "Grand Rapids and West Michigan run on manufacturing: furniture and office systems makers such as Steelcase and MillerKnoll, automotive and mobility suppliers, aerospace and defense machine shops, food and plastics plants, and many welding and stamping job shops. Work runs to AWS and ASME codes plus customer supplier requirements. Mid-sized shops with few technicians benefit from self-paced theory and an employer-site practical that avoids long absences.",
+  "certPathwayNote": "West Michigan employers certify technicians under their own ASNT SNT-TC-1A written practice, and the employer, not a school, issues the certification. Automotive and aerospace customers may add supplier requirements that the Level III reconciles. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+  "salaryFrom": "detroit",
+  "siblings": [
+    "detroit",
+    "chicago",
+    "milwaukee",
+    "indianapolis",
+    "toledo"
+  ]
+}

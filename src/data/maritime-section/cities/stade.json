@@ -1,0 +1,107 @@
+{
+  "slug": "stade",
+  "name": "Stade",
+  "country": "Germany",
+  "region": "europe",
+  "title": "Ultrasonic Thickness Gauging Stade | Chemical Tankers, Bulkers",
+  "description": "Thickness measurement at Stade-Bützfleth on the Elbe for chemical tankers, bauxite bulk carriers and barges: tanks, holds, decks and cargo piping UTM.",
+  "h1": "Thickness Measurement for Chemical Tankers and Bulk Carriers at the Port of Stade",
+  "intro": "The Port of Stade, at Bützfleth on the south bank of the Lower Elbe downstream of Hamburg, serves a major chemical production site and an alumina refinery. Chemical tankers load chlorine-based products and caustic soda, bulk carriers bring bauxite and ores, and barges carry alumina inland. Those trades call for tank, hold and piping gauging at regular intervals. For every ship at Stade, Atlantis sends technicians from India; nothing is based at the port, and each job is planned with the ship's agent before the team sets off.",
+  "keywords": [
+    "stade thickness measurement",
+    "ultrasonic thickness gauging stade",
+    "utm stade bützfleth",
+    "chemical tanker inspection",
+    "chemical tanker thickness measurement germany",
+    "bauxite bulk carrier gauging",
+    "elbe port ship inspection",
+    "ballast tank gauging tanker",
+    "stade port ship inspection",
+    "hull gauging lower elbe"
+  ],
+  "highlights": [
+    {
+      "h": "Chemical tankers at the industry piers",
+      "p": "Chemical tankers lift propylene oxide, propylene glycol, solvents, caustic soda and other products from the plants at Stade. Cargo tanks can only be entered after gas-freeing, so most work aboard during a loading call takes place in ballast tanks, on deck and in the engine room."
+    },
+    {
+      "h": "Bauxite discharge at the bulk berths",
+      "p": "Bulk carriers bring bauxite and ores for the alumina plant. Bauxite is a heavy and often damp cargo that is hard on hold steel, so tank tops, lower frames and hopper plating are worth measuring once each hold has been grabbed clean."
+    },
+    {
+      "h": "Barges and short-sea ships on the Elbe",
+      "p": "Aluminium oxide and hydroxide leave Stade by barge in large volumes, and short-sea tankers and coasters shuttle products to other Elbe and North Sea ports. These smaller hulls work hard in tidal and brackish water and benefit from regular hull, deck and tank gauging."
+    }
+  ],
+  "port": {
+    "h": "Stade-Bützfleth on the Lower Elbe",
+    "p": [
+      "Stade lies on the south bank of the Elbe in Lower Saxony, downstream of Hamburg and upstream of Brunsbüttel and Cuxhaven, and its seaport is at Bützfleth, north of the old town, where industry lines the riverbank. Ships reach it on the same tidal river that carries deep-sea traffic up to Hamburg, with pilots aboard and timed passages for the deeper vessels. The port is owned by Niedersachsen Ports and is laid out as a North Pier and North Port, a South Port and a gas jetty. Unlike a general cargo port, Stade exists largely to serve the plants behind it: Dow and other chemical manufacturers, and AOS, which produces aluminium oxide and hydroxide from imported bauxite. Most of the cargo handling is done by companies based on the site.",
+      "Seaborne cargo here is dominated by bauxite and ores on the inbound side and by chlorine-based chemical products, including propylene oxide, propylene glycol, solvents, tetrachloroethylene, polyurethanes and caustic soda. That brings two main fleets to the port: chemical tankers of many sizes, from short-sea parcel tankers to larger deep-sea ships, and bulk carriers delivering bauxite. A substantial barge traffic carries aluminium oxide and hydroxide up the Elbe and into the German inland waterway network. Coasters and general cargo ships call for other users of the industrial site, and tugs attend the larger arrivals at the piers. Ship size is governed by the Elbe fairway rather than by the berths, and the river tide decides when the larger bulk carriers can arrive and leave.",
+      "The inspection profile follows the cargo. Chemical tankers are ESP ships, so their renewal and intermediate surveys carry close-up survey and gauging requirements that grow with age, and charterers in the chemical trade inspect them closely through vetting. Bulk carriers in the bauxite trade fall under the ESP regime too, and the cargo's weight and moisture put hold structure at the centre of their surveys. Barges and short-sea ships, meanwhile, spend their working lives in brackish tidal water and inland locks, which shows in hull and deck wastage. Hard winters can bring ice floes down the Elbe and autumn brings fog to the river, yet at the Stade berths both affect the passage far more than they affect work aboard a ship already moored."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens at Stade",
+    "p": [
+      "Stade has no ship repair yard, so gauging here is done afloat at the industry berths and quays. On chemical tankers the ship's own permit system and the terminal's safety rules govern every step: cargo tanks are entered only with a valid gas-free certificate, which is unusual during a loading call, so a Stade job on a tanker typically covers ballast tanks, deck plating, cargo and ballast piping on deck, and the engine room. On bulk carriers at the bauxite berths, holds are gauged as each is emptied by the grabs.",
+      "Ships needing dry-docking go up the Elbe to the Hamburg yards or further afield, and readings taken at Stade travel with them as the pre-docking steel estimate. Barges and short-sea vessels lying at the port between cargoes, and ships kept waiting for a berth, give the most time, and those are the windows for complete owner's condition or pre-purchase surveys. Where a tanker is going off-hire or changing trades, a cleaned and gas-freed ship at a lay-by berth is the right place to measure inside the cargo tanks."
+    ],
+    "list": [
+      "Chemical berths at the industry piers — ballast tank, deck and deck-piping gauging on chemical tankers within terminal safety rules.",
+      "Bauxite and ore berths — hold frames, tank top and hopper plating measured on bulk carriers after discharge.",
+      "Barge berths for alumina — hull, deck and hold readings on inland and estuary barges between loadings.",
+      "General cargo quays — gauging on coasters and general cargo ships during cargo work.",
+      "Lay-by berths — cargo tank gauging on cleaned, gas-freed tankers before off-hire, sale or a change of trade.",
+      "Hamburg yards up the Elbe — the usual docking destination, using Stade readings to plan steel."
+    ]
+  },
+  "context": {
+    "h": "Chemical trade standards, port state control and EU rules at Stade",
+    "p": [
+      "Port state control at Stade follows the Paris MoU and is carried out by BG Verkehr's Ship Safety Division. Chemical tankers face a second layer of scrutiny from cargo owners and charterers, whose vetting inspections look hard at cargo tank condition, deck piping, ballast tank coatings and structural corrosion. A tanker with corroded deck lines or thin ballast tank boundaries can lose employment long before a class surveyor would call for renewal, so owners of chemical tankers often gauge beyond the minimum the rules require.",
+      "Under the EU Ship Recycling Regulation, ships calling at Stade, whatever their flag, must carry an Inventory of Hazardous Materials. EU ETS has covered shipping emissions since 2024 and FuelEU Maritime since 2025, which matters for deep-sea chemical tankers and bauxite carriers on long voyages into the EU. For the barge fleet, inland waterway rules apply rather than the seagoing ones, but steel condition still decides how long a hull can stay in service, and periodic thickness measurement is the evidence an owner needs to choose between renewal and replacement."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at the Port of Stade",
+    "p": "Stade jobs are shaped by gas safety on the tankers and by grab discharge on the bulk carriers. On a chemical tanker loading at the industry berths, the scope is normally limited to ballast tanks, deck structure and piping, the engine room and other spaces outside the cargo system, agreed in advance with the master and the terminal. On a bauxite carrier, the team follows the grabs hold by hold. Longer jobs on cleaned tankers, barges and short-sea ships fill the gaps between cargoes. Results reach the superintendent before the ship sails, which matters when departure is set by the next tide. Typical requests include:",
+    "list": [
+      "A chemical tanker loading at Stade: ballast tank and double-bottom gauging, deck plating and cargo deck-line wall thickness, all outside the cargo tanks.",
+      "A bulk carrier after bauxite discharge: tank top, lower hold frames, brackets and hopper sloping plates, with pitting mapped.",
+      "An alumina barge between cargoes: hull plating at the waterline, deck and hold readings for the owner's maintenance planning.",
+      "A cleaned and gas-freed chemical tanker at a lay-by berth: cargo tank structure gauging before an off-hire survey.",
+      "A short-sea product tanker before its intermediate survey: deck, ballast tank and air-pipe gauging to plan the steel scope."
+    ]
+  },
+  "logistics": "Hamburg Airport is the nearest international airport, and the team reaches Stade-Bützfleth by road through the Hamburg area, or by train to Stade and then road to the port. Access to the industry berths is tightly controlled under ISPS and the chemical companies' own safety rules, so the ship's agent arranges passes and any site induction in advance. The technicians from India travel on Schengen visas; please give the expected loading or discharge date early so that mobilisation can follow the berth plan.",
+  "vessels": [
+    "Chemical tankers",
+    "Bulk carriers",
+    "Inland and estuary barges",
+    "Short-sea product tankers",
+    "Coasters",
+    "General cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can cargo tanks be gauged on a chemical tanker loading at Stade?",
+      "a": "Normally not during a loading call, because entry into cargo tanks needs a valid gas-free certificate and the tanks are in service. What can be done is the structure outside the cargo system: ballast tanks, double bottom, deck plating and deck piping, the engine room and void spaces. Cargo tank gauging is best done when the ship is cleaned and gas-freed, at a lay-by berth or in a yard."
+    },
+    {
+      "q": "Is there a shipyard at Stade for dockings?",
+      "a": "No. Stade is an industrial port without a repair yard, and ships needing dry-docking usually go up the Elbe to the Hamburg yards or to other North Sea yards chosen by the owner. Measuring ballast tanks, holds and deck structure at Stade beforehand gives that yard an early steel estimate, which helps it plan labour and material for the docking."
+    },
+    {
+      "q": "What wear should be expected on a ship in the bauxite trade?",
+      "a": "Bauxite is dense and often damp, so it concentrates load on tank tops and can encourage corrosion where water collects. Grab discharge also damages lower hold frames and brackets mechanically. After repeated bauxite cargoes, owners should expect thinning and pitting on the tank top and wastage on frames and hopper plating, and a full set of hold readings is worth taking after discharge."
+    },
+    {
+      "q": "Do you gauge barges as well as seagoing ships?",
+      "a": "Yes. Barges carrying alumina and other cargoes from Stade work hard in tidal and inland water, and their owners need hull, deck and hold thickness data to plan maintenance and renewal. A barge can often be gauged in a single visit while it waits for cargo, and the readings are reported in the format the owner or the inspecting authority needs."
+    }
+  ],
+  "nearby": ["hamburg", "brunsbuettel", "cuxhaven", "bremerhaven"]
+}

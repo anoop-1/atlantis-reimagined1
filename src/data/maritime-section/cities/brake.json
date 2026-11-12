@@ -1,0 +1,108 @@
+{
+  "slug": "brake",
+  "name": "Brake",
+  "country": "Germany",
+  "region": "europe",
+  "title": "UTM in Brake: Thickness Gauging for Pulp, Grain and Steel Ships",
+  "description": "Thickness gauging at Brake on the Weser for pulp carriers, agribulk ships, steel and project cargo vessels: holds, tween decks, ballast tanks and hatches.",
+  "h1": "Ultrasonic Thickness Measurement for Forest Product, Agribulk and Project Ships at the Port of Brake",
+  "intro": "Brake, on the left bank of the Lower Weser between Bremen and Bremerhaven, is a port of specialised bulk and breakbulk trades: it is Germany's largest import port for pulp, a busy agribulk port for grain and animal feed, and a transshipment point for steel, project cargo and wind turbine components. Those cargoes keep ships alongside long enough to gauge holds, tween decks and tanks properly. Atlantis keeps nobody at Brake; each job is done by technicians who travel from India to the ship.",
+  "keywords": [
+    "thickness measurement brake",
+    "ultrasonic thickness gauging brake",
+    "utm brake weser",
+    "pulp carrier inspection",
+    "forest product carrier gauging",
+    "agribulk ship thickness measurement",
+    "port of brake ship inspection",
+    "open hatch ship gauging",
+    "hold gauging bulk carrier germany",
+    "project cargo ship inspection"
+  ],
+  "highlights": [
+    {
+      "h": "Pulp and forest product carriers",
+      "p": "Pulp and other forest products arrive at Brake on open-hatch and conventional dry cargo ships. Their box-shaped holds and large hatch covers carry heavy unit loads, and the gantry cranes on some open-hatch designs need their rail foundations checked as well as the plating."
+    },
+    {
+      "h": "Agribulk ships beside the silos",
+      "p": "Grain, feed and other agricultural bulk are discharged into the port's silos and warehouses. Ships carrying food and feed cargoes must keep holds clean and dry, so leaking hatch covers, corroded hold frames and wasted bilge wells are worth finding before the next loading."
+    },
+    {
+      "h": "Steel, heavy lifts and wind components",
+      "p": "Steel products, project cargo and onshore wind turbine parts cross Brake's quays on multipurpose and heavy-lift ships. Tank tops and tween decks under heavy units, crane pedestals and lashing points are the usual gauging and crack-detection targets on these vessels."
+    }
+  ],
+  "port": {
+    "h": "Brake on the Lower Weser and the ships it handles",
+    "p": [
+      "Brake lies on the west bank of the Weser in Lower Saxony, downstream of Bremen and upstream of Nordenham and Bremerhaven, and ships reach it by the same pilotage passage up the Lower Weser that serves the Bremen docks. The port is owned by Niedersachsen Ports, and its terminals are run by J. Müller, a long-established Weser port operator. The berths stretch along the riverbank with silos, warehouses, covered sheds and open storage behind them, and the river here is tidal, so berthing of the deeper ships is planned around high water. Road and rail connections reach far into the German hinterland, which is a large part of why importers of pulp, feed and steel use Brake rather than a bigger port. Expansion at the neighbouring Boitwarder Groden area has been planned, with offshore wind handling among the uses discussed.",
+      "Brake's traffic is defined by its cargoes rather than by ship size. Pulp is the headline trade, and the port is the largest pulp import port in Germany, supplying paper and board mills inland. Grain, animal feed and marine proteins arrive for the agricultural and feed industry of north-west Germany, while iron and steel products, heavy lifts and project shipments use the breakbulk quays. Onshore wind turbine components such as tower sections, nacelles and blades are another regular cargo, and they grow larger with each generation of turbine. The ships that bring all this are mainly handysize bulk carriers, open-hatch and conventional forest product carriers, multipurpose and heavy-lift vessels, general cargo ships and coasters, many of them managed from Germany, Scandinavia or the Netherlands.",
+      "That mix explains why gauging requests at Brake tend to involve holds and hatches rather than tank farms or cargo systems. Unit cargoes such as pulp bales and steel coils impose concentrated loads on tank tops and tween decks; food and feed cargoes demand weathertight hatch covers and sound, clean hold steel; and project ships carry the stresses of their own heavy-lift cranes. Discharge is methodical, crane by crane and hold by hold, so a ship commonly lies at Brake across several tides. North-westerly gales in autumn and winter can delay the passage up from the river mouth, and a severe cold spell occasionally puts ice on the Weser, yet a ship moored at the terminal is rarely stopped from working by either."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging at Brake's quays, and where ships dock",
+    "p": [
+      "All gauging at Brake is done afloat at the operator's berths and fitted around discharge or loading. On a forest product carrier, holds are released as the stevedores clear each one, and the hatch covers can be measured while they are open on the coamings or stowed. On agribulk ships, the time between the end of discharge and the start of hold washing or ballasting is the usual window for frames, plating and bilge wells. Multipurpose ships at the breakbulk quays give access to tween decks and pontoons as cargo is landed, and the structure under their cranes can be examined in the same visit.",
+      "Brake has no merchant dry dock of its own. A ship that needs docking after a Brake call usually goes downriver to the floating docks at Bremerhaven or to a yard elsewhere in north-west Europe, and the thickness data recorded at Brake goes with her as the starting steel list. Ships lying at the port waiting for cargo, a berth or a new charter offer longer windows, and that is when full condition and pre-purchase surveys are most practical."
+    ],
+    "list": [
+      "Forest product berths — hold, tank-top and hatch cover gauging on pulp carriers as each hold is discharged.",
+      "Agribulk berths beside the silos — hold frames, hopper plating and bilge wells measured after grain or feed discharge.",
+      "Breakbulk and heavy-lift quays — tween-deck, pontoon and crane pedestal checks on multipurpose ships, with magnetic particle testing at critical welds.",
+      "Wind component handling areas — deck and tank-top readings on ships delivering towers, nacelles and blades.",
+      "Waiting berths at the port — owner's condition and pre-purchase gauging on ships idle between cargoes.",
+      "Bremerhaven floating docks downriver — the nearest docking option, with Brake readings supplied as the steel estimate."
+    ]
+  },
+  "context": {
+    "h": "Port state control, cargo standards and EU rules at Brake",
+    "p": [
+      "Ships at Brake come under Paris MoU port state control, carried out in Germany by BG Verkehr's Ship Safety Division. The handysize and forest product fleet that serves the port includes many ships in their second and third decades, which the Paris MoU targeting system weighs heavily, and hatch cover weathertightness, wasted air pipes and corroded deck fittings feature often in inspection reports on older dry cargo ships. Food and feed shippers add a commercial layer: a hold that lets in water or sheds rust scale can lead to cargo claims or rejection, so hold condition is a trading matter as much as a class one.",
+      "Several European rules reach the Brake fleet. The EU Ship Recycling Regulation requires an Inventory of Hazardous Materials on ships calling at EU ports, and owners preparing an IHM for an older bulk carrier often combine that onboard visit with condition gauging. EU ETS has covered emissions on voyages to and from EU ports since 2024, and FuelEU Maritime has set greenhouse-gas intensity targets since 2025, so for an ageing pulp or bulk carrier the next renewal survey is now a commercial decision as well as a technical one. Steel condition measured during a Brake call helps answer it."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness measurement jobs in Brake",
+    "p": "Most Brake jobs are hold-centred and run in step with the stevedores. A superintendent will often ask for a full set of hold readings on a forest product carrier or bulk carrier before an intermediate survey, or for hatch cover and coaming work after a cargo receiver complains of water damage. Heavy-lift ships add crane foundations and the deck around them. Because ships tend to stay at Brake longer than at a container terminal, the scope can be broader than at most ports of this size, and results are reported as the work goes on, so the owner can line up repairs before the ship sails. Some typical jobs:",
+    "list": [
+      "An open-hatch forest product carrier discharging pulp: tank-top plating under the bale stows, hold side structure and gantry crane rail foundations.",
+      "A bulk carrier after feed discharge: hold frames, lower brackets, hopper sloping plates and bilge wells, measured before the holds are washed.",
+      "A multipurpose ship landing wind turbine towers: tween-deck pontoons, hatch covers and main deck plating under the stowage areas.",
+      "A general cargo ship facing a wet-cargo claim: hatch cover plating, side plates, cleats and compression bars, with readings on the coamings.",
+      "A heavy-lift ship before a project loading: crane pedestal and deck structure gauging plus magnetic particle testing at the pedestal welds."
+    ]
+  },
+  "logistics": "Bremen Airport is the nearest airport with international connections, and the team continues north to Brake by road or regional train along the west bank of the Weser; Hamburg Airport is the long-haul alternative. Access to the J. Müller terminals is ISPS-controlled and arranged by the ship's agent, who also confirms which berth the ship will take. Our technicians travel from India on Schengen visas, so it helps to send the expected call early and let us fix travel once the river passage is confirmed.",
+  "vessels": [
+    "Forest product and open-hatch carriers",
+    "Handysize bulk carriers",
+    "Agribulk carriers",
+    "Multipurpose and heavy-lift ships",
+    "General cargo ships",
+    "Coasters",
+    "Steel and project cargo carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Can a pulp carrier be gauged during discharge at Brake?",
+      "a": "Yes, hold by hold. Once the stevedores have cleared a hold, the team can measure the tank top, hold sides and frames while discharge continues elsewhere, and hatch covers can be done while they are open. We agree the order with the chief officer at the start, so that the holds the class or the owner cares about most are reached first and none is left unmeasured when loading of a return cargo begins."
+    },
+    {
+      "q": "Is there a dry dock at Brake?",
+      "a": "No merchant ship dry dock operates in Brake itself. Ships calling here usually dock at Bremerhaven, a short way downriver, or at a yard elsewhere in north-west Europe chosen by the owner. A Brake call is still valuable, because measuring holds, tanks and hatch covers alongside gives the docking yard a steel figure before the ship arrives, which shortens the time in dock."
+    },
+    {
+      "q": "What should be checked on a ship that carries food and feed cargoes?",
+      "a": "Hatch covers and coamings come first, because a leak spoils cargo. Then hold plating and frames, where flaking rust and pitting can contaminate the next cargo, and bilge wells with their suction lines. Ballast tanks behind the hold sides matter too, since a corroded tank boundary can let water into a hold. Gauging these areas after discharge gives a clear work list for the crew and for the next yard."
+    },
+    {
+      "q": "Can the structure under heavy-lift cranes be inspected in the same visit?",
+      "a": "The cranes themselves are examined and certified under their own lifting-appliance regime, but the structure supporting them is hull steel and can be included in our scope: pedestals, the deck plating and stiffening around them, and the welds joining the two. Gauging plus magnetic particle testing at those welds is a common request before a heavy project lift or a crane load test."
+    }
+  ],
+  "nearby": ["nordenham", "bremen", "bremerhaven", "wilhelmshaven", "emden"]
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "phased-array-ultrasonic-testing",
+  "navLabel": "Phased Array UT (PAUT)",
+  "title": "Phased Array Ultrasonic Testing (PAUT) of Ship Welds",
+  "description": "PAUT of ship welds, repairs and castings: encoded sectorial and linear scans, stored data, scan plans, ISO 13588 and ISO 19285, and class procedure acceptance.",
+  "h1": "Phased array ultrasonic testing (PAUT) of ship welds, repairs and castings",
+  "eyebrow": "Maritime inspection · Advanced NDT",
+  "intro": "Phased array ultrasonic testing examines the inside of a weld with a probe that steers and focuses its own beam, so one pass along the joint covers a fan of angles that manual UT would need several probes and many passes to reach. With an encoder on the scanner, every signal is stored against its position along the weld. Atlantis NDT uses encoded PAUT on ship butt welds, inserts, full-penetration connections, crane pedestals and castings, and mobilises the team from India to the yard or berth.",
+  "highlights": [
+    {
+      "h": "One pass, many angles",
+      "p": "A sectorial scan sweeps the beam through a range of angles from a single probe position, and a linear scan moves the active aperture along the array. Together they cover the weld volume and heat-affected zone from fewer positions than manual shear-wave testing."
+    },
+    {
+      "h": "A record you can open again",
+      "p": "Encoded data keeps every A-scan with its position along the weld. The examination can be re-analysed after the ship has sailed, audited by the class engineer, or compared with a later scan of the same joint to see whether anything has changed."
+    },
+    {
+      "h": "No controlled radiation area",
+      "p": "Unlike radiography, phased array testing needs no exclusion zone, so other trades keep working around the joint and the ship can stay in normal operation. Whether it may replace radiography on a given weld is settled by the class rules and an accepted procedure."
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-paut-works",
+      "h": "How phased array ultrasonic testing works",
+      "p": [
+        "A phased array probe contains a row of small piezoelectric elements, typically sixteen to sixty-four in a weld probe, each of which can be pulsed separately. By firing the elements with tiny time delays, the instrument shapes and steers the combined beam: a delay pattern that increases along the array tilts the beam to a chosen angle, and a curved pattern brings it to a focus at a chosen depth. The instrument calculates a set of these delay laws and fires them in quick succession, building up an image in place of a single trace.",
+        "Two scan types are used on welds. A sectorial scan, or S-scan, keeps the active elements fixed and sweeps the angle, commonly through the range a manual operator would cover with several angle probes, producing a fan-shaped cross-section of the weld. A linear scan, or E-scan, keeps the angle fixed and steps the active group of elements along the array, which suits thinner plate and corrosion work. The probe sits on a wedge that sets the base angle, and couplant, usually water, carries the sound into the steel."
+      ]
+    },
+    {
+      "id": "encoded-scanning",
+      "h": "Encoded scanning, stored data and repeatability",
+      "p": [
+        "For a weld examination that is to be recorded, the probe is mounted on a scanner that holds it at a fixed distance from the weld centreline, and an encoder wheel measures the distance travelled. Each sectorial or linear scan is then saved against its position, so the data file contains the whole weld: top views, side views, end views and every individual A-scan behind them. The operator checks coupling and coverage as the scan runs, and analysis can be repeated by another qualified person later with the same data in front of them.",
+        "Hand-held, unencoded phased array scanning is useful for locating and sizing an indication found by another method, or for screening awkward geometry, but it leaves only screenshots. Class rules for advanced NDT of welds generally count automated or semi-automated, meaning encoded, phased array as the recorded method, which is why the scan plan for any class-related job is written around encoded line scans.",
+        "Repeatability is the practical benefit on a ship. A crane pedestal weld scanned at one docking and again at the next, from the same datum with the same setup file, gives two data sets that can be set side by side, so growth of a known indication or the appearance of a new one is a measured fact, not a matter of comparing two operators' notes."
+      ]
+    },
+    {
+      "id": "scan-plan-and-calibration",
+      "h": "Scan plan, coverage and calibration",
+      "p": [
+        "Every encoded examination starts from a scan plan: a drawing of the joint showing the plate thicknesses, weld preparation, probe and wedge, the distance of each scan line from the weld centreline, the angles used and the beam paths through the weld volume and heat-affected zone. It shows which parts of the weld are covered from which side, and whether one or two scan lines per side are needed to reach the root, the fusion faces and the cap. Where only one side of the joint is accessible, as on some deck fittings and stiffener connections, the plan states the reduced coverage openly rather than leaving it to be discovered at review.",
+        "Sensitivity is set on a reference block of similar steel and thickness, usually with side-drilled holes at a range of depths, so that a reflector of the same size gives the same screen height at every angle and depth. That correction, called time-corrected gain across the angles of the sweep, is what makes indications comparable. Instruments and probes are verified against the ISO 18563 series, and calibration is checked at the start and end of each scanning session and after any change of probe, wedge or cable."
+      ]
+    },
+    {
+      "id": "ship-applications",
+      "h": "Where phased array earns its place on a ship",
+      "p": [
+        "PAUT is chosen where a stored, auditable examination of a weld or casting is worth more than a quick pass with a manual probe, or where radiography would disrupt the yard or the ship. The examples below are the jobs it is most often asked for in ship repair and in service.",
+        "On the largest container ships, upper flange structure such as hatch coaming top plates and sheer strakes is built from plate more than 50 mm thick. IACS UR S33 calls for ultrasonic testing of the block-to-block butt joints of those members during construction and for periodic NDT of target joints after delivery. Encoded phased array, often combined with TOFD, gives those periodic examinations a record that can be compared docking after docking."
+      ],
+      "list": [
+        "Butt welds of shell, deck and bulkhead inserts after steel renewal, where the class or the repair specification calls for volumetric testing",
+        "Full-penetration T-joints at highly loaded connections, such as hatch coaming bracket toes and deck-to-coaming welds, where lack of fusion at the root is the main concern",
+        "Crane pedestal welds to the deck and within the pedestal barrel, examined for fatigue cracking in service and after repairs",
+        "Rudder horn and stern frame castings and the welds that join them to the hull, including repair welds made at docking",
+        "Heavy block joints of thick plate on large container ships, during construction and at periodic examinations",
+        "Welds in steel cargo and ballast piping and in scrubber systems, where curvature allows a suitable wedge"
+      ]
+    },
+    {
+      "id": "paut-and-radiography",
+      "h": "Phased array and radiography compared on board",
+      "p": [
+        "Radiography and ultrasonic testing find different things well, which is why weld standards treat them as complementary rather than interchangeable. The comparison below is the one superintendents and yard planners usually need when deciding which to specify for a repair. Class acceptance of PAUT in place of radiography depends on the society's rules for that joint and on a qualified procedure accepted by the surveyor; it cannot be assumed."
+      ],
+      "table": {
+        "head": ["Question", "Phased array UT", "Radiography"],
+        "rows": [
+          ["Effect on other work", "None; the joint can be scanned while trades work nearby", "Controlled area cleared of people during exposure, often outside working hours"],
+          ["Access needed", "One surface, ideally both sides of the weld on that surface", "Both sides of the joint: source on one, film or detector on the other"],
+          ["Planar flaws (cracks, lack of fusion)", "Sensitive when the beam meets them at a favourable angle", "Can miss tight planar flaws not aligned with the beam"],
+          ["Volumetric flaws (porosity, slag)", "Detected, but character judged from signal behaviour", "Shown directly as an image; the reference method for porosity"],
+          ["Through-wall height of a flaw", "Measured from tip signals and position in the scan", "Not measured; film shows length and position only"],
+          ["Record", "Encoded data file of the whole weld, re-analysable later", "Film or digital image"]
+        ]
+      }
+    },
+    {
+      "id": "acceptance-criteria",
+      "h": "Acceptance criteria and the standards behind them",
+      "p": [
+        "ISO 13588 sets out how automated phased array testing of welds is carried out, including the testing levels that set how thoroughly a joint is examined. ISO 19285 gives acceptance levels for phased array indications, correlated with the weld quality levels of ISO 5817. For a repair under class survey, the society's rules decide which acceptance criteria apply, and on newbuilding-standard repairs those rules are built on IACS UR W33 and W34. Where a specification calls for ASME, Section V Article 4 governs the technique and the referencing construction code supplies the acceptance criteria.",
+        "We write the procedure to the standard the client or the class names, and the report sets every indication against those criteria: position along the weld, depth, length, height where it can be measured, and whether it is acceptable. Indications near the limit are flagged, so the surveyor sees them first."
+      ]
+    },
+    {
+      "id": "limits",
+      "h": "What limits phased array on a ship",
+      "p": [
+        "Surface condition comes first. Weld spatter, rough grinding marks, heavy or flaking paint and pitting along the scan line stop the wedge coupling evenly and leave gaps in the data, so the scan path either side of the weld is cleaned before the team arrives or as the first task on board. Weld caps that stand proud or overlap can block the beam from reaching the upper part of the weld from one side, and where the cap cannot be dressed the plan uses both sides of the joint.",
+        "Geometry and material matter too. Thin plate leaves little room between the near surface and the back wall, curved pipe needs contoured wedges, and coarse-grained materials such as austenitic stainless steel welds, duplex and some castings scatter sound and need dedicated probes and a separately validated procedure. Root and cap geometry produce echoes that look like flaws to an inexperienced eye, which is why analysis is done by qualified operators and the report reviewed under Level III supervision. Transverse cracks across a weld need a scan direction of their own, added where the joint type or service history makes them likely."
+      ]
+    },
+    {
+      "id": "class-and-qualification",
+      "h": "Class acceptance, operator qualification and who does the work",
+      "p": [
+        "Class rules expect advanced weld examination to be carried out to a written procedure approved by a Level III and qualified for the joint and material, typically with a demonstration on representative test pieces reviewed by the society's surveyor. We prepare that procedure and scan plan before mobilisation and put them to the attending surveyor when the work is for class. Some class rules and yard specifications also require NDT operators to hold a particular certification scheme; if yours does, tell us when you enquire, so we can confirm whether our team meets it before the job is booked.",
+        "Phased array work is planned and supervised by our founder, the Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience. Operators are qualified and certified under the company's written practice to ASNT SNT-TC-1A, the company is certified to ISO 9001 and ISO 14001, and the team is mobilised from India for each job rather than kept at the port."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 13588 – Ultrasonic testing of welds: use of automated phased array technology",
+    "ISO 19285 – Phased array ultrasonic testing of welds: acceptance levels",
+    "ISO 18563 series – Characterisation and verification of ultrasonic phased array equipment",
+    "ISO 5817 – Quality levels for imperfections in fusion-welded joints in steel",
+    "IACS UR W33 and UR W34 – NDT of ship hull steel welds and advanced NDT of materials and welds",
+    "IACS UR S33 – Requirements for use of extremely thick steel plates in container ships",
+    "ASME BPVC Section V, Article 4 – Ultrasonic examination methods for welds, where specified",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Written PAUT procedure and scan plan with beam coverage drawings",
+    "Indication table: position along the weld, depth, length, height where measurable and assessment",
+    "Encoded data files in the instrument's native format, plus sectorial and top-view images",
+    "Calibration records, reference block details and equipment verification",
+    "Statement of coverage achieved and any areas not examined, with reasons",
+    "Operator certificates and the Level III review"
+  ],
+  "industries": [
+    "Large container ships",
+    "Bulk carriers with deck cranes",
+    "Crude, product and chemical tankers",
+    "Offshore units and FPSOs",
+    "General cargo and heavy-lift ships",
+    "Ship-repair yards carrying out steel renewal",
+    "Owners' technical departments and ship managers"
+  ],
+  "faqs": [
+    {
+      "q": "Can PAUT replace radiography for weld testing on a ship repair?",
+      "a": "Sometimes, but it is not automatic. The classification society's rules decide whether phased array is acceptable for a given joint, and they normally require a procedure qualified for the joint and material, approved by a Level III and reviewed by the surveyor. Where it is accepted, PAUT avoids the controlled radiation area and gives a stored record. Tell us the class and the repair specification, and we prepare the procedure so the question can be settled with the surveyor before work starts."
+    },
+    {
+      "q": "What is the difference between manual UT and phased array UT?",
+      "a": "Manual ultrasonic testing uses a single-element probe at one fixed angle, moved by hand, with the operator judging the screen in real time and recording only the findings. Phased array steers a multi-element beam through many angles from one probe position and, when encoded, stores the whole examination with its position along the weld. The physics is the same; the coverage, the image and the record are what differ."
+    },
+    {
+      "q": "How much surface preparation does PAUT need?",
+      "a": "The scan path either side of the weld must be smooth enough for the wedge to couple evenly: weld spatter, loose scale, flaking paint and rough grinding marks removed. A thin, well-bonded coating can often stay if its effect is allowed for during calibration and the procedure permits it. Proud or overlapping caps may need dressing, or a scan from both sides, so that the upper part of the weld is covered."
+    },
+    {
+      "q": "Can phased array measure the height of a crack?",
+      "a": "Yes, within limits. The through-wall extent of an indication can be measured from the position of its tip signals in the sectorial image, and that is often enough for a repair decision. Where height must be known as accurately as possible, for instance in very thick plate or for an engineering assessment, TOFD is used alongside phased array, because TOFD measures height from the arrival times of diffracted signals rather than from image position."
+    },
+    {
+      "q": "Can PAUT be used on castings such as a rudder horn or stern frame?",
+      "a": "Yes, with a procedure written for the casting. Cast steel can have a coarser grain than plate and welds, which scatters sound, so frequency, probe and sensitivity are chosen and validated on a block representative of the casting. It is most often used on the welds joining castings to the hull and on repair welds made at docking, where a stored record helps the surveyor and the owner follow the repair over later surveys."
+    },
+    {
+      "q": "How do you send the results?",
+      "a": "As a report with the indication table, images, scan plan, calibration records, coverage statement and operator certificates, together with the encoded data files in the instrument's native format. The images and tables can be read without special software; the data files let a class engineer or a later inspector re-analyse the examination or compare it with a new scan of the same joint."
+    }
+  ]
+}

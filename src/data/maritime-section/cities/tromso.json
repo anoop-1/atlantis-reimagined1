@@ -1,0 +1,113 @@
+{
+  "slug": "tromso",
+  "name": "Tromsø",
+  "country": "Norway",
+  "region": "europe",
+  "title": "Tromsø UTM for Research, Fishing and Expedition Cruise Ships",
+  "description": "Ultrasonic thickness measurement in Tromsø for research vessels, expedition cruise ships, trawlers and coastal ships: hull, ice belt, tank and piping UTM.",
+  "h1": "Ship Thickness Measurement in Tromsø, the Arctic Gateway for Research, Fishing and Expedition Vessels",
+  "intro": "Tromsø is where many voyages into the Arctic begin and end. Research vessels from the city's polar institutions, expedition cruise ships bound for Svalbard, deep-sea trawlers, Svalbard cargo ships and the coastal express all use its quays. Between seasons and expeditions these ships come alongside for maintenance, which is the time to gauge hull plating, ice belts, tanks and piping. Atlantis sends technicians from India to the vessel for every job; nobody is stationed in Tromsø.",
+  "keywords": [
+    "tromsø thickness measurement",
+    "tromso ship gauging",
+    "research vessel hull gauging",
+    "expedition cruise ship inspection",
+    "ice belt thickness measurement",
+    "trawler thickness gauging",
+    "ship inspection tromsø",
+    "polar vessel utm",
+    "arctic ship hull inspection",
+    "svalbard cargo ship gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Ice belts after an Arctic season",
+      "p": "Ships returning from Svalbard and the ice edge come back with abraded paint and sometimes dented plating along the ice belt and bow. Gauging that band after the season shows the owner what the ice has taken before the ship heads north again."
+    },
+    {
+      "h": "Research ships between cruises",
+      "p": "Tromsø's research fleet runs tight programmes of scientific cruises with short maintenance periods in port. Moon pools, instrument wells, A-frame foundations and sampling seawater lines are research-ship details worth adding to a hull and tank scope where a vessel has them."
+    },
+    {
+      "h": "Trawlers landing at Tromsø",
+      "p": "Deep-sea trawlers and coastal fishing vessels land catches and change crews here. Fish holds, freezer-room bulkheads, trawl deck plating and the gantry foundations can be measured once the vessel has discharged its catch and been cleaned."
+    }
+  ],
+  "port": {
+    "h": "Tromsø: island city and Arctic port",
+    "p": [
+      "Tromsø is built mainly on the island of Tromsøya, between the mainland and the larger island of Kvaløya, and its port spreads along several sheltered sounds. Ships approach through the inner leads from the north or the south rather than straight in from the open sea, which keeps the harbour calm in most weather. The city has grown into the main centre of northern Norway, with a university, a large hospital and the Fram Centre, where the Norwegian Polar Institute and other institutions working on the Arctic are gathered. That concentration of polar science and northern administration is what gives Tromsø's shipping its particular mix of vessels. A good share of the ships using the port are owned or managed from the city itself, which makes Tromsø a home port in the full sense rather than a place that ships simply pass through.",
+      "Several research vessels have Tromsø as their home port, among them the polar research ship Kronprins Haakon, and they sail from here to the Barents Sea, Svalbard and the ice edge. Expedition cruise ships begin or end Arctic voyages in Tromsø, and in winter the northern-lights season brings tourist traffic through the dark months as well. Trawlers and coastal fishing vessels land fish and take on stores, cargo ships carry supplies to Svalbard, and the coastal express calls in both directions every day. Coast guard ships and the vessels of government agencies are regular callers, and the fish farms in the surrounding fjords are served by well boats and workboats. That variety means a gauging team in Tromsø can be aboard a polar research ship one week and a trawler the next.",
+      "The port is divided between the city-centre quays at Prostneset, where the coastal express and many smaller ships berth, the Breivika area on the north side of the island for cargo and larger cruise ships, and newer industrial quays at Grøtsund north of the city. Tromsø lies far north of the Arctic Circle: polar night lasts for several weeks around midwinter, and the midnight sun for about two months in summer. The Atlantic current keeps the sea free of ice, but winter brings snow, freezing temperatures and occasional icing on exposed decks, and quayside work has to be planned around daylight that is short or absent. With tourist traffic now running through both the light summer and the dark winter, the quieter maintenance windows tend to fall in spring and autumn."
+    ]
+  },
+  "facilities": {
+    "h": "Where vessels are gauged in and around Tromsø",
+    "p": [
+      "Most gauging in Tromsø is done with the ship alongside between voyages. Research vessels and expedition ships lie at the city or Breivika quays during maintenance periods, when tanks can be emptied and the crew has time to prepare access; this is the window for ice-belt gauging, tank programmes and piping work before the next season. Trawlers are measured at the fishing quays once the catch is landed and the holds are cleaned. The industrial quays at Grøtsund offer space and crane access for longer jobs, such as condition surveys on ships waiting for repair or for a sale to complete.",
+      "Smaller vessels, fishing boats and workboats among them, can be slipped at yards in northern Norway, while larger research and expedition ships go to yards further south on the Norwegian coast or abroad for their dockings. For those ships, readings taken in Tromsø serve as a pre-docking estimate or as preparation for a renewal survey, so steel can be ordered before the ship sails south. The city's position also makes it the natural port for a pre-season check on ships about to spend months in remote Arctic waters, where discovering a structural problem is far harder than discovering it beside a city quay."
+    ],
+    "list": [
+      "Prostneset city quays — short scopes on coastal express ships and smaller vessels during scheduled stops.",
+      "Breivika quays — ice-belt, tank and piping gauging on research vessels, expedition cruise ships and cargo ships between voyages.",
+      "Grøtsund industrial harbour — longer condition, pre-purchase and lay-up surveys with quay space and crane access.",
+      "Fishing quays — fish-hold, freezer-room and trawl-deck gauging on trawlers after landing.",
+      "Aquaculture service berths — well boat circulation piping and hull readings during supply stops."
+    ]
+  },
+  "context": {
+    "h": "Polar rules, expedition cruising and port state control in Tromsø",
+    "p": [
+      "Ships leaving Tromsø for Svalbard or the ice edge sail into the Arctic waters covered by the IMO Polar Code, which calls for a Polar Ship Certificate and a Polar Water Operational Manual, and since July 2024 MARPOL has restricted the use and carriage of heavy fuel oil in Arctic waters, with some ships allowed waivers until 2029. Norway separately bans heavy fuel oil in the territorial waters around Svalbard. Hull condition, ice-strengthened plating and the integrity of fuel tanks all matter more on these voyages than on an ordinary coastal trade, and recent thickness readings belong in the evidence an owner keeps for the ship's polar operational assessment.",
+      "For foreign ships in Tromsø, port state control is the Norwegian Maritime Authority's job under the Paris MoU. Passenger ships more than twelve years old are among the Paris MoU's categories for expanded inspection, and part of the expedition fleet is made up of older hulls converted from research ships, ferries or coastal passenger vessels. Owners of those ships, and of the older trawlers in the fishing fleet, often commission gauging before a sale, before a change of trading area, or before committing to the investment a renewal survey will demand."
+    ]
+  },
+  "eca": "none",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs in Tromsø",
+    "p": "Tromsø work follows the Arctic calendar. Expedition ships want their hull and ice belt measured before the spring season and again after the autumn one, research vessels fit gauging into maintenance periods between scientific cruises, and trawlers are measured between fishing trips or during a longer stop for repairs. Scopes are usually agreed weeks ahead with the vessel manager, because the ship's programme is fixed long in advance, and the report is needed before the vessel sails north again, often to places with no repair facilities at all. Results go to the owner, and to the attending surveyor where one is involved, before departure. Examples:",
+    "list": [
+      "Post-season ice-belt and bow gauging on an expedition cruise ship back from Svalbard, with dents and abrasion recorded.",
+      "Ballast and fuel tank measurements on a research vessel during a maintenance period between scientific cruises.",
+      "Fish-hold, freezer-room and gantry foundation readings on a deep-sea trawler at the fishing quay.",
+      "Pre-purchase gauging of an older coastal passenger ship offered for conversion to expedition service.",
+      "Piping UT on sea-water cooling lines and fire mains on a Svalbard cargo ship during its turnaround in Tromsø."
+    ]
+  },
+  "logistics": "Tromsø Airport lies on the island close to the city and has frequent flights from Oslo and other Norwegian cities, as well as some international routes. The quays at Prostneset, Breivika and Grøtsund are ISPS-controlled, and the ship's agent or the vessel manager arranges port access and any boat transfers. Norway is in Schengen, so the technicians travel from India on Schengen visas; for ships with fixed Arctic programmes we work back from the sailing date, so that visas and flights are settled well ahead.",
+  "vessels": [
+    "Research and polar vessels",
+    "Expedition cruise ships",
+    "Coastal express ships",
+    "Deep-sea trawlers",
+    "Coastal fishing vessels",
+    "Svalbard cargo ships",
+    "Coast guard and government vessels",
+    "Well boats and aquaculture workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can you measure the ice belt on an expedition ship in Tromsø?",
+      "a": "Yes, with the ship alongside. Above the waterline the ice belt is reached from the quay or a workboat arranged by the agent, and from inside the hull wherever frames and tanks allow access. Readings are taken along the bow and the waterline band where ice contact is heaviest. Outer-hull plating well below the waterline has to wait for the ship's next docking."
+    },
+    {
+      "q": "What can be gauged during the polar night?",
+      "a": "Everything inside the ship, which is always measured under artificial light anyway: tanks, holds, machinery spaces and piping. Open-deck and outer-hull work is slower in darkness and cold, so we schedule it for the twilight hours around midday and use floodlights. Couplant and batteries suited to low temperatures are part of the winter kit."
+    },
+    {
+      "q": "Do research vessels need anything beyond a normal hull scope?",
+      "a": "Often they do. Moon pools, instrument wells, A-frame and winch foundations, and the seawater intake lines that feed scientific systems carry loads and wetting that ordinary ships do not. We add them to the scope where the vessel has them and the manager asks, with magnetic particle testing at the winch and A-frame foundations."
+    },
+    {
+      "q": "Where do larger ships from Tromsø go for dry-docking?",
+      "a": "Usually to yards further south on the Norwegian coast or abroad, chosen by the owner. Thickness readings taken in Tromsø before departure give the owner and the yard an early steel estimate, so materials and yard time can be booked before the ship arrives. Smaller vessels can often be slipped in northern Norway."
+    }
+  ],
+  "nearby": [
+    "hammerfest",
+    "narvik",
+    "bodo",
+    "kirkenes"
+  ]
+}

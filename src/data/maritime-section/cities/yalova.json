@@ -57,12 +57,12 @@
   "context": {
     "h": "Regulation and market context for Turkish shipyards",
     "p": [
-      "Yalova lies on the Sea of Marmara, inside the Mediterranean SOx ECA in force since 1 May 2025, and Turkey participates in both the Mediterranean MoU and the Black Sea MoU on port state control. For a ship in a Yalova dock, the regulatory work is mostly class and flag: renewal and docking surveys, the ESP requirements for oil tankers, chemical tankers and bulk carriers, and any port state control deficiencies carried in from previous ports. A docking is also the natural time to deal with scrubber wash-water and overboard piping, which is easiest to repair at the shell connections with the ship dry.",
+      "Yalova lies on the Sea of Marmara, outside the Mediterranean SOx ECA (which ends at the entrance to the Dardanelles), and Turkey participates in both the Mediterranean MoU and the Black Sea MoU on port state control. For a ship in a Yalova dock, the regulatory work is mostly class and flag: renewal and docking surveys, the ESP requirements for oil tankers, chemical tankers and bulk carriers, and any port state control deficiencies carried in from previous ports. A docking is also the natural time to deal with scrubber wash-water and overboard piping, which is easiest to repair at the shell connections with the ship dry.",
       "The market around the yards is competitive and international. Turkish shipyards compete for European and regional repair work with yards in the Black Sea, the Mediterranean and the Middle East, and schedule reliability is a central factor in choosing between them. That puts weight on early, organised gauging: a yard can only commit to an undocking date once it knows the steel scope, and owners who bring measured readings to the discussion are better placed to agree a realistic programme. Ships with EU owners or trading to EU ports also carry EU ETS and FuelEU obligations on those voyages."
     ]
   },
-  "eca": "eca-med",
-  "psc": "",
+  "eca": "none",
+  "psc": "Black Sea MoU and Mediterranean MoU",
   "jobs": {
     "h": "Typical thickness gauging jobs in Yalova",
     "p": "Nearly all Yalova jobs are linked to a docking. A superintendent sends the survey status and previous thickness reports, we agree a gauging plan with the yard's project manager, and the team arrives for pre-docking readings or for the first days of the docking. Thickness measurement in Yalova is therefore planned in detail before travel, not worked out on arrival.",
@@ -102,5 +102,10 @@
       "a": "Yes. The two shipyard areas face each other across the eastern Marmara and are linked by road and ferry. If you have ships docking in both within a short period, we plan a single mobilisation with a visa period that covers both, and sequence the jobs around each yard's docking dates."
     }
   ],
-  "nearby": ["izmit", "istanbul", "izmir", "varna"]
+  "nearby": [
+    "izmit",
+    "istanbul",
+    "izmir",
+    "varna"
+  ]
 }

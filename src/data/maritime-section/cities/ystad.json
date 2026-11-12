@@ -1,0 +1,110 @@
+{
+  "slug": "ystad",
+  "name": "Ystad",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Ystad Ferry UTM | Hull Gauging for Ro-Pax and Fast Craft",
+  "description": "Ultrasonic thickness measurement in Ystad for ro-pax ferries to Poland and Bornholm fast craft: vehicle-deck, ramp and hull gauging, aluminium crack checks.",
+  "h1": "Thickness Measurement for Ro-Pax Ferries and High-Speed Craft at Ystad",
+  "intro": "Ystad, on Skåne's south coast, is a ferry town: conventional ro-pax ships cross the Baltic to Świnoujście in Poland, while high-speed catamarans run to Rønne on Bornholm. The harbour runs to timetables, and so does any inspection here, which has to fit night lay-overs, quieter days in the schedule and the annual maintenance period. Atlantis keeps no staff in Ystad; technicians travel from India to each ferry, and the agent and the ship's officers arrange their access to the vehicle decks, tanks and machinery spaces.",
+  "keywords": [
+    "ystad ferry inspection",
+    "utm ystad",
+    "ro-pax thickness measurement",
+    "high-speed craft hull inspection",
+    "aluminium catamaran thickness gauging",
+    "vehicle deck gauging ystad",
+    "bow door crack detection",
+    "ferry ultrasonic thickness measurement sweden",
+    "bornholm ferry inspection",
+    "swinoujscie ferry gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Freight-heavy crossings to Świnoujście",
+      "p": "Ro-pax ferries on the Polish routes carry lorries and trailers as much as passengers, and their vehicle decks, ramps and lashing points take heavy wheel loads on every crossing. Gauging and crack detection are planned for time alongside between sailings or kept for the maintenance stop."
+    },
+    {
+      "h": "Aluminium catamarans to Bornholm",
+      "p": "The fast craft to Rønne are aluminium catamarans, so the thickness gauge is set up for aluminium and crack detection is done with dye penetrant, because magnetic particle testing does not work on non-magnetic metal. Hull, wet-deck and frame welds are the usual focus."
+    },
+    {
+      "h": "Summer peak, winter maintenance",
+      "p": "Bornholm traffic swells in summer, when every sailing counts, and thins out in winter. Operators generally schedule maintenance for the quieter months, and that is when a fuller programme of gauging on vehicle decks, tanks and hull structure is easiest to arrange."
+    }
+  ],
+  "port": {
+    "h": "Ystad harbour and its ferry routes across the southern Baltic",
+    "p": [
+      "Ystad lies on the southern coast of Skåne, looking out over the open Baltic towards Bornholm and, further away, the Polish coast. The harbour is built out from a straight shoreline behind breakwaters rather than tucked into a fjord or archipelago, so ships come in directly from the sea and the berths are exposed to strong southerly and easterly weather in a way that the island-sheltered ports further east are not. Ferry berths dominate the harbour, with linkspans for loading vehicles over the bow or stern, and the port has been enlarged in recent years so that longer ferries can be handled. The old town behind the harbour, with its half-timbered streets, draws tourists, and in summer the trains from Copenhagen fill with passengers connecting to the Bornholm ferries.",
+      "Two very different kinds of ferry service share the port. Polish operators run conventional ro-pax ships to Świnoujście, carrying freight lorries, trailers, cars and passengers on crossings that suit the overnight and daytime rhythm of road haulage between Scandinavia and central Europe. The Bornholm service, operated under contract to the Danish state, uses fast aluminium catamarans that cross to Rønne in a little over an hour, making Ystad Bornholm's main gateway to the Swedish and Danish mainland. Alongside these, the harbour sees occasional cargo and service vessels, but the ferries set the pattern of the port's day. The Polish ships are managed by their operators' technical departments in Poland, and the Bornholm craft from Denmark, so technical decisions about them are taken far from Ystad, and the superintendents rely on what is reported to them from each call. That is why clear, timely readings from a short stay matter so much here.",
+      "Ice is rarely a factor on this open coast, though winter storms can disrupt fast-craft sailings, which have tighter weather limits than conventional ferries. Inspection demand comes from both fleets, and the needs differ. The steel ro-pax ships have the wear and corrosion typical of vehicle ferries: decks, ramps, bow and stern doors, drainage gutters and the ballast and machinery spaces below. The aluminium catamarans need their hull plating, wet deck and welded frames checked for cracking as well as thinning, because aluminium craft running at speed in a short Baltic sea take repeated slamming loads. In both cases the operator usually wants inspection planned well ahead and fitted around a timetable that cannot easily change, with the results ready before the docking specification goes out."
+    ]
+  },
+  "facilities": {
+    "h": "Ferry berths, lay-by time and docking for Ystad ships",
+    "p": [
+      "There is no drydock in Ystad, so in-port gauging takes place alongside at the ferry berths or at a quay where a ship lies between rotations. The Polish ro-pax ships often spend part of each day alongside between crossings, enough for targeted work on vehicle-deck areas, voids and machinery piping when the deck is clear and the crew can release spaces. The fast craft are turned round quickly in service, so meaningful work on them is usually done during scheduled maintenance periods, when the operator can take a craft out of the timetable for days rather than hours.",
+      "Full structural surveys belong at the docking. The Polish ferries commonly dock at yards in Poland, and the Bornholm catamarans go to yards able to handle aluminium high-speed craft. We work for the operator wherever the ship is, so the in-port readings from Ystad and the docking programme can be planned as one job, with the team either completing the scope in Ystad or travelling on to the yard."
+    ],
+    "list": [
+      "Świnoujście ferry berths — vehicle-deck plating, ramp, bow and stern door structure and machinery piping gauged while the ship lies between crossings.",
+      "Bornholm fast-craft berth — aluminium hull and wet-deck thickness readings with dye penetrant crack checks during maintenance periods.",
+      "Quays used for lay-overs — longer jobs on ferries out of service between rotations or awaiting a new charter.",
+      "Vehicle decks during quiet sailing days — drainage gutters, lashing points and deck stiffeners measured when decks can be closed off.",
+      "The operator's docking yard — the team travels to complete renewal-survey gauging begun in Ystad."
+    ]
+  },
+  "context": {
+    "h": "Ferry regulation, high-speed craft rules and port state control",
+    "p": [
+      "Port state control in Ystad is carried out by the Swedish Transport Agency under the Paris MoU, but for the ferries the more significant regime is the EU system of inspections for ro-pax ships and high-speed passenger craft in regular service between member states, set out in Directive (EU) 2017/2110. It requires an inspection before a ship or craft starts on a route and regular inspections after that, including during a crossing, with structural condition, vehicle-deck integrity and watertight and weathertight doors under scrutiny. The ferries on these routes fly Polish, Danish or other flags, so their flag administrations add their own surveys, and their class societies survey them on the usual cycle.",
+      "The catamarans are built and surveyed under the IMO High-Speed Craft Code rather than the conventional rules for steel ships, which shifts the inspection emphasis towards fatigue cracking in aluminium structure as much as general wastage. Steel ferries on these short crossings, meanwhile, rack up load cycles quickly, and winter road salt carried onto vehicle decks speeds corrosion. Ships calling at EU ports carry an Inventory of Hazardous Materials under the EU Ship Recycling Regulation, and ferries of 5,000 gross tonnage and above report emissions for the EU ETS and FuelEU Maritime, which is prompting operators to plan newer, more efficient tonnage and to look closely at how much life their current ships have left."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Ystad",
+    "p": "Jobs at Ystad divide between the steel ro-pax ships and the aluminium fast craft. For the ro-pax ships, work usually focuses on vehicle decks, ramps, doors and machinery piping, planned for lay-over time or brought forward before a docking. For the fast craft, the operator generally wants a combination of thickness readings and dye penetrant inspection of welds, done in a maintenance window. In both cases the scope is fixed with the operator's technical department well ahead and coordinated with the ship's officers so the ferry leaves on time. Where a ferry is being considered for sale or charter to another route, a condition survey in Ystad is also a common request. Typical requests:",
+    "list": [
+      "Vehicle-deck plating, drainage gutters and lashing-point areas on a Świnoujście ro-pax ship, where winter salt had caused heavy corrosion.",
+      "Bow door, visor arms and ramp hinge areas measured and crack-tested on a ro-pax ship after a class recommendation.",
+      "Aluminium hull plating and wet-deck readings, with dye penetrant inspection of frame welds, on a Bornholm catamaran in her winter maintenance period.",
+      "Machinery-space sea-water and fuel piping gauged on a ro-pax ship during a lay-over, to fix the renewal list for the docking.",
+      "Pre-docking gauging of ballast tanks and vehicle decks on a ferry that will dock in a Polish yard, so steel quantities are known in advance."
+    ]
+  },
+  "logistics": "Copenhagen Airport is the usual arrival point; direct trains run from Copenhagen across the Øresund Bridge to Ystad, timed to connect with the Bornholm sailings. Malmö Airport at Sturup is nearer by road but has fewer international connections. The ferry terminals are ISPS-controlled, so the agent registers the technicians with the terminal and the operator and arranges passes. The team travels from India on Schengen visas, and because ferry operators plan their maintenance periods well ahead, visas can usually be obtained in good time.",
+  "vessels": [
+    "Ro-pax ferries",
+    "High-speed aluminium catamarans",
+    "Ro-ro freight ferries",
+    "General cargo ships",
+    "Harbour tugs",
+    "Workboats and service vessels"
+  ],
+  "faqs": [
+    {
+      "q": "How do you gauge an aluminium high-speed catamaran?",
+      "a": "With the ultrasonic gauge calibrated for the sound velocity of aluminium on a reference block of the right alloy, because a gauge set for steel would give wrong readings. Hull plating, wet deck and frames are measured, and welds and structural details are checked for cracks with dye penetrant, since magnetic particle testing only works on ferromagnetic steel."
+    },
+    {
+      "q": "Can a Świnoujście ferry be gauged while she is in service from Ystad?",
+      "a": "Partly. When a ferry lies alongside between crossings, vehicle-deck areas that can be closed off, voids and machinery piping are within reach. Ballast tank work needs the tanks emptied, ventilated and certified by the crew, which takes longer than most turnarounds allow, so it is better planned for a lay-over day or the docking."
+    },
+    {
+      "q": "Is there a drydock in Ystad?",
+      "a": "No. Ystad is a ferry harbour without ship-repair docks. The Polish ro-pax ships usually dock in Poland, and the Bornholm catamarans at yards that handle aluminium craft. The team can complete in-port work in Ystad and also travel to the docking yard, so the readings form one programme with the class survey."
+    },
+    {
+      "q": "When is the best time of year to inspect the Bornholm fast craft?",
+      "a": "Winter is usually best, because sailings are fewer and the operator plans maintenance for that period. In summer every crossing is needed for passengers, and the craft are rarely out of service for long enough for a meaningful structural inspection. We plan with the operator's technical department early so that the work fits their maintenance calendar."
+    },
+    {
+      "q": "Why are bow and stern doors given special attention on these ferries?",
+      "a": "They open and close on every call and take wave loads at sea, so their hinges, locking devices and supporting structure are classic fatigue and wear locations. Thickness readings show wastage on door plating and stiffeners, and magnetic particle testing finds cracks in the welds and hinges before they become a safety concern."
+    }
+  ],
+  "nearby": ["ronne", "malmo", "copenhagen", "sassnitz", "karlshamn"]
+}

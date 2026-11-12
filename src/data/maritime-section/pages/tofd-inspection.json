@@ -1,0 +1,158 @@
+{
+  "slug": "tofd-inspection",
+  "navLabel": "TOFD Inspection",
+  "title": "TOFD Inspection of Ship Welds | Crack and Flaw Height Sizing",
+  "description": "Time-of-flight diffraction (TOFD) for ships: crack and weld flaw height sizing in thick plate, blind zones covered by PAUT, ISO 10863 and ISO 15626.",
+  "h1": "TOFD inspection: sizing the height of weld flaws and cracks in thick ship structure",
+  "eyebrow": "Maritime inspection · Advanced NDT",
+  "intro": "Most NDT methods tell you that a flaw exists and how long it is. Time-of-flight diffraction tells you how tall it is: how far it extends through the plate, measured from the arrival times of signals scattered by its tips rather than from how loudly it echoes. On thick plate and heavy welds, that height decides whether a crack is gouged out, cropped out or left under watch until the next docking. Atlantis NDT carries out encoded TOFD, normally paired with phased array, with teams mobilised from India to the ship.",
+  "highlights": [
+    {
+      "h": "Height from timing, not amplitude",
+      "p": "A flaw's top and bottom tips scatter sound that reaches the receiver at different times. Those times convert directly to depths, so height is measured whatever the flaw's orientation or reflectivity, which is where amplitude-based ultrasonic sizing is weakest."
+    },
+    {
+      "h": "Built for thick sections",
+      "p": "TOFD is at its best in thick plate and heavy welds, such as hatch coaming and sheer strake joints on large container ships, crane pedestals and heavy structure on offshore units, where a few millimetres of crack height change the repair."
+    },
+    {
+      "h": "Paired to close its blind zones",
+      "p": "Signals close to the scanning surface and the far wall are hard to separate in TOFD, so we scan the same encoded line with phased array or pulse-echo UT and report the two together, with the coverage of each zone stated."
+    }
+  ],
+  "sections": [
+    {
+      "id": "principle",
+      "h": "How time-of-flight diffraction works",
+      "p": [
+        "TOFD uses two angled compression-wave probes facing each other across the weld, one transmitting and one receiving, held at a fixed separation by a scanner. A broad beam fills the weld volume. In a sound joint the receiver picks up two main signals: the lateral wave, which travels just below the scanning surface straight from one probe to the other, and the back-wall echo from the far surface. Both are always present and act as the reference lines of the examination.",
+        "When the beam meets a crack or a planar weld flaw, its upper and lower tips scatter, or diffract, a weak signal in all directions. Those diffracted signals arrive at the receiver between the lateral wave and the back-wall echo, the upper tip first and the lower tip later, and with opposite phase, which helps the analyst tell them apart. Because the probe separation and the sound velocity are known, each arrival time converts to a depth below the surface, and the difference between the two depths is the flaw's height. No reliance is placed on the size of the echo, which varies with a crack's roughness, tilt and closure.",
+        "The probes ride on the parent plate either side of the weld, so a standing weld cap does not get in the way, and the beam angle and probe separation are chosen so that the beams cross at the depth of interest. In thick sections the thickness is divided into depth zones, each covered by its own probe pair."
+      ]
+    },
+    {
+      "id": "reading-the-image",
+      "h": "Reading a TOFD scan",
+      "p": [
+        "With the scanner encoded, the stacked signals form a grey-scale image along the weld. The lateral wave and back-wall echo appear as two continuous bands; a buried planar flaw shows as a pair of lines between them, from its two tips; small point flaws such as isolated pores show as short arcs. A crack breaking the scanning surface interrupts the lateral wave above it, and a root crack breaking the far surface disturbs the back-wall band, so the image also shows whether a flaw reaches either surface.",
+        "The usual detection scan runs along the weld with the probes either side, which gives each flaw's position along the joint, its length and its depth, but leaves some uncertainty about where across the weld it lies. Where that matters, for instance to tell whether a flaw sits on a fusion face or in the weld centre, a second scan is made across the weld at the flaw position, or offset scans are run, and the phased array data from the same line is used to place it."
+      ]
+    },
+    {
+      "id": "blind-zones",
+      "h": "Blind zones, and why TOFD is paired with PAUT",
+      "p": [
+        "TOFD has two zones where flaws can hide. The lateral wave has a finite duration, so a flaw just below the scanning surface can be masked by it. Close to the far wall, the geometry of the beams and the back-wall echo make shallow root flaws hard to separate. The depth of both zones depends on frequency, probe separation and plate thickness, and the scan plan states it for each joint.",
+        "For that reason TOFD is rarely used alone on a ship. The table shows how each part of the thickness is covered when TOFD and phased array are run on the same encoded line, which is how weld standards and class guidance generally expect TOFD's blind zones to be dealt with."
+      ],
+      "table": {
+        "head": ["Zone", "Why TOFD struggles there", "How it is covered"],
+        "rows": [
+          ["Just below the scanning surface", "Flaw signals merge with the lateral wave", "Phased array or pulse-echo UT from the same surface; surface-breaking toe cracks also by MPI or ACFM"],
+          ["Mid-wall", "No difficulty: TOFD's strongest zone", "TOFD for detection and height; phased array to characterise the flaw"],
+          ["Close to the far wall and root", "Signals crowd against the back-wall echo", "Offset TOFD scans, phased array aimed at the root, or examination from the other surface where accessible"],
+          ["Transverse to the weld", "TOFD set up along the weld is poorly suited to cracks running across it", "A dedicated scan direction with phased array or angled probes where transverse cracking is possible"]
+        ]
+      }
+    },
+    {
+      "id": "ship-applications",
+      "h": "Where TOFD is used on ships and offshore units",
+      "p": [
+        "TOFD pays its way where plate is thick, flaws are planar and their height matters. On the largest container ships, upper flange structure is built from plate over 50 mm thick, and IACS UR S33 requires ultrasonic testing of the block-to-block butt joints of those members during construction and periodic NDT of target joints in service. TOFD combined with phased array suits those periodic examinations because it gives height as well as length, recorded so the next examination can be compared with it.",
+        "On offshore units and heavy-lift ships, thick welds at crane pedestals, crane foundations and heavily loaded structural connections are examined the same way, as are heavy repair welds at stern frames and rudder horns. In thinner shell and deck plating the lateral wave and back-wall echo sit close together and phased array alone usually serves better; we say so at the planning stage rather than proposing TOFD where it adds little."
+      ],
+      "list": [
+        "Hatch coaming, sheer strake and upper deck block joints in thick plate on large container ships",
+        "Crane pedestal and crane foundation welds on bulk carriers, heavy-lift ships and offshore units",
+        "Heavy structural connections and thick repair welds on FPSOs and other offshore units",
+        "Stern frame, rudder horn and other thick repair welds made at docking",
+        "Known cracks being sized before a repair is specified, or monitored until one is carried out"
+      ]
+    },
+    {
+      "id": "sizing-for-repairs",
+      "h": "Crack height and the repair decision",
+      "p": [
+        "Once a crack has been found at a weld toe or in a thick butt joint, the repair depends on how deep it runs. A shallow toe crack can often be ground out and blended; a deeper one is gouged and rewelded to a repair procedure; one that has run through most of the thickness may justify cropping and renewing the plate or insert. Without a measured height, the yard gouges until the crack disappears, which can turn a short job into a long one and leaves the owner without a basis for planning.",
+        "TOFD gives the yard and the surveyor the depth of the deepest point and the profile of the crack along its length before any metal is removed, so the repair method, the gouge depth and the welding procedure can be agreed in advance. Where the owner's engineers or the classification society want to assess whether a flaw can remain in service for a period, for example by an engineering critical assessment to BS 7910, the measured height is the main input; that assessment and any acceptance belong to them, and we supply the measurement."
+      ]
+    },
+    {
+      "id": "monitoring",
+      "h": "Monitoring a known flaw between surveys",
+      "p": [
+        "Sometimes a crack or weld flaw is found where repair is not practical straight away, perhaps because the ship is in service and the repair needs a drydock, and the society records it with a condition to be dealt with at a later date. In those cases owners often want evidence that the flaw is not growing in the meantime.",
+        "TOFD is well suited to that watch. The scan is referenced to permanent datum marks, the probe pair, separation, frequency and scanner are recorded in a setup file, and each repeat scan uses the same setup, so that changes in the tip positions between scans reflect the flaw rather than the method. The report for each visit sets the new measurements beside the previous ones, giving the superintendent and the surveyor a measured trend."
+      ]
+    },
+    {
+      "id": "setup-and-calibration",
+      "h": "Probe set-up, calibration and surface condition",
+      "p": [
+        "Probe frequency, beam angle and separation are chosen for the plate thickness and the zone each pair must cover, then checked on a reference block of the same thickness range with reflectors at known depths, so that depth readings are verified before scanning starts. ISO 10863 sets out the technique and its testing levels for welds, and the scan plan records every parameter so the examination can be repeated.",
+        "The scanning surface either side of the weld needs to be smooth and free of spatter, scale and loose paint so that both probes couple evenly over the full scan length; water is the usual couplant. The scanner needs a clear path along the joint, which on hatch coamings and pedestals means arranging staging and removing temporary fittings in the way. On hot surfaces, high-temperature wedges and couplant are used, and the velocity allowance recorded."
+      ]
+    },
+    {
+      "id": "acceptance-and-class",
+      "h": "Acceptance criteria, class acceptance and who does the work",
+      "p": [
+        "ISO 15626 gives acceptance levels for TOFD indications in welds; where a contract follows ASME, Section V Article 4 covers the technique and the construction code sets the acceptance criteria. For work under class survey the society's rules decide, and rules built on IACS UR W34 expect TOFD to be qualified for the joint, to a procedure approved by a Level III and reviewed by the surveyor. We prepare and submit that procedure before the team travels. If your class rules or the yard specification require NDT operators to hold a particular certification scheme, tell us at enquiry, so we can confirm before booking whether our team meets it.",
+        "TOFD and phased array work is planned and supervised by Atlantis's founder, the Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and brings more than eleven years of international field experience. Technicians are certified under the company's written practice to ASNT SNT-TC-1A, the company holds ISO 9001 and ISO 14001 certification, and each team travels from India to the vessel for the job."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 10863 – Ultrasonic testing of welds: use of time-of-flight diffraction technique (TOFD)",
+    "ISO 15626 – Time-of-flight diffraction technique (TOFD): acceptance levels",
+    "ISO 16828 – Time-of-flight diffraction as a method for detection and sizing of discontinuities",
+    "IACS UR W34 – Advanced non-destructive testing of materials and welds",
+    "IACS UR S33 – Requirements for use of extremely thick steel plates in container ships",
+    "ASTM E2373 – Practice for use of the ultrasonic time of flight diffraction (TOFD) technique",
+    "ASME BPVC Section V, Article 4, where the contract specifies ASME",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Scan plan with probe pairs, separations, depth zones and blind-zone coverage",
+    "Indication table with position along the weld, depth of upper and lower tips, height and length",
+    "Grey-scale TOFD images and the matching phased array images for each indication",
+    "Encoded data and setup files for repeat scans and re-analysis",
+    "Comparison with previous scans where a known flaw is being monitored",
+    "Calibration records and operator certificates, with the Level III review"
+  ],
+  "industries": [
+    "Large container ships",
+    "Offshore units and FPSOs",
+    "Heavy-lift and project cargo ships",
+    "Bulk carriers with deck cranes",
+    "Ship-repair yards planning crack repairs",
+    "Owners' technical departments and ship managers"
+  ],
+  "faqs": [
+    {
+      "q": "What does TOFD measure that ordinary ultrasonic testing does not?",
+      "a": "The through-wall height of a flaw, measured from the arrival times of signals diffracted at its upper and lower tips. Conventional pulse-echo testing estimates size from echo amplitude or by moving the probe until the signal drops, and both are affected by the flaw's orientation, roughness and closure. TOFD's timing-based measurement is far less sensitive to those effects, which is why it is the usual choice when the depth of a crack drives the repair."
+    },
+    {
+      "q": "Why do you combine TOFD with phased array?",
+      "a": "Because each covers the other's weak spots. TOFD has blind zones just under the scanning surface and close to the far wall, and it is poorly suited to cracks running across the weld. Phased array covers those zones and characterises what TOFD detects, while TOFD gives the most reliable height. Run on the same encoded line, the two give full coverage of the weld and a stored record of both."
+    },
+    {
+      "q": "Is TOFD suitable for thin ship plating?",
+      "a": "Generally it adds less there. In thin plate the lateral wave and the back-wall echo sit close together, so the space in which flaw signals can be separated is small and the blind zones take up a larger share of the thickness. For typical shell and deck plating, phased array or conventional shear-wave UT is usually the better choice. TOFD earns its place in thick plate and heavy welds."
+    },
+    {
+      "q": "Can TOFD tell us whether a crack can stay until the next docking?",
+      "a": "TOFD supplies the measurement, not the decision. It gives the crack's height and length and, with repeat scans, whether it is growing. Whether it may remain in service is for the classification society and, where an engineering critical assessment is made, the owner's engineers. Measured, repeatable data makes that decision easier to reach and easier to review later."
+    },
+    {
+      "q": "Does the weld cap need to be ground flush for TOFD?",
+      "a": "Usually not. The two probes sit on the parent plate either side of the weld, so a standing cap does not obstruct them. What matters is the condition of the plate surface along both scan paths, which must be free of spatter, scale and loose paint for even coupling. If phased array is run alongside, the cap profile may affect how well the upper part of the weld is covered from each side."
+    },
+    {
+      "q": "How long does a TOFD examination take on board?",
+      "a": "Scanning itself is quick once the set-up is verified; most of the time goes on access, surface preparation and calibration, and on data review. The overall duration depends on the number and length of joints, the staging and the ship's programme, so we give an estimate once we have the drawings and the scope. Mobilisation dates depend on visas for a team travelling from India and on the vessel's schedule."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "trabzon",
+  "name": "Trabzon",
+  "country": "Turkey",
+  "region": "europe",
+  "title": "Trabzon Ship Gauging | UTM for Transit and Coastal Cargo",
+  "description": "Thickness gauging in Trabzon for general cargo ships, feeders and coasters on the eastern Black Sea: UTM of hatch covers, holds, tanks and deck structure.",
+  "h1": "Trabzon Ultrasonic Thickness Measurement for the Eastern Black Sea Trade",
+  "intro": "Trabzon is the eastern Black Sea's busiest Turkish port, a transit gateway for cargo bound for the Caucasus, Iran and Central Asia as well as a general cargo port for its own hinterland. Ships here are mostly coasters, multipurpose vessels and container feeders. We send technicians from India to the ship, and gauging is planned around berth stays and the calm spells between the eastern coast's frequent rain and swell.",
+  "keywords": [
+    "trabzon ship thickness gauging",
+    "trabzon utm",
+    "thickness measurement in trabzon",
+    "ship inspection in trabzon",
+    "trabzon port",
+    "eastern black sea ship inspection",
+    "transit cargo ship gauging",
+    "container feeder thickness measurement",
+    "trabzon anchorage",
+    "coaster hull gauging"
+  ],
+  "highlights": [
+    {
+      "h": "Transit trade, many small ships",
+      "p": "Cargo for Georgia, Armenia, Azerbaijan and beyond passes through Trabzon on coasters and feeders. The fleet is mostly small and middle-aged, and its owners value a clear steel picture before each docking."
+    },
+    {
+      "h": "Container and general cargo calls",
+      "p": "Container feeders give shorter, scheduled windows and general cargo ships give longer ones. We match the scope to the stay, concentrating on tanks, hatch covers and deck structure."
+    },
+    {
+      "h": "A coast with its own boatyards",
+      "p": "Small yards along this coast build and repair fishing boats, tugs and workboats, so smaller craft sometimes need thickness checks as well as the merchant ships that use the commercial port."
+    }
+  ],
+  "port": {
+    "h": "Trabzon: eastern gateway on the Turkish Black Sea",
+    "p": [
+      "Trabzon sits on the south-eastern shore of the Black Sea, with steep wooded mountains close behind the coastline and a mild, wet climate that brings rain and swell for much of the year. Its commercial port is the largest on the eastern coast of Turkey and handles general cargo, containers, bulk and some ro-ro traffic. The location, closer to Georgia and the Caucasus than any other major Turkish port, gives it a role in transit trade, with cargo moving by road onward to neighbouring countries and Central Asian markets.",
+      "Ship traffic is dominated by smaller tonnage. Coasters and short-sea multipurpose ships carry general cargo, steel, building materials, timber and agricultural goods, container feeders link Trabzon with larger hubs on the Black Sea and the Marmara, and occasional bulk carriers and tankers call for specific cargoes. Many vessels are operated by Turkish and Black Sea owners who keep ships in service for decades. As a result, structural wear in hatch covers, coamings, deck plating and ballast tanks is common, and owners value targeted gauging as a way of spending steel renewal budgets where they matter most.",
+      "The port also supports fishing fleets, harbour craft, passenger vessels and small coastal ships, and shipbuilding and repair on the surrounding coast serve this smaller end of the market. Ocean-going repair is limited here, so ships that need a renewal survey generally go west to the Marmara yards, which makes early readings at Trabzon useful for planning. Weather is a constant factor: rain and swell can stop work at the anchorage, and winter storms can close the port to ships for a day or more, so the plan must keep room for delays."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens at Trabzon",
+    "p": [
+      "At the commercial port, ships are gauged alongside during cargo stays. General cargo ships give access to holds as they are emptied, hatch covers can be measured on the deck, and ballast tanks that the crew have emptied and ventilated can be entered once the master issues the permit. Container feeders stay for a shorter time, so we concentrate on a defined list: a few tanks, the ballast and fire main piping, or deck areas near the hatch corners. Terminal security and access passes are arranged through the ship's agent.",
+      "Ships at anchor are reached by launch, with the usual dependence on sea state. Work is ordered so that the most valuable items are measured first, and any remainder is carried over to the next call or to a yard. For smaller craft built or repaired at boatyards along the coast, gauging can be done on a slip or at a repair quay, where hull plating is accessible from below and the structure can be measured with the vessel out of the water. Larger merchant ships usually dock elsewhere, and their readings from Trabzon support the steel estimate."
+    ],
+    "list": [
+      "Trabzon port general cargo berths — hold, hatch cover and coaming gauging on coasters and multipurpose ships during cargo work",
+      "Container terminal berths — short-window tank, piping and deck gauging on feeder ships between rotations",
+      "Anchorage off the port — deck and ballast tank readings on ships waiting for berths or weather, by launch through the agent",
+      "Small-yard slipways along the coast — hull plating checks on fishing vessels, tugs and workboats hauled out for repair",
+      "Pre-docking readings for a yard in the Marmara — an organised steel scope delivered to the superintendent before the voyage west"
+    ]
+  },
+  "context": {
+    "h": "Port state control and transit trade on the eastern Black Sea",
+    "p": [
+      "Turkey participates in both the Black Sea MoU and the Mediterranean MoU on port state control, and ship safety and ports are administered by the Ministry of Transport and Infrastructure through its harbour masters. Small general cargo ships and coasters are inspected often, and structural findings such as wasted hatch covers, corroded coamings and holed ventilators are among the commonest. A deficiency found at Trabzon is typically a prompt for an owner to commission gauging of the nearby steel before the next inspection.",
+      "Trade through Trabzon depends on the border crossings and political conditions of the wider Caucasus and Central Asian region, so volumes and schedules can change quickly. The Black Sea lies outside the emission control areas, so ships here follow the global fuel limit, with the Mediterranean ECA only entering the picture for vessels heading west through the Marmara. Ships that go on to EU ports need a valid Inventory of Hazardous Materials and report under EU ETS, but those rules mainly affect paperwork and docking decisions rather than the gauging method."
+    ]
+  },
+  "eca": "none",
+  "psc": "Black Sea MoU and Mediterranean MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs in Trabzon",
+    "p": "Jobs at Trabzon are mostly small and targeted. A coaster with a day or two alongside gives time for holds and hatch covers, a container feeder gives a short window for tanks and piping, and a ship waiting at anchor gives a chance for deck and ballast work. Owners are normally preparing for a special survey or a sale, and want readings organised for the yard.",
+    "list": [
+      "Hatch cover, coaming and hold frame gauging on a multipurpose coaster discharging general cargo at the port, ahead of its renewal survey.",
+      "Ballast tank and ballast piping checks on a container feeder during a short rotation call, with results sent to the superintendent before departure.",
+      "Deck and hatch-corner gauging on a general cargo ship at anchor, after a port state control report noted corrosion on the coamings.",
+      "Pre-purchase condition gauging on an older coaster, with the buyer's adviser attending and readings reported before the sale closed.",
+      "Hull plating checks on a tug hauled out on a slipway at a small yard, to decide which plates to renew during the repair."
+    ]
+  },
+  "logistics": "Trabzon has its own airport with domestic connections, and the team usually travels via Istanbul, though Ankara is another connecting point. From the airport the port is a short road journey. The agent arranges terminal passes, safety briefings and launches for the anchorage, with crew lists and certificates sent ahead. Indian passport holders need a Turkish visa, so we begin the application once a call is likely and keep the validity wide enough to cover weather holds and changes to the ship's schedule.",
+  "vessels": [
+    "Coasters and short-sea general cargo ships",
+    "Multipurpose ships",
+    "Container feeder ships",
+    "Small bulk carriers",
+    "Ro-ro and ferry vessels",
+    "Small product tankers",
+    "Fishing vessels",
+    "Tugs and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can a coaster be gauged during a short stay at Trabzon?",
+      "a": "Yes. A coaster alongside for a day or two can usually take a focused programme: hatch covers and coamings from the deck, holds once emptied and swept, and ballast tanks the crew have prepared. We agree the list with the superintendent in advance, measure the key areas first and report each area as it is completed."
+    },
+    {
+      "q": "Does Trabzon have a drydock for a renewal survey?",
+      "a": "Not for ocean-going merchant ships. Small yards along the coast serve fishing boats, tugs and workboats, but a coaster or feeder needing a renewal survey normally goes west to the Marmara. Readings taken in Trabzon give the owner a steel scope for the yard before the ship sails."
+    },
+    {
+      "q": "Can small vessels on a slipway be gauged?",
+      "a": "Yes. A vessel hauled out has its hull plating accessible from below, which makes shell and bottom measurement straightforward. We mark plates that fall below the owner's or class's criteria so the yard can plan renewals, and report the readings by plate for the owner's records."
+    },
+    {
+      "q": "How does wet weather affect gauging on this coast?",
+      "a": "Rain slows deck work and swell can stop launches at the anchorage. Interior work in holds and tanks is less affected. We keep a priority list and shift to interior spaces when the deck is unworkable. If the ship has to leave early, we report the readings already taken and note what remains."
+    }
+  ],
+  "nearby": [
+    "samsun",
+    "zonguldak",
+    "eregli",
+    "istanbul",
+    "constanta"
+  ]
+}

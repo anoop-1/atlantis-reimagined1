@@ -1,0 +1,119 @@
+{
+  "slug": "spain",
+  "navLabel": "Spain",
+  "title": "Ship Thickness Measurement in Spain | UTM at Spanish Ports",
+  "description": "Ultrasonic thickness measurement for ships in Spain: hull, tank and piping gauging at Algeciras, Valencia, Barcelona, Bilbao, Las Palmas, Vigo and more.",
+  "h1": "Ultrasonic Thickness Measurement for Ships in Spain",
+  "eyebrow": "Maritime inspection · Spain",
+  "intro": "Spain has the longest and most varied port system in southern Europe, with an Atlantic and Cantabrian coast, a Mediterranean coast, the Strait of Gibraltar and two island groups. Ships are gauged where they stop: bunkering and repair at Algeciras and Cádiz, container and cruise turnarounds at Valencia and Barcelona, refinery and chemical berths at Tarragona, Cartagena and Huelva, the Galician yards at Vigo and Ferrol, and mid-Atlantic calls at Las Palmas and Santa Cruz de Tenerife. Atlantis NDT mobilises its team from India to the vessel for each job and plans ultrasonic thickness measurement around the ship's schedule.",
+  "highlights": [
+    {
+      "h": "Three coasts, three sets of conditions",
+      "p": "The Mediterranean ports now sit in an emission control area, the Cantabrian and Galician ports face Atlantic weather, and the Canary Islands are Atlantic transit calls. Scope and planning change with the coast, not just with the port."
+    },
+    {
+      "h": "Strait traffic and repair demand",
+      "p": "Algeciras and Cádiz serve the busiest bunkering and ship repair corner of the Mediterranean approaches. Ships arrive to refuel or dock, which makes a short pre-docking gauging slot a normal part of the stay."
+    },
+    {
+      "h": "Scrubber piping on Mediterranean callers",
+      "p": "With sulphur limits tightened across the Mediterranean, ships calling at Valencia, Barcelona and Tarragona increasingly lean on exhaust gas cleaning. Wall loss in wash-water and overboard lines is a repeat finding worth gauging before it fails."
+    }
+  ],
+  "sections": [
+    {
+      "id": "es-ports",
+      "h": "Where ships are gauged in Spain",
+      "p": [
+        "On the Strait of Gibraltar, Algeciras is Spain's largest port and a hub for container transhipment, bunkering and tanker traffic, and Cádiz Bay has a long ship repair tradition with Navantia's yard alongside commercial repair work. Ceuta, the Spanish port on the African shore of the Strait, handles ferries, bunkering and cargo ships that need to stop at the western end of the Mediterranean.",
+        "Along the Mediterranean, Barcelona, Tarragona and Valencia form the main commercial chain, with Castellón, Alicante, Almería, Málaga and Cartagena adding smaller cargo, cruise and refinery berths. Tarragona and Cartagena carry the refinery and chemical traffic that produces the most tank gauging work, while Barcelona and Palma, in the Balearic Islands, see heavy cruise and ferry turnover.",
+        "Facing the Atlantic and the Bay of Biscay, Bilbao and Pasaia serve the Basque coast, Santander, Gijón and Avilés take bulk and steel cargo along the Cantabrian shore, and Ferrol, A Coruña, Vigo and Marín cover Galicia, where repair yards and the fishing and offshore industries keep ships on the move. Huelva and Seville serve the Gulf of Cádiz, with Seville reached up the Guadalquivir. Las Palmas and Santa Cruz de Tenerife in the Canary Islands handle Atlantic crossings, bunkering and offshore support."
+      ]
+    },
+    {
+      "id": "es-traffic",
+      "h": "The fleets and trades behind the work",
+      "p": [
+        "Spain trades with everyone, so ship types and ages vary. Product and chemical tankers call at Tarragona, Cartagena, Huelva and Bilbao, bulk carriers carrying grain, coal, steel and minerals call along the north coast and the Gulf of Cádiz, and container ships dominate Valencia, Barcelona and Algeciras. Ro-ro ships and ferries run to the Balearics, North Africa and the Canaries, and cruise ships make Barcelona, Palma, Málaga and Santa Cruz regular stops.",
+        "For a ship manager this means a good deal of choice: a ship can often be gauged at the port where it is already due, rather than rerouted for a survey. The scope is then fitted to the stay, whether it is a berth alongside for a day, an anchorage wait or a dry dock."
+      ]
+    },
+    {
+      "id": "es-regime",
+      "h": "Port state control and the rules that apply",
+      "p": [
+        "Spain is a Paris MoU state, and port state control is administered by the Dirección General de la Marina Mercante through the Capitanías Marítimas at each port. Inspectors look hard at ships with visible hull wastage, so current thickness readings and a documented renewal plan are the best answer to questions at the gangway.",
+        "Emission control status depends on the coast. The Mediterranean emission control area, including Spain's Mediterranean and Balearic waters, tightens the sulphur limit under MARPOL Annex VI, regulation 14, and drives scrubber use on ships trading there. The Atlantic and Cantabrian coasts, and the Canary Islands, are outside it. As an EU state, Spain also applies the EU Ship Recycling Regulation, which matters to owners deciding whether a ship has another docking in it."
+      ]
+    },
+    {
+      "id": "es-seasonal",
+      "h": "Seasonal and practical constraints",
+      "p": [
+        "The Bay of Biscay and the Galician coast bring heavy winter swell, which can delay pilot boarding and anchorage work at Bilbao, Pasaia, Ferrol, A Coruña and Vigo. Strong easterly levante winds can disturb the Strait, and ships at Algeciras or Ceuta sometimes wait for weather before berthing or sailing.",
+        "Mediterranean summers are busy. Cruise and ferry operators run tight turnarounds at Barcelona, Palma and Málaga, so gauging aboard a passenger ship is limited to the spaces and hours that the ship's management agrees. Tankers and bulk carriers at Tarragona, Cartagena and Huelva are easier to plan once they have discharged and cleaned tanks."
+      ]
+    },
+    {
+      "id": "es-planning",
+      "h": "Planning a Spanish gauging job from India",
+      "p": [
+        "The team travels from India for each job. Spain is a Schengen state, so Schengen visas are needed, and their timing depends on the consulate. Work at Spanish ports goes through the ship's agent, who arranges the gangway, port security passes and, for tank entry, permits. We ask early for the thickness measurement plan, the last survey report and the ship's confirmed berth or anchorage, then plan the mobilisation around the firm schedule.",
+        "Where a ship has several Spanish stops on its itinerary, we can plan the job at the call that gives the longest safe window, and not necessarily the first. Readings, photographs and a steel renewal estimate are reported after the job, with preliminary readings shared during it on request."
+      ]
+    },
+    {
+      "id": "es-services",
+      "h": "Which services Spanish calls ask for",
+      "p": [
+        "Pre-docking hull and tank gauging is the most common request, particularly at Algeciras, Cádiz, Vigo and Ferrol where docking is close. Tank gauging on tankers and bulk carriers follows cleaning and gas-freeing. Scrubber and ship piping inspection is steadily rising on the Mediterranean coast. Pre-purchase and on-hire condition gauging is common at ports where ships change hands, and corrosion mapping on a few suspect plates can follow a first round of readings."
+      ]
+    }
+  ],
+  "codes": [
+    "Paris Memorandum of Understanding on Port State Control",
+    "IACS UR Z10 series: hull surveys and thickness measurement requirements",
+    "MARPOL Annex VI, regulation 14: Mediterranean emission control area sulphur limit",
+    "EU Ship Recycling Regulation (Regulation (EU) No 1257/2013)",
+    "IMO 2021 Guidelines for exhaust gas cleaning systems"
+  ],
+  "deliverables": [
+    "Thickness measurement report located by frame and strake, with as-built, measured and diminution values",
+    "Steel renewal estimate marking plates for renewal ahead of a docking",
+    "Tank condition summary for cargo and ballast tanks after gas-freeing",
+    "Scrubber and piping condition report: minimum wall by spool and joint",
+    "Preliminary readings and photographs shared during the job on request"
+  ],
+  "industries": [
+    "Crude, product and chemical tankers",
+    "Bulk carriers",
+    "Container ships",
+    "Ro-ro ships and ferries",
+    "Cruise ships",
+    "Offshore and fishing support vessels",
+    "Ship managers and technical superintendents",
+    "Repair yards and buyers' surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "Which Spanish ports do you cover?",
+      "a": "All the ports with pages in this section, from Algeciras, Valencia and Barcelona to Bilbao, Vigo and Ferrol on the Atlantic side, the Balearic and Canary Islands, and Ceuta. Each page describes the ships, yards and berths we see there, so the best choice is usually the port where your ship is already due."
+    },
+    {
+      "q": "Is Spain inside an emission control area?",
+      "a": "Partly. The Mediterranean coast and the Balearics fall inside the Mediterranean emission control area, which tightens the sulphur limit and encourages scrubber use. The Atlantic and Cantabrian coasts and the Canary Islands do not. We check the wash-water piping of any scrubber ship, whichever coast it calls at."
+    },
+    {
+      "q": "Can you gauge a ship at Algeciras while it bunkers?",
+      "a": "Often, for hull sections and tanks reachable from inside the ship, if the operation allows. Bunkering and cargo work set safety limits on tank entry and hot work, so the ship's agent and master confirm what can run at the same time. A separate alongside window is sometimes simpler."
+    },
+    {
+      "q": "Do your technicians need visas for Spain?",
+      "a": "Yes. Spain is a Schengen state, so technicians travelling from India need Schengen visas, and the consulate sets the timeline. We begin as soon as the ship's schedule is firm and plan the mobilisation to follow the confirmed arrival and sailing dates once the visas are in hand."
+    },
+    {
+      "q": "What does a Spanish shipyard expect before docking?",
+      "a": "A steel renewal estimate it can plan its work on. Pre-docking gauging gives the superintendent measured readings at each frame and strake, a marked plan and photographs, so docking days and steel tonnage can be agreed on the evidence rather than on the allowance alone."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /**
- * /maritime-inspection section (2026-11-07): ship thickness measurement and hull/piping inspection for
+ * /maritime section (2026-11-07; moved from /maritime-inspection 2026-11-10): ship thickness measurement and hull/piping inspection for
  * ports in Europe, the Middle East and Egypt, China and Singapore. Same template as the inspection and
  * consulting sections (src/components/ServiceSectionPage.tsx), so the pages carry the site design.
  *
