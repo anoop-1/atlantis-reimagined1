@@ -14,22 +14,26 @@ import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Navigation } from "@/components/Navigation";
 import NotFound from "@/pages/NotFound";
 import list from "@/data/maritime-section/city-list.json";
-import { buildMaritimeSection, recordFor, type CityRow } from "@/data/maritime-section/model.mjs";
+import comboList from "@/data/maritime-section/combo-list.json";
+import { buildMaritimeSection, recordFor, type CityRow, type ComboRow } from "@/data/maritime-section/model.mjs";
 
 const CITY_ROWS = (list as unknown as { cities: CityRow[] }).cities;
 const CITY_FILES = import.meta.glob("../data/maritime-section/cities/*.json", { import: "default" });
 const PAGE_FILES = import.meta.glob("../data/maritime-section/pages/*.json", { import: "default" });
+const COMBO_ROWS = (comboList as unknown as { combos: ComboRow[] }).combos;
+const COMBO_FILES = import.meta.glob("../data/maritime-section/combos/*.json", { import: "default" });
+const DIR = { city: "cities", page: "pages", combo: "combos" } as const;
 
 export default function MaritimeSection() {
   const { pathname } = useLocation();
-  const want = recordFor(pathname, CITY_ROWS);
+  const want = recordFor(pathname, CITY_ROWS, COMBO_ROWS);
   const key = want ? `${want.kind}:${want.slug}` : "";
   const [loaded, setLoaded] = useState<{ key: string; rec: unknown } | null>(null);
 
   useEffect(() => {
     if (!want) return;
-    const file = `../data/maritime-section/${want.kind === "city" ? "cities" : "pages"}/${want.slug}.json`;
-    const load = (want.kind === "city" ? CITY_FILES : PAGE_FILES)[file];
+    const file = `../data/maritime-section/${DIR[want.kind]}/${want.slug}.json`;
+    const load = (want.kind === "city" ? CITY_FILES : want.kind === "combo" ? COMBO_FILES : PAGE_FILES)[file];
     if (!load) return;
     let live = true;
     load().then((rec) => { if (live) setLoaded({ key, rec }); });
@@ -37,7 +41,7 @@ export default function MaritimeSection() {
   }, [key]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const section = useMemo(
-    () => (want && loaded?.key === key ? buildMaritimeSection(CITY_ROWS, { [want.slug]: loaded.rec }) : null),
+    () => (want && loaded?.key === key ? buildMaritimeSection(CITY_ROWS, { [want.slug]: loaded.rec }, COMBO_ROWS) : null),
     [key, loaded], // eslint-disable-line react-hooks/exhaustive-deps
   );
 

@@ -1,0 +1,120 @@
+{
+  "port": "bremerhaven",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Bremerhaven | Car Carriers",
+  "description": "Renewal survey thickness measurement in Bremerhaven for car carriers, ro-ro and container ships: Bredo dry dock gauging and deck readings between cargoes.",
+  "h1": "Renewal and Intermediate Survey Gauging for Vehicle Carriers and Boxships at Bremerhaven",
+  "intro": "Vehicle carriers rarely enter dry dock outside their survey cycle, so the terminal call at Bremerhaven is often the only time their deck steel can be measured between dockings. Special survey thickness measurement here covers renewal and intermediate survey gauging for car carriers, ro-ro ships and container ships, in the floating docks of the Fischereihafen and afloat behind the locks. Each job is carried out by a team mobilised from India to the vessel, planned around the lock schedule, the car terminal's discharge and loading, or the dock slot.",
+  "highlights": [
+    {
+      "h": "Deck steel between dockings",
+      "p": "A car carrier between discharge and loading has empty decks for a few hours. Fixed and hoistable deck plating, stiffeners and ramps can be measured then, building the renewal picture without waiting for the dock."
+    },
+    {
+      "h": "Programmes spread over repeat calls",
+      "p": "Vehicle carriers on liner-style rotations return to Bremerhaven again and again. A renewal gauging scope can be split across successive calls on the same grid, instead of being forced into one short berth."
+    },
+    {
+      "h": "In-dock gauging at Bredo",
+      "p": "Bredo Dry Docks operates floating docks for container ships, ro-ro ships and offshore vessels. In dock, readings follow the thickness measurement plan and the surveyor's close-up list, with renewal plates marked as work proceeds."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-gauging-happens",
+      "h": "Where does special survey gauging happen at Bremerhaven?",
+      "p": [
+        "Bremerhaven offers three working environments, and a renewal programme usually uses more than one. Behind the Kaiserschleuse and Nordschleuse locks, the car terminal and the ro-ro and breakbulk berths give the team clear decks on vehicle carriers and staged-loading windows on ro-ro ships. On the open Weser, container ships at the river quay offer a short liner call, enough for deck, coaming and machinery-space readings. In the Fischereihafen, floating docks take ships for the full survey programme.",
+        "Lay-by berths in the overseas port are quietly useful. Offshore wind and research vessels often lie idle between campaigns, and their crews can open tanks and voids without cargo pressure, which makes them among the easiest ships to gauge thoroughly. The cruise terminal is the opposite: turnaround days are packed, so renewal-type gauging there is limited to narrow, well-defined scopes such as a specific tank or piping run."
+      ],
+      "list": [
+        "Car terminal inside the locks: fixed and hoistable decks, ramps and door structure.",
+        "River container quay: deck, coamings and machinery spaces within the liner call.",
+        "Bredo Dry Docks: in-dock renewal gauging and close-up survey support.",
+        "Overseas port lay-by berths: tank and void programmes on idle offshore vessels."
+      ]
+    },
+    {
+      "id": "vehicle-carrier-renewal",
+      "h": "How is renewal gauging scoped on a car carrier?",
+      "p": [
+        "A vehicle carrier is a tall box of decks, not a ship with large tanks. Its structure is the shell, the fixed car decks and their stiffeners, hoistable decks with their suspension and brackets, ramps, and the side and stern doors. Renewal gauging concentrates on the deck plating and stiffener webs, the ramp plating and hinges, the shell plating at the waterline and in the ballast tank boundaries, and the engine room. Because the decks are heavily loaded by wheeled cargo, wear and corrosion appear where moisture collects at drains, deck edges and ramp joints.",
+        "Access is the limiting factor. Gauging on a loaded deck is impossible, so the team boards once discharge has cleared a level and works upward as decks empty, finishing before loading starts. The plan names the decks in priority order, so if the loading window shortens, the structurally most important levels have been measured first. Ballast tanks, when included, need the usual emptying and gas-free preparation, which the chief officer has to fit around ballast operations during cargo work."
+      ]
+    },
+    {
+      "id": "heavy-cargo-ro-ro-and-boxships",
+      "h": "What differs for ro-ro, heavy-cargo and container ships?",
+      "p": [
+        "Bremerhaven handles high-and-heavy cargo such as construction machinery, agricultural equipment and rolling stock, so ro-ro and vehicle carriers here often carry concentrated loads on decks and ramps. For renewal gauging that means extra readings on tank-top and main-deck plating in the heavy-cargo areas and on stern-ramp structure, because a thin panel under a point load behaves very differently from the same panel under an even load.",
+        "Container ships at the river quay are the other main group. Their renewal scope follows the society's hull survey requirements, with the extent growing at each renewal survey: deck plating and coamings, side shell in the wind-and-water zone, ballast tanks and the double bottom. On scrubber-fitted ships, the wash-water and overboard pipe wall thickness is often added to the programme because the repair decision falls at the same docking."
+      ]
+    },
+    {
+      "id": "survey-timing-at-bremerhaven",
+      "h": "How does renewal timing work for ships that visit Bremerhaven regularly?",
+      "p": [
+        "A renewal survey may be started at the fourth annual survey and carried through the following year, and class credits work done early only if the whole survey is completed within the permitted window. For a vehicle carrier on a regular rotation, that gives a natural plan: take deck readings across several Bremerhaven calls in the year before the docking, then use the dock to finish the bottom, the tanks and anything flagged on the way.",
+        "This approach also gives the superintendent an early view of what will be asked. If decks show wastage in the first calls, the steel quantity is known months before the yard quotes. If they show little, the dock programme can be kept short. The same grid is used each time, so readings from different calls are directly comparable and a corrosion rate can be seen instead of a single snapshot."
+      ]
+    },
+    {
+      "id": "planning-a-bremerhaven-job",
+      "h": "What does planning a Bremerhaven renewal job involve?",
+      "p": [
+        "Send the ship type, the survey due date, the previous thickness report and the rotation, and tell us whether the ship uses the car terminal, the river quay or a dock. The agent confirms which lock or quay the ship will use and registers the technicians for the ISPS-controlled terminals and yards. Germany is in the Schengen area, so the team from India travels on Schengen visas, which we apply for as soon as the call or docking date is firm.",
+        "Bremen Airport has European connections and Hamburg Airport offers wider international routes, and both are linked to Bremerhaven by road and rail. We build the team to match the scope: a short deck programme needs fewer technicians than a full in-dock renewal, and the number is set from the plan, not from habit. After each call we send the readings to the superintendent so that the next call can be adjusted."
+      ]
+    }
+  ],
+  "vessels": [
+    "Vehicle carriers (PCTC and car and truck carriers)",
+    "Container ships at the river quay",
+    "Ro-ro and high-and-heavy ships",
+    "General cargo and project cargo ships",
+    "Offshore wind installation vessels",
+    "Research vessels and fishing vessels",
+    "Cruise ships with narrowly scoped tank work"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter II-1 (structure of ships)",
+    "ASTM E797 (manual pulse-echo ultrasonic thickness measurement)",
+    "ISO 16809 (ultrasonic thickness measurement)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by deck, frame and member on the class format or your own",
+    "Diminution against original thickness and the allowance for each member",
+    "Ramp, door and hoistable-deck bracket readings reported separately",
+    "Plates marked for renewal for the yard specification",
+    "Repeat-call comparison on an identical grid"
+  ],
+  "faqs": [
+    {
+      "q": "Can a car carrier be gauged for renewal survey between cargoes at Bremerhaven?",
+      "a": "Yes, for the parts of the ship that empty decks expose. The team works level by level as discharge clears each deck and finishes before loading starts. Ballast tanks, shell and the engine room can be added where the chief officer can release them, and anything unfinished is carried to the next call or the dock."
+    },
+    {
+      "q": "Is there a dry dock in Bremerhaven for renewal survey gauging?",
+      "a": "Bredo Dry Docks in the Fischereihafen operates floating docks that take container ships, ro-ro ships and offshore vessels. In dock, we gauge to the thickness measurement plan and support the surveyor's close-up survey, marking renewal plates for the yard. Dock availability is agreed between the owner and the yard."
+    },
+    {
+      "q": "How can gauging be spread over several Bremerhaven calls?",
+      "a": "Vehicle carriers and container ships on liner rotations return to Bremerhaven on a known schedule. We take a defined part of the scope on each call using the same grid and reference points, so the readings combine into one dataset. The superintendent sees the findings early and the final dock stay is shorter."
+    },
+    {
+      "q": "What do you measure on ro-ro ships carrying heavy cargo?",
+      "a": "Main-deck and tank-top plating in the heavy-cargo positions, stern-ramp structure and the deck stiffeners beneath concentrated loads, along with shell and tank boundaries. Heavy machinery and rolling stock load panels at points, so these areas get closer readings than an evenly loaded general cargo deck would need."
+    },
+    {
+      "q": "Do hoistable car decks need crack detection as well as thickness readings?",
+      "a": "Often, yes. Hoistable decks hang from brackets and pins that see repeated loading, so we examine brackets and ramp hinges visually and by magnetic particle testing where cleaned, while thickness gauging covers the plating. Those crack records are owner's NDT records and support the class engineer, but they carry no class credit."
+    },
+    {
+      "q": "How do technicians from India reach Bremerhaven for a renewal job?",
+      "a": "They fly to Bremen or Hamburg and continue by road or rail. Germany is in the Schengen area, so they travel on Schengen visas, which we start once the call or docking window is firm. The agent registers them for the terminal or yard gate and confirms which lock or quay the ship will use."
+    }
+  ]
+}

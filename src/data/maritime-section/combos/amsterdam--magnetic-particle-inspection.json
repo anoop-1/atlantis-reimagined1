@@ -1,0 +1,117 @@
+{
+  "port": "amsterdam",
+  "service": "magnetic-particle-inspection",
+  "title": "Magnetic Particle Inspection Amsterdam | Ship Crack Detection",
+  "description": "Magnetic particle inspection in Amsterdam: crack detection on offshore crane pedestals, dredger structure, rudder stocks and hatch corners.",
+  "h1": "Crack Detection by MPI for Offshore Vessels, Dredgers and Cargo Ships on the Canal",
+  "intro": "Offshore support ships, dredgers and workboats work their steel hard, and between contracts they come to the quays at IJmuiden and the floating docks on the canal to be checked. Magnetic particle inspection is the method used to find fatigue cracks at crane pedestals, winch foundations, lifting points, rudder stocks and repair welds. It shows surface-breaking cracks on the spot, with their length, and needs little more than a yoke and a power supply. Our technicians are mobilised from India to the ship and inspect alongside or in the dock, and the results are the owner's own NDT records.",
+  "highlights": [
+    {
+      "h": "Crane pedestals before a new contract",
+      "p": "An offshore vessel's crane, A-frame and winch foundations see cyclic loads in every sea state. Between charters the pedestal welds and surrounding deck plating can be cleaned and examined, so a charterer's condition survey finds a documented clean result."
+    },
+    {
+      "h": "Dredger structure under heavy loading",
+      "p": "Dredgers dig, lift and carry cargo that shock-loads their structure at the gantry, the pump foundations and the hopper edges. In the dock or at the quay these welds are cleaned and magnetised, and cracks are located before they run into the plating."
+    },
+    {
+      "h": "Rudder and steering gear while dry",
+      "p": "When a ship sits on the blocks in the floating dock, the rudder stock, pintles and the steering gear fastenings are exposed. A cracked stock or pintle is far easier to deal with in the dock than after the ship has sailed."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-and-which",
+      "h": "Where can MPI be carried out on ships at Amsterdam and IJmuiden?",
+      "p": [
+        "MPI is done wherever the weld or part can be cleaned to bright metal and reached safely. At Amsterdam that means the quays at IJmuiden and the basins, where offshore and project vessels lie for longer periods, and the floating docks on the canal, where the underwater parts of the ship are exposed. Tank terminals and cargo berths are possible for deck work, but flammable atmospheres restrict magnetising equipment, and a hot-work or electrical permit is normally needed, so the terminal's rules decide.",
+        "Dredgers and workboats using the docks are a common case: the ship is dry, the yard has staging and power, and a crack found in the hopper edge or the suction gantry can go on the repair list while steelwork gangs are on board. Offshore vessels more often lie alongside, with the crew and the superintendent free to remove paint from the weld and arrange the crane to be parked and made safe."
+      ]
+    },
+    {
+      "id": "what-we-examine",
+      "h": "Which parts do we examine on these ships?",
+      "p": [
+        "On offshore support vessels the list starts with the crane pedestal and its deck connection, the A-frame or tower foundations, winch bases, towing equipment fastenings and the welded connections of the deck cargo rails and fastening points. These parts carry fluctuating loads and are exposed to salt spray and wave impact, which is the combination that starts fatigue cracks.",
+        "On dredgers the list shifts to the gantry and its foundations, the pump and pipe supports, the hopper coaming and the connections of the bottom doors or valves where the type has them. On cargo ships the usual candidates are the hatch coaming corners, the toes of brackets in the cargo holds, mooring bitts and fairleads and the foundations of deck machinery.",
+        "For every ship, the shaft line and steering gear are ferromagnetic, forged or cast steel and well suited to MPI: rudder stock tapers and keyways, pintles, tiller or quadrant connections, and bolted flanges. Where a bolt or key is removed during the docking, the thread and the keyway are checked at the same time, because they are the points where a crack is most likely to have started."
+      ],
+      "list": [
+        "Crane pedestal welds and the deck plating immediately around them.",
+        "A-frame, tower and winch foundation welds on offshore support ships.",
+        "Gantry, pump and pipe support welds on dredgers.",
+        "Hatch coaming corners, bracket toes and bitt foundations on cargo ships.",
+        "Rudder stock, pintles, keyways and bolted flange faces in the dock."
+      ]
+    },
+    {
+      "id": "how-it-is-done",
+      "h": "How the inspection is carried out on a ship's steel",
+      "p": [
+        "The surface is first cleaned to bright metal, either by grinding or by needle gun and wire brush, because paint, rust and weld spatter hide cracks and weaken the magnetic field. The yoke is applied across the weld, a field is set up between its legs and magnetic particles, usually dry powder for rough ship surfaces or a wet suspension where finish allows, are dispersed over the area. A crack disturbs the field and the particles gather along it as a clear line.",
+        "The yoke is moved in two directions across each examined length, so cracks in any orientation are caught. Indications are marked with a paint pen, measured with a rule and photographed in place. Where a part is very close to the water, in cold weather or under a canal drizzle, we adapt the technique to the surface condition and protect the suspension from rain; the examination is not carried out on wet or contaminated steel where the result would be unreliable.",
+        "If an indication is found, grinding by the yard can follow under the surveyor's instruction, and the area is then re-examined to confirm that the crack has been removed completely. We record the before and after on the same plan, so the repair history of that weld is documented in one place."
+      ]
+    },
+    {
+      "id": "what-we-record",
+      "h": "What is reported and how it is used",
+      "p": [
+        "Each examined weld or part is listed with its location, the technique used, the surface preparation and the result: no indication, or the length and position of each linear indication. A photograph accompanies every indication. The report is written for the superintendent and the yard's welding supervisor, who need to know what to grind out, what to re-weld and what can wait for the next survey.",
+        "A crack found at a crane pedestal or a rudder stock often changes the programme of the whole stay. The earlier we pass on the news, the more time the yard has to plan the repair, which is why we telephone the superintendent about any significant indication before the written report is finished. The report itself is the owner's or the yard's NDT record. It supports a discussion with the classification society, but it is not a class approval, and repairs to class items still need the surveyor's acceptance."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning MPI around a docking or a quay stay at Amsterdam",
+      "p": [
+        "Time is spent mostly on preparation, not on the examination. Paint has to be removed from every weld to be examined, staging has to be erected for the higher parts of the structure and the area must be dry. We recommend that the ship's crew or the yard starts cleaning as soon as the list of locations is agreed, so the technician can examine each weld straight after it has been prepared.",
+        "Send us the ship's name and type, the list of areas to be examined, the class and any condition of class relating to cracking, and the planned dates alongside or in the dock. The team travels from India, so tell us the arrival and sailing dates early. The agent supplies the gate pass and the yard or ship provides power, access and a safe place to work."
+      ]
+    }
+  ],
+  "vessels": [
+    "Offshore support and anchor-handling vessels",
+    "Survey and project vessels",
+    "Trailing and cutter suction dredgers",
+    "Tugs and heavy workboats",
+    "Short-sea cargo ships with deck cranes",
+    "Handysize bulk carriers with hatch corner cracking history"
+  ],
+  "codes": [
+    "ISO 17638 (magnetic particle testing of welds)",
+    "ISO 9934-1 on magnetic particle testing principles",
+    "ASTM E1444 on magnetic particle testing practice",
+    "IACS UR W7 and W8 on hull and machinery steel forgings and castings",
+    "Class society rules for welding, repairs and crack removal on ship structure"
+  ],
+  "deliverables": [
+    "Examination list by weld or part with technique and surface condition",
+    "Length and position of every linear indication, marked on a plan",
+    "Photographs of indications before and after grinding",
+    "Re-examination record after the yard removes a crack",
+    "Operator qualification statement under the SNT-TC-1A written practice"
+  ],
+  "faqs": [
+    {
+      "q": "Can MPI be carried out on a ship afloat at the IJmuiden quays?",
+      "a": "Yes, on any weld that can be cleaned to bright metal and reached safely. Crane pedestals, winch foundations, hatch corners and bitt welds are all examined alongside. The surface must be dry, and we protect the work from rain. Locations over the water or in the splash zone are handled with the crew's help on access."
+    },
+    {
+      "q": "Why do dredgers and offshore ships need crack detection more often?",
+      "a": "Their structure carries repeated, heavy loads: crane lifts, towing, dredging and wave impact. These cyclic loads produce fatigue cracks at welded corners and foundations much sooner than on a cargo ship that follows a steadier cycle. Examination between contracts finds cracks while repairs are small."
+    },
+    {
+      "q": "Can rudder stocks and pintles be examined while the ship is in the floating dock?",
+      "a": "Yes, and the dock is the best place, because the rudder area is dry and the yard often has the stock and pintles exposed for other reasons. We examine the tapers, keyways and flange faces for cracks, and report any indication to the superintendent so the yard can plan the repair before the ship leaves."
+    },
+    {
+      "q": "Is MPI allowed at a tank terminal berth?",
+      "a": "Deck work is sometimes possible, but flammable atmospheres restrict electrical equipment, and the terminal's hot-work or electrical permit rules apply. A product tanker alongside in the western basins may therefore need to be examined at a lay-by berth or during a gas-free period. We follow the terminal's decision."
+    },
+    {
+      "q": "Does the report count as a class approval of the repair?",
+      "a": "No. The report is the owner's or the yard's NDT record of what was found and where. It supports the discussion with the class surveyor, who still decides whether a repair is acceptable. We do not claim a class approval for the inspection or for the repair."
+    }
+  ]
+}

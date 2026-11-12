@@ -1,0 +1,120 @@
+{
+  "port": "marseille",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Marseille Fos | LNG, Ore",
+  "description": "Hull structural integrity inspection at Marseille and Fos: wastage, cracks and deformation on LNG carriers, tankers, ore carriers, cruise ships and ferries.",
+  "h1": "Structural Integrity Assessment of LNG Carriers, Tankers and Cruise Ships at Marseille-Fos",
+  "intro": "The ships at Marseille-Fos stress their hulls in contrasting ways: ore carriers take impact and abrasion in the hold, LNG carriers need their ballast structure watched through long service, tankers pit on tank bottoms, and cruise ships and ferries suffer in ballast tanks and around the scrubber systems. For each, we assess the structure itself. A team mobilised from India measures thickness, records corrosion pattern and deformation and tests crack-prone details by magnetic particle inspection, at Forme 10, the Fos berths or the anchorage.",
+  "highlights": [
+    {
+      "h": "LNG carrier ballast structure",
+      "p": "Cargo containment is outside ordinary hull gauging, but ballast tanks, cofferdams and the inner hull are not. We inspect and gauge those spaces at Fos when the terminal's gas rules allow entry."
+    },
+    {
+      "h": "Ore carrier holds and hoppers",
+      "p": "Ore for the Fos steelworks wears tank tops and hopper plating. We measure lower hold frames and hopper structure once holds are cleared, and examine hatch corners for cracks."
+    },
+    {
+      "h": "Cracks found while the dock is dry",
+      "p": "In Forme 10 the hull is bare and lit, which is the best chance to test bilge keel ends, rudder surroundings and stern frame welds that cannot be reached afloat."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-marseille-fos",
+      "h": "Where can a structural inspection be done at Marseille, Fos and Lavéra?",
+      "p": [
+        "Forme 10 at the Chantier Naval de Marseille is the place for a thorough job. The hull is dry, tanks are opened, staging stands and the yard cleans surfaces for its own work, so wastage, deformation and cracks can be recorded on bare steel. Other repair berths in the city basins serve ferries and smaller ships afloat. The inspection is fuller there than at the oil berths, but still limited by passenger schedules.",
+        "On the industrial side, the oil berths at Lavéra and Fos, the LNG terminals and the dry-bulk quays each set their own entry rules. Many owners instead use the Fos anchorage, where a waiting ship's prepared ballast tanks and deck structure can be inspected without terminal restrictions. Whatever the setting, the report names the spaces that were examined and the ones that were closed."
+      ],
+      "list": [
+        "Forme 10: bare hull, rudder and stern frame, sea chests and tank internals with the hull dry",
+        "City repair berths: ferries and smaller ships, with opened tanks and decks afloat",
+        "Lavéra and Fos oil berths: deck structure and ballast tanks within the terminal permit rules",
+        "Fos LNG terminals: ballast tanks, cofferdams and inner hull when gas rules allow entry",
+        "Fos anchorage: waiting ships' prepared spaces, subject to the mistral"
+      ]
+    },
+    {
+      "id": "who-needs-it",
+      "h": "Which ships here are inspected for structure, and what triggers it?",
+      "p": [
+        "Tanker owners ask for structural inspection before CAP, vetting or sale. LNG carrier owners and charterers want a condition record before intermediate surveys or time charter renewals. Bulk carriers calling at Fos are inspected after a hard trade with ore or coal, or when a buyer wants an independent view. Cruise operators and ferry companies ask when a technical stop or refit is planned and they need the steel's condition on paper before the specification is fixed.",
+        "Marseille's role as a shipping headquarters city adds another group: ships managed or chartered from the city whose owners need a structural view without waiting for a survey. In each case the same discipline applies. Measured data is recorded member by member, with photographs and sketches, so that someone who never visited the ship can understand it.",
+        "Timing differs by ship type. Tanker owners want the record at least a few weeks before CAP so that findings can be repaired first. Gas carrier owners tend to ask a season ahead of an intermediate survey. Bulk carrier owners ask after discharge at Fos, when holds are empty and still accessible, and cruise operators ask as soon as the refit slot is fixed. Each timing puts different spaces on offer, and the plan states them up front."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is a structural inspection scoped for these ship types?",
+      "p": [
+        "For an ore carrier we measure tank top plating, lower hold frames and brackets, the lower strakes of hold bulkheads, hopper and topside tank structure, hatch coamings and hatch cover plating. For a tanker the list moves to cargo tank bottoms, bulkhead webs and stringers, ballast tank boundaries and deck plating along the cargo length. For an LNG carrier we examine the ballast tanks, cofferdams, inner hull plating and deck structure that can be reached.",
+        "Cruise ships and ferries are scoped by their loads. We measure ballast and fuel tank boundaries, sea chests, side shell near the waterline and, where fitted, scrubber wash-water piping and its penetrations. Ultrasonic thickness gauging establishes remaining steel, visual records capture corrosion pattern and deformation, and magnetic particle inspection tests the details where cracks are known to start, after local surface preparation.",
+        "Access sets the order of work. Holds are inspected first, once washed and dry, since the next cargo or ballast change can close them. Ballast tanks follow after gas testing and ventilation, with the terminal's agreement at the berths. The deck, coamings and exposed structure are left to the end because they stay reachable. In Forme 10 the order follows the yard's cleaning and blasting sequence instead."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do structural inspections typically find at Marseille-Fos?",
+      "p": [
+        "Ore carriers show the hardest wear: tank top plating pitted and thinned under abrasive cargo, lower hold frames wasted at the brackets and hopper plating dented where grabs have struck it. Hatch corners are the usual places for cracks. Tankers show pitting on cargo tank bottoms, wasted ballast tank boundaries where heated cargo sits alongside and corroded deck plating under pipe supports.",
+        "LNG carriers' ballast tanks show coating loss at edges and welds, and cofferdams collect condensation and corrode. Cruise ships and ferries show failed coating in ballast tanks, wasted sea chest surroundings and wall loss in scrubber piping. Where plating has buckled, readings around it often show thin steel. The report separates strength-critical findings from those that can be monitored, with a repair priority list for the yard.",
+        "Crack findings are handled with care. A crack found by magnetic particle inspection is marked, photographed against a scale, sketched on the member and reported at once to the ship's officer, because repair and re-test decisions cannot wait for the final report. We record where the crack ends, whether it runs into parent plate and what stress concentration likely caused it, so the repair method suits the cause."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How to plan the inspection around a docking, a berth or the anchorage?",
+      "p": [
+        "For a docking at Forme 10, we ask for the schedule early and arrange the inspection when surfaces are cleaned but not yet repaired, so findings can go into the work list. For ships at Fos, we follow the berth line-up and the weather, and keep flights flexible. The ship's agent arranges gate passes and launch boats, and we agree with the master which spaces will be prepared.",
+        "Send the ship's particulars, class, age and trade, previous survey reports and the purpose of the inspection. Tell us which spaces will be open, who will attend and whether a yard or terminal will provide staging. We confirm the team, the method list and the dates, and apply for Schengen visas as soon as dates are firm. A report from the same technicians after repair gives the owner a before-and-after record."
+      ]
+    }
+  ],
+  "vessels": [
+    "LNG carriers at the Fos terminals",
+    "Ore and coal bulk carriers delivering to the Fos steelworks",
+    "Crude and product tankers at Lavéra and Fos",
+    "Chemical tankers calling at the oil berths",
+    "Cruise ships in Forme 10 and at city berths",
+    "Ro-pax ferries to Corsica, Sardinia and North Africa",
+    "Container ships on Mediterranean services"
+  ],
+  "codes": [
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "IACS UR Z10.3 and Z10.4 hull surveys of chemical and oil tankers",
+    "IGC Code and class rules for the hull structure of gas carriers",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ISO 9934-1 and ASTM E1444 for magnetic particle testing",
+    "Class society rules for allowable diminution and renewal thickness"
+  ],
+  "deliverables": [
+    "Thickness readings by member with diminution against allowable",
+    "Corrosion pattern record for tank tops, hoppers, ballast tanks and decks",
+    "Deformation and buckling record with extent and stiffening noted",
+    "Magnetic particle inspection results for hatch corners, bilge keel ends and stern details",
+    "Spaces-examined list, repair priority list and photographs"
+  ],
+  "faqs": [
+    {
+      "q": "Can you inspect an LNG carrier's hull structure at Fos?",
+      "a": "We can inspect ballast tanks, cofferdams, inner hull plating and deck structure that the terminal's gas rules allow us to enter. Cargo containment is outside the scope, and the report lists exactly which spaces were examined."
+    },
+    {
+      "q": "What does structural inspection involve on an ore carrier at Fos?",
+      "a": "Gauging of tank tops, lower hold frames, hopper and topside tanks, hatch coamings and hatch covers, plus visual records of impact damage and magnetic particle inspection at hatch corners. Holds must be cleared and cleaned before readings start."
+    },
+    {
+      "q": "Why inspect structure in Forme 10 rather than afloat?",
+      "a": "The hull is dry and bare, so bilge keels, rudder surroundings, stern frame welds and sea chests can be examined and tested for cracks. Afloat, only the spaces above the waterline and the tanks opened by the crew are available."
+    },
+    {
+      "q": "How does the mistral affect an anchorage inspection?",
+      "a": "It can stop launch transfers to the Fos anchorage for days, so we plan a backup day and a priority order for spaces. Inside the city docks and at berths its effect is small, but the plan still carries a margin."
+    },
+    {
+      "q": "Is the report usable for a vetting or sale?",
+      "a": "Yes, as an owner's or buyer's technical record. It is not a class document and carries no class credit, so say clearly in the sale or vetting file that it records condition at the date of inspection and which spaces were open."
+    }
+  ]
+}

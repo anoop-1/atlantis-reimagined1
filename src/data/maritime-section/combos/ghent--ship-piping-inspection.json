@@ -1,0 +1,129 @@
+{
+  "port": "ghent",
+  "service": "ship-piping-inspection",
+  "title": "Ship Piping Inspection Ghent | Pipe Wall UT Gauging",
+  "description": "Ship piping inspection at Ghent: UT wall thickness gauging of ballast, fire main, cargo, fuel and scrubber lines on bulkers, tankers and ro-ro ships.",
+  "h1": "Pipe Wall Gauging on Ballast, Cargo and Scrubber Systems at the Port of Ghent",
+  "intro": "Piping fails quietly, and on canal-trade ships it fails in familiar places. Ballast lines through the topside tanks of bulk carriers, deck lines and manifolds on biofuel and product tankers, fire mains on every ship, and wash-water pipes on ships burning compliant fuel through a scrubber all lose wall from the inside. Atlantis NDT measures pipe wall by ultrasound at the points where wastage concentrates, compares each reading with minimum wall, and reports on isometric sketches. Our technicians travel from India to the ship alongside at Ghent.",
+  "highlights": [
+    {
+      "h": "Ballast lines on ore and coal ships",
+      "p": "Bulk carriers take and discharge ballast many times a year, and the lines running through topside and hopper tanks sit in standing water. Gauging at bends, low points and tank penetrations shows how much wall remains."
+    },
+    {
+      "h": "Tanker manifolds under terminal permit",
+      "p": "Biofuel and product tankers at the canal terminals have deck lines and manifold spools to check. The work follows the terminal permit system and stays on the outside of the pipe, so the cargo operation continues."
+    },
+    {
+      "h": "Scrubber lines in an emission control area",
+      "p": "The canal and the Westerschelde approaches lie in the North Sea emission control area. Ships using exhaust gas cleaning systems have wash-water piping and overboard discharges that corrode faster than almost anything else on board."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-piping-ghent",
+      "h": "Where can ship piping be gauged at Ghent?",
+      "p": [
+        "Piping is gauged wherever the crew can give access to the line, and at Ghent that includes the whole of a ship's weather deck and many internal spaces. On bulk carriers at the steelworks and agribulk berths, the work covers ballast lines on deck, in the topside tanks that can be ventilated, and in the forecastle and engine room, once the holds are discharged and the crew has time to prepare.",
+        "At the canal-side tank terminals, tankers can have their deck lines, manifold spools and cargo hose connections gauged from the deck, while the pump room and any cargo tank line wait for a gas-free certificate. On ro-ro ships at the car terminal, the engine room and the fire main, bilge and sea-water systems are accessible between rotations.",
+        "Ships with exhaust gas cleaning systems add the scrubber wash-water supply, the discharge pipe and the overboard valve. These are located near the funnel or in the engine casing, and the team coordinates with the engineers so that the scrubber is shut down and the lines are accessible and safe to touch."
+      ],
+      "list": [
+        "Steelworks and agribulk berths: ballast lines on deck and in ventilated topside tanks, engine room systems.",
+        "Canal tank terminals: deck lines, manifold spools and hose connections on tankers.",
+        "Ro-ro and car terminal berths: fire main, bilge and sea-water cooling in the engine room.",
+        "Any berth: scrubber wash-water supply, discharge pipe and overboard valve."
+      ]
+    },
+    {
+      "id": "ships-needing-piping-ghent",
+      "h": "Which ships at Ghent need piping inspection, and why?",
+      "p": [
+        "Class surveys check piping but sample it, so an owner who wants complete information has to arrange gauging separately. Superintendents ask for it before a renewal survey, so the pipe renewals can be added to the yard specification, and after a leak or a failed pressure test, so that the extent of the problem is understood.",
+        "Buyers ask for it too. A pre-purchase check on an older bulk carrier or tanker that includes ballast and fire main piping shows the buyer whether a large pipework renewal is waiting. For ships with a scrubber, a technical manager may add the wash-water lines to an annual programme because failures there can cause an unplanned stop.",
+        "Charterers of tankers sometimes require a record of deck line condition. Ships in the biofuel trade carry cargoes that are mildly corrosive, and manifold and deck line wall loss is a recognised concern for the terminal and the owner."
+      ]
+    },
+    {
+      "id": "how-piping-scoped-ghent",
+      "h": "How is a piping job scoped for a ship at Ghent?",
+      "p": [
+        "The first step is a list of systems and the lines to be examined within each, with isometrics or line sketches where they exist. Measurement points are concentrated on bends, tees, reducers, positions just downstream of valves and orifices, low points where water settles, and places where a pipe passes through a bulkhead or sits under a support.",
+        "At each point the technician cleans the surface, measures the wall by ultrasound at several positions around the circumference, and records the lowest reading. Coatings, lagging and insulation have to be removed locally, and the crew arranges this beforehand when possible. Each reading is compared with nominal wall and with the minimum the client or the class rule sets for that service.",
+        "Surface temperature of steam lines and heated fuel lines is a limit: standard probes cannot be used on hot pipe, so those lines are measured once cool or with equipment designed for the temperature. The team agrees the sequence with the chief engineer so that systems are isolated and safe to work on."
+      ]
+    },
+    {
+      "id": "findings-piping-ghent",
+      "h": "What does piping gauging usually find on these ships?",
+      "p": [
+        "Ballast lines show wall loss from the inside at low points, at tank penetrations and where a coating has failed in the pipe or on the outside under a clamp. Galvanised pipe often fails sooner than expected once the zinc has gone, and the report picks out the stretches where readings approach the minimum.",
+        "Fire mains show pitting at drain points and at dead legs, where water stands unused for long periods. Sea-water cooling lines suffer erosion at bends and downstream of valves, with the worst readings typically on the outside of each bend.",
+        "On tankers, deck lines and manifold spools show external corrosion under lagging and brackets, and sometimes internal wastage near the manifold. Scrubber wash-water pipes show wall loss at bends and at the junctions with the overboard valve, where turbulence and chemistry combine. Each reading below the minimum is highlighted on the isometric, with a note on likely cause."
+      ]
+    },
+    {
+      "id": "planning-piping-ghent",
+      "h": "How do you plan piping gauging around a Ghent call?",
+      "p": [
+        "Fit the job to the engineers' own work. The best time to gauge engine room systems is when the plant is quiet and the lines are cool, and the best time for ballast piping is when tanks can be entered or when the lines on deck are free of ballast movements. Tell us the berth, the arrival and sailing times, and which systems must stay in service.",
+        "Send piping diagrams or isometrics if the ship has them, and say which lines are known or suspected to be thin. We will plan the measurement points before boarding. Ask the crew to remove insulation at the agreed points before the team arrives, or tell us in advance so that we can allow time.",
+        "A team travelling from India needs Schengen visas, which start when the call is confirmed. The ship's agent arranges access. Where pipes fall below minimum, the report lists them in order of priority so that renewals can be planned for the next docking or for a repair slot at a nearby yard."
+      ]
+    },
+    {
+      "id": "worked-example-piping-ghent",
+      "h": "What does a piping scope look like for a tanker and a bulker?",
+      "p": [
+        "For a biofuel tanker at a canal terminal, the scope is the deck cargo lines, the manifold spools and their supports, measured at bends and under brackets. The report gives each reading against minimum wall and lists the sections to be renewed first.",
+        "For a bulk carrier with a scrubber, the scope is the ballast lines on deck, the sea-water cooling lines in the engine room and the scrubber wash-water supply and discharge pipes. Readings are marked on the isometrics, and the owner sees at once which stretches limit the life of the system."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers with ballast and scrubber systems",
+    "Product and biofuel tankers",
+    "Ro-ro ships and vehicle carriers",
+    "General cargo and multipurpose ships",
+    "Ships with exhaust gas cleaning systems",
+    "Ships under purchase inspection"
+  ],
+  "codes": [
+    "SOLAS Chapter II-2 (fire main and fire-fighting systems)",
+    "MARPOL Annex VI and IMO guidelines on exhaust gas cleaning systems",
+    "IACS UR P2 and class rules for minimum pipe wall thickness",
+    "ISO 16809 and ASTM E797 (ultrasonic thickness measurement)",
+    "IACS UR Z17 for class-credited thickness work, noted for scope only",
+    "Class rules for the survey of piping systems"
+  ],
+  "deliverables": [
+    "System and line list with measurement point locations",
+    "Wall thickness readings against nominal and minimum wall",
+    "Isometric sketches with readings and highlighted low points",
+    "Priority list of sections for renewal",
+    "Notes on likely cause of wastage at each flagged point",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can ballast piping on a bulk carrier be gauged during a call at Ghent?",
+      "a": "Yes. Lines on deck, in the engine room and in any topside tank the crew can ventilate are measured while the ship is alongside. The team agrees the sequence with the chief engineer so that ballast operations are not disturbed."
+    },
+    {
+      "q": "Do you gauge tanker deck lines at the canal terminals?",
+      "a": "Yes, from the outside of the pipe and within the terminal's permit rules. Deck lines, manifold spools and supports are measured while the cargo operation continues. Tank and pump room work waits for a gas-free certificate."
+    },
+    {
+      "q": "Why are scrubber pipes included in a piping scope?",
+      "a": "The canal and approaches are in an emission control area, so many ships use scrubbers. Wash-water supply and discharge pipes lose wall quickly, and a failure can stop the system. Measuring them shows how long the lines will last."
+    },
+    {
+      "q": "Can hot steam or heated fuel lines be measured?",
+      "a": "Not with standard probes on hot pipe. Those lines are measured when cool, or with equipment made for higher temperature. The sequence is agreed with the chief engineer so that systems are isolated and safe to work on."
+    },
+    {
+      "q": "What does the piping report contain?",
+      "a": "Readings by point against nominal and minimum wall, isometric sketches with low points marked, a priority list for renewal and notes on likely cause. It is an owner's record that can go to a pipe shop or a repair yard."
+    }
+  ]
+}

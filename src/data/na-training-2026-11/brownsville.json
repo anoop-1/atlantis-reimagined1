@@ -1,0 +1,15 @@
+{
+  "slug": "brownsville",
+  "lat": 25.9,
+  "lng": -97.5,
+  "localContext": "Brownsville's inspection work centers on the Port of Brownsville. NextDecade's Rio Grande LNG export plant is under construction there with Bechtel as contractor, a second project, Texas LNG, is in development, and the port's long-established rig and vessel shipyard, ship recycling yards, fuel terminals and pipelines add steady demand. SpaceX's Starbase at Boca Chica has drawn fabrication and supplier work to the area. Construction runs to ASME B31.3, LNG tank and piping codes and AWS D1.1, so VT, MT, PT, RT and UT are in demand.",
+  "certPathwayNote": "Contractors at the port and on the LNG projects certify their own technicians under written practices built on ASNT SNT-TC-1A, and their Level III signs off examinations and vision checks. Project owners set acceptance criteria and audit the files. Radiographers also need Texas radiation safety certification. ASNT central certification is the alternative for technicians who want a credential that moves between contractors.",
+  "salaryFrom": "corpus-christi",
+  "siblings": [
+    "corpus-christi",
+    "san-antonio",
+    "freeport",
+    "houston",
+    "austin"
+  ]
+}

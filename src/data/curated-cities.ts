@@ -409,6 +409,7 @@ export const REPORTING_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have a /ndt-training-{slug} page (individual TSX + DynamicTrainingPage fallback). */
 export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'sacramento','long-beach','bakersfield','tucson','reno','colorado-springs','spokane','tacoma','ogden','farmington','hobbs','casper','fairbanks','lafayette','houma','shreveport','freeport','brownsville','birmingham','memphis','louisville','knoxville','chattanooga','greenville-south-carolina','raleigh','wilmington-north-carolina','richmond','lynchburg','portsmouth-new-hampshire','albany','erie','allentown','toledo','dayton','grand-rapids','peoria','toronto','hamilton-ontario','sudbury','regina','saskatoon','red-deer','grande-prairie','kitimat', // NA training expansion 2026-11-11
   'newport-news','oak-ridge','richland','idaho-falls','texas-city','san-antonio','billings','williston', // training expansion 2026-08-12
   // Hand-built /src/pages/ndt-training-*.tsx files (original 17)
   'atlanta','chicago','dallas','denver','dubai','houston','hyderabad','india','jakarta','los-angeles',

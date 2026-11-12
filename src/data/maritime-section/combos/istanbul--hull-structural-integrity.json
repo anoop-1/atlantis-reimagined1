@@ -1,0 +1,123 @@
+{
+  "port": "istanbul",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Istanbul | Tuzla & Strait",
+  "description": "Hull structural integrity inspection in Istanbul: hatch coamings, air pipes and bracket cracking on older Black Sea ships, after PSC deficiencies.",
+  "h1": "Structural Inspection of Older Black Sea Ships in Istanbul: Coamings, Air Pipes and Cracked Brackets",
+  "intro": "The ships that trade through Istanbul are often older, hard-worked and lightly coated: Handysize and Supramax bulk carriers, general cargo ships and small tankers moving steel, grain, scrap and minerals around the Black Sea and Mediterranean. Their structural problems tend to surface at port state control inspections or after a crack is found on a sister ship. We mobilise a team from India to the Tuzla yards, the Ambarlı terminals or the Bosphorus anchorages to measure wastage, test suspect welds and report the condition of the steel in a form the superintendent can act on.",
+  "highlights": [
+    {
+      "h": "Deficiency-driven inspections",
+      "p": "Wasted coamings, holed ventilators and corroded air pipe heads found by port state control often trigger a structural inspection. We measure the surrounding steel and report what else on the ship shows the same wear, before the next inspector does."
+    },
+    {
+      "h": "Cracks checked across sister ships",
+      "p": "When a bracket toe or hatch corner cracks on one ship, the same detail on its sisters is the first place to look. We test the matching details and record the results in one comparable format."
+    },
+    {
+      "h": "Yard and anchorage options",
+      "p": "Structural inspection can run in a Tuzla dock where the hull is dry, at an Ambarlı berth between cargoes, or at an anchorage while the ship waits for orders or a Bosphorus transit."
+    }
+  ],
+  "sections": [
+    {
+      "id": "black-sea-ships",
+      "h": "What condition are Black Sea trading ships usually in?",
+      "p": [
+        "The fleet moving through the Strait is mixed, but a large part of it is second-hand tonnage kept in service by careful owners with tight budgets. Bulk carriers of Handysize and Supramax size carry grain, steel products, coal, ore and fertilisers between Black Sea, Marmara and Mediterranean ports. General cargo ships carry whatever offers. The voyages are short and the cargo handling is frequent, so holds, hatch covers and coamings take more punishment per year than on an ocean trade.",
+        "Coatings on such ships often last long past their expected life. Steel is touched up between dockings, not renewed, and ballast tanks may run for years with partial protection. The structural picture on a twenty-year-old ship in this trade is therefore usually one of localised heavy wastage in predictable places, set against large areas that are sound. A structural inspection finds the heavy places and measures them, instead of estimating from general appearance."
+      ]
+    },
+    {
+      "id": "psc-trigger",
+      "h": "What happens after a port state control deficiency on structure?",
+      "p": [
+        "Turkey belongs to the Black Sea MoU and the Mediterranean MoU on port state control, and ships trading between Black Sea and Marmara ports are inspected regularly. Structural deficiencies such as wasted hatch coamings, holed ventilators, corroded air pipe heads and wastage on deck plating are among the findings that can lead to a rectification requirement or, if severe, a detention. The owner then needs measured data quickly, so that the flag, class or the inspecting authority can decide what repair is required.",
+        "A targeted inspection answers that need. We gauge the member named in the deficiency, then extend readings to similar members around the ship, so that the superintendent knows whether the problem is isolated or general. Photographs, locations and thickness against the original are set out so the repair proposal can be written from them. The report is an owner's NDT record, not an approval from the authority or class."
+      ]
+    },
+    {
+      "id": "coamings-air-pipes",
+      "h": "How are hatch coamings, ventilators and air pipes assessed?",
+      "p": [
+        "Weathertight fittings are small items with large consequences. Hatch coamings, ventilator coamings and air pipes protect openings in the weather deck, and their wastage can let water into holds or tanks. They also corrode from both sides: seawater and cargo residue outside, condensation within. A thin air pipe may look sound until it is tapped or measured.",
+        "Readings are taken at the base of each coaming and along its plate, at the head of each air pipe and at its connection to the deck. Pitting is measured and recorded separately from general thickness, because a single deep pit decides renewal even where the average is acceptable. Deck plating around the fitting is gauged as well, since wastage often spreads outward. Where fittings are due to be renewed, the report gives dimensions and positions that the yard can use for ordering."
+      ]
+    },
+    {
+      "id": "cracks",
+      "h": "How is cracking at brackets and hatch corners found and reported?",
+      "p": [
+        "On older bulk carriers and general cargo ships, fatigue cracks usually start at bracket toes, hatch corners, ends of longitudinals and cut-outs, and grow slowly with each loading cycle. Ships on short voyages with frequent loading and discharge accumulate cycles quickly. Cracks are often found on one ship first and are then sought on its sisters, because a shared design shares its weak points.",
+        "The detail is cleaned to bare metal or sound thin coating, examined closely, then tested by magnetic particle method, with penetrant testing where magnetic methods cannot be used. Each indication is recorded with its length and position on a sketch, with photographs. Results for sister ships are laid out in the same format, so patterns across the group are visible. Repair methods and approvals are left to the owner and class; our report states what was found and where."
+      ]
+    },
+    {
+      "id": "tuzla-ambarli-anchorage",
+      "h": "Where in Istanbul can a structural inspection be done?",
+      "p": [
+        "In a Tuzla dock, with the hull dry and staging in place, the whole shell, bottom and internal structure can be reached, and this is where a full structural picture is best obtained. At Ambarlı, container and general cargo ships can be inspected between cargo operations under terminal ISPS rules, mostly in deck structure, accessible tanks and engine-room spaces. At the Ahırkapı anchorage and the Black Sea entrance anchorages, ships waiting for transit or orders can be boarded by launch for deck, coaming and ballast tank work.",
+        "Because anchorage stays end when a ship is called forward, we agree a priority list: the details most likely to be cracked or wasted come first, with the remainder left to the next stop or the dock. Scrubber-fitted ships docking at Tuzla are also a chance to examine wash-water piping and the structure around it, since the Sea of Marmara lies outside the Mediterranean emission control area and many ships switch to a scrubber or fuel change on the way out through the Dardanelles."
+      ]
+    },
+    {
+      "id": "tuzla-built-tankers",
+      "h": "What about chemical tankers and newbuilds from the Tuzla yards?",
+      "p": [
+        "Chemical tankers built and repaired at Tuzla have stainless steel or coated cargo tanks and a different set of structural questions from bulk carriers. Ballast tank coatings, corrosion at the boundaries between ballast and cargo tanks, and fatigue at deck penetrations are typical subjects. Inspections on these ships are usually scheduled around cargo tank cleaning, since tanks must be certified safe before they are entered.",
+        "A structural inspection soon after delivery or after a first docking can establish a baseline of readings and coating condition that later surveys can be compared with. For ships already trading, the same approach supports a charterer's request for evidence of hull condition. Whatever the ship type, the report separates general wastage from pitting and grooving, and records deformation and cracks by location."
+      ]
+    }
+  ],
+  "vessels": [
+    "Handysize and Supramax bulk carriers",
+    "General cargo and multipurpose ships",
+    "Chemical and product tankers",
+    "Small crude tankers",
+    "Container ships calling at Ambarlı",
+    "Ro-ro ships",
+    "Tugs and offshore vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "IACS UR Z10.2 and Z10.4 for the enhanced survey of bulk carriers and chemical tankers",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "SOLAS chapter II-1 on structural strength and watertight integrity",
+    "ISO 17638 and ASTM E709 for magnetic particle testing",
+    "ASTM E797 for manual ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Readings on coamings, ventilators and air pipes with pitting depth recorded separately",
+    "Thickness readings by member with original thickness, diminution and allowable margin",
+    "Crack indication sketches, lengths and photographs from magnetic particle or penetrant testing",
+    "Comparison of matching details across sister ships",
+    "Deformation records by panel with extent and depth",
+    "Coating condition notes for tanks entered"
+  ],
+  "faqs": [
+    {
+      "q": "Can an Istanbul ship be inspected after a port state control structural deficiency?",
+      "a": "Yes. We gauge the member named in the deficiency, then extend readings to similar members so the superintendent can see whether the problem is isolated or general. The report gives locations, photographs and thickness against the original, so the repair proposal can be written from measured data. It is an owner's record, not an approval from the authority."
+    },
+    {
+      "q": "Is Turkey part of the Paris MoU for port state control?",
+      "a": "No. Turkey belongs to the Black Sea MoU and the Mediterranean MoU. Ships trading between Black Sea and Marmara ports are inspected under those regimes. If your ship also calls at Paris MoU ports, deficiencies recorded there are separate, and we tell you which authority's findings the inspection is answering when we scope it."
+    },
+    {
+      "q": "How are hatch coamings and air pipes measured on older bulk carriers?",
+      "a": "Readings are taken at the base of each coaming and along its plate, and at the head and deck connection of each air pipe. Pitting is measured separately, because one deep pit can decide renewal even when the average thickness is acceptable. Deck plating around the fitting is gauged too, since wastage tends to spread outward."
+    },
+    {
+      "q": "Can cracks found on one ship be checked on its sisters in Istanbul?",
+      "a": "Yes, and it is usually the best way to use a visit. The matching details on sister ships are cleaned and tested by magnetic particle method, and the results are recorded in the same format. If several ships are in the Tuzla yards or at anchor in the same period, one team can cover them in one mobilisation."
+    },
+    {
+      "q": "Does the Sea of Marmara fall inside the Mediterranean emission control area?",
+      "a": "No. The Mediterranean emission control area ends at the entrance to the Dardanelles, so Istanbul, Tuzla and the Black Sea are outside it and the global sulphur limit applies. Ships sailing on into the Aegean enter the area, so many switch fuel or run scrubbers on the way. Scrubber piping and nearby structure are worth inspecting when the hull is dry."
+    },
+    {
+      "q": "How does a team reach a ship waiting at the Bosphorus anchorage?",
+      "a": "The agent books a launch and arranges access, and the technicians board with their gauges and magnetic particle kit. Because a ship can be called forward at short notice, we agree a priority list so the most important details are examined first and the remainder is left for the next stop or a dock."
+    }
+  ]
+}

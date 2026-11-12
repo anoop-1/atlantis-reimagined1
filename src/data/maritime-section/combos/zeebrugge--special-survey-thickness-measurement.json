@@ -1,0 +1,121 @@
+{
+  "port": "zeebrugge",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Zeebrugge | Ro-Ro, PCTC",
+  "description": "Renewal survey and pre-docking thickness gauging in Zeebrugge for car carriers, ro-ro freighters and LNG carriers, planned around short calls and lay days.",
+  "h1": "Renewal and Intermediate Survey Gauging for Car Carriers and Ro-Ro Ships Calling at Zeebrugge",
+  "intro": "Renewal survey gauging is normally associated with a dock, yet many ships on Zeebrugge's rotations never stop long enough to be measured in one. Car carriers, short-sea ro-ro freighters and LNG carriers pass through on fixed schedules, so the sensible way to prepare a special survey is to gather as much hull and deck data as possible on ordinary calls. Our technicians travel from India to the ship at Zeebrugge, measure what the call allows, and leave the superintendent with readings that the docking yard can build its steel estimate on.",
+  "highlights": [
+    {
+      "h": "Gauge on the calls before the dock",
+      "p": "Most Zeebrugge ships dock somewhere else. Readings taken at the quay during the year before the survey tell the owner how much steel to budget for, and let the yard quote renewals from measured data instead of from the previous survey's figures alone."
+    },
+    {
+      "h": "Car carriers are not tankers or bulkers",
+      "p": "A pure car and truck carrier has no cargo tanks to open up, so its survey gauging concentrates on shell, deck plating, ramp structure and ballast tanks. The programme is shaped by the ship's class record rather than by an oil-tanker template."
+    },
+    {
+      "h": "Gas carriers gauged outside containment",
+      "p": "LNG carriers calling at the Fluxys terminal can have ballast and void spaces gauged within the terminal permit. Spaces around the cargo containment are left for the yard, so the survey scope splits cleanly between the quay and the dock."
+    }
+  ],
+  "sections": [
+    {
+      "id": "survey-ships-zeebrugge",
+      "h": "Which ships at Zeebrugge reach a renewal survey, and when?",
+      "p": [
+        "The port's traffic divides into three groups with very different survey profiles. Pure car and truck carriers load and discharge new vehicles on a tight cycle and are usually docked to a fixed, owner-chosen schedule. Short-sea ro-ro freighters on British and Irish services run most weeks of the year, so their docking is planned long in advance and usually combined with maintenance work. LNG carriers calling at the Fluxys terminal follow the gas-trade pattern, where the survey is scheduled around charter commitments and the long gaps between dockings.",
+        "For each group, the useful question is what the surveyor will want measured and how much of it can be reached before the ship reaches the dock. A ship in its fourth or fifth year is preparing for an intermediate survey, which asks for a smaller sample of structure. A ship approaching its fifth anniversary of the previous renewal wants a complete picture, and the sooner the owner knows where the wastage is, the sooner the yard can book steel and plan the stay."
+      ]
+    },
+    {
+      "id": "survey-scope-pctc-roro",
+      "h": "What is gauged on a car carrier or ro-ro ship before the survey?",
+      "p": [
+        "The structure that matters most on a multi-deck vehicle ship is the structure that moves cargo. Each car deck is plating with stiffeners below it, loaded by wheels and by lashing points, and the lowest decks sit nearest the bilge and the wash-down water that collects on them. A representative gauging scope covers deck plating and stiffeners in each tier, the tank top and lower hold, internal and stern ramps with their hinges and cross-members, and the side shell at the main loading doors.",
+        "The ballast tanks take the next block of the programme. Car carriers carry a large volume of ballast to compensate for the weightless cargo they usually carry, so their ballast tanks cycle between full and empty often, and coating breakdown in them is common on ships past their second survey. Gauging those tanks needs a crew that can pump down, ventilate and gas-free them, and Zeebrugge's short calls make that the main planning constraint. We agree a priority order with the superintendent, so the most important tanks are finished first."
+      ],
+      "list": [
+        "Fixed and hoistable car decks: plating and stiffeners in the lanes where wheel loads concentrate.",
+        "Lower hold, tank top and bilge areas where wash-down water collects.",
+        "Internal ramps and the stern ramp: hinges, cross-members and the plating around the lifting arrangements.",
+        "Side shell at the loading doors and along the berthing contact zone.",
+        "Ballast tanks, including double-bottom and wing tanks reachable on the call."
+      ]
+    },
+    {
+      "id": "survey-lng-carriers",
+      "h": "How are LNG carriers prepared for a renewal survey at Zeebrugge?",
+      "p": [
+        "A gas carrier's renewal survey is built around the containment system, and that is the one area the quay cannot offer. What the quay does offer is the hull around it: ballast tanks, the double bottom and wing spaces, voids, the engine room and the exposed deck structure. Within the terminal's permit and the ship's own gas-safety procedures, gauging those areas well before the dock shortens the yard period and removes surprises from the steel work.",
+        "Ships with dual-fuel propulsion add fuel-system spaces that need their own safety conditions, and these are handled separately from the hull gauging. We do not enter hazardous zones without the terminal's and the ship's explicit acceptance, and the equipment list is agreed through the agent before arrival. If a zone cannot be made safe on the call, it is recorded as not measured and carried to the dock list rather than guessed at."
+      ]
+    },
+    {
+      "id": "survey-planning-zeebrugge",
+      "h": "How do you fit survey gauging into a Zeebrugge call or lay day?",
+      "p": [
+        "The first step is the call itself. Superintendents tell us the berth, the expected time alongside, the cargo plan and which spaces can be made available, and we match the scope to that window. A vehicle carrier that discharges and loads in a day can spare empty decks for part of it; a ro-ro freighter with a weekend lay-over offers more time and quieter decks. When the window is genuinely too short, we recommend splitting the programme across two calls, because a half-finished tank is worth less than a finished one.",
+        "Before the team arrives, the ship sends us the class survey status, the previous renewal's thickness report and the list of tanks and areas with notes from earlier surveys. The more we know about the history, the better we can concentrate readings where wastage has been recorded. After the call, the report is arranged in the structure the docking yard expects, so it can be attached to the survey plan and the steel estimate without being reworked."
+      ]
+    },
+    {
+      "id": "survey-findings-zeebrugge",
+      "h": "What findings does pre-survey gauging usually bring up on these ships?",
+      "p": [
+        "On vehicle carriers, the typical findings sit in the lowest decks and in the ballast tanks: general wastage of plating where water lies, pitting in tank bottoms, and breakdown of coatings that exposes the steel. Ramps and their supports show wear and, at hinges, cracking, which is why gauging is usually paired with crack detection where the cargo path concentrates loads. On ro-ro freighters, the trailer lanes show the same pattern with heavier wear from the weight of freight units.",
+        "On LNG carriers, ballast tank corrosion and coating condition dominate, since the cargo spaces themselves are kept clean and dry. Whatever the ship type, the value of the readings is that the surveyor and the yard see the same numbers. Where a plate is close to its renewal limit, the owner can decide before docking whether to renew it, to monitor it or to defer the decision to the surveyor."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers (PCTC)",
+    "Ro-ro freight ships on UK and Irish services",
+    "LNG carriers at the Fluxys terminal",
+    "Container ships at the outer port",
+    "General cargo ships in the inner port",
+    "Cruise ships approaching a renewal survey"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "IACS UR Z17 for the procedural requirements for service suppliers",
+    "Class society rules for the survey of ro-ro, vehicle and gas carrier structures",
+    "SOLAS chapter II-1 for structural, watertight and stability requirements",
+    "IMO PSPC resolution MSC.215(82) for ballast tank coatings",
+    "ASTM E797 for manual pulse-echo ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness readings by deck, tank and frame, with the survey structure the yard expects",
+    "Comparison with the previous renewal's readings where the owner supplies them",
+    "Marked-up sketches of areas near renewal limits, ready for the yard's steel estimate",
+    "List of spaces not measured on the call and the reason, for the dock work list",
+    "Coating and corrosion condition notes for ballast tanks reached",
+    "Crack detection records at ramps and supports where those were added to the scope"
+  ],
+  "faqs": [
+    {
+      "q": "Can a special survey thickness report be taken at Zeebrugge if the ship docks elsewhere?",
+      "a": "Yes, as pre-docking gauging. The readings are taken on the ship at Zeebrugge, reported in the structure the yard expects, and passed on to the docking yard. Whether the surveyor accepts them for credit depends on the class arrangements, which the template on this page explains; for planning and steel budgeting they are fully usable."
+    },
+    {
+      "q": "How much of a car carrier can be gauged between discharge and loading?",
+      "a": "Usually a defined group of decks, the ramps and a small number of ballast tanks, not the whole ship. Decks have to be clear and tanks pumped down in time. We agree the priorities beforehand and measure the most critical areas first, then list anything left for the next call or the dock."
+    },
+    {
+      "q": "Does a ro-ro freighter on a UK service need to stop for survey gauging?",
+      "a": "It needs a window, not a stop of its own. Weekend lay-overs and planned lay days on the rotation are enough for a good deal of deck and tank-top gauging. We plan around the schedule you give us, which avoids adding a call that the service cannot afford."
+    },
+    {
+      "q": "Which parts of an LNG carrier can be measured at the Fluxys terminal?",
+      "a": "The hull spaces outside the cargo containment: ballast tanks, double bottom, voids, deck structure away from hazardous zones and the engine room, all within the terminal's permit. Containment inspection stays with the yard and the class surveyor. The terminal and the ship decide what is accessible, and the agent passes on our equipment list."
+    },
+    {
+      "q": "What should we send before the team travels from India for a Zeebrugge job?",
+      "a": "Send the vessel name or IMO number, the survey due date, the last renewal's thickness report if you have it, the class status and the list of spaces and decks you want measured. Add the berth, the expected time alongside and the agent's details so access permits can be requested in time."
+    },
+    {
+      "q": "Is the renewal survey programme the same for a car carrier as for a bulk carrier?",
+      "a": "No. Bulk carriers and tankers fall under the enhanced survey requirements for cargo holds and tanks, while vehicle carriers have no cargo tanks but multi-tier decks and ramps. The gauging programme follows the structure and the class record of the ship in front of us, not a standard template."
+    }
+  ]
+}

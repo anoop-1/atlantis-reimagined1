@@ -1,5 +1,5 @@
 // Validate maritime records while they are being written (2026-11-10, Europe expansion).
-// Usage: node scripts/maritime-validate.mjs <slug> [<slug> ...]   (port, country or service slugs)
+// Usage: node scripts/maritime-validate.mjs <slug> [<slug> ...]   (port, country, service or port--service slugs)
 //        node scripts/maritime-validate.mjs --all                  (every record that exists)
 // Checks each record against the same rules as the build guard (scripts/maritime-section-2026-11.mjs):
 // 2,000+ rendered words, port-specific copy >= 1,300 words (guard minimum 1,200), title <= 65 chars and
@@ -8,31 +8,35 @@
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildMaritimeSection, countryHubs, SERVICE_SLUGS, REGION_SLUGS, LANDING_SLUG, CLASS_APPROVALS } from '../src/data/maritime-section/model.mjs';
+import { buildMaritimeSection, countryHubs, comboSlug, comboPath, SERVICE_SLUGS, REGION_SLUGS, LANDING_SLUG, CLASS_APPROVALS } from '../src/data/maritime-section/model.mjs';
 import { BANNED, APPROVAL_CLAIM } from './maritime-section-2026-11.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA = join(HERE, '..', 'src', 'data', 'maritime-section');
 const rows = JSON.parse(readFileSync(join(DATA, 'city-list.json'), 'utf8')).cities;
 const citySlugs = new Set(rows.map((r) => r[0]));
+const comboRows = JSON.parse(readFileSync(join(DATA, 'combo-list.json'), 'utf8')).combos;
+const comboKeys = new Set(comboRows.map(([p, s]) => comboSlug(p, s)));
 const hubs = countryHubs(rows);
 const pageSlugs = [LANDING_SLUG, ...REGION_SLUGS, ...hubs.map(([s]) => s), ...SERVICE_SLUGS];
 const records = {};
 const parseErrors = [];
 for (const slug of [...rows.map((r) => r[0])]) { const f = join(DATA, 'cities', `${slug}.json`); if (existsSync(f)) { try { records[slug] = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { parseErrors.push(`cities/${slug}.json: ${e.message}`); } } }
 for (const slug of pageSlugs) { const f = join(DATA, 'pages', `${slug}.json`); if (existsSync(f)) { try { records[slug] = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { parseErrors.push(`pages/${slug}.json: ${e.message}`); } } }
+for (const key of comboKeys) { const f = join(DATA, 'combos', `${key}.json`); if (existsSync(f)) { try { records[key] = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { parseErrors.push(`combos/${key}.json: ${e.message}`); } } }
 const strays = readdirSync(join(DATA, 'cities')).map((f) => f.replace(/\.json$/, '')).filter((s) => !citySlugs.has(s));
 
 let section;
-try { section = buildMaritimeSection(rows, records); } catch (e) { console.error('Model failed to build:', e.message); process.exit(2); }
+try { section = buildMaritimeSection(rows, records, comboRows); } catch (e) { console.error('Model failed to build:', e.message); process.exit(2); }
 const text = (html) => html.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ');
 const sentences = (t) => String(t).split(/(?<=[.?])\s+/).map((x) => x.trim().toLowerCase()).filter((x) => x.split(' ').length >= 10);
 function ownText(slug, r) {
   if (citySlugs.has(slug)) return [r.intro, ...(r.highlights || []).map((h) => h.p), ...(r.port?.p || []), ...(r.facilities?.p || []), ...(r.facilities?.list || []), ...(r.context?.p || []), ...[].concat(r.jobs?.p || []), ...(r.jobs?.list || []), r.logistics, ...(r.faqs || []).map((f) => `${f.q} ${f.a}`)].join(' ');
+  if (comboKeys.has(slug)) return [r.intro, ...(r.highlights || []).map((h) => h.p), ...(r.sections || []).flatMap((x) => [].concat(x.p || [], x.list || [])), ...(r.faqs || []).map((f) => `${f.q} ${f.a}`)].join(' ');
   return [r.intro, ...(r.highlights || []).map((h) => h.p), ...(r.sections || []).flatMap((x) => [].concat(x.p || [])), ...(r.faqs || []).map((f) => f.a)].join(' ');
 }
 const pool = new Map();
-for (const [slug, r] of Object.entries(records)) if (citySlugs.has(slug) || hubs.some(([h]) => h === slug)) for (const s of sentences(ownText(slug, r))) { if (!pool.has(s)) pool.set(s, new Set()); pool.get(s).add(slug); }
+for (const [slug, r] of Object.entries(records)) if (citySlugs.has(slug) || comboKeys.has(slug) || hubs.some(([h]) => h === slug)) for (const s of sentences(ownText(slug, r))) { if (!pool.has(s)) pool.set(s, new Set()); pool.get(s).add(slug); }
 
 const args = process.argv.slice(2);
 const targets = args.includes('--all') ? Object.keys(records) : args;
@@ -46,7 +50,16 @@ for (const slug of targets) {
   const problems = [];
   const r = records[slug];
   if (!r) { console.log(`✗ ${slug}: no record found (cities/${slug}.json or pages/${slug}.json)`); failed++; continue; }
-  if (r.slug !== slug) problems.push(`"slug" field is "${r.slug}", expected "${slug}"`);
+  if (comboKeys.has(slug)) {
+    const [port, service] = slug.split('--');
+    if (r.port !== port || r.service !== service) problems.push(`"port"/"service" must be "${port}" / "${service}"`);
+    for (const k of ['title', 'description', 'h1', 'intro', 'highlights', 'sections', 'vessels', 'codes', 'deliverables', 'faqs']) if (r[k] === undefined) problems.push(`missing field "${k}"`);
+    if (!Array.isArray(r.highlights) || r.highlights.length !== 3) problems.push('highlights must have exactly 3 items');
+    if (!Array.isArray(r.sections) || r.sections.length < 4) problems.push('sections needs 4-6 items');
+    if (!Array.isArray(r.faqs) || r.faqs.length < 5) problems.push('faqs needs at least 5 items');
+    const own = ownText(slug, r).split(/\s+/).filter(Boolean).length;
+    if (own < 1300) problems.push(`port-and-inspection copy is ${own} words (write at least 1,300)`);
+  } else if (r.slug !== slug) problems.push(`"slug" field is "${r.slug}", expected "${slug}"`);
   if (citySlugs.has(slug)) {
     for (const k of CITY_FIELDS) if (r[k] === undefined) problems.push(`missing field "${k}"`);
     const row = rows.find((x) => x[0] === slug);
@@ -60,7 +73,7 @@ for (const slug of targets) {
     const own = ownText(slug, r).split(/\s+/).filter(Boolean).length;
     if (own < 1300) problems.push(`port-specific copy is ${own} words (write at least 1,300)`);
   }
-  const pg = section.PAGES.find((p) => p.path.endsWith(`/${slug}`) || (slug === LANDING_SLUG && p.kind === 'landing'));
+  const pg = comboKeys.has(slug) ? section.PAGES.find((p) => p.path === comboPath(...slug.split('--'))) : section.PAGES.find((p) => p.path.endsWith(`/${slug}`) && p.kind !== 'combo' || (slug === LANDING_SLUG && p.kind === 'landing'));
   if (pg && !pg.__stub) {
     const t = text(section.html(pg));
     const words = t.split(' ').filter(Boolean).length;
@@ -72,9 +85,9 @@ for (const slug of targets) {
     const all = `${pg.title} ${pg.description} ${t}`;
     for (const [re, label] of BANNED) { const m = all.match(re); if (m) problems.push(`${label}: "...${all.slice(Math.max(0, m.index - 50), m.index + 50)}..."`); }
     if (!CLASS_APPROVALS.length) { const m = all.match(APPROVAL_CLAIM); if (m) problems.push(`class-approval claim: "...${all.slice(Math.max(0, m.index - 50), m.index + 60)}..."`); }
-    console.log(`${problems.length ? '✗' : '✓'} ${slug}: ${words} words rendered${citySlugs.has(slug) ? `, ${ownText(slug, r).split(/\s+/).filter(Boolean).length} port-specific` : ''}`);
-  } else if (!citySlugs.has(slug) && !pageSlugs.includes(slug)) problems.push('slug is not a port, country, region, service or landing slug');
-  if (citySlugs.has(slug) || hubs.some(([h]) => h === slug)) for (const s of sentences(ownText(slug, r))) { const owners = [...(pool.get(s) || [])].filter((x) => x !== slug); if (owners.length) problems.push(`sentence also in ${owners.join(', ')}: "${s.slice(0, 90)}"`); }
+    console.log(`${problems.length ? '✗' : '✓'} ${slug}: ${words} words rendered${citySlugs.has(slug) || comboKeys.has(slug) ? `, ${ownText(slug, r).split(/\s+/).filter(Boolean).length} own` : ''}`);
+  } else if (!citySlugs.has(slug) && !pageSlugs.includes(slug) && !comboKeys.has(slug)) problems.push('slug is not a port, country, region, service, port--service or landing slug');
+  if (citySlugs.has(slug) || comboKeys.has(slug) || hubs.some(([h]) => h === slug)) for (const s of sentences(ownText(slug, r))) { const owners = [...(pool.get(s) || [])].filter((x) => x !== slug); if (owners.length) problems.push(`sentence also in ${owners.join(', ')}: "${s.slice(0, 90)}"`); }
   for (const p of problems) console.log(`    - ${p}`);
   if (problems.length) failed++;
 }

@@ -1,0 +1,125 @@
+{
+  "port": "rotterdam",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Rotterdam | Bulk & Tanker",
+  "description": "Hull structural integrity inspection in Rotterdam: corrosion pattern, buckling and crack checks on bulk carriers, tankers and container ships at berth or dock.",
+  "h1": "Structural condition checks on ships working Maasvlakte, Europoort and the Botlek repair docks",
+  "intro": "A bulk carrier that has just discharged ore at Maasvlakte has holds that nobody will see empty again for weeks. A container ship has hatch corners that have flexed on every North Atlantic crossing. Rotterdam gives a team brief windows to look at both. We combine ultrasonic thickness gauging with a record of the corrosion pattern, deformation and crack detection at the known hot spots, so the owner's technical department has measured evidence of the hull's condition. The team travels from India to the berth or the dock.",
+  "highlights": [
+    {
+      "h": "Holds inspected right after discharge",
+      "p": "Once an ore or coal cargo is out, the holds are at their emptiest and most accessible. A short call at Maasvlakte lets the team gauge lower frames, hopper plating and hold bulkheads before the next cargo hides them again."
+    },
+    {
+      "h": "Hatch corners on container ships",
+      "p": "Large hatch openings concentrate stress at the corners and the adjacent coaming. We check them for cracking and measure the plating around them, on ships whose liner schedule leaves a day or two at the terminal."
+    },
+    {
+      "h": "Findings graded by pattern",
+      "p": "A reading of low thickness means different things as general wastage, a pit, a groove along a weld or an eroded edge. The report names the pattern at each location so the repair and the class discussion start from the right category."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "h": "Where are structural checks made on ships in Rotterdam?",
+      "p": [
+        "Which place suits depends on what the ship needs to learn. A bulk carrier discharging at the Maasvlakte terminals is gauged during or just after the discharge, when the holds are empty, safe access can be arranged and the stevedores have finished with the hatch covers. A container ship at a Maasvlakte terminal offers the deck, the hatch coamings, the hatch covers and the accessible topside structure, within the window the terminal works to.",
+        "For the structure below the waterline, the yard is the only option. Damen Shiprepair's Botlek docks give access to the bottom and sides when a ship is out of the water, and that is where a structural integrity programme is completed for ships in the middle of a docking. Lay-by berths and buoys fill the gap between: ballast tanks can be emptied and ventilated, and the ship can be inspected inside without disrupting cargo work.",
+        "At the Botlek and Pernis jetties, tankers and chemical carriers are gauged in the accessible places, under the terminal's permit rules, and the cargo tanks wait for cleaning."
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which ships need a structural check here, and what drives it?",
+      "p": [
+        "Bulk carriers are the most obvious candidates. Ore and coal are abrasive, and a hold that has loaded them for fifteen years shows it in the lower frames and the hopper. Owners ask for a structural check before an intermediate survey, before a sale or after a grounding or heavy-weather event reported by the master.",
+        "Container ships come for different reasons: reported cracks near hatch corners, deformation noticed after a bad crossing, or the class surveyor's request for investigation of a known detail. Tankers need a check when the ballast tank coating has broken down, and chemical tankers when the cargo history includes aggressive parcels. Cruise ships and ro-ro ferries, which berth in the city and at the ferry terminals, are checked at fixed refit periods, with the dates dictated by their timetables.",
+        "A buyer inspecting a second-hand ship at a Rotterdam lay-by berth is another common customer. The sale depends on whether the structure is as good as the seller says, and gauged readings with pattern notes settle that argument."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is a structural check scoped for these ships?",
+      "p": [
+        "We begin with the question the owner is trying to answer. If it is a pending survey, the scope follows the class requirements for the ship's type and age. If it is a purchase, the scope concentrates on the areas that carry the structural risk: the bottom, the lower hold frames, the ballast tanks and the deck. If it is a reported crack or deformation, the scope starts at that location and works outward.",
+        "On a bulk carrier the plan includes the lower frame brackets and the hopper plate junction in the holds, the cross-deck structure and hatch coamings on deck, the topside tanks and a sample of the ballast tank boundaries. On a container ship it includes the hatch corner regions, the cross-deck box structure and the accessible parts of the double bottom. Each is gauged in a pattern that separates general wastage from localised loss.",
+        "Weather and the rhythm of the port shape the work. Rain stops magnetic particle work on deck and makes ladders unsafe, so deck inspection at an open terminal is planned with a margin. Terminal operations may close a hold to us for a few hours while a gang works nearby, so we agree the sequence with the chief officer and the terminal planner before the team begins."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do structural checks usually find on these ships?",
+      "p": [
+        "Bulk carriers show wastage in the lower frame webs and flanges, the hopper side plating and the bulkhead stools, where cargo contact and moisture work together. Gauging a frame at several heights shows whether it has lost steel evenly or whether the loss is worst near the tank top, a distinction that matters for the repair.",
+        "Container ships tend to show their trouble in fatigue details: cracks at the corners of hatch openings, at the toes of coaming brackets and in the cross-deck structure. These are looked for with magnetic particle testing after the area has been cleaned, and a crack is reported with its length and position. Tankers show pitting and grooving in ballast tanks, and chemical tankers show coating failure that lets corrosion start along weld seams."
+      ],
+      "list": [
+        "Lower frame and hopper wastage in bulk carrier holds, measured at several heights.",
+        "Hatch corner and coaming bracket cracking on container ships.",
+        "Deformation of tank-top and deck plating after heavy weather or cargo damage.",
+        "Pitting and grooving in tanker ballast spaces.",
+        "Coating breakdown along weld seams on chemical tankers."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How is a Rotterdam structural check planned?",
+      "p": [
+        "We need the ship's name or IMO number, the type and class, the reason for the check and the expected call or dock dates. If a previous survey flagged a location, send the report. We confirm the scope, name the equipment the team will bring and ask the agent for terminal or yard access for the technicians.",
+        "Each technician travels from India with a Schengen visa for the job. That sets the earliest date, so we ask owners to alert us as soon as they know the ship will be at Rotterdam. For a short terminal call, we plan a team of the size the call allows, working in parallel across the holds or the deck.",
+        "If the check finds a crack or a plate beyond margin, the owner decides whether to involve the class surveyor at once. We report the finding the same day on site so the decision can be made before the ship sails, and the formal report follows after the readings are checked."
+      ]
+    }
+  ],
+  "vessels": [
+    "Capesize and Panamax bulk carriers",
+    "Large container ships",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Ro-ro and ro-pax ferries",
+    "Cruise ships",
+    "Offshore units in the repair docks"
+  ],
+  "codes": [
+    "IACS UR Z7 and UR Z10 series for hull surveys",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "SOLAS chapter XI-1 and the 2011 ESP Code",
+    "IACS Recommendation 47 on repair quality standards",
+    "ASTM E797 and ISO 17638 for thickness gauging and magnetic particle testing",
+    "ASNT SNT-TC-1A for personnel qualification"
+  ],
+  "deliverables": [
+    "Thickness readings by member, with the corrosion pattern named at each location",
+    "Crack indications marked on sketches with length and position",
+    "Photographs of representative wastage, deformation and cleaned areas",
+    "Notes on coating condition beside each group of readings",
+    "A prioritised list of locations for repair, monitoring or class discussion"
+  ],
+  "faqs": [
+    {
+      "q": "Can a bulk carrier be inspected during a short call at Maasvlakte?",
+      "a": "Yes, if the holds are emptied and access is arranged. The team gauges lower frames, hopper plating and bulkheads, and checks the hatch coamings on deck, working in parallel across holds. The agent submits the technicians' names for terminal access before the ship berths."
+    },
+    {
+      "q": "What is the difference between general wastage and pitting in the report?",
+      "a": "General wastage is a fairly even loss across a plate or member, while pitting is localised deep loss in small areas. They are repaired differently and judged differently by class, so the report names the pattern at each location."
+    },
+    {
+      "q": "Can you look for hatch corner cracks on a container ship at Rotterdam?",
+      "a": "Yes. We clean the corner and the adjacent coaming bracket and examine them with magnetic particle testing, then gauge the surrounding plating. The work fits a terminal call if the hatch covers and the coaming are accessible and the weather is dry."
+    },
+    {
+      "q": "Does a structural check replace the class survey?",
+      "a": "No. It is the owner's evidence of condition. Class surveyors decide what the survey requires and what repairs are needed. Our readings and pattern notes can help the owner prepare for the survey and discuss findings with the surveyor."
+    },
+    {
+      "q": "What if you find a crack on a ship about to sail?",
+      "a": "We tell the master and the owner's superintendent on site the same day, with its position and length. The owner decides whether to call the class surveyor or arrange a repair before departure; the written report follows once the readings have been reviewed."
+    },
+    {
+      "q": "Is a structural check useful before buying a ship in Rotterdam?",
+      "a": "Yes. A lay-by berth gives time to open ballast tanks and gauge bottom and lower structure. The readings and pattern notes show whether the steel matches the seller's description, and the buyer can negotiate on measured evidence rather than allowances."
+    }
+  ]
+}

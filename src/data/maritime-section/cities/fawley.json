@@ -1,0 +1,110 @@
+{
+  "slug": "fawley",
+  "name": "Fawley",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Fawley Tanker Thickness Gauging | UTM at the Marine Terminal",
+  "description": "Ultrasonic thickness gauging at Fawley on Southampton Water: crude and product tankers at the refinery jetties: ballast tanks, deck and piping under permit.",
+  "h1": "Tanker Thickness Measurement at the Fawley Marine Terminal",
+  "intro": "Fawley is a tanker port first and last: crude carriers and product tankers come to the refinery jetties on the western shore of Southampton Water to discharge or load, and leave when the cargo is done. A tanker's time alongside is short and tightly controlled, so gauging here means choosing the right spaces. Atlantis mobilises technicians from India to board the ship at the jetty and work to the terminal's permit rules.",
+  "keywords": [
+    "fawley thickness gauging",
+    "tanker ultrasonic thickness measurement fawley",
+    "ship inspection southampton water",
+    "ballast tank gauging tanker",
+    "product tanker utm uk",
+    "esp tanker thickness measurement",
+    "tanker deck piping gauging",
+    "fawley marine terminal",
+    "utm fawley",
+    "tanker condition survey uk"
+  ],
+  "highlights": [
+    {
+      "h": "Ballast spaces while cargo moves",
+      "p": "Cargo tanks are off limits while discharge or loading is under way, but segregated ballast tanks, peak tanks and cofferdams are not. We plan ballast-side readings that run in parallel with cargo operations."
+    },
+    {
+      "h": "Deck and piping outside the hazardous zone",
+      "p": "Deck plating, external pipe runs and the engine room can be gauged within the terminal's permit system, with hot-work and spark controls agreed beforehand and enforced on the jetty and on board."
+    },
+    {
+      "h": "Evidence for vetting and docking",
+      "p": "Charterers and terminals screen tankers closely. Fresh gauging gives a superintendent a documented condition record for vetting, and a steel estimate for the next docking at a yard elsewhere in Europe."
+    }
+  ],
+  "port": {
+    "h": "Fawley: refinery jetties on the western shore of Southampton Water",
+    "p": [
+      "Fawley lies on the western side of Southampton Water, on the Hampshire shore between the Solent and the head of the estuary, facing Southampton's own docks across the water. The refinery stands on the shoreline with a marine terminal of several jetties reaching into deep water, and tankers arrive from the Solent with a pilot and tugs. The water is sheltered by the Isle of Wight, and Southampton's long period of high water gives deep-draught tankers more time at the jetty approach than most estuary ports can offer. Beyond the refinery, Calshot Spit marks the entrance to the water, and Hythe and Marchwood lie further up on the same shore.",
+      "Traffic is concentrated in a few ship types. Crude oil tankers, from medium-sized vessels up to larger crude carriers, arrive to discharge feedstock, and product tankers load petrol, diesel, jet fuel and other refined products for the UK coast and export. Coastal tankers and smaller chemical or bitumen ships also use the terminal. Tankers here spend a defined time alongside for discharge or loading, followed by departure on the tide, and a ship that has just finished a cargo may be gas-freed or in a ballast condition, which opens up different gauging options.",
+      "The result is a port where the scope is chosen by cargo status. A tanker discharging crude has cargo tanks full or part full and gas-dangerous, while the ballast tanks may be empty or in the course of being filled. A tanker on ballast after discharge is a better candidate for wider tank work, but terminals prefer ships to leave promptly. For superintendents, the best use of a Fawley stay is a carefully prepared set of readings in ballast spaces, deck and piping, with cargo-tank work left for a drydock or a gas-free anchorage visit."
+    ]
+  },
+  "facilities": {
+    "h": "Where a tanker can be gauged at Fawley",
+    "p": [
+      "Gauging at the jetty is subject to the terminal's rules. The ship's agent submits the team's details in advance, the terminal issues passes, and the master and terminal agree the permit to work before anyone boards. Our equipment is chosen to suit the zone, and no hot work is carried out without a formal permit. Work starts at deck level, where plating, external pipe runs and coamings can be read, then moves into segregated ballast tanks, cofferdams and the engine room once the permits and gas-free status are in place.",
+      "There is no repair drydock at Fawley itself, and the Solent area has limited drydocking capacity for large tankers, so ships needing steel renewal usually dock at yards on the Continent or elsewhere in the UK. Gauging at the jetty provides the base for the steel list. A tanker waiting for a berth may lie at anchor in the Solent or off the Isle of Wight, where a short launch-borne deck scope is sometimes possible, though cargo-tank work is kept for gas-free periods."
+    ],
+    "list": [
+      "Refinery marine terminal jetties: deck plating, external piping and manifold-area structure outside the cargo hazard zone.",
+      "Segregated ballast tanks at the jetty: double-bottom, wing and peak tanks prepared in advance and entered under permit.",
+      "Engine-room and sea-water piping: scrubber overboard lines and cooling systems on tankers fitted with scrubbers.",
+      "Cofferdams and void spaces: readings taken while cargo operations continue elsewhere on board.",
+      "Solent anchorages: short launch-borne scopes on tankers held for a berth or for tide."
+    ]
+  },
+  "context": {
+    "h": "Port state control, tanker vetting and the rules at the jetty",
+    "p": [
+      "Port state control in the UK is the Maritime and Coastguard Agency's responsibility, and the UK has applied Paris MoU practice through its own law since leaving the EU. Oil tankers older than a certain age are priority targets for expanded inspections, and an inspector who finds ballast tanks with extensive coating breakdown, or a deck with pitting, may ask for thickness records. For tankers under the Enhanced Survey Programme, thickness measurement at renewal surveys is mandatory, and gauging between surveys keeps the owner aware of trends.",
+      "Commercial vetting adds its own pressure. Terminal operators and charterers inspect tankers against industry vetting standards, and a vessel with a poor structural record may be refused. A superintendent managing a tanker fleet on the UK and North Sea trades therefore uses time at jetties such as Fawley to collect condition evidence. The IMO's rules on hazardous materials, EU ship recycling requirements for ships calling EU ports and the UK's own emissions reporting also influence decisions about whether to repair, scrub or retire an older tanker."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Fawley",
+    "p": "Work at Fawley is built around the permit system and cargo status. We agree a scope with the superintendent and the master that starts with the spaces always available during cargo work, namely ballast tanks, cofferdams, deck and piping, and extends to cargo tanks only when the ship is gas-free and the terminal consents. The readings go into the class TM format, with areas near the allowable diminution marked.",
+    "list": [
+      "Segregated ballast tank gauging on a crude tanker during discharge, with the double bottom and wing tanks prepared by the crew.",
+      "Deck plating and external piping readings on a product tanker while loading, outside the hazardous zone and within the permit.",
+      "Forepeak, aft peak and cofferdam gauging on a coastal tanker as part of a pre-docking steel estimate.",
+      "Overboard discharge and scrubber wash-water pipe readings on a product tanker that runs an exhaust gas cleaning system.",
+      "Pre-purchase condition gauging of a product tanker lying alongside at the terminal."
+    ]
+  },
+  "logistics": "Southampton Airport is the nearest airport with limited services, and most teams fly into Heathrow or Gatwick and continue by road or rail towards Southampton and Fawley. The terminal controls access to the jetties, with passes issued through the vessel's agent, and some tasks need advance safety induction. Technicians travel from India on UK visas, applied for once the call is confirmed, and owners expecting repeat visits can keep visas in place. Launches for the Solent anchorages are arranged by the agent.",
+  "vessels": [
+    "Crude oil tankers",
+    "Product tankers",
+    "Coastal tankers",
+    "Chemical and bitumen tankers",
+    "Tugs and terminal support craft",
+    "Pilot boats and mooring launches"
+  ],
+  "faqs": [
+    {
+      "q": "Can cargo tanks be gauged at the Fawley jetties?",
+      "a": "Generally not while cargo is on board or being worked. Cargo tank entry needs a gas-free certificate and the terminal's agreement. The usual approach is to gauge ballast tanks, cofferdams, deck and piping at the jetty, and leave cargo-tank work for a drydock or a period when the ship is gas-freed and the terminal consents."
+    },
+    {
+      "q": "How does the permit system affect gauging at the terminal?",
+      "a": "Every task needs a permit to work agreed by the master and the terminal before anyone boards. Hot work is excluded, equipment is selected for the zone, and the team follows the ship's enclosed-space entry procedure. We submit the team's details to the agent beforehand, so passes and safety inductions are ready when the ship is alongside."
+    },
+    {
+      "q": "Is there a drydock at Fawley for tanker steel renewal?",
+      "a": "No. The Solent area has limited capacity for large tankers, so owners dock at yards elsewhere in the UK or on the Continent. Gauging at Fawley gives the steel estimate and the evidence for tender, helping the yard plan material and the class surveyor to agree the renewal list."
+    },
+    {
+      "q": "Can a tanker be gauged at the Solent anchorage?",
+      "a": "A short deck and air-pipe scope is sometimes possible by launch if the weather and the pilot station allow safe boarding. Tank work at anchor needs gas-free status and is limited. For a full ballast programme, the jetty or a drydock is the realistic setting."
+    },
+    {
+      "q": "How is a Fawley job arranged with an India-mobilised team?",
+      "a": "The superintendent supplies the ship's dates, jetty and scope. We apply for UK visas, book flights to London and onward travel, and submit the team's details to the agent for terminal passes. Cargo programmes change, so we keep the scope in priority order, and agree any change with the master and the terminal."
+    }
+  ],
+  "nearby": ["southampton", "portsmouth", "poole", "portland-dorset", "falmouth", "le-havre"]
+}

@@ -1,0 +1,120 @@
+{
+  "port": "marseille",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Marseille Fos | Forme 10",
+  "description": "Special and renewal survey thickness measurement at Marseille and Fos: Forme 10 dock gauging for cruise ships, plus tanker and LNG carrier readings at anchor.",
+  "h1": "Renewal Survey Gauging in Marseille, Fos and Lavéra",
+  "intro": "Marseille-Fos is two ports with two kinds of renewal survey. In the city basins, cruise ships and ferries go into the repair docks, with Forme 10 the largest, and gauging runs alongside the yard's own blasting and steelwork. At Fos and Lavéra, tankers, LNG carriers and bulk carriers wait at anchor or at oil and ore berths, and gauging has to fit terminal rules and the weather. We mobilise a thickness measurement team from India to whichever side of the port the ship is on, and plan around the berth line-up or the dock programme.",
+  "highlights": [
+    {
+      "h": "Forme 10 docking readings",
+      "p": "A cruise ship in Forme 10 offers the fullest gauging opportunity in the port: tanks open, staging rigged and the bottom dry. We time the readings with the yard's blasting and steel programme so the survey and the work do not collide."
+    },
+    {
+      "h": "Anchorage gauging at Fos",
+      "p": "Tankers and bulk carriers often wait days at the Fos anchorage for a berth. Empty ballast tanks and deck structure can be gauged during that wait, so survey readings are on file before the ship reaches the dock."
+    },
+    {
+      "h": "A mistral allowance in every plan",
+      "p": "The mistral can stop launch transfers for days, so plans for anchored ships carry a weather margin, and the team stays flexible about which day it boards."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-marseille-fos",
+      "h": "Where is renewal gauging done at Marseille, Fos and Lavéra?",
+      "p": [
+        "In the city, the Chantier Naval de Marseille runs the repair docks, and Forme 10 takes the largest cruise ships and ferries. A docking there means the hull is dry from keel to waterline, tanks are open and the yard has staging up for its own work. The ferry and cruise berths in the eastern basins serve repairs afloat between voyages, but turnarounds are short and passenger operations come first, so gauging there is limited to spaces the chief engineer can release.",
+        "At Fos and Lavéra, the picture changes. Terminal safety rules govern ballast-tank entry during cargo operations, so owners prefer to gauge at the anchorage while the ship waits. LNG carriers at the Fos terminals follow the terminal's gas-safety rules, and container and dry-bulk terminals allow short, defined jobs. For ships needing the dock, the yard in the city is the natural next step, so a plan often spans both sides of the port."
+      ],
+      "list": [
+        "Forme 10, Chantier Naval de Marseille: full docking gauging on cruise ships, ferries and large merchant ships",
+        "Other repair docks and quays in the city basins: ro-pax ferries and smaller ships, afloat or in dock",
+        "Fos anchorage: launch-served gauging on tankers and bulk carriers waiting for a berth",
+        "Lavéra and Fos oil berths: ballast tanks and deck on tankers, under the terminal's permit rules",
+        "Fos LNG terminals: ballast tanks and hull structure on LNG carriers, within gas-safety rules"
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which Marseille-Fos ships come up for renewal survey gauging?",
+      "p": [
+        "Cruise ships and ferries lead the city side. Their renewal surveys are tied to the season: cruise lines dock outside the main Mediterranean season, and Corsica and North Africa ferries use quieter months. Gauging on these ships covers ballast and fuel tanks, tank-top plating, sea chests and the bottom, with scrubber wash-water piping on ships that run them. Tankers at Lavéra and Fos are in their own cycle, with CAP and vetting at around fifteen years driving many gauging requests.",
+        "LNG carriers form a smaller but important group at Fos. Their cargo tanks are inaccessible for ordinary gauging, so renewal surveys concentrate on ballast tanks, cofferdams, the inner hull and deck structure. Bulk carriers delivering ore and coal to the Fos steelworks bring hopper tank and topside tank gauging, with holds measured once cleared. Each ship type has its own rule extent, and the plan is built from the class programme.",
+        "Age sets the extent. A cruise ship at her second renewal survey needs the rule extent and a few well-placed extra readings, while a Corsica ferry past twenty years needs gauging extended deck by deck. Tankers approaching CAP are measured against both the class rules and the charterer's expectations, which the technical manager can usually state in a sentence. We build the plan from that, then compare each reading with the last survey's report wherever one exists."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is gauging scoped for a ship waiting at Fos or docking at Forme 10?",
+      "p": [
+        "For a Forme 10 docking the scope follows the class programme plus the yard's schedule. We ask for tank cleaning and gas-freeing dates, staging erection plans and the order in which tanks will be opened, then arrange gauging so each space is measured as soon as it is released, before blasting or steel crews take over. Bottom shell and sea chests are done early, while the dock is dry and lit.",
+        "For an anchored tanker, the scope is the set of spaces already prepared: empty ballast tanks, deck plating and deck piping. Cargo tanks wait for the docking. Because a ship may be called to berth at short notice, the plan has an order of priority, so the most important tanks are done first. LNG carriers are measured only in spaces released under the terminal's gas rules, and the plan states which areas are not accessible.",
+        "Safety rules shape the day. In Forme 10 the yard runs blasting, painting, hot work and staging erection at once, so we agree each day's gauging areas with the foreman and the ship's officer, and keep clear of any space under blasting. At Fos, terminal permits, gas test results and the master's agreement are checked before every entry, and a second person always stays at the tank access."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does gauging at Marseille-Fos typically find?",
+      "p": [
+        "On cruise ships and ferries, findings cluster in ballast tanks with failed coating, around sea chests and overboard valves, and in fuel tank boundaries that run warm. Scrubber wash-water piping and its shell penetrations show wall loss where the water is acidic. On tankers, cargo tank bottoms show pitting, ballast tank boundaries beside heated cargo show wastage, and deck plating under pipe supports thins quickly.",
+        "Ore carriers show hopper tank and topside tank corrosion, with lower hold frames wasted where wet ore sits. LNG carriers' ballast tanks show coating breakdown at edges, and cofferdams collect condensation. Whatever the ship, the report ranks each reading against its allowable diminution, so the yard and the owner can see which items need renewal this docking and which can wait.",
+        "Where wastage is heavy we recommend a tighter reading grid before renewal limits are drawn, because scattered readings on a long plate can miss its thinnest part. A fine grid around a suspect area takes a few hours and prevents either needless renewal or a plate left in service that should have come out. Scale and old coating are cleared locally before gauging, since both mask true remaining steel."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How to plan the job around a Forme 10 slot or a Fos berth line-up?",
+      "p": [
+        "Forme 10 slots are fixed well ahead, so contact us when the yard confirms. We then apply for Schengen visas and arrange travel to Marseille Provence Airport, from where both the city docks and Fos are reachable by road. For anchored ships the planning is looser: we follow the ETA, the berth line-up and the weather forecast, and keep flights flexible.",
+        "Send the ship's name, class, age, survey type, the docking yard and dates, last thickness reports and the spaces that will be ready. Tell us who will attend for the owner and class. The ship's agent arranges gate passes and, at Fos, launch boats, and we agree who confirms each morning's weather decision. For a ship that will anchor first and dock afterwards, one mobilisation can cover both."
+      ]
+    }
+  ],
+  "vessels": [
+    "Cruise ships docking in Forme 10",
+    "Corsica, Sardinia and North Africa ro-pax ferries",
+    "Crude and product tankers at Lavéra and the Fos anchorage",
+    "Chemical tankers under the ESP Code",
+    "LNG carriers at the Fos terminals",
+    "Ore and coal bulk carriers delivering to the Fos steelworks",
+    "Container ships calling at the Fos terminals"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "IACS UR Z10.3 for chemical tankers and Z10.4 for double-hull oil tankers",
+    "SOLAS Chapter XI-1 and the Enhanced Survey Programme (ESP) Code",
+    "IACS UR Z17 for firms carrying out thickness measurement",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ASTM E797 for manual contact ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness readings by tank, section and structural member",
+    "Bottom shell and sea chest tables from the dry dock",
+    "Ballast tank and cofferdam gauging summary for tankers and LNG carriers",
+    "Scrubber piping wall-thickness readings where scrubbers are fitted",
+    "Priority list of plates near renewal thickness, with sketches and photographs"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge a tanker while it waits at the Fos anchorage?",
+      "a": "Yes, for empty ballast tanks, deck plating and deck piping the crew has prepared. A team boards by launch through the agent, and the mistral can delay transfers, so we plan a weather allowance. Cargo tanks are left for the docking."
+    },
+    {
+      "q": "What does a Forme 10 docking give the gauging team?",
+      "a": "A dry hull, open tanks and the yard's staging, so bottom, sea chests and tank internals can be measured in one visit. We time readings with the yard's schedule so each space is gauged before blasting or steel work starts there."
+    },
+    {
+      "q": "How are LNG carriers gauged at Fos?",
+      "a": "Only in the spaces that can be released under the terminal's gas-safety rules, mainly ballast tanks, cofferdams and deck structure. Cargo containment is outside ordinary gauging. The report states which spaces were examined and which were not accessible."
+    },
+    {
+      "q": "Does the mistral affect gauging schedules?",
+      "a": "Mainly at the Fos anchorage, where the north-westerly wind can stop launch transfers for days. In the city docks it matters little. Plans for anchored ships name a backup day and an order of priority for spaces."
+    },
+    {
+      "q": "Can one mobilisation cover both an anchorage visit and a docking?",
+      "a": "Yes, if the dates line up. The team gauges accessible spaces at Fos while the ship waits, then follows her into the city dock for bottom shell and tank internals. We agree the two stages in advance with the technical department."
+    }
+  ]
+}

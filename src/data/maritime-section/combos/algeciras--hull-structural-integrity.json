@@ -1,0 +1,123 @@
+{
+  "port": "algeciras",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Algeciras | Ships",
+  "description": "Hull structural integrity inspection at Algeciras: hatch-corner cracking, car-deck and ramp structure, corrosion pattern and gauging on Strait ships.",
+  "h1": "Structural Condition of Ships Working the Strait: Cracks, Corrosion and Deformation at Algeciras",
+  "intro": "Ships that work the Strait of Gibraltar are loaded, flexed and turned round quickly, and their steel shows it in particular places. Open-deck container ships develop fatigue cracks at hatch corners, ro-pax ferries wear ramps, hinges and car decks on a repeated rotation, and tankers and car carriers corrode where coatings have failed. We mobilise a team from India to the ship at an Algeciras berth or at anchor, record where the steel has wasted or cracked, and report it in a form your technical department can assess against the ship's rules.",
+  "highlights": [
+    {
+      "h": "Open-deck ships and hatch corners",
+      "p": "Large container ships rely on a wide-open deck for strength, and the corners of hatch openings carry high stress. Berth calls in Algeciras give a window to examine coaming corners and adjacent plating, clean them and test for cracks."
+    },
+    {
+      "h": "Ro-pax wear in one rotation",
+      "p": "Ferries on the Tanger Med, Tangier, Ceuta and Tarifa crossings load vehicles every few hours. Ramps, hinges, car-deck plating and drain areas are examined and gauged during lay-overs and the off-season maintenance period."
+    },
+    {
+      "h": "Findings tied to the trade",
+      "p": "A tanker discharging at San Roque and a car carrier relaying cargo corrode in different places. The report records pattern and location for each, so the superintendent sees where a ship of this type is likely to need steel next."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-trade-does",
+      "h": "What does Strait trading do to a ship's structure?",
+      "p": [
+        "Structural wear follows the way a ship is used, and the Algeciras trades are unusually varied. Mainline container ships pass through on long loops and relay boxes at the terminals, loading and discharging in quick rotation that changes the weight distribution along the hull from one call to the next. Feeders crossing between Iberian, North African and Atlantic ports repeat shorter cycles. Tankers bound for the San Roque refinery load and discharge in sequence, and ro-pax ferries make several crossings a day for most of the year.",
+        "Each of these produces its own pattern. Frequent load changes work the connections between longitudinal stiffeners and transverse frames. Salt spray and wet cargo handling attack deck plating and the underside of hatch covers. Ballast water exchanges expose tank boundaries to cycles of wetting and drying. A structural integrity inspection starts from the trade, because the places that matter on a feeder are not the places that matter on a refinery tanker."
+      ]
+    },
+    {
+      "id": "container-ships",
+      "h": "Where do container ships crack and corrode at Algeciras?",
+      "p": [
+        "Open-deck container ships carry torsional and bending loads through a hull with very large hatch openings. The stress concentrates at the corners of those openings, at the ends of hatch coamings and at transitions where the deck plating changes thickness. Fatigue cracks, when they start, usually begin at weld toes or at the edges of cut-outs in these areas, and grow slowly over many voyages. Cell guides, lashing bridges and hatch cover supports add further details that can crack or wear.",
+        "During a berth call, deck structure and the spaces beneath it can be examined while the cranes work, provided the area is cleaned and permitted. Cracks are looked for first by close visual inspection, then confirmed by magnetic particle testing, or penetrant testing where magnetic methods are impractical. Thickness readings on the plating around each detail show whether wastage is adding to the stress. Because relay calls are short, scoping is agreed with the chief engineer before arrival, and the list of details to be cleaned is ready when the team boards."
+      ]
+    },
+    {
+      "id": "ro-pax-car-carriers",
+      "h": "What gets inspected on ro-pax ferries and car carriers?",
+      "p": [
+        "Ro-pax ferries and car carriers are inspected differently from cargo ships because their structure is full of decks, ramps and openings. The heavy rolling loads on ramps and car-deck plating produce wear and fatigue at hinge supports, ramp stiffeners and the connections to the shell. Drainage points collect water and salt, so plating near scuppers and in way of the bow and stern doors corrodes first. Ballast tanks under the car decks wear in the usual way, but their boundaries are often coated with little maintenance between dockings.",
+        "Lay-overs at Algeciras and Tarifa, and the quiet months outside the summer Operación Paso del Estrecho, offer windows for this work. The inspection covers ramp and hinge structure, car-deck plating by zone, door seatings and coamings, and accessible ballast tanks. Where a crack indication is found, its length and location are recorded with photographs and sketches, and a repair decision is left to the owner and class. For a ferry that cannot leave its schedule, we plan the sequence so the most important structure is examined first."
+      ]
+    },
+    {
+      "id": "tankers",
+      "h": "How are tankers at the San Roque berths examined?",
+      "p": [
+        "Tankers calling for the refinery bring a different set of questions. Cargo tanks can only be entered when the ship is gas-free, so structural work at the berth normally concentrates on deck structure, pump rooms and segregated ballast tanks. Deck longitudinals, the plating beneath cargo pipelines and the areas around mooring fittings tend to show localised wastage. In ballast tanks, the usual suspects are underdeck structure and the lower strakes where coating breakdown allows grooving along weld lines.",
+        "Permit-to-work rules at the berth decide what is allowed and when, so the plan is built around the terminal's requirements and the ship's discharge programme. For an older tanker, the structural findings feed into the renewal survey planning, and they can also support a charterer's request for a condition assessment. The report distinguishes between general wastage, pitting and grooving, since the three have different consequences for the allowable margin."
+      ]
+    },
+    {
+      "id": "deformation",
+      "h": "How are buckling, set-in plating and damage recorded?",
+      "p": [
+        "Corrosion is not the only way steel loses strength. Berthing contacts, tug pushing and cargo handling can leave dents, set-in shell plating and buckled stiffeners, particularly on ro-pax ferries and car carriers that berth many times a week. Panels that have buckled under compressive load also lose capacity, even where thickness readings are good.",
+        "Each deformed panel is recorded by location, extent and depth, with photographs and a sketch, and gauged around its edges to check for wastage. The superintendent receives a map of deformation that can be compared with the previous survey, so growth is visible. Where class has already recorded a deformation, we measure it again against the earlier figure instead of treating it as new."
+      ]
+    },
+    {
+      "id": "planning-bay",
+      "h": "How is a structural inspection planned around the bay's short calls?",
+      "p": [
+        "Time in the bay is controlled by cargo, bunkering and berth windows, not by the inspection. We therefore ask for the ship's expected arrival, berth and sailing times as early as the agent can provide them, and build a priority list: details most likely to be cracked, members closest to the renewal limit, and spaces flagged during the last survey. Anything left over is rolled into a later port call or a docking.",
+        "Access arrangements are agreed in advance. The agent requests terminal passes and, for ships at anchor, a launch; the ship prepares cleaning at the details to be tested, lighting and gas-free certificates. A strong easterly in the Strait can delay boarding or cut an anchorage stay short, so jobs at anchor carry some float. When the findings justify a larger programme, the same team can continue at a nearby drydock without breaking the record."
+      ]
+    }
+  ],
+  "vessels": [
+    "Open-deck container ships",
+    "Container feeders",
+    "Ro-pax ferries on the Strait crossings",
+    "Car carriers (PCTC)",
+    "Crude and product tankers",
+    "Bulk carriers waiting in the bay",
+    "Chemical tankers"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "IACS UR Z10.1 and Z10.4 for the enhanced survey of oil tankers and bulk carriers",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "SOLAS chapter II-1 on structural strength and watertight integrity",
+    "ASTM E709 and ISO 17638 for magnetic particle testing",
+    "ASTM E797 for manual ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness readings by member with original thickness, diminution and allowable margin",
+    "Crack indication sketches, lengths and photographs from magnetic particle or penetrant testing",
+    "Hatch coaming and corner records for open-deck ships",
+    "Ramp, hinge and car-deck condition records for ro-pax ferries and car carriers",
+    "Deformation map with location, extent and depth of set-in or buckled panels",
+    "Corrosion pattern records separating general wastage, pitting and grooving"
+  ],
+  "faqs": [
+    {
+      "q": "Can hatch corner cracks on a container ship be found during a call at Algeciras?",
+      "a": "Often yes, if the area can be cleaned and permitted while cargo work continues. Cracks are found by close visual examination, then confirmed by magnetic particle or penetrant testing. Because calls are short, the details to be tested are agreed with the chief engineer before arrival, so the team spends its time testing rather than searching."
+    },
+    {
+      "q": "Is a hull structural integrity inspection the same as a class survey?",
+      "a": "No. It is an owner's inspection that measures steel condition, records corrosion pattern, deformation and cracking, and reports measured data your technical department or class engineer can assess. Our records are owner's NDT records, not class approvals. They are most useful when taken ahead of a survey, so the repair scope is known before the yard quotes."
+    },
+    {
+      "q": "What can be inspected on a ro-pax ferry during a lay-over at Algeciras or Tarifa?",
+      "a": "Ramp and hinge structure, car-deck plating, door seatings and coamings, and ballast tanks that can be entered safely. Lay-overs are short, so we agree a priority list in advance. Crack indications at hinge supports and ramp stiffeners are tested by magnetic particle methods, and surrounding plating is gauged for wastage."
+    },
+    {
+      "q": "Can ultrasonic gauging find fatigue cracks in a ship's structure?",
+      "a": "Not reliably. A thickness gauge measures the plate under the probe, and a fatigue crack at a weld toe is a surface-breaking defect that a thickness reading usually misses. We plan crack detection as its own task at known fatigue details, using close visual inspection and magnetic particle or penetrant testing after cleaning, and use gauging to check the plating around each detail."
+    },
+    {
+      "q": "What happens if a tanker at San Roque needs structural work beyond what the berth allows?",
+      "a": "We record what can be reached at the berth, usually deck structure, pump rooms and segregated ballast tanks, and list the spaces that need a gas-free window or a dock. The report gives the superintendent a ranked list, so cargo tank gauging or repair planning can be programmed into the next suitable stay."
+    },
+    {
+      "q": "How does a team reach a ship at anchor in Algeciras Bay?",
+      "a": "The ship's agent books a launch and arranges access, and the technicians board with their equipment. Boarding depends on weather, particularly strong easterly winds in the Strait, so we keep some margin in the plan. Tanks to be entered must be certified safe, and cleaning at crack-test locations should be done before the team arrives."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "port": "antwerp",
+  "service": "hatch-cover-ultrasonic-testing",
+  "title": "Hatch Cover Ultrasonic Testing Antwerp | Tightness Test",
+  "description": "Ultrasonic hatch cover tightness testing in Antwerp for bulk and multipurpose ships before steel and breakbulk loading: leak positions marked on the cover.",
+  "h1": "Hatch Cover Tightness Testing Before Loading at Antwerp Berths",
+  "intro": "Antwerp loads steel, project cargo and bulk on ships whose hatch covers have to keep out rain, spray and the wash of a North Sea passage. A cover that leaks wets the cargo, and the claim arrives at discharge. An ultrasonic tightness test finds the leak paths beforehand, with a transmitter in the empty closed hold and a receiver run along every seal and cross joint above. Atlantis NDT sends operators from India to the ship in Antwerp, marks each leak position on the cover and reports to the master, owner or charterer.",
+  "highlights": [
+    {
+      "h": "Test before steel and breakbulk loading",
+      "p": "Steel coils and plate, and other water-sensitive breakbulk cargoes loaded at Antwerp's berths, are damaged by rain entering through packing and cross joints. The test finds those paths while the hold is still empty."
+    },
+    {
+      "h": "Fits between discharge and loading",
+      "p": "Ships changing cargo at the berths inside the locks have a gap with the hold empty and clean. That is when a transmitter can be placed and the covers closed and tested, with time left for repair before loading."
+    },
+    {
+      "h": "Tests at anchorage waits",
+      "p": "Ships waiting at anchor off the Scheldt mouth for a berth have the same empty holds. When access by launch is arranged, a test during the wait leaves the crew time to renew packing before the berth is called."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-hatch-test-done",
+      "h": "Where in Antwerp can hatch covers be tested?",
+      "p": [
+        "The best place is any berth or anchorage where the hold is empty, clean and closed. Breakbulk and steel berths inside the locks are the typical setting: a bulk carrier or multipurpose ship finishes discharge, the hold is swept, and the covers are closed for the test while the ship waits to load. The test needs the cover shut and the compression normal, and a hold clear of people and equipment during the measurement.",
+        "A test at a river container terminal is possible for container ships with weathertight covers, though the working call is short. Ships waiting at anchor can be tested as long as safe boarding is arranged. Testing is poor in heavy rain, since water on the cover affects readings and wets the operator's equipment, so the weather forecast for the Scheldt is part of the plan.",
+        "The test does not need a long stay, which suits Antwerp's rotation of ships. Two operators can pass a receiver along one hold's covers in a short working session, and a ship with several holds is tested hold by hold as each becomes free. That flexibility means a test can often be slotted into a discharge-to-loading gap that a longer inspection could not use, and the crew keeps working in the other holds."
+      ],
+      "list": [
+        "Breakbulk and steel berths inside the locks: tests between discharge and loading.",
+        "Lay-by quays: tests while the ship waits for a berth with holds empty.",
+        "Anchorage off the Scheldt mouth: tests by arrangement, subject to boarding conditions.",
+        "Repair quays and EDR Antwerp Shipyard: tests after cover or packing repairs."
+      ]
+    },
+    {
+      "id": "ships-hatch-test-antwerp",
+      "h": "Which ships calling at Antwerp need hatch cover testing?",
+      "p": [
+        "Bulk carriers and multipurpose ships with folding or side-rolling covers are the main users. Owners ask for the test before taking steel or other cargo that damage from water, and charterers and their P&I correspondents ask when a claim is possible. Ageing ships with worn packing, distorted covers or repeated leaks need testing more often than newer tonnage.",
+        "Ships that have come out of repair or had their covers or packing renewed use the test as a check on the work. Breakbulk operators moving high-and-heavy and steel cargoes ask for it as part of cargo preparation. The test is also useful for a buyer of second-hand tonnage who wants to know the state of the covers before purchase, and the records serve as owner's documents, not class credits.",
+        "Owners of ships on long time charters use the test as routine maintenance, repeating it each year or after each change of trade. The results build a history of each cover: which packing runs leak repeatedly, which cross joints need adjustment, and which covers show distortion that no repacking will cure. A repeating pattern points to repair of the cover itself rather than another round of new packing."
+      ]
+    },
+    {
+      "id": "how-hatch-test-works-here",
+      "h": "How is the test set up on a ship at Antwerp?",
+      "p": [
+        "The hold is emptied, swept and cleared, and the covers are closed and secured as for sea. A transmitter that emits ultrasound is placed inside the hold, and the operator passes a receiver over the outside of every seal, cross joint, coaming corner and panel junction. A leak shows as a signal above the level measured on a closed, sound reference point, and its position is marked on the cover with paint or tape.",
+        "The test covers each cover panel, the cross joints between them, the end seals and the corners of the coaming, where leaks are common. Where several covers are tested, the order follows the ship's loading plan so that repairs can start on the first hold to be loaded. The operators work on deck, so staging is rarely needed, but safe access across the hatch tops and the coaming edges has to be provided."
+      ],
+      "list": [
+        "Transmitter set in the closed, empty hold.",
+        "Receiver passed over seals, cross joints and coaming corners from outside.",
+        "Leak positions marked on the cover for repair.",
+        "Reference readings taken on a known tight point of the same cover.",
+        "Retest after the crew or yard renews packing."
+      ]
+    },
+    {
+      "id": "what-hatch-test-finds",
+      "h": "What does a hatch cover test typically find on ships working at Antwerp?",
+      "p": [
+        "Compressed or worn packing is the first finding: rubber that has set or crushed no longer follows the compression bar, and the leak shows along that length. Cross joints between panels leak where the cross-joint packing has shifted or the panels have distorted. Coaming corners and end seals are also frequent leak sites, often because the cover does not land evenly after impact damage from grabs or cargo handling.",
+        "Ships that handle heavy steel loads show distortion at cover edges and corrosion of the compression bar, which prevents the packing from sealing. Drain channels blocked with cargo residue let water collect and attack the steel. Each leak is reported against the cover panel and joint where it was found, so the crew or yard can plan repairs by item.",
+        "Heavy weather on the voyage in changes the picture. A ship arriving at Antwerp after a rough North Sea or Atlantic passage may have shifted packing or loosened cleats that were sound at departure, and the test shows this before cargo goes in. Where the master reports water in a hold on passage, the test is directed first at the covers over that hold, and the remaining covers follow in loading order."
+      ]
+    },
+    {
+      "id": "planning-hatch-test-antwerp",
+      "h": "What should be arranged for a hatch cover test in Antwerp?",
+      "p": [
+        "Give us the ship's name, number of holds, type of covers and the sequence of discharge and loading, with the berth or anchorage where the test is wanted. The holds must be empty, clean and clear, and the covers closed with the cleats or securing devices applied as at sea. For a test at anchor, the agent needs to arrange safe launch access for the operators.",
+        "An operator travelling from India needs a Schengen visa for Belgium, so share the schedule as early as possible. The ship's agent registers the team for ISPS-controlled port areas. Tell us the weather window you expect, and we keep a reserve slot in the plan, since rain interrupts testing and needs a retry. After repairs, a retest of the marked positions confirms the work."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers",
+    "Multipurpose ships",
+    "Breakbulk and steel carriers",
+    "Container ships with weathertight covers",
+    "Heavy-lift and project cargo ships",
+    "Second-hand ships under purchase inspection"
+  ],
+  "codes": [
+    "IACS UR Z17 for ultrasonic tightness testing of closing appliances",
+    "IACS Recommendation 14 for hatch cover securing and tightness",
+    "International Convention on Load Lines, 1966, and its 1988 Protocol",
+    "IACS UR Z7 for hull classification surveys, including covers and coamings",
+    "The classification society's rules for the vessel",
+    "The hatch cover maker's maintenance manual"
+  ],
+  "deliverables": [
+    "Hold-by-hold record of tested covers, joints and seals",
+    "Leak positions marked on the cover and listed in the report",
+    "Reference readings on known tight points",
+    "Photographs of marked positions",
+    "Retest results after packing or cover repairs"
+  ],
+  "faqs": [
+    {
+      "q": "When is the best time to test hatch covers at Antwerp?",
+      "a": "While the hold is empty, clean and closed, between discharge and loading. Breakbulk and steel berths inside the locks and lay-by quays give that gap, and ships waiting at anchor can use the wait. Testing before loading leaves time to renew packing, which testing after loading cannot."
+    },
+    {
+      "q": "Does rain stop an ultrasonic hatch cover test?",
+      "a": "Heavy rain does. Water on the cover disturbs the readings and wets the equipment, so we plan around the forecast and hold a reserve slot. Light, intermittent rain can be worked around, and a cover that was marked before the weather turned does not need a repeat."
+    },
+    {
+      "q": "Can hatch covers be tested while a ship waits at anchor off the Scheldt?",
+      "a": "Yes, by arrangement. The agent organises safe launch access, and the holds must be empty and covers closed. The test during the wait gives the crew time to replace packing before the ship is called to a berth, which saves a repeat call."
+    },
+    {
+      "q": "What does the test tell a charterer or P&I correspondent?",
+      "a": "It records, before loading, whether the covers were weathertight and where any leak paths were. That is useful evidence if a cargo claim follows. The report is an owner's record, with positions, photographs and reference readings, not a class certificate."
+    },
+    {
+      "q": "Can you test the covers of a container ship at a river terminal?",
+      "a": "For ships with weathertight covers, a test is possible within the terminal's rules, but the working call is short and the hold must be empty. We tell the superintendent beforehand which covers can be reached in the time available, and which would need a longer stay."
+    }
+  ]
+}

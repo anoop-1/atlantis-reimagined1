@@ -1,0 +1,108 @@
+{
+  "slug": "muuga",
+  "name": "Muuga",
+  "country": "Estonia",
+  "region": "europe",
+  "title": "Muuga Harbour UTM: Tanker, Bulker and Feeder Gauging",
+  "description": "Thickness measurement at Muuga Harbour east of Tallinn: oil-product tankers, bulk carriers and container feeders gauged at the terminals or Muuga Bay anchorage.",
+  "h1": "Ship Thickness Measurement at Muuga Harbour, Estonia",
+  "intro": "Muuga is Estonia's cargo harbour, built on open coast east of the capital for ships that are too big or too specialised for the city quays. Tankers load oil products, bulk carriers handle fertiliser and grain, and feeders serve a container terminal. Each ship is alongside long enough to be inspected, and charterers do inspect them. Atlantis sends gauging technicians from India to the vessel for each job; nobody is based in Estonia.",
+  "keywords": [
+    "muuga harbour ship inspection",
+    "muuga thickness measurement",
+    "tanker ballast tank gauging estonia",
+    "bulk carrier hold inspection muuga",
+    "container feeder hatch cover gauging",
+    "ultrasonic thickness muuga",
+    "muuga bay anchorage",
+    "gulf of finland ship gauging",
+    "pre-vetting thickness readings tanker",
+    "utm muuga"
+  ],
+  "highlights": [
+    {
+      "h": "Oil terminals with long discharge",
+      "p": "Product tankers spend enough time at the liquid terminals for a prepared scope on deck, piping and gas-free ballast tanks. Readings can be ready before an oil-major vetting visit, not argued about after it."
+    },
+    {
+      "h": "Hold condition for fertiliser loading",
+      "p": "Charterers loading fertiliser or grain look hard at hold coatings, scale and frames. Measured plate and frame thickness gives the superintendent a factual answer to a hold inspector's questions."
+    },
+    {
+      "h": "Ships arrive from the whole Gulf",
+      "p": "Muuga sits on the Gulf of Finland, with feeders from the Baltic ports and tankers arriving from the North Sea. A superintendent can use one call here to take a baseline before a ship moves on to a yard."
+    }
+  ],
+  "port": {
+    "h": "Muuga: a deep-water harbour on open coast",
+    "p": [
+      "Muuga Harbour lies on the south shore of the Gulf of Finland, east of Tallinn and next to the town of Maardu. It is run by the Port of Tallinn and was built from the 1980s on a stretch of flat coast with deep water close inshore, which allows ships to approach without a long dredged channel. Quays are laid out in separate basins for liquid bulk, dry bulk, containers and general cargo, and rail lines feed the terminals directly. The harbour has a reputation as one of the few ports in the northern Baltic that rarely freezes.",
+      "The traffic is dominated by liquid cargo, mostly oil products moving through the terminal tanks, together with dry bulk such as fertiliser, grain and coal, steel products and a container terminal operated by HHLA. A freight ro-pax service links the harbour with Helsinki, so ships of quite different kinds occupy the berths in the same week. Many are Baltic-trading handysize and aframax tankers, short-sea bulkers and feeders that call on a regular string of ports around the Gulf and the Baltic proper. Muuga Bay in front of the harbour provides anchorages for ships waiting for a berth.",
+      "Because the coast is open to the north, a strong northerly sea can make anchorage work uncomfortable, and winter storms bring spray and ice accretion on exposed decks. Ice cover in the Gulf varies from year to year, and in hard winters pilots and tugs are needed to keep ships moving, but Muuga's quays seldom close. Tidal movement is negligible. The practical constraints on gauging are therefore the terminal's cargo programme, its gas-free and hot-work rules for tank entry, and the weather offshore, not the water."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging takes place around Muuga",
+    "p": [
+      "Muuga has no shipyard of its own; the repair yards that serve the area are at Kopli in Tallinn and at Paldiski on the west coast, and the repair yard at Naantali in Finland is under the same group as the Tallinn yard. Gauging at Muuga is therefore alongside work, at the terminals, and its value is largely in preparation: a ship measured here arrives at the dock with a steel list already drawn up. Owners also use Muuga calls to repeat gauging at intervals and watch how wastage develops between surveys.",
+      "At the liquid terminals the ship's tanks are normally cargo-loaded or just discharged, so the realistic scope is deck plating, cargo and ballast piping, and ballast tanks that the ship's crew have cleaned and gas-freed. At dry bulk berths holds are accessible once the cargo is out, which is the right moment for frames, hopper plating and tank tops. Container feeders offer hatch covers, coamings and deck structure while boxes are moving. Entry to each berth is arranged through the ship's agent, with port security and the terminal's own safety rules to follow."
+    ],
+    "list": [
+      "Oil-product and liquid bulk terminals — deck plating, cargo and ballast piping and gas-free ballast tanks on tankers during or after discharge.",
+      "Dry bulk and fertiliser berths — hold frames, hopper plating, tank tops and hatch coamings on bulk carriers before loading.",
+      "Container terminal — hatch cover panels, coamings and deck structure on feeders during short calls.",
+      "General cargo and steel berths — tween decks and lower holds on multipurpose ships, plus crane pedestals.",
+      "Muuga Bay anchorage — narrow launch-borne scopes for ships waiting offshore.",
+      "Kopli, Paldiski and Naantali yards — where Muuga ships usually dock, using readings from here for steel planning."
+    ]
+  },
+  "context": {
+    "h": "Estonian port state control and the vetting culture of oil cargo",
+    "p": [
+      "Port state control in Estonia falls under the Paris MoU and is carried out by the national Transport Administration, which took over maritime functions from the former Maritime Administration. Tankers are a high-priority ship type in the regime, and a ship with poor records can expect a detailed inspection of the deck, cargo piping and fire-fighting systems. Estonia also takes part in the mandatory ship reporting and traffic monitoring system that covers the Gulf of Finland, where a large share of the oil and bulk movements are concentrated.",
+      "Oil cargo brings another layer of scrutiny. Oil majors and traders vet tankers before they fix them, using inspectors who look at structural condition and maintenance records, and a charterer can reject a ship with doubtful hull or piping condition. Thickness readings from a recent survey help a technical manager counter that. Foreign-flag ships entering EU ports are required to carry an Inventory of Hazardous Materials, and voyages touching EU ports are now covered by the EU emissions trading scheme and FuelEU Maritime, which is another reason owners want a clear picture of ship condition."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Muuga",
+    "p": "Jobs at Muuga come from three directions: charterers' vetting, owners' survey programmes and buyers' due diligence. We agree the scope with the superintendent early, confirm the berth and cargo plan through the agent, and ask the crew to prepare tanks and holds in advance where that is feasible. The aim is to deliver readings the superintendent can send straight to the class surveyor or the yard.",
+    "list": [
+      "Deck plating, cargo-line supports and gas-free ballast-tank gauging on a product tanker ahead of an oil-major vetting visit.",
+      "Hold frames, hopper plating and tank tops on a bulk carrier after discharging fertiliser, to support a charterer's hold inspection.",
+      "Hatch cover panel and coaming readings on a container feeder during a short terminal call.",
+      "Repeat gauging of known pitted areas in ballast tanks of an ageing tanker, comparing against earlier survey records.",
+      "Pre-purchase condition gauging of a coaster at lay-by for a buyer, with holds and ballast tanks measured before the offer is made."
+    ]
+  },
+  "logistics": "Tallinn Airport is the normal arrival point, with direct and connecting flights to the main European hubs, and the harbour is a short road journey from the city. Estonia is part of the Schengen area, so Schengen visas are needed for technicians travelling from India and should be applied for as soon as a ship's call is likely. Gate passes and terminal permits are requested by the ship's agent; the team brings its own gauges and couplant and confirms the safety rules with the terminal on arrival.",
+  "vessels": [
+    "Product and chemical tankers",
+    "Handysize and supramax bulk carriers",
+    "Container feeders",
+    "General cargo and multipurpose ships",
+    "Steel and project cargo ships",
+    "Freight ro-pax ships",
+    "Short-sea coasters"
+  ],
+  "faqs": [
+    {
+      "q": "Can cargo tanks of a tanker at Muuga be gauged during discharge?",
+      "a": "Not safely while they hold cargo or until they are gas-free and the terminal and master permit entry. In practice we gauge deck plating, piping and cleaned ballast tanks during discharge, and defer cargo tank work to a yard or a tank-cleaning period. The ship's tank plan, gas-free certificates and entry permits decide what can be included."
+    },
+    {
+      "q": "Does ice stop gauging at Muuga in winter?",
+      "a": "Seldom for work alongside, because the harbour rarely freezes. Ice and spray can build on decks and make open-air work slower, and the anchorage can be difficult in hard weather. We schedule indoor work, such as tanks and voids, first in winter, and the agent keeps us informed about pilots and tug availability for the call."
+    },
+    {
+      "q": "Is there a drydock at Muuga for a renewal survey?",
+      "a": "There is none in the harbour itself. Ships usually dock in Tallinn at Kopli, at Paldiski or across the Gulf of Finland. Our gauging at Muuga is useful beforehand, because the steel list, the likely plate renewal and the survey plan can be prepared before the ship enters the dock, and the yard has more time to buy steel."
+    },
+    {
+      "q": "Can you measure hold frames before a fertiliser loading?",
+      "a": "Yes, if the holds have been cleaned and made accessible, which charterers expect anyway. We measure frame webs, brackets, hopper plating and tank tops, record pitting where it is found, and mark areas of substantial corrosion. The superintendent can use the results to explain the ship's condition if a hold inspector queries coating or scale."
+    }
+  ],
+  "nearby": ["tallinn", "paldiski", "helsinki", "sillamae", "kotka"]
+}

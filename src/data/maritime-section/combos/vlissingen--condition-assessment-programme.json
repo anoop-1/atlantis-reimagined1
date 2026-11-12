@@ -1,0 +1,123 @@
+{
+  "port": "vlissingen",
+  "service": "condition-assessment-programme",
+  "title": "CAP Thickness Measurement Vlissingen | Tanker Condition Survey",
+  "description": "CAP thickness measurement in Vlissingen and Terneuzen: pre-CAP gauging and condition survey support for older chemical and product tankers and bulk carriers.",
+  "h1": "Condition Assessment Programme gauging for older tankers and bulk carriers calling at Vlissingen",
+  "intro": "A Condition Assessment Programme asks an older tanker or bulk carrier to prove its steel is sound, and the thickness data behind that proof has to be gathered somewhere the ship can be opened up. In Zeeland the opportunities are the Sloe area jetties, the dry bulk quays and the repair yard at Vlissingen-Oost. Atlantis NDT sends a team from India to the ship to gather pre-CAP and CAP gauging in the order the cargo operation, the gas-free certificate and the society's CAP team allow, and delivers the readings in a form the society's engineers can use.",
+  "highlights": [
+    {
+      "h": "Gauging in the cargo window",
+      "p": "Chemical and product tankers at the Sloe jetties stay for the length of the cargo operation. Piping and deck readings fit that window, while tank gauging waits for a gas-free stop, so a CAP plan here is built from several short opportunities rather than one long one."
+    },
+    {
+      "h": "Bulk carriers once the holds are clear",
+      "p": "After discharge at the dry bulk quays, hold frames, tank tops and hatch coamings can be reached while the holds are empty. A CAP survey for a bulk carrier uses that stop, before the next cargo is loaded and the surfaces are covered again."
+    },
+    {
+      "h": "Know the result before the society attends",
+      "p": "Pre-CAP gauging of the critical areas shows the owner whether the ship is likely to reach the rating that charterers want. The owner then decides on steel renewal at the yard first, instead of finding out during the society's survey."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cap-gauging-fits",
+      "h": "Where does CAP gauging fit at Vlissingen and Terneuzen?",
+      "p": [
+        "CAP gauging does not need a dock for most of its work, which makes the Sloe area useful. A tanker alongside a chemical or oil jetty can have deck structure, cargo and ballast piping and manifold areas gauged under the terminal's permit to work. Tank interiors are different: they need to be gas-free and ventilated, and a terminal will rarely allow tank entry during cargo operations, so interiors wait for a cleaning stop.",
+        "The repair yard at Vlissingen-Oost is where the interiors are normally finished. A tanker or bulk carrier that is already gas-free for yard work can have the tank programme completed there in a few days. Across the estuary at Terneuzen, chemical tankers use their own jetties, and one mobilisation can cover a ship in each place if the agent sequences the visits and the ships share a window."
+      ],
+      "list": [
+        "Sloe area jetties: deck, manifold and cargo piping readings during cargo operations.",
+        "Dry bulk quays: hold frames, tank tops and hatch coamings after discharge.",
+        "Damen Shiprepair Vlissingen: tank interiors and close-up survey support when the ship is gas-free.",
+        "Terneuzen jetties: piping and deck structure on chemical tankers, in the same mobilisation."
+      ]
+    },
+    {
+      "id": "who-needs-cap-here",
+      "h": "Which ships at Vlissingen are asked for a CAP rating, and why?",
+      "p": [
+        "Charterers' vetting teams ask older tankers and bulk carriers to show the condition of their steel, and the ships serving the chemical and fuel industry around the Westerschelde are no exception. Product and chemical tankers that load at the Sloe or at Terneuzen are often mid-life or older, and the cargo owners they serve want evidence beyond the year of build. A bulk carrier carrying agribulk or steel products through North Sea Port faces a similar question from its charterers.",
+        "Owners with several older ships use the rating to keep them trading with the same customers. For them, a CAP survey is a business decision about the steel they will renew and the steel they will not. Our part in that decision is the thickness data, with the survey, the close-up examination and the rating itself remaining with the classification society."
+      ]
+    },
+    {
+      "id": "scoping-cap-gauging",
+      "h": "How is CAP gauging scoped for tankers and bulk carriers at this port?",
+      "p": [
+        "The society's CAP team sets the minimum extent, and for older ships that extent is larger than a normal renewal survey. We start from the CAP procedure of the society concerned, the previous TM reports and the drawings, and agree the extent with the owner and the society before travelling. Critical structure comes first: the cargo tank boundaries, the ballast tank bottoms and the transverse sections that feed the strength assessment on a tanker, and the cargo hold frames and tank top on a bulk carrier.",
+        "For a chemical tanker with stainless steel or coated tanks, the question is which tanks carry carbon steel boundaries that waste in the usual way. We note that early, because it changes which tanks carry the weight of the programme. Where coating is intact, the readings are taken through it only with equipment verified for the purpose, so we do not strip good coating off just to gauge steel."
+      ]
+    },
+    {
+      "id": "what-cap-gauging-finds",
+      "h": "What does CAP gauging typically find on ships in the Zeeland trades?",
+      "p": [
+        "On product and chemical tankers, we find wastage on the ballast tank boundaries, where heated cargo against cold ballast water accelerates corrosion, and on deck plating near the manifolds where cargo spillage and wash accumulate. On bulk carriers carrying coal, steel or agribulk, hold frames lose steel at the lower ends, where cargo abrasion and moisture work together, and tank tops show localised pitting where cargo has lain wet.",
+        "Pitting and grooving at weld lines also matter more in CAP than in a routine survey, because the society looks at their depth and extent when it sets the rating. We record these separately from general plate thickness. If the pre-CAP data shows a ship close to the limit in a few areas, the owner can renew those plates at the yard, then request the CAP survey knowing where the steel stands."
+      ]
+    },
+    {
+      "id": "planning-cap-gauging",
+      "h": "How is a CAP gauging job planned around a Vlissingen call?",
+      "p": [
+        "The planning problem is sequence, because the society, the cargo operation and the yard all have their own timing. We ask the owner for the society's CAP requirements, the vessel's schedule and the tank cleaning plan, and propose an order of work that puts piping and deck readings in the cargo stop and the tank interiors in the cleaning stop.",
+        "Visa and travel times for a team from India mean the schedule must reach us early. The agent arranges gate passes at the Sloe jetties or at the yard and any launch for work at the anchorage. If the society's surveyor is attending, we agree the programme with them beforehand so that the data is organised the way their engineers will use it, and no gauging has to be repeated during their survey."
+      ],
+      "list": [
+        "Society, CAP scope and the survey date requested.",
+        "Cargo schedule and the planned tank cleaning stops.",
+        "Previous TM reports and any steel renewed since.",
+        "Which tanks carry carbon steel boundaries and which are coated."
+      ]
+    }
+  ],
+  "vessels": [
+    "Chemical tankers loading at the Sloe and Terneuzen",
+    "Product tankers on North Sea Port trades",
+    "Double-hull crude and product tankers",
+    "Bulk carriers carrying coal, steel products and agribulk",
+    "General cargo ships with older steel",
+    "Heavy-lift and project cargo ships",
+    "Older ships traded by owners with several vessels"
+  ],
+  "codes": [
+    "Classification society CAP procedures (each society publishes its own scheme)",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "IACS UR Z10.2 and Z10.5 – Hull surveys of bulk carriers and double-skin bulk carriers",
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "IACS Common Structural Rules for oil tankers and bulk carriers",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Thickness readings organised by the society's required forms and by frame and strake",
+    "Pre-CAP summary showing areas close to the allowable limit and the steel renewal they imply",
+    "Pitting and grooving records with depth, extent and location",
+    "Separate record of readings from piping and deck structure taken at the Sloe jetties",
+    "Numbered sketches locating each reading for the society's strength assessment",
+    "List of tanks and holds not gauged, with the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "Can CAP thickness gauging be done at a Sloe area jetty in Vlissingen?",
+      "a": "Part of it can. Deck structure, manifold areas and cargo or ballast piping can be gauged under the terminal's permit during cargo operations. Tank interiors need a gas-free tank, and terminals rarely allow entry during cargo, so those wait for a tank-cleaning stop or the yard. We separate the two parts in the plan."
+    },
+    {
+      "q": "Does pre-CAP gauging replace the society's own survey?",
+      "a": "No. The society carries out the survey and issues the rating. Pre-CAP gauging is the owner's own measurement, which shows where the steel stands before the society attends. It lets the owner renew plates first and request the survey with a clearer view of the likely result."
+    },
+    {
+      "q": "Which ships in Zeeland benefit most from a CAP rating?",
+      "a": "Mid-life and older chemical and product tankers serving the industry around the Westerschelde, and older bulk carriers on North Sea Port trades, are typical. Charterers' vetting teams ask these ships for evidence beyond the year of build, and a rating can keep them trading with the same customers."
+    },
+    {
+      "q": "Can one team cover tankers at Vlissingen and Terneuzen in one trip?",
+      "a": "Yes, when the agent can sequence the calls and the ships are available in the same days. The two ports are close, and the team moves between jetties. Each ship keeps its own gas-free and permit requirements, so the order of work is agreed ship by ship before we travel."
+    },
+    {
+      "q": "What does the society need from the thickness data?",
+      "a": "The society's engineers need readings tied to the structure: frame, strake and longitudinal, on its own forms, with pitting and grooving recorded separately. Organised that way, the data goes straight into the strength assessment. Ask the society for its current CAP requirements before the plan is fixed."
+    }
+  ]
+}

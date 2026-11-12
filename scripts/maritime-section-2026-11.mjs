@@ -12,13 +12,14 @@ import * as Lucide from 'lucide-react';
 import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { buildMaritimeSection, CLASS_APPROVALS, SERVICE_SLUGS, REGION_SLUGS, LANDING_SLUG, countryHubs, ROOT } from '../src/data/maritime-section/model.mjs';
+import { buildMaritimeSection, CLASS_APPROVALS, SERVICE_SLUGS, REGION_SLUGS, LANDING_SLUG, countryHubs, comboSlug, ROOT } from '../src/data/maritime-section/model.mjs';
 import { SITE, esc } from '../src/data/service-section/core.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA = join(HERE, '..', 'src', 'data', 'maritime-section');
 export const MARITIME_CITY_ROWS = JSON.parse(readFileSync(join(DATA, 'city-list.json'), 'utf8')).cities;
 export const MARITIME_COUNTRY_HUBS = countryHubs(MARITIME_CITY_ROWS);
+export const MARITIME_COMBO_ROWS = JSON.parse(readFileSync(join(DATA, 'combo-list.json'), 'utf8')).combos;
 const COUNTRY_SLUGS = MARITIME_COUNTRY_HUBS.map(([s]) => s);
 const PAGE_SLUGS = [LANDING_SLUG, ...REGION_SLUGS, ...COUNTRY_SLUGS, ...SERVICE_SLUGS];
 
@@ -33,11 +34,16 @@ function loadRecords() {
     const f = join(DATA, 'cities', `${slug}.json`);
     if (existsSync(f)) records[slug] = JSON.parse(readFileSync(f, 'utf8')); else missing.push(`cities/${slug}.json`);
   }
+  for (const [port, service] of MARITIME_COMBO_ROWS) {
+    const key = comboSlug(port, service);
+    const f = join(DATA, 'combos', `${key}.json`);
+    if (existsSync(f)) records[key] = JSON.parse(readFileSync(f, 'utf8')); else missing.push(`combos/${key}.json`);
+  }
   return { records, missing };
 }
 
 const { records: RECORDS, missing: MISSING } = loadRecords();
-export const MARITIME_SECTION = buildMaritimeSection(MARITIME_CITY_ROWS, RECORDS);
+export const MARITIME_SECTION = buildMaritimeSection(MARITIME_CITY_ROWS, RECORDS, MARITIME_COMBO_ROWS);
 export const MARITIME_PATHS = MARITIME_SECTION.PATHS;
 export const maritimeSectionStats = { routes: 0, cities: 0, minCityWords: 0, avgCityWords: 0 };
 
@@ -126,7 +132,8 @@ export function assertMaritimeSectionClean(knownPaths) {
   // Two port or country pages must not share a sentence of their own copy (the template's shared text is excluded).
   const seen = new Map();
   const citySlugs = new Set(MARITIME_CITY_ROWS.map((r) => r[0]));
-  for (const slug of [...MARITIME_CITY_ROWS.map((r) => r[0]), ...COUNTRY_SLUGS]) {
+  const comboKeys = MARITIME_COMBO_ROWS.map(([p, s]) => comboSlug(p, s));
+  for (const slug of [...MARITIME_CITY_ROWS.map((r) => r[0]), ...COUNTRY_SLUGS, ...comboKeys]) {
     const r = RECORDS[slug];
     if (!r) continue;
     let own;
@@ -135,6 +142,10 @@ export function assertMaritimeSectionClean(knownPaths) {
       const ownWords = own.split(/\s+/).filter(Boolean).length;
       if (ownWords < 1200) problems.push(`${slug}: ${ownWords} words of port-specific copy (minimum 1,200)`);
       for (const n of r.nearby || []) if (!citySlugs.has(n)) problems.push(`${slug}: nearby "${n}" is not a port page`);
+    } else if (comboKeys.includes(slug)) {
+      own = [r.intro, ...(r.highlights || []).map((h) => h.p), ...(r.sections || []).flatMap((x) => [].concat(x.p || [], x.list || [])), ...(r.faqs || []).map((f) => `${f.q} ${f.a}`)].join(' ');
+      const ownWords = own.split(/\s+/).filter(Boolean).length;
+      if (ownWords < 1200) problems.push(`${slug}: ${ownWords} words of port-and-inspection copy (minimum 1,200)`);
     } else {
       own = [r.intro, ...(r.highlights || []).map((h) => h.p), ...(r.sections || []).flatMap((x) => [].concat(x.p || [])), ...(r.faqs || []).map((f) => f.a)].join(' ');
     }
@@ -148,7 +159,7 @@ export function assertMaritimeSectionClean(knownPaths) {
   maritimeSectionStats.cities = cityWords.length;
   maritimeSectionStats.minCityWords = cityWords[0] || 0;
   maritimeSectionStats.avgCityWords = Math.round(cityWords.reduce((a, b) => a + b, 0) / (cityWords.length || 1));
-  console.log(`⚓ Maritime section 2026-11-10: ${MARITIME_SECTION.PAGES.length} pages (${cityWords.length} ports), city words min ${maritimeSectionStats.minCityWords} / avg ${maritimeSectionStats.avgCityWords}, guard PASS`);
+  console.log(`⚓ Maritime section 2026-11-12: ${MARITIME_SECTION.PAGES.length} pages (${cityWords.length} ports, ${MARITIME_COMBO_ROWS.length} port × inspection), city words min ${maritimeSectionStats.minCityWords} / avg ${maritimeSectionStats.avgCityWords}, guard PASS`);
 }
 
 export { ROOT as MARITIME_ROOT, esc };

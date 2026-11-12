@@ -1,0 +1,112 @@
+{
+  "slug": "perama",
+  "name": "Perama",
+  "country": "Greece",
+  "region": "europe",
+  "title": "Perama Ship Thickness Measurement | Repair Zone UTM Gauging",
+  "description": "Ultrasonic thickness measurement at the Perama repair zone: hull, deck and tank gauging for tankers, bulkers, tugs and ferries in afloat repairs and dockings.",
+  "h1": "Hull and Tank Gauging at the Perama Ship Repair Zone",
+  "intro": "Perama is the working end of Piraeus Bay: a crowded strip of quays, floating docks and small yards where Greek-managed ships come for repair rather than for cargo. Hull steel is opened up here, which makes it the natural place for gauging. Superintendents book thickness readings to plan steel renewal or to document wastage during a repair period. Our technicians travel from India to the ship, and the programme is fitted around whatever the yard is doing to her.",
+  "keywords": [
+    "perama thickness gauging",
+    "ultrasonic thickness measurement perama",
+    "perama ship repair zone inspection",
+    "utm perama greece",
+    "floating dock hull gauging",
+    "afloat repair thickness measurement",
+    "steel renewal gauging greece",
+    "tanker thickness gauging perama",
+    "bulk carrier ut survey piraeus bay",
+    "ship repair inspection perama"
+  ],
+  "highlights": [
+    {
+      "h": "Gauging while the yard works",
+      "p": "At Perama the steel gang, the painters and the pipe fitters are all aboard at once. Readings are sequenced a few frames ahead of the yard so that renewal quantities are confirmed before plates are cut, not after."
+    },
+    {
+      "h": "Small yards, tight berths",
+      "p": "Quays here are short and ships lie two or three abreast. We plan access from the outboard ship's point of view, using the owner's own staging and ventilation so the gauging does not hold up neighbouring repair jobs."
+    },
+    {
+      "h": "Older tonnage in for steel",
+      "p": "Many ships that come to Perama are in their third or fourth survey cycle, with tank coatings long gone. Pitting and grooving surveys on bottom plating and bulkhead lower strakes tend to decide the repair scope."
+    }
+  ],
+  "port": {
+    "h": "Perama on the west side of Piraeus Bay",
+    "p": [
+      "Perama lies on the Attic shore of the Saronic Gulf, at the north-western corner of the bay that opens off Piraeus. Ships reach it by passing the commercial harbour and following the shore round past Keratsini, with the island of Salamina close across a narrow strait. Behind the waterfront sits a dense industrial district of workshops, machine shops, steel stockists and paint suppliers, built up over decades to serve the vessels that lie at the quays. Few places in the Mediterranean put so many specialist trades within a short walk of the berth.",
+      "The traffic here is repair traffic. Greek-owned tankers and bulk carriers arrive for docking surveys and steel work, coastal ferries come in for their annual overhaul, and tugs, dredgers, workboats and small coasters use the smaller yards. Anything with a Greek manager and a hull problem may end up in Perama, because the owner can drive from his Piraeus desk to the quay in a few minutes. Cargo operations are minimal, so ships are not rushed in the way they would be at a terminal, but repair periods run to a tight schedule and the yard's programme is fixed.",
+      "Weather rarely stops work in the bay, though the summer meltemi can make berthing awkward and put chop on the outer berths, and winter southerlies occasionally do the same. Calls cluster outside the peak ferry season, when passenger ships release themselves for refit, and again when the bulk and tanker markets leave tonnage idle and owners decide to spend on the hull. Ships wait for a slot at the anchorage outside the harbour or at their last port, and the date a berth or floating dock becomes free is often known only a few days ahead."
+    ]
+  },
+  "facilities": {
+    "h": "Where the gauging happens in the repair zone",
+    "p": [
+      "The Perama ship repair zone runs along the shore as a chain of quays, floating docks and yard areas under the Piraeus port authority's umbrella, with private repair companies working inside it. The usual pattern is two-stage. A ship first lies afloat at a repair quay, where decks, hatch coamings, side shell above the waterline and accessible tanks can be gauged while mechanical work goes on, and then goes onto a floating dock, where the bottom, sea chests and rudder area become available after the hull is washed and blasted.",
+      "Readings on a floating dock have to be taken once the bottom is clean and before the first coat goes on, a window that can be a matter of hours. For that reason the team is usually mobilised to arrive as the ship lifts, with the plan and frame references agreed beforehand with the superintendent and the yard foreman. Smaller craft such as tugs and workboats are hauled on slipways in the neighbouring yards, where the shell can be gauged at eye level. Everything is arranged with the yard and the ship's agent, including gate passes, hot-work and enclosed-space permits."
+    ],
+    "list": [
+      "Repair quays along the Perama waterfront: deck, hatch coaming, side shell and tank gauging alongside the afloat repair list.",
+      "Floating docks in the repair zone: bottom shell, bilge keel, sea chest and rudder readings once the hull is blasted and before painting.",
+      "Smaller yards and slipways: shell and tank gauging on tugs, workboats, coasters and harbour craft hauled out for survey.",
+      "Outer berths and moorings off the zone: lay-by gauging for ships waiting for a floating dock or a steel slot.",
+      "Anchorage in the bay off Piraeus: launch-served pre-docking or condition gauging for a ship waiting for a slot.",
+      "Short passage to Elefsina or Salamina yards: the same crew can follow a ship that is moved there for a longer docking."
+    ]
+  },
+  "context": {
+    "h": "Greek flag, port state control and the Perama repair calendar",
+    "p": [
+      "Greek ports are inspected under the Paris MoU regime by the Hellenic Coast Guard, which also handles flag state matters for the large Greek-flag fleet. Port state control inspectors pay particular attention to ships with visible structural wastage, so owners often gauge a ship in the repair zone before a detention can turn a problem into a commercial one. The Coast Guard's ship inspection section and the classification societies work alongside the yards, and a thickness report taken at Perama is routinely passed to the attending class surveyor.",
+      "EU measures shape repair decisions too. Ships calling at European ports and sold for scrapping later will need a current Inventory of Hazardous Materials under the EU Ship Recycling Regulation, and owners often update it during a repair stay when the hull is open. Carbon accounting under the EU ETS, in force for shipping since 2024, and FuelEU Maritime, which began in 2025, push owners of older vessels to ask whether hull steel justifies further investment. A gauged hull gives a defensible basis for that question, whether the answer is repair, sale or recycling."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical jobs in the Perama repair zone",
+    "p": "Work at Perama is mostly tied to a docking or repair list that already exists. The superintendent sends the yard specification, the previous thickness reports and the class survey status, and asks for gauging that matches the sequence of repair work. Scopes are broad, because the ship is stationary for days, and results are shared frame by frame so steel quantities can be agreed with the yard while the ship is still on the berth. Typical requests are:",
+    "list": [
+      "A third-renewal bulk carrier on a floating dock: bottom, bilge and side shell gauging, plus hold frames and lower hopper plating accessed through the dock period.",
+      "A product tanker afloat at a repair quay: ballast tank, cofferdam and deck plating gauging ahead of tank cleaning and recoating.",
+      "A coastal ro-pax in her winter overhaul: car-deck, ramp and ballast tank readings, with magnetic particle testing at ramp hinges and door frames.",
+      "A tug or workboat on a slipway: shell, skeg and rudder gauging, with dye penetrant checks at the towing bracket welds.",
+      "Pre-purchase gauging of a secondhand ship laid by at the zone while the buyer decides whether to proceed."
+    ]
+  },
+  "logistics": "Athens International Airport lies on the other side of the city, and the drive to Perama runs through the Piraeus road network, so the team plans a buffer for traffic and for gate formalities at the yard. Technicians from India need a Schengen visa for Greece, which is arranged for each job once the ship's schedule firms up. Gate passes and permits for the repair zone are applied for through the ship's agent or the yard, using the team's passport and certificate details sent in advance.",
+  "vessels": [
+    "Bulk carriers in the Handysize to Panamax range",
+    "Product and chemical tankers",
+    "Coastal ferries and ro-pax ships",
+    "Tugs and workboats",
+    "Dredgers and harbour craft",
+    "Coasters and general cargo ships",
+    "Offshore and supply vessels"
+  ],
+  "faqs": [
+    {
+      "q": "Can gauging be done while other repair work is going on at Perama?",
+      "a": "Yes, and it usually is. The team works a few frames ahead of the steel gang, takes readings from staging the yard or ship already provides, and reports in the sequence the repair work follows. Spaces that are being cleaned or coated are measured first, so renewal quantities are known before cutting starts."
+    },
+    {
+      "q": "What is the right moment to gauge on a floating dock?",
+      "a": "After the hull has been washed and blasted, and before the first coat of paint. That window is short, so we agree a rotation with the yard foreman and arrive as the ship is lifted. Bottom shell, bilge keels and sea chests are then measured against the TM plan while the surface is bare."
+    },
+    {
+      "q": "Do you need the ship to be gas-free before entering tanks?",
+      "a": "Yes. Tank entry follows the ship's enclosed-space permit procedure, with a gas-free certificate and ventilation maintained throughout the work. Our technicians carry their own gas detectors but rely on the ship and the yard to prepare the space, supply lighting and provide a standby person at the entrance."
+    },
+    {
+      "q": "Can the same team continue at Elefsina or Salamina if the ship moves?",
+      "a": "Often, yes. Elefsina and Salamina are a short transfer from Perama, so a team that has started a programme can follow the ship, and equipment stays with the crew. We confirm the arrangement with the superintendent before mobilisation so permits and passes cover both yards."
+    },
+    {
+      "q": "Are readings suitable for a steel renewal estimate?",
+      "a": "They are meant for exactly that. Readings are recorded by plate, strake and frame so the yard can compare them with the allowable diminution and quote renewal tonnage. Where class credit is needed for the readings, the owner should check the position with the attending society first."
+    }
+  ],
+  "nearby": ["piraeus", "salamina", "elefsina", "agioi-theodoroi", "lavrio"]
+}

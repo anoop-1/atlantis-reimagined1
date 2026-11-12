@@ -1,0 +1,121 @@
+{
+  "port": "zeebrugge",
+  "service": "magnetic-particle-inspection",
+  "title": "Magnetic Particle Inspection Zeebrugge | Ship Ramps & Decks",
+  "description": "Magnetic particle crack detection in Zeebrugge for ramp hinges, hoistable car decks, lashing points and mooring structure on ro-ro ships and car carriers.",
+  "h1": "Crack Detection by Magnetic Particle Testing on Ro-Ro and Car Carrier Structure at Zeebrugge",
+  "intro": "Magnetic particle inspection finds the fine cracks that start at the details a vehicle ship stresses every day: ramp hinges, hoistable deck supports, lashing doublers and the foundations of mooring gear. Zeebrugge's car terminals and ro-ro berths put many such ships alongside for short, scheduled calls. Our technicians travel from India to the ship, clean the surface, magnetise the steel and mark every indication, so the superintendent can decide on a repair while the ship is still in port.",
+  "highlights": [
+    {
+      "h": "Ramp hinges crack before they wear",
+      "p": "Hinge brackets and the structure around them carry load cycles with every vehicle that crosses. Fatigue cracks start small at weld toes and pin bosses. A portable yoke shows them clearly once the paint and rust are removed."
+    },
+    {
+      "h": "Hoistable decks hang on their supports",
+      "p": "Hoistable car decks are held by wire, chain or hydraulic arrangements fixed to brackets in the deck structure. Those brackets are checked for cracks at the welds, because a failure leaves a deck unsafe to load."
+    },
+    {
+      "h": "Lashing doublers carry repeated pulls",
+      "p": "Every vehicle is secured through lashing points welded to the deck. Doublers around the points crack where the weld meets the plate, and the pattern follows the lanes that carry the heaviest loads."
+    }
+  ],
+  "sections": [
+    {
+      "id": "mpi-zeebrugge-where",
+      "h": "Where at Zeebrugge can magnetic particle testing be carried out?",
+      "p": [
+        "The method needs a clean surface, power for the equipment and reasonable lighting, and the port's berths provide those in different ways. At the car terminals, the time between discharge and loading leaves the decks empty and the ramps unloaded, which is the best moment to examine hinge brackets and deck supports. Ro-ro berths suit ramp and trailer-lane structure during lay days and weekend lay-overs, when traffic is lighter.",
+        "Ships at the Fluxys terminal work under strict safety rules, so any equipment used is agreed with the terminal beforehand, and work is limited to spaces and structure outside the hazardous zones. For vessels lying at the inner-port berths behind the Pierre Vandamme lock, longer stays allow a more complete programme. At anchor, the work depends on boarding conditions, and we usually restrict it to urgent cracks found by the crew."
+      ]
+    },
+    {
+      "id": "mpi-zeebrugge-details",
+      "h": "Which details on a car carrier or ro-ro ship are worth testing?",
+      "p": [
+        "Vehicle ships contain structure that cycles under load more than most cargo ships. The stern ramp and internal ramps pivot on hinges and rest on supports, and the welds there see repeated bending. Hoistable decks carry weight through lifting brackets and locking pins. Lashing points concentrate force into thin deck plate. Side doors and their hinges, and the coamings around openings, add more fatigue-prone details to the list.",
+        "On the mooring deck, bitts, fairleads and winch foundations take tension each time the ship berths, and cracks at their welds are a recognised finding after a few years. We build the test list with the superintendent, using the ship's repair history and the areas where earlier surveys noted weld repairs or cracking, so the available time goes to the details most likely to be cracked. Where a ship has had a recent berthing incident or a weld repair, those areas go to the top of the list, and the rest follows in order of the load each detail carries."
+      ],
+      "list": [
+        "Stern ramp and internal ramp hinges, pins and the brackets they bear on.",
+        "Hoistable deck suspension brackets and locking arrangements.",
+        "Lashing-point doublers in the busiest vehicle lanes.",
+        "Side door hinges and the coamings around cargo door openings.",
+        "Mooring bitts, fairleads and winch foundations."
+      ]
+    },
+    {
+      "id": "mpi-zeebrugge-method",
+      "h": "How is magnetic particle testing done on a ship in port?",
+      "p": [
+        "The surface is first cleaned of paint, scale and grease, because particles cannot gather over a crack that is buried under coating. A portable electromagnetic yoke then magnetises the steel, and either dry powder or a coloured liquid carrying fine magnetic particles is applied. A crack disturbs the magnetic field and pulls the particles into a visible line. Where the area is dark, a UV lamp and fluorescent particles are used in the same way.",
+        "Each indication is measured, photographed and marked on the steel, then logged against the frame and deck. The technicians distinguish cracks from non-relevant indications, such as weld edges and changes of section, by repeating the test from a second direction and by checking against the part's drawing. A crack found on the day is reported to the superintendent immediately, since some will need a repair plan before loading continues."
+      ]
+    },
+    {
+      "id": "mpi-zeebrugge-findings",
+      "h": "What are typical findings, and what happens next?",
+      "p": [
+        "On ramps, the usual finding is a crack at a hinge bracket weld toe or at the end of a stiffener, often shorter than a few centimetres and invisible to a casual look. On hoistable decks, cracks sit at the welds of lifting brackets. On lashing doublers, they run along the fillet where the doubler meets the deck. After a berthing impact, cracks may follow a dent in the shell or door frame.",
+        "What happens next is the owner's and the class society's decision. A short crack may be gouged out and re-welded at the next opportunity, a longer one may need the item taken out of service. Our report shows the crack length, position and orientation, so the repair yard can plan the weld preparation, and the record states plainly that it is an owner's NDT record, not a class approval of the repair."
+      ]
+    },
+    {
+      "id": "mpi-zeebrugge-planning",
+      "h": "Planning MPI work around a Zeebrugge call",
+      "p": [
+        "Let us know the details you want tested, the berth and the expected time alongside. If paint has to be removed, the ship's crew or the yard normally does it, and we advise on how much to clear and to what standard. Power and lighting on the deck must be available, and for work on loaded or partly loaded decks the cargo plan has to leave the areas free.",
+        "Access is controlled under ISPS, so the agent submits the technicians' details early. The team travels from India on Schengen visas arranged around the confirmed call. Send recent photographs of suspect areas and past repair records if you have them, because they help us decide the order of work, and they save time when the call is short."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers with hoistable decks",
+    "Ro-ro freight ships with stern and internal ramps",
+    "Ro-pax and passenger ro-ro ships",
+    "Container ships with lashing bridge structure",
+    "General cargo ships with heavy-lift derricks",
+    "LNG carriers (deck and mooring structure outside hazardous zones)"
+  ],
+  "codes": [
+    "ISO 9934-1 for general principles of magnetic particle testing",
+    "ISO 17638 for magnetic particle testing of welds",
+    "ISO 23278 for acceptance levels in magnetic particle testing of welds",
+    "ASTM E709 for the guide to magnetic particle testing",
+    "IACS Recommendation 47 for shipbuilding and repair quality",
+    "ASNT SNT-TC-1A for personnel qualification under the written practice"
+  ],
+  "deliverables": [
+    "Indication log with position, length and orientation for each crack found",
+    "Photographs of marked indications referenced to frame and deck numbers",
+    "Sketch of tested areas, showing which welds and details were covered",
+    "Statement of surface preparation and method used (dry powder, wet visible or fluorescent)",
+    "Recommendations for repair preparation where cracks were found",
+    "List of details not tested on the call, with the reason"
+  ],
+  "faqs": [
+    {
+      "q": "Can magnetic particle testing be done on a ro-ro ramp while the ship is at Zeebrugge?",
+      "a": "Yes, when the ramp is unloaded and the surface can be cleaned. Hinge brackets and support structure are accessible during most lay days and between discharge and loading. We plan the order of work so that the most heavily stressed details are tested first, in case the call is cut short by cargo operations."
+    },
+    {
+      "q": "Does paint have to be removed before the test?",
+      "a": "Thin, well-bonded paint can sometimes stay, but cracks under thicker coating or rust will not show. The area around the weld is normally cleaned to bare metal. The ship's crew or the yard usually does this, and we tell you in advance how much to clear and where, so no time is lost on the day."
+    },
+    {
+      "q": "How do you tell a crack from a harmless indication?",
+      "a": "By repeating the test from a different direction, by checking the geometry against the drawing and by examining the indication closely. Weld edges and changes of section produce non-relevant indications that do not persist when the surface is re-cleaned. Real cracks stay in the same place and have a typical linear shape."
+    },
+    {
+      "q": "Is the magnetic particle report accepted by the class society?",
+      "a": "The report is an owner's or yard's NDT record and not a class approval. The surveyor may use it to decide what to examine, and class rules decide what is accepted for credit. If a crack is found, the repair and its re-examination are handled according to the class requirements for that ship."
+    },
+    {
+      "q": "Can you test mooring and deck equipment foundations as well?",
+      "a": "Yes. Bitts, fairleads and winch foundations are common additions to the list, especially on ships that berth frequently. Cracks at their welds follow the pattern of mooring loads. The test is quick, and it can be added to a ramp or deck programme without much extra time alongside."
+    },
+    {
+      "q": "What if a crack is found on a loaded car deck?",
+      "a": "It is reported to the superintendent at once, with its position and size, because loading may need to be adjusted around the area. Whether the deck can carry cargo until repair depends on the crack and the structure. We give the facts, and the owner and class surveyor make the call."
+    }
+  ]
+}

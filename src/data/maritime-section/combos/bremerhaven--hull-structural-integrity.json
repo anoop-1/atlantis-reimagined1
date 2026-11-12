@@ -1,0 +1,123 @@
+{
+  "port": "bremerhaven",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Bremerhaven | Decks & Cracks",
+  "description": "Hull structural inspection in Bremerhaven for car carriers, ro-ro and offshore vessels: deck and ramp wastage, hoistable-deck crack detection, door structure.",
+  "h1": "Structural Condition Inspection of Car Carrier Decks, Ramps and Hulls in Bremerhaven",
+  "intro": "The structure that matters on a car carrier is not where a tanker specialist would first look. Hull structural integrity inspection in Bremerhaven examines fixed and hoistable decks, ramps, doors and the shell behind them, recording corrosion pattern, deformation and cracks as well as thickness. It is done at the car terminal inside the locks, at the ro-ro berths, on the river quay and in the Fischereihafen docks. A team is mobilised from India to the ship and works to the lock schedule and the cargo plan.",
+  "highlights": [
+    {
+      "h": "Hoistable decks and their brackets",
+      "p": "Hoistable decks hang from brackets and pins that see repeated cycles. Plating is gauged, and brackets, hinges and pin supports are cleaned, examined and tested for cracks while the deck is clear."
+    },
+    {
+      "h": "Ramps, doors and heavy-cargo decks",
+      "p": "Stern ramps, side doors and the decks beneath machinery and rolling stock take point loads. Damage there shows as buckling, thinning and cracking, and each is recorded with extent and location."
+    },
+    {
+      "h": "Idle vessels in the basins",
+      "p": "Offshore wind and research vessels laid up between campaigns can be inspected thoroughly: leg-wells, crane pedestals, tanks and voids are opened without cargo pressure, giving a full structural picture before the next charter."
+    }
+  ],
+  "sections": [
+    {
+      "id": "structure-of-vehicle-carriers",
+      "h": "What structure on a car carrier needs inspecting?",
+      "p": [
+        "A pure car and truck carrier is a stack of decks inside a large shell. The decks carry wheeled cargo and are held up by stiffeners; hoistable decks can be raised to make room for higher cargo and hang from brackets; ramps connect levels; and side and stern doors close the hull. The shell has little internal bracing compared with a tanker, so its plating, frames and the deck connections carry a great share of the structural duty. When that structure thins or cracks, the symptoms are visible: dished deck panels, distorted stiffeners, door seals that no longer close.",
+        "Water is the usual cause of wastage. It collects at deck drains, at ramp joints, around door frames and along the lower shell, where coating wears first. Heavy cargo adds mechanical damage, so corrosion and deformation often appear on the same panel, and the inspection record needs to say which came first."
+      ],
+      "list": [
+        "Fixed deck plating and stiffener webs, with drains and edges checked closely.",
+        "Hoistable decks: plating, brackets, hinges and pin supports.",
+        "Ramps and door structure, including frames and hinge connections.",
+        "Shell plating at the waterline and in ballast tank boundaries."
+      ]
+    },
+    {
+      "id": "where-in-bremerhaven",
+      "h": "Where in Bremerhaven can structural inspection be done?",
+      "p": [
+        "Inside the Kaiserschleuse and Nordschleuse locks, the car terminal gives a window between discharge and loading in which decks are empty. That is the best chance on a vehicle carrier to see deck steel without cargo on it, and the programme is ordered by deck so the structurally most important levels are covered first. The ro-ro and breakbulk berths give staged loading windows on ro-ro ships, with the heavy-cargo areas the priority.",
+        "On the open Weser, container ships at the river quay work liner calls, which allows weather deck, coaming and machinery-space inspection under the ship's permit system. In the Fischereihafen, the floating docks at Bredo Dry Docks give the full picture: dry hull, rudder, tank interiors and repair verification. Offshore wind and research vessels at the basin lay-by berths are idle and accessible, and the cruise terminal allows only tightly scoped tank or piping work during a busy turnaround."
+      ],
+      "list": [
+        "Car terminal inside the locks: deck, ramp and door structure with decks empty.",
+        "Ro-ro and breakbulk berths: heavy-cargo decks and ramps during staged loading.",
+        "River container quay: deck and coaming inspection within the liner call.",
+        "Bredo Dry Docks: dry hull, tank interiors and repair verification.",
+        "Overseas port lay-by berths: leg-wells, crane pedestals and tanks on idle offshore vessels."
+      ]
+    },
+    {
+      "id": "method-choice",
+      "h": "How are thickness, deformation and cracks examined together?",
+      "p": [
+        "Thickness is measured by ultrasonic gauging and located by deck, frame and member. Pitted or corroded surfaces are cleaned locally so the probe can couple, and the corrosion pattern is described, not just the reading. Deformation is recorded by measuring set and depth against a straight edge, with the deck, frame spacing and extent noted so the yard can see what kind of repair is needed.",
+        "Cracks are looked for first by close visual examination and then confirmed by magnetic particle testing on cleaned steel at brackets, hinges, ramp supports and door frame corners. Where paint or surface condition makes MPI impractical, penetrant testing or ultrasonic methods are used. Technicians work under our ASNT SNT-TC-1A written practice, and the crack detection record is an owner's NDT record. It supports the class engineer's assessment but does not replace a class survey or carry credit."
+      ]
+    },
+    {
+      "id": "container-and-offshore",
+      "h": "What are the structural concerns on container ships and offshore vessels here?",
+      "p": [
+        "Container ships at the river quay are inspected at hatch corners and coamings, where stress concentrates around the large deck openings, and at lashing structure that suffers impact from container handling. Scrubber-fitted ships add wash-water and overboard pipe wall-loss findings, which belong in the same condition report even though they are piping, not hull.",
+        "Offshore wind installation vessels bring a different structural list: leg-wells and jacking structure, crane pedestals and their foundations, deck strengthening beneath heavy components, and the tanks and voids of the hull. Many of these ships are young, so findings tend to be localised damage and coating failure rather than general wastage, and a baseline record before a new charter is as valuable as a defect list."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How is a Bremerhaven structural inspection planned?",
+      "p": [
+        "Tell us the ship type, age, the damage reports you have and where the ship will lie. The lock schedule and the berth plan govern when decks are empty, so we ask for the discharge and loading times and for the deck order the chief officer prefers. The agent registers the named technicians for the ISPS-controlled terminals and yards and confirms the quay.",
+        "The team flies from India to Bremen or Hamburg and continues by road or rail. Germany is in the Schengen area, so Schengen visas are needed, and they are applied for once the call is firm. Findings are sent to the superintendent after the inspection so that repairs can be planned for the next call or the dock, with the highest-risk items flagged first. Where a ship is due for a docking soon after, the inspection also serves as a pre-docking survey: the yard receives marked panels, crack locations and measured distortion, and can book steel crews and staging for the work that is known rather than the work that is feared."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers",
+    "Ro-ro and high-and-heavy ships",
+    "Container ships at the river quay",
+    "Offshore wind installation and service vessels",
+    "General cargo and project ships",
+    "Research vessels",
+    "Cruise ships with narrow tank scopes"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS Common Structural Rules where they apply to the ship type",
+    "SOLAS chapter II-1 (structure of ships)",
+    "ASTM E797 (manual pulse-echo ultrasonic thickness measurement)",
+    "ISO 17638 and ASTM E709 (magnetic particle testing)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Deck, frame and member thickness readings with diminution against original",
+    "Corrosion pattern and deformation record with measured extent",
+    "Crack detection record for brackets, hinges, ramps and door frames",
+    "Photographs referenced to deck and frame",
+    "Prioritised repair list for the next call or dock"
+  ],
+  "faqs": [
+    {
+      "q": "How do you inspect hoistable car decks in Bremerhaven?",
+      "a": "With the deck lowered and empty after discharge, plating is gauged and the suspension brackets, hinges and pin supports are cleaned and examined, with magnetic particle testing used to look for cracks. The deck is inspected before loading begins, and the record notes any panel or bracket that needs repair before the next cargo."
+    },
+    {
+      "q": "Can ramps and side doors be included in a structural inspection?",
+      "a": "Yes. Ramp plating, hinges, support structure and door frames can all be measured and examined while the ship lies at the car terminal. Hinge areas and frame corners are common crack sites, so they receive close examination as well as gauging. Damage is recorded by location with extent and, where relevant, depth."
+    },
+    {
+      "q": "What can be inspected on offshore wind vessels laid up at Bremerhaven?",
+      "a": "Leg-wells, jacking structure, crane pedestal foundations, deck strengthening and the tanks and voids of the hull. Because the ship is idle and the crew can open spaces without cargo pressure, the inspection can be thorough, giving a baseline before the next charter or a defect list before repairs are specified."
+    },
+    {
+      "q": "Does a structural inspection at Bremerhaven carry class credit?",
+      "a": "No. It gives the owner or manager measured and recorded evidence of corrosion, deformation and cracks, which the class engineer can use when assessing the ship. Class credit for survey work remains between the owner, the class society and the attending surveyor, and our crack detection results are owner's NDT records."
+    },
+    {
+      "q": "How long are car decks empty at the Bremerhaven car terminal?",
+      "a": "It varies with the cargo operation, the number of decks and how the terminal sequences discharge and loading, so we do not assume a fixed window. We ask for the plan before travel, order the decks by structural importance and finish the highest-priority levels first, so a shortened window still gives useful coverage. If the ship needs to be shifted or the loading start moves earlier, we report what has been completed and what remains."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "port": "rotterdam",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Rotterdam | Renewal UTM",
+  "description": "Renewal and special survey thickness measurement in Rotterdam: pre-docking steel estimates at Botlek and gauging in dock for tankers and bulk carriers.",
+  "h1": "Renewal survey gauging for ships docking in Rotterdam: from steel estimate to close-up survey",
+  "intro": "A tanker or bulk carrier heading for its third or fourth renewal survey usually chooses the Rotterdam area because the docks at Botlek can take a large ship and the North Sea trades keep it close. The superintendent then has two questions: how much steel will have to be renewed, and will the readings be ready when the class surveyor walks the tanks. We answer both. A team travels from India to the ship, gauges alongside before the slot, then supports the thickness measurement programme once the ship is on the blocks.",
+  "highlights": [
+    {
+      "h": "Gauge alongside, quote the yard on facts",
+      "p": "A ship lying at a Europoort or Botlek berth in the weeks before docking can be gauged on deck, in the topside tanks and on the accessible hull. The steel estimate that goes to the yards then rests on measured plates instead of an allowance."
+    },
+    {
+      "h": "Readings ready for the first day on the blocks",
+      "p": "Once a large ship is in a Botlek dock, blasting, coating and steel renewal all compete for the same tank. Gauging planned in advance, in the order of the class TM plan, keeps the surveyor from waiting and the yard from guessing."
+    },
+    {
+      "h": "Grouped by strake, plate and frame",
+      "p": "Readings are logged against the same strake and plate references the yard uses for its renewal list. A plate the surveyor marks for replacement can be traced from the reading to the work order without anyone re-measuring it."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-rotterdam",
+      "h": "Where is renewal survey gauging done in Rotterdam?",
+      "p": [
+        "For a large merchant ship the renewal survey is built around the dock. Damen Shiprepair's Botlek docks take tankers, bulk carriers, offshore units and cruise ships, and a ship arriving there is gauged in the dock itself, from yard staging, with the class surveyor's close-up programme running in the same tanks. That is where the bulk of full TM programmes are finished, because the bottom, the sides below the waterline and the ballast tanks can all be reached once the water is out.",
+        "Before docking, the useful places are different. A berth at the Europoort or Maasvlakte oil terminals lets us work on deck plating, deck piping and the topsides during discharge, and a lay-by berth or a buoy gives the long, quiet window in which ballast tanks can be emptied, ventilated and opened. The anchorages off the Maasmond suit a launch visit for a limited set of spaces, which is enough to test the likely wastage at a few critical points, not to write a renewal scope."
+      ],
+      "list": [
+        "In the Botlek dock: full TM programme on bottom shell, side shell, tank tops, transverses and bulkheads, in step with the surveyor's close-up survey.",
+        "At a lay-by berth or buoy: pre-docking gauging of ballast tanks, deck and topside structure while the ship waits for her slot.",
+        "At an oil terminal: deck, hatch and deck-pipe readings during cargo work, under the terminal permit.",
+        "At anchor off the Maasmond: spot gauging by launch of spaces that can be made safe, to test an assumption."
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which ships dock at Rotterdam for a renewal survey, and when?",
+      "p": [
+        "The pattern here is North Sea and Atlantic trading tonnage reaching an age at which the survey decides the ship's future. A Suezmax or Aframax that has worked crude and products between Europoort and the Mediterranean arrives for her third renewal; a Capesize or Panamax bulk carrier that carries ore and coal through Maasvlakte comes in on her fourth. At those ages the readings are no longer a formality, because several plates will sit near their allowable diminution and the result sets the length of the dock stay.",
+        "Chemical tankers calling at Botlek and Pernis follow a similar path, but their cargo tanks are often coated or stainless, which changes where the steel is thinnest: it is usually in the ballast spaces and the deck. Cruise ships and offshore units use the same docks on a different rhythm, with the docking date fixed months ahead by a season or a contract, so the gauging has to be planned backward from that date.",
+        "Container ships and ro-ro vessels also dock here for renewal, though they rarely sit idle for the weeks a tanker can spare. For them, gauging is scheduled around the liner rotation and finished in the days before the ship goes on the blocks."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is the renewal survey gauging scoped for these ships?",
+      "p": [
+        "The starting point is the ship's TM plan and the class requirements for her age and type. For an oil tanker or bulk carrier the rules call for gauging of the cargo or hold structure, the ballast tanks, the deck and the shell plating in an extent that rises with each survey. We take that plan, mark the strakes and members on the tank sketches and agree with the superintendent which areas will be gauged ahead of docking and which only once the ship is dry.",
+        "Access decides the sequence. A cargo tank that is not yet gas-free cannot be entered, so pre-docking work at a berth is concentrated on ballast tanks, topside tanks and the deck, while the cargo tanks wait for the yard's cleaning. In the dock, staging, lighting and ventilation are the yard's responsibility; our technicians and the surveyor share the same scaffolds, which is why the order of tanks is agreed with the yard planner before the ship arrives.",
+        "Coating condition matters as much as the instrument. Where ballast tank coating has broken down, the technician cleans a small patch to bare steel at each reading position; where it is intact, readings are taken through it only with a gauge mode that has been checked on a reference block. The report notes which method was used at which point, because a reading taken through coating and one taken on bare steel are not interchangeable."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does renewal gauging usually find on Rotterdam ships?",
+      "p": [
+        "On tankers that have shuttled between the North Sea and the Mediterranean, the worst wastage is normally in the ballast tanks adjacent to heated cargo, along the bottom and at the lower part of transverse bulkheads. On bulk carriers that load ore and coal, it is in the lower hold frames, the hopper side and the topside tank sloping plating, where cargo abrasion and wet cargo combine with coating loss.",
+        "The deck is often a surprise. Deck plating in way of the cargo manifold and along the hatch coamings loses thickness from wash-water and cargo residue, and the first estimate of steel renewal tends to be too small if the deck has not been gauged. Pitting in ballast tank bottoms shows up as a scatter of readings with a few very low ones, and the report distinguishes a few pits from general wastage because the repair differs: a pit may be welded and ground, general wastage means a plate is cropped and replaced."
+      ],
+      "list": [
+        "Bottom and lower bulkhead wastage in ballast tanks next to heated cargo tanks.",
+        "Hopper side, lower hold frame and topside tank sloping plate wastage on bulk carriers.",
+        "Deck plating loss at the manifold and along the hatch coamings.",
+        "Pitting patches in ballast tank bottoms, reported separately from general wastage.",
+        "Edge corrosion at cut-outs and around the openings in longitudinals."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How should a Rotterdam docking be planned around the gauging?",
+      "p": [
+        "Send us the ship's name or IMO number, the class, the survey due and the dock booking as early as the booking allows. The Schengen visas needed for a team travelling from India set the real lead time, so a dock date known three months out gives a comfortable plan and a date known three weeks out gives a tight one. We then ask the ship's agent to submit the technicians' names for terminal and yard access, because gate passes at the Botlek and Europoort sites cannot be arranged on the day.",
+        "The sequence we recommend is simple. Pre-docking gauging at a berth or buoy fixes the steel estimate; the estimate goes to the yards with the specification; the yard confirms the slot; the team joins the ship when she enters the dock and gauges in the order agreed with the surveyor and the yard planner. If the estimate and the dock readings differ, the report shows both, plate by plate, so the owner can see where the allowance was wrong.",
+        "Cancelled or moved docking dates are common in this port, and we plan with that in mind. If the slot moves, the pre-docking readings remain valid and the in-dock gauging moves with it, provided the technicians' visas and access names are still within their validity."
+      ]
+    }
+  ],
+  "vessels": [
+    "Suezmax and Aframax crude tankers",
+    "Product and chemical tankers",
+    "Capesize and Panamax bulk carriers",
+    "Container ships on liner services",
+    "Ro-ro and ro-pax ferries",
+    "Offshore support vessels",
+    "Cruise ships"
+  ],
+  "codes": [
+    "IACS UR Z7 and UR Z10 series for the hull survey cycle of tankers and bulk carriers",
+    "The 2011 ESP Code under SOLAS chapter XI-1",
+    "IACS UR Z17 for thickness measurement service suppliers",
+    "IMO PSPC for ballast tank coatings (MSC.215(82))",
+    "ASTM E797 for manual ultrasonic thickness measurement",
+    "Ship's own TM plan as approved by the classification society"
+  ],
+  "deliverables": [
+    "Thickness readings by strake, plate and frame, in the layout of the class TM plan",
+    "Tank sketches marked with gauged positions and the method used at each",
+    "Summary of plates at or beyond allowable diminution, ready for the yard's steel list",
+    "Photographs of cleaned reading positions and representative wastage",
+    "Comparison of pre-docking and in-dock readings where both were taken"
+  ],
+  "faqs": [
+    {
+      "q": "Where in Rotterdam can renewal survey thickness gauging be done?",
+      "a": "The full programme is normally done in the dock at Botlek, where bottom shell and tank structure are accessible. Pre-docking gauging of ballast tanks, deck and topsides is done at a lay-by berth, a buoy or an oil terminal berth, and limited spot gauging can be done by launch at the Maasmond anchorages."
+    },
+    {
+      "q": "How early before docking should we gauge in Rotterdam?",
+      "a": "Early enough for the steel estimate to reach the yards before they quote, which in practice means several weeks before the dock date. The visa lead time for a team travelling from India usually sets the earliest realistic date, so tell us the booking as soon as it is made."
+    },
+    {
+      "q": "Do cargo tanks have to be gas-free before you gauge them?",
+      "a": "Yes. Nobody enters a cargo tank until it has been cleaned and certified gas-free. At a berth we therefore work on ballast tanks, the deck and topside structure, and leave cargo tank gauging for the dock, once the yard has cleaned and ventilated them."
+    },
+    {
+      "q": "Can you gauge through ballast tank coating?",
+      "a": "Where the gauge has a through-coating mode that has been verified on a reference block, yes, and the report says so. Where coating is blistered or failed, we clean a patch to bare steel at each position. Readings of the two kinds are not mixed without being labelled."
+    },
+    {
+      "q": "What happens if the Rotterdam dock slot moves?",
+      "a": "Pre-docking readings stay valid and the in-dock gauging moves with the slot. We need to confirm that the technicians' visas and the names submitted for terminal access still cover the new dates, so please tell us as soon as the slot changes."
+    },
+    {
+      "q": "Which ships come to Rotterdam for renewal gauging most often?",
+      "a": "Suezmax, Aframax and product tankers, Capesize and Panamax bulk carriers, chemical tankers from the Botlek and Pernis jetties, and offshore units and cruise ships that use the large docks. Older ships at their third or later renewal need the most gauging and benefit most from a pre-docking estimate."
+    }
+  ]
+}

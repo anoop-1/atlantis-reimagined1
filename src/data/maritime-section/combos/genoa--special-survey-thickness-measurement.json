@@ -1,0 +1,119 @@
+{
+  "port": "genoa",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Genoa | Ferry UTM",
+  "description": "Special and renewal survey thickness measurement in Genoa for ro-pax ferries, cruise ships and tankers: Ente Bacini dock gauging and pre-docking steel surveys.",
+  "h1": "Ferry and Cruise Ship Renewal Survey Gauging in Genoa Drydocks",
+  "intro": "In Genoa the special survey belongs to the ferry calendar. Overnight ro-pax ships to Sardinia, Corsica and Sicily go into dock when island timetables thin out, and the renewal survey has to fit that quiet window. We mobilise a thickness measurement team from India to the ship, gauging vehicle decks, ramps, ballast tanks and bottom plating as the yard programme allows, and doing the pre-docking survey at the normal Genoa berth between sailings so that steel tonnage is fixed before the contract is signed.",
+  "highlights": [
+    {
+      "h": "Gauged between overnight sailings",
+      "p": "A ferry in service has hours, not days, at the berth. Pre-docking readings are limited to the spaces the chief engineer can release, and the plan is agreed against the turnaround timetable before anyone travels."
+    },
+    {
+      "h": "Vehicle decks and ramps in scope",
+      "p": "Ro-pax renewal gauging goes beyond the usual tank-and-hold list. Car deck plating, internal ramps, stern and bow doors and the steel round them are measured, because salt-laden vehicles and washdown water attack those areas first."
+    },
+    {
+      "h": "Repair yard gets a measured list",
+      "p": "Genoa yards size steel renewal on ferries and cruise ships from the gauging record. A readings table by deck and frame lets them estimate tonnage accurately rather than leaving an open provisional allowance."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-genoa",
+      "h": "Where is renewal gauging done in the Genoa ship-repair district?",
+      "p": [
+        "The repair district lies in the eastern part of the port. The drydocks operated by Ente Bacini sit in the Molo Giano area, alongside repair and conversion yards with their own quays. In a dock the whole underwater hull is accessible: bottom plating, side shell, sea chests, the stern frame and rudder surroundings. The adjacent quays allow tanks and voids to be opened and gauged afloat, which is where much of a ferry's renewal survey is actually completed.",
+        "Away from the district, gauging is a different kind of job. Ferries and cruise ships alternate between passenger terminals and the repair berths, so a team can follow a ship from a Sampierdarena or passenger-terminal call into the dock without a second mobilisation. Tankers at the Multedo oil port are gauged within the cargo window, and container ships at Voltri-Prà offer only a defined list of spaces during cargo work."
+      ],
+      "list": [
+        "Ente Bacini drydocks, Molo Giano: bottom, side shell, sea chests and double-bottom tanks with the hull dry",
+        "Repair and conversion yard quays: tanks, voids and car decks opened and gauged afloat",
+        "Passenger terminals: pre-docking readings between overnight sailings, within the turnaround",
+        "Multedo oil port: ballast tanks and deck on tankers, inside the discharge window",
+        "Outer anchorage: limited gauging for ships waiting for a berth or a docking slot"
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which Genoa ships go through renewal survey gauging, and when?",
+      "p": [
+        "Ferry operators are the core customers. Many Tyrrhenian ro-pax ships are older tonnage that has been refitted several times, so their third and fourth renewal surveys arrive with accumulated wastage in places a cargo ship never has: under car deck coatings, in tween-deck voids and around door sills. They favour winter dockings, which concentrates survey work into a predictable season and makes early booking sensible.",
+        "Cruise ships homeported at Genoa use repair berths for technical stops, and their gauging is smaller but exacting: ballast tanks, fuel tank boundaries and scrubber wash-water piping. Tankers at Multedo come when a CAP rating or vetting inspection is due, bringing cargo tank and ballast tank readings that must be finished inside a discharge. Italy's own class society, RINA, is headquartered in Genoa, so surveyors are often close at hand, which helps when scope questions arise on the day.",
+        "The age profile matters for scope. A ferry at her second renewal survey needs little more than the rule extent, while one past twenty years usually needs a programme extended deck by deck, because every previous report shows the wastage spreading from the same few areas. Owners who keep ships a long time in the Genoa trades tend to keep their old reports too, and those reports let us compare each reading with its own history instead of a nominal figure."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is the gauging scoped for a ro-pax ferry in a Genoa dock?",
+      "p": [
+        "We take the class survey programme and the ship's previous thickness reports, then add the ferry-specific areas the programme leaves to the surveyor's judgement: car deck plating beneath drains and washdown points, door and ramp surroundings, tween-deck void boundaries and the sides of ballast tanks next to heated fuel. Ferry hulls carry long continuous decks, so readings are laid out along frame lines for the whole length rather than in a few sections.",
+        "Access on a ferry is a puzzle of its own. Vehicle decks must be cleared of cargo, lashing points and wash residue before readings are taken, and void spaces need ventilation and gas testing before entry. When the ship is docked, the yard's staging and lighting serve the gauging team too, which saves repeating work. If the ship is only at the berth for the night, we set a short priority list of spaces that the chief engineer can release and gauge those first.",
+        "Safety on the day follows the yard's rules. Hot work, painting and staging erection often run in the same spaces, so we agree each day's gauging areas with the yard foreman and the ship's officer at the morning meeting, and keep readings clear of areas where blasting or welding is under way. Gas testing results are checked before every entry, and a second person stays at the tank access."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does renewal gauging typically find on ferries and cruise ships here?",
+      "p": [
+        "On ro-pax ferries the usual findings are wastage of car deck plating under drains and along the ship's sides, corrosion around stern door sills and ramp hinges, and thin steel in void spaces where condensation never dries. Double-bottom ballast tanks show coating breakdown along weld seams and at the bilge, and sea chests and overboard valves show pitting that only a dry hull reveals.",
+        "Cruise ships present fewer large areas but more piping: scrubber discharge lines and the shell penetrations they use, and fuel and ballast tank boundaries. Tankers show pitting on tank bottoms and heavy corrosion at the upper edges of ballast tanks under heated decks. The report ranks each finding by margin to renewal thickness, so a yard can plan Genoa's winter dockings with the most urgent steel first.",
+        "Where wastage is heavy, we recommend further readings on a tighter grid before renewal limits are drawn, since a few scattered readings can miss the worst spot on a long deck plate. A fine grid around a suspected thin area costs a few hours and prevents either unnecessary renewal or a plate left in that should have come out."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How should a Genoa renewal gauging job be planned?",
+      "p": [
+        "Ferry dockings are booked months ahead, so the sensible time to contact us is when the yard slot is confirmed. We start Schengen visa applications at once, which leaves ample time for flights and for the ship's agent to arrange access passes at the dock gates. A pre-docking visit a few weeks earlier is worthwhile for older ships, because it settles the steel estimate before the yard contract is finalised.",
+        "Send us the ship's name, class and age, the docking dates, the survey type, previous thickness reports and the list of spaces that will be gas-free. Say whether the yard will provide staging and lighting, and whether the ship will keep passenger operations running until the day it enters dock. We then confirm the scope, the number of technicians and the arrival date, and agree who attends for the owner and the class."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ro-pax ferries on the Sardinia, Corsica and Sicily routes",
+    "Overnight ferries to North Africa during winter dockings",
+    "Cruise ships homeported or refitted at Genoa",
+    "Product and crude tankers discharging at the Multedo oil port",
+    "Container ships calling at Voltri-Prà with a defined space list",
+    "Ro-ro and multipurpose ships at the Sampierdarena basins"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys of general cargo and passenger ships",
+    "IACS UR Z10.4 for double-hull oil tankers",
+    "SOLAS Chapter II-1 for the structure of passenger ships",
+    "RINA rules for the classification of ships",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ASTM E797 for manual contact ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness readings by deck, frame line and structural member",
+    "Car deck, ramp and door surround record with margins to renewal thickness",
+    "Ballast tank and double-bottom gauging tables",
+    "Steel tonnage estimate summary for the repair yard's contract",
+    "Photographs and layout sketches for every reading group"
+  ],
+  "faqs": [
+    {
+      "q": "Can thickness measurement be done on a ferry between overnight sailings in Genoa?",
+      "a": "For limited spaces, yes. The chief engineer releases tanks, voids and decks that can be entered safely, and we gauge those inside the turnaround. A full renewal survey programme normally needs the docking, but a night-berth visit gives the yard a steel estimate."
+    },
+    {
+      "q": "Do you gauge car decks and ramps as well as tanks?",
+      "a": "Yes. Car deck plating, ramps, stern and bow doors and the steel round them are a standard part of ro-pax renewal gauging. They corrode from salt carried in by vehicles and from washdown water, and the readings help the yard plan renewal."
+    },
+    {
+      "q": "What access is needed in an Ente Bacini drydock?",
+      "a": "Staging to reach the shell above the keel, lighting, gas-free certificates for tanks and voids, and a cleaned hull surface where readings are needed. The yard normally provides these, and we coordinate timing so gauging happens when each area is ready."
+    },
+    {
+      "q": "How early should we contact you before a winter docking?",
+      "a": "As soon as the yard confirms the slot. Ferry dockings are fixed months ahead, so there is time to arrange visas, agree the scope and fit a pre-docking visit if the owner wants a steel estimate before signing the repair contract."
+    },
+    {
+      "q": "Can you gauge tankers at Multedo during discharge?",
+      "a": "We can gauge ballast tanks, deck structure and accessible spaces inside the cargo window, subject to the terminal's permit rules and the master's agreement. Cargo tank bottoms are normally left to the docking, after tank cleaning and gas-freeing."
+    }
+  ]
+}

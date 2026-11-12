@@ -36,7 +36,15 @@
     "/corporate-ndt-training/toronto",
     "/corporate-ndt-training/montreal",
     "/corporate-ndt-training/vancouver",
-    "/corporate-ndt-training/halifax"
+    "/corporate-ndt-training/halifax",
+    "/ndt-training-toronto",
+    "/ndt-training-hamilton-ontario",
+    "/ndt-training-sudbury",
+    "/ndt-training-regina",
+    "/ndt-training-saskatoon",
+    "/ndt-training-red-deer",
+    "/ndt-training-grande-prairie",
+    "/ndt-training-kitimat"
   ],
   "pages": {
     "/ndt-training-canada": {
@@ -213,6 +221,46 @@
       "title": "Corporate NDT Training in Halifax — ASNT SNT-TC-1A Courses",
       "description": "Corporate ASNT SNT-TC-1A NDT training in Halifax: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
       "h1": "Corporate NDT Training in Halifax — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-toronto": {
+      "title": "ASNT SNT-TC-1A NDT Training in Toronto | Level 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Toronto employers and technicians: self-paced theory, simulator and practical at your facility. Not CAN/CGSB-48.9712.",
+      "h1": "NDT Training in Toronto, ON: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+    },
+    "/ndt-training-hamilton-ontario": {
+      "title": "ASNT SNT-TC-1A NDT Training in Hamilton | Levels 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Hamilton steel, fabrication and port employers: self-paced theory, simulator and practical at your site. Not CAN/CGSB-48.9712.",
+      "h1": "NDT Training in Hamilton, ON: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+    },
+    "/ndt-training-sudbury": {
+      "title": "ASNT SNT-TC-1A NDT Training in Sudbury | Levels 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Sudbury mining and equipment employers: self-paced theory, simulator and practical at your site. Not CAN/CGSB-48.9712.",
+      "h1": "NDT Training in Sudbury, ON: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
+    },
+    "/ndt-training-regina": {
+      "title": "ASNT SNT-TC-1A NDT Training in Regina | Level 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Regina employers and technicians: online theory, practical at your facility, UT, RT, MT, PT, VT and Level III support.",
+      "h1": "ASNT SNT-TC-1A NDT Training in Regina, SK: Level 1, 2 and 3 Courses"
+    },
+    "/ndt-training-saskatoon": {
+      "title": "ASNT SNT-TC-1A NDT Training in Saskatoon | Level 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Saskatoon employers and technicians: online theory, practical at your facility, UT, MT, PT, VT, RT and Level III support.",
+      "h1": "ASNT SNT-TC-1A NDT Training in Saskatoon, SK: Level 1, 2 and 3 Courses"
+    },
+    "/ndt-training-red-deer": {
+      "title": "ASNT SNT-TC-1A NDT Training in Red Deer | Level 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Red Deer employers and technicians: online theory, practical at your facility, UT, PAUT, RT, MT, PT, VT and Level III.",
+      "h1": "ASNT SNT-TC-1A NDT Training in Red Deer, AB: Level 1, 2 and 3 Courses"
+    },
+    "/ndt-training-grande-prairie": {
+      "title": "ASNT SNT-TC-1A NDT Training in Grande Prairie | Level 1-3",
+      "description": "ASNT SNT-TC-1A NDT training for Grande Prairie employers and technicians: online theory, practical at your facility, UT, PAUT, RT, MT, PT, VT and Level III.",
+      "h1": "ASNT SNT-TC-1A NDT Training in Grande Prairie, AB: Level 1, 2 and 3 Courses"
+    },
+    "/ndt-training-kitimat": {
+      "title": "ASNT SNT-TC-1A NDT Training in Kitimat | Levels 1, 2 & 3",
+      "description": "ASNT SNT-TC-1A NDT training for Kitimat smelter, LNG and marine employers: self-paced theory, simulator and practical at your site. Not CAN/CGSB-48.9712.",
+      "h1": "NDT Training in Kitimat, BC: ASNT SNT-TC-1A Courses for Levels 1, 2 and 3"
     }
   },
   "offer": {

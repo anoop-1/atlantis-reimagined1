@@ -1,0 +1,108 @@
+{
+  "slug": "swinoujscie",
+  "name": "Świnoujście",
+  "country": "Poland",
+  "region": "europe",
+  "title": "Świnoujście Ship Gauging: UTM for Ferries, LNG and Bulkers",
+  "description": "Ultrasonic thickness measurement at Świnoujście: ro-pax ferries, LNG carriers and bulk carriers at the Baltic gate of the Oder, gauged at berth or anchor.",
+  "h1": "Hull and Tank Thickness Gauging at the Port of Świnoujście",
+  "intro": "Świnoujście is where the Oder fairway meets the open Baltic. Ferries cross from here to Sweden, bulk carriers discharge at the deep-water quays, and LNG carriers call at the gas terminal. Ships spend short, fixed periods alongside, so gauging has to be planned to the hour. Atlantis sends technicians from India to the vessel for each job, with no one stationed in Poland, and works to the ship's berth schedule or her slot in a yard.",
+  "keywords": [
+    "świnoujście ship thickness measurement",
+    "swinoujscie ultrasonic thickness gauging",
+    "ferry hull inspection swinoujscie",
+    "lng carrier ballast tank gauging",
+    "baltic ro-pax thickness measurement",
+    "ship utm poland",
+    "bulk carrier hold gauging swinoujscie",
+    "pre-docking steel estimate baltic",
+    "pomeranian bay anchorage inspection",
+    "utm swinoujscie"
+  ],
+  "highlights": [
+    {
+      "h": "The sea gate of the Oder",
+      "p": "Ships reach Świnoujście straight from the open Baltic, before the long river passage to Szczecin. A superintendent can have readings taken on arrival and decide on steel before the ship commits to a yard slot upriver."
+    },
+    {
+      "h": "Crossing ferries on a fixed rhythm",
+      "p": "Sweden-route ferries return to the same berth on the same pattern. Because the schedule repeats, a staged scope on car decks, ramps and engine-room piping can be agreed once and repeated across several turnarounds."
+    },
+    {
+      "h": "Gas terminal discipline",
+      "p": "Work on LNG carriers is confined to the deck, ballast tanks and sea-water systems, inside the terminal's permit regime. The cargo containment system stays outside our scope, and the plan is settled with the ship's master beforehand."
+    }
+  ],
+  "port": {
+    "h": "Świnoujście: a strait between two islands",
+    "p": [
+      "The town is built across the Świna, the narrow strait that links the Szczecin Lagoon with the Pomeranian Bay, and it is spread over several islands. Usedom lies on one side and Wolin on the other, and local road traffic crosses the water by public ferry because there is no fixed bridge in the town. Breakwaters shelter the entrance from the sea, so a ship coming in from the bay passes between the moles and finds the port's quays almost at once. Nobody arriving needs a long approach channel to get alongside.",
+      "That position makes Świnoujście a sea port in the proper sense, in contrast with the river port of Szczecin upstream. Ships bound for Szczecin pass through on the way, take a pilot here and continue along the dredged fairway, while larger vessels often discharge part of their cargo at Świnoujście to reduce draught. Ferries and ro-ro freight dominate the ship movements, gas carriers add a specialised stream, and bulk carriers handle coal, ore and agricultural cargoes at the deep-water berths. A naval base shares the harbour, and the parts of the water it uses are closed to commercial work.",
+      "The Baltic here has almost no tide, but the water level swings with the wind, and a long run of westerly or easterly weather can raise or lower the quays noticeably. That affects mooring and gangway arrangements more than it affects gauging. Winters are cold rather than icebound; drifting ice can slow the lagoon and the fairway for short spells in hard winters, while the sea end of the port generally stays open. Autumn and winter gales are the main interruption to anything that depends on a launch or an open deck."
+    ]
+  },
+  "facilities": {
+    "h": "Where ships are gauged at Świnoujście",
+    "p": [
+      "Świnoujście has no large commercial drydock of its own. A ship that needs a dock goes upriver to Szczecin or along the coast to Gdańsk, and gauging done here is the way to know what to expect before that voyage. A superintendent who has measured the shell, tank tops and deck beforehand can send the yard a steel list in advance and avoid the surprise of discovering extensive wastage after the dock has been flooded.",
+      "Ferry and ro-ro berths offer the best access for plating inside the vessel. Bulk and general cargo quays suit hold and hatch work while cargo is moving, and the gas terminal handles tanker deck and ballast scopes under tight controls. Anchorage work in the bay is possible only when the sea and the agent's launch allow it, and the scope is ordered so the most valuable readings come first. Every berth sits behind port security, so names and passes go to the terminal through the agent in good time."
+    ],
+    "list": [
+      "Ferry terminal berths — vehicle decks, ramps, bow and stern doors and engine-room piping on ro-pax ships during their fixed turnarounds.",
+      "Ro-ro and general cargo quays — tween decks, trailer lanes, hatch covers and lower holds while cargo is worked.",
+      "Bulk berths — hold frames, hopper plating and coamings on bulk carriers after discharge and before the next loading.",
+      "LNG terminal — deck, ballast tank and sea-water piping on gas carriers only, never the cargo containment system.",
+      "Pomeranian Bay anchorage — short, launch-borne scopes on ships waiting for a berth or the river pilot.",
+      "Yards at Szczecin and Gdańsk — the usual dockings, where readings taken here support the steel estimate."
+    ]
+  },
+  "context": {
+    "h": "Port state control, the Maritime Office and gas-terminal rules",
+    "p": [
+      "Port state control in Poland follows the Paris MoU and is carried out by inspectors of the maritime administration. Świnoujście falls under the Szczecin Maritime Office (Urząd Morski w Szczecinie), which also supervises the fairway through the lagoon. Ro-pax ferries on regular Baltic routes are in addition covered by the EU directive on survey and inspection requirements for ro-ro passenger ships, so their operators keep an eye on the condition of fire mains, bilge lines, sea-water cooling and the structure around the doors. Recent readings on those systems answer questions before an inspector asks them.",
+      "Tankers and gas carriers are treated as higher-risk ship types in the targeting regime, and the gas terminal runs its own entry rules on top of the ship's safety management system. Ships coming from outside the EU must carry an Inventory of Hazardous Materials under the EU Ship Recycling Regulation, and voyages between European ports now fall under the EU emissions trading scheme and FuelEU Maritime. For ferry operators with daily crossings these obligations make accurate steel and piping condition data a part of fleet planning, not just a survey formality."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Świnoujście",
+    "p": "Most work here is shaped by the port's job as a gateway: ferries on fixed rotations, ships passing to and from Szczecin, and gas carriers. We agree the scope with the superintendent and the ship's agent, check the berth schedule, and arrange gas-freeing and entry permits through the ship. When a ship will later dock upriver, the readings are laid out so the yard can use them directly in its steel planning.",
+    "list": [
+      "Car-deck and ramp plating gauged on a Sweden-route ro-pax, with magnetic particle testing of ramp hinge and door-surround welds, staged across successive turnarounds.",
+      "Ballast-tank and main-deck gauging on an LNG carrier alongside, kept clear of the containment system and carried out inside the terminal's permit rules.",
+      "Hold frames, hopper plating and hatch coamings on a bulk carrier after discharge, ahead of an ESP intermediate survey.",
+      "Pre-docking steel estimate for a river-sea coaster before she goes upriver to a Szczecin yard.",
+      "Owner's condition gauging for a prospective buyer on a ro-ro ship at lay-by."
+    ]
+  },
+  "logistics": "Teams normally fly to Berlin or Szczecin-Goleniów and continue by road, with Copenhagen and Hamburg as other routes; the road journey from Berlin is of the order of a few hours but depends on traffic and the border formalities of the day. Poland is in the Schengen area, so teams from India travel on Schengen visas, which should be applied for early. Port and terminal access is requested through the ship's agent, who also books launches for the anchorage.",
+  "vessels": [
+    "Ro-pax ferries on Baltic crossings",
+    "Ro-ro and trailer ships",
+    "LNG carriers",
+    "Bulk carriers and handysize ships",
+    "General cargo ships and coasters",
+    "River-sea vessels bound for Szczecin",
+    "Product and chemical tankers"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ship be gauged at the Pomeranian Bay anchorage off Świnoujście?",
+      "a": "Yes, in suitable weather and with a launch arranged by the agent, but the scope should be narrow. Deck plating, hatch coamings, air pipes and one or two prepared tanks are realistic. The Baltic can turn rough with little warning, so the most important readings are taken first and the programme is cut short if boarding becomes unsafe."
+    },
+    {
+      "q": "Is there a drydock at Świnoujście for a renewal survey?",
+      "a": "Not a large commercial one that we would rely on for renewal work. Ships that need a dock usually go upriver to Szczecin or on to Gdańsk. Gauging at Świnoujście is useful beforehand, because it tells the yard which areas of the shell, tanks and deck to expect steel renewal in, before the ship is committed to a docking date."
+    },
+    {
+      "q": "What can be measured on an LNG carrier at Świnoujście?",
+      "a": "Deck plating, ballast tanks, and sea-water and fire-main piping, within the terminal's rules and the ship's own permit system. The cargo tanks and containment system are not part of our scope. Operators who need the ship's own safety procedures followed on gas-dangerous areas should state that in the instruction, and we confirm the plan with the master first."
+    },
+    {
+      "q": "Does winter weather stop gauging at Świnoujście?",
+      "a": "Cold spells and drifting ice rarely close the sea end of the port, but gales can stop launches and make open decks unpleasant. Alongside, work inside tanks, voids and engine rooms continues in most weather. In January and February we plan more indoor scope on deck-covered spaces, and keep a weather day in the schedule where the ship's stay allows it."
+    }
+  ],
+  "nearby": ["szczecin", "police", "gdynia", "rostock", "ystad"]
+}

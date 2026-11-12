@@ -1,0 +1,123 @@
+{
+  "port": "vlissingen",
+  "service": "ultrasonic-weld-inspection",
+  "title": "Ultrasonic Weld Inspection Vlissingen | Ship Weld UT Testing",
+  "description": "Ultrasonic weld inspection in Vlissingen: shear-wave UT of steel renewal inserts, repair welds and retrofit welds on ferries, dredgers and offshore vessels.",
+  "h1": "Shear-wave UT of repair and renewal welds at the Vlissingen-Oost yard and quays",
+  "intro": "Where a yard renews steel, someone has to show the new welds are sound, and in a busy dock radiography is rarely practical. At Vlissingen-Oost that situation arises every docking: inserts in ferry car decks, new hopper plating in dredgers, repaired shell on offshore support vessels and modification welds on cargo ships. Atlantis NDT sends a team from India to carry out manual shear-wave ultrasonic testing of those welds to the ISO standards and the class or owner's specification, working alongside the yard's welders without stopping the work around them.",
+  "highlights": [
+    {
+      "h": "Testing while the dock stays busy",
+      "p": "UT needs a scanning surface and nothing behind the joint. Painters, riggers and fitters carry on nearby, and no exclusion zone has to be set up in the dock. That matters at a yard where the schedule is built around the days the ship is on blocks."
+    },
+    {
+      "h": "Welds tested after grinding, before painting",
+      "p": "Insert plates and repair welds are tested once ground flush and before blasting or painting seals them. The team works to that sequence with the yard foreman, so a rejected weld is repaired while the staging, the welder and the plate are all still in place."
+    },
+    {
+      "h": "Planar flaws found where they matter",
+      "p": "Lack of fusion and cracks in thick joints are the flaws that threaten strength, and shear-wave UT finds them well. The report gives each indication's position, depth and length against the acceptance level, so the surveyor decides from measured data."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-weld-ut-is-done",
+      "h": "Where is weld UT carried out for ships at Vlissingen-Oost?",
+      "p": [
+        "Most weld testing happens in the dock or at the yard quay at Damen Shiprepair Vlissingen, because that is where steel is renewed. The team tests welds in the shell and bottom while the ship is on blocks, welds in tank structure once the tank is gas-free and welds on deck and in the superstructure from the yard's staging. The yard issues the hot work permits and the site induction, and we coordinate the testing with the foreman's welding schedule.",
+        "Welding is also done outside the yard. A scrubber installation, a crane pedestal repair or a hatch coaming modification may be carried out alongside at a Sloe area quay, where the terminal's permit rules apply. UT works there for the same reasons as in the dock: it needs no exclusion zone. For work at an anchorage in the Westerschelde, UT is possible only when a launch transfer and the sea state allow, and we agree the scope with the agent in advance."
+      ],
+      "list": [
+        "In dock at the yard: insert plates, shell and bottom repairs and sea chest welds.",
+        "In gas-free tanks at the yard quay: bracket, bulkhead and stiffener welds after renewal.",
+        "On decks and superstructure: car-deck inserts, hatch coamings and retrofit foundations.",
+        "At Sloe area quays: modification and repair welds under the terminal's permit."
+      ]
+    },
+    {
+      "id": "which-jobs-need-weld-ut",
+      "h": "Which welding jobs on Zeeland ships call for ultrasonic testing?",
+      "p": [
+        "Ferry dockings generate car-deck insert plates and new plating beneath, where the weld joins thick steel and the flaw of concern is lack of fusion. Dredger dockings bring renewal of hopper floor plates, door brackets and suction pipe supports, where the welds carry heavy loads and the owner wants evidence before the next campaign. Offshore support vessels may have crane pedestal or deck equipment modifications, where full-penetration welds are typical.",
+        "Ships fitted with scrubbers, ballast water treatment or shore power systems also need foundation and penetration welds tested. Cargo ships and heavy-lift vessels come for shell repair after contact damage. In each case the class rules or the owner's specification state the extent of testing, and our job is to carry it out and report it, not to decide how much is required."
+      ]
+    },
+    {
+      "id": "how-the-testing-is-scoped",
+      "h": "How is weld UT scoped and set up for a yard job?",
+      "p": [
+        "We start from the welding procedure, the weld map and the specification that states the testing level and the acceptance level. Where the specification is silent, we ask the superintendent and the class surveyor which standard governs and write the answer into the report. The technique follows ISO 17640 for the testing and an acceptance level from ISO 11666, and the instrument is calibrated on a reference block of the right material before each shift.",
+        "Surface condition decides how long setup takes. A weld ground flush with clean parent plate either side is quick to scan, while one with spatter, grit or remaining paint is not. We ask the yard to leave scanning surface on both sides of each joint, and we check the plate for laminations where the beam will travel. Thick-section joints may need more than one probe angle, so we plan the time per joint accordingly."
+      ]
+    },
+    {
+      "id": "what-the-testing-finds",
+      "h": "What does weld UT typically find in yard repair work?",
+      "p": [
+        "In insert plates, the usual defects are lack of side-wall fusion, where the weld metal has not melted into the plate edge, and incomplete root penetration where access from the back is limited. In repaired welds, we sometimes find a crack extending beyond the end of the excavation, which shows the original defect was longer than first thought. In older steel near new work, lamination in the plate can interfere with the beam, and we note it separately.",
+        "Where an indication exceeds the acceptance level, we record its position, depth and length, and the yard repairs it before retest. The retest is recorded as a new line in the report, with the original indication kept, so the surveyor sees the full history. Welds that pass are listed with the testing level and acceptance level used, which is the evidence the owner and the surveyor need."
+      ]
+    },
+    {
+      "id": "planning-with-the-yard",
+      "h": "How is weld testing planned with the yard in Vlissingen?",
+      "p": [
+        "The practical question is when each weld will be ready. Welding, grinding, testing and painting form a sequence, and the testing team should arrive when the first welds are finished, not before. We ask the yard or the superintendent for the weld map, the sequence and the likely dates, then plan the team's days to follow the welders. If a weld is delayed, the team moves to the next one, so waiting time stays low.",
+        "A team from India needs visas in hand before travel, and the yard needs the names for the site induction. The agent arranges gate passes. For a short job with a few joints, a single technician may be enough, while a larger renewal calls for a pair so scanning and recording proceed together. Tell us the number of joints and their thickness, and we propose the team size."
+      ],
+      "list": [
+        "Weld map with joint thickness, type and position.",
+        "Specification with testing level and acceptance level.",
+        "Yard's welding and painting sequence.",
+        "Names for the yard induction and gate passes."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ro-pax and ro-ro ferries with car-deck insert plates",
+    "Trailing suction hopper dredgers with renewed hopper plating",
+    "Offshore wind support and installation vessels",
+    "Ships fitted with scrubbers or other retrofits",
+    "Short-sea general cargo ships",
+    "Heavy-lift and project cargo ships",
+    "Chemical and product tankers with tank structure repairs"
+  ],
+  "codes": [
+    "ISO 17640 – Ultrasonic testing of welds: techniques and testing levels",
+    "ISO 11666 – Ultrasonic testing of welds: acceptance levels",
+    "ISO 17635 – Non-destructive testing of welds: general rules",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "Classification society rules for weld NDT on repairs and conversions",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "UT weld report per joint with procedure, testing level and acceptance level",
+    "Indication list with position, depth, length and amplitude",
+    "Weld map locating every joint tested at the yard",
+    "Calibration and reference block records for each shift",
+    "Retest records for repaired joints, with the original indication kept",
+    "List of joints not scanned, with the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "Why use ultrasonic testing rather than radiography at the Vlissingen yard?",
+      "a": "Radiography needs an exclusion zone around the source, which stops other work in the dock. UT needs only a scanning surface, so welders, painters and riggers keep working. For thick joints and planar flaws it is also well suited, which is why it is the usual choice for yard repairs on ships."
+    },
+    {
+      "q": "When in the sequence should the welds be tested?",
+      "a": "After grinding and visual inspection, and before blasting and painting. That way a rejected weld is repaired while the welder and the staging are still there. We plan the team's arrival against the yard's welding sequence so testing follows the welders closely."
+    },
+    {
+      "q": "Can you test welds on a ship alongside a Sloe quay, not in the yard?",
+      "a": "Yes, under the terminal's permit rules. A scrubber foundation, crane pedestal or hatch coaming repair can be tested alongside. UT needs no exclusion zone, so it suits quay work. We agree the permit, the access and the timing with the agent and the superintendent beforehand."
+    },
+    {
+      "q": "Does the UT report count as a class approval of the weld?",
+      "a": "No. The report is the owner's and the yard's NDT record, showing the testing level and acceptance level used and what was found. The class surveyor reviews the data and decides on acceptance. We write the report so the surveyor has what is needed without a retest."
+    },
+    {
+      "q": "What if a weld fails the acceptance level?",
+      "a": "We record the indication's position, depth and length, and the yard repairs it. The repaired weld is retested and recorded as a new line, with the original indication kept in the report. The surveyor then sees both the defect and the repair, which is the full evidence trail."
+    }
+  ]
+}

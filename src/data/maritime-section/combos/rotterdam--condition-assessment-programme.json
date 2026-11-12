@@ -1,0 +1,124 @@
+{
+  "port": "rotterdam",
+  "service": "condition-assessment-programme",
+  "title": "CAP Thickness Measurement Rotterdam | Tanker Condition Gauging",
+  "description": "CAP thickness measurement in Rotterdam for older tankers and bulk carriers: gauging after tank cleaning on lay-by berths, with data laid out for the society.",
+  "h1": "Condition Assessment Programme gauging for older tankers and bulk carriers calling at Rotterdam",
+  "intro": "Charterers and oil-major vetting teams ask more questions about a fifteen-year-old tanker than about a five-year-old one, and a Condition Assessment Programme rating is how an owner answers them. Rotterdam is where many of those answers are built: ships idle on lay-by berths between nominations, tanks get cleaned for the next grade, and the Botlek docks are close. The classification society issues the rating. We supply the measurement behind it, travelling from India to the ship and gauging in the order the society's engineers will need.",
+  "highlights": [
+    {
+      "h": "Use the idle days between nominations",
+      "p": "A tanker waiting on a lay-by berth or buoy for her next cargo has tanks that can be cleaned, ventilated and opened. CAP-level gauging fits that window better than a terminal call, when cargo work leaves no tank free."
+    },
+    {
+      "h": "Data laid out for the society's engineers",
+      "p": "The society's CAP team assesses strength from the readings. They arrive grouped by tank, structural member and strake, with the corrosion pattern noted, so the engineers can use the figures directly rather than reorganise them."
+    },
+    {
+      "h": "Know the likely grade before booking",
+      "p": "Pre-CAP gauging of the tanks most likely to limit the rating shows an owner whether the programme is worth starting. If the ballast tanks are already beyond margin, that is known before the society is engaged."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-here",
+      "h": "Why do owners prepare for a CAP rating in Rotterdam?",
+      "p": [
+        "The vetting pressure is felt most on ships trading into the Europoort and Botlek terminals. Major charterers and terminal operators screen older tonnage on the strength of its steel, and an Aframax or product tanker with no recent, traceable gauging is the first one set aside when a cargo is nominated. A rating from the society gives the ship a record that stands up to the question.",
+        "Rotterdam also offers something that terminals elsewhere do not: patience. The port has lay-by berths, buoys and anchorages where ships wait for cargo or a yard slot, and the same ship may spend several days between a discharge at Botlek and her next loading. That waiting time is when a tanker can be cleaned and made available for close-up survey, and it is when most pre-CAP gauging is arranged.",
+        "The ships are mostly crude and product tankers, with chemical tankers from the Pernis and Botlek jetties and Panamax or Capesize bulk carriers that qualify for a CAP-type assessment on the society's terms. The older the ship and the more heated or aggressive her cargo history, the more the ballast tanks and the bottom structure dominate the plan."
+      ]
+    },
+    {
+      "id": "where",
+      "h": "Where can CAP gauging be done on a ship at Rotterdam?",
+      "p": [
+        "Close-up survey and gauging in cargo and ballast tanks both need access, and access needs time. A lay-by berth is the practical place for a first pass: the ship is idle, staging can be rigged in ballast tanks, and ventilation and gas-freeing can run without a cargo programme pressing on the crew. A buoy works the same way for a ship that does not need shore services.",
+        "For the full programme, the yard decides. If the ship is booked into a Botlek dock for her renewal survey, the CAP work is folded into it, and the society's surveyor sees the same tanks once. If the ship is trading and only the assessment is wanted, the team gauges tank by tank at the lay-by berth, with the society attending when the staging is ready.",
+        "Terminals are less useful. At an oil jetty the terminal's rules limit what can be done during cargo handling, and cargo tanks stay closed until the ship has finished and been cleaned. We use a terminal call only for the deck, deck piping and accessible topside spaces, under a permit."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is CAP gauging scoped for a tanker here?",
+      "p": [
+        "The scheme belongs to the society, and each society publishes its own procedure, so we scope against the one the owner has chosen. In outline, the assessment looks at the main structural members in the cargo and ballast tanks, the bottom and side shell and the deck, with readings taken in considerably greater number than a routine survey asks for. The aim is a picture of how much steel remains where the hull girder takes its loads.",
+        "We start from the ship's last gauging reports and from the society's list of areas of concern. Tank by tank, the plan marks strakes, longitudinals, web frames and bulkhead plating, and fixes the reading pattern across each. Where earlier surveys recorded pitting, the pattern is denser. Where a tank was recoated after the last survey, we note it, because bare readings and coated readings are not treated alike.",
+        "Order of work depends on tank cleaning. Cargo tanks come after cleaning and a gas-free certificate; ballast tanks are available as soon as they are emptied. We normally begin with the ballast tanks, which dominate the findings on older tankers, and move to the cargo tanks as they become available. A schedule agreed with the chief officer in advance avoids the common failure of a team waiting on a tank that has not been washed."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does CAP gauging typically find on older tankers?",
+      "p": [
+        "Ballast tank structure next to heated cargo is the usual limiting area. Bottom plating, the lower part of longitudinal bulkheads and the stiffener flanges lose steel faster than the rest of the tank, and the pattern repeats from frame to frame. Gauging it in a grid shows whether the wastage is uniform, which the strength calculation can accommodate, or concentrated in a few strakes, which cannot.",
+        "Cargo tanks on crude carriers show their own pattern: pitting on the bottom, particularly where water settled, and grooving along the toes of longitudinals. Deck plating loses thickness in way of the tank-cleaning machine openings and the vent heads. On product and chemical tankers the corrosion is often milder in the cargo tanks but heavier in the ballast spaces, because coatings were meant for cargo and neglect shows in the water tanks."
+      ],
+      "list": [
+        "Bottom plating and lower bulkhead strakes beside heated cargo, measured in a grid.",
+        "Pitting on cargo tank bottoms, mapped by reading density.",
+        "Grooving along longitudinal toes and web frame welds.",
+        "Deck plating wastage at tank cleaning openings and vent heads.",
+        "Ballast tank coating condition recorded beside each patch of readings."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How do you plan CAP gauging for a Rotterdam call?",
+      "p": [
+        "Tell us which society and which scheme, the ship's last survey dates and the window you expect at Rotterdam, even if it is only a rough range. We ask for the tank plan and the previous gauging reports, then agree which tanks will be gauged first. The ship's agent submits the technicians' names for terminal or yard access, and for a lay-by berth or buoy arranges the launch.",
+        "Because the team travels from India, each technician needs a Schengen visa for the job, and that lead time is the real constraint on a short idle window. Where an owner expects the ship to be available but does not yet know the date, we plan a standby arrangement with visas ready, so the team can travel as soon as the nomination clears.",
+        "Pre-CAP gauging is best done at least one trading cycle before the society's survey, so that any tank found beyond margin can be repaired at the next docking rather than discovered during the assessment."
+      ]
+    }
+  ],
+  "vessels": [
+    "Aframax and Suezmax crude tankers",
+    "Product tankers",
+    "Chemical tankers from Botlek and Pernis",
+    "Panamax and Capesize bulk carriers",
+    "Ageing LPG carriers",
+    "Offshore storage and support units"
+  ],
+  "codes": [
+    "The classification society's published CAP procedure for the chosen scheme",
+    "IACS UR Z10.1 and Z10.4 for oil tanker hull surveys",
+    "IACS UR Z10.2 and Z10.5 for bulk carrier hull surveys",
+    "IACS UR Z10.3 for chemical tanker hull surveys",
+    "IACS Common Structural Rules for oil tankers and bulk carriers",
+    "ASTM E797 for manual ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness readings by tank, structural member and strake, in the society's expected layout",
+    "Reading grids with positions marked on tank sketches",
+    "Corrosion pattern notes: general, pitted, grooved or edge wastage",
+    "Coating condition recorded beside each group of readings",
+    "A summary of members closest to allowable diminution for the owner's technical team"
+  ],
+  "faqs": [
+    {
+      "q": "Who issues the CAP rating for a ship gauged at Rotterdam?",
+      "a": "The classification society issues it. Our work is the measurement: planning the gauging with the owner and the society, taking the readings and delivering them in a layout the society's engineers can use. We do not grade the ship and we do not decide what the rating will be."
+    },
+    {
+      "q": "Can CAP gauging be done while a tanker is working cargo at Europoort?",
+      "a": "Only in part. The deck, deck piping and accessible topside spaces can be gauged under a terminal permit, but cargo and ballast tank work needs an idle ship. Most owners use a lay-by berth, a buoy or a dock stay for the tank structure."
+    },
+    {
+      "q": "What is pre-CAP gauging and when is it worth doing?",
+      "a": "It is the owner's own gauging of the tanks most likely to limit the rating, taken before the society is engaged. It is worth doing when the ship is old, has a record of ballast tank coating failure or carried heated cargoes, because it shows whether repairs are needed first."
+    },
+    {
+      "q": "Why are ballast tanks gauged before cargo tanks?",
+      "a": "They are available sooner, since cargo tanks must be cleaned and certified gas-free before anyone enters, and on older tankers they usually contain the thinnest steel. Starting there gives the owner the most useful information while the cargo tanks are still being washed."
+    },
+    {
+      "q": "How does the team reach a Rotterdam lay-by berth or buoy?",
+      "a": "The ship's agent arranges access. For a berth that means gate passes and the technicians' names submitted in advance; for a buoy or anchorage it means a launch booked through the agent. We ask for these details when the window is known."
+    },
+    {
+      "q": "Does a CAP rating replace the renewal survey gauging?",
+      "a": "No. The two are separate processes with different purposes, though they use similar readings. Where both fall at the same docking, the work is combined so tanks are opened once, but the survey and the assessment each remain the society's decision."
+    }
+  ]
+}

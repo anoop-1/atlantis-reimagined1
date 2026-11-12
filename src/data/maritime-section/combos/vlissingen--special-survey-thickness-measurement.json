@@ -1,0 +1,123 @@
+{
+  "port": "vlissingen",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Vlissingen | Renewal UTM",
+  "description": "Special survey and renewal survey thickness measurement in Vlissingen: pre-docking gauging and in-dock UTM for ferries, dredgers and offshore vessels.",
+  "h1": "Renewal and intermediate survey gauging for ships docking in Vlissingen-Oost",
+  "intro": "A renewal survey in Vlissingen is usually a docking survey: the ship enters the dock at Damen Shiprepair Vlissingen, the class surveyor opens the structure and the thickness readings decide how much steel is renewed. The ships that dock here are mostly ferries, dredgers, offshore vessels and short-sea cargo ships, and their steel wears in ways a deep-sea tanker's does not. Atlantis NDT mobilises a thickness measurement team from India to the yard, before the docking for the steel estimate and again in the dock for the survey programme.",
+  "highlights": [
+    {
+      "h": "Steel estimate before the dock slot",
+      "p": "Gauging a ferry or dredger on an earlier call, or as it arrives in the Westerschelde, gives the superintendent a marked-up list of plates to renew before the yard quotes. The docking is then planned around known steel work, not an allowance settled after the tanks are open."
+    },
+    {
+      "h": "Readings that keep the yard moving",
+      "p": "In dock, gauging has to be finished in the first days, before blasting and painting close off the shell. Readings are called out to the surveyor and the yard foreman as the team works, so renewal marks go on the plates while the staging is still in place."
+    },
+    {
+      "h": "Trades that wear steel unevenly",
+      "p": "Car decks, hoppers and offshore working decks lose steel faster than the TM plan's minimum grid assumes. Gauging at these ships is denser where the trade concentrates wear, so the renewal list reflects the ship's real condition rather than the nominal sampling."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-renewal-gauging-happens",
+      "h": "Where is renewal survey gauging done in Vlissingen?",
+      "p": [
+        "Almost every renewal survey in Vlissingen is tied to the repair yard at Vlissingen-Oost. Damen Shiprepair Vlissingen handles the docking, the steel programme and the surveyor's close-up survey, so the thickness team works on the yard's staging and under its site rules. Before the vessel enters the dock, the same gauging can be done at the yard quay or at a lay-by berth, once the superintendent has a berth agreed with the agent.",
+        "Outside the yard, a pre-docking estimate can be taken at the Sloe area quays when a ship calls for cargo, or by launch on the Westerschelde when a ship waits for a pilot. Those readings are limited in scope, so we treat them as a way to sharpen the estimate rather than as the survey itself. The class-credited gauging that the surveyor reviews belongs in the dock or at the yard quay, where access is complete."
+      ],
+      "list": [
+        "In dock at Damen Shiprepair Vlissingen: shell, bottom, tank structure and deck gauging against the TM plan.",
+        "At the yard quay before docking: tank and void readings on a ship that is already gas-free for the yard.",
+        "At the Sloe area quays: deck and accessible-space readings during cargo operations, for the estimate only.",
+        "By launch in the estuary: deck and machinery-space piping only, for a ship waiting for the tide."
+      ]
+    },
+    {
+      "id": "ferries-dredgers-and-offshore-vessels",
+      "h": "Which ships reach their special survey here, and what does the survey find?",
+      "p": [
+        "Ro-pax and ro-ro ferries come for their renewal surveys because the yard can turn a ship round inside a fixed out-of-service period. For them the thickness programme covers the shell, the car-deck plating and the structure under it, the ramps and the stern and bow doors. Water collects at car-deck drains and under tank-top plating, and wastage tends to follow the drainage path, which is where we concentrate readings beyond the nominal grid.",
+        "Dredgers are the other regular customer. A trailing suction hopper dredger dock is dominated by hopper structure, bottom doors and suction pipe, where spoil abrades steel faster than seawater corrodes it. Offshore wind support and installation vessels come between campaigns and need the working deck, crane pedestal surroundings and ballast tanks gauged. In all three groups the age at survey differs from a merchant ship's, because owners often keep working vessels in service well past the third renewal."
+      ]
+    },
+    {
+      "id": "scoping-the-renewal-gauging",
+      "h": "How is the gauging scoped for these dockings?",
+      "p": [
+        "The starting point is the ship's thickness measurement plan and the survey status held by class, but the plan is a minimum. We ask for the previous TM report, the drawings and the list of repairs since the last survey, and mark up the areas where earlier readings were already close to the allowable limit. Those areas receive a denser grid on this survey, so the trend between surveys is visible rather than inferred from one point.",
+        "Access sets the order of work. Tank interiors need ventilation and a gas-free certificate, shell plating needs to be clean enough for the probe, and the bottom is reachable only while the ship is on blocks. We schedule tanks first, shell and bottom as the dock is pumped out, and decks last, so the team never waits on the yard. Surfaces coated with paint are gauged through the coating only where the equipment is verified for it; otherwise the area is spot-cleaned."
+      ]
+    },
+    {
+      "id": "planning-around-the-dock-slot",
+      "h": "How is a renewal survey planned against the dock slot in Vlissingen?",
+      "p": [
+        "The dock slot is the fixed point, and everything else is arranged around it. A team coming from India needs Schengen visas in hand, so the first thing we ask for is the docking date and the vessel's likely arrival. If a ferry is arriving from a long run, we plan the pre-docking gauging for the call before, not the day she enters the dock, because a ship in service has no spare hours.",
+        "The agent arranges the yard gate passes and any launch transfers, and the yard's safety office issues the site induction. We recommend sending us the TM plan and the previous report at least a few weeks before the docking so the sketches can be prepared and the grid agreed with the surveyor. Where the vessel's schedule moves, which happens with weather and with tidal windows on the Westerschelde, we adjust the mobilisation to the agent's latest estimate."
+      ],
+      "list": [
+        "Docking date and the yard's blasting and painting start date.",
+        "Vessel type, year of build and the date of the last renewal survey.",
+        "Previous TM report and the list of steel renewed since.",
+        "Tank cleaning and gas-free plan, ship by ship."
+      ]
+    },
+    {
+      "id": "worked-scope-ferry",
+      "h": "What does a ro-pax ferry renewal scope look like in Vlissingen?",
+      "p": [
+        "A ferry arriving for her renewal survey might call at the yard quay a few weeks before the dock. On that call, the team gauges the car-deck plating at the drain lines and the structure beneath, the bottom of ballast and fuel tanks that are already gas-free, and the stern door frames. The result is a list of members at or beyond the diminution limits, drawn on the sketches for the yard.",
+        "In the dock, the team repeats the shell and bottom, completes the tank programme the surveyor has asked for and adds crack detection at the known fatigue details such as ramp hinges and door frame corners. Daily results go to the superintendent and the surveyor, with readings beyond limits flagged first. The final report follows the class forms for the ship type, with sketches numbered so the next survey can use the same points."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ro-pax and ro-ro ferries",
+    "Trailing suction hopper dredgers",
+    "Offshore wind support and installation vessels",
+    "Short-sea general cargo ships",
+    "Chemical and product tankers in the Sloe trade",
+    "Refrigerated cargo ships",
+    "Bulk carriers and heavy-lift ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and the renewal survey scope",
+    "IACS UR Z10 series – Hull surveys of tankers and bulk carriers, including TM requirements",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "Classification society rules for the allowable diminution of hull members",
+    "ASTM E797 – Manual pulse-echo ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Pre-docking steel estimate with marked-up drawings for the Vlissingen yard",
+    "Thickness measurement report on the class forms for the ship type",
+    "Daily in-dock results with readings beyond the allowable limits flagged",
+    "Denser-grid records for car decks, hoppers or working decks where the trade concentrates wear",
+    "Numbered sketches carried forward from earlier surveys",
+    "List of areas not gauged, with the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "When should special survey gauging be done for a ferry docking in Vlissingen?",
+      "a": "Do the pre-docking gauging on the call before the docking, so the steel estimate reaches the yard before the slot is confirmed. Then gauge in the dock itself, in the first days, before blasting and painting. A ferry in service has no spare time, so the earlier call has to be agreed with the operator well ahead."
+    },
+    {
+      "q": "Does the yard in Vlissingen supply the thickness measurement team?",
+      "a": "The yard supplies the docking, staging and site rules. The thickness team is engaged by the owner or manager, and it works inside the yard under the yard's induction. Where the owner wants an independent measurement of the steel, that separation is useful, because the yard does not gauge the steel it will later renew."
+    },
+    {
+      "q": "How much steel is typically renewed at a third renewal survey for a dredger?",
+      "a": "It varies too much with trade and age for a general figure. The honest answer comes from the pre-docking gauging, which shows the hopper, door and pipe wastage against the allowable limits. We would rather give the superintendent a marked-up list from the ship than a rule of thumb that the yard will correct later."
+    },
+    {
+      "q": "Can an offshore wind vessel have its special survey gauging between campaigns?",
+      "a": "Yes, when the vessel is alongside at Vlissingen-Oost for long enough. The working deck, crane pedestal surroundings and ballast tanks are the focus. Tank readings need a gas-free tank, so the team and the chief officer agree the order of tank cleaning before we arrive."
+    },
+    {
+      "q": "What do we need to send before the team travels to Zeeland?",
+      "a": "Send the docking date, the previous TM report, the TM plan and the vessel's drawings. Add the repair history since the last survey and the tank cleaning plan. With those the sketches and the grid are prepared at home, and the days at the yard go into measuring, not into sorting out which plates matter."
+    }
+  ]
+}

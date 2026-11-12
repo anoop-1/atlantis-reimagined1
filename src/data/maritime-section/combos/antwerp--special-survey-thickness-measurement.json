@@ -1,0 +1,134 @@
+{
+  "port": "antwerp",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Antwerp | Renewal UTM",
+  "description": "Renewal survey thickness measurement in Antwerp for chemical tankers, product tankers and gas carriers: gauging planned around jetty stops, locks and docking.",
+  "h1": "Renewal Survey Thickness Gauging for Tankers Calling at Antwerp",
+  "intro": "A renewal survey at fifteen years is where a chemical or product tanker's steel is judged, and Antwerp is where many of those ships spend the weeks beforehand. The cargo plan here moves a vessel between jetties behind the sea locks, with waiting time that suits gauging if it is planned. Atlantis NDT prepares the thickness measurement programme with the superintendent, sends a team from India to join the ship in Antwerp, and delivers readings laid out for the attending surveyor and, afterwards, for the yard that plans the renewal.",
+  "highlights": [
+    {
+      "h": "Third renewal survey on parcel tankers",
+      "p": "Chemical tankers that serve the Antwerp cluster reach their third renewal survey with coated cargo tanks and ballast tanks beside heated parcels. Gauging at this stage is extensive, and doing the first part in Antwerp leaves the later part for the dock."
+    },
+    {
+      "h": "Gauging threaded through jetty stops",
+      "p": "A ship moving between chemical jetties inside the locks has gaps between parcels. Once tanks are cleaned and certified gas-free, those gaps are used for the transverse sections and suspect areas, so the survey does not hold the cargo programme."
+    },
+    {
+      "h": "Readings ready before the yard quotes",
+      "p": "Because EDR Antwerp Shipyard docks vessels inside the same port, measured thicknesses taken at the last berth can reach the yard planner before the ship shifts, giving the steel renewal list a real basis instead of an allowance."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-renewal-gauging-happens",
+      "h": "Where is renewal survey gauging done at Antwerp?",
+      "p": [
+        "The location decides how much of a renewal programme can be completed in one visit. At a chemical jetty the ship is working cargo under the terminal's permit system, so only deck-level and pump-room measurements are realistic, and tank entry depends on cleaning and a gas-free certificate that the master will not rush. Lay-by quays inside the dock system are better for structure: the ship has finished discharging, tanks can be ventilated, and there is time to rig staging for the upper parts of ballast tanks.",
+        "The floating docks at EDR Antwerp Shipyard are where the bottom and side shell are gauged dry, together with the sea chests and the areas that are only reachable when the ship is out of the water. A sensible renewal programme at Antwerp splits the work: tank structure and cargo piping while the ship is afloat at a lay-by quay or between parcels, then shell plating in dock. The thickness measurement plan states which frames and strakes belong to which stage, so nothing is gauged twice."
+      ],
+      "list": [
+        "Chemical jetties: deck plating, pump-room and manifold areas under the terminal's permit rules.",
+        "Lay-by quays inside the locks: cargo and ballast tank structure once cleaned and gas-free.",
+        "Floating docks at EDR Antwerp Shipyard: bottom and side shell, sea chests, rudder and stern area.",
+        "Anchorage waits: little beyond deck level, unless the ship has a tank cleaned and certified."
+      ]
+    },
+    {
+      "id": "ships-due-renewal",
+      "h": "Which ships at Antwerp are due a renewal survey, and what does the survey ask of them?",
+      "p": [
+        "Chemical tankers dominate the work, because the port's refineries and steam crackers feed a large parcel-tanker fleet, and these ships fall under the ESP Code and IACS UR Z10.3. At the third renewal survey the rules ask for gauging of a number of transverse sections across the cargo area and of the longitudinal plating and stiffeners in selected tanks, with close-up survey in the same spaces. Product tankers loading at the refineries are covered by the corresponding oil tanker requirements, and the fleet of ageing LPG carriers adds deck piping and hold-space structure to the list.",
+        "Container ships, ro-ro ships and breakbulk vessels have lighter requirements until they pass twenty years, but their renewal surveys still include hold structure, hatch coamings, ramps and ballast tanks. Because Antwerp is a liner port with fixed rotations, the renewal date of these ships is often set by schedule rather than by condition, and the gauging has to fit a short stay at a river terminal or a staged call inside the docks."
+      ]
+    },
+    {
+      "id": "scoping-for-parcel-tankers",
+      "h": "How is the gauging scoped for coated and stainless chemical tankers?",
+      "p": [
+        "A parcel tanker mixes tank materials, and the programme follows them. Stainless cargo tanks are gauged with the gauge calibrated to the material's sound velocity and are reported separately, since they are rarely the limiting item. The carbon-steel ballast tanks and the cofferdams around heated cargo tanks usually are, so they carry most of the readings. Where a tank is coated, we measure through sound coating only after verifying the gauge's through-coating mode on a coated reference sample; where the coating is blistered or flaking, readings are taken on cleaned bare steel and the coating condition is noted beside each section.",
+        "The extent that the class rules set is the minimum. Superintendents often add suspect areas from the previous survey, bulkheads next to heated tanks, and the deckhead and upper stiffeners where condensation and heat cycling concentrate wastage. We agree the final list with the attending surveyor, and the sketches show which readings are rule-required and which were added at the owner's request."
+      ],
+      "list": [
+        "Transverse sections across the cargo area, as many as the rules require for the ship's age.",
+        "Selected longitudinal plating and stiffeners in cargo and ballast tanks.",
+        "Cofferdam and heated-tank bulkheads, where wastage is typically worst.",
+        "Deck plating and hatch or tank-access coamings.",
+        "Suspect areas carried over from earlier surveys."
+      ]
+    },
+    {
+      "id": "what-renewal-gauging-finds",
+      "h": "What does renewal gauging typically find on ships serving Antwerp?",
+      "p": [
+        "On chemical tankers the usual finding is wastage on ballast tank boundaries that share a bulkhead with a heated parcel, where coating breakdown and elevated temperature accelerate loss. Pitting concentrates on tank bottoms where tank-cleaning water settles between grades, and the lower strakes of cargo tank bulkheads show edge wastage along stiffener flanges. These patterns recur on ships that have worked long chains of aggressive parcels, and they are why renewal programmes at this port concentrate on tank boundaries.",
+        "Product tankers show more general corrosion on deck plating and in wing ballast tanks, with grooving at weld toes in the bottom. Gas carriers, which have no cargo-tank access of the same kind, leave attention on the ballast tanks surrounding the cargo containment and on deck pipe supports. Where a reading falls below the allowable margin, the report flags it to the attending surveyor and the superintendent immediately, so the renewal list can start to be built while the ship is still alongside."
+      ]
+    },
+    {
+      "id": "planning-renewal-job",
+      "h": "How should a renewal survey thickness job be planned around Antwerp's locks and berths?",
+      "p": [
+        "Plan the survey backwards from the dock slot. Once the date for EDR Antwerp Shipyard or another yard is fixed, the afloat gauging should be finished far enough ahead for the readings to feed the steel estimate. That usually means starting at the first cargo stop after tank cleaning, not at the last. Tell us the expected sequence of berths, the date and lock window if the ship enters the dock system, and when each tank will be certified gas-free.",
+        "Lock transits and tidal passage on the Scheldt fix the arrival time, so our travel is timed to the agent's berth estimate. A technician from India needs a Schengen visa for Belgium, which is why the vessel's schedule is needed early. The ship's agent registers the team for gate access in the ISPS-controlled port areas, and the ship arranges staging, lighting and ventilation. If the cargo plan changes, the programme is reshuffled around the new berth sequence, and sections not reached are carried to the next stop or to the dock."
+      ]
+    },
+    {
+      "id": "worked-scope",
+      "h": "What does a renewal programme look like for a fifteen-year-old chemical tanker?",
+      "p": [
+        "Consider a coated parcel tanker with stainless and coated tanks that arrives in Antwerp ten days before its docking at EDR. At the first jetty the team gauges deck plating, tank-access coamings and the pump-room boundaries while cargo is worked. During a cleaning stop at a lay-by quay, two transverse sections in the cargo area and the ballast tank boundaries beside the heated parcel tanks are completed. The remaining sections and the bottom shell are left for the dock, where the hull is gauged dry and the surveyor's close-up findings are matched to the readings. The final report merges both stages on one set of sketches."
+      ]
+    }
+  ],
+  "vessels": [
+    "Coated and stainless chemical parcel tankers",
+    "Product tankers",
+    "LPG and ethylene carriers",
+    "Bulk carriers",
+    "Multipurpose and breakbulk ships",
+    "Ro-ro and vehicle carriers",
+    "Container ships"
+  ],
+  "codes": [
+    "IACS UR Z10.3 for hull surveys of chemical tankers",
+    "IACS UR Z10.1 and Z10.4 for oil tankers",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "IACS UR Z7 for general hull survey requirements",
+    "IACS UR Z17 for service supplier requirements",
+    "ASTM E797 for manual ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness measurement report on class formats, with frame and strake references",
+    "Sketches distinguishing rule-required readings from owner-requested ones",
+    "Summary of areas beyond the allowable margins, listed by tank",
+    "Separate tables for stainless and carbon-steel structure",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can renewal survey gauging at Antwerp be split between the jetty and the dock?",
+      "a": "Yes, and for parcel tankers it is the usual arrangement. Tank structure and piping are gauged afloat when spaces are gas-free, and the bottom and side shell are gauged dry in dock. We write the plan so each frame and strake is assigned to one stage, then merge both stages into one report with a single set of sketches for the surveyor."
+    },
+    {
+      "q": "How many transverse sections does a third renewal survey on a chemical tanker need?",
+      "a": "The number depends on the ship's age, length and type, and is set by IACS UR Z10.3 and the class rules for the vessel, not by us. The attending surveyor confirms the extent. We prepare the thickness measurement plan from those rules before mobilisation and record any added suspect areas separately from the required ones."
+    },
+    {
+      "q": "Do stainless steel cargo tanks need gauging at renewal survey?",
+      "a": "Where the rules or the surveyor call for it, yes. The ultrasonic method is unchanged but the gauge is calibrated for the sound velocity of stainless steel and the results appear in a separate table. In practice the carbon-steel ballast tanks and cofferdams around the stainless tanks usually decide the steel renewal, so they receive most of the effort."
+    },
+    {
+      "q": "Can gauging be completed while the tanker works cargo at a chemical jetty?",
+      "a": "Only part of it. Deck plating, manifolds and pump-room areas can often be measured under the terminal's permit rules. Entering tanks depends on cleaning and a gas-free certificate, and these rarely coincide with active discharge, so tank structure is usually gauged at a cleaning stop or a lay-by quay."
+    },
+    {
+      "q": "What should we send before a renewal survey gauging job in Antwerp?",
+      "a": "Send the ship's name or IMO number, class, survey type and number, last survey's thickness reports, the berth and cleaning sequence, and the dock date at EDR or another yard. Previous reports let us place readings on the same frames, which makes wastage rates visible and lets the surveyor judge trends rather than single values."
+    },
+    {
+      "q": "Will the readings help the yard plan steel renewal in Antwerp?",
+      "a": "Yes. Measured thicknesses against original values show which plates and stiffeners are close to renewal limits, so the yard can size the tonnage on evidence. Sending the report ahead of the docking, as EDR Antwerp Shipyard sits inside the same port, shortens the steel planning stage and reduces surprises once the tanks are opened."
+    }
+  ]
+}

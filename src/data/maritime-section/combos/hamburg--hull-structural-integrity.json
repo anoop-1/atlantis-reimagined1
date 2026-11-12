@@ -1,0 +1,126 @@
+{
+  "port": "hamburg",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Hamburg | Corrosion & Cracks",
+  "description": "Hull structural integrity inspection in Hamburg: coaming and deck crack detection, wastage mapping on boxships and bulkers, at terminals and Elbe yards.",
+  "h1": "Structural Condition Inspection for Container Ships and Bulkers at Hamburg",
+  "intro": "A big container ship flexes with every swell on the way up the Elbe, and its structural condition is more than a column of thickness readings. Hull structural integrity inspection at Hamburg pairs ultrasonic gauging with close-up records of corrosion pattern, deformation and magnetic particle crack detection at the details where fatigue starts. It suits ships at the container terminals, bulk carriers at Hansaport and vessels docking on the south bank. A team is mobilised from India to the ship, and the scope is fitted to the terminal window or the dock.",
+  "highlights": [
+    {
+      "h": "Fatigue details on long hulls",
+      "p": "Hatch corners, coaming top plates, longitudinal end connections and lashing structure see the highest cyclic stress on a large boxship. These are cleaned, examined and tested for cracks, not only gauged for thickness."
+    },
+    {
+      "h": "Bulker wastage at Hansaport",
+      "p": "Bulk carriers emptied at the ore and coal terminal give a short hold window. Frames, lower brackets, hopper plating and topside tanks are measured and mapped before the ship ballasts out."
+    },
+    {
+      "h": "Findings the yard can plan from",
+      "p": "Where the dock follows, a structural inspection during the preceding terminal call tells the south bank yard which panels are buckled, which welds have cracked and which plates are thin, before steel crews are booked."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-structural-inspection-is-done",
+      "h": "Where is hull structural inspection done at Hamburg?",
+      "p": [
+        "The place decides the method. In dock, at the Blohm+Voss yard at Steinwerder or at Norderwerft, the hull is dry and open: bottom plating, side shell, rudder and propeller area, and the interior of tanks can be inspected with staging and lighting in place, and cracks can be tested after local grinding or blasting. The dock programme is also where a repair is verified, so a weld repair that was marked at an earlier call can be re-examined before the ship leaves.",
+        "At the container terminals, work is confined to what cargo operations leave free, which is usually the weather deck, hatch coamings, cross-deck structure and machinery spaces. At Hansaport, bulkers give hours, not days, after the grabs finish. Feeders at mooring dolphins and lay-by berths are different again: a launch brings the team, and an idle ship has time for tank entry, which is when internal structure such as webs, brackets and stringers can be examined properly."
+      ],
+      "list": [
+        "Steinwerder and Norderwerft docks: dry hull, rudder, tank interiors and repair verification.",
+        "Container terminals: coamings, deck, cross-deck structure and lashing structure afloat.",
+        "Hansaport: hold frames, hoppers and topside tanks after discharge.",
+        "Dolphins and lay-by berths: tank internals on feeders between rotations."
+      ]
+    },
+    {
+      "id": "container-ship-structure",
+      "h": "What structural problems affect container ships calling at Hamburg?",
+      "p": [
+        "Container ships have large deck openings, so the hull girder relies on the thick deck plating and coaming structure beside the hatches to carry bending and torsion. The corners of those openings concentrate stress, and the welded connections around them are a classic site for fatigue cracking. Sea-going ships from Asia also work the hull in heavy weather, which adds cycles. A crack at a hatch corner is a structural finding, not a cosmetic one, and its location, length and orientation decide whether it is a local repair or a wider concern.",
+        "Corrosion on these ships tends to hide in ballast tanks, particularly on horizontal surfaces such as stringers and bottom longitudinal flanges, where water and sediment stand under failing coating. The side shell in the wind-and-water zone, bilge strakes and the double bottom complete the picture. In the engine room, sea-water systems and scrubber piping add wall-loss findings that belong to the same condition picture even though they are not hull structure."
+      ]
+    },
+    {
+      "id": "bulk-carriers-and-tankers",
+      "h": "What about bulk carriers and tankers at Hansaport and the oil harbour?",
+      "p": [
+        "Bulk carriers loading or discharging ore and coal suffer a different kind of damage. Grabs strike inner-bottom plating, hoppers and the lower ends of frames, so corrosion and mechanical damage appear together. Cargo abrasion thins the web and flange of each frame, and the brackets at frame ends lose section quickly. Each frame is assessed individually rather than averaged across the hold, because a single wasted frame can be the one that fails.",
+        "Product and chemical tankers at the oil harbour follow the usual gas-free rules, so cargo tanks are entered only once they are cleaned and tested. On deck, manifold areas and cargo lines are accessible during cargo work under the terminal's rules for instruments in hazardous zones. Because tankers and bulkers fall under the enhanced survey regime, a structural inspection at Hamburg is often used to prepare for the next renewal or intermediate survey and to identify suspect areas the surveyor will expect to see recorded."
+      ]
+    },
+    {
+      "id": "method-and-evidence",
+      "h": "How are corrosion, deformation and cracks recorded?",
+      "p": [
+        "Thickness readings are taken by ultrasonic gauging and located by frame, strake and member. Pitted plating is handled differently from general wastage: pit depth is measured with a gauge, intensity is described as a share of the surface, and a spot reading between pits is not allowed to stand for the whole panel. Grooving along weld lines and edge corrosion at cut-outs and face flats are reported separately, with length, width and depth.",
+        "Deformation is recorded with extent and depth against a straight edge. Cracks are examined visually first, then confirmed by magnetic particle testing on cleaned steel, or by penetrant testing where the surface or material calls for it. Technicians work under our ASNT SNT-TC-1A written practice. Crack detection results are owner's and yard's NDT records. They support the class engineer's assessment but are not themselves a class approval or a survey credit."
+      ],
+      "list": [
+        "Gauged thickness with the corrosion pattern that produced it.",
+        "Buckled, dished or set-in panels with measured extent and depth.",
+        "Cracks with position, length and orientation, confirmed by MT or PT.",
+        "Photographs tied to frame and member references."
+      ]
+    },
+    {
+      "id": "planning-at-hamburg",
+      "h": "How should a structural inspection at Hamburg be planned?",
+      "p": [
+        "Tell us the ship type, age, last survey dates, known damage and where the ship will lie. For a terminal call, the cargo plan matters most: which bays are discharged early, when the ship sails and what the chief officer will release for tank entry. For the dock, the specification and the yard's cleaning and staging schedule matter, because cracks cannot be tested until the surface is cleaned and tanks cannot be entered until they are gas-free.",
+        "Hamburg is in the Schengen area, so the technicians from India travel on Schengen visas, and the Elbe arrival time can shift with tide and traffic. We plan mobilisation against the confirmed berth plan and register the team through the ship's agent for the terminal or yard gate. Findings are sent to the superintendent before sailing wherever the scope allows, so a repair can be arranged at the next port rather than discovered later."
+      ]
+    }
+  ],
+  "vessels": [
+    "Large container ships on Asia–Europe services",
+    "Feeder and short-sea container ships",
+    "Bulk carriers at Hansaport",
+    "Product and chemical tankers",
+    "Multipurpose and heavy-lift ships",
+    "Ships docking on the south bank of the Elbe"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z10.1 to Z10.5 (enhanced surveys of tankers and bulk carriers)",
+    "IACS Common Structural Rules for Bulk Carriers and Oil Tankers",
+    "SOLAS chapter XI-1, regulation 2 and the ESP Code",
+    "ASTM E797 and ASTM E709 (thickness gauging and magnetic particle testing)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by frame, strake and member with diminution against original",
+    "Corrosion pattern map: general, pitting, grooving and edge corrosion",
+    "Deformation record with measured extent and depth",
+    "Crack detection record with locations and test method",
+    "Photographs referenced to frame and member",
+    "Suspect-area list for the next survey"
+  ],
+  "faqs": [
+    {
+      "q": "Can hatch coaming cracks be inspected at Hamburg container terminals?",
+      "a": "Yes, on bays the cargo plan leaves free. Coaming top plates and corners are cleaned locally, examined visually and tested by magnetic particle inspection, with thickness readings taken alongside. Work stops where cranes are operating, so the ship's cargo planner and the chief officer agree the sequence before the team boards."
+    },
+    {
+      "q": "Is a structural inspection at Hamburg the same as a class survey?",
+      "a": "No. It gives the owner or manager measured data on corrosion, deformation and cracking, which the class engineer can use in assessing the ship. Our crack detection and gauging records are owner's NDT records. Class credit for any survey remains a matter between the owner, the class society and the attending surveyor."
+    },
+    {
+      "q": "What can be inspected on a bulk carrier at Hansaport?",
+      "a": "In the hours after discharge, hold side-shell frames, lower brackets, hopper sloping plates and topside tanks can be gauged and examined, with deformation and cracks recorded. The window is short, so the scope is agreed in advance and the highest-risk frames are done first, with the remainder left for a longer call."
+    },
+    {
+      "q": "Should structural inspection be done before the ship docks at Steinwerder or Norderwerft?",
+      "a": "Usually yes. An inspection at the last terminal call lets the yard know which panels are buckled, which welds are cracked and which plates are thin before steel crews and staging are booked. The dock then confirms and extends the findings, and repairs can be verified before the ship leaves."
+    },
+    {
+      "q": "Which tanks can be entered on a feeder at a Hamburg mooring dolphin?",
+      "a": "Ballast tanks and voids can be entered once they are emptied, ventilated and tested, with the chief officer managing stability as each is opened. An idle feeder at a dolphin often has a day or two, which is long enough to examine web frames, stringers and brackets that a terminal call would not allow."
+    },
+    {
+      "q": "How do technicians from India get access to Hamburg terminals and yards?",
+      "a": "The ship's agent registers the named technicians for the ISPS-controlled gate and arranges launches for ships at dolphins or anchor. The team travels on Schengen visas, which we apply for once the call or docking date is firm. We send the agent the names and passport details well ahead of the berth time."
+    }
+  ]
+}

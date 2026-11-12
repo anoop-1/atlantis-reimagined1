@@ -1,0 +1,121 @@
+{
+  "port": "zeebrugge",
+  "service": "ultrasonic-weld-inspection",
+  "title": "Ultrasonic Weld Inspection Zeebrugge | Ship Repair & Retrofit",
+  "description": "Ultrasonic weld testing in Zeebrugge for ship repairs, insert plates and retrofit welds on car carriers, ro-ro ships and LNG-fuelled vessels.",
+  "h1": "Shear-Wave UT of Ship Repair Welds and Retrofit Steelwork Zeebrugge",
+  "intro": "Ultrasonic weld inspection looks inside a weld for lack of fusion, cracks and incomplete penetration, without radiation and without stopping other work. In Zeebrugge, the welds that most often need it are repairs after contact damage, insert plates in shell and deck, and steelwork added when a ship is converted for new fuels or fitted with an emission-control system. Our technicians travel from India to the ship or the repair site, examine the welds by manual shear-wave technique and report the indications to the repairer and the owner.",
+  "highlights": [
+    {
+      "h": "Repair welds after berth contact",
+      "p": "A dented shell or distorted door frame is cropped, an insert plate is welded in, and the joint is examined. UT confirms that the new weld is sound through its thickness, where a visual check can see only the surface."
+    },
+    {
+      "h": "Retrofit steelwork for new equipment",
+      "p": "Ships fitted with scrubbers, shore-power connections or fuel-system changes get new foundations and pipe supports welded to existing structure. Those welds are examined where the load path matters, before the equipment is commissioned."
+    },
+    {
+      "h": "Without exclusion zones on a busy quay",
+      "p": "Ultrasonic testing needs no radiation controls, so the berth, the cargo operation and the other trades can carry on. That matters at a terminal where the ship's call is measured in hours and a cordon would stop loading."
+    }
+  ],
+  "sections": [
+    {
+      "id": "uwi-zeebrugge-where",
+      "h": "Where can weld UT be done at Zeebrugge?",
+      "p": [
+        "Zeebrugge is mainly a cargo port, so most repair welding is limited to what a ship can carry out alongside: temporary and permanent repairs to shell, deck and ramp structure, and small retrofit jobs during a longer stay. Larger conversions and major steel renewals are done at a yard, and the weld inspection follows the ship there. When a repair is finished at the quay, our team can examine it before the ship sails, as long as access to the weld is clear and the surface is ready.",
+        "Ships in the inner port behind the Pierre Vandamme lock lie quietly for longer, which suits a controlled inspection programme with a measured weld preparation. At the outer terminals the work is fitted around cargo, and at the Fluxys terminal it is restricted to areas outside hazardous zones and agreed with the terminal. Where a ship is waiting at anchor, we generally do not attempt weld UT, because boarding conditions and surface access rarely allow it."
+      ]
+    },
+    {
+      "id": "uwi-zeebrugge-welds",
+      "h": "Which welds on these ships are examined by ultrasonic testing?",
+      "p": [
+        "Butt welds in plating are the classic case, but on vehicle ships the list is broader. Insert plates in side shell and car decks, full-penetration joints between ramp structure and the hull, repairs to door frames, and weld joints between hoistable deck supports and the deck beams all benefit from UT, because the failure mode is a flaw inside the weld that the surface does not show.",
+        "On retrofitted ships, new foundations for scrubber equipment, pipe supports on wash-water lines and brackets for shore-power connections are welded into existing structure. T-joints with full penetration are examined by UT, while fillet welds are normally checked by surface methods. The test list is agreed with the repairer and, where relevant, the class surveyor, so that every critical joint is covered once and none is overlooked."
+      ],
+      "list": [
+        "Insert plates and butt welds in shell and deck plating after contact damage.",
+        "Full-penetration T-joints joining ramp, door and deck structure to the hull.",
+        "Weld repairs at hoistable deck supports and lifting brackets.",
+        "Foundations and supports welded on during scrubber or fuel-system retrofits.",
+        "Welded joints in pipe supports where the load path crosses the plating."
+      ]
+    },
+    {
+      "id": "uwi-zeebrugge-method",
+      "h": "How is a weld examined on a ship at the quay?",
+      "p": [
+        "The technician scans the weld with an angled shear-wave probe, set up to the sensitivity of the applicable standard and calibrated on a reference block. Reflections from inside the weld appear on the instrument, and each one is located, sized and compared with the acceptance level agreed for the job. Where more than one probe angle is needed to see the full weld cross-section, the scan is repeated from both sides.",
+        "Surface preparation matters as much as the equipment. The weld cap and the plate beside it must be smooth enough for the probe to couple, and rust and loose paint need to be removed. We tell the repairer what surface finish we need before the day, and we record the setup, the angles used and the areas where access was restricted, so the report states clearly what was and was not covered."
+      ]
+    },
+    {
+      "id": "uwi-zeebrugge-findings",
+      "h": "What flaws does weld UT find in ship repairs?",
+      "p": [
+        "Lack of fusion at the weld root or between passes is the most common finding in hurried repairs, followed by cracks that start in the heat-affected zone and slag lines in multi-pass welds. Incomplete penetration in T-joints appears where the welder could not reach the root. On older steel, laminations beside the weld can also show on the screen, and these affect how the plate behaves under load.",
+        "Each indication in the report carries its position along the weld, depth, length and amplitude, together with the acceptance level it was measured against. Those that exceed the criterion are marked on the steel and the sketch, so the repairer can gouge and re-weld precisely. After the repair, the same area is re-examined and the result is recorded, giving the owner a closed record for the file."
+      ]
+    },
+    {
+      "id": "uwi-zeebrugge-planning",
+      "h": "Planning weld inspection around a Zeebrugge repair",
+      "p": [
+        "The best time to arrange UT is before the weld is made, because the repairer can then plan the preparation and schedule the test between cooling and coating. Tell us the welding procedure, the joint design, the thickness and the standard the repair is held to, with any special requirement from the surveyor. If the weld is already made, send photographs of the area and tell us how much of it is accessible.",
+        "The agent arranges ISPS access for the team, who travel from India on Schengen visas that are timed to the confirmed work window. The repairer provides power, safe access and lighting at the joint. Because a weld has to cool and be cleaned before testing, we plan the sequence with the repair foreman, so that no hour on the quay is spent waiting for steel to be ready."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers after contact damage",
+    "Ro-ro freight ships with ramp and door repairs",
+    "LNG-fuelled vessels with fuel-system retrofit steelwork",
+    "Container ships fitted with scrubbers",
+    "Ships receiving shore-power connection foundations",
+    "General cargo ships with deck and hatch coaming repairs"
+  ],
+  "codes": [
+    "ISO 17640 for ultrasonic testing of welds: techniques and assessment",
+    "ISO 11666 for acceptance levels in ultrasonic weld testing",
+    "ISO 23279 for characterisation of indications in welds",
+    "ISO 17635 for general rules on non-destructive testing of welds",
+    "IACS Recommendation 47 for shipbuilding and repair quality",
+    "ASNT SNT-TC-1A for personnel qualification under the written practice"
+  ],
+  "deliverables": [
+    "Weld inspection record with position, depth and length of every indication",
+    "Acceptance level and standard applied to each joint",
+    "Probe angles, calibration blocks and sensitivity settings used",
+    "Marked sketch of rejected areas for the repairer",
+    "Re-examination record after repair of rejected areas",
+    "Statement of areas where access limited the examination"
+  ],
+  "faqs": [
+    {
+      "q": "Can ultrasonic weld testing be done on a ship alongside at Zeebrugge?",
+      "a": "Yes, as long as the weld is accessible and its surface is clean and smooth enough for the probe. Because UT uses no radiation, cargo work and other trades can continue nearby. The main planning point is timing the test after the weld has cooled and before it is coated, and we agree that sequence with the repairer."
+    },
+    {
+      "q": "Why choose UT over radiography for a repair weld on a ship?",
+      "a": "UT finds planar flaws such as lack of fusion and cracks more reliably than radiography in many joint types, and it needs no exclusion zone. On a busy quay, that difference is practical: the ship does not need to stop loading and nobody has to be moved away from the work area."
+    },
+    {
+      "q": "Do you examine fillet welds by ultrasonic testing?",
+      "a": "Normally not. Fillet welds are better checked by surface methods such as magnetic particle testing or penetrant testing. UT is used on butt welds and full-penetration T-joints, where the flaws of concern lie inside the weld. We agree the right method for each joint with the repairer when the test list is made."
+    },
+    {
+      "q": "What surface preparation do you need before the test?",
+      "a": "The weld cap should be smooth enough for the probe to travel, and the plate on either side must be clean of rust, scale and loose paint over the width the probe will cover. We send the repairer a short note on the finish required, so that grinding and cleaning are done before the day."
+    },
+    {
+      "q": "Is a weld UT record at Zeebrugge accepted by the class society?",
+      "a": "The report is an owner's or repairer's NDT record. The class surveyor decides which examinations are required and whether they accept what is provided; they may witness testing or ask for a particular method. We work to the standard and acceptance level specified, and the record shows exactly what was done."
+    },
+    {
+      "q": "Can you inspect welds on retrofit foundations for scrubbers or shore power?",
+      "a": "Yes. New foundations and supports are welded into existing structure, and full-penetration joints in the load path are examined by UT, with fillet welds checked by surface methods. Testing before the equipment is commissioned gives the owner a clean record of the steelwork the new equipment depends on."
+    }
+  ]
+}

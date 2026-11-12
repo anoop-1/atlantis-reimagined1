@@ -1,0 +1,108 @@
+{
+  "slug": "trelleborg",
+  "name": "Trelleborg",
+  "country": "Sweden",
+  "region": "europe",
+  "title": "Trelleborg Ferry and Ro-Ro Gauging | Ship UTM at the Port",
+  "description": "Thickness measurement at Trelleborg, southern Sweden: ro-pax ferries and ro-ro ships gauged on vehicle decks, ramps, doors and piping between fast crossings.",
+  "h1": "Ship Gauging and Thickness Measurement at Trelleborg",
+  "intro": "Trelleborg is the Swedish end of the shortest ferry routes to Germany and Poland, and its harbour exists to turn ships round quickly. Trailers roll off, trailers roll on, and the ship is gone within hours. That rhythm decides how gauging is done here. Atlantis mobilises technicians from India to the vessel, with no staff or agent of its own in Sweden, and builds each scope around the ship's turnaround or a planned lay-by.",
+  "keywords": [
+    "trelleborg ship thickness measurement",
+    "trelleborg ferry hull inspection",
+    "ro-pax vehicle deck gauging",
+    "ultrasonic thickness trelleborg",
+    "bow door ramp crack detection ferry",
+    "ro-ro ship inspection southern sweden",
+    "baltic ferry steel renewal planning",
+    "ferry fire main piping thickness",
+    "trailer deck plating measurement",
+    "utm trelleborg"
+  ],
+  "highlights": [
+    {
+      "h": "Turnarounds measured in hours",
+      "p": "A ferry in Trelleborg may be alongside for only a few hours. Scopes are split into short blocks, each finished and reported before sailing, so a renewal-survey record builds up across many calls rather than one long stop."
+    },
+    {
+      "h": "Decks that carry the trailers",
+      "p": "Vehicle decks take constant weight, salt carried in on wheels and damp from drainage. Plating, gutters and stiffeners under the lanes are where wastage shows first, and where gauging pays off."
+    },
+    {
+      "h": "Doors, ramps and hinges",
+      "p": "Bow and stern doors and ramp hinges are safety-critical. Thickness readings around the door surrounds, combined with magnetic particle checks of hinge and lug welds, give the superintendent a measured picture of the structure."
+    }
+  ],
+  "port": {
+    "h": "Trelleborg: the southern gate of Sweden",
+    "p": [
+      "Trelleborg lies on the south coast of Skåne, at the very southern end of Sweden, and looks across the Baltic towards Germany and Poland. The harbour is a sheltered basin dug out behind breakwaters, with several quays, a ferry terminal and extensive marshalling areas for trailers and cars behind them. Ships approach directly from open water with a short run in, which means a ship can be at a berth within minutes of crossing the entrance. Trelleborg ranks among the busiest ro-ro ports in Sweden.",
+      "Traffic is almost entirely wheeled. Ro-pax ferries and ro-ro freight ships connect Trelleborg with German and Polish ports on fixed daily rotations, carrying trailers, cars, coaches and passengers. Some quays take other cargoes, including forest products and general cargo, and a few tankers and bulk carriers call to supply local industry. The ferries are large, fast-turnaround ships that burn a lot of fuel and spend most of their lives at sea or at one of two or three berths, which makes their time alongside valuable and tightly controlled.",
+      "The Baltic here is open to wind from the west and south, and a strong blow can make berthing slow and cancel crossings. Ice is rare on the south Swedish coast, and the harbour almost never closes for ice. Because the sea has almost no tide, the quay height is stable, and gangways and ramps meet the ships at consistent levels. Sea spray and salt are the main weather issues for open decks, which is one reason vehicle decks and drainage gutters corrode as they do. Autumn and winter storms are when the schedule is most disrupted."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging is done at Trelleborg",
+    "p": [
+      "There is no drydock for large ships at Trelleborg. Ferries are sent for their renewal surveys and refits to yards in Poland, Germany or elsewhere on the Baltic, often during a winter overhaul period, and the gauging done here helps to plan that visit. An operator who knows where the deck, frames, door surrounds and piping have thinned can send the yard a list of steel and pipe renewals in advance, which shortens the time the ship spends out of service.",
+      "At the berths, the available time is the whole difficulty. We therefore work in short, prepared blocks. Crew mark test areas, remove deck coverings where agreed, and open access to engine-room spaces; the team starts as the last vehicles leave and aims to be finished as boarding starts. Longer scopes are planned for lay-by periods, relief ships and the occasional weekend when a vessel is held. Cargo operations, security rules and the ship's safety management system control entry to each area."
+    ],
+    "list": [
+      "Ferry berths — vehicle-deck plating, drainage gutters, ramps and door surrounds on ro-pax ships during turnarounds.",
+      "Ro-ro freight quays — trailer decks, tween decks and lower holds on ro-ro ships between loadings.",
+      "Engine rooms alongside — fire main, sea-water cooling, bilge and ballast piping readings in prepared sections.",
+      "General cargo and forest-product berths — hatch covers and hold structure on multipurpose ships during discharge.",
+      "Lay-by berths — longer programmes on ships relieved from service, held for charter or for sale.",
+      "Yards in Poland, Germany and Denmark — the usual dockings, planned from readings taken here."
+    ]
+  },
+  "context": {
+    "h": "Swedish port state control and the ro-pax inspection regime",
+    "p": [
+      "Port state control in Sweden is carried out for the Paris MoU by the Swedish Transport Agency (Transportstyrelsen). Passenger ships on regular routes between EU ports are covered by Directive (EU) 2017/2110, so ro-pax ferries calling at Trelleborg are inspected by the host state both before they start a service and at regular intervals afterwards. Inspectors give close attention to fire protection, watertight integrity, fire mains, sea-water systems and the structure and securing of bow and stern doors, so recent wall-thickness readings on those items are useful evidence of maintenance.",
+      "The regional picture also includes the Swedish and Finnish ice-class rules, which apply to ships that continue north into the Bothnian Sea, and rising emissions obligations. EU ETS has covered shipping since 2024 and FuelEU Maritime since 2025, which puts a financial weight on every crossing; a ferry operator watches hull condition because added roughness and extra weight cost fuel. Every ship entering an EU port must have an Inventory of Hazardous Materials on board under the Ship Recycling Regulation, and surveyors examine the records during port state control."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Trelleborg",
+    "p": "The work follows the ferries. We agree a scope with the superintendent, confirm the turnaround times with the agent, and break the job into blocks that fit each call. Results are reported after each block so the technical team sees progress. Where a ship is heading to a yard, we format the readings so the yard's planners can turn them into a steel and pipe order without re-measuring.",
+    "list": [
+      "Trailer-deck plating, gutters and stiffeners gauged on a ro-pax across several turnarounds, with the worst areas marked for renewal.",
+      "Bow door surround and stern ramp structure readings with magnetic particle testing of hinge and lug welds, requested after a surveyor's recommendation.",
+      "Fire main and sea-water cooling pipe wall thickness measured in the engine room and reported before departure.",
+      "Pre-refit gauging of a ferry's car decks, ramps and ballast tanks, to give a Polish or German yard a steel list before docking.",
+      "Condition gauging of a ro-ro ship laid by for sale, with decks, tween decks and ballast tanks measured for a buyer."
+    ]
+  },
+  "logistics": "The usual arrival points are Copenhagen Airport, with its road and rail links across the Øresund Bridge, and Malmö Airport, which is smaller. Trelleborg is roughly an hour from Malmö by road or train. Sweden is a Schengen state, so technicians from India travel on Schengen visas, which should be requested early. Access to the ferry quays is controlled, and the ship's agent or the operator arranges security passes before the team arrives.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Ro-ro freight ships",
+    "Trailer and vehicle carriers",
+    "General cargo ships",
+    "Forest-product carriers",
+    "Short-sea coasters",
+    "Small product tankers"
+  ],
+  "faqs": [
+    {
+      "q": "How can a ferry be gauged when it is only in Trelleborg for a few hours?",
+      "a": "By splitting the scope into short blocks that each finish before sailing. Crew prepare the areas, the team starts as soon as the vehicle decks are clear, and a first report is passed to the superintendent before departure. Across several calls the readings add up to a full record, which can then support a renewal survey and the steel list."
+    },
+    {
+      "q": "Is there a drydock in Trelleborg for ferry renewal surveys?",
+      "a": "No dock for large ferries. Operators send ships to yards in Poland, Germany or elsewhere on the Baltic. Gauging at Trelleborg is done beforehand so the yard knows which plates, pipes and door structures to plan for, and has time to order material rather than waiting until the ship is already in the dock."
+    },
+    {
+      "q": "Can you check bow doors and ramp hinges at Trelleborg?",
+      "a": "Yes. We measure the plating and framing around the door surrounds and ramp structure, and test hinge and lug welds with magnetic particle inspection when the ship's maintenance plan or the class surveyor asks for it. Access and cleaning are arranged with the crew, and the work is timed for a longer stay than a standard turnaround."
+    },
+    {
+      "q": "Does winter weather affect gauging at Trelleborg?",
+      "a": "Ice is rare, but storms can delay ships and make the open deck cold and wet. Work inside the ship, such as engine rooms, voids and tanks, continues in most weather. For deck plating we plan outdoor blocks in daylight and allow flexibility for late arrivals, so a delayed ferry does not waste the technician's time."
+    }
+  ],
+  "nearby": ["malmo", "ystad", "swinoujscie", "rostock", "luebeck", "copenhagen"]
+}

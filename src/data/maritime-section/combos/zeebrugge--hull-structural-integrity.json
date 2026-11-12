@@ -1,0 +1,120 @@
+{
+  "port": "zeebrugge",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Zeebrugge | Ro-Ro Ships",
+  "description": "Hull structure inspection in Zeebrugge: corrosion pattern, deck buckling and crack checks on car carriers, ro-ro freighters and gas carriers between calls.",
+  "h1": "Checking the Structure of Vehicle Carriers and Ro-Ro Ships While They Work Zeebrugge",
+  "intro": "Hull structural integrity means knowing how a ship's steel is behaving, not only how thin it has become. At Zeebrugge the interesting structure belongs to ships built to carry wheeled cargo: tiered car decks, ramps, large side doors and ballast tanks that fill and empty with every call. Our technicians travel from India to the ship, record corrosion pattern, deformation and cracking in the places this trade punishes, and report in a form the superintendent can take to the class surveyor or the repair yard.",
+  "highlights": [
+    {
+      "h": "Deck damage from wheels and lashings",
+      "p": "Car decks take repeated point loads from tyres and from lashing gear. Buckled panels, dished plating between stiffeners and cracked lashing-point doublers show up first in the lanes used most, and a walk-through with a gauge finds them early."
+    },
+    {
+      "h": "Contact damage at ro-ro berths",
+      "p": "Short-sea ships make hundreds of berthings a year against fenders, linkspans and quay faces. Dents in the side shell and distortion at door openings are recorded, measured for depth, and checked for cracks that follow impact."
+    },
+    {
+      "h": "Ballast tanks that cycle constantly",
+      "p": "Vehicle carriers ballast heavily to offset light cargo. The alternation of full and empty tanks accelerates coating failure and bottom pitting, so tank condition is recorded as corrosion patterns, not only as an average thickness."
+    }
+  ],
+  "sections": [
+    {
+      "id": "hull-structure-zeebrugge-where",
+      "h": "Where can hull structure be inspected at Zeebrugge?",
+      "p": [
+        "Zeebrugge is a working port, so structural inspection mostly happens afloat at the berth the ship already occupies. Car terminals give access to empty decks between discharge and loading, ro-ro berths suit main-deck and ramp work on lay days, and the Fluxys terminal allows hull spaces outside the cargo containment to be examined within its safety permit. Ships that wait offshore can sometimes be reached by launch at the Belgian anchorages when the sea allows.",
+        "The inner port behind the Pierre Vandamme lock is the calmest option for a thorough structural look. A ship lying there for a charter handover or a pre-purchase examination has idle decks and stable conditions, which suits a combined gauging, visual and crack-detection programme. Where a ship needs the hull itself examined, such as the underwater plating, that work belongs at the yard where it will be docked, and we hand the topside data across to it."
+      ]
+    },
+    {
+      "id": "hull-structure-ships",
+      "h": "Which Zeebrugge ships need a structural inspection, and why?",
+      "p": [
+        "Owners of older car carriers that will keep trading on European routes ask the structural question most often. The car trade is changing, with heavier electric vehicles and revised expectations for deck strength and fire protection, and older decks were not designed with those loads in mind. A structural record gives the owner the basis for deciding which decks need strengthening and which can carry on as they are.",
+        "Ro-ro freighters on fixed UK and Irish services suffer the daily wear of heavy freight units and repeated berthing. LNG carriers have little deck wear but ageing ballast tanks and exposed deck structure. Buyers and charterers on all three types request structural inspections before purchase, on-hire or off-hire, when an independent view of the steel is worth having before money changes hands."
+      ]
+    },
+    {
+      "id": "hull-structure-method",
+      "h": "How is hull structure examined on a ship that stays only a day?",
+      "p": [
+        "The method is a combination, scaled to the time. Thickness gauging establishes how much steel is left. Close-up visual examination records the shape of corrosion, whether it is general, grooved along stiffener edges or deeply pitted, and whether panels have buckled or distorted. Magnetic particle testing then confirms or rules out cracks at the details where fatigue is most likely, such as ramp hinges and lashing points.",
+        "Because the call is short, we agree beforehand where to look and in what order. High-risk details come first, representative gauging of large panels second, and the remainder if time allows. Readings and observations are logged against frame and deck numbers as the work progresses, so a decision can be made while the ship is still alongside, and the superintendent is not waiting for a report to learn whether something needs urgent attention."
+      ],
+      "list": [
+        "Visual survey of decks, ramps and shell with photographs referenced to frame numbers.",
+        "Ultrasonic thickness readings on plating, stiffeners and brackets in wasted areas.",
+        "Deformation records for buckled or dished panels, measured against adjacent structure.",
+        "Magnetic particle testing at hinges, supports and doublers where cracks are suspected."
+      ]
+    },
+    {
+      "id": "hull-structure-findings",
+      "h": "What does the inspection normally find on these ships?",
+      "p": [
+        "On car decks, corrosion tends to follow water: the lowest decks and the edges of drainage areas wear fastest, and wasted stiffener flanges show up under apparently sound plating. On ramps, hinge pins, brackets and the structure around lifting arrangements carry cyclic loads and are where cracks begin. On the shell, contact damage at doors and berthing points often hides small cracks behind the dent.",
+        "In ballast tanks, the pattern is bottom pitting and edge grooving where coating has broken down, with heavier wastage near suction points. The report separates general wastage from localised loss, because the two lead to different repairs. Findings are ranked by urgency, so that the items that need steel renewal at the next opportunity are not buried among the observations that only need monitoring."
+      ]
+    },
+    {
+      "id": "hull-structure-planning",
+      "h": "Planning a structural inspection around a Zeebrugge call",
+      "p": [
+        "Tell us the berth, the time alongside and the cargo operation, and which decks and tanks can be freed. For car carriers the best moment is after discharge and before loading, with decks empty and lighting available. For ro-ro freighters it is a weekend lay-over or any delay in the rotation. For LNG carriers it is the terminal permit window, agreed with the terminal ahead of arrival.",
+        "Send previous survey reports, any repair records and the class notes about structure in need of monitoring. If you suspect a particular problem, such as a deck that has dished or a ramp that has been repaired before, say so, because it changes how the time is spent. Access to the terminal is controlled under ISPS, so the agent submits the team's details early, and the technicians' Schengen visas are arranged around the confirmed call rather than an estimate."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers (PCTC)",
+    "Ro-ro freight ships",
+    "LNG carriers with dual-fuel propulsion",
+    "Container ships at the outer port",
+    "Ships under pre-purchase or on-hire examination",
+    "Cruise ships with a short call"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "Class society rules for hull structure, ramps and shell doors",
+    "SOLAS chapter II-1 for structure and watertight integrity",
+    "IMO PSPC resolution MSC.215(82) for ballast tank coatings",
+    "ASTM E797 for manual pulse-echo thickness measurement",
+    "ISO 17638 for magnetic particle testing of welds"
+  ],
+  "deliverables": [
+    "Structural condition report by deck, tank and frame, with photographs",
+    "Thickness readings in the areas of wastage, referenced to the previous records",
+    "Deformation measurements for buckled, dished or impacted plating",
+    "Crack detection records for hinges, supports and lashing doublers",
+    "Findings ranked by urgency, with monitoring and repair recommendations",
+    "List of areas not reached on the call, for follow-up at the next call or dock"
+  ],
+  "faqs": [
+    {
+      "q": "Is hull structural inspection in Zeebrugge more than thickness gauging?",
+      "a": "Yes. Gauging tells you how much steel is left, but a structural inspection also records the shape of the corrosion, any buckling or dishing, and cracks at fatigue-prone details. For a car carrier or ro-ro ship, the combination matters because decks, ramps and shell fail in different ways, and each calls for a different repair."
+    },
+    {
+      "q": "Can car decks be examined while the ship is working cargo at Zeebrugge?",
+      "a": "Only the decks that are clear at that moment. Between discharge and loading, a number of decks are empty and can be examined; during loading they are not. We plan for the gap and agree the order with the superintendent, so the decks of most concern are done first."
+    },
+    {
+      "q": "What do you look for on ro-ro ramps and hinges?",
+      "a": "We look for cracking at hinge brackets, wasted plating around lifting arrangements, distortion in cross-members and wear under the surface where freight units travel. Magnetic particle testing is added at hinges and brackets because cracks there start small and can look like dirt or scratches to the eye."
+    },
+    {
+      "q": "Do electric vehicles change how car decks should be inspected?",
+      "a": "They add weight and a different fire risk, so owners of older car carriers increasingly want a structural record of the decks. Our inspection records plate thickness, stiffener condition and any dishing, which gives the owner's technical department data to judge whether a deck needs strengthening for the cargo it will carry."
+    },
+    {
+      "q": "Can hull structure be inspected at the Fluxys LNG terminal?",
+      "a": "Parts of it can, within the terminal's permit: ballast tanks, voids, deck structure away from hazardous zones and the engine room. Cargo containment is not part of a quay inspection. The terminal and the ship define what is accessible, and we agree the equipment list through the agent beforehand."
+    },
+    {
+      "q": "How are findings reported so the repair yard can use them?",
+      "a": "Findings are logged against frame and deck numbers with photographs and sketches, ranked by urgency, and delivered in a structure the yard can read without reinterpretation. Where thickness is near a renewal limit, the plate is marked on a sketch so the yard can quote steel renewals from the same document the superintendent holds."
+    }
+  ]
+}

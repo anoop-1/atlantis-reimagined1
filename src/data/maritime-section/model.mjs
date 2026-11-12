@@ -5,6 +5,9 @@
 // survey, compliance and NDT inspection pages added (CAS, special survey, IHM, noise survey, infrared
 // thermography, MPI, DPI, VT, UT weld, PAUT, TOFD, ACFM, eddy current, corrosion mapping, hatch-cover
 // ultrasonic testing); a country page for every European country with two or more port pages.
+// 2026-11-12 (owner): port × inspection pages at /maritime/{port}/{inspection} (./combo-list.json +
+// ./combos/{port}--{inspection}.json), Benelux first, then the busiest hubs; each one written for that
+// port and that inspection (no name-swapped template copy: the guard checks shared sentences).
 //
 // One model for both layers, on the shared service-section template (src/data/service-section/core.mjs),
 // so the pages carry the site's existing design:
@@ -73,6 +76,10 @@ const REGION_NAME = Object.fromEntries(REGIONS);
 const SERVICE_LABEL = Object.fromEntries(SERVICES.map(([s, l]) => [s, l]));
 const path = (slug) => (slug === LANDING_SLUG ? ROOT : `${ROOT}/${slug}`);
 export const maritimePath = path;
+/** Port × inspection pages (2026-11-12): /maritime/{port}/{inspection}, record combos/{port}--{inspection}.json. */
+export const comboSlug = (port, service) => `${port}--${service}`;
+export const comboPath = (port, service) => `${ROOT}/${port}/${service}`;
+export const serviceLabel = (s) => SERVICE_LABEL[s] || s;
 
 export const countrySlug = (country) => String(country).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 /**
@@ -161,7 +168,7 @@ export function classApprovalText() {
   const rest = ' Owner\'s and charterer\'s condition gauging, pre-docking steel estimates, pre-purchase and on-hire or off-hire gauging, and scrubber and piping condition checks between surveys do not need class approval.';
   if (CLASS_APPROVAL_AUDITS.length) {
     const who = CLASS_APPROVAL_AUDITS.length > 1 ? `${CLASS_APPROVAL_AUDITS.slice(0, -1).join(', ')} and ${CLASS_APPROVAL_AUDITS.at(-1)}` : CLASS_APPROVAL_AUDITS[0];
-    return `${base} Atlantis is preparing for UR Z17 audits with ${who}. Until a certificate is issued, the readings we take are for the owner\'s own decisions, not for credit to a class survey, so tell us the vessel\'s class and the survey due when you enquire and we set the scope for the right purpose.${rest}`;
+    return `${base} Atlantis is in the process of obtaining UR Z17 approval from ${who}. Until a certificate is issued, the readings we take are for the owner\'s own decisions, not for credit to a class survey, so tell us the vessel\'s class and the survey due when you enquire and we set the scope for the right purpose.${rest}`;
   }
   return `${base} Tell us the vessel\'s class when you enquire and we confirm, before anything is booked, whether the measurement can be credited to that survey.${rest}`;
 }
@@ -190,9 +197,10 @@ function placeFor(rec) {
 const UTM = 'ultrasonic-thickness-measurement';
 const SPECIAL = 'special-survey-thickness-measurement';
 
-function cityPage(rec, byslug, hubFor) {
+function cityPage(rec, byslug, hubFor, comboRows = []) {
   const n = rec.name;
   const hub = hubFor[rec.country];
+  const here = comboRows.filter(([port]) => port === rec.slug).map(([port, s]) => [comboPath(port, s), `${SERVICE_LABEL[s]} at ${n}`]);
   const nearby = (rec.nearby || []).filter((s) => byslug[s] && s !== rec.slug).map((s) => [path(s), `${byslug[s].name} ship thickness measurement`]);
   return {
     path: path(rec.slug),
@@ -222,6 +230,7 @@ function cityPage(rec, byslug, hubFor) {
     industries: rec.vessels,
     faqs: [...rec.faqs, { q: `Does thickness measurement at ${n} need class approval?`, a: classApprovalText() }],
     related: [
+      ...here,
       ...nearby,
       ...(hub ? [[path(hub), `Ship inspection in ${rec.country}: all ports`]] : []),
       [path(UTM), 'Ultrasonic thickness measurement (UTM)'],
@@ -233,7 +242,49 @@ function cityPage(rec, byslug, hubFor) {
   };
 }
 
-function textPage(rec, kind, parent, cityList, hubs) {
+const TM_SERVICES = new Set([UTM, SPECIAL, 'condition-assessment-scheme', 'condition-assessment-programme', 'enhanced-survey-programme', 'hull-structural-integrity', 'corrosion-mapping']);
+
+function comboPage(rec, byslug, hubFor, comboRows) {
+  const port = byslug[rec.port];
+  const n = port.name;
+  const label = SERVICE_LABEL[rec.service];
+  const hub = hubFor[port.country];
+  const sameService = comboRows.filter(([p, s]) => s === rec.service && p !== rec.port).map(([p, s]) => [comboPath(p, s), `${label} at ${byslug[p]?.name || p}`]);
+  const samePort = comboRows.filter(([p, s]) => p === rec.port && s !== rec.service).map(([p, s]) => [comboPath(p, s), `${SERVICE_LABEL[s]} at ${n}`]);
+  const tm = TM_SERVICES.has(rec.service);
+  const sections = [...rec.sections];
+  if (tm) sections.push({ id: 'survey-cycle', h: `Where ${label.replace(/ \(.*\)$/, '').toLowerCase()} sits in the survey cycle`, p: [pick(rec.port + rec.service, CYCLE_INTRO)(n)], table: SURVEY_TABLE });
+  sections.push({ id: 'how-it-works', h: `How the job runs at ${n}`, p: [pick(rec.port + rec.service + 'h', HOW_INTRO)(n)], list: STEPS });
+  sections.push({ id: 'team', h: tm ? 'Who does the work, and when class approval applies' : 'Who does the work', p: tm ? [pick(rec.port + rec.service + 't', TEAM_PARAS), classApprovalText()] : [pick(rec.port + rec.service + 't', TEAM_PARAS)] });
+  return {
+    path: comboPath(rec.port, rec.service),
+    kind: 'combo',
+    parent: path(rec.port),
+    navLabel: label,
+    title: rec.title,
+    description: rec.description,
+    h1: rec.h1,
+    eyebrow: `${label} · ${n}, ${port.country}`,
+    intro: rec.intro,
+    highlights: rec.highlights,
+    sections,
+    codes: rec.codes,
+    deliverables: rec.deliverables,
+    industries: rec.vessels,
+    faqs: tm ? [...rec.faqs, { q: `Can ${label.replace(/ \(.*\)$/, '').toLowerCase()} at ${n} be credited to a class survey?`, a: classApprovalText() }] : rec.faqs,
+    related: [
+      [path(rec.port), `Ship inspection at ${n}: all services`],
+      [path(rec.service), label],
+      ...samePort,
+      ...sameService.slice(0, 8),
+      ...(hub ? [[path(hub), `Ship inspection in ${port.country}`]] : []),
+      [ROOT, 'All maritime inspection services'],
+    ],
+    areaServed: placeFor(port),
+  };
+}
+
+function textPage(rec, kind, parent, cityList, hubs, comboRows = []) {
   const pg = {
     path: path(rec.slug),
     kind,
@@ -282,7 +333,9 @@ function textPage(rec, kind, parent, cityList, hubs) {
     const same = SERVICE_DEFS.filter(([s, , , g]) => g === group && s !== rec.slug).map(([s, l]) => [path(s), l]);
     const hubsLinks = [UTM, 'marine-ndt-services', 'advanced-ndt'].filter((s) => s !== rec.slug && !same.some(([h]) => h === path(s))).map((s) => [path(s), SERVICE_LABEL[s]]);
     const top = ['netherlands', 'belgium', 'united-kingdom', 'germany', 'greece', 'norway'].filter((s) => hubs.some(([h]) => h === s)).map((s) => hubPairs.find(([h]) => h === path(s)));
-    pg.related = [...same, ...hubsLinks, ...top, ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
+    const ports = Object.fromEntries(cityList.map(([s, name]) => [s, name]));
+    const atPorts = comboRows.filter(([, s]) => s === rec.slug).map(([p, s]) => [comboPath(p, s), `${SERVICE_LABEL[s]} at ${ports[p] || p}`]);
+    pg.related = [...atPorts, ...same, ...hubsLinks, ...top, ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
   }
   if (kind === 'landing') {
     // Services organised by group (owner, 2026-11-10: "organized in a nice fashion"), after the first section.
@@ -301,8 +354,9 @@ function stub(slug, kind, parent, navLabel) {
 /**
  * @param cityList  rows [slug, name, country, region, batch] from city-list.json
  * @param records   { [slug]: record } for any subset of city / page records that are loaded
+ * @param comboRows rows [port, service] from combo-list.json (port × inspection pages)
  */
-export function buildMaritimeSection(cityList, records = {}) {
+export function buildMaritimeSection(cityList, records = {}, comboRows = []) {
   const byslug = Object.fromEntries(cityList.map(([slug, name, country, region]) => [slug, { slug, name, country, region }]));
   const hubs = countryHubs(cityList);
   const hubFor = Object.fromEntries(hubs.map(([s, , c]) => [c, s]));
@@ -311,8 +365,13 @@ export function buildMaritimeSection(cityList, records = {}) {
   pages.push(landing ? textPage(landing, 'landing', null, cityList, hubs) : stub(LANDING_SLUG, 'landing', null, 'Maritime Inspection'));
   for (const [slug, label] of REGIONS) pages.push(records[slug] ? textPage(records[slug], 'region', ROOT, cityList, hubs) : stub(slug, 'region', ROOT, label));
   for (const [slug, label] of hubs) pages.push(records[slug] ? textPage(records[slug], 'country', path('europe'), cityList, hubs) : stub(slug, 'country', path('europe'), label));
-  for (const [slug, label] of SERVICES) pages.push(records[slug] ? textPage(records[slug], 'service', ROOT, cityList, hubs) : stub(slug, 'service', ROOT, label));
-  for (const [slug, name, country, region] of cityList) pages.push(records[slug] ? cityPage(records[slug], byslug, hubFor) : stub(slug, 'city', hubFor[country] ? path(hubFor[country]) : path(region), name));
+  for (const [slug, label] of SERVICES) pages.push(records[slug] ? textPage(records[slug], 'service', ROOT, cityList, hubs, comboRows) : stub(slug, 'service', ROOT, label));
+  for (const [slug, name, country, region] of cityList) pages.push(records[slug] ? cityPage(records[slug], byslug, hubFor, comboRows) : stub(slug, 'city', hubFor[country] ? path(hubFor[country]) : path(region), name));
+  for (const [port, service] of comboRows) {
+    const key = comboSlug(port, service);
+    if (!byslug[port] || !SERVICE_LABEL[service]) throw new Error(`maritime combo ${key}: unknown port or service`);
+    pages.push(records[key] ? comboPage(records[key], byslug, hubFor, comboRows) : { ...stub(port, 'combo', path(port), SERVICE_LABEL[service]), path: comboPath(port, service) });
+  }
 
   const groups = [];
   const seen = new Map();
@@ -347,10 +406,12 @@ export function buildMaritimeSection(cityList, records = {}) {
   });
 }
 
-/** Which record a path needs (React loader): { kind: 'city' | 'page', slug } or null. */
-export function recordFor(pathname, cityList) {
+/** Which record a path needs (React loader): { kind: 'city' | 'page' | 'combo', slug } or null. */
+export function recordFor(pathname, cityList, comboRows = []) {
   const p = String(pathname || '').replace(/\/+$/, '');
   if (p === ROOT) return { kind: 'page', slug: LANDING_SLUG };
+  const c = /^\/maritime\/([a-z0-9-]+)\/([a-z0-9-]+)$/.exec(p);
+  if (c) return comboRows.some(([port, s]) => port === c[1] && s === c[2]) ? { kind: 'combo', slug: comboSlug(c[1], c[2]) } : null;
   const m = /^\/maritime\/([a-z0-9-]+)$/.exec(p);
   if (!m) return null;
   if (REGION_SLUGS.includes(m[1]) || SERVICE_SLUGS.includes(m[1]) || countryHubs(cityList).some(([s]) => s === m[1])) return { kind: 'page', slug: m[1] };

@@ -1,0 +1,126 @@
+{
+  "port": "hamburg",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Hamburg | Renewal UTM",
+  "description": "Renewal and intermediate survey thickness measurement in Hamburg: in-dock gauging at Steinwerder and Norderwerft, plus sister-ship data for container fleets.",
+  "h1": "Renewal Survey Gauging for Container Ships and Fleets Managed from Hamburg",
+  "intro": "Hamburg manages more container tonnage than almost any other European city, and its owners and tonnage providers care about renewal survey steel long before a ship reaches a yard. Special survey thickness measurement here covers in-dock gauging at the south bank repair yards, intermediate survey readings taken afloat at the terminals, and pre-docking programmes that fix the steel list during the last cargo call. Each job is carried out by a team mobilised from India to the ship, planned against the Elbe tide and the terminal or dock slot.",
+  "highlights": [
+    {
+      "h": "Steel lists fixed before the dock",
+      "p": "A container ship that gauges deck, side shell and ballast tanks during its final Hamburg terminal call arrives at the Steinwerder or Norderwerft yard with a measured renewal list, so the repair specification describes steel rather than allowances."
+    },
+    {
+      "h": "Comparable data across sister ships",
+      "p": "Fleet managers in the city run groups of near-identical ships. The same gauging grid, locations and report layout on each ship lets a superintendent rank hulls for another survey cycle, sale or recycling."
+    },
+    {
+      "h": "Intermediate readings between dockings",
+      "p": "Between renewal dockings, hatch coamings, deck longitudinals and ballast tanks can be re-gauged on the same grid during terminal calls, giving a wastage rate that tells the owner when substantial corrosion will turn excessive."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-renewal-gauging-is-done",
+      "h": "Where is renewal survey gauging done in Hamburg?",
+      "p": [
+        "Renewal survey gauging in Hamburg happens in three kinds of place, and the choice changes the whole plan. The first is the dock. The Blohm+Voss docks at Steinwerder and the Norderwerft repair yard both take commercial ships, and in dock the thickness measurement team works frame by frame to the thickness measurement plan, in step with the surveyor's close-up list. Plates found at or beyond the allowable margin are marked on the spot so the yard's steel crews can plan and cut them.",
+        "The second is the terminal berth. Burchardkai, Altenwerder and Tollerort work cargo around the clock, so renewal-type readings there are limited to what the ship's permit system allows while cranes move: weather deck plating, hatch coamings, cross-deck structure and the engine room. The third is the lay-by berth or mooring dolphin on the river, where feeders and short-sea ships sometimes wait a day or two between Baltic rotations. A launch carries the team out, and the idle ship can open ballast tanks without cargo pressure."
+      ],
+      "list": [
+        "Blohm+Voss docks, Steinwerder: in-dock renewal survey gauging with close-up survey support.",
+        "Norderwerft repair yard: renewal and docking-survey gauging on container ships and bulk carriers.",
+        "Container terminals: deck, coaming and machinery-space readings between crane moves.",
+        "Mooring dolphins and lay-by berths: longer tank programmes on feeders between rotations."
+      ]
+    },
+    {
+      "id": "which-hamburg-ships-need-it",
+      "h": "Which ships need special survey gauging, and when?",
+      "p": [
+        "Container ships are not enhanced survey ships, so their renewal gauging follows the hull survey requirements of the society's rules rather than the tanker and bulker regime. The extent still grows with each renewal. Early surveys concentrate on suspect areas; by the third and fourth the surveyor expects transverse sections of deck and bottom plating, wind-and-water strakes, hatch coamings and ballast tank structure. On a large boxship that is a great deal of steel, and gauging it in the first days of the docking, before blasting and painting claim the staging, is what keeps the schedule intact.",
+        "Hamburg's owner base adds a commercial layer to the technical one. Tonnage providers and liner operators here own older Panamax and feeder ships whose next survey cycle is a decision, not a certainty. EU ETS has covered shipping since 2024 and FuelEU Maritime since 2025, and charter parties now have to allocate those obligations, so the age and steel condition of a chartered ship is a negotiating point. A measured renewal forecast, taken at a Hamburg call a few months before the docking, tells the owner whether to commit to the yard bill or to sell."
+      ]
+    },
+    {
+      "id": "scoping-for-container-hulls",
+      "h": "How is a container ship scoped for renewal gauging here?",
+      "p": [
+        "On a container ship the highest-value areas are the upper-deck longitudinals and hatch coamings, where stress is greatest on a long, flexible hull, the side shell and ballast tanks in the wind-and-water zone, and the double bottom. The engine room and sea-water piping are separate scopes, and on scrubber-fitted ships the wash-water and overboard lines are often added because their wastage drives repair decisions at the same docking.",
+        "Gauging inside a cell-guided hold needs a cleared bay, so the plan is agreed with the chief officer and the terminal's cargo planner. Where tanks are involved, they must be emptied, ventilated and tested before entry, and ballast must be managed so the ship stays within stability limits as tanks are opened one by one. Coatings matter as well: a tank with intact coating is measured through it only where the gauge's through-coating mode has been verified, and otherwise the coating is cleared locally to bare steel."
+      ],
+      "list": [
+        "Deck plating, longitudinals and hatch coamings along the cargo length.",
+        "Side shell in the wind-and-water strakes and in way of ballast tanks.",
+        "Double-bottom and wing tank boundaries, with webs and floors sampled.",
+        "Sea chests, overboard discharge penetrations and scrubber piping where fitted."
+      ]
+    },
+    {
+      "id": "findings-on-hamburg-ships",
+      "h": "What does renewal gauging typically find on ships calling at Hamburg?",
+      "p": [
+        "On container ships the pattern is consistent: corrosion in ballast tanks along horizontal members and under degraded coating, wastage of coaming top plates and deck plating where water lies, and wall loss in sea-water and scrubber pipework. Bulk carriers discharging at the Hansaport ore and coal terminal show a different picture, with side-shell frames and their lower brackets thinned by grab contact and cargo abrasion, and hopper sloping plates worn where bulk cargo slides.",
+        "Each reading is reported against the original thickness and the allowance for that member, and the report separates wastage that is within margin from substantial and excessive corrosion. Substantial areas are the useful ones for planning: they sit inside acceptable limits today but tend to cross the margin by the next survey, so re-gauging them on an identical grid gives the owner a corrosion rate. That lets the steel be renewed at a docking of the owner's choosing rather than at the surveyor's insistence."
+      ]
+    },
+    {
+      "id": "planning-a-hamburg-renewal-job",
+      "h": "How do you plan renewal gauging around the Elbe and the dock slot?",
+      "p": [
+        "The Elbe passage for large ships is planned around tide and draught, so arrival and departure at Hamburg can shift, and the technicians' flights and Schengen visas have to be planned with that in mind. Send the docking window, the yard and the class early. We then set mobilisation to the confirmed berth plan and keep the terminal's ISPS registration in step through the ship's agent, who also arranges launches for ships at the dolphins.",
+        "Before travel we need the thickness measurement plan or the society's requirements, the ship's original scantlings, previous gauging reports on the same members, and any known problem areas. For an in-dock job, also tell us when tanks will be cleaned and gas-freed and when the staging goes up, because gauging can only start once access exists. For a pre-docking call at a terminal, tell us which bays and tanks the cargo plan leaves free."
+      ]
+    }
+  ],
+  "vessels": [
+    "Large and post-Panamax container ships",
+    "Feeder and short-sea container ships",
+    "Bulk carriers at the ore and coal terminal",
+    "Product and chemical tankers at the oil harbour",
+    "Multipurpose and heavy-lift ships",
+    "Ro-ro ships",
+    "Chartered tonnage before redelivery"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z10.1 to Z10.5 for ESP tankers and bulk carriers that call at Hamburg",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter XI-1, regulation 2 and the ESP Code",
+    "ASTM E797 (manual pulse-echo ultrasonic thickness measurement)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by frame, strake and member on the class format or your own",
+    "Diminution against original thickness and the allowance for each member",
+    "Plates marked for renewal and listed for the yard specification",
+    "Substantial corrosion areas with locations for repeat gauging on the same grid",
+    "Sister-ship comparison sheet when several ships are gauged to one plan"
+  ],
+  "faqs": [
+    {
+      "q": "Can thickness measurement be done at Hamburg container terminals during cargo work?",
+      "a": "Yes, within limits. Deck plating, hatch coamings, cross-deck structure and machinery spaces can be gauged under the ship's permit system while cranes work, because those areas do not depend on the bay being cleared. Holds and tanks need the chief officer's agreement and, for tanks, gas-free testing, so they are normally left for a longer berth or the dock."
+    },
+    {
+      "q": "Which Hamburg yards take container ships for renewal survey?",
+      "a": "The Blohm+Voss docks at Steinwerder and the Norderwerft repair yard, both on the south bank of the Elbe, take commercial ships for docking and repair. We gauge in dock against the thickness measurement plan and mark plates for renewal as the yard plans its steel work. Booking details and slots are agreed between the owner, the yard and the class."
+    },
+    {
+      "q": "How early should we gauge before a renewal docking at Hamburg?",
+      "a": "For a measured steel list, gauge at the last convenient terminal call before the ship shifts to the yard, ideally with enough lead time for the yard to quote real quantities. Gauging months earlier also works for planning and sale decisions, and the in-dock readings then confirm and extend what the early programme found."
+    },
+    {
+      "q": "Do you provide comparable thickness data for sister ships managed from Hamburg?",
+      "a": "Yes. When several near-identical ships are gauged to the same plan, with identical locations and report layout, the readings can be set side by side. Superintendents use that to rank ships for another survey cycle, for sale or for recycling, and to see whether wastage is a ship-specific problem or a class-wide one."
+    },
+    {
+      "q": "Do technicians travelling from India need visas for a Hamburg job?",
+      "a": "Germany is in the Schengen area, so the team travels on Schengen visas. We start the applications once the call or docking window is firm and ask for an invitation letter naming the ship and the port. Because the Elbe arrival time can move with tide and traffic, flights are booked against the agent's latest estimate."
+    },
+    {
+      "q": "Is renewal survey gauging at Hamburg different for bulk carriers and tankers?",
+      "a": "Yes. Bulk carriers and tankers fall under the enhanced survey regime, so the extent is set by the ESP requirements and the survey programme as well as the general hull rules. At Hansaport the practical difference is access: holds and wing tanks are only available in the hours after discharge, and tanker tanks need gas-freeing first."
+    }
+  ]
+}

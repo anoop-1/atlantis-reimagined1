@@ -1,0 +1,119 @@
+{
+  "port": "vlissingen",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Vlissingen | Steel Condition",
+  "description": "Hull structural integrity inspection in Vlissingen: corrosion pattern, deformation and crack detection for ferries, dredgers, offshore vessels and tankers.",
+  "h1": "Structural condition inspection of hulls on working vessels in Vlissingen and Zeeland",
+  "intro": "The working vessels that come to Vlissingen damage their structure in specific ways: ferries crack at ramp hinges and door frames, dredgers wear through hopper plating, offshore support vessels take knocks at the transfer fenders and tankers waste at ballast boundaries. A hull structural integrity inspection records each of those modes, not just a thickness figure. Atlantis NDT sends a team from India to Vlissingen-Oost or the Sloe berths to combine thickness gauging, deformation records and crack detection, so the owner, the class engineer or a buyer sees the structure as it is.",
+  "highlights": [
+    {
+      "h": "Wear that follows the trade",
+      "p": "A dredger loses steel where spoil moves, a ferry where water collects on the car deck, a support vessel where it meets the turbine structure. We read the ship against its trade, so the report explains why the steel has wasted where it has."
+    },
+    {
+      "h": "Dents and buckles recorded",
+      "p": "Berthing and fender contact leave deformation at the side shell and bow that no thickness gauge sees. We measure and photograph each panel, with depth, extent and the location against the frames, and note whether the plating has cracked at the edge."
+    },
+    {
+      "h": "Crack checks at the known details",
+      "p": "Ramp hinges, door frame corners, crane pedestal welds and hopper door brackets are where these ships crack. Magnetic particle testing at those places confirms whether a visible mark is a crack and gives its length for the repair decision."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-structural-inspection-happens",
+      "h": "Where can a hull structural inspection be done in Vlissingen?",
+      "p": [
+        "A full structural inspection needs access, and in Vlissingen the best access is at Damen Shiprepair Vlissingen in Vlissingen-Oost. In the dock, the shell, bottom, sea chests, rudder area and the structure around the propeller are reachable, with staging and lighting supplied by the yard. This is where damage found on the side shell during service can be measured, marked and repaired in one stay.",
+        "Afloat, the inspection is narrower but still useful. At a Sloe area berth or the yard quay, the deck, accessible tanks and voids, the top of the side shell and machinery spaces can be examined. For an owner who needs to know the condition before deciding whether to dock, an afloat inspection of the accessible structure sets the scope for the yard stay and the budget discussion."
+      ],
+      "list": [
+        "In dock at the yard: shell, bottom, sea chests and rudder structure.",
+        "At the yard quay: tanks, voids and deck structure on a gas-free ship.",
+        "At the Sloe quays: deck structure, hatch coamings and accessible spaces.",
+        "By agreement: limited scope on a ship at anchor in the Westerschelde."
+      ]
+    },
+    {
+      "id": "which-vessels-and-what-they-show",
+      "h": "Which ships in Zeeland need structural inspection, and what do they typically show?",
+      "p": [
+        "Ro-pax ferries show fatigue at the stern door and ramp hinge structure, where repeated loading from the ramp and vehicle traffic works against welded joints. The car-deck plating shows wastage along drain lines and below wet areas. Dredgers show abrasion in the hopper and bottom door area, and pipe wear at the suction and discharge lines. Offshore wind support vessels show contact damage at the bow fender and side shell, plus wear at the working deck.",
+        "Tankers calling at the Sloe show ballast tank boundary corrosion where heated cargo meets cold ballast water, and deck wastage near manifolds. Bulk carriers show hold frame wastage and tank top pitting. Each type has its own pattern, so we plan the examination around where that pattern predicts damage rather than working through a uniform checklist.",
+        "Reefers and heavy-lift ships add their own variations. Refrigerated cargo ships show wear around hatch coamings and in cargo spaces where condensation and washdown water sit, while heavy-lift and project ships show local damage near lifting points and on decks that carry concentrated loads. When we plan the inspection for any of these, we ask the superintendent what the ship carried last and where, because a ship's recent cargo history often explains an area of wear before a reading is taken."
+      ]
+    },
+    {
+      "id": "scoping-structural-work",
+      "h": "How is a structural integrity inspection scoped for these vessels?",
+      "p": [
+        "The scope is built from three inputs: the class survey status, the vessel's trade and the question the owner is asking. If the question is a renewal survey, the TM plan sets the minimum. If it is a sale, a charter or an incident, the owner's concern sets it. We agree the areas, the method for each and the acceptance basis with the superintendent, and write the plan down before travelling.",
+        "Methods are chosen by what has to be found. Thickness gauging covers wastage, visual and photographic records cover deformation, and magnetic particle testing covers cracks at welded details. Where coatings are intact, readings through the coating are used only with equipment verified for it. Where a visible crack is found in a weld, we recommend magnetic particle or ultrasonic checking to establish its extent before repair is specified."
+      ]
+    },
+    {
+      "id": "reading-the-findings",
+      "h": "How are the findings read for ferries, dredgers and support vessels?",
+      "p": [
+        "A reading is only useful in context. For a ferry, a small loss of car-deck plating is routine, but the same loss at the ramp hinge support is a structural concern. For a dredger, pitting on a bottom door matters less than loss of area across the hopper floor. We write each finding with its location, its pattern and the part of the structure it affects, so the owner or the class engineer can judge it.",
+        "Where we find deformation, we state its depth, extent and whether the plating has cracked at the edge or at the stiffeners. Where we find cracks, we record their length and orientation and the weld they sit in. We do not state the repair decision, because that belongs to the owner and the class surveyor, but the data is arranged so they can make it without a further visit.",
+        "The same discipline applies to coating and anode condition, which we note by tank during the examination. Breakdown of ballast tank coating is the usual driver of rapid wastage, so a tank with failed coating and heavy wastage is described together. That link lets the owner decide between recoating, which slows further loss, and steel renewal, which replaces what has already gone."
+      ]
+    },
+    {
+      "id": "planning-structural-work",
+      "h": "How is the inspection planned around a ship working from Vlissingen?",
+      "p": [
+        "Working vessels have little spare time. A ferry on a fixed timetable, a dredger between campaigns and a support vessel between wind farm jobs each offer a defined window, and the plan is built to fit it. We ask the superintendent for the window, the gas-free plan and the drawings, and propose a sequence that does the access-dependent work first.",
+        "The agent arranges yard or terminal access and any launch transfer. A team from India needs Schengen visas, so the dates must reach us early. If the ship's schedule moves with weather or tide, we adjust to the agent's latest estimate. For a pre-purchase inspection, the buyer's technical adviser can attend, and we arrange the examination so the findings are recorded while the adviser is present."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ro-pax and ro-ro ferries",
+    "Trailing suction hopper dredgers",
+    "Offshore wind support and installation vessels",
+    "Chemical and product tankers",
+    "Bulk carriers and general cargo ships",
+    "Refrigerated cargo ships",
+    "Ships under pre-purchase or on-hire inspection"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z10 series – Hull surveys of tankers and bulk carriers",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "IACS Common Structural Rules for oil tankers and bulk carriers",
+    "ASTM E797 – Manual pulse-echo ultrasonic thickness measurement",
+    "ISO 17638 – Magnetic particle testing of welds"
+  ],
+  "deliverables": [
+    "Thickness readings by member, with original thickness, diminution and allowable limit",
+    "Flagged list of wastage, pitting, grooving and edge corrosion by location",
+    "Deformation records with depth, extent, location against frames and photographs",
+    "Crack indication sketches with length, orientation and the weld they sit in",
+    "Observations on ramp, door, hopper or pedestal structure specific to the ship's trade",
+    "Steel renewal list for the yard stay"
+  ],
+  "faqs": [
+    {
+      "q": "Can a hull structural inspection be done on a ferry in Vlissingen without docking her?",
+      "a": "Partly. Afloat, the deck, car-deck plating, accessible tanks and voids and the upper side shell can be examined. The shell below the waterline, the bottom and the sea chests need the dock. An afloat inspection sets the scope for the dock stay and shows where the heavy structure work is likely."
+    },
+    {
+      "q": "How is damage from fender contact recorded on a support vessel?",
+      "a": "We measure each dent or buckle for depth and extent, locate it against the frame numbers, photograph it and check the plating for cracks at the edge or stiffener. The record shows whether the damage is local or part of a pattern, which helps the owner and surveyor decide between fairing and renewal."
+    },
+    {
+      "q": "What is the difference between this and a thickness measurement survey?",
+      "a": "A thickness survey records steel thickness against the TM plan. A structural integrity inspection adds the pattern of the corrosion, deformation and cracks, and reads them against the ship's trade. The thickness data is part of it, but the report explains what the readings mean for the structure."
+    },
+    {
+      "q": "Can the inspection support a purchase decision for a dredger in Zeeland?",
+      "a": "Yes. A buyer's technical adviser can attend while we gauge hopper, door and pipe structure and record deformation and cracks. The report gives the buyer the measured condition of the steel, so the negotiation starts from facts instead of the seller's description."
+    },
+    {
+      "q": "What do you need from the superintendent before the team travels?",
+      "a": "Send the vessel's drawings, the class survey status, the last TM report and the repair history, together with the window available and the gas-free plan. With those, we agree the scope and the methods before the team leaves, and the time at the ship goes into measuring."
+    }
+  ]
+}

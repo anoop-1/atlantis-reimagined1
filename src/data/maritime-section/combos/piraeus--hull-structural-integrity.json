@@ -1,0 +1,118 @@
+{
+  "port": "piraeus",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Piraeus | Bulk Carriers",
+  "description": "Hull structural integrity inspection in Piraeus: wastage, buckling and crack detection on ageing Greek-managed bulk carriers and tankers at Perama.",
+  "h1": "Structural Condition Assessment of Ageing Bulk Carriers and Tankers in Piraeus",
+  "intro": "Many ships managed from Piraeus are asked to do more than a survey: sell at a fair value, extend a charter, pass the next vetting or carry on for another five years. For those decisions we look at the structure itself, not only at thickness gauging for a survey. A team mobilised from India measures wastage, records pitting, buckling and coating breakdown and checks known fatigue details with magnetic particle inspection, working at the Perama quays, in a floating dock or at the anchorage off Piraeus.",
+  "highlights": [
+    {
+      "h": "Structure judged for the buying decision",
+      "p": "Second-hand purchases and sales are routine in Piraeus. A structural integrity inspection gives buyer and seller the same measured picture of hold frames, hatch coamings and tank boundaries before subjects are lifted."
+    },
+    {
+      "h": "Crack detection at known weak points",
+      "p": "Hatch corners, hopper knuckles and bracket toes on ageing bulk carriers crack in predictable places. Magnetic particle inspection is aimed at those details rather than scattered across the ship."
+    },
+    {
+      "h": "One team, anchorage to dock",
+      "p": "The same technicians can survey a ship at the outer anchorage, then follow it into a Perama dock, so findings from the first visit guide the second."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-at-piraeus",
+      "h": "Where can a hull structural inspection be done around Piraeus?",
+      "p": [
+        "Structural inspection needs access more than anything else, and each Piraeus setting offers a different kind. At the Perama repair quays, tanks, holds and voids can be opened and ventilated with the ship afloat, and the yard's staging often goes up for other repairs, which puts the upper structure within reach. In the port authority's floating docks, the bottom shell, keel plating, rudder and propeller area are dry and can be inspected as well as gauged.",
+        "At the outer anchorage, access is limited to what the crew has prepared, but that is often enough for a first assessment of holds, topside tanks and deck structure before the owner commits to a yard. The larger Elefsina bay yards add the possibility of inspecting a ship that is already stripped for heavy steel renewal, when members can be seen cleaned and bare. An inspection that begins at anchor and ends in the dock usually gives the fullest account."
+      ],
+      "list": [
+        "Perama quays: hatch coamings, deck plating, topside tanks and holds with the ship afloat and staging in place",
+        "Perama floating docks: bottom plating, keel, bilge keels, sea chests and rudder surroundings with the hull dry",
+        "Outer anchorage: pre-purchase and pre-docking inspection of prepared holds and ballast tanks",
+        "Elefsina bay yards: cleaned or blasted structure during renewal programmes, and re-inspection of renewed work"
+      ]
+    },
+    {
+      "id": "who-needs-it",
+      "h": "Which Piraeus ships are inspected for structure, and why?",
+      "p": [
+        "Bulk carriers dominate the work. A Handysize or Supramax carrying steel, scrap, grain or aggregates takes mechanical damage in the holds, and cargo that corrodes steel leaves its mark on lower bulkheads and frames. Panamax and Capesize ships carrying coal and iron ore wear tank top plating and hopper structure. Tankers are inspected for different reasons: oil-major vetting, CAP preparation or a charterer's request, with attention on cargo tank bottoms and ballast tank boundaries.",
+        "The timing varies as much as the ships. A buyer wants the inspection before delivery, a manager wants it six months ahead of a renewal survey to budget realistically, and a charterer sometimes asks for it before a long fixture. Each case needs the same discipline: measured data recorded member by member, with photographs, so that the report can be read by someone who was not on board.",
+        "Class matters less to the inspection than the trading history. A ship that has spent years carrying steel products into the Black Sea shows different damage from one on long coal voyages, and managers in Piraeus usually know that history well enough to tell us where to look first. We build the plan around it, and add the members that fail on every ship of that type whatever the history says."
+      ]
+    },
+    {
+      "id": "how-scoped",
+      "h": "How is a structural integrity inspection scoped for these ships?",
+      "p": [
+        "We start with the ship type and trading pattern, then pick the members that carry the hull girder and local loads and those known to fail on that type. On a bulk carrier that list normally includes hold frames and brackets, lower bulkhead strakes, tank top plating, hatch coamings and hatch cover plating, and topside and hopper tank structure. On a tanker it includes cargo tank bottoms, bulkhead stringers and webs, and deck plating along the cargo length.",
+        "Ultrasonic thickness gauging establishes remaining steel. Visual records capture the pattern: general wastage, pitting, grooving along welds, edge corrosion and coating condition. Where plating has deformed we record the extent and the stiffening around it. Magnetic particle inspection is applied to the details where cracks are known to start, with the surface prepared by grinding or cleaning first. Cracks and heavy pitting are mapped, not just listed, so a repair planner can see the pattern.",
+        "Access drives sequence. Holds are inspected first, once washed and dry, because cargo operations and ballast changes can close them again. Ballast tanks follow after gas testing and ventilation, and the deck and coamings are left until last, since they can be reached at almost any time. The sequence is agreed with the chief officer on the first morning and revised as spaces are released."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do structural inspections typically reveal on bulk carriers and tankers here?",
+      "p": [
+        "On older bulk carriers, the repeated finding is lower hold frame and bracket wastage, often with scale pushing the frame web out of line, plus grooving where bulkhead plating meets the tank top. Hatch coamings show corrosion along the coaming top and at the stay brackets, and hatch cover panels show wastage on the underside and at the seals. Cracks, when they occur, tend to appear at hatch corners and at hopper tank knuckles, where stresses concentrate.",
+        "On tankers, the findings lean towards pitting on cargo tank bottoms under sediment and water, corroded upper parts of ballast tanks under a sun-heated deck and failed coating on bracket edges. Buckled plating between stiffeners is usually a sign of thinner steel that nobody measured, so a buckled panel prompts gauging all around it. Reporting separates what must be renewed now, what should be watched and gauged again at the next survey, and what is merely cosmetic."
+      ]
+    },
+    {
+      "id": "planning-at-piraeus",
+      "h": "How to plan the inspection around a sale, a charter or a docking?",
+      "p": [
+        "For a sale, the inspection normally happens at the anchorage or a lay-by berth with the seller's agreement and the buyer's representative present. The ship's crew prepares the agreed holds and tanks, and the report is delivered to both parties in the same format. For a charter or vetting, the manager picks the date, and the scope follows the charterer's concerns. For a docking, the inspection is best done early enough that its findings can be written into the repair specification before tendering.",
+        "Send us the ship's particulars, the class, the age and trading history, any recent survey reports and the reason for the inspection. Tell us which spaces will be ready, whether staging is available and who will attend for the owner or buyer. We confirm the scope, the team and the date, and arrange access with the ship's agent. When a buyer and seller disagree on condition, a neutral measured record from the same technicians usually settles the discussion quickly."
+      ]
+    }
+  ],
+  "vessels": [
+    "Handysize and Supramax bulk carriers in second-hand purchase and sale",
+    "Panamax and Kamsarmax bulk carriers carrying coal, grain and ore",
+    "Capesize bulk carriers with hopper and topside tank wastage",
+    "Aframax and Suezmax crude tankers under vetting scrutiny",
+    "Product and chemical tankers preparing for CAP",
+    "General cargo and multipurpose ships under Greek management",
+    "Ro-pax ferries on Aegean routes during winter lay-up"
+  ],
+  "codes": [
+    "IACS UR S19 and the Common Structural Rules for bulk carriers and oil tankers",
+    "IACS UR Z10.2 and Z10.5 hull survey requirements for bulk carriers and oil tankers",
+    "SOLAS Chapter XII for additional safety measures for bulk carriers",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ISO 9934-1 and ASTM E1444 for magnetic particle testing",
+    "Class society rules for allowable diminution and renewal thickness"
+  ],
+  "deliverables": [
+    "Member-by-member thickness readings with diminution against allowable",
+    "Corrosion pattern record separating general wastage, pitting and grooving",
+    "Deformation and buckling record with extent and stiffening noted",
+    "Magnetic particle inspection results for the details examined",
+    "Photographs and sketches locating every finding, with a priority list for repair"
+  ],
+  "faqs": [
+    {
+      "q": "Is a structural integrity inspection the same as a class survey?",
+      "a": "No. It is an owner's or buyer's assessment, built from thickness gauging, visual records and crack detection. It can inform a survey programme, but it does not replace the surveyor's own examination or give class credit for the readings."
+    },
+    {
+      "q": "Can a hull be inspected at the Piraeus anchorage before a purchase?",
+      "a": "Yes, for the spaces the crew has cleaned, ventilated and released. Holds, topside tanks and deck structure are usual targets. Bottom plating needs a dry dock, so buyers often make delivery subject to a docking inspection of the bottom."
+    },
+    {
+      "q": "Where do cracks usually start on an older Greek-managed bulk carrier?",
+      "a": "Typically at hatch corners, hopper tank knuckles, bracket toes and cut-outs in web frames. We aim magnetic particle inspection at those details first, then widen the search wherever a crack or heavy corrosion is found nearby."
+    },
+    {
+      "q": "What if the ship cannot offer all the tanks at Piraeus?",
+      "a": "We inspect what is released and list what is not. Ballast needed for stability, cargo residues and unvented tanks are the usual reasons. The report states which spaces were examined, so the buyer or manager knows exactly what remains open."
+    },
+    {
+      "q": "How is buckled plating treated in the report?",
+      "a": "We record the location, size and depth of the deformation and gauge the plate and the stiffeners around it. Buckling often signals wastage that was never measured, so the readings around it help the owner decide between renewal and monitoring."
+    }
+  ]
+}

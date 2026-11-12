@@ -1,0 +1,119 @@
+{
+  "port": "le-havre",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Le Havre | Cracks",
+  "description": "Hull structural inspection at Le Havre: ballast tank corrosion, double-bottom and coaming cracks on tankers and container ships ahead of Paris MoU checks.",
+  "h1": "Structural Corrosion and Crack Inspection for Ships Calling at Le Havre",
+  "intro": "At Le Havre a corroded hatch coaming or a wasted air pipe can turn a port state control visit into a detention, and the structure behind them is rarely seen in a short call. Hull structural integrity inspection here records corrosion pattern, deformation and cracking alongside thickness readings, on container ships at Port 2000, tankers at the oil berths, bulkers on the Seine and ships on lay-by. A team is mobilised from India to the vessel and plans the work around the berth, the anchorage or the basin.",
+  "highlights": [
+    {
+      "h": "Findings before the inspector asks",
+      "p": "Paris MoU targeting rewards ships with a clean record and punishes visible wastage. Gauging and examining coamings, air pipes and tank boundaries before the call tells the master where the structure stands."
+    },
+    {
+      "h": "Tanker ballast tanks at anchor",
+      "p": "Ballast tanks on a laden tanker are empty at the Baie de Seine anchorage and fill when discharge begins. Inspecting them there gives a structural picture that the berth would not allow."
+    },
+    {
+      "h": "Double bottoms on large boxships",
+      "p": "Container ships calling at Port 2000 are inspected at double-bottom and wing tank boundaries, coaming corners and cross-deck structure, with cracks confirmed by magnetic particle testing where cleaned."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-at-le-havre",
+      "h": "Where can hull structural inspection be done around Le Havre?",
+      "p": [
+        "The port offers several working places, and the scope depends on which one the ship lies at. At the Port 2000 terminals the container ship is working cargo, so inspection concentrates on ballast tanks and voids, cross-deck structure and areas the cargo plan leaves free. In the inner basins behind the locks, ships on lay-by have no cargo operation, and a structural inspection can go through tanks and internal structure at a steady pace.",
+        "At the oil berths and the Antifer crude terminal, cargo tanks are not entered during cargo operations and the terminal's rules govern instruments on deck. The Baie de Seine anchorage, served by launch, is where ships wait for berths or orders, and it is the best chance for ballast tanks on a laden tanker. The old-port dry docks and repair quays take small and mid-sized ships such as ferries and dredgers, where a dry hull is available. Upriver, Rouen's grain terminals are reached by road for bulk carriers."
+      ],
+      "list": [
+        "Port 2000: ballast tanks, coamings and cross-deck structure within the berth window.",
+        "Inner basins: tank internals and structure on lay-by ships.",
+        "Antifer and oil berths: ballast tanks and deck structure on tankers.",
+        "Baie de Seine anchorage: launch-served ballast tank inspection.",
+        "Old-port docks: dry hull inspection on smaller ships."
+      ]
+    },
+    {
+      "id": "port-state-control",
+      "h": "Why does structural condition matter for Paris MoU inspections?",
+      "p": [
+        "France applies port state control under the Paris MoU, and Le Havre's place on the Asia–North Europe and transatlantic loops brings a steady flow of foreign-flag ships through that regime. Targeting is risk-based: older ships and ships with a poor record are inspected more often. The findings that stand out to an inspector are visible ones, such as heavy wastage of hatch coamings, holed air pipes, corroded ladders and cracked or buckled deck structure.",
+        "A structural inspection before the call is not a substitute for repair, but it turns uncertainty into a list. If a coaming corner has a crack, the superintendent can arrange a temporary or permanent repair at the next opportunity. If the structure is sound, the master has evidence of condition to show an inspector. Either way, the ship is not learning about its own steel from someone else.",
+        "Older ships benefit most. The Paris MoU weights age and past deficiencies, so a vessel with several years of steel wastage behind it is more likely to be selected, and the coamings, ventilator heads, air pipes and ladders on its weather deck are what an inspector sees first. Our inspection treats those items as part of the structural record, measuring the thickness of each air pipe and coaming top plate, noting coating breakdown, and listing anything that would look poor on a walk-round. Items that need steel renewal are separated from items that need only coating repair, so the superintendent can order the right repair at the right port."
+      ]
+    },
+    {
+      "id": "tankers-and-bulkers",
+      "h": "What structural damage is typical on tankers and bulk carriers here?",
+      "p": [
+        "Crude and product tankers calling at the oil terminals and Antifer show their age in ballast tanks and cargo tank bottoms. Wastage concentrates on horizontal members in ballast tanks, on bottom plating where water and sediment settle, and at weld lines where grooving can run along a longitudinal. Coating failure drives most of it, so the inspection records coating condition alongside corrosion. Cracks occur at known fatigue details such as bracket toes and longitudinal end connections.",
+        "Bulk carriers loading grain at Rouen suffer less from abrasion than ore carriers, but hold frames, lower brackets and hatch cover seatings still deserve close attention, and ballast tanks show the usual corrosion. Because both ship types are enhanced survey ships, the inspection also helps a technical department prepare the survey programme, identifying suspect areas the surveyor will expect to see measured again.",
+        "Chemical tankers add a further consideration: stainless steel tanks do not corrode like carbon steel, so the inspection there concentrates on the carbon steel ballast tanks and the weather deck, plus cracks at supports and welds, and leaves the cargo tank linings and coatings to the specialists who normally assess them."
+      ]
+    },
+    {
+      "id": "container-ships",
+      "h": "How are container ships inspected at Port 2000?",
+      "p": [
+        "On a large boxship the structure that matters is the hull girder around the deck openings: coamings, hatch corners, deck longitudinals and cross-deck structure, where stress is highest and fatigue cracks start. Below deck, double-bottom and wing tank boundaries show the effect of ballast corrosion, and the side shell in the wind-and-water zone loses coating to wave action and fenders.",
+        "The berth window limits what can be reached. Weather deck and coamings can be examined between crane moves on bays already worked; tanks need the chief officer's release and the usual ventilation and testing. Scrubber wash-water and overboard piping, on ships fitted with them, are added to the condition picture because the North Sea emission control area covers the Channel and the systems run for the whole approach."
+      ]
+    },
+    {
+      "id": "evidence-and-planning",
+      "h": "What is recorded, and what should be sent beforehand?",
+      "p": [
+        "The report gives gauged thickness by frame, strake and member, with the corrosion pattern, pit depth where pitting is present, deformation measured against a straight edge and cracks confirmed by magnetic particle or penetrant testing. Technicians work under our ASNT SNT-TC-1A written practice. Crack detection results are owner's NDT records that support the class engineer, not a survey credit.",
+        "Send the ship type, age, last survey dates, berth times and known damage. For tankers, tell us the ballast condition on arrival and whether an anchorage stay is expected. Teams fly into Paris Charles de Gaulle and continue by road or rail, and the agent requests ISPS passes and books launches. France is in the Schengen area, so Schengen visas are needed once the call is firm."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships at Port 2000",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Bulk carriers loading grain at Rouen",
+    "Car carriers and ro-ro ships",
+    "Ro-pax ferries and port craft",
+    "Offshore wind installation and service vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z10.1 and Z10.4 (enhanced surveys of oil tankers and bulk carriers)",
+    "SOLAS chapter XI-1, regulation 2 and the ESP Code",
+    "IMO Performance Standard for Protective Coatings, resolution MSC.215(82)",
+    "ASTM E797 and ASTM E709 (thickness gauging and magnetic particle testing)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by frame, strake and member with diminution against original",
+    "Corrosion pattern record including pitting depth and grooving",
+    "Coating condition notes for each tank inspected",
+    "Crack detection record with positions and test method",
+    "List of areas not reached and the reason"
+  ],
+  "faqs": [
+    {
+      "q": "Can a structural inspection reduce detention risk at Le Havre?",
+      "a": "No inspection can promise an outcome, but it tells the master and superintendent where visible wastage or cracking exists before an inspector arrives. Coamings, air pipes, ladders and deck structure are the usual targets. Repairs can then be planned instead of discovered during a Paris MoU visit."
+    },
+    {
+      "q": "Which tanks can be inspected on a tanker at Le Havre?",
+      "a": "Ballast tanks, mainly. They are empty on a laden arrival and can be entered at the Baie de Seine anchorage once ventilated and tested. Cargo tanks are not entered during cargo operations at the oil berths or Antifer, so they are left for a cleaned and gas-free condition or the dock."
+    },
+    {
+      "q": "What structural areas on a container ship can be examined during a call?",
+      "a": "Weather deck, hatch coamings and corners on bays that are already worked, cross-deck structure, machinery spaces and any tanks the chief officer can release. Holds under working cranes are closed. The plan is agreed beforehand and the unfinished part is recorded for the next call."
+    },
+    {
+      "q": "Can cracks be found as well as thickness loss?",
+      "a": "Yes. Suspect details are cleaned locally and tested by magnetic particle inspection, or by penetrant testing where the surface requires it. The record gives position, length and orientation. These are owner's NDT records that support the class engineer's assessment, and they carry no class credit of their own."
+    },
+    {
+      "q": "Is dry hull inspection possible at Le Havre?",
+      "a": "The old-port dry docks take small and mid-sized ships such as ferries, dredgers and port craft, and for those a dry hull inspection is possible. Large ships calling at Port 2000 normally dock at yards in other countries, so afloat inspection here prepares the work that will be done there."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "port": "felixstowe",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Felixstowe | Boxship UTM",
+  "description": "Renewal survey thickness measurement at Felixstowe and Harwich: container ship gauging split across rotations, with readings for the Asian docking.",
+  "h1": "Renewal Survey Gauging for Container Ships on the Felixstowe Rotation",
+  "intro": "Many of the largest container ships in the world call at Felixstowe and are then docked at yards in China or elsewhere in Asia, so the readings taken here often decide how much steel and pipe the yard is asked to include. Special survey thickness measurement at Felixstowe covers renewal and intermediate survey gauging on boxships, feeders and the bulkers and ferries of the neighbouring Haven ports. A team travels from India to the ship on UK visas, and the scope is built around a fixed rotation instead of a single long stay.",
+  "highlights": [
+    {
+      "h": "Scope split across consecutive calls",
+      "p": "Container ships return on a known rotation. A renewal-survey scope too large for one berth is divided across successive Felixstowe calls, with the same technicians and the same reference points on each visit."
+    },
+    {
+      "h": "Readings that shape the Asian specification",
+      "p": "Gauging weeks before a docking in China or Southeast Asia gives the manager real steel and pipe quantities for the yard, instead of allowances settled after the tanks are open."
+    },
+    {
+      "h": "Off-hire condition on chartered tonnage",
+      "p": "Many ships here are chartered from non-operating owners to liner companies. A Felixstowe call on the way out of a charter is a practical place to agree one set of readings between owner and charterer."
+    }
+  ],
+  "sections": [
+    {
+      "id": "renewal-on-a-rotation",
+      "h": "How is renewal survey gauging planned on a liner rotation?",
+      "p": [
+        "A large container ship at Felixstowe usually stays alongside for a day or two and sails on schedule, and it returns on a rotation known well in advance. That makes the port a good place for planned, repeated visits instead of one long job. A superintendent can divide a renewal-survey gauging scope across consecutive calls, knowing exactly when the ship will be back, and we keep the same technicians and the same locations so the readings from each visit combine into one dataset.",
+        "The sequence follows access. Weather deck plating, hatch coamings and upper-deck longitudinals are reachable between crane moves on bays already worked. Engine-room and sea-water piping is unaffected by cargo. Ballast tanks come last, because entering them during continuous cargo work needs a ballast plan from the chief officer that keeps the ship upright and in trim while boxes move."
+      ],
+      "list": [
+        "First call: deck, coamings and longitudinals on worked bays.",
+        "Second call: engine-room and scrubber piping, and the first ballast tanks.",
+        "Later calls: remaining tanks and any area flagged by earlier readings."
+      ]
+    },
+    {
+      "id": "readings-for-the-asian-dock",
+      "h": "How do Felixstowe readings feed a docking in Asia?",
+      "p": [
+        "Drydock slots for large container ships are fixed months ahead and often at Asian yards, which quote against a specification written before the ship arrives. If the specification contains only an allowance for steel renewal, the real quantity is settled once tanks are open and access is expensive in time. Readings taken at Felixstowe in the preceding rotations turn that allowance into a list of plates and members beyond the allowable margin, and into a pipe-spool order for scrubber and sea-water lines that can be placed early.",
+        "Class requirements still govern. The surveyor's extent at the renewal survey is what it is, and the gauging at Felixstowe prepares the work that the surveyor will attend later. We therefore take readings on the same members the thickness measurement plan names, set them out on the class format or the owner's own, and record what was not reached so the yard knows which parts of the list are firm."
+      ]
+    },
+    {
+      "id": "boxship-scope",
+      "h": "What does a renewal scope cover on a large container ship?",
+      "p": [
+        "Container ships are not enhanced survey ships, so their gauging follows the society's hull survey requirements, and the extent grows at each renewal. For a second or third renewal that means transverse sections of deck and bottom plating, wind-and-water strakes, hatch coamings, cross-deck structure and ballast tank boundaries. At the fourth renewal the extent is the widest routine one. Lashing bridges and cell guides are not renewal-survey items in themselves but are often added because impact damage from container handling shows there first.",
+        "Scrubber-fitted ships add wash-water and overboard piping, whose wear shows in bends, reducers and the overboard valve area. Felixstowe lies well inside the North Sea emission control area, so those systems have run for a long time on most large ships here. Wall-thickness readings help a technical department decide whether to repair at the next call or plan renewal at the docking.",
+        "Sister ships in one liner service are often gauged to the same plan on successive rotations. When that happens the superintendent can compare how the same members have worn on each hull, which separates a class-wide weakness, such as a recurring coaming-corner problem, from damage specific to one ship. Findings of that kind are worth acting on early, because the repair can be written into every docking specification in the series rather than discovered ship by ship."
+      ]
+    },
+    {
+      "id": "harwich-and-ipswich",
+      "h": "What can be gauged at Harwich and Ipswich?",
+      "p": [
+        "Harwich International and the Port of Ipswich offer windows that a single container call does not. Ro-ro and freight ships at Harwich work to timetables a superintendent can plan around, and decks, ramps and ballast tanks can be gauged within those schedules. Bulk carriers loading grain or discharging aggregates at Ipswich are often alongside for several days, long enough for holds and tanks to be gauged in sequence.",
+        "Both ports can be covered on the same trip as Felixstowe where the fleet makes that useful. Ships waiting for a berth sometimes anchor off the Haven, where a launch arranged through the agent can reach them in suitable weather, though the southern North Sea can close that option quickly and the scope there is kept short."
+      ]
+    },
+    {
+      "id": "planning-from-india",
+      "h": "How is a Felixstowe renewal job organised?",
+      "p": [
+        "Send the thickness measurement plan, the previous gauging report, the rotation, the docking yard and date, and any known problem areas. The team flies from India into Heathrow, Stansted or London City and travels to the Haven ports by road, with Stansted the closest of the London airports. Felixstowe, Harwich and Ipswich each run ISPS-controlled gates, and the ship's agent requests passes before the call.",
+        "Because the technicians travel on UK visas, not Schengen visas, the application route and the lead time differ from those for continental ports, and we start earlier once a call is firm. We book the call we will join and keep a later rotation in reserve in case the first one slips. After each call the readings go to the superintendent, so the next visit can be adjusted before the ship returns."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ultra-large and large container ships",
+    "Feeder container ships",
+    "Chartered boxships approaching redelivery",
+    "Ro-ro and freight ferries at Harwich",
+    "Bulk carriers at Ipswich",
+    "General cargo ships"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter II-1 (structure of ships)",
+    "ASTM E797 (manual pulse-echo ultrasonic thickness measurement)",
+    "ISO 16809 (ultrasonic thickness measurement)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by frame, strake and member on the class format or your own",
+    "Diminution against original thickness and allowance for each member",
+    "Combined dataset from consecutive calls on identical reference points",
+    "Steel and pipe-spool quantities for the yard specification",
+    "Statement of areas not reached"
+  ],
+  "faqs": [
+    {
+      "q": "Can renewal survey gauging at Felixstowe be split over several calls?",
+      "a": "Yes, and it is often the best approach. Container ships return on a known rotation, so a defined part of the scope is taken on each call using the same technicians and reference points. The readings combine into one dataset, and the superintendent sees the findings early instead of waiting for the dock."
+    },
+    {
+      "q": "How do Felixstowe readings help with a docking in China?",
+      "a": "They replace an allowance with measured quantities. The yard can quote against a list of plates and pipe spools beyond the allowable margin, and long-lead items can be ordered before the ship arrives. The class surveyor's requirements are unchanged, and the in-dock gauging confirms what the earlier readings found."
+    },
+    {
+      "q": "Which areas of a container ship can be gauged while cranes work?",
+      "a": "Weather deck plating, hatch coamings and upper-deck longitudinals on bays already worked, plus engine-room and sea-water piping. Tanks need the chief officer's ballast plan and gas-free testing, and holds under working cranes are closed. We agree the sequence beforehand and report what remains."
+    },
+    {
+      "q": "Can a chartered ship be gauged before redelivery at Felixstowe?",
+      "a": "Yes. An off-hire survey gives owner and charterer one agreed set of readings on deck, coamings, tanks and piping, taken to the thickness measurement plan or an agreed list. A call on the way out of the charter is a practical time, and the record can be shared between both parties."
+    },
+    {
+      "q": "Do technicians need a UK visa for Felixstowe?",
+      "a": "Yes. Felixstowe is in the United Kingdom, outside the Schengen area, so the team travelling from India applies for UK visas, not Schengen ones. We start as soon as the call or docking window is firm and book the call we will join early, with a later rotation held in reserve."
+    },
+    {
+      "q": "Can bulk carriers at Ipswich be gauged for renewal survey?",
+      "a": "Yes. Bulkers loading grain or discharging aggregates are often alongside for several days, so holds, hopper plating and tanks can be gauged in sequence. As enhanced survey ships they follow the ESP extent, which we compare with the surveyor's requirements before travel. The actual alongside period is confirmed with the agent before the team travels, and is not assumed."
+    }
+  ]
+}

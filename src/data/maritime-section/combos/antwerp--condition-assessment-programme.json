@@ -1,0 +1,123 @@
+{
+  "port": "antwerp",
+  "service": "condition-assessment-programme",
+  "title": "Condition Assessment Programme CAP Gauging Antwerp",
+  "description": "CAP thickness gauging for older product and chemical tankers at Antwerp: pre-CAP condition checks and data organised for the society's strength assessment.",
+  "h1": "CAP Preparation and Thickness Data for Older Tankers at Antwerp",
+  "intro": "Charterers and oil majors that vet ships loading at Antwerp's refineries often ask older tankers for a Condition Assessment Programme rating. The rating itself is issued by the classification society, but it rests on far more gauging than a routine survey, and the quality of that data decides the grade. Atlantis NDT plans the measurement with the superintendent, sends a team from India to join the ship in Antwerp, and delivers readings organised for the society's CAP engineers, either as pre-CAP checks or as the measurement stage of the survey itself.",
+  "highlights": [
+    {
+      "h": "Vetting pressure from the refinery trade",
+      "p": "Product tankers working Antwerp's refinery berths meet oil-major vetting regularly. A tanker past twenty years of age with a good CAP rating stays employable, so owners look at the steel before the charterer does."
+    },
+    {
+      "h": "Pre-CAP gauging on lay-by quays",
+      "p": "Ships waiting for a refinery berth or between parcels can use lay-by quays inside the locks. With tanks cleaned and gas-free, a pre-CAP gauging sample tells the owner whether a full programme is worth starting."
+    },
+    {
+      "h": "Chemical tankers as well as product tankers",
+      "p": "Parcel tankers from the chemical cluster reach CAP requests too, often at the same time as renewal. Antwerp's mix of stainless and coated tanks means the CAP data has to be organised by material."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-cap-at-antwerp",
+      "h": "Why do owners ask for CAP on tankers working out of Antwerp?",
+      "p": [
+        "Antwerp's refinery and chemical customers apply vetting that looks at structure, not only at paper. A tanker trading to the Scheldt terminals past its twentieth year faces questions from charterers about corrosion, coating condition and the recent history of repairs. A Condition Assessment Programme rating gives the owner a documented answer, and a poor one at least tells the owner where the steel stands before a charterer rejects the ship in a vetting inspection.",
+        "The timing is commercial. A ship may be rejected on a fixture, or an owner may be weighing whether to renew steel at the next docking or sell. In both cases, an early view of the condition from measured data is worth more than waiting for the society's CAP engineers, and Antwerp's concentration of tanker owners and managers means the question is often asked locally, with a short lead time."
+      ]
+    },
+    {
+      "id": "where-cap-gauging-done",
+      "h": "Where in the port can CAP gauging be carried out?",
+      "p": [
+        "CAP gauging needs access to cargo and ballast tanks, so the tanker must be cleaned and gas-free. Jetty stops under cargo are rarely suitable. Lay-by quays inside the dock system are the practical choice: the ship waits there between parcels or for a berth, tanks are ventilated, and staging can be rigged. When a tanker docks at EDR Antwerp Shipyard, the dry-dock days allow gauging of the bottom and the lower side shell, which no afloat visit can match.",
+        "We usually suggest splitting the programme the same way as the owner's own repair planning does. Tank structure goes first, afloat, because it takes the longest and its results shape the docking specification. Shell plating follows in dock when the hull is dry. Where the society's CAP engineers attend, the sequence is agreed with them so that their close-up survey and our readings share the same tank access."
+      ],
+      "list": [
+        "Lay-by quays in the dock system: tank structure on tankers waiting between parcels.",
+        "Floating docks at EDR Antwerp Shipyard: bottom, lower side shell and sea chests.",
+        "Chemical and refinery jetties: deck structure and pump-room areas only, under terminal permits.",
+        "Cleaning stops: individual cargo tanks opened for the CAP sample once gas-free."
+      ]
+    },
+    {
+      "id": "how-cap-scope-built",
+      "h": "How is a CAP gauging scope built for a tanker in Antwerp?",
+      "p": [
+        "The society's CAP procedure sets the structure to be measured and the close-up survey that accompanies it, and each society publishes its own scheme. We work from the procedure of the society the owner chooses and agree the plan with the superintendent before mobilisation. For product tankers the focus is cargo and ballast tank plating, stiffeners and bulkheads, plus the deck. For chemical tankers the plan separates stainless from carbon steel, since the society's strength assessment treats them separately.",
+        "Readings are tied to frame and strake references and arranged so the engineer can calculate section modulus and strength margins without re-sorting the data. Coated tanks are measured through sound coating only after verifying the gauge mode on a coated reference; blistered or damaged areas are gauged on bare steel. A sampling density sufficient for a strength assessment is agreed in advance, because thin data produces a conservative rating."
+      ]
+    },
+    {
+      "id": "pre-cap-condition-gauging",
+      "h": "Is a pre-CAP check worth doing before committing to the full programme?",
+      "p": [
+        "For many owners it is the sensible first step. A limited sample of ballast tank boundaries, deck plating and the most heavily worked cargo tanks, taken at a lay-by quay in Antwerp, indicates whether the ship is likely to achieve a favourable rating or whether renewals would be needed first. The sample costs the owner little time and is an owner's record, not a class credit, so it does not need class approval.",
+        "If the pre-CAP data points to extensive wastage, the owner can decide to renew steel at the next docking and run the formal programme afterwards, which avoids a poor rating on the record. If the data is clean, the full programme can follow, and the pre-CAP readings help the society's engineers target their attention. Either way, the pre-CAP report is delivered as ordinary thickness data with sketches."
+      ]
+    },
+    {
+      "id": "what-cap-finds",
+      "h": "What does CAP gauging typically find on tankers that serve Antwerp?",
+      "p": [
+        "Ballast tank boundaries beside heated cargo tanks come up first on both product and chemical tankers: coating loss, scale and measurable wastage on the shared bulkheads. In product tankers trading to refineries, bottom plating in cargo tanks shows pitting where water settles, and deck plating shows general loss with local grooving at welds. In parcel tankers, tank-cleaning cycles and aggressive cargoes bring edge wastage at stiffener flanges and wear on tank-bottom plating.",
+        "The ratings follow the pattern of these findings. A ship with wastage confined to a few ballast tanks and a modest renewal list rates better than one with scattered wastage across many spaces, even when the average thickness looks similar. That is why the distribution of readings matters as much as their number, and why the report presents wastage by tank and by structural member."
+      ]
+    },
+    {
+      "id": "planning-cap-antwerp",
+      "h": "What should a superintendent arrange for a CAP job at Antwerp?",
+      "p": [
+        "Start with the society and the target date for the rating, then the ship's berth plan in the port: where and when tanks will be cleaned and certified gas-free. The ship's agent registers the team for access to ISPS-controlled areas; the ship arranges staging, ventilation and lighting. A technician from India needs a Schengen visa for Belgium, so the earlier we receive the plan, the more likely the mobilisation matches the ship's window.",
+        "Send previous survey reports, the last docking's repair list and any earlier CAP or vetting remarks. These tell us where wastage was already known and let us measure the same locations again, so the data shows rates of loss rather than a single snapshot. If the tanker's schedule changes, the programme is re-sequenced rather than abandoned, with unfinished tanks moved to the next stop or to the dock."
+      ]
+    }
+  ],
+  "vessels": [
+    "Product tankers over twenty years old",
+    "Chemical and parcel tankers",
+    "Coated and stainless chemical tankers",
+    "Bulk carriers asked for condition ratings",
+    "LPG carriers on long-term charter",
+    "Tankers considered for sale or purchase"
+  ],
+  "codes": [
+    "Classification society CAP procedures, published separately by each society",
+    "IACS UR Z10.1 and Z10.4 for oil tankers",
+    "IACS UR Z10.3 for chemical tankers",
+    "IACS UR Z10.2 and Z10.5 for bulk carriers",
+    "IACS Common Structural Rules for oil tankers and bulk carriers",
+    "ASTM E797 for manual ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness data organised by tank and structural member for the society's strength assessment",
+    "Sketches with frame and strake references for each gauged section",
+    "Separate tables for stainless and carbon-steel structure",
+    "Comparison with previous survey readings, where reports were supplied",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Who issues a CAP rating for a tanker at Antwerp?",
+      "a": "The classification society issues it, under its own published scheme. We supply the measurement side, planned to the chosen society's procedure, and deliver the data in a form its engineers can use. The rating is the society's judgement; our report records what the steel measures."
+    },
+    {
+      "q": "Can we run a pre-CAP check while the tanker is waiting at a lay-by quay?",
+      "a": "Yes, provided the tanks to be sampled are cleaned and certified gas-free. A lay-by quay inside the locks offers the time and the ventilation that cargo berths do not. We select ballast boundaries, deck and the hardest-worked cargo tanks, and report the readings as the owner's own record."
+    },
+    {
+      "q": "Does CAP gauging differ for chemical tankers compared with product tankers?",
+      "a": "The method is the same, but the plan separates stainless from carbon steel and gives particular attention to cofferdams and ballast tanks beside heated parcels. Product tankers concentrate on bottom plating, deck and wing ballast tanks. Both are reported by tank and structural member so the society can assess strength."
+    },
+    {
+      "q": "How early should we contact you before a CAP survey in Antwerp?",
+      "a": "As early as the society's survey date and the berth plan are known. A Schengen visa for a technician travelling from India adds lead time, and the tanks must be cleaned and certified gas-free in a sequence that fits the ship's cargo schedule. Earlier notice gives a better chance of matching the programme to a lay-by stop."
+    },
+    {
+      "q": "Will the CAP gauging be done at EDR Antwerp Shipyard?",
+      "a": "Part of it can be. If the tanker docks at EDR, the bottom and lower side shell are best gauged while the hull is dry, and the tank structure is better measured afloat beforehand. Splitting the work this way uses both locations and lets the dock days be used for what only the dock allows."
+    }
+  ]
+}

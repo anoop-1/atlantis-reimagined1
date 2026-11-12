@@ -1,0 +1,121 @@
+{
+  "port": "zeebrugge",
+  "service": "scrubber-piping-inspection",
+  "title": "Scrubber Pipe Inspection Zeebrugge | EGCS Wash-Water Lines",
+  "description": "Scrubber wash-water and overboard pipe inspection in Zeebrugge for container ships, car carriers and ro-ro ships trading in the North Sea emission control area.",
+  "h1": "Wash-Water and Overboard Pipe Checks on Scrubber Ships Calling at Zeebrugge",
+  "intro": "A scrubber lets a ship burn high-sulphur fuel inside the North Sea emission control area, and it does so by pushing hot, acidic water through pipework that ends at the ship's side. Zeebrugge sees many scrubber-fitted container ships, car carriers and ro-ro freighters, most of them on tight turnarounds. Our technicians travel from India to the ship, measure the wall of the wash-water and overboard lines while the system is shut down, and report what remains before the next voyage.",
+  "highlights": [
+    {
+      "h": "Ships that scrub inside the ECA",
+      "p": "Vessels that trade through the North Sea emission control area and keep burning heavy fuel depend on the scrubber working. When the piping fails, the ship either loses its compliance route or floods a compartment, and neither happens conveniently."
+    },
+    {
+      "h": "A short call is enough for the lines",
+      "p": "Wash-water piping is concentrated in the engine room and the casing, so a team can reach most of it during a normal cargo call. The system has to be shut down and drained first, which the chief engineer arranges."
+    },
+    {
+      "h": "Overboard valves and shell connections",
+      "p": "The connection through the hull is where a failure matters most. Gauging reaches the pipe and the spool beside the valve, and the shell-side findings are recorded so that anything that needs a dock can be planned for one."
+    }
+  ],
+  "sections": [
+    {
+      "id": "scrubber-zeebrugge-ships",
+      "h": "Which scrubber ships call at Zeebrugge?",
+      "p": [
+        "The port's trades attract many of the ships that chose scrubbers over low-sulphur fuel. Container ships on the outer-port rotations, vehicle carriers on long-haul car trades and ro-ro freighters on North Sea services all carry exhaust gas cleaning systems in numbers. Open-loop systems send washing water straight back to the sea, closed-loop systems recirculate it and discharge less often, and hybrid units switch between the two. The pipework differs for each, and so does the way it corrodes.",
+        "Newer vehicle carriers with LNG dual-fuel engines may have no scrubber at all, so the scrubber population at Zeebrugge is concentrated among older and mid-life ships. These are exactly the vessels that are now several years into scrubber operation, where the first wall-loss findings on wash-water lines tend to appear. A superintendent who has not yet looked at the piping with a gauge is usually surprised by what the first survey finds."
+      ]
+    },
+    {
+      "id": "scrubber-zeebrugge-scope",
+      "h": "What is measured on a scrubber system during a port call?",
+      "p": [
+        "The scope follows the water. The inlet from the sea chest or pump discharge runs to the scrubber tower, the wash water returns through a drain line to treatment or overboard, and the overboard line ends at a shell valve. Along that path we gauge the straight runs, then the bends, tees, reducers and the sections immediately downstream of valves, where turbulence accelerates wear. Fibreglass sections are examined visually, and metal flanges and welds are checked for cracks.",
+        "Internal access to the scrubber vessel itself is outside what a call allows unless the ship opens it, and we do not ask for it. What we can do is gauge the metal that is accessible and record condition of any GRE spools, supports and expansion joints. Because the system has to be shut down and drained, the ship's engineers decide the timing, and the technicians are ready to work as soon as the lines are cold and safe."
+      ],
+      "list": [
+        "Pump discharge and wash-water supply lines from the sea chest to the scrubber tower.",
+        "Drain and return lines, with the bends, tees and downstream-of-valve sections measured first.",
+        "Overboard discharge pipe and the spool beside the shell valve.",
+        "Flanges and weld joints, checked for cracks by magnetic particle or penetrant testing.",
+        "GRE sections, supports and expansion joints, examined visually."
+      ]
+    },
+    {
+      "id": "scrubber-zeebrugge-rules",
+      "h": "Why do emission rules at Zeebrugge make the piping matter?",
+      "p": [
+        "Ships in the North Sea emission control area must keep fuel sulphur at or below 0.10%, or use an approved equivalent such as a scrubber. A ship that depends on its scrubber cannot lightly take it out of service, so a piping failure becomes a commercial problem as well as a safety one. Inspection records also help an owner explain the system's condition to the flag, the class society and the charterer if questions arise.",
+        "Rules on the discharge of washing water vary by coastal state and by port, and the ship's agent can confirm the position before the system is run near the coast. For our work the point is more practical: the line has to be isolated and drained, which means the ship has to be on fuel that does not need the scrubber, or the call has to be long enough for a controlled shutdown. That is a planning question we raise with the superintendent from the start."
+      ]
+    },
+    {
+      "id": "scrubber-zeebrugge-findings",
+      "h": "What do wash-water lines usually show after a few years?",
+      "p": [
+        "Acidic water and chlorides attack steel from the inside, and the damage clusters at predictable places: the outside of bends, the straight sections just beyond valves, and low points where water lies. Stainless and coated steel lines resist longer but not indefinitely, and the welds and flange faces are often where trouble starts. GRE pipe has its own failure modes, such as delamination, cracked flanges and degraded supports.",
+        "Our report gives the minimum thickness found on each line, the location of the thinnest reading and an assessment against the owner's or class criteria. Where a line is near its limit, it is marked on a sketch so the engineers can order the spool before the next dry dock or arrange a temporary repair. Lines that measure well are recorded as a baseline, so the next survey can tell whether the rate of loss is changing."
+      ]
+    },
+    {
+      "id": "scrubber-zeebrugge-planning",
+      "h": "Planning scrubber piping work at Zeebrugge",
+      "p": [
+        "Container ships at the outer port and ro-ro ships at their berths often have enough time during cargo work, provided the engine room team has isolated the system. Tell us the type of system, the makers' drawings or sketches of the wash-water arrangement, the age of the installation and any repairs already made. If an earlier survey recorded wall loss, send it, so that we can start at the known weak points.",
+        "On the day, the chief engineer confirms the system is isolated and drained and that the engine room is safe for hot-work-free access. We work around the engine room's own tasks and keep the area clean. The agent arranges terminal access under ISPS, and the technicians' Schengen visas are timed to the confirmed call, since scrubber work cannot start until the ship is alongside."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships fitted with scrubbers",
+    "Car carriers on open-loop or hybrid systems",
+    "Ro-ro freighters on North Sea services",
+    "General cargo ships with older EGCS installations",
+    "Cruise ships using hybrid scrubbers",
+    "Gas carriers with exhaust cleaning on auxiliary plant"
+  ],
+  "codes": [
+    "MARPOL Annex VI regulation 14 on sulphur oxide limits",
+    "2021 Guidelines for Exhaust Gas Cleaning Systems, resolution MEPC.340(77)",
+    "IMO resolution A.753(18) for plastic pipes on ships",
+    "Class society rules for EGCS piping and shell connections",
+    "ISO 16809 and ASTM E797 for ultrasonic thickness measurement",
+    "ISO 17638 for magnetic particle testing of welds"
+  ],
+  "deliverables": [
+    "Minimum thickness per line, with the location of the thinnest reading",
+    "Sketch of the wash-water and overboard arrangement with measured points marked",
+    "Assessment of each section against the owner's or class criteria",
+    "Condition notes for GRE sections, supports and expansion joints",
+    "Crack detection records for flanges and welds where they were examined",
+    "Baseline readings for trend comparison at the next survey"
+  ],
+  "faqs": [
+    {
+      "q": "Can scrubber piping be inspected while the ship is alongside at Zeebrugge?",
+      "a": "Yes, provided the system has been shut down, isolated and drained. The ship's engineers decide when that is possible, usually after the cargo call begins. The lines inside the engine room and casing are accessible during normal cargo operations, so a team can usually complete a defined scope within one call."
+    },
+    {
+      "q": "Do you inspect inside the scrubber tower?",
+      "a": "Not on a port call, unless the ship has already opened the vessel and made it safe. Our work covers the accessible piping, shell connections and supports. Entry into the tower belongs in a planned shutdown or dock period with its own safety procedures, and we say so in the report rather than implying coverage."
+    },
+    {
+      "q": "What fails first on a scrubber wash-water line?",
+      "a": "Usually the outside of bends and the sections just downstream of valves, where flow is most turbulent, and low points where acidic water lies. Welds and flange faces follow. On GRE pipe, delamination and cracked flanges are more common than uniform wall loss. The inspection looks at each location with the method that suits the material."
+    },
+    {
+      "q": "Does a North Sea emission control area ship need its scrubber piping checked more often?",
+      "a": "There is no single interval that applies to every ship, but a ship that relies on a scrubber to meet the 0.10% limit has more at stake if the piping fails. Many owners gauge the lines after the first years of operation and then at intervals set by the rate of wall loss that the first readings show."
+    },
+    {
+      "q": "Can open-loop and closed-loop systems both be inspected at Zeebrugge?",
+      "a": "Yes. The routes differ, with closed-loop systems adding recirculation tanks and treatment plant, but the method is the same: isolate, drain, measure the metal, examine the GRE and check welds. The scope we agree with you depends on the drawings, the age of the installation and the access the engine room can offer."
+    },
+    {
+      "q": "What happens if a line is found close to its limit?",
+      "a": "The reading is marked on the sketch and reported the same day it is taken, so the engineers can act before sailing. Options include a temporary repair, ordering a replacement spool, increasing monitoring or arranging the work for the next dock. The decision belongs to the owner and the class society; we provide the evidence."
+    }
+  ]
+}

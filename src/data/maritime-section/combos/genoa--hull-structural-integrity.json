@@ -1,0 +1,119 @@
+{
+  "port": "genoa",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Genoa | Ro-Ro and Ferry",
+  "description": "Hull structural integrity inspection in Genoa for ro-pax ferries, cruise ships and tankers: wastage, deformation and crack detection in dock and at berth.",
+  "h1": "Structural Inspection of Ferries, Ro-Ros and Tankers at Genoa",
+  "intro": "Ferries and ro-ro ships age differently from tankers and bulk carriers. Their structure is a large open deck with ramps, doors and sponsons, loaded by vehicles and moved by a lot of manoeuvring, and the damage shows up as deformed decks, worn door sills and fatigue cracks in places no cargo ship has. At Genoa we inspect that structure: a team mobilised from India measures thickness, records deformation and examines crack-prone details by magnetic particle inspection, in the repair district or at the berth.",
+  "highlights": [
+    {
+      "h": "Open-deck structure, not just tanks",
+      "p": "Ro-pax steelwork is judged on vehicle decks, internal ramps, doors and side shell openings. We record plate wastage, deformation and weld condition in those areas alongside the usual ballast tank readings."
+    },
+    {
+      "h": "Fatigue details on door and ramp structure",
+      "p": "Repeated door cycles and vehicle loads crack hinge supports, sill corners and ramp stiffeners. Magnetic particle inspection is aimed at those details, with the surface prepared ahead of the visit."
+    },
+    {
+      "h": "Done in the winter dockings",
+      "p": "Genoa ferries enter dock when the island timetables ease, so structural inspection is planned for that season, using the yard's staging and the time the ship is out of service."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-genoa",
+      "h": "Where can a hull structural inspection be done in Genoa?",
+      "p": [
+        "The ship-repair district east of the old port offers the best conditions. In an Ente Bacini drydock at Molo Giano, the underwater hull, stern gear, sea chests and bilge keels are all exposed. On the repair quays the yard opens car decks, tween decks and tank tops for repairs, so the structure is cleaned and lit for work. Conversion and refit projects, which Genoa handles regularly for ferries and cruise ships, expose even more: stripped decks and opened sides make hidden members visible.",
+        "Elsewhere, inspection is partial. A ferry at a passenger terminal can offer its vehicle decks and ramps between sailings. A tanker at Multedo offers deck and accessible ballast tanks within the cargo window, and container ships at Voltri-Prà offer short, defined spaces. Where only part of the ship is open we state clearly which areas were examined."
+      ],
+      "list": [
+        "Ente Bacini drydocks: underwater hull, stern gear, sea chests and double bottoms with the hull dry",
+        "Repair and conversion yard quays: opened car decks, tween decks, sponsons and void spaces",
+        "Passenger terminals: vehicle decks, ramps and doors between sailings",
+        "Multedo oil port: deck structure and accessible ballast tanks on tankers",
+        "Outer anchorage: preliminary inspection of prepared spaces before a purchase or lay-up decision"
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which Genoa ships need a structural inspection, and why?",
+      "p": [
+        "Ro-pax ferries come first. Many were built decades ago, converted for new routes and kept on service by repeated refits. Operators want to know how much structural life remains before investing in a major refit or a new charter. Cruise ships homeported at Genoa need structural checks when lines plan technical stops, and tankers at Multedo are inspected for vetting or sale.",
+        "Genoa's brokerage and shipping community also means ships are traded here. A buyer of a second-hand ferry wants evidence that the car deck structure and sponsons are sound; a lender wants a view of structural condition before financing a refit. In every case the question is the same: how much steel is left, where is it going and what will it take to keep the ship in class?",
+        "Cruise ships raise a different structural question. Their steel is lighter, their hulls are long and their sponsons and stabiliser recesses take hydrodynamic loads, so inspection concentrates on side shell near the waterline, ballast tank boundaries and the structure around thruster tunnels. A homeported cruise ship at Genoa usually offers this during a technical stop, and the owner wants the record before the next refit specification is fixed."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is a structural inspection scoped for a ro-pax ferry?",
+      "p": [
+        "The scope follows the ship's loads. The vehicle deck plating carries wheel loads and corrodes under drains, so readings run along the deck's whole length. Stern and bow doors, their hinges, locking devices and the steel round the openings take repeated cycles, so we examine and gauge them closely. Internal ramps carry heavy vehicles and show wear at hinges and stiffeners. Side shell near the waterline and around sponsons takes berthing damage and needs gauging as well as visual records.",
+        "Method choices follow the damage. Ultrasonic thickness gauging measures remaining steel on plates and stiffeners. Visual records capture deformation, with dent depth and extent photographed against a scale. Magnetic particle inspection tests door hinge brackets, sill corners and ramp stiffener ends for cracks, once paint and rust are removed locally. Because ferries are open for short periods, the plan puts the areas that need staging or cleaning first, so the yard can prepare them.",
+        "Weather is a smaller factor than ship movements. Genoa's sheltered basins seldom stop work, but a ferry's departure time is fixed, so the plan names a hard finish time for each space and the team stays out of any area when the ship is preparing to sail. Anything not finished is listed and carried to the next berth visit or the dock."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does structural inspection usually find on Genoa ferries?",
+      "p": [
+        "Car deck plating wasted under drains and along the sides is the commonest item, often with deformed plating between beams where thin steel has dished under wheel loads. Door sills show corrosion and grooving, and hinge brackets show cracks starting at the weld toes. Ramp stiffeners corrode at their lower ends, where water collects. Sponsons and fender areas show impact damage, with local buckling and cracked welds.",
+        "Below the car deck, ballast tanks and voids show coating breakdown at edges and along welds, and double-bottom structure beside the engine room shows the fastest corrosion where heat accelerates it. The report separates damage that threatens strength, such as thin plating and cracks, from damage that is local and can wait. A fatigue crack is mapped, repaired and re-examined after repair; a dent is recorded and monitored.",
+        "Tankers at Multedo show another pattern. Deck plating beneath pipe supports wastes quickly, and ballast tank bulkheads beside heated cargo corrode faster than the rest. Where a tanker is also due for vetting, the structural record doubles as evidence of condition for the charterer, provided it is clear about which spaces were open."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How to plan a structural inspection around a Genoa refit or sale?",
+      "p": [
+        "For a refit, the best time is before the specification is written, so that findings go into the work list. For a sale, the inspection is arranged with the seller's agreement, and the buyer's representative can attend. For a lender, the report is delivered in a format that can be read without a visit to the ship. We recommend agreeing the scope with the technical department first, then fixing the dates around the ship's schedule.",
+        "Send the ship's particulars, class, age and trading pattern, previous survey reports, the purpose of the inspection and the dates she is available. Tell us which spaces will be open and what staging the yard will provide. We confirm the team, the schedule and the method list, and the ship's agent arranges access passes for the dock gates and terminals. Schengen visa applications start as soon as the dates are firm."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ro-pax ferries on Mediterranean island routes",
+    "Ro-ro cargo ships at the Sampierdarena basins",
+    "Cruise ships homeported or refitted at Genoa",
+    "Crude and product tankers at the Multedo oil port",
+    "Car carriers and multipurpose ships in second-hand sale",
+    "Container ships calling at Voltri-Prà for limited-scope checks"
+  ],
+  "codes": [
+    "IACS UR S21 for evaluation of scantlings of hatch covers and hull openings",
+    "IACS UR Z7 and Z10.4 hull survey requirements",
+    "SOLAS Chapter II-1 for subdivision and structure of passenger ships",
+    "RINA rules for the classification of ships",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ISO 9934-1 for magnetic particle testing"
+  ],
+  "deliverables": [
+    "Thickness readings by deck, frame line and member",
+    "Door, ramp and sill structure record with crack-detection results",
+    "Deformation record with dent extent and depth against a scale",
+    "Ballast tank and double-bottom condition summary",
+    "Repair priority list with photographs and sketches"
+  ],
+  "faqs": [
+    {
+      "q": "Is a structural inspection of a ferry the same as a renewal survey?",
+      "a": "No. It is an owner's or buyer's assessment of structural condition, built from gauging, visual records and crack detection. It does not replace the class surveyor's examination, though it can shape the survey programme and the repair specification."
+    },
+    {
+      "q": "Do you inspect stern doors and ramps?",
+      "a": "Yes. Doors, hinges, locking supports, sill corners and the steel round the openings are examined visually, gauged and tested for cracks by magnetic particle inspection where the surface has been prepared. Ramp stiffener ends are covered as well."
+    },
+    {
+      "q": "Can an inspection be done while the ferry is still in service?",
+      "a": "In part. Vehicle decks, ramps and spaces the chief engineer can release are open between sailings. Underwater hull, sea chests and double bottoms need the docking, so a full structural picture normally uses both a berth visit and a dock visit."
+    },
+    {
+      "q": "How are dents and buckled deck plating reported?",
+      "a": "Each is located, photographed against a scale and measured for extent and depth, with plate thickness readings taken around it. The report states whether wastage is the likely cause and whether renewal or monitoring is the sensible response."
+    },
+    {
+      "q": "Can the report be used for a purchase or a refit loan?",
+      "a": "Yes. It is written so a reader who was not on board can follow it, with locations, readings and photographs. It is an owner's record, not a class document, so lenders and buyers should treat it as technical evidence, not as class credit."
+    }
+  ]
+}

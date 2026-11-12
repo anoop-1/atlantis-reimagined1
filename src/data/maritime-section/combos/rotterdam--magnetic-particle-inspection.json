@@ -1,0 +1,124 @@
+{
+  "port": "rotterdam",
+  "service": "magnetic-particle-inspection",
+  "title": "Magnetic Particle Inspection Rotterdam | Ship MPI Crack Checks",
+  "description": "Magnetic particle inspection in Rotterdam: crack detection on crane pedestals, rudder stocks, hatch corners and repair welds for ships at berth, buoy or dock.",
+  "h1": "Crack detection by MPI on ships in Rotterdam: cranes, rudders, hatch corners and repairs",
+  "intro": "A ship's cranes, ramps, rudder and hatch covers all work hard, and the welds and forgings that carry their loads are where cracks start. Rotterdam's mix of bulk carriers with deck cranes, ro-ro and ro-pax ferries with ramps and offshore support vessels with heavy lifting gear means steady demand for magnetic particle inspection. A team travels from India with portable yokes and lighting, and examines the part where it stands, whether at a terminal berth, on a buoy or in the dock.",
+  "highlights": [
+    {
+      "h": "Crane structure on bulk carriers",
+      "p": "Geared bulk carriers loading and discharging at Maasvlakte work their cranes daily. We examine pedestal welds, jib heel pins and hook shanks between cargo operations, so a defect is found before a lift rather than during one."
+    },
+    {
+      "h": "Rudder and steering gear in dock",
+      "p": "When a ship is on the blocks at Botlek, the rudder is exposed. Rudder stock tapers, pintles and the palms of the carrier are examined once cleaned, because a crack there cannot be found while the ship is afloat."
+    },
+    {
+      "h": "Ramp and door structure on ferries",
+      "p": "Ro-ro and ro-pax ships have ramp hinges, door securing devices and lashing points that take repeated impact loads. MPI on these welds fits within the short layovers the ferry timetable allows."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "h": "Where in Rotterdam can MPI be done on a ship?",
+      "p": [
+        "The location depends on the part. Cranes, hatch cover hinges and deck fittings can be examined at a cargo berth during a call, provided the area is clear and the ship's staff isolate the equipment. The Maasvlakte terminals are the usual places for geared bulk carriers and container ships, where the call lasts long enough for a team of two or three to examine several welds.",
+        "Parts under the waterline need a dock. In the Botlek docks, the rudder, the propeller palm areas and the shell welds around the stern tube are accessible, and MPI is carried out in step with the class survey of the stern gear. Repair quays do the same for short-sea ships and dredgers. At lay-by berths and buoys, work concentrates on the deck and on equipment that can be made safe while the ship is idle.",
+        "At the oil jetties at Europoort and Botlek, the terminal's rules about ignition sources shape what can be done. Our portable yokes are battery or mains operated, and where a permit is needed the work is planned with the terminal and the ship's safety officer before the team starts."
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which ships call for MPI at Rotterdam, and for which parts?",
+      "p": [
+        "Geared bulk carriers and multipurpose ships bring crane structure, which is surveyed under the lifting appliance rules, and the owner often wants it checked ahead of the annual survey. Ro-ro and ro-pax ferries bring ramp, door and lashing structure, which fatigue under repeated loading. Container ships come for hatch corner and coaming bracket checks, which are fatigue-sensitive details.",
+        "Offshore support vessels, which use the port's repair yards, add heavy deck crane foundations, towing pins, winch seatings and A-frames, all of which carry high dynamic loads. Tankers and chemical carriers generate demand for mooring fitting and deck pipe support welds, plus the weld repairs found in docking.",
+        "Dredgers and workboats of the port's own fleets are regular users of repair quays, and their structures take impact and wear in ways that make crack checks a routine part of any repair."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is MPI scoped for these parts?",
+      "p": [
+        "The scope is a list of parts and welds, agreed with the owner's superintendent and, where the survey calls for it, the class surveyor. For a crane, it normally includes the pedestal-to-deck weld, the slewing ring bolting area, jib heel pin bosses, boom welds near the heel and the hook and its shank. For a rudder, it includes the stock taper, the key and keyway areas, the pintles and the weld around the rudder palm.",
+        "Surface preparation is the biggest variable. MPI works on clean metal, so paint, rust and grease around the weld are removed back to bright steel, and the technician checks the area under white light of the right intensity. Where the yard has already prepared the surface, the work is faster; where it has not, we agree who will do the cleaning and how much time to allow.",
+        "On the weld, we use an AC yoke for surface cracks on ferritic steel and a DC yoke or permanent magnet only where the standard allows and the access calls for it. Contrast paint and black ink, or fluorescent ink under ultraviolet light in a darkened area, are chosen to suit the surface and the space. The report names the technique used on each part so the owner knows its sensitivity."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does MPI usually find on ships working here?",
+      "p": [
+        "The cracks found are tied to the loads each part carries. Crane pedestals show toe cracks in fillet welds where the load path changes direction, and hook shanks show fatigue cracks near threads. Rudder stocks may show cracks in the keyway fillet or at the change of section, and pintles may show surface cracking from wear and corrosion.",
+        "Ferry ramps show cracks at hinge brackets and at the root of lashing eye welds. On container ships, hatch corner cracks begin at weld toes and run into the plate. In every case, the length and position of the indication are marked on the part and photographed, so the surveyor and the repairer see the same feature the technician saw."
+      ],
+      "list": [
+        "Toe cracks in crane pedestal fillet welds.",
+        "Fatigue cracks near hook shank threads and in jib heel pin bosses.",
+        "Keyway and section-change cracks in rudder stocks.",
+        "Cracks at hinge brackets and lashing eye welds on ferry ramps.",
+        "Hatch corner and coaming bracket cracks on container ships."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How should MPI be planned for a Rotterdam call?",
+      "p": [
+        "Send us the ship's name or IMO number, the list of parts and the dates the ship will be at a berth, buoy or dock. If a crane or rudder has a known history, send the last report. We confirm the technique, agree who prepares surfaces and who isolates equipment, and ask the agent for terminal or yard access for the technicians.",
+        "Because the team travels from India, each technician needs a Schengen visa, so we plan from the date the owner expects the call. For ferries on a fixed timetable, we agree the layover window with the operator and send enough people to examine the planned parts within it.",
+        "If a crack is found on a crane or a rudder, we tell the master and superintendent at once, and the equipment is taken out of use until the owner and class decide. The written report follows, with indications, positions and photographs, and records the technique and surface condition for each part."
+      ]
+    }
+  ],
+  "vessels": [
+    "Geared bulk carriers and multipurpose ships",
+    "Container ships with fatigue-sensitive hatch corners",
+    "Ro-ro and ro-pax ferries with ramps and doors",
+    "Offshore support vessels with heavy deck cranes",
+    "Tankers and chemical carriers in repair docking",
+    "Dredgers and workboats on repair quays"
+  ],
+  "codes": [
+    "ISO 17638 on magnetic particle testing of welds",
+    "ISO 9934-1 on general principles of magnetic particle testing",
+    "ISO 23278 on acceptance levels for magnetic particle testing",
+    "SOLAS regulation II-1/3-13 and MSC.1/Circ.1663 on lifting appliances",
+    "IACS Recommendation 47 on repair quality standards",
+    "ASNT SNT-TC-1A for personnel qualification"
+  ],
+  "deliverables": [
+    "Part-by-part record with technique, magnetisation method and ink used",
+    "Indications marked on sketches with length and position",
+    "Photographs of cleaned surfaces and of every indication found",
+    "Surface condition and viewing conditions recorded for each part",
+    "Re-examination results after grinding or weld repair"
+  ],
+  "faqs": [
+    {
+      "q": "Can MPI be done on ship cranes at a Maasvlakte berth?",
+      "a": "Yes, if the crane is isolated and the area is clear. The team examines pedestal welds, jib heel pin bosses and hook shanks within the call, working around cargo operations. The agent submits the technicians' names for terminal access in advance."
+    },
+    {
+      "q": "When can a rudder be examined by MPI in Rotterdam?",
+      "a": "When the ship is in dock, usually at Botlek. The stock taper, keyway, pintles and palm welds are exposed and can be cleaned and examined. Without a dock, only the parts above the waterline can be reached."
+    },
+    {
+      "q": "Does MPI work through paint?",
+      "a": "Not reliably. The surface must be clean, so paint, rust and grease around the weld are removed back to bright steel. We agree before the job whether the yard or the ship's crew does the cleaning, and allow time for it."
+    },
+    {
+      "q": "What if a crack is found on a crane just before a lift?",
+      "a": "We tell the master and superintendent at once and the crane is kept out of use until the owner and class decide. The indication is marked, measured and photographed on site so repair planning can start immediately."
+    },
+    {
+      "q": "Can you do MPI at an oil terminal in Europoort?",
+      "a": "Yes on accessible deck and topside parts, under the terminal's permit rules. Our portable yokes are planned with the ship's safety officer and the terminal beforehand, and work in gas-hazardous areas does not start until the terminal confirms it is safe."
+    },
+    {
+      "q": "Is an MPI report a class certificate?",
+      "a": "No. It is an NDT record for the owner and the yard. The class surveyor may use it in a survey, but decisions about crane certificates, rudder surveys and repairs remain with the society and the competent authority."
+    }
+  ]
+}

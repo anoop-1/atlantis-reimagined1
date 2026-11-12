@@ -1,0 +1,129 @@
+{
+  "port": "rotterdam",
+  "service": "ultrasonic-weld-inspection",
+  "title": "Ultrasonic Weld Inspection Rotterdam | Ship Repair Welds UT",
+  "description": "Ultrasonic weld inspection in Rotterdam repair yards: shear-wave UT of insert plates, butt welds and crack repairs on tankers, bulk carriers and offshore units.",
+  "h1": "UT of repair welds on ships in the Rotterdam yards: insert plates, butt joints and crack repairs",
+  "intro": "Every docking in the Botlek yards ends with a long list of welds: new insert plates, replaced strakes, crack repairs and repaired pipework. The yard, the owner and the class surveyor want to know that each weld is sound before coatings and tanks are closed. Radiography on a crowded dock means exclusion zones and stopped work, so ultrasonic testing is usually the better choice. A team travels from India to the dock and tests the welds from one side, to the ISO standards and class rules.",
+  "highlights": [
+    {
+      "h": "Testing without stopping the dock",
+      "p": "Manual UT uses no radiation, so painters, welders and riders can work close by. On a busy Botlek dock with several gangs on the same hull, that avoids the exclusion zone and the lost shift that radiography would bring."
+    },
+    {
+      "h": "Insert plates and strake renewals",
+      "p": "Butt welds around renewed plating and full-penetration joints at the plate edges are tested for lack of fusion, incomplete penetration and cracking before the plate is blasted and coated, while it is still easy to cut out a flaw."
+    },
+    {
+      "h": "Crack repairs checked in sequence",
+      "p": "A repaired crack is examined after preparation, after welding and after grinding. Testing at each stage ensures the crack has been removed completely and that the repair weld is free of new flaws before the area is released."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "h": "Where in Rotterdam are ship welds tested by ultrasound?",
+      "p": [
+        "The bulk of the work is done in the docks and on the repair quays of the Rijnmond yards. Damen Shiprepair's Botlek docks take large tankers, bulk carriers, offshore units and cruise ships, and a ship on the blocks has bottom, side and tank welds all within reach of yard staging. Smaller repair quays handle short-sea ships, dredgers and workboats, where the welds are usually on shell plating, rudder structure and deck equipment.",
+        "Outside the yards, ultrasonic testing of welds is possible at lay-by berths and buoys where a ship is waiting for a repair slot or has completed afloat repairs. Typical cases are a crack weld repaired alongside after a heavy-weather event, or a replaced section of deck plating. At terminals, the permit rules limit the work to deck and accessible topside welds."
+      ],
+      "list": [
+        "In the Botlek docks: insert plates, strake replacements and tank structure repairs.",
+        "On repair quays: shell, rudder and equipment foundation welds on short-sea ships and workboats.",
+        "At lay-by berths: afloat repairs after heavy weather or minor structural damage.",
+        "At oil terminals: deck and hatch welds under permit."
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which ships need weld testing at Rotterdam, and why?",
+      "p": [
+        "Tankers and bulk carriers coming for their renewal surveys have the largest weld volumes, because steel renewal generates new butt welds in the bottom, the hopper side and the deck. Offshore units in the docks have heavy structure with demanding acceptance levels, and their owners often specify more extensive testing than class alone requires.",
+        "Cruise ships and ferries come for refits that include structural modifications, such as new sponsons, openings cut for equipment or reinforced foundations. The welds are numerous and the schedule tight, so testing is planned alongside the yard's welding programme rather than after it. Dredgers and tugs from the port's own fleet add steady demand for repair-weld checks on shell and propulsion structure."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is weld UT scoped for a docking repair?",
+      "p": [
+        "We take the yard's weld list and the class survey report, and agree the extent of testing with the surveyor and the superintendent. For new welds in renewed plating, the usual approach is to test the full length of butt joints in critical areas such as the bottom and strength deck, and a percentage elsewhere, in line with the repair specification and the class requirements.",
+        "Preparation decides how quickly the work goes. The scanning surface beside the weld must be clean, free of heavy scale and loose coating, and wide enough for the probe to move through the angles needed. Where the yard has ground the cap flush, testing is simpler. Where the weld is rough, the technician records the surface condition and the test level that could be applied.",
+        "Thin plate and certain geometries, such as T-joints on small brackets or welds near rolled edges, limit manual UT, and we say so when it applies. In those cases, magnetic particle testing of the surface or a switch to phased array may be suggested, and the report records which method covered which weld."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does weld UT usually find in yard repairs?",
+      "p": [
+        "In new insert-plate welds, the flaws that matter are lack of fusion at the side walls and incomplete root penetration, usually where fit-up was poor or the welder had limited access. In crack repairs, the typical finding is a remnant of the original crack left at one end of the excavation, or a new crack in the weld metal that formed on cooling.",
+        "Laminations in the parent plate show up when the technician scans the plate near the weld, and are reported separately because they affect how the weld is judged. In pipework, the usual flaws are root defects on butt welds made in awkward positions. A systematic record helps the yard improve its process during the docking, and that is where the testing pays back most."
+      ],
+      "list": [
+        "Lack of side-wall fusion and incomplete root penetration in insert-plate welds.",
+        "Crack remnants at the ends of excavations in repaired cracks.",
+        "New cracking in weld metal after cooling.",
+        "Parent plate laminations near the weld, reported separately.",
+        "Root defects in butt welds on repaired pipework."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How should weld testing be planned with a Rotterdam yard?",
+      "p": [
+        "Send us the yard's weld list as early as it exists, with the extent of testing the class has set and the dates when each section will be welded. We ask for the weld procedure numbers and the acceptance level named in the specification. The yard arranges access and staging, and the ship's agent or the yard submits the technicians' names for gate passes.",
+        "Because the team travels from India and needs Schengen visas, we plan the visit around the docking dates, not the welding dates. Welding sequences change every day on a busy dock, so we agree a rolling plan with the yard supervisor: each morning, the list of welds ready for testing is confirmed, and the team works through them in order.",
+        "Findings are marked on the weld and reported to the supervisor the same day, so repairs can start before the area is coated. A written report follows with weld numbers, testing level, indications and acceptance results.",
+        "Equipment travels with the team: flaw detectors, a set of angle probes, calibration blocks and couplant suited to cold steel in a North Sea winter. Calibration is checked at the start of each shift and after any probe change, and the checks are written into the report so a reader can see the instrument was set correctly for the plate thickness being tested."
+      ]
+    }
+  ],
+  "vessels": [
+    "Tankers in renewal survey docking",
+    "Bulk carriers with hopper and tank structure repairs",
+    "Offshore units in the Botlek docks",
+    "Cruise ships in refit",
+    "Ro-pax ferries with structural modifications",
+    "Dredgers and tugs on repair quays"
+  ],
+  "codes": [
+    "ISO 17640 on ultrasonic testing of welds",
+    "ISO 11666 on acceptance levels for ultrasonic testing",
+    "ISO 23279 on characterisation of indications",
+    "IACS Recommendation 47 on shipbuilding and repair quality",
+    "IACS UR W33 and UR W34 for weld NDT principles in hull steel",
+    "ASNT SNT-TC-1A for personnel qualification"
+  ],
+  "deliverables": [
+    "Weld-by-weld record with testing level, technique and probe angles used",
+    "Indications with position, length, depth and acceptance result",
+    "Marked sketches showing tested length against the yard's weld list",
+    "Notes on surface condition and any limits on the testing applied",
+    "Re-test results after repair, where repairs were made during the docking"
+  ],
+  "faqs": [
+    {
+      "q": "Why use ultrasound instead of radiography in a Rotterdam dock?",
+      "a": "Radiography needs an exclusion zone and a stop to nearby work, which a crowded dock cannot afford. Ultrasonic testing uses no radiation, needs access from one side only and lets other trades continue, while finding the planar flaws that matter most."
+    },
+    {
+      "q": "Can you test welds on insert plates before they are painted?",
+      "a": "Yes, and that is the best time. The weld can be tested once it has cooled and been prepared, and any flaw can be removed before blasting and coating. Testing after coating is possible but needs the coating to be removed along the scanning surface."
+    },
+    {
+      "q": "How do you test a crack repair?",
+      "a": "We examine the excavation after preparation to confirm the crack is gone, test the repair weld after welding and again after grinding. Surface methods such as magnetic particle testing complement the ultrasound at each stage."
+    },
+    {
+      "q": "What can limit manual UT of ship welds?",
+      "a": "Thin plate, small brackets, rough weld caps, heavy scale and welds close to rolled edges can limit or prevent manual testing. We record the limit in the report and suggest a surface method or phased array where the geometry calls for it."
+    },
+    {
+      "q": "Who decides the extent of weld testing in a repair?",
+      "a": "The class requirements and the repair specification set it, agreed between the surveyor, the owner and the yard. We work to that extent and report coverage against it. If the owner wants more than class requires, the scope is extended accordingly."
+    },
+    {
+      "q": "Are the reports class certificates?",
+      "a": "No. They are NDT records for the owner and the yard, written to the ISO standard and acceptance level named in the specification. The class surveyor may review them as part of the survey, but the survey decision remains with the society."
+    }
+  ]
+}

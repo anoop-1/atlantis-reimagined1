@@ -1,0 +1,124 @@
+{
+  "port": "antwerp",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Antwerp | Bulk & Ro-Ro",
+  "description": "Hull structural integrity inspection in Antwerp for bulk, ro-ro, container and breakbulk ships: hold structure, coamings, ramps, deformation and crack checks.",
+  "h1": "Structural Condition Surveys for Cargo Ships and Ro-Ro Vessels in Antwerp",
+  "intro": "Antwerp's dock system handles steel, vehicles, heavy lifts and containers, and the ships doing that work take punishment that tankers do not: grab damage in holds, ramp and deck loading, lashing forces, wet cargo residues. A structural integrity inspection records what that has done to the steel, combining thickness readings with a record of corrosion pattern, deformation and cracks at the known fatigue details. Atlantis NDT sends a team from India to the ship in Antwerp and reports in a form a class engineer, buyer or superintendent can assess.",
+  "highlights": [
+    {
+      "h": "Hold and tank-top damage on bulk and breakbulk ships",
+      "p": "Steel, scrap and project cargoes wear holds from the inside. Frames near the bilge hopper, tank-top plating and lower hold sides are where grabs and heavy parcels do their damage, and where Antwerp's breakbulk ships are best gauged."
+    },
+    {
+      "h": "Ro-ro ramps, decks and stern structure",
+      "p": "Vehicle carriers and ro-ro ships load in stages inside the locks, and the time between loading phases suits measurement of ramp structure, car-deck plating and the stern door surroundings, with crack checks at known weak points."
+    },
+    {
+      "h": "Container ships on short river calls",
+      "p": "Container ships at the Deurganck dock and river terminals stay briefly. Lashing bridges, hatch coamings and cell-guide structure are the targets that can be inspected within a working call."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-structural-inspection-happens",
+      "h": "Where in Antwerp can a structural integrity inspection be carried out?",
+      "p": [
+        "Breakbulk, steel and ro-ro berths inside the locks give the most time, because ships there load in stages and may wait between cargoes. A bulk carrier or multipurpose ship with an empty hold can be inspected from tank top to coaming in a morning of safe access, while a ro-ro ship's decks are open between loading phases. These berths are where hold structure, tank-top plating and car-deck gauging are most practical.",
+        "River container terminals allow far less, and the structural work there is limited to what can be reached from deck and from the lashing bridges during the call. When a ship docks at EDR Antwerp Shipyard, the dry hull allows measurement of shell plating, the stern frame area and any buckled panels that an afloat inspection cannot see. Lay-by quays inside the docks are the compromise for ships waiting for a slot, and a good place for ballast tank structure."
+      ],
+      "list": [
+        "Breakbulk and steel berths: hold sides, bilge hopper area, tank top and hatch coamings.",
+        "Ro-ro and vehicle berths: ramps, car decks, stern door and internal ramps.",
+        "River container terminals: lashing bridges, hatch coamings and deck structure within the call.",
+        "Floating docks at EDR Antwerp Shipyard: shell plating, bilge keels, stern area.",
+        "Lay-by quays: ballast tanks and any space cleared for entry."
+      ]
+    },
+    {
+      "id": "ships-that-need-structural-survey",
+      "h": "Which ships at Antwerp need a structural integrity inspection, and when?",
+      "p": [
+        "Buyers of second-hand tonnage ask for it before purchase, because a thickness list cannot show buckling or fatigue cracking. Owners ask for it before a charter that stresses the ship, such as heavy steel cargoes, and managers ask for it when a bulk carrier changes trade and the hold condition is unknown. Ships approaching their special survey use it to find out where deformation and cracking sit before the surveyor arrives.",
+        "Ageing vehicle carriers and ro-ro ships are a frequent case in Antwerp, where staged loading of high-and-heavy cargo puts repeated load on ramps and decks. Container ships reach the inspection mostly after heavy weather damage or when lashing-bridge cracking is suspected. In all these cases, the aim is a structural picture, not a single set of numbers."
+      ]
+    },
+    {
+      "id": "scoping-structural-inspection",
+      "h": "How is a structural inspection scoped for a cargo ship?",
+      "p": [
+        "We begin with a walk-through, recording coating condition, general and local corrosion, grooving along welds, and any visible buckling or dishing of plate. Thickness readings are then placed where the walk-through and the ship type say they are most informative: frames and plating near bilge hoppers, tank-top plating under grab operations, hatch coaming corners and the connection of lashing bridges to the deck.",
+        "Where cracking is suspected, magnetic particle testing is applied to the known fatigue details, after the paint has been removed locally, and the results are recorded on the same sketches. Buckled panels are logged with their depth and extent, because a thickness gauge reads local steel and says nothing about a plate that has deformed. Deformation, wastage and cracks are presented together so that the class engineer sees the combined condition of each structural member."
+      ],
+      "list": [
+        "Hold frames, brackets and shell plating near the bilge hopper.",
+        "Tank-top plating and hopper-side plating under grab operations.",
+        "Hatch coaming corners, brackets and cross-deck strips.",
+        "Ro-ro ramps, hinge areas, car-deck plating and stern door surroundings.",
+        "Lashing bridges and cell-guide connections on container ships."
+      ]
+    },
+    {
+      "id": "typical-findings-cargo-ships",
+      "h": "What does structural inspection typically find on ships working at Antwerp?",
+      "p": [
+        "On bulk and breakbulk ships the common findings are wasted lower hold frames, thin plating at the bilge hopper, and dents and tears from grab impact on the tank top. Residues of wet or acidic cargo accelerate wastage in the lower holds, and coating that has been damaged by grabs gives no protection. On multipurpose ships, heavy lifts leave localised buckling on tween-deck panels and hatch-cover supports.",
+        "Ro-ro and vehicle carriers show wastage on car-deck plating where water and salt collect, wear at ramp hinges, and cracks near ramp support details and stern door frames where loading cycles are repeated. Container ships tend to show cracking at lashing-bridge and coaming corners, and corrosion on deck and hatch coaming plates. Each finding is reported by location, so the yard can plan repair item by item."
+      ]
+    },
+    {
+      "id": "planning-structural-inspection",
+      "h": "What should be arranged for a structural inspection job in Antwerp?",
+      "p": [
+        "Tell us the ship type and age, the trade, the reason for the inspection and the berth or yard sequence. For a bulk or breakbulk ship, the key arrangement is an empty, cleaned and ventilated hold with safe access to the frames, since residual cargo and loose scale hide wastage. For a ro-ro ship, we need the ramps and decks free of vehicles for the time of measurement, and for a container ship, access to the lashing bridges and coamings between cargo operations.",
+        "A technician travelling from India needs a Schengen visa for Belgium, so the vessel's schedule and the agent's berth estimate should reach us early. The agent registers the team for port access in the ISPS-controlled areas, and the ship or yard arranges staging, lighting and ventilation. The report follows the inspection, with sketches, photographs and a ranked list of items so a buyer, owner or yard can see priorities at once.",
+        "When the inspection feeds a purchase decision, say so in the enquiry. A buyer needs the ranked list of repair items more than the raw readings, and we shape the report to answer that: which items are urgent, which can wait until the next docking, and which are cosmetic. For an owner preparing a special survey, the same list helps the superintendent brief the attending surveyor before the first day aboard."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers",
+    "Multipurpose and breakbulk ships",
+    "Ro-ro and vehicle carriers",
+    "Container ships",
+    "Heavy-lift and project cargo ships",
+    "Second-hand ships under purchase inspection"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "IACS UR Z10.2 and Z10.5 for bulk carriers",
+    "IACS Common Structural Rules for bulk carriers",
+    "IACS UR Z17 for service supplier requirements",
+    "ASTM E797 for manual ultrasonic thickness measurement",
+    "ASTM E709 and ISO 17638 for magnetic particle testing"
+  ],
+  "deliverables": [
+    "Thickness readings tied to frames and members on structural sketches",
+    "Record of corrosion pattern, grooving, buckling and dishing by location",
+    "Magnetic particle crack records at the fatigue details examined",
+    "Photographs referenced to sketch positions",
+    "Ranked list of repair items for the yard or buyer"
+  ],
+  "faqs": [
+    {
+      "q": "Can a structural inspection of a bulk carrier be done at a berth in Antwerp?",
+      "a": "Yes, if the hold is empty, cleaned and safe to enter, and the berth allows time. Breakbulk and steel berths inside the locks give more time than river terminals. We inspect frames, tank top and coamings and report their condition, with thickness readings, deformation records and any cracks found."
+    },
+    {
+      "q": "Does a thickness list show buckling or cracks?",
+      "a": "No. A thickness gauge reads local steel and says nothing about a plate that has dished or a crack that has opened. That is why a structural inspection records deformation by eye and measurement, and applies magnetic particle testing at known fatigue details, then presents all three together by structural member."
+    },
+    {
+      "q": "Can ro-ro ramps and car decks be inspected between loading phases?",
+      "a": "Often yes. Ro-ro and vehicle berths inside the locks load in stages, and the gaps between phases suit measurement of ramps, hinge areas, car-deck plating and stern door surroundings, provided the area is free of vehicles and safe to access. We agree the windows with the ship and the agent."
+    },
+    {
+      "q": "What can be done on a container ship during a short river call?",
+      "a": "Deck-level work: lashing bridges, hatch coamings and cell-guide connections, plus crack checks where cracking is suspected. Anything needing tank entry or the dry hull must wait for a longer stay or the dock. We tell the superintendent beforehand what the call can and cannot cover."
+    },
+    {
+      "q": "Do second-hand buyers use structural inspections in Antwerp?",
+      "a": "Yes. Buyers ask for a condition survey before purchase, and a structural inspection with thickness, deformation and crack records gives an independent picture beyond the seller's reports. These are owner's or buyer's records, not class credits, and are delivered with sketches and photographs."
+    }
+  ]
+}

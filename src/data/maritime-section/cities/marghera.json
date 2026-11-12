@@ -1,0 +1,112 @@
+{
+  "slug": "marghera",
+  "name": "Porto Marghera",
+  "country": "Italy",
+  "region": "europe",
+  "title": "Porto Marghera Tanker UTM | Thickness Gauging in the Lagoon",
+  "description": "Ultrasonic thickness gauging at Porto Marghera for chemical and product tankers, gas and bulk ships in the industrial canals: tanks, deck piping and hull steel.",
+  "h1": "Tanker and Industrial Ship Gauging in the Porto Marghera Canals",
+  "intro": "Porto Marghera is Italy's industrial harbour on the edge of the Venice lagoon, a grid of canals and quays built for refining, chemicals and heavy industry. The ships that serve it are tankers, bulkers and product carriers, working from berths where cargo hoses and permits govern the day. Atlantis NDT mobilises technicians from India to those berths and plans gauging around the cargo programme and the terminal's safety rules.",
+  "keywords": [
+    "porto marghera thickness gauging",
+    "ultrasonic thickness measurement marghera",
+    "chemical tanker thickness gauging",
+    "product tanker utm marghera",
+    "marghera ship inspection",
+    "deck piping gauging tanker",
+    "venice lagoon industrial port ship survey",
+    "utm porto marghera italy",
+    "cofferdam inspection chemical tanker",
+    "ballast tank gauging italy"
+  ],
+  "highlights": [
+    {
+      "h": "Tankers working under permit",
+      "p": "Chemical and product tankers load and discharge at terminals with strict hot-work and entry rules. Gauging stays on ballast spaces, cofferdams and deck structure the terminal and master agree are safe."
+    },
+    {
+      "h": "Deck piping on ageing tonnage",
+      "p": "Cargo and ballast deck lines on older tankers waste at supports, bends and drain points. Spot readings along those lines show where the next steel or pipe renewal will be needed."
+    },
+    {
+      "h": "Canal berths and the MOSE lock",
+      "p": "Ships reach Marghera through the Malamocco inlet and the industrial canals. Transit timing, including operations at the storm barrier lock, shapes when a team can board and how long it has."
+    }
+  ],
+  "port": {
+    "h": "The industrial canals behind Malamocco",
+    "p": [
+      "Porto Marghera occupies reclaimed land on the mainland side of the lagoon, opposite the historic city of Venice. Large ships do not use the Venice inlet at the Lido; commercial traffic enters through the Malamocco inlet to the south and follows the dredged industrial channel northward to the canals and basins. The layout is rigid: long straight canals, numbered quays, and a pilotage system that controls every transit. The result is a port that feels more like an industrial estate than a classic harbour.",
+      "The traffic follows the industry. Crude and product tankers serve the refining and bio-refining site and the chemical works, liquefied gas and petrochemical carriers use specialised jetties, and bulk carriers bring grain, coal-derived products and raw materials for the factories. There is also project cargo for the heavy engineering around the port, and some ro-ro and container work at the terminals. Ships are mid-sized because of the channel, with draught and length limits set by the inlet and the canals, and calls last long enough to complete a cargo plan under terminal rules.",
+      "The storm surge barrier system at the lagoon inlets has changed how ships transit when the barriers are raised: a navigation lock at Malamocco lets ships pass while the gates are up, and operations can be delayed. Acqua alta episodes, fog in the cold months and the bora can all affect pilot boarding. These events rarely stop a call, but they can shift an ETA by hours, so the gauging plan needs slack, and the agent keeps the team informed of the real arrival time."
+    ]
+  },
+  "facilities": {
+    "h": "Industrial berths and what can be measured on them",
+    "p": [
+      "Gauging at Marghera happens at the berths on the industrial canals, and the cargo being worked decides what is possible. On tankers, ballast tanks, cofferdams, pump rooms excluded unless declared safe, forecastle spaces and deck structure can be gauged while cargo operations continue, subject to the terminal's permit to work and the master's enclosed-space procedures. Cargo tanks themselves are measured only after gas-freeing, which is normally done at a yard rather than at the loading jetty.",
+      "On gas and chemical carriers, the same principle applies: the team stays outside the cargo containment and measures hull and ballast structure, deck piping supports and accessible machinery-space piping. Bulk ships discharging at the quays offer holds after they are empty. Ships that need a full docking go to a repair yard elsewhere on the Adriatic, and the readings from Marghera are passed to that yard. As in every industrial port, access depends on terminal security, so passes and induction need arranging well in advance."
+    ],
+    "list": [
+      "Oil and product jetties on the industrial canals: ballast tank, forecastle and deck piping gauging on tankers during cargo operations.",
+      "Chemical terminal berths: cofferdam, ballast tank and deck structure gauging on chemical tankers within the permit regime.",
+      "Gas carrier jetties: hull, ballast and deck readings outside the cargo containment, with gas-safety rules observed.",
+      "Dry bulk quays on the canals: hold frame and hatch cover gauging on bulk carriers after discharge.",
+      "Lagoon anchorage outside the canals: launch-served condition gauging for ships waiting for a berth, subject to harbour master clearance.",
+      "Handover to a repair yard: readings in TM plan format for docking elsewhere on the Adriatic."
+    ]
+  },
+  "context": {
+    "h": "Seveso-type industry, Italian rules and the lagoon",
+    "p": [
+      "Porto Marghera is a major hazard industrial area, so safety rules at the berths are strict and well enforced. The Italian Coast Guard, through the harbour authority, controls port operations and carries out port state control under the Paris MoU. Terminal operators apply their own gas, fire and hot-work regimes, and any visiting contractor must follow them. For a technician team, that means detailed risk assessments, personal gas monitors and a clear agreement with the terminal on permitted spaces before boarding.",
+      "The lagoon is a protected environment, and discharge limits are watched closely, so scrubber ships and chemical carriers draw attention to their wash-water systems and tank cleaning. Owners of older tankers on this trade also face EU ETS and FuelEU Maritime accounting, and many have an Inventory of Hazardous Materials updated under the Ship Recycling Regulation. A thickness record from a Marghera call supports decisions on deck-line renewal, tank coating and whether an older ship should stay in the trade."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Porto Marghera",
+    "p": "Jobs at Marghera are driven by tanker and industrial-ship schedules. The superintendent usually asks for a defined scope within the cargo window, backed by the terminal's agreement and the ship's permit to work. Results are delivered as TM-style reports so they can support class survey planning or a charterer's inspection. Typical requests are:",
+    "list": [
+      "A product tanker at an oil jetty: gauging of ballast tank boundaries, forecastle spaces and cargo deck lines while discharge continues.",
+      "A chemical tanker at a chemical berth: cofferdam and ballast tank readings ahead of an intermediate or renewal survey.",
+      "A gas carrier at a jetty: hull and ballast structure gauging outside containment, plus deck piping support checks.",
+      "A bulk carrier at a canal quay: hold and hatch cover gauging after grain or raw material discharge.",
+      "Pre-purchase or condition gauging for a tanker lying at an industrial berth between charters."
+    ]
+  },
+  "logistics": "Venice Marco Polo Airport is the closest international gateway, with a road transfer across the causeway to the mainland industrial zone, and Treviso is an alternative for some European flights. Technicians from India need a Schengen visa for Italy, arranged once the call is confirmed. Terminal security, induction and port access are processed through the ship's agent, who needs the team's passport details and certificates ahead of arrival, since industrial berths do not allow last-minute entry.",
+  "vessels": [
+    "Product tankers",
+    "Chemical tankers",
+    "Gas and petrochemical carriers",
+    "Handysize bulk carriers",
+    "General cargo ships",
+    "Project cargo ships",
+    "Container feeders"
+  ],
+  "faqs": [
+    {
+      "q": "Can you gauge on a tanker during cargo operations at Marghera?",
+      "a": "In spaces that the terminal, master and ship's permit allow, yes. That usually means ballast tanks, cofferdams, forecastle spaces and deck structure, away from cargo handling zones. Cargo tanks are left for a gas-free docking, and the terminal's rules decide what equipment may be used."
+    },
+    {
+      "q": "How does the storm barrier affect arrival times?",
+      "a": "When the barriers are raised, ships pass through a navigation lock at the Malamocco inlet, which can add delay. The agent tracks the schedule and tells us the actual berth time, and we plan the technicians' arrival around it rather than around an early estimate."
+    },
+    {
+      "q": "Is a dry-dock available at Porto Marghera?",
+      "a": "Not as a commercial repair dock for merchant ships. A large shipbuilder works in the area, but owners normally send tankers and bulkers to repair yards elsewhere on the Adriatic. The readings from Marghera are prepared so that any yard can use them for the steel estimate."
+    },
+    {
+      "q": "What are the main access requirements at industrial berths?",
+      "a": "Advance registration through the agent, terminal induction, personal gas monitors, and a clear permit to work. Passes can take days to arrange, so the team travels only after the agent confirms that the terminal has accepted the names."
+    },
+    {
+      "q": "Can bulk carriers be gauged after discharge at Marghera?",
+      "a": "Yes, once the holds are empty and swept and the terminal agrees. We measure hold frames, tank tops, hopper plating and hatch covers, and report the readings by frame so they can be compared with earlier surveys."
+    }
+  ],
+  "nearby": ["venice", "chioggia", "ravenna", "trieste", "koper"]
+}

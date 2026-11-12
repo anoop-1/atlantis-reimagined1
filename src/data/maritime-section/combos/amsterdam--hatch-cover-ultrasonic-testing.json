@@ -1,0 +1,116 @@
+{
+  "port": "amsterdam",
+  "service": "hatch-cover-ultrasonic-testing",
+  "title": "Hatch Cover Ultrasonic Tightness Testing Amsterdam",
+  "description": "Ultrasonic hatch cover tightness testing in Amsterdam: leak positions found on multipurpose ships and bulk carriers before cocoa, grain or steel is loaded.",
+  "h1": "Hatch Cover Leak Testing for Cargo Ships Loading Cocoa, Agribulk and Steel at Amsterdam",
+  "intro": "Amsterdam handles cargoes that do not forgive a wet hold: cocoa beans, grain and other agribulk, fertiliser and steel products. A leaking hatch cover turns a clean voyage into a claim, and the leak is usually found only at discharge. Ultrasonic tightness testing locates every leak path before the cargo is loaded or before the ship sails, with no water in the hold. Our operators are mobilised from India to the ship, test the covers at the quay in the western basins or at IJmuiden, and mark each leak position for the crew.",
+  "highlights": [
+    {
+      "h": "Before the first bean goes aboard",
+      "p": "Cocoa and agribulk are damaged by moisture and by condensation, and many charterers ask for a documented hatch cover test before loading. A test during the empty-hold stay at the berth finds leaks while the crew can still renew gaskets."
+    },
+    {
+      "h": "Quick enough for a port stay",
+      "p": "The transmitter stays inside the closed hold while the receiver is run along the seals outside. A set of covers on a handysize ship can be tested in a working shift, so the test fits between discharge and the start of loading."
+    },
+    {
+      "h": "Rain and cold do not stop the test",
+      "p": "Dutch weather in autumn and winter makes hose testing awkward and uncomfortable, and it leaves water on the coaming. The ultrasonic method works in rain, wind and cold, so the programme is not postponed by the forecast."
+    }
+  ],
+  "sections": [
+    {
+      "id": "cargoes-and-risk",
+      "h": "Which Amsterdam cargoes make hatch cover tightness critical?",
+      "p": [
+        "Amsterdam is a major cocoa port, and cocoa is one of the most moisture-sensitive cargoes in dry shipping. Beans take up water readily, are affected by taint as well as wetting, and the bags and the loose cargo alike are inspected on arrival. Grain and other agribulk arriving or leaving through the western basins share the same sensitivity, and so do fertilisers and many steel products, which rust visibly when they get wet.",
+        "The cargo is only half of the problem. A ship that has spent weeks at sea discharging in a different climate may carry condensation inside the hold, and a seal that is marginal at the quay in calm weather will leak under the green water and spray of the next passage. A tightness test cannot promise good weather, but it does show whether the seal is in a condition to cope with the weather that the voyage will probably bring.",
+        "Charterers of the cargoes that need clean, dry holds often require evidence that the covers were tested. The ultrasonic test report, with readings listed by joint and position, provides that evidence in a form the surveyor and the cargo interests can read."
+      ]
+    },
+    {
+      "id": "where-the-test-is-done",
+      "h": "Where hatch covers can be tested at the port",
+      "p": [
+        "The test needs the hold closed and the covers sealed, which means the ship must have discharged and the hatches been closed, with the crew free to attend. At Amsterdam the natural places are the agribulk and general cargo quays in the western basins, where multipurpose ships and handysize bulk carriers lie after discharge and before loading. The dry bulk quays at the steelworks harbour at IJmuiden suit bulk carriers once the holds are empty, and lay-by berths in the basins give longer idle ships the same opportunity without pressure from a cargo programme.",
+        "We do not test at the anchorage off the locks as a rule, because crew access to the cover panels, the staging and the power supply are all limited, and the ship's motion makes it harder to hold the receiver on the seal. If the ship's voyage plan allows no berth stay, we discuss a test at the next suitable port instead."
+      ],
+      "list": [
+        "Agribulk and general cargo quays in the western basins: after discharge, before loading cocoa, grain, fertiliser or steel.",
+        "Steelworks harbour at IJmuiden: bulk carriers with empty holds between ore or coal cargoes.",
+        "Lay-by berths in the basins: idle or pre-purchase ships where the whole system can be tested without pressure.",
+        "Cargo stop alongside: loaded holds can also be tested for a pre-sailing check, if the cargo and the stowage permit access to the coamings."
+      ]
+    },
+    {
+      "id": "how-testing-works",
+      "h": "How an ultrasonic hatch cover test is carried out on these ships",
+      "p": [
+        "The operator places an ultrasonic transmitter in the closed hold, so that sound fills the space, and runs a receiver along the sealing arrangement from outside. Where the seal is tight, the signal is weak; where the compression has been lost, the gasket is damaged or the cover is not seating, the receiver picks up a strong signal. Readings are compared with an open-hatch reference value taken at the start, so each joint is judged against the actual signal level in that hold.",
+        "On a folding or side-rolling cover the test follows the perimeter seal on the coaming, the cross joints between panels and the joints with the hatch cover end and the stoppers. On pontoon covers it follows each panel edge. Locations with a reading above the acceptance level are marked on the cover with paint or tape, and each mark is logged by panel and position, so a crew member or a yard fitter can find the same spot without searching.",
+        "A second pass checks the repaired positions. Where a gasket has been replaced or a cleat tightened during the stay, the receiver is run over the same joint again and the new reading is recorded beside the old one."
+      ]
+    },
+    {
+      "id": "what-we-find",
+      "h": "What the tests typically find on cargo ships at this port",
+      "p": [
+        "Leak paths tend to concentrate in a few predictable places. Compression set in old gaskets leaves joints that no longer spring back after the cover has been opened and closed through hundreds of cargo cycles. Grain residue and cargo dust build up on the coaming top and hold the cover just clear of the seal, and corrosion or bent steel at the cross joints prevents panels from landing flat. Quick-acting cleats lose their preload through wear, and drain channels blocked with cargo debris allow water to stand on the joint.",
+        "Ships that regularly load cocoa or agribulk at Amsterdam benefit from combining the tightness test with a visual check of the same items: gasket condition, coaming drain channels, cleat adjustment and the corner areas where the water collects. We note these in the same report, so the crew's maintenance list and the leak positions reach the superintendent together.",
+        "Where a cover shows a cracked panel edge or a failed weld, the ultrasonic test will usually identify the joint, but the repair itself is a matter for the yard and the class surveyor. We confirm cracks by magnetic particle testing on request and record the result as the owner's own NDT document."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning a test around loading at Amsterdam",
+      "p": [
+        "The best window is between the end of discharge and the start of the next cargo. Hold cleaning, which the crew or a shore gang performs, sometimes happens at the same time, and we coordinate the order of work so the hold is closed and quiet when the transmitter goes in. Teams travel from India for each job, so we need the expected berth and the sailing date early enough to line up visas and flights.",
+        "Send the ship's name, the number of holds and covers and their type, the cargo planned next and the date of the last test. The agent obtains the gate passes for the technicians and arranges access to the quay. The crew provides safe access to the coaming and the hatch cover top, a power supply where the equipment needs one, and a person with knowledge of the covers to attend the test."
+      ]
+    }
+  ],
+  "vessels": [
+    "Handysize and supramax bulk carriers",
+    "Multipurpose ships with folding or pontoon covers",
+    "Cocoa and agribulk carriers",
+    "Steel and project cargo ships",
+    "Fertiliser carriers",
+    "Short-sea general cargo ships and coasters"
+  ],
+  "codes": [
+    "International Convention on Load Lines on weathertight closing appliances",
+    "IACS UR S21 (evaluation of scantlings of hatch covers)",
+    "Class society guidance on ultrasonic tightness testing of hatch covers",
+    "Charter party and cargo interest requirements for hold readiness before loading"
+  ],
+  "deliverables": [
+    "Open-hatch reference reading for each hold",
+    "Reading at every seal and cross joint, listed by panel and position",
+    "Leak positions marked on the cover and on a hatch plan",
+    "Retest readings for any positions repaired during the stay",
+    "Notes on gasket, cleat and drain channel condition seen during the test"
+  ],
+  "faqs": [
+    {
+      "q": "Can a hatch cover test be done before loading cocoa at Amsterdam?",
+      "a": "Yes. The test is done when the holds are empty and the covers are closed, usually after discharge and before the new cargo. We arrange the programme around the berth schedule so the crew has time to renew gaskets or adjust cleats, and the repaired joints can be retested before loading begins."
+    },
+    {
+      "q": "Does the ultrasonic method need water in the hold?",
+      "a": "No. The test uses sound, not water. A transmitter inside the closed hold and a receiver along the seals outside show where the seal leaks. That keeps the hold dry and avoids drying out the coaming afterwards, which is a real advantage before moisture-sensitive cargoes."
+    },
+    {
+      "q": "Can loaded holds be tested?",
+      "a": "Often yes, as a pre-sailing check, provided the hold is closed and the operator can reach the coamings and cover seals. The method does not need the hold to be empty. Cargo that gives off noise or dust may affect the signal, so we confirm the conditions with the superintendent beforehand."
+    },
+    {
+      "q": "What happens when a leak is found?",
+      "a": "The position is marked on the cover and written into the report by panel and joint. The crew or the yard then renews the gasket, adjusts the cleats or cleans the coaming, and we retest the position before the ship loads or sails, so the report shows the joint both before and after the repair."
+    },
+    {
+      "q": "Does bad weather in the Netherlands delay the test?",
+      "a": "Rain, wind and cold do not stop an ultrasonic test, which is one reason it is used instead of hose testing in the winter months. Heavy rain only matters if it prevents safe access to the cover top. We agree a fall-back time with the superintendent in case access is limited."
+    }
+  ]
+}

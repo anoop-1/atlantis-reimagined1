@@ -1,0 +1,112 @@
+{
+  "slug": "tilbury",
+  "name": "Tilbury",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Tilbury Ship Gauging: UTM for Car Carriers, Bulkers & Cruise",
+  "description": "Ultrasonic thickness gauging at Tilbury on the Thames: car carriers, grain and paper ships, bulk carriers and cruise ships worked at the dock or river berths.",
+  "h1": "Thickness Measurement for Ships Working Cargo at Tilbury",
+  "intro": "Tilbury is the Thames port where ships of the working kind come to unload: pure car and truck carriers, grain ships, steel and forest-product carriers, and the cruise ships that use the river landing stage. Each spends a defined number of hours or days alongside. Atlantis mobilises technicians from India to meet the ship at the berth, take the agreed readings around the cargo operation and report in the class TM format.",
+  "keywords": [
+    "tilbury thickness gauging",
+    "ultrasonic thickness measurement tilbury",
+    "car carrier ramp inspection thames",
+    "grain ship hold gauging uk",
+    "ship inspection tilbury docks",
+    "paper carrier hold gauging",
+    "cruise ship gauging thames",
+    "utm tilbury",
+    "thames bulk carrier gauging",
+    "hatch cover thickness measurement"
+  ],
+  "highlights": [
+    {
+      "h": "Car carriers with ramps to check",
+      "p": "Pure car and truck carriers discharge fast, but their stern ramps, hinge pins and hoistable decks reward careful gauging. We plan short, targeted scopes that fit the discharge and still give a usable fatigue and wastage record."
+    },
+    {
+      "h": "Holds emptied for grain and bulk",
+      "p": "Grain and dry bulk ships stay alongside for days at a time, and each hold is emptied in turn. That progressive discharge lets us read frames, tank tops and hopper plating one hold after another."
+    },
+    {
+      "h": "River berths and dock berths both used",
+      "p": "Some ships work from the river wall, others lock into the enclosed dock. We plan around the tide and the lock timings so the team is on board when the ship is actually available, not when the schedule says it should be."
+    }
+  ],
+  "port": {
+    "h": "Tilbury: a tidal river port with a lock into the dock",
+    "p": [
+      "Tilbury stands on the north bank of the lower Thames, opposite Gravesend, in the Thurrock district of Essex. It is among the oldest of the modern London ports and keeps both a river frontage and an enclosed dock reached through a lock. Ships come up the estuary on the tide with a Port of London Authority pilot, and berth times are shaped by the tidal range, which on the Thames is large. A ship that misses the tide can wait at the anchorages in the estuary or lie off, so the master and the agent update the berthing plan hour by hour.",
+      "The cargo mix is distinctive. Pure car and truck carriers deliver new vehicles, grain ships load and discharge at the grain terminal, and forest-product and paper cargoes arrive on carriers designed for reels and pulp. Steel, aggregates, containers and project cargo move through too, and the river landing stage serves cruise ships that start or end voyages on the Thames. Tilbury2, the newer ro-ro and construction-materials terminal, has added berths for freight ferries and heavy cargo on the downstream side of the older dock.",
+      "These ship types stress their steel differently, and gauging reflects that. Car carriers have long open decks, steel ramps and hinge assemblies that move thousands of times a year; grain ships suffer in the holds from abrasion and coating loss where cargo has been grabbed out; paper carriers have dry, heavily fitted holds where corrosion is concentrated in the tween-deck and hatch-cover areas. The cruise ships that call here have the complex piping systems of passenger ships, and the superintendent usually wants tank, void and sea-water pipe readings during a turnaround."
+    ]
+  },
+  "facilities": {
+    "h": "Where a ship can be gauged at Tilbury",
+    "p": [
+      "Gauging is done alongside, whether the ship is on the river wall or in the dock. The agent arranges the pass for the team and confirms the berth and the discharge programme. For car carriers, we aim for the period when decks are empty and ramps parked, so deck plating, ramp hinges and the hoistable-deck suspension points can be read without vehicles in the way. For grain and bulk ships, holds are gauged once empty and swept, in the order cargo is discharged.",
+      "The estuary anchorages are used by ships waiting for the tide or for a berth, and short launch-borne jobs are possible there when the weather and the pilot station allow. There is no large repair drydock at Tilbury itself, so ships needing a full renewal survey go elsewhere in the UK or on the Continent. What we measure here forms the base for the steel estimate that owners send to the yard, which makes a Tilbury stay a good point to gather evidence rather than to carry out repairs."
+    ],
+    "list": [
+      "River berths and landing stage: cruise ships and cargo ships gauged on turnaround or while discharging against the river wall.",
+      "Enclosed dock berths: hold, tank and deck gauging on grain, paper and steel carriers after they lock in.",
+      "Grain terminal berths: hold frames, brackets, hopper plating and tank tops as each hold is emptied.",
+      "Ro-ro and car carrier berths: stern ramp, ramp hinge and hoistable-deck gauging between vehicle discharge and loading.",
+      "Estuary anchorages: short deck, hatch cover and air-pipe scopes on ships held for the tide."
+    ]
+  },
+  "context": {
+    "h": "Thames rules, port state control and the cargo trades",
+    "p": [
+      "The Port of London Authority manages navigation on the tidal Thames, sets pilotage rules and controls movements, and a gauging visit has to fit those rules. Port state control for foreign ships is the responsibility of the Maritime and Coastguard Agency, and the UK has applied the Paris MoU regime through domestic law since leaving the EU. Bulk carriers and general cargo ships with weathered hatch covers or holed deck plating are typical findings, and a recent record of thickness gauging helps a manager show that the structure is monitored.",
+      "Several trades here come with their own scrutiny. Car carriers are audited by vehicle manufacturers whose logistics teams look at ramps, lashing arrangements and deck condition, while grain shippers inspect holds for cleanliness and cargo readiness. Cruise ship operators run long-term maintenance plans and often ask for piping readings on a rolling basis. The EU Ship Recycling Regulation's Inventory of Hazardous Materials is expected on ships entering EU ports, but the UK has its own rules, so owners trading across the Channel often keep both sets of paperwork aligned."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Tilbury",
+    "p": "The work at Tilbury is tied to the cargo operation and the tide. We prepare a scope in priority order, because a car carrier may be alongside only briefly and a grain ship may finish early. The superintendent receives the readings in class formats, with wasted areas marked so that the yard's steel estimate can be firmed up before the next docking.",
+    "list": [
+      "Stern ramp, hinge and hoistable-deck gauging on a pure car and truck carrier between discharge and loading.",
+      "Hold frame and tank-top gauging on a grain ship, hold by hold, as each is emptied at the terminal.",
+      "Tween-deck, hatch cover and hold plating readings on a paper or forest-product carrier in the dock.",
+      "Ballast tank and sea-water piping gauging on a cruise ship during a turnaround at the landing stage.",
+      "Pre-purchase gauging of a bulk carrier or general cargo ship lying at a river berth."
+    ]
+  },
+  "logistics": "London City, Heathrow, Gatwick and Stansted all serve the area, and Tilbury is reached by road or by rail from London Fenchurch Street. The port controls entry to the docks, and passes are issued through the agent or the terminal operator. Technicians travel from India on UK visas, applied for once the job is confirmed, and owners with regular Thames calls can keep visas valid so that mobilisation follows the vessel's schedule. Launch work at the anchorages is booked by the ship's agent.",
+  "vessels": [
+    "Pure car and truck carriers",
+    "Grain and dry bulk ships",
+    "Paper and forest-product carriers",
+    "Steel and project cargo ships",
+    "Ro-ro freight ferries",
+    "Cruise ships",
+    "Container feeder ships",
+    "Tugs and river craft"
+  ],
+  "faqs": [
+    {
+      "q": "Can a car carrier be gauged during a short call at Tilbury?",
+      "a": "Yes, with a targeted scope. We plan stern ramp, hinge and hoistable-deck readings around the window when decks are clear of vehicles, and keep the most important points first in case the ship sails early. Longer programmes are split across consecutive Thames calls when the schedule is known in advance."
+    },
+    {
+      "q": "Do ships need to be in the dock, or can gauging be done at the river berth?",
+      "a": "Both work. A ship on the river wall or the landing stage can be gauged alongside, subject to the tide and the berth schedule. A ship in the enclosed dock is gauged after she has locked in. In either case the team boards through the agent's arrangements and works to the master's enclosed-space controls."
+    },
+    {
+      "q": "What can be done on a grain ship at Tilbury?",
+      "a": "Hold frames, brackets, hopper plating and tank tops, hold by hold, as each is emptied and swept. We also read hatch covers and coamings. Dust, residue and cargo operations affect access, so the sequence is agreed with the chief officer. The readings also help the shipper's cargo-readiness checks for the next loading."
+    },
+    {
+      "q": "Is there a drydock at Tilbury?",
+      "a": "There is no commercial drydock suited to large ships at Tilbury, so ships needing steel renewal dock elsewhere. Gauging here gives the steel estimate and the evidence for the specification, so the yard can plan material and labour before the ship arrives. That usually shortens the docking."
+    },
+    {
+      "q": "How is a Tilbury job arranged with a team from India?",
+      "a": "The superintendent supplies the ship's dates and scope, we apply for UK visas, book flights to London and arrange onward travel. The agent confirms the berth, the port pass and any launch for the anchorage. Because the tide and discharge can shift the timing, we keep the scope in priority order and agree changes with the master on board."
+    }
+  ],
+  "nearby": ["london", "sheerness", "felixstowe", "dover", "rotterdam", "dunkirk"]
+}

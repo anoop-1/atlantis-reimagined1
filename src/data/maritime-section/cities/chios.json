@@ -1,0 +1,112 @@
+{
+  "slug": "chios",
+  "name": "Chios",
+  "country": "Greece",
+  "region": "europe",
+  "title": "Chios Ship Gauging: UTM for Ferries, Coasters & Tankers",
+  "description": "Ultrasonic thickness gauging at Chios for island ferries, coasters, small tankers and laid-up ships: hull, deck and tank readings alongside or at the quay.",
+  "h1": "Ultrasonic Thickness Gauging for Ships Calling at Chios",
+  "intro": "Chios is an island port with an outsized place in Greek shipping, home island to many owning families and a regular stop for ferries, coasters and small tankers in the eastern Aegean. Its quays hold ships long enough for a proper steel check, although it has no large drydock of its own. Atlantis NDT sends ultrasonic gauging technicians from India to the ship at Chios, then hands the readings to whichever yard will do the docking.",
+  "keywords": [
+    "chios thickness gauging",
+    "ultrasonic thickness measurement chios",
+    "chios ship inspection",
+    "island ferry hull gauging",
+    "utm chios greece",
+    "aegean ferry thickness measurement",
+    "coaster thickness gauging greece",
+    "pre-purchase ship inspection chios",
+    "eastern aegean ship survey",
+    "laid-up ship gauging greece"
+  ],
+  "highlights": [
+    {
+      "h": "Island ferries between seasons",
+      "p": "Ro-pax ships serving Chios and the neighbouring islands run hard in summer and lie quieter in winter. Out-of-season lay-overs at the quay give time to gauge car decks, ramps and ballast tanks before the next docking."
+    },
+    {
+      "h": "Readings that travel to the yard",
+      "p": "With no major drydock on the island, most hull work is done elsewhere. Gauging at Chios fixes the steel picture early, so the owner can negotiate renewal quantities with a mainland or Turkish yard from a recorded baseline."
+    },
+    {
+      "h": "Owner-managed fleets close to home",
+      "p": "Several Greek management companies keep a link with the island, and ships under their management sometimes call or lie here. Condition and pre-sale checks can be arranged on short notice once the berth is confirmed."
+    }
+  ],
+  "port": {
+    "h": "Chios town, its harbour and the Strait",
+    "p": [
+      "The main harbour sits on the island's east coast, facing the Turkish mainland across a strait that is only a few miles wide at its narrowest. Chios town wraps around the harbour, and the quays are used by passenger ferries, small cargo ships and excursion craft. Further north the island has other small ports, while the south is known for mastic villages and a long coast that is dotted with anchorages. Approaches are open, but the strait funnels the northerly wind and the summer meltemi can make berthing demanding.",
+      "Traffic is a mix of regular and occasional. Ro-pax and conventional ferries link Chios with Piraeus and with other Aegean islands, and a high-speed service and local boats serve the near neighbours. Cargo comes in on small general cargo ships and coastal tankers supplying fuel and aggregates, along with the occasional bulk cargo for construction. The sea route to the Turkish coast carries its own small-craft traffic. Unlike a hub port, calls are measured in hours, and long stays happen only in the quieter months or when a ship is waiting for orders.",
+      "The Chios shipping tradition shows in what you see in the harbour. Owners from the island and nearby Oinousses have managed ships all over the world for generations, and it is not unusual for a managed ship to call at Chios for crew changes, owners' visits or a technical stop. These calls are rarely long but they give a superintendent a chance to assess a ship at the owner's door. Where more time is needed, ships wait at anchor in sheltered water, weather permitting."
+    ]
+  },
+  "facilities": {
+    "h": "Gauging at the quay, at anchor and on the way to a yard",
+    "p": [
+      "Chios has quay frontage rather than a major repair complex. A small yard and slipway take local craft, and fishing vessels, tugs and workboats can be hauled for hull inspection, but larger merchant ships and the bigger ferries go elsewhere for docking. Realistic gauging at Chios is therefore afloat: decks, hatch coamings, side shell above the waterline, accessible ballast tanks, and for ferries the vehicle decks and ramps, all measured while the ship is alongside.",
+      "Where a ship is heading for a docking, the sensible sequence is to gauge afloat at Chios, send the report to the yard and class surveyor, and, if the owner wishes, have the team join the ship again at the docking yard, usually at Perama or Elefsina on the Greek mainland, or at a Turkish yard across the strait. Berth allocation, port-gate access and permits are handled through the ship's agent and the port authority, and the team provides its certificates and equipment details in advance."
+    ],
+    "list": [
+      "Chios town harbour quays: deck, side shell and tank gauging on ferries and cargo ships during their stay alongside.",
+      "Ferry berths in the main harbour: car-deck, ramp and ballast-tank gauging on ro-pax ships during winter lay-overs.",
+      "Local slipway and small repair yard: shell and rudder readings on tugs, fishing boats and workboats hauled for survey.",
+      "Sheltered anchorage near the town: launch-served gauging for ships awaiting orders, subject to wind and swell.",
+      "Lay-by berths for laid-up ships: slower condition gauging over several days for owners considering sale or reactivation.",
+      "Handover to a mainland yard: readings prepared in the TM plan format for the docking at Perama or Elefsina."
+    ]
+  },
+  "context": {
+    "h": "Island trade, Greek regulation and the docking question",
+    "p": [
+      "Chios falls under Greek jurisdiction and the Hellenic Coast Guard, with Paris MoU port state control applying to foreign-flag ships calling there. The Coast Guard's local port authority controls berthing, safety and pollution matters in the harbour, and its permission is needed for work on ships that carry cargo or lie in the passenger berths. Ferries on island routes sit under Greek passenger-ship rules in addition to class, so a structural finding on a ro-pax ship can have operational consequences for a timetable that cannot easily be reshuffled.",
+      "Island ferries carry added regulatory attention under EU rules, since emissions on island voyages enter EU ETS and FuelEU Maritime accounting on their own terms, and owners are watching their fleet plans closely. For an older ferry, the question of whether to invest in another renewal or replace her is partly a thickness question. For the Greek owners that manage dry cargo and tanker tonnage from the island, the Ship Recycling Regulation's Inventory of Hazardous Materials adds a reason to know the hull and the steel before a sale."
+    ]
+  },
+  "eca": "eca-med",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical gauging jobs at Chios",
+    "p": "Jobs at Chios are shorter and more selective than at a repair yard, because the ship is working a timetable or a cargo and the steel is not open. The superintendent usually names a few priority spaces, often those with a history of wastage or the ones that class will want to see at the next survey. Results are returned in a form the docking yard can use, so the Chios readings feed straight into the steel renewal estimate. Typical requests are:",
+    "list": [
+      "An island ro-pax in winter lay-over: vehicle deck, ramp and ballast-tank gauging, with magnetic particle testing at hinge and door-frame welds.",
+      "A coastal tanker discharging fuel: deck plating, deck piping and accessible ballast-tank readings under the terminal's permit rules.",
+      "A small general cargo ship at the quay: hold frames and hatch coamings gauged after discharge, as preparation for a docking elsewhere.",
+      "A laid-up ship on a lay-by berth: condition gauging over a few days for the owner's sale or reactivation decision.",
+      "A pre-purchase check on a coaster, carried out in a single day alongside before the buyer lifts subjects."
+    ]
+  },
+  "logistics": "Chios has its own airport with domestic flights, and international travellers usually connect through Athens before the short onward flight or an overnight ferry from Piraeus. Technicians from India need a Schengen visa for Greece, applied for once the call is confirmed. Because ferry schedules and weather decide when a berth is free, the team travels only after the agent has confirmed the berth, and port access and permits are requested through the agent in advance.",
+  "vessels": [
+    "Island ro-pax ferries",
+    "Conventional passenger ferries",
+    "Coasters and small general cargo ships",
+    "Coastal tankers",
+    "Tugs and workboats",
+    "Fishing vessels",
+    "Laid-up and lay-by tonnage"
+  ],
+  "faqs": [
+    {
+      "q": "Is there a drydock at Chios for a docking survey?",
+      "a": "Not for merchant ships of any size. The island has small slipways for local craft, but larger vessels dock on the Greek mainland, most often at Perama or Elefsina, or at a yard on the Turkish side. Gauging at Chios is therefore done afloat, and the readings travel to the docking yard."
+    },
+    {
+      "q": "What can be gauged on a ferry that is only here for a few hours?",
+      "a": "A short list. The superintendent should rank the spaces, and the team measures the priorities first: typically vehicle-deck plating near ramps, a few ballast tanks and any area of known wastage. Anything that cannot be completed is noted for the next lay-over or the docking."
+    },
+    {
+      "q": "Can a laid-up ship be gauged at Chios?",
+      "a": "Yes, and it is one of the better uses of time here. A ship on a lay-by berth is not working cargo, so tanks can be opened, ventilated and measured over several days. The readings give the owner a reliable steel baseline for a sale, a reactivation or a decision to recycle."
+    },
+    {
+      "q": "Does wind affect work in Chios harbour?",
+      "a": "Occasionally. The strait channels strong northerly winds in summer, and gusts can disrupt launch transfers, staging and berthing. For quay work the effect is modest, but anchorage jobs depend on conditions on the day, so we agree a fallback date with the superintendent."
+    },
+    {
+      "q": "Can readings from Chios be used at a Turkish yard?",
+      "a": "Yes. Readings are recorded by plate, strake and frame, so any yard can use them to estimate steel renewal. Work at a Turkish yard would involve a separate visa and permit process, which we plan with the owner if the team is asked to continue there."
+    }
+  ],
+  "nearby": ["izmir", "syros", "piraeus", "lavrio", "rhodes"]
+}

@@ -1,0 +1,126 @@
+{
+  "port": "vlissingen",
+  "service": "corrosion-mapping",
+  "title": "Corrosion Mapping Ships Vlissingen | Encoded UT C-Scan",
+  "description": "Corrosion mapping in Vlissingen: encoded UT C-scans of dredger hoppers, car decks, tank tops and scrubber pipework for steel renewal sizing at the yard.",
+  "h1": "Encoded ultrasonic corrosion mapping of ship plating and piping in Vlissingen-Oost",
+  "intro": "A spot thickness gauge cannot say how far wastage spreads, and for some plates in Vlissingen that is the question that decides the yard job. Is the hopper floor of a dredger worn evenly or through in patches? How far does the wet-area wastage run under a ferry's car deck? Atlantis NDT sends a team from India with an encoded ultrasonic scanner to map those areas, producing a colour thickness map that sizes the renewal. The work is done in the dock at Vlissingen-Oost, at the yard quay or alongside at the Sloe berths.",
+  "highlights": [
+    {
+      "h": "Dredger hoppers mapped, not sampled",
+      "p": "Abrasion by spoil wears hopper plating unevenly. A scan across the floor shows the thin band where flow concentrates and the area it covers, so the insert plate is cut to measured extent and not to a guess drawn from scattered readings."
+    },
+    {
+      "h": "Wet-area wastage on car decks",
+      "p": "Water finds its way along car-deck drain lines and under tank-top plating. A map of the plating along those paths shows how far the loss has spread and which plates are near the limit, for the yard's insert plan."
+    },
+    {
+      "h": "Scrubber pipework at dock",
+      "p": "Wash-water and overboard lines on scrubber-fitted ships waste from the inside. When the ship is in dock and pipework is accessible, mapping a spool shows the length and depth of loss, so only the worn section is replaced."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-mapping-is-done",
+      "h": "Where can corrosion mapping be done for ships at Vlissingen?",
+      "p": [
+        "The main location is the dock at Damen Shiprepair Vlissingen. With the ship on blocks, bottom plating, sea chests, hopper floors and bottom doors can be scanned from outside, and tank structure from inside once the tank is gas-free. The yard supplies staging and lighting, and the scanner needs a clean, reasonably flat surface with a couplant film, so the yard's preparation sequence matters.",
+        "Alongside at the yard quay or a Sloe quay, the team scans decks, hatch coamings, tank tops accessible from the hold and piping on deck or in the engine room. The Westerschelde anchorages are rarely suitable, because the scanner needs a steady setup and enough time on each area. If a ship is waiting for the tide, we recommend gauging with a spot gauge for the estimate and mapping later at a berth."
+      ],
+      "list": [
+        "In dock: bottom plating, hopper floor, bottom doors and sea chest areas.",
+        "In gas-free tanks: tank tops, bulkheads and ballast tank bottoms.",
+        "On deck at the quay: car-deck plating, hatch coamings and working deck.",
+        "In the engine room and on deck: scrubber wash-water and overboard piping."
+      ]
+    },
+    {
+      "id": "which-ships-need-mapping",
+      "h": "Which ships in Zeeland benefit most from mapping, and why?",
+      "p": [
+        "Dredgers lead the list, because spoil abrasion produces localised, fast wear that a normal TM grid will miss. Ferries are next: car-deck plating and the steel beneath, along drains and wet zones, shows pattern wastage that mapping resolves. Offshore support vessels have working decks and ballast tank bottoms where corrosion pits and patches. Bulk carriers and general cargo ships come for tank tops and hold bottoms where cargo lay wet.",
+        "Ships fitted with scrubbers belong here for pipework, particularly on older ships where the scrubber was retrofitted to hull and piping already some years old. Mapping is a decision tool, so we recommend it where the answer will change what the yard does: where a hopper floor might be renewed in part or whole, or where a deck might be patched or replaced.",
+        "Offshore support vessels deserve a note of their own. Their ballast tanks are cycled between full and empty during a campaign, which wets and dries the plating repeatedly, and that pattern favours pitting on the tank bottom and along the lower stiffener flanges. A scan of one or two representative tank bottoms at docking tells the owner whether the tanks across the fleet's sister ships need attention, which is a decision that one scan can inform."
+      ]
+    },
+    {
+      "id": "scoping-mapping",
+      "h": "How is mapping scoped on a ship, and what does it need?",
+      "p": [
+        "We choose the areas with the superintendent from the earlier thickness readings, choosing those close to the allowable limit or where the trade predicts rapid loss. Each area gets a datum point and a grid, marked on the plate so the same area can be scanned again at the next survey. The scan resolution is set from the expected size of the wastage: finer for pitting, coarser for general loss.",
+        "The surface needs preparation. Loose scale and coating are removed so the probe sits flat, and a couplant film is applied. We scan in a raster pattern with an encoded scanner, which records position with each reading, then check the lowest readings and the deepest pits by hand. The colour scale is fixed and stated on the map, so a reader comparing two maps sees the same colours for the same thickness.",
+        "We also state the limits of the method in the report. A scan reads the thickness under the probe path, so areas the scanner could not reach, such as the edges of a plate or the toe of a stiffener, are gauged by hand and marked as such. Where coating or heavy scale prevented good contact, the map shows the gap as no data, not as a thin reading, so no one reads a blank as sound steel."
+      ]
+    },
+    {
+      "id": "reading-the-map",
+      "h": "How is a corrosion map turned into a steel renewal decision?",
+      "p": [
+        "The map shows the area below each threshold, the minimum and mean thickness and the location of deep patches. From it, the yard can draw an insert boundary that includes the plate below the renewal limit and leaves sound plate alone. For a hopper floor, this might be a band across the flow path. For a car deck, it might be a strip along a drain line.",
+        "Mapping also shows the shape of the loss, which tells the owner why it happened. A band along a flow path points to abrasion, a patch under a drain points to water, and scattered pits point to coating breakdown. The owner can then decide whether to renew, recoat or change operating practice. If the vessel was mapped at a previous survey, a comparison shows the rate of loss, which sizes how long the remaining steel will last.",
+        "For scrubber pipework the map is read differently. The lowest wall is usually at bends, tees and downstream of valves, where flow turns, and the map locates them along the spool. That tells the yard to replace the fittings and the first section of straight pipe beyond them, while the straight runs between often remain serviceable for several more years."
+      ]
+    },
+    {
+      "id": "planning-mapping",
+      "h": "How is a mapping job planned with the yard in Vlissingen?",
+      "p": [
+        "Mapping takes longer per area than spot gauging, so planning matters. We ask the superintendent for the areas of interest, the earlier TM report, the yard's preparation plan and the dock days available. Scanning follows cleaning and precedes blasting for external surfaces, so we agree the dates with the foreman. For tank areas, we agree the gas-free plan with the chief officer.",
+        "A team from India needs visas before travel, and the yard needs names for the induction. The agent arranges gate passes. Scanner equipment travels with the team, and we check it on arrival against a reference block. Tell us the plate areas and their approximate size, and we estimate the scanning days. If time is short, we prioritise the areas where the answer is most likely to change the yard's plan."
+      ],
+      "list": [
+        "Areas of interest with drawings and approximate sizes.",
+        "Earlier TM reports for the same areas.",
+        "Yard's cleaning and preparation plan.",
+        "Dock days available and the blasting start date."
+      ]
+    }
+  ],
+  "vessels": [
+    "Trailing suction hopper dredgers",
+    "Ro-pax and ro-ro ferries",
+    "Offshore wind support and installation vessels",
+    "Bulk carriers and general cargo ships",
+    "Chemical and product tankers",
+    "Ships fitted with exhaust gas cleaning systems",
+    "Ships under pre-purchase inspection"
+  ],
+  "codes": [
+    "ISO 16809 – Ultrasonic thickness measurement",
+    "ISO 16810 – Ultrasonic testing: general principles",
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z10 series – Hull surveys of tankers and bulk carriers",
+    "IACS Common Structural Rules for oil tankers and bulk carriers",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "C-scan thickness maps with a fixed, stated colour scale and datum references",
+    "Minimum and mean thickness and the area below each threshold, per mapped area",
+    "Hand-checked minimum readings and deepest pit depths",
+    "Insert boundary drawings for the yard, with approximate sizes",
+    "Comparison with earlier maps where a previous scan exists",
+    "Raw data files, calibration records and the scanning procedure"
+  ],
+  "faqs": [
+    {
+      "q": "Can a dredger hopper floor be mapped in the dock at Vlissingen?",
+      "a": "Yes. With the ship on blocks and the hopper cleaned, the floor can be scanned from inside. The scanner needs a clean, flat surface with couplant, so the yard's cleaning matters. The map shows where abrasion has thinned the plate and how large the area is, which sizes the insert."
+    },
+    {
+      "q": "Is mapping better than spot gauging for a ferry car deck?",
+      "a": "For the wet areas along drains, yes, because it shows how far wastage spreads from a spot reading. Spot gauging remains the right tool for the general grid. We recommend mapping where the answer will change what the yard does, such as renewing a strip or a whole plate."
+    },
+    {
+      "q": "Can you map a ship at anchor in the Westerschelde?",
+      "a": "Rarely. The scanner needs a steady setup and enough time on each area, which a launch transfer and sea state seldom allow. For a ship waiting for the tide, a spot gauge gives the estimate, and mapping is done later at a berth or in the dock."
+    },
+    {
+      "q": "How is a scrubber pipe spool mapped?",
+      "a": "With the pipe accessible and clean, the scanner is wrapped around the spool or run along it, and the map shows the length and depth of internal loss. Only the worn section needs replacement, which is why mapping at dock saves renewing sound pipe."
+    },
+    {
+      "q": "Can maps from different surveys be compared?",
+      "a": "Yes, if the datum marks and the colour scale are the same. We mark each area with a permanent datum and state the scale, so a later scan overlays the earlier one. The comparison shows the rate of loss, which tells the owner how long the remaining steel will last."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "port": "ghent",
+  "service": "ultrasonic-weld-inspection",
+  "title": "Ultrasonic Weld Inspection Ghent | Ship Repair Weld UT",
+  "description": "Ultrasonic weld inspection of ship repairs at Ghent: shear-wave UT of insert plates, frame renewals and butt welds on bulkers and ro-ro ships, no radiography.",
+  "h1": "Shear-Wave UT of Repair and Renewal Welds on Ships Calling at Ghent",
+  "intro": "When a ship comes to Ghent after a docking, or leaves for one, the weld work around her is the part nobody can see through: insert plates in hold sides, renewed frame lengths, bracket repairs and modifications to ramp structure. Ultrasonic weld inspection reveals what lies inside those welds from one side, without radiation and without stopping the work around it. Atlantis NDT performs manual shear-wave UT on butt welds and full-penetration joints, with technicians mobilised from India to the ship alongside.",
+  "highlights": [
+    {
+      "h": "Quay work that cannot stop for radiography",
+      "p": "Grabs, trucks and stevedores move around ships on the steelworks quay. Ultrasound needs no exclusion zone, so weld checks continue while cargo work does, which radiography would not allow."
+    },
+    {
+      "h": "Planar flaws found where they hide",
+      "p": "Lack of side-wall fusion and incomplete root penetration reflect sound well. They are the defects that matter most in a renewed frame or an insert plate, and they are the ones surface methods cannot see."
+    },
+    {
+      "h": "Repairs examined after the yard, before sailing",
+      "p": "Many ships arrive at Ghent with weld repairs completed elsewhere. Checking them here, with the readings tied to the weld map, tells the owner whether the work is sound before the next voyage."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-weld-ut-ghent",
+      "h": "Where can ultrasonic weld inspection be done at Ghent?",
+      "p": [
+        "Weld UT needs a scanning surface beside the joint and an arrangement that allows the probe to be moved across it, so it is carried out wherever the ship can provide access. On bulk carriers at the steelworks or agribulk quays, the work is typically inside holds once discharge is complete: insert plates in the hold side, renewed frames at the hopper knuckle and repaired brackets are scanned from staging or from the tank top.",
+        "On ro-ro ships, UT is used at ramp structure and at modified or repaired parts of the car decks, in the gaps between rotations. Multipurpose and general cargo ships may need it at crane foundations, cargo gear padeyes and hatch coaming repairs. Tankers at the canal terminals may need it on deck structure and supports once permits allow hot-work follow-up.",
+        "Ghent itself is not where deep-sea ships dock, so large steel renewals are usually done at yards in other ports. The Ghent call is therefore a place to check repairs made elsewhere and to examine smaller repairs made during the stay by whichever repair contractor is working on board."
+      ],
+      "list": [
+        "Hold sides and hopper knuckles: insert plates, renewed frame lengths and bracket repairs.",
+        "Ro-ro ramps and car decks: modified stiffeners, patch repairs and hinge brackets.",
+        "Deck structure on multipurpose ships: crane foundations, padeyes and coaming repairs.",
+        "Tanker deck supports and pipe supports once hot work has finished."
+      ]
+    },
+    {
+      "id": "ships-needing-weld-ut-ghent",
+      "h": "Which ships at Ghent need ultrasonic weld inspection?",
+      "p": [
+        "The first group is ships that have just had steel work done. A bulk carrier that has renewed hold frames, a ro-ro ship that has modified a ramp, or any ship whose repair yard did not include volumetric testing in the repair specification may want an independent check. Classification societies require specified testing of certain repairs, and an owner who wants assurance beyond the visual surface often adds UT.",
+        "The second group is ships with a known problem. A suspected lack of fusion in a frame-to-bracket weld, an indication from MPI that might extend into the weld, or a weld with a history of leaking in a ballast tank can all justify a UT examination to see what lies below the surface.",
+        "The third group is ships being bought. A buyer's surveyor looking at recent repairs on an older ship can ask for UT of a sample of the new welds, as part of a pre-purchase check on the quality of the steelwork the seller has just paid for."
+      ]
+    },
+    {
+      "id": "how-weld-ut-scoped-ghent",
+      "h": "How is a weld UT job scoped for a ship at Ghent?",
+      "p": [
+        "The scope comes from the weld map or repair list. For each joint the team needs the joint type, plate thickness, material, welding process and the extent to be examined. Typical coverage is a percentage of insert plate perimeters, the full length of critical joints, and an agreed sample of frame and bracket welds.",
+        "Probe angle and scanning pattern follow the thickness and geometry, and the team sets up on a calibration block before work begins and checks the setup at intervals. Surfaces beside the weld are cleaned, because rust and weld spatter prevent coupling. Welds in cold conditions need warmed probes and suitable couplant.",
+        "Acceptance depends on the standard the client names. If none is specified, the team applies the acceptance level in the class rules or the repair specification, and the report states which was used. Weld thickness and orientation limit what ultrasound can show, and the report records any joint where the geometry prevented a full examination."
+      ]
+    },
+    {
+      "id": "findings-weld-ut-ghent",
+      "h": "What does weld UT usually find on ships in this trade?",
+      "p": [
+        "In insert plates and renewed frames, the common findings are lack of side-wall fusion between passes and incomplete root penetration at the start and end of runs. Slag lines also appear in multi-pass welds made in difficult positions inside holds, where the welder worked overhead or in a confined corner.",
+        "On brackets and cut-out edges, the findings are often cracks that began in the heat-affected zone, sometimes linked to hydrogen in a weld made in damp conditions. At ramp structure, UT sometimes shows fatigue cracks extending below the surface from a toe indication found by MPI.",
+        "Each indication is located by position along the weld, depth below the surface and length, and sized against the acceptance level. The report separates the indications that need repair from those within acceptance, so the repair crew works from a list instead of a general impression."
+      ]
+    },
+    {
+      "id": "planning-weld-ut-ghent",
+      "h": "How do you plan weld UT around a ship's stay at Ghent?",
+      "p": [
+        "The sequence matters most. Welds have to be finished and cooled before testing, and repairs found by UT have to be completed and retested before the ship sails, so the testing window sits at the end of the repair and well before departure. Tell us the repair crew's schedule, the weld map and the expected sailing time.",
+        "Cleaning and access must be arranged beforehand. For holds, this means staging, lighting and ventilation, and for deck structure it means a clear working surface. If the repair specification calls for a particular acceptance standard or a percentage of welds, include it in the enquiry so that the team prepares the right procedure.",
+        "Because the team travels from India, with Schengen visas processed after the call is confirmed, early notice is the best help. The ship's agent arranges the gate pass. The report is an owner's or yard's NDT record, and the surveyor decides whether the class requires anything further."
+      ]
+    },
+    {
+      "id": "worked-example-weld-ut-ghent",
+      "h": "What does a weld UT scope look like on one ship?",
+      "p": [
+        "A bulk carrier arrives at the steelworks quay with eight renewed frame lengths and four insert plates in the hold sides, welded at a yard elsewhere. After discharge, the team scans the full length of the insert plate welds and a sample of the frame butt welds from staging in the hold.",
+        "Indications are measured and marked on the steel. The owner receives a list showing which welds are clean and which carry indications above the acceptance level, with the position and depth of each, and the ship's crew passes that list to whichever repair contractor will correct them."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers with renewed frames and insert plates",
+    "Ro-ro ships with modified ramps and car decks",
+    "General cargo and multipurpose ships with crane foundations",
+    "Vehicle carriers",
+    "Product and biofuel tankers",
+    "Ships under purchase inspection"
+  ],
+  "codes": [
+    "ISO 17640 (ultrasonic testing of welded joints)",
+    "ISO 11666 (acceptance levels for ultrasonic testing of welds)",
+    "ISO 16811 and ISO 16823 (sensitivity setting and technique references)",
+    "IACS Recommendation 47 (shipbuilding and repair quality standard)",
+    "Class rules for non-destructive testing of hull welds",
+    "ASTM E164 where the client specifies it"
+  ],
+  "deliverables": [
+    "Weld list with joint type, thickness and extent examined",
+    "Procedure reference and calibration block records",
+    "Indications with position, depth and length",
+    "Acceptance level applied and result for each weld",
+    "Weld map marked with indications for the repair crew",
+    "Technician certificates and equipment records"
+  ],
+  "faqs": [
+    {
+      "q": "Why use UT instead of radiography for ship welds at Ghent?",
+      "a": "Radiography needs an exclusion zone and a licensed source, which does not suit a busy quay with grabs and trucks. UT needs one-sided access and no radiation, so cargo work and other trades carry on nearby while welds are checked."
+    },
+    {
+      "q": "Can you check weld repairs done at a yard in another port?",
+      "a": "Yes. Ships often arrive at Ghent after a docking elsewhere. We scan the insert plates and renewed frames with the weld map, so the owner knows the condition of the repairs before the next voyage."
+    },
+    {
+      "q": "What does weld UT find that MPI cannot?",
+      "a": "MPI shows surface-breaking cracks. UT looks inside the weld and finds lack of fusion, incomplete penetration and slag lines below the surface. The two methods are often combined on critical repairs."
+    },
+    {
+      "q": "What acceptance standard is used for the weld results?",
+      "a": "The one named in the repair specification or by the client. If none is named, we apply the acceptance level in the class rules and state it in the report, so the result can be read against a known criterion."
+    },
+    {
+      "q": "What should we have ready before the team arrives from India?",
+      "a": "The weld map or repair list, joint types and thicknesses, the repair schedule, the acceptance standard and the expected sailing time. Staging, lighting and cleaned surfaces beside each weld are arranged with the crew before scanning begins."
+    }
+  ]
+}

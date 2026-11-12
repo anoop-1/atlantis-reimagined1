@@ -164,5 +164,41 @@ export const US_TRAINING_PAGES = {
   "/ndt-training-williston": "Williston, ND",
   "/ndt-training-wisconsin": "Wisconsin",
   "/ndt-training-wyoming": "Wyoming",
+  "/ndt-training-sacramento": "Sacramento, CA", // 2026-11-11
+  "/ndt-training-long-beach": "Long Beach, CA", // 2026-11-11
+  "/ndt-training-bakersfield": "Bakersfield, CA", // 2026-11-11
+  "/ndt-training-tucson": "Tucson, AZ", // 2026-11-11
+  "/ndt-training-reno": "Reno, NV", // 2026-11-11
+  "/ndt-training-colorado-springs": "Colorado Springs, CO", // 2026-11-11
+  "/ndt-training-spokane": "Spokane, WA", // 2026-11-11
+  "/ndt-training-tacoma": "Tacoma, WA", // 2026-11-11
+  "/ndt-training-ogden": "Ogden, UT", // 2026-11-11
+  "/ndt-training-farmington": "Farmington, NM", // 2026-11-11
+  "/ndt-training-hobbs": "Hobbs, NM", // 2026-11-11
+  "/ndt-training-casper": "Casper, WY", // 2026-11-11
+  "/ndt-training-fairbanks": "Fairbanks, AK", // 2026-11-11
+  "/ndt-training-lafayette": "Lafayette, LA", // 2026-11-11
+  "/ndt-training-houma": "Houma, LA", // 2026-11-11
+  "/ndt-training-shreveport": "Shreveport, LA", // 2026-11-11
+  "/ndt-training-freeport": "Freeport, TX", // 2026-11-11
+  "/ndt-training-brownsville": "Brownsville, TX", // 2026-11-11
+  "/ndt-training-birmingham": "Birmingham, AL", // 2026-11-11
+  "/ndt-training-memphis": "Memphis, TN", // 2026-11-11
+  "/ndt-training-louisville": "Louisville, KY", // 2026-11-11
+  "/ndt-training-knoxville": "Knoxville, TN", // 2026-11-11
+  "/ndt-training-chattanooga": "Chattanooga, TN", // 2026-11-11
+  "/ndt-training-greenville-south-carolina": "Greenville, SC", // 2026-11-11
+  "/ndt-training-raleigh": "Raleigh, NC", // 2026-11-11
+  "/ndt-training-wilmington-north-carolina": "Wilmington, NC", // 2026-11-11
+  "/ndt-training-richmond": "Richmond, VA", // 2026-11-11
+  "/ndt-training-lynchburg": "Lynchburg, VA", // 2026-11-11
+  "/ndt-training-portsmouth-new-hampshire": "Portsmouth, NH", // 2026-11-11
+  "/ndt-training-albany": "Albany, NY", // 2026-11-11
+  "/ndt-training-erie": "Erie, PA", // 2026-11-11
+  "/ndt-training-allentown": "Allentown, PA", // 2026-11-11
+  "/ndt-training-toledo": "Toledo, OH", // 2026-11-11
+  "/ndt-training-dayton": "Dayton, OH", // 2026-11-11
+  "/ndt-training-grand-rapids": "Grand Rapids, MI", // 2026-11-11
+  "/ndt-training-peoria": "Peoria, IL", // 2026-11-11
 };
 export const US_TRAINING_PATHS = Object.keys(US_TRAINING_PAGES);

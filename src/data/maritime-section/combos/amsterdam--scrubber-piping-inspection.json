@@ -1,0 +1,117 @@
+{
+  "port": "amsterdam",
+  "service": "scrubber-piping-inspection",
+  "title": "Scrubber Pipe Inspection Amsterdam | EGCS Overboard Lines",
+  "description": "Scrubber pipe inspection in Amsterdam and IJmuiden: wash-water and overboard discharge piping on scrubber-fitted ships entering the North Sea ECA and the canal.",
+  "h1": "EGCS Wash-Water and Overboard Piping Inspection for Ships Using the IJmuiden Approaches",
+  "intro": "Ships bound for Amsterdam sail through the North Sea sulphur emission control area, and many comply by running an exhaust gas cleaning system. On the way up the canal, or during the stay alongside, the scrubber is often shut down, and that is the moment the wash-water piping and the overboard discharge can be examined. Our team is mobilised from India to the ship, inspects the metallic lines by ultrasonic thickness measurement and the GRE sections visually, and reports the condition of the shell connections that cannot be isolated when the ship is at sea.",
+  "highlights": [
+    {
+      "h": "Shut down for the canal passage",
+      "p": "Local rules on open-loop discharge in canal and port waters mean many scrubber ships stop wash-water flow before entering the locks. The system is then idle for the whole stay, and the piping can be examined without the heat and flow of operation."
+    },
+    {
+      "h": "Overboard connection at the shell",
+      "p": "The distance piece between the overboard valve and the ship's side is the weak point of any scrubber installation. It is gauged around its circumference and examined at its weld to the shell, which a stay alongside makes possible."
+    },
+    {
+      "h": "Cruise and cargo ships alike",
+      "p": "Cruise ships using the city passenger terminal and cargo ships and tankers in the basins all carry scrubbers. The systems differ in size and layout, but the questions about wall loss and shell connections are the same."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-this-port",
+      "h": "Why do scrubber ships need pipe inspection on the way to Amsterdam?",
+      "p": [
+        "The North Sea limit for sulphur in fuel is 0.10 per cent, which a scrubber-fitted ship meets by cleaning the exhaust instead of switching fuel. The wash water that does the cleaning is hot, acidic and loaded with chlorides, and it leaves through pipework that ends at an opening in the ship's side. That combination attacks metal from the inside, and the piping that has run through the North Sea in all seasons is a reasonable place to look for wear.",
+        "Amsterdam adds a particular reason. Inland and canal waters bring their own discharge restrictions for open-loop systems, which the agent confirms for each call. A ship that runs open loop at sea but shuts the system down for the locks therefore has a predictable idle period inside the canal basins, with the system drained or at least not flowing. That is the time at which gauging and visual examination are straightforward.",
+        "Owners also have to think about the discharge line as a safety matter. A failure of the overboard section can let sea water into the engine room, and class societies have paid attention to scrubber overboard connections for exactly that reason. A measured record of the wall of those pieces at each port call is an inexpensive way of showing that the risk is being managed."
+      ]
+    },
+    {
+      "id": "where-it-is-done",
+      "h": "Where the scrubber piping can be reached at the port",
+      "p": [
+        "Alongside berths give access to the engine room, the scrubber room or casing and the overboard fittings, and the ship's crew can isolate and drain the system. We see scrubber jobs at the cruise terminal in the city, at tank terminal and general cargo berths in the western basins, and at quays at IJmuiden where a ship lies for several days. Lay-by berths suit jobs that take more than one shift, because the ship is not under pressure to release the berth.",
+        "The floating docks on the canal take ships that fit them, and for those the underwater portion of the overboard connection is dry and can be examined from outside at the shell, the weld and the rubber or steel expansion piece. For larger ships docking elsewhere in the region, an Amsterdam gauging visit provides baseline readings that the yard uses to specify pipe renewal in the docking."
+      ],
+      "list": [
+        "City passenger terminal: scrubber systems on cruise ships during a turnaround call.",
+        "Western basin terminals and lay-by berths: tankers and cargo ships with open-loop, closed-loop or hybrid systems.",
+        "Quays at IJmuiden: ships waiting between contracts or voyages with the system shut down.",
+        "Floating docks on the canal: external shell connections of the overboard discharge in dry conditions."
+      ]
+    },
+    {
+      "id": "method-by-material",
+      "h": "How each section is examined",
+      "p": [
+        "The piping in a scrubber installation is made of several materials, and each needs its own method. Carbon steel pipe is gauged by ultrasonic thickness measurement, with readings concentrated at bends, at the first section after pumps and valves, at low points and in the discharge line. Stainless and duplex steel sections are gauged in the same way, with the instrument and technique adjusted to the material, and the welds are examined by dye penetrant where cracking or pitting is suspected.",
+        "Glass-reinforced plastic sections cannot be gauged in the same manner. They are examined visually and by tapping for delamination, the joints and flanges are checked for leakage and cracking, and the inside is inspected through any inspection openings. Rubber-lined pipe and expansion pieces are examined for cracking, bulging and loss of lining.",
+        "The most important single item is the distance piece between the overboard valve and the shell. It is measured around its whole circumference at several levels, and the weld to the shell plating is examined, with the readings reported separately from the rest of the piping so that the superintendent sees the critical section at a glance."
+      ]
+    },
+    {
+      "id": "what-we-find",
+      "h": "What we typically find on scrubber piping and what it means",
+      "p": [
+        "The wear tends to follow the flow. Wall loss is usually greatest where the water changes direction or speed: bends after the wash-water pumps, the connections to the scrubber unit, and the stretch of pipe leading into the overboard valve. Crevice corrosion shows up under flange gaskets and at bolted joints, and galvanic effects appear where dissimilar metals meet. The overboard piece itself is exposed to the greatest chloride concentration, since it carries the wash water directly to the sea.",
+        "On GRE piping the typical findings are cracks at flanges and saddles, staining that points to a slow leak and delamination near supports where the pipe has moved. These are often cosmetic early on and structural later, and a photograph record from each port call helps the technical team to see which ones are changing.",
+        "We report results on a plan of the scrubber piping system, with each section marked by material, measured wall and the condition grade. Anything near the limit is highlighted and goes onto the owner's replacement list, with a recommended re-gauging interval agreed for that ship."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning a scrubber piping job for an Amsterdam call",
+      "p": [
+        "The key decision is which period of the call has the scrubber shut down and the piping drained. We ask the chief engineer for the intended operating mode through the locks and while alongside, and plan around it. A ship that plans to switch to compliant fuel for the canal gives us the longest quiet period; a hybrid system that stops only for the lock passage gives a shorter one and a more focused programme.",
+        "The team travels from India, so the earlier we have the expected berthing and sailing dates, the better we can match visas and flights, including changes to lock slots. Please send the scrubber system drawings, the manufacturer and type, the piping materials and the last inspection or gauging report, if there is one. The ship isolates and drains the lines, removes insulation, and provides lighting and access; the agent arranges the technicians' gate pass."
+      ]
+    }
+  ],
+  "vessels": [
+    "Cruise ships at the city passenger terminal",
+    "Product tankers with hybrid scrubbers",
+    "Bulk carriers fitted with open-loop systems",
+    "Multipurpose and general cargo ships with scrubbers",
+    "Offshore support vessels with exhaust cleaning systems",
+    "Ro-ro and short-sea ships using closed-loop units"
+  ],
+  "codes": [
+    "MARPOL Annex VI Regulation 14 on sulphur limits and the 2024 Guidelines for exhaust gas cleaning systems",
+    "North Sea sulphur emission control area requirements under MARPOL Annex VI",
+    "IACS UR P2 and class society rules on piping, including shell connections",
+    "Class society guidance on scrubber installations and overboard discharge arrangements",
+    "ISO 16809 and ASTM E797 for ultrasonic thickness measurement; ISO 3452-1 for penetrant testing"
+  ],
+  "deliverables": [
+    "Plan of the wash-water and overboard system with each section's material and measured wall",
+    "Separate record of the distance piece and its shell weld",
+    "Visual condition grading of GRE sections, flanges and expansion pieces",
+    "Penetrant testing records for welds in duplex and stainless sections",
+    "Recommended re-gauging interval for the ship's system"
+  ],
+  "faqs": [
+    {
+      "q": "Why inspect scrubber piping when the ship is on the way to Amsterdam?",
+      "a": "Many scrubber ships stop wash-water flow in the canal, so the piping is idle for the stay and can be examined safely. The North Sea approaches also put the system through its hardest running. A gauging visit at Amsterdam shows how the lines are wearing before the next voyage."
+    },
+    {
+      "q": "Which part of the scrubber piping matters most?",
+      "a": "The distance piece between the overboard valve and the shell. It cannot be isolated by closing the valve, it carries the most aggressive water and a failure there can flood the engine room. We measure it around its circumference and examine its weld to the shell on every visit."
+    },
+    {
+      "q": "Can GRE piping be inspected?",
+      "a": "Yes, visually and by tapping, not by thickness gauging. We look for cracks at flanges and saddles, delamination near supports, staining that shows slow leaks and joint condition. A photograph record from each call helps the technical team to see which defects are changing and which are stable."
+    },
+    {
+      "q": "Does it matter whether the scrubber runs open or closed loop?",
+      "a": "It changes the plan, not the principle. Open-loop systems discharge more water through the overboard line and are more likely to be shut down in the canal. Closed-loop and hybrid systems have different pipework and tanks. We ask for the system type and operating mode before the call and scope accordingly."
+    },
+    {
+      "q": "Is the scrubber piping report a class document?",
+      "a": "No. It is the owner's NDT record of wall thickness and condition, written for the technical department and available to show a surveyor or an inspector. Any repair of shell connections or class piping still needs the class surveyor's involvement, which we do not replace."
+    }
+  ]
+}

@@ -3163,6 +3163,50 @@ const NDTTrainingGroton = lazy(() => import("./pages/ndt-training-groton"));
 const NDTTrainingBathMaine = lazy(() => import("./pages/ndt-training-bath-maine"));
 // === Training city expansion 2026-08-12 — 8 missing high-value US markets ===
 const NDTTrainingNewportNews = lazy(() => import("./pages/ndt-training-newport-news"));
+const NDTTrainingSacramento = lazy(() => import("./pages/ndt-training-sacramento")); // NA training 2026-11-11
+const NDTTrainingLongBeach = lazy(() => import("./pages/ndt-training-long-beach")); // NA training 2026-11-11
+const NDTTrainingBakersfield = lazy(() => import("./pages/ndt-training-bakersfield")); // NA training 2026-11-11
+const NDTTrainingTucson = lazy(() => import("./pages/ndt-training-tucson")); // NA training 2026-11-11
+const NDTTrainingReno = lazy(() => import("./pages/ndt-training-reno")); // NA training 2026-11-11
+const NDTTrainingColoradoSprings = lazy(() => import("./pages/ndt-training-colorado-springs")); // NA training 2026-11-11
+const NDTTrainingSpokane = lazy(() => import("./pages/ndt-training-spokane")); // NA training 2026-11-11
+const NDTTrainingTacoma = lazy(() => import("./pages/ndt-training-tacoma")); // NA training 2026-11-11
+const NDTTrainingOgden = lazy(() => import("./pages/ndt-training-ogden")); // NA training 2026-11-11
+const NDTTrainingFarmington = lazy(() => import("./pages/ndt-training-farmington")); // NA training 2026-11-11
+const NDTTrainingHobbs = lazy(() => import("./pages/ndt-training-hobbs")); // NA training 2026-11-11
+const NDTTrainingCasper = lazy(() => import("./pages/ndt-training-casper")); // NA training 2026-11-11
+const NDTTrainingFairbanks = lazy(() => import("./pages/ndt-training-fairbanks")); // NA training 2026-11-11
+const NDTTrainingLafayette = lazy(() => import("./pages/ndt-training-lafayette")); // NA training 2026-11-11
+const NDTTrainingHouma = lazy(() => import("./pages/ndt-training-houma")); // NA training 2026-11-11
+const NDTTrainingShreveport = lazy(() => import("./pages/ndt-training-shreveport")); // NA training 2026-11-11
+const NDTTrainingFreeport = lazy(() => import("./pages/ndt-training-freeport")); // NA training 2026-11-11
+const NDTTrainingBrownsville = lazy(() => import("./pages/ndt-training-brownsville")); // NA training 2026-11-11
+const NDTTrainingBirmingham = lazy(() => import("./pages/ndt-training-birmingham")); // NA training 2026-11-11
+const NDTTrainingMemphis = lazy(() => import("./pages/ndt-training-memphis")); // NA training 2026-11-11
+const NDTTrainingLouisville = lazy(() => import("./pages/ndt-training-louisville")); // NA training 2026-11-11
+const NDTTrainingKnoxville = lazy(() => import("./pages/ndt-training-knoxville")); // NA training 2026-11-11
+const NDTTrainingChattanooga = lazy(() => import("./pages/ndt-training-chattanooga")); // NA training 2026-11-11
+const NDTTrainingGreenvilleSouthCarolina = lazy(() => import("./pages/ndt-training-greenville-south-carolina")); // NA training 2026-11-11
+const NDTTrainingRaleigh = lazy(() => import("./pages/ndt-training-raleigh")); // NA training 2026-11-11
+const NDTTrainingWilmingtonNorthCarolina = lazy(() => import("./pages/ndt-training-wilmington-north-carolina")); // NA training 2026-11-11
+const NDTTrainingRichmond = lazy(() => import("./pages/ndt-training-richmond")); // NA training 2026-11-11
+const NDTTrainingLynchburg = lazy(() => import("./pages/ndt-training-lynchburg")); // NA training 2026-11-11
+const NDTTrainingPortsmouthNewHampshire = lazy(() => import("./pages/ndt-training-portsmouth-new-hampshire")); // NA training 2026-11-11
+const NDTTrainingAlbany = lazy(() => import("./pages/ndt-training-albany")); // NA training 2026-11-11
+const NDTTrainingErie = lazy(() => import("./pages/ndt-training-erie")); // NA training 2026-11-11
+const NDTTrainingAllentown = lazy(() => import("./pages/ndt-training-allentown")); // NA training 2026-11-11
+const NDTTrainingToledo = lazy(() => import("./pages/ndt-training-toledo")); // NA training 2026-11-11
+const NDTTrainingDayton = lazy(() => import("./pages/ndt-training-dayton")); // NA training 2026-11-11
+const NDTTrainingGrandRapids = lazy(() => import("./pages/ndt-training-grand-rapids")); // NA training 2026-11-11
+const NDTTrainingPeoria = lazy(() => import("./pages/ndt-training-peoria")); // NA training 2026-11-11
+const NDTTrainingToronto = lazy(() => import("./pages/ndt-training-toronto")); // NA training 2026-11-11
+const NDTTrainingHamiltonOntario = lazy(() => import("./pages/ndt-training-hamilton-ontario")); // NA training 2026-11-11
+const NDTTrainingSudbury = lazy(() => import("./pages/ndt-training-sudbury")); // NA training 2026-11-11
+const NDTTrainingRegina = lazy(() => import("./pages/ndt-training-regina")); // NA training 2026-11-11
+const NDTTrainingSaskatoon = lazy(() => import("./pages/ndt-training-saskatoon")); // NA training 2026-11-11
+const NDTTrainingRedDeer = lazy(() => import("./pages/ndt-training-red-deer")); // NA training 2026-11-11
+const NDTTrainingGrandePrairie = lazy(() => import("./pages/ndt-training-grande-prairie")); // NA training 2026-11-11
+const NDTTrainingKitimat = lazy(() => import("./pages/ndt-training-kitimat")); // NA training 2026-11-11
 const NDTTrainingOakRidge = lazy(() => import("./pages/ndt-training-oak-ridge"));
 const NDTTrainingRichland = lazy(() => import("./pages/ndt-training-richland"));
 const NDTTrainingIdahoFalls = lazy(() => import("./pages/ndt-training-idaho-falls"));
@@ -6821,6 +6865,50 @@ export default function RouteTable() { return (
                   <Route path="/ndt-training-savannah" element={<LazyRoute Component={NDTTrainingSavannah} />} />
                   <Route path="/ndt-training-aiken" element={<LazyRoute Component={NDTTrainingAiken} />} />
                   <Route path="/ndt-training-newport-news" element={<LazyRoute Component={NDTTrainingNewportNews} />} />
+                  <Route path="/ndt-training-sacramento" element={<LazyRoute Component={NDTTrainingSacramento} />} />
+                  <Route path="/ndt-training-long-beach" element={<LazyRoute Component={NDTTrainingLongBeach} />} />
+                  <Route path="/ndt-training-bakersfield" element={<LazyRoute Component={NDTTrainingBakersfield} />} />
+                  <Route path="/ndt-training-tucson" element={<LazyRoute Component={NDTTrainingTucson} />} />
+                  <Route path="/ndt-training-reno" element={<LazyRoute Component={NDTTrainingReno} />} />
+                  <Route path="/ndt-training-colorado-springs" element={<LazyRoute Component={NDTTrainingColoradoSprings} />} />
+                  <Route path="/ndt-training-spokane" element={<LazyRoute Component={NDTTrainingSpokane} />} />
+                  <Route path="/ndt-training-tacoma" element={<LazyRoute Component={NDTTrainingTacoma} />} />
+                  <Route path="/ndt-training-ogden" element={<LazyRoute Component={NDTTrainingOgden} />} />
+                  <Route path="/ndt-training-farmington" element={<LazyRoute Component={NDTTrainingFarmington} />} />
+                  <Route path="/ndt-training-hobbs" element={<LazyRoute Component={NDTTrainingHobbs} />} />
+                  <Route path="/ndt-training-casper" element={<LazyRoute Component={NDTTrainingCasper} />} />
+                  <Route path="/ndt-training-fairbanks" element={<LazyRoute Component={NDTTrainingFairbanks} />} />
+                  <Route path="/ndt-training-lafayette" element={<LazyRoute Component={NDTTrainingLafayette} />} />
+                  <Route path="/ndt-training-houma" element={<LazyRoute Component={NDTTrainingHouma} />} />
+                  <Route path="/ndt-training-shreveport" element={<LazyRoute Component={NDTTrainingShreveport} />} />
+                  <Route path="/ndt-training-freeport" element={<LazyRoute Component={NDTTrainingFreeport} />} />
+                  <Route path="/ndt-training-brownsville" element={<LazyRoute Component={NDTTrainingBrownsville} />} />
+                  <Route path="/ndt-training-birmingham" element={<LazyRoute Component={NDTTrainingBirmingham} />} />
+                  <Route path="/ndt-training-memphis" element={<LazyRoute Component={NDTTrainingMemphis} />} />
+                  <Route path="/ndt-training-louisville" element={<LazyRoute Component={NDTTrainingLouisville} />} />
+                  <Route path="/ndt-training-knoxville" element={<LazyRoute Component={NDTTrainingKnoxville} />} />
+                  <Route path="/ndt-training-chattanooga" element={<LazyRoute Component={NDTTrainingChattanooga} />} />
+                  <Route path="/ndt-training-greenville-south-carolina" element={<LazyRoute Component={NDTTrainingGreenvilleSouthCarolina} />} />
+                  <Route path="/ndt-training-raleigh" element={<LazyRoute Component={NDTTrainingRaleigh} />} />
+                  <Route path="/ndt-training-wilmington-north-carolina" element={<LazyRoute Component={NDTTrainingWilmingtonNorthCarolina} />} />
+                  <Route path="/ndt-training-richmond" element={<LazyRoute Component={NDTTrainingRichmond} />} />
+                  <Route path="/ndt-training-lynchburg" element={<LazyRoute Component={NDTTrainingLynchburg} />} />
+                  <Route path="/ndt-training-portsmouth-new-hampshire" element={<LazyRoute Component={NDTTrainingPortsmouthNewHampshire} />} />
+                  <Route path="/ndt-training-albany" element={<LazyRoute Component={NDTTrainingAlbany} />} />
+                  <Route path="/ndt-training-erie" element={<LazyRoute Component={NDTTrainingErie} />} />
+                  <Route path="/ndt-training-allentown" element={<LazyRoute Component={NDTTrainingAllentown} />} />
+                  <Route path="/ndt-training-toledo" element={<LazyRoute Component={NDTTrainingToledo} />} />
+                  <Route path="/ndt-training-dayton" element={<LazyRoute Component={NDTTrainingDayton} />} />
+                  <Route path="/ndt-training-grand-rapids" element={<LazyRoute Component={NDTTrainingGrandRapids} />} />
+                  <Route path="/ndt-training-peoria" element={<LazyRoute Component={NDTTrainingPeoria} />} />
+                  <Route path="/ndt-training-toronto" element={<LazyRoute Component={NDTTrainingToronto} />} />
+                  <Route path="/ndt-training-hamilton-ontario" element={<LazyRoute Component={NDTTrainingHamiltonOntario} />} />
+                  <Route path="/ndt-training-sudbury" element={<LazyRoute Component={NDTTrainingSudbury} />} />
+                  <Route path="/ndt-training-regina" element={<LazyRoute Component={NDTTrainingRegina} />} />
+                  <Route path="/ndt-training-saskatoon" element={<LazyRoute Component={NDTTrainingSaskatoon} />} />
+                  <Route path="/ndt-training-red-deer" element={<LazyRoute Component={NDTTrainingRedDeer} />} />
+                  <Route path="/ndt-training-grande-prairie" element={<LazyRoute Component={NDTTrainingGrandePrairie} />} />
+                  <Route path="/ndt-training-kitimat" element={<LazyRoute Component={NDTTrainingKitimat} />} />
                   <Route path="/ndt-training-oak-ridge" element={<LazyRoute Component={NDTTrainingOakRidge} />} />
                   <Route path="/ndt-training-richland" element={<LazyRoute Component={NDTTrainingRichland} />} />
                   <Route path="/ndt-training-idaho-falls" element={<LazyRoute Component={NDTTrainingIdahoFalls} />} />
@@ -6908,6 +6996,7 @@ export default function RouteTable() { return (
                   {/* 2026-10-18 inspection section — static routes outrank /inspection/:slug */}
                   <Route path="/maritime" element={<LazyRoute Component={MaritimeSection} />} />
                   <Route path="/maritime/:slug" element={<LazyRoute Component={MaritimeSection} />} />
+                  <Route path="/maritime/:slug/:service" element={<LazyRoute Component={MaritimeSection} />} />
                   <Route path="/inspection" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/ndt-inspection-services/advanced-ndt" element={<LazyRoute Component={InspectionSection} />} />

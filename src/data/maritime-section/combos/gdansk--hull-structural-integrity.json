@@ -1,0 +1,123 @@
+{
+  "port": "gdansk",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Gdańsk | Hold & Ice Belt",
+  "description": "Hull structural integrity inspection in Gdańsk: hold frame wastage on coal and grain carriers, ice belt abrasion, ferry decks and Baltic cracking details.",
+  "h1": "Structural Inspection of Ships in Gdańsk: Hold Frames, Ice Belts and Fatigue Details",
+  "intro": "Baltic trading wears ships in ways that warm-water trades do not. Coal and grain carriers lose steel on hold frames and tank tops, ice-class ships abrade their side shell along the ice belt, and ferries running through winter develop wasted deck plating and cracked details. We mobilise a team from India to Gdańsk to inspect structural condition at the Northern Port, the Inner Port quays, the anchorage in the Gulf or a repair dock, recording corrosion pattern, deformation and cracks in a report your technical department can assess against class rules.",
+  "highlights": [
+    {
+      "h": "Hold frames on coal and grain ships",
+      "p": "Cargoes loaded in the Northern Port attack frame ends, brackets and tank tops in different ways. Holds are measured between loading stages, with attention to the lower frame ends and the corrugated bulkhead stools."
+    },
+    {
+      "h": "Ice belt and side shell abrasion",
+      "p": "Ships that trade in Baltic winters wear the side shell near the waterline, where ice scours paint and steel. Readings are taken along the ice belt and compared with the thickness the ship was built with."
+    },
+    {
+      "h": "Ferry decks and fatigue details",
+      "p": "Ro-pax and ro-ro ships calling at the Inner Port work vehicle decks, ramps and doors hard. We examine hinge supports, door seatings and deck plating, testing suspect details for cracks and gauging the plate around them."
+    }
+  ],
+  "sections": [
+    {
+      "id": "baltic-wear",
+      "h": "What makes Baltic trading hard on a ship's structure?",
+      "p": [
+        "Three conditions set the Baltic apart. Winters bring ice to parts of the sea, and ships trading to ice-affected ports meet it at the waterline, sometimes at speed. Cargoes such as coal, scrap and grain move in large volumes, and their loading and discharge by grabs, loaders and conveyors scour the hold structure. And the water is brackish, cold and often loaded with organic matter, which affects how coatings age and how ballast tanks behave.",
+        "None of these causes dramatic failures overnight. The effect is cumulative: coatings lose protection at the ice belt, hold frames thin from the lower ends upwards, and fatigue details accumulate cycles from changing sea states. A structural inspection in Gdańsk looks for the combined effect on each ship, using measurements and close observation, so the owner learns how much margin is left and where it is going fastest."
+      ]
+    },
+    {
+      "id": "holds-northern-port",
+      "h": "How are hold frames and tank tops inspected at the Northern Port?",
+      "p": [
+        "Bulk carriers working coal, grain and other dry cargoes in the Northern Port are inspected between loading stages or after discharge. Hold frames are checked for wastage at their lower ends and at the brackets connecting them to the tank top and hopper. Coal cargoes may contain sulphur that, with moisture, creates acidic conditions, and grab discharge can score plating and break through paint. Grain cargoes bring moisture and organic acids that attack steel more slowly but across larger areas.",
+        "Each hold is cleaned of residue at the points to be measured, and readings are taken on frames, brackets, hopper plating, tank top plates and the lower stools of corrugated bulkheads. Where pitting is present, depth is measured and recorded separately from general plate thickness. The inspection also covers hatch coamings and hatch cover seatings from above, which wear where cargo spills and seawater collect. A hold that will be loaded again within hours is prioritised, so the plan reflects what actually becomes available."
+      ]
+    },
+    {
+      "id": "ice-belt",
+      "h": "What is ice belt abrasion and how is it measured?",
+      "p": [
+        "Ships with an ice class are strengthened around the waterline, but ice still removes paint and wears steel where it contacts the hull repeatedly. The zone affected stretches from just below the lightest ballast waterline to above the loaded waterline, and its width depends on how the ship has been loaded during winter trading. Once the coating is gone, corrosion adds to the abrasion, and the plating thins faster than elsewhere on the shell.",
+        "Measuring the ice belt requires access to the shell, either from a staging, a work boat or, most reliably, in dock. Readings are taken along strakes and between frames, with attention to the areas around bow and shoulder where ice impact concentrates. Results are compared with the thickness the ship was built with and with the class's required margin for ice-strengthened plating. If the ship cannot be docked soon, readings from the inside of side tanks give an early picture, and the report states which areas still need outside measurement."
+      ]
+    },
+    {
+      "id": "ferries-ro-ro",
+      "h": "What is examined on ro-pax and ro-ro ships at the Inner Port?",
+      "p": [
+        "Vehicle-carrying ships working the Inner Port quays and the Nynäshamn ferry link combine heavy dynamic loads with constant wetting. Ramps flex under axle loads, hinge supports and locking devices see repeated stress, and deck plating suffers where water is trapped under coatings or collects near drains. Door seatings and the structure around them are also key, since a worn seating compromises weathertightness as well as strength.",
+        "Inspection starts with close visual examination of the details most prone to cracking, then magnetic particle testing of any suspect welds after cleaning. Deck plating is gauged by zone, and ballast tanks beneath the vehicle decks are entered and measured where access allows. Where a ship is scheduled to work through the season, we agree a narrow list of priority details with the superintendent and complete them at the first long stay, leaving the remainder for the next suitable slot or for the dock."
+      ]
+    },
+    {
+      "id": "tankers-container",
+      "h": "What do crude tankers and container ships need from a structural inspection here?",
+      "p": [
+        "Crude tankers at Naftoport are inspected within the limits of the terminal's permits: deck structure, pipeline supports and pump rooms during discharge, and tank internals when the ship is gas-free. Pitting and grooving in ballast tanks are common findings on older tankers, and coating condition is noted alongside the thickness readings. Ocean-going container ships calling at Baltic Hub bring a different list: hatch corners, coaming ends and the structure beneath scrubber installations, where acidic wash-water has attacked plating and pipe supports.",
+        "Both are scoped narrowly because calls are limited. The plan identifies the ten or so most valuable details and spaces, ranked by the likelihood of finding something and the consequence if it is missed, then adds others as time allows. The findings are reported by location so they can be compared with class records, and so the superintendent can decide where to commit time in the next stay."
+      ]
+    },
+    {
+      "id": "reporting",
+      "h": "How are Gdańsk structural findings reported to class and the owner?",
+      "p": [
+        "The report separates general wastage, pitting, grooving and edge corrosion, because the same loss of thickness means different things in each case. Cracks are listed with location, length and photographs. Deformation is described by panel, extent and depth. Where thickness is near an allowable limit, the report notes the margin and, if earlier data exists, the rate of loss. It also records the coating condition and anode state in tanks where these were visible.",
+        "These records are owner's NDT records, prepared for assessment by the owner's technical department or the class engineer; they are not class approvals. Their value is that class decisions can be made from measured data, and that repair scopes for a later docking at Gdańsk or elsewhere can be written with real locations instead of allowances. If a larger programme follows, point numbering carries forward so the next team's readings sit directly beside these."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers loading coal and grain",
+    "Ice-class cargo ships and tankers",
+    "Ro-pax and ro-ro ferries",
+    "Crude tankers",
+    "Ocean-going container ships",
+    "Container feeders",
+    "Offshore support vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys",
+    "IACS UR Z10.1 and Z10.4 for the enhanced survey of oil tankers and bulk carriers",
+    "IACS Common Structural Rules for bulk carriers and oil tankers",
+    "Class rules for ice-strengthened ships, as applied by the ship's society",
+    "ISO 17638 and ASTM E709 for magnetic particle testing",
+    "ASTM E797 for manual ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Hold frame, bracket and tank top readings with pitting depth recorded separately",
+    "Ice belt readings along strakes, compared with built thickness",
+    "Vehicle deck, ramp and door seating condition records for ferries",
+    "Crack indication sketches, lengths and photographs",
+    "Deformation records by panel with extent and depth",
+    "Coating condition and anode state notes for tanks entered"
+  ],
+  "faqs": [
+    {
+      "q": "Can hold frame wastage on a coal carrier be measured in the Northern Port?",
+      "a": "Yes, between loading stages or after discharge. The hold is cleaned at the points to be measured, and readings are taken on frames, brackets, hopper plating, tank tops and corrugated bulkhead stools. We ask which holds will be empty and when, then plan the gauging around those windows."
+    },
+    {
+      "q": "How is ice belt wear measured on a ship in Gdańsk?",
+      "a": "Readings are taken along the shell strakes in the waterline zone, ideally in dock or from a work platform, and compared with built thickness and the class margin for ice-strengthened plating. If the ship cannot dock soon, inside readings from side tanks give an early indication, and the report lists the areas still needing outside measurement."
+    },
+    {
+      "q": "What cracks are common on ferries and ro-ro ships calling at Gdańsk?",
+      "a": "Cracks at ramp hinge supports, locking devices, door seatings and the connections between deck stiffeners and the shell are the usual places. They are found by close visual examination, confirmed with magnetic particle testing after cleaning, and the plating around them is gauged for wastage that may be adding to the stress."
+    },
+    {
+      "q": "Does a structural inspection in Gdańsk replace the class survey?",
+      "a": "No. It is an owner's inspection that produces measured data and crack records for assessment by your technical department or the class engineer. Our records are owner's NDT records, not class approvals. They help most when taken ahead of a survey, so the repair scope reflects what has actually been found."
+    },
+    {
+      "q": "Can crude tankers be inspected at Naftoport?",
+      "a": "Within the terminal's permit rules, yes. Deck structure, pipeline supports and pump rooms are accessible during discharge, while cargo and ballast tank internals need a gas-free window. We plan around the discharge programme and list the spaces left for a later stay or a dock."
+    },
+    {
+      "q": "How cold does it have to be before structural inspection is affected in Gdańsk?",
+      "a": "Cold affects couplant, probe handling and working time well before it stops work. We carry couplant suited to low temperatures, warm equipment before use and allow extra time for access and lighting. Work inside tanks is moderated by the ship, while open decks and dock staging need more shelter and a margin in the schedule."
+    }
+  ]
+}

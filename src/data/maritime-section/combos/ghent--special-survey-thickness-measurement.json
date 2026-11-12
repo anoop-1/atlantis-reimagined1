@@ -1,0 +1,130 @@
+{
+  "port": "ghent",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Ghent | Bulk Carriers",
+  "description": "Special survey and intermediate survey thickness measurement for bulk carriers and ro-ro ships calling at Ghent: hold gauging, docking sizing and ESP planning.",
+  "h1": "Renewal and Intermediate Survey Gauging for Ships on the Ghent Canal",
+  "intro": "Ships that climb the canal from Terneuzen to Ghent are mostly mid-sized bulk carriers, ro-ro ships and general cargo vessels, and many of them are in the middle of a survey cycle that depends on measured steel. A discharge at the steelworks quay or an agribulk berth gives a superintendent empty holds and a known sailing time, which is rarely available at a coastal anchorage. Atlantis NDT gauges for renewal and intermediate surveys here, and for the pre-docking steel estimate that precedes a yard slot elsewhere. Technicians are mobilised from India to the ship for each job.",
+  "highlights": [
+    {
+      "h": "Steel list sized before the docking",
+      "p": "Ghent is not where deep-sea ships dock, so the call is best used to measure frames, brackets and hopper plating in advance. The yard that later receives the ship then quotes against measured wastage instead of a general allowance."
+    },
+    {
+      "h": "Empty holds between grab and ballast",
+      "p": "After an ore or coal discharge the holds are swept and lit, and the crew has not yet taken ballast. That interval suits close-up access to lower frames and stools, which is where renewal survey gauging concentrates on a bulk carrier."
+    },
+    {
+      "h": "Readings shaped for the next survey",
+      "p": "Results are laid out on the thickness measurement sketches and tables the surveyor expects, with substantial corrosion zones marked, so the same data can support the owner's budget now and the attending surveyor's review later."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-survey-gauging-ghent",
+      "h": "Where is special survey gauging done in Ghent?",
+      "p": [
+        "Most survey-related gauging in Ghent happens alongside, not in a dock. Bulk carriers working cargo at the steelworks quays on the canal are the main case: once the grabs are clear and the holds are swept, the crew provides staging, portable lighting and ventilation, and the team measures hold frames, brackets, hopper plating and hatch coamings against the thickness measurement plan. Agribulk berths and forest-product quays offer the same pattern on smaller bulkers and open-hatch ships, where a cargo of grain or paper products leaves clean, dry holds and a predictable sailing time.",
+        "Ro-ro ships on the Scandinavian rotations and vehicle carriers at the car terminal are gauged in the gaps between rotations, with the work concentrated on main-deck plating, ramp structure and the car-deck stiffening that has taken years of lashing loads. Product and biofuel tankers at the canal-side terminals are different again: the cargo tanks stay closed until a gas-free certificate is in hand, so the early gauging goes to deck plating and the visible parts of the ballast system, with tank entry added only when the ship can offer it.",
+        "Because the canal passage is long and lock slots are planned, the stay at Ghent is usually a whole cargo operation. That makes the berth a better survey-preparation location than many sea ports where a ship may be alongside for only a few hours."
+      ],
+      "list": [
+        "Steelworks quays: holds of ore and coal carriers, measured between the end of discharge and the sailing time.",
+        "Agribulk and forest-product berths: dry, clean holds on handysize and open-hatch ships.",
+        "Ro-ro and car terminal berths: main deck, ramps and car-deck structure during rotation gaps.",
+        "Tank terminals on the canal: deck plating and accessible ballast structure on tankers, cargo tanks only when gas-free."
+      ]
+    },
+    {
+      "id": "which-surveys-ghent-ships",
+      "h": "Which surveys are the ships calling at Ghent working towards?",
+      "p": [
+        "Bulk carriers are the group for which survey gauging is most demanding. Under the ESP rules they face intermediate surveys with close-up examination and measurement, and renewal surveys in which the extent grows at each interval. A bulker on the ore and coal trade that reaches its second or third renewal survey has typically accumulated hold-frame wastage, scalloped bracket toes and pitted tank tops, and the report from the preceding intermediate survey already lists the areas the surveyor will want gauged again.",
+        "Ro-ro and general cargo ships follow the general hull survey regime: renewal surveys bring gauging of deck, side and bottom plating, with extra attention to areas the previous survey flagged as suspect. For the ro-ro ships that run on fixed Scandinavian schedules the survey is booked months ahead, so a Ghent call early in that period is a practical time to find out what the docking will involve.",
+        "Tankers calling for biofuels and oil products meet the ESP requirements for oil tankers or chemical tankers as relevant, and the same logic applies: the measurement list is set by class, and the superintendent wants to know in advance which tanks will fail the margins."
+      ]
+    },
+    {
+      "id": "scoping-survey-gauging-ghent",
+      "h": "How is the survey gauging scoped for these ships?",
+      "p": [
+        "The scope starts from the class survey requirement for the ship type and age, then adds what the owner wants to know that the class will not ask for. For a bulk carrier that usually means all holds, not only the ones the surveyor will sample, because the delay from finding a wasted frame in the last hold at the yard is greater than the time to look at it early.",
+        "The team prepares a plan with frame numbers, strakes and members listed before boarding. On arrival the crew confirms which holds are empty, which tanks can be ventilated, and where staging will be rigged. Readings are taken on cleaned steel, or through coatings only where the gauge's through-coating mode has been proven on a coated reference, and each reading is recorded against its location on the sketch.",
+        "Weather matters less in a covered hold than on deck. Cold weather on the canal affects gauges and couplant, so the team carries the gel appropriate to low temperature and warms the probe where needed. Deck plating and hatch coamings are gauged when the weather permits and sequenced around rain."
+      ]
+    },
+    {
+      "id": "findings-ghent-survey-gauging",
+      "h": "What does survey gauging usually find on ships in this trade?",
+      "p": [
+        "On steel and coal carriers, the pattern is consistent. Frames in the lower part of the holds lose steel at their ends and at the bracket connections to the hopper and the tank top, where cargo and moisture sit longest and where grab impact adds mechanical damage. Coal cargoes accelerate the wastage because wet coal produces an acidic film. The lower stool plating and the hopper tank top also show pitting that does not appear on a visual inspection until the plate is cleaned.",
+        "Topside and hopper ballast tanks show a different story. Coating breakdown at the upper corners and along weld seams leads to grooving and general wastage, and the readings often exceed the allowable diminution well before the visual condition looks severe. On ro-ro ships the findings cluster at the lower sides of the car decks, where water collects, and at ramp hinges and stiffeners.",
+        "Each finding in the report is tied to a member and a position, with substantial corrosion marked as the class rules define it, so the owner can separate steel that needs renewal from steel that needs monitoring."
+      ]
+    },
+    {
+      "id": "planning-survey-gauging-ghent",
+      "h": "How should a survey gauging job at Ghent be planned?",
+      "p": [
+        "Start with the sequence of the call. A bulker discharging at the steelworks typically has a fixed discharge and a canal slot for departure; the useful measuring window is the interval between those two, not the whole berth time. Tell us the expected end of discharge and the sailing slot, and we shape the plan so the highest-priority holds are measured first. A ship that stays for loading as well gives a second window in which holds can be revisited.",
+        "Visa lead time is the other fixed constraint. The team travels from India and needs Schengen visas, so confirm the call as early as the owner can, and send the vessel's IMO number, class, the survey it is heading for and any earlier thickness measurement report. If a docking elsewhere is already booked, add the yard and the dates so the report is delivered in the form the yard will use.",
+        "On arrival the ship's agent arranges gate access and the master confirms safe entry, lighting and ventilation. If any space is not available, the report states what was measured and what remains for the docking."
+      ]
+    },
+    {
+      "id": "worked-example-survey-gauging-ghent",
+      "h": "What does a typical survey scope look like on one ship?",
+      "p": [
+        "Consider a mid-sized bulk carrier on the ore trade, approaching its second renewal survey and calling at the steelworks quay. The plan covers all holds, with lower frames and brackets, hopper and lower stool plating, tank top samples and hatch coamings, and adds the topside and hopper ballast tanks that the crew can empty before sailing.",
+        "Readings are tabulated by frame and strake. Members at or beyond the allowable diminution are listed first, followed by those in a band where monitoring is advised. The owner receives the sketches and summary before the ship leaves, and the docking yard receives the same data in a form it can plan the steel work from."
+      ]
+    }
+  ],
+  "vessels": [
+    "Mid-sized bulk carriers on ore and coal",
+    "Handysize and supramax bulkers on grain and oilseed",
+    "Ro-ro ships on Scandinavian rotations",
+    "Vehicle carriers",
+    "General cargo and multipurpose ships",
+    "Open-hatch forest-product carriers",
+    "Product and biofuel tankers"
+  ],
+  "codes": [
+    "IACS UR Z7 and Z7.1 (hull classification surveys and thickness measurement)",
+    "IACS UR Z10.2 and Z10.5 (hull surveys of bulk carriers)",
+    "IACS UR Z10.1 and Z10.4 (hull surveys of oil and chemical tankers)",
+    "IACS UR S19 and class rules on allowable diminution",
+    "SOLAS Chapter XI-1 and the ESP Code",
+    "ISO 16809 and ASTM E797 (ultrasonic thickness measurement method)"
+  ],
+  "deliverables": [
+    "Thickness measurement plan with frame and strake references",
+    "Readings by member on class-format sketches and tables",
+    "List of locations at or beyond allowable diminution",
+    "Corrosion pattern notes for holds and ballast tanks",
+    "Pre-docking steel summary in the docking yard's format",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can special survey thickness measurement be done at Ghent instead of in a dry dock?",
+      "a": "Yes for the gauging itself. Holds, accessible tanks and decks can be measured alongside during a cargo operation, and the results size the steel work before the ship goes to a yard. Items that need a dry hull, such as bottom shell and sea chests, are left for the docking."
+    },
+    {
+      "q": "Which bulk carriers at Ghent need hold gauging for a renewal survey?",
+      "a": "Any bulker approaching a renewal or intermediate survey, particularly ore and coal carriers, whose frames and hopper plating suffer from grab damage and moisture. The class rules set the minimum extent. Many owners measure every hold early so that the yard quote is based on complete data."
+    },
+    {
+      "q": "How early before the survey should we gauge the ship?",
+      "a": "Several months is common for a planned docking, because it leaves time to order steel and book the yard. For a survey close to the call, the readings can still be taken, though any renewal found would then fall into the docking period itself."
+    },
+    {
+      "q": "What do you need from us before the team travels from India?",
+      "a": "The IMO number, class society, ship type, the survey being prepared for, expected arrival and sailing at Ghent, the previous thickness measurement report and any docking plan. Schengen visa processing is started when the call is confirmed, so earlier confirmation helps."
+    },
+    {
+      "q": "Does the Ghent gauging report help the docking yard?",
+      "a": "It does. Readings are tied to frames and strakes with the diminution status of each member, so the yard can specify renewals from measured data. Where the yard has its own format, tell us before the job so the output is arranged to suit it."
+    }
+  ]
+}

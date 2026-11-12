@@ -1,0 +1,121 @@
+{
+  "port": "zeebrugge",
+  "service": "ship-piping-inspection",
+  "title": "Ship Piping Inspection Zeebrugge | Ballast, Bilge & Fire Mains",
+  "description": "Pipe wall thickness gauging in Zeebrugge on ballast, bilge, fire main and cooling lines of car carriers, ro-ro ships and LNG carriers, reported on sketches.",
+  "h1": "Pipe Wall Gauging on Ballast, Bilge and Fire Main Systems of Ships at Zeebrugge",
+  "intro": "Ship piping wears from the inside, and the pipes that cause the most trouble on Zeebrugge's ships are not the cargo lines but the services: ballast, bilge, sea-water cooling and the fire mains that protect car decks. Our technicians travel from India to the ship, measure the pipe wall at bends, valves and low points, check each reading against the minimum your class rules or the owner's criteria set, and give the engineers a sketch showing which sections are fine and which need to be replaced.",
+  "highlights": [
+    {
+      "h": "Ballast lines on ships that ballast hard",
+      "p": "Vehicle carriers take on and discharge large volumes of ballast at each call. Their ballast mains and tank suctions carry sea water almost constantly, which wears pipe walls faster than on ships that ballast rarely."
+    },
+    {
+      "h": "Fire mains serving the car decks",
+      "p": "Car decks need water-based fire protection, and the pipework feeding it is often idle for long periods. Standing sea water pits steel from the inside, so gauging the mains and branches tells the owner whether the system can be relied upon."
+    },
+    {
+      "h": "Bilge and wash-down drainage",
+      "p": "Water on car decks drains to the lower hold and the bilge. The bilge lines and their valves handle salt-laden, sometimes oily water, and show wall loss at low points and at sections beside the pumps."
+    }
+  ],
+  "sections": [
+    {
+      "id": "piping-zeebrugge-systems",
+      "h": "Which piping systems are gauged on ships calling at Zeebrugge?",
+      "p": [
+        "The systems we are asked to look at most are those that carry sea water or mixed water. Ballast mains run along the length of the ship with branches to each tank. Sea-water cooling lines serve the main engine and auxiliary plant. Fire mains run from the emergency pump and the main fire pumps to hydrants and to deck-protection systems. Bilge systems drain compartments to the pumps and the oily-water separator.",
+        "Fuel oil, lubricating oil, steam and compressed air lines also appear on request, usually when a surveyor or a buyer wants a baseline. On LNG-fuelled ships the engine room carries additional piping for fuel gas and conventional fuel, and the gas lines fall outside what we gauge on a quay. We agree the list of systems with the superintendent, with the ship's piping diagrams as the reference."
+      ]
+    },
+    {
+      "id": "piping-zeebrugge-where",
+      "h": "Where at Zeebrugge can piping be examined?",
+      "p": [
+        "Almost all piping work is done afloat at the berth, since the pipes are inside the ship and the engine room, pump rooms and car decks are reachable during a normal call. At the car terminals, the fire mains on empty decks are accessible between discharge and loading. Ro-ro berths allow engine room and ballast pump room work during lay-overs. At the container terminal, the engine room is open throughout the call.",
+        "On ships at the Fluxys terminal, work is limited to spaces outside hazardous zones and agreed with the terminal, which usually still leaves the machinery spaces available. The inner port behind the Pierre Vandamme lock suits ships that are lying for pre-purchase or charter examinations, since the engine room and pump rooms can be systematically gauged without cargo pressure. Piping that needs to be cut out and replaced is handled at a yard, and our readings tell the yard what to order."
+      ]
+    },
+    {
+      "id": "piping-zeebrugge-method",
+      "h": "How do you measure a pipe in service?",
+      "p": [
+        "We measure at the places where wear concentrates. On a bend, that is the outer radius; on a tee or reducer, the point where flow changes direction; in a straight run, the section just beyond a valve or pump, and any low point where water lies. The surface is cleaned and, if coated, the coating is accounted for. Each reading is taken with an ultrasonic gauge calibrated on a known block, and where the pipe wall is difficult to reach, a pipe-specific technique is used.",
+        "Readings are entered on isometric sketches as they are taken, with a unique identifier per point. The thinnest reading per section is compared with the minimum wall the class rules or the owner's design give for that line, and the result is marked. Where a pipe is lagged, the lagging is removed at the test point and replaced afterwards by the ship's crew, so the work does not affect insulation elsewhere."
+      ],
+      "list": [
+        "Outside radius of bends and the throats of tees and reducers.",
+        "Straight runs immediately after valves, pumps and orifices.",
+        "Low points and dead legs where water collects.",
+        "Pipe near flanges and welds, checked also for cracks where required.",
+        "Pipes under supports and clamps, where crevice corrosion hides."
+      ]
+    },
+    {
+      "id": "piping-zeebrugge-findings",
+      "h": "What do ballast, bilge and fire main readings usually show?",
+      "p": [
+        "On ballast systems, the wall loss is typically heaviest in tank suctions and in the sections of the main closest to the pumps, where velocity is highest. On bilge lines, low points near the lower hold and the pumps show the most wastage, and drains from car decks bring salt and cleaning chemicals that add to it. Cooling water lines suffer on the sea-water side and at bends close to heat exchangers.",
+        "Fire mains on car decks show a different pattern. Pipes that stand full of sea water for long periods pit internally, and pitting is easy to miss on a single reading. We take several readings around each suspect section and record the lowest, because a pipe that looks sound in most places can hide a pit that has nearly reached the outside. Where a section is near its limit, it is flagged for replacement before the next survey."
+      ]
+    },
+    {
+      "id": "piping-zeebrugge-planning",
+      "h": "Planning a piping inspection around a Zeebrugge call",
+      "p": [
+        "Send the piping diagrams for the systems you want gauged, the class minimum thickness tables if the owner has them, and the last gauging report. If any section was replaced recently, say so, since new pipe needs only a baseline reading. Tell us which sections are lagged or hard to reach so that the crew can have the insulation removed and scaffolding or access ready.",
+        "The system should be at rest where possible, though gauging does not need the pipe to be empty. For fire mains on car decks, the best time is between discharge and loading. The agent arranges ISPS access for the team, who travel from India on Schengen visas timed to the confirmed call. After the job, the sketches and the thickness table are delivered in a form the ship's engineers and any yard can use directly."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers with deck fire mains",
+    "Ro-ro freight ships with extensive bilge systems",
+    "LNG carriers (machinery-space service piping)",
+    "Container ships with scrubber and cooling lines",
+    "Cruise ships with large sea-water systems",
+    "General cargo ships under pre-purchase examination"
+  ],
+  "codes": [
+    "Class society rules for minimum wall thickness and corrosion allowances in ship piping",
+    "SOLAS chapter II-2 regulation 10 for fire-fighting systems",
+    "IACS UR Z17 for the procedural requirements for service suppliers",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ASTM E797 for manual pulse-echo ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A for personnel qualification under the written practice"
+  ],
+  "deliverables": [
+    "Isometric sketches with every measured point and its reading",
+    "Thinnest reading per line, compared with the applicable minimum wall",
+    "List of sections to be replaced, monitored or left unchanged",
+    "Notes on pitting or grooving found, with location and depth",
+    "Baseline readings for new or recently replaced sections",
+    "List of systems and sections not reached, with the reason"
+  ],
+  "faqs": [
+    {
+      "q": "Can ship piping be gauged while the ship works cargo at Zeebrugge?",
+      "a": "Yes. Most piping is in the engine room, pump rooms and along the decks, and does not interfere with cargo work. Fire mains on car decks are best examined between discharge and loading, when the decks are clear. We plan the order so that cargo operations and the gauging work do not compete for the same space."
+    },
+    {
+      "q": "Does the pipe have to be empty for ultrasonic thickness readings?",
+      "a": "Not generally. The gauge reads through the wall and works on a filled pipe, though the pipe must be at a temperature the probe can tolerate. If a line is at high temperature, such as steam, high-temperature probes are used. Where a repair is expected, the system may be isolated for the replacement itself."
+    },
+    {
+      "q": "How do you check fire mains on a car carrier?",
+      "a": "We gauge the main and its branches at bends, tees and low points, and take multiple readings on suspect sections to catch pitting. Because fire mains stand idle with sea water in them, internal pitting is common, and a single reading can miss it. The report shows the lowest reading found on each section."
+    },
+    {
+      "q": "What minimum wall do you compare readings against?",
+      "a": "The one set by the class rules for that system, or the owner's own criterion if it is stricter. Some owners supply a table from the ship's piping specification. If none exists, we agree a reference with the superintendent before the work starts, so that the reading and the verdict are clearly tied to a stated value."
+    },
+    {
+      "q": "Do you inspect fuel gas piping on LNG-fuelled ships?",
+      "a": "No. Fuel gas lines and the spaces around them are hazardous zones with their own regulations, and our quay work stays clear of them. We gauge conventional services in the machinery spaces, such as ballast, cooling, bilge and fire lines, and we record any section we could not reach for safety reasons."
+    },
+    {
+      "q": "Can the readings help plan a pipe replacement at a yard?",
+      "a": "Yes. The sketches show which sections need to be renewed, how long they are and where the thinnest points lie, so the yard can quote and prefabricate spools before the ship arrives. That shortens the time in dock, since the pipe shop works from measured data and not from a guess based on age."
+    }
+  ]
+}

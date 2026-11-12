@@ -1,0 +1,127 @@
+{
+  "port": "antwerp",
+  "service": "ultrasonic-weld-inspection",
+  "title": "Ultrasonic Weld Inspection Ship Repair Antwerp | UT of Welds",
+  "description": "Ultrasonic weld testing for ship repairs in Antwerp: insert plates, doublers, ramp and deck welds at dock or repair quays, with no radiography exclusion zones.",
+  "h1": "Shear-Wave UT of Welds on Repaired and Renewed Ship Steel in Antwerp",
+  "intro": "Repair welding in Antwerp follows the work the port generates: renewed shell and tank plating after a docking, insert plates in worn decks, repaired ramps, strengthened hatch coamings and pipe support welds. Each repair weld has to be examined, and in a working yard ultrasonic testing is usually the method that lets other trades carry on. Atlantis NDT sends a team from India to carry out manual shear-wave testing of welds, record flaws with position and size, and report to the owner and yard. These are NDT records, not class approvals.",
+  "highlights": [
+    {
+      "h": "Steel renewal after docking at EDR",
+      "p": "When a ship leaves EDR Antwerp Shipyard's floating dock with renewed shell and tank plating, every butt and fillet weld in the new steel needs examination, and UT does it without clearing the surrounding work area."
+    },
+    {
+      "h": "Repairs afloat at repair quays",
+      "p": "Afloat repairs at repair quays, from insert plates to strengthened coaming corners, are tested between shifts. Ultrasonic testing needs no radiation controls, so welding gangs and fitters carry on around the inspector."
+    },
+    {
+      "h": "Ramps, decks and pipe supports",
+      "p": "Ro-ro ramps, hatch cover supports and pipe supports are cut, welded and re-welded during repairs. Welds in these locations are small, awkward and critical, and manual UT with the right probe angle gets at them."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-weld-ut-done",
+      "h": "Where in Antwerp is weld UT usually carried out?",
+      "p": [
+        "The dry dock is the main location: when EDR Antwerp Shipyard docks a ship and cuts out wasted plating, the replacement welds are tested before the tank is closed and the paint goes on. Testing happens while the ship stands in the floating dock, with staging in place and the weld preparation just finished, which allows examination of both sides of a seam where access permits. Time pressure is high, as the dock days are the most valuable of the repair.",
+        "Afloat repairs at the repair quays and lay-by berths are the second location. There the repair is usually smaller: a doubler plate, an insert in a deck, a repaired bulkhead stiffener. The inspector works around other trades, and because UT needs no exclusion zone, welding, fitting and painting continue elsewhere. At jetties, hot work is restricted by the terminal's permit rules, so weld testing is limited to repairs already completed under a valid permit."
+      ],
+      "list": [
+        "Floating docks at EDR Antwerp Shipyard: replacement shell, tank and deck plating welds.",
+        "Repair quays: insert plates, doublers, stiffener repairs and pipe-support welds.",
+        "Lay-by quays: completed repairs on ships waiting for a berth or class attendance.",
+        "Ro-ro berths: ramp and stern-door repair welds between loading phases."
+      ]
+    },
+    {
+      "id": "which-welds-ships-antwerp",
+      "h": "Which ships and welds at Antwerp are tested by ultrasonic methods?",
+      "p": [
+        "Tanker repairs are the most common, because wasted ballast and cargo tank plating is renewed at docking and the new steel is large in area. Butt welds between new and existing plate, T-joints between stiffeners and plating and tank-boundary connections are the principal targets. Bulk carriers and breakbulk ships bring hold repairs: renewed lower hold frames, tank-top plates and hopper-side plating.",
+        "Ro-ro and vehicle carriers add ramp and deck repairs, and container ships bring repaired lashing bridges, coaming corners and cell-guide connections. Pipe support welds, both new and repaired, are tested when a line is renewed. The ultrasonic method suits thicker plate better than thin, and welds in material below the practical range of manual shear-wave testing are examined by magnetic particle or visual methods instead."
+      ]
+    },
+    {
+      "id": "how-weld-ut-scoped",
+      "h": "How is weld UT scoped and carried out on a repair at Antwerp?",
+      "p": [
+        "The extent is set by the repair specification, the class rules where class is involved, and the shipyard's quality standard. We agree beforehand which welds will be tested in full, which by spot sample, and which acceptance level applies. Surfaces are cleaned and a calibration is set on a reference block, then the probe is scanned across the weld from one or both sides with angle probes chosen for the plate thickness and joint geometry.",
+        "Indications are located by position along the weld and by depth, sized as far as the method allows and compared with the acceptance level. Lack of fusion, incomplete penetration and cracks are the flaws that matter most, and they are the ones ultrasound finds well. Laminations in the parent plate beside the weld are checked beforehand where new plate is joined to old, so that a flaw in the plate is not mistaken for one in the weld."
+      ],
+      "list": [
+        "Butt welds in renewed shell, deck and tank plating.",
+        "Full-penetration T-joints at bulkhead and stiffener connections.",
+        "Insert plate perimeters and doubler welds.",
+        "Welds at ramp hinges, coaming corners and lashing bridge connections.",
+        "Pipe support and branch welds on renewed lines."
+      ]
+    },
+    {
+      "id": "weld-flaws-typically-found",
+      "h": "What do repair welds on ships in Antwerp typically show?",
+      "p": [
+        "Repair welds made in awkward positions, such as overhead in tanks or in restricted spaces beneath ramps, tend to show lack of fusion at the root and sidewall. Cold-weather work on the Scheldt in winter, where plate temperature is low and moisture a problem, raises the risk of hydrogen cracking in thicker plate. Insert plate corners, where several welds meet, are frequent trouble spots.",
+        "Older steel brings its own problems: laminations at the edges of cut openings, and heavily corroded parent plate beside the weld that limits the probe's coupling. When indications exceed the acceptance level, the report lists the weld, position and size, so the yard can gouge and re-weld the defective length and request retest. The retest is recorded against the original indication, so the superintendent sees the repair closed.",
+        "Records matter after the ship sails. A weld list with tested lengths, acceptance level and retest results is what a later surveyor, buyer or port state inspector asks to see when a repair is queried, and a gap in it is hard to close once the ship has gone. For that reason the report is issued with the sketch of tested welds, so the extent examined is unambiguous."
+      ]
+    },
+    {
+      "id": "planning-weld-ut-antwerp",
+      "h": "How should weld UT be planned around a repair in Antwerp?",
+      "p": [
+        "Weld testing has to follow the welder, and welds are not ready for testing until they have cooled and been cleaned. Agree with the yard's planner when each seam will be finished, since testing at the end of the dock period leaves no time to repair what is found. Tell us the weld list, plate thickness, joint types, applicable acceptance level and whether class attends.",
+        "A technician from India needs a Schengen visa for Belgium, so notify us of the repair schedule early, and the ship's agent registers the team for ISPS-controlled port areas. The yard provides staging, lighting and a clean weld surface, and the ship provides power where needed. A short window after each welding gang finishes is better than a single block at the end, and we adjust the schedule as the repair progresses."
+      ]
+    }
+  ],
+  "vessels": [
+    "Tankers with renewed ballast and cargo tank plating",
+    "Bulk carriers and breakbulk ships repairing holds",
+    "Ro-ro and vehicle carriers repairing ramps and decks",
+    "Container ships with repaired lashing bridges or coamings",
+    "Ships entering EDR Antwerp Shipyard's floating docks",
+    "Vessels repaired afloat at repair quays"
+  ],
+  "codes": [
+    "ISO 17640 for ultrasonic testing of welds",
+    "ISO 11666 for acceptance levels",
+    "ISO 23279 for characterisation of indications",
+    "ISO 17635 for general rules for NDT of welds",
+    "IACS Recommendation 47 for shipbuilding and repair quality standard",
+    "IACS UR W33 and W34 for NDT of hull steel welds in new construction"
+  ],
+  "deliverables": [
+    "Weld-by-weld record with position, depth and size of indications",
+    "Acceptance level applied and results against it",
+    "Sketch of tested welds showing the extent examined",
+    "Retest records for any repaired length",
+    "Probe, calibration block and technician certification details"
+  ],
+  "faqs": [
+    {
+      "q": "Why use ultrasonic testing rather than radiography on ship repairs in Antwerp?",
+      "a": "Radiography needs exclusion zones and stops other work nearby, which a busy dock or repair quay cannot afford. Ultrasonic testing uses no radiation, lets welding and fitting continue around the inspector, and finds the planar flaws that matter, such as lack of fusion and cracks."
+    },
+    {
+      "q": "Can you test welds at EDR Antwerp Shipyard while the ship is in the floating dock?",
+      "a": "Yes, that is the most common setting. Replacement shell, tank and deck plating is welded in the dock and examined before closing and coating. We agree the weld list with the yard planner so testing follows the welders, leaving time to repair indications within the dock days."
+    },
+    {
+      "q": "Is weld UT done at a chemical jetty?",
+      "a": "Only on repairs that were completed under a valid permit. Terminals restrict hot work, so welding at a jetty is rare, but a completed weld can be tested if the terminal permits access. Most weld testing happens in the dock or at repair quays where hot work is allowed."
+    },
+    {
+      "q": "What happens if a weld fails the acceptance level?",
+      "a": "The report lists its position, depth and size. The yard removes the defective length and re-welds, and we retest the repair and record the result against the original indication. The superintendent sees the full cycle in one report instead of chasing separate confirmations."
+    },
+    {
+      "q": "Are the weld reports class approvals?",
+      "a": "No. They are NDT records for the owner and the yard, produced by technicians certified under the company's written practice. Where a classification society surveyor attends the repair, the society decides what it accepts, and we supply the data the surveyor needs."
+    },
+    {
+      "q": "Can thin plate welds be tested by ultrasound?",
+      "a": "Manual shear-wave testing works best in thicker plate. For welds in thin material, below the practical range of the method, we use magnetic particle testing for surface cracks and visual examination. We tell the superintendent before the job which method applies to which weld on the list."
+    }
+  ]
+}

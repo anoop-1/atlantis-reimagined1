@@ -1,0 +1,123 @@
+{
+  "port": "istanbul",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Istanbul | Tuzla Docks",
+  "description": "Renewal and special survey thickness gauging in Istanbul and Tuzla: pre-docking readings at anchor, in-dock gauging for third and fourth renewal surveys.",
+  "h1": "Third and Fourth Renewal Survey Gauging in Istanbul: From Anchor off Tuzla to the Dock",
+  "intro": "Istanbul owners tend to dock their older ships close to home, and the Tuzla yards on the Sea of Marmara handle most of those renewal surveys. The steel decisions are made quickly there, so the gauging has to be ahead of the yard rather than behind it. We mobilise a thickness measurement team from India to Istanbul, take readings at anchor off Tuzla or at the last cargo port before docking, and then measure in the dock as plating is exposed, keeping the superintendent's steel list a step ahead of the steelwork.",
+  "highlights": [
+    {
+      "h": "Steel list ahead of the steelwork",
+      "p": "At Tuzla the yard's steel order follows the first readings. Gauging at anchor beforehand, then in dock as each area is released, keeps decisions area by area instead of crowding them into the last days of the stay."
+    },
+    {
+      "h": "Built for older Black Sea tonnage",
+      "p": "Many Istanbul-managed Handysize and Supramax bulk carriers and small tankers reach their third and fourth renewal surveys here. Gauging is scoped for the wastage those ships typically carry after years of Black Sea and Mediterranean trading."
+    },
+    {
+      "h": "Several ships in one mobilisation",
+      "p": "With many yards close together, a team that travels from India can gauge a ship at anchor, another in dock and a third alongside in the same visit, which suits managers with more than one ship due."
+    }
+  ],
+  "sections": [
+    {
+      "id": "turkish-owners",
+      "h": "Why do Istanbul-managed ships dock at Tuzla for renewal surveys?",
+      "p": [
+        "Istanbul is a shipowning city first. Turkish owners run large fleets of second-hand Handysize and Supramax bulk carriers, general cargo ships and small tankers, and their technical departments sit within reach of the yards. A superintendent can attend a docking daily at Tuzla, take decisions on the spot, and send a ship back to trade quickly. That convenience is why a repair centre on the Marmara shore keeps a steady queue of renewal surveys.",
+        "It also shapes the gauging. Superintendents here usually arrive with a sharp idea of where steel will be needed, based on years of experience with the same type of ship, and they want readings that confirm or correct that view quickly. A report that arrives after the steel has been ordered is of little use. The measurement plan is therefore built around the yard's schedule, with the first readings aimed at the areas that drive the largest renewals."
+      ]
+    },
+    {
+      "id": "anchor-first",
+      "h": "Is pre-docking gauging at anchor off Tuzla worth doing?",
+      "p": [
+        "For most ships it is. A ship may wait at anchor off Tuzla for days before a dock is free, and that wait is a usable window: ballast tanks, hold frames and deck structure can be gauged by a team boarding from a launch. The readings tell the superintendent which members are likely to be renewed, so the yard's quotation is based on measured steel instead of an allowance.",
+        "Boarding at anchor depends on the weather on the Marmara and on the agent's launch. A strong wind can delay a visit, so the plan carries some float. When the dock date moves, which happens often, the team's visit can be moved with it as long as visa validity allows. The Istanbul agent, who handles the ship's entry to the yard, coordinates the sequence."
+      ]
+    },
+    {
+      "id": "in-dock",
+      "h": "How is gauging sequenced once the ship is in a Tuzla dock?",
+      "p": [
+        "Once the ship is docked and the hull is blasted, bottom and side shell plating become accessible and the yard begins its steel programme. The team's first task is the bottom and the shell, measured as strakes are cleaned, so that renewal marks can be made before steelwork starts on that area. Tanks follow as they are cleaned and certified: ballast tanks first for most ships, then cargo holds or cargo tanks depending on type.",
+        "On a chemical tanker, cargo tank readings depend on cleaning and gas-free certificates, which can be delayed by residual cargo or inspection schedules. On a bulk carrier, hold frames and hopper plating are accessible once holds are washed and staging is erected. We agree a daily summary with the superintendent and the attending surveyor, listing areas completed, readings beyond limits and areas still waiting, so everyone sees the same picture."
+      ]
+    },
+    {
+      "id": "third-fourth",
+      "h": "What do third and fourth renewal surveys usually show for older Istanbul ships?",
+      "p": [
+        "By the third renewal survey the gauging extent has widened substantially, and by the fourth it covers most structural members in cargo and ballast spaces. On older bulk carriers, the usual findings are wasted hold frame ends, pitted tank tops, deep corrosion on hopper plating and thinning of the lower stools of corrugated bulkheads. Ships carrying steel products, scrap and bulk minerals on short Black Sea voyages often show abrasion damage to holds in addition to corrosion.",
+        "On general cargo ships and small tankers, ballast tank coatings that reached the end of their life years ago are a recurring source of heavy wastage, with grooving along weld lines and pitting on bottom plates. Deck plating and hatch coamings suffer on ships that load and discharge quickly with grabs. The report ranks members by remaining margin and by the likelihood of renewal, so the superintendent can set a steel budget from it."
+      ]
+    },
+    {
+      "id": "multi-ship",
+      "h": "Can several ships be gauged in one visit to Istanbul?",
+      "p": [
+        "Yes, and it is often the sensible way to use a team that travels from India. Managers with sister ships or ships scheduled in close succession can ask for a combined plan: one ship at anchor off Tuzla, one in dock, one alongside at a terminal. The sequence is arranged with the agent and the yards so the team moves between ships without gaps.",
+        "A combined plan also helps comparison. When a crack or a corrosion pattern is found on one ship of a class, the same detail can be checked on the sisters. Because the point numbering and report format are consistent, the superintendent can compare ships directly. Visa and travel arrangements are made once for the group, which reduces the planning burden when dock dates are firm."
+      ]
+    },
+    {
+      "id": "planning-istanbul",
+      "h": "What should be arranged for a renewal survey gauging job at Tuzla?",
+      "p": [
+        "The yard arranges access and staging, the ship prepares tank cleaning and gas-free certificates, and the agent handles entry to the yard and terminals with crew lists and certificates sent ahead. Our team needs the class, the survey programme, the previous report and the dock dates; with those, the measurement plan and its split between anchor and dock can be agreed in advance.",
+        "Turkey requires a visa for Indian passport holders, so applications start as soon as the docking date is set, and the plan allows for a yard slot that may shift. We confirm in the plan which readings are owner's information and which a firm approved by the ship's class could take for the survey itself, so there is no surprise when the surveyor asks what is creditable."
+      ]
+    }
+  ],
+  "vessels": [
+    "Handysize and Supramax bulk carriers",
+    "General cargo and multipurpose ships",
+    "Chemical and product tankers",
+    "Crude tankers",
+    "Container ships",
+    "Ro-ro ships",
+    "Tugs and offshore vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull surveys and the gauging extents tied to each renewal survey",
+    "IACS UR Z10.1, Z10.2 and Z10.4 for the enhanced survey of oil tankers, bulk carriers and chemical tankers",
+    "IACS UR Z17 on which firms may measure thickness for credit to a class survey",
+    "SOLAS chapter XI-1, regulation 2, and the 2011 ESP Code",
+    "ASTM E797 for manual pulse-echo ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A for the qualification of the technicians who take the readings"
+  ],
+  "deliverables": [
+    "Pre-docking readings from anchor with a steel renewal estimate for the yard",
+    "In-dock bottom and side shell readings issued as each strake is released",
+    "Tank and hold readings on the class formats with original thickness and allowable margin",
+    "Daily summary of areas done, readings beyond limits and areas waiting",
+    "Comparison tables across sister ships where several are gauged in one visit",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can we gauge a ship at anchor off Tuzla before it enters the dock?",
+      "a": "Yes. Ballast tanks, hold frames and deck structure can be measured by a team boarding from a launch while the ship waits for a dock. The readings give the yard a measured steel scope for its quotation. Weather on the Marmara can delay boarding, so the plan carries some float."
+    },
+    {
+      "q": "Is thickness gauging at Tuzla credited to the class renewal survey?",
+      "a": "Only when taken by a firm approved by the ship's society as part of the survey. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so for now our readings serve owner decisions and steel planning, not class credit. Tell us the class early and we set the scope accordingly."
+    },
+    {
+      "q": "How quickly do readings reach the superintendent during a Tuzla docking?",
+      "a": "Results are passed on daily during the dock, with readings beyond limits flagged, so renewal marks can be made area by area. We agree the format with the superintendent and the attending surveyor beforehand, and the final report on the class formats follows when the gauging is complete."
+    },
+    {
+      "q": "What do third and fourth renewal surveys typically involve for a Black Sea bulk carrier?",
+      "a": "Wide gauging of hold frames, hopper and topside tank plating, tank tops, corrugated bulkheads and ballast tanks, with close-up survey under the ESP rules. Typical findings are wasted frame ends, pitted tank tops and thinned lower stools. The extent is set by the class, and we confirm it before the team travels."
+    },
+    {
+      "q": "Can one team gauge several ships in the same Istanbul visit?",
+      "a": "Yes. A combined plan can cover one ship at anchor, another in dock and a third alongside a terminal, with the sequence arranged through the agent and the yards. It suits managers with sister ships due close together, and lets the same cracks or corrosion patterns be checked across the group."
+    },
+    {
+      "q": "What do Indian technicians need to travel to Istanbul for a docking?",
+      "a": "A Turkish visa, applied for once the docking date is known. Because yard slots can shift, we plan the application around the visa's validity and keep the owner informed of any change. The sooner we know the expected dates, the more reliably a team can be in place when gauging should start."
+    }
+  ]
+}

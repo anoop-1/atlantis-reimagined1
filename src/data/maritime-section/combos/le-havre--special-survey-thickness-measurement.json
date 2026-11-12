@@ -1,0 +1,126 @@
+{
+  "port": "le-havre",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Le Havre | Pre-Docking UTM",
+  "description": "Renewal survey thickness measurement at Le Havre for tankers, container ships and bulkers: afloat gauging at Port 2000, the basins and Baie de Seine.",
+  "h1": "Pre-Docking and Renewal Survey Gauging for Ships Calling at Le Havre",
+  "intro": "Most large ships that call at Le Havre are docked at yards in other countries, which makes the call itself the best moment to measure the steel the yard will be asked to renew. Special survey thickness measurement here is done afloat: at the Port 2000 terminals, in the inner basins, at the oil berths and at anchor in the Baie de Seine. It serves container ships, tankers and bulk carriers heading for renewal or intermediate surveys. A team is mobilised from India to the ship and sized to the berth time.",
+  "highlights": [
+    {
+      "h": "Steel quantities before the yard",
+      "p": "Gauging at Le Havre in the months before a docking elsewhere gives the superintendent a measured renewal list, so the yard specification and the repair budget are built on readings, not on an open allowance."
+    },
+    {
+      "h": "Ballast tanks at the anchorage",
+      "p": "A laden tanker waiting for orders in the Baie de Seine has empty ballast tanks, and they fill as soon as discharge begins. The anchorage can be the only chance to gauge them before the docking."
+    },
+    {
+      "h": "Longer windows in the inner basins",
+      "p": "A ship on a lay-by berth behind the locks has no cargo operation to work around, so a full tank programme or renewal-type gauging can run through without interruption."
+    }
+  ],
+  "sections": [
+    {
+      "id": "afloat-renewal-gauging",
+      "h": "How does renewal survey gauging work afloat at Le Havre?",
+      "p": [
+        "Le Havre is a port for ships that dock elsewhere, so renewal gauging here has a different purpose from gauging in a yard. The aim is to measure as much of the survey scope as the berth allows, so the surveyor's requirements and the steel quantities are known before the ship reaches the dock. Container calls at Port 2000 are short and tightly windowed, which limits the scope to ballast tanks, voids, cross-deck structure and targeted readings on known problem areas. Holds under working cranes are off limits, so hold readings are taken only where the chief officer and the stevedores agree a safe sequence.",
+        "Inner basins behind the locks suit heavier scopes. A ship on a lay-by berth between charters can have a full renewal-style programme worked through at the pace the tanks allow, and a ro-ro ship laid up between voyages gives access to vehicle decks, ramps and ballast tanks with no cargo pressure. Whatever is not finished afloat is clearly recorded so the dock yard knows what remains."
+      ],
+      "list": [
+        "Port 2000 terminals: ballast tanks, voids and coamings inside the berth window.",
+        "Inner basins: full programmes on lay-by ships and ro-ro vessels.",
+        "Oil berths and Antifer: ballast tank and deck gauging within terminal rules.",
+        "Baie de Seine anchorage: launch-served tank gauging on waiting ships."
+      ]
+    },
+    {
+      "id": "tankers-and-esp",
+      "h": "What changes for tankers and bulk carriers under the ESP rules?",
+      "p": [
+        "Tankers and bulk carriers fall under the enhanced survey regime, so the renewal extent is set by the ESP requirements and the survey programme as well as the general hull rules. From the third renewal, the extent rises steeply: each deck plate in the cargo area, wind-and-water strakes across the cargo length and extensive gauging of cargo and ballast tank structure. For a crude tanker, that is far more gauging than any single Le Havre call can finish, so the practical plan is to use calls and anchorages to clear the ballast tanks and defer the cargo tanks to the dock.",
+        "At the oil berths and at the Antifer crude terminal, cargo tanks are not entered during cargo operations, and battery-powered instruments on deck in hazardous zones need the terminal's and the ship's permission. That is why the anchorage matters: a laden tanker arriving with empty ballast tanks can have them gauged before berthing, weather permitting, because ballast goes in as soon as discharge starts."
+      ]
+    },
+    {
+      "id": "container-ships-and-bulkers",
+      "h": "How are container ships and bulk carriers handled at Le Havre?",
+      "p": [
+        "Container ships are not enhanced survey ships, so their gauging follows the hull survey requirements of their society. At a renewal survey the surveyor expects transverse sections of deck and bottom plating, wind-and-water strakes, coamings and ballast tank structure, with the extent growing at each renewal. At Port 2000 the practical part is the ballast tank and deck work that fits the berth, with scrubber wash-water and overboard piping added on ships fitted with exhaust gas cleaning systems.",
+        "Bulk carriers calling at Rouen, up the Seine, can be reached by road on the same mobilisation. Grain loading gives access to holds and hatch covers once loading finishes, and ballast tanks can be gauged during the load. Because ships loading grain at Rouen often lie alongside for longer than a container ship at Port 2000, holds and tanks can be worked in sequence."
+      ]
+    },
+    {
+      "id": "what-is-reported",
+      "h": "What does a pre-docking report from Le Havre tell the superintendent?",
+      "p": [
+        "Each reading is set against the original thickness and the allowance for that member, and the report separates wastage within margin from substantial and excessive corrosion. Plates at or beyond the allowable margin are listed with their location so they can be carried into the repair specification. Substantial corrosion areas are listed separately because they sit inside acceptable limits now but tend to cross the margin by the next survey.",
+        "The report also states what was not measured and why: a hold under cranes, a tank that could not be released, an area under intact coating where the gauge's through-coating mode was not verified. That honesty matters for planning, because the dock yard needs to know which parts of the steel list are firm and which are still estimates. Readings that fall in a class's formats can be set out on them, or on the owner's own."
+      ],
+      "list": [
+        "Plates and members beyond allowable diminution, by location.",
+        "Substantial corrosion areas for repeat gauging.",
+        "Areas not measured, with the reason.",
+        "A summary of what remains for the docking yard."
+      ]
+    },
+    {
+      "id": "planning-at-le-havre",
+      "h": "What should be sent before a Le Havre renewal gauging job?",
+      "p": [
+        "Send the class's gauging requirements or the thickness measurement plan, the berth times, the docking yard and date, and any known problem areas. For a tanker, also tell us the ballast condition on arrival and whether an anchorage stay is expected. We size the team to the readings that matter before sailing and leave the rest for the dock.",
+        "Teams fly into Paris Charles de Gaulle and continue to Le Havre by road or rail. The ship's agent requests ISPS gate passes for the named technicians at Port 2000 or the oil terminals and books launches for ships at anchor. France is in the Schengen area, so Schengen visas are needed, and we ask for an invitation letter naming the vessel and port once the call is firm."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships at Port 2000",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Bulk carriers loading grain at Rouen",
+    "Car carriers and ro-ro ships",
+    "Ro-pax ferries",
+    "Ships on lay-by in the inner basins"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS UR Z10.1 and Z10.4 (enhanced surveys of oil tankers and bulk carriers)",
+    "IACS UR Z17 (procedural requirements for service suppliers)",
+    "SOLAS chapter XI-1, regulation 2 and the ESP Code",
+    "ASTM E797 (manual pulse-echo ultrasonic thickness measurement)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by frame, strake and member on the class format or your own",
+    "Diminution against original thickness and allowance for each member",
+    "Pre-docking renewal list for the yard specification",
+    "Substantial corrosion areas for repeat gauging",
+    "Statement of areas not measured and why"
+  ],
+  "faqs": [
+    {
+      "q": "Why gauge at Le Havre if the ship docks somewhere else?",
+      "a": "Because the steel list the yard quotes against should come from measurements, not allowances. Gauging at Le Havre in the months before the docking identifies plates beyond the allowable margin, so the specification is built on real quantities. The dock then confirms and extends the findings instead of discovering them."
+    },
+    {
+      "q": "Can ballast tanks be gauged at the Baie de Seine anchorage?",
+      "a": "Yes, in suitable weather. A laden tanker waiting for orders usually has empty ballast tanks, and ballast goes in as soon as discharge starts. A launch carries the team out and the tanks are entered once they are ventilated and tested. The scope is limited and called off quickly if the sea state worsens."
+    },
+    {
+      "q": "How much can be gauged during a Port 2000 container call?",
+      "a": "Enough for ballast tanks, voids and targeted deck or coaming readings, not a full renewal programme. Berth times are short and holds under working cranes are closed to us. We agree the scope with the superintendent and chief officer beforehand and report what was left for the next call or the dock."
+    },
+    {
+      "q": "Do tankers at Antifer allow renewal survey gauging?",
+      "a": "Gauging is limited during cargo operations. Cargo tanks are not entered while cargo is worked, and instruments on deck in hazardous zones need the terminal's and the ship's permission. Ballast tanks on arrival and deck readings are the usual targets, and cargo tank gauging is left for the dock or a cleaned tank."
+    },
+    {
+      "q": "Can a ship on a lay-by berth have a full renewal programme at Le Havre?",
+      "a": "Often yes, because there are no cargo operations to work around. Tanks are cleaned, gas-freed and released in sequence and readings follow the thickness measurement plan. Where the old-port dry docks cannot take the ship, the afloat programme is the main preparation for the yard that will."
+    },
+    {
+      "q": "Do technicians need visas to work at Le Havre?",
+      "a": "France is in the Schengen area, so the team travelling from India needs Schengen visas. We start applications once the call or docking window is firm and ask for an invitation letter naming the vessel and port. Flights are then planned against the agent's latest estimate of arrival."
+    }
+  ]
+}

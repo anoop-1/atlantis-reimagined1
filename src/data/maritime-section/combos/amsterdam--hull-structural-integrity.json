@@ -1,0 +1,118 @@
+{
+  "port": "amsterdam",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Amsterdam & IJmuiden",
+  "description": "Hull structural integrity inspection at Amsterdam and IJmuiden: hold frame wastage, ballast tank corrosion and crack checks on bulk carriers and tankers.",
+  "h1": "Hull Condition Assessment on the North Sea Canal: Ore Carriers, Tankers and Cargo Ships",
+  "intro": "Ore and coal carriers come to the steelworks harbour at IJmuiden to discharge, and the empty, swept holds are the best view of hull condition they will offer for months. Product tankers waiting in the western basins give the same chance for ballast tanks and deck structure. A hull structural integrity inspection in Amsterdam combines thickness gauging with a record of corrosion pattern, buckling and cracks at the usual fatigue points. Our team is mobilised from India to the quay or the lay-by berth, and the report is written so the technical department can decide what to repair and when.",
+  "highlights": [
+    {
+      "h": "Empty holds after an ore discharge",
+      "p": "Once the grabs have gone and the holds are swept, side frames, brackets, hopper plating and the tank top can be examined at close range. Grab damage, coating loss and wastage from abrasive cargoes are visible and measurable before the ship ballasts out."
+    },
+    {
+      "h": "Ballast tanks of waiting tankers",
+      "p": "Product tankers lie in the Westpoort basins while blending, laytime and charter orders are sorted out. Ballast tanks can be emptied and certified during that stay, and pitting, grooving and edge corrosion are recorded alongside the thickness readings."
+    },
+    {
+      "h": "Cracks checked where they start",
+      "p": "Hatch coaming corners, bracket toes, frame end connections and the structure around mooring and crane foundations are the places where fatigue cracks begin. They are examined by magnetic particle testing as part of the same visit, not left for a separate attendance."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-it-is-done",
+      "h": "Where can hull structure be inspected at Amsterdam and IJmuiden?",
+      "p": [
+        "Almost all structural inspection here is done alongside, because dockings in the canal yards are limited to ships that fit the floating docks. That suits the job for two reasons: the ship is trading, so the question is usually condition for continued service rather than repair, and the access arrangements are those of a berth, not of a yard. We follow the ship to wherever she is lying.",
+        "The steelworks harbour at the canal mouth is the natural place for dry bulk carriers after discharge. Holds are clear of cargo, hatch covers open, and the crew can wash down and light the structure. The agribulk and general cargo quays in the western basins serve multipurpose ships and smaller bulkers in much the same way. The tank terminals and lay-by berths give tankers the time they need for tank cleaning and gas-free certification, and the quays at IJmuiden take offshore vessels and workboats that stay for longer periods between contracts.",
+        "An anchorage off the locks is a poorer location for structural work, because tank entry and staging are limited at sea. We use it only for the visual and external parts of a condition survey, and plan the internal structure for the berth."
+      ],
+      "list": [
+        "Steelworks harbour at the canal mouth: hold frames, hopper plating and tank top after discharge.",
+        "Western basin tank terminals and lay-by berths: ballast tanks, cargo tank boundaries and deck structure on tankers.",
+        "Agribulk and general cargo quays: hold structure and coamings of multipurpose ships and small bulkers.",
+        "Quays at IJmuiden: deck, tank and crane foundation structure on offshore support ships and workboats."
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which ships need a structural assessment here, and why now?",
+      "p": [
+        "Three groups use Amsterdam in a way that makes structural assessment worthwhile. Ore and coal carriers serving the steelworks run through the most punishing cargo cycle in shipping: heavy grabs, abrasive cargo and fast discharge. Their holds are expected to show coating breakdown and local frame wastage as they age, and the Amsterdam discharge is a convenient point to measure it. The second group is the product tankers loading for export, many of them mid-life ships whose owners must decide between a further renewal cycle and sale. The third group is the offshore and project fleet at IJmuiden, whose structure carries heavy deck loads and long idle periods in a corrosive harbour environment.",
+        "Timing follows the question being asked. A technical manager preparing for the intermediate survey wants to know how much steel is likely to be renewed. A buyer or charterer wants a measured baseline before committing. A classification surveyor may have imposed a condition of class that needs documented evidence of a specific structural area. Each of those asks for the same measurement discipline, but the extent and the report layout differ, and we scope accordingly."
+      ]
+    },
+    {
+      "id": "how-it-is-scoped",
+      "h": "How a hull structural inspection is scoped for these ships",
+      "p": [
+        "We start from the ship's own documents: the class survey status, the last gauging reports and the repair history. Those tell us where wastage has been recorded before and how fast it is progressing. The scope is then built around the areas that matter for that ship type, instead of an even grid of readings over the entire hull.",
+        "On a bulk carrier the priority list begins with the side shell frames and brackets in the lower hold, the transverse bulkhead lower stool, the hopper plating and the tank top, then the topside and hopper ballast tanks and the underside of hatch covers and coamings. On a product tanker it centres on the ballast tanks that adjoin cargo tanks, where heated cargo, coating failure and tank cleaning chemicals combine, plus the deck structure beneath the manifold and the piping supports. On an offshore vessel, attention goes to the main deck, bulwark, foundations of lifting equipment and the sea chests and shell near the waterline.",
+        "Access is the limiting factor. Holds and tanks need lighting, ventilation, staging or a rafting arrangement for the upper frames, and a clean surface where coating has come off. We note on the plan any area that could not be reached and why, so nobody assumes an unmeasured frame was a sound one."
+      ]
+    },
+    {
+      "id": "what-we-record",
+      "h": "What we record and how corrosion is described",
+      "p": [
+        "A figure for remaining thickness says little without the pattern behind it. General wastage across a panel, pitting in a tank bottom, grooving along a weld seam and edge corrosion around a cut-out are different mechanisms with different consequences for strength and for repair. Our records name the pattern at each location, give the deepest pit or groove where it is relevant, and show the area affected on the plan.",
+        "On ore carriers the pattern to expect is localised wastage on frames and brackets in way of the grab path, together with thinning of tank top plating where abrasive cargo is dropped. On product tankers, the usual finding is pitting on tank bottoms that have been exposed to water bottoms, and heavier wastage in ballast tanks where coating has failed on the horizontal surfaces. Deformation is recorded as well: buckled panels, dented frames and set-in plating at the side shell are measured for depth and extent and compared with the class limits for permissible deformation.",
+        "Where a crack is suspected from the visual examination, magnetic particle testing is used to confirm and size it. The records are the owner's own NDT documentation and a basis for discussion with the classification society; they are not a class approval."
+      ]
+    },
+    {
+      "id": "planning-the-visit",
+      "h": "Planning a structural inspection around cargo operations",
+      "p": [
+        "The cargo programme sets the window. For bulk carriers it opens when discharge ends and the holds are swept, and closes when the ship ballasts out and the next cargo is lined up. For tankers it depends on tank cleaning and the gas-free certificate, which the ship or the terminal's cleaning contractor arranges. Because the team travels from India, we need the expected berthing and sailing dates early so the visa and travel schedule can be matched to the ship, including lock delays on the way in.",
+        "Send us the IMO number, the class, the age and the type of the ship, the survey due and the areas of concern, together with the last thickness measurement report if one exists. The agent submits technician names to the terminal for the gate pass, and the ship provides lighting, ventilation and safe access to the structure we are asked to inspect."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ore and coal carriers at the steelworks harbour",
+    "Panamax and handysize bulk carriers",
+    "Product tankers (MR and LR1)",
+    "Multipurpose ships and agribulk carriers",
+    "Offshore support and project vessels",
+    "Dredgers and heavy workboats",
+    "Short-sea cargo ships"
+  ],
+  "codes": [
+    "IACS UR S19 (renewal criteria for side shell frames and brackets in single side skin bulk carriers)",
+    "IACS Common Structural Rules and class society rules on corrosion margins and renewal thicknesses",
+    "IACS UR Z10.2 and Z10.5 for hull surveys of oil tankers and bulk carriers",
+    "IACS Recommendation 87 and 96 on deformation and corrosion guidelines",
+    "ISO 17638 (magnetic particle testing) and ISO 16809 (ultrasonic thickness)"
+  ],
+  "deliverables": [
+    "Structural condition report by space with corrosion pattern named at each location",
+    "Thickness readings tabulated against as-built values and renewal criteria",
+    "Deformation measurements for buckled, dented or set-in panels",
+    "Crack indications located, sized and photographed, with MT records",
+    "Plans marked with areas not accessed and the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "When is the best moment to inspect hold structure at IJmuiden?",
+      "a": "Straight after discharge, when the holds have been swept and washed and before the ship ballasts out. Frames, brackets and the tank top are accessible and the effects of grab damage show clearly. We plan the team's arrival around the berth schedule so the work fits between the end of discharge and sailing."
+    },
+    {
+      "q": "Can ballast tanks of a waiting product tanker be inspected in Amsterdam?",
+      "a": "Yes, when the tanks are emptied, ventilated and certified safe for entry, and the berth or terminal allows entry. Tankers often wait in the western basins for blending and orders, which gives the time. We record thickness together with the corrosion pattern and any cracking at tank boundaries."
+    },
+    {
+      "q": "Is a structural inspection the same as a thickness measurement survey?",
+      "a": "Gauging is part of it, but the inspection goes further. It records how the steel has wasted, whether panels have buckled and whether cracks have formed at known fatigue details, and it presents the findings by space. A bare list of readings does not tell the technical manager what to repair."
+    },
+    {
+      "q": "Do you inspect offshore vessels lying at IJmuiden between contracts?",
+      "a": "Yes. Idle offshore vessels alongside the quays have the time for a thorough look at deck plating, tank boundaries, crane and winch foundations and the shell near the waterline. The findings help the owner and the next charterer's surveyor judge the condition of the ship."
+    },
+    {
+      "q": "What if a crack is found during the inspection?",
+      "a": "We confirm it by magnetic particle testing, mark its ends, measure its length and photograph it, then tell the superintendent at once so that the class surveyor or the yard can decide on the repair. The records are the owner's NDT documentation, and we do not issue a repair approval."
+    }
+  ]
+}

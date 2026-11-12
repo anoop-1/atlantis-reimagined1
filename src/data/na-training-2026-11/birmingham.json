@@ -1,0 +1,15 @@
+{
+  "slug": "birmingham",
+  "lat": 33.52,
+  "lng": -86.81,
+  "localContext": "Birmingham's inspection work comes from metal. American Cast Iron Pipe Company and McWane make pipe and related products here, Nucor runs a steel mill, and U.S. Steel's Fairfield Works produces seamless tubulars. Structural steel fabricators serve buildings, bridges and plants across the Southeast, and Alabama Power, Southern Company and Southern Nuclear are headquartered downtown, with fossil plants nearby. The work runs to AWS D1.1 and D1.5, ASME codes and product specifications, so VT, MT and UT come first, with RT, PT and ET in mills and power plants.",
+  "certPathwayNote": "Birmingham fabricators, mills and inspection companies certify their own technicians under written practices built on ASNT SNT-TC-1A, and their Level III signs off examinations and vision checks. Customer specifications and building or bridge codes set acceptance criteria. Nuclear work adds utility access programs and performance demonstration for UT. ASNT central certification is the alternative for individuals who want a portable credential.",
+  "salaryFrom": "huntsville",
+  "siblings": [
+    "huntsville",
+    "montgomery",
+    "mobile",
+    "atlanta",
+    "nashville"
+  ]
+}

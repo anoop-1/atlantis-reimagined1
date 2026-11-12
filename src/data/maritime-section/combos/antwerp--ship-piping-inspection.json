@@ -1,0 +1,129 @@
+{
+  "port": "antwerp",
+  "service": "ship-piping-inspection",
+  "title": "Ship Piping Inspection Antwerp | Cargo Line Wall Thickness",
+  "description": "Ship piping wall-thickness inspection in Antwerp: chemical tanker cargo lines, steam and ballast piping, scrubber and bunker lines, on isometric sketches.",
+  "h1": "Cargo, Ballast and Scrubber Pipe Gauging on Ships in Antwerp",
+  "intro": "Piping is where Antwerp's chemical trade shows its effect on a ship. Parcel tankers push aggressive cargoes through long deck and pump-room lines, switch grades between jetties and wash the lines between them, while a bunkering port and a ship fleet running scrubbers add fuel and wash-water systems. Atlantis NDT gauges the pipe walls by ultrasound, compares each reading with the minimum wall set by class rules or the owner's criteria, and issues isometric sketches. A team from India travels to the ship and works at the berth, the lay-by quay or in the yard.",
+  "highlights": [
+    {
+      "h": "Cargo lines on chemical parcel tankers",
+      "p": "Deck lines, manifolds and pump-room piping carry successive chemical grades and wash water. Stainless and carbon-steel lines wear differently, so the readings are reported by material and by line segment."
+    },
+    {
+      "h": "Scrubber and bunkering piping",
+      "p": "Antwerp is inside a sulphur emission control area and a bunkering port, so ships fitted with exhaust gas cleaning systems and those taking fuel have wash-water and bunker-station piping worth checking at each call."
+    },
+    {
+      "h": "Pipe checks at cleaning stops and dock",
+      "p": "Lines have to be drained and isolated before measurement. Cleaning stops at lay-by quays and the dock period at EDR Antwerp Shipyard are the moments when this can be arranged without holding cargo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-piping-gauged",
+      "h": "Where in Antwerp can ship piping be gauged?",
+      "p": [
+        "At chemical jetties, cargo piping on deck and in the pump room can often be measured during waiting periods, under the terminal's permit-to-work rules and with lines drained, vented and isolated. The ship cannot be discharging through the section under examination, so the superintendent agrees a window with the cargo officer. Gas carriers at the gas berths allow deck pipe checks between operations, with the usual permit conditions.",
+        "Lay-by quays inside the dock system suit longer work: ballast lines in tanks and the engine room, fire main sections and cooling-water lines. At EDR Antwerp Shipyard the ship is out of service, so lines can be opened, cleaned and measured for the repair specification. Container ships at river terminals offer little more than the scrubber discharge line and exposed deck piping during a working call."
+      ],
+      "list": [
+        "Chemical jetties: deck cargo lines, manifolds and pump-room piping within the permit rules.",
+        "Gas berths: deck liquid and vapour lines between cargo operations.",
+        "Lay-by quays: ballast, fire main, cooling-water and steam lines.",
+        "Floating docks at EDR Antwerp Shipyard: pipe runs opened for the repair specification.",
+        "River container terminals: scrubber discharge and exposed deck piping."
+      ]
+    },
+    {
+      "id": "systems-needing-gauging",
+      "h": "Which ships and systems at Antwerp need pipe wall-thickness checks?",
+      "p": [
+        "Chemical tankers lead the list, because cargo lines see the most aggressive service and the most grade changes. Stainless lines are generally durable but suffer at welds and at bends where flow disturbance and cleaning chemicals act together. Carbon-steel ballast and drain lines, running through corrosive tank spaces, waste from outside and inside, and the heating coil and steam lines serving heated parcels show wall loss where condensate collects.",
+        "Product tankers add the tank washing and stripping systems, and ships of every type that burn fuel through an exhaust gas cleaning system bring scrubber wash-water pipes into scope. Because Antwerp is also a bunkering port, the bunker station piping and fuel transfer lines are checked on ships that take fuel regularly. Ro-ro, bulk and container ships have simpler needs, usually ballast, fire main and cooling lines."
+      ]
+    },
+    {
+      "id": "sampling-plan-ship-piping",
+      "h": "How is a piping gauging plan prepared for a ship at Antwerp?",
+      "p": [
+        "We start from the piping diagrams and the owner's or class criteria for minimum wall thickness, and select condition monitoring locations: the outside radius of bends, the pipe downstream of valves and reducers, tees, low points where water settles, and welds. Each location receives a grid of readings so that local thinning shows rather than averaging out. Lines in heated or cleaned cargo service are given extra points because loss tends to concentrate at turbulence points.",
+        "The plan lists each segment with its nominal wall and the limit that applies. Readings are logged against the segment on an isometric sketch that a pipe shop can use to cut out and replace sections. Where a line is stainless, the gauge is calibrated for that material, and where insulation is fitted it is removed locally and replaced by the ship. Welds suspected of cracking are checked by magnetic particle testing on carbon steel."
+      ],
+      "list": [
+        "Outside radius of bends and elbows, where erosion is concentrated.",
+        "Straight run immediately after valves, reducers and tees.",
+        "Low points and dead legs where water or residues collect.",
+        "Weld areas and pipe supports where corrosion starts from outside.",
+        "Heating coil and steam lines serving heated cargo tanks."
+      ]
+    },
+    {
+      "id": "piping-findings-antwerp",
+      "h": "What does pipe inspection typically find on ships serving Antwerp?",
+      "p": [
+        "On parcel tankers, deck cargo lines tend to show wall loss at bends and at manifold connections where flow changes direction, and external corrosion beneath supports and clamps where moisture is held. Stainless lines can show pitting at welds and under deposits after cargoes that attack the passive layer. Carbon-steel ballast lines passing through ballast tanks often lose wall from the outside, and steam heating lines show wastage at condensate low points.",
+        "Scrubber wash-water lines are a recurring finding on newer ships: thin walls at bends and the overboard discharge, where acidic water at speed removes metal faster than owners expect. Bunker station lines occasionally show external corrosion on exposed sections. Reports flag each segment as acceptable, monitored or for renewal, against the criterion that applies.",
+        "Where readings from an earlier visit exist, the report sets old and new values side by side. A segment that lost little in two years is treated differently from one that lost the same amount in six months, even when both sit above the limit today. That rate of loss is what lets a superintendent defer a renewal to the next docking with evidence, or bring it forward with the same evidence."
+      ]
+    },
+    {
+      "id": "planning-piping-job",
+      "h": "What should be arranged for a piping inspection in Antwerp?",
+      "p": [
+        "Piping work depends on isolation, so the superintendent needs to agree with the chief officer which lines will be drained, vented and certified, and when. For chemical tankers the cleaning sequence between parcels is the guide, since a line has to be clean before it is touched. We ask for the piping diagrams, the criteria for minimum wall, any earlier readings and the berth schedule.",
+        "A technician from India needs a Schengen visa for Belgium, so the schedule should reach us early. The ship's agent registers the team for ISPS-controlled port areas and any terminal induction; the ship arranges access, lighting and removal of insulation at test points. If the ship moves between jetties, the plan follows it, taking exposed deck lines first and tank-side or pump-room lines when isolation allows."
+      ]
+    }
+  ],
+  "vessels": [
+    "Chemical parcel tankers",
+    "Product tankers",
+    "LPG and ethylene carriers",
+    "Scrubber-fitted container ships and bulk carriers",
+    "Ships taking bunkers at Antwerp",
+    "Ro-ro and vehicle carriers",
+    "Vessels entering repair at EDR Antwerp Shipyard"
+  ],
+  "codes": [
+    "Classification society rules for piping systems and minimum wall thickness",
+    "IACS UR Z10.3 for hull surveys of chemical tankers, including cargo area piping",
+    "SOLAS chapter II-2, regulation 10 for fire mains",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ASTM E797 for manual ultrasonic thickness measurement",
+    "ISO 17638 for magnetic particle testing of welds"
+  ],
+  "deliverables": [
+    "Isometric sketches with every reading marked by location",
+    "Wall-thickness tables by line segment against nominal and minimum values",
+    "Separate results for stainless and carbon-steel lines",
+    "Segments classed as acceptable, monitored or for renewal",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can cargo piping be measured while a chemical tanker is at a jetty in Antwerp?",
+      "a": "Often, if the section is drained, vented and isolated and the terminal's permit rules allow. The ship should not be working cargo through the line concerned. We agree a window with the chief officer and measure deck lines, manifolds and pump-room piping, then report each segment against its limit."
+    },
+    {
+      "q": "Why are stainless and carbon-steel lines reported separately?",
+      "a": "They wear differently and need different calibration. Stainless lines usually fail at welds, bends and under deposits, while carbon-steel lines lose wall uniformly or from outside. Separate tables let the superintendent see which material limits renewal and avoid mixing criteria that do not apply to both."
+    },
+    {
+      "q": "Should scrubber wash-water piping be included in a piping inspection?",
+      "a": "On ships with exhaust gas cleaning systems it should be. Acidic wash water at speed thins bends and the overboard discharge faster than most owners expect. Antwerp lies inside the North Sea sulphur emission control area, so many ships calling here run scrubbers, and checks at a lay-by stop are a good use of the time."
+    },
+    {
+      "q": "Do you inspect bunker station piping at Antwerp?",
+      "a": "Yes, when it is in the scope. Antwerp is a major bunkering port, and ships that take fuel regularly use their bunker stations often. We gauge exposed sections and the supports, which suffer external corrosion, and report the results with the rest of the piping on the same sketches."
+    },
+    {
+      "q": "How do you handle insulated or heated lines?",
+      "a": "Insulation is removed locally at the test points by the ship and replaced afterwards. Heating coil and steam lines get extra readings at condensate low points where wall loss concentrates. We record insulation removal positions on the sketch so the crew can restore the same areas."
+    },
+    {
+      "q": "What do I need to send before a piping job in Antwerp?",
+      "a": "Send the piping diagrams, the minimum wall criteria in use, any earlier readings, the cleaning and berth sequence and the lines you want covered. Earlier readings let us show wear rates rather than a single snapshot, and the sequence tells us when each line can be isolated safely."
+    }
+  ]
+}

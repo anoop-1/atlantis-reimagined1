@@ -5249,6 +5249,1327 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "australia", label: "Australia" },
     ],
   },
+  // === North American training expansion 2026-11-11 (scripts/add-na-training-cities-2026-11.mjs) ===
+  {
+    slug: "sacramento",
+    city: "Sacramento",
+    country: "USA",
+    lat: 38.58, lng: -121.49,
+    localContext:
+      "Sacramento's NDT work is driven by state infrastructure rather than oil: Caltrans bridge and structural steel, the Union Pacific rail yard at Roseville, rocket-propulsion and aerospace suppliers around Rancho Cordova, water conveyance and power generation, gas fields and pipelines in the Sacramento Valley, and electronics plants at Folsom. Welds are examined to AWS D1.1 and D1.5, ASME pressure codes and AAR rail rules, so VT, MT, PT and UT dominate and record-keeping is audited closely.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers in the Capital Region certify technicians under their own written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Aerospace and rail customers flow down their own requirements, which the employer's Level III reconciles. Radiography also needs California radiation safety licensing, which is separate.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–64,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "san-francisco", label: "san-francisco" },
+      { slug: "san-jose", label: "san-jose" },
+      { slug: "portland", label: "Portland" },
+      { slug: "california", label: "california" },
+      { slug: "los-angeles", label: "Los Angeles" },
+    ],
+  },
+  {
+    slug: "long-beach",
+    city: "Long Beach",
+    country: "USA",
+    lat: 33.77, lng: -118.19,
+    localContext:
+      "Long Beach combines the Port of Long Beach and San Pedro Bay terminals with the refining and tank-storage district in nearby Wilmington and Carson, pierside ship repair, coastal gas-fired power stations, offshore oil pipelines, and an aircraft-manufacturing heritage that now includes launch and space-hardware companies. Technicians inspect tanks, process piping, terminal steel and machined aerospace parts to AWS, ASME and API practices, so UT thickness, MT, PT and VT lead demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Harbour, refinery and aerospace employers certify under their own written practice based on ASNT SNT-TC-1A, with aerospace primes flowing down extra requirements that the employer's Level III reconciles. Training hours, logged experience, general, specific and practical examinations and a vision test come first. California radiation safety licensing for radiography is separate from method certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–64,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "los-angeles", label: "Los Angeles" },
+      { slug: "san-diego", label: "San Diego" },
+      { slug: "el-segundo", label: "El Segundo" },
+      { slug: "southern-california", label: "Southern California" },
+      { slug: "california", label: "california" },
+    ],
+  },
+  {
+    slug: "bakersfield",
+    city: "Bakersfield",
+    country: "USA",
+    lat: 35.37, lng: -119.02,
+    localContext:
+      "Bakersfield is the service centre for Kern County's oil fields: steam-injection production, gathering lines, tank batteries, crude and gas pipelines, and a refining sector moving toward renewable fuels, with wind and solar around Tehachapi. Edwards Air Force Base, the Mojave Air and Space Port and China Lake add aerospace test and maintenance work. Inspection follows ASME, API and federal pipeline-safety practice, so UT thickness, VT, MT and RT lead demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Oilfield, pipeline and aerospace employers certify technicians under a written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Government and prime customers may add flow-down rules the employer's Level III reconciles. California radiation licensing for radiography is separate.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–64,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "los-angeles", label: "Los Angeles" },
+      { slug: "martinez", label: "Martinez" },
+      { slug: "san-francisco", label: "san-francisco" },
+      { slug: "southern-california", label: "Southern California" },
+      { slug: "california", label: "california" },
+    ],
+  },
+  {
+    slug: "tucson",
+    city: "Tucson",
+    country: "USA",
+    lat: 32.22, lng: -110.97,
+    localContext:
+      "Tucson's NDT work splits between aerospace and defence and southern Arizona mining. A missile-systems plant near the airport and its suppliers machine and test precision parts; Davis-Monthan Air Force Base and the 309th Aerospace Maintenance and Regeneration Group bring airframe maintenance; large copper mines and mills need structural, tank and piping inspection. Aerospace leans on PT, MT, ET and UT to customer specifications, mining on VT, MT and UT thickness.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers certify under a written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Defence and aerospace customers flow down their own requirements, which the employer's Level III reconciles. Arizona radiography needs state radiation licensing, separate from method certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 49,000–65,000/year (clearance premium at the labs)",
+      levelII: "USD 70,000–98,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 70,000–98,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "phoenix", label: "phoenix" },
+      { slug: "albuquerque", label: "Albuquerque" },
+      { slug: "las-vegas", label: "Las Vegas" },
+      { slug: "el-paso", label: "el-paso" },
+      { slug: "san-diego", label: "San Diego" },
+    ],
+  },
+  {
+    slug: "reno",
+    city: "Reno",
+    country: "USA",
+    lat: 39.53, lng: -119.81,
+    localContext:
+      "The Reno-Sparks area and the Tahoe-Reno Industrial Center in Storey County host battery manufacturing, data centre campuses, large distribution operations and materials recycling, while northern Nevada's gold mines, new lithium projects and geothermal power plants add heavy-industry work. Technicians inspect structural steel, process and geothermal piping, pressure equipment and mining machinery to AWS D1.1 and ASME practice, so VT, MT, PT and UT dominate.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers certify under a written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Plants owned by national companies sometimes import a written practice from another state, which a Level III then reconciles with local work. Nevada radiography needs state radiation licensing, separate from method certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–94,000/year",
+      levelIII: "USD 105,000–150,000/year",
+      usdReference: "USD 66,000–94,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "las-vegas", label: "Las Vegas" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "portland", label: "Portland" },
+      { slug: "san-francisco", label: "san-francisco" },
+      { slug: "nevada", label: "Nevada" },
+    ],
+  },
+  {
+    slug: "colorado-springs",
+    city: "Colorado Springs",
+    country: "USA",
+    lat: 38.83, lng: -104.82,
+    localContext:
+      "Colorado Springs is a military and space city: Fort Carson, Peterson and Schriever Space Force Bases, Cheyenne Mountain and the Air Force Academy, with several large aerospace and defence contractors keeping sites nearby. Pueblo's steel mill, Front Range utilities, Cripple Creek mining and I-25 construction add structural and pressure-equipment work. Machined, welded and composite parts are inspected to customer specifications, so PT, MT, UT and ET lead demand alongside strict record control.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers certify under a written practice based on ASNT SNT-TC-1A: training hours, logged experience, general, specific and practical examinations, a vision test, then employer certification. Defence and space customers flow down procedure and record requirements that the employer's Level III reconciles with the written practice. Colorado radiography needs state radiation licensing, separate from method certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 62,000–86,000/year",
+      levelIII: "USD 102,000–144,000/year",
+      usdReference: "USD 62,000–86,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "denver", label: "Denver" },
+      { slug: "albuquerque", label: "Albuquerque" },
+      { slug: "wichita", label: "Wichita" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "colorado", label: "colorado" },
+    ],
+  },
+  {
+    slug: "spokane",
+    city: "Spokane",
+    country: "USA",
+    lat: 47.66, lng: -117.43,
+    localContext:
+      "Spokane is the commercial centre of the Inland Northwest, and its inspection work is spread across several sectors: aircraft maintenance and refuelling operations at Fairchild Air Force Base, aluminium rolling at the Kaiser Aluminum Trentwood mill in Spokane Valley, hydroelectric and gas generation run by Avista Utilities, rail and bridge steel, and a base of metal fabricators and machine shops. The work runs to ASME, AWS D1.1 and D1.5, ASTM and customer specifications. For training that means VT, MT, PT and UT first, with RT and PAUT added where a plant or fabricator needs them.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Most Spokane employers certify under their own written practice based on ASNT SNT-TC-1A: the employer sets training and experience hours, examines the technician, and signs the certification. Military maintenance contractors and aerospace suppliers add the technical orders or customer flow-downs they work under, and their Level III reconciles those with the written practice. ASNT central certification is an alternative route for technicians who change employers often.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year",
+      levelII: "USD 68,000–95,000/year",
+      levelIII: "USD 110,000–160,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "seattle", label: "Seattle" },
+      { slug: "portland", label: "Portland" },
+      { slug: "billings", label: "Billings" },
+      { slug: "idaho-falls", label: "Idaho Falls" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+    ],
+  },
+  {
+    slug: "tacoma",
+    city: "Tacoma",
+    country: "USA",
+    lat: 47.25, lng: -122.44,
+    localContext:
+      "Tacoma is a working port city on Commencement Bay. The Port of Tacoma's container and bulk terminals, marine fabrication and ship repair, rail yards, pulp and paper manufacturing, steel and metal shops, and the large military presence at Joint Base Lewis-McChord all generate inspection work. Marine and structural steel follows AWS D1.1 and classification society rules, terminals follow owner specifications, and military maintenance follows contractor quality programmes. Visual, magnetic particle, penetrant and ultrasonic testing carry most of the load.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Tacoma employers generally certify technicians under a written practice based on ASNT SNT-TC-1A, signed off by the employer's Level III. Marine contractors may also answer to classification societies or the U.S. Coast Guard, and defence suppliers to customer flow-downs; the employer's Level III reconciles those with the written practice. ASNT central certification is an alternative for technicians who move between employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year",
+      levelII: "USD 68,000–95,000/year",
+      levelIII: "USD 110,000–160,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "seattle", label: "Seattle" },
+      { slug: "portland", label: "Portland" },
+      { slug: "spokane", label: "Spokane" },
+      { slug: "anchorage", label: "Anchorage" },
+      { slug: "richland", label: "Richland" },
+    ],
+  },
+  {
+    slug: "ogden",
+    city: "Ogden",
+    country: "USA",
+    lat: 41.22, lng: -111.97,
+    localContext:
+      "Ogden sits beside Hill Air Force Base, home of the Ogden Air Logistics Complex, which maintains fighter aircraft and other weapons systems and draws a ring of aerospace and defence suppliers into northern Utah. Northrop Grumman's propulsion operations in Box Elder County, Williams International's gas turbine engine work in Ogden and a broad machining and composites supplier base add to it. Refineries and pipelines to the south add pressure-equipment work. Aerospace inspection follows customer and military specifications, so documentation discipline matters.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Aerospace and defence employers around Ogden usually certify technicians under a written practice based on ASNT SNT-TC-1A, with the prime contractor's flow-down requirements and military technical orders layered on top. The employer's Level III reconciles those documents and signs the certification. ASNT central certification is an alternative for technicians who want a credential that is not tied to one employer.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 62,000–86,000/year",
+      levelIII: "USD 102,000–144,000/year",
+      usdReference: "USD 62,000–86,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "idaho-falls", label: "Idaho Falls" },
+      { slug: "denver", label: "Denver" },
+      { slug: "billings", label: "Billings" },
+      { slug: "las-vegas", label: "Las Vegas" },
+    ],
+  },
+  {
+    slug: "farmington",
+    city: "Farmington",
+    country: "USA",
+    lat: 36.73, lng: -108.22,
+    localContext:
+      "Farmington is the hub of the San Juan Basin, one of the larger natural gas producing regions in the United States. Producers, midstream operators, gathering and processing plants, compressor stations and transmission pipelines surround the city, and the Four Corners Power Plant near Fruitland adds steam-plant and boiler work. Pipeline and pressure-equipment inspection follows ASME B31 codes, API standards and operator specifications, with field welding inspection and in-service thickness work as the daily bread of NDT here.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Oil, gas and pipeline employers around Farmington generally certify technicians under a written practice based on ASNT SNT-TC-1A: the employer sets training and experience hours, examines the technician, and certifies. Operators and midstream companies often add their own contractor qualification requirements on top. ASNT central certification is an alternative for technicians who move between contractors.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 62,000–86,000/year",
+      levelIII: "USD 102,000–144,000/year",
+      usdReference: "USD 62,000–86,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "albuquerque", label: "Albuquerque" },
+      { slug: "denver", label: "Denver" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "midland", label: "Midland" },
+      { slug: "el-paso", label: "el-paso" },
+    ],
+  },
+  {
+    slug: "hobbs",
+    city: "Hobbs",
+    country: "USA",
+    lat: 32.7, lng: -103.14,
+    localContext:
+      "Hobbs is the centre of Lea County and the New Mexico side of the Permian Basin. Oil and gas producers, gathering and processing plants, pipelines and oilfield service companies dominate, with potash mining and processing to the west and the Urenco enrichment plant near Eunice adding nuclear-fuel-cycle work. The Artesia refinery is within reach, and the Waste Isolation Pilot Plant is near Carlsbad. Work runs to ASME B31 and API codes and operator specifications, and demand follows the pace of drilling.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Hobbs employers normally certify technicians under a written practice based on ASNT SNT-TC-1A, with the employer setting hours, examining and signing the certification. Operators and plant owners add their own contractor qualification rules, and nuclear facilities impose additional quality and access requirements. ASNT central certification is an alternative for technicians who change employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–64,000/year",
+      levelII: "USD 70,000–105,000/year (Permian premium + per diem)",
+      levelIII: "USD 115,000–170,000/year",
+      usdReference: "USD 70,000–105,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "midland", label: "Midland" },
+      { slug: "odessa", label: "Odessa" },
+      { slug: "el-paso", label: "el-paso" },
+      { slug: "albuquerque", label: "Albuquerque" },
+      { slug: "permian-basin", label: "the Permian Basin" },
+    ],
+  },
+  {
+    slug: "casper",
+    city: "Casper",
+    country: "USA",
+    lat: 42.87, lng: -106.31,
+    localContext:
+      "Casper is Wyoming's energy service hub. Oil and gas producers and service companies work the Powder River and surrounding basins, refineries and pipelines serve the region, coal-fired and renewable generation supply the grid, and uranium recovery, wind projects and fabrication shops add more. Pressure piping, tanks and vessels follow ASME and API codes and operator specifications, and structural and wind-tower steel follows AWS. Visual, magnetic particle, ultrasonic and radiographic methods all have regular local use.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Casper employers generally certify technicians under a written practice based on ASNT SNT-TC-1A, with the employer setting hours, examining and certifying. Operators and plant owners add contractor qualification rules of their own, and uranium and nuclear-related work carries additional quality requirements. ASNT central certification is an alternative for technicians who move between employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 62,000–88,000/year",
+      levelIII: "USD 105,000–148,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "billings", label: "Billings" },
+      { slug: "denver", label: "Denver" },
+      { slug: "williston", label: "Williston" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "idaho-falls", label: "Idaho Falls" },
+    ],
+  },
+  {
+    slug: "fairbanks",
+    city: "Fairbanks",
+    country: "USA",
+    lat: 64.84, lng: -147.72,
+    localContext:
+      "Fairbanks anchors Interior Alaska. The Trans-Alaska Pipeline System runs through the region and is maintained by Alyeska, Fort Wainwright and Eielson Air Force Base are major military employers, and Fort Greely lies to the southeast. Gold mining, the North Pole fuel facilities, coal-fired and other power generation and the University of Alaska Fairbanks add more. Arctic temperatures change how inspection is done, from couplant and batteries to penetrant limits, and the codes are ASME, API and AWS.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Interior Alaska employers generally certify technicians under a written practice based on ASNT SNT-TC-1A, with the employer setting hours, examining and signing the certification. Pipeline operators and military contractors add their own qualification requirements, and the employer's Level III reconciles those with the written practice. ASNT central certification is an alternative for technicians who change employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 55,000–72,000/year",
+      levelII: "USD 75,000–115,000/year (rotational North Slope premium)",
+      levelIII: "USD 130,000–185,000/year",
+      usdReference: "USD 75,000–115,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "anchorage", label: "Anchorage" },
+      { slug: "seattle", label: "Seattle" },
+      { slug: "tacoma", label: "Tacoma" },
+      { slug: "williston", label: "Williston" },
+      { slug: "billings", label: "Billings" },
+    ],
+  },
+  {
+    slug: "lafayette",
+    city: "Lafayette",
+    country: "USA",
+    lat: 30.22, lng: -92.02,
+    localContext:
+      "Lafayette is the onshore base of the Gulf of Mexico oil patch. Oilfield service companies, drilling tool and machine shops, and tubular inspection yards around Broussard, Youngsville and Scott inspect drill pipe, casing, tubing and threaded connections before they go offshore. Fabricators at the Port of Iberia build skids, modules and structures, PHI Aviation maintains offshore helicopters from its Lafayette base, and pipelines converge on Henry Hub at Erath. The work runs to API drill stem and tubular standards, API 1104, AWS D1.1 and FAA requirements, so MT, VT and UT come first.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "In Lafayette the employer certifies. Service companies and inspection yards keep a written practice built on ASNT SNT-TC-1A, and their Level III signs off training, experience, examinations and vision checks. Operators add the inspection categories and acceptance criteria in their tubular specifications, and aviation maintenance follows FAA and manufacturer requirements. ASNT central certification is the alternative for technicians who want a credential that moves with them.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–94,000/year (LNG project premium + OT)",
+      levelIII: "USD 108,000–160,000/year",
+      usdReference: "USD 64,000–94,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "lake-charles", label: "Lake Charles" },
+      { slug: "baton-rouge", label: "Baton Rouge" },
+      { slug: "houma", label: "Houma" },
+      { slug: "new-orleans", label: "New Orleans" },
+      { slug: "beaumont", label: "Beaumont" },
+    ],
+  },
+  {
+    slug: "houma",
+    city: "Houma",
+    country: "USA",
+    lat: 29.6, lng: -90.72,
+    localContext:
+      "Houma is a shipbuilding and offshore support town. Bollinger Shipyards builds tugs, barges, liftboats, offshore support vessels and government vessels at its yard on the Houma Navigation Canal, Thoma-Sea Marine Constructors builds vessels nearby, and repair yards across Terrebonne and Lafourche parishes keep the Gulf's workboats running. Port Fourchon, the main supply base for the deepwater Gulf, is an hour south. The work runs to classification society rules, US Coast Guard requirements, AWS D1.1 and API 1104, so VT, MT, PT and UT thickness gauging dominate.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Houma yards and marine contractors certify their own technicians under written practices built on ASNT SNT-TC-1A. Their Level III reconciles the program with classification society rules and the customer's contract, then signs off examinations and vision checks. Government vessel work can add further customer requirements. ASNT central certification is the route for technicians who want a credential independent of one yard.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 45,000–58,000/year",
+      levelII: "USD 62,000–88,000/year (turnaround premium)",
+      levelIII: "USD 105,000–155,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "new-orleans", label: "New Orleans" },
+      { slug: "lafayette", label: "Lafayette" },
+      { slug: "baton-rouge", label: "Baton Rouge" },
+      { slug: "mobile", label: "Mobile" },
+      { slug: "lake-charles", label: "Lake Charles" },
+    ],
+  },
+  {
+    slug: "shreveport",
+    city: "Shreveport",
+    country: "USA",
+    lat: 32.53, lng: -93.75,
+    localContext:
+      "Shreveport and Bossier City sit on the Haynesville Shale, one of the largest natural gas plays in the country, so pipeline construction, gathering lines, compressor stations and treating plants supply much of the inspection work. Benteler Steel/Tube runs a tube mill at the Port of Caddo-Bossier, Calumet operates a specialty refinery in Shreveport, and Barksdale Air Force Base anchors military aviation across the river. The work runs to API 1104, ASME B31.8, ASME pressure equipment codes and product specifications, so VT, UT and RT are the core skills.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers in Caddo and Bossier parishes certify their own technicians under written practices built on ASNT SNT-TC-1A, with a Level III signing off examinations and vision checks. Pipeline owners, mill customers and refinery inspection programs add their own acceptance criteria and audit expectations. Air Force aircraft inspection follows military technical orders. ASNT central certification is the alternative for individuals who want a portable credential.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 45,000–58,000/year",
+      levelII: "USD 62,000–88,000/year (turnaround premium)",
+      levelIII: "USD 105,000–155,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "dallas", label: "Dallas" },
+      { slug: "little-rock", label: "Little Rock" },
+      { slug: "jackson", label: "Jackson" },
+      { slug: "baton-rouge", label: "Baton Rouge" },
+      { slug: "fort-worth", label: "Fort Worth" },
+    ],
+  },
+  {
+    slug: "freeport",
+    city: "Freeport",
+    country: "USA",
+    lat: 28.95, lng: -95.36,
+    localContext:
+      "Freeport anchors the Brazosport industrial complex in southern Brazoria County. Dow's Texas Operations and BASF run large chemical sites here, Freeport LNG exports liquefied natural gas from Quintana Island, Phillips 66 operates the Sweeny Refinery nearby, and Port Freeport and the Strategic Petroleum Reserve's Bryan Mound site complete the picture. Most NDT work is maintenance and turnaround inspection on vessels, piping, exchangers and tanks, plus project construction, run to ASME Section VIII, ASME B31.3 and the owners' inspection programs. UT, RT, ET and the surface methods carry the load.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "On Brazosport plant sites the NDT contractor usually certifies its technicians under a written practice built on ASNT SNT-TC-1A, and its Level III signs off examinations and vision checks. Plant owners audit those files and set acceptance criteria in their specifications. Some inspector roles also ask for API individual certifications, which sit outside method certification. ASNT central certification is the portable alternative.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–62,000/year",
+      levelII: "USD 66,000–95,000/year",
+      levelIII: "USD 112,000–158,000/year",
+      usdReference: "USD 66,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "texas-city", label: "Texas City" },
+      { slug: "galveston", label: "Galveston" },
+      { slug: "sugar-land", label: "Sugar Land" },
+      { slug: "corpus-christi", label: "Corpus Christi" },
+    ],
+  },
+  {
+    slug: "brownsville",
+    city: "Brownsville",
+    country: "USA",
+    lat: 25.9, lng: -97.5,
+    localContext:
+      "Brownsville's inspection work centers on the Port of Brownsville. NextDecade's Rio Grande LNG export plant is under construction there with Bechtel as contractor, a second project, Texas LNG, is in development, and the port's long-established rig and vessel shipyard, ship recycling yards, fuel terminals and pipelines add steady demand. SpaceX's Starbase at Boca Chica has drawn fabrication and supplier work to the area. Construction runs to ASME B31.3, LNG tank and piping codes and AWS D1.1, so VT, MT, PT, RT and UT are in demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Contractors at the port and on the LNG projects certify their own technicians under written practices built on ASNT SNT-TC-1A, and their Level III signs off examinations and vision checks. Project owners set acceptance criteria and audit the files. Radiographers also need Texas radiation safety certification. ASNT central certification is the alternative for technicians who want a credential that moves between contractors.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 45,000–60,000/year",
+      levelII: "USD 64,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 64,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "corpus-christi", label: "Corpus Christi" },
+      { slug: "san-antonio", label: "San Antonio" },
+      { slug: "freeport", label: "Freeport" },
+      { slug: "houston", label: "Houston" },
+      { slug: "austin", label: "Austin" },
+    ],
+  },
+  {
+    slug: "birmingham",
+    city: "Birmingham",
+    country: "USA",
+    lat: 33.52, lng: -86.81,
+    localContext:
+      "Birmingham's inspection work comes from metal. American Cast Iron Pipe Company and McWane make pipe and related products here, Nucor runs a steel mill, and U.S. Steel's Fairfield Works produces seamless tubulars. Structural steel fabricators serve buildings, bridges and plants across the Southeast, and Alabama Power, Southern Company and Southern Nuclear are headquartered downtown, with fossil plants nearby. The work runs to AWS D1.1 and D1.5, ASME codes and product specifications, so VT, MT and UT come first, with RT, PT and ET in mills and power plants.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Birmingham fabricators, mills and inspection companies certify their own technicians under written practices built on ASNT SNT-TC-1A, and their Level III signs off examinations and vision checks. Customer specifications and building or bridge codes set acceptance criteria. Nuclear work adds utility access programs and performance demonstration for UT. ASNT central certification is the alternative for individuals who want a portable credential.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–62,000/year",
+      levelII: "USD 68,000–95,000/year (aerospace clearance premium)",
+      levelIII: "USD 115,000–165,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "huntsville", label: "Huntsville" },
+      { slug: "montgomery", label: "Montgomery" },
+      { slug: "mobile", label: "Mobile" },
+      { slug: "atlanta", label: "Atlanta" },
+      { slug: "nashville", label: "Nashville" },
+    ],
+  },
+  {
+    slug: "memphis",
+    city: "Memphis",
+    country: "USA",
+    lat: 35.15, lng: -90.05,
+    localContext:
+      "Memphis is a river, rail and air freight city, and most of its inspection work follows that. FedEx maintains aircraft at its Memphis hub, the Valero refinery on the south side runs pressure equipment and piping, Nucor operates a steel mill, and the Tennessee Valley Authority and the local utility keep power plants and substations. Barge terminals, rail yards and fabrication shops fill out the rest. The work runs to ASME, API, AWS and FAA maintenance requirements, so technicians need VT, MT, UT and RT foundations that an employer can document under a written practice.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "In Memphis the employer certifies. A shop, terminal or maintenance operation adopts a written practice built on ASNT SNT-TC-1A, and its Level III signs off examinations. Aviation maintenance customers and utility owners may add their own flow-down requirements, which the employer's Level III reconciles. ASNT central certification is the alternative route for individuals without a sponsoring employer.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 43,000–56,000/year",
+      levelII: "USD 58,000–82,000/year",
+      levelIII: "USD 98,000–140,000/year",
+      usdReference: "USD 58,000–82,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "nashville", label: "Nashville" },
+      { slug: "jackson", label: "Jackson" },
+      { slug: "little-rock", label: "Little Rock" },
+      { slug: "birmingham", label: "Birmingham" },
+      { slug: "knoxville", label: "Knoxville" },
+    ],
+  },
+  {
+    slug: "louisville",
+    city: "Louisville",
+    country: "USA",
+    lat: 38.25, lng: -85.76,
+    localContext:
+      "Louisville's inspection work comes from heavy manufacturing and the river. Ford builds trucks and SUVs at two assembly sites, GE Appliances runs a very large manufacturing campus, the Rubbertown chemical district sits along the Ohio, and UPS operates its worldwide air hub at the airport. Power generation, distilleries with pressure vessels and steel structure, and Ohio River locks and bridges add more. The work runs to ASME, AWS and customer standards, so technicians need weld, structural and thickness skills documented under an employer written practice.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Louisville employers certify their own technicians. The company adopts a written practice based on ASNT SNT-TC-1A, names the training and experience hours, and has a Level III approve examinations. Automotive, chemical and aviation customers may add flow-down rules. Individuals without a sponsor can pursue ASNT central certification, which Atlantis NDT also prepares candidates for.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–88,000/year",
+      levelIII: "USD 105,000–150,000/year",
+      usdReference: "USD 64,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "lexington", label: "Lexington" },
+      { slug: "cincinnati", label: "Cincinnati" },
+      { slug: "indianapolis", label: "Indianapolis" },
+      { slug: "nashville", label: "Nashville" },
+      { slug: "columbus-ohio", label: "columbus-ohio" },
+    ],
+  },
+  {
+    slug: "knoxville",
+    city: "Knoxville",
+    country: "USA",
+    lat: 35.96, lng: -83.92,
+    localContext:
+      "Knoxville is the headquarters city of the Tennessee Valley Authority and sits about twenty-five miles from the Oak Ridge national laboratory and weapons-complex sites. Around it are TVA fossil and nuclear generation, aluminum and automotive-component manufacturing in Blount County, Air National Guard aviation at McGhee Tyson, and a nuclear and defence supply chain. The work runs to ASME Section XI and III, AWS, and owner quality programmes, so technicians need documented qualification and clean records from the start.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Knoxville-area employers certify technicians under their own written practices built on ASNT SNT-TC-1A. Nuclear and defence customers add quality-assurance flow-down, including performance demonstrations for some UT work, which the employer's Level III reconciles. ASNT central certification remains an option for individuals without a sponsor, and Atlantis NDT prepares candidates for it.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year (clearance premium)",
+      levelII: "USD 72,000–100,000/year (clearance premium)",
+      levelIII: "USD 118,000–168,000/year",
+      usdReference: "USD 72,000–100,000 (clearance premium)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "oak-ridge", label: "Oak Ridge" },
+      { slug: "nashville", label: "Nashville" },
+      { slug: "chattanooga", label: "Chattanooga" },
+      { slug: "lexington", label: "Lexington" },
+      { slug: "charlotte", label: "charlotte" },
+    ],
+  },
+  {
+    slug: "chattanooga",
+    city: "Chattanooga",
+    country: "USA",
+    lat: 35.05, lng: -85.31,
+    localContext:
+      "Chattanooga combines river power, nuclear generation, automotive assembly and an old foundry and metalworking tradition. Volkswagen assembles vehicles at its Chattanooga plant, TVA operates the Sequoyah nuclear station at Soddy-Daisy and hydro dams on the Tennessee River, and the Watts Bar nuclear plant lies to the northeast. Rail yards, pipe and casting producers and general fabrication add steady work. Inspection runs to ASME, AWS and owner quality programmes, so documented, employer-certified technicians are in demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Chattanooga employers certify technicians under written practices based on ASNT SNT-TC-1A. Nuclear station contractors and automotive suppliers add their own quality flow-down, which the employer's Level III reconciles with the practice. Individuals without a sponsoring company can take the ASNT central certification route instead, which Atlantis NDT prepares candidates for.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 43,000–56,000/year",
+      levelII: "USD 58,000–82,000/year",
+      levelIII: "USD 98,000–140,000/year",
+      usdReference: "USD 58,000–82,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "knoxville", label: "Knoxville" },
+      { slug: "nashville", label: "Nashville" },
+      { slug: "atlanta", label: "Atlanta" },
+      { slug: "huntsville", label: "Huntsville" },
+      { slug: "oak-ridge", label: "Oak Ridge" },
+    ],
+  },
+  {
+    slug: "greenville-south-carolina",
+    city: "Greenville",
+    country: "USA",
+    lat: 34.85, lng: -82.4,
+    localContext:
+      "Greenville anchors the Upstate corridor between Atlanta and Charlotte, where advanced manufacturing is dense. GE Vernova builds gas turbines in Greenville, Lockheed Martin assembles F-16 fighters at its Greenville facility, BMW's largest plant is in nearby Spartanburg, and Michelin and other tire and textile-machinery firms operate across the region. Duke Energy's Oconee nuclear station lies to the west. Work runs to ASME, AWS, aerospace prime and automotive customer requirements, so technicians need documented, employer-certified qualification.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Upstate employers certify technicians under written practices based on ASNT SNT-TC-1A. Aerospace, power-turbine and automotive customers add flow-down quality rules and audits, which the employer's Level III reconciles with the practice. Individuals without a sponsor can pursue ASNT central certification, which Atlantis NDT prepares candidates for.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–152,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "charlotte", label: "charlotte" },
+      { slug: "atlanta", label: "Atlanta" },
+      { slug: "north-charleston", label: "North Charleston" },
+      { slug: "savannah", label: "Savannah" },
+      { slug: "raleigh", label: "Raleigh" },
+    ],
+  },
+  {
+    slug: "raleigh",
+    city: "Raleigh",
+    country: "USA",
+    lat: 35.78, lng: -78.64,
+    localContext:
+      "Raleigh and the Research Triangle mix utilities, life-science manufacturing and general industry rather than heavy process plants. Duke Energy runs the Shearon Harris nuclear station in southwest Wake County and other generation in the region, biopharmaceutical plants in the surrounding counties rely on high-purity process piping, and fabricators, building-systems makers and North Carolina highway bridges fill out the demand. Work runs to ASME, AWS and owner quality rules, so technicians need documented, employer-certified qualification.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Triangle employers certify technicians under written practices built on ASNT SNT-TC-1A. Nuclear station contractors and pharmaceutical owners add their own quality requirements, which the employer's Level III reconciles with the practice. Individuals without a sponsoring company can pursue ASNT central certification, which Atlantis NDT prepares candidates for.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–152,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "charlotte", label: "charlotte" },
+      { slug: "fayetteville", label: "Fayetteville" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "greenville-south-carolina", label: "Greenville" },
+      { slug: "atlanta", label: "Atlanta" },
+    ],
+  },
+  {
+    slug: "wilmington-north-carolina",
+    city: "Wilmington",
+    country: "USA",
+    lat: 34.23, lng: -77.94,
+    localContext:
+      "Wilmington sits on the Cape Fear River with a state-run deepwater port, and the surrounding counties carry a nuclear fuel fabrication plant at Castle Hayne, the Brunswick nuclear plant near Southport, chemical and industrial sites along the river, and a steady flow of bridge, terminal and marine structural work. Nuclear quality assurance, ASME Section XI, AWS D1.1 and D1.5, API 653 for terminals and marine classification rules all appear on local purchase orders. For training, that means employers want records they can defend to an auditor, and technicians who can move between weld, plate and in-service work.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Most employers around Wilmington certify technicians themselves under a written practice built on ASNT SNT-TC-1A. Nuclear fuel and power work adds quality assurance rules, vendor qualification and sometimes plant-specific access training on top. A course does not certify anyone. ASNT central certification (ASNT 9712 for Level I and II, ASNT Level III exams) is the alternative when an employer or customer asks for a portable credential.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–152,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "charlotte", label: "charlotte" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "savannah", label: "Savannah" },
+      { slug: "north-charleston", label: "North Charleston" },
+      { slug: "jacksonville", label: "Jacksonville" },
+    ],
+  },
+  {
+    slug: "richmond",
+    city: "Richmond",
+    country: "USA",
+    lat: 37.54, lng: -77.44,
+    localContext:
+      "Richmond is Virginia's state capital and a river-and-rail industrial hub. Employers in the metro area and along the James River corridor include the chemical complex at Hopewell, Dominion Energy's generation and transmission operations (its Surry and North Anna nuclear stations are a short drive away), the Port of Richmond, metal fabricators, food and tobacco processing plants, and the interstate bridges and rail yards that cross the region. Work runs to AWS D1.1 and D1.5, ASME B31.3 and Section VIII, API 653 for tanks and ASME Section XI at nuclear sites.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers in the Richmond area certify NDT personnel under their own written practice, usually built on ASNT SNT-TC-1A. Nuclear and utility work adds site access rules and quality assurance requirements, and chemical plants add their own owner standards. A training course is not certification. Candidates who need a portable credential can pursue ASNT central certification (ASNT 9712 for Level I and II, ASNT Level III exams).",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–62,000/year (security clearance premium)",
+      levelII: "USD 66,000–94,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 66,000–94,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "newport-news", label: "Newport News" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "washington-dc", label: "Washington" },
+      { slug: "charlotte", label: "charlotte" },
+    ],
+  },
+  {
+    slug: "lynchburg",
+    city: "Lynchburg",
+    country: "USA",
+    lat: 37.41, lng: -79.14,
+    localContext:
+      "Lynchburg is the centre of a nuclear manufacturing cluster in central Virginia. BWX Technologies builds naval reactor components and nuclear equipment in the area, and Framatome operates a nuclear fuel and services business here as well; foundry, pipe, machining and metal fabrication suppliers support them. Work follows ASME Section III and NQA-1 style quality assurance, AWS D1.1 and D1.6, and customer-specific acceptance criteria. For training, that means disciplined records, procedure-driven examinations and employers who audit their own qualification programmes closely.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Employers around Lynchburg certify NDT personnel under written practices that usually start from ASNT SNT-TC-1A and are then tightened to meet nuclear quality assurance, naval and prime-contractor flow-downs. Those extra requirements belong to the employer's programme and its Level III. A course alone certifies no one; ASNT central certification is a separate, portable alternative.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–62,000/year (security clearance premium)",
+      levelII: "USD 66,000–94,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 66,000–94,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "newport-news", label: "Newport News" },
+      { slug: "charlotte", label: "charlotte" },
+      { slug: "aiken", label: "Aiken" },
+      { slug: "oak-ridge", label: "Oak Ridge" },
+    ],
+  },
+  {
+    slug: "portsmouth-new-hampshire",
+    city: "Portsmouth",
+    country: "USA",
+    lat: 43.07, lng: -70.76,
+    localContext:
+      "Portsmouth sits on the Piscataqua River, directly across from Portsmouth Naval Shipyard in Kittery, Maine, where the Navy overhauls and modernises submarines. The Seacoast also has the Seabrook nuclear station, the Pease International Tradeport with aviation and technology employers, a working port, and the bridges that connect New Hampshire and Maine. Naval work follows NAVSEA requirements, nuclear work follows ASME Section XI and quality assurance rules, and bridges follow AWS D1.5. For training, supplier records and flow-down requirements matter as much as technique.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Seacoast employers certify NDT personnel themselves under written practices built on ASNT SNT-TC-1A. Navy and nuclear work add requirements that the employer and its Level III must meet; a course from an outside provider does not satisfy them alone. A course is not certification. ASNT central certification remains available for people who want a credential not tied to one employer.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–64,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "boston", label: "Boston" },
+      { slug: "bath-maine", label: "Bath" },
+      { slug: "providence", label: "Providence" },
+      { slug: "groton", label: "Groton" },
+      { slug: "east-hartford", label: "East Hartford" },
+    ],
+  },
+  {
+    slug: "albany",
+    city: "Albany",
+    country: "USA",
+    lat: 42.65, lng: -73.76,
+    localContext:
+      "Albany anchors New York's Capital Region, where heavy electrical manufacturing and power technology have deep roots. GE Vernova builds steam turbines and generators in Schenectady, the Naval Nuclear Laboratory's Knolls site is nearby, the Watervliet Arsenal manufactures large-calibre cannon tubes for the Army, and the Port of Albany handles bulk and project cargo. State transportation, Hudson River bridges and regional pipelines and generating plants add inspection demand. Work follows ASME Sections I, III, V and VIII, AWS D1.1 and D1.5, and customer specifications for rotating equipment.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Capital Region employers certify NDT technicians under their own written practices, usually built on ASNT SNT-TC-1A. Government, naval and power-equipment customers add flow-down requirements the employer and its Level III must satisfy. A course is not certification. ASNT central certification is a separate credential some technicians pursue alongside or instead of employer certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year",
+      levelII: "USD 68,000–96,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 68,000–96,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "new-york", label: "New York" },
+      { slug: "buffalo", label: "Buffalo" },
+      { slug: "boston", label: "Boston" },
+      { slug: "east-hartford", label: "East Hartford" },
+      { slug: "providence", label: "Providence" },
+    ],
+  },
+  {
+    slug: "erie",
+    city: "Erie",
+    country: "USA",
+    lat: 42.13, lng: -80.09,
+    localContext:
+      "Erie is Pennsylvania's Great Lakes port city and one of the country's best-known locomotive manufacturing centres, with Wabtec's Erie plant at Lawrence Park. Around it are metal castings and forging suppliers, plastics and tooling shops, ship and boat repair on Presque Isle Bay, paper and packaging plants and the bridges and rail lines of Lake Erie's southern shore. Work runs to AWS D1.1, AAR rail standards, ASME codes and customer specifications. For training, employers need technicians who can move between castings, welds and machined parts, with records that satisfy rail and industrial customers.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Erie-area employers certify NDT personnel under their own written practices, most often built on ASNT SNT-TC-1A, with rail, pressure-equipment and customer requirements layered on top. A course does not certify anyone; the employer does. ASNT central certification (ASNT 9712 for Level I and II, ASNT Level III exams) is a separate credential for those who want one that is not tied to a single employer.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–84,000/year",
+      levelIII: "USD 100,000–142,000/year",
+      usdReference: "USD 60,000–84,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "buffalo", label: "Buffalo" },
+      { slug: "cleveland", label: "Cleveland" },
+      { slug: "pittsburgh", label: "Pittsburgh" },
+      { slug: "great-lakes", label: "the Great Lakes" },
+      { slug: "detroit", label: "Detroit" },
+    ],
+  },
+  {
+    slug: "allentown",
+    city: "Allentown",
+    country: "USA",
+    lat: 40.6, lng: -75.47,
+    localContext:
+      "Allentown, Bethlehem and Easton form the Lehigh Valley, a former steel region that now mixes heavy truck assembly (Mack Trucks' Lehigh Valley Operations in Macungie), industrial gas and cryogenic equipment (Air Products is headquartered in the area), utilities (PPL is based in Allentown), medical device and food manufacturing, cement and quarrying, and one of the East Coast's largest warehouse and logistics clusters. Work follows AWS D1.1, ASME Sections VIII and IX, ASME B31.3 and customer specifications. For training, that means employers who value technicians able to cross fabrication, cryogenic and structural work.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Lehigh Valley employers certify NDT personnel under their own written practices, generally built on ASNT SNT-TC-1A. Pressure-equipment, truck and industrial-gas customers add flow-down requirements the employer and its Level III must meet. A course does not certify anyone; ASNT central certification is a separate credential for those who want one not tied to a single employer.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 62,000–86,000/year",
+      levelIII: "USD 102,000–148,000/year",
+      usdReference: "USD 62,000–86,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "philadelphia", label: "Philadelphia" },
+      { slug: "pittsburgh", label: "Pittsburgh" },
+      { slug: "newark", label: "Newark" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "new-york", label: "New York" },
+    ],
+  },
+  {
+    slug: "toledo",
+    city: "Toledo",
+    country: "USA",
+    lat: 41.65, lng: -83.54,
+    localContext:
+      "Toledo combines two refineries on the Maumee's east side, Jeep and powertrain plants, glass and thin-film solar manufacturers, a Great Lakes port and Davis-Besse nuclear station on Lake Erie. Work runs to API codes for refinery pressure equipment, ASME and AWS for fabrication, and customer quality manuals in automotive supply. Technicians usually start with visual and surface methods and add UT, so self-paced theory plus an employer-site practical suits shift workers and plants.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Most Toledo employers certify technicians under their own ASNT SNT-TC-1A written practice: the employer certifies, a course does not. Refinery, automotive and nuclear sites may add owner or customer requirements, which the employer's Level III reconciles. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–88,000/year",
+      levelIII: "USD 105,000–150,000/year",
+      usdReference: "USD 64,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "detroit", label: "Detroit" },
+      { slug: "cleveland", label: "Cleveland" },
+      { slug: "columbus-ohio", label: "columbus-ohio" },
+      { slug: "cincinnati", label: "Cincinnati" },
+      { slug: "dayton", label: "Dayton" },
+    ],
+  },
+  {
+    slug: "dayton",
+    city: "Dayton",
+    country: "USA",
+    lat: 39.76, lng: -84.19,
+    localContext:
+      "Dayton is anchored by Wright-Patterson Air Force Base and the Air Force Research Laboratory, with a dense network of aerospace and defense suppliers, University of Dayton Research Institute materials work, and older foundry, forging and automotive supplier shops. Work runs to customer-specified aerospace requirements, ASTM and ASME methods and quality manuals. Training here needs traceable records and strong penetrant, magnetic particle and UT fundamentals under an employer written practice.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Dayton employers certify under an SNT-TC-1A written practice, and the employer signs the certificate. Aerospace and defense customers often add flow-down requirements or approvals of their own, which the employer's Level III reconciles with the program. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–88,000/year",
+      levelIII: "USD 105,000–150,000/year",
+      usdReference: "USD 64,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "cincinnati", label: "Cincinnati" },
+      { slug: "columbus-ohio", label: "columbus-ohio" },
+      { slug: "indianapolis", label: "Indianapolis" },
+      { slug: "cleveland", label: "Cleveland" },
+      { slug: "toledo", label: "Toledo" },
+    ],
+  },
+  {
+    slug: "grand-rapids",
+    city: "Grand Rapids",
+    country: "USA",
+    lat: 42.96, lng: -85.67,
+    localContext:
+      "Grand Rapids and West Michigan run on manufacturing: furniture and office systems makers such as Steelcase and MillerKnoll, automotive and mobility suppliers, aerospace and defense machine shops, food and plastics plants, and many welding and stamping job shops. Work runs to AWS and ASME codes plus customer supplier requirements. Mid-sized shops with few technicians benefit from self-paced theory and an employer-site practical that avoids long absences.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "West Michigan employers certify technicians under their own ASNT SNT-TC-1A written practice, and the employer, not a school, issues the certification. Automotive and aerospace customers may add supplier requirements that the Level III reconciles. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–84,000/year",
+      levelIII: "USD 102,000–142,000/year",
+      usdReference: "USD 60,000–84,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "detroit", label: "Detroit" },
+      { slug: "chicago", label: "Chicago" },
+      { slug: "milwaukee", label: "Milwaukee" },
+      { slug: "indianapolis", label: "Indianapolis" },
+      { slug: "toledo", label: "Toledo" },
+    ],
+  },
+  {
+    slug: "peoria",
+    city: "Peoria",
+    country: "USA",
+    lat: 40.69, lng: -89.59,
+    localContext:
+      "Peoria is a heavy-equipment center: Caterpillar's manufacturing and engineering presence in the area, plus foundries, forge shops, machine shops and weld fabricators, agricultural processing such as ADM, Illinois River barge and rail logistics, and utility and pipeline work. Inspection runs to AWS and ASTM methods and customer quality manuals. Magnetic particle, penetrant and visual skills lead, with UT and RT added for thick castings and critical welds.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Peoria manufacturers and suppliers certify technicians under an employer ASNT SNT-TC-1A written practice, and the employer issues the certification. Customer quality manuals may add requirements the Level III reconciles. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–84,000/year",
+      levelIII: "USD 100,000–144,000/year",
+      usdReference: "USD 60,000–84,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "chicago", label: "Chicago" },
+      { slug: "st-louis", label: "St. Louis" },
+      { slug: "indianapolis", label: "Indianapolis" },
+      { slug: "des-moines", label: "Des Moines" },
+      { slug: "milwaukee", label: "Milwaukee" },
+    ],
+  },
+  {
+    slug: "toronto",
+    city: "Toronto",
+    country: "Canada",
+    lat: 43.65, lng: -79.38,
+    localContext:
+      "The Greater Toronto Area is a manufacturing and infrastructure market. Aerospace and aircraft-component suppliers cluster around Pearson airport and the Mississauga and Brampton corridors, while Ontario Power Generation's Darlington and Pickering nuclear stations anchor a nuclear and power supply chain along the lake. Fabricators, pressure-equipment shops, transit and rail owners and gas distribution add steady inspection work. Codes range from CSA and ASME to customer process specifications, so training has to match the specific customer's flow-down.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "In Ontario, employers hire against either CAN/CGSB-48.9712 (central certification through NRCan NDTCB or CWB Group) or SNT-TC-1A. Under SNT-TC-1A the employer certifies under its written practice, often with an aerospace prime's flow-down on top. Atlantis courses count toward the second route only. In-service nuclear inspection follows the licensee's program, and radiography needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 54,000–70,000/year",
+      levelII: "CAD 76,000–108,000/year (turnaround OT can push higher)",
+      levelIII: "CAD 118,000–165,000/year",
+      usdReference: "USD 56,000–80,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "hamilton-ontario", label: "Hamilton" },
+      { slug: "sudbury", label: "Sudbury" },
+      { slug: "sarnia", label: "Sarnia" },
+      { slug: "montreal", label: "Montreal" },
+      { slug: "buffalo", label: "Buffalo" },
+    ],
+  },
+  {
+    slug: "hamilton-ontario",
+    city: "Hamilton",
+    country: "Canada",
+    lat: 43.26, lng: -79.87,
+    localContext:
+      "Hamilton is Canada's steel city. ArcelorMittal Dofasco and Stelco's Hamilton Works, now owned by Cleveland-Cliffs, anchor primary metals on the bay, with a Golden Horseshoe base of structural and pressure-equipment fabricators, the Port of Hamilton, rail and highway infrastructure around them. Inspection leans on MT, VT and UT of ferrous plate, welds, forgings and lifting gear to CSA, ASME and AWS requirements, so training should favour those methods and heavy-steel specimens.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Hamilton employers hire against CAN/CGSB-48.9712 or SNT-TC-1A depending on the customer. Under SNT-TC-1A the employer certifies under its written practice, which suits fabricators selling to US customers. Atlantis courses do not count toward NRCan or CWB Group certification. Radiography additionally needs CNSC exposure device operator certification, a separate federal requirement.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 54,000–70,000/year",
+      levelII: "CAD 76,000–108,000/year (turnaround OT can push higher)",
+      levelIII: "CAD 118,000–165,000/year",
+      usdReference: "USD 56,000–80,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "toronto", label: "Toronto" },
+      { slug: "sarnia", label: "Sarnia" },
+      { slug: "buffalo", label: "Buffalo" },
+      { slug: "detroit", label: "Detroit" },
+      { slug: "sudbury", label: "Sudbury" },
+    ],
+  },
+  {
+    slug: "sudbury",
+    city: "Sudbury",
+    country: "Canada",
+    lat: 46.49, lng: -81,
+    localContext:
+      "Sudbury's economy is built on underground nickel and copper mining and smelting by Vale and Glencore, backed by a cluster of mining equipment manufacturers and repair shops. Inspection demand sits in welded frames and booms of heavy mobile equipment, hoists and shafts, rotating machinery, wear plate, and pressure vessels and process plant at the smelters. MT, VT and UT dominate, and remote Northern Ontario distances favour online theory with the practical at the employer's site.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Mines and contractors in Northern Ontario often specify CAN/CGSB-48.9712, certified by NRCan NDTCB or CWB Group through a Recognized Training Organization, which Atlantis is not. Where an OEM or US customer names SNT-TC-1A, the employer certifies under its written practice. Radiography also needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 54,000–70,000/year",
+      levelII: "CAD 76,000–108,000/year (turnaround OT can push higher)",
+      levelIII: "CAD 118,000–165,000/year",
+      usdReference: "USD 56,000–80,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "toronto", label: "Toronto" },
+      { slug: "hamilton-ontario", label: "Hamilton" },
+      { slug: "montreal", label: "Montreal" },
+      { slug: "winnipeg", label: "Winnipeg" },
+      { slug: "sarnia", label: "Sarnia" },
+    ],
+  },
+  {
+    slug: "regina",
+    city: "Regina",
+    country: "Canada",
+    lat: 50.45, lng: -104.61,
+    localContext:
+      "Regina's NDT work centres on a refinery and upgrader complex, steel pipe and tubular manufacturing, and contractors serving the potash mines outside the city. Provincially regulated pipelines run to CSA Z662 and interprovincial lines to the Canada Energy Regulator, while boilers and pressure vessels fall under the Technical Safety Authority of Saskatchewan. Rail, agricultural equipment and fabrication shops add steady magnetic particle, penetrant and visual work. Few full-time NDT schools serve the southern prairies, so online theory with a practical at the employer fits well.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Most Regina jobs name CAN/CGSB-48.9712, certified through NRCan or CWB Group after training from a Recognized Training Organization, which Atlantis is not. Atlantis courses follow ASNT SNT-TC-1A, where the employer's written practice governs training, examinations and certification. They suit US-code fabrication, cross-border pipeline work and supply-chain customers who specify ASNT. Radiography also needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 50,000–66,000/year",
+      levelII: "CAD 70,000–98,000/year",
+      levelIII: "CAD 112,000–155,000/year",
+      usdReference: "USD 52,000–72,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "saskatoon", label: "Saskatoon" },
+      { slug: "winnipeg", label: "Winnipeg" },
+      { slug: "calgary", label: "Calgary" },
+      { slug: "edmonton", label: "Edmonton" },
+      { slug: "red-deer", label: "Red Deer" },
+    ],
+  },
+  {
+    slug: "saskatoon",
+    city: "Saskatoon",
+    country: "Canada",
+    lat: 52.13, lng: -106.67,
+    localContext:
+      "Saskatoon's NDT demand comes from potash mines and processing sites around the city, uranium producers headquartered here with operations in northern Saskatchewan, agricultural equipment and trailer manufacturing, and pipeline and oilfield service work. Pipelines run to CSA Z662, pressure equipment falls under the Technical Safety Authority of Saskatchewan, and licensed uranium sites answer to the CNSC. Corrosion on tanks and vessels and welding on fabricated equipment make UT, MT, PT and VT the everyday methods.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Saskatoon employers split between CAN/CGSB-48.9712, certified through NRCan or CWB Group after Recognized Training Organization courses, and ASNT SNT-TC-1A, where the employer's written practice governs certification. Atlantis courses follow SNT-TC-1A for suppliers on US-code work, cross-border contracts and customers who name ASNT. Licensed nuclear sites set their own scheme. Radiography needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 56,000–72,000/year",
+      levelII: "CAD 78,000–112,000/year (turnaround OT can push past 150K)",
+      levelIII: "CAD 122,000–175,000/year",
+      usdReference: "USD 58,000–83,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "regina", label: "Regina" },
+      { slug: "edmonton", label: "Edmonton" },
+      { slug: "winnipeg", label: "Winnipeg" },
+      { slug: "calgary", label: "Calgary" },
+      { slug: "red-deer", label: "Red Deer" },
+    ],
+  },
+  {
+    slug: "red-deer",
+    city: "Red Deer",
+    country: "Canada",
+    lat: 52.27, lng: -113.81,
+    localContext:
+      "Red Deer sits between Calgary and Edmonton, serving gas processing, oilfield service, pipeline maintenance and the Joffre petrochemical complex to the east. Pipelines inside Alberta answer to the Alberta Energy Regulator and run to CSA Z662, pressure equipment is administered by the Alberta Boilers Safety Association, and fabrication shops build to ASME and CSA codes. UT, PAUT, MT, PT and VT dominate turnaround and pipeline integrity work. Technicians often rotate to plants across the province.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Many central Alberta operators expect CAN/CGSB-48.9712 through NRCan or CWB Group, which needs Recognized Training Organization courses; Atlantis is not one. Atlantis courses follow ASNT SNT-TC-1A, where the employer's written practice governs certification, for US-code fabrication, cross-border pipelines and customers who specify ASNT. Radiography needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 58,000–75,000/year",
+      levelII: "CAD 80,000–115,000/year",
+      levelIII: "CAD 125,000–180,000/year",
+      usdReference: "USD 60,000–86,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "calgary", label: "Calgary" },
+      { slug: "edmonton", label: "Edmonton" },
+      { slug: "grande-prairie", label: "Grande Prairie" },
+      { slug: "fort-mcmurray", label: "Fort McMurray" },
+      { slug: "saskatoon", label: "Saskatoon" },
+    ],
+  },
+  {
+    slug: "grande-prairie",
+    city: "Grande Prairie",
+    country: "Canada",
+    lat: 55.17, lng: -118.8,
+    localContext:
+      "Grande Prairie is the hub of Alberta's Peace Country, where Montney and Duvernay gas feeds wells, gathering lines, compressor stations and processing plants. Forestry mills, oilfield service and heavy-equipment fabrication add work. Pipelines inside Alberta answer to the Alberta Energy Regulator and run to CSA Z662, and pressure equipment is administered by the Alberta Boilers Safety Association. Remote sites and camps make online theory with an employer practical a natural fit for UT, MT, PT and VT technicians.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Peace Country operators often expect CAN/CGSB-48.9712, certified through NRCan or CWB Group after training from a Recognized Training Organization, which Atlantis is not. Atlantis courses follow ASNT SNT-TC-1A, where the employer's written practice governs examinations and certification, for US-code fabrication, cross-border pipeline contracts and customers who specify ASNT. Radiography needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 56,000–72,000/year",
+      levelII: "CAD 78,000–112,000/year (turnaround OT can push past 150K)",
+      levelIII: "CAD 122,000–175,000/year",
+      usdReference: "USD 58,000–83,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "red-deer", label: "Red Deer" },
+      { slug: "edmonton", label: "Edmonton" },
+      { slug: "fort-mcmurray", label: "Fort McMurray" },
+      { slug: "calgary", label: "Calgary" },
+      { slug: "saskatoon", label: "Saskatoon" },
+    ],
+  },
+  {
+    slug: "kitimat",
+    city: "Kitimat",
+    country: "Canada",
+    lat: 54.05, lng: -128.65,
+    localContext:
+      "Kitimat hosts Rio Tinto's modernised aluminium smelter, LNG Canada's export terminal at Douglas Channel, deep-water marine berths and the pipelines serving them. Inspection covers process and cryogenic-service piping, pressure vessels, structural and marine steel, cranes and coastal corrosion. Projects run to owner and engineering-contractor specifications under Technical Safety BC and the BC Energy Regulator, and remote location with rotating crews favours online theory plus a practical at the work site.",
+    primaryCert: "ASNT",
+    secondaryCert: "CGSB",
+    otherCerts: [],
+    certPathwayNote:
+      "Owners and contractors in northwest BC may name CAN/CGSB-48.9712 (NRCan NDTCB or CWB Group, through a Recognized Training Organization, which Atlantis is not) or an employer-based SNT-TC-1A written practice, often when US owners or codes are involved. Radiography also needs CNSC exposure device operator certification.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 56,000–72,000/year",
+      levelII: "CAD 78,000–108,000/year",
+      levelIII: "CAD 120,000–170,000/year",
+      usdReference: "USD 58,000–80,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "vancouver", label: "Vancouver" },
+      { slug: "edmonton", label: "Edmonton" },
+      { slug: "calgary", label: "Calgary" },
+      { slug: "fort-mcmurray", label: "Fort McMurray" },
+      { slug: "winnipeg", label: "Winnipeg" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

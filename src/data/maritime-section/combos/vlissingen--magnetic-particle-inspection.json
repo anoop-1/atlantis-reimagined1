@@ -1,0 +1,126 @@
+{
+  "port": "vlissingen",
+  "service": "magnetic-particle-inspection",
+  "title": "Magnetic Particle Inspection Vlissingen | Ship Crack Detection",
+  "description": "Magnetic particle inspection in Vlissingen: crack detection on crane pedestals, ramp hinges, hopper brackets and stern gear for ferries, dredgers and vessels.",
+  "h1": "MPI crack detection on lifting gear, ramps and stern gear for ships in Vlissingen-Oost",
+  "intro": "Working vessels crack in the places that carry the load: crane pedestals on wind-farm support vessels, ramp hinges on ferries, draghead gantry brackets on dredgers and the cranes of heavy-lift ships. Magnetic particle inspection shows whether a visible mark is a crack and how long it runs, using a portable yoke and a power supply. Atlantis NDT sends a team from India to the shipyard at Vlissingen-Oost, a Sloe area quay or a lay-by berth to examine those details, and to check repairs as they are made.",
+  "highlights": [
+    {
+      "h": "Cranes on support and lift ships",
+      "p": "Offshore support vessels and heavy-lift ships rely on deck cranes whose pedestal welds and jib heel pins carry cyclic load. MPI at those welds, done between campaigns alongside, confirms their condition before the next lifting season."
+    },
+    {
+      "h": "Ramps, doors and hinges on ferries",
+      "p": "Ferry ramps, stern doors and their hinge brackets flex with every vehicle. A docking is the one time the whole of that structure is accessible, and MPI at the welds and pins finds fatigue cracks early."
+    },
+    {
+      "h": "Checks through the repair, not just at the end",
+      "p": "A crack is confirmed, then ground out, and the excavation is checked before welding. We test at each stage with the yard, so the crack is shown to be gone before anyone welds, and the finished weld is tested after grinding."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-mpi-is-done",
+      "h": "Where is magnetic particle inspection done for ships at Vlissingen?",
+      "p": [
+        "In the dock at Damen Shiprepair Vlissingen, MPI covers the structure only reachable out of the water: rudder stock and pintle areas, shaft and propeller fittings where the owner has asked, hull bracket toes and sea chest welds. The yard supplies staging and lighting, and the team agrees the sequence with the foreman so surfaces are prepared and tested before blasting.",
+        "Alongside at the yard quay or a Sloe area quay, MPI covers deck and above-water structure: crane pedestals, jib pins, hatch coaming corners, ramp hinge brackets and mooring fittings. Hazardous-area rules matter here, because a portable yoke can arc at the pole faces. On a tanker or in a gas-free tank, the permit and the gas-free status decide whether a yoke may be used, and we do not start without them.",
+        "Order of work matters in the dock. Rudder and pintle areas are tested early, because the rudder may have to be lifted or the stock bearing checked after the result, and that takes the yard several days. Bracket toes and sea chest welds follow, and any location the yard will cover with a staging change or a coating job is tested before that change. We keep a running list of tested and untested details so the superintendent can see what remains each evening."
+      ],
+      "list": [
+        "In dock: rudder stock, pintles, bracket toes and sea chest welds.",
+        "At the yard quay: crane pedestals, jib heel pins and ramp hinge brackets.",
+        "At Sloe area quays: hatch coamings and deck fittings under the terminal's permit.",
+        "On tankers: only where the gas-free certificate and the permit allow a yoke."
+      ]
+    },
+    {
+      "id": "which-ships-and-details",
+      "h": "Which ships and details at Vlissingen are checked with MPI?",
+      "p": [
+        "Offshore wind support vessels and installation ships use cranes and motion-compensated gear, so pedestal welds and hinge pins are the focus. Dredgers carry draghead gantries, suction pipe supports and bottom door brackets that work against abrasive spoil and heavy loads. Ferries carry ramps and doors at bow and stern, and their hinge brackets and locking pins see heavy cycling. Bulk and general cargo ships carry hatch covers and cranes, with cracks typically starting at coaming corners.",
+        "Chemical and product tankers rarely need MPI for routine work, but after contact damage or a repair at the yard it is the first method used to confirm whether a weld has cracked. Heavy-lift ships bring a cluster of crane and lifting-point checks that depend on the lift plan and the owner's survey regime.",
+        "Mooring and towing fittings deserve a mention for ferries and support vessels that berth in a strong tidal stream. Bollard foundations and fairlead welds see peak loads when a ship is held against the Westerschelde current, and a crack there is a safety issue for the crew handling lines. When a vessel has had a hard berthing or a parted line, we add these fittings to the list at little extra time."
+      ]
+    },
+    {
+      "id": "scoping-mpi",
+      "h": "How is MPI scoped and prepared on these ships?",
+      "p": [
+        "MPI needs a clean steel surface. Paint, rust and weld spatter hide fine cracks, so the area must be cleaned back to bare metal at the test location. We agree with the yard which surfaces will be prepared, ask for scaffolding to reach the details, and mark the locations on the drawing. For a crane pedestal or a hinge, the weld and the adjacent plate on each side are the area of interest.",
+        "The technique is a portable electromagnetic yoke with a contrast paint and black ink, used under controlled viewing conditions, following ISO 17638 for welds. We lift-test the yoke at the start of each session and record it. Where the surface is too rough or the part is a forged pin, we adapt the technique and write the adaptation into the report. For cracks suspected below the surface or beneath coating, we recommend ultrasonic testing instead."
+      ]
+    },
+    {
+      "id": "what-mpi-finds",
+      "h": "What does MPI typically find on ferries, dredgers and support vessels?",
+      "p": [
+        "On ferries, we find fatigue cracks starting at the toes of hinge bracket welds and at the corners of door frames, usually short and often found early because they can be seen as fine lines. On dredgers, the cracks tend to appear in brackets and gantry supports where heavy loads are applied and released repeatedly. On support vessels, pedestal welds can show cracking after a hard season of lifting.",
+        "On repairs, the typical finding is a crack that continues past the planned excavation. If MPI shows the crack end beyond the groove, the yard grinds further and the area is retested before welding. After welding and grinding, a final MPI shows whether the repair has produced a new defect. Each stage is recorded, so the surveyor sees the complete sequence.",
+        "Where an indication is shallow, we record its length and note whether it can be removed by light grinding or needs a full groove. That distinction guides the yard's repair plan and its time estimate, because a crack that grinds out in minutes is a very different job from one that needs welding and heat control."
+      ]
+    },
+    {
+      "id": "planning-mpi",
+      "h": "How is MPI planned around the yard and the vessel in Vlissingen?",
+      "p": [
+        "MPI is quick per location, and the planning work is about access and preparation. We ask the superintendent for the list of details, drawings and the yard's plan for cleaning and staging, and propose a sequence that checks the areas that will be covered first. For a crane, we agree with the chief officer when the crane may be taken out of use and when it will be needed again.",
+        "A team from India needs visas before travel. The agent arranges gate passes and any permit for working in hazardous areas, and the yard issues the induction. Tell us if a surveyor will attend, because we prefer to test with them present so any indication is agreed on the spot, and nobody travels back to look at it again."
+      ],
+      "list": [
+        "List of details to test with drawings and positions.",
+        "Which surfaces the yard will clean and stage.",
+        "Hazardous-area status and permit arrangements.",
+        "When cranes, ramps or doors can be taken out of use."
+      ]
+    }
+  ],
+  "vessels": [
+    "Offshore wind support and installation vessels",
+    "Heavy-lift and project cargo ships",
+    "Ro-pax and ro-ro ferries",
+    "Trailing suction hopper dredgers",
+    "Geared bulk carriers and general cargo ships",
+    "Refrigerated cargo ships",
+    "Ships repaired after contact damage"
+  ],
+  "codes": [
+    "ISO 9934-1 – Magnetic particle testing: general principles",
+    "ISO 17638 – Magnetic particle testing of welds",
+    "ISO 23278 – Magnetic particle testing of welds: acceptance levels",
+    "ISO 3059 – Viewing conditions for penetrant and magnetic particle testing",
+    "SOLAS regulation II-1/3-13 and MSC.1/Circ.1663 – Lifting appliances",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "MPI report per location with procedure, technique and yoke lift-test record",
+    "Sketches showing each indication's position, length and orientation",
+    "Photographs of indications with a scale reference",
+    "Accept or reject decisions against the specification or class rules",
+    "Stage records for repairs: crack end, clean groove and finished weld",
+    "List of details not tested, with the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "Can a yoke be used on a tanker alongside in the Sloe area?",
+      "a": "Only where the terminal's permit and the gas-free status allow it. A portable yoke can arc at the pole faces, so in a hazardous area we need a valid permit or a gas-free certificate before starting. If neither is available, we use another method or wait for a safe window."
+    },
+    {
+      "q": "Which crane details on a support vessel does MPI cover?",
+      "a": "The pedestal welds, the jib heel pins, hook blocks where the owner has asked and the foundation structure around the pedestal. The surfaces must be cleaned to bare metal at the test locations. We agree the list with the chief officer and the superintendent so the crane is out of use only as long as needed."
+    },
+    {
+      "q": "Does MPI work through paint?",
+      "a": "Not for fine cracks. Paint, rust and spatter hide them, so the surface is cleaned to bare metal at the test locations. For cracks beneath coating or just under the surface, we recommend ultrasonic testing instead, and for a surface-breaking crack in a clean weld MPI is the faster check."
+    },
+    {
+      "q": "Is MPI used during the repair of a crack, or only at the end?",
+      "a": "At each stage. We confirm the crack, check the ground-out groove to show the crack is gone, then test the finished weld after grinding. Each stage is recorded, so the surveyor sees the full sequence and does not need to ask for the groove check later."
+    },
+    {
+      "q": "Does the MPI report serve as a class approval?",
+      "a": "No. It is the owner's and the yard's NDT record, showing the procedure, the indications found and the decisions made against the specification. Acceptance is for the class surveyor to decide from the data. We write the report so it can be used for that review without further testing."
+    }
+  ]
+}

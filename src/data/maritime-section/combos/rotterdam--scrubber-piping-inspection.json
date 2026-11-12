@@ -1,0 +1,124 @@
+{
+  "port": "rotterdam",
+  "service": "scrubber-piping-inspection",
+  "title": "Scrubber Pipe Inspection Rotterdam | EGCS Overboard Piping",
+  "description": "Scrubber pipe inspection in Rotterdam for container ships and tankers in the North Sea ECA: wash-water and overboard piping wall loss checked at berth.",
+  "h1": "Exhaust gas cleaning system piping checks for scrubber ships calling at Maasvlakte and Europoort",
+  "intro": "Rotterdam sits inside the North Sea emission control area, where fuel sulphur is capped unless the ship carries a scrubber, so a large share of the deep-sea container ships and tankers that call here are scrubber ships. Their wash-water and overboard discharge piping carries hot, acidic, chloride-laden water, and it wears out faster than the rest of the pipework. We inspect that piping at the berth, with a team travelling from India, while the system is shut down and before the ship sails again.",
+  "highlights": [
+    {
+      "h": "Use the shutdown a terminal call gives",
+      "p": "A scrubber normally runs only at sea or when the port allows it. A container ship alongside at Maasvlakte has the system stopped and piping drained, which is the condition we need to gauge pipe walls and examine welds."
+    },
+    {
+      "h": "Overboard section checked first",
+      "p": "The pipe between the overboard valve and the shell opening cannot be isolated by closing a valve, so a failure there floods the space. It is gauged around its circumference and the weld to the shell is examined on every visit."
+    },
+    {
+      "h": "Material decides the method",
+      "p": "Carbon steel, duplex and super duplex runs are gauged by ultrasound. Glass-reinforced epoxy sections are examined visually, since gauging them gives unreliable readings. The report states which method was used on which run."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-rotterdam",
+      "h": "Why are scrubber ships at Rotterdam so exposed to piping wear?",
+      "p": [
+        "The North Sea emission control area makes a scrubber the economic choice for large ships that spend most of their time on routes into and out of Rotterdam. Container ships on Asia and transatlantic services, tankers working Europoort and ships running regular North West Europe loops all carry them. When the port restricts open-loop discharge, the ship switches to closed-loop or fuel changeover and the pipework sees different conditions: stagnant wash-water in a closed system or intermittent flow in an open one.",
+        "Both are hard on metal. Acid wash-water with chlorides attacks carbon steel, and stagnant sections allow deposits and crevice corrosion to form under them. The wear is rarely uniform: it concentrates at bends, valves, pump discharges and the point where the pipe meets the shell, and it often hides under insulation or lagging in the machinery spaces.",
+        "The rules on wash-water discharge in North Sea ports change over time, so before running the system alongside, the ship's agent should confirm the current position. Our inspection depends on the system being stopped and drained, which is the usual state at berth."
+      ]
+    },
+    {
+      "id": "where",
+      "h": "Where in the port can scrubber piping be inspected?",
+      "p": [
+        "The terminals at Maasvlakte are the main location, because that is where the large container ships work. A call there lasts long enough for a team to gauge the visible overboard section, the accessible bends and valves and the weld to the shell, provided the system has been shut down and the engine department has isolated and drained the lines before the team boards.",
+        "At the Europoort and Botlek jetties, tankers allow work in the engine room and on the scrubber compartment, under the terminal's rules about hot work and gas. Lay-by berths and buoys suit a longer inspection, because the scrubber room can be opened fully and lagging removed from the runs that need it. The Botlek repair docks are the best place for the section of piping below the waterline, since a ship in dock has the shell openings exposed from outside as well as inside.",
+        "Anchorage work is practical only for the accessible parts of the system inside the ship, and we do not plan to examine shell openings from outside without the ship being on the blocks."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is scrubber piping scoped for a ship on a short call?",
+      "p": [
+        "We scope from the system's piping diagram and the maker's description. The chief engineer marks the runs by material and by service: inlet from the sea chest, wash-water supply, discharge from the scrubber tower, the treatment plant connections and the overboard line. Then we agree which sections can be reached and which need lagging removed or staging built, and plan the work to fit the call.",
+        "On a typical ship the sequence begins with the overboard section and its shell connection, because that is the failure that matters most. Then we gauge bends, tees and valve bodies in the discharge run, followed by the flanged joints. Weld seams on carbon steel and duplex lines are examined by magnetic particle or penetrant testing as the material allows. Fibreglass runs are inspected visually and by tapping, and we look at the joints and the supports.",
+        "The result is a record of wall thickness against the original at each station, with the corrosion pattern marked and any weld indications described. If a reading is near the limit the owner and the maker can use the data to decide whether to replace the section at the next opportunity, and the interval for the next check follows from the measured loss rate."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do scrubber piping checks find on ships calling here?",
+      "p": [
+        "On carbon steel runs, we find localised wall loss at bends and downstream of valves, where flow turbulence strips the protective film. On discharge pipes, the section nearest the shell often shows the lowest readings, and the flange faces may show crevice attack under the gasket. On older installations, the first signs are weeping flanges and rust staining on lagging, which tell the engineer where to look before the gauge confirms it.",
+        "Super duplex and duplex lines last longer but are not immune, and weld heat-affected zones are examined carefully. GRE sections do not corrode, but they crack, delaminate at joints and suffer from poor support. A visual record with photographs of each joint gives the owner a baseline for later comparison."
+      ],
+      "list": [
+        "Wall loss at bends, tees and downstream of valves on carbon steel discharge lines.",
+        "Thinning in the pipe section nearest the shell opening, and at its weld to the shell.",
+        "Crevice corrosion under flange gaskets.",
+        "Weld defects and heat-affected zone indications on duplex lines.",
+        "Cracking, delamination or poor support on glass-reinforced epoxy sections."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How should a scrubber piping check at Rotterdam be planned?",
+      "p": [
+        "Send us the system maker and type, the pipe materials, the diagram if you have it and the ship's schedule at Rotterdam. Tell us whether the system is open-loop, closed-loop or hybrid, and which sections the engineers already suspect. We then agree who isolates and drains the lines, who removes lagging and what permits the terminal requires.",
+        "Container ships have the shortest windows, so we plan these jobs with parallel teams on different sections. The agent submits names for terminal access in good time, and because the team travels from India each member needs a Schengen visa, so we ask for the schedule as early as the owner knows it.",
+        "If the check shows a section near its limit, we report it to the chief engineer on site before the ship sails, and the written report gives readings and positions the maker or the yard can use to plan replacement."
+      ]
+    }
+  ],
+  "vessels": [
+    "Large container ships on deep-sea services",
+    "Crude and product tankers fitted with scrubbers",
+    "Bulk carriers with exhaust gas cleaning systems",
+    "Car carriers and ro-ro vessels",
+    "Cruise ships with hybrid scrubbers",
+    "Ro-pax ferries running North West Europe routes"
+  ],
+  "codes": [
+    "MARPOL Annex VI, regulation 14 on sulphur oxides",
+    "2021 Guidelines for Exhaust Gas Cleaning Systems (MEPC.340(77))",
+    "IMO resolution A.753(18) on plastic pipes on ships",
+    "Classification society rules for EGCS piping and shell connections",
+    "ISO 16809 and ASTM E797 for ultrasonic thickness measurement",
+    "ISO 17638 and ISO 3452-1 for weld crack detection"
+  ],
+  "deliverables": [
+    "Wall thickness readings at marked stations along each metallic run",
+    "Weld examination results for the overboard section and shell connection",
+    "Visual record of GRE runs, joints and supports",
+    "Marked piping diagram showing the corrosion pattern and weeping points",
+    "Recommended re-inspection interval based on the measured loss"
+  ],
+  "faqs": [
+    {
+      "q": "Can scrubber piping be inspected while a container ship is at Maasvlakte?",
+      "a": "Yes, if the system is shut down and the lines are drained before the team boards. A terminal call is long enough for gauging the overboard section, bends and valves, and examining the weld to the shell, provided the engineers have removed lagging where needed."
+    },
+    {
+      "q": "Why is the overboard pipe checked first?",
+      "a": "It connects directly to an opening in the ship's side and cannot be isolated by shutting a valve ahead of it. A failure floods the space, so its wall thickness and the weld to the shell are the first things measured at every visit."
+    },
+    {
+      "q": "Does the North Sea ECA change the inspection?",
+      "a": "It explains why so many ships here carry scrubbers, and the discharge rules for wash-water vary between ports. Our inspection does not depend on the rules: we need the system stopped and drained, which is the normal state at berth."
+    },
+    {
+      "q": "Can you gauge glass-reinforced epoxy scrubber pipe?",
+      "a": "We examine it visually and by tapping, and photograph each joint. Ultrasonic gauging of GRE gives unreliable readings, so we do not use it for the thickness of those sections. The report says which method applied to each run."
+    },
+    {
+      "q": "How often should scrubber piping be inspected between dockings?",
+      "a": "It depends on the material, the system type and the loss rate measured at the first inspection. The first record sets a baseline; the second shows the rate; the interval afterwards follows from it. Ships with carbon steel discharge runs are checked more often than duplex systems."
+    },
+    {
+      "q": "What does the chief engineer need to prepare before the team arrives?",
+      "a": "Stop and drain the system, isolate the lines to be gauged, remove lagging from the runs we agreed, and have the piping diagram on hand. We send a checklist beforehand, and the agent arranges the terminal access passes for the technicians."
+    }
+  ]
+}

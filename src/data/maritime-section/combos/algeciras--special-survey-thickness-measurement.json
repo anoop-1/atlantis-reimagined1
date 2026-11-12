@@ -1,0 +1,130 @@
+{
+  "port": "algeciras",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Algeciras | Pre-Docking",
+  "description": "Renewal and special survey thickness gauging for ships at Algeciras: afloat pre-docking readings at berth or anchor, planned ahead of Gibraltar or Cádiz docks.",
+  "h1": "Renewal Survey Gauging from Algeciras: Pre-Docking Readings Before the Ship Reaches the Dock",
+  "intro": "Algeciras has no repair dock of its own, yet a great many ships due a renewal survey pass through the bay every month. That makes it the natural place to gather steel data afloat, so the docking at Gibraltar or in the Bay of Cádiz starts from measured readings instead of guesses. We send a thickness measurement team from India to the ship at a terminal berth or at anchor, gauge the spaces that can be entered, and hand the superintendent a steel renewal estimate before the yard's quotation round closes.",
+  "highlights": [
+    {
+      "h": "Afloat first, dry later",
+      "p": "Algeciras readings are taken while the ship is still trading. Ballast tanks, void spaces and deck structure are gauged at the berth or at anchor, so the shell and bottom work in the dock can be limited to what cannot be reached afloat."
+    },
+    {
+      "h": "Steel estimate ahead of the quotation round",
+      "p": "Yards quote on the steel they expect to renew. Readings taken in Algeciras weeks before the docking let the superintendent put measured wastage into the specification, instead of accepting an open allowance that is argued over once the tanks are open."
+    },
+    {
+      "h": "One programme across the Strait",
+      "p": "Point numbering, sketches and member references started at Algeciras carry straight into the docking survey at Gibraltar or Cádiz, so the class surveyor reviews one continuous set of readings rather than two unrelated reports."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-afloat",
+      "h": "Why do renewal survey ships get gauged afloat at Algeciras?",
+      "p": [
+        "The bay sits where trades converge: Asia–Europe and transatlantic container services, tankers loading or discharging at San Roque, bulk carriers waiting for orders, and ships that simply stop to bunker before entering or leaving the Mediterranean. A ship a few months from its renewal survey has little reason to detour to a repair port early, but it has every reason to use a lay-by or a bunkering stop to learn what the docking will find.",
+        "That is the logic of gauging afloat here. The renewal survey itself, with its close-up survey and the surveyor attending in the tanks, belongs in the dock. Before that, the owner needs to know how much plating and how many stiffeners are near the renewal limit, which spaces will be worst, and whether a particular tank deserves a coating decision before the ship arrives at the yard. Readings from ballast tanks, void spaces and accessible holds answer most of those questions at a time when the answers can still change the repair specification.",
+        "Because the work is done ahead of the survey, it remains owner's information. It is not credited to the class survey, and the report says so. What it buys is time: the yard sees a measured scope at the start of the quotation round, and the class gauging in the dock can be aimed at confirming and extending the worst areas."
+      ]
+    },
+    {
+      "id": "where-afloat",
+      "h": "Where in Algeciras Bay can special survey gauging be done?",
+      "p": [
+        "Three settings are realistic in the bay, and each allows a different part of the renewal gauging programme. A container ship alongside for a long relay call leaves engine-room tanks, double-bottom spaces, steering gear flat and the scrubber casing reachable, because cargo work happens on deck. A tanker at a liquid-bulk berth can be gauged on deck, in the pump room and in segregated ballast tanks once permits are issued, while cargo tank internals wait for a gas-free window. A ship at anchor, particularly during bunkering, has the longest uninterrupted time and is boarded by launch.",
+        "What is not realistic is a full renewal gauging programme on a large tanker or bulk carrier with the hull wet. Bottom plating, the underside of the keel and rudder, and anything below the waterline stay for the dock. That boundary is why the scope is split in two, and why the plan agreed with the superintendent names which spaces are measured in the bay and which are left for the yard."
+      ],
+      "list": [
+        "Container terminal berths — double-bottom, wing and void spaces and the engine room, gauged while cranes work the cargo",
+        "Tanker berths serving the refinery — deck, pump room and segregated ballast tanks, subject to the terminal's permit rules",
+        "Anchorage during bunkering — ballast tanks, hold frames and deck structure reached by launch for an uninterrupted spell",
+        "Lay-by after discharge — cleaned and gas-freed tanks gauged before the ship sails for the dock"
+      ]
+    },
+    {
+      "id": "ships-due",
+      "h": "Which ships passing Algeciras are close to a renewal survey?",
+      "p": [
+        "Older ships dominate the demand. A Capesize bulk carrier heading for its third renewal survey has hold frames, hopper plating and topside tanks that are likely to be the main steel item. A product tanker at fifteen years faces the widest tank gauging of its career under the ESP rules, and charterers often ask for an assessment on top. A ro-pax on the Strait crossings has a different pattern: car-deck plating, ramp structure and ballast tanks wear on a short, repeated rotation, and its renewal survey is slotted into the quiet season.",
+        "Container ships need less steel but more attention to piping. A scrubber-fitted ship approaching its second or third renewal carries wash-water and overboard lines that have been working in acidic conditions for years, so the survey programme adds those lines and the shell connection to the hull gauging. Algeciras calls are short for these ships, so the gauging is scoped to a call and planned with the chief engineer before arrival."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is the afloat scope set for a ship due its renewal survey?",
+      "p": [
+        "We begin with the class thickness measurement requirements for the ship's type and age, then work out which of those spaces can be reached at the bay. The previous survey's report is the starting point: readings that were close to the allowable margin at the last survey are repeated first, because their rate of loss decides the steel list. Spaces with a known coating failure come next, followed by areas the crew has reported as suspect.",
+        "Access sets the limits. Ballast tanks must be gas-free and certified for entry, with lighting, ventilation and the ship's enclosed-space procedure in force, and staging or rafting for upper structure is arranged by the ship. Where coatings are sound, readings can be taken through them only if the gauge's through-coating mode has been verified on a coated reference piece; otherwise the plate is cleaned at each point. For bay conditions we add some float to anchorage jobs, because a strong easterly in the Strait can delay a launch or shorten a stay."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What does afloat gauging typically show before a renewal survey?",
+      "p": [
+        "On bulk carriers the pattern is wastage on hold frames and brackets at the lower ends, pitting on hopper and tank-top plating, and heavy loss on the corrugated bulkhead lower stools where cargo abrasion and corrosion combine. On tankers it is the ballast tanks that surprise owners: coatings that have broken down over the upper strakes and underdeck, with grooving along welds and pitting on bottom plates. Container ships tend to show localised wastage where tanks adjoin heated spaces, plus corrosion on hatch coaming brackets and on the underside of the weather deck.",
+        "Each finding is reported as a measured location against the original thickness, so the superintendent can see how far each member is from its limit and which ones are likely to be renewed. The report also lists the spaces that could not be gauged afloat, with a suggested allowance, so the specification does not silently assume the unmeasured steel is sound."
+      ]
+    },
+    {
+      "id": "handover",
+      "h": "How are Algeciras readings handed over to the docking yard?",
+      "p": [
+        "The report is laid out so the dock team can pick it up the moment the ship enters. Sketches carry the same frame and strake references the class formats use, and each reading is numbered so the same point can be re-measured in dry dock. Members flagged for likely renewal are listed with location, dimensions and original thickness, ready to be turned into a steel order.",
+        "When the dock is at Gibraltar or in the Bay of Cádiz, the same team can mobilise again for the in-dock gauging, which keeps the point numbering unbroken. If the owner prefers a different yard or a firm approved by the ship's society for the class gauging, the Algeciras report still serves as the baseline against which those readings are compared."
+      ]
+    }
+  ],
+  "vessels": [
+    "Capesize and Panamax bulk carriers",
+    "Crude and product tankers",
+    "Container ships with exhaust gas scrubbers",
+    "Ro-pax ferries on Strait crossings",
+    "Car carriers (PCTC)",
+    "Chemical tankers",
+    "Bunker tankers and barges"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull surveys and the gauging extents tied to each renewal survey",
+    "IACS UR Z10.1 and Z10.4 for the enhanced survey of oil tankers and bulk carriers",
+    "IACS UR Z17 on which firms may measure thickness for credit to a class survey",
+    "SOLAS chapter XI-1, regulation 2, and the 2011 ESP Code",
+    "ASTM E797 for manual pulse-echo ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A for the qualification of the technicians who take the readings"
+  ],
+  "deliverables": [
+    "Steel renewal estimate by member, ready for the yard's quotation round",
+    "Readings against original thickness with frame and strake references",
+    "List of members at or near the renewal limit, with trend against the previous survey",
+    "Schedule of spaces not gauged afloat, with a suggested allowance for the dock",
+    "Numbered measurement points carried forward for re-measurement in dry dock",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can special survey thickness measurement be done in Algeciras, or must it wait for the dry dock?",
+      "a": "Much of it can be done in the bay. Ballast tanks, void spaces, engine-room tanks and deck structure are gauged at a berth or at anchor, while bottom plating and everything below the waterline stays for the dock. The usual approach is to measure what can be reached in Algeciras and leave the remainder to the yard, with the unmeasured areas listed."
+    },
+    {
+      "q": "Does gauging at Algeciras count towards the renewal survey?",
+      "a": "Only when a firm approved by the ship's classification society takes the readings as part of the survey. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so for now our readings here serve the owner's own planning. They remain valuable because they size the steel work before yards quote."
+    },
+    {
+      "q": "How far ahead of the docking should a ship be gauged at Algeciras?",
+      "a": "Early enough for the readings to shape the repair specification, but close enough that the steel has not changed much by the time the yard opens the tanks. For most ships that means several months, timed to a lay-by or a bunkering stop when ballast tanks can be entered safely and a team can reach the ship from India."
+    },
+    {
+      "q": "Which dock do Algeciras ships usually go to for a renewal survey?",
+      "a": "Ships passing the bay commonly dock at Gibraltar or in the Bay of Cádiz, although the choice rests with the owner and depends on dock size, availability and the ship's trade. We gauge afloat at Algeciras whichever yard is chosen, and can follow the ship to the dock if the same team is wanted for the in-dock measurements."
+    },
+    {
+      "q": "What does a ship need to arrange for gauging at anchor in Algeciras Bay?",
+      "a": "The agent books a launch and requests terminal or port access, and the ship prepares tanks: gas-free certificates, ventilation, lighting and staging where upper structure is in scope. A margin for weather is sensible, since strong easterlies can delay boarding. We send an access checklist with the measurement plan so nothing is found missing once the team arrives."
+    },
+    {
+      "q": "Is afloat gauging at Algeciras enough for a fifteen-year tanker?",
+      "a": "It is a good start but not the whole job. Tankers at their third renewal survey face wide tank gauging that normally needs cleaned, gas-free cargo tanks and staging, which a dock provides. Readings in the bay still show which tanks are in the worst condition, so the dock gauging can be sequenced to open those first."
+    }
+  ]
+}

@@ -1154,6 +1154,28 @@
           "Eddy current simulator"
         ]
       ]
+    },
+    "/snt-tc-1a-certification": {
+      "h": "Where to go from the definition",
+      "p": "This page explains what SNT-TC-1A is and how employer certification works. The level-by-level requirements (training hours, experience, examinations and the current edition) are in the requirements guide, and the eligibility check tells you where a technician stands today.",
+      "links": [
+        [
+          "/blog/asnt-snt-tc-1a-certification-requirements",
+          "SNT-TC-1A requirements by level, current edition"
+        ],
+        [
+          "/snt-tc-1a-eligibility",
+          "Check SNT-TC-1A eligibility for a technician"
+        ],
+        [
+          "/ndt-level-2-training",
+          "NDT Level 2 training built on SNT-TC-1A"
+        ],
+        [
+          "/ndt-written-practice-development",
+          "Written practice development for employers"
+        ]
+      ]
     }
   }
 }

@@ -1,0 +1,112 @@
+{
+  "slug": "harwich",
+  "name": "Harwich",
+  "country": "United Kingdom",
+  "region": "europe",
+  "title": "Harwich Ship Thickness Measurement | UTM for Ferries & Workboats",
+  "description": "Ultrasonic thickness measurement at Harwich: ro-pax ferries, offshore wind support vessels, pilot craft and dredgers gauged alongside or at anchor.",
+  "h1": "Ship Gauging at Harwich: Ferries, Wind-Farm Vessels and Harbour Craft",
+  "intro": "Harwich is the quieter, more varied side of the Stour and Orwell estuary: a ferry port, a Navyard base for pilot and buoy-tending craft, and a staging point for vessels serving North Sea wind farms. Many of these ships work to fixed schedules and lie alongside between duties, which is when hull, tank and piping gauging fits. Atlantis sends technicians from India to the vessel for each job and reports readings in the class TM formats.",
+  "keywords": [
+    "harwich thickness measurement",
+    "ultrasonic thickness gauging harwich",
+    "ferry hull gauging uk",
+    "offshore wind vessel inspection essex",
+    "ship inspection harwich haven",
+    "ro-pax thickness measurement",
+    "pilot vessel hull survey",
+    "dredger gauging north sea",
+    "utm harwich",
+    "pre-docking gauging ferry"
+  ],
+  "highlights": [
+    {
+      "h": "Ferry gauging around sailing times",
+      "p": "A ro-pax ferry on the Hook of Holland route is alongside for a fixed turnaround. We plan vehicle-deck, ramp, void-space and piping readings so they fit that gap and can be continued over several consecutive calls."
+    },
+    {
+      "h": "Service fleets between duties",
+      "p": "Crew transfer craft, service operation vessels, pilot cutters and buoy tenders have lay days between rosters. Those lay days allow tank, shell and thruster-area gauging without disturbing the work programme."
+    },
+    {
+      "h": "Dredgers on the Haven channel",
+      "p": "Dredging the shared deep-water channel keeps hopper dredgers busy here. Their hoppers, suction pipes and wear plates wear fast, so gauging records show owners which areas to renew at the next docking."
+    }
+  ],
+  "port": {
+    "h": "Harwich: ferry quays, the Navyard and the Haven approaches",
+    "p": [
+      "Harwich sits on the Essex shore at the point where the rivers Stour and Orwell meet and reach the North Sea. The Harwich Haven Authority looks after the approaches and the deep-water channel, and the dredging needed to keep that channel open to the largest container ships across the water at Felixstowe is a constant source of work for hopper dredgers and their support craft. The port is compact: the old town and the Navyard lie on the point itself, while the large modern ferry terminal stands further up the estuary at Parkeston, with road and rail connections inland.",
+      "The traffic is more mixed than at its neighbour. Ro-pax ferries run the overnight crossing to the Hook of Holland and carry freight trailers and passengers on a fixed timetable. Ro-ro freight ships and small general cargo vessels use the quays too. The Navyard is a base for Trinity House vessels, pilot boats and buoy tenders, and Harwich has also developed as a service port for North Sea offshore wind, with crew transfer vessels and larger service operation vessels working from the estuary to arrays off the East Anglian coast. Fishing boats, tugs, sail-training craft and visiting yachts use the harbour as well.",
+      "For gauging, this variety matters. The ferries are the largest ships and the ones with the most predictable rhythm, but the workboat fleets are the ones that actually spend the most time idle between jobs. Aluminium and steel crew boats, steel service vessels and ageing tugs all benefit from baseline thickness records, especially where fatigue and corrosion meet at engine beds, thruster tunnels and ballast spaces. Because the Haven is sheltered from most directions except the east and north-east, work alongside is seldom disturbed by the weather, though strong easterlies can stop launch work at the anchorage."
+    ]
+  },
+  "facilities": {
+    "h": "Where gauging happens in Harwich and the Haven",
+    "p": [
+      "Most work is alongside. A ferry at its berth offers a defined window, so we agree the programme with the superintendent weeks ahead and split it across several turnarounds if the ship's schedule allows. Vehicle decks are clear for a short time after unloading, ramps and hoistable decks can be read when parked, and void spaces and tanks are opened by the crew in the order we agree. For workboats at the Navyard or at smaller quays, the ship is usually in harbour for a day or more, which is long enough for a fuller tank scope.",
+      "Harwich has no large commercial drydock of its own, so ships needing a full renewal survey normally dock at yards elsewhere in the UK or across the North Sea in the Netherlands and Belgium. Readings taken here are used to prepare the steel estimate and the docking specification. At the Haven anchorages, boarding by launch is possible when sea state allows, and suits short deck, hatch and air-pipe scopes on vessels waiting for orders or a berth."
+    ],
+    "list": [
+      "Ferry berths at the international terminal: vehicle-deck plating, ramps, hoistable decks and sea-water piping between sailings.",
+      "Navyard quays: tank, shell and deck gauging on pilot boats, buoy tenders and other harbour service craft.",
+      "Wind-farm service berths: crew transfer vessels and service operation vessels read during rotational lay days.",
+      "Dredger berths in the estuary: hopper, suction-pipe and wear-plate readings between dredging campaigns.",
+      "Haven anchorages: short launch-borne scopes on ships waiting for orders, weather or a berth."
+    ]
+  },
+  "context": {
+    "h": "Port state control, the Haven authority and what drives inspection here",
+    "p": [
+      "Port state control at Harwich is the responsibility of the Maritime and Coastguard Agency, and the UK has applied Paris MoU practice under its own legislation since leaving the EU. Ro-pax ferries come under both flag-state surveys and the specific passenger-ship inspection regime, so structural condition, watertight integrity and piping all feature in what inspectors look at. Vessels under UK flag in the workboat classes are surveyed under domestic codes rather than as full SOLAS ships, which makes class or administration records of hull thickness an important part of the file.",
+      "Offshore wind charterers expect well-documented vessels. Their contractors audit the technical condition of service vessels before and during contracts, and structural thickness records, along with evidence of corrosion control in ballast and fuel spaces, strengthen the owner's position at tender. Ferry operators face a similar discipline, with older tonnage kept in service by close monitoring of known wastage areas. Gauging at Harwich therefore serves owners who need to document condition for a charterer, a buyer or an insurer as much as those preparing for a class docking."
+    ]
+  },
+  "eca": "seca-north-sea-baltic",
+  "psc": "Paris MoU",
+  "jobs": {
+    "h": "Typical thickness gauging jobs at Harwich",
+    "p": "The work at Harwich splits between schedule-driven ferry calls and flexible workboat jobs. We plan ferry work around the turnaround and the crew's staffing, and workboat work around lay days and the contract calendar. In both cases the superintendent receives readings in the class layout, with any areas close to the allowable diminution marked for the docking estimate.",
+    "list": [
+      "Vehicle-deck plating, ramp hinge and hoistable-deck gauging on a ro-pax ferry across consecutive turnarounds, with MPI on fatigue-prone lugs.",
+      "Ballast and fuel tank gauging on a service operation vessel between offshore wind rotations.",
+      "Shell, thruster-tunnel and tank readings on a crew transfer vessel hauled out or lying at a repair berth.",
+      "Hopper, suction-pipe and wear-plate gauging on a dredger working the Haven channel.",
+      "Pre-purchase condition gauging on a tug, pilot boat or small coastal tanker lying in the estuary."
+    ]
+  },
+  "logistics": "Stansted is the closest major airport, with Heathrow and Gatwick reached by rail or road; from Stansted the road or rail route to Harwich passes through Colchester or Manningtree. Harwich International and the Navyard control access with passes issued through the shipping line or the vessel's agent. Technicians travel from India on UK visas, applied for once the job is confirmed, and owners with regular calls benefit from valid visas already in place. Launches for the Haven anchorages are booked by the ship's agent.",
+  "vessels": [
+    "Ro-pax ferries",
+    "Ro-ro freight ships",
+    "Crew transfer vessels",
+    "Service operation vessels",
+    "Pilot boats and buoy tenders",
+    "Hopper and suction dredgers",
+    "Tugs and harbour craft",
+    "Coastal tankers and cargo ships"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ferry be gauged between sailings at Harwich?",
+      "a": "Yes, for a defined scope. A ro-pax ferry on a fixed rotation is alongside for a limited time, so we agree the sequence in advance and split larger programmes across several turnarounds. Vehicle decks are read when clear, ramps when parked, and tanks and voids only once the crew confirm gas-free status and the enclosed-space permit is in place."
+    },
+    {
+      "q": "Do you gauge offshore wind support vessels at Harwich?",
+      "a": "We do, for owners and managers of crew transfer and service operation vessels. Lay days between rotations are used for tank, shell and thruster-area gauging, and the readings can support a charterer's audit or a docking estimate. We coordinate the schedule with the operator's marine team so that the vessel is not taken off a contract day."
+    },
+    {
+      "q": "Is there a drydock at Harwich for steel renewal?",
+      "a": "Not for commercial ships of any size. Owners usually dock at a yard elsewhere in the UK or across the North Sea. We use the Harwich readings to produce the steel estimate for that yard and to agree the renewal list with class before the ship arrives, which shortens the docking period."
+    },
+    {
+      "q": "Can gauging be arranged at the Haven anchorages?",
+      "a": "Yes, by launch, when the sea state allows safe boarding. The realistic scope is deck plating, hatch covers and air pipes, plus any tank the crew has prepared. Strong easterlies can close the window, so the most important readings are done first. For anything larger, the berth is the better option."
+    },
+    {
+      "q": "How do you organise a Harwich job with a team coming from India?",
+      "a": "The superintendent confirms the ship's dates and scope, we apply for UK visas, book flights to the London airports and arrange onward travel to Harwich. The agent or the shipping line arranges port passes. When a ferry's rotation is known weeks ahead, we plan visits in sequence, so the work continues across turnarounds without repeated mobilisation."
+    }
+  ],
+  "nearby": ["felixstowe", "ipswich", "london", "lowestoft", "sheerness", "rotterdam"]
+}

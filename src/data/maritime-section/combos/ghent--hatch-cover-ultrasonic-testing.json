@@ -1,0 +1,128 @@
+{
+  "port": "ghent",
+  "service": "hatch-cover-ultrasonic-testing",
+  "title": "Hatch Cover Ultrasonic Tightness Testing Ghent | Grain Ships",
+  "description": "Ultrasonic hatch cover tightness testing at Ghent: leak location on bulkers and open-hatch ships before grain, fertiliser and forest-product cargoes.",
+  "h1": "Hatch Cover Leak Testing Before Loading Water-Sensitive Cargo at Ghent",
+  "intro": "Ghent loads and discharges cargoes that hate water: grain and oilseeds for the processing plants, fertilisers, paper and pulp products, and steel that rusts through a leaking cover. A claim for wet cargo is far easier to avoid than to defend, and the hatch covers are the most common source. Atlantis NDT runs ultrasonic tightness tests on closed covers, with a transmitter in the hold and a receiver passed along each seal, marking the leak positions for the crew. The operators are mobilised from India to the ship at the berth.",
+  "highlights": [
+    {
+      "h": "Tested with the cargo plan in mind",
+      "p": "The test can be timed after discharge and before loading, or on a loaded hold before sailing. At a canal port where the cargo sequence is planned, that choice fits the call without adding a delay."
+    },
+    {
+      "h": "No water on a hold waiting for grain",
+      "p": "A hose test leaves moisture on seals and in the hold. Ultrasound needs none, so the check can be repeated after adjusting a seal, and winter temperatures on the canal do not stop the work."
+    },
+    {
+      "h": "Every joint located and marked",
+      "p": "Readings are recorded along each perimeter seal, cross joint and panel junction, and weak points are marked on the cover with their position noted. The crew knows exactly which section of rubber to replace or adjust."
+    }
+  ],
+  "sections": [
+    {
+      "id": "which-ghent-ships-need-hatch-testing",
+      "h": "Which ships at Ghent need hatch cover tightness testing?",
+      "p": [
+        "Only ships with weather-deck hatch covers need this test, and Ghent has plenty of them. The agribulk trade brings handysize and supramax bulk carriers that discharge grain and oilseeds and then load the next cargo of a similar kind. Forest-product ships and open-hatch multipurpose vessels load paper, pulp and timber that is ruined by moisture. Fertiliser cargoes are hygroscopic and cake if rain gets in. General cargo ships carrying steel products face rust claims if covers leak in rain or spray.",
+        "Ro-ro ships and tankers do not carry this type of cover, so they are outside this page. The ore and coal bulkers calling at the steelworks have covers as well, and although their cargo tolerates a little moisture better, an owner who intends to load grain on the next voyage tests the covers after discharge anyway.",
+        "Age and wear are the other factor. Covers on older ships have compressed or hardened rubber, bent compression bars and distorted coamings. A ship that has just finished a long coal trade often arrives with seals in the worst condition of their life, which makes the clean-hold interval at Ghent a sensible time to test them."
+      ]
+    },
+    {
+      "id": "where-hatch-testing-ghent",
+      "h": "Where along the Ghent docks can the test be done?",
+      "p": [
+        "The test needs the covers closed and cleated, access to the coaming top and a person in the hold or an arrangement to place the transmitter safely. At the agribulk terminals this usually means testing after the last grab or conveyor has left and the crew has swept the hold. At forest-product and general cargo berths, the covers can be tested between discharge and loading, when the hold is empty and lit.",
+        "At the steelworks quays, the window falls after discharge and before the ship leaves for her next cargo, and the crew can close covers hold by hold so that testing proceeds through the ship without stopping work on others. If the ship is loaded and about to sail, covers can also be tested on the loaded holds, with the transmitter placed on the cargo or in the space above it, as the cargo type and safe working practice allow.",
+        "Because covers are on the weather deck, testing is not limited to a covered berth. The team does need a safe walking route around the hatch, free of lashings and cargo gear, and the crew sorts that out before the operators start."
+      ],
+      "list": [
+        "Agribulk terminals: after a grain or oilseed discharge, before the next loading.",
+        "Forest-product and general cargo berths: in the empty-hold interval between cargoes.",
+        "Steelworks quays: after ore or coal has been discharged, hold by hold.",
+        "Any berth: on loaded holds before sailing, if the cargo and the crew's procedures permit."
+      ]
+    },
+    {
+      "id": "how-hatch-test-scoped-ghent",
+      "h": "How is the test carried out on a ship calling at Ghent?",
+      "p": [
+        "The method uses an ultrasonic transmitter placed inside the closed hold, which emits sound at a frequency that passes through any gap in the sealing. A receiver is traced along the seal on the outside, and the reading at each position is compared with an open hatch value measured at the start. A rise above the threshold marks a leak path.",
+        "The scope covers every perimeter seal between cover and coaming, the cross joints between panels, the junctions where panels meet at the corners of folding or side-rolling covers, and any fittings such as ventilators, manholes and access hatches. For folding covers the hinge areas are included, and for pontoon covers the lifting pocket plugs and the joints between pontoons.",
+        "Readings are logged, leak positions marked with tape or paint and recorded on a sketch of the hatch. After the crew adjusts or replaces the seal, the same position is tested again so that the final condition is confirmed on the record, not assumed."
+      ]
+    },
+    {
+      "id": "findings-hatch-testing-ghent",
+      "h": "What do ultrasonic hatch tests usually find on ships in this trade?",
+      "p": [
+        "The commonest finding is leakage at the cross joints, where two panels meet and the rubber is squeezed hardest. Next are the corners of the perimeter seal, where the rubber is cut and joined, and sections where the compression bar has bent so that the contact pressure is uneven. On older ships, rubber that has lost its elasticity leaks along the whole of one side while the other side is tight.",
+        "Coaming condition matters too. Wasted or dented coaming tops leave gaps that no rubber can close, and the report distinguishes between a seal that needs replacing and a coaming that needs steel work. Drain channels clogged with cargo residue let water collect and attack the seal, and are noted when seen.",
+        "Cleats and quick-acting devices that are slack, seized or damaged are recorded as well, because a cover that is perfectly sound but under-cleated will fail the test in the same way."
+      ]
+    },
+    {
+      "id": "planning-hatch-testing-ghent",
+      "h": "How do you plan a hatch cover test around a Ghent cargo operation?",
+      "p": [
+        "Plan backwards from the next cargo. If grain or paper is to be loaded, the test needs to happen after the previous cargo has gone and early enough for the crew to repair what is found. Tell us the berth, the end of discharge, the start of loading and the number of holds, and we agree the order in which holds will be tested.",
+        "Ask the crew to have spare seal rubber, adhesive and tools on board before the test. A fault found at the end of the berth stay is far less useful if the ship has nothing to fix it with. If a stevedore or hold-cleaning gang is working, the testing sequence is arranged so that covers are closed hold by hold without blocking them.",
+        "The ship's agent arranges access for a team travelling from India, who need Schengen visas, so confirm the call as soon as the arrival is fixed. Wet weather does not prevent the test, though the team will need dry access to the hatch tops, and safe working around any deck cargo is the master's responsibility."
+      ]
+    },
+    {
+      "id": "worked-example-hatch-testing-ghent",
+      "h": "What does a scope look like for a supramax bulker?",
+      "p": [
+        "A supramax bulk carrier discharges grain at an agribulk terminal and will load fertiliser at the next port. The covers on all holds are closed and the open hatch value recorded. Each hold's perimeter seal and cross joints are traversed, leak positions marked, and the findings given to the chief officer the same day.",
+        "The crew replaces rubber at two cross joints and adjusts cleats at a corner, and the team retests those positions before leaving the ship. The report lists every position tested, the readings before and after, and the coaming areas that need steel attention at the next docking."
+      ]
+    }
+  ],
+  "vessels": [
+    "Handysize and supramax bulk carriers on grain and oilseed",
+    "Forest-product and open-hatch carriers",
+    "General cargo and multipurpose ships with weather-deck covers",
+    "Fertiliser carriers",
+    "Ore and coal bulkers preparing for grain loading",
+    "Short-sea dry cargo ships"
+  ],
+  "codes": [
+    "SOLAS Chapter II-1 and the International Load Lines Convention (weathertight closing appliances)",
+    "IACS UR S21 (hatch cover strength and securing)",
+    "IACS UR Z10.2 and Z10.5 (hull survey items for bulk carriers)",
+    "Class rules for weathertightness testing of hatch covers",
+    "ISO 11666 and EN 1330 terminology for ultrasonic methods where referenced by the client"
+  ],
+  "deliverables": [
+    "Open hatch reference readings for each hold",
+    "Reading at every seal and cross joint position",
+    "Leak positions marked on the cover and on a hatch sketch",
+    "Retest readings after the crew's repair",
+    "Notes on seals, compression bars, coamings and cleats",
+    "Equipment records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to test hatch covers before loading grain at Ghent?",
+      "a": "Testing is not a legal requirement on every call, but grain, oilseed and fertiliser cargoes are ruined by moisture, and claims are hard to defend. Many owners and charterers test after discharge, so that any fault is repaired before the next loading."
+    },
+    {
+      "q": "Can the test be done in the winter or the rain?",
+      "a": "Yes. Ultrasound uses no water and works in cold weather. Rain does not stop the measurement, although the operators need dry, safe access to the hatch tops and a clear route round each coaming."
+    },
+    {
+      "q": "How long does it take to test the holds of a bulk carrier?",
+      "a": "It depends on the number of holds and the type of covers, and on how quickly the crew can close and cleat them. We plan hold by hold against the berth schedule, so that testing fits between discharge and loading."
+    },
+    {
+      "q": "What happens when a leak is found?",
+      "a": "The position is marked and reported to the chief officer straight away. The crew replaces or adjusts the seal, and the position is retested. Coaming or steel defects found are noted for a later repair, as rubber cannot cure them."
+    },
+    {
+      "q": "Does this test apply to ro-ro ships or tankers at Ghent?",
+      "a": "No. Those ships do not have weather-deck hatch covers of the kind tested. The method suits bulk carriers, general cargo ships, forest-product carriers and other dry cargo ships with hatch covers, and we can advise whether a different check suits another ship."
+    }
+  ]
+}

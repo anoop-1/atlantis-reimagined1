@@ -1,0 +1,123 @@
+{
+  "port": "felixstowe",
+  "service": "hull-structural-integrity",
+  "title": "Hull Structural Integrity Inspection Felixstowe | Boxships",
+  "description": "Hull structural integrity inspection at Felixstowe and Harwich: coaming and lashing bridge cracks, impact damage and wastage on container ships and ferries.",
+  "h1": "Structural Inspection of Container Ship Coamings, Lashing Bridges and Hulls at Felixstowe",
+  "intro": "The structure that matters on a big boxship is not always where a bulk-carrier specialist would look first. Hull structural integrity inspection at Felixstowe records coaming and deck condition, lashing bridge and cell guide damage, corrosion pattern and cracks, with thickness readings alongside. It is carried out at the deep-sea and feeder berths, at Harwich and at Ipswich. A team travels from India on UK visas and works within the cargo window of a ship that sails on schedule and returns on a known rotation.",
+  "highlights": [
+    {
+      "h": "Lashing bridges after impact",
+      "p": "Container handling damages lashing bridges and cell guides. After reported impact, affected members are gauged and welded connections are cleaned and tested by magnetic particle inspection inside the cargo window."
+    },
+    {
+      "h": "Coaming corners and deck longitudinals",
+      "p": "Hatch coamings and upper-deck longitudinals carry high stress on a large hull. They are checked for wastage and fatigue cracking together, bay by bay, as cranes finish each one."
+    },
+    {
+      "h": "Ferry decks and Ipswich holds",
+      "p": "Ro-ro ferries at Harwich and bulk carriers at Ipswich give longer windows. Vehicle decks, ramps, holds and ballast tanks can be inspected in sequence within the timetable or alongside period."
+    }
+  ],
+  "sections": [
+    {
+      "id": "boxship-structure-at-felixstowe",
+      "h": "What structural problems affect container ships at Felixstowe?",
+      "p": [
+        "A large container ship has big deck openings, so the deck plating, hatch coamings and longitudinals beside them carry much of the hull girder's bending and torsion. Stress is greatest at the corners of the hatch openings, and the welded connections there are a classic place for fatigue cracks to start. Ships on Asia–Europe loops work the hull through heavy weather on every voyage, which adds cycles. A crack at a coaming corner is a structural finding, and its position, length and direction decide whether it is a local repair or a wider concern.",
+        "Other damage comes from handling. Lashing bridges and cell guides suffer impact from spreaders and containers, and bent or cracked members show up in the records of ships that have been working hard. Corrosion shows in ballast tanks, on horizontal members and under failing coating, while scrubber casings and overboard lines corrode from the inside on scrubber-fitted ships.",
+        "Older feeders on short-sea services show a different profile from the biggest ships. Their ballast tanks are small and heavily worked, their coamings are lighter, and they approach renewal surveys while still trading hard, so a structural inspection at Felixstowe is often the first time anyone has looked at the whole picture since the last docking. The report ranks findings by consequence, so the manager can see which are urgent and which can wait for the docking."
+      ]
+    },
+    {
+      "id": "inspecting-within-the-window",
+      "h": "How is inspection fitted into a Felixstowe cargo window?",
+      "p": [
+        "The team boards through the terminal's ISPS gate and works while cranes are moving, which closes some areas and opens others. Hatch covers and coamings can be reached between crane moves on bays already worked, and engine-room and scrubber piping is unaffected by cargo. Tanks can be entered when the chief officer's ballast plan allows one to be emptied and ventilated without disturbing stability during cargo operations. The ship's officers and the terminal both need to know where the team is at all times.",
+        "Because the ship returns on a known rotation, a structural inspection can be divided across consecutive calls. The first call concentrates on the weather deck and coamings; the next can cover tanks or lashing structure, depending on findings. Reference points stay fixed, so cracks found on one visit can be re-examined on the next to see whether they have grown.",
+        "Weather matters on this coast. A deck inspection on an exposed upper tier in a strong easterly is slower and less reliable, because wind and spray make cleaning for magnetic particle testing difficult, so the plan carries a fallback: if a bay cannot be tested properly in one call, it is marked and finished on the next rotation, and the record says plainly that it was not completed."
+      ],
+      "list": [
+        "Coamings and deck: between crane moves on bays already worked.",
+        "Lashing bridges and cell guides: when the bay is clear of containers.",
+        "Tanks: when the ballast plan allows one to be released safely.",
+        "Machinery spaces: independent of the cargo plan."
+      ]
+    },
+    {
+      "id": "harwich-ipswich-and-anchorage",
+      "h": "What structural work is possible at Harwich, Ipswich and the anchorage?",
+      "p": [
+        "Harwich International runs ro-ro ferries to a timetable, so vehicle decks, ramps and the structure around them can be inspected within a known stay. Deck stiffeners, ramp hinges and door frames are the usual targets, with crack detection at hinges and brackets. At Ipswich, bulk carriers loading grain or discharging aggregates lie alongside for several days, and holds, hopper plating, frames and ballast tanks can be inspected in sequence.",
+        "Ships queuing for a Felixstowe berth sometimes anchor off the Haven. A launch arranged through the agent can reach them in suitable weather, but the southern North Sea can close that option quickly, so anchorage scopes are short and are called off if the sea state worsens.",
+        "Harwich and Ipswich also differ in what can go wrong with time pressure: a ferry cannot be delayed to finish an inspection, so the scope there is always sized to the turnaround, while an Ipswich bulker with several days alongside can be examined at a steadier pace and with more thorough crack detection on holds and frames."
+      ]
+    },
+    {
+      "id": "evidence-and-reporting",
+      "h": "What does a structural inspection at Felixstowe record?",
+      "p": [
+        "Thickness is measured by ultrasonic gauging and located by frame, strake and member. Pitted plating is described by pit depth and intensity, and grooving or edge corrosion is reported separately from general wastage. Deformation is measured against a straight edge. Cracks are found visually, then confirmed by magnetic particle testing on cleaned steel at coaming corners, brackets and lashing bridge connections.",
+        "The people doing the testing are certified within our ASNT SNT-TC-1A written practice, and what they record on cracks is the owner's NDT record. It supports the class engineer's assessment but is not a class approval. Port state control at Felixstowe is the responsibility of the Maritime and Coastguard Agency, applying the Paris MoU regime under UK law, and corroded lashing bridges or leaking overboard lines are findings an inspector can see at once."
+      ],
+      "list": [
+        "Thickness readings with corrosion pattern and deformation record.",
+        "Crack detection record with location, length and orientation.",
+        "Lashing bridge and cell guide condition notes.",
+        "Photographs referenced to bay, frame and member."
+      ]
+    },
+    {
+      "id": "planning-a-felixstowe-inspection",
+      "h": "How is a Felixstowe structural inspection planned?",
+      "p": [
+        "Tell us the ship type, age, last survey dates, damage reports and the rotation. We agree the scope with the superintendent and chief officer before arrival, board when the ship is fast alongside and stop when the terminal is ready to sail her. Where the scope is larger than one call allows, the rotation makes it straightforward to finish on the next visit with the same technicians.",
+        "The team flies from India into Heathrow, Stansted or London City and travels to Felixstowe by road. Felixstowe, Harwich and Ipswich each run ISPS-controlled gates and the agent requests passes. The technicians come on UK visas, so we work from the liner schedule, book the call we will join early and keep a later rotation in reserve if the first one slips."
+      ]
+    }
+  ],
+  "vessels": [
+    "Large container ships",
+    "Feeder container ships",
+    "Ro-ro and freight ferries",
+    "Bulk carriers at Ipswich",
+    "General cargo ships"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys)",
+    "IACS Common Structural Rules where they apply to the ship type",
+    "SOLAS chapter II-1 (structure of ships)",
+    "ASTM E797 and ASTM E709 (thickness gauging and magnetic particle testing)",
+    "ISO 17638 (magnetic particle testing of welds)",
+    "ASNT SNT-TC-1A (personnel qualification under the written practice)"
+  ],
+  "deliverables": [
+    "Thickness readings by frame, strake and member with diminution against original",
+    "Corrosion pattern and deformation record",
+    "Crack detection record for coaming corners and lashing bridge connections",
+    "Photographs referenced to bay and member",
+    "Re-inspection plan for the next rotation"
+  ],
+  "faqs": [
+    {
+      "q": "Can lashing bridges be inspected at Felixstowe during cargo work?",
+      "a": "Yes, on bays that are clear of containers. Members are gauged and welded connections are cleaned and tested by magnetic particle inspection. Because work stops where cranes operate, the sequence follows the cargo plan, and anything unfinished is carried to the ship's next call."
+    },
+    {
+      "q": "How are hatch coaming cracks found on a large container ship?",
+      "a": "Coaming corners and top plates are cleaned locally, examined visually and tested by magnetic particle inspection, with thickness readings taken beside them. The record gives position, length and orientation, so a repair can be planned and the same crack re-examined on the next rotation."
+    },
+    {
+      "q": "Does a structural inspection at Felixstowe replace a class survey?",
+      "a": "No. It gives the owner or manager measured evidence on corrosion, deformation and cracks, which the class engineer can use in assessing the ship. Our crack detection results are owner's NDT records and carry no class credit. Survey credit remains a matter between the owner, the class and the surveyor."
+    },
+    {
+      "q": "What can be inspected on ferries at Harwich?",
+      "a": "Vehicle decks, ramps, hinges, door frames and the structure around them, within the timetable the ferry keeps. We gauge plating, examine stiffeners and test hinges and brackets for cracks. Because the schedule is predictable, the scope can be split across several turnarounds."
+    },
+    {
+      "q": "Do technicians need UK visas for Felixstowe?",
+      "a": "Yes. Felixstowe is in the United Kingdom, outside the Schengen area, so the team travelling from India applies for UK visas. We start once the call is firm, book the call we will join early and hold a later rotation in reserve in case the first one slips."
+    }
+  ]
+}

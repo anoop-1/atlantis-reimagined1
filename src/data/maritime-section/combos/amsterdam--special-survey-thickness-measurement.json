@@ -1,0 +1,119 @@
+{
+  "port": "amsterdam",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Amsterdam | Renewal UTM",
+  "description": "Special survey thickness measurement in Amsterdam: renewal and intermediate gauging for short-sea, offshore and dredging ships docking on the North Sea Canal.",
+  "h1": "Renewal Survey Gauging for Ships Docking on the North Sea Canal at Amsterdam",
+  "intro": "A renewal survey in Amsterdam is usually a floating-dock job on a smaller ship: a short-sea cargo vessel, an offshore support ship, a dredger or a workboat that has sailed up the North Sea Canal to be docked and surveyed in a few days. The thickness measurement behind that survey has to be finished inside the dock window and measured to the class TM plan. Our team is mobilised from India for each docking, travels to the yard on the canal, and also gauges larger deep-sea ships that will dock elsewhere, so the steel list is known before the yard quotes.",
+  "highlights": [
+    {
+      "h": "Gauging inside a floating-dock window",
+      "p": "A floating dock lifts the ship, drains down around her and gives a short period in which the hull is dry. Gauging has to start the moment staging is up and the shell has been washed, before blasting and painting close off the plates the surveyor needs to see."
+    },
+    {
+      "h": "TM plan followed to the letter",
+      "p": "The class society's thickness measurement plan names the strakes, frames and tanks to be measured for the survey being carried out. We gauge exactly that extent, and widen it only where readings approach the limit and the surveyor asks for more points."
+    },
+    {
+      "h": "Pre-docking steel list for bigger ships",
+      "p": "Deep-sea ships that cannot use the canal docks still call at Amsterdam to load or discharge. Gauging them alongside gives the owner a first measured steel list, which the chosen repair yard turns into a firm quotation instead of an open allowance."
+    }
+  ],
+  "sections": [
+    {
+      "id": "which-ships-dock-here",
+      "h": "Which ships have a renewal survey at Amsterdam?",
+      "p": [
+        "Amsterdam is an inland port reached through the IJmuiden sea locks, and that decides who comes here for a docking. The floating docks of the repair yard in the western harbour take ships that fit the canal and the dock: coasters and short-sea multipurpose vessels, offshore support and survey ships, dredgers, tugs, workboats and the occasional small tanker. These are the ships whose five-year and ten-year renewal surveys we gauge in the dock itself.",
+        "A short-sea ship that trades between the Baltic, the UK and the Iberian coast tends to reach its renewal survey with less spare capacity in the steel than a deep-sea ship of the same age, because it is ballasted and loaded far more often and meets short, steep seas that work its structure harder. Offshore vessels carry a different history: long periods of standby, dynamic positioning in rough weather, and heavy deck loads that leave their mark on the deck plating and on the foundations of cranes and winches. Dredgers wear their hoppers and their bottom shell through abrasion, which the gauging records plate by plate.",
+        "A bigger ship that will dock in Rotterdam, Antwerp or further afield still benefits from an Amsterdam call. If she loads gasoline in the Westpoort basins or discharges ore at the steelworks harbour, the call gives the owner a period alongside in which a first round of gauging can be done on the ballast tanks, deck and accessible hold structure well ahead of the docking."
+      ]
+    },
+    {
+      "id": "floating-dock-gauging",
+      "h": "How gauging works in a floating dock",
+      "p": [
+        "A floating dock changes the order of work compared with a graving dock. The ship is positioned over the submerged pontoon, the dock rises and the ship settles on the blocks, and for a period the underwater hull is dry but the dock is still working: it can deflect slightly, the water in the tanks and ballast spaces moves with it, and the yard often wants the ship off the blocks as soon as the programme allows. Gauging teams therefore agree the docking plan with the superintendent before the ship arrives, so the staging, lighting and pressure washing are ready for the shell plating from the first hours.",
+        "Shell plating below the waterline is measured once the hull has been washed and the marine growth removed, at the points the TM plan names along each strake. On a coaster the bottom, bilge keel region and rudder area are small enough that the whole underwater body can be done in a single working shift. Larger offshore vessels and dredgers take longer, and the team size is set by the number of readings, not by the length of the call.",
+        "Inside the ship the same period is used for the tanks. Ballast tanks, void spaces and the cargo hold on a short-sea ship are opened, ventilated and certified gas-free by the yard or the crew, and the gauging crew works to the survey sequence the class surveyor sets. Close-up examination happens next to us: the surveyor looks at the same plates and brackets as the readings are taken, which is why access arrangements and lighting are agreed beforehand."
+      ],
+      "list": [
+        "Underwater shell strakes and bottom plating once washed and free of growth.",
+        "Rudder, stock tube area and stern frame readings where access allows.",
+        "Ballast tank boundaries, tank tops, longitudinals and web frames.",
+        "Cargo hold side frames, tank top and hatch coaming structure on cargo ships.",
+        "Deck plating, bulwark and crane or winch foundations on offshore vessels and workboats."
+      ]
+    },
+    {
+      "id": "what-the-readings-decide",
+      "h": "What the readings decide on the yard's steel list",
+      "p": [
+        "The point of the survey readings is to separate steel that stays from steel that is renewed. Each reading is set against the as-built thickness and the class allowance for that member, and plates that have reached or passed the renewal limit go on the repair specification. On the ships that come to the canal docks, steel renewal is most often needed in the ballast tank boundaries, the bilge strakes, the deck around cargo and mooring equipment and the lower hold frames of cargo ships.",
+        "The yard's planners need the list early, because steel has to be cut, rolled and fitted inside the docking. Where we deliver gauging results while the ship is still on the blocks, they can order plate the same day instead of waiting for a final survey report. If the readings point to wastage over a wider area than the TM plan covered, we flag it to the superintendent immediately so the surveyor can extend the extent while the access and the staging are still up.",
+        "Readings that are close to the limit, but not past it, go into a watch list. For ships on a tight trading schedule, that watch list is useful beyond the docking: it shows which areas will need attention at the next intermediate survey and which can be left alone for another cycle."
+      ]
+    },
+    {
+      "id": "intermediate-and-pre-docking",
+      "h": "Intermediate survey and pre-docking work on the canal",
+      "p": [
+        "Not every gauging job at Amsterdam is tied to a dock slot. An intermediate survey on a trading ship is often done afloat, during a long stay at a berth in the basins or at IJmuiden. The ballast tanks and cargo spaces are cleaned for the occasion, the team measures the sections the class programme requires for that survey, and the ship sails again without ever entering a dock.",
+        "Pre-docking gauging, done two or three months before a planned yard stay, is where the schedule gains the most. A deep-sea product tanker or bulk carrier that will dock elsewhere can have her tanks and holds measured during the Amsterdam call, and the report goes with the repair specification to the yards that are quoting. The yard bids on measured steel, and the owner avoids the late variation orders that follow a docking opened with no measured baseline."
+      ]
+    },
+    {
+      "id": "planning-at-amsterdam",
+      "h": "Planning a renewal survey job around the canal",
+      "p": [
+        "Canal passage and lock slots set the timeline. A ship reaching the western harbour has already waited for the IJmuiden locks and a pilot, and the dock is booked against her arrival date, so an early lock delay shortens the working window. We keep the arrival plan flexible enough to follow the agent's updated estimate and tell the superintendent as soon as a delay affects the gauging programme.",
+        "Send us the class, the survey type, the approved TM plan, the previous gauging reports and the docking dates. If the plan has not yet been issued, tell us which strakes and tanks the surveyor has asked for, and we will draft the measurement layout to match. The yard arranges staging, lighting, shore power and gas-free certificates; we arrive with the instruments, the calibration records and our own gauging team, who travel from India on Schengen visas, so please give as much notice as the schedule allows."
+      ]
+    }
+  ],
+  "vessels": [
+    "Short-sea cargo ships and coasters",
+    "Offshore support and survey vessels",
+    "Cutter suction and trailing hopper dredgers",
+    "Tugs and workboats",
+    "Small product and chemical tankers",
+    "Multipurpose and general cargo ships",
+    "Handysize bulk carriers before docking elsewhere"
+  ],
+  "codes": [
+    "IACS UR Z7 (hull classification surveys) and UR Z10 series for hull survey requirements by ship type",
+    "IACS UR Z17 on thickness measurement firms and reporting",
+    "Class society thickness measurement plan for the ship and survey",
+    "SOLAS Chapter II-1 on structural condition",
+    "ISO 16809 and ASTM E797 for ultrasonic thickness measurement method"
+  ],
+  "deliverables": [
+    "Thickness readings by plate, frame and tank against as-built values and class limits",
+    "Marked-up shell expansion and tank plans showing every measured point",
+    "Renewal and watch list for the yard's steel work scope",
+    "Calibration records for gauges and reference blocks used on the job",
+    "Photographs of areas of heavy wastage and of the surveyor's close-up locations"
+  ],
+  "faqs": [
+    {
+      "q": "Can renewal survey gauging be done in the floating dock at Amsterdam?",
+      "a": "Yes. We gauge the shell and the internal structure while the ship is in the yard's floating dock, following the class TM plan. The team agrees staging, washing and tank access with the superintendent before the docking, so readings begin as soon as the hull is clean and the surveyor needs them."
+    },
+    {
+      "q": "How early should gauging start in a short docking?",
+      "a": "As early as the shell has been washed and staging is up. Blasting and painting follow quickly and close off access to the plates. A gauging crew sized to the TM plan can finish the underwater hull in one or two shifts on a coaster, and the report reaches the yard planner while steel can still be ordered."
+    },
+    {
+      "q": "Do you gauge ships that will dock elsewhere but call at Amsterdam first?",
+      "a": "Yes, for a pre-docking steel estimate. A product tanker or bulk carrier alongside in the basins or at IJmuiden can have ballast tanks, deck and accessible hold structure measured during the call, and the owner sends the report with the repair specification to the yards that are quoting."
+    },
+    {
+      "q": "What happens if readings show more wastage than the TM plan expected?",
+      "a": "We tell the superintendent straight away, with the plate positions, so the surveyor can decide whether to extend the measurement extent while access is still available. Extra readings are taken on the spot, not at a later visit, so the yard's renewal list reflects the full area."
+    },
+    {
+      "q": "Which ship types use the canal docks for renewal surveys?",
+      "a": "Mostly short-sea cargo ships, offshore support vessels, dredgers, tugs and workboats that fit the canal and the dock. Larger deep-sea ships generally dock in the Rhine delta or beyond, and for those Amsterdam is better used for gauging ahead of the docking."
+    }
+  ]
+}

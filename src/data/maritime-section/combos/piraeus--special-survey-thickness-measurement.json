@@ -1,0 +1,120 @@
+{
+  "port": "piraeus",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Piraeus | Renewal UTM",
+  "description": "Renewal and special survey thickness measurement in Piraeus and Perama for Greek-managed bulk carriers and tankers, from pre-docking gauging to dock readings.",
+  "h1": "Renewal Survey Gauging for Greek-Managed Bulk Carriers and Tankers at Piraeus",
+  "intro": "A special survey at Piraeus is rarely a surprise. The technical department in Akti Miaouli knows the ship's anniversary date, has the docking slot pencilled in at Perama and wants to know how much steel will be renewed before the yards quote. We mobilise a thickness measurement team from India to the vessel, whether she lies at the outer anchorage, alongside a Perama repair quay or in a floating dock, and gauge to the extent the coming renewal survey sets out for that age and ship type.",
+  "highlights": [
+    {
+      "h": "Steel estimate before the yard tender",
+      "p": "Greek technical managers compare Perama and Elefsina offers on steel tonnage. Gauging at the anchorage two or three weeks ahead gives every yard the same measured list of plates, so offers are compared on identical work."
+    },
+    {
+      "h": "Third and fourth renewal scopes",
+      "p": "The Greek-managed fleet is weighted towards ageing Panamax, Handysize and Capesize bulk carriers and crude and product tankers, so the widest routine gauging extents turn up here more often than at most European ports."
+    },
+    {
+      "h": "Readings taken as tanks open",
+      "p": "In a Perama floating dock the gauging team works while tanks are being gas-freed, staged and blasted, so renewal readings are on file before steel crews start cropping."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-piraeus",
+      "h": "Where is renewal survey gauging done at Piraeus and Perama?",
+      "p": [
+        "The place decides what can be measured, and Piraeus offers four distinct settings. The Perama ship-repair zone on the western side of the harbour, facing Salamina, is where most dockings and afloat repairs happen. The port authority's floating docks there take ships for bottom work and docking surveys, and the adjoining repair quays allow tanks and holds to be opened with the ship afloat. At the outer anchorage, ships waiting for orders or a repair slot are reached by launch. A short drive north-west, the larger yards on the Elefsina bay take heavier steel renewal.",
+        "Each setting suits a different part of a renewal survey. Bottom shell, bilge, sea chests and the stern area can only be gauged properly with the hull dry. Decks, hatch coamings, side shell above the waterline and most tank internals can be gauged afloat. Pre-docking readings at the anchorage are the quickest way to learn whether the ship needs a full dock stay or only a limited steel job at the quay, which is why many Greek owners start there."
+      ],
+      "list": [
+        "Perama floating docks: bottom, bilge and sea chest gauging while the hull is dry, with the docking survey in progress",
+        "Perama repair quays: deck, coaming, side shell and tank gauging afloat, fitted around machinery and piping repairs",
+        "Piraeus outer anchorage: pre-docking gauging by launch, limited to spaces cleaned, vented and released by the master",
+        "Elefsina bay yards: heavy renewal programmes, usually gauged on arrival and again once renewed plating is in"
+      ]
+    },
+    {
+      "id": "which-ships",
+      "h": "Which ships at Piraeus reach a heavy renewal survey?",
+      "p": [
+        "Greek owners buy second-hand tonnage and trade it hard, so a large share of the bulk carriers and tankers under Piraeus management are at or beyond their third renewal survey. A Panamax bulk carrier at fifteen years carries the first big gauging programme: transverse sections, hold frames and the lower parts of bulkheads, topside and hopper ballast tanks, hatch covers and coamings. A crude tanker at the same age brings cargo tank bottoms, deck plating along the cargo length and wind-and-water strakes into scope.",
+        "At twenty years the extent widens again. Owners then weigh the readings against the ship's trading value, because renewing hundreds of tonnes of steel on a ship of that age is a commercial decision as much as a technical one. Dry bulk ships that have carried coal, ore and fertiliser show deeper wastage in holds than ships in clean trades, and tankers with a history of ballasting in heated tanks show it in the adjacent ballast spaces. The gauging plan is built from that trading history, which the superintendent can usually describe in a few lines."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is the gauging scoped for a Piraeus bulk carrier or tanker?",
+      "p": [
+        "Scoping starts from the class survey programme or, when none exists yet, from the society's rule extent for the ship's age and type. We lay the programme against what the ship can actually offer at Piraeus. Holds must be washed and dry before readings are taken on frames and bulkheads, ballast tanks must be ventilated and tested before entry, and staging or a cherry-picker must reach the upper members. If the ship is at anchor, only spaces already prepared by the crew can be gauged, so we agree that list with the superintendent before the team travels.",
+        "Weather and tide are less of a constraint here than in northern ports, but the meltemi, the strong summer north wind in the Aegean, can interrupt launch transfers to the anchorage for a day or two. Ballast status matters too: a ship that must keep ballast on board for stability cannot offer those tanks, and the plan then moves them to the docking. Readings are logged member by member against original thickness where the ship's records provide it, so the report can be used directly by the attending surveyor."
+      ]
+    },
+    {
+      "id": "typical-findings",
+      "h": "What does gauging usually find on Greek-managed ships?",
+      "p": [
+        "On bulk carriers the recurring items are hold frame wastage near the lower brackets, corroded lower strakes of cargo hold bulkheads, topside tank upper plating under failed coating and hatch coaming plating along the stiffener lines. On tankers the pattern shifts to cargo tank bottom plating with pitting under sediment, ballast tank boundaries beside heated cargo, and deck plating under pipe supports. Scrubber-fitted ships, increasingly common in this fleet, add overboard and wash-water piping and shell penetrations to the list.",
+        "The report distinguishes diminution that is within the allowed margin from plates approaching renewal thickness and those already beyond it, so the yard can order steel with confidence. Where readings sit close to the limit, we recommend further spot gauging once the area is cleaned or blasted, since scale and coating can mask the true remaining steel."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "How do you plan a renewal gauging job around a Perama docking slot?",
+      "p": [
+        "Docking slots at Perama are agreed weeks or months ahead, and a team travelling from India needs time for visas, flights and ISPS access. The simplest plan is two visits that share one mobilisation: pre-docking gauging at the anchorage or a lay-by berth, then readings in the dock itself. If the schedule allows only one visit, the dock readings matter most for bottom and sea chests, while pre-docking readings matter most for the steel estimate.",
+        "Send us the ship's name and class, the survey type and date, the docking yard, the class thickness measurement reports from the last survey and any close-up survey findings. Tell us which tanks and holds will be gas-free and when, and whether staging will be erected by the yard. With that, we confirm the scope, the number of technicians and the arrival date, and agree the access arrangements through the ship's agent."
+      ]
+    }
+  ],
+  "vessels": [
+    "Panamax and Kamsarmax bulk carriers at their third or fourth renewal survey",
+    "Capesize ore and coal carriers managed from Piraeus",
+    "Handysize and Supramax bulk carriers in ageing second-hand trades",
+    "Aframax and Suezmax crude tankers approaching CAP or vetting",
+    "Product and chemical tankers trading in the eastern Mediterranean",
+    "Scrubber-fitted bulk carriers and tankers on long Mediterranean legs",
+    "Ro-pax ferries on the Aegean island routes during winter refits"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull classification surveys of bulk and general cargo ships",
+    "IACS UR Z10.2 and Z10.5 for hull surveys of bulk carriers and oil tankers",
+    "IACS UR Z17 for thickness measurement firms approved by class",
+    "SOLAS Chapter XI-1 and the Enhanced Survey Programme (ESP) Code",
+    "ISO 16809 for ultrasonic thickness measurement",
+    "ASTM E797 for manual contact ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Thickness measurement report by transverse section and structural member",
+    "Original, measured and diminution values with allowable margins marked",
+    "Plan of plates at or near renewal thickness for the yard's steel order",
+    "Pre-docking steel estimate summary for comparing Perama and Elefsina offers",
+    "Photographs and sketches locating each reading group"
+  ],
+  "faqs": [
+    {
+      "q": "When should thickness measurement be arranged before a Perama docking?",
+      "a": "Ideally two to four weeks ahead if the ship is calling at Piraeus beforehand, so the steel list reaches the yards before they tender. If she arrives only for the docking, gauging runs in the first days after the tanks are opened. Send class, survey type and the yard's docking date as early as you can."
+    },
+    {
+      "q": "Can you gauge at the Piraeus anchorage instead of waiting for the dock?",
+      "a": "Yes, for spaces that are clean, ventilated and released for entry. A team boards by launch through the agent. Bottom shell and sea chests cannot be measured afloat, so they stay for the dock, but decks, coamings, holds and most ballast tanks can be done at anchor."
+    },
+    {
+      "q": "What does a third renewal survey gauging programme cover on a Greek bulk carrier?",
+      "a": "More transverse sections than the second survey, hold frames and lower bulkhead strakes, topside and hopper ballast tanks, hatch covers and coamings and the wind-and-water strakes. The class survey programme names the extent for that ship, and the surveyor may widen it where wastage appears."
+    },
+    {
+      "q": "Do you need the previous thickness measurement report?",
+      "a": "It helps a great deal. Previous readings show how fast each area is wasting, so we can concentrate on the members closest to their limits and compare like with like. Original as-built thicknesses from the ship's drawings are the other useful input."
+    },
+    {
+      "q": "How do the readings reach the yard planning the steel?",
+      "a": "The report lists every plate or member near renewal thickness with its location, so the yard can plan plate sizes, staging and labour. We send a short summary of the heaviest areas first when the superintendent wants to start tendering before the full report is issued."
+    },
+    {
+      "q": "Which Greek yards do you gauge at?",
+      "a": "We work wherever the ship is lying: the Perama repair quays and floating docks, the outer anchorage or the larger Elefsina bay yards. The yard arranges access, staging and gas-free certificates, and the ship's agent handles gate passes and launch boats."
+    }
+  ]
+}

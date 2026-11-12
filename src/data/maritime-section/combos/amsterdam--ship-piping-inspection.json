@@ -1,0 +1,117 @@
+{
+  "port": "amsterdam",
+  "service": "ship-piping-inspection",
+  "title": "Ship Piping Inspection Amsterdam | Tanker Pipe Wall UT",
+  "description": "Ship piping inspection in Amsterdam: UT wall thickness on product tanker cargo, ballast and stripping lines at Westpoort, reported spool by spool.",
+  "h1": "Cargo and Ballast Pipe Gauging for Product Tankers Loading at Westpoort",
+  "intro": "Amsterdam is one of Europe's gasoline blending and storage centres, so product tankers load here all year and lie in the western basins between parcels. That makes it a natural place to check the piping that carries the cargo and the ballast: deck lines, manifolds, pump-room pipework and the ballast mains. We gauge pipe walls by ultrasonic thickness measurement, compare each reading with the minimum wall, and report spool by spool. The team is mobilised from India to the tanker, and the readings are taken during loading or at a lay-by berth.",
+  "highlights": [
+    {
+      "h": "Deck lines checked between parcels",
+      "p": "Manifold crossovers, deck cargo lines and their supports can be reached while the ship loads and discharges. Gauging the outside of bends, the runs below valves and the pipe resting on supports does not interrupt the cargo operation."
+    },
+    {
+      "h": "Pump room and stripping lines",
+      "p": "The pump room holds the pipework most exposed to water, residues and cargo changes. Once the room is ventilated and certified for entry, suction lines, stripping lines and pump casings are gauged against the minimum wall."
+    },
+    {
+      "h": "Ballast mains in waiting time",
+      "p": "Ballast piping runs through void spaces and along the tank tops, where sea water sits at low points. A lay-by stay gives the time to examine the mains, branches and valves, and to measure them where the corrosion is most likely."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-tankers-here",
+      "h": "Why does a product tanker's piping get attention at Amsterdam?",
+      "p": [
+        "Gasoline arrives and leaves in parcels, and a tanker that trades from Amsterdam may carry gasoline blending components, finished gasoline, gasoil and other clean products in the same year. Each change of cargo is followed by line flushing, tank washing and a period of exposure to water and cleaning chemicals, and every cycle works on the same bends, valves and low points. Vetting inspectors and charterers look closely at the pipework because a leaking cargo or ballast line is a cause of pollution as well as of operational delay.",
+        "The call itself is longer than at many ports. Ships wait for blending to finish, for a berth or for a cargo to be confirmed, and that waiting time is the window technical managers use. A tanker owner who sees corrosion on a manifold spool during a vetting inspection will usually want a full set of readings on that system before the ship is back in service.",
+        "Mid-life product tankers are the typical customers. Newer ships have coated or lined piping that is still in good condition; very old ships are often at the end of their trading life and are gauged in connection with a sale or a decision about the next renewal. The middle group is the one for which measured wall thickness decides whether lines can run for another survey cycle."
+      ]
+    },
+    {
+      "id": "where-in-port",
+      "h": "Where the piping can be gauged at the port",
+      "p": [
+        "Tank terminals in Westpoort apply permit rules, and the manifold, the deck lines and the pipework in the open can usually be examined during cargo operations, as long as the work is cold work and the terminal permits access to the deck. The pump room needs a gas-free certificate and a permit, so we schedule it for a period when cargo operations have stopped and the room has been ventilated. Lay-by berths in the basins and quays at IJmuiden are better suited to long programmes because the ship is not under the terminal's pressure to release the berth.",
+        "On offshore and workboat tonnage using the same quays, the piping is mostly sea water cooling, fire main, bilge and fuel lines, and the same method applies. The plan for each ship type differs, but the logic of measuring where wall loss is likely, not at regular spacing, is the same."
+      ],
+      "list": [
+        "Westpoort loading berths: manifold, deck cargo lines and exposed ballast piping during cargo operations.",
+        "Lay-by berths in the basins: pump room, stripping lines and ballast mains during a longer stay.",
+        "Quays at IJmuiden: sea water, fire main, bilge and fuel lines on offshore and support vessels.",
+        "Yard quay or dock: renewal survey piping checks tied to the TM plan or to a repair specification."
+      ]
+    },
+    {
+      "id": "scope-for-tankers",
+      "h": "How a tanker piping inspection is scoped",
+      "p": [
+        "We begin with the system drawings and the previous readings, where they exist, and select the measurement points from them. On a product tanker the typical selection includes each bend and elbow on the cargo and stripping lines, the downstream side of every valve and reducer, the low points at which water collects, and the lengths under pipe supports and in contact with the deck or the tank top. These are the places at which erosion, corrosion and crevice attack combine.",
+        "Each location is marked with a grid, usually a few points around the circumference and at an interval along the run, so a reading at the weakest point of the section is not missed. Insulation is removed in the necessary areas by the ship's crew, paint and scale are cleaned to the metal, and the gauge is calibrated on a reference block at the start and at intervals through the job. Where a pipe is lined or coated internally, readings are taken on the metal, not through the lining, with the technique chosen to suit.",
+        "Ballast piping gets a separate approach because it lies in spaces that are often tight, poorly lit and wet. We prefer to work during a ballast tank or void space entry that is already planned, so the access is shared and the number of entries is kept low."
+      ]
+    },
+    {
+      "id": "what-we-find",
+      "h": "What we typically find and how it is reported",
+      "p": [
+        "On cargo systems the pattern is localised wall loss at the outside of bends, at the first section after a throttled valve and where water lies in a dead leg. Stripping lines and drain lines show the earliest wear because they are small bore, carry residues and are cycled with every cargo. On ballast mains the common finding is wastage at pipe supports, where crevice corrosion starts, and at flange faces and welds that were never coated well.",
+        "Each reading is compared with the nominal wall and with the minimum acceptable wall that the class rules or the owner's criteria set for that service and diameter. The report presents the results on isometric sketches and in a table by spool, with a clear note of those at or near the limit. A pipe shop can then work from the document directly: a spool below the limit is replaced, one close to it goes on a watch list with a recommended re-measurement interval.",
+        "Where a reading is below the limit and the pipe is carrying cargo or ballast, we report it to the superintendent immediately, so that the line can be isolated and the decision taken without waiting for the final document."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning a piping job around a Westpoort call",
+      "p": [
+        "The sequence follows the cargo. Deck work fits into loading and discharge, and the pump room and the ballast system wait for the gas-free period and the ballast operations. Because the team travels from India, we ask for the likely berth dates and the estimated sailing time as soon as they are known, and for notice of any change to the cargo plan that moves the pump-room window.",
+        "Please send the ship's piping plans, the class and survey status, the last thickness report on the lines and the list of systems of concern. The agent arranges the gate pass for the technicians. The ship provides insulation removal, lighting, ventilation and an escort for the pump room, and the terminal grants the work permits for deck work during cargo operations."
+      ]
+    }
+  ],
+  "vessels": [
+    "MR and LR1 product tankers",
+    "Chemical and parcel tankers",
+    "Gasoline blending component carriers",
+    "Offshore support vessels",
+    "Multipurpose ships with fuel and ballast systems",
+    "Short-sea tankers and bunker barges"
+  ],
+  "codes": [
+    "IACS UR P2 (minimum wall thickness of pipes)",
+    "SOLAS Chapter II-2 on fire protection and fire main systems",
+    "MARPOL Annex I on oil pollution prevention in cargo and ballast systems",
+    "Class society rules on piping systems, survey and renewal criteria",
+    "ISO 16809 and ASTM E797 for ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Isometric sketches with every measurement point and reading",
+    "Table by spool of nominal wall, minimum wall and measured wall",
+    "Watch list of spools near the limit with a re-measurement recommendation",
+    "Photographs of corrosion, erosion and support-point damage",
+    "Calibration records for the gauge and the reference blocks"
+  ],
+  "faqs": [
+    {
+      "q": "Can cargo lines be gauged while a tanker is loading at Westpoort?",
+      "a": "Deck lines, the manifold and exposed pipework can usually be examined during cargo operations, because the work is cold and does not touch the cargo. The terminal's permit rules decide, and the pump room waits for a gas-free period. We plan the programme with the superintendent and the terminal in advance."
+    },
+    {
+      "q": "Why are stripping and drain lines measured first?",
+      "a": "Small-bore stripping and drain lines carry residues and water and are used with every cargo change, so they usually show wall loss earlier than the main lines. Finding the weakest small lines gives an early view of the overall condition of the system, and renewing them early is far easier than dealing with a leak."
+    },
+    {
+      "q": "Can ballast piping be inspected without a separate tank entry?",
+      "a": "Often, if the ballast tank or void space is being entered for another purpose, such as a survey or cleaning. We aim to share the access, so the pipework in the same space is gauged during that entry. Where no entry is planned, the inspection is arranged around the next one."
+    },
+    {
+      "q": "What minimum wall do you compare readings with?",
+      "a": "The class rule value for the service and diameter, or the owner's own criteria where they are stricter. The superintendent tells us which applies, and the report shows both the measured wall and the minimum, spool by spool, so the decision to renew or to continue is clearly documented."
+    },
+    {
+      "q": "Does the piping report help in a vetting inspection?",
+      "a": "It gives a documented record of pipe condition that the technical department can show an inspector, with measured data and a plan for any weak spools. We do not state what the vetting result will be, but the record is much more useful than a statement that the lines were checked visually."
+    }
+  ]
+}

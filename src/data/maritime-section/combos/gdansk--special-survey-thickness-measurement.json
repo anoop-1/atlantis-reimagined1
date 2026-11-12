@@ -1,0 +1,123 @@
+{
+  "port": "gdansk",
+  "service": "special-survey-thickness-measurement",
+  "title": "Special Survey Thickness Measurement Gdańsk | Tankers & Docks",
+  "description": "Renewal survey thickness gauging in Gdańsk: tanker ESP programmes sequenced around Naftoport discharge and Remontowa floating docks, with winter working notes.",
+  "h1": "Renewal and Intermediate Survey Gauging in Gdańsk: Sequencing Tankers, Ferries and Dock Days",
+  "intro": "A renewal survey in Gdańsk is rarely a single event. A tanker may discharge at Naftoport, wait in the Gulf, then enter a Remontowa floating dock, and each stage opens different tanks to measurement. We mobilise a team from India to the ship and sequence the thickness gauging across those stages, so cargo tanks are measured when they are gas-free, bottom plating when the ship is dry, and every reading lands in time to steer the steel order. The plan is built backwards from the dock slot and the discharge programme.",
+  "highlights": [
+    {
+      "h": "Gauging sequenced across three stages",
+      "p": "Discharge, anchorage wait and dock each open different spaces. We assign tanks and plating to the stage where they are accessible, so nothing is measured twice and nothing is left until the last day of the stay."
+    },
+    {
+      "h": "Tanker programmes under the ESP rules",
+      "p": "Oil tanker renewal gauging widens at every survey and follows a survey programme agreed with the class. We prepare the measurement plan by tank and transverse section before the ship arrives, with the previous report as the baseline."
+    },
+    {
+      "h": "Ready for a cold working season",
+      "p": "Baltic winters change how thickness gauging is done: couplant thickens, steel is cold and daylight is short. Our plan allows for warm-up time, suitable couplant and sheltered work so readings remain reliable."
+    }
+  ],
+  "sections": [
+    {
+      "id": "three-stages",
+      "h": "How does a renewal survey unfold for a tanker calling at Gdańsk?",
+      "p": [
+        "A crude tanker due its renewal survey typically spends time in three places. At Naftoport she discharges, which takes the ship's own pumping capacity and the terminal's schedule. If the berth is occupied or the cargo plan changes, she may wait at the anchorage in the Gulf of Gdańsk. Then, after tank cleaning and gas-freeing, she moves to a floating dock at Remontowa for the survey itself, with the hull dry and the yard's staging in place.",
+        "Each stage allows different measurements. At the terminal, deck structure, pipelines and pump room can be gauged as soon as permits allow. At anchor, ballast tanks and sometimes cleaned cargo tanks offer an uninterrupted spell. In dock, the bottom, side shell and double bottom become accessible, and the class surveyor attends. Treating the three as one programme avoids the common mistake of leaving all gauging to the dock, where it competes with blasting, painting and steel work for access."
+      ]
+    },
+    {
+      "id": "tank-sequence",
+      "h": "In what order should cargo and ballast tanks be gauged at Gdańsk?",
+      "p": [
+        "The order follows tank readiness rather than tank number. Segregated ballast tanks are usually available first, since they do not need washing after discharge, and they are often the spaces where coating breakdown is worst, so they come early in the plan. Cargo tanks follow as they are washed, ventilated and certified gas-free; the plan lists them in the order the ship's crew or the yard expects to release them.",
+        "Within each tank, readings begin with the members the previous survey flagged as close to the renewal limit, then continue through the survey programme's mandatory extents: transverse sections, deck and bottom plating, longitudinals and their end connections, and bulkheads. Where the ship has been in service long enough for the extents to widen under the ESP rules, we confirm with the class what is required before the team travels, so tank access is requested correctly."
+      ]
+    },
+    {
+      "id": "floating-dock",
+      "h": "What does gauging in a Remontowa floating dock involve?",
+      "p": [
+        "In a floating dock the ship is lifted clear of the water and the hull can be blasted and examined from below. The yard prepares access to the shell and bottom, while the ship's tanks are cleaned. The most valuable gauging is the first pass, done as soon as plating is exposed, because the yard's steel list is formed from it. Readings taken late in the stay lead to rushed decisions and change orders.",
+        "We plan to arrive when the ship is docked or the day before, and to measure each area as the yard releases it. Daily results are passed to the superintendent and the attending surveyor, with readings beyond limits flagged, so renewal decisions are made area by area rather than at the end. Ferries, tankers and offshore units differ in how they are staged, so the plan is adjusted to the vessel type and to the yard's project manager's sequence."
+      ]
+    },
+    {
+      "id": "ro-pax-bulk",
+      "h": "How are ro-pax ferries and bulk carriers handled differently?",
+      "p": [
+        "A ro-pax ferry on a scheduled Baltic route has a fixed dock period and limited room for delay, so thickness measurement is sequenced tightly with the yard's programme. The structure that dominates the gauging is vehicle decks, ramps, ballast tanks under the decks and the shell at the waterline. Plating beneath car decks wears from moisture trapped under coatings, and steel at the ice belt of a ferry running in winter can lose thickness faster than the rest of the side shell.",
+        "A bulk carrier loading coal or grain in the Northern Port is measured differently. Holds are gauged between loading stages or after discharge, covering hold frames, hopper and topside tank plating, tank tops and corrugated bulkheads. Ships due a renewal survey often arrive with cargo remaining, so the plan identifies which holds will be empty and when, then adds ballast tanks and deck structure to fill the available time."
+      ]
+    },
+    {
+      "id": "winter",
+      "h": "How does a Baltic winter affect thickness measurement in Gdańsk?",
+      "p": [
+        "Cold conditions are a practical challenge, not a reason to stop. Ultrasonic couplant stiffens and may freeze at low steel temperatures, so we carry couplant suited to the conditions and warm probes and cables before use. Cold steel and short daylight reduce the time available on deck, and wind off the Gulf makes open decks uncomfortable for careful work.",
+        "Inside tanks, temperature is moderated by the ship, but lighting and ventilation become more important, and cold plates may carry condensation that hides scale. Staging in a dock may be exposed, so the yard's shelter arrangements matter. We build extra time into winter jobs and ask the agent for the ship's expected location and schedule early. Ice in the Gulf does not often close the port to ocean-going ships, but its effect on tug and launch availability is considered in the plan."
+      ]
+    },
+    {
+      "id": "planning-handoff",
+      "h": "What should the superintendent send for a Gdańsk renewal survey job?",
+      "p": [
+        "The most useful package is the previous renewal survey report, the survey programme for this one, the class and the docking dates, plus the current tank status and the discharge programme at Naftoport. With those, we can set the gauging plan by tank and by stage, confirm which areas will be done afloat and which in dock, and state in advance which readings the class will want repeated by its own approved firm.",
+        "Readings are issued on the class formats with sketches and point numbers carried forward from the earlier survey, so the surveyor can compare directly. Where something at Gdańsk is gauged before the dock for planning only, the report says it is owner's information. Poland is a Schengen state, so travel for the team is arranged once the dates are fixed, and the earlier we hear of a slot change, the easier the visa window is to protect."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Ro-pax ferries on Baltic routes",
+    "Bulk carriers loading coal and grain",
+    "Ocean-going container ships",
+    "Offshore support vessels",
+    "Ro-ro and general cargo ships"
+  ],
+  "codes": [
+    "IACS UR Z7 for hull surveys and the thickness measurement extents at each renewal survey",
+    "IACS UR Z10.1 and Z10.4 for the enhanced survey of oil tankers and bulk carriers",
+    "IACS UR Z17 on which firms may measure thickness for credit to a class survey",
+    "SOLAS chapter XI-1, regulation 2, and the 2011 ESP Code",
+    "ASTM E797 for manual pulse-echo ultrasonic thickness measurement",
+    "ASNT SNT-TC-1A for the qualification of the technicians who take the readings"
+  ],
+  "deliverables": [
+    "Measurement plan by tank and stage: terminal, anchorage and dock",
+    "Thickness readings on the class formats with original thickness and allowable diminution",
+    "Daily dock results with readings beyond limits flagged",
+    "Sketches carrying forward point numbers from the previous renewal survey",
+    "List of members for renewal, with location and dimensions, for the yard's steel order",
+    "Gauge calibration records and technician certificates"
+  ],
+  "faqs": [
+    {
+      "q": "Can a tanker's renewal survey gauging be split between Naftoport and a Remontowa dock?",
+      "a": "Yes, and it is usually sensible. Deck structure and gas-free tanks can be measured during or after discharge, while bottom plating and double-bottom structure need the dock. We assign each space to the stage where it is accessible. Readings taken before the dock are owner's information unless a firm approved by the class takes them as part of the survey."
+    },
+    {
+      "q": "How early should we gauge before a Gdańsk docking?",
+      "a": "Early enough that the readings shape the yard's quotation, and close enough that the steel is still representative. Several weeks to a few months is typical. For a tanker, the best time is a gas-free spell after discharge, when cargo and ballast tanks can be entered and a team can arrive from India with visas in hand."
+    },
+    {
+      "q": "Does cold weather stop thickness gauging in Gdańsk?",
+      "a": "It does not stop it, but it changes the plan. We use couplant suited to low temperatures, warm probes and cables before use, and allow extra time for access and lighting. Work inside tanks is moderated by the ship, while open-deck and dock staging work needs more shelter and a margin in the schedule."
+    },
+    {
+      "q": "What does a ro-pax ferry docking at Remontowa need from gauging?",
+      "a": "Mostly vehicle decks, ramps, ballast tanks and the shell at the waterline, measured as the yard releases each area. Ferries have fixed dock periods, so we agree the sequence with the superintendent and the yard in advance and pass daily results, so renewal decisions are not held up at the end of the stay."
+    },
+    {
+      "q": "Will gauging in Gdańsk count towards the class renewal survey?",
+      "a": "Only if taken by a firm approved by the ship's society as part of the survey. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so for the moment our readings support the owner's decisions and steel planning, not class credit. Tell us the class when you enquire and we set the scope for the right purpose."
+    },
+    {
+      "q": "What do bulk carriers need from gauging when calling at the Northern Port?",
+      "a": "Hold frames, hopper and topside tank plating, tank tops and corrugated bulkheads are the main targets, gauged between loading stages or after discharge. Because ships often arrive with cargo remaining, we ask which holds will be empty and when, and fill the remaining time with ballast tanks and deck structure."
+    }
+  ]
+}
