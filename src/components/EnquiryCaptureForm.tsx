@@ -12,7 +12,7 @@ import { submitLead, mailtoAction } from "@/lib/lead-submit";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
-  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime";
+  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime" | "inspection";
 }
 
 const COPY = {
@@ -176,6 +176,25 @@ const COPY = {
       "Quote prepared for each vessel, survey and port",
     ],
   },
+  // 2026-11-14 (owner: more inspection leads, MT/PT/UT in the US): inspection pages had no form, only
+  // /contact links (GA4, US, 28 days: 32 inspection landings → 2 key events). Shown mid-article on
+  // method-city pages, state hubs and editorial inspection pages (src/data/lead-variant-2026-11.mjs).
+  inspection: {
+    badge: "NDT inspection — quote on request",
+    title: "Request an Inspection Quote",
+    sub: "Tell us the component and material, the method (MT, PT or UT), the code or specification and where the site is. We reply within one business day with the scope and a quote.",
+    subject: "Inspection quote request",
+    usecasePlaceholder: "Component and material, method (MT, PT, UT), code or spec (ASME, AWS D1.1, API 510/570/653), quantity, site address and timing…",
+    submitLabel: "Request a Quote",
+    trustSignals: [
+      "Magnetic particle, liquid penetrant and ultrasonic inspection on site",
+      "Technicians qualified under the company's ASNT SNT-TC-1A written practice",
+      "Procedures and reports reviewed by an ASNT NDT Level III (UT, RT, MT, PT, VT)",
+      "Reports name the procedure, equipment, calibration and acceptance criteria",
+      "ISO 9001 and ISO 14001 certified company",
+      "Quote prepared for each scope and site",
+    ],
+  },
 } as const;
 
 const BUSINESS_LINE: Record<Props["variant"], string> = {
@@ -189,6 +208,7 @@ const BUSINESS_LINE: Record<Props["variant"], string> = {
   academy: "training",
   "practical-ndt": "practical-ndt",
   maritime: "inspection",
+  inspection: "inspection",
 };
 
 // 2026-10-09 sprint: lead_type per line, so the central business-event mapping
@@ -204,6 +224,7 @@ const LEAD_TYPE: Record<Props["variant"], string> = {
   academy: "training_enquiry",
   "practical-ndt": "ndt_simulation_demo",
   maritime: "rfq", // businessEventFor → inspection_rfq_submit
+  inspection: "rfq", // businessEventFor → inspection_rfq_submit
 };
 const STAGES = ["Ready to start, within this quarter", "Comparing options", "Just researching"];
 /** Only training enquiries continue to the Microsoft Form (it asks methods, levels, headcount). */

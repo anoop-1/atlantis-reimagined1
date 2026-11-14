@@ -4,12 +4,15 @@
 //   src/data/editorial-page-upgrades.json   hand-written upgrades {path: {title, description, html, replace, canonical, h1, updatedAt, dropFields, faqSchema}}
 //   scripts/practice-tests-2026-10.mjs      practice-test pages generated from src/data/practice-tests/*.json
 //   src/data/asnt-certification-2026-10.*   /asnt-certification crawler page, rendered from the same JSON as the React page
+//   scripts/us-conventional-ndt-2026-11.mjs US MT/PT/UT city pages and the reworded US RT pages (2026-11-14), from
+//                                           src/data/us-conventional-ndt-2026-11/*.json — the same <main> the route renders
 // Data blocks: an upgrade's html may carry <!--data:NAME--> placeholders, filled here from the
 // data file that owns the figures (one source per fact, CLAUDE.md §19.1/§46.3). An unknown name fails the build.
 import { readFileSync } from 'node:fs';
 import { practiceTestUpgrades } from './practice-tests-2026-10.mjs';
 import { asntCertificationUpgrade } from '../src/data/asnt-certification-2026-10.mjs';
 import { packageHours } from '../src/data/course-markup-2026-10.mjs';
+import { usConventionalUpgrades } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14: US MT/PT/UT city pages + reworded US RT pages
 
 const readJson = (rel) => JSON.parse(readFileSync(new URL(rel, import.meta.url), 'utf8'));
 const base = readJson('../src/data/editorial-page-upgrades.json');
@@ -53,7 +56,7 @@ for (const [path, u] of Object.entries(base)) {
 }
 
 const practice = practiceTestUpgrades();
-const generated = { ...practice, ...asntCertificationUpgrade(ASNT_CERT, HOURS) };
+const generated = { ...practice, ...asntCertificationUpgrade(ASNT_CERT, HOURS), ...usConventionalUpgrades() };
 for (const path of Object.keys(generated)) {
   if (base[path]) throw new Error(`editorial-upgrades: ${path} is in editorial-page-upgrades.json and is also generated; keep one source`);
 }

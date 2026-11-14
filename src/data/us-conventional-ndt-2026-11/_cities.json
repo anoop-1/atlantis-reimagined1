@@ -1,0 +1,766 @@
+{
+ "updated": "2026-11-14",
+ "note": "US conventional NDT (MT, PT, UT) city pages. rt=true: existing city whose /radiographic-testing-{slug} page is reworded (no RT performed in the US). Owner 2026-11-14.",
+ "cities": [
+  {
+   "slug": "houston",
+   "city": "Houston",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": false,
+   "training": "/ndt-training-houston",
+   "hub": "/inspection-services-houston",
+   "rt": true
+  },
+  {
+   "slug": "beaumont",
+   "city": "Beaumont",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": false,
+   "training": "/ndt-training-beaumont",
+   "hub": "/inspection-services-texas",
+   "rt": true
+  },
+  {
+   "slug": "corpus-christi",
+   "city": "Corpus Christi",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": false,
+   "training": "/ndt-training-corpus-christi",
+   "hub": "/inspection-services-texas",
+   "rt": true
+  },
+  {
+   "slug": "dallas",
+   "city": "Dallas",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": false,
+   "training": "/ndt-training-dallas",
+   "hub": "/inspection-services-texas",
+   "rt": true
+  },
+  {
+   "slug": "los-angeles",
+   "city": "Los Angeles",
+   "st": "CA",
+   "state": "California",
+   "isNew": false,
+   "training": "/ndt-training-los-angeles",
+   "hub": "/inspection-services-california",
+   "rt": true
+  },
+  {
+   "slug": "san-francisco",
+   "city": "San Francisco",
+   "st": "CA",
+   "state": "California",
+   "isNew": false,
+   "training": "/ndt-training-san-francisco",
+   "hub": "/inspection-services-california",
+   "rt": true
+  },
+  {
+   "slug": "san-diego",
+   "city": "San Diego",
+   "st": "CA",
+   "state": "California",
+   "isNew": false,
+   "training": "/ndt-training-san-diego",
+   "hub": "/inspection-services-california",
+   "rt": true
+  },
+  {
+   "slug": "new-orleans",
+   "city": "New Orleans",
+   "st": "LA",
+   "state": "Louisiana",
+   "isNew": false,
+   "training": "/ndt-training-new-orleans",
+   "hub": "/inspection-services-louisiana",
+   "rt": true
+  },
+  {
+   "slug": "baton-rouge",
+   "city": "Baton Rouge",
+   "st": "LA",
+   "state": "Louisiana",
+   "isNew": false,
+   "training": "/ndt-training-baton-rouge",
+   "hub": "/inspection-services-louisiana",
+   "rt": true
+  },
+  {
+   "slug": "denver",
+   "city": "Denver",
+   "st": "CO",
+   "state": "Colorado",
+   "isNew": false,
+   "training": "/ndt-training-denver",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "chicago",
+   "city": "Chicago",
+   "st": "IL",
+   "state": "Illinois",
+   "isNew": false,
+   "training": "/ndt-training-chicago",
+   "hub": "/inspection-services-illinois",
+   "rt": true
+  },
+  {
+   "slug": "seattle",
+   "city": "Seattle",
+   "st": "WA",
+   "state": "Washington",
+   "isNew": false,
+   "training": "/ndt-training-seattle",
+   "hub": "/inspection-services-washington",
+   "rt": true
+  },
+  {
+   "slug": "portland",
+   "city": "Portland",
+   "st": "OR",
+   "state": "Oregon",
+   "isNew": false,
+   "training": "/ndt-training-portland",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "phoenix",
+   "city": "Phoenix",
+   "st": "AZ",
+   "state": "Arizona",
+   "isNew": false,
+   "training": "/ndt-training-phoenix",
+   "hub": "/inspection-services-phoenix",
+   "rt": true
+  },
+  {
+   "slug": "salt-lake-city",
+   "city": "Salt Lake City",
+   "st": "UT",
+   "state": "Utah",
+   "isNew": false,
+   "training": "/ndt-training-salt-lake-city",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "philadelphia",
+   "city": "Philadelphia",
+   "st": "PA",
+   "state": "Pennsylvania",
+   "isNew": false,
+   "training": "/ndt-training-philadelphia",
+   "hub": "/inspection-services-pennsylvania",
+   "rt": true
+  },
+  {
+   "slug": "pittsburgh",
+   "city": "Pittsburgh",
+   "st": "PA",
+   "state": "Pennsylvania",
+   "isNew": false,
+   "training": "/ndt-training-pittsburgh",
+   "hub": "/inspection-services-pennsylvania",
+   "rt": true
+  },
+  {
+   "slug": "detroit",
+   "city": "Detroit",
+   "st": "MI",
+   "state": "Michigan",
+   "isNew": false,
+   "training": "/ndt-training-detroit",
+   "hub": "/inspection-services-michigan",
+   "rt": true
+  },
+  {
+   "slug": "new-york",
+   "city": "New York",
+   "st": "NY",
+   "state": "New York",
+   "isNew": false,
+   "training": "/ndt-training-new-york",
+   "hub": "/inspection-services-new-york",
+   "rt": true
+  },
+  {
+   "slug": "boston",
+   "city": "Boston",
+   "st": "MA",
+   "state": "Massachusetts",
+   "isNew": false,
+   "training": "/ndt-training-boston",
+   "hub": "/inspection-services-massachusetts",
+   "rt": true
+  },
+  {
+   "slug": "atlanta",
+   "city": "Atlanta",
+   "st": "GA",
+   "state": "Georgia",
+   "isNew": false,
+   "training": "/ndt-training-atlanta",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "miami",
+   "city": "Miami",
+   "st": "FL",
+   "state": "Florida",
+   "isNew": false,
+   "training": "/ndt-training-miami",
+   "hub": "/inspection-services-florida",
+   "rt": true
+  },
+  {
+   "slug": "tampa",
+   "city": "Tampa",
+   "st": "FL",
+   "state": "Florida",
+   "isNew": false,
+   "training": "/ndt-training-tampa",
+   "hub": "/inspection-services-florida",
+   "rt": true
+  },
+  {
+   "slug": "jacksonville",
+   "city": "Jacksonville",
+   "st": "FL",
+   "state": "Florida",
+   "isNew": false,
+   "training": "/ndt-training-jacksonville",
+   "hub": "/inspection-services-florida",
+   "rt": true
+  },
+  {
+   "slug": "washington-dc",
+   "city": "Washington, DC",
+   "st": "DC",
+   "state": "District of Columbia",
+   "isNew": false,
+   "training": "/ndt-training-washington-dc",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "nashville",
+   "city": "Nashville",
+   "st": "TN",
+   "state": "Tennessee",
+   "isNew": false,
+   "training": "/ndt-training-nashville",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "minneapolis",
+   "city": "Minneapolis",
+   "st": "MN",
+   "state": "Minnesota",
+   "isNew": false,
+   "training": "/ndt-training-minneapolis",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "cleveland",
+   "city": "Cleveland",
+   "st": "OH",
+   "state": "Ohio",
+   "isNew": false,
+   "training": "/ndt-training-cleveland",
+   "hub": "/inspection-services-ohio",
+   "rt": true
+  },
+  {
+   "slug": "cincinnati",
+   "city": "Cincinnati",
+   "st": "OH",
+   "state": "Ohio",
+   "isNew": false,
+   "training": "/ndt-training-cincinnati",
+   "hub": "/inspection-services-ohio",
+   "rt": true
+  },
+  {
+   "slug": "baltimore",
+   "city": "Baltimore",
+   "st": "MD",
+   "state": "Maryland",
+   "isNew": false,
+   "training": "/ndt-training-baltimore",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "charlotte",
+   "city": "Charlotte",
+   "st": "NC",
+   "state": "North Carolina",
+   "isNew": false,
+   "training": "/ndt-training-charlotte",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "indianapolis",
+   "city": "Indianapolis",
+   "st": "IN",
+   "state": "Indiana",
+   "isNew": false,
+   "training": "/ndt-training-indianapolis",
+   "hub": "/inspection-services-indiana",
+   "rt": true
+  },
+  {
+   "slug": "kansas-city",
+   "city": "Kansas City",
+   "st": "MO",
+   "state": "Missouri",
+   "isNew": false,
+   "training": "/ndt-training-kansas-city",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "st-louis",
+   "city": "St. Louis",
+   "st": "MO",
+   "state": "Missouri",
+   "isNew": false,
+   "training": "/ndt-training-st-louis",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "milwaukee",
+   "city": "Milwaukee",
+   "st": "WI",
+   "state": "Wisconsin",
+   "isNew": false,
+   "training": "/ndt-training-milwaukee",
+   "hub": null,
+   "rt": true
+  },
+  {
+   "slug": "tulsa",
+   "city": "Tulsa",
+   "st": "OK",
+   "state": "Oklahoma",
+   "isNew": false,
+   "training": "/ndt-training-tulsa",
+   "hub": "/inspection-services-oklahoma",
+   "rt": true
+  },
+  {
+   "slug": "san-antonio",
+   "city": "San Antonio",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": true,
+   "training": "/ndt-training-san-antonio",
+   "hub": "/inspection-services-texas",
+   "rt": false
+  },
+  {
+   "slug": "fort-worth",
+   "city": "Fort Worth",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": true,
+   "training": "/ndt-training-fort-worth",
+   "hub": "/inspection-services-texas",
+   "rt": false
+  },
+  {
+   "slug": "midland",
+   "city": "Midland",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": true,
+   "training": "/ndt-training-midland",
+   "hub": "/inspection-services-texas",
+   "rt": false
+  },
+  {
+   "slug": "el-paso",
+   "city": "El Paso",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": true,
+   "training": "/ndt-training-el-paso",
+   "hub": "/inspection-services-texas",
+   "rt": false
+  },
+  {
+   "slug": "austin",
+   "city": "Austin",
+   "st": "TX",
+   "state": "Texas",
+   "isNew": true,
+   "training": "/ndt-training-austin",
+   "hub": "/inspection-services-texas",
+   "rt": false
+  },
+  {
+   "slug": "lake-charles",
+   "city": "Lake Charles",
+   "st": "LA",
+   "state": "Louisiana",
+   "isNew": true,
+   "training": "/ndt-training-lake-charles",
+   "hub": "/inspection-services-louisiana",
+   "rt": false
+  },
+  {
+   "slug": "shreveport",
+   "city": "Shreveport",
+   "st": "LA",
+   "state": "Louisiana",
+   "isNew": true,
+   "training": "/ndt-training-shreveport",
+   "hub": "/inspection-services-louisiana",
+   "rt": false
+  },
+  {
+   "slug": "oklahoma-city",
+   "city": "Oklahoma City",
+   "st": "OK",
+   "state": "Oklahoma",
+   "isNew": true,
+   "training": "/ndt-training-oklahoma-city",
+   "hub": "/inspection-services-oklahoma",
+   "rt": false
+  },
+  {
+   "slug": "wichita",
+   "city": "Wichita",
+   "st": "KS",
+   "state": "Kansas",
+   "isNew": true,
+   "training": "/ndt-training-wichita",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "omaha",
+   "city": "Omaha",
+   "st": "NE",
+   "state": "Nebraska",
+   "isNew": true,
+   "training": "/ndt-training-omaha",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "gary",
+   "city": "Gary",
+   "st": "IN",
+   "state": "Indiana",
+   "isNew": true,
+   "training": "/ndt-training-whiting",
+   "hub": "/inspection-services-indiana",
+   "rt": false
+  },
+  {
+   "slug": "fort-wayne",
+   "city": "Fort Wayne",
+   "st": "IN",
+   "state": "Indiana",
+   "isNew": true,
+   "training": null,
+   "hub": "/inspection-services-indiana",
+   "rt": false
+  },
+  {
+   "slug": "grand-rapids",
+   "city": "Grand Rapids",
+   "st": "MI",
+   "state": "Michigan",
+   "isNew": true,
+   "training": "/ndt-training-grand-rapids",
+   "hub": "/inspection-services-michigan",
+   "rt": false
+  },
+  {
+   "slug": "toledo",
+   "city": "Toledo",
+   "st": "OH",
+   "state": "Ohio",
+   "isNew": true,
+   "training": "/ndt-training-toledo",
+   "hub": "/inspection-services-ohio",
+   "rt": false
+  },
+  {
+   "slug": "columbus-ohio",
+   "city": "Columbus",
+   "st": "OH",
+   "state": "Ohio",
+   "isNew": true,
+   "training": "/ndt-training-columbus-ohio",
+   "hub": "/inspection-services-ohio",
+   "rt": false
+  },
+  {
+   "slug": "peoria",
+   "city": "Peoria",
+   "st": "IL",
+   "state": "Illinois",
+   "isNew": true,
+   "training": "/ndt-training-peoria",
+   "hub": "/inspection-services-illinois",
+   "rt": false
+  },
+  {
+   "slug": "joliet",
+   "city": "Joliet",
+   "st": "IL",
+   "state": "Illinois",
+   "isNew": true,
+   "training": "/ndt-training-chicago",
+   "hub": "/inspection-services-illinois",
+   "rt": false
+  },
+  {
+   "slug": "louisville",
+   "city": "Louisville",
+   "st": "KY",
+   "state": "Kentucky",
+   "isNew": true,
+   "training": "/ndt-training-louisville",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "memphis",
+   "city": "Memphis",
+   "st": "TN",
+   "state": "Tennessee",
+   "isNew": true,
+   "training": "/ndt-training-memphis",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "knoxville",
+   "city": "Knoxville",
+   "st": "TN",
+   "state": "Tennessee",
+   "isNew": true,
+   "training": "/ndt-training-knoxville",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "birmingham",
+   "city": "Birmingham",
+   "st": "AL",
+   "state": "Alabama",
+   "isNew": true,
+   "training": "/ndt-training-birmingham",
+   "hub": "/inspection-services-alabama",
+   "rt": false
+  },
+  {
+   "slug": "huntsville",
+   "city": "Huntsville",
+   "st": "AL",
+   "state": "Alabama",
+   "isNew": true,
+   "training": "/ndt-training-huntsville",
+   "hub": "/inspection-services-huntsville",
+   "rt": false
+  },
+  {
+   "slug": "mobile-alabama",
+   "city": "Mobile",
+   "st": "AL",
+   "state": "Alabama",
+   "isNew": true,
+   "training": "/ndt-training-mobile",
+   "hub": "/inspection-services-alabama",
+   "rt": false
+  },
+  {
+   "slug": "newark",
+   "city": "Newark",
+   "st": "NJ",
+   "state": "New Jersey",
+   "isNew": true,
+   "training": "/ndt-training-newark",
+   "hub": "/inspection-services-new-jersey",
+   "rt": false
+  },
+  {
+   "slug": "buffalo",
+   "city": "Buffalo",
+   "st": "NY",
+   "state": "New York",
+   "isNew": true,
+   "training": "/ndt-training-buffalo",
+   "hub": "/inspection-services-new-york",
+   "rt": false
+  },
+  {
+   "slug": "allentown",
+   "city": "Allentown",
+   "st": "PA",
+   "state": "Pennsylvania",
+   "isNew": true,
+   "training": "/ndt-training-allentown",
+   "hub": "/inspection-services-pennsylvania",
+   "rt": false
+  },
+  {
+   "slug": "hartford",
+   "city": "Hartford",
+   "st": "CT",
+   "state": "Connecticut",
+   "isNew": true,
+   "training": "/ndt-training-east-hartford",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "norfolk",
+   "city": "Norfolk",
+   "st": "VA",
+   "state": "Virginia",
+   "isNew": true,
+   "training": "/ndt-training-norfolk",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "richmond-virginia",
+   "city": "Richmond",
+   "st": "VA",
+   "state": "Virginia",
+   "isNew": true,
+   "training": "/ndt-training-richmond",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "charleston-south-carolina",
+   "city": "Charleston",
+   "st": "SC",
+   "state": "South Carolina",
+   "isNew": true,
+   "training": "/ndt-training-north-charleston",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "greenville-south-carolina",
+   "city": "Greenville",
+   "st": "SC",
+   "state": "South Carolina",
+   "isNew": true,
+   "training": "/ndt-training-greenville-south-carolina",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "savannah",
+   "city": "Savannah",
+   "st": "GA",
+   "state": "Georgia",
+   "isNew": true,
+   "training": "/ndt-training-savannah",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "orlando",
+   "city": "Orlando",
+   "st": "FL",
+   "state": "Florida",
+   "isNew": true,
+   "training": "/ndt-training-orlando",
+   "hub": "/inspection-services-florida",
+   "rt": false
+  },
+  {
+   "slug": "tucson",
+   "city": "Tucson",
+   "st": "AZ",
+   "state": "Arizona",
+   "isNew": true,
+   "training": "/ndt-training-tucson",
+   "hub": "/inspection-services-arizona",
+   "rt": false
+  },
+  {
+   "slug": "albuquerque",
+   "city": "Albuquerque",
+   "st": "NM",
+   "state": "New Mexico",
+   "isNew": true,
+   "training": "/ndt-training-albuquerque",
+   "hub": null,
+   "rt": false
+  },
+  {
+   "slug": "bakersfield",
+   "city": "Bakersfield",
+   "st": "CA",
+   "state": "California",
+   "isNew": true,
+   "training": "/ndt-training-bakersfield",
+   "hub": "/inspection-services-california",
+   "rt": false
+  },
+  {
+   "slug": "tacoma",
+   "city": "Tacoma",
+   "st": "WA",
+   "state": "Washington",
+   "isNew": true,
+   "training": "/ndt-training-tacoma",
+   "hub": "/inspection-services-washington",
+   "rt": false
+  },
+  {
+   "slug": "spokane",
+   "city": "Spokane",
+   "st": "WA",
+   "state": "Washington",
+   "isNew": true,
+   "training": "/ndt-training-spokane",
+   "hub": "/inspection-services-washington",
+   "rt": false
+  },
+  {
+   "slug": "anchorage",
+   "city": "Anchorage",
+   "st": "AK",
+   "state": "Alaska",
+   "isNew": true,
+   "training": "/ndt-training-anchorage",
+   "hub": "/inspection-services-alaska",
+   "rt": false
+  },
+  {
+   "slug": "pascagoula",
+   "city": "Pascagoula",
+   "st": "MS",
+   "state": "Mississippi",
+   "isNew": true,
+   "training": "/ndt-training-pascagoula",
+   "hub": "/inspection-services-mississippi",
+   "rt": false
+  }
+ ]
+}

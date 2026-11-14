@@ -97,6 +97,7 @@ import { maritimeSectionRoutes, assertMaritimeSectionClean } from './maritime-se
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
+import { applyUsConventionalRoutes, applyUsConventionalHubRoute, assertUsConventionalClean } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14 owner: 2,000+ word MT/PT/UT city pages across the US + reworded US RT pages (no RT performed in the US)
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
 import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
 import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
@@ -14132,6 +14133,7 @@ if (pseoNoindexApplied > 0) {
     else console.log(`✂️  Zero-impression prune: no tranche enabled (${pr.note || 'idle'})`);
   }
   { const re = applyConsultingIndexable(routes); if (re.length) console.log(`🧭 Consulting menu pages made indexable: ${re.join(', ')}`); } // 2026-10-19
+  { const uc = applyUsConventionalRoutes(routes); console.log(`🔧 US conventional NDT (MT/PT/UT) city pages: ${uc.updated} rewritten, ${uc.added} new routes, ${uc.rt} US RT pages reworded`); } // 2026-11-14: after every prune/noindex/consolidation pass
 
   const meta = disambiguateMeta(routes);
   if (meta.fixedTitles || meta.fixedDescs) console.log(`🏷️  Meta disambiguation: ${meta.fixedTitles} duplicate titles + ${meta.fixedDescs} duplicate descriptions made unique`);
@@ -14207,6 +14209,7 @@ assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, 
 assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertMaritimeSectionClean(BUILT_PATHS); // 2026-11-07: maritime records complete, >=2,000 words per port, links built, no prices/approval/presence claims
+assertUsConventionalClean(BUILT_PATHS); // 2026-11-14: every US MT/PT/UT city record valid (2,000+ words, no RT offer, no advanced methods), every page and link built
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55
@@ -14466,6 +14469,7 @@ routes.forEach(route => {
       if (!route.bodyContent.includes('data-free-downloads="2026-10"')) route = applyDownloadsRoute(route);
       if (!route.bodyContent.includes('data-guide-library="2026-10"')) route = applyApiGuideLibrary(route);
     }
+    route = applyUsConventionalHubRoute(route); // 2026-11-14: MT/PT/UT city directory on state hubs + UT/MT service pages; US radiography note on /radiographic-testing
     route = applyNaKeywordDepth(route); // 2026-10-26 §64: last body writer for its owner pages (H1 synonym + competitor-keyword section, idempotent)
     writeRoute(route.path, route, baseTemplate);
     generated++;

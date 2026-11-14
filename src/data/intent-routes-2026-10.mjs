@@ -21,6 +21,7 @@
 // API 510/570/653 readers are never offered API training (Atlantis does not sell it).
 
 import { US_TRAINING_PAGES, US_TRAINING_OWNER } from "./us-training-2026-11.mjs"; // 2026-11-10 US training pages
+import { US_NO_RT_PATHS } from "./us-conventional-ndt-2026-11/rt-paths.mjs"; // 2026-11-14: US RT city pages (no RT performed in the US) get no RT service block
 
 export const ROUTE_MARKER = 'data-intent-route="2026-10"';
 
@@ -162,6 +163,7 @@ function ruleFor(p) {
                : [[`/inspection-services-${city}`, `NDT inspection services in ${name}`], [`/ndt-training-${city}`, `NDT training in ${name}`], L.consultingL3]);
   }
   if (EXCLUDE.test(p)) return null;
+  if (US_NO_RT_PATHS.has(p)) return null; // 2026-11-14: the reworded page carries its own UT-alternative links
   // 2026-11-10 (owner: maritime UT enquiries from Europe, Belgium and the Netherlands first): pages about
   // ships, hulls and marine NDT hand the ship owner's intent to the maritime inspection section.
   if (MARITIME_PAGE.test(p) && !MARITIME_SKIP.test(p)) {
