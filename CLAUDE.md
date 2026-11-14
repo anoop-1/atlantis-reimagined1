@@ -3998,6 +3998,9 @@ Owner, 2026-11-14: "Audit for SEO … focus on Conventional NDT inspection servi
 - Mechanism: `scripts/us-conventional-ndt-2026-11.mjs` (routes after every prune/noindex/consolidation pass; hub applier in the write loop; guard), editorial upgrades (`usConventionalUpgrades()` merged in `scripts/editorial-upgrades.mjs`, so the published `<main>` and React show the same page), validator `scripts/us-conventional-validate.mjs [slug…]`. 20 superseded entries removed from `editorial-page-upgrades.json`; 25 geo-depth JSON files for these paths deleted (content moved into the new pages).
 - Class wording on ship-related pages aligned to "in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS" (Mobile, Pascagoula, Norfolk, San Francisco).
 
+### 76.2b Deployed
+main = 1c8b719736 (Deploy to VPS run 43600940717, success). Build 8,868 pages, 6,357 canonical sitemap URLs, 0 failures; preflight 16/16; pricing PASS (src + dist); claims PASS (src + dist); drift guard PASS; post-build QA 264/264 pages built, self-canonical, editorial, Service/FAQPage, method pages indexable and sitemapped; headless check (6 page types × 1366/390 px): one H1, no overflow, inspection form mid-article, SPA navigation from a hub to a new city page works, 0 page errors. Live-verified titles and 200s. IndexNow: 296 URLs accepted (`scripts/indexing-url-list-2026-11-14.json`).
+
 ### 76.3 Rules this adds
 - **No US RT offer anywhere** (owner 2026-11-14). New US copy may mention RT only as something Atlantis does not perform, as a code fact, or as a Level III review service. The owner hires a licensed radiography contractor; Atlantis never "engages" or "arranges" one.
 - **No advanced methods on the US conventional pages** (validator: PAUT, phased array, TOFD, guided wave, LRUT, AUT, MFL, eddy current, ACFM, AE, PEC, IRIS, digital/computed radiography, drones, thermography).

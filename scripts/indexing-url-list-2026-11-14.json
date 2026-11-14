@@ -1,0 +1,894 @@
+{
+ "date": "2026-11-14",
+ "note": "US conventional NDT release (CLAUDE.md §76)",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-houston"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-houston"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-houston"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-houston"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-beaumont"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-beaumont"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-beaumont"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-beaumont"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-dallas"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-dallas"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-dallas"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-dallas"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-san-francisco"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-san-francisco"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-san-francisco"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-san-francisco"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-san-diego"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-san-diego"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-san-diego"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-san-diego"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-new-orleans"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-new-orleans"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-new-orleans"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-new-orleans"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-denver"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-denver"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-denver"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-denver"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-seattle"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-seattle"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-seattle"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-seattle"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-portland"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-portland"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-portland"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-portland"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-phoenix"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-phoenix"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-phoenix"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-phoenix"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-salt-lake-city"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-salt-lake-city"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-salt-lake-city"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-salt-lake-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-philadelphia"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-philadelphia"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-philadelphia"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-philadelphia"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-pittsburgh"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-pittsburgh"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-pittsburgh"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-pittsburgh"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-detroit"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-detroit"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-detroit"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-detroit"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-new-york"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-new-york"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-new-york"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-new-york"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-boston"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-boston"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-boston"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-boston"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-atlanta"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-atlanta"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-atlanta"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-atlanta"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-miami"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-miami"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-miami"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-miami"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-tampa"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-tampa"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-tampa"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-tampa"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-jacksonville"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-jacksonville"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-jacksonville"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-jacksonville"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-washington-dc"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-washington-dc"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-washington-dc"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-washington-dc"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-nashville"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-nashville"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-nashville"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-nashville"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-minneapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-minneapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-minneapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-minneapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-cleveland"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-cleveland"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-cleveland"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-cleveland"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-cincinnati"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-cincinnati"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-cincinnati"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-cincinnati"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-baltimore"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-baltimore"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-baltimore"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-baltimore"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-charlotte"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-charlotte"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-charlotte"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-charlotte"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-indianapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-indianapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-indianapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-indianapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-kansas-city"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-kansas-city"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-kansas-city"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-kansas-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-milwaukee"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-milwaukee"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-milwaukee"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-milwaukee"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-tulsa"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-tulsa"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-tulsa"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing-tulsa"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-san-antonio"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-san-antonio"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-san-antonio"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-fort-worth"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-fort-worth"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-fort-worth"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-el-paso"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-el-paso"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-el-paso"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-austin"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-austin"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-austin"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-lake-charles"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-lake-charles"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-lake-charles"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-shreveport"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-shreveport"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-shreveport"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-oklahoma-city"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-oklahoma-city"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-oklahoma-city"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-wichita"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-wichita"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-wichita"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-omaha"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-omaha"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-omaha"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-gary"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-gary"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-gary"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-fort-wayne"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-fort-wayne"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-fort-wayne"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-grand-rapids"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-grand-rapids"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-grand-rapids"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-columbus-ohio"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-columbus-ohio"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-columbus-ohio"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-peoria"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-peoria"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-peoria"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-joliet"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-joliet"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-joliet"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-louisville"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-louisville"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-louisville"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-memphis"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-memphis"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-memphis"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-knoxville"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-knoxville"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-knoxville"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-birmingham"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-birmingham"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-birmingham"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-huntsville"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-huntsville"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-huntsville"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-mobile-alabama"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-mobile-alabama"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-mobile-alabama"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-newark"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-newark"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-newark"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-buffalo"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-buffalo"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-buffalo"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-allentown"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-allentown"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-allentown"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-hartford"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-hartford"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-hartford"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-norfolk"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-norfolk"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-norfolk"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-richmond-virginia"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-richmond-virginia"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-richmond-virginia"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-charleston-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-charleston-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-charleston-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-greenville-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-greenville-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-greenville-south-carolina"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-savannah"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-savannah"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-savannah"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-orlando"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-orlando"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-orlando"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-tucson"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-tucson"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-tucson"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-albuquerque"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-albuquerque"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-albuquerque"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-bakersfield"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-bakersfield"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-bakersfield"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-tacoma"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-tacoma"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-tacoma"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-spokane"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-spokane"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-spokane"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-anchorage"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-anchorage"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-anchorage"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing-pascagoula"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing-pascagoula"
+  },
+  {
+   "url": "https://atlantisndt.com/penetrant-testing-pascagoula"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-alabama"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-alaska"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-arizona"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-california"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-florida"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-houston"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-huntsville"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-illinois"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-indiana"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-louisiana"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-massachusetts"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-michigan"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-mississippi"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-new-jersey"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-new-york"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-ohio"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-oklahoma"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-pennsylvania"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-phoenix"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-texas"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection-services-washington"
+  },
+  {
+   "url": "https://atlantisndt.com/ultrasonic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/magnetic-particle-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/radiographic-testing"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/pipeline-inspection-services-dallas"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-lake-charles"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-indianapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-minneapolis"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-detroit"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-miami"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/third-party-inspection-corpus-christi"
+  }
+ ]
+}
