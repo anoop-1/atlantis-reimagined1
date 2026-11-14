@@ -2345,7 +2345,7 @@
   "name": "Arizona",
   "region": "Southwest, USA",
   "country": "US",
-  "title": "NDT Inspection Services Arizona | UT, PAUT, MT, PT, RT, VT",
+  "title": "NDT Inspection Services Arizona | UT, PAUT, MT, PT, VT",
   "publishedAt": "2026-10-24"
  },
  {
@@ -2363,7 +2363,7 @@
   "name": "Florida",
   "region": "Southeast, USA",
   "country": "US",
-  "title": "NDT Inspection Services Florida | Weld, UT, PAUT, RT, Tank NDE",
+  "title": "NDT Inspection Services Florida | Weld, UT, PAUT, Tank NDE",
   "publishedAt": "2026-10-24"
  },
  {
@@ -2372,7 +2372,7 @@
   "name": "Houston",
   "region": "Gulf Coast, USA",
   "country": "US",
-  "title": "NDT Inspection Services Houston | UT, PAUT, TOFD, RT, MT, PT",
+  "title": "NDT Inspection Services Houston | UT, PAUT, TOFD, MT, PT",
   "publishedAt": "2026-10-24"
  },
  {
@@ -2381,7 +2381,7 @@
   "name": "Huntsville",
   "region": "Southeast, USA",
   "country": "US",
-  "title": "NDT Inspection Services Huntsville AL | PT, MT, UT, PAUT, RT",
+  "title": "NDT Inspection Services Huntsville AL | PT, MT, UT, PAUT",
   "publishedAt": "2026-10-24"
  },
  {
@@ -2399,7 +2399,7 @@
   "name": "Massachusetts",
   "region": "Northeast, USA",
   "country": "US",
-  "title": "NDT Inspection Services Massachusetts | PT, UT, PAUT, RT, MT",
+  "title": "NDT Inspection Services Massachusetts | PT, UT, PAUT, MT",
   "publishedAt": "2026-10-24"
  },
  {
@@ -2417,7 +2417,7 @@
   "name": "Phoenix",
   "region": "Southwest, USA",
   "country": "US",
-  "title": "NDT Inspection Services Phoenix | UT, PAUT, MT, PT, RT, VT",
+  "title": "NDT Inspection Services Phoenix | UT, PAUT, MT, PT, VT",
   "publishedAt": "2026-10-24"
  }
 ]

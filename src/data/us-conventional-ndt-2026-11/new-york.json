@@ -56,7 +56,7 @@
    "faq": [
     {
      "q": "Can magnetic particle inspection be done on stainless steel in New York?",
-     "a": "Austenitic stainless steel is not magnetic, so MT does not work on it. For stainless, aluminum and most nickel alloys we use liquid penetrant testing instead, which finds surface-breaking cracks in any non-porous material."
+     "a": "Austenitic stainless steel carries no useful magnetic field, so MT cannot examine it. For stainless, aluminum and most nickel alloys we use liquid penetrant testing instead, which finds surface-breaking cracks in any non-porous material."
     },
     {
      "q": "Do you use a yoke or prods for field MT?",
@@ -152,7 +152,7 @@
     },
     {
      "q": "Can I learn radiography theory through Atlantis?",
-     "a": "Yes. We teach radiographic testing theory in a Level 2 course. It does not include radiation safety licensing, which stays with your regulator and licensed employer, and certification of technicians remains with the employer under its written practice."
+     "a": "Yes. Radiographic theory is covered in our Level 2 course. That course leaves out radiation safety licensing, which stays with your regulator and licensed employer, and certification of technicians remains with the employer under its written practice."
     }
    ]
   }
