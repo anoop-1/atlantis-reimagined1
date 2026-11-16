@@ -25,6 +25,7 @@
 //   assertUsConventionalClean(built)    build guard.
 import { CITIES, METHOD_SLUGS, loadRecords, validateUsConventional } from './us-conventional-validate.mjs';
 import { US_NO_RT_PATHS } from '../src/data/us-conventional-ndt-2026-11/rt-paths.mjs';
+import { usIndustryLinksForCity } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17: city pages link the US industry and job pages
 
 const SITE = 'https://atlantisndt.com';
 const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -69,7 +70,16 @@ function relatedBlock(c, key) {
   const m = METHODS[key === 'rt' ? 'ut' : key];
   const train = [`<a href="${m.l1}">${m.short} Level 1 training</a>`, `<a href="${m.l2}">${m.short} Level 2 training</a>`];
   if (c.training) train.push(`<a href="${c.training}">NDT training for ${esc(cityName(c))} technicians</a>`);
-  return `<section data-usconv-related="2026-11"><h2>Inspection and training around ${esc(cityName(c))}</h2><ul>${items.join('')}</ul><p>Training your own technicians: ${train.join(' · ')}.</p></section>`;
+  // 2026-11-17: the same method by industry (industries that matter in this city) and by job.
+  let byIndustry = '';
+  if (key !== 'rt') {
+    const links = usIndustryLinksForCity(c.slug, key);
+    const ind = links.filter((l) => l.kind === 'industry'), jobs = links.filter((l) => l.kind === 'job');
+    const a = (l) => `<a href="${l.path}">${esc(l.label)}</a>`;
+    if (ind.length) byIndustry += `<p>${esc(METHODS[key].short)} by industry for ${esc(cityName(c))}: ${ind.map(a).join(' · ')}.</p>`;
+    if (jobs.length) byIndustry += `<p>${esc(METHODS[key].short)} by job: ${jobs.map(a).join(' · ')}.</p>`;
+  }
+  return `<section data-usconv-related="2026-11"><h2>Inspection and training around ${esc(cityName(c))}</h2><ul>${items.join('')}</ul>${byIndustry}<p>Training your own technicians: ${train.join(' · ')}.</p></section>`;
 }
 
 function ctaBlock(c, key) {

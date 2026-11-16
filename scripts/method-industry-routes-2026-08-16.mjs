@@ -84,7 +84,8 @@ function body(methodKey, industryKey) {
     accept, which is why the code family matters as much as the technique.</p>
 
     <h2>How Atlantis delivers ${esc(m.short)} in this sector</h2>
-    <p>${esc(DELIVERY_NOTE)}</p>
+    <p>${esc(DELIVERY_NOTE)}</p>${methodKey === 'radiographic-testing' ? `
+    <p>In the United States, Atlantis does not perform radiography: industrial radiography there is licensed under NRC rules (10 CFR Part 34) or the equivalent Agreement State rules. On US projects we offer ${L(`/ultrasonic-testing-${industryKey}`, 'ultrasonic testing')} where the code and the owner allow it, and ASNT Level III review of radiographs and RT procedures.</p>` : ''}
     <p>${L(`/${methodKey}`, `${m.name} services`)} ·
     ${L(`/${methodKey}-training`, `${m.short} training and certification`)}${
       links.consulting ? ` · ${L(links.consulting, `${ind.name} programme consulting`)}` : ''

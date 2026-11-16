@@ -6,6 +6,8 @@
 //   src/data/asnt-certification-2026-10.*   /asnt-certification crawler page, rendered from the same JSON as the React page
 //   scripts/us-conventional-ndt-2026-11.mjs US MT/PT/UT city pages and the reworded US RT pages (2026-11-14), from
 //                                           src/data/us-conventional-ndt-2026-11/*.json — the same <main> the route renders
+//   scripts/us-industry-ndt-2026-11.mjs     US MT/PT/UT industry and job pages (2026-11-17), from
+//                                           src/data/us-industry-ndt-2026-11/*.json — the same <main> the route renders
 // Data blocks: an upgrade's html may carry <!--data:NAME--> placeholders, filled here from the
 // data file that owns the figures (one source per fact, CLAUDE.md §19.1/§46.3). An unknown name fails the build.
 import { readFileSync } from 'node:fs';
@@ -13,6 +15,7 @@ import { practiceTestUpgrades } from './practice-tests-2026-10.mjs';
 import { asntCertificationUpgrade } from '../src/data/asnt-certification-2026-10.mjs';
 import { packageHours } from '../src/data/course-markup-2026-10.mjs';
 import { usConventionalUpgrades } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14: US MT/PT/UT city pages + reworded US RT pages
+import { usIndustryUpgrades } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17: US MT/PT/UT industry and job pages
 
 const readJson = (rel) => JSON.parse(readFileSync(new URL(rel, import.meta.url), 'utf8'));
 const base = readJson('../src/data/editorial-page-upgrades.json');
@@ -56,7 +59,9 @@ for (const [path, u] of Object.entries(base)) {
 }
 
 const practice = practiceTestUpgrades();
-const generated = { ...practice, ...asntCertificationUpgrade(ASNT_CERT, HOURS), ...usConventionalUpgrades() };
+const USCONV = usConventionalUpgrades(), USIND = usIndustryUpgrades();
+for (const p of Object.keys(USIND)) if (p in USCONV) throw new Error(`editorial-upgrades: ${p} is produced by both US city and US industry modules`);
+const generated = { ...practice, ...asntCertificationUpgrade(ASNT_CERT, HOURS), ...USCONV, ...USIND };
 for (const path of Object.keys(generated)) {
   if (base[path]) throw new Error(`editorial-upgrades: ${path} is in editorial-page-upgrades.json and is also generated; keep one source`);
 }

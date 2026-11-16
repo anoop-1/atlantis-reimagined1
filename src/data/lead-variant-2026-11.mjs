@@ -30,7 +30,9 @@ const RULES = [
   // Training: certification, exams, practice tests, careers and salaries, courses.
   ['training', P(/training|certif|asnt|snt-tc-1a|cp-189|exam|practice-(test|question)|salary|level-(i|ii|iii|1|2|3)(\b|-)|course|career|study-guide|pass-rate|how-to-become|iso-9712|(^|[/-])cwi([/-]|$)/)],
   // Inspection: method service pages and city pages, inspection hubs, editorial /inspection/* pages (2026-11-14).
-  ['inspection', (p) => /^\/(ultrasonic|magnetic-particle|penetrant|radiographic|visual|eddy-current)-testing(-[a-z-]+)?$/.test(p) || /^\/inspection-services-[a-z-]+$/.test(p) || /^\/inspection\/[a-z0-9-]+$/.test(p)],
+  ['inspection', (p) => /^\/(ultrasonic|magnetic-particle|penetrant|radiographic|visual|eddy-current)-testing(-[a-z-]+)?$/.test(p) || /^\/inspection-services-[a-z-]+$/.test(p) || /^\/inspection\/[a-z0-9-]+$/.test(p)
+    // 2026-11-17: US MT/PT/UT job pages (src/data/us-industry-ndt-2026-11)
+    || /^\/(ultrasonic-(pipe-thickness-testing|weld-inspection|boiler-tube-inspection)|magnetic-particle-(weld-inspection|inspection-[a-z-]+))$/.test(p)],
   // Codes and standards guides: readers who need a procedure written or qualified to the code.
   ['consulting', (p) => /^\/(standards|blog)\//.test(p) && W('asme|aws|b31|astm|nbic|code|codes|standard|standards|section-v|api-(5|6|1)\\d\\d').test(p)],
 ];

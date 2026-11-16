@@ -53,6 +53,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const METHOD_INDUSTRY_SLUGS = [
   'refining', 'petrochemical', 'lng', 'offshore', 'pipeline', 'marine',
   'aviation', 'power', 'mining', 'fabrication', 'automotive', 'steel', 'rail',
+  // 2026-11-17 US industry pages (src/data/us-industry-ndt-2026-11) and the MT/PT/UT job pages that share the
+  // {method}-testing-{x} shape. Their own module also clears noindex after the prune; this keeps the prune honest.
+  'oilfield', 'chemical', 'pulp-paper', 'wind', 'water-utilities', 'food-pharma',
+  'castings-forgings', 'welds', 'stainless-steel', 'castings',
 ];
 
 export const SCOPES = {
