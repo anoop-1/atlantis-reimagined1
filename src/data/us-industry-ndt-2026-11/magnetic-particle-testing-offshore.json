@@ -43,7 +43,7 @@
     },
     {
       "q": "Is MT or PT better for offshore welds?",
-      "a": "MT is faster and more sensitive on carbon steel, so it is the first choice for structure and lifting gear. PT is used on stainless, duplex and aluminum, which are not magnetic."
+      "a": "MT is faster and more sensitive on carbon steel, so it is the first choice for structure and lifting gear. PT is used on austenitic stainless and aluminum, which are not magnetic, and on duplex, whose response is uneven."
     }
   ]
 }
