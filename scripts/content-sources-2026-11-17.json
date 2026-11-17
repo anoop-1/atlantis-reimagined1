@@ -305,5 +305,58 @@
   "https://www.baesystems.com/en-us/product/maritime-solutions-jacksonville",
   "https://www.myfloridacfo.com/division/sfm/bfp/boiler-safety",
   "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-69A-51-050"
+ ],
+ "/blog/conventional-ndt-myths": [
+  "https://store.astm.org/e1316-24.html",
+  "https://store.astm.org/e1444_e1444m-26.html",
+  "https://store.astm.org/e0709-21.html",
+  "https://www.qualitymag.com/articles/96565-the-most-common-misunderstandings-about-magnetic-particle-testing",
+  "https://www.nde-ed.org/NDETechniques/MagParticle/TestingPractices/MagnetizingCurrent.xhtml",
+  "https://www.nde-ed.org/NDETechniques/MagParticle/Equipment/FieldIndicators.xhtml",
+  "https://magnaflux.com/Magnaflux/Resources/Blog/Yoke-Best-Practices",
+  "https://magnaflux.com/Magnaflux/Blog/Low-Temperature-Dye-Penetrant-Testing",
+  "https://www.nationalboard.org/Index.aspx?pageID=374",
+  "https://ims.evidentscientific.com/en/applications/measuring-metal-thickness-paint",
+  "https://ims.evidentscientific.com/en/insights/echo-to-echo-vs-thru-coat",
+  "https://open-exam-prep.com/study-guides/api-570/nondestructive-examination/visual-penetrant-magnetic-testing",
+  "https://open-exam-prep.com/study-guides/api-510/nondestructive-examination-asme-v/rt-techniques-and-iqis",
+  "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D",
+  "https://www.asnt.org/standards-publications/blog/10-key-shalls-of-snt-tc-1a",
+  "https://www.asnt.org/me/26/11/interpreting-snt-tc-1a",
+  "https://source.asnt.org/22d6m27/60",
+  "https://qualitymag.com/articles/97194-ndt-training-programs-components-and-considerations",
+  "https://www.aws.org/magazines-and-media/inspection-trends/it-feb-25-feature-02-hay-d11/",
+  "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-d1-1/visual-inspection-clause8/inspector-qualifications-duties",
+  "https://engstandards.lanl.gov/esm/welding/vol6/Ch13-6-02-Att1-R9.pdf"
+ ],
+ "/ultrasonic-testing": [
+  "https://ims.evidentscientific.com/en/insights/echo-to-echo-vs-thru-coat",
+  "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0003.pdf",
+  "https://engstandards.dev.cc.lanl.gov/esm/welding/vol6/ITM-1306-NDE-UT-100-R1.pdf",
+  "https://www.asnt.org/me/26/11/interpreting-snt-tc-1a",
+  "https://www.aws.org/magazines-and-media/inspection-trends/it-feb-25-feature-02-hay-d11/"
+ ],
+ "/magnetic-particle-testing": [
+  "https://store.astm.org/e0709-21.html",
+  "https://store.astm.org/e1444_e1444m-26.html",
+  "https://www.qualitymag.com/articles/96565-the-most-common-misunderstandings-about-magnetic-particle-testing",
+  "https://www.nde-ed.org/NDETechniques/MagParticle/Equipment/FieldIndicators.xhtml",
+  "https://www.nde-ed.org/NDETechniques/MagParticle/TestingPractices/MagnetizingCurrent.xhtml"
+ ],
+ "/penetrant-testing": [
+  "https://www.nationalboard.org/Index.aspx?pageID=374",
+  "https://magnaflux.com/Magnaflux/Blog/Low-Temperature-Dye-Penetrant-Testing",
+  "https://open-exam-prep.com/study-guides/api-570/nondestructive-examination/visual-penetrant-magnetic-testing"
+ ],
+ "/visual-testing": [
+  "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-d1-1/visual-inspection-clause8/inspector-qualifications-duties",
+  "https://open-exam-prep.com/study-guides/api-570/nondestructive-examination/visual-penetrant-magnetic-testing",
+  "https://source.asnt.org/22d6m27/60",
+  "https://www.asnt.org/me/26/11/interpreting-snt-tc-1a",
+  "https://www.aws.org/magazines-and-media/inspection-trends/it-feb-25-feature-02-hay-d11/"
+ ],
+ "/radiographic-testing": [
+  "https://open-exam-prep.com/study-guides/api-510/nondestructive-examination-asme-v/rt-techniques-and-iqis",
+  "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D"
  ]
 }

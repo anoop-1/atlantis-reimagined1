@@ -285,7 +285,7 @@ export default function NDTSafetyChecklist() {
 
                 <div className="mt-6 bg-[#004aad] text-white rounded-lg p-5">
                   <h3 className="font-bold mb-2">Safety Training</h3>
-                  <p className="text-sm text-blue-100 mb-4">Atlantis NDT offers radiation safety officer (RSO) training, confined space awareness, and site-specific NDT safety programs.</p>
+                  <p className="text-sm text-blue-100 mb-4">Atlantis NDT training covers NDT method theory and practicals under ASNT SNT-TC-1A. Radiation safety, confined-space and site safety training come from your safety provider and, for radiography, the licensee.</p>
                   <Link to="/contact" className="inline-block bg-white text-[#004aad] px-4 py-2 rounded font-semibold text-sm hover:bg-blue-50 transition">
                     Inquire About Training
                   </Link>

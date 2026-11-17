@@ -749,15 +749,15 @@ export default function RadiographicTesting() {
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <p className="text-red-800 text-sm leading-relaxed">
-                <strong>Consulting Note:</strong> Atlantis NDT provides
-                consulting support for radiation safety program development,
-                NRC/Agreement State license application assistance, RSO
-                mentoring, and RT procedure development in accordance with
-                applicable regulations. Contact us at{" "}
+                <strong>Consulting Note:</strong> The radiation safety
+                program, the NRC or Agreement State licence and the RSO role
+                belong to the radiography licensee; Atlantis NDT does not
+                provide them, and in the USA it does not perform radiography.
+                An Atlantis ASNT NDT Level III can write and review RT
+                procedures and review radiographs. See{" "}
                 <Link to="/consulting" className="underline font-medium">
-                  /consulting
-                </Link>{" "}
-                for radiation safety compliance support.
+                  NDT consulting
+                </Link>.
               </p>
             </div>
           </section>
