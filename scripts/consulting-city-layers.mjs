@@ -163,7 +163,7 @@ function renderConsultingLayer(city, d) {
     `<a href="/ndt-written-practice-development">written practice development</a>, ` +
     `<a href="/consulting/ndt-technical-procedure-development">NDT procedure development</a>, ` +
     `<a href="/consulting/ndt-level-3-exam-oversight">examination oversight</a> and ` +
-    `<a href="/corporate-ndt-training">employer-sponsored training cohorts</a>. ` +
+    `<a href="/corporate-ndt-training">employer-sponsored training</a>. ` +
     `A firm whose Level III has just left should start at <a href="/consulting/ndt-level-3-resigned-what-to-do">what to do when your Level III resigns</a>.` +
     '</p></section>'
   );
