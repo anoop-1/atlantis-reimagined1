@@ -3044,12 +3044,12 @@
     },
     {
       "source": "/nas-410-certification-requirements",
-      "destination": "/aerospace-ndt-certification-requirements",
+      "destination": "/blog/nas-410-aerospace-ndt-certification-explained",
       "statusCode": 301
     },
     {
       "source": "/glossary/nas-410",
-      "destination": "/glossary/snt-tc-1a",
+      "destination": "/blog/nas-410-aerospace-ndt-certification-explained",
       "statusCode": 301
     },
     {
@@ -3117,16 +3117,8 @@
       "destination": "/blog/aerospace-ndt-recertification-2028",
       "statusCode": 301
     },
-    {
-      "source": "/blog/nas-410-aerospace-ndt-certification-explained",
-      "destination": "/blog/aerospace-ndt-certification-explained",
-      "statusCode": 301
-    },
-    {
-      "source": "/blog/nas-410-vs-snt-tc-1a",
-      "destination": "/blog/snt-tc-1a-for-aerospace-ndt",
-      "statusCode": 301
-    },
+    
+    
     {
       "source": "/blog/third-party-asnt-level-iii-consulting-for-aerospace-nas-410-programs",
       "destination": "/blog/third-party-asnt-level-iii-consulting-for-aerospace-programs",

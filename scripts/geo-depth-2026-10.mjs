@@ -52,7 +52,7 @@ export function geoDepthProblems(d, knownPaths) {
   const out = [];
   const t = text(d.html);
   const w = t.split(' ').filter(Boolean).length;
-  if (w < 350 || w > 900) out.push(`words ${w}`);
+  if (w < 350 || w > 1100) out.push(`words ${w}`); // cap 900 → 1,100 on 2026-11-17 (§79: competitor-led city sections)
   if ((d.html.match(/<h2[\s>]/g) || []).length !== 1) out.push('needs exactly one h2');
   if (/<(script|style|img|iframe|form|input|section)\b/i.test(d.html)) out.push('disallowed tag');
   if (/[$£€₹]\s?\d|\bprice[sd]?\b|\bfees?\b|day rate|per day\b/i.test(t)) out.push('price wording');

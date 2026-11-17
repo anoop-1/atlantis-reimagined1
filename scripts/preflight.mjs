@@ -182,29 +182,47 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
 // retired NAS 410 URLs 301 (vercel.json), so nothing may link to them either.
 // Case-sensitive on purpose: lower-case "nas-410" slugs survive only inside
 // redirect and route-matching code, never as reader-visible text.
+// 2026-11-17 (owner, CLAUDE.md §79): NAS 410 *clarification* is back on two explainer pages
+// (src/data/nas-410-clarification-2026-11.mjs). NAS 410 may appear on those pages, in the link block
+// on the aerospace pages that point to them, and anywhere as the text of a link to them. No other
+// page names it, and the claims gate still fails on any NAS 410 offer.
 {
+  const { NAS410_PAGES, isNas410Allowed, stripNas410Links } = await import('../src/data/nas-410-clarification-2026-11.mjs');
   const NAS = /\bNAS[ -]?410\b|\bNas ?410\b/;
+  const RESTORED = new RegExp(`href="(?:https://atlantisndt\\.com)?(?:${NAS410_PAGES.join('|')})/?"`, 'gi');
   const LINK = /href="(?:https:\/\/atlantisndt\.com)?\/[^"]*nas-410[^"]*"/i;
-  const named = [], linked = [];
+  const named = [], linked = [], restoredBuilt = NAS410_PAGES.filter((p) => existsSync(join(DIST, p, 'index.html')));
+  // Titles of the clarification pages, wherever they are quoted (related-reading lists, JSON-LD ItemLists).
+  const titles = restoredBuilt.map((p) => (readFileSync(join(DIST, p, 'index.html'), 'utf-8').match(/<title>([^<|]+)/) || [])[1]).filter(Boolean).map((t) => t.trim());
+  const stripTitles = (s) => titles.reduce((acc, t) => acc.split(t).join(''), s);
   for (const f of files) {
     const raw = readFileSync(f, 'utf-8');
-    if (NAS.test(raw)) named.push(routeOf(f));
-    if (LINK.test(raw)) linked.push(routeOf(f));
+    const route = routeOf(f);
+    if (!isNas410Allowed(route) && NAS.test(stripTitles(stripNas410Links(raw)))) named.push(route);
+    if (LINK.test(raw.replace(RESTORED, ''))) linked.push(route);
   }
   const assetDir = join(DIST, 'assets');
+  const keyOf = (p) => p.replace(/^\//, '').replace(/\//g, '__');
   const chunks = existsSync(assetDir)
-    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && NAS.test(readFileSync(join(assetDir, n), 'utf-8')))
+    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && !NAS410_PAGES.some((p) => n.startsWith(keyOf(p) + '-'))
+      && NAS.test(stripTitles(readFileSync(join(assetDir, n), 'utf-8')).replace(/"[^"\n]{0,400}\bNAS[ -]?410\b[^"\n]{0,400}"(?=[^"\n]{0,200}nas-410-(?:aerospace-ndt-certification-explained|vs-snt-tc-1a))/g, '')
+        .replace(/nas-410-(?:aerospace-ndt-certification-explained|vs-snt-tc-1a)[^"\n]{0,40}"[^"\n]{0,80}"[^"\n]{0,600}\bNAS[ -]?410\b[^"\n]{0,600}"/g, '')
+        .replace(/"(?:h|p)":"[^"]*\bNAS[ -]?410\b[^"]*"/g, '')))
     : [];
-  add('No NAS 410 named on the site', named.length === 0 && chunks.length === 0,
-    named.length || chunks.length ? `${named.length} pages, ${chunks.length} JS chunks: ${[...named, ...chunks].slice(0, 4).join(', ')}` : 'clean');
+  add('No NAS 410 named outside the clarification pages', named.length === 0 && chunks.length === 0,
+    named.length || chunks.length ? `${named.length} pages, ${chunks.length} JS chunks: ${[...named, ...chunks].slice(0, 4).join(', ')}` : `clean (${restoredBuilt.length} clarification pages built)`);
   add('No links to retired NAS 410 URLs', linked.length === 0, linked.length ? `${linked.length} pages: ${linked.slice(0, 4).join(', ')}` : 'clean');
   // 2026-10-29 (owner): aerospace and aviation get the same ASNT Level III consulting,
   // SNT-TC-1A-based training and inspection as every other sector. The first NAS 410
   // pass swapped the standard for filler ("the customer-specified aerospace standard")
   // that read as if SNT-TC-1A did not apply to aerospace; NANDTB only exists in the
   // NAS 410 / EN 4179 scheme. Neither may return.
+  // 2026-11-17: NANDTBs are part of how NAS 410 works, so the clarification pages may name them.
   const HEDGE = /customer-specified aerospace standard|\bNANDTBs?\b/i;
-  const hedged = files.filter((f) => HEDGE.test(readFileSync(f, 'utf-8'))).map(routeOf);
+  const hedged = files.filter((f) => {
+    const raw = readFileSync(f, 'utf-8');
+    return /customer-specified aerospace standard/i.test(raw) || (!NAS410_PAGES.includes(routeOf(f)) && HEDGE.test(raw));
+  }).map(routeOf);
   add('Aerospace offer not hedged', hedged.length === 0, hedged.length ? `${hedged.length} pages: ${hedged.slice(0, 4).join(', ')}` : 'clean');
   // 2026-10-31 (owner): /privacy-policy exists by URL only. No other page links to it
   // (navigation, footer or any body block), and it carries no related-reading block.
