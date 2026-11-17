@@ -187,27 +187,42 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
 // on the aerospace pages that point to them, and anywhere as the text of a link to them. No other
 // page names it, and the claims gate still fails on any NAS 410 offer.
 {
-  const { NAS410_PAGES, isNas410Allowed, stripNas410Links } = await import('../src/data/nas-410-clarification-2026-11.mjs');
+  const { NAS410_PAGES, NAS410_LINK_PAGES, isNas410Allowed, stripNas410Links } = await import('../src/data/nas-410-clarification-2026-11.mjs');
   const NAS = /\bNAS[ -]?410\b|\bNas ?410\b/;
-  const RESTORED = new RegExp(`href="(?:https://atlantisndt\\.com)?(?:${NAS410_PAGES.join('|')})/?"`, 'gi');
+  const slugAlt = NAS410_PAGES.map((p) => p.replace('/blog/', '')).join('|');
+  // Links to the clarification pages, their content JSON and preload hints are not "retired" links.
+  const RESTORED = new RegExp(`href="(?:https://atlantisndt\\.com)?/(?:blog|data/blogs)/(?:${slugAlt})(?:\\.json)?/?"`, 'gi');
   const LINK = /href="(?:https:\/\/atlantisndt\.com)?\/[^"]*nas-410[^"]*"/i;
   const named = [], linked = [], restoredBuilt = NAS410_PAGES.filter((p) => existsSync(join(DIST, p, 'index.html')));
-  // Titles of the clarification pages, wherever they are quoted (related-reading lists, JSON-LD ItemLists).
-  const titles = restoredBuilt.map((p) => (readFileSync(join(DIST, p, 'index.html'), 'utf-8').match(/<title>([^<|]+)/) || [])[1]).filter(Boolean).map((t) => t.trim());
-  const stripTitles = (s) => titles.reduce((acc, t) => acc.split(t).join(''), s);
+  // Strings allowed to carry "NAS 410" outside the two pages, wherever they are bundled or quoted:
+  // the clarification posts' own title/meta/snippet (blog index, related-reading lists, JSON-LD) and
+  // the aerospace link block (src/data/next-steps-2026-10.json, NAS410_LINK_PAGES).
+  const allowedStrings = (() => {
+    const out = new Set();
+    const blogs = JSON.parse(readFileSync(join(ROOT, 'src/data/blogs.json'), 'utf-8'));
+    for (const b of blogs) if (NAS410_PAGES.includes('/blog/' + b.slug)) for (const k of ['title', 'metaDescription', 'snippet']) if (b[k]) out.add(b[k]);
+    const ns = JSON.parse(readFileSync(join(ROOT, 'src/data/next-steps-2026-10.json'), 'utf-8')).blocks || {};
+    for (const p of NAS410_LINK_PAGES) { const blk = ns[p]; if (!blk) continue; out.add(blk.h); out.add(blk.p); for (const l of blk.links || []) out.add(l[1]); }
+    return [...out].filter((x) => x && NAS.test(x)).sort((x, y) => y.length - x.length);
+  })();
+  const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  const stripAllowed = (txt) => allowedStrings.reduce((acc, t) => [t, JSON.stringify(t).slice(1, -1), esc(t), esc(t).replace(/&#39;/g, '&#x27;'), t.replace(/'/g, '&#x27;')]
+    .reduce((a2, v) => a2.split(v).join(''), acc), txt);
+  // The blog index truncates descriptions; a quoted prefix of an allowed string is allowed too.
+  const reEsc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const stripPrefixes = (txt) => allowedStrings.reduce((acc, t) => (t.length < 60 ? acc
+    : acc.replace(new RegExp(reEsc(t.slice(0, 60)) + '[^"]*', 'g'), (m) => (t.startsWith(m) ? '' : m))), txt);
   for (const f of files) {
     const raw = readFileSync(f, 'utf-8');
     const route = routeOf(f);
-    if (!isNas410Allowed(route) && NAS.test(stripTitles(stripNas410Links(raw)))) named.push(route);
+    if (!isNas410Allowed(route) && NAS.test(stripAllowed(stripNas410Links(raw)))) named.push(route);
     if (LINK.test(raw.replace(RESTORED, ''))) linked.push(route);
   }
   const assetDir = join(DIST, 'assets');
   const keyOf = (p) => p.replace(/^\//, '').replace(/\//g, '__');
   const chunks = existsSync(assetDir)
     ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && !NAS410_PAGES.some((p) => n.startsWith(keyOf(p) + '-'))
-      && NAS.test(stripTitles(readFileSync(join(assetDir, n), 'utf-8')).replace(/"[^"\n]{0,400}\bNAS[ -]?410\b[^"\n]{0,400}"(?=[^"\n]{0,200}nas-410-(?:aerospace-ndt-certification-explained|vs-snt-tc-1a))/g, '')
-        .replace(/nas-410-(?:aerospace-ndt-certification-explained|vs-snt-tc-1a)[^"\n]{0,40}"[^"\n]{0,80}"[^"\n]{0,600}\bNAS[ -]?410\b[^"\n]{0,600}"/g, '')
-        .replace(/"(?:h|p)":"[^"]*\bNAS[ -]?410\b[^"]*"/g, '')))
+      && NAS.test(stripPrefixes(stripAllowed(readFileSync(join(assetDir, n), 'utf-8')))))
     : [];
   add('No NAS 410 named outside the clarification pages', named.length === 0 && chunks.length === 0,
     named.length || chunks.length ? `${named.length} pages, ${chunks.length} JS chunks: ${[...named, ...chunks].slice(0, 4).join(', ')}` : `clean (${restoredBuilt.length} clarification pages built)`);

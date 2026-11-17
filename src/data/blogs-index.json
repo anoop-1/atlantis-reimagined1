@@ -3625,7 +3625,7 @@
   "slug": "ndt-procedure-qualification-record-pqr-2028",
   "title": "NDT Procedure Qualification Record (PQR)",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Procedure Qualification Record (PQR) — PQR authoring + qualification per ASME Section IX + AWS. ASNT NDT Level III authored. Free Atlant"
+  "metaDescription": "NDT procedure qualification records explained: proving an NDT technique on representative specimens before production, and why it is not a w"
  },
  {
   "slug": "ndt-personnel-qualification-procedure-2028",
@@ -5129,5 +5129,29 @@
   "slug": "third-party-asnt-level-iii-consulting-for-aerospace-programs",
   "title": "Third-Party ASNT Level III Consulting for Aerospace Programs",
   "metaDescription": "Third-party ASNT Level III consulting for aerospace NDT programs: SNT-TC-1A written practice, exam oversight and Nadcap AC7114 audit readine"
+ },
+ {
+  "slug": "nas-410-aerospace-ndt-certification-explained",
+  "title": "NAS 410 Explained: Aerospace NDT Certification and Rev 6",
+  "category": "Certification",
+  "metaDescription": "How NAS 410 certification works: Trainee to Level 3, the Responsible Level 3, exams, vision, recertification, EN 4179, Nadcap, and what Rev "
+ },
+ {
+  "slug": "nas-410-vs-snt-tc-1a",
+  "title": "NAS 410 vs SNT-TC-1A: What's Different and Which Applies",
+  "category": "Certification",
+  "metaDescription": "NAS 410 vs SNT-TC-1A: standard vs recommended practice, who certifies, the Level 3 role, exams, vision, hours, recertification, and which on"
+ },
+ {
+  "slug": "wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104",
+  "title": "WPS, PQR and WPQ Explained: ASME IX, AWS D1.1, API 1104",
+  "category": "Codes and Standards",
+  "metaDescription": "What a WPS, PQR and welder qualification record are, who signs them, the tests behind each, and how ASME IX, AWS D1.1 and API 1104 differ, i"
+ },
+ {
+  "slug": "conventional-ndt-myths",
+  "title": "Conventional NDT Myths: 23 Misconceptions Corrected",
+  "category": "NDT Methods",
+  "metaDescription": "23 conventional NDT myths about UT, MT, PT, RT, VT and SNT-TC-1A certification, each corrected with the physics or the code reference behind"
  }
 ]
