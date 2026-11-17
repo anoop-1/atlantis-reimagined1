@@ -4106,3 +4106,6 @@ Owner, 2026-11-17: "push it live and reaudit the site from SEO point of view and
 - 2026-12-01: `python3 scripts/seo-trends-pull.py`; `gsc-url-inspect.py` on a sample of the Nov 14/17 pages; hub impressions/position vs 4,461 / p37.6; US near-me training position vs p54; hub queries ("magnetic particle inspection indiana" p19, "welding inspections in new jersey" p41.6).
 - 2026-12-15: US inspection_rfq_submit and training_enquiry per 28 days vs 8 and 12.
 
+### 78.8 Deployed
+main = 212d86b15c (Deploy to VPS run 44048049364, success). Live-checked: wave 19 titles on hubs and /ndt-certification-guide, the hub industry/job block, the new Atlanta training title, the US note on API 510/570, tank and third-party pages, and no old RT offer wording on the sampled pages. IndexNow: 342 indexable changed URLs accepted (`scripts/indexing-url-list-2026-11-17b.json`). Local build before push: 8,897 pages, 6,385 sitemap URLs, 0 failures; preflight 16/16; pricing PASS (src + dist); claims PASS (dist); tsc 410 (baseline). The last four RT wording rules were added after the local build and checked on the built pages (one pass per sentence, idempotent); CI built them.
+
