@@ -174,6 +174,77 @@ export function applyUsIndustryHubRoute(route) {
   return { ...route, bodyContent: body };
 }
 
+// ── US inspection hubs (/inspection-services-{state|city}) — 2026-11-17 cycle (CLAUDE.md §78) ──────────
+// GSC 28d to 2026-11-14: the 25 hubs went from 202 to 4,461 impressions (avg position 37.6) on queries such as
+// "magnetic particle inspection indiana" (p19), "welding inspections in new jersey" (p41.6), "structural welding
+// inspections ny" (p51.5), "ndt companies near me" (Illinois p47) and "maritime ndt services" (coastal states,
+// p55-89). Each hub now lists the MT, PT and UT industry pages whose city list includes the hub's member cities,
+// the weld and structural jobs, and (coastal states) the marine pages. Member cities come from the hub field of
+// src/data/us-conventional-ndt-2026-11/_cities.json.
+const MSHORT = { ut: 'UT', mt: 'MT', pt: 'PT' };
+const COASTAL = new Set(['/inspection-services-california', '/inspection-services-florida', '/inspection-services-washington',
+  '/inspection-services-louisiana', '/inspection-services-alaska', '/inspection-services-mississippi', '/inspection-services-texas',
+  '/inspection-services-houston', '/inspection-services-alabama', '/inspection-services-new-jersey', '/inspection-services-new-york',
+  '/inspection-services-massachusetts', '/inspection-services-pennsylvania']);
+let HUB_CITIES = null;
+function hubCities() {
+  if (HUB_CITIES) return HUB_CITIES;
+  const raw = JSON.parse(readFileSync(new URL('../src/data/us-conventional-ndt-2026-11/_cities.json', import.meta.url), 'utf8'));
+  HUB_CITIES = {};
+  for (const c of (Array.isArray(raw) ? raw : raw.cities)) {
+    if (!c.hub) continue;
+    (HUB_CITIES[c.hub] ||= { cities: new Set(), label: '' }).cities.add(c.slug);
+  }
+  return HUB_CITIES;
+}
+const hubPlaceLabel = (path) => {
+  const slug = path.replace('/inspection-services-', '');
+  return slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+};
+
+export function usIndustryHubBlock(path) {
+  const hub = hubCities()[path];
+  if (!hub) return '';
+  const place = hubPlaceLabel(path);
+  const byInd = new Map();
+  for (const p of PLAN) {
+    if (p.kind !== 'industry' || !recs()[p.slug]) continue;
+    if (!(p.cities || []).some((c) => hub.cities.has(c))) continue;
+    if (!byInd.has(p.industry)) byInd.set(p.industry, { name: p.name, pages: [] });
+    byInd.get(p.industry).pages.push(p);
+  }
+  if (COASTAL.has(path)) for (const p of PLAN) if (p.kind === 'industry' && p.industry === 'marine' && recs()[p.slug]) {
+    if (!byInd.has('marine')) byInd.set('marine', { name: p.name, pages: [] });
+    if (!byInd.get('marine').pages.includes(p)) byInd.get('marine').pages.push(p);
+  }
+  const order = ['ut', 'mt', 'pt'];
+  const rows = [...byInd.values()].sort((a, b) => b.pages.length - a.pages.length || a.name.localeCompare(b.name)).slice(0, 10)
+    .map((g) => `<li>${esc(g.name)}: ${g.pages.sort((a, b) => order.indexOf(a.method) - order.indexOf(b.method))
+      .map((p) => `<a href="${p.path}">${MSHORT[p.method]}</a>`).join(' · ')}</li>`);
+  const jobs = PLAN.filter((p) => p.kind === 'job' && recs()[p.slug]);
+  const weld = jobs.filter((p) => /weld|structural-steel/.test(p.slug));
+  const other = jobs.filter((p) => !weld.includes(p));
+  const li = (p) => `<li><a href="${p.path}">${esc(p.name)}</a></li>`;
+  if (!rows.length && !jobs.length) return '';
+  return `<section data-keep-on-rewrite data-usind-hub-state="2026-11"><h2>MT, PT and UT inspection in ${esc(place)} by industry and job</h2>`
+    + `<p>Atlantis mobilizes ASNT SNT-TC-1A-qualified technicians to sites in ${esc(place)} for magnetic particle, liquid penetrant and ultrasonic inspection. These pages cover the components, codes, technique, report contents and what to send for a quote.</p>`
+    + (weld.length ? `<h3>Weld and structural steel inspection</h3><ul>${weld.map(li).join('')}</ul>` : '')
+    + (rows.length ? `<h3>By industry</h3><ul>${rows.join('')}</ul>` : '')
+    + (other.length ? `<h3>Other jobs</h3><ul>${other.map(li).join('')}</ul>` : '')
+    + `</section>`;
+}
+
+/** Adds the block to a US inspection hub route (crawler). */
+export function applyUsIndustryStateHubRoute(route) {
+  if (!route || typeof route.bodyContent !== 'string' || !/^\/inspection-services-[a-z-]+$/.test(route.path)) return route;
+  const block = usIndustryHubBlock(route.path);
+  if (!block) return route;
+  let body = route.bodyContent.replace(/<section data-keep-on-rewrite data-usind-hub-state="2026-11">[\s\S]*?<\/section>/g, '');
+  const i = body.lastIndexOf('</main>');
+  body = i >= 0 ? body.slice(0, i) + block + body.slice(i) : body + block;
+  return { ...route, bodyContent: body };
+}
+
 /** Build guard: every record valid, every planned page present and built, every link target built. */
 export function assertUsIndustryClean(builtPaths) {
   const built = builtPaths instanceof Set ? builtPaths : new Set(builtPaths || []);

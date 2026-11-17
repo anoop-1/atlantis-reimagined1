@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { applyEditorialQuality } from './editorial-quality-pass.mjs';
 import { editorialUpgrades } from './seo-editorial-2026-09-12.mjs';
 import { localizedMain } from './seo-localization-2026-09-12.mjs';
+import { applyUsNoRadiography, assertUsNoRadiographyClean } from './us-no-radiography-2026-11.mjs'; // 2026-11-17 §78: no RT offer on US inspection pages
 const require = createRequire(import.meta.url);
 const { load } = require('cheerio');
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -73,6 +74,7 @@ for (const [path, { file }] of pages) {
     }
     if (upgrade.html) $('main').append(upgrade.html);
   }
+  applyUsNoRadiography($, path); // 2026-11-17 §78: after the editorial pass and replaceMain, so nothing rewritten later brings the RT offer back
   if (path === '/resources/calibration-certificate-template') {
     $('title').text('Calibration Certificate Template — Free Editable DOCX');
     $('meta[name="description"]').attr('content','Download a blank calibration certificate template in Word format. Guidance on instrument identity, traceability and certificate records for NDT teams.');
@@ -160,6 +162,7 @@ for (const [path, { file }] of pages) {
 }
 
 // Connect the known orphan cohort through the relevant US service hub.
+{ const st = assertUsNoRadiographyClean(); console.log(`🚫 US radiography offers removed (§78): ${st.pages} pages, ${st.sentences} sentences, ${st.notes} notes`); }
 for (const [hub, prefix] of [['/consulting-usa','/consulting/ndt-consulting-'],['/training-usa','/ndt-training-']]) {
   const names = hub.includes('consulting') ? ['huntsville','colorado-springs','raleigh','port-arthur','woods-cross','torrance','chalmette'] : ['port-arthur','sugar-land','whiting','el-segundo','honolulu','little-rock','springfield'];
   const links = names.map(n => prefix + n).filter(p => pages.has(p));

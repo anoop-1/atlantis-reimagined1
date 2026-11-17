@@ -22,7 +22,8 @@ import { join } from 'path';
 import { hoursCell, methodCourseNode } from '../src/data/course-markup-2026-10.mjs'; // 2026-10-12: one Course/hours builder for both layers
 import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian titles/metas/H1s (ASNT SNT-TC-1A), same entry as src/lib/na-training.ts
 import { nationwideHubEntries, NATIONWIDE_INTRO } from '../src/data/training-nationwide-2026-10.mjs'; // 2026-10-18: state/province hubs merged into the one Nationwide directory
-import { CTR_WAVE16_OVERRIDES } from './ctr-wave16-overrides.mjs'; // 2026-10-18: a wave-16 snippet on an NA city page is newer than the city template title
+import { CTR_WAVE16_OVERRIDES } from './ctr-wave16-overrides.mjs';
+import { naCityTitle, naCityH1, naCityDescription } from '../src/data/na-training-title-2026-11.mjs'; // 2026-11-17 §78: one title/H1 formula for both layers // 2026-10-18: a wave-16 snippet on an NA city page is newer than the city template title
 
 const ROOT = process.cwd();
 const SITE = 'https://atlantisndt.com';
@@ -57,14 +58,16 @@ export function naMeta(slug) {
   const Label = label.charAt(0).toUpperCase() + label.slice(1);
   const title = kind === 'country'
     ? `NDT Training in ${name} — Online & Onsite ASNT SNT-TC-1A Courses`
-    : `NDT Training in ${label} — Online & Onsite ASNT Courses`;
+    : naCityTitle(label);
   const ca = country === 'Canada' ? canadaPageMeta(CANADA, `/ndt-training-${slug}`) : null;
   if (ca) return { slug, name, st, country, kind, label, Label, title: ca.title, h1: ca.h1, description: ca.description };
   return {
     slug, name, st, country, kind, label, Label,
     title,
-    h1: title,
-    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`,
+    h1: kind === 'country' ? title : naCityH1(label),
+    description: kind === 'country'
+      ? `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`
+      : naCityDescription(label),
   };
 }
 

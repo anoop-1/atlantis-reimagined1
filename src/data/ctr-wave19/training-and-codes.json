@@ -1,0 +1,39 @@
+{
+ "_note": "CTR wave 19 (2026-11-17, CLAUDE.md §78). GSC 28d to 2026-11-14 pulled through the API (reports/seo-trends-2026-11-17.json).",
+ "/ndt-certification-guide": {
+  "title": "NDT Certification Guide: Levels, Requirements & Schemes",
+  "description": "NDT certification explained: ASNT SNT-TC-1A, ISO 9712 and PCN compared, Level I, II and III requirements, exam steps and which scheme employers recognize."
+ },
+ "/api-510-certification": {
+  "title": "API 510 Certification: Eligibility, Exam and Pass Rates",
+  "description": "API 510 pressure vessel inspector certification: who is eligible, the publications examined, how the exam is split and how to prepare for the test window."
+ },
+ "/api-570-certification": {
+  "title": "API 570 Certification: Eligibility, Exam and How to Prepare",
+  "description": "API 570 piping inspector certification: eligibility, the code set you are examined against, the exam format and a study plan for the next test window."
+ },
+ "/api-inspector-guide": {
+  "title": "API Inspector Certifications: 510, 570 and 653 Compared",
+  "description": "Which API inspector certification fits your work: API 510 for vessels, API 570 for piping, API 653 for tanks. Eligibility, exams and how they overlap."
+ },
+ "/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained": {
+  "title": "ASME Section V Article 7: Magnetic Particle (MT) Rules",
+  "description": "ASME Section V Article 7 explained: yoke and prod technique, field checks, particle concentration, lighting, demagnetization and what the record needs."
+ },
+ "/blog/penetrant-testing-complete-guide": {
+  "title": "Liquid Penetrant Testing (PT): ASME V Article 6 Guide",
+  "description": "Liquid penetrant testing explained: penetrant types, dwell and developer times, lighting and temperature limits under ASME V Article 6, and the report."
+ },
+ "/blog/heat-exchanger-tube-inspection-methods-procedures": {
+  "title": "Heat Exchanger Tube Inspection: ECT, IRIS, RFT and MFL",
+  "description": "Heat exchanger tube inspection compared: eddy current, IRIS, remote field and MFL by tube material, damage type and detection limit, with sample scopes."
+ },
+ "/blog/asme-section-v-article-2-radiographic-testing-rt-requirements-explained": {
+  "title": "ASME Section V Article 2: Radiographic Testing Rules",
+  "description": "ASME Section V Article 2 RT requirements explained: IQI selection and placement, density limits, geometric unsharpness, source-to-film distance, coverage."
+ },
+ "/blog/eddy-current-testing-complete-guide": {
+  "title": "Eddy Current Testing (ECT): How It Works and Its Limits",
+  "description": "Eddy current testing explained: the induction principle, probe types, frequency choice, impedance-plane reading, what ECT finds and where it falls short."
+ }
+}

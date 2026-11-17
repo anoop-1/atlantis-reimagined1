@@ -1,0 +1,87 @@
+{
+ "_note": "CTR wave 19 (2026-11-17, CLAUDE.md §78). GSC 28d to 2026-11-14 pulled through the API (reports/seo-trends-2026-11-17.json).",
+ "/inspection-services-illinois": {
+  "title": "NDT Inspection Services in Illinois | UT, MT & PT Testing",
+  "description": "NDT inspection company for Illinois refineries, terminals and mills: ultrasonic, magnetic particle and penetrant testing to API and ASME. Get a quote."
+ },
+ "/inspection-services-new-jersey": {
+  "title": "NDT & Weld Inspection Services in New Jersey | UT, MT, PT",
+  "description": "Weld and NDT inspection for New Jersey refineries, terminals and fabricators: ultrasonic, magnetic particle and penetrant testing to AWS, ASME and API."
+ },
+ "/inspection-services-new-york": {
+  "title": "NDT & Weld Inspection Services in New York | UT, MT, PT",
+  "description": "Weld and NDT inspection for New York plants, utilities and fabricators: ultrasonic, magnetic particle and penetrant testing to AWS, ASME and API codes."
+ },
+ "/inspection-services-indiana": {
+  "title": "NDT Inspection in Indiana: Magnetic Particle, UT & PT",
+  "description": "Magnetic particle, ultrasonic and penetrant inspection for Indiana steel mills, refineries and auto plants, with Level III-reviewed reports. Get a quote."
+ },
+ "/inspection-services-michigan": {
+  "title": "NDT Inspection in Michigan: Magnetic Particle, UT & PT",
+  "description": "Magnetic particle, ultrasonic and penetrant inspection for Michigan auto, steel and power plants, with ASNT Level III-reviewed reports. Request a quote."
+ },
+ "/inspection-services-alabama": {
+  "title": "NDT Inspection Services in Alabama | UT, MT & PT Testing",
+  "description": "NDT services for Alabama refineries, pipelines, shipyards and plants: ultrasonic, magnetic particle and penetrant inspection to API and ASME. Get a quote."
+ },
+ "/inspection-services-ohio": {
+  "title": "NDT Inspection Services in Ohio | UT, MT & PT Testing",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Ohio refineries, chemical plants, mills and fabricators, reviewed by a Level III. Get a quote."
+ },
+ "/inspection-services-louisiana": {
+  "title": "NDT Inspection Services in Louisiana | UT, MT, PT, Marine",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Louisiana refineries, chemical plants, shipyards and marine terminals. Request a quote."
+ },
+ "/inspection-services-oklahoma": {
+  "title": "NDT Inspection Services in Oklahoma | UT, MT & PT Testing",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Oklahoma refineries, pipelines, tank farms and oilfield equipment. Request an inspection quote."
+ },
+ "/inspection-services-california": {
+  "title": "NDT Inspection Services in California | UT, MT, PT, Marine",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for California refineries, ports, shipyards and plants, to API, ASME and AWS codes. Request a quote."
+ },
+ "/inspection-services-texas": {
+  "title": "NDT Inspection Services in Texas | UT, MT & PT Testing",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Texas refineries, chemical plants, pipelines and fabricators, with Level III-reviewed reports."
+ },
+ "/inspection-services-florida": {
+  "title": "NDT & Weld Inspection Services in Florida | UT, MT, PT",
+  "description": "Weld and NDT inspection for Florida shipyards, ports, power plants and fabricators: ultrasonic, magnetic particle and penetrant testing. Request a quote."
+ },
+ "/inspection-services-washington": {
+  "title": "NDT Inspection Services in Washington | UT, MT, PT, Marine",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Washington refineries, shipyards, ports and aerospace suppliers. Request an inspection quote."
+ },
+ "/inspection-services-pennsylvania": {
+  "title": "NDT Inspection Services in Pennsylvania | UT, MT & PT",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Pennsylvania refineries, steel mills, power plants and fabricators. Request an inspection quote."
+ },
+ "/inspection-services-massachusetts": {
+  "title": "NDT Inspection Services in Massachusetts | UT, MT & PT",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Massachusetts power plants, aerospace suppliers and fabricators. Request an inspection quote."
+ },
+ "/inspection-services-arizona": {
+  "title": "NDT Inspection Services in Arizona | UT, MT & PT Testing",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Arizona semiconductor, aerospace, power and mining sites. Request an inspection quote today."
+ },
+ "/inspection-services-houston": {
+  "title": "NDT Inspection Services in Houston | UT, MT & PT Testing",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Houston refineries, chemical plants, terminals and fabrication shops. Request a quote today."
+ },
+ "/inspection-services-phoenix": {
+  "title": "NDT Inspection Services in Phoenix | UT, MT & PT Testing",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Phoenix semiconductor fabs, aerospace suppliers and power plants. Request an inspection quote."
+ },
+ "/inspection-services-huntsville": {
+  "title": "NDT Services in Huntsville, AL | UT, MT & PT Inspection",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Huntsville aerospace, defense and manufacturing suppliers. Request an inspection quote today."
+ },
+ "/inspection-services-alaska": {
+  "title": "NDT Inspection Services in Alaska | UT, MT, PT, Marine",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Alaska oil and gas facilities, pipelines, ports and marine terminals. Request a quote today."
+ },
+ "/inspection-services-mississippi": {
+  "title": "NDT Inspection Services in Mississippi | UT, MT, PT, Marine",
+  "description": "Ultrasonic, magnetic particle and penetrant inspection for Mississippi refineries, shipyards, chemical and power plants. Request an inspection quote today."
+ }
+}

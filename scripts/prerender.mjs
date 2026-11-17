@@ -49,6 +49,7 @@ import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './
 import { CTR_WAVE12_OVERRIDES, assertWave12 } from './ctr-wave12-overrides.mjs';
 import { CTR_WAVE13_OVERRIDES, assertWave13 } from './ctr-wave13-overrides.mjs';
 import { CTR_WAVE18_OVERRIDES, assertWave18 } from './ctr-wave18-overrides.mjs'; // 2026-11-07 primary-product CTR from 90-day GSC queries (CLAUDE.md §70)
+import { CTR_WAVE19_OVERRIDES, assertWave19 } from './ctr-wave19-overrides.mjs'; // 2026-11-17 US inspection hubs + long training/code titles, from the first API pull (CLAUDE.md §78)
 import { CTR_WAVE17_OVERRIDES, assertWave17 } from './ctr-wave17-overrides.mjs'; // 2026-10-26 North American competitor keywords (CLAUDE.md §64)
 import { CTR_WAVE16_OVERRIDES, assertWave16 } from './ctr-wave16-overrides.mjs'; // 2026-10-18 competitor-teardown snippets (five workstream files)
 import { CTR_WAVE15_OVERRIDES, assertWave15 } from './ctr-wave15-overrides.mjs'; // 2026-10-17 ERP/software snippets (owner per intent)
@@ -98,7 +99,7 @@ import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionR
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
 import { applyUsConventionalRoutes, applyUsConventionalHubRoute, assertUsConventionalClean } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14 owner: 2,000+ word MT/PT/UT city pages across the US + reworded US RT pages (no RT performed in the US)
-import { applyUsIndustryRoutes, applyUsIndustryHubRoute, assertUsIndustryClean } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17 owner: US MT/PT/UT pages by industry and by job (39 rewritten, 17 new industry, 11 job)
+import { applyUsIndustryRoutes, applyUsIndustryHubRoute, applyUsIndustryStateHubRoute, assertUsIndustryClean } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17 owner: US MT/PT/UT pages by industry and by job (39 rewritten, 17 new industry, 11 job)
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
 import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
 import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
@@ -13139,6 +13140,7 @@ routes.push(apiGuideHubRoute());
   assertWave13();
   console.log(`🎯 CTR wave 17 (NA competitor keywords, 2026-10-26): ${assertWave17()} overrides`);
   console.log(`🎯 CTR wave 18 (primary products, 2026-11-07): ${assertWave18()} overrides`);
+  console.log(`🎯 CTR wave 19 (US inspection hubs + long titles, 2026-11-17): ${assertWave19()} overrides`);
   console.log(`🎯 CTR wave 16 (competitor teardown, 2026-10-18): ${assertWave16()} overrides`);
   assertWave15(); // 2026-10-17 ERP/software: geometry, no numerals, React copies in sync
   assertWave14();
@@ -14205,6 +14207,7 @@ assertTrainingConversionClean(BUILT_PATHS); // 2026-10-18: FAQ + eligibility pag
 assertGeoDepthClean(BUILT_PATHS); // 2026-10-24: depth blocks pass the content rules, link only to built pages
 assertWave17(BUILT_PATHS); // 2026-10-26: every wave 17 path is a built page
 assertWave18(BUILT_PATHS); // 2026-11-07: every wave 18 path is a built page
+assertWave19(BUILT_PATHS); // 2026-11-17: every wave 19 path is a built page
 assertNaKeywordDepthClean(BUILT_PATHS); // 2026-10-26 §64: competitor-keyword sections pass the content rules, link only to built pages
 assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
 assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, related targets built
@@ -14227,6 +14230,7 @@ assertTrafficClean(BUILT_PATHS); // 2026-10-18 traffic: FAQ-rebuild paths are bu
 const AUTHORED_GEOMETRY_WAVES = [
   CTR_WAVE7_OVERRIDES, CTR_WAVE8_OVERRIDES, CTR_WAVE9_OVERRIDES, CTR_WAVE10_OVERRIDES,
   CTR_WAVE11_OVERRIDES, CTR_WAVE12_OVERRIDES, CTR_WAVE13_OVERRIDES,
+  CTR_WAVE19_OVERRIDES,
   CTR_WAVE18_OVERRIDES,
   CTR_WAVE17_OVERRIDES,
   CTR_WAVE16_OVERRIDES,
@@ -14300,7 +14304,7 @@ routes.forEach(route => {
     // Wave 15 (2026-10-17, ERP/software paths only) outranks wave 14 (2026-10-17, non-software ranking release); see ctr-wave15/14-overrides.mjs.
     // Wave 17 (2026-10-26, NA competitor keywords) is the newest layer; see ctr-wave17-overrides.mjs.
     // Wave 18 (2026-11-07, primary products from 90-day GSC queries) is the newest layer; see ctr-wave18-overrides.mjs.
-    const w11 = CTR_WAVE18_OVERRIDES[route.path] || CTR_WAVE17_OVERRIDES[route.path] || CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
+    const w11 = CTR_WAVE19_OVERRIDES[route.path] || CTR_WAVE18_OVERRIDES[route.path] || CTR_WAVE17_OVERRIDES[route.path] || CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
     const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];
@@ -14474,6 +14478,7 @@ routes.forEach(route => {
     }
     route = applyUsConventionalHubRoute(route); // 2026-11-14: MT/PT/UT city directory on state hubs + UT/MT service pages; US radiography note on /radiographic-testing
     route = applyUsIndustryHubRoute(route); // 2026-11-17: UT/MT by industry and job on /ultrasonic-testing and /magnetic-particle-testing
+    route = applyUsIndustryStateHubRoute(route); // 2026-11-17 §78: MT/PT/UT by industry and job on the US state/city inspection hubs
     route = applyNaKeywordDepth(route); // 2026-10-26 §64: last body writer for its owner pages (H1 synonym + competitor-keyword section, idempotent)
     writeRoute(route.path, route, baseTemplate);
     generated++;

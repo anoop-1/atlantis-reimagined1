@@ -1,0 +1,4715 @@
+{
+ "meta": {
+  "pulled": "2026-11-17",
+  "windows": {
+   "A": [
+    "2026-10-18",
+    "2026-11-14"
+   ],
+   "B": [
+    "2026-09-20",
+    "2026-10-17"
+   ],
+   "long": [
+    "2026-07-18",
+    "2026-11-14"
+   ]
+  }
+ },
+ "gsc_site": {
+  "A": {
+   "clicks": 5241,
+   "impressions": 329941,
+   "ctr": 1.59,
+   "position": 13.1
+  },
+  "B": {
+   "clicks": 3244,
+   "impressions": 197845,
+   "ctr": 1.64,
+   "position": 11.3
+  }
+ },
+ "gsc_usa": {
+  "A": {
+   "clicks": 1327,
+   "impressions": 112704,
+   "ctr": 1.18,
+   "position": 17.8
+  },
+  "B": {
+   "clicks": 805,
+   "impressions": 64413,
+   "ctr": 1.25,
+   "position": 15.2
+  }
+ },
+ "gsc_weekly": [
+  {
+   "week": "2026-07-13",
+   "clicks": 95,
+   "impressions": 6563,
+   "ctr": 1.45,
+   "position": 10.8,
+   "usa": {
+    "clicks": 11,
+    "impressions": 1710,
+    "ctr": 0.64,
+    "position": 15.7
+   }
+  },
+  {
+   "week": "2026-07-20",
+   "clicks": 577,
+   "impressions": 39288,
+   "ctr": 1.47,
+   "position": 12.6,
+   "usa": {
+    "clicks": 99,
+    "impressions": 11266,
+    "ctr": 0.88,
+    "position": 17.4
+   }
+  },
+  {
+   "week": "2026-07-27",
+   "clicks": 582,
+   "impressions": 37805,
+   "ctr": 1.54,
+   "position": 14.9,
+   "usa": {
+    "clicks": 107,
+    "impressions": 12049,
+    "ctr": 0.89,
+    "position": 19.8
+   }
+  },
+  {
+   "week": "2026-08-03",
+   "clicks": 581,
+   "impressions": 36288,
+   "ctr": 1.6,
+   "position": 12.5,
+   "usa": {
+    "clicks": 113,
+    "impressions": 12221,
+    "ctr": 0.92,
+    "position": 16.8
+   }
+  },
+  {
+   "week": "2026-08-10",
+   "clicks": 515,
+   "impressions": 35542,
+   "ctr": 1.45,
+   "position": 12.3,
+   "usa": {
+    "clicks": 103,
+    "impressions": 13332,
+    "ctr": 0.77,
+    "position": 15.0
+   }
+  },
+  {
+   "week": "2026-08-17",
+   "clicks": 614,
+   "impressions": 37501,
+   "ctr": 1.64,
+   "position": 13.2,
+   "usa": {
+    "clicks": 141,
+    "impressions": 12799,
+    "ctr": 1.1,
+    "position": 15.9
+   }
+  },
+  {
+   "week": "2026-08-24",
+   "clicks": 681,
+   "impressions": 40408,
+   "ctr": 1.69,
+   "position": 13.7,
+   "usa": {
+    "clicks": 175,
+    "impressions": 14213,
+    "ctr": 1.23,
+    "position": 16.2
+   }
+  },
+  {
+   "week": "2026-08-31",
+   "clicks": 744,
+   "impressions": 44484,
+   "ctr": 1.67,
+   "position": 12.1,
+   "usa": {
+    "clicks": 168,
+    "impressions": 15962,
+    "ctr": 1.05,
+    "position": 16.0
+   }
+  },
+  {
+   "week": "2026-09-07",
+   "clicks": 751,
+   "impressions": 43388,
+   "ctr": 1.73,
+   "position": 11.8,
+   "usa": {
+    "clicks": 163,
+    "impressions": 14930,
+    "ctr": 1.09,
+    "position": 14.6
+   }
+  },
+  {
+   "week": "2026-09-14",
+   "clicks": 805,
+   "impressions": 43772,
+   "ctr": 1.84,
+   "position": 10.7,
+   "usa": {
+    "clicks": 160,
+    "impressions": 15196,
+    "ctr": 1.05,
+    "position": 13.9
+   }
+  },
+  {
+   "week": "2026-09-21",
+   "clicks": 684,
+   "impressions": 41359,
+   "ctr": 1.65,
+   "position": 9.9,
+   "usa": {
+    "clicks": 171,
+    "impressions": 13085,
+    "ctr": 1.31,
+    "position": 12.2
+   }
+  },
+  {
+   "week": "2026-09-28",
+   "clicks": 746,
+   "impressions": 45382,
+   "ctr": 1.64,
+   "position": 11.7,
+   "usa": {
+    "clicks": 191,
+    "impressions": 15255,
+    "ctr": 1.25,
+    "position": 15.3
+   }
+  },
+  {
+   "week": "2026-10-05",
+   "clicks": 779,
+   "impressions": 48623,
+   "ctr": 1.6,
+   "position": 12.4,
+   "usa": {
+    "clicks": 192,
+    "impressions": 16017,
+    "ctr": 1.2,
+    "position": 17.8
+   }
+  },
+  {
+   "week": "2026-10-12",
+   "clicks": 1055,
+   "impressions": 66272,
+   "ctr": 1.59,
+   "position": 11.6,
+   "usa": {
+    "clicks": 259,
+    "impressions": 21271,
+    "ctr": 1.22,
+    "position": 15.8
+   }
+  },
+  {
+   "week": "2026-10-19",
+   "clicks": 1248,
+   "impressions": 77856,
+   "ctr": 1.6,
+   "position": 12.2,
+   "usa": {
+    "clicks": 289,
+    "impressions": 25959,
+    "ctr": 1.11,
+    "position": 15.7
+   }
+  },
+  {
+   "week": "2026-10-26",
+   "clicks": 1330,
+   "impressions": 81118,
+   "ctr": 1.64,
+   "position": 12.6,
+   "usa": {
+    "clicks": 364,
+    "impressions": 27531,
+    "ctr": 1.32,
+    "position": 17.0
+   }
+  },
+  {
+   "week": "2026-11-02",
+   "clicks": 1332,
+   "impressions": 81892,
+   "ctr": 1.63,
+   "position": 13.5,
+   "usa": {
+    "clicks": 342,
+    "impressions": 28562,
+    "ctr": 1.2,
+    "position": 19.0
+   }
+  },
+  {
+   "week": "2026-11-09",
+   "clicks": 1215,
+   "impressions": 81015,
+   "ctr": 1.5,
+   "position": 13.8,
+   "usa": {
+    "clicks": 312,
+    "impressions": 28265,
+    "ctr": 1.1,
+    "position": 18.8
+   }
+  }
+ ],
+ "gsc_countries": [
+  {
+   "country": "usa",
+   "A_clicks": 1327,
+   "A_impr": 112704,
+   "A_pos": 17.8,
+   "B_clicks": 805,
+   "B_impr": 64413
+  },
+  {
+   "country": "ind",
+   "A_clicks": 564,
+   "A_impr": 28736,
+   "A_pos": 9.3,
+   "B_clicks": 415,
+   "B_impr": 21157
+  },
+  {
+   "country": "can",
+   "A_clicks": 305,
+   "A_impr": 17091,
+   "A_pos": 10.0,
+   "B_clicks": 156,
+   "B_impr": 9307
+  },
+  {
+   "country": "sau",
+   "A_clicks": 200,
+   "A_impr": 10249,
+   "A_pos": 7.4,
+   "B_clicks": 140,
+   "B_impr": 6621
+  },
+  {
+   "country": "idn",
+   "A_clicks": 181,
+   "A_impr": 8005,
+   "A_pos": 7.2,
+   "B_clicks": 105,
+   "B_impr": 4770
+  },
+  {
+   "country": "gbr",
+   "A_clicks": 161,
+   "A_impr": 15281,
+   "A_pos": 21.9,
+   "B_clicks": 80,
+   "B_impr": 7931
+  },
+  {
+   "country": "are",
+   "A_clicks": 150,
+   "A_impr": 10865,
+   "A_pos": 11.7,
+   "B_clicks": 105,
+   "B_impr": 7248
+  },
+  {
+   "country": "mys",
+   "A_clicks": 126,
+   "A_impr": 6968,
+   "A_pos": 7.2,
+   "B_clicks": 90,
+   "B_impr": 4638
+  },
+  {
+   "country": "aus",
+   "A_clicks": 107,
+   "A_impr": 6475,
+   "A_pos": 17.9,
+   "B_clicks": 70,
+   "B_impr": 3808
+  },
+  {
+   "country": "irn",
+   "A_clicks": 101,
+   "A_impr": 1739,
+   "A_pos": 9.1,
+   "B_clicks": 55,
+   "B_impr": 930
+  },
+  {
+   "country": "ita",
+   "A_clicks": 84,
+   "A_impr": 3842,
+   "A_pos": 6.0,
+   "B_clicks": 41,
+   "B_impr": 2050
+  },
+  {
+   "country": "zaf",
+   "A_clicks": 83,
+   "A_impr": 3624,
+   "A_pos": 8.5,
+   "B_clicks": 42,
+   "B_impr": 2304
+  },
+  {
+   "country": "nga",
+   "A_clicks": 81,
+   "A_impr": 3100,
+   "A_pos": 6.2,
+   "B_clicks": 54,
+   "B_impr": 2023
+  },
+  {
+   "country": "tha",
+   "A_clicks": 81,
+   "A_impr": 3756,
+   "A_pos": 10.5,
+   "B_clicks": 56,
+   "B_impr": 2204
+  },
+  {
+   "country": "phl",
+   "A_clicks": 72,
+   "A_impr": 4299,
+   "A_pos": 9.8,
+   "B_clicks": 50,
+   "B_impr": 3053
+  },
+  {
+   "country": "kor",
+   "A_clicks": 69,
+   "A_impr": 2872,
+   "A_pos": 8.8,
+   "B_clicks": 52,
+   "B_impr": 1804
+  },
+  {
+   "country": "sgp",
+   "A_clicks": 65,
+   "A_impr": 5255,
+   "A_pos": 15.2,
+   "B_clicks": 45,
+   "B_impr": 3691
+  },
+  {
+   "country": "vnm",
+   "A_clicks": 65,
+   "A_impr": 1985,
+   "A_pos": 6.9,
+   "B_clicks": 20,
+   "B_impr": 1326
+  },
+  {
+   "country": "qat",
+   "A_clicks": 64,
+   "A_impr": 3136,
+   "A_pos": 6.7,
+   "B_clicks": 39,
+   "B_impr": 2199
+  },
+  {
+   "country": "bra",
+   "A_clicks": 62,
+   "A_impr": 5151,
+   "A_pos": 14.6,
+   "B_clicks": 36,
+   "B_impr": 2986
+  }
+ ],
+ "families_all": {
+  "A": {
+   "blog": {
+    "pages_with_impr": 884,
+    "clicks": 2492,
+    "impressions": 188935,
+    "position": 10.7
+   },
+   "other": {
+    "pages_with_impr": 299,
+    "clicks": 598,
+    "impressions": 27617,
+    "position": 13.9
+   },
+   "reference": {
+    "pages_with_impr": 639,
+    "clicks": 584,
+    "impressions": 53407,
+    "position": 17.4
+   },
+   "training-geo": {
+    "pages_with_impr": 384,
+    "clicks": 529,
+    "impressions": 24028,
+    "position": 30.1
+   },
+   "training": {
+    "pages_with_impr": 224,
+    "clicks": 280,
+    "impressions": 17730,
+    "position": 13.3
+   },
+   "practical-tools": {
+    "pages_with_impr": 301,
+    "clicks": 234,
+    "impressions": 6532,
+    "position": 11.9
+   },
+   "inspection": {
+    "pages_with_impr": 459,
+    "clicks": 230,
+    "impressions": 21374,
+    "position": 22.0
+   },
+   "erp-software": {
+    "pages_with_impr": 840,
+    "clicks": 87,
+    "impressions": 12908,
+    "position": 21.9
+   },
+   "consulting": {
+    "pages_with_impr": 424,
+    "clicks": 82,
+    "impressions": 7024,
+    "position": 35.4
+   },
+   "dt-3d": {
+    "pages_with_impr": 286,
+    "clicks": 79,
+    "impressions": 7506,
+    "position": 30.9
+   },
+   "method-city-other": {
+    "pages_with_impr": 224,
+    "clicks": 53,
+    "impressions": 3020,
+    "position": 22.3
+   },
+   "inspection-hub": {
+    "pages_with_impr": 25,
+    "clicks": 32,
+    "impressions": 4461,
+    "position": 37.6
+   },
+   "maritime": {
+    "pages_with_impr": 270,
+    "clicks": 15,
+    "impressions": 1081,
+    "position": 16.0
+   },
+   "us-method-city": {
+    "pages_with_impr": 37,
+    "clicks": 12,
+    "impressions": 529,
+    "position": 36.5
+   },
+   "us-rt-city": {
+    "pages_with_impr": 36,
+    "clicks": 7,
+    "impressions": 236,
+    "position": 22.4
+   },
+   "us-industry-job": {
+    "pages_with_impr": 26,
+    "clicks": 3,
+    "impressions": 539,
+    "position": 47.4
+   }
+  },
+  "B": {
+   "blog": {
+    "pages_with_impr": 933,
+    "clicks": 1680,
+    "impressions": 124864,
+    "position": 9.5
+   },
+   "training-geo": {
+    "pages_with_impr": 343,
+    "clicks": 393,
+    "impressions": 11715,
+    "position": 20.2
+   },
+   "reference": {
+    "pages_with_impr": 601,
+    "clicks": 344,
+    "impressions": 28969,
+    "position": 13.1
+   },
+   "other": {
+    "pages_with_impr": 235,
+    "clicks": 307,
+    "impressions": 13408,
+    "position": 15.7
+   },
+   "training": {
+    "pages_with_impr": 183,
+    "clicks": 198,
+    "impressions": 9620,
+    "position": 13.0
+   },
+   "inspection": {
+    "pages_with_impr": 347,
+    "clicks": 95,
+    "impressions": 6761,
+    "position": 23.0
+   },
+   "dt-3d": {
+    "pages_with_impr": 286,
+    "clicks": 74,
+    "impressions": 4244,
+    "position": 25.0
+   },
+   "erp-software": {
+    "pages_with_impr": 871,
+    "clicks": 54,
+    "impressions": 8173,
+    "position": 17.9
+   },
+   "method-city-other": {
+    "pages_with_impr": 213,
+    "clicks": 42,
+    "impressions": 1761,
+    "position": 20.7
+   },
+   "practical-tools": {
+    "pages_with_impr": 177,
+    "clicks": 40,
+    "impressions": 1212,
+    "position": 13.2
+   },
+   "consulting": {
+    "pages_with_impr": 239,
+    "clicks": 31,
+    "impressions": 2734,
+    "position": 22.8
+   },
+   "us-method-city": {
+    "pages_with_impr": 35,
+    "clicks": 7,
+    "impressions": 478,
+    "position": 23.0
+   },
+   "us-rt-city": {
+    "pages_with_impr": 31,
+    "clicks": 7,
+    "impressions": 171,
+    "position": 19.5
+   },
+   "inspection-hub": {
+    "pages_with_impr": 13,
+    "clicks": 1,
+    "impressions": 202,
+    "position": 44.0
+   },
+   "maritime": {
+    "pages_with_impr": 6,
+    "clicks": 1,
+    "impressions": 68,
+    "position": 13.9
+   },
+   "us-industry-job": {
+    "pages_with_impr": 21,
+    "clicks": 0,
+    "impressions": 200,
+    "position": 57.8
+   }
+  }
+ },
+ "families_usa_shape": {
+  "A": {
+   "training-geo": {
+    "pages_with_impr": 174,
+    "clicks": 45,
+    "impressions": 9873,
+    "position": 60.6
+   },
+   "blog": {
+    "pages_with_impr": 472,
+    "clicks": 34,
+    "impressions": 24437,
+    "position": 26.5
+   },
+   "other": {
+    "pages_with_impr": 157,
+    "clicks": 32,
+    "impressions": 3522,
+    "position": 40.0
+   },
+   "reference": {
+    "pages_with_impr": 252,
+    "clicks": 16,
+    "impressions": 7075,
+    "position": 47.0
+   },
+   "inspection": {
+    "pages_with_impr": 198,
+    "clicks": 8,
+    "impressions": 5624,
+    "position": 41.6
+   },
+   "erp-software": {
+    "pages_with_impr": 137,
+    "clicks": 7,
+    "impressions": 3305,
+    "position": 37.1
+   },
+   "practical-tools": {
+    "pages_with_impr": 118,
+    "clicks": 5,
+    "impressions": 516,
+    "position": 32.4
+   },
+   "training": {
+    "pages_with_impr": 90,
+    "clicks": 4,
+    "impressions": 2490,
+    "position": 35.1
+   },
+   "consulting": {
+    "pages_with_impr": 161,
+    "clicks": 1,
+    "impressions": 2803,
+    "position": 63.4
+   },
+   "inspection-hub": {
+    "pages_with_impr": 24,
+    "clicks": 1,
+    "impressions": 2850,
+    "position": 50.3
+   },
+   "dt-3d": {
+    "pages_with_impr": 90,
+    "clicks": 0,
+    "impressions": 2257,
+    "position": 39.7
+   },
+   "method-city-other": {
+    "pages_with_impr": 26,
+    "clicks": 0,
+    "impressions": 125,
+    "position": 55.4
+   },
+   "us-rt-city": {
+    "pages_with_impr": 12,
+    "clicks": 0,
+    "impressions": 77,
+    "position": 51.8
+   },
+   "us-industry-job": {
+    "pages_with_impr": 13,
+    "clicks": 0,
+    "impressions": 114,
+    "position": 63.5
+   },
+   "us-method-city": {
+    "pages_with_impr": 18,
+    "clicks": 0,
+    "impressions": 314,
+    "position": 55.3
+   },
+   "maritime": {
+    "pages_with_impr": 33,
+    "clicks": 0,
+    "impressions": 85,
+    "position": 42.2
+   }
+  },
+  "B": {
+   "blog": {
+    "pages_with_impr": 461,
+    "clicks": 28,
+    "impressions": 13150,
+    "position": 23.7
+   },
+   "training-geo": {
+    "pages_with_impr": 155,
+    "clicks": 25,
+    "impressions": 3109,
+    "position": 52.4
+   },
+   "other": {
+    "pages_with_impr": 124,
+    "clicks": 16,
+    "impressions": 2178,
+    "position": 40.0
+   },
+   "training": {
+    "pages_with_impr": 72,
+    "clicks": 6,
+    "impressions": 1186,
+    "position": 35.3
+   },
+   "reference": {
+    "pages_with_impr": 145,
+    "clicks": 3,
+    "impressions": 2962,
+    "position": 40.4
+   },
+   "inspection": {
+    "pages_with_impr": 141,
+    "clicks": 3,
+    "impressions": 1407,
+    "position": 41.3
+   },
+   "dt-3d": {
+    "pages_with_impr": 75,
+    "clicks": 0,
+    "impressions": 818,
+    "position": 33.0
+   },
+   "erp-software": {
+    "pages_with_impr": 192,
+    "clicks": 0,
+    "impressions": 1539,
+    "position": 32.2
+   },
+   "consulting": {
+    "pages_with_impr": 83,
+    "clicks": 0,
+    "impressions": 636,
+    "position": 48.6
+   },
+   "us-rt-city": {
+    "pages_with_impr": 10,
+    "clicks": 0,
+    "impressions": 35,
+    "position": 45.3
+   },
+   "method-city-other": {
+    "pages_with_impr": 33,
+    "clicks": 0,
+    "impressions": 148,
+    "position": 54.3
+   },
+   "inspection-hub": {
+    "pages_with_impr": 9,
+    "clicks": 0,
+    "impressions": 140,
+    "position": 56.3
+   },
+   "us-method-city": {
+    "pages_with_impr": 19,
+    "clicks": 0,
+    "impressions": 287,
+    "position": 30.7
+   },
+   "us-industry-job": {
+    "pages_with_impr": 10,
+    "clicks": 0,
+    "impressions": 104,
+    "position": 56.2
+   },
+   "maritime": {
+    "pages_with_impr": 1,
+    "clicks": 0,
+    "impressions": 2,
+    "position": 54.0
+   },
+   "practical-tools": {
+    "pages_with_impr": 25,
+    "clicks": 0,
+    "impressions": 71,
+    "position": 28.4
+   }
+  }
+ },
+ "page_movers": {
+  "up": [
+   {
+    "page": "/blog/asme-b31-1-power-piping-code-explained",
+    "family": "blog",
+    "d_clicks": 85,
+    "A": {
+     "c": 106,
+     "i": 5579,
+     "pos": 7.5
+    },
+    "B": {
+     "c": 21,
+     "i": 1222,
+     "pos": 8.4
+    }
+   },
+   {
+    "page": "/tools/ultrasonic-a-scan-simulator",
+    "family": "practical-tools",
+    "d_clicks": 79,
+    "A": {
+     "c": 88,
+     "i": 366,
+     "pos": 5.2
+    },
+    "B": {
+     "c": 9,
+     "i": 58,
+     "pos": 8.2
+    }
+   },
+   {
+    "page": "/blog/asme-section-v-article-2-radiographic-testing-rt-requirements-explained",
+    "family": "blog",
+    "d_clicks": 56,
+    "A": {
+     "c": 65,
+     "i": 2760,
+     "pos": 4.1
+    },
+    "B": {
+     "c": 9,
+     "i": 386,
+     "pos": 4.6
+    }
+   },
+   {
+    "page": "/resources/calibration-certificate-template",
+    "family": "other",
+    "d_clicks": 44,
+    "A": {
+     "c": 90,
+     "i": 1280,
+     "pos": 7.3
+    },
+    "B": {
+     "c": 46,
+     "i": 842,
+     "pos": 7.8
+    }
+   },
+   {
+    "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+    "family": "blog",
+    "d_clicks": 42,
+    "A": {
+     "c": 79,
+     "i": 4289,
+     "pos": 5.2
+    },
+    "B": {
+     "c": 37,
+     "i": 1740,
+     "pos": 6.2
+    }
+   },
+   {
+    "page": "/standards/asme-section-v-article-9",
+    "family": "reference",
+    "d_clicks": 39,
+    "A": {
+     "c": 45,
+     "i": 868,
+     "pos": 3.0
+    },
+    "B": {
+     "c": 6,
+     "i": 92,
+     "pos": 4.6
+    }
+   },
+   {
+    "page": "/ndt-report-templates/vt-visual-inspection-report",
+    "family": "other",
+    "d_clicks": 36,
+    "A": {
+     "c": 58,
+     "i": 995,
+     "pos": 7.5
+    },
+    "B": {
+     "c": 22,
+     "i": 293,
+     "pos": 4.9
+    }
+   },
+   {
+    "page": "/blog/pcn-level-2-exam-guide",
+    "family": "blog",
+    "d_clicks": 34,
+    "A": {
+     "c": 38,
+     "i": 1327,
+     "pos": 6.3
+    },
+    "B": {
+     "c": 4,
+     "i": 264,
+     "pos": 6.3
+    }
+   },
+   {
+    "page": "/",
+    "family": "other",
+    "d_clicks": 34,
+    "A": {
+     "c": 90,
+     "i": 1174,
+     "pos": 6.2
+    },
+    "B": {
+     "c": 56,
+     "i": 349,
+     "pos": 8.3
+    }
+   },
+   {
+    "page": "/blog/asme-b31-3-process-piping-code-explained",
+    "family": "blog",
+    "d_clicks": 34,
+    "A": {
+     "c": 109,
+     "i": 7972,
+     "pos": 7.6
+    },
+    "B": {
+     "c": 75,
+     "i": 5029,
+     "pos": 7.0
+    }
+   },
+   {
+    "page": "/blog/asme-b31-8-gas-pipeline-code-2026-decoded",
+    "family": "blog",
+    "d_clicks": 33,
+    "A": {
+     "c": 39,
+     "i": 2410,
+     "pos": 8.0
+    },
+    "B": {
+     "c": 6,
+     "i": 226,
+     "pos": 11.1
+    }
+   },
+   {
+    "page": "/blog/asme-section-v-article-2-radiography-requirements",
+    "family": "blog",
+    "d_clicks": 32,
+    "A": {
+     "c": 52,
+     "i": 1149,
+     "pos": 3.1
+    },
+    "B": {
+     "c": 20,
+     "i": 385,
+     "pos": 4.2
+    }
+   },
+   {
+    "page": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+    "family": "blog",
+    "d_clicks": 29,
+    "A": {
+     "c": 66,
+     "i": 4215,
+     "pos": 5.9
+    },
+    "B": {
+     "c": 37,
+     "i": 3253,
+     "pos": 5.9
+    }
+   },
+   {
+    "page": "/blog/mt-level-2-practice-questions-2026-free-mock-exam",
+    "family": "blog",
+    "d_clicks": 29,
+    "A": {
+     "c": 33,
+     "i": 562,
+     "pos": 6.0
+    },
+    "B": {
+     "c": 4,
+     "i": 45,
+     "pos": 5.8
+    }
+   },
+   {
+    "page": "/blog/rt-level-2-practice-questions-2026-free-mock-exam",
+    "family": "blog",
+    "d_clicks": 27,
+    "A": {
+     "c": 35,
+     "i": 591,
+     "pos": 6.7
+    },
+    "B": {
+     "c": 8,
+     "i": 66,
+     "pos": 5.4
+    }
+   },
+   {
+    "page": "/tools/ut-angle-beam-calculator",
+    "family": "practical-tools",
+    "d_clicks": 25,
+    "A": {
+     "c": 31,
+     "i": 810,
+     "pos": 6.1
+    },
+    "B": {
+     "c": 6,
+     "i": 117,
+     "pos": 6.4
+    }
+   },
+   {
+    "page": "/standards/asme-section-xi",
+    "family": "reference",
+    "d_clicks": 23,
+    "A": {
+     "c": 24,
+     "i": 834,
+     "pos": 5.5
+    },
+    "B": {
+     "c": 1,
+     "i": 139,
+     "pos": 6.8
+    }
+   },
+   {
+    "page": "/blog/api-570-piping-inspection-code-requirements",
+    "family": "blog",
+    "d_clicks": 23,
+    "A": {
+     "c": 25,
+     "i": 2264,
+     "pos": 7.1
+    },
+    "B": {
+     "c": 2,
+     "i": 437,
+     "pos": 6.9
+    }
+   },
+   {
+    "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+    "family": "blog",
+    "d_clicks": 22,
+    "A": {
+     "c": 27,
+     "i": 2260,
+     "pos": 10.5
+    },
+    "B": {
+     "c": 5,
+     "i": 723,
+     "pos": 14.4
+    }
+   },
+   {
+    "page": "/blog/aws-d1-1-ut-acceptance-criteria-explained",
+    "family": "blog",
+    "d_clicks": 21,
+    "A": {
+     "c": 26,
+     "i": 1548,
+     "pos": 5.6
+    },
+    "B": {
+     "c": 5,
+     "i": 242,
+     "pos": 6.0
+    }
+   },
+   {
+    "page": "/standards/asme-pt-mt-acceptance-criteria",
+    "family": "reference",
+    "d_clicks": 21,
+    "A": {
+     "c": 24,
+     "i": 1763,
+     "pos": 4.6
+    },
+    "B": {
+     "c": 3,
+     "i": 213,
+     "pos": 5.1
+    }
+   },
+   {
+    "page": "/blog/api-1104-weld-acceptance-criteria-pipeline",
+    "family": "blog",
+    "d_clicks": 20,
+    "A": {
+     "c": 22,
+     "i": 2204,
+     "pos": 5.4
+    },
+    "B": {
+     "c": 2,
+     "i": 521,
+     "pos": 7.1
+    }
+   },
+   {
+    "page": "/blog/asnt-level-3-basic-exam-prep",
+    "family": "blog",
+    "d_clicks": 20,
+    "A": {
+     "c": 21,
+     "i": 751,
+     "pos": 10.2
+    },
+    "B": {
+     "c": 1,
+     "i": 45,
+     "pos": 6.9
+    }
+   },
+   {
+    "page": "/blog/paut-technician-salary-2026-region-cert-industry",
+    "family": "blog",
+    "d_clicks": 18,
+    "A": {
+     "c": 18,
+     "i": 1089,
+     "pos": 5.2
+    },
+    "B": {
+     "c": 0,
+     "i": 79,
+     "pos": 5.5
+    }
+   },
+   {
+    "page": "/blog/pipe-wall-thickness-inspection-ut-procedures",
+    "family": "blog",
+    "d_clicks": 18,
+    "A": {
+     "c": 26,
+     "i": 1244,
+     "pos": 9.4
+    },
+    "B": {
+     "c": 8,
+     "i": 1610,
+     "pos": 8.7
+    }
+   }
+  ],
+  "down": [
+   {
+    "page": "/blog/ndt-salary-guide-2026-global",
+    "family": "blog",
+    "d_clicks": -111,
+    "A": {
+     "c": 34,
+     "i": 4277,
+     "pos": 6.3
+    },
+    "B": {
+     "c": 145,
+     "i": 13546,
+     "pos": 5.0
+    }
+   },
+   {
+    "page": "/blog/nas-410-aerospace-ndt-certification-explained",
+    "family": "blog",
+    "d_clicks": -17,
+    "A": {
+     "c": 31,
+     "i": 1412,
+     "pos": 6.0
+    },
+    "B": {
+     "c": 48,
+     "i": 2510,
+     "pos": 5.1
+    }
+   },
+   {
+    "page": "/resources/asnt-level-iii-study-guide",
+    "family": "training",
+    "d_clicks": -16,
+    "A": {
+     "c": 59,
+     "i": 974,
+     "pos": 10.8
+    },
+    "B": {
+     "c": 75,
+     "i": 1052,
+     "pos": 8.0
+    }
+   },
+   {
+    "page": "/blog/vt-level-2-practice-questions-2026-free-mock-exam",
+    "family": "blog",
+    "d_clicks": -15,
+    "A": {
+     "c": 25,
+     "i": 512,
+     "pos": 6.0
+    },
+    "B": {
+     "c": 40,
+     "i": 566,
+     "pos": 6.3
+    }
+   },
+   {
+    "page": "/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained",
+    "family": "blog",
+    "d_clicks": -15,
+    "A": {
+     "c": 48,
+     "i": 1775,
+     "pos": 3.6
+    },
+    "B": {
+     "c": 63,
+     "i": 1887,
+     "pos": 3.9
+    }
+   },
+   {
+    "page": "/standards/asme-section-v-article-6",
+    "family": "reference",
+    "d_clicks": -14,
+    "A": {
+     "c": 41,
+     "i": 1515,
+     "pos": 3.9
+    },
+    "B": {
+     "c": 55,
+     "i": 1788,
+     "pos": 3.8
+    }
+   },
+   {
+    "page": "/ndt-training-denver",
+    "family": "training-geo",
+    "d_clicks": -12,
+    "A": {
+     "c": 0,
+     "i": 636,
+     "pos": 46.3
+    },
+    "B": {
+     "c": 12,
+     "i": 246,
+     "pos": 34.4
+    }
+   },
+   {
+    "page": "/blog/visual-testing",
+    "family": "blog",
+    "d_clicks": -11,
+    "A": {
+     "c": 4,
+     "i": 377,
+     "pos": 12.4
+    },
+    "B": {
+     "c": 15,
+     "i": 1580,
+     "pos": 6.9
+    }
+   },
+   {
+    "page": "/ndt-training-jubail",
+    "family": "training-geo",
+    "d_clicks": -10,
+    "A": {
+     "c": 15,
+     "i": 486,
+     "pos": 6.2
+    },
+    "B": {
+     "c": 25,
+     "i": 476,
+     "pos": 6.6
+    }
+   },
+   {
+    "page": "/blog/tofd-level-2-practice-questions-2026-free-mock-exam",
+    "family": "blog",
+    "d_clicks": -9,
+    "A": {
+     "c": 1,
+     "i": 15,
+     "pos": 5.5
+    },
+    "B": {
+     "c": 10,
+     "i": 60,
+     "pos": 5.7
+    }
+   },
+   {
+    "page": "/ndt-training-dubai",
+    "family": "training-geo",
+    "d_clicks": -9,
+    "A": {
+     "c": 4,
+     "i": 495,
+     "pos": 9.0
+    },
+    "B": {
+     "c": 13,
+     "i": 349,
+     "pos": 7.1
+    }
+   },
+   {
+    "page": "/blog/api-570-inspector-salary-2026-by-region-experience",
+    "family": "blog",
+    "d_clicks": -8,
+    "A": {
+     "c": 6,
+     "i": 688,
+     "pos": 7.6
+    },
+    "B": {
+     "c": 14,
+     "i": 886,
+     "pos": 5.6
+    }
+   },
+   {
+    "page": "/blog/ndt-technician-vs-welding-inspector",
+    "family": "blog",
+    "d_clicks": -8,
+    "A": {
+     "c": 0,
+     "i": 284,
+     "pos": 6.2
+    },
+    "B": {
+     "c": 8,
+     "i": 180,
+     "pos": 5.8
+    }
+   },
+   {
+    "page": "/asnt-certification",
+    "family": "training",
+    "d_clicks": -7,
+    "A": {
+     "c": 9,
+     "i": 1512,
+     "pos": 17.1
+    },
+    "B": {
+     "c": 16,
+     "i": 1882,
+     "pos": 10.1
+    }
+   },
+   {
+    "page": "/blog/lloyds-register-classification-standards",
+    "family": "blog",
+    "d_clicks": -6,
+    "A": {
+     "c": 3,
+     "i": 386,
+     "pos": 10.3
+    },
+    "B": {
+     "c": 9,
+     "i": 392,
+     "pos": 7.4
+    }
+   },
+   {
+    "page": "/ndt-training-manila",
+    "family": "training-geo",
+    "d_clicks": -6,
+    "A": {
+     "c": 17,
+     "i": 487,
+     "pos": 6.5
+    },
+    "B": {
+     "c": 23,
+     "i": 522,
+     "pos": 6.5
+    }
+   },
+   {
+    "page": "/inspection/third-party-inspection-idaho-falls",
+    "family": "inspection",
+    "d_clicks": -6,
+    "A": {
+     "c": 0,
+     "i": 23,
+     "pos": 9.2
+    },
+    "B": {
+     "c": 6,
+     "i": 25,
+     "pos": 17.2
+    }
+   },
+   {
+    "page": "/standards/asme-section-viii-div-1",
+    "family": "reference",
+    "d_clicks": -5,
+    "A": {
+     "c": 8,
+     "i": 1129,
+     "pos": 7.0
+    },
+    "B": {
+     "c": 13,
+     "i": 1306,
+     "pos": 5.4
+    }
+   },
+   {
+    "page": "/ndt-training-marseille",
+    "family": "training-geo",
+    "d_clicks": -5,
+    "A": {
+     "c": 0,
+     "i": 52,
+     "pos": 6.9
+    },
+    "B": {
+     "c": 5,
+     "i": 68,
+     "pos": 6.6
+    }
+   },
+   {
+    "page": "/glossary/api-579",
+    "family": "reference",
+    "d_clicks": -5,
+    "A": {
+     "c": 0,
+     "i": 488,
+     "pos": 22.8
+    },
+    "B": {
+     "c": 5,
+     "i": 473,
+     "pos": 17.1
+    }
+   },
+   {
+    "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+    "family": "blog",
+    "d_clicks": -5,
+    "A": {
+     "c": 12,
+     "i": 1137,
+     "pos": 5.9
+    },
+    "B": {
+     "c": 17,
+     "i": 1028,
+     "pos": 8.7
+    }
+   },
+   {
+    "page": "/ndt-training-newcastle",
+    "family": "training-geo",
+    "d_clicks": -5,
+    "A": {
+     "c": 1,
+     "i": 34,
+     "pos": 4.2
+    },
+    "B": {
+     "c": 6,
+     "i": 40,
+     "pos": 6.1
+    }
+   },
+   {
+    "page": "/blog/penetrant-testing",
+    "family": "blog",
+    "d_clicks": -4,
+    "A": {
+     "c": 5,
+     "i": 521,
+     "pos": 9.8
+    },
+    "B": {
+     "c": 9,
+     "i": 1052,
+     "pos": 8.0
+    }
+   },
+   {
+    "page": "/blog/ultrasonic-testing-ultimate-guide",
+    "family": "blog",
+    "d_clicks": -4,
+    "A": {
+     "c": 7,
+     "i": 1518,
+     "pos": 12.1
+    },
+    "B": {
+     "c": 11,
+     "i": 1524,
+     "pos": 11.2
+    }
+   },
+   {
+    "page": "/blog/virtual-reality-vr-ndt-training-simulations",
+    "family": "blog",
+    "d_clicks": -4,
+    "A": {
+     "c": 0,
+     "i": 55,
+     "pos": 5.3
+    },
+    "B": {
+     "c": 4,
+     "i": 29,
+     "pos": 7.8
+    }
+   }
+  ]
+ },
+ "query_movers_down": [
+  {
+   "q": "api exam schedule 2026",
+   "A": {
+    "c": 0,
+    "i": 144,
+    "pos": 3.8
+   },
+   "B": {
+    "c": 4,
+    "i": 194,
+    "pos": 3.0
+   }
+  },
+  {
+   "q": "api 617",
+   "A": {
+    "c": 2,
+    "i": 122,
+    "pos": 25.0
+   },
+   "B": {
+    "c": 5,
+    "i": 253,
+    "pos": 12.1
+   }
+  },
+  {
+   "q": "nace sp0188",
+   "A": {
+    "c": 2,
+    "i": 109,
+    "pos": 6.7
+   },
+   "B": {
+    "c": 4,
+    "i": 314,
+    "pos": 7.2
+   }
+  },
+  {
+   "q": "astm e165",
+   "A": {
+    "c": 3,
+    "i": 258,
+    "pos": 7.5
+   },
+   "B": {
+    "c": 4,
+    "i": 546,
+    "pos": 8.1
+   }
+  },
+  {
+   "q": "api inspector",
+   "A": {
+    "c": 1,
+    "i": 139,
+    "pos": 6.8
+   },
+   "B": {
+    "c": 2,
+    "i": 176,
+    "pos": 6.6
+   }
+  },
+  {
+   "q": "asme section v",
+   "A": {
+    "c": 1,
+    "i": 336,
+    "pos": 11.4
+   },
+   "B": {
+    "c": 2,
+    "i": 251,
+    "pos": 12.6
+   }
+  },
+  {
+   "q": "api exam schedule",
+   "A": {
+    "c": 0,
+    "i": 236,
+    "pos": 5.4
+   },
+   "B": {
+    "c": 1,
+    "i": 274,
+    "pos": 5.4
+   }
+  },
+  {
+   "q": "ndt technician salary",
+   "A": {
+    "c": 1,
+    "i": 262,
+    "pos": 7.6
+   },
+   "B": {
+    "c": 1,
+    "i": 367,
+    "pos": 6.2
+   }
+  },
+  {
+   "q": "aws cwi certification",
+   "A": {
+    "c": 0,
+    "i": 200,
+    "pos": 9.8
+   },
+   "B": {
+    "c": 0,
+    "i": 223,
+    "pos": 10.5
+   }
+  },
+  {
+   "q": "corrosion under insulation pipeline inspection",
+   "A": {
+    "c": 0,
+    "i": 333,
+    "pos": 33.9
+   },
+   "B": {
+    "c": 0,
+    "i": 307,
+    "pos": 29.3
+   }
+  },
+  {
+   "q": "crack inspection technology",
+   "A": {
+    "c": 0,
+    "i": 388,
+    "pos": 36.5
+   },
+   "B": {
+    "c": 0,
+    "i": 373,
+    "pos": 27.2
+   }
+  },
+  {
+   "q": "eddy current testing",
+   "A": {
+    "c": 0,
+    "i": 484,
+    "pos": 38.2
+   },
+   "B": {
+    "c": 0,
+    "i": 307,
+    "pos": 43.0
+   }
+  },
+  {
+   "q": "hull inspection",
+   "A": {
+    "c": 0,
+    "i": 159,
+    "pos": 71.7
+   },
+   "B": {
+    "c": 0,
+    "i": 150,
+    "pos": 48.7
+   }
+  },
+  {
+   "q": "mfl corrosion inspection pipeline",
+   "A": {
+    "c": 0,
+    "i": 538,
+    "pos": 26.5
+   },
+   "B": {
+    "c": 0,
+    "i": 324,
+    "pos": 28.1
+   }
+  },
+  {
+   "q": "ndt inspection software",
+   "A": {
+    "c": 0,
+    "i": 250,
+    "pos": 29.0
+   },
+   "B": {
+    "c": 0,
+    "i": 225,
+    "pos": 21.3
+   }
+  },
+  {
+   "q": "non destructive testing price list",
+   "A": {
+    "c": 0,
+    "i": 94,
+    "pos": 34.4
+   },
+   "B": {
+    "c": 0,
+    "i": 182,
+    "pos": 38.9
+   }
+  },
+  {
+   "q": "pipeline corrosion detection mfl",
+   "A": {
+    "c": 0,
+    "i": 583,
+    "pos": 41.6
+   },
+   "B": {
+    "c": 0,
+    "i": 380,
+    "pos": 30.3
+   }
+  },
+  {
+   "q": "pipeline metal loss inspection services",
+   "A": {
+    "c": 0,
+    "i": 206,
+    "pos": 30.8
+   },
+   "B": {
+    "c": 0,
+    "i": 253,
+    "pos": 29.6
+   }
+  },
+  {
+   "q": "radiographic testing",
+   "A": {
+    "c": 0,
+    "i": 397,
+    "pos": 36.4
+   },
+   "B": {
+    "c": 0,
+    "i": 156,
+    "pos": 47.1
+   }
+  },
+  {
+   "q": "refinery piping inspection corrosion",
+   "A": {
+    "c": 0,
+    "i": 12,
+    "pos": 12.3
+   },
+   "B": {
+    "c": 0,
+    "i": 184,
+    "pos": 5.8
+   }
+  },
+  {
+   "q": "ut corrosion inspection pipeline",
+   "A": {
+    "c": 0,
+    "i": 267,
+    "pos": 38.0
+   },
+   "B": {
+    "c": 0,
+    "i": 290,
+    "pos": 12.4
+   }
+  },
+  {
+   "q": "zertify app",
+   "A": {
+    "c": 0,
+    "i": 982,
+    "pos": 8.6
+   },
+   "B": {
+    "c": 0,
+    "i": 367,
+    "pos": 8.3
+   }
+  },
+  {
+   "q": "asme b31.3",
+   "A": {
+    "c": 6,
+    "i": 608,
+    "pos": 12.2
+   },
+   "B": {
+    "c": 5,
+    "i": 244,
+    "pos": 14.8
+   }
+  },
+  {
+   "q": "asme b31.9",
+   "A": {
+    "c": 4,
+    "i": 242,
+    "pos": 8.0
+   },
+   "B": {
+    "c": 3,
+    "i": 188,
+    "pos": 8.4
+   }
+  },
+  {
+   "q": "api 581",
+   "A": {
+    "c": 2,
+    "i": 386,
+    "pos": 24.4
+   },
+   "B": {
+    "c": 1,
+    "i": 383,
+    "pos": 14.5
+   }
+  },
+  {
+   "q": "awwa d100",
+   "A": {
+    "c": 2,
+    "i": 168,
+    "pos": 7.4
+   },
+   "B": {
+    "c": 1,
+    "i": 150,
+    "pos": 8.4
+   }
+  },
+  {
+   "q": "ndt software",
+   "A": {
+    "c": 1,
+    "i": 454,
+    "pos": 26.3
+   },
+   "B": {
+    "c": 0,
+    "i": 214,
+    "pos": 27.9
+   }
+  },
+  {
+   "q": "asme b31.4",
+   "A": {
+    "c": 4,
+    "i": 339,
+    "pos": 10.1
+   },
+   "B": {
+    "c": 2,
+    "i": 219,
+    "pos": 9.9
+   }
+  },
+  {
+   "q": "ndt reporting software",
+   "A": {
+    "c": 3,
+    "i": 121,
+    "pos": 20.6
+   },
+   "B": {
+    "c": 1,
+    "i": 167,
+    "pos": 19.9
+   }
+  },
+  {
+   "q": "api 653",
+   "A": {
+    "c": 2,
+    "i": 476,
+    "pos": 18.2
+   },
+   "B": {
+    "c": 0,
+    "i": 267,
+    "pos": 15.8
+   }
+  }
+ ],
+ "striking_distance": [
+  {
+   "q": "zertify app",
+   "c": 0,
+   "i": 982,
+   "pos": 8.6
+  },
+  {
+   "q": "asme b31.1",
+   "c": 6,
+   "i": 612,
+   "pos": 8.0
+  },
+  {
+   "q": "asme b31.3",
+   "c": 6,
+   "i": 608,
+   "pos": 12.2
+  },
+  {
+   "q": "asme b31.8",
+   "c": 7,
+   "i": 588,
+   "pos": 8.6
+  },
+  {
+   "q": "api 653",
+   "c": 2,
+   "i": 476,
+   "pos": 18.2
+  },
+  {
+   "q": "cswip full form",
+   "c": 0,
+   "i": 388,
+   "pos": 7.7
+  },
+  {
+   "q": "iso 9712",
+   "c": 1,
+   "i": 363,
+   "pos": 15.3
+  },
+  {
+   "q": "astm e709",
+   "c": 5,
+   "i": 344,
+   "pos": 12.4
+  },
+  {
+   "q": "asme b31.4",
+   "c": 4,
+   "i": 339,
+   "pos": 10.1
+  },
+  {
+   "q": "asme section v",
+   "c": 1,
+   "i": 336,
+   "pos": 11.4
+  },
+  {
+   "q": "integrity management software",
+   "c": 2,
+   "i": 302,
+   "pos": 12.2
+  },
+  {
+   "q": "couplant",
+   "c": 0,
+   "i": 296,
+   "pos": 10.3
+  },
+  {
+   "q": "api 579 analysis",
+   "c": 0,
+   "i": 266,
+   "pos": 11.8
+  },
+  {
+   "q": "ndt technician salary",
+   "c": 1,
+   "i": 262,
+   "pos": 7.6
+  },
+  {
+   "q": "astm e165",
+   "c": 3,
+   "i": 258,
+   "pos": 7.5
+  },
+  {
+   "q": "api 570 piping system inspection requirements",
+   "c": 0,
+   "i": 254,
+   "pos": 5.7
+  },
+  {
+   "q": "asme v",
+   "c": 0,
+   "i": 253,
+   "pos": 11.8
+  },
+  {
+   "q": "corrosion mapping",
+   "c": 0,
+   "i": 252,
+   "pos": 19.6
+  },
+  {
+   "q": "api 1104",
+   "c": 3,
+   "i": 245,
+   "pos": 8.9
+  },
+  {
+   "q": "asme b31.9",
+   "c": 4,
+   "i": 242,
+   "pos": 8.0
+  },
+  {
+   "q": "api exam schedule",
+   "c": 0,
+   "i": 236,
+   "pos": 5.4
+  },
+  {
+   "q": "api 510",
+   "c": 1,
+   "i": 234,
+   "pos": 17.8
+  },
+  {
+   "q": "snt-tc-1a",
+   "c": 1,
+   "i": 229,
+   "pos": 13.3
+  },
+  {
+   "q": "phased array technician salary",
+   "c": 0,
+   "i": 217,
+   "pos": 8.1
+  },
+  {
+   "q": "asme section 5",
+   "c": 0,
+   "i": 214,
+   "pos": 13.1
+  },
+  {
+   "q": "aws cwi certification",
+   "c": 0,
+   "i": 200,
+   "pos": 9.8
+  },
+  {
+   "q": "api inspector search",
+   "c": 0,
+   "i": 192,
+   "pos": 5.7
+  },
+  {
+   "q": "api 510 pressure vessel inspection provider us",
+   "c": 0,
+   "i": 190,
+   "pos": 5.5
+  },
+  {
+   "q": "api 570",
+   "c": 0,
+   "i": 190,
+   "pos": 17.9
+  },
+  {
+   "q": "api inspector verification",
+   "c": 1,
+   "i": 177,
+   "pos": 4.5
+  },
+  {
+   "q": "api 653 certification",
+   "c": 2,
+   "i": 175,
+   "pos": 9.1
+  },
+  {
+   "q": "storage tank inspection api 653 compliance",
+   "c": 0,
+   "i": 173,
+   "pos": 4.1
+  },
+  {
+   "q": "awwa d100",
+   "c": 2,
+   "i": 168,
+   "pos": 7.4
+  },
+  {
+   "q": "nde level iii certification exam preparation course",
+   "c": 0,
+   "i": 164,
+   "pos": 4.7
+  },
+  {
+   "q": "asme viii div 1",
+   "c": 1,
+   "i": 161,
+   "pos": 5.9
+  },
+  {
+   "q": "iso 9712 certification",
+   "c": 2,
+   "i": 160,
+   "pos": 15.1
+  },
+  {
+   "q": "heat exchanger inspection",
+   "c": 0,
+   "i": 160,
+   "pos": 14.4
+  },
+  {
+   "q": "pcn level 2",
+   "c": 0,
+   "i": 158,
+   "pos": 6.6
+  },
+  {
+   "q": "which ndt certification offers strongest industry recognition?",
+   "c": 0,
+   "i": 157,
+   "pos": 6.8
+  },
+  {
+   "q": "asnt level 3",
+   "c": 0,
+   "i": 155,
+   "pos": 10.0
+  },
+  {
+   "q": "api 574",
+   "c": 0,
+   "i": 152,
+   "pos": 7.2
+  },
+  {
+   "q": "mt vs pt",
+   "c": 0,
+   "i": 150,
+   "pos": 4.7
+  },
+  {
+   "q": "ndt course",
+   "c": 0,
+   "i": 145,
+   "pos": 17.0
+  },
+  {
+   "q": "ndt level 3 salary",
+   "c": 2,
+   "i": 141,
+   "pos": 6.0
+  },
+  {
+   "q": "api inspector",
+   "c": 1,
+   "i": 139,
+   "pos": 6.8
+  },
+  {
+   "q": "non destructive testing salary",
+   "c": 0,
+   "i": 137,
+   "pos": 8.1
+  },
+  {
+   "q": "asme bpvc section v",
+   "c": 1,
+   "i": 136,
+   "pos": 14.8
+  },
+  {
+   "q": "asme b31.5",
+   "c": 1,
+   "i": 135,
+   "pos": 10.4
+  },
+  {
+   "q": "10cfr50 appendix b",
+   "c": 0,
+   "i": 135,
+   "pos": 9.9
+  },
+  {
+   "q": "cwi certification",
+   "c": 0,
+   "i": 134,
+   "pos": 12.5
+  },
+  {
+   "q": "ndt level 3 course fees",
+   "c": 1,
+   "i": 133,
+   "pos": 8.1
+  },
+  {
+   "q": "b31.9",
+   "c": 2,
+   "i": 131,
+   "pos": 8.7
+  },
+  {
+   "q": "api 578",
+   "c": 1,
+   "i": 131,
+   "pos": 6.3
+  },
+  {
+   "q": "ndt methods certification programs near me",
+   "c": 0,
+   "i": 131,
+   "pos": 4.1
+  },
+  {
+   "q": "api 583",
+   "c": 2,
+   "i": 125,
+   "pos": 7.2
+  },
+  {
+   "q": "automated corrosion mapping",
+   "c": 0,
+   "i": 125,
+   "pos": 17.7
+  },
+  {
+   "q": "ffs assessments",
+   "c": 0,
+   "i": 125,
+   "pos": 18.4
+  },
+  {
+   "q": "api schedule",
+   "c": 0,
+   "i": 117,
+   "pos": 5.7
+  },
+  {
+   "q": "asme b31 1",
+   "c": 1,
+   "i": 116,
+   "pos": 16.9
+  },
+  {
+   "q": "dnv standards for offshore structures",
+   "c": 0,
+   "i": 116,
+   "pos": 11.1
+  }
+ ],
+ "usa_query_clusters": {
+  "ut": {
+   "clicks": 5,
+   "impressions": 2877,
+   "ctr": 0.17,
+   "position": 48.5,
+   "queries": 301,
+   "top_landing": [
+    {
+     "page": "/blog/ultrasonic-testing-ultimate-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 251,
+     "pos": 22.6
+    },
+    {
+     "page": "/glossary/ultrasonic-testing",
+     "family": "reference",
+     "c": 0,
+     "i": 228,
+     "pos": 76.8
+    },
+    {
+     "page": "/glossary/phased-array-ultrasonic-testing-paut",
+     "family": "reference",
+     "c": 0,
+     "i": 188,
+     "pos": 53.2
+    },
+    {
+     "page": "/blog/automated-ultrasonic-testing-systems-overview-benefits",
+     "family": "blog",
+     "c": 0,
+     "i": 146,
+     "pos": 44.2
+    },
+    {
+     "page": "/glossary/automated-ultrasonic-testing-aut",
+     "family": "reference",
+     "c": 0,
+     "i": 123,
+     "pos": 51.1
+    },
+    {
+     "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+     "family": "blog",
+     "c": 0,
+     "i": 120,
+     "pos": 22.1
+    },
+    {
+     "page": "/blog/automated-ut-aut-systems-complete-overview",
+     "family": "blog",
+     "c": 0,
+     "i": 98,
+     "pos": 79.6
+    },
+    {
+     "page": "/inspection/phased-array-inspection-services",
+     "family": "inspection",
+     "c": 0,
+     "i": 83,
+     "pos": 73.5
+    },
+    {
+     "page": "/blog/immersion-ultrasonic-testing-for-complex-components",
+     "family": "blog",
+     "c": 0,
+     "i": 70,
+     "pos": 24.9
+    },
+    {
+     "page": "/blog/corrosion-mapping-with-multiple-ndt-methods",
+     "family": "blog",
+     "c": 0,
+     "i": 70,
+     "pos": 18.4
+    },
+    {
+     "page": "/ultrasonic-testing-pipeline",
+     "family": "us-industry-job",
+     "c": 0,
+     "i": 70,
+     "pos": 70.0
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 65,
+     "pos": 66.7
+    },
+    {
+     "page": "/ultrasonic-testing-seattle",
+     "family": "us-method-city",
+     "c": 0,
+     "i": 64,
+     "pos": 65.4
+    },
+    {
+     "page": "/blog/conventional-ut-vs-phased-array-which-method-to-choose",
+     "family": "blog",
+     "c": 0,
+     "i": 57,
+     "pos": 20.2
+    },
+    {
+     "page": "/training/ultrasonic-testing-training-for-pipeline",
+     "family": "training-geo",
+     "c": 0,
+     "i": 55,
+     "pos": 53.6
+    }
+   ]
+  },
+  "mt": {
+   "clicks": 0,
+   "impressions": 744,
+   "ctr": 0.0,
+   "position": 32.4,
+   "queries": 111,
+   "top_landing": [
+    {
+     "page": "/blog/mt-vs-pt-comparison",
+     "family": "blog",
+     "c": 0,
+     "i": 225,
+     "pos": 5.8
+    },
+    {
+     "page": "/blog/magnetic-particle-testing-complete-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 101,
+     "pos": 22.0
+    },
+    {
+     "page": "/inspection-services-indiana",
+     "family": "inspection-hub",
+     "c": 0,
+     "i": 69,
+     "pos": 37.4
+    },
+    {
+     "page": "/glossary/magnetic-particle-testing",
+     "family": "reference",
+     "c": 0,
+     "i": 66,
+     "pos": 81.2
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 51,
+     "pos": 41.6
+    },
+    {
+     "page": "/magnetic-flux-leakage-testing",
+     "family": "other",
+     "c": 0,
+     "i": 36,
+     "pos": 64.8
+    },
+    {
+     "page": "/inspection-services-michigan",
+     "family": "inspection-hub",
+     "c": 0,
+     "i": 35,
+     "pos": 28.0
+    },
+    {
+     "page": "/magnetic-particle-testing-detroit",
+     "family": "us-method-city",
+     "c": 0,
+     "i": 32,
+     "pos": 21.2
+    },
+    {
+     "page": "/glossary/magnetic-flux-leakage-mfl",
+     "family": "reference",
+     "c": 0,
+     "i": 28,
+     "pos": 71.5
+    },
+    {
+     "page": "/blog/choosing-between-ut-rt-mt-and-pt-as-your-first-ndt-method",
+     "family": "blog",
+     "c": 0,
+     "i": 14,
+     "pos": 26.5
+    },
+    {
+     "page": "/blog/magnetic-particle-inspection-procedure-interpretation",
+     "family": "blog",
+     "c": 0,
+     "i": 10,
+     "pos": 20.2
+    },
+    {
+     "page": "/blog/magnetic-particle-testing-wet-vs-dry-method-selection-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 8,
+     "pos": 28.2
+    },
+    {
+     "page": "/glossary/magnetic-flux",
+     "family": "reference",
+     "c": 0,
+     "i": 7,
+     "pos": 74.9
+    },
+    {
+     "page": "/services/mfl-pipeline-inspection",
+     "family": "inspection",
+     "c": 0,
+     "i": 7,
+     "pos": 91.4
+    },
+    {
+     "page": "/inspection-services-arizona",
+     "family": "inspection-hub",
+     "c": 0,
+     "i": 4,
+     "pos": 44.8
+    }
+   ]
+  },
+  "pt": {
+   "clicks": 0,
+   "impressions": 497,
+   "ctr": 0.0,
+   "position": 29.5,
+   "queries": 80,
+   "top_landing": [
+    {
+     "page": "/blog/mt-vs-pt-comparison",
+     "family": "blog",
+     "c": 0,
+     "i": 229,
+     "pos": 5.7
+    },
+    {
+     "page": "/glossary/penetrant-testing",
+     "family": "reference",
+     "c": 0,
+     "i": 48,
+     "pos": 74.9
+    },
+    {
+     "page": "/blog/penetrant-testing",
+     "family": "blog",
+     "c": 0,
+     "i": 34,
+     "pos": 32.1
+    },
+    {
+     "page": "/penetrant-testing-los-angeles",
+     "family": "us-method-city",
+     "c": 0,
+     "i": 22,
+     "pos": 45.4
+    },
+    {
+     "page": "/penetrant-testing-tampa",
+     "family": "us-method-city",
+     "c": 0,
+     "i": 21,
+     "pos": 50.7
+    },
+    {
+     "page": "/blog/choosing-between-ut-rt-mt-and-pt-as-your-first-ndt-method",
+     "family": "blog",
+     "c": 0,
+     "i": 20,
+     "pos": 32.1
+    },
+    {
+     "page": "/penetrant-testing-portland",
+     "family": "us-method-city",
+     "c": 0,
+     "i": 13,
+     "pos": 71.8
+    },
+    {
+     "page": "/glossary/ir-192",
+     "family": "reference",
+     "c": 0,
+     "i": 12,
+     "pos": 89.8
+    },
+    {
+     "page": "/blog/liquid-penetrant-inspection-surface-crack-detection-methods",
+     "family": "blog",
+     "c": 0,
+     "i": 8,
+     "pos": 80.0
+    },
+    {
+     "page": "/blog/penetrant-testing-complete-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 7,
+     "pos": 26.3
+    },
+    {
+     "page": "/penetrant-testing",
+     "family": "other",
+     "c": 0,
+     "i": 7,
+     "pos": 52.0
+    },
+    {
+     "page": "/glossary/water-washable-penetrant",
+     "family": "reference",
+     "c": 0,
+     "i": 7,
+     "pos": 12.1
+    },
+    {
+     "page": "/blog/magnetic-particle-inspection-procedure-interpretation",
+     "family": "blog",
+     "c": 0,
+     "i": 6,
+     "pos": 28.8
+    },
+    {
+     "page": "/penetrant-testing-jacksonville",
+     "family": "us-method-city",
+     "c": 0,
+     "i": 6,
+     "pos": 91.3
+    },
+    {
+     "page": "/penetrant-testing-fabrication",
+     "family": "us-industry-job",
+     "c": 0,
+     "i": 6,
+     "pos": 15.2
+    }
+   ]
+  },
+  "training": {
+   "clicks": 54,
+   "impressions": 17084,
+   "ctr": 0.32,
+   "position": 49.8,
+   "queries": 708,
+   "top_landing": [
+    {
+     "page": "/blog/cwi-certification-requirements-cost-career-impact",
+     "family": "blog",
+     "c": 0,
+     "i": 700,
+     "pos": 16.4
+    },
+    {
+     "page": "/ndt-training-denver",
+     "family": "training-geo",
+     "c": 0,
+     "i": 538,
+     "pos": 52.0
+    },
+    {
+     "page": "/ndt-training-tulsa",
+     "family": "training-geo",
+     "c": 0,
+     "i": 437,
+     "pos": 66.5
+    },
+    {
+     "page": "/ndt-training-chicago",
+     "family": "training-geo",
+     "c": 0,
+     "i": 433,
+     "pos": 67.7
+    },
+    {
+     "page": "/ndt-training-new-york",
+     "family": "training-geo",
+     "c": 3,
+     "i": 418,
+     "pos": 51.9
+    },
+    {
+     "page": "/ndt-training-san-antonio",
+     "family": "training-geo",
+     "c": 2,
+     "i": 390,
+     "pos": 58.3
+    },
+    {
+     "page": "/ndt-training-atlanta",
+     "family": "training-geo",
+     "c": 1,
+     "i": 374,
+     "pos": 56.6
+    },
+    {
+     "page": "/ndt-training-kansas-city",
+     "family": "training-geo",
+     "c": 0,
+     "i": 337,
+     "pos": 63.2
+    },
+    {
+     "page": "/asnt-certification",
+     "family": "training",
+     "c": 0,
+     "i": 299,
+     "pos": 50.4
+    },
+    {
+     "page": "/ndt-training-nashville",
+     "family": "training-geo",
+     "c": 0,
+     "i": 299,
+     "pos": 50.3
+    },
+    {
+     "page": "/ndt-training-st-louis",
+     "family": "training-geo",
+     "c": 1,
+     "i": 267,
+     "pos": 56.0
+    },
+    {
+     "page": "/blog/ndt-level-iii-certification-requirements-guide",
+     "family": "blog",
+     "c": 0,
+     "i": 262,
+     "pos": 23.8
+    },
+    {
+     "page": "/ndt-training-south-carolina",
+     "family": "training-geo",
+     "c": 0,
+     "i": 257,
+     "pos": 72.9
+    },
+    {
+     "page": "/ndt-training-wichita",
+     "family": "training-geo",
+     "c": 0,
+     "i": 244,
+     "pos": 64.2
+    },
+    {
+     "page": "/ndt-training-springfield",
+     "family": "training-geo",
+     "c": 0,
+     "i": 241,
+     "pos": 71.4
+    }
+   ]
+  },
+  "near_me": {
+   "clicks": 38,
+   "impressions": 5297,
+   "ctr": 0.72,
+   "position": 54.0,
+   "queries": 58,
+   "top_landing": [
+    {
+     "page": "/ndt-training-atlanta",
+     "family": "training-geo",
+     "c": 1,
+     "i": 295,
+     "pos": 55.5
+    },
+    {
+     "page": "/ndt-training-nashville",
+     "family": "training-geo",
+     "c": 0,
+     "i": 287,
+     "pos": 49.9
+    },
+    {
+     "page": "/ndt-training-chicago",
+     "family": "training-geo",
+     "c": 0,
+     "i": 285,
+     "pos": 67.2
+    },
+    {
+     "page": "/ndt-training-san-antonio",
+     "family": "training-geo",
+     "c": 2,
+     "i": 273,
+     "pos": 51.0
+    },
+    {
+     "page": "/ndt-training-denver",
+     "family": "training-geo",
+     "c": 0,
+     "i": 240,
+     "pos": 38.9
+    },
+    {
+     "page": "/ndt-training-wichita",
+     "family": "training-geo",
+     "c": 0,
+     "i": 211,
+     "pos": 66.8
+    },
+    {
+     "page": "/ndt-training-st-louis",
+     "family": "training-geo",
+     "c": 1,
+     "i": 209,
+     "pos": 51.0
+    },
+    {
+     "page": "/ndt-training-south-carolina",
+     "family": "training-geo",
+     "c": 0,
+     "i": 209,
+     "pos": 70.8
+    },
+    {
+     "page": "/ndt-training-kansas-city",
+     "family": "training-geo",
+     "c": 0,
+     "i": 201,
+     "pos": 50.1
+    },
+    {
+     "page": "/ndt-training-tulsa",
+     "family": "training-geo",
+     "c": 0,
+     "i": 190,
+     "pos": 52.9
+    },
+    {
+     "page": "/ndt-training-boston",
+     "family": "training-geo",
+     "c": 0,
+     "i": 176,
+     "pos": 73.3
+    },
+    {
+     "page": "/ndt-training-charlotte",
+     "family": "training-geo",
+     "c": 1,
+     "i": 174,
+     "pos": 52.3
+    },
+    {
+     "page": "/ndt-training-springfield",
+     "family": "training-geo",
+     "c": 0,
+     "i": 169,
+     "pos": 75.0
+    },
+    {
+     "page": "/inspection-services-illinois",
+     "family": "inspection-hub",
+     "c": 0,
+     "i": 146,
+     "pos": 50.4
+    },
+    {
+     "page": "/ndt-training-oklahoma-city",
+     "family": "training-geo",
+     "c": 0,
+     "i": 140,
+     "pos": 75.1
+    }
+   ]
+  }
+ },
+ "usa_place_queries": [
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-atlanta",
+   "c": 0,
+   "i": 79,
+   "pos": 58.6
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-chicago",
+   "c": 0,
+   "i": 73,
+   "pos": 66.7
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-chicago",
+   "c": 0,
+   "i": 71,
+   "pos": 70.7
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-atlanta",
+   "c": 0,
+   "i": 70,
+   "pos": 52.3
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-denver",
+   "c": 0,
+   "i": 70,
+   "pos": 41.9
+  },
+  {
+   "q": "ndt companies near me",
+   "page": "/inspection-services-illinois",
+   "c": 0,
+   "i": 69,
+   "pos": 47.3
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-nashville",
+   "c": 0,
+   "i": 69,
+   "pos": 49.4
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-nashville",
+   "c": 0,
+   "i": 67,
+   "pos": 44.0
+  },
+  {
+   "q": "welding inspections in new jersey",
+   "page": "/inspection-services-new-jersey",
+   "c": 0,
+   "i": 67,
+   "pos": 41.6
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-nashville",
+   "c": 0,
+   "i": 66,
+   "pos": 47.6
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-wichita",
+   "c": 0,
+   "i": 66,
+   "pos": 66.7
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-atlanta",
+   "c": 1,
+   "i": 65,
+   "pos": 56.7
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-san-antonio",
+   "c": 0,
+   "i": 65,
+   "pos": 45.1
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-san-antonio",
+   "c": 0,
+   "i": 63,
+   "pos": 48.9
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-san-antonio",
+   "c": 0,
+   "i": 60,
+   "pos": 48.0
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-wichita",
+   "c": 0,
+   "i": 60,
+   "pos": 73.1
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-chicago",
+   "c": 0,
+   "i": 58,
+   "pos": 61.6
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-tulsa",
+   "c": 0,
+   "i": 58,
+   "pos": 46.6
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-omaha",
+   "c": 0,
+   "i": 56,
+   "pos": 75.7
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-springfield",
+   "c": 0,
+   "i": 56,
+   "pos": 71.5
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-denver",
+   "c": 0,
+   "i": 56,
+   "pos": 45.0
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-boston",
+   "c": 0,
+   "i": 54,
+   "pos": 72.9
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-south-carolina",
+   "c": 0,
+   "i": 54,
+   "pos": 67.1
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-south-carolina",
+   "c": 0,
+   "i": 54,
+   "pos": 77.7
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-springfield",
+   "c": 0,
+   "i": 54,
+   "pos": 79.1
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-st-louis",
+   "c": 0,
+   "i": 54,
+   "pos": 46.5
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-atlanta",
+   "c": 0,
+   "i": 53,
+   "pos": 59.3
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-san-antonio",
+   "c": 0,
+   "i": 53,
+   "pos": 69.6
+  },
+  {
+   "q": "high pressure gas testing houston tx",
+   "page": "/inspection/pressure-vessel-inspection-services-houston",
+   "c": 0,
+   "i": 52,
+   "pos": 30.8
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-kansas-city",
+   "c": 0,
+   "i": 51,
+   "pos": 41.4
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-kansas-city",
+   "c": 0,
+   "i": 51,
+   "pos": 44.3
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-wichita",
+   "c": 0,
+   "i": 50,
+   "pos": 70.4
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-oklahoma-city",
+   "c": 0,
+   "i": 50,
+   "pos": 74.7
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-boston",
+   "c": 0,
+   "i": 50,
+   "pos": 84.8
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-las-vegas",
+   "c": 0,
+   "i": 49,
+   "pos": 23.2
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-nashville",
+   "c": 0,
+   "i": 49,
+   "pos": 69.0
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-springfield",
+   "c": 0,
+   "i": 48,
+   "pos": 72.0
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-st-louis",
+   "c": 0,
+   "i": 48,
+   "pos": 45.9
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-st-louis",
+   "c": 0,
+   "i": 48,
+   "pos": 38.1
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-omaha",
+   "c": 0,
+   "i": 48,
+   "pos": 82.4
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-san-francisco",
+   "c": 0,
+   "i": 48,
+   "pos": 48.2
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-south-carolina",
+   "c": 0,
+   "i": 47,
+   "pos": 64.4
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-miami",
+   "c": 0,
+   "i": 47,
+   "pos": 57.6
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-boston",
+   "c": 0,
+   "i": 45,
+   "pos": 71.4
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-charlotte",
+   "c": 0,
+   "i": 45,
+   "pos": 40.3
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-tulsa",
+   "c": 0,
+   "i": 45,
+   "pos": 46.1
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-charlotte",
+   "c": 0,
+   "i": 45,
+   "pos": 49.1
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-chicago",
+   "c": 0,
+   "i": 45,
+   "pos": 89.4
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-houston",
+   "c": 0,
+   "i": 44,
+   "pos": 38.7
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-kansas-city",
+   "c": 0,
+   "i": 44,
+   "pos": 73.8
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-tulsa",
+   "c": 0,
+   "i": 44,
+   "pos": 74.7
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-st-louis",
+   "c": 0,
+   "i": 43,
+   "pos": 76.6
+  },
+  {
+   "q": "grain flow testing ohio",
+   "page": "/inspection-services-ohio",
+   "c": 0,
+   "i": 41,
+   "pos": 22.5
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-kansas-city",
+   "c": 0,
+   "i": 41,
+   "pos": 45.5
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-oklahoma-city",
+   "c": 0,
+   "i": 41,
+   "pos": 82.6
+  },
+  {
+   "q": "magnetic particle inspection indiana",
+   "page": "/inspection-services-indiana",
+   "c": 0,
+   "i": 40,
+   "pos": 19
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-oklahoma-city",
+   "c": 0,
+   "i": 40,
+   "pos": 69.9
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-denver",
+   "c": 0,
+   "i": 40,
+   "pos": 50.4
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-louisiana",
+   "c": 0,
+   "i": 40,
+   "pos": 79.3
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-new-orleans",
+   "c": 0,
+   "i": 40,
+   "pos": 63.8
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-south-carolina",
+   "c": 0,
+   "i": 37,
+   "pos": 92.2
+  },
+  {
+   "q": "ndt company near me",
+   "page": "/inspection-services-illinois",
+   "c": 0,
+   "i": 35,
+   "pos": 52.0
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-charlotte",
+   "c": 0,
+   "i": 35,
+   "pos": 85.3
+  },
+  {
+   "q": "pipeline inspection alabama",
+   "page": "/api-570-piping-inspection-alabama",
+   "c": 0,
+   "i": 34,
+   "pos": 19.1
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-houston",
+   "c": 0,
+   "i": 33,
+   "pos": 39.2
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-louisiana",
+   "c": 0,
+   "i": 33,
+   "pos": 63.9
+  },
+  {
+   "q": "metallurgical jominy testing services michigan",
+   "page": "/inspection-services-michigan",
+   "c": 0,
+   "i": 32,
+   "pos": 22.8
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-tulsa",
+   "c": 0,
+   "i": 32,
+   "pos": 46.0
+  },
+  {
+   "q": "ndt certification near me",
+   "page": "/ndt-training-denver",
+   "c": 0,
+   "i": 31,
+   "pos": 24.6
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-cleveland",
+   "c": 0,
+   "i": 31,
+   "pos": 69.0
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-louisiana",
+   "c": 0,
+   "i": 31,
+   "pos": 90.7
+  },
+  {
+   "q": "ndt courses near me",
+   "page": "/ndt-training-charlotte",
+   "c": 0,
+   "i": 30,
+   "pos": 40.4
+  },
+  {
+   "q": "ndt training near me",
+   "page": "/ndt-training-massachusetts",
+   "c": 0,
+   "i": 30,
+   "pos": 69.9
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-las-vegas",
+   "c": 0,
+   "i": 30,
+   "pos": 46.1
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-texas",
+   "c": 0,
+   "i": 30,
+   "pos": 91.4
+  },
+  {
+   "q": "ndt services in huntsville al",
+   "page": "/inspection-services-alabama",
+   "c": 0,
+   "i": 29,
+   "pos": 53.6
+  },
+  {
+   "q": "non destructive testing training near me",
+   "page": "/ndt-training-san-francisco",
+   "c": 0,
+   "i": 29,
+   "pos": 75.1
+  },
+  {
+   "q": "pressure cycling testing houston tx",
+   "page": "/inspection/pressure-vessel-inspection-services-houston",
+   "c": 0,
+   "i": 29,
+   "pos": 38.4
+  },
+  {
+   "q": "external pressure testing houston tx",
+   "page": "/inspection/pressure-vessel-inspection-services-houston",
+   "c": 0,
+   "i": 28,
+   "pos": 24.2
+  },
+  {
+   "q": "external pressure testing houston tx",
+   "page": "/inspection/third-party-inspection-houston",
+   "c": 0,
+   "i": 28,
+   "pos": 27.4
+  }
+ ],
+ "new_pages_earning": {
+  "us-industry-job": [
+   {
+    "page": "/ultrasonic-testing-pipeline",
+    "c": 0,
+    "i": 319,
+    "pos": 59.8
+   },
+   {
+    "page": "/ultrasonic-testing-aviation",
+    "c": 2,
+    "i": 34,
+    "pos": 28.4
+   },
+   {
+    "page": "/penetrant-testing-refining",
+    "c": 1,
+    "i": 19,
+    "pos": 10.6
+   },
+   {
+    "page": "/ultrasonic-testing-fabrication",
+    "c": 0,
+    "i": 18,
+    "pos": 22.1
+   },
+   {
+    "page": "/penetrant-testing-pipeline",
+    "c": 0,
+    "i": 17,
+    "pos": 27.0
+   },
+   {
+    "page": "/magnetic-particle-testing-petrochemical",
+    "c": 0,
+    "i": 16,
+    "pos": 77.6
+   },
+   {
+    "page": "/penetrant-testing-power",
+    "c": 0,
+    "i": 15,
+    "pos": 46.2
+   },
+   {
+    "page": "/magnetic-particle-testing-aviation",
+    "c": 0,
+    "i": 14,
+    "pos": 15.4
+   },
+   {
+    "page": "/ultrasonic-testing-steel",
+    "c": 0,
+    "i": 14,
+    "pos": 22.7
+   },
+   {
+    "page": "/magnetic-particle-testing-fabrication",
+    "c": 0,
+    "i": 12,
+    "pos": 51.2
+   },
+   {
+    "page": "/penetrant-testing-fabrication",
+    "c": 0,
+    "i": 9,
+    "pos": 17.8
+   },
+   {
+    "page": "/penetrant-testing-steel",
+    "c": 0,
+    "i": 9,
+    "pos": 16.9
+   },
+   {
+    "page": "/magnetic-particle-testing-rail",
+    "c": 0,
+    "i": 6,
+    "pos": 4.7
+   },
+   {
+    "page": "/penetrant-testing-aviation",
+    "c": 0,
+    "i": 5,
+    "pos": 38.6
+   },
+   {
+    "page": "/ultrasonic-testing-automotive",
+    "c": 0,
+    "i": 5,
+    "pos": 48.2
+   },
+   {
+    "page": "/ultrasonic-testing-marine",
+    "c": 0,
+    "i": 5,
+    "pos": 7.0
+   },
+   {
+    "page": "/ultrasonic-testing-lng",
+    "c": 0,
+    "i": 4,
+    "pos": 3.0
+   },
+   {
+    "page": "/ultrasonic-testing-rail",
+    "c": 0,
+    "i": 4,
+    "pos": 59.2
+   },
+   {
+    "page": "/magnetic-particle-testing-automotive",
+    "c": 0,
+    "i": 3,
+    "pos": 29.3
+   },
+   {
+    "page": "/penetrant-testing-automotive",
+    "c": 0,
+    "i": 2,
+    "pos": 92.5
+   },
+   {
+    "page": "/penetrant-testing-marine",
+    "c": 0,
+    "i": 2,
+    "pos": 6.5
+   },
+   {
+    "page": "/penetrant-testing-offshore",
+    "c": 0,
+    "i": 2,
+    "pos": 4.5
+   },
+   {
+    "page": "/ultrasonic-testing-petrochemical",
+    "c": 0,
+    "i": 2,
+    "pos": 6.5
+   },
+   {
+    "page": "/penetrant-testing-lng",
+    "c": 0,
+    "i": 1,
+    "pos": 1.0
+   },
+   {
+    "page": "/penetrant-testing-mining",
+    "c": 0,
+    "i": 1,
+    "pos": 10.0
+   }
+  ],
+  "us-method-city": [
+   {
+    "page": "/ultrasonic-testing-seattle",
+    "c": 2,
+    "i": 93,
+    "pos": 50.5
+   },
+   {
+    "page": "/ultrasonic-testing-chicago",
+    "c": 0,
+    "i": 56,
+    "pos": 67.1
+   },
+   {
+    "page": "/ultrasonic-testing-tampa",
+    "c": 0,
+    "i": 40,
+    "pos": 36.3
+   },
+   {
+    "page": "/magnetic-particle-testing-detroit",
+    "c": 0,
+    "i": 35,
+    "pos": 20.0
+   },
+   {
+    "page": "/penetrant-testing-los-angeles",
+    "c": 0,
+    "i": 33,
+    "pos": 32.1
+   },
+   {
+    "page": "/ultrasonic-testing-corpus-christi",
+    "c": 0,
+    "i": 28,
+    "pos": 33.6
+   },
+   {
+    "page": "/ultrasonic-testing-phoenix",
+    "c": 2,
+    "i": 27,
+    "pos": 41.6
+   },
+   {
+    "page": "/penetrant-testing-tampa",
+    "c": 1,
+    "i": 27,
+    "pos": 40.4
+   },
+   {
+    "page": "/penetrant-testing-portland",
+    "c": 0,
+    "i": 27,
+    "pos": 38.4
+   },
+   {
+    "page": "/ultrasonic-testing-dallas",
+    "c": 0,
+    "i": 24,
+    "pos": 10.5
+   },
+   {
+    "page": "/ultrasonic-testing-charlotte",
+    "c": 2,
+    "i": 18,
+    "pos": 9.9
+   },
+   {
+    "page": "/ultrasonic-testing-atlanta",
+    "c": 2,
+    "i": 17,
+    "pos": 44.6
+   },
+   {
+    "page": "/penetrant-testing-washington-dc",
+    "c": 1,
+    "i": 14,
+    "pos": 39.8
+   },
+   {
+    "page": "/ultrasonic-testing-denver",
+    "c": 0,
+    "i": 14,
+    "pos": 31.9
+   },
+   {
+    "page": "/penetrant-testing-seattle",
+    "c": 0,
+    "i": 9,
+    "pos": 22.6
+   },
+   {
+    "page": "/penetrant-testing-jacksonville",
+    "c": 0,
+    "i": 7,
+    "pos": 90.7
+   },
+   {
+    "page": "/magnetic-particle-testing-chicago",
+    "c": 0,
+    "i": 6,
+    "pos": 6.5
+   },
+   {
+    "page": "/ultrasonic-testing-pittsburgh",
+    "c": 0,
+    "i": 6,
+    "pos": 9.2
+   },
+   {
+    "page": "/ultrasonic-testing-tulsa",
+    "c": 0,
+    "i": 6,
+    "pos": 5.2
+   },
+   {
+    "page": "/ultrasonic-testing-los-angeles",
+    "c": 0,
+    "i": 5,
+    "pos": 5.4
+   },
+   {
+    "page": "/ultrasonic-testing-detroit",
+    "c": 1,
+    "i": 4,
+    "pos": 1.0
+   },
+   {
+    "page": "/magnetic-particle-testing-seattle",
+    "c": 0,
+    "i": 4,
+    "pos": 1.5
+   },
+   {
+    "page": "/penetrant-testing-dallas",
+    "c": 0,
+    "i": 4,
+    "pos": 6.0
+   },
+   {
+    "page": "/penetrant-testing-tulsa",
+    "c": 1,
+    "i": 3,
+    "pos": 3.0
+   },
+   {
+    "page": "/magnetic-particle-testing-denver",
+    "c": 0,
+    "i": 3,
+    "pos": 2.7
+   }
+  ],
+  "maritime": [
+   {
+    "page": "/maritime-ndt-training",
+    "c": 2,
+    "i": 61,
+    "pos": 14.7
+   },
+   {
+    "page": "/maritime/ultrasonic-weld-inspection",
+    "c": 0,
+    "i": 42,
+    "pos": 59.1
+   },
+   {
+    "page": "/maritime/ultrasonic-thickness-measurement",
+    "c": 2,
+    "i": 39,
+    "pos": 5.6
+   },
+   {
+    "page": "/maritime",
+    "c": 2,
+    "i": 33,
+    "pos": 7.9
+   },
+   {
+    "page": "/maritime/phased-array-ultrasonic-testing",
+    "c": 0,
+    "i": 32,
+    "pos": 51.6
+   },
+   {
+    "page": "/maritime/enhanced-survey-programme",
+    "c": 1,
+    "i": 29,
+    "pos": 6.7
+   },
+   {
+    "page": "/maritime/inventory-of-hazardous-materials",
+    "c": 0,
+    "i": 29,
+    "pos": 25.3
+   },
+   {
+    "page": "/maritime/brest",
+    "c": 0,
+    "i": 25,
+    "pos": 41.7
+   },
+   {
+    "page": "/maritime/condition-assessment-scheme",
+    "c": 1,
+    "i": 22,
+    "pos": 8.5
+   },
+   {
+    "page": "/maritime/vasilikos",
+    "c": 0,
+    "i": 21,
+    "pos": 8.8
+   },
+   {
+    "page": "/maritime-ndt-training-newport-news",
+    "c": 1,
+    "i": 19,
+    "pos": 7.0
+   },
+   {
+    "page": "/maritime/ghent/magnetic-particle-inspection",
+    "c": 0,
+    "i": 16,
+    "pos": 8.4
+   },
+   {
+    "page": "/maritime/hatch-cover-ultrasonic-testing",
+    "c": 0,
+    "i": 16,
+    "pos": 13.5
+   },
+   {
+    "page": "/maritime/dunkirk",
+    "c": 0,
+    "i": 15,
+    "pos": 8.7
+   },
+   {
+    "page": "/maritime/noise-survey",
+    "c": 0,
+    "i": 15,
+    "pos": 7.2
+   },
+   {
+    "page": "/maritime/acfm-inspection",
+    "c": 0,
+    "i": 14,
+    "pos": 26.2
+   },
+   {
+    "page": "/maritime/magnetic-particle-inspection",
+    "c": 0,
+    "i": 14,
+    "pos": 19.9
+   },
+   {
+    "page": "/maritime/dye-penetrant-inspection",
+    "c": 0,
+    "i": 13,
+    "pos": 9.7
+   },
+   {
+    "page": "/maritime/skagen",
+    "c": 0,
+    "i": 13,
+    "pos": 7.1
+   },
+   {
+    "page": "/maritime/sture",
+    "c": 1,
+    "i": 12,
+    "pos": 21.6
+   },
+   {
+    "page": "/maritime/cyprus",
+    "c": 0,
+    "i": 12,
+    "pos": 3.2
+   },
+   {
+    "page": "/maritime/eddy-current-inspection",
+    "c": 0,
+    "i": 11,
+    "pos": 31.1
+   },
+   {
+    "page": "/maritime/agioi-theodoroi",
+    "c": 0,
+    "i": 9,
+    "pos": 7.8
+   },
+   {
+    "page": "/maritime/greenock",
+    "c": 0,
+    "i": 9,
+    "pos": 12.3
+   },
+   {
+    "page": "/maritime/kuwait",
+    "c": 0,
+    "i": 8,
+    "pos": 13.0
+   }
+  ]
+ },
+ "ga4_channels": {
+  "A": {
+   "Direct": {
+    "sessions": 16439.0,
+    "engagedSessions": 653.0,
+    "keyEvents": 13.0
+   },
+   "Organic Search": {
+    "sessions": 8779.0,
+    "engagedSessions": 5053.0,
+    "keyEvents": 51.0
+   },
+   "Unassigned": {
+    "sessions": 154.0,
+    "engagedSessions": 4.0,
+    "keyEvents": 0.0
+   },
+   "AI Assistant": {
+    "sessions": 246.0,
+    "engagedSessions": 148.0,
+    "keyEvents": 10.0
+   },
+   "Referral": {
+    "sessions": 78.0,
+    "engagedSessions": 33.0,
+    "keyEvents": 0.0
+   },
+   "Organic Social": {
+    "sessions": 11.0,
+    "engagedSessions": 6.0,
+    "keyEvents": 0.0
+   },
+   "Paid Search": {
+    "sessions": 1.0,
+    "engagedSessions": 0.0,
+    "keyEvents": 0.0
+   }
+  },
+  "B": {
+   "Direct": {
+    "sessions": 17211.0,
+    "engagedSessions": 514.0,
+    "keyEvents": 67.0
+   },
+   "Organic Search": {
+    "sessions": 6037.0,
+    "engagedSessions": 3446.0,
+    "keyEvents": 272.0
+   },
+   "Referral": {
+    "sessions": 58.0,
+    "engagedSessions": 31.0,
+    "keyEvents": 8.0
+   },
+   "AI Assistant": {
+    "sessions": 149.0,
+    "engagedSessions": 69.0,
+    "keyEvents": 5.0
+   },
+   "Unassigned": {
+    "sessions": 52.0,
+    "engagedSessions": 9.0,
+    "keyEvents": 3.0
+   },
+   "Organic Social": {
+    "sessions": 10.0,
+    "engagedSessions": 5.0,
+    "keyEvents": 0.0
+   },
+   "Paid Search": {
+    "sessions": 4.0,
+    "engagedSessions": 0.0,
+    "keyEvents": 0.0
+   }
+  }
+ },
+ "ga4_countries": [
+  {
+   "country": "Singapore",
+   "A_sessions": 13016.0,
+   "A_engaged": 133.0,
+   "A_avgDur": 2,
+   "A_key": 0.0,
+   "B_sessions": 15097.0,
+   "B_key": 18.0
+  },
+  {
+   "country": "United States",
+   "A_sessions": 3668.0,
+   "A_engaged": 1766.0,
+   "A_avgDur": 134,
+   "A_key": 28.0,
+   "B_sessions": 2439.0,
+   "B_key": 105.0
+  },
+  {
+   "country": "India",
+   "A_sessions": 1069.0,
+   "A_engaged": 590.0,
+   "A_avgDur": 163,
+   "A_key": 4.0,
+   "B_sessions": 914.0,
+   "B_key": 41.0
+  },
+  {
+   "country": "China",
+   "A_sessions": 999.0,
+   "A_engaged": 82.0,
+   "A_avgDur": 17,
+   "A_key": 1.0,
+   "B_sessions": 625.0,
+   "B_key": 4.0
+  },
+  {
+   "country": "Canada",
+   "A_sessions": 585.0,
+   "A_engaged": 327.0,
+   "A_avgDur": 204,
+   "A_key": 3.0,
+   "B_sessions": 364.0,
+   "B_key": 5.0
+  },
+  {
+   "country": "Hong Kong",
+   "A_sessions": 427.0,
+   "A_engaged": 24.0,
+   "A_avgDur": 13,
+   "A_key": 0.0,
+   "B_sessions": 22.0,
+   "B_key": 1.0
+  },
+  {
+   "country": "United Kingdom",
+   "A_sessions": 359.0,
+   "A_engaged": 201.0,
+   "A_avgDur": 157,
+   "A_key": 2.0,
+   "B_sessions": 210.0,
+   "B_key": 6.0
+  },
+  {
+   "country": "Brazil",
+   "A_sessions": 348.0,
+   "A_engaged": 75.0,
+   "A_avgDur": 48,
+   "A_key": 0.0,
+   "B_sessions": 81.0,
+   "B_key": 2.0
+  },
+  {
+   "country": "United Arab Emirates",
+   "A_sessions": 310.0,
+   "A_engaged": 174.0,
+   "A_avgDur": 155,
+   "A_key": 2.0,
+   "B_sessions": 221.0,
+   "B_key": 12.0
+  },
+  {
+   "country": "(not set)",
+   "A_sessions": 303.0,
+   "A_engaged": 17.0,
+   "A_avgDur": 12,
+   "A_key": 1.0,
+   "B_sessions": 228.0,
+   "B_key": 0.0
+  },
+  {
+   "country": "Saudi Arabia",
+   "A_sessions": 301.0,
+   "A_engaged": 206.0,
+   "A_avgDur": 205,
+   "A_key": 1.0,
+   "B_sessions": 202.0,
+   "B_key": 33.0
+  },
+  {
+   "country": "Indonesia",
+   "A_sessions": 299.0,
+   "A_engaged": 156.0,
+   "A_avgDur": 121,
+   "A_key": 0.0,
+   "B_sessions": 221.0,
+   "B_key": 0.0
+  },
+  {
+   "country": "Malaysia",
+   "A_sessions": 250.0,
+   "A_engaged": 127.0,
+   "A_avgDur": 154,
+   "A_key": 1.0,
+   "B_sessions": 203.0,
+   "B_key": 12.0
+  },
+  {
+   "country": "Australia",
+   "A_sessions": 207.0,
+   "A_engaged": 119.0,
+   "A_avgDur": 155,
+   "A_key": 0.0,
+   "B_sessions": 173.0,
+   "B_key": 6.0
+  },
+  {
+   "country": "Netherlands",
+   "A_sessions": 174.0,
+   "A_engaged": 85.0,
+   "A_avgDur": 102,
+   "A_key": 0.0,
+   "B_sessions": 115.0,
+   "B_key": 3.0
+  }
+ ],
+ "ga4_organic_landing_family": {
+  "all": {
+   "A": {
+    "blog": {
+     "sessions": 3796.0,
+     "engagedSessions": 2221.0,
+     "keyEvents": 5.0
+    },
+    "other": {
+     "sessions": 1773.0,
+     "engagedSessions": 644.0,
+     "keyEvents": 8.0
+    },
+    "reference": {
+     "sessions": 810.0,
+     "engagedSessions": 537.0,
+     "keyEvents": 0.0
+    },
+    "training-geo": {
+     "sessions": 655.0,
+     "engagedSessions": 509.0,
+     "keyEvents": 14.0
+    },
+    "training": {
+     "sessions": 508.0,
+     "engagedSessions": 343.0,
+     "keyEvents": 0.0
+    },
+    "practical-tools": {
+     "sessions": 392.0,
+     "engagedSessions": 249.0,
+     "keyEvents": 10.0
+    },
+    "inspection": {
+     "sessions": 345.0,
+     "engagedSessions": 212.0,
+     "keyEvents": 1.0
+    },
+    "dt-3d": {
+     "sessions": 112.0,
+     "engagedSessions": 89.0,
+     "keyEvents": 1.0
+    },
+    "consulting": {
+     "sessions": 110.0,
+     "engagedSessions": 79.0,
+     "keyEvents": 4.0
+    },
+    "erp-software": {
+     "sessions": 94.0,
+     "engagedSessions": 57.0,
+     "keyEvents": 3.0
+    },
+    "method-city-other": {
+     "sessions": 78.0,
+     "engagedSessions": 52.0,
+     "keyEvents": 1.0
+    },
+    "inspection-hub": {
+     "sessions": 35.0,
+     "engagedSessions": 26.0,
+     "keyEvents": 3.0
+    },
+    "maritime": {
+     "sessions": 19.0,
+     "engagedSessions": 11.0,
+     "keyEvents": 0.0
+    },
+    "us-method-city": {
+     "sessions": 17.0,
+     "engagedSessions": 12.0,
+     "keyEvents": 1.0
+    },
+    "us-rt-city": {
+     "sessions": 10.0,
+     "engagedSessions": 7.0,
+     "keyEvents": 0.0
+    },
+    "us-industry-job": {
+     "sessions": 8.0,
+     "engagedSessions": 2.0,
+     "keyEvents": 0.0
+    }
+   },
+   "B": {
+    "blog": {
+     "sessions": 2811.0,
+     "engagedSessions": 1659.0,
+     "keyEvents": 59.0
+    },
+    "other": {
+     "sessions": 1185.0,
+     "engagedSessions": 431.0,
+     "keyEvents": 37.0
+    },
+    "reference": {
+     "sessions": 525.0,
+     "engagedSessions": 323.0,
+     "keyEvents": 3.0
+    },
+    "training-geo": {
+     "sessions": 516.0,
+     "engagedSessions": 355.0,
+     "keyEvents": 101.0
+    },
+    "training": {
+     "sessions": 402.0,
+     "engagedSessions": 275.0,
+     "keyEvents": 19.0
+    },
+    "practical-tools": {
+     "sessions": 137.0,
+     "engagedSessions": 91.0,
+     "keyEvents": 6.0
+    },
+    "inspection": {
+     "sessions": 124.0,
+     "engagedSessions": 86.0,
+     "keyEvents": 10.0
+    },
+    "dt-3d": {
+     "sessions": 106.0,
+     "engagedSessions": 70.0,
+     "keyEvents": 11.0
+    },
+    "method-city-other": {
+     "sessions": 71.0,
+     "engagedSessions": 50.0,
+     "keyEvents": 13.0
+    },
+    "erp-software": {
+     "sessions": 68.0,
+     "engagedSessions": 42.0,
+     "keyEvents": 1.0
+    },
+    "consulting": {
+     "sessions": 57.0,
+     "engagedSessions": 40.0,
+     "keyEvents": 10.0
+    },
+    "us-method-city": {
+     "sessions": 14.0,
+     "engagedSessions": 8.0,
+     "keyEvents": 2.0
+    },
+    "us-rt-city": {
+     "sessions": 10.0,
+     "engagedSessions": 7.0,
+     "keyEvents": 0.0
+    },
+    "maritime": {
+     "sessions": 2.0,
+     "engagedSessions": 1.0,
+     "keyEvents": 0.0
+    },
+    "inspection-hub": {
+     "sessions": 1.0,
+     "engagedSessions": 1.0,
+     "keyEvents": 0.0
+    },
+    "us-industry-job": {
+     "sessions": 1.0,
+     "engagedSessions": 1.0,
+     "keyEvents": 0.0
+    }
+   }
+  },
+  "usa": {
+   "A": {
+    "blog": {
+     "sessions": 1138.0,
+     "engagedSessions": 666.0,
+     "keyEvents": 1.0
+    },
+    "other": {
+     "sessions": 513.0,
+     "engagedSessions": 164.0,
+     "keyEvents": 4.0
+    },
+    "training-geo": {
+     "sessions": 302.0,
+     "engagedSessions": 239.0,
+     "keyEvents": 7.0
+    },
+    "reference": {
+     "sessions": 205.0,
+     "engagedSessions": 136.0,
+     "keyEvents": 0.0
+    },
+    "training": {
+     "sessions": 204.0,
+     "engagedSessions": 126.0,
+     "keyEvents": 0.0
+    },
+    "inspection": {
+     "sessions": 118.0,
+     "engagedSessions": 72.0,
+     "keyEvents": 0.0
+    },
+    "practical-tools": {
+     "sessions": 116.0,
+     "engagedSessions": 69.0,
+     "keyEvents": 1.0
+    },
+    "consulting": {
+     "sessions": 56.0,
+     "engagedSessions": 43.0,
+     "keyEvents": 4.0
+    },
+    "dt-3d": {
+     "sessions": 25.0,
+     "engagedSessions": 21.0,
+     "keyEvents": 0.0
+    },
+    "inspection-hub": {
+     "sessions": 23.0,
+     "engagedSessions": 18.0,
+     "keyEvents": 2.0
+    },
+    "erp-software": {
+     "sessions": 15.0,
+     "engagedSessions": 6.0,
+     "keyEvents": 0.0
+    },
+    "us-method-city": {
+     "sessions": 14.0,
+     "engagedSessions": 11.0,
+     "keyEvents": 1.0
+    },
+    "us-rt-city": {
+     "sessions": 10.0,
+     "engagedSessions": 7.0,
+     "keyEvents": 0.0
+    },
+    "method-city-other": {
+     "sessions": 9.0,
+     "engagedSessions": 6.0,
+     "keyEvents": 0.0
+    },
+    "maritime": {
+     "sessions": 5.0,
+     "engagedSessions": 4.0,
+     "keyEvents": 0.0
+    },
+    "us-industry-job": {
+     "sessions": 1.0,
+     "engagedSessions": 1.0,
+     "keyEvents": 0.0
+    }
+   },
+   "B": {
+    "blog": {
+     "sessions": 814.0,
+     "engagedSessions": 521.0,
+     "keyEvents": 12.0
+    },
+    "other": {
+     "sessions": 300.0,
+     "engagedSessions": 103.0,
+     "keyEvents": 10.0
+    },
+    "training-geo": {
+     "sessions": 233.0,
+     "engagedSessions": 141.0,
+     "keyEvents": 43.0
+    },
+    "training": {
+     "sessions": 171.0,
+     "engagedSessions": 107.0,
+     "keyEvents": 6.0
+    },
+    "reference": {
+     "sessions": 128.0,
+     "engagedSessions": 91.0,
+     "keyEvents": 0.0
+    },
+    "practical-tools": {
+     "sessions": 60.0,
+     "engagedSessions": 34.0,
+     "keyEvents": 0.0
+    },
+    "inspection": {
+     "sessions": 44.0,
+     "engagedSessions": 33.0,
+     "keyEvents": 5.0
+    },
+    "consulting": {
+     "sessions": 27.0,
+     "engagedSessions": 18.0,
+     "keyEvents": 2.0
+    },
+    "erp-software": {
+     "sessions": 19.0,
+     "engagedSessions": 9.0,
+     "keyEvents": 1.0
+    },
+    "us-method-city": {
+     "sessions": 12.0,
+     "engagedSessions": 6.0,
+     "keyEvents": 1.0
+    },
+    "dt-3d": {
+     "sessions": 11.0,
+     "engagedSessions": 8.0,
+     "keyEvents": 0.0
+    },
+    "us-rt-city": {
+     "sessions": 9.0,
+     "engagedSessions": 7.0,
+     "keyEvents": 0.0
+    },
+    "method-city-other": {
+     "sessions": 6.0,
+     "engagedSessions": 4.0,
+     "keyEvents": 0.0
+    },
+    "maritime": {
+     "sessions": 2.0,
+     "engagedSessions": 1.0,
+     "keyEvents": 0.0
+    },
+    "inspection-hub": {
+     "sessions": 1.0,
+     "engagedSessions": 1.0,
+     "keyEvents": 0.0
+    }
+   }
+  }
+ },
+ "ga4_events": {
+  "generate_lead": {
+   "A": 109.0,
+   "B": 73.0,
+   "usa_A": 40.0,
+   "usa_B": 26.0
+  },
+  "training_enquiry": {
+   "A": 19.0,
+   "B": 12.0,
+   "usa_A": 12.0,
+   "usa_B": 2.0
+  },
+  "training_enrolment": {
+   "A": 5.0,
+   "B": 4.0,
+   "usa_A": 0,
+   "usa_B": 2.0
+  },
+  "training_register_buy_click": {
+   "A": 37.0,
+   "B": 0,
+   "usa_A": 12.0,
+   "usa_B": 0
+  },
+  "level3_consulting_enquiry": {
+   "A": 8.0,
+   "B": 4.0,
+   "usa_A": 4.0,
+   "usa_B": 2.0
+  },
+  "erp_demo_request": {
+   "A": 9.0,
+   "B": 2.0,
+   "usa_A": 3.0,
+   "usa_B": 1.0
+  },
+  "inspection_rfq_submit": {
+   "A": 13.0,
+   "B": 1.0,
+   "usa_A": 8.0,
+   "usa_B": 0
+  },
+  "ndt_simulation_demo_request": {
+   "A": 21.0,
+   "B": 6.0,
+   "usa_A": 0,
+   "usa_B": 0
+  },
+  "contact_cta_click": {
+   "A": 611.0,
+   "B": 448.0,
+   "usa_A": 162.0,
+   "usa_B": 102.0
+  },
+  "form_start": {
+   "A": 218.0,
+   "B": 107.0,
+   "usa_A": 75.0,
+   "usa_B": 34.0
+  },
+  "inline_enquiry_view": {
+   "A": 2115.0,
+   "B": 0,
+   "usa_A": 340.0,
+   "usa_B": 0
+  },
+  "intent_route_click": {
+   "A": 81.0,
+   "B": 0,
+   "usa_A": 22.0,
+   "usa_B": 0
+  },
+  "ms_form_click": {
+   "A": 63.0,
+   "B": 124.0,
+   "usa_A": 25.0,
+   "usa_B": 49.0
+  },
+  "template_download": {
+   "A": 489.0,
+   "B": 297.0,
+   "usa_A": 99.0,
+   "usa_B": 29.0
+  },
+  "qualified_lead": {
+   "A": 10.0,
+   "B": 5.0,
+   "usa_A": 4.0,
+   "usa_B": 3.0
+  },
+  "tool_use": {
+   "A": 219.0,
+   "B": 31.0,
+   "usa_A": 32.0,
+   "usa_B": 3.0
+  }
+ },
+ "ga4_lead_pages": {
+  "inspection_rfq_submit": [
+   {
+    "page": "/contact",
+    "n": 13.0
+   }
+  ],
+  "training_enquiry": [
+   {
+    "page": "/contact",
+    "n": 15.0
+   },
+   {
+    "page": "/blog/asnt-level-3-basic-exam-prep",
+    "n": 1.0
+   },
+   {
+    "page": "/corporate-ndt-training",
+    "n": 1.0
+   },
+   {
+    "page": "/ndt-training-maryland",
+    "n": 1.0
+   },
+   {
+    "page": "/ndt-training-new-jersey",
+    "n": 1.0
+   }
+  ],
+  "generate_lead": [
+   {
+    "page": "/contact",
+    "n": 68.0
+   },
+   {
+    "page": "/tools/ultrasonic-a-scan-simulator",
+    "n": 9.0
+   },
+   {
+    "page": "/blog/asnt-level-3-basic-exam-prep",
+    "n": 5.0
+   },
+   {
+    "page": "/blog/ut-level-2-practice-questions",
+    "n": 5.0
+   },
+   {
+    "page": "/blog/pt-level-2-practice-questions-2026-free-mock-exam",
+    "n": 3.0
+   },
+   {
+    "page": "/blog/rt-level-2-practice-questions-2026-free-mock-exam",
+    "n": 3.0
+   },
+   {
+    "page": "/free-trial",
+    "n": 2.0
+   },
+   {
+    "page": "/practical-ndt",
+    "n": 2.0
+   },
+   {
+    "page": "/",
+    "n": 1.0
+   },
+   {
+    "page": "/3d-scanning-halifax",
+    "n": 1.0
+   },
+   {
+    "page": "/best-ndt-reporting-software-2026",
+    "n": 1.0
+   },
+   {
+    "page": "/blog/mt-level-2-practice-questions-2026-free-mock-exam",
+    "n": 1.0
+   },
+   {
+    "page": "/blog/paut-level-2-practice-questions-2026-free-mock-exam",
+    "n": 1.0
+   },
+   {
+    "page": "/corporate-ndt-training",
+    "n": 1.0
+   },
+   {
+    "page": "/erp/apps/ndt-reports",
+    "n": 1.0
+   }
+  ],
+  "level3_consulting_enquiry": [
+   {
+    "page": "/contact",
+    "n": 8.0
+   }
+  ],
+  "training_register_buy_click": [
+   {
+    "page": "/training",
+    "n": 23.0
+   },
+   {
+    "page": "/snt-tc-1a-eligibility",
+    "n": 5.0
+   },
+   {
+    "page": "/ndt-training-faq",
+    "n": 3.0
+   },
+   {
+    "page": "/ndt-training-canada",
+    "n": 2.0
+   },
+   {
+    "page": "/ndt-training-abu-dhabi",
+    "n": 1.0
+   },
+   {
+    "page": "/ndt-training-chicago",
+    "n": 1.0
+   },
+   {
+    "page": "/ndt-training-corpus-christi",
+    "n": 1.0
+   },
+   {
+    "page": "/ndt-training-tampa",
+    "n": 1.0
+   }
+  ]
+ }
+}

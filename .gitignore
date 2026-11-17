@@ -96,3 +96,6 @@ scripts/depth-pages-routes.txt
 
 # Python bytecode from the template/practice-pack builders (2026-10-24)
 __pycache__/
+
+# 2026-11-17 GSC/GA4 raw pulls (seo-trends-pull.py); commit only reports/seo-trends-*.json
+scripts/seo-trends-raw/

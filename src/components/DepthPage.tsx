@@ -40,6 +40,7 @@ import CourseNextStep from "@/components/CourseNextStep";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
 import { DEPTH_FAQ_HEADING, depthFaqFor } from "@/data/depth-faq-2026-10-18.mjs"; // 2026-10-18: visible FAQ = FAQPage, same rule as the crawler
+import { US_RT_DEPTH_PATHS, US_RT_NOTE_HTML } from "@/data/us-no-radiography-2026-11.mjs"; // 2026-11-17 §78: no RT offer on US pages; same note the crawler adds after the answer block
 
 // Owner page for the SNT-TC-1A head term: carries the nationwide city block.
 const TRAINING_OWNER_DEPTH = new Set(["/snt-tc-1a-training-certification"]);
@@ -169,6 +170,9 @@ export default function DepthPage({ slug }: { slug?: string }) {
         <CourseFactsBlock path={page.slug} />
 
         <AnswerBlock answer={page.answer} expansion={page.expansion} source={page.source} />
+        {US_RT_DEPTH_PATHS.includes(page.slug) && (
+          <div className="my-6 rounded-md border-l-4 border-primary bg-muted/40 px-4 py-3 text-slate-700 dark:text-slate-300 [&_a]:text-primary [&_a]:underline" dangerouslySetInnerHTML={{ __html: US_RT_NOTE_HTML }} />
+        )}
         <OwnerLinkParagraph path={page.slug} className="owner-link my-6 text-slate-700 dark:text-slate-300 leading-relaxed [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2" />
 
         <AuthorByline />

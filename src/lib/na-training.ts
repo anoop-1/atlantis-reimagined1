@@ -2,6 +2,7 @@
 // Both layers read src/data/na-training-cities.json so the SEOHead title/H1
 // here always matches the prerendered HTML crawlers see.
 import naData from "@/data/na-training-cities.json";
+import { naCityTitle, naCityH1, naCityDescription } from "@/data/na-training-title-2026-11.mjs"; // 2026-11-17 §78: same formula as scripts/training-na.mjs
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 import hoursData from "@/data/snt-tc-1a-hours.json";
 import sessionsData from "@/data/course-sessions.json";
@@ -37,14 +38,18 @@ export function naTrainingMeta(slug: string): NaTrainingMeta | null {
   const title =
     kind === "country"
       ? `NDT Training in ${name} — Online & Onsite ASNT SNT-TC-1A Courses`
-      : `NDT Training in ${label} — Online & Onsite ASNT Courses`;
+      : naCityTitle(label);
   // Canadian pages: hand-sized title, meta and H1 from src/data/canada-certification-2026-10.json
   // (same entry scripts/training-na.mjs reads for the crawler HTML).
   const ca = country === "Canada" ? canadaPageMeta(canadaData as unknown as CanadaData, `/ndt-training-${slug}`) : null;
   if (ca) return { slug, name, st, country, kind, label, title: ca.title, h1: ca.h1, description: ca.description };
   return {
-    slug, name, st, country, kind, label, title, h1: title,
-    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`,
+    slug, name, st, country, kind, label, title,
+    h1: kind === "country" ? title : naCityH1(label),
+    description:
+      kind === "country"
+        ? `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. We reply within one business day.`
+        : naCityDescription(label),
   };
 }
 
