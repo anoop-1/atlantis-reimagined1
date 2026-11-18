@@ -258,7 +258,8 @@ export function assertAuditCwiClean(builtPaths) {
     for (const m of html.matchAll(/href="(\/[^"?#]*)/g)) {
       const t = m[1].replace(/\/$/, '') || '/';
       if (t === '/contact') continue;
-      if (built.size && !built.has(t)) errors.push(`${path}: link to unbuilt ${t}`);
+      // Partial runs (records still being written) may link to planned pages that have no record yet.
+      if (built.size && !built.has(t) && !(partial && byPath.has(t))) errors.push(`${path}: link to unbuilt ${t}`);
     }
   }
   if (errors.length) throw new Error(`audit-cwi-2026-11: ${errors.length} problem(s):\n  ${errors.slice(0, 40).join('\n  ')}`);
