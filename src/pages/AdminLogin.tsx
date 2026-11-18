@@ -31,8 +31,8 @@ export default function AdminLogin() {
     setIsLoading(true);
 
     // Simulate a small delay for better UX
-    setTimeout(() => {
-      if (login(email, password)) {
+    setTimeout(async () => {
+      if (await login(email, password)) {
         navigate('/admin/dashboard');
       } else {
         setError('Invalid email or password');

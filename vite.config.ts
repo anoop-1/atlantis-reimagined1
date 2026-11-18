@@ -1,7 +1,21 @@
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { execFileSync } from "child_process";
+import { createHash } from "crypto";
+
+// 2026-11-18 (CLAUDE.md §80): the admin login used to compare against
+// import.meta.env.VITE_ADMIN_EMAIL / VITE_ADMIN_PASSWORD, which Vite inlines, so both
+// shipped in plain text in the public entry chunk. Only a salted SHA-256 of the pair is
+// injected now; src/context/AuthContext.tsx hashes what the user types the same way.
+// Keep ADMIN_AUTH_SALT in step with AuthContext.tsx.
+const ADMIN_AUTH_SALT = "atlantisndt-admin-v1";
+const adminAuthHash = (env: Record<string, string>) => {
+   const email = (env.VITE_ADMIN_EMAIL || "").trim().toLowerCase();
+   const password = env.VITE_ADMIN_PASSWORD || "";
+   if (!email || !password) return "";
+   return createHash("sha256").update(`${ADMIN_AUTH_SALT}\n${email}\n${password}`).digest("hex");
+};
 
 // https://vitejs.dev/config/
 // lovable-tagger is imported DYNAMICALLY and ONLY in development. This keeps it
@@ -26,7 +40,11 @@ export default defineConfig(async ({ mode }) => {
       const { componentTagger } = await import("lovable-tagger");
       plugins.push(componentTagger());
    }
+   const env = { ...loadEnv(mode, process.cwd(), "VITE_"), ...process.env } as Record<string, string>;
    return {
+      define: {
+         __ADMIN_AUTH_HASH__: JSON.stringify(adminAuthHash(env)),
+      },
       server: {
          host: "::",
          port: 8080,
