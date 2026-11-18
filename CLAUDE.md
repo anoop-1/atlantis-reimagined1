@@ -4149,3 +4149,6 @@ Competitor pattern (all three segments): national firms (Mistras, Acuren, ATS, I
 ### 79.7 Checkpoints
 - 2026-12-01: "nas 410" position on the restored URL (was p7.5 on the 301'd one); impressions on the four posts; the 34 sections' pages vs 2026-11-17 positions (training p31–75, consulting p37–90, inspection p17–62).
 - 2026-12-15: US training_enquiry, level3_consulting_enquiry, inspection_rfq_submit per 28 days (12 / 8 US-all / 8).
+
+### 79.8 Deployed
+Owner, 2026-11-18: "Push live now". main = b5d99a60c1 (Deploy to VPS run 44221453140, success). Live-checked: the four new posts return 200 with their titles; /nas-410-certification-requirements and /glossary/nas-410 301 to the NAS 410 explainer; Denver training, Houston consulting, Houston pressure-vessel and /ultrasonic-testing carry their new sections; the consulting template, RT and VT claim fixes are live (0 hits). IndexNow: 189 changed indexable URLs accepted (`scripts/indexing-url-list-2026-11-18.json`). Sitemap index resubmitted through the API (HTTP 204, pending, 0 errors).
