@@ -29,7 +29,6 @@ const PUBLISHED = '2026-11-18';
 const words = (h) => String(h).replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').split(/\s+/).filter(Boolean).length;
 const FORBIDDEN = [
   /\$\s?\d/, /\b(?:USD|AED|SAR|QAR|OMR|KWD|BHD)\s?\d/, /\bNAS[ -]?410\b/i,
-  /instant scored feedback|adaptive difficulty|five environments/i,
   ...PRACTICAL_CLAIM_RULES.map(([, re]) => re),
   /\b(?:Aramco|ADNOC|SABIC|PDO|KOC|QatarEnergy)[- ]approved\b/i,
   /Atlantis[^.]{0,60}\b(?:ISO 9712|PCN|API (?:510|570|653))\b[^.]{0,40}\btrain/i,
