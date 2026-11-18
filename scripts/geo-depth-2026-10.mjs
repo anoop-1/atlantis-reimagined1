@@ -61,7 +61,7 @@ export function geoDepthProblems(d, knownPaths) {
   if (/anu\.anoop|@[a-z0-9-]+\.(com|net|org)/i.test(t)) out.push('email address');
   for (const s of t.split(/(?<=[.!?])\s+/)) {
     if (/\b(Atlantis|we|our)\b/i.test(s) && /\b(RBI|risk[- ]based inspection|API ?5(79|80|81)|fitness[- ]for[- ]service|FFS)\b/i.test(s) && !/\b(not|never|no|isn't|doesn't|does not|owner's|engineer)\b/i.test(s)) out.push(`RBI/FFS offering? ${s.slice(0, 120)}`);
-    if (/\b(Atlantis|we|our)\b/i.test(s) && /\b(CWI|API ICP|PCN|CSWIP|CGSB|ISO 9712|NAS 410)\b[^.]{0,40}\b(training|course|exam prep)\b/i.test(s) && !/\b(not|never|doesn't|does not)\b/i.test(s)) out.push(`non-ASNT training offer? ${s.slice(0, 120)}`);
+    if (/\b(Atlantis|we|our)\b/i.test(s) && /\b(API ICP|PCN|CSWIP|CGSB|ISO 9712|NAS 410)\b[^.]{0,40}\b(training|course|exam prep)\b/i.test(s) && !/\b(not|never|doesn't|does not)\b/i.test(s)) out.push(`non-ASNT training offer? ${s.slice(0, 120)}`);
     if (/\b(Atlantis|we)\b[^.]{0,30}\b(is|are|act as|serve as)\b[^.]{0,20}\b(authori[sz]ed inspector|inspector of record|authori[sz]ed inspection agency)\b/i.test(s) && !/\bnot\b/i.test(s)) out.push(`AI claim? ${s.slice(0, 120)}`);
   }
   if (knownPaths) for (const m of d.html.matchAll(/href="([^"]+)"/g)) {

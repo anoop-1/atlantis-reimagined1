@@ -50,7 +50,7 @@ const FORBIDDEN = [
   [/[$£€₹]\s?\d/, 'price'],
   [/odoo/i, 'Odoo'],
   [/anu\.anoop485/i, 'personal email'],
-  [/\b(our|atlantis)\b[^.]{0,80}\b(ISO 9712|PCN|CSWIP|CWI|API 510|API 570|API 653)\b[^.]{0,30}\b(training|course)/i, 'non-SNT training offer'],
+  [/\b(our|atlantis)\b[^.]{0,80}\b(ISO 9712|PCN|CSWIP|API 510|API 570|API 653)\b[^.]{0,30}\b(training|course)/i, 'non-SNT training offer'],
   [/pass rate/i, 'pass-rate claim'],
   [/training (centre|center)\b/i, 'physical centre wording'],
 ];

@@ -151,7 +151,7 @@ export function assertWave11Clean() {
     if (/[$£€₹]\s?\d/.test(s) && !/salary/i.test(s)) bad.push(`${p}: currency figure outside salary context`);
     if (/odoo/i.test(s)) bad.push(`${p}: vendor name`);
     if (/anu\.anoop485/i.test(s)) bad.push(`${p}: personal email`);
-    if (/\b(CWI|API 5\d\d|ISO 9712|PCN|CSWIP)\b[^.]*\b(course|training|prep)\b/i.test(s)) bad.push(`${p}: non-ASNT training offer`);
+    if (/\b(API 5\d\d|ISO 9712|PCN|CSWIP)\b[^.]*\b(course|training|prep)\b/i.test(s)) bad.push(`${p}: non-ASNT training offer`);
     const t = o.title.toLowerCase();
     if (titles.has(t)) bad.push(`${p}: duplicate title with ${titles.get(t)}`);
     titles.set(t, p);

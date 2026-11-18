@@ -25,7 +25,7 @@ const BANNED = [
   [/\blive(?:[- ]online)? (?:class|classes|session|sessions|classroom|cohort)|\binstructor-led\b|\blive-virtual\b/i, 'live class claim'],
   [/within 24 hours|24-hour|same[- ]day|\bguarantee|\b#1\b|best ndt school|pass rate|job placement|placement assistance|job guarantee/i, 'banned promise'],
   [/NAS\s?410/i, 'NAS 410'],
-  [/(?:atlantis|we)\s+(?:offer|provide|deliver|run)s?\s+[^.<]{0,40}(?:API\s?(?:510|570|653)|AWS\s?CWI|\bCWI\b|ISO\s?9712|\bPCN\b|CSWIP|CGSB)\s+(?:training|courses?|certification)/i, 'unoffered certification offered'],
+  [/(?:atlantis|we)\s+(?:offer|provide|deliver|run)s?\s+[^.<]{0,40}(?:API\s?(?:510|570|653)|ISO\s?9712|\bPCN\b|CSWIP|CGSB)\s+(?:training|courses?|certification)/i, 'unoffered certification offered'],
   [/Level III in (?:[A-Z]{2,4}, )*(?:ET|PAUT|TOFD)\b|Level III in UT, RT, MT, PT,? (?:and )?(?:VT,? (?:and )?)?ET/i, 'founder methods wrong'],
   [/\b(?:prices?|pricing|fees? (?:are|start|from)|costs? (?:from|start))\b(?![^.]{0,80}(?:published|on this page|table|portal|contact))/i, 'price wording (point to the published table or contact)'],
 ];

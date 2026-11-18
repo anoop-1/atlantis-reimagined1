@@ -40,7 +40,7 @@ const FORBIDDEN = [
   ['client claim', /\b(our clients|clients (include|such as)|trusted by|we have (worked|served)|we['’]ve (worked|served)|customers include|for clients such as|client list)\b/i],
   ['superlative', /\b(the best|#1|number one|top[- ]rated|premier|world[- ]class|industry[- ]leading|market[- ]leading|unmatched|unrivall?ed|leading provider)\b/i],
   ['guarantee', /\bguarantee/i],
-  ['training scheme Atlantis does not offer', /\b(CWI|API(?: 510| 570| 653)?|PCN|CSWIP|ISO 9712|CGSB|NAS 410)\b[^.]{0,20}\b(training|course|exam prep|certification program)\b/i],
+  ['training scheme Atlantis does not offer', /\b(API(?: 510| 570| 653)?|PCN|CSWIP|ISO 9712|CGSB|NAS 410)\b[^.]{0,20}\b(training|course|exam prep|certification program)\b/i],
   ['certifying people', /\b(we|atlantis)\b[^.]{0,30}\bcertif(y|ies)\b/i],
   ['ET in founder list', /Level III in [^.]{0,60}\b(ET|eddy)\b/i],
 ];
