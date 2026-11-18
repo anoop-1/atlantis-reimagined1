@@ -494,7 +494,7 @@ BLOGS.push(blog({
 <p>Structures subject to cyclic loads (bridges per AASHTO, offshore platforms per API RP 2A) follow AWS D1.1 + AASHTO LRFD / API RP 2A overlay. Fatigue categories A (smooth base metal) through E' (transverse stiffener weld) define allowable stress range vs cycle count. NDT acceptance is correspondingly tighter — Annex G specifies "fracture critical" inspection requiring 100 % UT or RT on Category D / E / E' details.</p>
 
 <h2>Inspector Qualifications — Clause 6.1 + AWS QC1</h2>
-<p>D1.1 inspections are performed by an AWS-Certified Welding Inspector (CWI) or Senior CWI per QC1. The CWI exam has three parts (Part A Fundamentals, 150 questions; Part B Practical, hands-on with 46 questions at AWS exam locations; Part C Code Book, 50-65 open-book questions) with a minimum of 72% on each, per aws.org. Atlantis NDT does not run CWI exam preparation; its training is ASNT SNT-TC-1A NDT training (see <a href="/ndt-training-usa">ASNT NDT training</a>).</p>
+<p>D1.1 inspections are performed by an AWS-Certified Welding Inspector (CWI) or Senior CWI per QC1. The CWI exam has three parts (Part A Fundamentals, 150 questions; Part B Practical, hands-on with 46 questions at AWS exam locations; Part C Code Book, 50-65 open-book questions) with a minimum of 72% on each, per aws.org. Atlantis NDT runs a six-day CWI exam-prep course alongside its ASNT SNT-TC-1A NDT training (see <a href="/ndt-training-usa">ASNT NDT training</a>).</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Q1: When does D1.1 apply vs B31.3 vs ASME VIII?</h3>

@@ -357,6 +357,8 @@ const REVIEWED = [
   ['scripts/training-family-layers.mjs', 'here is how we deliver API 510 training in Baltimore'],
   // 2026-10-04: code comment that DENIES a CWI offer ("offers no CWI prep")
   ['scripts/prerender.mjs', 'Atlantis offers no CWI prep, so no "enrol" there'],
+  // 2026-11-18: the audit/CWI build guard's own rule text (it fails on founder misattribution).
+  ['scripts/audit-cwi-2026-11.mjs', "['founder misattribution', /Rayavarapu"],
   // 2026-10-07: code comment whose denial ("Atlantis does not") sits on the previous line
   ['scripts/ctr-wave12-overrides.mjs', '*     offer CWI training.'],
 ];
@@ -447,15 +449,24 @@ if (WITH_DIST) {
   files = files.concat(distFiles);
 }
 
+// 2026-11-18 (owner, CLAUDE.md §80): Atlantis now offers a 6-day AWS CWI exam-preparation course. CWI course
+// wording is allowed on the CWI pages and their sources only (scripts/audit-cwi-2026-11.mjs CWI_OFFER_PATHS), and in
+// the menu label. On those files the CWI tokens are masked before the NON-ASNT-SCHEME-OFFER rules run, so a CSWIP,
+// PCN, ISO 9712 or API training offer on the same line still fails. Everywhere else the CWI rules stand unchanged.
+const CWI_OFFER_FILE = /^(?:src\/data\/audit-cwi-2026-11\/(?:aws-cwi-training|cwi-training-[a-z-]+)\.json|scripts\/audit-cwi-2026-11\.mjs|src\/data\/site-menu\.ts|dist\/(?:aws-cwi-training|training\/cwi-training-[a-z-]+)\/index\.html)$/;
+const maskCwi = (line) => line.replace(/\b(?:AWS\s+)?(?:Certified Welding Inspector(?:\s*\(CWI\))?|CWI)\b/g, 'WELDQUAL');
+
 const VIOLATIONS = [];
 for (const abs of files) {
   const rel = toRel(abs);
   let text;
   try { text = readFileSync(abs, 'utf8'); } catch { continue; }
   const lines = text.split(/\r?\n/);
-  lines.forEach((line, i) => {
+  const cwiFile = CWI_OFFER_FILE.test(rel);
+  lines.forEach((line0, i) => {
     for (const [kind, re, ctx, neg, fileRe] of RULES) {
       if (fileRe && !fileRe.test(rel)) continue;
+      const line = cwiFile && kind === 'NON-ASNT-SCHEME-OFFER' ? maskCwi(line0) : line0;
       const g = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g');
       let m;
       while ((m = g.exec(line)) !== null) {

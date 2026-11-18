@@ -37,7 +37,7 @@ const config: VerticalConfig = {
       { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-region hyperscale annual contract; operator-specific written-practice bridging included." },
    ],
    deliveryNote:
-      "Data center cohorts are dominated by hybrid delivery, with structural-steel and bus-bar practicals running at the EPC's fabrication shop and commissioning practicals running on-site at the data center during pre-IST (integrated systems test). Theory on the LMS during design + procurement, practicals scheduled against the EPC critical path. AWS CWI is examined by AWS; Atlantis does not offer CWI training or exam preparation.",
+      "Data center cohorts are dominated by hybrid delivery, with structural-steel and bus-bar practicals running at the EPC's fabrication shop and commissioning practicals running on-site at the data center during pre-IST (integrated systems test). Theory on the LMS during design + procurement, practicals scheduled against the EPC critical path. AWS CWI is examined by AWS; Atlantis runs a six-day exam-prep course for it.",
    complianceFootnote:
       "Hyperscale data center operators (AWS, Microsoft Azure, Google Cloud, Meta, Equinix, Digital Realty) all run vendor-of-record audits to slightly different layouts but ask for the same underlying evidence — SNT-TC-1A written practice, AWS CWI credentials on welding inspectors, AWS D1.1 / D1.6 / B31.3 / B31.9 acceptance criteria correctly applied, vision and OJT logs current. Our delivery captures all of that automatically and exports it in the layout the hyperscale operator's facilities engineering team expects.",
    caseStudy: {

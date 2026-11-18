@@ -21,6 +21,7 @@ export const PRODUCTS: MenuItem[] = [
 
 export const SERVICES: MenuItem[] = [
    { name: "NDT Training", path: "/training", blurb: "ASNT Level III-led courses" },
+   { name: "AWS CWI Exam Prep (6 Days)", path: "/aws-cwi-training", blurb: "Prepare for the Certified Welding Inspector exam" },
    { name: INSPECTION_NAV.name, path: INSPECTION_NAV.path, blurb: INSPECTION_NAV.blurb ?? "", children: INSPECTION_NAV.children, menuTitle: INSPECTION_NAV.menuTitle, allLabel: INSPECTION_NAV.allLabel, talk: INSPECTION_NAV.talk },
    { name: "NDT Level III Consulting", path: "/consulting", blurb: "Audits, SNT-TC-1A programmes, compliance, ISO", children: CONSULTING_NAV.children, menuTitle: CONSULTING_NAV.menuTitle, allLabel: CONSULTING_NAV.allLabel, talk: CONSULTING_NAV.talk },
    { name: "NDT Report Validation", path: "/report-validation", blurb: "Independent review of issued reports" },

@@ -63,7 +63,7 @@ export const HUB: {
   workplaceGrid: { h2: string; intro: string; others: string };
   canCannot: { h2: string; intro: string; canHeading: string; can: string[]; cannotHeading: string; cannot: string[] };
 };
-export const CITY_BLOCK: { h2: string; p: string; methods: [string, string][]; workplaces: [string, string][]; practiseNow: [string, string] };
+export const CITY_BLOCK: { h2: string; p: string; features: [string, string][]; methods: [string, string][]; workplaces: [string, string][]; practiseNow: [string, string] };
 export function tokens(s: string): SimToken[];
 export function plain(s: string): string;
 export function resolveBlock(block: SimBlock, page: SimPage, hours: SntHours): SimBlock;

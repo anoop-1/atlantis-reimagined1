@@ -377,6 +377,22 @@ const PracticalNdtTennessee = lazy(() => import("./pages/practical-ndt-tennessee
 const PracticalNdtMississippi = lazy(() => import("./pages/practical-ndt-mississippi"));
 const PracticalNdtBritishColumbia = lazy(() => import("./pages/practical-ndt-british-columbia"));
 const PracticalNdtQuebec = lazy(() => import("./pages/practical-ndt-quebec"));
+const PracticalNdtArkansas = lazy(() => import("./pages/practical-ndt-arkansas"));
+const PracticalNdtAustin = lazy(() => import("./pages/practical-ndt-austin"));
+const PracticalNdtConnecticut = lazy(() => import("./pages/practical-ndt-connecticut"));
+const PracticalNdtEastHartford = lazy(() => import("./pages/practical-ndt-east-hartford"));
+const PracticalNdtIdaho = lazy(() => import("./pages/practical-ndt-idaho"));
+const PracticalNdtKansas = lazy(() => import("./pages/practical-ndt-kansas"));
+const PracticalNdtMartinez = lazy(() => import("./pages/practical-ndt-martinez"));
+const PracticalNdtMaryland = lazy(() => import("./pages/practical-ndt-maryland"));
+const PracticalNdtMissouri = lazy(() => import("./pages/practical-ndt-missouri"));
+const PracticalNdtMontana = lazy(() => import("./pages/practical-ndt-montana"));
+const PracticalNdtNewJersey = lazy(() => import("./pages/practical-ndt-new-jersey"));
+const PracticalNdtOregon = lazy(() => import("./pages/practical-ndt-oregon"));
+const PracticalNdtSanJose = lazy(() => import("./pages/practical-ndt-san-jose"));
+const PracticalNdtSouthCarolina = lazy(() => import("./pages/practical-ndt-south-carolina"));
+const PracticalNdtSpringfield = lazy(() => import("./pages/practical-ndt-springfield"));
+const PracticalNdtWyoming = lazy(() => import("./pages/practical-ndt-wyoming"));
 const NDTConnect = lazy(() => import("./pages/NDTConnect"));
 const BlogPage = lazy(() => import("./pages/Blog"));
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
@@ -3623,6 +3639,22 @@ export default function RouteTable() { return (
                   <Route path="/practical-ndt-mississippi" element={<PracticalNdtMississippi />} />
                   <Route path="/practical-ndt-british-columbia" element={<PracticalNdtBritishColumbia />} />
                   <Route path="/practical-ndt-quebec" element={<PracticalNdtQuebec />} />
+                  <Route path="/practical-ndt-arkansas" element={<PracticalNdtArkansas />} />
+                  <Route path="/practical-ndt-austin" element={<PracticalNdtAustin />} />
+                  <Route path="/practical-ndt-connecticut" element={<PracticalNdtConnecticut />} />
+                  <Route path="/practical-ndt-east-hartford" element={<PracticalNdtEastHartford />} />
+                  <Route path="/practical-ndt-idaho" element={<PracticalNdtIdaho />} />
+                  <Route path="/practical-ndt-kansas" element={<PracticalNdtKansas />} />
+                  <Route path="/practical-ndt-martinez" element={<PracticalNdtMartinez />} />
+                  <Route path="/practical-ndt-maryland" element={<PracticalNdtMaryland />} />
+                  <Route path="/practical-ndt-missouri" element={<PracticalNdtMissouri />} />
+                  <Route path="/practical-ndt-montana" element={<PracticalNdtMontana />} />
+                  <Route path="/practical-ndt-new-jersey" element={<PracticalNdtNewJersey />} />
+                  <Route path="/practical-ndt-oregon" element={<PracticalNdtOregon />} />
+                  <Route path="/practical-ndt-san-jose" element={<PracticalNdtSanJose />} />
+                  <Route path="/practical-ndt-south-carolina" element={<PracticalNdtSouthCarolina />} />
+                  <Route path="/practical-ndt-springfield" element={<PracticalNdtSpringfield />} />
+                  <Route path="/practical-ndt-wyoming" element={<PracticalNdtWyoming />} />
                   <Route path="/ndt-connect" element={<NDTConnect />} />
                   <Route path="/admin/login" element={<AdminLogin />} />
                   <Route path="/admin/dashboard" element={<AdminDashboard />} />

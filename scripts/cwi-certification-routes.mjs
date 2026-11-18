@@ -3,7 +3,7 @@
  *
  * 2026-10-04: these 20 pages used to present Atlantis NDT as delivering "CWI
  * Certification Training" (Course schema, "our curriculum", cohorts, enrol).
- * Owner rule: Atlantis trains to ASNT SNT-TC-1A only — never CWI, API, ISO 9712,
+ * Owner rule: Atlantis trains to ASNT SNT-TC-1A (plus, since 2026-11-18, a 6-day AWS CWI exam-prep course) — never API, ISO 9712,
  * PCN or CSWIP. Owner rule too: never remove pages, and /training/cwi-training-tampa
  * ranks for "certified welding inspector tampa". So the URLs stay and the pages
  * are reframed as honest information pages about the AWS CWI credential, with

@@ -16,6 +16,7 @@ import { asntCertificationUpgrade } from '../src/data/asnt-certification-2026-10
 import { packageHours } from '../src/data/course-markup-2026-10.mjs';
 import { usConventionalUpgrades } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14: US MT/PT/UT city pages + reworded US RT pages
 import { usIndustryUpgrades } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17: US MT/PT/UT industry and job pages
+import { auditCwiUpgrades } from './audit-cwi-2026-11.mjs'; // 2026-11-18: audit-support consulting + AWS CWI exam-prep pages
 
 const readJson = (rel) => JSON.parse(readFileSync(new URL(rel, import.meta.url), 'utf8'));
 const base = readJson('../src/data/editorial-page-upgrades.json');
@@ -59,9 +60,10 @@ for (const [path, u] of Object.entries(base)) {
 }
 
 const practice = practiceTestUpgrades();
-const USCONV = usConventionalUpgrades(), USIND = usIndustryUpgrades();
+const USCONV = usConventionalUpgrades(), USIND = usIndustryUpgrades(), AUDITCWI = auditCwiUpgrades();
 for (const p of Object.keys(USIND)) if (p in USCONV) throw new Error(`editorial-upgrades: ${p} is produced by both US city and US industry modules`);
-const generated = { ...practice, ...asntCertificationUpgrade(ASNT_CERT, HOURS), ...USCONV, ...USIND };
+for (const p of Object.keys(AUDITCWI)) if (p in USCONV || p in USIND) throw new Error(`editorial-upgrades: ${p} is produced by the audit/CWI module and a US NDT module`);
+const generated = { ...practice, ...asntCertificationUpgrade(ASNT_CERT, HOURS), ...USCONV, ...USIND, ...AUDITCWI };
 for (const path of Object.keys(generated)) {
   if (base[path]) throw new Error(`editorial-upgrades: ${path} is in editorial-page-upgrades.json and is also generated; keep one source`);
 }

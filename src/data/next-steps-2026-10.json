@@ -586,6 +586,10 @@
         [
           "/asnt-ndt-level-ii-exam-prep",
           "ASNT NDT Level II exam preparation"
+        ],
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep (6 days)"
         ]
       ]
     },
@@ -828,6 +832,10 @@
         [
           "/practical-ndt/ndt-lab",
           "NDT lab simulator: bench specimens and reference blocks"
+        ],
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep (6 days)"
         ]
       ]
     },
@@ -1440,6 +1448,10 @@
         [
           "/blog/nas-410-vs-snt-tc-1a",
           "NAS 410 vs SNT-TC-1A: what's different and which applies"
+        ],
+        [
+          "/consulting/nas-410-audit-compliance-documentation",
+          "NAS 410 audit compliance documentation"
         ]
       ]
     },
@@ -1468,6 +1480,10 @@
         [
           "/blog/nas-410-vs-snt-tc-1a",
           "NAS 410 vs SNT-TC-1A: what's different and which applies"
+        ],
+        [
+          "/consulting/nas-410-audit-compliance-documentation",
+          "NAS 410 audit compliance documentation"
         ]
       ]
     },
@@ -1482,6 +1498,10 @@
         [
           "/blog/nas-410-vs-snt-tc-1a",
           "NAS 410 vs SNT-TC-1A: what's different and which applies"
+        ],
+        [
+          "/consulting/nas-410-audit-compliance-documentation",
+          "NAS 410 audit compliance documentation"
         ]
       ]
     },
@@ -1496,6 +1516,410 @@
         [
           "/blog/nas-410-vs-snt-tc-1a",
           "NAS 410 vs SNT-TC-1A: what's different and which applies"
+        ]
+      ]
+    },
+    "/blog/cwi-certification-requirements-cost-career-impact": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/training/cwi-training-seattle",
+          "CWI exam prep in Seattle"
+        ],
+        [
+          "/training/cwi-training-tampa",
+          "CWI exam prep in Tampa"
+        ],
+        [
+          "/training/cwi-training-los-angeles",
+          "CWI exam prep in Los Angeles"
+        ]
+      ]
+    },
+    "/blog/cwi-pass-rate-by-part-a-b-c-breakdown": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/blog/cwi-exam-cost-2026-total-investment-calculator": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/blog/cwi-vs-cswip-3-1-comparison-2028": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/vt-level-1-training": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/vt-level-2-training": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/weld-inspection": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/standards/aws-d1-1": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/blog/wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104": {
+      "h": "Preparing for the AWS CWI exam?",
+      "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
+      "links": [
+        [
+          "/aws-cwi-training",
+          "AWS CWI exam prep: the 6-day course"
+        ],
+        [
+          "/blog/cwi-certification-requirements-cost-career-impact",
+          "CWI certification requirements and career paths"
+        ]
+      ]
+    },
+    "/consulting/nadcap-ac7114-audit-readiness": {
+      "h": "Documentation for your Responsible Level 3",
+      "p": "We prepare and review the written practice, training, examination and vision records that your Responsible Level 3 approves before a Nadcap or prime audit. Atlantis is not the Responsible Level 3 and certifies no one.",
+      "links": [
+        [
+          "/consulting/nas-410-audit-compliance-documentation",
+          "Aerospace audit documentation"
+        ],
+        [
+          "/consulting/nas-410-audit-documentation-seattle",
+          "Aerospace audit documentation in Seattle"
+        ],
+        [
+          "/consulting/nas-410-audit-documentation-phoenix",
+          "Aerospace audit documentation in Phoenix"
+        ]
+      ]
+    },
+    "/consulting/written-practice-for-aerospace": {
+      "h": "Documentation for your Responsible Level 3",
+      "p": "We prepare and review the written practice, training, examination and vision records that your Responsible Level 3 approves before a Nadcap or prime audit. Atlantis is not the Responsible Level 3 and certifies no one.",
+      "links": [
+        [
+          "/consulting/nas-410-audit-compliance-documentation",
+          "Aerospace audit documentation"
+        ],
+        [
+          "/consulting/nas-410-audit-documentation-seattle",
+          "Aerospace audit documentation in Seattle"
+        ],
+        [
+          "/consulting/nas-410-audit-documentation-phoenix",
+          "Aerospace audit documentation in Phoenix"
+        ]
+      ]
+    },
+    "/standards/nbic-nb-23": {
+      "h": "Preparing for an R or ASME certificate review?",
+      "p": "An ASNT Level III can get the NDE side of the review ready: written practice, NDE procedures, demonstrations and control of subcontracted NDE.",
+      "links": [
+        [
+          "/consulting/nbic-r-stamp-ndt-audit-support",
+          "NBIC R stamp: NDE audit support"
+        ],
+        [
+          "/consulting/asme-audit-ndt-level-iii-support",
+          "ASME audit: Level III support for the NDE program"
+        ]
+      ]
+    },
+    "/compliance/nbic-nb-23": {
+      "h": "Preparing for an R or ASME certificate review?",
+      "p": "An ASNT Level III can get the NDE side of the review ready: written practice, NDE procedures, demonstrations and control of subcontracted NDE.",
+      "links": [
+        [
+          "/consulting/nbic-r-stamp-ndt-audit-support",
+          "NBIC R stamp: NDE audit support"
+        ],
+        [
+          "/consulting/asme-audit-ndt-level-iii-support",
+          "ASME audit: Level III support for the NDE program"
+        ]
+      ]
+    },
+    "/standards/asme-section-viii-div-1": {
+      "h": "Preparing for an ASME certificate review?",
+      "p": "An ASNT Level III can get the NDE side of the joint review ready: written practice, Section V procedures, demonstrations and control of subcontracted NDE.",
+      "links": [
+        [
+          "/consulting/asme-audit-ndt-level-iii-support",
+          "ASME audit: Level III support for the NDE program"
+        ],
+        [
+          "/consulting/asme-audit-support-houston",
+          "ASME audit support in Houston"
+        ],
+        [
+          "/consulting/asme-audit-support-tulsa",
+          "ASME audit support in Tulsa"
+        ],
+        [
+          "/consulting/nbic-r-stamp-ndt-audit-support",
+          "NBIC R stamp: NDE audit support"
+        ]
+      ]
+    },
+    "/standards/asme-section-v-article-1": {
+      "h": "Preparing for an ASME certificate review?",
+      "p": "An ASNT Level III can get the NDE side of the joint review ready: written practice, Section V procedures, demonstrations and control of subcontracted NDE.",
+      "links": [
+        [
+          "/consulting/asme-audit-ndt-level-iii-support",
+          "ASME audit: Level III support for the NDE program"
+        ],
+        [
+          "/consulting/asme-audit-support-houston",
+          "ASME audit support in Houston"
+        ],
+        [
+          "/consulting/asme-audit-support-tulsa",
+          "ASME audit support in Tulsa"
+        ],
+        [
+          "/consulting/nbic-r-stamp-ndt-audit-support",
+          "NBIC R stamp: NDE audit support"
+        ]
+      ]
+    },
+    "/consulting/level-iii-audit-support-fabrication": {
+      "h": "Preparing for an ASME certificate review?",
+      "p": "An ASNT Level III can get the NDE side of the joint review ready: written practice, Section V procedures, demonstrations and control of subcontracted NDE.",
+      "links": [
+        [
+          "/consulting/asme-audit-ndt-level-iii-support",
+          "ASME audit: Level III support for the NDE program"
+        ],
+        [
+          "/consulting/asme-audit-support-houston",
+          "ASME audit support in Houston"
+        ],
+        [
+          "/consulting/asme-audit-support-tulsa",
+          "ASME audit support in Tulsa"
+        ],
+        [
+          "/consulting/nbic-r-stamp-ndt-audit-support",
+          "NBIC R stamp: NDE audit support"
+        ]
+      ]
+    },
+    "/consulting/iacs-service-supplier-approval": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/compliance/iacs-ur-z17": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/compliance/abs-service-supplier": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/consulting/utm-operator-qualification-class-approval": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/consulting/maritime-ndt-consulting": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/consulting/level-iii-audit-support-shipbuilding": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/maritime-ndt-training": {
+      "h": "Getting ready for a class approval audit",
+      "p": "What class auditors check in NDT and thickness measurement firms, shipyards and repair yards, and how an ASNT Level III prepares you. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS.",
+      "links": [
+        [
+          "/consulting/level-iii-audit-support-maritime",
+          "Maritime NDT audit support: IACS class approval audits"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-bath-maine",
+          "Maritime class audit support in Bath, Maine"
+        ],
+        [
+          "/consulting/maritime-ndt-consulting-north-charleston",
+          "Maritime class audit support in North Charleston"
         ]
       ]
     }

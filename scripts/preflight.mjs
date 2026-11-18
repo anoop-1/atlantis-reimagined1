@@ -187,11 +187,13 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
 // on the aerospace pages that point to them, and anywhere as the text of a link to them. No other
 // page names it, and the claims gate still fails on any NAS 410 offer.
 {
-  const { NAS410_PAGES, NAS410_LINK_PAGES, isNas410Allowed, stripNas410Links } = await import('../src/data/nas-410-clarification-2026-11.mjs');
+  const { NAS410_PAGES, NAS410_LINK_PAGES, NAS410_DOC_PAGES, isNas410Allowed, stripNas410Links } = await import('../src/data/nas-410-clarification-2026-11.mjs');
   const NAS = /\bNAS[ -]?410\b|\bNas ?410\b/;
   const slugAlt = NAS410_PAGES.map((p) => p.replace('/blog/', '')).join('|');
   // Links to the clarification pages, their content JSON and preload hints are not "retired" links.
-  const RESTORED = new RegExp(`href="(?:https://atlantisndt\\.com)?/(?:blog|data/blogs)/(?:${slugAlt})(?:\\.json)?/?"`, 'gi');
+  const RESTORED = new RegExp(`href="(?:https://atlantisndt\\.com)?/(?:blog|data/blogs)/(?:${slugAlt})(?:\\.json)?/?"`
+    // 2026-11-18 (§80): the NAS 410 audit documentation consulting pages are live URLs, not retired ones.
+    + `|href="(?:https://atlantisndt\\.com)?/consulting/nas-410-audit-(?:compliance-documentation|documentation-[a-z-]+)/?"`, 'gi');
   const LINK = /href="(?:https:\/\/atlantisndt\.com)?\/[^"]*nas-410[^"]*"/i;
   const named = [], linked = [], restoredBuilt = NAS410_PAGES.filter((p) => existsSync(join(DIST, p, 'index.html')));
   // Strings allowed to carry "NAS 410" outside the two pages, wherever they are bundled or quoted:
@@ -221,7 +223,7 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
   const assetDir = join(DIST, 'assets');
   const keyOf = (p) => p.replace(/^\//, '').replace(/\//g, '__');
   const chunks = existsSync(assetDir)
-    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && !NAS410_PAGES.some((p) => n.startsWith(keyOf(p) + '-'))
+    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && ![...NAS410_PAGES, ...NAS410_DOC_PAGES].some((p) => n.startsWith(keyOf(p) + '-'))
       && NAS.test(stripPrefixes(stripAllowed(readFileSync(join(assetDir, n), 'utf-8')))))
     : [];
   add('No NAS 410 named outside the clarification pages', named.length === 0 && chunks.length === 0,

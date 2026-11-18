@@ -480,7 +480,7 @@ export const certTrainingTypes = [
     certification: "ASNT NDT Level III"
   },
   // 2026-10-04: slug kept for the 20 existing URLs, but these are AWS CWI
-  // INFORMATION pages — Atlantis does not offer CWI training (ASNT SNT-TC-1A only).
+  // INFORMATION pages — the CWI course pages (6-day exam prep, owner 2026-11-18) are built by scripts/audit-cwi-2026-11.mjs.
   {
     name: "CWI Certification information",
     slug: "cwi-training",

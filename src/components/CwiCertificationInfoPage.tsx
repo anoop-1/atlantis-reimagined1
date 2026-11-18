@@ -11,7 +11,7 @@ import info from "@/data/cwi-certification-info.json";
 /**
  * /training/cwi-training-{city} — AWS CWI INFORMATION page (2026-10-04).
  *
- * Atlantis trains to ASNT SNT-TC-1A only and does not offer CWI training,
+ * Atlantis trains to ASNT SNT-TC-1A and, since 2026-11-18, also runs a 6-day AWS CWI exam-prep course (scripts/audit-cwi-2026-11.mjs),
  * seminars or exam preparation. These URLs rank for "certified welding
  * inspector {city}", so they stay live as honest information pages. Same
  * source (src/data/cwi-certification-info.json) as the crawler layer in

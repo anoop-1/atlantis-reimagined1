@@ -114,6 +114,10 @@
    {
     "slug": "orange-tx",
     "city": "Orange"
+   },
+   {
+    "slug": "austin",
+    "city": "Austin"
    }
   ]
  },
@@ -348,6 +352,14 @@
    {
     "slug": "palm-springs",
     "city": "Palm Springs"
+   },
+   {
+    "slug": "martinez",
+    "city": "Martinez"
+   },
+   {
+    "slug": "san-jose",
+    "city": "San Jose"
    }
   ]
  },
@@ -450,6 +462,10 @@
    {
     "slug": "decatur",
     "city": "Decatur"
+   },
+   {
+    "slug": "springfield",
+    "city": "Springfield"
    }
   ]
  },
@@ -798,21 +814,155 @@
   ]
  },
  {
-  "slug": null,
-  "name": "More North American cities",
+  "slug": "arkansas",
+  "name": "Arkansas",
+  "cities": [
+   {
+    "slug": "little-rock",
+    "city": "Little Rock"
+   }
+  ]
+ },
+ {
+  "slug": "connecticut",
+  "name": "Connecticut",
+  "cities": [
+   {
+    "slug": "hartford",
+    "city": "Hartford"
+   },
+   {
+    "slug": "groton",
+    "city": "Groton"
+   },
+   {
+    "slug": "east-hartford",
+    "city": "East Hartford"
+   }
+  ]
+ },
+ {
+  "slug": "idaho",
+  "name": "Idaho",
+  "cities": [
+   {
+    "slug": "idaho-falls",
+    "city": "Idaho Falls"
+   },
+   {
+    "slug": "boise",
+    "city": "Boise"
+   }
+  ]
+ },
+ {
+  "slug": "kansas",
+  "name": "Kansas",
+  "cities": [
+   {
+    "slug": "wichita",
+    "city": "Wichita"
+   },
+   {
+    "slug": "topeka",
+    "city": "Topeka"
+   }
+  ]
+ },
+ {
+  "slug": "maryland",
+  "name": "Maryland",
+  "cities": [
+   {
+    "slug": "baltimore",
+    "city": "Baltimore"
+   }
+  ]
+ },
+ {
+  "slug": "missouri",
+  "name": "Missouri",
+  "cities": [
+   {
+    "slug": "st-louis",
+    "city": "St. Louis"
+   },
+   {
+    "slug": "kansas-city",
+    "city": "Kansas City"
+   }
+  ]
+ },
+ {
+  "slug": "montana",
+  "name": "Montana",
+  "cities": [
+   {
+    "slug": "billings",
+    "city": "Billings"
+   }
+  ]
+ },
+ {
+  "slug": "new-jersey",
+  "name": "New Jersey",
+  "cities": [
+   {
+    "slug": "newark",
+    "city": "Newark"
+   },
+   {
+    "slug": "trenton",
+    "city": "Trenton"
+   }
+  ]
+ },
+ {
+  "slug": "oregon",
+  "name": "Oregon",
+  "cities": [
+   {
+    "slug": "portland",
+    "city": "Portland"
+   },
+   {
+    "slug": "eugene",
+    "city": "Eugene"
+   }
+  ]
+ },
+ {
+  "slug": "south-carolina",
+  "name": "South Carolina",
+  "cities": [
+   {
+    "slug": "charleston-sc",
+    "city": "Charleston"
+   },
+   {
+    "slug": "columbia-sc",
+    "city": "Columbia"
+   }
+  ]
+ },
+ {
+  "slug": "wyoming",
+  "name": "Wyoming",
   "cities": [
    {
     "slug": "casper",
-    "city": "Casper, Wyoming"
+    "city": "Casper"
    },
    {
     "slug": "cheyenne",
-    "city": "Cheyenne, Wyoming"
-   },
-   {
-    "slug": "billings",
-    "city": "Billings, Montana"
-   },
+    "city": "Cheyenne"
+   }
+  ]
+ },
+ {
+  "slug": null,
+  "name": "More North American cities",
+  "cities": [
    {
     "slug": "salt-lake-city",
     "city": "Salt Lake City, Utah"
@@ -834,36 +984,12 @@
     "city": "Tucson, Arizona"
    },
    {
-    "slug": "portland",
-    "city": "Portland, Oregon"
-   },
-   {
-    "slug": "st-louis",
-    "city": "St. Louis, Missouri"
-   },
-   {
-    "slug": "kansas-city",
-    "city": "Kansas City, Missouri"
-   },
-   {
-    "slug": "wichita",
-    "city": "Wichita, Kansas"
-   },
-   {
     "slug": "omaha",
     "city": "Omaha, Nebraska"
    },
    {
     "slug": "des-moines",
     "city": "Des Moines, Iowa"
-   },
-   {
-    "slug": "baltimore",
-    "city": "Baltimore, Maryland"
-   },
-   {
-    "slug": "newark",
-    "city": "Newark, New Jersey"
    },
    {
     "slug": "boston",
@@ -874,24 +1000,8 @@
     "city": "Providence, Rhode Island"
    },
    {
-    "slug": "hartford",
-    "city": "Hartford, Connecticut"
-   },
-   {
     "slug": "portland-me",
     "city": "Portland, Maine"
-   },
-   {
-    "slug": "charleston-sc",
-    "city": "Charleston, South Carolina"
-   },
-   {
-    "slug": "columbia-sc",
-    "city": "Columbia, South Carolina"
-   },
-   {
-    "slug": "little-rock",
-    "city": "Little Rock, Arkansas"
    },
    {
     "slug": "louisville",
@@ -970,28 +1080,8 @@
     "city": "Querétaro, Querétaro"
    },
    {
-    "slug": "idaho-falls",
-    "city": "Idaho Falls, Idaho"
-   },
-   {
-    "slug": "boise",
-    "city": "Boise, Idaho"
-   },
-   {
-    "slug": "eugene",
-    "city": "Eugene, Oregon"
-   },
-   {
     "slug": "davenport",
     "city": "Davenport (Quad Cities), Iowa"
-   },
-   {
-    "slug": "topeka",
-    "city": "Topeka, Kansas"
-   },
-   {
-    "slug": "groton",
-    "city": "Groton, Connecticut"
    },
    {
     "slug": "bath-me",
@@ -1006,16 +1096,38 @@
     "city": "Wilmington, Delaware"
    },
    {
-    "slug": "trenton",
-    "city": "Trenton, New Jersey"
-   },
-   {
     "slug": "sioux-falls",
     "city": "Sioux Falls, South Dakota"
    },
    {
     "slug": "vernal",
     "city": "Vernal (Uinta Basin), Utah"
+   }
+  ]
+ },
+ {
+  "slug": null,
+  "name": "Middle East",
+  "cities": [
+   {
+    "slug": "abu-dhabi",
+    "city": "Abu Dhabi, UAE"
+   },
+   {
+    "slug": "dubai",
+    "city": "Dubai, UAE"
+   },
+   {
+    "slug": "dammam",
+    "city": "Dammam, Saudi Arabia"
+   },
+   {
+    "slug": "riyadh",
+    "city": "Riyadh, Saudi Arabia"
+   },
+   {
+    "slug": "doha",
+    "city": "Doha, Qatar"
    }
   ]
  }

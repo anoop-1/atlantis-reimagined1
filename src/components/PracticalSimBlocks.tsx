@@ -191,6 +191,13 @@ export function PracticalSimCityLinks() {
     <section className="container mx-auto px-6 pb-10 max-w-4xl" data-practical-sim="2026-10" aria-label={b.h2}>
       <div className="rounded-xl border border-primary/20 bg-card p-6">
         <h2 className="text-xl md:text-2xl font-bold mb-2">{b.h2}</h2>
+        <ul className="list-disc pl-5 mb-3 space-y-1">
+          {(b.features || []).map(([k, v]) => (
+            <li key={k}>
+              <strong>{k}:</strong> {v}
+            </li>
+          ))}
+        </ul>
         <p className="text-muted-foreground mb-3">{b.p}</p>
         <p className="mb-2">
           <strong>Methods:</strong> {list(b.methods)}

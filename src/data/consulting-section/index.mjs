@@ -57,6 +57,10 @@ const PAGES = [
     intro: 'Most NDT audit findings are found in records, not in technique: a certification signed outside the Level III’s methods, a vision examination that lapsed, a procedure that no longer matches the code edition on the contract. An ASNT Level III from Atlantis audits your NDT programme the way a client, a registrar or a Nadcap auditor will, before they do, and helps you close what the audit finds.',
     cardsTitle: 'Audit topics', cardsSub: 'Detailed pages on the audits and findings we work on most.',
     cards: [
+      { href: '/consulting/asme-audit-ndt-level-iii-support', label: 'ASME audit: Level III support', text: 'The NDE side of an ASME certification review: written practice, Section V procedures, demonstrations and NDE subcontractor control.' },
+      { href: '/consulting/nbic-r-stamp-ndt-audit-support', label: 'NBIC R stamp audit support', text: 'Getting the NDE part of a National Board R certificate review ready: procedures, personnel records and subcontracted NDE.' },
+      { href: '/consulting/level-iii-audit-support-maritime', label: 'Maritime class approval audits', text: 'IACS UR Z17 and class society audits of NDT and thickness measurement firms, shipyard NDT audits and owner audits.' },
+      { href: '/consulting/nas-410-audit-compliance-documentation', label: 'Aerospace audit documentation', text: 'Written practice, training, examination and vision records prepared for your Responsible Level 3 before a Nadcap or prime audit.' },
       { href: '/consulting/ndt-program-audit-gap-assessment', label: 'NDT programme gap assessment', text: 'How findings are classified and the order to fix them in, from certification gaps to report traceability.' },
       { href: '/consulting/nadcap-ac7114-audit-readiness', label: 'Nadcap AC7114 audit readiness', text: 'Aerospace NDT audits land on records: personnel files, procedures and process control.' },
       { href: '/consulting/level-iii-method-scope-limitations', label: 'Level III scope findings', text: 'Why signing outside a Level III’s certified methods is one of the commonest audit findings.' },
@@ -415,13 +419,22 @@ export const CONSULTING_BLOCK_PATHS = new Set([C, L3]);
 export const CONSULTING_BLOCK_MARKER = 'data-consulting-services';
 
 /** Header navigation: Services → NDT Level III Consulting → children. */
+// 2026-11-18 (owner, CLAUDE.md §80): audit-support pages built by scripts/audit-cwi-2026-11.mjs. The NAS 410 page is
+// labelled without naming NAS 410, so the menu (bundled on every page) never names it (preflight 4b).
+export const AUDIT_SUPPORT_PAGES = [
+  ['/consulting/asme-audit-ndt-level-iii-support', 'ASME Audit: Level III Support'],
+  ['/consulting/nbic-r-stamp-ndt-audit-support', 'NBIC R Stamp Audit Support'],
+  ['/consulting/level-iii-audit-support-maritime', 'Maritime Class Approval Audits'],
+  ['/consulting/nas-410-audit-compliance-documentation', 'Aerospace Audit Documentation'],
+];
+
 export const CONSULTING_NAV = {
   menuTitle: 'NDT Level III consulting',
   allLabel: 'All consulting services',
   talk: [CONSULTING_ENQUIRY, 'Talk to a Level III'],
   children: [
     { name: 'Outsourced ASNT Level III', path: L3 },
-    { name: 'Audit Consulting', path: P.audit },
+    { name: 'Audit Consulting', path: P.audit, children: AUDIT_SUPPORT_PAGES.map(([path, name]) => ({ name, path })) },
     { name: 'Client & Subcontractor Approval Audits', path: P.sub },
     { name: 'SNT-TC-1A Training Programme Setup', path: P.snt },
     { name: 'Written Practice Development', path: '/ndt-written-practice-development' },

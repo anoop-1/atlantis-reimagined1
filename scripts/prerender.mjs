@@ -100,6 +100,7 @@ import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingR
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
 import { applyUsConventionalRoutes, applyUsConventionalHubRoute, assertUsConventionalClean } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14 owner: 2,000+ word MT/PT/UT city pages across the US + reworded US RT pages (no RT performed in the US)
 import { applyUsIndustryRoutes, applyUsIndustryHubRoute, applyUsIndustryStateHubRoute, assertUsIndustryClean } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17 owner: US MT/PT/UT pages by industry and by job (39 rewritten, 17 new industry, 11 job)
+import { applyAuditCwiRoutes, assertAuditCwiClean } from './audit-cwi-2026-11.mjs'; // 2026-11-18 owner: Level III audit-support pages (ASME, NBIC R, maritime class approval, NAS 410 documentation) + 6-day AWS CWI exam-prep pages
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
 import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
 import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
@@ -1019,7 +1020,7 @@ Object.assign(CTR_OVERRIDES, {
   },
   '/blog/cwi-certification-cost-2026-fees-prep-renewal': {
     title: 'CWI Certification Cost 2026 — What Drives the Total',
-    description: 'AWS CWI cost factors — region, prep mode, retake, renewal. Fees are published at aws.org. Informational; Atlantis does not offer CWI prep.'
+    description: 'AWS CWI cost factors — region, prep mode, retake, renewal. Fees are published at aws.org. Informational; Atlantis also runs a six-day CWI exam-prep course.'
   },
   '/blog/cwi-exam-cost': {
     title: 'CWI Exam Cost 2026 — Fees + What Affects Your Quote (Free Consultation)',
@@ -1544,7 +1545,7 @@ Object.assign(CTR_OVERRIDES, {
   // Procedure + cert pathway (5)
   '/blog/pcn-certification-uk-bindt-2028': { title: 'PCN Certification UK BINDT 2028 — Decoded | Free Consultation', description: 'PCN (Personnel Certification in Non-Destructive Testing) UK + BINDT scheme. Atlantis Academy. Free consultation.' },
   '/blog/cswip-3-1-welding-inspector-2028': { title: 'CSWIP 3.1 Welding Inspector 2028 — Decoded | Free Consultation', description: 'CSWIP 3.1 welding inspector certification — UK + global. Free consultation.' },
-  '/blog/cwi-vs-cswip-3-1-comparison-2028': { title: 'CWI vs CSWIP 3.1 2028 — Comparison Decoded | Free Consultation', description: 'AWS CWI vs CSWIP 3.1 — comparison + cross-recognition. Informational; Atlantis trains to ASNT SNT-TC-1A and does not offer CWI or CSWIP training.' },
+  '/blog/cwi-vs-cswip-3-1-comparison-2028': { title: 'CWI vs CSWIP 3.1 2028 — Comparison Decoded | Free Consultation', description: 'AWS CWI vs CSWIP 3.1 — comparison + cross-recognition. Informational; Atlantis trains to ASNT SNT-TC-1A, runs a six-day CWI exam-prep course and does not offer CSWIP training.' },
   '/blog/multi-method-level-iii-pathway-2028': { title: 'Multi-Method Level III Pathway 2028 — Decoded | Free Consultation', description: 'Multi-method ASNT NDT Level III certification pathway — UT + RT + MT + PT + ET + VT progression. Atlantis Academy. Free consultation.' },
   '/blog/ndt-procedure-authoring-asme-2028': { title: 'NDT Procedure Authoring ASME 2028 — Section V + IX | Free Consultation', description: 'NDT procedure authoring per ASME Section V + IX requirements. Level III sign-off workflow. Free consultation.' },
 
@@ -9024,7 +9025,7 @@ const corePages = [
     title: 'Corporate NDT Training for Fabrication 2026: 10 Engineers, ASNT Aligned',
     description: 'In-house ASNT SNT-TC-1A NDT training for fabrication shops: AWS D1.1, ASME IX, EN 1090-2, ISO 3834, AISC; PAUT acceptance per AWS Annex K; cohorts of 10–100+ for shops and yards.',
     bodyH1: 'Corporate NDT Training for Fabrication',
-    bodyText: 'Fabrication shops, structural steel mills, modular yards, and pressure-equipment manufacturer corporate QC training. AWS D1.1 / D1.5 visual and Annex K PAUT acceptance, ASME Section IX procedure qualification, and EN 1090-2 / ISO 3834 implementation. (AWS CWI and CSWIP are examined by AWS and TWI; Atlantis does not offer CWI or CSWIP prep.)',
+    bodyText: 'Fabrication shops, structural steel mills, modular yards, and pressure-equipment manufacturer corporate QC training. AWS D1.1 / D1.5 visual and Annex K PAUT acceptance, ASME Section IX procedure qualification, and EN 1090-2 / ISO 3834 implementation. (AWS CWI and CSWIP are examined by AWS and TWI; Atlantis does not offer CSWIP prep and runs a six-day exam-prep course for the CWI.)',
   },
   {
     path: '/corporate-training/maritime',
@@ -13383,7 +13384,7 @@ routes.push({
   const cwiCtaHtml =
     '\n<section data-cta="training-enquiry" aria-label="Training enquiry">' +
     '<h2>Ask about ASNT NDT training</h2>' +
-    '<p>Atlantis NDT does not run AWS CWI preparation. We deliver ASNT SNT-TC-1A NDT training, including VT Level I and II, self-paced online or onsite at your facility.</p>' +
+    '<p>Atlantis NDT runs a six-day AWS CWI exam-prep course. We deliver ASNT SNT-TC-1A NDT training, including VT Level I and II, self-paced online or onsite at your facility.</p>' +
     '<p><a href="' + FORM_URL + '" target="_blank" rel="noopener noreferrer">Ask about ASNT NDT training</a>' +
     ' · <a href="/vt-level-2-training">VT Level 2 course</a>' +
     ' · <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a></p></section>';
@@ -14138,6 +14139,7 @@ if (pseoNoindexApplied > 0) {
   { const re = applyConsultingIndexable(routes); if (re.length) console.log(`🧭 Consulting menu pages made indexable: ${re.join(', ')}`); } // 2026-10-19
   { const uc = applyUsConventionalRoutes(routes); console.log(`🔧 US conventional NDT (MT/PT/UT) city pages: ${uc.updated} rewritten, ${uc.added} new routes, ${uc.rt} US RT pages reworded`); } // 2026-11-14: after every prune/noindex/consolidation pass
   { const ui = applyUsIndustryRoutes(routes); console.log(`🔧 US MT/PT/UT industry + job pages: ${ui.updated} rewritten, ${ui.added} new routes`); } // 2026-11-17: after every prune/noindex/consolidation pass
+  { const ac = applyAuditCwiRoutes(routes); console.log(`🔧 Audit-support consulting + AWS CWI exam-prep pages: ${ac.updated} rewritten, ${ac.added} new routes`); } // 2026-11-18: after every prune/noindex/consolidation pass
 
   const meta = disambiguateMeta(routes);
   if (meta.fixedTitles || meta.fixedDescs) console.log(`🏷️  Meta disambiguation: ${meta.fixedTitles} duplicate titles + ${meta.fixedDescs} duplicate descriptions made unique`);
@@ -14216,6 +14218,7 @@ assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages
 assertMaritimeSectionClean(BUILT_PATHS); // 2026-11-07: maritime records complete, >=2,000 words per port, links built, no prices/approval/presence claims
 assertUsConventionalClean(BUILT_PATHS); // 2026-11-14: every US MT/PT/UT city record valid (2,000+ words, no RT offer, no advanced methods), every page and link built
 assertUsIndustryClean(BUILT_PATHS); // 2026-11-17: every US MT/PT/UT industry and job record valid, every page and link built
+assertAuditCwiClean(BUILT_PATHS); // 2026-11-18: every audit-support and CWI record valid (2,000+ words, NAS 410 only on its documentation pages, 6-day CWI offer), every page and link built
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55

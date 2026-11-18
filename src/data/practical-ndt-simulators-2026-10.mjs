@@ -939,8 +939,16 @@ export const HUB = {
 
 /** One shared block on every /practical-ndt-{city} page and practical geo hub (both layers). */
 export const CITY_BLOCK = {
-  h2: 'Practise by method or by workplace',
+  h2: 'Every NDT method in one simulator',
   p: 'Each Practical NDT method and workplace has its own national page: what you practise, what the simulator computes and what it cannot teach. Practical NDT is delivered online, so the same pages apply wherever your team works.',
+  // 2026-11-18 (owner, CLAUDE.md §80): "all NDT methods … follow the SOP to make life easier, compatibility with
+  // Browser, PC or VR". Facts from the white paper (CATALOGUE, METHOD_FAMILIES, the twelve-step procedure). No
+  // "first"/"only" claim (scripts/practical-ndt-claims.mjs).
+  features: [
+    ['All methods, one simulator', `${CATALOGUE.methodFamilies} method families: UT, PAUT, TOFD, RT, MT, PT, VT, ET, IRIS, MFL, guided-wave UT and PMI, across ${CATALOGUE.jobs} jobs and ${CATALOGUE.workplaces} workplaces.`],
+    ['Follows the SOP', 'Every job runs the same twelve-step procedure, from the work order and calibration to the post-check, the training report and the debrief, so trainees build one disciplined habit on every method.'],
+    ['Browser, PC or VR', 'Runs in a browser, on a PC or laptop (offline once downloaded) and in VR on a standalone headset, and connects to the Atlantis LMS and ERP with one sign-in.'],
+  ],
   methods: METHOD_PAGES.map((p) => [pagePath(p), p.crumb]),
   workplaces: WORKPLACE_PAGES.map((p) => [pagePath(p), p.crumb]),
   practiseNow: [ASCAN_PATH, 'Free ultrasonic A-scan simulator'],

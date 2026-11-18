@@ -156,6 +156,7 @@ export function cityBlockHtml() {
   return `
     <section ${SIM_MARKER} aria-label="${esc(b.h2)}">
       <h2>${esc(b.h2)}</h2>
+      <ul>${(b.features || []).map(([k, v]) => `<li><strong>${esc(k)}:</strong> ${esc(v)}</li>`).join('')}</ul>
       <p>${esc(b.p)}</p>
       <p><strong>Methods:</strong> ${list(b.methods)}</p>
       <p><strong>Workplaces:</strong> ${list(b.workplaces)}</p>

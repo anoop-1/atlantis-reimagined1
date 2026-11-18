@@ -39,12 +39,27 @@ export const NAS410_LINK_PAGES = [
   '/ndt-for-aerospace',
 ];
 
+/**
+ * 2026-11-18 (owner, CLAUDE.md §80): "NAS 410 audit compliance documentation in a professional wording".
+ * Consulting pages where Atlantis prepares and reviews the NAS 410 / Nadcap AC7114 audit documentation that
+ * the company's Responsible Level 3 approves. Atlantis is not the RL3, certifies no one to NAS 410 and delivers
+ * no NAS 410 training or examinations (claims gate). Must equal the "nas410" pages in
+ * src/data/audit-cwi-2026-11/_pages.json (scripts/audit-cwi-2026-11.mjs asserts it).
+ */
+export const NAS410_DOC_PAGES = [
+  '/consulting/nas-410-audit-compliance-documentation',
+  ...['seattle', 'phoenix', 'los-angeles', 'san-diego', 'hartford', 'cincinnati', 'north-charleston', 'tulsa', 'dallas', 'salt-lake-city']
+    .map((c) => `/consulting/nas-410-audit-documentation-${c}`),
+];
+
 const norm = (p) => String(p || '').replace(/\/+$/, '') || '/';
-const ALLOWED = new Set([...NAS410_PAGES, ...NAS410_LINK_PAGES]);
+const ALLOWED = new Set([...NAS410_PAGES, ...NAS410_LINK_PAGES, ...NAS410_DOC_PAGES]);
 export const isNas410Page = (p) => NAS410_PAGES.includes(norm(p));
 export const isNas410Allowed = (p) => ALLOWED.has(norm(p));
 
 /** Remove links to the clarification pages (their anchor text may name NAS 410 on any page). */
 export function stripNas410Links(html) {
-  return String(html).replace(/<a\b[^>]*href="(?:https:\/\/atlantisndt\.com)?\/blog\/nas-410-(?:aerospace-ndt-certification-explained|vs-snt-tc-1a)\/?"[^>]*>[\s\S]*?<\/a>/gi, '');
+  return String(html)
+    .replace(/<a\b[^>]*href="(?:https:\/\/atlantisndt\.com)?\/blog\/nas-410-(?:aerospace-ndt-certification-explained|vs-snt-tc-1a)\/?"[^>]*>[\s\S]*?<\/a>/gi, '')
+    .replace(/<a\b[^>]*href="(?:https:\/\/atlantisndt\.com)?\/consulting\/nas-410-audit-(?:compliance-documentation|documentation-[a-z-]+)\/?"[^>]*>[\s\S]*?<\/a>/gi, '');
 }

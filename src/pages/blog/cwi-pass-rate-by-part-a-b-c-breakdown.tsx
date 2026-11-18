@@ -401,7 +401,7 @@ export default function CWIPassRateByPartABCBreakdown() {
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Add ASNT NDT Methods Alongside Your CWI</h2>
-                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">CWI is an AWS programme, and Atlantis NDT does not offer CWI training or exam preparation. We offer ASNT SNT-TC-1A NDT training (VT, MT, PT, UT), led by an ASNT Level III, which many weld inspectors hold alongside a CWI.</p>
+                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">CWI is an AWS programme: AWS administers the exam and issues the certification, and Atlantis NDT runs a six-day exam-prep course for it. We offer ASNT SNT-TC-1A NDT training (VT, MT, PT, UT), led by an ASNT Level III, which many weld inspectors hold alongside a CWI.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Ask About ASNT NDT Training</Link>
                             <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">Training Programs</Link>

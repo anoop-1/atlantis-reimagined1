@@ -10,11 +10,12 @@
 
 export const WHERE = {
   h2: 'Practical NDT by state, province and country',
-  intro: 'Practical NDT runs in a standard browser, so the simulator is available wherever your team works. Each regional page covers the local industries and the methods that match the work there.',
+  intro: 'Practical NDT runs in a browser, on a PC (offline once downloaded) or in VR on a standalone headset, so the simulator is available wherever your team works. Each regional page covers the local industries and the methods that match the work there.',
   labels: {
     regions: 'US states and Canadian provinces',
     cities: 'More North American cities',
     world: 'Other countries and regions',
+    me: 'Middle East cities',
   },
 };
 
@@ -30,12 +31,15 @@ export function whereGroups(directory, geoHubs) {
   for (const h of hubs.filter((x) => String(x.country).toUpperCase() === 'CA').sort((a, b) => a.name.localeCompare(b.name))) {
     if (!seen.has(h.path)) { regions.push([h.path, h.name]); seen.add(h.path); }
   }
-  const cities = (directory || []).filter((g) => !g.slug).flatMap((g) => g.cities.map((c) => [`/practical-ndt-${c.slug}`, c.city]));
+  // 2026-11-18 (§80): the "Middle East" group (scripts/add-practical-ndt-cities-2026-11.mjs) gets its own line.
+  const cities = (directory || []).filter((g) => !g.slug && g.name !== 'Middle East').flatMap((g) => g.cities.map((c) => [`/practical-ndt-${c.slug}`, c.city]));
+  const me = (directory || []).filter((g) => !g.slug && g.name === 'Middle East').flatMap((g) => g.cities.map((c) => [`/practical-ndt-${c.slug}`, c.city]));
   const world = hubs.filter((x) => String(x.country).toUpperCase() !== 'CA' && !seen.has(x.path))
     .sort((a, b) => a.name.localeCompare(b.name)).map((h) => [h.path, h.name]);
   return [
     { label: WHERE.labels.regions, links: regions },
     { label: WHERE.labels.cities, links: cities },
+    { label: WHERE.labels.me, links: me },
     { label: WHERE.labels.world, links: world },
   ].filter((g) => g.links.length);
 }
