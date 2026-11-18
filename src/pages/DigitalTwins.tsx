@@ -1102,7 +1102,7 @@ export default function DigitalTwins() {
                      </a>
                   </div>
                   <p className="text-blue-200 text-sm">
-                     Anoop Rayavarapu, Founder &amp; CEO — anoop@atlantisinspection.com
+                     Email us at info@atlantisndt.com
                   </p>
                </div>
             </section>

@@ -1146,7 +1146,7 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
         "image": "https://atlantisndt.com/og-image.jpg",
         "description": state.heroSubtitle,
         "telephone": "+12818408969",
-        "email": "sales@atlantisndt.com",
+        "email": "info@atlantisndt.com",
         "priceRange": "$$$$",
         "address": {
           "@type": "PostalAddress",

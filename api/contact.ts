@@ -85,7 +85,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     `<h3>Message</h3><p>${escapeHtml(message).replace(/\n/g, '<br>')}</p>`;
 
   try {
-    // Notify Atlantis NDT team (VPS forwards info@ to anoop@atlantisinspection.com)
+    // Notify Atlantis NDT team (delivered to the info@atlantisndt.com mailbox)
     await transport.sendMail({
       from: `"Atlantis NDT Contact" <${fromAddress}>`,
       to,

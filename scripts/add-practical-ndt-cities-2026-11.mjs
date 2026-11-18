@@ -30,9 +30,16 @@ const words = (h) => String(h).replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi
 const FORBIDDEN = [
   /\$\s?\d/, /\b(?:USD|AED|SAR|QAR|OMR|KWD|BHD)\s?\d/, /\bNAS[ -]?410\b/i,
   ...PRACTICAL_CLAIM_RULES.map(([, re]) => re),
+];
+// Offer rules: checked per sentence, and a sentence that denies the offer or asks about it passes
+// ("Atlantis does not offer ISO 9712 training", "Has Saudi Aramco approved Practical NDT?").
+const OFFER_RULES = [
   /\b(?:Aramco|ADNOC|SABIC|PDO|KOC|QatarEnergy)[- ]approved\b/i,
   /Atlantis[^.]{0,60}\b(?:ISO 9712|PCN|API (?:510|570|653))\b[^.]{0,40}\btrain/i,
 ];
+const DENIAL = /\b(?:not|no|never|neither|nor|outside|none)\b|n't\b|\?[.\s]*$/i;
+const sentences = (h) => String(h).replace(/<\/(?:p|li|h[1-6]|td|th)>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ')
+  .split(/(?<=[.?!])\s+/).map((s) => s.replace(/\s+/g, ' ').trim()).filter(Boolean);
 
 const recs = readdirSync(DIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(DIR, f), 'utf8')));
 const errors = [];
@@ -41,6 +48,9 @@ for (const r of recs) {
   const main = (String(r.bodyContent).match(/<main>([\s\S]*)<\/main>/) || [, ''])[1];
   if (words(main) < 2000) errors.push(`${r.slug}: ${words(main)} words in <main>`);
   for (const re of FORBIDDEN) if (re.test(`${r.title} ${r.metaDescription} ${r.bodyContent}`)) errors.push(`${r.slug}: forbidden ${re}`);
+  for (const s of sentences(`${r.title}. ${r.metaDescription}. ${r.bodyContent}`)) {
+    for (const re of OFFER_RULES) if (re.test(s) && !DENIAL.test(s)) errors.push(`${r.slug}: offer wording ${re} in "${s.slice(0, 140)}"`);
+  }
 }
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 

@@ -227,7 +227,7 @@ export default function NDTTrainingIndia() {
             <Navigation />
             <SEOHead
                 title="NDT Training India 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. Self-paced online or onsite at your facility. Enroll: enroll@atlantisndt.com"
+                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. Self-paced online or onsite at your facility. Enroll: info@atlantisndt.com"
                 keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, SNT-TC-1A training India, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
                 canonical="https://atlantisndt.com/ndt-training-india"
                 structuredData={structuredData}

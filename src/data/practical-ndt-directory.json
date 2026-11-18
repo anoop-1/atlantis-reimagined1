@@ -686,6 +686,10 @@
    {
     "slug": "newport-news",
     "city": "Newport News"
+   },
+   {
+    "slug": "lynchburg",
+    "city": "Lynchburg"
    }
   ]
  },
@@ -942,6 +946,14 @@
    {
     "slug": "columbia-sc",
     "city": "Columbia"
+   },
+   {
+    "slug": "aiken",
+    "city": "Aiken"
+   },
+   {
+    "slug": "north-charleston",
+    "city": "North Charleston"
    }
   ]
  },
@@ -960,56 +972,145 @@
   ]
  },
  {
+  "slug": "arizona",
+  "name": "Arizona",
+  "cities": [
+   {
+    "slug": "phoenix",
+    "city": "Phoenix"
+   },
+   {
+    "slug": "tucson",
+    "city": "Tucson"
+   }
+  ]
+ },
+ {
+  "slug": "delaware",
+  "name": "Delaware",
+  "cities": [
+   {
+    "slug": "wilmington-de",
+    "city": "Wilmington"
+   }
+  ]
+ },
+ {
+  "slug": "iowa",
+  "name": "Iowa",
+  "cities": [
+   {
+    "slug": "des-moines",
+    "city": "Des Moines"
+   },
+   {
+    "slug": "davenport",
+    "city": "Davenport (Quad Cities)"
+   }
+  ]
+ },
+ {
+  "slug": "kentucky",
+  "name": "Kentucky",
+  "cities": [
+   {
+    "slug": "louisville",
+    "city": "Louisville"
+   },
+   {
+    "slug": "lexington",
+    "city": "Lexington"
+   }
+  ]
+ },
+ {
+  "slug": "maine",
+  "name": "Maine",
+  "cities": [
+   {
+    "slug": "portland-me",
+    "city": "Portland"
+   },
+   {
+    "slug": "bath-me",
+    "city": "Bath"
+   }
+  ]
+ },
+ {
+  "slug": "massachusetts",
+  "name": "Massachusetts",
+  "cities": [
+   {
+    "slug": "boston",
+    "city": "Boston"
+   },
+   {
+    "slug": "pittsfield",
+    "city": "Pittsfield"
+   }
+  ]
+ },
+ {
+  "slug": "nevada",
+  "name": "Nevada",
+  "cities": [
+   {
+    "slug": "reno",
+    "city": "Reno"
+   },
+   {
+    "slug": "las-vegas",
+    "city": "Las Vegas"
+   }
+  ]
+ },
+ {
+  "slug": "new-hampshire",
+  "name": "New Hampshire",
+  "cities": []
+ },
+ {
+  "slug": "rhode-island",
+  "name": "Rhode Island",
+  "cities": [
+   {
+    "slug": "providence",
+    "city": "Providence"
+   }
+  ]
+ },
+ {
+  "slug": "south-dakota",
+  "name": "South Dakota",
+  "cities": [
+   {
+    "slug": "sioux-falls",
+    "city": "Sioux Falls"
+   }
+  ]
+ },
+ {
+  "slug": "utah",
+  "name": "Utah",
+  "cities": [
+   {
+    "slug": "salt-lake-city",
+    "city": "Salt Lake City"
+   },
+   {
+    "slug": "vernal",
+    "city": "Vernal (Uinta Basin)"
+   }
+  ]
+ },
+ {
   "slug": null,
   "name": "More North American cities",
   "cities": [
    {
-    "slug": "salt-lake-city",
-    "city": "Salt Lake City, Utah"
-   },
-   {
-    "slug": "reno",
-    "city": "Reno, Nevada"
-   },
-   {
-    "slug": "las-vegas",
-    "city": "Las Vegas, Nevada"
-   },
-   {
-    "slug": "phoenix",
-    "city": "Phoenix, Arizona"
-   },
-   {
-    "slug": "tucson",
-    "city": "Tucson, Arizona"
-   },
-   {
     "slug": "omaha",
     "city": "Omaha, Nebraska"
-   },
-   {
-    "slug": "des-moines",
-    "city": "Des Moines, Iowa"
-   },
-   {
-    "slug": "boston",
-    "city": "Boston, Massachusetts"
-   },
-   {
-    "slug": "providence",
-    "city": "Providence, Rhode Island"
-   },
-   {
-    "slug": "portland-me",
-    "city": "Portland, Maine"
-   },
-   {
-    "slug": "louisville",
-    "city": "Louisville, Kentucky"
-   },
-   {
-    "slug": "lexington",
-    "city": "Lexington, Kentucky"
    },
    {
     "slug": "honolulu",
@@ -1080,28 +1181,8 @@
     "city": "Querétaro, Querétaro"
    },
    {
-    "slug": "davenport",
-    "city": "Davenport (Quad Cities), Iowa"
-   },
-   {
-    "slug": "bath-me",
-    "city": "Bath, Maine"
-   },
-   {
-    "slug": "pittsfield",
-    "city": "Pittsfield, Massachusetts"
-   },
-   {
-    "slug": "wilmington-de",
-    "city": "Wilmington, Delaware"
-   },
-   {
-    "slug": "sioux-falls",
-    "city": "Sioux Falls, South Dakota"
-   },
-   {
-    "slug": "vernal",
-    "city": "Vernal (Uinta Basin), Utah"
+    "slug": "washington-dc",
+    "city": "Washington, DC, DC"
    }
   ]
  },
@@ -1118,16 +1199,96 @@
     "city": "Dubai, UAE"
    },
    {
+    "slug": "fujairah",
+    "city": "Fujairah, UAE"
+   },
+   {
+    "slug": "jebel-ali",
+    "city": "Jebel Ali, UAE"
+   },
+   {
+    "slug": "ras-al-khaimah",
+    "city": "Ras Al Khaimah, UAE"
+   },
+   {
+    "slug": "ruwais",
+    "city": "Ruwais, UAE"
+   },
+   {
+    "slug": "sharjah",
+    "city": "Sharjah, UAE"
+   },
+   {
+    "slug": "khobar",
+    "city": "Al Khobar, Saudi Arabia"
+   },
+   {
     "slug": "dammam",
     "city": "Dammam, Saudi Arabia"
+   },
+   {
+    "slug": "jeddah",
+    "city": "Jeddah, Saudi Arabia"
+   },
+   {
+    "slug": "jubail",
+    "city": "Jubail, Saudi Arabia"
+   },
+   {
+    "slug": "rabigh",
+    "city": "Rabigh, Saudi Arabia"
+   },
+   {
+    "slug": "ras-tanura",
+    "city": "Ras Tanura, Saudi Arabia"
    },
    {
     "slug": "riyadh",
     "city": "Riyadh, Saudi Arabia"
    },
    {
+    "slug": "yanbu",
+    "city": "Yanbu, Saudi Arabia"
+   },
+   {
     "slug": "doha",
     "city": "Doha, Qatar"
+   },
+   {
+    "slug": "mesaieed",
+    "city": "Mesaieed, Qatar"
+   },
+   {
+    "slug": "ras-laffan",
+    "city": "Ras Laffan, Qatar"
+   },
+   {
+    "slug": "duqm",
+    "city": "Duqm, Oman"
+   },
+   {
+    "slug": "muscat",
+    "city": "Muscat, Oman"
+   },
+   {
+    "slug": "salalah",
+    "city": "Salalah, Oman"
+   },
+   {
+    "slug": "sohar",
+    "city": "Sohar, Oman"
+   },
+   {
+    "slug": "manama",
+    "city": "Manama, Bahrain"
+   },
+   {
+    "slug": "ahmadi",
+    "city": "Al Ahmadi, Kuwait"
+   },
+   {
+    "slug": "basra",
+    "city": "Basra, Iraq"
    }
   ]
  }

@@ -393,6 +393,41 @@ const PracticalNdtSanJose = lazy(() => import("./pages/practical-ndt-san-jose"))
 const PracticalNdtSouthCarolina = lazy(() => import("./pages/practical-ndt-south-carolina"));
 const PracticalNdtSpringfield = lazy(() => import("./pages/practical-ndt-springfield"));
 const PracticalNdtWyoming = lazy(() => import("./pages/practical-ndt-wyoming"));
+const PracticalNdtAhmadi = lazy(() => import("./pages/practical-ndt-ahmadi"));
+const PracticalNdtAiken = lazy(() => import("./pages/practical-ndt-aiken"));
+const PracticalNdtArizona = lazy(() => import("./pages/practical-ndt-arizona"));
+const PracticalNdtBasra = lazy(() => import("./pages/practical-ndt-basra"));
+const PracticalNdtDelaware = lazy(() => import("./pages/practical-ndt-delaware"));
+const PracticalNdtDuqm = lazy(() => import("./pages/practical-ndt-duqm"));
+const PracticalNdtFujairah = lazy(() => import("./pages/practical-ndt-fujairah"));
+const PracticalNdtIowa = lazy(() => import("./pages/practical-ndt-iowa"));
+const PracticalNdtJebelAli = lazy(() => import("./pages/practical-ndt-jebel-ali"));
+const PracticalNdtJeddah = lazy(() => import("./pages/practical-ndt-jeddah"));
+const PracticalNdtJubail = lazy(() => import("./pages/practical-ndt-jubail"));
+const PracticalNdtKentucky = lazy(() => import("./pages/practical-ndt-kentucky"));
+const PracticalNdtKhobar = lazy(() => import("./pages/practical-ndt-khobar"));
+const PracticalNdtLynchburg = lazy(() => import("./pages/practical-ndt-lynchburg"));
+const PracticalNdtMaine = lazy(() => import("./pages/practical-ndt-maine"));
+const PracticalNdtManama = lazy(() => import("./pages/practical-ndt-manama"));
+const PracticalNdtMassachusetts = lazy(() => import("./pages/practical-ndt-massachusetts"));
+const PracticalNdtMesaieed = lazy(() => import("./pages/practical-ndt-mesaieed"));
+const PracticalNdtMuscat = lazy(() => import("./pages/practical-ndt-muscat"));
+const PracticalNdtNevada = lazy(() => import("./pages/practical-ndt-nevada"));
+const PracticalNdtNewHampshire = lazy(() => import("./pages/practical-ndt-new-hampshire"));
+const PracticalNdtNorthCharleston = lazy(() => import("./pages/practical-ndt-north-charleston"));
+const PracticalNdtRabigh = lazy(() => import("./pages/practical-ndt-rabigh"));
+const PracticalNdtRasAlKhaimah = lazy(() => import("./pages/practical-ndt-ras-al-khaimah"));
+const PracticalNdtRasLaffan = lazy(() => import("./pages/practical-ndt-ras-laffan"));
+const PracticalNdtRasTanura = lazy(() => import("./pages/practical-ndt-ras-tanura"));
+const PracticalNdtRhodeIsland = lazy(() => import("./pages/practical-ndt-rhode-island"));
+const PracticalNdtRuwais = lazy(() => import("./pages/practical-ndt-ruwais"));
+const PracticalNdtSalalah = lazy(() => import("./pages/practical-ndt-salalah"));
+const PracticalNdtSharjah = lazy(() => import("./pages/practical-ndt-sharjah"));
+const PracticalNdtSohar = lazy(() => import("./pages/practical-ndt-sohar"));
+const PracticalNdtSouthDakota = lazy(() => import("./pages/practical-ndt-south-dakota"));
+const PracticalNdtUtah = lazy(() => import("./pages/practical-ndt-utah"));
+const PracticalNdtWashingtonDc = lazy(() => import("./pages/practical-ndt-washington-dc"));
+const PracticalNdtYanbu = lazy(() => import("./pages/practical-ndt-yanbu"));
 const NDTConnect = lazy(() => import("./pages/NDTConnect"));
 const BlogPage = lazy(() => import("./pages/Blog"));
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
@@ -3655,6 +3690,41 @@ export default function RouteTable() { return (
                   <Route path="/practical-ndt-south-carolina" element={<PracticalNdtSouthCarolina />} />
                   <Route path="/practical-ndt-springfield" element={<PracticalNdtSpringfield />} />
                   <Route path="/practical-ndt-wyoming" element={<PracticalNdtWyoming />} />
+                  <Route path="/practical-ndt-ahmadi" element={<PracticalNdtAhmadi />} />
+                  <Route path="/practical-ndt-aiken" element={<PracticalNdtAiken />} />
+                  <Route path="/practical-ndt-arizona" element={<PracticalNdtArizona />} />
+                  <Route path="/practical-ndt-basra" element={<PracticalNdtBasra />} />
+                  <Route path="/practical-ndt-delaware" element={<PracticalNdtDelaware />} />
+                  <Route path="/practical-ndt-duqm" element={<PracticalNdtDuqm />} />
+                  <Route path="/practical-ndt-fujairah" element={<PracticalNdtFujairah />} />
+                  <Route path="/practical-ndt-iowa" element={<PracticalNdtIowa />} />
+                  <Route path="/practical-ndt-jebel-ali" element={<PracticalNdtJebelAli />} />
+                  <Route path="/practical-ndt-jeddah" element={<PracticalNdtJeddah />} />
+                  <Route path="/practical-ndt-jubail" element={<PracticalNdtJubail />} />
+                  <Route path="/practical-ndt-kentucky" element={<PracticalNdtKentucky />} />
+                  <Route path="/practical-ndt-khobar" element={<PracticalNdtKhobar />} />
+                  <Route path="/practical-ndt-lynchburg" element={<PracticalNdtLynchburg />} />
+                  <Route path="/practical-ndt-maine" element={<PracticalNdtMaine />} />
+                  <Route path="/practical-ndt-manama" element={<PracticalNdtManama />} />
+                  <Route path="/practical-ndt-massachusetts" element={<PracticalNdtMassachusetts />} />
+                  <Route path="/practical-ndt-mesaieed" element={<PracticalNdtMesaieed />} />
+                  <Route path="/practical-ndt-muscat" element={<PracticalNdtMuscat />} />
+                  <Route path="/practical-ndt-nevada" element={<PracticalNdtNevada />} />
+                  <Route path="/practical-ndt-new-hampshire" element={<PracticalNdtNewHampshire />} />
+                  <Route path="/practical-ndt-north-charleston" element={<PracticalNdtNorthCharleston />} />
+                  <Route path="/practical-ndt-rabigh" element={<PracticalNdtRabigh />} />
+                  <Route path="/practical-ndt-ras-al-khaimah" element={<PracticalNdtRasAlKhaimah />} />
+                  <Route path="/practical-ndt-ras-laffan" element={<PracticalNdtRasLaffan />} />
+                  <Route path="/practical-ndt-ras-tanura" element={<PracticalNdtRasTanura />} />
+                  <Route path="/practical-ndt-rhode-island" element={<PracticalNdtRhodeIsland />} />
+                  <Route path="/practical-ndt-ruwais" element={<PracticalNdtRuwais />} />
+                  <Route path="/practical-ndt-salalah" element={<PracticalNdtSalalah />} />
+                  <Route path="/practical-ndt-sharjah" element={<PracticalNdtSharjah />} />
+                  <Route path="/practical-ndt-sohar" element={<PracticalNdtSohar />} />
+                  <Route path="/practical-ndt-south-dakota" element={<PracticalNdtSouthDakota />} />
+                  <Route path="/practical-ndt-utah" element={<PracticalNdtUtah />} />
+                  <Route path="/practical-ndt-washington-dc" element={<PracticalNdtWashingtonDc />} />
+                  <Route path="/practical-ndt-yanbu" element={<PracticalNdtYanbu />} />
                   <Route path="/ndt-connect" element={<NDTConnect />} />
                   <Route path="/admin/login" element={<AdminLogin />} />
                   <Route path="/admin/dashboard" element={<AdminDashboard />} />

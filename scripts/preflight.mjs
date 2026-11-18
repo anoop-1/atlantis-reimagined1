@@ -249,6 +249,16 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
   const ppExtras = existsSync(PP_FILE) && /class="related-pages"/.test(readFileSync(PP_FILE, 'utf-8'));
   add('Privacy policy is URL-only', existsSync(PP_FILE) && ppLinkers.length === 0 && !ppExtras,
     !existsSync(PP_FILE) ? 'not built' : ppLinkers.length ? `${ppLinkers.length} pages link to it: ${ppLinkers.slice(0, 4).join(', ')}` : ppExtras ? 'related-reading block on the page' : 'clean');
+  // 2026-11-18 (owner): info@atlantisndt.com is the only valid Atlantis address. No page or JS chunk may show
+  // an atlantisinspection.com address, or any other atlantisndt.com mailbox (sales@, enroll@, a personal one).
+  const BAD_EMAIL = /[a-z0-9._%+-]+@(?:[a-z0-9-]+\.)*atlantisinspection\.com|\b(?!info@)[a-z0-9._%+-]+@atlantisndt\.com/gi;
+  const emailAssets = join(DIST, 'assets');
+  const emailFiles = [...files, ...(existsSync(emailAssets) ? readdirSync(emailAssets).filter((n) => n.endsWith('.js')).map((n) => join(emailAssets, n)) : []),
+    ...['llms.txt', 'llms-full.txt'].map((n) => join(DIST, n)).filter((p) => existsSync(p))];
+  const badEmails = new Map();
+  for (const f of emailFiles) for (const m of readFileSync(f, 'utf-8').matchAll(BAD_EMAIL)) badEmails.set(m[0].toLowerCase(), f.replace(DIST, ''));
+  add('Only info@atlantisndt.com as Atlantis email', badEmails.size === 0,
+    badEmails.size ? [...badEmails].slice(0, 4).map(([e, f]) => `${e} (${f})`).join(', ') : 'clean');
 }
 
 // ── 5. Sitemap integrity ─────────────────────────────────────────────────────

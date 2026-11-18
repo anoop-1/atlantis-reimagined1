@@ -127,7 +127,7 @@ export default function CRMForNDTInspectionCompaniesGuide() {
               The Atlantis NDT ERP CRM integrates cold email and nurture campaigns natively rather than via third-party tools (HubSpot, Mailchimp, Apollo, Lemlist). The workflow: lead captured from website form, LinkedIn outreach, imported list, or trade-show contact list; lead enters the assigned campaign (Atlantis NDT Brand for Tier-1 inspection-vendor outreach, NDT Connect Brand for marketplace-style lead generation, vertical-specific campaigns for fabrication-heavy or asset-integrity-focused prospects); campaign emails sent from configured persona (e.g., 'Mark Harrison, Business Development Manager') with BCC to master inbox; engagement events (open, click, reply) update lead score; replies route to assigned BDM; qualified replies convert to opportunity with automatic creation of follow-up tasks.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              The 200-emails-per-day operational limit prevents domain reputation damage from over-volume sending; warm-up rotation across multiple sending domains (atlantisndt.com, ndt-connect.com, atlantisinspection.com) maintains deliverability; SPF, DKIM, and DMARC authentication preserves inbox placement. This is the architecture Atlantis NDT itself runs across 6,700+ CRM contacts.
+              The 200-emails-per-day operational limit prevents domain reputation damage from over-volume sending; warm-up rotation across more than one authenticated sending domain maintains deliverability; SPF, DKIM, and DMARC authentication preserves inbox placement. This is the architecture Atlantis NDT itself runs across 6,700+ CRM contacts.
             </p>
           </section>
 
