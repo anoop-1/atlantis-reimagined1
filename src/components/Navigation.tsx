@@ -39,7 +39,7 @@ export const Navigation = () => {
    const [isOpen, setIsOpen] = useState(false);
    const [scrolled, setScrolled] = useState(false);
    const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-   const [activeService, setActiveService] = useState<string>(servicesWithMenu[0]?.name ?? "");
+   const [activeService, setActiveService] = useState<string>((servicesWithMenu.find((s) => s.path === "/inspection") ?? servicesWithMenu[0])?.name ?? ""); // 2026-11-20: Inspection stays the default panel now that Training has one too
    const location = useLocation();
 
    // Escape closes an open desktop dropdown, including one opened by hover.
@@ -179,7 +179,7 @@ export const Navigation = () => {
                                  </div>
                               </div>
                            ) : servicesWithMenu.length && item.dropdown.some((sub) => sub.children?.length) ? (() => {
-                              const panel = servicesWithMenu.find((x) => x.name === activeService) ?? servicesWithMenu[0];
+                              const panel = servicesWithMenu.find((x) => x.name === activeService) ?? servicesWithMenu.find((s) => s.path === "/inspection") ?? servicesWithMenu[0];
                               return (
                               <div
                                  className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(48rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}

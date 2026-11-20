@@ -104,6 +104,7 @@ import { applyUsIndustryRoutes, applyUsIndustryHubRoute, applyUsIndustryStateHub
 import { applyAuditCwiRoutes, assertAuditCwiClean } from './audit-cwi-2026-11.mjs'; // 2026-11-18 owner: Level III audit-support pages (ASME, NBIC R, maritime class approval, NAS 410 documentation) + 6-day AWS CWI exam-prep pages
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
 import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
+import { applyCwiTrainingBlock, assertCwiTrainingBlockClean } from './cwi-us-block-2026-11.mjs'; // 2026-11-20 owner: AWS CWI section on US training pages + training hubs
 import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
 import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
@@ -14218,6 +14219,7 @@ assertNaKeywordDepthClean(BUILT_PATHS); // 2026-10-26 §64: competitor-keyword s
 assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
 assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, related targets built
 assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
+assertCwiTrainingBlockClean(BUILT_PATHS); // 2026-11-20: CWI section: city list matches _pages.json, targets built, no prices
 assertCareersLinks(BUILT_PATHS); // 2026-11-20: careers pages: no pay figures or placeholders, only info@, links built
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertMaritimeSectionClean(BUILT_PATHS); // 2026-11-07: maritime records complete, >=2,000 words per port, links built, no prices/approval/presence claims
@@ -14458,6 +14460,7 @@ routes.forEach(route => {
     route = applyGeoDepth(route); // 2026-10-24: researched local depth block (before routing + downloads)
     route = applyErpSolutionRoute(route); // 2026-11-06: ERP module dashboards + problem-guide links (before routing)
     route = applyIntentRoute(route); // 2026-10-24: intent routing (careers -> training + Practical NDT, calculators -> consulting/ERP, codes -> procedure + inspection + training)
+    route = applyCwiTrainingBlock(route); // 2026-11-20: AWS CWI section (three formats, nearest CWI city page) on US training pages + /training + /ndt-training-usa
     route = applyDownloadsRoute(route); // 2026-10-24: free downloads + custom-templates quotation CTA, ahead of the coverage block
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyConsultingRoute(route); // 2026-10-19: Level III consulting services cards (/consulting, Level III page) + topic up-links on detailed consulting pages
@@ -14481,6 +14484,7 @@ routes.forEach(route => {
       if (!route.bodyContent.includes('data-geo-depth="2026-10"')) route = applyGeoDepth(route);
       if (!route.bodyContent.includes('data-erp-solution-links="2026-11"') || (/^\/erp\/apps\/[a-z-]+$/.test(route.path) && !route.bodyContent.includes('data-erp-module-dashboard="2026-11"'))) route = applyErpSolutionRoute(route);
       if (!route.bodyContent.includes('data-intent-route="2026-10"')) route = applyIntentRoute(route);
+      if (!route.bodyContent.includes('data-cwi-block="2026-11"')) route = applyCwiTrainingBlock(route);
       if (!route.bodyContent.includes('data-free-downloads="2026-10"')) route = applyDownloadsRoute(route);
       if (!route.bodyContent.includes('data-guide-library="2026-10"')) route = applyApiGuideLibrary(route);
     }

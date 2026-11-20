@@ -134,12 +134,25 @@ function relatedBlock(plan) {
   return `<section data-auditcwi-related="2026-11"><h2>Related pages</h2>${linkList(items)}${nearHtml}</section>`;
 }
 
+// 2026-11-20 (owner): three formats, all six days: corporate (at the employer's facility), online (own pace,
+// instructor answers questions) and one-to-one (online or in person). The national page states them in its own
+// record; every CWI city page gets this block in both layers (crawler and published React page).
+export function cwiFormatsBlock(plan) {
+  const where = plan.kind === 'city' ? ` from ${placeOf(plan)}` : '';
+  return `<section data-cwi-formats="2026-11-20"><h2>Three ways to take the six-day CWI course${esc(where)}</h2>`
+    + `<p>All three formats follow the same six-day outline and cover Parts A, B and C. Fees are quoted on request for the format you choose.</p>`
+    + `<h3>Corporate: six days for your team</h3><p>For an employer preparing a group. The six days are delivered at your facility, using your welds, your gauges and, where it fits, your code and procedures.</p>`
+    + `<h3>Online: six days at your own pace</h3><p>For an individual who wants to set the pace. You get a study plan built on the six-day outline, course materials, original practice questions and timed practice papers, and an instructor answers your questions as you work. There are no scheduled class times.</p>`
+    + `<h3>One-to-one: online or in person</h3><p>For a single candidate who wants personal coaching: six days of one-to-one sessions with the instructor, online or in person at a location agreed when you book, with the time spent on the parts of the exam where you need it most.</p>`
+    + `<p>Whichever format you choose, AWS administers the examination and issues the certification, and each candidate applies to AWS individually and meets the AWS eligibility and vision rules personally. <a href="${NATIONAL.cwi}">Course outline, exam structure and eligibility</a>.</p></section>`;
+}
+
 function ctaBlock(plan) {
   if (plan.family === 'cwi') {
     const where = plan.kind === 'city' ? placeOf(plan) : 'US';
     const href = `/contact?service=training&amp;subject=${encodeURIComponent(`AWS CWI exam prep - ${where}`)}`;
     return `<section data-auditcwi-cta="2026-11"><h2>Enquire about the 6-day CWI exam prep course</h2>`
-      + `<p>Tell us whether you are preparing on your own or booking the six days for a group at your facility, which code you plan to take for Part C, and when you intend to sit the exam. We reply within one business day. AWS administers the examination and issues the certification.</p>`
+      + `<p>Tell us which format suits you (corporate for a group at your facility, online at your own pace, or one-to-one online or in person), which code you plan to take for Part C, and when you intend to sit the exam. We reply within one business day. AWS administers the examination and issues the certification.</p>`
       + `<p><a href="${href}">Enquire about AWS CWI exam prep</a></p></section>`;
   }
   const topic = { asme: 'ASME audit Level III support', nbic: 'NBIC R stamp NDE audit support', nas410: 'Aerospace audit documentation', maritime: 'Maritime class audit support' }[plan.sub];
@@ -152,7 +165,8 @@ function ctaBlock(plan) {
 
 export function auditCwiMain({ plan, rec }) {
   const faq = (rec.faq || []).map((f) => `<h3>${esc(f.q)}</h3><p>${f.a}</p>`).join('');
-  return `<h1>${esc(rec.h1)}</h1>${rec.html}<h2>Frequently asked questions</h2>${faq}${relatedBlock(plan)}${ctaBlock(plan)}`;
+  const formats = plan.family === 'cwi' && plan.kind === 'city' ? cwiFormatsBlock(plan) : '';
+  return `<h1>${esc(rec.h1)}</h1>${rec.html}${formats}<h2>Frequently asked questions</h2>${faq}${relatedBlock(plan)}${ctaBlock(plan)}`;
 }
 
 function schemaFor({ plan, rec }, path) {
@@ -166,7 +180,11 @@ function schemaFor({ plan, rec }, path) {
     out.push({ '@context': 'https://schema.org', '@type': 'Course', '@id': `${url}#course`, name: 'AWS CWI exam preparation course (6 days)',
       description: rec.description, url, provider: org, inLanguage: 'en',
       offers: { '@type': 'Offer', category: 'Paid', availability: 'https://schema.org/InStock' },
-      hasCourseInstance: [{ '@type': 'CourseInstance', courseMode: 'Online', courseWorkload: 'P6D' }, { '@type': 'CourseInstance', courseMode: 'Onsite', courseWorkload: 'P6D', location: { '@type': 'Place', name: "The employer's facility" } }] });
+      hasCourseInstance: [
+        { '@type': 'CourseInstance', name: "Corporate: six days at the employer's facility", courseMode: 'Onsite', courseWorkload: 'P6D', location: { '@type': 'Place', name: "The employer's facility" } },
+        { '@type': 'CourseInstance', name: 'Online, at your own pace', courseMode: 'Online', courseWorkload: 'P6D' },
+        { '@type': 'CourseInstance', name: 'One-to-one, online or in person', courseMode: ['Online', 'Onsite'], courseWorkload: 'P6D' },
+      ] });
   } else if (plan.family === 'cwi') {
     out.push({ '@context': 'https://schema.org', '@type': 'WebPage', '@id': `${url}#webpage`, name: rec.h1, description: rec.description, url,
       about: { '@id': `${SITE}${NATIONAL.cwi}#course` }, publisher: org });
@@ -254,6 +272,7 @@ export function assertAuditCwiClean(builtPaths) {
       if (!/Responsible Level 3/.test(all)) errors.push(`${path}: NAS 410 page does not explain the Responsible Level 3`);
     } else if (nas) errors.push(`${path}: names NAS 410 (only the NAS 410 documentation pages may)`);
     if (plan.family === 'cwi' && !/\b(?:six|6)[- ]day\b/i.test(all)) errors.push(`${path}: CWI page does not state the 6-day course`);
+    if (plan.family === 'cwi' && !/one-to-one/i.test(plan.kind === 'city' ? auditCwiMain({ plan, rec }) : all)) errors.push(`${path}: CWI page does not describe the one-to-one format`);
     const html = `${rec.html} ${(rec.faq || []).map((f) => f.a).join(' ')}`;
     for (const m of html.matchAll(/href="(\/[^"?#]*)/g)) {
       const t = m[1].replace(/\/$/, '') || '/';

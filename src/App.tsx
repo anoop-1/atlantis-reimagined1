@@ -10,6 +10,7 @@ const TrainingAvailabilityBlock = lazy(() => import("./components/TrainingAvaila
 const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §48
 const GeoDepthBlock = lazy(() => import("./components/GeoDepthBlock")); // 2026-10-24 researched local blocks on earning geo pages
 const IntentRouteBlock = lazy(() => import("./components/IntentRouteBlock"));
+const CwiTrainingBlock = lazy(() => import("./components/CwiTrainingBlock")); // 2026-11-20: AWS CWI section on US training pages + training hubs
 const GlobalTrainingFees = lazy(() => import("./components/GlobalTrainingFees")); // 2026-11-10 US fee table on hand-built training pages
 const ErpSolutionLinksBlock = lazy(() => import("./components/ErpSolutionLinksBlock")); // 2026-11-06 ERP pages -> /erp/solutions problem guides // 2026-10-24 reading pages -> the product their readers buy next
 const FreeDownloadsBlock = lazy(() => import("./components/FreeDownloadsBlock")); // 2026-10-24 free templates + practice PDFs + custom-templates CTA
@@ -63,6 +64,7 @@ const App = () => (
                   <GeoDepthBlock />
                   <ErpSolutionLinksBlock />
                   <IntentRouteBlock />
+                  <CwiTrainingBlock />
                   <FreeDownloadsBlock />
                   <CompetitiveCoverageBlock />
                   <ConsultingServicesBlock />
