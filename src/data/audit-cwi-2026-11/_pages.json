@@ -751,6 +751,226 @@
    "st": "OK",
    "citySlug": "tulsa",
    "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-san-antonio",
+   "slug": "cwi-training-san-antonio",
+   "city": "San Antonio",
+   "st": "TX",
+   "citySlug": "san-antonio",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-fort-worth",
+   "slug": "cwi-training-fort-worth",
+   "city": "Fort Worth",
+   "st": "TX",
+   "citySlug": "fort-worth",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-corpus-christi",
+   "slug": "cwi-training-corpus-christi",
+   "city": "Corpus Christi",
+   "st": "TX",
+   "citySlug": "corpus-christi",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-beaumont",
+   "slug": "cwi-training-beaumont",
+   "city": "Beaumont",
+   "st": "TX",
+   "citySlug": "beaumont",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-lake-charles",
+   "slug": "cwi-training-lake-charles",
+   "city": "Lake Charles",
+   "st": "LA",
+   "citySlug": "lake-charles",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-new-orleans",
+   "slug": "cwi-training-new-orleans",
+   "city": "New Orleans",
+   "st": "LA",
+   "citySlug": "new-orleans",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-mobile",
+   "slug": "cwi-training-mobile",
+   "city": "Mobile",
+   "st": "AL",
+   "citySlug": "mobile",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-birmingham",
+   "slug": "cwi-training-birmingham",
+   "city": "Birmingham",
+   "st": "AL",
+   "citySlug": "birmingham",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-oklahoma-city",
+   "slug": "cwi-training-oklahoma-city",
+   "city": "Oklahoma City",
+   "st": "OK",
+   "citySlug": "oklahoma-city",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-wichita",
+   "slug": "cwi-training-wichita",
+   "city": "Wichita",
+   "st": "KS",
+   "citySlug": "wichita",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-omaha",
+   "slug": "cwi-training-omaha",
+   "city": "Omaha",
+   "st": "NE",
+   "citySlug": "omaha",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-memphis",
+   "slug": "cwi-training-memphis",
+   "city": "Memphis",
+   "st": "TN",
+   "citySlug": "memphis",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-louisville",
+   "slug": "cwi-training-louisville",
+   "city": "Louisville",
+   "st": "KY",
+   "citySlug": "louisville",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-columbus-ohio",
+   "slug": "cwi-training-columbus-ohio",
+   "city": "Columbus",
+   "st": "OH",
+   "citySlug": "columbus-ohio",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-buffalo",
+   "slug": "cwi-training-buffalo",
+   "city": "Buffalo",
+   "st": "NY",
+   "citySlug": "buffalo",
+   "region": "Northeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-newark",
+   "slug": "cwi-training-newark",
+   "city": "Newark",
+   "st": "NJ",
+   "citySlug": "newark",
+   "region": "Mid-Atlantic"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-norfolk",
+   "slug": "cwi-training-norfolk",
+   "city": "Norfolk",
+   "st": "VA",
+   "citySlug": "norfolk",
+   "region": "Mid-Atlantic"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-north-charleston",
+   "slug": "cwi-training-north-charleston",
+   "city": "North Charleston",
+   "st": "SC",
+   "citySlug": "north-charleston",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-las-vegas",
+   "slug": "cwi-training-las-vegas",
+   "city": "Las Vegas",
+   "st": "NV",
+   "citySlug": "las-vegas",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-san-francisco",
+   "slug": "cwi-training-san-francisco",
+   "city": "San Francisco",
+   "st": "CA",
+   "citySlug": "san-francisco",
+   "region": "West"
   }
  ]
 }
