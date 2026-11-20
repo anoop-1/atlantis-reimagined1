@@ -203,10 +203,13 @@ const CURATED_LABELS = {
 
 // 2026-10-31 (owner): /privacy-policy is reached by URL only. It never receives a
 // related-reading block and is never linked from another page's block.
+// 2026-11-20: the careers pages are linked from /about and the footer; they get no related-reading block
+// and are not used to fill other pages' blocks.
 const URL_ONLY_PAGES = new Set(['/privacy-policy']);
+const noRescue = (p) => URL_ONLY_PAGES.has(p) || p === '/careers' || p.startsWith('/careers/');
 
 export function rescueOrphans(routes, { linksPerPage = 6 } = {}) {
-  const indexable = routes.filter((r) => !r.path.includes(':') && !r.path.includes('*') && !r.noindex && r.bodyContent && !URL_ONLY_PAGES.has(r.path));
+  const indexable = routes.filter((r) => !r.path.includes(':') && !r.path.includes('*') && !r.noindex && r.bodyContent && !noRescue(r.path));
   const byPath = new Map(indexable.map((r) => [r.path, r]));
 
   // Count inbound links from prerendered bodies only — that is what Google's

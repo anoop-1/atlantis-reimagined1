@@ -35,5 +35,6 @@ export function aboutBodyHtml() {
     <h2>${esc(a.addressesHeading)}</h2>
     ${li(a.addresses, (x) => `<li><strong>${esc(x.label)}</strong> — ${esc(x.text)}</li>`)}
     <p>${esc(a.contact)} <a href="/contact"><strong>Contact Atlantis NDT</strong></a>.</p>
+    <p>${esc(a.careers)} <a href="/careers">See open positions</a>.</p>
   </main>`;
 }

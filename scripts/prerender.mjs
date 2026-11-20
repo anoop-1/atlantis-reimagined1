@@ -91,6 +91,7 @@ import { applySoftwareOwnersRoute, assertSoftwareOwnersClean, softwareOwnerStats
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingConversionRoutes, applyTrainingCtaBar, assertTrainingConversionClean, trainingConversionStats } from './training-conversion-2026-10.mjs'; // 2026-10-18 owner: /ndt-training-faq, /snt-tc-1a-eligibility, 3-button bar on training city/regional pages
 import { privacyPolicyRoute } from './privacy-policy-page.mjs';
+import { careersRoutes, assertCareersLinks } from './careers-page.mjs'; // 2026-11-20 owner: /careers + job pages (JobPosting), linked from the footer and /about
 import { brochureRoute } from './brochure-page.mjs'; // 2026-11-07 owner: /brochure (view + download the 2026 company brochure), linked from the footer
 import { erpSolutionRoutes, applyErpSolutionRoute, assertErpSolutionsBuilt, erpSolutionStats } from './erp-solutions-pages.mjs'; // 2026-11-06 owner: ERP problem -> solution pages, dashboards, links
 import { MODULE_PAGES_PROTECTED } from '../src/data/erp-module-dashboards-2026-11.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
@@ -10100,6 +10101,7 @@ routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /
 routes.push(...erpSolutionRoutes()); // 2026-11-06: /erp/solutions hub + problem guides (scripts/erp-solutions-pages.mjs)
 routes.push(privacyPolicyRoute()); // 2026-10-31: /privacy-policy (scripts/privacy-policy-page.mjs); not linked from navigation or footer
 routes.push(brochureRoute()); // 2026-11-07: /brochure (scripts/brochure-page.mjs)
+routes.push(...careersRoutes()); // 2026-11-20: /careers + /careers/{job} (scripts/careers-page.mjs)
 routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
@@ -12751,6 +12753,7 @@ function getLastmodForPath(path, index = 0) {
 
   // Static pages (about, FAQ, contact): 2026-02-15
   if (path === '/erp/solutions' || path.startsWith('/erp/solutions/')) return '2026-11-06'; // ERP problem guides
+  if (path === '/careers' || path.startsWith('/careers/')) return '2026-11-20'; // careers + job pages (src/data/careers-2026-11.json)
   if (path === '/privacy-policy') return '2026-10-31'; // policy effective date (src/data/privacy-policy-2026-10.json)
   if (['/about', '/faq', '/contact', '/privacy', '/terms'].includes(path)) {
     return '2026-02-15';
@@ -12765,7 +12768,8 @@ function getLastmodForPath(path, index = 0) {
 function categorizeRoute(path) {
   // Categorize routes for sitemap distribution
   if (path === '/' || path === '/about' || path === '/faq' || path === '/contact' ||
-      path === '/privacy' || path === '/privacy-policy' || path === '/terms' || path === '/services') {
+      path === '/privacy' || path === '/privacy-policy' || path === '/terms' || path === '/services' ||
+      path === '/careers' || path.startsWith('/careers/')) {
     return 'core';
   }
   if (path === '/maritime' || path.startsWith('/maritime/')) return 'maritime'; // 2026-11-10
@@ -14214,6 +14218,7 @@ assertNaKeywordDepthClean(BUILT_PATHS); // 2026-10-26 §64: competitor-keyword s
 assertIntentRoutesClean(BUILT_PATHS); // 2026-10-24: every routing destination is built
 assertErpSolutionsBuilt(BUILT_PATHS); // 2026-11-06: ERP solution guides clean, related targets built
 assertDownloadsClean(BUILT_PATHS); // 2026-10-24: download files exist, placement pages built, no price wording
+assertCareersLinks(BUILT_PATHS); // 2026-11-20: careers pages: no pay figures or placeholders, only info@, links built
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertMaritimeSectionClean(BUILT_PATHS); // 2026-11-07: maritime records complete, >=2,000 words per port, links built, no prices/approval/presence claims
 assertUsConventionalClean(BUILT_PATHS); // 2026-11-14: every US MT/PT/UT city record valid (2,000+ words, no RT offer, no advanced methods), every page and link built

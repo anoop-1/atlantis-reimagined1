@@ -79,7 +79,7 @@ const EXCLUDE = new Set(['/', '/contact', '/about', '/privacy', '/privacy-policy
 export function familyFor(path) {
   const p = String(path || '').toLowerCase().replace(/\/$/, '') || '/';
   if (EXCLUDE.has(p)) return null;
-  if (/^\/(ar|es)\//.test(p) || /^\/(tools|resources|embed|admin|legal)(\/|$)/.test(p)) return null;
+  if (/^\/(ar|es)\//.test(p) || /^\/(tools|resources|embed|admin|legal|careers)(\/|$)/.test(p)) return null; // careers: 2026-11-20
   if (/3d-scanning|laser-scanning|reality-capture/.test(p)) return 'scan';
   if (/^\/practical-ndt|simulator|virtual-ndt|vr-ndt/.test(p)) return 'trainingSim';
   if (/digital-twin|^\/compare\/atlantis-dt|asset-integrity|idms|inspection-data-management/.test(p)) return 'twin';

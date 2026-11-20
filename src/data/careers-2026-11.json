@@ -1,0 +1,335 @@
+{
+  "_note": "2026-11-20 (owner): careers section with the Business Development Executive role in Hyderabad (owner's JD) and a freelance, pro rata UT technician role for Houston or anywhere in the USA. One source for both layers: src/pages/Careers.tsx + src/pages/CareerJob.tsx (React) and scripts/careers-page.mjs (crawler), both through src/data/careers-2026-11.mjs. No pay figures until the owner confirms them; no placeholder text. A job is listed and carries JobPosting markup only while status is 'open' and validThrough has not passed.",
+  "hub": {
+    "path": "/careers",
+    "title": "Careers at Atlantis NDT: Jobs in Hyderabad and the USA",
+    "description": "Open positions at Atlantis NDT: a Business Development Executive in Hyderabad, and freelance UT technicians in Houston and across the USA. How to apply.",
+    "eyebrow": "Careers",
+    "h1": "Careers at Atlantis NDT",
+    "intro": "Atlantis NDT is a lean, founder-led NDT company working with clients in the USA, India and the Middle East. We hire people who write clearly, follow through and want to learn the inspection industry. Each open position below has its own page with the full job description and how to apply.",
+    "positionsHeading": "Open positions",
+    "positionsSub": "Click a role for the full job description, requirements and how to apply.",
+    "whyHeading": "What working with Atlantis NDT is like",
+    "why": [
+      {
+        "h": "Work directly with the founder",
+        "p": "We are a small team, so you work with leadership from day one. Our founder is an ASNT NDT Level III in UT, RT, MT, PT and VT with more than eleven years of international field experience."
+      },
+      {
+        "h": "International clients",
+        "p": "Our clients are in oil and gas, maritime, aerospace, petrochemical and power, across the USA, India and the Middle East. You will deal with real projects and real deadlines."
+      },
+      {
+        "h": "Learn the industry properly",
+        "p": "You learn NDT, the inspection codes our clients work to, and our own products: the Atlantis ERP, Practical NDT simulation and digital twin reporting. No one is expected to know it all on day one."
+      }
+    ],
+    "whereHeading": "Where we work",
+    "where": "Atlantis NDT has offices in Houston, Texas, and Hyderabad, India. Office roles are based in Hyderabad; field roles in the USA work at client sites, including refineries, chemical plants, fabrication shops, tank farms, power plants and shipyards.",
+    "applyHeading": "How to apply",
+    "apply": [
+      "Email your CV to info@atlantisndt.com with the subject line given on the job page, and a short note on why the role suits you.",
+      "Field roles: attach copies of your certifications and your most recent vision examination.",
+      "Shortlisted candidates hear from us by email or phone. If no current role fits, you can still email your CV with the subject line \"General application\" and the kind of work you want."
+    ],
+    "noFee": "We never ask candidates for a fee or a payment at any stage of hiring. If anyone asks you to pay to apply for, or to be placed in, a role at Atlantis NDT, it is not us; please tell us at info@atlantisndt.com.",
+    "equal": "We consider every applicant on their skills, experience and the requirements of the role, without regard to race, colour, religion, sex, national origin, age, disability or any other characteristic protected by law."
+  },
+  "jobs": [
+    {
+      "slug": "business-development-executive-hyderabad",
+      "path": "/careers/business-development-executive-hyderabad",
+      "status": "open",
+      "datePosted": "2026-11-20",
+      "validThrough": "2027-02-28",
+      "title": "Business Development Executive Job in Hyderabad",
+      "description": "Atlantis NDT is hiring a Business Development / Sales & Marketing Executive in Hyderabad: freshers and recent BBA, MBA or B.Tech graduates, paid training.",
+      "h1": "Business Development / Sales & Marketing Executive (Hyderabad)",
+      "jobTitle": "Business Development Executive",
+      "card": {
+        "location": "Hyderabad, Telangana, India (on-site)",
+        "type": "Full-time",
+        "text": "Win and manage international clients by email and phone, after six months of paid, structured training. For freshers and graduates of the last one to three years."
+      },
+      "summary": "Atlantis NDT is hiring a recent graduate in Hyderabad to win and manage international clients by email and phone, after six months of paid, structured training.",
+      "snapshot": [
+        [
+          "Title",
+          "Business Development Executive / Sales & Marketing Executive"
+        ],
+        [
+          "Company",
+          "Atlantis Inspection Services Pvt. Ltd. (Atlantis NDT)"
+        ],
+        [
+          "Location",
+          "Hyderabad, Telangana, India (on-site)"
+        ],
+        [
+          "Employment type",
+          "Full-time"
+        ],
+        [
+          "Experience",
+          "Freshers, or graduates who completed their degree within the last 1–3 years"
+        ],
+        [
+          "Education",
+          "BBA, MBA, or B.E./B.Tech (any branch)"
+        ],
+        [
+          "Probation",
+          "6 months of training and probation, then the full role"
+        ],
+        [
+          "Reports to",
+          "Founder & General Manager"
+        ]
+      ],
+      "sections": [
+        {
+          "h": "About Atlantis NDT",
+          "p": [
+            "Atlantis NDT (atlantisndt.com) provides non-destructive testing (NDT) consulting, training and technology to clients in the USA, India and the Middle East. We serve the oil & gas, maritime, aerospace, petrochemical and power sectors.",
+            "Our products include Practical NDT, a 3D/VR NDT training simulator, and a Digital Twin platform for asset inspection. We are a lean, founder-led team, so you will work directly with leadership from day one."
+          ]
+        },
+        {
+          "h": "Role overview",
+          "p": [
+            "You will be the first point of contact for our international clients and prospects. You will handle email and phone conversations, follow up on enquiries, and help turn leads into paying projects for our consulting, training and software services.",
+            "This is a front-facing role. It suits someone who enjoys talking to people, writes clear professional English, and wants to build a career in B2B sales for a technical industry. No NDT background is needed; we will teach you."
+          ]
+        },
+        {
+          "h": "Key responsibilities",
+          "items": [
+            "Client communication: answer international client enquiries by email and phone within agreed response times, in clear professional English.",
+            "Lead follow-up: follow up on inbound leads, website enquiries and LinkedIn conversations, and book calls for the founder.",
+            "Outreach: research and contact prospects in oil & gas, maritime, aerospace and power, using email, phone and LinkedIn.",
+            "Proposals and quotes: prepare quotations, proposals and capability decks using company templates.",
+            "CRM and pipeline: keep every lead, call and email logged in the CRM, and report the pipeline every week.",
+            "Coordination: pass client requirements to the technical team, and keep clients updated on progress, invoices and deliverables.",
+            "Marketing support: help with LinkedIn posts, email campaigns, website content and event follow-ups.",
+            "Market research: track competitors, pricing and new opportunities in our target regions.",
+            "Time zones: some calls will fall in USA or Middle East working hours, so be flexible when needed."
+          ]
+        },
+        {
+          "h": "Training and probation (first 6 months)",
+          "p": [
+            "The first six months are a structured training and probation period. You will move into the full role once you pass the month-6 review."
+          ],
+          "steps": [
+            "Months 1–2: Foundations. Learn NDT basics, our services and products, target industries, the CRM, and how we write emails and run calls.",
+            "Months 3–4: Supervised work. Draft client emails and quotes for review, sit in on client calls, and start handling simple enquiries.",
+            "Months 5–6: Independent work with review. Manage your own set of leads and clients, with weekly feedback from the founder.",
+            "Month 6: Review and confirmation. We review your communication, follow-up discipline and pipeline results. If you pass, you are confirmed in the full role with independent ownership of client accounts."
+          ]
+        },
+        {
+          "h": "Who we're looking for: must have",
+          "items": [
+            "BBA, MBA, or B.E./B.Tech in any branch, completed in the last 1–3 years (final-year students joining on completion are welcome).",
+            "Based in Hyderabad, or willing to relocate before joining.",
+            "Excellent spoken and written English, and confidence on the phone with international clients.",
+            "Good computer skills: email, MS Office or Google Workspace, and comfort learning a CRM.",
+            "Willingness to work some calls outside Indian business hours."
+          ]
+        },
+        {
+          "h": "Good to have",
+          "items": [
+            "An internship or project in sales, marketing, customer service or business development.",
+            "An engineering background, which helps when explaining technical services.",
+            "Familiarity with LinkedIn, email marketing or tools like HubSpot or Zoho."
+          ]
+        },
+        {
+          "h": "Traits we value",
+          "items": [
+            "Eager to learn, hardworking and disciplined about follow-up.",
+            "Professional, polite and calm with clients.",
+            "Organised, with attention to detail in emails and quotes."
+          ]
+        },
+        {
+          "h": "What we offer",
+          "items": [
+            "A structured 6-month training programme in international B2B sales for the NDT and inspection industry.",
+            "Daily exposure to clients in the USA, the Middle East and India.",
+            "Direct mentoring from the founder, an ASNT NDT Level III with 11+ years of international experience.",
+            "A clear path to own client accounts after confirmation, with room to grow into a senior business development role.",
+            "A stipend during the training period and a salary after confirmation; the details are discussed at interview."
+          ]
+        }
+      ],
+      "apply": {
+        "subject": "Application – Business Development Executive, Hyderabad",
+        "text": "Email your CV to info@atlantisndt.com with the subject line \"Application – Business Development Executive, Hyderabad\". Include a short note (5–6 lines) on why you want a client-facing sales role.",
+        "next": "Shortlisted candidates will have a phone screening in English, followed by an in-person interview in Hyderabad.",
+        "phone": "+91 8688325653",
+        "phoneText": "For questions, call or WhatsApp"
+      },
+      "schema": {
+        "employmentType": "FULL_TIME",
+        "hiringOrganization": "Atlantis Inspection Services Pvt. Ltd. (Atlantis NDT)",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "postalCode": "500078",
+        "addressCountry": "IN",
+        "industry": "Non-destructive testing and inspection services",
+        "occupationalCategory": "Business development and sales",
+        "education": "bachelor degree",
+        "experienceMonths": 0,
+        "skills": "Client communication by email and phone, lead follow-up, proposals and quotations, CRM, professional written English",
+        "identifier": "ATL-BDE-HYD-2026-11"
+      }
+    },
+    {
+      "slug": "freelance-ut-technician-usa",
+      "path": "/careers/freelance-ut-technician-usa",
+      "status": "open",
+      "datePosted": "2026-11-20",
+      "validThrough": "2027-02-28",
+      "title": "Freelance UT Technician (Level II) Job | Houston, TX & USA",
+      "description": "Freelance UT Level II technician, paid pro rata per assignment: thickness gauging and shear-wave weld UT at client sites in Houston and across the USA.",
+      "h1": "Freelance UT Technician, Level II: Houston, Texas, or Anywhere in the USA",
+      "jobTitle": "Freelance Ultrasonic Testing (UT) Technician, Level II",
+      "card": {
+        "location": "Houston, Texas, or anywhere in the USA (field)",
+        "type": "Freelance, pro rata per assignment",
+        "text": "Ultrasonic thickness measurement and shear-wave weld examination at refineries, plants, fabrication shops and tank farms. You accept the assignments that suit you."
+      },
+      "summary": "Atlantis NDT is building a network of freelance UT Level II technicians in Houston and across the USA, paid pro rata for the days they work on each assignment.",
+      "snapshot": [
+        [
+          "Title",
+          "Freelance Ultrasonic Testing (UT) Technician, Level II"
+        ],
+        [
+          "Company",
+          "Atlantis Engineering Consultants LLC (Atlantis NDT)"
+        ],
+        [
+          "Location",
+          "Houston, Texas, or anywhere in the USA; work is at client sites"
+        ],
+        [
+          "Engagement",
+          "Freelance, pro rata: paid for the days you work on each assignment, as an independent contractor"
+        ],
+        [
+          "Pay",
+          "A day or hourly rate agreed for each assignment before you accept it"
+        ],
+        [
+          "Commitment",
+          "No minimum: you accept or decline each assignment offered"
+        ],
+        [
+          "Certification",
+          "UT Level II to ASNT SNT-TC-1A, with the training and experience records behind it"
+        ],
+        [
+          "Technical lead",
+          "Our Responsible NDT Level III"
+        ]
+      ],
+      "sections": [
+        {
+          "h": "About the role",
+          "p": [
+            "Atlantis NDT carries out conventional NDT in the USA: ultrasonic, magnetic particle and penetrant testing for owners, operators, fabricators and inspection companies. Our work comes in uneven sizes, from one day of thickness readings on a piping circuit to several weeks on a refinery turnaround, so we work with freelance UT technicians who can join an assignment when it suits them.",
+            "You are paid pro rata, for the days you actually work on each assignment, at a rate agreed before you accept it. Houston and the Gulf Coast are where most of the work is, but we take assignments across the USA, so technicians based in other states are welcome to apply; tell us where you are and how far you will travel."
+          ]
+        },
+        {
+          "h": "Typical assignments",
+          "items": [
+            "Ultrasonic thickness measurement at the condition monitoring locations of process piping circuits, inspected under API 570 and API 574.",
+            "Thickness surveys of pressure vessel shells and heads for API 510 inspections, and of storage tank shells and roofs for API 653.",
+            "Shear-wave (angle beam) examination of welds to ASME Section V Article 4, ASME B31.3, ASME Section VIII and AWS D1.1, on new fabrication and repairs.",
+            "Straight-beam lamination checks on plate and pipe before welding or before a nozzle is set in.",
+            "Boiler tube thickness surveys during power plant and industrial boiler outages.",
+            "Wall-thickness readings on exposed pipe at excavations for pipeline operators."
+          ]
+        },
+        {
+          "h": "What you will do",
+          "items": [
+            "Carry out UT to the Atlantis written procedure for the job and the client's code or specification.",
+            "Calibrate and verify your instrument on the right reference blocks before, during and after the work, and record it.",
+            "Record every reading against its location, sketch or drawing reference, so the client can find the same point next time.",
+            "Report rejectable indications and readings below the minimum the client gives you to our Level III on the same day.",
+            "Complete the inspection report in our reporting system, with readings, sketches, calibration and equipment details.",
+            "Follow the client's site safety rules, permits and orientation requirements at all times.",
+            "Keep your certification, vision examination and site safety cards current, and send us renewals as they happen."
+          ]
+        },
+        {
+          "h": "Requirements: must have",
+          "items": [
+            "UT Level II certification to ASNT SNT-TC-1A from a current or previous employer, with the training and experience records that support it.",
+            "A near-vision examination (Jaeger J-2 at no less than 12 in.) within the last 12 months, and a colour contrast examination.",
+            "Field experience with ultrasonic thickness gauges and flaw detectors on carbon and stainless steel.",
+            "Able to read isometric drawings, weld maps and the acceptance criteria of the codes listed above.",
+            "Clear, accurate reports in written English.",
+            "Legally authorized to work in the United States.",
+            "A valid driver's license and willingness to travel to client sites."
+          ]
+        },
+        {
+          "h": "Good to have",
+          "items": [
+            "MT and PT Level II certification, so you can cover a combined UT, MT and PT scope on one visit.",
+            "A TWIC card, and site safety orientations such as Basic Orientation Plus and H2S awareness.",
+            "Refinery or chemical plant turnaround experience.",
+            "Experience with piping and vessel inspection data: condition monitoring locations, corrosion rates and minimum thicknesses.",
+            "Your own calibrated thickness gauge or flaw detector; we tell you for each assignment whether to bring yours or use ours."
+          ]
+        },
+        {
+          "h": "How it works",
+          "p": [
+            "Under ASNT SNT-TC-1A the employer, not a training course, certifies its technicians. So before your first assignment our Level III reviews your certification, training and experience records, gives you the examinations the Atlantis written practice calls for, and then certifies you to UT Level II under our written practice, or tells you plainly what is missing."
+          ],
+          "steps": [
+            "Apply by email with your CV, certification copies and current vision examination.",
+            "Our Level III reviews your records and holds a short technical call with you.",
+            "You take the examinations our written practice requires and are certified under it.",
+            "When an assignment comes up near you, we send the scope, site, dates and rate; you accept or decline.",
+            "You complete the work and the report; our Level III reviews it before it goes to the client.",
+            "You invoice for the days worked on the assignment, at the agreed rate."
+          ]
+        },
+        {
+          "h": "Working as an independent contractor",
+          "p": [
+            "Freelance technicians work with Atlantis as independent contractors (Form W-9 and 1099), so you are responsible for your own taxes. Some client sites ask contractors to carry their own insurance; when an assignment needs it, we tell you before you accept."
+          ]
+        }
+      ],
+      "apply": {
+        "subject": "Application – Freelance UT Technician, USA",
+        "text": "Email your CV, copies of your UT certification and your most recent vision examination to info@atlantisndt.com with the subject line \"Application – Freelance UT Technician, USA\". Tell us the city you are based in and the states you are willing to travel to.",
+        "next": "Our Level III reviews every application. If your records fit, we arrange a short technical call and then the certification steps above.",
+        "phone": "+1 (281) 840-8969",
+        "phoneText": "For questions, call"
+      },
+      "schema": {
+        "employmentType": "CONTRACTOR",
+        "hiringOrganization": "Atlantis Engineering Consultants LLC (Atlantis NDT)",
+        "addressLocality": "Houston",
+        "addressRegion": "TX",
+        "postalCode": "77002",
+        "addressCountry": "US",
+        "industry": "Non-destructive testing and inspection services",
+        "occupationalCategory": "17-3029.01 Non-Destructive Testing Specialists",
+        "education": "professional certificate",
+        "skills": "Ultrasonic thickness measurement, angle beam weld examination, instrument calibration, ASME Section V, ASME B31.3, AWS D1.1, API 570 and API 510 inspection data",
+        "identifier": "ATL-UT-FREELANCE-USA-2026-11"
+      }
+    }
+  ]
+}

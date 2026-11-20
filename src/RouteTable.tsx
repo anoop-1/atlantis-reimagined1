@@ -93,6 +93,8 @@ const CompareDigitalTwinVsCmms = lazy(() => import("./pages/compare/DigitalTwinV
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy")); // 2026-10-31 owner: URL only, never in navigation or footer
+const Careers = lazy(() => import("./pages/Careers")); // 2026-11-20 owner: careers section
+const CareerJob = lazy(() => import("./pages/CareerJob")); // 2026-11-20 owner: one page per open position
 const Brochure = lazy(() => import("./pages/Brochure")); // 2026-11-07 owner: company brochure 2026, view + download
 const Training = lazy(() => import("./pages/Training"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -3352,6 +3354,9 @@ export default function RouteTable() { return (
                   <Route path="/about" element={<About />} />
                   <Route path="/privacy-policy" element={<LazyRoute Component={PrivacyPolicy} />} />
                   <Route path="/brochure" element={<LazyRoute Component={Brochure} />} />
+                  <Route path="/careers" element={<LazyRoute Component={Careers} />} />
+                  <Route path="/careers/business-development-executive-hyderabad" element={<LazyRoute Component={CareerJob} />} />
+                  <Route path="/careers/freelance-ut-technician-usa" element={<LazyRoute Component={CareerJob} />} />
                   <Route path="/industry" element={<LazyRoute Component={IndustrialAnimation} />} />
                   <Route path="/training" element={<Training />} />
                   <Route path="/training-usa" element={<TrainingUSA />} />

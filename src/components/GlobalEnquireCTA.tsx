@@ -46,7 +46,7 @@ import { Link, useLocation } from "react-router-dom";
 import { leadMagnetOffer, MAGNET_VARIANTS } from "@/lib/lead-magnets";
 
 /** Routes where a floating "enquire" prompt is noise rather than help. */
-const SUPPRESSED = [/^\/contact/, /^\/404/, /^\/thank-you/, /^\/privacy/];
+const SUPPRESSED = [/^\/contact/, /^\/404/, /^\/thank-you/, /^\/privacy/, /^\/careers/]; // 2026-11-20: no enquiry bar on careers pages
 
 interface Offer {
   variant: string;

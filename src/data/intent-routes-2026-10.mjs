@@ -97,7 +97,7 @@ const meth = (k, kind) => {
 };
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime($|\/)|3d-scanning|press|careers$|sitemap|embed)/;
+const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime($|\/)|3d-scanning|press|careers($|\/)|sitemap|embed)/; // careers job pages: 2026-11-20
 
 // Specialist inspection services, matched before the generic method service page.
 const SERVICES = [

@@ -242,6 +242,9 @@ export default function About() {
                   <p className="mt-4 text-muted-foreground">
                      {about.contact} <Link to="/contact" className="text-primary underline">Contact Atlantis NDT</Link>.
                   </p>
+                  <p className="mt-2 text-muted-foreground">
+                     {about.careers} <Link to="/careers" className="text-primary underline">See open positions</Link>.
+                  </p>
                </div>
             </div>
          </section>

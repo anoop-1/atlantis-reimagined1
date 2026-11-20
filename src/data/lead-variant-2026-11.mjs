@@ -40,7 +40,7 @@ const RULES = [
 /** @returns {'reporting'|'erp'|'consulting'|'practical-ndt'|'training'|'inspection'|null} */
 export function leadVariantFor(rawPath) {
   const p = (String(rawPath || '').toLowerCase().replace(/\/+$/, '') || '/').replace(/^\/(ar|es)(?=\/)/, '');
-  if (p === '/' || p === '/contact' || p === '/privacy-policy') return null;
+  if (p === '/' || p === '/contact' || p === '/privacy-policy' || p === '/careers' || p.startsWith('/careers/')) return null; // careers: 2026-11-20
   for (const [variant, test] of RULES) if (test(p)) return variant;
   return null;
 }
