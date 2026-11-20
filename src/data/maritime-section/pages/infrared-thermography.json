@@ -3,9 +3,9 @@
   "navLabel": "Infrared thermography",
   "title": "Infrared Thermography for Ships | Electrical & Machinery Surveys",
   "description": "Infrared thermography on ships: thermal surveys of switchboards, MCCs, transformers, motors, bearings and exhaust insulation, with severity-ranked findings.",
-  "h1": "Infrared thermography on board: electrical, machinery and hot-surface surveys",
+  "h1": "Infrared thermography on board: electrical, machinery, hot-surface and cargo insulation surveys",
   "eyebrow": "Maritime inspection · Condition monitoring",
-  "intro": "A thermal camera shows what a closed panel and an ammeter cannot: a bolted connection running hot, one phase carrying more than the others, a bearing starting to fail, lagging missing from an exhaust pipe above a fuel line. Atlantis NDT carries out infrared thermography on ships under normal working load, with the ship's electrician opening panels under the ship's own electrical safety procedures, and reports each finding with thermal and visual images, temperature rise, severity and the recommended action. Teams are mobilised from India, often alongside thickness measurement or NDT on the same visit.",
+  "intro": "A thermal camera shows what a closed panel and an ammeter cannot: a bolted connection running hot, one phase carrying more than the others, a bearing starting to fail, lagging missing from an exhaust pipe above a fuel line, a cold patch on the inner hull of a loaded gas carrier. Atlantis NDT carries out infrared thermography on ships under normal working load, with the ship's electrician opening panels under the ship's own electrical safety procedures, and reports each finding with thermal and visual images, temperature rise, severity and the recommended action. Teams are mobilised from India, often alongside thickness measurement or NDT on the same visit.",
   "highlights": [
     {
       "h": "Under load, or not worth doing",
@@ -36,16 +36,43 @@
         "The electrical survey follows power from the generators to the consumers. The table shows the equipment usually included and the faults each typically reveals; the scope for a particular ship is set from its single-line diagram and the chief engineer's priorities."
       ],
       "table": {
-        "head": ["Equipment", "Typical findings"],
+        "head": [
+          "Equipment",
+          "Typical findings"
+        ],
         "rows": [
-          ["Main and emergency switchboards", "Hot busbar joints and cable lugs, breaker terminals, current transformer connections, phase imbalance"],
-          ["Generator terminal boxes and breakers", "Loose terminations, overheated cables at the gland, uneven load between phases"],
-          ["Motor control centres and group starter panels", "Contactor and overload relay terminals, fuse holders, starter resistors"],
-          ["Distribution boards and transformers", "Hot connections, overloaded outgoing circuits, transformer winding and terminal heating"],
-          ["Shore connection box", "Plug and socket contacts, cable terminations under shore load"],
-          ["Reefer sockets and reefer distribution panels", "Worn plugs and sockets, overloaded feeder circuits during high reefer load"],
-          ["Steering gear, thruster and cargo pump or crane starters", "Terminal heating, contactor wear, cooling fan failures in drive cabinets"],
-          ["Battery chargers, UPS and scrubber or ballast water treatment panels", "Hot connections, failed cooling, overloaded supplies on retrofitted systems"]
+          [
+            "Main and emergency switchboards",
+            "Hot busbar joints and cable lugs, breaker terminals, current transformer connections, phase imbalance"
+          ],
+          [
+            "Generator terminal boxes and breakers",
+            "Loose terminations, overheated cables at the gland, uneven load between phases"
+          ],
+          [
+            "Motor control centres and group starter panels",
+            "Contactor and overload relay terminals, fuse holders, starter resistors"
+          ],
+          [
+            "Distribution boards and transformers",
+            "Hot connections, overloaded outgoing circuits, transformer winding and terminal heating"
+          ],
+          [
+            "Shore connection box",
+            "Plug and socket contacts, cable terminations under shore load"
+          ],
+          [
+            "Reefer sockets and reefer distribution panels",
+            "Worn plugs and sockets, overloaded feeder circuits during high reefer load"
+          ],
+          [
+            "Steering gear, thruster and cargo pump or crane starters",
+            "Terminal heating, contactor wear, cooling fan failures in drive cabinets"
+          ],
+          [
+            "Battery chargers, UPS and scrubber or ballast water treatment panels",
+            "Hot connections, failed cooling, overloaded supplies on retrofitted systems"
+          ]
         ]
       }
     },
@@ -74,6 +101,15 @@
       ]
     },
     {
+      "id": "cargo-insulation",
+      "h": "Cargo insulation: gas carrier cold spots, reefer holds and insulated tanks",
+      "p": [
+        "On a membrane LNG carrier the cargo sits at about minus 160°C behind insulation and two barriers, and the inner hull steel behind them is chosen for a much milder temperature. If insulation is damaged or a barrier lets cargo or cold vapour through, the inner hull cools locally, and a steel that is not meant for cryogenic temperatures can become brittle there. Cold spots are therefore looked for on loaded passages from the ballast tanks, the cofferdams and the trunk deck spaces that face the cargo tanks. A thermal camera covers a large area of the inner hull quickly, shows the shape and extent of a cold patch rather than a single reading, and records it so the next survey can be compared with it. The ship's own hull temperature sensors give the reference; the survey finds what lies between them.",
+        "The same approach serves other insulated cargo spaces. On semi-refrigerated and fully refrigerated LPG carriers it finds insulation gaps and wet or crushed insulation on cargo tanks and cargo lines, often seen first as frost or condensation. On reefer ships and insulated holds it finds damaged panels and air leaks around hatches and access doors once the space is cooled down. On heated cargo tanks, such as those of bitumen and asphalt carriers, it shows heat escaping through missing or water-soaked insulation, which costs fuel on every voyage.",
+        "These spaces are entered only when the ship has declared them safe under its enclosed space entry procedures, with the gas detection and permits those procedures require; a ballast tank next to a loaded cargo tank is never entered on the strength of an assumption. The camera sees the surface it faces, so a cold patch on the inner hull marks a problem on the other side of the steel but not its exact position in the insulation; the report gives the location, the temperature against the surrounding steel and the hull sensor readings at the time, and the owner and the containment system's designer decide what follows."
+      ]
+    },
+    {
       "id": "severity-reporting",
       "h": "Severity ranking and the thermal survey report",
       "p": [
@@ -81,12 +117,32 @@
         "Every finding in the report has a thermal image and a matching visual image, the equipment name and location as they appear in the planned maintenance system, the measured and reference temperatures, the load at the time, the severity, and a recommended action. The report also lists the equipment surveyed with no anomaly, so the baseline is complete, and the equipment that could not be surveyed and why."
       ],
       "table": {
-        "head": ["Severity tier", "What the indication usually means", "Typical action"],
+        "head": [
+          "Severity tier",
+          "What the indication usually means",
+          "Typical action"
+        ],
         "rows": [
-          ["Monitor", "A small temperature rise within normal variation", "Record as baseline and compare at the next survey"],
-          ["Plan repair", "A clear rise suggesting a developing fault", "Inspect and repair at the next planned opportunity"],
-          ["Repair soon", "A significant rise; the component is deteriorating", "Repair as soon as the equipment can be taken out of service"],
-          ["Urgent", "A large rise with risk of failure or fire", "Reduce load or isolate where safe and repair without delay"]
+          [
+            "Monitor",
+            "A small temperature rise within normal variation",
+            "Record as baseline and compare at the next survey"
+          ],
+          [
+            "Plan repair",
+            "A clear rise suggesting a developing fault",
+            "Inspect and repair at the next planned opportunity"
+          ],
+          [
+            "Repair soon",
+            "A significant rise; the component is deteriorating",
+            "Repair as soon as the equipment can be taken out of service"
+          ],
+          [
+            "Urgent",
+            "A large rise with risk of failure or fire",
+            "Reduce load or isolate where safe and repair without delay"
+          ]
         ]
       }
     },
@@ -103,7 +159,7 @@
       "h": "Method, camera settings and personnel",
       "p": [
         "The general procedure follows ISO 18434-1 for thermography in condition monitoring, and ASTM E1934 for examining electrical and mechanical equipment. Emissivity, reflected temperature, distance and the field of view of the lens are set for each target and recorded with the image; a narrow lens is used for busbars and terminals at a distance, so that a small hot joint fills enough of the image to be measured. The camera's calibration is traceable, and its date is given in the report.",
-        "The survey is planned and supervised by Atlantis NDT's founder, the Responsible NDT Level III, who has more than eleven years of international field experience, and Atlantis is certified to ISO 9001 and ISO 14001. ISO 18436-7 sets requirements for qualifying thermographers. If your insurer or a class condition-monitoring scheme requires thermographers qualified to a particular scheme, tell us at enquiry so we can confirm before anything is booked."
+        "Surveys are carried out by qualified thermographers working to a written procedure, and Atlantis is certified to ISO 9001 and ISO 14001. ISO 18436-7 sets requirements for qualifying thermographers. If your insurer or a class condition-monitoring scheme requires thermographers qualified to a particular scheme, tell us at enquiry so we can confirm before anything is booked."
       ]
     }
   ],
@@ -119,6 +175,7 @@
     "Measured and reference temperatures, temperature rise and load at the time of each image",
     "Severity ranking and recommended action, labelled for the planned maintenance system",
     "Schedule of surfaces above 220°C near fuel and lubricating oil systems, with locations",
+    "Cold-spot locations on the inner hull, with temperatures against the surrounding steel and hull sensor readings",
     "List of equipment surveyed with no anomaly, for the baseline",
     "List of equipment not surveyed, with the reason",
     "Comparison with the previous thermal survey where one exists"
@@ -126,8 +183,9 @@
   "industries": [
     "Container ships with large reefer capacity",
     "Crude, product and chemical tankers",
-    "Gas carriers",
+    "LNG and LPG carriers",
     "Bulk carriers",
+    "Reefer ships and ships with insulated holds",
     "Ro-ro, ro-pax and car carriers",
     "Offshore support vessels",
     "Ship managers' technical departments",
@@ -157,6 +215,10 @@
     {
       "q": "What do you need from the ship before the survey?",
       "a": "The single-line diagram and equipment list, the planned maintenance names for the equipment, any previous thermal survey report, the chief engineer's list of concerns, and the expected operating condition during the visit. The ship needs to arrange an electrician to open panels under its procedures. Because the team travels from India, the port and dates should be known early for visas and travel."
+    },
+    {
+      "q": "Can thermography find cold spots on a gas carrier's inner hull?",
+      "a": "Yes. On a loaded passage the inner hull facing the cargo tanks can be surveyed from the ballast tanks, cofferdams and trunk deck spaces once the ship has declared them safe to enter. A cold patch shows where insulation or a barrier is not doing its job, and the camera shows its shape and extent rather than one temperature. The report locates it, compares it with the surrounding steel and the ship's hull temperature sensors, and leaves the decision on repair to the owner and the containment system's designer."
     }
   ]
 }
