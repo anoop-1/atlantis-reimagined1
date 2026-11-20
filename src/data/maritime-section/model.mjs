@@ -54,7 +54,7 @@ export const SERVICE_DEFS = [
   ['hatch-cover-ultrasonic-testing', 'Hatch Cover Ultrasonic Tightness Testing', 'Ultrasonic weathertightness testing of hatch covers, doors and closing appliances, with leak locations marked for the crew or the yard.', 'survey', 'Waves'],
   ['inventory-of-hazardous-materials', 'IHM (Inventory of Hazardous Materials)', 'IHM Part I surveys, sampling and maintenance for the EU Ship Recycling Regulation and the Hong Kong Convention.', 'compliance', 'FileWarning'],
   ['noise-survey', 'Ship Noise Survey', 'Noise level measurement in accommodation, work and machinery spaces to the IMO Code on Noise Levels on Board Ships, with a survey report for the ship.', 'compliance', 'Volume2'],
-  ['infrared-thermography', 'Infrared Thermography', 'Thermal surveys of switchboards, motor control centres, machinery and exhaust insulation to find hot spots before they fail.', 'compliance', 'Thermometer'],
+  ['infrared-thermography', 'Infrared Thermography', 'Thermal surveys of switchboards, motor control centres, machinery, exhaust insulation and cargo insulation, to find hot and cold spots before they fail.', 'compliance', 'Thermometer'],
   ['marine-ndt-services', 'Marine NDT Services', 'Every NDT method we use on ships, from visual inspection and MPI to PAUT and ACFM, chosen by the defect you are looking for.', 'ndt', 'Layers'],
   ['visual-inspection', 'Visual Inspection (VT)', 'Close-up visual examination of structure, welds and coatings, recorded so the surveyor and the superintendent see the same thing.', 'ndt', 'Eye'],
   ['magnetic-particle-inspection', 'Magnetic Particle Inspection (MPI)', 'Surface and near-surface crack detection on welds, brackets, crane pedestals, rudder stocks and other ferromagnetic parts.', 'ndt', 'Magnet'],
@@ -151,6 +151,60 @@ const HOW_INTRO = [
   (n) => `A gauging job at ${n} runs the same way whatever the ship type. The sequence below is what the superintendent, the attending surveyor and the yard can expect from us.`,
   (n) => `Most of the work on a ${n} job happens before the team boards: scope, plan and access are settled first, so the time on board goes on measurement.`,
   (n) => `The sequence for a thickness measurement job at ${n} is short and written down, so the yard, the surveyor and the superintendent know who arranges what.`,
+];
+
+// 2026-11-20: the steps above describe ultrasonic thickness gauging. Port × inspection pages for other
+// services (thermography, corrosion mapping, crack detection, hatch-cover tightness) get their own steps,
+// so a thermography page never describes gauging and an MPI page never promises a TM report.
+const STEPS_CM = [
+  'Send the vessel name or IMO number, ship type, the areas to map (tank tops, bottom or deck plating, sea chests, piping), the purpose (steel estimate, trending, pre-purchase), the port and dates.',
+  'We define each scan area on the drawings with datum marks, the step size and the thickness thresholds to report against, and agree with the superintendent which areas are mapped before docking and which in dock.',
+  'Mobilisation is planned around visa lead times and the vessel\'s schedule; the ship\'s agent arranges port access, and the ship or yard arranges gas-free certificates, staging, lighting, cleaning of the scan areas and a water supply for couplant.',
+  'Encoded scanning on a calibrated instrument, with the sound velocity set on a stepped reference block; coverage gaps, minimum values and suspected laminations are checked by hand with a dual-element probe before anything is reported.',
+  'Areas below the agreed thresholds are reported to the superintendent and any attending surveyor the same day, with a first map, so the steel estimate can start before the report is final.',
+  'The final report gives C-scan maps on a fixed colour scale with datum references, minimum and mean thickness and the area below each threshold, hand-checked minima and pit depths, the raw data and the calibration records.',
+];
+const STEPS_IR = [
+  'Send the vessel name or IMO number, ship type, the equipment to survey (switchboards and motor control centres, machinery, exhaust and hot surfaces, cargo insulation), the port and dates, and when the ship will be working under normal load.',
+  'We set the survey plan from the single-line diagram, the machinery list and, for cargo insulation, the containment drawings, and say which items need which operating condition: alongside, during cargo work, with reefers connected or on passage.',
+  'Mobilisation is planned around visa lead times and the vessel\'s schedule; the ship\'s agent arranges port access, and the ship provides the electrician or electro-technical officer who opens panels under the ship\'s permit-to-work.',
+  'Survey with a calibrated thermal camera, with emissivity, reflected temperature, distance and load recorded for each image; panels are opened only by the ship\'s electrician, and anything that cannot be opened safely is listed as not surveyed.',
+  'Findings that need urgent action, such as a connection at risk of failure or a surface above 220 °C left uninsulated near a fuel line, are reported to the chief engineer before the team leaves the space.',
+  'The report gives a thermal and a visual image for every finding, the temperature rise, the load at the time, the severity and the recommended action, with the list of equipment surveyed with no anomaly and the camera calibration record.',
+];
+const STEPS_NDT = [
+  'Send the vessel name or IMO number, the class society, the items to examine (welds, repairs, brackets, castings or fittings), the acceptance standard you expect, the port and dates.',
+  'We confirm the method and the written procedure against the class rules or the code the work is accepted to, and say what surface preparation and access the examination needs.',
+  'Mobilisation is planned around visa lead times and the vessel\'s schedule; the ship\'s agent arranges port access, and the yard or ship arranges staging, lighting, cleaning and gas-free certificates.',
+  'Examination with calibrated equipment to the written procedure, with each indication located by frame, strake and position and evaluated against the agreed acceptance criteria.',
+  'Rejectable indications are reported to the attending surveyor and the superintendent the same day, so repairs can be planned while the ship is still in the yard.',
+  'The report records the procedure, the equipment and its calibration, the areas examined, every recordable indication with its location and evaluation, sketches and photographs, and the technician certificates.',
+];
+const STEPS_HATCH = [
+  'Send the vessel name or IMO number, the hatch cover type and number of covers, the reason for the test (survey, cargo claim, after repairs), the port and dates.',
+  'We plan the test around cargo operations and the weather, because the covers have to be closed and dry and the holds empty or safely accessible.',
+  'Mobilisation is planned around visa lead times and the vessel\'s schedule; the ship\'s agent arranges port access, and the crew opens and closes the covers.',
+  'An ultrasonic transmitter is placed inside the hold and the receiver is passed along every seal, compression bar and cross-joint outside, with readings compared with the open-hatch value for that cover.',
+  'Leak positions are marked on the cover for the crew or the yard and shown to the surveyor if one is attending.',
+  'The report lists each cover and joint tested, the leak positions and readings, photographs and the equipment calibration.',
+];
+const NDT_SERVICES = new Set(['visual-inspection', 'magnetic-particle-inspection', 'dye-penetrant-inspection', 'ultrasonic-weld-inspection', 'phased-array-ultrasonic-testing', 'tofd-inspection', 'acfm-inspection', 'eddy-current-inspection', 'marine-ndt-services', 'advanced-ndt']);
+function stepsFor(service) {
+  if (service === 'corrosion-mapping') return STEPS_CM;
+  if (service === 'infrared-thermography') return STEPS_IR;
+  if (service === 'hatch-cover-ultrasonic-testing') return STEPS_HATCH;
+  if (NDT_SERVICES.has(service)) return STEPS_NDT;
+  return STEPS;
+}
+const SERVICE_HOW_INTRO = [
+  (n, l) => `The sequence below is how ${l} is arranged and carried out for a ship at ${n}, so the superintendent, the crew and the yard know who arranges what.`,
+  (n, l) => `Most of the preparation for ${l} at ${n} is done before the team boards: scope, access and the ship's working condition are settled first, so the time on board goes on the examination itself.`,
+  (n, l) => `For ${l} at ${n} the steps are short and written down, from the first enquiry to the report.`,
+];
+const IR_TEAM_PARAS = [
+  'Atlantis mobilises its survey team from India to the vessel for each job; there is no office or agent at the port, so the survey is planned around the ship\'s schedule and visa lead times. Thermal surveys are carried out by qualified thermographers working to a written procedure, and Atlantis is certified to ISO 9001 and ISO 14001. If an insurer or a class condition-monitoring arrangement asks for thermographers qualified to a particular scheme, tell us at enquiry and we confirm before anything is booked.',
+  'The survey team travels from India to the ship for each job rather than being stationed at the port, which is why the plan is fixed against the vessel\'s itinerary and visa lead times first. The thermal survey itself is done by qualified thermographers to a written procedure; Atlantis holds ISO 9001 and ISO 14001 certification. Where an insurer or a class condition-monitoring notation names a particular qualification scheme for thermographers, say so at enquiry and we confirm before booking.',
+  'We send qualified thermographers from India to the vessel for each survey, with no office or agent at the port, and plan the visit around the ship\'s schedule and the visas the team needs. They work to a written thermography procedure, and Atlantis is certified to ISO 9001 and ISO 14001. If a particular qualification scheme for thermographers is required by an insurer or a class condition-monitoring arrangement, tell us at enquiry so we can confirm before anything is booked.',
 ];
 
 const TEAM_PARAS = [
@@ -254,8 +308,12 @@ function comboPage(rec, byslug, hubFor, comboRows) {
   const tm = TM_SERVICES.has(rec.service);
   const sections = [...rec.sections];
   if (tm) sections.push({ id: 'survey-cycle', h: `Where ${label.replace(/ \(.*\)$/, '').toLowerCase()} sits in the survey cycle`, p: [pick(rec.port + rec.service, CYCLE_INTRO)(n)], table: SURVEY_TABLE });
-  sections.push({ id: 'how-it-works', h: `How the job runs at ${n}`, p: [pick(rec.port + rec.service + 'h', HOW_INTRO)(n)], list: STEPS });
-  sections.push({ id: 'team', h: tm ? 'Who does the work, and when class approval applies' : 'Who does the work', p: tm ? [pick(rec.port + rec.service + 't', TEAM_PARAS), classApprovalText()] : [pick(rec.port + rec.service + 't', TEAM_PARAS)] });
+  const steps = stepsFor(rec.service);
+  const lower = label.replace(/ \(.*\)$/, '').toLowerCase();
+  const howIntro = steps === STEPS ? pick(rec.port + rec.service + 'h', HOW_INTRO)(n) : pick(rec.port + rec.service + 'h', SERVICE_HOW_INTRO)(n, lower);
+  sections.push({ id: 'how-it-works', h: `How the job runs at ${n}`, p: [howIntro], list: steps });
+  const team = rec.service === 'infrared-thermography' ? pick(rec.port + rec.service + 't', IR_TEAM_PARAS) : pick(rec.port + rec.service + 't', TEAM_PARAS);
+  sections.push({ id: 'team', h: tm ? 'Who does the work, and when class approval applies' : 'Who does the work', p: tm ? [team, classApprovalText()] : [team] });
   return {
     path: comboPath(rec.port, rec.service),
     kind: 'combo',
