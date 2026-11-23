@@ -101,7 +101,7 @@
     {
       "h": "Mesaieed: the older industrial base to the south",
       "p": [
-        "Mesaieed Industrial City holds plant with much longer inspection histories. QatarEnergy's refinery there was first established in 1954 and has been expanded in several phases; it can process more than 100,000 barrels of feed a day. QatarEnergy also lists four natural gas liquids plants in the industrial city, and Industries Qatar became the sole owner of the fertiliser producer QAFCO in 2020.",
+        "Mesaieed Industrial City holds plant with much longer inspection histories. QatarEnergy's refinery there was first established in 1954 and has been expanded in several phases; it can process more than 100,000 barrels of feed a day. QatarEnergy also lists four natural gas liquids plants in the industrial city, which hosts fertiliser and petrochemical works as well, and in 2024 it announced four new world-scale urea trains there, the first expected to produce before the end of the decade.",
         "Long-running plants raise their own questions. A vessel examined by four contractors over two decades has four sets of templates, several procedure revisions and possibly a move from paper to a digital inspection database along the way. When an owner wants to rely on that history, for a life extension study, a change of inspection interval or a dispute, the review checks whether each record still stands up on its own and whether the series can be compared reading for reading. Gaps in the history are reported plainly, because a missing baseline is a finding in itself."
       ]
     },
@@ -176,19 +176,30 @@
     }
   ],
   "related": [
-    ["/ndt-training-doha", "NDT training in Doha"],
-    ["/ndt-training-ras-laffan", "NDT training in Ras Laffan"],
-    ["/practical-ndt-ras-laffan", "Practical NDT simulator in Ras Laffan"],
-    ["/practical-ndt-mesaieed", "Practical NDT simulator in Mesaieed"]
+    [
+      "/ndt-training-doha",
+      "NDT training in Doha"
+    ],
+    [
+      "/ndt-training-ras-laffan",
+      "NDT training in Ras Laffan"
+    ],
+    [
+      "/practical-ndt-ras-laffan",
+      "Practical NDT simulator in Ras Laffan"
+    ],
+    [
+      "/practical-ndt-mesaieed",
+      "Practical NDT simulator in Mesaieed"
+    ]
   ],
   "sources": [
     "https://www.qna.org.qa/en/News-Area/News/2023-09/14/0023-qatargas-changes-name-to-qatarenergy-lng",
     "https://www.qatarenergylng.qa/About-Us",
     "https://qatarenergy.qa/en/WhatWeDo/Pages/Refining.aspx",
     "https://www.cpchem.com/ras-laffan-petrochemical-project",
-    "https://www.qna.org.qa/en/News-Area/News/2023-01/08/0031-qatarenergy-signs-fid-to-build-ras-laffan-petrochemicals-complex",
-    "https://thepeninsulaqatar.com/article/14/09/2020/IQ-becomes-sole-owner-of-QAFCO,-the-world%E2%80%99s-largest-single-site-urea-producer",
     "https://qna.org.qa/en/News-Area/News/2026-4/20/radiation-protection-department-at-ministry-of-environment-a-safety-valve-first-line-of-defense-against-pollution",
-    "https://thepeninsulaqatar.com/article/20/08/2024/moecc-authorises-entities-providing-radiation-protection-services"
+    "https://thepeninsulaqatar.com/article/20/08/2024/moecc-authorises-entities-providing-radiation-protection-services",
+    "https://www.qna.org.qa/en/News-Area/News/2024-09/01/0045-qatarenergy-to-build-world-scale-urea-(fertilizer)-complex-making-qatar-the-world%27s-largest-exporter"
   ]
 }
