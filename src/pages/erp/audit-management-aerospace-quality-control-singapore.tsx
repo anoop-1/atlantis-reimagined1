@@ -11,24 +11,24 @@ const data: ErpTripleCrossProps = {
   "lat": 1.3521,
   "lng": 103.8198,
   "title": "Audit & Compliance Management Software for Aerospace Quality Control in Singapore",
-  "desc": "Audit & Compliance Management ERP module for aerospace QA / MROs in Singapore, Singapore. Aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+  "desc": "Audit & Compliance Management ERP module for aerospace QA / MROs in Singapore, Singapore. Aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "Aerospace Quality Control operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how audit & compliance management actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conversion yards at Sembcorp / Keppel — sets the rhythm: short shutdown windows, MOM authorised-examiner requirements, and 24/7 FPSO conversion campaigns.",
   "introPara2": "Aerospace QC and MRO firms operate under SNT-TC-1A-based NDT personnel qualification with customer flow-down, AS9100D quality systems, FAA / EASA Part 145 oversight, and customer-specific specifications (Boeing, Airbus, Bombardier, Rolls-Royce) with zero tolerance for documentation gaps. For an aerospace NDT shop or AS9100D-certified MRO facility in Singapore, audit & compliance management is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. an audit finding that closes a Part 145 approval costs months of regulator dialogue to recover from. Atlantis NDT ERP's audit & compliance management module runs internal, supplier, customer, and regulator audits against ISO 9001, ISO 17025, AS9100, API Q1 / Q2, customer specifications, and SAEP-1142 schemes, aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules. For aerospace quality control based in Singapore, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
-  "introPara3": "Configured for Singapore — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Jurong, Shell Pulau Bukom, Vopak, Sembcorp Marine, once uploaded — compliance templates against MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018, and the audit frameworks that MOM (Ministry of Manpower), NEA, MPA actually use. Field-data capture is offline-capable for Singapore project sites, multi-language reporting supports Singapore-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore aerospace QA / MRO and a 200-person multinational both run on the same configuration baseline.",
+  "introPara3": "Configured for Singapore — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Jurong, Aster Pulau Bukom, Vopak, Sembcorp Marine, once uploaded — compliance templates against MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018, and the audit frameworks that MOM (Ministry of Manpower), NEA, MPA actually use. Field-data capture is offline-capable for Singapore project sites, multi-language reporting supports Singapore-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore aerospace QA / MRO and a 200-person multinational both run on the same configuration baseline.",
   "features": [
     "Audit plan generation against any scheme (ISO 9001, 17025, 14001, 45001, AS9100, API Q1 / Q2)",
     "Audit checklist library with client-specific question banks",
     "Management review pack auto-assembled from underlying data",
     "Surveillance audit calendar with auditor qualification tracking",
     "Findings trending and recurring-issue heatmap by clause / process / site",
-    "Singapore operator-specific flow-down pre-loaded for ExxonMobil Jurong, Shell Pulau Bukom, Vopak",
+    "Singapore operator-specific flow-down pre-loaded for ExxonMobil Jurong, Aster Pulau Bukom, Vopak",
     "Singapore regulator compliance dashboard for MOM (Ministry of Manpower), NEA, MPA",
     "Aerospace QA / MRO-specific report templates and acceptance criteria for aerospace quality control workflows",
     "Bilingual (English + Singapore-relevant local language) document handling for Singapore authority submission"
   ],
   "operators": [
     "ExxonMobil Jurong",
-    "Shell Pulau Bukom",
+    "Aster Pulau Bukom",
     "Vopak",
     "Sembcorp Marine",
     "Keppel FPSO",
@@ -47,13 +47,13 @@ const data: ErpTripleCrossProps = {
     "ASME Section V / VIII"
   ],
   "painPoints": [
-    "Audit & compliance management for aerospace QA / MROs in Singapore tracked in spreadsheets — always behind operator-portal updates from ExxonMobil Jurong and Shell Pulau Bukom",
+    "Audit & compliance management for aerospace QA / MROs in Singapore tracked in spreadsheets — always behind operator-portal updates from ExxonMobil Jurong and Aster Pulau Bukom",
     "MOM (Ministry of Manpower) audit preparation for audit & compliance management workflows takes 80+ hours per cycle and finds gaps too late to remediate",
     "Operator flow-down from ExxonMobil Jurong updates monthly — internal audit & compliance management procedures lag by weeks, putting aerospace quality control contracts at risk",
-    "Customer-format audit & compliance management reports for ExxonMobil Jurong, Shell Pulau Bukom, Vopak require manual reformatting on every submission — margin-eating rework"
+    "Customer-format audit & compliance management reports for ExxonMobil Jurong, Aster Pulau Bukom, Vopak require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Jurong and Shell Pulau Bukom runs Audit & Compliance Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Jurong and Aster Pulau Bukom runs Audit & Compliance Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
     "Example: an inspection contractor in Singapore keeps client-specific quality requirements from Vopak as controlled procedures, and runs each revision through review and approval before crews work to it.",
     "Example: an NDT inspection company in Singapore with crews on several Singapore project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
     "Example: an NDT inspection company in Singapore preparing for MOM (Ministry of Manpower) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
@@ -61,7 +61,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is Audit & Compliance Management configured for aerospace quality control operating in Singapore?",
-      "Yes. The audit & compliance management module is pre-loaded with the codes and operator flow-downs that aerospace quality control in Singapore work with daily: MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Jurong, Shell Pulau Bukom, Vopak, Sembcorp Marine — once your team uploads them. The module is aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules. Configuration is done — your aerospace QA / MRO team is productive on day one, not after six months of customisation."
+      "Yes. The audit & compliance management module is pre-loaded with the codes and operator flow-downs that aerospace quality control in Singapore work with daily: MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Jurong, Aster Pulau Bukom, Vopak, Sembcorp Marine — once your team uploads them. The module is aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules. Configuration is done — your aerospace QA / MRO team is productive on day one, not after six months of customisation."
     ],
     [
       "Which Singapore regulators does the audit & compliance management workflow align with?",
@@ -69,7 +69,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Can aerospace QA / MROs in Singapore integrate with operator-specific portals such as ExxonMobil Jurong?",
-      "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major Singapore operators such as ExxonMobil Jurong, Shell Pulau Bukom, Vopak, Sembcorp Marine — as controlled documents; internal audit & compliance management procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
+      "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major Singapore operators such as ExxonMobil Jurong, Aster Pulau Bukom, Vopak, Sembcorp Marine — as controlled documents; internal audit & compliance management procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
     ],
     [
       "What languages and currencies does the Singapore deployment support?",

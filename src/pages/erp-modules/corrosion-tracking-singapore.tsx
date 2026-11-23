@@ -6,24 +6,24 @@ const data = {
   "cityName": "Singapore",
   "country": "Singapore",
   "title": "Corrosion Tracking in Singapore",
-  "desc": "Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
-  "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to set code-based inspection intervals is the heart of any modern integrity program.\n\nFor inspection teams operating in Singapore, Singapore, the corrosion tracking module is configured against local realities: Jurong Island petrochem hub. FPSO conversion (Keppel, Sembcorp). MOM CERT compliance. Pre-built templates support operator-specific quality clauses from ExxonMobil Jurong refinery, Shell Bukom, Vopak storage, Sembcorp Marine FPSO, and regulatory frameworks under MOM (Ministry of Manpower), NEA environment, MPA marine are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore inspection contractor and a 200-person multinational both run on the same platform.",
+  "desc": "Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+  "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to set code-based inspection intervals is the heart of any modern integrity program.\n\nFor inspection teams operating in Singapore, Singapore, the corrosion tracking module is configured against local realities: Jurong Island petrochem hub. FPSO conversion (Keppel, Sembcorp). MOM CERT compliance. Pre-built templates support operator-specific quality clauses from ExxonMobil Jurong refinery, Aster Bukom, Vopak storage, Sembcorp Marine FPSO, and regulatory frameworks under MOM (Ministry of Manpower), NEA environment, MPA marine are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "Per-TML thickness history, with the short-term and long-term corrosion rates the inspector calculates stored alongside",
     "Wall-thickness trend per TML against the t-min and retirement thickness the inspector sets",
     "Damage mechanism records per API 571, as assigned by the integrity engineer",
-    "Tailored for Singapore workflow — pre-configured operator templates for ExxonMobil Jurong refinery, Shell Bukom, Vopak storage",
+    "Tailored for Singapore workflow — pre-configured operator templates for ExxonMobil Jurong refinery, Aster Bukom, Vopak storage",
     "Regulatory alignment with MOM (Ministry of Manpower), NEA environment, MPA marine — audit-ready evidence packages"
   ],
   "cityUseCases": [
-    "A mid-size Singapore inspection contractor serving ExxonMobil Jurong refinery and Shell Bukom deploys corrosion tracking as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
+    "A mid-size Singapore inspection contractor serving ExxonMobil Jurong refinery and Aster Bukom deploys corrosion tracking as a standalone module — replacing spreadsheets and disconnected SaaS — and reports 60-80% admin-time reduction within 90 days.",
     "A Singapore EPC quality team standardizes corrosion tracking across 4 simultaneous project sites in the Singapore market. Daily reports, audit packages, and customer-format reports flow to Vopak storage portals automatically.",
     "A growing Singapore-based service provider integrates corrosion tracking with accounting (QuickBooks / Xero / Tally for India / Sage / Reliance ERP) and the CMMS used by Sembcorp Marine FPSO — eliminating duplicate data entry and shortening customer-facing report turnaround.",
     "A regulator-audit-driven Singapore inspection company uses corrosion tracking to pass MOM (Ministry of Manpower) and NEA environment audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "cityOperators": [
     "ExxonMobil Jurong refinery",
-    "Shell Bukom",
+    "Aster Bukom",
     "Vopak storage",
     "Sembcorp Marine FPSO",
     "Keppel FPSO yards",
@@ -42,12 +42,12 @@ const data = {
     "Corrosion Tracking tracked in spreadsheets — always 2 months behind Singapore operator-portal requirements",
     "MOM (Ministry of Manpower) audit preparation takes 80+ hours per cycle — finds gaps too late to remediate",
     "Operator-portal flow-down from ExxonMobil Jurong refinery updates monthly — internal procedures lag by weeks",
-    "Customer-format reports for Shell Bukom, Vopak storage, Sembcorp Marine FPSO require manual reformatting per submission"
+    "Customer-format reports for Aster Bukom, Vopak storage, Sembcorp Marine FPSO require manual reformatting per submission"
   ],
   "faqs": [
     [
       "Is the corrosion tracking module configured for Singapore operators?",
-      "Yes. Pre-loaded operator-specific quality clauses, qualification schemes, and report formats for ExxonMobil Jurong refinery, Shell Bukom, Vopak storage, Sembcorp Marine FPSO, Keppel FPSO yards. Atlantis NDT updates the operator-template library on a quarterly cadence so flow-down stays current with operator specification revisions."
+      "Yes. Pre-loaded operator-specific quality clauses, qualification schemes, and report formats for ExxonMobil Jurong refinery, Aster Bukom, Vopak storage, Sembcorp Marine FPSO, Keppel FPSO yards. Atlantis NDT updates the operator-template library on a quarterly cadence so flow-down stays current with operator specification revisions."
     ],
     [
       "Does it comply with MOM (Ministry of Manpower) and other Singapore regulators?",

@@ -2507,7 +2507,7 @@ const countryRegions = [
   { slug: 'bahrain', name: 'Bahrain', operators: 'Bapco, Alba (Aluminium Bahrain), GPIC, Tatweer Petroleum, BAS', cert: 'ASNT, ISO 9712', regs: 'Bahrain NOGA, Civil Defence', cities: ['manama', 'sitra'] },
   { slug: 'iraq', name: 'Iraq', operators: 'Basrah Oil Company, SOMO, South Refineries, Shell Majnoon, BP Rumaila, Eni Zubair', cert: 'ASNT, ISO 9712', regs: 'Iraq Ministry of Oil, Iraq Council of Ministers', cities: ['basra', 'baghdad', 'erbil'] },
   { slug: 'india', name: 'India', operators: 'Reliance Industries, IOCL, BPCL, HPCL, ONGC, GAIL, NTPC, NLC India, Vedanta, Tata Steel, JSW Steel, L&amp;T, HAL', cert: 'ASNT SNT-TC-1A, ISO 9712, ISNT (Indian Society for NDT), BARC, AERB cert', regs: 'PESO, OISD, BARC, AERB, DGCA aerospace, Indian Boilers Act 1923, IBR', cities: ['mumbai', 'chennai', 'bangalore', 'delhi', 'hyderabad', 'jamnagar', 'visakhapatnam', 'kolkata'] },
-  { slug: 'singapore', name: 'Singapore', operators: 'ExxonMobil Jurong, Shell Pulau Bukom, Seatrium (formerly Sembcorp Marine + Keppel O&amp;M), ST Engineering, SP Group', cert: 'ASNT, ISO 9712, CSWIP, PCN, MOM CERT', regs: 'MOM (Ministry of Manpower), NEA, EMA, Singapore PEC', cities: ['singapore', 'jurong'] },
+  { slug: 'singapore', name: 'Singapore', operators: 'ExxonMobil Jurong, Aster Pulau Bukom, Seatrium (formerly Sembcorp Marine + Keppel O&amp;M), ST Engineering, SP Group', cert: 'ASNT, ISO 9712, CSWIP, PCN, MOM CERT', regs: 'MOM (Ministry of Manpower), NEA, EMA, Singapore PEC', cities: ['singapore', 'jurong'] },
   { slug: 'malaysia', name: 'Malaysia', operators: 'Petronas, MISC, Malaysia Marine and Heavy Engineering (MMHE), Sapura Energy, KLCC Group, Bintulu LNG', cert: 'ASNT, ISO 9712, PCN, Petronas Technical Standards', regs: 'DOSH (Malaysia DOSH), Petronas PTS, Malaysian Pressure Vessel + Machinery Approval (PMA)', cities: ['kuala-lumpur', 'pengerang', 'bintulu', 'penang', 'johor-bahru'] },
   { slug: 'indonesia', name: 'Indonesia', operators: 'Pertamina, Medco Energi, Chevron Indonesia (Bumi Siak Pusako), Bumi Resources, PGN, PLN', cert: 'ASNT, ISO 9712, Indonesian NDT Society', regs: 'Indonesia Ministry of Energy and Mineral Resources (ESDM), BPDP', cities: ['jakarta', 'cilacap', 'balikpapan', 'bontang', 'cilegon', 'surabaya'] },
   { slug: 'thailand', name: 'Thailand', operators: 'PTT Group, PTT Exploration and Production (PTTEP), IRPC, Bangchak, Thai Oil', cert: 'ASNT, ISO 9712', regs: 'DOEB, Department of Industrial Works', cities: ['bangkok', 'rayong', 'map-ta-phut'] },
@@ -5079,7 +5079,7 @@ const corePages = [
   {
     path: "/erp/calibration-management-calibration-laboratories-singapore",
     title: "Calibration Management Software for Calibration Laboratories in Singapore | Atlantis NDT ERP",
-    description: "Calibration Management ERP module for calibration laboratorys in Singapore, Singapore. Aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+    description: "Calibration Management ERP module for calibration laboratorys in Singapore, Singapore. Aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Calibration Management Software for Calibration Laboratories in Singapore",
     bodyText: "Calibration Laboratories operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how calibration management actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conversion ",
   },
@@ -5142,7 +5142,7 @@ const corePages = [
   {
     path: "/erp/certification-tracking-ndt-inspection-companies-singapore",
     title: "Certification & Personnel Qualification Software for NDT Inspection Companies in Singapore | Atlantis NDT ERP",
-    description: "Certification & Personnel Qualification ERP module for NDT inspection companys in Singapore, Singapore. Aligned to ASNT SNT-TC-1A / CP-189 / ACCP and ISO 9712 simultaneously, plus client-specific schemes, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+    description: "Certification & Personnel Qualification ERP module for NDT inspection companys in Singapore, Singapore. Aligned to ASNT SNT-TC-1A / CP-189 / ACCP and ISO 9712 simultaneously, plus client-specific schemes, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Certification & Personnel Qualification Software for NDT Inspection Companies in Singapore",
     bodyText: "NDT Inspection Companies operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how certification & qualification tracking actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the ",
   },
@@ -5219,7 +5219,7 @@ const corePages = [
   {
     path: "/erp/audit-management-aerospace-quality-control-singapore",
     title: "Audit & Compliance Management Software for Aerospace Quality Control in Singapore | Atlantis NDT ERP",
-    description: "Audit & Compliance Management ERP module for aerospace QA / MROs in Singapore, Singapore. Aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+    description: "Audit & Compliance Management ERP module for aerospace QA / MROs in Singapore, Singapore. Aligned to ISO 19011 audit methodology plus scheme-specific accreditation rules, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Audit & Compliance Management Software for Aerospace Quality Control in Singapore",
     bodyText: "Aerospace Quality Control operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how audit & compliance management actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO con",
   },
@@ -5247,7 +5247,7 @@ const corePages = [
   {
     path: "/erp/work-order-management-ndt-inspection-companies-singapore",
     title: "Work Order & Job Management Software for NDT Inspection Companies in Singapore | Atlantis NDT ERP",
-    description: "Work Order & Job Management ERP module for NDT inspection companys in Singapore, Singapore. Aligned to customer / contract / project / job / work order / line item billing structure aligned to operator portal flow-downs, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+    description: "Work Order & Job Management ERP module for NDT inspection companys in Singapore, Singapore. Aligned to customer / contract / project / job / work order / line item billing structure aligned to operator portal flow-downs, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Work Order & Job Management Software for NDT Inspection Companies in Singapore",
     bodyText: "NDT Inspection Companies operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how work order & job management actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conver",
   },
@@ -5352,7 +5352,7 @@ const corePages = [
   {
     path: "/erp/quality-management-welding-fabrication-shops-singapore",
     title: "Quality Management System Software for Welding & Fabrication Shops in Singapore | Atlantis NDT ERP",
-    description: "Quality Management System ERP module for welding and fabrication shops in Singapore, Singapore. Aligned to ISO 9001:2015 plus AS9100D, ISO/IEC 17025, API Q1 / Q2 layered as applicable, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+    description: "Quality Management System ERP module for welding and fabrication shops in Singapore, Singapore. Aligned to ISO 9001:2015 plus AS9100D, ISO/IEC 17025, API Q1 / Q2 layered as applicable, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Quality Management System Software for Welding & Fabrication Shops in Singapore",
     bodyText: "Welding & Fabrication Shops operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how quality management actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conversion y",
   },
@@ -5408,7 +5408,7 @@ const corePages = [
   {
     path: "/erp/document-control-calibration-laboratories-singapore",
     title: "Document Control Software for Calibration Laboratories in Singapore | Atlantis NDT ERP",
-    description: "Document Control ERP module for calibration laboratorys in Singapore, Singapore. Aligned to ISO 9001:2015 §7.5 and ISO 17025:2017 §8.3 controlled-document requirements, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+    description: "Document Control ERP module for calibration laboratorys in Singapore, Singapore. Aligned to ISO 9001:2015 §7.5 and ISO 17025:2017 §8.3 controlled-document requirements, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Document Control Software for Calibration Laboratories in Singapore",
     bodyText: "Calibration Laboratories operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how document control actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conversion yards ",
   },
@@ -5583,9 +5583,9 @@ const corePages = [
   {
     path: "/erp-modules/inventory-management-singapore",
     title: "Inventory Management in Singapore | Atlantis NDT ERP",
-    description: "Inventory Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Inventory Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Inventory Management in Singapore | Atlantis NDT ERP",
-    bodyText: "Inventory Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Inventory Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/inventory-management-mumbai",
@@ -5688,9 +5688,9 @@ const corePages = [
   {
     path: "/erp-modules/audit-management-singapore",
     title: "Audit & Compliance Management in Singapore | Atlantis NDT ERP",
-    description: "Audit & Compliance Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Audit & Compliance Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Audit & Compliance Management in Singapore | Atlantis NDT ERP",
-    bodyText: "Audit & Compliance Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Audit & Compliance Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/audit-management-mumbai",
@@ -5793,9 +5793,9 @@ const corePages = [
   {
     path: "/erp-modules/document-control-singapore",
     title: "Document Control & QMS in Singapore | Atlantis NDT ERP",
-    description: "Document Control & QMS ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Document Control & QMS ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Document Control & QMS in Singapore | Atlantis NDT ERP",
-    bodyText: "Document Control & QMS ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Document Control & QMS ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/document-control-mumbai",
@@ -5898,9 +5898,9 @@ const corePages = [
   {
     path: "/erp-modules/asset-management-singapore",
     title: "Asset Integrity & Equipment Register in Singapore | Atlantis NDT ERP",
-    description: "Asset Integrity & Equipment Register ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Asset Integrity & Equipment Register ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Asset Integrity & Equipment Register in Singapore | Atlantis NDT ERP",
-    bodyText: "Asset Integrity & Equipment Register ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Asset Integrity & Equipment Register ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/asset-management-mumbai",
@@ -6003,9 +6003,9 @@ const corePages = [
   {
     path: "/erp-modules/quality-management-singapore",
     title: "Quality Management & NCR in Singapore | Atlantis NDT ERP",
-    description: "Quality Management & NCR ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Quality Management & NCR ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Quality Management & NCR in Singapore | Atlantis NDT ERP",
-    bodyText: "Quality Management & NCR ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Quality Management & NCR ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/quality-management-mumbai",
@@ -6108,9 +6108,9 @@ const corePages = [
   {
     path: "/erp-modules/project-management-singapore",
     title: "Project Management & Turnaround Support in Singapore | Atlantis NDT ERP",
-    description: "Project Management & Turnaround Support ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Project Management & Turnaround Support ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Project Management & Turnaround Support in Singapore | Atlantis NDT ERP",
-    bodyText: "Project Management & Turnaround Support ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Project Management & Turnaround Support ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/project-management-mumbai",
@@ -6213,9 +6213,9 @@ const corePages = [
   {
     path: "/erp-modules/certification-tracking-singapore",
     title: "Certification & Personnel Qualification in Singapore | Atlantis NDT ERP",
-    description: "Certification & Personnel Qualification ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Certification & Personnel Qualification ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Certification & Personnel Qualification in Singapore | Atlantis NDT ERP",
-    bodyText: "Certification & Personnel Qualification ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Certification & Personnel Qualification ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/certification-tracking-mumbai",
@@ -6318,9 +6318,9 @@ const corePages = [
   {
     path: "/erp-modules/work-order-management-singapore",
     title: "Work Order & Job Management in Singapore | Atlantis NDT ERP",
-    description: "Work Order & Job Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Work Order & Job Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Work Order & Job Management in Singapore | Atlantis NDT ERP",
-    bodyText: "Work Order & Job Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Work Order & Job Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/work-order-management-mumbai",
@@ -6423,9 +6423,9 @@ const corePages = [
   {
     path: "/erp-modules/inspection-scheduling-singapore",
     title: "Inspection Scheduling & Interval Management in Singapore | Atlantis NDT ERP",
-    description: "Inspection Scheduling & Interval Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Inspection Scheduling & Interval Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Inspection Scheduling & Interval Management in Singapore | Atlantis NDT ERP",
-    bodyText: "Inspection Scheduling & Interval Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Inspection Scheduling & Interval Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/inspection-scheduling-mumbai",
@@ -6528,9 +6528,9 @@ const corePages = [
   {
     path: "/erp-modules/calibration-management-singapore",
     title: "Calibration Management in Singapore | Atlantis NDT ERP",
-    description: "Calibration Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Calibration Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Calibration Management in Singapore | Atlantis NDT ERP",
-    bodyText: "Calibration Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Calibration Management ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/calibration-management-mumbai",
@@ -6633,9 +6633,9 @@ const corePages = [
   {
     path: "/erp-modules/corrosion-tracking-singapore",
     title: "Corrosion Tracking in Singapore | Atlantis NDT ERP",
-    description: "Corrosion Tracking ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    description: "Corrosion Tracking ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
     bodyH1: "Corrosion Tracking in Singapore | Atlantis NDT ERP",
-    bodyText: "Corrosion Tracking ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Shell Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
+    bodyText: "Corrosion Tracking ERP module for inspection companies in Singapore, Singapore. Pre-configured for ExxonMobil Jurong refinery, Aster Bukom and aligned with MOM (Ministry of Manpower), NEA environment. Demo: info@atlantisndt.com.",
   },
   {
     path: "/erp-modules/corrosion-tracking-mumbai",
@@ -6738,7 +6738,7 @@ const corePages = [
   {
     path: "/erp-industries/ndt-inspection-companies-singapore",
     title: "NDT Inspection Companies ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for ndt inspection companies based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for ndt inspection companies based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "NDT Inspection Companies ERP Software in Singapore",
     bodyText: "NDT Inspection Companies operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipyards),",
   },
@@ -6843,7 +6843,7 @@ const corePages = [
   {
     path: "/erp-industries/calibration-laboratories-singapore",
     title: "Calibration Laboratories ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for calibration laboratories based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for calibration laboratories based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Calibration Laboratories ERP Software in Singapore",
     bodyText: "Calibration Laboratories operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipyards),",
   },
@@ -6948,7 +6948,7 @@ const corePages = [
   {
     path: "/erp-industries/welding-fabrication-shops-singapore",
     title: "Welding & Fabrication Shops ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for welding & fabrication shops based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for welding & fabrication shops based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Welding & Fabrication Shops ERP Software in Singapore",
     bodyText: "Welding & Fabrication Shops operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipyard",
   },
@@ -7053,7 +7053,7 @@ const corePages = [
   {
     path: "/erp-industries/marine-survey-companies-singapore",
     title: "Marine Survey & Offshore Inspection ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for marine survey & offshore inspection based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for marine survey & offshore inspection based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Marine Survey & Offshore Inspection ERP Software in Singapore",
     bodyText: "Marine Survey & Offshore Inspection operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (",
   },
@@ -7158,7 +7158,7 @@ const corePages = [
   {
     path: "/erp-industries/pipeline-integrity-services-singapore",
     title: "Pipeline Integrity & ILI Services ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for pipeline integrity & ili services based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for pipeline integrity & ili services based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Pipeline Integrity & ILI Services ERP Software in Singapore",
     bodyText: "Pipeline Integrity & ILI Services operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (sh",
   },
@@ -7263,7 +7263,7 @@ const corePages = [
   {
     path: "/erp-industries/aerospace-quality-control-singapore",
     title: "Aerospace Quality Control ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for aerospace quality control based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for aerospace quality control based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Aerospace Quality Control ERP Software in Singapore",
     bodyText: "Aerospace Quality Control operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipyards)",
   },
@@ -7368,7 +7368,7 @@ const corePages = [
   {
     path: "/erp-industries/metrology-laboratories-singapore",
     title: "Metrology Laboratories ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for metrology laboratories based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for metrology laboratories based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Metrology Laboratories ERP Software in Singapore",
     bodyText: "Metrology Laboratories operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipyards), P",
   },
@@ -7473,7 +7473,7 @@ const corePages = [
   {
     path: "/erp-industries/industrial-coatings-inspection-singapore",
     title: "Industrial Coatings Inspection ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for industrial coatings inspection based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for industrial coatings inspection based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Industrial Coatings Inspection ERP Software in Singapore",
     bodyText: "Industrial Coatings Inspection operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipy",
   },
@@ -7578,7 +7578,7 @@ const corePages = [
   {
     path: "/erp-industries/construction-quality-assurance-singapore",
     title: "Construction Quality Assurance ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for construction quality assurance based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for construction quality assurance based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Construction Quality Assurance ERP Software in Singapore",
     bodyText: "Construction Quality Assurance operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipy",
   },
@@ -7683,7 +7683,7 @@ const corePages = [
   {
     path: "/erp-industries/geotechnical-engineering-singapore",
     title: "Geotechnical Engineering Firms ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for geotechnical engineering firms based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for geotechnical engineering firms based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Geotechnical Engineering Firms ERP Software in Singapore",
     bodyText: "Geotechnical Engineering Firms operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (shipy",
   },
@@ -7788,7 +7788,7 @@ const corePages = [
   {
     path: "/erp-industries/environmental-testing-labs-singapore",
     title: "Environmental Testing Laboratories ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for environmental testing laboratories based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for environmental testing laboratories based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Environmental Testing Laboratories ERP Software in Singapore",
     bodyText: "Environmental Testing Laboratories operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tuas (s",
   },
@@ -7893,7 +7893,7 @@ const corePages = [
   {
     path: "/erp-industries/oilfield-services-singapore",
     title: "Oilfield Services & Wellsite Inspection ERP Software in Singapore | Atlantis NDT ERP",
-    description: "Purpose-built ERP for oilfield services & wellsite inspection based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
+    description: "Purpose-built ERP for oilfield services & wellsite inspection based in Singapore, Singapore. Pre-loaded with MOM Workplace Safety & Health Act, MOM WSH Regulations (Pressure Vessels), API 510 / 570 / 653, operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom, and Ministry of Manpower (MOM) /  National Environment Agency (NEA) compliance support. Demo: info@atlantisndt.com.",
     bodyH1: "Oilfield Services & Wellsite Inspection ERP Software in Singapore",
     bodyText: "Oilfield Services & Wellsite Inspection operating in Singapore face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. Singapore sits at the heart of one of the world's top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre. The dominant industrial cluster — Jurong Island (refining, petrochemicals, gas), Tu",
   },
@@ -11040,7 +11040,7 @@ const corpCountryArchetypes = {
   BH: { industries: 'oil refining, aluminum, banking-region industrial', employers: 'Bapco, Alba, GPIC, Tatweer Petroleum', certs: 'ASNT, ISO 9712', priceLow: 1700, priceHigh: 4200, batch: '6-14' },
   IQ: { industries: 'upstream oil, refining, reconstruction', employers: 'Basrah Oil Company, SOMO, South Refineries, Shell Majnoon', certs: 'ASNT, ISO 9712', priceLow: 1600, priceHigh: 4000, batch: '6-16' },
   IN: { industries: 'refining, fertilizer, power, shipbuilding, aerospace', employers: 'Reliance, ONGC, IOCL, BPCL, HPCL, L&T, HAL', certs: 'ASNT SNT-TC-1A, ISO 9712, ISNT', priceLow: 900, priceHigh: 2800, batch: '10-25' },
-  SG: { industries: 'refining, marine/offshore, aerospace MRO', employers: 'ExxonMobil Jurong, Shell Pulau Bukom, Seatrium, ST Engineering', certs: 'ASNT, ISO 9712, CSWIP, PCN', priceLow: 2000, priceHigh: 4800, batch: '6-16' },
+  SG: { industries: 'refining, marine/offshore, aerospace MRO', employers: 'ExxonMobil Jurong, Aster Pulau Bukom, Seatrium, ST Engineering', certs: 'ASNT, ISO 9712, CSWIP, PCN', priceLow: 2000, priceHigh: 4800, batch: '6-16' },
   MY: { industries: 'oil & gas, LNG, petrochemical, offshore fabrication', employers: 'Petronas, MISC, Malaysia Marine and Heavy Engineering, Sapura', certs: 'ASNT, ISO 9712, PCN', priceLow: 1400, priceHigh: 3800, batch: '8-18' },
   AU: { industries: 'LNG, mining, iron ore, offshore oil & gas', employers: 'Woodside, Chevron Australia, Rio Tinto, BHP, Santos', certs: 'AINDT ISO 9712, ASNT', priceLow: 2600, priceHigh: 6000, batch: '6-14' },
   NZ: { industries: 'dairy process, geothermal, shipyards, infrastructure', employers: 'Fonterra, Methanex, Refining NZ, KiwiRail', certs: 'CBIP ISO 9712, ASNT', priceLow: 2400, priceHigh: 5400, batch: '6-12' },
@@ -11138,7 +11138,7 @@ const corpRichCity = {
   'hyderabad': { hook: 'where Atlantis NDT has an office (not a training centre), within reach of the Vizag-Kakinada belt and Chennai-Ennore.', specifics: 'Theory is online and primarily self-paced, with access from the moment you enrol, and corporate courses run on-site at the client\'s facility.', stat: 'Hyderabad cohorts are led by an ASNT NDT Level III and scoped per client by method and level.' },
   'chennai': { hook: 'the Tamil Nadu auto, aerospace and petrochem cluster — CPCL Manali, HPCL Rasayani, BHEL Trichy, and the Ennore-Ponneri industrial corridor.', specifics: 'On-site NDT training at client facilities around Ennore port, the Sriperumbudur auto cluster and the SIPCOT industrial parks; theory is online and primarily self-paced.', stat: 'Chennai courses are scoped per client by method and level.' },
   'aberdeen': { hook: 'the North Sea operations capital, where BP, Shell UK, TotalEnergies, CNOOC and Repsol Sinopec all require PCN and CSWIP-aligned corporate refreshers every 3-5 years.', specifics: 'On-site delivery at client facilities in Altens, Westhill, Dyce and the Bridge of Don; theory is online and primarily self-paced.', stat: 'Pricing in Aberdeen is quoted per person per method-level combination for the ASNT SNT-TC-1A training Atlantis delivers; PCN and CSWIP re-certification are sat separately through BINDT and TWI.' },
-  'singapore': { hook: 'the Asia-Pacific refining, marine and aerospace MRO capital. ExxonMobil Jurong Island, Shell Pulau Bukom, Seatrium, ST Engineering and Pratt & Whitney all source corporate NDT training here.', specifics: 'On-site courses run at client facilities in Tuas, on Jurong Island (with appropriate passes) and in Loyang, in English, to ASNT syllabi (CSWIP and PCN are sat separately through their own accredited bodies).', stat: 'Corporate batch pricing is quoted per delegate depending on method stack — aerospace MRO batches are ASNT SNT-TC-1A method training; aerospace certification stays with the operator.' },
+  'singapore': { hook: 'the Asia-Pacific refining, marine and aerospace MRO capital. ExxonMobil Jurong Island, Aster Pulau Bukom, Seatrium, ST Engineering and Pratt & Whitney all source corporate NDT training here.', specifics: 'On-site courses run at client facilities in Tuas, on Jurong Island (with appropriate passes) and in Loyang, in English, to ASNT syllabi (CSWIP and PCN are sat separately through their own accredited bodies).', stat: 'Corporate batch pricing is quoted per delegate depending on method stack — aerospace MRO batches are ASNT SNT-TC-1A method training; aerospace certification stays with the operator.' },
   'muscat': { hook: 'the operational center for PDO, OQ (Orpic + OOCEP merger), Oman LNG, Daleel and BP Oman.', specifics: 'Theory is online and primarily self-paced, with on-site delivery at client facilities in Sohar, Salalah and Duqm for the coastal refining and LNG plants.', stat: 'Level II corporate pricing is quoted per person depending on method count.' },
   'jubail': { hook: 'the largest industrial city in the Middle East — Aramco, SABIC, Ma\'aden, Sadara, YANPET, Petro Rabigh and over 120 EPC contractors run continuous inspector upskilling cycles.', specifics: 'On-site delivery inside client facilities across Jubail Industrial City. All batches aligned to Aramco SAEP-1140 / SAEP-1142 expectations.', stat: 'Jubail cohorts are usually scoped for contractors preparing technicians for Aramco and SABIC project work, with records built around SAEP-1112 expectations; acceptance is always the client\'s decision.' },
   'calgary': { hook: 'the head office city for the Canadian oil sands majors — Suncor, Cenovus, Imperial Oil, Canadian Natural and Enbridge all source corporate NDT training from local providers.', specifics: 'On-site delivery at client facilities in the Edmonton industrial belt, Fort McMurray and Sarnia. Atlantis delivers ASNT SNT-TC-1A training; CAN/CGSB-48.9712 certification is issued by NRCan or CWB Group and needs method training from one of their Recognized Training Organizations, which Atlantis is not.', stat: 'Calgary corporate pricing is quoted per delegate.' },

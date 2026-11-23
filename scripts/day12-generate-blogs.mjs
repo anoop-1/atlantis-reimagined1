@@ -91,7 +91,7 @@ ${COMPARISON_TABLE}
 
 <h2>Singapore-Specific Workflow Highlights</h2>
 <ul>
-  <li><strong>Jurong Island operator portal integration</strong> — ExxonMobil JI + Shell Pulau Bukom + Singapore Refining Co. work-order import + report export</li>
+  <li><strong>Jurong Island operator portal integration</strong> — ExxonMobil JI + Aster Pulau Bukom + Singapore Refining Co. work-order import + report export</li>
   <li><strong>MOM (Ministry of Manpower) Workplace Safety compliance</strong> — confined space + working at height + radiation safety records</li>
   <li><strong>BCA (Building &amp; Construction Authority) GreenMark + Quality Mark</strong> — construction inspection records</li>
   <li><strong>PUB (Public Utilities Board) infrastructure inspection records</strong></li>

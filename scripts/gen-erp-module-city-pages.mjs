@@ -57,7 +57,7 @@ const CITIES_ORIGINAL = [
     industries: "oil & gas (Ghawar, Empty Quarter), refining (Yanbu, Jubail, Ras Tanura), petrochem, mining" },
   { slug: 'singapore', name: 'Singapore', country: 'Singapore', lat: 1.3521, lng: 103.8198,
     market: "Jurong Island petrochem hub. FPSO conversion (Keppel, Sembcorp). MOM CERT compliance.",
-    operators: ["ExxonMobil Jurong refinery", "Shell Bukom", "Vopak storage", "Sembcorp Marine FPSO", "Keppel FPSO yards", "MODEC Singapore HQ", "BASF Jurong", "Lanxess Jurong"],
+    operators: ["ExxonMobil Jurong refinery", "Aster Bukom", "Vopak storage", "Sembcorp Marine FPSO", "Keppel FPSO yards", "MODEC Singapore HQ", "BASF Jurong", "Lanxess Jurong"],
     regulators: ["MOM (Ministry of Manpower)", "NEA environment", "MPA marine", "EDB Singapore", "BCA Building Authority"],
     industries: "petrochemical, marine (FPSO), bunkering, biopharma manufacturing" },
   { slug: 'mumbai', name: 'Mumbai', country: 'India', lat: 19.0760, lng: 72.8777,

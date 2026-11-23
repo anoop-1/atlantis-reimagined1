@@ -1,0 +1,164 @@
+{
+  "title": "RBI in Gladstone: LNG, Alumina and Chemical Plant Inspection",
+  "description": "Risk-based inspection for Gladstone's Curtis Island LNG plants, alumina refineries and Yarwun chemical plants, planned remotely on Queensland time.",
+  "h1": "Risk-based inspection for Gladstone, Curtis Island and the Yarwun industrial area",
+  "eyebrow": "Risk-based inspection in Gladstone",
+  "intro": "Gladstone, on Port Curtis in central Queensland, gathers three LNG export plants on Curtis Island, two alumina refineries, an aluminium smelter and a chemical complex making nitric acid, ammonium nitrate and sodium cyanide. Few industrial areas put cryogenic, caustic and nitrogen-chemical service so close together. This page is written for the people who plan inspection on Curtis Island, at Yarwun and around the port. It covers the damage mechanisms each kind of plant brings, how cyclones and the tropical wet season enter an RBI assessment, what Queensland's major hazard and petroleum safety rules mean for the inspection programme, and how Atlantis delivers the study remotely.",
+  "highlights": [
+    { "h": "Cold service has its own risk", "p": "An LNG train combines cryogenic equipment, amine treating, mercury removal and dehydration in one plant. The register follows each of those loops on its own damage logic instead of carrying refinery assumptions into a gas liquefaction train." },
+    { "h": "Caustic at temperature", "p": "Bayer process liquor is hot, strongly alkaline and full of solids. Caustic cracking, scaling and slurry erosion decide where inspection effort goes in an alumina refinery, and production changes such as Yarwun's planned cut move those rates." },
+    { "h": "Cyclones as triggers", "p": "A severe tropical cyclone can load roofs, shells, tall columns and pipe racks within hours. The plan carries a defined post-cyclone inspection list, so the first walkdown after a storm goes to the items the model says are most exposed." }
+  ],
+  "sections": [
+    {
+      "id": "gl-industry",
+      "h": "What sits around Port Curtis",
+      "p": [
+        "Curtis Island, across the harbour from Gladstone, holds three LNG export plants fed by coal seam gas piped from inland Queensland. Shell operates Queensland Curtis LNG. ConocoPhillips operates the nine million tonne a year Australia Pacific LNG facility, with Origin Energy running the joint venture's upstream gas production and Sinopec among the owners. Santos operates Gladstone LNG, which began operating in 2015.",
+        "On the mainland, Rio Tinto runs the Yarwun alumina refinery, and its Gladstone operations also include Queensland Alumina and Boyne Smelters. Yarwun, which produces about three million tonnes of alumina a year, is cutting output by around 40 per cent from October 2026 to stretch the life of its tailings storage and keep the refinery running to 2035. Orica's Yarwun site, about nine kilometres west of the city, makes nitric acid, solid and liquid ammonium nitrate and sodium cyanide, with three nitric acid plants, two ammonium nitrate plants and an emulsion phase plant at its Reid Road facility, and ammonia and caustic soda import facilities at Fisherman's Landing.",
+        "For an RBI programme the mix matters more than the size. Each kind of plant has damage mechanisms the others rarely see, and the teams that inspect them often come from different industries. The table summarises the main asset types and what tends to drive risk in each."
+      ],
+      "table": {
+        "head": ["Plant type", "Main equipment classes", "What tends to drive the risk"],
+        "rows": [
+          ["LNG liquefaction trains", "Acid gas removal, dehydration and mercury removal units, cryogenic heat exchangers, refrigerant compressors, LNG storage tanks, loading lines and flares", "Amine corrosion and cracking, mercury attack on aluminium exchangers, thermal cycling, low-temperature embrittlement after cold spills, corrosion under insulation at warm-to-cold transitions"],
+          ["Alumina refineries", "Digesters, flash vessels, heaters, slurry and liquor piping, large liquor and precipitation tanks, calciners, steam plant", "Caustic stress corrosion cracking, scale growth, slurry erosion, thermal cycling in heat interchange"],
+          ["Nitrogen chemicals and cyanide", "Nitric acid plants, ammonium nitrate solution and storage, sodium cyanide production, imported ammonia and caustic storage", "Ammonia cracking in carbon steel, intergranular attack on stainless steels, nitrate cracking, toxic release consequence"],
+          ["Port and marine", "Jetty piping, loading arms, product and chemical lines over water", "Splash zone and atmospheric corrosion, corrosion at supports and clamps over water"]
+        ]
+      }
+    },
+    {
+      "id": "gl-lng",
+      "h": "Inside an LNG train",
+      "p": [
+        "An LNG plant is often thought of as clean service because its feed gas is dry and sweet by the time it reaches the cold end. The front end tells a different story. Acid gas removal units circulate amine, and lean and rich amine systems carry corrosion where velocity, temperature and heat-stable salts allow it, along with stress corrosion cracking at carbon steel welds that were not stress relieved. Dehydration beds swing between adsorption and hot regeneration on a cycle of hours, so the vessels and their nozzles accumulate thermal fatigue. Mercury removal protects the brazed aluminium heat exchangers downstream, because even traces of liquid mercury can embrittle aluminium; the assessment treats the performance of the mercury guard beds as a safeguard, and a weakness there raises the probability of failure for the cold equipment behind it.",
+        "The cold end changes the questions again. Stainless steels, aluminium and nickel steels are chosen because ordinary carbon steel turns brittle at LNG temperatures of about minus 162 degrees Celsius, so the credible threat to carbon steel structures and piping nearby is a cold spill rather than corrosion. Cold insulation fails differently from hot insulation: a broken vapour barrier lets moist air in, ice forms and the insulation breaks down, and the warm-to-cold transitions at supports, valves and the ends of cold runs are where corrosion under insulation gathers. LNG storage tanks are rarely opened, and the study works with their monitoring records and the designer's requirements instead of applying atmospheric tank practice to them."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "gl-bayer",
+      "h": "Caustic service in the Bayer process",
+      "p": [
+        "Alumina refining dissolves bauxite in hot caustic soda liquor under pressure, separates the residue, precipitates aluminium hydroxide and calcines it. Much of the plant handles strongly alkaline liquor at elevated temperature, and carbon steel in that service is susceptible to caustic stress corrosion cracking, sometimes called caustic embrittlement, wherever caustic concentration, temperature and residual stress come together. Post-weld heat treatment history therefore matters as much as wall thickness: a weld that was never stress relieved, or a repair made without it, can carry a cracking probability that no thickness survey will reveal.",
+        "Two further mechanisms shape the plan. Scale builds up in heaters, flash vessels and liquor lines, cutting heat transfer and sometimes hiding local attack under the deposit, so descaling campaigns are both an inspection opportunity and a source of mechanical damage. Slurry carries abrasive solids, which concentrates erosion at bends, reducers, valves and pump casings at rates that follow velocity and solids loading. Large liquor and precipitation tanks bring floor and shell questions of their own, with caustic cracking possible at shell welds where the liquor runs warm.",
+        "Production rate is an input in its own right. A refinery cutting output, as Yarwun is from October 2026, may run some trains at lower rates and idle others, which changes velocities, temperatures and the time equipment spends cold and wet. The study asks how each circuit will run under the new operating plan and reassesses the circuits whose conditions move, rather than assuming that past rates still describe them."
+      ]
+    },
+    {
+      "id": "gl-chemicals",
+      "h": "Nitric acid, ammonium nitrate and cyanide at Yarwun",
+      "p": [
+        "The chemicals site brings together services that rarely share a register. Imported ammonia and caustic soda come in through the facilities at Fisherman's Landing and move on to the main site, so their storage, transfer lines and supports form a distinct group with its own consequence profile. Ammonia held in carbon steel calls for crack-detection examination at the welds where cracking is credible, because the damage it causes is cracking rather than thinning. In the nitric acid plants, stainless steels rely on the right acid strength and temperature and on their own heat treatment, and drift in any of those can bring intergranular attack. Hot ammonium nitrate solution can crack carbon steel, and sodium cyanide production adds caustic and cyanide service.",
+        "What sets these units apart in an RBI study is consequence. A release of ammonia or of cyanide-bearing material is a toxic event first, and its consequence depends on dispersion, on the people within reach and on how fast the release is isolated, more than on the flammable inventory that dominates refinery and LNG assessments. The study models toxic releases on their own terms, records which consequence model was used for each item, and checks that the ranking agrees with the major incident scenarios the site's safety case describes."
+      ]
+    },
+    {
+      "id": "gl-climate",
+      "h": "Tropical coast, wet season and cyclones",
+      "p": [
+        "Gladstone lies on the central Queensland coast a little south of the Tropic of Capricorn. Summers are hot and humid, most of the year's rain falls in the wet season, and tropical cyclones can reach the coast. Salt from Port Curtis and the open sea reaches plant on Curtis Island and the mainland alike, so coating breakdown, atmospheric corrosion of structures, pipe racks and tank shells, and corrosion at supports are constant background mechanisms. Insulated equipment that runs warm spends long wet seasons in the conditions corrosion under insulation favours, and insulated stainless steel at the hotter end of its range carries an external chloride cracking risk.",
+        "A cyclone is a different kind of event. High winds load floating roofs, wind girders, tall columns and flare stacks; flying debris damages cladding and small-bore connections; torrential rain overwhelms roof drains and bunds; and a storm surge can reach low-lying plant near the shore. The study treats a cyclone and its aftermath as a reassessment trigger with a pre-set inspection list ranked by exposure, so the first post-storm walkdown goes to the items most likely to have been damaged, and the results return to the model before routine dates are confirmed."
+      ]
+    },
+    {
+      "id": "gl-rules",
+      "h": "Queensland rules at a Gladstone site",
+      "p": [
+        "Queensland applies the national model work health and safety laws through Workplace Health and Safety Queensland, including registration of higher-hazard boilers and pressure vessels and a licensing regime for major hazard facilities backed by a safety case. Australia Pacific LNG states that its Curtis Island facility is a designated major hazard facility under the Work Health and Safety Act 2011, while the gas fields that supply it operate under a safety management plan required by the Petroleum and Gas (Production and Safety) Act 2004. Where the governing regime changes along a pipeline or at a site boundary, the RBI register should show which regime each item falls under.",
+        "In-service inspection of pressure equipment is benchmarked against AS/NZS 3788, revised in 2024 to take in risk-based inspection, and many owners inspect to API 510, API 570 and API 653 inside that framework. The Australia and Brisbane pages set out plant registration and major hazard facility licensing in more detail. At hub level the point to settle early is which document governs each item, so that one register can serve the competent person, the safety case and the insurer at once."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
+        ["/inspection/risk-based-inspection/brisbane-lytton", "RBI in Brisbane and Lytton"]
+      ]
+    },
+    {
+      "id": "gl-consequence",
+      "h": "Consequence on an island and beside the reef",
+      "p": [
+        "Consequence assessment at Gladstone has features a generic model misses. The LNG plants sit on an island reached across the harbour, so emergency response, evacuation and the time needed to isolate and depressurise a section feed directly into consequence. Port Curtis opens onto the southern Great Barrier Reef, and a release that reaches the water carries environmental and reputational weight far beyond its volume. On the mainland, the chemicals site and the alumina refineries sit nearer the city and its industrial estates, so toxic dispersion and the population within reach dominate.",
+        "The study therefore does not apply one consequence model across the area. It uses the consequence categories the owner's risk matrix defines, calibrates them against the scenarios in the site's safety case and records the basis for each item, so a flammable release on Curtis Island and a toxic release at Yarwun can be ranked side by side without either being forced into the other's terms."
+      ]
+    },
+    {
+      "id": "gl-remote",
+      "h": "Planning a Gladstone study across three time zones",
+      "p": [
+        "Queensland keeps Australian Eastern Standard Time all year, so a Gladstone site never has to reschedule around daylight saving. The Hyderabad team begins its day as Gladstone reaches early afternoon, which is when workshops are booked, and the Houston team's afternoon arrives early in the Gladstone morning of the following day, which suits short follow-up calls before the site's day fills up.",
+        "Records arrive through a shared data room: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, Queensland registration records, inspection and thickness history, cold box and LNG tank monitoring records, descaling and erosion records for liquor circuits, process chemistry and the integrity operating windows. A data-gap log goes out before the first workshop, and the corrosion loops are built in video sessions with your process, operations, corrosion and inspection specialists. Risk is worked at the level the scope calls for, from a qualitative screen to a quantitative API RP 581 assessment or your corporate RBI standard.",
+        "The study needs no travel to Gladstone or Curtis Island. Walkdowns, insulation and coating surveys, crack-detection examinations at selected welds and the thickness readings the gap log names are carried out by your own inspectors or your inspection contractor, and their results update the register."
+      ]
+    },
+    {
+      "id": "gl-approval",
+      "h": "Who accepts the plan",
+      "p": [
+        "The study proposes intervals and inspection tasks with their reasoning; acceptance rests with the competent person your inspection procedure names, inside the safety management system the regulator oversees. Atlantis does not act as inspector of record or as an inspection body in Queensland. If inspection finds damage that needs an assessment of continued operation, that fitness-for-service work stays with the owner's engineer and is not an Atlantis service, and the register is updated with the outcome before the affected dates are reset."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection) and API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms) and API RP 584 (integrity operating windows)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API 510, API 570 and API 653",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "AS/NZS 3788:2024 (pressure equipment, in-service inspection)",
+    "Work Health and Safety Act 2011 and Work Health and Safety Regulation 2011 (Qld)",
+    "Petroleum and Gas (Production and Safety) Act 2004 (Qld)"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops for LNG, Bayer process, nitrogen chemical and cyanide service",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Crack-detection scope for caustic, amine and ammonia service welds",
+    "Consequence basis for flammable and toxic releases, checked against the safety case",
+    "Post-cyclone inspection list ranked by exposure",
+    "Data-gap log and reassessment triggers, including production changes and severe weather",
+    "Report organised for the competent person, the regulator and the insurer"
+  ],
+  "industries": [
+    "LNG liquefaction and export",
+    "Alumina refining",
+    "Nitric acid, ammonium nitrate and sodium cyanide manufacture",
+    "Ammonia and caustic import and storage",
+    "Port and marine loading"
+  ],
+  "faqs": [
+    { "q": "Is RBI worth doing for an LNG plant whose feed gas is clean?", "a": "Yes. The cold end may see little corrosion, but the front end carries amine corrosion and cracking, dehydration beds cycle thermally, mercury guard beds protect aluminium exchangers, and cold insulation fails at warm-to-cold transitions. An RBI study concentrates inspection on those loops and records where the cold equipment's low probability of failure depends on safeguards that must themselves be maintained." },
+    { "q": "How does the study handle caustic cracking in an alumina refinery?", "a": "As a cracking mechanism, not a thinning one. The study maps where caustic concentration, temperature and unrelieved welds coincide, checks post-weld heat treatment and repair history, and credits only crack-detection techniques that could find the damage. A thickness survey, however thorough, earns no credit against caustic cracking in the model." },
+    { "q": "Our refinery is cutting output. Does that change the inspection plan?", "a": "It can. Lower rates change velocities, temperatures and the time equipment spends cold, and trains that are idled need a preserved state and restart checks. The study asks how each circuit will run under the new operating plan, reassesses those whose conditions move and leaves unchanged circuits on their existing basis, with the operating assumptions written into the report." },
+    { "q": "How are cyclones built into the plan?", "a": "As triggers with a defined response. The plan lists, in order, the checks to make after a cyclone or severe storm: floating roofs and drains, wind girders, tall columns and stacks, cladding and insulation, small-bore connections, bunds and low-lying equipment reached by surge or flooding. Results go back into the model before routine dates are confirmed, and damaged items are reassessed individually." },
+    { "q": "Are LNG storage tanks given internal inspection intervals?", "a": "Not in the way an atmospheric fuel tank is. LNG tanks are rarely taken out of service, so their integrity case rests largely on monitoring of temperatures, settlement and the outer tank, and on the designer's requirements. The study records that monitoring as the tank's inspection evidence, flags any gap in it and keeps the tank's risk visible in the register without inventing an interval the design does not support." },
+    { "q": "Can toxic and flammable releases be ranked in one register?", "a": "Yes, provided the consequence categories are defined in the owner's risk matrix and each item records the consequence basis used. The study models toxic releases from ammonia or cyanide-bearing streams on dispersion and exposure, models flammable releases on their own terms, and calibrates both against the scenarios in the site's safety case, so the ranking compares like with like." },
+    { "q": "Does anyone from Atlantis need to come to Gladstone?", "a": "No. The study is delivered remotely and needs no travel to the mainland sites or to Curtis Island. Walkdowns, coating and insulation surveys, weld examinations and the thickness readings the study asks for are done by your own inspectors or your inspection contractor, working from a written list, and their findings return to the register." },
+    { "q": "Who signs off the intervals?", "a": "The competent person named in your inspection procedure, within a safety management system the Queensland regulator oversees, with insurers reviewing the programme as a whole. The study supplies the basis for every interval and the triggers for reassessment; it does not approve intervals, and assessments of damage stay with your engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
+    ["/inspection/risk-based-inspection/brisbane-lytton", "RBI in Brisbane and Lytton"],
+    ["/inspection/risk-based-inspection/kwinana", "RBI in Kwinana"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/standards/api-584", "Integrity operating windows (API 584)"],
+    ["/standards/api-581", "API 581 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "QCLNG is Shell-operated on Curtis Island near Gladstone; GLNG is Santos-operated and began operations in 2015", "url": "https://lngprime.com/?p=173507" },
+    { "fact": "ConocoPhillips operates APLNG's 9 mtpa LNG export facility on Curtis Island; Origin runs upstream production; ConocoPhillips 47.5%, Sinopec 25%", "url": "https://lngprime.com/australia-and-oceania/aplng-pens-another-domestic-gas-deal/169845/" },
+    { "fact": "Rio Tinto to cut Yarwun alumina production by 40% from October 2026 (from roughly 3 mtpa, about 1.2 mtpa less) to extend operation to 2035; tailings storage capacity; about 180 roles affected", "url": "https://www.mining-technology.com/newsletters/rio-tinto-cut-yarwun-alumina-output" },
+    { "fact": "Gladstone Regional Council (18 November 2025): Yarwun 40% cut from October 2026; Rio Tinto's other Gladstone sites include Boyne Smelters and QAL", "url": "https://www.gladstone.qld.gov.au/Council/Communications-and-Resources/Latest-news/Rio-Tinto-annoucement" },
+    { "fact": "Orica Yarwun, about 9 km west of Gladstone: nitric acid, ammonium nitrate (solid and liquid), sodium cyanide; Reid Road: three nitric acid plants, two ammonium nitrate plants, an emulsion phase plant, sodium cyanide plant; Fisherman's Landing: ammonia and caustic soda import facilities", "url": "https://www.orica.com/about-us/locations/global-major-sites/yarwun/operations" },
+    { "fact": "APLNG Curtis Island facility is a designated Major Hazard Facility under the Work Health and Safety Act 2011; gas fields operate under a safety management plan under the Petroleum and Gas (Production and Safety) Act 2004", "url": "https://aplng.com.au/safety/" },
+    { "fact": "Queensland P&G Act operating plant safety management systems (Resources Safety and Health Queensland)", "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/petroleum-gas/operating-plant/sms" },
+    { "fact": "AS 3788:2024 revised inspection requirements including risk-based inspection; re-designated AS/NZS 3788:2024 by Amendment 1 2025 (front cover, title page, preface)", "url": "https://www.intertekinform.com/preview/1569218984991.pdf" }
+  ]
+}

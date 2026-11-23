@@ -11,10 +11,10 @@ const data: ErpTripleCrossProps = {
   "lat": 1.3521,
   "lng": 103.8198,
   "title": "Calibration Management Software for Calibration Laboratories in Singapore",
-  "desc": "Calibration Management ERP module for calibration laboratorys in Singapore, Singapore. Aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540, with operator flow-down for ExxonMobil Jurong and Shell Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
+  "desc": "Calibration Management ERP module for calibration laboratorys in Singapore, Singapore. Aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540, with operator flow-down for ExxonMobil Jurong and Aster Pulau Bukom and MOM (Ministry of Manpower) / NEA compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "Calibration Laboratories operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how calibration management actually has to work on the ground. Singapore sits at the heart of a top three world refining and petrochemical hub. The dominant industrial cluster — Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conversion yards at Sembcorp / Keppel — sets the rhythm: short shutdown windows, MOM authorised-examiner requirements, and 24/7 FPSO conversion campaigns.",
   "introPara2": "ISO/IEC 17025-accredited calibration laboratories operate as customer-instrument processing factories — sample receipt, environmental conditioning, calibration, technical review, certificate dispatch, and dispute handling all within tight customer SLAs. For a multi-discipline calibration laboratory in Singapore, calibration management is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. an ISO 17025 finding-of-fact can cost accreditation; a missed customer SLA can cost the contract. Atlantis NDT ERP's calibration management module manages calibration intervals, certificates, traceability chains, and uncertainty budgets for measurement equipment, aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540. For calibration laboratories based in Singapore, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
-  "introPara3": "Configured for Singapore — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Jurong, Shell Pulau Bukom, Vopak, Sembcorp Marine, once uploaded — compliance templates against MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018, and the audit frameworks that MOM (Ministry of Manpower), NEA, MPA actually use. Field-data capture is offline-capable for Singapore project sites, multi-language reporting supports Singapore-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore calibration laboratory and a 200-person multinational both run on the same configuration baseline.",
+  "introPara3": "Configured for Singapore — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Jurong, Aster Pulau Bukom, Vopak, Sembcorp Marine, once uploaded — compliance templates against MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018, and the audit frameworks that MOM (Ministry of Manpower), NEA, MPA actually use. Field-data capture is offline-capable for Singapore project sites, multi-language reporting supports Singapore-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore calibration laboratory and a 200-person multinational both run on the same configuration baseline.",
   "features": [
     "Per-asset calibration interval per ISO 17025 §6.4.7",
     "Reference-standard traceability chain to NIST / NPL / PTB / NIM / NMIA",
@@ -23,14 +23,14 @@ const data: ErpTripleCrossProps = {
     "Customer asset register with in-house / customer-owned / loaner flags",
     "Out-of-tolerance handling per ISO 17025 §7.10 with customer notification and recall workflow",
     "Decision rule library — ILAC G8, ASME B89.7.3.1, customer-specific risk-of-false-accept",
-    "Singapore operator-specific flow-down pre-loaded for ExxonMobil Jurong, Shell Pulau Bukom, Vopak",
+    "Singapore operator-specific flow-down pre-loaded for ExxonMobil Jurong, Aster Pulau Bukom, Vopak",
     "Singapore regulator compliance dashboard for MOM (Ministry of Manpower), NEA, MPA",
     "Calibration laboratory-specific report templates and acceptance criteria for calibration laboratories workflows",
     "Bilingual (English + Singapore-relevant local language) document handling for Singapore authority submission"
   ],
   "operators": [
     "ExxonMobil Jurong",
-    "Shell Pulau Bukom",
+    "Aster Pulau Bukom",
     "Vopak",
     "Sembcorp Marine",
     "Keppel FPSO",
@@ -49,13 +49,13 @@ const data: ErpTripleCrossProps = {
     "ASME Section V / VIII"
   ],
   "painPoints": [
-    "Calibration management for calibration laboratorys in Singapore tracked in spreadsheets — always behind operator-portal updates from ExxonMobil Jurong and Shell Pulau Bukom",
+    "Calibration management for calibration laboratorys in Singapore tracked in spreadsheets — always behind operator-portal updates from ExxonMobil Jurong and Aster Pulau Bukom",
     "MOM (Ministry of Manpower) audit preparation for calibration management workflows takes 80+ hours per cycle and finds gaps too late to remediate",
     "Operator flow-down from ExxonMobil Jurong updates monthly — internal calibration management procedures lag by weeks, putting calibration laboratories contracts at risk",
-    "Customer-format calibration management reports for ExxonMobil Jurong, Shell Pulau Bukom, Vopak require manual reformatting on every submission — margin-eating rework"
+    "Customer-format calibration management reports for ExxonMobil Jurong, Aster Pulau Bukom, Vopak require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Jurong and Shell Pulau Bukom runs Calibration Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Jurong and Aster Pulau Bukom runs Calibration Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
     "Example: an inspection contractor in Singapore keeps client-specific quality requirements from Vopak as controlled procedures, and runs each revision through review and approval before crews work to it.",
     "Example: an NDT inspection company in Singapore with crews on several Singapore project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
     "Example: an NDT inspection company in Singapore preparing for MOM (Ministry of Manpower) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
@@ -63,7 +63,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is Calibration Management configured for calibration laboratories operating in Singapore?",
-      "Yes. The calibration management module is pre-loaded with the codes and operator flow-downs that calibration laboratories in Singapore work with daily: MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Jurong, Shell Pulau Bukom, Vopak, Sembcorp Marine — once your team uploads them. The module is aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540. Configuration is done — your calibration laboratory team is productive on day one, not after six months of customisation."
+      "Yes. The calibration management module is pre-loaded with the codes and operator flow-downs that calibration laboratories in Singapore work with daily: MOM WSH, API 510 / 570 / 653, ASME Section V / VIII, IMCA D-018. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Jurong, Aster Pulau Bukom, Vopak, Sembcorp Marine — once your team uploads them. The module is aligned to ISO/IEC 17025:2017 plus ANSI/NCSL Z540. Configuration is done — your calibration laboratory team is productive on day one, not after six months of customisation."
     ],
     [
       "Which Singapore regulators does the calibration management workflow align with?",
@@ -71,7 +71,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Can calibration laboratorys in Singapore integrate with operator-specific portals such as ExxonMobil Jurong?",
-      "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major Singapore operators such as ExxonMobil Jurong, Shell Pulau Bukom, Vopak, Sembcorp Marine — as controlled documents; internal calibration management procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
+      "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major Singapore operators such as ExxonMobil Jurong, Aster Pulau Bukom, Vopak, Sembcorp Marine — as controlled documents; internal calibration management procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
     ],
     [
       "What languages and currencies does the Singapore deployment support?",

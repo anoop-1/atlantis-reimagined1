@@ -119,7 +119,7 @@ const CITY_CTX = {
     market: 'one of the world\'s top three refining and petrochemical hubs, the marine-survey gateway for South-East Asia, and a major FPSO conversion centre',
     cluster: 'Jurong Island (refining, petrochemicals, gas), Tuas (shipyards), Pulau Bukom (Shell refinery), and the FPSO conversion yards at Sembcorp / Keppel',
     bodies: 'Ministry of Manpower (MOM), National Environment Agency (NEA), Maritime & Port Authority (MPA), Singapore Civil Defence Force, EDB, SCDF radiation licensing',
-    operators: ['ExxonMobil Jurong', 'Shell Pulau Bukom', 'Vopak Sebarok / Banyan / Penjuru', 'Sembcorp (refining + marine)', 'Keppel FPSO / Offshore & Marine', 'MODEC Asia', 'PetroChina International Singapore', 'Chevron Singapore'],
+    operators: ['ExxonMobil Jurong', 'Aster Pulau Bukom', 'Vopak Sebarok / Banyan / Penjuru', 'Sembcorp (refining + marine)', 'Keppel FPSO / Offshore & Marine', 'MODEC Asia', 'PetroChina International Singapore', 'Chevron Singapore'],
     codes: ['MOM Workplace Safety & Health Act', 'MOM WSH Regulations (Pressure Vessels)', 'API 510 / 570 / 653', 'ASME Section V / VIII', 'IMO MARPOL / SOLAS (port state control)', 'IMCA D-018 (subsea inspection)', 'ISO 9712 (NDT certification)'],
     flavor: 'Singapore inspection companies juggle short shutdown windows, MOM authorised-examiner requirements, and FPSO conversion campaigns running 24/7',
     seasonality: 'tropical year-round operations with monsoon-period offshore mobilisation constraints',

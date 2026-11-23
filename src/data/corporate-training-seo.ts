@@ -175,7 +175,7 @@ const COUNTRY_ARCHETYPES: Record<string, CountryArchetype> = {
   },
   SG: {
     anchorIndustries: ['Jurong Island petrochemicals', 'bunkering & marine', 'aerospace MRO', 'semiconductor fabs'],
-    employers: ['ExxonMobil Jurong', 'Shell Pulau Bukom', 'ST Engineering', 'SIA Engineering'],
+    employers: ['ExxonMobil Jurong', 'Aster Pulau Bukom', 'ST Engineering', 'SIA Engineering'],
     certBodies: ['SAC / IPHE', 'ISO 9712', 'ASNT', 'CAAS for aerospace'],
     currency: 'SGD',
     priceNote: 'SGD or USD invoice',
@@ -326,7 +326,7 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
   },
   'singapore': {
     anchorIndustries: ['Jurong Island petrochemicals', 'bunkering & marine', 'aerospace MRO (Seletar)', 'semiconductor fabs'],
-    namedEmployers: ['ExxonMobil Jurong', 'Shell Pulau Bukom', 'ST Engineering', 'SIA Engineering', 'GlobalFoundries', 'Sembcorp Marine'],
+    namedEmployers: ['ExxonMobil Jurong', 'Aster Pulau Bukom', 'ST Engineering', 'SIA Engineering', 'GlobalFoundries', 'Sembcorp Marine'],
     typicalBatchSize: '10-16 trainees; aerospace cohorts kept ≤12',
     onsiteTravelRadius: '300 km — Singapore, Johor, Batam, cross-border projects',
     priceRangeUSD: 'Affordable batch pricing — quote on request',

@@ -417,7 +417,7 @@ export const ERP_CITY_PROFILES: Record<string, CityProductProfile> = {
       { question: "Does Atlantis NDT ERP map to MOM CERT categories for NDT personnel in Singapore?", answer: "Yes. MOM CERT categories (UT, RT, MT, PT, VT) and the relevant WSH requirements are pre-configured, with island-pass evidence, medical currency and PPE fit-test records all linked to the technician profile for Jurong Island and Tuas mobilisations." },
       { question: "Can we keep data in Singapore to comply with client and PDPA requirements?", answer: "Yes. AWS Asia Pacific (Singapore) and Azure Southeast Asia are supported hosting regions. We sign a PDPA-aligned data-processing agreement and can provide Tier-4 BCA-certified tenancy on request." },
       { question: "How does the system handle compressed turnaround windows on Jurong Island?", answer: "The shutdown planning view groups work orders by island, facility, unit, and crew, showing all active jobs on a live Gantt with CERT currency and equipment availability warnings. Supervisors can reassign a technician to a different unit mid-shift with automatic qualification validation." },
-      { question: "Can reports be produced in the ExxonMobil, Shell and PCS Singapore client formats?", answer: "Yes. Client-specific templates for ExxonMobil Jurong, Shell Bukom, PCS and Singapore Refining Company are shipped with the platform and regularly updated when clients revise their formats." },
+      { question: "Can reports be produced in the ExxonMobil, Shell and PCS Singapore client formats?", answer: "Yes. Client-specific templates for ExxonMobil Jurong, Aster Bukom, PCS and Singapore Refining Company are shipped with the platform and regularly updated when clients revise their formats." },
     ],
   },
   'mumbai': {
@@ -1570,7 +1570,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
       { question: "Can the digital twin be hosted in Singapore for PDPA and client data-residency?", answer: "Yes. AWS Asia Pacific (Singapore) and Azure Southeast Asia are supported, with signed PDPA-aligned DPAs. Jurong Island client IT teams frequently accept a dedicated Singapore tenancy with BCA Tier-3+ infrastructure." },
       { question: "How does the twin handle Jurong Island compressed turnaround windows?", answer: "The twin pre-generates the inspection scope the moment the unit shutdown plan is locked, aggregating all prior inspection data into a prioritised scope list that the MOM-qualified crew can execute in the shortest practical on-island time." },
       { question: "Does the twin track creep damage on cracker furnaces?", answer: "Yes. Creep damage-mechanism profiles with time-temperature history, measured tube OD and thickness trends are mapped per tube on the 3D model, with MOM CERT-compliant inspector sign-off." },
-      { question: "Can Jurong Island client-format reports (ExxonMobil, Shell, PCS) be produced directly from the twin?", answer: "Yes. Pre-built templates for ExxonMobil Jurong, Shell Bukom, PCS Jurong and Singapore Refining Company are shipped with the twin and updated as clients revise formats." },
+      { question: "Can Jurong Island client-format reports (ExxonMobil, Shell, PCS) be produced directly from the twin?", answer: "Yes. Pre-built templates for ExxonMobil Jurong, Aster Bukom, PCS Jurong and Singapore Refining Company are shipped with the twin and updated as clients revise formats." },
     ],
   },
   'mumbai': {

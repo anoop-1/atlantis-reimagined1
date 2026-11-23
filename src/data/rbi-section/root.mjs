@@ -28,6 +28,8 @@ export const RBI_LIVE = {
     [P('china'), 'RBI in China'],
     [P('malaysia'), 'RBI in Malaysia'],
     [P('australia'), 'RBI in Australia'],
+    [P('new-zealand'), 'RBI in New Zealand'],
+    [P('indonesia'), 'RBI in Indonesia'],
   ],
 };
 

@@ -19,7 +19,7 @@ export default function CmmsForSingapore() {
       ]}
       useCases={[
         { useCase: "ExxonMobil Singapore Refining maintenance", body: "" },
-        { useCase: "Shell Bukom / Pulau Ular operator", body: "Example: a Pulau Bukom / Pulau Ular Shell-focused maintenance contractor uses CMMS-integrated FCC catalyst-handling and hydroprocess damage-mechanism tracking." },
+        { useCase: "Aster Bukom / Pulau Ular operator", body: "Example: a Pulau Bukom / Pulau Ular Shell-focused maintenance contractor uses CMMS-integrated FCC catalyst-handling and hydroprocess damage-mechanism tracking." },
         { useCase: "PCS / SRC / Sumitomo petrochemical maintenance", body: "Example: a Tuas-based maintenance contractor tracks plant-specific damage mechanisms with NACE / API-aligned intervals." },
         { useCase: "Sembcorp Marine / Keppel Shipyard contractor", body: "Example: a Tuas / Sembawang marine maintenance contractor tracks IACS classification-society survey intervals with MPA marine-inspection licensing integration." },
       ]}
@@ -38,7 +38,7 @@ export default function CmmsForSingapore() {
         "Customer-facing portal with SingPass / Corppass authentication",
       ]}
       integrations={[
-        "Shell Bukom Pulau Ular vendor portal",
+        "Aster Bukom Pulau Ular vendor portal",
         "Sembcorp Industries vendor portal",
         "Keppel Offshore & Marine vendor portal",
         "ST Engineering vendor portal",
@@ -51,7 +51,7 @@ export default function CmmsForSingapore() {
       faqs={[
         { question: "Does the CMMS support MOM CERT NDT certification?", answer: "Yes. Every work order carries structured fields for MOM CERT NDT-personnel certification (the WSH (NDT Inspection) Regulations require CERT-certified personnel for NDT on Singapore pressure equipment) — including method, level and expiry date per individual. The CMMS auto-flags work orders where CERT currency would expire before completion." },
         { question: "Is the data hosted inside Singapore?", answer: "Yes. By default the CMMS hosts on AWS Asia-Pacific (Singapore) ap-southeast-1 region for PDPA 2012 compliance. For clients requiring MTCS Level 3 sovereign-cloud certification, in-country hosting is available via Singtel DC or M1 Cloud — both IMDA-licensed Tier-III+ Uptime Institute-certified data-centre operators." },
-        { question: "Does the CMMS handle Jurong Island access permits?", answer: "Yes. JTC Jurong Town Corporation, EMA, NEA, EDB and individual operator-site access permits — including the JTC Jurong Island Pass system, ExxonMobil JIE access pass, and Shell Bukom Pulau Ular gate pass — are tracked per inspector per facility. The CMMS auto-flags access-permit-expiry before mobilisation." },
+        { question: "Does the CMMS handle Jurong Island access permits?", answer: "Yes. JTC Jurong Town Corporation, EMA, NEA, EDB and individual operator-site access permits — including the JTC Jurong Island Pass system, ExxonMobil JIE access pass, and Aster Bukom Pulau Ular gate pass — are tracked per inspector per facility. The CMMS auto-flags access-permit-expiry before mobilisation." },
         { question: "Does the platform handle InvoiceNow PEPPOL e-invoicing?", answer: "Yes. IMDA InvoiceNow PEPPOL e-invoicing has been mandatory for GST-registered businesses since November 2025 Phase 2 rollout. Atlantis NDT ERP generates PEPPOL BIS Billing 3.0 UBL XML invoices and integrates with IMDA InvoiceNow network via PEPPOL Access Points." },
         { question: "Does the CMMS track BCA-graded contractor registration?", answer: "Yes. BCA contractor-grade registration (W01/W02/W04 for general building works, ME01/ME05 for mechanical-engineering, CR06 for fire-protection-engineering) is tracked at the legal-entity level with grade-renewal alerts." },
         { question: "Can the CMMS handle CAAS Part 145 aerospace MRO work?", answer: "Yes. CAAS Approved Maintenance Organisation (Part 145) status, personnel certification, EN 4179 European Aerospace Standard compliance, and customer-specific written practices from Pratt & Whitney, Rolls-Royce, GE Aviation, Honeywell Aerospace and Boeing are tracked in parallel. NADCAP eAuditNet audit-pack export is single-click." },

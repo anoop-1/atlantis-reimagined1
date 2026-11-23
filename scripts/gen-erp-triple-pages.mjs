@@ -52,7 +52,7 @@ const CITY_CTX = {
   'singapore':     { name: 'Singapore',      country: 'Singapore',    iso: 'SG', lat: 1.3521,   lng: 103.8198,
     market: 'a top three world refining and petrochemical hub',
     cluster: 'Jurong Island, Pulau Bukom, Tuas shipyards, and the FPSO conversion yards at Sembcorp / Keppel',
-    operators: ['ExxonMobil Jurong', 'Shell Pulau Bukom', 'Vopak', 'Sembcorp Marine', 'Keppel FPSO', 'MODEC Asia', 'PetroChina International Singapore', 'Chevron Singapore'],
+    operators: ['ExxonMobil Jurong', 'Aster Pulau Bukom', 'Vopak', 'Sembcorp Marine', 'Keppel FPSO', 'MODEC Asia', 'PetroChina International Singapore', 'Chevron Singapore'],
     regulators: ['MOM (Ministry of Manpower)', 'NEA', 'MPA', 'EDB', 'SCDF radiation licensing'],
     codes: ['MOM WSH', 'API 510 / 570 / 653', 'ASME Section V / VIII', 'IMCA D-018', 'ISO 9712'],
     flavor: 'short shutdown windows, MOM authorised-examiner requirements, and 24/7 FPSO conversion campaigns', },

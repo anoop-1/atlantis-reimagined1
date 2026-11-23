@@ -1125,7 +1125,7 @@ const CITY_DATA = {
   },
   'singapore': {
     name: 'Singapore', country: 'Singapore', iso: 'SG', lat: 1.3521, lng: 103.8198,
-    operators: ['ExxonMobil Singapore (Jurong Island)', 'Shell Bukom', 'Shell Pulau Ular', 'Singapore Petroleum Company', 'PCS (Petrochemical Corporation of Singapore)', 'Sumitomo Chemical', 'Mitsui Phenols', 'Lanxess'],
+    operators: ['ExxonMobil Singapore (Jurong Island)', 'Aster Bukom', 'Aster Pulau Ular', 'Singapore Petroleum Company', 'PCS (Petrochemical Corporation of Singapore)', 'Sumitomo Chemical', 'Mitsui Phenols', 'Lanxess'],
     regulators: ['Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations', 'EMA (Energy Market Authority)', 'NEA (National Environment Agency)', 'BCA (Building and Construction Authority)', 'MPA (Maritime and Port Authority)', 'SAC (Singapore Accreditation Council)'],
     currency: 'SGD', anchor: 'Jurong Island integrated petrochemical complex',
     rhythm: 'MOM CERT certification cycles and compressed island-access shutdown windows',

@@ -1,0 +1,175 @@
+{
+  "title": "RBI in Dumai and Sungai Pakning: Refinery, Tanks and Peat",
+  "description": "Remote RBI for RU II Dumai and Sungai Pakning and Riau's palm oil terminals: peat ground, Strait of Malacca air, coking units and haze-season planning.",
+  "h1": "Risk-based inspection for Dumai, Sungai Pakning and the Riau coast",
+  "eyebrow": "Risk-based inspection in Dumai",
+  "intro": "Dumai is where Riau's oil and palm oil meet the sea. Pertamina's Refinery Unit II runs refineries at Dumai and Sungai Pakning on the Strait of Malacca coast, and the port beside them is one of Indonesia's main export points for crude palm oil, with bulking terminals and oleochemical plants nearby. This page is for the inspection and integrity engineers at those sites. It covers the mix of older and newer plant, what peat ground does to tanks and pipe supports, the coastal and coking mechanisms that drive the register, how the regional fire seasons affect field work, and how Atlantis runs an RBI study remotely.",
+  "highlights": [
+    { "h": "Two refineries, one register", "p": "Dumai and Sungai Pakning were built at different times, to different designs, with different inspection histories. The study keeps them in one register with shared corrosion loop logic, while each site's own data, not the other's, sets its probability of failure." },
+    { "h": "Ground that moves", "p": "Peat and soft coastal soils settle under tanks and pipe supports and hold acidic water against buried steel. Settlement surveys, floor distortion and drainage are treated as RBI inputs rather than as civil engineering kept in a separate file." },
+    { "h": "Haze-aware field planning", "p": "Riau's fire seasons can bring smoke haze to the coast. The engineering runs remotely regardless, but the verification list and any turnaround inspection scope are timed with the haze risk in mind, and the study itself needs no travel." }
+  ],
+  "sections": [
+    {
+      "id": "dumai-sites",
+      "h": "Refineries, port and industrial estates",
+      "p": [
+        "KPI lists Refinery Unit II at 170,000 barrels per day across its Dumai and Sungai Pakning units, which together make it the third-largest refinery in Indonesia by the company's own account, supplying fuel mainly to northern Sumatra and parts of Kalimantan. Its product list includes green coke as well as fuels and low-sulfur fuel oil for export, and Pertamina is preparing a unit at Dumai to co-process used cooking oil, along the route Cilacap took earlier.",
+        "Next to the refinery, Dumai port handles a large flow of crude palm oil exports, and the Lubuk Gaung industrial area hosts oleochemical plants, among them the Sinarmas and Cepsa joint venture plant that makes fatty alcohols and basic oleochemicals from palm kernel and palm oil. Bulking terminals, refinery tankage and fuel depots give the Dumai area a large and varied population of storage tanks, many of them in services other than hydrocarbons."
+      ]
+    },
+    {
+      "id": "dumai-site-types",
+      "h": "What drives risk at each kind of site",
+      "p": [
+        "The three kinds of facility around Dumai share a coastline and a climate but differ in almost everything else an RBI study looks at, including which rules apply to their equipment."
+      ],
+      "table": {
+        "head": ["Facility type", "Main drivers of probability", "Regime and standards usually involved"],
+        "rows": [
+          ["Refinery units at Dumai and Sungai Pakning", "Crude slate and overhead chemistry, high-temperature sulfidation, delayed coking service, hydroprocessing, CUI and the age and format of inspection records", "Permen ESDM 32/2021, which allows risk-based intervals, together with operator procedures and API 510, API 570 and API 653"],
+          ["Refinery and depot tank farms", "Soil-side floor corrosion on soft ground, settlement, product-side water, cathodic protection condition and floating-roof drainage", "Permen ESDM 32/2021 for hydrocarbon tanks, with API 653 as the usual technical basis"],
+          ["Palm oil bulking and oleochemical plants", "Heated storage, hot fatty acids, steam and condensate systems, chloride cracking of insulated stainless steel and ground settlement", "The manpower ministry's regulation on pressure vessels and storage tanks, insurer requirements and the owner's own procedures"]
+        ]
+      }
+    },
+    {
+      "id": "dumai-peat",
+      "h": "Peat, soft ground and the tank programme",
+      "p": [
+        "Much of the Riau coastal plain is peat and soft alluvium, and industrial plant here stands on ground that compresses and settles over years. For storage tanks that shows up as overall settlement, differential settlement around the shell, edge settlement at the annular plates and distortion of the floor, each of which affects how water collects under and on the bottom, how the shell-to-bottom weld is loaded and how well cathodic protection current reaches the plate.",
+        "Peat water is typically acidic and rich in organic matter, which makes waterlogged peat aggressive to steel in contact with it. Tank floors without an effective barrier or cathodic protection, buried piping and the bases of pipe supports and sleepers are where that shows. Drainage that worked when a tank was built may not work after a few decades of settlement.",
+        "The study treats settlement and ground condition as inputs to tank probability. It asks for the settlement survey history, the foundation and pad design, floor scan results with their coverage, cathodic protection readings and any record of floor repairs, and it uses a worsening settlement trend as a reassessment trigger. Judging a settlement survey against the limits API 653 sets is engineering work for the owner's tank inspector and engineers; the study makes sure that their result moves the risk ranking when it should."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "dumai-coast",
+      "h": "Strait of Malacca air and year-round humidity",
+      "p": [
+        "Dumai and Sungai Pakning sit on the Strait of Malacca coast in an equatorial climate that is hot and humid all year, with rain in most months. Salt carried in from the strait reaches pipe racks, jetty lines and tank shells, and the humidity keeps wet insulation wet. Corrosion under insulation on carbon steel and external chloride cracking on insulated austenitic stainless steel head the external damage list, followed by atmospheric corrosion where coatings have failed and corrosion under fireproofing on structural steel.",
+        "Jetty piping for crude, products and vegetable oils is often the most exposed steel on a site and among the least comfortable to inspect, which is exactly why its inspection history tends to be thin. The study gives jetty lines their own corrosion loops and asks what the inspection record could actually have found on them before allowing any of it to lower their probability of failure."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "dumai-process",
+      "h": "Coking, hydroprocessing and decades of history",
+      "p": [
+        "Green coke is the raw product of delayed coking, so the refinery's coking section brings its own mechanisms into the register. Coke drums are heated and quenched every cycle, and thermal fatigue, bulging and cracking of the shell and the skirt attachment are what inspection plans for drums usually centre on. The coker heater and transfer lines add high-temperature sulfidation and coking of heater tubes, and the fractionator and gas plant add the wet sour mechanisms familiar from other conversion units.",
+        "Hydroprocessing brings wet hydrogen sulfide damage, ammonium bisulfide and ammonium chloride corrosion and, in hot hydrogen service, the need to review materials for high-temperature hydrogen attack against current guidance. Crude unit risk depends on the crude slate, and Sumatran production and imported grades differ in sulfur, acid and salt content, so the assessment follows what is actually processed.",
+        "Units built decades ago tend to carry long inspection histories in mixed formats: early reports on paper, later ones in spreadsheets, recent ones in an inspection database. That history is valuable only if it can be tied to equipment tags and locations and graded for what each technique could have found. The study does that grading item by item and logs records that cannot be traced, rather than averaging good and doubtful data into one corrosion rate."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "dumai-palm-oil",
+      "h": "Palm oil terminals and oleochemical plants",
+      "p": [
+        "Vegetable oil storage looks benign beside crude and fuels, but it has failure modes of its own. Crude palm oil and its fractions are usually stored warm to keep them liquid, which puts heating coils, steam and condensate lines and insulated tank shells into service. Hot free fatty acids attack carbon steel, which is why fatty acid distillation and much other oleochemical equipment is built in stainless steel, and that stainless steel, once insulated in a salt-laden coastal climate, is exposed to external chloride stress corrosion cracking.",
+        "Consequence is different too. A palm oil release is not a fire and toxic hazard on the scale of a light hydrocarbon release, but at a waterfront site it is a serious environmental and commercial one, and the consequence model should say so instead of borrowing refinery categories that would score it as trivial.",
+        "These plants are not oil and gas businesses, so their pressure vessels and tanks are generally dealt with under the manpower ministry's occupational safety regulation and the owner's own procedures rather than through a Migas operating approval. The study records the statutory examinations that apply and works within them, using risk to decide where additional inspection effort, technique and coverage should go."
+      ]
+    },
+    {
+      "id": "dumai-haze",
+      "h": "Fire seasons, haze and when to plan field work",
+      "p": [
+        "Riau has a long history of forest and peatland fires, which tend to flare in drier spells early in the year and again through the middle months, and smoke haze has blanketed Dumai in bad years. Severity varies widely from year to year with rainfall and El Niño conditions, and the provincial authorities issue alerts when fire risk rises.",
+        "A remote RBI study is unaffected by haze, but the field work around it is not. Verification checks, insulation removal, scaffolding for close visual inspection and turnaround inspection scopes all depend on outdoor work, visibility and the health of the people doing it. The verification list is therefore issued with the regional fire season in mind, so the owner can schedule outdoor items in clearer months and hold a contingency for a bad season.",
+        "Fire water systems deserve a place in the piping programme for the same reason. Fire water mains are often buried or stand full of stagnant water for long periods, which invites microbiologically influenced corrosion and tuberculation, and a site that faces seasonal fire risk on its boundary has every reason to know their condition."
+      ]
+    },
+    {
+      "id": "dumai-study",
+      "h": "A remote study for two refinery sites on WIB",
+      "p": [
+        "Dumai and Sungai Pakning keep Western Indonesia Time, UTC+7, an hour and a half ahead of Hyderabad and twelve or thirteen hours ahead of Houston depending on the US season. Workshops are booked in the Riau late morning and early afternoon, inside the Indian working day, and calculations and drafting continue from Houston after the sites close. Because the two refineries keep separate records and teams, the study usually runs them as parallel workstreams that share one corrosion loop library and one register structure.",
+        "Documents come through a data room the operator controls, and records in Bahasa Indonesia are summarised under an arrangement agreed with the site engineers at the outset. The study needs no travel. Settlement survey readings, insulation condition, jetty line access, injection points and the condition of tank annular plates are listed for the refinery's inspectors or the inspection company the Kepala Teknik appoints, and their results return to the model before the inspection plan is issued."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+        ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"]
+      ]
+    },
+    {
+      "id": "dumai-approval",
+      "h": "Who decides",
+      "p": [
+        "For the refinery's oil and gas equipment, intervals are adopted by the organisation under the Kepala Teknik and approved by its inspection authority within the Migas process for equipment under a PLO; at a palm oil or oleochemical plant, the owner's own inspection authority and the statutory examiners decide. The study recommends and documents in both cases. Atlantis does not act as inspector of record and is not an approved inspection company under the Migas regulation.",
+        "Findings that fall outside what the construction code accepts are assessed by the owner's engineer, and the register takes in the result before the next interval is set."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API 510, API 570 and API 653",
+    "Permen ESDM 32/2021 (technical inspection and safety examination of oil and gas installations)",
+    "Minister of Manpower Regulation No. 37 of 2016 (pressure vessels and storage tanks)"
+  ],
+  "deliverables": [
+    "One register for Dumai and Sungai Pakning with site-specific corrosion rates and inspection effectiveness",
+    "Tank risk ranking that uses settlement, floor scan and cathodic protection data",
+    "Coke drum and coker heater inspection plans",
+    "Risk ranking for palm oil and oleochemical tanks and vessels within their statutory examinations",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Verification list timed around the regional fire season, and a data-gap log"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Delayed coking",
+    "Fuel depots and tank farms",
+    "Palm oil bulking terminals",
+    "Oleochemicals"
+  ],
+  "faqs": [
+    { "q": "Can Dumai and Sungai Pakning share one RBI model?", "a": "They can share a structure, a corrosion loop library and a register, which keeps the method consistent and makes reporting simpler. They should not share data. Each site's corrosion rates, inspection effectiveness and operating windows come from its own records, because two refineries of different ages and designs rarely corrode at the same rate even in nominally similar service." },
+    { "q": "How does peat ground affect tank inspection intervals?", "a": "Through settlement and soil-side corrosion. Differential and edge settlement distort floors, load the shell-to-bottom weld and change drainage, and acidic waterlogged peat attacks unprotected steel. Settlement history, floor scan coverage, cathodic protection readings and repair records set floor probability, and a worsening settlement trend becomes a reassessment trigger under API 653's conditions for risk-based internal intervals." },
+    { "q": "What should the plan focus on for the coke drums?", "a": "Thermal fatigue from repeated heating and quench cycles, which appears as shell bulging, cracking at circumferential welds and cracking at the skirt attachment. The plan draws on the drums' history of cycle times and quench practice and on earlier bulging surveys and crack examinations, and sets techniques and coverage able to track those mechanisms from one turnaround to the next." },
+    { "q": "Can RBI be used at a palm oil bulking terminal?", "a": "Yes, as an engineering tool for deciding where inspection effort should go. The terminal's pressure vessels and tanks remain subject to the statutory examinations that apply to them, which the study records and works within. Inside those limits, risk ranking helps decide which tanks to take out of service first, where heating coil and floor inspection matters most and which insulated stainless lines need checking for chloride cracking." },
+    { "q": "Does the haze season delay the study?", "a": "The study runs remotely and is not affected. What the haze season affects is field work: verification checks, insulation removal, scaffolding and turnaround inspection. The verification list is issued with the regional fire season in mind, so the operator can schedule outdoor items in clearer months and keep some slack for a bad year." },
+    { "q": "Will the co-processing unit being prepared at Dumai need its own assessment?", "a": "Yes. Co-processing used cooking oil changes what the hydrotreater and the equipment after it are exposed to, from water and carbon oxides formed in the reactor to organic acids and contaminants carried in with the bio-feed. The unit should enter the register for its new duty before the first co-processing run, with operating limits on the variables that drive the new risks and a rule that any step up in bio-feed share reopens the assessment." },
+    { "q": "Do we need someone from Atlantis at the refinery?", "a": "The study does not require it. Engineering work runs from a data room and video workshops, and the checks that need eyes on the plant, such as settlement readings, insulation condition, jetty lines and tank annular plates, go on a written list for the refinery's inspectors or its appointed inspection company. Their findings are fed into the register before the plan is issued." },
+    { "q": "Who approves the risk-based intervals?", "a": "At the refinery, the inspection authority within the organisation headed by the Kepala Teknik approves them, inside the Migas process for equipment under a PLO. At a palm oil or oleochemical plant, the owner's inspection authority decides alongside the statutory examiners. In both cases the study supplies the basis for each interval, the inspection effectiveness credited and the triggers for reassessment." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"],
+    ["/inspection/risk-based-inspection/cilacap", "RBI in Cilacap"],
+    ["/inspection/risk-based-inspection/balikpapan", "RBI in Balikpapan"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "RU II Dumai total capacity 170 MBPOD, units at Dumai and Sungai Pakning, both in Riau; third-largest refinery in Indonesia; supplies mainly the Sumbagut region and parts of Kalimantan; green coke among products", "url": "https://kpi.pertamina.com/en/ru/Dumai" },
+    { "fact": "RU II products include green coke; MFO LS and LSFO V-1250 exports", "url": "https://kpi.pertamina.com/en/profil-perusahaan/bisnis-kami" },
+    { "fact": "Pertamina preparing a unit at the Dumai refinery to co-process used cooking oil (Dumai and Balongan prepared for about 8,000 b/d of co-processed SAF)", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/102826-pertamina-produces-11-mil-liters-co-processed-saf-ahead-2027-mandate" },
+    { "fact": "Pelindo upgrading Dumai port for growing crude palm oil exports", "url": "https://www.thejakartapost.com/news/2020/02/06/pelindo-to-upgrade-dumai-belawan-ports-to-accommodate-growing-cpo-exports" },
+    { "fact": "Concentration of CPO export activity at Dumai port", "url": "https://ekonomi.bisnis.com/read/20200301/257/1207612/pemusatan-pelabuhan-ekspor-cpo-di-dumai-bikin-pengusaha-pening" },
+    { "fact": "Dumai chemical plant at Lubuk Gaung, Dumai, belongs to the Sinarmas and Cepsa joint venture; fatty alcohols from palm kernel oil and basic oleochemicals from palm oil and CPKO", "url": "https://chemicals.moeveglobal.com/en/about-us/international-presence/dumai-chemical-plant" },
+    { "fact": "Haze blankets Dumai in Riau during peat fires", "url": "https://www.eco-business.com/news/haze-blankets-dumai-and-pelalawan-riau" },
+    { "fact": "Riau fire season begins with early-year dry spell", "url": "https://news.mongabay.com/2024/03/sumatra-firefighters-on-alert-as-burning-heralds-start-of-riau-dry-season/" },
+    { "fact": "Riau braces for fires as rainy season nears end (February 2026)", "url": "https://www.thejakartapost.com/indonesia/2026/02/04/riau-braces-for-more-forest-fires-as-rainy-season-nears-end" },
+    { "fact": "Mid-year wildfires across Sumatra including Riau (July 2025)", "url": "https://www.thejakartapost.com/indonesia/2025/07/23/wildfires-sweep-through-multiple-regions-in-sumatra" },
+    { "fact": "Riau and South Sumatra brace for fires as El Nino looms (April 2026)", "url": "https://www.thejakartapost.com/indonesia/2026/04/30/riau-south-sumatra-brace-for-forest-fires-as-el-nio-looms" },
+    { "fact": "Riau issues emergency alert for wildfires as dry season begins", "url": "https://www.thestar.com.my/news/regional/2020/02/13/riau-in-sumatra-issues-emergency-alert-for-wildfires-as-dry-season-begins" },
+    { "fact": "Permenaker 37/2016 covers pressure vessels and storage tanks", "url": "https://pasal.id/peraturan/permen/permenaker-no-37-tahun-2016" }
+  ]
+}

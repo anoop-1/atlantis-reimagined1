@@ -18,7 +18,7 @@ export default function InventoryManagementErpForSingapore() {
         "IMDA InvoiceNow PEPPOL e-invoicing is built in. Multi-warehouse routing covers Jurong Island (multiple operator-site warehouses) / Tuas / Sembawang / Changi logistics flows with Singapore Customs TradeNet integration.",
       ]}
       useCases={[
-        { useCase: "Jurong Island operator-tenant contractor", body: "Example: a Jurong-Island-access inspection firm tracks consumables across multiple operator-site warehouses (ExxonMobil JIE, Shell Bukom, PCS, SRC) with JTC pass-aware logistics." },
+        { useCase: "Jurong Island operator-tenant contractor", body: "Example: a Jurong-Island-access inspection firm tracks consumables across multiple operator-site warehouses (ExxonMobil JIE, Aster Bukom, PCS, SRC) with JTC pass-aware logistics." },
         { useCase: "Sembcorp/Keppel marine consumables", body: "Example: a Tuas marine-yard contractor tags every consumable lot to IACS classification-society-specific requirements (LR / DNV / ABS / BV / ClassNK)." },
         { useCase: "ST Engineering Aerospace MRO supplier", body: "Example: a Changi aerospace contractor manages aerospace consumables with per-aircraft serial-number traceability." },
         { useCase: "Tuas BCA-graded construction-fabrication", body: "Example: a Tuas contractor tracks BCA W01/W02/W04-graded consumables for Singapore construction-fabrication scopes with PUB-Sand permit-aware import documentation." },
@@ -40,7 +40,7 @@ export default function InventoryManagementErpForSingapore() {
         "Jurong Island JTC / EMA / NEA / EDB access-permit integration",
       ]}
       integrations={[
-        "Shell Bukom Pulau Ular vendor portal",
+        "Aster Bukom Pulau Ular vendor portal",
         "Sembcorp Industries vendor portal",
         "Keppel Offshore & Marine vendor portal",
         "ST Engineering Aerospace vendor portal",
@@ -55,7 +55,7 @@ export default function InventoryManagementErpForSingapore() {
         { question: "Is the data hosted inside Singapore?", answer: "Yes. By default the platform hosts on AWS Asia-Pacific (Singapore) ap-southeast-1 for PDPA 2012 compliance. For MTCS Level 3 sovereign-cloud certification, in-country hosting is available via Singtel DC or M1 Cloud." },
         { question: "Does the module handle InvoiceNow PEPPOL e-invoicing?", answer: "Yes. IMDA InvoiceNow PEPPOL e-invoicing has been mandatory for GST-registered businesses since November 2025 Phase 2. Atlantis NDT ERP generates PEPPOL BIS Billing 3.0 UBL XML invoices via PEPPOL Access Points." },
         { question: "Does the system track radioactive sources under NEA RPNS?", answer: "Yes. Ir-192 / Se-75 sources are tracked with NEA Radiation Protection and Nuclear Safety-aligned chain-of-custody from import through disposal, half-life-driven decay calculations, shielding/transport-container assignments, and wipe-test results." },
-        { question: "Can the system handle Jurong Island access permits?", answer: "Yes. JTC Jurong Island Pass, ExxonMobil JIE access pass, Shell Bukom Pulau Ular gate pass, and individual operator-site permits are tracked per inspector per facility, with auto-alert for access-permit-expiry before mobilization." },
+        { question: "Can the system handle Jurong Island access permits?", answer: "Yes. JTC Jurong Island Pass, ExxonMobil JIE access pass, Aster Bukom Pulau Ular gate pass, and individual operator-site permits are tracked per inspector per facility, with auto-alert for access-permit-expiry before mobilization." },
         { question: "Does the inventory module support Singapore Customs TradeNet?", answer: "Yes. Singapore Customs TradeNet HS-code import data integrates with internal inventory receipts so material imported through PSA Singapore, Jurong Port, Pasir Panjang Terminal or Tuas Port is automatically reconciled against PO and customs documentation." },
               ]}
     />

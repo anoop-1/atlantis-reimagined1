@@ -11,15 +11,15 @@ const data: ErpTripleCrossProps = {
   "lat": 1.3521,
   "lng": 103.8198,
   "title": "Email Marketing Software for NDT Inspection Companies in Singapore",
-  "desc": "Email Marketing ERP module for NDT inspection companies in Singapore, Singapore. Aligned to MOM CERT certification, ASNT / ISO 9712 / PCN / CSWIP in parallel, with operator flow-down for ExxonMobil Singapore (Jurong Island) and Shell Bukom and Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations / EMA (Energy Market Authority) compliance support. Demo: info@atlantisndt.com.",
+  "desc": "Email Marketing ERP module for NDT inspection companies in Singapore, Singapore. Aligned to MOM CERT certification, ASNT / ISO 9712 / PCN / CSWIP in parallel, with operator flow-down for ExxonMobil Singapore (Jurong Island) and Aster Bukom and Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations / EMA (Energy Market Authority) compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "NDT inspection companies operating in Singapore, Singapore face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how email marketing actually has to work on the ground. Singapore sits at the heart of the one of the world's densest petrochemical inspection workloads at Jurong Island. The dominant industrial cluster — Jurong Island integrated petrochemical complex — sets the rhythm: MOM CERT certification cycles and compressed island-access shutdown windows.",
   "introPara2": "For a mid-size Singapore NDT inspection contractor, email marketing is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. A single email marketing gap on the wrong job can cost the contract and damage the relationship with a major operator. Atlantis NDT ERP's Email Marketing module is purpose-configured for the codes, operators and regulators that matter in Singapore — not a generic accounting tool bolted to a spreadsheet of inspection records. The module helps inspection businesses in Singapore run targeted technical email campaigns to inspection managers and asset-integrity engineers, while staying audit-ready against Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations and EMA (Energy Market Authority) surveillance cycles at all times.",
-  "introPara3": "Configured for Singapore — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Singapore (Jurong Island), Shell Bukom, Shell Pulau Ular, Singapore Petroleum Company, once uploaded — compliance templates against MOM Workplace Safety and Health Act, WSH (NDT Inspection) Regulations, API 510 / 570 / 653, ASME B31.3, and the audit frameworks that Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations, EMA (Energy Market Authority), NEA (National Environment Agency) actually use. Field-data capture is offline-capable for Singapore project sites, multi-language reporting supports Singapore-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore NDT inspection company and a 200-person multinational both run on the same configuration baseline.",
+  "introPara3": "Configured for Singapore — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Singapore (Jurong Island), Aster Bukom, Aster Pulau Ular, Singapore Petroleum Company, once uploaded — compliance templates against MOM Workplace Safety and Health Act, WSH (NDT Inspection) Regulations, API 510 / 570 / 653, ASME B31.3, and the audit frameworks that Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations, EMA (Energy Market Authority), NEA (National Environment Agency) actually use. Field-data capture is offline-capable for Singapore project sites, multi-language reporting supports Singapore-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Singapore NDT inspection company and a 200-person multinational both run on the same configuration baseline.",
   "features": [
     "Email Marketing module configured for the Singapore inspection-services market — operator flow-down, regulator framework and method library all pre-loaded",
     "Multi-method scope (UT, RT, MT, PT, ET, VT, PAUT, TOFD, LRUT, ECA) tied to email marketing workflows",
     "MOM CERT certification, ASNT / ISO 9712 / PCN / CSWIP in parallel certification cross-mapping built in",
-    "Operator-specific templates and acceptance criteria for ExxonMobil Singapore (Jurong Island), Shell Bukom, Shell Pulau Ular",
+    "Operator-specific templates and acceptance criteria for ExxonMobil Singapore (Jurong Island), Aster Bukom, Aster Pulau Ular",
     "Singapore regulator compliance dashboard for Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations, EMA (Energy Market Authority), NEA (National Environment Agency)",
     "Audit-ready PDF compliance package for any client / auditor in 30 seconds",
     "Field-data capture offline-capable for Singapore project sites with intermittent connectivity",
@@ -30,8 +30,8 @@ const data: ErpTripleCrossProps = {
   ],
   "operators": [
     "ExxonMobil Singapore (Jurong Island)",
-    "Shell Bukom",
-    "Shell Pulau Ular",
+    "Aster Bukom",
+    "Aster Pulau Ular",
     "Singapore Petroleum Company",
     "PCS (Petrochemical Corporation of Singapore)",
     "Sumitomo Chemical",
@@ -47,21 +47,21 @@ const data: ErpTripleCrossProps = {
     "SAC (Singapore Accreditation Council)"
   ],
   "painPoints": [
-    "Email Marketing for NDT inspection companies in Singapore tracked in spreadsheets — always behind operator-portal updates from ExxonMobil Singapore (Jurong Island) and Shell Bukom",
+    "Email Marketing for NDT inspection companies in Singapore tracked in spreadsheets — always behind operator-portal updates from ExxonMobil Singapore (Jurong Island) and Aster Bukom",
     "Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations audit preparation for email marketing workflows takes 80+ hours per cycle and finds gaps too late to remediate",
     "Operator flow-down from ExxonMobil Singapore (Jurong Island) updates monthly — internal email marketing procedures lag by weeks, putting NDT inspection company contracts at risk",
-    "Customer-format email marketing reports for ExxonMobil Singapore (Jurong Island), Shell Bukom, Shell Pulau Ular require manual reformatting on every submission — margin-eating rework"
+    "Customer-format email marketing reports for ExxonMobil Singapore (Jurong Island), Aster Bukom, Aster Pulau Ular require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Singapore (Jurong Island) and Shell Bukom runs Email Marketing in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
-    "Example: an inspection contractor in Singapore keeps client-specific quality requirements from Shell Pulau Ular as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Singapore (Jurong Island) and Aster Bukom runs Email Marketing in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Singapore keeps client-specific quality requirements from Aster Pulau Ular as controlled procedures, and runs each revision through review and approval before crews work to it.",
     "Example: an NDT inspection company in Singapore with crews on several Singapore project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
     "Example: an NDT inspection company in Singapore preparing for Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [
       "Is Email Marketing configured for NDT inspection companies operating in Singapore?",
-      "Yes. The Email Marketing module is pre-loaded with the codes and operator flow-downs that NDT inspection companies in Singapore work with daily: MOM Workplace Safety and Health Act, WSH (NDT Inspection) Regulations, API 510 / 570 / 653, ASME B31.3. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Singapore (Jurong Island), Shell Bukom, Shell Pulau Ular, Singapore Petroleum Company — once your team uploads them. The module is aligned to MOM CERT certification, ASNT / ISO 9712 / PCN / CSWIP in parallel. Configuration is done — your NDT inspection company team is productive on day one, not after six months of customisation."
+      "Yes. The Email Marketing module is pre-loaded with the codes and operator flow-downs that NDT inspection companies in Singapore work with daily: MOM Workplace Safety and Health Act, WSH (NDT Inspection) Regulations, API 510 / 570 / 653, ASME B31.3. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Singapore (Jurong Island), Aster Bukom, Aster Pulau Ular, Singapore Petroleum Company — once your team uploads them. The module is aligned to MOM CERT certification, ASNT / ISO 9712 / PCN / CSWIP in parallel. Configuration is done — your NDT inspection company team is productive on day one, not after six months of customisation."
     ],
     [
       "Which Singapore regulators does Email Marketing align with?",
@@ -69,7 +69,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Can NDT inspection companies in Singapore integrate Email Marketing with operator-specific portals such as ExxonMobil Singapore (Jurong Island)?",
-      "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major Singapore operators such as ExxonMobil Singapore (Jurong Island), Shell Bukom, Shell Pulau Ular, Singapore Petroleum Company — as controlled documents; internal email marketing procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
+      "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major Singapore operators such as ExxonMobil Singapore (Jurong Island), Aster Bukom, Aster Pulau Ular, Singapore Petroleum Company — as controlled documents; internal email marketing procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
     ],
     [
       "What does Email Marketing cost for an NDT inspection company in Singapore?",
