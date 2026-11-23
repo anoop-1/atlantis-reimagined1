@@ -49,7 +49,7 @@
    "h": "Owner's CAS and owner's CAP for passenger ships calling at Barcelona",
    "p": [
     "Neither official condition assessment was designed with ferries or cruise ships in mind: the IMO scheme deals with a dwindling group of elderly oil tankers, and owners commission class CAPs chiefly for tankers and bulk carriers that charterers' vetting departments scrutinise. Passenger ship operators still want a graded, measured view of each ship, for fleet planning, for refit budgets and for the day a ship is sold or re-chartered. When they ask for an owner's CAS or owner's CAP, CVIP is what they receive: survey to a written plan, thickness at numbered points, coating condition graded, crack detection at known fatigue details, machinery assessed by vibration analysis and thermography, and one report setting out the findings by priority.",
-    "The authority stays where it was. The programme yields no Statement of Compliance and no class rating, and it does not take the place of flag, class or port state inspections, including the EU regime for ro-pax ferries in regular service. Credit for gauging at a class survey needs a measuring firm with the society's UR Z17 approval. Atlantis is in the process of obtaining it, with ABS, DNV and Lloyd's Register each auditing the company, so programme readings in Barcelona inform the owner's decisions and are kept apart from class surveys. Crack detection results are likewise the owner's NDT records, not class approvals."
+    "The authority stays where it was. The programme yields no Statement of Compliance and no class rating, and it does not take the place of flag, class or port state inspections, including the EU regime for ro-pax ferries in regular service. Credit for gauging at a class survey needs a measuring firm that the society has accepted under UR Z17, a status Atlantis is in the process of obtaining with ABS, DNV and Lloyd's Register each auditing the company, so programme readings in Barcelona inform the owner's decisions and are kept apart from class surveys. Crack detection results are likewise the owner's NDT records, not class approvals."
    ]
   },
   {
@@ -95,7 +95,7 @@
   "Sister ferries on alternating sailings"
  ],
  "codes": [
-  "IACS UR Z7 – Hull classification surveys and coating condition terms",
+  "IACS UR Z7 – Hull surveys for classification, including coating condition definitions",
   "Directive (EU) 2017/2110 – Inspection system for ro-ro passenger ships and high-speed craft in regular service",
   "MARPOL Annex VI regulation 14 – Mediterranean SOx emission control area limits",
   "ISO 20816-1 – Machine vibration: general measurement and evaluation guidelines",
@@ -113,7 +113,7 @@
  "faqs": [
   {
    "q": "Is CVIP in Barcelona the same as CAS or CAP?",
-   "a": "It shares their method but not their standing. It examines, gauges, grades and reports on the whole ship in the manner of the flag-verified CAS and a society's CAP, which is where the names owner's CAS and owner's CAP come from. Because it is commissioned for the owner, it ends in the owner's report, not in a flag Statement of Compliance or a class rating; any official scheme a charterer requires is booked with class."
+   "a": "It shares their method but not their standing. It examines, gauges, grades and reports on the whole ship in the manner of the flag-verified CAS and a society's CAP, and that likeness is why owners say owner's CAS or owner's CAP. Because it is commissioned for the owner, it ends in the owner's report, not in a flag Statement of Compliance or a class rating; any official scheme a charterer requires is booked with class."
   },
   {
    "q": "Can programme visits fit cruise turnaround days without disturbing embarkation?",
