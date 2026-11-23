@@ -1,0 +1,15 @@
+{
+  "slug": "palmdale",
+  "lat": 34.58,
+  "lng": -118.12,
+  "localContext": "Palmdale and Lancaster form the Antelope Valley's aerospace base. Air Force Plant 42 hosts Northrop Grumman's B-21 Raider assembly and Lockheed Martin's Skunk Works, Edwards Air Force Base and NASA's Armstrong Flight Research Center fly test aircraft to the northeast, and the Mojave Air and Space Port lies beyond in Kern County. Machine shops, composite fabricators and tooling suppliers support those programmes, while mining, utilities and construction add steel work. Ultrasonic, penetrant, eddy current and radiographic methods lead local demand.",
+  "certPathwayNote": "Antelope Valley employers certify technicians under their own written practice. Atlantis builds those practices on ASNT SNT-TC-1A and aligns them with the prime contractor's flow-down and, for Nadcap-accredited NDT shops, AC7114; the employer's Level III confirms the fit against each contract. Classified programmes add citizenship and security requirements. ASNT central certification is the portable alternative.",
+  "salaryFrom": "los-angeles",
+  "siblings": [
+    "los-angeles",
+    "el-segundo",
+    "bakersfield",
+    "long-beach",
+    "san-diego"
+  ]
+}

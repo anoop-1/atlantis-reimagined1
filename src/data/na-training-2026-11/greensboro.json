@@ -1,0 +1,15 @@
+{
+  "slug": "greensboro",
+  "lat": 36.07,
+  "lng": -79.79,
+  "localContext": "Greensboro sits at the centre of North Carolina's Piedmont Triad. Honda Aircraft builds the HondaJet at Piedmont Triad International Airport, HAECO Americas maintains airline fleets there, and Boom Supersonic and JetZero have chosen the airport campus for aircraft factories. Petroleum product pipelines and terminal tank farms serve the city, Duke Energy's Belews Creek Steam Station runs nearby, and bus, truck-component and steel fabrication shops fill out the base. Work runs to AWS D1.1, API 653, ASME and aerospace customer specifications, so PT, ET, UT, MT and VT all see regular use.",
+  "certPathwayNote": "Triad employers certify technicians under their own written practices, usually built on ASNT SNT-TC-1A. Aerospace manufacturers and repair stations align that document to their customers' flow-down requirements and, where they hold Nadcap NDT accreditation, the AC7114 criteria. Pipeline, terminal and utility owners add contractor qualification rules. A course does not certify anyone; ASNT central certification is a portable alternative.",
+  "salaryFrom": "raleigh",
+  "siblings": [
+    "raleigh",
+    "charlotte",
+    "lynchburg",
+    "richmond",
+    "wilmington-north-carolina"
+  ]
+}

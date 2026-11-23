@@ -1,0 +1,15 @@
+{
+  "slug": "melbourne-florida",
+  "lat": 28.08,
+  "lng": -80.61,
+  "localContext": "Melbourne anchors the Brevard County stretch of Florida's Space Coast. L3Harris Technologies is headquartered in the city, Embraer assembles executive jets there, and Northrop Grumman and Collins Aerospace run engineering and manufacturing sites near Orlando Melbourne International Airport. To the north, Kennedy Space Center and Cape Canaveral Space Force Station host launch providers and their contractors, and Port Canaveral adds marine work. Inspection centers on light alloys, composites, welded pressure systems and audited aerospace records, following customer specifications, AWS D17.1 and ASME codes.",
+  "certPathwayNote": "Brevard employers certify technicians under written practices built on ASNT SNT-TC-1A, then add the quality requirements that aerospace primes, launch customers and defense contracts flow down, sometimes including Nadcap audits. The employer's Level III reconciles those layers. Technicians who want a credential independent of one employer can pursue ASNT central certification, which Atlantis prepares candidates for.",
+  "salaryFrom": "orlando",
+  "siblings": [
+    "orlando",
+    "jacksonville",
+    "tampa",
+    "miami",
+    "savannah"
+  ]
+}

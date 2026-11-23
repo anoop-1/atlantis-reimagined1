@@ -1,0 +1,15 @@
+{
+  "slug": "harrisburg",
+  "lat": 40.27,
+  "lng": -76.88,
+  "localContext": "Harrisburg's inspection work comes from the Susquehanna Valley around it. Constellation runs the Peach Bottom nuclear station in York County and is preparing the former Three Mile Island Unit 1, now the Crane Clean Energy Center, for a planned restart; Talen's Susquehanna station lies upriver. BAE Systems builds combat vehicles in York, Letterkenny Army Depot rebuilds equipment near Chambersburg, Norfolk Southern's Enola Yard sits across the river, and turnpike and PennDOT bridges cross the valley. Work follows ASME Section XI, ASME B31, AWS D1.1 and D1.5, and Army and prime contractor specifications.",
+  "certPathwayNote": "Central Pennsylvania employers certify NDT personnel under their own written practices, usually based on ASNT SNT-TC-1A. Nuclear in-service inspection adds performance demonstration for much ultrasonic work and the utility's own access and quality programs, while defense manufacturers apply Army and prime contractor flow-down. A training course is not certification, and ASNT central certification remains a portable alternative for technicians who change employers.",
+  "salaryFrom": "allentown",
+  "siblings": [
+    "allentown",
+    "philadelphia",
+    "pittsburgh",
+    "baltimore",
+    "erie"
+  ]
+}

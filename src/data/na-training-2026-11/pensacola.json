@@ -1,0 +1,15 @@
+{
+  "slug": "pensacola",
+  "lat": 30.42,
+  "lng": -87.22,
+  "localContext": "Pensacola's NDT work centers on aviation. Naval Air Station Pensacola hosts naval aviation training commands and the Blue Angels, NAS Whiting Field in Milton trains student pilots, and ST Engineering performs heavy airliner maintenance in hangars at Pensacola International Airport. Chemical and paper plants along the Escambia River, Florida Power & Light generation and the port add process and marine inspection, and Airbus and the Mobile and Pascagoula shipyards lie an hour west. Aircraft work follows manufacturers' NDT manuals and FAA or Navy requirements, while plant work follows API and ASME codes.",
+  "certPathwayNote": "Pensacola employers certify technicians under written practices based on ASNT SNT-TC-1A. FAA repair stations layer aircraft-manufacturer and operator requirements on top, military aircraft contractors add the qualification rules their contracts specify, and plant owners impose contractor qualification programs. Technicians without a sponsoring employer can pursue ASNT central certification, which Atlantis prepares candidates for.",
+  "salaryFrom": "mobile",
+  "siblings": [
+    "mobile",
+    "pascagoula",
+    "montgomery",
+    "jacksonville",
+    "tampa"
+  ]
+}

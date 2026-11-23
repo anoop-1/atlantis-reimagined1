@@ -1,0 +1,15 @@
+{
+  "slug": "fort-wayne",
+  "lat": 41.08,
+  "lng": -85.14,
+  "localContext": "Fort Wayne is northeast Indiana's steel and parts-manufacturing center. Steel Dynamics is headquartered here, with its Butler hot strip mill and Columbia City structural and rail mill nearby, and GM builds full-size pickups at Fort Wayne Assembly in Roanoke. Forge, foundry, machining and fabrication suppliers, defense electronics firms, an Air National Guard fighter wing, utilities and pipelines add more inspection work. Parts follow customer quality manuals, structural welds AWS D1.1 and pressure work ASME codes, so most technicians start with VT and MT, add PT and UT, and train while employed.",
+  "certPathwayNote": "Fort Wayne employers certify technicians under their own written practice based on ASNT SNT-TC-1A; a course provides training, not certification. Automotive customers and defense primes may add requirements of their own, which the employer's Level III builds into the program. ASNT central certification (ASNT 9712 or the ASNT NDT Level III exams) is the portable alternative, and Atlantis prepares candidates for it.",
+  "salaryFrom": "indianapolis",
+  "siblings": [
+    "indianapolis",
+    "toledo",
+    "detroit",
+    "grand-rapids",
+    "lima-ohio"
+  ]
+}

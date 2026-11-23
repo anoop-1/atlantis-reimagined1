@@ -1,0 +1,15 @@
+{
+  "slug": "everett",
+  "lat": 47.98,
+  "lng": -122.2,
+  "localContext": "Everett is the centre of Snohomish County's aerospace economy. Boeing assembles widebody airliners at its Paine Field factory, and machine shops, composite fabricators, surface-finishing plants and aircraft maintenance providers supply and support that work. Naval Station Everett homeports Navy surface ships, the Port of Everett handles heavy and oversized cargo, and four refineries sit within driving distance in Skagit and Whatcom counties. Aerospace parts are inspected to prime and customer specifications, so penetrant, eddy current and ultrasonic methods carry much of the load.",
+  "certPathwayNote": "Everett-area employers certify technicians under their own written practice. Atlantis builds those practices on ASNT SNT-TC-1A and aligns them with the aerospace prime's purchase-order flow-down and, for Nadcap-accredited NDT shops, the AC7114 audit criteria; the employer's Level III confirms that fit. Refinery and naval contractors add owner and contract rules. ASNT central certification is the portable alternative.",
+  "salaryFrom": "seattle",
+  "siblings": [
+    "seattle",
+    "tacoma",
+    "bremerton",
+    "spokane",
+    "portland"
+  ]
+}

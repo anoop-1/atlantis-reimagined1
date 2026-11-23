@@ -1,0 +1,15 @@
+{
+  "slug": "augusta",
+  "lat": 33.47,
+  "lng": -81.97,
+  "localContext": "Augusta's NDT market is anchored by nuclear power. Southern Nuclear's Plant Vogtle in Burke County runs four units, whose refueling outages draw contract technicians for in-service inspection, and the Savannah River Site lies across the river in South Carolina. In and around the city, a large paperboard mill, Nutrien's nitrogen fertilizer plant, specialty chemical plants and aircraft engine repair add maintenance and turnaround work. Plant inspection follows ASME Section XI, API inspection codes and ASME construction codes, so ultrasonic, visual, magnetic particle and penetrant skills are in steady demand.",
+  "certPathwayNote": "Industrial employers around Augusta certify technicians under written practices based on ASNT SNT-TC-1A. Nuclear plant work adds the owner's requirements, including ASNT CP-189 qualification, performance demonstration for ultrasonic examination and Appendix B quality programs, which the employer manages. Technicians without a sponsor can pursue ASNT central certification, which Atlantis prepares candidates for.",
+  "salaryFrom": "aiken",
+  "siblings": [
+    "aiken",
+    "columbia-south-carolina",
+    "atlanta",
+    "savannah",
+    "greenville-south-carolina"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "bremerton",
+  "lat": 47.57,
+  "lng": -122.63,
+  "localContext": "Bremerton is a Navy town. Puget Sound Naval Shipyard and Intermediate Maintenance Facility maintains, modernises and inactivates nuclear-powered carriers and submarines, and Naval Base Kitsap spans the Bremerton waterfront, the submarine base at Bangor and the undersea warfare centre at Keyport. Around them work ship repair contractors, fabricators, machine shops and the Washington State Ferries maintenance operation. Navy work runs to NAVSEA technical publications and contract requirements; commercial marine and structural work follows classification rules and AWS codes.",
+  "certPathwayNote": "The shipyard qualifies its own inspectors under its internal Navy programme. Contractors and suppliers certify technicians under their own written practice based on ASNT SNT-TC-1A, and the employer's Level III reconciles it with NAVSEA personnel requirements flowed down in the contract. ASNT central certification gives individuals a credential that is not tied to one employer.",
+  "salaryFrom": "seattle",
+  "siblings": [
+    "tacoma",
+    "seattle",
+    "everett",
+    "portland",
+    "richland"
+  ]
+}
