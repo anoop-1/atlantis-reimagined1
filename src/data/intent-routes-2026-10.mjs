@@ -22,6 +22,7 @@
 
 import { US_TRAINING_PAGES, US_TRAINING_OWNER } from "./us-training-2026-11.mjs"; // 2026-11-10 US training pages
 import { US_NO_RT_PATHS } from "./us-conventional-ndt-2026-11/rt-paths.mjs"; // 2026-11-14: US RT city pages (no RT performed in the US) get no RT service block
+import { NAS410_CITY_PAGES } from "./nas-410-clarification-2026-11.mjs"; // 2026-11-23 §85: aerospace city pages carry their own SNT-TC-1A vs NAS 410 section
 
 export const ROUTE_MARKER = 'data-intent-route="2026-10"';
 
@@ -148,6 +149,9 @@ function ruleFor(p) {
     const slug = p.slice("/ndt-training-".length);
     const links = [[US_TRAINING_OWNER, "NDT training in the USA: courses, published US fees, Register & Buy Now"], ["/snt-tc-1a-eligibility", "Check your SNT-TC-1A eligibility"], L.practical, L.tests];
     if (CITY_HUBS[slug]) links.push([`/inspection-services-${slug}`, `NDT inspection services in ${CITY_HUBS[slug]}`]);
+    // 2026-11-23 §85 (owner: researched sections on aerospace cities, a short note elsewhere): the other US training pages
+    // link the national comparison. Anchor text names no NAS 410 (this module is bundled; preflight 4b).
+    if (!NAS410_CITY_PAGES.includes(p)) links.push(["/blog/nas-410-vs-snt-tc-1a", "Aerospace or aviation work? How SNT-TC-1A compares"]);
     return block("us-training", `NDT training and certification from ${usPlace}`,
       `There is no Atlantis classroom in ${usPlace}. You study the theory online at your own pace, practise in the Practical NDT simulator, and complete hands-on training and the practical examination at your employer's facility, under a written practice built on ASNT SNT-TC-1A. The published US fees are on this page, and Register & Buy Now opens the course on the Atlantis portal.`,
       links);

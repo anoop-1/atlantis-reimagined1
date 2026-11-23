@@ -188,6 +188,8 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
 // page names it, and the claims gate still fails on any NAS 410 offer.
 {
   const { NAS410_PAGES, NAS410_LINK_PAGES, NAS410_DOC_PAGES, isNas410Allowed, stripNas410Links } = await import('../src/data/nas-410-clarification-2026-11.mjs');
+  // 2026-11-23 (§85): city explainer sections on NAS410_CITY_PAGES (allowed through isNas410Allowed); their React
+  // copy loads as lazy chunks named "nas410--<page key>-HASH.js" (src/components/Nas410CityBlock.tsx).
   const NAS = /\bNAS[ -]?410\b|\bNas ?410\b/;
   const slugAlt = NAS410_PAGES.map((p) => p.replace('/blog/', '')).join('|');
   // Links to the clarification pages, their content JSON and preload hints are not "retired" links.
@@ -223,7 +225,7 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
   const assetDir = join(DIST, 'assets');
   const keyOf = (p) => p.replace(/^\//, '').replace(/\//g, '__');
   const chunks = existsSync(assetDir)
-    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && ![...NAS410_PAGES, ...NAS410_DOC_PAGES].some((p) => n.startsWith(keyOf(p) + '-'))
+    ? readdirSync(assetDir).filter((n) => n.endsWith('.js') && !n.startsWith('nas410--') && ![...NAS410_PAGES, ...NAS410_DOC_PAGES].some((p) => n.startsWith(keyOf(p) + '-'))
       && NAS.test(stripPrefixes(stripAllowed(readFileSync(join(assetDir, n), 'utf-8')))))
     : [];
   add('No NAS 410 named outside the clarification pages', named.length === 0 && chunks.length === 0,

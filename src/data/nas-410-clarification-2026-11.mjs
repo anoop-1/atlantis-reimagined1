@@ -17,7 +17,8 @@
  *   - anywhere on NAS410_PAGES;
  *   - on NAS410_LINK_PAGES, in the short link block (src/data/next-steps-2026-10.json) that points
  *     readers to the two pages;
- *   - on any page, only as the text of a link to one of NAS410_PAGES (related-reading blocks).
+ *   - on any page, only as the text of a link to one of NAS410_PAGES (related-reading blocks);
+ *   - on NAS410_DOC_PAGES (audit documentation, §80) and NAS410_CITY_PAGES (city explainer sections, §85).
  * Everywhere else the site still names no NAS 410.
  */
 export const NAS410_PAGES = [
@@ -52,8 +53,24 @@ export const NAS410_DOC_PAGES = [
     .map((c) => `/consulting/nas-410-audit-documentation-${c}`),
 ];
 
+/**
+ * 2026-11-23 (owner, CLAUDE.md §85): "ASNT-SNT-TC-1A Vs. NAS 410 explainer for all target cities"; scope chosen
+ * by the owner: researched sections on aerospace/aviation city pages, a short note (a link) elsewhere.
+ * US training city pages that carry a researched "SNT-TC-1A vs NAS 410" section
+ * (src/data/nas410-city-2026-11/, scripts/nas410-city-2026-11.mjs). EXPLANATION ONLY: Atlantis provides no
+ * NAS 410 training, certification, examinations or Responsible Level 3; the founder is not NAS 410 Level 3.
+ * Must equal the section files (the build guard asserts it).
+ */
+export const NAS410_CITY_PAGES = [
+  'wichita', 'seattle', 'everett', 'spokane', 'phoenix', 'tucson', 'huntsville', 'dallas', 'fort-worth', 'san-diego',
+  'los-angeles', 'long-beach', 'el-segundo', 'palmdale', 'east-hartford', 'cincinnati', 'dayton', 'indianapolis',
+  'north-charleston', 'savannah', 'greenville-south-carolina', 'salt-lake-city', 'ogden', 'tulsa', 'oklahoma-city',
+  'san-antonio', 'melbourne-florida', 'jacksonville', 'mobile', 'miami', 'atlanta', 'memphis', 'cedar-rapids',
+  'rockford', 'st-louis', 'colorado-springs', 'denver',
+].map((c) => `/ndt-training-${c}`);
+
 const norm = (p) => String(p || '').replace(/\/+$/, '') || '/';
-const ALLOWED = new Set([...NAS410_PAGES, ...NAS410_LINK_PAGES, ...NAS410_DOC_PAGES]);
+const ALLOWED = new Set([...NAS410_PAGES, ...NAS410_LINK_PAGES, ...NAS410_DOC_PAGES, ...NAS410_CITY_PAGES]);
 export const isNas410Page = (p) => NAS410_PAGES.includes(norm(p));
 export const isNas410Allowed = (p) => ALLOWED.has(norm(p));
 

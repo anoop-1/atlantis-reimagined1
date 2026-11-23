@@ -103,6 +103,7 @@ import { applyUsConventionalRoutes, applyUsConventionalHubRoute, assertUsConvent
 import { applyUsIndustryRoutes, applyUsIndustryHubRoute, applyUsIndustryStateHubRoute, assertUsIndustryClean } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17 owner: US MT/PT/UT pages by industry and by job (39 rewritten, 17 new industry, 11 job)
 import { applyAuditCwiRoutes, assertAuditCwiClean } from './audit-cwi-2026-11.mjs'; // 2026-11-18 owner: Level III audit-support pages (ASME, NBIC R, maritime class approval, NAS 410 documentation) + 6-day AWS CWI exam-prep pages
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
+import { applyNas410City, assertNas410CityClean } from './nas410-city-2026-11.mjs'; // 2026-11-23 §85: SNT-TC-1A vs NAS 410 sections on US aerospace training city pages
 import { applyIntentRoute, assertIntentRoutesClean, intentRouteStats } from './intent-routes-2026-10.mjs'; // 2026-10-24 owner: reading pages link to the product their readers buy next
 import { applyCwiTrainingBlock, assertCwiTrainingBlockClean } from './cwi-us-block-2026-11.mjs'; // 2026-11-20 owner: AWS CWI section on US training pages + training hubs
 import { applyDownloadsRoute, assertDownloadsClean, freeDownloadsStats } from './free-downloads-2026-10.mjs'; // 2026-10-24 owner: free Excel report templates + Level II practice PDFs + custom-templates quotation CTA
@@ -14212,6 +14213,7 @@ assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links b
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 assertTrainingConversionClean(BUILT_PATHS); // 2026-10-18: FAQ + eligibility pages built, bar targets built, no prices/names
 assertGeoDepthClean(BUILT_PATHS); // 2026-10-24: depth blocks pass the content rules, link only to built pages
+assertNas410CityClean(BUILT_PATHS); // 2026-11-23 §85: explanation only, page list = NAS410_CITY_PAGES, links built
 assertWave17(BUILT_PATHS); // 2026-10-26: every wave 17 path is a built page
 assertWave18(BUILT_PATHS); // 2026-11-07: every wave 18 path is a built page
 assertWave19(BUILT_PATHS); // 2026-11-17: every wave 19 path is a built page
@@ -14458,6 +14460,7 @@ routes.forEach(route => {
     route = ensureMainLayout(route); // 2026-10-25: bare <article>/<section> bodies get the site header + <main> (116 sitemap pages lacked it)
     route = applyApiGuideLibrary(route); // 2026-10-25 §64: API guide sibling links + owner-page library block
     route = applyGeoDepth(route); // 2026-10-24: researched local depth block (before routing + downloads)
+    route = applyNas410City(route); // 2026-11-23 §85: SNT-TC-1A vs NAS 410 section, right after the geo-depth block
     route = applyErpSolutionRoute(route); // 2026-11-06: ERP module dashboards + problem-guide links (before routing)
     route = applyIntentRoute(route); // 2026-10-24: intent routing (careers -> training + Practical NDT, calculators -> consulting/ERP, codes -> procedure + inspection + training)
     route = applyCwiTrainingBlock(route); // 2026-11-20: AWS CWI section (three formats, nearest CWI city page) on US training pages + /training + /ndt-training-usa
@@ -14482,6 +14485,7 @@ routes.forEach(route => {
     // put back any 2026-10-24 block they dropped. Each applier is idempotent and only runs where its block is missing.
     if (typeof route.bodyContent === 'string') {
       if (!route.bodyContent.includes('data-geo-depth="2026-10"')) route = applyGeoDepth(route);
+      if (!route.bodyContent.includes('data-nas410-city="2026-11"')) route = applyNas410City(route);
       if (!route.bodyContent.includes('data-erp-solution-links="2026-11"') || (/^\/erp\/apps\/[a-z-]+$/.test(route.path) && !route.bodyContent.includes('data-erp-module-dashboard="2026-11"'))) route = applyErpSolutionRoute(route);
       if (!route.bodyContent.includes('data-intent-route="2026-10"')) route = applyIntentRoute(route);
       if (!route.bodyContent.includes('data-cwi-block="2026-11"')) route = applyCwiTrainingBlock(route);

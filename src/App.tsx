@@ -9,6 +9,7 @@ import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 const TrainingAvailabilityBlock = lazy(() => import("./components/TrainingAvailabilityBlock"));
 const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §48
 const GeoDepthBlock = lazy(() => import("./components/GeoDepthBlock")); // 2026-10-24 researched local blocks on earning geo pages
+const Nas410CityBlock = lazy(() => import("./components/Nas410CityBlock")); // 2026-11-23 §85: SNT-TC-1A vs NAS 410 section on US aerospace training city pages
 const IntentRouteBlock = lazy(() => import("./components/IntentRouteBlock"));
 const CwiTrainingBlock = lazy(() => import("./components/CwiTrainingBlock")); // 2026-11-20: AWS CWI section on US training pages + training hubs
 const GlobalTrainingFees = lazy(() => import("./components/GlobalTrainingFees")); // 2026-11-10 US fee table on hand-built training pages
@@ -62,6 +63,7 @@ const App = () => (
                   <ProductVideoBlock />
                   <ProductScreenshotsBlock />
                   <GeoDepthBlock />
+                  <Nas410CityBlock />
                   <ErpSolutionLinksBlock />
                   <IntentRouteBlock />
                   <CwiTrainingBlock />
