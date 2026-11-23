@@ -1,0 +1,199 @@
+{
+  "title": "Risk-Based Inspection in the USA: PSM, PHMSA and API 580",
+  "description": "How RBI fits OSHA PSM, EPA RMP, PHMSA breakout tank rules and state jurisdictions, and how Atlantis runs remote API 580/581 studies for US sites.",
+  "h1": "Risk-based inspection for US refineries, chemical plants and tank terminals",
+  "eyebrow": "Risk-based inspection in the United States",
+  "intro": "This page is for US inspection managers, mechanical integrity leads and terminal owners deciding whether, and how, to move equipment onto risk-based intervals. It explains what OSHA, EPA, PHMSA and the state pressure-equipment jurisdictions actually ask of an RBI programme, where the federal breakout tank rule still blocks the risk-based option in API 653, and how Atlantis runs an RBI study remotely from your drawings, data and inspection history, with US field technicians available when a data gap needs closing.",
+  "highlights": [
+    { "h": "Built for the PSM file", "p": "Every interval carries its basis: the damage mechanisms assigned, the data used, the inspection effectiveness credited and the reassessment trigger. That is the trail an OSHA compliance officer or an EPA RMP auditor follows when asking why a vessel was not opened this turnaround." },
+    { "h": "Remote study, US field option", "p": "The assessment runs from a shared data room and video workshops. Where thickness history is thin or a CML has never been read, Atlantis can send UT, MT, PT and VT technicians to US sites to collect the readings the model needs." },
+    { "h": "Your inspector still decides", "p": "RBI proposes intervals and inspection tasks; it does not sign them. Your API 510, 570 or 653 inspector, or the jurisdiction's authorized inspector, reviews the plan and approves what goes into the inspection schedule." }
+  ],
+  "sections": [
+    {
+      "id": "us-rules-that-shape-rbi",
+      "h": "No US rule requires RBI, but several rules shape it",
+      "p": [
+        "There is no federal regulation that tells a US refinery or terminal to use risk-based inspection. What the rules require is inspection that follows recognized and generally accepted good engineering practice, carried out at a defensible frequency and documented. Because API 510, API 570 and API 653 each allow an RBI assessment made to API RP 580 to set inspection intervals, a well-run RBI programme is one of the accepted ways of meeting those obligations. A badly documented one is a citation waiting to happen.",
+        "In practice the regulator rarely questions the method; it questions the evidence. An auditor picks an item, asks for its interval, and then asks what that interval rests on. The table sets out the regimes that most often apply to a US process site or tank terminal and what each one means for the RBI record."
+      ],
+      "table": {
+        "head": ["Regime", "What it covers", "What it means for an RBI programme"],
+        "rows": [
+          ["OSHA PSM, 29 CFR 1910.119(j)", "Mechanical integrity of vessels, storage tanks, piping, relief systems and controls in covered processes", "Inspection and testing must follow RAGAGEP, at a frequency consistent with manufacturers' recommendations and good engineering practice, more often where operating experience shows a need, and each inspection is documented"],
+          ["EPA Risk Management Program, 40 CFR Part 68", "Program 3 processes holding listed substances above threshold quantities", "Mechanical integrity provisions parallel PSM, so one RBI basis normally serves both compliance files"],
+          ["PHMSA, 49 CFR 195.432", "Breakout tanks on hazardous liquid pipeline systems", "API 653 applies, but its risk-based alternative internal inspection interval is excluded under the current text"],
+          ["EPA SPCC, 40 CFR Part 112", "Aboveground oil storage at qualifying facilities", "Integrity testing on a regular schedule set by an industry standard, usually API 653 for field-erected tanks"],
+          ["State boiler and pressure vessel laws", "Boilers almost everywhere; unfired vessels in many but not all states", "Inspection by state inspectors or commissioned insurer inspectors; acceptance of RBI-based intervals varies by jurisdiction"],
+          ["Texas TCEQ, 30 TAC Chapter 338", "Storage vessels of 500 barrels or more holding regulated substances at refineries, petrochemical plants and bulk terminals", "Registration by September 1, 2027 and self-certification of existing vessels by September 1, 2037, against standards that draw on API 653"]
+        ]
+      }
+    },
+    {
+      "id": "psm-audit-evidence",
+      "h": "What a PSM or RMP auditor will look for in your RBI",
+      "p": [
+        "Mechanical integrity citations rarely say that an RBI method is wrong. They say the employer could not show that inspection frequency followed good engineering practice, that an inspection was not documented, or that a change went ahead without reviewing its effect on equipment. A live RBI programme answers all three. A study that was filed and forgotten fails all three.",
+        "We design the record around the questions an auditor asks in sequence: which damage mechanisms were considered for this item, which were ruled out and why, what corrosion rate was used and where it came from, what inspection was credited and how effective it was judged to be, what the resulting due date is, and what would cause the assessment to be redone. Management of change under 1910.119(l) and the process hazard analysis revalidation cycle are the natural triggers for that last question, and the report names them."
+      ],
+      "list": [
+        "Integrity operating windows linked to each damage mechanism, so a process excursion becomes a documented reassessment trigger instead of a surprise at the next audit",
+        "A data-gap log showing every assumption that stood in for missing data, with the conservative value used in its place",
+        "The approval line for each plan: who reviewed it as inspector, who reviewed it as engineer, and on what date",
+        "A revision history, so the next auditor can see what changed between assessments and why"
+      ]
+    },
+    {
+      "id": "breakout-tanks-part-195",
+      "h": "Breakout tanks: the federal exception, and the 2026 proposal",
+      "p": [
+        "Breakout tanks are the one place where federal law currently limits RBI outright. Section 195.432 requires operators to inspect atmospheric and low-pressure steel breakout tanks to API 653, but it carves out the standard's alternative internal inspection interval, the risk-based option numbered 6.4.3 in the edition the rule references. Operators who had set intervals that way before March 2015 had to re-establish them on the corrosion-rate basis of section 6.4.2. For a pipeline operator's tank farm today, internal intervals therefore rest on measured floor corrosion rates and remaining thickness, not on a risk ranking.",
+        "That may change. On June 2, 2026, PHMSA published a proposed rule that would update the referenced standard to the fifth edition of API 653, remove the bar on risk-based internal intervals, require operators who use them to keep records of the likelihood and consequence factors behind each interval, and cap internal intervals at 20 years for the first inspection and 25 years for later ones. It is a proposal, not a final rule, and no compliance date has been set.",
+        "For breakout tank operators the sensible course is to build the RBI data set now, on the tanks where it is already allowed, and to keep the likelihood and consequence records the proposal describes. If the rule is finalized in that shape, the evidence will already exist; if it is not, the same data still sharpens corrosion-rate intervals and ranks the out-of-service work. Refinery and chemical plant tanks that are not breakout tanks sit outside Part 195 and can use the API 653 risk-based option today, within its own conditions."
+      ]
+    },
+    {
+      "id": "state-jurisdictions",
+      "h": "State jurisdictions, the National Board and owner-user programmes",
+      "p": [
+        "Boilers are regulated by a state or city jurisdiction almost everywhere in the country, and many jurisdictions also regulate unfired pressure vessels. Inspections are made by the jurisdiction's own inspectors or by insurance company inspectors holding National Board commissions. Some owners run their own inspection organization: the National Board accredits owner-user inspection organizations under its NB-371 requirements, and their procedures must be acceptable to the jurisdiction where the plant sits.",
+        "Whether a jurisdiction accepts an RBI-based interval for equipment it regulates is the jurisdiction's call, and practice differs. In Texas, the boiler law administered by the Department of Licensing and Regulation does not list unfired pressure vessels in its boiler definition, so most refinery vessels are inspected under the owner's API 510 programme and process safety rules. In Louisiana the Office of State Fire Marshal administers the boiler law. California adds a refinery-specific process safety regulation, Title 8 section 5189.1, whose subsection (k) requires a damage mechanism review for each refinery process where a damage mechanism exists, revalidated at least every five years and reviewed before a major change. An RBI damage mechanism assignment can be organised to support that review rather than duplicate it.",
+        "Before an RBI plan stretches an interval on jurisdictional equipment, our report lists those items separately and recommends confirming the accepted interval with the chief inspector. It is a small step that avoids a plan the jurisdiction will not honour."
+      ]
+    },
+    {
+      "id": "where-us-capacity-sits",
+      "h": "Where US refining and tank storage is concentrated",
+      "p": [
+        "RBI demand follows the equipment. The Gulf Coast holds the largest share of US refining capacity and the densest tank farms, from the Houston Ship Channel east through Beaumont and Port Arthur to Lake Charles and the Mississippi River corridor around Baton Rouge, and south-west to the crude export docks at Corpus Christi. Inland, Cushing in Oklahoma is the delivery point for the NYMEX WTI crude contract and one of the largest concentrations of crude storage anywhere. On the coasts, New York Harbor and the Delaware River hold the product terminals and refineries that supply the North-East, Los Angeles and Long Beach combine refineries with marine terminals under California's refinery rules, and the Chicago area and North-West Indiana host large Midwest refining and pipeline storage.",
+        "Each hub page describes the facilities there, the damage mechanisms that tend to dominate and the local rules, so a study can start from the conditions that actually drive risk at that site."
+      ],
+      "table": {
+        "head": ["Hub", "Typical assets", "What tends to drive risk there"],
+        "rows": [
+          ["Houston and the Ship Channel", "Refineries, olefins and polymer plants, bulk liquid terminals", "CUI in humid coastal air, amine and sour water corrosion, tank floor corrosion across many products"],
+          ["Corpus Christi", "Refineries, crude export terminals, LNG trains, an ethane cracker", "Bay-side atmospheric corrosion, crude tank floors, cryogenic and high-temperature service in one corridor"],
+          ["Beaumont and Port Arthur", "Very large refineries, crackers, LNG and NGL export", "High-temperature sulfidation and sour service, CUI, storm surge and flooding"],
+          ["Lake Charles", "Refineries, chlor-alkali and petrochemicals, LNG export", "Caustic and chloride service, CUI, hurricane damage to tanks and insulation"],
+          ["Cushing", "Crude tank farms and pipeline manifolds", "Floor and annular plate corrosion under water and sediment, settlement"],
+          ["Los Angeles and Long Beach", "Refineries and marine terminals", "Marine atmosphere, and damage mechanism reviews under the state refinery rule"],
+          ["Chicago and North-West Indiana", "Large refining, pipeline terminals and storage", "Winter CUI from freeze-thaw cycles, corrosion from high-sulfur crude slates"]
+        ]
+      },
+      "links": [
+        ["/inspection/risk-based-inspection/houston", "Houston and the Ship Channel"],
+        ["/inspection/risk-based-inspection/corpus-christi", "Corpus Christi"],
+        ["/inspection/risk-based-inspection/beaumont-port-arthur", "Beaumont and Port Arthur"],
+        ["/inspection/risk-based-inspection/lake-charles", "Lake Charles"],
+        ["/inspection/risk-based-inspection/baton-rouge", "Baton Rouge and the river corridor"],
+        ["/inspection/risk-based-inspection/cushing", "Cushing, Oklahoma"],
+        ["/inspection/risk-based-inspection/new-york-harbor", "New York Harbor terminals"],
+        ["/inspection/risk-based-inspection/philadelphia", "Philadelphia and the Delaware River"],
+        ["/inspection/risk-based-inspection/los-angeles", "Los Angeles and Long Beach"],
+        ["/inspection/risk-based-inspection/chicago", "Chicago and North-West Indiana"]
+      ]
+    },
+    {
+      "id": "typical-us-scopes",
+      "h": "What US owners usually bring to an outside RBI team",
+      "p": [
+        "Most US requests fall into a handful of patterns. Recognizing which one applies decides how the study is scoped, how much data has to be gathered and how many workshops are needed."
+      ],
+      "list": [
+        "A first RBI study for a terminal or tank farm that has run on fixed API 653 intervals and wants out-of-service inspections aimed at the tanks that matter",
+        "Revalidating an RBI programme that has passed its review date, often after a change of ownership, a new process unit or the departure of the person who built the original model",
+        "Bringing an acquired site onto the buyer's corporate RBI standard, which usually means reassigning damage mechanisms and rebuilding consequence inputs rather than copying the old numbers",
+        "Moving from qualitative screening to a semi-quantitative or API RP 581 quantitative assessment on the units where a finer ranking would change the plan",
+        "Preparing evidence for a PSM compliance audit, a TCEQ storage vessel registration or a California damage mechanism review",
+        "Adding piping circuits, small-bore lines and deadlegs that the original study left out, which is where many CML programmes are weakest"
+      ]
+    },
+    {
+      "id": "remote-delivery-us",
+      "h": "How the remote study runs for a US site",
+      "p": [
+        "The study starts with a data request tailored to the scope: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness history, process chemistry and the integrity operating windows. Documents go into a shared data room, and we log what is present, what is missing and what conflicts before any workshop is booked.",
+        "Corrosion loops and damage mechanisms are then drafted to API 571 and reviewed with your process, operations, corrosion and inspection people in video workshops held in the plant's own working hours. Probability and consequence are assessed qualitatively, semi-quantitatively or quantitatively to API RP 581, or by your corporate RBI standard if you have one. The ranking becomes an inspection plan: method, coverage, expected effectiveness and due date for each item, with CML and TML locations rationalized where the data supports it.",
+        "If you keep an RBI register in commercial software, we start from its export, review it against the drawings and history, and return updated inputs and plans in a form your system can import. Atlantis works from offices in Houston and Hyderabad, so US workshops and site calls sit in Central time while data review can continue across both offices between sessions."
+      ]
+    },
+    {
+      "id": "us-field-data",
+      "h": "Closing data gaps with US field technicians",
+      "p": [
+        "A remote RBI study is only as good as the thickness history and inspection records behind it. In many US plants the gaps are predictable: CMLs never read after a repiping job, deadlegs and injection points never given locations, tanks with a shell survey but no floor data, and insulated lines with no record of a CUI inspection. Normally your own inspectors or your inspection contractor verify the data and walk the units.",
+        "In the United States Atlantis can also send UT, MT, PT and VT technicians to close those gaps: baseline thickness surveys, corrosion mapping on suspect areas and surface examination of welds where a cracking mechanism is credible. Atlantis does not perform radiography in the United States; where radiography is the right tool, your licensed radiography contractor does it and the results feed the model. Once the plan is approved, the same conventional methods can carry out the inspection it calls for, and the results go back into the next assessment."
+      ]
+    },
+    {
+      "id": "approval-and-limits",
+      "h": "Who approves the plan, and what stays with you",
+      "p": [
+        "The RBI report proposes intervals and inspection tasks. Approval belongs to your inspector of record: the API 510, API 570 or API 653 inspector, the jurisdiction's authorized inspector where one is involved, or the operator's inspection authority. Atlantis does not act as inspector of record, and the report is written so that the reviewer can see every input and challenge any of them.",
+        "When inspection finds damage that needs an engineering judgement on continued operation, that fitness-for-service work stays with your engineer, and Atlantis does not perform API 579-1 assessments. The RBI model is then updated with the outcome, so the next plan reflects the damage actually found rather than the damage predicted."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "OSHA 29 CFR 1910.119 (process safety management)",
+    "EPA 40 CFR Part 68 (Risk Management Program)",
+    "PHMSA 49 CFR Part 195 (hazardous liquid pipelines and breakout tanks)",
+    "EPA 40 CFR Part 112 (SPCC)",
+    "National Board Inspection Code and NB-371"
+  ],
+  "deliverables": [
+    "Equipment and circuit register with damage mechanisms, probability, consequence and risk for each item",
+    "Inspection plan per item: method, coverage, effectiveness and due date",
+    "Corrosion loop drawings and damage mechanism basis to API 571",
+    "Data-gap and assumptions log, with US field data options where the gaps matter",
+    "Separate list of jurisdictional and Part 195 items whose intervals need confirming",
+    "Reassessment triggers tied to IOWs, management of change and inspection results",
+    "Study report written for inspector, engineer and auditor review"
+  ],
+  "industries": [
+    "Refining",
+    "Petrochemical and chemical plants",
+    "Bulk liquid and crude terminals",
+    "Pipeline breakout tank farms",
+    "Gas processing and NGL fractionation",
+    "LNG",
+    "Fertilizer and ammonia"
+  ],
+  "faqs": [
+    { "q": "Does OSHA require risk-based inspection?", "a": "No. OSHA's process safety standard requires inspection and testing that follow recognized and generally accepted good engineering practice, at a frequency consistent with manufacturers' recommendations and good engineering practice, and more often where operating experience shows a need. API 510, 570 and 653 allow RBI-based intervals, so a documented RBI programme is one accepted way to show compliance. Fixed intervals that follow the same codes are another." },
+    { "q": "Can we use RBI to extend internal inspection intervals on breakout tanks?", "a": "Not under the current federal text. Section 195.432 applies API 653 to breakout tanks but excludes the standard's risk-based alternative internal inspection interval, so intervals rest on measured corrosion rates and remaining thickness. PHMSA's June 2026 proposal would lift that exclusion, with record-keeping conditions and caps of 20 and 25 years, but it is not final. Tanks that are not breakout tanks are outside Part 195." },
+    { "q": "Will a state inspector accept an RBI interval on a jurisdictional vessel?", "a": "It depends on the jurisdiction and the equipment. Many states regulate boilers and some regulate unfired vessels; inspection may be by state inspectors, commissioned insurer inspectors or an accredited owner-user inspection organization. Our report lists jurisdictional items separately so you can confirm the accepted interval with the chief inspector before the RBI plan changes anything on them." },
+    { "q": "Do you need to visit the plant to do the study?", "a": "No. The assessment is carried out remotely from your documents, inspection history and video workshops with your team, and site verification is normally done by your own inspectors. In the United States we can also send UT, MT, PT and VT technicians when a data gap, such as missing thickness history on a circuit, needs closing before the model can be trusted." },
+    { "q": "Can you work with the RBI software we already use?", "a": "Yes. Many US programmes run in commercial RBI software. We work from your register or its export, check it against drawings, process data and inspection records, and return updated inputs, plans and a report in a format you can load back. Your system stays in place, and the engineering basis for each change is written down rather than buried in a calculation." },
+    { "q": "How does an RBI study help with the Texas storage vessel program?", "a": "TCEQ's Aboveground Storage Vessel Safety program asks owners of covered vessels to register them by September 1, 2027 and to self-certify existing vessels by September 1, 2037 against standards that draw on API 653. Certification is the owner's job. An RBI study organizes the tank data, inspection history and plans those certifications will rely on, and shows which tanks to inspect first." },
+    { "q": "Who signs the inspection intervals?", "a": "Your inspector of record, whether that is an API 510, 570 or 653 inspector, the jurisdiction's authorized inspector or the operator's inspection authority. The study proposes intervals with their basis; it does not approve them. If inspection then finds damage that needs a fitness-for-service assessment, that work stays with your engineer, and the RBI model is updated afterwards." },
+    { "q": "What should we send first?", "a": "An equipment list or register for the scope, the codes or corporate RBI standard you work to, a sample of inspection reports and thickness data, and the P&IDs for one unit or tank farm. From that we can judge data quality, propose the level of assessment and size the workshops before you commit the full data set." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/houston", "RBI in Houston and the Ship Channel"],
+    ["/inspection/risk-based-inspection/cushing", "RBI in Cushing, Oklahoma"],
+    ["/inspection/risk-based-inspection/los-angeles", "RBI in Los Angeles and Long Beach"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/standards/api-581", "API 581 explained"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/ultrasonic-pipe-thickness-testing", "Ultrasonic pipe thickness testing"],
+    ["/corrosion-mapping", "Corrosion mapping"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspector support"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "49 CFR 195.432(b) applies API 653 to breakout tanks except section 6.4.3 (alternative internal inspection interval); pre-March 2015 RBI intervals had to be re-established under 6.4.2", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" },
+    { "fact": "PHMSA NPRM published June 2, 2026: API 653 5th edition, removes bar on RBI internal intervals with records of likelihood and consequence factors, caps 20 years initial and 25 years subsequent; proposal only, no compliance date", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" },
+    { "fact": "National Board accredits owner-user inspection organizations under NB-371; procedures must be acceptable to the jurisdiction", "url": "https://www.nationalboard.org/PrintPage.aspx?pageID=67" },
+    { "fact": "California Title 8 section 5189.1(k): damage mechanism review for each refinery process where a damage mechanism exists, revalidated at least every five years, reviewed before a major change", "url": "https://dir.ca.gov/Title8/5189_1.html" },
+    { "fact": "TCEQ Aboveground Storage Vessel Safety program, 30 TAC Chapter 338: 500 barrels or more, registration by Sept 1 2027, self-certification by Sept 1 2037; TDLR boiler definition excludes unfired vessels", "url": "https://atlantisndt.com/inspection-services-houston" },
+    { "fact": "Louisiana boiler law administered by the Office of State Fire Marshal", "url": "https://atlantisndt.com/inspection-services-louisiana" }
+  ]
+}

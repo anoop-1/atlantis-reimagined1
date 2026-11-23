@@ -1,0 +1,177 @@
+{
+  "title": "RBI in Beaumont and Port Arthur: Golden Triangle Refining",
+  "description": "Remote risk-based inspection for Beaumont and Port Arthur refineries, Port Neches chemical plants, Nederland NGL exports and Sabine Pass LNG facilities.",
+  "h1": "Risk-based inspection for Beaumont, Port Arthur and the Sabine-Neches corridor",
+  "eyebrow": "Risk-based inspection in the Golden Triangle",
+  "intro": "Beaumont, Port Arthur and Orange hold some of the largest refineries in North America, a ring of chemical plants in Port Neches, Nederland and Groves, an NGL export terminal and new LNG plants at Sabine Pass, all on low ground beside the Sabine-Neches Waterway. This page is for the inspection and integrity teams who have to plan inspection across that much equipment. It covers the facilities, the damage mechanisms and operating lessons that matter in the Golden Triangle, the rules on both sides of the Sabine, and how Atlantis runs a remote RBI study for a site here.",
+  "highlights": [
+    { "h": "Phased for very large plants", "p": "On a refinery with tens of thousands of condition monitoring locations, RBI is run unit by unit in a sequence tied to the turnaround calendar, with one method and one set of conventions so the results stay comparable across the whole site." },
+    { "h": "Temporary configurations captured", "p": "Out-of-service pumps, bypasses and mothballed equipment create dead legs that no original study covered. The plan makes management of change the route by which those temporary configurations enter the RBI register." },
+    { "h": "New plants assessed from baseline", "p": "Expanded refinery units and new LNG trains have construction records and baseline readings but no corrosion trend. The study sets first in-service inspection dates from design data and damage mechanisms, then refines them as history builds." }
+  ],
+  "sections": [
+    {
+      "id": "golden-triangle-facilities",
+      "h": "The Golden Triangle's refining, chemical and export base",
+      "p": [
+        "Port Arthur is home to Motiva's refinery, the largest in North America, alongside the TotalEnergies and Valero Port Arthur refineries. ExxonMobil's Beaumont refinery was expanded in 2023 and is now among the largest in the United States. Around them, crackers and chemical plants in Port Arthur, Port Neches, Nederland and Groves include the ethylene cracker jointly owned by BASF and TotalEnergies.",
+        "The export side is growing. Energy Transfer's Nederland terminal has shipped ethane since 2021 and is adding ethane and LPG export capacity in phases from 2028. On the Texas side of Sabine Pass, Golden Pass LNG is operating its first train with further capacity under construction, and Port Arthur LNG is under construction with operations estimated for 2027, according to the US Department of Energy's September 2026 LNG snapshot. Across the Sabine River in Cameron Parish, Louisiana, Cheniere's Sabine Pass terminal is in operation."
+      ],
+      "table": {
+        "head": ["Facility group", "Examples", "Where an RBI study concentrates"],
+        "rows": [
+          ["Large refineries", "Motiva, TotalEnergies and Valero in Port Arthur; ExxonMobil in Beaumont", "Hot sulfur service, coking, hydroprocessing effluent, sour water, amine and alkylation units, CUI"],
+          ["Chemicals and crackers", "BASF TotalEnergies cracker and plants in Port Neches, Nederland and Groves", "Furnace tubes, caustic and quench systems, butadiene and olefin dead legs, stainless chloride cracking"],
+          ["NGL export", "Energy Transfer's Nederland terminal", "Refrigerated storage, low-temperature piping, dock transfer systems"],
+          ["LNG", "Golden Pass LNG and Port Arthur LNG in Texas; Sabine Pass LNG in Louisiana", "Pretreatment units, cold-service transitions, cryogenic piping supports, refrigerated tanks"]
+        ]
+      },
+      "links": [
+        ["/inspection/pressure-vessel-inspection-services-beaumont", "Pressure vessel inspection in Beaumont"],
+        ["/inspection/piping-inspection-services-beaumont", "Piping inspection in Beaumont"],
+        ["/inspection/tank-inspection-services-beaumont", "Tank inspection in Beaumont"]
+      ]
+    },
+    {
+      "id": "scale-and-phasing",
+      "h": "Running RBI on a refinery the size of Port Arthur's",
+      "p": [
+        "The method does not change with plant size, but the way the study is run does. A refinery on the scale of those in Port Arthur may carry tens of thousands of CMLs across hundreds of piping circuits and vessels, built in different decades to different specifications. Attempting the whole site in one pass usually produces a register nobody has time to review. The workable approach is to phase the study by unit, in the order of the turnaround calendar and the units where risk is least understood, while holding one set of conventions for corrosion loops, damage mechanism naming, consequence inputs and inspection effectiveness so results from different units can be compared.",
+        "Vintage matters inside the same fence. A crude or hydroprocessing train built in the 2023 Beaumont expansion has construction NDE records and baseline thickness readings but no corrosion trend, while a unit commissioned decades earlier may have long thickness histories with gaps where CMLs were lost in repiping. The study treats those two situations differently: the new unit's first in-service inspection dates come from design data, damage mechanism susceptibility and the construction record, and the older unit's intervals come from measured rates, with data gaps logged and covered by conservative assumptions until they are filled."
+      ]
+    },
+    {
+      "id": "golden-triangle-mechanisms",
+      "h": "Damage mechanisms in Golden Triangle refining and chemicals",
+      "p": [
+        "The Golden Triangle's refineries run deep conversion units, including cokers and extensive hydroprocessing, which shifts the damage mechanism picture toward sulfur and hydrogen service. The review for each unit is built from its own crude diet and process data, but these mechanisms recur across the corridor and each needs specific inputs."
+      ],
+      "list": [
+        "High-temperature sulfidation in crude, vacuum and coker circuits and heater outlets, driven by sulfur content, temperature and the silicon content of older carbon steel",
+        "Wet hydrogen sulfide damage, including hydrogen blistering, hydrogen-induced cracking and stress-oriented hydrogen-induced cracking, in sour water, amine and overhead systems, where plate quality and post-weld heat treatment records matter as much as thickness",
+        "Ammonium bisulfide and ammonium chloride corrosion in hydroprocessing reactor effluent trains, governed by velocity, wash water practice and NH4HS concentration",
+        "Polythionic acid stress corrosion cracking in sensitised austenitic stainless hydroprocessing equipment, a shutdown mechanism controlled through protection procedures as much as inspection",
+        "Coke drum thermal fatigue and shell distortion, which call for scanning and survey methods rather than spot thickness readings",
+        "Corrosion under insulation on carbon steel in a hot, humid climate, and chloride stress corrosion cracking of stainless equipment under wetted insulation at the chemical plants"
+      ],
+      "links": [
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "port-neches-lesson",
+      "h": "Temporary dead legs: what Port Neches showed",
+      "p": [
+        "On November 27, 2019, explosions at the TPC Group chemical plant in Port Neches forced evacuations across the area. The US Chemical Safety and Hazard Investigation Board found that popcorn polymer, which forms in high-purity butadiene service, built up in a temporary dead leg created when a process pump had been out of service for several months, until pressure ruptured the piping. The CSB reported that the company's dead leg procedure missed some temporary dead legs, including the one that failed, and that a 2016 process hazard analysis recommendation to flush piping connected to out-of-service equipment had not been implemented.",
+        "That finding matters for any RBI programme in the corridor. A risk-based plan is only as complete as its register, and temporary configurations such as idle pumps, bypassed exchangers and isolated spare equipment rarely appear in it unless something forces them in. In our studies, management of change and equipment status changes are written in as reassessment triggers, temporary dead legs are listed as items in their own right, and the plan states plainly where a mechanism is controlled by operating practice or flushing rather than by inspection, so nobody mistakes an inspection date for a barrier it cannot provide."
+      ]
+    },
+    {
+      "id": "lng-and-ngl-sabine",
+      "h": "LNG and NGL export plants on the Sabine",
+      "p": [
+        "The new export plants bring a different RBI problem from the old refineries: almost no in-service history. For Golden Pass LNG, Port Arthur LNG and the expanding Nederland NGL terminal, the starting data is the design basis, material certificates, construction and fabrication NDE records, hydrotest records and baseline readings. A sensible study uses those to set the first in-service inspection for each item by damage mechanism susceptibility, rather than defaulting everything to a short fixed interval or, worse, to a long one because nothing has been found yet.",
+        "The mechanisms differ from refining. Pretreatment units carry amine corrosion and cracking, dehydration and mercury removal units carry their own vessel and piping concerns, and the transitions between ambient and cryogenic temperature are where moisture enters insulation and external corrosion begins. Refrigerated and cryogenic storage tanks built to API 620 or API 625 have inspection strategies of their own, and the consequence side throughout is dominated by flammable vapour release. Sabine Pass LNG sits on the Louisiana side of the river, so the Lake Charles page covers its regulatory setting."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/lake-charles", "RBI in Lake Charles and south-west Louisiana"]
+      ]
+    },
+    {
+      "id": "storms-and-low-ground",
+      "h": "Low ground, storm surge and flooding",
+      "p": [
+        "Port Arthur and much of the lower Sabine-Neches corridor sit on low coastal ground, Port Arthur itself behind a hurricane flood protection system, and the area has been hit repeatedly, including by Hurricane Rita in 2005, Hurricane Ike in 2008 and the extreme rainfall of Hurricane Harvey in 2017, which flooded large parts of Beaumont and Port Arthur. Floodwater and wind-driven rain soak insulation, undermine tank foundations, overload floating roofs and carry debris into dock structures.",
+        "For RBI that means storms are a reassessment trigger with consequences for specific items, not a general worry. The plan lists which equipment was below recorded flood levels, which insulated systems need checking for wet insulation after a storm, and which tanks need settlement and roof checks. Equipment that passes those checks keeps its interval with a documented reason; equipment that does not is reassessed before its next due date."
+      ]
+    },
+    {
+      "id": "sabine-rules",
+      "h": "Rules on both sides of the Sabine River",
+      "p": [
+        "On the Texas side, process safety is enforced by federal OSHA because Texas has no state OSHA plan, EPA's Risk Management Program covers many processes, boilers fall under the Texas Department of Licensing and Regulation, and unfired pressure vessels, which TDLR's boiler definition does not list, are usually inspected under the owner's API 510 programme. TCEQ's Aboveground Storage Vessel Safety program under 30 TAC Chapter 338 applies to covered storage vessels of 500 barrels or more at refineries, petrochemical plants and bulk terminals, with registration due by September 1, 2027. Breakout tanks on pipeline systems fall under 49 CFR 195.432, which currently excludes API 653's risk-based internal interval.",
+        "Facilities across the river in Louisiana answer to the same federal process safety rules, but boilers there come under the Office of State Fire Marshal and the state's own environmental and pipeline agencies. Owners with sites on both banks often run one corporate RBI standard; the study keeps that standard and adds a short list of items where a state rule, rather than the risk ranking, sets the interval."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/united-states", "RBI in the United States: federal rules"]
+      ]
+    },
+    {
+      "id": "golden-triangle-study",
+      "h": "How a remote study runs for a Golden Triangle site",
+      "p": [
+        "A study here begins with agreeing the phasing: which units first, in what order and to what level of assessment. A shared data room is then opened for P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, construction records for newer units, inspection and thickness history, process chemistry, integrity operating windows and the plant's management of change log. Gaps are logged before the workshops start.",
+        "Corrosion loops and damage mechanisms are assigned to API 571 and challenged with your process, operations, corrosion and inspection people over video, in Central time. Probability and consequence are assessed qualitatively, semi-quantitatively or quantitatively to API RP 581, or under your corporate RBI standard, and each item gets a plan with method, coverage, expected effectiveness and due date, sorted into on-stream, turnaround and deferred tasks. Atlantis is based in Houston, roughly 90 miles west, and continues analysis between sessions from its Hyderabad office.",
+        "When a missing reading would distort the result, Atlantis can send UT, MT, PT and VT technicians to Golden Triangle sites for baseline surveys, corrosion mapping and surface examination of welds in cracking service. Atlantis does not perform radiography in the United States; where it is needed, the owner's licensed radiography contractor does that work and the results are added to the model."
+      ],
+      "links": [
+        ["/ultrasonic-testing-beaumont", "Ultrasonic testing in Beaumont"],
+        ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"]
+      ]
+    },
+    {
+      "id": "golden-triangle-approval",
+      "h": "Approval and the limits of the study",
+      "p": [
+        "Every interval in the plan is a recommendation with its evidence attached. The owner's inspector of record, typically the API 510, 570 or 653 inspector or the operator's inspection authority, decides what to adopt, and Atlantis does not act as inspector of record. Damage that needs a fitness-for-service decision goes to the owner's engineer; Atlantis does not provide API 579-1 assessments, and the RBI model is updated once that decision is made."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 and API RP 581",
+    "ASME PCC-3",
+    "API RP 571 (damage mechanisms)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "API 620 and API 625",
+    "OSHA 29 CFR 1910.119 and EPA 40 CFR Part 68",
+    "PHMSA 49 CFR Part 195",
+    "TCEQ 30 TAC Chapter 338"
+  ],
+  "deliverables": [
+    "Phasing plan by unit, aligned with the turnaround calendar",
+    "RBI register with probability, consequence and risk for each item in the phase",
+    "Inspection plan per item, sorted into on-stream, turnaround and deferred tasks",
+    "Register of temporary dead legs and idle equipment, with MOC triggers",
+    "First in-service inspection dates for new units based on design and construction records",
+    "Storm exposure list and post-storm reassessment checks",
+    "Data-gap log, with the option of Atlantis technicians collecting missing readings"
+  ],
+  "industries": [
+    "Refining and coking",
+    "Olefins, butadiene and specialty chemicals",
+    "NGL export terminals",
+    "LNG export",
+    "Crude and product terminals",
+    "Marine and waterway facilities"
+  ],
+  "faqs": [
+    { "q": "How do you run RBI on a refinery as large as those in Port Arthur?", "a": "In phases. The study is split by unit and sequenced against the turnaround calendar and the units where risk is least understood, while one set of conventions for corrosion loops, damage mechanisms, consequence inputs and inspection effectiveness keeps results comparable. Each phase produces a usable plan, rather than waiting for one site-wide register that is too large to review." },
+    { "q": "Can RBI be done on a new unit with no inspection history?", "a": "Yes. For units from a recent expansion or a new LNG train, the study uses the design basis, material certificates, construction NDE records and baseline readings to set the first in-service inspection by damage mechanism susceptibility. As in-service data arrives, rates replace assumptions and intervals are refined." },
+    { "q": "What does the Port Neches explosion mean for inspection planning?", "a": "The CSB found that popcorn polymer built up in a temporary dead leg created by an out-of-service pump and ruptured the piping, and that the dead leg procedure had missed it. For RBI, temporary configurations must enter the register through management of change, and the plan must say where a mechanism is controlled by operating practice rather than inspection." },
+    { "q": "Which damage mechanisms matter most in heavy, sour crude refining?", "a": "High-temperature sulfidation, wet hydrogen sulfide cracking and blistering, ammonium bisulfide and chloride corrosion in hydroprocessing effluent, polythionic acid cracking in stainless hydroprocessing equipment, coke drum thermal fatigue and corrosion under insulation are the usual leaders. The final list for each unit comes from its own process data." },
+    { "q": "Do the rules differ for sites on the Texas and Louisiana sides of the Sabine?", "a": "Federal process safety and risk management rules apply on both sides, and breakout tanks follow the same federal pipeline rule. Boilers, environmental permits and some storage rules differ: Texas uses TDLR and the TCEQ storage vessel program, while Louisiana boilers fall under the Office of State Fire Marshal. The report lists items where a state rule sets the interval." },
+    { "q": "Can Atlantis send technicians to Beaumont or Port Arthur?", "a": "Yes. The RBI study is remote, but Atlantis can send UT, MT, PT and VT technicians to Golden Triangle sites to close data gaps, such as baseline thickness surveys, corrosion mapping and surface examination of welds in cracking service. Radiography is not offered in the United States and remains with the owner's licensed contractor." },
+    { "q": "Who approves the plan?", "a": "The owner's inspector of record, usually an API 510, 570 or 653 inspector or the operator's inspection authority, approves intervals and tasks. The study supplies the recommendation and its evidence. Fitness-for-service decisions on damage found during inspection stay with the owner's engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/united-states", "RBI in the United States"],
+    ["/inspection/risk-based-inspection/houston", "RBI in Houston and the Ship Channel"],
+    ["/inspection/risk-based-inspection/lake-charles", "RBI in Lake Charles"],
+    ["/inspection/third-party-inspection-beaumont", "Third-party inspection in Beaumont"],
+    ["/inspection/pressure-vessel-inspection-services-beaumont", "Pressure vessel inspection in Beaumont"],
+    ["/api-510-pressure-vessel-inspection-texas", "API 510 pressure vessel inspection support in Texas"],
+    ["/standards/api-584", "API 584 integrity operating windows"],
+    ["/ultrasonic-pipe-thickness-testing", "Ultrasonic pipe thickness testing"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Motiva Port Arthur refinery largest in North America; TotalEnergies and Valero Port Arthur refineries; ExxonMobil Beaumont refinery expanded 2023, among largest in US; BASF-TotalEnergies ethylene cracker; chemical plants in Port Neches, Nederland, Groves", "url": "https://atlantisndt.com/ndt-training-port-arthur" },
+    { "fact": "Golden Pass LNG operating 1 train with more under construction; Port Arthur LNG under construction est. 2027; Sabine Pass LNG operating in Cameron, LA (DOE LNG snapshot Sept 30 2026)", "url": "https://www.energy.gov/sites/default/files/2026-09/LNG%20Snapshot%20September%2030%202026.pdf" },
+    { "fact": "Energy Transfer Nederland terminal: ethane exports since 2021; ethane and LPG export expansion entering service in phases from 2028", "url": "https://pgjonline.com/news/2026/june/energy-transfer-expands-nederland-ngl-export-capacity" },
+    { "fact": "CSB: TPC Port Neches Nov 27 2019 explosions caused by popcorn polymer in a temporary dead leg from a pump out of service for months; dead leg procedure missed temporary dead legs; 2016 PHA flushing recommendation not implemented", "url": "https://csb.gov/csb-releases-final-tpc-report-" },
+    { "fact": "TCEQ 30 TAC 338; TDLR boiler definition excludes unfired vessels; no Texas state OSHA plan", "url": "https://atlantisndt.com/inspection-services-houston" },
+    { "fact": "Louisiana boilers under Office of State Fire Marshal", "url": "https://atlantisndt.com/inspection-services-louisiana" }
+  ]
+}

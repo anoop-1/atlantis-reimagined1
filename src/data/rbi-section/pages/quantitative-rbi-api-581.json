@@ -1,0 +1,176 @@
+{
+  "title": "API 581 Quantitative RBI: Calculations Explained and Applied",
+  "description": "How API RP 581 calculations work: generic failure frequency, damage factors, management systems factor, consequence, risk targets and A to E effectiveness.",
+  "h1": "Quantitative risk-based inspection to API RP 581",
+  "eyebrow": "Risk-based inspection",
+  "intro": "For integrity engineers who have been asked to run API 581 calculations, or to review a study someone else produced with them. This page explains the calculation chain in plain terms: how probability of failure is built from a generic failure frequency, damage factors and a management systems factor; how consequence of failure turns a hole size into an affected area or a financial loss; how risk targets and inspection effectiveness categories turn risk into a plan; which inputs move the answer most; and how Atlantis carries out a quantitative study remotely.",
+  "highlights": [
+    { "h": "Every number traceable", "p": "A quantitative result is only defensible if each intermediate value can be shown: the frequency used, the damage factor and its inputs, the consequence area and the inventory behind it. The study delivers those values, not just a risk colour." },
+    { "h": "Inputs matter more than the engine", "p": "Most disputes about API 581 results are about inputs: a corrosion rate, a default thickness, a generous inventory group, an optimistic management score. The study flags every default and every judgement so that the people approving the plan can challenge them." },
+    { "h": "Your risk target, not ours", "p": "API RP 581 calculates risk; it does not decide how much risk is acceptable. The owner's management sets the risk target, and the inspection plan is built to keep each item below it until the plan date." }
+  ],
+  "sections": [
+    {
+      "id": "where-581-fits",
+      "h": "Where API RP 581 fits",
+      "p": [
+        "API RP 580 sets out what an RBI programme must contain; API RP 581 supplies one way of doing the arithmetic. Its fourth edition was published in January 2025, following the third edition of 2016 and its addenda. The document covers fixed equipment and piping, atmospheric storage tank shells and bottoms, pressure relief devices and heat exchanger bundles, and it is the basis of most commercial RBI packages.",
+        "Quantitative does not have to mean everything. Many programmes screen their whole register with a simpler method and apply API 581 to the items where long intervals, high consequence or contested decisions justify the data effort. Where a programme was built to the third edition and is now moving to the fourth, confirm which edition each calculation in your package follows before comparing old and new results, because a change of edition can shift numbers without any change in the plant."
+      ],
+      "links": [["/standards/api-581", "API RP 581 explained"], ["/blog/risk-based-inspection-rbi-explained-api-580-vs-api-581", "API 580 versus API 581"]]
+    },
+    {
+      "id": "pof-chain",
+      "h": "Probability of failure: three factors multiplied",
+      "p": [
+        "In API RP 581, probability of failure at a given time is a generic failure frequency multiplied by a damage factor and by a management systems factor. Each does a different job, and each can be argued about separately."
+      ],
+      "table": {
+        "head": ["Factor", "What it represents", "What moves it"],
+        "rows": [
+          ["Generic failure frequency", "The industry failure frequency for that type of component before any site-specific damage is considered, split across a set of release hole sizes", "Component type only; it is a published starting point, not a site judgement"],
+          ["Damage factor", "How much more likely failure is because of the damage mechanisms actually active, given the wall already lost and how well past inspections have characterised the damage", "Corrosion rate, thickness, time in service, susceptibility to cracking, operating temperature, and the number and effectiveness of inspections"],
+          ["Management systems factor", "A site-wide adjustment derived from a scored evaluation of the owner's process safety and mechanical integrity management", "The evaluation score; the factor ranges from 0.1 for strong practices to 10 for weak ones, so it can shift every item by up to two orders of magnitude"]
+        ]
+      }
+    },
+    {
+      "id": "damage-factors",
+      "h": "Damage factors, mechanism by mechanism",
+      "p": [
+        "Each credible damage mechanism has its own damage factor, and the factors are then combined into a total for the component, with rules in the document for how thinning and external damage interact. The families and the inputs that drive them are:"
+      ],
+      "list": [
+        "Thinning, internal and external: driven by the fraction of the wall expected to be lost by the date in question relative to what the component can tolerate, by how confident the corrosion rate is, and by the number and effectiveness of past inspections.",
+        "Component linings: driven by lining type, age, condition and whether a lining failure is monitored.",
+        "External damage: external corrosion, corrosion under insulation and external chloride cracking of austenitic stainless steel, driven by temperature, climate, coating and insulation condition.",
+        "Stress corrosion cracking: caustic, amine, sulfide stress cracking, hydrogen-induced cracking in wet hydrogen sulfide or hydrofluoric acid service, carbonate, polythionic acid and chloride cracking, each starting from a susceptibility set by material, environment and heat treatment, then adjusted for inspection.",
+        "High-temperature hydrogen attack: driven by material, hydrogen partial pressure and temperature.",
+        "Brittle fracture and embrittlement: driven by metal temperature against toughness, where inspection usually cannot reduce the probability and other mitigation is needed.",
+        "Mechanical fatigue of piping: driven by vibration history, supports, connections and the condition of small-bore branches."
+      ],
+      "links": [["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]]
+    },
+    {
+      "id": "cof",
+      "h": "Consequence of failure: from hole size to affected area",
+      "p": [
+        "Consequence starts with the fluid. A representative fluid and its phase on release are chosen, a release rate is calculated for each hole size from a small leak to a rupture, and the inventory that could escape is set by how the plant can be isolated. Whether the release is instantaneous or continuous, and how quickly it is detected and isolated, changes how much fluid escapes. API RP 581 offers a simpler consequence method based on representative fluids and a more detailed one that uses the properties of the actual fluid.",
+        "The result is an affected area: for flammable releases, an area of equipment damage and an area of personnel injury; for toxic releases, a toxic impact area; and for releases such as steam or acid that are neither flammable nor toxic, an area of their own. The largest governs. Alternatively, or as well, consequence can be expressed financially, combining repair of the component, damage to surrounding equipment, business interruption, injury and environmental clean-up. For atmospheric storage tank bottoms, consequence is financial, with clean-up depending on how far product can migrate into soil and water.",
+        "Inventory grouping deserves particular care. If the study assumes a whole unit's inventory could escape through one failure, consequence is overstated; if it assumes isolation that the plant cannot achieve quickly, consequence is understated. The study records the isolation assumptions for each group so that operations can confirm them."
+      ]
+    },
+    {
+      "id": "risk-and-plan",
+      "h": "Risk, risk targets and the plan date",
+      "p": [
+        "Risk for each hole size is its probability multiplied by its consequence, and the results are summed for the component. Area-based risk is expressed as affected area per year and financial risk as monetary loss per year; both can be placed on a risk matrix by probability and consequence category for communication.",
+        "Inspection planning projects risk forward from the date of the assessment to a plan date, usually the end of the next operating period. If the projected risk would cross the owner's risk target before the plan date, the date it crosses becomes the target date for inspection, and the method calculates which inspection effectiveness is needed to bring the risk back below target until the plan date. When no inspection can achieve that, as with mechanisms that inspection cannot detect early enough, the plan calls for other mitigation: a process change, a material upgrade, a replacement or an integrity operating window."
+      ]
+    },
+    {
+      "id": "effectiveness",
+      "h": "Inspection effectiveness categories A to E",
+      "p": [
+        "API RP 581 grades how well an inspection characterised a given damage mechanism. The grade belongs to the pairing of method, coverage and mechanism: the same survey can earn a high grade for one mechanism and a low one for another on the same component."
+      ],
+      "table": {
+        "head": ["Category", "Meaning", "Planning consequence"],
+        "rows": [
+          ["A: highly effective", "The method and coverage will identify the true damage state in nearly every case", "Strongest reduction in the damage factor; supports the longest defensible intervals"],
+          ["B: usually effective", "A high degree of confidence that the damage state is correctly identified", "Substantial credit; often the practical target for routine inspection"],
+          ["C: fairly effective", "About as likely to identify the damage state as to miss it", "Moderate credit; repeated C inspections build confidence slowly"],
+          ["D: poorly effective", "Provides little information about the true damage state", "Little credit; the item behaves almost as if uninspected"],
+          ["E: ineffective", "No inspection, or a method that cannot detect the mechanism", "No credit; probability rises with time as the damage factor grows"]
+        ]
+      }
+    },
+    {
+      "id": "inputs-that-matter",
+      "h": "The inputs that move results most",
+      "p": [
+        "When a quantitative study is challenged, the argument is almost always about one of these inputs, so the study documents each explicitly:"
+      ],
+      "list": [
+        "The corrosion rate and the confidence assigned to it: measured long-term, measured short-term, similar service or estimated.",
+        "Starting thickness: measured baseline or nominal furnished thickness, which can differ by more than a corrosion allowance.",
+        "The management systems evaluation score and the evidence behind each answer.",
+        "Inventory groups and the isolation and detection assumptions attached to them.",
+        "Post-weld heat treatment status, which switches cracking susceptibilities on or off.",
+        "Operating temperature against mechanism thresholds, including upset and start-up conditions.",
+        "The representative fluid chosen for mixtures.",
+        "Default values left in place because data was missing, each of which the plan should either accept knowingly or replace."
+      ]
+    },
+    {
+      "id": "remote-quant-study",
+      "h": "How Atlantis runs a quantitative study remotely",
+      "p": [
+        "The study is delivered remotely. Records arrive through a data room, corrosion loops and mechanisms are agreed in video workshops, and the management systems evaluation is carried out as a series of video interviews with the people who run your inspection, maintenance, operations and management of change processes. Calculations are performed in the RBI package you already run, working from its exports, or, where no package is in place, in a transparent form delivered with every intermediate value so that your engineers can check them.",
+        "Field verification stays with your inspectors; in the United States, Atlantis can also send UT, MT, PT and VT technicians to replace defaults with measurements where the gap matters. The plan goes to your inspector of record for approval, and Atlantis does not take on that role. Where inspection later finds damage needing fitness-for-service evaluation, that stays with your engineer, because Atlantis does not perform it."
+      ],
+      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]]
+    },
+    {
+      "id": "reviewing-a-study",
+      "h": "Reviewing an existing API 581 study",
+      "p": [
+        "Owners often inherit a quantitative study and need to know whether it can be relied on. A remote review checks the defaults still in place, the inspection effectiveness credited against each mechanism, the evidence behind the management systems score, the inventory groups, where the risk target came from and whether it was approved, which edition the calculations follow, and whether any plan dates have already passed. The output is a list of corrections ranked by their effect on the inspection plan, so the most consequential problems are fixed first."
+      ],
+      "links": [["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"]]
+    }
+  ],
+  "codes": [
+    "API RP 581 (fourth edition, January 2025): risk-based inspection methodology",
+    "API RP 580 (fourth edition, 2023): elements of a risk-based inspection programme",
+    "ASME PCC-3 (2022): inspection planning using risk-based methods",
+    "API RP 571: damage mechanisms affecting fixed equipment",
+    "API RP 941: steels for hydrogen service at elevated temperatures",
+    "API 510, API 570 and API 653: in-service inspection codes"
+  ],
+  "deliverables": [
+    "Probability, consequence and risk for every component, with intermediate values",
+    "Damage factor basis for each mechanism and the inspection credit applied",
+    "Management systems evaluation record and resulting factor",
+    "Inventory group and isolation assumptions",
+    "Inspection plan with target dates and required effectiveness",
+    "Register of defaults and data gaps with their effect on the plan"
+  ],
+  "industries": [
+    "Refining",
+    "Petrochemical",
+    "Gas processing and LNG",
+    "Chemical",
+    "Storage terminals",
+    "Fertiliser and ammonia"
+  ],
+  "faqs": [
+    { "q": "What is API 581?", "a": "API RP 581, Risk-Based Inspection Methodology, is the API recommended practice that supplies quantitative procedures for calculating probability and consequence of failure and building inspection plans from them. It covers fixed equipment, piping, storage tank shells and bottoms, relief devices and exchanger bundles. The fourth edition was published in January 2025. It sits beneath API RP 580, which defines the elements of an RBI programme." },
+    { "q": "What is the difference between API 580 and API 581?", "a": "API RP 580 is the framework: what an RBI programme must include, from roles and data to reassessment and records, without prescribing a calculation. API RP 581 is one detailed methodology for the calculations themselves. A programme can follow API RP 580 using a qualitative method, or use API RP 581 as its calculation engine." },
+    { "q": "How is probability of failure calculated in API 581?", "a": "As a generic failure frequency for the component type, multiplied by a damage factor for the active damage mechanisms and by a management systems factor for the site. The damage factor depends on wall loss relative to what the component can tolerate, rate confidence, cracking susceptibility and the number and effectiveness of past inspections, and it grows with time unless inspection reduces it." },
+    { "q": "What is the management systems factor?", "a": "A site-wide multiplier derived from a scored evaluation of the owner's process safety and mechanical integrity management. It ranges from 0.1 for strong practices to 10 for weak ones, so it moves every item in the study. Because of that leverage, the evaluation should be evidenced answer by answer and repeated when the management systems change." },
+    { "q": "How does API 581 calculate consequence of failure?", "a": "It works from the fluid, its phase, release rates for a range of hole sizes and the inventory that can escape before isolation, adjusted for detection and isolation. The result is an affected area for flammable, toxic or other releases, or a financial consequence covering repair, surrounding damage, business interruption, injury and clean-up. Tank bottom consequence is financial." },
+    { "q": "What do inspection effectiveness categories A to E mean?", "a": "They grade how well an inspection characterised a specific damage mechanism: A highly effective, B usually effective, C fairly effective, D poorly effective and E ineffective. The grade depends on method and coverage for that mechanism, so one survey can earn different grades for different mechanisms on the same item." },
+    { "q": "Who sets the risk target in an API 581 study?", "a": "The owner. API RP 581 calculates risk but does not define acceptable risk. Your management approves a risk target, area-based, financial or both, and the inspection plan is built to keep each item below it until the plan date. The target should sit in a controlled risk criteria document so every study uses the same value." },
+    { "q": "Can you do API 581 calculations if we do not run RBI software?", "a": "Yes. For smaller scopes or reviews, calculations can be carried out in a transparent form that shows every intermediate value, so your engineers can check them line by line. For larger programmes a dedicated package becomes worthwhile, and we then work from its exports and return import files." },
+    { "q": "Does Atlantis offer API 581 training?", "a": "No. Atlantis does not run API certification courses or API 581 training courses. Within an RBI engagement we explain to your analysts how the calculations in their own programme were set up, and why, so they can maintain the assessment themselves, but that is part of the consulting work rather than a course." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/standards/api-581", "API RP 581 explained"],
+    ["/glossary/api-581", "API 581 in the glossary"],
+    ["/standards/api-580", "API RP 580 explained"],
+    ["/blog/risk-based-inspection-rbi-explained-api-580-vs-api-581", "RBI explained: API 580 versus API 581"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and exchangers"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "Setting up an RBI programme"],
+    ["/api-inspection/nde-method-selection-by-damage-mechanism", "NDE method selection by damage mechanism"]
+  ],
+  "sources": [
+    { "fact": "API RP 581 fourth edition January 2025; API RP 580 fourth edition 2023", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" },
+    { "fact": "POF = generic failure frequency x damage factor x management systems factor; FMS ranges 0.1 (best) to 10 (worst); effectiveness graded A (highly effective) to E (ineffective); tank bottom COF strictly financial; inspection required when component risk reaches the risk target", "url": "https://e2g.com/industry-insights-ar/tank-rbi-not-just-an-inspection-deferral-tool/" },
+    { "fact": "API RP 581 fourth edition covers fixed equipment, piping, tanks, PRDs and exchanger bundles (already on the site)", "url": "https://atlantisndt.com/api-inspection/time-based-vs-risk-based-intervals" },
+    { "fact": "gff split across hole sizes; FMS scales by up to two orders of magnitude; consequence as area or financial; RP 581 computes risk but does not set the target (already on the site)", "url": "https://atlantisndt.com/standards/api-581" },
+    { "fact": "ASME PCC-3-2022 current edition", "url": "https://www.asme.org/codes-standards/find-codes-standards/inspection-planning-using-risk-based-methods" }
+  ]
+}

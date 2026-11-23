@@ -1,0 +1,185 @@
+{
+  "title": "Piping RBI: API 570 Circuits, CMLs and Inspection Plans",
+  "description": "Risk-based inspection for process piping to API 570 and API 574: circuits, CML optimisation, injection points, dead legs, CUI and small-bore piping.",
+  "h1": "Risk-based inspection for process piping circuits",
+  "eyebrow": "Risk-based inspection",
+  "intro": "Written for inspection supervisors and piping engineers at refineries, gas plants and chemical sites where the piping register runs to thousands of circuits. It covers what API 570 lets a risk-based analysis decide, how inspection circuits are built from corrosion loops, how condition monitoring locations are moved to where damage actually happens, how injection points, dead legs, corrosion under insulation and small-bore lines are handled, and what a piping RBI study prepared remotely by Atlantis hands back to your inspectors.",
+  "highlights": [
+    { "h": "Circuits that share one damage story", "p": "A circuit is only useful if every metre of it is expected to degrade the same way. Boundaries go where metallurgy, temperature, flow or chemistry change, so the inspection on one part of the circuit genuinely tells you about the rest of it." },
+    { "h": "Fewer readings, better placed", "p": "Many layouts measure straight runs where nothing happens and miss the elbows, tees and low points where it does. Optimisation moves monitoring locations to the active zones, retires duplicates with a recorded reason, and sets the method for each point." },
+    { "h": "Special-emphasis areas named", "p": "Injection points, dead legs, corrosion under insulation, soil-to-air interfaces and small-bore connections break the general assumptions of a circuit. Each one gets its own line in the plan instead of being averaged into the run around it." }
+  ],
+  "sections": [
+    {
+      "id": "what-api-570-allows",
+      "h": "What API 570 lets a risk-based analysis decide",
+      "p": [
+        "API 570 (fifth edition, February 2024, with Addendum 1 in 2025) sets default inspection intervals from the measured corrosion rate, the remaining life and the piping service class, tempered by jurisdictional rules and the judgement of the inspector or piping engineer. It also allows a risk-based analysis carried out in line with API RP 580 to set the interval or due date and the type and extent of inspection for each circuit. That second part matters as much as the first: on piping, RBI is as much about where the readings go and which method takes them as it is about the date.",
+        "The 2016 fourth edition required an RBI assessment used to set intervals to be updated after each inspection, on a maximum 10-year cycle and after process or hardware changes, with approval by qualified personnel and the inspector. Before a study starts we confirm the edition and addenda your procedure has adopted, build the programme to that edition and record it in the report.",
+        "API RP 574 sits beside the code with inspection practices for piping components: where corrosion tends to appear, how thickness measurement locations are chosen and how fittings, valves and branches behave differently from straight pipe. A piping RBI draws on both documents, plus API RP 571 for the damage mechanisms themselves."
+      ]
+    },
+    {
+      "id": "circuits-and-loops",
+      "h": "From corrosion loops to inspection circuits",
+      "p": [
+        "A corrosion loop groups equipment and piping that share materials and process conditions closely enough to suffer the same damage mechanisms at broadly similar rates. Loops come out of the damage mechanism review and are drawn on the process flow diagram. An inspection circuit is a subdivision of a loop: a line or set of lines with common design and expected behaviour, small enough for an inspector to plan and report as one item.",
+        "Circuit boundaries belong where the damage story changes: at a change of metallurgy, where temperature crosses a threshold that switches a mechanism on or off, at injection and mixing points, where flow velocity or regime changes, downstream of a control valve or let-down, and where a dead leg begins. Circuits drawn too long hide localised attack behind a healthy average; circuits drawn too short multiply the workload without adding knowledge.",
+        "Each circuit carries its governing damage mechanisms, the expected location of the worst damage and its consequence inputs: the fluid and its phase, the inventory a leak could release before isolation, operating pressure and temperature, and what sits around the line, from fired heaters to occupied buildings."
+      ],
+      "links": [["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]]
+    },
+    {
+      "id": "cml-optimisation",
+      "h": "CML optimisation: putting readings where damage happens",
+      "p": [
+        "Condition monitoring locations, with the individual thickness points inside them, are where a piping programme spends most of its inspection effort. Many sites inherited layouts drawn decades ago, evenly spaced along straight runs where general thinning is slow, and absent from the elbows, tees, reducers and low points where damage concentrates. Optimisation fixes the layout circuit by circuit:"
+      ],
+      "list": [
+        "Matches each circuit's monitoring locations to its mechanism: elbows and downstream of restrictions for erosion-corrosion, low points for water-related attack, the zone around an injection point for mixing problems, and the top of line where condensation forms.",
+        "Retires locations that duplicate each other on a stable, low-rate run, recording the reason so the decision can be audited later.",
+        "Adds locations where the mechanism is active and nothing has ever been measured.",
+        "Sets the method for each location: spot ultrasonic readings, ultrasonic scanning or corrosion mapping, profile radiography by a licensed contractor, or guided-wave screening for long runs.",
+        "Calculates long-term and short-term corrosion rates and flags circuits where the two disagree, since that is often the first sign of a process change.",
+        "Keeps the numbering stable, so that history stays attached to a point even when it is relocated."
+      ]
+    },
+    {
+      "id": "special-emphasis",
+      "h": "Special-emphasis areas each get their own plan line",
+      "p": [
+        "Some locations fail in ways the circuit average will never predict. The study identifies them from drawings, process data and workshop knowledge, and gives each its own inspection requirement."
+      ],
+      "table": {
+        "head": ["Area", "Why it breaks the circuit assumptions", "What the plan specifies"],
+        "rows": [
+          ["Injection points", "Wash water, inhibitor, caustic or neutraliser entering the stream causes localised attack at and downstream of the injection", "A separate injection-point circuit with its own boundaries, monitoring at the fitting and downstream, scanning rather than spot readings, and checks on injection rate and quill condition"],
+          ["Dead legs", "Stagnant flow lets water and solids settle and bacteria grow, with temperature differences adding to the problem", "An inventory including bypasses and idle branches, inspection at the low point and the stagnant end, and a removal recommendation where the line is no longer needed"],
+          ["Corrosion under insulation", "Wet insulation over carbon and low-alloy steel in the active temperature range, and chloride cracking of austenitic stainless steel under insulation", "A susceptibility ranking, an insulation condition survey, targeted removal points and screening methods matched to the line"],
+          ["Soil-to-air interfaces", "Coating breakdown and trapped moisture where a line enters soil or concrete", "Excavation or screening at the interface, coating condition and the extent below grade to examine"],
+          ["Small-bore and auxiliary piping", "Vents, drains and instrument connections suffer vibration fatigue and thread damage and are often left out of the register", "An inventory, a vibration and support check, thickness readings where corrosion is credible, and a replace-or-brace decision"],
+          ["Mixing and deposition zones", "Streams combining at different temperatures or compositions can deposit salts or form corrosive condensate locally", "Defined zone boundaries, the deposition mechanism named, and inspection concentrated where deposits form"]
+        ]
+      }
+    },
+    {
+      "id": "piping-data",
+      "h": "Data a piping study draws on",
+      "p": [
+        "Piping studies stand or fall on the line list and the thickness history. The request covers:"
+      ],
+      "list": [
+        "P&IDs, isometrics and the line list with size, schedule, material specification, design and operating conditions and insulation details.",
+        "Existing circuit definitions and the monitoring location register, with every reading, its date and the method used.",
+        "Process chemistry: sulfur, chlorides, water, hydrogen sulfide, amine strength, sour water pH and flow velocities, together with integrity operating windows and their exceedance history.",
+        "Injection details: what is injected, where, at what rate and through which fitting.",
+        "Management of change records, changes of service, rerates, repairs and replacement spools.",
+        "Corrosion under insulation records, insulation removal findings and coating history.",
+        "Leak and failure history for each unit, including near misses that never reached a report.",
+        "Consequence inputs: fluid, phase, inventory, detection and isolation arrangements and distance to occupied buildings."
+      ]
+    },
+    {
+      "id": "remote-delivery",
+      "h": "How the piping study is delivered remotely",
+      "p": [
+        "The study is run remotely, unit by unit. Line lists and isometrics come through a shared data room, circuits are proposed from the damage mechanism review, and each unit is worked through in a video workshop with its process engineer, inspectors and an experienced operator. Operators know which lines vibrate, which valves pass, which drains have not been opened in years and which bypasses quietly became dead legs; that knowledge rarely sits in a database.",
+        "Where something has to be seen, such as a dead leg that is not on the drawings, the condition of a small-bore connection or damaged insulation, your inspectors carry out the walkdown with a checklist we prepare, and photographs and notes come back through the data room. In the United States, Atlantis can also send UT, MT, PT and VT technicians to close data gaps, for example thickness surveys on circuits with no history or ultrasonic scanning of an injection-point circuit. Atlantis does not perform radiography in the United States, so profile radiography stays with a licensed contractor of your choice.",
+        "Results are returned in the structure of your inspection data system or as an import file for the RBI package you already run. If you use the Atlantis ERP to hold inspection records, readings and due dates can sit there too; it stores records only and holds no risk model."
+      ],
+      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"], ["/ultrasonic-pipe-thickness-testing", "Ultrasonic pipe thickness testing"]]
+    },
+    {
+      "id": "circuit-plan",
+      "h": "What each circuit's plan line says",
+      "p": [
+        "Every circuit in the deliverable has one line that an inspector can act on without reading the whole report:"
+      ],
+      "list": [
+        "Circuit identity, boundaries and the loop it belongs to.",
+        "Governing damage mechanisms and where the worst damage is expected.",
+        "Probability, consequence and risk category, with the main driver of each.",
+        "Next inspection due date and its basis, alongside the API 570 default date for comparison.",
+        "Method, coverage and monitoring locations for the next inspection, written so that the inspection earns the effectiveness the calculation assumed.",
+        "Special-emphasis items inside the circuit and their own requirements.",
+        "Data gaps that affect the result, and the reassessment triggers that apply."
+      ]
+    },
+    {
+      "id": "piping-mistakes",
+      "h": "Where piping RBI goes wrong",
+      "p": [
+        "Weak piping programmes tend to share the same faults, and each one leaves the interval resting on less than it appears to."
+      ],
+      "list": [
+        "Circuits copied from the old thickness programme without checking that each one has a single damage story.",
+        "Monitoring locations left where they always were because moving them would break the trend, when a stable numbering scheme solves that problem.",
+        "Injection points and dead legs assessed as part of the main run, so their localised attack never drives the result.",
+        "Corrosion under insulation scored once at programme start and never revisited as insulation ages.",
+        "Small-bore connections missing from the register entirely.",
+        "Short-term corrosion rate spikes discarded as bad readings rather than investigated."
+      ]
+    },
+    {
+      "id": "piping-findings",
+      "h": "Findings, sign-off and what happens next",
+      "p": [
+        "Your API 570 inspector or the inspection authority your procedure names approves circuit intervals and remains responsible for the piping inspection record; the study provides the basis and the proposed plan. When inspection finds wall loss below the required thickness or a crack-like flaw, the decision on continued operation stays with your engineer, since Atlantis does not perform fitness-for-service assessment. New readings then go back into the assessment so that the next due date reflects the measured rate."
+      ]
+    }
+  ],
+  "codes": [
+    "API 570 (fifth edition, February 2024, with Addendum 1, 2025): piping inspection code",
+    "API RP 574: inspection practices for piping system components",
+    "API RP 580 (fourth edition, 2023): elements of a risk-based inspection programme",
+    "API RP 581 (fourth edition, 2025): risk-based inspection methodology",
+    "API RP 571: damage mechanisms affecting fixed equipment",
+    "API RP 583: corrosion under insulation and fireproofing",
+    "API RP 584 (second edition, 2021): integrity operating windows",
+    "ASME B31.3: process piping construction"
+  ],
+  "deliverables": [
+    "Circuit register with boundaries, loops and governing damage mechanisms",
+    "Risk ranking for every circuit with probability and consequence drivers",
+    "Optimised monitoring location layout with additions and retirements justified",
+    "Inspection plan per circuit with due date, method and coverage",
+    "Special-emphasis register: injection points, dead legs, CUI, soil-to-air and small-bore",
+    "Data-gap log, assumptions and reassessment triggers"
+  ],
+  "industries": [
+    "Refining",
+    "Gas processing",
+    "Petrochemical and chemical plants",
+    "Fertiliser and ammonia plants",
+    "LNG and gas liquefaction",
+    "Pipeline and terminal facility piping"
+  ],
+  "faqs": [
+    { "q": "Can RBI replace the API 570 class-based inspection intervals?", "a": "Yes, within the conditions of the edition you work to. API 570 allows an analysis done in line with API RP 580 to set the interval or due date and the type and extent of inspection for each circuit, in place of the defaults driven by service class and remaining life. The assessment has to be kept current, and your inspector approves the resulting intervals." },
+    { "q": "What is the difference between a corrosion loop and a piping circuit?", "a": "A corrosion loop groups piping and equipment that share materials, process conditions and damage mechanisms. A circuit is a smaller inspection unit inside a loop: a line or group of lines with common design and expected degradation, sized so that one inspection result can represent the whole circuit. Loops come from the damage mechanism review; circuits are how the inspection plan is organised." },
+    { "q": "How many monitoring locations should a circuit have?", "a": "There is no fixed number. It depends on the mechanism, the geometry, how localised the attack can be and the consequence of a leak. A long, stable, low-rate run may need few points, while a short circuit with erosion at fittings or an injection point may need scanning across several components. Optimisation adds and retires locations on that basis and records why." },
+    { "q": "How does the study handle injection points?", "a": "Each injection point becomes its own circuit, with boundaries upstream and downstream of the fitting set to cover the zone where mixing causes attack. The plan calls for monitoring at the fitting and downstream, usually by scanning rather than spot readings, plus checks that the injection rate and quill are as designed. A change in the injected chemical is a reassessment trigger." },
+    { "q": "Does piping RBI cover small-bore connections?", "a": "It should, and many programmes miss them. Vents, drains, instrument tappings and threaded connections fail from vibration fatigue and thread damage more often than from wall loss. The study builds an inventory from drawings and the walkdown, ranks the connections by vibration exposure and consequence, and recommends thickness checks where corrosion is credible and bracing or replacement where fatigue is the threat." },
+    { "q": "Can corrosion under insulation be assessed without a site visit?", "a": "The susceptibility ranking can: it uses material, operating temperature, insulation and cladding type, coating age, climate and past removal findings. What cannot be done from a desk is seeing the condition of the cladding and insulation. Your inspectors carry out that survey with our checklist, and the plan then targets removal or screening at the locations the ranking and the survey both point to." },
+    { "q": "What if our thickness history is patchy or inconsistent?", "a": "It is common. Readings are reviewed for obvious errors, method changes and moved points before any rate is calculated, and circuits with too little reliable data are flagged rather than given an optimistic rate. The plan then asks for the readings that would make the biggest difference, so the next reassessment rests on better data." },
+    { "q": "Who approves piping inspection intervals from the study?", "a": "Your API 570 inspector, or whichever inspection authority your company procedure names. The study proposes due dates, methods and coverage with the reasoning behind each, and Atlantis answers questions on that reasoning, but approval and the piping inspection record remain with your organisation." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/consulting/api-570-piping-inspector-services", "API 570 piping inspection support"],
+    ["/standards/api-570", "API 570 explained"],
+    ["/standards/api-574", "API RP 574 piping inspection practices"],
+    ["/api-inspection/api-570-injection-point-inspection", "Injection point inspection"],
+    ["/api-inspection/api-570-deadleg-inspection", "Dead leg inspection"],
+    ["/api-inspection/cui-in-api-570-and-api-510-inspection-plans", "CUI in API 570 and API 510 plans"],
+    ["/api-inspection/api-570-small-bore-auxiliary-piping", "Small-bore and auxiliary piping"],
+    ["/api-inspection/api-570-soil-to-air-buried-piping", "Soil-to-air interfaces"],
+    ["/api-inspection/corrosion-rate-calculation-long-term-short-term", "Long-term and short-term corrosion rates"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"]
+  ],
+  "sources": [
+    { "fact": "API 570 fifth edition February 2024 with Addendum 1 (2025); API RP 580 4th ed. 2023; API RP 581 4th ed. January 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" },
+    { "fact": "API 570 allows RBI per API RP 580 to set intervals/due dates and type and extent of inspection; 2016 fourth edition required updates after each inspection, max 10-year cycle, after process or hardware changes (already stated on the site)", "url": "https://atlantisndt.com/api-inspection/time-based-vs-risk-based-intervals" },
+    { "fact": "API RP 584 second edition, 2021", "url": "https://infostore.saiglobal.com/en-au/standards/api-rp-584-2021-98121_saig_api_api_3084360/" }
+  ]
+}

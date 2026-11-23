@@ -1,0 +1,168 @@
+{
+  "title": "Remote RBI Studies: How Risk-Based Inspection Is Run Off-Site",
+  "description": "How a remote risk-based inspection study runs end to end: data room, video workshops, data checks by your inspectors, site tasks and deliverables.",
+  "h1": "How a remote risk-based inspection study works, step by step",
+  "eyebrow": "Risk-based inspection",
+  "intro": "Owners considering an RBI study often ask whether it can be done properly without a consulting team living on site for months. It can, provided the work is organised around the people who already know the plant and the records that already exist. This page walks through each stage of a remote study as Atlantis runs it: scoping, the data room, verification, video workshops, risk ranking, inspection planning and handover, and it is explicit about which tasks still need someone standing next to the equipment and who that person is.",
+  "highlights": [
+    { "h": "Records stay under your control", "p": "Documents go into a data room you nominate or one set up for the project, with access limited to the named project team. Scans and photographs of paper records are fine; nothing has to be retyped before it can be used in the study." },
+    { "h": "Workshops fitted around operations", "p": "Short, focused video sessions replace week-long meetings in a site conference room. Each one covers a single unit or loop, has its drawings and draft mechanism list circulated in advance, and ends with decisions written down for confirmation." },
+    { "h": "Site checks by people already there", "p": "Walkdowns and data verification are carried out by your own inspectors using checklists prepared for the study. In the United States, Atlantis can add UT, MT, PT and VT technicians where thickness or surface data is missing." }
+  ],
+  "sections": [
+    {
+      "id": "why-remote",
+      "h": "Why risk-based inspection lends itself to remote delivery",
+      "p": [
+        "An RBI study is engineering analysis of records and of what plant people know. The analyst needs the drawings, the process data, the inspection history and the judgement of the operators, process engineers, corrosion specialists and inspectors who live with the equipment. None of that requires the analyst to stand beside a vessel; what does require presence is checking that the records match the hardware and carrying out the inspection the plan calls for, and those are tasks your own inspectors already do every day.",
+        "Delivering the study remotely removes travel and mobilisation, lets workshops be scheduled around the operating day instead of blocking whole weeks, and leaves a searchable record of every document and decision. The limits are equally real: the study can only be as good as the records that can be retrieved and the care taken during the walkdown, which is why both get explicit attention in the plan below."
+      ]
+    },
+    {
+      "id": "stages",
+      "h": "The stages of a remote study and who does each one",
+      "p": [
+        "Every study follows the same sequence, scaled to the size of the scope. The table shows each stage, what happens in it and where the work sits."
+      ],
+      "table": {
+        "head": ["Stage", "What happens", "Who does it"],
+        "rows": [
+          ["Scoping", "Agree units and equipment classes in scope, the method (qualitative, semi-quantitative, API RP 581 or your own RBI standard), the risk matrix or risk targets, and the code editions that apply", "Your integrity lead with Atlantis"],
+          ["Data request and data room", "A structured request is issued and records are uploaded and indexed by equipment item", "Your document holders upload; Atlantis indexes"],
+          ["Data review and gap log", "Records are checked for completeness and consistency, and each gap is assigned an owner and a fallback assumption", "Atlantis, with gap owners on your side"],
+          ["Verification walkdown", "Items that drawings cannot settle are checked in the field against a prepared checklist", "Your inspectors; in the United States, Atlantis technicians where NDT data is missing"],
+          ["Loop and mechanism workshops", "Corrosion loops are drawn and damage mechanisms assigned, unit by unit, by video", "Your process, corrosion, operations and inspection people, facilitated by Atlantis"],
+          ["Risk calculation", "Probability and consequence are worked out for every item and a draft ranking is circulated", "Atlantis"],
+          ["Risk review", "Your team challenges the ranking item by item before any plan is written", "Your team with Atlantis"],
+          ["Inspection planning", "Method, coverage, effectiveness and due date are proposed for every item", "Atlantis drafts; your inspector reviews"],
+          ["Handover", "Final report, registers in your format and a walkthrough session for the inspectors who will use the plan", "Atlantis presents; your inspector of record approves the intervals"],
+          ["Reassessment set-up", "Triggers, the next review date and the route by which new inspection results come back into the assessment", "Agreed jointly"]
+        ]
+      }
+    },
+    {
+      "id": "data-room",
+      "h": "What goes into the data room",
+      "p": [
+        "The request is organised by the people who hold each kind of record, so nobody has to hunt through someone else's files. A typical request asks for:"
+      ],
+      "list": [
+        "Engineering records: P&IDs, process flow diagrams, line lists, equipment datasheets, manufacturer's data reports, drawings and material specifications.",
+        "Process information: heat and material balances, operating envelopes, process chemistry, integrity operating windows and their exceedance logs.",
+        "Inspection history: inspection reports, thickness readings with dates and methods, corrosion maps, crack examinations, repairs, alterations and rerates.",
+        "Management records: management of change history, incident and leak records, and the inspection procedures and risk criteria currently approved.",
+        "Exports from any existing RBI package or inspection data system, so previous assessments are built on rather than discarded."
+      ]
+    },
+    {
+      "id": "workshops",
+      "h": "How the video workshops run",
+      "p": [
+        "Each workshop covers one unit or a few loops. The agenda goes out ahead of time with the relevant drawing extracts and a draft mechanism list, so attendees arrive having already spotted what is wrong with it. During the session, drawings are marked up on a shared screen and every decision is logged with the reason and the person who gave it, which becomes part of the audit trail the final report carries.",
+        "The useful attendees are the process engineer for the unit, a corrosion or materials specialist, the inspection lead, an experienced operator and, for some units, a maintenance supervisor. Operators are often the most valuable people in the room: they know which lines vibrate, which valves pass and which drains have not been opened in years. Sessions are placed inside your working day, whichever time zone the plant is in, and decisions are sent back for confirmation after each one."
+      ]
+    },
+    {
+      "id": "verification",
+      "h": "Verifying records without travelling",
+      "p": [
+        "Much verification can be done from a desk. Data sources are cross-checked against each other (nameplate against data report, line list against isometric, thickness readings against the nominal schedule), and inconsistencies are put back to the owner of the record. Photographs of nameplates, insulation and small-bore connections often settle a question in minutes.",
+        "What cannot be settled that way goes onto a walkdown checklist for your inspectors, item by item, with the question each check answers. For facilities in the United States, Atlantis can also send UT, MT, PT and VT technicians to fill specific gaps, such as thickness surveys on circuits with no history or corrosion mapping on a suspect shell; Atlantis does not perform radiography in the United States. For facilities elsewhere, data gaps are closed by your inspectors or your contractors to the method and coverage the study specifies."
+      ]
+    },
+    {
+      "id": "site-tasks",
+      "h": "What still needs someone on site",
+      "p": [
+        "A remote study does not pretend that everything can be done from a screen. These tasks need presence, and the plan names who carries each one out:"
+      ],
+      "list": [
+        "Confirming dead legs, small-bore connections and bypasses that do not appear on current drawings.",
+        "Checking nameplates, internals and the condition of insulation, cladding and coatings.",
+        "Thickness surveys and corrosion mapping where history is missing or suspect.",
+        "Crack detection at welds the assessment flags as susceptible.",
+        "Cathodic protection and settlement surveys for storage tanks.",
+        "Executing the inspection plan itself once it has been approved.",
+        "In each case the default is your own inspectors or your contractors; in the United States, Atlantis can carry out the UT, MT, PT and VT tasks."
+      ]
+    },
+    {
+      "id": "handover",
+      "h": "What you receive at the end",
+      "p": [
+        "The handover is designed for the people who will use the plan, not for a shelf. It includes a risk register for every item in scope; an inspection plan per item with method, coverage and due date; the data-gap log with the assumption used for each gap; the workshop decision log; reassessment triggers and the next review date; and a report that explains the method and the basis for every interval. Registers come back as spreadsheets, as import files for the RBI package or inspection data system you already run, or both.",
+        "A walkthrough session for your inspectors closes the study, so that the person approving each interval has heard the reasoning first-hand and knows where to find it in the report later. If you hold inspection records in the Atlantis ERP, due dates and readings can be loaded there as records; the ERP holds no risk model."
+      ]
+    },
+    {
+      "id": "roles",
+      "h": "Who decides what",
+      "p": [
+        "Remote delivery changes where the analyst sits, not who carries responsibility. Your inspector of record, whether an API 510, 570 or 653 inspector, an Authorized Inspector or your company's inspection authority, approves the intervals and remains accountable for them; Atlantis prepares the assessment and the plan but does not take that role. Your management sets the risk targets the plan is judged against. Operations owns the integrity operating windows that keep the assumptions valid. When inspection finds damage that needs fitness-for-service evaluation, that work stays with your engineer, since Atlantis does not offer it."
+      ]
+    },
+    {
+      "id": "what-makes-it-work",
+      "h": "What makes a remote study succeed or stall",
+      "p": [
+        "The same few factors decide how smoothly a remote study runs, and most of them sit on the owner's side of the table:"
+      ],
+      "list": [
+        "One named contact who can chase records and book people into workshops.",
+        "Early access to the inspection history, which is usually the slowest data to assemble.",
+        "Operators and inspectors in the workshops, not just engineers.",
+        "Decisions taken in the session rather than parked indefinitely.",
+        "Willingness to accept an honest 'unknown' flag, followed by a plan to fill it, instead of an optimistic assumption that nobody can defend."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (fourth edition, 2023): elements of a risk-based inspection programme, including roles, data collection and reassessment",
+    "API RP 581 (fourth edition, 2025): quantitative risk-based inspection methodology",
+    "ASME PCC-3 (2022): inspection planning using risk-based methods",
+    "API RP 571: damage mechanisms affecting fixed equipment",
+    "API 510, API 570 and API 653: in-service inspection codes that accept RBI-based intervals"
+  ],
+  "deliverables": [
+    "Indexed data room and data-gap log with owners and assumptions",
+    "Workshop decision log",
+    "Risk register for every item in scope",
+    "Inspection plan per item with method, coverage and due date",
+    "Registers in spreadsheet form and as import files for your systems",
+    "Final report and a walkthrough session for your inspectors"
+  ],
+  "industries": [
+    "Refining and petrochemical",
+    "Storage terminals",
+    "Gas processing and LNG",
+    "Chemical and fertiliser",
+    "Pipeline facilities",
+    "Power generation"
+  ],
+  "faqs": [
+    { "q": "Is a remote RBI study as rigorous as one done on site?", "a": "The analysis is the same; what changes is where the analyst sits. Rigour comes from the quality of the records, the people in the workshops and the walkdown that checks records against hardware. A remote study makes each of those explicit, with a data-gap log, a decision log and a verification checklist, so weaknesses are visible rather than buried in a long site visit." },
+    { "q": "What do you need from our side to start?", "a": "A named contact, agreement on scope and method, access to a data room, and the first tranche of records: P&IDs, equipment lists, datasheets and the inspection history. Workshop attendance from process, corrosion, operations and inspection follows once the records have been reviewed. The inspection history is usually the slowest to assemble, so it helps to start gathering it first." },
+    { "q": "How are workshops scheduled across time zones?", "a": "Inside your working day, whichever time zone the plant is in. Sessions are kept short and focused on one unit or a few loops, so they fit around operating commitments, and decisions are written up and sent back for confirmation after each session so nobody has to rely on memory." },
+    { "q": "Does anyone from Atlantis visit the site?", "a": "The study itself is delivered remotely. Field verification is done by your inspectors using our checklists. In the United States, Atlantis can send UT, MT, PT and VT technicians to close data gaps such as thickness surveys or corrosion mapping, but does not perform radiography there. Outside the United States, gap-closing inspection is carried out by your own people or your contractors." },
+    { "q": "How is confidential plant data handled?", "a": "Records go into a data room you nominate or one set up for the project, with access limited to the named project team, and handling follows the confidentiality terms agreed in the contract. If your company has its own data-handling rules for engineering records, those rules apply to the study and are confirmed during scoping." },
+    { "q": "Can you work from paper records and old reports?", "a": "Yes. Scans and clear photographs are enough. Older reports often hold the earliest thickness readings, which matter for long-term corrosion rates. Records are indexed by equipment item as they arrive, and where a scan is illegible or a report contradicts another source, the question goes back to the record owner through the gap log." },
+    { "q": "Can the results be loaded into our RBI software?", "a": "Yes. If you already run a commercial RBI package or an inspection data system, we work from its exports and return results as import files in its structure, alongside readable registers and the report. That keeps your programme in one place and avoids a parallel spreadsheet that drifts out of date." },
+    { "q": "What happens after the study is handed over?", "a": "Your inspectors execute the plan, and the results feed the next assessment. The handover sets out the reassessment triggers and the next review date, and the route by which new inspection data comes back in. Atlantis can carry out periodic reassessment remotely, and in the United States can deliver conventional NDT that the plan calls for." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "Setting up an RBI programme"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and exchangers"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/api-inspection/owner-user-inspection-organization", "Owner-user inspection organisations"],
+    ["/inspection-services", "Inspection services"],
+    ["/contact", "Contact Atlantis NDT"]
+  ],
+  "sources": [
+    { "fact": "API RP 580 fourth edition (August 2023) covers roles, responsibilities, training and qualifications, data collection, evergreening and reassessment, documentation and recordkeeping", "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html" },
+    { "fact": "ASME PCC-3 current edition 2022 (stabilized maintenance)", "url": "https://www.asme.org/codes-standards/find-codes-standards/inspection-planning-using-risk-based-methods" },
+    { "fact": "API RP 581 fourth edition January 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" }
+  ]
+}

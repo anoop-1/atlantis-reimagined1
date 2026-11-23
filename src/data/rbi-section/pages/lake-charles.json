@@ -1,0 +1,175 @@
+{
+  "title": "RBI in Lake Charles: Refineries, Chemicals and LNG Export",
+  "description": "Remote risk-based inspection for Lake Charles and Westlake refineries, chlor-alkali and petrochemical plants and Calcasieu and Cameron parish LNG terminals.",
+  "h1": "Risk-based inspection for Lake Charles and south-west Louisiana",
+  "eyebrow": "Risk-based inspection in Lake Charles",
+  "intro": "Lake Charles, Westlake and Sulphur put refineries, chlor-alkali and petrochemical plants and a growing row of LNG export terminals along the Calcasieu Ship Channel and down to Cameron Parish, in a region that took two hurricanes in 2020. This page is for the integrity and inspection teams at those plants. It covers the facilities and the damage mechanisms that tend to dominate there, how Louisiana's rules sit beside federal process safety requirements, and how Atlantis runs a remote RBI study for a south-west Louisiana site, with US technicians available to fill gaps in the data.",
+  "highlights": [
+    { "h": "Storm history built in", "p": "Hurricanes Laura and Delta in 2020 replaced insulation, roofs and whole runs of piping across the region. The study separates equipment that was repaired, re-insulated or replaced from equipment that was not, because the two carry very different histories." },
+    { "h": "Chemical and refinery mechanisms", "p": "Wet chlorine, hydrochloric acid and caustic service at the chemical plants are assessed with the same rigour as sulfidation, sour water and hydrogen service in the refineries, each with the process data it actually depends on." },
+    { "h": "LNG from first start-up", "p": "Several Cameron and Calcasieu parish terminals are operating and more are being built. For new trains the plan sets first inspections from construction records and damage mechanism susceptibility, then tightens as in-service data arrives." }
+  ],
+  "sections": [
+    {
+      "id": "swla-cluster",
+      "h": "South-west Louisiana's refining, chemical and LNG cluster",
+      "p": [
+        "The Louisiana Department of Energy and Natural Resources' 2025 refinery report lists three operating crude refineries in Calcasieu Parish: CITGO's refinery near Lake Charles, the largest of the three, Phillips 66's Lake Charles refinery at Westlake and Calcasieu Refining in Lake Charles, with the Excel Paralubes lube base oil plant at Westlake beside them. The Westlake and Lake Charles corridor also holds ethylene crackers, polymer plants, chlor-alkali and vinyls production and the Sasol chemicals complex.",
+        "LNG has become the region's other industry. According to the US Department of Energy's September 2026 snapshot, Cameron LNG at Hackberry is operating three trains, Calcasieu Pass has been operating since March 2022 and Sabine Pass in Cameron Parish is operating, while CP2 in Cameron Parish is under construction with operations estimated for 2027 and a further project, Louisiana LNG Infrastructure in Calcasieu Parish, is under construction with an estimated 2029 start."
+      ],
+      "table": {
+        "head": ["Asset group", "Facilities", "What an RBI study usually concentrates on"],
+        "rows": [
+          ["Refineries", "CITGO, Phillips 66 and Calcasieu Refining; Excel Paralubes lube plant", "Hot sulfur and hydrogen service, hydroprocessing effluent, sour water and amine systems, CUI"],
+          ["Chlor-alkali and vinyls", "Chlorine, caustic soda and vinyls units in the Lake Charles and Westlake corridor", "Wet chlorine and hydrochloric acid corrosion, caustic stress corrosion cracking, lined and non-metallic equipment"],
+          ["Olefins and polymers", "Crackers and polymer plants including the Sasol complex", "Furnace tubes, quench and caustic systems, cold recovery, stainless chloride cracking"],
+          ["LNG export", "Cameron LNG, Calcasieu Pass, Sabine Pass; CP2 and Louisiana LNG Infrastructure under construction", "Pretreatment units, cold-service transitions, cryogenic piping and refrigerated storage"]
+        ]
+      },
+      "links": [
+        ["/inspection/third-party-inspection-lake-charles", "Third-party inspection in Lake Charles"],
+        ["/ultrasonic-testing-lake-charles", "Ultrasonic testing in Lake Charles"]
+      ]
+    },
+    {
+      "id": "laura-and-delta",
+      "h": "After Laura and Delta: storms as reassessment events",
+      "p": [
+        "Hurricane Laura made landfall near Cameron in August 2020 as a major hurricane, and Hurricane Delta struck the same area that October. Plants across the region repaired wind-damaged insulation and jacketing, floating roofs, structures and piping, and some equipment was replaced outright. Six years on, that history is still written into the condition of the equipment, and an RBI study that ignores it will misjudge both new and old items.",
+        "Repairs reset some clocks and not others. A line that was stripped and re-insulated after the storm has a new insulation system, but its CUI history only restarts cleanly if the substrate condition was recorded when it was exposed; if not, the study treats the pre-storm condition as unknown. Equipment replaced after 2020 needs its new construction records loaded in place of the old ones. Tanks that were moved by surge or wind need their settlement and foundation data reviewed before any interval is extended. The plan for a south-west Louisiana site therefore records storm history per item and lists the post-storm checks that would trigger reassessment the next time."
+      ]
+    },
+    {
+      "id": "chlor-alkali-service",
+      "h": "Chlor-alkali, vinyls and caustic service",
+      "p": [
+        "Chemical plants in the corridor bring damage mechanisms that a refinery-centred RBI template handles badly. They need to be named and screened from the plant's own process conditions and materials records, and in some cases the right answer is an operating limit rather than an inspection."
+      ],
+      "list": [
+        "Wet chlorine and hydrochloric acid corrosion, where moisture content, temperature and the material of construction decide whether a component corrodes slowly or fails quickly, making moisture control an integrity operating window",
+        "Caustic stress corrosion cracking of carbon steel, governed by caustic concentration, metal temperature including steam tracing, and whether welds were post-weld heat treated",
+        "Chloride stress corrosion cracking of austenitic stainless equipment, especially under insulation wetted by rain, deluge or storm water",
+        "Lined, clad, titanium, nickel alloy and fibre-reinforced plastic equipment, which cannot be assessed with carbon steel thinning models and need their own inspection strategy and effectiveness rules",
+        "Vinyls service where hydrochloric acid can form if moisture enters, so upsets and wet start-ups become reassessment triggers"
+      ]
+    },
+    {
+      "id": "refinery-hydrogen-sulfur",
+      "h": "Refinery units: hydrogen service and hot sulfur",
+      "p": [
+        "The refineries and the lube base oil plant run hydroprocessing at high temperature and hydrogen partial pressure, so high temperature hydrogen attack belongs in the damage mechanism review alongside the more familiar mechanisms. Carbon and low-alloy steel components are screened against API RP 941 using their actual operating temperature and hydrogen partial pressure and, for carbon steel, whether they were post-weld heat treated. Components that screen as susceptible are not given a long interval on the strength of thickness readings, because thinning is not how that damage shows itself.",
+        "Elsewhere in the refineries the usual Gulf Coast set applies: high-temperature sulfidation in crude, vacuum and coker circuits, ammonium bisulfide and chloride corrosion in hydroprocessing effluent, wet hydrogen sulfide damage in sour water and amine systems, and corrosion under insulation in a climate that is hot and wet for much of the year. Each is assigned by corrosion loop to API 571 with the process data it depends on."
+      ],
+      "links": [
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/standards/api-584", "API 584 integrity operating windows"]
+      ]
+    },
+    {
+      "id": "swla-lng",
+      "h": "LNG terminals in Calcasieu and Cameron parishes",
+      "p": [
+        "South-west Louisiana's LNG terminals sit at very different stages: some have run for years, some are a few years into operation and some are still being built. For a plant that has only just started, the study uses the design basis, material certificates, fabrication and construction NDE records, hydrotest results and baseline readings to set first in-service inspection dates by damage mechanism. That avoids two failure modes at once: blanket short intervals that waste the first outages, and long intervals justified only by the absence of findings that nobody has yet looked for.",
+        "In operating terminals the damage picture concentrates upstream of liquefaction and at temperature transitions. Acid gas removal units carry amine corrosion and cracking mechanisms, dehydration and mercury removal units carry their own, and the boundary between ambient and cryogenic service is where moisture gets into insulation and external corrosion begins. Refrigerated storage built to API 620 or API 625 has its own inspection approach, and the consequence side is dominated by flammable vapour release. Sabine Pass sits near the Texas border, and the Golden Triangle page covers its Texas neighbours."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/beaumont-port-arthur", "RBI in Beaumont and Port Arthur"]
+      ]
+    },
+    {
+      "id": "swla-tanks",
+      "h": "Tank farms on soft coastal ground",
+      "p": [
+        "Refinery, chemical and terminal tanks in the region stand on soft, wet coastal soils, which makes settlement and foundation condition a live part of the tank risk picture rather than a footnote. A tank RBI here asks for settlement surveys evaluated against API 653 Annex B, foundation and drainage condition, cathodic protection data, release prevention barrier details and the date and findings of the last out-of-service inspection, alongside shell and floor thickness.",
+        "Plant and terminal tanks outside 49 CFR Part 195 can use the risk-based alternative internal inspection interval in API 653, with the owner's API 653 inspector approving the result. Breakout tanks on pipeline systems currently cannot, because Section 195.432 excludes that option; PHMSA proposed in June 2026 to allow it with record-keeping and maximum intervals, but the proposal is not final. EPA's SPCC rule also expects aboveground oil storage to be integrity tested on a schedule set by an industry standard, which API 653 normally provides."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/united-states", "US federal rules for RBI and tanks"]
+      ]
+    },
+    {
+      "id": "louisiana-rules",
+      "h": "Louisiana rules beside the federal framework",
+      "p": [
+        "Louisiana private-sector employers fall under federal OSHA, so process safety management under 29 CFR 1910.119 and its mechanical integrity requirements apply directly, and EPA's Risk Management Program covers many of the same processes. The state's boiler law is administered by the Office of State Fire Marshal, whose boiler inspection section issues certificates of inspection for regulated boilers inspected by state inspectors or insurance inspectors commissioned through the National Board. The state rules are not designed as a routine inspection programme for most unfired pressure vessels, so vessel inspection in Louisiana plants is driven mainly by process safety rules, insurers and owner programmes built on API 510.",
+        "Industrial radiography and air and water permits sit with the Louisiana Department of Environmental Quality, and intrastate pipeline safety with the state's pipeline safety programme acting as PHMSA's partner; agency names in that area have changed recently, so the current authority should be confirmed for each site. The RBI report keeps boilers and any item whose interval is set by one of these regimes on a separate list."
+      ]
+    },
+    {
+      "id": "lake-charles-study",
+      "h": "How a remote study runs for a Lake Charles site",
+      "p": [
+        "The first step is a data request matched to the scope and a shared data room: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness history, storm repair and replacement records since 2020, process chemistry and the integrity operating windows. A data-gap log goes out before any workshop, so the plant can decide which gaps to fill and which to cover conservatively.",
+        "Damage mechanisms are assigned by corrosion loop to API 571 and tested in video workshops with your process, operations, corrosion and inspection people in Central time. Probability and consequence follow the agreed level, from qualitative screening to a quantitative assessment to API RP 581 or your corporate RBI standard, and each item receives a plan with method, coverage, expected effectiveness and due date. Atlantis is based in Houston, about 140 miles west of Lake Charles, and continues analysis from its Hyderabad office between workshops.",
+        "Where a missing reading would distort the ranking, Atlantis can send UT, MT, PT and VT technicians to Louisiana sites for baseline thickness surveys, corrosion mapping on suspect insulated equipment and surface examination of welds in caustic, amine or other cracking service. Atlantis does not perform radiography in the United States; the owner's licensed radiography contractor carries out any radiography the plan calls for, and the results are fed back into the model."
+      ],
+      "links": [
+        ["/corrosion-mapping", "Corrosion mapping"],
+        ["/ultrasonic-pipe-thickness-testing", "Ultrasonic pipe thickness testing"]
+      ]
+    },
+    {
+      "id": "lake-charles-approval",
+      "h": "Approval stays with the owner",
+      "p": [
+        "The study delivers recommended intervals and tasks with the reasoning for each. The owner's inspector of record, whether the API 510, 570 or 653 inspector, a commissioned inspector for jurisdictional boilers or the operator's inspection authority, decides what to adopt, and Atlantis does not act as inspector of record. Where inspection finds damage that needs a fitness-for-service judgement, the owner's engineer makes it; Atlantis does not provide API 579-1 assessments, and the RBI model is updated with the result."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 and API RP 581",
+    "ASME PCC-3",
+    "API RP 571 (damage mechanisms)",
+    "API RP 941 (high temperature hydrogen attack)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "API 620 and API 625",
+    "OSHA 29 CFR 1910.119 and EPA 40 CFR Part 68",
+    "EPA 40 CFR Part 112 (SPCC) and PHMSA 49 CFR Part 195"
+  ],
+  "deliverables": [
+    "RBI register with probability, consequence and risk for each item in scope",
+    "Inspection plan per item with method, coverage, effectiveness and due date",
+    "Storm history per item, separating repaired, re-insulated and replaced equipment",
+    "HTHA screening results for hydroprocessing components to API RP 941",
+    "First in-service inspection dates for new LNG and replacement equipment",
+    "Data-gap log, with the option of Atlantis technicians collecting missing readings",
+    "Separate list of boilers and other items whose intervals are set by a regulation"
+  ],
+  "industries": [
+    "Refining and lube base oils",
+    "Chlor-alkali and vinyls",
+    "Olefins and polymers",
+    "LNG export",
+    "Terminals and tank farms",
+    "Pipeline breakout tank farms"
+  ],
+  "faqs": [
+    { "q": "How should our RBI programme account for Hurricanes Laura and Delta?", "a": "Record storm history per item. Equipment repaired, re-insulated or replaced after 2020 needs its new records loaded, and its CUI history only restarts cleanly if the substrate condition was recorded when it was stripped. Tanks moved by surge or wind need settlement and foundation data reviewed. The plan also lists post-storm checks that trigger reassessment next time." },
+    { "q": "Does Louisiana's boiler law cover RBI intervals for our pressure vessels?", "a": "The Office of State Fire Marshal administers the boiler law and issues certificates for regulated boilers, but the state rules are not designed as a routine inspection programme for most unfired pressure vessels. Vessel intervals are mainly driven by OSHA process safety rules, insurers and owner API 510 programmes. Boilers are listed separately in the RBI report." },
+    { "q": "Can RBI handle chlor-alkali and vinyls equipment?", "a": "Yes, if the damage mechanisms are named and screened properly: wet chlorine and hydrochloric acid corrosion, caustic stress corrosion cracking and chloride cracking of stainless equipment. Lined, titanium, nickel alloy and fibre-reinforced plastic equipment needs its own inspection strategy, and moisture control often belongs in an integrity operating window rather than an inspection plan." },
+    { "q": "Should high temperature hydrogen attack be part of the RBI for our hydroprocessing units?", "a": "Yes. Carbon and low-alloy steel components in hydrogen service are screened against API RP 941 using actual operating temperature and hydrogen partial pressure, and for carbon steel whether welds were post-weld heat treated. Susceptible components are not given long intervals on the basis of thickness data, because thinning is not how that damage appears." },
+    { "q": "Can you set up RBI for an LNG train that has only just started?", "a": "Yes. The study uses the design basis, material certificates, construction NDE records, hydrotest results and baseline readings to set first in-service inspection dates by damage mechanism susceptibility. As operating data and first inspections come in, assumptions are replaced with measured rates and the intervals are refined." },
+    { "q": "Can Atlantis technicians work at our Louisiana plant?", "a": "Yes. The RBI study itself is remote, but in the United States Atlantis can send UT, MT, PT and VT technicians to close data gaps, such as baseline thickness surveys, corrosion mapping on insulated equipment and surface examination of welds in cracking service. Radiography is not offered in the US and stays with the owner's licensed contractor." },
+    { "q": "Who approves the inspection plan?", "a": "The owner's inspector of record, such as the API 510, 570 or 653 inspector, a commissioned inspector for jurisdictional boilers or the operator's inspection authority. The study recommends; it does not approve. If damage turns up that calls for a fitness-for-service judgement, the owner's engineer makes that call." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/united-states", "RBI in the United States"],
+    ["/inspection/risk-based-inspection/beaumont-port-arthur", "RBI in Beaumont and Port Arthur"],
+    ["/inspection/risk-based-inspection/houston", "RBI in Houston and the Ship Channel"],
+    ["/inspection/third-party-inspection-lake-charles", "Third-party inspection in Lake Charles"],
+    ["/ultrasonic-testing-lake-charles", "Ultrasonic testing in Lake Charles"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/consulting/api-510-pressure-vessel-inspector-services", "API 510 pressure vessel inspector support"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Louisiana DENR 2025 refinery report: Calcasieu Parish refineries CITGO (Sulphur address, 459,000 b/cd), Phillips 66 Westlake (263,700), Calcasieu Refining Lake Charles (135,500); Excel Paralubes Westlake; Pelican Refining non-operating", "url": "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf" },
+    { "fact": "DOE LNG snapshot Sept 30 2026: Cameron LNG (Hackberry) 3 trains operating; Calcasieu Pass operating since Mar 2022; Sabine Pass operating; CP2 under construction est. 2027; Louisiana LNG Infrastructure (Calcasieu Parish) under construction est. 2029", "url": "https://www.energy.gov/sites/default/files/2026-09/LNG%20Snapshot%20September%2030%202026.pdf" },
+    { "fact": "Westlake/Lake Charles corridor: crackers, polymer plants, chlor-alkali, Sasol complex; Louisiana OSFM boilers with National Board commissioned inspectors, state rules not a routine programme for most unfired vessels; LDEQ radiography and permits; pipeline safety agency renamed; federal OSHA PSM; SPCC", "url": "https://atlantisndt.com/inspection-services-louisiana" },
+    { "fact": "Lake Charles LNG/refining/chemical cluster and hurricane season context", "url": "https://atlantisndt.com/ndt-training-lake-charles" },
+    { "fact": "49 CFR 195.432(b) excludes API 653 6.4.3; PHMSA June 2026 NPRM not final", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" }
+  ]
+}

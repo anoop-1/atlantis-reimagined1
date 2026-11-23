@@ -1,0 +1,166 @@
+{
+  "title": "RBI in Corpus Christi: Export Terminals, Refineries and LNG",
+  "description": "Remote risk-based inspection for Corpus Christi crude export terminals, Refinery Row, LNG trains and the Gregory cracker, with US technicians for data gaps.",
+  "h1": "Risk-based inspection for Corpus Christi and the Coastal Bend",
+  "eyebrow": "Risk-based inspection in Corpus Christi",
+  "intro": "Corpus Christi combines three very different kinds of equipment within a few miles of the bay: crude export tank farms that fill and empty at high rates, refineries along the ship channel, and LNG trains and an ethane cracker on the north shore. Each needs a different emphasis in a risk-based inspection study. This page covers the facilities on the Coastal Bend, the conditions that drive risk there, the federal and Texas rules involved and how Atlantis runs an RBI study for a Corpus Christi site remotely, with US technicians available when the data has holes.",
+  "highlights": [
+    { "h": "Throughput-aware tank RBI", "p": "Export terminals cycle tanks far harder than a refinery tank farm. Fill rates, water draws, roof movement and the crude grades handled all go into the probability of failure, so the plan reflects how each tank is actually used." },
+    { "h": "Three asset classes, one method", "p": "Crude tanks, refinery units and cryogenic LNG equipment are assessed with the same documented approach, but with damage mechanisms, consequence models and inspection methods chosen for each, rather than one template stretched over all three." },
+    { "h": "Classification settled first", "p": "Whether a terminal tank is a breakout tank under 49 CFR Part 195 decides whether the API 653 risk-based interval is available today. The study sorts that out before any interval is proposed." }
+  ],
+  "sections": [
+    {
+      "id": "coastal-bend-overview",
+      "h": "What sits around Corpus Christi Bay",
+      "p": [
+        "The Port of Corpus Christi is the leading US gateway for crude oil exports, fed by long-haul pipelines from the Permian Basin and the Eagle Ford. Along the ship channel's Refinery Row, CITGO, Flint Hills Resources and Valero operate refineries. On the north side of the bay, Cheniere's Corpus Christi liquefaction plant runs three trains plus its Stage 3 expansion, with further capacity under construction according to the US Department of Energy's September 2026 snapshot, and Gulf Coast Growth Ventures, the ExxonMobil and SABIC ethane cracker complex, operates near Gregory. Across the channel at Ingleside, Kiewit's offshore yard builds platforms and modules.",
+        "The largest single tank farm is the Enbridge Ingleside Energy Center. Enbridge reports total storage of 20 million barrels after its Phase VII tank expansion added 2.5 million barrels, four deep-water berths, two of them able to take VLCCs, and loading of more than 415 million barrels of crude in 2025, about 1.13 million barrels a day. Five pipelines connect directly: Gray Oak, Cactus I, Cactus II, EPIC and Harvest."
+      ],
+      "table": {
+        "head": ["Facility type", "Examples on the Coastal Bend", "Where RBI attention usually goes"],
+        "rows": [
+          ["Crude export terminals", "Enbridge Ingleside Energy Center and other port terminals", "Floor and annular plate corrosion, floating roofs and seals, settlement, dock and transfer piping"],
+          ["Refineries", "CITGO, Flint Hills Resources and Valero refineries on Refinery Row", "Crude unit overhead corrosion, hydroprocessing effluent, sulfidation, amine systems, CUI"],
+          ["LNG export", "Cheniere's Corpus Christi liquefaction plant", "Acid gas removal and dehydration units, cold service transitions, cryogenic piping supports, storage tanks"],
+          ["Petrochemicals", "Gulf Coast Growth Ventures cracker near Gregory", "Cracking furnace tubes, quench and caustic systems, cracked gas compression, cold recovery"]
+        ]
+      }
+    },
+    {
+      "id": "export-terminal-tanks",
+      "h": "Export terminal tanks: when throughput drives the risk",
+      "p": [
+        "A crude export terminal does not use its tanks the way a refinery does. Tanks may turn over many times a month as cargoes are assembled, external floating roofs travel the full shell height again and again, and water and sediment settle out between transfers. Those operating facts change floor corrosion rates, seal and shell wear, and the loading on roof drains and supports. An RBI study that treats every tank as an average tank misses the ones doing the hardest work.",
+        "The assessment therefore asks for operating data as well as inspection data: turnover frequency, typical fill and draw rates, water draw records, crude grades handled, cathodic protection readings, release prevention barrier details and the date and findings of the last out-of-service inspection. Light crudes from the Permian and Eagle Ford are generally low in sulfur, but water bottoms, chlorides and sediment still drive product-side floor corrosion, and soil-side attack depends on the foundation, drainage and protection under each tank.",
+        "Before an interval is proposed, the study settles which tanks are breakout tanks on a hazardous liquid pipeline system. Those fall under 49 CFR 195.432, which currently applies API 653 without its risk-based alternative internal interval; PHMSA's June 2026 proposal would allow it with record-keeping and maximum intervals, but it is not yet final. Tanks outside Part 195 can use the API 653 risk-based option now, subject to its conditions and the approval of the owner's API 653 inspector. Marine transfer areas at the docks also come under US Coast Guard rules for oil transfer facilities, which stand alongside any RBI plan rather than being replaced by it."
+      ],
+      "links": [
+        ["/inspection/tank-inspection-services-corpus-christi", "Tank inspection in Corpus Christi"],
+        ["/api-653-tank-inspection-texas", "API 653 tank inspection in Texas"]
+      ]
+    },
+    {
+      "id": "refinery-row",
+      "h": "Refinery Row: the mechanisms that carry the risk",
+      "p": [
+        "The refineries on the Corpus Christi Ship Channel run the familiar Gulf Coast process train, and the damage mechanism review follows it unit by unit. What changes from one plant to another is the crude diet, the age of the equipment and the inspection history, so the review is built from the plant's own process data rather than from a library default."
+      ],
+      "list": [
+        "Crude unit overhead systems, where chlorides hydrolysed from salts in the crude form hydrochloric acid at the dew point, making wash water, neutraliser practice and desalter performance part of the probability assessment",
+        "Hydroprocessing reactor effluent trains, where ammonium bisulfide and ammonium chloride deposits drive corrosion that depends on velocity, wash water and the NH4HS concentration",
+        "High-temperature sulfidation in crude, vacuum and coker circuits, sensitive to sulfur content, temperature and the silicon content of older carbon steel components",
+        "Amine regenerators and rich amine lines, where corrosion and amine stress corrosion cracking depend on loading, temperature and whether welds were stress relieved",
+        "Corrosion under insulation on carbon steel lines and vessels in the bay-side atmosphere, screened by operating temperature, insulation system and jacketing condition",
+        "Tankage inside the refinery fence, assessed with the same floor, shell and roof logic as the terminals but with the refinery's own product services"
+      ],
+      "links": [
+        ["/inspection/piping-inspection-services-corpus-christi", "Piping inspection in Corpus Christi"],
+        ["/inspection/pressure-vessel-inspection-services-corpus-christi", "Pressure vessel inspection in Corpus Christi"]
+      ]
+    },
+    {
+      "id": "lng-and-gregory",
+      "h": "LNG trains and the Gregory cracker",
+      "p": [
+        "Liquefaction plants are often assumed to be low-risk for corrosion because so much of the equipment runs cold. The RBI picture is more mixed. Upstream of the cold box, acid gas removal units carry amine corrosion and cracking mechanisms, dehydration and mercury removal units have their own vessels and piping, and the boundary where equipment passes from ambient to cryogenic temperature is where moisture gets into insulation and external corrosion starts. Carbon steel components near cold service also need their brittle fracture exposure considered if a release or upset could chill them. The consequence side of an LNG assessment is dominated by flammable vapour release.",
+        "An ethane cracker brings yet another set. Cracking furnace tubes suffer carburisation and creep, quench water and dilution steam systems carry their own corrosion mechanisms, caustic towers carry the risk of caustic cracking, and the cold recovery section has the low-temperature concerns of a gas plant. For both LNG and cracker units the plan has to distinguish damage that inspection can find and trend from damage that is better managed through operating limits, which is where integrity operating windows to API RP 584 earn their place in the study."
+      ],
+      "links": [
+        ["/standards/api-584", "API 584 integrity operating windows"]
+      ]
+    },
+    {
+      "id": "coastal-bend-weather",
+      "h": "Salt air, wind and storms on the Coastal Bend",
+      "p": [
+        "The bay-side setting is warm, humid and frequently windy, and onshore winds carry salt onto pipe racks, tank shells, dock structures and the jacketing of insulated lines. External corrosion on carbon steel that would progress slowly inland can be the controlling mechanism here, particularly at supports, crevices and damaged coating. The study rates exposure by location, so equipment at the waterfront is not treated the same as equipment a mile inland.",
+        "Hurricanes are the other coastal factor. Hurricane Harvey made landfall near Rockport, north-east of Corpus Christi, in August 2017 as a major hurricane, and the Atlantic season runs from June through November. A storm can flood foundations, saturate insulation, damage floating roofs and move tanks on their foundations. The RBI plan for a Coastal Bend facility names a storm as a reassessment trigger and lists the checks that decide whether intervals still hold afterwards."
+      ]
+    },
+    {
+      "id": "coastal-bend-rules",
+      "h": "Rules that apply to Coastal Bend facilities",
+      "p": [
+        "Refineries, the cracker and the LNG plant are covered by federal OSHA process safety management, because Texas has no state OSHA plan, and by EPA's Risk Management Program for covered processes. Both expect inspection that follows recognised good engineering practice at a defensible frequency, documented for each item. Statewide, the TCEQ Aboveground Storage Vessel Safety program under 30 TAC Chapter 338 applies to covered vessels of 500 barrels or more at refineries, petrochemical plants and bulk terminals, with registration due by September 1, 2027 and self-certification of existing vessels by September 1, 2037.",
+        "Pipelines and their tanks follow the pipeline regime: intrastate lines under the Railroad Commission of Texas and interstate hazardous liquid systems under PHMSA, which is where the breakout tank question arises. Boilers remain under the Texas Department of Licensing and Regulation, whose boiler definition does not list unfired pressure vessels, so plant vessels are generally inspected under the owner's API 510 programme. The RBI report keeps a separate list of any items whose intervals are governed by one of these regimes rather than by the risk ranking."
+      ]
+    },
+    {
+      "id": "corpus-remote-study",
+      "h": "Organising a remote study for a Corpus Christi site",
+      "p": [
+        "We begin with a scoped data request and a shared data room: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, tank construction and repair records, inspection and thickness history, process chemistry, integrity operating windows and, for terminals, the operating records described above. A data-gap log is issued before the first workshop so the facility can decide which gaps to fill and which to cover with conservative assumptions.",
+        "Damage mechanisms are assigned to API 571 by corrosion loop and reviewed in video workshops with your operations, process, corrosion and inspection staff in Central time. Probability and consequence are then assessed qualitatively, semi-quantitatively or quantitatively to API RP 581, or under your corporate RBI standard, and each item receives a plan with method, coverage, expected effectiveness and due date. CML and TML locations are rationalised where the history supports it, and the plan can be exported to the inspection data system you already use.",
+        "Where a gap matters, Atlantis can send UT, MT, PT and VT technicians to Coastal Bend sites for baseline thickness surveys, corrosion mapping and surface examination of welds in cracking service. Atlantis does not perform radiography in the United States; a licensed radiography contractor engaged by the owner covers that, and the results are added to the model."
+      ],
+      "links": [
+        ["/ultrasonic-testing-corpus-christi", "Ultrasonic testing in Corpus Christi"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "corpus-approval",
+      "h": "Who decides, and what Atlantis does not do",
+      "p": [
+        "Intervals and inspection tasks in the plan are proposals. The owner's inspector of record, the API 510, 570 or 653 inspector or the operator's inspection authority, decides whether to adopt them, and Atlantis does not act as inspector of record. When inspection turns up damage that needs a judgement on continued operation, the fitness-for-service assessment is left to the owner's engineer, and Atlantis does not provide API 579-1 work; the model is then updated with the engineer's findings so the next plan starts from the real condition."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 and API RP 581",
+    "ASME PCC-3",
+    "API RP 571 (damage mechanisms)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "API 620 and API 625 (low-temperature and refrigerated storage)",
+    "OSHA 29 CFR 1910.119 and EPA 40 CFR Part 68",
+    "PHMSA 49 CFR Part 195 (breakout tanks)",
+    "TCEQ 30 TAC Chapter 338"
+  ],
+  "deliverables": [
+    "RBI register for terminal tanks, refinery units or LNG equipment, with probability, consequence and risk per item",
+    "Tank classification list separating Part 195 breakout tanks from tanks eligible for the API 653 risk-based option",
+    "Inspection plan per item with method, coverage, effectiveness and due date",
+    "Damage mechanism basis to API 571, with exposure ratings for waterfront equipment",
+    "Data-gap log, with the option of Atlantis technicians collecting missing readings",
+    "Reassessment triggers including named storms, crude grade changes, IOW excursions and new inspection results",
+    "Report and plan exports for your inspection data system"
+  ],
+  "industries": [
+    "Crude export terminals",
+    "Refining",
+    "LNG export",
+    "Petrochemicals",
+    "Pipeline terminals and breakout tank farms",
+    "Offshore fabrication support"
+  ],
+  "faqs": [
+    { "q": "Are our export terminal tanks breakout tanks, and why does it matter for RBI?", "a": "It depends on how each tank is connected and operated within the pipeline system, and the owner should confirm the classification. It matters because Section 195.432 currently applies API 653 to breakout tanks without its risk-based alternative internal interval. Tanks outside Part 195 can use that option now, so the study lists the two groups separately before proposing any interval." },
+    { "q": "How does high tank turnover affect the risk assessment?", "a": "Frequent filling and emptying moves floating roofs through their full travel, stirs and settles water and sediment, and changes the conditions on the floor. The study asks for turnover frequency, fill and draw rates, water draw records and the crude grades handled, so tanks that work hardest are ranked on their real duty rather than on an average." },
+    { "q": "Can RBI cover an LNG liquefaction plant?", "a": "Yes. Acid gas removal, dehydration and mercury removal units, the transitions between ambient and cryogenic service, cryogenic piping and the storage tanks can all be assessed. The damage mechanisms differ from a refinery, and the consequence side is dominated by flammable vapour release, but the documented method and the inspection plan follow the same logic." },
+    { "q": "Which damage mechanisms matter most on Refinery Row?", "a": "Usually crude unit overhead corrosion from hydrochloric acid, ammonium bisulfide and chloride corrosion in hydroprocessing effluent, high-temperature sulfidation in hot circuits, amine corrosion and cracking, and corrosion under insulation in the bay-side atmosphere. The final list for a unit comes from its own process data and inspection history." },
+    { "q": "Does the Texas storage vessel rule apply in Corpus Christi?", "a": "Yes. TCEQ's Aboveground Storage Vessel Safety program under 30 TAC Chapter 338 applies statewide to covered vessels of 500 barrels or more at refineries, petrochemical plants and bulk terminals. Registration is due by September 1, 2027 and self-certification of existing vessels by September 1, 2037. It does not require RBI, but RBI records support the certification." },
+    { "q": "Can Atlantis send technicians to a Corpus Christi site?", "a": "Yes. The RBI study is remote, but in the United States Atlantis can send UT, MT, PT and VT technicians to close specific data gaps, such as baseline thickness surveys at missing CMLs, corrosion mapping and surface examination of welds in cracking service. Radiography is not offered in the US and is carried out by the owner's licensed contractor." },
+    { "q": "Who approves the inspection intervals?", "a": "The owner's inspector of record, such as the API 510, 570 or 653 inspector, or the operator's inspection authority. The study sets out each proposed interval and the evidence behind it, and the inspector decides. Fitness-for-service decisions on damage found during inspection remain with the owner's engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/united-states", "RBI in the United States"],
+    ["/inspection/risk-based-inspection/houston", "RBI in Houston and the Ship Channel"],
+    ["/inspection/risk-based-inspection/beaumont-port-arthur", "RBI in Beaumont and Port Arthur"],
+    ["/inspection/tank-inspection-services-corpus-christi", "Tank inspection in Corpus Christi"],
+    ["/inspection/third-party-inspection-corpus-christi", "Third-party inspection in Corpus Christi"],
+    ["/inspection/piping-inspection-services-corpus-christi", "Piping inspection in Corpus Christi"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Enbridge Ingleside Energy Center: 20 million barrels after Phase VII added 2.5 million; 2025 loaded 415,420,684 bbl (~1.13 million bpd); four deep-water berths, two VLCC-capable; pipelines Gray Oak, Cactus I, Cactus II, EPIC, Harvest", "url": "https://www.enbridge.com/Stories/2026/May/Enbridge-Ingleside-Energy-Center-more-exports-extra-storage-larger-import-volumes" },
+    { "fact": "Corpus Christi LNG: 3 trains + Stage 3 operating, 0.47 Bcf/d under construction (DOE LNG snapshot Sept 30 2026)", "url": "https://www.energy.gov/sites/default/files/2026-09/LNG%20Snapshot%20September%2030%202026.pdf" },
+    { "fact": "Refinery Row refineries operated by CITGO, Flint Hills Resources and Valero; Port of Corpus Christi leading US crude export gateway fed by Permian and Eagle Ford pipelines; GCGV ExxonMobil-SABIC cracker near Gregory; Kiewit Offshore Services at Ingleside", "url": "https://atlantisndt.com/ndt-training-corpus-christi" },
+    { "fact": "49 CFR 195.432(b) excludes API 653 6.4.3; PHMSA June 2026 NPRM", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" },
+    { "fact": "TCEQ 30 TAC 338 dates and thresholds; TDLR boiler definition excludes unfired vessels; no Texas state OSHA plan", "url": "https://atlantisndt.com/inspection-services-houston" }
+  ]
+}

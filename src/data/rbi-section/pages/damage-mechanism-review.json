@@ -1,0 +1,167 @@
+{
+  "title": "Damage Mechanism Review: Corrosion Loops, API 571 and IOWs",
+  "description": "Damage mechanism review for RBI: corrosion loops drawn on the PFD, mechanisms assigned to API 571, operating windows to API RP 584, a site loop library.",
+  "h1": "Damage mechanism review and corrosion loop development",
+  "eyebrow": "Risk-based inspection",
+  "intro": "Every risk-based inspection result rests on a list of damage mechanisms. Miss one and no inspection is planned for it; assign the wrong one and the plan specifies a method that cannot find the real damage. This page is for corrosion engineers, inspection leads and process engineers preparing for an RBI study. It explains how corrosion loops are drawn, how mechanisms are screened against API 571, how expected rates and susceptibilities are justified, how integrity operating windows to API RP 584 protect the assumptions, and how Atlantis runs the review remotely.",
+  "highlights": [
+    { "h": "The step that sets every interval", "p": "Probability of failure is calculated mechanism by mechanism, and inspection effectiveness is graded against a specific mechanism. If the review is wrong, every number downstream inherits the error, however sophisticated the calculation that follows." },
+    { "h": "Loops drawn from process conditions", "p": "Loops follow the process stream and break wherever material, temperature, phase or chemistry changes enough to alter the damage. They are drawn on the process flow diagram with your process engineers, not lifted from a generic template." },
+    { "h": "Windows that keep assumptions true", "p": "Each loop's mechanisms and rates hold only while the process stays inside certain limits. Integrity operating windows turn those limits into monitored variables, and an exceedance becomes a trigger to revisit the assessment." }
+  ],
+  "sections": [
+    {
+      "id": "why-it-matters",
+      "h": "Why the review decides the whole study",
+      "p": [
+        "Risk-based methods calculate probability of failure separately for each credible damage mechanism and credit inspection against each one. A mechanism that never makes the list gets no inspection, however severe it may be in practice. A mechanism assigned where it is not active consumes inspection effort for nothing. And a correct mechanism paired with an unsuitable method gives false comfort, as when thickness readings are credited against cracking.",
+        "API RP 571 is the reference most programmes use. For each mechanism affecting fixed equipment in refining and petrochemical service it describes the appearance of the damage, the critical factors that drive it, the units and materials typically affected, prevention and mitigation, and inspection and monitoring methods. API RP 580, in its 2023 fourth edition, treats damage mechanism review as one of the core elements of an RBI programme."
+      ],
+      "links": [["/standards/api-571", "API RP 571 explained"]]
+    },
+    {
+      "id": "drawing-loops",
+      "h": "How corrosion loops are drawn",
+      "p": [
+        "Loop development starts from the process flow diagram and the heat and material balance. The stream is followed from feed to product, and a new loop begins wherever something changes enough to alter which mechanisms are active or how fast they act: a change of metallurgy, a temperature crossing a mechanism threshold, a phase change such as the water dew point, a change of chemistry at an injection point or separator, or a significant pressure change.",
+        "Each loop is described by its materials of construction, its normal and upset operating envelope, its fluid composition (including trace contaminants that matter for corrosion, such as chlorides, sulfur compounds, ammonia, cyanides and water), and the mechanisms judged credible. Loops are then subdivided into inspection circuits for piping and grouped with the vessels and exchangers they contain, so that the equipment register and the loop map always agree."
+      ],
+      "links": [["/inspection/risk-based-inspection/piping-rbi", "From loops to piping circuits"]]
+    },
+    {
+      "id": "screening",
+      "h": "Screening mechanisms for each loop",
+      "p": [
+        "For every loop, the candidate mechanisms relevant to that type of unit are screened one by one against material, temperature, environment, stress state and operating history. Each is marked credible or excluded, and the reason is written down either way, because an excluded mechanism with no recorded reason looks to an auditor exactly like one that was forgotten. The table shows the families screened and the drivers checked."
+      ],
+      "table": {
+        "head": ["Mechanism family", "Drivers checked", "Examples"],
+        "rows": [
+          ["General and localised thinning", "Free water, acid gases, sulfur compounds at temperature, organic acids, velocity and flow regime", "Hydrochloric acid corrosion, sulfidation, naphthenic acid corrosion, carbon dioxide corrosion, ammonium salt corrosion, erosion-corrosion"],
+          ["Environmental cracking", "Material, hardness, residual stress and heat treatment, chloride or caustic concentration, amine type, wet hydrogen sulfide, temperature", "Chloride stress corrosion cracking, caustic and amine cracking, sulfide stress cracking, hydrogen-induced cracking, polythionic acid cracking at shutdown, carbonate cracking"],
+          ["High-temperature damage", "Metal temperature and time at temperature, hydrogen partial pressure, alloy content", "Creep, high-temperature hydrogen attack, temper embrittlement and other embrittlement mechanisms"],
+          ["Mechanical and metallurgical", "Vibration, thermal cycling, low metal temperature against toughness", "Mechanical fatigue, thermal fatigue, brittle fracture"],
+          ["External damage", "Insulation and cladding, operating temperature, climate, coating condition", "Atmospheric corrosion, corrosion under insulation, external chloride cracking of stainless steel"]
+        ]
+      }
+    },
+    {
+      "id": "rates-and-susceptibility",
+      "h": "From credible mechanism to expected rate or susceptibility",
+      "p": [
+        "For thinning mechanisms the review records an expected rate and its basis. Measured long-term and short-term rates from inspection come first; where there are none, published corrosion data and rate models, or the record of similar equipment in similar service, provide an estimate that is labelled as such. When a measured rate is markedly higher than the predicted one, the review asks what changed before accepting either number.",
+        "For cracking mechanisms the review records a susceptibility rather than a rate, from not susceptible through low and medium to high, together with the factors that set it: heat treatment records, hardness, concentration, temperature and service history. Susceptibility is what an API RP 581 damage factor starts from, and it is also what decides whether crack-detection examination belongs in the plan at all."
+      ]
+    },
+    {
+      "id": "iows",
+      "h": "Integrity operating windows to API RP 584",
+      "p": [
+        "The mechanisms and rates in each loop stay valid only while the process stays within certain limits. API RP 584, Integrity Operating Windows (second edition, 2021), describes how to define limits on process variables beyond which damage rates change, and how to classify those windows by how urgently an exceedance must be acted on.",
+        "The damage mechanism review is the natural source of IOWs, because it is where the team states which variables drive each mechanism. Typical examples are metal temperature for sulfidation and high-temperature hydrogen attack, chloride content in an overhead system, sour water pH, amine loading, water content and flow velocity. The review proposes windows for the variables that matter, operations owns them, and the RBI procedure treats an exceedance as a trigger to revisit the affected loop."
+      ],
+      "links": [["/standards/api-584", "API RP 584 integrity operating windows"]]
+    },
+    {
+      "id": "remote-review",
+      "h": "Running the review remotely",
+      "p": [
+        "The review is run remotely, unit by unit. Process flow diagrams, heat and material balances, material selection diagrams, process chemistry, existing integrity operating windows and failure history come through a shared data room. Before each workshop Atlantis prepares marked-up loop drawings and a draft list of candidate mechanisms with screening notes, so the session is spent on judgement rather than on transcription.",
+        "Workshops by video bring together the unit's process engineer, a corrosion or materials specialist, the inspection lead and an experienced operator. Operators add what the drawings do not show: intermittent water carry-over, temperature excursions at start-up, injection pumps that run erratically. Decisions and their reasons are logged and returned for confirmation after each session. Where the review casts doubt on a material or a rate, your inspectors can check it in the field; at US facilities Atlantis can also send UT, MT, PT and VT technicians to gather the evidence."
+      ],
+      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]]
+    },
+    {
+      "id": "outputs",
+      "h": "What the review produces",
+      "p": [
+        "The outputs are written to be reused, both in the RBI calculation and in every later reassessment:"
+      ],
+      "list": [
+        "Marked-up process flow diagrams showing every corrosion loop and its boundaries.",
+        "A loop sheet for each loop: materials, operating envelope, fluid composition, credible mechanisms with susceptibility or rate and its basis, and excluded mechanisms with the reason for exclusion.",
+        "Proposed integrity operating windows for the variables that drive each loop's mechanisms.",
+        "Inspection method guidance per mechanism, so that the plan specifies techniques capable of finding the damage.",
+        "An assumption register listing every judgement made where data was missing.",
+        "A site loop library that later units and future reassessments can draw on for consistency."
+      ],
+      "links": [["/api-inspection/nde-method-selection-by-damage-mechanism", "NDE method selection by damage mechanism"]]
+    },
+    {
+      "id": "common-errors",
+      "h": "Errors that undermine a damage mechanism review",
+      "p": [
+        "Reviews that look complete on paper can still leave real gaps. The ones that recur are:"
+      ],
+      "list": [
+        "A generic mechanism list per unit type pasted into every loop without screening.",
+        "Normal operation considered but start-up, shutdown and upsets ignored, which is where polythionic acid cracking and dew point corrosion begin.",
+        "Excluded mechanisms left unrecorded, so nobody can tell whether they were considered.",
+        "Post-weld heat treatment assumed rather than confirmed, which changes the answer for caustic and amine cracking.",
+        "External mechanisms left out because the review concentrated on the process side.",
+        "Integrity operating windows set without any link to the mechanisms they are supposed to protect.",
+        "No revisit after a feed change, a new injection chemical or a metallurgy change made during repairs."
+      ]
+    },
+    {
+      "id": "when-to-revisit",
+      "h": "When the review must be revisited",
+      "p": [
+        "A damage mechanism review describes the plant as it was operated when the review took place. It needs revisiting when the feed changes, a new chemical is injected, operating temperature or pressure moves, metallurgy changes through repair or replacement, a failure or finding is not explained by the mechanisms on record, or exceedances of an operating window start to recur. Any of those can switch a mechanism on that the original review correctly excluded.",
+        "Where a mechanism has already caused damage, the question of whether the equipment can keep operating goes to your engineer, because Atlantis does not perform fitness-for-service assessment. The review is updated with what the finding has revealed about the mechanism and its rate."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 571: damage mechanisms affecting fixed equipment in the refining industry",
+    "API RP 584 (second edition, 2021): integrity operating windows",
+    "API RP 580 (fourth edition, 2023): elements of a risk-based inspection programme",
+    "API RP 581 (fourth edition, 2025): risk-based inspection methodology",
+    "API RP 941: steels for hydrogen service at elevated temperatures",
+    "API RP 583: corrosion under insulation and fireproofing"
+  ],
+  "deliverables": [
+    "Marked-up process flow diagrams with corrosion loops",
+    "Loop sheets with credible and excluded mechanisms and their basis",
+    "Expected corrosion rates and cracking susceptibilities",
+    "Proposed integrity operating windows",
+    "Inspection method guidance per mechanism",
+    "Assumption register and reusable site loop library"
+  ],
+  "industries": [
+    "Refining",
+    "Petrochemical",
+    "Gas processing",
+    "Chemical and fertiliser",
+    "LNG",
+    "Renewable fuels and co-processing units"
+  ],
+  "faqs": [
+    { "q": "What is a corrosion loop?", "a": "A group of equipment and piping that share materials of construction and process conditions closely enough to suffer the same damage mechanisms at broadly similar rates. Loops are drawn on the process flow diagram and break wherever metallurgy, temperature, phase or chemistry changes. They are the organising unit for damage mechanism assignment and are later divided into inspection circuits." },
+    { "q": "What does a damage mechanism review involve?", "a": "Drawing corrosion loops, screening each candidate mechanism against material, temperature, environment, stress state and history, recording which are credible and why others are excluded, assigning expected rates or cracking susceptibilities with their basis, and proposing the operating windows that keep those assumptions valid. It is a team exercise with process, corrosion, inspection and operations input." },
+    { "q": "Why does API 571 matter for RBI?", "a": "Because it is the common reference for what each damage mechanism looks like, what drives it, where it occurs and how it can be inspected. Using it gives the review a consistent vocabulary and a checklist of candidate mechanisms, and it gives auditors a recognised basis for each assignment. It does not replace judgement about your specific process." },
+    { "q": "How do integrity operating windows relate to RBI?", "a": "An RBI assessment assumes damage rates that hold only within certain process limits. Integrity operating windows, described in API RP 584, define those limits for key variables such as temperature, chloride content or pH. When a window is exceeded, the assumptions behind the inspection plan may no longer hold, so the exceedance should trigger a review of the affected loop." },
+    { "q": "Who should attend damage mechanism workshops?", "a": "The unit process engineer, a corrosion or materials specialist, the inspection lead and an experienced operator as a minimum, with maintenance joining for units where repairs have changed materials. Operators matter because they know about upsets, bypasses and intermittent problems that never appear in design documents or in the operating envelope." },
+    { "q": "Can a damage mechanism review be carried out remotely?", "a": "Yes. Drawings, process data and history are shared through a data room, draft loop markups are prepared in advance, and workshops run by video with the people who know the unit. Field questions go to your inspectors with a checklist. In the United States, Atlantis can also gather thickness and surface examination evidence with its own technicians." },
+    { "q": "How often should the review be updated?", "a": "Whenever the plant changes in a way that could alter damage: a new feed or crude slate, a new injection chemical, changed operating temperature or pressure, metallurgy changes from repairs, an unexplained finding, or recurring operating window exceedances. It should also be reconfirmed at each scheduled RBI reassessment." },
+    { "q": "What happens to mechanisms that are ruled out?", "a": "They are recorded on the loop sheet with the reason for exclusion, such as material not susceptible, temperature below the threshold or no water phase. That record lets a later review see what was considered and spot when a change of conditions means a previously excluded mechanism must be reconsidered." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/standards/api-571", "API RP 571 damage mechanisms"],
+    ["/standards/api-584", "API RP 584 integrity operating windows"],
+    ["/api-inspection/amine-caustic-cracking", "Amine and caustic cracking"],
+    ["/api-inspection/chloride-stress-corrosion-cracking", "Chloride stress corrosion cracking"],
+    ["/api-inspection/erosion-corrosion-piping", "Erosion-corrosion in piping"],
+    ["/glossary/corrosion-under-insulation-cui", "Corrosion under insulation"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and exchangers"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"]
+  ],
+  "sources": [
+    { "fact": "API RP 584 Integrity Operating Windows second edition; the RP provides a guide for classifying IOWs", "url": "https://api.org/products-and-services/standards/important-standards-announcements/rp584" },
+    { "fact": "API RP 584 second edition dated 2021", "url": "https://infostore.saiglobal.com/en-au/standards/api-rp-584-2021-98121_saig_api_api_3084360/" },
+    { "fact": "API RP 580 fourth edition (August 2023) includes damage mechanism review among programme elements", "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html" },
+    { "fact": "API RP 581 fourth edition January 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" }
+  ]
+}

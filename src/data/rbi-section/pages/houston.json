@@ -1,0 +1,172 @@
+{
+  "title": "RBI in Houston: Ship Channel Refineries, Plants and Terminals",
+  "description": "Risk-based inspection for Ship Channel refineries, Bayport chemical plants, Mont Belvieu NGL sites and Houston terminal tank farms, delivered remotely.",
+  "h1": "Risk-based inspection for Houston and the Ship Channel",
+  "eyebrow": "Risk-based inspection in Houston",
+  "intro": "Greater Houston packs refineries, olefins and polymer plants, NGL fractionators and some of the largest bulk liquid terminals in the country into a humid coastal strip that floods, corrodes and sits in the path of Atlantic hurricanes. This page is for inspection and integrity leads at those sites. It covers what drives risk in each Houston corridor, how the Texas storage vessel rule and federal process safety rules bear on an RBI programme, and how Atlantis, which is based in Houston, organises a remote RBI study and can send technicians to close data gaps.",
+  "highlights": [
+    { "h": "Written for Gulf Coast damage", "p": "Corrosion under insulation, sour water and amine corrosion, alkylation acid service, chloride cracking in stainless chemical units and tank floor corrosion under many different products are assigned and screened explicitly, not left to a generic damage list." },
+    { "h": "Data gaps closed locally", "p": "When a circuit has no usable thickness history or a CUI-suspect line has never been examined, Atlantis can send UT, MT, PT and VT technicians to Houston sites to take the readings the assessment needs, then fold them into the model." },
+    { "h": "Storm-aware reassessment", "p": "Hurricane season runs from June 1 to November 30. The plan names the post-storm checks that trigger reassessment, such as flooded insulation, floating roof damage and foundation movement, so a storm does not silently invalidate the intervals." }
+  ],
+  "sections": [
+    {
+      "id": "houston-corridors",
+      "h": "Four Houston corridors, four different risk pictures",
+      "p": [
+        "Houston is not one industrial site but several. The Ship Channel runs about 50 miles from Galveston Bay to the Turning Basin east of downtown and carries ExxonMobil's Baytown complex, the Deer Park refinery that Pemex has owned outright since January 2022, Chevron's Pasadena refinery and Valero's Houston refinery, alongside olefins and polymer plants and long rows of terminal tank farms. LyondellBasell completed the shutdown of its Houston refinery in early 2025 and plans to reuse existing hydrotreaters for a recycled-plastics unit, so equipment there is moving into a different service with a different damage profile.",
+        "South-east of the channel, the Bayport Industrial District holds more than 60 chemical plants on about seven square miles. Mont Belvieu, roughly 30 miles east, is the main trading hub for North American natural gas liquids, with fractionation trains run by Enterprise Products, Targa, ONEOK and Energy Transfer and product held in underground salt caverns. To the south, Texas City is home to Marathon's Galveston Bay refinery, the second-largest refinery in Texas, and Brazoria County adds Phillips 66's Sweeny refinery and the chemical plants around Freeport."
+      ],
+      "table": {
+        "head": ["Corridor", "Typical equipment in an RBI scope", "Risk drivers that usually dominate"],
+        "rows": [
+          ["Ship Channel refineries", "Crude and vacuum units, hydroprocessing, FCC, alkylation, sour water and amine systems", "High-temperature sulfidation, ammonium bisulfide and chloride corrosion in effluent systems, amine cracking, CUI"],
+          ["Bayport and La Porte chemicals", "Stainless, duplex and nickel-alloy reactors, columns and piping; exchanger bundles", "Chloride stress corrosion cracking, acid and caustic service, pitting under deposits"],
+          ["Mont Belvieu and Baytown NGL", "Fractionators, cavern wellhead piping, refrigeration and pipeline manifolds", "Low-temperature service, wet hydrocarbon corrosion at low points, CUI on cold lines"],
+          ["Ship Channel and Galena Park terminals", "Atmospheric and low-pressure storage tanks, dock and transfer piping", "Floor corrosion from water bottoms and foundation moisture, roof and seal damage, marine atmospheric corrosion"],
+          ["Texas City and Brazoria County", "Large refinery units, chemical plants, coastal pipe racks", "Atmospheric corrosion near the bay, CUI, the same refinery mechanisms as the channel"]
+        ]
+      },
+      "links": [
+        ["/inspection/piping-inspection-services-houston", "Piping inspection in Houston"],
+        ["/inspection/pressure-vessel-inspection-services-houston", "Pressure vessel inspection in Houston"],
+        ["/inspection/tank-inspection-services-houston", "Tank inspection in Houston"]
+      ]
+    },
+    {
+      "id": "houston-damage-mechanisms",
+      "h": "Damage mechanisms that shape Houston RBI studies",
+      "p": [
+        "The probability side of an RBI assessment is only as good as the damage mechanism review behind it. On the upper Texas coast a handful of mechanisms account for most of the risk that inspection can actually reduce, and each needs particular data from the plant before it can be screened properly."
+      ],
+      "list": [
+        "Corrosion under insulation: summer mornings in Houston average over 90 percent relative humidity, and insulated carbon steel operating in the CUI temperature range, or cycling through it, is a leading source of unexpected wall loss; insulation type, jacketing condition and operating history all go into the screening",
+        "Sour water and amine service: ammonium bisulfide corrosion in hydroprocessing effluent and amine cracking in regenerators and lean and rich lines need process chemistry, velocity and post-weld heat treatment records, not just thickness data",
+        "Alkylation acid service: sulfuric or hydrofluoric acid units carry their own corrosion and cracking mechanisms and strict material controls, and their consequence side is dominated by toxic release",
+        "High-temperature sulfidation: crude and vacuum unit piping and heater outlets depend on sulfur content, temperature and silicon content in carbon steel, so crude slate changes are a reassessment trigger",
+        "Chloride stress corrosion cracking in austenitic stainless equipment at Bayport chemical plants, especially under insulation wetted by rain or deluge water",
+        "Tank floor corrosion: product-side attack under water bottoms and soil-side corrosion from foundation moisture, which varies terminal to terminal and tank to tank with service and cathodic protection"
+      ]
+    },
+    {
+      "id": "houston-terminals",
+      "h": "Terminal tank farms and the Texas storage vessel rule",
+      "p": [
+        "Most of Houston's storage tanks sit along the Ship Channel between Galena Park and Baytown, in bulk liquid terminals, refineries and chemical plants. The Port Houston complex includes more than 200 public and private terminals, and a single terminal can run hundreds of tanks: Kinder Morgan's Galena Park terminal lists 231 tanks on 452 acres, from 5,000 to 187,000 barrels each, holding refined products, chemicals, vegetable oil, ethanol and biodiesel. That range of service is exactly why fixed intervals waste effort, and why floor corrosion rates from one tank say little about the next.",
+        "After the March 2019 fire at the Intercontinental Terminals Company tank farm in Deer Park, Texas passed Senate Bill 900, and TCEQ put the Aboveground Storage Vessel Safety program into effect as 30 TAC Chapter 338 on August 24, 2023. It covers non-earthen vessels of 21,000 gallons (500 barrels) or more storing regulated substances at refineries, petrochemical plants and bulk terminals. Existing vessels must be registered by September 1, 2027 and self-certified by September 1, 2037, against standards that draw on API 653 and API 2350. The rule does not require RBI, but an RBI study gives the owner an organised register, inspection history and plan per tank that the certification will lean on.",
+        "Two boundaries matter when tank intervals are set by risk. Breakout tanks on a hazardous liquid pipeline system fall under 49 CFR 195.432, which currently excludes API 653's risk-based alternative internal interval, so those tanks keep corrosion-rate intervals unless the 2026 PHMSA proposal is finalised. Plant and terminal tanks outside Part 195 can use the API 653 risk-based option, within its own conditions and with the owner's API 653 inspector approving the result."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/united-states", "Breakout tanks and US rules"],
+        ["/api-653-tank-inspection-texas", "API 653 tank inspection in Texas"]
+      ]
+    },
+    {
+      "id": "houston-weather",
+      "h": "Hurricanes, flooding and humidity in the risk model",
+      "p": [
+        "Weather is part of the Houston risk picture in a way it is not in most inland plants. Hurricane Harvey stalled over south-east Texas in 2017 and dropped more than 50 inches of rain on parts of the region. Storm surge and heavy rain soak insulation, overload external floating roofs, block roof drains and move tank foundations, and any of those can change the condition an RBI interval was based on.",
+        "A Houston RBI plan should therefore treat a named storm as a reassessment trigger, with a short list of post-storm checks for the items most exposed: insulated lines and vessels that were flooded, floating roofs and seals, tank foundations and settlement, and dock piping. If those checks find nothing, the intervals stand and the record shows why; if they find damage, the affected items are reassessed before the next due date rather than after it."
+      ]
+    },
+    {
+      "id": "houston-rules",
+      "h": "Texas and federal rules a Houston RBI programme answers to",
+      "p": [
+        "Texas has no state OSHA plan, so federal OSHA enforces process safety management, and mechanical integrity under 29 CFR 1910.119(j) is where an RBI programme is most often examined. EPA's Risk Management Program covers many of the same processes. Boilers fall under the Texas Department of Licensing and Regulation, but its boiler definition does not list unfired pressure vessels, so most refinery and chemical plant vessels are inspected under the owner's API 510 programme, the insurer's requirements and process safety rules. Intrastate pipelines are overseen by the Railroad Commission of Texas and interstate lines by PHMSA, whose Southwest Region office is in Houston.",
+        "The region's process safety history also shapes expectations. The 2005 explosion at a Texas City refinery, which killed 15 workers, is still taught as a case study, and it is one reason Gulf Coast owners expect inspection planning records that hold up to outside scrutiny. An RBI study written for this audience shows its working."
+      ]
+    },
+    {
+      "id": "houston-study",
+      "h": "How a remote study for a Houston site is organised",
+      "p": [
+        "The study opens with a data request matched to the scope and a shared data room: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness history by CML, process chemistry and the integrity operating windows. We screen what arrives and issue a gap log before workshops are booked, so the plant can decide early whether to fill a gap or accept a conservative assumption.",
+        "Corrosion loops and damage mechanisms are drafted to API 571 and reviewed with your process, operations, corrosion and inspection people by video. Probability and consequence are assessed at the level the scope calls for, from qualitative screening to a quantitative assessment to API RP 581, or by your corporate RBI standard. The result is a plan per item with method, coverage, expected effectiveness and due date, CML and TML optimisation where the history supports it, and reassessment triggers. Atlantis is based in Houston, so workshops sit in the plant's own time zone, and supporting analysis continues from the Hyderabad office between sessions."
+      ]
+    },
+    {
+      "id": "houston-field-data",
+      "h": "Closing Houston data gaps with field technicians",
+      "p": [
+        "Houston plants that have changed hands, been expanded or been repiped often carry predictable gaps: CMLs never re-established after a tie-in, deadlegs and injection points without locations, tanks with shell data but no recent floor scan, and insulated lines with no CUI history. Your own inspectors or inspection contractor normally verify data and walk the units, and Atlantis can also send UT, MT, PT and VT technicians to close specific gaps the study identifies.",
+        "Typical requests are baseline thickness surveys at new or missing CMLs, corrosion mapping on CUI-suspect areas once insulation is stripped, and MT or PT on welds in amine or caustic service where a cracking mechanism is credible. Atlantis does not perform radiography in the United States; when radiography is needed, your licensed radiography contractor carries it out and the results feed the model. Once the plan is approved, the same methods can carry out the inspection tasks it schedules, with results returned to the next assessment."
+      ]
+    },
+    {
+      "id": "houston-turnarounds",
+      "h": "Turnaround timing and the RBI plan",
+      "p": [
+        "Houston turnarounds cluster in spring and autumn, outside the summer demand peak and away from the height of hurricane season, and NDE scopes are usually frozen months before the start date. An RBI study that lands too late simply gets ignored. The plan is most useful when it sorts each task into what must be done with the unit down, what can move on-stream ahead of the outage and what can wait for the next window, so the turnaround carries only the work that genuinely needs isolation or entry.",
+        "After the turnaround the inspection findings come back into the model: corrosion rates are updated, effectiveness is credited for the methods actually used and the coverage actually achieved, and the next plan is issued from real data. That loop is what keeps RBI intervals defensible."
+      ],
+      "links": [
+        ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"]
+      ]
+    },
+    {
+      "id": "houston-approval",
+      "h": "Approval stays with your inspector",
+      "p": [
+        "The study recommends intervals and inspection tasks; your inspector of record approves them, whether that is the API 510, 570 or 653 inspector or the operator's inspection authority. Atlantis does not act as inspector of record. Where inspection finds damage that needs a fitness-for-service decision, that assessment remains with your engineer, and Atlantis does not provide API 579-1 assessments; the RBI model is updated once the engineer's conclusion is known."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 and API RP 581",
+    "ASME PCC-3",
+    "API RP 571 (damage mechanisms)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "API 2350 (tank overfill protection)",
+    "OSHA 29 CFR 1910.119 and EPA 40 CFR Part 68",
+    "PHMSA 49 CFR Part 195 (breakout tanks)",
+    "TCEQ 30 TAC Chapter 338 (aboveground storage vessel safety)"
+  ],
+  "deliverables": [
+    "RBI register for the units or tank farm in scope, with probability, consequence and risk per item",
+    "Inspection plan per item with method, coverage, effectiveness and due date",
+    "Damage mechanism basis to API 571, including CUI screening and storm-exposure notes",
+    "List of breakout tanks and jurisdictional items handled outside the risk-based intervals",
+    "Data-gap log, with an option for Atlantis technicians to collect missing readings",
+    "Reassessment triggers: IOW excursions, crude slate changes, named storms and new inspection results",
+    "Report and plan exports in a format your inspection data system can import"
+  ],
+  "industries": [
+    "Refining",
+    "Olefins, polymers and specialty chemicals",
+    "Bulk liquid terminals",
+    "NGL fractionation and storage",
+    "Pipeline breakout tank farms",
+    "Industrial gases and utilities"
+  ],
+  "faqs": [
+    { "q": "Can RBI be used to set tank intervals at a Ship Channel terminal?", "a": "For plant and terminal tanks outside 49 CFR Part 195, yes: API 653 includes a risk-based alternative internal inspection interval, with the owner's API 653 inspector approving the result. Breakout tanks on a hazardous liquid pipeline system currently keep corrosion-rate intervals, because Section 195.432 excludes that option. A 2026 PHMSA proposal would change this, but it is not yet final." },
+    { "q": "Does the TCEQ storage vessel rule require RBI?", "a": "No. 30 TAC Chapter 338 requires covered vessels of 500 barrels or more to be registered by September 1, 2027 and existing vessels to be self-certified by September 1, 2037, against standards that draw on API 653 and API 2350. RBI is not mandated, but an RBI study organises the register, inspection history and per-tank plan the certification will rely on." },
+    { "q": "Does TDLR have to approve RBI intervals for our refinery vessels?", "a": "TDLR administers the Texas boiler law, and its boiler definition does not list unfired pressure vessels. Most refinery and chemical plant vessels in Houston are therefore inspected under the owner's API 510 programme, insurer requirements and OSHA process safety rules. Boilers stay under TDLR's own inspection regime, so they are listed separately in the RBI report." },
+    { "q": "How should hurricane damage feed into the RBI programme?", "a": "Treat a named storm as a reassessment trigger. The plan lists post-storm checks for the most exposed items, such as flooded insulation, floating roofs and seals, tank foundations and dock piping. If the checks find nothing, the intervals stand with a documented reason; if they find damage, the affected items are reassessed before their next due date." },
+    { "q": "Can Atlantis collect missing thickness data at our Houston plant?", "a": "Yes. Your own inspectors normally verify data, but in Houston and elsewhere in the United States Atlantis can send UT, MT, PT and VT technicians for baseline CML surveys, corrosion mapping on CUI-suspect areas and surface examination of welds in cracking service. Radiography is not offered in the US and stays with your licensed contractor." },
+    { "q": "Do you cover NGL fractionation and cavern sites around Mont Belvieu?", "a": "Yes. Fractionation trains, refrigeration systems and cavern wellhead and manifold piping can be assessed like other process equipment, with attention to low-temperature service, wet hydrocarbon corrosion at low points and CUI on cold lines. The consequence side reflects flammable vapour release from pressurised light hydrocarbons." },
+    { "q": "Can the study start from our existing RBI software?", "a": "Yes. Many Houston programmes already run in commercial RBI software. We start from your register or its export, review it against drawings, process data and inspection history, and return updated inputs, plans and a report your system can import. The engineering reasons for each change are written down so your inspectors can check them." },
+    { "q": "Who approves the RBI intervals?", "a": "Your inspector of record, such as the API 510, 570 or 653 inspector, or the operator's inspection authority. The study proposes intervals and tasks with their basis; it does not approve them. Fitness-for-service decisions on damage found during inspection stay with your engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/united-states", "RBI in the United States"],
+    ["/inspection/risk-based-inspection/beaumont-port-arthur", "RBI in Beaumont and Port Arthur"],
+    ["/inspection/risk-based-inspection/corpus-christi", "RBI in Corpus Christi"],
+    ["/inspection/tank-inspection-services-houston", "Tank inspection in Houston"],
+    ["/inspection/piping-inspection-services-houston", "Piping inspection in Houston"],
+    ["/inspection/third-party-inspection-houston", "Third-party inspection in Houston"],
+    ["/ultrasonic-testing-houston", "Ultrasonic testing in Houston"],
+    ["/corrosion-mapping", "Corrosion mapping"],
+    ["/standards/api-584", "API 584 integrity operating windows"],
+    ["/api-570-piping-inspection-texas", "API 570 piping inspection support in Texas"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Ship Channel ~50 miles; ExxonMobil Baytown; Pemex sole owner of Deer Park since Jan 2022; Chevron Pasadena; Valero Houston; LyondellBasell Houston refinery shutdown completed early 2025 with hydrotreaters reused for recycled plastics; Bayport >60 plants on ~7 sq mi; Mont Belvieu fractionators (Enterprise, Targa, ONEOK, Energy Transfer); Marathon Galveston Bay refinery second-largest in Texas; Phillips 66 Sweeny; Harvey >50 inches; >90% RH; 2005 Texas City explosion 15 deaths; TDLR boiler definition excludes unfired vessels; no Texas state OSHA plan; PHMSA Southwest Region office in Houston; hurricane season June 1 to Nov 30; turnarounds spring and autumn", "url": "https://atlantisndt.com/inspection-services-houston" },
+    { "fact": "Port Houston >200 terminals; Kinder Morgan Galena Park 231 tanks on 452 acres, 5,000-187,000 bbl; ITC Deer Park fire March 2019; SB 900; TCEQ 30 TAC 338 effective Aug 24 2023; 21,000 gallons/500 bbl; registration Sept 1 2027; self-certification Sept 1 2037; API 653 and API 2350", "url": "https://atlantisndt.com/inspection/tank-inspection-services-houston" },
+    { "fact": "49 CFR 195.432(b) excludes API 653 section 6.4.3 risk-based alternative internal interval", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" },
+    { "fact": "PHMSA NPRM June 2, 2026 would allow RBI internal intervals for breakout tanks with records, caps 20/25 years; not final", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" }
+  ]
+}
