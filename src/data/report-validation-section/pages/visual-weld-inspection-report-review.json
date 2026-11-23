@@ -1,6 +1,6 @@
 {
   "title": "Visual Weld Inspection Report Review: AWS D1.1, B31.3, ASME V",
-  "description": "Independent review of visual weld inspection reports from CWIs and NDT VT personnel: lighting, viewing access, vision currency, gauges and D1.1 or B31.3 criteria.",
+  "description": "Independent review of visual weld inspection reports from CWIs and NDT VT personnel: lighting, viewing access, vision currency, gauges, D1.1 and B31.3 criteria.",
   "h1": "Independent review of visual weld inspection reports",
   "eyebrow": "Method review: visual testing of welds",
   "intro": "Visual inspection is the examination every weld gets and the one whose report is most often a tick in a box. That becomes a problem when a weld later fails, a client rejects a fabrication package or an auditor asks how undercut was measured. We review visual weld inspection reports independently against ASME Section V Article 9, the construction code and the inspection plan, checking that the conditions, tools and people behind each accept decision are on the record. Reports from certified welding inspectors and from NDT visual testing personnel are both reviewed, remotely, from the documents, photographs and digital records you send.",
@@ -28,7 +28,8 @@
       "h": "ASME Section V Article 9: viewing conditions and records",
       "p": [
         "Article 9 describes how visual examination is carried out when an ASME code calls for it. Direct visual examination generally needs the eye within 24 in. (600 mm) of the surface at an angle of not less than 30 degrees, and current editions require at least 100 foot-candles (1,000 lux) at the examination surface. Mirrors, borescopes, cameras and other aids may be used for remote visual examination where the aid gives resolution at least equal to direct viewing.",
-        "For a reviewer, those requirements become questions of evidence. Was the light measured, and with which meter? Was the weld reachable at that distance and angle, or was part of it behind a support, inside a nozzle or at the back of a fillet? If a camera or borescope was used, does the report identify it and show how its image compared with direct viewing? Article 9 relies on a written procedure for the details, so the procedure is read alongside the report to confirm the report follows it."
+        "For a reviewer, those requirements become questions of evidence. Was the light measured, and with which meter? Was the weld reachable at that distance and angle, or was part of it behind a support, inside a nozzle or at the back of a fillet? If a camera or borescope was used, does the report identify it and show how its image compared with direct viewing? Article 9 relies on a written procedure for the details, so the procedure is read alongside the report to confirm the report follows it.",
+        "Inspectors and reviewers also lean on AWS B1.11M/B1.11:2015, the AWS guide to the visual examination of welds, for the way discontinuities are described and gauges are used. It is a guide rather than an acceptance standard, so a report that cites it still needs the construction code or contract to supply the limits each condition was judged against."
       ]
     },
     {

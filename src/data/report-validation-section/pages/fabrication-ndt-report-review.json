@@ -1,0 +1,138 @@
+{
+  "title": "Fabrication and Vendor NDT Report Review Before Shipment",
+  "description": "Independent review of fabricator NDT reports, ITPs and data books for vessels, piping spools and steel assemblies, so buyers can accept before shipment.",
+  "h1": "Independent review of fabrication NDT reports and vendor data books",
+  "eyebrow": "Fabrication and vendor report review",
+  "intro": "When a pressure vessel, a run of piping spools or a structural skid is ready to leave the shop, the buyer has a short window to decide whether the NDT behind it can be accepted. After shipment, every question becomes harder to answer and every repair harder to make. We review fabricators' radiography, ultrasonic, magnetic particle and penetrant reports, the inspection and test plan they were meant to follow and the data book they end up in, independently and against both the code and the purchase specification. Buyers, EPC contractors, source inspectors and fabricators send records for review, and every review is carried out remotely.",
+  "highlights": [
+    { "h": "The purchase order, not just the code", "p": "Code compliance is the floor. The review also tests the extra examinations, extents and acceptance criteria your specification added, which is where vendor reports most often fall short." },
+    { "h": "Traceable to weld, welder and drawing", "p": "Each examination should lead back to a weld on the weld map, the welder who made it and the procedure used. The review follows those links and reports where they break." },
+    { "h": "Specialist support for your source inspector", "p": "A source inspector covers many disciplines at once. An NDT review gives that inspector a specialist reading of the NDT portion before the release note is signed." }
+  ],
+  "sections": [
+    {
+      "h": "The buyer's problem at the end of a fabrication job",
+      "p": [
+        "Fabrication schedules squeeze the paperwork into the final days. The welds were examined weeks earlier by the fabricator's NDT subcontractor, the data book is assembled while the equipment is being painted, and release for shipment is tied to a payment milestone. If the buyer's reviewer is a generalist and the NDT section runs to hundreds of pages, reports tend to be checked for presence rather than substance.",
+        "An independent NDT review changes that. It reads the reports the way an auditor would, tests them against the specification and the ITP, and returns findings the buyer can put to the fabricator while the equipment is still in the shop and corrections are still practical. Fabricators can use the same review to check their own package before the customer opens it. Atlantis does not review packages for jobs on which it performed the examinations."
+      ]
+    },
+    {
+      "h": "What sits in a data book, and what the review opens",
+      "p": [
+        "Data books vary by buyer and by equipment type, but the NDT review always touches the same core documents, because an NDT report means little without the records that tie it to a weld and to a requirement. Many buyers call the finished package a manufacturing data record or MDR; for ASME equipment the term also covers the code's own Manufacturer's Data Report, so the review confirms which is meant before it starts."
+      ],
+      "table": {
+        "head": ["Data book item", "Why it matters to the NDT record", "What the reviewer checks"],
+        "rows": [
+          ["Manufacturer's Data Report, such as ASME Form U-1 or U-1A", "States the code, the edition and the examination basis the equipment was certified to", "That the examination extent in the NDT reports matches the joint efficiencies and requirements the data report declares"],
+          ["Weld map and weld log", "Identify every weld, its welder, its WPS and its required examinations", "That every weld needing examination has a report, and every report names a weld that exists on the map"],
+          ["Welding procedure and welder qualification records", "Show which processes and welders made each joint", "Cross-references alone: NDT and repair records must point to qualified procedures; the review does not write or qualify welding procedures"],
+          ["NDT procedures and technique sheets", "Fix the parameters the examinations had to follow", "The revision in force on the examination date, approved before the work began"],
+          ["NDT reports, images and data", "The examination evidence itself", "The seven checks, method by method, including raw digital data where it exists"],
+          ["Repair records", "Show what was rejected and how it was put right", "Re-examination of every repair by the original method and to the original extent, with repair cycles counted"],
+          ["Heat treatment and pressure test records", "Set the order of examination relative to PWHT and hydrotest", "That examinations required after heat treatment were done after it, with dates that agree"],
+          ["Personnel and equipment records", "Prove who did the work and with what", "Certificates and vision examinations current on the date of work, and calibration certificates for instruments and blocks"]
+        ]
+      }
+    },
+    {
+      "h": "ASME code shops, the Authorized Inspector and the buyer's own acceptance",
+      "p": [
+        "A fabricator holding an ASME certification mark builds under a quality control system that ASME has reviewed, with an Authorized Inspector from an Authorized Inspection Agency monitoring the work and signing the Manufacturer's Data Report. That signature confirms code compliance as the Authorized Inspector saw it. It does not confirm that the buyer's additional requirements were met, and it is not the buyer's acceptance.",
+        "Purchase specifications commonly go beyond the code: full radiography where the code would allow spot, ultrasonic examination in place of radiography, extra magnetic particle examination of nozzle welds, hardness limits for sour service, or examination after hydrotest. The review reads the specification first and tests the reports against it. Atlantis does not act as Authorized Inspector and does not sign data reports; the opinion is advice to whoever commissions it."
+      ]
+    },
+    {
+      "h": "Examination extent: random, spot and full",
+      "p": [
+        "Extent is where vendor packages are easiest to get wrong. Under ASME B31.3, piping in normal fluid service is examined by random radiography or ultrasonic testing of at least five percent of circumferential butt and miter groove welds, and a rejection triggers progressive sampling under paragraph 341.3.4: two more welds of the same kind from the same lot, then further tracers, and examination of the whole lot if rejections continue. Section VIII ties the joint efficiency used in vessel design to whether a seam received full, spot or no radiography.",
+        "The review checks that the lot was defined the way the specification requires, that the random sample was genuinely selected rather than chosen after the fact, that progressive examination followed every rejection and that tracer welds were examined by the same method as the original. For vessels it checks that the radiography extent shown in the reports supports the joint efficiency stated on the data report.",
+        "Where ultrasonic examination replaces radiography, the review confirms that the code and the specification permit it for that joint, that the procedure and the personnel are qualified for it, and that encoded data exist if the code or the buyer requires them."
+      ]
+    },
+    {
+      "h": "Method by method: what fabricator reports get wrong",
+      "p": [
+        "In the United States the radiographs in a vendor package come from a licensed radiography contractor working for the fabricator. Atlantis does not perform industrial radiography in the United States, and reviewing those film, computed or digital radiographs is a document review that sits squarely inside this service. The table lists, for each method, the evidence a report must carry and the gap that turns up most in fabricator packages."
+      ],
+      "table": {
+        "head": ["Method", "Evidence the report must carry", "Frequent gap in fabricator packages"],
+        "rows": [
+          ["Radiography on film, CR or DR", "Image quality indicator type and placement, density or signal-to-noise values, location markers, and image identification tied to the weld map", "Image quality not demonstrated in the area of interest, or identification that cannot be matched to the weld log"],
+          ["Ultrasonic testing", "Instrument, probe and block identification, reference sensitivity, scan coverage and the evaluation of each indication", "Coverage stated as complete with no scan plan showing how both sides of the weld were reached"],
+          ["Phased array and TOFD", "Scan plan, setup files, focal laws, encoded data and the analysis of each indication", "Images pasted into the report with no encoded files supplied, so sizing cannot be checked"],
+          ["Magnetic particle testing", "Technique, field direction checks, particle type, lighting and the areas examined", "Examination required after PWHT, but the report is dated before the heat treatment chart"],
+          ["Liquid penetrant testing", "Penetrant system, dwell and development times, surface condition and temperature", "Dwell times outside the procedure, or the cleaning method never recorded"],
+          ["Visual examination", "Acceptance criteria, gauges and the condition of each weld", "One signature for an entire spool with no weld-by-weld results"]
+        ]
+      }
+    },
+    {
+      "h": "Inspection and test plans, hold points and source inspection",
+      "p": [
+        "The inspection and test plan is the working agreement between buyer and fabricator about who examines what, and when. It names hold points the fabricator may not pass without the buyer, witness points the buyer may attend, and review points where documents are checked. API RP 588, first published in 2019, sets out recommended practice for source inspection and quality surveillance of fixed equipment and treats the ITP as the backbone of that work.",
+        "A source inspector is usually responsible for every discipline on the ITP and cannot always read a radiograph or a phased array file at specialist depth. Remote NDT review complements that role: the source inspector keeps the hold points and the release decision, and gains an independent technical reading of the NDT reports to support it. The review also checks the ITP itself, because a plan that lists the wrong method or extent produces reports that comply with the plan and still fail the specification."
+      ]
+    },
+    {
+      "h": "Piping spools, vessels and structural assemblies",
+      "p": [
+        "Each fabrication type has its own weak points. Spool packages fail on traceability: hundreds of welds, many welders, and weld numbers that change between the shop isometric and the field. Vessel packages fail on extent and sequence, particularly examinations required after heat treatment. Structural assemblies and skids built to AWS D1.1 fail on the ultrasonic indication rating, on visual acceptance and on confusion between the fabricator's QC records and the buyer's QA.",
+        "Radiographic, ultrasonic, magnetic particle, penetrant and visual reports from fabricators are reviewed with an ASNT NDT Level III certified in those five methods leading the work. Other members of the review team bring nuclear, maritime, oil and gas and petrochemical experience, which counts when the equipment is bound for a refinery, a chemical plant or a power station rather than a warehouse."
+      ]
+    },
+    {
+      "h": "Digital data books and vendor document portals",
+      "p": [
+        "Data books increasingly arrive as digital deliverables: bookmarked PDFs, uploads to a vendor document portal, digital radiography images in place of film, phased array files on a shared drive, and reports generated by the NDT contractor's digital reporting system. Digital delivery makes a thorough NDT review practical, because images and data can be reopened and searched rather than leafed through.",
+        "It also creates new ways to fail. A portal may show the latest revision of a report rather than the one issued at shipment, digital radiographs may be supplied as compressed screenshots rather than original image files, and electronic signatures may be applied by an administrator instead of the qualified person. The review checks file formats, revision history, the lineage from acquisition to report, and whether the digital package matches the signed index.",
+        "If your purchase orders specify digital deliverables, the requirement itself can be reviewed too, so the next vendor hands over inspection data you can actually audit rather than pictures of it."
+      ]
+    },
+    {
+      "h": "Timing the review against shipment and payment",
+      "p": [
+        "The most useful moment to review is not the end. A short review of the fabricator's NDT procedures, personnel certificates and opening reports, sent early in production, catches systematic problems while they affect a few welds instead of all of them. A final review of the complete data book then confirms coverage, repairs and traceability before release.",
+        "Tell us the release and payment milestones when you enquire. We reply within one business day with a scope and a quote that suit the stage you are at, and the opinion ranks its findings so the decision-maker can see at once whether anything should hold the shipment."
+      ]
+    },
+    {
+      "h": "What stays with the fabricator, the AI and your engineer",
+      "p": [
+        "A review is advice to the party that commissions it. These responsibilities do not move because a review was done."
+      ],
+      "list": [
+        "The fabricator remains responsible for its examinations, its QC system and any corrections the review prompts",
+        "Code acceptance and the data report signature remain with the Authorized Inspector; Atlantis does not act in that role",
+        "Atlantis does not write, qualify or approve welding procedures; WPS and PQR records are read only to check that NDT and repair records point to qualified procedures",
+        "Design questions, joint efficiency choices and acceptance of deviations stay with the buyer's engineer",
+        "Re-examination, where the record cannot support acceptance, is arranged between the buyer and the fabricator; the opinion describes what it should cover"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can you review a vendor data book before we release a vessel for shipment?", "a": "Yes. Send the data book, the purchase specification, the ITP and the planned release date. The review concentrates on the NDT portion and its traceability to the weld map, the data report and the specification, and ranks any finding that should hold the release." },
+    { "q": "Does the Authorized Inspector's signature mean the NDT is acceptable to us?", "a": "It means the Authorized Inspector accepted the work as complying with the code. Your specification may add examinations, extents or acceptance criteria the code does not require, and the Authorized Inspector is not checking those on your behalf." },
+    { "q": "Can you work alongside our source inspector?", "a": "Yes. The source inspector keeps the hold points and the release decision; the remote review gives that inspector a specialist reading of radiographs, ultrasonic data and surface method reports." },
+    { "q": "We are the fabricator. Can we have our own package reviewed?", "a": "Yes. An independent read before customer submission is one of the situations the service is designed for. The opinion is written the same way whoever commissions it, so you can show it to the customer if you choose." },
+    { "q": "Do you review B31.3 random examination and progressive sampling records?", "a": "Yes. The review checks lot definition, sample selection, the progressive examinations after each rejection and the methods used on tracer welds, against the code and your specification." },
+    { "q": "Do you need the original digital radiography files?", "a": "Where possible, yes. Compressed screenshots inside a PDF cannot show whether image quality requirements were met. The opinion states plainly when original files were not supplied." },
+    { "q": "Is the review carried out at the fabricator's shop?", "a": "No. It is remote and works from the records you send, which also keeps it independent of the shop's schedule and staff." },
+    { "q": "How do we request a fabrication report review?", "a": "Use the form on this page or write to info@atlantisndt.com with the equipment type, the code and specification, the NDT methods involved and the release date. We reply within one business day with a scope and a quote matched to that release date." }
+  ],
+  "related": [
+    ["/standards/asme-section-viii-div-1", "ASME Section VIII Division 1 explained"],
+    ["/standards/asme-b31-3", "ASME B31.3 explained"],
+    ["/inspection/third-party-inspection-houston", "Third-party and vendor inspection in Houston"],
+    ["/consulting/subcontractor-approval-audits", "Client and subcontractor approval audits"],
+    ["/ultrasonic-testing-fabrication", "Ultrasonic testing for fabrication"]
+  ],
+  "sources": [
+    "https://www.asme.org/getmedia/125efd54-52a6-43a4-a322-4a7bcb2863f7/BPVC_VIII_1_U-1A-2025.pdf",
+    "https://www.asme.org/about-asme/standards/bpvc-resources/asme-data-report-forms",
+    "https://www.intertekinform.com/en-us/standards/api-rp-588-2019-1159492_saig_api_api_2754737/",
+    "https://elk-bugle-6b5g.squarespace.com/blog/progressive-weld-sampling",
+    "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025"
+  ]
+}
