@@ -1,0 +1,15 @@
+{
+  "slug": "joliet",
+  "lat": 41.53,
+  "lng": -88.08,
+  "localContext": "Joliet, in Will County southwest of Chicago, is a refining, pipeline and power town. ExxonMobil's Joliet refinery in Channahon Township and CITGO's Lemont refinery anchor a river corridor of tank terminals, chemical plants and crude and product pipelines, and Constellation's Braidwood and Dresden nuclear stations are close by. Fabricators, heavy-equipment component plants and the intermodal yards at Elwood and Joliet add structural and mechanical work. Piping and vessels follow ASME and API codes and owner programs, pipelines follow API 1104 and steel follows AWS. UT thickness and weld examination lead, with MT, PT, VT and RT close behind.",
+  "certPathwayNote": "Joliet contractors and plant employers certify technicians under their own ASNT SNT-TC-1A written practice; the employer examines and signs the certification. Refinery owners add contractor prequalification rules, and nuclear outage work adds utility access programs and, for UT, performance demonstration qualification. ASNT central certification is the alternative route for technicians who move between contractors, and Atlantis prepares candidates for it.",
+  "salaryFrom": "peoria",
+  "siblings": [
+    "chicago",
+    "peoria",
+    "rockford",
+    "whiting",
+    "milwaukee"
+  ]
+}

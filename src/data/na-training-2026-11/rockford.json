@@ -1,0 +1,15 @@
+{
+  "slug": "rockford",
+  "lat": 42.27,
+  "lng": -89.09,
+  "localContext": "Rockford, on the Rock River near the Wisconsin line, is a precision-manufacturing and aerospace city. Collins Aerospace and Woodward run aerospace operations in the area, AAR maintains aircraft at Chicago Rockford International Airport, and machine shops, gear makers, heat treaters and finishers supply them. Constellation's Byron Generating Station lies to the southwest. Aerospace parts are inspected to customer and prime specifications, ASTM practices such as E1417 for penetrant and E1444 for magnetic particle, and Nadcap audit criteria, while plant and structural work follows ASME and AWS. Fluorescent penetrant, MT and UT lead locally.",
+  "certPathwayNote": "Rockford suppliers certify NDT personnel under an employer written practice that Atlantis builds on ASNT SNT-TC-1A, aligned to each prime's or OEM's flow-down and to Nadcap AC7114 audit criteria; the employer certifies and its Level III reconciles customer requirements. Aviation maintenance follows the aircraft manufacturer's manuals and the operator's program. ASNT central certification is an alternative route.",
+  "salaryFrom": "peoria",
+  "siblings": [
+    "chicago",
+    "milwaukee",
+    "peoria",
+    "joliet",
+    "minneapolis"
+  ]
+}
