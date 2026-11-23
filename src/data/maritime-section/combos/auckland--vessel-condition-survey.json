@@ -1,0 +1,131 @@
+{
+  "port": "auckland",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Auckland | Fleets, Charters & Lenders",
+  "description": "Vessel condition surveys in Auckland for owners and managers: car carriers and feeders at the wharves, trawlers and yachts in Calliope Dock, ferries ashore.",
+  "h1": "Condition Surveys for Owners and Managers of Ships Calling at, or Based in, Auckland",
+  "intro": "Two kinds of fleet meet in Auckland: liner ships such as car carriers and container feeders that call week after week but dock in Asia, and locally based trawlers, ferries, workboats and wintering superyachts that are docked and refitted around the harbour. Atlantis carries out vessel condition surveys for both, for owners, technical managers, charterers and financiers who need an independent view of a ship in service: tanks and structure, coating ratings, spot thickness, crack checks and machinery readings. Each survey team flies out from India to the ship, so the visit is matched to a confirmed call, docking slot or lay-by period.",
+  "highlights": [
+    {
+      "h": "A repeat call is a repeat check",
+      "p": "Liner ships come back to Auckland on fixed rotations, and Maritime New Zealand may look again at an item recorded on an earlier call. Surveying the same marked areas at the same wharf on successive calls gives the owner a trend line rather than a single snapshot."
+    },
+    {
+      "h": "Winter quay space for longer surveys",
+      "p": "Fewer cruise calls in the southern winter leave more room at the city wharves and in the marine yards. Owners of locally based ships, and managers of superyachts wintering in Auckland, can plan a fuller survey then, with tanks opened and machinery run without a sailing deadline."
+    },
+    {
+      "h": "One record for owner and financier",
+      "p": "When a ship changes operator, comes off charter or is refinanced, each party needs the same picture of her. The survey rates every area in fixed terms and lists what was not seen, so the owner, the charterer and the lender can all read one report the same way."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-surveys-auckland",
+      "h": "Where in Auckland can a vessel condition survey be carried out?",
+      "p": [
+        "For liner ships the wharves are the setting. Car carriers on the vehicle run and container feeders on coastal and Pacific islands loops call regularly, and each call can carry a slice of the survey: ballast tanks and voids the ship releases, cleared car decks and ramps, coamings, deck fittings and the engine room. Winter, with fewer cruise calls, is the easier season to find a berth where a ship can lie for longer.",
+        "Locally based ships are surveyed where they are maintained. Trawlers and superyachts that fit the Calliope Dock at Devonport are docked there when the naval programme allows, and a survey timed with the docking records the bottom, turn of the bilge, sea chests and stern from the dock floor and the matching structure from inside. Ferries, launches and workboats are surveyed on the hardstands of the boatyards around the Wynyard Quarter and on other parts of the harbour. A berth delay spent at anchor in the inner Gulf can add tank time, provided the agent can book a launch."
+      ],
+      "list": [
+        "Multi-cargo and container wharves: car carriers and feeders surveyed over repeated calls",
+        "Princes Wharf and the city cruise berths: technical spaces during summer turnarounds",
+        "Calliope Dock, Devonport: trawlers, superyachts and other vessels surveyed while docked",
+        "Boatyard hardstands: ferries, launches and workboats during maintenance",
+        "Inner Gulf anchorages: extra tank work during a berth wait"
+      ]
+    },
+    {
+      "id": "who-commissions-auckland",
+      "h": "Which owners, managers and financiers commission condition surveys in Auckland?",
+      "p": [
+        "Operators of car carriers and container feeders are the largest group. Their ships dock in Asia, so the technical manager uses Auckland calls to gather evidence for the next docking; and because Maritime New Zealand may return to an item recorded on a previous call, a survey beforehand lets the master put deck fittings, air pipe heads and ramp structure in order first.",
+        "Fishing companies commission surveys around the planned dockings of their trawlers, when holds are empty and some lining may already be off for repair, and use the report to plan the following season's work. Superyacht managers whose yachts winter in Auckland want a measured baseline before a refit is specified. Ferry and workboat operators compare craft across a fleet or document a vessel's state when it moves to another operator.",
+        "Banks and lessors financing coastal ships, trawlers or yachts ask for a survey at drawdown, during the loan or at the end of a lease, and charterers use one at delivery or redelivery when the handover falls at Auckland. None of these replaces a P&I surveyor, a charterer-appointed surveyor or a class surveyor; the condition survey is an independent commercial record that sits beside them."
+      ]
+    },
+    {
+      "id": "liner-call-versus-docking",
+      "h": "How is a condition survey scoped for a liner call compared with a local docking?",
+      "p": [
+        "A liner call allows a day or so. The scope is therefore staged across calls, with marked reading positions fixed on the first visit and repeated later, so that wastage and coating breakdown can be trended rather than guessed. On a car carrier, cleared decks are surveyed between discharge rows under the chief officer's control, and tanks are entered once ventilated and permitted; on a feeder, the departure ballast plan decides which tanks can be released.",
+        "A docking allows depth. In the Calliope Dock the hull is clean and staged, so external readings and crack checks come first, then the same areas are examined from inside: tank tops, frames behind lifted fish hold panels and sea chest internals. On a trawler, the refrigeration compressors and the main engine are measured when the ship runs them before or after the docking, because a docked ship's machinery seldom runs at a meaningful load. On a superyacht, the survey keeps to structure, tanks, closures and machinery and leaves interiors and cosmetic finishes to the refit team."
+      ]
+    },
+    {
+      "id": "findings-auckland-surveys",
+      "h": "What do condition surveys of Auckland ships usually report?",
+      "p": [
+        "Car carriers report what their design hides: condensation corrosion on deckheads under the upper car decks, wear at hoistable deck supports and locking pins, distortion and cracking around ramp hinges and stern door frames, and ballast tanks whose coatings have not been looked at closely since the last docking. Feeders on island loops report shell plating worn or dented near the waterline where they lie against fenders at small ports, together with deck fittings and mooring equipment worked hard by frequent berthing.",
+        "Trawlers report heavy-weather damage forward, corrosion in steel uncovered when hold lining comes off, and wear in freezer spaces; their refrigeration plant often shows a developing problem first in its vibration readings. On aluminium ferries and workboats, the welds most often found cracked are those carrying engines, waterjets or propeller brackets. Every defect is located, photographed and sorted into three bands: deal with it now, deal with it at the next survey or docking, or check it again at the next visit."
+      ]
+    },
+    {
+      "id": "cas-cap-maritime-nz-biofouling",
+      "h": "Condition survey, CAS, CAP, Maritime NZ surveys and biofouling: what each one covers",
+      "p": [
+        "The condition survey is the client's own commercial record. The IMO Condition Assessment Scheme is a statutory regime for older single-hull oil tankers, and a class Condition Assessment Programme produces a rating from the classification society; both are explained on their own pages in this section, and neither is what an Auckland owner's survey provides. For vessels in New Zealand domestic service, the certificate of survey under the Maritime Operator Safety System remains the Recognised Surveyor's responsibility, under Maritime Rules Part 46.",
+        "Thickness readings in an Auckland condition survey serve the decisions of whoever commissioned it, owner, charterer or financier, and are not credited to any class survey: Atlantis's UR Z17 approval with DNV, Lloyd's Register and ABS is still being obtained, and no certificate has been issued. For long-stay vessels such as superyachts, research ships and work vessels, the survey's photographs of sea chests, gratings and other niche areas at docking can support the owner's biofouling records under the Craft Risk Management Standard, but the cleaning and the compliance belong to the owner and the cleaning provider."
+      ]
+    },
+    {
+      "id": "planning-auckland-survey",
+      "h": "Planning an Auckland condition survey: dates, visas and documents",
+      "p": [
+        "Give us the purpose, the ship's next Auckland calls or her docking or lay-up dates, and the earlier condition and thickness reports with the drawings needed to locate readings. For a Calliope Dock survey, the owner books the dock with its operator and we fit the survey to the docking plan; visitors then follow the operator's access process inside the naval base.",
+        "Our team flies from India with a connection in South-East Asia or Australia, and its New Zealand visa application goes in once the dates are firm, backed by the owner's or agent's written description of the job. A survey repeated on each rotation or at every planned docking is easier to plan than a single urgent visit, because the dates are known long in advance. Send the details to info@atlantisndt.com or through the enquiry form, along with the name of whoever should receive the report."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers on the Asian vehicle run",
+    "Container feeders on coastal and Pacific islands loops",
+    "Deep-water fishing trawlers",
+    "Superyachts wintering in Auckland",
+    "Harbour ferries and launches",
+    "Workboats",
+    "Cruise ships on summer turnarounds"
+  ],
+  "codes": [
+    "IACS UR Z7 – hull classification surveys and the GOOD, FAIR and POOR coating terms",
+    "ISM Code, section 10 – maintenance of the ship and equipment",
+    "Maritime Rules Part 46 – surveys, certification and maintenance",
+    "Craft Risk Management Standard for biofouling on vessels arriving in New Zealand",
+    "ISO 20816-1 – measurement and evaluation of machine vibration",
+    "ASTM E797 – ultrasonic thickness measurement by the manual pulse-echo contact method"
+  ],
+  "deliverables": [
+    "Condition summary, with urgent items given to the master and technical manager on board",
+    "Area and coating ratings in fixed terms, comparable call to call and docking to docking",
+    "Ranked defect list with photographs and recommended actions",
+    "Spot thickness readings at marked positions, including dock-floor readings when docked",
+    "Machinery vibration and thermal readings, with refrigeration plant on trawlers",
+    "Photographic record of sea chests and niche areas at docking, where requested"
+  ],
+  "faqs": [
+    {
+      "q": "Can a car carrier be condition-surveyed during a normal Auckland discharge?",
+      "a": "Yes, over one call or several. While vehicles leave the ship, the team works on decks that have already been cleared and in ballast tanks and voids the ship has ventilated and permitted, keeping clear of moving traffic under the chief officer's direction. Spaces still loaded at sailing are carried to the next Auckland call, with marked positions so that the readings from each call join up."
+    },
+    {
+      "q": "Can you survey a trawler while she is in the Calliope Dock?",
+      "a": "Yes, and the docking is the best moment for it. From the dock floor the team gauges and examines the bottom, the bilge turn, the sea chests and the stern while the hull is still clean, and the fish holds are read wherever lining panels are off. The refrigeration plant and main engine are measured when the ship runs them, which may be just before or just after the docking."
+    },
+    {
+      "q": "Do you survey superyachts wintering in Auckland?",
+      "a": "Yes, for structure, tanks, closures and machinery: hull gauging on steel or aluminium, crack checks on welds, and machinery vibration and thermal readings. A survey before the refit is specified gives the manager a measured list rather than estimates. The survey does not assess interiors, paint finish or equipment beyond the technical systems, and it is not a valuation of the yacht."
+    },
+    {
+      "q": "Does an Auckland condition survey replace a Maritime NZ Recognised Surveyor or a charterer's surveyor?",
+      "a": "No. A domestic vessel's certificate of survey depends on the Recognised Surveyor, and a charter party that names an on-hire or off-hire surveyor keeps that surveyor's report as the contractual one. Our survey is an independent condition record commissioned by the client; it can sit alongside both and, if the client wishes, its readings and photographs can be shared with them."
+    },
+    {
+      "q": "How often should an Auckland-based fleet be surveyed?",
+      "a": "No rule sets a frequency. Fishing companies often tie the survey to each trawler's docking, liner operators to a set number of calls a year or to the interval before each Asian docking, and ferry operators to their slipping cycle. More important than the interval is consistency: the same marked positions, the same rating terms and the same machinery loads, so each report shows how the vessel has changed."
+    },
+    {
+      "q": "Can a condition survey support biofouling records for a vessel staying long in New Zealand?",
+      "a": "It can add evidence, not compliance. At a docking we photograph and record sea chests, gratings, thruster tunnels and other niche areas alongside the hull readings, which helps the owner show the condition of those areas. Cleaning, antifouling and the documents the Craft Risk Management Standard asks for remain the owner's responsibility, together with the cleaning provider and any plan the Ministry for Primary Industries approves."
+    }
+  ]
+}

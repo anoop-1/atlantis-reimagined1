@@ -25,7 +25,7 @@
       "h": "Where can a vessel condition survey be carried out at Fujairah?",
       "p": [
         "The anchorage is the main workplace. A tanker waiting off the port is boarded from a launch that the ship's agent books, and the survey covers what the crew can prepare in the time she has: ballast tanks emptied, ventilated and gas-tested, the deck, the pump room, the accommodation and the engine room. Cargo tanks on a laden or recently discharged tanker are usually closed, and the shell below the waterline cannot be seen afloat, so both are assessed from the last docking report, the last thickness report and the readings that can be taken from adjoining spaces.",
-        "Other settings give other depths of survey. Barges and small coastal tankers are best surveyed at their lay-by berths, where the operator can stand one down for a day and every space can be reached from the quay. Bulk carriers calling to load aggregates can be surveyed on arrival while their holds are empty and dry. A tanker lying idle at an oil terminal berth in the Fujairah Oil Industry Zone may allow deck, piping and pump room work if the terminal issues a permit, though most owners find the anchorage easier to arrange."
+        "Other settings give other depths of survey. Barges and small coastal tankers are best surveyed at their lay-by berths, where the operator can stand one down for a day and every space can be reached from the quay. Bulk carriers calling to load aggregates can be surveyed on arrival while their holds are empty and dry. Terminal berths in the Fujairah Oil Industry Zone are less useful: a terminal will sometimes permit deck and piping work on a tanker lying idle alongside, but tank entry there is rare and most owners find the anchorage simpler to arrange."
       ],
       "list": [
         "Anchorage by launch: trading tankers stopped for bunkers, orders, stores or a crew change",
@@ -40,7 +40,7 @@
       "h": "Which owners and managers commission condition surveys at Fujairah?",
       "p": [
         "Tanker owners and their technical managers are the largest group. A crude or product tanker trading in and out of the Gulf may pass Fujairah every few weeks without coming near a repair yard, so the anchorage stop is the moment a superintendent can see the ballast tanks with a surveyor and decide what the next docking must include. Owners with several ships in Gulf trades often ask for each one to be surveyed in turn as it calls, to the same plan, so the reports can be compared across the fleet.",
-        "Charter changes bring a second group. When a tanker is delivered into a time charter at Fujairah, or handed back there, the charterer appoints its own on-hire or off-hire surveyor, and an owner who wants its own measured record at the same moment commissions a condition survey alongside. Lenders and lessors reviewing a tanker held as security form a third group, usually through the owner, and they want a plain account of condition and of what the next class survey is likely to require.",
+        "Charter changes bring a second group. When a tanker is delivered into a time charter at Fujairah, or handed back there, the charterer appoints its own on-hire or off-hire surveyor, and an owner who wants its own measured record at the same moment commissions a condition survey alongside. Lenders and lessors reviewing a tanker held as security form a third group, usually through the owner, and they want a plain account of the ship's present state and of the steel and machinery work her next class survey will probably bring.",
         "Bunker barge and coastal tanker operators make up the rest. Their craft work hard in a small area, berth against ships of every size, and rarely leave the emirate's waters, so periodic surveys at the lay-by berths are the practical way to plan their dockings and to answer questions from the operators who charter them."
       ]
     },
@@ -48,9 +48,9 @@
       "id": "scope-fujairah-vcs",
       "h": "How is a condition survey scoped for a tanker at Fujairah anchorage?",
       "p": [
-        "The scope begins with what the ship can make safe before the launch arrives. On a double-hull tanker the double-bottom and double-side ballast spaces, the forepeak and the aft peak are the usual entries, and the request to empty and ventilate them goes to the master through the manager well before the call, because preparing a tank at anchor takes hours the stop may not offer. Deck plating over the cargo block is read on a grid, since a reading taken from above also reveals steel lost from the underside of the deckhead, and the pump room is entered under the ship's permit system.",
-        "Machinery is measured while the chief engineer can run it. At anchor that usually means the generators, ballast and cooling water pumps, purifiers, compressors and ventilation fans, with vibration taken overall and as a spectrum and the switchboards and motor starters surveyed with a thermal camera under whatever load the ship can produce. The analysts and thermographers work to written procedures and record the operating condition of each machine, so a later survey can compare like with like.",
-        "The working day follows the ship's own operations. While a bunker barge is alongside, the deck crew is busy at the manifold and the area around it is closed, so the team moves to the engine room or a ballast tank on the other side. A ship-to-ship transfer stops deck work entirely. In the hot months, external surveys of deck plating and fittings are planned for the early morning and late afternoon, because steel in direct sun becomes too hot for couplant, probes and the people holding them."
+        "The scope begins with what the ship can make safe before the launch arrives. On a double-hull tanker the double-bottom and double-side ballast spaces, the forepeak and the aft peak are the usual entries, and the request to empty and ventilate them goes to the master through the manager well before the call, because preparing a tank at anchor takes hours the stop may not offer. Deck plating over the cargo block is read on a grid, since a reading taken from above also reveals steel lost from the underside of the deckhead, and pump room structure, casings and bulkhead penetrations are examined once the officer of the watch issues an entry permit.",
+        "Machinery is measured while the chief engineer can run it. At anchor that usually means the generators, ballast and cooling water pumps, purifiers, compressors and ventilation fans, with vibration taken overall and as a spectrum, while thermal images of the switchboards and motor starters are taken with the generators carrying as much load as the anchorage allows. The analysts and thermographers work to written procedures and record the operating condition of each machine, so a later survey can compare like with like.",
+        "The working day follows the ship's own operations. Bunkering ties up the deck officers and closes the manifold area for its duration, so the team switches to the engine room or to a ballast tank away from the hoses until the barge casts off. A ship-to-ship transfer stops deck work entirely. In the hot months, external surveys of deck plating and fittings are planned for the early morning and late afternoon, because steel in direct sun becomes too hot for couplant, probes and the people holding them."
       ]
     },
     {
@@ -74,26 +74,25 @@
       "h": "Using a Fujairah condition survey at charter delivery and redelivery",
       "p": [
         "An on-hire or off-hire survey belongs to the party that appoints it, usually the charterer, and records the condition the charter party measures: bunkers on board, cleanliness and the state of the ship as delivered. An owner's condition survey taken at the same anchorage stop does not replace that surveyor or a P&I club's surveyor; it gives the owner a fuller record of its own, with ballast tank coatings rated in the IACS GOOD, FAIR and POOR terms, thickness readings at marked points and machinery measured under load. If damage is disputed at redelivery, the owner holds measured evidence from the start of the charter.",
-        "The survey is equally distinct from the formal schemes that sound similar. The IMO Condition Assessment Scheme applies to older single-hull oil tankers and ends with a statement from the flag Administration, and the Condition Assessment Programme is a rating issued by the ship's classification society; both have their own pages here. A Fujairah condition survey can show an owner where a CAP survey or an oil-major vetting inspection is likely to find trouble, but it produces no rating.",
-        "Thickness readings follow the same logic. Class gives survey credit only to gauging by a firm that the ship's own society has approved under IACS UR Z17, and Atlantis is in the process of obtaining that approval from DNV, Lloyd's Register and ABS. Readings from a condition survey at Fujairah therefore support the owner's decisions on dockings, charters and further trading, and are not credited to a class survey."
+        "The survey is equally distinct from the formal schemes that sound similar. For elderly single-hull oil tankers the IMO runs its Condition Assessment Scheme, a statutory process that closes with a statement from the flag Administration, and the Condition Assessment Programme is a rating issued by the ship's classification society; both have their own pages here. A Fujairah condition survey can show an owner where a CAP survey or an oil-major vetting inspection is likely to find trouble, but it produces no rating."
       ]
     },
     {
       "id": "planning-fujairah-vcs",
       "h": "Planning a condition survey off Fujairah",
       "p": [
-        "UAE visas are arranged before the team leaves India, and the technicians usually fly into Dubai or Sharjah, which have more direct services than Fujairah's own airport, then drive across the Hajar mountains to the east coast. Tell us as soon as the ship is expected at Fujairah, even with an approximate date, because anchorage stops are short and their length changes with the charterer's orders. The ship's agent books the launch and any port entry permit, and boarding goes ahead only when the manager, the agent and the master confirm it, following the security instructions in force for the Gulf of Oman at the time.",
-        "With the enquiry, send the vessel name or IMO number, the purpose of the survey, the expected cargo condition at the stop, the class survey status and any earlier condition, thickness or CAP reports, so the new readings can be taken at the same positions. If the survey records a charter delivery, say whether a matching redelivery survey is expected and where. Write to info@atlantisndt.com or use the enquiry form on this page."
+        "UAE visas are arranged before the team leaves India, and the technicians usually fly into Dubai or Sharjah, which have more direct services than Fujairah's own airport, and complete the journey to the east coast by road over the Hajar range. Tell us as soon as the ship is expected at Fujairah, even with an approximate date, because anchorage stops are short and their length changes with the charterer's orders. Launch bookings and port entry permits are arranged by the ship's agent, and boarding goes ahead only when the manager, the agent and the master confirm it, following the security instructions in force for the Gulf of Oman at the time.",
+        "With the enquiry, include the IMO number, why the survey is wanted, the expected cargo condition at the stop, the class survey status and any earlier condition, thickness or CAP reports, so the new readings can be taken at the same positions. If the survey records a charter delivery, say whether a matching redelivery survey is expected and where. Enquiries can go to info@atlantisndt.com, or through the form further down this page."
       ]
     }
   ],
   "vessels": [
-    "VLCC, Suezmax and Aframax crude tankers",
-    "LR and MR product tankers",
-    "Chemical tankers",
-    "Floating storage tankers",
-    "Bunker barges and coastal tankers",
-    "Handysize and Supramax bulk carriers"
+    "Crude tankers in Gulf trades, VLCC to Aframax",
+    "Product tankers between Gulf refineries and export routes",
+    "Tankers on floating storage contracts",
+    "Tankers delivered into or out of time charter",
+    "Bunker barges and small coastal tankers",
+    "Bulk carriers in the aggregates trade"
   ],
   "codes": [
     "IACS UR Z7 – Hull classification surveys, with the GOOD, FAIR and POOR coating condition terms",
@@ -114,7 +113,7 @@
   "faqs": [
     {
       "q": "Can a vessel condition survey be done while a tanker waits at Fujairah anchorage?",
-      "a": "Yes, and most Fujairah surveys are. The team boards from a launch the agent books and covers the ballast tanks the crew has prepared, the deck, pump room, accommodation and engine room. Cargo tanks are rarely gas-free on a trading tanker, so their condition is judged from deck readings, adjoining spaces and the records. Spaces are ranked before boarding, so an early departure does not leave the important ones unseen."
+      "a": "Yes, and most Fujairah surveys are. The team boards from a launch the agent books and covers the ballast tanks the crew has prepared, the deck, pump room, accommodation and engine room. A trading tanker seldom has gas-free cargo tanks, which leaves their condition to be judged from deck readings, the adjoining ballast spaces and the records. Spaces are ranked before boarding, so an early departure does not leave the important ones unseen."
     },
     {
       "q": "Can you record a tanker's condition at charter delivery or redelivery off Fujairah?",
@@ -130,11 +129,11 @@
     },
     {
       "q": "Will the classification society accept thickness readings from a Fujairah condition survey?",
-      "a": "Not for class credit. Gauging that counts towards a class survey must come from a firm the ship's own society has approved under IACS UR Z17, and Atlantis is still working through that process with DNV, Lloyd's Register and ABS. The readings are the owner's evidence instead, useful for planning the steel at the next docking, often at a yard in Dubai or Bahrain."
+      "a": "Not for class credit. Only gauging by a firm holding UR Z17 approval from the ship's own society counts towards a class survey, and the approvals Atlantis is pursuing with DNV, Lloyd's Register and ABS have not yet been issued. The readings are the owner's evidence instead, useful for planning the steel at the next docking, often at a yard in Dubai or Bahrain."
     },
     {
       "q": "How does the survey team reach a ship at Fujairah?",
-      "a": "The technicians fly from India, usually into Dubai or Sharjah, and drive across to the east coast. UAE visas are arranged before travel, so send the ship's name, expected dates and the purpose of the survey to info@atlantisndt.com as soon as Fujairah is on her itinerary. The agent books the launch and permits, and the team follows the security instructions in force for the Gulf of Oman."
+      "a": "The technicians fly from India, usually into Dubai or Sharjah, and drive across to the east coast. Their UAE visas must be issued first, so email info@atlantisndt.com with the ship's name, the expected call and what the survey is for once Fujairah appears in her schedule. The agent books the launch and permits, and the team follows the security instructions in force for the Gulf of Oman."
     }
   ]
 }

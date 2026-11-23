@@ -1,0 +1,141 @@
+{
+  "port": "rotterdam",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Rotterdam | Tankers, Charters, Lenders",
+  "description": "Condition surveys in Rotterdam: chemical and product tankers between jetties, records at charter delivery and redelivery, and lender or pool-entry reviews.",
+  "h1": "Condition surveys at Rotterdam for charter handovers, tanker pools, lenders and scrubber ships",
+  "intro": "Rotterdam is where many charters begin and end, where parcel tankers spend days shifting between Botlek and Pernis jetties, and where a ship idle on a lay-by berth can finally be opened up. A vessel condition survey in Rotterdam uses those windows to give the owner, charterer or financier a measured record: tanks and holds rated space by space, spot thickness readings, crack checks, scrubber piping and machinery read while it runs. Owners use it at delivery and redelivery, before a ship joins a commercial pool and when a bank asks for evidence. Each job is staffed by technicians flown in from India on Schengen visas.",
+  "highlights": [
+    {
+      "h": "The same plan at both ends",
+      "p": "When a ship is delivered into a time charter at Rotterdam and redelivered months later, a survey to an identical plan at each end, same tanks, same reading positions, same machinery load, shows exactly what changed while the charterer had her, which is the record an owner needs if damage is disputed."
+    },
+    {
+      "h": "Parcel tankers between jetties",
+      "p": "A chemical tanker working Botlek and Pernis may shift berth several times in one call. We build the survey around the parcel programme with the chief officer, so ballast spaces, deck lines and pump stacks are covered between shifts and nothing waits on a cargo tank that will not be free."
+    },
+    {
+      "h": "Scrubber condition before the rules tighten",
+      "p": "North Sea port states have agreed to end open-loop wash-water discharge in port areas from mid-2027. Owners weighing a closed-loop conversion or a switch to compliant fuel first need to know the state of the scrubber piping, the overboard line and the shell around its outlet."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-rotterdam-vcs",
+      "h": "Where in the port of Rotterdam can a condition survey be carried out?",
+      "p": [
+        "A lay-by berth or buoy gives the fullest survey of a trading ship. With no cargo operation under way, the crew can empty and ventilate ballast tanks, rig safe access in holds and run machinery at a steady load, and the survey can work through the ship in a sensible order rather than chasing the cargo plan. Owners who can choose usually move the survey there from the terminal.",
+        "At the terminals the cargo decides the reach. During discharge at the Europoort and Maasvlakte crude and product terminals, the deck, accommodation and engine room can be surveyed under the terminal's permit while tanks stay closed. A bulk carrier at a Maasvlakte ore or coal berth opens hold by hold as the grabs finish, and a parcel tanker at the Botlek and Pernis jetties offers the hours between shifts. Ships that cannot come in are boarded by launch at the Maasmond anchorages, with the survey limited to what can be made safe at sea, and a ship in one of the Botlek repair docks adds her dry bottom if the yard agrees."
+      ],
+      "list": [
+        "Lay-by berths and buoys: ballast tanks, holds, deck and running machinery with no cargo competing for the crew",
+        "Botlek and Pernis jetties: chemical and product tankers surveyed between parcel shifts",
+        "Crude and product terminals at Europoort and Maasvlakte: deck and machinery spaces while cargo goes ashore",
+        "Maasvlakte bulk terminals: holds of ore and coal carriers in the hours after discharge",
+        "Maasmond anchorages: launch boarding for prepared spaces, deck and machinery",
+        "Botlek repair docks: bottom plating, sea chests and rudder, with the yard's agreement"
+      ]
+    },
+    {
+      "id": "charter-rotterdam-vcs",
+      "h": "Recording a ship's condition at charter delivery and redelivery in Rotterdam",
+      "p": [
+        "Rotterdam is a frequent place to hand a tanker or bulk carrier into or back from a time charter, because so many North West European voyages end with a discharge there. On-hire and off-hire surveys are commissioned by the charterer, whose surveyor records what the charter party measures, and a P&I club or hull insurer that wants a survey sends its own surveyor too. An owner's condition survey replaces none of them. It runs beside them and gives the owner a record that goes further: coatings rated in IACS GOOD, FAIR and POOR terms, measured steel at marked positions and vibration and thermal readings on the machinery.",
+        "The value is in the comparison. A bulk carrier delivered at Maasvlakte after an ore discharge and redelivered there a year later can show, hold by hold, whether frames, hopper plating and tank tops have suffered grab or bulldozer damage in the meantime. A product tanker can show whether ballast coatings have broken down further and whether deck lines and heating coils have lost wall. Taking both surveys to the same plan, and photographing from the same positions, turns two reports into evidence that stands up when owner and charterer disagree."
+      ]
+    },
+    {
+      "id": "jetties-rotterdam-vcs",
+      "h": "How is a condition survey fitted around a tanker shifting between jetties?",
+      "p": [
+        "Before boarding we take the parcel programme and the shifting plan from the agent or the chief officer and mark which hours the deck will be quiet, when the pilot and mooring gangs will be aboard, and which ballast tanks can be emptied without upsetting trim during cargo work. Engine room readings fit naturally into a shift, because generators, thrusters and pumps are running under load as the ship moves. Deck work, the cargo and heating lines, manifold supports, vent risers and the pump stacks of deepwell installations, is done alongside under the terminal's permit.",
+        "Entry to a cargo tank waits until the crew has washed it for the coming parcel, the certificate is issued and the master consents; the coating, or the condition of stainless steel, is then examined for blistering, pitting and repairs. Where a chemical tanker carries heating coils, their supports and the visible runs are noted, and the coil test records are read. The survey also reads the coating history, tank cleaning records and the Certificate of Fitness, because they explain much of what the tanks show. In winter, rain and wind off the North Sea slow external work and spoil outdoor thermal images, so deck surveys are taken in the drier hours and machinery fills the rest."
+      ]
+    },
+    {
+      "id": "lenders-rotterdam-vcs",
+      "h": "Condition surveys for lenders, lessors and commercial tanker pools",
+      "p": [
+        "Banks and lessors in ship finance often ask for periodic evidence on the ships they hold as security, and European owners deciding whether an older tanker or bulk carrier is worth another five-year cycle now weigh emissions trading and FuelEU Maritime alongside steel and machinery. A Rotterdam survey gives either reader the same plain material: condition by area, defects in priority order, measured readings, and an outline of what the coming intermediate or renewal survey will ask of the ship. If the lender has a reporting template, it is followed.",
+        "Commercial pools for product and chemical tankers set their own technical entry requirements, and pool managers usually rely on oil-major SIRE or CDI inspection results as well as their own checks. An owner preparing a ship to join a pool, or to face a vetting inspection, uses a condition survey some weeks earlier to find what an inspector would write up, from ballast tank coatings to closing appliances and deck piping, while there is still time to put it right. The survey produces no rating: a Condition Assessment Programme rating comes only from the classification society, and the IMO Condition Assessment Scheme is a separate statutory process; both have pages of their own here.",
+        "Readings taken for a lender or a pool are the owner's evidence rather than class gauging. Atlantis has not yet received the UR Z17 approvals it is in the process of obtaining from DNV, Lloyd's Register and ABS, so its condition survey readings are not credited to any class survey; they show where the class gauging at the next renewal survey is likely to find wastage."
+      ]
+    },
+    {
+      "id": "findings-rotterdam-vcs",
+      "h": "What do condition surveys of ships at Rotterdam usually find, scrubbers included?",
+      "p": [
+        "Rotterdam lies inside the North Sea emission control area, where ships burn fuel of no more than 0.10% sulphur or run a scrubber, so a large share of deep-sea callers carry exhaust gas cleaning systems that work hard here. OSPAR parties, the Netherlands among them, have agreed to stop open-loop wash-water discharge in port areas and inland waters from 1 July 2027 and all wash-water discharge from 1 July 2029, although each country may defer by up to three years. A condition survey records what the owner needs before choosing a zero-discharge upgrade or compliant fuel in port: wall thickness on the wash-water and overboard lines, the shell around the outlet and the visible state of the casing and dampers. The Scrubber Piping Inspection page covers a closer examination.",
+        "Beyond the scrubber, the findings on ships surveyed here follow their trades."
+      ],
+      "list": [
+        "Cargo tank coating breakdown on chemical tankers after aggressive parcels and repeated cleaning",
+        "Wall loss in scrubber wash-water and overboard piping, with corrosion around the shell outlet",
+        "Ballast tank coatings sliding from FAIR towards POOR in double-hull tankers' double bottoms",
+        "Thinned side frames, lower brackets and hopper slopes in the holds of long-serving ore and coal carriers",
+        "Corroded heating coil supports and deck line clamps on product and chemical tankers",
+        "Cracking at hatch corners and coaming brackets on bulk carriers and container ships",
+        "Pumps and generators out of balance, and hot connections in switchboards under load"
+      ]
+    },
+    {
+      "id": "planning-rotterdam-vcs",
+      "h": "Planning a condition survey in Rotterdam: Schengen visas, access and documents",
+      "p": [
+        "Each technician needs a Schengen visa issued in India for the job, and that lead time decides the first possible boarding date, so tell us as soon as a Rotterdam delivery, redelivery or lay-by period comes into view. The team flies into Amsterdam Schiphol and continues by train to Rotterdam. Terminal and berth access under ISPS is requested by the ship's agent, who also arranges the launch for an anchorage boarding, and the ship arranges gas-free certificates, entry permits and the engineer who runs machinery for readings.",
+        "With the enquiry, send the ship's IMO number, what the survey is for, how she will be loaded at the time, where she stands in the class cycle, the reports from her last surveys and gaugings, and any charter, pool or lender format the report must follow. For a charter, say whether the matching survey at the other end is likely to be in Rotterdam too. Enquiries are welcome at info@atlantisndt.com, and the form on this page reaches the same inbox."
+      ]
+    }
+  ],
+  "vessels": [
+    "Chemical parcel tankers working Botlek and Pernis",
+    "Product tankers in North West European trades",
+    "Crude tankers discharging at Europoort and Maasvlakte",
+    "Capesize and Panamax bulk carriers after ore and coal discharge",
+    "Scrubber-fitted container ships and bulk carriers",
+    "LPG carriers",
+    "Ships on lay-by berths between charters"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and the GOOD, FAIR and POOR coating terms",
+    "IACS UR Z10.3 and Z10.4 – Hull surveys of chemical tankers and double-hull oil tankers",
+    "MARPOL Annex VI regulation 14 and the 2021 EGCS Guidelines (MEPC.340(77))",
+    "IBC Code – carriage of dangerous chemicals in bulk and the Certificate of Fitness",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Evaluation of machine vibration by measurements"
+  ],
+  "deliverables": [
+    "Overall condition summary written for the owner, charterer, pool or lender who asked for it",
+    "Area ratings for tanks, holds, deck, closing appliances and machinery",
+    "Priority-ranked defect list with location, photographs and recommended actions",
+    "Thickness readings at marked positions, set against delivery or earlier reports",
+    "Scrubber wash-water and overboard piping readings with the outlet shell condition",
+    "Vibration and thermal records for running machinery, with load noted"
+  ],
+  "faqs": [
+    {
+      "q": "Can a condition survey be done between parcels at Botlek or Pernis?",
+      "a": "Yes. We plan it from the parcel programme and shifting plan, so the engine room is surveyed while the ship moves, deck lines and pump stacks while she is alongside under the terminal's permit, and ballast spaces when the chief officer can release them. Cargo tank entry is possible only once a tank has been washed and certified for its next cargo, and only with the master's consent."
+    },
+    {
+      "q": "Why survey a ship at charter redelivery in Rotterdam if the charterer sends its own surveyor?",
+      "a": "Because that surveyor reports to the charterer. An owner's survey to the same plan as the one taken at delivery gives the owner measured coatings, steel and machinery to compare, space by space, with photographs from the same positions. If the two sides disagree about damage or wear during the charter, the owner holds evidence of its own rather than relying on the other party's report."
+    },
+    {
+      "q": "Will a tanker pool accept an owner's condition survey for pool entry?",
+      "a": "That is the pool's decision, and most pools also look at SIRE or CDI results and run their own checks. What a condition survey does is prepare the ship: it shows the owner, some weeks ahead, which coatings, deck pipes or closing appliances an inspector would question, so they can be repaired before the pool or vetting inspection takes place."
+    },
+    {
+      "q": "Is a lay-by berth better than a terminal for a condition survey in Rotterdam?",
+      "a": "Usually. On a lay-by berth or buoy nothing competes with the survey: ballast tanks can be emptied and ventilated, access rigged in holds and machinery run at a steady load. At a terminal the cargo plan and the terminal's permit limit what can be opened, and a parcel tanker may shift before the work is finished. If the ship will lie idle after discharge, that is the better window."
+    },
+    {
+      "q": "Can the survey help us decide on our scrubber before the open-loop discharge ban?",
+      "a": "It gives the condition half of that decision. We read wall thickness on the wash-water and overboard lines, record the shell around the outlet and note the visible state of the casing. Whether to convert to closed loop, fit a holding tank or burn compliant fuel in port is the owner's choice with the maker, and the agent should confirm the current Dutch rules."
+    },
+    {
+      "q": "How far ahead should a Rotterdam condition survey be booked?",
+      "a": "As soon as the place and rough dates are known, because each technician travelling from India needs a Schengen visa issued for the job. A known redelivery date or a lay-by period booked in advance makes the planning simple; an anchorage call whose timing keeps moving is harder. Should the window change once the job is booked, let us know at once so the team's travel can follow it."
+    }
+  ]
+}
