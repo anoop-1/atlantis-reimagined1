@@ -52,7 +52,7 @@ export function buildRbiSection(rows, records = {}) {
     iconFor: {},
     highlightIcons: ['Gauge', 'FileCheck', 'Layers'],
     defaultEyebrow: 'Risk-based inspection',
-    areaServed: ['United States', 'Canada', 'Middle East', 'Singapore', 'India', 'China', 'Malaysia'],
+    areaServed: ['United States', 'Canada', 'Middle East', 'Singapore', 'India', 'China', 'Malaysia', 'Australia', 'New Zealand', 'Indonesia', 'Vietnam'],
     cta: CTA,
   });
 }

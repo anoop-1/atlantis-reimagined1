@@ -1,0 +1,169 @@
+{
+  "title": "Risk-Based Inspection in China: TSG 21 and API 580 Planning",
+  "description": "How China's special equipment rules and the RBI route in TSG 21 work, where the coastal complexes are, and what a remote Atlantis RBI study can support.",
+  "h1": "Risk-based inspection for China's refineries, petrochemical complexes and terminals",
+  "eyebrow": "Risk-based inspection in China",
+  "intro": "China's pressure equipment sits within a national special equipment framework in which periodic inspection is carried out by authorised inspection institutions, and its stationary pressure vessel code contains a formal route for risk-based inspection. This page is for integrity managers at Chinese refineries, petrochemical complexes and storage terminals, including joint ventures with international shareholders, who want to understand that framework, what the RBI route in TSG 21 requires, where the large coastal complexes are, and what a remote study from Atlantis can contribute alongside the statutory system rather than in place of it.",
+  "highlights": [
+    { "h": "Statutory inspection is separate", "p": "Periodic inspection of pressure vessels, and RBI under TSG 21, are carried out by inspection institutions approved for that work. Atlantis is not one of them. Its remote study is engineering support for the owner, not a statutory inspection and not a statutory RBI report." },
+    { "h": "Ready for the RBI route", "p": "A user applying for the RBI route in TSG 21 needs complete records, a sound damage mechanism basis and a clear view of its inspection history. A remote study can put those in order before the application, so the qualified institution starts from well-organised data." },
+    { "h": "Two frameworks, one plant", "p": "Joint ventures and international groups often keep an API RP 580 programme at group level beside the Chinese statutory system. The study maps one onto the other, so the group register and the statutory record describe the same equipment in the same way." }
+  ],
+  "sections": [
+    {
+      "id": "china-framework",
+      "h": "The special equipment framework",
+      "p": [
+        "Pressure vessels, pressure piping and boilers in China are classed as special equipment. Their safety is governed by the Law of the People's Republic of China on Special Equipment Safety, the Special Equipment Safety Supervision Regulation and a set of safety technical codes, the TSG documents, issued by the national quality supervision authority. For stationary pressure vessels the governing code is TSG 21-2016, the Supervision Regulation on Safety Technology for Stationary Pressure Vessels, issued in February 2016 and later amended. Pressure piping and boilers have codes of their own within the same system.",
+        "Three features of the framework matter to anyone planning inspection. Equipment is registered with a registration authority before it is put into use. Periodic inspection is carried out by inspection institutions authorised for it, which grade the vessel's safety condition and set the next inspection from that grade. And the user, meaning the operating company, remains responsible for safe operation throughout, including the maintenance and the records on which the inspection institution relies.",
+        "Atmospheric storage tanks are not pressure equipment, so they fall outside these codes. Their inspection follows national and industry tank standards, the safety requirements for hazardous chemicals where those apply, and the owner's own system. That is one of the areas in which owners have the most latitude to adopt a risk-based approach on their own initiative."
+      ]
+    },
+    {
+      "id": "china-periodic",
+      "h": "Periodic inspection and safety grades under TSG 21",
+      "p": [
+        "TSG 21 links the inspection period of a metallic vessel to the safety grade that the inspection institution assigns. The first periodic inspection is generally due within three years of the vessel being put into use. After that the institution sets the period from the grade, as summarised below.",
+        "The grading approach already carries some risk thinking, since the period shortens as condition worsens. What it does not do by itself is tell apart two grade 2 vessels whose damage mechanisms, consequences of failure and inspection histories are very different. That is the gap the code's RBI route is designed to fill."
+      ],
+      "table": {
+        "head": ["Safety grade", "General inspection period", "What it means for planning"],
+        "rows": [
+          ["Grades 1 and 2", "Generally every 6 years", "The longest regular cycle; the planning question is what each periodic inspection should concentrate on"],
+          ["Grade 3", "Generally every 3 to 6 years", "A range within which the institution's judgement and the damage history decide the date"],
+          ["Grade 4", "Use under monitoring, with the period set by the institution and cumulative monitored use of no more than 3 years", "A temporary status that calls for a decision on repair, replacement or an engineering assessment of the defect"],
+          ["Grade 5", "Defects must be dealt with before further use", "Not a planning case: the vessel cannot continue in service as it is"]
+        ]
+      }
+    },
+    {
+      "id": "china-rbi-route",
+      "h": "The RBI route in section 8.10 of TSG 21",
+      "p": [
+        "Section 8.10 of TSG 21 sets out how risk-based inspection may be applied to stationary pressure vessels. The user must first pass a safety management evaluation, carried out by its superior authority or by a qualified third party with no conflict of interest with the applicant or the inspection institution. It must also meet six conditions: a mature management system, emergency plans that are drilled regularly, equipment in good condition that can be inspected and maintained, complete records for the plant and its key equipment, stable process operation, and a distributed control system with a reliable interlock system. The revision removed an earlier requirement for national approval before large integrated units could adopt RBI.",
+        "The RBI work itself is done by an inspection institution approved by the national authority and holding RBI qualification, whose staff are trained in the relevant national standards and analysis tools. The user applies in writing with its safety evaluation records and notifies the registration authority. The institution then assesses risk from equipment condition, failure modes, consequences and management, following the national RBI standards, and sets the inspection strategy: timing, content and methods. The user turns that strategy into an inspection plan, the institution carries out the inspection and issues the RBI report, and the user files the conclusion with the registration authority. If risk during operation rises above the acceptable level, online inspection or other measures must bring it down.",
+        "The resulting inspection period is set in one of two ways. Either the standard period is lengthened or shortened according to risk, to a maximum of nine years, or the period is based on remaining life, at no more than half the remaining life and again no more than nine years."
+      ]
+    },
+    {
+      "id": "china-our-role",
+      "h": "Where an outside remote study fits, and where it does not",
+      "p": [
+        "Because TSG 21 places statutory RBI in the hands of qualified inspection institutions, an outside engineering firm cannot produce an RBI report that counts under the code, and Atlantis does not present its work as one. Atlantis is not an authorised inspection institution in China and does not carry out statutory periodic inspection there. What a remote study can do is support the owner's own engineering around the statutory system, in work such as the following.",
+        "Every result the study produces is labelled for what it is: the owner's engineering, prepared for the owner's decisions and for discussion with the inspection institution, which remains the body whose conclusions carry statutory weight."
+      ],
+      "list": [
+        "A readiness review before applying for the RBI route: whether records, process data and inspection history are complete enough to meet the conditions in section 8.10, with a data-gap log for what is missing.",
+        "A damage mechanism and corrosion loop basis to API RP 571, with integrity operating windows, which the owner can share with the qualified institution as engineering input.",
+        "Grading of past inspection effectiveness against each item's damage mechanisms, so the owner knows which records demonstrate condition and which only show that an inspection took place.",
+        "Risk-based planning for equipment outside the pressure vessel code, such as atmospheric storage tanks and utilities, under the owner's procedure and API 653 or API RP 580 where the owner adopts them.",
+        "Mapping between a group-level API RP 580 or API RP 581 register held by an international shareholder and the statutory record kept in China.",
+        "An explanation, in API terms, of a qualified institution's RBI results for an international shareholder, without reopening the statutory conclusion."
+      ]
+    },
+    {
+      "id": "china-clusters",
+      "h": "The coastal refining and petrochemical complexes",
+      "p": [
+        "Much of China's newer refining capacity has gone into very large integrated complexes on the coast, built to turn imported crude into fuels, aromatics and olefins on one site. Three clusters on the East and South China Sea coasts show the pattern.",
+        "Zhoushan: Zhejiang Petrochemical's integrated complex on Yushan Island, built in two phases with the second fully operational in early 2022, has 40 million tonnes a year of refining capacity, 4.2 million tonnes of ethylene and around 8.8 million tonnes of paraxylene. Deep water around the island lets 300,000-tonne crude carriers berth.",
+        "Ningbo: Sinopec's Zhenhai Refining and Chemical complex, at the Zhejiang Ningbo Petrochemical Industrial Base, completed an expansion in December 2024 that raised its crude processing capacity to 40 million tonnes a year. It runs 2.2 million tonnes a year of ethylene capacity, with a further ethylene project under construction.",
+        "Huizhou: the refining and petrochemical base at Daya Bay in Guangdong, where CNOOC operates a refinery and a petrochemical cracker.",
+        "Refineries of the national oil companies and independent refiners are spread across other coastal and inland provinces. What the large complexes have in common for RBI purposes is scale. Equipment counts go far beyond what can be assessed item by item in workshops, so the study leans on corrosion loops, equipment grouping and screening to put detailed effort where consequence and damage justify it."
+      ]
+    },
+    {
+      "id": "china-damage",
+      "h": "Coastal climate, typhoons and process service",
+      "p": [
+        "The big coastal complexes share a humid subtropical climate with hot, wet summers, a typhoon season that brings driving rain and wind, and salt air carried in from the sea, which on an island site such as Yushan reaches every corner of the plant. Corrosion under insulation on carbon steel and external chloride cracking of insulated austenitic stainless steel tend to be the external mechanisms that lift items in the risk ranking, with atmospheric corrosion of jetty lines, pipe racks and tank roofs close behind.",
+        "Inside the units the mechanisms follow the configuration: high-temperature sulfidation and naphthenic acid corrosion in crude and vacuum service, depending on the crude slate; wet hydrogen sulfide damage and ammonium salt corrosion in hydroprocessing effluent systems; high-temperature hydrogen attack where conditions and steels make it credible; and creep and carburisation in fired heaters and cracking furnaces. Aromatics and paraxylene trains, which make up a large share of some complexes, are mostly in mild service and are often good candidates for longer intervals once their condition has been demonstrated, within whatever the statutory route allows."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/standards/api-584", "API 584 integrity operating windows"]
+      ]
+    },
+    {
+      "id": "china-tanks",
+      "h": "Storage tanks at the ports and complexes",
+      "p": [
+        "Crude imports, product exports and petrochemical feedstocks make tank storage a large part of every coastal complex and of the port terminals that serve them. Large-diameter floating-roof crude tanks, fixed-roof product and intermediate tanks and pressurised spheres for liquefied gases each need a different treatment. The spheres are pressure vessels and sit inside the TSG framework; the atmospheric tanks do not.",
+        "For the atmospheric tanks the RBI questions are familiar ones, set in a typhoon climate: soil-side floor corrosion on coastal fill with a high water table, the condition of foundations and annular plates, product-side corrosion beneath water bottoms, and floating-roof drains, pontoons and seals that have to cope with heavy rain and wind. Where the owner's programme follows API 653, the internal inspection interval can rest on a risk-based assessment under that standard's conditions, including validation of the assessment and a review at least every ten years, and the owner's procedure records who approves it."
+      ]
+    },
+    {
+      "id": "china-remote",
+      "h": "How a remote study runs for a Chinese site",
+      "p": [
+        "China keeps one time zone, UTC+8, across the whole country. The study team splits its day between Hyderabad, two and a half hours behind Beijing time, and Houston, which trails Beijing by thirteen or fourteen hours depending on the US season. Workshops sit in the Chinese late morning and afternoon, and review continues overnight Chinese time.",
+        "Workshops are held in English, usually with the owner's bilingual engineers taking part, and documents in Chinese are reviewed with them or translated through the owner's own arrangements. Data handling follows the owner's rules on what may be shared outside China: where drawings or process data must stay on the owner's systems, the study works from screen-shared reviews, summary data sheets or redacted extracts, and records which form of each document it relied on.",
+        "The study needs no travel. Field checks such as insulation condition, injection points, dead legs and tank annular plates go on a written verification list for the owner's inspectors, or are raised with the inspection institution during its periodic inspection where the owner arranges that, and the findings come back into the model."
+      ]
+    },
+    {
+      "id": "china-approval",
+      "h": "Who decides",
+      "p": [
+        "Statutory decisions stay where TSG 21 puts them: periodic inspection conclusions and safety grades with the authorised inspection institution, RBI conclusions under section 8.10 with the qualified RBI institution, and filing with the registration authority. Decisions outside the code, such as tank intervals and a group's own inspection plans, rest with the owner's inspection authority under its procedures. Atlantis does not act as inspector of record or as an inspection institution.",
+        "When a defect is found that needs an engineering assessment, that assessment stays with the owner's engineer or the body the Chinese rules require. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "Law of the People's Republic of China on Special Equipment Safety",
+    "TSG 21-2016 Supervision Regulation on Safety Technology for Stationary Pressure Vessels",
+    "API RP 580 and API RP 581 (where the owner or its group adopts them)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 584 (integrity operating windows)",
+    "API 653 (atmospheric storage tanks, where adopted)"
+  ],
+  "deliverables": [
+    "Readiness review against the conditions for the RBI route, with a data-gap log",
+    "Corrosion loop and damage mechanism basis to API RP 571",
+    "Inspection effectiveness grading of past inspections, item by item",
+    "Risk-based plans for equipment outside the pressure vessel code, such as atmospheric tanks",
+    "Mapping between a group API RP 580 register and the statutory record",
+    "Verification list for the owner's inspectors",
+    "Report labelled as owner's engineering, separate from statutory conclusions"
+  ],
+  "industries": [
+    "Integrated refining and petrochemicals",
+    "Aromatics and olefins",
+    "Crude and product terminals",
+    "Liquefied gas storage",
+    "Joint ventures with international shareholders"
+  ],
+  "faqs": [
+    { "q": "Can Atlantis issue an RBI report under TSG 21?", "a": "No. Section 8.10 of TSG 21 requires RBI to be carried out by an inspection institution approved by the national authority and holding RBI qualification, which issues the RBI report that the user files with the registration authority. Atlantis is not such an institution. Its remote study is engineering support for the owner, covering data readiness, damage mechanisms and inspection effectiveness, and it is labelled that way." },
+    { "q": "What is the longest inspection period the RBI route allows?", "a": "Nine years. Under section 8.10 the period is either the standard period lengthened or shortened according to risk, up to nine years, or a period based on remaining life of no more than half that life and again no more than nine years. The qualified institution sets the strategy, and the user files the conclusion with the registration authority." },
+    { "q": "What does a user need before applying for the RBI route?", "a": "A safety management evaluation by its superior authority or a qualified independent third party, plus six conditions: a mature management system, regularly drilled emergency plans, equipment in good and inspectable condition, complete records, stable process operation, and a distributed control system with reliable interlocks. A readiness review can show how far the site's records and data meet those conditions before it applies." },
+    { "q": "Do the TSG codes cover atmospheric storage tanks?", "a": "No. Atmospheric tanks are not pressure equipment, so they are inspected under national and industry tank standards and the owner's own procedures. That leaves owners room to plan tank inspection on a risk basis, for example to API 653 where the owner adopts it. Pressurised spheres and bullets for liquefied gases are pressure vessels and remain under TSG 21." },
+    { "q": "Our shareholder runs an API RP 580 programme. Can it sit beside the Chinese system?", "a": "Yes, provided the two are kept distinct. The group register can use API RP 580 and API RP 581 for internal planning and reporting, while statutory inspection dates and RBI conclusions come from the authorised institutions. The study maps equipment, damage mechanisms and dates between the two, so they describe the same plant consistently and nobody mistakes a group recommendation for a statutory date." },
+    { "q": "Can the study go ahead if our data cannot leave China?", "a": "Often, yes. Reviews can run by screen share from the owner's systems, and many inputs can be supplied as summary data sheets or redacted extracts, with the study recording which form of each document it used. Owners should confirm with their own legal and compliance teams what may be shared outside China before the data request is answered." },
+    { "q": "In what language are the workshops held?", "a": "In English, usually with the owner's bilingual engineers in the session. Documents in Chinese are reviewed together with them or translated through the owner's own arrangements, and the study's deliverables are written in English, with Chinese equipment tags and document numbers kept exactly as they appear in the owner's records." },
+    { "q": "Does anyone from Atlantis need site access?", "a": "The study is built to need no travel. Anything that must be seen on the equipment goes on a verification list for the owner's inspectors, or is raised with the inspection institution during its periodic inspection where the owner arranges that, and the results are fed back into the assessment before the plan is issued." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/india", "RBI in India"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/standards/api-581", "API 581 explained"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "TSG 21-2016 Supervision Regulation on Safety Technology for Stationary Pressure Vessel, issued 22 February 2016 by AQSIQ, with amendment No. 1 (2020XG1); established under the Special Equipment Safety Law and the Special Equipment Safety Supervision Regulation; 8.1.6.1: first periodic inspection within 3 years; grades 1-2 generally every 6 years; grade 3 every 3-6 years; grade 4 monitored use, cumulative max 3 years; grade 5 defects must be dealt with", "url": "https://www.chinesestandard.net/PDF.aspx/TSG21-2016" },
+    { "fact": "TSG 21-2016 section 8.10 (RBI): safety management evaluation by superior authority or qualified non-conflicted third party; six conditions (mature management system, drilled emergency plans, equipment in good inspectable condition, complete records, stable process, DCS with reliable interlocks); RBI by inspection institution approved by national authority with RBI qualification; user applies in writing and notifies registration authority; institution sets strategy, inspects and issues RBI report; user files conclusion; online inspection if risk exceeds acceptable level; period up to 9 years by risk, or up to half remaining life and max 9 years; revision removed national approval requirement for large integrated units", "url": "https://bwc.shutcm.edu.cn/_upload/article/files/a5/09/6bdb99e94565bbac26468c785e58/64123017-682d-4e66-84d8-d3632952e8f4.pdf" },
+    { "fact": "Zhejiang Petrochemical (ZPC), Yushan Island, Zhoushan: 40 Mt/yr refining, 4.2 Mt ethylene, about 8.8 Mt paraxylene; phase one 2019, phase two fully operational early 2022; deep-water shorelines able to berth 300,000-tonne VLCCs", "url": "https://faxiangongchang.com/en/reports/zhejiang-shiyoumeitanjiqitaranliaojiagongye" },
+    { "fact": "Sinopec ZRCC at the Zhejiang Ningbo Petrochemical Industrial Base: Phase 2 expansion completed 19 December 2024 raising crude capacity to 40 million tpy; 2.2 million tpy ethylene with a 1.5 million tpy project under construction", "url": "https://ogj.com/refining-processing/petrochemicals/article/55251975/sinopecs-zrcc-completes-ningbo-integrated-refinery-and-petrochemical-expansion" },
+    { "fact": "CNOOC Huizhou refinery and petrochemical cracker at Daya Bay (already on the site)", "url": "https://atlantisndt.com/digital-twin-shenzhen" }
+  ]
+}

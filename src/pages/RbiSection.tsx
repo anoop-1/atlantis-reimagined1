@@ -35,7 +35,8 @@ export default function RbiSection() {
     [slug, loaded],
   );
 
-  if (!slug) return <NotFound />;
+  // A planned page that is not written yet (list.json row without a pages/{slug}.json) is a 404, not a blank page.
+  if (!slug || !FILES[`../data/rbi-section/pages/${slug}.json`]) return <NotFound />;
   if (!section) return <div className="min-h-screen pt-20"><Navigation /></div>;
   return <ServiceSectionPage section={section} path={pathname} form={<EnquiryCaptureForm variant="rbi" />} />;
 }

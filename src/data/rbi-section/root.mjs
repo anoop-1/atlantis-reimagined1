@@ -35,7 +35,7 @@ export const RBI_ROOT = {
   description: 'Remote RBI studies to API 580/581 and ASME PCC-3 for vessels, piping and storage tanks: damage mechanisms, risk ranking and inspection plans.',
   h1: 'Risk-based inspection (RBI) services, delivered remotely',
   eyebrow: 'Inspection',
-  areaServed: ['United States', 'Canada', 'Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Iraq', 'Singapore', 'India', 'China', 'Malaysia'],
+  areaServed: ['United States', 'Canada', 'Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Iraq', 'Singapore', 'India', 'China', 'Malaysia', 'Australia', 'New Zealand', 'Indonesia', 'Vietnam'],
   intro: 'Risk-based inspection spends inspection effort where the risk is, instead of on a fixed calendar. Done well, it lengthens intervals on equipment that is genuinely low risk and concentrates methods and coverage on the items where a failure would hurt. Done badly, it is a spreadsheet that justifies whatever interval was wanted. Atlantis carries out RBI studies to API RP 580, API RP 581 and ASME PCC-3, or to the operator\'s own RBI standard, for pressure vessels, piping circuits and storage tanks. The study is delivered remotely from your drawings, process data and inspection history, and the plan it produces is one your inspector of record can approve and your inspection teams can execute.',
   highlights: [
     { h: 'Remote by design', p: 'Data arrives through a shared data room and the working sessions run by video, so the study does not wait for a site visit or a visa. Your inspectors verify what needs to be seen in the field; in the United States our UT, MT, PT and VT technicians can close data gaps on site.' },

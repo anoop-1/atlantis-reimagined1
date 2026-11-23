@@ -1,0 +1,187 @@
+{
+  "title": "Risk-Based Inspection in Malaysia: DOSH, OSHA and API 580",
+  "description": "How RBI fits Malaysia's 2024 OSHA regulations and DOSH's 2025 special scheme code, where the plants are, and how Atlantis runs remote RBI studies there.",
+  "h1": "Risk-based inspection for Malaysian refineries, gas plants and tank terminals",
+  "eyebrow": "Risk-based inspection in Malaysia",
+  "intro": "Malaysia rewrote the legal basis for pressure equipment in 2024, when the Factories and Machinery Act gave way to the amended Occupational Safety and Health Act, and in 2025 DOSH published a code of practice that writes risk-based inspection into a special scheme of inspection for boilers and pressure vessels. This page is for integrity managers at Malaysian refineries, petrochemical plants, gas facilities and terminals. It covers the new framework, what the code asks of an occupier's own teams, where the refining, gas and storage capacity is, and how Atlantis supports an RBI programme remotely.",
+  "highlights": [
+    { "h": "Inside the DOSH scheme", "p": "The 2025 code of practice for the class B special scheme of inspection requires an RBI programme for steam boilers and pressure vessels, using a methodology the Director General determines. The study is structured so that its register carries the fields the code lists for each vessel." },
+    { "h": "The occupier's team leads", "p": "The code asks the occupier to appoint its own risk-based team from among its employees. An outside study supports that team with data work, damage mechanism drafts and risk calculations; it does not replace the team or take a seat on it." },
+    { "h": "Same clock as Singapore", "p": "Malaysia shares UTC+8 with Singapore, two and a half hours ahead of Hyderabad. Workshops run in the Malaysian late morning and afternoon, and the study needs no travel: field checks go to your inspectors or your inspection contractor." }
+  ],
+  "sections": [
+    {
+      "id": "my-2024-change",
+      "h": "From the Factories and Machinery Act to OSHA",
+      "p": [
+        "For more than five decades, steam boilers, unfired pressure vessels and other certified machinery in Malaysia were regulated under the Factories and Machinery Act 1967. That Act was repealed with effect from 1 June 2024 by the Factories and Machinery (Repeal) Act 2022, on the same day that the Occupational Safety and Health (Amendment) Act 2022 came into force. The Department of Occupational Safety and Health (DOSH) continues to administer the system, now under the Occupational Safety and Health Act 1994 as amended.",
+        "Plant that needs a certificate of fitness is now covered by the Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024, and the Occupational Safety and Health (Special Scheme of Inspection) Regulations 2025 provide for occupiers who run their plant under an approved special scheme. Installations handling hazardous substances above the relevant thresholds also carry obligations under the Occupational Safety and Health (Control of Industrial Major Accident Hazards) Regulations 1996.",
+        "Owners with long-standing inspection programmes should check that the references in their procedures, risk registers and certificates now point to the new instruments. An RBI register built in the FMA era may still be technically sound, but the documents it cites, and the scheme under which it was accepted, may have changed."
+      ]
+    },
+    {
+      "id": "my-ssi",
+      "h": "The special scheme of inspection and its RBI requirement",
+      "p": [
+        "DOSH's Industry Code of Practice for Plant Management System (Special Scheme of Inspection Class B), published as P.U. (B) 399/2025 in its first edition, is written to help occupiers meet the plant management requirement of the Special Scheme of Inspection Regulations 2025. It applies to occupiers who apply for, or have been granted, approval for a class B scheme, and it builds a plant management system around the inspection of certified plant.",
+        "Its risk-based element is specific. The occupier must have an RBI programme for its steam boilers and pressure vessels, following a methodology determined by the Director General, and the programme must record for each vessel its remnant life, risk category, inspection interval and inspection plan. The code also requires the occupier to appoint a plant management team of at least three employees and a separate risk-based team of at least five employees, appointed by top management, with nobody serving on both. Implementation is assessed at planned intervals by an independent team of trained plant management assessors; repairs to plant requiring a certificate of fitness are made by competent persons; and integrity and inspection activities are carried out by qualified persons where the regulations call for them.",
+        "The table sets out what the code asks for and where an outside RBI study can help."
+      ],
+      "table": {
+        "head": ["What the code requires", "Who must hold it", "How a remote study supports it"],
+        "rows": [
+          ["An RBI programme for steam boilers and pressure vessels using the Director General's methodology", "The occupier", "Builds the assessment in that methodology once the occupier has confirmed which one applies, rather than in a method of the study team's choosing"],
+          ["Remnant life, risk category, inspection interval and inspection plan for each vessel", "The occupier's register", "A register structured with those fields from the start, each one traceable to data and stated assumptions"],
+          ["A risk-based team made up of the occupier's own employees", "The occupier", "Data collection, damage mechanism drafts, calculations and workshop material for the team to challenge and adopt"],
+          ["A plant management team, separate from the risk-based team", "The occupier", "Inspection plans and reassessment triggers written so the plant management system can carry them forward"],
+          ["Independent assessment of implementation", "Trained plant management assessors", "A study file showing the basis of every interval, which is what an assessor needs to follow the programme"]
+        ]
+      }
+    },
+    {
+      "id": "my-rb-team",
+      "h": "Working with the occupier's risk-based team",
+      "p": [
+        "The code's requirement that the risk-based team be drawn from the occupier's own employees settles a question that comes up whenever an outside firm is involved: who owns the assessment. In Malaysia the answer is the occupier. An outside study can carry much of the analytical load, but the team has to understand, challenge and adopt every conclusion, because it is the team that will defend the programme to DOSH and keep it current between studies.",
+        "The study is organised around that. Workshops are run with the risk-based team rather than for it, damage mechanism assignments are drafted for the team to confirm or overturn, and every calculation is left in a form the team can rerun when new inspection data arrive. By the end, the team should be able to explain the basis of any interval without referring back to the study authors, which is the real test of whether the programme belongs to the plant."
+      ]
+    },
+    {
+      "id": "my-operator-standards",
+      "h": "Operator standards across the sector",
+      "p": [
+        "PETRONAS sits at the centre of the Malaysian oil and gas industry and maintains its own engineering standards, the PETRONAS Technical Standards, which reach contractors and partners through their contracts. Group companies, joint ventures with international partners and independent operators may follow those standards, a partner's corporate standards or their own procedures for inspection and RBI. For an outside study the working rule is the same as anywhere: establish which document governs each asset, and who can approve a departure from it, before any data is requested, and record that decision so it survives the next change of personnel.",
+        "Where the DOSH scheme and an operator standard overlap, the study reconciles them, for example where the operator's RBI procedure uses a different risk matrix from the Director General's methodology, so that one register satisfies both instead of two registers drifting apart over successive revisions."
+      ]
+    },
+    {
+      "id": "my-capacity",
+      "h": "Where Malaysia's refining, gas and storage capacity sits",
+      "p": [
+        "Malaysia's refining capacity is spread between the west coast of the peninsula, Johor in the south and Terengganu on the east coast, with liquefaction concentrated at Bintulu in Sarawak. The table groups the main sites by what tends to shape an RBI study there.",
+        "Tank storage follows the trade routes. Pengerang and the terminals around Johor serve the shipping lanes off Singapore, and product storage sits beside each refinery and at distribution depots across the peninsula."
+      ],
+      "table": {
+        "head": ["Area", "Facilities", "RBI emphasis"],
+        "rows": [
+          ["Pengerang, Johor", "The PRefChem integrated complex, whose refinery is a PETRONAS and Saudi Aramco joint venture, the Pengerang LNG regasification terminal, and storage terminals including Pengerang Independent Terminals and the Pengerang Deepwater Terminal", "A newer integrated complex whose RBI baseline can start from commissioning data, plus large terminal tank populations"],
+          ["Melaka", "PETRONAS's two refineries, PSR-1 and PSR-2, and the Melaka LNG regasification terminal", "Long-established refining units on the Strait of Malacca, with marine air and decades of inspection history"],
+          ["Kerteh and Kemaman, Terengganu", "PETRONAS's Kerteh refinery and integrated petrochemical complex, and a bitumen refinery at Kemaman", "East coast sites facing the north-east monsoon, with gas-based petrochemicals and their utilities"],
+          ["Port Dickson, Negeri Sembilan", "Two refineries, one of them Petron's", "Older west coast refining units, where inspection history is long but often uneven in format"],
+          ["Bintulu, Sarawak", "The PETRONAS LNG complex of the MLNG Satu, Dua, Tiga and Train 9 plants", "Cryogenic and gas treating service, with heavy rainfall and coastal exposure"]
+        ]
+      }
+    },
+    {
+      "id": "my-climate",
+      "h": "Monsoons, coastline and insulated plant",
+      "p": [
+        "Peninsular Malaysia is hot and humid all year, with the south-west monsoon in the middle of the year and the north-east monsoon bringing the heaviest rain to the east coast from around November to March. The sites at Kerteh and Kemaman take that monsoon directly, the west coast refineries face the Strait of Malacca, and Pengerang looks out onto the South China Sea. Every major site is coastal.",
+        "Corrosion under insulation is the external mechanism that most often decides inspection workload on such sites, together with chloride cracking of insulated austenitic stainless steel, atmospheric corrosion on jetties, racks and tank roofs, corrosion under fireproofing, and microbiologically influenced corrosion in seawater and cooling water systems. Gas-based plants add their own entries to the register: amine and carbon dioxide corrosion in gas treating, brittle fracture and fatigue considerations in cryogenic LNG service, and ammonia and urea service in fertiliser plants. Refinery mechanisms follow the units, from high-temperature sulfidation in crude and vacuum service to wet hydrogen sulfide damage and ammonium salts in hydroprocessing."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "my-tanks",
+      "h": "Tank terminals and the certificate of fitness boundary",
+      "p": [
+        "The certificate of fitness system concentrates on steam boilers and unfired pressure vessels, which is also where the DOSH code's RBI requirement sits. Atmospheric storage tanks are managed through the owner's tank integrity programme, for example to API 653 or the operator's own standard, and that is where an RBI basis for tank internal inspection intervals is written. Pressurised spheres and bullets for liquefied gases are pressure vessels and fall on the other side of the line.",
+        "For terminal operators at Pengerang and elsewhere, tank RBI follows a familiar pattern with local emphasis: soil-side floor corrosion on reclaimed or coastal ground with a high water table, cathodic protection that has to be maintained if it is to be credited, product-side corrosion where water settles, and floating-roof drainage and seals tested by monsoon downpours. API 653 allows the internal inspection interval to be set by an RBI assessment under its conditions, including validation and a review at least every ten years, and the terminal's procedure records who approves the result."
+      ]
+    },
+    {
+      "id": "my-scopes",
+      "h": "What Malaysian owners usually ask for",
+      "p": ["Requests from Malaysian owners usually take one of these forms."],
+      "list": [
+        "Preparing an RBI programme for steam boilers and pressure vessels to support an application for a class B special scheme of inspection.",
+        "Bringing an FMA-era RBI register into line with the 2024 regulations and the 2025 code, including the per-vessel fields the code lists.",
+        "Supporting a newly appointed risk-based team through its first assessment cycle.",
+        "Tank-by-tank RBI for a terminal moving to risk-based internal inspection intervals under API 653.",
+        "CUI risk ranking and an insulation removal plan for a coastal refinery or petrochemical plant.",
+        "Revalidating an existing model after a turnaround, a change of feed or a change in operating windows.",
+        "Damage mechanism review and corrosion loops for gas treating, LNG and fertiliser units."
+      ]
+    },
+    {
+      "id": "my-remote",
+      "h": "Running the study from Hyderabad and Houston",
+      "p": [
+        "Malaysia works on UTC+8, like Singapore and China. Atlantis works from Hyderabad, two and a half hours behind, and from Houston, thirteen or fourteen hours behind depending on the US season. Workshops are booked in the Malaysian late morning and afternoon, which is the Indian morning and early afternoon, and analysis carries on from Houston through the Malaysian night. Weekends are not the same in every state, so sessions are set to the site's own working week.",
+        "Documents come through a data room the occupier controls, and video workshops bring together the risk-based team with operations, process and corrosion staff. The study is built to need no travel: anything that has to be seen on the plant goes on a verification list for your inspectors or your inspection contractor, and the findings return to the model before the register is finalised."
+      ]
+    },
+    {
+      "id": "my-approval",
+      "h": "Approval and the limits of the study",
+      "p": [
+        "Inspection intervals for plant under a certificate of fitness are decided within the DOSH system, through the occupier's approved scheme and the persons the regulations name; intervals for equipment outside it, such as atmospheric tanks, rest with the owner's inspection authority. In both cases the study proposes and documents, and the occupier's teams decide. Atlantis does not act as inspector of record, competent person or plant management assessor.",
+        "Where inspection reveals damage beyond what the construction code accepts, the assessment that follows stays with the owner's engineer, and the register is updated with its outcome. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API 510, API 570 and API 653",
+    "Occupational Safety and Health Act 1994, as amended by the Occupational Safety and Health (Amendment) Act 2022",
+    "Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024",
+    "Occupational Safety and Health (Special Scheme of Inspection) Regulations 2025",
+    "DOSH Industry Code of Practice for Plant Management System (Special Scheme of Inspection Class B), first edition 2025"
+  ],
+  "deliverables": [
+    "RBI register with remnant life, risk category, inspection interval and inspection plan for each vessel",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Workshop material and calculations the occupier's risk-based team can rerun",
+    "Gap review of an FMA-era register against the 2024 regulations and the 2025 code",
+    "Tank-by-tank RBI basis for API 653 internal inspection intervals",
+    "Data-gap log and verification list for the owner's inspectors",
+    "Reassessment triggers and the next review date"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Petrochemicals",
+    "LNG and gas processing",
+    "Tank terminals and storage",
+    "Fertiliser plants"
+  ],
+  "faqs": [
+    { "q": "Does DOSH recognise risk-based inspection?", "a": "Yes, within a defined scheme. The Industry Code of Practice for Plant Management System (Special Scheme of Inspection Class B), first edition 2025, requires occupiers in that scheme to run an RBI programme for steam boilers and pressure vessels using a methodology determined by the Director General, with remnant life, risk category, interval and inspection plan recorded for each vessel." },
+    { "q": "Is the Factories and Machinery Act still in force?", "a": "No. It was repealed with effect from 1 June 2024, when the amended Occupational Safety and Health Act came into force. Plant requiring a certificate of fitness now falls under the Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024, and special schemes of inspection under the Special Scheme of Inspection Regulations 2025." },
+    { "q": "Can an outside firm be our risk-based team?", "a": "Not under the class B code, which requires the occupier to appoint at least five of its own employees to the risk-based team, separate from the plant management team. An outside study can do the data work, draft the damage mechanisms and run the calculations, but the team has to review, challenge and adopt the results and keep the programme current." },
+    { "q": "Which RBI methodology should the study use?", "a": "For steam boilers and pressure vessels in a class B scheme, the methodology the Director General determines, so the first step is to confirm which one applies to your approval. For equipment outside the scheme, such as tanks, the study follows your own procedure, for example one built on API RP 580 and API RP 581, or the operator standard your site works to." },
+    { "q": "Are storage tanks part of the DOSH scheme?", "a": "The code's RBI requirement covers steam boilers and pressure vessels. Atmospheric storage tanks are managed in the owner's tank programme, for example to API 653, which allows risk-based internal inspection intervals under its own conditions. Spheres and bullets for liquefied gases are pressure vessels and belong with the certified plant." },
+    { "q": "Our register dates from before 2024. Does it need to be redone?", "a": "Not necessarily. The engineering may still be sound, but the register should be checked against the 2024 regulations and the 2025 code: the instruments it cites, the methodology the Director General has set, the per-vessel fields the code lists and the team structure behind it. A gap review shows what needs updating and what can carry over unchanged." },
+    { "q": "Does anyone from Atlantis need to be on site?", "a": "The study is designed to need no travel. Data review and workshops run remotely, and anything that has to be checked on the equipment, from insulation condition to tank annular plates, goes on a verification list for your inspectors or your inspection contractor. Their findings are fed back into the assessment before the register is issued." },
+    { "q": "Who approves the inspection intervals?", "a": "For certified plant, intervals are decided within the DOSH system, through the occupier's approved scheme and the persons the regulations name. For other equipment, the owner's inspection authority approves them under its procedures. The study supplies the basis for every interval, so the people deciding can see how each result was reached." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/inspection/risk-based-inspection/india", "RBI in India"],
+    ["/inspection/risk-based-inspection/china", "RBI in China"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Factories and Machinery Act 1967 repealed and the OSH (Amendment) Act 2022 in force from 1 June 2024", "url": "https://dnh.com.my/amendments-to-occupational-safety-and-health-laws/" },
+    { "fact": "Amended Occupational Safety and Health Act to come into force on 1 June 2024 (Human Resources Ministry)", "url": "https://www.malaymail.com/news/malaysia/2024/04/04/human-resources-ministry-amended-occupational-safety-and-health-act-to-come-into-force-on-june-1/127335" },
+    { "fact": "Factories and Machinery (Repeal) Act 2022 (Akta Kilang dan Jentera (Pemansuhan) 2022, Act 835) published by DOSH", "url": "https://dosh.gov.my/wp-content/uploads/2024/10/Akta-Kilang-dan-Jentera-Pemansuhan-2022-Akta-835.pdf" },
+    { "fact": "DOSH Industry Code of Practice for Plant Management System (Special Scheme of Inspection Class B), P.U. (B) 399/2025, first edition 2025: meets Regulation 5(a) of the OSH (Special Scheme of Inspection) Regulations 2025; cross-references OSH (Plant Requiring Certificate of Fitness) Regulations 2024 and OSH (CIMAH) Regulations 1996; clause 11.2.4.1 RBI programme for steam boilers and pressure vessels using a methodology determined by the Director General, listing remnant life, risk category, inspection interval and inspection plan; PM team minimum 3 employees (10.2.2); RB team minimum 5 employees (10.2.4), appointed by top management (11.2.4.2), not the same persons (10.2.5); independent PM assessors (12.2.3); repairs by competent persons (11.2.7.1); qualified persons (11.2.3.2)", "url": "https://dosh.gov.my/wp-content/uploads/2026/01/Industry-Code-of-Practice-for-Plant-Management-System-Special-Scheme-of-Inspection-Class-B.pdf" },
+    { "fact": "Malaysian refineries (2023): Kemaman Bitumen; Port Dickson (Hengyuan Refining Company) and Port Dickson (San Miguel/Petron); Kerteh (Petronas); Melaka PSR-1 and PSR-2 (Petronas); Pengerang (Petronas). Bintulu LNG complex MLNG Satu, Dua, Tiga and T9; regasification terminals Melaka LNG and Pengerang LNG (EIA, updated 12 November 2024)", "url": "https://eia.gov/international/content/analysis/countries_long/malaysia" },
+    { "fact": "PRefChem (Petronas-Aramco), Pengerang Integrated Complex, Pengerang Deepwater Terminal and Dialog Group's Pengerang Independent Terminals (already on the site)", "url": "https://atlantisndt.com/ndt-training-pengerang" },
+    { "fact": "Kerteh integrated petrochemical complex on the Terengganu coast (already on the site)", "url": "https://atlantisndt.com/inspection/third-party-inspection-kerteh" }
+  ]
+}

@@ -1,424 +1,808 @@
 {
- "_note": "2026-11-23 owner: RBI as a remote service; topics + countries + tank/refining hubs (Russia and Venezuela excluded on sanctions grounds). One record per row in pages/{slug}.json.",
- "pages": [
-  {
-   "slug": "storage-tank-rbi",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "RBI for storage tanks"
-  },
-  {
-   "slug": "piping-rbi",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "RBI for process piping"
-  },
-  {
-   "slug": "pressure-vessel-rbi",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "RBI for pressure vessels and heat exchangers"
-  },
-  {
-   "slug": "remote-rbi",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "How a remote RBI study works"
-  },
-  {
-   "slug": "rbi-implementation",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "RBI programme implementation"
-  },
-  {
-   "slug": "quantitative-rbi-api-581",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "Quantitative RBI to API 581"
-  },
-  {
-   "slug": "damage-mechanism-review",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "Damage mechanism review and corrosion loops"
-  },
-  {
-   "slug": "rbi-revalidation-audit",
-   "kind": "topic",
-   "parent": null,
-   "navLabel": "RBI revalidation and audit readiness"
-  },
-  {
-   "slug": "united-states",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in United States",
-   "country": "United States"
-  },
-  {
-   "slug": "canada",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Canada",
-   "country": "Canada"
-  },
-  {
-   "slug": "saudi-arabia",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Saudi Arabia",
-   "country": "Saudi Arabia"
-  },
-  {
-   "slug": "united-arab-emirates",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in United Arab Emirates",
-   "country": "United Arab Emirates"
-  },
-  {
-   "slug": "qatar",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Qatar",
-   "country": "Qatar"
-  },
-  {
-   "slug": "kuwait",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Kuwait",
-   "country": "Kuwait"
-  },
-  {
-   "slug": "oman",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Oman",
-   "country": "Oman"
-  },
-  {
-   "slug": "bahrain",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Bahrain",
-   "country": "Bahrain"
-  },
-  {
-   "slug": "iraq",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Iraq",
-   "country": "Iraq"
-  },
-  {
-   "slug": "singapore",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Singapore",
-   "country": "Singapore"
-  },
-  {
-   "slug": "india",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in India",
-   "country": "India"
-  },
-  {
-   "slug": "china",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in China",
-   "country": "China"
-  },
-  {
-   "slug": "malaysia",
-   "kind": "country",
-   "parent": null,
-   "navLabel": "RBI in Malaysia",
-   "country": "Malaysia"
-  },
-  {
-   "slug": "houston",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Houston and the Ship Channel",
-   "country": "United States",
-   "place": "Houston and the Ship Channel"
-  },
-  {
-   "slug": "corpus-christi",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Corpus Christi",
-   "country": "United States",
-   "place": "Corpus Christi"
-  },
-  {
-   "slug": "beaumont-port-arthur",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Beaumont and Port Arthur",
-   "country": "United States",
-   "place": "Beaumont and Port Arthur"
-  },
-  {
-   "slug": "lake-charles",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Lake Charles",
-   "country": "United States",
-   "place": "Lake Charles"
-  },
-  {
-   "slug": "baton-rouge",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Baton Rouge and the Mississippi River corridor",
-   "country": "United States",
-   "place": "Baton Rouge and the Mississippi River corridor"
-  },
-  {
-   "slug": "cushing",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Cushing, Oklahoma",
-   "country": "United States",
-   "place": "Cushing, Oklahoma"
-  },
-  {
-   "slug": "new-york-harbor",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in New York Harbor terminals",
-   "country": "United States",
-   "place": "New York Harbor terminals"
-  },
-  {
-   "slug": "philadelphia",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Philadelphia and the Delaware River",
-   "country": "United States",
-   "place": "Philadelphia and the Delaware River"
-  },
-  {
-   "slug": "los-angeles",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Los Angeles and Long Beach",
-   "country": "United States",
-   "place": "Los Angeles and Long Beach"
-  },
-  {
-   "slug": "chicago",
-   "kind": "hub",
-   "parent": "united-states",
-   "navLabel": "RBI in Chicago and Northwest Indiana",
-   "country": "United States",
-   "place": "Chicago and Northwest Indiana"
-  },
-  {
-   "slug": "edmonton",
-   "kind": "hub",
-   "parent": "canada",
-   "navLabel": "RBI in Edmonton and Alberta's Industrial Heartland",
-   "country": "Canada",
-   "place": "Edmonton and Alberta's Industrial Heartland"
-  },
-  {
-   "slug": "hardisty",
-   "kind": "hub",
-   "parent": "canada",
-   "navLabel": "RBI in Hardisty, Alberta",
-   "country": "Canada",
-   "place": "Hardisty, Alberta"
-  },
-  {
-   "slug": "sarnia",
-   "kind": "hub",
-   "parent": "canada",
-   "navLabel": "RBI in Sarnia, Ontario",
-   "country": "Canada",
-   "place": "Sarnia, Ontario"
-  },
-  {
-   "slug": "saint-john",
-   "kind": "hub",
-   "parent": "canada",
-   "navLabel": "RBI in Saint John, New Brunswick",
-   "country": "Canada",
-   "place": "Saint John, New Brunswick"
-  },
-  {
-   "slug": "ras-tanura",
-   "kind": "hub",
-   "parent": "saudi-arabia",
-   "navLabel": "RBI in Ras Tanura",
-   "country": "Saudi Arabia",
-   "place": "Ras Tanura"
-  },
-  {
-   "slug": "jubail",
-   "kind": "hub",
-   "parent": "saudi-arabia",
-   "navLabel": "RBI in Jubail",
-   "country": "Saudi Arabia",
-   "place": "Jubail"
-  },
-  {
-   "slug": "yanbu",
-   "kind": "hub",
-   "parent": "saudi-arabia",
-   "navLabel": "RBI in Yanbu",
-   "country": "Saudi Arabia",
-   "place": "Yanbu"
-  },
-  {
-   "slug": "fujairah",
-   "kind": "hub",
-   "parent": "united-arab-emirates",
-   "navLabel": "RBI in Fujairah",
-   "country": "United Arab Emirates",
-   "place": "Fujairah"
-  },
-  {
-   "slug": "jebel-ali",
-   "kind": "hub",
-   "parent": "united-arab-emirates",
-   "navLabel": "RBI in Jebel Ali and Dubai",
-   "country": "United Arab Emirates",
-   "place": "Jebel Ali and Dubai"
-  },
-  {
-   "slug": "ruwais",
-   "kind": "hub",
-   "parent": "united-arab-emirates",
-   "navLabel": "RBI in Ruwais",
-   "country": "United Arab Emirates",
-   "place": "Ruwais"
-  },
-  {
-   "slug": "ras-laffan",
-   "kind": "hub",
-   "parent": "qatar",
-   "navLabel": "RBI in Ras Laffan and Mesaieed",
-   "country": "Qatar",
-   "place": "Ras Laffan and Mesaieed"
-  },
-  {
-   "slug": "ahmadi",
-   "kind": "hub",
-   "parent": "kuwait",
-   "navLabel": "RBI in Mina Al Ahmadi",
-   "country": "Kuwait",
-   "place": "Mina Al Ahmadi"
-  },
-  {
-   "slug": "sohar",
-   "kind": "hub",
-   "parent": "oman",
-   "navLabel": "RBI in Sohar",
-   "country": "Oman",
-   "place": "Sohar"
-  },
-  {
-   "slug": "duqm",
-   "kind": "hub",
-   "parent": "oman",
-   "navLabel": "RBI in Duqm",
-   "country": "Oman",
-   "place": "Duqm"
-  },
-  {
-   "slug": "sitra",
-   "kind": "hub",
-   "parent": "bahrain",
-   "navLabel": "RBI in Sitra",
-   "country": "Bahrain",
-   "place": "Sitra"
-  },
-  {
-   "slug": "basra",
-   "kind": "hub",
-   "parent": "iraq",
-   "navLabel": "RBI in Basra",
-   "country": "Iraq",
-   "place": "Basra"
-  },
-  {
-   "slug": "jurong-island",
-   "kind": "hub",
-   "parent": "singapore",
-   "navLabel": "RBI in Jurong Island and Pulau Bukom",
-   "country": "Singapore",
-   "place": "Jurong Island and Pulau Bukom"
-  },
-  {
-   "slug": "jamnagar",
-   "kind": "hub",
-   "parent": "india",
-   "navLabel": "RBI in Jamnagar and Vadinar",
-   "country": "India",
-   "place": "Jamnagar and Vadinar"
-  },
-  {
-   "slug": "paradip",
-   "kind": "hub",
-   "parent": "india",
-   "navLabel": "RBI in Paradip",
-   "country": "India",
-   "place": "Paradip"
-  },
-  {
-   "slug": "mangaluru",
-   "kind": "hub",
-   "parent": "india",
-   "navLabel": "RBI in Mangaluru",
-   "country": "India",
-   "place": "Mangaluru"
-  },
-  {
-   "slug": "visakhapatnam",
-   "kind": "hub",
-   "parent": "india",
-   "navLabel": "RBI in Visakhapatnam",
-   "country": "India",
-   "place": "Visakhapatnam"
-  },
-  {
-   "slug": "zhoushan",
-   "kind": "hub",
-   "parent": "china",
-   "navLabel": "RBI in Zhoushan",
-   "country": "China",
-   "place": "Zhoushan"
-  },
-  {
-   "slug": "ningbo",
-   "kind": "hub",
-   "parent": "china",
-   "navLabel": "RBI in Ningbo",
-   "country": "China",
-   "place": "Ningbo"
-  },
-  {
-   "slug": "huizhou",
-   "kind": "hub",
-   "parent": "china",
-   "navLabel": "RBI in Huizhou (Daya Bay)",
-   "country": "China",
-   "place": "Huizhou (Daya Bay)"
-  },
-  {
-   "slug": "pengerang",
-   "kind": "hub",
-   "parent": "malaysia",
-   "navLabel": "RBI in Pengerang, Johor",
-   "country": "Malaysia",
-   "place": "Pengerang, Johor"
-  }
- ]
+  "_note": "2026-11-23 owner: RBI as a remote service; topics + countries + tank/refining hubs (Russia and Venezuela excluded on sanctions grounds). One record per row in pages/{slug}.json.",
+  "pages": [
+    {
+      "slug": "storage-tank-rbi",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "RBI for storage tanks"
+    },
+    {
+      "slug": "piping-rbi",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "RBI for process piping"
+    },
+    {
+      "slug": "pressure-vessel-rbi",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "RBI for pressure vessels and heat exchangers"
+    },
+    {
+      "slug": "remote-rbi",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "How a remote RBI study works"
+    },
+    {
+      "slug": "rbi-implementation",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "RBI programme implementation"
+    },
+    {
+      "slug": "quantitative-rbi-api-581",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "Quantitative RBI to API 581"
+    },
+    {
+      "slug": "damage-mechanism-review",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "Damage mechanism review and corrosion loops"
+    },
+    {
+      "slug": "rbi-revalidation-audit",
+      "kind": "topic",
+      "parent": null,
+      "navLabel": "RBI revalidation and audit readiness"
+    },
+    {
+      "slug": "united-states",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in United States",
+      "country": "United States"
+    },
+    {
+      "slug": "canada",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Canada",
+      "country": "Canada"
+    },
+    {
+      "slug": "saudi-arabia",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Saudi Arabia",
+      "country": "Saudi Arabia"
+    },
+    {
+      "slug": "united-arab-emirates",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in United Arab Emirates",
+      "country": "United Arab Emirates"
+    },
+    {
+      "slug": "qatar",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Qatar",
+      "country": "Qatar"
+    },
+    {
+      "slug": "kuwait",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Kuwait",
+      "country": "Kuwait"
+    },
+    {
+      "slug": "oman",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Oman",
+      "country": "Oman"
+    },
+    {
+      "slug": "bahrain",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Bahrain",
+      "country": "Bahrain"
+    },
+    {
+      "slug": "iraq",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Iraq",
+      "country": "Iraq"
+    },
+    {
+      "slug": "singapore",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Singapore",
+      "country": "Singapore"
+    },
+    {
+      "slug": "india",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in India",
+      "country": "India"
+    },
+    {
+      "slug": "china",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in China",
+      "country": "China"
+    },
+    {
+      "slug": "malaysia",
+      "kind": "country",
+      "parent": null,
+      "navLabel": "RBI in Malaysia",
+      "country": "Malaysia"
+    },
+    {
+      "slug": "australia",
+      "kind": "country",
+      "navLabel": "RBI in Australia",
+      "country": "Australia"
+    },
+    {
+      "slug": "new-zealand",
+      "kind": "country",
+      "navLabel": "RBI in New Zealand",
+      "country": "New Zealand"
+    },
+    {
+      "slug": "indonesia",
+      "kind": "country",
+      "navLabel": "RBI in Indonesia",
+      "country": "Indonesia"
+    },
+    {
+      "slug": "vietnam",
+      "kind": "country",
+      "navLabel": "RBI in Vietnam",
+      "country": "Vietnam"
+    },
+    {
+      "slug": "netherlands",
+      "kind": "country",
+      "navLabel": "RBI in the Netherlands",
+      "country": "Netherlands"
+    },
+    {
+      "slug": "belgium",
+      "kind": "country",
+      "navLabel": "RBI in Belgium",
+      "country": "Belgium"
+    },
+    {
+      "slug": "united-kingdom",
+      "kind": "country",
+      "navLabel": "RBI in the United Kingdom",
+      "country": "United Kingdom"
+    },
+    {
+      "slug": "germany",
+      "kind": "country",
+      "navLabel": "RBI in Germany",
+      "country": "Germany"
+    },
+    {
+      "slug": "france",
+      "kind": "country",
+      "navLabel": "RBI in France",
+      "country": "France"
+    },
+    {
+      "slug": "spain",
+      "kind": "country",
+      "navLabel": "RBI in Spain",
+      "country": "Spain"
+    },
+    {
+      "slug": "italy",
+      "kind": "country",
+      "navLabel": "RBI in Italy",
+      "country": "Italy"
+    },
+    {
+      "slug": "norway",
+      "kind": "country",
+      "navLabel": "RBI in Norway",
+      "country": "Norway"
+    },
+    {
+      "slug": "japan",
+      "kind": "country",
+      "navLabel": "RBI in Japan",
+      "country": "Japan"
+    },
+    {
+      "slug": "south-korea",
+      "kind": "country",
+      "navLabel": "RBI in South Korea",
+      "country": "South Korea"
+    },
+    {
+      "slug": "thailand",
+      "kind": "country",
+      "navLabel": "RBI in Thailand",
+      "country": "Thailand"
+    },
+    {
+      "slug": "philippines",
+      "kind": "country",
+      "navLabel": "RBI in the Philippines",
+      "country": "Philippines"
+    },
+    {
+      "slug": "taiwan",
+      "kind": "country",
+      "navLabel": "RBI in Taiwan",
+      "country": "Taiwan"
+    },
+    {
+      "slug": "mexico",
+      "kind": "country",
+      "navLabel": "RBI in Mexico",
+      "country": "Mexico"
+    },
+    {
+      "slug": "brazil",
+      "kind": "country",
+      "navLabel": "RBI in Brazil",
+      "country": "Brazil"
+    },
+    {
+      "slug": "trinidad-and-tobago",
+      "kind": "country",
+      "navLabel": "RBI in Trinidad and Tobago",
+      "country": "Trinidad and Tobago"
+    },
+    {
+      "slug": "colombia",
+      "kind": "country",
+      "navLabel": "RBI in Colombia",
+      "country": "Colombia"
+    },
+    {
+      "slug": "nigeria",
+      "kind": "country",
+      "navLabel": "RBI in Nigeria",
+      "country": "Nigeria"
+    },
+    {
+      "slug": "south-africa",
+      "kind": "country",
+      "navLabel": "RBI in South Africa",
+      "country": "South Africa"
+    },
+    {
+      "slug": "egypt",
+      "kind": "country",
+      "navLabel": "RBI in Egypt",
+      "country": "Egypt"
+    },
+    {
+      "slug": "houston",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Houston and the Ship Channel",
+      "country": "United States",
+      "place": "Houston and the Ship Channel"
+    },
+    {
+      "slug": "corpus-christi",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Corpus Christi",
+      "country": "United States",
+      "place": "Corpus Christi"
+    },
+    {
+      "slug": "beaumont-port-arthur",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Beaumont and Port Arthur",
+      "country": "United States",
+      "place": "Beaumont and Port Arthur"
+    },
+    {
+      "slug": "lake-charles",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Lake Charles",
+      "country": "United States",
+      "place": "Lake Charles"
+    },
+    {
+      "slug": "baton-rouge",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Baton Rouge and the Mississippi River corridor",
+      "country": "United States",
+      "place": "Baton Rouge and the Mississippi River corridor"
+    },
+    {
+      "slug": "cushing",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Cushing, Oklahoma",
+      "country": "United States",
+      "place": "Cushing, Oklahoma"
+    },
+    {
+      "slug": "new-york-harbor",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in New York Harbor terminals",
+      "country": "United States",
+      "place": "New York Harbor terminals"
+    },
+    {
+      "slug": "philadelphia",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Philadelphia and the Delaware River",
+      "country": "United States",
+      "place": "Philadelphia and the Delaware River"
+    },
+    {
+      "slug": "los-angeles",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Los Angeles and Long Beach",
+      "country": "United States",
+      "place": "Los Angeles and Long Beach"
+    },
+    {
+      "slug": "chicago",
+      "kind": "hub",
+      "parent": "united-states",
+      "navLabel": "RBI in Chicago and Northwest Indiana",
+      "country": "United States",
+      "place": "Chicago and Northwest Indiana"
+    },
+    {
+      "slug": "edmonton",
+      "kind": "hub",
+      "parent": "canada",
+      "navLabel": "RBI in Edmonton and Alberta's Industrial Heartland",
+      "country": "Canada",
+      "place": "Edmonton and Alberta's Industrial Heartland"
+    },
+    {
+      "slug": "hardisty",
+      "kind": "hub",
+      "parent": "canada",
+      "navLabel": "RBI in Hardisty, Alberta",
+      "country": "Canada",
+      "place": "Hardisty, Alberta"
+    },
+    {
+      "slug": "sarnia",
+      "kind": "hub",
+      "parent": "canada",
+      "navLabel": "RBI in Sarnia, Ontario",
+      "country": "Canada",
+      "place": "Sarnia, Ontario"
+    },
+    {
+      "slug": "saint-john",
+      "kind": "hub",
+      "parent": "canada",
+      "navLabel": "RBI in Saint John, New Brunswick",
+      "country": "Canada",
+      "place": "Saint John, New Brunswick"
+    },
+    {
+      "slug": "ras-tanura",
+      "kind": "hub",
+      "parent": "saudi-arabia",
+      "navLabel": "RBI in Ras Tanura",
+      "country": "Saudi Arabia",
+      "place": "Ras Tanura"
+    },
+    {
+      "slug": "jubail",
+      "kind": "hub",
+      "parent": "saudi-arabia",
+      "navLabel": "RBI in Jubail",
+      "country": "Saudi Arabia",
+      "place": "Jubail"
+    },
+    {
+      "slug": "yanbu",
+      "kind": "hub",
+      "parent": "saudi-arabia",
+      "navLabel": "RBI in Yanbu",
+      "country": "Saudi Arabia",
+      "place": "Yanbu"
+    },
+    {
+      "slug": "fujairah",
+      "kind": "hub",
+      "parent": "united-arab-emirates",
+      "navLabel": "RBI in Fujairah",
+      "country": "United Arab Emirates",
+      "place": "Fujairah"
+    },
+    {
+      "slug": "jebel-ali",
+      "kind": "hub",
+      "parent": "united-arab-emirates",
+      "navLabel": "RBI in Jebel Ali and Dubai",
+      "country": "United Arab Emirates",
+      "place": "Jebel Ali and Dubai"
+    },
+    {
+      "slug": "ruwais",
+      "kind": "hub",
+      "parent": "united-arab-emirates",
+      "navLabel": "RBI in Ruwais",
+      "country": "United Arab Emirates",
+      "place": "Ruwais"
+    },
+    {
+      "slug": "ras-laffan",
+      "kind": "hub",
+      "parent": "qatar",
+      "navLabel": "RBI in Ras Laffan and Mesaieed",
+      "country": "Qatar",
+      "place": "Ras Laffan and Mesaieed"
+    },
+    {
+      "slug": "ahmadi",
+      "kind": "hub",
+      "parent": "kuwait",
+      "navLabel": "RBI in Mina Al Ahmadi",
+      "country": "Kuwait",
+      "place": "Mina Al Ahmadi"
+    },
+    {
+      "slug": "sohar",
+      "kind": "hub",
+      "parent": "oman",
+      "navLabel": "RBI in Sohar",
+      "country": "Oman",
+      "place": "Sohar"
+    },
+    {
+      "slug": "duqm",
+      "kind": "hub",
+      "parent": "oman",
+      "navLabel": "RBI in Duqm",
+      "country": "Oman",
+      "place": "Duqm"
+    },
+    {
+      "slug": "sitra",
+      "kind": "hub",
+      "parent": "bahrain",
+      "navLabel": "RBI in Sitra",
+      "country": "Bahrain",
+      "place": "Sitra"
+    },
+    {
+      "slug": "basra",
+      "kind": "hub",
+      "parent": "iraq",
+      "navLabel": "RBI in Basra",
+      "country": "Iraq",
+      "place": "Basra"
+    },
+    {
+      "slug": "jurong-island",
+      "kind": "hub",
+      "parent": "singapore",
+      "navLabel": "RBI in Jurong Island and Pulau Bukom",
+      "country": "Singapore",
+      "place": "Jurong Island and Pulau Bukom"
+    },
+    {
+      "slug": "jamnagar",
+      "kind": "hub",
+      "parent": "india",
+      "navLabel": "RBI in Jamnagar and Vadinar",
+      "country": "India",
+      "place": "Jamnagar and Vadinar"
+    },
+    {
+      "slug": "paradip",
+      "kind": "hub",
+      "parent": "india",
+      "navLabel": "RBI in Paradip",
+      "country": "India",
+      "place": "Paradip"
+    },
+    {
+      "slug": "mangaluru",
+      "kind": "hub",
+      "parent": "india",
+      "navLabel": "RBI in Mangaluru",
+      "country": "India",
+      "place": "Mangaluru"
+    },
+    {
+      "slug": "visakhapatnam",
+      "kind": "hub",
+      "parent": "india",
+      "navLabel": "RBI in Visakhapatnam",
+      "country": "India",
+      "place": "Visakhapatnam"
+    },
+    {
+      "slug": "zhoushan",
+      "kind": "hub",
+      "parent": "china",
+      "navLabel": "RBI in Zhoushan",
+      "country": "China",
+      "place": "Zhoushan"
+    },
+    {
+      "slug": "ningbo",
+      "kind": "hub",
+      "parent": "china",
+      "navLabel": "RBI in Ningbo",
+      "country": "China",
+      "place": "Ningbo"
+    },
+    {
+      "slug": "huizhou",
+      "kind": "hub",
+      "parent": "china",
+      "navLabel": "RBI in Huizhou (Daya Bay)",
+      "country": "China",
+      "place": "Huizhou (Daya Bay)"
+    },
+    {
+      "slug": "pengerang",
+      "kind": "hub",
+      "parent": "malaysia",
+      "navLabel": "RBI in Pengerang, Johor",
+      "country": "Malaysia",
+      "place": "Pengerang, Johor"
+    },
+    {
+      "slug": "singapore-tank-terminals",
+      "kind": "hub",
+      "parent": "singapore",
+      "navLabel": "RBI for Singapore's independent tank terminals",
+      "country": "Singapore",
+      "place": "Singapore's independent tank terminals"
+    },
+    {
+      "slug": "geelong",
+      "kind": "hub",
+      "parent": "australia",
+      "navLabel": "RBI in Geelong, Victoria",
+      "country": "Australia",
+      "place": "Geelong, Victoria"
+    },
+    {
+      "slug": "brisbane-lytton",
+      "kind": "hub",
+      "parent": "australia",
+      "navLabel": "RBI in Brisbane (Lytton), Queensland",
+      "country": "Australia",
+      "place": "Brisbane and Lytton, Queensland"
+    },
+    {
+      "slug": "kwinana",
+      "kind": "hub",
+      "parent": "australia",
+      "navLabel": "RBI in Kwinana, Western Australia",
+      "country": "Australia",
+      "place": "Kwinana, Western Australia"
+    },
+    {
+      "slug": "gladstone",
+      "kind": "hub",
+      "parent": "australia",
+      "navLabel": "RBI in Gladstone, Queensland",
+      "country": "Australia",
+      "place": "Gladstone, Queensland"
+    },
+    {
+      "slug": "karratha",
+      "kind": "hub",
+      "parent": "australia",
+      "navLabel": "RBI in Karratha and the Burrup Peninsula",
+      "country": "Australia",
+      "place": "Karratha and the Burrup Peninsula"
+    },
+    {
+      "slug": "darwin",
+      "kind": "hub",
+      "parent": "australia",
+      "navLabel": "RBI in Darwin, Northern Territory",
+      "country": "Australia",
+      "place": "Darwin, Northern Territory"
+    },
+    {
+      "slug": "marsden-point",
+      "kind": "hub",
+      "parent": "new-zealand",
+      "navLabel": "RBI in Marsden Point, Northland",
+      "country": "New Zealand",
+      "place": "Marsden Point, Northland"
+    },
+    {
+      "slug": "taranaki",
+      "kind": "hub",
+      "parent": "new-zealand",
+      "navLabel": "RBI in Taranaki",
+      "country": "New Zealand",
+      "place": "Taranaki"
+    },
+    {
+      "slug": "bintulu",
+      "kind": "hub",
+      "parent": "malaysia",
+      "navLabel": "RBI in Bintulu, Sarawak",
+      "country": "Malaysia",
+      "place": "Bintulu, Sarawak"
+    },
+    {
+      "slug": "kertih",
+      "kind": "hub",
+      "parent": "malaysia",
+      "navLabel": "RBI in Kertih, Terengganu",
+      "country": "Malaysia",
+      "place": "Kertih, Terengganu"
+    },
+    {
+      "slug": "melaka",
+      "kind": "hub",
+      "parent": "malaysia",
+      "navLabel": "RBI in Melaka",
+      "country": "Malaysia",
+      "place": "Melaka"
+    },
+    {
+      "slug": "port-dickson",
+      "kind": "hub",
+      "parent": "malaysia",
+      "navLabel": "RBI in Port Dickson, Negeri Sembilan",
+      "country": "Malaysia",
+      "place": "Port Dickson, Negeri Sembilan"
+    },
+    {
+      "slug": "cilacap",
+      "kind": "hub",
+      "parent": "indonesia",
+      "navLabel": "RBI in Cilacap, Central Java",
+      "country": "Indonesia",
+      "place": "Cilacap, Central Java"
+    },
+    {
+      "slug": "balikpapan",
+      "kind": "hub",
+      "parent": "indonesia",
+      "navLabel": "RBI in Balikpapan, East Kalimantan",
+      "country": "Indonesia",
+      "place": "Balikpapan, East Kalimantan"
+    },
+    {
+      "slug": "dumai",
+      "kind": "hub",
+      "parent": "indonesia",
+      "navLabel": "RBI in Dumai, Riau",
+      "country": "Indonesia",
+      "place": "Dumai, Riau"
+    },
+    {
+      "slug": "bontang",
+      "kind": "hub",
+      "parent": "indonesia",
+      "navLabel": "RBI in Bontang, East Kalimantan",
+      "country": "Indonesia",
+      "place": "Bontang, East Kalimantan"
+    },
+    {
+      "slug": "cilegon",
+      "kind": "hub",
+      "parent": "indonesia",
+      "navLabel": "RBI in Cilegon and Merak, Banten",
+      "country": "Indonesia",
+      "place": "Cilegon and Merak, Banten"
+    },
+    {
+      "slug": "dung-quat",
+      "kind": "hub",
+      "parent": "vietnam",
+      "navLabel": "RBI in Dung Quat, Quang Ngai",
+      "country": "Vietnam",
+      "place": "Dung Quat, Quang Ngai"
+    },
+    {
+      "slug": "nghi-son",
+      "kind": "hub",
+      "parent": "vietnam",
+      "navLabel": "RBI in Nghi Son, Thanh Hoa",
+      "country": "Vietnam",
+      "place": "Nghi Son, Thanh Hoa"
+    },
+    {
+      "slug": "vung-tau",
+      "kind": "hub",
+      "parent": "vietnam",
+      "navLabel": "RBI in Vung Tau and Long Son",
+      "country": "Vietnam",
+      "place": "Vung Tau and Long Son"
+    },
+    {
+      "slug": "rotterdam",
+      "kind": "hub",
+      "parent": "netherlands",
+      "navLabel": "RBI in Rotterdam and the Europoort",
+      "country": "Netherlands",
+      "place": "Rotterdam and the Europoort"
+    },
+    {
+      "slug": "antwerp",
+      "kind": "hub",
+      "parent": "belgium",
+      "navLabel": "RBI in Antwerp",
+      "country": "Belgium",
+      "place": "Antwerp"
+    },
+    {
+      "slug": "humber",
+      "kind": "hub",
+      "parent": "united-kingdom",
+      "navLabel": "RBI on the Humber estuary",
+      "country": "United Kingdom",
+      "place": "the Humber estuary"
+    },
+    {
+      "slug": "milford-haven",
+      "kind": "hub",
+      "parent": "united-kingdom",
+      "navLabel": "RBI in Milford Haven",
+      "country": "United Kingdom",
+      "place": "Milford Haven"
+    },
+    {
+      "slug": "le-havre",
+      "kind": "hub",
+      "parent": "france",
+      "navLabel": "RBI in Le Havre and the Seine estuary",
+      "country": "France",
+      "place": "Le Havre and the Seine estuary"
+    },
+    {
+      "slug": "cartagena-spain",
+      "kind": "hub",
+      "parent": "spain",
+      "navLabel": "RBI in Cartagena (Escombreras), Spain",
+      "country": "Spain",
+      "place": "Cartagena (Escombreras), Spain"
+    },
+    {
+      "slug": "mongstad",
+      "kind": "hub",
+      "parent": "norway",
+      "navLabel": "RBI in Mongstad",
+      "country": "Norway",
+      "place": "Mongstad"
+    },
+    {
+      "slug": "ulsan",
+      "kind": "hub",
+      "parent": "south-korea",
+      "navLabel": "RBI in Ulsan",
+      "country": "South Korea",
+      "place": "Ulsan"
+    },
+    {
+      "slug": "map-ta-phut",
+      "kind": "hub",
+      "parent": "thailand",
+      "navLabel": "RBI in Map Ta Phut, Rayong",
+      "country": "Thailand",
+      "place": "Map Ta Phut, Rayong"
+    }
+  ]
 }
