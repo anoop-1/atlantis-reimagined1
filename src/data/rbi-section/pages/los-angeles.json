@@ -1,0 +1,184 @@
+{
+  "title": "RBI in Los Angeles and Long Beach: Refineries and Terminals",
+  "description": "Risk-based inspection for South Bay refineries and Port of LA and Long Beach marine terminals, aligned with Cal/OSHA damage mechanism reviews and MOTEMS.",
+  "h1": "Risk-based inspection for Los Angeles and Long Beach refineries and marine terminals",
+  "eyebrow": "Risk-based inspection in Los Angeles",
+  "intro": "The Los Angeles Basin's refineries and terminals work under rules no Gulf Coast plant faces: a refinery-specific process safety regulation that requires damage mechanism reviews, marine oil terminal standards enforced by the State Lands Commission, state permits for many unfired pressure vessels and real seismic hazard. This page is for mechanical integrity and inspection leads at South Bay refineries, harbor terminals and tank farms. It explains how an RBI study fits the Section 5189.1 damage mechanism review and MOTEMS, which damage dominates there, how closures change the scope and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "One basis, two uses", "p": "Corrosion loops and damage mechanisms assigned for RBI can be organised by process unit so they also serve as technical input to the damage mechanism review California requires of refineries, instead of maintaining two analyses that drift apart over time." },
+    { "h": "Earthquakes planned for", "p": "The plan names seismic events as reassessment triggers, with check lists for tank shells, roofs, nozzles, anchorage and foundations, and for wharf piping, so an earthquake leads to a documented review rather than an untested assumption that nothing changed." },
+    { "h": "Field data in California", "p": "The study runs remotely. Where readings are missing, Atlantis can send UT, MT, PT and VT technicians to Los Angeles and Long Beach sites to collect them, and the results go straight into each item's record and the next version of the plan." }
+  ],
+  "sections": [
+    {
+      "id": "south-bay-refining",
+      "h": "South Bay refineries and harbor terminals",
+      "p": [
+        "Most of Southern California's refining capacity sits in a short stretch of the South Bay and harbor area: Chevron's El Segundo refinery, the Marathon Los Angeles refinery spanning Carson and Wilmington, PBF Energy's Torrance refinery, listed at 166,000 barrels a day of nameplate crude capacity, and Valero's Wilmington refinery. Around them run crude and product pipelines, tank farms and the marine terminals of the Port of Los Angeles and the Port of Long Beach, together the busiest container port complex in North America and the landing point for much of the region's imported crude and fuel.",
+        "The picture is changing. Phillips 66 began idling gasoline-side units at its Los Angeles refinery complex in Carson and Wilmington during 2025, planned to stop processing crude in mid-October and to shut the remaining units in phases by the end of that year, and announced plans to supply the market through import terminals at the harbor connected by pipeline to its Torrance tank farm. For RBI that means some equipment is being retired, some is being kept in new service, and the terminals and tankage that remain take on more of the region's supply."
+      ],
+      "table": {
+        "head": ["Asset type", "Where it sits", "What tends to drive risk"],
+        "rows": [
+          ["Refinery process units", "El Segundo, Carson, Wilmington, Torrance", "Sulfidation, hydroprocessing effluent corrosion, alkylation service, high temperature hydrogen attack screening, CUI in a marine climate"],
+          ["Refinery and pipeline tank farms", "Inside the refineries and at pipeline and storage sites across the South Bay", "Floor corrosion, seismic damage to shells, roofs and nozzles, seal and roof drain condition"],
+          ["Marine oil terminals", "Port of Los Angeles and Port of Long Beach", "Atmospheric corrosion of wharf piping and supports, loading arm and hose connections, post-event inspection after earthquakes or vessel impacts"],
+          ["Equipment in transition", "Idled or converting units and the terminals replacing them", "Corrosion during idle periods, water left in low points, damage mechanisms that change with the new service"]
+        ]
+      },
+      "links": [
+        ["/inspection/third-party-inspection-los-angeles", "Third-party inspection in Los Angeles"],
+        ["/api-653-tank-inspection-california", "API 653 tank inspection support in California"]
+      ]
+    },
+    {
+      "id": "dmr-and-rbi",
+      "h": "Section 5189.1 damage mechanism reviews and the RBI basis",
+      "p": [
+        "California's refinery process safety regulation, Title 8 section 5189.1, operative since October 2017, requires the employer to complete a damage mechanism review for each existing and new process in which a damage mechanism exists, and to document why where none does. A DMR must be revalidated at least once every five years, reviewed as part of any major change before the change is approved, and conducted before approval if a major change may introduce a new mechanism. If a damage mechanism contributes to an incident, the investigation team must review the relevant DMRs. The process hazard analysis team must consider the DMR reports, and reports are kept for the life of the process unit.",
+        "The content the regulation asks for overlaps heavily with an RBI damage mechanism assignment. A DMR must assess the process flow diagrams and identify potential damage mechanisms, confirm that materials of construction suit their application and resist those mechanisms, cover methods to prevent or mitigate damage, review operating parameters that could accelerate or reduce it, and draw on the process's inspection history, damage data, industry-wide experience and applicable standards, across categories that include mechanical loading, erosion, corrosion, thermal damage, cracking and embrittlement."
+      ],
+      "list": [
+        "Corrosion loops drawn by process unit and aligned with the PFDs, so each DMR can cite them directly",
+        "Damage mechanisms assigned to API 571 with the operating parameters that govern each one, ready to become integrity operating windows",
+        "Materials suitability notes for each loop, flagging where the installed material is marginal for the current service",
+        "Inspection history and measured damage summarised per loop, which subsection (k) asks the DMR team to review",
+        "Change log linking each reassessment to the management of change record that triggered it"
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "dmr-ownership",
+      "h": "What the employer's DMR team still owns",
+      "p": [
+        "The regulation is specific about who performs a DMR. The team needs expertise in engineering, equipment and pipe inspection, damage mechanisms and process operations, with at least one member familiar with the review method, and employees must participate. The report has to be shared with affected employees, its recommendations implemented and tracked under the regulation's own provisions, and its findings carried into management of change documentation. None of that can be delegated to an outside analyst working from documents.",
+        "What an outside RBI study can do is give the team a strong, current technical basis: a loop-by-loop damage assignment, the data behind each rate and an honest list of what is not known. Atlantis prepares that basis remotely and can take part in the review workshops by video, but the DMR remains the employer's document. Keeping the RBI model and the DMR on the same loops and mechanisms has a practical benefit as well: when the five-year revalidation comes round, or a major change is proposed, both are updated together and the inspection plan moves with them."
+      ]
+    },
+    {
+      "id": "inspection-frequency-j",
+      "h": "Inspection frequency under subsection (j)",
+      "p": [
+        "Section 5189.1's mechanical integrity subsection says that the frequency of inspections and tests shall be consistent with manufacturers' recommendations, recognised and generally accepted good engineering practice, or internal practices that are more protective, and that inspections shall be conducted more frequently where operating experience with the equipment shows it is necessary. All three API inspection codes, 510 for vessels, 570 for piping and 653 for tanks, let an assessment made to API RP 580 set intervals, so a documented, current RBI programme is one recognised way to meet that requirement.",
+        "The word that matters is current. A Cal/OSHA inspector will look for evidence that the intervals reflect the equipment's actual condition and the latest damage mechanism review, not a study filed years ago. The plan therefore records, for each item, the DMR revision it rests on, the inspection data date, the effectiveness credited and the trigger that would bring it back for reassessment."
+      ]
+    },
+    {
+      "id": "motems-terminals",
+      "h": "Marine oil terminals and MOTEMS",
+      "p": [
+        "Every marine oil terminal in California falls under the Marine Oil Terminal Engineering and Maintenance Standards, published as Chapter 31F of the California Building Code and enforced by the California State Lands Commission. MOTEMS covers audits and inspections, structural and seismic analysis, berthing and mooring, geotechnical assessment, fire protection, pipelines, and mechanical and electrical systems, and it requires post-event notification and inspection after significant events such as earthquakes, storms, vessel impacts, fires or tsunamis. New terminals complete an initial audit before operating, and operators carry out audits and inspections on a prescribed periodic basis, typically every four years.",
+        "MOTEMS covers the wharf, the structure and the piping on it rather than shore tankage, and its structural assessment is outside what an RBI study does. Where the two meet is the terminal's piping. An RBI plan for wharf and transfer piping can be aligned with the MOTEMS audit cycle, so that thickness readings, support inspections and corrosion findings from the risk-based plan feed the audit, and a post-event MOTEMS inspection becomes a reassessment trigger for the piping in the risk model. The terminal operator and its engineers remain responsible for the MOTEMS audit itself."
+      ]
+    },
+    {
+      "id": "seismic-reassessment",
+      "h": "Earthquakes as a planned reassessment event",
+      "p": [
+        "Seismic hazard sets Los Angeles apart from every other US refining centre. Earthquakes damage storage tanks through shell buckling at the base, the classic elephant's foot, roof and seal damage from sloshing liquid, broken nozzles and piping connections where stiff piping restrains a moving shell, anchorage failure and foundation movement. Process equipment can suffer damage to supports, flanged joints that leak after movement, and cracking at welded attachments.",
+        "A Los Angeles RBI plan should treat a felt earthquake above an agreed threshold as a reassessment trigger, with a defined check list for the items most exposed: tank shells near the base, roofs and seals, nozzles and the first piping supports outside each tank, anchor bolts and chairs, foundations and settlement points, tall columns and their skirts, and wharf piping. Clean results are written up and the existing intervals continue; anything damaged is pulled forward for reassessment ahead of its due date, and any engineering evaluation of seismic or settlement damage is carried out by the owner's engineers."
+      ]
+    },
+    {
+      "id": "south-bay-mechanisms",
+      "h": "Mechanisms that lead in South Bay units",
+      "p": [
+        "The coastal marine layer brings fog, humidity and salt to the refineries and terminals nearest the water, so external corrosion of pipe racks, supports and tank exteriors, and corrosion under insulation on carbon steel that operates in or cycles through the susceptible range, are standing items in the damage review. Inside the process, the leaders are the familiar refinery mechanisms: high-temperature sulfidation and naphthenic acid corrosion where crude properties support them, ammonium bisulfide and chloride corrosion in hydroprocessing effluent systems, overhead corrosion in crude units, amine and sour water corrosion and cracking, alkylation acid service and high temperature hydrogen attack screened against API RP 941.",
+        "Because the region's crude supply is shifting towards imports as local refining contracts, crude slate and feed changes are a realistic reassessment trigger in the South Bay. The plan ties the governing crude properties to integrity operating windows, so an excursion reaches the inspection team quickly, and names separately the items whose damage is cracking or hydrogen attack, which thickness monitoring will not catch."
+      ],
+      "links": [
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/standards/api-584", "API 584 integrity operating windows"]
+      ]
+    },
+    {
+      "id": "closures-transitions",
+      "h": "Shutdowns, idled units and service changes",
+      "p": [
+        "When a refinery or a unit stops running, its RBI model does not simply end. Equipment that is being retired needs to be identified and taken out of the plan cleanly, with its isolation and hydrocarbon-free status recorded. Equipment kept for a new purpose, such as tankage and pipelines that become part of an import supply chain, needs its damage mechanisms reassigned for the new service while its thickness history is carried forward. Equipment that sits idle for months before a decision is made needs screening for the damage that happens during idle periods: water trapped in low points and dead legs, corrosion under wet insulation without process heat to dry it, and microbiological growth in stagnant systems.",
+        "The same logic applies to units converted to renewable feedstocks elsewhere in California, where new feeds bring different water, acid and contaminant levels. In each case the study writes down what changed and when, so that the next inspector can see why an item's mechanisms and interval differ from its old record."
+      ]
+    },
+    {
+      "id": "california-layers",
+      "h": "Pressure vessel permits, CalARP, APSA and air rules",
+      "p": [
+        "California regulates unfired pressure vessels as well as boilers. Cal/OSHA's Pressure Vessel Unit issues permits to operate for boilers and many unfired vessels under the Title 8 Boiler and Fired Pressure Vessel and Unfired Pressure Vessel Safety Orders, with permit inspections by state inspectors or qualified insurance-company inspectors, so the RBI report lists permitted vessels separately and recommends confirming their intervals within the permit system. The California Accidental Release Prevention programme applies to many of the same facilities as the process safety rules.",
+        "For tanks, the Aboveground Petroleum Storage Act is enforced locally by Certified Unified Program Agencies under the oversight of CAL FIRE's Office of the State Fire Marshal and requires a spill prevention plan meeting the federal rule, in which integrity testing usually follows API 653. Air district rules add constraints: in the South Coast district, rules cover floating-roof tank seals and the cleaning and degassing of storage tanks, including notification before degassing. An RBI plan that schedules out-of-service work without allowing for those steps will slip, so the plan sequences tank outages with the air district requirements in view."
+      ],
+      "links": [
+        ["/inspection-services-california", "NDT inspection services in California"],
+        ["/api-570-piping-inspection-california", "API 570 piping inspection support in California"]
+      ]
+    },
+    {
+      "id": "la-remote-study",
+      "h": "Running the study from Pacific time, and who approves it",
+      "p": [
+        "The study begins with a shared data room: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, thickness history by CML, process chemistry, integrity operating windows, the current DMR reports and their revalidation dates, and for tanks and terminals the inspection files, seismic event records and MOTEMS audit findings for wharf piping. Workshops with your process, operations, corrosion and inspection people are held by video in Pacific working hours, two hours behind Houston, and document review carries on in Hyderabad between sessions. Risk is assessed at whatever depth the scope calls for: qualitative ranking, semi-quantitative scoring, API RP 581 quantitative methods or your company's own RBI procedure.",
+        "Where readings are missing, your inspectors normally collect them, and Atlantis can also send UT, MT, PT and VT technicians to South Bay and harbor sites for thickness surveys, corrosion mapping and surface examination of welds where cracking is credible. Atlantis does not perform radiography in the United States, so radiographic work remains with your licensed contractor. Approval belongs to whoever is inspector of record for each item, usually your API 510, 570 or 653 inspector or the operator's inspection authority, and never to Atlantis; fitness-for-service decisions on damage found in service likewise stay with your engineer and are not an Atlantis service."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 and API RP 581",
+    "ASME PCC-3",
+    "API RP 571 (damage mechanisms)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (high temperature hydrogen attack)",
+    "API 510, API 570 and API 653",
+    "Cal/OSHA Title 8 section 5189.1 (refinery process safety)",
+    "California Building Code Chapter 31F (MOTEMS)",
+    "Title 8 Unfired Pressure Vessel Safety Orders",
+    "Aboveground Petroleum Storage Act and EPA 40 CFR Part 112"
+  ],
+  "deliverables": [
+    "RBI register by process unit, with probability, consequence and risk per item",
+    "Corrosion loops and damage mechanism basis organised to support Section 5189.1 damage mechanism reviews",
+    "Inspection plan per item: method, coverage, expected effectiveness and due date, with the DMR revision it rests on",
+    "Seismic reassessment trigger and post-earthquake check list for tanks, process equipment and wharf piping",
+    "Wharf and transfer piping plan aligned with the MOTEMS audit cycle",
+    "Separate lists of permitted pressure vessels and equipment in transition or retirement",
+    "Data-gap log, with an option for Atlantis technicians to collect missing readings"
+  ],
+  "industries": [
+    "Refining",
+    "Marine oil terminals",
+    "Crude and products pipelines and tank farms",
+    "Import and blending terminals",
+    "Renewable fuels conversions"
+  ],
+  "faqs": [
+    { "q": "Can an RBI study satisfy the damage mechanism review that Section 5189.1 requires?", "a": "Not on its own. The regulation requires the employer's DMR team, with defined expertise and employee participation, to perform and own the review, share it with employees and implement its recommendations. An RBI damage mechanism assignment organised by process unit can supply much of the technical basis, and Atlantis can take part in review workshops by video, but the DMR remains the employer's document." },
+    { "q": "How often does a DMR have to be revalidated, and how should RBI keep pace?", "a": "At least once every five years, and it must be reviewed as part of a major change before the change is approved. Keeping the RBI model on the same loops and mechanisms as the DMR means both can be updated together at revalidation or after a major change, so the inspection plan reflects the latest review instead of an older assessment." },
+    { "q": "Does MOTEMS replace RBI for wharf piping?", "a": "No, they do different jobs. MOTEMS sets audit, inspection, structural and post-event requirements for the whole marine oil terminal, enforced by the State Lands Commission. An RBI plan for wharf and transfer piping decides where inspection effort goes between audits and can be aligned with the audit cycle, so its findings feed the audit and a post-event MOTEMS inspection triggers reassessment." },
+    { "q": "How should earthquakes be handled in our RBI programme?", "a": "As planned reassessment events. After a felt earthquake above an agreed threshold, a check list covers tank shells near the base, roofs and seals, nozzles and nearby piping supports, anchorage, foundations, tall columns and wharf piping. Clean results let the intervals stand with a documented reason; damage triggers reassessment, and engineering evaluation of that damage is done by the owner's engineers." },
+    { "q": "Our unit is idled while the site decides its future. What should the RBI plan do?", "a": "Record the idle status and screen for damage that happens when equipment is not running: water left in low points and dead legs, corrosion under insulation without process heat and microbial growth in stagnant systems. Items to be retired are taken out of the plan with their isolation recorded, and items kept for new service get their mechanisms reassigned before they restart." },
+    { "q": "Do permitted pressure vessels need special handling in the plan?", "a": "Yes. Cal/OSHA's Pressure Vessel Unit issues permits to operate for boilers and many unfired vessels, with inspections by state or qualified insurance inspectors. The RBI report lists those vessels separately so their intervals can be confirmed within the permit system before the risk-based plan is applied to them." },
+    { "q": "Can Atlantis send technicians to Los Angeles and Long Beach sites?", "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to South Bay refineries, tank farms and harbor terminals for thickness surveys, corrosion mapping, post-event checks and surface examination of welds where cracking is suspected. They work under the site's own safety and access requirements, and radiographic work is left to your licensed contractor." },
+    { "q": "Who approves the inspection intervals?", "a": "Your API 510, 570 or 653 inspector, or the operator's inspection authority, approves them, within whatever the permit system or other rules require. The study recommends intervals with their basis and the DMR revision they rest on. Damage that needs a fitness-for-service judgement goes to your engineer, and the model is updated with the outcome." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/chicago", "RBI in Chicago and Northwest Indiana"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/third-party-inspection-los-angeles", "Third-party inspection in Los Angeles"],
+    ["/inspection/piping-inspection-services-los-angeles", "Piping inspection in Los Angeles"],
+    ["/api-653-tank-inspection-california", "API 653 tank inspection support in California"],
+    ["/inspection-services-california", "NDT inspection services in California"],
+    ["/ultrasonic-testing-los-angeles", "Ultrasonic testing in Los Angeles"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/corrosion-mapping", "Corrosion mapping"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Title 8 section 5189.1: operative October 1 2017; damage mechanism definition; (k)(1) DMR for each process where a damage mechanism exists; (k)(3) revalidate at least every five years; (k)(4) review as part of major change; (k)(5) incidents; (k)(7) team expertise and employee participation; (k)(8)-(10) content; (k)(11)-(14) report, employees, implementation, retention; (e)(3)(C) PHA considers DMR; (j)(2)(B) inspection frequency", "url": "https://dir.ca.gov/Title8/5189_1.html" },
+    { "fact": "MOTEMS: California Building Code Chapter 31F; State Lands Commission; audits and inspections typically every four years; coverage and post-event inspection after earthquakes, storms, vessel impacts, fires, tsunamis; initial audit before operations", "url": "https://www.slc.ca.gov/motems/" },
+    { "fact": "PBF Torrance refinery 166,000 barrels per day nameplate crude capacity", "url": "https://www.pbfenergy.com/refineries/" },
+    { "fact": "Phillips 66 LA refinery (Carson and Wilmington): gasoline-side units idled; crude processing to stop mid-October 2025; remaining units shut in phases through end-2025; import terminals at LA harbor docks connected by pipeline to Torrance tank farm", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2740302-p66-shuts-gasoline-units-ramps-up-imports-in-calif" },
+    { "fact": "Valero's Wilmington refinery operates under its Ultramar Inc entity (EPA consent agreement 2025)", "url": "https://yosemite.epa.gov/oa/rhc/epaadmin.nsf/Filings/7691A3ABCD33998085258C850006E1F6/$File/Ultramar Inc (MM-09-2025-0061) - Filed CAFO.pdf" },
+    { "fact": "Chevron El Segundo, Marathon LA refinery spanning Carson and Wilmington, Torrance refinery; Ports of LA and Long Beach busiest container port complex in North America; Cal/OSHA Pressure Vessel Unit permits; CalARP; APSA via CUPAs with CAL FIRE OSFM oversight; South Coast AQMD tank seal and degassing rules; seismic tank damage modes; MOTEMS covers wharf structures and piping, not shore tankage", "url": "https://atlantisndt.com/api-653-tank-inspection-california" }
+  ]
+}

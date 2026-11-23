@@ -189,6 +189,10 @@
     ["/contact", "Contact Atlantis"]
   ],
   "sources": [
+    {"fact":"195.432(b)(1): operators that set RBI intervals before March 6, 2015 must re-establish them under API 653 section 6.4.2 (verified)","url":"https://www.law.cornell.edu/cfr/text/49/195.432"},
+    {"fact":"PHMSA NPRM: 20-year initial / 25-year subsequent caps; comment period to August 3, 2026; no final rule found as of November 2026","url":"https://www.govinfo.gov/content/pkg/FR-2026-06-02/html/2026-10969.htm"},
+    {"fact":"Cal. Code Regs. tit. 8 §5189.1(k) Damage Mechanism Review: each process with a damage mechanism; revalidated at least every five years; reviewed as part of a major change (verified)","url":"https://dir.ca.gov/Title8/5189_1.html"},
+    {"fact":"TCEQ ASVS statewide, effective Aug 24 2023, registration Sept 1 2027, self-certification Sept 1 2037","url":"https://www.tceq.texas.gov/permitting/asvs"},
     { "fact": "49 CFR 195.432(b) applies API 653 to breakout tanks except section 6.4.3 (alternative internal inspection interval); pre-March 2015 RBI intervals had to be re-established under 6.4.2", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" },
     { "fact": "PHMSA NPRM published June 2, 2026: API 653 5th edition, removes bar on RBI internal intervals with records of likelihood and consequence factors, caps 20 years initial and 25 years subsequent; proposal only, no compliance date", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" },
     { "fact": "National Board accredits owner-user inspection organizations under NB-371; procedures must be acceptable to the jurisdiction", "url": "https://www.nationalboard.org/PrintPage.aspx?pageID=67" },

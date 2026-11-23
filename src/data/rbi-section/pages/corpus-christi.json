@@ -157,6 +157,7 @@
     ["/contact", "Contact Atlantis"]
   ],
   "sources": [
+    {"fact":"TCEQ ASVS applies with no geographic limit (statewide); breakout tanks excluded from bulk storage terminals","url":"https://www.tceq.texas.gov/permitting/asvs"},
     { "fact": "Enbridge Ingleside Energy Center: 20 million barrels after Phase VII added 2.5 million; 2025 loaded 415,420,684 bbl (~1.13 million bpd); four deep-water berths, two VLCC-capable; pipelines Gray Oak, Cactus I, Cactus II, EPIC, Harvest", "url": "https://www.enbridge.com/Stories/2026/May/Enbridge-Ingleside-Energy-Center-more-exports-extra-storage-larger-import-volumes" },
     { "fact": "Corpus Christi LNG: 3 trains + Stage 3 operating, 0.47 Bcf/d under construction (DOE LNG snapshot Sept 30 2026)", "url": "https://www.energy.gov/sites/default/files/2026-09/LNG%20Snapshot%20September%2030%202026.pdf" },
     { "fact": "Refinery Row refineries operated by CITGO, Flint Hills Resources and Valero; Port of Corpus Christi leading US crude export gateway fed by Permian and Eagle Ford pipelines; GCGV ExxonMobil-SABIC cracker near Gregory; Kiewit Offshore Services at Ingleside", "url": "https://atlantisndt.com/ndt-training-corpus-christi" },

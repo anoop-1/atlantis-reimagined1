@@ -73,7 +73,7 @@
       "id": "absa-owner-user",
       "h": "Fitting the study into an ABSA-accepted system",
       "p": [
-        "In Alberta an RBI study becomes part of a system ABSA already audits. The owner-user's pressure equipment integrity management system, written to AB-512 and, since October 2025, to the AB-512H requirements harmonised with Saskatchewan and Manitoba, has to describe how inspection intervals are set, approved and changed. AB-506 states the inspection and servicing requirements those intervals must respect, and ABSA has its own requirements for risk-based inspection programmes. A study that cannot be read against those documents becomes a weakness at audit, however sound its engineering.",
+        "In Alberta an RBI study becomes part of a system ABSA already audits. The owner-user's pressure equipment integrity management system, written to AB-512 and, since October 2025, to the AB-512H requirements harmonised with Saskatchewan and Manitoba, has to describe how inspection intervals are set, approved and changed. AB-506 states the inspection and servicing requirements those intervals must respect, and ABSA sets out what it expects of a risk-based inspection programme in AB-505, which the Alberta supplement to AB-512H cites. A study that cannot be read against those documents becomes a weakness at audit, however sound its engineering.",
         "The method, the register and the change triggers are therefore delivered in a form the owner-user can adopt as controlled procedures. The method statement names the RBI approach, the risk matrix and the targets set by the owner's management, and the rules for crediting past inspection. The register shows each item's mechanisms, risk and plan. The triggers state what reopens an assessment: an operating window excursion, a new inspection finding, a crude slate or process change, a repair or alteration, or the scheduled review date. With those in place, the in-service inspector has a basis for accepting each interval and an auditor has a trail to follow."
       ]
     },
@@ -110,7 +110,7 @@
     "API RP 584 (integrity operating windows)",
     "API RP 941 (steels for hydrogen service)",
     "API 510 and API 570",
-    "ABSA AB-506, AB-512H and AB-526",
+    "ABSA AB-505, AB-506, AB-512H and AB-526",
     "CSA B51 (boiler, pressure vessel and pressure piping code)"
   ],
   "deliverables": [
@@ -135,7 +135,7 @@
     { "q": "Can an RBI study deal with brittle fracture risk in winter?", "a": "It can screen for it. Each item is checked using its material, impact test, thickness and post-weld heat treatment records against the lowest metal temperature it could see, including depressurisation of light hydrocarbons. Susceptible items usually need an operating limit, such as a minimum pressurisation temperature, more than they need extra inspection, and any detailed toughness evaluation goes to the owner's engineer." },
     { "q": "We are changing our crude slate. Does the RBI model need redoing?", "a": "Not all of it, but the affected corrosion loops do. The study records the sulfur, acid and chloride assumptions behind each high-temperature and hydroprocessing loop, so a change in bitumen blend or synthetic crude share can be checked against them. Loops whose assumptions no longer hold are reassessed and given new due dates, while the rest of the register stands." },
     { "q": "Can one study cover refinery, petrochemical and NGL assets?", "a": "Yes, provided each plant type keeps its own corrosion loops and damage mechanisms. Owners with refinery units, a cracker or a fractionator on one site often want a single register and risk matrix. That works well as long as chemical and cold-service mechanisms are assessed on their own terms rather than pushed through a refinery template." },
-    { "q": "Will anyone from Atlantis come to our Heartland site?", "a": "No. The study is delivered remotely from your documents, historian data and video workshops, and the field checks it needs are done by your inspectors. Your inspectors, or the integrity assessment organisation you already work with, carry out the walkdowns and any readings the data-gap log calls for, and the results are loaded into the register." },
+    { "q": "Does the study need anyone from Atlantis at our Heartland site?", "a": "No. The study is delivered remotely from your documents, historian data and video workshops, and the field checks it needs are done by your inspectors. Your inspectors, or the integrity assessment organisation you already work with, carry out the walkdowns and any readings the data-gap log calls for, and the results are loaded into the register." },
     { "q": "How do workshops fit around our shifts and turnarounds?", "a": "Workshops are booked in Mountain time around the plant's own calendar and kept short enough that operations and inspection staff can attend without leaving a shift uncovered. During turnaround preparation the order of work follows the planning team's priorities, so the units coming down first are assessed first." },
     { "q": "Who signs the inspection intervals?", "a": "The in-service pressure equipment inspector recognised under ABSA's requirements, or an ABSA safety codes officer where ABSA inspects. The study proposes intervals and tasks and shows the reasoning behind each one; it does not approve them, and it does not replace the owner-user's own accountability for the programme." }
   ],
@@ -152,6 +152,8 @@
     ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"]
   ],
   "sources": [
+    {"fact":"AB-512H Alberta supplement refers to AB-505 for RBI requirements","url":"https://gov.mb.ca/asset_library/en/labour/docs/its/its-25-008-ab-512h-harmonized-requirements-for-piem.pdf"},
+    {"fact":"AB-526 is ABSA's In-service Pressure Equipment Inspector Certification Requirements","url":"https://inspectioneering.com/journal/2014-08-27/4118/absa-s-unique-approach-to-pres"},
     { "fact": "Imperial Strathcona refinery 197,000 b/d near Edmonton; full turnaround Q2 2026 focused on main crude unit, which reached its longest-ever run length of 10 years; Sarnia 124,000 b/d turnaround Q3/Q4 2026", "url": "https://ogj.com/refining-processing/refining/operations/news/55338848/imperial-plans-2026-turnarounds-at-two-canadian-refineries" },
     { "fact": "Scotford refinery and chemicals plants 100% Shell-owned; Scotford upgrader and Quest CCS next to them near Edmonton, operated by Shell (2025 transaction)", "url": "https://boereport.com/2025/01/29/shell-increases-interest-in-scotford-upgrader-and-quest-ccs-facility-and-fully-exits-oil-sands/" },
     { "fact": "Sturgeon refinery owned/operated by North West Redwater Partnership, a venture of Canadian Natural and North West Refining; bitumen to diesel", "url": "https://en.wikipedia.org/wiki/Sturgeon_Refinery" },

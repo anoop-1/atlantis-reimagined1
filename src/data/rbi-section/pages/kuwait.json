@@ -7,7 +7,7 @@
  "highlights": [
   {
    "h": "A compact operating structure",
-   "p": "Kuwait Petroleum Corporation's operating companies divide the industry clearly: Kuwait Oil Company upstream, Kuwait National Petroleum Company in refining and gas, and Kuwait Integrated Petroleum Industries Company at Al-Zour. Each asset's governing standard is therefore known before the study begins."
+   "p": "Kuwait Petroleum Corporation's operating companies divide the industry clearly: Kuwait Oil Company upstream, and Kuwait National Petroleum Company in refining and gas, which now also runs the Al-Zour complex. Each asset's governing standard is therefore known before the study begins."
   },
   {
    "h": "Old and new side by side",
@@ -23,7 +23,7 @@
    "id": "kuwait-structure",
    "h": "Who owns what in Kuwait's oil sector",
    "p": [
-    "Kuwait's hydrocarbon assets are held by operating companies of Kuwait Petroleum Corporation. Kuwait Oil Company (KOC) runs exploration and production, including the gathering facilities that separate oil, gas and water in the fields, the crude storage behind the coast and the export facilities at Mina Al Ahmadi, where crude is loaded onto tankers, very large crude carriers among them. Kuwait National Petroleum Company (KNPC) runs the Mina Al-Ahmadi and Mina Abdullah refineries, the gas plant at Mina Al-Ahmadi, the LPG filling plants at Shuaiba and Umm Al-Aish and the local fuel depot network. Kuwait Integrated Petroleum Industries Company (KIPIC) was formed for the Al-Zour complex, and KNPC has reported progress on merging the two companies, with the Al-Zour refinery included in the merger. Al-Zour also has an LNG import facility.",
+    "Kuwait's hydrocarbon assets are held by operating companies of Kuwait Petroleum Corporation. Kuwait Oil Company (KOC) runs exploration and production, including the gathering facilities that separate oil, gas and water in the fields, the crude storage behind the coast and the export facilities at Mina Al Ahmadi, where crude is loaded onto tankers, very large crude carriers among them. Kuwait National Petroleum Company (KNPC) runs the Mina Al-Ahmadi and Mina Abdullah refineries, the gas plant at Mina Al-Ahmadi, the LPG filling plants at Shuaiba and Umm Al-Aish and the local fuel depot network. The Al-Zour complex was built and first run by Kuwait Integrated Petroleum Industries Company (KIPIC); in 2026 KIPIC was dissolved and its assets, the Al-Zour refinery among them, passed to KNPC. Al-Zour also has an LNG import facility.",
     "Petrochemicals form a separate branch, and Kuwait Oil Tanker Company runs the national tanker fleet. For an RBI study the practical consequence is clarity: each asset belongs to one operating company whose engineering standards, inspection procedures and approval route are defined, and contractors work to them through their contracts. The study confirms which company's procedure applies, and what risk matrix and targets it sets, before any analysis starts.",
     "We have not found a published Kuwaiti regulation that fixes in-service inspection intervals or requires RBI for refinery or upstream equipment. The requirements sit in the companies' own standards, which commonly reference the API and ASME inspection codes, and in the fire, environmental and safety conditions the state's authorities apply to the facilities."
    ]
@@ -54,7 +54,7 @@
      ],
      [
       "Al-Zour refinery",
-      "KIPIC, with the merger into KNPC under way",
+      "KNPC, which took over the former KIPIC assets in 2026",
       "Baseline assessment from design and pre-service data, and verification of predicted corrosion rates at the first shutdowns"
      ],
      [
@@ -128,7 +128,7 @@
    "h": "Assessing a new refinery beside established ones",
    "p": [
     "An RBI study for a long-established refinery and one for a newly commissioned plant start from opposite ends. On the older units decades of inspection records exist, and the work is to turn them into credible corrosion rates: reconciling readings taken to different procedures, recognising where CMLs have moved, separating real thinning from measurement scatter and deciding how much credit each past inspection deserves. On a new refinery such as Al-Zour there is little history, so probability rests on predicted corrosion rates from the design basis, materials selection and process chemistry, and the first inspections are planned specifically to test those predictions.",
-    "Organisational change adds a third task. Where companies merge, as KNPC and KIPIC have been doing, RBI programmes built by different teams to different procedures, risk matrices and terminology have to be brought together. A harmonisation study maps each register to one methodology, resolves differences in consequence assumptions and risk targets, and produces a single register that the combined inspection organisation can maintain. Differences that need a management decision, such as which risk target applies, are listed for that decision rather than settled quietly inside the model."
+    "Organisational change adds a third task. Where companies merge, as KNPC and KIPIC did in 2026, RBI programmes built by different teams to different procedures, risk matrices and terminology have to be brought together. A harmonisation study maps each register to one methodology, resolves differences in consequence assumptions and risk targets, and produces a single register that the combined inspection organisation can maintain. Differences that need a management decision, such as which risk target applies, are listed for that decision rather than settled quietly inside the model."
    ],
    "links": [
     [
@@ -223,7 +223,7 @@
    "a": "Yes. A harmonisation study maps each existing register to one methodology, reconciles consequence assumptions, risk matrices and targets, and produces a single register and procedure set that the combined inspection organisation can maintain. Differences that need a management decision are listed rather than resolved silently."
   },
   {
-   "q": "Will anyone from Atlantis come to the site?",
+   "q": "Does the study need anyone from Atlantis on site?",
    "a": "No. Kuwaiti studies are delivered remotely through a data room and video workshops. Your inspectors or inspection contractor do the walkdowns and close data gaps, following a list that explains what each check is for and how it changes the plan."
   },
   {
@@ -282,6 +282,7 @@
   ]
  ],
  "sources": [
+    {"fact":"KIPIC dissolved and its assets, including the Al-Zour refinery (about 615,000 b/d), transferred to KNPC; merger published in the official gazette (reported 2 June 2026)","url":"https://www.intellinews.com/kuwait-continues-mergers-as-knpc-absorbs-kipic-446300/"},
   {
    "fact": "KNPC: Mina Al-Ahmadi 346,000 BPD, Mina Abdullah 454,000 BPD; full operation of Al-Zour Refinery 2024; gas plant at Mina Al-Ahmadi inaugurated 1978 with 5 trains; LPG filling plants at Shuaiba and Umm Al-Aish; local fuel depots; LNG import facility listed",
    "url": "https://www.knpc.com/en/about-us/who-we-are"

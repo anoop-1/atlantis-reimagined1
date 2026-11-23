@@ -14,7 +14,7 @@
       "id": "golden-triangle-facilities",
       "h": "The Golden Triangle's refining, chemical and export base",
       "p": [
-        "Port Arthur is home to Motiva's refinery, the largest in North America, alongside the TotalEnergies and Valero Port Arthur refineries. ExxonMobil's Beaumont refinery was expanded in 2023 and is now among the largest in the United States. Around them, crackers and chemical plants in Port Arthur, Port Neches, Nederland and Groves include the ethylene cracker jointly owned by BASF and TotalEnergies.",
+        "Port Arthur is home to Motiva's refinery, one of the largest in North America, alongside the TotalEnergies and Valero Port Arthur refineries. ExxonMobil's Beaumont refinery was expanded in 2023 and is now among the largest in the United States. Around them, crackers and chemical plants in Port Arthur, Port Neches, Nederland and Groves include the ethylene cracker jointly owned by BASF and TotalEnergies.",
         "The export side is growing. Energy Transfer's Nederland terminal has shipped ethane since 2021 and is adding ethane and LPG export capacity in phases from 2028. On the Texas side of Sabine Pass, Golden Pass LNG is operating its first train with further capacity under construction, and Port Arthur LNG is under construction with operations estimated for 2027, according to the US Department of Energy's September 2026 LNG snapshot. Across the Sabine River in Cameron Parish, Louisiana, Cheniere's Sabine Pass terminal is in operation."
       ],
       "table": {
@@ -167,7 +167,8 @@
     ["/contact", "Contact Atlantis"]
   ],
   "sources": [
-    { "fact": "Motiva Port Arthur refinery largest in North America; TotalEnergies and Valero Port Arthur refineries; ExxonMobil Beaumont refinery expanded 2023, among largest in US; BASF-TotalEnergies ethylene cracker; chemical plants in Port Neches, Nederland, Groves", "url": "https://atlantisndt.com/ndt-training-port-arthur" },
+    {"fact":"CSB: popcorn polymer in temporary dead leg from pump out of service several months; procedure did not identify all temporary dead legs; 2016 PHA monthly flushing recommendation never implemented (verified)","url":"https://csb.gov/csb-releases-final-tpc-report-"},
+    { "fact": "Motiva Port Arthur refinery; TotalEnergies and Valero Port Arthur refineries; ExxonMobil Beaumont refinery expanded 2023, among largest in US; BASF-TotalEnergies ethylene cracker; chemical plants in Port Neches, Nederland, Groves", "url": "https://atlantisndt.com/ndt-training-port-arthur" },
     { "fact": "Golden Pass LNG operating 1 train with more under construction; Port Arthur LNG under construction est. 2027; Sabine Pass LNG operating in Cameron, LA (DOE LNG snapshot Sept 30 2026)", "url": "https://www.energy.gov/sites/default/files/2026-09/LNG%20Snapshot%20September%2030%202026.pdf" },
     { "fact": "Energy Transfer Nederland terminal: ethane exports since 2021; ethane and LPG export expansion entering service in phases from 2028", "url": "https://pgjonline.com/news/2026/june/energy-transfer-expands-nederland-ngl-export-capacity" },
     { "fact": "CSB: TPC Port Neches Nov 27 2019 explosions caused by popcorn polymer in a temporary dead leg from a pump out of service for months; dead leg procedure missed temporary dead legs; 2016 PHA flushing recommendation not implemented", "url": "https://csb.gov/csb-releases-final-tpc-report-" },

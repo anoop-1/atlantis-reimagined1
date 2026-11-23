@@ -70,7 +70,7 @@
    "id": "uae-capacity",
    "h": "Where the UAE's refining, gas and storage capacity is concentrated",
    "p": [
-    "Abu Dhabi's downstream weight sits at Ruwais on the western coast, where ADNOC's refinery, with a nameplate capacity of 817,000 barrels per day, is by far the largest in the country. Ruwais also has gas processing, a floating regasification unit and the Ruwais LNG liquefaction project, which ADNOC has under construction. Das Island, offshore, has exported LNG since 1977, and several offshore concessions, including Hail and Ghasha, produce highly sour gas. The older Umm al-Nar refinery near the capital closed permanently in 2021.",
+    "Abu Dhabi's downstream weight sits at Ruwais on the western coast, where ADNOC's refinery, with a nameplate capacity of 817,000 barrels per day, is by far the largest in the country. Ruwais also has gas processing, a floating regasification unit and the Ruwais LNG liquefaction project, which ADNOC has under construction. Das Island, offshore, has exported LNG since 1977, and several offshore fields hold highly sour gas, among them those of the Hail and Ghasha development, which ADNOC is still building. The older Umm al-Nar refinery near the capital closed permanently in 2021.",
     "Dubai's refining is concentrated at Jebel Ali, where ENOC's refinery has a capacity of 210,000 barrels per day, among product storage terminals that serve the port and the regional trade. Fujairah, on the Gulf of Oman outside the Strait of Hormuz, holds one of the region's largest concentrations of oil storage and is a major bunkering port: the Fujairah Oil Industry Zone contains a dense cluster of independent crude and product terminals, refineries run by VTTI and Ecomar, and the end of the Abu Dhabi Crude Oil Pipeline, which carries Murban crude across the country so it can be loaded beyond the strait. A second ADNOC export pipeline to the east coast is under construction.",
     "The table shows how the risk emphasis shifts between these areas. Site-level detail belongs in each facility's own study."
    ],
@@ -224,7 +224,7 @@
    "a": "Yes. Sour service is assessed loop by loop: whether materials and welds were specified and fabricated for wet H2S, what the hardness and heat-treatment records show, which cracking mechanisms are credible and which inspection techniques can find them. Where records are missing, the gap log says what evidence would remove the conservative assumption."
   },
   {
-   "q": "Do you send inspectors to UAE sites?",
+   "q": "Does the study need Atlantis inspectors at UAE sites?",
    "a": "No. The study is remote: documents, inspection history and video workshops. Field verification, and any readings needed to close data gaps, are done by your own inspectors or your inspection contractor, working to a list that explains what each check is for and how it changes the plan."
   },
   {
@@ -287,12 +287,13 @@
   ]
  ],
  "sources": [
+    {"fact":"Hail and Ghasha sour gas project still under development (ADNOC financing raised December 2025)","url":"https://www.thenationalnews.com/business/energy/2025/12/18/adnoc-raises-11bn-for-hail-and-ghasha-gas-project"},
   {
    "fact": "ADNOC HSE control framework anchored in HSE policy with manuals and corporate practices; asset integrity and process safety management manual takes a risk-based approach and is ISO 55001 certified; risk-based inspection, predictive maintenance and monitoring used across the asset lifecycle; periodic assurance reviews and independent third-party evaluations; applies practice from IOGP, API, CCPS, Energy Institute",
    "url": "https://reports.adnoc.ae/e/sustainability-report-2025/9hZwCMdM21"
   },
   {
-   "fact": "UAE refineries: Ruwais (ADNOC, 817 kb/d), Jebel Ali (ENOC, 210 kb/d), VTTI Fujairah FZC-1 and FZC-2, Ecomar Fujairah; Umm al-Nar (74 kb/d) permanently shut 2021; Abu Dhabi Crude Oil Pipeline carries Murban to Fujairah outside Hormuz; second ADNOC pipeline under construction; Ruwais LNG under construction by ADNOC LNG; Ruwais FSRU; Das Island LNG since 1977; Hail and Ghasha concessions produce highly sour gas",
+   "fact": "UAE refineries: Ruwais (ADNOC, 817 kb/d), Jebel Ali (ENOC, 210 kb/d), VTTI Fujairah FZC-1 and FZC-2, Ecomar Fujairah; Umm al-Nar (74 kb/d) permanently shut 2021; Abu Dhabi Crude Oil Pipeline carries Murban to Fujairah outside Hormuz; second ADNOC pipeline under construction; Ruwais LNG under construction by ADNOC LNG; Ruwais FSRU; Das Island LNG since 1977; Hail and Ghasha highly sour gas fields under development",
    "url": "https://www.eia.gov/international/content/analysis/countries_long/united_arab_emirates"
   },
   {

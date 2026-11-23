@@ -32,7 +32,7 @@
    "id": "qatar-capacity",
    "h": "Where Qatar's plants are",
    "p": [
-    "Ras Laffan is the centre of the gas industry. QatarEnergy LNG, formerly Qatargas, operates fourteen LNG export trains there, and the North Field East, South and West projects add further trains. The city also holds the Laffan Refinery, a condensate refinery of about 306,000 barrels per day formed when Laffan Refinery 1 and 2 were merged in 2023; Shell's Pearl GTL, which the US Energy Information Administration describes as the world's largest gas-to-liquids facility; and Oryx GTL, a joint venture of QatarEnergy and Sasol.",
+    "Ras Laffan is the centre of the gas industry. It is the site of the fourteen LNG export trains of QatarEnergy LNG, formerly Qatargas, and the North Field East, South and West projects are adding more. The city also holds the Laffan Refinery, a condensate refinery of about 306,000 barrels per day formed when Laffan Refinery 1 and 2 were merged in 2023; Shell's Pearl GTL, which the US Energy Information Administration describes as the world's largest gas-to-liquids facility; and Oryx GTL, a joint venture of QatarEnergy and Sasol.",
     "Mesaieed, south of Doha, is the older industrial base. It holds QatarEnergy's refinery, about 137,000 barrels per day with a crude distillation unit for Dukhan crude and a condensate splitter for North Field condensate, together with Qatar Fertiliser Company (QAFCO), Qatar Petrochemical Company (QAPCO), Qatar Chemical Company (Q-Chem), Qatar Vinyl Company, Qatar Fuel Additives Company, Qatar Steel, Qatalum and Mesaieed Port. Dukhan, on the west coast, is the onshore oil field whose crude feeds that refinery.",
     "The table groups the plants by the equipment classes that dominate their RBI scope."
    ],
@@ -252,6 +252,7 @@
   ]
  ],
  "sources": [
+    {"fact":"Two of Qatar's 14 LNG export trains were damaged in 2026, repairs 3-5 years; Pearl GTL partly restarted (page describes the sites without operating claims)","url":"https://www.thenationalnews.com/business/energy/2026/09/14/qatar-lng-wont-return-to-normal-when-hormuz-reopens-executives-say/"},
   {
    "fact": "Refineries: Mesaieed/Umm Said (QatarEnergy 100%, 137 kb/d: 80 kb/d CDU on Dukhan crude + 57 kb/d condensate splitter); Laffan Refinery (306 kb/d condensate splitter; LR1 and LR2 merged February 2023); Pearl GTL (Shell) world's largest GTL; Oryx GTL (QatarEnergy 51%, Sasol 49%); QatarEnergy LNG (formerly Qatargas) operates 14 LNG export trains; North Field East, South and West expansion projects",
    "url": "https://www.eia.gov/international/content/analysis/countries_long/qatar"
