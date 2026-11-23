@@ -1,0 +1,200 @@
+{
+  "title": "RBI in Darwin: Ichthys, Darwin LNG and East Arm Terminals",
+  "description": "Remote RBI for Darwin Harbour's LNG plants and East Arm storage: restart after lay-up, maturing inspection data, monsoon CUI and NT safety case rules.",
+  "h1": "Risk-based inspection for Darwin Harbour's LNG plants and fuel terminals",
+  "eyebrow": "Risk-based inspection in Darwin",
+  "intro": "Darwin Harbour holds two LNG export plants and the fuel storage that supplies the Top End. INPEX's Ichthys LNG has produced at Bladin Point since 2018, and Santos's Darwin LNG at Wickham Point resumed shipments in January 2026 on gas from the Barossa field after more than two years without feed. This page is for inspection and integrity engineers there. It covers what a long pause and a new gas source mean for an RBI register, how a young plant moves from design assumptions to measured rates, the monsoon and cyclone climate, Northern Territory safety law, and how Atlantis delivers the study remotely.",
+  "highlights": [
+    { "h": "A restart is a reassessment", "p": "Equipment that stood without gas from late 2023 until early 2026 restarted on a different feed. Its register is revalidated against the lay-up record, the restart inspections and the Barossa gas analysis, not carried forward from the plant's earlier life." },
+    { "h": "Eight years of evidence", "p": "Ichthys began production in July 2018. Its early intervals rested on design data and baseline surveys; repeat measurements now make real corrosion rates possible, and the study replaces assumed rates with measured ones wherever the data hold up." },
+    { "h": "Monsoon, cyclones and dust", "p": "Months of monsoon rain and humidity, cyclone risk and a dusty dry season shape external damage around the harbour. Insulated, coated and cold equipment is ranked against the conditions it actually meets, with a written response for after a severe storm." }
+  ],
+  "sections": [
+    {
+      "id": "darwin-harbour",
+      "h": "Darwin Harbour's gas plants and fuel storage",
+      "p": [
+        "Ichthys LNG, operated by INPEX, brings gas ashore through an 890-kilometre export pipeline from its offshore facilities, the Ichthys Explorer production platform and the Ichthys Venturer floating production, storage and offloading facility, to an onshore plant at Bladin Point near Darwin. The onshore plant has two LNG trains, produces up to 9.3 million tonnes of LNG and 1.65 million tonnes of LPG a year, and holds its products in storage tanks before loading. Production began in July 2018.",
+        "Darwin LNG, operated by Santos at Wickham Point, liquefied gas from the Bayu-Undan field in the Timor Sea until that field depleted and shipments stopped in late 2023. Gas from the Barossa field, co-owned by Santos, SK E&S and JERA, now feeds the plant, and the first cargo from the restarted plant was loaded in January 2026. At East Arm, beside the port, Vopak Terminal Darwin operates as an independent import and distribution terminal for clean petroleum products, biodiesel and sulphuric acid, in tanks ranging from 250 to 18,000 cubic metres. The table sets out where each facility stands and what its register has to answer."
+      ],
+      "table": {
+        "head": ["Facility", "Where it stands in late 2026", "What the RBI register has to answer"],
+        "rows": [
+          ["Ichthys LNG onshore plant, Bladin Point", "Producing since July 2018 with two trains, plus LPG and product storage", "Whether eight years of inspection data now support intervals based on measured rather than assumed rates"],
+          ["Darwin LNG, Wickham Point", "Restarted in January 2026 on Barossa gas after a pause from late 2023", "What the lay-up did, what the restart inspections showed and how the new feed changes treating and cold service"],
+          ["Vopak Terminal Darwin, East Arm", "Independent terminal for clean petroleum products, biodiesel and sulphuric acid", "Which tanks to take out of service first across products with very different damage and consequence"],
+          ["Offshore production and export pipelines", "Ichthys offshore facilities and the Barossa supply system", "Outside this page, but feed composition and liquids quality set damage rates onshore"]
+        ]
+      }
+    },
+    {
+      "id": "darwin-dlng-restart",
+      "h": "Darwin LNG: a register that has to start again",
+      "p": [
+        "A plant that stands without feed for two years and then restarts has had two lives, and the inspection record from the first does not automatically carry into the second. What happened to each item in between depends on how it was preserved: whether systems were kept dry under nitrogen, filled with treated water or simply drained, whether insulation stayed weathertight through two wet seasons, and whether cathodic protection on tanks and buried lines stayed energised. The RBI study starts by establishing, system by system, which of those conditions held and for how long.",
+        "The restart inspection record is the second input. Whatever was opened, tested, replaced or repaired before the plant came back establishes a fresh condition for those items, and the readings taken then become the baseline for the next set of corrosion rates. Items that were not examined before restart keep their pre-pause history only where the lay-up record shows that the conditions able to damage them did not occur; where the record is silent, the study treats their condition as uncertain and brings their next inspection forward.",
+        "Then there is the new feed. Barossa gas comes from a different reservoir from Bayu-Undan, and its composition sets the load on the inlet facilities, acid gas removal, dehydration and mercury removal, and through them the protection of the cold end. The damage mechanism review for those units is redone against the Barossa feed analysis, operating limits are proposed for the composition variables that drive their damage, and a shift in feed beyond the range assumed is listed as a reassessment trigger."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+        ["/standards/api-584", "API 584 integrity operating windows"]
+      ]
+    },
+    {
+      "id": "darwin-ichthys",
+      "h": "Ichthys: from design assumptions to measured rates",
+      "p": [
+        "When a plant starts up, its first RBI intervals are necessarily built on design corrosion allowances, predicted damage mechanisms and a single set of baseline measurements. That is a cautious starting point, as it should be. By its eighth year of production a plant of this kind normally holds repeat thickness surveys, turnaround inspection reports, operating window histories and a record of which predicted mechanisms have and have not appeared.",
+        "The useful work at this stage is to let the evidence replace the assumptions. Where repeat readings at stable locations show low and consistent rates, measured rates take over from design allowances and intervals can lengthen within code limits. Where readings scatter, locations have moved, or a mechanism has appeared that the design did not expect, the study says so and holds those items to shorter intervals or better techniques. Each change is traced to the data that justified it, so the person approving it sees the evidence rather than just a new date.",
+        "Two trains of one design also allow comparison. Equipment that degrades faster in one train than in its twin often points to a difference in operation, flow distribution or insulation condition that a single-train plant could never reveal, and the study looks for such differences before it averages anything across the pair."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"]
+      ]
+    },
+    {
+      "id": "darwin-cold",
+      "h": "LPG, the cold end and the wet season",
+      "p": [
+        "Ichthys makes LPG as well as LNG, which puts LPG storage and loading equipment into the register alongside the cryogenic trains. Whether that gas is held refrigerated or under pressure, carbon steel in LPG service can be cooled below its design temperature during depressurisation, when auto-refrigeration takes it towards the range where it turns brittle. The study ties minimum design metal temperatures, blowdown studies and the records of any cold excursions to the items they affect, so that brittle fracture is assessed where it is credible instead of everywhere or nowhere.",
+        "At the cold end of both LNG plants the familiar register entries apply, but Darwin's climate sharpens one of them. Humid air reaching a cold surface through a damaged vapour barrier condenses and freezes, and in the wet season the supply of moisture is practically unlimited. Cold insulation is therefore ranked on the condition of its vapour barrier and jacketing, the number of penetrations and supports along each run and the age of the system, and warm-to-cold transitions are listed for inspection by name rather than left to a general walkdown."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"]
+      ]
+    },
+    {
+      "id": "darwin-east-arm",
+      "h": "East Arm: fuel, biodiesel and sulphuric acid in one terminal",
+      "p": [
+        "A terminal that stores clean petroleum products, biodiesel and sulphuric acid carries three different kinds of tank risk. Petrol, diesel and jet fuel tanks are driven by water bottoms, soil-side floor corrosion, roof and seal condition and the quality of earlier floor scans. Biodiesel takes up water and supports microbial growth, so bottoms and low points can corrode faster than in mineral diesel service, and the product's tendency to degrade puts weight on drainage and housekeeping records. Concentrated sulphuric acid is kept in carbon steel only within limits on strength, temperature and flow; dilution by moisture and flow along shells and nozzles cause the grooving and local attack that an acid tank plan has to look for.",
+        "Consequence differs as much as probability. A fuel release is a fire and environmental hazard, an acid release a corrosive and environmental one with different response needs, and all of them sit beside a working port and harbour waters. The study ranks every tank on its own product and position. For hydrocarbon tanks it uses API 653's risk-based route for out-of-service intervals, which requires the assessment to be validated and reviewed at least every ten years, while acid tanks follow the owner's procedure and the materials guidance for acid storage."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "darwin-climate",
+      "h": "Monsoon tropics: wet season, build-up, cyclones and dust",
+      "p": [
+        "Two seasons matter to steel in Darwin. The wet season, roughly November to April, brings monsoon rain, very high humidity and thunderstorms, and the build-up months before it are hot and heavy. The dry season that follows is warm, sunny and dusty. Insulated equipment spends months in the conditions corrosion under insulation favours, coatings degrade quickly under heat and strong sunlight, and salt from the harbour and the sea beyond reaches pipe racks, tank shells and jetty structures.",
+        "Northern Australia's cyclone season falls within the wet season, and a severe cyclone can load tank roofs, tall columns and flare structures, drive rain into insulation and enclosures, overwhelm bunds and roof drains and push storm surge towards low-lying shore equipment. The plan carries a storm response written before the season starts: the items most exposed at the site, the order in which they are checked and the finding on each that reopens its assessment. Routine due dates are confirmed only once the post-storm results are in the model. Dry-season dust is a lesser but real factor, settling on insulation and coatings and holding moisture against them once the rains return."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"]
+      ]
+    },
+    {
+      "id": "darwin-distance",
+      "h": "Distance as an input to the plan",
+      "p": [
+        "Darwin is thousands of kilometres from the industrial supply bases of eastern and southern Australia. Specialist inspectors, scaffolding contractors, spare parts and replacement equipment often travel a long way, and mobilising them takes planning, so intrusive inspection is usually bundled into planned shutdowns rather than spread through the year."
+      ],
+      "list": [
+        "On-stream techniques are favoured where they can deliver the inspection effectiveness an item needs, so fewer items have to wait for a shutdown.",
+        "Intrusive inspections are grouped by shutdown and by access, so that one scaffold or one opened circuit serves several items.",
+        "Long-lead replacements that a likely finding would require are identified early, so a shutdown is not extended waiting for parts.",
+        "Items whose inspection depends on a specialist technique are flagged, so the owner can secure that capability before the shutdown instead of discovering the gap during it.",
+        "Inspection due dates are aligned with the planned shutdown calendar where the risk allows, and the plan states where it does not."
+      ],
+      "links": [
+        ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+        ["/inspection/ndt-inspection-services/advanced-ndt", "Advanced NDT techniques"]
+      ]
+    },
+    {
+      "id": "darwin-rules",
+      "h": "Northern Territory safety law and the safety case",
+      "p": [
+        "Onshore plants in Darwin are regulated by NT WorkSafe under the Work Health and Safety (National Uniform Legislation) Act 2011 and its Regulations, the Territory's version of the national model laws. An operator must notify NT WorkSafe when hazardous chemicals on site exceed ten per cent of the threshold quantity in Schedule 15 of the Regulations; for LP gas, for example, that means notification at 20 tonnes against a 200-tonne threshold. A site that is determined to be a major hazard facility must be licensed, and its safety case must show that the control measures for its major incident risks are adequate.",
+        "The national model also provides for registration of higher-hazard boilers and pressure vessels, and AS/NZS 3788 remains the Australian benchmark for in-service inspection, revised in its 2024 edition with changes to its risk-based inspection requirements. The study is written so that its consequence cases match the major incidents in the safety case and so that each interval's basis can be shown to an NT WorkSafe inspector or an insurer. Offshore facilities in Commonwealth waters answer to NOPSEMA, the national offshore regulator, under their own safety cases, and the register marks the point at which the onshore regime takes over."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/australia", "RBI in Australia"]
+      ]
+    },
+    {
+      "id": "darwin-study",
+      "h": "Running the study on Australian Central time",
+      "p": [
+        "Darwin keeps Australian Central Standard Time, nine and a half hours ahead of UTC, all year, with no daylight saving. That puts it four hours ahead of Hyderabad and fourteen and a half or fifteen and a half hours ahead of Houston depending on the US season. Workshops sit in the Darwin early afternoon, which is the Hyderabad morning, and short follow-up calls with Houston fall early in the Darwin day, in the Houston late afternoon of the day before.",
+        "The data request for an LNG plant here goes beyond drawings, datasheets, manufacturer's data reports and inspection history. It adds lay-up and preservation records, restart inspection reports, feed gas analyses, cold box and LNG tank monitoring records, blowdown and minimum design metal temperature studies, cyclone and storm damage reports and the safety case's list of major incidents. Workshops bring together the people who run, treat and inspect the plant, and risk is worked at the level the scope needs, from a qualitative screen to a quantitative API RP 581 assessment or the operator's own RBI standard.",
+        "The study is delivered remotely and needs no travel to Darwin. Walkdowns, insulation and vapour barrier surveys, post-storm checks and any readings the data-gap log asks for are carried out by your own inspectors or the inspection contractor you already use, and their results are loaded into the register as they arrive."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]
+      ]
+    },
+    {
+      "id": "darwin-approval",
+      "h": "Who decides",
+      "p": [
+        "The competent person named in your inspection procedure accepts each interval, inside a safety management system that NT WorkSafe oversees and your insurer reviews. The study supplies the basis, the code limits respected and the triggers for reassessment, including a feed change, an operating window excursion, a severe cyclone or a long outage. Atlantis does not act as inspector of record, and where inspection finds damage that needs an assessment of continued operation, that engineering stays with the owner's engineers."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "AS/NZS 3788:2024 (pressure equipment, in-service inspection)",
+    "Work Health and Safety (National Uniform Legislation) Act 2011 and Regulations 2011 (NT)"
+  ],
+  "deliverables": [
+    "Revalidated register for equipment returning from lay-up, with preservation and restart evidence recorded per item",
+    "Feed-case damage mechanism review for inlet, treating, dehydration and mercury removal units",
+    "Measured-rate review replacing design allowances where repeat data support it",
+    "Tank ranking across fuel, biodiesel and sulphuric acid service",
+    "Pre-season storm response and post-cyclone inspection list",
+    "Inspection plan per item with technique, coverage, effectiveness and due date, aligned with the shutdown calendar",
+    "Data-gap log and verification list for the owner's inspectors"
+  ],
+  "industries": [
+    "LNG liquefaction and export",
+    "LPG storage and loading",
+    "Fuel import and distribution terminals",
+    "Biodiesel and acid storage",
+    "Gas treating"
+  ],
+  "faqs": [
+    { "q": "Can inspection history from before the 2023 to 2026 pause still be used?", "a": "Partly. Readings taken before the pause describe the steel as it was then, but whether they describe it now depends on the lay-up record and on what the restart inspections found. Where preservation held and no damaging condition occurred, the history carries forward; where the record is silent, the study treats the item's condition as uncertain and schedules early inspection to re-establish it." },
+    { "q": "Does a change of feed gas from Bayu-Undan to Barossa need a new study?", "a": "The units that treat the gas need a fresh damage mechanism review against the Barossa feed analysis: inlet facilities, acid gas removal, dehydration and mercury removal, and through them the cold end they protect. Units whose conditions have not changed can be revalidated rather than rebuilt. The study separates the two, so effort goes where the feed has actually changed the risk." },
+    { "q": "Ichthys has produced since 2018. Can its intervals be extended now?", "a": "Where the evidence supports it. Repeat measurements at stable locations, turnaround findings and operating window records can justify replacing design corrosion allowances with measured rates, and intervals can then lengthen within code limits. Items with scattered data, moved locations or unexpected mechanisms stay on shorter intervals or get better techniques, and every change is traced to the data behind it." },
+    { "q": "How are cyclones handled in the plan?", "a": "Through a storm response agreed before each wet season. It names the items most exposed to wind, rain and surge at the site, the order in which they are checked and the finding on each that reopens its assessment. Damaged items are reassessed individually, and routine dates are confirmed only after the post-storm results have been loaded into the model." },
+    { "q": "Is sulphuric acid storage treated like fuel storage?", "a": "No. Its probability depends on acid strength, temperature, flow along shells and nozzles and any moisture that dilutes it, and its damage appears as grooving and local attack rather than the floor corrosion that drives fuel tanks. Its consequence is corrosive rather than flammable. The study ranks it on those terms and follows the owner's procedure and acid storage guidance for its intervals." },
+    { "q": "Which regulator does an onshore RBI programme in Darwin answer to?", "a": "NT WorkSafe, under the Work Health and Safety (National Uniform Legislation) Act 2011 and Regulations. Sites holding hazardous chemicals above a tenth of the Schedule 15 threshold must notify it, and major hazard facilities must be licensed and keep a safety case showing their controls are adequate. Offshore facilities in Commonwealth waters answer to NOPSEMA, and the register marks which regime governs each item." },
+    { "q": "Does the study need anyone to travel to Darwin?", "a": "No. The study runs remotely from a data room and video workshops. Field work such as walkdowns, vapour barrier and insulation surveys, post-cyclone checks and extra thickness readings is done by your own inspectors or your inspection contractor working from a written list, and their findings update the register as they come in." },
+    { "q": "Who signs off the intervals?", "a": "The competent person your inspection procedure names. The study proposes each interval with its reasoning, the code limits it respects and the events that would reopen it; it does not approve intervals, and decisions on continued operation after damage is found stay with your engineers, who also decide what returns to service after a long outage." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
+    ["/inspection/risk-based-inspection/gladstone", "RBI in Gladstone"],
+    ["/inspection/risk-based-inspection/kwinana", "RBI in Kwinana"],
+    ["/inspection/risk-based-inspection/brisbane-lytton", "RBI in Brisbane and Lytton"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Ichthys LNG: onshore process facilities at Bladin Point near Darwin; two LNG trains; up to 9.3 Mt LNG and 1.65 Mt LPG per year; product storage tanks; 890 km gas export pipeline; Ichthys Explorer CPF and Ichthys Venturer FPSO; INPEX operator with 67.82%; production commenced July 2018", "url": "https://www.inpex.com.au/projects/ichthys-lng/" },
+    { "fact": "Darwin LNG (Santos) resumed shipments with its first Barossa cargo in January 2026; shipments had stopped in late 2023 as the Bayu-Undan field depleted; Barossa co-owned by Santos, SK E&S and JERA", "url": "https://www.gasprocessingnews.com/news/2026/01/darwin-lng-resumes-shipments-with-first-cargo-on-kool-blizzard-tanker/" },
+    { "fact": "First cargo from the restarted Darwin LNG plant loading in January 2026 (22 January 2026)", "url": "https://www.offshore-technology.com/news/santos-2026-production-uptick-dlng-pikka/" },
+    { "fact": "Darwin LNG facility located at Wickham Point (NT EPA public environmental report for the Darwin 10 MTPA LNG facility at Wickham Point)", "url": "https://ntepa.nt.gov.au/_resources/documents/eia/darwin-10-mtpa-lng-facility-wickham-point/phillips-darwin10mtpa-lng-facility-public-environmental-report.PDF" },
+    { "fact": "Vopak Terminal Darwin at East Arm (780 Berrimah Road); large independent petroleum import and distribution terminal; clean petroleum products, biodiesel and sulphuric acid; tank sizes 250 to 18,000 m3", "url": "https://www.vopak.com/terminals/vopak-terminal-darwin" },
+    { "fact": "NT major hazard facilities: notify NT WorkSafe where hazardous chemicals exceed 10% of the Schedule 15 threshold quantity of the WHS (National Uniform Legislation) Regulations 2011 (LP gas: 20 t notification, 200 t threshold); MHFs licensed; safety case must demonstrate adequacy of control measures for major incident risks", "url": "https://worksafe.nt.gov.au/safety-and-prevention/major-hazard-facilities" },
+    { "fact": "NT MHF licence under the Work Health and Safety (National Uniform Legislation) Act 2011 and Regulations 2011, administered by NT WorkSafe", "url": "https://ablis.business.gov.au/service/nt/licence-to-operate-a-major-hazard-facility/46217" },
+    { "fact": "AS 3788:2024 revised inspection requirements including risk-based inspection; re-designated AS/NZS 3788:2024", "url": "https://www.intertekinform.com/preview/1569218984991.pdf" }
+  ]
+}
