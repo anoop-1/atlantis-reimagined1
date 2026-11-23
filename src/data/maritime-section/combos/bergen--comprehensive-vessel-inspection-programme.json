@@ -1,0 +1,139 @@
+{
+  "port": "bergen",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Bergen | Owner's CAS/CAP for Offshore & Coastal Fleets",
+  "description": "CVIP in Bergen: an owner's CAS/CAP-style programme for supply vessels, shuttle tankers and coastal ships, run through base calls, lay-up and reactivation.",
+  "h1": "Comprehensive Vessel Inspection Programme in the Bergen Region: an Owner's Condition Assessment That Follows Offshore Vessels Through Charters, Lay-Up and Reactivation",
+  "intro": "Around Bergen, ships are inspected to the rhythm of the offshore market and the coastal seasons rather than daily cargo. Supply vessels and anchor handlers return to Coast Center Base at Ågotnes between charters, some lie idle in the western fjords when North Sea activity drops, and ferries, coastal express ships and well boats take their maintenance off-season. CVIP, our Comprehensive Vessel Inspection Programme, is what owners ask for as an owner's CAS or owner's CAP: a whole-vessel assessment shaped like the official schemes, carried out for their own requirement, with a baseline and repeat visits that continue whatever the vessel is doing. Teams travel from India for each visit.",
+  "highlights": [
+    {
+      "h": "Base calls at Ågotnes as visits",
+      "p": "Platform supply vessels and anchor handlers come back to Coast Center Base between charters, where quay access, cranes and tank-cleaning services are at hand. Programme tank and deck rounds are timed to those calls, when mud and brine tanks are being cleaned for the next job in any case."
+    },
+    {
+      "h": "Lay-up years kept on record",
+      "p": "A vessel idle in a fjord keeps corroding, often faster in stagnant ballast and sea-water systems. Programme visits during lay-up follow that change at the same marked points, so reactivation begins from measured condition rather than from the last report filed before she was laid up."
+    },
+    {
+      "h": "Evidence for shelf operators",
+      "p": "Operators on the Norwegian continental shelf add verification steps of their own on top of class. A multi-year owner's record of hull, deck, tanks and machinery gives the owner measured evidence to put forward in those audits and in charter tenders."
+    }
+  ],
+  "sections": [
+    {
+      "id": "bergen-visit-settings",
+      "h": "Where around Bergen an owner's condition assessment can be carried out",
+      "p": [
+        "Programme visits in the region follow the vessel to wherever she is spending time, and the setting decides which modules can be taken on a given visit:"
+      ],
+      "list": [
+        "Coast Center Base, Ågotnes: supply vessels and anchor handlers between charters, with tanks cleaned through the base's services, decks clear of cargo and cranes for heavier kit",
+        "Lay-up moorings in the western fjords: idle offshore vessels reached by boat, with the owner's lay-up crew preparing the spaces the team enters",
+        "Fjord repair and conversion yards: reactivation and docking visits that add the dry hull, sea chests, thruster tunnels and staged tanks to the record",
+        "Mongstad and Sture: shuttle and crude tankers alongside, with deck, void-space and ballast work wherever the terminal and master give approval",
+        "Bergen city quays: the coastal express fleet and visiting cruise ships, either on a call or tied up for winter maintenance, for engine-room pipework and deck readings"
+      ]
+    },
+    {
+      "id": "programme-through-the-cycle",
+      "h": "Running one programme through charter, lay-up and reactivation",
+      "p": [
+        "North Sea activity rises and falls, and offshore fleets move with it: on hire, laid up, reactivated in batches, back on hire. Most inspection around Bergen is bought at one of those turning points and filed away. A programme keeps the same plan, points and report format running across all of them, so each phase is measured against the one before. The table shows what a typical offshore programme records in each phase."
+      ],
+      "table": {
+        "head": ["Phase of the offshore cycle", "What the programme measures", "Why it matters later"],
+        "rows": [
+          ["On charter, calling at the base", "Mud, brine and base-oil tanks once cleaned, cargo deck plating and rails, machinery under working load", "Shows how quickly the working spaces wear while the vessel is earning"],
+          ["Going into lay-up", "A full baseline of tanks, sea-water lines, fire main and machinery before systems are shut down", "Fixes the condition the owner will compare against when the market turns"],
+          ["During lay-up", "Ballast tanks, chain lockers and stagnant sea-water systems at the same points, with coating breakdown photographed", "Measures what idle time has cost, tank by tank"],
+          ["Reactivation at a yard", "The dry hull, sea chests and thruster areas, every system coming back into service, crack detection at towing and lifting foundations", "Sets the steel, pipe and crack-repair list before the vessel goes back on hire"],
+          ["Back on charter", "The recurring base-call checks resume on both renewed and original steel", "Gives the next charterer a continuous, measured history"]
+        ]
+      }
+    },
+    {
+      "id": "osv-modules",
+      "h": "What the programme watches on supply vessels and anchor handlers",
+      "p": [
+        "Liquid mud, brine and base oil are hard on tank coatings, and once a coating fails the steel behind it wastes quickly. On a platform supply vessel those tanks are the heart of the structural module: rated for coating at fixed viewpoints, gauged at numbered points on bottom, sides and internals, and compared visit by visit. Cargo deck plating where pipe and equipment are landed, the cargo rails and the deck around them follow. On anchor handlers the stern roller structure, chain lockers and the foundations of the towing and anchor-handling winches are added, with magnetic particle inspection at the welds that carry the heaviest loads; those results are the owner's NDT records and close no condition of class.",
+        "Dynamic positioning puts heavy reliance on generators, thrusters and switchboards, so the machinery module on these vessels is more than a courtesy. Vibration readings are taken at the same bearing positions on thruster drives, generators and key pumps with the load recorded, and switchboards and motor control centres are imaged by qualified thermographers while the vessel's systems carry load. A bearing frequency that climbs between base calls is reported to the chief engineer before it becomes a failure offshore."
+      ]
+    },
+    {
+      "id": "owners-cas-cap",
+      "h": "Owner's CAS and owner's CAP for offshore and coastal ships in the Bergen region",
+      "p": [
+        "Offshore and coastal owners borrow the names owner's CAS and owner's CAP from the tanker world when they want an assessment of that depth for vessels the official schemes were never written for. CVIP gives them the pattern those schemes share: a plan built from the vessel's drawings and class records, close-up examination, gauging at defined positions, graded coatings, machinery assessed and a single report on the whole vessel. The owner orders it, sets its purpose and keeps everything it produces.",
+        "Shuttle tankers serving the shelf are the exception where the official scheme matters directly. Their long charters to oil companies bring strict vetting, and as they approach their third renewal survey a class CAP is often requested. The society grants that rating after surveying the ship itself, just as the IMO Condition Assessment Scheme, written for older tankers, ends with a document from the flag; CVIP awards neither. What the programme does is show the owner beforehand which tanks and sections would hold a rating back.",
+        "Gauging taken on programme visits is the owner's evidence and nothing more. Class credits thickness measurement under IACS UR Z17 from firms its own society has approved; Atlantis is preparing for UR Z17 audits by DNV, Lloyd's Register and ABS, and none of those societies has certified it so far, so these readings guide steel, docking, reactivation and charter decisions rather than a class survey."
+      ]
+    },
+    {
+      "id": "coastal-seasonal",
+      "h": "Well boats, fjord ferries and coastal express ships: programmes timed to the off-season",
+      "p": [
+        "On a well boat, seawater flows through the fish holds and their pipework for most of the vessel's working life, and the holds, sea chests and circulation lines see constant wetting and cleaning chemicals. A programme visit at each yard stay gauges those areas at fixed points and checks pump and valve foundations for cracks, so the owner can see wear accelerating before a leak takes the vessel out of service in the middle of a season.",
+        "Many fjord ferries have been converted to battery-electric or hybrid drive, and those conversions added foundations and penetrations to older hulls. The programme numbers them as new points at the next visit, alongside car-deck plating, ramps and the shell at the waterline. Coastal express ships, which start their northbound route at Bergen, and the cruise ships that use the city quays in summer, are visited during their yearly maintenance outside the main season, when machinery spaces can be opened and equipment run at the load the readings need."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning Bergen visits: Flesland, base inductions, boat access and west-coast weather",
+      "p": [
+        "The team arrives at Bergen Airport, Flesland, through one of the European hubs and reaches Sotra, the coastal yards or the terminals at Mongstad and Sture by road. Supply bases and terminals are ISPS facilities with their own inductions, booked through the agent or the vessel operator; a lay-up mooring needs a boat, which the owner or agent arranges. Norway sits inside Schengen, which means a visa application in India for every technician, and the earlier an owner shares a reactivation plan, the less the visa timetable governs the start date.",
+        "Rain and wind are frequent on this coast. Open-deck work is planned around them, while tank, chain locker and machinery-space work carries on regardless, and each visit lists which modules can wait for a drier day. To set up a programme for an offshore fleet, a shuttle tanker or a coastal vessel, email info@atlantisndt.com with the vessel list and her expected movements, or use the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Platform supply vessels",
+    "Anchor-handling tug supply vessels",
+    "Subsea construction vessels",
+    "Shuttle tankers serving the Norwegian shelf",
+    "Well boats and aquaculture service vessels",
+    "Fjord ferries, including battery-hybrid conversions",
+    "Coastal express ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys, governing offshore support vessels outside the ESP",
+    "IACS UR Z10.4 – ESP hull surveys for double-hull oil tankers, shuttle tankers included",
+    "ISO 20816-1 – Evaluating machine vibration measured on bearings and casings",
+    "ISO 18434-1 – Condition monitoring of machines by infrared thermography",
+    "ASTM E709 – Magnetic particle examination, applied to welds and foundations",
+    "The vessel's own classification society rules for offshore service vessels"
+  ],
+  "deliverables": [
+    "Cycle plan placing visits at base calls, lay-up checks, reactivation and yard stays",
+    "Lay-up condition log showing change in idle tanks and sea-water systems",
+    "Reactivation list of steel, pipe and crack repairs agreed before the vessel returns to hire",
+    "Thruster, generator and switchboard condition trends for vessels that rely on dynamic positioning",
+    "Visit reports in one format that a charterer's or operator's auditor can follow",
+    "Owner-held data files covering every reading since the baseline"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Bergen CVIP the same as CAS or CAP?",
+      "a": "It follows their method without carrying their authority. The programme plans, examines, gauges, rates coatings and assesses machinery across the whole vessel, which explains why offshore owners use the owner's CAS or CAP label, yet the owner commissions and holds it. No society rating and no flag Statement of Compliance result from it, so a charterer who requires a class CAP still needs one booked with class."
+    },
+    {
+      "q": "Is it worth inspecting a vessel while she is laid up?",
+      "a": "Yes, because idle vessels do not stand still. Stagnant water and reduced cathodic protection speed up corrosion in ballast tanks, drill-water tanks, chain lockers and sea-water lines. Visits during lay-up measure that change at the baseline points, so the owner can rank vessels for reactivation and arrives at the yard with a repair list based on readings, not assumptions."
+    },
+    {
+      "q": "Can programme visits fit a supply vessel's turnaround at Coast Center Base?",
+      "a": "They can, if the tanks due on that visit are cleaned and certified as part of the turnaround. Deck plating, cargo rails and the machinery module fit alongside cargo work, and the tank round follows the cleaning sequence. The plan names the tanks for each base call in advance, so the vessel operator can book cleaning that suits both the next charter and the programme."
+    },
+    {
+      "q": "Does the programme cover shuttle tankers at Mongstad or Sture?",
+      "a": "Partly at the terminals and fully at the yard. Alongside, deck structure, void spaces and ballast tanks can be included when the master and terminal permit it, and machinery can be read while it works. Cargo tanks need to be gas-free, so they are measured during a planned off-hire period or a yard stay in the region, under the same point numbering."
+    },
+    {
+      "q": "How are battery-hybrid ferry conversions handled in the record?",
+      "a": "As additions to the baseline. New foundations for battery rooms and equipment, and new penetrations through decks and bulkheads, are photographed, numbered and measured on the visit after the conversion. From then on they are trended like any original detail, so the owner can see whether the modified structure is behaving as expected through the following seasons."
+    },
+    {
+      "q": "Will the programme record help in a shelf operator's audit or a charter tender?",
+      "a": "It often does, because operators on the Norwegian shelf ask owners to show documented structural condition beyond class status. A record that shows hull, tank and machinery condition over several years, in one consistent format, answers those questions directly. Whether a particular operator accepts it as part of its own verification is for that operator to decide, so check their requirements early."
+    }
+  ]
+}

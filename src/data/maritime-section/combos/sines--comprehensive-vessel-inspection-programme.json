@@ -1,0 +1,139 @@
+{
+  "port": "sines",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Sines | Owner's CAS/CAP for Transhipment & Energy Ships",
+  "description": "CVIP at Sines: an owner's CAS/CAP-style programme fitted to Terminal XXI transhipment calls, tanker and LNG anchorage waits and the docking at Setúbal.",
+  "h1": "Comprehensive Vessel Inspection Programme at Sines: an Owner's Condition Assessment Timed to Fast Terminal Calls, Atlantic Anchorage Waits and the Docking at Setúbal",
+  "intro": "Ships at Sines rarely stay long. Container ships on deep-sea and transhipment loops work to tight crane windows at Terminal XXI, and crude tankers, product tankers and LNG carriers berth, cargo and sail from the energy terminals. Many of them come back on a regular pattern, and a pattern is what a programme needs. CVIP, our Comprehensive Vessel Inspection Programme, is the whole-ship assessment that superintendents at Sines tend to call an owner's CAS or owner's CAP: built like the official schemes, applied to the owner's own requirement, built up from short visits at Sines and closed out at the docking. Technicians travel from India for every visit.",
+  "highlights": [
+    {
+      "h": "Tank state decides the visit",
+      "p": "A crude tanker or LNG carrier arriving laden at Sines has empty ballast tanks, while a product tanker loading at the refinery berths arrives with them full. The programme schedules ballast-tank modules around those states, so tanks are entered when they are already empty rather than emptied for us."
+    },
+    {
+      "h": "Brief calls, one continuous record",
+      "p": "A large container ship cannot be assessed in a single Terminal XXI call. The programme divides her into zones and covers one per visit, repeating the scrubber, sea-water and machinery checks every time, so that a picture of the whole ship builds up over a loop of calls."
+    },
+    {
+      "h": "A scrubber trend before 2028",
+      "p": "From September 2028 ships approaching mainland Portugal must meet the new North-East Atlantic ECA's 0.10% sulphur cap. Wash-water and overboard lines measured at every programme visit now give scrubber-fitted ships a measured wall-loss trend before ECA running begins on the approach."
+    }
+  ],
+  "sections": [
+    {
+      "id": "sines-windows",
+      "h": "Which Sines terminals and waits can carry a programme visit",
+      "p": [
+        "Sines is built around specialised terminals behind breakwaters on an open coast, and each of them offers a different slice of the ship. Terminal XXI, run by PSA Sines, gives a container ship's engine room, scrubber spaces and a prepared ballast tank or two while the cranes work. The liquid bulk terminal serving Galp's refinery allows deck, pipework and segregated ballast on crude and product tankers within its permit rules. At the REN LNG terminal, gas-safety rules keep work on board to a minimum, so the useful window for an LNG carrier usually comes earlier, at anchor. The petrochemical terminal treats chemical tankers much as the liquid bulk berths treat oil tankers, and the multipurpose terminal gives bulk carriers and general cargo ships the longest stays in the port.",
+        "Waiting time is the other resource. Ships hold at the anchorage off Sines for a berth, a cargo or orders, and that is where the longer tank rounds of a programme are done. It is an Atlantic anchorage without the shelter of an estuary, so swell and wind decide on the day whether a launch can put the team aboard, and every anchorage visit carries a list of modules that can slip to the next call without harm."
+      ]
+    },
+    {
+      "id": "tank-state-table",
+      "h": "Which tanks are empty when: matching programme visits to arrivals and departures at Sines",
+      "p": [
+        "The easiest tank to enter is one the ship has already emptied, ventilated and certified for reasons of her own. At Sines that depends almost entirely on whether the ship is arriving laden or loading, so the programme plan reads each ship's trade before it assigns modules to calls."
+      ],
+      "table": {
+        "head": ["Ship and movement", "Ballast tank state", "Where the visit fits", "Modules usually taken"],
+        "rows": [
+          ["Crude tanker arriving laden for the liquid bulk terminal", "Empty on arrival", "Anchorage wait before berthing", "Double-bottom and wing ballast tanks, deck structure, ballast pumps and switchboards"],
+          ["Product tanker loading at the refinery berths", "Full on arrival, emptied while cargo comes aboard", "Departure side, once ballast is out and tanks are certified", "Ballast tanks late in the call, deck piping, electrical thermography"],
+          ["LNG carrier arriving laden for the REN terminal", "Empty on arrival", "At anchor, with the master's agreement", "Double bottom, side ballast tanks and the inner hull read from the ballast side"],
+          ["Chemical tanker at the petrochemical terminal", "Set by the cargo plan", "Alongside, inside the terminal's permits", "Segregated ballast and deck; cargo tanks kept for a gas-free docking"],
+          ["Container ship on a Terminal XXI call", "Partly filled for trim and stability", "Alongside while the cranes work", "One structural zone, scrubber and sea-water lines, engine-room machinery"],
+          ["Bulk carrier at the multipurpose terminal", "Varies with loading or discharge", "Alongside over the longer stay", "Holds as they come clear, hatch coamings, ballast tanks"]
+        ]
+      }
+    },
+    {
+      "id": "transhipment-boxships",
+      "h": "Covering a large container ship across Terminal XXI transhipment calls",
+      "p": [
+        "On the largest container ships a single call is not enough for even a renewal-survey scope, let alone a whole-ship assessment. The programme accepts that and plans around it. The baseline is spread over several consecutive calls, each assigned a zone of the ship: forward ballast tanks and the forecastle on one, midship double-bottom and side tanks on the next, the engine room, steering gear and aft peak on another. Hatch coamings and deck longitudinals are added in whichever bays the stowage leaves clear. Every call also repeats the short recurring list, so the machinery and scrubber trends gain a reading each time the ship comes in.",
+        "This suits tonnage providers whose ships are on long charters to liner companies. The owner seldom gets the ship back for inspection between dockings, but the charterer's rotation brings her to Sines again and again, and each call adds measured evidence to the owner's record without asking the charterer for a minute of extra port time. When the charter ends, the redelivery condition can be compared with the condition at the start of the programme rather than argued from photographs."
+      ]
+    },
+    {
+      "id": "owners-cas-cap",
+      "h": "Owner's CAS and owner's CAP for tankers and LNG carriers calling at Sines",
+      "p": [
+        "Tanker managers whose ships discharge or load at Sines often ask for an owner's CAS or owner's CAP, meaning a structural assessment of class-scheme depth that they commission, time and keep. CVIP provides it: a plan prepared from drawings, class history and the last gauging report, close-up examination following that plan, gauging at fixed numbered locations, coatings graded, machinery assessed and one report covering the whole ship. Double-hull oil tankers and chemical tankers at the energy terminals are ESP ships, so the programme sets its points with the UR Z10.4 or Z10.3 survey extents in view, which makes later comparison with class gauging straightforward.",
+        "It remains the owner's assessment. A class Condition Assessment Programme, which charterers commonly look for once a tanker passes about fifteen years, ends in a rating that the society issues after its own survey, while the IMO's Condition Assessment Scheme is concluded by the flag with a Statement of Compliance; CVIP yields neither document. For LNG carriers and container ships, which sit outside the ESP regime, an owner's assessment of this kind is often the most thorough structural record the ship carries between renewal surveys.",
+        "The gauging is held to the same line. Under IACS UR Z17 a society will accept thickness measurement towards its surveys from firms it has approved, and from no one else. Atlantis has begun the UR Z17 approval route with DNV, Lloyd's Register and ABS and has not yet been issued a certificate by any of them, so readings taken at Sines inform the owner's steel, docking and chartering decisions and are kept apart from the class record."
+      ]
+    },
+    {
+      "id": "eca-timeline",
+      "h": "Scrubber lines on the way to the North-East Atlantic ECA",
+      "p": [
+        "The Alentejo coast has no sulphur ECA today. That changes with the North-East Atlantic designation, which enters into force on 1 September 2027, and its 0.10% limit starts to apply in mainland Portuguese waters in September 2028. Container ships and tankers with scrubbers will then run them in ECA mode on the approach to Sines or switch fuel. A programme gives the owner a measured basis for deciding which lines to renew before that happens:"
+      ],
+      "list": [
+        "Baseline: wall thickness at marked positions on wash-water, overboard and drain lines, and on the shell plating around each outlet where it can be reached from inside",
+        "Each later Sines visit: the same positions read again, giving a wall-loss rate for every line rather than a single snapshot",
+        "The last docking before the limit applies: lines whose rate predicts renewal before the following docking are replaced, and the new pipe becomes a fresh baseline",
+        "Once ECA running starts: the trend continues on the lines left in service, now under the duty they will carry for the rest of the ship's trading on this coast"
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning Sines visits: Lisbon or Faro, Atlantic swell, Schengen visas and the Setúbal yard",
+      "p": [
+        "The team flies into Lisbon and drives south to Sines, or comes through Faro when routings suit. Gate passes, safety inductions at whichever Sines terminal the ship is using, and the launch for anchorage visits are all booked by the ship's agent; boarding times there are confirmed close to the day because the weather on an open coast moves quickly. Technicians hold Schengen visas issued in India, normally supported by an invitation letter from the owner or the agent, so the programme calendar is shared with us as soon as the ship's pattern of calls is known.",
+        "Sines has no repair yard, and the programme's dry-hull checkpoint is usually the ship's docking at Lisnave's Mitrena yard at Setúbal, up the coast, or at a yard in Spain or further afield. A pre-docking round at Sines turns the trend into a renewal outline that reaches the yard before it writes its estimate; the team then joins the ship in dock to add the bottom and sea chests, and re-measures renewed steel before she sails. Owners can start a Sines programme by writing to info@atlantisndt.com with the ship's trade and docking plan, or through the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Mainline and transhipment container ships at Terminal XXI",
+    "Feeder container ships on Iberian and Atlantic services",
+    "Crude tankers serving the Galp refinery",
+    "Product tankers loading refined cargo",
+    "LNG carriers supplying the REN terminal",
+    "Chemical tankers at the petrochemical terminal",
+    "Bulk carriers at the multipurpose terminal"
+  ],
+  "codes": [
+    "IACS UR Z10.4 – Hull surveys for double-hull oil tankers under the Enhanced Survey Programme",
+    "IACS UR Z10.3 – Hull surveys for chemical tankers",
+    "IACS UR Z7 – Hull classification surveys, which govern gauging for container ships and gas carriers outside the ESP",
+    "MARPOL Annex VI regulation 14 – ECA sulphur limits, including the North-East Atlantic ECA",
+    "ISO 18434-1 – Thermography for machine condition monitoring: general procedures",
+    "ASTM E797 – Manual contact pulse-echo ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Visit calendar matching each module to the tank state at arrival or departure",
+    "Zone map recording which part of each container ship every Terminal XXI call covered",
+    "Scrubber line wall-loss trend with renewal timing set against the ECA date",
+    "Pre-docking renewal outline for Lisnave at Setúbal or another yard",
+    "Visit reports in a single format, showing change since the baseline and findings ranked for action",
+    "Data files held by the owner for charterers, lenders and buyers"
+  ],
+  "faqs": [
+    {
+      "q": "Is the Sines programme the same as CAS or CAP?",
+      "a": "Not in standing, though close in method. CVIP plans, examines, gauges, grades coatings and assesses machinery across the whole ship much as the two official schemes would, hence managers call it an owner's CAS or owner's CAP. It is ordered and owned by the owner. A CAP rating comes from the society and a CAS Statement of Compliance from the flag, and the programme provides neither."
+    },
+    {
+      "q": "How many Terminal XXI calls does a large container ship's baseline take?",
+      "a": "Usually several consecutive calls rather than one, depending on the ship's size and how long each call lasts. The zones are agreed with the superintendent before the programme starts, and each call takes the next zone plus the recurring scrubber, sea-water and machinery checks. If a call is cut short, the zone carries over to the following one without disturbing the numbering."
+    },
+    {
+      "q": "Can a laden LNG carrier's programme visit be made before it berths at Sines?",
+      "a": "Yes, at anchor and with the master's consent. A laden arrival means her ballast spaces are dry, which lets the team gauge and rate the double-bottom and side tanks, and read the inner hull from that side, before she goes alongside. Work at the REN terminal itself is tightly limited by gas safety, which is why the anchorage carries this module."
+    },
+    {
+      "q": "What happens if Atlantic swell stops the launch?",
+      "a": "The visit waits for a workable window if the ship's stay allows, and otherwise the modules move to her next Sines call or another port. Each anchorage visit is planned with that possibility in mind: the modules that cannot wait are placed on berth calls, and those that can slip are kept for the anchorage. Readings already taken are reported in full."
+    },
+    {
+      "q": "Where does the programme pick up the dry hull?",
+      "a": "At the docking, most often at Lisnave's Mitrena yard at Setúbal, though the yard is the owner's choice. A pre-docking round at Sines produces the renewal outline, the team adds the bottom, sea chests and staged tanks in dock, and any plate or pipe the yard renews is gauged afresh before she floats out, giving later Sines visits a new starting value."
+    },
+    {
+      "q": "Why start measuring scrubber lines before the ECA applies?",
+      "a": "Because a corrosion rate needs at least two readings at the same point, and the decision to renew a line has to be taken at a docking. Starting now gives several readings per line before September 2028, so the owner can renew the lines that are wasting fastest at the last docking before ECA running begins, instead of discovering a leak on the approach."
+    }
+  ]
+}

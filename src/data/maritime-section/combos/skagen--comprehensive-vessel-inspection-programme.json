@@ -1,0 +1,131 @@
+{
+  "port": "skagen",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Skagen | Owner's CAS/CAP at the Skaw Anchorage",
+  "description": "CVIP at Skagen: an owner's CAS/CAP-style programme built from bunker, crew-change and waiting stops at the Skaw, for ships trading in and out of the Baltic.",
+  "h1": "Comprehensive Vessel Inspection Programme at Skagen: an Owner's Condition Assessment Assembled from the Stops Ships Make at the Entrance to the Baltic",
+  "intro": "Most ships that stop at Skagen never come alongside. They anchor off the point for bunkers, crew, stores or orders on the way into or out of the Baltic, and a ship in the Baltic trades may round the Skaw again and again within a year. CVIP, our Comprehensive Vessel Inspection Programme, turns those stops into visits. It is the owner's CAS or owner's CAP that technical departments talk about: a whole-ship condition assessment modelled on the official schemes and done for the owner, with a baseline and repeat visits feeding one record. Technicians fly in from India and board by launch from Skagen harbour.",
+  "highlights": [
+    {
+      "h": "The stop is short, the card ready",
+      "p": "A Skagen stop is usually fixed just days ahead. Each programme visit carries a prepared visit card taken from the plan, so the crew knows which tanks to empty and ventilate before the launch comes alongside, and the team spends the whole window measuring rather than waiting."
+    },
+    {
+      "h": "Older tankers under a closer eye",
+      "p": "Denmark now looks harder at ageing tankers lying at anchor off the Skaw. An owner whose hull and tank condition is measured and current at every passage can answer a boarding officer's questions from the record, and each programme stop keeps that record up to date."
+    },
+    {
+      "h": "Trawlers between the fisheries",
+      "p": "Skagen harbour is home to pelagic trawlers that lie alongside between the herring and mackerel seasons. A programme for a fishing fleet uses those gaps, and repair stays at Karstensens Skibsværft, to trend shell plating and refrigerated sea-water tanks season after season."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-the-skaw",
+      "h": "Why the Skaw suits repeat programme visits for ships trading in and out of the Baltic",
+      "p": [
+        "Every ship using the Danish straits passes the northern tip of Jutland, and a large share of them stop: barges deliver bunkers off the point, agents in the town arrange crew changes and stores at short notice, and tankers lie at anchor for orders or a cargo deal. For an owner whose ships trade regularly to Baltic ports, those stops recur. A programme built on them needs no extra port days; it uses time the ship is already spending at anchor and repeats the same marked points each time she passes.",
+        "Most of these ships have no other reason to be inspected in Denmark. What prompts an owner to look closely arises far from Denmark: an outstanding item in the class file, an upcoming vetting inspection, an interested buyer, or simply the owner's own wish to know how fast the ship is changing. The plan defines a visit window for each ship instead of a date, so that whichever passage falls in the window carries the next visit."
+      ]
+    },
+    {
+      "id": "visit-card",
+      "h": "The visit card: what is measured, and in what order, on a Skagen stop",
+      "p": [
+        "Every anchorage visit has a card drawn from the programme plan and sent to the master before arrival. The order matters more than the length of the list, because an easterly or an early sailing can close the window at any moment, so the card runs from the readings the owner needs most to those that can safely roll forward:"
+      ],
+      "list": [
+        "Locations flagged at the previous visit, or by a port state or class comment since, so the main open question is answered even on a shortened stop",
+        "Machinery while the plant runs for bunkering and hotel load: vibration on pumps, purifiers and generators, thermal images of switchboards and motor control centres",
+        "Ballast tanks that the crew emptied, ventilated and certified before anchoring, entered in the sequence on the card",
+        "Deck plating, hatch coamings and air pipes on the forward deck, well away from the bunker manifold",
+        "Scrubber overboard lines, where the system is shut down for the stop",
+        "On ice-class ships bound for the northern Baltic in winter, ice-belt plating that sits above the ballast waterline",
+        "Items marked to roll forward to the next passage or the docking if time runs out"
+      ]
+    },
+    {
+      "id": "sizing-visits",
+      "h": "Matching programme visits to bunker stops, crew changes and longer waits off Skagen",
+      "p": [
+        "A bunker stop of a few hours suits the top of the card: the flagged locations, the machinery module and one or two prepared tanks. A crew change or a day waiting for orders allows a wider tank round, provided the crew empties and ventilates spaces in sequence ahead of the team. Tankers lying at anchor for several days, whether waiting for a cargo or before or after a ship-to-ship operation, can support the larger modules of a programme, including a full ballast tank round and the void spaces, so the baseline of a tanker is often taken on such a stay.",
+        "Timing on the day is the agent's craft. The launch is booked to arrive once the bunker barge is secured rather than while it is mooring, and the return trip is booked with margin. Readings are sent to the technical department as each space is finished, so if the ship sails early the owner still holds everything measured up to that point."
+      ]
+    },
+    {
+      "id": "owners-cas-cap",
+      "h": "Owner's CAS and owner's CAP for tankers lying off Skagen",
+      "p": [
+        "Owners of ageing tankers that pass the Skaw use the terms owner's CAS and owner's CAP when they want a structural and machinery assessment as thorough as the official schemes, on their own timetable and without a society or flag involved. CVIP is built that way: planned on the drawings and the last gauging report, close-up examination of the spaces on each visit card, thickness at numbered positions, coating grades, machinery readings and one report for the whole ship. The owner decides what it is for and keeps every result.",
+        "It is not a substitute for either scheme. A class Condition Assessment Programme, often requested by vetting departments for tankers in their late teens and beyond, ends with the society rating the ship after surveying her itself; the IMO Condition Assessment Scheme, now relevant to very few ships, ends in a flag Statement of Compliance. CVIP produces neither, but it tells the owner, long before a society is invited aboard, which ballast tanks and deck areas would weigh against a good rating.",
+        "Gauging on a Skagen visit is likewise the owner's own evidence. A classification society credits thickness measurement to its surveys under IACS UR Z17 when the firm holds that society's approval, and Atlantis has not yet been granted one: its applications to DNV, Lloyd's Register and ABS are moving through their audit stages. Until a certificate arrives, programme readings support steel, docking, chartering and sale decisions and stay out of the class file."
+      ]
+    },
+    {
+      "id": "trawler-programmes",
+      "h": "Pelagic trawlers in Skagen harbour: a programme timed between fisheries",
+      "p": [
+        "The harbour side of Skagen works to the fishing calendar. Pelagic trawlers landing herring, mackerel and sprat are busy while those fisheries are open and lie at their berths between them, which is when their owners plan surveys and refits. A programme for a trawler or a small fleet places a visit in each of those gaps: shell plating at the waterline and around the bow, fish holds and refrigerated sea-water tanks, which see cold seawater and cleaning for much of the year, and the pipework and pumps that serve them.",
+        "When a vessel goes into Karstensens Skibsværft for repair, the visit moves there and adds the bottom and the parts of the shell that cannot be reached afloat. Over several seasons the owner sees which tanks and plates are wasting fastest, and can plan steel renewal at a yard stay that suits the fishing year rather than reacting to a leak in the middle of one."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning Skagen visits: Aalborg, launches, easterly weather, visas and the yard after the stop",
+      "p": [
+        "The team arrives through Copenhagen or Billund on long-haul routes, then Aalborg, and continues north by train through Frederikshavn or by road. The ship's agent books the launch and handles boarding notifications, while trawler and coaster visits in the harbour use normal port access. Skagen stops are often fixed with little notice, so owners who plan to use them regularly have the technicians' Schengen visas in place for a period ahead, rather than applying once a particular stop is known. Easterly winds are the usual reason launches cannot run; when that happens the visit waits ashore if the ship's stay allows, or moves to another port.",
+        "Large merchant ships do not dock at Skagen. The programme's dry-hull checkpoint is the ship's docking wherever the owner books it, which after a Skaw passage is often Ørskov Yard in Frederikshavn or Fayard on Funen, and sometimes a Polish, German or Norwegian yard. Tank and deck readings from the Skaw become the yard's steel estimate, the shell and bottom are added in dock, and renewed steel is re-measured before she leaves. Owners whose ships use the Skaw can start a programme through info@atlantisndt.com, giving the fleet list and usual passage pattern, or with the enquiry form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude and product tankers waiting for orders or bunkering",
+    "Bulk carriers entering or leaving the Baltic",
+    "Container ships on Baltic services",
+    "Vehicle carriers",
+    "Ice-class ships bound for the northern Baltic in winter",
+    "Pelagic and demersal trawlers based in Skagen harbour"
+  ],
+  "codes": [
+    "IACS UR Z10.1 and Z10.4 – ESP hull surveys of single-hull and double-hull oil tankers",
+    "IACS UR Z10.2 – Bulk carrier hull surveys under the Enhanced Survey Programme",
+    "Finnish-Swedish Ice Class Rules – ice-strengthened hull regions, including the ice belt",
+    "MARPOL Annex VI regulation 14 – sulphur limit in the North Sea and Baltic ECA",
+    "ISO 20816-1 – Mechanical vibration, general guidelines, applied to pumps and generators",
+    "ASTM E797 – Pulse-echo contact thickness gauging practice"
+  ],
+  "deliverables": [
+    "Programme plan with visit windows tied to each ship's Baltic passages rather than fixed dates",
+    "A visit card for every anchorage stop, ranked so the critical readings are taken early",
+    "Readings sent to the office space by space during the stop, then a full visit report",
+    "Hull and ballast-tank trend kept current for vetting, port state or buyer questions",
+    "Steel estimate for the yard after the stop, keyed to programme point numbers",
+    "Hull and refrigerated sea-water tank trend for trawlers across fishing seasons"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Skagen programme the same as CAS or CAP?",
+      "a": "It shares their method, not their status. CVIP examines, gauges, grades coatings and assesses machinery to a plan across the whole ship, and Baltic traders accordingly describe it as an owner's CAS or CAP, but the owner commissions and keeps it. Neither a society's CAP rating nor a flag's CAS Statement of Compliance comes from it, so those remain with class and flag when a charterer requires them."
+    },
+    {
+      "q": "Our ships pass Skagen irregularly. Can a programme still use the stops?",
+      "a": "Yes, by planning windows rather than dates. Each ship has a period in which its next visit falls, visas are kept valid across it, and the agent tells us when the ship is due off the point. If no stop falls in the window, the visit is made at another port the ship calls at, with the same card format and point numbers."
+    },
+    {
+      "q": "Which programme readings can be taken while the ship bunkers off the Skaw?",
+      "a": "Those clear of the bunkering operation. While fuel is delivered, the team works on machinery readings, in ballast tanks prepared before anchoring, and on the forward deck, hatch coamings and air pipes. The master's permit system decides what is open. Fuel tanks and the area around the manifold are left alone until the barge has gone, then taken if time remains."
+    },
+    {
+      "q": "What if easterly weather stops the launch?",
+      "a": "The team waits ashore in Skagen if the ship expects to stay, and boards when the ladder is safe again. If she has to sail, the superintendent decides whether the visit moves to her next port or the next Skaw passage. The visit card already marks which items can roll forward, and anything measured before the weather turned is reported in full."
+    },
+    {
+      "q": "Can a tanker waiting before or after a ship-to-ship transfer be visited?",
+      "a": "Yes, before or after the operation but not during it, when the crew is fully occupied under strict cargo safety controls. At anchor the programme covers segregated ballast tanks, void spaces, deck structure and machinery, as the master and the safety management system allow. Cargo tanks remain shut on these visits unless washing and gas-freeing have already made them safe to enter."
+    },
+    {
+      "q": "Where is the dry hull covered for ships that stop at Skagen?",
+      "a": "At the ship's next docking, since Skagen has no dock for merchant ships. Frederikshavn, Funen and yards in Poland, Germany and Norway are common choices after a Skaw passage. Anchorage readings become the steel estimate, the team adds the shell and bottom in dock, and renewed plating is gauged again so that later Skagen visits compare against the new steel."
+    }
+  ]
+}

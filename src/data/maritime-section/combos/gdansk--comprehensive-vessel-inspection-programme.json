@@ -1,0 +1,137 @@
+{
+  "port": "gdansk",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Gdańsk | Owner's CAS/CAP for Baltic Tankers & Boxships",
+  "description": "CVIP in Gdańsk: an owner's CAS/CAP-style programme for Naftoport crude tankers and Baltic Hub boxships, with Remontowa dockings as the checkpoints.",
+  "h1": "Comprehensive Vessel Inspection Programme in Gdańsk: an Owner's CAS/CAP Record for Baltic Crude Tankers, Container Ships and the Ships That Dock at Remontowa",
+  "intro": "Crude tankers discharging at Naftoport, ocean-going container ships at Baltic Hub and the ferries, tankers and cargo ships that dock at Remontowa keep coming back to Gdańsk, and many of them are nearing the ages at which charterers start asking hard questions about steel. CVIP, our Comprehensive Vessel Inspection Programme, is what owners often call an owner's CAS or owner's CAP: the condition assessment pattern of the official schemes, carried out for the owner and repeated across calls and dockings so that every visit adds to one trend record. Each visit is staffed by technicians who travel from India to the ship.",
+  "highlights": [
+    {
+      "h": "Ahead of the fifteen-year question",
+      "p": "Vetting departments commonly look for a class CAP once a tanker passes about fifteen years. A programme started a few years earlier, during Naftoport discharges, shows the owner which tanks would weaken that rating while there are still dockings left in which to repair them."
+    },
+    {
+      "h": "Remontowa as the programme checkpoint",
+      "p": "A floating-dock period at Remontowa exposes the bottom, the sea chests and the tanks reached from staging. The programme books a visit into it, adds the dry hull to the record and re-measures renewed steel before undocking, so later calls compare against the plate actually fitted."
+    },
+    {
+      "h": "Retrofits numbered as new points",
+      "p": "Where a docking adds equipment such as an exhaust gas scrubber or a ballast water treatment plant, new foundations, penetrations and pipe runs appear that the original drawings never showed. They are numbered on the following visit and join the trend from then on."
+    }
+  ],
+  "sections": [
+    {
+      "id": "gdansk-visit-settings",
+      "h": "Where in Gdańsk each part of an owner's condition assessment can be carried out",
+      "p": [
+        "Gdańsk splits naturally into places that each open a different share of the ship. At Naftoport a crude tanker can give up its main deck, pipelines, pump room and segregated ballast tanks under the joint permits of ship and terminal, while the cargo tank interiors wait for a gas-free window that the charterer has accepted. Tankers and bulk carriers holding in the Gulf of Gdańsk before berthing are boarded by launch, and ballast tanks emptied and certified by the crew can be entered there without any terminal in the way. At Baltic Hub the calls of the big Asia-service container ships are brief but fixed in advance, which suits scrubber lines, engine-room tanks and a ballast tank or two prepared for that call.",
+        "In the Northern Port bulk terminals, holds become available as loading stages finish, and along the Inner Port quays ro-pax and ro-ro ships offer vehicle decks and ramps between sailings. Remontowa's floating docks complete the picture: with the ship lifted clear of the water, the shell, bottom and appendages are added to the record, and staging gives reach into tall tanks that are awkward to cover afloat. The programme plan assigns every module to one of these settings in advance, so the superintendent knows which call will carry the tank round and which the machinery readings."
+      ]
+    },
+    {
+      "id": "tanker-cap-runway",
+      "h": "Why owners of Baltic crude tankers start a programme before the CAP request arrives",
+      "p": [
+        "Tankers bringing seaborne crude to Polish refineries meet two kinds of scrutiny as they age. A SIRE inspection looks at operations, records and visible condition, but it gauges no steel; a class CAP, which charterers commonly ask for beyond about fifteen years, rests on extensive gauging and a strength assessment. Between those two sits a gap of several years in which an owner can either wait for the CAP to reveal the condition of the ship, or find out early. The programme is the second route.",
+        "On a crude tanker the record concentrates on what decides a later rating. Segregated ballast tanks are rated for coating condition from the same viewpoints at every visit, because breakdown there is usually the earliest sign of trouble. Deck longitudinals under the cargo piping, pump-room pipework and the bottom of any cargo tank entered in a gas-free window are gauged at numbered positions. Cargo pump drives, generators and switchboards are read for vibration and temperature while the ship discharges, giving the machinery side of the assessment without extra running time."
+      ]
+    },
+    {
+      "id": "cap-decision-table",
+      "h": "Reading the programme results before booking a class CAP",
+      "p": [
+        "CVIP does not award a CAP grade, but owners use its results to decide whether and when to book one. The table sets out the usual patterns in the record and the responses they lead to; the grade itself is issued by the ship's society after its own survey."
+      ],
+      "table": {
+        "head": ["What the programme record shows", "Likely reading", "Owner's next step"],
+        "rows": [
+          ["Ballast tank coatings holding at GOOD or FAIR, corrosion rates low and steady between visits", "The structure is unlikely to pull a rating down", "Book the class CAP at a convenient docking and share the programme drawings with the society's team"],
+          ["Two or three ballast tanks drifting towards POOR coating, wastage still inside the margins", "A good rating remains within reach, but those tanks would count against it", "Recoat or repair them at the next Remontowa docking, then book the CAP"],
+          ["Deck or bottom plating near renewal limits in one transverse section", "A strength check on gauged thickness could fall short", "Agree steel renewal with the yard from the programme outline before inviting the society"],
+          ["Wastage accelerating in several tanks and members", "The rating may not justify the steel it would require", "Weigh renewal against redeployment or sale, with the trend record as evidence"]
+        ]
+      }
+    },
+    {
+      "id": "owners-cas-cap",
+      "h": "Owner's CAS and owner's CAP at Gdańsk, and the society headquartered in the same city",
+      "p": [
+        "Owners of tankers and bulk carriers trading into Gdańsk say owner's CAS or owner's CAP when they want the depth of an official condition assessment without waiting for one to be arranged on someone else's calendar. CVIP supplies that depth: a survey plan drawn on the drawings, close-up examination, gauging at fixed numbered positions, coating grades, a machinery assessment and one graded report on the ship. The owner commissions it, decides what it is for and keeps every reading.",
+        "None of this displaces the official schemes. The IMO Condition Assessment Scheme, which few ships still fall under, closes with a flag Statement of Compliance; a class Condition Assessment Programme closes with a rating from the society. CVIP issues neither. The Polish Register of Shipping is headquartered in Gdańsk, yet that changes nothing for a programme: each ship's own society decides its surveys and ratings, wherever she happens to lie.",
+        "The gauging follows the same logic. Credit towards a class survey needs gauging from a firm holding the UR Z17 approval of the ship's own society. Atlantis has started that process with DNV, Lloyd's Register and ABS, has no certificate from any of them so far, so the programme's readings inform the owner's docking, chartering and sale decisions rather than the class file."
+      ]
+    },
+    {
+      "id": "boxships-bulkers-ferries",
+      "h": "Container ships, bulk carriers and ferries in a Gdańsk fleet programme",
+      "p": [
+        "Ocean-going container ships arriving at Baltic Hub on direct Asia services are inside the Baltic ECA, so those with scrubbers run them on the approach, and the acidic wash-water keeps thinning discharge lines and the shell around the overboard outlet. A programme measures those lines at the same marked positions on every call and turns scattered leak worries into a wall-loss rate that sets the replacement date for the next docking. The rest of a large container ship is covered zone by zone across successive calls rather than in one attendance.",
+        "Bulk carriers in the Northern Port coal and grain trades, and ro-pax ships on Baltic routes that dock at Remontowa, join the same programme with modules suited to their structure. What each type adds to the record on a typical Gdańsk visit:"
+      ],
+      "list": [
+        "Crude tanker at Naftoport: deck and pump-room readings, segregated ballast tanks, cargo pump drives under load",
+        "Container ship at Baltic Hub: scrubber and sea-water lines, engine-room tanks, a ballast tank or two per call",
+        "Bulk carrier in the Northern Port: holds freed between loading stages, hatch covers, topside tanks",
+        "Ro-pax at the Inner Port or in dock: vehicle decks, ramps, hinge details and the voids beneath them, with ice-belt plating repeated at the same frames"
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning Gdańsk visits around discharge programmes, the Remontowa slot and winter",
+      "p": [
+        "The team flies into Gdańsk Lech Wałęsa Airport and travels by road to the Northern Port, the Inner Port or the shipyard. Terminal passes under the ISPS Code and the launch for any Gulf anchorage visit come through the ship's agent, while Remontowa handles access to the yard during a docking. Travel into Poland means Schengen paperwork for every technician, lodged in India; owners who share the programme calendar early allow one application to span several of the visits expected over the season. Gas-free days for cargo tanks at Naftoport have to be agreed with the charterer and the terminal well before the ship arrives.",
+        "Winter changes the balance of a visit rather than stopping it. Between late autumn and early spring, cold steel and short daylight slow open-deck readings, so those visits lean towards tanks, engine rooms and enclosed vehicle decks, and deck modules move to the warmer months where the calendar allows. To set up a programme for a Baltic tanker, a container ship series or a mixed fleet docking at Remontowa, email the fleet list and the expected docking dates (info@atlantisndt.com) or fill in the Gdańsk enquiry form below."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude tankers supplying Polish refineries",
+    "Product and chemical tankers",
+    "Ocean-going container ships on direct Asia services",
+    "Bulk carriers in the coal and grain trades",
+    "Ro-pax and ro-ro ships on Baltic routes",
+    "Ships docking at Remontowa between charters"
+  ],
+  "codes": [
+    "IACS UR Z10.4 – Enhanced hull surveys of double-hull oil tankers",
+    "IACS UR Z10.2 – Enhanced hull surveys of bulk carriers",
+    "IACS UR Z7 – Classification hull surveys and the terms used to grade coating condition",
+    "MARPOL Annex VI regulation 14 – the 0.10% sulphur limit inside the Baltic ECA",
+    "Resolution MEPC.340(77) – 2021 guidelines for exhaust gas cleaning systems",
+    "ISO 20816-1 – Machine vibration on non-rotating parts: measurement and evaluation"
+  ],
+  "deliverables": [
+    "Programme plan linking Naftoport, Baltic Hub and anchorage visits to the Remontowa docking dates",
+    "Baseline report with point numbers shared across sister tankers",
+    "CAP-readiness summary ranking the tanks and sections most likely to weaken a class rating",
+    "Pre-docking renewal outline for Remontowa or another yard",
+    "Re-measurement of renewed plate so that new steel starts its own trend",
+    "Owner-held data files covering thickness, coatings, cracks, vibration and thermal images"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Gdańsk CVIP the same as CAS or CAP?",
+      "a": "No. It follows the same sequence of planning, close-up examination, gauging, coating grades and a whole-ship report, which is why tanker owners call it an owner's CAS or CAP, but it is carried out for the owner and stays with the owner. There is no flag Statement of Compliance and no society rating at the end of it. Where a charterer insists on the class CAP, the owner books that with the ship's society."
+    },
+    {
+      "q": "Can programme visits use a crude discharge at Naftoport?",
+      "a": "Yes, for the parts the terminal permits. During discharge we cover the main deck, pipelines, pump room and segregated ballast tanks, and read cargo pump drives and electrical equipment while they work. Cargo tank interiors need gas-free days, which the charterer and terminal must accept, or else they are taken at a lay-by or at Remontowa. The plan states in advance which discharge carries which modules."
+    },
+    {
+      "q": "How does a Remontowa docking fit into the programme?",
+      "a": "As its main checkpoint. A round some months before the docking compares tank and deck readings with the baseline and produces a renewal outline for the yard. In the floating dock the team adds the shell, bottom and staged tanks to the record, and renewed plates and pipes are measured again before undocking, so subsequent visits measure wastage on the new steel."
+    },
+    {
+      "q": "Will the programme tell us whether to book a class CAP?",
+      "a": "It tells you what the society is likely to find, which is what that decision needs. Coating ratings in the ballast tanks, corrosion rates by member and the margin left in each transverse section show whether a good grade is within reach, which tanks would count against it and what repair would change that. The grade itself comes from the ship's society after its own CAP survey."
+    },
+    {
+      "q": "Can container ships on a Baltic Hub rotation join a programme?",
+      "a": "They can, and their fixed schedules make visits easy to plan. Each call carries one zone of the ship plus the checks repeated every time, namely the scrubber lines, the sea-water system and the machinery readings. Over a series of calls the whole ship is covered, and a ship that misses Gdańsk on one rotation simply picks up the next zone at a later call."
+    },
+    {
+      "q": "Does winter in Gdańsk interrupt the programme?",
+      "a": "Rarely. Cold steel thickens couplant and short days limit careful work on open decks, so winter visits favour ballast tanks, engine rooms and enclosed vehicle decks, where conditions are steadier. Deck plating and hatch covers are scheduled for spring and summer calls if the plan allows. Ice seldom closes the port to ocean-going ships, so visits generally keep to the calendar."
+    }
+  ]
+}
