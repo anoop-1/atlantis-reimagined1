@@ -45,7 +45,7 @@
         "rows": [
           ["On charter, calling at the base", "Mud, brine and base-oil tanks once cleaned, cargo deck plating and rails, machinery under working load", "Shows how quickly the working spaces wear while the vessel is earning"],
           ["Going into lay-up", "A full baseline of tanks, sea-water lines, fire main and machinery before systems are shut down", "Fixes the condition the owner will compare against when the market turns"],
-          ["During lay-up", "Ballast tanks, chain lockers and stagnant sea-water systems at the same points, with coating breakdown photographed", "Measures what idle time has cost, tank by tank"],
+          ["During lay-up", "Ballast tanks, chain lockers and stagnant sea-water systems at the same points, with coating breakdown photographed", "Measures what idle time has done to the steel, tank by tank"],
           ["Reactivation at a yard", "The dry hull, sea chests and thruster areas, every system coming back into service, crack detection at towing and lifting foundations", "Sets the steel, pipe and crack-repair list before the vessel goes back on hire"],
           ["Back on charter", "The recurring base-call checks resume on both renewed and original steel", "Gives the next charterer a continuous, measured history"]
         ]
@@ -113,7 +113,7 @@
   "faqs": [
     {
       "q": "Is a Bergen CVIP the same as CAS or CAP?",
-      "a": "It follows their method without carrying their authority. The programme plans, examines, gauges, rates coatings and assesses machinery across the whole vessel, which explains why offshore owners use the owner's CAS or CAP label, yet the owner commissions and holds it. No society rating and no flag Statement of Compliance result from it, so a charterer who requires a class CAP still needs one booked with class."
+      "a": "It works to their method without carrying their authority. The programme plans, examines, gauges, rates coatings and assesses machinery across the whole vessel, which explains why offshore owners use the owner's CAS or CAP label, yet the owner commissions and holds it. No society rating and no flag Statement of Compliance result from it, so a charterer who requires a class CAP still needs one booked with class."
     },
     {
       "q": "Is it worth inspecting a vessel while she is laid up?",

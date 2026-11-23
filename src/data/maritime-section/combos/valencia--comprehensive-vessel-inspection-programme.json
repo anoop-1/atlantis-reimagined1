@@ -28,7 +28,7 @@
    ],
    "list": [
     "APM Terminals Valencia, MSC Terminal Valencia and CSP Iberian Valencia Terminal: scrubber lines, engine-room tanks and machinery readings while cargo work continues",
-    "Ferry and ro-ro berths in the inner harbour: car decks, ramps, ballast tanks and fire main across lay-overs, and fuller rounds during the winter overhaul",
+    "Inner-harbour ferry and ro-ro berths: car decks, ramps, ballast tanks and fire main across lay-overs, and fuller rounds during the winter overhaul",
     "Vehicle terminal berths: ramps, hoistable decks and ballast tanks on car carriers while loading goes on",
     "Valencia anchorage: machinery, deck and prepared ballast tanks on ships waiting for a berth, reached by launch",
     "Sagunto LNG terminal and bulk quays: hull, ballast, deck and piping on gas and bulk carriers within terminal permits",
@@ -148,7 +148,7 @@
   },
   {
    "q": "Are LNG carriers at Sagunto inspected inside the cargo tanks?",
-   "a": "No. Cargo containment systems are outside the programme. On gas carriers we measure hull structure, ballast tanks, deck, piping and closing appliances, and take vibration and thermal readings on machinery and electrical equipment, all under the ship's permit-to-work system and the terminal's rules on boarding and equipment. Those readings sit in the same trend record as the owner's other ships."
+   "a": "No. Cargo containment systems are outside the programme. On gas carriers we measure hull structure, ballast tanks, deck, piping and closing appliances, and take vibration and thermal readings on machinery and electrical equipment, all within the ship's permit-to-work arrangements and whatever the terminal requires for boarding and equipment. Those readings sit in the same trend record as the owner's other ships."
   },
   {
    "q": "What happens to the programme when a ship docks away from Valencia?",
