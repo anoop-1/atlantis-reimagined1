@@ -1,0 +1,155 @@
+{
+  "title": "NDT Report Validation in Tulsa, OK | Independent Review",
+  "description": "Independent review of NDT reports and digital inspection data from Tulsa-area refineries, pipelines, Cushing tank farms and fabrication shops, done remotely.",
+  "h1": "Independent NDT report and inspection data review for Tulsa and northeast Oklahoma",
+  "eyebrow": "Report validation · Tulsa, Oklahoma",
+  "intro": "Tulsa sits where three kinds of inspection record meet: refinery turnaround packages, midstream pipeline and terminal files, and the vendor data books that leave the area's heat exchanger and pressure equipment shops with every shipment. When one of those records has to be relied on, by a buyer, an operator, an insurer or a contractor answering a rejection, an independent review tests it against the procedure and code it claims to meet. We open the digital inspection data behind the summary sheets, tie each finding to its source and return a written opinion. The whole review runs remotely, on the files you send from Oklahoma.",
+  "highlights": [
+    { "h": "Midstream records read against the right rule", "p": "A pump station, a terminal tank and a gathering line can share one property yet answer to different federal and state programs. The review settles which rule governed each record before it judges what the record shows." },
+    { "h": "Vendor data books checked before they ship", "p": "Air coolers, exchangers and vessels built around Tulsa leave with NDT reports, hydrotest charts and material records. An outside reading of that package lets the buyer accept it, or the shop answer questions, while the unit is still on the shop floor." },
+    { "h": "Raw files opened, not just signatures counted", "p": "Tank floor scans, encoded weld files, digital radiographs and thickness logs are opened and compared with what the report states about coverage, sizing and results." }
+  ],
+  "sections": [
+    {
+      "h": "Who in the Tulsa area asks for an independent report review",
+      "p": [
+        "Few cities of Tulsa's size manage so much of the country's pipeline network. ONEOK and Williams both have their headquarters in Tulsa, and ONEOK's 2023 acquisition of Magellan Midstream Partners brought one of the country's longest refined products pipeline systems, along with crude oil assets and very large storage capacity, under the same corporate roof. Engineering, integrity and contract groups in the city receive inspection reports from crews working on assets far from Oklahoma, so a review requested from Tulsa often concerns a pipe, a station or a tank in another state.",
+        "Refining is close at hand as well. HF Sinclair runs a refinery in Tulsa itself, and Phillips 66 operates its Ponca City refinery to the northwest. Cushing, to the west, is the storage hub where West Texas Intermediate is delivered and traded, with tank farms run by several storage operators. Add the fabrication shops that build air-cooled heat exchangers, pressure vessels and skids for the oil and gas industry, and the range of reports leaving the region is unusually wide for one metro area."
+      ],
+      "list": [
+        "Pipeline operators and their integrity contractors accepting girth weld, dig and pump station reports",
+        "Terminal owners at Cushing and elsewhere accepting API 653 tank inspection packages and floor scanning data",
+        "Refinery inspection groups closing out turnaround and repair records before startup",
+        "Equipment buyers and engineering contractors accepting vendor data books from Oklahoma fabricators",
+        "Fabricators and NDT contractors whose reports have been rejected and who want an outside reading before they reply",
+        "Lenders, buyers and insurers weighing the inspection history of a terminal, a gathering system or a plant"
+      ]
+    },
+    {
+      "h": "Vendor data books from Tulsa's fabrication shops",
+      "p": [
+        "Air-cooled heat exchangers, the fin-fan coolers found at nearly every refinery, gas plant and compressor station, are built in Tulsa. Chart's air-cooled heat exchanger business, part of Baker Hughes since July 2026, lists engineering and manufacturing in the city, and smaller shops around the metro build exchangers, vessels and process skids. Each unit ships with a data book, and the NDT pages in it are often the least-read part of the package until somebody downstream asks a question.",
+        "Air coolers are built to API Standard 661, with the pressure parts designed and examined under ASME Section VIII. The header boxes are non-circular pressure vessels made of plug sheets, tube sheets, top and bottom plates and end plates, and they are where the NDT record does the most work. A reviewer reading an air cooler data book checks that the examination extent on each header weld matches what the design called for, that radiographs or ultrasonic records cover the full length of each seam, that plug-hole and nozzle examinations are reported against the right acceptance criteria, and that the hydrotest chart, the material test reports and the weld map all carry the same serial number.",
+        "Data books from exchanger and vessel shops get the same treatment. The common faults are rarely dramatic: a radiograph identified to the wrong weld, a penetrant report with no record of the surface temperature, a personnel certificate that expired a week before the examination, or a weld map revision that no longer matches the welds in the NDT log. Each one gives a buyer's inspector a reason to hold the shipment, and each one is far easier to correct in the shop than at the site."
+      ],
+      "table": {
+        "head": ["Data book item", "What the reviewer compares it with", "Typical gap"],
+        "rows": [
+          ["Weld map and NDT log", "The drawing revision, the welder list and the examination extent the design specified", "Welds added or renumbered after the map was issued"],
+          ["Radiographs or DR images of header and nozzle welds", "Image quality indicators, identification, coverage and the acceptance standard named on the report", "Overlap between exposures not demonstrated, or images that cannot be tied to a weld"],
+          ["Ultrasonic examination used in place of radiography", "The code provision that allowed it and the procedure and personnel qualification it demands", "A manual, unrecorded examination where the code route expects a recorded one"],
+          ["PT and MT of plug holes, nozzles and attachments", "Procedure, consumable batch, surface temperature, dwell time or magnetisation technique", "Technique details left blank, so the result cannot be defended later"],
+          ["Hydrotest record", "Test pressure, gauge calibration, hold time and the nameplate serial number", "A chart belonging to a different unit, or a gauge out of calibration"],
+          ["Material and heat treatment records", "Heat numbers on the weld map, mill certificates and heat treatment charts", "A heat number that appears on the map but in none of the certificates"]
+        ]
+      }
+    },
+    {
+      "h": "Refinery records from Tulsa and Ponca City",
+      "p": [
+        "A refinery's inspection group lives with its records long after the contractors have demobilised. Any refinery covered by OSHA's process safety management standard, as the Tulsa and Ponca City refineries are, must document each inspection on covered equipment with the date, the inspector's name, the equipment identifier, a description of the inspection and its results. Federal OSHA enforces that standard for private employers in Oklahoma, which has no OSHA-approved State Plan.",
+        "Turnaround close-out is when those records are weakest. Thickness surveys on piping circuits, tube data from exchanger bundles, weld reports for repairs and alterations, and tank inspection packages all land in the last days before startup. An independent review applies one set of checks to every contractor's work, sorts the reports into those ready to accept, those needing a document correction and those whose conclusions the data cannot carry, and gives the inspection group a list to act on rather than a stack to read.",
+        "Thickness data deserves particular care. Corrosion rates set intervals under API 510 and API 570, and the rates come from readings taken at the same locations survey after survey. The review looks for readings that grow between surveys, rates that jump when the contractor changes and remaining-life figures that cannot be reproduced from the report's own numbers. Remaining-life and fitness-for-service decisions themselves stay with the refinery's engineer."
+      ]
+    },
+    {
+      "h": "Pipelines, pump stations and the Cushing tank farms",
+      "p": [
+        "Midstream records fall into three families, and a review starts by placing each report in the right one. Girth welds on new or replacement pipe are examined to API 1104 or to an operator specification built on it, often with automated ultrasonic examination or digital radiography on larger projects. Integrity dig reports record what was found when a line was exposed: coating condition, external corrosion, dents and the measurements taken at each feature. Station and terminal piping and storage tanks are inspected under the piping and tank standards the operator's program invokes, with API 653 governing most aboveground storage tanks.",
+        "Tank work dominates around Cushing. A full out-of-service API 653 inspection produces shell thickness readings, floor scanning data, ultrasonic prove-up of floor indications, bottom-side corrosion findings, weld examinations on repairs and a settlement survey. The review checks that the floor scan covered the plates the report says it covered, that the calling threshold was the one the procedure set, that every called area was proved up with a measured thickness, and that the minimum remaining thickness used in the report follows from those measurements. Interval recommendations, and any risk-based extension of them, remain with the owner's authorized inspector and engineer.",
+        "Pipeline records also carry a regulatory overlay. Interstate lines answer to PHMSA under 49 CFR Parts 192 and 195. Intrastate natural gas and hazardous liquid lines in Oklahoma are inspected by the Oklahoma Corporation Commission's Pipeline Safety Department, under its certification agreements with the U.S. Department of Transportation. The review notes which regime applied, because the records an operator must keep, and the auditor who will one day ask for them, follow from that answer."
+      ]
+    },
+    {
+      "h": "Oklahoma programs that shape a Tulsa inspection record",
+      "p": [
+        "Codes set the technical acceptance criteria; state and federal programs decide who must keep which record and who may sign it. A review of a Tulsa-area report keeps those two questions apart, because confusing them is one of the commonest ways a sound report gets rejected, or a weak one gets accepted."
+      ],
+      "table": {
+        "head": ["Program", "What it covers", "Why it matters to the review"],
+        "rows": [
+          ["Oklahoma Department of Labor, Boiler and Pressure Vessels Program", "High- and low-pressure boilers, other pressure vessels and licensed installation and repair firms; inspectors hold National Board commissions; boilers are inspected at least yearly and some vessels every three years", "Certificates, repair records and the commissioned inspector's decisions stay with the jurisdiction; the review checks the NDT that supports them"],
+          ["Oklahoma Corporation Commission, Pipeline Safety Department", "Intrastate natural gas and hazardous liquid pipelines: gathering, transmission, underground storage and distribution operators", "Which records an intrastate operator must produce at audit, and which federal rules they are read against"],
+          ["PHMSA", "Interstate gas and hazardous liquid pipelines under 49 CFR Parts 192 and 195", "Girth weld, pressure test and integrity records on lines that cross state borders"],
+          ["Federal OSHA, process safety management", "Refineries, gas plants and other covered processes in a state with no State Plan", "Whether each mechanical integrity record identifies date, inspector, equipment, inspection and results"],
+          ["Oklahoma Department of Environmental Quality, radiation program", "Radioactive materials licensing in an Agreement State whose agreement with the NRC dates from 2000", "Radiography is carried out by the owner's licensed contractor; the review reads the images and records that contractor issued"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data coming out of northeast Oklahoma",
+      "p": [
+        "A growing share of what arrives from the region is digital inspection data rather than paper. Tank floor scanners write files that map every plate, thickness gauges log readings that flow into an inspection database, girth weld crews deliver encoded ultrasonic or digital radiography files, and dig crews enter measurements on tablets that feed a digital reporting system. Fabrication shops increasingly send DR images and scan files in place of film.",
+        "Digital records fail in their own ways. A floor scan file can cover fewer plates than the tank drawing shows, a thickness log can carry readings imported in the wrong units, a weld scan can come from a setup file that does not match the qualified procedure, and a digital report template can carry fields forward from the previous job. The review traces a sample of results from the instrument file, through the contractor's digital report, to the values the owner now holds, and checks who can edit an issued report, whether revisions leave a trace and whether electronic signatures belong to identifiable, qualified people.",
+        "Where the original acquisition software is needed to rebuild a measurement, the opinion says whether that was possible. A record that can no longer be reopened is a record whose results can no longer be tested, and an owner holding decades of tank and pipeline data needs to know which files will still open when an auditor or a buyer asks."
+      ]
+    },
+    {
+      "h": "Typical Tulsa review situations",
+      "p": [
+        "The reason for the review decides where the reviewer looks hardest, so the enquiry starts with the decision the record has to support. These are the situations that bring Tulsa-area records to an independent reviewer most often."
+      ],
+      "list": [
+        "A buyer's inspector holds an air cooler or exchanger at the shop over the NDT pages of the data book, and the fabricator wants an independent reading before replying",
+        "An operator receives girth weld reports from a contractor it has not used before and wants the first batch checked against API 1104 and its own specification",
+        "A terminal at Cushing is changing hands, and the buyer wants to know how much of the tank inspection history can be relied on",
+        "A turnaround package from several contractors must be closed out before the unit restarts",
+        "A client has rejected a contractor's tank floor report, and the contractor needs to know whether the rejection is technically sound",
+        "An integrity group is loading years of dig and thickness data into a new digital reporting system and wants the input tested first"
+      ]
+    },
+    {
+      "h": "How a review runs from Tulsa",
+      "p": [
+        "Atlantis has no Tulsa office, and a document review does not need one: the work is done remotely, from Houston and Hyderabad, on the reports and files you transfer. You tell us what the record covers, which code, specification and procedure governed it, and what decision depends on the review. We reply within one business day with the proposed scope and a quote.",
+        "Once the files arrive through a secure transfer, a reviewer with the right method and industry background works through the seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. Questions the documents cannot answer come back to you, or with your agreement to the contractor or shop that wrote the report. The written opinion gives one of three verdicts, sound, deficient in documentation only, or deficient in disposition, and ties each finding to the clause or procedure step behind it.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under the direction of an ASNT NDT Level III who holds certification in all five of those methods. For tube data from air coolers and exchangers, or any other method, the proposal names a reviewer holding the certification the contract specifies. The wider review team comes from nuclear, maritime, oil and gas and petrochemical backgrounds, which helps when a record has to make sense to an operator, an insurer and a contractor at once."
+      ]
+    },
+    {
+      "h": "Where the review stops",
+      "p": [
+        "A review tests the record. It does not change who is responsible for the equipment, and it does not replace examination where the record cannot support a decision; when re-examination is the only answer, the opinion says so and describes what would settle the question."
+      ],
+      "list": [
+        "Atlantis does not perform industrial radiography in the United States; films and DR images from your licensed radiography contractor are reviewed as documents",
+        "Fitness-for-service assessments and remaining-strength calculations stay with the owner's engineer",
+        "The authorized inspector or inspector of record named in your program, and the commissioned boiler inspector, keep their roles",
+        "NDT personnel are not certified by the review, which reports whether the certificates on file covered the work",
+        "No report is reviewed for a project where Atlantis performed the examination"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Does anyone need to come to our site in Oklahoma?", "a": "No. The review is carried out remotely from Houston and Hyderabad on the documents and digital inspection data you share by secure transfer, and Atlantis keeps no premises in Oklahoma. If the record cannot support a decision, the opinion describes the field examination that would settle it." },
+    { "q": "Can you review a vendor data book before an air cooler or exchanger ships?", "a": "Yes. We check the weld map, the NDT reports and images, the hydrotest record and the material and heat treatment records against each other and against the design and code requirements, so the fabricator or the buyer knows before shipment whether the package will stand up to the receiving inspector." },
+    { "q": "Do you review girth weld reports to API 1104?", "a": "Yes, against API 1104 and the operator's own specification, including automated ultrasonic files and digital radiography images where they exist. The opinion reports what the record supports; acceptance of the weld stays with the operator and its inspector." },
+    { "q": "Can you review API 653 tank packages from Cushing terminals?", "a": "Yes. The review covers shell thickness data, floor scanning coverage and calling thresholds, prove-up measurements, repair weld examinations and the settlement survey, and checks that the minimum thicknesses in the report follow from the data. Interval decisions remain with the owner's authorized inspector and engineer." },
+    { "q": "Which Oklahoma rules does the review take into account?", "a": "The construction or in-service code first, then the program the record serves: the Department of Labor's boiler and pressure vessel rules, the Corporation Commission's intrastate pipeline program, PHMSA for interstate lines, and OSHA process safety management for refineries and gas plants." },
+    { "q": "Do you review radiographs even though Atlantis does not perform radiography in the US?", "a": "Yes. Atlantis does not perform industrial radiography in Oklahoma or anywhere else in the United States, but film radiographs and DR images produced by your licensed contractor are reviewed as documents: image quality, identification, coverage and the interpretation recorded against each weld." },
+    { "q": "Who reviews eddy current data from exchanger and air cooler tubes?", "a": "The proposal names a reviewer holding the eddy current certification your contract requires, before any data are sent. The other methods in the same package are reviewed under the ASNT NDT Level III who leads the UT, RT, MT, PT and VT work." },
+    { "q": "How do we send Tulsa reports for review?", "a": "Use the form on this page or write to info@atlantisndt.com with the report type, method, code or specification and what the review must support. We reply within one business day with the scope and a quote, and the files then reach us by secure transfer." }
+  ],
+  "related": [
+    ["/inspection-services-oklahoma", "NDT inspection services in Oklahoma"],
+    ["/ndt-training-tulsa", "NDT training in Tulsa"],
+    ["/consulting/ndt-consulting-tulsa", "NDT consulting in Tulsa"],
+    ["/ultrasonic-testing-tulsa", "Ultrasonic testing in Tulsa"],
+    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"]
+  ],
+  "sources": [
+    "https://www.hfsinclair.com/operations/refining",
+    "https://ir.oneok.com/news-and-events/press-releases/2023/09-25-2023-134815200",
+    "https://www.sec.gov/Archives/edgar/data/107263/000010726326000006/wmb-20251231.htm",
+    "https://oklahoma.gov/deq/divisions/land-protection/waste-management/waste-management-facilities/phillips-66-ponca-city-refinery.html",
+    "https://www.eia.gov/todayinenergy/detail.php?id=67866",
+    "https://chartindustries.com/Businesses/Smithco",
+    "https://worldoil.com/news/2026/7/16/baker-hughes-closes-chart-acquisition-adds-third-operating-segment/",
+    "https://oklahoma.gov/labor/safety-and-health/safety-standards/boiler-pressure-vessels.html",
+    "https://oklahoma.gov/occ/divisions/pipeline-safety.html",
+    "https://www.nrc.gov/agreement-states/oklahoma.html",
+    "https://www.osha.gov/stateplans",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "NDT Report Validation in Linden, NJ | Third-Party Review",
+  "description": "Independent third-party review of NDT reports from Linden and the Bayway complex: refinery, polypropylene, terminal and pipeline data, carried out remotely.",
+  "h1": "Third-party review of refinery, terminal and pipeline NDT records from Linden",
+  "eyebrow": "Report validation: Linden and the Bayway complex",
+  "intro": "Few towns pack as much inspection paperwork into as few square miles as Linden. A large refinery on New York Harbor, a polypropylene plant inside the same fence, a lubricant additives plant next door and the northern end of the biggest refined products pipeline in the country all generate NDT reports, and New Jersey adds a state process safety law on top of the federal one. We review those reports and the digital inspection data behind them as an independent third party, checking each record against the procedure, the code and the state rule that governed it. The review is carried out remotely from the files you send.",
+  "highlights": [
+    {
+      "h": "New Jersey's extra layer understood",
+      "p": "Records from covered processes answer to the Toxic Catastrophe Prevention Act as well as OSHA's process safety standard. The review reads them with both in mind, including the state's emphasis on records that can be retrieved and analysed."
+    },
+    {
+      "h": "Refinery, chemical and pipeline in one package",
+      "p": "Linden packages often cross from process piping to terminal tanks to pipeline welds. A single reviewer covering all three keeps the findings consistent and spots the gaps that fall between contractors."
+    },
+    {
+      "h": "Opinions that hold up when challenged",
+      "p": "Each finding names the clause, table or procedure step it relies on and the evidence for it. Because we never review work we performed, the opinion can be put in front of a client, an inspector or a court without a conflict to explain."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A refinery, two chemical plants and a pipeline terminus",
+      "p": [
+        "Phillips 66 runs the Bayway Refinery on the Linden waterfront, about 13 miles southwest of Manhattan. It has a crude capacity of 258,000 barrels a day, accounts for most of New Jersey's operating refining capacity, and runs catalytic cracking, hydrodesulfurisation, reforming and alkylation units. A polypropylene plant sits inside the wider Bayway Industrial Complex, which spans Linden and Elizabeth, and Infineum operates a manufacturing plant at Bayway. Every one of those units feeds an inspection programme that produces vessel, piping, exchanger and tank records.",
+        "Colonial Pipeline's mainline from Houston has ended at Linden since the system began operating in 1964. Its Linden Junction Tank Farm and Delivery Facility is the northern terminus, and the products it receives move on through terminals and harbour transfers across the New York area. Terminal operators around Linden therefore hold large inventories of storage tanks, breakout tanks, manifold piping and pipeline connections, each with its own inspection history.",
+        "That concentration explains why independent report review is asked for here. Owners have to accept contractors' reports in volume, terminal and pipeline operators have to show regulators that their integrity records are sound, contractors have to defend their work when it is rejected, and anyone buying, financing or insuring an asset on the harbour wants to know how far the inspection history can be trusted."
+      ]
+    },
+    {
+      "h": "The state law that sits on top of PSM: the Toxic Catastrophe Prevention Act",
+      "p": [
+        "New Jersey's Department of Environmental Protection administers the Toxic Catastrophe Prevention Act, the state's risk management programme for facilities handling extraordinarily hazardous substances. Its mechanical integrity and preventive maintenance provision, N.J.A.C. 7:31-4.5, applies alongside the federal requirement at 40 CFR 68.73 and adds a records obligation of its own: the owner or operator must keep an accurate system of records for inspections, breakdowns, repairs and replacements of covered equipment, and that system has to support retrieval and analysis so the owner can set inspection and testing frequencies and judge equipment reliability.",
+        "For a report reviewer that last requirement is the important one. A thickness survey that cannot be matched to the previous survey's locations, a corrosion rate calculated from readings taken with different datums, or a weld report that cannot be tied to a line number all fail the retrieval and analysis test even if each measurement was correctly made. The review flags those failures explicitly, because they undermine the frequency decisions the state law expects the data to support.",
+        "OSHA's process safety management standard, 29 CFR 1910.119, applies to the same processes in parallel. Its mechanical integrity element expects inspection and testing to follow recognised and generally accepted good engineering practice, which in a refinery usually means API 510, 570 and 653 and the recommended practices behind them. The review checks the records against the practices the owner's programme names."
+      ]
+    },
+    {
+      "h": "Boilers and pressure vessels under the state bureau",
+      "p": [
+        "In New Jersey, boilers and pressure vessels come under the Mechanical Inspection Bureau of Boiler and Pressure Vessel Compliance in the Department of Labor and Workforce Development. The bureau inspects new and replacement equipment itself. For later inspections the owner may use the state or an authorised insurance company inspector, and owners can set up an in-house owner-user inspection organisation under N.J.A.C. 12:90-3.19.",
+        "None of those roles is ours. We do not act as an authorized inspector, an owner-user inspector or an inspector of record. What we provide is an independent reading of the NDT that the inspector, the owner-user organisation or the repair contractor relies on: the radiographs or ultrasonic records of a vessel repair, the penetrant report on a nozzle weld, the thickness data behind a re-rating. The opinion tells them whether that evidence will stand up before they sign."
+      ]
+    },
+    {
+      "h": "Pipeline, terminal and tank records",
+      "p": [
+        "Hazardous liquid pipelines and their breakout tanks are regulated under 49 CFR Part 195, with PHMSA overseeing interstate systems such as the Colonial mainline. Intrastate gas pipelines in New Jersey come under the Board of Public Utilities, which carries a PHMSA certification for its pipeline safety programme. Terminal tanks that are not breakout tanks are usually inspected to API 653 under the owner's own programme.",
+        "The records we see from Linden-area terminals include tank shell and floor surveys, floor scanning data, settlement surveys, nozzle and shell weld examinations after repair, girth weld radiographs and DR images from pipeline tie-ins, and ultrasonic thickness data on manifold piping. For tank floors, the review checks how much of the floor was scanned, how indications from the screening tool were followed up with ultrasonic prove-up, and whether the remaining thickness figures quoted in the report come from the prove-up or from the screening signal. Magnetic flux leakage floor data falls outside our Level III's certification, so the proposal names a reviewer certified for it where a contract requires that.",
+        "For pipeline girth welds the review compares each image with the acceptance standard in the operator's procedures, usually API 1104, and checks the image quality evidence, the weld identification and the repair history. When an integrity assessment depends on the measurements, that assessment stays with the operator's engineer; the review tells the engineer whether the input data is fit to use."
+      ]
+    },
+    {
+      "h": "Linden records, the rule each answers to and the reviewer's opening question",
+      "p": [
+        "The seven checks are the same for every report. This table shows how they translate for the record types that come out of Linden most often."
+      ],
+      "table": {
+        "head": ["Record", "Rule it answers to", "Opening question the reviewer asks"],
+        "rows": [
+          ["Process piping CML survey from a refinery unit", "API 570, OSHA PSM and, for covered processes, the TCPA records provision", "Can these readings be matched location for location with the last survey?"],
+          ["Vessel internal inspection report with repair welds", "API 510, the construction code and the National Board Inspection Code for the repair", "Were the repair welds examined after any heat treatment, to the method the repair plan required?"],
+          ["Exchanger tube eddy current or IRIS data", "The owner's tube inspection procedure and the contract", "Do the reference standards match the tube material and gauge, and was the whole bundle covered?"],
+          ["Terminal tank floor scan with UT prove-up", "API 653 and the owner's tank programme", "Which remaining thickness values came from prove-up and which from the screening tool alone?"],
+          ["Pipeline tie-in radiographs or DR images", "49 CFR Part 195 or 192, API 1104 and the operator's procedures", "Does each image show the required image quality evidence and tie to a weld on the as-built record?"],
+          ["Polypropylene unit corrosion map", "The plant's mechanical integrity programme", "Was the grid dense enough for the mechanism the plant expects, with datums that allow trending?"]
+        ]
+      }
+    },
+    {
+      "h": "Typical review requests from Linden",
+      "p": [
+        "The reasons people give for sending us Linden records cluster into a handful of situations. Each one points the review at different checks."
+      ],
+      "list": [
+        "Close-out of a refinery turnaround where several contractors' reports must be accepted before the units come back on line",
+        "A terminal owner preparing integrity records for a regulator's inspection and wanting an independent read first",
+        "A contractor whose report was rejected by the refinery's inspection group or a third-party inspector",
+        "Acceptance of a fabricator's vendor data book for replacement vessels, exchangers or tank components",
+        "Due diligence on a terminal or tank farm changing hands, where the buyer needs to know which inspection records can be relied on",
+        "An insurance or warranty question that turns on what an inspection report did or did not establish"
+      ]
+    },
+    {
+      "h": "Digital inspection data at a harbour-side complex",
+      "p": [
+        "Digital inspection data has largely replaced paper on the Linden waterfront. Tank floor scanners write their own data files, corrosion mapping crawlers produce C-scan images, phased array weld examinations arrive as encoded files, and pipeline contractors deliver DR images rather than film. The final reports are produced in digital reporting systems, signed electronically and loaded into the owner's inspection database, which under the state law also has to be a record system that supports analysis.",
+        "That chain is only as good as its weakest link, and the review follows it end to end. We open the raw files and confirm that they match the equipment and locations in the report, that settings and gates were not changed without a record, that calibration files belong to the instrument used, and that electronic signatures were applied by people authorised under the contractor's written practice. Where data is loaded into the owner's database, we check that location identifiers survive the transfer, because a perfect reading attached to the wrong location is worse than no reading at all."
+      ]
+    },
+    {
+      "h": "Getting a Linden package to the reviewers",
+      "p": [
+        "Atlantis has no people, premises or equipment in Linden, Union County or anywhere in New Jersey. Our offices are in Houston and Hyderabad, and Linden reviews are done remotely, from the reports and data you send by secure transfer, without anyone coming to site.",
+        "Send the report or a sample of the package with the procedure, the code and the decision the review supports, and we reply within one business day with a scope and a quote. The review runs seven checks on every report: procedure compliance; personnel qualification on the date of work; equipment and calibration; technique adequacy; acceptance criteria from the right code, edition and table; interpretation and sizing; and completeness and traceability.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under the lead of an ASNT NDT Level III certified in precisely those five methods. Other methods are covered by a reviewer the proposal names, holding the certification the contract specifies. Team members come from nuclear, maritime, oil and gas and petrochemical work.",
+        "Each report receives a verdict: sound, deficient in documentation only, or deficient in disposition. The first means the record supports its conclusions; the second means the paperwork can be fixed without new examination; the third means the evidence does not carry the accept or reject decision."
+      ]
+    },
+    {
+      "h": "Where the review stops",
+      "p": [
+        "Fitness-for-service assessments, API 579 calculations and remaining-life estimates stay with the owner's engineer. Equipment acceptance stays with the state or insurance inspector or the owner-user inspection organisation. Personnel certification stays with the NDT contractor's employer. Industrial radiography is licensed in New Jersey by the Department of Environmental Protection, which has run the state's Agreement State program since 2009, and Atlantis does not perform it in the United States; reviewing the radiographs, CR and DR images that licensed contractors produce is a separate document review, and that we offer."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you review reports from the Bayway refinery's contractors?",
+      "a": "We review refinery reports of that kind for owners, contractors and their advisers: vessel, piping, tank and exchanger records against API 510, 570 and 653, the owner's procedures and, where it applies, the state's TCPA records provision."
+    },
+    {
+      "q": "What does the Toxic Catastrophe Prevention Act change for an NDT report?",
+      "a": "Its mechanical integrity provision expects inspection records to sit in a system that supports retrieval and analysis. The review therefore checks traceability and comparability, not just whether each measurement was made correctly."
+    },
+    {
+      "q": "Can you review tank floor scanning data from a Linden terminal?",
+      "a": "Yes. The review checks scan coverage, how screening indications were proved up with ultrasonics and where the reported remaining thickness values came from. For magnetic flux leakage data the proposal names a reviewer certified in that method."
+    },
+    {
+      "q": "Can you act as our owner-user inspector?",
+      "a": "No. Owner-user inspection organisations, state inspectors and insurance inspectors keep their roles. We give them an independent reading of the NDT records they rely on."
+    },
+    {
+      "q": "Do you review pipeline girth weld radiographs?",
+      "a": "Yes, as a document review of images produced by your licensed contractor. We check image quality evidence, weld identification, repairs and dispositions against API 1104 and the operator's procedures."
+    },
+    {
+      "q": "Is someone sent to Linden for the review?",
+      "a": "No. The review is carried out remotely from the reports, images and raw files you send. Anything essential that is missing is listed in the opinion."
+    },
+    {
+      "q": "Can the review help with a terminal acquisition?",
+      "a": "Yes. Buyers usually send a structured sample: recent tank inspections, piping surveys and open recommendations. The opinion tells them how much of the record can support their own decisions."
+    },
+    {
+      "q": "What does the written opinion contain?",
+      "a": "A verdict for each report, the findings behind it with the clause or procedure step and the evidence for each, and a list of what would close any gap."
+    }
+  ],
+  "related": [
+    ["/inspection-services-new-jersey", "Inspection services in New Jersey"],
+    ["/consulting/ndt-consulting-linden", "NDT consulting in Linden"],
+    ["/ndt-training-new-jersey", "NDT training in New Jersey"],
+    ["/ultrasonic-testing-newark", "Ultrasonic testing in Newark"]
+  ],
+  "sources": [
+    "https://njbia.org/wp-content/uploads/2025/11/2025-Bayway-Project-FINAL.pdf",
+    "https://www.Infineum.com/en-gb/about/our-locations/americas/manufacturing-plant-and-regional-office/bayway-usa/",
+    "https://www.colpipe.com/about-us/our-history",
+    "https://regulations.justia.com/states/new-jersey/title-7/chapter-31/subchapter-4/section-7-31-4-5",
+    "https://www.nj.gov/labor/safetyandhealth/programs-services/boiler-pressure-vessel-compliance",
+    "https://www.nrc.gov/agreement-states/new-jersey",
+    "https://primis.phmsa.dot.gov/comm/FactSheets/States/NJ_State_PL_Safety_Regulatory_Fact_Sheet.htm",
+    "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2025-04/nj-2023-gas-program-evaluation.pdf",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  ]
+}
