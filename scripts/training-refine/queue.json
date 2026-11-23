@@ -1,0 +1,1079 @@
+{
+ "_note": "Daily US training refinement queue (owner 2026-11-23: rank higher on US cities for NDT training, refine every day, 2,000+ words per city page, high-potential cities without a page first). Built from GSC USA 90 days to 2026-11-20 (impressions on each page) and GA4. sections: pages without a local-options section, highest US impressions first; a page is done when its geo-depth record exists. cities: candidate new city pages, top first; a city is done when it is in src/data/na-training-2026-11/_manifest.json. The daily run (scripts/training-refine/RUNBOOK.md) takes the next city and the next three sections.",
+ "generated": "2026-11-23",
+ "sections": [
+  {
+   "path": "/ndt-training-south-carolina",
+   "place": "South Carolina",
+   "us90Impressions": 293,
+   "us90Position": 68.5,
+   "pageSpecificWords": 2292
+  },
+  {
+   "path": "/ndt-training-indiana",
+   "place": "Indiana",
+   "us90Impressions": 261,
+   "us90Position": 72.9,
+   "pageSpecificWords": 2515
+  },
+  {
+   "path": "/ndt-training-texas",
+   "place": "Texas",
+   "us90Impressions": 256,
+   "us90Position": 66.5,
+   "pageSpecificWords": 3414
+  },
+  {
+   "path": "/ndt-training-louisiana",
+   "place": "Louisiana",
+   "us90Impressions": 231,
+   "us90Position": 66.9,
+   "pageSpecificWords": 2695
+  },
+  {
+   "path": "/ndt-training-california",
+   "place": "California",
+   "us90Impressions": 185,
+   "us90Position": 70.1,
+   "pageSpecificWords": 2669
+  },
+  {
+   "path": "/ndt-training-michigan",
+   "place": "Michigan",
+   "us90Impressions": 124,
+   "us90Position": 71.8,
+   "pageSpecificWords": 2946
+  },
+  {
+   "path": "/ndt-training-ohio",
+   "place": "Ohio",
+   "us90Impressions": 109,
+   "us90Position": 65.5,
+   "pageSpecificWords": 3001
+  },
+  {
+   "path": "/ndt-training-southern-california",
+   "place": "Southern California",
+   "us90Impressions": 85,
+   "us90Position": 69.4,
+   "pageSpecificWords": 2391
+  },
+  {
+   "path": "/ndt-training-virginia",
+   "place": "Virginia",
+   "us90Impressions": 85,
+   "us90Position": 67.1,
+   "pageSpecificWords": 2654
+  },
+  {
+   "path": "/ndt-training-illinois",
+   "place": "Illinois",
+   "us90Impressions": 78,
+   "us90Position": 67.8,
+   "pageSpecificWords": 2747
+  },
+  {
+   "path": "/ndt-training-kansas",
+   "place": "Kansas",
+   "us90Impressions": 69,
+   "us90Position": 66.7,
+   "pageSpecificWords": 2832
+  },
+  {
+   "path": "/ndt-training-massachusetts",
+   "place": "Massachusetts",
+   "us90Impressions": 64,
+   "us90Position": 63.6,
+   "pageSpecificWords": 2812
+  },
+  {
+   "path": "/ndt-training-north-carolina",
+   "place": "North Carolina",
+   "us90Impressions": 58,
+   "us90Position": 36.8,
+   "pageSpecificWords": 2564
+  },
+  {
+   "path": "/ndt-training-minnesota",
+   "place": "Minnesota",
+   "us90Impressions": 58,
+   "us90Position": 59.6,
+   "pageSpecificWords": 2774
+  },
+  {
+   "path": "/ndt-training-arizona",
+   "place": "Arizona",
+   "us90Impressions": 53,
+   "us90Position": 27.7,
+   "pageSpecificWords": 2418
+  },
+  {
+   "path": "/ndt-training-new-jersey",
+   "place": "New Jersey",
+   "us90Impressions": 46,
+   "us90Position": 30.8,
+   "pageSpecificWords": 2592
+  },
+  {
+   "path": "/ndt-training-mississippi",
+   "place": "Mississippi",
+   "us90Impressions": 43,
+   "us90Position": 60.4,
+   "pageSpecificWords": 2228
+  },
+  {
+   "path": "/ndt-training-maryland",
+   "place": "Maryland",
+   "us90Impressions": 42,
+   "us90Position": 37.7,
+   "pageSpecificWords": 3380
+  },
+  {
+   "path": "/ndt-training-tennessee",
+   "place": "Tennessee",
+   "us90Impressions": 40,
+   "us90Position": 56.9,
+   "pageSpecificWords": 2546
+  },
+  {
+   "path": "/ndt-training-baton-rouge",
+   "place": "Baton Rouge, LA",
+   "us90Impressions": 39,
+   "us90Position": 55.1,
+   "pageSpecificWords": 2266
+  },
+  {
+   "path": "/ndt-training-alabama",
+   "place": "Alabama",
+   "us90Impressions": 36,
+   "us90Position": 38.4,
+   "pageSpecificWords": 3108
+  },
+  {
+   "path": "/ndt-training-washington",
+   "place": "Washington",
+   "us90Impressions": 35,
+   "us90Position": 41,
+   "pageSpecificWords": 2310
+  },
+  {
+   "path": "/ndt-training-missouri",
+   "place": "Missouri",
+   "us90Impressions": 35,
+   "us90Position": 49.4,
+   "pageSpecificWords": 2973
+  },
+  {
+   "path": "/ndt-training-new-mexico",
+   "place": "New Mexico",
+   "us90Impressions": 34,
+   "us90Position": 28.3,
+   "pageSpecificWords": 2412
+  },
+  {
+   "path": "/ndt-training-georgia",
+   "place": "Georgia",
+   "us90Impressions": 32,
+   "us90Position": 72.5,
+   "pageSpecificWords": 2390
+  },
+  {
+   "path": "/ndt-training-des-moines",
+   "place": "Des Moines, IA",
+   "us90Impressions": 28,
+   "us90Position": 78.3,
+   "pageSpecificWords": 2652
+  },
+  {
+   "path": "/ndt-training-oklahoma",
+   "place": "Oklahoma",
+   "us90Impressions": 25,
+   "us90Position": 33.6,
+   "pageSpecificWords": 2676
+  },
+  {
+   "path": "/ndt-training-south-dakota",
+   "place": "South Dakota",
+   "us90Impressions": 24,
+   "us90Position": 59.3,
+   "pageSpecificWords": 2898
+  },
+  {
+   "path": "/ndt-training-florida",
+   "place": "Florida",
+   "us90Impressions": 22,
+   "us90Position": 9.5,
+   "pageSpecificWords": 2719
+  },
+  {
+   "path": "/ndt-training-newark",
+   "place": "Newark, NJ",
+   "us90Impressions": 22,
+   "us90Position": 23.6,
+   "pageSpecificWords": 2770
+  },
+  {
+   "path": "/ndt-training-pennsylvania",
+   "place": "Pennsylvania",
+   "us90Impressions": 21,
+   "us90Position": 12.3,
+   "pageSpecificWords": 2627
+  },
+  {
+   "path": "/ndt-training-wisconsin",
+   "place": "Wisconsin",
+   "us90Impressions": 21,
+   "us90Position": 40,
+   "pageSpecificWords": 2920
+  },
+  {
+   "path": "/ndt-training-washington-dc",
+   "place": "Washington, DC",
+   "us90Impressions": 20,
+   "us90Position": 35.1,
+   "pageSpecificWords": 2490
+  },
+  {
+   "path": "/ndt-training-great-lakes",
+   "place": "the Great Lakes",
+   "us90Impressions": 19,
+   "us90Position": 4.8,
+   "pageSpecificWords": 2441
+  },
+  {
+   "path": "/ndt-training-buffalo",
+   "place": "Buffalo, NY",
+   "us90Impressions": 19,
+   "us90Position": 65.9,
+   "pageSpecificWords": 2374
+  },
+  {
+   "path": "/ndt-training-texas-inland",
+   "place": "Inland Texas",
+   "us90Impressions": 15,
+   "us90Position": 84.5,
+   "pageSpecificWords": 2664
+  },
+  {
+   "path": "/ndt-training-corpus-christi",
+   "place": "Corpus Christi, TX",
+   "us90Impressions": 14,
+   "us90Position": 34.4,
+   "pageSpecificWords": 2265
+  },
+  {
+   "path": "/ndt-training-rhode-island",
+   "place": "Rhode Island",
+   "us90Impressions": 14,
+   "us90Position": 59.7,
+   "pageSpecificWords": 3666
+  },
+  {
+   "path": "/ndt-training-lake-charles",
+   "place": "Lake Charles, LA",
+   "us90Impressions": 13,
+   "us90Position": 44.8,
+   "pageSpecificWords": 2218
+  },
+  {
+   "path": "/ndt-training-connecticut",
+   "place": "Connecticut",
+   "us90Impressions": 13,
+   "us90Position": 13.2,
+   "pageSpecificWords": 2617
+  },
+  {
+   "path": "/ndt-training-savannah",
+   "place": "Savannah, GA",
+   "us90Impressions": 12,
+   "us90Position": 8.8,
+   "pageSpecificWords": 3380
+  },
+  {
+   "path": "/ndt-training-maine",
+   "place": "Maine",
+   "us90Impressions": 11,
+   "us90Position": 15.9,
+   "pageSpecificWords": 3067
+  },
+  {
+   "path": "/ndt-training-salt-lake-city",
+   "place": "Salt Lake City, UT",
+   "us90Impressions": 11,
+   "us90Position": 19.3,
+   "pageSpecificWords": 2449
+  },
+  {
+   "path": "/ndt-training-pascagoula",
+   "place": "Pascagoula, MS",
+   "us90Impressions": 10,
+   "us90Position": 28.7,
+   "pageSpecificWords": 2892
+  },
+  {
+   "path": "/ndt-training-new-hampshire",
+   "place": "New Hampshire",
+   "us90Impressions": 10,
+   "us90Position": 61.7,
+   "pageSpecificWords": 2065
+  },
+  {
+   "path": "/ndt-training-colorado",
+   "place": "Colorado",
+   "us90Impressions": 9,
+   "us90Position": 73,
+   "pageSpecificWords": 2614
+  },
+  {
+   "path": "/ndt-training-fayetteville",
+   "place": "Fayetteville, NC",
+   "us90Impressions": 9,
+   "us90Position": 11.4,
+   "pageSpecificWords": 2899
+  },
+  {
+   "path": "/ndt-training-pacific-northwest",
+   "place": "the Pacific Northwest",
+   "us90Impressions": 9,
+   "us90Position": 16.1,
+   "pageSpecificWords": 2358
+  },
+  {
+   "path": "/ndt-training-kentucky",
+   "place": "Kentucky",
+   "us90Impressions": 8,
+   "us90Position": 28.4,
+   "pageSpecificWords": 2195
+  },
+  {
+   "path": "/ndt-training-bakersfield",
+   "place": "Bakersfield, CA",
+   "us90Impressions": 7,
+   "us90Position": 6,
+   "pageSpecificWords": 2186
+  },
+  {
+   "path": "/ndt-training-albuquerque",
+   "place": "Albuquerque, NM",
+   "us90Impressions": 7,
+   "us90Position": 38.7,
+   "pageSpecificWords": 2304
+  },
+  {
+   "path": "/ndt-training-nevada",
+   "place": "Nevada",
+   "us90Impressions": 7,
+   "us90Position": 9,
+   "pageSpecificWords": 2272
+  },
+  {
+   "path": "/ndt-training-raleigh",
+   "place": "Raleigh, NC",
+   "us90Impressions": 6,
+   "us90Position": 3.5,
+   "pageSpecificWords": 2172
+  },
+  {
+   "path": "/ndt-training-mid-atlantic",
+   "place": "the Mid-Atlantic",
+   "us90Impressions": 6,
+   "us90Position": 8.5,
+   "pageSpecificWords": 2422
+  },
+  {
+   "path": "/ndt-training-providence",
+   "place": "Providence, RI",
+   "us90Impressions": 6,
+   "us90Position": 19.8,
+   "pageSpecificWords": 3260
+  },
+  {
+   "path": "/ndt-training-grand-rapids",
+   "place": "Grand Rapids, MI",
+   "us90Impressions": 5,
+   "us90Position": 2.4,
+   "pageSpecificWords": 2094
+  },
+  {
+   "path": "/ndt-training-chattanooga",
+   "place": "Chattanooga, TN",
+   "us90Impressions": 5,
+   "us90Position": 8.2,
+   "pageSpecificWords": 2189
+  },
+  {
+   "path": "/ndt-training-utah",
+   "place": "Utah",
+   "us90Impressions": 5,
+   "us90Position": 15.4,
+   "pageSpecificWords": 2459
+  },
+  {
+   "path": "/ndt-training-el-paso",
+   "place": "El Paso, TX",
+   "us90Impressions": 4,
+   "us90Position": 19.3,
+   "pageSpecificWords": 2899
+  },
+  {
+   "path": "/ndt-training-north-dakota",
+   "place": "North Dakota",
+   "us90Impressions": 4,
+   "us90Position": 6.3,
+   "pageSpecificWords": 3180
+  },
+  {
+   "path": "/ndt-training-deer-park",
+   "place": "Deer Park, TX",
+   "us90Impressions": 3,
+   "us90Position": 6.7,
+   "pageSpecificWords": 2135
+  },
+  {
+   "path": "/ndt-training-dayton",
+   "place": "Dayton, OH",
+   "us90Impressions": 3,
+   "us90Position": 42.7,
+   "pageSpecificWords": 2176
+  },
+  {
+   "path": "/ndt-training-sacramento",
+   "place": "Sacramento, CA",
+   "us90Impressions": 3,
+   "us90Position": 16,
+   "pageSpecificWords": 2386
+  },
+  {
+   "path": "/ndt-training-texas-city",
+   "place": "Texas City, TX",
+   "us90Impressions": 3,
+   "us90Position": 58.7,
+   "pageSpecificWords": 2423
+  },
+  {
+   "path": "/ndt-training-whiting",
+   "place": "Whiting, IN",
+   "us90Impressions": 3,
+   "us90Position": 63.7,
+   "pageSpecificWords": 2992
+  },
+  {
+   "path": "/ndt-training-lynchburg",
+   "place": "Lynchburg, VA",
+   "us90Impressions": 2,
+   "us90Position": 46,
+   "pageSpecificWords": 2128
+  },
+  {
+   "path": "/ndt-training-greenville-south-carolina",
+   "place": "Greenville, SC",
+   "us90Impressions": 2,
+   "us90Position": 4,
+   "pageSpecificWords": 2191
+  },
+  {
+   "path": "/ndt-training-louisville",
+   "place": "Louisville, KY",
+   "us90Impressions": 2,
+   "us90Position": 3,
+   "pageSpecificWords": 2197
+  },
+  {
+   "path": "/ndt-training-lafayette",
+   "place": "Lafayette, LA",
+   "us90Impressions": 2,
+   "us90Position": 23,
+   "pageSpecificWords": 2514
+  },
+  {
+   "path": "/ndt-training-alaska",
+   "place": "Alaska",
+   "us90Impressions": 2,
+   "us90Position": 6.5,
+   "pageSpecificWords": 2734
+  },
+  {
+   "path": "/ndt-training-williston",
+   "place": "Williston, ND",
+   "us90Impressions": 2,
+   "us90Position": 16,
+   "pageSpecificWords": 2982
+  },
+  {
+   "path": "/ndt-training-wyoming",
+   "place": "Wyoming",
+   "us90Impressions": 2,
+   "us90Position": 7,
+   "pageSpecificWords": 3230
+  },
+  {
+   "path": "/ndt-training-little-rock",
+   "place": "Little Rock, AR",
+   "us90Impressions": 2,
+   "us90Position": 6,
+   "pageSpecificWords": 3489
+  },
+  {
+   "path": "/ndt-training-beaumont",
+   "place": "Beaumont, TX",
+   "us90Impressions": 1,
+   "us90Position": 31,
+   "pageSpecificWords": 2100
+  },
+  {
+   "path": "/ndt-training-erie",
+   "place": "Erie, PA",
+   "us90Impressions": 1,
+   "us90Position": 10,
+   "pageSpecificWords": 2101
+  },
+  {
+   "path": "/ndt-training-birmingham",
+   "place": "Birmingham, AL",
+   "us90Impressions": 1,
+   "us90Position": 1,
+   "pageSpecificWords": 2158
+  },
+  {
+   "path": "/ndt-training-portsmouth-new-hampshire",
+   "place": "Portsmouth, NH",
+   "us90Impressions": 1,
+   "us90Position": 1,
+   "pageSpecificWords": 2178
+  },
+  {
+   "path": "/ndt-training-houma",
+   "place": "Houma, LA",
+   "us90Impressions": 1,
+   "us90Position": 24,
+   "pageSpecificWords": 2329
+  },
+  {
+   "path": "/ndt-training-brownsville",
+   "place": "Brownsville, TX",
+   "us90Impressions": 1,
+   "us90Position": 40,
+   "pageSpecificWords": 2331
+  },
+  {
+   "path": "/ndt-training-long-beach",
+   "place": "Long Beach, CA",
+   "us90Impressions": 1,
+   "us90Position": 5,
+   "pageSpecificWords": 2362
+  },
+  {
+   "path": "/ndt-training-anchorage",
+   "place": "Anchorage, AK",
+   "us90Impressions": 1,
+   "us90Position": 9,
+   "pageSpecificWords": 2741
+  },
+  {
+   "path": "/ndt-training-montana",
+   "place": "Montana",
+   "us90Impressions": 1,
+   "us90Position": 5,
+   "pageSpecificWords": 3446
+  },
+  {
+   "path": "/ndt-training-arkansas",
+   "place": "Arkansas",
+   "us90Impressions": 1,
+   "us90Position": 2,
+   "pageSpecificWords": 2062
+  },
+  {
+   "path": "/ndt-training-permian-basin",
+   "place": "the Permian Basin",
+   "us90Impressions": 1,
+   "us90Position": 29,
+   "pageSpecificWords": 2305
+  },
+  {
+   "path": "/ndt-training-appalachia",
+   "place": "Appalachia",
+   "us90Impressions": 1,
+   "us90Position": 25,
+   "pageSpecificWords": 2396
+  },
+  {
+   "path": "/ndt-training-montgomery",
+   "place": "Montgomery, AL",
+   "us90Impressions": 1,
+   "us90Position": 8,
+   "pageSpecificWords": 2432
+  },
+  {
+   "path": "/ndt-training-nebraska",
+   "place": "Nebraska",
+   "us90Impressions": 1,
+   "us90Position": 4,
+   "pageSpecificWords": 2448
+  },
+  {
+   "path": "/ndt-training-richland",
+   "place": "Richland, WA",
+   "us90Impressions": 1,
+   "us90Position": 11,
+   "pageSpecificWords": 2760
+  },
+  {
+   "path": "/ndt-training-lexington",
+   "place": "Lexington, KY",
+   "us90Impressions": 1,
+   "us90Position": 6,
+   "pageSpecificWords": 2771
+  },
+  {
+   "path": "/ndt-training-colorado-springs",
+   "place": "Colorado Springs, CO",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2017
+  },
+  {
+   "path": "/ndt-training-peoria",
+   "place": "Peoria, IL",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2048
+  },
+  {
+   "path": "/ndt-training-delaware",
+   "place": "Delaware",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2078
+  },
+  {
+   "path": "/ndt-training-san-diego",
+   "place": "San Diego, CA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2091
+  },
+  {
+   "path": "/ndt-training-baytown",
+   "place": "Baytown, TX",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2094
+  },
+  {
+   "path": "/ndt-training-huntsville",
+   "place": "Huntsville, AL",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2095
+  },
+  {
+   "path": "/ndt-training-albany",
+   "place": "Albany, NY",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2121
+  },
+  {
+   "path": "/ndt-training-billings",
+   "place": "Billings, MT",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2132
+  },
+  {
+   "path": "/ndt-training-knoxville",
+   "place": "Knoxville, TN",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2146
+  },
+  {
+   "path": "/ndt-training-allentown",
+   "place": "Allentown, PA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2168
+  },
+  {
+   "path": "/ndt-training-hawaii",
+   "place": "Hawaii",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2184
+  },
+  {
+   "path": "/ndt-training-richmond",
+   "place": "Richmond, VA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2184
+  },
+  {
+   "path": "/ndt-training-newport-news",
+   "place": "Newport News, VA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2198
+  },
+  {
+   "path": "/ndt-training-bath-maine",
+   "place": "Bath, ME",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2215
+  },
+  {
+   "path": "/ndt-training-freeport",
+   "place": "Freeport, TX",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2242
+  },
+  {
+   "path": "/ndt-training-vermont",
+   "place": "Vermont",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2260
+  },
+  {
+   "path": "/ndt-training-spokane",
+   "place": "Spokane, WA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2274
+  },
+  {
+   "path": "/ndt-training-shreveport",
+   "place": "Shreveport, LA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2278
+  },
+  {
+   "path": "/ndt-training-el-segundo",
+   "place": "El Segundo, CA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2290
+  },
+  {
+   "path": "/ndt-training-odessa",
+   "place": "Odessa, TX",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2417
+  },
+  {
+   "path": "/ndt-training-sugar-land",
+   "place": "Sugar Land, TX",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2427
+  },
+  {
+   "path": "/ndt-training-wilmington-north-carolina",
+   "place": "Wilmington, NC",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2438
+  },
+  {
+   "path": "/ndt-training-aiken",
+   "place": "Aiken, SC",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2451
+  },
+  {
+   "path": "/ndt-training-toledo",
+   "place": "Toledo, OH",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2487
+  },
+  {
+   "path": "/ndt-training-duluth",
+   "place": "Duluth, MN",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2535
+  },
+  {
+   "path": "/ndt-training-jackson",
+   "place": "Jackson, MS",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2616
+  },
+  {
+   "path": "/ndt-training-east-hartford",
+   "place": "East Hartford, CT",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2630
+  },
+  {
+   "path": "/ndt-training-seattle",
+   "place": "Seattle, WA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2722
+  },
+  {
+   "path": "/ndt-training-iowa",
+   "place": "Iowa",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2752
+  },
+  {
+   "path": "/ndt-training-oregon",
+   "place": "Oregon",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2798
+  },
+  {
+   "path": "/ndt-training-phoenix",
+   "place": "Phoenix, AZ",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2839
+  },
+  {
+   "path": "/ndt-training-oak-ridge",
+   "place": "Oak Ridge, TN",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 2957
+  },
+  {
+   "path": "/ndt-training-martinez",
+   "place": "Martinez, CA",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 3430
+  },
+  {
+   "path": "/ndt-training-west-virginia",
+   "place": "West Virginia",
+   "us90Impressions": 0,
+   "us90Position": 0,
+   "pageSpecificWords": 3510
+  }
+ ],
+ "cities": [
+  {
+   "slug": "decatur-alabama",
+   "name": "Decatur",
+   "st": "AL",
+   "stateSlug": "alabama",
+   "hint": "ULA rocket factory, Nucor, chemical plants, Browns Ferry nuclear (verify)"
+  },
+  {
+   "slug": "warner-robins",
+   "name": "Warner Robins",
+   "st": "GA",
+   "stateSlug": "georgia",
+   "hint": "Robins AFB air logistics depot (verify)"
+  },
+  {
+   "slug": "akron",
+   "name": "Akron",
+   "st": "OH",
+   "stateSlug": "ohio",
+   "hint": "Akron-Canton tire, bearing and steel makers (verify)"
+  },
+  {
+   "slug": "charleston-west-virginia",
+   "name": "Charleston",
+   "st": "WV",
+   "stateSlug": "west-virginia",
+   "hint": "Kanawha Valley chemical plants, gas and power (verify)"
+  },
+  {
+   "slug": "longview-texas",
+   "name": "Longview",
+   "st": "TX",
+   "stateSlug": "texas",
+   "hint": "East Texas chemicals, rail car and pipeline work (verify)"
+  },
+  {
+   "slug": "west-palm-beach",
+   "name": "West Palm Beach",
+   "st": "FL",
+   "stateSlug": "florida",
+   "hint": "Jupiter aerospace engine work, utility generation incl. nuclear (verify)"
+  },
+  {
+   "slug": "daytona-beach",
+   "name": "Daytona Beach",
+   "st": "FL",
+   "stateSlug": "florida",
+   "hint": "aviation maintenance education and MRO; GA4 visitors (verify)"
+  },
+  {
+   "slug": "lincoln-nebraska",
+   "name": "Lincoln",
+   "st": "NE",
+   "stateSlug": "nebraska",
+   "hint": "rail car manufacturing, aviation MRO (verify)"
+  },
+  {
+   "slug": "boise",
+   "name": "Boise",
+   "st": "ID",
+   "stateSlug": "idaho",
+   "hint": "semiconductor fab construction, food processing, fabrication (verify)"
+  },
+  {
+   "slug": "lubbock",
+   "name": "Lubbock",
+   "st": "TX",
+   "stateSlug": "texas",
+   "hint": "northern Permian oil and gas services, agriculture processing (verify)"
+  },
+  {
+   "slug": "victoria-texas",
+   "name": "Victoria",
+   "st": "TX",
+   "stateSlug": "texas",
+   "hint": "Gulf Coast petrochemical plants around Point Comfort and Seadrift (verify)"
+  },
+  {
+   "slug": "linden-new-jersey",
+   "name": "Linden",
+   "st": "NJ",
+   "stateSlug": "new-jersey",
+   "hint": "refinery and tank terminals along the Arthur Kill (verify)"
+  },
+  {
+   "slug": "wilmington-delaware",
+   "name": "Wilmington",
+   "st": "DE",
+   "stateSlug": "delaware",
+   "hint": "Delaware River refining and chemicals (verify)"
+  },
+  {
+   "slug": "youngstown",
+   "name": "Youngstown",
+   "st": "OH",
+   "stateSlug": "ohio",
+   "hint": "steel and pipe making in the Mahoning Valley (verify)"
+  },
+  {
+   "slug": "south-bend",
+   "name": "South Bend",
+   "st": "IN",
+   "stateSlug": "indiana",
+   "hint": "defense vehicle and aerospace suppliers (verify)"
+  },
+  {
+   "slug": "kalamazoo",
+   "name": "Kalamazoo",
+   "st": "MI",
+   "stateSlug": "michigan",
+   "hint": "aerospace components, pharmaceutical plants (verify)"
+  },
+  {
+   "slug": "springfield-missouri",
+   "name": "Springfield",
+   "st": "MO",
+   "stateSlug": "missouri",
+   "hint": "manufacturing and rail; note /ndt-training-springfield is Springfield, IL"
+  },
+  {
+   "slug": "gulfport-mississippi",
+   "name": "Gulfport",
+   "st": "MS",
+   "stateSlug": "mississippi",
+   "hint": "Mississippi coast shipyards, Navy construction (verify)"
+  },
+  {
+   "slug": "cheyenne",
+   "name": "Cheyenne",
+   "st": "WY",
+   "stateSlug": "wyoming",
+   "hint": "refinery, Air Force base work, data centers (verify)"
+  },
+  {
+   "slug": "gillette",
+   "name": "Gillette",
+   "st": "WY",
+   "stateSlug": "wyoming",
+   "hint": "Powder River Basin surface mining (verify)"
+  },
+  {
+   "slug": "elko",
+   "name": "Elko",
+   "st": "NV",
+   "stateSlug": "nevada",
+   "hint": "northern Nevada gold mining (verify)"
+  },
+  {
+   "slug": "fresno",
+   "name": "Fresno",
+   "st": "CA",
+   "stateSlug": "california",
+   "hint": "San Joaquin Valley food processing, pipelines (verify)"
+  },
+  {
+   "slug": "laredo",
+   "name": "Laredo",
+   "st": "TX",
+   "stateSlug": "texas",
+   "hint": "border trade, pipelines, Eagle Ford services (verify)"
+  },
+  {
+   "slug": "roanoke",
+   "name": "Roanoke",
+   "st": "VA",
+   "stateSlug": "virginia",
+   "hint": "rail, manufacturing (verify)"
+  },
+  {
+   "slug": "new-haven",
+   "name": "New Haven",
+   "st": "CT",
+   "stateSlug": "connecticut",
+   "hint": "manufacturing, aerospace suppliers (verify)"
+  },
+  {
+   "slug": "worcester",
+   "name": "Worcester",
+   "st": "MA",
+   "stateSlug": "massachusetts",
+   "hint": "precision manufacturing (verify)"
+  },
+  {
+   "slug": "manchester-new-hampshire",
+   "name": "Manchester",
+   "st": "NH",
+   "stateSlug": "new-hampshire",
+   "hint": "aerospace and precision machining (verify)"
+  },
+  {
+   "slug": "topeka",
+   "name": "Topeka",
+   "st": "KS",
+   "stateSlug": "kansas",
+   "hint": "manufacturing, rail (verify)"
+  },
+  {
+   "slug": "fargo",
+   "name": "Fargo",
+   "st": "ND",
+   "stateSlug": "north-dakota",
+   "hint": "agricultural equipment manufacturing (verify)"
+  },
+  {
+   "slug": "sioux-falls",
+   "name": "Sioux Falls",
+   "st": "SD",
+   "stateSlug": "south-dakota",
+   "hint": "manufacturing, food processing (verify)"
+  }
+ ]
+}

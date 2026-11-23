@@ -44,6 +44,26 @@
     "saskatoon": ["Saskatoon", "SK", "Canada", "saskatchewan"],
     "red-deer": ["Red Deer", "AB", "Canada", "alberta"],
     "grande-prairie": ["Grande Prairie", "AB", "Canada", "alberta"],
-    "kitimat": ["Kitimat", "BC", "Canada", "british-columbia"]
+    "kitimat": ["Kitimat", "BC", "Canada", "british-columbia"],
+    "everett": ["Everett", "WA", "USA", "washington"],
+    "bremerton": ["Bremerton", "WA", "USA", "washington"],
+    "pensacola": ["Pensacola", "FL", "USA", "florida"],
+    "melbourne-florida": ["Melbourne", "FL", "USA", "florida"],
+    "greensboro": ["Greensboro", "NC", "USA", "north-carolina"],
+    "columbia-south-carolina": ["Columbia", "SC", "USA", "south-carolina"],
+    "augusta": ["Augusta", "GA", "USA", "georgia"],
+    "fort-wayne": ["Fort Wayne", "IN", "USA", "indiana"],
+    "evansville": ["Evansville", "IN", "USA", "indiana"],
+    "rochester-new-york": ["Rochester", "NY", "USA", "new-york"],
+    "syracuse": ["Syracuse", "NY", "USA", "new-york"],
+    "harrisburg": ["Harrisburg", "PA", "USA", "pennsylvania"],
+    "amarillo": ["Amarillo", "TX", "USA", "texas"],
+    "palmdale": ["Palmdale", "CA", "USA", "california"],
+    "cedar-rapids": ["Cedar Rapids", "IA", "USA", "iowa"],
+    "green-bay": ["Green Bay", "WI", "USA", "wisconsin"],
+    "pueblo": ["Pueblo", "CO", "USA", "colorado"],
+    "lima-ohio": ["Lima", "OH", "USA", "ohio"],
+    "joliet": ["Joliet", "IL", "USA", "illinois"],
+    "rockford": ["Rockford", "IL", "USA", "illinois"]
   }
 }
