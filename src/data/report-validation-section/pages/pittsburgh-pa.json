@@ -1,6 +1,6 @@
 {
   "title": "NDT Report Validation in Pittsburgh, PA | Level III Review",
-  "description": "Independent review of NDT reports from western Pennsylvania: nuclear vendor data, shale gas pipeline records, bridge weld UT and power plant data, done remotely.",
+  "description": "Independent review of NDT reports from western Pennsylvania: nuclear vendor data, shale gas pipeline records, bridge weld UT and power plant files, done remotely.",
   "h1": "Independent NDT report and digital inspection data review for the Pittsburgh region",
   "eyebrow": "Report validation: Pittsburgh and western Pennsylvania",
   "intro": "Western Pennsylvania produces inspection records from four very different worlds: a nuclear station on the Ohio River, the shale gas fields and their gathering lines, a polymers complex in Beaver County, and a dense stock of steel bridges and mill structures around the three rivers. Each of those worlds reads an NDT report for its own reasons and against its own rules. We give owners, contractors and their advisers in the Pittsburgh region an independent review of the reports and the digital inspection data behind them, checked against the procedure and the code that governed the work, and carried out remotely on the files you send.",
@@ -62,10 +62,10 @@
     {
       "h": "Western Pennsylvania records and what the reviewer opens first",
       "p": [
-        "The seven checks apply to every report, but each record type has a point where it usually breaks. The table lists the files we see most from the region and the first thing the reviewer looks at."
+        "The seven checks apply to every report, but each record type has a point where it usually breaks. The table lists the files we see most from the region and where the reviewer starts on each."
       ],
       "table": {
-        "head": ["Record from the region", "Typical source", "First thing the reviewer opens"],
+        "head": ["Record from the region", "Typical source", "Where the reviewer starts"],
         "rows": [
           ["Component data book with UT, PT and radiographs", "Nuclear supply chain fabricators around Cranberry and Pittsburgh", "The purchase order's procedure and acceptance references, then the examiner certifications on the dates of work"],
           ["Girth weld radiographs and DR images", "Gathering and transmission construction in the Marcellus and Utica", "Image quality indicators and the link from each image to a weld number on the as-built map"],
