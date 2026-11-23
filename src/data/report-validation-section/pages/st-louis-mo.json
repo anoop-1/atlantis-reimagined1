@@ -1,0 +1,153 @@
+{
+  "title": "NDT Report Validation in St. Louis, MO | Impartial Review",
+  "description": "Independent review of NDT reports and digital inspection data from St. Louis area refinery, nuclear, power plant and pipeline work, carried out remotely.",
+  "h1": "Independent review of NDT reports from both banks of the Mississippi around St. Louis",
+  "eyebrow": "Report validation: St. Louis, Missouri and the Metro East",
+  "intro": "The St. Louis region writes inspection records on two sides of a river and under two states' rules. A large refinery sits in the Illinois Metro East, a nuclear plant and a coal fleet in transition belong to Missouri's largest utility, and pipelines cross the region in every direction. A weld report that satisfies one state's boiler program may be read differently across the bridge, and a radiograph's contractor is licensed by a different authority depending on where the weld was shot. We review NDT reports and the digital inspection data behind them independently, against the procedure, the code and the rules that applied where the work was done, and remotely from the files you send.",
+  "highlights": [
+    {
+      "h": "Two states, one review",
+      "p": "Missouri and Illinois handle boilers, radiography licensing and pipeline oversight through different agencies. The opinion identifies which rules governed each record before testing it against them."
+    },
+    {
+      "h": "Refinery, reactor, coal and gas",
+      "p": "Turnaround packages, nuclear supply-chain records, boiler tube surveys and new-build vendor data all arrive from this region, and each gets the same seven checks with the emphasis its decision needs."
+    },
+    {
+      "h": "Independent of the work",
+      "p": "Atlantis does not review examinations it carried out, and the reviewer has nothing riding on whether a report passes. That is what lets an owner, a contractor or a buyer rely on the opinion."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A metro area divided by a river and a state line",
+      "p": [
+        "On the Illinois side, Phillips 66 has owned the Wood River refinery in Roxana outright since October 1, 2025, when it acquired Cenovus Energy's remaining 50% interest in WRB Refining LP, the partnership that held the plant. Wood River has a crude throughput capacity of about 345,000 barrels per day. On the Missouri side, Ameren Missouri's Callaway Energy Center near Fulton, about 25 miles east-northeast of Jefferson City, is a Westinghouse four-loop pressurized water reactor licensed to Union Electric Co., with a renewed licence running to October 2044.",
+        "Ameren's coal fleet is changing shape. The two-unit, 1,178-megawatt Rush Island plant in Jefferson County shut down in October 2024. Labadie, in Franklin County, is the company's larger coal plant and continues to run. At the Sioux Energy Center in West Alton, Ameren asked the Missouri Public Service Commission in July 2026 to approve plans for a combined cycle gas plant of about 2,100 megawatts on the site, due for completion in 2031, with the Sioux coal units retiring around the same time. Between the plants and the refinery, gas transmission and distribution lines and hazardous liquid pipelines carry product across the region.",
+        "Reviews are commissioned by refinery inspection groups, utility engineering and outage teams, contractors and fabricators answering a rejection, nuclear suppliers whose records must satisfy a licensee, and lawyers, insurers and buyers who need to know what an inspection file can prove. The owners named here describe where the region's records come from; naming them is not a claim that we have reviewed their records."
+      ]
+    },
+    {
+      "h": "The same record, read on either side of the river",
+      "p": [
+        "Before testing a report against its requirements, the reviewer establishes which requirements applied, and around St. Louis the state line decides several of them. The table sets out the main differences that affect an NDT record."
+      ],
+      "table": {
+        "head": ["Topic", "Missouri", "Illinois"],
+        "rows": [
+          ["Boilers and pressure vessels", "Boiler and Pressure Vessel unit of the Division of Fire Safety, under RSMo 650.200 to 650.295 and 11 CSR 40-2; insured objects inspected by the insurer, uninsured objects by state inspectors", "Office of the State Fire Marshal under the Boiler and Pressure Vessel Safety Act; companies employing special inspectors file certificate inspection reports, and owner-user programs keep their own inspection records"],
+          ["Industrial radiography licensing", "Missouri is not an NRC Agreement State, so NRC Region III licenses radioactive materials users", "Illinois is an Agreement State; IEMA's Office of Homeland Security administers the radioactive materials program"],
+          ["Pipelines", "The Public Service Commission runs the state gas pipeline safety program under PHMSA oversight; liquid and interstate lines answer to PHMSA", "Hazardous liquid and interstate lines answer to PHMSA, whose Central Region covers both states from Kansas City"],
+          ["Process safety", "OSHA's process safety management standard, 29 CFR 1910.119, applies to covered processes", "The same federal standard applies to covered processes, including refinery units"],
+          ["Nuclear oversight", "Callaway's reactor oversight sits with NRC Region IV", "Reactors in Illinois fall under NRC Region III, which also handles the agency's materials duties in the state"]
+        ]
+      }
+    },
+    {
+      "h": "Wood River: one owner now, records from the partnership years",
+      "p": [
+        "Until October 2025 Wood River belonged to a 50/50 partnership. Since October 2025 it has had a single owner, and its inspection history now serves that owner's program alone. Consolidations of this kind do not change the steel, but they do change who relies on the records, and they often bring new templates, a new inspection data management system and new expectations about what a complete report looks like.",
+        "A refinery of this size produces records in volume at every turnaround: API 510 vessel reports, API 570 piping reports and thickness data, exchanger tube files, phased array and TOFD examinations on repair and new welds, CR images of small-bore connections, and API 653 reports on tankage. Reviews here tend to fall into two kinds. Turnaround close-out reviews are targeted at risk: rejectable or borderline findings, repairs and work from contractors new to the site. Legacy-record reviews test a sample of older reports against the procedures and codes in force when they were written, so the owner knows which parts of the history can carry its inspection planning and which need new examination.",
+        "Typical findings are about traceability more than technique: readings filed against renumbered locations, scans archived without setup files, calibration certificates that do not cover the dates of work. The opinion classes each finding as a documentation gap or as a doubt about the disposition, which is the distinction an inspector deciding on restart actually needs."
+      ]
+    },
+    {
+      "h": "Callaway: Region IV for the reactor, Region III for the radiographer",
+      "p": [
+        "Missouri shows how split nuclear oversight can be. Callaway's reactor is overseen by NRC Region IV, while materials licensees in Missouri, including the radiography contractors who shoot welds for plants and shops, fall to NRC Region III because Missouri has not become an Agreement State. A nuclear supply-chain record from a Missouri fabricator can therefore involve both regions before it reaches the licensee.",
+        "Atlantis does not appear on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and nuclear work is offered on that footing: an independent technical opinion whose use the licensee's QA organisation decides. That covers a second reader on non-safety-related or balance-of-plant scope, oversight of a vendor's examination records before a component ships, an owner's check on an outage contractor's interpretation, and technical input when a commercial dispute turns on what an examination showed.",
+        "In a pressurized water reactor setting the records are typically ultrasonic examinations of welds and components, liquid penetrant and visual reports, and eddy current data from steam generator and heat exchanger tubes. For eddy current, which is not one of our Level III's five methods, the proposal names a reviewer with the certification the contract requires. For the rest, the reviewer checks the procedure revision on the purchase order, the examiner's certification and any required performance demonstration, calibration traceability and the disposition of every recorded indication."
+      ]
+    },
+    {
+      "h": "A coal fleet winding down and gas generation coming in",
+      "p": [
+        "A utility in transition produces two very different inspection records at once. Units that will keep running for years rely on boiler tube thickness surveys, header and attachment weld examinations and high-energy piping records to justify each outage's scope. Units approaching retirement rely on the same data to decide how little can safely be spent before they close. Both decisions depend on whether thickness readings are repeatable from outage to outage, whether the survey grid has stayed constant, and whether the instruments were calibrated and identified.",
+        "New gas generation brings the opposite problem: a flood of vendor records. Combustion turbine packages, heat recovery steam generators, piping spools and balance-of-plant equipment arrive with manufacturer's data books written to ASME Section I, Section VIII and B31.1. The reviewer reads them joint by joint against the drawings and the purchase order, checking examination extent, image quality on radiographs, ultrasonic technique and coverage where UT replaced radiography, and the examinations recorded after post-weld heat treatment and after repair.",
+        "In either case the remaining-life judgement stays with the owner's engineer. The opinion tells that engineer how much weight the inspection data underneath the judgement will bear."
+      ]
+    },
+    {
+      "h": "Missouri's boiler program and what it means for a report",
+      "p": [
+        "Missouri's Division of Fire Safety issues about 25,000 boiler and pressure vessel certificates of inspection a year. Insurance companies may inspect the objects they insure, state inspectors cover uninsured objects, and the owner stays responsible for certificate inspections whatever its contracts say. Most objects are inspected every two years, and boilers generating steam above 15 psi need a biennial internal water-side inspection. Boilers and pressure vessels installed after November 12, 1986 must meet the ASME codes and be registered with the National Board.",
+        "Those rules shape what a review looks for. A repair or alteration report on a registered vessel should carry the documentation the National Board Inspection Code expects, and a certificate inspection should name an inspector whose commission the record can show. The commissioned inspector accepts the object; Atlantis does not act as authorized inspector or inspector of record. The review gives the owner or repair organisation an independent reading of the NDE behind the repair, so that it can face the inspector's questions with evidence rather than reassurance."
+      ]
+    },
+    {
+      "h": "Pipelines through the St. Louis region",
+      "p": [
+        "Pipeline records from the region come from gas distribution and transmission work, product and crude lines serving the refinery and terminals, and station piping. The Missouri Public Service Commission runs the state's gas pipeline safety program, which PHMSA evaluates each year, while hazardous liquid and interstate lines answer to PHMSA's Central Region in Kansas City.",
+        "Files that reach review include girth weld radiographs and DR images from licensed contractors, automated ultrasonic data on new construction, dig reports combining coating condition, pit depths and wall measurements, and thickness surveys on station piping. The reviewer checks each image or data file against the weld on the alignment sheet, the image quality evidence, the acceptance standard named in the operator's procedures, and the calibration of the instruments used at the dig. Assessing the remaining strength of corroded pipe stays with the operator's engineer."
+      ]
+    },
+    {
+      "h": "Digital inspection data that crosses state lines",
+      "p": [
+        "Digital inspection data in the region often moves between companies and states before anyone reads it closely. A refinery contractor's thickness readings are imported into the owner's inspection database, a Missouri radiography contractor's DR images are viewed by an Illinois inspector, a nuclear vendor's examination package travels through a digital reporting platform to the licensee, and a utility's outage data lands in a work management system that was not designed for NDT. Each handoff is a place where a reading can attach to the wrong location or an image can lose the information an interpreter relied on.",
+        "We follow the data lineage from instrument file to issued report. That means confirming raw files exist and match what the report claims, checking the processing history of digital radiographs against what the procedure allows, re-gating phased array and TOFD indications to see whether the reported sizes reproduce, confirming thickness imports landed on the right CML, and checking that each electronic signature belongs to someone certified for that method and level on the date shown. Where an owner has consolidated records after an ownership change, a sample of migrated records shows whether the digital history survived the move."
+      ]
+    },
+    {
+      "h": "Working with us from St. Louis",
+      "p": [
+        "There is no Atlantis presence in St. Louis, in Missouri or in Illinois. Reviews happen remotely, at our offices in Houston and Hyderabad, on the reports and raw files you send through secure transfer, so nothing waits on travel or site access.",
+        "Describe the report, the method, the code and the decision riding on it, using the form or info@atlantisndt.com, and we reply within one business day with the review scope, the named reviewer and a quote. Reviews in UT, RT, MT, PT and VT are directed by an ASNT NDT Level III holding all five method certifications, and the review team behind that Level III includes members who come from nuclear, maritime, oil and gas and petrochemical work.",
+        "Each report receives one of three verdicts: sound, deficient in documentation only, or deficient in disposition, with every finding tied to a clause, table or procedure step. Fitness-for-service and remaining-life work stays with your engineer, and certification of personnel stays with their employer under its written practice."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Our weld was examined in Illinois but the equipment will operate in Missouri. Which rules does the review use?",
+      "a": "The review identifies which rules governed each part of the work: the construction code and purchase order for the examination, the licensing authority of the radiography contractor where the work was done, and the boiler program of the state where the object is installed. The opinion states which requirement each finding rests on."
+    },
+    {
+      "q": "Can you review a Wood River area turnaround package before restart?",
+      "a": "Yes. We usually review a risk-ranked sample agreed with the owner: repairs, rejectable or borderline findings, and work from contractors new to the site. The opinion separates paperwork that can be corrected from findings that affect whether an item can return to service."
+    },
+    {
+      "q": "Can you give an opinion on records supplied for Callaway?",
+      "a": "We can give an independent technical opinion, for example on a vendor's records before shipment or on a disputed interpretation. Atlantis holds no position on any licensee's Appendix B or NQA-1 approved supplier list, so how the opinion is used is a decision for the licensee's QA organisation."
+    },
+    {
+      "q": "Do you take radiographs in Missouri or Illinois?",
+      "a": "No. Atlantis does not perform industrial radiography anywhere in the United States. We review the film, CR and DR images your licensed contractor produced, for image quality, coverage and interpretation against the acceptance standard."
+    },
+    {
+      "q": "Can a review help with a boiler repair before the Missouri inspector arrives?",
+      "a": "It can. We read the repair NDE against the construction code and the repair documentation the inspector will expect, and tell you where the record is weak. Acceptance of the boiler stays with the commissioned inspector."
+    },
+    {
+      "q": "We need to decide how long to keep running a coal unit. What can the review add?",
+      "a": "It tells you whether the thickness history, tube examinations and weld records are reliable enough to base the decision on. The remaining-life calculation and the run-or-retire decision stay with your engineer and your management."
+    },
+    {
+      "q": "Do you need to visit the site?",
+      "a": "No. The review is remote and works from the documents and data files you send, so there is no site visit, permit or escort to arrange."
+    },
+    {
+      "q": "What should we send to get a review scoped?",
+      "a": "The report or a sample, the procedure and code it was written to, the state where the work was done, and a line on the decision it supports. A reply follows within one business day with the scope, the reviewer's name and a quote."
+    }
+  ],
+  "related": [
+    ["/ndt-training-st-louis", "NDT training in St. Louis"],
+    ["/ndt-training-missouri", "NDT training in Missouri"],
+    ["/ultrasonic-testing-st-louis", "Ultrasonic testing in St. Louis"],
+    ["/magnetic-particle-testing-st-louis", "Magnetic particle testing in St. Louis"]
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20250909376541/en/Phillips-66-announces-agreement-to-purchase-remaining-interest-in-WRB-Refining-LP",
+    "https://www.sec.gov/Archives/edgar/data/1534701/000153470126000006/psx-20251231.htm",
+    "https://www.nrc.gov/info-finder/reactors/call",
+    "https://www.stlpr.org/health-science-environment/2024-10-14/ameren-missouris-rush-island-coal-plant-close-litigation",
+    "https://dfs.dps.mo.gov/programs/bpv/",
+    "https://ilga.gov/legislation/ilcs/documents/043000750K11.htm",
+    "https://www.nrc.gov/agreement-states/missouri",
+    "https://www.nrc.gov/agreement-states/illinois",
+    "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2025-04/mo-2023-gas-program-evaluation.pdf",
+    "https://www.phmsa.dot.gov/about-phmsa/offices/central-region",
+    "https://www.stlpr.org/health-science-environment/2026-07-27/ameren-missouri-build-new-natural-gas-plant-west-alton"
+  ]
+}

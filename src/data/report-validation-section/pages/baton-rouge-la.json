@@ -1,0 +1,231 @@
+{
+  "title": "NDT Report Validation in Baton Rouge, LA | Level III Review",
+  "description": "Independent review of NDT reports and digital inspection data from Baton Rouge refineries, chemical plants and power stations, done remotely on your files.",
+  "h1": "Independent review of inspection reports from the Baton Rouge river corridor",
+  "eyebrow": "Report validation: Baton Rouge, Louisiana",
+  "intro": "Between Port Allen, Plaquemine, Geismar and the ExxonMobil complex north of downtown, the Baton Rouge stretch of the Mississippi produces a constant flow of inspection reports: refinery turnaround packages, chemical plant outage records, data books for new units and boiler data from the power plants up the river. When one of those reports has to be accepted, defended or relied on in a transaction, we read it independently against the procedure and code it was written to, and we open the digital inspection data behind it. Atlantis has no Baton Rouge office. The review is carried out remotely on the records you send.",
+  "highlights": [
+    {
+      "h": "Refinery, chemical and power records side by side",
+      "p": "Many contractors in the capital region work the refinery, the polymer plants and the Geismar chemical sites in the same season. A single reviewer applying one set of checks makes their reports comparable, whichever owner ends up reading them."
+    },
+    {
+      "h": "Read against Louisiana's rules as well as the code",
+      "p": "Jurisdictional boiler inspection, the process vessels that fall outside it and the federal PSM standard each ask different things of a record. The opinion states which regime each finding matters to, so the right person acts on it."
+    },
+    {
+      "h": "The files are reopened, not just the summary",
+      "p": "Encoded scans, computed and digital radiography images, tube data and CML exports from Baton Rouge jobs are opened in review software and compared with what the signed report claims about them."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Who sends reports from the Baton Rouge area, and why",
+      "p": [
+        "The capital region is one of the densest parts of the Louisiana chemical corridor. ExxonMobil's Baton Rouge complex combines a refinery, a chemical plant, polyethylene and polypropylene plants and a lubricants blending plant, and the state's 2025 refinery survey lists the refinery at 522,500 barrels per calendar day. Across the river, Placid Refining operates its Port Allen refinery and has moved its headquarters from Texas to Louisiana. Downstream, Dow's Louisiana Operations at Plaquemine runs fifteen production units, and the Geismar cluster in Ascension Parish includes the site BASF calls its largest Verbund site in the United States, where a new MDI plant was inaugurated on 11 November 2026.",
+        "The people who ask for an independent reading are rarely the people who produced the record. An owner's inspection group may want a second look at a contractor's close-out set before a unit restarts. A contractor may need to know whether the owner's rejection of its report is technically right. A project team may be accepting vendor data books for a new unit, and an insurer or a buyer may be leaning on years of inspection history to make a decision of its own. The plants on this page are named to describe the area; none of them is presented as a client."
+      ]
+    },
+    {
+      "h": "Baton Rouge sites and the records they generate",
+      "p": [
+        "The table maps the larger sites within an hour of the city to the reports they most often produce. Which records come to us depends on the decision being made, not on the size of the plant."
+      ],
+      "table": {
+        "head": [
+          "Site",
+          "Operator",
+          "Records that typically reach review"
+        ],
+        "rows": [
+          [
+            "Baton Rouge refinery and chemical plant",
+            "ExxonMobil",
+            "Turnaround packages, CML thickness data on API 570 circuits, API 510 vessel reports, exchanger tube data and PAUT on repair welds"
+          ],
+          [
+            "Baton Rouge polyolefins and plastics plants",
+            "ExxonMobil",
+            "Piping reports around reactors and finishing areas, penetrant records on stainless lines, data books for expanded units"
+          ],
+          [
+            "Port Allen refinery",
+            "Placid Refining Company",
+            "Close-out sets from smaller turnarounds, API 653 tank reports, thickness surveys on crude and vacuum unit piping"
+          ],
+          [
+            "Louisiana Operations, Plaquemine",
+            "Dow",
+            "Records from chlor-alkali and polymer units, corrosion maps on vessels in aggressive service, weld records on tie-ins"
+          ],
+          [
+            "Geismar Verbund site",
+            "BASF",
+            "Construction NDT for the new MDI plant and aniline expansion, vendor data books, weld maps and hydrotest packages"
+          ],
+          [
+            "River Bend Station, St. Francisville",
+            "Entergy Operations",
+            "Balance-of-plant records outside safety-related scope, vendor oversight packages, owner second-opinion requests"
+          ],
+          [
+            "Big Cajun II, New Roads",
+            "Louisiana Generating, an Atlas Holdings affiliate since 2024, with Entergy companies owning 42% of Unit 3",
+            "Boiler tube thickness grids, high-energy piping weld examinations and outage reports"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Turnarounds and new units: the two busiest review seasons",
+      "p": [
+        "A spring or autumn turnaround in Baton Rouge often draws the same contractor crews that have just finished at Plaquemine or Geismar, and their reports arrive in waves as each piece of equipment closes. The owner's inspectors have to release equipment on those reports, and a weak record discovered after start-up is far harder to fix than one caught while the vessel is still blinded. Reviews can therefore run in batches during the outage, so that a missing calibration record or an undispositioned indication goes back to the contractor while the crew and the instrument are still on site.",
+        "New construction brings a different volume. The polypropylene growth project ExxonMobil started up in 2022 and the MDI and aniline work BASF finished at Geismar in 2026 are the kind of projects that leave thousands of weld records, vendor data books for vessels and exchangers, field radiographs and ultrasonic examinations used in place of radiography. A project team accepting those records before mechanical completion is buying the plant's baseline inspection history, and the review tells them whether that baseline will hold up when the first in-service inspection compares against it."
+      ],
+      "list": [
+        "Close-out review of a turnaround package from several contractors before equipment is returned to operations",
+        "Acceptance of shop data books for vessels, exchangers and spools bought for a new or expanded unit",
+        "A second opinion when the owner's inspector has rejected a contractor's PAUT, UT or radiographic report",
+        "Records handed over with equipment bought from another site or moved between units",
+        "Inspection history read on behalf of an insurer, a lender or a buyer before a decision is made"
+      ]
+    },
+    {
+      "h": "Louisiana rules that shape a Baton Rouge inspection record",
+      "p": [
+        "Boilers in Louisiana answer to the Office of State Fire Marshal, Code Enforcement and Building Safety, part of the Department of Public Safety and Corrections. The state adopts the ASME Boiler and Pressure Vessel Code as the Louisiana Boiler Construction Code, and its statute calls for boilers and pressure vessels requiring ASME Code stamping to be inspected under the ASME Code and National Board standards. The definitions in the state's administrative code exempt some vessels inside chemical and petroleum processing systems, such as evaporators and heat exchangers, from jurisdictional inspection.",
+        "That exemption does not leave those vessels unregulated. Louisiana has no OSHA-approved state plan, so federal OSHA enforces the process safety management standard, 29 CFR 1910.119, in Baton Rouge plants, and its mechanical integrity element expects each inspection and test on covered equipment to be documented. For a process vessel outside the boiler program, the owner's API 510 program and the PSM record are what an auditor will read, so the review tests the report against both. EPA's risk management program rule, 40 CFR Part 68, adds a parallel set of mechanical integrity expectations for the facilities it covers.",
+        "Radiography sits under yet another regulator. Louisiana has been an NRC Agreement State since 1967, and the Department of Environmental Quality licenses industrial radiography in the state. Atlantis does not perform industrial radiography in Louisiana; film, CR and DR images produced by your licensed contractor are reviewed as documents. River Bend, as a power reactor, remains under the NRC itself through its Region IV office at Arlington, Texas."
+      ]
+    },
+    {
+      "h": "Where petrochemical and polymer reports usually fall short",
+      "p": [
+        "The plants around Plaquemine and Geismar run a lot of stainless steel, nickel alloys and lined equipment in chlorine, caustic and aromatic service, which changes what a good report looks like. Penetrant testing on austenitic welds depends on surface preparation, dwell time and temperature, none of which can be checked after the developer is wiped off unless the report recorded them. Ultrasonic examination of austenitic welds needs a technique and calibration suited to coarse-grained weld metal, and a report that applies a carbon steel shear-wave setup to a stainless joint can look tidy while proving very little.",
+        "Thickness data has its own traps in this service. Readings on clad or lined vessels have to say whether they measured the total wall or the backing steel, corrosion maps on chlorinated or caustic equipment need a grid that the next survey can repeat, and small-bore connections examined by computed radiography need image quality evidence on every exposure. The review checks each of these against the procedure the report cites, and where the procedure itself is silent, the opinion says so rather than inventing a requirement."
+      ],
+      "list": [
+        "PT reports without recorded dwell time, surface temperature or penetrant batch",
+        "Ultrasonic technique sheets for austenitic welds copied from a carbon steel procedure",
+        "Clad vessel readings that do not state which layer was measured",
+        "CR exposures of small-bore branches with no image quality indicator visible",
+        "Corrosion maps saved without a datum that ties the grid to the vessel drawing"
+      ]
+    },
+    {
+      "h": "Digital inspection data from Baton Rouge jobs",
+      "p": [
+        "Most of the inspection work in this corridor is now captured digitally. Thickness gauges export straight into the owner's inspection database, phased array and TOFD scans on reactors and heavy-wall piping are saved as encoded files, CR plates are scanned on site, exchanger tube data comes off the eddy current instrument as raw files, and the finished report is generated on a digital reporting platform and signed electronically. That makes an independent review stronger, because the evidence can be reopened and re-measured years later, provided the chain from acquisition to issued report is intact.",
+        "We follow that chain. The reviewer confirms which instrument file produced which reading, whether a scan was acquired with the setup the procedure qualified, whether a CR image was processed again after it was interpreted, and whether the electronic signature on the report belongs to someone qualified on that date. Where an owner has changed contractors or moved to a new digital reporting system, a sample of migrated records shows whether CML identifiers, units and history came through intact, which matters in Baton Rouge because many circuits there have decades of readings behind them."
+      ]
+    },
+    {
+      "h": "River Bend and Big Cajun II: power records with different readers",
+      "p": [
+        "River Bend, Entergy's boiling water reactor about twenty-four miles north-northwest of the city, works inside a licensee quality program that Atlantis is not part of. Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and we do not present our work as safety-related. What we can offer is an independent technical opinion that the licensee's QA organisation decides how to use: a second reading of a vendor's records on non-safety-related plant, support for vendor oversight, or an owner's check of a disputed report. We claim no experience at the plant.",
+        "Big Cajun II at New Roads raises the more familiar questions of a fossil station. Boiler tube thickness grids, steam drum and header reports and weld examinations on high-energy piping are read against ASME Section I, B31.1 and the procedures the outage contract named. The reviewer pays particular attention to whether a grid can be repeated at the next outage and whether repair welds were re-examined over the full excavation. Acceptance of a boiler for the jurisdiction stays with the inspector who holds that commission."
+      ]
+    },
+    {
+      "h": "How a review runs when the records are in Baton Rouge",
+      "p": [
+        "Nobody from Atlantis needs a gate pass or a site badge. The company's offices are in Houston and Hyderabad, and the review is done remotely from the reports and data you send by secure transfer, so the plant's location makes no difference to how the work is carried out or how quickly it starts."
+      ],
+      "list": [
+        "Tell us what the report covers, the method, the code or owner standard it was written to and the decision it supports",
+        "We reply within one business day with the proposed scope, the reviewer and a quote",
+        "Reports, procedures, personnel and calibration records and the raw digital files arrive by secure transfer",
+        "Gaps the record cannot answer come back to you as written questions rather than assumptions",
+        "The opinion classes the report as sound, deficient in documentation only or deficient in disposition, and ties each finding to a clause or procedure step"
+      ]
+    },
+    {
+      "h": "Who reviews, and where the opinion stops",
+      "p": [
+        "Records in UT, RT, MT, PT and VT are reviewed under the direction of an ASNT NDT Level III who is certified in each of those five methods. Exchanger eddy current data, remote field files and MFL floor scans go to a reviewer the proposal names, holding the certification your contract requires. The wider review team has worked in nuclear, maritime, oil and gas and petrochemical settings, which is the mix the Baton Rouge corridor puts in front of a reviewer.",
+        "The opinion is about the record. Fitness-for-service, remaining-life and rerating calculations stay with your engineer, and Atlantis does not perform them. The inspector of record your program names keeps the authority to accept the inspection and set the next interval. We do not certify personnel, and we do not review reports on examinations Atlantis carried out, which keeps the opinion independent of the result."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review a Baton Rouge turnaround package while the unit is still down?",
+      "a": "Yes. Reviews can run in batches as contractors issue their reports, so gaps reach the contractor while the equipment is still open and the crew is still on site. We agree with the owner which packages to take first, usually repairs, rejectable or borderline findings and work by contractors new to the site."
+    },
+    {
+      "q": "Can you check vendor data books for a new unit before handover?",
+      "a": "We can. The data books are read against the code, the purchase order and the project's NDT specification: examination extent by joint, image quality on radiographs and DR images, ultrasonic technique where it replaced radiography, personnel and calibration records, and the link between weld maps and reports. The opinion separates missing paperwork from findings that affect acceptance."
+    },
+    {
+      "q": "Do Louisiana's boiler rules apply to the vessels in our report?",
+      "a": "It depends on the equipment. Boilers and Code-stamped vessels fall to the Office of State Fire Marshal's boiler program, while some vessels inside chemical and petroleum processing systems are exempt from jurisdictional inspection and are governed by the owner's mechanical integrity program under OSHA PSM. The opinion states which regime each finding is relevant to."
+    },
+    {
+      "q": "Will someone from Atlantis visit our Plaquemine or Geismar site?",
+      "a": "No. There is no field team behind the review. It is a remote document and data review carried out from Houston and Hyderabad on the files you send, and nothing in it needs site access."
+    },
+    {
+      "q": "Do you review radiographs taken by our Louisiana radiography contractor?",
+      "a": "Yes, as documents. Film, CR and DR images are checked for image quality, coverage, geometry and interpretation against the procedure and acceptance criteria. Atlantis does not perform industrial radiography in Louisiana, where the Department of Environmental Quality licenses that work."
+    },
+    {
+      "q": "Can you review records connected with a nuclear plant such as River Bend?",
+      "a": "We can give an independent technical opinion, which the licensee's QA organisation decides how to use. Atlantis is not on any Appendix B or NQA-1 approved supplier list, so the work suits non-safety-related scope, vendor oversight, owner second opinions and disputes rather than safety-related acceptance."
+    },
+    {
+      "q": "Who reviews exchanger eddy current data from Baton Rouge turnarounds?",
+      "a": "A reviewer holding the eddy current certification your contract specifies, named in the proposal. That reviewer opens the raw tube files, checks the reference standard and analysis rules against the tube material, and confirms that every tube on the map was actually tested."
+    },
+    {
+      "q": "What do we receive at the end, and who can use it?",
+      "a": "A written opinion listing what was reviewed and against which edition, each finding tied to the clause or procedure step and the evidence, and a verdict of sound, deficient in documentation only, or deficient in disposition. Owners, contractors, insurers and counsel use it as an independent technical input; decisions on the equipment stay with the owner."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/inspection/third-party-inspection-baton-rouge",
+      "Third-party inspection in Baton Rouge"
+    ],
+    [
+      "/consulting/ndt-consulting-baton-rouge",
+      "NDT consulting in Baton Rouge"
+    ],
+    [
+      "/ndt-training-baton-rouge",
+      "NDT training in Baton Rouge"
+    ],
+    [
+      "/ultrasonic-testing-baton-rouge",
+      "Ultrasonic testing in Baton Rouge"
+    ],
+    [
+      "/inspection/pressure-vessel-inspection-services-baton-rouge",
+      "Pressure vessel inspection in Baton Rouge"
+    ],
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ]
+  ],
+  "sources": [
+    "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf",
+    "https://corporate.exxonmobil.com/locations/united-states/baton-rouge-operations/our-facilities",
+    "https://corporate.exxonmobil.com/news/news-releases/2022/1206_exxonmobil-doubles-polypropylene-production-at-baton-rouge",
+    "https://www.opportunitylouisiana.gov/news/placid-refining-relocates-headquarters-from-texas-to-louisiana",
+    "https://placidrefining.com/company-profile/",
+    "https://corporate.dow.com/en-us/locations/louisiana",
+    "https://www.basf.com/us/en/media/news-releases/2026/11/P-US-26-44",
+    "https://www.nrc.gov/info-finder/reactors/rbs1",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
+    "https://www.legis.la.gov/legis/Law.aspx?d=83925",
+    "https://www.osha.gov/stateplans",
+    "https://www.nrc.gov/agreement-states/louisiana.html",
+    "https://www.deq.louisiana.gov/emergency-radiation/industrial-radiography",
+    "https://www.sec.gov/Archives/edgar/data/1089819/000108981924000021/cnl-20240601.htm",
+    "https://www.gem.wiki/Big_Cajun_2_power_plant"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "title": "NDT Report Validation in Detroit, MI | Third-Party Review",
+  "description": "Independent review of NDT reports and digital inspection data from southeast Michigan refinery, nuclear, power plant and fabrication work, done remotely.",
+  "h1": "Independent review of NDT reports and inspection data from Detroit and southeast Michigan",
+  "eyebrow": "Report validation: Detroit and southeast Michigan",
+  "intro": "Southeast Michigan writes inspection records for a heavy-crude refinery in southwest Detroit, a boiling water reactor south of the city, a utility retiring coal while it builds and converts gas units, and a deep base of shops that weld pressure equipment and structural steel. Each of those records eventually lands on someone's desk with a decision attached: accept it, pay for it, restart on it or defend it. We give that reader an independent, line-by-line review of the NDT report and the digital inspection data behind it, tested against the procedure and code that governed the work and carried out remotely on the files you send.",
+  "highlights": [
+    {
+      "h": "Built around Michigan's rules",
+      "p": "The opinion takes account of MIOSHA's process safety rule, the Michigan Boiler Code, the state's position on power piping inspection and the fact that radiography licensing in Michigan sits with the NRC rather than a state program."
+    },
+    {
+      "h": "Refinery, reactor, utility, shop",
+      "p": "Turnaround packages, nuclear vendor records, boiler tube surveys and manufacturer's data books each fail in their own way. The reviewer starts where that record type usually breaks, then runs every check."
+    },
+    {
+      "h": "No stake in the answer",
+      "p": "We never review an examination Atlantis performed, and nothing in the opinion depends on whether the report passes. A reader on either side of a dispute can rely on what it says."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Who asks for report reviews in southeast Michigan",
+      "p": [
+        "Marathon Petroleum's Detroit refinery sits in the southwest of the city, rated at about 146,000 barrels per calendar day. The Detroit Heavy Oil Upgrade Project, completed in 2012, gave it the ability to run more heavy sour crude, Canadian grades among them, and the plant ships gasoline, distillates, asphalt, propane, heavy fuel oil and petrochemical feedstocks. South of the city, DTE Electric operates Fermi 2, a General Electric boiling water reactor about 25 miles northeast of Toledo whose renewed licence runs to March 2045. DTE is also reshaping its fossil fleet, and around all of this sits a manufacturing economy with shops that build vessels, exchangers, skids and steel structures for plants in Michigan and well beyond it.",
+        "Requests for an independent reading of an NDT report come from people one step removed from the examination. A refinery inspection group wants a second opinion on a contractor's dispositions before a unit restarts. An outage contractor whose report was rejected by the owner's inspector wants to know whether the rejection stands. A utility engineer needs to know whether ten years of boiler tube thickness data can carry a run-to-retirement decision. A shop has a data book held at receipt, a buyer wants a supplier's records checked before final payment, and an insurer or a lawyer needs to know what an inspection file can prove.",
+        "The plants named on this page are there to describe the industrial landscape that produces records in the region. Naming a site does not mean we have reviewed its records or worked for its owner."
+      ]
+    },
+    {
+      "h": "Detroit-area record streams and where the review begins",
+      "p": [
+        "All seven checks run on every report: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. What changes from one record stream to the next is the document the reviewer asks for before anything else, because that is usually where the record either holds together or falls apart."
+      ],
+      "table": {
+        "head": ["Record stream", "Where it comes from", "Typical contents", "What the reviewer asks for first"],
+        "rows": [
+          ["Refinery turnaround and on-stream inspection", "The Detroit refinery's crude, coking, hydrotreating and sour water units", "API 510 vessel and API 570 piping reports, CML thickness data, PAUT on repair welds, CR images of small-bore connections", "The revision of the owner's inspection plan in force and an extract of the CML records the readings were filed against"],
+          ["Nuclear outage and vendor records", "Fermi 2 outage contractors and suppliers shipping components for it", "UT and PT on components, visual examination records, vendor data books, calibration files", "The purchase order's code and acceptance references, and how the licensee's QA group means to use the opinion"],
+          ["Utility boiler and power piping", "DTE's Monroe and Belle River plants and the Blue Water Energy Center", "Waterwall and superheater thickness surveys, HRSG and B31.1 weld records, MT on headers and attachments", "The construction code edition the work claims, and who the owner designated as inspector for the power piping"],
+          ["Shop fabrication", "Vessel, exchanger, skid and structural steel shops around Wayne, Oakland and Macomb counties", "Manufacturer's data books, radiographs or DR images, UT used in place of radiography, PMI and hardness logs", "The weld map and the purchase order, so every joint can be matched to an examination"],
+          ["Pipelines", "Gas transmission and distribution under the state program, liquid lines under PHMSA", "Girth weld images and interpretations, dig reports, wall thickness and pit depth data", "The alignment sheet and the acceptance standard named in the operator's procedures"]
+        ]
+      }
+    },
+    {
+      "h": "Records from a refinery that runs heavy sour crude",
+      "p": [
+        "A crude slate weighted toward heavy sour grades shapes what a refinery's inspection plan has to cover. Hot hydrocarbon circuits face high-temperature sulfidation, overhead and sour water systems face wet hydrogen sulfide damage, and coking units add thermal cycling, erosion and fouling. The reports that come out of a turnaround reflect that: wall-loss surveys on high-temperature piping, wet fluorescent magnetic particle and angle-beam or phased array examinations for cracking in sour service vessels, and coke drum records that combine shell profiles with crack examination at the skirt attachment.",
+        "The questions a reviewer asks are correspondingly specific. Was the thickness survey on a sulfidation circuit dense enough to catch localised loss, and do the readings tie to the CML numbers in the owner's database rather than to a contractor's own grid? Did the technique chosen for wet H2S cracking actually have the sensitivity to find it, and was the surface preparation recorded? Where phased array sized a crack-like indication, do the encoded files support the reported length and through-wall extent, and did the setup use the focal laws the procedure qualified? Those questions sit inside the seven checks; the crude slate decides which of them carries the most weight.",
+        "Turnaround packages are often sound in substance and untidy in paperwork. The opinion separates the two, so the owner can release items once a contractor corrects a document, and can send the few items with real technical doubt to an engineer before the unit comes back on line."
+      ]
+    },
+    {
+      "h": "Fermi 2 and the nuclear supply chain: a second reader, not a qualified supplier",
+      "p": [
+        "Fermi 2 falls under NRC Region III, which works from Chicago, and everything bought and examined on the licensee's behalf moves through the licensee's own quality assurance program. Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and we say so at the start of every nuclear conversation rather than leaving it to be discovered.",
+        "What we offer is an independent technical opinion that the licensee's QA organisation decides how to use. In practice that covers non-safety-related and balance-of-plant scope where the station wants a second reader, oversight of a vendor's examination records before a component ships, a check on a contractor's interpretation when the station's own reviewers disagree with it, and technical input to a commercial dispute over outage work. Whether the opinion enters any quality record is the licensee's call, not ours.",
+        "The records themselves tend to be ultrasonic and liquid penetrant examinations of components, visual examination reports, and vendor data books. Where an examination falls under ASME Section XI, the reviewer checks whether the procedure and the examiner needed a performance demonstration and whether the record shows one, whether the calibration block is traceable to the component's material and thickness, and whether each indication was recorded and dispositioned against the acceptance standard the purchase order named."
+      ]
+    },
+    {
+      "h": "A utility in transition and the power piping question",
+      "p": [
+        "In July 2023 the Michigan Public Service Commission approved a settlement of DTE Electric's integrated resource plan. Under it, Monroe Power Plant units 3 and 4 retire by the end of 2028 and units 1 and 2 by the end of 2032, and the coal-fired Belle River plant in St. Clair County is converted to run on natural gas as a peaking plant. DTE's Blue Water Energy Center in East China Township, a 1,150-megawatt gas-fired combined cycle plant, began commercial operation in June 2022.",
+        "Each of those changes produces a different kind of record. Units heading for retirement live on their inspection history: an owner deciding how far to run a boiler without major tube replacement leans hard on thickness surveys, and the review asks whether the readings are repeatable from outage to outage and whether the survey grid matches the previous one. A conversion brings new piping, burners and controls, so vendor and installation weld records arrive in volume. A combined cycle plant generates heat recovery steam generator inspections, attemperator and header examinations, and high-energy piping records written to ASME Section I and B31.1.",
+        "Michigan has a specific position on power piping. The state's boiler regulators have told owners and installers that inspection of B31.1 non-boiler external piping is the owner's responsibility under the code, that the owner designates the owner's inspector, and that the state's chief and deputy inspectors will not perform power piping inspections. The owner's inspector stays the owner's designee; an independent review of the NDE records behind that piping gives the inspector, or the engineer who appointed them, a reading of whether the examinations will hold up."
+      ]
+    },
+    {
+      "h": "Southeast Michigan shops and the manufacturer's data book",
+      "p": [
+        "Fabricators in the region build ASME Section VIII vessels, shell-and-tube exchangers, process skids and structural steel for buyers who are often hundreds or thousands of miles away. A data book that arrives incomplete can hold equipment at receipt for weeks, and a buyer overseas has far fewer options than one across town. Reviewing the book before it leaves Michigan finds a gap while the welds, the examiners and the paperwork are all still within reach.",
+        "A fabrication review reads the book joint by joint against the drawings and the purchase order. The reviewer checks these points in turn, and the opinion lists each gap with the clause or purchase order line it fails:"
+      ],
+      "list": [
+        "Every weld on the map appears in an examination report, with the extent the joint category and the code require",
+        "Radiographs or DR images show the image quality indicator and density or signal-to-noise evidence the procedure demands",
+        "Ultrasonic examination used in place of radiography was permitted by the code edition and by the purchase order, and the technique sheet shows coverage",
+        "Examiners held certification in the method and level they signed for on the date of each examination",
+        "Repair welds were re-examined after repair, and after post-weld heat treatment where that applies",
+        "PMI, hardness and material certificates tie to individual welds and heat numbers rather than to a batch"
+      ]
+    },
+    {
+      "h": "Michigan's rulebook as it applies to an inspection record",
+      "p": [
+        "Process safety first. MIOSHA's Part 91 rule adopts the federal process safety management standard, 29 CFR 1910.119, by reference, so the mechanical integrity element applies to covered processes in Michigan with the same force as a state rule. That element expects inspection and test records to show the date, the person who did the work, the equipment, the test and the result. A refinery report that cannot show all five is weaker than it looks, however good the readings.",
+        "Boilers and pressure vessels sit with the Boiler Section of the Bureau of Construction Codes within the Department of Licensing and Regulatory Affairs, which administers and enforces the Michigan Boiler Code. Michigan's rules adopt the National Board Inspection Code by reference and require an inspector to record a National Board commission number on the inspection report. When a client's record is meant to support a certificate inspection or an NBIC repair, the reviewer checks that the inspector's identification and the repair documentation are there to be found.",
+        "Radiography is regulated differently here from most of the Great Lakes states. Michigan is not an NRC Agreement State, so the NRC's Region III office carries out the agency's licensing and inspection duties for radioactive materials in Michigan, while the state handles x-ray equipment and certain other sources. Atlantis does not perform industrial radiography in Michigan or anywhere else in the United States. Film radiographs, CR images and DR images produced by your licensed contractor are reviewed as documents, for image quality, coverage and interpretation.",
+        "Pipelines split by product. The Michigan Public Service Commission's pipeline safety program covers intrastate gas transmission, distribution and gathering and underground storage, under authority delegated by PHMSA, and acts as PHMSA's interstate agent for gas lines in the state. It has no jurisdiction over hazardous liquid pipelines, which answer to PHMSA directly through its Central Region, run from Kansas City."
+      ]
+    },
+    {
+      "h": "Digital inspection data from Michigan sites",
+      "p": [
+        "Very little inspection data from the region is paper any more. Refinery contractors load thickness readings into the owner's inspection data management system, outage contractors upload ultrasonic and visual results into the utility's work management tools, pipeline crews deliver digital radiography as DICONDE or vendor image files, and shops issue data books from digital reporting platforms with electronic signatures applied in batches. A PDF printed from any of these is the end of a chain, and the review follows the chain backwards.",
+        "For a thickness survey that means confirming which instrument file produced which reading and whether an imported value landed against the right CML. For encoded phased array it means opening the scan, checking the encoder calibration and the focal laws, and re-gating the indications the report dispositions. For a DR image it means checking that the stored file matches the reported weld and that any processing applied is what the procedure allows. For the digital report itself it means asking who signed, under which template revision, on what date, and whether any fields were carried forward automatically from an earlier job."
+      ]
+    },
+    {
+      "h": "Sending a Detroit report for review",
+      "p": [
+        "Atlantis has no Detroit office, staff or laboratory. The reviewers work from Houston and Hyderabad on the records you send by secure transfer, which also means nobody needs a badge, a gate escort or a site induction. You describe the report, the method, the code and the decision that depends on it, through the form or at info@atlantisndt.com, and we reply within one business day with the review scope, the named reviewer and a quote.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under an ASNT NDT Level III certified in exactly those five methods. Eddy current tube data, MFL floor scans and acoustic emission are not among them, so the proposal for that kind of record names a reviewer with the certification your contract asks for. Around the Level III is a review team whose members come from nuclear, maritime, oil and gas and petrochemical work.",
+        "Each report ends with one of three verdicts: sound, deficient in documentation only, or deficient in disposition, with every finding tied to a clause, table or procedure step and to the evidence that supports it. Remaining-life, fitness-for-service and rerating calculations stay with your engineer, acceptance of a boiler or vessel stays with the commissioned inspector, and certification of personnel stays with their employer under its written practice."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review a contractor's turnaround package from a Detroit refinery before restart?",
+      "a": "Yes. A targeted sample usually serves an owner better than every report: repairs, borderline or rejectable findings, circuits in high-temperature or sour service, and work by contractors new to the site. The opinion separates paperwork that can be corrected from findings that affect whether an item can go back into service."
+    },
+    {
+      "q": "Does anyone from Atlantis need to come to our plant in Michigan?",
+      "a": "No. The review is carried out remotely on the reports, images and raw data files you send. Where the record cannot answer a question, the question comes back to you in writing so the contractor can supply what is missing."
+    },
+    {
+      "q": "Can you provide an opinion on records for work at Fermi 2?",
+      "a": "We can provide an independent technical opinion, for example on vendor records before shipment or on a disputed interpretation. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list, so the licensee's QA organisation decides how the opinion is used."
+    },
+    {
+      "q": "Our radiography contractor shot the welds. Can you check the radiographs?",
+      "a": "Yes. Film, CR and DR images are reviewed for image quality indicators, density or signal-to-noise, coverage against the weld map and the interpretation against the acceptance standard. Atlantis does not perform radiography in Michigan, where radioactive materials licensing is handled by the NRC's Region III office."
+    },
+    {
+      "q": "Who inspects B31.1 power piping in Michigan, and how does a review help?",
+      "a": "The owner designates the owner's inspector; Michigan's chief and deputy boiler inspectors do not perform power piping inspections. Our review of the NDE records gives that inspector or the owner's engineer an independent reading of whether the examinations meet the code edition and the specification."
+    },
+    {
+      "q": "We are deciding how long to keep running an older boiler. What can the review tell us?",
+      "a": "It tells you whether the thickness history and tube examination records are reliable enough to base the decision on: repeatable locations, calibrated instruments, consistent technique and complete coverage. The remaining-life calculation itself stays with your engineer."
+    },
+    {
+      "q": "Do you review eddy current tube data from exchanger or condenser bundles?",
+      "a": "Yes, through a reviewer named in the proposal who holds the eddy current certification your contract requires, since our Level III certification covers UT, RT, MT, PT and VT and not eddy current. The raw tube files are reopened rather than only the tube sheet map."
+    },
+    {
+      "q": "A buyer has rejected our shop's data book. Can the review support our response?",
+      "a": "It can. We read the book against the code and the purchase order and classify each point the buyer raised as a genuine nonconformance, a documentation gap you can close, or a point that does not hold. A shop can send the opinion to the buyer as the basis for clearing the hold."
+    }
+  ],
+  "related": [
+    ["/inspection-services-michigan", "Inspection services in Michigan"],
+    ["/inspection/third-party-inspection-detroit", "Third-party inspection in Detroit"],
+    ["/consulting/ndt-consulting-detroit", "NDT consulting in Detroit"],
+    ["/ndt-training-detroit", "NDT training in Detroit"],
+    ["/ultrasonic-testing-detroit", "Ultrasonic testing in Detroit"]
+  ],
+  "sources": [
+    "https://www.marathonpetroleum.com/Operations/Refining/Detroit-Refinery/",
+    "https://www.nrc.gov/info-finder/reactors/ferm2",
+    "https://www.power-eng.com/nuclear/dte-s-fermi-2-nuclear-power-plant-granted-license-extension-to-2045/",
+    "https://www.michigan.gov/mpsc/commission/news-releases/2023/07/26/commission-approves-settlement-agreement-on-dte-electric-co-integrated-resource-plan",
+    "https://dteenergy.com/us/en/newsroom/2022/DTE-Energy-s-Blue-Water-Energy-Center-begins-commercial-operation.html",
+    "https://www.michigan.gov/lara/bureau-list/bcc/sections/boiler-section",
+    "https://www.michigan.gov/lara/bureau-list/bcc/sections/boiler-section/division/notice-to-owners-and-installers-of-b31-1-non-boiler-external-pipe",
+    "https://www.law.cornell.edu/regulations/michigan/Mich-Admin-Code-R-339-5203",
+    "https://law.cornell.edu/regulations/michigan/Mich-Admin-Code-R-339-5218",
+    "https://regulations.justia.com/states/michigan/labor-and-economic-opportunity/miosha/general-industry-and-construction-safety-and-occupational-health-standards/general-industry-safety-standards/part-91/section-r-408-19102",
+    "https://www.nrc.gov/agreement-states/michigan",
+    "https://www.michigan.gov/mpsc/regulatory/natural-gas/pipeline-safety",
+    "https://www.phmsa.dot.gov/about-phmsa/offices/central-region"
+  ]
+}

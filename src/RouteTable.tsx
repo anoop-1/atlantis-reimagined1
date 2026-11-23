@@ -2303,6 +2303,7 @@ const NDTConsultingPortHedland = lazy(() => import("./pages/ndt-consulting-port-
 // Service-line pages
 const ConsultingRbiProgramDesign = lazy(() => import("./pages/consulting/rbi-program-design"));
 const RbiSection = lazy(() => import("./pages/RbiSection")); // 2026-11-23 RBI section
+const ReportValidationSection = lazy(() => import("./pages/ReportValidationSection")); // 2026-11-23 report validation section
 const ConsultingFitnessForServiceApi579 = lazy(() => import("./pages/consulting/fitness-for-service-api-579"));
 const ConsultingApi510ProgramAudit = lazy(() => import("./pages/consulting/api-510-program-audit"));
 const ConsultingNdtTechnicalProcedureDevelopment = lazy(() => import("./pages/consulting/ndt-technical-procedure-development"));
@@ -4302,7 +4303,8 @@ export default function RouteTable() { return (
                   <Route path="/consulting/custom-ndt-documents" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ndt-examination-question-bank-development" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-method-scope-limitations" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/report-validation" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation" element={<LazyRoute Component={ReportValidationSection} />} /> {/* 2026-11-23 hub on the service-section template (src/pages/ReportValidationSection.tsx) */}
+                  <Route path="/report-validation/:slug" element={<LazyRoute Component={ReportValidationSection} />} /> {/* 2026-11-23 industry, method, digital and city pages; the older guides keep their explicit routes */}
                   <Route path="/report-validation/what-makes-an-ndt-report-defensible" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation/third-party-review-vs-re-inspection" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation/client-rejected-our-ndt-report" element={<LazyRoute Component={DepthPage} />} />

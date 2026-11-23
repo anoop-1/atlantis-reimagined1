@@ -1,0 +1,128 @@
+{
+  "title": "Ras Tanura NDT Report Validation | Refinery & Terminal Data",
+  "description": "Independent review of NDT reports and digital inspection data from Ras Tanura refinery, terminal and gas fractionation work, carried out remotely.",
+  "h1": "Independent review of refinery, terminal and gas plant inspection records from Ras Tanura",
+  "eyebrow": "Report validation · Ras Tanura, Saudi Arabia",
+  "intro": "Ras Tanura is where Saudi Aramco's downstream business began. Its refinery started up in 1945 and has been rebuilt and extended ever since, and beside it sit one of the world's largest crude export ports and NGL fractionation facilities. Almost everything here is operated by one company, so the people asking for an independent review are usually the contractors, agencies and vendors whose reports must satisfy that operator, or engineers who want a second reading of a contractor's work. We review those reports, and the digital inspection data behind them, against the code and the operator's standards. There is no Atlantis presence in Ras Tanura; the review is done remotely from the records sent.",
+  "highlights": [
+    { "h": "Built around T&I deliverables", "p": "Turnaround and inspection packages are read against the scope the unit was opened for, so the opinion tells you whether each item was examined as planned and not merely whether the paperwork looks tidy." },
+    { "h": "Old units and new ones", "p": "A refinery running since 1945 holds records from every era of NDT. Digitised film and decades-long thickness histories are reviewed alongside encoded PAUT files from the newest units." },
+    { "h": "Findings tied to requirements", "p": "Every point names the code clause, operator requirement or procedure step it rests on, so a contractor can answer comments with evidence and an engineer can see quickly what needs action." }
+  ],
+  "sections": [
+    {
+      "h": "A refinery that began in 1945",
+      "p": [
+        "Aramco dates its downstream operations to 1945, when the Ras Tanura refinery started work. A small plant had been built on the site in 1940 and closed within months; the refinery that followed grew into a complex able to process 550,000 barrels a day of crude oil and condensate, with a 135,000 barrel-a-day vacuum distillation column, hydrocracking and asphalt production. Ras Tanura is also the port from which the Kingdom's first crude export cargo sailed in 1939, and its terminal, with an artificial island, northern and southern piers and the Ju'aymah crude terminal, is described by Saudipedia as the largest crude oil export port in the world.",
+        "A site with that history carries inspection records from every era of the profession: film radiographs and handwritten thickness logs from the early units, decades of piping circuit history, and encoded ultrasonic data from units commissioned in recent years. Anyone reading a Ras Tanura record independently often has to judge how much weight an old measurement can bear before comparing it with a new one, and that is a question about the record rather than about the steel.",
+        "Investment has kept coming. The Clean Fuels programme added a naphtha complex, including a 138,000 barrel-a-day naphtha hydrotreater, a 90,000 barrel-a-day continuous catalytic reformer and a 65,000 barrel-a-day isomerization unit, fed by a 544-tonne naphtha splitter column set in place in October 2019. An ultra-low sulfur diesel system was inaugurated in January 2021. A year later Aramco awarded licensing agreements toward a residue upgrade complex intended to turn Ras Tanura into a full-conversion refinery, with a 75,000 barrel-a-day hydrocracker, solvent deasphalting, kerosene treating, sulfur recovery and hydrogen manufacturing."
+      ]
+    },
+    {
+      "h": "Ras Tanura facilities and the records they produce",
+      "p": [
+        "The table groups the facilities around Ras Tanura with the records that usually come out of them. They are listed to make the area recognisable; listing them does not mean Atlantis has reviewed their records or works for their operator."
+      ],
+      "table": {
+        "head": ["Facility", "What it does", "Records that typically reach review"],
+        "rows": [
+          ["Crude and vacuum distillation, hydrocracking", "Primary processing of crude oil and condensate", "T&I reports on columns, drums and heaters, CML thickness histories, PAUT and TOFD on repair welds, exchanger tube files"],
+          ["Clean Fuels naphtha complex", "Naphtha hydrotreating, continuous catalytic reforming and isomerization", "Construction weld records, PWHT charts, examinations of welds in hydrogen service, heater tube and reactor data from later T&I work"],
+          ["Ultra-low sulfur diesel system", "Diesel production, handed to Ras Tanura Terminal operations after mechanical completion", "Mechanical completion dossiers, first T&I reports, baseline thickness surveys on piping and vessels"],
+          ["Planned residue upgrade complex", "Solvent deasphalting, hydrocracking, kerosene treating, sulfur recovery and hydrogen manufacturing", "Vendor data books for heavy-wall equipment, procedure qualification records and construction NDT as the project proceeds"],
+          ["Port and Ju'aymah crude terminal", "Crude storage and export", "API 653 tank reports, floor scanning data, shell thickness surveys, transfer piping inspection reports, weld records on repairs"],
+          ["NGL fractionation", "Aramco lists Ras Tanura and Ju'aymah among its fractionation plants", "Column and exchanger reports, weld records on low-temperature piping, eddy current tube data, corrosion surveys"]
+        ]
+      }
+    },
+    {
+      "h": "One operator, many contributors",
+      "p": [
+        "At most industrial hubs a reviewer hears from several owners. At Ras Tanura nearly every asset belongs to Saudi Aramco, so independent reviews are mostly requested by the companies that work for it: inspection agencies whose reports are read by the operator's inspectors, T&I contractors closing out a unit, project contractors handing over new plant, and vendors whose equipment is held over its data book. Engineers on the operator's side sometimes want an outside reading of a contractor's work as well, particularly where a technique is new to the site.",
+        "The common thread is a reader with no stake in the outcome. A contractor whose report has been rejected wants to know whether the rejection is right before arguing it. A vendor wants to know which comments it can close with documents. An engineer wants to know whether a borderline finding rests on sound data. None of them is helped by a review that simply agrees with whoever asked for it, which is why the opinion ties every point to a clause, a requirement or a procedure step that anyone can check."
+      ]
+    },
+    {
+      "h": "Turnaround and inspection packages",
+      "p": [
+        "Aramco plans maintenance shutdowns as turnaround and inspection, or T&I, events, with inspection work drawn from its Equipment Inspection Schedule. When the gas condensate fractionation unit and the platformer and naphtha hydrotreater units went through T&I in 2018, Aramco said they ran on a five-year cycle, that planning had started two years ahead under its Corporate Maintenance Turnaround Manual, and that the work combined scheduled inspection with clean fuels tie-ins, mercury removal tie-ins and a reactor bypass project. That mix, scheduled inspection and project tie-ins in the same window, is typical of the packages that reach review.",
+        "A T&I review is most useful when it is aimed. We normally agree a sample with whoever asks: items carrying rejectable or borderline findings, repairs and alterations, equipment examined with a different technique from last time, and contractors new to the unit. The reviewer then works item by item, testing statements like these:"
+      ],
+      "list": [
+        "Each item on the inspection scope was examined with the method and coverage the scope required, with no gap between the plan and the report",
+        "Thickness readings sit on the same CMLs as the previous T&I, so corrosion rates come from like-for-like data",
+        "Every repair weld has its own examination report after repair and, where required, after heat treatment",
+        "Tie-in welds for project scope were examined to the project's requirements rather than to the maintenance procedure",
+        "Personnel and equipment records cover every date on which work was done during the shutdown"
+      ]
+    },
+    {
+      "h": "Unit-specific damage, and whether the technique could find it",
+      "p": [
+        "Reforming and hydroprocessing units bring high-temperature hydrogen, chlorides and sulfur compounds into the inspection plan. Reactor and heater records carry the most weight, and the questions that matter are about technique: whether the method chosen can detect the damage the plan is looking for, whether the procedure was qualified for that purpose, and whether coverage reached the regions where the damage would form.",
+        "Advanced ultrasonic techniques are often specified for heavy-wall reactor and piping welds in hydrogen service. For those records the reviewer opens the scan plan, the setup and calibration files and the encoded data, checks that the beam paths covered the weld and heat-affected zone through the full thickness, and confirms that the sensitivity used matches the qualified procedure. A neat report built on a scan that missed part of the volume is a deficient record, however clean its conclusions look.",
+        "Distillation sections bring their own patterns, such as high-temperature sulfidation in hot piping and corrosion under insulation on lines that run warm. Where a crude unit processes a changing slate of feeds, consistent CML data becomes especially valuable, because a rate calculated from mismatched locations can hide a real change. Interval setting and any fitness-for-service judgement stay with the operator's engineers; the opinion speaks only to whether the inspection evidence can carry the weight placed on it."
+      ]
+    },
+    {
+      "h": "Terminal, tank and fractionation records",
+      "p": [
+        "The terminal side of Ras Tanura produces a steady flow of tank and piping records. Crude and product storage is inspected under API 653 or the operator's equivalent requirements, and an out-of-service tank inspection brings shell thickness readings, floor scanning data, prove-up measurements on floor indications, examinations of repair welds and a settlement survey. The review checks that the floor scan covered the plates claimed, that the calling threshold was the one the procedure set, that every called area was proved up with a measured thickness, and that the minimum thicknesses reported follow from the data.",
+        "Transfer piping on land is read like process piping, against the circuits, CMLs and intervals of the owner's programme. Pipe supports, where external corrosion hides at the contact point, and buried or sleeved crossings are the places where coverage claims most often run ahead of the data.",
+        "NGL fractionation adds columns, reboilers, condensers and piping in low-temperature service. Weld records there have to show the impact-tested materials and procedures the design called for, and exchanger tube data, usually eddy current or IRIS, has to be read by someone qualified in that technique. The reviewer checks that the tube inspection extent matches the plan, that calibration standards suited the tube material and size, and that plugging recommendations follow from the reported indications."
+      ]
+    },
+    {
+      "h": "Operator standards and Saudi authorities at Ras Tanura",
+      "p": [
+        "Because one company operates nearly everything, the operator's standards dominate every record. International codes, chiefly ASME Section V and Section VIII, B31.3 and API 510, 570 and 653, set the technical baseline, and Saudi Aramco's engineering standards, engineering procedures, SAMSS materials specifications and inspection forms add the requirements a contractor is actually measured against. A report can pass the code and still fail the operator's requirement on extent, technique, documentation or personnel, and the review says which applies to each finding. The client supplies the operator documents that govern the work; Atlantis does not hold them on anyone's behalf.",
+        "Outside the plant fence, the High Commission for Industrial Security sets safety, fire protection and security directives for petroleum and petrochemical facilities, and the Nuclear and Radiological Regulatory Commission licenses the radiation sources used in industrial radiography. The review covers the images those licensed crews deliver, film or digital, and never the exposures themselves."
+      ]
+    },
+    {
+      "h": "Digital records across eight decades",
+      "p": [
+        "Ras Tanura shows clearly why digital inspection data needs a review of its own. Records from the early decades exist on film and paper; many have since been scanned or digitised and loaded into inspection data management systems, and the newest units were documented digitally from the first weld. One piping circuit can carry readings taken with several generations of instrument, entered by hand, imported from data loggers and migrated between databases.",
+        "The review follows that lineage for a sample of results. For digitised radiographs, it checks that the scan kept enough density range and resolution to support the original interpretation. For thickness histories, it checks units, nominal values and CML identifiers across each migration, because a reading that arrived in the wrong units or on the wrong location distorts every rate calculated from it. For new units, it opens the encoded PAUT, TOFD and DR files, compares them with the digital reports, and checks the electronic signatures and revision history on the issued documents."
+      ]
+    },
+    {
+      "h": "How the remote review runs, and where it stops",
+      "p": [
+        "No Atlantis staff work at Ras Tanura, and the review does not need them: it is carried out remotely, from Houston and Hyderabad, on files you send through a secure transfer route, including the operator's or your own platform where one is required. You tell us the unit, the method, the governing documents and what the review must support, and we reply within one business day with the scope, the reviewer and a quote. Questions the record cannot answer come back in writing before the opinion is issued, and the opinion itself gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition.",
+        "UT, RT, MT, PT and VT records are reviewed under an ASNT NDT Level III who holds certification in each of those five methods. For eddy current, IRIS or any other method, the proposal names a reviewer with the certification the contract requires. The broader team has backgrounds in nuclear, maritime, oil and gas and petrochemical work. The opinion does not replace the operator's inspector, does not set inspection intervals, does not perform fitness-for-service assessments and does not certify personnel, and no record is reviewed where Atlantis performed the examination."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is anyone from Atlantis stationed at Ras Tanura?", "a": "No. Atlantis has offices only in Houston and Hyderabad and nobody in the Kingdom. The review is a remote document and data review, so it needs no site access, gate pass or permit to work." },
+    { "q": "Can a T&I contractor have its close-out records checked before handing them to the operator?", "a": "Yes. A sample is agreed around the items most likely to draw comments, such as repairs, borderline findings, changed techniques and project tie-ins, and the opinion tells the contractor which items are ready and which need a document or a decision first." },
+    { "q": "Will the review use Saudi Aramco's standards?", "a": "Yes, when you send the applicable standards, procedures and inspection forms or the contract names them. Each finding says whether it rests on the international code, the operator's requirement or the procedure the contractor wrote." },
+    { "q": "Do you review old film radiographs that have been digitised?", "a": "Yes. The reviewer checks whether the digitised image kept enough density range and resolution to support the original interpretation, and says so plainly where it did not, because a weak scan limits what any later reader can confirm." },
+    { "q": "Can you review PAUT or TOFD data on reactor welds?", "a": "Yes. The encoded files, scan plan, setup and calibration records are opened alongside the report, and the opinion states whether coverage, sensitivity and sizing support the reported result." },
+    { "q": "Do you review API 653 tank reports from the terminal?", "a": "Yes. Floor scanning coverage and thresholds, prove-up measurements, shell thickness data, repair weld examinations and the settlement survey are checked against API 653 and the operator's requirements." },
+    { "q": "Who reviews eddy current or IRIS tube data from fractionation exchangers?", "a": "A reviewer named in the proposal, holding the certification your contract specifies for that technique. The five-method Level III reviews the UT, RT, MT, PT and VT records in the same package." },
+    { "q": "How do we send Ras Tanura records for review?", "a": "Write to info@atlantisndt.com or use the form with the unit, method, governing documents and the decision the review supports. We reply within one business day with the scope and a quote, and the files follow by secure transfer." }
+  ],
+  "related": [
+    ["/consulting/ndt-consulting-ras-tanura", "NDT consulting in Ras Tanura"],
+    ["/ndt-training-ras-tanura", "NDT training in Ras Tanura"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/phased-array-data-review-paut", "PAUT data review"],
+    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
+    ["/report-validation/radiographic-film-and-digital-interpretation-review", "Radiograph interpretation review"]
+  ],
+  "sources": [
+    "https://saudipedia.com/en/ras-tannurah-refinery",
+    "https://www.aramco.com/en/what-we-do/energy-products/refined-products",
+    "https://saudipedia.com/en/saudi-aramco",
+    "https://www.aramco.com/en/news-media/news/2019/544-tons-naphtha-splitter-successfully-relocated-to-ras-tanura",
+    "https://www.aramcolife.com/en/publications/the-arabian-sun/articles/2021/week-14/rt-clean-fuels",
+    "https://aramcolife.com/en/publications/the-arabian-sun/articles/2022/week-03-articles/ras-tanura-refinery-licensing-agreements-on-residue-upgrade",
+    "https://oilreviewmiddleeast.com/exploration-production/saudi-aramco-completes-major-turnaround-and-inspection-at-ras-tanura-refinery",
+    "https://www.aramcolife.com/en/publications/the-arabian-sun/articles/2021/week-47-articles/aramcos-hydrocarbon-journey-ngl",
+    "https://www.aramco.com/-/media/downloads/working-with-us/ertqa.pdf",
+    "https://saudipedia.com/en/high-commission-for-industrial-security",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies"
+  ]
+}

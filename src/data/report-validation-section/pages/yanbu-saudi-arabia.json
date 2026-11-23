@@ -1,0 +1,138 @@
+{
+  "title": "NDT Report Validation in Yanbu, Saudi Arabia | Remote Review",
+  "description": "Independent review of NDT reports and digital inspection data from Yanbu's refineries, petrochemical plants and power stations, done remotely.",
+  "h1": "Independent NDT report review for Yanbu's Red Sea refineries, petrochemical plants and power stations",
+  "eyebrow": "Report validation · Yanbu, Saudi Arabia",
+  "intro": "Yanbu is the Red Sea end of Saudi Arabia's energy system. Crude arrives by pipeline from the Eastern Province, three fuel refineries and a base oil plant process it, petrochemical plants work alongside them, and Marafiq's power stations keep the industrial city running. Each of those assets is inspected on a cycle, and every project and vendor delivery adds reports of its own. We review NDT reports and digital inspection data from Yanbu independently, against the code, the procedure and the operator's standards, and set out in writing what the evidence will and will not support. Atlantis keeps no Yanbu office; reviews run remotely, from Houston and Hyderabad, on the records you transfer.",
+  "highlights": [
+    { "h": "Refinery, petrochemical and power records", "p": "One review method covers a refinery T&I package, a polymer plant weld record and a boiler tube survey, with the checks weighted toward what each record has to prove." },
+    { "h": "One reading for every partner", "p": "SAMREF and YASREF are shared between Aramco and international partners. An independent opinion gives each partner the same reading of the inspection history rather than competing interpretations." },
+    { "h": "Raw files against digital reports", "p": "Encoded scans, DR images, eddy current condenser files and thickness logs are compared with the digital report that summarises them, sample by sample." }
+  ],
+  "sections": [
+    {
+      "h": "Where the East-West pipeline meets the Red Sea",
+      "p": [
+        "Yanbu Industrial City, administered by the Royal Commission for Jubail and Yanbu, covers about 606 square kilometres of the Red Sea coast, some 350 km northwest of Jeddah. Saudipedia describes its port as the largest oil export port on the Red Sea coast and the largest handling point for petroleum and chemical liquids. Much of what moves through it arrives by Aramco's East-West pipeline, which runs about 1,200 km from Abqaiq in the Eastern Province.",
+        "That geography explains the industrial mix. Refineries sit near the pipeline terminus and the export port, petrochemical plants operate alongside them, Aramco lists Yanbu among its NGL fractionation plants, and the utility company Marafiq generates the power, steam and water the whole city depends on. For an independent reviewer it means a request from Yanbu may concern a crude unit, a polymer plant, a boiler or a storage tank, sometimes in the same month and from the same contractor."
+      ]
+    },
+    {
+      "h": "Yanbu's refineries at a glance",
+      "p": [
+        "Four refining sites dominate the industrial city. Their owners differ, the work they generate differs, and so do the people who read their inspection records. The table describes the area; it is not a list of clients."
+      ],
+      "table": {
+        "head": ["Site", "Ownership and scale", "What reaches review"],
+        "rows": [
+          ["Yanbu refinery", "Saudi Aramco; construction completed in 1983, about 240,000 barrels a day", "T&I packages, CML thickness histories, piping circuit and vessel reports, exchanger tube data"],
+          ["SAMREF", "Equal shares held by Aramco and Mobil Yanbu Refining Company, an ExxonMobil subsidiary", "T&I and repair records read by two partners; in December 2025 the owners agreed to evaluate a major upgrade and petrochemical integration, with a preliminary front-end design phase subject to approvals"],
+          ["YASREF", "Aramco 62.5 percent and Sinopec 37.5 percent; 400,000 barrels a day, inaugurated in January 2016", "Records from a refinery now past its tenth anniversary; engineering studies are under way for a planned petrochemical complex with a 1.8 million tonne-a-year mixed-feed steam cracker and a 1.5 million tonne-a-year aromatics complex"],
+          ["Luberef Yanbu", "Saudi Aramco Base Oil Company, listed on the Saudi Exchange since 2022; the Yanbu plant was commissioned in 1997", "Base oil plant T&I records, hydroprocessing reactor and piping data, tank and exchanger reports"]
+        ]
+      }
+    },
+    {
+      "h": "Joint ventures and the readers of a refinery record",
+      "p": [
+        "Two of the four refineries are joint ventures, and that changes how records are read. At SAMREF, Aramco and ExxonMobil each hold half; at YASREF, Aramco and Sinopec share ownership. Partners looking at a turnaround, a capital project or an upgrade study each have engineers who may approach the inspection history from different starting points, and an independent opinion gives them one common account of what the record shows.",
+        "That account matters most when a plant is about to change. Both SAMREF and YASREF have signed venture framework agreements to study petrochemical expansion, and any project that integrates new units with an existing refinery depends on the condition records of the equipment it connects to. A review at that stage asks whether the existing inspection history is complete enough to plan around, where it has gaps, and which records could not be defended if a partner or a lender asked for the evidence.",
+        "Contractors and vendors ask for reviews for the familiar reasons: a report rejected by the owner's inspector, a data book held at receipt, a T&I package to close before start-up. What is particular to Yanbu is that one contractor may work for several owners in a single season, each with its own standards and templates, and an opinion that names which owner's requirement applies to each finding removes a great deal of argument."
+      ]
+    },
+    {
+      "h": "Petrochemical plants and the records they keep",
+      "p": [
+        "Yansab, in which SABIC holds 51 percent, makes ethylene glycol, high-density and linear low-density polyethylene, polypropylene, benzene and other aromatics, and MTBE in Yanbu Industrial City. Plants of this kind combine cracking furnaces, separation trains, polymerisation reactors and large storage, and each part leaves a different trail of inspection data. In a petrochemical review the reviewer usually spends most time on the following records."
+      ],
+      "list": [
+        "Furnace coil and transfer line thickness records, read against the inspection plan's locations and the previous survey",
+        "Penetrant and visual records on austenitic stainless welds, with the material and temperature controls the procedure requires",
+        "Corrosion maps and thickness surveys on vessels and piping, particularly insulated lines where the humid coastal air encourages corrosion under insulation",
+        "Weld records for repairs to reactor and separation equipment, including examination after any post-weld heat treatment",
+        "Tank inspection data for product and intermediate storage, including floor scans and shell surveys"
+      ]
+    },
+    {
+      "h": "Power and water: Marafiq's Yanbu plants",
+      "p": [
+        "Marafiq runs two power and water plants in Yanbu Industrial City. Yanbu 1 has nine gas turbine generators with a combined 524.6 MW and three steam turbine generators totalling 677 MW, with heat recovery steam generators raising steam from turbine exhaust to support thermal desalination. Yanbu 2, about 15 km away, has three steam turbine generators totalling 825 MW. Steam for the turbines is raised in subcritical boilers and condensed in seawater-cooled condensers.",
+        "Those components define the inspection record. Boiler and HRSG tubes produce thickness surveys and weld reports on tube repairs. Headers and main steam piping produce weld examinations and, after long service, surveys aimed at high-temperature damage. Seawater-cooled condensers produce eddy current tube data that decides how many tubes are plugged at each outage, and desalination vessels and piping produce corrosion surveys. Where a boiler was built to ASME Section I and its steam piping to B31.1, those codes and the owner's specification set the acceptance basis.",
+        "The questions that recur in a power plant review are practical ones: whether repeat tube surveys were taken at the same elevations and positions, whether the condenser tube calibration standard matched the tube alloy and gauge, and whether the plugging list follows from the reported indications. Remaining-life judgements stay with the owner's engineer; the review tells that engineer whether the data behind the judgement can be relied on."
+      ]
+    },
+    {
+      "h": "Codes, operator standards and authorities in Yanbu",
+      "p": [
+        "Yanbu records follow the same layered logic as the rest of the Kingdom, with one difference: the owners vary more. Aramco's refinery and fractionation plant work to Saudi Aramco engineering standards and procedures, while the joint ventures, SABIC affiliates such as Yansab and the utility Marafiq set requirements in their own specifications. Beneath them sit ASME Section V for the examination methods, construction codes such as Section VIII, Section I, B31.1 and B31.3, the in-service API documents for vessels, piping and tanks, and the employer's written practice for personnel. The review identifies the governing document for each record before testing it, because a finding raised against the wrong owner's standard is easily dismissed.",
+        "The Royal Commission for Jubail and Yanbu administers the industrial city and oversees its environmental performance. The High Commission for Industrial Security issues safety, fire protection and security directives that apply to petroleum, petrochemical, electricity and water facilities. Industrial radiography in Yanbu, as elsewhere in the Kingdom, is licensed by the Nuclear and Radiological Regulatory Commission; the films and digital images those licensed crews produce are what the reviewer reads, and no radiography is offered as part of this service."
+      ]
+    },
+    {
+      "h": "Typical Yanbu review situations",
+      "p": [
+        "The reason for a review decides where the reviewer looks first. These are the situations Yanbu records most often arrive with, and the checks each one puts at the front of the queue."
+      ],
+      "table": {
+        "head": ["Situation", "What the reviewer checks first"],
+        "rows": [
+          ["A refinery T&I package has to close before start-up", "Coverage against the inspection scope, repairs, CML continuity, and personnel and equipment records for every work date"],
+          ["A joint venture partner wants a second reading of the inspection history ahead of an upgrade study", "Completeness for the equipment the project will tie into, traceability of each result, and gaps that documents alone cannot close"],
+          ["A repair weld report at a polymer plant has been rejected by the owner's inspector", "Procedure revision, the acceptance criteria applied, examination after heat treatment, and interpretation of the indications"],
+          ["Condenser tube eddy current data shows a jump in indications since the last outage", "Calibration standard, probe and frequency choice, analyst qualification, and whether the two data sets are comparable at all"],
+          ["A vendor data book for a vessel or exchanger is held at receipt in Yanbu", "Weld map against the NDT log, radiograph and DR quality, UT used in place of radiography, and hydrotest and PMI traceability"],
+          ["A buyer or insurer wants to know how far a tank inspection history can be trusted", "Floor scan coverage and thresholds, prove-up records, continuity of shell thickness data, and the settlement survey"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data in Yanbu",
+      "p": [
+        "Yanbu's plants span more than three decades of construction, from the Aramco refinery completed in 1983 to YASREF in 2016, and their records span the same range of technology. Older units carry digitised film and thickness histories that have moved through several databases; newer ones hold encoded PAUT and TOFD scans, DR images and digital reports issued with electronic signatures. Power plants add their own data types, such as eddy current condenser files and boiler tube thickness logs tied to tube maps.",
+        "The review treats the digital trail as part of the evidence. It checks that a sample of reported values can be traced back to the instrument files that produced them, that images were not reprocessed after interpretation without a record of it, that tube maps and CML identifiers survived each migration between systems, and that the person whose electronic signature appears was qualified on the date shown. Where a contractor's digital reporting platform exported only summary tables, the opinion says which conclusions cannot be checked without the raw data."
+      ]
+    },
+    {
+      "h": "Remote review from Houston and Hyderabad, and what stays with others",
+      "p": [
+        "Atlantis keeps no Yanbu office and sends nobody to site. The review is carried out remotely, from Houston and Hyderabad, on the reports and files you share through secure transfer, and the Hyderabad working day overlaps most of the Saudi one, which keeps questions and answers moving.",
+        "Send the report type, method, governing code or operator standard and the decision you face through the form or to info@atlantisndt.com, and we reply within one business day with the scope, the reviewer and a quote. Each review applies seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. The written opinion gives one of three verdicts, sound, deficient in documentation only, or deficient in disposition, with each finding tied to its source.",
+        "UT, RT, MT, PT and VT records are reviewed under an ASNT NDT Level III certified in every one of those five methods. Eddy current condenser and exchanger data goes to a reviewer the proposal names, holding the certification your contract sets. The review team's members come from nuclear, maritime, oil and gas and petrochemical work. Acceptance stays with the owner's inspector, remaining-life and fitness-for-service decisions with the owner's engineer, and personnel certification with the employer; the review does not make Atlantis an approved agency for any Yanbu operator, and Atlantis never reviews records of examinations it performed itself."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Will anyone from Atlantis come to our Yanbu site?", "a": "No. The review is done remotely from Houston and Hyderabad on the records you send, and Atlantis has no staff or premises in the Gulf. Where the record cannot settle a question, the opinion describes the examination that would." },
+    { "q": "Can partners in a Yanbu joint venture share one review?", "a": "Yes. The scope and the opinion can be agreed with the partners together, so each party works from the same reading of the record. Who receives the opinion is fixed in the scope before any files move." },
+    { "q": "Do you review boiler, HRSG and condenser records from power plants?", "a": "Yes. Tube thickness surveys, header and steam piping weld reports and condenser tube data are checked against the inspection plan, the construction code and the owner's specification, with eddy current files read by a reviewer qualified in that technique." },
+    { "q": "Can you review a petrochemical plant's repair weld records?", "a": "Yes. The reviewer checks the procedure revision, the acceptance criteria applied, examination after any heat treatment, personnel qualifications and the interpretation of each indication, and the opinion says whether the repair record supports the accept decision." },
+    { "q": "Which standards does a Yanbu review use?", "a": "The ones that governed the work: ASME Section V with the construction code, the in-service API documents, and the owner's own standards and specifications where you supply them or the contract names them. Each finding states which document it rests on." },
+    { "q": "Do you review radiographs and DR images from Yanbu jobs?", "a": "Yes, as documents. Image quality, identification, coverage and interpretation are checked weld by weld; the exposures themselves are made by crews licensed by the Nuclear and Radiological Regulatory Commission, not by Atlantis." },
+    { "q": "Is eddy current tube data reviewed by the five-method Level III?", "a": "No. That Level III's certification covers UT, RT, MT, PT and VT. Eddy current files go to a reviewer the proposal names, whose certification matches what your contract requires." },
+    { "q": "How do we send Yanbu records for review?", "a": "Use the form on this page or write to info@atlantisndt.com with the asset, method, governing standard and the decision the review supports. We reply within one business day with a proposed scope, the reviewer's name and a quote, after which the reports and raw files come across by secure transfer." }
+  ],
+  "related": [
+    ["/consulting/ndt-consulting-yanbu", "NDT consulting in Yanbu"],
+    ["/ndt-training-yanbu", "NDT training in Yanbu"],
+    ["/ultrasonic-testing-yanbu", "Ultrasonic testing in Yanbu"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/ultrasonic-thickness-report-review", "UT thickness report review"],
+    ["/report-validation/due-diligence-inspection-record-review", "Due diligence on inspection records"]
+  ],
+  "sources": [
+    "https://saudipedia.com/en/the-royal-commission-for-jubail-and-yanbu",
+    "https://en.wikipedia.org/wiki/Royal_Commission_for_Jubail_and_Yanbu",
+    "https://en.wikipedia.org/wiki/East%E2%80%93West_Crude_Oil_Pipeline",
+    "https://www.aramcolife.com/en/publications/the-arabian-sun/articles/2021/week-47-articles/aramcos-hydrocarbon-journey-ngl",
+    "https://saudipedia.com/en/yanbu-refinery",
+    "https://www.aramco.com/en/news-media/news/2025/samref-refinery-upgrade",
+    "https://www.aramco.com/en/news-media/news/2025/aramco-sinopec-and-yasref-sign-venture-framework-agreement-for-planned-petrochemical-expansion",
+    "https://saudipedia.com/en/yasref-refinery",
+    "https://luberef.com/en/history",
+    "https://200listedsecurities.saudiexchange.sa/Resources/200ListedSecurities/materials/yanbu_national_petrochemical_company.html",
+    "https://marafiq.com.sa/en/about-us/services/power-services/yanbu-power-generation/",
+    "https://www.aramco.com/-/media/downloads/working-with-us/ertqa.pdf",
+    "https://saudipedia.com/en/high-commission-for-industrial-security",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies"
+  ]
+}

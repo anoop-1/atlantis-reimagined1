@@ -1,0 +1,209 @@
+{
+  "title": "NDT Report Validation in the Bay Area, CA | Level III Review",
+  "description": "Independent review of San Francisco Bay Area NDT reports: refinery and renewable fuels data, hydrogen plant records, power plant files and bridge welds, remote.",
+  "h1": "Independent review of NDT reports and inspection data from the San Francisco Bay Area",
+  "eyebrow": "Report validation · San Francisco Bay Area",
+  "intro": "Around the northern reaches of San Francisco Bay, refining is in the middle of a transition: two large crude refineries still run, two former refineries now make renewable fuels, and a third crude plant was idled in 2026. Hydrogen plants, gas-fired power stations and heavily scrutinised bridges and buildings sit nearby. Every one of them depends on NDT records that somebody must trust. We review those reports and their digital inspection data independently, against the code, the procedure and the California and county rules that applied, and carry out each review remotely from the records you send.",
+  "highlights": [
+    {
+      "h": "Conversions and idling understood",
+      "p": "When a unit changes feed or stops running, its inspection history is suddenly read for new purposes. The review tells an owner which records will support a damage mechanism review, a sale or a restart decision."
+    },
+    {
+      "h": "County ordinance and state rule together",
+      "p": "Contra Costa's Industrial Safety Ordinance and Richmond's identical ordinance sit on top of California's refinery process safety regulation. The opinion is written with all three readers in mind."
+    },
+    {
+      "h": "Independence written into the record",
+      "p": "We do not review work we performed and gain nothing from a particular verdict. San Francisco now asks special inspection submissions to attest to that kind of independence, and our opinions are built the same way."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Refining around the bay in 2026",
+      "p": [
+        "Two crude oil refineries continue to run in the Bay Area. Chevron's Richmond refinery, at roughly 245,000 barrels a day on the California Energy Commission's list, and PBF Energy's Martinez Refining Company, the former Shell Martinez refinery at about 156,000, both process crude and both run large turnaround and inspection programmes.",
+        "Two others have changed what they make. Phillips 66 converted its Rodeo refinery into the Rodeo Renewable Energy Complex, which reached full production of about 50,000 barrels a day of renewable diesel, sustainable aviation fuel and other products in 2024. In Martinez, Marathon and Neste formed Martinez Renewables in 2022 to operate the former refinery there on renewable feedstocks, and Contra Costa County now lists the site as Martinez Renewable Fuels. In Benicia, Valero idled the refinery's crude unit in early 2026, followed by other main units, and the state's statement on the plan described continued gasoline supply to Northern California through imports.",
+        "Each of these situations produces a different kind of review request. Running refineries need turnaround packages closed out quickly and correctly. Converted plants need old equipment records read against new service conditions. An idled plant's owner, buyer or lender needs to know what its inspection history can actually prove."
+      ]
+    },
+    {
+      "h": "Conversions, idling and records that outlive a unit",
+      "p": [
+        "A change of feedstock is a major change in process safety terms, and California's refinery regulation treats it accordingly. Under section 5189.1 of Title 8, a damage mechanism review has to be reviewed before a major change is approved on a process where a damage mechanism exists, and a new review has to be carried out when a change may introduce one. Renewable feeds bring their own chemistry, so equipment that was inspected for one set of damage mechanisms for decades is suddenly being judged against another.",
+        "That puts unusual weight on old records. A thickness history built for crude service may have monitoring locations that no longer sit where the new damage would appear. Weld examinations performed under an earlier edition of the code may have used acceptance criteria the converted service no longer tolerates. Exchanger tube data from before the conversion may not include the tubes most exposed under the new conditions. An independent review sorts the historical record into what can be carried forward, what needs supplementing and what should not be relied on at all.",
+        "Idled equipment raises the opposite question. Preservation records, last-run inspection reports and the documents that would support a restart are often read by people who never saw the unit operate. The review tells them whether those records are complete enough to base a decision on, without anyone needing to visit the site."
+      ]
+    },
+    {
+      "h": "Contra Costa and Richmond: an ordinance on top of state law",
+      "p": [
+        "Contra Costa County's Industrial Safety Ordinance, Chapter 450-8 of the county code, builds on the California Accidental Release Prevention program and applies to petroleum refineries and chemical plants in unincorporated areas that file a risk management plan and run at least one Program 3 process. Six facilities currently fall under it, including the Phillips 66 Rodeo refinery, Martinez Renewable Fuels, PBF's Martinez Refining Company, two Air Products hydrogen plants at the Martinez sites and Air Liquide's Rodeo hydrogen plant. The county audits every covered facility once every three years.",
+        "The City of Richmond adopted an Industrial Safety Ordinance that is identical to the county's, and the only facility it covers is Chevron's Richmond refinery. For a plant inside either ordinance, its inspection records may be read by Cal/OSHA's process safety staff, by county or city auditors and by the company's own process safety team, often for different purposes.",
+        "Our review does not replace any of those audits. It answers a narrower question for the owner or the contractor: does the NDT record show what it claims to show? For an ordinance facility the review pays particular attention to the elements auditors sample most, such as whether equipment flagged for replacement because of thinning was supported by reliable thickness data, and whether the maintenance and inspection records say clearly who performed each examination and when."
+      ]
+    },
+    {
+      "h": "Hydrogen plants and the chemical side",
+      "p": [
+        "The two Air Products plants at Martinez and the Air Liquide plant at Rodeo show how closely hydrogen production is tied to Bay Area refining. Hydrogen plants operate high-temperature equipment and piping, pressure vessels and heat exchangers whose records look different from refinery crude unit records: weld examinations on alloy piping, thickness and creep-related assessments that depend on accurate measurements, and tube inspection data from exchangers and coolers.",
+        "Where a hydrogen plant is operated by an industrial gas company inside a refinery, the inspection record often passes between two organisations with different procedures and different digital reporting systems. That handover is where gaps appear. A review checks that the procedure in the report is the one the owner of the equipment requires, that calibration and personnel records came across with the data, and that any examinations limited by access or temperature are stated as limited rather than reported as complete."
+      ]
+    },
+    {
+      "h": "Gas-fired power in eastern Contra Costa",
+      "p": [
+        "Eastern Contra Costa County is a power generation corridor. The Delta Energy Center in Pittsburg became part of Constellation when Constellation completed its acquisition of Calpine in January 2026, and PG&E's Gateway Generating Station, a combined-cycle natural gas plant of about 530 megawatts on the site of the old Contra Costa Power Plant north of Antioch, has been in commercial operation since January 2009.",
+        "Combined-cycle plants produce outage records on heat recovery steam generator tubes and headers, high-energy steam and feedwater piping, attachment welds and turbine components, usually under ASME Section I for boiler external piping and B31.1 for the rest of the power piping. Boilers in California also come under Cal/OSHA's Pressure Vessel Unit, whose permit inspections may be made by state inspectors or by insurers' qualified inspectors. The review keeps the code question and the permit question separate, and checks in particular whether thickness readings on HRSG tubing can be traced to the same location at the next outage, because untraceable readings cannot show a trend."
+      ]
+    },
+    {
+      "h": "Bridges and buildings: the Golden Gate retrofit and San Francisco's attestation",
+      "p": [
+        "Structural steel records in the Bay Area carry seismic expectations. The Golden Gate Bridge Highway and Transportation District's final retrofit phase, Phase 3B, covers the main suspension span, the main towers, the south tower pier and the side spans, including strengthening of 255 floor beams and installation of 38 energy dissipation devices. Its first construction contract was awarded in October 2025 and the phase is scheduled from 2026 to 2036, which means a long stream of fabrication and field welding records for a structure the public watches closely.",
+        "Buildings in San Francisco follow the special inspection provisions of the San Francisco Building Code. The Department of Building Inspection keeps a list of recognised special inspection agencies, and the final compliance letter for a project has to list each inspection item being cleared, with supporting documents such as structural welding and high-strength bolting records. Since February 2024, that submission must include an attestation that the information is objective, competent and independent from the contractor responsible for the work.",
+        "An independent report review fits neatly beside that requirement. Before a compliance letter goes in, an owner, an engineer or an agency can have the welding and UT records read by someone with no connection to the work, checking that each weld called out for examination has a result, that the ultrasonic procedure and acceptance criteria match the code and project specification, and that repairs were re-examined. The acceptance and the attestation themselves remain with the agency and engineer of record."
+      ]
+    },
+    {
+      "h": "Bay Area owners and what they usually ask for",
+      "p": [
+        "Review needs in the region tend to fall into a handful of patterns. The table shows the most common ones and what the review concentrates on in each."
+      ],
+      "table": {
+        "head": [
+          "Who asks",
+          "Records sent",
+          "What the review concentrates on"
+        ],
+        "rows": [
+          [
+            "Crude refinery inspection group",
+            "Turnaround thickness data, tube files and weld examinations",
+            "Coverage against the inspection plan and data quality for the damage mechanism review"
+          ],
+          [
+            "Renewable fuels plant engineer",
+            "Historical inspection records of converted equipment",
+            "Which records remain valid for the new service and where supplementary examination is needed"
+          ],
+          [
+            "Buyer, lender or insurer of an idled unit",
+            "Last-run and preservation inspection records",
+            "What the record can prove, what it cannot, and what a restart would require"
+          ],
+          [
+            "Hydrogen plant operator",
+            "Alloy weld examinations and high-temperature equipment data",
+            "Procedure ownership across the handover and examinations limited by access"
+          ],
+          [
+            "Power plant owner",
+            "HRSG tube thickness and high-energy piping weld records",
+            "Location control for trending and ultrasonic coverage of thick welds"
+          ],
+          [
+            "Structural engineer or special inspection agency",
+            "UT and MT records on bridge or building welds",
+            "Code edition, calibration, coverage and re-examination of repairs"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Radiography records and California licensing",
+      "p": [
+        "Radiography contractors in the Bay Area are licensed by the California Department of Public Health's Radiologic Health Branch, because California is an Agreement State, and each radiographer must carry an ASNT card or a state-issued radiographer card. A Bay Area radiography review therefore checks two layers of qualification: the interpreter's certification under the employer's written practice, and the radiographer qualifications the licence requires.",
+        "Atlantis does not perform industrial radiography in California or anywhere else in the United States. The review covers what the licensed contractor delivered: film, computed radiography and digital radiography images, checked for image quality indicators, identification, coverage, processing and interpretation, all as document review."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from Bay Area plants",
+      "p": [
+        "Refineries, renewable fuels plants and hydrogen producers around the bay manage most inspection work as digital inspection data. Automated corrosion mapping, encoded phased array weld scans, digital radiography, tube inspection files and tablet-captured thickness readings all flow into inspection databases and digital reporting platforms, and the issued report is often generated by software from those inputs.",
+        "That is a strength when the data lineage is intact and a hidden risk when it is not. Converted plants are especially exposed: equipment records may have migrated from one database to another during the conversion, and readings, identifiers or inspection dates can be lost or mismatched in the move. A review of digital inspection data opens the native files, matches each to the component and inspection event it belongs to, re-measures the indications behind key decisions, and checks that electronic signatures, revisions and audit trails survived the migration. Where the digital record and the PDF disagree, the opinion says which one the evidence supports."
+      ]
+    },
+    {
+      "h": "How Bay Area reviews are run",
+      "p": [
+        "Atlantis keeps no premises and no staff anywhere around San Francisco Bay. The company operates from Houston and Hyderabad, and Bay Area reviews are carried out remotely, on the reports, procedures, certificates and digital files you share through a secure transfer.",
+        "Begin by describing the report, the code or specification behind it and the decision that depends on it; we answer within one business day with a scope and a quote. The reviewer then applies the seven checks used on every report, procedure, personnel, equipment and calibration, technique, acceptance criteria, interpretation and sizing, and completeness and traceability, and records the evidence for each finding. The written opinion ends with a verdict of sound, deficient in documentation only, or deficient in disposition.",
+        "Reviews of ultrasonic, radiographic, magnetic particle, penetrant and visual records are led by an ASNT NDT Level III with certification in each of those five methods, alongside a review team drawn from nuclear, maritime, oil and gas and petrochemical work; eddy current and other methods go to a reviewer whose certification the proposal names. Fitness-for-service and remaining-life work stay with the owner's engineer, equipment acceptance stays with the inspector the jurisdiction recognises, and Atlantis does not act as inspector of record."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review turnaround records from a Bay Area refinery?",
+      "a": "Yes. We review the package, or a sample of it, against the inspection plan, the procedures and the governing codes, and point out records whose coverage, calibration or traceability would weaken the refinery's damage mechanism review or an audit under the state rule or a local ordinance."
+    },
+    {
+      "q": "Our plant converted to renewable fuels. Can you tell us which old inspection records still count?",
+      "a": "We can review the historical records against the new service conditions your engineers have identified and say which records remain a sound basis, which need supplementing and which should not be relied on. The damage mechanism review and any fitness-for-service decision stay with your team."
+    },
+    {
+      "q": "Does the Industrial Safety Ordinance change what you check?",
+      "a": "It changes the emphasis. For a covered facility we pay particular attention to the records county or city auditors are likely to sample, such as thinning that led to replacement decisions and clear identification of who performed each inspection and when."
+    },
+    {
+      "q": "Can you review welding records before a San Francisco special inspection compliance letter is submitted?",
+      "a": "Yes, as an independent check on the welding, UT and MT records. The special inspection agency and the engineer still sign the compliance letter and the attestation; the review tells them whether the records behind it are complete and consistent."
+    },
+    {
+      "q": "Do you review radiographs from California-licensed contractors?",
+      "a": "Yes. Atlantis does not perform industrial radiography in the United States, but reviewing film, computed radiography and digital radiography from a licensed contractor is a document review, including the radiographer qualifications the licence calls for."
+    },
+    {
+      "q": "Can you check HRSG tube thickness data from a gas-fired plant?",
+      "a": "Yes. We check that readings are tied to fixed, repeatable locations, that the gauge and calibration are identified, that values below the owner's alert thickness were reported, and that the data can be compared with earlier outages."
+    },
+    {
+      "q": "Will anyone from Atlantis visit our Bay Area site?",
+      "a": "No. Reviews are carried out remotely from the records you send. When the documents cannot settle a question, the opinion describes the field examination that would settle it."
+    },
+    {
+      "q": "How do we start a review from the Bay Area?",
+      "a": "Use the form on this page or email info@atlantisndt.com with the report type, the method, the code or specification and what the review is for. We reply within one business day and then receive the files through a secure transfer."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-california",
+      "Inspection services in California"
+    ],
+    [
+      "/ndt-training-san-francisco",
+      "NDT training in San Francisco"
+    ],
+    [
+      "/consulting/ndt-consulting-san-francisco",
+      "NDT consulting in San Francisco"
+    ],
+    [
+      "/ultrasonic-testing-san-francisco",
+      "Ultrasonic testing in San Francisco"
+    ],
+    [
+      "/report-validation/due-diligence-inspection-record-review",
+      "Due diligence on inspection records"
+    ]
+  ],
+  "sources": [
+    "https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/californias-oil-refineries",
+    "https://www.businesswire.com/news/home/20240625133269/en/Phillips-66-Achieves-Full-Production-Rates-of-Renewable-Fuel",
+    "https://digitalrefining.com/news/1007133/neste-and-marathon-establish-martinez-renewables",
+    "https://news.bloomberglaw.com/environment-and-energy/valero-california-refinery-idles-all-units-ahead-of-closure",
+    "https://bopc.ca.gov/wp-content/uploads/sites/41/2026/01/6A-03-2026-01-15-Governor-statement-on-Valeros-Benicia-refinery.pdf",
+    "https://dir.ca.gov/title8/5189_1.html",
+    "https://www.cchealth.org/health-and-safety-information/hazmat-programs/industrial-safety-ordinance",
+    "https://cchealth.org/health-and-safety-information/hazmat-programs/industrial-safety-ordinance/frequently-asked-questions",
+    "https://www.businesswire.com/news/home/20260107185180/en/Constellation-Completes-Calpine-Transaction-Powering-Americas-Clean-Energy-Future",
+    "https://www.energy.ca.gov/powerplant/combined-cycle/gateway-generating-station",
+    "https://www.goldengate.org/bridge/bridge-projects/seismic-retrofit/phase-iii/",
+    "https://media.api.sf.gov/documents/Special_Inspection_Process.pdf",
+    "https://www.dir.ca.gov/dosh/pressure.html",
+    "https://www.cdph.ca.gov:443/Programs/CEH/DRSEM/CDPH%20Document%20Library/RHB/RML/IndustrialRadiographyGuide.pdf",
+    "https://inspectioneering.com/news/2022-09-23/10293/neste-establishes-renewable-fuels-joint-venture-with-marathon-petroleum"
+  ]
+}

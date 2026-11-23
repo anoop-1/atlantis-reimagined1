@@ -1,0 +1,146 @@
+{
+  "title": "NDT Report Validation in Salt Lake City, UT | Remote Review",
+  "description": "Independent review of NDT reports and digital inspection data from Wasatch Front refineries, interstate gas pipelines and seismic structural steel, remotely.",
+  "h1": "Independent NDT report and inspection data review for Salt Lake City and the Wasatch Front",
+  "eyebrow": "Report validation · Salt Lake City, Utah",
+  "intro": "All five of Utah's oil refineries are in the Salt Lake City area, a major interstate gas pipeline company is headquartered in the city, and the steel buildings and bridges of the Wasatch Front stand in a valley where state geologists have mapped the effects of a magnitude 7 earthquake scenario. Each of those produces inspection records that someone eventually has to trust. We review those reports, and the digital inspection data behind them, independently against the procedure, code and Utah program they were written for, and set out in a written opinion what the evidence supports. The review is carried out remotely, on the files you send.",
+  "highlights": [
+    { "h": "A refinery cluster, one yardstick", "p": "Five refineries concentrated in Salt Lake and Davis counties draw on many of the same contractors. A single set of checks lets records from different plants and crews be compared on equal terms." },
+    { "h": "Seismic welds read with seismic rules", "p": "Structural steel designed for earthquake loads carries welds whose examination goes beyond ordinary building work. The review checks the record against the requirements that actually applied to those welds." },
+    { "h": "From instrument file to issued report", "p": "Thickness logs, encoded weld scans and digital radiographs are traced from the raw file through the contractor's digital report to the value the owner now relies on." }
+  ],
+  "sections": [
+    {
+      "h": "Five refineries in Salt Lake and Davis counties",
+      "p": [
+        "Utah's Office of Energy Development counts five oil refineries in the state, all in the Salt Lake City area, able to process nearly 209,000 barrels of crude a day and holding almost two-fifths of the Rocky Mountain region's refining capacity. Their gasoline, diesel and jet fuel supply Utah and travel by pipeline to Idaho, Nevada, eastern Washington and Oregon. Four of the five are run by Chevron, Marathon Petroleum, HF Sinclair and Big West Oil.",
+        "Because the plants sit close together, they share a regional pool of NDT contractors, tube inspection specialists and repair shops, and a weakness in one contractor's practice can show up in several plants' records at once. An outside review that applies identical checks across reports from different sites is one way an owner or a contractor can find that out before an auditor does."
+      ],
+      "table": {
+        "head": ["Refinery", "What published sources say", "Where a review of its kind of records concentrates"],
+        "rows": [
+          ["Chevron, Salt Lake City", "Named by the state energy office among Utah's refineries", "Turnaround close-out packages from many contractors, checked against one set of rules"],
+          ["Marathon Petroleum, Salt Lake City", "About 70,000 barrels per calendar day; crude from Utah, Colorado, Wyoming and Canada", "Thickness data on circuits that see crudes of differing character, and whether rates stay consistent between surveys"],
+          ["HF Sinclair, Woods Cross refinery in West Bountiful", "About 45,000 barrels per day; regional sweet and waxy crudes, with pipeline access to Canadian crude", "Heated and insulated storage and transfer systems, and how the record shows condition beneath insulation"],
+          ["Big West Oil, North Salt Lake", "A complex high-conversion refinery owned by FJ Management", "Conversion unit vessels and piping, repair weld records and exchanger tube data"]
+        ]
+      }
+    },
+    {
+      "h": "Waxy crude and what it asks of the inspection record",
+      "p": [
+        "HF Sinclair describes its Woods Cross plant as having access to advantaged waxy crude oils. Waxy crude has a high pour point and has to be kept warm to move, which means heated tanks, heating coils, insulated and traced lines, and a good deal of equipment whose outer surface an inspector cannot see without removing insulation.",
+        "That changes the questions a reviewer asks. A thickness survey on an insulated line has to say how the readings were taken, through inspection ports, with insulation stripped, or by a technique that works through insulation, and the record has to show which. Tank packages for heated tanks should show how heating coils were examined and how the floor was assessed near them. Where a report lists readings at insulated locations without saying how access was gained, the opinion notes that the record cannot show what was actually measured, which is a different finding from saying the readings are wrong."
+      ]
+    },
+    {
+      "h": "Interstate gas pipelines and the Utah pipeline program",
+      "p": [
+        "Kern River Gas Transmission is headquartered in Salt Lake City. Its system covers about 1,755 miles of steel pipeline, most of it 36-inch, taking gas from receipt points in Wyoming, Utah and California to markets in Utah, Nevada and California. The other large interstate system in the state, MountainWest Pipeline, has belonged to Tulsa-headquartered Williams since February 2023; it runs roughly 2,200 miles of regulated pipeline and includes the Clay Basin storage reservoir in Utah.",
+        "Both are interstate gas pipelines, so their safety records answer to PHMSA under 49 CFR Part 192. Intrastate gas lines in Utah are overseen by the Pipeline Safety Group of the Utah Division of Public Utilities under certification from PHMSA's Office of Pipeline Safety, while hazardous liquid pipelines in the state, interstate and intrastate alike, are inspected by the federal office. The product and crude lines that serve the refineries fall in that last group.",
+        "Pipeline records sent for review typically include girth weld examinations on replacement and expansion work, measurements from integrity digs, compressor station piping examinations and pressure test documentation. Each is read against API 1104 or the relevant piping code, the operator's specification and the regulation that applies to that line, and each finding names the requirement it rests on."
+      ]
+    },
+    {
+      "h": "Structural steel in a seismic valley",
+      "p": [
+        "The Utah Geological Survey has published maps showing the widespread effects a magnitude 7 earthquake would have in the central Wasatch Front, and seismic design shapes much of the structural steel built in and around Salt Lake City. Utah adopted the 2021 International Building Code statewide in July 2023, and buildings designed under it carry special inspection requirements that bring weld examination reports into the project record.",
+        "Steel moment and braced frames designed for seismic loads contain welds the design standards treat as demand critical. AWS D1.8, the seismic supplement to AWS D1.1 whose 2025 edition was aligned with D1.1:2025 and with the AISC seismic provisions, adds requirements for those welds and for their inspection and documentation. A review of structural NDT records from a Salt Lake City project checks that demand-critical welds were identified on the drawings, examined by the method and to the extent the project specification required, and accepted against the right criteria, and that each repair was re-examined.",
+        "Bridges are a separate branch. Steel bridge fabrication follows AASHTO/AWS D1.5, which treats tension and compression members differently and holds fracture-critical members to stricter rules. The review checks that each member's category was identified and that examination and acceptance followed the right part of the code. Throughout, the building official, the special inspector and the engineer of record keep their authority; the review tells them, and the owner, whether the NDT record supports the acceptance that was signed."
+      ]
+    },
+    {
+      "h": "Utah programs that decide who keeps which record",
+      "p": [
+        "Utah runs several of its own programs where other states lean on federal ones. The review reads each record with the right program in mind, and leaves every inspector, regulator and official in the role the program gives them."
+      ],
+      "table": {
+        "head": ["Program", "Scope", "Effect on a review"],
+        "rows": [
+          ["Utah Labor Commission, boiler and pressure vessel rules (Boiler, Elevator and Coal Mine Safety)", "Boilers and pressure vessels; heat exchangers on high-pressure steam or high-temperature water every 24 months and most other vessels every 48 months; owner/user agencies may self-inspect unfired vessels", "Inspection dates and owner/user records are compared with the NDT reports that are meant to support them"],
+          ["Utah's OSHA-approved State Plan", "Private and public employers, including process safety management at the refineries", "Each mechanical integrity record is checked for the documentation the PSM standard requires"],
+          ["Division of Public Utilities, Pipeline Safety Group", "Intrastate gas pipelines, under certification from PHMSA", "Records are read against the operator's manual and the federal rules the state has adopted"],
+          ["PHMSA Office of Pipeline Safety", "Interstate gas pipelines and all hazardous liquid pipelines in Utah", "Girth weld, dig and pressure test records on Kern River, MountainWest and liquids lines"],
+          ["Utah DEQ, Division of Waste Management and Radiation Control", "Radioactive materials licensing, including industrial radiography, under an NRC agreement signed in 1984", "Radiographs come from the owner's licensed contractor and are reviewed as documents"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data from Utah plants, pipelines and projects",
+      "p": [
+        "The refineries hold decades of thickness data, much of it now in inspection data management software loaded from gauge files and contractor spreadsheets. Pipeline projects produce encoded ultrasonic and digital radiography files in the thousands. Building projects increasingly run their quality records through digital platforms where an inspector's tablet entry becomes the signed report, complete with photographs and weld map links.",
+        "Each is a chain from instrument to record, and the review follows a sample along it: the raw file, the setup or exposure parameters, the analyst's interpretation, the issued digital report and the value now held by the owner. Gaps found this way include readings truncated on import, weld identifiers that changed format between contractors, DR images whose processing history was not kept, and electronic signatures applied by an account rather than an identifiable, qualified person.",
+        "If you are choosing or replacing a digital reporting system, the same method applied to a set of exported sample reports shows whether the output still carries everything the governing code requires. It is easier to fix a template before thousands of reports have been issued from it."
+      ]
+    },
+    {
+      "h": "When Wasatch Front owners ask for an independent review",
+      "list": [
+        "A refinery needs a turnaround package from several contractors closed out before units restart",
+        "A pipeline operator wants girth weld reports from a contractor new to it checked before a project moves to the next spread",
+        "A steel fabricator's UT reports on demand-critical welds have been questioned by the special inspector, and the fabricator wants an outside reading",
+        "An owner is buying or refinancing an asset and wants to know which parts of its inspection history can be relied on",
+        "An integrity group is loading historic thickness data into a new system and wants to know which records are fit to use",
+        "A contractor whose report has been rejected wants to know whether the rejection holds before replying"
+      ],
+      "p": [
+        "The purpose decides the emphasis. A buyer worries about missed defects, a fabricator about whether a rejection is technically right, and an integrity engineer about whether data are reliable enough to set intervals, so the first conversation is about the decision, not the paperwork."
+      ]
+    },
+    {
+      "h": "How the review is delivered",
+      "p": [
+        "There is no Atlantis office along the Wasatch Front, and a document review does not need one. Reviews are carried out remotely, from Houston and Hyderabad, on the reports, procedures, certificates and raw files you send through a secure transfer. Describe the record, the code and procedure, and the decision the review must support; we reply within one business day with a proposed scope and a quote.",
+        "Where the report is UT, RT, MT, PT or VT, the person signing off the review is an ASNT NDT Level III holding certification in each of those five methods. Remote field, eddy current and other techniques are assigned in the proposal to a reviewer with the certification your contract names. Across the team, members have worked in nuclear, maritime, oil and gas and petrochemical settings.",
+        "Every review works through the same seven checks, from procedure compliance and personnel qualification on the date of work to completeness and traceability, and ends in one of three verdicts: the record is sound, it is deficient in documentation only, or it is deficient in disposition because an accept or reject decision is not supported by the evidence."
+      ]
+    },
+    {
+      "h": "Limits of a document review",
+      "p": [
+        "Being exact about limits keeps the opinion usable. A review tests the record and says what it can and cannot establish; it does not create new evidence about the component."
+      ],
+      "list": [
+        "Atlantis does not perform industrial radiography in the United States; radiographs and DR images produced by your licensed contractor are reviewed as documents",
+        "Fitness-for-service and remaining-life calculations stay with the owner's engineer",
+        "Owner/user agents, commissioned inspectors, special inspectors and inspectors of record keep their roles",
+        "The review does not certify NDT personnel; it reports whether the certificates on file covered the work on the day",
+        "A project Atlantis examined is never reviewed by Atlantis"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is the review carried out in Utah?", "a": "No. It is carried out remotely from Houston and Hyderabad on the records and digital inspection data you transfer securely. When a record cannot support a decision, the opinion describes the field examination that would settle it." },
+    { "q": "Can you review turnaround packages from Salt Lake City refineries?", "a": "Yes. One set of checks is applied to every contractor's reports in the package, and the opinion sorts them into reports ready to accept, reports needing a document correction and reports whose conclusions the data cannot carry." },
+    { "q": "Do you review thickness data taken on insulated, heated lines?", "a": "Yes. The review checks how each reading was obtained, whether through inspection ports, with insulation removed or by a through-insulation technique, and whether the record says so. Readings with no stated access method are reported as a gap." },
+    { "q": "Can you review girth weld records from Kern River or MountainWest work?", "a": "We review girth weld, dig and pressure test records for any pipeline operator or contractor that sends them, against API 1104, the operator's specification and 49 CFR Part 192 or 195 as applicable. Acceptance remains with the operator." },
+    { "q": "Do you review structural UT reports for seismic welds?", "a": "Yes. The review checks that demand-critical welds were identified, examined to the extent and by the method the project specification required, and accepted against the right criteria under AWS D1.1, AWS D1.8 and the project documents." },
+    { "q": "Do you review radiographs if Atlantis does not perform radiography in Utah?", "a": "Yes. Atlantis carries out no industrial radiography in Utah or elsewhere in the United States, but reviewing film radiographs and DR images produced by your licensed contractor is a document review and part of this service." },
+    { "q": "Who reviews exchanger tube data from a refinery turnaround?", "a": "The proposal names a reviewer holding the eddy current, remote field or other certification your contract requires. The UT, RT, MT, PT and VT records in the same package are signed off by the ASNT NDT Level III who leads those methods." },
+    { "q": "How do we send records from Salt Lake City?", "a": "Use the form on this page or write to info@atlantisndt.com with the report type, method, code and what the review is for. We reply within one business day with a proposed scope and a quote, and files then come to us by secure transfer." }
+  ],
+  "related": [
+    ["/ndt-training-salt-lake-city", "NDT training in Salt Lake City"],
+    ["/consulting/ndt-consulting-salt-lake-city", "NDT consulting in Salt Lake City"],
+    ["/ultrasonic-testing-salt-lake-city", "Ultrasonic testing in Salt Lake City"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"],
+    ["/standards/aws-d1-5", "AWS D1.5 bridge welding code"],
+    ["/magnetic-particle-inspection-structural-steel", "Magnetic particle inspection of structural steel"]
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20230214005784/en",
+    "https://energy.utah.gov/wp-content/uploads/Petroleum_MAR032025.pdf",
+    "https://www.marathonpetroleum.com/content/documents/fact_sheets/Salt_Lake_City_Refinery_fact_sheet.pdf",
+    "https://www.hfsinclair.com/operations/facilities/us/woods-cross-ut/default.aspx",
+    "https://fjmgt.com/energy-businesses/",
+    "https://le.utah.gov/interim/2026/pdf/00002719.pdf",
+    "https://www.sec.gov/Archives/edgar/data/107263/000010726326000006/wmb-20251231.htm",
+    "https://primis.phmsa.dot.gov/stakeholder-comms/states/utah",
+    "https://geology.utah.gov/map-pub/survey-notes/maps-show-potential-geologic-effects-of-a-magnitude-7-earthquake/",
+    "https://www.iccsafe.org/about/periodicals-and-newsroom/utah-enhances-building-safety-statewide-with-adoption-of-2021-international-codes",
+    "https://www.aws.org/magazines-and-media/welding-digest/wd-june-2025-d18",
+    "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R616-2-8",
+    "https://deq.utah.gov/waste-management-and-radiation-control/radioactive-materials-regulatory-program",
+    "https://www.osha.gov/stateplans"
+  ]
+}

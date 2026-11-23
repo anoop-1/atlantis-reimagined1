@@ -1,0 +1,211 @@
+{
+  "title": "NDT Report Validation in Corpus Christi, TX | Data Review",
+  "description": "Independent review of NDT reports and inspection data from Coastal Bend refineries, Corpus Christi LNG, crude export terminals and pipelines, done remotely.",
+  "h1": "Independent review of NDT reports from Corpus Christi refineries, LNG trains and export terminals",
+  "eyebrow": "Report validation: Corpus Christi, Texas",
+  "intro": "Within a few years the Coastal Bend has grown from a refining town into one of the country's main energy export gateways. New LNG trains, a world-scale cracker, crude export docks and the pipelines feeding them have produced a wave of construction NDT records, while the refineries on the Inner Harbor keep their own inspection cycles turning. When those records have to be accepted, defended or handed to a new owner, we review them independently against the code, the specification and the procedure, and we open the digital inspection data behind the summary. The work is done remotely, and nobody from Atlantis is stationed on the Coastal Bend.",
+  "highlights": [
+    {
+      "h": "Construction records as well as maintenance",
+      "p": "Much of what comes out of the Coastal Bend now is new-build NDT: weld databases, DR images, PAUT used in place of radiography and data books from module yards. The review asks whether that record will stand up at handover and for decades of operation."
+    },
+    {
+      "h": "Three shorelines, three sets of readers",
+      "p": "Refinery inspectors on the Inner Harbor, LNG and petrochemical owners in San Patricio County and terminal operators at Ingleside read reports against different codes. The reviewer fixes which rules govern the asset before checking a single reading."
+    },
+    {
+      "h": "An opinion that travels",
+      "p": "Every finding cites the clause or procedure step and the file it rests on, so the opinion can go to an owner's engineer, an insurer or a buyer without anyone needing us in the room to explain it."
+    }
+  ],
+  "sections": [
+    {
+      "h": "The Coastal Bend's industrial map, and who reads its reports",
+      "p": [
+        "On the Inner Harbor, Valero runs its Corpus Christi refineries, also known as the Bill Greehey refineries: an East plant processing sour crude and a West plant built as a grass-roots refinery in 1983, together rated at 370,000 barrels per day beside the ship channel. Flint Hills Resources, wholly owned by Koch, operates two Corpus Christi refineries with a combined 350,000 barrels per day, which also produce aromatics and derivatives.",
+        "Across the bay in San Patricio County, Cheniere's Corpus Christi Liquefaction facility reached substantial completion of its seven-train Stage 3 expansion on 28 August 2026, when the last train was handed over by the contractor. Gulf Coast Growth Ventures, owned equally by ExxonMobil and SABIC and operated by ExxonMobil, started up in 2022 with a 1.8 million tonne per year ethane cracker, two polyethylene units and a monoethylene glycol unit. At Ingleside, Enbridge operates the Ingleside Energy Center, which it describes as the largest crude storage and export facility by volume in the United States.",
+        "Those names are given to describe the area, not as a client list. In an industrial base this young, independent reviews tend to be requested by construction and completions teams closing out new units, by NDT subcontractors whose packages have been rejected, by module fabricators answering a receiving inspector, by refinery reliability groups at turnaround, and by the technical advisers who act for lenders, insurers and buyers."
+      ]
+    },
+    {
+      "h": "Typical review situations on the Coastal Bend",
+      "p": [
+        "The reason for the review decides where the reviewer spends the effort. The table pairs the situations we expect most often from this area with the records involved and the question the opinion has to answer."
+      ],
+      "table": {
+        "head": [
+          "Situation",
+          "What usually arrives",
+          "What decides the opinion"
+        ],
+        "rows": [
+          [
+            "Mechanical completion on an LNG train or cracker unit",
+            "Weld database extracts, film and DR images, PAUT used in place of radiography, PMI and hardness logs, test packs",
+            "Whether every weld in the test pack received the examination its line class requires, by qualified people, with images that trace to the weld"
+          ],
+          [
+            "Rejected NDT subcontractor package",
+            "The rejection notice, the subcontractor's reports, images and scan files, the written procedure",
+            "Whether the rejection rests on the governing acceptance table and edition, or on a misreading of either"
+          ],
+          [
+            "Refinery turnaround close-out",
+            "API 510 and API 570 reports, CML readings, exchanger tube data, repair records",
+            "Coverage, calibration and whether each repair disposition follows from the data"
+          ],
+          [
+            "Export terminal tank or dock work",
+            "API 653 out-of-service reports, floor scans, shell UT, weld records on dock lines",
+            "Floor coverage, repair records and whether tie-in welds were fully examined"
+          ],
+          [
+            "Pipeline tie-in at a terminal or plant fence",
+            "Girth weld images or automated UT files, alignment sheets, welder logs",
+            "Full examination of tie-ins under Part 195 and interpretation against the acceptance standard"
+          ],
+          [
+            "Lender, insurer or buyer due diligence",
+            "A sample drawn from the turnover package or the inspection database",
+            "Whether the history can be relied on as it stands, or needs targeted re-examination"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "New LNG and petrochemical units: what the turnover record has to prove",
+      "p": [
+        "A new liquefaction train or cracker hands over tens of thousands of welds, many in austenitic stainless and other low-temperature materials, along with the radiographs, DR images, ultrasonic data, penetrant reports, PMI and hardness records that support them. The owner's operations team will live with that record for decades, and its quality matters most on the day something needs to be repaired, rerated or explained. LNG facilities also sit under 49 CFR Part 193, which incorporates NFPA 59A, so the record has a federal reader as well as the owner's engineers.",
+        "The review reconciles the weld database with the isometrics and the test packs before it looks at a single image. A weld that appears on a drawing but not in the database, a repair logged without a re-examination, or a welder whose random sample failed without the follow-up examination the code requires will each undermine a package that otherwise looks complete. We then sample the images and scan files themselves, weighted towards repairs, welders with high reject rates and line classes with the strictest requirements.",
+        "Modules for Coastal Bend projects are often fabricated at yards elsewhere, and their records arrive in the yard's own formats and to the yard's procedures. Checking that those procedures were qualified to the project's specification, and that the yard's NDT personnel were certified under a written practice the owner accepted, is a frequent part of the work."
+      ]
+    },
+    {
+      "h": "Refinery inspection on the Inner Harbor",
+      "p": [
+        "Sour crude service brings wet hydrogen sulfide cracking, sulfidation and corrosion under deposits into the inspection plan, and each mechanism needs a technique capable of finding it at a useful size. A thickness survey cannot find cracking, and a shear wave examination tuned for weld root flaws will not map general wall loss. The reviewer reads the report against the damage mechanism the owner's inspection plan expects and says plainly when the technique could not have found it.",
+        "Aromatics and derivatives units add stainless piping and exchangers, where penetrant reports and eddy current tube data dominate. Turnaround packages from either refinery complex are reviewed the same way we review any Gulf Coast close-out: a risk-ranked sample agreed with the owner, every finding tied to a clause or procedure step, and a clear split between documentation gaps and dispositions the data cannot support."
+      ]
+    },
+    {
+      "h": "Crude export terminals, tanks and the pipelines that feed them",
+      "p": [
+        "Permian crude reaches Corpus Christi and Ingleside by pipeline, which means hazardous liquid girth welds under 49 CFR Part 195 at every new connection. That rule requires at least 10 percent of each welder's girth welds per day to be tested over their full circumference, extends full testing to every girth weld installed in populated areas, within road and railroad rights-of-way and where a spill could reasonably reach water, with a narrow allowance where testing is impracticable, and requires full examination of every tie-in. A review checks that the images or automated UT records on file match those percentages weld by weld, and that each interpretation was made to the acceptance standard the procedure names.",
+        "Tank farms at the export terminals produce API 653 inspection reports, MFL floor scans and shell thickness surveys. The common weaknesses are floor coverage that leaves the critical zone near the shell undocumented, prove-up UT that cannot be matched to the MFL indication it was meant to confirm, and repair plates whose welds were examined but never recorded against a location. Each is called out with the evidence that would close it."
+      ]
+    },
+    {
+      "h": "Codes and regulators that apply on the Coastal Bend",
+      "list": [
+        "OSHA process safety management, 29 CFR 1910.119, for refinery, petrochemical and LNG process equipment, with its mechanical integrity documentation requirements",
+        "API 510, 570 and 653 programs, plus each owner's engineering standards, for in-service vessels, piping and tanks",
+        "49 CFR Part 193 and NFPA 59A for LNG facilities, and Part 195 for hazardous liquid pipelines into terminals",
+        "The Railroad Commission of Texas for intrastate pipelines, with PHMSA responsible for interstate lines",
+        "The Texas Department of Licensing and Regulation for boiler certificates of operation",
+        "The Texas Department of State Health Services for industrial radiography licensing and radiographer certification, Texas being an NRC Agreement State"
+      ],
+      "p": [
+        "Which of those governs a particular report decides what the report must contain. A test pack on a new LNG line, a turnaround report on a refinery exchanger and a tie-in record on a terminal header can each be complete under one regime and incomplete under another, so the opinion always states the regime it applied. Atlantis does not perform industrial radiography in Texas; film and digital images from your licensed contractor are reviewed as part of the weld record."
+      ]
+    },
+    {
+      "h": "Digital turnover data and digital reporting",
+      "p": [
+        "Construction on the Coastal Bend is tracked in digital weld databases and completions systems, and the NDT record arrives as DR images in DICONDE or vendor formats, PAUT and TOFD scan files, penetrant and visual entries made on tablets, and test packs signed electronically. At handover the whole set is migrated into the owner's inspection data management system. Every one of those steps can lose or alter information, which is why the digital side of a review matters as much as the technical side.",
+        "We check that each image or scan file in the turnover can be tied to a weld number, that file dates sit inside the period the report claims, that DR processing applied after interpretation is recorded, that electronic signatures belong to people certified on the date shown, and that the digital reporting system did not fill fields from a template that was never overwritten. Owners about to accept a turnover often ask for this on a sample, because errors found before handover are corrected by the contractor rather than discovered years later by the operator."
+      ]
+    },
+    {
+      "h": "Running a remote review from the Coastal Bend",
+      "p": [
+        "There is no Atlantis office anywhere on the Coastal Bend, and none is needed. The review runs remotely from Atlantis's offices in Houston and Hyderabad on the records you send through secure transfer, so a refinery, a module yard or a lender's adviser can start it the same way.",
+        "Tell us the asset, the method, the code and what the review is for, and we reply within one business day with the scope, the reviewer and a quote. Questions the record cannot answer come back to you in writing, and the written opinion classes the report as sound, deficient in documentation only, or deficient in disposition."
+      ],
+      "list": [
+        "The report or package, and the written procedure it was performed to",
+        "Personnel certificates and the employer's written practice",
+        "Instrument, probe and reference block calibration records",
+        "Raw files: images, scan data, tube files or corrosion maps",
+        "Drawings, isometrics, weld maps or alignment sheets that locate the work"
+      ]
+    },
+    {
+      "h": "Reviewers, and where their work ends",
+      "p": [
+        "The Level III who leads ultrasonic, radiographic, magnetic particle, penetrant and visual reviews holds ASNT certification in each of those five methods. Eddy current tube data and MFL floor scans fall outside that certification, and for those the proposal names a reviewer qualified to the level your contract specifies. The wider team draws its members from petrochemical, oil and gas, nuclear and maritime backgrounds.",
+        "Remaining-life and fitness-for-service calculations stay with your engineer, and the inspector of record named in your program keeps that role. Atlantis does not review work it performed, so a package it examined itself would be declined rather than reviewed. The opinion covers what the existing record proves, and where it proves too little it describes the examination that would fill the gap."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have staff on the Coastal Bend?",
+      "a": "No. Atlantis keeps no premises or staff on the Coastal Bend. Reviews are carried out remotely on the reports and data you send, from the offices in Houston and Hyderabad."
+    },
+    {
+      "q": "Can you review weld records before mechanical completion on a new LNG or petrochemical unit?",
+      "a": "Yes. We reconcile the weld database against isometrics and test packs, then sample the images and scan files, weighted towards repairs and welders with high reject rates. The opinion lists what must be closed before handover."
+    },
+    {
+      "q": "Our PAUT replaced radiography and the owner has queried it. What do you check?",
+      "a": "Whether the code and the purchase order allowed ultrasonic examination in place of radiography for that joint, whether the procedure was qualified as the code requires, whether the scan plan covered the weld volume, and whether the recorded indications were sized and evaluated to the right acceptance criteria."
+    },
+    {
+      "q": "Do you review radiographs from construction contractors?",
+      "a": "Yes, as documents. Film and DR images are checked for image quality, coverage and interpretation against the procedure and the acceptance table. Atlantis does not carry out radiography in Texas."
+    },
+    {
+      "q": "Can a lender's or insurer's technical adviser rely on the opinion?",
+      "a": "The opinion is written so that a third party can follow it: each finding cites the requirement and the evidence. How an adviser weighs it is their decision, and we are happy to agree the scope with them at the start so the review answers their questions."
+    },
+    {
+      "q": "Do you review API 653 reports from export terminal tank farms?",
+      "a": "Yes. We check floor scan coverage, prove-up of MFL indications, shell thickness data, repair records and the inspector's conclusions against API 653 and the owner's program. MFL data review is led by a reviewer holding the certification your contract names."
+    },
+    {
+      "q": "What falls outside the review?",
+      "a": "Fitness-for-service and remaining-life calculations, which stay with your engineer; the role of inspector of record; certifying personnel; and any work Atlantis performed itself. The review is about whether the existing record can be relied on."
+    },
+    {
+      "q": "What should we send to get a scope?",
+      "a": "A short description of the asset, the method, the governing code and the decision the record supports, plus a sample report if you have one. With that we can name the reviewer, list the documents needed and send a quote."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/inspection/third-party-inspection-corpus-christi",
+      "Third-party inspection in Corpus Christi"
+    ],
+    [
+      "/consulting/ndt-consulting-corpus-christi",
+      "NDT consulting in Corpus Christi"
+    ],
+    [
+      "/ndt-training-corpus-christi",
+      "NDT training in Corpus Christi"
+    ],
+    [
+      "/ultrasonic-testing-corpus-christi",
+      "Ultrasonic testing in Corpus Christi"
+    ]
+  ],
+  "sources": [
+    "https://valero.com/node/150",
+    "https://fhr.com/who-we-are",
+    "https://lngir.cheniere.com/news-events/press-releases/detail/345/cheniere-announces-substantial-completion-of-ccl-stage-3",
+    "https://corporate.exxonmobil.com/News/Newsroom/News-releases/2022/0120_ExxonMobil-and-SABIC-start-operations-at-Gulf-Coast-Manufacturing-Facility",
+    "https://enbridge.com/stories/2026/may/enbridge-ingleside-energy-center-more-exports-extra-storage-larger-import-volumes",
+    "https://www.law.cornell.edu/cfr/text/49/195.234",
+    "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-193",
+    "https://www.federalregister.gov/documents/2000/03/01/00-3799/pipeline-safety-incorporation-of-standard-nfpa-59a-in-the-liquefied-natural-gas-regulations",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.rrc.state.tx.us/pipeline-safety",
+    "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
+    "https://dshs.texas.gov/radiation/industrial-radiographers/",
+    "https://www.nrc.gov/info-finder/region-state/texas.html"
+  ]
+}

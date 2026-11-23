@@ -1,0 +1,145 @@
+{
+  "title": "Refinery Inspection Report Review | API 510, 570 and 653 Data",
+  "description": "Independent review of refinery inspection reports: CML thickness data, PAUT and TOFD on vessels, exchanger tube data and turnaround close-out, done remotely.",
+  "h1": "Independent refinery inspection report review, from turnaround close-out to CML data",
+  "eyebrow": "Industry review: refining",
+  "intro": "A refinery runs on inspection records. Thickness readings set intervals, tube data decides retubing, weld reports release equipment after repair, and the record as a whole is what the mechanical integrity programme shows a regulator. When those records arrive from a dozen contractors at the end of a turnaround, or when a number looks wrong and the unit is due back on line, an independent review tells the inspection group what the evidence actually supports. We review refinery reports and the digital inspection data behind them against API 510, 570 and 653, the damage mechanisms in API RP 571 and your own procedures, remotely and on the files you send.",
+  "highlights": [
+    { "h": "Mechanism first", "p": "Each report is judged against the damage the equipment is expected to suffer. A technique that measures general thinning well can be blind to the cracking or localised attack that actually threatens the component, and the opinion says so when it is." },
+    { "h": "Built for turnaround volume", "p": "Close-out packages from many contractors are reviewed against one set of rules, so findings are consistent and the inspection group can see at a glance which records are ready to sign and which are not." },
+    { "h": "Data fit to feed the programme", "p": "CML readings, corrosion rates, tube data and scan files are checked for the qualities your inspection database and RBI study depend on: traceability, repeatability and rates that make physical sense." }
+  ],
+  "sections": [
+    {
+      "h": "The reports a refinery depends on",
+      "p": [
+        "Refinery inspection groups handle more report types than almost any other industry. Pressure vessels are inspected under API 510, piping under API 570 and atmospheric storage tanks under API 653, with recommended practices such as API RP 572, 574 and 575 describing how the work is done. Fired heaters, exchangers, relief devices and rotating equipment add records of their own. Behind the codes sit the damage mechanisms of API RP 571, which tell the inspector what to look for and, by extension, which technique can find it.",
+        "Those records are read by different people for different decisions. The inspector uses them to set the next interval, the corrosion engineer to confirm a rate, the reliability group to update the risk model, operations to know whether equipment can restart, and the process safety team to show that the mechanical integrity programme works. A record that satisfies one of those readers can still fail another, so the review begins by asking what the report is meant to support."
+      ],
+      "list": [
+        "CML and TML thickness surveys on piping circuits and vessel shells",
+        "Corrosion mapping, PAUT and TOFD scans on vessels, reactors and heavy-wall piping",
+        "Eddy current, remote field and IRIS data on exchanger and air-cooler tubes",
+        "Weld reports for repairs and alterations, with RT, DR, UT or PAUT results",
+        "Tank shell, floor and roof surveys, including floor scanning data",
+        "Magnetic particle, penetrant and visual reports from internal inspections and nozzle examinations",
+        "Fired heater tube thickness and diameter measurements"
+      ]
+    },
+    {
+      "h": "Turnaround close-out: many contractors, one record",
+      "p": [
+        "At the end of a turnaround the inspection group may hold reports from several NDT contractors, a tube inspection specialist, a tank contractor and the repair contractor's own weld examiners, each in a different template. Every one has to be accepted before the record closes, and much of the time pressure falls in the last days before startup. That is when weak reports get signed, because nobody has the hours to read them closely.",
+        "An independent review of a turnaround package applies one set of checks to every contractor's work. It confirms that each job on the worklist has a report, that each report covers the scope the worklist called for, that procedures, personnel and equipment were valid on the dates of work, and that every reject carries a disposition. The opinion sorts the package into reports ready to accept, reports needing a document correction, and reports whose conclusions the data cannot carry.",
+        "Reviews can also run in batches during the turnaround, as reports are issued, so that gaps reach the contractor while the crew is still on site and the component is still open. That timing is often the difference between correcting a record and re-opening equipment after the unit has started up."
+      ]
+    },
+    {
+      "h": "Damage mechanisms decide whether the technique fits",
+      "p": [
+        "The question underneath every refinery report is whether the examination could have detected the damage that threatens the component. API RP 571 describes the mechanisms; the review tests the reported technique against them. The table shows common pairings and what a report needs to show for its result to mean anything."
+      ],
+      "table": {
+        "head": ["Damage mechanism (API RP 571)", "Techniques usually reported", "What the review looks for in the report"],
+        "rows": [
+          ["General and localised thinning, sulfidation, naphthenic acid corrosion", "UT thickness, corrosion mapping, profile radiography", "Grid density matched to the expected attack, repeatable locations and rates calculated from comparable readings"],
+          ["Wet H2S damage: blistering, HIC, SOHIC and sulfide stress cracking", "Straight-beam and angle-beam UT, PAUT, TOFD, wet fluorescent MT", "Scan plans covering the plate and welds at risk, and sizing methods the procedure supports"],
+          ["Amine and caustic stress corrosion cracking", "Wet fluorescent MT, PAUT, TOFD", "Surface preparation and coverage of welds and heat-affected zones, not a token sample"],
+          ["High temperature hydrogen attack", "Advanced ultrasonic techniques of the kind discussed in API RP 941", "A technique demonstrated for the purpose, with its qualification evidence in the file"],
+          ["Corrosion under insulation", "Visual, profile radiography, pulsed eddy current, UT where insulation was removed", "Which locations were opened, how many were screened and how screening results were followed up"],
+          ["Exchanger tube wall loss and pitting", "Eddy current, remote field, IRIS", "Reference standards, calibration curves, coverage of the bundle and the analysis rules applied"]
+        ]
+      }
+    },
+    {
+      "h": "CML and TML data: the numbers behind every interval",
+      "p": [
+        "Piping and vessel intervals are set from corrosion rates, and corrosion rates come from thickness readings taken at condition monitoring locations year after year. API 570 calls these CMLs, and the individual measurement points within them TMLs. If the readings are not taken at the same points with comparable technique, the rate calculated from them is arithmetic rather than evidence.",
+        "The review samples CML data across circuits and looks for the patterns that betray poor data: readings that grow thicker between surveys, rates that jump when the contractor changes, short-term and long-term rates that disagree for no physical reason, and CMLs deactivated or relocated with no record of why. It also checks that minimum required thickness values come from the right source and that any remaining life quoted is consistent with the rate and the minimum the report used. Where a data problem would move an interval, the opinion says so in plain words.",
+        "API published a fifth edition of API 570 in 2024, and many refineries were part-way through updating their programmes when recent reports were written. The review notes which edition the inspection programme references and whether the report follows it, because an interval rule quoted from the wrong edition is a common and avoidable finding."
+      ]
+    },
+    {
+      "h": "PAUT and TOFD on vessels and heavy-wall piping",
+      "p": [
+        "Encoded phased array and TOFD are now routine on refinery vessels, reactors and heavy-wall piping, both for in-service crack detection and where a construction code allows ultrasonic examination of repair welds in place of radiography. These techniques produce rich data, and their reports are often a few summary pages sitting over gigabytes of scans. A credible review opens the scans.",
+        "We check that the scan plan covers the weld and heat-affected zone volume it claims to, that probe positions and index offsets in the setup files match the plan, that calibration and sensitivity checks were recorded at the intervals the procedure sets, and that indications were sized by a method the procedure supports. Where ultrasonic examination replaced radiography under a code provision, the review checks that the conditions attached to that provision were met, including the procedure and personnel qualification the code demands.",
+        "The fault seen most often in refinery PAUT reports is not a missed indication but a coverage gap: a nozzle region scanned from one side, a weld cap that lifted the probe, or a scan that stopped short of the drawing length. Those gaps show up in the encoded data even when the report sheet claims full coverage."
+      ]
+    },
+    {
+      "h": "Exchanger tube data: eddy current, remote field and IRIS",
+      "p": [
+        "Tube inspection is a large share of any turnaround and a frequent source of disagreement, because the decisions it drives are expensive: plugging, sleeving or retubing a bundle. Eddy current suits nonferrous tubes, remote field testing is used on carbon steel, and IRIS gives ultrasonic wall measurements where access and cleanliness allow. ASTM E690 covers in situ eddy current examination of nonmagnetic heat exchanger tubes and leaves acceptance criteria to the parties, which is why the owner's specification carries so much weight.",
+        "A tube data review checks the reference standard against the tube material and gauge, the calibration curves and analysis rules applied, whether every tube listed was actually tested end to end, and whether the call on each indication follows from the signal. We also compare the tube map with the bundle drawing, because a misnumbered row turns a correct analysis into a wrong plugging list.",
+        "Eddy current, remote field and IRIS data are assigned in the proposal to a reviewer holding the certification your contract specifies. The ultrasonic, radiographic, magnetic particle, penetrant and visual records from the same turnaround are reviewed under an ASNT NDT Level III certified in UT, RT, MT, PT and VT."
+      ]
+    },
+    {
+      "h": "What OSHA PSM expects each inspection record to show",
+      "p": [
+        "Refineries fall within OSHA's process safety management standard, and its mechanical integrity paragraph is specific about inspection documentation. Each inspection and test on covered process equipment has to be documented, and the documentation has to identify five things. The review checks each record for them, because a report that is technically sound but missing one of them is still a compliance gap.",
+        "The same paragraph requires inspection and testing procedures to follow recognised and generally accepted good engineering practice, and deficiencies outside acceptable limits to be corrected before further use or in a safe and timely manner. A review that ties every finding to the practice the plant has adopted gives the process safety team something it can act on."
+      ],
+      "table": {
+        "head": ["Item the standard names", "Where it usually sits in an NDT report", "Typical gap"],
+        "rows": [
+          ["Date of the inspection or test", "Report header and data file time stamps", "Report issue date used instead of the examination date, or the two disagree"],
+          ["Name of the person who performed it", "Technician and evaluator blocks, signatures", "Only the reviewing supervisor named, not the technician who did the work"],
+          ["Serial number or other identifier of the equipment", "Equipment tag, circuit and CML references", "Tag missing, or written in a form that does not match the plant's equipment register"],
+          ["Description of the inspection or test", "Method, technique, procedure reference and extent", "Method named, but technique, procedure and coverage left out"],
+          ["Results of the inspection or test", "Readings, indications, dispositions and attached data", "A summary statement with the underlying readings or images missing"]
+        ]
+      }
+    },
+    {
+      "h": "From gauge to inspection database: digital data lineage",
+      "p": [
+        "Most refinery inspection data now ends up in an inspection data management system, often loaded straight from gauge files or contractor spreadsheets, and from there into risk-based inspection software. Digital reporting makes the volume manageable, but it also means a bad reading can travel quietly into an interval or a risk ranking. A digital inspection review traces a sample of readings and scans from the instrument file, through the contractor's digital report, to the values that now sit in your system.",
+        "Findings we look for include readings rounded or truncated on import, units mixed between inches and millimetres, CML identifiers that changed format between contractors, and scan files that cannot be matched to an equipment tag. We also look at the controls around the digital record: who can edit an issued report, whether revisions are logged, whether electronic signatures belong to identifiable individuals, and whether raw data are archived in a format the refinery can still open after the contractor has gone.",
+        "This kind of review earns its keep before a major RBI reassessment, when input quality decides output quality, and after a change of NDT contractor, when two data conventions meet in one database."
+      ]
+    },
+    {
+      "h": "Where the review stops",
+      "p": [
+        "A report review tests the record. It does not replace re-examination where the record cannot support a decision, and it does not change who decides. When re-inspection is the only answer, the opinion says so and describes what examination would settle the question."
+      ],
+      "list": [
+        "Fitness-for-service assessments and remaining-strength calculations stay with the refinery's engineer; we do not perform them",
+        "The inspector of record your programme names stays responsible for accepting the inspection and setting intervals",
+        "Risk decisions stay with the owner; if an RBI study is also needed, Atlantis offers it as a separate remote service",
+        "Atlantis does not perform industrial radiography in the United States; radiographs and DR images from your licensed contractor are reviewed as documents",
+        "Atlantis does not review reports for a project where it performed the examination"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can you review a whole turnaround package from several contractors?", "a": "Yes. We apply one set of checks to every contractor's reports, confirm each worklist item has a report covering its scope, and sort the package into reports ready to accept, reports needing document corrections and reports whose conclusions the data cannot support." },
+    { "q": "Can reviews run while the turnaround is still in progress?", "a": "Yes. Reports can be reviewed in batches as they are issued, so that gaps reach the contractor while the crew is on site and the equipment is still open. Correcting a record at that stage is far easier than re-opening equipment after startup." },
+    { "q": "Do you check the corrosion rates and remaining life in the report?", "a": "We check that the rates and any remaining life the report quotes can be reproduced from its readings and the minimum thickness it used, and we flag data problems that would change them. Fitness-for-service assessment itself stays with your engineer." },
+    { "q": "Will you open the PAUT and TOFD scan files?", "a": "Yes, wherever they are available. Coverage, setup and sizing can only be confirmed from the encoded data, and coverage gaps are the problem we meet most often in refinery phased array reports." },
+    { "q": "Who reviews exchanger tube eddy current data?", "a": "The proposal names a reviewer with the certification your contract requires for eddy current, remote field or IRIS work. Ultrasonic, radiographic, magnetic particle, penetrant and visual records are led by an ASNT NDT Level III holding certification in those five methods." },
+    { "q": "Does the review cover OSHA PSM documentation?", "a": "Yes. We check each record for the items the mechanical integrity paragraph requires: the date, the name of the person who did the work, the equipment identifier, a description of the inspection and its results. Missing items are reported as compliance gaps even when the technical work is sound." },
+    { "q": "Can the review help before an RBI reassessment?", "a": "Yes. A sample-based review of CML data, tube data and scan files tells the team building the risk model which inspection data can be trusted as input, and which need to be confirmed or replaced first." },
+    { "q": "How do I send refinery reports for review?", "a": "Use the form on this page or email info@atlantisndt.com with the unit, the equipment, the methods and what the review must support. We reply within one business day with a proposed scope and a quote, and the files reach us by secure transfer for a remote review." }
+  ],
+  "related": [
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/phased-array-data-review-paut", "PAUT data review"],
+    ["/standards/api-571", "API RP 571 damage mechanisms"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/eddy-current-tube-inspection", "Eddy current tube inspection"],
+    ["/blog/heat-exchanger-tube-inspection-methods-procedures", "Heat exchanger tube inspection methods"],
+    ["/inspection/risk-based-inspection", "Risk-based inspection"],
+    ["/consulting/level-iii-audit-support-refining", "Refining Level III audit support"]
+  ],
+  "sources": [
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.api.org/products-and-services/standards/important-standards-announcements/std570",
+    "https://inspectioneering.com/news/2024-03-01/10985/api-strengthens-piping-inspection-standards-with-new-updates",
+    "https://shop.standards.ie/en-ie/standards/api-rp-571-2020-97003_saig_api_api_2826061",
+    "https://store.astm.org/e0690-25.html",
+    "https://standards.globalspec.com/std/14596745/510"
+  ]
+}

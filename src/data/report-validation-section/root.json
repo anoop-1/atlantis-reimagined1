@@ -1,0 +1,181 @@
+{
+  "title": "NDT Report Validation: Independent Review of Inspection Data",
+  "description": "Independent review of NDT reports and digital inspection data: PAUT, CR and DR radiographs, eddy current, UT, MT and PT, checked against the code, remotely.",
+  "h1": "Independent NDT report validation and digital inspection data review",
+  "intro": "You have an inspection report, or a folder of raw digital inspection data, and you need to know whether it can be relied on before you accept it, pay for it, act on it or defend it. We review it independently against the procedure and the code it was written to, open the digital files behind the PDF, and tell you in writing what the evidence supports and what it does not. Reviews are carried out remotely on the reports and data you send, for owners, contractors and their advisers across the United States and the Middle East.",
+  "highlights": [
+    { "h": "Independent and impartial", "p": "We do not review work we performed, and we have no stake in the result. The reviewer reads the record the way an auditor, an opposing expert or a regulator would read it, and the written opinion says what that reader would find." },
+    { "h": "Checked against your code and procedure", "p": "Every finding is tied to the clause, table or procedure step it rests on: ASME Section V and the construction codes, API 510, 570 and 653, API 1104, AWS D1.1 and D1.5, ASNT SNT-TC-1A and the operator standards your contract names." },
+    { "h": "The digital data, not only the PDF", "p": "Encoded PAUT and TOFD files, CR and DR images, eddy current tube data and corrosion maps are opened in review software and compared with what the report claims, so the opinion covers the evidence and not just the summary page." }
+  ],
+  "sections": [
+    {
+      "h": "What NDT report validation is",
+      "p": [
+        "NDT report validation is an independent technical review of an inspection report that already exists. The examination has been done and the crew has left site. What remains is a document, and often a set of digital inspection files, that somebody now has to rely on. Validation answers a narrow question with care: does the record show that the examination was carried out to the procedure, by qualified people, with calibrated equipment, using a technique capable of finding the flaw that matters, and that the accept or reject decision follows from the evidence?",
+        "It is different from an inspection, and different from a quality audit of a contractor. An inspection produces new evidence. An audit looks at a company's system over a period. A validation looks at one report, or one batch of reports, and tests that specific record against the specific requirements that governed the work on the day it was done. The output is a written opinion your engineers, your insurer or your counsel can use.",
+        "A finding that a report is sound is a useful result in its own right: it lets a buyer accept a deliverable with confidence or lets a contractor answer a rejection with evidence rather than argument. Where a report is weak, the review separates paperwork that can be corrected from decisions the data cannot support, because the two lead to very different next steps."
+      ]
+    },
+    {
+      "h": "When owners, contractors and advisers ask for an independent review",
+      "p": [
+        "The reason for the review decides what the reviewer concentrates on, so we ask about it first. A buyer accepting a contractor's report is mostly interested in whether rejectable indications were missed. A contractor whose report was rejected wants to know whether the rejection is technically right. A lawyer or an insurer wants to know what the record can prove and what it cannot."
+      ],
+      "list": [
+        "Accepting a fabricator's or inspection contractor's NDT report before final payment or before equipment goes into service",
+        "A client, a third-party inspector or an authorized inspector has rejected your report and you need to know whether the rejection holds",
+        "Turnaround and shutdown records that must be closed out before the unit restarts, often from several contractors at once",
+        "Buying, selling or financing a plant, a pipeline or a vessel on the strength of someone else's inspection history",
+        "Insurance claims, warranty disputes and litigation where the inspection record is evidence and will be challenged",
+        "Owner oversight of digital inspection data from a new contractor, a new technique such as PAUT or DR, or a new digital reporting platform",
+        "Regulator, operator or audit questions about records produced years ago by people who have since moved on"
+      ]
+    },
+    {
+      "h": "The seven checks every review runs",
+      "p": [
+        "Whatever the method or industry, a review tests the same seven things. The depth of each one depends on the decision the report supports, but none of them is skipped, because a record that fails any one of them can be attacked on that point alone."
+      ],
+      "table": {
+        "head": ["Check", "What the reviewer opens", "Where reports most often fail"],
+        "rows": [
+          ["Procedure compliance", "The written procedure in force on the date of work, its revision, and the parameters it fixes", "Work done to a superseded revision, or essential variables changed without requalification"],
+          ["Personnel qualification", "Certificates, the employer's written practice, vision records and method experience on the date of the examination", "Expired vision examinations, Level I staff signing evaluations, or certification in the wrong method or technique"],
+          ["Equipment and calibration", "Instrument and probe serial numbers, calibration certificates, reference blocks and system performance checks", "Reference standards that are unidentified or out of calibration, which undermines every reading taken against them"],
+          ["Technique adequacy", "Scan plans, beam coverage, exposure geometry, frequency choice and the flaw the examination was meant to find", "A technique that could not physically detect the expected flaw at that size, orientation or location"],
+          ["Acceptance criteria", "The governing code edition, the acceptance table the report cites, and the joint category or service condition", "The wrong code edition, the wrong table, or criteria for the wrong weld category applied"],
+          ["Interpretation and sizing", "Indications, images and data compared with the dispositions recorded against them", "Indications recorded but not dispositioned, or sized with a method the procedure does not support"],
+          ["Completeness and traceability", "Location references, weld maps, drawing numbers, signatures, dates and the chain from raw data to report", "Results that cannot be tied to a specific weld, component or location, so nobody can tell what was examined"]
+        ]
+      }
+    },
+    {
+      "h": "Report validation by industry",
+      "p": [
+        "The codes, the damage mechanisms and the people who read the report change from one industry to the next, so the review is set up for the sector the report comes from. Each industry page explains what owners in that sector typically need checked and which documents matter."
+      ],
+      "linksFrom": "industry"
+    },
+    {
+      "h": "Review by method: digital radiography, computed radiography, PAUT, eddy current and more",
+      "p": [
+        "Every NDT method fails in its own way. Radiographs fail on image quality, ultrasonic reports fail on coverage and calibration, eddy current data fails on reference standards and analysis rules, and surface methods fail on technique details that leave no trace once the crew has gone. The method pages set out what we open for each one and what makes a report of that method indefensible."
+      ],
+      "linksFrom": "method"
+    },
+    {
+      "h": "Digital inspection data and digital reporting",
+      "p": [
+        "More and more inspection work now arrives as digital inspection data rather than paper: encoded phased array and TOFD files, computed and digital radiography images, eddy current tube data, corrosion maps and readings captured on tablets that flow straight into a digital reporting system. That is good news for reviewers, because raw data can be reopened, re-gated and re-measured long after the examination. It also creates new ways for a report to go wrong, and those are the ones we look for.",
+        "A digital report can look complete while the data behind it is not. Common problems include files that do not match the welds listed in the report, scans acquired outside the scan plan, image processing that was changed without a record, calibration files that belong to a different instrument, and digital reporting templates that fill fields automatically from the last job. A review of digital inspection data checks the lineage from acquisition to the issued report: which file, which settings, which analyst, which revision.",
+        "We also review digital reporting itself. If your contractors report through a digital platform, or you are moving your own team onto one, we check whether the reports it produces still carry what the codes require, whether electronic signatures and revisions are controlled, and whether the exported record would survive an audit or a dispute."
+      ]
+    },
+    {
+      "h": "Digital review pages",
+      "p": [
+        "Two pages go further into digital work: one on reviewing raw digital inspection data, and one on reviewing the reports produced by digital reporting systems."
+      ],
+      "linksFrom": "topic"
+    },
+    {
+      "h": "How a remote review works",
+      "p": [
+        "Nothing about a document review needs a site visit, which is why it is carried out remotely wherever the asset is. The sequence below is the same for a single report and for a batch of several hundred."
+      ],
+      "list": [
+        "You tell us what the report covers, which code and procedure applied, and what decision depends on the review; we confirm the scope and send a quote",
+        "You share the report, the procedure, personnel and calibration records, and the raw digital inspection data where it exists, through a secure file transfer",
+        "A reviewer with the right method and industry background works through the seven checks and records every finding against its source",
+        "Questions that the documents cannot answer go back to you, or with your permission to the contractor who produced the report",
+        "You receive a written opinion with a verdict, the evidence behind each finding and what would close each gap",
+        "If the opinion is challenged, the reviewer explains the reasoning to your engineers, the contractor or your advisers"
+      ]
+    },
+    {
+      "h": "What to send with the report",
+      "p": [
+        "A review can only be as complete as the record it is given. These are the documents we ask for; if some are missing, the opinion says so, because missing evidence is itself a finding."
+      ],
+      "list": [
+        "The issued report, with any revisions and the transmittal or acceptance correspondence",
+        "The NDT procedure and technique sheet in force on the date of the examination",
+        "Personnel certificates, the employer's written practice and current vision examination records",
+        "Equipment lists with serial numbers, calibration certificates and reference block identification",
+        "Raw digital inspection data: PAUT and TOFD files, CR and DR images, eddy current data, corrosion maps",
+        "Drawings, weld maps or isometrics that locate what was examined",
+        "The contract clauses, specification or operator standard that set the acceptance criteria"
+      ]
+    },
+    {
+      "h": "What you receive: a written opinion with one of three verdicts",
+      "p": [
+        "Each review ends in a written opinion. It opens with the verdict and a short statement of what the record does and does not establish, then lists every finding with the clause or procedure step it rests on, the evidence that supports it and what would resolve it. Findings are ranked, so a project manager can see in a minute whether anything stops the job.",
+        "The verdict takes one of three forms. A sound report is one whose record supports its conclusions. A report deficient in documentation only has gaps, such as a missing calibration certificate or an unsigned page, that can usually be closed with records that already exist. A report deficient in disposition contains an accept or reject decision that the evidence does not support; that is the finding that matters, and the opinion explains what further examination, data analysis or engineering assessment would settle it."
+      ]
+    },
+    {
+      "h": "Independence and who reviews your report",
+      "p": [
+        "Independence is the reason a review is worth having, so we treat it as a rule rather than a slogan. We do not validate a report for a project where we performed the examination, we tell you at the enquiry stage if we have any relationship with the contractor who produced it, and our opinion does not change with who is paying. A review that finds the report sound is reported as plainly as one that finds it deficient.",
+        "Reviews are carried out by a team whose members come from nuclear, maritime, oil and gas and petrochemical work, so the reviewer understands how the report will be used as well as how the method works. Reviews in ultrasonic, radiographic, magnetic particle, penetrant and visual testing are led by an ASNT NDT Level III certified in UT, RT, MT, PT and VT. Where a contract requires the reviewer to hold a particular certification in another method, such as eddy current, tell us at the enquiry and the proposal will name a reviewer who meets it."
+      ]
+    },
+    {
+      "h": "What a document review cannot do",
+      "p": [
+        "Being clear about the limits of a review is part of making it defensible. A review tests the record; it does not create new evidence about the component."
+      ],
+      "list": [
+        "It cannot see what was never recorded: if a weld was not scanned, no review of the data will find a flaw in it",
+        "It does not replace re-inspection where the record cannot support the decision; the opinion says when re-examination is the only answer",
+        "It does not make Atlantis the inspector of record or an authorized inspector for the equipment; that role stays with the person your code and jurisdiction name",
+        "It does not include fitness-for-service or remaining-life calculations, which stay with your engineer; the review can tell that engineer which data are reliable",
+        "It does not certify or recertify personnel; it reports whether the certifications on file covered the work on the day it was done"
+      ]
+    },
+    {
+      "h": "Codes we review against",
+      "p": [
+        "The acceptance criteria come from the construction or in-service code, the examination rules from the method standard, and the personnel rules from the employer's written practice. A review keeps the three apart, because mixing them is one of the most common reasons a report reaches the wrong conclusion."
+      ],
+      "table": {
+        "head": ["Where the report comes from", "Codes and standards typically involved", "What the review concentrates on"],
+        "rows": [
+          ["New pressure equipment and piping", "ASME Section V with Section VIII, Section I, B31.1 or B31.3", "Code edition, joint category, examination extent and the acceptance table applied"],
+          ["In-service vessels, piping and tanks", "API 510, API 570 and API 653, with API RP 574 and API RP 575 for practice", "Thickness data quality, CML coverage and whether the data support the intervals proposed"],
+          ["Pipelines", "API 1104, ASME B31.4 and B31.8, 49 CFR Parts 192 and 195 in the United States", "Girth weld acceptance, integrity dig records and traceability to the line and station"],
+          ["Structural steel and bridges", "AWS D1.1 and AASHTO/AWS D1.5", "Weld category, tension or compression loading, and UT technique to the code's own method"],
+          ["Nuclear plants", "ASME Section III and Section XI, applied under the licensee's quality assurance program", "An independent technical opinion the licensee's QA organisation decides how to use"],
+          ["Personnel and procedures", "ASNT SNT-TC-1A, ANSI/ASNT CP-189 and the employer's written practice", "Qualification on the date of work, method and technique scope, and vision currency"],
+          ["Middle East operators", "Operator engineering standards from Saudi Aramco, ADNOC, QatarEnergy and KNPC, read with the codes they invoke", "Where the operator standard is stricter than the base code, and whether the report applied it"]
+        ]
+      }
+    },
+    {
+      "h": "Review guides by situation and report type",
+      "p": [
+        "These guides go deeper into specific situations, such as a rejected report or a record in dispute, and specific report types."
+      ],
+      "linksFrom": "guides"
+    },
+    {
+      "h": "United States and Middle East reviews",
+      "p": [
+        "In the United States, reviews cover reports produced under federal and state rules as well as the codes. Atlantis does not perform industrial radiography in the United States, where it is licensed under NRC rules or Agreement State programs, but reviewing radiographs and digital radiography images produced by your licensed contractor is a document review and is part of this service. Pipeline records are read against the PHMSA rules that apply to the line, and boiler and pressure vessel records against the jurisdiction's adoption of the ASME and National Board codes.",
+        "In the Middle East, most reports are written to an operator's engineering standards on top of the international codes, and the operator's standard usually decides the acceptance criteria and the reporting format. Reviews there are carried out remotely in the same way, from our offices in Houston and Hyderabad, on the records and digital inspection data you send. The city pages below describe the industries, owners and codes in each area."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What is NDT report validation?", "a": "It is an independent technical review of an NDT report that already exists. The reviewer tests whether the procedure was followed, the personnel were qualified on the date of work, the equipment was calibrated, the technique could find the flaw that matters, the right acceptance criteria were applied, the results were interpreted correctly and the record is complete and traceable." },
+    { "q": "Can you review digital inspection data as well as the PDF report?", "a": "Yes, and where raw data exists we prefer to. Encoded PAUT and TOFD files, CR and DR images, eddy current tube data and corrosion maps are opened and compared with the report. Reviewing the digital data is often the only way to confirm coverage, sizing and image quality." },
+    { "q": "Is the review carried out on site?", "a": "No. A report review is carried out remotely on the documents and digital inspection data you share through a secure transfer, which is why it can be done for assets anywhere in the United States or the Middle East. If the record cannot support a decision, the opinion says what field examination would be needed." },
+    { "q": "How do you stay independent?", "a": "We do not review reports for projects where we performed the examination, we disclose any relationship with the contractor at the enquiry stage, and the opinion is the same whoever commissions it. A review that finds the report sound is written as plainly as one that finds it deficient." },
+    { "q": "Which industries does your review team cover?", "a": "The review team's members come from nuclear, maritime, oil and gas and petrochemical work, and we review reports from refining, chemical plants, LNG, pipelines, power generation, structural steel and fabrication shops. The industry pages explain the codes and documents that matter in each." },
+    { "q": "Do you review radiographs in the United States if you do not perform radiography there?", "a": "Yes. Atlantis does not carry out industrial radiography in the United States, but reviewing film radiographs and computed or digital radiography images produced by your licensed contractor is a document review and is part of this service." },
+    { "q": "Can a validation be used in a dispute or an insurance claim?", "a": "The written opinion ties every finding to the clause or procedure step it rests on and to the evidence in the record, which is what makes it usable by counsel, insurers and adjusters. It is a technical opinion, not legal advice, and it states its own limits." },
+    { "q": "How do I get a quote for a review?", "a": "Use the form on this page or write to info@atlantisndt.com with the report type, the method, the code or procedure and what the review is for. We reply within one business day with the proposed scope and a quote for that review." }
+  ]
+}

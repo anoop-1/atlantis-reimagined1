@@ -1,0 +1,151 @@
+{
+  "title": "Pipeline Integrity Report Review | ILI Dig and Hydrotest Data",
+  "description": "Independent review of pipeline integrity records: ILI dig reports, corrosion mapping, crack sizing and hydrotest data under Parts 192 and 195, done remotely.",
+  "h1": "Independent review of pipeline integrity dig reports, ILI verification data and test records",
+  "eyebrow": "Industry review: pipeline integrity",
+  "intro": "A pipeline integrity programme turns in-line inspection calls, excavation measurements and pressure tests into decisions about repair, operating pressure and the next assessment. Each of those decisions rests on a record produced in a ditch or on a test chart, often by contractors working against an outage window. We review integrity records and the digital inspection data behind them, independently, against 49 CFR Parts 192 and 195, ASME B31.8S, API RP 1160 and the operator's procedures, and report in writing what the evidence supports. Reviews are carried out remotely on the records you send; construction girth weld records have a separate guide.",
+  "highlights": [
+    { "h": "The dig report as evidence", "p": "An excavation report is the only direct measurement of a feature the in-line tool reported. The review checks whether it measured the right feature, in the right place, with a technique able to size it." },
+    { "h": "Read against the federal rules", "p": "Integrity management, pressure test and material records are read against the Part 192 and Part 195 requirements and the standards those rules incorporate by reference." },
+    { "h": "No overlap with the operator's engineering", "p": "We do not run in-line tools or calculate remaining strength. The opinion tells the operator's engineer which measurements are sound enough to feed those calculations." }
+  ],
+  "sections": [
+    {
+      "h": "Integrity records are not construction records",
+      "p": [
+        "Pipeline records fall into two families. Construction records, chiefly the girth weld examinations made to API 1104 as a line is built, establish what went into the ground, and our pipeline girth weld guide explains how those are reviewed. Integrity records describe what has happened to the pipe since: metal loss, cracking, dents and coating damage found by in-line inspection, direct assessment or pressure testing, and the field measurements taken to confirm them.",
+        "Integrity records are produced under different pressures. A dig crew may have a single day to expose, clean and measure several features before the excavation is backfilled. The in-line inspection vendor's report, the operator's dig sheet and the NDE contractor's field report all describe the same feature in different coordinate systems and terminology. When they disagree, the operator's decision about repair, pressure reduction or reassessment rests on whichever record is believed.",
+        "An independent review sorts that out. It tests whether the field record is good enough to confirm or overturn the tool call, whether the measurements can carry the engineering assessment the operator intends to run, and whether the record set will satisfy a regulator reading it years from now."
+      ]
+    },
+    {
+      "h": "Where the dig report sits between the tool call and the decision",
+      "p": [
+        "In-line inspection of regulated pipelines is itself governed by federal rules: Part 192 for gas and Part 195 for hazardous liquids both require operators conducting in-line inspection to comply with API Standard 1163, ANSI/ASNT ILI-PQ and NACE SP0102. API 1163 deals with qualifying in-line inspection systems and validating their results, and field measurements at excavations are a principal source of that validation. A dig report therefore does two jobs at once: it characterises a feature for repair, and it tests the tool's performance.",
+        "The review reads the dig report with both jobs in mind. For the repair decision, it checks that the feature measured is the one the tool reported, located by girth weld counts and distances from reference welds rather than by estimate, and that the dimensions recorded are the ones the engineering assessment needs. For tool validation, it checks that measurements are reported in a way that can be compared with the call: the same feature boundaries, the same depth convention and the same interaction rules for clustered pits.",
+        "There is an edition point as well. Part 192 incorporates the second edition of API 1163, issued in 2013, while API published a third edition in 2021. Operators and vendors increasingly work to the newer edition, and a report citing one while the integrity programme cites the other deserves a note, particularly where the validation approach differs."
+      ]
+    },
+    {
+      "h": "What a dig report must let a reader reconstruct",
+      "p": [
+        "A good excavation report lets someone who never stood in the ditch rebuild what was measured and why. We check for the items below and treat each missing one as a finding, its seriousness depending on the decision the report supports."
+      ],
+      "list": [
+        "Pipe identification: line, segment, diameter, nominal wall, seam type and grade as recorded, and how each was confirmed in the field",
+        "The location of the excavation and of each feature, referenced to upstream and downstream girth welds and to the long seam",
+        "The tool call being verified, with its identifier, reported dimensions and the reporting threshold the vendor used",
+        "Coating condition, soil and groundwater observations wherever the operator's procedure asks for them",
+        "Surface preparation before measurement, and the technique used for each type of feature",
+        "Instrument identification, calibration and the qualification of each technician on the date of work",
+        "Measured dimensions, interaction decisions and the photographs or data files that support them",
+        "Repairs made, recoating details and any feature left in place pending assessment"
+      ]
+    },
+    {
+      "h": "Metal loss: corrosion mapping, UT grids and pit depth",
+      "p": [
+        "External and internal corrosion remain the features most often verified at digs. Pit gauges give spot depths; ultrasonic grids and automated corrosion mapping give a profile of remaining wall that an engineer can feed straight into an assessment. The review checks that the technique chosen can support the assessment intended, because a single deepest-pit reading supports one kind of calculation and a detailed profile from a dense grid supports another.",
+        "For corrosion mapping data we check the scan resolution against the size of the pits, calibration on a reference of known thickness, the treatment of coating and the scan coverage against the box drawn round the feature. For pit gauge measurements we check that depth was referenced to undamaged pipe surface and that the deepest point was actually located. Internal metal loss measured from the outside adds the question of whether readings at the bottom of a pit are reliable at all.",
+        "The remaining-strength calculation that follows, whether by ASME B31G, RSTRENG or another accepted method, stays with the operator's engineer; we do not perform it. What the opinion provides is a plain statement of which measurements are fit to use in it."
+      ]
+    },
+    {
+      "h": "Cracks, dents and features that interact",
+      "p": [
+        "Crack-like features are where dig reports most often disagree with the tool and with each other. Stress corrosion cracking colonies, seam weld defects and cracks associated with dents need careful surface preparation, magnetic particle examination to map their extent, and an ultrasonic technique able to estimate depth. Phased array and TOFD are now common at digs for depth sizing, and their encoded data can be reviewed long after the excavation has been closed.",
+        "The review checks the magnetic particle technique and the cleaning that preceded it, the sizing method and its demonstrated accuracy, the treatment of crack colonies and interaction, and whether any buffing or grinding to explore depth was recorded. For dents it checks that the profile was measured, that associated metal loss or cracking was examined, and that the dent's position relative to girth and seam welds is documented.",
+        "Where the operator intends a fracture mechanics assessment or an engineering critical assessment, the opinion states which crack dimensions the record supports and with what confidence. The assessment itself, including any engineering critical assessment used to reconfirm maximum allowable operating pressure, remains the operator's work."
+      ]
+    },
+    {
+      "h": "Hydrostatic test records under Parts 192 and 195",
+      "p": [
+        "Pressure tests remain a backbone of integrity assessment, and the federal rules say what a test record must contain. A test that cannot be reconstructed from its record is weak evidence however carefully it was run, so the review compares each record with the rule that governs it."
+      ],
+      "table": {
+        "head": ["Record element", "Gas lines: Part 192 test record", "Hazardous liquid lines: Part 195 test record"],
+        "rows": [
+          ["Retention", "Kept for the useful life of the pipeline for tests under the principal strength test sections", "The latest test record kept for as long as the facility tested is in use"],
+          ["Who ran the test", "The operator, the employee responsible and any testing company used", "The operator, the person responsible and any test company used"],
+          ["Test conditions", "Test medium, test pressure and test duration", "Minimum test pressure, test medium, and the date and time of the test"],
+          ["Pressure evidence", "Pressure recording charts or another record of pressure readings", "Pressure recording charts, with calibration data for the test instruments"],
+          ["Elevation and temperature", "Elevation variations wherever they are significant for the test", "An elevation profile where differences exceed 100 feet, and the temperature of the medium or pipe"],
+          ["Leaks and failures", "Leaks and failures noted, with their disposition", "An explanation of pressure discontinuities, including failures"]
+        ]
+      }
+    },
+    {
+      "h": "Material records and the traceable, verifiable and complete test",
+      "p": [
+        "Since the gas transmission rule published in 2019, many Part 192 obligations depend on records of pipe attributes being traceable, verifiable and complete. Where Part 192 calls for it, section 192.607 requires operators of onshore steel transmission lines to keep such records of diameter, wall thickness, seam type and grade for the life of the pipeline and, where the records fall short, to verify the properties by tests and examinations at defined opportunities when the pipe is exposed, anomaly digs among them.",
+        "That turns an ordinary integrity dig into a material verification opportunity and puts new weight on the dig report. Nondestructive methods used to estimate strength must be validated by a subject matter expert and must account for measurement uncertainty, and the rule sets a minimum number of readings at each test location. The review checks whether the field record shows the method, its validation, the instrument calibration and the readings at the required positions, so the results can stand in the operator's material records.",
+        "Records that are not traceable, verifiable and complete cannot be repaired with a better summary. The opinion separates gaps that existing documents can close from those that need new testing at the next excavation."
+      ]
+    },
+    {
+      "h": "Integrity management rules and the standards behind them",
+      "p": [
+        "Integrity records are read against a framework of federal rules and industry standards. The table summarises the main ones; the operator's integrity management plan decides how each applies to a given segment."
+      ],
+      "table": {
+        "head": ["Document", "What it governs", "How it shapes the review"],
+        "rows": [
+          ["49 CFR Part 192, Subpart O", "Integrity management for gas transmission lines in high consequence areas", "Assessment, remediation and record expectations for the segment concerned"],
+          ["ASME B31.8S", "Managing system integrity of gas pipelines; the 2018 edition is incorporated by reference in Part 192", "Threat categories and the data each assessment method is expected to produce"],
+          ["49 CFR 195.452", "Integrity management for hazardous liquid lines that could affect high consequence areas", "Assessment and remediation records for liquid segments"],
+          ["API RP 1160", "Managing system integrity for hazardous liquid pipelines, in a third edition published in 2019", "Industry practice for liquid integrity programmes, read alongside the rule"],
+          ["API Std 1163, ANSI/ASNT ILI-PQ and NACE SP0102", "In-line inspection systems, personnel and practice, required under Parts 192 and 195", "Whether dig data can validate tool performance and whether personnel were qualified"],
+          ["49 CFR 192.607", "Verification of material properties and attributes for onshore steel transmission lines", "Whether field tests at digs can stand as material records"]
+        ]
+      }
+    },
+    {
+      "h": "ILI data, dig databases and the digital chain",
+      "p": [
+        "Pipeline integrity is a digital discipline. Tool results arrive as feature listings and vendor viewing software; dig packages are compiled into integrity management databases and geographic information systems; field NDE produces corrosion map files, encoded phased array scans and digital photographs; and test charts are now often digital pressure logs. Every hand-off is a place where a feature can be renamed, a coordinate shifted or a measurement transcribed wrongly.",
+        "A digital inspection data review samples features across that chain. It follows a tool call from the vendor listing to the dig sheet, the field NDE files and the value finally stored in the operator's database, and checks that identifiers, distances, clock positions and dimensions survive the journey intact. It also checks that raw field files are archived in a format the operator can open, that revisions to issued dig reports are visible, and that each person whose electronic signature appears held the qualification claimed on the date of work.",
+        "For operators preparing for a PHMSA inspection, or reconciling records after acquiring a system, this sample-based approach shows quickly whether the digital record can be relied on or whether a fuller reconciliation is needed."
+      ]
+    },
+    {
+      "h": "What stays with the operator and the ILI vendor",
+      "p": [
+        "Atlantis does not run in-line inspection tools and does not analyse raw tool data as a vendor would; the vendor's analysis and the operator's acceptance of it stay where they are. Remaining-strength, fracture mechanics and fitness-for-service assessments stay with the operator's engineer, and decisions on repair, pressure and reassessment intervals stay with the operator. Atlantis does not perform industrial radiography in the United States; radiographs and digital radiography images from the operator's licensed contractor are reviewed as documents.",
+        "For the ultrasonic, magnetic particle, radiographic, penetrant and visual parts of a dig package, the lead reviewer is an ASNT NDT Level III certified in those five methods, supported by a review team whose members come from oil and gas, petrochemical, nuclear and maritime work. Electromagnetic and other techniques beyond those five are assigned in the proposal to a reviewer with the certification the contract requires. Reviews are carried out remotely from Houston and Hyderabad, and Atlantis does not review records for work it performed."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "How is this different from your girth weld report review?", "a": "The girth weld guide covers construction records made to API 1104 as a line is built. This page covers integrity records produced later: excavation reports verifying in-line inspection calls, field NDE of corrosion, cracks and dents, pressure test records and material verification at digs." },
+    { "q": "Do you run in-line inspection or analyse tool data?", "a": "No. Atlantis does not run in-line inspection tools, and the analysis of tool data stays with the vendor. We review the field records that verify the tool's calls, and whether they can support validation of its performance." },
+    { "q": "Can you check whether our dig reports support ILI validation?", "a": "Yes. We check that features were located consistently with the tool's reference system, that dimensions were measured and reported in a form that can be compared with the call, and that the measurement techniques had the accuracy the comparison needs." },
+    { "q": "Will you calculate the remaining strength of a corroded section?", "a": "No. Remaining-strength calculations such as ASME B31G or RSTRENG stay with your engineer. The opinion states which measurements in the dig report are reliable enough to feed them." },
+    { "q": "Can you review hydrostatic test records?", "a": "Yes. We compare each record with the content Part 192 or Part 195 requires, check the pressure charts or digital logs, instrument calibration and the elevation and temperature data, and report any element the record cannot demonstrate." },
+    { "q": "Can dig records help with traceable, verifiable and complete material records?", "a": "They can, if the field testing meets the rule. The review checks the method used, its validation, calibration and the number and position of readings against 49 CFR 192.607, so that results can stand in your material records." },
+    { "q": "We acquired a pipeline system. Can you assess its integrity records?", "a": "Yes. A sample-based review of dig reports, test records and the integrity database shows whether the history can be relied on, which records need follow-up and where a fresh assessment may be wise before decisions are made on that history." },
+    { "q": "How do I start a pipeline integrity record review?", "a": "Use the form on this page or email info@atlantisndt.com with the line, the record types, the assessment method and the decision the review supports. Expect a reply within one business day setting out a scope and a quote, after which the review proceeds remotely on files shared through secure transfer." }
+  ],
+  "related": [
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"],
+    ["/blog/pipeline-integrity-management-ili-dig-verification-and-api-1163-explained", "ILI dig verification and API 1163"],
+    ["/pipeline-inspection-services", "Pipeline inspection services"],
+    ["/services/mfl-pipeline-inspection", "MFL pipeline inspection"],
+    ["/standards/asme-b31-8", "ASME B31.8 explained"],
+    ["/report-validation/ultrasonic-thickness-report-review", "UT thickness report review"],
+    ["/consulting/level-iii-audit-support-pipeline", "Pipeline Level III audit support"]
+  ],
+  "sources": [
+    "https://codes.findlaw.com/cfr/title-49-transportation/cfr-sect-49-195-591/",
+    "https://www.customsmobile.com/regulations/49/192.493",
+    "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192/subpart-A/section-192.7",
+    "https://www.law.cornell.edu/cfr/text/49/192.607",
+    "https://www.customsmobile.com/regulations/49/192.517",
+    "https://www.law.cornell.edu/cfr/text/49/195.310",
+    "https://api.org/products-and-services/standards/important-standards-announcements/recommended-practice-1160",
+    "https://inspectioneering.com/journal/2022-12-29/10402/the-third-edition-of-api-standard-1163-in-line-inspection-systems-qualification",
+    "https://www.govinfo.gov/content/pkg/FR-2019-10-01/html/2019-20306.htm",
+    "https://www.law.cornell.edu/cfr/text/49/192.493",
+    "https://www.law.cornell.edu/cfr/text/49/195.591"
+  ]
+}

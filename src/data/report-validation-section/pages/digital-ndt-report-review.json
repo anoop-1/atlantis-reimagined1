@@ -1,0 +1,225 @@
+{
+  "title": "Digital NDT Report Review | Reporting Systems and ERPs",
+  "description": "Independent review of NDT reports issued from digital reporting systems and ERPs: auto-filled fields, e-signatures, revisions, linked certificates, exports.",
+  "h1": "Independent review of NDT reports produced in digital reporting platforms and ERPs",
+  "eyebrow": "Digital reporting review",
+  "intro": "Digital reporting systems have made NDT reports faster to issue and easier to search. They have also made it easy to issue a report that looks complete and is wrong in ways nobody notices: a calibration block carried over from last week's job, a certificate link that shows today's status rather than the status on the day of work, an approval signed by whoever happened to be logged in. We review reports produced in digital reporting platforms and ERPs independently of any vendor, testing what the record says against what the codes, your procedures and the underlying records require. The review is done remotely from the exported reports, native records and system information you share.",
+  "highlights": [
+    {
+      "h": "Format is not substance",
+      "p": "A reporting system can insist that every field is filled. It cannot tell whether the value in a field is true for this job. Our review tests the values, not the layout."
+    },
+    {
+      "h": "The record as it stood on the day",
+      "p": "Certificates, calibrations and procedures change after the work is done. We check that a report preserves their status on the date of the examination, not the status a live link shows now."
+    },
+    {
+      "h": "Who signed, and in what order",
+      "p": "Electronic approvals are only as good as the accounts behind them. Signatures, roles and timestamps are compared with the people and the sequence the procedure requires."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What changes when NDT reports come out of a system",
+      "p": [
+        "On paper, a technician filled in a form, a Level II checked it and someone signed it, and every entry was written for that job. In a digital reporting platform, or the inspection module of an ERP, much of the report is assembled rather than written. The header comes from the work order, the equipment list from the asset register, personnel details from the training records, the procedure from a controlled document library and the acceptance criteria from a template chosen at set-up. Only the readings and the findings are entered fresh.",
+        "That assembly is the strength of digital reporting and its main risk. Errors no longer stay inside one report: a wrong default in a template or a stale entry in a library reaches every report that draws on it until someone notices. System-generated reports also look uniform and finished, which makes people less inclined to question them. A third-party report review of digital NDT reports therefore looks at the template and the links as well as at individual reports, and it samples across jobs rather than only within one."
+      ]
+    },
+    {
+      "h": "Templates and fields carried over from the previous job",
+      "p": [
+        "Most systems let a user clone an earlier report or start from a template with defaults. Cloning saves time on repeat work, and it is a frequent source of errors in digital NDT reports. Fields that describe the conditions of one particular examination are copied forward and never updated, so the report records the couplant, surface temperature or calibration of an earlier job, sometimes on a different component and occasionally from a different month.",
+        "We test carried-over fields by comparing them across a sample of reports. Identical values where real conditions would differ, such as the same surface temperature to a tenth of a degree on every report for a week, or one calibration block serial number on jobs of very different thickness, are strong signs of cloning. Each suspect value is then checked against the record it should have come from: the calibration file, the instrument log, the job card or the photographs. The fields below are the ones we test first."
+      ],
+      "list": [
+        "Procedure number and revision, particularly after a procedure was reissued",
+        "Instrument, probe and calibration block identities, with the calibration date and time",
+        "Surface condition, temperature and couplant",
+        "Code, edition and the acceptance table or class applied",
+        "Technician and reviewer names, levels and certificate numbers",
+        "Extent of examination and limitations, often left blank or carried forward as none",
+        "Drawing, line, weld or CML references belonging to the previous component"
+      ]
+    },
+    {
+      "h": "Linked records: calibration, certificates and procedures on the date of work",
+      "p": [
+        "A well-built reporting system links each report to the records it relies on: the instrument's calibration certificate, the technician's NDT certification and vision examination, and the procedure in force. The reviewer's question is what that link actually shows. If it points to the live record, it shows the position today. A technician whose certificate lapsed the week before the examination and was renewed a month later will look fully certified on a report opened now, and an instrument recalibrated after failing a check will display its new certificate.",
+        "So we check reports against the history of each linked record, not its current state. Where the system stores a snapshot of certificate and calibration status at the moment of issue, we confirm it was taken at the right moment and compare it with the source records. Where it does not, we request the certificate and calibration histories from the training and equipment records and reconstruct the position on the day. A procedure link that opens the current revision, when the work was done under an earlier one, is treated the same way.",
+        "Qualification scope gets the same scrutiny. A link can prove that a technician holds a UT certificate without proving that it covers the technique used, such as phased array, or that the employer's written practice allows that level to evaluate and sign. Those limits sit in the certification record and the written practice, not in the link, and a Level III review of the report reads them there."
+      ]
+    },
+    {
+      "h": "Electronic signatures: who actually signed",
+      "p": [
+        "In the United States the federal ESIGN Act, 15 U.S.C. 7001, provides that in a transaction in or affecting interstate or foreign commerce a signature cannot be denied legal effect solely because it is electronic. That settles whether an electronic signature can count. It says nothing about whether the person whose name appears is the person who reviewed the report, which is the question in most disputes over digital NDT reports. Owners' specifications and some codes add their own expectations about who signs and how, and those expectations govern the review.",
+        "We look at how signatures are applied in the system: an individual login with a password, a second factor, a drawn or stored signature image, or a click on an approve button. A stored signature image inserted by a coordinator is not an approval by the person it depicts. Dozens of reports approved within a minute suggest the approver did not open them. An approval timestamp earlier than the last edit means the content changed after it was approved. Where the system logs these events we ask for the log; where it does not, we look for evidence elsewhere, such as approval emails or review comments."
+      ],
+      "list": [
+        "Each signature belongs to a named individual account, not a shared or departmental login",
+        "The signer's certification level and scope permitted the role the signature represents",
+        "The order of sign-off matches the procedure: performed, then reviewed, then approved",
+        "Findings and dispositions were not edited after final approval without a new revision",
+        "Signature images are generated by the system for the signer, not pasted in as pictures"
+      ]
+    },
+    {
+      "h": "Revision control and superseded versions",
+      "p": [
+        "Reports get corrected, and a digital reporting system should make every correction visible. We check that each revision carries a number and a date, states what changed and why, and was approved again. The changes that matter most are those that alter a disposition, an indication size or a thickness, and those made after the owner has acted on the report. A rejected weld that becomes accepted in a later revision with no new data and no explanation is a disposition finding, whatever reason is offered afterwards.",
+        "Superseded versions are the second problem. When a report is revised, earlier PDFs stay in inboxes, project folders and the owner's document system. We compare the version you hold with the one in the reporting system and with any copy exported to your inspection database, and identify which version the engineering decision rested on. If different parties are working from different revisions, the opinion says so in plain terms, because that is often the real source of a disagreement between owner and contractor."
+      ]
+    },
+    {
+      "h": "What a report must contain, whichever system produced it",
+      "p": [
+        "Content requirements for an NDT or inspection report come from regulation, from the codes and from the owner's programme and contract. They do not relax because the report is digital. The table lists the sources we review against most often. Where no clause number is given, the requirement is described from the document rather than quoted, and the edition named in your contract or programme governs.",
+        "We also read the report against the procedure it claims to follow, because procedures frequently ask for more than the code does: particular report fields, sketches, scan plans, photographs or delivery of the raw data itself."
+      ],
+      "table": {
+        "head": [
+          "Source",
+          "What the record has to show",
+          "Where digital reports tend to drop it"
+        ],
+        "rows": [
+          [
+            "OSHA 29 CFR 1910.119(j)(4)(iv), process safety management",
+            "The date of the inspection or test, the name of the person who performed it, the serial number or other identifier of the equipment, a description of the inspection or test, and its results",
+            "The performer's name replaced by the account that created the record, or the equipment identifier inherited from a parent asset"
+          ],
+          [
+            "ASME Section V method articles",
+            "An examination record identifying the procedure and revision, the equipment and its calibration, the item examined, the personnel and the date, plus the items each method adds",
+            "Equipment and calibration fields carried over from a template"
+          ],
+          [
+            "API 510, API 570 and API 653 programmes",
+            "Inspection records that let the owner follow condition, corrosion rates and intervals for each vessel, piping circuit or tank",
+            "Readings exported without location, method or the date they were taken"
+          ],
+          [
+            "49 CFR 192.243, gas pipeline girth welds",
+            "By location, the welds made, tested and rejected and the disposition of each reject, kept for the life of the pipeline",
+            "Rejects and repairs held as separate records that never reconcile with the weld count"
+          ],
+          [
+            "Owner specification or purchase order",
+            "Report format, approvals, attachments, data deliverables and retention",
+            "Native data and attachments missing from the exported package"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "PDF, native record and the export to your CMMS or inspection database",
+      "p": [
+        "A digital NDT report usually exists in three forms: the native record in the reporting system, the PDF issued to the client, and the data exported into the owner's CMMS or inspection data management system. They are meant to say the same thing. We check that they do, and that everyone agrees which of them is the record. If the contract makes the PDF the deliverable, the PDF has to be complete in itself; if the owner relies on the database, the export has to carry everything the decision needs.",
+        "PDFs raise their own questions: whether attachments and photographs are embedded or only linked, whether fonts and images will still render years from now, and whether the file is protected against change. The PDF/A family of standards, ISO 19005, was written for long-term preservation of electronic documents, and many owners specify it for archived reports. A PDF that can be edited without trace is a weak archive copy, however tidy it looks.",
+        "Exports to inspection databases are where readings meet decisions. A thickness sent to the wrong condition monitoring location changes a corrosion rate and possibly an interval; API 570 uses CML for what many older databases still label TMLs, and both terms turn up in the same export. We check field mapping, units, rounding and truncation, the date carried with each reading (it should be the date of examination, not of import), and whether repeat readings were averaged or the minimum kept. Where an import created new locations because identifiers failed to match, we flag the orphan records."
+      ]
+    },
+    {
+      "h": "Photographs and attachments: what metadata proves and what it does not",
+      "p": [
+        "Photographs taken on tablets and phones carry metadata: capture date and time, device model and often a location. In a digital report that metadata can confirm that a picture shows the component on the day, or reveal that it came from an earlier job. We read it where the original image is available and compare it with job dates and locations. Many systems compress images or strip their metadata on upload, and then a photograph supports the report only as an illustration.",
+        "Attachments are often where the substance sits: sketches, scan plans, calibration printouts, technique sheets and scanned paper data sheets. We check that every attachment the report mentions is in the exported package, that scanned paper is legible and complete, and that each attachment is the version for this job. An export that drops attachments without warning is a common reason an owner's archive holds an incomplete record."
+      ]
+    },
+    {
+      "h": "Moving from paper to digital reporting: checks on the first reports",
+      "p": [
+        "The first weeks on a new reporting system are when errors become embedded. Field mappings from the old forms are guessed, defaults are set once and forgotten, and signature roles are configured by someone who has never read the written practice. A short independent review at that stage is far less disruptive than finding the same faults during an audit a year later.",
+        "We compare a sample of the new digital reports with the paper forms they replaced, field by field, and with the procedures and codes they serve. We look for content the old form carried that the new template does not, defaults that should have been blank, acceptance criteria tied to the wrong code edition and approval routes that skip a level. Findings go to whoever configured the system as well as to the inspection team, because most are fixed once in the template rather than report by report."
+      ],
+      "list": [
+        "Every field on the old form has a home in the new template, or a recorded reason for dropping it",
+        "No field defaults to a value that describes the conditions of a particular examination",
+        "Acceptance criteria are chosen per job, with code and edition printed on the report",
+        "Approval roles match the written practice, including who may evaluate and who may sign",
+        "Exports to the owner's database were tested with real readings before go-live",
+        "Paper and digital records for the overlap period reconcile, with no gap between them"
+      ]
+    },
+    {
+      "h": "Audit readiness, verdicts and how the review runs",
+      "p": [
+        "Auditors from owners, clients and certification bodies increasingly ask for records straight out of the reporting system. A digital record is audit-ready when an auditor can pick any report, see who performed and approved each step, open the linked certificate and calibration as they stood on the day, follow each revision and reach the native data. We run that test on a sample, as an NDT report validation of the system rather than of one report, and set out what an auditor would find. The written opinion closes with one of three verdicts: sound; deficient in documentation only; or deficient in disposition, where a call in the report is not supported by the record behind it.",
+        "The review is carried out remotely from exported reports, native records, audit logs and screenshots of system configuration; we do not need access to your live system, though short read-only access can help on a large sample. It is independent of the reporting vendor and of the contractor who issued the reports, and Atlantis does not review reports from its own examinations. Atlantis also builds its own reporting software, so reviews stay with codes, procedures and contracts and never recommend a platform. Reviews of UT, RT, MT, PT and VT reports are led by an ASNT NDT Level III holding certification in each of those five methods, with a wider review team whose members come from nuclear, maritime, oil and gas and petrochemical work."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does it matter which reporting platform produced the reports?",
+      "a": "Not to the verdict. We review against the code, the procedure and the contract, never against the features of a product, and the same checks apply to a specialist NDT reporting tool, an ERP inspection module or a spreadsheet with macros. The platform matters only for knowing where its logs, snapshots and exports live."
+    },
+    {
+      "q": "Do you need access to our reporting system?",
+      "a": "No. Exported reports, the native record where it can be exported, audit or event logs and a few screenshots of configuration are usually enough. Read-only access for a short period can speed up a large review, but it is never a condition of the work."
+    },
+    {
+      "q": "A report shows the technician as certified. Is that enough?",
+      "a": "Not if the status comes from a live link. We check certification and vision examination status on the date of the examination, and whether the certificate covered the technique and the role the person filled on that report."
+    },
+    {
+      "q": "Are electronic signatures acceptable on NDT reports?",
+      "a": "Generally yes, and in the United States the ESIGN Act gives them legal effect. What the review tests is whether each signature was applied by the named person, in the order the procedure requires, after the content was final. Your specification or the referencing code may add rules of its own."
+    },
+    {
+      "q": "Which version of a report is the official one?",
+      "a": "Whichever your contract or document control procedure names. In practice the PDF, the system record and the database export often differ. The opinion lists the differences and identifies which version each decision relied on."
+    },
+    {
+      "q": "Can you review the report template rather than individual reports?",
+      "a": "Yes, and for a new system that is often the better starting point. We review the template, field mappings, defaults and approval routes, then test a sample of real reports to confirm the configuration behaves as intended."
+    },
+    {
+      "q": "Will you tell us whether a rejected weld or a thin reading should stand?",
+      "a": "We give a written opinion on whether the record supports the disposition against the criteria the contract names. Acceptance, repair decisions and any fitness-for-service or remaining-life assessment stay with the owner, the owner's engineer and, where the code requires one, the inspector of record."
+    },
+    {
+      "q": "How do we start a digital reporting review?",
+      "a": "Tell us which system issued the reports, how many reports or jobs are in scope and what prompted the review, through the form on this page or by email to info@atlantisndt.com. We reply within one business day; the reply proposes a review scope and includes a quote."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/what-makes-an-ndt-report-defensible",
+      "What makes an NDT report defensible"
+    ],
+    [
+      "/report-validation/client-rejected-our-ndt-report",
+      "When a client rejects your NDT report"
+    ],
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/report-validation/inspection-records-in-dispute-and-litigation",
+      "Inspection records in a dispute"
+    ],
+    [
+      "/consulting/ndt-audit-documentation",
+      "NDT audit documentation"
+    ],
+    [
+      "/consulting/ndt-level-iii-documentation",
+      "Level III documentation"
+    ],
+    [
+      "/inspection/piping-circuit-inspection-cml",
+      "Piping circuit and CML inspection"
+    ]
+  ],
+  "sources": [
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.osha.gov/laws-regs/standardinterpretations/1996-09-16",
+    "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap96-subchapI-sec7001.htm",
+    "https://www.iso.org/standard/38920.html",
+    "https://www.law.cornell.edu/cfr/text/49/192.243",
+    "https://inspectioneering.com/tag/tml"
+  ]
+}

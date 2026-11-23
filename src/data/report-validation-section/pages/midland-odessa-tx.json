@@ -1,0 +1,209 @@
+{
+  "title": "NDT Report Validation in Midland–Odessa, TX | Permian Basin",
+  "description": "Independent review of Permian Basin NDT reports and field inspection data: tank batteries, gas plants, compressor stations, gathering and long-haul lines.",
+  "h1": "Independent review of Permian Basin inspection reports, from wellpad equipment to long-haul pipelines",
+  "eyebrow": "Report validation: Midland–Odessa, Texas",
+  "intro": "Midland and Odessa sit in the middle of the Permian Basin, and the inspection records produced around them follow the oil and gas from wellpad to pipeline: thickness surveys on separators and treaters, weld reports on skids and launchers, gas plant mechanical integrity files, compressor station records and girth weld data on lines heading for the Gulf Coast. When one of those records has to carry a repair decision, an acquisition or a regulator's question, we review it independently against the code and the operator's procedure, opening the field data behind it. Every review is carried out remotely on the files you send.",
+  "highlights": [
+    {
+      "h": "Built for consolidation",
+      "p": "Permian assets change hands often, and inspection files arrive in a buyer's data room in a dozen formats. A sample-based review tells the buyer which parts of the history can be relied on and where a baseline survey will be needed."
+    },
+    {
+      "h": "Field data checked against the summary",
+      "p": "Gauge logger files, corrosion map scans, DR images from station welds and tablet entries are compared with the report that summarises them, because in the field the gap between what was measured and what was written is where errors hide."
+    },
+    {
+      "h": "Rules fixed asset by asset",
+      "p": "A lease separator, a regulated gathering line, a gas plant vessel and an interstate header answer to different requirements. The review states which ones it applied, so the opinion means the same thing to an engineer, a buyer and a regulator."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Why Permian operators and buyers ask for independent review",
+      "p": [
+        "The Permian has been consolidating fast. Diamondback Energy and Endeavor Energy Resources, both headquartered in Midland, completed their merger in 2024, and ExxonMobil closed its acquisition of Pioneer Natural Resources the same year. Each deal of that kind brings thousands of facilities under a new owner along with whatever inspection history the previous owner kept: some in an inspection database, some in contractor PDFs, some in a field office filing cabinet. The new owner has to decide quickly which records it can trust.",
+        "Independent reviews in this area are therefore commissioned less often at a single plant gate and more often across a portfolio. A buyer's integrity team wants a sample of tank battery and station records checked before setting its own inspection intervals. A midstream operator wants a new contractor's first season of thickness surveys checked before renewing the contract. A fabricator in Odessa wants a rejected skid package read by someone with no stake in the dispute. Lawyers and insurers follow when a failure, a lease transfer or a contract claim puts the inspection record in evidence.",
+        "None of the companies named on this page should be read as Atlantis clients; they are named to describe the market the records come from."
+      ]
+    },
+    {
+      "h": "From wellpad to transmission line: the assets and their records",
+      "p": [
+        "Oil and gas in the basin passes through a chain of facilities, and each link produces its own kind of inspection record under its own rules. The table follows that chain and notes where we usually find the weak point in each record."
+      ],
+      "table": {
+        "head": [
+          "Asset",
+          "Rules that usually shape the record",
+          "What the reviewer opens",
+          "Typical weakness"
+        ],
+        "rows": [
+          [
+            "Wellpad separators, heater treaters and scrubbers",
+            "Operator's program, often built on API 510 practice for production vessels",
+            "Thickness logger files, location sketches, gauge and probe calibration",
+            "Readings without a repeatable location, so no corrosion rate built on them holds"
+          ],
+          [
+            "Tank batteries and produced water tanks",
+            "Operator's tank program and the standard it names",
+            "Shell and floor survey data, MFL floor scans, repair records",
+            "Floor coverage that skips the zone nearest the shell"
+          ],
+          [
+            "Gathering lines leaving the lease",
+            "Railroad Commission rules for intrastate and regulated gathering, federal minimum standards by reference",
+            "Girth weld images, welder logs, alignment sheets, as-built records",
+            "Images that cannot be matched to weld numbers on the as-built"
+          ],
+          [
+            "Gas processing plants",
+            "OSHA process safety management and API 510 and 570",
+            "Mechanical integrity records, CML histories, exchanger tube data, corrosion maps",
+            "Inspection plans that do not reflect sour or wet gas damage"
+          ],
+          [
+            "Compressor stations",
+            "Part 192 where the station is jurisdictional, plus the operator's standards",
+            "DR and UT weld records on station piping, MT and PT on supports and nozzles",
+            "Weld counts that do not reconcile with the number of welds made"
+          ],
+          [
+            "Long-haul transmission lines",
+            "PHMSA for interstate lines, the Railroad Commission for intrastate",
+            "Girth weld radiographs or automated UT data, dig reports, coating surveys",
+            "Interpretations made to the wrong acceptance standard"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Sour gas, produced water and the damage behind the readings",
+      "p": [
+        "Parts of the basin produce sour gas, and the Railroad Commission's Statewide Rule 36, 16 TAC §3.36, sets requirements for operations in hydrogen sulfide areas, with a separate construction permit rule for sour gas pipeline facilities. Equipment and welds intended for sour service are usually purchased to NACE MR0175 / ISO 15156, which turns hardness surveys into acceptance records. We check that hardness positions, the test method and instrument verification match the purchase specification and that the values in the report are the ones the instrument recorded.",
+        "Produced water brings its own damage: chloride pitting, scale, under-deposit attack and microbiologically influenced corrosion in water handling and disposal systems. Those mechanisms produce isolated pits that a few spot readings will not find. When a thickness report on water-handling equipment claims a clean bill of health from sparse readings, the opinion says what scanning coverage would have been needed to support that claim."
+      ]
+    },
+    {
+      "h": "Gas plants and compressor stations",
+      "p": [
+        "Cryogenic gas processing plants generally fall within OSHA's process safety management standard where they hold flammable materials above its threshold quantity, so their vessels, piping and exchangers need inspection records an auditor can follow: a dated record of each inspection, who performed it, what was tested and the result, tied to an inspection plan that reflects the damage the plant expects. Amine units, dehydration systems and the cold box each have their own mechanisms, and the review checks whether the technique in each report could find them.",
+        "At compressor stations the common review question is whether the weld record is complete. Station piping is welded in quantity during construction and modification, often by more than one crew, and the DR or ultrasonic record has to cover every weld the operator's procedure says must be examined. We reconcile the welds made with the welds examined and the welds rejected, check that repairs were re-examined, and confirm that the people who interpreted the images held the certification the procedure requires.",
+        "Packaged equipment adds a third stream of records. Skids, launchers, receivers and meter runs arrive with fabrication data books listing weld maps, welder qualifications, radiographs or UT reports, PMI results and hydrotest charts. When a receiving inspector holds one of those books, the review separates genuine nonconformances from paperwork that can simply be supplied, so the shop and the buyer argue about the right things."
+      ]
+    },
+    {
+      "h": "Long-haul pipelines and the Gulf Coast connection",
+      "p": [
+        "Permian oil and gas leaves the basin on long-distance pipelines, and new capacity is added regularly; Matterhorn Express, for example, began moving Permian gas in 2024. Construction of lines like these produces large girth weld records, often a mix of film radiography, digital radiography and automated ultrasonic testing from different spreads. Interstate lines answer to PHMSA, and intrastate ones to the Railroad Commission of Texas, which adopts the federal minimum standards by reference.",
+        "A review of a pipeline weld record checks that the interpretation procedure matches the acceptance standard the operator adopted, that each spread's technicians were qualified to that procedure, that repairs and cut-outs are traceable to a final acceptable examination, and that the record covers every weld the regulation and the specification required to be examined. For automated UT, we also check the calibration blocks, the zone discrimination setup and the scan files themselves."
+      ]
+    },
+    {
+      "h": "Digital field data and the problem of merged databases",
+      "p": [
+        "Field inspection in the basin is overwhelmingly digital. Thickness gauges store readings in memory, corrosion mapping systems write encoded scan files, DR panels save images to laptops in trucks, and technicians enter visual and surface results on tablets that feed a digital reporting system. Done well, that chain is better evidence than paper ever was, because every reading can be traced back to the instrument that took it.",
+        "Consolidation strains that chain. When a buyer folds an acquired company's facilities into its own inspection data management system, location codes are remapped, asset identifiers change and readings imported from spreadsheets lose their link to the original logger file. A review of a sample of migrated records checks whether readings still sit against the right equipment, whether dates and units survived the transfer, whether electronic signatures still point to the technicians who took the readings, and whether the original scan files can still be opened without the previous contractor's software. The opinion tells the buyer which parts of the acquired history are reliable evidence and which need re-establishing."
+      ]
+    },
+    {
+      "h": "Codes and regulators behind Permian records",
+      "list": [
+        "Railroad Commission of Texas: oil and gas operations, Statewide Rule 36 for hydrogen sulfide areas, and pipeline safety for intrastate transmission, distribution, regulated gathering and production lines leaving a lease",
+        "PHMSA: interstate gas and hazardous liquid pipelines, under 49 CFR Parts 192 and 195",
+        "OSHA process safety management, 29 CFR 1910.119: gas processing plants and other covered processes",
+        "API 510, 570 and 653, and the operator's own standards: in-service vessels, piping and tanks",
+        "Texas Department of State Health Services: industrial radiography licensing and radiographer certification, because Texas is an NRC Agreement State"
+      ],
+      "p": [
+        "Where a record was produced under one regime and is now being read under another, as happens when a line's regulatory category changes or a facility is acquired, the opinion states both and says what each expects. Atlantis does not perform industrial radiography in Texas; DR and film images produced by your licensed contractor are reviewed as documents."
+      ]
+    },
+    {
+      "h": "Why remote review suits the basin",
+      "p": [
+        "Nothing about this review needs an Atlantis presence in Midland or Odessa, and there is none: no office, staff or equipment anywhere in the basin. A document and data review needs the records, not a reviewer on a lease road, so the files come by secure transfer and the work is carried out remotely from Atlantis's offices in Houston and Hyderabad. For portfolio reviews it is also the practical way to read records from facilities spread across several counties.",
+        "Describe the assets, the methods, the codes and what the review is for, and we reply within one business day with the scope, the reviewer and a quote. For a data room we usually agree a sampling plan first: a spread of asset types, contractors and years, weighted towards the facilities whose records will drive the most important decisions.",
+        "The output of a portfolio review is a written opinion on each sampled record plus a short summary by asset type and contractor, so patterns stand out: a contractor whose calibration records are consistently thin, or a facility class whose surveys never captured the locations needed to repeat them."
+      ]
+    },
+    {
+      "h": "The reviewer, and the limits of the review",
+      "p": [
+        "Reviews of UT, MT, PT, VT and radiographic records are led by an ASNT Level III whose certification spans those five methods. MFL tank floor scans and acoustic emission data are outside it, and for those the proposal names a reviewer certified as your contract requires. The team includes reviewers who have worked in oil and gas, petrochemical, nuclear and maritime settings.",
+        "Remaining-strength and remaining-life calculations stay with your engineer, and the opinion tells that engineer which data are reliable enough to use. Atlantis does not inspect OCTG or drill pipe and does not run in-line inspection tools; this page concerns the records produced around wells, plants, stations and lines. The written opinion classes each report as sound, deficient in documentation only, or deficient in disposition."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "We are buying Permian assets. Can you check the seller's inspection records?",
+      "a": "Yes. We agree a sampling plan across asset types, contractors and years, review the sample against the codes and the seller's procedures, and tell you which parts of the history can be relied on and where baseline surveys will be needed before you set intervals."
+    },
+    {
+      "q": "Can you review hardness surveys for sour service welds?",
+      "a": "Yes. We check the survey positions, the test method and instrument verification against the purchase specification, usually NACE MR0175 / ISO 15156, and confirm the reported values match the instrument record rather than a summary range."
+    },
+    {
+      "q": "Our compressor station weld record does not reconcile. What does the review look at?",
+      "a": "The count of welds made, examined and rejected, the repair and re-examination trail, the interpretation procedure and the certification of the people who read the images. The opinion lists each weld whose record is missing or inconsistent."
+    },
+    {
+      "q": "Do you review DR images from station and gathering line welds?",
+      "a": "Yes, for image quality, coverage and interpretation against the procedure and the acceptance standard. Atlantis does not carry out radiography in Texas; the images come from your licensed contractor."
+    },
+    {
+      "q": "Do you inspect tubulars or run in-line inspection tools?",
+      "a": "No. Atlantis does not perform OCTG or drill-stem inspection and does not run in-line tools. If you hold a tubular or in-line inspection report and want to know whether it falls within what we review, describe it when you enquire."
+    },
+    {
+      "q": "Can you help after we merge an acquired company's inspection database into ours?",
+      "a": "Yes. A sample of migrated records is traced back to the original files to check equipment identifiers, locations, dates, units and signatures. The opinion says which parts of the migrated history are reliable and which need re-establishing."
+    },
+    {
+      "q": "Will a reviewer visit our leases or plants?",
+      "a": "No. The review is remote and needs only the records. Files come by secure transfer, and questions the record cannot answer are sent to you in writing."
+    },
+    {
+      "q": "How do we start a Permian portfolio review?",
+      "a": "Send a short description of the assets, the methods and what the review is for through the form or to info@atlantisndt.com. The reply, within one business day, sets out a proposed sample, the reviewer and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/ndt-training-midland",
+      "NDT training in Midland"
+    ],
+    [
+      "/ndt-training-odessa",
+      "NDT training in Odessa"
+    ],
+    [
+      "/ultrasonic-testing-midland",
+      "Ultrasonic testing in Midland"
+    ],
+    [
+      "/magnetic-particle-testing-midland",
+      "Magnetic particle testing in Midland"
+    ]
+  ],
+  "sources": [
+    "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2537449-diamondback-buys-endeavor-for-26bn-update-2",
+    "https://rbnenergy.com/daily-posts/analyst-insight/permian-power-plays-diamondback-joins-big-leagues-closing-its-merger-endeavor",
+    "https://dallasinnovates.com/exxonmobil-closes-59-5b-acquisition-of-irving-based-pioneer-natural-resources/",
+    "https://www.law.cornell.edu/regulations/texas/16-Tex-Admin-Code-SS-3-36",
+    "https://law.cornell.edu/regulations/texas/16-Tex-Admin-Code-SS-3-106",
+    "https://www.rrc.state.tx.us/pipeline-safety",
+    "https://bnnbloomberg.ca/investing/2024/10/01/permian-gas-starts-flowing-via-matterhorn-pipeline-in-texas",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.phmsa.dot.gov/regulations/title49/part/195",
+    "https://dshs.texas.gov/radiation/industrial-radiographers/",
+    "https://www.nrc.gov/info-finder/region-state/texas.html"
+  ]
+}

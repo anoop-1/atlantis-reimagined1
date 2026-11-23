@@ -1,0 +1,145 @@
+{
+  "title": "Petrochemical and Chemical Plant Report Review | NDT Data",
+  "description": "Independent review of petrochemical and chemical plant NDT reports: PMI records, PT on stainless welds, exchanger tube data and cracking surveys, done remotely.",
+  "h1": "Independent NDT report review for crackers, polymer units and chemical plants",
+  "eyebrow": "Industry review: petrochemical and chemical",
+  "intro": "Petrochemical and chemical plants ask more of their inspection records than most. Alloys and stainless steels chosen for one corrosive service, cracking mechanisms that give little warning, exchangers by the hundred and material mix-ups that can turn a routine repair into a failure all show up in the reports a plant accepts. An independent review reads those reports, and the digital inspection data behind them, against the code, the plant's procedures and the damage the process can cause, and tells the inspection and process safety teams what each record actually demonstrates. Reviews are carried out remotely on the reports and files you send.",
+  "highlights": [
+    { "h": "Materials in the foreground", "p": "PMI records, penetrant materials suited to stainless steels and nickel alloys, and techniques chosen for austenitic welds are checked as carefully as the indications, because in chemical service the wrong material is itself a defect." },
+    { "h": "Cracking taken seriously", "p": "Chloride, caustic and polythionic acid cracking are tested against the coverage and sensitivity the report claims, not just against the absence of recorded indications." },
+    { "h": "Records a regulator can follow", "p": "Findings are tied to the clause or procedure step behind them, in a form your mechanical integrity and risk management programmes can use without rewriting." }
+  ],
+  "sections": [
+    {
+      "h": "Why chemical plant inspection records are different",
+      "p": [
+        "A refinery handles hydrocarbons with a fairly predictable set of contaminants. A chemical complex may handle acids, caustics, chlorinated intermediates, monomers and solvents within a few hundred metres of each other, each with its own materials of construction and its own way of attacking them. An inspection report on chemical equipment only makes sense once the reader knows what the equipment is made of and what it contains.",
+        "That changes what the reviewer reads first. Before the indications, we look at the materials record: the specified alloy, the grade verified in the field, the filler used in any repair, and whether the inspection technique and consumables suit that material. A penetrant report on a stainless nozzle and one on a carbon steel bracket can look identical on paper while resting on very different requirements.",
+        "The audience differs too. Alongside the inspection group and the process safety team, chemical plants often involve materials and corrosion specialists, licensors with their own inspection expectations, and insurers asking pointed questions after a loss of containment somewhere else in the industry. A clear independent opinion gives each of them the same reasoned account of what the record shows."
+      ]
+    },
+    {
+      "h": "Crackers, polymer units and chemical process trains",
+      "p": [
+        "Ethylene crackers produce some of the most demanding records in the sector. Furnace coils suffer carburization and creep, quench and transfer-line exchangers see thermal fatigue, and the cold end of the plant runs stainless and low-temperature steels with their own weld examination requirements. A cracker turnaround file combines coil thickness and diameter measurements, magnetic-response surveys for carburization, weld NDT and exchanger tube data from several contractors.",
+        "Polymer units add high-pressure reactor systems, long runs of stainless piping and extruder feed equipment, where one overlooked crack can stop production for weeks. Chemical trains, from chlor-alkali to specialty intermediates, bring alloy vessels, lined equipment, plastic and composite piping alongside metal, and a constant stream of small repairs. Each of them produces records that someone must later accept."
+      ],
+      "list": [
+        "Positive material identification records for new and repaired alloy piping and vessels",
+        "Penetrant and magnetic particle reports on stainless, duplex and carbon steel welds",
+        "Eddy current data on nonmagnetic exchanger and condenser tubes",
+        "UT thickness, corrosion mapping and profile radiography for thinning and pitting",
+        "PAUT, TOFD and digital radiography on repair and alteration welds",
+        "Coil thickness, diameter and carburization surveys from cracking furnaces",
+        "Visual and dimensional reports on vessel internals, linings and supports"
+      ]
+    },
+    {
+      "h": "Material verification records: what a PMI report has to prove",
+      "p": [
+        "API RP 578 sets out a material verification programme for new and existing alloy assets, and most chemical plants run a PMI programme built on it or on an internal standard. A PMI report claims that each listed component is the alloy it should be. The review checks whether the record can carry that claim: each item identified to a drawing or tag, the instrument and its grade library identified, check samples recorded at the start and end of each session, and the measured composition shown rather than a bare pass mark.",
+        "Technique matters as much as paperwork. Handheld X-ray fluorescence cannot measure carbon, so on its own it cannot confirm a low-carbon stainless grade or separate steels that differ mainly in carbon content; optical emission or another technique able to read carbon is needed where that difference matters. A report confirming an L-grade stainless steel with XRF alone is answering a question its instrument cannot answer, and the opinion will say so.",
+        "We also look at how the PMI results were sampled. A programme that verified only a percentage of welds on a system where one wrong filler wire could cause a failure needs a written justification, and a plant that changed its sampling rules midway through a project needs a record of when and why the change was made."
+      ]
+    },
+    {
+      "h": "Penetrant examination on austenitic and duplex stainless welds",
+      "p": [
+        "Penetrant testing is the everyday surface method on stainless welds, because magnetic particle testing cannot be used on austenitic grades and gives uneven, unreliable results on duplex grades, whose mixed structure magnetises only partly. It is also a method that leaves no trace once the crew has gone. Dwell time, surface temperature, cleaning and developer application all decide whether a small crack bleeds out, and none of them can be checked afterwards except from the record. ASME Section V Article 6 governs the technique wherever the construction code calls it up.",
+        "In chemical service the penetrant materials themselves need controlling. Article 6 requires certification of the contaminant content of penetrant materials used on nickel-base alloys, austenitic or duplex stainless steels and titanium, because residual sulfur and halogens can attack those materials. Older plant procedures written to editions that did not yet name duplex grades deserve a check on that point. The review checks that batch numbers for penetrant, remover and developer appear in the report and that certification for those batches is on file, along with the dwell time, temperature and lighting the procedure sets.",
+        "Where a fluorescent technique is used, the record should show the ultraviolet intensity and ambient light readings taken before examination. A report that omits them cannot demonstrate that fine indications would have been visible, and that matters most for the stress corrosion cracking this sector worries about."
+      ]
+    },
+    {
+      "h": "Exchanger tubes in nonmagnetic alloys",
+      "p": [
+        "Chemical plants run large numbers of stainless, copper-alloy and titanium exchanger and condenser tubes, and eddy current is the usual way to inspect them. ASTM E690 describes in situ eddy current examination of nonmagnetic heat exchanger tubes using internal probe coils, and it deliberately leaves acceptance criteria to the parties. The owner's specification therefore decides what counts as a reject, and the review starts from that document.",
+        "The checks follow the signal chain: a reference standard of the same alloy and gauge as the tubes, carrying the artificial flaws the procedure requires; frequencies and mixes suited to the tube; calibration curves recorded and repeated at the set intervals; each tube on the tubesheet map tested full length or the exceptions listed; and analysis calls that follow from the signals. Pitting and cracking in stainless tubes can produce subtle responses, and a call made on the wrong channel is a frequent reason a tube report reaches the wrong conclusion.",
+        "Eddy current reviews are assigned in the proposal to a reviewer who holds the certification the contract requires for that method."
+      ]
+    },
+    {
+      "h": "Cracking mechanisms and whether the report could have found them",
+      "p": [
+        "The most consequential damage in chemical service is cracking, because it can progress with little warning and is easy to miss with the wrong technique or the wrong extent. The table pairs common mechanisms described in API RP 571 with what the review expects to find in the report."
+      ],
+      "table": {
+        "head": ["Mechanism", "Where it is found", "What the report must demonstrate"],
+        "rows": [
+          ["Chloride stress corrosion cracking", "Austenitic stainless equipment and piping, including under insulation", "A surface technique of adequate sensitivity, clean surface preparation and coverage of welds and heat-affected zones"],
+          ["Caustic stress corrosion cracking", "Carbon steel in caustic service, especially welds that were not stress relieved", "Wet fluorescent MT or an ultrasonic technique able to detect cracking at the location at risk, with coverage recorded"],
+          ["Polythionic acid stress corrosion cracking", "Sensitized austenitic stainless steels exposed to air and moisture during shutdowns", "Examination targeted at the exposed areas, with the protective measures and examined locations recorded"],
+          ["Carburization and creep", "Cracking furnace coils and other high-temperature alloys", "The survey technique, its calibration on representative material and readings tied to the coil layout"],
+          ["Wet H2S and amine cracking", "Carbon steel in sour water, amine and related services", "Scan plans reaching the welds and plate at risk, with sizing methods the procedure supports"],
+          ["Corrosion under insulation", "Insulated carbon and stainless equipment operating in susceptible temperature ranges", "Which locations were opened or screened, and how screening findings were followed up"]
+        ]
+      }
+    },
+    {
+      "h": "Process safety, risk management and the record a regulator reads",
+      "p": [
+        "Most petrochemical and chemical plants holding highly hazardous chemicals above threshold quantities fall within OSHA's process safety management standard. Its mechanical integrity paragraph requires each inspection and test on covered equipment to be documented with the date, the name of the person who performed it, the equipment's identifier, a description of what was done and the results, and it requires inspection procedures to follow recognised and generally accepted good engineering practice.",
+        "Many of the same facilities also maintain a risk management plan under the Environmental Protection Agency's Risk Management Program in 40 CFR Part 68, which carries prevention programme requirements of its own. The detail of that rule has been revised more than once in recent years, so the review reads a report against the obligations the facility tells us it works to rather than assuming a version.",
+        "Both regimes treat an inspection report as only part of the evidence. The mechanical integrity programme must also show that the inspection was the right one, at the right frequency, and that deficiencies were corrected. A report review supports that by stating whether each record is sound, deficient in documentation only, or deficient in its disposition, with the evidence for each finding set out beside it."
+      ]
+    },
+    {
+      "h": "Analyzer exports, tube data files and other digital evidence",
+      "p": [
+        "Chemical plant inspections generate a great deal of digital inspection data that never reaches the PDF. PMI analyzers store every shot with its time stamp, grade match and composition; eddy current systems save raw tube data that can be re-analysed; corrosion mapping and PAUT systems keep encoded scans; and contractors increasingly deliver results through digital reporting portals rather than documents. The review asks for those files and compares them with the report.",
+        "Useful checks include matching PMI shot time stamps with the items and dates in the report, confirming that the grade library was appropriate, looking for shots repeated until a pass appeared, and confirming that a data file exists for each tube the report lists. On the reporting side we check whether issued reports can be edited without a trace, whether electronic signatures identify the certified individual, and whether the plant can still open the raw files if the contract ends.",
+        "When those checks pass, the digital record is stronger evidence than any paper report. When they fail, the opinion explains what the plant should request from the contractor while the data still exist."
+      ]
+    },
+    {
+      "h": "Requests we typically receive from chemical operators",
+      "p": [
+        "Chemical operators come to an independent review for a handful of recurring reasons. Knowing which one applies lets us scope the work to the decision instead of reviewing everything at equal depth."
+      ],
+      "list": [
+        "A repair contractor's PMI and weld NDT records need accepting before alloy equipment returns to service",
+        "Exchanger tube data from an outage points to plugging far more tubes than anyone expected",
+        "A licensor or insurer has questioned how a cracking survey was planned or reported",
+        "A new NDT contractor's digital reporting has to be checked before its data enters the inspection database",
+        "Inspection records for a unit being bought, sold or restarted after a long shutdown",
+        "A rejected report, where the contractor and the plant disagree on whether an indication is relevant"
+      ]
+    },
+    {
+      "h": "Who reviews the record, and where the review stops",
+      "p": [
+        "Penetrant, magnetic particle, ultrasonic, radiographic and visual records go to a reviewer holding ASNT NDT Level III certification in those five methods, and the wider review team includes people with petrochemical, oil and gas, nuclear and maritime backgrounds. Atlantis does not review reports for projects where it performed the examination, and the opinion reads the same whoever commissions it.",
+        "Assessments of fitness for service and remaining life stay with the plant's engineer; we do not perform them. Acceptance of the inspection stays with the inspector your programme names. Atlantis does not perform industrial radiography in the United States, although radiographs and digital radiography images produced by your licensed contractor are reviewed as documents. Reviews are carried out remotely from Houston and Hyderabad on the records you send."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can you review PMI records from a repair contractor?", "a": "Yes. We check that every component is identified, that the instrument, grade library and check samples are recorded, that the measured composition is shown and that the technique could measure the elements that distinguish the specified grade, including carbon where it matters." },
+    { "q": "Why does the penetrant batch number matter on stainless welds?", "a": "ASME Section V Article 6 requires the contaminant content of penetrant materials to be certified when they are used on austenitic or duplex stainless steels, nickel-base alloys and titanium. Without batch numbers in the report, nobody can show that the materials used were the certified ones." },
+    { "q": "Our eddy current contractor recommends plugging a large number of tubes. Can you check the data?", "a": "Yes. The review checks the reference standard, calibration, coverage and analysis calls against your specification and the raw data files. The proposal names a reviewer with the eddy current certification your contract requires." },
+    { "q": "Do you review cracking furnace coil surveys?", "a": "We review the records of coil thickness, diameter and carburization surveys for traceability, calibration and coverage. Where a survey uses a technique outside UT, RT, MT, PT and VT, the proposal states the certification of the reviewer who will take it on." },
+    { "q": "Does the review cover our OSHA PSM obligations?", "a": "It checks each inspection record for the documentation the mechanical integrity paragraph requires and reports any gap as a finding. Decisions about inspection frequency and corrective action remain with your mechanical integrity programme." },
+    { "q": "Will you tell us whether the equipment is fit for continued service?", "a": "No. Fitness-for-service assessment stays with your engineer. The opinion tells that engineer which inspection results are reliable enough to base the assessment on, and which need confirming first." },
+    { "q": "Can you review digital radiography from our plant in the United States?", "a": "Yes, as a document review. Atlantis does not perform radiography in the United States, but DR, CR and film images produced by your licensed contractor can be reviewed for image quality, coverage and interpretation." },
+    { "q": "How do we send a chemical plant report for review?", "a": "Use the form on this page or write to info@atlantisndt.com with the equipment, its materials, the methods used and the decision the report supports. We reply within one business day, setting out the scope and a quote, and the review runs remotely on files you share through secure transfer." }
+  ],
+  "related": [
+    ["/petrochemical-ndt-services", "Petrochemical NDT services"],
+    ["/consulting/petrochemical-ndt-consulting", "Petrochemical NDT consulting"],
+    ["/standards/api-578", "API RP 578 material verification"],
+    ["/standards/asme-section-v-article-6", "ASME Section V Article 6 explained"],
+    ["/blog/chemical-plant-ndt-consulting-osha-psm-mechanical-integrity-programs", "OSHA PSM mechanical integrity and NDT"],
+    ["/eddy-current-testing-petrochemical", "Eddy current testing in petrochemical plants"],
+    ["/consulting/level-iii-audit-support-petrochemical", "Petrochemical Level III audit support"]
+  ],
+  "sources": [
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://inspectioneering.com/content/2019-11-19/8875/what-to-know-about-the-3rd-edition-of-api-rp-578",
+    "https://store.astm.org/e0690-25.html",
+    "https://shop.standards.ie/en-ie/standards/api-rp-571-2020-97003_saig_api_api_2826061",
+    "https://www.slideshare.net/navndt/pt-asme-sec-v-art-6",
+    "https://www.bdlaw.com/publications/rmp-rulemaking-redux-again/",
+    "https://www.dlapiper.com/en-au/insights/publications/2026/02/epa-proposes-rollback-of-prescriptive-risk-management-program",
+    "https://www.scribd.com/document/716275396/1-Pt-Asme-Sec-v-2017-a-6"
+  ]
+}

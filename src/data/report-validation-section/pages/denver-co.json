@@ -1,0 +1,143 @@
+{
+  "title": "NDT Report Validation in Denver, CO | Inspection Data Review",
+  "description": "Independent review of NDT reports and digital inspection data from DJ Basin flowlines, Front Range gas pipelines, power plants and refining, done remotely.",
+  "h1": "Independent review of NDT reports and inspection data for Denver and the Front Range",
+  "eyebrow": "Report validation · Denver, Colorado",
+  "intro": "Front Range inspection records come from three directions: the oil and gas fields of the Denver-Julesburg Basin to the north and east of the city, the gas pipelines and utilities that serve the metro area, and the refining and generating plants that keep it supplied. Each answers to a different mix of Colorado and federal programs, and each buys NDT from contractors whose reports vary widely. When a report has to stand up to an auditor, a buyer or a disputed rejection, we review it independently against its procedure and code, open the digital inspection data behind it and set out in writing what the evidence supports. The review is done remotely on the records you provide.",
+  "highlights": [
+    { "h": "Flowline records read against Colorado's rules", "p": "Colorado regulates many production flowlines through its Energy and Carbon Management Commission rather than through the federal pipeline rules. The review identifies which regime a line falls under before it judges the record." },
+    { "h": "One yardstick for many contractors", "p": "Pad construction, gathering work and plant outages draw on several NDT contractors at once. Applying the same checks to each lets an owner compare like with like and see where the weak records cluster." },
+    { "h": "Opened at the file level", "p": "Digital radiography images, encoded ultrasonic files and thickness logs tied to location data are opened and compared with what the report claims about coverage and results." }
+  ],
+  "sections": [
+    {
+      "h": "What Front Range owners send for review",
+      "p": [
+        "The asset decides the record, and the record decides what a reviewer looks for first. The table maps the main sources of inspection reports in the Denver area to the documents they produce and the rules those documents are read against."
+      ],
+      "table": {
+        "head": ["Source", "Typical reports and data", "Read against"],
+        "rows": [
+          ["DJ Basin production pads and tank batteries", "Weld reports on facility piping and vessels, thickness surveys on separators and lines, production tank inspections", "The operator's specifications, the piping code its program invokes, and API 653 or API RP 12R1 for tanks"],
+          ["Off-location flowlines and crude oil transfer lines", "Girth weld examinations, pressure test records, thickness data at repairs", "The ECMC 1100 Series flowline rules and the standards the operator's program adopts"],
+          ["Intrastate natural gas pipelines", "Girth weld, corrosion control and integrity dig records", "Rules of the Public Utilities Commission's Pipeline Safety Program, built on 49 CFR Part 192"],
+          ["Interstate gas and liquid pipelines", "Construction weld records, dig reports, station piping examinations", "PHMSA under 49 CFR Parts 192 and 195, with API 1104 for girth welds"],
+          ["The Commerce City refinery", "Turnaround packages, CML thickness surveys, exchanger tube data, tank inspection packages", "API 510, 570 and 653 and OSHA process safety management"],
+          ["Coal and gas generating stations", "Boiler tube thickness, high-energy piping welds, condenser and feedwater heater tube data", "ASME Section I and B31.1, the state boiler program and the owner's procedures"]
+        ]
+      }
+    },
+    {
+      "h": "DJ Basin pads, flowlines and the ECMC record",
+      "p": [
+        "Chevron, which runs its Colorado business from regional headquarters in Denver, holds a large acreage position in the liquids-rich part of Weld County, enlarged by its 2023 acquisition of PDC Energy, and it is one of several producers whose pads and gathering systems generate a steady flow of NDT reports. Construction on a multi-well pad produces weld reports for separators, heater treaters, tank batteries and the piping between them. Off the pad, flowlines and crude oil transfer lines carry fluids to central facilities, and they bring paperwork of their own.",
+        "Colorado's Energy and Carbon Management Commission, which took over from the Colorado Oil and Gas Conservation Commission, regulates many of those lines through its 1100 Series flowline rules. Operators register off-location flowlines and crude oil transfer lines on a Form 44 and file GIS data giving each line's alignment, pipe size, fluid type and pipe material. A new line must pass a pressure test before it goes into active status, the operator's integrity programme may call for annual or three-yearly retests, and the commission's Director can order an integrity test at any time. A weld report or pressure test chart from a flowline project may therefore be read by a state regulator as well as by the operator.",
+        "A review of flowline records checks that each weld on the as-built list has an examination record, that the extent matches the operator's specification, that the pressure test chart identifies the segment, the gauge and the hold period, and that every repair weld was re-examined and recorded. Where a project used digital radiography or automated ultrasonic examination, the files are opened to confirm coverage and identification rather than taking the summary sheet on trust."
+      ]
+    },
+    {
+      "h": "Gas pipelines under the PUC and PHMSA",
+      "p": [
+        "Inside Colorado, intrastate gas pipeline operators are overseen by the Public Utilities Commission's Pipeline Safety Program, which acts as the state's delegate for PHMSA and writes the federal requirements into state rules. Interstate pipelines sit with PHMSA directly, while production flowlines on and off the pad are registered with the ECMC under its own rules. A Denver review begins by confirming which side of those boundaries a record falls on, because the answer changes which documents an auditor will expect to see.",
+        "For utility and transmission work, the reports most often sent for an independent reading are girth weld examinations on replacement projects, measurements recorded when pipe was exposed during integrity digs, and the documentation behind corrosion control and operator qualification. The review asks what an auditor would ask: was the examiner qualified on the date of the weld, was the procedure the one the operator's manual names, does the record locate the weld on the system map, and was every rejected weld repaired and re-examined?"
+      ]
+    },
+    {
+      "h": "Refining in Commerce City",
+      "p": [
+        "Suncor's Commerce City refinery, just north of Denver, combines three plants from two refineries Suncor acquired in 2003 and 2005 into a single site of about 103,000 barrels per day, which Suncor describes as the only facility of its kind in Colorado. It makes gasoline, diesel, jet fuel and much of the state's paving asphalt from crude that includes Denver-Julesburg Basin production. Its records follow the pattern of any US refinery: API 510 vessels, API 570 piping circuits, API 653 tanks, and the mechanical integrity element of OSHA's process safety management standard, which federal OSHA enforces in Colorado because the state has no OSHA-approved State Plan.",
+        "Asphalt and other heavy products mean hot, insulated tanks and lines, where the inspection record has to show how condition was assessed beneath the insulation and how heating coils were checked. A turnaround package from a plant like this is reviewed for coverage of the damage mechanisms the equipment actually faces, not merely for the presence of a thickness reading at every location on the drawing. Remaining-life and fitness-for-service judgements built on those readings remain with the refinery's engineer."
+      ]
+    },
+    {
+      "h": "Power plant outage and construction records",
+      "p": [
+        "Generating stations such as Xcel Energy's Comanche station in Pueblo, south of Denver, produce the outage records familiar to any utility: boiler tube thickness surveys, high-energy piping weld examinations, headers and drums examined during internal inspections, and eddy current data from condenser and feedwater heater tubes. Gas-fired units add combustion turbine and heat recovery records, and any new unit arrives with a construction weld file and vendor data books.",
+        "Boiler records are read against ASME Section I and its boiler external piping rules, high-energy piping against ASME B31.1, and repairs against the National Board Inspection Code as the jurisdiction applies it. Colorado's Boiler Inspection Program, run by the Division of Oil and Public Safety, decides who inspects: periodic inspections of an insured boiler are made by state-commissioned insurance inspectors, while the first certificate inspection of a new installation is made by a state inspector. The review leaves those roles exactly where they are and concentrates on whether the NDT beneath them is sound.",
+        "Tube data is where outages are won and lost. A thickness survey that read the same tubes at different elevations from one outage to the next produces a wastage rate that means nothing, and a condenser report that plugs tubes on the strength of a misnumbered map does lasting harm. The review samples the data against the tube map and the previous survey, and eddy current files go to a reviewer whose certification matches what the contract requires."
+      ]
+    },
+    {
+      "h": "Colorado programs behind the record",
+      "p": [
+        "Several state and federal programs decide which records must exist, who keeps them and who may sign them. None of them is displaced by an outside opinion; the review simply reads each record with the right program in mind."
+      ],
+      "list": [
+        "Energy and Carbon Management Commission: flowline registration, integrity management, pressure testing and abandonment under the 1100 Series rules",
+        "Public Utilities Commission Pipeline Safety Program: intrastate gas pipelines, under its role as PHMSA's state delegate",
+        "PHMSA: interstate gas and hazardous liquid pipelines under 49 CFR Parts 192 and 195",
+        "Boiler Inspection Program, Division of Oil and Public Safety: boilers and pressure vessels under the state statute, with state and commissioned insurance inspectors",
+        "Federal OSHA: process safety management at the refinery, gas processing plants and other covered processes",
+        "Colorado Department of Public Health and Environment: radioactive materials licensing, including the sources used for industrial radiography, in an NRC Agreement State"
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting on the Front Range",
+      "p": [
+        "Colorado's flowline rules already treat location data as part of the record, since operators file GIS data for each registered line. The same habit is spreading through inspection work: thickness readings tagged to coordinates, weld examination files linked to as-built drawings, and digital reports pushed from field tablets into an operator's database. That makes good records easier to find and poor ones easier to multiply.",
+        "A digital inspection review checks that the files and the report agree. Typical findings include DR images whose weld identifiers do not match the as-built list, thickness readings imported with rounded values or mixed units, scan files acquired with a setup that differs from the qualified procedure, and digital reporting templates that filled fields from a previous job. We also look at the controls around the record: who can change an issued report, whether revisions leave a trace, and whether each electronic signature can be attributed to a qualified individual rather than a shared account.",
+        "For owners moving onto a new digital reporting platform, the same review can be run on a sample of exported reports to confirm they still carry everything the governing code and the operator's procedures require, before years of records are migrated into it."
+      ]
+    },
+    {
+      "h": "Typical review requests from Denver",
+      "list": [
+        "An operator wants a new contractor's first flowline weld reports checked before more work is released",
+        "A pressure test chart or weld record has been questioned during an audit, and the operator wants an independent reading of what it actually shows",
+        "A plant outage package has to be accepted before units return to service",
+        "A buyer of producing assets wants to know how far the inspection history of the facilities and lines can be relied on",
+        "A contractor's report has been rejected by the owner's inspector, and the contractor wants an outside opinion before replying",
+        "A utility is consolidating records from several contractors into one digital system and wants the input tested first"
+      ],
+      "p": [
+        "Each of these calls for a slightly different emphasis. A buyer cares most about missed defects, a contractor about whether a rejection is technically right, and an auditor about whether the record can prove what it claims, so the scope is set once the decision behind the request is clear."
+      ]
+    },
+    {
+      "h": "Remote delivery, independence and limits",
+      "p": [
+        "Nobody from Atlantis is stationed in Denver or anywhere else in Colorado. Every review is carried out remotely, from Houston and Hyderabad, on the reports, procedures, certificates and digital files you transfer securely, so no site access, badging or travel is involved. We reply within one business day with a proposed scope and a quote.",
+        "An ASNT NDT Level III certified in UT, RT, MT, PT and VT leads the review of every report in those methods, and other team members bring experience from nuclear, maritime, oil and gas and petrochemical work. Independence is a working rule rather than a slogan: any relationship with the contractor is disclosed at the enquiry stage, a project Atlantis examined is never reviewed by Atlantis, and the verdict, sound, deficient in documentation only or deficient in disposition, is the same whoever commissions it."
+      ],
+      "list": [
+        "Industrial radiography in the United States is not performed by Atlantis; radiographs and DR images from your licensed contractor are reviewed as documents",
+        "Fitness-for-service and remaining-life calculations stay with the owner's engineer",
+        "The authorized inspector, the commissioned boiler inspector and any inspector of record keep their roles",
+        "Personnel certification stays with the employer under its written practice; the review reports whether the certificates covered the work"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Does the review need anyone on site in Colorado?", "a": "No. It is carried out remotely on the documents and digital inspection data you send by secure transfer. If the record cannot support a decision, the opinion explains what field examination would settle the question." },
+    { "q": "Can you review flowline records with the ECMC rules in mind?", "a": "Yes. We check weld examination records, pressure test charts and repair records against the operator's specification and the standards its program adopts, and note where the record falls short of what the 1100 Series rules ask of the operator." },
+    { "q": "Do you review reports for intrastate gas pipelines?", "a": "Yes. Girth weld, integrity dig and corrosion control records are reviewed against the operator's procedures and the federal rules the Public Utilities Commission has adopted, with each finding tied to the requirement it rests on." },
+    { "q": "Can you review power plant outage records?", "a": "Yes. Boiler tube thickness surveys, high-energy piping weld examinations and condenser or feedwater heater tube data are reviewed against ASME Section I, B31.1 and your own procedures, and compared with earlier surveys where you can provide them." },
+    { "q": "Will you open digital radiography and ultrasonic files, or only read the report?", "a": "We open them wherever they are available. Coverage, identification, image quality and sizing can only be confirmed from the data, and mismatches between files and reports are among the commonest findings in digital work." },
+    { "q": "Do you review radiographs even though you do not perform radiography in the US?", "a": "Yes. Atlantis does not carry out industrial radiography in Colorado or anywhere else in the United States. Reviewing film and DR images taken by your licensed contractor is a document review and part of this service." },
+    { "q": "Who reviews eddy current tube data from a power plant outage?", "a": "The proposal names a reviewer with the eddy current certification your contract requires, before data are sent. Ultrasonic, radiographic, magnetic particle, penetrant and visual records from the same outage are reviewed under an ASNT NDT Level III certified in those five methods." },
+    { "q": "How do we start a review from Denver?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, method, code or procedure and the decision the review supports. We reply within one business day, setting out the proposed scope and a quote for it." }
+  ],
+  "related": [
+    ["/ndt-training-denver", "NDT training in Denver"],
+    ["/consulting/ndt-consulting-denver", "NDT consulting in Denver"],
+    ["/ultrasonic-testing-denver", "Ultrasonic testing in Denver"],
+    ["/inspection/third-party-inspection-denver", "Third-party inspection in Denver"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"]
+  ],
+  "sources": [
+    "https://law.cornell.edu/regulations/colorado/2-CCR-404-1-1101",
+    "https://law.cornell.edu/regulations/colorado/2-CCR-404-1-1104",
+    "https://colorado.chevron.com/about",
+    "https://www.businesswire.com/news/home/20230807759005/en/Chevron-Completes-Acquisition-of-PDC-Energy/",
+    "https://ecmc.colorado.gov/programs/oil-and-gas/flowlines/integrity-group-responsibilities",
+    "https://ecmc.colorado.gov/sites/ecmc/files/documents/1100%20Series%20-%20Flowline%20Regulations_Effective%20January%2015%2C%202021.pdf",
+    "https://puc.colorado.gov/gps-program-information",
+    "https://www.suncor.com/en-ca/what-we-do/refining/commerce-city-refinery",
+    "https://puc.colorado.gov/press-release/fact-sheet-comanche-power-plant-unit-2-retirement-extension",
+    "https://ops.colorado.gov/Boiler/FAQs",
+    "https://ops.colorado.gov/sites/ops/files/2021-10/boilersandpressurevesselsstatutes101821.pdf",
+    "https://www.nrc.gov/agreement-states/colorado",
+    "https://www.osha.gov/stateplans"
+  ]
+}

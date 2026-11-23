@@ -1,0 +1,137 @@
+{
+  "title": "NDT Report Validation in Chattanooga, TN | Nuclear & Power",
+  "description": "Independent review of NDT reports from the Chattanooga area: TVA nuclear and hydro records, nuclear supply chain data books and plant data, done remotely.",
+  "h1": "Independent NDT report review for Chattanooga, the TVA system and its nuclear supply chain",
+  "eyebrow": "Report validation · Chattanooga and southeast Tennessee",
+  "intro": "Chattanooga is where the Tennessee Valley Authority built its downtown office complex to bring its power headquarters and operations together, and the region's inspection records reflect that history. Two nuclear plants sit within driving distance up the Tennessee River, a pumped-storage plant overlooks the city, and machine shops and fabricators supply nuclear, naval and Department of Energy customers. When a report from any of them has to be accepted, defended or questioned, we give it an independent technical review against the procedure and the code it was written to, including the digital inspection data behind it, working remotely from the files you send.",
+  "highlights": [
+    {"h": "Built for nuclear-adjacent records", "p": "Supply chain data books, dedication test records and outage reports are read the way a licensee's quality organisation will read them, so gaps show up before the package leaves the shop or the outage closes."},
+    {"h": "Tennessee rules in view", "p": "The opinion notes which state program applies, from the Boiler Unit's jurisdiction over commercial boilers and unfired pressure vessels to the radiation program that licenses the contractor whose radiographs you are relying on."},
+    {"h": "No examination of our own to defend", "p": "Atlantis never validates a report on work it carried out. With nothing to protect, the reviewer can tell a supplier, an owner or a lawyer plainly what the record does and does not show."}
+  ],
+  "sections": [
+    {
+      "h": "Why so many inspection records pass through the Chattanooga area",
+      "p": [
+        "Few mid-sized American cities are as closely tied to one power system. TVA built its large downtown office complex in the 1980s to consolidate its power headquarters and operations, and although the agency now needs less office space than it once did, the engineering, procurement and oversight work that generates and reads inspection records is still woven through the local economy. Contractors who support TVA outages, vendors who ship components to its plants and the consultants who check their paperwork are spread across Hamilton County and the counties around it.",
+        "The physical assets are close by. Sequoyah Nuclear Plant stands at Soddy-Daisy, about nine and a half miles northeast of the city. Watts Bar Nuclear Plant sits further up the river near Spring City, on the northern end of Chickamauga Reservoir. Raccoon Mountain Pumped-Storage Plant, with four generating units in an underground powerhouse, is a short drive from downtown. Add a growing nuclear supply chain and chemical manufacturing in neighbouring Bradley County, and the result is a steady flow of ultrasonic, radiographic, penetrant, magnetic particle, visual and eddy current records that somebody, somewhere, has to sign off as sound.",
+        "That is where an independent review earns its place. A component vendor wants assurance before a data book goes to a utility. A plant engineer wants a second reader on a contractor's outage package. A buyer of a machine shop wants to know whether the inspection records in the files would survive a customer audit. Each of them needs an opinion from someone who has no stake in the answer."
+      ]
+    },
+    {
+      "h": "Sequoyah, Watts Bar and how a nuclear opinion is framed",
+      "p": [
+        "Both nuclear plants near Chattanooga are TVA's. Sequoyah has two Westinghouse four-loop pressurized water reactors operating under renewed licences, with Unit 2's running to September 2041. Watts Bar also has two units: the first began commercial operation in 1996 and the second in October 2016, and each produces about 1,150 megawatts. Both plants fall under NRC Region II, and both run inservice inspection and repair programmes built on ASME Section XI and the conditions the NRC attaches to it.",
+        "Atlantis is not on TVA's approved supplier list for safety-related work, nor on any other licensee's 10 CFR 50 Appendix B or NQA-1 list, and this page claims no experience at either plant. What a licensee, a vendor or their counsel can obtain is an independent technical opinion that the licensee's quality assurance organisation decides how to use. Typical cases are non-safety-related scope where an engineer wants a second reader, oversight of a supplier's examination records before a component ships, a check on a contractor's report before it is accepted into plant records, and technical disputes where both sides want the record read by somebody outside the argument.",
+        "Steam generator and heat exchanger eddy current data often travels with nuclear packages. The Level III who leads our ultrasonic, radiographic, magnetic particle, penetrant and visual reviews holds no eddy current certification, so for that data the proposal names a reviewer whose certification matches what the licensee's programme or the purchase order requires."
+      ]
+    },
+    {
+      "h": "Commercial-grade dedication and the Chattanooga supply chain",
+      "p": [
+        "Southeast Tennessee has become a working part of the nuclear supply chain. Master Machine, a Chattanooga company that designs and manufactures components and performs commercial-grade dedication and equipment qualification for nuclear power, Department of Energy and naval nuclear customers, announced an expansion of its Hamilton County facility in July 2025 with support from the state's Nuclear Energy Fund. Shops of that kind produce records that are read with unusual care, because a dedication package exists to show that an item bought commercially can be trusted in a nuclear application.",
+        "Nondestructive examination often verifies the critical characteristics in those packages: ultrasonic examination of bar, forgings and welds for internal soundness, liquid penetrant examination of machined and weld surfaces, and visual examination against drawing and specification requirements. When the NDT record behind a critical characteristic is weak, the dedication rests on that weakness.",
+        "A review of a dedication or vendor package checks whether the NDT procedure was the one the purchase order required, whether the technique could detect the flaw size that matters for the part, whether personnel held certification in the method on the date of examination, and whether acceptance was judged against the specification the customer named rather than a convenient default. The licensee's quality organisation still makes the acceptance decision; the review tells it whether the NDT evidence will bear the weight being placed on it."
+      ]
+    },
+    {
+      "h": "Raccoon Mountain, hydro and the wider power fleet",
+      "p": [
+        "Raccoon Mountain works like a very large storage battery. When demand is low it pumps water from Nickajack Reservoir up to a reservoir on the mountaintop, and when demand rises the water falls back through a tunnel to drive generators in a powerhouse inside the mountain, giving about 1,700 megawatts of summer net dependable capacity. Plants like it, together with the dams and fossil units across the TVA system, produce outage records that look nothing like nuclear vendor packages: magnetic particle and ultrasonic examinations of turbine and generator components, weld repairs on water passages and structures, thickness surveys on pipework, and visual records of bolting and supports.",
+        "The review questions follow the equipment. Was a crack indication on a runner or a shaft characterised and sized with a technique suited to its orientation? Did the weld repair procedure require examination after any heat treatment, and does the record show it happened in that order? Are thickness readings tied to fixed locations that can be compared with the last outage, or scattered across the component so that no trend is possible? A report that answers those questions clearly is a sound basis for the engineer's next decision. A report that skips them leaves the engineer guessing."
+      ]
+    },
+    {
+      "h": "Records from the region and where each review begins",
+      "p": [
+        "The seven checks apply to every report. What changes from one record to the next is the point where the reviewer starts, because each record type tends to fail somewhere predictable. The table sets out the records that most often come from southeast Tennessee and the first thing a reviewer opens."
+      ],
+      "table": {
+        "head": ["Record", "Typical source", "Where the reviewer starts"],
+        "rows": [
+          ["UT weld or forging examination in a component data book", "Nuclear and naval supply chain shops", "Whether the calibration reflector and scanning sensitivity matched the specification the purchase order invoked"],
+          ["Liquid penetrant reports on machined surfaces", "Dedication and component packages", "Dwell and developing times, surface preparation records and the penetrant system's identification"],
+          ["Outage MT and UT on turbine, generator and hydro components", "Hydro, pumped-storage and fossil outages", "Indication characterisation, technique choice for crack orientation and traceability to component drawings"],
+          ["Eddy current tube data from exchangers and condensers", "Power plant outages", "Calibration standards, analysis guidelines and whether every tube listed was actually tested"],
+          ["UT thickness and corrosion surveys on process piping", "Chemical manufacturing in the surrounding counties", "Fixed monitoring locations, gauge verification and readings flagged against minimum thickness"],
+          ["Repair and alteration records for boilers and vessels", "Industrial plants and licensed repair companies", "That the NDT the repair plan required was performed, by whom, and before the vessel returned to service"]
+        ]
+      }
+    },
+    {
+      "h": "Chemical manufacturing just across the county line",
+      "p": [
+        "Bradley County, northeast of Chattanooga, is home to Wacker's Charleston site, which began producing hyperpure polysilicon in April 2016 and employs about 650 people. Chemical plants of that scale run mechanical integrity programmes on process piping, vessels and heat exchangers, and their inspection contractors deliver thickness surveys, corrosion maps, weld examinations on new tie-ins and exchanger tube data in quantity.",
+        "Process safety management in Tennessee is enforced by TOSHA, the state's OSHA-approved plan covering private employers and state and local government. Under the mechanical integrity element, inspection and testing must follow recognised and generally accepted good engineering practice, and the plant must keep records of each inspection. An independent review is one way an owner tests whether a contractor's records meet that bar: whether the monitoring locations are the ones in the inspection plan, whether readings below the alert thickness were reported to engineering, and whether the digital data behind a corrosion map supports the summary that went into the integrity database."
+      ]
+    },
+    {
+      "h": "Tennessee programs behind the record",
+      "p": [
+        "Several state and federal programs shape a Chattanooga-area NDT record, and the review keeps them apart so that a report is judged against the rule that actually governed it.",
+        "Commercial high-pressure boilers, low-pressure boilers and unfired pressure vessels come under the Boiler Unit of the Tennessee Department of Labor and Workforce Development, which also publishes a list of companies licensed to carry out repairs in the state. For a repair record, the review checks that the examinations required by the repair plan and the construction code were done and documented before the equipment went back into service; acceptance of the repair stays with the inspector the jurisdiction recognises.",
+        "Radioactive materials, including the sources used for industrial radiography, are licensed in Tennessee by the Division of Radiological Health within the Department of Environment and Conservation, because Tennessee is an NRC Agreement State. The radiography contractors working at Chattanooga plants and shops therefore hold Tennessee licences. Atlantis does not perform industrial radiography in Tennessee or anywhere else in the United States; what we review is the film, computed radiography and digital radiography produced by your licensed contractor, checking image quality, identification, coverage and interpretation as document review.",
+        "Reactor oversight at Sequoyah and Watts Bar remains federal, through NRC Region II, while the plants' own quality assurance programmes decide how supplier and contractor records are accepted."
+      ]
+    },
+    {
+      "h": "Digital inspection data from southeast Tennessee",
+      "p": [
+        "A growing share of the records coming out of the region arrive as digital inspection data rather than paper. Supply chain shops deliver encoded phased array files and digital radiography images in DICONDE or vendor formats, outage contractors deliver eddy current data in the format of their analysis software, and chemical plant contractors upload thickness readings to a digital reporting platform that produces corrosion maps and trend plots automatically.",
+        "We open the native files rather than relying on screenshots in a PDF. For a phased array weld file, that means confirming that the setup matches the qualified scan plan, that the encoded coverage reaches both sides of the weld and the heat-affected zone, and that the indications behind each disposition were gated and measured the way the report says. For digital radiography, the stored image is checked against the weld identification, and any processing recorded in the file is compared with what the procedure permits. For a digital reporting system, we follow data lineage from the field entry to the issued report and check that electronic signatures belong to people who were certified on the day they signed.",
+        "Nuclear customers usually care most about that lineage, because a dedication or vendor record may be retrieved years later. A digital record that cannot show who acquired the data, with which instrument and under which revision of the procedure, is a weak record however clean its report page looks."
+      ]
+    },
+    {
+      "h": "How a review runs when the records are in Tennessee",
+      "p": [
+        "Atlantis has no Chattanooga office and no staff stationed in Tennessee. The company works from Houston and Hyderabad, and every review for a Chattanooga-area client is done remotely on the reports, procedures, certificates and raw data shared with us through a secure transfer. Nothing about a document review requires a site visit; if the record cannot support a decision, the opinion says what field examination would be needed and who should perform it.",
+        "Start by telling us what the report covers, which code, specification or purchase order requirements apply, and what decision depends on the review. Within one business day you will hear back from us with the review scope we propose and a quote for it. Once the files arrive, the reviewer works through procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, the acceptance criteria applied, interpretation and sizing, and completeness and traceability, writing down the source for every finding.",
+        "An ASNT NDT Level III holding certification in UT, RT, MT, PT and VT leads the review of records in those methods, and the wider review team brings backgrounds in nuclear, maritime, oil and gas and petrochemical work. The written opinion closes with a verdict: the record is sound, it is deficient in documentation only, or it is deficient in disposition because an accept or reject decision is not supported by the evidence."
+      ]
+    },
+    {
+      "h": "What the review does not decide",
+      "p": [
+        "A clear boundary keeps the opinion usable inside regulated programmes, where an overstated scope causes more trouble than a narrow one."
+      ],
+      "list": [
+        "Acceptance of a safety-related item or a dedication package stays with the licensee's quality assurance organisation; the review is not performed under an Appendix B programme",
+        "Boiler and pressure vessel acceptance stays with the inspector recognised by the Tennessee Boiler Unit; Atlantis does not act as an authorized inspector or inspector of record",
+        "Flaw evaluation for continued service, fitness-for-service and remaining-life work stay with the owner's engineer, who gains a reliable data set from the review",
+        "Personnel are not certified or recertified through the review; it reports whether the certifications on file covered the examination on the date it was performed",
+        "No report is reviewed for a project on which Atlantis carried out the examination"
+      ]
+    }
+  ],
+  "faqs": [
+    {"q": "Can a Chattanooga supplier use your review before shipping a data book to a nuclear utility?", "a": "Yes, as an independent technical opinion. We check the NDT records in the package against the purchase order, the specification and the procedure, and tell you where a utility's receipt inspection or quality audit is likely to find a gap. The utility's quality organisation still decides acceptance, and the review is not supplied as safety-related work under an Appendix B programme."},
+    {"q": "Do you work at Sequoyah or Watts Bar?", "a": "We make no claim of experience at either plant and are not on TVA's approved supplier list for safety-related work. A licensee, vendor or contractor can ask us for an independent review of records related to those plants, and the licensee's quality assurance organisation decides how that opinion is used."},
+    {"q": "Our records include commercial-grade dedication tests. Can you review the NDT parts?", "a": "Yes. Where ultrasonic, penetrant, magnetic particle or visual examination verifies a critical characteristic, we check that the procedure, technique, personnel qualification and acceptance criteria were the ones the dedication plan required, and that the record would let a reviewer reconstruct what was done years from now."},
+    {"q": "Can you review radiographs if Atlantis does not perform radiography in Tennessee?", "a": "Yes. Radiography in Tennessee is carried out by contractors licensed by the state's Division of Radiological Health. We review the film, computed radiography plates or digital radiography images they produce, including image quality, identification, coverage and interpretation, as a document review."},
+    {"q": "Who reviews eddy current data from TVA-area outages?", "a": "Eddy current tube data is reviewed by a reviewer whose certification matches the method and the contract. The Level III who leads our UT, RT, MT, PT and VT reviews is not certified in eddy current, so the proposal names who will review that data and what certification they hold."},
+    {"q": "Do you need to come to Chattanooga?", "a": "No. Reviews are done remotely on the records you send through a secure transfer. If the documents cannot support the decision in front of you, the written opinion says so and describes the field examination that would close the gap."},
+    {"q": "Will the review say whether a cracked hydro or turbine component can stay in service?", "a": "No. Continued-service decisions, fitness-for-service and remaining-life work stay with the owner's engineer. The review tells that engineer whether the indications were found, characterised and sized with a technique and a record that can be relied on."},
+    {"q": "How do we start a review from southeast Tennessee?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, the method, the governing code or purchase order and a sentence on the decision the review supports. We reply within one business day, and the reply carries a scope for the review and a quote."}
+  ],
+  "related": [
+    ["/ndt-training-chattanooga", "NDT training in Chattanooga"],
+    ["/consulting/nuclear-ndt-consulting", "Nuclear NDT consulting"],
+    ["/report-validation/phased-array-data-review-paut", "PAUT data review"],
+    ["/report-validation/radiographic-film-and-digital-interpretation-review", "Radiograph interpretation review"]
+  ],
+  "sources": [
+    "https://www.nrc.gov/info-finder/reactors/seq2.html",
+    "https://tva.com/energy/our-power-system/nuclear/watts-bar-nuclear-plant",
+    "https://tva.com/energy/our-power-system/hydroelectric/raccoon-mountain",
+    "https://www.timesfreepress.com/news/2024/mar/27/tva-eyes-redevelopment-of-downtown-site-as-office/",
+    "https://www.tn.gov/ecd/news/2025/7/25/master-machine--llc-to-expand-manufacturing-operations-in-hamilton-county.html",
+    "https://wacker.com/cms/en-ca/about-wacker/wacker-at-a-glance/production-sites/charleston.html",
+    "https://lwdsupport.tn.gov/hc/en-us/articles/360000149768-What-type-of-pressure-vessels-and-boilers-fall-under-the-Boiler-Unit-s-jurisdiction",
+    "https://www.tennessee.gov/content/dam/tn/workforce/documents/employers/Repair-License-Companies-3-19-2024.pdf",
+    "https://www.nrc.gov/agreement-states/tennessee",
+    "https://www.tn.gov/environment/program-areas/radiological-health.html",
+    "https://www.osha.gov/stateplans",
+    "https://www.osha.gov/stateplans/tn"
+  ]
+}

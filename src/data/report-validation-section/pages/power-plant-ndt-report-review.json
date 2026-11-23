@@ -1,0 +1,160 @@
+{
+  "title": "Power Plant NDT Report Review: Boilers, HRSGs and Piping",
+  "description": "Independent review of boiler, HRSG and high-energy piping NDT reports: tube thickness grids, FAC surveys and weld data checked to ASME Section I and B31.1.",
+  "h1": "Independent review of power plant NDT reports and outage inspection data",
+  "eyebrow": "Power generation report review",
+  "intro": "An outage leaves behind a mountain of inspection data: tube thickness grids, flow-accelerated corrosion surveys, weld examinations on main steam and hot reheat piping, header and drum reports, often from three or four contractors working in parallel. Before the unit returns to service, or before an insurer, a jurisdiction or a buyer relies on those records, somebody has to decide whether they can be trusted. We review fossil and combined-cycle NDT reports, and the digital inspection data behind them, independently against ASME Section I, B31.1, the National Board Inspection Code and the procedures your contracts named. Every review is carried out remotely on the records you send.",
+  "highlights": [
+    { "h": "Built around the outage decision", "p": "Restart, repair, replace or re-inspect next outage: the opinion is arranged so the plant engineer can see which findings affect that decision and which are housekeeping." },
+    { "h": "Thickness data that can be trended", "p": "Grids and FAC readings are useful only if the next outage can repeat them. The review tests location references, gauge setup and comparison with history, not merely whether each reading clears the minimum." },
+    { "h": "Creep-regime welds read for the right zone", "p": "Weld reports on Grade 91 and other high-temperature piping are checked for coverage of the heat-affected zones where creep damage starts, as well as the weld metal itself." }
+  ],
+  "sections": [
+    {
+      "h": "Who relies on a power plant NDT report",
+      "p": [
+        "One report can serve four readers with four different questions. The plant engineer wants to know whether the unit can restart and what must be watched. The jurisdiction's commissioned inspector, or the insurer's inspector acting for the jurisdiction, wants evidence that the boiler meets the rules it operates under. A repair organisation working under the National Board's repair program needs NDE that supports its repair record. A buyer or lender in a plant transaction wants to know what the inspection history genuinely proves.",
+        "Because the reader's question decides what matters, we ask which decision the review supports before opening anything. An opinion written for an acquisition team weighs gaps in history heavily. One written for a restart concentrates on the findings that change the chance of a forced outage in the coming season."
+      ]
+    },
+    {
+      "h": "Reports an outage produces",
+      "p": [
+        "A typical fossil or combined-cycle outage generates most of the deliverables below. Each fails in its own way, which is why they are read as separate records even when one contractor issued them under a single cover."
+      ],
+      "list": [
+        "Waterwall, superheater, reheater and economizer tube thickness surveys, by conventional ultrasonic or electromagnetic acoustic transducer techniques",
+        "Steam-side oxide scale measurements on superheater and reheater tubes, which the owner's engineer uses to estimate tube metal temperature",
+        "Flow-accelerated corrosion thickness grids on feedwater, condensate, drain lines and HRSG low-pressure evaporator sections",
+        "Ultrasonic and phased array examination of girth and longitudinal seam welds on main steam, hot reheat and cold reheat piping",
+        "Magnetic particle and penetrant examination of header nipples, drum nozzles, attemperator welds and tube attachment welds",
+        "Visual examination of drums, headers, tube panels and support attachments, with photographs",
+        "Replica and hardness data on creep-regime components, collected to support a metallurgist's assessment"
+      ]
+    },
+    {
+      "h": "Codes and jurisdictions that apply",
+      "p": [
+        "New power boilers are built to ASME Section I, whose scope names heat recovery steam generators alongside conventional boilers; ASME publishes the Boiler and Pressure Vessel Code in a new edition every two years, and the 2025 edition is current. Boiler external piping sits under Section I's administrative jurisdiction while its construction rules come from B31.1, and piping beyond that boundary is B31.1 power piping, now in its 2024 edition.",
+        "Once a boiler is operating, the jurisdiction's rules take over. Many states and some cities adopt Section I for construction and the National Board Inspection Code for inservice inspection, repairs and alterations; the 2025 NBIC places inspection in Part 2 and repairs and alterations in Part 3. Inspections for the jurisdiction are made by inspectors holding a National Board commission, who may work for the jurisdiction itself, for an authorized inspection agency such as an insurer or, where the jurisdiction recognises one, for an owner-user inspection organisation.",
+        "B31.1 also reaches into operation. Its Chapter VII asks operating companies to keep covered piping systems programs for high-energy piping, recording operating history, transients, modifications and condition assessments, and the 2024 edition added mandatory appendices on quality program requirements and on documentation, records and reports for nonboiler external covered piping. NDE reports are among those records, so their quality has become part of code compliance rather than a matter of house style."
+      ],
+      "table": {
+        "head": ["Equipment", "Construction rules", "In-service and repair rules", "What the review concentrates on"],
+        "rows": [
+          ["Drums, headers, waterwalls and superheaters", "ASME Section I", "The jurisdiction's adoption of the NBIC and the owner's boiler inspection program", "Examination locations against tube and header maps, thickness references and repeatability"],
+          ["HRSG pressure modules", "ASME Section I, which names HRSGs in its scope", "NBIC as adopted, OEM recommendations and the owner's HRSG program", "Access-limited areas: which tubes and headers were actually reached, and how the data were labelled"],
+          ["Boiler external piping", "B31.1 construction rules under Section I jurisdiction", "NBIC for repairs; B31.1 Chapter VII where the owner applies it", "Weld identification on isometrics, creep-zone coverage and re-examination of repairs"],
+          ["Main steam, hot and cold reheat and feedwater piping", "ASME B31.1", "The owner's covered piping systems program under Chapter VII", "Consistency with the program's earlier condition assessments and baseline data"],
+          ["Feedwater heaters, deaerators and other vessels", "ASME Section VIII", "NBIC and the jurisdiction's pressure vessel rules", "Shell thickness data, nozzle weld examinations and tube bundle data where supplied"]
+        ]
+      }
+    },
+    {
+      "h": "Damage mechanisms the data has to address",
+      "p": [
+        "A report can be technically correct and still miss its purpose if the examination was not aimed at the damage the component is likely to suffer. Every report is read against the mechanisms expected at that location."
+      ],
+      "table": {
+        "head": ["Mechanism", "Where it is found", "What the NDT must show", "Common reporting gap"],
+        "rows": [
+          ["Flow-accelerated corrosion", "Carbon steel carrying water or wet steam; single-phase attack peaks near three hundred degrees Fahrenheit and is worse at low pH in reducing, low-oxygen water; dry steam does not cause it", "Full grid coverage of susceptible fittings and the straight pipe downstream, with readings comparable to earlier outages", "Grids shifted between outages, so the thinnest point of the last survey was never re-measured"],
+          ["Creep and creep-fatigue", "Main steam and hot reheat piping, headers and their welds", "Examination of weld metal and both heat-affected zones, with locations tied to the piping isometric", "Scans confined to the weld cap, leaving the fine-grained heat-affected zone outside the examined volume"],
+          ["Grade 91 degradation", "Creep strength enhanced ferritic components, especially welds to P22 or stainless steel", "Hardness and NDT results at the dissimilar joint, located so both can be found again", "Hardness readings with no location detail or surface preparation record"],
+          ["Thermal fatigue", "Piping just downstream of attemperator sprays and bypass connections", "Angle-beam ultrasonic examination of the inside surface where cracking initiates", "Straight-beam thickness readings offered as though they could detect inside-surface cracks"],
+          ["Waterwall corrosion and hydrogen damage", "Furnace tubes, particularly in high heat-flux zones", "Thickness and, where specified, damage-specific techniques with tube number and elevation", "Readings recorded by panel alone, so a thin tube cannot be found again"],
+          ["Dissimilar metal welds", "Superheater and reheater tube joints between ferritic and austenitic materials", "Records identifying each joint and the technique used for that material combination", "Technique sheets written for carbon steel applied to austenitic weld metal"]
+        ]
+      }
+    },
+    {
+      "h": "Thickness grids and FAC surveys",
+      "p": [
+        "Thickness data look simple and are easy to get wrong. A usable survey defines its grid on the component, records how locations were marked, identifies the gauge, probe and calibration block, states how coatings and surface temperature were handled, and reports every reading instead of only the minimum. Without those details the next outage cannot repeat the survey, and the trend the owner's engineer needs never comes into existence.",
+        "The review compares each grid with earlier surveys of the same component, checks that the thinnest previous locations were re-measured, and flags readings that move in ways the damage mechanism cannot explain, such as wall thickness that grows between outages. Wear projections and replacement decisions stay with the owner's engineer; the opinion tells that engineer which readings deserve confidence and which do not.",
+        "Many plants rank FAC-susceptible locations with predictive software and inspect the highest-ranked lines each outage. Where the ranking is supplied, the review checks that the components inspected are the ones the plan called for, and that any substitution was recorded with a reason."
+      ]
+    },
+    {
+      "h": "Weld examinations on high-energy piping and headers",
+      "p": [
+        "Ultrasonic and phased array examinations of creep-regime welds are where reports most often look thorough and are not. The reviewer checks that the scan plan reaches the heat-affected zones on both sides, that the angles suit the wall thickness and the expected crack orientation, that reference sensitivity was set on a block of suitable material, and that encoded scans cover the full circumference the report claims.",
+        "B31.1 has carried alternative ultrasonic acceptance criteria in a mandatory appendix since its 2018 edition. If a report relies on them, the review checks that the conditions for using that appendix were met and recorded, that the sizing method is one the appendix and the procedure support, and that a weld is not being accepted under the alternative criteria on the strength of a technique qualified for something else.",
+        "Repair welds get the same scrutiny as original welds, with one addition: the record must show that the repaired area was re-examined by the method and to the extent the repair plan required, and that the re-examination covered the full excavation rather than just the final cap."
+      ]
+    },
+    {
+      "h": "Digital inspection data from an outage",
+      "p": [
+        "Outage records increasingly arrive as digital inspection data rather than signed sheets: thousands of thickness readings exported from data-logging gauges, tube maps built in spreadsheets, encoded phased array files on piping welds, digital photographs of drums and headers, and reports generated by a contractor's digital reporting platform. That makes an independent review quicker to set up and more searching, because readings can be sorted, compared and plotted against previous outages.",
+        "It also brings risks the paper record never had. Readings get pasted into the wrong tube row, data from two contractors are merged on different reference points, report templates carry forward last outage's equipment list, and the spreadsheet the engineer works from is several revisions away from the signed report. The review traces each data set from the instrument export to the issued deliverable and states where the lineage breaks.",
+        "Where the plant keeps its inspection history in a digital system, ask for the export to be reviewed alongside the contractor's report. A clean-looking record in a system that mislabels tube rows is still a mislabelled record."
+      ]
+    },
+    {
+      "h": "Repairs and alterations under the NBIC",
+      "p": [
+        "Boiler and piping repairs recognised by a jurisdiction are made by organisations holding the National Board's repair or alteration accreditation, under the NBIC's repair rules, and accepted by the jurisdiction's inspector. NDE is an essential part of that record: examination of the excavation, of the completed weld and sometimes of adjacent material.",
+        "An independent review can help a repair organisation confirm its NDE package is complete before it reaches the inspector, or help an owner understand why a repair record was questioned. It does not replace the inspector's acceptance, and Atlantis neither holds nor works under a repair accreditation for this purpose."
+      ]
+    },
+    {
+      "h": "What to send, and who reviews it",
+      "p": [
+        "Reviews of ultrasonic, radiographic, magnetic particle, penetrant and visual records on boilers and piping are led by an ASNT NDT Level III in all five of those methods, supported by reviewers whose backgrounds span nuclear, maritime, oil and gas and petrochemical plants. Eddy current, EMAT and other techniques outside those five are reviewed by a person holding the certification your contract names, identified in the proposal.",
+        "The more of the outage record arrives together, the more the review can cross-check. This is the package to aim for:"
+      ],
+      "list": [
+        "The outage scope or inspection plan, with the drawings, tube maps and isometrics it references",
+        "Each contractor's procedures and technique sheets, personnel certificates and calibration records",
+        "Raw thickness exports, encoded ultrasonic files and photographs, as well as the issued reports",
+        "Results from the previous one or two outages for the same components",
+        "Covered piping systems program documents or the FAC program basis, where they exist",
+        "Any jurisdictional or insurer correspondence about the records under review"
+      ]
+    },
+    {
+      "h": "Limits of a power plant review",
+      "p": [
+        "Being plain about scope keeps the opinion useful to every reader, from the plant engineer to the jurisdiction."
+      ],
+      "list": [
+        "Remaining-life, creep-life and fitness-for-service calculations stay with the owner's engineer; the review tells that engineer which data are sound",
+        "Atlantis is not a commissioned inspector and does not accept boilers, piping or repairs on behalf of a jurisdiction",
+        "Metallurgical interpretation of replicas and hardness belongs to the owner's metallurgist; the review covers how those data were collected and recorded",
+        "Industrial radiography in the United States is performed by your licensed contractor, not by Atlantis; reviewing those radiographs and digital images is part of the service",
+        "A document review cannot see what was never examined; where coverage is missing, the opinion says what field work would close the gap"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can you review FAC survey data from our last outage?", "a": "Yes. Send the grids, the raw readings, the drawings that locate them and the previous survey of the same components. The review tests coverage, repeatability and data quality; wear projections and replacement decisions remain with your engineer." },
+    { "q": "Do you review HRSG inspection reports?", "a": "Yes, including tube thickness data, header and attemperator weld examinations and FAC readings in low-pressure sections. Access inside an HRSG is often restricted, so the review pays particular attention to which tubes and locations were actually reached and how they were labelled." },
+    { "q": "Which edition of Section I or B31.1 do you apply?", "a": "For construction records, the edition the unit or the piping was built to. For in-service work, the procedure and acceptance criteria your inspection plan or repair record cites, read with the jurisdiction's rules. The opinion states the editions it applied." },
+    { "q": "Can you tell us whether our boiler can return to service?", "a": "The return-to-service decision belongs to the owner and, where its rules require, the jurisdiction. The opinion tells you whether the NDT records support the conclusions drawn from them and identifies any finding that should be resolved before relying on them." },
+    { "q": "Do you review radiographs of boiler and piping welds?", "a": "Yes, as a document review of film, computed or digital radiographs produced by your licensed contractor. Atlantis does not carry out industrial radiography in the United States." },
+    { "q": "Can you check oxide scale measurements?", "a": "The review covers how the measurements were taken and recorded: technique, calibration, tube identification and repeatability. Any tube metal temperature estimate or life calculation built on the data stays with your engineer or the OEM." },
+    { "q": "Is a site visit needed for a power plant review?", "a": "No. The review is remote and works from the records and digital inspection data you send. If the record cannot support a decision, the opinion explains what additional field examination would settle it." },
+    { "q": "How do we get a review scoped?", "a": "Use the form or write to info@atlantisndt.com with the unit type, the report types, the contractors involved and the decision the review supports. We reply within one business day with a proposed scope and a quote for the outage records." }
+  ],
+  "related": [
+    ["/power-generation-ndt-services", "Power generation NDT services"],
+    ["/ultrasonic-boiler-tube-inspection", "Ultrasonic boiler tube inspection"],
+    ["/standards/asme-b31-1", "ASME B31.1 explained"],
+    ["/consulting/nbic-r-stamp-ndt-audit-support", "NBIC R stamp NDT audit support"],
+    ["/ultrasonic-testing-power", "Ultrasonic testing for power plants"]
+  ],
+  "sources": [
+    "https://www.powermag.com/covered-piping-systems-om-programs-ccgt-plants/",
+    "https://blog.ansi.org/ansi/asme-b31-1-2024-power-piping-changes/",
+    "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025",
+    "https://shop.standards.ie/en-ie/standards/nbbi-nb-23-part-2-2025-1158269_saig_nbbi_nbbi_3798621",
+    "https://www.nationalboard.org/OrderTheNBIC.aspx",
+    "https://standards.globalspec.com/std/14612308/sec-i",
+    "https://www.nationalboard.org/SiteDocuments/About Us/infoguide_web.pdf",
+    "https://webstore.ansi.org/standards/asme/asmeb312018",
+    "https://www.power-eng.com/om/hrsg-issues-reemphasizing-the-importance-of-fac-corrosion-control-part-1/",
+    "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/326_360/341_a/_128?up=1",
+    "https://www.govinfo.gov/content/pkg/FR-2026-02-27/html/2026-03993.htm"
+  ]
+}

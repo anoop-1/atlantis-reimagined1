@@ -1,0 +1,214 @@
+{
+  "title": "NDT Report Validation in Beaumont–Port Arthur, TX | Level III",
+  "description": "Independent review of NDT reports and digital inspection data from Golden Triangle refineries, crackers and LNG export plants in Beaumont and Port Arthur.",
+  "h1": "NDT report and inspection data review for the Golden Triangle: Beaumont, Port Arthur and Sabine Pass",
+  "eyebrow": "Report validation: Beaumont–Port Arthur, Texas",
+  "intro": "The Golden Triangle holds some of the oldest refining sites on the Gulf Coast and some of its newest LNG trains, often a few miles apart. That mix shows up in the inspection record: decades of film, paper thickness histories and scanned reports on one side, weld databases, DR images and encoded ultrasonic data on the other. We review reports from both worlds independently, against the procedure and the code that governed the work, and say in writing what the evidence supports. Reviews are carried out remotely on the records you send, so an owner in Port Arthur, a contractor in Beaumont or a buyer elsewhere can start one the same way.",
+  "highlights": [
+    {
+      "h": "Legacy records read with care",
+      "p": "Plants with long histories carry inspection data that has been renumbered, digitised and migrated more than once. The review checks whether that history still means what it appears to mean before anyone builds a corrosion rate or a decision on it."
+    },
+    {
+      "h": "New-build records checked before handover",
+      "p": "LNG trains and crackers hand over thousands of welds and their NDT records. Weld databases, test packs, film and DR images are reconciled and sampled so gaps are closed by the contractor, not found later by the operator."
+    },
+    {
+      "h": "One standard for every contractor",
+      "p": "When several contractors, or a change of contractor, feed one record, the reviewer reads every package against the same procedure, code edition and acceptance table, and says where the packages disagree."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Refining, petrochemicals and LNG across the Golden Triangle",
+      "p": [
+        "Motiva's Port Arthur refinery, owned by Saudi Aramco, is the largest refinery in the United States on a calendar-day basis, at 656,000 barrels per calendar day in the EIA's 2026 capacity data. ExxonMobil's Beaumont refinery added a major crude expansion in 2023. Valero also runs a Port Arthur refinery, and TotalEnergies operates its Port Arthur platform, a refinery commissioned in 1936 with a crude capacity of 238,000 barrels per day, a coker added in 2011 and a steam cracker run through a joint venture with BASF. The Port Arthur ethane cracker commissioned in 2022 by Baystar, TotalEnergies' equal joint venture with Borealis, partly feeds a polyethylene line at Bayport.",
+        "On the Sabine Pass side, Golden Pass LNG, a joint venture of QatarEnergy and ExxonMobil, produced its first LNG from Train 1 in March 2026 and shipped its first cargo on 22 April 2026; the EIA lists Train 2 for the second half of 2026 and Train 3 for the first half of 2027. Sempra Infrastructure is building Port Arthur LNG nearby. It is unusual to find a refinery running since the 1930s and an LNG plant still commissioning its trains this close together.",
+        "These names describe the area; they are not a list of Atlantis clients. In this setting independent reviews are typically asked for by owners' inspection groups facing a turnaround or a records audit, by construction and completions teams closing out new trains, by contractors whose reports have been rejected, and by insurers, lenders and buyers who need to know whether the history can be relied on."
+      ]
+    },
+    {
+      "h": "Long inspection histories at plants built before digital records",
+      "p": [
+        "A refinery that has run for close to a century has been inspected by many generations of contractors, to many editions of the codes, in formats that range from hand-written thickness logs to radiographic film to today's digital reporting. Those histories are valuable, because corrosion rates depend on them, but they are also fragile. CMLs get renumbered when circuits are redrawn, readings are re-keyed into new inspection data management systems, and film archives are digitised so that nobody has to walk to a storeroom.",
+        "Each of those steps can quietly change the record. A reading moved to the wrong CML during a migration produces a corrosion rate that describes no real location. A scanned radiograph whose resolution was too coarse for the image quality indicator to be seen can no longer show what the original film showed. A thickness log converted from inches to millimetres twice looks plausible until somebody compares it with the drawing. The review traces a sample of migrated records back to the original document and reports whether the history in the database can be trusted as it stands.",
+        "Where the originals are gone, the opinion says so. A history that cannot be traced is not automatically wrong, but the owner's engineer needs to know which parts of it are evidence and which are assertion before setting intervals on it."
+      ]
+    },
+    {
+      "h": "Golden Pass, Port Arthur LNG and records from construction to first cargo",
+      "p": [
+        "New LNG trains generate construction NDT records at enormous volume: radiographs and DR images of cryogenic piping welds, penetrant reports on austenitic stainless, ultrasonic examination where the code allows it in place of radiography, PMI and hardness logs, and test packs that tie them together. Facilities like these also answer to 49 CFR Part 193, which incorporates NFPA 59A, so the record has a federal audience as well as the owner's.",
+        "Golden Pass shows why continuity of the record matters. The EIA notes that the project was delayed when its lead construction contractor filed for Chapter 11 in 2024 and a new lead contractor was needed to finish the plant. Wherever a project changes hands like that, construction records from two quality systems end up in one turnover, with different templates, different weld numbering habits and sometimes different NDT subcontractors. Reconciling those records, and confirming that work done before the change was examined to the same standard as work done after it, is exactly the kind of question an independent review is built to answer.",
+        "Staged start-up adds its own pressure. When later trains are still being completed while earlier ones run, punch-list welds, late repairs and tie-ins to operating systems are examined under schedule pressure, and their records are the ones most likely to be incomplete."
+      ]
+    },
+    {
+      "h": "What reviews in the Golden Triangle usually turn on",
+      "p": [
+        "The table lists the record problems we expect most often from plants of different ages in this area, and the check that settles each one."
+      ],
+      "table": {
+        "head": [
+          "Record type",
+          "Typical source here",
+          "Problem to expect",
+          "Check that settles it"
+        ],
+        "rows": [
+          [
+            "Thickness history",
+            "Refinery piping circuits and vessels with decades of surveys",
+            "Readings moved to the wrong CML during renumbering or migration",
+            "Trace a sample of database readings back to the original survey and drawing"
+          ],
+          [
+            "Digitised film",
+            "Radiograph archives from older units",
+            "Scan resolution too coarse to show the image quality indicator",
+            "Compare the digitised image with the procedure's image quality requirement"
+          ],
+          [
+            "Construction weld record",
+            "LNG trains and crackers at turnover",
+            "Welds on isometrics missing from the weld database, or repairs without re-examination",
+            "Reconcile database, isometrics and test packs before sampling images"
+          ],
+          [
+            "Multi-contractor package",
+            "Projects that changed contractor or used several NDT firms",
+            "Different procedures and acceptance tables applied to the same line class",
+            "Read every package against one procedure revision and code edition"
+          ],
+          [
+            "Exchanger tube data",
+            "Cracker quench and refinery exchanger bundles",
+            "Calibration standard that does not match the tube material or wall",
+            "Check the standard's certificate against the bundle drawing"
+          ],
+          [
+            "Turnaround repair",
+            "Refinery and cracker outages",
+            "Final examination recorded against the original weld's procedure",
+            "Match each repair to its own procedure, examination and personnel"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Crackers, furnaces and cold ends",
+      "p": [
+        "Steam crackers combine some of the hottest and coldest equipment in a plant. Furnace radiant coils and transfer line exchangers run at temperatures where creep and carburisation drive replacement decisions, while the cold end handles ethylene and propylene well below ambient in low-temperature steels and stainless. Inspection reports from a cracker outage therefore mix specialist furnace tube assessments, eddy current or IRIS data on exchanger bundles, ultrasonic thickness and weld examination, and penetrant work on stainless.",
+        "The review checks that each technique was applied within its range: that a furnace tube survey reported the parameters its own procedure says it can measure, that tube data on a cold-end exchanger was calibrated on a standard of matching material, and that weld examination on low-temperature piping met the impact-tested procedure's requirements. Remaining-life judgments on furnace tubes stay with the owner's engineer; the opinion tells that engineer which measurements are reliable enough to feed them."
+      ]
+    },
+    {
+      "h": "Rules that govern Jefferson County inspection records",
+      "p": [
+        "Refinery, cracker and LNG process equipment falls within OSHA's process safety management standard, which requires owners to keep written inspection and test records for covered equipment. Owners satisfy it through API 510, 570 and 653 programs and their own engineering standards, and the report is reviewed against both. Boilers carry certificates of operation from the Texas Department of Licensing and Regulation, renewed after inspections by TDLR deputies or by authorized inspectors from authorized inspection agencies.",
+        "Pipelines entering the plants are divided between PHMSA for interstate lines and the Railroad Commission of Texas for intrastate systems, and LNG plants add Part 193. Industrial radiography in Texas is licensed by the Department of State Health Services, Texas being an NRC Agreement State. Atlantis does not perform industrial radiography in Texas, but radiographs and DR images produced by your licensed contractor are reviewed as part of the record."
+      ]
+    },
+    {
+      "h": "Digital inspection data when old and new records meet",
+      "p": [
+        "Plants in the Golden Triangle often hold three generations of inspection data side by side: paper and film from decades ago, scanned copies of both, and born-digital records from current contractors and digital reporting platforms. An owner's inspection data management system usually presents all three as if they were equivalent. They are not, and a review that ignores the difference can approve a corrosion rate built on a mistyped reading from a scanned log.",
+        "For born-digital work we check data lineage directly: that PAUT, TOFD and corrosion map files can be tied to the component and location in the report, that DR images carry the acquisition and processing history the procedure requires, and that electronic signatures belong to people certified on the date shown. For legacy records we check provenance: who digitised them, at what resolution, against which original, and whether that original still exists. The opinion records which kind of evidence each conclusion rests on."
+      ]
+    },
+    {
+      "h": "Handling the review remotely",
+      "p": [
+        "Atlantis has no Golden Triangle office. The review is carried out remotely, from the offices in Houston and Hyderabad, on reports and files transferred securely, which suits plant archives as well as construction turnovers.",
+        "You describe the asset, the method, the governing code and the decision the record supports; we reply within one business day with the scope, the named reviewer and a quote. Questions the record cannot answer come back to you in writing before conclusions are drawn. The written opinion classes each report as sound, deficient in documentation only, or deficient in disposition, and every finding cites the clause or procedure step and the document it rests on."
+      ],
+      "list": [
+        "The current report or turnover package, and the procedure revision it cites",
+        "For legacy histories, the original surveys or good scans of them, with the drawings in force at the time",
+        "Personnel certificates and written practices, for both contractors where a project changed hands",
+        "Calibration records and, for digital work, the raw image, scan or tube files",
+        "The rejection notice, audit finding or question that prompted the review"
+      ]
+    },
+    {
+      "h": "Who signs the opinion, and what stays with you",
+      "p": [
+        "An ASNT NDT Level III certified in UT, RT, MT, PT and VT leads reviews in those methods. For eddy current, IRIS or MFL data, the proposal names a reviewer holding the certification your contract requires. Reviewers on the team have backgrounds in oil and gas, petrochemical, nuclear and maritime inspection.",
+        "Fitness-for-service, remaining-life and rerating calculations stay with your engineer, and the inspector of record your program names keeps that responsibility. Atlantis never reviews reports on examinations it carried out itself, and certifying personnel is outside the service. The review tells you what the existing record can carry; decisions on equipment remain the owner's."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you check whether our migrated thickness history is reliable?",
+      "a": "Yes. We trace a sample of readings in your inspection database back to the original surveys and drawings, and report whether CML numbering, units and dates survived the migration. The opinion says which parts of the history can support a corrosion rate."
+    },
+    {
+      "q": "Do you review digitised radiographic film?",
+      "a": "Yes. We compare the digitised images with the procedure's image quality requirements and, where the original film still exists, with the film itself. If the scan cannot show what the film showed, the opinion says so."
+    },
+    {
+      "q": "Our LNG project changed construction contractor. Can you reconcile the NDT records?",
+      "a": "That is a common reason for a review. We read both contractors' packages against one procedure revision, code edition and acceptance table, reconcile the weld databases with the isometrics, and list any welds whose examination record is missing or inconsistent."
+    },
+    {
+      "q": "Do you take radiographs at Port Arthur or Beaumont sites?",
+      "a": "No. Atlantis does not carry out radiography in Texas. Film radiographs, CR and DR images from your licensed contractor are reviewed for image quality, coverage and interpretation."
+    },
+    {
+      "q": "Can you review furnace tube inspection reports from a cracker outage?",
+      "a": "We review whether the survey was carried out and reported within the limits of its own procedure and whether the data supports what the report claims. Remaining-life assessments on the tubes stay with your engineer."
+    },
+    {
+      "q": "Who reviews eddy current or IRIS data from exchanger bundles?",
+      "a": "A reviewer named in the proposal whose certification matches your contract. Those methods are outside the five in which the in-house Level III is certified, so they are always assigned to a reviewer qualified in them."
+    },
+    {
+      "q": "Will you come to the plant to look at the original records?",
+      "a": "No. The review is remote. If originals exist only on paper or film, the owner arranges scans or photographs of the items we select, and the opinion records which evidence was seen in original form and which as a copy."
+    },
+    {
+      "q": "How do we get started?",
+      "a": "Send a description of the asset, the method, the code and what the review is for to info@atlantisndt.com or through the form. A reply with the scope, the named reviewer and a quote follows within one business day."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/ndt-training-beaumont",
+      "NDT training in Beaumont"
+    ],
+    [
+      "/ndt-training-port-arthur",
+      "NDT training in Port Arthur"
+    ],
+    [
+      "/consulting/ndt-consulting-beaumont",
+      "NDT consulting in Beaumont"
+    ],
+    [
+      "/ultrasonic-testing-beaumont",
+      "Ultrasonic testing in Beaumont"
+    ]
+  ],
+  "sources": [
+    "https://www.eia.gov/todayinenergy/detail.php?id=67807",
+    "https://www.bloomberg.com/news/articles/2025-02-11/aramco-s-motiva-expands-texas-refinery-to-become-largest-in-us",
+    "https://www.businesswire.com/news/home/20230316005036/en/ExxonMobil-Boosts-Fuel-Supply-with-2-Billion-Beaumont-Refinery-Expansion",
+    "https://www.valero.com/sites/default/files/valero-documents/Port%20Arthur%20Refinery%20Fact%20Sheet_0823_v3.pdf",
+    "https://totalenergies.com/en/energy-expertise/projects/refining-petrochemical-platform/port-arthur-sustainable-platform",
+    "https://www.goldenpasslng.com/newsroom/golden-pass-lng-marks-historic-milestone-with-first-lng-production",
+    "https://www.eia.gov/todayinenergy/detail.php?id=63044",
+    "https://lngprime.com/americas/construction-advances-on-port-arthur-lng-terminal/183138/",
+    "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-193",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
+    "https://www.rrc.state.tx.us/pipeline-safety",
+    "https://www.nrc.gov/info-finder/region-state/texas.html",
+    "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/289.255%20Radiation%20Safety%20Requirements%20and%20Licensing%20and%20Registration%20Procedures%20for%20Industrial%20Radiography.pdf",
+    "https://www.eia.gov/todayinenergy/detail.php?id=67564"
+  ]
+}

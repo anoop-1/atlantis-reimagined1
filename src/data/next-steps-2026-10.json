@@ -772,6 +772,10 @@
         [
           "/tools/tofd-calculator",
           "TOFD calculator: probe centre separation and tip depth"
+        ],
+        [
+          "/report-validation/tofd-data-review",
+          "Independent TOFD data review of another contractor’s files"
         ]
       ]
     },
@@ -2448,6 +2452,200 @@
         [
           "/inspection/risk-based-inspection",
           "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/report-validation/phased-array-data-review-paut": {
+      "h": "Review other digital inspection data",
+      "p": "Phased array files are one kind of digital inspection data. The same independent review applies to TOFD files, manual UT weld reports and the digital reporting systems that turn raw data into issued reports.",
+      "links": [
+        [
+          "/report-validation/tofd-data-review",
+          "TOFD data review"
+        ],
+        [
+          "/report-validation/ultrasonic-weld-inspection-report-review",
+          "Ultrasonic weld inspection report review"
+        ],
+        [
+          "/report-validation/digital-inspection-data-review",
+          "Digital inspection data review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
+        ]
+      ]
+    },
+    "/report-validation/radiographic-film-and-digital-interpretation-review": {
+      "h": "Computed and digital radiography reviews",
+      "p": "Imaging plates and digital detector arrays bring their own checks: scanner and detector performance, image processing records and file integrity. These pages cover what a reviewer opens for each.",
+      "links": [
+        [
+          "/report-validation/computed-radiography-report-review",
+          "Computed radiography (CR) report review"
+        ],
+        [
+          "/report-validation/digital-radiography-report-review",
+          "Digital radiography (DR) report review"
+        ],
+        [
+          "/report-validation/digital-inspection-data-review",
+          "Digital inspection data review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
+        ]
+      ]
+    },
+    "/report-validation/ultrasonic-thickness-report-review": {
+      "h": "When the thickness data is a corrosion map",
+      "p": "Encoded C-scan corrosion maps carry far more data than a spot thickness survey, and they fail in different ways: grid size, coverage, gating and how minimum readings reach the CML records.",
+      "links": [
+        [
+          "/report-validation/corrosion-mapping-data-review",
+          "Corrosion mapping data review"
+        ],
+        [
+          "/report-validation/refinery-inspection-report-review",
+          "Refinery inspection report review"
+        ],
+        [
+          "/report-validation/digital-ndt-report-review",
+          "Digital NDT reporting review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
+        ]
+      ]
+    },
+    "/report-validation/what-makes-an-ndt-report-defensible": {
+      "h": "Report validation by method and industry",
+      "p": "The same principles applied to specific methods and sectors, including the digital reporting systems many contractors now use to issue reports.",
+      "links": [
+        [
+          "/report-validation/digital-ndt-report-review",
+          "Digital NDT reporting review"
+        ],
+        [
+          "/report-validation/magnetic-particle-and-penetrant-report-review",
+          "MT and PT report review"
+        ],
+        [
+          "/report-validation/visual-weld-inspection-report-review",
+          "Visual weld inspection report review"
+        ],
+        [
+          "/report-validation/oil-and-gas-ndt-report-review",
+          "Oil and gas NDT report review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
+        ]
+      ]
+    },
+    "/report-validation/api-510-570-653-report-review": {
+      "h": "Refinery and plant report reviews",
+      "p": "In-service inspection reports from refineries and chemical plants usually arrive in batches after a turnaround, with corrosion maps and exchanger tube data alongside the API reports.",
+      "links": [
+        [
+          "/report-validation/refinery-inspection-report-review",
+          "Refinery inspection report review"
+        ],
+        [
+          "/report-validation/petrochemical-ndt-report-review",
+          "Petrochemical and chemical plant report review"
+        ],
+        [
+          "/report-validation/corrosion-mapping-data-review",
+          "Corrosion mapping data review"
+        ],
+        [
+          "/report-validation/eddy-current-tube-inspection-data-review",
+          "Eddy current tube inspection data review"
+        ]
+      ]
+    },
+    "/report-validation/tank-inspection-report-review": {
+      "h": "Related reviews for tank owners",
+      "p": "Tank inspections are rarely only API 653 checklists: floor scans, shell corrosion maps and nozzle weld reports come with them, and each can be reviewed independently.",
+      "links": [
+        [
+          "/report-validation/corrosion-mapping-data-review",
+          "Corrosion mapping data review"
+        ],
+        [
+          "/report-validation/refinery-inspection-report-review",
+          "Refinery inspection report review"
+        ],
+        [
+          "/report-validation/lng-ndt-report-review",
+          "LNG and gas processing report review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
+        ]
+      ]
+    },
+    "/report-validation/pipeline-girth-weld-report-review": {
+      "h": "Beyond girth welds: pipeline integrity records",
+      "p": "Integrity dig reports, ILI verification data and digital radiographs of girth welds are reviewed with the same seven checks.",
+      "links": [
+        [
+          "/report-validation/pipeline-integrity-report-review",
+          "Pipeline integrity report review"
+        ],
+        [
+          "/report-validation/digital-radiography-report-review",
+          "Digital radiography (DR) report review"
+        ],
+        [
+          "/report-validation/oil-and-gas-ndt-report-review",
+          "Oil and gas NDT report review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
+        ]
+      ]
+    },
+    "/eddy-current-tube-inspection": {
+      "h": "Already have tube inspection data?",
+      "p": "If a contractor has already inspected your heat exchanger, condenser or feedwater heater tubes, an independent review of the eddy current data and the tube sheet map tells you whether the plugging list can be relied on.",
+      "links": [
+        [
+          "/report-validation/eddy-current-tube-inspection-data-review",
+          "Eddy current tube inspection data review"
+        ],
+        [
+          "/report-validation/refinery-inspection-report-review",
+          "Refinery inspection report review"
+        ],
+        [
+          "/report-validation/power-plant-ndt-report-review",
+          "Power plant NDT report review"
+        ]
+      ]
+    },
+    "/corrosion-mapping": {
+      "h": "Have a corrosion map that needs checking?",
+      "p": "If the scanning has already been done by another contractor, an independent review of the corrosion mapping data checks coverage, gating and how the minimum readings were carried into the report.",
+      "links": [
+        [
+          "/report-validation/corrosion-mapping-data-review",
+          "Corrosion mapping data review"
+        ],
+        [
+          "/report-validation/digital-inspection-data-review",
+          "Digital inspection data review"
+        ],
+        [
+          "/report-validation",
+          "NDT report validation services"
         ]
       ]
     }

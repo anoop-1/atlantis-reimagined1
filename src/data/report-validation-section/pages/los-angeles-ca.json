@@ -1,0 +1,135 @@
+{
+  "title": "NDT Report Review in Los Angeles, CA | Refining & Structural",
+  "description": "Independent review of Los Angeles NDT reports: refinery turnaround data under California PSM, pipeline records and seismic steel weld UT, all done remotely.",
+  "h1": "Los Angeles NDT report validation for refineries, pipelines and seismic steel",
+  "eyebrow": "Report validation · Los Angeles basin",
+  "intro": "The Los Angeles basin still runs several of California's largest refineries, a dense network of crude, product and hydrogen pipelines, and a building stock whose steel frames are designed for earthquakes. Its inspection records answer to rules that exist nowhere else in the country, from California's refinery process safety regulation to the city's own deputy inspector licensing. We review those NDT reports and the digital inspection data behind them independently, test them against the procedure, the code and the California requirement that governed the work, and do it remotely from the files you share with us.",
+  "highlights": [
+    {"h": "California's refinery rule in mind", "p": "Mechanical integrity records and the damage mechanism reviews they feed are read against Title 8 section 5189.1, so an owner knows whether the data will stand up when the review is revalidated or audited."},
+    {"h": "City and state permits told apart", "p": "Pressure vessels inside the City of Los Angeles are permitted through the Department of Building and Safety, the rest of the county through Cal/OSHA's Pressure Vessel Unit. The opinion notes which applied."},
+    {"h": "Independent of the examination", "p": "We never review a report on work we performed and have no interest in whether it passes. That is why a contractor, an owner, an insurer or opposing counsel can all read the same opinion."}
+  ],
+  "sections": [
+    {
+      "h": "A refining basin that has changed shape",
+      "p": [
+        "Refining around the Port of Los Angeles and the South Bay looks different from a few years ago. According to the California Energy Commission's refinery list, Marathon's Los Angeles Refinery, which has combined its Carson and Wilmington plants since 2019, is the largest in the state at about 365,000 barrels a day. Chevron's El Segundo refinery follows at about 269,000, PBF Energy's Torrance refinery at 160,000, and Valero runs a Wilmington refinery and a smaller Wilmington asphalt plant. Lunday Thagard runs a small refinery in South Gate.",
+        "Phillips 66 ceased fuel production at its Los Angeles Refinery in the fourth quarter of 2025 and began idling the units, with redevelopment applications filed while permits are kept in place. That change matters for inspection records as much as for fuel supply. Idled units still need preservation records, owners weighing redevelopment or sale need to know what their inspection history can prove, and contractors who worked the last turnarounds may be asked to stand behind reports long after the crews have moved on.",
+        "For the refineries still running, the pressure on records comes from turnaround volume. A major turnaround can generate thousands of thickness readings, weld examinations, exchanger tube files and vessel inspection reports from several contractors at once, all of which must be closed out before restart. An independent review of a sample, or of the reports an inspection group is least sure about, tells the owner where the weak records are while there is still time to fix them."
+      ]
+    },
+    {
+      "h": "Title 8 section 5189.1 and what it asks of inspection data",
+      "p": [
+        "California regulates refinery process safety more tightly than federal OSHA does. Section 5189.1 of Title 8, operative since October 1, 2017, adds requirements that go well beyond the federal standard, and two of them lean directly on NDT records.",
+        "The first is the damage mechanism review. Every process with a damage mechanism needs one, it must be revalidated at least every five years, and it must be reviewed before a major change is approved. A damage mechanism review is only as good as the inspection data behind it: if thickness readings were taken at the wrong locations, if crack-like indications were never sized, or if exchanger tube data covered fewer tubes than the report claims, the review team will reach conclusions the evidence cannot support.",
+        "The second is mechanical integrity. Inspections and tests must follow procedures that meet or exceed recognised and generally accepted good engineering practice, intervals must reflect operating experience, and each inspection needs a certification record showing the date, who performed it, what was done, the results and the equipment identifier. When we review a refinery inspection package, those elements are checked one by one, because a missing performer name or equipment number turns an otherwise sound examination into a record that cannot be relied on in an audit by Cal/OSHA's process safety staff."
+      ],
+      "list": [
+        "Thickness and corrosion data checked for fixed monitoring locations and traceable gauges, so trends feeding the damage mechanism review are real",
+        "Crack detection reports checked for technique suitability, because surface-breaking and embedded cracks need different methods and sizing approaches",
+        "Exchanger and furnace tube data checked for full coverage and correct calibration, since a sample presented as complete can hide the worst tubes",
+        "Certification records checked for the elements the rule requires, so the record satisfies the regulation as well as the code"
+      ]
+    },
+    {
+      "h": "Hydrogen and the petrochemical edge of the refineries",
+      "p": [
+        "Refineries in the basin depend on hydrogen made in plants of their own and by industrial gas suppliers. Hydrogen production facilities in Wilmington and Carson feed the system by pipeline, and in 2020 the City of Carson approved a project to repurpose existing pipe and add new pipe to carry hydrogen from those plants to another refinery site in Paramount. Sulfur recovery, alkylation and other units on the refinery fence lines produce their own inspection records, often in highly corrosive or high-temperature service.",
+        "These units tend to generate the records that a review finds hardest to defend: thickness data in sour or acidic service where localised attack can fall between monitoring points, weld examinations on alloy piping where the procedure demands specific techniques for hardness and cracking concerns, and vessel inspection reports where the internal examination was limited by access. The review asks whether the examination plan actually matched the damage mechanism the unit is known for, and whether the report says plainly what was not examined."
+      ]
+    },
+    {
+      "h": "Pipelines under three regulators",
+      "p": [
+        "Pipeline records from the Los Angeles area fall under a split jurisdiction that a reviewer has to get right before judging anything. PHMSA keeps exclusive federal authority over interstate pipelines, meaning lines that cross state borders or begin in federal waters. Intrastate hazardous liquid pipelines, carrying crude oil, gasoline, propane and other hydrocarbons entirely within California, are regulated by the Office of the State Fire Marshal's Pipeline Safety Division, which PHMSA certifies for that role. Intrastate natural gas lines fall under the California Public Utilities Commission.",
+        "Within those regimes, the pipeline records that typically need a second reader are girth weld radiographs and digital radiography images from licensed contractors, ultrasonic examinations of tie-in and repair welds, integrity dig reports that combine coating condition, pit depths and wall thickness, and hydrostatic test packages; the State Fire Marshal publishes its own integrity testing requirements for the lines it regulates. A girth weld review checks film or image quality, coverage and interpretation against API 1104 and the operator's specification. A dig report review checks whether the corrosion measurements are traceable to the in-line inspection feature they were meant to verify, so that the operator's comparison of field and tool data rests on sound numbers."
+      ]
+    },
+    {
+      "h": "Seismic steel: AWS D1.8, AISC 341 and the deputy inspector",
+      "p": [
+        "Steel buildings and industrial structures in Los Angeles are designed for earthquakes, and their welding records follow from that. AWS D1.8 is the seismic supplement to AWS D1.1 and covers welded joints designed under AISC 341, the seismic provisions for structural steel; it includes ultrasonic and magnetic particle examination requirements for certain applications, and its 2025 edition was substantially updated. The connections that matter most are identified in AISC 341, and their records are read with particular care.",
+        "Inside the city, inspections on many projects are performed by Registered Deputy Inspectors licensed by the Department of Building and Safety. The Steel Construction classification covers structural steel, welding, high-strength bolting, cold-formed steel framing and pile foundations, and applicants must hold current ICC certifications in structural steel and bolting and in structural welding. Ultrasonic testing of complete joint penetration welds is commonly done by an NDT technician working for a testing agency, so a building's weld record often combines the deputy inspector's visual records with an agency's UT and MT reports.",
+        "A structural review checks that the UT procedure and the acceptance criteria came from the code edition and project specification the engineer of record required, that the technician's certification covered the technique, that calibration blocks and transducers were identified, and that every weld listed for examination has a corresponding result. It also checks whether repairs were re-examined, because a repaired weld without a re-examination record is one of the most common gaps in seismic steel files."
+      ]
+    },
+    {
+      "h": "Boilers and pressure vessels: a city permit or a state permit",
+      "p": [
+        "California inspects boilers and tanks through Cal/OSHA's Pressure Vessel Unit under Labor Code sections 7620 to 7771. Air tanks above a small threshold, larger LP-gas storage tanks and power boilers operating above fifteen pounds of steam pressure need a permit to operate, and permit inspections may be done by a Pressure Vessel Unit inspector or by a qualified inspector employed by an insurance company. Inside the City of Los Angeles, those items are permitted through the city's Department of Building and Safety instead.",
+        "For a review, the distinction is practical. A repair or alteration record from a plant in Torrance and one from a building downtown may use the same ultrasonic technique, but the inspector who accepts the work and the paperwork that inspector expects are different. The opinion states which authority applied and checks the NDT record against that expectation as well as against the code; acceptance itself stays with the inspector, and Atlantis does not act as an authorized inspector or inspector of record."
+      ]
+    },
+    {
+      "h": "Los Angeles records and where reviews usually start",
+      "p": [
+        "Every report passes through the same seven checks. The table shows records typical of the basin and the first point the reviewer tests, because that is where each type most often breaks."
+      ],
+      "table": {
+        "head": ["Record", "Typical owner or contractor", "First point tested"],
+        "rows": [
+          ["Turnaround thickness and corrosion map package", "Refinery inspection group with several contractors", "Monitoring locations against the inspection plan and readings below alert thickness"],
+          ["Exchanger tube eddy current or IRIS data", "Refinery and hydrogen plant outages", "Tube count tested versus tube count reported, and calibration standards"],
+          ["Alloy piping weld examinations", "Refinery and petrochemical units", "Technique choice for the cracking concern and acceptance criteria edition"],
+          ["Girth weld radiographs or digital radiography", "Intrastate and interstate pipeline operators", "Image quality, coverage and interpretation against API 1104"],
+          ["Integrity dig reports", "Pipeline operators verifying in-line inspection features", "Traceability of pit depths to the tool feature and to the gauge used"],
+          ["UT and MT of seismic moment connections", "Testing agencies on building projects", "Code edition, calibration, coverage and re-examination of repairs"]
+        ]
+      }
+    },
+    {
+      "h": "Radiographs from California-licensed contractors",
+      "p": [
+        "California is an NRC Agreement State, and industrial radiography firms working in Los Angeles hold licences from the Department of Public Health's Radiologic Health Branch. The branch's licensing guide expects each radiographer to hold an ASNT card or a state-issued radiographer card, with training meeting 10 CFR 34.43 and 17 CCR 30333, and leaves the licensee to keep those qualifications on file for inspection.",
+        "That gives a Los Angeles radiography review an extra personnel question alongside the interpreter's certification under the employer's written practice: were the people who made the exposures qualified as the licence requires? Atlantis does not perform industrial radiography in California or elsewhere in the United States. What we review is the product: film, computed radiography plates and digital detector images from your licensed contractor, checked for image quality, identification, coverage and interpretation as a document review."
+      ]
+    },
+    {
+      "h": "Digital inspection data from Southern California work",
+      "p": [
+        "Most turnaround and pipeline contractors in the basin now deliver digital inspection data rather than paper. Corrosion maps come from automated or semi-automated ultrasonic scanners, girth welds are often imaged with digital radiography, exchanger tubes produce eddy current or rotating ultrasonic files, and thickness readings are captured on tablets that write straight into the refinery's inspection database through a digital reporting system.",
+        "That makes independent review more powerful, because native files can be reopened long after the crew has left. We confirm that each file belongs to the component it is filed under, re-measure the indications behind key dispositions, check that scanner encoding and coverage match what the report claims, and follow data lineage from field entry to issued report. In a refinery, the last step is often decisive: a reading that was edited after upload, or a template field that carried a value forward from the last turnaround, can change a damage mechanism review without anyone noticing. A review of digital reporting checks electronic signatures, revision control and whether the exported record would survive an audit or a dispute."
+      ]
+    },
+    {
+      "h": "How a Los Angeles review is carried out",
+      "p": [
+        "There is no Atlantis desk anywhere in Southern California. Our offices are in Houston and Hyderabad, and every Los Angeles review is done remotely on the reports, procedures, certificates and raw files you send through a secure transfer. If the documents cannot support the decision you face, the opinion says so and describes the examination that would close the gap.",
+        "Tell us what the report covers, which code, operator specification or California requirement applied, and what decision rests on the review. A reply comes within one business day, setting out the scope we would propose and a quote for it. The reviewer then tests procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability, and the opinion ends with one of three verdicts: sound, deficient in documentation only, or deficient in disposition.",
+        "Reviews of UT, RT, MT, PT and VT records are led by an ASNT NDT Level III certified in those five methods, and the review team includes people from nuclear, maritime, oil and gas and petrochemical backgrounds. Eddy current and other methods are reviewed by a person whose certification the proposal names. Fitness-for-service, remaining-life and corroded pipe strength calculations stay with the owner's engineer, who gains a verified data set from the review."
+      ]
+    }
+  ],
+  "faqs": [
+    {"q": "Can you review a refinery turnaround package from the Los Angeles basin?", "a": "Yes. We review all or a sample of the package against the inspection plan, the procedures and the codes, and check the certification record elements that California's refinery process safety rule requires, so the owner knows which records need attention before restart."},
+    {"q": "Will the review help with our damage mechanism review under section 5189.1?", "a": "It tests the inspection data the damage mechanism review relies on: whether thickness readings, crack detection results and tube data are traceable, complete and obtained with suitable techniques. The damage mechanism review itself, and any fitness-for-service conclusion, stay with the owner's team and engineer."},
+    {"q": "We own records from a refinery that has stopped making fuel. Can you review them?", "a": "Yes. Owners of idled or closing units often need to know what their inspection history can prove for preservation, sale or redevelopment. The review states which records are sound and which would need fresh examination before anyone relies on them."},
+    {"q": "Our pipeline is intrastate. Does the review change?", "a": "The first step changes. We confirm whether the line answers to the State Fire Marshal, the Public Utilities Commission or PHMSA, then check the girth weld, dig and test records against API 1104, the operator's specification and the requirements of that regulator."},
+    {"q": "Can you check ultrasonic reports on seismic moment connections?", "a": "Yes. We check the UT procedure, the code edition, AWS D1.8 and project specification requirements, calibration, technician certification, coverage and whether repaired welds were re-examined. Acceptance remains with the inspectors and engineers the building official recognises."},
+    {"q": "Do you review radiographs if Atlantis does not perform radiography in California?", "a": "Yes. Reviewing film, computed radiography and digital radiography produced by a contractor licensed by the Radiologic Health Branch is a document review and part of this service, including the qualification records of the radiographers named on the job."},
+    {"q": "Is any part of the review done on site in Los Angeles?", "a": "No. The review is carried out remotely on the records and digital inspection data you share. Where the record cannot answer a question, the opinion describes what field work would answer it and who should do it."},
+    {"q": "How do we start a review from Los Angeles?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, method, governing code or specification and the purpose of the review. We reply within one business day, and the files are then exchanged through a secure transfer."}
+  ],
+  "related": [
+    ["/inspection-services-california", "Inspection services in California"],
+    ["/ndt-training-los-angeles", "NDT training in Los Angeles"],
+    ["/consulting/ndt-consulting-los-angeles", "NDT consulting in Los Angeles"],
+    ["/ultrasonic-testing-los-angeles", "Ultrasonic testing in Los Angeles"],
+    ["/inspection/third-party-inspection-los-angeles", "Third-party inspection in Los Angeles"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"]
+  ],
+  "sources": [
+    "https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/californias-oil-refineries",
+    "https://www.sec.gov/Archives/edgar/data/1534701/000153470126000006/psx-20251231.htm",
+    "https://dir.ca.gov/title8/5189_1.html",
+    "https://ceqanet.lci.ca.gov/2020059038/4",
+    "https://osfm.fire.ca.gov/divisions/pipeline-safety-and-cupa",
+    "https://www.cpuc.ca.gov/regulatory-services/safety/gas-safety-and-reliability-branch",
+    "https://www.aws.org/magazines-and-media/welding-digest/wd-aug-2025-welding-of-seismic-connections-is-a-team-effort",
+    "https://dbs.lacity.gov/sites/default/files/efs/forms/pc17/P_BC-2023-035---Registration-for-Deputy-Inspector.pdf",
+    "https://www.dir.ca.gov/dosh/pressure.html",
+    "https://www.cdph.ca.gov:443/Programs/CEH/DRSEM/CDPH%20Document%20Library/RHB/RML/IndustrialRadiographyGuide.pdf"
+  ]
+}

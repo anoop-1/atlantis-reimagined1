@@ -1,0 +1,215 @@
+{
+  "title": "NDT Report Validation in Mobile, AL | Independent Data Review",
+  "description": "Independent review of NDT reports and digital inspection data from Mobile-area steel and pipe mills, chemical plants and power stations, done remotely.",
+  "h1": "Independent NDT report review for Mobile's mills, chemical plants and power stations",
+  "eyebrow": "Report validation: Mobile, Alabama",
+  "intro": "Industry around Mobile runs north up the river and south along the bay: a steelmaking and finishing complex at Calvert, a large-diameter line pipe mill, chemical plants at Theodore and the power stations that serve them. Each of those plants buys, builds and maintains equipment whose acceptance rests on NDT records, and each sells products whose buyers read the mill's inspection data before they pay. We review those reports and the digital inspection data behind them independently, against the specification and code that governed the work. Atlantis has no staff or premises in Mobile; the review is carried out remotely on what you send.",
+  "highlights": [
+    {
+      "h": "Mill and shop records before they ship",
+      "p": "Line pipe and fabricated equipment leave Mobile with inspection records attached. A review read for the buyer, or for the mill answering a buyer's rejection, shows which items are sound and which need work."
+    },
+    {
+      "h": "New plant means a new baseline",
+      "p": "Recent steelmaking and chemical construction north and south of the city leaves weld records that will anchor every future inspection. The review tests them before the project team signs them over."
+    },
+    {
+      "h": "Alabama's regulators, not a generic checklist",
+      "p": "Boiler certificates, radiography licensing and pipeline safety each sit with a different Alabama agency. The opinion relates each finding to the rule a reader will actually apply."
+    }
+  ],
+  "sections": [
+    {
+      "h": "The industrial map around Mobile Bay",
+      "p": [
+        "North Mobile County is home to the Calvert steel complex, which became ArcelorMittal Calvert in 2025 when ArcelorMittal bought Nippon Steel's half of the former AM/NS Calvert joint venture. The company completed commissioning and the first heat of a new electric arc furnace there in June 2025, rated at 1.5 million metric tonnes of steel a year, and has said it is assessing a further steelmaking expansion. In the city, Borusan Berg Pipe's Mobile plant makes large-diameter line pipe, and in December 2025 the company reported a new US order scheduled for production in 2027.",
+        "South of the city, Evonik's site at Theodore produces DL-methionine for animal feed, and in July 2026 the company reported that it had completed on-site production of methyl mercaptan, the key intermediate it previously had to bring in. Power comes from Alabama Power's Plant Barry, the James M. Barry plant on the Mobile River, about twenty miles north of the city, a seven-unit coal and gas station, and from gas cogeneration units the utility lists at Theodore and near McIntosh. These sites are named because they define the area's inspection workload; none is presented as a client, and naming one does not mean we have seen its records."
+      ]
+    },
+    {
+      "h": "Records from Mobile and the check that usually decides them",
+      "p": [
+        "Every review runs all seven checks, but in each kind of record one of them tends to decide the verdict. The table shows the pattern for the reports Mobile-area plants and their buyers most often bring for a second reading."
+      ],
+      "table": {
+        "head": [
+          "Record",
+          "Where it usually comes from",
+          "Check that most often decides the outcome"
+        ],
+        "rows": [
+          [
+            "Line pipe mill NDT and test records",
+            "Large-diameter pipe production",
+            "Equipment and calibration: reference standards and system checks recorded at the frequency the pipe specification and purchase order demand"
+          ],
+          [
+            "Construction weld records for a new plant",
+            "EPC contractors, shops and field erectors",
+            "Completeness and traceability: weld maps, joint numbers and examination extent that agree with the drawings"
+          ],
+          [
+            "Boiler and HRSG tube thickness grids",
+            "Coal, gas and cogeneration units",
+            "Repeatability: grid references and comparison with the previous outage"
+          ],
+          [
+            "Corrosion maps on chemical plant vessels",
+            "Process sites in south and north Mobile County",
+            "Technique adequacy: whether the method can see the damage the service is expected to cause"
+          ],
+          [
+            "MT and UT on crane runways, building steel and equipment supports",
+            "Steel mills and fabrication shops",
+            "Acceptance criteria: the AWS D1.1 edition and table actually applied"
+          ],
+          [
+            "Radiographs and DR images of process piping",
+            "Licensed radiography contractors working for plant owners",
+            "Interpretation: image quality, coverage and the disposition written against each indication"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Line pipe from a Mobile mill: what a buyer's review covers",
+      "p": [
+        "A large-diameter pipe mill produces inspection data on every length it makes. Seam welds are typically examined by automated ultrasonic systems along their full length, pipe ends receive additional examination where the specification requires it, each length is hydrostatically tested, and the results are summarised in inspection documents that travel with the pipe. API 5L sets the baseline requirements, and pipeline purchase specifications usually add their own on top, so a buyer is accepting the pipe against two layers of rules at once.",
+        "Independent reviews of mill records are usually commissioned by a pipeline owner or an EPC contractor before acceptance, or by the mill when a purchaser's inspector has raised a rejection. The reviewer checks that the automated system was set up and verified on reference standards with the notches and holes the specification calls for, that verification runs happened as often as required, that alarms and their follow-up are recorded length by length, and that pipe numbers, heat numbers and test records stay linked from the first examination to the shipping list."
+      ],
+      "list": [
+        "Calibration and verification runs on the reference standard at the start, during and at the end of production shifts",
+        "Disposition records for every length that triggered an alarm, including any manual re-examination",
+        "Pipe number and heat number traceability across NDT, hydrotest and dimensional records",
+        "Inspection documents that state the specification, edition and supplementary requirements the pipe was made to"
+      ]
+    },
+    {
+      "h": "New steelmaking and chemical plant: construction records",
+      "p": [
+        "A project the size of the Calvert electric arc furnace leaves behind structural steel, crane runways, cooling water and gas piping, pressure equipment and furnace auxiliaries, each with its own weld records and NDT reports. Steel buildings and crane girders are usually examined to AWS D1.1, process and utility piping to ASME B31.3 or B31.1 depending on its service, and pressure vessels to ASME Section VIII. A data book that applies one code's acceptance table to another code's welds can look complete and still fail an audit.",
+        "Chemical plant construction at Theodore raises the same questions with more alloy and more corrosive service. Methyl mercaptan is a sulfur compound, and plants handling sulfur chemistry rely heavily on material verification and on weld records that can be trusted when the first in-service inspection compares against them. The review checks that material and weld records belong to the joints they claim to cover, that examination extent matches the fluid service category, and that repairs were re-examined over the full excavation rather than signed off on the final pass."
+      ]
+    },
+    {
+      "h": "Plant Barry and the cogeneration units",
+      "p": [
+        "A large fossil station on a tidal river produces a steady flow of outage records: waterwall, superheater and reheater tube thickness surveys, header and drum reports, weld examinations on main steam and hot reheat piping, and the heat recovery steam generator records of its gas-fired units. Those reports are read against ASME Section I, B31.1 and the outage contract, and against the earlier surveys the plant keeps.",
+        "The questions that matter most are about trending. Can the grid be found again at the next outage? Were the thinnest locations from last time re-measured? Was a repair examined to the extent its procedure required? Where a boiler repair falls under the National Board Inspection Code, the review can help the repair organisation confirm its NDE package is complete before the inspector sees it. Acceptance for the jurisdiction stays with the inspector who holds that authority; Atlantis is not one."
+      ]
+    },
+    {
+      "h": "Alabama rules behind a Mobile inspection record",
+      "p": [
+        "Boilers and pressure vessels in Alabama come under the Boiler and Pressure Vessel Safety Act, Act No. 2000-315, which requires regular inspection unless the equipment is exempted by law and requires operating certificates to be kept on the equipment it regulates. The program is run by the inspections staff of the Alabama Department of Workforce under a chief inspector. Alabama has no OSHA-approved state plan, so federal OSHA enforces the process safety management standard, 29 CFR 1910.119, at covered chemical plants, and the owner's mechanical integrity program is the document an auditor will compare a report against.",
+        "Radiography is licensed by the Alabama Department of Public Health's Office of Radiation Control under the state's Agreement State program, with NRC Region I handling the agency's remaining materials work in Alabama and Region II overseeing the state's power reactors. Atlantis does not perform industrial radiography in Alabama; film and digital images from your licensed contractor are reviewed as documents. Pipelines are inspected by the Gas Pipeline Safety section of the Alabama Public Service Commission, which inspects natural gas and hazardous liquid systems in the state, including offshore facilities in state waters, and lists several LNG systems among the operators it regulates, under an annual certification to enforce the federal minimum standards."
+      ]
+    },
+    {
+      "h": "Digital inspection data from mills and plants",
+      "p": [
+        "Most of the evidence in a Mobile review now arrives as digital inspection data. Automated pipe mill systems keep a digital record for each length, plant thickness surveys are exported from data-logging gauges, encoded phased array files cover heavier welds, DR images replace film on much new construction, and reports are compiled and signed electronically on digital reporting platforms. The opinion can only be as good as the link between those files and the report that summarises them.",
+        "We test that link on a sample: the file behind a reading, the setup behind a scan, the processing history behind a radiographic image, the certificate behind an electronic signature. Pipe mill data gets one extra test, because a length renumbered after a cut-out or a repair can quietly detach its NDT record from the pipe that ships. When records pass between companies or systems, the opinion notes whether anything was lost, truncated or relabelled along the way."
+      ]
+    },
+    {
+      "h": "Typical review situations around Mobile",
+      "p": [
+        "Requests from the Mobile area usually arrive at a decision point, when somebody is about to accept, pay for, ship or defend something on the strength of an inspection record. These are the most common."
+      ],
+      "list": [
+        "A pipeline owner or EPC contractor accepting line pipe and wanting an independent reading of the mill's NDT and test records",
+        "A mill answering a purchaser's rejection with evidence rather than argument",
+        "A project team accepting construction weld records before handover of a new steelmaking or chemical unit",
+        "A plant engineer checking an outage contractor's tube grids before a boiler returns to service",
+        "An insurer, lender or buyer relying on inspection history for a decision about an asset",
+        "A fabrication shop preparing a data book for a buyer who was not present when the welding was done"
+      ]
+    },
+    {
+      "h": "Remote review from Houston and Hyderabad",
+      "p": [
+        "The review is carried out remotely, from Atlantis's offices in Houston and Hyderabad, on records transferred securely; there is no site visit, crew or laboratory involved. Describe the record, the method, the specification and the decision it supports. We reply within one business day with a scope, the named reviewer and a quote, and the written opinion classes the report as sound, deficient in documentation only, or deficient in disposition, with each finding tied to the clause or procedure step it rests on.",
+        "Records in UT, RT, MT, PT and VT are reviewed under an ASNT NDT Level III holding certification in all five of those methods, and the review team behind that Level III comes from nuclear, maritime, oil and gas and petrochemical work. Eddy current tube data and other methods outside those five go to a reviewer named in the proposal who holds the certification your contract specifies. Fitness-for-service and remaining-life calculations stay with your engineer; we do not perform them. Atlantis does not certify personnel and does not review reports on examinations it carried out."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review a pipe mill's NDT records for a line pipe order?",
+      "a": "Yes. We read the automated ultrasonic setup and verification records, alarm dispositions, manual re-examinations, hydrotest records and traceability against API 5L and your purchase specification, and the opinion says which items support acceptance and which do not."
+    },
+    {
+      "q": "A purchaser's inspector has rejected our mill records. Can an independent review help?",
+      "a": "It can. The review tests whether the rejection rests on a real requirement in the specification and whether your records answer it. The opinion separates genuine nonconformances from documentation that can be supplied, which gives both sides a technical basis for closing the matter."
+    },
+    {
+      "q": "Do you review construction weld records for a new unit in Mobile County?",
+      "a": "Yes. Weld maps, NDT reports, image and scan files, personnel and calibration records and repair histories are checked against AWS D1.1, ASME B31.3, B31.1 or Section VIII as the work requires, before the records become the plant's baseline."
+    },
+    {
+      "q": "Which Alabama agency issues boiler operating certificates?",
+      "a": "The boiler and pressure vessel program sits with the inspections staff of the Alabama Department of Workforce, under the Boiler and Pressure Vessel Safety Act. Our review does not replace that inspection; it tests the NDT record the inspector and the owner will rely on."
+    },
+    {
+      "q": "Do you take radiographs at Alabama plants?",
+      "a": "No. Atlantis does not perform industrial radiography in Alabama, where the Department of Public Health's Office of Radiation Control licenses that work. Radiographs and DR images produced by your licensed contractor are reviewed as documents."
+    },
+    {
+      "q": "Can you review tube data from Barry or a cogeneration unit outage?",
+      "a": "Yes for ultrasonic thickness grids, weld records and other UT, MT, PT and VT data. Eddy current or EMAT tube data goes to a reviewer the proposal names with the certification your contract calls for."
+    },
+    {
+      "q": "Does anyone need to visit the plant?",
+      "a": "No. The review is remote and works from the reports, procedures, certificates, calibration records and raw digital files you send. If a question cannot be answered from the records, it comes back to you in writing."
+    },
+    {
+      "q": "What does the opinion leave to us?",
+      "a": "Every decision about the equipment. Fitness-for-service, rerating and remaining-life calculations stay with your engineer, acceptance for the jurisdiction stays with the authorised inspector, and the choice of any re-examination contractor stays with you."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-alabama",
+      "Inspection services in Alabama"
+    ],
+    [
+      "/inspection/third-party-inspection-mobile",
+      "Third-party inspection in Mobile"
+    ],
+    [
+      "/consulting/ndt-consulting-mobile",
+      "NDT consulting in Mobile"
+    ],
+    [
+      "/ndt-training-mobile",
+      "NDT training in Mobile"
+    ],
+    [
+      "/ultrasonic-testing-pipeline",
+      "Ultrasonic testing for pipelines"
+    ],
+    [
+      "/ultrasonic-testing-steel",
+      "Ultrasonic testing for steel mills"
+    ],
+    [
+      "/ultrasonic-boiler-tube-inspection",
+      "Ultrasonic boiler tube inspection"
+    ]
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1243429/000124342925000051/exhibit991062025.htm",
+    "https://www.steelorbis.com/steel-news/latest-news/borusan-berg-pipe-books-major-us-pipe-order-production-set-for-2027-1425886.htm",
+    "https://steelmarketupdate.com/2023/04/14/borusan-completes-buy-of-fla-based-berg-pipe",
+    "https://www.cityofmobile.org/news/gov-riley-mayor-jones-welcome-berg-spiral-pipe-corp",
+    "https://governor.alabama.gov/newsroom/2022/02/gov-ivey-evonik-plans-to-invest-176-5-million-in-expansion-project-at-mobile-area-facility/",
+    "https://www.alabamapower.com/company/about-us/generating-plants.html",
+    "https://workforce.alabama.gov/inspections/boilers-pressure-vessels/",
+    "https://www.osha.gov/stateplans",
+    "https://www.nrc.gov/agreement-states/alabama.html",
+    "https://psc.alabama.gov/gas-pipeline-safety/",
+    "https://www.chemicalprocessing.com/industrynews/news/55392566/evonik-completes-integrated-methionine-production-network-in-alabama",
+    "https://live.euronext.com/en/products/equities/company-news/2025-06-18-arcelormittal-completes-acquisition-nippon-steel"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "title": "Visual Weld Inspection Report Review: AWS D1.1, B31.3, ASME V",
+  "description": "Independent review of visual weld inspection reports from CWIs and NDT VT personnel: lighting, viewing access, vision currency, gauges, D1.1 and B31.3 criteria.",
+  "h1": "Independent review of visual weld inspection reports",
+  "eyebrow": "Method review: visual testing of welds",
+  "intro": "Visual inspection is the examination every weld gets and the one whose report is most often a tick in a box. That becomes a problem when a weld later fails, a client rejects a fabrication package or an auditor asks how undercut was measured. We review visual weld inspection reports independently against ASME Section V Article 9, the construction code and the inspection plan, checking that the conditions, tools and people behind each accept decision are on the record. Reports from certified welding inspectors and from NDT visual testing personnel are both reviewed, remotely, from the documents, photographs and digital records you send.",
+  "highlights": [
+    { "h": "Conditions of viewing", "p": "Light at the surface, viewing distance and angle, and remote aids where access was poor: the review checks that the report shows the weld could actually be seen." },
+    { "h": "Measurement, not impression", "p": "Undercut depth, reinforcement, fillet size and profile need gauges and numbers. We check that dimensional criteria were measured and that the correct acceptance table and column were applied." },
+    { "h": "The person behind the signature", "p": "Visual inspection is signed by CWIs, NDT VT personnel and sometimes welding supervisors. The review checks that the signer's qualification and vision examination covered the work on that date." }
+  ],
+  "sections": [
+    {
+      "h": "Why visual reports deserve a review",
+      "p": [
+        "Visual examination finds more rejectable conditions on new welds than any other method, simply because it looks at every weld and at the surface where many defects begin: cracks, undercut, overlap, unfilled craters, surface porosity, arc strikes and poor profile. It is also the method most often recorded as a single line on a traveller or an inspection and test plan. Months later, when a dispute or a failure brings the weld back into question, that line has to show what was looked at, under what conditions and against which criteria.",
+        "An independent review asks whether it does. The questions are practical: was there enough light at the weld, could the inspector get close enough at a useful angle, were dimensions measured with a gauge or estimated by eye, was the inspection done at the right stage, and does the signer's qualification fit the code. A visual report that answers those questions is defensible. One that cannot is weaker than the radiograph or ultrasonic report filed beside it, even though most people assume the opposite."
+      ]
+    },
+    {
+      "h": "Who produces visual weld reports, and what each is qualified for",
+      "p": [
+        "Visual reports come from two directions. Welding inspectors certified by AWS as Certified Welding Inspectors under AWS QC1, or holding another qualification the construction code accepts, inspect before, during and after welding against the welding code; their reports cover fit-up, procedure compliance and finished weld quality. NDT personnel certified in visual testing under their employer's written practice, typically based on ASNT SNT-TC-1A or ANSI/ASNT CP-189, carry out visual examination as an NDT method, often to ASME Section V Article 9 where an ASME code invokes it.",
+        "Both routes are legitimate, and the review does not prefer one to the other. It checks that the person who signed was qualified under the scheme the contract or code requires, that the certification was current on the date of inspection, and that any vision examination the scheme requires was current as well. Atlantis reviews these reports; it does not write or qualify welding procedures, and its look at WPS and welder qualification records is limited to whether the visual report shows the right documents were in force at the time."
+      ]
+    },
+    {
+      "h": "ASME Section V Article 9: viewing conditions and records",
+      "p": [
+        "Article 9 describes how visual examination is carried out when an ASME code calls for it. Direct visual examination generally needs the eye within 24 in. (600 mm) of the surface at an angle of not less than 30 degrees, and current editions require at least 100 foot-candles (1,076 lux) at the examination surface. Mirrors, borescopes, cameras and other aids may be used for remote visual examination where the aid gives resolution at least equal to direct viewing.",
+        "For a reviewer, those requirements become questions of evidence. Was the light measured, and with which meter? Was the weld reachable at that distance and angle, or was part of it behind a support, inside a nozzle or at the back of a fillet? If a camera or borescope was used, does the report identify it and show how its image compared with direct viewing? Article 9 relies on a written procedure for the details, so the procedure is read alongside the report to confirm the report follows it.",
+        "Inspectors and reviewers also lean on AWS B1.11M/B1.11:2015, the AWS guide to the visual examination of welds, for the way discontinuities are described and gauges are used. It is a guide rather than an acceptance standard, so a report that cites it still needs the construction code or contract to supply the limits each condition was judged against."
+      ]
+    },
+    {
+      "h": "AWS D1.1 visual acceptance and the timing of inspection",
+      "p": [
+        "AWS D1.1 requires all welds to be visually inspected and sets the acceptance criteria in Table 8.1, separately for statically and cyclically loaded connections. Cracks are unacceptable whatever their size. Fusion has to be complete, craters filled to the full cross section except at the ends of intermittent fillets outside their effective length, and profiles must meet the code's profile requirements. Undercut and surface porosity limits depend on loading and thickness: for statically loaded connections in material under 1 in. thick, for example, undercut is limited to 1/32 in., with up to 1/16 in. allowed over an accumulated 2 in. in any 12 in. Undersized fillet welds are tolerated only within tight limits on size and length.",
+        "Timing matters as much as the limits. For most carbon and low-alloy steels, visual inspection may begin once the weld has cooled to ambient temperature, but D1.1 requires a waiting period after welding before final inspection of certain high-strength quenched and tempered steels, such as ASTM A514 and A517, because hydrogen cracking can appear after the weld is finished. A report that records an inspection time minutes after welding on those materials is a finding on its face.",
+        "D1.1 also uses its visual criteria to judge magnetic particle and penetrant results on the same welds, so a visual report and a surface-method report on one joint should agree. Where they do not, the review asks which of the two is right and why."
+      ]
+    },
+    {
+      "h": "B31.3 piping: visual examination and Table 341.3.2",
+      "p": [
+        "In process piping built to ASME B31.3, visual examination is one of the examinations the code requires, to an extent that depends on the fluid service category, and its acceptance criteria sit in Table 341.3.2 alongside those for radiography. The table sets limits by fluid service, with tighter values for severe cyclic conditions, and covers cracks, lack of fusion, incomplete penetration, undercut, surface porosity, concave root surface and reinforcement or internal protrusion. Examination of the root side is part of the picture where access allows.",
+        "Two review points recur on B31.3 visual reports. The first is extent: the code ties the amount of visual examination to the fluid service, and the report should show that the required extent was achieved, including how welds were selected where random examination applies. The second is edition: limits and paragraph numbering have moved between editions, and the engineering design names the one that governs, so the review checks the report applied that one."
+      ]
+    },
+    {
+      "h": "Lighting, viewing and gauges: the evidence a reviewer looks for",
+      "p": [
+        "Conditions and tools are what separate a measured visual examination from an impression. The table lists what we look for and what typically goes wrong with each item."
+      ],
+      "table": {
+        "head": ["Item", "What a sound report shows", "What goes wrong"],
+        "rows": [
+          ["Lighting", "Light level at the weld measured with an identified meter, or a procedure that makes the check routine and logged", "Inspection in a dim corner of the shop or at dusk with no reading, where shallow undercut and fine cracks are easily missed"],
+          ["Viewing distance and angle", "Access within the procedure's distance and angle, or the aid used where access was poor", "Back of fillets, nozzle internals or overhead welds marked accepted with no note on how they were seen"],
+          ["Remote aids", "Borescope, camera or mirror identified, with its image quality compared with direct viewing", "Video inspection with no record of the equipment or of image quality"],
+          ["Weld gauges", "Gauge type named, such as fillet, undercut or bridge cam gauges, with measured values", "Dimensions recorded as 'OK' with no measurement taken"],
+          ["Stage of inspection", "Fit-up, root, in-process and final inspections recorded where the plan requires them", "Only a final visual recorded when the plan asked for fit-up and root checks"],
+          ["Vision currency", "Near-vision and colour examinations current under the inspector's scheme on the inspection date", "Vision record expired weeks before the inspection was signed"]
+        ]
+      }
+    },
+    {
+      "h": "Undercut, porosity and profile: where dispositions are challenged",
+      "p": [
+        "Most arguments about visual reports come down to three conditions. Undercut is a depth, and a depth can only be accepted against a limit if it was measured; an undercut gauge reading or a profile measurement is the evidence, and 'slight undercut, acceptable' is not. Surface porosity is judged by size and frequency, so the report should say how many pores, how large and over what length. Profile covers convexity, concavity, reinforcement height, overlap and fillet leg size, and each has a code limit or a reference to a profile figure.",
+        "The reviewer compares each recorded condition with the table the contract names and checks that the correct column was used: statically or cyclically loaded in D1.1, the fluid service in B31.3, the joint category in pressure equipment. A common finding is a correct measurement judged against the wrong column. Another is a report that records no imperfections on welds where the photographs show visible undercut, or spatter that the specification says must be removed.",
+        "Where the review finds a disposition that does not stand, the opinion names the weld, the condition, the limit that applies and the evidence, so the fabricator can repair or re-inspect the right joint instead of reopening a whole package."
+      ]
+    },
+    {
+      "h": "Photographs, tablets and digital visual records",
+      "p": [
+        "Visual inspection is increasingly recorded digitally: tablet checklists linked to weld maps, photographs of each weld or each recorded condition, laser profile scanners that measure reinforcement and undercut, and remote video with stored footage. These digital records make a visual report much easier to defend, because the reviewer can see the weld rather than imagine it.",
+        "They also need checking. Photographs should carry the weld identifier, a scale and enough resolution to show what the report claims; images reused across several welds, or taken before final cleaning, are findings in themselves. Digital checklists that default every field to 'accept', and an electronic signature applied to a batch of reports in a single session, tell a reviewer more about the process than the inspector intended. An independent review of the digital inspection data matches photographs and entries to welds, dates and the person who signed."
+      ]
+    },
+    {
+      "h": "Verdict and review team",
+      "p": [
+        "The written opinion gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition. For visual reports, documentation findings such as an unrecorded light level or a missing vision record can often be closed from records the fabricator keeps. Disposition findings, such as a crack-like indication accepted or undercut accepted against the wrong column, may need the weld to be looked at again, and the opinion says so.",
+        "Visual and welding inspection reports are reviewed under the lead of an ASNT NDT Level III whose certification covers VT together with UT, RT, MT and PT, supported by review team members from nuclear, maritime, oil and gas and petrochemical work. We are independent of the fabricator and the inspector, we do not review work from projects where we carried out the inspection, and the review is done remotely."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Do you review CWI reports as well as NDT visual testing reports?", "a": "Yes. Reports from Certified Welding Inspectors and from NDT personnel certified in VT are both reviewed against the code and contract that governed the work. The review checks that the signer held a qualification the code accepts." },
+    { "q": "Can a visual inspection report be reviewed without photographs?", "a": "Yes. The review then rests on the written conditions, measurements and dispositions. Photographs strengthen the record considerably, and their absence is noted where the specification required them." },
+    { "q": "Our client says our visual report is not enough. Can you tell us whether they are right?", "a": "Yes. The opinion states which requirements the report meets and which it does not, tied to the code table, the procedure or the inspection plan, and separates gaps that existing records can close from those that need the weld looked at again." },
+    { "q": "Do you check welding procedures and welder qualifications as part of the review?", "a": "Only as context: whether the report shows the welds were made under procedures, and by welders, that the record says were qualified. Atlantis does not write or qualify welding procedures or welder qualifications." },
+    { "q": "Does ASME Section V Article 9 apply to AWS D1.1 work?", "a": "Not unless the contract invokes it. D1.1 carries its own inspection requirements and visual acceptance criteria. Article 9 applies when an ASME code or a contract calls it up, and the review uses whichever document governs." },
+    { "q": "How do you handle remote visual inspection video?", "a": "We review the recorded footage or stills with the report, check that the equipment is identified and that image quality supported the conclusions, and match the footage to the components and dates in the report." },
+    { "q": "Can you review visual records for structural steel already in service?", "a": "Yes. In-service visual records are reviewed against the inspection plan or the owner's criteria, which may differ from fabrication acceptance criteria. Engineering assessment of any defect found stays with the owner's engineer." },
+    { "q": "How do we request a review of visual inspection reports?", "a": "Send the visual reports, the inspection plan, the code and edition, and any photographs or digital records through the form on this page or to info@atlantisndt.com. Expect our reply within one business day, with the scope we propose and a quote." }
+  ],
+  "related": [
+    ["/visual-testing", "Visual testing"],
+    ["/weld-inspection", "Weld inspection"],
+    ["/standards/asme-section-v-article-9", "ASME Section V Article 9 explained"],
+    ["/standards/aws-d1-1", "AWS D1.1 explained"],
+    ["/standards/asme-b31-3", "ASME B31.3 explained"],
+    ["/aws-cwi-training", "AWS CWI exam preparation"],
+    ["/blog/wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104", "WPS, PQR and WPQ explained"]
+  ],
+  "sources": [
+    "https://open-exam-prep.com/study-guides/api-570/nondestructive-examination/visual-penetrant-magnetic-testing",
+    "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-d1-1/visual-inspection-clause8/table-8-1-visual-acceptance",
+    "https://pubs.aws.org/p/1921/qc12016-amd1-standard-for-aws-certification-of-welding-inspectors",
+    "https://webstore.ansi.org/standards/aws/awsb111m112015",
+    "https://www.aws.org/magazines-and-media/welding-journal/wj-may-25-feature-01-green-wje/",
+    "https://www.munichre.com/hsb/en/services/engineering/global-inspection/resource-center/pressure-points/25q402.content.html",
+    "https://www.thefabricator.com/article/arcwelding/arc-welding-101-understanding-acceptable-undercut"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "title": "NDT Report Review for Dammam, Al Khobar and Dhahran",
+  "description": "Independent review of pipeline, oil and gas and fabrication NDT reports from Dammam, Al Khobar and Dhahran, done remotely on the data you send.",
+  "h1": "Independent NDT report and inspection data review across the Dammam metropolitan area",
+  "eyebrow": "Report validation · Dammam, Al Khobar and Dhahran",
+  "intro": "Dammam, Al Khobar and Dhahran have grown into one metropolitan area. Between them they hold the headquarters of Saudi Aramco, three industrial cities full of manufacturers, and the contract and inspection teams that buy NDT for work across the Eastern Province. Pipeline weld records, oil and gas facility reports and the data books of shop-built equipment pass through here on their way to acceptance. We review them independently against the code, the procedure and the operator's standards, reopen the digital inspection data behind them and put the result in a written opinion. None of the three cities has an Atlantis office; the review is carried out remotely from the records you send.",
+  "highlights": [
+    { "h": "Shop records checked before they ship", "p": "Data books from Dammam's industrial cities are read against the code, the purchase specification and the operator's standards while the equipment is still on the shop floor, which is where a missing record is easiest to supply." },
+    { "h": "Pipeline records placed in context", "p": "Crude and gas lines leaving the Eastern Province are built and maintained to the operator's specifications. The review first establishes which document and acceptance standard governed each weld, and only then judges the record." },
+    { "h": "The files behind the summary", "p": "Automated UT girth weld files, DR images, corrosion maps and thickness logs are opened and compared with what the report states about coverage, sizing and acceptance." }
+  ],
+  "sections": [
+    {
+      "h": "Three cities, one market for inspection records",
+      "p": [
+        "Dhahran is the administrative centre of the Saudi oil industry. Saudi Aramco has its headquarters there, and Aramco's own material supplier guide lists the company's Vendor Inspection Division and Vendor Assessment Unit at the Al-Midra Tower in Dhahran. Those units decide whether a manufacturer, and the paperwork that travels with its products, meets company requirements, so much of the documentation suppliers produce is ultimately judged against expectations set in this city.",
+        "Dammam, the capital of the Eastern Province, supplies much of the manufacturing. The Saudi Authority for Industrial Cities and Technology Zones, known as MODON, supervises three industrial cities there. The First opened in 1973 near the Gulf and holds 178 factories. The Second opened in 1978 west of Dhahran on the Dhahran–Abqaiq road, covers about 25 square kilometres and holds 1,071 factories. The Third opened in 2012 south of Dhahran on the eastern coastal road, and covers about 48 square kilometres with roughly 225 factories so far. Those counts include plants of every kind; the ones that matter for this page are the shops that weld pressure equipment, piping and steelwork, because their output ships with NDT records.",
+        "Al Khobar sits on the Gulf coast beside Dhahran, south of Dammam, and the three are commonly treated as a single urban area. Inland lies Abqaiq, whose crude stabilisation plant can process more than seven million barrels a day, and beside it King Salman Energy Park, or SPARK, a 50 square kilometre industrial park that Aramco established for the manufacturing supply chain behind the energy sector. MODON licensed SPARK to operate in 2021 after its first phase was finished, and all of its development phases are due by 2035."
+      ]
+    },
+    {
+      "h": "Where the metro area's NDT records come from",
+      "p": [
+        "A request from the Dammam area can concern a shop, a pipeline, a processing plant or a building, and each produces a different kind of record. The table shows the sources we see most often and what usually arrives from each. Facilities are named to describe the area, not as clients."
+      ],
+      "table": {
+        "head": ["Source", "Examples", "Records that typically reach review"],
+        "rows": [
+          ["Fabrication shops", "Vessel, piping, tank, skid and steelwork shops in Dammam's three industrial cities", "Vendor data books, weld maps, radiographs and DR images, UT used in place of radiography, MT and PT reports, PMI, hardness and hydrotest records"],
+          ["Energy supply-chain manufacturers", "Plants at SPARK near Abqaiq", "Qualification packages for new production lines, first-article NDT, procedure and personnel records gathered for manufacturer approval"],
+          ["Crude oil pipelines", "Aramco's stabilised crude network, including the East-West pipeline from Abqaiq to Yanbu", "Girth weld radiographs and DR images, automated UT files, repair weld records, hydrotest records, corrosion surveys at stations and crossings"],
+          ["Gas pipelines", "The Master Gas System and its third expansion phase", "New-construction weld records from several contractors, tie-in records, compression station piping reports, AUT setup and calibration files"],
+          ["Processing facilities", "Crude stabilisation at Abqaiq and the region's gas processing plants", "T&I packages, CML thickness surveys, vessel and piping inspection reports, exchanger tube data, storage tank reports"],
+          ["Industrial and commercial buildings", "Steel-framed buildings that fall under the Saudi Building Code", "AWS D1.1 weld inspection reports, UT on complete-joint-penetration welds, MT on fillet welds, bolting and visual inspection records"]
+        ]
+      }
+    },
+    {
+      "h": "Fabrication records from Dammam's industrial cities",
+      "p": [
+        "Localisation has moved more fabrication into the Kingdom. Aramco has written its In-Kingdom Total Value Add programme, IKTVA, into procurement, and its supplier guide says participation is required to do business with the company, beginning with a baseline survey and a five-year action plan. For a Dammam shop that means more of the equipment once bought in is now built on its own floor, each weld carrying an NDT record that a buyer's inspector will read.",
+        "Approval rules shape the record long before any review does. Aramco's handbook of engineering requirements for the technical and quality approval of local manufacturers expects calibrated MT and UT equipment to be available to certified technicians, asks for NDT inspectors certified to ASNT Level II, and allows the NDE of welds to be outsourced to inspection agencies Aramco has approved. A data book therefore often combines the shop's own examinations with an outside agency's reports, and the two halves have to agree with each other.",
+        "A review of a Dammam data book follows the joints rather than the page order. Equipment built here may be installed anywhere from Ras Tanura to Yanbu, and a record questioned at the shop is far easier to put right than one questioned at the receiving site."
+      ],
+      "list": [
+        "Every weld on the map appears in the NDT log with the method and extent that the design and the specification called for",
+        "Radiographs and DR images show the identification, image quality indicator and coverage the procedure demands, joint by joint",
+        "Where UT replaced radiography, the code and the purchase specification allowed it, and the record is of the type that route requires",
+        "Certificates, vision examinations and the written practice were valid on the dates of examination, for the shop and for any outside agency",
+        "Repairs carry their own examination after repair, not the report written for the original weld",
+        "Hydrotest, PWHT, PMI and hardness records carry the same serial or tag numbers as the weld map and the nameplate"
+      ]
+    },
+    {
+      "h": "Pipelines that start in the Eastern Province",
+      "p": [
+        "Saudi crude and gas networks begin in the Eastern Province. Aramco's East-West pipeline runs about 1,200 km from Abqaiq to Yanbu on the Red Sea, and the Master Gas System links the region's gas plants with industrial users across the country. In June 2024 Aramco awarded 15 lump-sum turnkey contracts for the system's third expansion phase, covering about 4,000 km of pipeline and 17 new gas compression trains and adding 3.15 billion standard cubic feet a day of capacity by 2028, together with contracts for the second phase of the Jafurah gas development.",
+        "Ownership arrangements around these networks changed earlier in the decade. A consortium including EIG and Mubadala took 49 percent of Aramco Oil Pipelines Company in June 2021, and a consortium led by affiliates of BlackRock and Hassana took 49 percent of Aramco Gas Pipelines Company in February 2022, each holding tariff rights under a lease and leaseback arrangement. In both deals Aramco kept full ownership and operational control of the networks themselves, so the weld, integrity and inspection records for those lines are still produced under Aramco's own programme and standards.",
+        "For a Saudi girth weld record, the acceptance standard is the one the operator's specification names, often API 1104 or a company document built on it. A girth weld review therefore starts by confirming which document and edition governed the line. It then checks that every tie-in on the alignment sheet has its examination, that AUT setups and calibration blocks match the qualified procedure, that DR images reach the image quality the specification sets, and that each repair has a record of its own rather than borrowing the original weld's."
+      ]
+    },
+    {
+      "h": "Typical review situations around Dammam",
+      "p": [
+        "The situations below are the ones a request from the metro area usually involves, and each one points the reviewer toward different checks. Telling us which applies is the quickest way to a scope that answers the real question."
+      ],
+      "list": [
+        "A shop in the Second Industrial City has a vessel or spool held by an operator's vendor inspector over radiographs, UT technique sheets or a missing PMI record, and wants to know which comments documents alone can close",
+        "A new manufacturer at SPARK is preparing NDT, procedure and personnel records for an approval audit and wants them read the way an auditor would read them",
+        "A pipeline contractor has the first batch of girth weld records from a new package and wants them checked against the operator's specification before the volume builds up",
+        "An NDT agency has had a report rejected and needs an outside view on whether the rejection is technically correct before it replies",
+        "An overseas buyer has received Dammam-built equipment and wants the data book checked before final acceptance",
+        "A building owner or contractor needs the structural steel weld records for a steel-framed building reviewed against AWS D1.1 and the project specification"
+      ]
+    },
+    {
+      "h": "Standards and authorities a Dammam record answers to",
+      "p": [
+        "Technical acceptance in the metro area usually rests on three layers. The first is the international code the equipment or line was built to: ASME Section VIII or B31.3, API 1104, API 650 or AWS D1.1, with ASME Section V governing the examination methods. The second is the operator's own standards, which for Aramco work means the Saudi Aramco Engineering Standards, Engineering Procedures and SAMSS materials specifications together with the company's inspection forms. The third is the purchase specification or contract, which may add extent, technique or reporting requirements of its own. The review reads a report against all three and says which layer each finding comes from.",
+        "Buildings follow a separate track. The Saudi Building Code took its general framework from a 2004 Council of Ministers resolution, and the Saudi Building Code Application Law of 2017 applies it to construction in both the public and private sectors, introduced in phases by building type, with industrial buildings in the second phase. Weld records for a steel-framed building therefore have to satisfy the project's code requirements as well as the welding standard the specification names.",
+        "Two national bodies touch NDT records indirectly. The High Commission for Industrial Security sets safety, fire protection and security directives for facilities in sectors including petroleum, petrochemicals, gas, electricity and water. The Nuclear and Radiological Regulatory Commission licenses the use of ionising radiation, including the industrial radiography behind every girth weld or vessel radiograph. MODON supervises the industrial cities and licensed SPARK to operate, but it does not judge NDT reports. Radiographs and DR images produced under NRRC licences are reviewed here as documents; producing them is not part of the service."
+      ]
+    },
+    {
+      "h": "Digital inspection data from Dammam-area work",
+      "p": [
+        "Pipeline construction is where digital inspection is furthest along in the region. Automated ultrasonic systems record every girth weld scan, DR panels take the place of film, and weld data moves from the crew to the owner through digital reporting systems. Shops have followed, sending DR images, scan files and electronic data books in place of paper binders.",
+        "That shift changes what a reviewer can test. With the raw AUT file, the scan display can be rebuilt and a reported indication length checked against the data. With the DR image and its processing history, the reviewer can see whether contrast or filtering was adjusted after interpretation. With access to a shop's digital reporting system, revision trails show who edited a report after it was issued. The review traces a sample of results from the instrument to the issued report and checks that electronic signatures belong to identifiable, qualified people. Where a data book arrives as one flattened PDF with no source files, the opinion records how much of it can be tested at all."
+      ]
+    },
+    {
+      "h": "Remote review from Houston and Hyderabad",
+      "p": [
+        "None of the three cities has an Atlantis office, branch or agent, and the review does not need one. It is carried out remotely, from Houston and Hyderabad, on records you share by secure transfer. Where equipment is waiting on a dock, the scope is built around the documents the vendor inspector questioned, so the opinion answers the hold directly.",
+        "You describe the record, the governing code and operator standard and the decision at stake, through the form or at info@atlantisndt.com, and we reply within one business day with the scope, the named reviewer and a quote. The files then come across. Questions the record cannot answer go back in writing, to you or, with your agreement, to the shop or agency that issued it. The reviewer works through the seven checks applied to every record: the procedure, personnel qualification on the date of work, equipment and calibration, the technique, the acceptance criteria, interpretation and sizing, and completeness and traceability. The opinion then gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition, with each finding tied to its clause or procedure step."
+      ]
+    },
+    {
+      "h": "Who reads the records, and what stays with others",
+      "p": [
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under the direction of an ASNT NDT Level III certified in all five methods. Other methods, such as eddy current tube data from gas plant exchangers, go to a reviewer named in the proposal who holds the certification the contract demands. The wider review team draws on careers in nuclear, maritime, oil and gas and petrochemical work.",
+        "A review neither approves a manufacturer nor places Atlantis among an operator's approved inspection agencies. Acceptance stays with the operator's inspector, manufacturer approval with the operator's vendor organisation, and fitness-for-service or remaining-strength decisions with the owner's engineer. Personnel are not certified through the review, and records from jobs Atlantis examined are not reviewed at all."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Does Atlantis have staff in the Eastern Province?", "a": "No. Atlantis keeps its offices in Houston and Hyderabad only and has none in the Gulf. The review is a remote document and data review, so nothing in it depends on being near your shop, plant or right of way." },
+    { "q": "Our vessel is held at the shop over the NDT pages. Can an independent review help?", "a": "Yes. The data book is read against the code, the purchase specification and the operator's standards, and the opinion separates genuine nonconformances from comments that can be closed by supplying or correcting a document. A shop can pass the opinion to the buyer's inspector as the basis for its reply." },
+    { "q": "Can you review girth weld records from a pipeline package in the Eastern Province?", "a": "Yes, against the specification the operator named, often API 1104 or a company standard built on it. Automated UT files and DR images are opened where they exist, and the opinion reports what the record supports; acceptance of each weld remains with the operator's inspector." },
+    { "q": "Do you review against the operator's specifications or only the international code?", "a": "Both, where you send the operator's documents or the contract names them. Each finding states whether it rests on the code, the operator's standard or the purchase specification, which makes the opinion easier to act on." },
+    { "q": "Can a new manufacturer use the review to prepare for approval?", "a": "It can help with preparation: the NDT, procedure and personnel records are read the way an auditor would read them, and the gaps are listed. The approval decision belongs to the operator's vendor organisation, and the review does not stand in for it." },
+    { "q": "Do you review structural steel weld records for buildings?", "a": "Yes. Visual, UT and MT records for a steel-framed building are checked against AWS D1.1 and the project specification, including the joint list, examination extent, acceptance criteria and inspector qualifications on the dates shown." },
+    { "q": "Do you look at automated UT and DR files or only the reports?", "a": "The files, wherever they are available. Rebuilding an AUT scan or reopening a DR image is the only way to test the sizing and image quality a report claims, and the opinion says plainly when source files were not supplied." },
+    { "q": "How do we start a review from Dammam, Al Khobar or Dhahran?", "a": "Send a short description of the record, the method, the governing code or operator standard and the decision it supports, using the form or info@atlantisndt.com. We reply within one business day with the scope and a quote, and files then reach us by secure transfer." }
+  ],
+  "related": [
+    ["/inspection/third-party-inspection-dammam", "Third-party inspection in Dammam"],
+    ["/consulting/ndt-consulting-dammam", "NDT consulting in Dammam"],
+    ["/consulting/ndt-consulting-khobar", "NDT consulting in Al Khobar"],
+    ["/ndt-training-dammam", "NDT training in Dammam"],
+    ["/ndt-training-khobar", "NDT training in Al Khobar"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"]
+  ],
+  "sources": [
+    "https://saudipedia.com/en/saudi-aramco",
+    "https://www.aramco.com/-/media/downloads/working-with-us/material-supplier-guide.pdf",
+    "https://saudipedia.com/en/list-of-industrial-cities-in-dammam",
+    "https://en.wikipedia.org/wiki/Dammam_metropolitan_area",
+    "https://saudipedia.com/en/king-salman-energy-park-spark",
+    "https://www.aramco.com/en/news-media/news/2024/aramcos-strategic-gas-expansion-progresses-with-25bn-contract-awards",
+    "https://en.wikipedia.org/wiki/East%E2%80%93West_Crude_Oil_Pipeline",
+    "https://www.aramco.com/en/news-media/news/2021/aramco-closes-infrastructure-deal-with-global-investor-consortium",
+    "https://www.aramco.com/en/news-media/news/2022/aramco-closes-gas-pipeline-deal-with-global-investor-consortium",
+    "https://www.aramco.com/-/media/downloads/working-with-us/ertqa.pdf",
+    "https://saudipedia.com/en/article/3096/government-and-politics/municipal-affairs-and-housing/saudi-building-code",
+    "https://saudipedia.com/en/high-commission-for-industrial-security",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "title": "MT and PT Report Review: Magnetic Particle and Penetrant",
+  "description": "Independent review of magnetic particle and penetrant reports to ASME V Articles 6 and 7 and ASTM practices: yoke checks, lighting, dwell times and indications.",
+  "h1": "Independent review of magnetic particle and liquid penetrant reports",
+  "eyebrow": "Method review: MT and PT",
+  "intro": "Magnetic particle and penetrant examinations leave almost nothing behind. Once the developer is wiped off or the particles brushed away, the only evidence is the report and perhaps a photograph. That makes the report itself the examination record in a way it is not for ultrasonic or radiographic work, and it is why surface-method reports deserve a careful independent review. We check MT and PT reports against ASME Section V, the ASTM practices and the procedure they cite, looking for the technique details a sound examination has to record. Reviews are carried out remotely on the documents, photographs and digital records you send.",
+  "highlights": [
+    { "h": "Technique evidence, not just results", "p": "Lift tests, field checks, light readings, dwell and development times are what make a 'no relevant indications' entry believable. The review checks that each was done and written down." },
+    { "h": "Materials and consumables", "p": "Particle and penetrant batches, contaminant certification for nickel alloys, stainless steels and titanium, and temperature limits are checked against the procedure and the material examined." },
+    { "h": "Indications judged against the right table", "p": "Relevant and non-relevant, linear and rounded, size and spacing: each recorded indication is tested against the acceptance standard the construction code names for that weld." }
+  ],
+  "sections": [
+    {
+      "h": "Why surface-method reports are hard to validate after the fact",
+      "p": [
+        "With radiography or encoded ultrasonics, a reviewer can reopen the image or the file and see the evidence again. With magnetic particle and penetrant testing the evidence is transient. An indication exists for the few minutes between development and cleaning, and a field that was too weak, a surface that was too rough or a dwell that was too short leaves no trace at all. The record has to persuade on its own.",
+        "That shifts the weight of a review from interpretation to technique. The question is less often whether an indication was sized correctly and more often whether the report shows conditions under which an indication could have formed in the first place. A report that calls the weld acceptable but records no lift test, no light reading, no consumable batch and no temperature cannot show that the examination was capable of finding anything. That is a documentation deficiency at best, and on a critical component it becomes a question about the disposition itself.",
+        "Photographs, light-meter logs and tablet entries help, and we treat them as evidence when they are tied to the joint and the time of examination. They do not replace the technique record, because a photograph of a clean surface proves the surface was clean, not that it was examined properly."
+      ]
+    },
+    {
+      "h": "The governing documents and how they divide the work",
+      "p": [
+        "Surface-method reports usually cite two layers of documents. ASME Section V Article 6 (penetrant) and Article 7 (magnetic particle) say how the examination is carried out when a section of the ASME code, a B31 piping code or a contract invokes them, while acceptance comes from the construction code. ASTM practices cover the same ground for general industry and for aerospace, and contracts outside ASME work often name them directly. The 2025 edition of Section V, issued in July 2025, is current, and many contracts still name an earlier one.",
+        "The review checks that the procedure cites the edition the contract requires and that the report follows the procedure rather than the technician's habit. A procedure written to an older edition is not wrong in itself, but the report must show which edition governed the work."
+      ],
+      "table": {
+        "head": ["Document", "What it covers", "What a reviewer checks it for"],
+        "rows": [
+          ["ASME Section V Article 7", "Magnetic particle examination for ASME work: techniques, yoke and current checks, field adequacy, lighting", "Lift test record, field indicator use, current values for prods or coils, light levels, two directions of magnetisation"],
+          ["ASME Section V Article 6", "Liquid penetrant examination for ASME work: materials, contaminant control, temperature, dwell, development, interpretation", "Penetrant system and batch, contaminant certification, temperature, dwell and development times, lighting"],
+          ["ASTM E709-21", "Guide to magnetic particle testing techniques, equipment and materials", "Whether the technique in the procedure follows recognised practice"],
+          ["ASTM E3024/E3024M-22a", "Practice setting minimum requirements for magnetic particle testing in general industry", "Process controls and records when a non-ASME contract names it"],
+          ["ASTM E1444/E1444M-26", "Practice for magnetic particle testing written for aerospace work", "Applied where an aerospace drawing or specification calls it up"],
+          ["ASTM E165/E165M-23", "Practice for liquid penetrant testing in general industry", "Temperature range, dwell and development limits, material compatibility"],
+          ["ASTM E1417/E1417M-21e1", "Practice setting minimum requirements for penetrant examination of nonporous components", "Process control records where a specification invokes it"]
+        ]
+      }
+    },
+    {
+      "h": "Magnetic particle technique: what the report should show",
+      "p": [
+        "For yoke examination, the commonest MT technique on welds, Article 7 requires the yoke's lifting power to be verified with a test weight at the maximum pole spacing to be used: at least 10 lb (4.5 kg) for an alternating-current yoke and at least 40 lb (18 kg) for direct-current and permanent-magnet yokes. In current editions the check is made before use on each day the yoke is used, and again after any damage or repair. A report or daily equipment log should name the yoke and show that check; without it, nobody can say the field was strong enough.",
+        "Field adequacy and direction come next. Pie-shaped field indicators, artificial-flaw shims or a Hall-effect tangential field meter show that a field is present and running in the expected direction, and each area has to be magnetised in two directions roughly at right angles so that cracks of either orientation interrupt the field. Prod and coil techniques add current values, which the procedure sets from section thickness or part dimensions, and the report must record what was used.",
+        "Particles and lighting complete the record. Visible particles need white light of at least 100 foot-candles (1,000 lux) at the examination surface; fluorescent particles need UV-A of at least 1,000 µW/cm² with ambient light kept low and the examiner's eyes adapted to the dark. Wet suspensions need concentration checks. A report that names the particle type and batch, the light readings and the meter used gives the reviewer something to test, while one that says 'MT acceptable' does not.",
+        "One more check is simple and decisive: magnetic particle testing cannot be applied to austenitic stainless steels, because they are not ferromagnetic. An MT report on such a weld is a finding in its own right, whatever it says about indications."
+      ]
+    },
+    {
+      "h": "Penetrant technique: system, dwell, development and temperature",
+      "p": [
+        "A penetrant report should name the system: penetrant type and removal method, developer form, and the manufacturer's batch numbers for each consumable, because materials from different families are not interchangeable without qualification. Surface preparation is recorded next. Grinding or wire brushing can smear metal over a crack opening, and many procedures call for etching or a specific cleaning sequence after mechanical preparation for exactly that reason.",
+        "Temperature and time are where penetrant reports most often fall short. Article 6 and ASTM E165/E165M both set a standard temperature range, outside which the procedure has to be qualified at the temperature used; E165 gives 40 °F to 125 °F (4 °C to 52 °C). Dwell must reach the minimum the procedure sets for the material and the discontinuity type, and E165 caps it at two hours where the manufacturer gives no maximum unless penetrant is reapplied. Development runs for a minimum time before interpretation, ten minutes under E165, and must not drag on until bleed-out blurs the indications. A report should record start times, or the procedure should make the timing auditable through a log.",
+        "Lighting mirrors MT: white light at the surface for visible dye, and UV-A with low ambient light and dark adaptation for fluorescent penetrants. Interpretation inside the time window, and the light readings that went with it, belong on the record."
+      ]
+    },
+    {
+      "h": "Contaminant limits on nickel alloys, stainless steels and titanium",
+      "p": [
+        "Penetrant materials carry trace sulfur and halogens that can harm some alloys. Sulfur is the concern on nickel-base alloys, where it can cause embrittlement at temperature; chlorine and fluorine are the concern on austenitic and duplex stainless steels and titanium, where they can contribute to stress corrosion cracking. Article 6 limits these contaminants and requires a certification of contaminant content, carrying the manufacturer's batch numbers and test results, for every penetrant material used on nickel-base alloys, austenitic or duplex stainless steels and titanium. ASTM E165 tells users to weigh the restriction and leaves the acceptable level to agreement between supplier and user.",
+        "The reviewer checks that the procedure addresses the alloy, that the batch numbers in the report match certificates showing compliance, and that post-cleaning was carried out where residues could stay in service. A missing certificate on a carbon steel weld is a paperwork point. The same gap on a nickel alloy or stainless component in high-temperature or chloride service is something the owner's materials engineer should hear about."
+      ]
+    },
+    {
+      "h": "Indications: sizing, relevance and acceptance",
+      "p": [
+        "Surface-method acceptance standards judge indications by type, size and spacing. ASME construction codes separate linear indications, those longer than three times their width, from rounded ones; they reject relevant linear indications above a length limit and limit rounded indications by size and grouping. AWS D1.1 evaluates MT and PT results on welds against its visual acceptance criteria. The reviewer checks that the right table was used for the code, edition and thickness, and that each indication was measured the way the procedure says.",
+        "Relevance is the judgement most open to challenge. A non-relevant indication, from a change of section, magnetic writing, a scratch or a geometric edge, should be identified as such with a reason, and many procedures require it to be re-examined before it is set aside. An indication sized at its bleed-out rather than at the discontinuity, or dismissed as non-relevant with no stated cause, is the commonest interpretation finding in surface-method reviews.",
+        "We also check what happened afterwards: whether rejected indications were removed and the area re-examined by the same method, whether the repair record ties back to the original indication, and whether the final report shows the re-examination rather than the original result alone."
+      ]
+    },
+    {
+      "h": "Digital records for surface methods",
+      "p": [
+        "Digital reporting has changed MT and PT records more than those of any other method, because the main improvement available is to capture the conditions of the examination as it happens. Tablet forms can log the yoke lift test, the light-meter reading, batch numbers scanned from labels, and time stamps for penetrant application and development. Photographs taken under the right light, with a scale and the joint identifier in frame, preserve indications that would otherwise survive only as a sketch.",
+        "Those digital records are only as good as their controls. Fields carried forward from the previous day, time stamps showing every weld in a batch processed within minutes of each other, photographs without identifiers, and images taken under white light of what was meant to be a fluorescent examination are recurring review findings. An independent review of the digital inspection data checks each entry against the joint, the time and the operator, and checks that the issued report was not edited after electronic signature without a revision."
+      ]
+    },
+    {
+      "h": "Review checklist for MT and PT reports",
+      "p": [
+        "The table compares what we look for in the two methods side by side. The seven checks are the same ones applied to every report; the evidence behind them differs."
+      ],
+      "table": {
+        "head": ["Check", "Magnetic particle", "Liquid penetrant"],
+        "rows": [
+          ["Procedure", "Technique, current type, yoke or prod spacing within the procedure", "Penetrant system, removal method and developer form within the procedure"],
+          ["Personnel", "Certified in MT at the level that evaluated; vision examination current", "Certified in PT at the level that evaluated; vision examination current, including colour contrast"],
+          ["Equipment checks", "Yoke lift test, ammeter calibration where current is used, light meters", "Light meters and UV-A sources; system performance checks where the procedure requires them"],
+          ["Field or process control", "Field indicator results, two directions, particle concentration", "Temperature, dwell and development times, surface preparation"],
+          ["Materials", "Particle type and batch", "Batches with sulfur or halogen certification where the alloy needs it"],
+          ["Interpretation", "Linear and rounded indications, non-relevant indications explained", "Indications sized at the discontinuity, not the bleed-out"],
+          ["Acceptance and traceability", "Correct construction-code table; joint and area identified", "Correct table; repaired areas re-examined and recorded"]
+        ]
+      }
+    },
+    {
+      "h": "Verdict, independence and who reviews",
+      "p": [
+        "The written opinion gives one of three verdicts and ties each finding to the procedure step or code requirement behind it. For surface methods, documentation-only findings are common and are usually closed with records the contractor already holds. Findings about technique conditions on critical components are harder, because the only real answer may be to examine the surface again, and the opinion says plainly when that is the case.",
+        "Magnetic particle and penetrant reports are reviewed under an ASNT NDT Level III whose five certified methods include MT and PT as well as UT, RT and VT, with review team members drawn from nuclear, maritime, oil and gas and petrochemical work. The review is independent of the contractor who did the work, we never review examinations we performed ourselves, and it is carried out remotely from the records you send."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can a magnetic particle or penetrant report be validated without seeing the part?", "a": "The report and its supporting records can be: technique, conditions, materials, personnel and acceptance. What a document review cannot do is reveal an indication that was never developed. Where the record does not show the examination was capable, the opinion says what re-examination would settle it." },
+    { "q": "Is a missing yoke lift test a serious finding?", "a": "On its own it is a documentation gap that a daily equipment log may close. If no log exists for that day and that yoke, the report cannot show the field was adequate, and on a critical weld the review treats it as affecting disposition." },
+    { "q": "Why do you ask for penetrant batch certificates?", "a": "Because contaminant limits apply on nickel alloys, stainless steels and titanium, and because mixing materials from different families can invalidate the system. Batch numbers in the report should match the certificates." },
+    { "q": "Can photographs replace written indication records?", "a": "They support them. A photograph with a scale, the joint identifier and the right lighting is good evidence of an indication's size and position, but the written record still needs the technique conditions and the disposition." },
+    { "q": "Our MT report cites ASTM E709 but the contract names ASME Section V. Is that a problem?", "a": "Not necessarily. E709 is a guide to technique, and many procedures written for ASME work draw on it. The review checks whether the procedure meets the ASME article the contract invokes and whether the report follows the procedure." },
+    { "q": "Do you review fluorescent and visible methods differently?", "a": "The checks are the same in kind, but the lighting evidence differs: UV-A intensity, ambient light and dark adaptation for fluorescent work, and white light at the surface for visible work. Fluorescent reports with no UV-A readings are a common gap." },
+    { "q": "Do you review MT and PT reports for aerospace parts?", "a": "Yes, against the specification the drawing or purchase order names, often ASTM E1444/E1444M or E1417/E1417M. The personnel certification the customer requires decides who may sign, and the review checks whether the signatures meet it." },
+    { "q": "How do we send MT or PT reports for review?", "a": "Use the form on this page or write to info@atlantisndt.com with the reports, the procedure, equipment and consumable records and any photographs. You will hear from us within one business day with a review scope and a quote." }
+  ],
+  "related": [
+    ["/magnetic-particle-testing", "Magnetic particle testing"],
+    ["/penetrant-testing", "Penetrant testing"],
+    ["/standards/asme-section-v-article-6", "ASME Section V Article 6 explained"],
+    ["/standards/asme-section-v-article-7", "ASME Section V Article 7 explained"],
+    ["/standards/asme-pt-mt-acceptance-criteria", "ASME PT and MT acceptance criteria"],
+    ["/standards/astm-e709", "ASTM E709 explained"],
+    ["/standards/astm-e165", "ASTM E165 explained"],
+    ["/magnetic-particle-weld-inspection", "Magnetic particle weld inspection"],
+    ["/penetrant-testing-welds", "Penetrant testing of welds"]
+  ],
+  "sources": [
+    "https://open-exam-prep.com/study-guides/api-570/nondestructive-examination/visual-penetrant-magnetic-testing",
+    "https://spectro-uv.com/pages/magnetic-particle-examination",
+    "https://www.munichre.com/hsb/en/services/engineering/global-inspection/resource-center/pressure-points/25q402.content.html",
+    "https://webstore.ansi.org/standards/astm/astme70921",
+    "https://store.astm.org/e3024_e3024m-22a.html",
+    "https://webstore.ansi.org/standards/astm/astme1444e1444m26",
+    "https://store.astm.org/e0165_e0165m-23.html",
+    "https://cdn.standards.iteh.ai/samples/115849/87963fe8314e4b98bb772883f7e9a6ef/ASTM-E165-E165M-23.pdf",
+    "https://store.astm.org/e1417_e1417m-21e01.html"
+  ]
+}

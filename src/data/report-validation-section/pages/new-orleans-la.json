@@ -1,0 +1,268 @@
+{
+  "title": "New Orleans, LA NDT Report Validation | Offshore and Refining",
+  "description": "Independent review of offshore, refinery, chemical plant and fabrication yard NDT reports and digital data from the New Orleans area, done remotely.",
+  "h1": "Independent review of NDT reports from Gulf offshore work, river refineries and Louisiana fabrication yards",
+  "eyebrow": "Report validation: New Orleans, Louisiana",
+  "intro": "New Orleans is where a great deal of Gulf inspection paperwork ends up. The federal offshore regulator runs its Gulf region from here, the refineries and chemical plants between Garyville and Meraux run their own turnaround cycles, a new LNG terminal has just begun commercial service down river, and fabrication yards to the south and west ship structures and spools with thick data books. We review the NDT reports and digital inspection data from all of that work independently, against the code and the specification that governed it. Atlantis keeps no premises anywhere in the New Orleans area, and reviews are carried out remotely on the records you send.",
+  "highlights": [
+    {
+      "h": "Offshore records with an onshore reader",
+      "p": "Platform and pipeline inspection data is collected offshore but accepted, filed and defended onshore. The review gives the engineer, the insurer or the asset buyer a disinterested reading before they rely on it."
+    },
+    {
+      "h": "River refining and chemicals",
+      "p": "Turnaround packages, CML data and exchanger tube files from the plants on both banks of the Mississippi are read against the owner's API programs and the federal PSM standard."
+    },
+    {
+      "h": "Yard data books before load-out",
+      "p": "Structures, modules and spools leaving south Louisiana yards are easier to correct before they sail. A data book review shows the buyer and the yard which gaps are paperwork and which are not."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Three kinds of inspection work meet in one metro",
+      "p": [
+        "New Orleans sits close to an unusual range of inspection regimes. River refining, petrochemicals, a nuclear plant, LNG export and heavy fabrication all lie within about an hour and a half of the French Quarter, offshore production is managed from offices in and around the city, and each produces records with its own codes, its own regulator and its own idea of what a finished report looks like. Contractors move between them, and so do their habits; a technique sheet that is perfectly acceptable on a refinery exchanger can be wrong for an offshore riser or a nuclear plant pipe support.",
+        "That mix is why owners, contractors and their advisers in the area ask for independent reviews. A refiner wants a contractor's close-out set read before a unit restarts. An offshore operator, or the insurer of one, wants to know whether an inspection campaign really covered what the report claims. A yard wants confidence that a buyer will accept its data book. Each of those people needs a reader with no stake in the answer, and the sites named on this page are named only to describe the area, not as clients."
+      ]
+    },
+    {
+      "h": "Refineries from Garyville to Meraux",
+      "p": [
+        "The river parishes around New Orleans hold some of the largest refining capacity in Louisiana. The table uses the operators and capacities listed in the state's 2025 refinery survey, which reports 2024 data, together with the records those plants most often send for an outside reading."
+      ],
+      "table": {
+        "head": [
+          "Refinery",
+          "Operator in the state survey",
+          "Capacity, barrels per calendar day",
+          "Records that commonly reach review"
+        ],
+        "rows": [
+          [
+            "Garyville",
+            "Marathon Petroleum",
+            "606,000",
+            "Turnaround packages from several contractors, PAUT and TOFD on heavy-wall reactors, CML data loaded to the owner's database"
+          ],
+          [
+            "Norco",
+            "Shell",
+            "231,827",
+            "Refinery and adjoining chemical plant records, exchanger tube data, API 653 tank reports"
+          ],
+          [
+            "Norco (St. Charles)",
+            "Valero",
+            "215,000",
+            "Piping circuit thickness surveys, repair weld examinations, records for equipment changing service"
+          ],
+          [
+            "Chalmette",
+            "Chalmette Refining, part of PBF Energy",
+            "190,000",
+            "Turnaround close-out sets, corrosion maps on vessels and columns, CR of small-bore connections"
+          ],
+          [
+            "Meraux",
+            "Valero",
+            "125,000",
+            "Tank floor and shell reports, unit piping surveys, vendor data books for replacement equipment"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Chemical plants on the same stretch of river",
+      "p": [
+        "Refining shares the river with large chemical sites. Dow's St. Charles Operations at Hahnville, a 2,000-acre integrated complex just upriver from the city, makes materials that end up in plastics, films, antifreeze, paints and adhesives, and the Norco Manufacturing Complex includes an ethylene, propylene and butadiene plant that the state lists separately from the refinery. Cracking furnaces, cold-end separation, polymer reactors and the utilities around them generate reports that differ from refinery work: thickness grids on furnace tubes and transfer lines, penetrant and ultrasonic records on stainless and alloy piping, and data books for the steady stream of replacement exchangers and vessels such sites buy.",
+        "Chemical plant reports often fail on context rather than measurement. A thickness reading is only useful if the report says where on the component it was taken and how it compares with the last survey, and a penetrant result on a stainless joint means little without the surface temperature and dwell time behind it. The review checks those details because they are what a later auditor, or a later inspector trying to trend the data, will need."
+      ]
+    },
+    {
+      "h": "Offshore platforms and pipelines, reviewed onshore",
+      "p": [
+        "The Bureau of Safety and Environmental Enforcement runs its Gulf of America Region from 1201 Elmwood Park Boulevard in New Orleans, and the region says it oversees nearly 2,000 facilities and around 13,135 miles of active pipeline. Offshore operators work under BSEE's regulations in 30 CFR Part 250 and the industry standards those rules and their own programs invoke, and much of the resulting inspection data is reviewed and archived by engineering teams based in and around the city.",
+        "The NDT element of an offshore campaign is the part we review: ultrasonic thickness surveys on topsides piping, pressure vessels and splash-zone members, magnetic particle examinations of structural nodes and crane components, weld examinations on repairs and modifications, and the records that tie each reading to a location on the drawing. Structural assessment of the platform, and any conclusion about whether it remains fit for service, stays with the operator's engineers; the opinion tells them which of the NDT data underneath that assessment is sound."
+      ]
+    },
+    {
+      "h": "Plaquemines LNG and the lower river",
+      "p": [
+        "South of the city, Venture Global began commercial operations of the first phase of its Plaquemines LNG terminal on 30 October 2026, after exporting commissioning cargoes since December 2024. A terminal at that point is changing hands in a documentary sense: the construction record, with its weld database, radiographs, digital radiography images and ultrasonic files, becomes the operator's baseline, and every future inspection will be compared against it.",
+        "Review work around a terminal at this stage tends to fall into two groups. Completion and handover packages are checked for traceability and for agreement between the weld database and the examination records, and the first maintenance inspections are checked against that baseline so that any change is real rather than an artefact of a different technique, reference point or reporting template."
+      ]
+    },
+    {
+      "h": "Fabrication yards and shop data books",
+      "p": [
+        "South Louisiana's yards build steel structures and modules for the energy, industrial and government markets, and smaller shops across the metro turn out spools, skids and pressure vessels. Gulf Island Fabrication, whose Houma campus covers about 450,000 square feet of fabrication and operations space, became part of IES Holdings on 16 January 2026. Ownership changes like that one rarely touch the paperwork on the shop floor, but they often prompt a fresh look at how data books are assembled.",
+        "A yard data book has to satisfy a buyer who was not present while the welding happened. Structural welds are usually examined to AWS D1.1 or the purchaser's offshore structural specification, pressure piping to ASME B31.3 and vessels to ASME Section VIII, and each of those sets its own examination extent and acceptance criteria. The review checks the weld map against the drawings, the NDT reports against the weld map, and the personnel and calibration records against the dates of work, before the structure leaves the quay and corrections become expensive to arrange."
+      ],
+      "list": [
+        "Weld maps revised during fabrication while NDT reports still cite the superseded joint numbers",
+        "Ultrasonic examination of tubular connections reported without the scan coverage needed to prove the joint was fully examined",
+        "Magnetic particle records on structural nodes with no field strength or lighting check recorded",
+        "Radiographs or DR images for piping spools missing image quality indicators or film identification",
+        "Repairs closed out on a final pass examination rather than a re-examination of the excavation"
+      ]
+    },
+    {
+      "h": "Waterford 3 and other nuclear-related records",
+      "p": [
+        "Waterford 3, the Combustion Engineering pressurised water reactor Entergy Operations runs at Killona, about twenty-five miles west of the city, holds a renewed licence to 2044 and is overseen by NRC Region IV. Its safety-related inspection program sits inside the licensee's quality assurance program, and Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list.",
+        "An independent opinion can still be useful around a nuclear site when the licensee's QA organisation decides how to use it: vendor records on non-safety-related plant, oversight of a supplier's documentation, an owner's second reading of a disputed report or the technical side of a commercial disagreement. The opinion is written so that QA can see exactly what was reviewed, against what and by whom. We make no claim of work at the plant."
+      ]
+    },
+    {
+      "h": "Who regulates what around New Orleans",
+      "p": [
+        "One metro, many regulators. The table sets out the authority and code basis an NDT report from each kind of asset will usually be read against. It is a starting point; the contract and the owner's program always decide the edition."
+      ],
+      "table": {
+        "head": [
+          "Asset",
+          "Authority",
+          "Code basis the review usually applies"
+        ],
+        "rows": [
+          [
+            "Offshore production facilities on the outer continental shelf",
+            "BSEE, Gulf of America Region",
+            "30 CFR Part 250, the operator's inspection program and the industry standards it invokes"
+          ],
+          [
+            "Intrastate gas and liquid pipelines",
+            "Louisiana Department of Conservation and Energy, Pipelines Section",
+            "49 CFR Parts 192 and 195 as adopted under the state's federal certification"
+          ],
+          [
+            "Interstate pipelines",
+            "PHMSA",
+            "49 CFR Parts 192 and 195, API 1104 for girth welds"
+          ],
+          [
+            "LNG terminal",
+            "PHMSA",
+            "49 CFR Part 193 and the NFPA 59A edition it incorporates"
+          ],
+          [
+            "Refinery and chemical process equipment",
+            "Federal OSHA, as Louisiana has no state plan",
+            "29 CFR 1910.119 mechanical integrity, API 510, 570 and 653, owner standards"
+          ],
+          [
+            "Boilers and Code-stamped vessels",
+            "Office of State Fire Marshal, boiler inspection program",
+            "ASME Code as the Louisiana Boiler Construction Code"
+          ],
+          [
+            "Industrial radiography licensing",
+            "Louisiana Department of Environmental Quality",
+            "State radiation rules under the Agreement State program"
+          ],
+          [
+            "Nuclear power plant",
+            "NRC Region IV",
+            "10 CFR 50.55a and the ASME Section XI edition in the plant's program"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Digital reporting from offshore campaigns and river turnarounds",
+      "p": [
+        "An offshore inspection campaign now arrives ashore as digital inspection data: thickness readings logged on tablets with photographs and location tags, encoded phased array scans of riser and caisson welds, digital radiography images of small-bore topsides piping and reports compiled on the contractor's digital reporting platform before the crew leaves the platform. River turnarounds produce the same kinds of files in larger volumes, much of it loaded straight into the owner's inspection database.",
+        "The review follows each sample record back to its source. We check that file names and location tags match the drawing reference in the report, that a scan file opens with the setup the procedure qualified, that photographs show the item the report says was examined, and that an electronic signature belongs to a person certified on that date. When data has been transmitted, converted or merged on its way from the platform to the database, the opinion records whether anything was lost or altered along the route."
+      ]
+    },
+    {
+      "h": "How the remote review runs, and where it stops",
+      "p": [
+        "Reviews for New Orleans clients are conducted remotely from Houston and Hyderabad, on records transferred securely, so the review never depends on boat space, a helicopter seat or a refinery gate pass. Tell us what the record covers, the method, the governing code and the decision it supports; we reply within one business day with a scope, the reviewer and a quote, and the written opinion gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition.",
+        "An ASNT NDT Level III certified in UT, RT, MT, PT and VT directs the review of records in those five methods, and the wider team brings backgrounds in nuclear, maritime, oil and gas and petrochemical work. Eddy current and other methods outside those five go to a reviewer the proposal names, with the certification the contract requires. Fitness-for-service and remaining-life calculations stay with the owner's engineer and are not something we perform, the inspector of record keeps the authority your program gives them, and Atlantis neither certifies personnel nor reviews examinations it performed itself."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review an offshore inspection campaign report?",
+      "a": "Yes, the NDT part of it. Thickness surveys, magnetic particle and ultrasonic weld records, repair examinations and the location references that tie them to the drawings are checked against the procedure and the operator's program. Structural and fitness-for-service conclusions stay with the operator's engineers."
+    },
+    {
+      "q": "Our refinery turnaround used four contractors. Can one review cover them all?",
+      "a": "It can, and that is often the point of asking. The same seven checks are applied to every contractor's reports, so the owner sees which packages are ready to close and which need work, regardless of whose template they arrived in."
+    },
+    {
+      "q": "Can you review a fabrication yard data book before load-out?",
+      "a": "Yes. The weld map, drawings, NDT reports, personnel and calibration records and repair history are read against AWS D1.1, ASME B31.3 or Section VIII and the purchaser's specification, so gaps can be closed while the structure is still on the quay."
+    },
+    {
+      "q": "Do you review radiographs from pipelines and spools in Louisiana?",
+      "a": "Yes, as documents. Film and digital images from your licensed contractor are checked for image quality, coverage and interpretation against API 1104, ASME B31.3 or the acceptance standard your contract names. Atlantis does not carry out radiography in Louisiana."
+    },
+    {
+      "q": "Can you review records connected with Waterford 3?",
+      "a": "We can provide an independent technical opinion that the licensee's QA organisation decides how to use, for example on non-safety-related plant, vendor oversight or a disputed report. Atlantis is not on any Appendix B or NQA-1 approved supplier list and does not present its work as safety-related."
+    },
+    {
+      "q": "Will a reviewer travel to a platform or to our plant?",
+      "a": "No. The review is carried out remotely on the records and digital files you send, with questions handled in writing and by call. No inspection crew is mobilised."
+    },
+    {
+      "q": "What happens when the data cannot support the report's conclusion?",
+      "a": "The opinion says so, classes the report as deficient in disposition and describes the new examination that would answer the question. Choosing who performs it, and deciding what to do with the equipment in the meantime, stays with the owner."
+    },
+    {
+      "q": "How should we send large digital data sets from an offshore campaign?",
+      "a": "Through a secure transfer link or controlled access to your own platform, with raw files kept in their native formats where possible. A short index tying each file to its location reference saves a great deal of back and forth."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/consulting/ndt-consulting-new-orleans",
+      "NDT consulting in New Orleans"
+    ],
+    [
+      "/ndt-training-new-orleans",
+      "NDT training in New Orleans"
+    ],
+    [
+      "/ultrasonic-testing-new-orleans",
+      "Ultrasonic testing in New Orleans"
+    ],
+    [
+      "/inspection/pipeline-inspection-services-new-orleans",
+      "Pipeline inspection in New Orleans"
+    ],
+    [
+      "/ultrasonic-testing-offshore",
+      "Ultrasonic testing offshore"
+    ],
+    [
+      "/report-validation/pipeline-girth-weld-report-review",
+      "Pipeline girth weld report review"
+    ]
+  ],
+  "sources": [
+    "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf",
+    "https://www.opis.com/resources/energy-market-news-from-opis/pbf-energy-says-it-plans-to-conduct-turnaround-work-at-most-of-its-refineries-in-2026/",
+    "https://corporate.dow.com/en-us/locations/louisiana",
+    "https://www.bsee.gov/who-we-are/our-organization/regional-offices/gulf-of-mexico",
+    "https://www.ogj.com/pipelines-transportation/lng/news/55417012/venture-global-begins-commercial-operations-for-plaquemines-lng-phase-1",
+    "https://www.sec.gov/Archives/edgar/data/0001031623/000114036126001488/ef20063243_8k.htm",
+    "https://www.marinelink.com/news/ies-holdings-acquire-gulf-island-532173",
+    "https://www.nrc.gov/info-finder/reactors/wat3",
+    "https://www.dce.louisiana.gov/page/pipeline-safety-program",
+    "https://www.law.cornell.edu/cfr/text/49/193.2013",
+    "https://www.osha.gov/stateplans",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
+    "https://www.nrc.gov/agreement-states/louisiana.html",
+    "https://corporate.dow.com/content/dam/corp/documents/location/066-00158-01-st-charles-operations-fact-sheet.pdf",
+    "https://www.stocktitan.net/news/IESC/ies-holdings-completes-acquisition-of-gulf-island-b0wn2urpurpo.html"
+  ]
+}

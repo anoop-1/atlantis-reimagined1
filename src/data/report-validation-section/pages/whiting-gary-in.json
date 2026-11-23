@@ -1,0 +1,155 @@
+{
+  "title": "NDT Report Validation in Whiting–Gary, IN | Expert Review",
+  "description": "Independent review of NDT reports from northwest Indiana: Whiting refinery data, steel mill structural records and fabrication weld reports, done remotely.",
+  "h1": "Northwest Indiana NDT report review, from the Whiting refinery to the Lake Michigan steel mills",
+  "eyebrow": "Report validation: Whiting, Gary and the Indiana lakeshore",
+  "intro": "The Indiana shore of Lake Michigan packs heavy industry into a narrow strip: BP's largest refinery anywhere in the world at Whiting, the U.S. Steel works at Gary, Cleveland-Cliffs mills at East Chicago and Burns Harbor, and the fabrication shops that build and repair for all of them. Their inspection reports decide when units restart, whether a crane runway stays in service and whether a fabricator gets paid. We review those reports and the digital inspection data behind them independently, against the procedure and code that applied, working remotely from the records you send.",
+  "highlights": [
+    {
+      "h": "Refinery and mill in one view",
+      "p": "Process plant records and steel mill structural records follow different codes and fail in different ways. The review is set up for whichever one you send, and for packages that contain both."
+    },
+    {
+      "h": "Indiana's 2026 changes accounted for",
+      "p": "Radiography licensing in Indiana moved from the NRC to the state on 30 September 2026. Records from before and after that date carry different licence evidence, and the review checks the right one for each."
+    },
+    {
+      "h": "Independence that survives scrutiny",
+      "p": "We never review an examination we carried out and take no position on the outcome. The written opinion can therefore be shown to a client, an insurer or the other side of a dispute as it stands."
+    }
+  ],
+  "sections": [
+    {
+      "h": "The lakeshore from Whiting to Burns Harbor",
+      "p": [
+        "BP's Whiting refinery can process about 440,000 barrels of crude a day. The company describes it as one of America's largest refineries and its biggest refinery in the world, and it has been part of the northwest Indiana economy for more than 135 years, supplying gasoline, diesel and the jet fuel used at airports in Chicago and Detroit. A refinery of that size runs an inspection programme with thousands of corrosion monitoring locations, hundreds of vessels and exchangers, large tank fields and a turnaround schedule that rolls through the site unit by unit.",
+        "East along the shore, U.S. Steel's Gary Works has been part of Nippon Steel since the takeover closed in June 2025. In December 2025 the company's board approved full funding to reline Blast Furnace No. 14, the largest of the works' four blast furnaces, alongside upgrades to the hot strip mill and steel shop. Cleveland-Cliffs runs Indiana Harbor in East Chicago and Burns Harbor, its second-largest US facility, about 50 miles southeast of Chicago, producing hot-rolled, cold-rolled and galvanized coil and plate.",
+        "Between and around those plants work the fabricators, erectors, machine shops and inspection contractors that keep them running. Their reports flow upwards to the owners and outwards to insurers and lenders, and that is where independent review comes in: when a report has to be accepted, defended, compared with a competitor's or relied on in a transaction."
+      ]
+    },
+    {
+      "h": "What changed in Indiana in 2026",
+      "p": [
+        "For decades the NRC licensed radiography firms working in Indiana directly. That ended when Indiana became the 41st Agreement State, under an agreement the NRC announced in September 2026 and which took effect on 30 September. The state now handles licensing, inspection and enforcement for roughly 213 radioactive materials licences covering medical, academic and industrial uses, through the state's own radioactive materials program.",
+        "For a report reviewer the change is a matter of dates. Radiographs shot at Whiting or Gary before October 2026 should trace back to a contractor licensed by the NRC or recognised under reciprocity; records made afterwards should trace to the state program. Contractors' templates sometimes lag behind such changes, so a 2027 record that still cites an NRC licence number is worth a question. None of this alters what the image shows, but it can decide whether the record stands up when an auditor or a lawyer reads it.",
+        "Atlantis does not perform industrial radiography in Indiana or anywhere else in the United States, before or after the change. The radiographs, CR plates and DR images that licensed contractors produce are what we review, as a document review."
+      ]
+    },
+    {
+      "h": "Refinery records from Whiting",
+      "p": [
+        "Refinery reports from the lakeshore follow the familiar pattern of API 510 for vessels, API 570 for piping and API 653 for tanks, with the damage mechanisms of API RP 571 deciding which technique each examination needed. What sets a refinery of Whiting's size apart is volume. A single turnaround can generate reports from several NDT contractors, a tube inspection specialist, a tank contractor and the repair contractor's own examiners, all due before the unit restarts.",
+        "An independent review imposes one set of checks across all of them. It confirms that each worklist item has a report and that each report covers the scope called for; that procedure revisions, personnel certifications and instrument calibrations were valid on the dates of work; that the acceptance criteria quoted are from the right code edition and table; and that every recorded indication carries a disposition. For corrosion monitoring data, it checks whether the readings can be trended against earlier surveys, because a rate calculated from incomparable readings is worse than no rate at all.",
+        "Where cracking rather than thinning is the threat, the review turns on technique adequacy. A spot thickness reading cannot find stress corrosion cracking at a weld toe, and a manual ultrasonic scan with poor coverage cannot rule out cracking in a heavy-wall vessel. When a report uses a technique that could not have detected the damage the equipment is exposed to, the opinion says so plainly. Calculating remaining life or fitness-for-service from the data stays with the owner's engineer."
+      ]
+    },
+    {
+      "h": "Steel mill structures and equipment",
+      "p": [
+        "A working steel mill is hard on its structures. Crane runway girders carry heavy, repeated wheel loads, mill buildings support moving equipment, and furnace, caster and rolling mill structures see heat, vibration and impact. Inspection of those structures is usually magnetic particle and visual examination of welds, ultrasonic examination of complete joint penetration welds and repairs, and thickness surveys on members exposed to corrosion, mostly against AWS D1.1 and the owner's maintenance specifications.",
+        "The reports that come out of mill inspections often have the same weaknesses. Surface preparation and lighting are not recorded, so nobody can tell whether a magnetic particle examination was capable of showing a fine fatigue crack. Weld toes, where fatigue cracks start, are not distinguished from the weld face. Crack indications are noted without length, location or orientation, which makes it impossible to compare one inspection with the next. Repairs are recorded as complete without the re-examination that should have followed grinding or welding.",
+        "Large capital projects such as a blast furnace reline or a mill upgrade add a different stream of paper: shop fabrication records, erection weld reports and vendor data books for new equipment. The review checks those against the project specification and the welding and inspection codes it invokes, with particular attention to examinations after repair and to traceability from drawing to weld."
+      ]
+    },
+    {
+      "h": "Fabrication shops serving the region",
+      "p": [
+        "Structural fabricators and pressure equipment shops across northwest Indiana supply the refinery, the mills, bridge projects and plants further afield. Their output reaches the buyer as a vendor data book or a set of weld inspection reports, and acceptance of that package is often tied to final payment.",
+        "We review fabrication records for buyers who want to accept them with confidence and for fabricators whose reports have been rejected. For structural work that usually means ultrasonic and magnetic particle reports against AWS D1.1, or D1.5 for bridge members. For pressure equipment it means ASME Section VIII construction records, with radiographs or ultrasonic examinations of butt welds and surface examinations of nozzles and attachments. Shops increasingly offer phased array in place of radiography, and when a fabricator does, the review checks the scan plan, the focal laws, the encoder calibration and the coverage demonstrated, not just the sentence in the report that says the weld was accepted."
+      ]
+    },
+    {
+      "h": "Boilers, pressure vessels and process safety under Indiana rules",
+      "p": [
+        "Indiana regulates boilers and pressure vessels through the Boilers and Pressure Vessels Section of the Department of Homeland Security, under the State Fire Marshal. A regulated boiler or vessel may not be operated until the Department issues an operating permit, which generally lasts a year. Each permit inspection must be carried out by an inspector licensed in Indiana, a licence that can rest on a current National Board commission, and the inspector assigns a state registration number at the first inspection.",
+        "Process safety management in Indiana is enforced by IOSHA, the state's OSHA-approved State Plan, rather than by federal OSHA. Its mechanical integrity requirements follow the federal standard at 29 CFR 1910.119, so refinery inspection and testing records are expected to follow the recognised and generally accepted good engineering practice the owner's programme names.",
+        "We do not hold either of those roles. The licensed inspector decides whether equipment can receive its operating permit, and IOSHA decides whether a programme complies. What the review offers each of them, and the owner, is an independent reading of the NDT underneath."
+      ]
+    },
+    {
+      "h": "Northwest Indiana records and where they usually fall short",
+      "p": [
+        "The seven checks apply to every report. This table shows how they play out on the records that reach us most often from the lakeshore."
+      ],
+      "table": {
+        "head": ["Record", "Rule or reader", "Where it usually falls short"],
+        "rows": [
+          ["Refinery piping CML survey", "API 570 and the owner's mechanical integrity programme under IOSHA", "Locations that cannot be matched with earlier surveys, so corrosion rates cannot be trusted"],
+          ["Vessel repair weld examination", "ASME construction code, the repair procedure and Indiana's licensed inspector", "Examination done before final heat treatment, or by a method other than the repair plan required"],
+          ["Crane runway girder MT and VT report", "AWS D1.1 and the mill's maintenance specification", "No record of surface preparation, lighting or which weld toes were examined"],
+          ["Fabricator UT or PAUT weld report", "AWS D1.1 or D1.5 and the purchase order", "Calibration block not identified, or coverage claimed without a scan plan to show it"],
+          ["Radiographs from a licensed contractor", "Acceptance standard in the code; licence evidence from the NRC or Indiana depending on date", "Image quality evidence missing, or licence references out of step with the date of work"],
+          ["Exchanger tube eddy current data", "The owner's tube inspection procedure", "Reference standards that do not match the tube material, or bundle coverage not stated"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data on the lakeshore",
+      "p": [
+        "Refinery and mill contractors in northwest Indiana now hand over most of their work as digital inspection data. Phased array and TOFD weld examinations arrive as encoded files, radiography increasingly as DR images, piping and vessel thickness data as corrosion maps or database exports, and exchanger tube data as eddy current files that need their own analysis software. The final report is produced in a digital reporting system, signed electronically and loaded into the owner's inspection or maintenance database.",
+        "A review of that material opens the native files and tests the chain from acquisition to report. Does each file match the weld, tube or location the report names? Were gates, gain or image processing changed after acquisition, and if so, is the change recorded and allowed by the procedure? Do the calibration files carry the serial number of the instrument listed? Were the electronic signatures applied by people the contractor's written practice authorises, on the dates claimed? When digital reporting templates carry text forward from earlier jobs, the review checks that each field describes the work actually done. These questions matter more as owners lean on digital records to set intervals and plan repairs without re-reading the raw data themselves."
+      ]
+    },
+    {
+      "h": "Remote review for Whiting, Gary and the rest of Lake County",
+      "p": [
+        "Atlantis maintains no staff, rooms or equipment in Whiting, Gary or elsewhere in Indiana. The company operates from Houston and Hyderabad, and every review for this region is done remotely, using only the reports, images and raw data that clients send by secure transfer.",
+        "Send the report or a sample of the package, with the procedure, the governing code and what the review needs to support. Within one business day we reply with the scope we propose and a quote. Each report then goes through seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+        "Records in ultrasonic, radiographic, magnetic particle, penetrant and visual testing are reviewed under the direction of an ASNT NDT Level III certified in all five of those methods. Eddy current and other methods are outside that certification; for them the proposal names a reviewer with the certification the contract requires. The team behind the reviews comes from nuclear, maritime, oil and gas and petrochemical work.",
+        "The opinion gives every report one of three verdicts: sound, when the record supports its conclusions; deficient in documentation only, when gaps in the paperwork can be closed without new examination; or deficient in disposition, when the evidence cannot support the accept or reject decision and the component needs engineering attention."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you review turnaround reports from the Whiting refinery's contractors?",
+      "a": "We review refinery reports of that kind for owners, contractors and advisers, against API 510, 570 and 653, the damage mechanisms in API RP 571 and the owner's procedures, either during the outage or as a close-out review."
+    },
+    {
+      "q": "Can you review crane runway and mill building inspection reports?",
+      "a": "Yes. The review checks magnetic particle, visual and ultrasonic reports against AWS D1.1 and the mill's specification, with attention to surface preparation, weld toe coverage, indication sizing and re-examination after repair."
+    },
+    {
+      "q": "How does Indiana becoming an Agreement State affect our radiography records?",
+      "a": "Records made before 30 September 2026 should trace to NRC licensing and later ones to the state's program. The review checks the licence evidence that applies to each date of work."
+    },
+    {
+      "q": "Can you take radiographs at a northwest Indiana plant?",
+      "a": "No. Radiography in the United States needs a radioactive materials licence, and it is not work Atlantis does. We review the images your licensed contractor produces."
+    },
+    {
+      "q": "Can you sign off a boiler or vessel for its Indiana operating permit?",
+      "a": "No. That decision belongs to the Indiana-licensed inspector. We review the NDT records the inspector, the owner or the repair organisation relies on."
+    },
+    {
+      "q": "Our fabrication shop's PAUT report was rejected. Can you help?",
+      "a": "Yes. We open the encoded data and check the scan plan, focal laws, calibration and coverage against the code and purchase order, then tell you in writing whether the rejection holds and what would resolve it."
+    },
+    {
+      "q": "Who reviews eddy current tube data from the refinery?",
+      "a": "Tube data goes to a reviewer, named in the proposal, who holds the eddy current certification set out in your contract. Eddy current is not among the five methods our Level III holds certification in."
+    },
+    {
+      "q": "Does anyone need to come to Gary or Whiting?",
+      "a": "No. The review runs remotely from the files you send. If something the review needs is missing, the opinion says what and why."
+    }
+  ],
+  "related": [
+    ["/inspection-services-indiana", "Inspection services in Indiana"],
+    ["/ndt-training-indiana", "NDT training in Indiana"],
+    ["/consulting/ndt-consulting-gary", "NDT consulting in Gary"],
+    ["/ultrasonic-testing-gary", "Ultrasonic testing in Gary"]
+  ],
+  "sources": [
+    "https://bp.com/en_us/united-states/home/where-we-operate/indiana/whiting-refinery.html",
+    "https://www.in.gov/idem/cleanwater/lake-michigan-sites-of-interest/bp-products-north-america-whiting-refinery",
+    "https://www.semafor.com/article/06/18/2025/nippon-steel-closes-14-billion-takeover-of-us-steel",
+    "https://www.ussteel.com/prereleases/-/blogs/u-s-steel-makes-strategic-progress-on-indiana-projects-backed-by-nippon-steel-partnership",
+    "https://d1io3yog0oux5.cloudfront.net/_09d8603a4b1aa90009619b6296fdf1dc/clevelandcliffs/db/1188/10379/file/CC_FactSheet_BurnsHarbor_062026.pdf",
+    "https://clevelandcliffs.com/operations/steelmaking/indiana-harbor",
+    "https://www.nrc.gov/about-nrc/news-releases/2026/indiana-becomes-41st-state-assume-oversight-radioactive-materials",
+    "https://secure.in.gov/dhs/fire-and-building-safety/boilers-and-pressure-vessels",
+    "https://www.osha.gov/stateplans/in",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  ]
+}

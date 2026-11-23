@@ -1,0 +1,216 @@
+{
+ "title": "TOFD Data Review | Independent Check of Encoded Weld Scans",
+ "description": "Independent review of TOFD weld data: probe centre spacing, beam intersection, lateral wave and back-wall, dead zones, encoder records and height sizing.",
+ "h1": "Time-of-flight diffraction data review: what the encoded file says about the weld",
+ "eyebrow": "Method review: TOFD",
+ "intro": "Time-of-flight diffraction is valued for through-wall height sizing, and it is always encoded, so every scan leaves a raw file a second reader can reopen. That makes TOFD one of the most reviewable NDT methods, provided the file, the set-up and the coverage plan reach the reviewer. We review TOFD data independently: probe spacing and beam intersection, the lateral wave and back-wall that prove the set-up worked, the dead zones and what covered them, the encoder record, and the height measurements that drive acceptance. The review is carried out remotely, and you receive a written opinion tied to the procedure and the code.",
+ "highlights": [
+  {
+   "h": "Set-up proved by the data",
+   "p": "A continuous lateral wave and back-wall echo across the scan show that coupling and timing held. We look for every gap in them and check what the report said about it."
+  },
+  {
+   "h": "Blind zones accounted for",
+   "p": "TOFD cannot see close to the scanning surface or, for off-axis flaws, near the back wall. We check that the procedure named a complementary technique and that its data actually cover those zones."
+  },
+  {
+   "h": "Heights measured, not estimated",
+   "p": "Through-wall height comes from tip signal arrival times, the probe spacing and the material velocity. We reopen the file and repeat the measurements on the indications that decided acceptance."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Why a TOFD review begins with the raw file",
+   "p": [
+    "A TOFD scan is recorded as a grey-scale image built from thousands of A-scans laid side by side along the weld. The image that appears in a report is a picture of that file at one set of display settings, with cursors placed by the analyst. It shows the analyst's conclusion. The raw file shows the evidence: every A-scan, the gain and time window at acquisition, the encoder positions and the set-up parameters stored with it.",
+    "We therefore ask for the original data files and the set-up or configuration files that went with them, not exported images. With those we can confirm the probe spacing, check the lateral wave and back-wall along the full length of the scan, repeat the height and length measurements, and look for indications that were never reported. Without them, the review covers procedure, personnel, calibration and paperwork, and the opinion says the data could not be checked.",
+    "Phased array data, often collected on the same weld in the same pass, is covered in our separate PAUT data review guide. This page concentrates on what is particular to TOFD."
+   ]
+  },
+  {
+   "h": "The documents behind a TOFD examination",
+   "p": [
+    "Several documents govern a TOFD examination, and a report should name each one it relied on. We read them in the order they apply: the procedure and the method standard first, then any performance demonstration, then the acceptance criteria from the construction code or the acceptance standard the contract names."
+   ],
+   "table": {
+    "head": [
+     "Document",
+     "Its role",
+     "What we look for"
+    ],
+    "rows": [
+     [
+      "ASME Section V, Article 4 with its TOFD appendix",
+      "Requirements for TOFD examination of welds where the ASME codes apply",
+      "Procedure prepared under that appendix, in the edition called up by the construction code, with essential variables fixed"
+     ],
+     [
+      "ASTM E2373",
+      "Practice establishing the requirements for developing TOFD examination procedures, covering detection and sizing",
+      "Where the contract invokes it, whether the procedure addresses its requirements rather than citing it in passing"
+     ],
+     [
+      "ISO 10863",
+      "TOFD testing of welds on many international contracts, including testing levels, scan increment, time window, time-to-depth conversion, reference blocks and reporting",
+      "The testing level specified, and whether the record shows each of those settings"
+     ],
+     [
+      "ISO 15626",
+      "Acceptance levels for TOFD indications, used with ISO 10863",
+      "That the acceptance level the contract names was applied, not a level chosen afterwards"
+     ],
+     [
+      "Construction or in-service code",
+      "ASME Section VIII, Section I, B31.3 or the governing code supplies acceptance and extent of examination",
+      "Correct flaw-size tables for thickness and location, and the extent of welds covered"
+     ],
+     [
+      "Procedure demonstration records",
+      "Proof that the technique detects and sizes the reference reflectors the procedure requires",
+      "Demonstration block, results and whether the production set-up matched the demonstrated one"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Probe centre spacing, beam angles and where the beams intersect",
+   "p": [
+    "In TOFD the transmitter and receiver face each other across the weld at a fixed probe centre spacing. That spacing, together with the beam angle, sets the depth at which the two beams cross, and sensitivity is greatest around that depth. For a single set-up on moderate thickness, the intersection is often placed at about two-thirds of the wall. Thick sections are divided into depth zones, each with its own spacing, angle and frequency, and the zones must overlap.",
+    "On review we read the probe spacing, angles, frequencies and element sizes from the set-up file and the technique sheet, and check them against the procedure and the thickness. We then check the beam coverage: does each zone's beam spread actually cover its depth band, and do adjacent zones overlap rather than leave a gap? A thick weld scanned with one probe pair set for the mid-wall can produce a clean-looking image while a band near the root sits outside useful sensitivity.",
+    "The spacing used in the time-to-depth conversion must match the spacing used on the weld. A mismatch between the value typed into the software and the actual probe position, which happens when a scanner is reset or probes are changed during a shift, shifts every depth and height measurement. The lateral wave and back-wall arrival times give us an independent check on the spacing actually used."
+   ]
+  },
+  {
+   "h": "Lateral wave, back-wall and the signals that prove the set-up",
+   "p": [
+    "Two signals frame every TOFD image: the lateral wave, travelling just below the scanning surface between the probes, and the back-wall echo from the far surface. Their presence along the whole scan shows that the probes stayed coupled and the timing held. A break in the lateral wave can mean lost coupling or a surface-breaking flaw; a loss of the back-wall can mean a coupling problem, a geometry change or a flaw reaching the far surface. Either way, the report should say which.",
+    "The time window should start before the lateral wave and extend beyond the back-wall, so that late signals such as mode-converted echoes are recorded. Gain should be set as the procedure requires, for example from the lateral wave amplitude, the grain noise level or reflectors in a reference block. We check those settings in the file and compare the noise level along the scan with the level at calibration.",
+    "We also look at signal phase. Diffraction from the upper and lower tips of a planar flaw arrives with opposite phase, which is how an analyst recognises a pair of tip signals and measures between them. Where the data were recorded unrectified, as TOFD procedures require, we confirm that the reported tips show that relationship."
+   ]
+  },
+  {
+   "h": "Dead zones near the scanning surface and the back wall",
+   "p": [
+    "TOFD has two blind regions. Near the scanning surface, signals from shallow flaws are hidden within the lateral wave, so a dead zone extends some distance into the material, its depth depending on frequency, pulse length and probe spacing. Near the back wall, flaws away from the centreline between the probes can be masked by the back-wall echo. Every competent TOFD procedure says how these zones are covered.",
+    "The usual answers are a complementary pulse-echo or phased array examination aimed at the surface regions, additional TOFD scans offset from the weld centreline, or a different probe arrangement for the near-surface band. Our review checks that the procedure named a method, that the complementary data exist for the same welds, that their coverage actually reaches the dead-zone depths stated, and that indications found by the complementary scans were evaluated against the same acceptance criteria.",
+    "A TOFD-only report on a thin-wall weld, with no complementary data and no statement of the dead zone, is one of the most common gaps in TOFD reporting. It does not mean the weld is defective. It means the report cannot show that a near-surface flaw was looked for."
+   ]
+  },
+  {
+   "h": "Encoder data and scan coverage",
+   "p": [
+    "Because TOFD is encoded, position along the weld is part of the data. The encoder must be calibrated, the scan increment must be fine enough to resolve the smallest flaw of interest, and the scanning speed must stay within what the acquisition rate can record. When a scanner moves too fast, lines of data are dropped, and the image shows blank or repeated columns that the software may smooth over.",
+    "We check the encoder calibration record, the scan increment against the procedure, and the data for missing lines. We then reconcile coverage: scan start and end positions against the weld datum, overlap between consecutive scans on circumferential welds, offsets from the weld centreline, and any parallel or transverse scans the procedure required. The sum of the scan lengths should cover the weld length the report claims, with overlaps at each joint between scans."
+   ],
+   "list": [
+    "Encoder calibration verified before the scans, and checked again if the scanner was dismantled",
+    "Scan increment no coarser than the procedure allows",
+    "No dropped data lines in the reported scans, or a record of rescans where lines were lost",
+    "Each scan tied to a weld identity and a datum point, with start and end positions recorded",
+    "Overlaps between scans on circumferential welds, and full length covered",
+    "Offset or transverse scans present where the procedure called for them"
+   ]
+  },
+  {
+   "h": "Height and length sizing, and the limits of each",
+   "p": [
+    "TOFD's strength is through-wall height. The depths of the upper and lower tips are calculated from their arrival times, the probe spacing and the material velocity, and the height is the difference. That calculation assumes the flaw lies midway between the probes. A flaw displaced towards one probe produces a depth error, which is small for height but can matter for ligament and position, so procedures often call for an offset scan or a complementary technique to locate it.",
+    "Length is less precise. Beam spread makes a flaw appear longer than it is unless the analyst uses the fitting arcs or cursors the software provides, and the procedure should say which method applies. Surface-breaking flaws present their own pattern: an interrupted lateral wave or back-wall rather than a pair of tip signals. We repeat the measurements on every indication that decided acceptance, check the velocity used, and compare our values with the report's.",
+    "Acceptance under the construction codes for TOFD-based examinations is generally expressed as allowable flaw dimensions for a given thickness and location. A height measured correctly but compared with the wrong table, or a surface-breaking flaw judged as if it were embedded, produces the wrong decision from sound data. That is a disposition finding, and the opinion explains it in those terms."
+   ]
+  },
+  {
+   "h": "TOFD as part of UT in place of radiography: context for the review",
+   "p": [
+    "Many TOFD examinations exist because a construction code allowed ultrasonic examination in place of radiography. Section VIII Division 1 provides for this through UW-51(a)(4), which refers to the rules of Division 2, and Section I work has used Code Case 2235 and related routes. These routes rely on mechanically guided, computer-based data acquisition with TOFD, phased array or both, and on fracture-mechanics-based acceptance criteria, with conditions that change between editions.",
+    "Our review checks that the report names the route it relied on, that the route was available in the edition that governed the equipment, and that its conditions were met: recorded data, demonstrated procedure, qualified personnel and the right acceptance criteria. Whether the substitution was accepted for a particular vessel is a matter for the code's own acceptance process; that decision stays with the manufacturer and the inspector of record for the equipment."
+   ]
+  },
+  {
+   "h": "Digital records for TOFD: files, versions and the reporting chain",
+   "p": [
+    "A TOFD data set is fully digital, and that is both its strength and its exposure. Data files in vendor formats, set-up files, analysis files holding cursor positions, and exported images can drift apart: a re-analysed file saved over the original, a set-up file from a different weld, an image in the report that no longer matches the analysis. We check file names against weld identities, compare acquisition and analysis dates, and confirm that the original acquisition file was kept unaltered.",
+    "Where results flow into a digital reporting platform, we also check that the indication table and images in the issued report match the analysis files, that the analyst's and approver's electronic signatures are recorded, and that later revisions are visible. Archiving matters for the long term: the raw files and a means of opening them must survive as long as the record may be needed."
+   ]
+  },
+  {
+   "h": "Where TOFD reports fall short, and who reviews them",
+   "p": [
+    "The findings below recur across TOFD reports from fabrication shops, pipelines and in-service work. Most can be seen only in the raw data, which is why we ask for it."
+   ],
+   "list": [
+    "No statement of the near-surface dead zone and no complementary data covering it",
+    "Single-zone set-up on a section thick enough to need two or more zones, or zones that do not overlap",
+    "Probe centre spacing in the software differing from the spacing actually used",
+    "Gaps in the lateral wave or back-wall attributed to nothing, neither coupling nor flaw",
+    "Dropped data lines from fast scanning, with no rescan",
+    "Heights measured correctly but compared with the wrong acceptance table or flaw category",
+    "Report images with no matching original acquisition file in the data set"
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What files do you need for a TOFD data review?",
+   "a": "The original acquisition files, the set-up or configuration files, any analysis files, the procedure and demonstration records, encoder and calibration records, personnel certificates, weld maps and the issued report. Complementary pulse-echo or phased array data for the same welds should come too."
+  },
+  {
+   "q": "Can you find indications that were not reported?",
+   "a": "Yes, if the raw files are supplied. We review the full length of each scan, not only the reported indications, and any signal that should have been evaluated is listed in the opinion with its position and the reason it matters."
+  },
+  {
+   "q": "Why does a TOFD report need a complementary technique?",
+   "a": "TOFD cannot reliably detect flaws in a band just below the scanning surface, and can miss off-axis flaws near the back wall. The procedure should say how those zones were covered, usually with pulse-echo or phased array scans, and the data for that coverage should exist."
+  },
+  {
+   "q": "Is TOFD height sizing accurate enough to rely on?",
+   "a": "TOFD is among the better ultrasonic techniques for through-wall height when the set-up is correct and the flaw is near the centreline between the probes. Length sizing and position are less precise. The review checks the measurements and states where the uncertainty affects the accept or reject call."
+  },
+  {
+   "q": "Who leads a TOFD review?",
+   "a": "An ASNT NDT Level III certified in ultrasonic testing, and also in RT, MT, PT and VT, leads the ultrasonic side of every review, with support from colleagues whose careers span the nuclear, maritime, oil and gas and petrochemical sectors."
+  },
+  {
+   "q": "Do you confirm that UT in lieu of RT was allowed?",
+   "a": "We check that the report names a route the governing code edition provided and that the route's conditions appear to have been met in the record. Acceptance of the examination for the equipment remains with the manufacturer and the inspector of record."
+  },
+  {
+   "q": "Can the review be done without a site visit?",
+   "a": "Yes. TOFD data is fully digital, so the files and documents are shared through a secure transfer and the review is done remotely, for welds on projects in either the United States or the Middle East."
+  },
+  {
+   "q": "What if the original files were overwritten during re-analysis?",
+   "a": "The opinion records that the acquisition data could not be confirmed as original. We still review what exists, but a re-analysed file without the original is weaker evidence, and in a dispute that weakness will be raised."
+  }
+ ],
+ "related": [
+  [
+   "/report-validation/phased-array-data-review-paut",
+   "PAUT data review"
+  ],
+  [
+   "/tofd-testing",
+   "TOFD testing"
+  ],
+  [
+   "/standards/asme-section-v-article-4",
+   "ASME Section V Article 4 explained"
+  ],
+  [
+   "/report-validation/pipeline-girth-weld-report-review",
+   "Pipeline girth weld report review"
+  ],
+  [
+   "/report-validation/third-party-review-vs-re-inspection",
+   "Document review or re-inspection?"
+  ]
+ ],
+ "sources": [
+  "https://standards.globalspec.com/std/13947053/astm-e2373-e2373m-19",
+  "https://webstore.ansi.org/standards/astm/astme2373e2373m192024",
+  "https://www.iso.org/standard/75443.html",
+  "https://webstore.ansi.org/preview-pages/ISO/preview_ISO+10863-2020.pdf",
+  "https://www.iso.org/standard/72746.html",
+  "https://news.thomasnet.com/companystory/ultrasonic-examination-in-lieu-of-radiographic-examination-for-asme-sections-i-and-viii-division-1-and-2-40004582"
+ ]
+}

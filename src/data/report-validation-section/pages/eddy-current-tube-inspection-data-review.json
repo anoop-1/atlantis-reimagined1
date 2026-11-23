@@ -1,0 +1,205 @@
+{
+ "title": "Eddy Current Tube Inspection Data Review | ECT, RFT, NFT, MFL",
+ "description": "Independent review of heat exchanger tube eddy current data: calibration standards, channel setup, analysis guidelines, sizing curves, tube maps and raw files.",
+ "h1": "Heat exchanger tube eddy current data review, from the calibration standard to the tube sheet map",
+ "eyebrow": "Method review: eddy current tube inspection",
+ "intro": "A tube inspection report usually ends with a tube sheet map and a plugging list, and those two pages drive decisions worth an outage. Behind them sit thousands of individual tube files, a calibration standard that may or may not match the tubes, a channel setup, an analysis guideline and a set of sizing curves. We review that digital inspection data independently: we reopen the raw files, check the calibration and setup against the procedure, re-analyse a sample of tubes, and tell you in writing whether the map and the list can be relied on. Reviews are carried out remotely on the data you send.",
+ "highlights": [
+  {
+   "h": "The right technique for the tube",
+   "p": "Bobbin eddy current, remote field, near field, magnetic flux leakage and IRIS each suit particular tube materials and damage. We check that the technique used could detect and size the damage the bundle is prone to."
+  },
+  {
+   "h": "Calibration that represents the tube",
+   "p": "Every depth call rests on a reference standard of matching material, diameter and wall. We check the standard's identity and dimensions, and how often the system was checked against it during acquisition."
+  },
+  {
+   "h": "Reopened data, not just the map",
+   "p": "We open the raw tube files in analysis software, confirm the channel setup and mixes, re-analyse a sample of tubes including those near the plugging limit, and compare our calls with the report's."
+  }
+ ],
+ "sections": [
+  {
+   "h": "What arrives for a tube inspection data review",
+   "p": [
+    "Tube inspection produces more data than almost any other NDT job. A single bundle can mean thousands of tube files, each holding several frequencies and channels along the full tube length, plus calibration files recorded at intervals through the shift. The final report compresses all of that into a tube sheet map, a table of indications and a list of tubes recommended for plugging or sleeving. Owners rarely see anything in between.",
+    "For a review we ask for the whole chain: the raw data files in the vendor's format, the calibration files, the procedure and technique sheet, the analysis guideline the analysts worked to, the sizing curves, the tube list showing which tubes were planned and which were tested, the bundle drawing, and the personnel records for the acquisition technicians and the analysts. Without the raw files the review is limited to the paperwork, and the opinion says so.",
+    "The reason for the review shapes where the effort goes. An owner deciding whether to retube a condenser wants confidence in the wall loss distribution. A contractor whose plugging list has been challenged wants to know whether the calls near the limit hold up. A buyer of a used exchanger wants to know what the last inspection actually covered."
+   ]
+  },
+  {
+   "h": "Matching the technique to the tube material and the damage",
+   "p": [
+    "The first technical check is whether the technique suited the tubes. A technique applied outside its range can produce a tidy report that says very little. The table summarises how we read each technique on review."
+   ],
+   "table": {
+    "head": [
+     "Technique",
+     "Typical tubes",
+     "What it does well",
+     "What we check on review"
+    ],
+    "rows": [
+     [
+      "Bobbin eddy current (ECT)",
+      "Nonferromagnetic tubes such as copper alloys, austenitic stainless steel and titanium",
+      "Detects and sizes wall loss, pitting and many cracks by phase and amplitude",
+      "Frequencies and mixes, the calibration standard, sizing curves, and whether tube sheet and support regions were analysed with care"
+     ],
+     [
+      "Remote field testing (RFT)",
+      "Ferromagnetic tubes such as carbon steel; ASTM E2096 is written for a defined range of diameters and wall thicknesses",
+      "Wall loss detection with roughly equal sensitivity to inner and outer surface flaws",
+      "Whether the tubes fall inside the practice's scope, how the nominal reference was chosen, and how small isolated pits were handled"
+     ],
+     [
+      "Near field testing (NFT)",
+      "Ferromagnetic tubes, notably finned carbon steel air-cooler tubes",
+      "Inner-surface damage such as erosion and pitting near the bore",
+      "That the report does not claim outer-surface wall loss the technique cannot see"
+     ],
+     [
+      "Magnetic flux leakage (MFL)",
+      "Ferromagnetic tubes",
+      "Abrupt wall changes such as pits and circumferential grooves",
+      "That depth calls on gradual, general wall loss are presented with suitable caution"
+     ],
+     [
+      "IRIS (ultrasonic)",
+      "Ferrous and nonferrous tubes that can be cleaned and flooded",
+      "Wall thickness around the circumference, often used to prove up electromagnetic calls",
+      "Cleaning, water coupling, rotation speed and the sample of tubes chosen for verification"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Standards and documents that govern the call",
+   "p": [
+    "ASME Section V Article 8 sets the eddy current requirements referenced by the ASME codes, including examination of tubular products. ASTM E690 covers in situ eddy current examination of nonmagnetic heat exchanger tubes with an internal probe; it warns that results may not be valid at the tube sheet boundaries, where end effects are hard to separate from nearby discontinuities, and it treats an unexplained indication above the reject level as unacceptable until shown to be nonrelevant. ASTM E2096 covers remote field examination of installed ferromagnetic tubing within a defined range of tube diameters and wall thicknesses. None of these documents sets plugging criteria. Those come from the owner, the equipment specification or the owner's engineering standards.",
+    "That division matters on review. A report can follow the practice faithfully and still apply a plugging threshold nobody authorised, or apply the owner's threshold to depths measured with a curve that was never valid for that tube. We read the procedure, the practice it cites, the analysis guideline and the owner's criteria together, and record which document each decision in the report actually rests on."
+   ]
+  },
+  {
+   "h": "Calibration standards that represent the tube",
+   "p": [
+    "An eddy current depth call is a comparison with a reference standard. The standard is a length of tube carrying artificial discontinuities, typically a through-wall hole, flat-bottom holes of known depth and circumferential grooves, as the procedure specifies. For the comparison to mean anything, the standard must be made from the same material specification as the tubes, with the same outside diameter and wall thickness, and its machined features must be measured and certified.",
+    "Small mismatches have large effects. Admiralty brass and copper-nickel tubes respond differently at the same frequency. A standard whose wall differs from the tubes shifts the relationship between phase angle and depth, so every depth read from the curve carries a bias in one direction. A standard whose certificate cannot be found, or whose identification does not match the one in the calibration files, turns every depth in the report into an unsupported number.",
+    "We also check how the calibration was maintained during acquisition. The procedure normally requires calibration runs at the start and end of each data set and at intervals between, and after any change of probe, cable or instrument. If a later calibration shows the system had drifted, the tubes acquired since the last good calibration should have been re-examined or re-analysed. The calibration files tell us whether that happened."
+   ],
+   "list": [
+    "Standard material, diameter and wall match the tube specification on the bundle drawing",
+    "Certificate for the standard with measured dimensions of each artificial discontinuity",
+    "Standard identification recorded in every calibration file used for analysis",
+    "Calibration runs at the intervals the procedure sets, with no unexplained gaps",
+    "Tubes re-examined or re-analysed after any calibration that showed drift beyond the procedure's limit"
+   ]
+  },
+  {
+   "h": "Channel setup, frequencies and mixes",
+   "p": [
+    "Bobbin data is usually recorded at several frequencies, each in differential and absolute modes. Differential channels respond best to small, abrupt changes such as pits and cracks; absolute channels show gradual wall loss and long, uniform thinning. Mix channels combine frequencies to suppress the signal from support plates or tube sheets so that damage beneath them can be seen. The choice of frequencies depends on the tube wall and conductivity, and the procedure or technique sheet should record how they were chosen.",
+    "On review we open the setup in the data and compare it with the technique sheet: frequencies, phase rotation conventions, span settings, mix construction and the probe used. A probe with a poor fill factor for the tube bore reduces sensitivity, and a pull speed too fast for the digitising rate leaves too few samples along the tube to resolve a small pit. Both show up in the data even when the report is silent about them.",
+    "For remote field, near field and MFL the details differ, but the principle is the same. The settings that controlled sensitivity are in the files, and they either match what the procedure required or they do not. Where they do not, the opinion explains what kind of damage could have been missed as a result."
+   ]
+  },
+  {
+   "h": "Analysis guidelines, analysts and re-analysis of a sample",
+   "p": [
+    "A tube inspection is only as consistent as its analysis guideline. That document should tell the analysts which channels to review, how to measure each type of signal, which reporting thresholds apply, which codes to use for each indication and how to treat signals at supports, tube sheets and bends. Some programmes, notably in nuclear steam generators, also use two independent analysts and a resolution step for disagreements. A balance-of-plant exchanger job may have one analyst and a short guideline. Either can be adequate if it is written down and followed.",
+    "We re-analyse a sample of tubes from the raw data. The sample is weighted towards the tubes that matter most: those reported close to the plugging limit, those reported clean in areas where neighbours show damage, tubes with restrictions or incomplete data, and a random set across the bundle. Our calls are compared with the report's. Systematic differences, such as consistently shallower depths in one row or support region, point to a setup or guideline problem rather than individual misreads."
+   ]
+  },
+  {
+   "h": "Phase and amplitude sizing curves",
+   "p": [
+    "Depth on a bobbin differential channel is normally estimated from phase angle, using a curve built from the flat-bottom holes in the calibration standard. Amplitude curves are used for some damage types, such as wear at support plates, and remote field relies on phase and amplitude relative to a nominal reference. Every curve has a range of validity set by the reference features it was built from.",
+    "Common problems on review are curves built on a standard that does not match the tubes, curves extrapolated beyond the deepest or shallowest calibration feature, a phase curve applied to signals whose shape shows they are not volumetric, and depth reported for damage too small in volume for the coil to size reliably. We check which curve was applied to each reported indication near the limit and whether the signal was of a type that curve can size.",
+    "Sizing uncertainty is not a defect in the report as long as it is acknowledged. A report that presents an estimated depth as if it were a measured wall thickness, with no statement of the technique's limits, leaves the owner to make plugging decisions with more confidence than the data deserves. The opinion says where that is the case."
+   ]
+  },
+  {
+   "h": "Tube sheet maps, tube lists and the plugging decision",
+   "p": [
+    "The tube sheet map is the most used page of the report and one of the easiest to get wrong. Row and column numbering conventions differ between manufacturers, inlet and outlet faces are mirror images, and a map drawn from the wrong face places every indication in the wrong tube. We check the map's orientation against the bundle drawing and against landmarks in the data, such as previously plugged tubes and stay rods.",
+    "We then reconcile the tube list: tubes planned, tubes tested full length, tubes tested only partly because of restrictions or obstructions, tubes not tested, and tubes already plugged. A report stating that a percentage of the bundle was examined should be backed by that reconciliation, and partly tested tubes should be identified as such on the map. Tubes that could not be tested are a finding in their own right, because nothing can be said about them.",
+    "Plugging, sleeving and retubing decisions, and any remaining-life or fitness-for-service assessment, remain the responsibility of the owner's engineer. Our opinion tells that engineer which indications are reliably detected and sized, which are uncertain, and which tubes the data says nothing about."
+   ]
+  },
+  {
+   "h": "Raw data, digital reporting and data lineage",
+   "p": [
+    "Eddy current data is digital from the moment it is acquired, which makes it well suited to independent review. The files hold every frequency and channel along every tube, and a reviewer with suitable software can see exactly what the analyst saw. That only works if the data set is complete and its lineage is clear. We check that the file count matches the tube list, that file names map to row and column positions unambiguously, that each data file is linked to the calibration group that applies to it, and that time stamps run in a sensible order.",
+    "Many contractors now issue tube inspection results through a digital reporting system that builds the map and indication tables directly from the analysis database. That reduces transcription errors but introduces others: a mapping table entered wrongly at set-up, or indication codes that changed meaning between outages. We compare the exported tables with the analysis files, check electronic sign-off by the analyst and the reviewer, and record any revision that changed a call after the report was first issued."
+   ]
+  },
+  {
+   "h": "Who reviews the eddy current data, and nuclear work",
+   "p": [
+    "Our in-house ASNT NDT Level III certification covers UT, RT, MT, PT and VT, not eddy current. For tube inspection data, we put forward in the proposal a named reviewer whose eddy current qualification meets what your contract specifies, whether that is an ASNT certification at a stated level or a qualified data analyst standard set by your own programme. The wider team includes members whose backgrounds are in nuclear, maritime, oil and gas and petrochemical work, which helps when the question is how a damage mechanism shows up in a particular service.",
+    "Nuclear steam generator data can be reviewed only as an independent technical opinion. Atlantis is not on any licensee's approved supplier list under 10 CFR 50 Appendix B or NQA-1, and our opinion does not replace the licensee's qualified analysis or its steam generator programme. It suits situations such as vendor oversight, an owner's second opinion or a dispute, and the licensee's quality assurance organisation decides how to use it."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can you review eddy current data if we only have the final report?",
+   "a": "We can review the procedure, calibration records, analysis guideline, personnel records and the report itself, and check the map and tube list for consistency. Without the raw files we cannot re-analyse tubes, and the opinion will state that limit clearly."
+  },
+  {
+   "q": "Do you hold Level III certification in eddy current testing?",
+   "a": "No. Our in-house ASNT Level III certification is in UT, RT, MT, PT and VT. For eddy current data, the proposal names a reviewer with the eddy current certification or analyst qualification your contract requires."
+  },
+  {
+   "q": "Which software do you need to open the tube data?",
+   "a": "That depends on the acquisition system. Most vendor formats need the vendor's analysis software or a reader licensed for it. We confirm at scoping whether the files can be opened as supplied, and the contractor can often provide a compatible export."
+  },
+  {
+   "q": "How many tubes do you re-analyse?",
+   "a": "The sample is agreed in the scope. It is weighted towards tubes reported near the plugging limit, tubes reported clean in damaged areas, incompletely tested tubes and a random spread across the bundle, so that both individual calls and systematic setup problems can be found."
+  },
+  {
+   "q": "Will the review tell us which tubes to plug?",
+   "a": "The review tells you which calls are reliable, which are uncertain and which tubes the data does not cover. Plugging and retubing decisions, and any remaining-life assessment, stay with your engineer, who can use the opinion to make them."
+  },
+  {
+   "q": "Can RFT be relied on for small isolated pits in carbon steel tubes?",
+   "a": "RFT is a wall loss technique with roughly equal sensitivity to inner and outer surface flaws, but small isolated pits are a known weakness. If the bundle's damage mechanism is pitting, we check whether a complementary technique such as IRIS was used on a sample to prove up the calls."
+  },
+  {
+   "q": "Do you review nuclear steam generator eddy current data?",
+   "a": "Only as an independent technical opinion, for example for vendor oversight, an owner's second opinion or a dispute. Atlantis is not an Appendix B or NQA-1 supplier to any licensee, and the licensee's QA organisation decides how the opinion is used."
+  },
+  {
+   "q": "Is the review done at our site?",
+   "a": "No. The data files, calibration records and documents are transferred securely and the review is carried out remotely, so it suits plants across the United States and the Middle East."
+  }
+ ],
+ "related": [
+  [
+   "/eddy-current-tube-inspection",
+   "Heat exchanger tube inspection: ECT, RFT and IRIS"
+  ],
+  [
+   "/standards/asme-section-v-article-8",
+   "ASME Section V Article 8 explained"
+  ],
+  [
+   "/glossary/internal-rotary-inspection-system-iris",
+   "IRIS (internal rotary inspection system)"
+  ],
+  [
+   "/eddy-current-testing",
+   "Eddy current testing"
+  ],
+  [
+   "/report-validation/ultrasonic-thickness-report-review",
+   "UT thickness report review"
+  ]
+ ],
+ "sources": [
+  "https://store.astm.org/e0690-25.html",
+  "https://store.astm.org/e2096_e2096m-22.html",
+  "https://www.law.cornell.edu/cfr/text/10/appendix-B_to_part_50"
+ ]
+}

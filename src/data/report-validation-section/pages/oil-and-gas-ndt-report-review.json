@@ -1,0 +1,144 @@
+{
+  "title": "Oil and Gas NDT Report Review | Upstream and Midstream Data",
+  "description": "Independent review of oil and gas NDT reports and digital inspection data from wellsites, gas plants, compressor stations and offshore topsides, done remotely.",
+  "h1": "Independent review of upstream and midstream NDT reports and field inspection data",
+  "eyebrow": "Industry review: oil and gas",
+  "intro": "Production facilities, gas plants and compressor stations generate a steady flow of inspection records, often from small crews working far from any engineering office and reporting through tablets and shared folders. When a separator's thickness survey, a skid's weld reports or a station's piping data has to carry a repair decision, a purchase or a regulator's question, an independent review tells you whether that record holds up. We read the report and its digital inspection data against the code, the operator's procedure and the rule that applies to the asset, and write down what the evidence supports and what it does not. The work is carried out remotely on the files you send.",
+  "highlights": [
+    { "h": "Asset by asset, not one checklist", "p": "A production separator, a gathering line and a station header answer to different rules. The review starts by fixing which code and regulation govern the asset, because the same thickness reading can be acceptable under one regime and incomplete under another." },
+    { "h": "Field data opened, not just summarised", "p": "Thickness logger files, corrosion map C-scans, digital radiography images and tablet entries are opened and compared with the summary sheet, so differences between what was measured and what was reported come to light." },
+    { "h": "A clear line on scope", "p": "We review inspection records. We do not run in-line tools, inspect tubulars or calculate remaining strength, and where a report needs that kind of work the opinion says who should do it." }
+  ],
+  "sections": [
+    {
+      "h": "Where upstream and midstream inspection reports come from",
+      "p": [
+        "Oil and gas reports from outside the refinery fence are written in very different settings. A crew on a wellpad gauges a separator shell between truck deliveries; a contractor scans a compressor station header during a planned outage; a fabricator ships a metering skid with a box of weld reports; an offshore team works through a topsides piping campaign while production continues. Each setting leaves its own kind of record, and each kind of record goes wrong in its own way.",
+        "The people who later depend on those records are rarely the people who commissioned them. An asset buyer reads ten years of thickness surveys it never specified. A midstream operator inherits a gathering system whose inspection files arrive in three formats. An engineer is asked to rerate a vessel on the strength of a survey done by a contractor who has since closed. Independent review gives each of them a reasoned view of how much weight the record can carry."
+      ],
+      "list": [
+        "Ultrasonic thickness surveys of separators, treaters, scrubbers, slug catchers and production piping",
+        "Corrosion mapping and C-scan data on vessel shells, bends and dead legs",
+        "Weld reports for fabricated skids, manifolds, launchers and receivers, with RT, DR, UT or PAUT results",
+        "Station piping and gathering line weld records, including digital radiography from licensed contractors",
+        "Magnetic particle, penetrant and visual reports on supports, nozzles and lifting points",
+        "Shell and floor surveys on production tank batteries",
+        "Hardness surveys on welds intended for sour service"
+      ]
+    },
+    {
+      "h": "Which rules decide what the report must show",
+      "p": [
+        "Before a single reading is checked, the reviewer pins down the governing documents. In upstream and midstream work that is less obvious than it sounds, because one operator can run equipment that falls under API inspection codes, PHMSA pipeline rules, OSHA process safety rules, offshore regulations or none of them. The table gives the usual starting points; the operator's own engineering standards sit on top of every row."
+      ],
+      "table": {
+        "head": ["Asset", "Documents that usually govern", "What the record has to carry"],
+        "rows": [
+          ["Onshore production vessels", "API 510, including its alternative rules for exploration and production vessels, plus the operator's inspection programme", "Thickness data tied to identified locations, the type of inspection performed and the basis for the next interval"],
+          ["Production and plant piping", "API 570 with the practices described in API RP 574, and the operator's circuit definitions", "Readings traceable to condition monitoring locations and circuits, with dates and instrument identification"],
+          ["Offshore topsides vessels in US federal waters", "30 CFR 250.851, which calls for repair, maintenance and inspection in accordance with API 510", "An inspection record a federal offshore inspector could follow to the vessel, the method and the result"],
+          ["Transmission compressor stations and regulated gathering", "49 CFR Part 192, including its welding and nondestructive testing requirements", "Weld test records by location, rejects and their disposition, and evidence that qualified people followed written procedures"],
+          ["Gas processing plants within process safety scope", "OSHA 29 CFR 1910.119 mechanical integrity, read together with the API codes", "Date, inspector's name, equipment identifier, description of the test and its results"],
+          ["Sour-service fabrication", "NACE MR0175 / ISO 15156 where the purchase specification invokes it", "Hardness results at the required positions, the test method and evidence the instrument was verified"]
+        ]
+      }
+    },
+    {
+      "h": "Production vessels and piping under API 510 and API 570",
+      "p": [
+        "API 510 allows pressure vessels in exploration and production service to be inspected under alternative rules set out in its own Section 9, which reflect the way E&P operators manage large fleets of similar vessels. A report written under those rules can legitimately look different from a refinery vessel report, and a reviewer expecting refinery-style documentation would raise findings that are not findings at all. So we settle early which part of the code the operator elected to use, and whether its programme documents say so.",
+        "Piping in production facilities is usually inspected to API 570, with API RP 574 describing practice for piping components. The review checks that thickness readings belong to defined condition monitoring locations, that each location was measured the same way on every survey, and that the corrosion rate the report quotes can be reproduced from the readings it lists. A rate calculated across a probe change, a change in surface preparation or a location that moved is a common source of false alarms and of false comfort alike.",
+        "In US federal offshore waters, the regulations require pressure and fired vessels on production facilities to be repaired, maintained and inspected in accordance with API 510. Topsides inspection reports therefore carry regulatory weight that some onshore lease reports do not, and the review reads them with that audience in mind. We describe offshore work in general terms here: the checks are the same from platform to platform, and the operator's own standards usually add requirements of their own."
+      ]
+    },
+    {
+      "h": "Compressor stations, gathering lines and gas plants",
+      "p": [
+        "Where a compressor station or regulated gathering line falls under 49 CFR Part 192, the welding and nondestructive testing rules there shape the record. Part 192 requires nondestructive testing to follow written procedures and to be carried out by people trained and qualified in those procedures and in the equipment used. It also requires the operator to keep, for the life of the pipeline, a record showing by milepost, engineering station or geographic feature how many girth welds were made, how many were tested, how many were rejected and how each reject was dispositioned. A station weld package that cannot be reconciled to that count is incomplete, however good its individual reports look.",
+        "PHMSA's gas gathering rule, published in November 2021, brought many onshore gathering lines that had sat outside federal safety requirements into a regulated category and created a reporting-only category for others. Inspection records on systems that changed category are a frequent source of confusion, because what was expected before the change is not what is expected after it. The review states which regime a record was produced under and which one it is now being read against.",
+        "Gas processing plants inside the scope of OSHA's process safety management standard must document each inspection and test on covered equipment with the date, the name of the person who performed it, the equipment's serial number or other identifier, a description of the test and its results. The standard does not apply to oil or gas well drilling or servicing operations, or to normally unoccupied remote facilities, so the opinion notes when a record was produced outside its scope and judges it against the operator's programme instead."
+      ]
+    },
+    {
+      "h": "Corrosion, sour service and the damage behind the readings",
+      "p": [
+        "Upstream damage is dominated by water: carbon dioxide corrosion in wet gas and produced fluids, hydrogen sulfide in sour wells, microbiologically influenced corrosion in water handling and dead legs, and erosion where sand and velocity combine. Each mechanism leaves its own pattern, and the inspection technique has to be capable of finding that pattern. Scattered spot readings on a vessel bottom that pits under sludge, for example, say very little about the pits lying between them.",
+        "The reviewer compares the technique in the report with the damage the operator expects. A survey that claims to bound pitting with one reading per location, a corrosion map whose scan resolution is coarser than the pits it was meant to find, or a dead leg left unexamined because it was hard to reach will each be called out, with a note on what further examination would close the gap.",
+        "Sour-service fabrication adds hardness records to the file. Where a purchase specification invokes NACE MR0175 / ISO 15156, weld and heat-affected zone hardness results become part of the acceptance record. We check that the survey positions, the test method and the instrument verification match what the specification asked for, and that the values in the report are the ones the instrument actually recorded."
+      ]
+    },
+    {
+      "h": "How field reports most often fail review",
+      "p": [
+        "The faults below come up again and again in upstream and midstream packages. Most are documentation problems that can be closed with records held somewhere in the contractor's files; a few go to the heart of whether an accept or reject decision can stand."
+      ],
+      "list": [
+        "Thickness readings recorded without a location reference precise enough to repeat, so no corrosion rate built on them can be trusted",
+        "Gauge and probe serial numbers missing, or a calibration block nobody can identify",
+        "Readings taken through coatings with no statement of how the coating thickness was excluded",
+        "Skid weld reports listing welds that do not appear on the fabrication drawings, or drawings showing welds that no report covers",
+        "Digital radiography images named in a way that cannot be matched to weld numbers",
+        "Technician certificates that lapsed before the inspection date, or a written practice that does not cover the technique used",
+        "Corrosion maps exported as pictures, with the raw scan data deleted when the job closed",
+        "Hardness surveys reported as a range, without the individual readings or their positions"
+      ]
+    },
+    {
+      "h": "Tablets, loggers and shared folders: the digital side of field inspection",
+      "p": [
+        "Much of the inspection data produced in the field never exists on paper. Thickness gauges store readings in memory, corrosion mapping systems save encoded scan files, digital radiography panels write image files to a laptop in the truck, and technicians key results into tablet forms that feed a digital reporting system. That chain can be excellent evidence, provided every link survives. A review of digital inspection data follows a reading or an image from the instrument to the issued report and asks whether anything was lost, edited or attached to the wrong asset along the way.",
+        "Typical findings include logger files whose time stamps disagree with the dates on the report, scan files covering a smaller area than the drawing marks as examined, and digital reporting templates whose default entries were never overwritten. We also look at how the digital record is held: whether the operator can still open the files without the contractor's software, whether revisions to an issued report are visible, and whether each electronic signature identifies a real person with authority to sign.",
+        "When an asset changes hands, the digital record is often the most valuable part of the data room and the least examined. A short independent review of a sample of files tells a buyer whether the history can be relied on, or whether a baseline survey will be needed before any interval is set on it."
+      ]
+    },
+    {
+      "h": "What this review covers, and what stays with others",
+      "p": [
+        "The service is a document and data review. Atlantis does not perform OCTG or drill-stem inspection, and this page concerns the records produced around wells, plants, stations and lines rather than tubular inspection. If you hold a tubular inspection report and want it read, describe it when you enquire and we will say plainly whether it falls within what we review.",
+        "Remaining-strength, remaining-life and fitness-for-service calculations stay with your engineer; we do not perform them, although the opinion will tell that engineer which data are reliable enough to use. The inspector of record for a vessel or a piping system stays the person your programme names. Atlantis does not perform industrial radiography in the United States, but radiographs and digital radiography images produced by your licensed contractor are reviewed as documents.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under the lead of an ASNT NDT Level III holding certification in each of those five methods. For other techniques, such as magnetic flux leakage scanning of tank floors, the proposal names a reviewer with the certification your contract calls for. Members of the review team come from oil and gas, petrochemical, nuclear and maritime work, so the people reading an upstream file know how production equipment is run as well as how it is examined."
+      ]
+    },
+    {
+      "h": "How a remote review runs for a remote asset",
+      "p": [
+        "Upstream assets are often hours from the nearest town, which is one reason a remote review suits them. Nothing in a document review needs the reviewer on location; what it needs is the record. You send the report, the procedure, the personnel and equipment records and the raw files through a secure transfer, and the review is carried out from Atlantis's offices in Houston and Hyderabad."
+      ],
+      "list": [
+        "Tell us the asset, the method, the governing code and the decision the report supports",
+        "We confirm the scope, the reviewer and the documents needed, and send a quote",
+        "Files arrive through secure transfer, and questions the record cannot answer come back to you",
+        "You receive a written opinion classing the report as sound, deficient in documentation only, or deficient in disposition",
+        "Each finding cites the clause or procedure step and the file or page it rests on"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Do you review reports from wellsites and production facilities, not just plants?", "a": "Yes. Production vessels, flowlines, tank batteries, compressor stations and gas plants all generate inspection records we review. The review adapts to the rules for each asset, including the alternative inspection rules API 510 provides for exploration and production vessels." },
+    { "q": "Can you review digital radiography from a compressor station weld package?", "a": "Yes. We review DR and film images produced by your licensed radiography contractor as part of the weld record, alongside the count of welds made, tested and rejected that Part 192 requires the operator to keep. Atlantis does not carry out radiography in the United States." },
+    { "q": "Do you inspect OCTG or drill pipe?", "a": "No. Atlantis does not perform OCTG or drill-stem inspection. If you have a tubular inspection report you would like reviewed, describe it when you enquire and we will tell you whether it is within the scope we can take on." },
+    { "q": "Our survey was done before the gathering line changed regulatory category. Can it still be relied on?", "a": "Often it can, but the opinion will state which documentation regime the survey was produced under and what the current regime expects. Where the older record lacks something now required, we say whether existing records can supply it or whether new examination is needed." },
+    { "q": "What do you need to review a thickness survey properly?", "a": "The survey report, location drawings or isometrics, gauge and probe identification, calibration records, the technician's certification and, ideally, the logger files or corrosion map data. Earlier surveys of the same asset help too, because corrosion rate calculations depend on them." },
+    { "q": "Will you calculate the remaining life of a vessel or line?", "a": "No. Remaining-life and remaining-strength calculations stay with your engineer. The opinion tells that engineer which readings and rates the record supports, so the calculation rests on data that can be defended." },
+    { "q": "Can the review support an acquisition of producing assets?", "a": "Yes. Buyers often ask for a sample-based review of the inspection files in a data room to judge whether the history can be trusted. The written opinion separates records that can be accepted as they stand from those that need follow-up." },
+    { "q": "How do I start a review?", "a": "Use the form on this page or write to info@atlantisndt.com with the asset type, the method, the governing code and what the review is for. We reply within one business day with the scope and a quote, and the review itself is carried out remotely." }
+  ],
+  "related": [
+    ["/oil-gas-ndt-services", "Oil and gas NDT services"],
+    ["/consulting/oil-gas-ndt-consulting", "Oil and gas NDT consulting"],
+    ["/report-validation/ultrasonic-thickness-report-review", "UT thickness report review"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
+    ["/standards/api-510", "API 510 explained"]
+  ],
+  "sources": [
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.851",
+    "https://standards.globalspec.com/std/14596745/510",
+    "https://codes.findlaw.com/cfr/title-49-transportation/cfr-sect-49-192-243/",
+    "https://www.phmsa.dot.gov/rulemaking-implementation/gas-gathering/gas-gathering-regulatory-overview",
+    "https://www.govinfo.gov/content/pkg/FR-2021-11-15/html/2021-24240.htm",
+    "https://www.api.org/products-and-services/standards/important-standards-announcements/std570",
+    "https://www.ampp.org/events/mr0175-the-standard"
+  ]
+}
