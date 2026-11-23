@@ -1,0 +1,141 @@
+{
+  "port": "hamburg",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Hamburg | Container Fleets & Feeders",
+  "description": "Condition surveys in Hamburg for container ship owners: redelivery records at Elbe terminals, hatch covers, reefer plant and ice-class Baltic feeders.",
+  "h1": "Condition surveys for Hamburg-managed container fleets: redelivery records, hatch covers, reefer plant and ice-class feeders",
+  "intro": "Hamburg is home to many of the container ship owners and tonnage providers that charter ships to liner operators, and their ships come up the Elbe to be redelivered from charters, to change rotation or simply to work cargo. A vessel condition survey in Hamburg gives the owner a measured record of what each ship has become: hatch covers and coamings, cell guides and holds, ballast tanks, reefer plant and running machinery, with feeders' ice belts added after a Baltic winter. The survey fits the terminal window, the time at the mooring dolphins or a dock period on the south bank, with technicians flown in from India for each ship.",
+  "highlights": [
+    {
+      "h": "Redelivery recorded at the terminal",
+      "p": "Chartered container ships are often handed back by the liner operator at the end of a rotation, sometimes during a call at a Hamburg terminal. An owner's survey in that window records hatch covers, cell guides, lashing fittings, reefer sockets and hull damage before the ship sails on to her next employment."
+    },
+    {
+      "h": "Sister ships with different pasts",
+      "p": "Many Hamburg fleets include series of sister ships that have passed through different owners, banks and managers since they were built. Surveying each to one plan shows how far their condition has drifted apart, which ships deserve the next survey cycle and which are better sold or recycled."
+    },
+    {
+      "h": "Ice belts after the Baltic winter",
+      "p": "Feeders with Finnish-Swedish ice class trade into the northern Baltic every winter and come back to the Elbe with the marks of it. A spring survey reads the ice belt plating and frames from inside the wing and peak tanks and records coating loss, dents and buckling while repairs can still be planned."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-hamburg-vcs",
+      "h": "Where can a container ship's condition be surveyed in Hamburg?",
+      "p": [
+        "Most surveys happen during a working call. At the Burchardkai, Altenwerder, Tollerort and Eurogate terminals, deck structure, the engine room and the accommodation can be surveyed under the vessel's permit-to-work system as the gantries load and discharge, and each hold opens to inspection once its bay is clear. Whether ballast tanks can be emptied during the call depends on the stowage, so the master receives our tank list before the ship reaches the Elbe pilot.",
+        "Quieter settings allow deeper surveys. A feeder idle at the river's dolphins between Baltic rotations is boarded by launch and can often spare a full day, with tanks emptied and machinery run at a steady load. In the Steinwerder docks of Blohm+Voss, or at Norderwerft, the bottom, sea chests, propeller and rudder are dry, which is the only way to see an ice-class feeder's underwater ice belt and propeller directly. Ships waiting for a berth anchor in the Elbe estuary or the German Bight, where boarding depends on weather and the survey covers what the crew can make safe."
+      ],
+      "list": [
+        "Container terminals on the Elbe: deck, hatch covers, holds bay by bay and engine room during cargo work",
+        "Mooring dolphins and lay-by berths: full-day surveys of feeders between rotations",
+        "Blohm+Voss, Steinwerder, and Norderwerft: dry bottom, propeller, rudder and the submerged ice belt during a docking",
+        "Elbe estuary and German Bight anchorages: prepared spaces and machinery, weather permitting",
+        "Multipurpose and bulk berths: holds, tween decks and cranes on the other ships Hamburg owners manage"
+      ]
+    },
+    {
+      "id": "owners-hamburg-vcs",
+      "h": "Why Hamburg container ship owners and tonnage providers commission condition surveys",
+      "p": [
+        "A Hamburg tonnage provider earns by chartering its ships to liner operators, and every charter ends with a redelivery and, usually, a new fixture. Between those points the owner needs to know what each ship can offer the next charterer and what her next docking will demand. Liner operators that own their ships ask the same questions at fleet level, and both want comparable records across sister ships rather than a series of unrelated reports.",
+        "History adds a reason peculiar to the city. A great many Hamburg-managed container ships were originally financed through German KG limited partnerships, and after the shipping crisis that followed 2008 many of those ships moved between investors, lending banks and managers. Sister ships from one series can therefore reach a survey today with very different maintenance records, and an owner consolidating such a fleet wants to know which hulls have been looked after.",
+        "Charter terms raise the stakes. With the EU ETS covering shipping from 2024 and FuelEU Maritime in force from 2025, charter parties for European voyages now share out those obligations, and charterers look harder at the age and condition of the ships they take. Lenders, through the owner, want the same evidence for their files. None of this is a CAP rating, which a classification society issues to its own procedure, nor the IMO Condition Assessment Scheme for single-hull tankers; both have their own pages here."
+      ]
+    },
+    {
+      "id": "redelivery-hamburg-vcs",
+      "h": "Condition records at charter delivery and redelivery on the Elbe",
+      "p": [
+        "The liner operator's off-hire surveyor and any surveyor sent by the P&I club or hull underwriters report to the party that appointed them, and an owner's condition survey does not take their place. It gives the owner a measured record of its own, taken in the same terminal window: hatch cover and coaming condition, cell guide damage in each hold, lashing bridges and container fittings, reefer sockets and cabling, tug and berthing marks on the shell, ballast tank coatings and machinery readings under load.",
+        "Its strength is the comparison with the survey taken at delivery. If the same holds, tanks, reading positions and photographs are repeated at both ends of the charter, bent cell guides, set-in tank tops, damaged covers or failed reefer sockets can be shown to have appeared during the charter, or shown to have been there before it. Because a terminal call leaves little time, the plan ranks the items the charter party makes the charterer answerable for, and anything left unseen is listed.",
+        "For a Hamburg owner taking a ship back after several years on charter, the redelivery survey also opens the next docking plan. It is often the first time the technical department has had its own people on board in a long while, and the report tells the superintendent where the steel, coating and overhaul work is likely to be."
+      ]
+    },
+    {
+      "id": "hatch-reefer-hamburg-vcs",
+      "h": "How hatch covers, reefer plant and machinery are surveyed during an Elbe call, and what turns up",
+      "p": [
+        "On a cellular ship the pontoon covers are lifted off by the terminal's gantry, so the survey takes the chance to examine each landed pontoon on the quay or on a neighbouring hatch: its underside plating and stiffeners, bearing pads, stoppers, seals or labyrinth strips and drainage. The coaming top plates, coaming stays and hatch corners are read and examined while the opening is clear, with magnetic particle testing at corners and bracket toes where the chief officer allows a patch to be cleaned. Those results are the owner's NDT records, not class findings.",
+        "Reefer plant is surveyed with boxes plugged in and running, because a fault only shows under load. A qualified thermographer images the reefer distribution boards, socket groups and the main switchboard to find loose, corroded or overloaded connections, while the analyst measures vibration on the generators that carry the reefer load and on the hold ventilation fans that serve reefer stacks below deck. Where a scrubber is fitted, its wash-water and overboard piping and the shell around the outlet get spot thickness readings."
+      ],
+      "list": [
+        "Fatigue cracks in hatch corners, at coaming stay toes and in lashing bridge foundations",
+        "Worn bearing pads, damaged seals and blocked drains on hatch pontoons",
+        "Bent or detached cell guides and set-in tank tops from container impact",
+        "Hot spots at reefer sockets, socket boxes and distribution board connections",
+        "Generators and hold ventilation fans running with raised vibration under reefer load",
+        "Ballast tank coating breakdown in double-bottom and wing spaces",
+        "Wall loss in scrubber wash-water and overboard lines on larger ships"
+      ]
+    },
+    {
+      "id": "ice-hamburg-vcs",
+      "h": "Ice-class feeders: what a condition survey checks after a Baltic winter",
+      "p": [
+        "Feeders on Hamburg's Baltic services often hold a Finnish-Swedish ice class, because in winter the Finnish and Swedish maritime authorities restrict traffic to their ice-bound ports to ships of a minimum ice class. Months of breaking through ice and following icebreakers leave the shell abraded in the ice belt, the coating there scraped away, and plating dented between frames, especially forward. Frames and stringers behind the ice belt can buckle without the damage showing much from outside.",
+        "A survey in spring, when the ship returns to the Elbe from her last winter rotation, reads ice belt plating and inspects frames from inside the forepeak, wing ballast tanks and other spaces behind the shell, and records the shell above the waterline from the quay. The submerged ice belt, propeller blades and rudder can only be seen in dock, so for those the survey relies on the docking records, or is timed to a Steinwerder or Norderwerft docking. Repeating the survey in autumn, before the next season, shows whether the repairs held.",
+        "The Baltic adds a scrubber point too. Denmark, Finland and Sweden have restricted open-loop wash-water discharge in their territorial waters since 1 July 2025, so feeders running there with open-loop systems use compliant fuel or closed-loop mode, and the condition of the piping matters for whichever choice the owner makes."
+      ]
+    },
+    {
+      "id": "planning-hamburg-vcs",
+      "h": "Planning a condition survey around a Hamburg call",
+      "p": [
+        "The two fixed points are the Schengen visa and the Elbe timetable. Each technician needs a visa issued in India for the job, so tell us when a redelivery, rotation change or docking in Hamburg first appears in the schedule; the largest ships then arrive and sail on the tide, which fixes the time alongside before the pilot boards. Hamburg Airport lies inside the city, so the team can be at the terminal soon after landing, and the ship's agent registers the technicians or books the launch to the dolphins.",
+        "Send the IMO number, the purpose of the survey, the bay plan and discharge sequence for a terminal call, the class status, the delivery survey if a redelivery is being recorded, and any earlier condition or thickness reports. Owners with several sister ships calling over the coming months can share the expected calls so each is surveyed to the same plan. Write to info@atlantisndt.com, or fill in the enquiry form, and say which items the charter party makes the charterer answerable for."
+      ]
+    }
+  ],
+  "vessels": [
+    "Post-Panamax and Panamax container ships on charter to liner operators",
+    "Container feeders on Baltic rotations, including ice-class ships",
+    "Sister-ship series in Hamburg tonnage providers' fleets",
+    "Scrubber-fitted container ships",
+    "Multipurpose and heavy-lift ships",
+    "Bulk carriers managed from Hamburg"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and the GOOD, FAIR and POOR coating terms",
+    "Finnish-Swedish Ice Class Rules – ice belt strengthening for Baltic winter navigation",
+    "International Convention on Load Lines – hatchway covers and closing appliances",
+    "MARPOL Annex VI regulation 14 – sulphur limits and exhaust gas cleaning systems",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration"
+  ],
+  "deliverables": [
+    "Overall condition summary, with items the charterer may be answerable for listed separately at redelivery",
+    "Ratings for hatch covers, coamings, holds, ballast tanks, deck fittings and machinery",
+    "Defect list ranked by priority, each with location, photograph and recommended action",
+    "Coaming, deck and ice belt thickness readings on sketches, compared with the delivery survey",
+    "Thermal images of reefer distribution and switchboards, and vibration on generators and fans",
+    "Items not surveyed in the terminal window, such as the submerged hull, with reasons"
+  ],
+  "faqs": [
+    {
+      "q": "Can a container ship's condition be surveyed during a call at Burchardkai or Altenwerder?",
+      "a": "Yes, within the cargo window. Deck structure, hatch coamings, the engine room and accommodation are surveyed under the ship's permit system while boxes are worked, and each hold is examined as its bay is discharged, in the order the chief officer agrees from the bay plan. Ballast tanks must be emptied and ventilated beforehand, so the master needs the list before arrival."
+    },
+    {
+      "q": "Can you record a container ship's condition at charter redelivery in Hamburg?",
+      "a": "Yes. The owner commissions it alongside the liner operator's off-hire survey, during the same terminal call. We record hatch covers, cell guides, lashing fittings, reefer sockets, shell damage, ballast tank coatings and machinery readings, ideally to the same plan as the delivery survey, so the owner can show what changed during the charter. It does not replace the charterer's surveyor."
+    },
+    {
+      "q": "Do you check reefer sockets and reefer power on container ships?",
+      "a": "Yes, with containers plugged in and running. A thermographer images the reefer distribution boards, socket groups and the main switchboard under load, where loose or overloaded connections show as hot spots. Damaged sockets, plugs and cables are noted, and the generators and under-deck ventilation fans that serve the reefers are measured for vibration. If the reefer units are due to be landed in Hamburg, the thermal work has to be done before discharge reaches them."
+    },
+    {
+      "q": "Can you survey an ice-class feeder after her winter in the Baltic?",
+      "a": "Yes, ideally when she returns to the Elbe in spring. Ice belt plating is read and frames are inspected from inside the forepeak and wing ballast tanks, and the shell above the waterline is recorded from the quay. The submerged ice belt, propeller and rudder need a dock, so the survey either draws on the docking records or is timed to a docking on the south bank."
+    },
+    {
+      "q": "Can the thickness readings from a Hamburg condition survey be used by class?",
+      "a": "Not for class credit. Survey credit is given only to thickness readings from a firm holding UR Z17 approval from the ship's society, and Atlantis is in the process of obtaining that approval from DNV, Lloyd's Register and ABS. Until then, the readings belong to the owner's decisions: the docking specification, a charter negotiation or a choice between keeping and selling a ship."
+    },
+    {
+      "q": "Can several sister ships from one series be surveyed and compared?",
+      "a": "Yes. Each sister is surveyed to a single plan on her own Hamburg call or while idle at the dolphins: the same tanks, coaming and deck reading positions, crack-check locations and machinery under the same load. The reports then set the ships side by side, so differences in coating, steel and machinery stand out, even where the sisters have had different owners and managers over the years."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "port": "sydney",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Sydney | Owners, Managers & Lenders",
+  "description": "Vessel condition surveys in Sydney for owners, charterers and lenders: tankers at Port Botany, cruise ships on turnaround, ferries and tugs on the slipways.",
+  "h1": "Condition Surveys for Ships Trading to Sydney: Fleet Checks, Charter Handovers and Lender Reviews",
+  "intro": "Owners rarely dock a merchant ship in Sydney, so a call at Port Botany or a cruise turnaround in the harbour is often the best chance to see how a ship is holding up between surveys. Atlantis carries out vessel condition surveys there for owners, technical managers, charterers and financiers: tanks and structure surveyed space by space, coatings rated, spot thickness and crack checks, and machinery measured while it runs. Domestic fleets of ferries, tugs and workboats are surveyed on the harbour slipways. Each survey team travels from India to the ship, so the work is booked against the confirmed call and the visa.",
+  "highlights": [
+    {
+      "h": "Evidence before the Asian docking",
+      "p": "A survey during the Sydney call tells the technical manager which ballast tanks, deck areas and pipe runs will need steel or coating work at the next yard period in Asia, early enough to write them into the docking specification instead of discovering them in dock."
+    },
+    {
+      "h": "Ready before AMSA comes aboard",
+      "p": "AMSA inspects foreign ships at Sydney, and its results go into both the Tokyo MoU and Indian Ocean MoU records. Owners whose ships call regularly use a condition survey to find wasted deck fittings, hatch defects and ballast tank corrosion first, and to show the maintenance behind them."
+    },
+    {
+      "h": "Season-long checks for cruise operators",
+      "p": "Cruise ships based in Sydney for the southern summer come back to Circular Quay or White Bay on a fixed rotation. Each turnaround can carry part of the survey, so technical spaces, scrubber lines, voids and selected tanks are covered across the season without taking the ship out of service."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-surveys-sydney",
+      "h": "Where in Sydney can a vessel condition survey be carried out?",
+      "p": [
+        "Most surveys happen alongside, because merchant ships seldom dock in Sydney. At Port Botany the container terminals give about a day on a liner call, which is enough for deck structure, hatch coamings, lashing bridges and a selection of ballast tanks when the work is spread sensibly over successive calls. Tankers and gas carriers at the bulk liquids berths stay a little longer, and their machinery runs under load throughout discharge, which suits a machinery condition record.",
+        "Cruise ships offer the most predictable window. On turnaround days at the Overseas Passenger Terminal or White Bay they arrive early and sail in the evening, and technical spaces can be surveyed while hotel and passenger operations carry on elsewhere on board. Dry bulk and cement carriers at Glebe Island lie in the sheltered water of the inner harbour while they discharge.",
+        "For a hull out of the water there are two possibilities. The Captain Cook Graving Dock at Garden Island is shared between the Navy and civilian work, so a commercial docking there is the exception rather than the rule; when one happens, it is the moment to record the bottom, the sea chests and their gratings. Harbour slipways handle the city's ferries, tugs, pilot vessels and workboats, and a survey can run alongside the maintenance work already planned for the slipping."
+      ],
+      "list": [
+        "Container terminals at Port Botany: liner ships surveyed in stages over successive calls",
+        "Bulk liquids berths: tankers and LPG carriers, with machinery measured during discharge",
+        "Circular Quay and White Bay cruise terminals: technical spaces on turnaround days",
+        "Glebe Island: cement and dry bulk carriers in the inner harbour",
+        "Garden Island graving dock and harbour slipways: bottom, sea chests and shell when the hull is dry"
+      ]
+    },
+    {
+      "id": "who-commissions-sydney",
+      "h": "Who commissions condition surveys of ships trading to Sydney, and for what?",
+      "p": [
+        "Technical managers are the largest group. Their ships trade to Australia from Asia and return to Asian yards for dry-docking, and a Sydney survey is the last measured look before the docking specification is written. Managers whose ships call repeatedly also want to know what an AMSA inspector is likely to see on board, because a pattern of serious deficiencies can lead AMSA to direct a ship to stay away from Australian ports for a period.",
+        "Charterers and owners use the survey at the start or end of a time charter when delivery or redelivery falls at Sydney, so both sides hold the same space-by-space record. Banks and lessors financing ships in the Australian trades commission it during a loan review or at the end of a lease. Owners also ask for one after an incident, such as heavy weather from an East Coast Low or a hard berthing, running alongside the class damage survey, which remains the classification society's business.",
+        "Domestic operators make up the other group. Ferry, tug and workboat fleets in Sydney Harbour use a condition survey to compare craft across a fleet, to plan the slipping programme, or to record a vessel's state when it passes from one operator to another. That work sits next to the periodic surveys their certificates of survey require and does not replace them."
+      ]
+    },
+    {
+      "id": "scoping-short-call",
+      "h": "How is a condition survey scoped when the ship is only in Sydney for a day?",
+      "p": [
+        "A full survey rarely fits one call, so the scope is divided. The first visit covers the areas the owner most needs and fixes marked reading positions; later calls complete the remaining tanks and spaces and repeat a few earlier positions as a check. Liner and cruise rotations make this practical, because the ship returns on a known schedule and the same berth gives the same access.",
+        "Each call starts once biosecurity has cleared the ship and the agent has arranged the escort through the port security zone. Tanks are entered when the ship has ventilated them, certified them safe and issued a permit, which on a discharging tanker means early in the call and on a container ship depends on the ballast plan for departure. Machinery readings are logged with each machine's load, so a generator measured at harbour load in Sydney can be compared fairly with the same generator measured at sea load somewhere else.",
+        "Cruise surveys follow a different rule: nothing that touches passengers. Scrubber wash-water lines, overboard connections, voids, tanks and machinery-space pipework are surveyed under the chief engineer's permits, and anything not reached that day is carried to the next Sydney turnaround or to another port on the itinerary."
+      ]
+    },
+    {
+      "id": "findings-sydney-surveys",
+      "h": "What do condition surveys of Sydney-trading ships usually report?",
+      "p": [
+        "Container ships on Australian rotations show wear where cargo work concentrates: coaming corners and top plates, lashing bridge foundations, cell guides struck by boxes and, on scrubber-fitted ships, thinning in the discharge line near the shell. Tankers in the fuel-import trade show what frequent discharge and ballasting do to ballast tank coatings, together with wastage of deck pipe supports and walkways. On LPG carriers the deck structure around the cargo domes and the ballast tanks draw most of the attention.",
+        "Cruise ships surveyed over a season usually yield a long list of small items rather than a few large ones: corrosion in voids and pipe tunnels, wall loss in wash-water and sea-water lines at bends, and hot spots in switchboards found by thermal imaging under hotel load. Among domestic craft, aluminium ferries tend to report fatigue cracking at engine bearers and jet or propeller mountings, and tugs report wear and cracking at the fendering line and in towing gear foundations. Each defect is ranked as urgent, due before the next survey or docking, or to be monitored."
+      ]
+    },
+    {
+      "id": "class-cas-cap-sydney",
+      "h": "Condition survey, CAS, CAP and the other surveys a Sydney ship receives",
+      "p": [
+        "An owner's condition survey is commercial, and its scope is whatever the purpose needs. It is not the IMO Condition Assessment Scheme, the statutory regime for older single-hull oil tankers that ends in a statement from the flag Administration, nor is it the rating a classification society issues under its Condition Assessment Programme; both have their own pages in this section. Nor does it replace a P&I club's surveyor or a surveyor the charter party names for on-hire and off-hire, though its records can sit beside theirs.",
+        "Class approval marks the other boundary. Atlantis is working towards IACS UR Z17 approval with three societies, DNV, Lloyd's Register and ABS, and holds no certificate yet, so the thickness readings in a Sydney condition survey serve the owner's, charterer's or lender's decisions and are not credited to any class survey. For domestic craft, the certificate of survey continues to rest on the accredited marine surveyor's or recognised organisation's surveys."
+      ]
+    },
+    {
+      "id": "planning-sydney-survey",
+      "h": "Planning a condition survey at Sydney: what to send and when",
+      "p": [
+        "Start with the purpose, because it decides the scope: a pre-docking check, a charter handover, a lender's review and a fleet comparison each look at the same ship in a different way. Then send the vessel's next Sydney calls or turnaround dates, the earlier condition and thickness reports, the drawings needed to locate readings, and any port state control findings the survey should follow up.",
+        "The team travels from India and needs an Australian visa for each trip, so the application is made once the call is firm; surveys repeated on a liner rotation are easier to plan because the dates are known well ahead. Details can go to info@atlantisndt.com or through the enquiry form below; name the person who should receive the report and the format they need."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships on Australian liner services",
+    "Product and chemical tankers in the fuel-import trade",
+    "LPG carriers",
+    "Cruise ships based in Sydney for the season",
+    "Cement and dry bulk carriers",
+    "Harbour ferries",
+    "Tugs, pilot vessels and workboats"
+  ],
+  "codes": [
+    "IACS UR Z7 – hull classification surveys and the GOOD, FAIR and POOR coating terms",
+    "IACS UR Z10.1 and Z10.4 – hull surveys of oil tankers and double-hull oil tankers",
+    "ISM Code, section 10 – maintenance of the ship and equipment",
+    "Tokyo MoU and Indian Ocean MoU – port state control as applied in Australia",
+    "ISO 20816-1 – measurement and evaluation of machine vibration",
+    "ASTM E797 – manual pulse-echo ultrasonic thickness measurement"
+  ],
+  "deliverables": [
+    "Overall condition summary, with urgent items reported to the master before the team leaves",
+    "Area and coating ratings in fixed terms, comparable across calls and across ships",
+    "Ranked defect list with photographs, locations and recommended actions",
+    "Spot thickness readings at marked, repeatable positions, noted by call",
+    "Machinery vibration and thermal readings, each with the load at the time",
+    "Spaces not reached at this call, carried to the next one with the reason"
+  ],
+  "faqs": [
+    {
+      "q": "Can a vessel condition survey be split across more than one Sydney call?",
+      "a": "Yes, and on liner and cruise ships it usually is. The first call covers the priority areas and fixes marked reading positions; later calls complete the remaining spaces and repeat some positions as a check. The report is issued after each visit or once the survey is complete, as the owner prefers, and states clearly which call each reading came from."
+    },
+    {
+      "q": "Can you survey a cruise ship in Sydney without affecting passengers?",
+      "a": "Yes. The survey stays in technical spaces such as scrubber and sea-water piping, voids, tanks and machinery rooms, under the chief engineer's permits and with an escort from the ship. Work is planned around provisioning, bunkering and embarkation on the turnaround day. Spaces that cannot be released that day are listed and picked up at a later Sydney call or at another port on the itinerary."
+    },
+    {
+      "q": "Will a condition survey help a ship through an AMSA inspection?",
+      "a": "It helps the owner find and fix defects first, which is the point of doing it. A survey before a Sydney call can pick up wasted deck fittings, air pipe heads, hatch cover and coaming defects and corroded ballast tank structure, and gives the master a record of what was found and what was done. It certifies nothing to AMSA, and the inspector forms an independent view on board."
+    },
+    {
+      "q": "Can a charterer use your survey for delivery or redelivery at Sydney?",
+      "a": "Yes, as an independent record of condition at the handover, rated area by area so it can be compared at the other end of the charter. Where the charter party names a particular surveyor for on-hire or off-hire, that surveyor's report remains the contractual one; our survey sits beside it and adds measured thickness, crack and machinery data if both parties want them."
+    },
+    {
+      "q": "Do you carry out condition surveys of Sydney ferries, tugs and workboats?",
+      "a": "Yes, on a harbour slipway or alongside. A slipping period is the best time, because the bottom, stern gear and fendering zones can be gauged and crack-checked directly, with aluminium hulls examined by dye penetrant. The survey is the operator's own record and does not take the place of the periodic surveys that keep a domestic certificate of survey valid."
+    },
+    {
+      "q": "What does a lender or lessor receive from a condition survey in Sydney?",
+      "a": "A summary of the ship's overall condition, area-by-area ratings in fixed terms, a ranked defect list with photographs, spot thickness and machinery readings, and a list of anything not inspected with the reason. The report does not value the ship and gives no opinion on the loan; it gives the financier an independent picture of the asset that later surveys can be compared against."
+    }
+  ]
+}
