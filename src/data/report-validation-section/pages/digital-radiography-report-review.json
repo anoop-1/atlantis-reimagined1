@@ -3,7 +3,7 @@
  "description": "Independent review of digital radiography reports and DDA image files: IQI, normalized SNR, spatial resolution, bad pixels, processing and DICONDE records.",
  "h1": "Independent review of digital radiography reports and the detector images behind them",
  "eyebrow": "Method review: digital radiography (DR)",
- "intro": "A digital radiography report is a summary of image files, detector calibrations and processing choices that the PDF rarely shows. We open the DDA images themselves, check the image quality measurements against the procedure and the governing practice, follow each file back to the detector and the settings that produced it, and give you a written opinion on whether the accept and reject calls can stand. The review is independent and is carried out remotely on the records you send. In the United States Atlantis does not perform industrial radiography; reviewing the images your licensed contractor produced is a document review we do offer.",
+ "intro": "A digital radiography report is a summary of image files, detector calibrations and processing choices that the PDF rarely shows. We open the DDA images themselves, check the image quality measurements against the procedure and the governing practice, follow each file back to the detector and the settings that produced it, and give you a written opinion on whether the accept and reject calls can stand. The review is independent, and it is done remotely from the files and documents you share. In the United States Atlantis does not perform industrial radiography; reviewing the images your licensed contractor produced is a document review we do offer.",
  "highlights": [
   {
    "h": "Was the detector fit for the job?",
@@ -76,7 +76,7 @@
      ],
      [
       "ISO 17636-2",
-      "Digital radiographic testing of fusion welds with CR or DDAs on many international contracts; it sets no acceptance levels",
+      "Digital radiography of fusion-welded joints, covering both CR and DDA systems; widely specified outside the US and silent on acceptance levels",
       "That the testing class and image quality values are met, and that acceptance came from the separate acceptance standard named in the contract"
      ]
     ]
@@ -140,7 +140,7 @@
     "Bad pixel clusters or defective lines falling across the weld, interpolated over and never mentioned",
     "SNR and basic spatial resolution quoted once for the whole job instead of per image or exposure set",
     "Interpretation done on filtered images with no record of the filter and no unprocessed file retained",
-    "Exported images in the report that cannot be matched to an original acquisition file",
+    "Pictures in the issued report with no traceable source file among the acquisitions supplied",
     "Acceptance taken from the wrong code edition or weld category, even though the image quality was sound",
     "Interpreter certification that covers film radiography but not digital detector interpretation, where the written practice separates them"
    ]
@@ -149,7 +149,7 @@
    "h": "DR images from US projects: what we review and what stays with the licensee",
    "p": [
     "In the United States industrial radiography is licensed under NRC rules in 10 CFR Part 34 or under an Agreement State program. Atlantis does not perform industrial radiography in the US. The images, technique sheets and reports your licensed radiography contractor produced can still be reviewed independently, because that review is an evaluation of documents and data, carried out remotely, with no source and no exposure involved.",
-    "Radiation safety records, source logs and the contractor's license compliance stay with the licensee and the regulator. Our opinion covers image quality, interpretation, acceptance and traceability. Reviews in radiography, together with ultrasonic, magnetic particle, penetrant and visual testing, are led by an ASNT NDT Level III who holds certification in all five of those methods, supported by a review team whose members come from nuclear, maritime, oil and gas and petrochemical work."
+    "Radiation safety records, source logs and the contractor's license compliance stay with the licensee and the regulator. Our opinion covers image quality, interpretation, acceptance and traceability. The person leading a DR review is an ASNT NDT Level III whose five certified methods include radiography, alongside ultrasonic, magnetic particle, penetrant and visual testing. Colleagues on the review team bring working experience from the nuclear, maritime, oil and gas and petrochemical sectors."
    ]
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "q": "Does Atlantis perform digital radiography in the United States?",
-   "a": "No. Industrial radiography in the US is licensed under NRC rules or an Agreement State program, and Atlantis does not hold that role. Reviewing DR images and reports produced by your licensed contractor is a document review, and that is the service described here."
+   "a": "No. Industrial radiography in the US is licensed under NRC rules or an Agreement State program, and Atlantis does not hold that role. What we provide is an independent document and data review of the DR images and reports that your licensed contractor has already produced."
   },
   {
    "q": "Is a DR image acceptable if the indication only shows up after filtering?",
@@ -184,7 +184,7 @@
   },
   {
    "q": "Can you review DR work from the Middle East?",
-   "a": "Yes, remotely and in the same way. Many projects there specify ISO 17636-2 or an operator standard on top of the ASME codes, so we read the image quality class and acceptance standard the contract actually names."
+   "a": "Yes, remotely and in the same way. Projects in the Gulf frequently call for ISO 17636-2 or an operator's own radiography specification in addition to ASME, so the review applies whichever testing class and acceptance document the contract sets out."
   }
  ],
  "related": [

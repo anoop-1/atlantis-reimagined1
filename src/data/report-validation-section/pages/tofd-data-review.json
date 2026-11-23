@@ -42,7 +42,7 @@
      [
       "ASME Section V, Article 4 with its TOFD appendix",
       "Requirements for TOFD examination of welds where the ASME codes apply",
-      "Procedure written to the appendix of the edition the referencing code names, with essential variables fixed"
+      "Procedure prepared under that appendix, in the edition called up by the construction code, with essential variables fixed"
      ],
      [
       "ASTM E2373",
@@ -130,7 +130,7 @@
    "h": "Digital records for TOFD: files, versions and the reporting chain",
    "p": [
     "A TOFD data set is fully digital, and that is both its strength and its exposure. Data files in vendor formats, set-up files, analysis files holding cursor positions, and exported images can drift apart: a re-analysed file saved over the original, a set-up file from a different weld, an image in the report that no longer matches the analysis. We check file names against weld identities, compare acquisition and analysis dates, and confirm that the original acquisition file was kept unaltered.",
-    "Where results flow into a digital reporting platform, we also check that the indication table and images in the issued report match the analysis files, that electronic sign-off by the analyst and the approver is recorded, and that later revisions are visible. Archiving matters for the long term: the raw files and a means of opening them must survive as long as the record may be needed."
+    "Where results flow into a digital reporting platform, we also check that the indication table and images in the issued report match the analysis files, that the analyst's and approver's electronic signatures are recorded, and that later revisions are visible. Archiving matters for the long term: the raw files and a means of opening them must survive as long as the record may be needed."
    ]
   },
   {
@@ -145,7 +145,7 @@
     "Gaps in the lateral wave or back-wall attributed to nothing, neither coupling nor flaw",
     "Dropped data lines from fast scanning, with no rescan",
     "Heights measured correctly but compared with the wrong acceptance table or flaw category",
-    "Exported images that cannot be matched to an original acquisition file"
+    "Report images with no matching original acquisition file in the data set"
    ]
   }
  ],
@@ -168,7 +168,7 @@
   },
   {
    "q": "Who leads a TOFD review?",
-   "a": "Ultrasonic reviews are led by an ASNT NDT Level III whose certification spans UT together with RT, MT, PT and VT, working with a review team drawn from nuclear, maritime, oil and gas and petrochemical work."
+   "a": "An ASNT NDT Level III certified in ultrasonic testing, and also in RT, MT, PT and VT, leads the ultrasonic side of every review, with support from colleagues whose careers span the nuclear, maritime, oil and gas and petrochemical sectors."
   },
   {
    "q": "Do you confirm that UT in lieu of RT was allowed?",
@@ -176,7 +176,7 @@
   },
   {
    "q": "Can the review be done without a site visit?",
-   "a": "Yes. TOFD data is fully digital, so the files and documents are shared through a secure transfer and the review is done remotely, for welds anywhere in the United States or the Middle East."
+   "a": "Yes. TOFD data is fully digital, so the files and documents are shared through a secure transfer and the review is done remotely, for welds on projects in either the United States or the Middle East."
   },
   {
    "q": "What if the original files were overwritten during re-analysis?",

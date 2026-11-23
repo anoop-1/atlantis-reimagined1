@@ -123,7 +123,7 @@
    "p": [
     "The tube sheet map is the most used page of the report and one of the easiest to get wrong. Row and column numbering conventions differ between manufacturers, inlet and outlet faces are mirror images, and a map drawn from the wrong face places every indication in the wrong tube. We check the map's orientation against the bundle drawing and against landmarks in the data, such as previously plugged tubes and stay rods.",
     "We then reconcile the tube list: tubes planned, tubes tested full length, tubes tested only partly because of restrictions or obstructions, tubes not tested, and tubes already plugged. A report stating that a percentage of the bundle was examined should be backed by that reconciliation, and partly tested tubes should be identified as such on the map. Tubes that could not be tested are a finding in their own right, because nothing can be said about them.",
-    "Plugging, sleeving and retubing decisions, and any remaining-life or fitness-for-service assessment, stay with the owner's engineer. Our opinion tells that engineer which indications are reliably detected and sized, which are uncertain, and which tubes the data says nothing about."
+    "Plugging, sleeving and retubing decisions, and any remaining-life or fitness-for-service assessment, remain the responsibility of the owner's engineer. Our opinion tells that engineer which indications are reliably detected and sized, which are uncertain, and which tubes the data says nothing about."
    ]
   },
   {
@@ -136,7 +136,7 @@
   {
    "h": "Who reviews the eddy current data, and nuclear work",
    "p": [
-    "Our in-house ASNT NDT Level III certification covers UT, RT, MT, PT and VT, not eddy current. For tube inspection data, the proposal names a reviewer holding the eddy current qualification your contract specifies, whether that is an ASNT certification at a stated level or a qualified data analyst standard set by your own programme. The wider team includes members whose backgrounds are in nuclear, maritime, oil and gas and petrochemical work, which helps when the question is how a damage mechanism shows up in a particular service.",
+    "Our in-house ASNT NDT Level III certification covers UT, RT, MT, PT and VT, not eddy current. For tube inspection data, we put forward in the proposal a named reviewer whose eddy current qualification meets what your contract specifies, whether that is an ASNT certification at a stated level or a qualified data analyst standard set by your own programme. The wider team includes members whose backgrounds are in nuclear, maritime, oil and gas and petrochemical work, which helps when the question is how a damage mechanism shows up in a particular service.",
     "Nuclear steam generator data can be reviewed only as an independent technical opinion. Atlantis is not on any licensee's approved supplier list under 10 CFR 50 Appendix B or NQA-1, and our opinion does not replace the licensee's qualified analysis or its steam generator programme. It suits situations such as vendor oversight, an owner's second opinion or a dispute, and the licensee's quality assurance organisation decides how to use it."
    ]
   }

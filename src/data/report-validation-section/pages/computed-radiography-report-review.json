@@ -76,12 +76,12 @@
      ],
      [
       "ISO 17636-2",
-      "Digital radiography of welds with CR or DDAs on many international contracts; acceptance levels come from a separate standard",
+      "ISO's digital weld radiography part, applying to imaging plates and detector arrays alike; acceptance levels sit in a separate standard",
       "Testing class, image quality values and the acceptance standard named alongside it"
      ],
      [
-      "The construction or in-service code",
-      "ASME Section VIII, B31.3, API 1104 and others supply the acceptance criteria",
+      "Governing construction code",
+      "ASME Section VIII, B31.3, API 1104 and similar codes set the acceptance criteria",
       "Correct edition, weld category and acceptance table applied to each indication"
      ]
     ]
@@ -176,7 +176,7 @@
   },
   {
    "q": "Does Atlantis expose CR plates on US sites?",
-   "a": "No. Atlantis does not perform industrial radiography in the United States. Reviewing CR images and reports produced by your licensed contractor is a document and data review, and that is what this page describes."
+   "a": "No. Atlantis does not perform industrial radiography in the United States. The service on this page is the independent review of CR images and reports that a licensed contractor has already produced for you."
   },
   {
    "q": "Do you need the contractor's software?",
@@ -188,7 +188,7 @@
   },
   {
    "q": "Can you review CR work produced in the Gulf states?",
-   "a": "Yes, remotely. Contracts there often name ISO 17636-2 or an operator's radiography standard in addition to the ASME codes, and we read the image quality class and acceptance standard the contract actually invokes."
+   "a": "Yes, remotely. Gulf contracts commonly add an operator radiography specification or ISO 17636-2 to the ASME requirements, and the review is measured against whichever of them the purchase order or specification calls up."
   }
  ],
  "related": [
