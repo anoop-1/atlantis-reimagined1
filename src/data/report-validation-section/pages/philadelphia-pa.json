@@ -1,0 +1,165 @@
+{
+  "title": "NDT Report Review in Philadelphia, PA | Independent Opinion",
+  "description": "Remote, independent review of NDT reports from the Delaware Valley: refinery turnaround data, nuclear vendor records, chemical plant corrosion maps and CR/DR.",
+  "h1": "Delaware Valley NDT report validation for refineries, chemical plants and nuclear suppliers",
+  "eyebrow": "Report validation: Philadelphia and the lower Delaware River",
+  "intro": "The lower Delaware River has been refining, processing and shipping hydrocarbons for well over a century, and its plants have the inspection archives to show it. Philadelphia's own refinery has closed, but a jet fuel refinery still runs at Trainer, a former refinery at Marcus Hook now handles natural gas liquids, a large phenol plant operates in Frankford, and nuclear stations sit upriver and across the water in New Jersey. When a report from any of them has to be accepted, defended or relied on in a deal, we review it and the digital inspection data behind it independently, remotely, against the code and procedure it was written to.",
+  "highlights": [
+    {
+      "h": "Two states, one review",
+      "p": "Delaware Valley packages often mix Pennsylvania and New Jersey work. The opinion notes which state's boiler program and radiation licensing applied to each record, so nothing is judged against the wrong rulebook."
+    },
+    {
+      "h": "Built for many contractors",
+      "p": "Turnaround and project records here usually come from several NDT firms at once. One reviewer applying one set of checks produces findings that can be compared contractor by contractor."
+    },
+    {
+      "h": "Nothing to sell you afterwards",
+      "p": "We do not perform the examinations we review, so the opinion carries no interest in a re-inspection order. It says what the record supports, what it does not, and why."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Five situations that bring a Delaware Valley report to an independent reviewer",
+      "p": [
+        "Most requests from the Philadelphia area start with a decision that cannot wait for a full re-inspection. The reason shapes the review, so we ask for it before anything else and set the depth of each check to match."
+      ],
+      "list": [
+        "A refinery or chemical plant inspection group closing out a turnaround with reports from several contractors and a restart date fixed",
+        "A nuclear plant or its vendor wanting a second technical reading of examination records for non-safety-related equipment or a commercial question",
+        "A fabricator or inspection contractor whose report a client or third-party inspector has rejected, needing to know whether the rejection holds on the technical merits",
+        "A buyer, lender or insurer looking at a site along the river and wanting to know how much of the inspection history can be relied on",
+        "An owner taking digital radiography, phased array or a new digital reporting platform from a contractor for the first time and wanting the data checked before it becomes normal"
+      ]
+    },
+    {
+      "h": "The plants along the river and the records they produce",
+      "p": [
+        "Refining has shrunk inside the city limits. The South Philadelphia refinery no longer operates, and its site is being redeveloped as the Bellwether District. Downriver in Delaware County, Monroe Energy, the refining subsidiary Delta Air Lines bought in 2012, runs the Trainer refinery, which processes close to 200,000 barrels of crude a day and is set up to maximise jet fuel. Its inspection records follow the refinery pattern: API 510 vessel reports, API 570 piping surveys, API 653 tank inspections and exchanger tube data, issued in bulk at every turnaround.",
+        "Next door, at Marcus Hook, Sunoco ran a refinery until 2011. Energy Transfer's Marcus Hook Terminal now occupies the site, receiving ethane, propane and butane by pipeline from the Marcellus Shale through the Mariner East system and sending them on to regional and export markets. A terminal of that kind produces storage, piping and loading equipment records, pipeline girth weld files and thickness data, with process safety obligations applying throughout.",
+        "In the city's Frankford section, AdvanSix runs what it describes as one of North America's largest phenol producers, making phenol, acetone and alpha-methylstyrene. Chemical plants of this type generate corrosion monitoring data, vessel and column internal inspection reports, repair weld examinations and records on equipment in services where cracking, not just thinning, is the concern.",
+        "The nuclear side of the valley is just as close. Constellation operates the Limerick station, about 21 miles northwest of Philadelphia, and Peach Bottom near Delta, Pennsylvania, which it co-owns equally with PSEG. Across the river in Salem County, New Jersey, PSEG Nuclear operates the Salem and Hope Creek stations. Around them sits a supplier base of fabricators, valve shops and service contractors whose examination records feed the plants' procurement and maintenance."
+      ]
+    },
+    {
+      "h": "Turnaround packages from refinery and chemical units",
+      "p": [
+        "A turnaround on the Delaware is a short window with a long paper tail. Reports arrive from the main NDT contractor, a tube inspection specialist, the tank contractor and the repair contractor's examiners, each in its own template and each claiming its own procedure. The inspection group has to accept them all before the units restart, and much of that reading happens in the last days of the outage.",
+        "An independent review applies one set of rules to every contractor. It confirms that each worklist item has a report and that the report covers the scope the worklist called for: the right circuits, the right number of thickness locations, the right welds. It checks that procedures, personnel certifications and instrument calibrations were valid on the dates of work, and that the acceptance criteria quoted come from the code edition and table that actually govern the equipment.",
+        "For chemical service the review leans harder on technique adequacy. A thickness grid can be perfectly executed and still say nothing about stress corrosion cracking or localised attack at a weld. Where the damage mechanism calls for wet fluorescent magnetic particle, phased array or a corrosion map rather than spot readings, the opinion says whether the technique reported could have found the damage that threatens the component.",
+        "Reviews can run in batches during the outage as reports are issued. Gaps then reach the contractor while equipment is still open and the crew is still on site, which is usually the difference between amending a record and reopening equipment after startup."
+      ]
+    },
+    {
+      "h": "Nuclear records near NRC Region I",
+      "p": [
+        "Philadelphia is unusually close to its federal nuclear regulator: NRC Region I, which oversees reactors and materials work across Pennsylvania, New Jersey and the rest of the Northeast, has its regional office at King of Prussia, in the western suburbs. Licensees and their suppliers in the valley therefore work in close contact with the inspection regime.",
+        "That makes clarity about our role essential. Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and an opinion from us is not a quality record unless the licensee's QA organisation decides to treat it as one. What we offer is an independent technical reading: of a vendor's ultrasonic and penetrant records before a non-safety-related component ships, of a service contractor's interpretation that the plant's reviewers question, or of the technical facts in a commercial dispute between a plant and its supplier.",
+        "Eddy current data from steam generator or heat exchanger examinations is a common request in nuclear work. Our Level III is not certified in eddy current, so for that data the proposal names a reviewer who holds the certification the contract or the licensee's programme requires, and the opinion is signed accordingly."
+      ]
+    },
+    {
+      "h": "Who regulates which record in the Philadelphia area",
+      "p": [
+        "A single Delaware Valley package can touch several regulators. The review identifies which one each record answers to, because a report written for the wrong regime is deficient even when the examination itself was sound."
+      ],
+      "table": {
+        "head": ["Record or activity", "Authority in the Philadelphia area", "What the review checks against it"],
+        "rows": [
+          ["Boiler and unfired pressure vessel inspection in Pennsylvania", "Boiler Division, Pennsylvania Department of Labor and Industry, through commissioned inspectors", "That repair records follow the National Board Inspection Code and that NDT supports what the commissioned inspector is asked to accept"],
+          ["Boilers and vessels on the New Jersey side of the river", "Mechanical Inspection Bureau of Boiler and Pressure Vessel Compliance, New Jersey Department of Labor and Workforce Development", "Which state's rules applied to the equipment and whether the record carries what that bureau's inspector expects"],
+          ["Radiography contractors working in Pennsylvania", "Bureau of Radiation Protection, Pennsylvania Department of Environmental Protection, running the Agreement State program", "That the contractor and radiographer licensing references on the record are present and current for the dates of work"],
+          ["Radiography contractors working in New Jersey", "New Jersey Department of Environmental Protection, an Agreement State since 2009", "The same licence evidence, under the New Jersey program"],
+          ["Reactor licensees and their safety-related procurement", "NRC Region I, King of Prussia", "Only the technical content; QA status remains the licensee's decision"],
+          ["Mechanical integrity in refineries and chemical plants", "OSHA process safety management standard, 29 CFR 1910.119", "Whether inspection and testing records follow the recognised practice the owner's programme invokes"],
+          ["Intrastate and interstate pipelines", "Pennsylvania Public Utility Commission for intrastate lines; PHMSA for interstate lines", "Girth weld and integrity records against 49 CFR and the operator's procedures"]
+        ]
+      }
+    },
+    {
+      "h": "Radiographs, CR and DR from licensed contractors",
+      "p": [
+        "Both Pennsylvania and New Jersey are Agreement States, so the radiography contractors working at Delaware Valley plants hold state radioactive materials licences rather than NRC ones. Atlantis does not perform industrial radiography anywhere in the United States; that work belongs to licensed firms. What we do is read the result.",
+        "Film radiographs, computed radiography plates and digital detector images are reviewed for image quality first: the image quality indicator in the right place and the required wire or hole visible, density or signal-to-noise within the procedure's limits, and location markers that tie each exposure to a weld. Only then does the reviewer compare the indications on the image with the interpretation on the report. A rejectable indication recorded as acceptable is the serious finding; an image that could not have shown the indication at all is often the more common one."
+      ]
+    },
+    {
+      "h": "Digital inspection data across the Delaware Valley",
+      "p": [
+        "Plants along the river increasingly receive digital inspection data rather than paper: CR and DR images in DICONDE or vendor formats, encoded phased array and TOFD files, eddy current tube data, and thickness readings captured on tablets that flow straight into the owner's inspection database. Contractors issue the finished product through digital reporting platforms with electronic signatures and auto-filled templates. That is efficient, and it introduces failure modes that a paper review never had to consider.",
+        "We check the data lineage from the instrument to the issued report. Does the file named in the report exist, and does it contain the weld or component the report describes? Was the image processing or the gating changed after acquisition, and is the change recorded? Do the calibration files belong to the instrument serial number on the report? Were the electronic signatures applied by the people the written practice authorises, and on the dates the record claims? For a multi-contractor turnaround, the same questions asked of every digital deliverable show quickly which contractor's digital reporting can be trusted to feed the inspection database unchanged."
+      ]
+    },
+    {
+      "h": "How a Philadelphia review is run",
+      "p": [
+        "There is no Atlantis presence of any kind in Philadelphia or elsewhere in the Delaware Valley; the company's offices are in Houston and Hyderabad. Every review for a client here is carried out remotely, working only from the reports, images and data files sent to us through a secure transfer.",
+        "You send the report, or a representative sample of a package, with the procedure, the code and a note on what depends on the result. We reply within one business day with the review scope and a quote. The review then works through seven checks: whether the procedure was followed, whether the people were qualified on the day, whether the equipment was calibrated, whether the technique could find the flaw that matters, whether the acceptance criteria came from the right code and table, whether the indications were interpreted and sized correctly, and whether the record is complete and traceable.",
+        "The ultrasonic, radiographic, magnetic particle, penetrant and visual parts of a review are led by an ASNT NDT Level III whose certification covers exactly those five methods. Reviewers on the wider team come from nuclear, maritime, oil and gas and petrochemical work, which matters on a river where all four meet.",
+        "Every report reviewed receives one of three verdicts: sound; deficient in documentation only, where the paperwork can be corrected without new examination; or deficient in disposition, where the evidence does not support the accept or reject decision. Each finding cites the clause or procedure step it rests on and the evidence for it."
+      ]
+    },
+    {
+      "h": "What the opinion does not decide",
+      "p": [
+        "Remaining-life estimates and fitness-for-service assessments under API 579 stay with the owner's engineer, who gains a vetted data set to base them on. Acceptance of a Pennsylvania or New Jersey boiler or vessel stays with the commissioned inspector. Certification of NDT personnel stays with their employer under its written practice. And the decision whether a nuclear opinion enters any quality record stays with the licensee. Keeping those lines clear is part of what makes an independent opinion credible to the people who have to act on it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you review turnaround reports from refineries on the Delaware River?",
+      "a": "Yes. We review vessel, piping, tank and exchanger records against API 510, 570 and 653 and the owner's procedures, either as a batch during the outage or as a close-out review of the whole package."
+    },
+    {
+      "q": "Our records cover work in both Pennsylvania and New Jersey. Is that a problem?",
+      "a": "No. The review notes which state's boiler program and radiation licensing applied to each record, and checks each one against the rules that governed it."
+    },
+    {
+      "q": "Can you take radiographs at our plant?",
+      "a": "No. Atlantis does not perform industrial radiography in the United States. We review film, CR and DR images produced by your licensed radiography contractor."
+    },
+    {
+      "q": "Can your opinion be used by a nuclear plant?",
+      "a": "It can be used as an independent technical opinion. We are not on any licensee's Appendix B or NQA-1 approved supplier list, so the licensee's QA organisation decides how, and whether, the opinion is used."
+    },
+    {
+      "q": "We are a fabricator and our client rejected our UT report. Can you help?",
+      "a": "Yes. We review the report and the data behind it against the code and procedure the contract named, and tell you in writing whether the rejection holds. If it does, the opinion says what has to change."
+    },
+    {
+      "q": "Who reviews eddy current tube data?",
+      "a": "A reviewer holding the eddy current certification your contract requires, named in the proposal. Our Level III's certification covers UT, RT, MT, PT and VT only."
+    },
+    {
+      "q": "Do you need someone on site in Philadelphia?",
+      "a": "No. The review is carried out remotely from the reports and data you send. If something essential is missing from the files, the opinion lists it."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Send the report or a sample with the procedure, the code and what decision depends on it. We reply within one business day with the review scope and a quote."
+    }
+  ],
+  "related": [
+    ["/inspection-services-pennsylvania", "Inspection services in Pennsylvania"],
+    ["/ndt-training-philadelphia", "NDT training in Philadelphia"],
+    ["/consulting/ndt-consulting-philadelphia", "NDT consulting in Philadelphia"],
+    ["/ultrasonic-testing-philadelphia", "Ultrasonic testing in Philadelphia"]
+  ],
+  "sources": [
+    "https://www.pa.gov/agencies/oto/fasttrack/thebellwetherdistrict.html",
+    "https://www.ogj.com/refining-processing/refining/article/17227283/delta-air-lines-to-buy-trainer-refinery-from-phillips-66",
+    "https://www.ajc.com/business/2026/03/does-deltas-oil-refinery-protect-it-from-price-spikes-its-complicated/",
+    "https://www.pa.gov/agencies/dep/dep-regions/southeast-regional-office/etmt-formerly-spmt",
+    "https://www.advansix.com/about/manufacturing-sites/frankford-pa/",
+    "https://www.nrc.gov/info-finder/reactors/lim1",
+    "https://www.constellationenergy.com/about/locations/peach-bottom-clean-energy-center.html",
+    "https://corporate.pseg.com/aboutpseg/companyinformation/thepsegfamilyofcompanies/psegnuclearllc",
+    "https://www.nrc.gov/agreement-states/pennsylvania",
+    "https://www.nrc.gov/agreement-states/new-jersey",
+    "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/boilers-and-unfired-pressure-vessels",
+    "https://www.nj.gov/labor/safetyandhealth/programs-services/boiler-pressure-vessel-compliance",
+    "https://www.puc.pa.gov/pipeline-safety/jurisdiction-regulations/",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  ]
+}
