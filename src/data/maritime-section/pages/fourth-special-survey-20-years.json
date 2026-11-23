@@ -1,0 +1,247 @@
+{
+  "slug": "fourth-special-survey-20-years",
+  "navLabel": "Fourth and Later Special Surveys (20+ Years)",
+  "title": "20-Year Special Survey: Renewal Survey No. 4 and Older Ships",
+  "description": "What the 20 and 25-year special surveys examine, why gauging covers most structure, how charterers view older ships, and the renew, sell or recycle choice.",
+  "h1": "Fourth and Later Special Surveys: Inspecting Ships of 20 Years and Over",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "From renewal survey No. 4, at about twenty years, the hull survey reaches its widest routine scope and stays there for the rest of the ship's life. Most structure in the cargo area is surveyed close up and gauged, substantial corrosion recorded earlier is measured again, and on older tankers and bulk carriers even the intermediate survey matches the renewal survey and includes a docking. This guide explains what class examines at 20, 25 years and beyond, how charterers and terminals view older ships, and how owners decide whether to renew, sell or recycle.",
+  "highlights": [
+    {
+      "h": "The widest survey in the cycle",
+      "p": "At No. 4 and every renewal survey after it, the unified requirements call for close-up survey of all shell frames in all holds of a single-side skin bulk carrier and all web frames in all ballast tanks of a double-hull tanker, with bottom, deck and side gauging along the length."
+    },
+    {
+      "h": "Every survey becomes a heavy one",
+      "p": "On ESP ships over fifteen, the intermediate survey repeats the previous renewal survey's extent and includes a survey in dry dock, and bottom examinations have to be in dry dock. An older tanker or bulk carrier faces a major survey roughly every two and a half years."
+    },
+    {
+      "h": "The decision behind the survey",
+      "p": "By twenty years the survey result feeds a commercial decision as much as a class one: renew the steel and trade on, sell to a buyer who will, or recycle. A reliable steel estimate before the docking lets the owner make that decision on measured facts."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-changes-at-20",
+      "h": "What changes at renewal survey No. 4",
+      "p": [
+        "Renewal survey No. 4 applies once the ship is over fifteen years old, and the unified requirements group every later renewal survey with it: the 20-year, 25-year and any 30-year survey share one minimum extent, headed 'No. 4 and subsequent' in the annex tables. That extent is the largest in the rules. The step from No. 3 to No. 4 is smaller on paper than the step from No. 2 to No. 3, but often larger in the yard, because it measures five more years of wastage on structure already in the substantial corrosion band, and because members renewed at fifteen sit beside original steel that is now twenty years old.",
+        "The surveyor can always extend the minimum, and on older ships usually does. Wherever gauging finds substantial corrosion, the tabulated additional measurements apply, and areas recorded at earlier surveys are measured again until the steel is renewed. A ship arriving at No. 4 with a long list of carried-forward suspect areas should expect a survey well beyond the minimum."
+      ],
+      "links": [
+        [
+          "/maritime/special-survey-by-ship-age",
+          "Special survey by ship age"
+        ],
+        [
+          "/maritime/third-special-survey-15-years",
+          "Third special survey (15 years)"
+        ]
+      ]
+    },
+    {
+      "id": "close-up-and-gauging",
+      "h": "Close-up survey and gauging at 20, 25 and 30 years",
+      "p": [
+        "Examples of the minimum extent at renewal survey No. 4 and later are set out below. The bulk carrier and double-hull tanker rows come from the ESP Code annexes as IACS members apply them in UR Z10.2 and UR Z10.4; the general dry cargo row comes from UR Z7.1, and the last row from the UR Z7 thickness measurement table. The society's rules and the survey programme add to it.",
+        "Two features of older ESP ships change the docking pattern. UR Z3 states that for ESP ships of 15 years of age and over the bottom examinations are to be carried out with the ship in dry dock, which rules out for them the in-water alternative class may allow elsewhere. And once an ESP ship is over fifteen, its intermediate survey has to include a drydock survey too. An older tanker or bulk carrier therefore docks for the intermediate survey as well as for the renewal survey."
+      ],
+      "table": {
+        "head": [
+          "Ship type and rule",
+          "Close-up survey at No. 4 and later (examples)",
+          "Thickness measurement at No. 4 and later (examples)"
+        ],
+        "rows": [
+          [
+            "Single-side skin bulk carrier (UR Z10.2)",
+            "All shell frames in all cargo holds, with end attachments and adjacent shell plating, plus the ballast tank, bulkhead, hatch cover and deck items of the 15-year survey",
+            "Transverse sections and each deck plate outside the hatch openings, bottom plating, wind-and-water strakes, members under close-up survey"
+          ],
+          [
+            "Double-hull oil tanker (UR Z10.4)",
+            "All web frames in all ballast tanks, with cargo tank web frames and transverse bulkheads in a wider selection of tanks",
+            "Transverse sections, deck and bottom plating across the cargo area, wind-and-water strakes, tank internals under close-up survey"
+          ],
+          [
+            "Single-side skin general dry cargo ship (UR Z7.1)",
+            "All shell frames in all cargo holds and tweendeck spaces, with the bulkhead, ballast tank, hatch cover, deck and inner bottom items of the 15-year survey",
+            "At least three transverse sections amidships, each deck and bottom plate, duct keel or pipe tunnel, all wind-and-water strakes full length"
+          ],
+          [
+            "Other cargo ships (UR Z7)",
+            "Tanks and spaces examined internally, with close-up extent set by the society's rules and the attending surveyor",
+            "All exposed main deck plating and keel plates full length, wind-and-water strakes full length, lowest strakes of cargo space transverse bulkheads, sea chests and shell plating at overboard discharges"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "repeat-substantial-corrosion",
+      "h": "Repeat substantial corrosion and carried-forward areas",
+      "p": [
+        "By the 20-year survey most ships carry a history: suspect areas noted at ten years, substantial corrosion recorded at fifteen and at the intermediate survey, and members renewed in some places but not in the steel beside them. Each returns to the surveyor's list, so the thickness measurement report of an older ship is a record over time. Its point numbering must let readings at one location be compared across three or four surveys; otherwise a long-known area can look newly wasted, or a thinning one look stable.",
+        "Each carried-forward area presents the same choice: renew now, or monitor to the next survey. Monitoring is legitimate while readings stay within the allowable margin, but at twenty years the remaining margin is small and the local rate is known, so the arithmetic is usually clear. Renewing a whole panel or member once is usually sounder than inserting small patches at successive surveys, each of which adds weld length, distortion and fresh coating edges where corrosion restarts."
+      ]
+    },
+    {
+      "id": "intermediate-at-older-ages",
+      "h": "Intermediate surveys of older ships: the renewal scope again",
+      "p": [
+        "For tankers and bulk carriers under the ESP Code, the intermediate survey from ten years onwards is to the same extent as the previous renewal survey, with tank pressure testing (and, on oil tankers, the longitudinal strength evaluation) left out unless class considers them necessary. Over fifteen it also includes the dry-dock survey. A 22-year-old ESP tanker therefore repeats much of its 20-year survey two or three years later. For single-side skin general dry cargo ships, UR Z7.1 applies the same rule from the age of fifteen.",
+        "For planning, an older ship's five-year cycle holds two heavy surveys, not one. Coating repairs, steel renewal and access arrangements made at the renewal survey should be judged by whether they will still be acceptable at the intermediate survey that follows. Repairs left under a condition of class at twenty years have a habit of returning, larger, at the intermediate."
+      ],
+      "links": [
+        [
+          "/maritime/intermediate-survey",
+          "Intermediate survey guide"
+        ],
+        [
+          "/maritime/enhanced-survey-programme",
+          "ESP gauging"
+        ]
+      ]
+    },
+    {
+      "id": "coating-strategy",
+      "h": "Coating repair or renewal on a ship of 20 years and over",
+      "p": [
+        "By the fourth renewal survey the original ballast tank coating has usually failed in most tanks, and repairs made at fifteen years are themselves ageing. The owner's options narrow to three. Full recoating of the worst tanks takes the most dock time and makes sense when the ship is expected to trade a further full cycle. Targeted repair of tank upper parts, the areas round renewed steel and the edges and welds where breakdown starts can hold corrosion back for one cycle. Accepting POOR coating, with annual examination of the tanks that follows, may suit a ship expected to leave the fleet before its next renewal survey, provided the steel margins allow it.",
+        "Whichever route is chosen, renewed steel should leave the yard coated compatibly with the system round it; bare new plate in a tank graded POOR becomes the next survey's finding. Coating condition recorded beside each reading in pre-docking gauging shows which tanks are deteriorating fastest."
+      ]
+    },
+    {
+      "id": "charterers-terminals-age",
+      "h": "How charterers, vetting and terminals treat older ships",
+      "p": [
+        "Age matters commercially before it matters to class. Tanker charterers and oil-major vetting departments typically screen ships more closely as they pass fifteen and then twenty years, and some charterers and terminals decline tankers beyond a stated age altogether. Dry bulk charterers and vetting providers have moved the same way. Policies differ between companies and shift with the market, so check those of the charterers and terminals in the ship's intended trades rather than rely on a general rule.",
+        "A Condition Assessment Programme rating from the classification society is the usual way to argue that an older ship should be judged on its condition. CAP gauging is wider than the renewal survey minimum and graded to the society's procedure, and the rating, not the gauging firm's report, is what charterers read. For single-hull oil tankers still subject to it, the IMO Condition Assessment Scheme under regulations 20 and 21 of MARPOL Annex I is a separate, mandatory regime ending in a Statement of Compliance from the flag Administration; very few such ships still trade internationally."
+      ],
+      "links": [
+        [
+          "/maritime/condition-assessment-programme",
+          "CAP thickness measurement"
+        ],
+        [
+          "/maritime/condition-assessment-scheme",
+          "CAS (Condition Assessment Scheme)"
+        ]
+      ]
+    },
+    {
+      "id": "renew-sell-recycle",
+      "h": "Renew, sell or recycle: deciding before survey No. 4 or No. 5",
+      "p": [
+        "For many owners the 20 or 25-year survey is where a ship's future is settled. The inputs are the expected steel and coating work, the dock days and time off hire they bring, the ship's earnings outlook under charterer age policies, its value to a buyer with the survey still ahead, and its value for recycling. Every input except the market figures depends on a sound estimate of the steel, which is why a condition assessment some months before the decision is worth commissioning even when the ship will probably go. The factors usually weighed:",
+        "A buyer looking at a ship near No. 4 runs the same calculation from the other side, usually with a pre-purchase inspection aimed at the structure the survey will examine."
+      ],
+      "list": [
+        "Steel renewal estimate in tonnes by area, from owner's gauging and trended earlier reports",
+        "Coating repair or renewal scope for the tanks that will stay in service",
+        "Dock days needed now, and whether the intermediate survey that follows brings a second heavy docking",
+        "Acceptance of the ship at its age by the charterers and terminals in its intended trades",
+        "Value with the survey ahead against value once the survey is passed",
+        "Recycling readiness: an up-to-date Inventory of Hazardous Materials and the recycling rules that apply to the flag"
+      ],
+      "links": [
+        [
+          "/maritime/pre-purchase-inspection",
+          "Pre-purchase inspection"
+        ],
+        [
+          "/maritime/vessel-condition-survey",
+          "Vessel condition survey"
+        ]
+      ]
+    },
+    {
+      "id": "recycling-rules",
+      "h": "Ship recycling rules: the Hong Kong Convention, the EU regulation and the IHM",
+      "p": [
+        "If the answer is recycling, the rules have changed recently. Since 26 June 2025 the Hong Kong Convention (formally the Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships) has been in force, creating a binding international regime for recycling facilities and for the ships sent to them, built around an Inventory of Hazardous Materials and surveys and certification before the ship is recycled. Ships flying the flag of an EU member state are also subject to the EU Ship Recycling Regulation, (EU) No 1257/2013, which requires recycling at a facility on the European List, and ships of any flag calling at EU ports must carry an IHM under the same regulation.",
+        "An IHM that has not been maintained since it was drawn up is a common weakness on older ships, because equipment, pipework and coatings have been replaced over the years. Bringing it up to date before a sale for recycling, or before a final voyage, avoids delay at the point where the ship can least absorb it."
+      ],
+      "links": [
+        [
+          "/maritime/inventory-of-hazardous-materials",
+          "IHM (Inventory of Hazardous Materials)"
+        ]
+      ]
+    },
+    {
+      "id": "owner-condition-assessment",
+      "h": "How an owner's condition assessment supports the decision",
+      "p": [
+        "An owner's condition assessment gathers, in one visit, the evidence a renew, sell or recycle decision needs: gauging of the structure the survey will examine, close-up observation of coating and corrosion pattern, crack detection at known fatigue details, and machinery condition readings by vibration analysis and thermography. Atlantis NDT runs this as CVIP, the Comprehensive Vessel Inspection Programme, which owners often describe as an owner's CAS or owner's CAP. It follows the pattern of a condition assessment for the owner's own requirement, not for class or flag, and it carries no CAP rating and no CAS Statement of Compliance.",
+        "Readings credited to class surveys are taken by a firm the ship's own society has approved under IACS UR Z17, in the presence of that society's surveyor. No society has approved Atlantis yet: it is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS. Its readings therefore inform the owner ahead of the survey and do not stand in for the class gauging done during it. Teams are mobilised from India to the ship; enquiries go to info@atlantisndt.com or through the form on this page."
+      ],
+      "links": [
+        [
+          "/maritime/comprehensive-vessel-inspection-programme",
+          "CVIP (Comprehensive Vessel Inspection Programme)"
+        ],
+        [
+          "/maritime/condition-monitoring",
+          "Condition monitoring"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.4 – Hull surveys of double hull oil tankers",
+    "2011 ESP Code (IMO resolution A.1049(27)), mandatory through SOLAS regulation XI-1/2",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
+    "MARPOL Annex I, regulations 20 and 21, and the IMO Condition Assessment Scheme (resolution MEPC.94(46))",
+    "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships, 2009",
+    "Regulation (EU) No 1257/2013 on ship recycling",
+    "IACS UR Z17 – Procedural requirements for service suppliers"
+  ],
+  "deliverables": [
+    "Thickness measurement reports from the 10-year, 15-year and intermediate surveys, with consistent point numbering",
+    "Register of carried-forward suspect areas and substantial corrosion, with dates and trend",
+    "Record of steel renewed at earlier dockings, with locations and grades",
+    "Ballast tank coating grades and repair history",
+    "Owner's pre-docking gauging and steel estimate by area, with allowances for structure not reached",
+    "Charterer and terminal age policies for the intended trades, and any CAP history",
+    "An up-to-date Inventory of Hazardous Materials"
+  ],
+  "industries": [
+    "Older crude oil, product and chemical tankers",
+    "Bulk carriers over 15 years",
+    "General cargo and multipurpose ships",
+    "Container ships approaching their 20-year survey",
+    "Technical managers and fleet planners",
+    "Buyers of older tonnage",
+    "Financiers reviewing older ships in a portfolio"
+  ],
+  "faqs": [
+    {
+      "q": "How old is a ship at the fourth special survey?",
+      "a": "Renewal survey No. 4 applies to ships over fifteen years old, so it normally falls at the end of the fourth five-year class cycle, around twenty years. The unified requirements treat every later renewal survey, at about 25 and 30 years, as No. 4 and subsequent, with the same minimum extent. Later surveys usually go further in practice, because the surveyor extends gauging wherever wastage appears and every carried-forward area is measured again."
+    },
+    {
+      "q": "Does a 20-year-old ship have to dry dock for its intermediate survey?",
+      "a": "For tankers and bulk carriers under the enhanced survey programme, generally yes. Past fifteen years the ESP Code builds a drydock survey into the intermediate survey, and UR Z3 keeps every bottom examination of an older ESP ship in dry dock. Other ship types may be allowed an in-water survey in lieu of a bottom examination, where class allows it. Confirm the arrangement with the society well before the window opens."
+    },
+    {
+      "q": "Is there a maximum age for tankers and bulk carriers?",
+      "a": "Class rules set no age at which a ship must stop trading; a ship stays in class while it passes its surveys. Age limits come from elsewhere: charterer and terminal policies, vetting practice, the requirements of some flags and ports, and, for single-hull tankers, the MARPOL phase-out rules. They vary by company and trade, so check the policies that apply to the ship's intended employment before deciding on the survey."
+    },
+    {
+      "q": "How much steel is usually renewed at the 20-year special survey?",
+      "a": "No single figure holds across ship types, sizes and trades. The quantity depends on how well the ballast tank coatings were kept, what was renewed at fifteen years, the cargoes carried and the design's corrosion margins. The dependable way to know is to trend the earlier thickness reports and gauge the likely areas before docking, then express the result as tonnes by area with an allowance for what could not be reached."
+    },
+    {
+      "q": "What is the difference between CAP and CAS for an older tanker?",
+      "a": "CAS is the IMO Condition Assessment Scheme, a mandatory regime under MARPOL Annex I for older single-hull oil tankers, ending in a Statement of Compliance from the flag Administration; few ships still need it. CAP is a voluntary class service giving a graded rating of condition, which charterers ask for on older double-hull tankers and bulk carriers. CVIP, an owner's programme, follows the pattern of both for the owner's own purposes and issues neither."
+    },
+    {
+      "q": "What does a ship need before it goes for recycling?",
+      "a": "Under the Hong Kong Convention, in force since 26 June 2025, and for EU-flagged ships the EU Ship Recycling Regulation, the ship needs a current Inventory of Hazardous Materials and must go to an authorised recycling facility, with the surveys and certification those rules require before the final voyage. The detail depends on the flag and the facility chosen, so confirm it with the flag Administration and class early, and update the IHM before the sale."
+    }
+  ]
+}

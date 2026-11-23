@@ -1,0 +1,266 @@
+{
+  "slug": "third-special-survey-15-years",
+  "navLabel": "Third Special Survey (15 Years)",
+  "title": "15-Year Special Survey: Renewal Survey No. 3 and Steel Renewal",
+  "description": "What the 15-year special survey (renewal survey No. 3) examines, why it brings steel renewal, and how owners plan the gauging, docking and sale decision.",
+  "h1": "The Third Special Survey at 15 Years: Scope, Steel and Planning",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "Renewal survey No. 3 falls when a ship is between ten and fifteen years old, and for many hulls it is the survey that turns corrosion from a line in the report into a steel renewal list. Close-up survey and thickness measurement widen sharply under the IACS unified requirements, ballast tank coatings are often near the end of their life, and plating and stiffener margins are thin. This guide explains what class examines, where steel is usually lost, and how owners plan the docking, the steel and the decision to keep or sell.",
+  "highlights": [
+    {
+      "h": "Scope widens at No. 3",
+      "p": "At the third renewal survey the unified requirements ask for far more close-up survey: every hold frame in two holds and half of them elsewhere on a single-side skin bulk carrier, more web frames in every ballast tank of a double-hull tanker, and more transverse sections."
+    },
+    {
+      "h": "Coatings and margins run out together",
+      "p": "Ballast tank coatings applied to the IMO performance standard aim at a fifteen-year useful life, and older systems often fail sooner. Once they break down, wastage accelerates on exactly the members whose allowable diminution has already been partly used."
+    },
+    {
+      "h": "Steel known before the yard quotes",
+      "p": "Owner's gauging some months before the docking turns an open allowance into a list of members to renew, with dimensions, locations and original thicknesses, so shortlisted yards quote the same work and steel can be ordered with its certificates in time."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-no3-sits",
+      "h": "Where renewal survey No. 3 sits in the hull survey cycle",
+      "p": [
+        "Renewal survey No. 3 applies when the ship is over ten and up to fifteen years old, which in practice means the docking at the end of the third five-year class cycle. As with any renewal survey, work can begin at the fourth annual survey and continue to completion by the fifth anniversary date, and anything started before that is credited when the whole survey finishes within 15 months. One of the cycle's two bottom examinations is held with it, so No. 3 is almost always a drydock survey.",
+        "Before it comes the intermediate survey, held in place of the second or third annual survey of the cycle. On ESP tankers and bulk carriers of twelve or thirteen, that survey already repeats the extent of renewal survey No. 2, so the owner reaches No. 3 with recent readings, a fresh list of substantial corrosion and a coating grade for every ballast tank. Planning starts there."
+      ],
+      "links": [
+        [
+          "/maritime/intermediate-survey",
+          "Intermediate survey guide"
+        ],
+        [
+          "/maritime/special-survey-by-ship-age",
+          "Special survey by ship age"
+        ]
+      ]
+    },
+    {
+      "id": "close-up-survey-extent",
+      "h": "What close-up survey covers at the 15-year special survey",
+      "p": [
+        "Close-up survey means the surveyor examining structure within arm's reach, normally in a cleaned, ventilated and lit space, with the gauging team alongside. The table gives examples of the minimum lists at No. 3 for three common ship types, from the annex tables of the ESP Code for single-side skin bulk carriers and double-hull oil tankers (applied by IACS members through UR Z10.2 and UR Z10.4) and from UR Z7.1 for single-side skin general dry cargo ships. On ESP ships the survey programme adds critical and suspect areas, and the surveyor extends the list wherever findings call for it."
+      ],
+      "table": {
+        "head": [
+          "Ship type and rule",
+          "Close-up survey at renewal survey No. 3 (examples)",
+          "What it typically reveals"
+        ],
+        "rows": [
+          [
+            "Single-side skin bulk carrier (UR Z10.2)",
+            "All shell frames, with end attachments and adjacent shell plating, in the forward cargo hold and one other selected hold, and half of the frames in each remaining hold; transverse webs and bulkheads in the water ballast tanks",
+            "Wasted or cracked frames and brackets, weld grooving, grab damage"
+          ],
+          [
+            "Double-hull oil tanker (UR Z10.4)",
+            "Web frames in selected ballast tanks and, in each remaining ballast tank, the knuckle area and upper part of one web frame; deck transverses or web frames and transverse bulkheads in selected cargo tanks",
+            "Upper wing tank and double-bottom wastage, knuckle cracks, under-deck corrosion"
+          ],
+          [
+            "General dry cargo ship, single side skin (UR Z7.1)",
+            "All shell frames in the forward lower hold and a quarter of the frames in each other hold; all cargo hold and ballast tank transverse bulkheads; all transverse webs in each ballast tank; all hatch covers and coamings; deck between the hatches; all inner bottom plating",
+            "Frame and bracket wastage, tank top wear and pitting, coaming and cover plating loss"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "thickness-measurement",
+      "h": "How thickness measurement grows at renewal survey No. 3",
+      "p": [
+        "Gauging follows the same escalation. UR Z7.1 asks at No. 3 for two transverse sections within the amidships half-length in way of two different cargo spaces (fewer on ships under 100 m), each deck plate outside the line of hatch openings along the cargo length, all wind-and-water strakes in the cargo length and selected ones beyond it, and readings on every member under close-up survey. The ESP annexes for tankers and bulk carriers go further into the internal structure of the tanks and holds surveyed close up, and UR Z7 applies a comparable step to other ship types.",
+        "A transverse section, or belt, gauges every longitudinal member round the hull at one frame position. For oil tankers 130 m long or more, the ESP Code has class evaluate hull girder longitudinal strength with the thicknesses from the renewal survey held after the ship reaches ten years of age, which for most tankers is this one, so missing or doubtful belt readings hold up the survey.",
+        "Readings beyond the allowable margin mean renewal. Readings in the substantial corrosion band, more than three-quarters of the allowable margin gone, trigger the additional measurements tabulated in the unified requirements and stay on record until the steel is renewed. On Common Structural Rules ships the band is a measured thickness between the renewal thickness and half a millimetre above it."
+      ]
+    },
+    {
+      "id": "why-steel-renewal",
+      "h": "Why the 15-year survey is the one most likely to bring steel renewal",
+      "p": [
+        "Three trends meet at about fifteen years. The IMO performance standard for protective coatings in dedicated seawater ballast tanks, required on newer ships through SOLAS regulation II-1/3-2, targets a useful life of fifteen years, and older ships often carry less durable systems. Scantling corrosion margins are consumed at a pace set largely by how long the coating held. And the survey now measures structure never measured before, so years of wastage appear on paper at once.",
+        "Coating condition is graded at each survey as GOOD (only minor spot rusting), FAIR (local breakdown at stiffener edges and weld connections) or POOR (general breakdown over 20 per cent or more of the area, or hard scale). Many ballast tanks slip from FAIR to POOR between the 10-year and 15-year surveys. A tank found POOR and left unrepaired, or protected by a soft or semi-hard coating, is then examined at every annual survey, so the coating decision taken at this docking shapes the next five years of surveys as well as the steel.",
+        "Pitting gathers where water and sediment lie: ballast tank bottoms, the upper faces of stringers and longitudinals and, on crude carriers, cargo tank bottoms. Grooving runs along weld toes at frame and longitudinal connections. A spot reading between pits overstates the remaining steel, so pit depth and intensity are recorded separately and judged against their own limits."
+      ]
+    },
+    {
+      "id": "where-steel-is-lost",
+      "h": "Where steel is usually found at 15 years, by ship type",
+      "p": [
+        "Design and trade change the details, but certain locations recur at this age often enough that pre-survey gauging should start with them.",
+        "On single-side skin bulk carriers not built to the later side-structure standards, hold side frames and brackets have renewal criteria of their own. IMO resolution MSC.168(79), applied by IACS through UR S31, requires them to be assessed by the time the ship is ten years old and at every intermediate and renewal survey after that. At No. 3 they are measured again; readings close to the criteria widen the gauging, and a hold where any frame needs renewal or other measures has every frame gauged."
+      ],
+      "table": {
+        "head": [
+          "Ship type",
+          "Structure most often wasted or cracked by 15 years",
+          "Why it happens"
+        ],
+        "rows": [
+          [
+            "Single-side skin bulk carrier",
+            "Hold side frames and lower brackets, shell plating at the frame toes, hopper and topside tank internals, hatch coamings and covers, corrugated bulkhead lower strakes and stools",
+            "Cargo abrasion and grab contact, condensation and corrosive cargoes on the frames, ballast tank coating failure"
+          ],
+          [
+            "Double-hull oil tanker",
+            "Web frames, longitudinals and brackets in the upper wing tanks and the double bottom, under-deck structure in cargo tanks, pitting in cargo tank bottoms",
+            "Ballast tanks warmed by heated cargo, vapour-space corrosion under deck, water and sludge on tank bottoms"
+          ],
+          [
+            "General cargo and multipurpose ship",
+            "Tank top plating, frames and brackets in single-skin holds, tweendeck plating, ballast tank internals, hatch covers",
+            "Cargo handling wear, condensation in the holds, coating breakdown in the tanks"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "/maritime/bulk-carrier-inspection",
+          "Bulk carrier inspection guide"
+        ],
+        [
+          "/maritime/oil-tanker-inspection",
+          "Oil tanker inspection guide"
+        ],
+        [
+          "/maritime/hull-structural-integrity",
+          "Hull structural integrity"
+        ]
+      ]
+    },
+    {
+      "id": "charterers-and-cap",
+      "h": "Charterers, vetting and CAP from about 15 years",
+      "p": [
+        "Commercial attention to age also begins in earnest around fifteen years. Tanker charterers and oil-major vetting departments commonly screen ships of this age more closely, and many start asking for a Condition Assessment Programme rating: a voluntary class assessment, graded on close-up survey and gauging wider than the renewal survey minimum, that lets the ship be judged on its steel rather than its year of build. Dry bulk charterers and vetting providers increasingly take the same view.",
+        "Owners who expect to need CAP often schedule it with No. 3, so one round of cleaning, staging and gauging serves both, agreeing with the society beforehand how the readings are used for each."
+      ],
+      "links": [
+        [
+          "/maritime/condition-assessment-programme",
+          "CAP thickness measurement"
+        ]
+      ]
+    },
+    {
+      "id": "planning-the-steel",
+      "h": "Planning the steel and the docking for renewal survey No. 3",
+      "p": [
+        "With an early start, the steel scope of a 15-year survey can be estimated usefully before the ship reaches the yard. A sequence many technical managers follow:",
+        "A steel estimate in tonnes is a planning figure, not a promise. Bottom shell plating, high structure that needs staging and any cargo tank that cannot be cleaned while trading usually stay unmeasured until the dock, and class gauging can lengthen the list. A measured core with a stated allowance still lets the owner book enough dock days and compare yards on one scope."
+      ],
+      "list": [
+        "About a year ahead: review the class status report, any conditions of class, the substantial corrosion and suspect areas recorded at the intermediate survey, and each ballast tank's coating grade",
+        "Trend the earlier TM reports: diminution at each point divided by age gives a local rate to project to the docking date",
+        "Some months ahead: gauge the members most likely to need renewal during a port stay when ballast tanks, holds and cleaned cargo tanks can be entered safely",
+        "Turn the readings into a renewal list by tank or area, with member dimensions, original thicknesses and marked-up drawings, then into an estimate of steel weight with allowances for structure not reached",
+        "Put the steel list and coating repair scope into the repair specification, so the yards quote the same work and steel of the right grades can be ordered",
+        "For ESP ships, agree the survey programme with class, naming the approved thickness measurement firm, and hold the survey planning meeting before work starts"
+      ]
+    },
+    {
+      "id": "coating-decisions",
+      "h": "Coating repair or renewal at the 15-year docking",
+      "p": [
+        "The coating decision at No. 3 deserves as much thought as the steel. New plate fitted into a tank whose remaining coating is POOR starts corroding again at once, and the tank stays on annual examination. The choices run from spot repair of breakdown at edges and welds, through partial recoating of tank upper parts where heat and condensation do most harm, to full blasting and recoating. IACS Recommendation 87 gives guidance on coating maintenance and repair in ballast tanks and combined cargo/ballast tanks of oil tankers, and the coating maker's specification sets surface preparation and film thickness. Coating condition recorded beside each reading during pre-survey gauging shows where recoating protects the most remaining steel."
+      ]
+    },
+    {
+      "id": "sell-before-15",
+      "h": "Selling before the 15-year survey: what buyers look for",
+      "p": [
+        "Some owners sell before renewal survey No. 3 rather than take it on, and buyers know it. A ship offered with the survey close is valued against the steel and coating work the buyer expects to inherit, so the seller's gauging, the intermediate survey readings and the coating grades become part of the negotiation. A buyer's pre-purchase inspection concentrates where the coming survey will: ballast tanks, holds or cargo tanks, decks and hatch covers. Sellers who commission gauging before marketing the ship can answer with measured data instead of leaving the buyer to assume a pessimistic steel figure."
+      ],
+      "links": [
+        [
+          "/maritime/pre-purchase-inspection",
+          "Pre-purchase inspection"
+        ],
+        [
+          "/maritime/vessel-condition-survey",
+          "Vessel condition survey"
+        ]
+      ]
+    },
+    {
+      "id": "owner-gauging-and-class",
+      "h": "Owner's gauging, class-credited gauging and where Atlantis fits",
+      "p": [
+        "Gauging that counts towards the renewal survey has to come from a thickness measurement firm holding IACS UR Z17 approval from the ship's own classification society, and that society's surveyor attends it. Atlantis NDT does not yet hold that approval from any society; it is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, and until one of them certifies it, our readings serve the owner's own decisions: pre-docking gauging and steel estimates, coating condition surveys, pre-purchase and condition surveys, and CVIP, the owner's whole-ship inspection programme.",
+        "For every job a team is mobilised from India to the vessel. Reports follow the IACS forms and the point numbering of earlier class reports, so the yard gauging can be checked against them reading by reading. Send enquiries to info@atlantisndt.com, or use the enquiry form below."
+      ],
+      "links": [
+        [
+          "/maritime/comprehensive-vessel-inspection-programme",
+          "CVIP (Comprehensive Vessel Inspection Programme)"
+        ],
+        [
+          "/maritime/special-survey-thickness-measurement",
+          "Special survey thickness measurement"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.4 – Hull surveys of double hull oil tankers",
+    "2011 ESP Code (IMO resolution A.1049(27)), mandatory through SOLAS regulation XI-1/2",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
+    "IMO resolution MSC.168(79) and IACS UR S31 – Side shell frame renewal criteria for single-side skin bulk carriers",
+    "SOLAS regulation II-1/3-2 – Performance standard for protective coatings in ballast tanks (PSPC)",
+    "IACS Recommendation 87 – Coating maintenance and repairs for ballast tanks and combined cargo/ballast tanks on oil tankers"
+  ],
+  "deliverables": [
+    "Class status report with due dates, conditions of class and memoranda",
+    "Thickness measurement reports from renewal survey No. 2 and the intermediate survey, with sketches and point numbering",
+    "List of suspect areas and substantial corrosion carried forward, with locations",
+    "Ballast tank coating grades and repair history, tank by tank",
+    "Owner's pre-docking gauging with a steel renewal list and marked-up drawings",
+    "Repair specification with steel, coating and access sections",
+    "For ESP ships: the completed survey planning questionnaire and the agreed survey programme"
+  ],
+  "industries": [
+    "Single-side skin and double-skin bulk carriers",
+    "Crude oil and product tankers",
+    "Chemical tankers",
+    "Container ships",
+    "General cargo and multipurpose ships",
+    "Technical managers and superintendents",
+    "Buyers and sellers of ships approaching 15 years"
+  ],
+  "faqs": [
+    {
+      "q": "How old is a ship at its third special survey?",
+      "a": "Renewal survey No. 3 applies when the ship is over ten and up to fifteen years old, so it normally falls in the docking at the end of the third five-year class cycle. It can be commenced at the fourth annual survey and completed by the fifth anniversary date. Work started earlier still is credited when the whole survey is finished within 15 months."
+    },
+    {
+      "q": "Is steel renewal unavoidable at the 15-year survey?",
+      "a": "Not always. A ship whose ballast tank coatings have been maintained, and whose trade is kind to the structure, can pass No. 3 with modest renewal. What changes is certainty: the survey gauges far more structure, so whatever wastage exists will be found. Trending the 10-year and intermediate readings, then gauging the likely areas before docking, tells the owner which case applies in time to plan."
+    },
+    {
+      "q": "What is a transverse section in ship thickness measurement?",
+      "a": "It is a belt of readings round the hull at one frame position, covering every longitudinal member: deck, side shell, bilge, bottom, inner bottom and any longitudinal bulkheads. Sections show how much of the hull girder's cross-section remains, feed the longitudinal strength evaluation on larger oil tankers, and grow in number at each renewal survey."
+    },
+    {
+      "q": "Does a ballast tank with POOR coating have to be recoated at the 15-year survey?",
+      "a": "The rules do not order recoating, but they attach a consequence. A ballast tank whose hard coating is POOR and not repaired, or which has a soft or semi-hard coating, is examined at every annual survey afterwards, with thickness measurement where the surveyor thinks it necessary. Many owners recoat the worst tanks at No. 3 rather than face five years of annual tank entries and faster corrosion of newly renewed steel."
+    },
+    {
+      "q": "Should we arrange CAP at the same time as the 15-year survey?",
+      "a": "If charterers are likely to ask for a Condition Assessment Programme rating, combining it with renewal survey No. 3 avoids a second round of tank cleaning and staging. CAP gauging is usually wider than the renewal survey minimum, and the society decides how the measurements serve both, so settle that before the docking. A look at the likely CAP outcome during pre-docking gauging shows whether steel renewal should come first."
+    },
+    {
+      "q": "Is it better to sell a ship before its third special survey?",
+      "a": "It depends on the steel and coating work the survey will bring, the ship's earnings outlook and what buyers will pay for a ship with the survey still ahead. Buyers allow for the work they expect to inherit, so a seller's position is strongest with measured evidence: recent gauging, coating grades and the intermediate survey record. Without it, a buyer usually assumes a pessimistic steel figure and values the ship accordingly."
+    }
+  ]
+}

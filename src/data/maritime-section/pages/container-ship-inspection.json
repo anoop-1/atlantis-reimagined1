@@ -1,0 +1,200 @@
+{
+  "slug": "container-ship-inspection",
+  "navLabel": "Container Ship Inspection Guide",
+  "title": "Container Ship Inspection: Hatch Corners, Cell Guides and Decks",
+  "description": "How container ships are inspected: hatch corner fatigue, thick deck plating, cell guides, lashing bridges, pontoon covers and the UR Z7 hull survey cycle.",
+  "h1": "How Container Ships Are Inspected: Upper Deck, Hatch Covers, Holds and Surveys",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "A container ship is an open box. Its huge hatch openings leave little deck plating, so the hull's bending and twisting strength is carried by the coaming tops, the sheer strake and the side tanks beneath them. That design decides where surveyors look and where defects appear. This guide explains how container ships are surveyed under the general IACS hull rules, where fatigue cracks, contact damage and corrosion usually turn up, what the large-ship rules on thick plating mean in service, and what owners check before a docking, a redelivery or a sale.",
+  "highlights": [
+    {
+      "h": "Cracks start where the deck is narrowest",
+      "p": "Hatch corners, coaming top ends, cross-deck strips and the sheer strake carry the highest stresses in an open hull. Fatigue cracks in these details are found at close range after cleaning, and confirmed with magnetic particle testing before anyone decides on a repair."
+    },
+    {
+      "h": "General hull rules, not ESP",
+      "p": "Dedicated container ships sit outside the enhanced survey programme and outside the general dry cargo requirements of UR Z7.1. They are surveyed under UR Z7, with IACS Recommendation 84 as the reference for typical damage and repairs, so the owner shapes much of the gauging plan."
+    },
+    {
+      "h": "Cargo operations leave their marks",
+      "p": "Containers lowered against cell guides, spreaders striking coamings and heavy stacks on pontoon covers all leave damage behind. Owners record it at delivery, at redelivery and before a sale, because damage discovered months after a charter has ended is hard to attribute to anyone."
+    }
+  ],
+  "sections": [
+    {
+      "id": "open-hull-design",
+      "h": "Why are container ships inspected differently from other cargo ships?",
+      "p": [
+        "On a bulk carrier or a tanker the main deck is a continuous plate working as the top flange of the hull girder. On a container ship most of that deck has been cut away for the hatches, leaving narrow strips outboard of the coamings and between the openings. Longitudinal strength moves into the hatch side coamings, the coaming top plates, the deck strips and the sheer strake, and twisting stiffness is recovered by the torsion box along each side, formed by the upper deck, side shell, inner side and a stringer deck below.",
+        "Three consequences follow. Stress concentrates wherever this upper structure changes shape: at hatch corners, at coaming ends and where the open hull meets the deckhouse and forecastle. The ship flexes and twists more than a closed-deck ship, so fatigue rather than corrosion tends to produce the earliest serious defects. And the fittings that guide and secure containers take daily contact damage that a surveyor sees at every visit."
+      ]
+    },
+    {
+      "id": "survey-rules",
+      "h": "Which IACS survey rules apply to a container ship?",
+      "p": [
+        "UR Z7, Hull Classification Surveys, applies to all self-propelled ships, and for a dedicated container ship it is the governing hull survey requirement. The ship is not one of the ESP types covered by SOLAS chapter XI-1, and UR Z7.1, which deals with general dry cargo ships, lists dedicated container carriers among the ships it excludes. Annual surveys fall within three months either side of each anniversary date, an intermediate survey replaces the second or third annual, and UR Z3 calls for at least two examinations of the outside of the bottom in each five-year period, never more than 36 months apart.",
+        "The minimum thickness measurement extent rises with each special survey, as the table shows. For ships under 100 m long, which covers many feeders, UR Z7 allows fewer transverse sections at the third and later surveys. These are floors, not targets: the surveyor extends readings wherever findings justify it."
+      ],
+      "table": {
+        "head": ["Special survey", "Ship age", "UR Z7 minimum thickness measurement", "What a container ship gauging plan usually adds"],
+        "rows": [
+          ["No. 1", "Up to 5 years", "Suspect areas throughout the ship", "Hatch corners and coaming top ends where coating cracks or contact damage were noted at annual surveys"],
+          ["No. 2", "Over 5 up to 10 years", "Suspect areas and one transverse section of deck plating in way of a cargo space within the amidships 0.5L", "Torsion box structure in way of that section, and double-bottom ballast tanks showing coating breakdown"],
+          ["No. 3", "Over 10 up to 15 years", "Suspect areas, two transverse sections in way of two cargo spaces, hatch covers and coamings, and the internals of the fore and after peaks", "Cross-deck strips, structure behind the bow flare and fuel tanks within the cargo length"],
+          ["No. 4 and later", "Over 15 years", "Suspect areas, at least three transverse sections within the amidships 0.5L and further items set by the rules", "Every area of substantial corrosion carried forward, and side ballast tanks along the whole cargo length"]
+        ]
+      }
+    },
+    {
+      "id": "hatch-corners-coamings",
+      "h": "Hatch corners, coaming tops and the sheer strake: where do fatigue cracks start?",
+      "p": [
+        "The hatch corner is the classic container ship detail. The deck plating is cut to a radius or an elliptical curve to spread stress where the opening meets the deck strip, and any notch in that edge can start a crack that grows with every voyage: a rough flame cut, a spatter mark, a temporary fitting cut away, or a corrosion pit. The same applies where coaming top plates and their brackets terminate, and at deckhouse and engine casing corners.",
+        "The sheer strake works with the deck as part of the upper flange. Where it is welded to the deck stringer rather than rounded into it, the gunwale weld is a fatigue detail of its own, and the shell longitudinals inside the torsion box carry cyclic loads from hull bending and sea pressure alike. Bulwark ends, chocks and fairleads welded to the sheer strake add stress raisers.",
+        "Paint cracking along a weld toe or corner edge is the usual early sign. The area is cleaned to bare metal and examined with magnetic particle testing, while ultrasonic testing or TOFD shows whether a crack runs into a thick butt weld below the surface. Crack length, frame location and the condition of earlier repairs are recorded so class can judge whether the repair approach should change."
+      ],
+      "links": [
+        ["/maritime/magnetic-particle-inspection", "Magnetic particle inspection (MPI)"],
+        ["/maritime/ultrasonic-weld-inspection", "Ultrasonic weld inspection"],
+        ["/maritime/tofd-inspection", "TOFD inspection"],
+        ["/maritime/hull-structural-integrity", "Hull structural integrity"]
+      ]
+    },
+    {
+      "id": "thick-plating-crack-arrest",
+      "h": "Thick deck plating and crack arrest on large container ships (UR S33)",
+      "p": [
+        "As container ships grew, the upper flange needed steel more than 50 mm thick, and in thick plate a brittle crack starting in a heavy butt weld can run a long way before anything stops it. IACS responded with UR S33, Requirements for Use of Extremely Thick Steel Plates in Container Ships, for ships contracted for construction on or after 1 January 2014. It covers upper deck plating, the hatch side coaming and the coaming top in YP36, YP40 and YP47 steels over 50 mm and up to 100 mm thick; thicker plate falls under each society's own procedures.",
+        "Depending on steel and thickness, the measures include ultrasonic testing during construction of the block-to-block butt joints in the upper flange, to IACS Recommendation No. 20, and crack arrest design: arrest steel in the upper deck, coaming and deck block butts shifted at least 300 mm apart, crack arrest holes or arrest insert plates, with enhanced NDT such as TOFD as an alternative in some combinations. Periodic NDT after delivery can be required at the society's discretion.",
+        "For an owner, the point is to know which arrangement the ship was built with, because a repair that fills an arrest hole, lines up staggered butts or substitutes an ordinary grade can undo the design. Repairs in this region are planned with class and the yard against the original concept."
+      ],
+      "table": {
+        "head": ["Crack arrest concept under UR S33", "What it means for in-service inspection"],
+        "rows": [
+          ["Brittle crack arrest steel in the upper deck plating", "Renewals are planned with class so that the arrest property is kept"],
+          ["Coaming and deck block butts shifted at least 300 mm apart", "The offset is part of the design, so inserts and renewals keep the butts staggered"],
+          ["Crack arrest holes at the coaming-to-deck weld junction", "The holes and their edges are examined for cracking and are never filled with weld"],
+          ["Arrest insert plates or high-toughness weld metal inserts", "Insert locations are recorded so that a nearby crack is judged against the arrest line"],
+          ["Enhanced NDT such as TOFD to stricter acceptance", "Construction NDT records become the baseline for any in-service examination class requires"]
+        ]
+      }
+    },
+    {
+      "id": "cell-guides-lashing",
+      "h": "Cell guides, lashing bridges and container securing points",
+      "p": [
+        "Cell guides are the vertical angle bars that hold container stacks in the holds, with flared entry guides at the top. They take repeated knocks during cargo operations, and the common findings are bent or twisted angles, cracked brackets where guides attach to bulkheads or web frames, and torn entry guides. A bent guide jams boxes and leaves slots unused, so alignment is checked against the ship's tolerances as well as by eye.",
+        "Lashing bridges on the coamings or between bays suffer contact damage, corroded gratings and fatigue at their foot connections. Deck and tank-top sockets, D-rings and lashing eyes are welded attachments, examined for weld cracks and wastage of the plating around them. Loose lashing gear is the crew's responsibility under the ship's Cargo Securing Manual; an owner's inspection checks that the records match what is on board."
+      ]
+    },
+    {
+      "id": "pontoon-hatch-covers",
+      "h": "Pontoon hatch covers: bearing pads, stoppers, cleats and seals",
+      "p": [
+        "Most container ships use steel pontoon covers lifted off by the terminal's crane, many carrying several tiers of containers. That load passes into the coaming through bearing pads, and stoppers and, on many ships, cleats keep the covers in place. Worn or missing pads, cracked stopper brackets, distorted cover edges, corroded top plating and damaged container fittings are the recurring findings, and coaming drain channels block and corrode.",
+        "UR Z7 includes steel pontoons, cleats and their securing devices in the annual survey, and the third special survey adds thickness measurement of covers and coamings. On covers built with deliberate clearances between panels, seals are judged against the maker's drawing; fully gasketed covers can be tightness-tested ultrasonically. Gauging is far easier once a cover is landed on the quay, so the docking plan should say when covers come off."
+      ],
+      "links": [
+        ["/maritime/hatch-cover-ultrasonic-testing", "Hatch cover ultrasonic tightness testing"],
+        ["/maritime/ultrasonic-thickness-measurement", "Ultrasonic thickness measurement (UTM)"]
+      ]
+    },
+    {
+      "id": "tanks-double-bottom",
+      "h": "Ballast tanks, double bottoms and the spaces where defects appear",
+      "p": [
+        "The double bottom is divided into ballast and fuel tanks, and the torsion box side tanks are usually ballast spaces. Frequent ballasting to manage trim, heel and draught on liner rotations keeps them wet, and once a hard coating is in POOR condition and not repaired, UR Z7 puts the tank on annual examination. Heated fuel tanks beside ballast spaces corrode faster on the shared boundary. The table brings together where defects usually appear on a container ship."
+      ],
+      "table": {
+        "head": ["Space or structure", "Typical defects", "What the inspection looks for"],
+        "rows": [
+          ["Hatch corners and coaming ends", "Fatigue cracks from the corner edge or weld toe", "Coating cracks, then MPI on cleaned steel; earlier repairs and their edges"],
+          ["Torsion box", "Fatigue at longitudinal end connections, corrosion in the side ballast tank", "Close-up of end brackets and cut-outs, gauging of plating and longitudinals"],
+          ["Cell guides", "Bent angles, cracked brackets, torn entry guides", "Alignment against tolerances, crack checks at attachments"],
+          ["Pontoon covers and coamings", "Worn bearing pads, cracked stoppers, corroded top plate", "Pad wear, stopper welds, cover plating thickness"],
+          ["Double-bottom ballast and fuel tanks", "Coating breakdown, pitting, edge corrosion", "Coating grade, pit depth, readings on tank top and bottom shell"],
+          ["Bow flare and forecastle", "Buckled panels, cracked frame connections from slamming", "Deformation records and crack checks behind the flare"]
+        ]
+      }
+    },
+    {
+      "id": "bow-flare-fore-end",
+      "h": "Bow flare and the fore and aft ends of large container ships",
+      "p": [
+        "Pronounced bow flare keeps the forward bays dry, but in heavy weather it slams into waves. The results are buckled shell panels between frames, cracked frame-to-stringer connections and damage to the breakwater and foremost stacks. Inside the forepeak and the spaces behind the flare, inspection records set-in plating and tripped stiffeners by frame so they can be followed at later surveys; forepeak internals join the UR Z7 minimum gauging from the third special survey.",
+        "At the aft end, the change from open cargo region to enclosed engine room structure is another stress concentration, with propeller-excited vibration adding cyclic load, so aft hatch corners deserve the same attention as those amidships."
+      ]
+    },
+    {
+      "id": "redelivery-and-sale",
+      "h": "What owners check at charter redelivery and before a sale",
+      "p": [
+        "At redelivery, owners and charterers compare the ship with the on-hire record: stevedore damage to cell guides, coamings, cover stoppers and lashing bridges, sockets, lashing gear against the inventory, and the reefer plant. Thermography of reefer switchboards and socket panels under load, and vibration readings on reefer and ventilation fans, add a condition record of those items.",
+        "A buyer looks further back: class status and conditions of class, hatch corner crack and repair history, earlier thickness reports, crack arrest records on larger ships and ballast tank coating condition. Together they say more about the next five years than the ship's age does.",
+        "Atlantis NDT supports these checks through pre-purchase inspections, vessel condition surveys and its Comprehensive Vessel Inspection Programme (CVIP), an owner-commissioned whole-ship condition assessment, sending teams from India to the ship for each job. Atlantis is not yet approved by any classification society under IACS UR Z17 and is in the process of obtaining that approval from DNV, Lloyd's Register and ABS; until a certificate is issued, its readings serve the owner's own decisions rather than credit to a class survey. Enquiries can go to info@atlantisndt.com."
+      ],
+      "links": [
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"],
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"],
+        ["/maritime/infrared-thermography", "Infrared thermography"]
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
+    "IACS UR S33 – Requirements for use of extremely thick steel plates in container ships",
+    "IACS Recommendation No. 84 – Container ships: guidelines for surveys, assessment and repair of hull structures",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "International Convention on Load Lines, 1966, and its 1988 Protocol",
+    "IMO Code of Safe Practice for Cargo Stowage and Securing (CSS Code)",
+    "ASTM E709 – Standard guide for magnetic particle testing",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography, general procedures"
+  ],
+  "deliverables": [
+    "Earlier thickness measurement reports with sketches, so readings can be repeated at the same points",
+    "The history of hatch corner, coaming and sheer strake cracks, with the repair method and date of each",
+    "Construction records showing the UR S33 crack arrest arrangement and any in-service NDT condition",
+    "Hatch cover and bearing pad arrangement drawings, and the Cargo Securing Manual",
+    "Stevedore damage reports and the lashing gear inventory from the current charter",
+    "Ballast tank coating condition records and the planned tank sequence for the docking",
+    "A plan for landing hatch covers and clearing holds so that corners, coamings and guides can be reached"
+  ],
+  "industries": [
+    "Container ship owners and technical managers",
+    "Feeder and regional container operators",
+    "Liner operators and time charterers at delivery and redelivery",
+    "Ship buyers and sale-and-purchase brokers",
+    "Superintendents planning special survey dockings",
+    "Ship-repair yards"
+  ],
+  "faqs": [
+    {
+      "q": "Are container ships part of the enhanced survey programme?",
+      "a": "No. The enhanced survey programme under SOLAS chapter XI-1 covers bulk carriers and oil tankers, and class extends it to chemical tankers. Dedicated container ships are surveyed under the general hull requirements of UR Z7. The extents are less prescriptive, so the owner's records of suspect areas, earlier cracks and coating breakdown have more influence on where the surveyor asks for close-up survey and readings."
+    },
+    {
+      "q": "Why do container ships crack at the hatch corners?",
+      "a": "Because the hatch openings remove most of the deck, the plating left at each corner carries concentrated stress from hull bending and twisting. Any notch at the corner edge, such as a rough cut, a spatter mark or a corrosion pit, can start a fatigue crack that grows with each loading cycle. Such cracks usually show as broken paint before anything else, and are confirmed by magnetic particle testing on cleaned steel."
+    },
+    {
+      "q": "What is UR S33 and does it apply to my ship?",
+      "a": "UR S33 sets requirements for extremely thick steel plates in container ships, covering upper deck and hatch coaming members over 50 mm and up to 100 mm thick in YP36, YP40 and YP47 steels. It applies to container ships contracted for construction on or after 1 January 2014. Whether a ship has arrest steel, staggered butts or arrest holes depends on its steel and plate thickness, and its construction records will show it."
+    },
+    {
+      "q": "Who inspects cell guides and lashing gear?",
+      "a": "Cell guides are hull structure and are seen by class at surveys, but damage happens daily, so the crew and superintendents track it between surveys and arrange repairs. Loose lashing gear is the crew's responsibility under the Cargo Securing Manual. An owner's inspection at redelivery or before a sale checks both, recording bent guides, cracked attachments and gear shortfalls against the inventory."
+    },
+    {
+      "q": "How often are container ship hatch covers surveyed?",
+      "a": "Hatch covers and coamings are examined at every annual survey under UR Z7, including steel pontoons, cleats and securing devices, with random operational checks. The special survey adds close-up survey of cover plating and coamings and a hose test or equivalent of the seals, and from the third special survey the minimum thickness measurement extent includes hatch covers and coamings."
+    },
+    {
+      "q": "What should a buyer ask for when inspecting a second-hand container ship?",
+      "a": "The class status and survey records, earlier thickness measurement reports, the history of hatch corner and coaming cracks with their repair method, construction records for crack arrest features on larger ships, ballast tank coating condition and the reefer plant records. An inspection on board then confirms the condition of the structure those records describe, and looks at the areas they leave out."
+    }
+  ]
+}

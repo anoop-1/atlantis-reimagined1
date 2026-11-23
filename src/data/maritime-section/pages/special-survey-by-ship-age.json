@@ -1,0 +1,206 @@
+{
+  "slug": "special-survey-by-ship-age",
+  "navLabel": "Special Survey by Ship Age",
+  "title": "Special Survey by Ship Age: 5, 10, 15 and 20-Year Surveys",
+  "description": "How a ship's renewal (special) survey grows at 5, 10, 15 and 20 years under IACS UR Z7, Z7.1 and the ESP Code, and how owners prepare for each one.",
+  "h1": "How the Renewal Survey Changes as a Ship Gets Older",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "Every classed ship faces a renewal survey, still widely called the special survey, every five years, and no two of them are alike. The minimum close-up survey, thickness measurement and tank testing written into the IACS unified requirements widen at each step, so the survey at fifteen years asks far more of the ship, the crew and the yard than the survey at five. This guide sets out the hull survey cycle, which rules apply to which ship, how the renewal survey grows from No. 1 to No. 4, and how owners arrive ready.",
+  "highlights": [
+    {
+      "h": "The rules are written by age",
+      "p": "The IACS hull survey requirements lay out close-up survey and gauging in columns headed by renewal survey number and age band. The attending surveyor can always go further, but each column sets the floor for that survey, and every column adds to the one before it."
+    },
+    {
+      "h": "Ship type changes the rulebook",
+      "p": "Oil tankers and bulk carriers follow the enhanced survey programme of the 2011 ESP Code; general dry cargo ships, gas carriers, container ships and other types follow UR Z7 and its supplements. The difference shows most in planning, gauging extent and the intermediate survey of older ships."
+    },
+    {
+      "h": "Preparation decides the docking",
+      "p": "Clean, gas-free tanks, safe access, complete records and an owner's own view of the steel before arrival shorten a renewal survey more than anything done once the ship is on the blocks. Most of that preparation can begin long before the yard slot."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-a-special-survey",
+      "h": "What is a special survey, and why does it grow with age?",
+      "p": [
+        "The special survey renews a ship's classification certificate for a further five years. IACS now calls it the renewal survey, but owners, yards and brokers still say special survey, and the names mean the same thing. The surveys are numbered in sequence: No. 1 falls on a ship of up to five years of age, No. 2 over five and up to ten, No. 3 over ten and up to fifteen, and No. 4 and every later survey on a ship more than fifteen years old.",
+        "Every renewal survey examines all cargo spaces, tanks, cofferdams and voids internally. What changes with age is depth: close-up survey, thickness measurement and, for some types, tank testing grow at each step, because coating breakdown, wastage, pitting and fatigue cracking all accumulate with time. The society's rules and the attending surveyor set the extent of any particular survey, and the surveyor extends it wherever findings justify more."
+      ]
+    },
+    {
+      "id": "hull-survey-cycle",
+      "h": "The five-year hull survey cycle: annual, intermediate, bottom and renewal surveys",
+      "p": [
+        "Class keeps the hull on a rolling five-year cycle. The timing rules below come from UR Z7 (hull surveys) and UR Z3 (examination of the outside of the ship's bottom); each society's rules add detail.",
+        "Two planning consequences follow. The renewal docking is normally one of the cycle's two bottom examinations, so its date fixes when the next docking falls due. And because the intermediate survey of an older ESP ship repeats most of the renewal scope, a tanker or bulk carrier past ten years faces two heavy surveys in each cycle rather than one."
+      ],
+      "table": {
+        "head": ["Survey", "When it falls", "Points owners tend to miss"],
+        "rows": [
+          ["Annual survey", "Within three months either side of each anniversary date", "Ballast tanks with unrenewed POOR coating, or soft or semi-hard coating, join every annual survey; older bulk carriers have holds examined too"],
+          ["Intermediate survey", "At or between the second and third annual surveys", "From ten years on oil tankers and bulk carriers it matches the previous renewal survey, and may run from the second annual survey to the third"],
+          ["Bottom examination", "A minimum of two per five-year period, one at the renewal survey, with 36 months as the longest permitted gap", "Class may accept an in-water survey for one of them where its rules allow; ESP ships aged 15 or more must be drydocked"],
+          ["Renewal survey", "Every five years; may start at the fourth annual survey and finish by the fifth anniversary", "Earlier work counts only if the whole survey is finished within 15 months; any extension is short and exceptional"]
+        ]
+      }
+    },
+    {
+      "id": "which-rules-apply",
+      "h": "Which IACS hull survey rules apply to which ship?",
+      "p": [
+        "UR Z7 is the base requirement for every self-propelled classed ship, and supplements add to it by type. For oil tankers and bulk carriers, SOLAS chapter XI-1, regulation 2 also makes the enhanced survey programme of the 2011 ESP Code (IMO resolution A.1049(27)) a statutory requirement. The governing document tells you how much planning the society expects and how fast the scope grows."
+      ],
+      "table": {
+        "head": ["Ship type", "Survey requirement", "What it means in practice"],
+        "rows": [
+          ["Container ships, ro-ro ships and other types without a supplement", "UR Z7", "One table of minimum gauging; no close-up table, so close-up examination follows the surveyor's findings"],
+          ["General dry cargo ships of 500 gross tonnage and above with single side skin holds", "UR Z7.1", "Tabulated close-up survey of hold frames, bulkheads, ballast tank webs and hatch covers; the intermediate survey takes renewal scope from fifteen years"],
+          ["Liquefied gas carriers", "UR Z7.2", "Emphasis on ballast tanks and the double-hull and void spaces around the cargo containment"],
+          ["Oil tankers", "UR Z10.1 and Z10.4 with the ESP Code", "Written survey programme, gauging by a firm approved by the ship's society, hull girder strength check after ten years on ships of 130 m and upwards"],
+          ["Bulk carriers", "UR Z10.2 and Z10.5 with the ESP Code", "Hold frames, hatch covers, ballast tank webs and hold bulkheads under close-up survey from the first renewal survey"],
+          ["Chemical tankers", "UR Z10.3", "The enhanced approach brought in through class; stainless or coated cargo tanks change how they are examined"]
+        ]
+      }
+    },
+    {
+      "id": "renewal-surveys-at-a-glance",
+      "h": "Renewal surveys No. 1 to No. 4: what grows at each step",
+      "p": [
+        "The table summarises minimum extents, using the single side skin bulk carrier requirements of the ESP Code as the close-up example and noting the main differences for oil tankers. It simplifies the annex tables; the survey programme and the society's rule text govern the actual survey.",
+        "Ships under UR Z7 alone, container ships among them, start lighter: suspect areas at the first survey, a transverse section of deck plating amidships at the second, and by the fourth at least three transverse sections plus the exposed main deck, all wind-and-water strakes, keel plates, the lowest strakes of hold bulkheads and the shell at sea chests and overboard discharges. From survey No. 2 onwards anchor chain cables are gauged as well as ranged."
+      ],
+      "table": {
+        "head": ["Renewal survey", "Age band", "Overall survey", "Close-up survey (ESP bulk carrier example)", "Minimum thickness measurement", "Tank testing"],
+        "rows": [
+          ["No. 1", "Up to 5 years", "All holds, tanks, cofferdams and voids", "25% of shell frames in the forward hold; one web in two representative topside or hopper tanks of each type; two hold bulkheads; all hatch covers and coamings", "Suspect areas; tankers add a full-beam section of deck plating in the cargo area", "All ballast tank boundaries; tankers add cargo tank boundaries facing ballast tanks and other spaces"],
+          ["No. 2", "Over 5, up to 10 years", "As No. 1", "All frames in the forward hold, 25% elsewhere; one web in every ballast tank; all hold bulkheads; deck structure between hatches", "Two transverse sections of deck plating with the wind-and-water strakes in way; tankers gauge each cargo-area deck plate and one section", "As No. 1; tankers add all cargo tank bulkheads"],
+          ["No. 3", "Over 10, up to 15 years", "As No. 1", "All frames in the forward hold and one other, half elsewhere; every ballast tank web and bulkhead", "Each deck plate outside the hatch line, two sections, all wind-and-water strakes in the cargo length", "As No. 2"],
+          ["No. 4 and later", "Over 15 years", "As No. 1", "All shell frames in all holds, ballast tanks as No. 3", "Three transverse sections, each bottom plate, wind-and-water strakes full length", "As No. 2"]
+        ]
+      }
+    },
+    {
+      "id": "esp-and-other-ships",
+      "h": "How ESP ships differ from other ships at the renewal survey",
+      "p": [
+        "UR Z7 asks for a survey planning meeting before any renewal survey, but ESP planning is far more formal. Nothing starts until the owner and the society agree a written survey programme, built from the owner's survey planning questionnaire and the ship's structural, repair, cargo and coating history. The planning meeting follows a set agenda and includes the thickness measurement firm, which must be approved by the ship's society under IACS UR Z17 for its readings to be credited.",
+        "Oil tankers of 130 m and upwards also have their hull girder longitudinal strength evaluated from renewal survey thicknesses once past ten years, so each transverse section must be gauged completely. General dry cargo ships under UR Z7.1 have close-up tables but lighter planning, while gas carriers under UR Z7.2 concentrate on ballast and double-hull spaces."
+      ]
+    },
+    {
+      "id": "intermediate-survey-growth",
+      "h": "The intermediate survey grows with age too",
+      "p": [
+        "Under UR Z7, a ship of five to ten years has representative ballast tanks examined at the intermediate survey, extended to others of the same type where coating is POOR, soft or absent, and from ten years every ballast space is examined. Oil tankers and bulk carriers go much further: from ten years their intermediate survey repeats the scope of the renewal survey before it, though pressure testing of every tank is left to the surveyor. Single side skin general dry cargo ships follow at fifteen years under UR Z7.1."
+      ],
+      "links": [["/maritime/intermediate-survey", "Intermediate survey guide"]]
+    },
+    {
+      "id": "coating-condition",
+      "h": "Coating condition: GOOD, FAIR, POOR and what each grade triggers",
+      "p": [
+        "IACS grades coatings in three steps. GOOD means no more than minor spot rusting. FAIR means local breakdown at stiffener and weld edges, or light rusting on at least a fifth of the surface, short of POOR. POOR means general breakdown on at least a fifth of the surface, or hard scale on a tenth or more. A ballast tank left with unrenewed POOR hard coating, given soft or semi-hard coating, or never hard-coated at all, is examined at every annual survey afterwards; on double-hull tankers, so is a tank with substantial corrosion or unrepaired hard coating below GOOD.",
+        "Newer ships built under SOLAS regulation II-1/3-2 and the IMO Performance Standard for Protective Coatings carry a Coating Technical File and a coating system with a target useful life of 15 years in GOOD condition, one reason the third renewal survey so often meets ballast coatings at the end of their life."
+      ]
+    },
+    {
+      "id": "preparing-for-renewal",
+      "h": "How owners prepare for a renewal survey",
+      "p": [
+        "What decides how smoothly a renewal survey runs happens before arrival. A sequence many technical managers follow, starting nine to twelve months out:"
+      ],
+      "list": [
+        "Ask the society for the survey status: window, conditions of class, memoranda and suspect areas carried forward",
+        "For ESP ships, return the survey planning questionnaire and agree the survey programme, transverse sections and thickness measurement firm",
+        "Gather the survey report file, earlier thickness reports with sketches, the Coating Technical File, repair history and crew tank inspection records",
+        "Commission owner's pre-survey gauging and a condition survey of the spaces likely to need steel or coating work",
+        "Send yards a specification covering steel, coatings, staging, cleaning and gas-freeing, tank testing and sea chest work",
+        "Agree the order in which tanks open, with ventilation, lighting and access, so the surveyor and gauging team never wait",
+        "Range the anchor chain and prepare hatch covers, closing appliances and bilge and ballast systems for examination and testing"
+      ],
+      "links": [["/maritime/special-survey-thickness-measurement", "Special survey thickness measurement"], ["/maritime/enhanced-survey-programme", "ESP gauging"], ["/maritime/hatch-cover-ultrasonic-testing", "Hatch cover ultrasonic tightness testing"]]
+    },
+    {
+      "id": "guides-by-age",
+      "h": "Guides to each renewal survey",
+      "p": [
+        "Each age band has its own guide to what the survey examines, the defects it usually finds and how to prepare."
+      ],
+      "list": [
+        "Five years: every space examined internally since delivery, light gauging, and the moment to fix reference points",
+        "Ten years: transverse sections and wider close-up survey arrive as ballast coatings begin to break down",
+        "Fifteen years: the step change in gauging and the survey most likely to bring steel renewal",
+        "Twenty years and later: the widest routine extents, charterer age limits and the renew, sell or recycle decision"
+      ],
+      "links": [["/maritime/first-special-survey-5-years", "First special survey (5 years)"], ["/maritime/second-special-survey-10-years", "Second special survey (10 years)"], ["/maritime/third-special-survey-15-years", "Third special survey (15 years)"], ["/maritime/fourth-special-survey-20-years", "Fourth and later special surveys (20+ years)"], ["/maritime/intermediate-survey", "Intermediate survey guide"]]
+    },
+    {
+      "id": "owner-inspection-beside-class",
+      "h": "Where an owner's inspection fits beside the class survey",
+      "p": [
+        "Class decides what is examined and accepted, and nothing an owner commissions changes that. What an owner can do is arrive knowing the answers. Atlantis NDT mobilises teams from India to the ship for owner's pre-survey gauging, condition surveys before a docking, and CVIP, our Comprehensive Vessel Inspection Programme: a whole-ship assessment modelled on a condition assessment but run to the owner's requirements, with no class rating attached. For readings to count towards a class survey, the firm taking them needs the approval of the ship's society under UR Z17. Atlantis holds no such approval today; it is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so our readings serve the owner's planning, not the survey record. Enquiries go to info@atlantisndt.com."
+      ],
+      "links": [["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"], ["/maritime/vessel-condition-survey", "Vessel condition survey"]]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull surveys",
+    "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
+    "IACS UR Z7.2 – Hull surveys for liquefied gas carriers",
+    "IACS UR Z10.1 to Z10.5 – Hull surveys of oil tankers, bulk carriers, chemical tankers, double hull oil tankers and double skin bulk carriers",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom",
+    "2011 ESP Code – IMO resolution A.1049(27), mandatory under SOLAS chapter XI-1, regulation 2",
+    "IMO Performance Standard for Protective Coatings (resolution MSC.215(82)) under SOLAS regulation II-1/3-2",
+    "IACS UR Z17 – Procedural requirements for service suppliers"
+  ],
+  "deliverables": [
+    "Survey status from the society, with the renewal window and any conditions of class",
+    "Survey planning questionnaire and agreed survey programme (ESP ships)",
+    "Previous thickness measurement reports with sketches and point numbering",
+    "Survey report file, Coating Technical File and repair history on board",
+    "Owner's pre-survey gauging and condition findings, with a steel and coating estimate",
+    "Tank-by-tank cleaning, gas-freeing, ventilation and access plan agreed with the yard"
+  ],
+  "industries": [
+    "Bulk carriers and ore carriers",
+    "Crude oil and product tankers",
+    "Chemical tankers",
+    "Container ships",
+    "General cargo and multipurpose ships",
+    "Liquefied gas carriers",
+    "Ship owners, technical managers and superintendents"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a special survey and a renewal survey?",
+      "a": "None in substance. Renewal survey is the term in the current IACS unified requirements; special survey is the older name most owners, yards and brokers still use. Both describe the five-yearly survey that renews the classification certificate. The survey number and the ship's type decide the minimum close-up survey and thickness measurement it involves."
+    },
+    {
+      "q": "Can a special survey be started early?",
+      "a": "Yes, within limits. UR Z7 lets the renewal survey begin at the fourth annual survey and run on until the fifth anniversary date. Anything examined before the fourth annual survey is credited provided the complete survey is finished within 15 months of the start. Owners use the window to spread tank examinations over port calls, with the society's agreement."
+    },
+    {
+      "q": "How many times must a ship be dry-docked in five years?",
+      "a": "UR Z3 requires the outside of the bottom to be examined a minimum of two times in every five-year period, one of them at the renewal survey, and sets 36 months as the longest gap between examinations. Where class allows it, one can be an in-water survey in lieu of a bottom examination, but ESP ships aged 15 or more have to be examined in drydock."
+    },
+    {
+      "q": "Which special survey is the hardest?",
+      "a": "For most ships the third, at about fifteen years. Gauging and close-up extents step up sharply, ballast coatings built to a fifteen-year target reach the end of their design life, and general wastage has consumed much of the corrosion margin. The fourth and later surveys go further still, and the ten-year readings are the key input for planning both."
+    },
+    {
+      "q": "Do container ships follow the enhanced survey programme?",
+      "a": "No. The ESP Code covers oil tankers and bulk carriers, and class brings chemical tankers into the same approach through UR Z10.3. Container ships and most other types are surveyed under UR Z7, while general dry cargo ships with single side skin holds fall under UR Z7.1. Their gauging still grows at each renewal survey, but without an ESP survey programme."
+    },
+    {
+      "q": "What documents does the surveyor ask for at a renewal survey?",
+      "a": "Previous thickness measurement reports with sketches, the survey status and conditions of class, the repair history and, on ESP ships, the survey report file with the executive hull summary and agreed survey programme. Ships built to the coating performance standard keep a Coating Technical File on board. Missing records tend to widen a survey, not narrow it."
+    },
+    {
+      "q": "Who decides how much thickness measurement the special survey needs?",
+      "a": "The classification society. The unified requirements fix a minimum by survey number and ship type, on ESP ships the agreed survey programme brings in suspect and critical areas, and the attending surveyor extends readings wherever corrosion or damage appears. An owner's own gauging beforehand does not change the class extent, but it shows where the surveyor is likely to ask for more."
+    }
+  ]
+}

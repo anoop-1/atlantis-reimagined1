@@ -1,0 +1,196 @@
+{
+  "slug": "oil-tanker-inspection",
+  "navLabel": "Oil Tanker Inspection Guide",
+  "title": "Oil Tanker Inspection: Ballast Tanks, Cargo Tanks and Vetting",
+  "description": "Double-hull oil tanker inspection: ballast tank coatings, cargo tank pitting, piping, ESP surveys under UR Z10.4, and what vetting checks on older tankers.",
+  "h1": "Inspecting Double-Hull Oil Tankers: Where They Corrode, How ESP Surveys Them and What Vetting Asks",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "A double-hull oil tanker carries two very different environments side by side: crude or refined product in the cargo tanks and seawater in the ballast spaces wrapped around them. The double hull keeps cargo away from the shell, but it also gives the ship an enormous area of coated ballast tank steel to keep sound, in spaces that are narrow, warm and hard to reach. This guide explains where tankers lose steel, how the enhanced survey programme examines them as they age, and what owners check before vetting, a charter or a sale.",
+  "highlights": [
+    {
+      "h": "Ballast spaces carry the risk",
+      "p": "Double-bottom, wing and hopper ballast tanks hold most of a tanker's coated steel. Once those coatings break down, corrosion at deckheads, bottoms and stiffener ends accelerates, and the close-up survey and gauging demanded in these spaces rise steeply at the later renewal surveys."
+    },
+    {
+      "h": "Cargo tanks pit from the bottom up",
+      "p": "Water and sludge settling under crude, sometimes with bacterial activity, cause deep, scattered pitting in uncoated cargo tank bottoms. Spot readings between the pits look healthy, so pit depth and pit density must be measured and reported apart from general plate thickness."
+    },
+    {
+      "h": "Vetting looks at the whole ship",
+      "p": "Charterers' inspections examine operations, records and visible condition, while older tankers often need a class CAP rating as well. A tanker whose structural records are current, consistent and easy to follow passes through both with fewer questions and fewer observations."
+    }
+  ],
+  "sections": [
+    {
+      "id": "single-to-double-hull",
+      "h": "From single hull to double hull: why tanker surveys look the way they do",
+      "p": [
+        "Enhanced inspection of tankers began on the pollution side. When the IMO adopted its 1993 guidelines on an enhanced programme of inspections, resolution A.744(18), compliance for larger tankers was made mandatory through what was then MARPOL Annex I regulation 13G. The phase-out of single-hull tankers under what are now regulations 20 and 21 of Annex I, with the Condition Assessment Scheme as the gate for older ships, left the double-hull design as the norm. The 2011 ESP Code now applies through SOLAS chapter XI-1 regulation 2.",
+        "IACS implements it in two unified requirements: UR Z10.1 for oil tankers in general and UR Z10.4 for double-hull oil tankers. For structural detail, IACS Recommendation 96, Double Hull Oil Tankers: Guidelines for Surveys, Assessment and Repair of Hull Structures, describes typical failures area by area, from the bilge hopper and the wing and bottom ballast tanks to cargo tank web frames, transverse bulkheads, deck structure and the fore and aft ends."
+      ],
+      "links": [["/maritime/condition-assessment-scheme", "CAS (Condition Assessment Scheme)"]]
+    },
+    {
+      "id": "ballast-space-corrosion",
+      "h": "Where do double-hull ballast tanks corrode and crack?",
+      "p": [
+        "A double hull wraps the cargo block in ballast spaces: a double bottom, wing tanks up each side and, on most designs, a hopper or bilge knuckle joining them. The table sets out the usual pattern."
+      ],
+      "table": {
+        "head": ["Space or detail", "Typical defect", "Why it happens"],
+        "rows": [
+          ["Double-bottom tanks", "Bottom pitting, corrosion at floors and girders, sediment", "Mud and water lying on the plating; coating damage at openings and suctions"],
+          ["Wing ballast tanks, upper levels", "Coating breakdown, deckhead corrosion, grooving along longitudinal welds", "Sun-heated deck, warmth from heated cargo, wet-dry cycling"],
+          ["Hopper (bilge) knuckle", "Cracks at the knuckle and at web frame connections", "Stress concentration where the hull plating changes direction"],
+          ["Side longitudinals near the waterline", "Fatigue cracks at end connections to web frames and bulkheads", "Cyclic sea pressure on the side shell"],
+          ["Web frames and stringers", "Edge corrosion at cut-outs and lightening holes, buckled thin plating", "Thin coating on edges; wastage reducing buckling strength"],
+          ["Fore and aft peak tanks", "Heavy corrosion and cracking in complex structure", "Poor drainage and ventilation, slamming and vibration"]
+        ]
+      }
+    },
+    {
+      "id": "ballast-coatings",
+      "h": "Why ballast tank coatings decide the steel renewal",
+      "p": [
+        "A double-hull tanker's ballast spaces can hold several times the coated area of a bulk carrier of similar size, and once coating fails the corrosion is local and fast, starting at edges, welds and scallops and spreading in patches. Wing tanks next to cargo heated for discharge run warmer than the sea, and the steel under a sunlit deck is warmer still. Ships contracted under SOLAS regulation II-1/3-2 carry ballast tank coatings applied to the IMO performance standard; older ships may be well into their coating's decline.",
+        "Under UR Z10.4 a ballast tank is examined at annual surveys once substantial corrosion is found, where the coating is soft or semi-hard, where no hard coating was applied at construction, or where the hard coating has deteriorated and not been repaired. Grading each tank's coating before the survey shows the owner which tanks are heading into annual examination."
+      ]
+    },
+    {
+      "id": "cargo-tank-corrosion",
+      "h": "Cargo tank corrosion: bottom pitting and under-deck wastage",
+      "p": [
+        "In crude service the cargo tank bottom is where steel disappears fastest. Water separating from the cargo settles under a layer of sludge, and in those conditions, often with sulphate-reducing bacteria involved, pits form that can be deep and steep-sided while the plate around them is close to its original thickness. Pitting is measured with a pit gauge or depth gauge, recorded as depth and intensity, and repaired by welding or inserts according to class criteria. Crude oil washing, stripping practice and how long water stands in a tank all affect the rate.",
+        "At the other end of the tank, the vapour space attacks deck plating, deck longitudinals and the upper parts of web frames, aided by moisture and sulphur compounds in the tank atmosphere and by daily temperature swings. Heating coils add local corrosion and leaks. Newer crude tankers built to the SOLAS requirement for cargo oil tank corrosion protection have coated deckheads and bottoms or corrosion-resistant steel, and product tankers usually have fully coated tanks whose lining condition decides which cargoes they may load."
+      ]
+    },
+    {
+      "id": "piping-and-deck",
+      "h": "Cargo and ballast piping, pump rooms and the main deck",
+      "p": [
+        "At renewal surveys under UR Z10.4, cargo and ballast piping within the tanks and spaces surveyed is examined and operationally tested to working pressure. Wall loss concentrates at the bottom of horizontal runs, at bends, near suctions and at couplings and supports; in-tank cargo lines in crude service suffer the same bottom attack as the tank itself. Pump rooms need their bilges, pipe penetrations and sea chest connections watched, and double-bottom pipe ducts are as wet as the ballast tanks beside them.",
+        "On deck, plating corrodes under pipe racks and around supports where water lies, and at the manifold. Annual surveys examine cargo tank openings with their gaskets, covers, coamings and flame screens. Ultrasonic wall-thickness gauging of piping, with minimum-wall checks against the line's design, gives the superintendent a pipe renewal list ahead of the docking."
+      ],
+      "links": [["/maritime/ship-piping-inspection", "Ship piping inspection"]]
+    },
+    {
+      "id": "esp-by-age",
+      "h": "ESP surveys of a double-hull tanker by age",
+      "p": [
+        "UR Z10.4 tabulates minimum close-up survey and thickness measurement for each renewal survey. The table summarises the direction of travel; the society's rules, the survey programme and the attending surveyor decide the actual extent."
+      ],
+      "table": {
+        "head": ["Renewal survey", "Ballast tanks, close-up", "Cargo tanks, close-up", "Thickness measurement in the cargo area"],
+        "rows": [
+          ["No. 1 (up to 5 years)", "One web frame ring and one transverse bulkhead in a ballast tank", "One deck transverse in a cargo tank", "Suspect areas; one section of deck plating across the full beam"],
+          ["No. 2 (over 5 to 10)", "All web frames in one ballast tank, with part of a web frame in the others", "Deck transverses in two cargo tanks, plus bulkheads", "Each deck plate; one transverse section"],
+          ["No. 3 (over 10 to 15)", "Web frames extended across the ballast tanks", "All web frames, deck transverses and cross ties in one cargo tank", "Each deck plate; two transverse sections; all wind-and-water strakes"],
+          ["No. 4 and later (over 15)", "All web frames in all ballast tanks", "Close-up survey reaching every remaining cargo tank", "Each deck and bottom plate; three transverse sections"]
+        ]
+      }
+    },
+    {
+      "id": "between-renewals",
+      "h": "Tank testing, intermediate surveys and longitudinal strength",
+      "p": [
+        "At renewal survey No. 1 all ballast tank boundaries are tested, together with the cargo tank boundaries that adjoin ballast tanks, void spaces, pipe tunnels, pump rooms or cofferdams; from No. 2 all cargo tank bulkheads are tested too. At least one transverse section must pass through a ballast tank within the midship half-length.",
+        "The intermediate survey of a tanker between five and ten years old is an overall survey of representative tanks chosen by the surveyor. From ten years it takes on the extent of the previous renewal survey, and beyond fifteen it includes a survey in dry dock. For tankers of 130 m and upwards, the renewal survey after ten years also brings an evaluation of hull girder longitudinal strength from the gauged transverse sections, so every member in each section belt has to be reached."
+      ]
+    },
+    {
+      "id": "survey-planning-inputs",
+      "h": "What a tanker owner brings to ESP survey planning",
+      "p": [
+        "The survey planning questionnaire is completed by the owner before the survey programme is drawn up, and on a tanker its answers decide much of the plan. The records that make it useful:"
+      ],
+      "list": [
+        "Which tanks have carried ballast and for how long, including cargo tanks used for heavy-weather ballast",
+        "Cargo history, heated cargoes, crude oil washing practice and inert gas quality records",
+        "Coating history of ballast tanks, with dates, systems and repairs",
+        "Previous thickness measurement reports with sketches, suspect areas and substantial corrosion carried forward",
+        "Cracking or buckling found on this ship or sister ships, which identifies critical structural areas",
+        "Pitting repairs in cargo tank bottoms and the method used"
+      ]
+    },
+    {
+      "id": "vetting-and-cap",
+      "h": "What vetting, CAP and charterers look at on a tanker's structure",
+      "p": [
+        "Oil majors and charterers inspect tankers through OCIMF's Ship Inspection Report Programme (SIRE). A SIRE inspection concentrates on operations, documentation, equipment and visible condition; the inspector does not survey ballast tank steel but reviews the crew's tank inspection records and photographs, the condition of class and the visible state of the deck, piping and pump room. Ageing tankers attract stricter charterer policies, and beyond a certain age many charterers want a classification society's Condition Assessment Programme rating to show the steel has been maintained.",
+        "Vetting outcomes and CAP ratings are decided by others; what the owner controls is the evidence. A tanker whose thickness measurement reports, coating records and tank inspection photographs tell one consistent story is easier to vet and to rate."
+      ],
+      "links": [["/maritime/condition-assessment-programme", "CAP thickness measurement"]]
+    },
+    {
+      "id": "owner-checks",
+      "h": "What owners check before vetting, a CAP survey or a sale",
+      "p": [
+        "Owner's gauging and condition inspection ahead of these events show where the steel stands while there is still time to act. A useful scope gauges deck plating and under-deck longitudinals, cargo tank bottoms with pit depths, a transverse section amidships and wing ballast tank structure where coating has failed, adds crack checks at side longitudinal connections and the hopper knuckle, and grades coating tank by tank.",
+        "Atlantis NDT carries out this work for owners, buyers and managers with teams mobilised from India. Class-credited readings must be taken by a firm holding the approval of the tanker's own society under UR Z17; Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so for now our gauging feeds the owner's decisions, from pre-vetting and pre-CAP checks to pre-purchase inspection and CVIP. Write to info@atlantisndt.com."
+      ],
+      "links": [
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"],
+        ["/maritime/enhanced-survey-programme", "ESP gauging"]
+      ]
+    }
+  ],
+  "codes": [
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code (resolution A.1049(27))",
+    "IACS UR Z10.1 – Hull surveys of oil tankers",
+    "IACS UR Z10.4 – Hull surveys of double hull oil tankers",
+    "IACS Recommendation 96 – Double hull oil tankers: guidelines for surveys, assessment and repair of hull structures",
+    "MARPOL Annex I, regulations 20 and 21 – Phase-out of single-hull oil tankers",
+    "IMO Condition Assessment Scheme, resolution MEPC.94(46), as amended",
+    "SOLAS regulation II-1/3-2 – Protective coatings of dedicated seawater ballast tanks",
+    "IACS UR Z17 – Procedural requirements for service suppliers"
+  ],
+  "deliverables": [
+    "Ballast history by tank, including cargo tanks used for heavy-weather ballast",
+    "Coating history and the crew's ballast tank inspection records with photographs",
+    "Previous thickness measurement reports, with suspect areas and substantial corrosion carried forward",
+    "Cargo tank bottom pitting records and repair method",
+    "Cargo history, heated cargo and crude oil washing records",
+    "Piping test records and pipe renewals since the last renewal survey",
+    "The current condition of class and any outstanding memoranda"
+  ],
+  "industries": [
+    "VLCC and Suezmax owners",
+    "Aframax and LR product tanker operators",
+    "MR product tanker managers",
+    "Technical superintendents and vetting managers",
+    "Tanker buyers and brokers",
+    "Oil major and trader charterers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between UR Z10.1 and UR Z10.4?",
+      "a": "Both implement the ESP Code for oil tankers. UR Z10.4 is written for double-hull oil tankers, with close-up survey tables built around the double-bottom and wing ballast spaces, the hopper knuckle and cargo tank web frames. UR Z10.1 covers oil tankers more generally, including the arrangements found on older single-hull designs. The ship's class confirms which applies."
+    },
+    {
+      "q": "Why do double-hull tanker cargo tank bottoms pit so badly?",
+      "a": "Water separates from crude and settles on the tank bottom under a layer of sludge, where conditions can favour sulphate-reducing bacteria and very local attack. The result is scattered, steep-sided pits in otherwise sound plating. Uncoated bottoms suffer most; coated bottoms and good stripping practice slow it. Pits are measured and repaired individually because general thickness readings miss them."
+    },
+    {
+      "q": "When are a tanker's ballast tanks examined at every annual survey?",
+      "a": "Under UR Z10.4, once substantial corrosion is found, where soft or semi-hard coating has been applied, where no hard coating was applied at construction, or where hard coating has deteriorated and not been repaired to the surveyor's satisfaction. The tank then stays in annual examination, with gauging as the surveyor requires, until the condition is put right."
+    },
+    {
+      "q": "Does a SIRE inspector enter the ballast tanks?",
+      "a": "Not as a rule. A SIRE inspection focuses on operations, documentation, equipment and the condition the inspector can see on deck, in the pump room and in the accommodation. Ballast tank condition is judged from the crew's inspection records and photographs, class status and any memoranda, which is why those records matter as much as the steel itself."
+    },
+    {
+      "q": "What is the longitudinal strength evaluation on older tankers?",
+      "a": "For oil tankers of 130 m and upwards, the renewal survey that follows the ship's tenth anniversary of build includes an evaluation of hull girder longitudinal strength based on the thicknesses gauged in the transverse sections. If the sectional properties fall below the society's limits, steel renewal or reinforcement follows, so complete readings across every member of each section are essential."
+    },
+    {
+      "q": "Should an owner gauge a tanker before a CAP survey?",
+      "a": "Usually, yes. A poor CAP result stays on the charterer's file long after the steel is renewed. Owner's gauging of the areas that decide hull ratings, such as under-deck structure, ballast tank web frames and cargo tank bottoms, shows the likely outcome and which steel to renew ahead of time, weeks or months before the society's surveyors arrive."
+    },
+    {
+      "q": "Can Atlantis gauging be credited to a tanker's class survey?",
+      "a": "Not yet. Credited thickness measurement must come from a firm holding UR Z17 approval from the tanker's own classification society, and Atlantis is in the process of obtaining that approval from DNV, Lloyd's Register and ABS. Our readings serve the owner directly: pre-docking steel estimates, pre-vetting and pre-CAP checks, condition surveys and pre-purchase inspection."
+    }
+  ]
+}

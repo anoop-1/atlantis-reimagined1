@@ -1,0 +1,213 @@
+{
+  "slug": "bulk-carrier-inspection",
+  "navLabel": "Bulk Carrier Inspection Guide",
+  "title": "Bulk Carrier Inspection: Holds, Hatch Covers and ESP Surveys",
+  "description": "How bulk carriers are inspected: hold frames and brackets, hatch covers, topside and hopper tanks, cargo corrosion and ESP survey extents by age under UR Z10.2.",
+  "h1": "How Bulk Carriers Are Inspected: Cargo Holds, Ballast Tanks and the Enhanced Survey Programme",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "A bulk carrier earns its living by being loaded hard and discharged harder. Grabs and abrasive or corrosive cargoes wear the holds from inside, failing coatings let seawater attack the ballast tanks, and every voyage bends the hull girder over long, open hatches. Class therefore surveys bulk carriers under the enhanced survey programme, with close-up survey of hold frames and hatch covers widening at each renewal survey. This guide explains where bulk carriers lose steel and crack, what the rules ask at each age, and what an owner can check before the surveyor does.",
+  "highlights": [
+    {
+      "h": "Hold frames decide many outcomes",
+      "p": "On single-side-skin bulk carriers the side shell frames and their end brackets take grab blows, cargo abrasion and corrosion at once. Close-up survey of these frames widens at each renewal survey until every frame in every hold is examined, so their condition often sets the steel list."
+    },
+    {
+      "h": "Hatch covers are structure, not fittings",
+      "p": "Hatch covers and coamings keep water out of the holds and carry green-sea loads. Class examines them at every annual survey and in close-up at every renewal survey, and leaking or wasted covers are a frequent source of wet-cargo claims and port state deficiencies."
+    },
+    {
+      "h": "Cargo history explains the corrosion",
+      "p": "Coal, sulphur, ore, salt and fertilisers each leave a different mark on hold steel and coatings. Knowing what the ship has carried, and how the holds were washed afterwards, tells the surveyor and the owner where to look before a gauge touches the steel."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-bulk-carriers-differ",
+      "h": "Why are bulk carriers inspected more intensively than other dry cargo ships?",
+      "p": [
+        "Bulk carriers are the reason the enhanced survey programme exists. A series of losses around 1990 led the IMO to adopt, in November 1993, guidelines on an enhanced programme of inspections for bulk carriers and oil tankers (resolution A.744(18)). SOLAS chapter XII, with safety measures written for bulk carriers, followed later in the decade, and the guidelines gave way to the 2011 ESP Code, resolution A.1049(27), made mandatory by SOLAS chapter XI-1 regulation 2.",
+        "The design explains the attention. Large open holds leave longitudinal strength to the deck strips beside the hatches, the coamings and the bottom; cargo works directly on the hold frames; and dense cargoes loaded in alternate holds concentrate load on the double bottom and bulkheads, making a flooded forward hold a serious threat."
+      ]
+    },
+    {
+      "id": "single-and-double-side-skin",
+      "h": "Single-side-skin and double-side-skin bulk carriers: which rules apply?",
+      "p": [
+        "IACS applies the ESP Code to bulk carriers through two unified requirements. UR Z10.2 covers bulk carriers other than double skin designs, in practice the classic arrangement of topside wing tanks, hopper tanks and a transversely framed side shell exposed in each hold. UR Z10.5 covers double skin bulk carriers, where an inner side skin closes off the shell and the space between becomes a ballast tank; hybrid ships apply it to their double-side holds.",
+        "On a single-side-skin ship the hold frames, their brackets and the shell behind them take priority, because they meet cargo on one face and the sea on the other. On a double skin ship the flat inner hull is easier to clean and inspect, and the effort moves into the narrow double side ballast spaces with their stringers and web frames."
+      ]
+    },
+    {
+      "id": "cargo-hold-damage",
+      "h": "Where do bulk carrier cargo holds lose steel and crack?",
+      "p": [
+        "IACS Recommendation 76, Bulk Carriers: Guidelines for Surveys, Assessment and Repair of Hull Structures, works through the ship area by area: the details that fail, what the damage looks like, why it happens and how it is repaired. The table condenses the pattern for the holds of a single-side-skin ship."
+      ],
+      "table": {
+        "head": ["Location", "Typical defect", "Usual cause"],
+        "rows": [
+          ["Side shell frames and end brackets", "Web and flange wastage, grooving at the lower bracket, detachment from the shell, tripped frames", "Grab and bulldozer contact, abrasive or corrosive cargo, coating lost low in the hold"],
+          ["Lower hopper sloping plating", "Cracks at frame bracket toes, wastage, indentation", "Hard spots where brackets land; cargo impact at discharge"],
+          ["Topside tank sloping plating", "Cracks at upper bracket toes, edge corrosion", "Stress concentration plus condensation under the deck"],
+          ["Tank top plating", "Grab dents and gouges, pitting", "Grab impact; water and residue lying on the plating"],
+          ["Corrugated bulkheads and stools", "Wastage and grooving above the lower stool, buckled corrugations", "Cargo and wash water against the lower part; alternate-hold loading"],
+          ["Hatch corners and coaming brackets", "Fatigue cracks at deck corners and bracket toes", "Hull girder bending and torsion around large openings"]
+        ]
+      }
+    },
+    {
+      "id": "cargo-corrosion",
+      "h": "How coal, sulphur, ore and other cargoes damage hold steel",
+      "p": [
+        "Hold steel corrodes according to the cargo book. Coal can bring sulphur and moisture that make the steel surface acidic, and self-heating coal speeds the attack, usually low on the frames and bulkhead corrugations where cargo lies longest. Wet sulphur is among the most aggressive bulk cargoes, and holds in that trade pit quickly once coatings fail. Iron ore does less chemical harm but far more mechanical damage: dented tank tops, bent frames and coating knocked back to bare steel. Salt and fertilisers leave residues that keep steel damp long after discharge.",
+        "Washing matters as much as cargo. Seawater washing without a freshwater rinse carries salt into the next voyage, and hot or chemical cleaning lifts tired coatings with the residue. Read the cargo record and the cleaning record together."
+      ]
+    },
+    {
+      "id": "ballast-tanks",
+      "h": "Topside, hopper, double-bottom and forepeak tanks: what to expect",
+      "p": [
+        "Topside tanks sit under a deck that heats by day and cools at night, so condensation attacks the deck plating, deck longitudinals and upper webs. Hopper tanks gather sediment at the lower knuckle, and their sloping plating also bounds the hold, so cargo damage and corrosion can meet in one plate. Double-bottom tanks fare better under sound coating, though they pit under mud and around suction bellmouths. The forepeak, with complex structure, poor ventilation and slamming loads, is a common home of substantial corrosion on older ships.",
+        "Under UR Z10.2, ballast tanks other than double bottoms move to annual examination once their hard coating is POOR and left unrenewed, where soft or semi-hard coating is used, or where no hard coating was applied at construction; double bottoms can follow on similar grounds. POOR means general breakdown over at least a fifth of the area, so grading each tank before the survey shows which ones are heading that way."
+      ]
+    },
+    {
+      "id": "hatch-covers-coamings",
+      "h": "Hatch covers and coamings: what surveyors and crews check",
+      "p": [
+        "At every annual survey class examines hatch covers and coamings, confirms no unapproved changes and has covers opened, closed and secured as a random operation check. On a bulk carrier, covers and coamings receive close-up survey at every renewal survey, with thickness measurement added as the ship ages.",
+        "The failures are predictable: top and skirt plates wasted at edges, stiffeners cracked at their ends, compression bars worn, rubber seals hardened or permanently set, cleats and cross-joint wedges seized or missing, drain channels and non-return valves blocked, and coaming stays cracked at the corners. Each lets water reach the cargo, and for many bulk cargoes wet damage means a claim.",
+        "Resolution MSC.169(79) sets IMO standards for owners' inspection and maintenance of bulk carrier hatch covers between surveys. An ultrasonic tightness test with the covers secured finds where a seal is not making contact before loading."
+      ],
+      "links": [["/maritime/hatch-cover-ultrasonic-testing", "Hatch cover ultrasonic tightness testing"]]
+    },
+    {
+      "id": "esp-extents-by-age",
+      "h": "Bulk carrier ESP survey extents by age",
+      "p": [
+        "UR Z10.2 numbers renewal surveys by age and tabulates the minimum close-up survey for each; frame close-up survey always includes the upper and lower end attachments and adjacent shell plating. The society's rules and the attending surveyor can extend any of it."
+      ],
+      "table": {
+        "head": ["Renewal survey", "Ship's age", "Hold shell frames, close-up (UR Z10.2)", "Other close-up items"],
+        "rows": [
+          ["No. 1", "Up to 5 years", "A quarter of the frames in the forward hold, plus selected frames in other holds", "All hatch covers and coamings; selected bulkheads; a web in representative ballast tanks"],
+          ["No. 2", "Over 5 to 10", "All frames in the forward hold and a quarter in each other hold (half from 100,000 dwt)", "All hatch covers and coamings; all hold bulkheads; a web in each ballast tank"],
+          ["No. 3", "Over 10 to 15", "All frames in the forward hold and one other hold, half in the rest", "As No. 2, extended to all webs and bulkheads in ballast tanks"],
+          ["No. 4 and later", "Over 15", "All frames in all holds", "As No. 3, plus areas the surveyor adds"]
+        ]
+      }
+    },
+    {
+      "id": "gauging-between-renewals",
+      "h": "Thickness measurement and the surveys between renewals",
+      "p": [
+        "Gauging grows alongside close-up survey. Suspect areas and members under close-up survey are measured every time; transverse sections of deck plating outside the hatch openings increase with age and include one amidships; and wind-and-water strakes are measured more widely until, from renewal survey No. 4, all of them are gauged full length.",
+        "The surveys in between carry real weight. From ten years, annual surveys include an overall survey of every hold and close-up survey of at least a quarter of the frames in the forward hold, extended to another hold after fifteen years. From ten years the intermediate survey matches the previous renewal survey, and after fifteen it includes a dry-dock survey."
+      ]
+    },
+    {
+      "id": "side-frame-renewal-criteria",
+      "h": "Side shell frame renewal criteria: MSC.168(79) and UR S31",
+      "p": [
+        "Single-side-skin hold frames have renewal criteria of their own. Resolution MSC.168(79), adopted in December 2004 for SOLAS regulation XII/14, sets side structure standards for new ships in one annex and renewal criteria for older ones in another; the IACS counterpart is UR S31. Each frame is split into zones from lower bracket to upper bracket, with representative thicknesses taken in each. A web reaching the renewal thickness is renewed; between that and a higher coating thickness, blasting and coating to an as-new standard plus tripping brackets is accepted instead.",
+        "Pits are measured where pitting exceeds 15 per cent of the area. Pitting or grooving may not leave less than 75 per cent of the as-built thickness in frame and bracket webs and flanges, or 70 per cent in shell, hopper and topside plating within 30 mm of the frame.",
+        "Regulation XII/14 bars single-side-skin bulk carriers of 150 m and upwards, over ten years old and carrying cargo of 1,780 kg/m³ or more, from sailing with any hold empty or under 10 per cent of its maximum allowable cargo weight, unless they meet the one-hold flooding and side structure standards."
+      ]
+    },
+    {
+      "id": "water-ingress-systems",
+      "h": "Water ingress alarms, forward pumping and the loading instrument",
+      "p": [
+        "Chapter XII requires water level detectors in each hold, in ballast tanks forward of the collision bulkhead and in forward dry or void spaces other than the chain locker, alarmed on the bridge, with means to drain those forward spaces without crossing exposed decks. Ships of 150 m and upwards carry an approved loading instrument. UR Z10.2 has detectors and pumping tested at renewal surveys and detectors tested at random at annual surveys, so crew test records and detectors kept clear of residue avoid a failure on the day."
+      ]
+    },
+    {
+      "id": "pre-purchase-condition-survey",
+      "h": "What should a pre-purchase or condition survey on a bulk carrier cover?",
+      "p": [
+        "A buyer before a sale, or an owner before a class survey, needs the same priorities in a shorter visit:"
+      ],
+      "list": [
+        "Hold frames and brackets in every accessible hold, with spot gauging in the lower bracket zone and photographs of grooving, detachment and grab damage",
+        "Hatch covers, seals, cleats and drain channels, with an ultrasonic tightness test where time allows",
+        "Tank top, hopper and stool plating checked for dents and pitting, with pit depths measured",
+        "Topside, hopper and forepeak tanks entered for coating condition and deckhead corrosion",
+        "Magnetic particle crack checks at hatch corners and bracket toes where requested",
+        "Records: thickness measurement reports, conditions of class, cargo history and alarm tests"
+      ],
+      "links": [
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"],
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"],
+        ["/maritime/special-survey-by-ship-age", "Special survey by ship age"]
+      ]
+    },
+    {
+      "id": "who-does-the-work",
+      "h": "Owner's gauging versus class gauging",
+      "p": [
+        "Atlantis NDT does this work for owners, buyers and managers, mobilising teams from India to the ship. Gauging credited to a class survey needs a firm holding UR Z17 approval from that ship's classification society. We are in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; meanwhile our readings inform the owner's own decisions on steel, docking scope, purchase and CVIP planning. Write to info@atlantisndt.com or use the form below."
+      ]
+    }
+  ],
+  "codes": [
+    "SOLAS chapter XI-1, regulation 2 – Enhanced survey programme of inspections",
+    "2011 ESP Code – IMO resolution A.1049(27)",
+    "SOLAS chapter XII – Additional safety measures for bulk carriers",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.5 – Hull surveys of double skin bulk carriers",
+    "IMO resolution MSC.168(79) – Standards and criteria for side structures of bulk carriers of single-side skin construction",
+    "IACS UR S31 – Renewal criteria for side shell frames and brackets in single side skin bulk carriers",
+    "IMO resolution MSC.169(79) – Standards for owners' inspection and maintenance of bulk carrier hatch covers",
+    "IACS Recommendation 76 – Bulk carriers: guidelines for surveys, assessment and repair of hull structures",
+    "IACS UR Z17 – Procedural requirements for service suppliers"
+  ],
+  "deliverables": [
+    "Cargo history for recent years, with hold washing practice and cargo-related damage reports",
+    "Previous thickness measurement reports with sketches, and the suspect areas and substantial corrosion carried forward",
+    "Hold frame and bracket records: renewals, tripping brackets and any assessment against the side frame renewal criteria",
+    "Hatch cover maintenance records, including seal and cleat renewals and earlier tightness test results",
+    "Ballast tank coating condition records from crew inspections, with photographs",
+    "Stevedore and grab damage reports, and repairs since the last renewal survey",
+    "Water level detector test records and the loading instrument approval"
+  ],
+  "industries": [
+    "Capesize and ore carrier owners",
+    "Panamax and Kamsarmax operators",
+    "Supramax and handysize managers",
+    "Technical superintendents",
+    "Ship buyers and brokers",
+    "Dry bulk charterers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between UR Z10.2 and UR Z10.5?",
+      "a": "Both apply the ESP Code to bulk carriers. UR Z10.2 covers designs other than double skin, mainly single-side-skin ships whose frames stand exposed in the holds. UR Z10.5 covers double skin bulk carriers, where an inner skin bounds the hold and the double side space is a ballast tank. The difference shows in the close-up survey: hold frames on one, double side spaces on the other."
+    },
+    {
+      "q": "How many hold frames are examined close-up at a bulk carrier special survey?",
+      "a": "Under UR Z10.2 it depends on age: a quarter of the forward hold's frames plus selected others at renewal survey No. 1; all forward hold frames and a quarter elsewhere (half from 100,000 dwt) at No. 2; all frames in the forward hold and one other hold and half in the rest at No. 3; every frame in every hold from No. 4. Surveyors can extend these."
+    },
+    {
+      "q": "Why are cargo holds examined at annual surveys on older bulk carriers?",
+      "a": "Hold structure can deteriorate within one survey cycle, especially in abrasive or corrosive trades. From ten years, UR Z10.2 asks for an overall survey of every hold at each annual survey, with close-up survey of at least a quarter of the forward hold's frames, extended to a second hold after fifteen years, so frame damage is caught before the next renewal survey."
+    },
+    {
+      "q": "What causes grooving at the lower brackets of hold frames?",
+      "a": "Grooving forms along weld toes where weld and plate corrode at different rates. In bulk carrier holds the lower bracket zone suffers most: cargo and wash water lie there, grabs strip the coating and the steel stays wet. A groove can remove a large share of the section locally, which is why the renewal criteria limit grooving separately from general wastage."
+    },
+    {
+      "q": "Can leaking hatch covers be found before cargo is loaded?",
+      "a": "Yes. Checking seals, compression bars, cleats and drain channels finds many defects, and an ultrasonic tightness test with the covers closed and secured locates gaps a hose test misses, without wetting the hold. Crews following the IMO owners' hatch cover standards should record seal and cleat condition between surveys, and testing before a moisture-sensitive cargo is sensible."
+    },
+    {
+      "q": "What is the hold-empty restriction for older bulk carriers?",
+      "a": "SOLAS regulation XII/14 covers single-side-skin bulk carriers of 150 m and upwards, over ten years old, carrying cargo of 1,780 kg/m³ or denser. Unless they meet the one-hold flooding and side structure standards, they may not sail with a hold empty or below 10 per cent of its maximum allowable cargo weight. Frame assessment under MSC.168(79) is part of compliance."
+    },
+    {
+      "q": "Can owner's gauging replace class thickness measurement on a bulk carrier?",
+      "a": "No. Class credits gauging taken by a firm that its own society has audited and approved under IACS UR Z17, with that society's surveyor in attendance. Owner's gauging months ahead still earns its place: it shows which frames, covers and tanks are near their limits, so steel can be ordered and the docking scope written before class confirms the result."
+    }
+  ]
+}

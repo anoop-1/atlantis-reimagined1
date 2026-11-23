@@ -1,0 +1,197 @@
+{
+  "slug": "chemical-tanker-inspection",
+  "navLabel": "Chemical Tanker Inspection Guide",
+  "title": "Chemical Tanker Inspection: Stainless and Coated Cargo Tanks",
+  "description": "Chemical tanker inspection guide: stainless and coated cargo tanks, pumps and piping, ballast spaces, UR Z10.3 surveys, and what penetrant and UT can show.",
+  "h1": "How Chemical Tankers Are Inspected: Cargo Tank Materials, Cargo Systems and Class Surveys",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "A chemical tanker is built around its cargo tanks. Whether they are stainless steel or coated carbon steel decides which products in the IBC Code the ship may carry, how the tanks deteriorate, and how an inspector can examine them without spoiling the next cargo. The ballast spaces and hull around them age much like any tanker's. This guide covers both: what goes wrong in stainless and coated tanks, cargo piping and pumps, how class surveys chemical tankers under UR Z10.3, and what owners and charterers check.",
+  "highlights": [
+    {
+      "h": "Tank material sets the inspection",
+      "p": "Stainless tanks are examined for pitting, weld and heat-affected-zone attack and contamination; coated tanks for blistering, softening and lining breakdown. Class rules recognise the difference: stainless tanks may be surveyed overall, with close-up survey where the surveyor considers it necessary."
+    },
+    {
+      "h": "Every cargo leaves a trace",
+      "p": "Acids, caustics, chloride contamination, aggressive cleaning and heat each attack tank materials in their own way. A cargo and cleaning history read beside the tank inspection explains most findings and shows which tanks deserve the closest look at the next opportunity."
+    },
+    {
+      "h": "Clean enough to enter, clean enough to load",
+      "p": "Chemical tanks are inspected between cargoes, after cleaning and gas-freeing to a standard fit for entry. Any test method used inside must leave the tank as clean as it was found, or the next cargo's wall-wash test and the charterer's acceptance are put at risk."
+    }
+  ],
+  "sections": [
+    {
+      "id": "ibc-code-ship-types",
+      "h": "Chemical tankers under the IBC Code: ship types and cargo tanks",
+      "p": [
+        "The IBC Code, mandatory under SOLAS chapter VII and MARPOL Annex II, governs ships carrying the dangerous chemicals and noxious liquid substances listed in its chapter 17 in bulk. Each product is assigned a ship type. Ship type 1 is for products with the most severe environmental and safety hazards, needing the greatest protection against cargo escape and the most protective location of tanks well inboard of the shell; ship type 2 covers appreciably severe hazards; ship type 3 covers products needing a moderate degree of containment. A chemical tanker's certificate of fitness lists the products it may carry, tank by tank.",
+        "Most chemical tankers have integral cargo tanks, often a mix of stainless steel and coated carbon steel, with many small segregated tanks each served by its own pump and line. That arrangement brings more tank boundaries, cofferdams and pipework per cargo tonne than any other tanker type, and a correspondingly larger inspection task."
+      ]
+    },
+    {
+      "id": "stainless-cargo-tanks",
+      "h": "Stainless steel cargo tanks: pitting, weld attack and contamination",
+      "p": [
+        "Stainless cargo tanks, usually austenitic grades or duplex, depend on a thin passive surface film. Damage the film and keep it from reforming, and corrosion becomes local and deep. Chlorides are the common enemy: seawater used for washing or left in the tank, chloride-bearing cargoes and residues trapped in crevices cause pitting and crevice corrosion that can perforate thin plating while the surrounding surface looks bright. Certain acids attack stainless depending on concentration and temperature, and hot caustic cargoes bring their own risks.",
+        "Welds and heat-affected zones are the weak points. Heat tint left after repairs, welds not pickled and passivated, and spatter all lower resistance locally. Iron contamination is another frequent finding: particles from carbon steel tools, grinding or nearby hot work embed in the surface and rust, leaving stains that can start pits. Heating coils, pump stacks, ladders and their attachment welds deserve close attention, as does the tank bottom near the suction well where residues gather.",
+        "Inspection is mostly visual in good light, with pit locations mapped, pit depths measured, and dye penetrant used to confirm whether a weld indication is a crack."
+      ]
+    },
+    {
+      "id": "coated-cargo-tanks",
+      "h": "Coated cargo tanks: what lining failures look like",
+      "p": [
+        "Coated carbon steel tanks rely on the lining to keep cargo off the steel and the steel out of the cargo. Zinc silicate linings tolerate many solvents but not acids or alkalis; epoxy-based linings cope with a wide range of oils and alkalis but are restricted with some solvents. The coating manufacturer's resistance list for the system actually applied, not the generic type, governs what a tank may load, and sequences of cargoes, cleaning chemicals and temperature limits are part of that list. The table links common findings to their usual meaning."
+      ],
+      "table": {
+        "head": ["Finding in a coated tank", "What it usually indicates", "What usually follows"],
+        "rows": [
+          ["Blistering", "Cargo or water permeating the lining; incompatible cargo or excess temperature", "Coating specialist assessment; repair before sensitive cargoes"],
+          ["Softening or swelling", "Solvent attack beyond the lining's resistance", "Restriction of the tank's cargo list until repaired"],
+          ["Discolouration or staining", "Cargo absorption, or heat damage near coils", "Check against the resistance list; wall-wash tests may fail"],
+          ["Cracking and flaking at edges and welds", "Thin film on edges, ageing, thermal cycling", "Spot repair; gauging of exposed steel"],
+          ["Rust spotting through the lining", "Pinholes or damage exposing carbon steel", "Steel gauging where rust has developed; local repair"],
+          ["Mechanical damage near pumps and ladders", "Impact during cleaning or maintenance", "Local repair to the lining specification"]
+        ]
+      }
+    },
+    {
+      "id": "cargo-systems",
+      "h": "Cargo piping, deepwell pumps and cofferdams",
+      "p": [
+        "A chemical tanker typically has one submerged pump per cargo tank, either hydraulically driven or a deepwell pump with a line shaft, mounted on a pump stack that carries the discharge pipe up through the deck. Hydraulic submerged pumps keep a cofferdam between the cargo and the hydraulic oil, purged at intervals to show whether either seal is leaking; a technical superintendent reads the purge records before almost anything else. Each tank's line runs separately to the manifold, so pipework is extensive, much of it stainless on deck and exposed to weather and spills.",
+        "UR Z10.3 has cargo piping on deck, together with cargo and ballast lines inside the tanks and spaces under survey, examined and operationally tested, and on ships over ten years old selected pipes are gauged and pressure tested. Carbon steel ballast lines and heating steam and condensate lines are where wall loss usually concentrates."
+      ],
+      "links": [["/maritime/ship-piping-inspection", "Ship piping inspection"]]
+    },
+    {
+      "id": "ballast-and-hull",
+      "h": "Ballast tanks, cofferdams and the hull around the cargo block",
+      "p": [
+        "The double bottom and wing ballast tanks of a chemical tanker are coated carbon steel and age as on any tanker: coating breakdown at edges and welds, corrosion under the deckhead and in the bottom, grooving along longitudinals. Heated cargoes warm the adjacent ballast tanks and speed the attack. Where stainless or clad inner hull plating meets carbon steel structure, the dissimilar-metal welds and the carbon steel beside them deserve a close look. Cofferdams and void spaces between incompatible cargoes are easily neglected and can hold water for years.",
+        "Under UR Z10.3, a ballast tank goes into annual examination where its hard coating is POOR, where soft or semi-hard coating has been applied, or where no hard coating was applied from construction."
+      ]
+    },
+    {
+      "id": "class-surveys",
+      "h": "Class surveys of chemical tankers under UR Z10.3",
+      "p": [
+        "The ESP Code made enhanced surveys statutory for oil tankers and bulk carriers; chemical tankers receive the same discipline through class, by UR Z10.3, which applies to self-propelled chemical tankers with integral tanks. Combination ships carrying gas in independent tanks are surveyed as gas carriers. The survey cycle, survey programme and planning meeting follow the familiar ESP pattern, and from ten years the intermediate survey takes on the extent of the previous renewal survey, with a dry-dock survey added beyond fifteen. Transverse sections for gauging rise from one at renewal survey No. 2 to two at No. 3 and three from No. 4, with at least one through a ballast tank amidships. The table shows how tank material changes the survey."
+      ],
+      "table": {
+        "head": ["Survey item", "Stainless steel cargo tanks", "Coated carbon steel cargo tanks", "Ballast tanks"],
+        "rows": [
+          ["Close-up survey", "May be an overall survey, close-up where the surveyor considers it necessary", "To the UR Z10.3 tables; may be specially considered where hard coating is GOOD", "To the UR Z10.3 tables, growing with age"],
+          ["Thickness measurement", "May be waived for stainless structure and piping, but not for clad steel", "Suspect areas, close-up structure and transverse sections", "As for coated tanks"],
+          ["What draws attention", "Pitting, weld attack, contamination", "Lining breakdown exposing steel to cargo", "POOR or soft coating, which brings annual examination"],
+          ["Usual NDT", "Visual, dye penetrant on welds, pit depth measurement", "Visual, gauging where lining has failed", "Visual, gauging, magnetic particle at fatigue details"]
+        ]
+      }
+    },
+    {
+      "id": "pt-and-ut-on-stainless",
+      "h": "What dye penetrant and ultrasonic testing can and cannot do on stainless tanks",
+      "p": [
+        "Dye penetrant testing finds surface-breaking cracks, pinholes and porosity on austenitic stainless, which magnetic particle testing cannot examine because the material is not ferromagnetic. It shows length, not depth, and it sees nothing below the surface. On a cargo tank it must use penetrant materials with controlled halogen and sulphur content suitable for stainless, and every trace must be removed afterwards, agreed with the chief officer, because residue can contaminate the next cargo. Duplex is partly magnetic, but penetrant testing remains the usual crack method in duplex tanks.",
+        "Ultrasonic thickness gauging works on stainless plate when the instrument is calibrated on the same material, since sound travels at a different velocity than in carbon steel. A standard twin-crystal probe can miss small, deep pits, so pit depths are measured directly or mapped with encoded scanning where the area justifies it. Ultrasonic examination of austenitic welds is hampered by coarse grain structure that scatters sound, and needs special techniques; it is not a routine tank survey method."
+      ],
+      "links": [
+        ["/maritime/dye-penetrant-inspection", "Dye penetrant inspection (DPI)"],
+        ["/maritime/ultrasonic-thickness-measurement", "Ultrasonic thickness measurement (UTM)"],
+        ["/maritime/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "cleaning-and-entry",
+      "h": "Cleaning and gas-freeing chemical tanks for inspection",
+      "p": [
+        "The last cargo decides the preparation. Some products require prewash and discharge procedures under MARPOL Annex II, and toxic cargoes need washing and ventilation until the atmosphere is safe. Tanks kept under nitrogen padding must be purged with air before entry. Atmosphere testing covers oxygen, flammable vapour and the toxic vapour of the last cargo, entry runs under the ship's permit system with a standby person, and the tank should be dry and lit before inspection starts. Freshwater rinsing after seawater washing protects stainless tanks from chloride left on the surface."
+      ]
+    },
+    {
+      "id": "owner-charterer-checks",
+      "h": "What owners and charterers check on a chemical tanker",
+      "p": [
+        "Charterers vet chemical tankers through OCIMF's SIRE programme and the Chemical Distribution Institute's marine inspection scheme, looking at operations, cargo handling, records and visible condition. Before loading sensitive cargoes, cargo surveyors carry out tank cleanliness inspections and wall-wash tests, which pitted stainless or stained coating can fail. Owners keep ahead of both with a short list:"
+      ],
+      "list": [
+        "Pit maps for stainless tanks, repeated at the same locations so pitting is trended",
+        "Coating condition per coated tank, checked against the cargo resistance list",
+        "Pump cofferdam purge records and heating coil leak history",
+        "Pipe gauging of ballast, steam and condensate lines",
+        "Ballast tank coating grades and thickness readings where coating has failed",
+        "Records of repairs on stainless, with pickling and passivation confirmed"
+      ]
+    },
+    {
+      "id": "who-does-the-work",
+      "h": "Owner's inspection and class-credited gauging",
+      "p": [
+        "Atlantis NDT carries out chemical tanker inspection for owners, buyers and managers: thickness gauging, pit measurement, dye penetrant on stainless welds and condition surveys, with teams mobilised from India to the ship. Gauging credited to class has to be taken by a firm holding UR Z17 approval from the ship's own society. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so our work currently supports the owner's decisions, including pre-purchase inspection and CVIP. Contact info@atlantisndt.com."
+      ],
+      "links": [
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"],
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"],
+        ["/maritime/oil-tanker-inspection", "Oil tanker inspection guide"]
+      ]
+    }
+  ],
+  "codes": [
+    "IBC Code – International Code for the Construction and Equipment of Ships Carrying Dangerous Chemicals in Bulk",
+    "MARPOL Annex II – Control of pollution by noxious liquid substances in bulk",
+    "SOLAS chapter VII – Carriage of dangerous goods",
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "SOLAS regulation II-1/3-2 – Protective coatings of dedicated seawater ballast tanks"
+  ],
+  "deliverables": [
+    "Certificate of fitness product list and the cargo resistance list for each coated tank",
+    "Cargo and cleaning history by tank, including heated cargoes and cleaning chemicals",
+    "Previous pit maps and thickness measurement reports with sketches",
+    "Pump cofferdam purge records and pump overhaul history",
+    "Repair records for stainless tanks, with welding, pickling and passivation details",
+    "Ballast tank coating condition records and photographs",
+    "Gas-free and tank entry arrangements agreed with the chief officer"
+  ],
+  "industries": [
+    "Stainless steel chemical tanker owners",
+    "IMO type 2 and type 3 chemical and product tanker operators",
+    "Parcel tanker managers",
+    "Technical superintendents",
+    "Tanker buyers and brokers",
+    "Chemical charterers and traders"
+  ],
+  "faqs": [
+    {
+      "q": "Are stainless steel cargo tanks exempt from thickness measurement?",
+      "a": "Not automatically. UR Z10.3 allows thickness measurement of stainless steel hull structure and piping to be waived, but not clad steel plating, and the surveyor decides. Stainless tanks may also be surveyed as an overall survey, with close-up survey where the surveyor considers it necessary. Pitting still has to be found and measured, because it is the main way stainless tanks fail."
+    },
+    {
+      "q": "What causes pitting in stainless steel cargo tanks?",
+      "a": "Mostly chlorides: seawater washing without a freshwater rinse, chloride-bearing cargoes and residues trapped in crevices. Iron contamination from carbon steel tools, grinding or nearby hot work also starts pits, and welds not pickled and passivated after repair are vulnerable. Some acids and hot caustic cargoes attack stainless depending on concentration and temperature."
+    },
+    {
+      "q": "Can magnetic particle testing be used on chemical tanker cargo tanks?",
+      "a": "Not on austenitic stainless, which is not ferromagnetic; dye penetrant testing is used instead. Duplex stainless is partly magnetic, yet penetrant testing remains the usual crack method in duplex tanks. Magnetic particle testing is still the normal choice on the carbon steel structure in ballast tanks and on deck, for example at fatigue-prone details."
+    },
+    {
+      "q": "Will dye penetrant testing contaminate a chemical tank?",
+      "a": "It can if done carelessly. Penetrant materials with controlled halogen and sulphur content suitable for stainless should be used, the area should be cleaned thoroughly afterwards, and the work agreed with the chief officer so the tank's cleaning plan allows for it. Residue left behind risks failing the next cargo's wall-wash test."
+    },
+    {
+      "q": "Which cargoes can a coated chemical tank carry?",
+      "a": "Those allowed by the ship's certificate of fitness and by the coating manufacturer's resistance list for the system applied in that tank. Zinc silicate generally tolerates many solvents but not acids or alkalis; epoxy-based linings take a wide range of oils and alkalis but are restricted with some solvents. Lining condition can narrow the list further."
+    },
+    {
+      "q": "How does class survey a chemical tanker as it ages?",
+      "a": "Through UR Z10.3, which mirrors the enhanced survey pattern: a survey programme and planning meeting, close-up survey and gauging that grow with each renewal survey, and transverse sections rising from one to three. Once the ship passes ten, its intermediate survey reaches the extent of the preceding renewal survey, and beyond fifteen a dry-dock survey is added."
+    },
+    {
+      "q": "What do vetting inspectors look for on a chemical tanker?",
+      "a": "SIRE and CDI inspections examine cargo operations, procedures, documentation, equipment and visible condition, including the cargo system and deck. Tank condition shows up through records, cargo surveyors' cleanliness inspections and wall-wash results. Consistent pit maps, coating records and pump purge logs, kept up to date between voyages, answer most structural questions before an inspector raises them."
+    }
+  ]
+}
