@@ -23,7 +23,7 @@
       "h": "The industrial map around Mobile Bay",
       "p": [
         "North Mobile County is home to the Calvert steel complex, which became ArcelorMittal Calvert in 2025 when ArcelorMittal bought Nippon Steel's half of the former AM/NS Calvert joint venture. The company completed commissioning and the first heat of a new electric arc furnace there in June 2025, rated at 1.5 million metric tonnes of steel a year, and has said it is assessing a further steelmaking expansion. In the city, Borusan Berg Pipe's Mobile plant makes large-diameter line pipe, and in December 2025 the company reported a new US order scheduled for production in 2027.",
-        "South of the city, Evonik's site at Theodore produces DL-methionine for animal feed and announced a methyl mercaptan plant, due to start up in the second half of 2024, so that it would no longer have to buy that raw material in. Power comes from Alabama Power's Plant Barry, the James M. Barry plant on the Mobile River, about twenty miles north of the city, a seven-unit coal and gas station, and from gas cogeneration units the utility lists at Theodore and near McIntosh. These sites are named because they define the area's inspection workload; none is presented as a client, and naming one does not mean we have seen its records."
+        "South of the city, Evonik's site at Theodore produces DL-methionine for animal feed, and in July 2026 the company reported that it had completed on-site production of methyl mercaptan, the key intermediate it previously had to bring in. Power comes from Alabama Power's Plant Barry, the James M. Barry plant on the Mobile River, about twenty miles north of the city, a seven-unit coal and gas station, and from gas cogeneration units the utility lists at Theodore and near McIntosh. These sites are named because they define the area's inspection workload; none is presented as a client, and naming one does not mean we have seen its records."
       ]
     },
     {
@@ -32,14 +32,42 @@
         "Every review runs all seven checks, but in each kind of record one of them tends to decide the verdict. The table shows the pattern for the reports Mobile-area plants and their buyers most often bring for a second reading."
       ],
       "table": {
-        "head": ["Record", "Where it usually comes from", "Check that most often decides the outcome"],
+        "head": [
+          "Record",
+          "Where it usually comes from",
+          "Check that most often decides the outcome"
+        ],
         "rows": [
-          ["Line pipe mill NDT and test records", "Large-diameter pipe production", "Equipment and calibration: reference standards and system checks recorded at the frequency the pipe specification and purchase order demand"],
-          ["Construction weld records for a new plant", "EPC contractors, shops and field erectors", "Completeness and traceability: weld maps, joint numbers and examination extent that agree with the drawings"],
-          ["Boiler and HRSG tube thickness grids", "Coal, gas and cogeneration units", "Repeatability: grid references and comparison with the previous outage"],
-          ["Corrosion maps on chemical plant vessels", "Process sites in south and north Mobile County", "Technique adequacy: whether the method can see the damage the service is expected to cause"],
-          ["MT and UT on crane runways, building steel and equipment supports", "Steel mills and fabrication shops", "Acceptance criteria: the AWS D1.1 edition and table actually applied"],
-          ["Radiographs and DR images of process piping", "Licensed radiography contractors working for plant owners", "Interpretation: image quality, coverage and the disposition written against each indication"]
+          [
+            "Line pipe mill NDT and test records",
+            "Large-diameter pipe production",
+            "Equipment and calibration: reference standards and system checks recorded at the frequency the pipe specification and purchase order demand"
+          ],
+          [
+            "Construction weld records for a new plant",
+            "EPC contractors, shops and field erectors",
+            "Completeness and traceability: weld maps, joint numbers and examination extent that agree with the drawings"
+          ],
+          [
+            "Boiler and HRSG tube thickness grids",
+            "Coal, gas and cogeneration units",
+            "Repeatability: grid references and comparison with the previous outage"
+          ],
+          [
+            "Corrosion maps on chemical plant vessels",
+            "Process sites in south and north Mobile County",
+            "Technique adequacy: whether the method can see the damage the service is expected to cause"
+          ],
+          [
+            "MT and UT on crane runways, building steel and equipment supports",
+            "Steel mills and fabrication shops",
+            "Acceptance criteria: the AWS D1.1 edition and table actually applied"
+          ],
+          [
+            "Radiographs and DR images of process piping",
+            "Licensed radiography contractors working for plant owners",
+            "Interpretation: image quality, coverage and the disposition written against each indication"
+          ]
         ]
       }
     },
@@ -73,8 +101,8 @@
     {
       "h": "Alabama rules behind a Mobile inspection record",
       "p": [
-        "Boilers and pressure vessels in Alabama come under the Boiler and Pressure Vessel Safety Act, Act No. 2000-315, which requires regular inspection unless the equipment is exempted by law and requires operating certificates to be kept on the equipment it regulates. The program sits in the Inspections Division of the Alabama Department of Workforce, led by a chief inspector. Alabama has no OSHA-approved state plan, so federal OSHA enforces the process safety management standard, 29 CFR 1910.119, at covered chemical plants, and the owner's mechanical integrity program is the document an auditor will compare a report against.",
-        "Radiography is licensed by the Alabama Department of Public Health's Office of Radiation Control under the state's Agreement State program, with NRC Region I handling the agency's remaining materials work in Alabama and Region II overseeing the state's power reactors. Atlantis does not perform industrial radiography in Alabama; film and digital images from your licensed contractor are reviewed as documents. Pipelines are inspected by the Gas Pipeline Safety section of the Alabama Public Service Commission, which covers natural gas and hazardous liquid systems in the state, including offshore systems in state waters and several LNG systems, under its annual federal certification."
+        "Boilers and pressure vessels in Alabama come under the Boiler and Pressure Vessel Safety Act, Act No. 2000-315, which requires regular inspection unless the equipment is exempted by law and requires operating certificates to be kept on the equipment it regulates. The program is run by the inspections staff of the Alabama Department of Workforce under a chief inspector. Alabama has no OSHA-approved state plan, so federal OSHA enforces the process safety management standard, 29 CFR 1910.119, at covered chemical plants, and the owner's mechanical integrity program is the document an auditor will compare a report against.",
+        "Radiography is licensed by the Alabama Department of Public Health's Office of Radiation Control under the state's Agreement State program, with NRC Region I handling the agency's remaining materials work in Alabama and Region II overseeing the state's power reactors. Atlantis does not perform industrial radiography in Alabama; film and digital images from your licensed contractor are reviewed as documents. Pipelines are inspected by the Gas Pipeline Safety section of the Alabama Public Service Commission, which inspects natural gas and hazardous liquid systems in the state, including offshore facilities in state waters, and lists several LNG systems among the operators it regulates, under an annual certification to enforce the federal minimum standards."
       ]
     },
     {
@@ -121,7 +149,7 @@
     },
     {
       "q": "Which Alabama agency issues boiler operating certificates?",
-      "a": "The boiler and pressure vessel program sits in the Inspections Division of the Alabama Department of Workforce, under the Boiler and Pressure Vessel Safety Act. Our review does not replace that inspection; it tests the NDT record the inspector and the owner will rely on."
+      "a": "The boiler and pressure vessel program sits with the inspections staff of the Alabama Department of Workforce, under the Boiler and Pressure Vessel Safety Act. Our review does not replace that inspection; it tests the NDT record the inspector and the owner will rely on."
     },
     {
       "q": "Do you take radiographs at Alabama plants?",
@@ -141,13 +169,34 @@
     }
   ],
   "related": [
-    ["/inspection-services-alabama", "Inspection services in Alabama"],
-    ["/inspection/third-party-inspection-mobile", "Third-party inspection in Mobile"],
-    ["/consulting/ndt-consulting-mobile", "NDT consulting in Mobile"],
-    ["/ndt-training-mobile", "NDT training in Mobile"],
-    ["/ultrasonic-testing-pipeline", "Ultrasonic testing for pipelines"],
-    ["/ultrasonic-testing-steel", "Ultrasonic testing for steel mills"],
-    ["/ultrasonic-boiler-tube-inspection", "Ultrasonic boiler tube inspection"]
+    [
+      "/inspection-services-alabama",
+      "Inspection services in Alabama"
+    ],
+    [
+      "/inspection/third-party-inspection-mobile",
+      "Third-party inspection in Mobile"
+    ],
+    [
+      "/consulting/ndt-consulting-mobile",
+      "NDT consulting in Mobile"
+    ],
+    [
+      "/ndt-training-mobile",
+      "NDT training in Mobile"
+    ],
+    [
+      "/ultrasonic-testing-pipeline",
+      "Ultrasonic testing for pipelines"
+    ],
+    [
+      "/ultrasonic-testing-steel",
+      "Ultrasonic testing for steel mills"
+    ],
+    [
+      "/ultrasonic-boiler-tube-inspection",
+      "Ultrasonic boiler tube inspection"
+    ]
   ],
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1243429/000124342925000051/exhibit991062025.htm",
@@ -159,6 +208,8 @@
     "https://workforce.alabama.gov/inspections/boilers-pressure-vessels/",
     "https://www.osha.gov/stateplans",
     "https://www.nrc.gov/agreement-states/alabama.html",
-    "https://psc.alabama.gov/gas-pipeline-safety/"
+    "https://psc.alabama.gov/gas-pipeline-safety/",
+    "https://www.chemicalprocessing.com/industrynews/news/55392566/evonik-completes-integrated-methionine-production-network-in-alabama",
+    "https://live.euronext.com/en/products/equities/company-news/2025-06-18-arcelormittal-completes-acquisition-nippon-steel"
   ]
 }

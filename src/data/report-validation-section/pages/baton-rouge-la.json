@@ -22,7 +22,7 @@
     {
       "h": "Who sends reports from the Baton Rouge area, and why",
       "p": [
-        "The capital region is one of the densest parts of the Louisiana chemical corridor. ExxonMobil's Baton Rouge complex combines a refinery, a chemical plant, polyethylene and polypropylene plants and a lubricants blending plant, and the state's 2025 refinery survey lists the refinery at 522,500 barrels per calendar day. Across the river, Placid Refining operates its Port Allen refinery and has moved its headquarters from Texas to Louisiana. Downstream, Dow's Louisiana Operations at Plaquemine runs fifteen production units, and the Geismar cluster in Ascension Parish includes BASF's largest integrated site in the United States, where a new MDI plant was inaugurated in November 2026.",
+        "The capital region is one of the densest parts of the Louisiana chemical corridor. ExxonMobil's Baton Rouge complex combines a refinery, a chemical plant, polyethylene and polypropylene plants and a lubricants blending plant, and the state's 2025 refinery survey lists the refinery at 522,500 barrels per calendar day. Across the river, Placid Refining operates its Port Allen refinery and has moved its headquarters from Texas to Louisiana. Downstream, Dow's Louisiana Operations at Plaquemine runs fifteen production units, and the Geismar cluster in Ascension Parish includes the site BASF calls its largest Verbund site in the United States, where a new MDI plant was inaugurated on 11 November 2026.",
         "The people who ask for an independent reading are rarely the people who produced the record. An owner's inspection group may want a second look at a contractor's close-out set before a unit restarts. A contractor may need to know whether the owner's rejection of its report is technically right. A project team may be accepting vendor data books for a new unit, and an insurer or a buyer may be leaning on years of inspection history to make a decision of its own. The plants on this page are named to describe the area; none of them is presented as a client."
       ]
     },
@@ -32,15 +32,47 @@
         "The table maps the larger sites within an hour of the city to the reports they most often produce. Which records come to us depends on the decision being made, not on the size of the plant."
       ],
       "table": {
-        "head": ["Site", "Operator", "Records that typically reach review"],
+        "head": [
+          "Site",
+          "Operator",
+          "Records that typically reach review"
+        ],
         "rows": [
-          ["Baton Rouge refinery and chemical plant", "ExxonMobil", "Turnaround packages, CML thickness data on API 570 circuits, API 510 vessel reports, exchanger tube data and PAUT on repair welds"],
-          ["Baton Rouge polyolefins and plastics plants", "ExxonMobil", "Piping reports around reactors and finishing areas, penetrant records on stainless lines, data books for expanded units"],
-          ["Port Allen refinery", "Placid Refining Company", "Close-out sets from smaller turnarounds, API 653 tank reports, thickness surveys on crude and vacuum unit piping"],
-          ["Louisiana Operations, Plaquemine", "Dow", "Records from chlor-alkali and polymer units, corrosion maps on vessels in aggressive service, weld records on tie-ins"],
-          ["Geismar Verbund site", "BASF", "Construction NDT for the new MDI plant and aniline expansion, vendor data books, weld maps and hydrotest packages"],
-          ["River Bend Station, St. Francisville", "Entergy Operations", "Balance-of-plant records outside safety-related scope, vendor oversight packages, owner second-opinion requests"],
-          ["Big Cajun II, New Roads", "Cleco, with Entergy holding part of Unit 3", "Boiler tube thickness grids, high-energy piping weld examinations and outage reports"]
+          [
+            "Baton Rouge refinery and chemical plant",
+            "ExxonMobil",
+            "Turnaround packages, CML thickness data on API 570 circuits, API 510 vessel reports, exchanger tube data and PAUT on repair welds"
+          ],
+          [
+            "Baton Rouge polyolefins and plastics plants",
+            "ExxonMobil",
+            "Piping reports around reactors and finishing areas, penetrant records on stainless lines, data books for expanded units"
+          ],
+          [
+            "Port Allen refinery",
+            "Placid Refining Company",
+            "Close-out sets from smaller turnarounds, API 653 tank reports, thickness surveys on crude and vacuum unit piping"
+          ],
+          [
+            "Louisiana Operations, Plaquemine",
+            "Dow",
+            "Records from chlor-alkali and polymer units, corrosion maps on vessels in aggressive service, weld records on tie-ins"
+          ],
+          [
+            "Geismar Verbund site",
+            "BASF",
+            "Construction NDT for the new MDI plant and aniline expansion, vendor data books, weld maps and hydrotest packages"
+          ],
+          [
+            "River Bend Station, St. Francisville",
+            "Entergy Operations",
+            "Balance-of-plant records outside safety-related scope, vendor oversight packages, owner second-opinion requests"
+          ],
+          [
+            "Big Cajun II, New Roads",
+            "Louisiana Generating, an Atlas Holdings affiliate since 2024, with Entergy companies owning 42% of Unit 3",
+            "Boiler tube thickness grids, high-energy piping weld examinations and outage reports"
+          ]
         ]
       }
     },
@@ -61,7 +93,7 @@
     {
       "h": "Louisiana rules that shape a Baton Rouge inspection record",
       "p": [
-        "Boilers in Louisiana answer to the Boiler Inspection Section of the Office of State Fire Marshal, part of the Department of Public Safety and Corrections. The state adopts the ASME Boiler and Pressure Vessel Code as the Louisiana Boiler Construction Code, and its statute calls for boilers and pressure vessels requiring ASME Code stamping to be inspected under the ASME Code and National Board standards. The definitions in the state's administrative code exempt some vessels inside chemical and petroleum processing systems, such as evaporators and heat exchangers, from jurisdictional inspection.",
+        "Boilers in Louisiana answer to the Office of State Fire Marshal, Code Enforcement and Building Safety, part of the Department of Public Safety and Corrections. The state adopts the ASME Boiler and Pressure Vessel Code as the Louisiana Boiler Construction Code, and its statute calls for boilers and pressure vessels requiring ASME Code stamping to be inspected under the ASME Code and National Board standards. The definitions in the state's administrative code exempt some vessels inside chemical and petroleum processing systems, such as evaporators and heat exchangers, from jurisdictional inspection.",
         "That exemption does not leave those vessels unregulated. Louisiana has no OSHA-approved state plan, so federal OSHA enforces the process safety management standard, 29 CFR 1910.119, in Baton Rouge plants, and its mechanical integrity element expects each inspection and test on covered equipment to be documented. For a process vessel outside the boiler program, the owner's API 510 program and the PSM record are what an auditor will read, so the review tests the report against both. EPA's risk management program rule, 40 CFR Part 68, adds a parallel set of mechanical integrity expectations for the facilities it covers.",
         "Radiography sits under yet another regulator. Louisiana has been an NRC Agreement State since 1967, and the Department of Environmental Quality licenses industrial radiography in the state. Atlantis does not perform industrial radiography in Louisiana; film, CR and DR images produced by your licensed contractor are reviewed as documents. River Bend, as a power reactor, remains under the NRC itself through its Region IV office at Arlington, Texas."
       ]
@@ -84,7 +116,7 @@
       "h": "Digital inspection data from Baton Rouge jobs",
       "p": [
         "Most of the inspection work in this corridor is now captured digitally. Thickness gauges export straight into the owner's inspection database, phased array and TOFD scans on reactors and heavy-wall piping are saved as encoded files, CR plates are scanned on site, exchanger tube data comes off the eddy current instrument as raw files, and the finished report is generated on a digital reporting platform and signed electronically. That makes an independent review stronger, because the evidence can be reopened and re-measured years later, provided the chain from acquisition to issued report is intact.",
-        "We follow that chain. The reviewer confirms which instrument file produced which reading, whether a scan was acquired with the setup the procedure qualified, whether a CR image was processed again after it was interpreted, and whether the electronic signature on the report belongs to someone qualified on that date. Where an owner has changed contractors or moved to a new digital reporting system, a sample of migrated records shows whether CML identifiers, units and history came through intact, which matters more in Baton Rouge than almost anywhere because so many circuits have decades of readings behind them."
+        "We follow that chain. The reviewer confirms which instrument file produced which reading, whether a scan was acquired with the setup the procedure qualified, whether a CR image was processed again after it was interpreted, and whether the electronic signature on the report belongs to someone qualified on that date. Where an owner has changed contractors or moved to a new digital reporting system, a sample of migrated records shows whether CML identifiers, units and history came through intact, which matters in Baton Rouge because many circuits there have decades of readings behind them."
       ]
     },
     {
@@ -150,13 +182,34 @@
     }
   ],
   "related": [
-    ["/inspection-services-louisiana", "Inspection services in Louisiana"],
-    ["/inspection/third-party-inspection-baton-rouge", "Third-party inspection in Baton Rouge"],
-    ["/consulting/ndt-consulting-baton-rouge", "NDT consulting in Baton Rouge"],
-    ["/ndt-training-baton-rouge", "NDT training in Baton Rouge"],
-    ["/ultrasonic-testing-baton-rouge", "Ultrasonic testing in Baton Rouge"],
-    ["/inspection/pressure-vessel-inspection-services-baton-rouge", "Pressure vessel inspection in Baton Rouge"],
-    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"]
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/inspection/third-party-inspection-baton-rouge",
+      "Third-party inspection in Baton Rouge"
+    ],
+    [
+      "/consulting/ndt-consulting-baton-rouge",
+      "NDT consulting in Baton Rouge"
+    ],
+    [
+      "/ndt-training-baton-rouge",
+      "NDT training in Baton Rouge"
+    ],
+    [
+      "/ultrasonic-testing-baton-rouge",
+      "Ultrasonic testing in Baton Rouge"
+    ],
+    [
+      "/inspection/pressure-vessel-inspection-services-baton-rouge",
+      "Pressure vessel inspection in Baton Rouge"
+    ],
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ]
   ],
   "sources": [
     "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf",
@@ -167,11 +220,12 @@
     "https://corporate.dow.com/en-us/locations/louisiana",
     "https://www.basf.com/us/en/media/news-releases/2026/11/P-US-26-44",
     "https://www.nrc.gov/info-finder/reactors/rbs1",
-    "https://www.cleco.com/about/generation-assets/regulated-facilities/big-cajun-ii",
     "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
     "https://www.legis.la.gov/legis/Law.aspx?d=83925",
     "https://www.osha.gov/stateplans",
     "https://www.nrc.gov/agreement-states/louisiana.html",
-    "https://www.deq.louisiana.gov/emergency-radiation/industrial-radiography"
+    "https://www.deq.louisiana.gov/emergency-radiation/industrial-radiography",
+    "https://www.sec.gov/Archives/edgar/data/1089819/000108981924000021/cnl-20240601.htm",
+    "https://www.gem.wiki/Big_Cajun_2_power_plant"
   ]
 }

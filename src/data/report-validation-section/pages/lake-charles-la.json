@@ -26,12 +26,37 @@
         "The terminals are listed to describe the area and the work it generates. They are not clients, and naming them does not imply that we have reviewed any of their records."
       ],
       "table": {
-        "head": ["Terminal", "Location and owner", "Status, November 2026", "Records most often brought for review"],
+        "head": [
+          "Terminal",
+          "Location and owner",
+          "Status, November 2026",
+          "Records most often brought for review"
+        ],
         "rows": [
-          ["Cameron LNG", "Hackberry; joint venture of affiliates of Sempra Infrastructure, TotalEnergies, Mitsui and Japan LNG Investment", "Three trains in full commercial operation since August 2020", "Maintenance turnaround packages, exchanger and piping inspection reports, tank and jetty records"],
-          ["Calcasieu Pass", "Cameron Parish; Venture Global", "Commercial operations began in April 2025", "Inspection records from the first years of service compared with the construction baseline"],
-          ["CP2 LNG", "Cameron Parish, south of Lake Charles; Venture Global", "First two phases under construction, with first LNG expected in July 2027", "Weld NDT, module and spool data books, digital radiography and ultrasonic records from fabrication and erection"],
-          ["Louisiana LNG", "Calcasieu Parish; Woodside", "Three trains and two storage tanks under construction, first LNG targeted for 2029", "Construction NDT, vendor acceptance packages and tank weld records"]
+          [
+            "Cameron LNG",
+            "Hackberry; joint venture of affiliates of Sempra Infrastructure, TotalEnergies, Mitsui and Japan LNG Investment",
+            "Three trains in full commercial operation since August 2020",
+            "Maintenance turnaround packages, exchanger and piping inspection reports, tank and jetty records"
+          ],
+          [
+            "Calcasieu Pass",
+            "Cameron Parish; Venture Global",
+            "Commercial operations began in April 2025",
+            "Inspection records from the first years of service compared with the construction baseline"
+          ],
+          [
+            "CP2 LNG",
+            "Cameron Parish, south of Lake Charles; Venture Global",
+            "First two phases under construction, with first LNG expected in July 2027",
+            "Weld NDT, module and spool data books, digital radiography and ultrasonic records from fabrication and erection"
+          ],
+          [
+            "Louisiana LNG",
+            "Calcasieu Parish; Woodside",
+            "Three trains and two storage tanks under construction, first LNG targeted for 2029",
+            "Construction NDT, vendor acceptance packages and tank weld records"
+          ]
         ]
       }
     },
@@ -53,7 +78,7 @@
     {
       "h": "Refineries and chemical plants around Westlake",
       "p": [
-        "Lake Charles was a refining and chemical town long before LNG arrived. The state's 2025 refinery survey lists Phillips 66's refinery at Westlake at 263,700 barrels per calendar day and Calcasieu Refining at 135,500, and it records the Excel Paralubes hydrocracking plant at Westlake as operating. Sasol runs chemical operations at its Lake Charles complex in Westlake, and Westlake Corporation operates sites north and south of the city, where in December 2025 it shut down a vinyl chloride monomer plant, one diaphragm chlor-alkali unit and its styrene plant.",
+        "Lake Charles was a refining and chemical town long before LNG arrived. The state's 2025 refinery survey lists Phillips 66's refinery at Westlake at 263,700 barrels per calendar day and Calcasieu Refining at 135,500, and it records the Excel Paralubes hydrocracking plant at Westlake as operating. Sasol runs chemical operations at its Lake Charles complex in Westlake, and Westlake Corporation operates sites north and south of the city, where in December 2025 it announced the closure of a vinyl chloride monomer plant, one diaphragm chlor-alkali unit and its styrene plant, with operations ending that month.",
         "Those shutdowns are a reminder that inspection records outlive the units they describe. Equipment that is idled, mothballed, sold or moved to another site carries its inspection history with it, and the buyer or the next operator has to decide whether that history can be trusted. Turnaround close-out on the refineries, outage records on chemical units and due diligence on idled assets make up most of the Westlake work that reaches an independent reviewer."
       ]
     },
@@ -61,7 +86,7 @@
       "h": "Regulators behind a southwest Louisiana record",
       "p": [
         "LNG terminals are pipeline facilities in federal law. PHMSA regulates them under 49 CFR Part 193, and section 193.2013 of that part incorporates NFPA 59A by reference, so construction and inspection records are judged against the editions those rules name as well as against the project specification. Gas and hazardous liquid lines inside the state are overseen by the Pipelines Section of the Louisiana Department of Conservation and Energy, which took that name on 1 October 2025 when it ceased to be the Department of Energy and Natural Resources, under federal certification for both programs.",
-        "Refineries and chemical plants fall under OSHA's process safety management standard, 29 CFR 1910.119, which federal OSHA enforces directly because Louisiana runs no state plan. Boilers and Code-stamped vessels answer to the Boiler Inspection Section of the Office of State Fire Marshal. Industrial radiography is licensed by the Louisiana Department of Environmental Quality under the state's Agreement State program. Atlantis does not perform industrial radiography in Louisiana, so radiographs and DR images from your licensed contractor are reviewed purely as records."
+        "Refineries and chemical plants fall under OSHA's process safety management standard, 29 CFR 1910.119, which federal OSHA enforces directly because Louisiana runs no state plan. Boilers and Code-stamped vessels answer to the Office of State Fire Marshal's boiler inspection program. Industrial radiography is licensed by the Louisiana Department of Environmental Quality under the state's Agreement State program. Atlantis does not perform industrial radiography in Louisiana, so radiographs and DR images from your licensed contractor are reviewed purely as records."
       ]
     },
     {
@@ -149,13 +174,34 @@
     }
   ],
   "related": [
-    ["/inspection-services-louisiana", "Inspection services in Louisiana"],
-    ["/inspection/third-party-inspection-lake-charles", "Third-party inspection in Lake Charles"],
-    ["/consulting/ndt-consulting-lake-charles", "NDT consulting in Lake Charles"],
-    ["/ndt-training-lake-charles", "NDT training in Lake Charles"],
-    ["/ultrasonic-testing-lake-charles", "Ultrasonic testing in Lake Charles"],
-    ["/ultrasonic-testing-lng", "Ultrasonic testing for LNG"],
-    ["/penetrant-testing-stainless-steel", "Penetrant testing of stainless steel"]
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/inspection/third-party-inspection-lake-charles",
+      "Third-party inspection in Lake Charles"
+    ],
+    [
+      "/consulting/ndt-consulting-lake-charles",
+      "NDT consulting in Lake Charles"
+    ],
+    [
+      "/ndt-training-lake-charles",
+      "NDT training in Lake Charles"
+    ],
+    [
+      "/ultrasonic-testing-lake-charles",
+      "Ultrasonic testing in Lake Charles"
+    ],
+    [
+      "/ultrasonic-testing-lng",
+      "Ultrasonic testing for LNG"
+    ],
+    [
+      "/penetrant-testing-stainless-steel",
+      "Penetrant testing of stainless steel"
+    ]
   ],
   "sources": [
     "https://semprainfrastructure.com/?p=2490",
@@ -171,6 +217,8 @@
     "https://www.dce.louisiana.gov/page/pipeline-safety-program",
     "https://www.osha.gov/stateplans",
     "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
-    "https://www.nrc.gov/agreement-states/louisiana.html"
+    "https://www.nrc.gov/agreement-states/louisiana.html",
+    "https://www.dce.louisiana.gov/news/denr-to-become-ce",
+    "https://www.legis.la.gov/legis/Law.aspx?d=83925"
   ]
 }

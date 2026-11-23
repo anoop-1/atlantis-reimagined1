@@ -22,8 +22,8 @@
     {
       "h": "Refining, petrochemicals and LNG across the Golden Triangle",
       "p": [
-        "Motiva's Port Arthur refinery, owned by Saudi Aramco, is the largest refinery in the United States on a calendar-day basis according to the EIA. ExxonMobil's Beaumont refinery added a major crude expansion in 2023. Valero also runs a Port Arthur refinery, and TotalEnergies operates its Port Arthur platform, a refinery commissioned in 1936 with a crude capacity of 238,000 barrels per day, a coker added in 2011 and a steam cracker run through a joint venture with BASF. TotalEnergies' Port Arthur ethane cracker, inaugurated in 2022, feeds a polyethylene line at Bayport.",
-        "On the Sabine Pass side, Golden Pass LNG, a joint venture of QatarEnergy and ExxonMobil, produced its first LNG from Train 1 in March 2026 and shipped its first cargo on 22 April 2026, with the second and third trains scheduled to follow. Sempra Infrastructure is building Port Arthur LNG nearby. It is unusual to find a refinery running since the 1930s and an LNG plant still commissioning its trains this close together.",
+        "Motiva's Port Arthur refinery, owned by Saudi Aramco, is the largest refinery in the United States on a calendar-day basis, at 656,000 barrels per calendar day in the EIA's 2026 capacity data. ExxonMobil's Beaumont refinery added a major crude expansion in 2023. Valero also runs a Port Arthur refinery, and TotalEnergies operates its Port Arthur platform, a refinery commissioned in 1936 with a crude capacity of 238,000 barrels per day, a coker added in 2011 and a steam cracker run through a joint venture with BASF. The Port Arthur ethane cracker commissioned in 2022 by Baystar, TotalEnergies' equal joint venture with Borealis, partly feeds a polyethylene line at Bayport.",
+        "On the Sabine Pass side, Golden Pass LNG, a joint venture of QatarEnergy and ExxonMobil, produced its first LNG from Train 1 in March 2026 and shipped its first cargo on 22 April 2026; the EIA lists Train 2 for the second half of 2026 and Train 3 for the first half of 2027. Sempra Infrastructure is building Port Arthur LNG nearby. It is unusual to find a refinery running since the 1930s and an LNG plant still commissioning its trains this close together.",
         "These names describe the area; they are not a list of Atlantis clients. In this setting independent reviews are typically asked for by owners' inspection groups facing a turnaround or a records audit, by construction and completions teams closing out new trains, by contractors whose reports have been rejected, and by insurers, lenders and buyers who need to know whether the history can be relied on."
       ]
     },
@@ -208,6 +208,7 @@
     "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
     "https://www.rrc.state.tx.us/pipeline-safety",
     "https://www.nrc.gov/info-finder/region-state/texas.html",
-    "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/289.255%20Radiation%20Safety%20Requirements%20and%20Licensing%20and%20Registration%20Procedures%20for%20Industrial%20Radiography.pdf"
+    "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/289.255%20Radiation%20Safety%20Requirements%20and%20Licensing%20and%20Registration%20Procedures%20for%20Industrial%20Radiography.pdf",
+    "https://www.eia.gov/todayinenergy/detail.php?id=67564"
   ]
 }

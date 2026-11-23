@@ -23,7 +23,7 @@
       "h": "The Coastal Bend's industrial map, and who reads its reports",
       "p": [
         "On the Inner Harbor, Valero runs its Corpus Christi refineries, also known as the Bill Greehey refineries: an East plant processing sour crude and a West plant built as a grass-roots refinery in 1983, together rated at 370,000 barrels per day beside the ship channel. Flint Hills Resources, wholly owned by Koch, operates two Corpus Christi refineries with a combined 350,000 barrels per day, which also produce aromatics and derivatives.",
-        "Across the bay in San Patricio County, Cheniere's Corpus Christi Liquefaction facility completed its seven-train Stage 3 expansion, with substantial completion announced on 28 August 2026. Gulf Coast Growth Ventures, owned equally by ExxonMobil and SABIC and operated by ExxonMobil, started up in 2022 with a 1.8 million tonne per year ethane cracker, two polyethylene units and a monoethylene glycol unit. At Ingleside, Enbridge operates the Ingleside Energy Center, which it describes as the largest crude export facility in the United States.",
+        "Across the bay in San Patricio County, Cheniere's Corpus Christi Liquefaction facility reached substantial completion of its seven-train Stage 3 expansion on 28 August 2026, when the last train was handed over by the contractor. Gulf Coast Growth Ventures, owned equally by ExxonMobil and SABIC and operated by ExxonMobil, started up in 2022 with a 1.8 million tonne per year ethane cracker, two polyethylene units and a monoethylene glycol unit. At Ingleside, Enbridge operates the Ingleside Energy Center, which it describes as the largest crude storage and export facility by volume in the United States.",
         "Those names are given to describe the area, not as a client list. In an industrial base this young, independent reviews tend to be requested by construction and completions teams closing out new units, by NDT subcontractors whose packages have been rejected, by module fabricators answering a receiving inspector, by refinery reliability groups at turnaround, and by the technical advisers who act for lenders, insurers and buyers."
       ]
     },
@@ -33,14 +33,42 @@
         "The reason for the review decides where the reviewer spends the effort. The table pairs the situations we expect most often from this area with the records involved and the question the opinion has to answer."
       ],
       "table": {
-        "head": ["Situation", "What usually arrives", "What decides the opinion"],
+        "head": [
+          "Situation",
+          "What usually arrives",
+          "What decides the opinion"
+        ],
         "rows": [
-          ["Mechanical completion on an LNG train or cracker unit", "Weld database extracts, film and DR images, PAUT used in place of radiography, PMI and hardness logs, test packs", "Whether every weld in the test pack received the examination its line class requires, by qualified people, with images that trace to the weld"],
-          ["Rejected NDT subcontractor package", "The rejection notice, the subcontractor's reports, images and scan files, the written procedure", "Whether the rejection rests on the governing acceptance table and edition, or on a misreading of either"],
-          ["Refinery turnaround close-out", "API 510 and API 570 reports, CML readings, exchanger tube data, repair records", "Coverage, calibration and whether each repair disposition follows from the data"],
-          ["Export terminal tank or dock work", "API 653 out-of-service reports, floor scans, shell UT, weld records on dock lines", "Floor coverage, repair records and whether tie-in welds were fully examined"],
-          ["Pipeline tie-in at a terminal or plant fence", "Girth weld images or automated UT files, alignment sheets, welder logs", "Full examination of tie-ins under Part 195 and interpretation against the acceptance standard"],
-          ["Lender, insurer or buyer due diligence", "A sample drawn from the turnover package or the inspection database", "Whether the history can be relied on as it stands, or needs targeted re-examination"]
+          [
+            "Mechanical completion on an LNG train or cracker unit",
+            "Weld database extracts, film and DR images, PAUT used in place of radiography, PMI and hardness logs, test packs",
+            "Whether every weld in the test pack received the examination its line class requires, by qualified people, with images that trace to the weld"
+          ],
+          [
+            "Rejected NDT subcontractor package",
+            "The rejection notice, the subcontractor's reports, images and scan files, the written procedure",
+            "Whether the rejection rests on the governing acceptance table and edition, or on a misreading of either"
+          ],
+          [
+            "Refinery turnaround close-out",
+            "API 510 and API 570 reports, CML readings, exchanger tube data, repair records",
+            "Coverage, calibration and whether each repair disposition follows from the data"
+          ],
+          [
+            "Export terminal tank or dock work",
+            "API 653 out-of-service reports, floor scans, shell UT, weld records on dock lines",
+            "Floor coverage, repair records and whether tie-in welds were fully examined"
+          ],
+          [
+            "Pipeline tie-in at a terminal or plant fence",
+            "Girth weld images or automated UT files, alignment sheets, welder logs",
+            "Full examination of tie-ins under Part 195 and interpretation against the acceptance standard"
+          ],
+          [
+            "Lender, insurer or buyer due diligence",
+            "A sample drawn from the turnover package or the inspection database",
+            "Whether the history can be relied on as it stands, or needs targeted re-examination"
+          ]
         ]
       }
     },
@@ -62,7 +90,7 @@
     {
       "h": "Crude export terminals, tanks and the pipelines that feed them",
       "p": [
-        "Permian crude reaches Corpus Christi and Ingleside by pipeline, which means hazardous liquid girth welds under 49 CFR Part 195 at every new connection. That rule requires at least 10 percent of each welder's girth welds per day to be tested over their full circumference, raises that to every girth weld in populated areas, at road and rail crossings and where a spill could reasonably reach water, and requires full examination of every tie-in. A review checks that the images or automated UT records on file match those percentages weld by weld, and that each interpretation was made to the acceptance standard the procedure names.",
+        "Permian crude reaches Corpus Christi and Ingleside by pipeline, which means hazardous liquid girth welds under 49 CFR Part 195 at every new connection. That rule requires at least 10 percent of each welder's girth welds per day to be tested over their full circumference, extends full testing to every girth weld installed in populated areas, within road and railroad rights-of-way and where a spill could reasonably reach water, with a narrow allowance where testing is impracticable, and requires full examination of every tie-in. A review checks that the images or automated UT records on file match those percentages weld by weld, and that each interpretation was made to the acceptance standard the procedure names.",
         "Tank farms at the export terminals produce API 653 inspection reports, MFL floor scans and shell thickness surveys. The common weaknesses are floor coverage that leaves the critical zone near the shell undocumented, prove-up UT that cannot be matched to the MFL indication it was meant to confirm, and repair plates whose welds were examined but never recorded against a location. Each is called out with the evidence that would close it."
       ]
     },
@@ -144,11 +172,26 @@
     }
   ],
   "related": [
-    ["/inspection-services-texas", "Inspection services in Texas"],
-    ["/inspection/third-party-inspection-corpus-christi", "Third-party inspection in Corpus Christi"],
-    ["/consulting/ndt-consulting-corpus-christi", "NDT consulting in Corpus Christi"],
-    ["/ndt-training-corpus-christi", "NDT training in Corpus Christi"],
-    ["/ultrasonic-testing-corpus-christi", "Ultrasonic testing in Corpus Christi"]
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/inspection/third-party-inspection-corpus-christi",
+      "Third-party inspection in Corpus Christi"
+    ],
+    [
+      "/consulting/ndt-consulting-corpus-christi",
+      "NDT consulting in Corpus Christi"
+    ],
+    [
+      "/ndt-training-corpus-christi",
+      "NDT training in Corpus Christi"
+    ],
+    [
+      "/ultrasonic-testing-corpus-christi",
+      "Ultrasonic testing in Corpus Christi"
+    ]
   ],
   "sources": [
     "https://valero.com/node/150",

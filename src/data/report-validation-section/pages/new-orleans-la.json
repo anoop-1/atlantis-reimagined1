@@ -3,7 +3,7 @@
   "description": "Independent review of offshore, refinery, chemical plant and fabrication yard NDT reports and digital data from the New Orleans area, done remotely.",
   "h1": "Independent review of NDT reports from Gulf offshore work, river refineries and Louisiana fabrication yards",
   "eyebrow": "Report validation: New Orleans, Louisiana",
-  "intro": "New Orleans is where a great deal of Gulf inspection paperwork ends up. The federal offshore regulator runs its Gulf region from here, the refineries and chemical plants between Norco and Chalmette run their own turnaround cycles, a new LNG terminal has just begun commercial service down river, and fabrication yards to the south and west ship structures and spools with thick data books. We review the NDT reports and digital inspection data from all of that work independently, against the code and the specification that governed it. Atlantis keeps no premises anywhere in the New Orleans area, and reviews are carried out remotely on the records you send.",
+  "intro": "New Orleans is where a great deal of Gulf inspection paperwork ends up. The federal offshore regulator runs its Gulf region from here, the refineries and chemical plants between Garyville and Meraux run their own turnaround cycles, a new LNG terminal has just begun commercial service down river, and fabrication yards to the south and west ship structures and spools with thick data books. We review the NDT reports and digital inspection data from all of that work independently, against the code and the specification that governed it. Atlantis keeps no premises anywhere in the New Orleans area, and reviews are carried out remotely on the records you send.",
   "highlights": [
     {
       "h": "Offshore records with an onshore reader",
@@ -22,30 +22,60 @@
     {
       "h": "Three kinds of inspection work meet in one metro",
       "p": [
-        "New Orleans sits close to an unusual range of inspection regimes. Offshore production, river refining, petrochemicals, a nuclear plant, LNG export and heavy fabrication all lie within about an hour and a half of the French Quarter, and each produces records with its own codes, its own regulator and its own idea of what a finished report looks like. Contractors move between them, and so do their habits; a technique sheet that is perfectly acceptable on a refinery exchanger can be wrong for an offshore riser or a nuclear plant pipe support.",
+        "New Orleans sits close to an unusual range of inspection regimes. River refining, petrochemicals, a nuclear plant, LNG export and heavy fabrication all lie within about an hour and a half of the French Quarter, offshore production is managed from offices in and around the city, and each produces records with its own codes, its own regulator and its own idea of what a finished report looks like. Contractors move between them, and so do their habits; a technique sheet that is perfectly acceptable on a refinery exchanger can be wrong for an offshore riser or a nuclear plant pipe support.",
         "That mix is why owners, contractors and their advisers in the area ask for independent reviews. A refiner wants a contractor's close-out set read before a unit restarts. An offshore operator, or the insurer of one, wants to know whether an inspection campaign really covered what the report claims. A yard wants confidence that a buyer will accept its data book. Each of those people needs a reader with no stake in the answer, and the sites named on this page are named only to describe the area, not as clients."
       ]
     },
     {
-      "h": "Refineries between Norco and Chalmette",
+      "h": "Refineries from Garyville to Meraux",
       "p": [
         "The river parishes around New Orleans hold some of the largest refining capacity in Louisiana. The table uses the operators and capacities listed in the state's 2025 refinery survey, which reports 2024 data, together with the records those plants most often send for an outside reading."
       ],
       "table": {
-        "head": ["Refinery", "Operator in the state survey", "Capacity, barrels per calendar day", "Records that commonly reach review"],
+        "head": [
+          "Refinery",
+          "Operator in the state survey",
+          "Capacity, barrels per calendar day",
+          "Records that commonly reach review"
+        ],
         "rows": [
-          ["Garyville", "Marathon Petroleum", "606,000", "Turnaround packages from several contractors, PAUT and TOFD on heavy-wall reactors, CML data loaded to the owner's database"],
-          ["Norco", "Shell", "231,827", "Refinery and adjoining chemical plant records, exchanger tube data, API 653 tank reports"],
-          ["Norco (St. Charles)", "Valero", "215,000", "Piping circuit thickness surveys, repair weld examinations, records for equipment changing service"],
-          ["Chalmette", "Chalmette Refining, part of PBF Energy", "190,000", "Turnaround close-out sets, corrosion maps on vessels and columns, CR of small-bore connections"],
-          ["Meraux", "Valero", "125,000", "Tank floor and shell reports, unit piping surveys, vendor data books for replacement equipment"]
+          [
+            "Garyville",
+            "Marathon Petroleum",
+            "606,000",
+            "Turnaround packages from several contractors, PAUT and TOFD on heavy-wall reactors, CML data loaded to the owner's database"
+          ],
+          [
+            "Norco",
+            "Shell",
+            "231,827",
+            "Refinery and adjoining chemical plant records, exchanger tube data, API 653 tank reports"
+          ],
+          [
+            "Norco (St. Charles)",
+            "Valero",
+            "215,000",
+            "Piping circuit thickness surveys, repair weld examinations, records for equipment changing service"
+          ],
+          [
+            "Chalmette",
+            "Chalmette Refining, part of PBF Energy",
+            "190,000",
+            "Turnaround close-out sets, corrosion maps on vessels and columns, CR of small-bore connections"
+          ],
+          [
+            "Meraux",
+            "Valero",
+            "125,000",
+            "Tank floor and shell reports, unit piping surveys, vendor data books for replacement equipment"
+          ]
         ]
       }
     },
     {
       "h": "Chemical plants on the same stretch of river",
       "p": [
-        "Refining shares the river with large chemical sites. Dow's St. Charles Operations at Hahnville produces polyolefins, elastomers, glycol ethers and other products, and the Norco Manufacturing Complex includes an ethylene, propylene and butadiene plant that the state lists separately from the refinery. Cracking furnaces, cold-end separation, polymer reactors and the utilities around them generate reports that differ from refinery work: thickness grids on furnace tubes and transfer lines, penetrant and ultrasonic records on stainless and alloy piping, and data books for the steady stream of replacement exchangers and vessels such sites buy.",
+        "Refining shares the river with large chemical sites. Dow's St. Charles Operations at Hahnville, a 2,000-acre integrated complex just upriver from the city, makes materials that end up in plastics, films, antifreeze, paints and adhesives, and the Norco Manufacturing Complex includes an ethylene, propylene and butadiene plant that the state lists separately from the refinery. Cracking furnaces, cold-end separation, polymer reactors and the utilities around them generate reports that differ from refinery work: thickness grids on furnace tubes and transfer lines, penetrant and ultrasonic records on stainless and alloy piping, and data books for the steady stream of replacement exchangers and vessels such sites buy.",
         "Chemical plant reports often fail on context rather than measurement. A thickness reading is only useful if the report says where on the component it was taken and how it compares with the last survey, and a penetrant result on a stainless joint means little without the surface temperature and dwell time behind it. The review checks those details because they are what a later auditor, or a later inspector trying to trend the data, will need."
       ]
     },
@@ -59,14 +89,14 @@
     {
       "h": "Plaquemines LNG and the lower river",
       "p": [
-        "South of the city, Venture Global began commercial operations of the first phase of its Plaquemines LNG terminal on 30 October 2026, after exporting commissioning cargoes since late 2024. A terminal at that point is changing hands in a documentary sense: the construction record, with its weld database, radiographs, digital radiography images and ultrasonic files, becomes the operator's baseline, and every future inspection will be compared against it.",
+        "South of the city, Venture Global began commercial operations of the first phase of its Plaquemines LNG terminal on 30 October 2026, after exporting commissioning cargoes since December 2024. A terminal at that point is changing hands in a documentary sense: the construction record, with its weld database, radiographs, digital radiography images and ultrasonic files, becomes the operator's baseline, and every future inspection will be compared against it.",
         "Review work around a terminal at this stage tends to fall into two groups. Completion and handover packages are checked for traceability and for agreement between the weld database and the examination records, and the first maintenance inspections are checked against that baseline so that any change is real rather than an artefact of a different technique, reference point or reporting template."
       ]
     },
     {
       "h": "Fabrication yards and shop data books",
       "p": [
-        "South Louisiana's yards build steel structures and modules for the energy, industrial and government markets, and smaller shops across the metro turn out spools, skids and pressure vessels. Gulf Island Fabrication, whose Houma facility covers about 450,000 square feet of fabrication and operations space on 160 acres, became part of IES Holdings on 16 January 2026. Ownership changes like that one rarely touch the paperwork on the shop floor, but they often prompt a fresh look at how data books are assembled.",
+        "South Louisiana's yards build steel structures and modules for the energy, industrial and government markets, and smaller shops across the metro turn out spools, skids and pressure vessels. Gulf Island Fabrication, whose Houma campus covers about 450,000 square feet of fabrication and operations space, became part of IES Holdings on 16 January 2026. Ownership changes like that one rarely touch the paperwork on the shop floor, but they often prompt a fresh look at how data books are assembled.",
         "A yard data book has to satisfy a buyer who was not present while the welding happened. Structural welds are usually examined to AWS D1.1 or the purchaser's offshore structural specification, pressure piping to ASME B31.3 and vessels to ASME Section VIII, and each of those sets its own examination extent and acceptance criteria. The review checks the weld map against the drawings, the NDT reports against the weld map, and the personnel and calibration records against the dates of work, before the structure leaves the quay and corrections become expensive to arrange."
       ],
       "list": [
@@ -90,16 +120,52 @@
         "One metro, many regulators. The table sets out the authority and code basis an NDT report from each kind of asset will usually be read against. It is a starting point; the contract and the owner's program always decide the edition."
       ],
       "table": {
-        "head": ["Asset", "Authority", "Code basis the review usually applies"],
+        "head": [
+          "Asset",
+          "Authority",
+          "Code basis the review usually applies"
+        ],
         "rows": [
-          ["Offshore production facilities on the outer continental shelf", "BSEE, Gulf of America Region", "30 CFR Part 250, the operator's inspection program and the industry standards it invokes"],
-          ["Intrastate gas and liquid pipelines", "Louisiana Department of Conservation and Energy, Pipelines Section", "49 CFR Parts 192 and 195 as adopted under the state's federal certification"],
-          ["Interstate pipelines", "PHMSA", "49 CFR Parts 192 and 195, API 1104 for girth welds"],
-          ["LNG terminal", "PHMSA", "49 CFR Part 193 and the NFPA 59A edition it incorporates"],
-          ["Refinery and chemical process equipment", "Federal OSHA, as Louisiana has no state plan", "29 CFR 1910.119 mechanical integrity, API 510, 570 and 653, owner standards"],
-          ["Boilers and Code-stamped vessels", "Office of State Fire Marshal, Boiler Inspection Section", "ASME Code as the Louisiana Boiler Construction Code"],
-          ["Industrial radiography licensing", "Louisiana Department of Environmental Quality", "State radiation rules under the Agreement State program"],
-          ["Nuclear power plant", "NRC Region IV", "10 CFR 50.55a and the ASME Section XI edition in the plant's program"]
+          [
+            "Offshore production facilities on the outer continental shelf",
+            "BSEE, Gulf of America Region",
+            "30 CFR Part 250, the operator's inspection program and the industry standards it invokes"
+          ],
+          [
+            "Intrastate gas and liquid pipelines",
+            "Louisiana Department of Conservation and Energy, Pipelines Section",
+            "49 CFR Parts 192 and 195 as adopted under the state's federal certification"
+          ],
+          [
+            "Interstate pipelines",
+            "PHMSA",
+            "49 CFR Parts 192 and 195, API 1104 for girth welds"
+          ],
+          [
+            "LNG terminal",
+            "PHMSA",
+            "49 CFR Part 193 and the NFPA 59A edition it incorporates"
+          ],
+          [
+            "Refinery and chemical process equipment",
+            "Federal OSHA, as Louisiana has no state plan",
+            "29 CFR 1910.119 mechanical integrity, API 510, 570 and 653, owner standards"
+          ],
+          [
+            "Boilers and Code-stamped vessels",
+            "Office of State Fire Marshal, boiler inspection program",
+            "ASME Code as the Louisiana Boiler Construction Code"
+          ],
+          [
+            "Industrial radiography licensing",
+            "Louisiana Department of Environmental Quality",
+            "State radiation rules under the Agreement State program"
+          ],
+          [
+            "Nuclear power plant",
+            "NRC Region IV",
+            "10 CFR 50.55a and the ASME Section XI edition in the plant's program"
+          ]
         ]
       }
     },
@@ -153,13 +219,34 @@
     }
   ],
   "related": [
-    ["/inspection-services-louisiana", "Inspection services in Louisiana"],
-    ["/consulting/ndt-consulting-new-orleans", "NDT consulting in New Orleans"],
-    ["/ndt-training-new-orleans", "NDT training in New Orleans"],
-    ["/ultrasonic-testing-new-orleans", "Ultrasonic testing in New Orleans"],
-    ["/inspection/pipeline-inspection-services-new-orleans", "Pipeline inspection in New Orleans"],
-    ["/ultrasonic-testing-offshore", "Ultrasonic testing offshore"],
-    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"]
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/consulting/ndt-consulting-new-orleans",
+      "NDT consulting in New Orleans"
+    ],
+    [
+      "/ndt-training-new-orleans",
+      "NDT training in New Orleans"
+    ],
+    [
+      "/ultrasonic-testing-new-orleans",
+      "Ultrasonic testing in New Orleans"
+    ],
+    [
+      "/inspection/pipeline-inspection-services-new-orleans",
+      "Pipeline inspection in New Orleans"
+    ],
+    [
+      "/ultrasonic-testing-offshore",
+      "Ultrasonic testing offshore"
+    ],
+    [
+      "/report-validation/pipeline-girth-weld-report-review",
+      "Pipeline girth weld report review"
+    ]
   ],
   "sources": [
     "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf",
@@ -174,6 +261,8 @@
     "https://www.law.cornell.edu/cfr/text/49/193.2013",
     "https://www.osha.gov/stateplans",
     "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
-    "https://www.nrc.gov/agreement-states/louisiana.html"
+    "https://www.nrc.gov/agreement-states/louisiana.html",
+    "https://corporate.dow.com/content/dam/corp/documents/location/066-00158-01-st-charles-operations-fact-sheet.pdf",
+    "https://www.stocktitan.net/news/IESC/ies-holdings-completes-acquisition-of-gulf-island-b0wn2urpurpo.html"
   ]
 }

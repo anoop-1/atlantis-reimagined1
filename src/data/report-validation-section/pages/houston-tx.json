@@ -3,7 +3,7 @@
   "description": "Independent review of NDT reports and digital inspection data from Houston refineries, chemical plants, LNG and pipelines, checked against the code.",
   "h1": "Independent NDT report review for the Houston Ship Channel, Baytown, Texas City and Freeport",
   "eyebrow": "Report validation: Houston, Texas",
-  "intro": "Houston turns out more inspection paperwork than almost any other industrial region in the country. Refinery turnarounds on the ship channel, chemical plant outages in Baytown and Freeport, LNG maintenance on Quintana Island, pipeline digs and a steady stream of shop-fabricated vessels all end in reports somebody has to accept, pay for or defend. We review those reports, and the digital inspection data behind them, independently against the procedure, the code edition and the owner's specification, then set out in writing what the evidence supports. Atlantis's US office is in Houston, but the review itself is still carried out remotely on the records you send.",
+  "intro": "Houston produces inspection paperwork on an industrial scale. Refinery turnarounds on the ship channel, chemical plant outages in Baytown and Freeport, LNG maintenance on Quintana Island, pipeline digs and a steady stream of shop-fabricated vessels all end in reports somebody has to accept, pay for or defend. We review those reports, and the digital inspection data behind them, independently against the procedure, the code edition and the owner's specification, then set out in writing what the evidence supports. Atlantis's US office is in Houston, but the review itself is still carried out remotely on the records you send.",
   "highlights": [
     {
       "h": "Sized for turnaround volume",
@@ -22,9 +22,9 @@
     {
       "h": "Who asks for independent report reviews around Houston",
       "p": [
-        "The Houston area packs refining, chemicals, gas processing, LNG export and pipeline terminals into a handful of counties, and nearly every asset in it is inspected on a cycle. ExxonMobil runs its integrated refining and chemical complex at Baytown. The Deer Park refinery on the ship channel belongs to PEMEX. Chevron owns the Pasadena refinery and has recently completed upgrades there. Valero operates refineries in Houston and Texas City, and Marathon Petroleum's Galveston Bay refinery in Texas City is, by the EIA's count, the largest in the country on a stream-day basis. Further south, Dow's Texas Operations in Freeport is the company's largest integrated manufacturing site, with Freeport LNG's export terminal close by on Quintana Island, and to the east Enterprise Products operates NGL fractionation at Mont Belvieu.",
+        "The Houston area packs refining, chemicals, gas processing, LNG export and pipeline terminals into a handful of counties, and nearly every asset in it is inspected on a cycle. ExxonMobil runs its integrated refining and chemical complex at Baytown. The Deer Park refinery on the ship channel belongs to PEMEX. Chevron owns the Pasadena refinery, where it completed upgrades in late 2024. Valero operates refineries in Houston and Texas City, and Marathon Petroleum's Galveston Bay refinery in Texas City is, in the EIA's 2026 capacity data, the largest in the country on a stream-day basis, at 678,000 barrels per stream day. Further south, Dow's Texas Operations in Freeport is the company's largest integrated manufacturing site, with Freeport LNG's export terminal close by on Quintana Island, and to the east Enterprise Products operates NGL fractionation at Mont Belvieu.",
         "In a region like this, independent reviews are normally commissioned by someone one step removed from the examination: an owner's reliability or inspection group accepting a contractor's work, a contractor answering a rejection from the owner's inspector, a fabricator whose data book has been held at receipt, an insurer adjusting a claim after an outage, or a deal team reading inspection files before an acquisition closes. Construction and warranty lawyers make up much of the rest. All of them need the same thing, a reader with no stake in the result who can say whether the record would survive scrutiny.",
-        "Ownership change is part of the local picture too. LyondellBasell ended refining at its Houston refinery in March 2025, and in October 2026 Valero announced an agreement to take over the idled plant and partly restart it by the end of 2027, subject to the deal closing. Restarting any idled unit leans heavily on the inspection history written before it stopped, and on whether records for equipment left standing can still be trusted. Reviews of legacy inspection files are a normal part of that kind of work."
+        "Ownership change is part of the local picture too. LyondellBasell ended refining at its Houston refinery in March 2025. On 30 October 2026 Valero said it had agreed to buy the idled plant and aimed to restart 165,000 barrels per day of crude processing by the end of 2027; the purchase had not closed when this page was written. Restarting any idled unit leans heavily on the inspection history written before it stopped, and on whether records for equipment left standing can still be trusted. Reviews of legacy inspection files are a normal part of that kind of work."
       ]
     },
     {
@@ -33,14 +33,42 @@
         "The table maps the main clusters around Houston to the records we usually expect from them. The owners shown are examples to make the clusters recognisable, not a client list, and naming a site does not mean we have reviewed its records."
       ],
       "table": {
-        "head": ["Cluster", "Examples of owners and sites", "Reports and digital data that typically reach review"],
+        "head": [
+          "Cluster",
+          "Examples of owners and sites",
+          "Reports and digital data that typically reach review"
+        ],
         "rows": [
-          ["Ship channel refining", "PEMEX Deer Park, Chevron Pasadena, Valero Houston", "Turnaround packages, API 510 vessel and API 570 piping reports, CML thickness data, PAUT scans on repair welds, CR images of small-bore connections"],
-          ["Baytown and Mont Belvieu", "ExxonMobil Baytown complex, Enterprise NGL fractionation", "Exchanger eddy current tube files, column and drum inspection reports, corrosion maps on shells and heads, weld records on unit tie-ins"],
-          ["Texas City", "Marathon Galveston Bay, Valero Texas City", "Close-out sets from several contractors at once, API 653 tank reports, MT and PT on supports, nozzles and rotating equipment bases"],
-          ["Brazoria County and Freeport", "Dow Texas Operations, Freeport LNG", "Cryogenic and stainless piping weld records, PT on austenitic welds, UT and DR on new tie-ins, insulation and CUI survey data"],
-          ["Pipelines and terminals", "Interstate and intrastate operators, storage and export terminals", "Girth weld radiographs and DR images from licensed contractors, automated UT girth weld data, dig reports, tank floor and shell surveys"],
-          ["Fabrication shops", "Vessel, exchanger, spool and skid builders across the metro", "Manufacturer's data books, film or DR images, UT used in place of radiography, PMI and hardness records, hydrotest charts"]
+          [
+            "Ship channel refining",
+            "PEMEX Deer Park, Chevron Pasadena, Valero Houston",
+            "Turnaround packages, API 510 vessel and API 570 piping reports, CML thickness data, PAUT scans on repair welds, CR images of small-bore connections"
+          ],
+          [
+            "Baytown and Mont Belvieu",
+            "ExxonMobil Baytown complex, Enterprise NGL fractionation",
+            "Exchanger eddy current tube files, column and drum inspection reports, corrosion maps on shells and heads, weld records on unit tie-ins"
+          ],
+          [
+            "Texas City",
+            "Marathon Galveston Bay, Valero Texas City",
+            "Close-out sets from several contractors at once, API 653 tank reports, MT and PT on supports, nozzles and rotating equipment bases"
+          ],
+          [
+            "Brazoria County and Freeport",
+            "Dow Texas Operations, Freeport LNG",
+            "Cryogenic and stainless piping weld records, PT on austenitic welds, UT and DR on new tie-ins, insulation and CUI survey data"
+          ],
+          [
+            "Pipelines and terminals",
+            "Interstate and intrastate operators, storage and export terminals",
+            "Girth weld radiographs and DR images from licensed contractors, automated UT girth weld data, dig reports, tank floor and shell surveys"
+          ],
+          [
+            "Fabrication shops",
+            "Vessel, exchanger, spool and skid builders across the metro",
+            "Manufacturer's data books, film or DR images, UT used in place of radiography, PMI and hardness records, hydrotest charts"
+          ]
         ]
       }
     },
@@ -104,7 +132,7 @@
     {
       "h": "Who reviews the records, and where the review stops",
       "p": [
-        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under an ASNT NDT Level III who holds certification in all five of those methods. For eddy current tube data, MFL floor scans or acoustic emission, the proposal names a reviewer with the certification your contract calls for. Behind that Level III sits a review team whose members learned their trade on refinery, chemical plant, nuclear and maritime work.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under an ASNT NDT Level III who holds certification in all five of those methods. For eddy current tube data, MFL floor scans or acoustic emission, the proposal names a reviewer with the certification your contract calls for. Behind that Level III sits a review team whose members come from nuclear, maritime, oil and gas and petrochemical work.",
         "The opinion covers the inspection record. Remaining-life, fitness-for-service and rerating calculations stay with your engineer, and the inspector of record for a vessel or piping system stays the person your program names. Atlantis does not review reports on work it performed and does not certify personnel. Where the review shows new examination is needed, the opinion describes the technique that would close the gap, and choosing the contractor to do it remains the owner's decision."
       ]
     }
@@ -144,12 +172,30 @@
     }
   ],
   "related": [
-    ["/inspection-services-houston", "Inspection services in Houston"],
-    ["/inspection/third-party-inspection-houston", "Third-party inspection in Houston"],
-    ["/consulting/ndt-consulting-houston", "NDT consulting in Houston"],
-    ["/ndt-training-houston", "NDT training in Houston"],
-    ["/ultrasonic-testing-houston", "Ultrasonic testing in Houston"],
-    ["/inspection-services-texas", "Inspection services in Texas"]
+    [
+      "/inspection-services-houston",
+      "Inspection services in Houston"
+    ],
+    [
+      "/inspection/third-party-inspection-houston",
+      "Third-party inspection in Houston"
+    ],
+    [
+      "/consulting/ndt-consulting-houston",
+      "NDT consulting in Houston"
+    ],
+    [
+      "/ndt-training-houston",
+      "NDT training in Houston"
+    ],
+    [
+      "/ultrasonic-testing-houston",
+      "Ultrasonic testing in Houston"
+    ],
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ]
   ],
   "sources": [
     "https://corporate.exxonmobil.com/locations/united-states/baytown-operations",
@@ -170,6 +216,9 @@
     "https://www.federalregister.gov/documents/2000/03/01/00-3799/pipeline-safety-incorporation-of-standard-nfpa-59a-in-the-liquefied-natural-gas-regulations",
     "https://www.law.cornell.edu/cfr/text/49/195.234",
     "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/289.255%20Radiation%20Safety%20Requirements%20and%20Licensing%20and%20Registration%20Procedures%20for%20Industrial%20Radiography.pdf",
-    "https://www.nrc.gov/info-finder/region-state/texas.html"
+    "https://www.nrc.gov/info-finder/region-state/texas.html",
+    "https://www.ogj.com/general-interest/companies/news/55415528/valero-to-acquire-former-lyondellbasell-houston-oil-refinery-restart-165000-b-d-by-end-2027",
+    "https://pgjonline.com/news/2024/december/chevron-expands-pasadena-refinery-to-boost-light-crude-processing-capacity-by-15",
+    "https://www.phmsa.dot.gov/about-phmsa/offices/southwest-region"
   ]
 }
