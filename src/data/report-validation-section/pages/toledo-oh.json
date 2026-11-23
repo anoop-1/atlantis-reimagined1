@@ -3,7 +3,7 @@
   "description": "Independent review of NDT reports and digital inspection data from Toledo refineries, aromatics units, Davis-Besse and gas-fired power, done remotely.",
   "h1": "Independent validation of NDT reports for Toledo's refineries, Davis-Besse and northwest Ohio plants",
   "eyebrow": "Report validation: Toledo and northwest Ohio",
-  "intro": "For a metro area of its size, Toledo carries an unusual load of inspection paperwork: two refineries with aromatics and specialty chemical units inside the fence, a pressurized water reactor 21 miles to the east-southeast, and an H-class combined cycle plant in Oregon. Two of those assets changed owners in the last few years, which means records written under one company's procedures are now being relied on by another. We review NDT reports and the digital inspection data behind them independently, against the procedure, the code edition and the owner's specification, and set out in writing what the evidence will and will not support. The work is done remotely from the files you send.",
+  "intro": "For a metro area of its size, Toledo carries an unusual load of inspection paperwork: two refineries with aromatics and specialty chemical units inside the fence, a pressurized water reactor 21 miles to the east-southeast, and an H-class combined cycle plant in Oregon, Ohio. Two of those assets changed owners in the last few years, which means records written under one company's procedures are now being relied on by another. We review NDT reports and the digital inspection data behind them independently, against the procedure, the code edition and the owner's specification, and set out in writing what the evidence will and will not support. The work is done remotely from the files you send.",
   "highlights": [
     {
       "h": "Records that changed hands",
@@ -23,7 +23,7 @@
       "h": "What northwest Ohio puts in front of a reviewer",
       "p": [
         "PBF Energy's Toledo refinery occupies a 282-acre site about 60 miles south of Detroit and is rated at roughly 180,000 barrels per day. Alongside fuels it produces petrochemicals: nonene, tetramer, xylene and toluene. The second refinery, the former BP-Husky plant, has been wholly owned and operated by Cenovus Energy since February 2023, when Cenovus bought BP's half and took over operatorship; it runs about 160,000 barrels per day, of which 90,000 can be heavy oil.",
-        "East along the lakeshore road, the Davis-Besse Nuclear Power Station near Oak Harbor in Ottawa County is a Babcock & Wilcox pressurized water reactor with a renewed licence running to April 2037. Vistra completed its purchase of Energy Harbor, and with it Davis-Besse, Perry and Beaver Valley, in March 2024; the NRC lists Vistra Operations Company LLC as the licensee. In Oregon, the Oregon Clean Energy Center has run since 2017 as a combined cycle plant with two Siemens H-class gas turbines and a steam turbine.",
+        "Twenty-one miles east-southeast of Toledo, the Davis-Besse Nuclear Power Station near Oak Harbor in Ottawa County is a Babcock & Wilcox pressurized water reactor with a renewed licence running to April 2037. Vistra completed its purchase of Energy Harbor, and with it Davis-Besse, Perry and Beaver Valley, in March 2024; the NRC lists Vistra Operations Company LLC as the licensee. In Oregon, Ohio, the Oregon Clean Energy Center has run since 2017 as a combined cycle plant with two Siemens H-class gas turbines and a steam turbine.",
         "That mix produces a steady stream of turnaround packages, exchanger bundle data, vessel internal inspection reports, outage and supply-chain records, and heat recovery steam generator inspections. The facilities named here describe the region's industry; listing them is not a claim that Atlantis has reviewed their records or worked for their owners."
       ]
     },
@@ -63,13 +63,13 @@
       "p": [
         "Davis-Besse is overseen by NRC Region III, and every examination bought for the station passes through the licensee's own quality assurance program. Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list. We frame nuclear work as an independent technical opinion, and the licensee's QA organisation decides what weight it carries and whether it becomes part of any quality record.",
         "The useful ground is wide even so. A station may want a second reader for non-safety-related or balance-of-plant scope, oversight of a vendor's examination records before a component ships, an owner's check on an outage contractor's interpretation that its own reviewers question, or technical input to a commercial dispute. In a pressurized water reactor the records include ultrasonic examinations of welds and components, liquid penetrant and visual records, and steam generator and heat exchanger tube data from eddy current examination.",
-        "Eddy current is outside the five methods our Level III holds, so for tube data the proposal names a reviewer with the eddy current certification the contract calls for. For ultrasonic, penetrant and visual records the review checks the procedure revision the order invoked, examiner certification and any performance demonstration the code required, calibration traceability and the disposition of every recorded indication."
+        "Eddy current is not one of the five methods our Level III holds, so for tube data the proposal names a reviewer with the eddy current certification the contract calls for. For ultrasonic, penetrant and visual records the review checks the procedure revision the order invoked, examiner certification and any performance demonstration the code required, calibration traceability and the disposition of every recorded indication."
       ]
     },
     {
       "h": "Combined cycle plants and Ohio's boiler law",
       "p": [
-        "A combined cycle plant like the one in Oregon runs its heat recovery steam generators hard through daily starts and load swings, and its outage reports reflect that: tube and header examinations, attemperator and drain line records, high-energy piping weld examinations and boiler tube thickness data. Repairs carry their own trail of weld procedures, post-weld heat treatment charts and final NDE.",
+        "Combined cycle plants that follow demand put their heat recovery steam generators through repeated starts and thermal transients, and their outage reports reflect that: tube and header examinations, attemperator and drain line records, high-energy piping weld examinations and boiler tube thickness data. Repairs carry their own trail of weld procedures, post-weld heat treatment charts and final NDE.",
         "Ohio's boiler law, Revised Code Chapter 4104, decides who accepts that work. The director of commerce may appoint general inspectors, and an insurer authorised to write boiler and pressure vessel coverage in Ohio may designate special inspectors to inspect the units it covers, commissioned by the state's superintendent. The law bars anyone with a financial interest in making or selling boilers or pressure vessels from serving as either kind of inspector.",
         "That independence requirement is a useful reference point. The commissioned inspector, not the reviewer, accepts the boiler or vessel, and Atlantis does not act as an authorized inspector or inspector of record. What we add is an independent reading of the NDE behind a repair or a new installation, so the owner or the repair organisation knows before the inspector arrives whether the examinations meet the construction code and will answer the questions the inspector is going to ask."
       ]
@@ -116,7 +116,7 @@
     },
     {
       "q": "Do you work on records for Davis-Besse?",
-      "a": "We can give an independent technical opinion on records connected with a nuclear station, for example vendor data before shipment or a disputed interpretation. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list, so the licensee's QA organisation decides how the opinion is used."
+      "a": "We can give an independent technical opinion on records connected with a nuclear station, for example vendor data before shipment or a disputed interpretation. Because Atlantis does not appear on any licensee's Appendix B or NQA-1 approved supplier list, the station's QA organisation decides what the opinion is used for."
     },
     {
       "q": "Will someone from Atlantis visit the refinery?",
