@@ -184,6 +184,7 @@
     "pueblo": ["Pueblo","CO","USA","city"],
     "lima-ohio": ["Lima","OH","USA","city"],
     "joliet": ["Joliet","IL","USA","city"],
-    "rockford": ["Rockford","IL","USA","city"]
+    "rockford": ["Rockford","IL","USA","city"],
+    "decatur-alabama": ["Decatur","AL","USA","city"]
   }
 }

@@ -1,0 +1,15 @@
+{
+  "slug": "decatur-alabama",
+  "lat": 34.61,
+  "lng": -86.98,
+  "localContext": "Decatur sits on the Tennessee River in Morgan County and builds things that have to be inspected. United Launch Alliance assembles heavy-lift rockets at its Decatur plant, Beyond Gravity makes payload fairings and adapters nearby, Nucor runs a sheet steel mill and a steel utility-structure plant, and the riverfront chemical and materials sites (3M, Ascend Performance Materials, Daikin America, Indorama Ventures) run pressure vessels, piping and tanks under ASME and API codes. TVA's Browns Ferry Nuclear Plant lies across the river in Limestone County. Visual, penetrant, magnetic particle, ultrasonic and eddy current work all have steady local use.",
+  "certPathwayNote": "Decatur employers usually certify technicians under their own written practice based on ASNT SNT-TC-1A: the employer sets the hours, examines and signs the certification. Aerospace suppliers add the standard their prime customer's purchase order names, nuclear work adds the plant owner's quality program, and chemical-plant contractors follow the owner's contractor qualification rules. ASNT central certification suits technicians who move between employers.",
+  "salaryFrom": "huntsville",
+  "siblings": [
+    "huntsville",
+    "birmingham",
+    "chattanooga",
+    "nashville",
+    "mobile"
+  ]
+}

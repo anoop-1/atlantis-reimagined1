@@ -7171,6 +7171,37 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "minneapolis", label: "Minneapolis" },
     ],
   },
+  // === North American training expansion 2026-11-11 (scripts/add-na-training-cities-2026-11.mjs) ===
+  {
+    slug: "decatur-alabama",
+    city: "Decatur",
+    country: "USA",
+    lat: 34.61, lng: -86.98,
+    localContext:
+      "Decatur sits on the Tennessee River in Morgan County and builds things that have to be inspected. United Launch Alliance assembles heavy-lift rockets at its Decatur plant, Beyond Gravity makes payload fairings and adapters nearby, Nucor runs a sheet steel mill and a steel utility-structure plant, and the riverfront chemical and materials sites (3M, Ascend Performance Materials, Daikin America, Indorama Ventures) run pressure vessels, piping and tanks under ASME and API codes. TVA's Browns Ferry Nuclear Plant lies across the river in Limestone County. Visual, penetrant, magnetic particle, ultrasonic and eddy current work all have steady local use.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Decatur employers usually certify technicians under their own written practice based on ASNT SNT-TC-1A: the employer sets the hours, examines and signs the certification. Aerospace suppliers add the standard their prime customer's purchase order names, nuclear work adds the plant owner's quality program, and chemical-plant contractors follow the owner's contractor qualification rules. ASNT central certification suits technicians who move between employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–62,000/year",
+      levelII: "USD 68,000–95,000/year (aerospace clearance premium)",
+      levelIII: "USD 115,000–165,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "huntsville", label: "Huntsville" },
+      { slug: "birmingham", label: "Birmingham" },
+      { slug: "chattanooga", label: "Chattanooga" },
+      { slug: "nashville", label: "Nashville" },
+      { slug: "mobile", label: "Mobile" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────
