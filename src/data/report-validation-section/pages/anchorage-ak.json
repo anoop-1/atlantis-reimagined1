@@ -5,9 +5,18 @@
   "eyebrow": "Report validation · Anchorage, Alaska",
   "intro": "In Alaska the people who accept an inspection report are rarely standing beside the equipment it describes. A tank at Valdez, a facility on the North Slope or a platform in Cook Inlet may sit hundreds of miles from the engineer who signs off its record, so the report and its digital inspection data carry more weight than in most places. We review those records independently, against the procedure, the code and the Alaska regulation they were written to, and return a written opinion on what the evidence supports. The review itself is remote, which suits a state where distance is the normal working condition.",
   "highlights": [
-    { "h": "Records that have to travel", "p": "When the asset is a long flight away, the report is the evidence. The review tests it the way an auditor, a regulator or a buyer reading it in Anchorage would test it." },
-    { "h": "Cold weather in the record", "p": "Low temperatures affect penetrant, magnetic particle, ultrasonic and radiographic work. The review checks that each report shows its procedure covered the conditions on the day." },
-    { "h": "Alaska's tank and pipeline rules applied", "p": "Oil storage tanks, common carrier pipelines and boilers answer to state programs as well as federal ones, and each record is read with the right one in mind." }
+    {
+      "h": "Records that have to travel",
+      "p": "When the asset is a long flight away, the report is the evidence. The review tests it the way an auditor, a regulator or a buyer reading it in Anchorage would test it."
+    },
+    {
+      "h": "Cold weather in the record",
+      "p": "Low temperatures affect penetrant, magnetic particle, ultrasonic and radiographic work. The review checks that each report shows its procedure covered the conditions on the day."
+    },
+    {
+      "h": "Alaska's tank and pipeline rules applied",
+      "p": "Oil storage tanks, common carrier pipelines and boilers answer to state programs as well as federal ones, and each record is read with the right one in mind."
+    }
   ],
   "sections": [
     {
@@ -48,13 +57,37 @@
         "Low temperatures change how several NDT methods behave, and a report written in an Alaska winter should show that the procedure covered the conditions. These are the points the reviewer checks before reading the results themselves."
       ],
       "table": {
-        "head": ["Method", "Cold-weather issue", "What the record should show"],
+        "head": [
+          "Method",
+          "Cold-weather issue",
+          "What the record should show"
+        ],
         "rows": [
-          ["Liquid penetrant", "ASME Section V gives a standard temperature range; examinations below it need a procedure qualified for the lower temperature", "Surface temperature and, where needed, the qualification behind the low-temperature procedure"],
-          ["Magnetic particle", "Wet suspensions can thicken or freeze, which changes particle mobility and the indications formed", "Particle type and carrier, any cold-weather medium used, and the checks the procedure requires"],
-          ["Ultrasonic", "Couplant behaviour and any temperature difference between calibration block and part both affect results", "Couplant used, block and part temperatures, and calibration checks at the intervals the procedure sets"],
-          ["Radiography and digital radiography", "Cold affects film handling and processing and the behaviour of detectors and batteries", "Image quality indicators, density or signal measures, and the processing or acquisition records"],
-          ["Visual and dimensional", "Frost, ice and snow can hide the surface condition being judged", "Surface preparation and condition at the time of examination"]
+          [
+            "Liquid penetrant",
+            "ASME Section V gives a standard temperature range; examinations below it need a procedure qualified for the lower temperature",
+            "Surface temperature and, where needed, the qualification behind the low-temperature procedure"
+          ],
+          [
+            "Magnetic particle",
+            "Wet suspensions can thicken or freeze, which changes particle mobility and the indications formed",
+            "Particle type and carrier, any cold-weather medium used, and the checks the procedure requires"
+          ],
+          [
+            "Ultrasonic",
+            "Couplant behaviour and any temperature difference between calibration block and part both affect results",
+            "Couplant used, block and part temperatures, and calibration checks at the intervals the procedure sets"
+          ],
+          [
+            "Radiography and digital radiography",
+            "Cold affects film handling and processing and the behaviour of detectors and batteries",
+            "Image quality indicators, density or signal measures, and the processing or acquisition records"
+          ],
+          [
+            "Visual and dimensional",
+            "Frost, ice and snow can hide the surface condition being judged",
+            "Surface preparation and condition at the time of examination"
+          ]
         ]
       }
     },
@@ -107,22 +140,64 @@
     }
   ],
   "faqs": [
-    { "q": "Does anyone need to travel to our site in Alaska?", "a": "No. Everything is done remotely from the documents and digital inspection data you share by secure transfer. If the record cannot support the decision in front of you, the opinion says what the next crew on site would need to examine." },
-    { "q": "Can you review API 653 packages for Alaska tanks?", "a": "Yes. Shell and floor data, floor scanning coverage, prove-up measurements, repair weld examinations and settlement are reviewed against API 653 or API RP 12R1 as the owner elected, with the state's 18 AAC 75 requirements in mind. Interval decisions stay with the owner's inspector and engineer." },
-    { "q": "Do you take account of cold-weather conditions in the reports?", "a": "Yes. The review checks whether each report records the temperatures and materials its procedure depends on, such as penetrant surface temperature, couplant and calibration block temperature, and whether a low-temperature procedure was qualified where one was needed." },
-    { "q": "Can you review pipeline records for common carrier lines?", "a": "Yes. Girth weld examinations, dig records, station piping examinations and pressure test documentation are reviewed against API 1104 or the relevant piping code, the operator's specification and 49 CFR Part 192 or 195." },
-    { "q": "Do you review radiographs, given that Alaska is not an Agreement State?", "a": "Yes. Licensing of the sources concerns the contractor who makes the exposures, not the reviewer. Atlantis does not perform industrial radiography in the United States, and reviewing the resulting film radiographs and DR images is a document review." },
-    { "q": "Who reviews eddy current data from exchangers on the Slope or at the refinery?", "a": "The proposal identifies a reviewer holding the eddy current certification your contract requires, and that is settled before data are sent. The UT, RT, MT, PT and VT records in the same package are reviewed under the ASNT NDT Level III who leads those methods." },
-    { "q": "Can you check data before it is loaded into a new digital system?", "a": "Yes. A sample review traces records from the raw instrument files through the contractor's reports, and tells you which data are fit to migrate and which should be marked as unverified." },
-    { "q": "How do we send records from Anchorage?", "a": "Use the form on this page or write to info@atlantisndt.com with the asset, the report type and method, the code or regulation and what the review is for. We reply within one business day, and the files then reach us through a secure transfer." }
+    {
+      "q": "Does anyone need to travel to our site in Alaska?",
+      "a": "No. Everything is done remotely from the documents and digital inspection data you share by secure transfer. If the record cannot support the decision in front of you, the opinion says what the next crew on site would need to examine."
+    },
+    {
+      "q": "Can you review API 653 packages for Alaska tanks?",
+      "a": "Yes. Shell and floor data, floor scanning coverage, prove-up measurements, repair weld examinations and settlement are reviewed against API 653 or API RP 12R1 as the owner elected, with the state's 18 AAC 75 requirements in mind. Interval decisions stay with the owner's inspector and engineer."
+    },
+    {
+      "q": "Do you take account of cold-weather conditions in the reports?",
+      "a": "Yes. The review checks whether each report records the temperatures and materials its procedure depends on, such as penetrant surface temperature, couplant and calibration block temperature, and whether a low-temperature procedure was qualified where one was needed."
+    },
+    {
+      "q": "Can you review pipeline records for common carrier lines?",
+      "a": "Yes. Girth weld examinations, dig records, station piping examinations and pressure test documentation are reviewed against API 1104 or the relevant piping code, the operator's specification and 49 CFR Part 192 or 195."
+    },
+    {
+      "q": "Do you review radiographs, given that Alaska is not an Agreement State?",
+      "a": "Yes. Licensing of the sources concerns the contractor who makes the exposures, not the reviewer. Atlantis does not perform industrial radiography in the United States, and reviewing the resulting film radiographs and DR images is a document review."
+    },
+    {
+      "q": "Who reviews eddy current data from exchangers on the Slope or at the refinery?",
+      "a": "The proposal identifies a reviewer holding the eddy current certification your contract requires, and that is settled before data are sent. The UT, RT, MT, PT and VT records in the same package are reviewed under the ASNT NDT Level III who leads those methods."
+    },
+    {
+      "q": "Can you check data before it is loaded into a new digital system?",
+      "a": "Yes. A sample review traces records from the raw instrument files through the contractor's reports, and tells you which data are fit to migrate and which should be marked as unverified."
+    },
+    {
+      "q": "How do we send records from Anchorage?",
+      "a": "Use the form on this page or write to info@atlantisndt.com with the asset, the report type and method, the code or regulation and what the review is for. We reply within one business day, and the files then reach us through a secure transfer."
+    }
   ],
   "related": [
-    ["/inspection-services-alaska", "NDT inspection services in Alaska"],
-    ["/ndt-training-anchorage", "NDT training in Anchorage"],
-    ["/ultrasonic-testing-anchorage", "Ultrasonic testing in Anchorage"],
-    ["/inspection/third-party-inspection-anchorage", "Third-party inspection in Anchorage"],
-    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
-    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"]
+    [
+      "/inspection-services-alaska",
+      "NDT inspection services in Alaska"
+    ],
+    [
+      "/ndt-training-anchorage",
+      "NDT training in Anchorage"
+    ],
+    [
+      "/ultrasonic-testing-anchorage",
+      "Ultrasonic testing in Anchorage"
+    ],
+    [
+      "/inspection/third-party-inspection-anchorage",
+      "Third-party inspection in Anchorage"
+    ],
+    [
+      "/report-validation/tank-inspection-report-review",
+      "Storage tank inspection report review"
+    ],
+    [
+      "/report-validation/pipeline-girth-weld-report-review",
+      "Pipeline girth weld report review"
+    ]
   ],
   "sources": [
     "https://alyeska-pipe.com/trans-alaska-pipeline-system-taps-overview/",
@@ -131,6 +206,7 @@
     "https://www.alaskasnewssource.com/2026/05/19/pikka-begins-producing-oil-projections-say-it-could-become-alaskas-no-2-field/",
     "https://www.law.cornell.edu/regulations/alaska/18-AAC-75.065",
     "https://dog.dnr.alaska.gov/services/Pipelines",
+    "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/docs/news/69676/phmsa-cook-inlet-inventory-report.pdf",
     "https://www.marathonpetroleum.com/Operations/Refining/Kenai-Refinery/",
     "https://labor.alaska.gov/lss/boilers.htm",
     "https://www.nrc.gov/agreement-states/alaska",
