@@ -129,3 +129,6 @@ Files, rendered word counts, sources, and every fact you left out or generalised
   (Rosneft-linked) in India. Name the Jamnagar complex only.
 - Ownership changes to keep straight: Pulau Bukom in Singapore has belonged to Aster (Chandra Asri and Glencore) since
   April 2025, not Shell; KIPIC in Kuwait was dissolved into KNPC in 2026.
+- Incidents: do not describe fires, explosions, attacks, releases or other incidents at named facilities, or a named
+  operator's failures (owner direction on the 2026 Gulf attacks, applied to all incidents). Public investigation
+  lessons (e.g. a CSB report) may be cited only as general industry learning without dwelling on the operator.
