@@ -18,7 +18,7 @@
     },
     {
       "h": "Crane foundations are hull structure",
-      "p": "A crane pedestal and the deck structure beneath it carry every lift into the hull. Cracks at the pedestal-to-deck connection and in the brackets below deck are found by close visual examination and confirmed with magnetic particle testing on cleaned welds."
+      "p": "A crane pedestal and the deck structure beneath it carry every lift into the hull. Cracks at the pedestal-to-deck connection and in the brackets below deck show up under close visual examination and are then confirmed by magnetic particle testing on cleaned welds."
     }
   ],
   "sections": [
@@ -27,7 +27,7 @@
       "h": "Which ships are surveyed as general dry cargo ships under UR Z7.1?",
       "p": [
         "UR Z7.1, Hull Surveys for General Dry Cargo Ships, applies to self-propelled general dry cargo ships of 500 gt and above carrying solid cargoes. Its exclusions matter as much as its scope: ships surveyed under the bulk carrier requirements UR Z10.2 or Z10.5, dedicated container carriers, ro-ro cargo ships, refrigerated cargo ships, dedicated wood chip and cement carriers, livestock carriers, deck cargo ships, and general dry cargo ships with double side skin over the full cargo length and hold height. On ships combining single and double side skin, it applies to the single-side-skin holds.",
-        "In practice that brings in the traditional tweendecker and many multipurpose ships with conventional side frames, while box-shaped multipurpose ships with double sides along the whole cargo area are surveyed under the general hull requirements of UR Z7. The difference matters for planning, because UR Z7.1 names the structure to be examined far more specifically. It also covers the survey of hold water level detectors on single-hold cargo ships."
+        "In practice that brings in the traditional tweendecker and many multipurpose ships with conventional side frames, while box-shaped multipurpose ships with double sides along the whole cargo area fall to the general hull survey requirements of UR Z7 instead. The difference matters for planning, because UR Z7.1 names the structure to be examined far more specifically. It also covers the survey of hold water level detectors on single-hold cargo ships."
       ]
     },
     {
@@ -99,7 +99,7 @@
       "id": "ballast-tanks",
       "h": "Ballast tanks, double bottoms and topside tanks",
       "p": [
-        "General cargo ships carry ballast in double-bottom and peak tanks and, depending on design, in hopper, topside or side tanks. Under UR Z7.1 the ballast tanks enter the special survey close-up programme at survey No. 2, with one transverse web in two representative ballast tanks of each type and the end bulkheads of one side ballast tank; from survey No. 3, every transverse web and bulkhead in each ballast tank is examined close up. Under the IACS hull rules a ballast tank whose hard coating is POOR and not renewed, or which has soft or semi-hard coating or no hard coating from construction, is also examined at annual surveys.",
+        "General cargo ships carry ballast in double-bottom and peak tanks and, depending on design, in hopper, topside or side tanks. Under UR Z7.1 the ballast tanks enter the special survey close-up programme at survey No. 2, with one transverse web in two representative ballast tanks of each type and the end bulkheads of one side ballast tank; from survey No. 3, every transverse web and bulkhead in each ballast tank is examined close up. Under the IACS hull rules, ballast tanks also come up for annual examination when a POOR hard coating is left unrenewed, when soft or semi-hard coating is used, or when no hard coating was applied at construction.",
         "Double-bottom tanks under the holds suffer where heavy cargo and grab impacts dent the tank top and crack the coating on its underside, and where pitting develops on the bottom shell beneath sediment. Gauging these tanks before a special survey tells the owner whether tank-top inserts will be needed before the docking scope is fixed."
       ]
     },
@@ -116,7 +116,7 @@
       "p": [
         "At delivery into and redelivery from a charter, the parties record hold condition, stevedore and cargo damage, hatch cover weathertightness and the condition of crane wires and fittings, because any later dispute depends on what was written down then. Before loading sensitive cargo, a charterer may ask for a hatch cover tightness test and a hold cleanliness inspection.",
         "A buyer reviews class status and conditions of class, the UR Z7.1 special survey reports and earlier thickness reports, steel renewal history for side frames and tank tops, hatch cover repair and hydraulic records and the crane register, then confirms on board the condition those records describe. IACS Recommendation 55, the guidelines for surveys, assessment and repair of hull structures on general dry cargo ships, is a useful companion for reading typical damage and repair methods, though each repair is agreed with class.",
-        "Atlantis NDT gauges frames, tank tops and ballast tanks for owners ahead of the third and fourth special surveys, crack-checks crane foundations and carries out pre-purchase inspections and vessel condition surveys, sending its teams from India to the ship. It is not yet approved by any classification society under IACS UR Z17 and is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, its readings inform the owner's own decisions and are not credited to class surveys."
+        "Atlantis NDT gauges frames, tank tops and ballast tanks for owners ahead of the third and fourth special surveys, crack-checks crane foundations and carries out pre-purchase inspections and vessel condition surveys, sending its teams from India to the ship. Because Atlantis holds no UR Z17 approval from any classification society yet, and is still in the process of obtaining it from DNV, Lloyd's Register and ABS, those readings guide the owner's own steel planning, while gauging credited at the special survey must come from a firm the ship's class society has accepted under UR Z17."
       ],
       "links": [
         ["/maritime/special-survey-thickness-measurement", "Special survey thickness measurement"],

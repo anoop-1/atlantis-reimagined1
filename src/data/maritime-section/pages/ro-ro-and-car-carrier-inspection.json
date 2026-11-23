@@ -118,8 +118,8 @@
       "id": "owner-buyer",
       "h": "What owners and buyers check on a ro-ro ship or car carrier",
       "p": [
-        "An owner preparing for a class survey, or a buyer before a sale, starts with the operating and maintenance manual and its register of inspections, repairs and renewals of securing, supporting and locking devices. The requirements recommend that ship's staff inspect those devices and record the result monthly, so gaps in the register are themselves informative. Then come the class records for the doors, earlier crack detection and clearance reports, ramp and car deck repair history, hoisting system condition and thickness trends for vehicle decks and ballast tanks. On board, functional tests of doors, indicators, alarms and cameras with the crew are followed by close inspection of hinges, locks, ramps and decks.",
-        "Atlantis NDT supports owners and buyers with pre-purchase inspections, vessel condition surveys and CVIP, its Comprehensive Vessel Inspection Programme, mobilising teams from India to the ship. Work is planned and supervised by the founder, the company's Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT. Atlantis does not yet hold UR Z17 approval from any classification society and is in the process of obtaining it from DNV, Lloyd's Register and ABS; until a certificate is issued, its readings and crack detection results serve the owner's decisions, not class credit. Contact info@atlantisndt.com."
+        "An owner preparing for a class survey, or a buyer before a sale, starts with the operating and maintenance manual and its register of inspections, repairs and renewals of securing, supporting and locking devices. The requirements recommend that ship's staff inspect those devices and record the result monthly, so gaps in the register are informative. Then come the class records for the doors, earlier crack detection and clearance reports, ramp and car deck repair history, hoisting system condition and thickness trends for vehicle decks and ballast tanks. On board, functional tests of doors, indicators, alarms and cameras with the crew are followed by close inspection of hinges, locks, ramps and decks.",
+        "For owners and buyers, Atlantis NDT carries out pre-purchase inspections, vessel condition surveys and its owner-commissioned Comprehensive Vessel Inspection Programme (CVIP), with teams mobilised from India for each ship. Each job is planned and supervised by the company's founder, an ASNT NDT Level III in UT, RT, MT, PT and VT who acts as its Responsible NDT Level III. With UR Z17 approval from DNV, Lloyd's Register and ABS still in process and no class approval held yet, Atlantis provides its readings and crack detection results for the owner's decisions, not for class credit. Contact info@atlantisndt.com."
       ],
       "links": [
         ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
@@ -158,7 +158,7 @@
   "faqs": [
     {
       "q": "What is the difference between UR S8 and UR S9?",
-      "a": "UR S8 covers bow doors and the inner doors behind them, which form part of the collision bulkhead extension. UR S9 covers side shell doors abaft the collision bulkhead and stern doors leading to enclosed spaces. Both apply to ro-ro passenger ships and ro-ro cargo ships, define securing, supporting and locking devices in the same way, and require indication on the bridge and an operating and maintenance manual."
+      "a": "UR S8 covers bow doors and the inner doors behind them, which form part of the collision bulkhead extension. UR S9 covers side shell doors abaft the collision bulkhead and stern doors opening into enclosed spaces. Both apply to ro-ro passenger ships and ro-ro cargo ships, define securing, supporting and locking devices in the same way, and require indication on the bridge and an operating and maintenance manual."
     },
     {
       "q": "How often are ro-ro shell doors surveyed?",
@@ -178,11 +178,11 @@
     },
     {
       "q": "What fails on car carrier decks?",
-      "a": "Liftable decks suffer worn or cracked support brackets, bent locking pins, distorted panels and worn hoisting wires, often from high and heavy cargo placed beyond the deck's design load. Fixed decks are built from thin plating, so dents and corrosion from seawater and road salt reduce their margins quickly. Lashing points, scuppers and drains are checked on every deck as part of the same inspection."
+      "a": "Liftable decks suffer worn or cracked support brackets, bent locking pins, distorted panels and worn hoisting wires, often from high and heavy cargo placed beyond the deck's design load. Fixed decks are built from thin plating, so dents and corrosion from seawater and road salt reduce their margins quickly. Lashing points, scuppers and drains are checked on every deck."
     },
     {
       "q": "Who can take thickness readings on a ro-ro ship for class?",
-      "a": "Readings credited to a class survey must be taken by a firm approved under IACS UR Z17 by the ship's own classification society, with the surveyor controlling the work. Owner's readings and crack detection taken before a survey or a sale need no such approval, and they give the owner the information needed to plan the docking scope and any steel or door repairs in advance."
+      "a": "Readings that count towards a class survey need a thickness measurement firm holding UR Z17 approval from the ship's classification society, working under the attending surveyor's control. Owner's readings and crack detection taken before a survey or a sale need no such approval, and they give the owner the information needed to plan the docking scope and any steel or door repairs."
     }
   ]
 }
