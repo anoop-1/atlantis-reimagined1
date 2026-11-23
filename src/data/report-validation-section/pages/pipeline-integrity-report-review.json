@@ -78,7 +78,7 @@
     {
       "h": "Material records and the traceable, verifiable and complete test",
       "p": [
-        "Since the gas transmission rule published in 2019, many Part 192 obligations depend on records of pipe attributes being traceable, verifiable and complete. Section 192.607 requires operators of onshore steel transmission lines to keep such records of diameter, wall thickness, seam type and grade for the life of the pipeline and, where the records fall short, to verify the properties by tests and examinations whenever the pipe is exposed, including during anomaly digs.",
+        "Since the gas transmission rule published in 2019, many Part 192 obligations depend on records of pipe attributes being traceable, verifiable and complete. Where Part 192 calls for it, section 192.607 requires operators of onshore steel transmission lines to keep such records of diameter, wall thickness, seam type and grade for the life of the pipeline and, where the records fall short, to verify the properties by tests and examinations at defined opportunities when the pipe is exposed, anomaly digs among them.",
         "That turns an ordinary integrity dig into a material verification opportunity and puts new weight on the dig report. Nondestructive methods used to estimate strength must be validated by a subject matter expert and must account for measurement uncertainty, and the rule sets a minimum number of readings at each test location. The review checks whether the field record shows the method, its validation, the instrument calibration and the readings at the required positions, so the results can stand in the operator's material records.",
         "Records that are not traceable, verifiable and complete cannot be repaired with a better summary. The opinion separates gaps that existing documents can close from those that need new testing at the next excavation."
       ]
@@ -144,6 +144,8 @@
     "https://www.law.cornell.edu/cfr/text/49/195.310",
     "https://api.org/products-and-services/standards/important-standards-announcements/recommended-practice-1160",
     "https://inspectioneering.com/journal/2022-12-29/10402/the-third-edition-of-api-standard-1163-in-line-inspection-systems-qualification",
-    "https://www.govinfo.gov/content/pkg/FR-2019-10-01/html/2019-20306.htm"
+    "https://www.govinfo.gov/content/pkg/FR-2019-10-01/html/2019-20306.htm",
+    "https://www.law.cornell.edu/cfr/text/49/192.493",
+    "https://www.law.cornell.edu/cfr/text/49/195.591"
   ]
 }

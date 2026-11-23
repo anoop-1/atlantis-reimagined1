@@ -35,15 +35,15 @@
     {
       "h": "Codes and jurisdictions that apply",
       "p": [
-        "New boilers, including the pressure parts of most heat recovery steam generators in US service, are built to ASME Section I, which ASME publishes in a new edition every two years; the 2025 edition is current. Boiler external piping sits under Section I's administrative jurisdiction while its construction rules come from B31.1, and piping beyond that boundary is B31.1 power piping, now in its 2024 edition.",
-        "Once a boiler is operating, the jurisdiction's rules take over. Many states and some cities adopt Section I for construction and the National Board Inspection Code for inservice inspection, repairs and alterations; the 2025 NBIC places inspection in Part 2 and repairs and alterations in Part 3. Inspections for the jurisdiction are made by inspectors holding a National Board commission, employed by the jurisdiction or by an authorized insurer.",
+        "New power boilers are built to ASME Section I, whose scope names heat recovery steam generators alongside conventional boilers; ASME publishes the Boiler and Pressure Vessel Code in a new edition every two years, and the 2025 edition is current. Boiler external piping sits under Section I's administrative jurisdiction while its construction rules come from B31.1, and piping beyond that boundary is B31.1 power piping, now in its 2024 edition.",
+        "Once a boiler is operating, the jurisdiction's rules take over. Many states and some cities adopt Section I for construction and the National Board Inspection Code for inservice inspection, repairs and alterations; the 2025 NBIC places inspection in Part 2 and repairs and alterations in Part 3. Inspections for the jurisdiction are made by inspectors holding a National Board commission, who may work for the jurisdiction itself, for an authorized inspection agency such as an insurer or, where the jurisdiction recognises one, for an owner-user inspection organisation.",
         "B31.1 also reaches into operation. Its Chapter VII asks operating companies to keep covered piping systems programs for high-energy piping, recording operating history, transients, modifications and condition assessments, and the 2024 edition added mandatory appendices on quality program requirements and on documentation, records and reports for nonboiler external covered piping. NDE reports are among those records, so their quality has become part of code compliance rather than a matter of house style."
       ],
       "table": {
         "head": ["Equipment", "Construction rules", "In-service and repair rules", "What the review concentrates on"],
         "rows": [
           ["Drums, headers, waterwalls and superheaters", "ASME Section I", "The jurisdiction's adoption of the NBIC and the owner's boiler inspection program", "Examination locations against tube and header maps, thickness references and repeatability"],
-          ["HRSG pressure modules", "ASME Section I in most US installations", "NBIC as adopted, OEM recommendations and the owner's HRSG program", "Access-limited areas: which tubes and headers were actually reached, and how the data were labelled"],
+          ["HRSG pressure modules", "ASME Section I, which names HRSGs in its scope", "NBIC as adopted, OEM recommendations and the owner's HRSG program", "Access-limited areas: which tubes and headers were actually reached, and how the data were labelled"],
           ["Boiler external piping", "B31.1 construction rules under Section I jurisdiction", "NBIC for repairs; B31.1 Chapter VII where the owner applies it", "Weld identification on isometrics, creep-zone coverage and re-examination of repairs"],
           ["Main steam, hot and cold reheat and feedwater piping", "ASME B31.1", "The owner's covered piping systems program under Chapter VII", "Consistency with the program's earlier condition assessments and baseline data"],
           ["Feedwater heaters, deaerators and other vessels", "ASME Section VIII", "NBIC and the jurisdiction's pressure vessel rules", "Shell thickness data, nozzle weld examinations and tube bundle data where supplied"]
@@ -58,7 +58,7 @@
       "table": {
         "head": ["Mechanism", "Where it is found", "What the NDT must show", "Common reporting gap"],
         "rows": [
-          ["Flow-accelerated corrosion", "Carbon steel carrying single-phase or two-phase water, worst near three hundred degrees Fahrenheit with low pH and low oxygen; not normally in single-phase steam", "Full grid coverage of susceptible fittings and the straight pipe downstream, with readings comparable to earlier outages", "Grids shifted between outages, so the thinnest point of the last survey was never re-measured"],
+          ["Flow-accelerated corrosion", "Carbon steel carrying water or wet steam; single-phase attack peaks near three hundred degrees Fahrenheit and is worse at low pH in reducing, low-oxygen water; dry steam does not cause it", "Full grid coverage of susceptible fittings and the straight pipe downstream, with readings comparable to earlier outages", "Grids shifted between outages, so the thinnest point of the last survey was never re-measured"],
           ["Creep and creep-fatigue", "Main steam and hot reheat piping, headers and their welds", "Examination of weld metal and both heat-affected zones, with locations tied to the piping isometric", "Scans confined to the weld cap, leaving the fine-grained heat-affected zone outside the examined volume"],
           ["Grade 91 degradation", "Creep strength enhanced ferritic components, especially welds to P22 or stainless steel", "Hardness and NDT results at the dissimilar joint, located so both can be found again", "Hardness readings with no location detail or surface preparation record"],
           ["Thermal fatigue", "Piping just downstream of attemperator sprays and bypass connections", "Angle-beam ultrasonic examination of the inside surface where cracking initiates", "Straight-beam thickness readings offered as though they could detect inside-surface cracks"],
@@ -102,7 +102,7 @@
       "h": "What to send, and who reviews it",
       "p": [
         "Reviews of ultrasonic, radiographic, magnetic particle, penetrant and visual records on boilers and piping are led by an ASNT NDT Level III in all five of those methods, supported by reviewers whose backgrounds span nuclear, maritime, oil and gas and petrochemical plants. Eddy current, EMAT and other techniques outside those five are reviewed by a person holding the certification your contract names, identified in the proposal.",
-        "The more of the outage record arrives together, the more the review can cross-check. This is the package that works best:"
+        "The more of the outage record arrives together, the more the review can cross-check. This is the package to aim for:"
       ],
       "list": [
         "The outage scope or inspection plan, with the drawings, tube maps and isometrics it references",
@@ -149,6 +149,12 @@
     "https://blog.ansi.org/ansi/asme-b31-1-2024-power-piping-changes/",
     "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025",
     "https://shop.standards.ie/en-ie/standards/nbbi-nb-23-part-2-2025-1158269_saig_nbbi_nbbi_3798621",
-    "https://www.nationalboard.org/OrderTheNBIC.aspx"
+    "https://www.nationalboard.org/OrderTheNBIC.aspx",
+    "https://standards.globalspec.com/std/14612308/sec-i",
+    "https://www.nationalboard.org/SiteDocuments/About Us/infoguide_web.pdf",
+    "https://webstore.ansi.org/standards/asme/asmeb312018",
+    "https://www.power-eng.com/om/hrsg-issues-reemphasizing-the-importance-of-fac-corrosion-control-part-1/",
+    "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/326_360/341_a/_128?up=1",
+    "https://www.govinfo.gov/content/pkg/FR-2026-02-27/html/2026-03993.htm"
   ]
 }

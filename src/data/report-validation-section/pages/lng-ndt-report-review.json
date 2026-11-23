@@ -39,7 +39,7 @@
       "p": [
         "Large LNG storage tanks in the United States are designed and built under a family of documents. API Standard 625 covers tank systems for refrigerated liquefied gas storage as a whole, with detailed container requirements drawn from referenced standards, API 620 and its low-temperature annex among them for metallic containers. PHMSA's LNG regulations in 49 CFR Part 193 incorporate API 620 and NFPA 59A by reference for parts of their requirements.",
         "For tanks with an internal design pressure of 15 psig or less, Part 193 sets ultrasonic examination of the welds to rules drawn from NFPA 59A and Appendices C and Q of API 620, and it attaches record rules to that examination. Ultrasonic examination records must be kept for the life of the facility, electronic records must be held so they cannot be altered, and the ultrasonic equipment must be calibrated at least every eight hours, with suspect welds re-examined if it is found out of calibration. Butt welds in tanks above 15 psig fall under the ASME Section VIII, Division 1 examination rules instead.",
-        "Those requirements translate directly into review checks. We confirm that the calibration record shows the required frequency, that any calibration failure led to re-examination of the welds scanned since the last good check, that the stored electronic records are protected from alteration, and that the record set is complete for every seam the tank drawings show."
+        "Those requirements translate directly into review checks. We confirm that the calibration record shows the required frequency, that any calibration failure led to re-examination of the welds it made suspect, that the stored electronic records are protected from alteration, and that the record set is complete for every seam the tank drawings show."
       ]
     },
     {
@@ -47,7 +47,7 @@
       "p": [
         "Encoded ultrasonic techniques and digital radiography are both common on LNG projects, sometimes on the same weld population. TOFD is valued for detecting and sizing planar flaws through the wall; phased array for covering complex geometry such as nozzles and branch connections; digital radiography for volumetric flaws and for welds where ultrasonic access is poor. Each technique leaves digital inspection data that can be reopened, which is what makes a meaningful review possible.",
         "For TOFD and PAUT, the review checks the scan plan against the weld geometry and the nickel-alloy or austenitic weld metal, the demonstration evidence for the technique, the setup files against the plan, coverage in the encoded data, and the sizing of any recorded indications. For digital radiography, it checks image quality indicator results, signal-to-noise and resolution values against the procedure, the identification of each image to a weld, and any processing applied before interpretation.",
-        "In the United States, Atlantis does not carry out industrial radiography on LNG sites or anywhere else. Film, computed and digital radiography images produced by the owner's licensed radiography contractor are reviewed as documents, and the opinion addresses image quality and interpretation as well as completeness. The ASNT NDT Level III who leads radiographic and ultrasonic reviews also holds certification in MT, PT and VT, so a mixed weld package can be read under one accountable lead."
+        "Atlantis does not carry out industrial radiography at LNG sites or at any other location in the United States. Film, computed and digital radiography images produced by the owner's licensed radiography contractor are reviewed as documents, and the opinion addresses image quality and interpretation as well as completeness. The ASNT NDT Level III who leads radiographic and ultrasonic reviews also holds certification in MT, PT and VT, so a mixed weld package can be read under one accountable lead."
       ]
     },
     {
@@ -132,6 +132,7 @@
     "https://ferc.gov/news-events/news/ferc-phmsa-sign-mou-coordinate-lng-reviews",
     "https://standards.globalspec.com/std/14466077/std-625",
     "https://link.springer.com/article/10.1007/s40516-023-00229-2",
-    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-modernizes-lng-regulations-secure"
   ]
 }

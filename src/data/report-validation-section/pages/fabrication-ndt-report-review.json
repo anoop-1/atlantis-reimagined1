@@ -54,7 +54,7 @@
     {
       "h": "Method by method: what fabricator reports get wrong",
       "p": [
-        "In the United States the radiographs in a vendor package come from a licensed radiography contractor working for the fabricator. Atlantis does not perform industrial radiography in the United States, and reviewing those film, computed or digital radiographs is a document review that sits squarely inside this service. The table lists, for each method, the evidence a report must carry and the gap that turns up most in fabricator packages."
+        "In the United States the radiographs in a vendor package come from a radiography operation licensed or registered with the state, whether the fabricator's own or a contractor it hires. Atlantis does not perform industrial radiography in the United States, and reviewing those film, computed or digital radiographs is a document review that sits squarely inside this service. The table lists, for each method, the evidence a report must carry and the gap that turns up most in fabricator packages."
       ],
       "table": {
         "head": ["Method", "Evidence the report must carry", "Frequent gap in fabricator packages"],
@@ -71,7 +71,7 @@
     {
       "h": "Inspection and test plans, hold points and source inspection",
       "p": [
-        "The inspection and test plan is the working agreement between buyer and fabricator about who examines what, and when. It names hold points the fabricator may not pass without the buyer, witness points the buyer may attend, and review points where documents are checked. API RP 588, first published in 2019, sets out recommended practice for source inspection and quality surveillance of fixed equipment and treats the ITP as the backbone of that work.",
+        "The inspection and test plan is the working agreement between buyer and fabricator about who examines what, and when. It names hold points the fabricator may not pass without the buyer, witness points the buyer may attend, and review points where documents are checked. API RP 588, first published in 2019, sets out recommended practice for source inspection and quality surveillance of fixed equipment and expects source inspection to confirm that the critical steps of the inspection and test plan have been accomplished.",
         "A source inspector is usually responsible for every discipline on the ITP and cannot always read a radiograph or a phased array file at specialist depth. Remote NDT review complements that role: the source inspector keeps the hold points and the release decision, and gains an independent technical reading of the NDT reports to support it. The review also checks the ITP itself, because a plan that lists the wrong method or extent produces reports that comply with the plan and still fail the specification."
       ]
     },
@@ -79,7 +79,7 @@
       "h": "Piping spools, vessels and structural assemblies",
       "p": [
         "Each fabrication type has its own weak points. Spool packages fail on traceability: hundreds of welds, many welders, and weld numbers that change between the shop isometric and the field. Vessel packages fail on extent and sequence, particularly examinations required after heat treatment. Structural assemblies and skids built to AWS D1.1 fail on the ultrasonic indication rating, on visual acceptance and on confusion between the fabricator's QC records and the buyer's QA.",
-        "Radiographic, ultrasonic, magnetic particle, penetrant and visual reports from fabricators are reviewed with an ASNT NDT Level III certified in those five methods leading the work. Other members of the review team bring nuclear, maritime, oil and gas and petrochemical experience, which counts when the equipment is bound for a refinery, a chemical plant or a power station rather than a warehouse."
+        "Radiographic, ultrasonic, magnetic particle, penetrant and visual reports from fabricators are reviewed under the direction of an ASNT NDT Level III certified in those five methods. Other members of the review team bring nuclear, maritime, oil and gas and petrochemical experience, which counts when the equipment is bound for a refinery, a chemical plant or a power station rather than a warehouse."
       ]
     },
     {
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "h": "What stays with the fabricator, the AI and your engineer",
+      "h": "What stays with the fabricator, the Authorized Inspector and your engineer",
       "p": [
         "A review is advice to the party that commissions it. These responsibilities do not move because a review was done."
       ],
@@ -133,6 +133,8 @@
     "https://www.asme.org/about-asme/standards/bpvc-resources/asme-data-report-forms",
     "https://www.intertekinform.com/en-us/standards/api-rp-588-2019-1159492_saig_api_api_2754737/",
     "https://elk-bugle-6b5g.squarespace.com/blog/progressive-weld-sampling",
-    "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025"
+    "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025",
+    "https://standards.globalspec.com/std/13390782/api-rp-588",
+    "https://uploads-ssl.webflow.com/6005ddde9a96c42cb7dbbdce/60130a59d863a76c1bd5e607_Progressive%20Weld%20Sampling%20for%20ASME%20Piping%20and%20Vessels.pdf"
   ]
 }

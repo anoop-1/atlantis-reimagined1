@@ -46,7 +46,7 @@
       "h": "Penetrant examination on austenitic and duplex stainless welds",
       "p": [
         "Penetrant testing is the everyday surface method on stainless welds, because magnetic particle testing cannot be used on austenitic grades and gives uneven, unreliable results on duplex grades, whose mixed structure magnetises only partly. It is also a method that leaves no trace once the crew has gone. Dwell time, surface temperature, cleaning and developer application all decide whether a small crack bleeds out, and none of them can be checked afterwards except from the record. ASME Section V Article 6 governs the technique wherever the construction code calls it up.",
-        "In chemical service the penetrant materials themselves need controlling. Article 6 requires certification of the contaminant content of penetrant materials used on nickel-base alloys, austenitic stainless steels and titanium, because residual sulfur and halogens can attack those materials, and many plant procedures extend the same control to duplex grades. The review checks that batch numbers for penetrant, remover and developer appear in the report and that certification for those batches is on file, along with the dwell time, temperature and lighting the procedure sets.",
+        "In chemical service the penetrant materials themselves need controlling. Article 6 requires certification of the contaminant content of penetrant materials used on nickel-base alloys, austenitic or duplex stainless steels and titanium, because residual sulfur and halogens can attack those materials. Older plant procedures written to editions that did not yet name duplex grades deserve a check on that point. The review checks that batch numbers for penetrant, remover and developer appear in the report and that certification for those batches is on file, along with the dwell time, temperature and lighting the procedure sets.",
         "Where a fluorescent technique is used, the record should show the ultraviolet intensity and ambient light readings taken before examination. A report that omits them cannot demonstrate that fine indications would have been visible, and that matters most for the stress corrosion cracking this sector worries about."
       ]
     },
@@ -115,7 +115,7 @@
   ],
   "faqs": [
     { "q": "Can you review PMI records from a repair contractor?", "a": "Yes. We check that every component is identified, that the instrument, grade library and check samples are recorded, that the measured composition is shown and that the technique could measure the elements that distinguish the specified grade, including carbon where it matters." },
-    { "q": "Why does the penetrant batch number matter on stainless welds?", "a": "ASME Section V Article 6 requires the contaminant content of penetrant materials to be certified when they are used on austenitic stainless steels, nickel-base alloys and titanium. Without batch numbers in the report, nobody can show that the materials used were the certified ones." },
+    { "q": "Why does the penetrant batch number matter on stainless welds?", "a": "ASME Section V Article 6 requires the contaminant content of penetrant materials to be certified when they are used on austenitic or duplex stainless steels, nickel-base alloys and titanium. Without batch numbers in the report, nobody can show that the materials used were the certified ones." },
     { "q": "Our eddy current contractor recommends plugging a large number of tubes. Can you check the data?", "a": "Yes. The review checks the reference standard, calibration, coverage and analysis calls against your specification and the raw data files. The proposal names a reviewer with the eddy current certification your contract requires." },
     { "q": "Do you review cracking furnace coil surveys?", "a": "We review the records of coil thickness, diameter and carburization surveys for traceability, calibration and coverage. Where a survey uses a technique outside UT, RT, MT, PT and VT, the proposal states the certification of the reviewer who will take it on." },
     { "q": "Does the review cover our OSHA PSM obligations?", "a": "It checks each inspection record for the documentation the mechanical integrity paragraph requires and reports any gap as a finding. Decisions about inspection frequency and corrective action remain with your mechanical integrity programme." },
@@ -139,6 +139,7 @@
     "https://shop.standards.ie/en-ie/standards/api-rp-571-2020-97003_saig_api_api_2826061",
     "https://www.slideshare.net/navndt/pt-asme-sec-v-art-6",
     "https://www.bdlaw.com/publications/rmp-rulemaking-redux-again/",
-    "https://www.dlapiper.com/en-au/insights/publications/2026/02/epa-proposes-rollback-of-prescriptive-risk-management-program"
+    "https://www.dlapiper.com/en-au/insights/publications/2026/02/epa-proposes-rollback-of-prescriptive-risk-management-program",
+    "https://www.scribd.com/document/716275396/1-Pt-Asme-Sec-v-2017-a-6"
   ]
 }
