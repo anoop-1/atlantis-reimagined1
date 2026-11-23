@@ -1,0 +1,191 @@
+{
+  "title": "NDT Report Review in Dubai and Jebel Ali | Second Opinion",
+  "description": "Independent review of NDT reports and digital data from Dubai power and desalination plant, Jebel Ali refining and fabrication, and steelwork, done remotely.",
+  "h1": "NDT report validation for Dubai power, water, refining and steelwork records",
+  "eyebrow": "Report validation: Dubai and Jebel Ali, UAE",
+  "intro": "Dubai's heavy industry sits mostly around Jebel Ali: a power and desalination complex of record size, a gas-fired power station at Hassyan, an aluminium smelter with its own generating plant, a condensate refinery, and the fabrication shops of the free zone. Add the steel-framed buildings of the city itself, now covered by a building safety law, and the result is a constant flow of inspection reports that someone must accept, query or defend. We review those reports and the digital inspection data behind them independently, against the procedure and code that governed the work. Atlantis has no Dubai office; the whole review is done remotely from the records sent.",
+  "highlights": [
+    {
+      "h": "Power and desalination tube data",
+      "p": "Boiler tube surveys, condenser and brine heater tube files and steam piping reports are among the most common Dubai records. Raw data is reopened, not just the summary sheet."
+    },
+    {
+      "h": "Data books leaving the free zone",
+      "p": "Shops in Jebel Ali build for operators across the Gulf. We read a data book against the destination operator's specification, because that is the reader who will accept or reject it."
+    },
+    {
+      "h": "Steelwork evidence",
+      "p": "Where a steel structure's assessment leans on weld examination or thickness data, an independent read of those NDT records tells the owner how much weight the assessment can carry."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Where Dubai's inspection records come from",
+      "p": [
+        "The Dubai Electricity and Water Authority's Jebel Ali Power Generation and Water Production Complex is the obvious starting point. DEWA gives its capacity as 9,547 MW of power and 490 million imperial gallons a day of desalinated water, the water coming mostly from 43 multi-stage flash units in stations D, E, G, K, L and M plus reverse osmosis plants. Guinness World Records has recognised the site as the largest single-site natural gas power generation facility and, separately, the largest single-site desalination facility. Along the coast, DEWA's Hassyan complex was built as a dual-fuel station able to burn gas or coal and has since been converted to run on natural gas only, with a total of 2,400 MW.",
+        "Emirates Global Aluminium's Jebel Ali smelter, the first built in the UAE, has seven potlines and about a million tonnes a year of capacity, and it runs its own 2,974 MW of generating capacity and a desalination plant. ENOC Processing Company operates the condensate refinery at Jebel Ali, where an expansion project added a new condensate processing train to lift capacity from 140,000 towards 210,000 barrels a stream day. Around these sit the fabrication shops of Jebel Ali Free Zone and the wider city, building vessels, spools, skids and structural steel for clients across the region, and the steel-framed towers, warehouses and industrial buildings of Dubai itself.",
+        "The plants are named to make the area recognisable. Naming them does not suggest Atlantis has reviewed their records or works for their owners."
+      ]
+    },
+    {
+      "h": "Review situations that come out of Dubai",
+      "p": [
+        "Most requests from the emirate fall into a handful of patterns. The table shows each one, the documents that usually arrive with it and the checks the reviewer leans on hardest."
+      ],
+      "table": {
+        "head": [
+          "Situation",
+          "What usually arrives",
+          "Where the review concentrates"
+        ],
+        "rows": [
+          [
+            "Power station outage close-out",
+            "Boiler and heat recovery tube thickness surveys, steam piping UT, MT on attachments, header and drum reports",
+            "Reading locations that match the previous outage, probe and calibration records, sizing of thinning against the owner's retirement criteria"
+          ],
+          [
+            "Desalination and condenser tubes",
+            "Eddy current or other electromagnetic tube files, tube sheet maps, plugging lists",
+            "Reference standard against the tube material, analysis rules, whether every tube in the map was actually examined"
+          ],
+          [
+            "Condensate refinery turnaround",
+            "API 510 and API 570 reports, CML data, corrosion maps, PAUT on repair welds",
+            "Repairs and borderline findings first, then traceability from raw file to issued report"
+          ],
+          [
+            "Free-zone fabrication for export",
+            "Manufacturer's data book, film or DR images, UT used instead of radiography, PMI and hardness records",
+            "The destination operator's specification, examination extent per joint category, image quality"
+          ],
+          [
+            "Steel structure assessment",
+            "UT and MT of welded connections, thickness readings on corroded members, visual records",
+            "Whether the examined connections are the ones the engineer's assessment relies on, and the acceptance standard applied"
+          ],
+          [
+            "Rejected report",
+            "The contractor's report, the rejection correspondence, the procedure and certificates",
+            "Whether the rejection is technically right, separating paperwork from the accept or reject decision"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Power and water plant: tubes, steam systems and desalination",
+      "p": [
+        "Gas-fired generating units of the kind that fill the Jebel Ali and Hassyan sites produce outage records that are dense with numbers. Boiler and heat recovery tube surveys can run to thousands of thickness readings, steam piping is examined at welds and supports, and headers and drums carry their own reports. The reviewer's first question is whether this outage's data can be compared with the last: same reading locations, same reference points, a calibration that matches the probe and instrument named in the report, and thinning sized against the criteria the owner actually uses. Data that cannot be compared with history is far less useful for a retirement or replacement decision than its volume suggests.",
+        "Multi-stage flash desalination adds large tube bundles in brine heaters and heat recovery stages, and power plant condensers add more. Tube inspection data from those bundles is often the largest single data set an outage produces. It is reviewed from the raw files by a reviewer the proposal names, holding the eddy current certification the contract asks for, who checks the reference standard against the tube alloy, the calibration and the analysis rules, and confirms that the tube sheet map and the plugging list agree with the data. A bundle survey that skipped rows, or used a standard machined from the wrong alloy, can look complete on the summary sheet.",
+        "Where the owner's engineer is deciding on retubing, plugging limits or remaining life, that engineering decision stays with them. The opinion tells them how far the inspection data can be trusted and where it needs supplementing."
+      ]
+    },
+    {
+      "h": "The condensate refinery at Jebel Ali",
+      "p": [
+        "A condensate splitter is a simpler plant than a full conversion refinery, but its records still follow the familiar pattern of API 510 vessel reports, API 570 piping inspections, condition monitoring location data and exchanger tube surveys. Turnaround packages arrive from several contractors at once, and the owner's inspectors need to decide quickly which items can go back into service.",
+        "Independent review earns its place when it is targeted. We usually agree a sample with the owner covering repairs, borderline or rejectable findings, items where the inspection technique has changed since the previous outage and packages from contractors new to the plant. Common findings are clerical, such as readings filed against condition monitoring location numbers that no longer match the owner's database, but each one is classed as either a documentation gap or something that undermines the decision, so the owner knows which items can be released once paperwork is corrected."
+      ]
+    },
+    {
+      "h": "Fabrication for export: data books leaving the free zone",
+      "p": [
+        "Many of the vessels, exchangers, spools and skids built in and around Jebel Ali Free Zone are bound for projects elsewhere in the Gulf or further afield. That means the data book's real reader is the destination operator's receiving inspector, working to that operator's own engineering specification, not only the code the shop is used to. A data book that satisfies ASME Section VIII can still fail receipt because the project specification asked for a greater examination extent, a different acceptance table or a particular personnel certification scheme.",
+        "We read the data book the way that receiving inspector will. The weld map is checked joint by joint against the NDT reports. Film or DR images are checked for image quality and coverage. Ultrasonic examination used in place of radiography is checked for code and purchase order approval and a qualified procedure. PMI, hardness and post-weld heat treatment records are matched to the joints they claim to cover. Shops often send the opinion to their client with the corrected book, which turns a holding point into a list of specific answers."
+      ],
+      "list": [
+        "Weld maps that agree with drawings and NDT reports, joint by joint",
+        "Welder and NDT personnel certificates valid on the dates of the work",
+        "Image quality indicator results and density or signal-to-noise values on every image",
+        "Repair records that close every rejected joint, with re-examination by the same method",
+        "Purchase order and specification clauses quoted where they differ from the code"
+      ]
+    },
+    {
+      "h": "Steel structures and Dubai's building rules",
+      "p": [
+        "The Dubai Building Code, approved by the Dubai Executive Council in 2020 and in force since the end of 2021, brought the emirate's separate building design regulations into one code. In March 2026 Dubai announced a building quality and safety law covering all buildings in the emirate, free zones included, under the oversight of Dubai Municipality. As reported, a building's quality and safety certificate is issued only after a licensed engineering office has inspected and assessed its structural and technical condition, and owners must correct the defects found.",
+        "For steel-framed buildings and industrial structures, those assessments can lean on NDT: ultrasonic and magnetic particle examination of welded connections, thickness readings on members affected by corrosion, and visual records of bolted joints. The licensed engineering office prepares and signs the technical report; Atlantis is not that office and does not replace it. What an owner or the engineering office may want is an independent read of the NDT records underneath the assessment, confirming that the connections examined are the ones the engineer's calculation depends on, that AWS D1.1 or whichever standard the specification names was applied correctly, and that the readings can be traced to locations on the drawings."
+      ]
+    },
+    {
+      "h": "Radiation licensing, owners and who signs what",
+      "p": [
+        "Radiography in Dubai falls under federal law. The Federal Authority for Nuclear Regulation requires a licence for every use of radioactive materials and radiation sources in the UAE, and industrial users are included, so radiographs from Dubai plants and shops should come from a licensed radiography contractor whose licence the record can identify. Atlantis does not perform radiography in the UAE. Film, CR and DR images are reviewed as documents: image quality, geometric unsharpness, coverage, interpretation and the match between image and weld.",
+        "The rest of the signature chain matters as much. For plant equipment, the owner's inspection programme decides who accepts a report and who is the inspector of record, and that stays with the owner. For buildings, the licensed engineering office signs the assessment. Our opinion sits beside those signatures and does not replace any of them; it gives the people who sign a clear statement of what the evidence supports."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from Dubai contractors",
+      "p": [
+        "Inspection contractors working in Dubai increasingly deliver through a digital reporting platform: thickness readings captured on tablets, tube data exported from analysis software, PAUT and TOFD files on a project drive, and DR images moving between companies in DICONDE or a vendor format. The PDF a client receives is the last step in a chain, and the review follows that chain backwards.",
+        "Typical digital findings include readings imported against the wrong location because a grid was renumbered, DR images reprocessed after interpretation without a record of the change, tube files whose header names a different bundle, setup files from another instrument and templates that filled fields from the previous job. Electronic signatures are checked against the certificates valid on the date shown, and revision histories are checked for changes made after approval. Where a contractor is moving onto a new digital reporting system, we can also review a sample of its output to confirm the reports still carry everything the code and the contract require before the system goes into routine use."
+      ]
+    },
+    {
+      "h": "Working with us from Dubai",
+      "p": [
+        "Atlantis has no Dubai office and no team, agent or partner anywhere in the UAE. The review is run from Houston and Hyderabad, and Hyderabad's clock sits an hour and a half ahead of Dubai's, so questions raised during your working day are usually answered within it. Because the work is a review of documents and data, nobody needs to visit your plant, shop or building.",
+        "You tell us what the record covers, which code and specification applied, and what decision depends on it, and we reply within one business day with the scope and a quote. Files come across by secure transfer, or your own platform if your rules require it. The reviewer works through the seven checks, sends back any question the documents cannot answer, and issues a written opinion with one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Every finding is tied to the clause, table or procedure step it rests on, with what would close it."
+      ]
+    },
+    {
+      "h": "The reviewer, and the limits of the opinion",
+      "p": [
+        "Records in UT, RT, MT, PT and VT are reviewed under the lead of an ASNT NDT Level III holding certification in each of those five methods, and the wider review team includes people from nuclear, maritime, oil and gas and petrochemical work. For eddy current and other methods outside those five, the proposal names a reviewer with the certification the contract specifies.",
+        "Fitness-for-service, remaining-life and rerating calculations stay with your engineer, as do decisions on retubing and replacement. Atlantis does not act as inspector of record, does not certify personnel and does not take on a review of any examination it carried out itself."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there an Atlantis office or team in Dubai?",
+      "a": "No. There is no Atlantis office, team or partner in Dubai or elsewhere in the UAE. The review is done remotely from Houston and Hyderabad on the documents and data you send, and it never needs a site visit."
+    },
+    {
+      "q": "Can you review boiler and heat recovery tube thickness surveys from an outage?",
+      "a": "Yes. The reviewer checks that readings sit at the same locations as the previous survey, that the probe and calibration match the record and that thinning is sized against your retirement criteria. Retirement and replacement decisions stay with your engineer."
+    },
+    {
+      "q": "We are a Jebel Ali fabricator and our client has held the data book. Can you help?",
+      "a": "Send the data book, the purchase order and the client's specification. The opinion separates genuine nonconformances from documentation that can be supplied or corrected, so you can answer the hold point by point."
+    },
+    {
+      "q": "Do you review condenser and desalination tube data?",
+      "a": "Yes. A reviewer named in the proposal, with the eddy current certification your contract requires, reopens the raw tube files and checks the reference standard, the analysis rules and the tube sheet map."
+    },
+    {
+      "q": "Can you carry out the structural assessment our building needs under the Dubai safety law?",
+      "a": "No. That assessment belongs to a licensed engineering office. We can review the NDT records it relies on, such as weld examination or thickness data, and tell the owner or the office how far those records can be trusted."
+    },
+    {
+      "q": "Does Atlantis take radiographs in Dubai?",
+      "a": "No. Radiography in the UAE needs a FANR licence held by the radiography contractor. We review film, CR and DR images from your licensed contractor as documents."
+    },
+    {
+      "q": "Which codes and specifications do you review Dubai reports against?",
+      "a": "Whatever governed the work: ASME Section V with Section VIII or B31.1 and B31.3, API 510 and 570, AWS D1.1 for structures, ISO weld examination standards where the contract cites them, and the owner's or destination operator's specification."
+    },
+    {
+      "q": "What do we send first?",
+      "a": "A short description of the asset, the method, the code and the decision the report supports, through the form or to info@atlantisndt.com. Expect our answer, with the review scope and a quote, within one business day."
+    }
+  ],
+  "related": [
+    ["/ndt-training-dubai", "NDT training in Dubai"],
+    ["/ndt-training-jebel-ali", "NDT training in Jebel Ali"],
+    ["/practical-ndt-jebel-ali", "Practical NDT simulator in Jebel Ali"],
+    ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT Level III consulting"]
+  ],
+  "sources": [
+    "https://mediaoffice.ae/en/news/2022/October/16-10/DEWAs-Jebel-Ali-Power-Plant",
+    "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2021/03/largest-single-site-natural-gas-power-facility-in-the-world",
+    "https://www.zawya.com/en/projects/projects-dubais-dewa-adds-1-200-megawatts-from-hassyan-complex-to-installed-capacity-u6qyy5rf",
+    "https://www.ega.ae/en/about-us/operations/jebel-ali",
+    "https://www.khaleejtimes.com/business/enoc-to-raise-epcls-jebel-ali-capacity-by-50?amp=1",
+    "https://ogj.com/refining-processing/refining/construction/article/14174488/enoc-nears-commissioning-of-jebel-ali-refinery-expansion-project",
+    "https://www.iccsafe.org/building-safety-journal/bsj-technical/dubai-executive-council-issues-dubais-new-building-code",
+    "https://www.thenationalnews.com/news/uae/2026/03/10/dubai-issues-law-to-boost-building-safety-with-fines-of-up-to-dh2-million",
+    "https://gulfnews.com/uae/government/licences-will-ensure-safe-use-of-radioactive-materials-1.634711"
+  ]
+}
