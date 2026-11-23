@@ -1,0 +1,169 @@
+{
+  "title": "RBI in Melaka: Melaka Energy Park Refineries and Jetties",
+  "description": "Risk-based inspection for the Melaka Energy Park at Sungai Udang: two refineries of different generations, crude and product tanks, and jetties on the Strait.",
+  "h1": "Risk-based inspection for the Melaka Energy Park and the Sungai Udang coast",
+  "eyebrow": "Risk-based inspection in Malaysia",
+  "intro": "The PETRONAS refining complex at Sungai Udang, renamed the Melaka Energy Park in 2024, runs two refineries built at different times, together with a diesel upgrading plant, base oil production, crude and product tank farms and jetties on the Strait of Malacca. It is written for the people responsible for integrity, inspection and storage across the park. It covers what the complex contains, how to run one RBI programme across two generations of plant and records, what crude flexibility and cleaner fuels mean for damage mechanisms, how the marine setting shapes the plan, and how Atlantis delivers the study remotely.",
+  "highlights": [
+    { "h": "Two refineries, one register", "p": "PSR-1 and PSR-2 were designed and built at different times and long ran under different ownership. The study brings their equipment lists, inspection histories and risk matrices into a single register, so that an interval means the same thing whichever refinery the item belongs to." },
+    { "h": "Crude flexibility as a trigger", "p": "The complex is built to take crudes from sweet grades to heavier imports. Every change in the slate moves sulphur, acid and salt loads through the crude and vacuum units, so the plan ties those circuits to operating windows and reassesses when a cargo falls outside them." },
+    { "h": "The Strait on one side", "p": "Marine air, inter-monsoon thunderstorms and jetties standing in tidal water all act on the plant's exterior. External damage is ranked by exposure, with jetty piping, loading arms and the tank rows nearest the shore treated as populations of their own." }
+  ],
+  "sections": [
+    {
+      "id": "melaka-complex",
+      "h": "What the Melaka Energy Park contains",
+      "p": [
+        "Malaysian Refining Company Sdn Bhd, part of the PETRONAS group, renamed its Melaka Refinery Complex at Sungai Udang as the Melaka Energy Park on 2 May 2024, marking thirty years of operation. PETRONAS gives the complex a combined production rate of 300,000 barrels a day and says it meets 60 percent of Peninsular Malaysia's demand for petroleum products. Its processing units are designed to handle a range of crudes, from sweet grades to heavier imported crudes.",
+        "Within the park sit two refineries, still widely known as PSR-1 and PSR-2. The second ran for years as a joint venture, and PETRONAS agreed in 2014 to buy the remaining stake from its partner, bringing both refineries under one owner. Since 2021 the DELIMA plant has produced Euro 5 diesel, and the complex also produces base oil. The Melaka LNG regasification terminal lies on the same stretch of coast. The table sets out what each part of the site usually brings to an RBI study."
+      ],
+      "table": {
+        "head": ["Part of the complex", "Character", "What the study looks at first"],
+        "rows": [
+          ["PSR-1", "The older refinery, with the longest inspection history on the site", "Consistency of thickness records over decades, replaced and re-rated equipment, and circuits whose damage mechanism review predates the present crude slate"],
+          ["PSR-2", "Built later and run for years as a joint venture before coming wholly under PETRONAS", "Records created under a partner's procedures and systems, and how its risk matrix maps onto the owner's"],
+          ["DELIMA plant", "Diesel upgrading to Euro 5 specification, in service since 2021", "High-pressure hydrogen service and a short history in which commissioning baselines carry most weight"],
+          ["Base oil production", "Lubricant base oils made from refinery streams", "Product quality as well as containment, internal cleanliness of tanks and lines, and hydrogen service where the process uses it"],
+          ["Tank farms and jetties", "Imported crude, intermediates and finished products, with marine loading on the Strait", "Floors and shells of large crude tanks, floating roofs, jetty piping, loading arms and splash zone steel"]
+        ]
+      }
+    },
+    {
+      "id": "melaka-generations",
+      "h": "Two generations of plant and records",
+      "p": [
+        "An older refinery beside a newer one gives an RBI programme two kinds of record. The older plant has decades of inspection history: rich, but kept in formats that changed several times, against condition monitoring locations that may have been moved or renumbered, and under procedures revised along the way. The newer plant has a shorter history in more consistent electronic form, but it was designed to later code editions with different material choices, and for many years it was run to a partner's corporate standards.",
+        "Bringing both into one programme is mostly careful bookkeeping. The study builds a single equipment and circuit register with a common naming convention, carries each item's inspection history across without breaking the link to the locations actually measured, and grades every past inspection for the mechanisms it could have found. Where a corrosion rate cannot honestly be calculated across a change of location or method, the study says so and uses the defensible part of the record instead of stitching the two halves together.",
+        "The risk matrix matters as much as the data. If the two refineries grew up with different probability categories, consequence definitions or risk targets, a medium risk at one is not a medium risk at the other. The study maps both onto the framework the owner now wants to use, shows every item whose category changes as a result, and gives the owner a single basis on which to defend intervals to the regulator."
+      ]
+    },
+    {
+      "id": "melaka-crude",
+      "h": "Crude flexibility and the hot sections",
+      "p": [
+        "A complex designed for both sweet crudes and heavier imports sees its sulphur and acid load move with each cargo. High-temperature sulfidation in crude and vacuum furnace tubes, transfer lines and column internals depends on sulphur content and temperature. Naphthenic acid corrosion depends on the acid number, the velocity and the temperature band in which the acids are active. Overhead corrosion depends on the salts that survive desalting. A damage mechanism review written for one crude diet goes out of date when the diet changes.",
+        "The study ties each hot circuit to integrity operating windows on sulphur, total acid number, salt content and desalter performance, and states which crude grades the current assessment covers. Sulfidation rates in carbon and low-alloy steel piping are checked against the materials actually installed, because a single carbon steel component in a run specified as low alloy can corrode far faster than its neighbours. When planning brings in a crude outside the assessed range, the plan treats it as a trigger and lists the circuits to review before the cargo is run."
+      ]
+    },
+    {
+      "id": "melaka-hydroprocessing",
+      "h": "Cleaner fuels: hydrogen service and the DELIMA plant",
+      "p": [
+        "Making Euro 5 diesel means removing sulphur deeply, and that takes high-pressure hydrogen service. Hydroprocessing units bring their own register. High-temperature hydrogen attack is screened against API RP 941 for carbon and low-alloy steels at the temperatures and hydrogen partial pressures of the reactor circuit. Ammonium bisulphide and ammonium chloride corrosion threaten the reactor effluent air coolers and the exchangers ahead of them, where wash water and velocity control the risk. Polythionic acid stress corrosion cracking can attack austenitic stainless steels opened to air during a shutdown unless the equipment is protected.",
+        "A unit in service since 2021 is still in the period in which predicted rates need confirming. The study records the commissioning baseline at each condition monitoring location, checks that installed materials match the design basis for each mechanism, and keeps the first intervals cautious until in-service readings show the predictions hold. Shutdown practice matters too: the plan notes where neutralising washes or nitrogen blanketing are relied on to prevent polythionic acid cracking, and treats a missed step as a reason to examine the affected items."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "melaka-strait",
+      "h": "The Strait of Malacca and the plant exterior",
+      "p": [
+        "Melaka faces the Strait of Malacca, sheltered from the open ocean by Sumatra but exposed to warm, humid, salt-laden air all year. The heaviest weather often arrives in the inter-monsoon months, with afternoon thunderstorms, and in the squall lines that cross the Strait from Sumatra during the south-west monsoon, usually at night or in the early morning, bringing short bursts of strong wind and torrential rain.",
+        "On a coastal refinery that pattern keeps corrosion under insulation active through most of the year, because insulation that takes in water during one squall rarely dries before the next. Sudden gusts load tall columns, flare stacks and floating roofs, and cloudbursts overwhelm roof drains and briefly flood low ground. The study ranks insulated items by temperature, insulation and coating system and exposure, treats the rows nearest the shore as a separate population for atmospheric corrosion, and asks for roof drain and seal records for every floating roof tank.",
+        "Jetties need their own treatment. Piping, loading arms, supports and structural steel on a jetty sit in a splash and spray zone with tidal wetting, where coating breakdown and corrosion at supports and clamps advance faster than anywhere on land. Where seawater is used for cooling or firewater, microbiologically influenced corrosion and under-deposit attack join the register. The plan treats jetty equipment as its own corrosion loop, with surveys timed to the jetty's availability so that inspection does not compete with cargo schedules."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "melaka-tanks",
+      "h": "Crude, intermediate and product tanks",
+      "p": [
+        "Tank farms at a complex of this size hold imported crude waiting for the units, intermediates moving between the two refineries, and finished fuels and base oils waiting for ships or pipelines. Their risk sits mostly in the floor: soil-side corrosion on coastal ground where the water table is high and cathodic protection has to be proved working before it is credited, and product-side corrosion under settled water and sludge in crude tanks. Shells follow, especially the lower courses and the places behind wind girders and stairways where water lingers.",
+        "API 653 lets an RBI assessment set a tank's internal inspection interval, on condition that the assessment is validated and then reviewed no less often than every ten years. The study builds that basis tank by tank, uses floor scan and settlement data where they exist, and sequences out-of-service inspections so that each group of tanks sharing a construction, foundation and service is represented early. Tanks that serve both refineries, or that have moved from one product to another, have their history checked closely, because a floor corrosion rate measured in crude service says little about the same floor in gasoil service.",
+        "Base oil tanks add a quality concern to the integrity one. Contamination from internal corrosion products, coating breakdown or water ingress can spoil product long before anything leaks, so their plans include internal coating condition and the integrity of breathers and seals, not only wall thickness."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"]
+      ]
+    },
+    {
+      "id": "melaka-rules",
+      "h": "The rules for one company running two refineries",
+      "p": [
+        "Pressure equipment at Sungai Udang falls under the amended Occupational Safety and Health Act and the 2024 certificate of fitness regulations, administered by DOSH, and inventories of this size bring the Control of Industrial Major Accident Hazards Regulations into play. An occupier approved for a class B special scheme of inspection must run an RBI programme for its steam boilers and pressure vessels in the methodology the Director General determines, carried by a risk-based team of its own employees. The Malaysia page sets out that framework.",
+        "With both refineries now in one company, the practical questions are organisational. Does one scheme cover the whole park, or are the refineries managed separately? Does one risk-based team carry both, or does each refinery have its own? Are tanks, jetties and pipelines inside the plant management system or in separate programmes? The study begins by recording the answers, because they decide how the register is structured and who adopts each part of it."
+      ]
+    },
+    {
+      "id": "melaka-remote",
+      "h": "Running a Melaka study remotely",
+      "p": [
+        "Melaka keeps Malaysian time, UTC+8, two and a half hours ahead of Hyderabad and thirteen or fourteen hours ahead of Houston. Workshops are booked by video in the Melaka late morning and afternoon, inside the Hyderabad working day, and analysis moves to Houston overnight so that questions raised in one session have answers before the next one starts.",
+        "Records come through a data room the company controls, organised by refinery so that PSR-1 and PSR-2 documents keep their own history until they are deliberately merged: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, DOSH certificates, inspection and thickness records from every system the two refineries have used, crude assays and the integrity operating windows. A data-gap log is issued early, and corrosion loops are agreed in video workshops with process, operations, corrosion and inspection staff from both refineries, so that neither side's practice is lost.",
+        "The study needs no travel to Melaka. Field checks such as cladding on the seaward rows, injection point locations, floating roof drains and jetty supports go on a verification list for the company's own inspectors or its inspection contractor, and their results return to the model before the register is finalised."
+      ]
+    },
+    {
+      "id": "melaka-approval",
+      "h": "Who approves, and where the study stops",
+      "p": [
+        "Intervals for certified plant are set within the DOSH system, through the company's approved arrangements and the persons the regulations name; for tanks, jetties and other equipment outside it, the company's inspection authority approves them. The study proposes every interval with its basis and the code limits it respects. Atlantis holds none of those decision roles: it is not the inspector of record, a competent person or an assessor under the DOSH scheme.",
+        "If inspection reveals damage beyond the construction code's acceptance limits, the decision on continued service rests with the company's engineer, and the register is updated once that decision is made. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 941 (high-temperature hydrogen attack)",
+    "API RP 583 (corrosion under insulation)",
+    "API 510, API 570 and API 653",
+    "Occupational Safety and Health Act 1994, as amended",
+    "Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024",
+    "Occupational Safety and Health (Special Scheme of Inspection) Regulations 2025",
+    "Occupational Safety and Health (Control of Industrial Major Accident Hazards) Regulations 1996"
+  ],
+  "deliverables": [
+    "Single RBI register covering both refineries with a common naming convention",
+    "Mapping of legacy risk matrices onto the owner's current framework, with every category change listed",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Crude slate coverage statement and operating windows for hot circuits",
+    "Tank-by-tank basis for API 653 internal inspection intervals",
+    "Jetty corrosion loop with surveys timed to jetty availability",
+    "Data-gap log, verification list and reassessment triggers"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Hydroprocessing and clean fuels",
+    "Base oils",
+    "Tank storage",
+    "Marine terminals"
+  ],
+  "faqs": [
+    { "q": "Can PSR-1 and PSR-2 share one RBI register?", "a": "Yes, and with both refineries under one owner it is usually the right aim. It takes a common equipment naming convention, a single risk matrix, and careful transfer of each refinery's inspection history so that readings stay linked to the locations actually measured. The study shows every item that changes risk category when the older framework is replaced, so the change can be reviewed deliberately rather than discovered later." },
+    { "q": "How should crude switching be handled in the plan?", "a": "By tying each hot circuit and overhead system to integrity operating windows on sulphur, acid number and salt content, and stating which crude grades the assessment covers. A cargo outside that range becomes a reassessment trigger, with a list of the circuits to review before it is run. That way the crude flexibility the complex was built for does not quietly undermine the damage mechanism review behind the intervals." },
+    { "q": "The DELIMA plant is only a few years old. Can its intervals be extended?", "a": "Not before in-service data confirm the predicted rates. The first assessment uses commissioning baselines and the design basis for each mechanism, and keeps intervals cautious until early inspections show how the unit actually behaves. Screening for high-temperature hydrogen attack, effluent air cooler corrosion and the shutdown protection of stainless steels are the items that usually need the clearest evidence before any interval is lengthened." },
+    { "q": "How are the jetties included?", "a": "As their own corrosion loop. Jetty piping, loading arms, supports and structural steel face splash, spray and tidal wetting, so their external damage rates differ from anything on land. The plan sets surveys that fit the jetty's availability, records the boundary with any pipeline or third-party marine system, and scores a jetty out of service for what it would stop, since that halts crude receipts or product exports." },
+    { "q": "Do base oil tanks need a different plan from fuel tanks?", "a": "They need an extra dimension. Base oil quality can be spoiled by corrosion products, failing internal coatings or water long before any leak occurs, so their plans cover coating condition and the integrity of breathers and seals alongside floor and shell thickness. The integrity basis itself follows the same API 653 logic as other product tanks wherever that standard governs them." },
+    { "q": "Does the DOSH special scheme cover the whole Melaka Energy Park?", "a": "That depends on how the company's approval is framed. The class B code's RBI requirement covers steam boilers and pressure vessels within the scheme, while atmospheric tanks and jetty systems are usually managed in separate programmes. The study starts by recording which equipment sits in which programme and which team adopts each part, because the register has to match those arrangements." },
+    { "q": "Does anyone from Atlantis need to visit Sungai Udang?", "a": "The study needs no travel. Data review and workshops are remote, and anything that has to be checked on the plant, from cladding on the seaward rows to floating roof drains and jetty supports, goes on a verification list for your own inspectors or your inspection contractor. Their findings come back into the assessment before the register is issued." },
+    { "q": "Who signs off the intervals?", "a": "For certified plant, the decision is made within the DOSH system through your approved arrangements and the persons the regulations name, with your risk-based team adopting the assessment under a class B scheme. Tanks, jetties and other equipment outside that system are approved by your inspection authority. The study gives each interval a written basis that those decision-makers can follow and challenge." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/port-dickson", "RBI in Port Dickson"],
+    ["/inspection/risk-based-inspection/kertih", "RBI in Kertih, Terengganu"],
+    ["/inspection/risk-based-inspection/pengerang", "RBI in Pengerang, Johor"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/consulting/api-570-piping-inspector-services", "API 570 piping inspection support"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Malaysian Refining Company Sdn Bhd (PETRONAS group company) renamed its Melaka Refinery Complex at Sungai Udang as Melaka Energy Park, 2 May 2024, marking 30 years; combined 300,000 b/d; units handle crudes from sweet to heavier imported; DELIMA plant launched 2021 producing Euro 5 diesel; base oil production; meets 60% of Peninsular Malaysia's petroleum product demand", "url": "https://www.petronas.com/media/media-releases/one-malaysias-largest-refineries-renamed-melaka-energy-park-marking-30-years" },
+    { "fact": "PETRONAS agreed in 2014 to buy the remaining stake in the Melaka refinery joint venture (The Star, 12 November 2014, headline)", "url": "https://www.thestar.com.my/business/business-news/2014/11/12/petronas-buying-remaining-melaka-refinery-stake" },
+    { "fact": "PETRONAS to buy Phillips 66's stake in the Malaysian refinery (headline)", "url": "https://www.constructionboxscore.com/project-news/petronas-to-buy-phillips-66s-stake-in-malaysia-refinery.aspx" },
+    { "fact": "Melaka PSR-1 and PSR-2 (PETRONAS) and the Melaka LNG regasification terminal (EIA, updated November 2024; cited on the Malaysia country page)", "url": "https://eia.gov/international/content/analysis/countries_long/malaysia" },
+    { "fact": "API 653: RBI may set the internal inspection interval provided the assessment is validated and reviewed at least every ten years (brief and site standards page)", "url": "https://atlantisndt.com/standards/api-653" }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "title": "RBI in Port Dickson: Two Refineries and Coastal Storage",
+  "description": "Risk-based inspection for Port Dickson's two refineries in Negeri Sembilan: residue cracking, LPG and propylene storage, jetties and inherited records.",
+  "h1": "Risk-based inspection for the Port Dickson refineries and their coastal storage",
+  "eyebrow": "Risk-based inspection in Malaysia",
+  "intro": "Port Dickson, on the Negeri Sembilan shore of the Strait of Malacca, has two refineries run by two different companies: Hengyuan Refining Company, which operates the former Shell refinery, and Petron Malaysia. Each has its own process units, tankage and marine facilities, and its own inspection programme. What follows is written for the engineers who keep those refineries and their storage fit for service. It covers what the refineries make, how a residue cracker shapes the register, what a change of owner does to inspection records, how coastal weather, jetties and changing operating states enter the plan, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "Inherited records, checked once", "p": "Records written under a previous owner's procedures and systems can carry over intact or lose their meaning in migration. The study tests which readings still link to the locations measured, so the current programme knows which history it can lean on and which it has to rebuild." },
+    { "h": "A cracker changes the register", "p": "A residue catalytic cracker brings erosion, refractory, high-temperature and caustic service that a simpler refinery never sees, and it produces the LPG and propylene that fill pressurised storage. The study treats the cracker and its products as one connected set of corrosion loops." },
+    { "h": "Planning beyond one shutdown", "p": "Refineries here look ahead over long horizons; HRC's product supply arrangement with Shell Malaysia, renewed in 2026, runs for up to ten years from 2027. Intervals and reassessment dates are set with several turnaround cycles in view, not one shutdown at a time." }
+  ],
+  "sections": [
+    {
+      "id": "pd-refineries",
+      "h": "Two refineries, two companies",
+      "p": [
+        "One of Port Dickson's two refineries is the former Shell refinery, sold to Malaysia Hengyuan International and now run by Hengyuan Refining Company Berhad (HRC). HRC refines and manufactures gasoil, petrol in U95 and U97 grades, Jet A1, LPG, fuel oil components, sulphur and chemical feedstocks including light naphtha and propylene, and its process units include a long residue catalytic cracking unit. In September 2026 it signed a binding term sheet with Shell Malaysia renewing its product supply arrangement for ten years from January 2027, five years firm with an option for five more.",
+        "The other is the refinery of Petron Malaysia Refining and Marketing Bhd, on the same stretch of the Negeri Sembilan coast. Both sites receive crude and ship products across the Strait, both hold large tank farms, and both face the same climate, but they are separate companies with separate procedures, risk matrices and inspection authorities. An RBI study is commissioned by, and covers the equipment of, one of them. The table shows the circuits that usually head the ranking at a refinery of this kind and the data the study asks for."
+      ],
+      "table": {
+        "head": ["Circuit or area", "Damage mechanisms that usually lead", "Data the study asks for"],
+        "rows": [
+          ["Crude and vacuum distillation", "Sulfidation in hot sections, naphthenic acid attack when acidic crudes are run, chloride corrosion in overheads", "Crude assays, desalter performance, overhead wash and neutraliser records, materials verification"],
+          ["Residue catalytic cracker reactor and regenerator", "Erosion, refractory failure and the hot spots it causes, creep and thermal fatigue in hot sections, catalyst wear on cyclones and slide valves", "Refractory inspection records, shell skin temperature surveys, run history and catalyst losses"],
+          ["Main fractionator and slurry circuit", "Erosion and sulfidation in slurry piping, fouling and coke build-up", "Slurry velocity and solids content, thickness history at elbows and tees"],
+          ["Gas concentration and wet gas compression", "Wet hydrogen sulphide damage, cyanide-accelerated corrosion, ammonium salt deposition", "Sour water analyses, cyanide levels, wash water records"],
+          ["LPG and propylene treating and storage", "Caustic stress corrosion cracking in treaters, cracking in pressurised storage, external corrosion of spheres and bullets", "Caustic strength and temperature, stress relief records, condition of sphere legs and supports"],
+          ["Tank farms and jetties", "Floor corrosion on coastal ground, roof and seal damage, splash zone corrosion on jetty piping", "Floor scan and settlement data, cathodic protection surveys, jetty survey reports"]
+        ]
+      }
+    },
+    {
+      "id": "pd-ownership",
+      "h": "When a refinery changes hands: records and procedures",
+      "p": [
+        "A refinery that has passed from one owner to another carries two layers of inspection history. Readings and reports from the earlier owner were made under that owner's procedures, stored in its systems and indexed to its equipment numbering. When the plant changes hands those records are migrated, re-keyed or archived, and meaning can be lost on the way: a thickness reading detached from its condition monitoring location, an inspection report that no longer says which technique was used, a repair recorded on paper that never reached the new database.",
+        "The study treats the migration itself as part of the evidence. It samples inherited records against the original documents where they survive, confirms that location identifiers still refer to the same points on the pipe, and grades each historical inspection for the damage mechanisms it could have detected. Where a link has been broken, the record is used only for what it can still prove, and the gap is logged so that a fresh baseline reading is taken at the next opportunity rather than relying on a rate nobody can trace.",
+        "Procedures change with ownership too. A new owner may bring its own risk matrix, its own corporate RBI standard and its own route for approving intervals. The study documents which procedure each existing interval rests on, translates legacy risk categories into the current framework, and flags every item whose interval would change under the new rules, so the owner decides deliberately rather than by default."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"]
+      ]
+    },
+    {
+      "id": "pd-cracker",
+      "h": "What a residue catalytic cracker puts on the register",
+      "p": [
+        "A long residue catalytic cracking unit cracks heavy feed over a circulating catalyst, which makes it one of the most demanding units in a refinery for an inspection programme. Catalyst moving at speed erodes cyclones, standpipes, slide valves and transfer lines. Refractory linings protect the reactor and regenerator shells from temperatures they could not survive bare, and a failed patch of refractory shows up first as a hot spot on the shell. The regenerator runs hot enough for creep and thermal fatigue to matter, and the flue gas and air distribution systems carry risks of their own.",
+        "Thickness readings find few of those mechanisms. The plan for cracker equipment leans on shell skin temperature surveys and infrared thermography to locate refractory failure, internal visual inspection at turnarounds for erosion and refractory condition, and the record of regenerator temperature excursions. The study credits each technique only for what it can reveal, and sets the next opportunity for every internal examination against the cracker's run length, because most of that work can only be done with the unit down.",
+        "Downstream, the gas concentration section handles wet gas containing hydrogen sulphide, ammonia and cyanides, a mixture that can cause blistering and hydrogen-induced cracking in carbon steel and speed up its corrosion. LPG and propylene are separated, treated and stored, and caustic treating brings the risk of caustic stress corrosion cracking wherever temperature and the absence of stress relief allow it. These loops are assigned from the unit's own sour water and product analyses, not from a generic cracker template."
+      ]
+    },
+    {
+      "id": "pd-storage",
+      "h": "LPG, propylene and product storage on the coast",
+      "p": [
+        "Pressurised storage for LPG and propylene, whether in spheres or bullets, is pressure equipment under DOSH's certificate of fitness arrangements, with its own examination requirements. For an RBI study the questions are cracking at welds and nozzles, especially where wet hydrogen sulphide or caustic carry-over is possible, external corrosion at sphere legs and supports and under fireproofing, and the condition of relief and isolation systems. The consequence side is large because of the flammable inventory and the chance of escalation to neighbouring equipment, so these vessels often head the ranking even where their damage rates are low.",
+        "Atmospheric tankage for crude, intermediates and finished fuels sits in the owner's tank programme, typically to API 653 or an operator standard. On low-lying coastal ground, floor corrosion from the soil side and from water settled inside is usually the leading concern, followed by the lower shell courses and floating roof systems. API 653 allows the internal inspection interval to be based on an RBI assessment that is validated and revisited at least once every ten years, and the study writes that basis tank by tank.",
+        "Tankage that stands idle, is preserved, or is being considered for a different duty is treated as a distinct case. Stagnant water, microbiologically influenced corrosion and degraded seals can advance in an idle tank, and a return to service, or a change from refinery duty to terminal storage, needs an inspection basis of its own rather than an interval carried over from the old service."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/consulting/api-510-pressure-vessel-inspector-services", "API 510 pressure vessel inspection support"]
+      ]
+    },
+    {
+      "id": "pd-climate",
+      "h": "West coast weather and the jetties",
+      "p": [
+        "Port Dickson faces the Strait of Malacca across from Sumatra, in hot, humid air with sea salt carried onshore by the afternoon breeze. Rain falls year-round, the heaviest of it in the inter-monsoon months when afternoon thunderstorms are frequent, and storms over the Strait can bring strong wind, heavy rain and rough water at short notice.",
+        "The external damage picture follows from that. Corrosion under insulation stays active on insulated lines and vessels that never fully dry out, insulated stainless steel at the hotter end of its range carries an external chloride cracking risk, and structural steel, pipe supports and tank roofs corrode wherever water collects. Squalls add sudden loads on tall columns and floating roofs and test roof drains and bunds.",
+        "Jetties tie each refinery to its crude supply and its product markets, so their condition is a consequence question as well as an integrity one. A jetty out of service can halt crude receipts or product exports even when every process unit is sound, and marine repairs are slow because they need floating plant and calm water. The study treats jetty piping, loading arms and supports as a corrosion loop of their own and scores the loss of a jetty for its effect on the whole refinery, so marine equipment gets inspection attention in proportion to what its failure would stop."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"]
+      ]
+    },
+    {
+      "id": "pd-operating-states",
+      "h": "Reduced rates, idle units and restarts",
+      "p": [
+        "Refineries do not always run at steady full rates. Market conditions, feed availability, logistics and maintenance can leave units at reduced throughput, running intermittently or standing idle for a period. An RBI assessment built for steady operation may fit none of those states. Low rates change velocities, temperatures and where water drops out; intermittent operation adds thermal cycles; and idle equipment that is not properly preserved can corrode faster than it ever did in service.",
+        "The study asks how each unit has actually run since the last assessment, using historian data rather than the design case, and records the operating state the plan assumes. Idle equipment gets a pre-start-up list covering preservation records, stagnant sections, dead legs and the mechanisms a return to service can set off, from thermal shock to water carried into hot equipment. A change of operating state beyond what the assessment covers is written in as a trigger to reassess."
+      ]
+    },
+    {
+      "id": "pd-rules",
+      "h": "Malaysian rules at a Port Dickson refinery",
+      "p": [
+        "Certified plant at Port Dickson, from boilers to refinery pressure vessels and LPG spheres, comes under the amended Occupational Safety and Health Act and the 2024 regulations on plant requiring a certificate of fitness, administered by DOSH. An occupier approved for a class B special scheme of inspection must have an RBI programme for its steam boilers and pressure vessels in the Director General's methodology, carried by a risk-based team drawn from its own employees, and refinery inventories bring the major accident hazard regulations into play. The Malaysia page explains the framework.",
+        "Two refineries side by side means two occupiers with separate obligations. A study for one does not cover the other's equipment, but it does consider the neighbour in the consequence assessment wherever a release could escalate across the boundary, and it records any shared infrastructure together with the agreement that governs its inspection. Bunds, firewater and emergency arrangements are taken from the occupier's own safety documents rather than assumed."
+      ]
+    },
+    {
+      "id": "pd-remote",
+      "h": "How the study runs without a site visit",
+      "p": [
+        "Negeri Sembilan keeps Malaysian time, UTC+8, which puts Port Dickson two and a half hours ahead of Hyderabad. Workshops are booked by video in the Port Dickson late morning and afternoon, the Hyderabad morning and early afternoon, and the Houston team carries document review forward while the site is closed. Sessions are kept short and organised by unit, so shift operators and inspectors can join the parts that concern them.",
+        "Records come through a data room the refinery controls: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, DOSH certificates, inspection and thickness history including records inherited from previous owners, refractory and skin temperature surveys for the cracker, crude assays, product analyses and the integrity operating windows. A data-gap log is issued before risk work begins, so the refinery sees early which missing records will force conservative assumptions.",
+        "The study is delivered remotely and needs no travel to Port Dickson. Walkdowns and checks that need eyes on the plant, from cladding and sphere legs to jetty supports and the state of idle tanks, go on a verification list for the refinery's own inspectors or its inspection contractor, and their findings return to the model before the register is issued."
+      ]
+    },
+    {
+      "id": "pd-approval",
+      "h": "Approval and the limits of the study",
+      "p": [
+        "For certified plant, intervals are decided within the DOSH system, through the occupier's approved arrangements and the persons the regulations name; for tanks, jetties and other equipment outside it, the refinery's inspection authority approves them. The study supplies the reasoning for each interval, and Atlantis takes none of the statutory roles: it is not inspector of record, competent person or plant management assessor at either refinery.",
+        "When inspection finds damage beyond what the construction code accepts, the engineering judgement on continued operation belongs to the refinery's own engineer, and the outcome is recorded in the register. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API 510, API 570 and API 653",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "Occupational Safety and Health Act 1994, as amended",
+    "Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024",
+    "Occupational Safety and Health (Special Scheme of Inspection) Regulations 2025",
+    "Occupational Safety and Health (Control of Industrial Major Accident Hazards) Regulations 1996"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops, damage mechanisms, probability, consequence and risk for each item",
+    "Review of inherited inspection records with a note of which histories can be relied on",
+    "Translation of legacy risk categories into the current framework, with every interval change flagged",
+    "Inspection plan per item with technique, coverage, effectiveness and due date, timed to the cracker's run length",
+    "Pre-start-up inspection list for idle units and tanks",
+    "Data-gap log and verification list for the refinery's inspectors",
+    "Reassessment triggers, including changes of operating state"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Residue catalytic cracking",
+    "LPG and propylene storage",
+    "Tank storage",
+    "Marine terminals"
+  ],
+  "faqs": [
+    { "q": "Our refinery changed owners. Can the previous owner's inspection records still be used?", "a": "Usually, once they are checked. The study samples inherited records against original documents, confirms that location identifiers still point to the same measurement points, and grades each past inspection for the mechanisms it could have found. Records that pass are used as evidence; records whose links were broken in migration are used only for what they can still prove, and a fresh baseline is planned where one is needed." },
+    { "q": "How does RBI handle a residue catalytic cracker?", "a": "As a set of loops with very different mechanisms: erosion and refractory damage in the reactor, regenerator and catalyst handling, high-temperature damage in the regenerator, slurry erosion in the fractionator bottoms, and wet sour corrosion in gas concentration. Many are found by skin temperature surveys, thermography and internal inspection rather than thickness readings, so the plan credits each technique only for what it can reveal and times internal work to the run length." },
+    { "q": "Why do LPG and propylene spheres rank so high when they corrode slowly?", "a": "Because consequence drives their risk. A release from pressurised liquefied gas storage can escalate to neighbouring equipment, so even a low probability of failure produces a high risk. The plan concentrates on what could cause a release: cracking at welds and nozzles, corrosion at legs and supports and under fireproofing, and the condition of relief and isolation systems. These vessels are certified plant under DOSH." },
+    { "q": "We have tanks standing idle. How are they treated?", "a": "As a separate case. Idle tanks can corrode in ways service tanks do not, through stagnant water, microbiologically influenced corrosion and degraded seals, so their old intervals may no longer hold. The study records how each idle tank was preserved and sets the inspection needed before it returns to service or moves to a different duty, such as terminal storage, instead of carrying its previous plan forward." },
+    { "q": "Can one study cover both Port Dickson refineries?", "a": "Not as a single programme, because they belong to different companies with their own procedures and decision-makers. A study covers the equipment of the refinery that commissions it. It does take the neighbouring site into account wherever a release could escalate across the boundary, and it records any shared infrastructure along with the agreement that governs its inspection." },
+    { "q": "How are coastal storms and jetties reflected in the plan?", "a": "Through exposure and consequence. Areas nearest the shore are ranked higher for atmospheric corrosion and CUI, floating roofs and tall equipment are checked after storms using a pre-set list, and jetty piping, loading arms and supports form their own corrosion loop. The loss of a jetty is scored for its effect on crude receipts and product exports, so marine equipment is not ranked only by the inventory it holds." },
+    { "q": "Does anyone from Atlantis need to come to Port Dickson?", "a": "No travel is needed for the study. Documents and data arrive through your data room, workshops are held by video, and checks that need eyes on the plant go on a verification list for your own inspectors or your inspection contractor. Their findings are loaded into the assessment, and the affected items reassessed, before the register is finalised." },
+    { "q": "Who approves the inspection intervals?", "a": "For certified plant, the decision is made within the DOSH system through your approved arrangements and the persons the regulations name; under a class B scheme your risk-based team adopts the assessment. Your inspection authority approves intervals for tanks, jetties and anything else outside that system. Each interval comes with a documented basis that the people deciding can follow." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/melaka", "RBI in Melaka"],
+    ["/inspection/risk-based-inspection/kertih", "RBI in Kertih, Terengganu"],
+    ["/inspection/risk-based-inspection/pengerang", "RBI in Pengerang, Johor"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Hengyuan Refining Co Bhd (HRC) signed a binding term sheet with Shell Malaysia Trading and Shell Timur renewing its product supply deal for 10 years, 1 January 2027 to 31 December 2036 (initial five years with a five-year extension option); HRC refines and manufactures gasoil, petrol (U95/U97), Jet A1, LPG, fuel oil components, sulphur and chemical feedstocks such as light naphtha and propylene (The Star, 7 September 2026)", "url": "https://www.thestar.com.my/business/business-news/2026/09/07/hengyuan-refining-renews-shell-malaysia-supply-deal-for-10-years" },
+    { "fact": "Hengyuan's Malaysian refinery has a long residue catalytic cracking unit, LRCCU (Argus headline)", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2584431-hengyuan-s-malaysian-refinery-completes-lrccu-repairs" },
+    { "fact": "Shell's sale of its Port Dickson refinery stake to Malaysia Hengyuan International Ltd (The Star, November 2016, headline)", "url": "https://www.thestar.com.my/business/business-news/2016/11/01/more-time-required-to-complete-shells-proposed-sale-to-mihl" },
+    { "fact": "Petron Malaysia Refining and Marketing Bhd's Port Dickson refinery in Negeri Sembilan (Bernama)", "url": "https://bernama.com/lite/news.php?id=2559967" },
+    { "fact": "Two Port Dickson refineries: Hengyuan Refining Company and San Miguel/Petron (EIA, updated November 2024; cited on the Malaysia country page)", "url": "https://eia.gov/international/content/analysis/countries_long/malaysia" },
+    { "fact": "API 653 RBI-based internal inspection interval with validation and review at least every ten years (brief and site standards page)", "url": "https://atlantisndt.com/standards/api-653" }
+  ]
+}

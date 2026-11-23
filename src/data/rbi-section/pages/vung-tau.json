@@ -1,0 +1,322 @@
+{
+  "title": "RBI in Vung Tau and Long Son: Petrochemicals, LNG and Gas",
+  "description": "RBI around Vung Tau: the Long Son olefins complex and its restart, the Thi Vai LNG terminal, Phu My fertiliser and port tanks, studied remotely.",
+  "h1": "Risk-based inspection for Long Son, Thi Vai and Phu My facilities",
+  "eyebrow": "Risk-based inspection in Vung Tau",
+  "intro": "The coast around Vung Tau holds a mix of plant found nowhere else in Vietnam: an olefins and polymer complex on Long Son island, an LNG import terminal and a gas-based fertiliser plant on the Thi Vai river, deep-water port terminals and the bases that serve offshore fields. This page is for the integrity and inspection engineers who plan that equipment. It covers what restart and preservation mean for risk at Long Son, how cryogenic and fertiliser service change the damage register, the tropical estuary climate, the rules that apply now the area is part of Ho Chi Minh City, and how Atlantis delivers an RBI study remotely.",
+  "highlights": [
+    {
+      "h": "Idle time is not neutral",
+      "p": "Equipment that has been preserved or shut down keeps deteriorating in ways that operating history does not capture. The register records how each system was laid up, what that exposed it to, and what must be inspected before it carries process fluid again."
+    },
+    {
+      "h": "Cryogenic and ambient side by side",
+      "p": "LNG storage and send-out, new ethane tanks and an olefins cold section sit near hot cracking furnaces, urea synthesis and ordinary hydrocarbon service. Each family gets its own mechanisms and inspection techniques within one consistent risk matrix."
+    },
+    {
+      "h": "A merged city, unchanged equipment",
+      "p": "Since 2025 Vung Tau has been part of Ho Chi Minh City. Certificates, permits and drawings may still carry the old province name, and the register maps them to current authorities so nothing falls between the two."
+    }
+  ],
+  "sections": [
+    {
+      "id": "vt-cluster",
+      "h": "One industrial coast, now inside Ho Chi Minh City",
+      "p": [
+        "Ba Ria–Vung Tau province was merged with Binh Duong into Ho Chi Minh City in 2025, when Vietnam reduced its provinces and centrally run cities to thirty-four and moved to two tiers of local government. The industrial geography did not change. Long Son island, about a hundred kilometres south-east of the old city centre, carries the petrochemical complex; the Phu My area along the Thi Vai river holds the LNG terminal, the fertiliser plant and the gas pipeline links that feed power stations in the south-east; and the Cai Mep–Thi Vai channels give the area deep-water berths, with the LNG jetty able to take ships of up to 100,000 deadweight tonnes. Vung Tau is also home to the supply bases that serve oil and gas fields off the south-east coast.",
+        "For an RBI programme the result is a cluster with very different owners and very different service under one regional climate and one set of national rules. The table summarises the main facilities and the questions that usually lead an RBI study at each."
+      ],
+      "table": {
+        "head": [
+          "Facility",
+          "Owner and service",
+          "Questions that usually lead the study"
+        ],
+        "rows": [
+          [
+            "Long Son Petrochemicals, Long Son island",
+            "SCG Chemicals; naphtha and propane cracker with polyethylene, polypropylene and butadiene units",
+            "Preservation history, restart readiness, furnace tubes, cold-section materials and the new ethane equipment"
+          ],
+          [
+            "Thi Vai LNG terminal, Phu My area",
+            "PV GAS; LNG import, storage in a 180,000 cubic metre tank and regasification for power plants",
+            "What can be inspected in service, cryogenic piping, send-out equipment above its original design rate, seawater and jetty systems"
+          ],
+          [
+            "Phu My fertilizer plant",
+            "PVFCCo; gas-based urea with NPK and chemicals",
+            "Ammonia and urea synthesis mechanisms, high-pressure equipment, turnaround timing"
+          ],
+          [
+            "Port and storage terminals, Cai Mep–Thi Vai",
+            "Several operators; liquid bulk storage serving the port and industrial zones",
+            "Tank floors on low-lying estuarine ground, jetty piping, inspection records that vary in depth"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "vt-long-son",
+      "h": "Long Son Petrochemicals: preservation, turnaround and restart",
+      "p": [
+        "Long Son Petrochemicals is wholly owned by SCG Chemicals, part of Thailand's Siam Cement Group. Its cracker has capacity for about 950,000 tonnes a year of ethylene and 400,000 tonnes of propylene, feeding 500,000 tonnes a year each of high-density and linear low-density polyethylene, 400,000 tonnes of polypropylene and 100,000 tonnes of butadiene. The plant reached full commercial operation in September 2024. Operations were suspended in 2026, and the owner has announced a five-month turnaround from 1 November 2026, with restart targeted for the second quarter of 2027.",
+        "Long idle periods change the risk picture in ways an operating-history model misses. Internal corrosion depends on how well each system was dried, purged and blanketed; stagnant water left in cooling water, fire water and dead legs invites microbiologically influenced and under-deposit corrosion; insulated lines that normally run hot or cold sit at ambient temperature in humid air, which is the worst range for corrosion under insulation; and rotating equipment and its piping see standstill corrosion and fatigue on the next start. Stainless steel that was not protected during shutdown can pick up polythionic acid cracking, and caustic systems left with residue can crack once heated again.",
+        "An RBI study for a restart therefore starts with the lay-up record. For each system it establishes what preservation was applied, how it was monitored and how long it lasted, assigns the mechanisms that idle conditions made credible, and produces a pre-start inspection list ranked by risk, so that the turnaround spends its effort on the systems where preservation was weakest or consequence highest."
+      ],
+      "links": [
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnarounds and shutdowns"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit readiness"
+        ]
+      ]
+    },
+    {
+      "id": "vt-ethane",
+      "h": "Ethane, new cryogenic tanks and changes to an existing cracker",
+      "p": [
+        "Alongside the turnaround, the owner is carrying out an enhancement project to let the cracker take larger volumes of ethane next to its existing naphtha and propane feeds, with formal completion and start-up targeted for 2027. Technip Energies provides engineering, procurement, burners and ethylene technology; ethane is to come from the United States under a long-term supply agreement and arrive in very large ethane carriers; and a consortium of China Tianchen Engineering and PetroVietnam Technical Services is building two cryogenic ethane storage tanks of about 55,000 tonnes each.",
+        "For the RBI programme this means three kinds of work. The new tanks, unloading lines and vaporisation equipment need baseline entries built from design data, material certificates and commissioning records, with mechanisms for cryogenic service such as low-temperature embrittlement of anything that is not designed for it, thermal cycling at warm-to-cold transitions and external chloride cracking of insulated stainless steel. Furnaces and the cold section receiving a lighter feed need their damage mechanisms reviewed for the new conditions, including tube metal temperatures, carburisation and coking behaviour. And every tie-in made during the project needs its own entry, because new and old equipment meet there."
+      ]
+    },
+    {
+      "id": "vt-lng",
+      "h": "The Thi Vai LNG terminal",
+      "p": [
+        "PV GAS inaugurated the Thi Vai LNG terminal in October 2023 with a first-phase capacity of one million tonnes a year and a 180,000 cubic metre storage tank. It is connected to the Thi Vai–Phu My gas pipeline, and in April 2026 its regasification send-out was raised above the original design rate to supply power plants in the south-east. Petrovietnam has asked PV GAS to expand the terminal's annual capacity to three million tonnes.",
+        "An LNG terminal turns the usual RBI logic around. Large LNG storage tanks are normally designed and operated so that the inner tank is not opened during service life, which means the programme relies on monitoring instead of internal inspection: settlement and tilt surveys, base and annular-space temperature records, boil-off behaviour, leak detection and external examination of the outer tank and roof. Most of the inspection planning effort then moves to the equipment around the tank: cryogenic piping and its supports, insulation and vapour barriers, pumps and vaporisers, boil-off handling, the jetty and its loading arms, and the seawater or utility systems that support regasification.",
+        "Running send-out equipment above its original design rate is a change the register should record as one, with the affected items reviewed for velocity, vibration and thermal cycling effects. Any expansion would bring new tanks and process trains that deserve a baseline register from commissioning, which takes little effort at that stage and saves a great deal of reconstruction later."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/inspection/risk-based-inspection/piping-rbi",
+          "RBI for process piping"
+        ]
+      ]
+    },
+    {
+      "id": "vt-phu-my",
+      "h": "Phu My: urea, gas and high-pressure synthesis",
+      "p": [
+        "PVFCCo's Phu My fertilizer plant produces urea, NPK compound fertiliser, UFC85 and industrial chemicals from natural gas, and completed a turnaround in early 2026. Gas-based urea production brings mechanisms that refinery-trained teams meet less often: carbamate corrosion in urea synthesis and stripping, where materials depend on passivation and controlled oxygen; ammonia stress corrosion cracking in carbon steel where water and oxygen content allow it; carbon dioxide corrosion in wet process gas; high-temperature hydrogen and nitriding considerations in the ammonia synthesis loop; and creep in the reformer tubes and outlet systems.",
+        "Many of these items are high-pressure vessels with thick walls, liners or overlays whose condition cannot be judged from external thickness readings. The inspection plan has to name the technique that can actually detect each mechanism, such as liner leak detection, internal visual and eddy current or ultrasonic examination at the right locations, and credit past inspections only where they could have found the damage. That effectiveness review is often the most valuable output of a study on a fertiliser plant, because it shows which turnaround inspections are producing evidence and which are only producing reports."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/pressure-vessel-rbi",
+          "RBI for pressure vessels and heat exchangers"
+        ],
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ]
+      ]
+    },
+    {
+      "id": "vt-terminals",
+      "h": "Storage terminals on the Cai Mep–Thi Vai channels",
+      "p": [
+        "Liquid bulk storage along the Thi Vai and Cai Mep channels serves the port and the surrounding industrial zones. Much of that ground is low-lying and estuarine, so tank RBI starts with the foundation: settlement history, drainage, the height of the water table and whether the floor sits on a membrane or a sand pad with or without cathodic protection. Where settlement surveys and floor scan results exist, they carry more weight in the assessment than the age of the tank.",
+        "Jetty piping, loading arms and their supports see brackish tidal water, splash and condensation, and are among the items most often under-inspected because they sit at the boundary between the marine and process sides of a terminal. A study that brings them into the register with their own mechanisms and inspection techniques closes that gap. Where the owner applies API 653, the internal interval of each tank can be set by an RBI assessment under the standard's conditions, including validation and review at least every ten years."
+      ],
+      "links": [
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ],
+        [
+          "/consulting/api-653-tank-inspector-services",
+          "API 653 tank inspection support"
+        ]
+      ]
+    },
+    {
+      "id": "vt-climate",
+      "h": "Wet and dry seasons on a salt-air coast",
+      "p": [
+        "The south-east is tropical and humid throughout the year, with a wet season from about May to November and a dry season for the rest. It lies south of the usual typhoon tracks, but the wet season brings frequent heavy downpours, and Long Son island and the Vung Tau peninsula are exposed to sea air on every side. The alternation of months of daily rain with months of drier weather wets and dries insulation and coatings in a cycle that suits corrosion well.",
+        "Corrosion under insulation is ranked by temperature band, cladding and sealing condition, and exposure, with idle and intermittent service flagged because it spends long periods in the most aggressive temperature range. Insulated austenitic stainless steel, common in cryogenic and olefins service, is screened for external chloride cracking. Atmospheric corrosion is assessed for racks, jetties and tank roofs nearest the water, and heavy rainfall events are written in as triggers for checks on floating-roof drains, bunds and tank foundations."
+      ],
+      "links": [
+        [
+          "/standards/api-583",
+          "API 583 and corrosion under insulation"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ]
+      ]
+    },
+    {
+      "id": "vt-rules",
+      "h": "Vietnamese rules for a mixed cluster",
+      "p": [
+        "Listed equipment with strict occupational safety requirements, such as pressure vessels, boilers, steam piping, LPG tanks and fixed gas pipelines, is inspected by certified inspection organisations under the national procedures, and its periodic due dates are set there. Petroleum facilities, including the LNG terminal, gas pipelines and storage depots, also hold safety documents under the Ministry of Industry and Trade's rules, among them a risk assessment report revised before major changes. For smaller facilities such as depots and LPG installations those documents are approved at provincial level, which for Vung Tau now means Ho Chi Minh City's Department of Industry and Trade.",
+        "An owner's RBI study sits inside both regimes. It records statutory due dates as fixed, matches its inventories and isolatable sections to the risk assessment report, and plans the owner's own inspection programme around them. Because the area's records may name either the former province or the merged city, the study keeps a short register of which authority issued each certificate and which body now holds that role, so that no renewal is missed in the change."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/vietnam",
+          "RBI in Vietnam"
+        ]
+      ]
+    },
+    {
+      "id": "vt-remote",
+      "h": "Running a study for a Long Son, Thi Vai or Phu My site",
+      "p": [
+        "The area is on Indochina Time, ninety minutes ahead of Hyderabad and twelve or thirteen hours ahead of Houston. Workshops are held by video in the Vietnamese morning and early afternoon with the owner's process, operations, corrosion and inspection engineers; for a restart they include the people who carried out and monitored the preservation, because their records and memory decide which mechanisms are credible. Analysis and drafting continue from Houston overnight. Documents in Vietnamese, Thai or English are handled through the owner's data room and its bilingual staff, and the site's tags stay as they are.",
+        "No travel is needed for the study. What must be confirmed on the plant, such as the state of preserved systems, insulation damage, settlement markers or jetty supports, goes on a verification list for the owner's inspectors or inspection contractor, and their findings are entered before the plan is issued. The owner's inspection authority approves every interval and pre-start scope; Atlantis is not the inspector of record and is not a Vietnamese inspection organisation, and if damage is found that the construction code does not accept, the assessment that follows stays with the owner's engineer."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (risk-based inspection methodology)",
+    "API 571 (damage mechanisms)",
+    "API 583 (corrosion under insulation and fireproofing)",
+    "API 584 (integrity operating windows)",
+    "API 653 (storage tank inspection), where the owner adopts it",
+    "ASME PCC-3 (inspection planning using risk-based methods)"
+  ],
+  "deliverables": [
+    "Lay-up review and pre-start inspection list ranked by risk",
+    "Baseline register entries for new cryogenic tanks, lines and tie-ins",
+    "Corrosion loops and damage mechanism report for olefins, LNG, fertiliser and terminal systems",
+    "Inspection plan with method, coverage, effectiveness and due date per item",
+    "RBI register with statutory due dates held as fixed points",
+    "Verification list for the owner's inspectors and heavy-rain inspection triggers"
+  ],
+  "industries": [
+    "Petrochemicals and polymers",
+    "LNG import and regasification",
+    "Fertiliser production",
+    "Port and liquid bulk storage terminals",
+    "Offshore oil and gas support"
+  ],
+  "faqs": [
+    {
+      "q": "What should be inspected before an olefins complex restarts after a long shutdown?",
+      "a": "That depends on how each system was preserved and for how long. An RBI study ranks systems by the mechanisms their lay-up made credible, such as internal corrosion where drying or blanketing was incomplete, microbiologically influenced corrosion in stagnant water, and corrosion under insulation on lines that sat at ambient temperature, against the consequence of failure on restart. The output is a pre-start inspection list in risk order, with a technique and coverage for each item."
+    },
+    {
+      "q": "How are idle periods counted in an RBI model?",
+      "a": "Not as time at zero damage. The model treats preservation as a set of conditions with its own mechanisms and rates, based on what was actually done and monitored: nitrogen blanketing, drying, chemical treatment, or nothing. Corrosion rates measured during operation are not simply extended across the shutdown, and inspection carried out before lay-up is credited only for the damage it could have detected at that time."
+    },
+    {
+      "q": "Can RBI be applied to an LNG storage tank that is never opened?",
+      "a": "Yes, but the evidence is different. Instead of internal inspection, the assessment relies on settlement and tilt surveys, temperature monitoring of the base and annular space, leak detection, boil-off behaviour and external examination of the outer tank and roof. Most of the inspection planning then concentrates on the cryogenic piping, pumps, vaporisers, jetty equipment and support systems around the tank, where conventional techniques apply."
+    },
+    {
+      "q": "Do the new ethane tanks need an RBI register before they are commissioned?",
+      "a": "It is the best moment to create one. Design data, material certificates, weld records and commissioning results give each tank and line a baseline, and mechanisms for cryogenic service can be assigned before the first cargo arrives. The first in-service inspection is then planned from evidence rather than from a default interval, and the entries are refined once operating data replace design values."
+    },
+    {
+      "q": "Which damage mechanisms matter most at a gas-based urea plant?",
+      "a": "Carbamate corrosion in urea synthesis and stripping, where passivation and oxygen control protect the materials; ammonia stress corrosion cracking in carbon steel under the wrong water and oxygen conditions; carbon dioxide corrosion in wet process gas; hydrogen and nitriding effects in the ammonia synthesis loop; and creep in reformer tubes. Many affected items have liners or overlays, so the plan must name techniques that can find damage beneath them."
+    },
+    {
+      "q": "Our certificates still name Ba Ria–Vung Tau province. Does that affect the RBI programme?",
+      "a": "Not the engineering, but it does affect the record keeping. The register notes which authority issued each certificate and which body now holds that role after the 2025 merger into Ho Chi Minh City, so that statutory due dates, approvals and renewals are tracked against the right authority. The owner should confirm current arrangements with the authorities directly."
+    },
+    {
+      "q": "Does anyone from Atlantis need to travel to Long Son or Phu My?",
+      "a": "The study is designed to run remotely. Records come through the owner's data room and workshops are held by video in the Vietnamese working day. Anything that needs eyes on the plant goes on a written verification list for the owner's inspectors or inspection contractor, and their findings are fed into the assessment before the plan is finalised."
+    },
+    {
+      "q": "Who approves the restart scope and inspection intervals?",
+      "a": "The owner's inspection authority, under its own procedures and within the dates that statutory inspection sets. Atlantis prepares and documents the recommendations, with the reasoning behind each one traceable to data, lay-up records and stated assumptions, and does not act as inspector of record. For a restart, the pre-start list also marks which findings should hold the start-up until they are resolved, leaving that call with the people who will run the plant."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/vietnam",
+      "RBI in Vietnam"
+    ],
+    [
+      "/inspection/risk-based-inspection/nghi-son",
+      "RBI in Nghi Son, Thanh Hoa"
+    ],
+    [
+      "/inspection/risk-based-inspection/dung-quat",
+      "RBI in Dung Quat, Quang Ngai"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-implementation",
+      "RBI programme implementation"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnarounds and shutdowns"
+    ],
+    [
+      "/inspection/asset-integrity-services",
+      "Asset integrity services"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Ba Ria-Vung Tau, Binh Duong and Ho Chi Minh City merged into Ho Chi Minh City; 34 provincial-level units",
+      "url": "https://en.baochinhphu.vn/names-and-administrative-centers-of-34-provinces-and-centrally-run-cities-specified-111250415094350491.htm"
+    },
+    {
+      "fact": "Two-tier local administration effective 1 July 2025",
+      "url": "https://www.allenandgledhill.com/vn/publication/articles/30858/significant-restructuring-of-vietnam-government-underway"
+    },
+    {
+      "fact": "LSP on Long Son Island, Vung Tau, about 100 km south-east of Ho Chi Minh City; owned by SCG Chemicals (Siam Cement); capacities ethylene 950 kt/y, propylene 400 kt/y, HDPE 500 kt/y, LLDPE 500 kt/y, PP 400 kt/y, butadiene 100 kt/y; naphtha-based cracker able to switch propane/naphtha; LSPE ethane enhancement project, Technip Energies (engineering, procurement, burners, ethylene technology), US ethane from Enterprise Products ~1 Mtpa for 15 years, five VLECs from Mitsui OSK Lines, two cryogenic ethane tanks ~55,000 t each by China Tianchen Engineering + PetroVietnam Technical Services consortium; startup targeted 2027",
+      "url": "https://www.ogj.com/refining-processing/petrochemicals/news/55370166/vietnams-long-son-contracts-for-ethane-conversion-project"
+    },
+    {
+      "fact": "LSP wholly owned by SCG Chemicals; full commercial operations 30 Sept 2024; operations suspended in May 2026; planned five-month turnaround beginning 1 Nov 2026; restart targeted Q2 2027; ethylene ~950,000 t, propylene ~400,000 t",
+      "url": "https://technode.global/2026/10/13/thailands-scg-to-soon-restart-long-son-petrochemicals-complex-in-vietnam/"
+    },
+    {
+      "fact": "Thi Vai LNG terminal: Ba Ria-Vung Tau; 1 Mtpa; 180,000 m3 tank; inaugurated October 2023; ships up to 100,000 dwt; connected to the Thi Vai-Phu My pipeline; Petrovietnam asked PV GAS to triple capacity to 3 Mtpa",
+      "url": "https://theinvestor.vn/petrovietnam-asks-pv-gas-to-triple-lng-thi-vai-terminal-to-3-mln-tons-d14411.html"
+    },
+    {
+      "fact": "PV GAS raised Thi Vai regasification above original design capacity on 2 April 2026, for power plants in the Southeast region",
+      "url": "https://www.lngindustry.com/regasification/09042026/pv-gas-upgrades-thi-vai-lng-terminal-regasification-capacity"
+    },
+    {
+      "fact": "PVFCCo Phu My Fertilizer Plant: urea, NPK, UFC85, chemicals; turnaround completed before March 2026",
+      "url": "https://petrovietnam.petrotimes.vn/pvfcco-phu-my-accelerates-growth-with-robust-performance-in-early-2026-738613.html"
+    },
+    {
+      "fact": "Circular 40/2018/TT-BCT: provincial Departments of Industry and Trade approve safety documents for petroleum depots and LPG facilities (Appendix I); risk assessment report",
+      "url": "https://luatvietnam.vn/cong-nghiep/thong-tu-40-2018-tt-bct-noi-dung-tai-lieu-quan-ly-an-toan-trong-hoat-dong-dau-khi-168695-d1.html"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "title": "RBI in Karratha and the Burrup: LNG, Ammonia and Dampier",
+  "description": "Risk-based inspection for the Burrup Peninsula near Karratha: a gas plant approved to 2070, a new LNG train, ammonia and urea, cyclones and fly-in rosters.",
+  "h1": "Risk-based inspection for Karratha, the Burrup Peninsula and the Port of Dampier",
+  "eyebrow": "Risk-based inspection in Australia",
+  "intro": "The Burrup Peninsula, beside Karratha on the Pilbara coast of Western Australia, holds two LNG plants, an ammonia and ammonium nitrate facility and a urea plant under construction, all within the Port of Dampier. This page is for the integrity and inspection engineers who keep that equipment safe. It covers what operates there now, how RBI supports a plant approved to run to 2070 and a train just starting up, which mechanisms the heat, sun and cyclones drive, how fly-in rosters shape field verification, how Western Australian law applies, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "Life extension, item by item", "p": "The federal approval allowing the Karratha Gas Plant to run to 2070 turns an inspection programme into a life-extension programme. The study asks which equipment the evidence supports for decades more service, which needs a specific task to earn that support, and which data are missing to tell the two apart." },
+    { "h": "New train, new baseline", "p": "Pluto Train 2 was being commissioned on Scarborough gas in late 2026, with Train 1 being modified to take the same gas. Commissioning records become the reference for every later corrosion rate, and each modification is reviewed as a change to the damage picture of the loop it joins." },
+    { "h": "Rosters, not only weather", "p": "Field checks on the Burrup are done by crews on fixed swings, with major work bunched into shutdown campaigns. The verification list is written so it can be split across swings and picked up by the next inspector, instead of assuming one team walks the whole plant in a week." }
+  ],
+  "sections": [
+    {
+      "id": "ka-burrup",
+      "h": "What operates on the Burrup Peninsula",
+      "p": [
+        "The North West Shelf Project's Karratha Gas Plant, operated by Woodside for a joint venture whose other participants are BP, Chevron, Japan Australia LNG and Shell, has processed gas from offshore fields for more than four decades. In September 2025 the federal environment minister gave final approval for it to keep operating beyond 2030 and up to 2070, subject to 48 conditions that include caps and reductions on industrial air emissions, intended to protect the rock art of the Dampier Archipelago and the Burrup Peninsula National Heritage Place.",
+        "Next door, Woodside's Pluto LNG has produced from a single train since 2012, and the Scarborough project adds a second. In October 2026 Woodside reported that Scarborough gas had been introduced to the warm, gas pre-treatment end of Pluto Train 2, that cold-end work continued before liquefaction could begin, that modifications to Train 1 so it can process Scarborough gas were continuing, and that the first cargo was on track for the fourth quarter. Yara's Pilbara facility produces ammonia and technical ammonium nitrate. Perdaman's Project Ceres urea plant, just north of Karratha and supplied with gas by Woodside, is under construction, with commissioning planned for March 2027, full production from June 2027 and a new multi-user wharf being built at the Port of Dampier."
+      ],
+      "table": {
+        "head": ["Facility", "Stage of life", "What drives the RBI study"],
+        "rows": [
+          ["Karratha Gas Plant (North West Shelf)", "More than four decades in service, approved to run to 2070", "Ageing of original equipment, records spread across many generations of systems, feed that changes as gas sources change, and which items can be shown fit for decades more"],
+          ["Pluto LNG Train 1", "In service since 2012, being modified for Scarborough gas", "A mature record, with each modification reviewed as a change to the damage mechanism basis"],
+          ["Pluto LNG Train 2", "In commissioning in late 2026", "Commissioning baselines, materials verification and the first in-service readings that confirm or correct the predicted rates"],
+          ["Yara's Pilbara ammonia and technical ammonium nitrate facility", "An established nitrogen chemicals site", "Ammonia cracking, hydrogen service in synthesis, nitric acid and ammonium nitrate service, and toxic consequence"],
+          ["Perdaman urea plant (Project Ceres)", "Under construction, commissioning planned for 2027", "A pre-start-up register built from design and fabrication data, with carbamate and ammonia service planned before the first inspection falls due"],
+          ["Marine facilities in the Port of Dampier", "Long-standing loading jetties, with a new multi-user wharf under construction", "Loading lines, arms and jetty steel in a cyclone-exposed splash zone"]
+        ]
+      }
+    },
+    {
+      "id": "ka-life-extension",
+      "h": "From inspection programme to life-extension programme",
+      "p": [
+        "An approval to operate until 2070 asks a question no fixed inspection calendar can answer: which of the plant's original vessels, columns, exchangers and piping can safely serve for decades longer than first expected, and on what evidence. RBI suits the question because it works item by item from damage mechanisms and inspection effectiveness rather than from age. A vessel that has spent forty years in benign service under good inspection coverage may have decades of life left; a younger line in a corrosive loop with poor coverage may not.",
+        "The study adds a life-extension view to the ordinary risk ranking. For each item it records the mechanisms that accumulate with time rather than throughput: fatigue at cyclic locations, creep where temperatures allow, breakdown of cold insulation and its vapour barriers, coating failure under insulation, corrosion at supports and clamps, and embrittlement where materials age in service. It then sorts the population three ways: items the existing evidence supports for long-term service, items that need a specific inspection or monitoring task to earn that support, and items for which replacement planning is the honest answer.",
+        "The approval's air emission conditions also reach the integrity programme. Cutting nitrogen oxide emissions and capping sulphur dioxide, and the monitoring needed to demonstrate both, can bring new or modified combustion equipment, changes to turbines and fired heaters, and extra sampling systems. Each change is reviewed for the damage mechanisms it introduces, and the register is updated before the new equipment's first inspection falls due."
+      ]
+    },
+    {
+      "id": "ka-new-train",
+      "h": "A new train and a modified one",
+      "p": [
+        "Pluto Train 2 offers the rare chance to start an RBI programme on the first day of service. Manufacturer's data reports, material certificates, positive material identification, post-weld heat treatment and hydrotest records and baseline thickness readings are all recent and should be complete. The study captures them as the reference for every later corrosion rate, confirms that installed materials match the damage mechanism basis in the design, and logs any baseline that was never taken while construction contractors and vendors can still supply it.",
+        "Problems that surface in the first years of a new train are usually built in: a fabrication flaw at a weld, a fitting in the wrong alloy, insulation detailing that lets water in, or small-bore piping that vibrates beside a large compressor. The first plan therefore confirms predictions before it lengthens any interval, with targeted early checks on welds and small-bore connections and a first look at insulation installed during construction.",
+        "Train 1's modifications for Scarborough gas are a management of change question. A different gas changes the duty on acid gas removal, dehydration and mercury guard beds, and new tie-ins bring new welds and materials into old circuits. The study reviews each modification against the damage mechanism basis of the loop it joins, restarts the history of replaced items, and names the start of Scarborough gas processing as a reassessment trigger for every affected loop."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"]
+      ]
+    },
+    {
+      "id": "ka-chemicals",
+      "h": "Ammonia, ammonium nitrate and a urea plant before start-up",
+      "p": [
+        "Nitrogen chemicals set a different group of mechanisms beside the LNG plants. In ammonia production, hot synthesis gas brings high-temperature hydrogen attack, screened against API RP 941, and nitriding of converter surfaces, while the reformer brings creep in its tubes and outlet headers. Ammonia itself can crack carbon steel when oxygen is present and water is scarce, so refrigerated storage and its connections need crack-detection examination at welds on an interval the risk supports, not thickness readings. Technical ammonium nitrate production adds nitric acid service, where stainless steels depend on acid strength, temperature and heat treatment, and hot ammonium nitrate solution.",
+        "A urea plant that has not yet started can have its RBI basis written before the first inspection is due. The synthesis section, where ammonium carbamate forms and decomposes at high pressure and temperature, relies on corrosion-resistant stainless or duplex steels that stay passive only within limits the licensor sets, in most designs with a controlled addition of oxygen. The study builds a pre-start-up register from design data, licensor requirements and fabrication records, writes the operating windows the synthesis loop depends on, and plans first inspections so that predicted behaviour is confirmed early instead of assumed for a full cycle.",
+        "Consequence in these plants is toxic as well as flammable. A release of ammonia travels with the wind towards whatever lies downwind, which on the Burrup can include neighbouring plants, the port and a heritage-listed landscape. The study models toxic releases separately from flammable ones and records the consequence model behind each item."
+      ]
+    },
+    {
+      "id": "ka-climate",
+      "h": "Heat, sun, dust and cyclones",
+      "p": [
+        "Karratha has a hot, arid climate: long, very hot summers, intense sunlight through most of the year and little rain, much of it arriving in short heavy bursts from tropical lows and cyclones between about November and April. The Pilbara coast is crossed by tropical cyclones more often than most of the Australian coastline, and plant on the Burrup is designed and operated with that in mind.",
+        "Dry heat does not remove external corrosion; it moves it. Coatings, sealants, cladding and non-metallic components such as glass-reinforced plastic piping, hoses and gaskets age faster under strong ultraviolet light and wide daily temperature swings, and a failed coating or a split in cladding can sit unnoticed through the dry months. Fine red dust settles on horizontal surfaces and in insulation seams, and salt from the sea breeze collects with it. When rain or deluge testing finally wets that layer, the steel underneath meets a concentrated electrolyte. Cold equipment is the exception to dryness: on humid coastal nights moisture condenses wherever a vapour barrier has failed, so corrosion under insulation on cold service can stay active through the dry season.",
+        "A cyclone brings the extremes together: wind load on columns, flare stacks and structures, debris striking cladding and small-bore piping, torrential rain on insulation and into bunds, and storm surge against low-lying coastal plant and jetties. The study gives each area a cyclone exposure rating, writes a post-cyclone inspection list ranked by that rating, and treats a cyclone passing near the site as a reassessment trigger, so the first walkdowns after the storm go where damage is most likely and their findings reach the register before routine due dates are confirmed."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"]
+      ]
+    },
+    {
+      "id": "ka-rosters",
+      "h": "Fly-in rosters and shutdown campaigns",
+      "p": [
+        "Most of the people who operate, maintain and inspect plant on the Burrup work fixed rosters, flying in from Perth or living in Karratha, and major inspection work is concentrated into shutdown campaigns that bring in large temporary crews. That shapes how an RBI study's field work gets done. A verification list written as one long walkdown assumes a team that never changes; in practice the checks will be split across several swings and several inspectors, and some will wait for the next campaign.",
+        "The study writes the list for that reality. Checks are grouped by area and by what they need, whether a shutdown, scaffolding, insulation removal or only access on a routine round, so planners can slot each into the right swing or campaign. Every check states what to record and to what coverage, so an inspector picking up the list part-way through needs no handover from whoever started it, and results come back in a fixed format that loads straight into the register.",
+        "Rosters affect the workshops too. The process, operations and inspection people who know a unit best may be on break in the week a session was planned. Workshops are scheduled against the client's roster calendar, split by unit so each specialist attends only the part that needs them, and the draft damage mechanism assignments are circulated for written comment by anyone who could not join live."
+      ]
+    },
+    {
+      "id": "ka-heritage",
+      "h": "Working inside a heritage-listed landscape",
+      "p": [
+        "The Murujuga cultural landscape, which takes in the Burrup Peninsula and the Dampier Archipelago, was inscribed on the World Heritage List in July 2025, and the area is also a National Heritage Place. Its rock art is the reason the North West Shelf approval carries conditions on air emissions and their monitoring.",
+        "For an inspection programme the setting matters in two practical ways. Ground disturbance, such as excavating to inspect buried piping or exposing the soil side of a tank floor, goes through the site's own heritage procedures before it can be scheduled, so the plan flags any task that needs digging well ahead of its due date and offers non-intrusive alternatives where they would give useful evidence. And the environmental consequence of a release, including combustion products from a fire or emergency flaring, is assessed against the obligations the site actually carries, so the consequence ranking reflects the setting rather than a generic industrial default."
+      ]
+    },
+    {
+      "id": "ka-wa-rules",
+      "h": "Western Australian law on the Burrup",
+      "p": [
+        "Western Australia regulates its major hazard facilities under the Dangerous Goods Safety Act 2004 and the Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007, administered since July 2025 by the Department of Local Government, Industry Regulation and Safety through its WorkSafe group. The regulator's analysis for 2023–24 counted 22 classified major hazard facilities in the State, covering among other materials liquefied natural gas, anhydrous ammonia and ammonium nitrate, the same kinds of facility that line the Burrup.",
+        "The same analysis described asset integrity and maintenance as a continuing concern across those facilities, with little improvement over seven years, and reminded operators of the consequences of ageing plant, newer plants included. An RBI study gives an operator a documented answer: each item's inspection basis is tied to the major incident scenarios in its safety report, and the method statement can be referenced from the safety report itself. Pressure vessels of hazard level A, B or C are also registered as items under the State's work health and safety regulations, with in-service inspection following the owner's programme and AS/NZS 3788 as the Australian benchmark.",
+        "Pipelines that bring gas ashore, and offshore facilities in Commonwealth waters, sit under separate petroleum and offshore safety regimes. The study records where the plant boundary falls on each incoming line, so the register covers the plant equipment the client owns and hands each pipeline over at the correct point."
+      ]
+    },
+    {
+      "id": "ka-remote",
+      "h": "Running a Burrup study from Hyderabad and Houston",
+      "p": [
+        "Karratha keeps Australian Western Standard Time, UTC+8, all year, so a Burrup site shares its clock with Singapore and Malaysia. Hyderabad is two and a half hours behind and Houston thirteen or fourteen hours behind, depending on the US season. Workshops sit comfortably in the Burrup morning and early afternoon, inside the Hyderabad working day, and follow-up from Houston arrives at the start of the next Pilbara morning.",
+        "Documents come through a data room the operator controls: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, WorkSafe WA registration records, inspection and thickness history from every system the plant has used, commissioning records for new equipment, cold insulation and LNG tank monitoring records, feed gas composition data and the integrity operating windows. A data-gap log is issued before the first workshop, and risk is worked at the level the scope needs, from a qualitative screen to a quantitative API RP 581 assessment or the operator's corporate RBI standard.",
+        "The study is delivered remotely and needs no travel to the Pilbara. Field verification is done by the operator's own inspectors or its inspection contractor, working from the roster-ready list described above, and their results update the register."
+      ]
+    },
+    {
+      "id": "ka-approval",
+      "h": "Who accepts the plan",
+      "p": [
+        "Under Western Australian law the inspection decision belongs to the competent person the operator's procedure names, often an in-house inspection engineer or an inspection body engaged by the operator or its insurer. The study proposes each interval and task with its reasoning; Atlantis does not act as inspector of record or as an inspection body for any Burrup facility. Where inspection finds damage that puts continued service in question, that assessment stays with the operator's engineer, because Atlantis does not provide fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "AS/NZS 3788:2024 (pressure equipment, in-service inspection)",
+    "AS 4343 (pressure equipment hazard levels)",
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 941 (high-temperature hydrogen attack)",
+    "API 510, API 570 and API 653",
+    "WA Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007",
+    "WA Work Health and Safety (General) Regulations 2022"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops, damage mechanisms, probability, consequence and risk for each item",
+    "Life-extension classification for each item: supported, needs a task, or plan replacement",
+    "Commissioning baseline record for newly started equipment",
+    "Management of change review of modified loops",
+    "Cyclone exposure ratings and a ranked post-cyclone inspection list",
+    "Roster-ready field verification list for the operator's inspectors",
+    "Mapping of inspection tasks to the major incident scenarios in the safety report"
+  ],
+  "industries": [
+    "LNG production",
+    "Gas processing",
+    "Ammonia and ammonium nitrate",
+    "Urea and fertilisers",
+    "Marine export terminals"
+  ],
+  "faqs": [
+    { "q": "Can RBI support running the Karratha Gas Plant to 2070?", "a": "It is well suited to the task, because it judges each item on its damage mechanisms and inspection evidence rather than on age. The study adds a life-extension view, sorting equipment into items the evidence supports for long service, items that need a specific inspection or monitoring task to earn that support, and items where replacement planning is the honest answer. Gaps in the record that stop an item being classified are logged for closing." },
+    { "q": "How is a newly commissioned train like Pluto Train 2 assessed?", "a": "From its commissioning records. Material certificates, positive material identification, heat treatment and hydrotest records and baseline thickness readings become the reference for every later rate. The first plan confirms predictions with targeted early checks on welds, small-bore connections and new insulation before any interval is lengthened, and missing baselines are logged while vendors and contractors can still supply them." },
+    { "q": "Do the modifications to Pluto Train 1 need a new RBI assessment?", "a": "The affected loops do. A change of feed gas alters the duty on acid gas removal, dehydration and mercury guard beds, and new tie-ins bring new welds and materials into existing circuits. The study reviews each modification against the damage mechanism basis of the loop it joins, restarts the history of replaced items and names the start of Scarborough gas processing as a trigger for reassessment." },
+    { "q": "Does a dry climate mean less corrosion under insulation?", "a": "Less on hot service through the dry months, but not none. Dust and salt collect in insulation seams and become an aggressive electrolyte when cyclone rain or deluge testing wets them, and on humid coastal nights moisture condenses under any failed vapour barrier on cold equipment. Ultraviolet light and heat also age coatings, cladding and sealants faster, so CUI is ranked on insulation and coating condition as much as on rainfall." },
+    { "q": "How are cyclones built into the plan?", "a": "Each area receives a cyclone exposure rating, and a cyclone passing near the site is written in as a reassessment trigger. A pre-set post-cyclone inspection list, ranked by exposure, covers roofs, tall columns and stacks, cladding, small-bore connections, bunds and jetty equipment. The first walkdowns go where damage is most likely, and their findings reach the register before routine dates are confirmed." },
+    { "q": "Our inspectors work on fly-in rosters. How does that affect the verification list?", "a": "The list is written for it. Checks are grouped by area and by what they need, such as a shutdown, scaffolding, insulation removal or only routine access, so planners can place each one in the right swing or campaign. Every check states what to record and to what coverage, so whoever picks up the list next can continue without a handover, and results come back in a format that loads directly into the register." },
+    { "q": "Does heritage protection on the Burrup affect inspection?", "a": "It can. Ground disturbance, such as excavating buried piping or exposing the soil side of a tank floor, goes through the site's own heritage procedures, so the plan flags any task that needs digging well before its due date and suggests non-intrusive alternatives where they would give useful evidence. Environmental consequence is also assessed against the obligations the site actually carries in that setting." },
+    { "q": "Does anyone from Atlantis need to travel to Karratha?", "a": "No. The study needs no travel: documents and data arrive through your data room, workshops run by video in the Burrup morning, and field checks are carried out by your own inspectors or your inspection contractor from a roster-ready verification list. Their results are loaded into the register and the affected items reassessed before the plan is issued." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
+    ["/inspection/risk-based-inspection/kwinana", "RBI in Kwinana, Western Australia"],
+    ["/inspection/risk-based-inspection/gladstone", "RBI in Gladstone, Queensland"],
+    ["/inspection/risk-based-inspection/geelong", "RBI in Geelong, Victoria"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Final federal approval (September 2025, Environment Minister Murray Watt) for the North West Shelf Karratha gas plant to operate beyond 2030 and up to 2070; 48 conditions including caps and reductions on industrial air emissions (nitrogen oxides to fall 60% by 2030 and 90% by 2061; sulphur dioxide capped) to protect the Dampier Archipelago including the Burrup Peninsula National Heritage Place; project has supplied gas for more than 40 years; JV: Woodside 33.33%, BP, Chevron, Japan Australia LNG and Shell 16.67% each; Murujuga granted World Heritage status in July 2025", "url": "https://www.offshore-technology.com/news/north-west-shelf-project-extension-final-environmental-approval/" },
+    { "fact": "Woodside Q3 2026 report (21 October 2026): Scarborough 99% complete; Scarborough gas introduced to the warm end (gas pre-treatment) of Pluto Train 2; cold-end work continues before liquefaction; modifications to Pluto Train 1 to process Scarborough gas continued; first LNG cargo on track for Q4", "url": "https://www.worldoil.com/news/2026/10/21/woodside-s-scarborough-hits-99-complete-first-lng-on-track-for-q4/" },
+    { "fact": "Perdaman Project Ceres urea plant just north of Karratha: 2.3 Mt/y urea, commissioning on track for March 2027, full production June 2027, 20-year gas supply agreement with Woodside, construction well advanced (Nov 2025), new multi-user wharf at Port of Dampier under construction (Grain Central, 16 March 2026)", "url": "https://www.graincentral.com/news/wa-plant-to-produce-2-3mt-of-urea-from-mid-2027/" },
+    { "fact": "Yara Australia's Pilbara facility produces ammonia and technical ammonium nitrate (2026; only these background facts used)", "url": "https://www.bcinsight.crugroup.com/2026/05/20/power-outage-shuts-yaras-pilbara-ammonia-plant-for-two-months/" },
+    { "fact": "WA Chief Dangerous Goods Officer's annual analysis of MHFs 2023-24: 22 classified MHFs in WA covering compressed and liquefied natural gas, LPG, anhydrous ammonia, ammonium nitrate and other materials; asset integrity and maintenance 'continues to remain a concern', little improvement over seven years; operators should be aware of ageing plant, including newer plants", "url": "https://www.worksafe.wa.gov.au/system/files/documents/2025-06/DGS_Safety_251426_RP_MHF-23-24.pdf" },
+    { "fact": "WA Department of Local Government, Industry Regulation and Safety formed 1 July 2025; its WorkSafe Group oversees dangerous goods safety legislation including MHFs (cited on the Australia country page)", "url": "https://www.wa.gov.au/organisation/department-of-local-government-industry-regulation-and-safety/about-the-department-of-local-government-industry-regulation-and-safety" },
+    { "fact": "WA item registration of hazard level A, B or C boilers and pressure vessels under the WHS (General) Regulations 2022 (cited on the Australia country page)", "url": "https://www.wa.gov.au/government/multi-step-guides/plant-and-design-registration/item-of-plant-registration" }
+  ]
+}

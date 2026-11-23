@@ -1,0 +1,327 @@
+{
+  "title": "RBI at Nghi Son: Refinery, Aromatics and Turnaround Planning",
+  "description": "RBI for the Nghi Son refinery: a 200,000 b/d joint venture running above design, a wider crude slate, the 2027 turnaround and a study delivered remotely.",
+  "h1": "Risk-based inspection for the Nghi Son refinery and petrochemical complex",
+  "eyebrow": "Risk-based inspection in Nghi Son",
+  "intro": "Nghi Son Refinery and Petrochemical in Thanh Hoa province is Vietnam's largest operating refinery, a 200,000 barrel a day joint venture that combines fuels with aromatics and polypropylene. This page is for the inspection and integrity engineers who plan its units, tanks and utilities. It deals with the questions that matter most there in 2026 and 2027: how operation above design rate and a wider crude slate affect damage rates, how a four-yearly turnaround cycle should shape the risk-based plan, what the north-central coast's weather adds, and how Atlantis runs the study remotely with the complex's own inspectors on site.",
+  "highlights": [
+    {
+      "h": "Plan for the run, not the year",
+      "p": "With major overhauls roughly every four years, the useful question for each item is whether its risk stays acceptable until the turnaround after next. The plan answers that item by item and says what must be opened in 2027 and what can wait."
+    },
+    {
+      "h": "Rates above design, windows to match",
+      "p": "Throughput well above nameplate changes velocities, temperatures and contaminant loads. Damage rates are linked to integrity operating windows built on actual operating data, so the register follows the plant as it really runs."
+    },
+    {
+      "h": "Three shareholders, one method",
+      "p": "Japanese, Kuwaiti and Vietnamese shareholders each bring their own practice. The study basis records which procedure governs, which risk matrix applies and who approves departures, before data collection begins, so the register reads the same way to every shareholder."
+    }
+  ],
+  "sections": [
+    {
+      "id": "ns-complex",
+      "h": "A joint venture refinery on the Thanh Hoa coast",
+      "p": [
+        "Nghi Son Refinery and Petrochemical LLC operates the complex in the Nghi Son Economic Zone, about 200 kilometres south of Hanoi. Commercial operation began in 2018. Idemitsu Kosan and Kuwait Petroleum each hold 35.1 percent, Petrovietnam 25.1 percent and Mitsui Chemicals 4.7 percent, and long-term crude supply agreements with Kuwait Petroleum Corporation have fed the plant since it started.",
+        "The design capacity is 200,000 barrels a day, about ten million tonnes of crude a year, and in 2026 the complex has run at roughly 120 to 125 percent of that figure. Alongside gasoline, jet fuel, diesel and LPG it produces benzene and para-xylene from an aromatics section and polypropylene, and it expects to deliver more than nine million tonnes of products to the domestic market in 2026. Thanh Hoa kept its boundaries in the 2025 merger of provinces, so permits and certificates carry the same provincial authority as before.",
+        "For risk-based inspection the combination is what counts: a residue-upgrading refinery, an aromatics complex and a polymer plant on one site, with shared utilities, one tank farm and one marine interface. A single register with one risk matrix across all three avoids planning the same kind of equipment to different standards in different parts of the complex."
+      ]
+    },
+    {
+      "id": "ns-rates",
+      "h": "Running above design: what changes in the damage register",
+      "p": [
+        "A refinery running a fifth or a quarter above nameplate is not the plant its design basis describes. Higher feed rates raise velocities in effluent systems, overhead lines and air coolers, push heater tube metal temperatures closer to their limits, increase the mass of sulphur, nitrogen and chloride passing through each unit and shorten the time between catalyst changes. Some mechanisms barely notice; others are dominated by exactly those variables.",
+        "Velocity-sensitive corrosion in reactor effluent systems, where ammonium bisulfide concentration and flow regime decide the damage rate, is the classic case, along with erosion in slurry and catalyst-laden services and creep or oxidation in fired heaters whose duty has risen. Inspection history gathered at lower rates can understate today's damage rate, so the study checks whether each corrosion rate in the register was measured under conditions that still apply.",
+        "The practical answer is to tie each rate-sensitive mechanism to an integrity operating window with a parameter, a limit and an action, as API 584 describes, and to use the plant's actual historian data rather than design values to set the probability of failure. When throughput or feed quality moves outside the window, the affected loops are reassessed before the next inspection date arrives."
+      ],
+      "links": [
+        [
+          "/standards/api-584",
+          "API 584 integrity operating windows"
+        ],
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ]
+      ]
+    },
+    {
+      "id": "ns-crude",
+      "h": "From Kuwaiti grades to a wider crude slate",
+      "p": [
+        "The refinery was configured around Kuwaiti crude and has relied on it since start-up. It processed its first non-Kuwaiti cargo, about a million barrels of Das Blend, around the turn of 2026, chosen to complement Kuwaiti supply while its residue hydrodesulphurisation unit was under maintenance, and plans to take ten to twelve million barrels of alternative crudes a year. Cargoes from several other origins followed in 2026, and the refinery reports that it can now process ten crude types.",
+        "Every new grade is a change to the damage register. Sulphur content and its distribution across the boiling range drive sulfidation in hot sections and hydrogen sulfide loading in sour systems; acid number decides whether naphthenic acid corrosion is credible in crude and vacuum service; salts and chlorides decide how hard the desalter and the overhead work; nitrogen affects ammonium salt formation in hydroprocessing effluent. A light grade with more distillate and less residue shifts load away from residue upgrading, while a heavier, more sour grade does the opposite.",
+        "A crude qualification step that includes the integrity engineer turns this into routine. Before a new grade is run, its assay is compared with the operating windows, the corrosion loops it would push outside their limits are identified, and the inspection plan for those loops is adjusted. The register then records which crude slate each corrosion rate reflects."
+      ]
+    },
+    {
+      "id": "ns-units",
+      "h": "Where risk concentrates across fuels, aromatics and polymer units",
+      "p": [
+        "The table groups the complex by system rather than by individual unit, because damage mechanisms follow process chemistry. It is a frame for the damage mechanism workshops; the complex's own materials, operating data and inspection records decide what each loop contains."
+      ],
+      "table": {
+        "head": [
+          "System",
+          "Mechanisms that usually dominate",
+          "What the inspection plan tends to target"
+        ],
+        "rows": [
+          [
+            "Crude distillation, desalting and overhead",
+            "Sulfidation and naphthenic acid corrosion in hot sections depending on crude, hydrochloric acid and ammonium chloride corrosion in the overhead",
+            "Transfer lines and hot piping by alloy, overhead condensers and wash and neutraliser injection points"
+          ],
+          [
+            "Residue hydrodesulphurisation and other hydroprocessing",
+            "High-temperature hydrogen attack screening, sulfidation in hydrogen and hydrogen sulfide service, ammonium bisulfide and ammonium chloride corrosion in effluent systems, temper embrittlement screening for low-alloy reactors where steel and service make it credible",
+            "Reactor effluent air coolers and piping, separators, heat exchangers in hot hydrogen service, and heater tubes"
+          ],
+          [
+            "Conversion and gas recovery units",
+            "Erosion, thermal fatigue, wet hydrogen sulfide damage and cyanide-assisted damage in sour water and gas plant service",
+            "Slurry and catalyst circuits, fractionator overheads and gas plant vessels"
+          ],
+          [
+            "Reforming and aromatics",
+            "Chloride-related corrosion around reforming, generally mild service in aromatics separation and fractionation, creep in heaters",
+            "Effluent exchangers and heaters, with longer intervals on mild-service items once condition is demonstrated"
+          ],
+          [
+            "Polypropylene",
+            "Mostly mild hydrocarbon service; external corrosion and vibration fatigue",
+            "Insulated lines and supports, small-bore connections near compressors and extruders"
+          ],
+          [
+            "Amine, sour water and sulphur recovery",
+            "Amine corrosion and cracking, ammonium bisulfide, sulfidation and acid dew point corrosion",
+            "Regenerators and reboilers, rich amine piping, sulphur condensers and tail gas cold spots"
+          ],
+          [
+            "Utilities and cooling water",
+            "Microbiologically influenced corrosion, under-deposit corrosion, external corrosion of buried and insulated lines",
+            "Cooling water exchangers and headers, fire water, and buried line crossings"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ns-turnaround",
+      "h": "A four-yearly turnaround cycle and the 2027 overhaul",
+      "p": [
+        "The complex runs on a cycle of major overhauls roughly every four years. The last full turnaround was in 2023, and the next, of about fifty days, is planned from August 2027, with the contractor selection under way in late 2026. A cycle that long changes how risk targets should be read. Deferring an item past the 2027 turnaround means accepting its risk until the following one, so the question the plan must answer is not whether an item is acceptable today but whether it stays acceptable for another full run.",
+        "An RBI plan written for that cycle sorts every item into three groups: equipment that must be opened or examined internally in 2027 because its risk would exceed the target before the following turnaround; equipment whose condition can be confirmed on stream, by techniques such as corrosion mapping, phased array ultrasonics or profile radiography carried out by the owner's contractor, so that it stays closed; and equipment that can safely wait a full cycle. The second group is where risk-based planning shortens a turnaround without adding risk.",
+        "Scope has to be frozen long before the shutdown starts, because scaffolding, insulation removal, spare parts and inspection crews are booked months ahead. A study timed backwards from the turnaround date gives the planners a settled worklist, with each item's technique, coverage and expected effectiveness stated so that the inspection contractor delivers the evidence the next assessment will rely on."
+      ],
+      "links": [
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnarounds and shutdowns"
+        ],
+        [
+          "/inspection/ndt-inspection-services/advanced-ndt",
+          "Advanced NDT techniques"
+        ]
+      ]
+    },
+    {
+      "id": "ns-weather",
+      "h": "The north-central coast: summer heat, autumn storms and a damp winter",
+      "p": [
+        "Thanh Hoa's coast sees hot, humid summers, a spell of hot, dry westerly wind in early summer, tropical storms in late summer and autumn, and a cool winter of drizzle and overcast skies under the north-east monsoon. For insulated equipment that last season matters as much as the storms: weeks of damp, mild weather keep water in insulation at temperatures where carbon steel corrodes fastest.",
+        "Corrosion under insulation on carbon and low-alloy steel and external chloride cracking of insulated austenitic stainless steel are therefore ranked by operating temperature, insulation and cladding condition, and exposure to sea air, with cyclic and intermittent service flagged because it repeatedly wets and dries the steel. Jetty piping, pipe racks nearest the shore and tank roofs carry atmospheric corrosion entries of their own. After a severe storm the owner's inspectors walk a short checklist covering cladding, tank roofs and drains, and foundations, and their findings come back into the register."
+      ],
+      "links": [
+        [
+          "/standards/api-583",
+          "API 583 and corrosion under insulation"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ]
+      ]
+    },
+    {
+      "id": "ns-tanks",
+      "h": "Crude, intermediate, product and petrochemical tanks",
+      "p": [
+        "Crude arrives by sea, and the complex stores crude, intermediates, fuels, aromatics and other products in large atmospheric tanks, with pressurised storage for liquefied gases. Atmospheric tanks and pressurised spheres or bullets are handled differently: the spheres and bullets are pressure vessels and follow the vessel rules, while atmospheric tank intervals sit in the owner's tank programme.",
+        "Crude tanks bring soil-side floor and annular plate corrosion, product-side corrosion under water bottoms and floating-roof drainage that must cope with storm rainfall. Aromatics tanks carry product quality constraints that make internal inspection disruptive, which raises the value of good external evidence and floor scan data. Where the owner applies API 653, an RBI assessment can set the internal inspection interval under the standard's conditions, including validation and review at least every ten years, and the owner's tank inspector approves it."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ]
+      ]
+    },
+    {
+      "id": "ns-rules",
+      "h": "Shareholder practice and Vietnamese rules",
+      "p": [
+        "Statutory technical safety inspection of listed equipment such as pressure vessels and boilers is carried out by certified inspection organisations under Vietnam's national procedures, and the complex holds the petroleum safety documents the Ministry of Industry and Trade requires, including a risk assessment report. An owner's RBI study records statutory due dates as fixed, keeps its consequence data consistent with the risk assessment report and leaves both regimes exactly where they are.",
+        "Inside that framework, the operator's own procedures decide how inspection is planned, and those procedures may draw on the practice of any of the shareholders. The study does not assume whose practice applies to which unit. It reads the operator's governing documents, confirms the risk matrix and approval route with the integrity team and records any point where a shareholder's standard and the site procedure differ, so the difference is settled once rather than argued at every review. Expansion of the complex has also been discussed among the shareholders; if it proceeds, new units would be given baseline entries in the same register."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/vietnam",
+          "RBI in Vietnam"
+        ]
+      ]
+    },
+    {
+      "id": "ns-remote",
+      "h": "How the study runs from Hyderabad and Houston",
+      "p": [
+        "Nghi Son is on Indochina Time, ninety minutes ahead of Hyderabad and twelve or thirteen hours ahead of Houston. Workshops are held by video in the Vietnamese morning and early afternoon with the complex's process, operations, corrosion and inspection engineers, grouped by corrosion loop so that each session has the right people, and analysis continues from Houston overnight. Documents come through a data room the operator controls; Vietnamese records are reviewed with bilingual engineers, and deliverables are written in English with the site's tags unchanged.",
+        "The study is designed to need no travel. Anything that has to be seen on the plant, such as insulation damage at supports, the real location of an injection point or the condition of a tank's annular plate, goes on a verification list for the operator's inspectors or inspection contractor, and their results feed into the model before the plan is issued. Approval of every interval and turnaround scope rests with the operator's inspection authority. Atlantis is not the inspector of record, and where inspection finds damage the construction code does not accept, the assessment that follows stays with the owner's engineer."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (risk-based inspection methodology)",
+    "API 571 (damage mechanisms)",
+    "API 584 (integrity operating windows)",
+    "API 583 (corrosion under insulation and fireproofing)",
+    "API 653 (storage tank inspection), where the owner adopts it",
+    "ASME PCC-3 (inspection planning using risk-based methods)"
+  ],
+  "deliverables": [
+    "Corrosion loops and damage mechanism report across fuels, aromatics, polymer and utility systems",
+    "Integrity operating windows for rate- and crude-sensitive mechanisms",
+    "Turnaround worklist sorted into open in 2027, confirm on stream, and defer one cycle",
+    "RBI register with statutory due dates held as fixed points",
+    "Tank-by-tank risk ranking and internal inspection recommendations",
+    "Verification list for the operator's inspectors and a post-storm checklist"
+  ],
+  "industries": [
+    "Petroleum refining",
+    "Aromatics production",
+    "Polypropylene production",
+    "Crude import and product storage"
+  ],
+  "faqs": [
+    {
+      "q": "Is it too late to use RBI to shape the 2027 turnaround scope?",
+      "a": "Not if the study starts early enough for its results to reach the planners before scope is frozen. The highest-value output is the sorting of items into those that must be opened, those whose condition can be confirmed on stream, and those that can wait a full cycle. A study can begin with the units that dominate the turnaround workload, so their worklists are settled first, and extend to the rest of the complex afterwards."
+    },
+    {
+      "q": "How does running at 120 percent of design affect corrosion rates in the register?",
+      "a": "For some mechanisms hardly at all, for others a great deal. Velocity-sensitive corrosion in effluent systems, erosion in catalyst and slurry service and heater tube damage respond strongly to throughput. The study checks whether each measured rate reflects current conditions and links rate-sensitive mechanisms to operating windows built on historian data, so a sustained change in throughput triggers reassessment of the loops it affects."
+    },
+    {
+      "q": "What should happen in the register before a new crude grade is processed?",
+      "a": "The grade's assay should be compared with the operating windows for the crude-sensitive loops: sulphur for sulfidation and sour systems, acid number for naphthenic acid corrosion, salts and chlorides for the desalter and overhead, nitrogen for ammonium salts. Loops pushed outside their limits get an adjusted inspection plan or monitoring, and the register records which crude slate each corrosion rate belongs to."
+    },
+    {
+      "q": "Do the aromatics and polypropylene units need the same level of study as the refinery?",
+      "a": "They need the same method but usually less effort per item. Much of their equipment is in mild service, so once condition has been demonstrated many items rank low and can support longer intervals. Keeping them in the same register and risk matrix matters more than the depth of assessment, because it stops identical equipment being planned to different standards across the site."
+    },
+    {
+      "q": "Can RBI keep equipment closed during the 2027 overhaul?",
+      "a": "Where the damage mechanisms can be monitored effectively from the outside, yes. If on-stream techniques such as corrosion mapping or phased array ultrasonics can detect the expected damage with known effectiveness, an item can be confirmed on stream rather than opened, provided its risk stays within target until the following turnaround. The owner's inspection authority decides, and the plan states what evidence each deferral relies on."
+    },
+    {
+      "q": "Does the RBI study replace the statutory inspections or the risk assessment report?",
+      "a": "No. Statutory technical safety inspections remain with certified inspection organisations, and the risk assessment report remains the operator's process safety document under the Ministry of Industry and Trade's rules. The RBI study plans the owner's inspection programme around those fixed points and keeps its consequence data consistent with the risk assessment report."
+    },
+    {
+      "q": "Will anyone from Atlantis need to visit Nghi Son?",
+      "a": "The study is built to run remotely. Data comes through the operator's data room, workshops are held by video in the Vietnamese working day, and field checks go on a written verification list for the operator's inspectors or inspection contractor. Their findings are fed into the model before the inspection plan is finalised."
+    },
+    {
+      "q": "Who approves the turnaround scope and intervals the study recommends?",
+      "a": "The operator's inspection authority, under the complex's own procedures and within the dates that statutory inspection sets. Atlantis drafts and documents the recommendations, with each one traceable to data, assumptions and the damage mechanisms behind it, and does not act as inspector of record. Recommendations that rely on on-stream techniques state the effectiveness each must achieve, so the approver can judge whether a deferral is properly supported."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/vietnam",
+      "RBI in Vietnam"
+    ],
+    [
+      "/inspection/risk-based-inspection/dung-quat",
+      "RBI in Dung Quat, Quang Ngai"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit readiness"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnarounds and shutdowns"
+    ],
+    [
+      "/standards/api-581",
+      "API 581 explained"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 explained"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "NSRP: Nghi Son Economic Zone, Thanh Hoa, about 200 km south of Hanoi; commercial operations 2018; design 200,000 b/d running ~120%; JV of Kuwait Petroleum Europe, Idemitsu Kosan, Petrovietnam, Mitsui Chemicals; long-term supply agreements with Kuwait Petroleum Corporation; first non-Kuwaiti crude Das Blend ~1 million barrels arrived ~23 Dec 2025, processed by 12 Jan 2026, to complement Kuwaiti supply during maintenance of the residue hydro-desulfurisation unit; plan 10-12 million barrels/yr alternative crudes",
+      "url": "https://en.vietstock.vn/2026/01/nghi-son-refinery-processes-first-non-kuwaiti-crude-in-feedstock-diversification-push-974-628200.htm"
+    },
+    {
+      "fact": "Ownership Idemitsu Kosan 35.1%, Kuwait Petroleum 35.1%, Petrovietnam 25.1%, Mitsui Chemicals 4.7%; running at 125% of design since July 2026; other crude sources Oman, UAE, US, Iraq, Angola, Congo; can process 10 crude types; ~50-day scheduled maintenance from August 2027, routine overhaul every four years, contractor being selected; NSRP expects to supply over 9.2 million tons of products to the local market in 2026",
+      "url": "https://hydrocarbonprocessing.com/news/2026/10/vietnams-nghi-son-refinery-secures-crude-supplies-through-november-mostly-from-kuwait/"
+    },
+    {
+      "fact": "Operation at 120-125% of design capacity in Q1 2026",
+      "url": "https://www.hydrocarbonprocessing.com/news/2026/02/vietnams-largest-refinery-to-operate-at-120-125-of-designed-capacity-in-q1/"
+    },
+    {
+      "fact": "2023 turnaround: units restarting 7-9 October 2023",
+      "url": "https://icis.com/explore/resources/news/2023/09/21/10927053/vietnam-s-nsrp-to-restart-some-units-from-turnaround-on-7-9-october"
+    },
+    {
+      "fact": "Products: gasoline RON 92, A95, benzene; LPG, diesel, kerosene, jet fuel, para-xylene, polypropylene and sulphur in the product plan; ~10 Mtpa first phase",
+      "url": "https://en.vietnamplus.vn/nghi-son-refinery-rolls-out-third-commercial-product-post130733.vnp"
+    },
+    {
+      "fact": "Nghi Son refinery urged to finalise expansion plan with partners (Nov 2025)",
+      "url": "https://vir.com.vn/nghi-son-refinery-urged-to-finalise-expansion-plan-with-partners-141343.html"
+    },
+    {
+      "fact": "Thanh Hoa province boundaries unchanged in 2025 merger",
+      "url": "https://en.baochinhphu.vn/names-and-administrative-centers-of-34-provinces-and-centrally-run-cities-specified-111250415094350491.htm"
+    },
+    {
+      "fact": "Circular 40/2018/TT-BCT risk assessment report for petroleum activities",
+      "url": "https://luatvietnam.vn/cong-nghiep/thong-tu-40-2018-tt-bct-noi-dung-tai-lieu-quan-ly-an-toan-trong-hoat-dong-dau-khi-168695-d1.html"
+    }
+  ]
+}

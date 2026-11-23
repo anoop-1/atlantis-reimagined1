@@ -1,0 +1,178 @@
+{
+  "title": "RBI in Kertih, Terengganu: Refinery, Gas Plants and Chemicals",
+  "description": "Risk-based inspection for Kertih's refinery, gas processing plants, petrochemical complex and chemical tank terminal, planned around the east coast monsoon.",
+  "h1": "Risk-based inspection for Kertih, Kemaman and the Terengganu petrochemical coast",
+  "eyebrow": "Risk-based inspection in Malaysia",
+  "intro": "Kertih, in the Kemaman district of Terengganu, is where PETRONAS brings offshore oil and gas ashore and turns it into fuels, sales gas, ethane, LPG and chemicals. A refinery with a condensate splitter, gas processing plants, the plants of the Kertih Integrated Petrochemical Complex and a chemical tank terminal share feedstock, utilities and a coastline that takes the full force of the north-east monsoon. This page is for the integrity and inspection engineers at those sites. It covers what operates there, how linked plants change the consequence side of RBI, what the feed and the climate bring, how the monsoon shapes inspection windows, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "One feed, many plants", "p": "Gas from the same offshore fields supplies the gas processing plants, and their ethane, propane and butane feed the crackers and chemical plants next door. A leak that stops one unit can stop several, so the study scores business interruption across plant boundaries, not only inside the fence of the item that fails." },
+    { "h": "The monsoon sets the calendar", "p": "From roughly November to March the north-east monsoon brings the heaviest rain and roughest seas of the year to the Terengganu coast. Insulation removal, tank entries and coating repairs are planned into the drier months, and each risk-based due date carries a window that respects that." },
+    { "h": "Condensate is not crude", "p": "The refinery runs a condensate splitter beside its crude unit. Condensate brings light ends, trace contaminants and corrosion patterns unlike a heavy crude's, so damage mechanisms are assigned from the site's own feed analyses rather than borrowed from a refinery template written for something else." }
+  ],
+  "sections": [
+    {
+      "id": "kertih-sites",
+      "h": "What operates at Kertih and Kemaman",
+      "p": [
+        "Kertih has been the base of PETRONAS operations in Terengganu since the early 1980s. The refinery started up in March 1983, a crude oil export terminal began operating later that year, and the first gas processing plant followed in August 1984, taking gas from offshore fields and sending processed gas into the Peninsular Gas Utilisation system. Around those three grew the Kertih Integrated Petrochemical Complex, whose plants turn ethane, propane and other gas products into olefins, glycols and derivatives, aromatics, polyethylene and specialty chemicals such as ethoxylates and polyether polyols.",
+        "PETRONAS describes its gas processing as six plants divided between two complexes in Terengganu, Gas Processing Kertih and Gas Processing Santong, with a combined capacity of more than 2,000 million standard cubic feet of feed gas a day and products of sales gas, ethane, propane and butane. Chemicals and liquefied gas for the complex are stored partly at Kertih Terminals, a centralised tankage facility of 41 petrochemical tanks with about 400,000 cubic metres of capacity and five berths, in which Dialog holds a 30 percent interest. Elsewhere in the same district, Kemaman has a bitumen refinery. The table sets out where an RBI study for each kind of facility usually begins."
+      ],
+      "table": {
+        "head": ["Facility", "What it handles", "Where an RBI study starts"],
+        "rows": [
+          ["PETRONAS refinery at Kertih, run by PETRONAS Penapisan (Terengganu)", "Crude oil and condensate, through a crude distillation unit and a condensate splitter, with reforming and hydrotreating", "Analyses of each feed stream, the splitter and crude unit overheads, and a record stretching back to 1983"],
+          ["Gas Processing Kertih", "Offshore gas separated into sales gas, ethane, propane and butane, part of a six-plant system shared with Santong", "Inlet and dehydration equipment, low-temperature recovery sections and the product lines that feed the chemical plants"],
+          ["Kertih Integrated Petrochemical Complex", "Olefins, glycols and derivatives, aromatics, polyethylene and specialty chemicals", "Cracking furnaces, cold sections, caustic and solvent systems, and the transfer lines between plants"],
+          ["Kertih Terminals", "Chemicals and liquefied gas in 41 tanks, served by five berths", "Product compatibility, linings and coatings, and which vessels are pressure equipment rather than atmospheric storage"],
+          ["Kemaman bitumen refinery", "Bitumen production", "Hot heavy service, heated storage tanks and insulated lines kept above their pour point"]
+        ]
+      }
+    },
+    {
+      "id": "kertih-linked",
+      "h": "Plants that depend on each other",
+      "p": [
+        "The plants at Kertih are not independent sites that happen to be neighbours. Gas processing supplies ethane and propane to the crackers, the crackers supply ethylene and propylene to the derivative plants, and steam, power, cooling water and nitrogen cross company boundaries through shared utility systems and pipe racks. An RBI model that scores consequence only inside one plant's fence will rank a leak on a product line as a modest safety and environmental event, when in practice it may idle plants belonging to several different companies.",
+        "The study deals with this in the consequence assessment, not by inflating probability. Each item on an inter-plant supply route is tagged with what its loss would stop, how long a repair would take, and whether a spare, a bypass or intermediate storage could carry the downstream plants through. Business interruption is scored on that basis, using the owner's own production figures where they exist and a stated relative scale where they do not, so a reviewer can see why a modest-looking line carries a high risk ranking.",
+        "Utility systems deserve the same treatment. A boiler feed water line, a cooling water header or an instrument air main rarely holds a flammable inventory, so a consequence model built for hydrocarbon releases scores it low. Its failure, though, can force a cascade of shutdowns across the complex, with every start-up hazard that follows. The study gives utilities a consequence category of their own, so their inspection does not sink to the bottom of the plan simply because they carry water or air."
+      ]
+    },
+    {
+      "id": "kertih-feed",
+      "h": "Condensate, gas and what the feed brings",
+      "p": [
+        "A condensate splitter separates a light, largely paraffinic liquid into naphtha, kerosene and diesel cuts, with little of the residue that drives a crude refinery's high-temperature corrosion. That does not make it benign. Condensates can carry water and salts from offshore separation, organic acids, mercaptans and other sulphur compounds, and trace metals, and their composition shifts as fields decline and new ones come on stream. The splitter's overhead system, where water condenses with chlorides and any hydrogen sulphide present, is usually where corrosion concentrates, and it is where the study asks first for feed analyses, wash water records and corrosion probe data.",
+        "The crude unit beside it brings the familiar refinery set: sulfidation in hot sections where the sulphur content justifies it, overhead corrosion, and naphthenic acid attack if acidic crudes are run. Reforming and hydrotreating add hydrogen service, chloride carried over from the reforming catalyst into downstream exchangers, and ammonium chloride deposition where temperatures allow. The assessment follows the feed the site actually processes, recorded as integrity operating windows on sulphur, acid number, chlorides and water, and names a feed outside those windows as a reassessment trigger.",
+        "Gas processing plants have feed questions of their own. Carbon dioxide and any hydrogen sulphide in wet gas drive corrosion in inlet facilities ahead of dehydration; dehydration beds swing between adsorption and hot regeneration; mercury, where the gas carries it, threatens aluminium exchangers in the low-temperature recovery sections; and those cold sections carry the brittle fracture questions of any cryogenic plant. Each depends on the gas that actually arrives, so the damage mechanism review links every inlet and treating item to the composition data the plant already monitors."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "kertih-monsoon",
+      "h": "The north-east monsoon as a planning constraint",
+      "p": [
+        "From about November to March the north-east monsoon brings Terengganu its heaviest rain and its roughest seas, with onshore winds driving spray across coastal plant. For an inspection programme that has three effects. Insulated equipment spends months in the warm, wet conditions in which corrosion under insulation is fastest. Roof drains, bunds and floating roof seals are tested by downpours that their designers may not have anticipated. And work that needs dry weather, from stripping insulation to recoating and tank entry, becomes difficult or impossible for weeks at a time.",
+        "The plan reflects all three. CUI probability for insulated items takes account of each area's monsoon exposure, with jacketing and sealing condition weighted more heavily on the seaward side of a site. Tasks that need insulation removal, coating work or tank entry are scheduled into the drier months, and each risk-based due date is shown as a latest acceptable date, so that a task falling due in January can be brought forward to the preceding dry season instead of being squeezed into the wettest weeks of the year or left overdue.",
+        "Where the owner plans major shutdowns outside the monsoon, the study aligns its plan with that turnaround cycle rather than the other way round. Items whose risk-based dates fall between shutdowns are flagged, with the option either to inspect on line with a technique that needs no shutdown or to carry the item to the next planned window with the residual risk stated. A post-monsoon walkdown list, ranked by exposure, gives the owner's inspectors a short route to the items most likely to show storm or water damage."
+      ]
+    },
+    {
+      "id": "kertih-chemicals",
+      "h": "Damage mechanisms in the chemical plants",
+      "p": [
+        "Chemical plants fed by gas products bring entries that a refinery register seldom needs. The workshops usually start from the list below and refine it against each plant's process data, materials and inspection history.",
+        "For many of these mechanisms a thickness reading says little. Cracking and embrittlement need crack-detection techniques, operating records and, for cold equipment, evidence that no excursion ever took the steel below its design temperature. The plan therefore credits past inspections only for the mechanisms they could have revealed, and relies on monitoring and operating limits where no practical inspection would find the damage in time."
+      ],
+      "list": [
+        "Carburisation, creep and thermal fatigue in cracking furnace tubes and outlet systems, driven by run length, decoking cycles and tube metal temperature records",
+        "Brittle fracture and low-temperature embrittlement in cold boxes, chilling trains, demethanisers and ethylene and propylene storage, including the threat a cold release poses to nearby carbon steel",
+        "Caustic stress corrosion cracking in caustic wash towers and spent caustic systems, where temperature and stress relief decide whether carbon steel welds are at risk",
+        "Corrosion and fouling in quench water and dilution steam systems, where organic acids and polymers concentrate",
+        "Chloride stress corrosion cracking of insulated austenitic stainless steel on hot surfaces, a standing concern on a coast that sees salt spray for months each year",
+        "Fatigue in reciprocating compressor piping and in high-pressure polymerisation equipment, where pressure cycles accumulate over years of service",
+        "Internal corrosion in glycol, aromatics and solvent systems where water, oxygen ingress or degradation products build up, assessed against the licensor's guidance as well as API 571"
+      ]
+    },
+    {
+      "id": "kertih-terminal",
+      "h": "Chemical and liquefied gas storage",
+      "p": [
+        "Dialog began Kertih Terminals in 2000 as a centralised tankage facility serving the plants around it, storing chemicals and liquefied gas. Chemical storage behaves differently from crude and fuel tankage in an RBI study. The product, not the soil, often decides floor and shell risk: some chemicals attack carbon steel, some are held in stainless steel or behind internal linings whose condition decides everything, and some need nitrogen blanketing or temperature control to stay stable. Product changes are common in a shared terminal, and a tank's corrosion history means little for products it never held.",
+        "API 653 is written for petroleum storage tanks built to API 650 or its predecessor API 12C. Terminals storing chemicals often apply it by extension, follow their own standard, or use guidance such as EEMUA 159 beside it. The study records which document governs each tank and applies only the risk-based route that document allows, rather than assuming API 653's alternative internal inspection interval is open to every tank on the site. Where linings are relied on, the plan asks for lining inspection records, holiday test results and the age of each system, and treats a lining with no inspection history as giving little protection until shown otherwise.",
+        "Liquefied gas storage, whether in spheres, bullets or refrigerated tanks, is pressure equipment or specialised cryogenic storage and is assessed as such. Pressurised vessels sit inside the DOSH certificate of fitness arrangements, and refrigerated tanks are managed through monitoring and the designer's requirements rather than through atmospheric tank practice."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "kertih-rules",
+      "h": "Several occupiers on one coastline: how the rules apply",
+      "p": [
+        "Pressure equipment at Kertih and Kemaman comes under the same federal framework as the rest of Malaysia: the amended Occupational Safety and Health Act, the 2024 regulations on plant requiring a certificate of fitness and, for occupiers approved for it, the 2025 special scheme of inspection with its RBI requirement for steam boilers and pressure vessels. Large hazardous inventories also bring the Control of Industrial Major Accident Hazards Regulations into play. The Malaysia page explains that framework in detail.",
+        "What matters at a multi-company complex is that every occupier carries its own obligations. Each plant company holds its own certificates and its own scheme status and, under a class B scheme, appoints its own risk-based team from its employees. A study commissioned by one occupier covers that occupier's equipment. Interfaces with neighbours, such as a shared pipe rack, a product line that changes hands at a battery limit or a utility supplied across the fence, are recorded with the agreement that governs each one, and a neighbour's equipment is assessed only on that neighbour's instruction, however closely the two are linked."
+      ]
+    },
+    {
+      "id": "kertih-remote",
+      "h": "Running a Kertih study remotely",
+      "p": [
+        "Terengganu keeps Malaysian time, UTC+8. The Hyderabad team starts its day as Kertih reaches mid-morning, so workshops fit the Kertih late morning and afternoon, and the Houston team, thirteen or fourteen hours behind depending on the US season, carries analysis forward while the east coast sleeps. Terengganu observes a different weekend from the west coast states, so sessions are booked on the site's own working days.",
+        "Records arrive through a data room the occupier controls, arranged by plant so that refinery, gas processing, chemical plant and terminal documents stay with the teams who know them: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, DOSH certificates, inspection and thickness history, feed analyses and the integrity operating windows. A data-gap log goes out before the first workshop, and corrosion loops are built by video with the occupier's process, operations, corrosion and inspection people, or with its risk-based team where a special scheme applies.",
+        "The study needs no travel to Terengganu. Anything that has to be seen on the plant, from cladding on the seaward side to the location of injection points and the state of tank linings, goes on a verification list for the occupier's own inspectors or its inspection contractor, sorted so that checks needing dry weather fall outside the monsoon. Their findings return to the model before the register is issued."
+      ]
+    },
+    {
+      "id": "kertih-approval",
+      "h": "Approval and the limits of the study",
+      "p": [
+        "Intervals for certified plant are decided within the DOSH system, through the occupier's approved arrangements and the persons the regulations name; for tanks and other equipment outside it, the occupier's inspection authority approves them under its own procedures. The study proposes each interval together with the reasoning behind it. Atlantis is not an inspector of record, a competent person or a plant management assessor for any Kertih or Kemaman facility.",
+        "Where inspection finds damage beyond what the construction code accepts, the decision on continued service belongs to the occupier's engineer, and the register takes in the result once it is made. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API 510, API 570 and API 653",
+    "EEMUA 159 (above-ground flat-bottomed storage tanks), where the owner applies it",
+    "Occupational Safety and Health Act 1994, as amended",
+    "Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024",
+    "Occupational Safety and Health (Special Scheme of Inspection) Regulations 2025",
+    "Occupational Safety and Health (Control of Industrial Major Accident Hazards) Regulations 1996"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops, damage mechanisms, probability, consequence and risk for each item",
+    "Inter-plant consequence tags showing what each item's loss would stop",
+    "Inspection plan per item with technique, coverage, effectiveness and latest acceptable date",
+    "Monsoon-aware task schedule and a ranked post-monsoon walkdown list",
+    "Tank-by-tank basis naming the governing document for each chemical and liquefied gas tank",
+    "Data-gap log and verification list for the occupier's inspectors",
+    "Reassessment triggers tied to feed composition and integrity operating windows"
+  ],
+  "industries": [
+    "Crude oil and condensate refining",
+    "Gas processing",
+    "Petrochemicals",
+    "Chemical tank terminals",
+    "Bitumen production"
+  ],
+  "faqs": [
+    { "q": "Why does a leak in one Kertih plant matter to the others?", "a": "Because the plants share feedstock and utilities. Ethane and propane from gas processing feed the crackers, and the crackers supply the derivative plants. An item whose failure would break that chain carries a business interruption consequence well beyond its own plant, and the study scores it that way, using the owner's production figures where they exist. The aim is that a modest-looking line on an inter-plant route does not end up with a long interval simply because its own inventory is small." },
+    { "q": "Does a condensate splitter need a different RBI approach from a crude unit?", "a": "The method is the same, but the damage mechanisms differ. Condensate carries little residue, so high-temperature sulfidation is usually a smaller driver, while overhead corrosion from water, chlorides and sulphur compounds can dominate. Composition also changes as offshore fields decline and new ones start. The study assigns mechanisms from the splitter's own feed analyses and names a change outside the integrity operating windows as a trigger to reassess." },
+    { "q": "How is the monsoon reflected in the inspection plan?", "a": "In three ways. CUI probability takes account of how exposed each area is during the north-east monsoon. Tasks that need dry weather, such as insulation removal, coating repair and tank entry, are scheduled into the drier months, with each due date shown as a latest acceptable date so the work can move earlier rather than slip. And a ranked post-monsoon walkdown list sends inspectors first to the items most likely to have taken water or storm damage." },
+    { "q": "Can RBI set intervals for chemical storage tanks?", "a": "Often, but the governing document has to be settled first. API 653 covers tanks built to API 650 or API 12C, and chemical terminals may apply it by extension, follow their own standard or use guidance such as EEMUA 159. The study records which document governs each tank and applies the risk-based route it permits. Lined tanks, and tanks that have changed product, need extra evidence before an extended interval is credible." },
+    { "q": "Our gas is treated offshore. Do we still need a damage mechanism review for the inlet?", "a": "Yes. Offshore treatment reduces water, carbon dioxide and hydrogen sulphide, but the gas reaching the inlet still varies with the field mix, and an offshore upset can send wetter or more corrosive gas ashore. The review ties inlet and dehydration equipment to the composition the plant actually measures, with operating windows on water and acid gas content, so a change shows up as a trigger rather than as a surprise at the next inspection." },
+    { "q": "We are one of several occupiers on the complex. Can the study cover a shared pipe rack?", "a": "It covers the equipment your company owns or answers for. Where a rack, line or utility system is shared, the study records the battery limits, the owner of each segment and the agreement that governs its inspection, and it assesses your segments. A neighbour's equipment is assessed only on that neighbour's instruction. Clear interface records are often the first thing an auditor asks about on a multi-company site." },
+    { "q": "Does anyone from Atlantis need to come to Kertih?", "a": "No travel is needed for the study. Documents, data and workshops are handled remotely, and anything that has to be seen on the plant goes on a verification list for your own inspectors or your inspection contractor. The list is sorted so that checks needing dry weather fall outside the monsoon months, and the findings are loaded into the assessment before the register is finalised." },
+    { "q": "Who approves the intervals the study proposes?", "a": "For certified plant, intervals are decided within the DOSH system through your approved arrangements and the persons the regulations name, and under a class B scheme your own risk-based team adopts the assessment. For tanks and other equipment outside that system, your inspection authority approves them. The study supplies a written basis for every interval, so the people deciding can see exactly how each one was reached." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/pengerang", "RBI in Pengerang, Johor"],
+    ["/inspection/risk-based-inspection/bintulu", "RBI in Bintulu, Sarawak"],
+    ["/inspection/risk-based-inspection/melaka", "RBI in Melaka"],
+    ["/inspection/risk-based-inspection/port-dickson", "RBI in Port Dickson"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/standards/api-583", "API 583 and corrosion under insulation"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Kertih refinery operated by PETRONAS Penapisan (Terengganu), owned by PETRONAS, began operations in 1983; units listed: crude distillation unit, condensate splitter, reformer, hydrotreater", "url": "https://www.offshore-technology.com/marketdata/kertih-refinery-malaysia/" },
+    { "fact": "Kerteh is a mukim in Kemaman District; base of PETRONAS operations in Terengganu; refinery started March 1983; crude oil export terminal began operating late 1983; gas processing plant began August 1984 with an LPG plant, processed gas to the Peninsular Gas Utilisation system", "url": "https://en.wikipedia.org/wiki/Kerteh" },
+    { "fact": "PETRONAS gas processing: six plants in two complexes in Terengganu, Gas Processing Kertih and Gas Processing Santong, combined feed capacity over 2,000 MMscfd; products sales gas, ethane, propane and butane", "url": "https://www.petronas.com/pgb/our-business/gas-processing" },
+    { "fact": "Kertih Integrated Petrochemical Complex (KIPC); PETRONAS Chemicals products include olefins, glycols and derivatives, aromatics, ethylene and polyethylene; specialty ethoxylates and polyether polyols plant in Kertih in commercial operation", "url": "https://www.petronas.com/pcg/our-company" },
+    { "fact": "Kertih Terminals: Dialog 30%; 41 petrochemical tanks; 400,000 cbm; five berths; chemicals and liquefied gas; project begun 2000 as a centralised tankage facility", "url": "https://www.dialogasia.com/kertih-terminal" },
+    { "fact": "Kemaman Bitumen refinery among Malaysian refineries (EIA, updated November 2024; cited on the Malaysia country page)", "url": "https://eia.gov/international/content/analysis/countries_long/malaysia" },
+    { "fact": "API 653 covers tanks built to API 650 or its predecessor API 12C (site standards page)", "url": "https://atlantisndt.com/standards/api-653" },
+    { "fact": "DOSH framework and the north-east monsoon (around November to March) as set out and sourced on the Malaysia country page", "url": "https://dosh.gov.my/wp-content/uploads/2026/01/Industry-Code-of-Practice-for-Plant-Management-System-Special-Scheme-of-Inspection-Class-B.pdf" }
+  ]
+}
