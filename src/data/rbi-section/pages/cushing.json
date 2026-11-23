@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection in Cushing",
   "intro": "Cushing is a hub of tanks rather than process units: large-diameter crude tanks, most with external floating roofs, joined by manifolds, pump stations and pipeline connections. This page is for the integrity, tank and inspection managers who look after them. It explains where risk actually sits in a Cushing crude tank, why the federal breakout tank rule decides how much a risk assessment may change, which Oklahoma and federal rules apply, how storms and earthquakes feed into the plan, and how Atlantis runs a remote RBI study for a tank farm, with US technicians available to collect the readings it needs.",
   "highlights": [
-    { "h": "Ranked tank by tank", "p": "Neighbouring tanks holding the same crude can corrode at very different rates because of water handling, sludge, mixer use, cathodic protection and foundation drainage. Each tank is assessed on its own records, so a farm-wide average never sets an individual tank's plan." },
-    { "h": "Breakout tanks sorted first", "p": "Whether a tank is a breakout tank on a pipeline system decides what a risk assessment is allowed to change. The study classifies every tank at the outset, with your compliance staff, so the plan never proposes an interval the federal rule would not accept." },
-    { "h": "Readings where records are thin", "p": "The assessment runs remotely. Where shell readings are old, annular plates have never been measured or roof pontoons have no history, Atlantis can send UT, MT, PT and VT technicians to Cushing to collect the data and feed it back into the model." }
+    {
+      "h": "Ranked tank by tank",
+      "p": "Neighbouring tanks holding the same crude can corrode at very different rates because of water handling, sludge, mixer use, cathodic protection and foundation drainage. Each tank is assessed on its own records, so a farm-wide average never sets an individual tank's plan."
+    },
+    {
+      "h": "Breakout tanks sorted first",
+      "p": "Whether a tank is a breakout tank on a pipeline system decides what a risk assessment is allowed to change. The study classifies every tank at the outset, with your compliance staff, so the plan never proposes an interval the federal rule would not accept."
+    },
+    {
+      "h": "Readings where records are thin",
+      "p": "The assessment runs remotely. Where shell readings are old, annular plates have never been measured or roof pontoons have no history, Atlantis can send UT, MT, PT and VT technicians to Cushing to collect the data and feed it back into the model."
+    }
   ],
   "sections": [
     {
@@ -25,20 +34,58 @@
         "A process-plant RBI study spreads attention across hundreds of vessels and circuits. A crude tank farm concentrates it in a handful of components that repeat tank after tank, and the bottom is almost always the largest contributor, because it cannot be seen in service and a leak goes straight into the ground. The table shows how the assessment breaks a tank down and what it needs for each part."
       ],
       "table": {
-        "head": ["Component", "Damage the assessment considers", "Records it needs"],
+        "head": [
+          "Component",
+          "Damage the assessment considers",
+          "Records it needs"
+        ],
         "rows": [
-          ["Bottom plates, product side", "Pitting under water and sediment, microbiologically influenced corrosion under sludge, general thinning", "Floor scan maps, prove-up readings, water draw and sludge history, lining records"],
-          ["Bottom plates, soil side", "Soil-side corrosion where cathodic protection is weak or the pad holds water", "Cathodic protection design and surveys, foundation type, release prevention barrier and leak detection"],
-          ["Annular plate and shell-to-bottom weld", "Corrosion at the chime, cracking from settlement and rotation at the corner joint", "Annular plate thickness readings, weld examination results, settlement surveys"],
-          ["Lower shell courses", "Internal corrosion near the water and sediment line, external corrosion at the base", "Shell thickness by course at repeatable locations, coating condition"],
-          ["External floating roof", "Pontoon leaks, deck corrosion, seal damage, blocked or leaking roof drains", "Pontoon checks, roof drain tests, seal inspection reports, past roof repairs"],
-          ["Nozzles, mixers and connected piping", "Corrosion and fatigue at nozzle reinforcement, loads from stiff manifold piping", "Nozzle inspection history, mixer maintenance, piping support and restraint records"],
-          ["Foundation", "Edge and differential settlement, ringwall cracking, washout of the pad", "Settlement surveys over time, foundation repairs, drainage observations"]
+          [
+            "Bottom plates, product side",
+            "Pitting under water and sediment, microbiologically influenced corrosion under sludge, general thinning",
+            "Floor scan maps, prove-up readings, water draw and sludge history, lining records"
+          ],
+          [
+            "Bottom plates, soil side",
+            "Soil-side corrosion where cathodic protection is weak or the pad holds water",
+            "Cathodic protection design and surveys, foundation type, release prevention barrier and leak detection"
+          ],
+          [
+            "Annular plate and shell-to-bottom weld",
+            "Corrosion at the chime, cracking from settlement and rotation at the corner joint",
+            "Annular plate thickness readings, weld examination results, settlement surveys"
+          ],
+          [
+            "Lower shell courses",
+            "Internal corrosion near the water and sediment line, external corrosion at the base",
+            "Shell thickness by course at repeatable locations, coating condition"
+          ],
+          [
+            "External floating roof",
+            "Pontoon leaks, deck corrosion, seal damage, blocked or leaking roof drains",
+            "Pontoon checks, roof drain tests, seal inspection reports, past roof repairs"
+          ],
+          [
+            "Nozzles, mixers and connected piping",
+            "Corrosion and fatigue at nozzle reinforcement, loads from stiff manifold piping",
+            "Nozzle inspection history, mixer maintenance, piping support and restraint records"
+          ],
+          [
+            "Foundation",
+            "Edge and differential settlement, ringwall cracking, washout of the pad",
+            "Settlement surveys over time, foundation repairs, drainage observations"
+          ]
         ]
       },
       "links": [
-        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks in depth"],
-        ["/api-653-tank-inspection-oklahoma", "API 653 tank inspection support in Oklahoma"]
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks in depth"
+        ],
+        [
+          "/api-653-tank-inspection-oklahoma",
+          "API 653 tank inspection support in Oklahoma"
+        ]
       ]
     },
     {
@@ -73,7 +120,10 @@
         "Lightning is the other roof risk. Rim seal fires on floating-roof crude tanks are a known hazard, and API RP 545 sets out lightning protection practice for those tanks. An RBI plan for a Cushing farm therefore treats the roof as a system with its own inspection tasks, covering pontoons, deck plates, seals, shunts, drains and supports, rather than as a footnote to the floor, and names a severe storm as an event that triggers roof and drain checks before the tank's routine schedule comes round."
       ],
       "links": [
-        ["/consulting/api-653-tank-inspector-services", "API 653 tank inspector support"]
+        [
+          "/consulting/api-653-tank-inspector-services",
+          "API 653 tank inspector support"
+        ]
       ]
     },
     {
@@ -92,7 +142,10 @@
         "OSHA's process safety standard is a different question at a crude tank farm than at a refinery. The standard exempts flammable liquids stored in atmospheric tanks and kept below their normal boiling point without chilling or refrigeration, so atmospheric crude storage that is not connected to a covered process often falls outside it. Applicability depends on the site, and pressure vessels at pump stations may also come under the Oklahoma Department of Labor's boiler and pressure vessel programme. The RBI report notes which regime governs each item so that the plan can be checked against the right rule."
       ],
       "links": [
-        ["/inspection-services-oklahoma", "NDT inspection services in Oklahoma"]
+        [
+          "/inspection-services-oklahoma",
+          "NDT inspection services in Oklahoma"
+        ]
       ]
     },
     {
@@ -103,8 +156,14 @@
         "The first workshop, held by video with your terminal operations, integrity and corrosion people, confirms the breakout tank classification and the consequence inputs for each tank. Damage mechanisms are assigned to API 571, probability and consequence are assessed at the level you choose, from a qualitative screen to API RP 581's tank methods or your company's own procedure, and each tank receives a plan: external inspection tasks, in-service shell readings, the next internal inspection date on the basis its classification allows, floor scan coverage and prove-up rules, and roof and drain checks. Workshops run in Central time, the same as Houston, and the results are returned in a form your inspection records system can load."
       ],
       "links": [
-        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
-        ["/erp/apps/asset-management", "Keeping tank inspection records"]
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ],
+        [
+          "/erp/apps/asset-management",
+          "Keeping tank inspection records"
+        ]
       ]
     },
     {
@@ -144,33 +203,109 @@
     "Gathering and pipeline stations"
   ],
   "faqs": [
-    { "q": "Is RBI worth doing on a tank farm where many tanks are breakout tanks?", "a": "Yes, although it does a different job there. Internal intervals for breakout tanks stay on measured corrosion rates under the current federal rule, but the risk ranking still decides which tank comes out next, how much of each floor is scanned, how prove-up is targeted and what each tank receives between internals. It also builds the likelihood and consequence record that PHMSA's June 2026 proposal would require if it becomes final." },
-    { "q": "How does the study treat a tank that has never had a floor scan?", "a": "It uses what is known, such as age, bottom design, cathodic protection history, service, water handling and the floor condition of similar tanks, and records the missing data as a gap with a conservative assumption in its place. That usually raises the tank's probability of failure until real data exists, and the plan says what inspection would replace the assumption." },
-    { "q": "Can RBI change which tanks we take out of service each year?", "a": "It can inform that choice. When several tanks are close to their due dates, the ranking shows which carries the most risk, taking floor condition, consequence and roof issues into account, and the out-of-service sequence can follow it within the limits of the rules and your system's capacity. The final schedule is set by your inspector and operations team." },
-    { "q": "How should earthquakes be handled in the plan?", "a": "As reassessment triggers with a defined check list. After a felt event above an agreed threshold, tanks are walked, settlement is re-read at the established points and the shell-to-bottom joint, annular plate and nozzle connections are examined where movement is suspected. Results go to your API 653 inspector and back into each tank's record." },
-    { "q": "Does OSHA's process safety standard apply to our Cushing tank farm?", "a": "Often not, but it depends on the site. The standard exempts flammable liquids stored in atmospheric tanks kept below their normal boiling point without chilling or refrigeration, so stand-alone atmospheric crude storage is frequently outside it, while tanks connected to a covered process may be inside. The RBI report notes the governing regime for each item so the plan is checked against the correct rule." },
-    { "q": "Can the study include the manifold, transfer piping and pump station equipment?", "a": "Yes. Manifold and transfer piping can be added as circuits assessed to API 570 practice, with attention to dead legs, low points where water collects, soil-to-air interfaces and supports, and pressure vessels at pump stations can be included on the API 510 side. Pipeline segments regulated under Part 195 are listed separately because their integrity management follows its own rules." },
-    { "q": "Can Atlantis technicians work at Cushing?", "a": "Yes. Atlantis can send UT, MT, PT and VT technicians for shell surveys at repeatable locations, annular plate and lower shell readings, corrosion mapping, pontoon checks, roof and seal inspection and surface examination of repaired welds. They work under your terminal's safety and permit rules, and radiographic work is left to your licensed contractor." },
-    { "q": "Who sets the next internal inspection date?", "a": "Your API 653 inspector or the operator's inspection authority. For breakout tanks the date rests on measured corrosion rates under the current federal rule; for other tanks it may use the risk-based option in API 653 within its conditions. The study recommends a date and shows its basis, but it does not approve it." }
+    {
+      "q": "Is RBI worth doing on a tank farm where many tanks are breakout tanks?",
+      "a": "Yes, although it does a different job there. Internal intervals for breakout tanks stay on measured corrosion rates under the current federal rule, but the risk ranking still decides which tank comes out next, how much of each floor is scanned, how prove-up is targeted and what each tank receives between internals. It also builds the likelihood and consequence record that PHMSA's June 2026 proposal would require if it becomes final."
+    },
+    {
+      "q": "How does the study treat a tank that has never had a floor scan?",
+      "a": "It uses what is known, such as age, bottom design, cathodic protection history, service, water handling and the floor condition of similar tanks, and records the missing data as a gap with a conservative assumption in its place. That usually raises the tank's probability of failure until real data exists, and the plan says what inspection would replace the assumption."
+    },
+    {
+      "q": "Can RBI change which tanks we take out of service each year?",
+      "a": "It can inform that choice. When several tanks are close to their due dates, the ranking shows which carries the most risk, taking floor condition, consequence and roof issues into account, and the out-of-service sequence can follow it within the limits of the rules and your system's capacity. The final schedule is set by your inspector and operations team."
+    },
+    {
+      "q": "How should earthquakes be handled in the plan?",
+      "a": "As reassessment triggers with a defined check list. After a felt event above an agreed threshold, tanks are walked, settlement is re-read at the established points and the shell-to-bottom joint, annular plate and nozzle connections are examined where movement is suspected. Results go to your API 653 inspector and back into each tank's record."
+    },
+    {
+      "q": "Does OSHA's process safety standard apply to our Cushing tank farm?",
+      "a": "Often not, but it depends on the site. The standard exempts flammable liquids stored in atmospheric tanks kept below their normal boiling point without chilling or refrigeration, so stand-alone atmospheric crude storage is frequently outside it, while tanks connected to a covered process may be inside. The RBI report notes the governing regime for each item so the plan is checked against the correct rule."
+    },
+    {
+      "q": "Can the study include the manifold, transfer piping and pump station equipment?",
+      "a": "Yes. Manifold and transfer piping can be added as circuits assessed to API 570 practice, with attention to dead legs, low points where water collects, soil-to-air interfaces and supports, and pressure vessels at pump stations can be included on the API 510 side. Pipeline segments regulated under Part 195 are listed separately because their integrity management follows its own rules."
+    },
+    {
+      "q": "Can Atlantis technicians work at Cushing?",
+      "a": "Yes. Atlantis can send UT, MT, PT and VT technicians for shell surveys at repeatable locations, annular plate and lower shell readings, corrosion mapping, pontoon checks, roof and seal inspection and surface examination of repaired welds. They work under your terminal's safety and permit rules, and radiographic work is left to your licensed contractor."
+    },
+    {
+      "q": "Who sets the next internal inspection date?",
+      "a": "Your API 653 inspector or the operator's inspection authority. For breakout tanks the date rests on measured corrosion rates under the current federal rule; for other tanks it may use the risk-based option in API 653 within its conditions. The study recommends a date and shows its basis, but it does not approve it."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
-    ["/inspection/risk-based-inspection/houston", "RBI in Houston and the Ship Channel"],
-    ["/inspection/risk-based-inspection/corpus-christi", "RBI in Corpus Christi"],
-    ["/api-653-tank-inspection-oklahoma", "API 653 tank inspection support in Oklahoma"],
-    ["/inspection/tank-inspection-services-tulsa", "Tank inspection in Tulsa"],
-    ["/ultrasonic-testing-tulsa", "Ultrasonic testing in Tulsa"],
-    ["/standards/api-653", "API 653 explained"],
-    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspector support"],
-    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
-    ["/corrosion-mapping", "Corrosion mapping"],
-    ["/contact", "Contact Atlantis"]
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/houston",
+      "RBI in Houston and the Ship Channel"
+    ],
+    [
+      "/inspection/risk-based-inspection/corpus-christi",
+      "RBI in Corpus Christi"
+    ],
+    [
+      "/api-653-tank-inspection-oklahoma",
+      "API 653 tank inspection support in Oklahoma"
+    ],
+    [
+      "/inspection/tank-inspection-services-tulsa",
+      "Tank inspection in Tulsa"
+    ],
+    [
+      "/ultrasonic-testing-tulsa",
+      "Ultrasonic testing in Tulsa"
+    ],
+    [
+      "/standards/api-653",
+      "API 653 explained"
+    ],
+    [
+      "/consulting/api-653-tank-inspector-services",
+      "API 653 tank inspector support"
+    ],
+    [
+      "/tools/api-inspection-interval-calculator",
+      "API inspection interval calculator"
+    ],
+    [
+      "/corrosion-mapping",
+      "Corrosion mapping"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
   ],
   "sources": [
-    { "fact": "EIA Today in Energy, July 16 2026: Cushing crude stocks below 20 million barrels from week ending June 19 to week ending July 10 2026; tank bottoms explainer", "url": "https://www.eia.gov/todayinenergy/detail.php?id=67866" },
-    { "fact": "16 tank storage terminals listed at Cushing (November 2023)", "url": "https://tankterminals.com/news/cushing-16-tank-storage-terminals-listed-in-tankterminals-com/" },
-    { "fact": "Cushing in Payne County; dozens of pipelines converge from Oklahoma, Permian, Rockies, Canada; large crude tanks mostly external floating roofs operated by several midstream companies; many Cushing tanks are breakout tanks; jurisdiction depends on connection and operation; OAC 165:26 (PSTD) lists API 653 and requires SPCC; E&P tanks excluded; Nov 2016 earthquake near Cushing; typical floating roof findings", "url": "https://atlantisndt.com/api-653-tank-inspection-oklahoma" },
-    { "fact": "OCC Pipeline Safety Department intrastate; PHMSA interstate; Oklahoma Department of Labor boiler and pressure vessel programme; Oklahoma weather (storms, ice, heat); NYMEX WTI delivery point", "url": "https://atlantisndt.com/inspection-services-oklahoma" },
-    { "fact": "49 CFR 195.432 applies API 653 to breakout tanks but excludes its risk-based alternative internal interval; PHMSA June 2 2026 proposal not final", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" }
+    {
+      "fact": "EIA Today in Energy, July 16 2026: Cushing crude stocks below 20 million barrels from week ending June 19 to week ending July 10 2026; tank bottoms explainer",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67866"
+    },
+    {
+      "fact": "16 tank storage terminals listed at Cushing (November 2023)",
+      "url": "https://tankterminals.com/news/cushing-16-tank-storage-terminals-listed-in-tankterminals-com/"
+    },
+    {
+      "fact": "Cushing in Payne County; dozens of pipelines converge from Oklahoma, Permian, Rockies, Canada; large crude tanks mostly external floating roofs operated by several midstream companies; many Cushing tanks are breakout tanks; jurisdiction depends on connection and operation; OAC 165:26 (PSTD) lists API 653 and requires SPCC; E&P tanks excluded; Nov 2016 earthquake near Cushing; typical floating roof findings",
+      "url": "https://atlantisndt.com/api-653-tank-inspection-oklahoma"
+    },
+    {
+      "fact": "OCC Pipeline Safety Department intrastate; PHMSA interstate; Oklahoma Department of Labor boiler and pressure vessel programme; Oklahoma weather (storms, ice, heat); NYMEX WTI delivery point",
+      "url": "https://atlantisndt.com/inspection-services-oklahoma"
+    },
+    {
+      "fact": "49 CFR 195.432 applies API 653 to breakout tanks but excludes its risk-based alternative internal interval; PHMSA June 2 2026 proposal not final",
+      "url": "https://www.law.cornell.edu/cfr/text/49/195.432"
+    },
+    {
+      "fact": "Reviewer check 2026-11-23: the June 2 2026 PHMSA breakout tank document is an NPRM (docket PHMSA-2025-1271, RIN 2137-AG22), comments closed August 3 2026; no final rule found",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-02/html/2026-10969.htm"
+    }
   ]
 }

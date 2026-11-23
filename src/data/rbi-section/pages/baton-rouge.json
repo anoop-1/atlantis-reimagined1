@@ -5,33 +5,79 @@
   "eyebrow": "Risk-based inspection in Baton Rouge",
   "intro": "This page is for inspection, reliability and mechanical integrity leads at refineries, chemical complexes and liquid bulk terminals on the lower Mississippi. Within a short drive of each other sit a refinery and chemical complex at Baton Rouge, chlor-alkali, vinyls, isocyanate and industrial gas plants at Plaquemine and Geismar, a nitrogen complex at Donaldsonville, refineries at Garyville, Norco, Meraux and Chalmette, and tank terminals on both banks. It explains what drives risk on this stretch of river, which rules shape the intervals, and how Atlantis runs an RBI study remotely from your data, with US technicians available to collect missing readings.",
   "highlights": [
-    { "h": "Loops drawn per chemistry", "p": "Units on the corridor range from crude distillation to chlorine, caustic, acids, ammonia and isocyanates. The damage mechanism review is written for each process, so a corrosion loop in a nitrogen or chlor-alkali plant is never screened with a refinery's default damage list." },
-    { "h": "Tank floors on delta soil", "p": "River terminals and refinery tank fields stand on fine, wet alluvial ground with a high water table. Soil-side corrosion, cathodic protection history and settlement records are treated as first-order inputs to each tank's assessment rather than footnotes in an appendix." },
-    { "h": "US technicians for missing data", "p": "The assessment itself runs remotely. Where readings are missing or out of date, Atlantis can send UT, MT, PT and VT technicians to Louisiana sites for thickness surveys, corrosion mapping and weld examination, and the results are folded straight into the model." }
+    {
+      "h": "Loops drawn per chemistry",
+      "p": "Units on the corridor range from crude distillation to chlorine, caustic, acids, ammonia and isocyanates. The damage mechanism review is written for each process, so a corrosion loop in a nitrogen or chlor-alkali plant is never screened with a refinery's default damage list."
+    },
+    {
+      "h": "Tank floors on delta soil",
+      "p": "River terminals and refinery tank fields stand on fine, wet alluvial ground with a high water table. Soil-side corrosion, cathodic protection history and settlement records are treated as first-order inputs to each tank's assessment rather than footnotes in an appendix."
+    },
+    {
+      "h": "US technicians for missing data",
+      "p": "The assessment itself runs remotely. Where readings are missing or out of date, Atlantis can send UT, MT, PT and VT technicians to Louisiana sites for thickness surveys, corrosion mapping and weld examination, and the results are folded straight into the model."
+    }
   ],
   "sections": [
     {
       "id": "river-corridor-facilities",
       "h": "From Baton Rouge to Chalmette: what the corridor holds",
       "p": [
-        "The industrial river runs from Baton Rouge downstream past New Orleans into St. Bernard Parish, and most of it sits on the narrow band of higher ground between the levee and the low land behind it. At the upstream end, ExxonMobil's Baton Rouge refinery, founded by Standard Oil in 1909 and listed by RBN Energy at about 546,000 barrels a day, runs beside an integrated chemical plant, and Placid Refining operates across the river at Port Allen. Downstream, Marathon's Garyville refinery, listed by RBN at about 627,000 barrels a day, is one of the largest in the country; at Norco, Valero runs a refinery next to Shell's manufacturing site; and below New Orleans, Valero's Meraux refinery and PBF Energy's Chalmette refinery close the chain.",
-        "Between the refineries, the chemical industry fills the bank. The Plaquemine corridor in Iberville Parish carries Dow, Shintech and Westlake; the Geismar cluster in Ascension Parish carries BASF, Shell Chemical, Rubicon, Methanex, Honeywell, Air Products and Air Liquide; and CF Industries runs its nitrogen complex at Donaldsonville. The Port of Greater Baton Rouge, the farthest-inland deepwater port on the river, and the Port of South Louisiana, which stretches 54 miles between New Orleans and Baton Rouge, add liquid bulk terminals and barge-fed tank farms. An RBI programme here often has to cover a refinery, a chemical plant and a terminal under one owner's procedure, each with a very different damage picture."
+        "The industrial river runs from Baton Rouge downstream past New Orleans into St. Bernard Parish, and most of it sits on the narrow band of higher ground between the levee and the low land behind it. At the upstream end, ExxonMobil's Baton Rouge refinery, founded by Standard Oil in 1909 and rated at more than half a million barrels a day of crude capacity, runs beside an integrated chemical plant, and Placid Refining operates across the river at Port Allen. Downstream, Marathon's Garyville refinery, also above half a million barrels a day, is one of the largest in the country; at Norco, Valero runs a refinery next to Shell's manufacturing site; and below New Orleans, Valero's Meraux refinery and PBF Energy's Chalmette refinery close the chain.",
+        "Between the refineries, the chemical industry fills the bank. The Plaquemine corridor in Iberville Parish carries Dow, Shintech and Westlake; the Geismar cluster in Ascension Parish carries BASF, Shell Chemical, Rubicon, Methanex, Air Products and Air Liquide, among others; and CF Industries runs its nitrogen complex at Donaldsonville. The Port of Greater Baton Rouge, the farthest-inland deepwater port on the river, and the Port of South Louisiana, which stretches 54 miles between New Orleans and Baton Rouge, add liquid bulk terminals and barge-fed tank farms. An RBI programme here often has to cover a refinery, a chemical plant and a terminal under one owner's procedure, each with a very different damage picture."
       ],
       "table": {
-        "head": ["Stretch of river", "Equipment usually in an RBI scope", "Mechanisms that tend to rank highest"],
+        "head": [
+          "Stretch of river",
+          "Equipment usually in an RBI scope",
+          "Mechanisms that tend to rank highest"
+        ],
         "rows": [
-          ["Baton Rouge and Port Allen", "Crude, vacuum and conversion units, integrated olefins and polymer units, refinery tank fields", "High-temperature sulfidation, sour water and amine corrosion, CUI on long insulated runs"],
-          ["Plaquemine and Geismar", "Chlor-alkali, vinyls, isocyanates, methanol and industrial gas plants", "Wet chlorine and hydrochloric acid corrosion, caustic cracking, chloride cracking of stainless steel, lining failure"],
-          ["Donaldsonville", "Ammonia, urea and nitric acid units, refrigerated and pressurised ammonia storage", "Ammonia stress corrosion cracking, carbamate and nitric acid corrosion, CUI on cold and cycling lines"],
-          ["Garyville and Norco", "Very large refinery units, cracker and chemical units, crude and product tanks", "Hydroprocessing effluent corrosion, high temperature hydrogen attack screening, CUI"],
-          ["Meraux and Chalmette", "Refinery units, dock lines and tank farms below New Orleans", "Humid, marine-influenced atmospheric corrosion, flood and surge exposure, floor corrosion"],
-          ["River terminals on both banks", "Crude, product and chemical tanks, dock and transfer piping, loading arms", "Soil-side floor corrosion, water bottoms and sludge, external corrosion of dock piping"]
+          [
+            "Baton Rouge and Port Allen",
+            "Crude, vacuum and conversion units, integrated olefins and polymer units, refinery tank fields",
+            "High-temperature sulfidation, sour water and amine corrosion, CUI on long insulated runs"
+          ],
+          [
+            "Plaquemine and Geismar",
+            "Chlor-alkali, vinyls, isocyanates, methanol and industrial gas plants",
+            "Wet chlorine and hydrochloric acid corrosion, caustic cracking, chloride cracking of stainless steel, lining failure"
+          ],
+          [
+            "Donaldsonville",
+            "Ammonia, urea and nitric acid units, refrigerated and pressurised ammonia storage",
+            "Ammonia stress corrosion cracking, carbamate and nitric acid corrosion, CUI on cold and cycling lines"
+          ],
+          [
+            "Garyville and Norco",
+            "Very large refinery units, cracker and chemical units, crude and product tanks",
+            "Hydroprocessing effluent corrosion, high temperature hydrogen attack screening, CUI"
+          ],
+          [
+            "Meraux and Chalmette",
+            "Refinery units, dock lines and tank farms below New Orleans",
+            "Humid, marine-influenced atmospheric corrosion, flood and surge exposure, floor corrosion"
+          ],
+          [
+            "River terminals on both banks",
+            "Crude, product and chemical tanks, dock and transfer piping, loading arms",
+            "Soil-side floor corrosion, water bottoms and sludge, external corrosion of dock piping"
+          ]
         ]
       },
       "links": [
-        ["/api-653-tank-inspection-baton-rouge", "API 653 tank inspection around Baton Rouge"],
-        ["/inspection/pressure-vessel-inspection-services-baton-rouge", "Pressure vessel inspection in Baton Rouge"],
-        ["/inspection/piping-inspection-services-new-orleans", "Piping inspection in New Orleans"]
+        [
+          "/api-653-tank-inspection-baton-rouge",
+          "API 653 tank inspection around Baton Rouge"
+        ],
+        [
+          "/inspection/pressure-vessel-inspection-services-baton-rouge",
+          "Pressure vessel inspection in Baton Rouge"
+        ],
+        [
+          "/inspection/piping-inspection-services-new-orleans",
+          "Piping inspection in New Orleans"
+        ]
       ]
     },
     {
@@ -58,8 +104,14 @@
         "The larger refineries on this stretch run extensive hydroprocessing, so hydrogen service is a standing part of the scope. Reactor effluent trains are screened for ammonium bisulfide and ammonium chloride corrosion using the process data that governs them, such as bisulfide concentration, wash water rate and velocity; carbon and low-alloy steel in hydrogen service is screened for high temperature hydrogen attack against API RP 941; and FCC, alkylation and reformer equipment carries its own mechanisms. The ranked list that comes out names the items that thickness monitoring cannot protect, because their damage is cracking or attack rather than thinning, and assigns them inspection capable of finding it."
       ],
       "links": [
-        ["/standards/api-571", "API 571 damage mechanisms"],
-        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"]
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
       ]
     },
     {
@@ -93,8 +145,14 @@
         "Two federal boundaries matter for tanks and docks. Tanks that serve as breakout tanks on a hazardous liquid pipeline answer to PHMSA, whose current rule keeps their internal intervals on a measured-corrosion basis rather than a risk ranking. Waterfront facilities that transfer oil or hazardous materials in bulk to and from vessels fall under Coast Guard rules for marine transfer facilities, which carry their own equipment testing requirements. The RBI report lists the items governed by each regime separately, so the plan never proposes an interval that another rule overrides."
       ],
       "links": [
-        ["/inspection/risk-based-inspection/lake-charles", "Louisiana boiler law on the Lake Charles page"],
-        ["/api-510-pressure-vessel-inspection-louisiana", "API 510 vessel inspection support in Louisiana"]
+        [
+          "/inspection/risk-based-inspection/lake-charles",
+          "Louisiana boiler law on the Lake Charles page"
+        ],
+        [
+          "/api-510-pressure-vessel-inspection-louisiana",
+          "API 510 vessel inspection support in Louisiana"
+        ]
       ]
     },
     {
@@ -144,35 +202,121 @@
     "Pipeline breakout tank farms"
   ],
   "faqs": [
-    { "q": "Can one RBI study cover a refinery, its chemical neighbour and a shared dock?", "a": "Yes, if the scope boundary is drawn carefully. Where lines cross a fence or change owner, we agree item by item who holds the record and whose procedure applies, then assess each item once. The report can be split by owner or by site afterwards, so each operator receives its own register and plan while shared interfaces, such as dock lines and transfer piping, are neither missed nor counted twice." },
-    { "q": "How do you handle lined and non-metallic equipment in chemical service?", "a": "It gets its own inspection strategy. A thickness grid tells you little about a rubber, glass or fluoropolymer lining or a fibre-reinforced plastic vessel, so the plan relies on internal visual examination, holiday or spark testing of linings where the owner's procedure allows, and the history of lining repairs. Probability of failure is tied to lining age, service and past findings, and the plan states plainly where only an internal entry can confirm condition." },
-    { "q": "Does the river's high water change the inspection plan?", "a": "It can. Docks, dock piping, pumps and other equipment on the river side of the levee may be flooded during spring high water, and saturated ground affects foundations behind it. The plan flags those items, lists checks to make once the water drops and treats a significant high-water event as a reassessment trigger. Timing matters too, because dock work is easier to schedule outside the high-water season." },
-    { "q": "Our crude slate changes often. How does the model keep up?", "a": "By naming the crude properties that drive each damage rate and treating changes beyond agreed limits as reassessment triggers. Sulfur, acid number, chloride after desalting and solids are the usual ones. Integrity operating windows built to API RP 584 can carry those limits, so an excursion is caught by operations and passed to inspection rather than discovered at the next turnaround." },
-    { "q": "Are the tanks at our river terminal breakout tanks?", "a": "That depends on how each tank is connected and used, not on the terminal as a whole. A tank that relieves surges or receives and stores product for reinjection into a pipeline system is normally a breakout tank under federal pipeline rules, while a tank that stores product for marine loading or local distribution may not be. The classification decides whether a risk-based internal interval can be used, so the study confirms it tank by tank with whoever handles pipeline compliance at your company." },
-    { "q": "Can Atlantis send technicians to Geismar, Plaquemine or Garyville?", "a": "Yes. The assessment is remote, but Atlantis can send UT, MT, PT and VT technicians to Louisiana sites to take baseline thickness readings, map corrosion where insulation has been stripped and examine welds in cracking service. They work under your site's safety and permit system and their results go straight into the model. Radiographic work stays with your own licensed radiography contractor." },
-    { "q": "Which damage mechanisms usually rank highest in Geismar and Plaquemine chemical plants?", "a": "Wet chlorine and hydrochloric acid corrosion, caustic stress corrosion cracking, chloride cracking of stainless steel, pitting under deposits and lining failures are common leaders, with toxic consequence lifting the risk of small connections. The exact list depends on each process, so the study builds loops from your process chemistry, materials and operating history rather than from a generic chemical-plant template." },
-    { "q": "Who approves the intervals, and what happens if damage is found?", "a": "Your inspector of record approves them; the study only recommends. If inspection finds damage that needs a judgement on continued operation, your engineer makes that fitness-for-service decision, and the RBI model is then updated with what was found so that the next plan starts from measured condition instead of a prediction." }
+    {
+      "q": "Can one RBI study cover a refinery, its chemical neighbour and a shared dock?",
+      "a": "Yes, if the scope boundary is drawn carefully. Where lines cross a fence or change owner, we agree item by item who holds the record and whose procedure applies, then assess each item once. The report can be split by owner or by site afterwards, so each operator receives its own register and plan while shared interfaces, such as dock lines and transfer piping, are neither missed nor counted twice."
+    },
+    {
+      "q": "How do you handle lined and non-metallic equipment in chemical service?",
+      "a": "It gets its own inspection strategy. A thickness grid tells you little about a rubber, glass or fluoropolymer lining or a fibre-reinforced plastic vessel, so the plan relies on internal visual examination, holiday or spark testing of linings where the owner's procedure allows, and the history of lining repairs. Probability of failure is tied to lining age, service and past findings, and the plan states plainly where only an internal entry can confirm condition."
+    },
+    {
+      "q": "Does the river's high water change the inspection plan?",
+      "a": "It can. Docks, dock piping, pumps and other equipment on the river side of the levee may be flooded during spring high water, and saturated ground affects foundations behind it. The plan flags those items, lists checks to make once the water drops and treats a significant high-water event as a reassessment trigger. Timing matters too, because dock work is easier to schedule outside the high-water season."
+    },
+    {
+      "q": "Our crude slate changes often. How does the model keep up?",
+      "a": "By naming the crude properties that drive each damage rate and treating changes beyond agreed limits as reassessment triggers. Sulfur, acid number, chloride after desalting and solids are the usual ones. Integrity operating windows built to API RP 584 can carry those limits, so an excursion is caught by operations and passed to inspection rather than discovered at the next turnaround."
+    },
+    {
+      "q": "Are the tanks at our river terminal breakout tanks?",
+      "a": "That depends on how each tank is connected and used, not on the terminal as a whole. A tank that relieves surges or receives and stores product for reinjection into a pipeline system is normally a breakout tank under federal pipeline rules, while a tank that stores product for marine loading or local distribution may not be. The classification decides whether a risk-based internal interval can be used, so the study confirms it tank by tank with whoever handles pipeline compliance at your company."
+    },
+    {
+      "q": "Can Atlantis send technicians to Geismar, Plaquemine or Garyville?",
+      "a": "Yes. The assessment is remote, but Atlantis can send UT, MT, PT and VT technicians to Louisiana sites to take baseline thickness readings, map corrosion where insulation has been stripped and examine welds in cracking service. They work under your site's safety and permit system and their results go straight into the model. Radiographic work stays with your own licensed radiography contractor."
+    },
+    {
+      "q": "Which damage mechanisms usually rank highest in Geismar and Plaquemine chemical plants?",
+      "a": "Wet chlorine and hydrochloric acid corrosion, caustic stress corrosion cracking, chloride cracking of stainless steel, pitting under deposits and lining failures are common leaders, with toxic consequence lifting the risk of small connections. The exact list depends on each process, so the study builds loops from your process chemistry, materials and operating history rather than from a generic chemical-plant template."
+    },
+    {
+      "q": "Who approves the intervals, and what happens if damage is found?",
+      "a": "Your inspector of record approves them; the study only recommends. If inspection finds damage that needs a judgement on continued operation, your engineer makes that fitness-for-service decision, and the RBI model is then updated with what was found so that the next plan starts from measured condition instead of a prediction."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection/lake-charles", "RBI in Lake Charles"],
-    ["/inspection/risk-based-inspection/houston", "RBI in Houston and the Ship Channel"],
-    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
-    ["/api-653-tank-inspection-baton-rouge", "API 653 tank inspection around Baton Rouge"],
-    ["/inspection/third-party-inspection-baton-rouge", "Third-party inspection in Baton Rouge"],
-    ["/ultrasonic-testing-baton-rouge", "Ultrasonic testing in Baton Rouge"],
-    ["/api-570-piping-inspection-louisiana", "API 570 piping inspection support in Louisiana"],
-    ["/standards/api-584", "API 584 integrity operating windows"],
-    ["/corrosion-mapping", "Corrosion mapping"],
-    ["/contact", "Contact Atlantis"]
+    [
+      "/inspection/risk-based-inspection/lake-charles",
+      "RBI in Lake Charles"
+    ],
+    [
+      "/inspection/risk-based-inspection/houston",
+      "RBI in Houston and the Ship Channel"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review and corrosion loops"
+    ],
+    [
+      "/api-653-tank-inspection-baton-rouge",
+      "API 653 tank inspection around Baton Rouge"
+    ],
+    [
+      "/inspection/third-party-inspection-baton-rouge",
+      "Third-party inspection in Baton Rouge"
+    ],
+    [
+      "/ultrasonic-testing-baton-rouge",
+      "Ultrasonic testing in Baton Rouge"
+    ],
+    [
+      "/api-570-piping-inspection-louisiana",
+      "API 570 piping inspection support in Louisiana"
+    ],
+    [
+      "/standards/api-584",
+      "API 584 integrity operating windows"
+    ],
+    [
+      "/corrosion-mapping",
+      "Corrosion mapping"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
   ],
   "sources": [
-    { "fact": "Louisiana operating refineries 2024/2025: Chalmette Refining (Chalmette), ExxonMobil (Baton Rouge), Marathon (Garyville), Shell (Norco) and Shell Chemical Norco, Placid (Port Allen), Valero (Meraux), Valero (Norco)", "url": "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf" },
-    { "fact": "RBN 2026: Marathon Garyville 627 Mb/d; ExxonMobil Baton Rouge 546 Mb/d; Valero Norco 235 Mb/d", "url": "https://rbnenergy.com/sites/default/files/2026-07/RBN-Novi_DDR_LARefineries_260731_Preview.pdf" },
-    { "fact": "PBF Energy operates the Chalmette refinery outside New Orleans", "url": "https://www.pbfenergy.com/refineries/" },
-    { "fact": "ExxonMobil Baton Rouge founded by Standard Oil in 1909; OSFM Boiler Inspection Section under LAC Title 55 Part V Chapter 50", "url": "https://atlantisndt.com/inspection/third-party-inspection-baton-rouge" },
-    { "fact": "Geismar cluster (BASF, Shell Chemical, Rubicon, Methanex, Honeywell, Air Products, Air Liquide); Plaquemine (Dow, Shintech, Westlake); Port of Greater Baton Rouge farthest-inland deepwater port; LDEQ degassing; Louisiana LPG Commission", "url": "https://atlantisndt.com/api-653-tank-inspection-baton-rouge" },
-    { "fact": "CF Industries Donaldsonville nitrogen complex; river stage and fog affect dock access; federal OSHA in Louisiana", "url": "https://atlantisndt.com/inspection-services-louisiana" },
-    { "fact": "Port of South Louisiana 54 miles between New Orleans and Baton Rouge; high water table and fine delta soils drive soil-side floor corrosion", "url": "https://atlantisndt.com/inspection/tank-inspection-services-baton-rouge" },
-    { "fact": "49 CFR 195.432 excludes the API 653 risk-based internal interval for breakout tanks", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" }
+    {
+      "fact": "Louisiana operating refineries 2024/2025: Chalmette Refining (Chalmette), ExxonMobil (Baton Rouge), Marathon (Garyville), Shell (Norco) and Shell Chemical Norco, Placid (Port Allen), Valero (Meraux), Valero (Norco)",
+      "url": "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf"
+    },
+    {
+      "fact": "RBN 2026: Marathon Garyville 627 Mb/d; ExxonMobil Baton Rouge 546 Mb/d; Valero Norco 235 Mb/d (reviewer 2026-11-23: RBN figures not independently verified; page generalised to 'more than half a million barrels a day' for both refineries)",
+      "url": "https://rbnenergy.com/sites/default/files/2026-07/RBN-Novi_DDR_LARefineries_260731_Preview.pdf"
+    },
+    {
+      "fact": "PBF Energy operates the Chalmette refinery outside New Orleans",
+      "url": "https://www.pbfenergy.com/refineries/"
+    },
+    {
+      "fact": "ExxonMobil Baton Rouge founded by Standard Oil in 1909; OSFM Boiler Inspection Section under LAC Title 55 Part V Chapter 50",
+      "url": "https://atlantisndt.com/inspection/third-party-inspection-baton-rouge"
+    },
+    {
+      "fact": "Geismar cluster (BASF, Shell Chemical, Rubicon, Methanex, Air Products, Air Liquide (reviewer 2026-11-23: Honeywell removed from the page because Honeywell spun off its Advanced Materials business as Solstice Advanced Materials in October 2025; the current owner name of the Geismar fluorochemicals plant was not verified)); Plaquemine (Dow, Shintech, Westlake); Port of Greater Baton Rouge farthest-inland deepwater port; LDEQ degassing; Louisiana LPG Commission",
+      "url": "https://atlantisndt.com/api-653-tank-inspection-baton-rouge"
+    },
+    {
+      "fact": "CF Industries Donaldsonville nitrogen complex; river stage and fog affect dock access; federal OSHA in Louisiana",
+      "url": "https://atlantisndt.com/inspection-services-louisiana"
+    },
+    {
+      "fact": "Port of South Louisiana 54 miles between New Orleans and Baton Rouge; high water table and fine delta soils drive soil-side floor corrosion",
+      "url": "https://atlantisndt.com/inspection/tank-inspection-services-baton-rouge"
+    },
+    {
+      "fact": "49 CFR 195.432 excludes the API 653 risk-based internal interval for breakout tanks",
+      "url": "https://www.law.cornell.edu/cfr/text/49/195.432"
+    },
+    {
+      "fact": "Honeywell completed the spin-off of Solstice Advanced Materials in October 2025",
+      "url": "https://www.honeywell.com/us/en/press/2025/10/honeywell-completes-spin-off-of-solstice-advanced-materials"
+    },
+    {
+      "fact": "PHMSA breakout tank proposal is an NPRM of June 2 2026 (comments closed August 3 2026); 49 CFR 195.3 still incorporates the API 653 3rd edition; no final rule found at review (2026-11-23)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-02/html/2026-10969.htm"
+    }
   ]
 }

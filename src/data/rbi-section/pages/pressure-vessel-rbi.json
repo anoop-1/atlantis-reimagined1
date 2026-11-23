@@ -5,16 +5,25 @@
   "eyebrow": "Risk-based inspection",
   "intro": "For inspection and reliability engineers who decide which vessels open at the next turnaround and which can be inspected from the outside while running. This page sets out what API 510 lets a risk-based assessment change, the conditions under which an on-stream inspection can replace an internal one, why a heat exchanger has to be split into shell, channel and bundle, how inspection methods are matched to each damage mechanism, and how Atlantis runs a vessel and exchanger RBI study remotely from your records.",
   "highlights": [
-    { "h": "Internal or on-stream, decided per vessel", "p": "Whether a vessel must be opened depends on what is damaging it and whether that damage can be measured from outside. The study answers that vessel by vessel, with the method and coverage an on-stream inspection would need to be a genuine substitute." },
-    { "h": "Exchangers split into their parts", "p": "Shell, channel and tube bundle fail in different ways with different consequences. Treating an exchanger as one item hides the bundle that leaks every other run behind a shell that has barely corroded in twenty years of service." },
-    { "h": "Turnaround scope you can defend", "p": "The plan tells you which vessels need entry, which can be checked before the shutdown and which carry low enough risk to wait, with the reasoning written down for your inspector, your engineers and anyone who audits the decision later." }
+    {
+      "h": "Internal or on-stream, decided per vessel",
+      "p": "Whether a vessel must be opened depends on what is damaging it and whether that damage can be measured from outside. The study answers that vessel by vessel, with the method and coverage an on-stream inspection would need to be a genuine substitute."
+    },
+    {
+      "h": "Exchangers split into their parts",
+      "p": "Shell, channel and tube bundle fail in different ways with different consequences. Treating an exchanger as one item hides the bundle that leaks every other run behind a shell that has barely corroded in twenty years of service."
+    },
+    {
+      "h": "Turnaround scope you can defend",
+      "p": "The plan tells you which vessels need entry, which can be checked before the shutdown and which carry low enough risk to wait, with the reasoning written down for your inspector, your engineers and anyone who audits the decision later."
+    }
   ],
   "sections": [
     {
       "id": "api-510-rules",
       "h": "What API 510 allows an RBI assessment to change",
       "p": [
-        "API 510 (eleventh edition, October 2022, with errata in 2023 and 2025) sets default limits for in-service vessels: the internal or on-stream inspection interval is the lesser of half the remaining life or 10 years, and the external visual interval is the lesser of five years or the internal or on-stream interval. Each of those limits applies unless a risk-based assessment justifies something different, and an RBI assessment can set the internal, on-stream and external intervals, including intervals beyond the default caps.",
+        "API 510 (eleventh edition, October 2022) sets default limits for in-service vessels: the internal or on-stream inspection interval is the lesser of half the remaining life or 10 years, and the external visual interval is the lesser of five years or the internal or on-stream interval. Each of those limits applies unless a risk-based assessment justifies something different, and an RBI assessment can set the internal, on-stream and external intervals, including intervals beyond the default caps.",
         "That freedom carries a condition. Where an RBI-based internal or on-stream interval runs past the 10-year limit, the code requires the RBI assessment itself to be reviewed and approved by the engineer and the inspector on a fixed maximum cycle, which was 10 years in the editions we reviewed, and sooner if process, equipment or consequence changes warrant it. A vessel interval that outlives its supporting assessment has lost its basis.",
         "Vessels rarely stand alone in a study. Pressure relief devices protecting them can be brought into the same programme, since API RP 581 includes a method for relief devices, and the exchangers in the unit are usually assessed in the same workshops because they share the corrosion loops."
       ]
@@ -23,18 +32,46 @@
       "id": "on-stream-vs-internal",
       "h": "When an on-stream inspection can replace an internal one",
       "p": [
-        "API 510 allows an on-stream inspection to substitute for the internal inspection when its conditions are met. In the version we checked, these include a general corrosion rate below 0.005 in/yr (0.125 mm/yr), a remaining life above 10 years, a corrosive character established by mild service or several years of comparable operation, no suspected environmental cracking or high-temperature hydrogen attack, no internal components or linings that would stop external scanning from seeing the damage, and the inspector's approval. Where the remaining life is 10 years or less, a narrower route exists if the service history is established, the examination can fully characterise the damage (for example high-density automated ultrasonic scanning) and both inspector and engineer approve. Confirm the clause wording in the edition you work to.",
+        "API 510 allows an on-stream inspection to substitute for the internal inspection when its conditions are met. In the version we checked, these include a general corrosion rate below 0.005 in/yr (0.125 mm/yr), a remaining life above 10 years, a corrosive character established by mild service or several years of comparable operation, no suspected environmental cracking or high-temperature hydrogen attack, a shell that does not operate in the creep range, no internal components or linings that would stop external scanning from seeing the damage, and the inspector's approval. Where the remaining life is 10 years or less, a narrower route exists if the service history is established, the examination can fully characterise the damage (for example high-density automated ultrasonic scanning) and both inspector and engineer approve. Confirm the clause wording in the edition you work to.",
         "RBI adds the reasoning behind each substitution. For a vessel suffering general thinning that a corrosion map from outside can measure, on-stream inspection can earn the same effectiveness as entry. For one suffering cracking at internal attachment welds, localised attack under deposits, lining or cladding breakdown or tray damage, an external survey cannot see the threat and the plan keeps the internal inspection. The table shows how that decision usually falls for common vessel types."
       ],
       "table": {
-        "head": ["Vessel type", "Mechanisms that usually drive the plan", "The inspection question"],
+        "head": [
+          "Vessel type",
+          "Mechanisms that usually drive the plan",
+          "The inspection question"
+        ],
         "rows": [
-          ["Crude and vacuum columns", "Overhead chloride and ammonium salt corrosion near the top trays; sulfidation and naphthenic acid attack in hot sections", "Can external scanning see attack in the tray zone, or does the top section need entry?"],
-          ["Sour water drums and separators", "Wet hydrogen sulfide damage (blistering, HIC, SOHIC, sulfide stress cracking) and water-line corrosion", "Thickness readings will not find cracking; what crack-detection method and coverage are needed?"],
-          ["Amine contactors and regenerators", "Amine stress corrosion cracking at welds without post-weld heat treatment; regenerator overhead and reboiler corrosion", "Is the heat treatment status of every weld known from records?"],
-          ["Reactors and hot hydrogen vessels", "High-temperature hydrogen attack, temper embrittlement and, in some services, creep", "Has the vessel been screened against API RP 941 operating limits, and with what margin?"],
-          ["LPG spheres and bullets", "External corrosion at legs and under fireproofing; surface cracking at welds", "Which legs and supports need fireproofing removed, and how much weld surface needs crack detection?"],
-          ["Exchanger shells and channels", "Cooling water fouling and microbiologically influenced corrosion; process-side attack in channels and pass partitions", "Which side drives the risk, and does the bundle pull give access to it?"]
+          [
+            "Crude and vacuum columns",
+            "Overhead chloride and ammonium salt corrosion near the top trays; sulfidation and naphthenic acid attack in hot sections",
+            "Can external scanning see attack in the tray zone, or does the top section need entry?"
+          ],
+          [
+            "Sour water drums and separators",
+            "Wet hydrogen sulfide damage (blistering, HIC, SOHIC, sulfide stress cracking) and water-line corrosion",
+            "Thickness readings will not find cracking; what crack-detection method and coverage are needed?"
+          ],
+          [
+            "Amine contactors and regenerators",
+            "Amine stress corrosion cracking at welds without post-weld heat treatment; regenerator overhead and reboiler corrosion",
+            "Is the heat treatment status of every weld known from records?"
+          ],
+          [
+            "Reactors and hot hydrogen vessels",
+            "High-temperature hydrogen attack, temper embrittlement and, in some services, creep",
+            "Has the vessel been screened against API RP 941 operating limits, and with what margin?"
+          ],
+          [
+            "LPG spheres and bullets",
+            "External corrosion at legs and under fireproofing; surface cracking at welds",
+            "Which legs and supports need fireproofing removed, and how much weld surface needs crack detection?"
+          ],
+          [
+            "Exchanger shells and channels",
+            "Cooling water fouling and microbiologically influenced corrosion; process-side attack in channels and pass partitions",
+            "Which side drives the risk, and does the bundle pull give access to it?"
+          ]
         ]
       }
     },
@@ -46,7 +83,16 @@
         "API RP 581 includes a method for exchanger bundles that draws on the failure history of the bundle and of similar bundles in comparable service, and frames consequence largely in production and repair terms. Even where the owner does not run that method, the same thinking applies: record each bundle's install date, tube material, plugging history and inspection results, and the bundle's own risk becomes visible instead of sitting inside the shell's.",
         "Tube inspection is specified by method and sample. Eddy current testing suits non-ferrous tubes, internal rotary inspection (IRIS) gives measured wall thickness in ferrous and non-ferrous tubes, and remote field or near-field methods screen ferrous tubes. The plan states the percentage of tubes, how they are selected (a random sample plus the rows that history says fail first, such as the inlet pass) and what result triggers a larger sample, a plugging campaign or a retube."
       ],
-      "links": [["/eddy-current-tube-inspection", "Eddy current tube inspection"], ["/inspection/ndt-inspection-services/advanced-ndt", "Advanced NDT, including IRIS"]]
+      "links": [
+        [
+          "/eddy-current-tube-inspection",
+          "Eddy current tube inspection"
+        ],
+        [
+          "/inspection/ndt-inspection-services/advanced-ndt",
+          "Advanced NDT, including IRIS"
+        ]
+      ]
     },
     {
       "id": "vessel-data",
@@ -78,7 +124,16 @@
         "Lining, cladding and overlay breakdown: internal visual examination with targeted thickness or ferrite checks.",
         "External corrosion and corrosion under insulation or fireproofing: visual survey, insulation removal at chosen points and screening methods suited to the geometry."
       ],
-      "links": [["/api-inspection/wfmt-acfm-crack-detection-sour-service", "Crack detection in sour service"], ["/api-inspection/paut-corrosion-mapping-pressure-vessels", "Corrosion mapping of pressure vessels"]]
+      "links": [
+        [
+          "/api-inspection/wfmt-acfm-crack-detection-sour-service",
+          "Crack detection in sour service"
+        ],
+        [
+          "/api-inspection/paut-corrosion-mapping-pressure-vessels",
+          "Corrosion mapping of pressure vessels"
+        ]
+      ]
     },
     {
       "id": "remote-vessel-study",
@@ -87,7 +142,12 @@
         "Atlantis carries out the study remotely. Records come through a shared data room, each unit is reviewed in video workshops with its process, corrosion and inspection specialists, and the draft risk ranking is circulated before the inspection plan is written so that disagreements about mechanisms are settled early. Where turnaround scope has to be frozen by a set date, we plan the study back from that date and say at the outset what can be achieved with the data available.",
         "Physical checks stay with your own inspectors: confirming nameplates, internals and insulation condition, and locating heat treatment records that only exist on paper in the plant. In the United States, Atlantis can also send UT, MT, PT and VT technicians to close specific gaps, for example a corrosion map on a vessel with no thickness history or magnetic particle examination of welds the study flags. Atlantis does not perform radiography in the United States."
       ],
-      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]]
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
     },
     {
       "id": "vessel-plan",
@@ -112,7 +172,12 @@
         "Risk-based planning earns its keep before a turnaround. The assessment identifies vessels that must be entered, vessels whose inspection can be done on-stream in the months before the shutdown so that they drop out of the critical path, and vessels whose risk is low enough to defer within code limits and with approval. Bundles are scheduled for pulling on the basis of their own risk rather than the shell's due date.",
         "When the shutdown inspection finds damage, your inspector evaluates it against the code and your engineer decides on continued operation; any fitness-for-service assessment stays with your engineer, because Atlantis does not perform that work. The findings and measured rates then go back into the assessment so the post-turnaround plan rests on what was actually seen."
       ],
-      "links": [["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"]]
+      "links": [
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnaround and shutdown inspection"
+        ]
+      ]
     },
     {
       "id": "vessel-weaknesses",
@@ -157,30 +222,93 @@
     "Pulp and paper"
   ],
   "faqs": [
-    { "q": "Can RBI take an API 510 internal inspection beyond 10 years?", "a": "Yes, if the assessment justifies it. API 510 allows an RBI assessment to set internal and on-stream intervals beyond the default of half the remaining life or 10 years. When it does, the code requires the RBI assessment to be reviewed and approved by the engineer and the inspector on a fixed cycle, and sooner if process, equipment or consequence changes. Your inspector approves the resulting interval." },
-    { "q": "When can an on-stream inspection replace an internal inspection?", "a": "When the API 510 conditions are met: in the version we checked, a low and established general corrosion rate, a remaining life above 10 years, no suspected environmental cracking or high-temperature hydrogen attack, internals that do not prevent external scanning, and the inspector's approval. The RBI study shows, vessel by vessel, whether the external method can actually find the active damage." },
-    { "q": "How are heat exchanger bundles handled in RBI?", "a": "As their own items. A bundle's failure is usually a leak between shell and tube sides, with consequences in contamination and lost production. API RP 581 has a bundle method based on failure history of the bundle and similar bundles. The plan sets the tube inspection method, sample size and selection, and the results that would trigger a larger sample, plugging or retubing." },
-    { "q": "Does the vessel study include pressure relief devices?", "a": "It can. Relief devices protect every vessel in the study, and API RP 581 includes a method for setting their test intervals from the risk of a device failing to open or leaking. Where devices are in scope, the plan gives an interval for each with its basis. Where they are not, the report notes that relief device intervals continue under your existing programme." },
-    { "q": "Why don't thickness readings count for a vessel in wet hydrogen sulfide service?", "a": "Because the threats in that service are blistering and cracking, and a thickness survey is not designed to find cracks. Inspection credit is specific to each mechanism, so a vessel can have excellent thickness history and still carry a high cracking probability. The plan specifies crack-detection examination of the welds and susceptible zones instead." },
-    { "q": "Can the study be ready before our turnaround scope freeze?", "a": "That depends mainly on how quickly the records can be gathered. We plan the study back from your scope freeze date, agree the data request and workshop dates at the outset, and say early on what can be achieved with the data available. Where records are missing, the study flags those vessels so that the scope decision is taken knowingly rather than by default." },
-    { "q": "What if manufacturer's data reports are missing?", "a": "Material, thickness and heat treatment can sometimes be recovered from purchase records, drawings, previous inspection reports or field verification such as positive material identification and hardness checks. Where they cannot, the study uses conservative assumptions, states them, and the plan asks for the verification that would remove the assumption." },
-    { "q": "Who approves the vessel inspection intervals?", "a": "Your API 510 inspector, together with your engineer where the code requires it, or the inspection authority your company procedure names. Atlantis prepares the assessment and the proposed plan and explains the reasoning, but approval and the vessel's inspection record stay with your organisation." }
+    {
+      "q": "Can RBI take an API 510 internal inspection beyond 10 years?",
+      "a": "Yes, if the assessment justifies it. API 510 allows an RBI assessment to set internal and on-stream intervals beyond the default of half the remaining life or 10 years. When it does, the code requires the RBI assessment to be reviewed and approved by the engineer and the inspector on a fixed cycle, and sooner if process, equipment or consequence changes. Your inspector approves the resulting interval."
+    },
+    {
+      "q": "When can an on-stream inspection replace an internal inspection?",
+      "a": "When the API 510 conditions are met: in the version we checked, a low and established general corrosion rate, a remaining life above 10 years, no suspected environmental cracking or high-temperature hydrogen attack, internals that do not prevent external scanning, and the inspector's approval. The RBI study shows, vessel by vessel, whether the external method can actually find the active damage."
+    },
+    {
+      "q": "How are heat exchanger bundles handled in RBI?",
+      "a": "As their own items. A bundle's failure is usually a leak between shell and tube sides, with consequences in contamination and lost production. API RP 581 has a bundle method based on failure history of the bundle and similar bundles. The plan sets the tube inspection method, sample size and selection, and the results that would trigger a larger sample, plugging or retubing."
+    },
+    {
+      "q": "Does the vessel study include pressure relief devices?",
+      "a": "It can. Relief devices protect every vessel in the study, and API RP 581 includes a method for setting their test intervals from the risk of a device failing to open or leaking. Where devices are in scope, the plan gives an interval for each with its basis. Where they are not, the report notes that relief device intervals continue under your existing programme."
+    },
+    {
+      "q": "Why don't thickness readings count for a vessel in wet hydrogen sulfide service?",
+      "a": "Because the threats in that service are blistering and cracking, and a thickness survey is not designed to find cracks. Inspection credit is specific to each mechanism, so a vessel can have excellent thickness history and still carry a high cracking probability. The plan specifies crack-detection examination of the welds and susceptible zones instead."
+    },
+    {
+      "q": "Can the study be ready before our turnaround scope freeze?",
+      "a": "That depends mainly on how quickly the records can be gathered. We plan the study back from your scope freeze date, agree the data request and workshop dates at the outset, and say early on what can be achieved with the data available. Where records are missing, the study flags those vessels so that the scope decision is taken knowingly rather than by default."
+    },
+    {
+      "q": "What if manufacturer's data reports are missing?",
+      "a": "Material, thickness and heat treatment can sometimes be recovered from purchase records, drawings, previous inspection reports or field verification such as positive material identification and hardness checks. Where they cannot, the study uses conservative assumptions, states them, and the plan asks for the verification that would remove the assumption."
+    },
+    {
+      "q": "Who approves the vessel inspection intervals?",
+      "a": "Your API 510 inspector, together with your engineer where the code requires it, or the inspection authority your company procedure names. Atlantis prepares the assessment and the proposed plan and explains the reasoning, but approval and the vessel's inspection record stay with your organisation."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
-    ["/consulting/api-510-pressure-vessel-inspector-services", "API 510 pressure vessel inspection support"],
-    ["/standards/api-510", "API 510 explained"],
-    ["/api-inspection/pressure-vessel-inspection-plan-contents", "What a pressure vessel inspection plan contains"],
-    ["/api-inspection/amine-caustic-cracking", "Amine and caustic cracking"],
-    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
-    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
-    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
-    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"]
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/consulting/api-510-pressure-vessel-inspector-services",
+      "API 510 pressure vessel inspection support"
+    ],
+    [
+      "/standards/api-510",
+      "API 510 explained"
+    ],
+    [
+      "/api-inspection/pressure-vessel-inspection-plan-contents",
+      "What a pressure vessel inspection plan contains"
+    ],
+    [
+      "/api-inspection/amine-caustic-cracking",
+      "Amine and caustic cracking"
+    ],
+    [
+      "/tools/api-inspection-interval-calculator",
+      "API inspection interval calculator"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review"
+    ]
   ],
   "sources": [
-    { "fact": "API 510 eleventh edition October 2022, errata 2023 and 2025; API RP 580 4th ed. 2023; API RP 581 4th ed. 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" },
-    { "fact": "API 510 on-stream in lieu of internal conditions: corrosion rate < 0.005 in/yr (0.125 mm/yr), remaining life > 10 years, established service, no suspected environmental cracking or HTHA, no internals preventing external scanning, inspector approval; alternative for RL <= 10 years with established history, accurate NDE such as high-density AUT, inspector and engineer approval (edition not named by the source)", "url": "https://open-exam-prep.com/study-guides/api-510/inspection-planning-and-evaluation/inspection-intervals-and-deferrals" },
-    { "fact": "API 510 default intervals (lesser of RL/2 or 10 years internal/on-stream; lesser of 5 years or internal interval external) unless RBI justifies otherwise; RBI assessment reviewed and approved by engineer and inspector on a maximum cycle (10 years in editions reviewed) when RBI intervals exceed 10 years; API RP 581 4th ed. covers PRDs and exchanger bundles (already on the site)", "url": "https://atlantisndt.com/api-inspection/time-based-vs-risk-based-intervals" },
-    { "fact": "API RP 584 second edition, 2021", "url": "https://infostore.saiglobal.com/en-au/standards/api-rp-584-2021-98121_saig_api_api_3084360/" }
+    {
+      "fact": "API 510 eleventh edition October 2022 (reviewer removed unverified errata dates from the page); API RP 580 4th ed. 2023; API RP 581 4th ed. 2025",
+      "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/"
+    },
+    {
+      "fact": "API 510 on-stream in lieu of internal conditions: corrosion rate < 0.005 in/yr (0.125 mm/yr), remaining life > 10 years, established service, no suspected environmental cracking or HTHA, no internals preventing external scanning, inspector approval; alternative for RL <= 10 years with established history, accurate NDE such as high-density AUT, inspector and engineer approval (edition not named by the source)",
+      "url": "https://open-exam-prep.com/study-guides/api-510/inspection-planning-and-evaluation/inspection-intervals-and-deferrals"
+    },
+    {
+      "fact": "API 510 default intervals (lesser of RL/2 or 10 years internal/on-stream; lesser of 5 years or internal interval external) unless RBI justifies otherwise; RBI assessment reviewed and approved by engineer and inspector on a maximum cycle (10 years in editions reviewed) when RBI intervals exceed 10 years; API RP 581 4th ed. covers PRDs and exchanger bundles (already on the site)",
+      "url": "https://atlantisndt.com/api-inspection/time-based-vs-risk-based-intervals"
+    },
+    {
+      "fact": "API RP 584 second edition, 2021",
+      "url": "https://infostore.saiglobal.com/en-au/standards/api-rp-584-2021-98121_saig_api_api_3084360/"
+    }
   ]
 }

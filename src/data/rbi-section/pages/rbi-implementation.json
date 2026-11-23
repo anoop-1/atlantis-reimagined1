@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection",
   "intro": "For owners moving from calendar-based inspection to risk-based planning, and for those whose RBI programme produced one good study and then slowly went stale. Implementation is more than the first assessment: it means a governing procedure, approved risk criteria, defined roles, a method and a toolset that fit the site, a pilot that proves the approach, a rollout plan and a way of keeping everything current. This page sets out each of those pieces and what Atlantis provides, remotely, as risk-based inspection consulting.",
   "highlights": [
-    { "h": "A procedure before a calculation", "p": "The programme's rules come first: which equipment is in scope, which method applies, what data is required, who approves what, and how risk categories turn into inspection actions. Studies done without those rules produce results nobody can maintain consistently." },
-    { "h": "Proved on one unit first", "p": "A pilot unit runs the full cycle, from data gathering to an approved plan, and tests the procedure, the data standard and the tools before the approach is repeated across the site. A problem found on one unit is a correction; the same problem found on twelve is a rework." },
-    { "h": "Built to be run by your team", "p": "Everything is set up so that your own people can carry the programme forward: documented decisions, a site loop library, clear triggers and coached analysts. An outside study that only its author can update has created a dependency rather than a programme." }
+    {
+      "h": "A procedure before a calculation",
+      "p": "The programme's rules come first: which equipment is in scope, which method applies, what data is required, who approves what, and how risk categories turn into inspection actions. Studies done without those rules produce results nobody can maintain consistently."
+    },
+    {
+      "h": "Proved on one unit first",
+      "p": "A pilot unit runs the full cycle, from data gathering to an approved plan, and tests the procedure, the data standard and the tools before the approach is repeated across the site. A problem found on one unit is a correction; the same problem found on twelve is a rework."
+    },
+    {
+      "h": "Built to be run by your team",
+      "p": "Everything is set up so that your own people can carry the programme forward: documented decisions, a site loop library, clear triggers and coached analysts. An outside study that only its author can update has created a dependency rather than a programme."
+    }
   ],
   "sections": [
     {
@@ -15,7 +24,7 @@
       "h": "A study is not a programme",
       "p": [
         "An RBI study produces a risk register and an inspection plan at one point in time. A programme is the procedures, people, data flows and review cycle that keep that register true as the plant changes. API RP 580, whose fourth edition (August 2023) is titled Elements of a Risk-Based Inspection Program, treats the subject that way: it covers programme planning, roles, responsibilities, training and qualifications, data collection, damage mechanism review, probability and consequence, risk management, documentation and the evergreening and reassessment that keep the assessment alive.",
-        "The commonest failure we see is not a bad first study. It is a competent first study that was never updated: inspection results stopped flowing back, changes of service were not reassessed, and a few years later the intervals rested on conditions that no longer existed. Implementation is mostly about preventing that."
+        "The commonest failure is not a bad first study. It is a competent first study that was never updated: inspection results stopped flowing back, changes of service were not reassessed, and a few years later the intervals rested on conditions that no longer existed. Implementation is mostly about preventing that."
       ]
     },
     {
@@ -41,16 +50,52 @@
         "RBI is a team exercise by design. The roles below need filling for every unit, although one person can hold more than one where the site is small."
       ],
       "table": {
-        "head": ["Role", "What they contribute", "Usually filled by"],
+        "head": [
+          "Role",
+          "What they contribute",
+          "Usually filled by"
+        ],
         "rows": [
-          ["Programme sponsor", "Approves risk criteria, resources the programme and resolves disputes about priorities", "Site or reliability manager"],
-          ["RBI lead and analyst", "Runs the method, keeps the register consistent and drafts plans", "Your integrity engineer, with Atlantis as analyst or coach"],
-          ["Inspection lead", "Knows the history, judges inspection effectiveness and approves intervals", "Your inspector of record or inspection authority"],
-          ["Corrosion and materials specialist", "Assigns damage mechanisms, rates and susceptibility", "Your specialist or Atlantis support"],
-          ["Process engineer", "Supplies operating conditions, chemistry and integrity operating windows", "Unit process engineer"],
-          ["Operations representative", "Supplies what happens in practice: upsets, bypasses, idle lines and vibration", "Experienced operator or shift supervisor"],
-          ["Maintenance and planning", "Links the plan to work orders and turnaround scope", "Maintenance planner"],
-          ["Data and systems", "Keeps the inspection data system and any RBI package consistent", "Your systems administrator"]
+          [
+            "Programme sponsor",
+            "Approves risk criteria, resources the programme and resolves disputes about priorities",
+            "Site or reliability manager"
+          ],
+          [
+            "RBI lead and analyst",
+            "Runs the method, keeps the register consistent and drafts plans",
+            "Your integrity engineer, with Atlantis as analyst or coach"
+          ],
+          [
+            "Inspection lead",
+            "Knows the history, judges inspection effectiveness and approves intervals",
+            "Your inspector of record or inspection authority"
+          ],
+          [
+            "Corrosion and materials specialist",
+            "Assigns damage mechanisms, rates and susceptibility",
+            "Your specialist or Atlantis support"
+          ],
+          [
+            "Process engineer",
+            "Supplies operating conditions, chemistry and integrity operating windows",
+            "Unit process engineer"
+          ],
+          [
+            "Operations representative",
+            "Supplies what happens in practice: upsets, bypasses, idle lines and vibration",
+            "Experienced operator or shift supervisor"
+          ],
+          [
+            "Maintenance and planning",
+            "Links the plan to work orders and turnaround scope",
+            "Maintenance planner"
+          ],
+          [
+            "Data and systems",
+            "Keeps the inspection data system and any RBI package consistent",
+            "Your systems administrator"
+          ]
         ]
       }
     },
@@ -61,7 +106,16 @@
         "A qualitative method uses structured judgement and a matrix; it is quick to apply and works well for screening or for smaller sites, but it depends heavily on who is in the room. Semi-quantitative schemes score factors numerically and give more consistency for moderate effort. The quantitative method in API RP 581 calculates probability and consequence from defined models; it gives the most defensible basis for long intervals and fine-grained planning, in exchange for a heavier data burden and the need for someone who understands the models.",
         "Methods can be mixed. Many programmes screen everything qualitatively and spend quantitative effort on the items whose risk, consequence or interval justify it. ASME PCC-3 (2022 edition) offers a further framework, and many operators have their own RBI standard that takes precedence over both. The procedure should say which method applies to which equipment and why, so that the choice is not reopened for every study."
       ],
-      "links": [["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"], ["/blog/risk-based-inspection-rbi-explained-api-580-vs-api-581", "API 580 versus API 581 explained"]]
+      "links": [
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ],
+        [
+          "/blog/risk-based-inspection-rbi-explained-api-580-vs-api-581",
+          "API 580 versus API 581 explained"
+        ]
+      ]
     },
     {
       "id": "software-criteria",
@@ -95,7 +149,12 @@
         "Rollout is normally sequenced by the turnaround schedule, so each unit's plan is ready before the work it is meant to shape. Data gathering for later units can run in parallel with workshops for earlier ones. Consistency checks across units catch drift in how mechanisms are assigned or how effectiveness is credited. Until a unit's assessment is approved by your inspector, its existing time-based intervals stay in force, which keeps the transition safe and auditable.",
         "Each study is delivered remotely through a data room and video workshops, with field verification done by your own inspectors. For US facilities, Atlantis can also supply UT, MT, PT and VT technicians to close data gaps found during rollout and to carry out conventional NDT the plans call for."
       ],
-      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]]
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
     },
     {
       "id": "sustaining",
@@ -104,7 +163,12 @@
         "A programme stays healthy when changes flow into it automatically: management of change requests ask whether the RBI is affected, integrity operating window exceedances are reviewed for their effect on damage rates, and every inspection report is checked against the rate the assessment assumed. On top of those triggers sits a fixed review cycle, set within the limits of the inspection codes you work to.",
         "Simple indicators show whether the programme is alive: the share of items with a current assessment, overdue inspections, open data gaps and unreviewed exceedances. Periodic internal audits check that decisions are documented and that intervals still have a basis. Where damage needs fitness-for-service evaluation, the programme routes it to your engineer, because Atlantis does not perform that work."
       ],
-      "links": [["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"]]
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit readiness"
+        ]
+      ]
     },
     {
       "id": "atlantis-scope",
@@ -149,33 +213,105 @@
     "Offshore and onshore production facilities"
   ],
   "faqs": [
-    { "q": "What does RBI implementation actually involve?", "a": "Setting up the procedure, risk criteria, data standard and roles that govern the programme; choosing a method and, where needed, a software package; proving the approach on a pilot unit; rolling it out across the site; and putting in place the triggers and review cycle that keep it current. The first risk study is one step in that sequence, not the whole job." },
-    { "q": "Should we start with one unit or the whole site?", "a": "One unit. A pilot tests the procedure, the data standard and the tools on real equipment, including the inspection and update that follow the plan. What is learned there is built into the documents before the approach is repeated, which saves far more effort across the site than the pilot itself takes." },
-    { "q": "Do we need dedicated RBI software?", "a": "Not for every scope. Small programmes can run well in controlled spreadsheets. Once the register reaches several hundred items, or you want quantitative API RP 581 calculations, a dedicated package becomes worthwhile for consistency and audit trail. Choose it on methodology transparency, data model fit, integration, open export and versioning rather than on the demonstration." },
-    { "q": "Do our time-based intervals stay in force during rollout?", "a": "They should. Until a unit's assessment has been completed, reviewed and approved by your inspector, its existing code-based intervals remain the basis for inspection. That keeps the transition auditable and avoids a period in which no approved interval exists for some equipment." },
-    { "q": "Who should be on the RBI team?", "a": "An RBI lead or analyst, the inspection lead, a corrosion or materials specialist, the unit process engineer and an experienced operator, with maintenance planning and a systems person involved as results turn into work. Management sponsorship matters too, because someone has to approve the risk criteria and settle priority disputes." },
-    { "q": "What is a risk target, and who sets it?", "a": "A risk target is the level of risk at which an item needs inspection or other action, expressed as a matrix position or a numerical value. The owner's management sets and approves it; neither API RP 580 nor API RP 581 sets it for you. The target belongs in the risk criteria document so every study is judged against the same line." },
-    { "q": "How do we stop the programme going stale?", "a": "Connect it to the processes that change the plant: management of change, integrity operating window monitoring and inspection reporting. Add a fixed review cycle and a few indicators, such as items with a current assessment, overdue inspections and open data gaps, and review them regularly. Programmes decay when results stop flowing back in." },
-    { "q": "What does risk-based inspection consulting from Atlantis cover?", "a": "Remote gap assessment, procedure and criteria drafting, loop libraries, pilot and rollout studies, coaching of your analysts and periodic reassessment, plus conventional NDT for US facilities. Intervals are approved by your inspector of record, and every document is written so that your own people can maintain it." },
-    { "q": "Can an existing RBI programme be repaired rather than rebuilt?", "a": "Often it can. A gap assessment shows which parts are sound: a loop library that still describes the plant, inspection history that has been kept, a register that can be updated. Typical repairs are replacing defaults with measured data, re-checking the effectiveness credited to each inspection, rewriting the procedure so reassessment triggers are explicit, and reconfirming the risk criteria with management. A full rebuild is only worth it when the original basis cannot be reconstructed." },
-    { "q": "How does the RBI programme connect to our maintenance system?", "a": "Through the inspection plan. Each recommended inspection becomes a scheduled task with its method, coverage and due date, raised in your maintenance or inspection management system like any other work. Completed inspections then send their results back so the assessment can be updated. That connection matters more than the choice of software: a plan that never becomes work orders, or results that never return to the assessment, is how programmes quietly fail." }
+    {
+      "q": "What does RBI implementation actually involve?",
+      "a": "Setting up the procedure, risk criteria, data standard and roles that govern the programme; choosing a method and, where needed, a software package; proving the approach on a pilot unit; rolling it out across the site; and putting in place the triggers and review cycle that keep it current. The first risk study is one step in that sequence, not the whole job."
+    },
+    {
+      "q": "Should we start with one unit or the whole site?",
+      "a": "One unit. A pilot tests the procedure, the data standard and the tools on real equipment, including the inspection and update that follow the plan. What is learned there is built into the documents before the approach is repeated, which saves far more effort across the site than the pilot itself takes."
+    },
+    {
+      "q": "Do we need dedicated RBI software?",
+      "a": "Not for every scope. Small programmes can run well in controlled spreadsheets. Once the register reaches several hundred items, or you want quantitative API RP 581 calculations, a dedicated package becomes worthwhile for consistency and audit trail. Choose it on methodology transparency, data model fit, integration, open export and versioning rather than on the demonstration."
+    },
+    {
+      "q": "Do our time-based intervals stay in force during rollout?",
+      "a": "They should. Until a unit's assessment has been completed, reviewed and approved by your inspector, its existing code-based intervals remain the basis for inspection. That keeps the transition auditable and avoids a period in which no approved interval exists for some equipment."
+    },
+    {
+      "q": "Who should be on the RBI team?",
+      "a": "An RBI lead or analyst, the inspection lead, a corrosion or materials specialist, the unit process engineer and an experienced operator, with maintenance planning and a systems person involved as results turn into work. Management sponsorship matters too, because someone has to approve the risk criteria and settle priority disputes."
+    },
+    {
+      "q": "What is a risk target, and who sets it?",
+      "a": "A risk target is the level of risk at which an item needs inspection or other action, expressed as a matrix position or a numerical value. The owner's management sets and approves it; neither API RP 580 nor API RP 581 sets it for you. The target belongs in the risk criteria document so every study is judged against the same line."
+    },
+    {
+      "q": "How do we stop the programme going stale?",
+      "a": "Connect it to the processes that change the plant: management of change, integrity operating window monitoring and inspection reporting. Add a fixed review cycle and a few indicators, such as items with a current assessment, overdue inspections and open data gaps, and review them regularly. Programmes decay when results stop flowing back in."
+    },
+    {
+      "q": "What does risk-based inspection consulting from Atlantis cover?",
+      "a": "Remote gap assessment, procedure and criteria drafting, loop libraries, pilot and rollout studies, coaching of your analysts and periodic reassessment, plus conventional NDT for US facilities. Intervals are approved by your inspector of record, and every document is written so that your own people can maintain it."
+    },
+    {
+      "q": "Can an existing RBI programme be repaired rather than rebuilt?",
+      "a": "Often it can. A gap assessment shows which parts are sound: a loop library that still describes the plant, inspection history that has been kept, a register that can be updated. Typical repairs are replacing defaults with measured data, re-checking the effectiveness credited to each inspection, rewriting the procedure so reassessment triggers are explicit, and reconfirming the risk criteria with management. A full rebuild is only worth it when the original basis cannot be reconstructed."
+    },
+    {
+      "q": "How does the RBI programme connect to our maintenance system?",
+      "a": "Through the inspection plan. Each recommended inspection becomes a scheduled task with its method, coverage and due date, raised in your maintenance or inspection management system like any other work. Completed inspections then send their results back so the assessment can be updated. That connection matters more than the choice of software: a plan that never becomes work orders, or results that never return to the assessment, is how programmes quietly fail."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
-    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
-    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
-    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
-    ["/blog/risk-based-inspection-rbi-implementation-guide", "RBI implementation guide"],
-    ["/standards/api-580", "API RP 580 explained"],
-    ["/api-inspection/owner-user-inspection-organization", "Owner-user inspection organisations"],
-    ["/consulting/osha-psm-mechanical-integrity-ndt", "OSHA PSM mechanical integrity"],
-    ["/inspection-data-management-system", "Inspection data management"],
-    ["/inspection/asset-integrity-services", "Asset integrity services"]
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "How a remote RBI study works"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review and corrosion loops"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit readiness"
+    ],
+    [
+      "/blog/risk-based-inspection-rbi-implementation-guide",
+      "RBI implementation guide"
+    ],
+    [
+      "/standards/api-580",
+      "API RP 580 explained"
+    ],
+    [
+      "/api-inspection/owner-user-inspection-organization",
+      "Owner-user inspection organisations"
+    ],
+    [
+      "/consulting/osha-psm-mechanical-integrity-ndt",
+      "OSHA PSM mechanical integrity"
+    ],
+    [
+      "/inspection-data-management-system",
+      "Inspection data management"
+    ],
+    [
+      "/inspection/asset-integrity-services",
+      "Asset integrity services"
+    ]
   ],
   "sources": [
-    { "fact": "API RP 580 fourth edition, 1 August 2023, titled 'Elements of a Risk-Based Inspection Program'; covers program planning, roles, responsibilities, training and qualifications, data collection, damage mechanism review, POF and COF, risk management, evergreening and reassessment, documentation and recordkeeping", "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html" },
-    { "fact": "ASME PCC-3-2022 'Inspection Planning Using Risk-Based Methods', current edition", "url": "https://www.asme.org/codes-standards/find-codes-standards/inspection-planning-using-risk-based-methods" },
-    { "fact": "API RP 581 fourth edition January 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" },
-    { "fact": "API RP 584 second edition, 2021", "url": "https://infostore.saiglobal.com/en-au/standards/api-rp-584-2021-98121_saig_api_api_3084360/" }
+    {
+      "fact": "API RP 580 fourth edition, 1 August 2023, titled 'Elements of a Risk-Based Inspection Program'; covers program planning, roles, responsibilities, training and qualifications, data collection, damage mechanism review, POF and COF, risk management, evergreening and reassessment, documentation and recordkeeping",
+      "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html"
+    },
+    {
+      "fact": "ASME PCC-3-2022 'Inspection Planning Using Risk-Based Methods', current edition",
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/inspection-planning-using-risk-based-methods"
+    },
+    {
+      "fact": "API RP 581 fourth edition January 2025",
+      "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/"
+    },
+    {
+      "fact": "API RP 584 second edition, 2021",
+      "url": "https://infostore.saiglobal.com/en-au/standards/api-rp-584-2021-98121_saig_api_api_3084360/"
+    }
   ]
 }

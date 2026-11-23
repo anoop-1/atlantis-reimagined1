@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection",
   "intro": "This page is for terminal operators, refinery tank-farm owners and the integrity engineers who plan their inspections. It explains when API 653 lets a risk-based assessment set the internal inspection interval, why the floor and the shell have to be treated as separate risk problems, which inspection records earn credit in the assessment, and what a tank RBI study delivered remotely by Atlantis looks like, from the first data request to the plan your API 653 inspector approves.",
   "highlights": [
-    { "h": "Floor and shell rated apart", "p": "A floor fails by a leak into the soil that can go unseen for months; a shell fails in plain view. They carry different damage mechanisms and different consequences, so each shell course and the bottom are rated on their own terms rather than averaged into one tank score." },
-    { "h": "Inspection records drive the result", "p": "Floor scans with ultrasonic prove-up, shell thickness surveys, cathodic protection readings and settlement surveys decide how much credit past inspection earns. Where those records are thin, the plan says so and asks for the data instead of assuming a favourable answer." },
-    { "h": "Your inspector keeps the signature", "p": "The study is prepared remotely from your drawings, records and inspection history. Every interval in it is a proposal: your API 653 inspector or inspection authority reviews and approves it, and Atlantis never takes over that role." }
+    {
+      "h": "Floor and shell rated apart",
+      "p": "A floor fails by a leak into the soil that can go unseen for months; a shell fails in plain view. They carry different damage mechanisms and different consequences, so each shell course and the bottom are rated on their own terms rather than averaged into one tank score."
+    },
+    {
+      "h": "Inspection records drive the result",
+      "p": "Floor scans with ultrasonic prove-up, shell thickness surveys, cathodic protection readings and settlement surveys decide how much credit past inspection earns. Where those records are thin, the plan says so and asks for the data instead of assuming a favourable answer."
+    },
+    {
+      "h": "Your inspector keeps the signature",
+      "p": "The study is prepared remotely from your drawings, records and inspection history. Every interval in it is a proposal: your API 653 inspector or inspection authority reviews and approves it, and Atlantis never takes over that role."
+    }
   ],
   "sections": [
     {
@@ -26,12 +35,32 @@
         "Not every owner can apply an RBI interval, however sound the assessment. Before a study starts we confirm which rules govern each tank in scope, because a plan that cannot legally be applied is wasted effort for everyone."
       ],
       "table": {
-        "head": ["Tank situation", "What governs the RBI route", "How the study handles it"],
+        "head": [
+          "Tank situation",
+          "What governs the RBI route",
+          "How the study handles it"
+        ],
         "rows": [
-          ["Refinery, chemical plant or terminal tank outside pipeline regulation", "The API 653 risk-based alternative is available, subject to company procedure and any state or local rule", "Full risk assessment, with an RBI-based internal date where the owner adopts that route"],
-          ["Pipeline breakout tank regulated under 49 CFR 195.432", "The current rule bars API 653's risk-based internal interval. A June 2026 PHMSA proposal would allow it, with records for every likelihood and consequence factor and outer limits of 20 years for the initial and 25 years for subsequent internal inspections", "Risk ranking used to prioritise and scope work, with the internal date set by the corrosion-rate method until a final rule says otherwise"],
-          ["Tank covered by an SPCC plan", "The inspection and integrity testing described in the plan must match what is actually done", "Flags each tank where an RBI-based date and the plan's described schedule need reconciling"],
-          ["Jurisdiction or procedure tied to an older API 653 edition", "The risk provision and its conditions follow that edition", "Study prepared and reported against the edition in force for that tank"]
+          [
+            "Refinery, chemical plant or terminal tank outside pipeline regulation",
+            "The API 653 risk-based alternative is available, subject to company procedure and any state or local rule",
+            "Full risk assessment, with an RBI-based internal date where the owner adopts that route"
+          ],
+          [
+            "Pipeline breakout tank regulated under 49 CFR 195.432",
+            "The current rule bars API 653's risk-based internal interval. A June 2026 PHMSA proposal would allow it, with records for every likelihood and consequence factor and outer limits of 20 years for the initial and 25 years for subsequent internal inspections",
+            "Risk ranking used to prioritise and scope work, with the internal date set by the corrosion-rate method until a final rule says otherwise"
+          ],
+          [
+            "Tank covered by an SPCC plan",
+            "The inspection and integrity testing described in the plan must match what is actually done",
+            "Flags each tank where an RBI-based date and the plan's described schedule need reconciling"
+          ],
+          [
+            "Jurisdiction or procedure tied to an older API 653 edition",
+            "The risk provision and its conditions follow that edition",
+            "Study prepared and reported against the edition in force for that tank"
+          ]
         ]
       }
     },
@@ -68,14 +97,42 @@
         "Risk-based methods credit a past inspection according to how likely it was to find the damage that is actually active. API RP 581 grades effectiveness from A (highly effective) to E (ineffective), and the grade depends on method, coverage and follow-up, not on the date the tank was last opened. The table shows how the common tank records are read during a study."
       ],
       "table": {
-        "head": ["Record", "What it tells the assessment", "What limits the credit"],
+        "head": [
+          "Record",
+          "What it tells the assessment",
+          "What limits the credit"
+        ],
         "rows": [
-          ["MFL floor scan with ultrasonic prove-up", "Extent and depth of product-side and soil-side loss across the scanned area", "Unscanned zones near the shell, lap welds, sumps and supports; indications never proved up with UT; no record of a qualified procedure or examiner"],
-          ["Visual floor examination with spot UT", "Product-side condition and a handful of point thicknesses", "Says little about soil-side loss between the readings"],
-          ["Shell UT thickness survey and corrosion mapping", "Wall loss by course, including at the liquid line and under insulation where it was removed", "Readings repeated at the same points every time can miss local loss elsewhere on the course"],
-          ["External visual inspection", "Coating, chime, foundation, nozzle and roof condition, plus signs of settlement or leakage", "No measurement of wall loss"],
-          ["Cathodic protection survey", "Whether soil-side protection was effective over the period", "Readings taken at the edge may not represent the centre of a large floor"],
-          ["Settlement survey", "Edge and floor settlement that can trap water or overstress the bottom", "Settlement acceptance is a separate engineering evaluation"]
+          [
+            "MFL floor scan with ultrasonic prove-up",
+            "Extent and depth of product-side and soil-side loss across the scanned area",
+            "Unscanned zones near the shell, lap welds, sumps and supports; indications never proved up with UT; no record of a qualified procedure or examiner"
+          ],
+          [
+            "Visual floor examination with spot UT",
+            "Product-side condition and a handful of point thicknesses",
+            "Says little about soil-side loss between the readings"
+          ],
+          [
+            "Shell UT thickness survey and corrosion mapping",
+            "Wall loss by course, including at the liquid line and under insulation where it was removed",
+            "Readings repeated at the same points every time can miss local loss elsewhere on the course"
+          ],
+          [
+            "External visual inspection",
+            "Coating, chime, foundation, nozzle and roof condition, plus signs of settlement or leakage",
+            "No measurement of wall loss"
+          ],
+          [
+            "Cathodic protection survey",
+            "Whether soil-side protection was effective over the period",
+            "Readings taken at the edge may not represent the centre of a large floor"
+          ],
+          [
+            "Settlement survey",
+            "Edge and floor settlement that can trap water or overstress the bottom",
+            "Settlement acceptance is a separate engineering evaluation"
+          ]
         ]
       }
     },
@@ -87,7 +144,20 @@
         "Damage mechanisms are then assigned to each shell course, the floor and the roof using API 571 as the reference, and probability and consequence are worked out by the method you choose: a qualitative matrix, a semi-quantitative scoring scheme, the API RP 581 quantitative method or your company's own RBI standard. If your programme already lives in a commercial RBI package, we work from its exports and return results in a form it can import.",
         "Field verification stays with your own inspectors. For tanks in the United States, Atlantis can also send UT, MT, PT and VT technicians to close specific gaps the study identifies, such as shell thickness surveys, corrosion mapping of a suspect course or examination of nozzle welds. Outside the United States, gap-closing inspection is carried out by your inspectors or your contractors, to the method and coverage the plan specifies."
       ],
-      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"], ["/inspection/ndt-inspection-services/advanced-ndt", "Advanced NDT, including tank floor scanning"], ["/corrosion-mapping", "Corrosion mapping"]]
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ],
+        [
+          "/inspection/ndt-inspection-services/advanced-ndt",
+          "Advanced NDT, including tank floor scanning"
+        ],
+        [
+          "/corrosion-mapping",
+          "Corrosion mapping"
+        ]
+      ]
     },
     {
       "id": "plan-contents",
@@ -156,33 +226,113 @@
     "Biofuel and renewable feedstock storage"
   ],
   "faqs": [
-    { "q": "Can RBI extend an API 653 internal inspection interval?", "a": "Yes, where the assessment supports it. API 653 allows the internal interval to be set by a risk-based assessment instead of the corrosion-rate method, and the result can be longer or shorter than the default. In the fifth edition the analysis must consider the likelihood and consequence factors the standard lists, be validated and be reviewed at least every 10 years. Your API 653 inspector or inspection authority approves the interval; the study gives them a basis they can check." },
-    { "q": "Can a pipeline breakout tank use an RBI interval?", "a": "Not under the current US rule. 49 CFR 195.432 says the risk-based internal inspection procedures in API 653 cannot be used to set the internal interval of a regulated breakout tank. PHMSA proposed in June 2026 to allow them, with records for every likelihood and consequence factor and outer limits of 20 and 25 years. Until a final rule is published, use RBI on breakout tanks to rank and scope work rather than to set the internal date." },
-    { "q": "What can a tank RBI do if we have no floor scan history?", "a": "A useful assessment can still be built from construction data, service history, cathodic protection records and similar-service experience, but the probability of failure will sit higher because nothing has measured the floor. The plan will then usually call for an internal inspection with a full floor scan, so that estimates are replaced by measurements, and the next assessment will move once that data exists." },
-    { "q": "How does API RP 581 treat a leak from a tank floor?", "a": "As a financial consequence. The method combines environmental clean-up, repair and lost production, and the clean-up part depends on how far released product can travel: into the soil under the floor, down to groundwater or out to surface water. That is why containment, soil type and distance to water appear in the data request from the start rather than as an afterthought." },
-    { "q": "Does a floor scan always count as a highly effective inspection?", "a": "No. The credit depends on what the scan covered and what was done with its indications. Zones the scanner could not reach, such as the strip next to the shell, lap welds, sumps and supports, need covering by other means, and indications need proving up with ultrasonic thickness readings. A scan report without a coverage map or prove-up data earns less credit, and the study records the reason." },
-    { "q": "How often should a storage tank RBI be reviewed?", "a": "On a fixed cycle and whenever something changes. The fifth edition of API 653 calls for review at least once every 10 years. Changes that should trigger an earlier reassessment include a new product, added heating or insulation, a lining failure, a cathodic protection outage, new settlement, a floor repair and any inspection finding outside the rate the assessment assumed." },
-    { "q": "Can Atlantis inspect the tanks the plan identifies?", "a": "In the United States, Atlantis can send UT, MT, PT and VT technicians for shell thickness surveys, corrosion mapping and weld or nozzle examinations that close gaps in the data. Atlantis does not perform radiography in the United States. Elsewhere the study is delivered remotely, and the inspection is carried out by your own inspectors or contractors to the method and coverage the plan specifies." },
-    { "q": "Who signs off the tank inspection intervals?", "a": "Your API 653 inspector, or the inspection authority your company procedure names, approves the intervals and remains responsible for the tank's inspection record. Atlantis prepares the assessment and the proposed plan and answers the inspector's questions about it, but does not take on that role. The report is written so that an inspector who missed the workshops can still trace every date back to its basis." }
+    {
+      "q": "Can RBI extend an API 653 internal inspection interval?",
+      "a": "Yes, where the assessment supports it. API 653 allows the internal interval to be set by a risk-based assessment instead of the corrosion-rate method, and the result can be longer or shorter than the default. In the fifth edition the analysis must consider the likelihood and consequence factors the standard lists, be validated and be reviewed at least every 10 years. Your API 653 inspector or inspection authority approves the interval; the study gives them a basis they can check."
+    },
+    {
+      "q": "Can a pipeline breakout tank use an RBI interval?",
+      "a": "Not under the current US rule. 49 CFR 195.432 says the risk-based internal inspection procedures in API 653 cannot be used to set the internal interval of a regulated breakout tank. PHMSA proposed in June 2026 to allow them, with records for every likelihood and consequence factor and outer limits of 20 and 25 years. Until a final rule is published, use RBI on breakout tanks to rank and scope work rather than to set the internal date."
+    },
+    {
+      "q": "What can a tank RBI do if we have no floor scan history?",
+      "a": "A useful assessment can still be built from construction data, service history, cathodic protection records and similar-service experience, but the probability of failure will sit higher because nothing has measured the floor. The plan will then usually call for an internal inspection with a full floor scan, so that estimates are replaced by measurements, and the next assessment will move once that data exists."
+    },
+    {
+      "q": "How does API RP 581 treat a leak from a tank floor?",
+      "a": "As a financial consequence. The method combines environmental clean-up, repair and lost production, and the clean-up part depends on how far released product can travel: into the soil under the floor, down to groundwater or out to surface water. That is why containment, soil type and distance to water appear in the data request from the start rather than as an afterthought."
+    },
+    {
+      "q": "Does a floor scan always count as a highly effective inspection?",
+      "a": "No. The credit depends on what the scan covered and what was done with its indications. Zones the scanner could not reach, such as the strip next to the shell, lap welds, sumps and supports, need covering by other means, and indications need proving up with ultrasonic thickness readings. A scan report without a coverage map or prove-up data earns less credit, and the study records the reason."
+    },
+    {
+      "q": "How often should a storage tank RBI be reviewed?",
+      "a": "On a fixed cycle and whenever something changes. The fifth edition of API 653 calls for review at least once every 10 years. Changes that should trigger an earlier reassessment include a new product, added heating or insulation, a lining failure, a cathodic protection outage, new settlement, a floor repair and any inspection finding outside the rate the assessment assumed."
+    },
+    {
+      "q": "Can Atlantis inspect the tanks the plan identifies?",
+      "a": "In the United States, Atlantis can send UT, MT, PT and VT technicians for shell thickness surveys, corrosion mapping and weld or nozzle examinations that close gaps in the data. Atlantis does not perform radiography in the United States. Elsewhere the study is delivered remotely, and the inspection is carried out by your own inspectors or contractors to the method and coverage the plan specifies."
+    },
+    {
+      "q": "Who signs off the tank inspection intervals?",
+      "a": "Your API 653 inspector, or the inspection authority your company procedure names, approves the intervals and remains responsible for the tank's inspection record. Atlantis prepares the assessment and the proposed plan and answers the inspector's questions about it, but does not take on that role. The report is written so that an inspector who missed the workshops can still trace every date back to its basis."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
-    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
-    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"],
-    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
-    ["/standards/api-653", "API 653 explained"],
-    ["/standards/api-575", "API RP 575 tank inspection practices"],
-    ["/api-inspection/api-653-release-prevention-barrier", "Release prevention barriers and intervals"],
-    ["/api-inspection/api-653-tank-floor-pitting-remaining-thickness", "Tank floor pitting and remaining thickness"],
-    ["/api-inspection/time-based-vs-risk-based-intervals", "Time-based versus risk-based intervals"],
-    ["/blog/api-653-tank-inspection-guide", "API 653 tank inspection guide"]
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review"
+    ],
+    [
+      "/consulting/api-653-tank-inspector-services",
+      "API 653 tank inspection support"
+    ],
+    [
+      "/standards/api-653",
+      "API 653 explained"
+    ],
+    [
+      "/standards/api-575",
+      "API RP 575 tank inspection practices"
+    ],
+    [
+      "/api-inspection/api-653-release-prevention-barrier",
+      "Release prevention barriers and intervals"
+    ],
+    [
+      "/api-inspection/api-653-tank-floor-pitting-remaining-thickness",
+      "Tank floor pitting and remaining thickness"
+    ],
+    [
+      "/api-inspection/time-based-vs-risk-based-intervals",
+      "Time-based versus risk-based intervals"
+    ],
+    [
+      "/blog/api-653-tank-inspection-guide",
+      "API 653 tank inspection guide"
+    ]
   ],
   "sources": [
-    { "fact": "API 653 fifth edition RBI route in 6.4.2.2.2 with 18 likelihood and 13 consequence factors; analysis by people knowledgeable in risk management, validated ideally by a third party, reviewed at least every 10 years; initial interval capped, no time limit on subsequent RBI intervals; third edition section 6.4.3; June 2026 proposal with 20/25-year limits for breakout tanks (comments due 3 Aug 2026)", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" },
-    { "fact": "49 CFR 195.432(b): risk-based internal inspection procedures in API 653 section 6.4.3 cannot be used to set breakout tank internal intervals", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" },
-    { "fact": "Editions: API 653 5th ed. Nov 2014 with addenda 2018, 2020, 2023, 2025; API RP 580 4th ed. Aug 2023; API RP 581 4th ed. Jan 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" },
-    { "fact": "API RP 580 4th edition title 'Elements of a Risk-Based Inspection Program', 1 August 2023", "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html" },
-    { "fact": "API RP 581 tank method: risk per shell course and bottom; bottom COF financial (environmental clean-up, repair, production); environmental clean-up depends on migration to subsurface soil, groundwater, surface water; shell COF area or financial; bottom corrosion factors (soil resistivity, pad, drainage, CP, water draws); effectiveness A to E", "url": "https://e2g.com/industry-insights-ar/tank-rbi-not-just-an-inspection-deferral-tool/" },
-    { "fact": "EEMUA 159 sixth edition (April 2025), updated remaining life calculations for bottom pitting", "url": "https://www.hydrocarbonengineering.com/tanks-terminals/09042025/eemua-releases-new-edition-of-eemua-159" }
+    {
+      "fact": "API 653 fifth edition RBI route in 6.4.2.2.2 with 18 likelihood and 13 consequence factors; analysis by people knowledgeable in risk management, validated ideally by a third party, reviewed at least every 10 years; initial interval capped, no time limit on subsequent RBI intervals; third edition section 6.4.3; June 2026 proposal with 20/25-year limits for breakout tanks (comments due 3 Aug 2026)",
+      "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule"
+    },
+    {
+      "fact": "49 CFR 195.432(b): risk-based internal inspection procedures in API 653 section 6.4.3 cannot be used to set breakout tank internal intervals",
+      "url": "https://www.law.cornell.edu/cfr/text/49/195.432"
+    },
+    {
+      "fact": "Editions: API 653 5th ed. Nov 2014 with addenda 2018, 2020, 2023, 2025; API RP 580 4th ed. Aug 2023; API RP 581 4th ed. Jan 2025",
+      "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/"
+    },
+    {
+      "fact": "API RP 580 4th edition title 'Elements of a Risk-Based Inspection Program', 1 August 2023",
+      "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html"
+    },
+    {
+      "fact": "API RP 581 tank method: risk per shell course and bottom; bottom COF financial (environmental clean-up, repair, production); environmental clean-up depends on migration to subsurface soil, groundwater, surface water; shell COF area or financial; bottom corrosion factors (soil resistivity, pad, drainage, CP, water draws); effectiveness A to E",
+      "url": "https://e2g.com/industry-insights-ar/tank-rbi-not-just-an-inspection-deferral-tool/"
+    },
+    {
+      "fact": "EEMUA 159 sixth edition (April 2025), updated remaining life calculations for bottom pitting",
+      "url": "https://www.hydrocarbonengineering.com/tanks-terminals/09042025/eemua-releases-new-edition-of-eemua-159"
+    },
+    {
+      "fact": "Reviewer check 2026-11-23: NPRM confirms API 653 5th ed. RBI in 6.4.2.2.2 with 18 likelihood and 13 consequence factors (6.4.2.2.2.1-2), validation ideally by a third party, review at least every 10 years, no time limit on subsequent RBI intervals; proposed 20-year initial / 25-year subsequent limits; comments closed August 3 2026; no final rule found",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-02/html/2026-10969.htm"
+    },
+    {
+      "fact": "API STD 653:2014 Addendum 4:2025 exists",
+      "url": "https://shop.standards.ie/en-ie/standards/api-std-653-2014-add-4-2025-97079_saig_api_api_3644775"
+    }
   ]
 }

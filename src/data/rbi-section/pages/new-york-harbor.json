@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection in New York Harbor",
   "intro": "New York Harbor is mostly storage: products, biofuel and chemical terminals along the Arthur Kill and Kill Van Kull, more terminals on Staten Island and in Brooklyn and Queens, and one refinery, Phillips 66's Bayway plant in Linden. It is also where a state rule restricts risk-based inspection most directly. This page is for terminal managers, integrity engineers and inspectors around the harbor. It explains what New Jersey's discharge-prevention rule allows, what a risk assessment still changes, how salt air, filled ground, storm surge and product switching drive damage, and how Atlantis runs the study remotely.",
   "highlights": [
-    { "h": "Built around the state rule", "p": "For regulated tanks at New Jersey major facilities, the state does not permit API 653's risk-based scheduling. The study is written with that limit in view: it ranks, targets and documents within the required schedule instead of proposing intervals the rule would reject." },
-    { "h": "Service history per tank", "p": "Harbor tanks switch between gasoline grades, distillates, ethanol, biodiesel and chemicals. Each tank's product history is loaded and screened, because a change of service can introduce damage, such as ethanol cracking, that the tank's earlier record never showed." },
-    { "h": "US field support for gaps", "p": "The assessment is remote. When shell readings, annular plate data or dock piping thickness are missing, Atlantis can send UT, MT, PT and VT technicians to harbor terminals to take the readings, and the results go straight back into each tank's record." }
+    {
+      "h": "Built around the state rule",
+      "p": "For regulated tanks at New Jersey major facilities, the state does not permit API 653's risk-based scheduling. The study is written with that limit in view: it ranks, targets and documents within the required schedule instead of proposing intervals the rule would reject."
+    },
+    {
+      "h": "Service history per tank",
+      "p": "Harbor tanks switch between gasoline grades, distillates, ethanol, biodiesel and chemicals. Each tank's product history is loaded and screened, because a change of service can introduce damage, such as ethanol cracking, that the tank's earlier record never showed."
+    },
+    {
+      "h": "US field support for gaps",
+      "p": "The assessment is remote. When shell readings, annular plate data or dock piping thickness are missing, Atlantis can send UT, MT, PT and VT technicians to harbor terminals to take the readings, and the results go straight back into each tank's record."
+    }
   ],
   "sections": [
     {
@@ -18,18 +27,48 @@
         "The scale is large. Kinder Morgan's Carteret terminal lists 280 tanks holding about 8.9 million barrels on 197 acres along the Arthur Kill, with six ship and barge docks, connections to the Colonial and Buckeye pipeline systems, and products that include gasoline and diesel, ultra-low sulfur diesel, ethanol, biodiesel and chemicals. Its Linden terminal is a dedicated ethanol site of seven tanks. At Constable Hook in Bayonne, IMTT's terminal covers roughly 370 upland acres, of which the company plans to redevelop up to about 130, so some of its tankage is moving out of service as the site changes."
       ],
       "table": {
-        "head": ["Location", "What is stored there", "What tends to matter in the risk assessment"],
+        "head": [
+          "Location",
+          "What is stored there",
+          "What tends to matter in the risk assessment"
+        ],
         "rows": [
-          ["Bayonne and Jersey City", "Large multi-product and chemical terminals with hundreds of tanks", "Many service histories in one farm, tanks being retired or repurposed during redevelopment"],
-          ["Linden and Tremley Point", "Refinery crude, intermediate and product tanks, pipeline delivery terminals, ethanol storage", "Process units under API 510 and API 570 beside tankage, ethanol cracking, breakout tank status"],
-          ["Carteret", "Products, biofuel and chemical terminal with ship and barge docks", "Wide product range per tank, long dock and transfer piping runs in marine air"],
-          ["Sewaren, Port Reading and Perth Amboy", "Terminals on former refinery sites", "Old foundations and bottoms, legacy underground piping, records inherited through changes of owner"],
-          ["Staten Island, Brooklyn and Queens", "Products terminals serving the city", "New York State bulk storage rules, tight sites and city permitting"]
+          [
+            "Bayonne and Jersey City",
+            "Large multi-product and chemical terminals with hundreds of tanks",
+            "Many service histories in one farm, tanks being retired or repurposed during redevelopment"
+          ],
+          [
+            "Linden and Tremley Point",
+            "Refinery crude, intermediate and product tanks, pipeline delivery terminals, ethanol storage",
+            "Process units under API 510 and API 570 beside tankage, ethanol cracking, breakout tank status"
+          ],
+          [
+            "Carteret",
+            "Products, biofuel and chemical terminal with ship and barge docks",
+            "Wide product range per tank, long dock and transfer piping runs in marine air"
+          ],
+          [
+            "Sewaren, Port Reading and Perth Amboy",
+            "Terminals on former refinery sites",
+            "Old foundations and bottoms, legacy underground piping, records inherited through changes of owner"
+          ],
+          [
+            "Staten Island, Brooklyn and Queens",
+            "Products terminals serving the city",
+            "New York State bulk storage rules, tight sites and city permitting"
+          ]
         ]
       },
       "links": [
-        ["/api-653-tank-inspection-new-jersey", "API 653 tank inspection support in New Jersey"],
-        ["/inspection/tank-inspection-services-new-york", "Tank inspection in New York"]
+        [
+          "/api-653-tank-inspection-new-jersey",
+          "API 653 tank inspection support in New Jersey"
+        ],
+        [
+          "/inspection/tank-inspection-services-new-york",
+          "Tank inspection in New York"
+        ]
       ]
     },
     {
@@ -37,10 +76,13 @@
       "h": "New Jersey's discharge-prevention rule and what it means for RBI",
       "p": [
         "New Jersey's Discharge of Petroleum and Other Hazardous Substances rules, N.J.A.C. 7:1E, require major facilities to integrity-test their aboveground storage tanks. For field-erected steel tanks larger than 2,000 gallons, section 7:1E-2.16(d) says that tanks operated at atmospheric pressure shall follow API 653, and the schedule and series of tests and inspections it establishes, except that the similar-service and risk-based inspection scheduling in API 653 are not permitted. Pressure tanks follow API 510 or ASME Section VIII, with the same exclusion of API 510's similar-service and risk-based scheduling. Each tank's schedule is carried in the facility's Discharge Prevention, Containment and Countermeasure plan.",
-        "In plain terms, a New Jersey terminal cannot use an RBI study to stretch the internal inspection interval of a regulated storage tank beyond what API 653's corrosion-rate method gives, unless the Department accepts an alternative. Where none of the listed protocols is practicable, the owner may propose one to the Department under N.J.A.C. 7:1E-1.11(e), and facilities that already have an approved alternative are expected to re-justify it when the plan is renewed. In the Linden pipeline hub a tank can be both a federal breakout tank and a tank at a NJDEP major facility, with the federal rule incorporating an older edition of API 653 than the one the state points to, so each tank's governing schedule has to be worked out before any plan is written."
+        "In plain terms, a New Jersey terminal cannot use an RBI study to stretch the internal inspection interval of a regulated storage tank beyond what API 653's corrosion-rate method gives, unless the Department accepts an alternative. Where none of the listed protocols is practicable for a tank, subsection (i) of the same section lets the owner propose another one to the Department under N.J.A.C. 7:1E-1.11(e). In the Linden pipeline hub a tank can be both a federal breakout tank and a tank at a NJDEP major facility, with the federal rule incorporating an older edition of API 653 than the one the state points to, so each tank's governing schedule has to be worked out before any plan is written."
       ],
       "links": [
-        ["/standards/api-653", "API 653 explained"]
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ]
       ]
     },
     {
@@ -90,8 +132,14 @@
         "New Jersey adds two state layers. The Office of Boiler and Pressure Vessel Compliance in the Department of Labor and Workforce Development regulates pressure vessels as well as boilers, with periodic inspection by state inspectors or authorised insurance or owner-user inspectors, so an RBI interval on a jurisdictional vessel should be confirmed against the state's requirements before it is used. The Toxic Catastrophe Prevention Act programme, administered by NJDEP, applies risk management requirements to processes handling extraordinarily hazardous substances. The RBI report lists items under each regime separately, so the inspector can see which intervals the risk assessment is free to set and which another rule governs."
       ],
       "links": [
-        ["/api-510-pressure-vessel-inspection-new-jersey", "API 510 vessel inspection support in New Jersey"],
-        ["/api-570-piping-inspection-new-jersey", "API 570 piping inspection support in New Jersey"]
+        [
+          "/api-510-pressure-vessel-inspection-new-jersey",
+          "API 510 vessel inspection support in New Jersey"
+        ],
+        [
+          "/api-570-piping-inspection-new-jersey",
+          "API 570 piping inspection support in New Jersey"
+        ]
       ]
     },
     {
@@ -141,34 +189,113 @@
     "Airport, utility and power station fuel storage"
   ],
   "faqs": [
-    { "q": "Can we use API 653's risk-based internal interval at our New Jersey terminal?", "a": "Not for regulated tanks at a major facility under the current rule. N.J.A.C. 7:1E-2.16(d) requires field-erected steel tanks over 2,000 gallons to follow API 653's schedule and series of inspections but does not permit its similar-service or risk-based scheduling. An owner may propose an alternative protocol to NJDEP where the listed ones are not practicable, and the Department decides." },
-    { "q": "Then what is the point of RBI at a New Jersey major facility?", "a": "It directs effort inside the schedule. The ranking decides which tanks get attention and resources first, how much of each floor is scanned, how prove-up is targeted and which tanks deserve earlier inspection. It also covers refinery process equipment and dock piping that the tank rule does not schedule, and it documents the evidence any alternative proposal would need." },
-    { "q": "Does the restriction cover LPG or other pressurised storage tanks?", "a": "Yes, for pressure tanks within the rule. Section 7:1E-2.16(d) sends them to API 510 or ASME Section VIII and excludes API 510's similar-service and risk-based scheduling in the same way. Process vessels that are not storage tanks fall outside that subsection, but they still sit under the state's pressure vessel programme, so their intervals should be confirmed with the inspector." },
-    { "q": "How should Superstorm Sandy history be treated in the model?", "a": "As part of each tank's record. Tanks that were flooded, moved or repaired after 2012 need their foundation, settlement, cathodic protection and repair data loaded, because surge damage can change soil-side corrosion and settlement for years. Where those records are missing, the gap is logged with a conservative assumption, and the plan names a future major storm as a reassessment trigger." },
-    { "q": "We switched a tank to ethanol or renewable diesel. Does the assessment change?", "a": "Yes. A change of service is a reassessment trigger. Ethanol brings the possibility of stress corrosion cracking of carbon steel, which needs crack-capable inspection at welds, and biodiesel can raise the likelihood of microbial corrosion in water bottoms. The tank's earlier corrosion history still informs thinning rates, but the new mechanisms are added and the plan is revised accordingly." },
-    { "q": "Are the Linden pipeline tanks under PHMSA or NJDEP?", "a": "Possibly both. A tank that serves as a breakout tank on a hazardous liquid pipeline comes under the federal rule, and if it also sits at a NJDEP major facility the state rule applies too, with the two referencing different editions of API 653. The study works out the governing requirements tank by tank and keeps every recommendation inside the stricter of them." },
-    { "q": "Can Atlantis technicians work at Carteret, Bayonne or Staten Island terminals?", "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to harbor terminals for shell and annular plate readings, dock and transfer piping thickness surveys, corrosion mapping and surface examination of welds in ethanol or other cracking service. They work under the terminal's own safety, permit and site access requirements, while radiographic work stays with your licensed contractor." },
-    { "q": "Who approves the inspection plan?", "a": "Your API 653, 510 or 570 inspector, or the operator's inspection authority, approves it and sets the dates that go into the DPCC or state schedule. The study recommends and documents; it does not approve. If inspection reveals damage that needs an engineering judgement on continued service, your engineer makes that decision and the risk record is updated afterwards." }
+    {
+      "q": "Can we use API 653's risk-based internal interval at our New Jersey terminal?",
+      "a": "Not for regulated tanks at a major facility under the current rule. N.J.A.C. 7:1E-2.16(d) requires field-erected steel tanks over 2,000 gallons to follow API 653's schedule and series of inspections but does not permit its similar-service or risk-based scheduling. An owner may propose an alternative protocol to NJDEP where the listed ones are not practicable, and the Department decides."
+    },
+    {
+      "q": "Then what is the point of RBI at a New Jersey major facility?",
+      "a": "It directs effort inside the schedule. The ranking decides which tanks get attention and resources first, how much of each floor is scanned, how prove-up is targeted and which tanks deserve earlier inspection. It also covers refinery process equipment and dock piping that the tank rule does not schedule, and it documents the evidence any alternative proposal would need."
+    },
+    {
+      "q": "Does the restriction cover LPG or other pressurised storage tanks?",
+      "a": "Yes, for pressure tanks within the rule. Section 7:1E-2.16(d) sends them to API 510 or ASME Section VIII and excludes API 510's similar-service and risk-based scheduling in the same way. Process vessels that are not storage tanks fall outside that subsection, but they still sit under the state's pressure vessel programme, so their intervals should be confirmed with the inspector."
+    },
+    {
+      "q": "How should Superstorm Sandy history be treated in the model?",
+      "a": "As part of each tank's record. Tanks that were flooded, moved or repaired after 2012 need their foundation, settlement, cathodic protection and repair data loaded, because surge damage can change soil-side corrosion and settlement for years. Where those records are missing, the gap is logged with a conservative assumption, and the plan names a future major storm as a reassessment trigger."
+    },
+    {
+      "q": "We switched a tank to ethanol or renewable diesel. Does the assessment change?",
+      "a": "Yes. A change of service is a reassessment trigger. Ethanol brings the possibility of stress corrosion cracking of carbon steel, which needs crack-capable inspection at welds, and biodiesel can raise the likelihood of microbial corrosion in water bottoms. The tank's earlier corrosion history still informs thinning rates, but the new mechanisms are added and the plan is revised accordingly."
+    },
+    {
+      "q": "Are the Linden pipeline tanks under PHMSA or NJDEP?",
+      "a": "Possibly both. A tank that serves as a breakout tank on a hazardous liquid pipeline comes under the federal rule, and if it also sits at a NJDEP major facility the state rule applies too, with the two referencing different editions of API 653. The study works out the governing requirements tank by tank and keeps every recommendation inside the stricter of them."
+    },
+    {
+      "q": "Can Atlantis technicians work at Carteret, Bayonne or Staten Island terminals?",
+      "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to harbor terminals for shell and annular plate readings, dock and transfer piping thickness surveys, corrosion mapping and surface examination of welds in ethanol or other cracking service. They work under the terminal's own safety, permit and site access requirements, while radiographic work stays with your licensed contractor."
+    },
+    {
+      "q": "Who approves the inspection plan?",
+      "a": "Your API 653, 510 or 570 inspector, or the operator's inspection authority, approves it and sets the dates that go into the DPCC or state schedule. The study recommends and documents; it does not approve. If inspection reveals damage that needs an engineering judgement on continued service, your engineer makes that decision and the risk record is updated afterwards."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection/philadelphia", "RBI in Philadelphia and the Delaware River"],
-    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
-    ["/api-653-tank-inspection-new-jersey", "API 653 tank inspection support in New Jersey"],
-    ["/inspection-services-new-jersey", "NDT inspection services in New Jersey"],
-    ["/inspection-services-new-york", "NDT inspection services in New York"],
-    ["/inspection/third-party-inspection-new-york", "Third-party inspection in New York"],
-    ["/ultrasonic-testing-newark", "Ultrasonic testing in Newark"],
-    ["/standards/api-653", "API 653 explained"],
-    ["/standards/api-571", "API 571 damage mechanisms"],
-    ["/corrosion-mapping", "Corrosion mapping"],
-    ["/contact", "Contact Atlantis"]
+    [
+      "/inspection/risk-based-inspection/philadelphia",
+      "RBI in Philadelphia and the Delaware River"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/api-653-tank-inspection-new-jersey",
+      "API 653 tank inspection support in New Jersey"
+    ],
+    [
+      "/inspection-services-new-jersey",
+      "NDT inspection services in New Jersey"
+    ],
+    [
+      "/inspection-services-new-york",
+      "NDT inspection services in New York"
+    ],
+    [
+      "/inspection/third-party-inspection-new-york",
+      "Third-party inspection in New York"
+    ],
+    [
+      "/ultrasonic-testing-newark",
+      "Ultrasonic testing in Newark"
+    ],
+    [
+      "/standards/api-653",
+      "API 653 explained"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 damage mechanisms"
+    ],
+    [
+      "/corrosion-mapping",
+      "Corrosion mapping"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
   ],
   "sources": [
-    { "fact": "N.J.A.C. 7:1E-2.16(d): field-erected steel tanks >2,000 gallons; atmospheric tanks follow API 653 schedule and series except similar service and risk based inspection scheduling not permitted; pressure tanks API 510 or ASME VIII with same exclusion; may propose protocol under 7:1E-1.11(e)", "url": "https://law.cornell.edu/regulations/new-jersey/N-J-A-C-7-1E-2-16" },
-    { "fact": "Kinder Morgan Carteret Terminal: 197 acres on the Arthur Kill, 280 tanks, 8,915,771 barrels, six docks, Colonial and Buckeye connections, biodiesel/chemicals/ethanol/petroleum/ULSD", "url": "https://www.kindermorgan.com/WWWKM/media/Terminals/Northeast-Carteret.pdf" },
-    { "fact": "Kinder Morgan Linden Terminal on the Arthur Kill: 7 tanks, 510,000 barrels, ethanol", "url": "https://www.KinderMorgan.com/WWWKM/media/Terminals/Northeast-Linden.pdf" },
-    { "fact": "IMTT Bayonne at Constable Hook: roughly 370 upland acres, plans to redevelop up to about 130 acres; sponsor Riverstone", "url": "https://imtt.com/?p=35033" },
-    { "fact": "Bayway refinery (Phillips 66, Linden); Colonial Pipeline northern deliveries in Linden area; terminals on former refinery sites; Sandy 2012 flooding and tank displacement; DPCC plan schedules; re-justify alternatives at plan renewal; Linden tank can be PHMSA breakout and NJDEP major facility with different API 653 editions; NJDOL Office of Boiler and Pressure Vessel Compliance regulates boilers and pressure vessels; TCPA administered by NJDEP", "url": "https://atlantisndt.com/api-653-tank-inspection-new-jersey" },
-    { "fact": "New York has no operating refinery; terminals in Brooklyn, Queens, Staten Island; NYSDEC Part 613 PBS, Part 610 MOSF, CBS rules; NYC Department of Buildings boilers", "url": "https://atlantisndt.com/inspection-services-new-york" }
+    {
+      "fact": "N.J.A.C. 7:1E-2.16(d): field-erected steel tanks >2,000 gallons; atmospheric tanks follow API 653 schedule and series except similar service and risk based inspection scheduling not permitted; pressure tanks API 510 or ASME VIII with same exclusion; may propose protocol under 7:1E-1.11(e)",
+      "url": "https://law.cornell.edu/regulations/new-jersey/N-J-A-C-7-1E-2-16"
+    },
+    {
+      "fact": "Kinder Morgan Carteret Terminal: 197 acres on the Arthur Kill, 280 tanks, 8,915,771 barrels, six docks, Colonial and Buckeye connections, biodiesel/chemicals/ethanol/petroleum/ULSD",
+      "url": "https://www.kindermorgan.com/WWWKM/media/Terminals/Northeast-Carteret.pdf"
+    },
+    {
+      "fact": "Kinder Morgan Linden Terminal on the Arthur Kill: 7 tanks, 510,000 barrels, ethanol",
+      "url": "https://www.KinderMorgan.com/WWWKM/media/Terminals/Northeast-Linden.pdf"
+    },
+    {
+      "fact": "IMTT Bayonne at Constable Hook: roughly 370 upland acres, plans to redevelop up to about 130 acres; sponsor Riverstone",
+      "url": "https://imtt.com/?p=35033"
+    },
+    {
+      "fact": "Bayway refinery (Phillips 66, Linden); Colonial Pipeline northern deliveries in Linden area; terminals on former refinery sites; Sandy 2012 flooding and tank displacement; DPCC plan schedules; Linden tank can be PHMSA breakout and NJDEP major facility with different API 653 editions; NJDOL Office of Boiler and Pressure Vessel Compliance regulates boilers and pressure vessels; TCPA administered by NJDEP",
+      "url": "https://atlantisndt.com/api-653-tank-inspection-new-jersey"
+    },
+    {
+      "fact": "New York has no operating refinery; terminals in Brooklyn, Queens, Staten Island; NYSDEC Part 613 PBS, Part 610 MOSF, CBS rules; NYC Department of Buildings boilers",
+      "url": "https://atlantisndt.com/inspection-services-new-york"
+    },
+    {
+      "fact": "Reviewer check 2026-11-23: 7:1E-2.16(d)(1) atmospheric tanks follow API 653 except similar service and risk based inspection scheduling; (d)(2) pressure tanks API 510 or ASME VIII with the same exclusion for API 510; (i) owner may propose a protocol under 7:1E-1.11(e). Statement that approved alternatives must be re-justified at plan renewal not found and removed",
+      "url": "https://law.cornell.edu/regulations/new-jersey/N-J-A-C-7-1E-2-16"
+    }
   ]
 }

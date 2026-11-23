@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection on the Delaware River",
   "intro": "The tidal Delaware between Philadelphia and Delaware City has changed more than most US refining centres. The large South Philadelphia refinery closed after a 2019 fire, the Marcus Hook complex now stores and exports natural gas liquids, and the refining that remains is at Trainer in Pennsylvania, Paulsboro in New Jersey and Delaware City in Delaware, with products and chemical terminals along both banks. This page is for integrity and inspection leads on that river. It covers three states' tank rules, plants that have changed service, cold-service NGL equipment and how Atlantis runs an RBI study remotely.",
   "highlights": [
-    { "h": "Three states, one plan", "p": "Pennsylvania caps tank inspection intervals in regulation, New Jersey bars risk-based tank scheduling at major facilities, and Delaware has its own tank programme. The study works out the governing rule for each tank before it ranks anything, so no plan crosses a state line it cannot." },
-    { "h": "Equipment in its second life", "p": "Refinery tanks and piping now serving as terminal or NGL equipment carry old records and new damage mechanisms. The assessment resets the damage picture for the current service while keeping the thickness history that still tells the truth about the metal." },
-    { "h": "Readings from US technicians", "p": "The study is remote. Where Chapter 245 corrosion-rate calculations or the risk model need readings at consistent locations, Atlantis can send UT, MT, PT and VT technicians to Delaware Valley sites and load the results into each item's record." }
+    {
+      "h": "Three states, one plan",
+      "p": "Pennsylvania caps tank inspection intervals in regulation, New Jersey bars risk-based tank scheduling at major facilities, and Delaware has its own tank programme. The study works out the governing rule for each tank before it ranks anything, so no plan crosses a state line it cannot."
+    },
+    {
+      "h": "Equipment in its second life",
+      "p": "Refinery tanks and piping now serving as terminal or NGL equipment carry old records and new damage mechanisms. The assessment resets the damage picture for the current service while keeping the thickness history that still tells the truth about the metal."
+    },
+    {
+      "h": "Readings from US technicians",
+      "p": "The study is remote. Where Chapter 245 corrosion-rate calculations or the risk model need readings at consistent locations, Atlantis can send UT, MT, PT and VT technicians to Delaware Valley sites and load the results into each item's record."
+    }
   ],
   "sections": [
     {
@@ -18,18 +27,48 @@
         "Across the river and downstream, PBF Energy runs what it calls its East Coast refining system: the Paulsboro refinery in Gloucester County, New Jersey, listed at 155,000 barrels a day, and the Delaware City refinery in Delaware, listed at 180,000 barrels a day, about 30 miles apart and operated in combination to process a wide variety of crude oils. Around them sit products terminals at Paulsboro, Westville and Pennsauken, the Chambers Works chemical site at Deepwater, river port facilities and pipeline connections, so a single owner's RBI scope can cross state lines more often than anywhere else in the country."
       ],
       "table": {
-        "head": ["Site or stretch", "Typical RBI scope", "What usually drives risk"],
+        "head": [
+          "Site or stretch",
+          "Typical RBI scope",
+          "What usually drives risk"
+        ],
         "rows": [
-          ["Trainer, Pennsylvania", "Refinery process units, tank fields, river dock and transfer piping", "Crude-unit and hydroprocessing mechanisms, CUI in freeze-thaw winters, Chapter 245 tank limits"],
-          ["Marcus Hook, Pennsylvania", "NGL storage, processing and export equipment on a former refinery site", "Low-temperature service and brittle fracture screening, CUI on cold lines, legacy equipment in new service"],
-          ["Philadelphia waterfront", "Products and chemical terminals, redeveloped refinery land", "Floor corrosion on older tanks, records inherited through closures and sales"],
-          ["Paulsboro and Westville, New Jersey", "Refinery units, products terminals, pipeline connections", "Refinery mechanisms, New Jersey's bar on risk-based tank scheduling"],
-          ["Delaware City, Delaware", "Refinery process units and tank fields in the lower estuary", "Varied crude slates, brackish cooling water in exchangers, coastal storm exposure"]
+          [
+            "Trainer, Pennsylvania",
+            "Refinery process units, tank fields, river dock and transfer piping",
+            "Crude-unit and hydroprocessing mechanisms, CUI in freeze-thaw winters, Chapter 245 tank limits"
+          ],
+          [
+            "Marcus Hook, Pennsylvania",
+            "NGL storage, processing and export equipment on a former refinery site",
+            "Low-temperature service and brittle fracture screening, CUI on cold lines, legacy equipment in new service"
+          ],
+          [
+            "Philadelphia waterfront",
+            "Products and chemical terminals, redeveloped refinery land",
+            "Floor corrosion on older tanks, records inherited through closures and sales"
+          ],
+          [
+            "Paulsboro and Westville, New Jersey",
+            "Refinery units, products terminals, pipeline connections",
+            "Refinery mechanisms, New Jersey's bar on risk-based tank scheduling"
+          ],
+          [
+            "Delaware City, Delaware",
+            "Refinery process units and tank fields in the lower estuary",
+            "Varied crude slates, brackish cooling water in exchangers, coastal storm exposure"
+          ]
         ]
       },
       "links": [
-        ["/api-653-tank-inspection-pennsylvania", "API 653 tank inspection support in Pennsylvania"],
-        ["/inspection/tank-inspection-services-philadelphia", "Tank inspection in Philadelphia"]
+        [
+          "/api-653-tank-inspection-pennsylvania",
+          "API 653 tank inspection support in Pennsylvania"
+        ],
+        [
+          "/inspection/tank-inspection-services-philadelphia",
+          "Tank inspection in Philadelphia"
+        ]
       ]
     },
     {
@@ -39,24 +78,47 @@
         "The first job in a Delaware Valley study is working out which rules set each tank's dates. API 653 applies everywhere as the inspection standard, but each state layers its own requirements over it, and pipeline breakout tanks add the federal rule on top. The table summarises how those layers bear on what a risk assessment can change."
       ],
       "table": {
-        "head": ["Where the tank is", "State layer", "Effect on a risk-based interval"],
+        "head": [
+          "Where the tank is",
+          "State layer",
+          "Effect on a risk-based interval"
+        ],
         "rows": [
-          ["Pennsylvania", "Storage Tank and Spill Prevention Act and 25 Pa. Code Chapter 245, with inspections by DEP-certified tank inspectors", "In-service and out-of-service inspections have maximum intervals in regulation; a risk-based plan has to sit inside them"],
-          ["New Jersey", "N.J.A.C. 7:1E discharge-prevention rules for major facilities, schedules carried in the DPCC plan", "API 653's risk-based and similar-service scheduling is not permitted for regulated tanks unless the Department accepts an alternative"],
-          ["Delaware", "The state environmental agency's own storage tank programme", "Check each tank's state requirements before relying on an API 653 risk-based interval"],
-          ["Any state, pipeline breakout tank", "49 CFR 195.432 (federal)", "Internal intervals stay on measured corrosion rates under the current text"]
+          [
+            "Pennsylvania",
+            "Storage Tank and Spill Prevention Act and 25 Pa. Code Chapter 245, with inspections by DEP-certified tank inspectors",
+            "In-service and out-of-service inspections have maximum intervals in regulation; a risk-based plan has to sit inside them"
+          ],
+          [
+            "New Jersey",
+            "N.J.A.C. 7:1E discharge-prevention rules for major facilities, schedules carried in the DPCC plan",
+            "API 653's risk-based and similar-service scheduling is not permitted for regulated tanks unless the Department accepts an alternative"
+          ],
+          [
+            "Delaware",
+            "The state environmental agency's own storage tank programme",
+            "Check each tank's state requirements before relying on an API 653 risk-based interval"
+          ],
+          [
+            "Any state, pipeline breakout tank",
+            "49 CFR 195.432 (federal)",
+            "Internal intervals stay on measured corrosion rates under the current text"
+          ]
         ]
       },
       "links": [
-        ["/inspection/risk-based-inspection/new-york-harbor", "New Jersey's tank rule explained on the New York Harbor page"]
+        [
+          "/inspection/risk-based-inspection/new-york-harbor",
+          "New Jersey's tank rule explained on the New York Harbor page"
+        ]
       ]
     },
     {
       "id": "chapter-245",
       "h": "Pennsylvania's Chapter 245 limits and a risk-based plan",
       "p": [
-        "Pennsylvania is one of the few states that writes API 653-style tank inspections into its own regulations. Under Chapter 245, a regulated aboveground tank must have its first in-service inspection within five years of installation, and later in-service inspections follow the API 653 calculated service life or a quarter of the corrosion-rate life, with no more than five years between them. Where a bottom's corrosion rate is unknown, its actual thickness must be determined within ten years of installation; later out-of-service inspections follow the calculated service life or half the corrosion-rate life, with a maximum of twenty years since the previous one. Tanks storing highly hazardous substances have shorter intervals, and an out-of-service inspection can take the place of an in-service one.",
-        "Those limits apply even where API 653 alone would allow longer, for example for a tank with a release prevention barrier, so a Pennsylvania RBI plan can rank and target but never schedule beyond the state cap. In practice the study does three things for a Chapter 245 tank: it uses risk to decide which tanks should be inspected well before their caps, it sets the coverage and methods that make each inspection worth the outage, and it makes sure the thickness readings feeding the state's corrosion-rate calculation are taken at consistent locations so the next rate means something. The inspection itself is signed by a DEP-certified inspector, who for a field-constructed tank must also hold API 653 certification."
+        "Pennsylvania is one of the few states that writes API 653-style tank inspections into its own regulations. Under Chapter 245, a regulated aboveground tank must have its first in-service inspection within five years of installation, and later in-service inspections follow the API 653 calculated service life or a quarter of the corrosion-rate life, with no more than five years between them. Where a bottom's corrosion rate is unknown, its actual thickness must be determined within ten years of installation; later out-of-service inspections follow the calculated service life or half the corrosion-rate life, with a maximum of twenty years since the previous one. Tanks storing highly hazardous substances enter the periodic inspection programme at a smaller size, above 1,100 gallons rather than 5,000, and an out-of-service inspection can take the place of an in-service one.",
+        "Those limits apply even where API 653 alone would allow longer, for example for a tank with a release prevention barrier, so a Pennsylvania RBI plan can rank and target but never schedule beyond the state cap. In practice the study does three things for a Chapter 245 tank: it uses risk to decide which tanks should be inspected well before their caps, it sets the coverage and methods that make each inspection worth the outage, and it makes sure the thickness readings feeding the state's corrosion-rate calculation are taken at consistent locations so the next rate means something. The inspection itself is signed by a DEP-certified inspector, who for a field-constructed tank must hold the department's field-constructed (IAF) certification category."
       ],
       "list": [
         "Chapter 245 due dates loaded as hard limits beside the risk-based dates, with the earlier date governing",
@@ -89,8 +151,14 @@
         "The plan ties those rates to integrity operating windows built to API RP 584, so a crude property outside its agreed range reaches the inspection team as a reassessment trigger rather than surfacing as unexpected wall loss at the next turnaround. Items whose damage is cracking or attack rather than thinning are named separately and given inspection capable of finding it, because a thickness programme alone will not protect them."
       ],
       "links": [
-        ["/standards/api-584", "API 584 integrity operating windows"],
-        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"]
+        [
+          "/standards/api-584",
+          "API 584 integrity operating windows"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
       ]
     },
     {
@@ -109,8 +177,14 @@
         "Pipeline safety for jurisdictional intrastate systems in Pennsylvania sits with the Public Utility Commission, while interstate lines and their breakout tanks come under PHMSA. Process safety management is enforced by federal OSHA in Pennsylvania, New Jersey and Delaware for private employers, and EPA's Risk Management Program covers many of the same processes. Each of these regimes reads the same RBI evidence: the damage mechanisms considered, the rates and their sources, the inspection credited and the approval behind each interval."
       ],
       "links": [
-        ["/api-510-pressure-vessel-inspection-pennsylvania", "API 510 vessel inspection support in Pennsylvania"],
-        ["/api-570-piping-inspection-pennsylvania", "API 570 piping inspection support in Pennsylvania"]
+        [
+          "/api-510-pressure-vessel-inspection-pennsylvania",
+          "API 510 vessel inspection support in Pennsylvania"
+        ],
+        [
+          "/api-570-piping-inspection-pennsylvania",
+          "API 570 piping inspection support in Pennsylvania"
+        ]
       ]
     },
     {
@@ -152,33 +226,113 @@
     "Port and marine fuel facilities"
   ],
   "faqs": [
-    { "q": "Can RBI extend a Pennsylvania tank's out-of-service interval beyond twenty years?", "a": "No. Chapter 245 caps the time between out-of-service inspections at twenty years and in-service inspections at five, whatever API 653 alone would allow. A risk-based plan can bring inspections forward, set coverage and methods and decide which tanks come first, but the state limit governs the latest date. Confirm current requirements for each tank with DEP." },
-    { "q": "Does an RBI study replace a Chapter 245 inspection?", "a": "No. Chapter 245 inspections are performed and signed by DEP-certified tank inspectors, who for field-constructed tanks must also hold API 653 certification. The RBI study decides where inspection effort should go and makes sure the readings it relies on are taken at consistent locations; the certified inspector carries out the evaluation the regulation requires." },
-    { "q": "Our terminal used to be part of a refinery that has since closed. Can the old records still be used?", "a": "Usually, with care. Earlier thickness readings and floor maps give a starting wall and a measured loss, which remain useful, but the damage mechanisms are reassigned for the current service and future rates may differ. Where a change of owner broke the record chain, the gap is logged and the plan may recommend fresh baseline readings before long intervals are relied on." },
-    { "q": "How is refrigerated or pressurised NGL storage handled in an RBI study?", "a": "With a different emphasis from refinery equipment. Brittle fracture is screened using material toughness and credible low-temperature events, corrosion under insulation is assigned to lines that cycle between cold and ambient, and refrigerated tank foundations get their own tasks. Consequence reflects flammable vapour release, so connections and small-bore branches usually receive close attention." },
-    { "q": "Do tanks at Paulsboro follow the same rules as tanks in Pennsylvania?", "a": "No. On the New Jersey bank, regulated tanks at a major facility come under N.J.A.C. 7:1E, which requires API 653's schedule and does not permit its risk-based or similar-service scheduling without an accepted alternative. Pennsylvania instead caps intervals through Chapter 245. The study records the governing rule tank by tank." },
-    { "q": "Should exchangers on river cooling water be part of the RBI scope?", "a": "Yes. Brackish water from the lower Delaware raises the likelihood of chloride pitting, fouling and microbiologically influenced corrosion on the cooling water side of tubes and in cooling water piping. Including those surfaces, with their water treatment history and tube inspection results, gives a truer picture than assessing only the process side of each exchanger." },
-    { "q": "Can Atlantis send technicians to Trainer, Marcus Hook or Paulsboro?", "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to Delaware Valley sites for thickness surveys at repeatable locations, corrosion mapping on suspect areas and surface examination of welds in cracking service. They follow the site's safety and permit rules, and their results go straight into each item's record. Radiographic work stays with your licensed contractor." },
-    { "q": "Who approves the inspection intervals?", "a": "The relevant inspector of record: your API 653, 510 or 570 inspector, the DEP-certified tank inspector for Chapter 245 tanks, a commissioned inspector for jurisdictional vessels or the operator's inspection authority. The study recommends and documents its basis. Damage that needs an engineering judgement on continued service goes to your engineer, and the model is updated afterwards." }
+    {
+      "q": "Can RBI extend a Pennsylvania tank's out-of-service interval beyond twenty years?",
+      "a": "No. Chapter 245 caps the time between out-of-service inspections at twenty years and in-service inspections at five, whatever API 653 alone would allow. A risk-based plan can bring inspections forward, set coverage and methods and decide which tanks come first, but the state limit governs the latest date. Confirm current requirements for each tank with DEP."
+    },
+    {
+      "q": "Does an RBI study replace a Chapter 245 inspection?",
+      "a": "No. Chapter 245 inspections are performed and signed by DEP-certified tank inspectors, who need the field-constructed (IAF) category for field-erected tanks. The RBI study decides where inspection effort should go and makes sure the readings it relies on are taken at consistent locations; the certified inspector carries out the evaluation the regulation requires."
+    },
+    {
+      "q": "Our terminal used to be part of a refinery that has since closed. Can the old records still be used?",
+      "a": "Usually, with care. Earlier thickness readings and floor maps give a starting wall and a measured loss, which remain useful, but the damage mechanisms are reassigned for the current service and future rates may differ. Where a change of owner broke the record chain, the gap is logged and the plan may recommend fresh baseline readings before long intervals are relied on."
+    },
+    {
+      "q": "How is refrigerated or pressurised NGL storage handled in an RBI study?",
+      "a": "With a different emphasis from refinery equipment. Brittle fracture is screened using material toughness and credible low-temperature events, corrosion under insulation is assigned to lines that cycle between cold and ambient, and refrigerated tank foundations get their own tasks. Consequence reflects flammable vapour release, so connections and small-bore branches usually receive close attention."
+    },
+    {
+      "q": "Do tanks at Paulsboro follow the same rules as tanks in Pennsylvania?",
+      "a": "No. On the New Jersey bank, regulated tanks at a major facility come under N.J.A.C. 7:1E, which requires API 653's schedule and does not permit its risk-based or similar-service scheduling without an accepted alternative. Pennsylvania instead caps intervals through Chapter 245. The study records the governing rule tank by tank."
+    },
+    {
+      "q": "Should exchangers on river cooling water be part of the RBI scope?",
+      "a": "Yes. Brackish water from the lower Delaware raises the likelihood of chloride pitting, fouling and microbiologically influenced corrosion on the cooling water side of tubes and in cooling water piping. Including those surfaces, with their water treatment history and tube inspection results, gives a truer picture than assessing only the process side of each exchanger."
+    },
+    {
+      "q": "Can Atlantis send technicians to Trainer, Marcus Hook or Paulsboro?",
+      "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to Delaware Valley sites for thickness surveys at repeatable locations, corrosion mapping on suspect areas and surface examination of welds in cracking service. They follow the site's safety and permit rules, and their results go straight into each item's record. Radiographic work stays with your licensed contractor."
+    },
+    {
+      "q": "Who approves the inspection intervals?",
+      "a": "The relevant inspector of record: your API 653, 510 or 570 inspector, the DEP-certified tank inspector for Chapter 245 tanks, a commissioned inspector for jurisdictional vessels or the operator's inspection authority. The study recommends and documents its basis. Damage that needs an engineering judgement on continued service goes to your engineer, and the model is updated afterwards."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection/new-york-harbor", "RBI for New York Harbor terminals"],
-    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
-    ["/api-653-tank-inspection-pennsylvania", "API 653 tank inspection support in Pennsylvania"],
-    ["/api-653-tank-inspection-new-jersey", "API 653 tank inspection support in New Jersey"],
-    ["/inspection-services-pennsylvania", "NDT inspection services in Pennsylvania"],
-    ["/inspection/pressure-vessel-inspection-services-philadelphia", "Pressure vessel inspection in Philadelphia"],
-    ["/ultrasonic-testing-philadelphia", "Ultrasonic testing in Philadelphia"],
-    ["/standards/api-653", "API 653 explained"],
-    ["/ultrasonic-pipe-thickness-testing", "Ultrasonic pipe thickness testing"],
-    ["/contact", "Contact Atlantis"]
+    [
+      "/inspection/risk-based-inspection/new-york-harbor",
+      "RBI for New York Harbor terminals"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/api-653-tank-inspection-pennsylvania",
+      "API 653 tank inspection support in Pennsylvania"
+    ],
+    [
+      "/api-653-tank-inspection-new-jersey",
+      "API 653 tank inspection support in New Jersey"
+    ],
+    [
+      "/inspection-services-pennsylvania",
+      "NDT inspection services in Pennsylvania"
+    ],
+    [
+      "/inspection/pressure-vessel-inspection-services-philadelphia",
+      "Pressure vessel inspection in Philadelphia"
+    ],
+    [
+      "/ultrasonic-testing-philadelphia",
+      "Ultrasonic testing in Philadelphia"
+    ],
+    [
+      "/standards/api-653",
+      "API 653 explained"
+    ],
+    [
+      "/ultrasonic-pipe-thickness-testing",
+      "Ultrasonic pipe thickness testing"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
   ],
   "sources": [
-    { "fact": "PBF refineries: Delaware City 180,000 bpd; Paulsboro 155,000 bpd; Paulsboro works in combination with Delaware City to process a wide variety of crude oils (East Coast refining system); about 30 miles apart", "url": "https://www.pbfenergy.com/refineries/" },
-    { "fact": "South Philadelphia refinery closed after 2019 fire, site redeveloped; Monroe Energy refinery at Trainer operates; Marcus Hook reconfigured for NGL storage, processing and export fed by Mariner East; Chapter 245 intervals (first in-service within 5 years; max 5 years in-service; bottom thickness within 10 years if rate unknown; max 20 years out-of-service; highly hazardous substances shorter; DEP-certified inspectors, API 653 for field-constructed tanks); April-October/November outdoor windows", "url": "https://atlantisndt.com/api-653-tank-inspection-pennsylvania" },
-    { "fact": "PA Boiler and Unfired Pressure Vessel Law (L&I Boiler Division), Commonwealth or commissioned insurance inspectors; PUC intrastate pipelines; federal OSHA PSM", "url": "https://atlantisndt.com/inspection-services-pennsylvania" },
-    { "fact": "New Jersey terminals at Paulsboro, Westville, Pennsauken; Chambers Works at Deepwater; NJ Office of Boiler and Pressure Vessel Compliance regulates pressure vessels", "url": "https://atlantisndt.com/inspection-services-new-jersey" },
-    { "fact": "N.J.A.C. 7:1E-2.16(d) excludes API 653 risk-based and similar-service scheduling", "url": "https://law.cornell.edu/regulations/new-jersey/N-J-A-C-7-1E-2-16" },
-    { "fact": "DNREC oversight of the Delaware City refinery (state environmental agency)", "url": "https://news.delaware.gov/2025/12/12/dnrec-demands-delaware-city-refinery-install-new-fenceline-air-sensors-after-volatile-compound-release/" }
+    {
+      "fact": "PBF refineries: Delaware City 180,000 bpd; Paulsboro 155,000 bpd; Paulsboro works in combination with Delaware City to process a wide variety of crude oils (East Coast refining system); about 30 miles apart",
+      "url": "https://www.pbfenergy.com/refineries/"
+    },
+    {
+      "fact": "South Philadelphia refinery closed after 2019 fire, site redeveloped; Monroe Energy refinery at Trainer operates; Marcus Hook reconfigured for NGL storage, processing and export fed by Mariner East; Chapter 245 intervals (first in-service within 5 years; max 5 years in-service; bottom thickness within 10 years if rate unknown; max 20 years out-of-service; highly hazardous substances shorter; DEP-certified inspectors (IAF category for field-constructed tanks; reviewer removed the unverified API 653 prerequisite)); April-October/November outdoor windows",
+      "url": "https://atlantisndt.com/api-653-tank-inspection-pennsylvania"
+    },
+    {
+      "fact": "PA Boiler and Unfired Pressure Vessel Law (L&I Boiler Division), Commonwealth or commissioned insurance inspectors; PUC intrastate pipelines; federal OSHA PSM",
+      "url": "https://atlantisndt.com/inspection-services-pennsylvania"
+    },
+    {
+      "fact": "New Jersey terminals at Paulsboro, Westville, Pennsauken; Chambers Works at Deepwater; NJ Office of Boiler and Pressure Vessel Compliance regulates pressure vessels",
+      "url": "https://atlantisndt.com/inspection-services-new-jersey"
+    },
+    {
+      "fact": "N.J.A.C. 7:1E-2.16(d) excludes API 653 risk-based and similar-service scheduling",
+      "url": "https://law.cornell.edu/regulations/new-jersey/N-J-A-C-7-1E-2-16"
+    },
+    {
+      "fact": "DNREC oversight of the Delaware City refinery (state environmental agency)",
+      "url": "https://news.delaware.gov/2025/12/12/dnrec-demands-delaware-city-refinery-install-new-fenceline-air-sensors-after-volatile-compound-release/"
+    },
+    {
+      "fact": "PA DEP AST inspections: periodic inspections for ASTs over 5,000 gallons and highly hazardous substance tanks over 1,100 gallons; in-service initial within 5 years of installation, then 5 years maximum; out-of-service (tanks over 21,000 gallons) initial within 10 years of a new tank or bottom, then 20 years maximum; inspectors certified IAM (manufactured) or IAF (field-constructed)",
+      "url": "https://www.pa.gov/agencies/dep/programs-and-services/land/storage-tanks/aboveground-storage-tanks/ast-inspections"
+    },
+    {
+      "fact": "PBF refineries page lists Paulsboro at 155,000 bpd (production) and Delaware City at 180,000 bpd throughput, about 30 miles apart, operated in combination",
+      "url": "https://www.pbfenergy.com/refineries/"
+    }
   ]
 }

@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection in Chicago and Northwest Indiana",
   "intro": "Three large refineries anchor the Chicago area: BP's Whiting refinery on the Lake Michigan shore in Indiana, ExxonMobil's refinery near Joliet and CITGO's refinery at Lemont, both in Illinois. Around them sit pipeline terminals, products tank farms and chemical plants, fed by crude trunk lines that end around Whiting and Griffith. This page is for integrity and inspection teams at those sites. It covers the cold-climate damage that a Gulf Coast damage list misses, heavy crude and coker service, the different Illinois and Indiana rules, consequence beside the lake and how Atlantis runs a remote RBI study.",
   "highlights": [
-    { "h": "Winter in the damage list", "p": "Freeze damage in dead legs, wet insulation from leaking tracing, frost heave under tank pads and low-temperature brittle fracture during cold start-ups are screened explicitly, because a damage list written for the Gulf Coast leaves them out." },
-    { "h": "Two states, one register", "p": "Indiana runs its own occupational safety plan and boiler rules; Illinois follows federal OSHA, with the State Fire Marshal and the City of Chicago inspecting boilers and vessels. The register records the governing regime for every item so each interval is checked against the right rule." },
-    { "h": "US technicians on call", "p": "The assessment is remote. Where CMLs are unread, insulated lines have no CUI history or tanks lack floor data, Atlantis can send UT, MT, PT and VT technicians to Chicago-area sites and feed the readings into the model." }
+    {
+      "h": "Winter in the damage list",
+      "p": "Freeze damage in dead legs, wet insulation from leaking tracing, frost heave under tank pads and low-temperature brittle fracture during cold start-ups are screened explicitly, because a damage list written for the Gulf Coast leaves them out."
+    },
+    {
+      "h": "Two states, one register",
+      "p": "Indiana runs its own occupational safety plan and boiler rules; Illinois follows federal OSHA, with the State Fire Marshal and the City of Chicago inspecting boilers and vessels. The register records the governing regime for every item so each interval is checked against the right rule."
+    },
+    {
+      "h": "US technicians on call",
+      "p": "The assessment is remote. Where CMLs are unread, insulated lines have no CUI history or tanks lack floor data, Atlantis can send UT, MT, PT and VT technicians to Chicago-area sites and feed the readings into the model."
+    }
   ],
   "sections": [
     {
@@ -18,18 +27,48 @@
         "South-west of Chicago, ExxonMobil's refinery near Joliet in Will County, reported at 251,800 barrels a day, and CITGO's Lemont refinery, reported at about 184,000, sit within a short drive of petrochemical and polymer plants around Channahon and Morris, with products terminals, pipelines and barge docks along the Des Plaines and Illinois rivers tying them together. Chicago's south side adds liquid terminals around Lake Calumet and the Calumet River. The result is a region where an RBI programme may need to cover a very large refinery, a cluster of pipeline tankage and several mid-sized terminals, each under a different mix of rules."
       ],
       "table": {
-        "head": ["Area", "Typical RBI scope", "Risk drivers that tend to lead"],
+        "head": [
+          "Area",
+          "Typical RBI scope",
+          "Risk drivers that tend to lead"
+        ],
         "rows": [
-          ["Whiting and the Lake County shoreline", "Crude, coking, hydroprocessing and sulfur recovery units, tank fields, lakefront docks", "Sulfidation and naphthenic acid corrosion from heavy crude, coke drum cycling, CUI under freeze-thaw, lakefront consequence"],
-          ["Griffith, Hammond and East Chicago", "Pipeline terminals, crude and products tanks, manifolds", "Floor corrosion, frost heave and settlement, breakout tank status, roof drains in winter"],
-          ["Joliet and Lemont", "Refinery units, tank fields, river docks", "Heavy crude mechanisms, overhead corrosion, freeze damage in dead legs and low points"],
-          ["Channahon and Morris", "Petrochemical and polymer plants", "Process-specific corrosion and cracking, CUI, brittle fracture screening on low-temperature equipment"],
-          ["Lake Calumet and the Calumet River", "Liquid bulk terminals, transfer piping, barge and lake docks", "Older tanks with inherited records, external corrosion of dock piping"]
+          [
+            "Whiting and the Lake County shoreline",
+            "Crude, coking, hydroprocessing and sulfur recovery units, tank fields, lakefront docks",
+            "Sulfidation and naphthenic acid corrosion from heavy crude, coke drum cycling, CUI under freeze-thaw, lakefront consequence"
+          ],
+          [
+            "Griffith, Hammond and East Chicago",
+            "Pipeline terminals, crude and products tanks, manifolds",
+            "Floor corrosion, frost heave and settlement, breakout tank status, roof drains in winter"
+          ],
+          [
+            "Joliet and Lemont",
+            "Refinery units, tank fields, river docks",
+            "Heavy crude mechanisms, overhead corrosion, freeze damage in dead legs and low points"
+          ],
+          [
+            "Channahon and Morris",
+            "Petrochemical and polymer plants",
+            "Process-specific corrosion and cracking, CUI, brittle fracture screening on low-temperature equipment"
+          ],
+          [
+            "Lake Calumet and the Calumet River",
+            "Liquid bulk terminals, transfer piping, barge and lake docks",
+            "Older tanks with inherited records, external corrosion of dock piping"
+          ]
         ]
       },
       "links": [
-        ["/inspection/third-party-inspection-chicago", "Third-party inspection in Chicago"],
-        ["/inspection/tank-inspection-services-chicago", "Tank inspection in Chicago"]
+        [
+          "/inspection/third-party-inspection-chicago",
+          "Third-party inspection in Chicago"
+        ],
+        [
+          "/inspection/tank-inspection-services-chicago",
+          "Tank inspection in Chicago"
+        ]
       ]
     },
     {
@@ -56,8 +95,14 @@
         "Coke drums are a class of their own. They cycle between hot filling and quenching on cycles measured in hours, and their damage is thermal fatigue, bulging and cracking at the shell, the skirt attachment and circumferential welds rather than steady thinning. An RBI plan names those components separately, assigns inspection that can find cracks and distortion, and records each drum's cycle history; evaluating a bulged or cracked drum for continued service is engineering work for the owner, not part of the risk assessment. Hydroprocessing effluent systems and hydrogen service equipment are screened for ammonium bisulfide corrosion and high temperature hydrogen attack against API RP 941."
       ],
       "links": [
-        ["/standards/api-571", "API 571 damage mechanisms"],
-        ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels"]
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ],
+        [
+          "/inspection/risk-based-inspection/pressure-vessel-rbi",
+          "RBI for pressure vessels"
+        ]
       ]
     },
     {
@@ -65,11 +110,17 @@
       "h": "Pipeline terminals and products tanks around Lake County and Chicago",
       "p": [
         "The tank farms around Griffith and Hammond and along the Chicago-area pipeline corridors are dominated by large crude tanks, many of them external floating-roof designs, operated by pipeline companies, alongside products terminals with mid-sized internal floating-roof gasoline tanks, distillate tanks and ethanol and additive storage. Products terminals carry more gasoline in summer and more distillate in winter, so service changes are part of the normal year and a tank's product history matters to its damage assessment.",
-        "Tanks that relieve surges or hold crude for reinjection into a hazardous liquid pipeline are breakout tanks, and under the current federal rule their internal intervals stay on measured floor corrosion rates; the risk ranking still directs coverage, prove-up and sequencing among them. Terminal tanks outside the pipeline system can use API 653's risk-based internal interval within its conditions, subject to any state requirement. In Indiana, IDEM's aboveground tank registration and its reporting rules for tanks within critical zones of concern for drinking water supplies add another reason to record each tank's location and consequence carefully. Out-of-service floor work is usually planned from spring to autumn to avoid lake-effect winters."
+        "Tanks that relieve surges or hold crude for reinjection into a hazardous liquid pipeline are breakout tanks, and under the current federal rule their internal intervals stay on measured floor corrosion rates; the risk ranking still directs coverage, prove-up and sequencing among them. Terminal tanks outside the pipeline system can use API 653's risk-based internal interval within its conditions, subject to any state requirement. In Indiana, IDEM's aboveground tank registration and release-reporting requirements add another reason to record each tank's location and consequence carefully. Out-of-service floor work is usually planned from spring to autumn to avoid lake-effect winters."
       ],
       "links": [
-        ["/api-653-tank-inspection-indiana", "API 653 tank inspection support in Indiana"],
-        ["/api-653-tank-inspection-illinois", "API 653 tank inspection support in Illinois"]
+        [
+          "/api-653-tank-inspection-indiana",
+          "API 653 tank inspection support in Indiana"
+        ],
+        [
+          "/api-653-tank-inspection-illinois",
+          "API 653 tank inspection support in Illinois"
+        ]
       ]
     },
     {
@@ -79,17 +130,43 @@
         "Whiting and its neighbours sit in Indiana; Joliet, Lemont and the Chicago terminals sit in Illinois. The state line changes several of the regimes an RBI plan answers to, and the City of Chicago adds its own inspection programme within city limits. The register records the governing body for each item, so the inspector can see at a glance which intervals the risk assessment can set freely and which need confirming elsewhere."
       ],
       "table": {
-        "head": ["Topic", "Illinois", "Indiana"],
+        "head": [
+          "Topic",
+          "Illinois",
+          "Indiana"
+        ],
         "rows": [
-          ["Process safety enforcement", "Federal OSHA for private employers", "Indiana OSHA (IOSHA) under the state plan"],
-          ["Boilers and pressure vessels", "Office of the State Fire Marshal, Division of Boiler and Pressure Vessel Safety; City of Chicago inspects within city limits", "Department of Homeland Security, Boilers and Pressure Vessels Section, under 675 IAC 30"],
-          ["Storage tanks", "State Fire Marshal rules for flammable and combustible liquid tanks; EPA spill prevention rule", "IDEM aboveground tank registration and critical zone reporting; EPA spill prevention rule"],
-          ["Intrastate pipelines", "Illinois Commerce Commission with PHMSA", "Indiana Utility Regulatory Commission for gas; PHMSA for hazardous liquid lines"]
+          [
+            "Process safety enforcement",
+            "Federal OSHA for private employers",
+            "Indiana OSHA (IOSHA) under the state plan"
+          ],
+          [
+            "Boilers and pressure vessels",
+            "Office of the State Fire Marshal, Division of Boiler and Pressure Vessel Safety; City of Chicago inspects within city limits",
+            "Department of Homeland Security, Boilers and Pressure Vessels Section, under 675 IAC 30"
+          ],
+          [
+            "Storage tanks",
+            "State Fire Marshal rules for flammable and combustible liquid tanks; EPA spill prevention rule",
+            "IDEM aboveground tank registration and release reporting; EPA spill prevention rule"
+          ],
+          [
+            "Intrastate pipelines",
+            "Illinois Commerce Commission with PHMSA",
+            "Indiana Utility Regulatory Commission for gas; PHMSA for hazardous liquid lines"
+          ]
         ]
       },
       "links": [
-        ["/inspection-services-illinois", "NDT inspection services in Illinois"],
-        ["/inspection-services-indiana", "NDT inspection services in Indiana"]
+        [
+          "/inspection-services-illinois",
+          "NDT inspection services in Illinois"
+        ],
+        [
+          "/inspection-services-indiana",
+          "NDT inspection services in Indiana"
+        ]
       ]
     },
     {
@@ -116,7 +193,10 @@
         "The plan helps in two ways. It marks every task as needing the unit shut down, suitable for on-stream completion before the outage, or deferrable to a later window, and it places on-stream thickness surveys, corrosion mapping and external inspections in the warmer months wherever the due dates allow. After each turnaround the findings come back into the model: corrosion rates are updated, inspection effectiveness is credited for the methods and coverage actually achieved, and the next plan starts from measured condition."
       ],
       "links": [
-        ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"]
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnaround and shutdown inspection"
+        ]
       ]
     },
     {
@@ -157,33 +237,113 @@
     "Lake and river bulk liquid docks"
   ],
   "faqs": [
-    { "q": "Which cold-weather damage mechanisms should be in a Chicago-area RBI study?", "a": "At minimum, freeze damage in dead legs, drains and small-bore connections, corrosion under insulation wetted by tracing leaks and freeze-thaw cycling, brittle fracture during cold start-ups or winter hydrotests, frost heave and settlement under tank pads, and snow, ice and drain problems on tank roofs. Each is screened item by item from the data that governs it." },
-    { "q": "Does the Whiting area answer to federal OSHA or Indiana OSHA?", "a": "Indiana runs its own occupational safety plan, so process safety management for private employers in Indiana is enforced by IOSHA, which applies standards at least as effective as the federal rule. Illinois private employers fall under federal OSHA. The RBI evidence an inspector expects is much the same on both sides of the state line, but the register records the enforcing agency." },
-    { "q": "Do Illinois or Indiana regulate pressure vessel inspection intervals?", "a": "Both have boiler and pressure vessel programmes: the State Fire Marshal's Division of Boiler and Pressure Vessel Safety in Illinois, with the City of Chicago inspecting inside city limits, and the Department of Homeland Security's Boilers and Pressure Vessels Section in Indiana. Jurisdictional items are listed separately so their accepted intervals can be confirmed before a risk-based plan changes them." },
-    { "q": "How do coke drums fit into an RBI programme?", "a": "As a separate class with their own mechanisms. Drums cycle hot and cold many times a year, so their damage is thermal fatigue, bulging and cracking at the shell, skirt attachment and circumferential welds rather than steady thinning. The plan names those components, assigns crack-capable inspection and records cycle history; judging whether a damaged drum can stay in service is your engineer's call." },
-    { "q": "Are the pipeline tanks around Griffith and Hammond breakout tanks?", "a": "Many will be, if they relieve surges or store crude for reinjection into a hazardous liquid pipeline, and their internal intervals then stay on measured corrosion rates under the current federal rule. Terminal tanks outside the pipeline system may use API 653's risk-based option. The study classifies each tank with your compliance staff before the plan is written." },
-    { "q": "How should an unplanned shutdown or power loss feed into the plan?", "a": "As a reassessment trigger with a short check list. Typical checks cover stainless equipment susceptible to polythionic acid cracking where shutdown protection was not applied, insulated lines that sat cold and wet, traced lines whose tracing failed and tank roofs after heavy rain or snow. Clean findings are recorded and the intervals stand; damage brings the affected items forward." },
-    { "q": "Can Atlantis technicians work at Whiting, Joliet or Lemont?", "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to Chicago-area and Lake County sites for baseline thickness readings, corrosion mapping once insulation is removed and surface examination of welds in cracking service. They work under the refinery's own safety and permit system, and radiographic work remains with your licensed contractor." },
-    { "q": "Who approves the RBI intervals?", "a": "Your inspector of record, whether the API 510, 570 or 653 inspector, a commissioned inspector for jurisdictional equipment or the operator's inspection authority. The study recommends intervals and shows their basis but does not approve them. If damage turns up that needs an engineering judgement on continued service, your engineer makes it and the model is updated afterwards." }
+    {
+      "q": "Which cold-weather damage mechanisms should be in a Chicago-area RBI study?",
+      "a": "At minimum, freeze damage in dead legs, drains and small-bore connections, corrosion under insulation wetted by tracing leaks and freeze-thaw cycling, brittle fracture during cold start-ups or winter hydrotests, frost heave and settlement under tank pads, and snow, ice and drain problems on tank roofs. Each is screened item by item from the data that governs it."
+    },
+    {
+      "q": "Does the Whiting area answer to federal OSHA or Indiana OSHA?",
+      "a": "Indiana runs its own occupational safety plan, so process safety management for private employers in Indiana is enforced by IOSHA, which applies standards at least as effective as the federal rule. Illinois private employers fall under federal OSHA. The RBI evidence an inspector expects is much the same on both sides of the state line, but the register records the enforcing agency."
+    },
+    {
+      "q": "Do Illinois or Indiana regulate pressure vessel inspection intervals?",
+      "a": "Both have boiler and pressure vessel programmes: the State Fire Marshal's Division of Boiler and Pressure Vessel Safety in Illinois, with the City of Chicago inspecting inside city limits, and the Department of Homeland Security's Boilers and Pressure Vessels Section in Indiana. Jurisdictional items are listed separately so their accepted intervals can be confirmed before a risk-based plan changes them."
+    },
+    {
+      "q": "How do coke drums fit into an RBI programme?",
+      "a": "As a separate class with their own mechanisms. Drums cycle hot and cold many times a year, so their damage is thermal fatigue, bulging and cracking at the shell, skirt attachment and circumferential welds rather than steady thinning. The plan names those components, assigns crack-capable inspection and records cycle history; judging whether a damaged drum can stay in service is your engineer's call."
+    },
+    {
+      "q": "Are the pipeline tanks around Griffith and Hammond breakout tanks?",
+      "a": "Many will be, if they relieve surges or store crude for reinjection into a hazardous liquid pipeline, and their internal intervals then stay on measured corrosion rates under the current federal rule. Terminal tanks outside the pipeline system may use API 653's risk-based option. The study classifies each tank with your compliance staff before the plan is written."
+    },
+    {
+      "q": "How should an unplanned shutdown or power loss feed into the plan?",
+      "a": "As a reassessment trigger with a short check list. Typical checks cover stainless equipment susceptible to polythionic acid cracking where shutdown protection was not applied, insulated lines that sat cold and wet, traced lines whose tracing failed and tank roofs after heavy rain or snow. Clean findings are recorded and the intervals stand; damage brings the affected items forward."
+    },
+    {
+      "q": "Can Atlantis technicians work at Whiting, Joliet or Lemont?",
+      "a": "Yes. Atlantis can send UT, MT, PT and VT technicians to Chicago-area and Lake County sites for baseline thickness readings, corrosion mapping once insulation is removed and surface examination of welds in cracking service. They work under the refinery's own safety and permit system, and radiographic work remains with your licensed contractor."
+    },
+    {
+      "q": "Who approves the RBI intervals?",
+      "a": "Your inspector of record, whether the API 510, 570 or 653 inspector, a commissioned inspector for jurisdictional equipment or the operator's inspection authority. The study recommends intervals and shows their basis but does not approve them. If damage turns up that needs an engineering judgement on continued service, your engineer makes it and the model is updated afterwards."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection/los-angeles", "RBI in Los Angeles and Long Beach"],
-    ["/inspection/risk-based-inspection/cushing", "RBI in Cushing, Oklahoma"],
-    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
-    ["/inspection/third-party-inspection-chicago", "Third-party inspection in Chicago"],
-    ["/inspection/piping-inspection-services-chicago", "Piping inspection in Chicago"],
-    ["/api-570-piping-inspection-indiana", "API 570 piping inspection support in Indiana"],
-    ["/api-510-pressure-vessel-inspection-illinois", "API 510 vessel inspection support in Illinois"],
-    ["/ultrasonic-testing-chicago", "Ultrasonic testing in Chicago"],
-    ["/standards/api-584", "API 584 integrity operating windows"],
-    ["/corrosion-mapping", "Corrosion mapping"],
-    ["/contact", "Contact Atlantis"]
+    [
+      "/inspection/risk-based-inspection/los-angeles",
+      "RBI in Los Angeles and Long Beach"
+    ],
+    [
+      "/inspection/risk-based-inspection/cushing",
+      "RBI in Cushing, Oklahoma"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/third-party-inspection-chicago",
+      "Third-party inspection in Chicago"
+    ],
+    [
+      "/inspection/piping-inspection-services-chicago",
+      "Piping inspection in Chicago"
+    ],
+    [
+      "/api-570-piping-inspection-indiana",
+      "API 570 piping inspection support in Indiana"
+    ],
+    [
+      "/api-510-pressure-vessel-inspection-illinois",
+      "API 510 vessel inspection support in Illinois"
+    ],
+    [
+      "/ultrasonic-testing-chicago",
+      "Ultrasonic testing in Chicago"
+    ],
+    [
+      "/standards/api-584",
+      "API 584 integrity operating windows"
+    ],
+    [
+      "/corrosion-mapping",
+      "Corrosion mapping"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
   ],
   "sources": [
-    { "fact": "ExxonMobil Joliet refinery 251,800 b/d shut down after losing power in July 15, 2024 storms, multiple units shut; BP Whiting 435,000 b/d; Citgo Lemont 184,414 b/d (S&P Global, July 17 2024)", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/071724-us-midwest-refinery-power-issues-pump-up-gasoline-prices-after-storms-sweep-region" },
-    { "fact": "Whiting largest refinery in the Midwest with crude units, cokers, hydrotreaters, tank farms and docks; terminals in Whiting, East Chicago, Hammond; crude trunk lines from Canada and the western states terminate around Whiting and Griffith; IDHS Boilers and Pressure Vessels Section (675 IAC 30); IOSHA; IURC; lake-effect humidity and freeze-thaw", "url": "https://atlantisndt.com/inspection-services-indiana" },
-    { "fact": "IDEM aboveground tank registration and critical zone of concern reporting; products terminals seasonal gasoline/distillate; spring-to-autumn out-of-service planning; turnarounds at Whiting draw contractors", "url": "https://atlantisndt.com/api-653-tank-inspection-indiana" },
-    { "fact": "ExxonMobil refinery near Joliet in Will County; Citgo at Lemont; Channahon and Morris chemical plants; Lake Calumet terminals; tank farms dominated by large external floating-roof crude tanks operated by pipeline companies; OSFM tank rules (41 Ill. Adm. Code); April-October tank work", "url": "https://atlantisndt.com/api-653-tank-inspection-illinois" },
-    { "fact": "Illinois OSFM Division of Boiler and Pressure Vessel Safety; City of Chicago boiler inspection within city limits; Illinois Commerce Commission pipelines; federal OSHA in Illinois", "url": "https://atlantisndt.com/inspection-services-illinois" }
+    {
+      "fact": "ExxonMobil Joliet refinery 251,800 b/d shut down after losing power in July 15, 2024 storms, multiple units shut; BP Whiting 435,000 b/d; Citgo Lemont 184,414 b/d (S&P Global, July 17 2024)",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/071724-us-midwest-refinery-power-issues-pump-up-gasoline-prices-after-storms-sweep-region"
+    },
+    {
+      "fact": "Whiting largest refinery in the Midwest with crude units, cokers, hydrotreaters, tank farms and docks; terminals in Whiting, East Chicago, Hammond; crude trunk lines from Canada and the western states terminate around Whiting and Griffith; IDHS Boilers and Pressure Vessels Section (675 IAC 30); IOSHA; IURC; lake-effect humidity and freeze-thaw",
+      "url": "https://atlantisndt.com/inspection-services-indiana"
+    },
+    {
+      "fact": "IDEM aboveground tank registration and release reporting (reviewer 2026-11-23: 'critical zone of concern' wording not found on IDEM pages and removed); products terminals seasonal gasoline/distillate; spring-to-autumn out-of-service planning; turnarounds at Whiting draw contractors",
+      "url": "https://atlantisndt.com/api-653-tank-inspection-indiana"
+    },
+    {
+      "fact": "ExxonMobil refinery near Joliet in Will County; Citgo at Lemont; Channahon and Morris chemical plants; Lake Calumet terminals; tank farms dominated by large external floating-roof crude tanks operated by pipeline companies; OSFM tank rules (41 Ill. Adm. Code); April-October tank work",
+      "url": "https://atlantisndt.com/api-653-tank-inspection-illinois"
+    },
+    {
+      "fact": "Illinois OSFM Division of Boiler and Pressure Vessel Safety; City of Chicago boiler inspection within city limits; Illinois Commerce Commission pipelines; federal OSHA in Illinois",
+      "url": "https://atlantisndt.com/inspection-services-illinois"
+    },
+    {
+      "fact": "IDEM AST page: release or suspected release from AST systems must be reported to IDEM's Emergency Response Section; secondary containment thresholds tighten inside delineated wellhead protection areas (327 IAC 2-10)",
+      "url": "https://www.in.gov/idem/cleanwater/information-about/source-water-protection/aboveground-storage-tank-regulations"
+    },
+    {
+      "fact": "675 IAC 30 is the Indiana Boiler and Pressure Vessel Rules",
+      "url": "https://www.law.cornell.edu/regulations/indiana/title-675/article-30"
+    }
   ]
 }
