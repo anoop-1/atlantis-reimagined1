@@ -67,7 +67,7 @@ topic pages and the parent service page.
   owner's engineer. Say so where it is relevant (once per page at most).
 - Site walkdowns and data verification are done by the client's inspectors; in the United States Atlantis can also
   send UT, MT, PT and VT technicians to close data gaps (thickness surveys, corrosion mapping). Atlantis does not
-  perform radiography in the United States. Outside the US do not promise field teams.
+  perform radiography in the United States. Outside the US do not promise field teams, and do not state that Atlantis does not or cannot send people either (other site pages offer inspection in Canada and ship inspection in Gulf ports): say that the study needs no travel and that its field checks are done by the owner's inspectors.
 - Atlantis delivers the inspection that comes out of the plan where it has field capability (US conventional NDT),
   and its ERP can hold inspection records — but never say the Atlantis ERP, digital twin or any Atlantis software
   calculates RBI or holds an RBI model.

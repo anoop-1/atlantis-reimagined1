@@ -1,0 +1,159 @@
+{
+  "title": "RBI in Saint John: Refinery, Canaport and LNG Terminal",
+  "description": "Remote risk-based inspection for Saint John, New Brunswick: Canada's largest refinery, the Canaport crude terminal and Saint John LNG in a Fundy marine climate.",
+  "h1": "Risk-based inspection for Saint John, New Brunswick",
+  "eyebrow": "Risk-based inspection in Saint John",
+  "intro": "Saint John's waterfront holds Canada's largest refinery, a deep-water crude terminal with more than six million barrels of storage and an LNG terminal, all exposed to Bay of Fundy fog, salt air and Atlantic winters. This page is for the integrity engineers and inspectors responsible for that equipment. It covers the facilities, the damage mechanisms a marine climate and a heavy-oil conversion refinery bring, how New Brunswick's certificate of inspection requirement shapes an RBI plan, and how Atlantis runs the study remotely while your own inspectors carry out every task in the field.",
+  "highlights": [
+    { "h": "One very large refinery", "p": "A refinery of more than 320,000 barrels a day holds thousands of items to rank. The study is phased by unit and turnaround so the register grows in the order the owner needs it, while every phase shares one method and one risk matrix." },
+    { "h": "Fundy fog and salt", "p": "Persistent marine fog, salt deposition and freeze-thaw cycles drive external corrosion, attack at pipe supports and corrosion under insulation. The study treats each item's exposure to the sea air as a risk factor, not a footnote." },
+    { "h": "Crude and LNG at the water", "p": "Ship-delivered crude in the Canaport tank farm and refrigerated LNG at Saint John LNG each bring their own mechanisms. Each asset is assessed with the codes and data that fit it, within one consistent risk picture where an owner wants one." }
+  ],
+  "sections": [
+    {
+      "id": "saint-john-assets",
+      "h": "Refining, crude receipt and LNG on the Saint John waterfront",
+      "p": [
+        "Irving Oil's Saint John refinery opened in 1960 on a 780-acre site and is Canada's largest, with crude capacity of more than 320,000 barrels a day. It makes gasoline, diesel, heating oil, jet fuel, propane and asphalt, and more than half of its finished product is exported to the north-eastern United States. Most of its crude arrives by ship at the Irving Canaport marine terminal, which Irving describes as the western hemisphere's first deep-water crude terminal able to receive supertankers and which holds more than six million barrels of storage.",
+        "Nearby, Saint John LNG, known as Canaport LNG until 2021, has been owned outright by Repsol since it bought Irving Oil's 25 percent share that year. It began operating in 2009 as Canada's first LNG receiving and regasification terminal and has three storage tanks. Together the refinery, the crude terminal and the LNG terminal give Saint John an unusual mix for one city: high-temperature conversion units, a large crude tank farm and cryogenic storage, all within reach of salt water."
+      ],
+      "table": {
+        "head": ["Asset", "What it is", "Where the RBI effort goes"],
+        "rows": [
+          ["Saint John refinery", "Irving Oil; more than 320,000 barrels a day; gasoline, diesel, heating oil, jet fuel, propane and asphalt", "Crude and vacuum sulfidation, residue cracking unit mechanisms, hydroprocessing effluent, sour water and amine systems, marine external corrosion"],
+          ["Irving Canaport marine terminal", "Deep-water crude receipt with more than six million barrels of storage", "Tank floors under water and sediment from ship-delivered crude, floating roofs in snow and wind, marine piping"],
+          ["Saint John LNG", "Repsol; regasification terminal operating since 2009 with three storage tanks", "Cryogenic piping and transitions, CUI at cold-to-ambient boundaries, refrigerated tank monitoring"],
+          ["Refinery tankage and product shipping", "Intermediate, product and heated asphalt storage; marine loading where product leaves by ship", "Product-side and soil-side floor corrosion, CUI on heated tanks, splash-zone and atmospheric corrosion"]
+        ]
+      }
+    },
+    {
+      "id": "rfcc-turnaround",
+      "h": "After the 2026 turnaround: the RFCC unit and new data",
+      "p": [
+        "Irving Oil planned a 75-day turnaround of the refinery from September to mid-November 2026, centred on a major revamp of the residue fluid catalytic cracking unit. Commissioned in 2000, the unit converts heavy oil into gasoline and diesel, and the 2026 work is its first major overhaul. A turnaround of that size produces a large volume of new inspection results, replaced components and modified equipment, and an RBI register is only as current as the speed at which that information is loaded into it.",
+        "Post-turnaround revalidation is a natural point for an outside study. New and replaced items need their construction records and baseline thickness entered in place of the old ones, inspection findings need grading for effectiveness before they are credited, and corrosion rates measured across a replacement need to restart rather than run on. Items whose inspection was deferred during the outage need their risk re-examined, not just their due date moved.",
+        "A residue cracking unit brings its own set of mechanisms to the damage review, and each is assigned with the process and inspection data it depends on."
+      ],
+      "list": [
+        "Erosion in catalyst handling lines, cyclones, slide valves and standpipes",
+        "Refractory damage and the hot spots and external overheating it causes on reactor and regenerator shells",
+        "Thermal fatigue and creep in the hottest sections, and dew point corrosion in the flue gas system",
+        "Polythionic acid stress corrosion cracking of sensitised austenitic stainless steel during shutdowns, controlled by the neutralisation and purging practice used",
+        "Sulfidation in the main fractionator bottoms circuit, and wet hydrogen sulfide damage with cyanides in the gas recovery section"
+      ]
+    },
+    {
+      "id": "fundy-climate",
+      "h": "Fog, salt and freeze-thaw on the Bay of Fundy",
+      "p": [
+        "Saint John sits where the cold water of the Bay of Fundy meets warmer air, and marine fog, salt-laden wind and frequent wet-dry cycles are part of normal operation. Add winters with repeated freezing and thawing, and external surfaces work harder than they would at an inland plant. Atmospheric corrosion of piping and structural steel concentrates where water is trapped: at pipe supports, clamps and saddles, under deteriorated coatings, at flange faces and bolting, and along the bottom edge of tank shells.",
+        "Corrosion under insulation follows the same pattern. Jacketing split by ice or opened for maintenance lets salt-bearing moisture in, and equipment that cycles between operating and ambient temperature, or stands idle, spends long periods in the range where CUI is fastest. Austenitic stainless steel under wet insulation carries chloride stress corrosion cracking risk, which a marine atmosphere makes more likely. The study asks for coating condition surveys, insulation and jacketing records, support details and the external inspection history, and it ranks external damage item by item instead of assuming one rate for the whole site.",
+        "Cold snaps add one more consideration. Insulated lines carrying heavy products or water can freeze when tracing fails, and freezing can split piping or overstress components, so tracing reliability and freeze protection records form part of the probability assessment for those circuits."
+      ]
+    },
+    {
+      "id": "saint-john-tankage",
+      "h": "Crude and product tankage",
+      "p": [
+        "Crude delivered by tanker can carry water and sediment that settle onto tank floors, and in a terminal receiving cargoes from many sources, the product-side corrosion picture can change with each grade. Floors suffer pitting under sludge and microbiologically influenced corrosion where water sits, while soil-side corrosion depends on the foundation, drainage, any release prevention barrier and the performance of cathodic protection. Where tanks have external floating roofs, their drains, seals and pontoons have to cope with snow, ice and strong winds off the bay.",
+        "The refinery's own tankage adds intermediate and product tanks and heated asphalt storage. Heated tanks are insulated, so their shells and roofs can suffer CUI wherever jacketing fails, and hot service changes how coatings and seals age. Across all of them the study can use API 653's risk-based alternative for the internal interval where the owner wants it, with the floor scan coverage, prove-up and settlement data each interval depends on stated in the plan."
+      ]
+    },
+    {
+      "id": "saint-john-lng",
+      "h": "Cryogenic service at the LNG terminal",
+      "p": [
+        "An LNG regasification terminal has a different risk profile from a refinery. Internal corrosion is limited in dry, clean LNG, so attention shifts to the places where temperature changes: the transitions between cryogenic and ambient service, where moisture condenses and freezes in insulation and external corrosion begins; supports and clamps that see thermal movement; and any carbon steel that a leak or spill of cold liquid could chill below its toughness limit. Unloading lines, vaporisers and send-out piping each have their own pressure and temperature cycles, and the study builds corrosion loops around them.",
+        "Refrigerated LNG storage tanks are built and inspected to their own standards, such as API 620 or API 625, and internal inspection is rarely practical, so the plan relies on external examination, foundation heating and settlement monitoring, temperature records and leak detection. The consequence of failure is dominated by flammable vapour dispersion and by the terminal's emergency systems, and the assessment uses the terminal's own hazard analysis data rather than generic figures."
+      ]
+    },
+    {
+      "id": "new-brunswick-rules",
+      "h": "New Brunswick rules and the certificate of inspection",
+      "p": [
+        "New Brunswick regulates boilers and pressure vessels under its Boiler and Pressure Vessel Act, administered by the province's Technical Inspection Services, and a certificate of inspection is required to operate a regulated boiler or pressure vessel. The chief boiler inspector issues certificates of competency to those who carry out boiler inspections, and new designs are registered with the province. We are not aware of a published provincial position on risk-based intervals, so the plan should be confirmed with the regulator before an extended interval is relied on.",
+        "As in other provinces, RBI then shapes the content and timing of inspection within the cycle the certificate depends on. Each regulated item in the register carries its certificate status and the inspection date the certificate requires, and any proposed due date beyond it is flagged for the owner to resolve with the province. Atmospheric storage tanks are not pressure vessels, so their programme rests on API 653, fire and environmental requirements and the owner's insurers, while pipelines that cross provincial or national borders fall under the Canada Energy Regulator."
+      ]
+    },
+    {
+      "id": "saint-john-ranking",
+      "h": "Ranking a refinery that ships across the border",
+      "p": [
+        "A refinery that exports more than half of its finished product to the north-eastern United States carries a business consequence for unplanned outages that the risk matrix has to express in the owner's own terms. Some owners rank safety, environmental and business consequence separately and take the highest; others combine them into one value. The study uses the risk matrix and targets the owner's management sets, and records them, so a reviewer can see why each item was ranked where it was.",
+        "On a site with thousands of items the study is phased. Units scheduled for the next outage come first, then the units with the most open data gaps, and qualitative screening separates the large population of low-risk items from the smaller group that justifies semi-quantitative or quantitative assessment to API RP 581. Every phase uses the same method and register, so the outcome is one ranking rather than a collection of separate studies."
+      ]
+    },
+    {
+      "id": "saint-john-remote",
+      "h": "Running the study from Houston and Hyderabad",
+      "p": [
+        "The study starts with a data request and a shared data room: P&IDs and PFDs, heat and material balances, datasheets, manufacturer's data reports and provincial registration records, inspection and thickness history including the 2026 turnaround results, coating and insulation survey records, process chemistry and integrity operating windows. A data-gap log follows before any workshop, so the plant learns early which gaps will force conservative assumptions.",
+        "Saint John works on Atlantic time, two hours ahead of Houston, and Hyderabad is about nine and a half hours ahead in winter, so workshops are held in the plant's morning and early afternoon while analysis continues overnight. Damage mechanisms are assigned by corrosion loop to API 571 and tested with your process, operations, corrosion and inspection people, and probability and consequence are calculated at the level the scope requires, under API RP 580 and 581, ASME PCC-3 or your corporate standard.",
+        "No travel is needed for the study, and its field checks are done by the owner's inspectors. External inspections, coating and insulation surveys, checks at pipe supports and any extra thickness readings are carried out by your inspectors or your inspection contractor, from a verification list that names the item, the location, the method and the coverage."
+      ]
+    },
+    {
+      "id": "saint-john-approval",
+      "h": "Approval stays with the owner's inspectors",
+      "p": [
+        "The plan proposes; the people the provincial system and the owner's programme recognise decide. For regulated pressure equipment that means the province's inspectors or the inspectors the owner's programme names, and for tanks the owner's API 653 inspector. Atlantis does not act as inspector of record. When inspection under the plan finds damage that needs an assessment of continued service, the fitness-for-service work stays with the owner's engineer and is not offered by Atlantis; the register is updated once that decision has been made."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API 510, API 570 and API 653",
+    "API 620 and API 625 (refrigerated storage tanks)",
+    "New Brunswick Boiler and Pressure Vessel Act",
+    "CSA B51 (boiler, pressure vessel and pressure piping code)"
+  ],
+  "deliverables": [
+    "RBI register phased by unit and turnaround, under one method and risk matrix",
+    "Inspection plan per item with method, coverage, expected effectiveness and due date",
+    "External corrosion and CUI ranking for marine exposure, with a targeted external inspection plan",
+    "Post-turnaround revalidation of new, replaced and deferred items",
+    "Certificate-cycle check for regulated pressure equipment",
+    "Data-gap log and verification list for the owner's inspectors"
+  ],
+  "industries": [
+    "Petroleum refining",
+    "Crude oil marine terminals",
+    "LNG regasification",
+    "Product storage and marine loading",
+    "Asphalt production and storage"
+  ],
+  "faqs": [
+    { "q": "Does New Brunswick allow risk-based inspection intervals?", "a": "Regulated boilers and pressure vessels need a current certificate of inspection from the province, and we are not aware of a published provincial position on risk-based intervals. RBI can still decide what each inspection covers and which items need earlier attention. Any proposed due date beyond the certificate's inspection cycle is flagged, so the owner can confirm the approach with Technical Inspection Services first." },
+    { "q": "How should the 2026 turnaround results feed into the RBI register?", "a": "New and replaced items get their construction records and baseline readings entered in place of the old ones, inspection results are graded for effectiveness before they earn credit, and corrosion rates across replaced components restart. Deferred inspections are re-examined for risk rather than simply re-dated. Loading the results soon after the outage keeps the next due dates grounded in what the turnaround found." },
+    { "q": "How does the marine climate change the assessment?", "a": "External corrosion, attack at pipe supports and CUI are ranked per item using coating and insulation surveys, support details, operating temperature history and exposure to salt-laden fog and wind. Austenitic stainless under wet insulation is screened for chloride cracking. The result is an external inspection plan aimed at the worst-exposed equipment instead of one rate applied across the site." },
+    { "q": "Can the study cover the residue fluid catalytic cracking unit?", "a": "Yes. The damage review covers catalyst erosion, refractory condition and hot spots, thermal fatigue and creep, flue gas dew point corrosion, polythionic acid cracking during shutdowns, fractionator bottoms sulfidation and wet hydrogen sulfide damage in gas recovery. Each mechanism is assigned with the process and inspection data it depends on, including findings from the unit's 2026 overhaul." },
+    { "q": "Can RBI be applied to LNG terminal equipment?", "a": "Yes, with a different emphasis. Internal corrosion in clean LNG is limited, so the assessment concentrates on cold-to-ambient transitions, supports, CUI, brittle fracture exposure if cold liquid were released, and refrigerated tank monitoring data. Consequence is driven by flammable vapour dispersion and draws on the terminal's own hazard analysis." },
+    { "q": "How are crude tanks at the marine terminal ranked?", "a": "On floor condition and the effectiveness of past inspections, product-side water and sediment, soil-side corrosion and cathodic protection, roof and seal condition, settlement and the consequence of a release near the coast. API 653's risk-based alternative interval can be used, with the floor scan coverage and prove-up required at each entry written into the plan." },
+    { "q": "Will Atlantis inspectors come to Saint John?", "a": "No. Saint John studies run entirely from documents and video workshops, with field checks left to the owner's inspectors. Your inspectors or inspection contractor carry out the field work the data-gap log and verification list call for, and the results are loaded into the register so the affected items can be reassessed." },
+    { "q": "Who approves the plan?", "a": "The inspectors the provincial system and the owner's programme recognise for regulated pressure equipment, and the owner's API 653 inspector for tanks. The study recommends intervals and tasks together with their reasoning; acceptance and accountability remain with the owner." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/sarnia", "RBI in Sarnia's Chemical Valley"],
+    ["/inspection/risk-based-inspection/hardisty", "RBI for the Hardisty crude terminals"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/consulting/api-510-pressure-vessel-inspector-services", "API 510 pressure vessel inspection support"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"]
+  ],
+  "sources": [
+    { "fact": "Saint John refinery opened 1960 on a 780-acre site, Canada's largest, +320,000 b/d, over 1,600 people; gasoline, diesel, heating oil, jet fuel, propane, asphalt; more than half of finished product exported to the Northeast US; Irving Canaport Marine Terminal receives most crude by ship, western hemisphere's first deep-water crude terminal able to receive supertankers, storage more than six million barrels", "url": "https://www.irvingoil.com/en-CA/discover-irving/operations" },
+    { "fact": "2026 turnaround (Operation Osprey): 75 days from September through mid-November; major revamp of the RFCCU, commissioned in 2000, its first major overhaul; RFCCU converts heavy crude into gasoline and diesel; 320,000 b/d, Canada's largest refinery", "url": "https://www.ogj.com/refining-processing/news/55400669/irving-oil-details-plans-for-2026-turnaround-of-canadas-largest-refinery" },
+    { "fact": "Canaport LNG renamed Saint John LNG; Repsol 100% owner after buying Irving Oil's 25% stake (completed Nov 2021); Canada's first receiving and regasification terminal, launched 2009; three storage tanks", "url": "https://lngprime.com/contracts-and-tenders/canadas-canaport-lng-terminal-gets-new-name-after-repsol-deal-with-irving-oil/33975" },
+    { "fact": "New Brunswick Technical Inspection Services regulates technical systems; certificates of inspection required to operate boilers and pressure vessels; certificates of competency issued by the chief boiler inspector; registration of new designs", "url": "https://www.gnb.ca/en/topic/laws-safety/licensing-inspections/technical-inspections.html" },
+    { "fact": "New Brunswick Boiler and Pressure Vessel Act (chapter B-7.1)", "url": "https://laws.gnb.ca/en/document/cs/B-7.1" }
+  ]
+}
