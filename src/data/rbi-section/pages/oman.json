@@ -1,0 +1,342 @@
+{
+  "title": "Risk-Based Inspection in Oman: Refinery, LNG and Tank RBI",
+  "description": "Remote RBI for Oman's Sohar, Mina Al Fahal and Duqm refineries, Qalhat LNG, gas plants and crude storage: rules, damage mechanisms and how the study runs.",
+  "h1": "Risk-based inspection for Omani refineries, gas plants and storage terminals",
+  "eyebrow": "Risk-based inspection in Oman",
+  "intro": "Oman's refining, export and storage assets face open water on the Gulf of Oman and the Arabian Sea. For an inspection planner the result is a country with three quite different refinery sites, an LNG complex at Qalhat that has run since 2000, a very large crude storage park at Ras Markaz and an inland gas industry that feeds all of them. This page sets out how inspection is governed in Oman, where the plants are, which damage mechanisms the coasts and the desert bring, and how Atlantis runs an RBI study for an Omani facility without anyone travelling.",
+  "highlights": [
+    {
+      "h": "Three coasts, three climates",
+      "p": "The Batinah coast at Sohar is humid and salty, Muscat sits between mountains and sea, and Duqm and Ras Markaz face the open Arabian Sea and its summer monsoon winds. External corrosion rates, and therefore the RBI result, differ between them even for identical equipment."
+    },
+    {
+      "h": "Mature plants and new ones",
+      "p": "Mina Al Fahal and Qalhat carry decades of records; the Duqm refinery and Ras Markaz storage are recent. The study draws corrosion rates from history where it exists and sets cautious predictions where it does not, then tightens them as inspection results arrive."
+    },
+    {
+      "h": "One time zone apart",
+      "p": "Oman keeps UTC+4 all year. Hyderabad is ninety minutes ahead of Muscat, so the plant's working day falls inside Indian office hours, and Houston reviews the day's output after the Omani shift ends. The study itself needs no travel."
+    }
+  ],
+  "sections": [
+    {
+      "id": "oman-rules",
+      "h": "The rules that apply to pressure equipment and tanks in Oman",
+      "p": [
+        "Workplace safety in Oman falls under the labour law, which Royal Decree 53/2023 replaced in 2023, and under the occupational safety and health rules administered by the ministry responsible for labour. The long-standing regulation for establishments, Ministerial Decision 286/2008, includes periodic testing of boilers and other plant by a competent person, and owners should confirm which implementing regulations under the 2023 law apply to their site. We have not found an Omani statute that sets in-service inspection intervals for refinery or gas plant pressure vessels, piping or storage tanks, or one that refers to risk-based inspection by name.",
+        "In practice the detailed rules come from the operators. The state energy group OQ, Petroleum Development Oman, Oman LNG, the Duqm refinery company and the international operators of other blocks each run engineering and inspection standards that commonly adopt API 510, API 570 and API 653 for in-service inspection, and API RP 580, API RP 581 or ASME PCC-3 for risk-based planning. Contractors meet those requirements through the company specification attached to their work, not through a government code.",
+        "Industry bodies add another layer for some equipment. The Oman Energy Association, known as OPAL, approves inspection bodies for lifting equipment, for example, and operators often ask for that approval in contracts. None of this changes what an RBI study must do, but it does mean the study is built to the governing company's procedure and risk matrix, and the report states which procedure was used for each asset."
+      ]
+    },
+    {
+      "id": "oman-facilities",
+      "h": "Where Oman's refining, gas and storage capacity is",
+      "p": [
+        "OQ, the state-owned group formed from Oman Oil Company and the refining and petrochemical company Orpic, runs the country's two established refineries. The Sohar refinery on the Batinah coast was expanded by the Sohar Refinery Improvement Project, which added a crude distillation unit, vacuum unit, delayed coker, hydrocracker and bitumen blowing to process heavier Omani crude; OQ puts its refining capacity at 198,000 barrels per day after that project. The older Mina Al Fahal refinery stands on the coast near Muscat, next to the country's main crude export terminal.",
+        "Duqm, in central Oman on the Arabian Sea, has the newest refinery. It is run by OQ8, a joint venture of OQ and Kuwait Petroleum International, with a nameplate of 230,000 barrels per day; start-up was completed in 2023 and the company has reported running above nameplate since. South of Duqm along the coast, the Ras Markaz terminal stores crude for the refinery and for trade, with a first phase of about 26.7 million barrels completed in December 2022 and a pipeline to the Duqm refinery.",
+        "On the Gulf of Oman coast at Qalhat, near Sur, Oman LNG operates three liquefaction trains, two opened in 2000 and a third in 2005; the company reported 11.5 million tonnes produced in 2023 and has announced plans for a fourth train. The gas reaches the coast from inland fields operated by Petroleum Development Oman, among them Saih Rawl in central Oman, which has produced since 1999 and is a mainstay of supply to the LNG plant. The Port of Sohar also has an independent liquids storage terminal, operated today under the Advario Oman name (formerly Oiltanking), in which OQ holds a minority stake."
+      ],
+      "table": {
+        "head": [
+          "Site",
+          "What is there",
+          "What tends to dominate the RBI scope"
+        ],
+        "rows": [
+          [
+            "Sohar",
+            "Refinery with coker and hydrocracker, petrochemical plants, port tank terminal",
+            "Heavy crude corrosion in crude and vacuum units, hydroprocessing exchangers, coker drums, coastal CUI, product tankage"
+          ],
+          [
+            "Mina Al Fahal, Muscat",
+            "Older refinery beside the crude export terminal and its tank farm",
+            "Long-service piping with deep thickness history, large crude tanks, corrosion at supports and under insulation"
+          ],
+          [
+            "Duqm and Ras Markaz",
+            "Grassroots export refinery and a crude storage park linked by pipeline",
+            "Baseline plans from design data, monsoon-exposed external surfaces, tank floors and roofs, long transfer lines"
+          ],
+          [
+            "Qalhat, near Sur",
+            "Three LNG trains with storage and loading",
+            "Acid gas removal and amine service, cold sections, refrigerated tanks, seawater cooling"
+          ],
+          [
+            "Interior gas fields",
+            "Gas gathering, processing and compression",
+            "Wet gas with CO2 and in places H2S, produced water, sand erosion, buried and above-ground lines"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "oman-coastal-damage",
+      "h": "Damage mechanisms the Omani coasts bring",
+      "p": [
+        "External corrosion carries more weight in an Omani register than a study written for a temperate plant would expect. Salt-laden air, high humidity at night and condensation on surfaces that heat up again in the day give atmospheric corrosion rates on bare carbon steel that are well above inland figures, and the effect is strongest within the first few hundred metres of the shoreline where Sohar, Mina Al Fahal, Qalhat and Duqm all sit. Paint systems break down first at edges, bolting and pipe supports, so those locations deserve their own line in the plan rather than being covered by a general visual inspection.",
+        "Corrosion under insulation follows from the same climate. Insulated carbon steel operating in the range where moisture condenses and evaporates repeatedly is the classic case, and in a hot coastal plant that covers a large share of the piping and many vessels. Stainless steel under wet chloride-bearing insulation adds external chloride stress corrosion cracking. A ranking that sorts insulated items by temperature, coating age, jacketing condition and exposure lets the owner strip and inspect in order of risk instead of by unit.",
+        "Duqm and Ras Markaz face a further factor: during the summer south-west monsoon the Arabian Sea coast takes strong onshore winds, heavy spray and very humid air for weeks at a time. External coatings on tank shells, roofs and exposed piping age faster there, and inspection of floating roof seals, rim spaces and drainage needs to be planned around that season rather than during it."
+      ],
+      "links": [
+        [
+          "/api-inspection/cui-in-api-570-and-api-510-inspection-plans",
+          "CUI in inspection plans"
+        ],
+        [
+          "/standards/api-583",
+          "API 583 and corrosion under insulation"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
+      ]
+    },
+    {
+      "id": "oman-process-damage",
+      "h": "Process damage mechanisms in Omani units",
+      "p": [
+        "Inside the refineries, the familiar refinery set applies, weighted by crude slate. Heavier, higher-sulfur crude raises the importance of high-temperature sulfidation in crude and vacuum heaters, transfer lines and bottoms circuits, and of naphthenic acid corrosion where acidic crudes are run. Overhead systems carry hydrochloric acid and ammonium chloride risk that depends on desalter performance and wash water control, and hydroprocessing units add high-temperature hydrogen attack screening, ammonium bisulfide corrosion in effluent air coolers and polythionic acid cracking of austenitic stainless steel during shutdowns. Delayed coker drums bring thermal fatigue and bulging that thickness readings alone do not reveal.",
+        "Gas processing and LNG bring a different list. Wet gas containing CO2 drives carbonic acid corrosion in carbon steel gathering and inlet systems, and where H2S is present, wet H2S cracking and sulfide stress cracking need material and hardness review. Amine units carry amine corrosion and amine stress corrosion cracking, while the cold end of an LNG train is more often a question of brittle fracture of nearby carbon steel, insulation failure and thermal fatigue in lines that cycle between ambient and cryogenic temperature. Seawater cooling, used along the coast, adds pitting, crevice corrosion, erosion at exchanger inlets and microbiologically influenced corrosion.",
+        "In the interior, wind-blown sand and dust erode the windward side of exposed equipment, clog air cooler fins and abrade coatings, while produced water and sand carried in the flow cause erosion at bends, chokes and tees. Buried pipe and tank floors on saline ground depend heavily on cathodic protection, so the condition and survey history of that protection is one of the inputs the study asks for early."
+      ]
+    },
+    {
+      "id": "oman-tanks",
+      "h": "Storage tanks: Ras Markaz, the export terminals and refinery tankage",
+      "p": [
+        "Oman's tank population ranges from very large crude tanks at Ras Markaz and the export terminals to product, intermediate and chemical tanks at Sohar and inside each refinery. API 653 is the reference most operators use for in-service inspection. Under its current edition, an RBI assessment may set the internal inspection interval when the assessment is validated and reviewed at least every ten years, and after that review the code places no fixed year limit on later RBI intervals.",
+        "Most of the risk on a large crude tank sits in the floor: product-side pitting under water and sludge, and soil-side corrosion where the pad drains poorly or the cathodic protection is weak. The plan therefore depends on how much of the floor previous inspections actually covered, which floor scanning method was used, whether the annular plate was examined, and how settlement has been surveyed. Floating roofs add pontoon, seal and drain inspection, and the coastal and monsoon exposure described above shortens the life of roof coatings.",
+        "For a new storage park, the first internal inspection is the decision RBI can most influence. Commissioning thickness readings, coating records, bottom design and the cathodic protection commissioning survey together allow a defensible first interval, which the first internal inspection then confirms or corrects."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ],
+        [
+          "/consulting/api-653-tank-inspector-services",
+          "API 653 tank inspection support"
+        ]
+      ]
+    },
+    {
+      "id": "oman-needs",
+      "h": "What Omani owners usually ask an outside RBI study to do",
+      "p": [
+        "Requests from Oman reflect a mix of long-established assets and recent ones, and of state, joint venture and private ownership. The scopes that come up most are:"
+      ],
+      "list": [
+        "A baseline study for recently commissioned units or storage, so the first turnaround work list follows the risk rather than a generic interval",
+        "Reassessment ahead of a planned refinery or LNG train shutdown, with the on-stream inspection programme separated from the shutdown scope",
+        "Migration of an older, interval-based programme into a documented RBI register that an auditor can follow",
+        "An independent review of an RBI study prepared by another contractor before the owner adopts it",
+        "A CUI campaign for a coastal unit, ranking insulated piping and vessels so stripping starts where risk is highest",
+        "Tank programmes for crude and product storage that state how floor scan coverage and cathodic protection evidence are credited",
+        "Updating the study after a change in crude or gas feed, such as a heavier crude blend or a new gas source with more CO2 or H2S"
+      ]
+    },
+    {
+      "id": "oman-remote",
+      "h": "How a remote study runs for an Omani facility",
+      "p": [
+        "Oman keeps Gulf Standard Time, four hours ahead of UTC, with no daylight saving, and most companies work Sunday to Thursday. Hyderabad is one and a half hours ahead of Muscat, so every workshop can be booked in the plant's own hours, and Houston picks up drafting and review once the Omani day is over. Sessions are short and frequent rather than day-long, and are shortened further in Ramadan.",
+        "The work starts with a data request: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, line lists and isometrics, inspection reports and thickness history, corrosion monitoring and process chemistry, integrity operating windows and the existing inspection plan. Documents go into a data room, which can sit on the owner's own platform where company rules require it, and a data-gap log is issued before the workshops begin. Where the register already lives in commercial RBI software, the study works from the owner's exports and returns results in a form that loads back.",
+        "In video workshops, the owner's operations, process, corrosion and inspection people confirm corrosion loops and assign damage mechanisms to API RP 571. Probability and consequence are then worked out at the level the owner's procedure sets, qualitative, semi-quantitative or quantitative to API RP 581, and each item receives a plan with technique, coverage, expected effectiveness and due date, with CML and TML locations rationalised where thickness history allows.",
+        "Checks that need eyes on the plant, from nameplates and insulation condition to confirming that isometrics match the pipe, are carried out by the owner's inspectors or inspection contractor using a walkdown list that explains what each check decides. The study itself needs no site visit, no plant pass and no travel to Oman."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ],
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ]
+      ]
+    },
+    {
+      "id": "oman-approval",
+      "h": "Who approves the plan",
+      "p": [
+        "The report proposes intervals and inspection tasks, each with the reasoning behind it, and the owner's inspection authority accepts or changes them. Atlantis does not act as inspector of record and does not approve intervals for Omani equipment. Where an inspection finds damage that needs a judgement on continued service, that fitness-for-service assessment remains with the owner's engineers, and the RBI register is updated with their decision so later due dates reflect it.",
+        "A study is only as current as its inputs. The report therefore lists the events that should trigger reassessment: a change of crude or gas feed, an integrity operating window exceedance, a significant inspection finding, a management of change affecting materials or conditions, and a fixed review date set by the owner's procedure."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit readiness"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (elements of a risk-based inspection programme)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)"
+  ],
+  "deliverables": [
+    "RBI register in the owner's risk matrix: damage mechanisms, probability, consequence and risk per item",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Coastal and monsoon exposure basis for external corrosion and CUI ranking",
+    "Tank programme stating how floor coverage, settlement and cathodic protection evidence are credited",
+    "Data-gap log and walkdown list for the owner's inspectors",
+    "Reassessment triggers tied to feed changes, integrity operating windows and management of change"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "LNG production and export",
+    "Gas processing and gathering",
+    "Crude and product storage terminals",
+    "Petrochemicals"
+  ],
+  "faqs": [
+    {
+      "q": "Does Omani law require risk-based inspection?",
+      "a": "We have not found an Omani regulation that requires RBI or fixes in-service intervals for refinery, LNG or gas plant equipment. The occupational safety and health regulation sets periodic testing for items such as boilers, while detailed inspection requirements sit in the operating companies' own standards, which commonly adopt API RP 580 and 581 or ASME PCC-3 for risk-based planning."
+    },
+    {
+      "q": "Our unit is near the coast. How does that change the study?",
+      "a": "It raises the weight of external damage. Atmospheric corrosion, corrosion under insulation and chloride cracking of stainless steel under wet insulation are assessed per item using temperature, coating age, insulation condition and distance from the sea, so the plan sends strip-and-inspect effort and coating repair to the items where those factors combine."
+    },
+    {
+      "q": "Can RBI set the first internal inspection date for a new crude tank at Ras Markaz or Duqm?",
+      "a": "Yes, if the commissioning evidence supports it. Bottom design, coating records, baseline thickness readings and the cathodic protection commissioning survey allow a defensible first interval under API 653's RBI provisions. The owner's inspector of record approves the interval, and the first internal inspection then confirms or corrects the predicted floor corrosion rate."
+    },
+    {
+      "q": "We operate gas gathering and processing inland. Is that in scope?",
+      "a": "Yes. The study covers wet gas with CO2 and H2S, produced water, sand erosion at bends and chokes, amine and dehydration units, compressor piping and buried lines whose condition depends on cathodic protection. Field verification is done by your own inspectors or contractor, guided by a walkdown list from the study."
+    },
+    {
+      "q": "Will anyone from Atlantis need to visit the site?",
+      "a": "No. The study is delivered through a data room and video workshops held in Omani working hours. No plant pass, visa or mobilisation is needed. Any readings or checks that close a data gap are carried out by your inspectors, with each check's purpose, technique and coverage written down."
+    },
+    {
+      "q": "Which RBI method do you use for Omani operators?",
+      "a": "The one your company procedure specifies. Where a procedure and risk matrix exist, the study follows them so the result can be adopted without being reworked. Where none exists, we agree the level with you, often quantitative to API RP 581 for high-consequence items and semi-quantitative or qualitative for the rest."
+    },
+    {
+      "q": "Can you review an RBI study another contractor prepared for us?",
+      "a": "Yes. An independent review checks the damage mechanism assignments against materials and process conditions, the inspection effectiveness credited, the consequence inputs and whether the proposed intervals stay within API 510, API 570 and API 653 limits. The output is a list of findings with the evidence for each, for your inspection authority to act on."
+    },
+    {
+      "q": "Who signs off the intervals?",
+      "a": "Your inspection authority or inspector of record. The study proposes intervals and tasks and documents the reasons, but it does not approve them. Judgements on whether damaged equipment can stay in service also remain with your engineers."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/united-arab-emirates",
+      "RBI in the United Arab Emirates"
+    ],
+    [
+      "/inspection/risk-based-inspection/saudi-arabia",
+      "RBI in Saudi Arabia"
+    ],
+    [
+      "/inspection/risk-based-inspection/qatar",
+      "RBI in Qatar"
+    ],
+    [
+      "/inspection/risk-based-inspection/kuwait",
+      "RBI in Kuwait"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-implementation",
+      "RBI programme implementation"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/standards/api-581",
+      "API 581 explained"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Oman OSH: Labour Law and Ministerial Decision 286/2008 (Regulation of Occupational Safety and Health for Establishments); boilers tested every 12 months by a competent technician with a register; ministry department of vocational safety and health",
+      "url": "https://omanlawblog.curtis.com/2016/08/health-and-safety-in-oman.html"
+    },
+    {
+      "fact": "OPAL (Oman Energy Association) approves lifting equipment inspection bodies in Oman",
+      "url": "https://www.sgs.com/en-qa/news/2025/06/sgs-approved-by-opal-as-lifting-equipment-inspection-body-in-oman"
+    },
+    {
+      "fact": "Sohar refinery (OQ): SRIP added CDU, VDU, delayed coker, hydrocracker and bitumen blowing to process heavier Omani crude; capacity 198,000 bpd",
+      "url": "https://oq.com/en/our-business/our-products/refined-products"
+    },
+    {
+      "fact": "Mina al-Fahal and Sohar refineries owned by ORPIC (government/Oman Oil Company); Oman LNG at Qalhat near Sur, three trains (two in 2000, third 2005, Qalhat LNG merged 2013); Duqm planned as export refinery JV of OOC and Kuwait Petroleum International",
+      "url": "https://www.eia.gov/international/content/analysis/countries_long/oman/background.htm"
+    },
+    {
+      "fact": "Duqm refinery: OQ8 JV of OQ and Kuwait Petroleum International, 230,000 b/d, start-up completed September 2023",
+      "url": "https://en.wikipedia.org/wiki/Duqm_Refinery"
+    },
+    {
+      "fact": "OQ8 ran above nameplate (110%, 230,000 to 255,000 b/d) in 2024 reliability test",
+      "url": "https://www.zawya.com/en/economy/gcc/oman-oq8-successfully-completes-lenders-reliability-test-unlocking-4bln-in-shareholder-guarantees-kh9c76hj"
+    },
+    {
+      "fact": "Ras Markaz phase 1 crude storage 26.7 million barrels, construction completed December 2022, 80 km pipeline to Duqm, operator Oman Tank Terminal Co / OQ",
+      "url": "https://tankterminals.com/news/omans-ras-markaz-oil-storage-terminal-construction-completed/"
+    },
+    {
+      "fact": "Oman LNG: three trains at Qalhat near Sur, 11.5 mtpa produced in 2023, fourth train planned; government 51%",
+      "url": "https://lngprime.com/middle-east/oman-lng-to-boost-capacity-with-new-train/118488/"
+    },
+    {
+      "fact": "Saih Rawl gas field in central Oman, operated by PDO, producing since 1999, backbone of gas supply to the LNG industry at Sur",
+      "url": "https://www.zawya.com/en/business/petroleum-development-oman-inks-pact-for-saih-rawl-depletion-compression-system-i726lisz"
+    },
+    {
+      "fact": "API 653 RBI internal interval provisions (5th ed. with addenda): validated and reviewed at least every 10 years; no fixed limit on later RBI intervals",
+      "url": "scripts/rbi-refine/page-brief.md"
+    },
+    {
+      "fact": "Oman's 2003 labour law replaced by the new Labour Law, Royal Decree 53/2023 (implementing regulations to follow)",
+      "url": "https://omanlawblog.curtis.com/2023/08/introduction-to-key-changes-in-new-oman.html"
+    },
+    {
+      "fact": "Sohar liquids terminal: Oiltanking Terminals Co LLC rebranded ADVARIO Oman (May 2022); OQ holds 25%",
+      "url": "https://www.omanobserver.om/article/1119032/business/energy/oiltanking-rebrands-as-advario-oman-announces-push-into-green-energy-storage"
+    },
+    {
+      "fact": "Odfjell sold its share of the Sohar terminal in 2016",
+      "url": "https://offshore-energy.biz/2016/10/17/odfjell-sells-share-in-omani-tank-terminal"
+    },
+    {
+      "fact": "Oman LNG fourth train at Qalhat planned (bidders shortlisted)",
+      "url": "https://www.meed.com/oman-lng-shortlists-bidders-for-fourth-liquefaction-train"
+    }
+  ]
+}

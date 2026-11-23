@@ -1,0 +1,364 @@
+{
+  "title": "Risk-Based Inspection in Bahrain: Refinery, Gas and LNG RBI",
+  "description": "Remote RBI for Bahrain's Sitra refinery, gas plants, LNG terminal and GPIC complex: who governs inspection, the damage mechanisms and how a study runs.",
+  "h1": "Risk-based inspection for Bahrain's refining, gas and petrochemical assets",
+  "eyebrow": "Risk-based inspection in Bahrain",
+  "intro": "Bahrain packs a refinery, an associated-gas processing system, an LNG receiving terminal and a fertiliser and methanol complex into a small island country, most of it along one stretch of coast around Sitra. That density shapes RBI here: consequence areas overlap, old and new units share utilities, and almost everything breathes salt air. This page sets out how pressure equipment inspection is governed in Bahrain, which assets carry the risk, the damage mechanisms an RBI study has to weigh, what owners usually ask an outside team to do, and how Atlantis runs the study remotely.",
+  "highlights": [
+    {
+      "h": "One national energy group",
+      "p": "Most of the kingdom's oil and gas assets sit inside the Bapco Energies group: refining, upstream, gas processing, the LNG terminal and a share of GPIC. A study is planned around the procedure and risk matrix of the group company that owns the equipment, not a generic template."
+    },
+    {
+      "h": "A refinery in transition",
+      "p": "The Bapco Modernization Program added new crude, vacuum, hydrocracking, hydrotreating, hydrogen and sulfur units to a refinery that has run for decades. The register has to hold brand-new equipment with baseline data and long-serving equipment with long histories side by side."
+    },
+    {
+      "h": "Remote, with local verification",
+      "p": "The study itself needs no travel. Drawings and records come through a shared data room, decisions are made in video workshops on Bahrain time, and the field checks the study calls for are carried out by the owner's own inspectors."
+    }
+  ],
+  "sections": [
+    {
+      "id": "bahrain-governance",
+      "h": "Who governs pressure equipment inspection in Bahrain",
+      "p": [
+        "Bahrain's Ministry of Labour runs a service for accrediting examining bodies that inspect lifting equipment, boilers, air receivers and high-pressure vessels, and the applicant has to meet the conditions of a ministerial order. That tells an RBI team two things. Statutory examination of certain pressure equipment is carried out by bodies the ministry has accredited, and those examinations sit alongside, not inside, the operator's own risk-based plan. Where an item falls under the statutory scheme, the study records the statutory examination date next to its risk-based due date and never treats the second as replacing the first.",
+        "We have not found a Bahraini rule that sets risk-based inspection intervals for refinery, gas plant or petrochemical equipment, or one that names a particular RBI method. In practice the operating companies write their inspection requirements into their own engineering standards, which draw on the API inspection codes, API RP 580 and API RP 581, ASME PCC-3 and the manufacturers' design codes. National standards published through the Ministry of Industry and Commerce include GCC adoptions of European pressure vessel standards, which matters mostly for imported equipment built to EN rather than ASME rules.",
+        "So the authority that matters most for an RBI programme in Bahrain is usually the owner's inspection department and its written procedure. The study is built to that procedure, uses its risk matrix and its definitions of inspection effectiveness, and leaves interval approval with the owner's inspection authority. Atlantis prepares the analysis; it does not sign as inspector of record."
+      ]
+    },
+    {
+      "id": "bahrain-assets",
+      "h": "The refinery, gas plants, terminal and petrochemical complex",
+      "p": [
+        "Bapco Energies, the integrated national energy company formerly known as Nogaholding, groups the main assets under one roof. Bapco Refining runs the Sitra refinery and manages the Bapco Modernization Program, the largest energy investment in the country. Inaugurated in December 2024, the programme lifts refining capacity from about 267,000 to about 400,000 barrels per day, with a final figure of around 405,000 barrels per day reported once the ramp-up completes. Its new plant includes two crude distillation units, two vacuum units, two vacuum gas oil hydrocrackers, two diesel hydrotreaters, a residue hydrocracker, two hydrogen plants, three sulfur recovery units and two saturated gas plants.",
+        "Crude reaches the refinery partly through the AB-4 pipeline, a 112 km line from Saudi Aramco's Abqaiq plants commissioned in 2018 with up to 350,000 barrels per day of capacity, about 42 km of it offshore. Refined products leave through the Sitra Wharf, and sulfur pastilles go out through Khalifa Bin Salman Port. Bapco Gas processes associated gas from the Bahrain Field and refinery off-gas into propane, butane and naphtha through three central gas plants and seven compressor stations, with large-capacity product tanks; the Bahrain National Gas Company (Banagas) name is still used for that business on its own website.",
+        "Bahrain LNG operates the receiving terminal at Al Hidd on Muharraq, with an offshore regasification platform beyond the breakwater of Khalifa Bin Salman Port and an onshore gas receiving plant and nitrogen facility. Its shareholders are Bapco Energies, Seapeak, Gulf Investment Corporation and Samsung. GPIC, the Gulf Petrochemical Industries Company in Sitra, makes ammonia, urea and methanol from domestic gas and is owned in equal thirds by Bapco Energies, SABIC and Kuwait's Petrochemical Industries Company."
+      ],
+      "table": {
+        "head": [
+          "Asset",
+          "Operator",
+          "Equipment classes that usually lead the RBI register"
+        ],
+        "rows": [
+          [
+            "Sitra refinery, including the modernisation units",
+            "Bapco Refining",
+            "Crude and vacuum heaters and transfer lines, hydroprocessing reactors and effluent trains, sour water and amine systems, sulfur recovery, tankage"
+          ],
+          [
+            "Associated-gas processing and compressor stations",
+            "Bapco Gas",
+            "Wet sour gas piping and separators, compressor discharge systems, NGL fractionation, refrigerated and pressurised product storage"
+          ],
+          [
+            "LNG receiving terminal at Al Hidd",
+            "Bahrain LNG",
+            "Offshore platform topsides and risers, cryogenic and send-out piping, gas receiving plant"
+          ],
+          [
+            "Ammonia, urea and methanol complex",
+            "GPIC",
+            "Ammonia converter loop and storage, urea synthesis equipment, reformer and methanol synthesis service"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "old-and-new-units",
+      "h": "Assessing modernisation units beside long-serving ones",
+      "p": [
+        "A refinery that has added a large block of new process units faces an RBI problem in two halves. The new units have complete design files, material test reports and, ideally, baseline thickness readings taken before start-up, but no operating history; the long-serving units have decades of history, repairs and replacements, but often patchy original data. Treating both halves with the same corrosion-rate assumptions produces a register that is wrong at both ends.",
+        "For the new units the study uses design corrosion allowances, predicted rates for the actual process conditions and the baseline survey, then sets the first in-service inspection to confirm those predictions early, before a wrong assumption has had years to go unnoticed. For the established units it reconciles the thickness history, weeds out readings taken at moved or renumbered monitoring points, and credits only the inspections that were actually effective for the active mechanism.",
+        "The interfaces need their own attention. Where new units feed old tankage, share flare headers, cooling water or amine regeneration, or send heavier and more sour streams into existing equipment, the damage mechanisms in the old equipment can change without anyone touching it. The study flags those tie-ins as management-of-change triggers, so a shift in crude slate or a new rundown route reopens the assessment for the affected loops."
+      ]
+    },
+    {
+      "id": "bahrain-damage",
+      "h": "Damage mechanisms that dominate on the island",
+      "p": [
+        "Every major asset in Bahrain is within sight of the sea, and summer combines extreme heat with high humidity. External damage therefore ranks high in most registers. Atmospheric corrosion in the splash and spray zones of jetties and the offshore platform, corrosion under insulation where jacketing has failed or condensation collects, chloride stress corrosion cracking of austenitic stainless steel under wet insulation, and corrosion at pipe supports and soil-to-air interfaces are all treated as active until inspection shows otherwise.",
+        "Internally, the refinery and gas plants bring sour service. Wet H2S damage, including blistering, hydrogen-induced cracking and stress-oriented cracking, applies to sour water strippers, amine units, overhead systems and wet gas compression. Hydroprocessing units add high-temperature hydrogen attack, which is screened against the current API RP 941 curves, ammonium bisulfide corrosion in reactor effluent air coolers and polythionic acid cracking risk during shutdowns. Crude and vacuum units bring high-temperature sulfidation, and naphthenic acid corrosion where the crude slate carries enough acid to make it active.",
+        "GPIC's ammonia and urea service introduces its own set: ammonia stress corrosion cracking in carbon steel storage, carbamate corrosion in urea synthesis equipment, and creep and thermal damage in reformer tubes and outlet systems. Seawater cooling, used widely on the coast, adds pitting, crevice corrosion, microbiologically influenced corrosion and erosion at exchanger inlets."
+      ],
+      "list": [
+        "Coastal atmospheric and splash-zone corrosion at jetties, the Sitra Wharf and offshore risers",
+        "Corrosion under insulation and chloride cracking under wet insulation",
+        "Wet H2S cracking and amine corrosion in sour gas and treating units",
+        "High-temperature sulfidation and, where crude acidity warrants, naphthenic acid corrosion",
+        "High-temperature hydrogen attack and ammonium bisulfide corrosion in hydroprocessing",
+        "Tank floor corrosion from the soil side and from settled water and sludge",
+        "Ammonia stress corrosion cracking and urea carbamate corrosion at the fertiliser complex"
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ],
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ]
+      ]
+    },
+    {
+      "id": "bahrain-storage",
+      "h": "Crude, product and gas storage",
+      "p": [
+        "Storage in Bahrain spans atmospheric crude and product tanks at the refinery, the tank farm feeding the Sitra Wharf, refrigerated and pressurised LPG storage in the gas business, and ammonia storage at the fertiliser complex. Each needs a different RBI treatment. For atmospheric tanks the floor usually governs: soil-side corrosion beneath a floor on saline, low-lying ground, product-side pitting where water settles, and annular plate corrosion at the shell junction. Internal inspection can be spaced on risk under API 653 provided the assessment is validated and reviewed at least every ten years.",
+        "Refrigerated and pressurised storage behaves differently. Internal entry is rare, so the plan relies on external examination, insulation condition, settlement and foundation monitoring, and an explicit record of why an internal inspection is or is not credited for each tank. The table summarises how the study approaches each storage type."
+      ],
+      "table": {
+        "head": [
+          "Storage type",
+          "Governing concerns",
+          "How the plan is built"
+        ],
+        "rows": [
+          [
+            "Atmospheric crude and product tanks",
+            "Floor and annular plate corrosion, shell corrosion at the liquid line, roof and seal condition",
+            "Floor scanning and settlement data feed the probability of failure; internal interval set on risk within API 653"
+          ],
+          [
+            "Refrigerated LPG storage",
+            "Cold insulation breakdown, moisture ingress, foundation heating and settlement",
+            "External and insulation condition surveys, monitoring trends and a documented basis for any internal entry"
+          ],
+          [
+            "Pressurised spheres and bullets",
+            "Wet H2S cracking where product carries sulfur, weld cracking, support corrosion",
+            "Crack detection techniques matched to the mechanism, with coverage stated per item"
+          ],
+          [
+            "Ammonia storage",
+            "Stress corrosion cracking in carbon steel welds",
+            "Mechanism-specific crack detection at welds and a reassessment trigger on any change in oxygen or water content"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ]
+      ]
+    },
+    {
+      "id": "consequence-density",
+      "h": "Consequence modelling on a small, crowded coastline",
+      "p": [
+        "Bahrain is a small country with a dense population, and the refinery, gas processing, petrochemical plant and port areas lie close to homes, roads and the sea. That pushes the consequence side of the RBI analysis to the fore. A release that a model of a remote desert plant would rate as moderate can sit in a higher consequence band here because of what lies within reach of the vapour cloud, the thermal radiation or the spill.",
+        "The study therefore asks early for the owner's consequence inputs: inventory groups and isolation times, detection and shutdown arrangements, the location of occupied buildings, and environmental sensitivity for releases that could reach the shallow Gulf waters. Where the owner's own risk matrix already sets consequence categories for these receptors, the analysis uses them directly so the results line up with the plant's process safety records."
+      ]
+    },
+    {
+      "id": "what-owners-need",
+      "h": "What Bahraini owners usually ask an outside RBI team for",
+      "p": [
+        "Requests tend to fall into a few patterns. Modernisation projects need baseline RBI studies for new units so that the first in-service inspection plan follows the risk from start-up. Long-serving plants need existing studies revalidated against current data, current editions of the codes and the changes the new units have brought. Turnaround planning teams want risk-ranked worklists that separate items that must be opened from items where on-stream inspection can be credited.",
+        "Gas processing and upstream gathering ask for corrosion loop work on sour, wet systems where erosion and internal corrosion interact. Smaller organisations within the group, or contractors operating on their behalf, sometimes need an RBI programme set up from scratch, written to API RP 580 and their parent company's requirements. Atlantis covers each of these remotely; when inspection finds damage that needs an engineering assessment of continued operation, that work stays with the owner's engineers, since fitness-for-service is not part of the Atlantis service."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation"
+        ],
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnaround and shutdown inspection"
+        ]
+      ]
+    },
+    {
+      "id": "bahrain-remote",
+      "h": "How the remote study runs from Houston and Hyderabad",
+      "p": [
+        "Bahrain keeps UTC+3 all year. Hyderabad is two and a half hours ahead, which puts most of the Bahraini working day inside the Indian one, so data review, loop building and register work happen while the plant team is at work and questions are answered the same day. Houston is eight or nine hours behind depending on the season, which leaves a short overlap in the Bahraini afternoon for workshops that need US-based reviewers.",
+        "The sequence is simple. The owner uploads P&IDs, PFDs, heat and material balances, equipment data sheets, inspection reports, thickness history and integrity operating window records to a shared data room. Atlantis builds corrosion loops and assigns damage mechanisms, then holds video workshops with the plant's process, corrosion, operations and inspection people to confirm them. Probability and consequence are calculated to the owner's method, the risk is ranked, and inspection plans are written per item with technique, coverage, credited effectiveness and due date.",
+        "Wherever data is missing or doubtful, the study produces a gap log and a walkdown list. Those field checks, such as confirming insulation condition, locating monitoring points or taking spot thickness readings, are done by the owner's inspectors or the inspection contractors already working on site. The finished register can be loaded into whatever RBI software or maintenance system the owner already runs."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (elements of a risk-based inspection programme)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "API RP 941 (high-temperature hydrogen attack)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)"
+  ],
+  "deliverables": [
+    "Corrosion loop drawings and damage mechanism assignment per loop",
+    "RBI register in the owner's risk matrix, with probability and consequence per item",
+    "Inspection plan per item: technique, coverage, credited effectiveness and due date",
+    "Baseline plans for newly commissioned units and revalidated plans for established ones",
+    "Interface and tie-in list flagged for management of change",
+    "Data-gap log and walkdown list for the owner's inspectors",
+    "Reassessment triggers tied to operating windows, crude slate and process changes"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Associated-gas processing and NGL",
+    "LNG import and regasification",
+    "Ammonia, urea and methanol",
+    "Crude and product storage and export",
+    "Upstream gathering"
+  ],
+  "faqs": [
+    {
+      "q": "Is risk-based inspection required by law in Bahrain?",
+      "a": "We have not found a Bahraini law that requires RBI or sets risk-based intervals for process plant. Certain equipment, such as boilers, air receivers and high-pressure vessels, falls under statutory examination by bodies the Ministry of Labour accredits, and those examinations keep their own schedule. RBI in Bahrain is mostly an operator decision written into company standards, and the study is built to the owner's procedure so that its results can be adopted directly."
+    },
+    {
+      "q": "Can an RBI study cover the new modernisation units before they have operating history?",
+      "a": "Yes. A baseline study uses design data, material certificates, predicted corrosion rates for the real process conditions and any pre-service thickness survey. It sets an early first inspection for each item to confirm the predictions, and the register is updated once that inspection data comes back. Starting this way avoids running new equipment on generic intervals until enough history builds up."
+    },
+    {
+      "q": "Does anyone from Atlantis need to come to Sitra or Al Hidd?",
+      "a": "The study does not require travel. Records come through a data room, damage mechanisms and risk results are agreed in video workshops, and the checks the study asks for on site are made by the owner's own inspectors or the inspection contractors already working there. The data-gap log tells them exactly what to look at and why."
+    },
+    {
+      "q": "Which RBI method will the study use?",
+      "a": "The one the owner's procedure specifies. That may be a qualitative screening, a semi-quantitative method, a fully quantitative analysis to API RP 581, or a company standard built on ASME PCC-3. Where a site has no procedure yet, Atlantis recommends a method suited to the size of the plant and the quality of its data, and writes it down so it can be audited."
+    },
+    {
+      "q": "Who approves the inspection intervals that come out of the study?",
+      "a": "The owner's inspection authority. Atlantis recommends technique, coverage and due date for each item and explains the reasoning, but the owner's inspector of record or inspection department decides and signs. Statutory examination dates under the Ministry of Labour scheme are shown separately and are not replaced by the risk-based dates."
+    },
+    {
+      "q": "How are LPG and ammonia storage handled when internal inspection is rare?",
+      "a": "The plan states plainly what can and cannot be inspected and how much effectiveness each method earns. External examination, insulation condition, settlement and monitoring trends carry more weight, crack detection is matched to the mechanism at accessible welds, and any decision to defer internal entry is recorded with its basis and the conditions that would reopen it."
+    },
+    {
+      "q": "Can the results go into the software we already use?",
+      "a": "Yes. Atlantis works from the owner's existing register or software exports and returns the results in a structure that can be loaded back into the owner's RBI software or maintenance system. Nothing in the study depends on adopting a new tool."
+    },
+    {
+      "q": "What should we send to get a proposal?",
+      "a": "The facility and the equipment in scope, with approximate counts of vessels, piping circuits and tanks; the codes or company standard you work to; whether an RBI study already exists and when it was last reviewed; and the inspection data you hold. With that, Atlantis can propose a scope, a data request list and a workshop plan."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/saudi-arabia",
+      "RBI in Saudi Arabia"
+    ],
+    [
+      "/inspection/risk-based-inspection/kuwait",
+      "RBI in Kuwait"
+    ],
+    [
+      "/inspection/risk-based-inspection/qatar",
+      "RBI in Qatar"
+    ],
+    [
+      "/inspection/risk-based-inspection/united-arab-emirates",
+      "RBI in the United Arab Emirates"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "Piping RBI"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "Pressure vessel RBI"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/tools/api-inspection-interval-calculator",
+      "API inspection interval calculator"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Bapco Energies portfolio: Bapco Refining (manages the Bapco Modernization Program, largest energy investment in Bahrain), Bapco Upstream, Bapco Gas, Bahrain LNG, GPIC, ASRY etc.",
+      "url": "https://www.bapcoenergies.com/our-portfolio"
+    },
+    {
+      "fact": "Bapco Energies formerly Nogaholding (rebrand 2023)",
+      "url": "https://www.zawya.com/en/business/energy/bahrain-nogaholding-rebranded-bapco-energies-eyes-big-role-c3av2xw1"
+    },
+    {
+      "fact": "BMP inaugurated 18 December 2024; capacity 267,000 to 400,000 b/d; units: 2 CDUs, 2 VDUs, 2 VGO hydrocrackers, 2 diesel hydrotreaters, residue hydrocracker, 2 hydrogen plants, 3 SRUs, 2 saturated gas plants",
+      "url": "https://www.meed.com/bahrain-inaugurates-bapco-modernisation-programme"
+    },
+    {
+      "fact": "Final capacity 405,000 b/d once BMP ramp-up completes",
+      "url": "https://www.mees.com/2025/12/12/news-in-brief/bahrains-sitra-refinery-capacity-to-reach-405000-bd/a05f59c0-d760-11f0-b2f5-a784561392b9"
+    },
+    {
+      "fact": "AB-4 pipeline: 112 km (42 km offshore), up to 350,000 b/d, Abqaiq to Bapco refinery, commissioned 2018",
+      "url": "https://aramco.com/en/news-media/news/2018/bapco-new-pipeline"
+    },
+    {
+      "fact": "Refined products exported from Sitra Wharf; sulfur pastilles via Khalifa Bin Salman Port",
+      "url": "https://bapco.net/en/page/crude-and-petroleum-products"
+    },
+    {
+      "fact": "Bapco Gas processes associated gas and refinery off-gas into propane, butane, naphtha; three central gas plants, seven compressor stations, large-capacity storage tanks; products via Sitra Wharf",
+      "url": "https://www.bapcoenergies.com/bapco-gas"
+    },
+    {
+      "fact": "Banagas (Bahrain National Gas Company) website still describes the gas processing business, storage area at Sitra",
+      "url": "https://banagas.com.bh/about"
+    },
+    {
+      "fact": "Bahrain LNG terminal at Al Hidd, Muharraq; offshore regasification platform beyond Khalifa Bin Salman Port breakwater; onshore gas receiving plant and nitrogen facility; shareholders Bapco Energies, Seapeak, GIC, Samsung",
+      "url": "https://www.gem.wiki/Bahrain_Hidd_FLNG_Terminal"
+    },
+    {
+      "fact": "GPIC in Sitra produces ammonia, urea, methanol; owned one third each by Bapco Energies, SABIC and PIC (Kuwait)",
+      "url": "https://en.wikipedia.org/wiki/Gulf_Petrochemical_Industries_Company"
+    },
+    {
+      "fact": "Ministry of Labour accredits examining bodies to inspect lifting equipment, boilers, air receivers and high-pressure vessels under a ministerial order",
+      "url": "https://www.mol.gov.bh/home/subservices_sections/96?lang=en"
+    },
+    {
+      "fact": "Bahrain national standards (BSMD, Ministry of Industry and Commerce) include BH GSO EN 13445 pressure vessel standards",
+      "url": "https://bsmd.moic.gov.bh/store/standards/BSMD:926230/BH GSO EN 13445-3:2024"
+    },
+    {
+      "fact": "BMP inaugurated by the King on 18 December 2024 (Bapco Energies press release)",
+      "url": "https://www.bapcoenergies.com/media-centre/press-releases/his-majesty-the-king-inaugurates-the-bapco-modernization-project"
+    },
+    {
+      "fact": "Bapco refinery reported record output of 405,000 b/d after BMP",
+      "url": "https://www.zawya.com/en/economy/gcc/bahrain-bapco-hits-record-refinery-output-of-405-000-barrels-per-day-x2uvwur7"
+    }
+  ]
+}

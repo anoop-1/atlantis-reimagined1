@@ -1,0 +1,355 @@
+{
+  "title": "Risk-Based Inspection in Iraq: Refineries, Gas and Export",
+  "description": "Remote RBI for Iraqi refineries, gas plants, crude tank farms and upstream facilities: the operating structure, Basra-to-Baiji damage mechanisms and planning.",
+  "h1": "Risk-based inspection for Iraq's refineries, gas plants and crude storage",
+  "eyebrow": "Risk-based inspection in Iraq",
+  "intro": "Iraq's oil industry is run largely through state companies under the Ministry of Oil, with international operators working on large southern fields under service contracts and a separately administered sector in the Kurdistan Region. Its plants range from refineries that have run for decades to process units commissioned in the last few years, and its crude passes through some of the largest tank farms in the Gulf. This page explains how an RBI study fits that structure, which damage mechanisms dominate from Basra to Baiji, what owners usually ask an outside study to do and how Atlantis delivers it without travel.",
+  "highlights": [
+    {
+      "h": "State companies, contract operators",
+      "p": "Refining, upstream, gas and pipelines each sit with a Ministry of Oil company, while joint ventures and international operators bring their own corporate inspection standards. The first task of any study is to settle whose procedure, risk matrix and approval route govern each asset."
+    },
+    {
+      "h": "Every age of plant at once",
+      "p": "A grassroots refinery, revamped units and process trains with decades of service can sit in the same portfolio. The study weighs measured corrosion rates where records are reliable and design predictions where they are not, and says which is which for every item."
+    },
+    {
+      "h": "Workshops in the Iraqi working day",
+      "p": "Iraq keeps UTC plus three hours and a Sunday-to-Thursday week. Hyderabad is two and a half hours ahead, so video workshops sit comfortably inside plant hours, and the walkdowns stay with the owner's own inspectors."
+    }
+  ],
+  "sections": [
+    {
+      "id": "iraq-sector-structure",
+      "h": "How Iraq's oil and gas assets are organised",
+      "p": [
+        "Most of the country's oil and gas infrastructure belongs to companies of the federal Ministry of Oil, each responsible for one part of the chain. Basra Oil Company, the former South Oil Company, holds the southern fields; North Oil Company holds the Kirkuk fields and North Gas Company processes gas there; South Gas Company handles associated gas in the south; and the refineries sit with regional refining companies, among them the North Refineries Company at Baiji and the Midland Refineries Company at Daura in Baghdad. The State Company for Oil Projects plans and builds major infrastructure, including the expansion of crude storage behind the southern export system.",
+        "Alongside the state companies, several large southern fields are developed under technical service contracts. Rumaila, for example, is run by the Rumaila Operating Organization under a contract between Basra Oil Company and international partners, and Basrah Gas Company is a joint venture of South Gas Company, Shell and Mitsubishi Corporation that captures associated gas from Rumaila, West Qurna 1 and Zubair. Each of these organisations brings its own engineering standards and management systems, so two neighbouring plants can run RBI to quite different procedures.",
+        "The Kurdistan Region administers its own oil sector through the Kurdistan Regional Government's Ministry of Natural Resources. Its refineries, including the Lanaz refinery near Erbil, are owned and operated separately from the federal refining companies, and their inspection programmes follow the owner's own arrangements rather than a federal company procedure."
+      ]
+    },
+    {
+      "id": "iraq-framework",
+      "h": "What sets inspection requirements in Iraq",
+      "p": [
+        "We have not found a published Iraqi regulation that fixes in-service inspection intervals for refinery, gas plant or upstream pressure equipment, or that requires a risk-based approach. In practice, the governing requirements are the owner's own: the state company's technical standards and inspection procedures, the corporate integrity standards of an international operator or joint venture, and the contracts under which engineering and inspection contractors work. Those documents most often reference the API inspection codes (API 510 for vessels, API 570 for piping, API 653 for tanks) and the ASME construction codes, and some contracts call up ASME PCC-3 or the operator's in-house RBI standard instead.",
+        "That arrangement places the burden of proof on the owner's procedure. An RBI study is therefore built to whichever document the asset owner nominates, and its first deliverable is a short basis-of-assessment note that names the governing procedure, the risk matrix and acceptable-risk thresholds, the consequence categories the owner wants assessed (safety, environment, production, export commitments) and who approves the resulting intervals. Where an owner has no written RBI procedure yet, the study proposes one based on API RP 580 for the owner's review before any equipment is ranked."
+      ],
+      "table": {
+        "head": [
+          "Owner type",
+          "Where the governing requirements usually come from",
+          "What the study confirms at the start"
+        ],
+        "rows": [
+          [
+            "Ministry of Oil refining company",
+            "Company technical standards and inspection procedures, typically referencing API and ASME codes",
+            "Which procedure applies, who in the company approves intervals and how the plan reaches the turnaround schedule"
+          ],
+          [
+            "Joint venture or contract operator in the southern fields",
+            "The operator's corporate integrity and RBI standards, applied under the service contract",
+            "Whether the operator's risk matrix or the state partner's applies, and how records pass between them"
+          ],
+          [
+            "Kurdistan Region refinery or field operator",
+            "The owner's own procedures and contract requirements",
+            "The depth of assessment wanted and how inspection history has been kept"
+          ],
+          [
+            "Storage and export systems",
+            "Owner procedures for tanks and pipelines, usually referencing API 653 and API 570",
+            "Which tank farms and lines are in scope and how floor and shell data are recorded"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "iraq-refining-capacity",
+      "h": "Where the refining and gas processing capacity sits",
+      "p": [
+        "Iraq's refining is spread from the Gulf coast to the north. In the south, the Basra refinery has added a fluid catalytic cracking unit, which brings catalyst handling, a regenerator and a main fractionator into a refinery that previously ran a simpler configuration. In the centre, the Karbala refinery, a greenfield plant built by a South Korean consortium led by Hyundai Engineering and Construction, was raised to its full 140,000 barrels per day, and the Daura refinery in Baghdad, a hydroskimming plant that began operating in the 1950s, is run by the Midland Refineries Company. In the north, the Baiji complex of the North Refineries Company, also known as Al-Sumoud, includes the North Refinery, and a new hydrotreating and gasoline upgrading unit has been added at Kirkuk.",
+        "Gas processing in the south centres on Basrah Gas Company's facilities, including the Khor Al Zubair gas plant and compressor stations in the Rumaila area. In the Kurdistan Region, refineries near Erbil and Sulaymaniyah serve regional demand, with a combined nameplate capacity reported at close to 140,000 barrels per day.",
+        "For RBI purposes the mix matters more than the totals. A new conversion unit, a revamped crude unit and a hydroskimmer with seven decades of records each need a different approach to probability of failure, and a single refining company may hold all three."
+      ]
+    },
+    {
+      "id": "iraq-crude-storage",
+      "h": "Crude tank farms and the southern export system",
+      "p": [
+        "Southern crude reaches the Gulf through a chain of tank farms and pipelines: storage in the Zubair area, the Tuba tank farm, the Fao tank farm near the coast, a key staging point before export, and onward lines to the Al Basrah Oil Terminal and single point moorings offshore. These are large floating-roof crude tanks in hot, saline coastal ground, many of them in continuous service because the export system depends on them.",
+        "That continuity is exactly why RBI earns its place here. Taking a crude tank out of service for an internal inspection removes storage from an export chain that rarely has slack, so owners want internal inspections scheduled on evidence rather than by default. API 653 permits the internal interval to be set by an RBI assessment carried out to API RP 580, provided the assessment is validated and reviewed at least every ten years, and the owner's inspection authority accepts it. The ranking draws on floor scan results and bottom-side corrosion history, cathodic protection records, product-side pitting under sediment and water, roof and seal condition, and the consequence of a release into the surrounding ground or a nearby waterway.",
+        "Atlantis prepares that ranking and the inspection plan behind it; the out-of-service inspections themselves, and any decision to extend an interval, stay with the owner's tank inspectors."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ],
+        [
+          "/consulting/api-653-tank-inspector-services",
+          "API 653 tank inspector support"
+        ]
+      ]
+    },
+    {
+      "id": "iraq-damage-mechanisms",
+      "h": "Damage mechanisms that drive risk in Iraqi plants",
+      "p": [
+        "Iraqi crudes tend to be sour, and a damage mechanism review for a refinery or gas plant starts there. In crude and vacuum units, high-temperature sulfidation governs the hot carbon steel and low-alloy circuits, and the review checks whether the silicon content of older carbon steel piping is known, because low-silicon pipe can corrode much faster than its neighbours in the same circuit. Where a crude slate brings naphthenic acid, the review also looks at velocity, temperature and acid number in transfer lines and vacuum column internals. Downstream, wet H2S damage (blistering, hydrogen-induced cracking and stress-oriented cracking) is a concern in sour water strippers, amine units and overhead systems, and ammonium bisulfide and ammonium chloride corrosion matter wherever hydrotreater effluent cools.",
+        "The climate adds its own items. Summer shade temperatures in southern Iraq are among the highest anywhere the industry works, and winter rain then soaks insulation that summer heat has already cracked and opened, so corrosion under insulation on carbon steel and chloride cracking of austenitic stainless steel deserve a dedicated programme rather than a line in the general plan. Dust and sand settle on horizontal surfaces and hold moisture and salts against steel, and near the coast at Fao and Umm Qasr the atmosphere is saline enough to accelerate external corrosion on structures, tank roofs and piping supports.",
+        "Upstream, produced water carries dissolved CO2, chlorides and in some streams H2S, so separators, water handling and flowlines are assessed for CO2 corrosion, under-deposit attack and microbiologically influenced corrosion in low-flow sections. Each mechanism is assigned to API RP 571 and tied to the process conditions that must hold for the assigned rate to stay valid."
+      ],
+      "list": [
+        "High-temperature sulfidation in crude, vacuum and coker-adjacent circuits, with attention to low-silicon carbon steel",
+        "Naphthenic acid corrosion where the crude slate and temperatures call for it",
+        "Wet H2S cracking and blistering in sour water, amine and overhead systems",
+        "Ammonium salt corrosion in hydroprocessing effluent trains",
+        "Corrosion under insulation and external chloride cracking driven by summer heat and winter rain",
+        "Atmospheric and soil-side corrosion on coastal structures and tank floors",
+        "CO2 corrosion, under-deposit attack and microbiologically influenced corrosion in produced-water service"
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ],
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ]
+      ]
+    },
+    {
+      "id": "iraq-plant-age",
+      "h": "Treating old records and new units differently",
+      "p": [
+        "Iraqi refineries carry an unusual spread of inspection histories. Some units have long records kept on paper or in successive systems, with readings taken to different procedures by different contractors, while some recently revamped units have almost no in-service data at all, and some carry gaps in their records. An RBI study has to be honest about which data it can trust. Historical thickness readings are matched to locations, screened for implausible values and split into long-term and short-term rates before any of them reaches the probability calculation, and inspections whose method or coverage cannot be shown are credited at a lower effectiveness rather than ignored or trusted blindly.",
+        "For new or revamped units, probability comes from predicted corrosion rates built on the design basis, the materials actually installed and the expected process chemistry, and the first inspections are planned to test those predictions as early as the risk justifies. Where a unit has been revamped around older vessels or piping, the reused items keep their own history and are assessed separately from the new ones beside them, so a single unit can carry both kinds of evidence."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/pressure-vessel-rbi",
+          "RBI for pressure vessels and heat exchangers"
+        ],
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API inspection interval calculator"
+        ]
+      ]
+    },
+    {
+      "id": "iraq-owner-scopes",
+      "h": "What Iraqi owners usually ask an outside study to do",
+      "p": [
+        "The scopes we expect from Iraqi facilities follow from that structure and asset mix:"
+      ],
+      "list": [
+        "A first RBI assessment for recently commissioned or revamped units, with a plan that tests the design corrosion predictions",
+        "Converting long and uneven inspection histories into usable corrosion rates and a rationalised set of CMLs before a turnaround",
+        "Crude tank ranking across a tank farm so internal inspections and floor scans follow condition and the effect on export capacity",
+        "Sour-service and wet H2S risk review for amine, sour water and overhead systems, with crack-detection tasks placed where they count",
+        "A CUI programme for insulated equipment exposed to extreme summer heat and wet winters",
+        "Produced-water and gathering system ranking that combines corrosion monitoring with inspection results",
+        "An independent review of an operator's existing RBI study before the state partner relies on its interval extensions",
+        "A written RBI procedure, based on API RP 580, for an owner that does not yet have one"
+      ]
+    },
+    {
+      "id": "iraq-remote-workflow",
+      "h": "How a remote study runs for an Iraqi plant",
+      "p": [
+        "The study is organised around a data room and a sequence of video workshops, so it does not depend on anyone travelling to Iraq. The owner, or its engineering contractor, places the inputs in a shared folder: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness history, corrosion monitoring data, process chemistry and integrity operating windows. Documents in Arabic are accepted, and where a translation affects a material, a design condition or a finding, the study records the reading it relied on so the owner can check it.",
+        "Screening comes first: every document is logged against the equipment list, and a data-gap log tells the plant what is missing and why each item matters. Workshops with the plant's operations, process, corrosion and inspection staff then fix the corrosion loops and the damage mechanisms, after which probability and consequence are calculated to the depth the owner's procedure requires, from a qualitative ranking up to a quantitative assessment to API RP 581.",
+        "Iraq keeps UTC plus three hours year round, and most companies work Sunday to Thursday. Hyderabad, two and a half hours ahead, covers the whole Iraqi working day, and Houston picks up document review after the plant's day ends. Workshops are rescheduled around Ramadan hours and public holidays. The field checks the study calls for, such as confirming a nameplate, locating a missing CML or taking readings to close a data gap, are carried out by the owner's inspectors or the owner's inspection contractor, working from a list that says what each check is for."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ],
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ]
+      ]
+    },
+    {
+      "id": "iraq-plan-and-approval",
+      "h": "What the owner receives, and who signs it off",
+      "p": [
+        "For every item in scope the study gives a risk ranking in the owner's matrix, the governing damage mechanisms, and an inspection task: technique, coverage, the effectiveness that technique can be credited with and a due date. It recommends where CMLs and TMLs should be added, moved or retired, and lists the reassessment triggers, such as a change of crude slate, an integrity operating window excursion or a modification under management of change, that should reopen the assessment before its scheduled review.",
+        "Approval stays with the asset owner. The state company's or operator's inspection authority decides which intervals to adopt and how the plan enters the turnaround schedule; Atlantis does not act as inspector of record. Where inspection later finds damage that needs a fitness-for-service evaluation, that work remains with the owner's engineers, and the RBI register is updated with their conclusion so the next due dates reflect it."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation"
+        ],
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnaround and shutdown inspection"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (elements of a risk-based inspection programme)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "API RP 584 (integrity operating windows)"
+  ],
+  "deliverables": [
+    "Basis-of-assessment note naming the governing procedure, risk matrix and approval route",
+    "RBI register per item in the owner's risk matrix",
+    "Inspection plan per item: technique, coverage, credited effectiveness and due date",
+    "Reconciled corrosion rates and CML recommendations from historical thickness data",
+    "Crude tank ranking with internal inspection and floor scan priorities",
+    "Data-gap log and walkdown list for the owner's inspectors",
+    "Reassessment triggers tied to crude slate, integrity operating windows and management of change"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Associated gas processing",
+    "Upstream production and gathering",
+    "Crude storage and export",
+    "Product storage and distribution"
+  ],
+  "faqs": [
+    {
+      "q": "Is RBI required by law in Iraq?",
+      "a": "We have not found an Iraqi regulation that requires RBI or fixes in-service inspection intervals for refinery, gas or upstream equipment. The requirements come from the owner: a state company's technical standards, an international operator's corporate integrity standards or the contract between them. The study is built to the procedure the owner nominates and states that basis at the start."
+    },
+    {
+      "q": "Can you work to a state company procedure and an operator's standard on the same field?",
+      "a": "Yes, but the two have to be reconciled first. Where a service contract operator and a state partner use different risk matrices or consequence categories, the study maps one to the other, shows where they would give different intervals and leaves the choice of governing basis to the parties. It does not quietly blend them inside the model."
+    },
+    {
+      "q": "Our unit was revamped recently and has little inspection history. Is RBI still useful?",
+      "a": "Yes. Probability is based on predicted corrosion rates from the design basis, the installed materials and the process chemistry, and the plan places early inspections where those predictions most need testing. Reused vessels or piping inside a revamped unit keep their own history and are assessed on it. As readings come in, measured rates replace the predictions."
+    },
+    {
+      "q": "How do you handle crude tanks that cannot easily come out of service?",
+      "a": "The tank ranking combines floor scan and bottom-side history, cathodic protection, product-side conditions, roof and seal condition and the consequence of losing storage in the export chain. API 653 lets an accepted RBI assessment set the internal interval, so tanks in good condition with low consequence can wait while attention goes to those that need it. The owner's tank inspectors make the final call."
+    },
+    {
+      "q": "Do you accept documents and records in Arabic?",
+      "a": "Yes. Arabic datasheets, inspection reports and procedures are accepted in the data room. Where the meaning of a document changes a material, a design condition or a finding, the study notes the reading it relied on so the owner's engineers can confirm it."
+    },
+    {
+      "q": "Does anyone from Atlantis need to visit the plant?",
+      "a": "No. The study runs from a data room and video workshops held in Iraqi working hours. Walkdowns, nameplate checks and any readings needed to close data gaps are done by the owner's inspectors or inspection contractor, guided by a list that explains what each check is for and how its result changes the plan."
+    },
+    {
+      "q": "Can the study cover facilities in the Kurdistan Region?",
+      "a": "Yes. Kurdistan Region refineries and field facilities follow their owners' own procedures rather than a federal company standard, so the study starts by agreeing the governing basis, the risk matrix and the depth of assessment with that owner. The method, damage mechanism review and deliverables are otherwise the same."
+    },
+    {
+      "q": "Who approves the inspection intervals?",
+      "a": "The asset owner's inspection authority. Atlantis proposes each interval and task with the reasoning behind it, but does not approve intervals or act as inspector of record, and assessments of damaged equipment for continued service stay with the owner's engineers."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/kuwait",
+      "RBI in Kuwait"
+    ],
+    [
+      "/inspection/risk-based-inspection/saudi-arabia",
+      "RBI in Saudi Arabia"
+    ],
+    [
+      "/inspection/risk-based-inspection/united-arab-emirates",
+      "RBI in the United Arab Emirates"
+    ],
+    [
+      "/inspection/risk-based-inspection/qatar",
+      "RBI in Qatar"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit readiness"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/standards/api-584",
+      "API 584 integrity operating windows"
+    ],
+    [
+      "/inspection/asset-integrity-services",
+      "Asset integrity services"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Basrah Gas Company: South Gas Company 51%, Shell 44%, Mitsubishi 5%; associated gas from Rumaila, West Qurna 1 and Zubair; Khor Al Zubair gas plant; compressor stations in North Rumaila",
+      "url": "https://www.enerdata.net/publications/daily-energy-news/iraq-starts-basrah-gas-company-flares-reduction-project.html"
+    },
+    {
+      "fact": "Rumaila Operating Organization operates Rumaila under a 2009 TSC with South Oil Company, later renamed Basra Oil Company; bp contract for Kirkuk with North Oil Company and North Gas Company ratified March 2025",
+      "url": "https://www.bp.com/about-us/what-we-do/bp-worldwide/bp-in-iraq"
+    },
+    {
+      "fact": "Karbala refinery raised to 140,000 b/d",
+      "url": "https://ina.iq/eng/28792-oil-announces-raising-the-production-capacity-of-the-karbala-refinery-to-140-thousand-barrels-per-day.html"
+    },
+    {
+      "fact": "Karbala refinery built by Hyundai E&C, reached full 140,000 b/d",
+      "url": "https://www.zawya.com/en/projects/oil-and-gas/iraq-boosts-karbala-oil-refinery-to-full-capacity-pdwft59j"
+    },
+    {
+      "fact": "North Refinery in Baiji reopened, reported 23 February 2024",
+      "url": "https://english.aawsat.com/node/4872521"
+    },
+    {
+      "fact": "Kurdistan region refineries nameplate capacity nearly 140,000 b/d; Baiji complex referred to as Al-Smood; Karbala greenfield",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/082625-iraq-eyes-end-to-refined-product-imports-after-refinery-upgrades"
+    },
+    {
+      "fact": "Daura hydroskimming refinery in Baghdad operated by Midland Refineries Company, began operating 1955",
+      "url": "https://www.offshore-technology.com/marketdata/daura-refinery-iraq/"
+    },
+    {
+      "fact": "Lanaz refinery near Erbil, 75 kb/d, inaugurated by the Kurdistan Regional Government (Nov 2022)",
+      "url": "https://www.enerdata.net/publications/daily-energy-news/iraq-inaugurates-75-kbd-lanaz-refinery-kurdistan-region.html"
+    },
+    {
+      "fact": "Al-Fao described as Iraq's most important storage facility before export; Tuba and Zubair tank farms; State Company for Oil Projects (Scop) plans storage expansion; pipeline to single point moorings in the Gulf",
+      "url": "https://www.meed.com/iraq-plans-major-expansion-of-oil-storage-facilities"
+    },
+    {
+      "fact": "Al Basrah Oil Terminal offshore export terminal",
+      "url": "https://en.wikipedia.com/wiki/ABOT"
+    },
+    {
+      "fact": "KRG Ministry of Natural Resources administers the region's downstream/refining sector",
+      "url": "https://archive.gov.krd/mnr/mnr.krg.org/index.php/en/downstream/refining.html"
+    },
+    {
+      "fact": "Basra refinery FCC unit entered commissioning Oct 2025; final handover pending JGC (capacity and completion date generalised)",
+      "url": "https://longbridge.com/en/news/294453498"
+    },
+    {
+      "fact": "Karbala refinery EPC: South Korean consortium (Hyundai E&C, GS E&C, SK E&C, Hyundai Engineering)",
+      "url": "https://www.thenationalnews.com/business/south-korean-consortium-wins-6bn-deal-to-build-iraq-refinery-1.345836"
+    }
+  ]
+}

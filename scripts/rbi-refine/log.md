@@ -1,0 +1,3 @@
+# RBI daily runs
+
+- 2026-11-23: oman (own copy ~2,760; 3,091 rendered), bahrain (~2,700; 3,079), iraq (~2,880; 3,276). Reviewer: Oman labour law updated to Royal Decree 53/2023 and the 12-month boiler figure removed; Sohar terminal now Advario Oman (formerly Oiltanking, Odfjell exited 2016); Ras Markaz distances removed; geopolitical intro line rewritten. Bahrain unchanged (modernisation inauguration and 405,000 b/d confirmed). Iraq: Basra FCC capacity/date removed (handover pending), Karbala builder = Hyundai-led consortium, Baiji "returned to service" and "rebuilt" wording removed (oblique war references), Kirkuk companies split, Fao quote de-attributed. Gates: build guard, drift, 0 sitemap failures, preflight 17/17, pricing, claims, RBI/FFS all PASS.
