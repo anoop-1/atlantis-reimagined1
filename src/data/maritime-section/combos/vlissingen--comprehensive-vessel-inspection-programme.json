@@ -1,0 +1,133 @@
+{
+  "port": "vlissingen",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Vlissingen | Owner's CAS/CAP Programme, Dredgers & Ferries",
+  "description": "CVIP at Vlissingen: an owner's CAS/CAP-style programme for dredgers, ferries, wind farm vessels and tankers, set around Vlissingen-Oost dockings and Sloe calls.",
+  "h1": "Comprehensive Vessel Inspection Programme at Vlissingen: owner's condition assessment for the fleets that dock and work at the mouth of the Scheldt",
+  "intro": "Vlissingen sees two kinds of ship: those that pass on their way up the Westerschelde, and those that keep coming back, to dock at Damen Shiprepair Vlissingen, to work cargo in the Sloe area or to serve the wind farms off Zeeland. CVIP, our Comprehensive Vessel Inspection Programme, is built for the second kind. Owners often ask for it as an owner's CAS or owner's CAP, meaning a full condition assessment shaped like those schemes but carried out for the owner's requirement rather than for class. Dockings anchor the programme and calls fill the gaps between them. Every visit is made by a team sent from India.",
+  "highlights": [
+    {
+      "h": "Dredger wear measured as a rate",
+      "p": "Dredgers keeping the deep-water route up the estuary open wear their hopper plating, bottom doors, suction pipes and pump connections every working day. Measuring the same points at each docking and between campaigns turns those readings into wear rates, so renewals are planned before they are found."
+    },
+    {
+      "h": "Ferries and wind vessels out of service",
+      "p": "Ro-pax ferries and wind farm support vessels can be opened up when their operators take them out of service, usually for a docking or in a gap between campaigns. The programme books its heavier modules into those periods and keeps lighter rounds for the time the vessel spends working."
+    },
+    {
+      "h": "Three port areas, one mobilisation",
+      "p": "Vlissingen, Terneuzen and Ghent together make up North Sea Port. A fleet programme can send one team to a docking at Vlissingen-Oost, a chemical tanker at a Terneuzen jetty and a bulk carrier in Ghent in a single trip, while each ship keeps its own visit schedule."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-vlissingen-cvip",
+      "h": "Where at Vlissingen and across the estuary programme visits take place",
+      "p": [
+        "Damen Shiprepair Vlissingen at Vlissingen-Oost anchors most programmes here. A docking gives the programme what trading calls hold back: a dry bottom, sea chests, thruster tunnels and rudder, tanks reached from yard staging, and time. Around the dockings, the industrial and cold-store berths of the Sloe area and the jetties across the water at Terneuzen carry the lighter visits.",
+        "Ships waiting off Vlissingen for pilots or a tidal window up the Westerschelde make poor programme candidates. The window closes when the tide turns, the sea state decides whether anyone can board, and a programme relies on visits that can be repeated in the same way. Those ships are better visited at their berth upriver or at their next docking."
+      ],
+      "list": [
+        "Damen Shiprepair Vlissingen: baseline and docking visits covering bottom, sea chests, thrusters, staged structure and tanks",
+        "Sloe area chemical and oil jetties: deck lines, manifolds, pump rooms and machinery on tankers during cargo operations",
+        "Cold-store and fruit terminals: hatches, holds, refrigeration machinery and switchboards on reefer ships after discharge",
+        "Dry bulk and project cargo quays: holds, coamings and tank tops on bulk carriers and heavy-lift ships after discharge, with the holds cleaned",
+        "Quays at Vlissingen-Oost: offshore wind installation and support vessels between campaigns",
+        "Terneuzen jetties: chemical tankers visited in the same mobilisation as Vlissingen work"
+      ]
+    },
+    {
+      "id": "dredgers-vlissingen-cvip",
+      "h": "Dredgers on the Scheldt: trending wear instead of measuring it once",
+      "p": [
+        "Dredging on the estuary never stops, because the channel to Antwerp has to be kept deep, so dredgers are among the ships that use Vlissingen all year. Their wear is concentrated and quick: spoil scours hopper plating, bottom doors and their seals, suction and discharge pipework, dredge pump casings and the structure around the draghead gantries. One measurement at a docking tells the superintendent which parts are thin. A programme tells them how long the rest will last.",
+        "The baseline sets a dense grid of numbered positions in each wear zone, closer than a class TM plan calls for, and records dredge pump vibration and thermal images of bearings and motors with the pump at a known duty. Repeat visits fall at each docking and, where the operator can spare the vessel, in gaps between campaigns, measuring the same grid. Plotted against the dredging hours or volumes the operator already logs, the readings give wear rates that let plate and pipe be ordered and scheduled ahead of the next campaign.",
+        "Dredgers that come to Vlissingen-Oost for docking between projects elsewhere fit the same pattern. Each keeps its own record, and sister dredgers in one fleet share point numbering so the operator can compare them directly."
+      ]
+    },
+    {
+      "id": "ferries-wind-vlissingen-cvip",
+      "h": "Ferries and offshore wind vessels with fixed windows out of service",
+      "p": [
+        "A ro-pax ferry's timetable leaves almost no room for inspection outside the periods its operator takes it out of service, which usually means the docking. For ferries the programme therefore puts its heavy modules into each docking at Vlissingen-Oost: shell and car-deck gauging, ramp and stern-door structure, and crack detection at hinge and support details. Lighter rounds, machinery vibration and switchboard thermography, go into overnight lay-bys or quiet spells in the schedule where the operator offers them.",
+        "Offshore wind installation, cable-lay and crew-transfer vessels follow the opposite pattern: weeks of intense work, then weeks alongside. Their programme visits fall in those gaps. Deck plating under heavy cargo and sea-fastening, crane pedestals, gangway foundations, ballast tanks, thrusters and generators are measured each time, and crack detection results at pedestal and foundation welds are kept as the owner's NDT records, separate from any class approval. The next charterer's condition survey then meets a vessel with a history behind it."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-vlissingen",
+      "h": "Owner's CAS, owner's CAP and the class route for ships docking at Vlissingen-Oost",
+      "p": [
+        "For tankers and bulk carriers calling at the Sloe berths, the request we hear is for an owner's CAP before a charter, or an owner's CAS on an older ship. For ferries, dredgers and offshore vessels the words are less common but the need is the same: one structured assessment of the whole ship, planned from its drawings and history, with close-up survey, gauging at defined positions, coatings and closing appliances rated, machinery measured and findings graded in one report.",
+        "CVIP delivers that for the owner's requirement. It does not stand in for the IMO Condition Assessment Scheme, which a flag Administration verifies, or for a classification society's Condition Assessment Programme, which ends in a rating, and the owner receives no CAS Statement of Compliance and no CAP rating from it. A charterer who names the class CAP gets it from the society, and an owner who has run a CVIP round beforehand goes into that assessment knowing where the steel is weak.",
+        "At a Vlissingen docking, the class surveyor's renewal or intermediate survey still needs its own gauging by a firm the society has accepted under IACS UR Z17. Atlantis does not have that acceptance yet; it is being sought from DNV, Lloyd's Register and ABS, and in the meantime CVIP readings taken in the same dock serve the owner's planning and the trend record, not the class survey."
+      ]
+    },
+    {
+      "id": "fleet-vlissingen-cvip",
+      "h": "One mobilisation for Vlissingen, Terneuzen and Ghent ships in a fleet programme",
+      "p": [
+        "North Sea Port joins Vlissingen, Terneuzen and Ghent under one authority, and the three port areas lie close enough for a single team to cover more than one ship. An owner or manager with a dredger docking at Vlissingen-Oost, a chemical tanker trading to Terneuzen and a bulk carrier discharging in Ghent can have all three visited in one trip, each against its own programme plan and its own gas-free and access constraints.",
+        "Where the ships are sisters, shared point numbering means the trip also yields a side-by-side comparison for the technical department, showing which hull is wearing fastest and which can wait for its scheduled docking."
+      ]
+    },
+    {
+      "id": "plan-vlissingen-cvip",
+      "h": "Planning around the dock slot, the tide and the wind farm calendar",
+      "p": [
+        "The docking date usually sets the rhythm here, so we start from the yard slot at Vlissingen-Oost and work backwards: a pre-docking round on an earlier call or on arrival, the docking visit itself, then a short visit after undocking to reset the baseline for renewed areas. For offshore vessels the charter calendar takes the place of the docking date, and for ferries the operator's out-of-service schedule does.",
+        "Teams travel from India on Schengen visas, flying into Schiphol or Brussels and continuing to Zeeland by road or rail, so dates need to reach us early. Yard access is arranged with the yard through the superintendent, terminal access by the ship's agent; on board, the crew provides gas-free certificates, entry permits, lighting and someone to run the machinery. Write to info@atlantisndt.com about a Zeeland programme, or use the form below."
+      ]
+    }
+  ],
+  "vessels": [
+    "Trailing suction hopper dredgers and other dredging vessels",
+    "Ro-pax ferries and ro-ro ships",
+    "Offshore wind installation, cable-lay and support vessels",
+    "Chemical and product tankers at the Sloe and Terneuzen jetties",
+    "Refrigerated cargo ships",
+    "Bulk carriers and heavy-lift ships",
+    "Short-sea cargo ships docking at Vlissingen-Oost"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "IACS UR Z10.2 and Z10.3 – Hull surveys of bulk carriers and chemical tankers",
+    "The rules of the ship's classification society for dredgers and offshore service vessels",
+    "ISO 20816-1 – Evaluation of machine vibration by measurements",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines: thermography",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement"
+  ],
+  "deliverables": [
+    "Programme plan with visits set against dock slots, charter gaps and out-of-service periods",
+    "Baseline report on hull, tanks, wear zones, deck equipment foundations and machinery",
+    "Visit report in one format, with changes since the baseline and findings ranked by priority",
+    "Wear-rate record for dredger hopper, door, pipe and pump positions",
+    "Crack detection records for ramp, door, crane and gangway foundation details",
+    "Fleet comparison for sister ships across Vlissingen, Terneuzen and Ghent"
+  ],
+  "faqs": [
+    {
+      "q": "Is a CVIP programme at Vlissingen a CAS or CAP survey?",
+      "a": "Not in the official sense. It follows the same steps owners know from CAS and CAP, hence the names owner's CAS and owner's CAP, yet it is ordered by and reported to the owner. Flag does not review it and class does not rate the ship, so there is no Statement of Compliance and no CAP rating. If a charterer requires the class CAP, the society carries it out."
+    },
+    {
+      "q": "Can the programme run on a dredger between campaigns as well as in dock?",
+      "a": "Yes, where the operator can spare the vessel alongside. Dockings carry the full visit, with the bottom, doors and hopper structure; between campaigns the team measures the accessible wear zones, pipework and pumps at the same numbered positions. More visits give better wear rates, and that is what lets the superintendent order plate and pipe before the docking instead of waiting for the in-dock findings."
+    },
+    {
+      "q": "How does a ferry fit into a programme if it is hardly ever out of service?",
+      "a": "Its docking becomes the main visit, when shell, car decks, ramps, doors and their supports are covered. Between dockings, short rounds on machinery and switchboards fit overnight lay-bys or quieter periods the operator can offer. Over a few years the ferry's record shows whether car-deck plating and ramp structure are wasting or cracking faster than the docking interval allows for."
+    },
+    {
+      "q": "Can visits be made to ships waiting off Vlissingen for the tide?",
+      "a": "We do not plan programme visits there. A ship at anchor can leave the moment its tidal window opens, and boarding depends on the sea state, so the readings cannot be repeated reliably from one visit to the next. Those ships are better visited alongside at their destination in Antwerp, Ghent or Terneuzen, or during a docking, where the same positions can be reached every time."
+    },
+    {
+      "q": "What does the programme measure on offshore wind vessels?",
+      "a": "Deck plating under cargo and sea-fastening loads, crane pedestals and gangway foundations with magnetic particle inspection at their welds, ballast and fuel tanks, thrusters and generators for vibration, and switchboards and drives by thermography. The measurements are repeated in each gap between campaigns, so the owner has a trend to show the next charterer's surveyor rather than a single recent survey."
+    },
+    {
+      "q": "When should a Vlissingen programme be set up?",
+      "a": "Ideally a year or more before a renewal docking, so that a repeat visit falls before the yard specification is written. It can begin at any docking, though, and the baseline taken in dock is often the most complete look a ship ever gets. Because the team travels from India, the dock slot and the visa timing are agreed together at the outset."
+    }
+  ]
+}

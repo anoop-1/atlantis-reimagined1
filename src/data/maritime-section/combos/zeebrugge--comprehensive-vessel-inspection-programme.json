@@ -1,0 +1,132 @@
+{
+  "port": "zeebrugge",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Zeebrugge | Owner's CAS/CAP Programme for PCTC, Ro-Ro, LNG",
+  "description": "CVIP at Zeebrugge: an owner's CAS/CAP-style programme that splits a whole-ship assessment of car carriers, ro-ro and LNG ships across their repeat calls.",
+  "h1": "Comprehensive Vessel Inspection Programme at Zeebrugge: an owner's condition assessment for car carriers, ro-ro freighters and LNG carriers on fixed rotations",
+  "intro": "Zeebrugge's ships come back often but never stay long. Vehicle carriers turn round between discharge and loading, ro-ro freighters on UK and Irish routes in hours, and LNG carriers at the Fluxys terminal within its strict window. CVIP, our Comprehensive Vessel Inspection Programme, suits that rhythm: the whole-ship condition assessment owners call an owner's CAS or owner's CAP is divided into blocks, each sized to one call or lay day, until the ship has been covered and the cycle begins again. It is done for the owner's requirement, not for class, by technicians who travel from India for each visit.",
+  "highlights": [
+    {
+      "h": "A whole ship, a few decks per call",
+      "p": "No single Zeebrugge call leaves time to examine a car carrier from tank top to weather deck. The programme splits her into blocks, a set of car decks, a ramp, a group of ballast tanks, and covers one per call, so the whole ship is assessed over a rotation, then again."
+    },
+    {
+      "h": "Heavier cargo on ageing decks",
+      "p": "Electric vehicles weigh more than the cars many older PCTCs were built to carry. Deck plating, stiffeners, hoistable-deck supports and ramps are measured at fixed points on each pass, so the owner sees whether the margins are holding before deciding how long to keep the ship in the trade."
+    },
+    {
+      "h": "LNG carriers trended outside the containment",
+      "p": "An LNG carrier can stay in service for decades, and while her cargo system stays clean, her ballast tanks and double-hull steel keep corroding. At the Fluxys terminal, within its permits, the programme measures ballast spaces, the double bottom, deck structure and the engine room, and leaves the containment to the docking."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-zeebrugge-cvip",
+      "h": "Where at Zeebrugge a short call can carry a programme visit",
+      "p": [
+        "Zeebrugge is mainly a cargo and energy port, with large dockings taken elsewhere, so every CVIP visit here is made afloat and shaped by the call. Port of Antwerp-Bruges describes Zeebrugge as the largest car port in the world, and the car terminals set the pattern for much of the work: a visit fits the gap between discharge and loading, while the decks are clear.",
+        "The baseline is the exception to the short-visit rule. It needs more time than a normal call gives, so it is usually taken on a ship lying in the inner port, during a planned lay day, or at the yard where the ship docks, with later visits fitted to calls."
+      ],
+      "list": [
+        "Car terminals in the inner and outer port: car decks, hoistable decks, internal and stern ramps and their supports between discharge and loading",
+        "Berths used by the UK and Irish ro-ro services: main deck in the trailer lanes, tank tops and stern ramp on lay days and weekend lay-overs",
+        "Fluxys LNG terminal: double bottom and ballast tanks, voids, deck structure clear of hazardous areas and engine room machinery, within the terminal's permits",
+        "Inner port berths behind the Pierre Vandamme lock: longer visits, the baseline among them, on ships lying idle",
+        "Outer port container terminal: scrubber lines, deck plating and machinery readings during cargo work",
+        "Anchorages in Belgian waters: short machinery rounds by launch when the sea state allows boarding"
+      ]
+    },
+    {
+      "id": "rolling-zeebrugge-cvip",
+      "h": "Rolling coverage: how a whole-ship assessment is split across fixed rotations",
+      "p": [
+        "A ship on a fixed rotation calls at Zeebrugge on a predictable cycle, which is exactly what a rolling programme needs. At the baseline the ship is divided into blocks of roughly equal effort: groups of car decks with their supports, each ramp and door, sets of ballast and fuel tanks, the machinery spaces, the weather deck and its fittings. Each block is assigned to a call, and the sequence is arranged so that the details most likely to change, hoistable-deck supports and ramp hinges for example, come round more often than plating that changes slowly.",
+        "Each visit report covers its block in full and carries forward the latest readings for every other block, so the owner always holds a current picture of the whole ship, with the date of each part's last measurement shown. If a call is cut short, the unfinished part of the block moves to the next call; if a lay day appears, two blocks can be taken together. Over one survey cycle every block is measured several times, and that repetition is what turns rolling visits into a trend.",
+        "The approach depends on discipline at the baseline: each position numbered on the drawings and marked on the plate, each machine read under a recorded load, each coating rated from a recorded viewpoint. Without that, rolling visits would produce a pile of unrelated reports."
+      ]
+    },
+    {
+      "id": "pctc-roro-zeebrugge-cvip",
+      "h": "Car carriers and ro-ro freighters: what the programme watches on decks, ramps and doors",
+      "p": [
+        "Vehicle carriers and ro-ro ships have structure that tankers and bulk carriers lack: several internal decks, hoistable decks with their lifting gear, internal and stern ramps and, on some designs, side and bow doors. Every call loads them cyclically, and corrosion under the cargo, where condensation and road salt collect, is easy to overlook until it is advanced. The programme concentrates its crack detection on hinges, supports, lashing-point doublers and ramp connections, and its gauging on deck plating and stiffeners in the most heavily used lanes.",
+        "Ro-ro freighters add the wear of trailers and tug-masters crossing the main deck on every call. On both types, a thermographer images the switchboards feeding ventilation fans, ramps and deck machinery under working load, and the fans and hydraulic power packs are read for vibration, because those systems run hard during every short stay in port.",
+        "Behind many of these programmes lies the question of the next decade of cargo. Heavier vehicles, fresh thinking on deck strength and fire protection, and the emissions accounting that EU trading rules and FuelEU Maritime now require all bear on whether an older PCTC keeps trading to Europe. A record showing how its decks and ramps are actually changing gives the owner firmer ground for that decision than age alone."
+      ]
+    },
+    {
+      "id": "lng-zeebrugge-cvip",
+      "h": "LNG carriers at the Fluxys terminal: tracking hull and ballast condition over many calls",
+      "p": [
+        "An LNG carrier can trade for decades, and the ships calling at Zeebrugge often return on long-term trades. Their cargo containment stays clean and is examined by specialists at docking, but the ballast tanks, double bottom, double-side spaces and deck structure age like any other hull. Working within the terminal's gas-safety rules and the ship's permit system, with equipment the terminal has accepted, a CVIP visit gauges and inspects those spaces at fixed positions, rates the ballast coatings and reads the engine room machinery.",
+        "Where the owner asks for it, the thermographer can also image accessible inner-hull surfaces from the ballast spaces for cold spots that point to insulation trouble. Over several calls the record shows which ballast spaces are losing coating fastest, so coating repair at the next docking is planned from a trend rather than from a crew report."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-zeebrugge",
+      "h": "Owner's CAS and owner's CAP on ships that never stay long",
+      "p": [
+        "Car carrier and ro-ro owners seldom hear the words CAS or CAP from charterers, as those are mostly tanker and bulk terms, but their technical departments still want what the schemes provide: a planned assessment of the whole ship with close-up survey, measured steel at defined positions, ratings for coatings and closing appliances, machinery condition and graded findings in one report. LNG carrier owners use the terms more readily. Either way, the owner's CAS or owner's CAP that people describe is what CVIP supplies, assembled across calls rather than in one long stay.",
+        "It remains the owner's assessment. It is not a statutory survey verified by a flag Administration, as the IMO Condition Assessment Scheme is for certain older tankers, and not a classification society's CAP with its rating; CVIP leads to neither a Statement of Compliance nor a rating, and where a charterer requires the class CAP the owner arranges it with the society.",
+        "Atlantis's UR Z17 approval from DNV, Lloyd's Register and ABS is still in process, so CVIP readings are the owner's planning evidence and are not credited to any class survey, including the renewal gauging at whichever yard the ship docks in."
+      ]
+    },
+    {
+      "id": "plan-zeebrugge-cvip",
+      "h": "Planning around rotations, lay days and terminal inductions",
+      "p": [
+        "Send the ship's rotation for the coming months, any planned lay days or weekend lay-overs, the next docking and its yard, and the class survey dates. We assign the blocks to calls and agree a priority list for each, so the most important readings come ahead of the rest and nothing is left half-done when loading resumes. Because the windows are short, mobilisation is tied to confirmed calls rather than estimates.",
+        "The team flies from India on Schengen visas, usually into Brussels Airport, and continues by road or rail to the port. The agent submits names for ISPS access at the car, ro-ro and LNG terminals and books the LNG terminal's own induction in advance. On board, the crew empties and ventilates the tanks in the block, clears and lights the decks, and runs fans, ramps and machinery for readings. To discuss a Zeebrugge programme, email info@atlantisndt.com or complete the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Vehicle carriers (PCTC and PCC)",
+    "Ro-ro freighters on UK and Irish services",
+    "LNG carriers on long-term trades to the Fluxys terminal",
+    "Container ships calling at the outer port",
+    "Sister vehicle carriers in one owner's fleet",
+    "General cargo ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "IGC Code – Construction and equipment of ships carrying liquefied gases in bulk",
+    "International Convention on Load Lines – Closing appliances, doors and hatches",
+    "ISO 20816-1 – Evaluation of machine vibration by measurements",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines: thermography",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement"
+  ],
+  "deliverables": [
+    "Rolling programme plan assigning each block of the ship to a call or lay day",
+    "Baseline report covering decks, ramps, doors, tanks and machinery as found",
+    "Visit report for each call, with the block measured and the latest status of every other block",
+    "Crack detection records at ramp hinges, hoistable-deck supports and lashing doublers",
+    "Trend data for deck and tank thickness, ballast coatings, vibration and thermography, kept by the owner"
+  ],
+  "faqs": [
+    {
+      "q": "Is a rolling CVIP at Zeebrugge the same as CAS or CAP?",
+      "a": "No, although it borrows their method, which is why owners speak of an owner's CAS or owner's CAP. Commissioned by and reported to the owner, it carries no flag Statement of Compliance and no class CAP rating. Splitting it across calls changes the timetable, not the depth: over a rotation the whole ship is surveyed to one plan, and a charterer who insists on the class CAP still obtains it from the society."
+    },
+    {
+      "q": "How much of a car carrier can be covered on one Zeebrugge call?",
+      "a": "One block, agreed in advance: typically a group of car decks with their supports, a ramp and its hinges, or a set of ballast tanks the crew can empty and ventilate between discharge and loading. The block is sized to the gap the operator expects, and the priority list inside it means the most important points are measured ahead of the rest if loading starts early."
+    },
+    {
+      "q": "Can the programme include LNG carriers at the Fluxys terminal?",
+      "a": "Yes, within the terminal's and the ship's gas-safety rules. Visits take in the double bottom and ballast tanks, voids, deck structure clear of hazardous areas and the engine room, using equipment the terminal accepts and with everything agreed through the agent before berthing. The cargo containment is left to the docking and its specialists; on these ships the programme's value is the hull and ballast trend built over many calls."
+    },
+    {
+      "q": "What if a call is shortened or a lay day is cancelled?",
+      "a": "The unfinished part of the block moves to the next call, and the visit report states what was and was not measured. Because every report carries forward the latest readings for the rest of the ship, a lost call delays one block instead of leaving a gap in the picture. If the rotation changes for a longer period, the block schedule is redrawn with the operator."
+    },
+    {
+      "q": "Does the programme help decide whether an older PCTC should keep trading?",
+      "a": "That is often why it is started. Heavier electric vehicles and revised thinking on deck strength have made owners ask whether older decks and ramps still have the margins for the coming decade. Repeated readings at fixed points show whether plating and stiffeners are wasting and whether supports are cracking, which is firmer ground for that decision than the ship's age or a single survey."
+    },
+    {
+      "q": "Can the baseline be taken at Zeebrugge?",
+      "a": "It can, when the ship lies in the inner port behind the Pierre Vandamme lock or has a planned lay day long enough for the larger opening survey. Otherwise the baseline is taken at the yard where the ship docks, with our team travelling there, and the rolling visits then follow on Zeebrugge calls. Either way, the positions marked at the baseline are the ones every later visit returns to."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "port": "ghent",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Ghent | Owner's CAS/CAP for Bulk Carriers & Ro-Ro",
+  "description": "CVIP at Ghent: an owner's CAS/CAP-style programme for canal-trade bulk carriers and ro-ro ships, with baseline and repeat visits timed to discharges.",
+  "h1": "Comprehensive Vessel Inspection Programme at Ghent: an Owner's CAS/CAP for Canal-Trade Bulk Carriers and Ro-Ro Ships",
+  "intro": "CVIP, the Comprehensive Vessel Inspection Programme, is the whole-ship condition assessment that owners often describe as an owner's CAS or owner's CAP: close-up survey to a plan, thickness at fixed points, coatings and machinery graded and one report, all commissioned by the owner rather than issued by class. At Ghent it suits the mid-sized bulk carriers that bring ore and coal up the canal to the steelworks, agribulk ships at the grain terminals and ro-ro ships returning on Scandinavian rotations. A booked lock passage and a planned discharge give each visit a known window, and our technicians travel from India to meet it.",
+  "highlights": [
+    {
+      "h": "Discharges that come round again",
+      "p": "Bulk carriers in the steelworks trade return to Ghent cargo after cargo. Every empty-hold window after the grabs finish can carry one stage of the programme, so hold frames, hopper plating and topside tanks are re-measured at the same marked points on each call."
+    },
+    {
+      "h": "Lock slots fix the window",
+      "p": "Ships reach Ghent through the Terneuzen sea locks and canal pilotage, so the stay is booked rather than guessed. A repeat visit can be set against the agent's berth plan well ahead, with tanks ventilated and gas-tested before the ship clears the locks."
+    },
+    {
+      "h": "A record that travels to the yard",
+      "p": "Deep-sea dockings for Ghent traders happen at Vlissingen, Antwerp or further afield. The CVIP trend record goes with the docking specification and shows which plates and frames are losing steel fastest, so the chosen yard plans its steel crews from measured history."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cvip-ghent",
+      "h": "Where an owner's condition assessment is done at Ghent",
+      "p": [
+        "No single berth at Ghent gives access to the whole ship, so a CVIP plan assigns each module to the place and moment that suits it. The steelworks quays on the canal are where most bulk carrier visits happen: once the grabs stop and the holds are swept, frames, brackets, lower stools and hopper plating can be inspected close up and gauged, and the topside and hopper ballast tanks join the visit when the crew de-ballasts and ventilates them before departure. Agribulk terminals give the same kind of window on handysize and supramax bulkers after grain or oilseeds, often with extra time while the ship waits for her next fixture, which makes them a sound place for a baseline.",
+        "Other berths carry other modules. At the forest products and general cargo quays, the hatch covers, coamings and tween decks of open-hatch and multipurpose ships are within reach. Ro-ro ships lying between rotations at their berths or at the car terminal give time on the main deck, ramps and car decks. At the canal-side tank terminals, product and biofuel tankers allow deck lines, manifolds and pump-room piping under the terminal's permit, while cargo tanks wait for a gas-free certificate. Alongside, the machinery that runs during cargo work, such as generators, ballast pumps, crane and ramp hydraulic units and ventilation fans, is measured under its working load, and that load is written into the record."
+      ],
+      "list": [
+        "Steelworks ore and coal quays: holds, hopper plating, hatch coamings and, when emptied, topside and hopper tanks",
+        "Agribulk terminals: longer stays suited to a baseline visit on handysize and supramax bulkers",
+        "Forest products and general cargo berths: hatch covers, coamings, tween decks and cranes",
+        "Ro-ro berths and the car terminal: main deck, ramps, car decks and crack detection at ramp hinges",
+        "Canal-side tank terminals: deck lines and manifolds under permit, cargo tanks once the ship is gas-free"
+      ]
+    },
+    {
+      "id": "which-ships-ghent",
+      "h": "Which ships calling at Ghent gain most from a programme",
+      "p": [
+        "The canal limits ship size, so the bulk carriers seen at Ghent are mid-sized Panamax, supramax and handysize ships rather than the large ore carriers of the coastal ports. Many of them are well into their working lives and come under the enhanced survey programme, IACS UR Z10.2 for single-side skin designs or Z10.5 for double-skin ships. Ore and coal wear them in places that are easy to predict and hard to keep up with: grab impact on tank tops and lower frames, abrasion of hopper plating, and corrosion of hold steel where coal moisture and sulphur work together. A one-off survey tells an owner where a ship stands; a programme tells the owner how fast it is moving.",
+        "That rate matters when an older bulker approaches its second or third renewal survey and the owner must judge whether the steel the ship will need, together with the carbon obligations under EU ETS and FuelEU Maritime, still justifies another cycle. It matters to charterers, who look hard at hold condition on ships carrying heavy cargoes, and to lenders reviewing a fleet. Ro-ro ships on fixed Scandinavian services are the other natural candidates, because their regular rotations put them back at the same Ghent berth again and again, and their ramps, hinges and car decks reward watching over time. Product and biofuel tankers on repeated canal calls can take a programme limited to deck, piping and machinery, with tank modules added at docking."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-ghent",
+      "h": "Owner's CAS and owner's CAP at Ghent: what the programme mirrors, and what it does not replace",
+      "p": [
+        "When a Ghent bulk carrier owner asks for an owner's CAS or an owner's CAP, the request is for the method of those schemes without their paperwork. CVIP follows that method: a close-up survey of holds and tanks to an agreed plan, thickness measured at defined locations, coatings rated GOOD, FAIR or POOR, hatch covers and machinery assessed, every finding graded, and the whole ship described in one report. The difference is who it serves. The owner, the manager, a charterer or a financier commissions the work, agrees the scope and the grading, and keeps the record.",
+        "The official schemes stay where they are. The IMO Condition Assessment Scheme is a flag-verified regime for a narrow group of older oil tankers and does not reach the bulk carriers that dominate Ghent. A class Condition Assessment Programme is a rating a classification society issues under its own procedure, and dry bulk charterers increasingly ask for one on older ships in heavy-cargo trades. If a charter names a CAP rating, the owner books it with the ship's society, and CVIP readings from earlier Ghent discharges tell the owner what that rating is likely to say before the society's surveyors arrive.",
+        "The same line runs through the gauging itself. Readings credited to a class survey must come from a firm holding approval from the ship's society under IACS UR Z17; Atlantis is in the process of obtaining it, from DNV, Lloyd's Register and ABS, and until a certificate is issued, CVIP readings at Ghent serve the owner's own decisions and are not credited to any class survey. Magnetic particle results at hatch corners and bracket toes are likewise the owner's NDT records, not class findings."
+      ]
+    },
+    {
+      "id": "trend-record-ghent",
+      "h": "How the trend record builds over repeat Ghent discharges",
+      "p": [
+        "Every useful trend starts with points that can be found again. At the baseline, gauging locations are numbered on the ship's drawings by hold, side, frame and height, typically at the lower bracket, the mid-span and the upper bracket of selected frames, plus strips across hopper plating, the tank top under the hatch opening where grabs land, the coaming top plate and the topside tank sloping plate. Each point is marked and photographed so the next team, arriving from India months later, measures exactly the same spot. Coating condition is recorded from fixed photo positions in each hold and tank, so a change from FAIR to POOR is visible rather than argued.",
+        "Grab damage and corrosion are logged separately. A gouge in the tank top is a contact event, not a corrosion rate, and folding it into the wastage trend would make a hold look worse than its chemistry suggests. With the two kept apart, the record gives a corrosion rate for each point and a separate list of mechanical damage and repairs. Holds can be rotated across visits so that a full set is completed over a survey cycle without forcing every hold into one discharge window, while the holds that wear fastest are measured each time.",
+        "Machinery and electrics follow the same discipline. Ballast pumps are measured as they de-ballast after discharge, generators under the cargo-work load, and crane or ramp hydraulic units while they run; each reading carries its load and operating condition. A qualified thermographer images switchboards, motor control centres and starters on a yearly round. Over several calls, those readings become trends that show a bearing or a connection drifting long before it fails in the middle of a discharge."
+      ]
+    },
+    {
+      "id": "planning-ghent-cvip",
+      "h": "Planning CVIP visits around the Terneuzen locks, the canal and a Ghent discharge",
+      "p": [
+        "Start by sending the ship's structural drawings, the last thickness measurement report, the class survey status, the trading pattern and the expected Ghent calls for the coming months, with the next docking date and yard if known. From those we set out which modules belong to which call, and the superintendent confirms the order before each visit, with the most critical holds and tanks at the top of the list. The ship's agent arranges ISPS gate passes for the quay, confirms the canal arrival time and keeps us informed as lock slots move; the crew prepares lighting, access, ventilation and gas testing for any tank on the list.",
+        "The team travels from India on Schengen visas, so applications start as soon as a call is confirmed, and mobilisation stays tied to the agent's updates because canal timings can shift by a tide or a lock cycle. Brussels Airport is the usual gateway, with Amsterdam Schiphol an option when a ship also calls on the Dutch side at Terneuzen. Winter on the canal can bring cold, wet steel, which affects magnetic particle testing and the paint marks on gauging points, so crack detection is placed in the visits where hold conditions allow it. To start a programme for one bulker or a whole canal-trade fleet, write to info@atlantisndt.com or fill in the form below."
+      ]
+    },
+    {
+      "id": "worked-example-ghent",
+      "h": "A worked programme for a supramax bulker in the steelworks trade",
+      "p": [
+        "Consider a supramax bulk carrier that brings coal or ore to the steelworks on a repeating pattern and has a renewal survey ahead. The baseline is placed at a Ghent discharge with enough time after the grabs: every hold is inspected close up and gauged at the numbered points, the topside and hopper tanks that the crew can empty are entered, hatch coamings and covers are examined, magnetic particle testing is applied at hatch corners and lower bracket toes, and the ballast pumps, generators and crane hydraulics are measured under load. The baseline report describes the ship as found and lists anything that needs action before the next voyage.",
+        "Later visits follow her calls. One discharge is used for the holds that wore fastest and the tanks the baseline could not reach; another adds an ultrasonic hatch cover tightness test as the owner's own check ahead of a grain cargo. Some months before the docking, a pre-docking round turns the trend into a steel and pipe renewal list located on the drawings, which goes to whichever yard wins the work. After the docking, a short visit at Ghent re-baselines the renewed plates, so the next survey cycle starts from measured fact."
+      ]
+    }
+  ],
+  "vessels": [
+    "Panamax and supramax bulk carriers in the steelworks ore and coal trade",
+    "Handysize agribulk carriers at the grain terminals",
+    "Ro-ro ships on Scandinavian rotations",
+    "Forest-product and open-hatch carriers",
+    "Product and biofuel tankers on repeated canal calls",
+    "General cargo and multipurpose ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys, including the GOOD, FAIR and POOR coating terms",
+    "IACS UR Z10.2 and Z10.5 – Hull surveys of bulk carriers and double-skin bulk carriers",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "International Convention on Load Lines – hatchways and closing appliances",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration"
+  ],
+  "deliverables": [
+    "Programme plan for the ship: modules, numbered hold, tank and coaming points, and the Ghent calls chosen for each visit",
+    "Baseline report of holds, tanks, hatch covers, piping and machinery as found",
+    "Visit report after each Ghent discharge, with changes since the baseline and findings by priority",
+    "Corrosion rate for every gauging point, with grab damage logged apart from wastage",
+    "Pre-docking steel and pipe renewal list for the chosen yard, located on the ship's drawings",
+    "Trend data files the owner keeps for the planned maintenance system"
+  ],
+  "faqs": [
+    {
+      "q": "Can a CVIP visit fit between the end of discharge and sailing at Ghent?",
+      "a": "Yes, if the scope is matched to the window. The superintendent and we agree beforehand which holds, tanks and machinery belong to that call, sized to the time between the last grab and departure, and the team works through them in priority order. Anything not reached moves to the next visit in the plan rather than being dropped, and the visit report says so plainly."
+    },
+    {
+      "q": "Is CVIP at Ghent the same as CAS or CAP?",
+      "a": "It follows the same pattern, which is why owners call it an owner's CAS or owner's CAP, but it is commissioned by the owner and answers the owner's questions. It carries no CAS Statement of Compliance from a flag Administration and no CAP rating from a classification society. Where a charter names a class CAP rating for an older bulker, the owner books it with class, and the CVIP history shows the likely outcome beforehand."
+    },
+    {
+      "q": "Our bulk carriers call at Ghent irregularly. Can the programme still work?",
+      "a": "Yes. The plan belongs to the ship, not to the port. If a ship misses Ghent for a season, the next visit is placed at another call or at the docking yard, with the same numbered points and the same report format, and the team travels there from India. Ghent stays in the plan because its planned discharges are among the easier places to reach empty holds."
+    },
+    {
+      "q": "Which holds are measured on each Ghent visit?",
+      "a": "The holds that are wearing fastest, usually those taking the heaviest grab work or showing coal-related corrosion, are measured every time. The remainder are rotated so each hold receives its full scope over the survey cycle. The rotation is written into the programme plan, so the superintendent knows in advance which holds the crew must have swept, lit and accessible for each Ghent call."
+    },
+    {
+      "q": "Can a ro-ro ship on a Scandinavian service join the same programme as our bulk carriers?",
+      "a": "Yes. Each ship type gets its own module list, so a ro-ro ship's plan centres on the main deck, car decks, ramps and hinges, ramp hydraulics and ventilation fans rather than holds. The report format and trend record match those of the bulk carriers, so a technical department running both types reads one style of document for the whole fleet."
+    },
+    {
+      "q": "Do lock and canal delays put a repeat visit at risk?",
+      "a": "They move it rather than cancel it. Travel is booked against the agent's latest arrival estimate, and the team adjusts as lock slots change. Once the ship is alongside, the cargo plan sets the working time. If a delay shortens the window, the visit is re-sequenced to cover the priority items, and the remainder joins the following call in the programme."
+    }
+  ]
+}

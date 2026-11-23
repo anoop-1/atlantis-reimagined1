@@ -1,0 +1,133 @@
+{
+  "port": "antwerp",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Antwerp | Owner's CAP/CAS Programme for Chemical & Gas Ships",
+  "description": "CVIP in Antwerp: an owner's CAP or CAS-style programme for parcel, product and gas tankers, timed to calls inside the locks and to EDR floating dock stays.",
+  "h1": "Comprehensive Vessel Inspection Programme in Antwerp: owner's condition assessment for parcel tankers, gas carriers and the ships that serve the chemical cluster",
+  "intro": "Antwerp's chemical cluster draws the same parcel tankers, product tankers and gas carriers back through the sea locks call after call, and their cargoes are hard on piping, coatings and the ballast spaces beside heated tanks. CVIP, our Comprehensive Vessel Inspection Programme, gives their owners a whole-ship condition assessment shaped like CAS and CAP, most often requested here as an owner's CAP, yet carried out for the owner's requirement and not for class. The baseline is set during a multi-jetty call or an EDR Antwerp Shipyard docking, and repeat visits follow the ship's parcels. A team flies from India for each visit.",
+  "highlights": [
+    {
+      "h": "Measured between parcels, not instead of them",
+      "p": "A parcel tanker discharging several grades may shift between jetties over several days. The programme uses that waiting time for engine room, deck line and pump-room readings and enters tanks once they are washed and certified, so no visit asks the ship to give up a berth or a cargo window."
+    },
+    {
+      "h": "Coated and stainless tanks trended apart",
+      "p": "Coated cargo tanks lose coating; stainless tanks can pit after chloride-bearing cargoes or poor rinsing; the ballast tanks and cofferdams around them often waste fastest of all. Each kind of space keeps its own trend, so the owner can see which one is really setting the ship's remaining life."
+    },
+    {
+      "h": "EDR docking as a planned checkpoint",
+      "p": "EDR Antwerp Shipyard's floating docks lie in the same dock system as the cargo jetties. A programme round at the last discharge berth hands the yard a steel and pipe list before the ship shifts into dock, and the in-dock visit adds the bottom and staged structure to the record."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-antwerp-cvip",
+      "h": "Where in Antwerp's dock system an owner's condition assessment can be carried out",
+      "p": [
+        "Most Antwerp calls take place behind the Berendrecht, Zandvliet, Kallo or Kieldrecht locks, and once inside, a ship may use several berths before it sails. A CVIP visit is spread across those berths according to what each allows, with the plan agreed with the superintendent and the chief officer before arrival.",
+        "The Scheldt passage is piloted and, for deep-draught ships, tied to the tide, which gives every call firm edges. The team boards once the ship is safely alongside, and each visit's priorities are arranged so that the readings that matter most are taken before any planned shift."
+      ],
+      "list": [
+        "Chemical jetties on the right and left banks: cargo lines, manifolds, heating supply lines and pump-room piping between parcels, under each terminal's permit",
+        "Liquefied gas berths: deck piping, hold spaces and the structure around tank domes on LPG and ethylene carriers, with machinery read in the engine room",
+        "Lay-by quays inside the locks: ballast tanks, cofferdams and gas-free cargo tanks on ships held between berths or ahead of a yard slot",
+        "EDR Antwerp Shipyard floating docks: bottom plating, sea chests and structure reached from staging during a docking",
+        "Breakbulk, steel and ro-ro berths: holds, tank tops, ramps and car decks during staged loading",
+        "Deurganck dock and the river container terminals: scrubber discharge lines, hatch coamings and machinery readings within a working call"
+      ]
+    },
+    {
+      "id": "ships-antwerp-cvip",
+      "h": "Which ships serving Antwerp benefit from a programme",
+      "p": [
+        "Chemical tankers make the strongest case. Because the ESP Code and IACS UR Z10.3 apply to them, their third renewal survey, at around fifteen years, brings extensive gauging of cargo and ballast tank structure, and parcel-tanker charterers look hard at structural condition and cargo system integrity during vetting. A programme started a cycle earlier means that renewal is planned from a trend instead of being discovered in dock.",
+        "Product tankers serving the refineries meet oil-major vetting and, as they age, requests for a CAP grading. LPG and ethylene carriers on long charters age in their ballast spaces and deck piping while the cargo system looks after itself. Ro-ro and breakbulk ships that call regularly to load steel and high-and-heavy cargo add ramps, car decks and tank tops to the list. For all of them, with EU emissions trading and FuelEU Maritime now part of the sums, the owner's question is whether the next five-year cycle is worth committing to, and what the steel will demand of it."
+      ]
+    },
+    {
+      "id": "owners-cap-antwerp",
+      "h": "Owner's CAP for a parcel tanker: how CVIP follows the class programme and where it stops",
+      "p": [
+        "Parcel-tanker owners in Antwerp usually describe CVIP as an owner's CAP, and as far as method goes the comparison is fair. Like the class programme, CVIP works from a survey plan built on the drawings, the coating history and the cleaning records; enters cargo and ballast tanks for close-up examination; gauges defined members and sections; rates coatings; reviews cargo piping and machinery; grades what it finds; and puts the whole ship into one report. Some owners call the same thing an owner's CAS, borrowing the name of the IMO scheme for older tankers.",
+        "The difference lies in who stands behind the report. A class CAP rating is issued by the ship's society, independently of the people who measured her, and the IMO Condition Assessment Scheme ends in a flag Statement of Compliance. CVIP ends in neither: it is the owner's record, scoped with the owner and kept by the owner. Vetting inspections under SIRE or CDI look at operations, records and what is visible, but gauge no steel, which is the gap CVIP fills. When a charterer asks for a CAP rating, the society carries it out, and a CVIP visit beforehand shows which tanks and lines are likely to drag the grade down.",
+        "Thickness readings in CVIP are evidence for the owner's planning, not class gauging. Measurement credited to a class survey needs a firm holding that society's UR Z17 approval, which Atlantis is still working to obtain from DNV, Lloyd's Register and ABS; until a certificate arrives, our readings are not credited to any class survey."
+      ]
+    },
+    {
+      "id": "trend-antwerp-cvip",
+      "h": "Trending cargo lines, heating coils and tank coatings over repeat Antwerp calls",
+      "p": [
+        "Chemical cargoes, and the cleaning between them, work on a parcel tanker's systems faster than on most ships, so the trend record is organised by system as well as by space. Cargo and stripping lines are measured at the same bends, tees and reducers on every visit; heating coil supports and visible coil runs are photographed from fixed viewpoints; deck manifolds and their supports keep their own numbered points.",
+        "In the tanks, coated spaces are rated by the extent and type of breakdown and stainless spaces by pitting, staining and the look of the weld seams, each compared with the baseline photographs. Ballast tanks beside heated cargo tanks are gauged at fixed positions on the longitudinals and webs most exposed to temperature. In the engine room, cargo pump drives, ballast pumps and generators are read for vibration with the load noted, and a thermographer images switchboards and motor control centres during cargo work, when the electrical demand is genuine.",
+        "Set against the cargo history, the record usually explains itself: wastage that quickened after a run of aggressive parcels, a coating that held until the cleaning routine changed, a pump bearing whose vibration climbed after a spell of heavy stripping. That link between what the ship carried and how it changed is something a one-off survey has no way to supply."
+      ]
+    },
+    {
+      "id": "fleet-antwerp-cvip",
+      "h": "Fleet programmes for sister tankers managed out of Antwerp",
+      "p": [
+        "Owners and managers of tankers and gas carriers have long worked out of Antwerp, and many run series of sister ships on the same regional trades. A fleet programme lays one plan over the design, with identical point numbering, and visits each sister on her own Antwerp calls. A coating failing in one ship's wing tanks, or a line thinning downstream of the same valve, tells us where to look on the others.",
+        "The side-by-side report helps the technical department decide which ship goes to EDR next and which can run to its scheduled docking. Each sister still keeps her own record for the day she changes hands."
+      ]
+    },
+    {
+      "id": "plan-antwerp-cvip",
+      "h": "Planning visits around locks, parcels and an EDR docking",
+      "p": [
+        "The operator's cargo plan drives the programme. Send the expected Antwerp calls with their berth sequence, the next docking, the class survey dates and the ship's recent cargo and cleaning history, and we set each visit's modules against them: machinery and deck during cargo work, tanks during cleaning stops or at a lay-by quay, bottom and staged structure at EDR. Gate access and any terminal safety induction are arranged by the ship's agent.",
+        "Technicians travel from India and enter Belgium on Schengen visas, so visits are dated well ahead, and when a lock slot or berth moves, the team's arrival follows the agent's latest estimate. The ship arranges gas-free certificates, entry permits, drained and isolated lines for piping work, and an engineer to run machinery. Questions about an Antwerp programme can be sent to info@atlantisndt.com, and the form on this page goes to the same place."
+      ]
+    }
+  ],
+  "vessels": [
+    "Coated chemical parcel tankers",
+    "Stainless-steel chemical tankers",
+    "Product tankers serving the Antwerp refineries",
+    "LPG and ethylene carriers",
+    "Ro-ro and vehicle carriers on regular Antwerp calls",
+    "Breakbulk and multipurpose ships loading steel",
+    "Sister-ship series run by Antwerp-based managers"
+  ],
+  "codes": [
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "IACS UR Z10.4 – Hull surveys of double-hull oil tankers",
+    "IBC Code – Construction and equipment of ships carrying dangerous chemicals in bulk",
+    "IGC Code – Construction and equipment of ships carrying liquefied gases in bulk",
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "ISO 20816-1 – Evaluation of machine vibration by measurements"
+  ],
+  "deliverables": [
+    "Programme plan matching each module to the ship's Antwerp calls, cleaning stops and EDR docking",
+    "Baseline report covering tanks, cargo and ballast piping, heating coils, closing appliances and machinery",
+    "A report for each visit in one layout, with changes since the baseline and findings ranked by priority",
+    "Separate trends for coated tanks, stainless tanks, ballast spaces and cargo lines",
+    "Pre-docking steel and pipe list located on the drawings for the yard",
+    "Fleet comparison where sister ships share the plan"
+  ],
+  "faqs": [
+    {
+      "q": "Is an owner's CAP in Antwerp the same thing as a class CAP or CAS?",
+      "a": "No. CVIP borrows the working method of CAS and CAP, a close look at the structure, measured steel, graded findings and a single report, and owners borrow the names in return. But it is ordered by the owner and reported to the owner, and neither the society nor the flag issues anything on the back of it: no CAP rating, no CAS Statement of Compliance. If a charterer requires the class CAP, the owner books it with the society."
+    },
+    {
+      "q": "Can tanks be entered on a parcel tanker while it moves between Antwerp jetties?",
+      "a": "A cargo tank is entered after it has been washed for the next parcel, ventilated and certified gas-free, and with the master's consent and the terminal's agreement. Until then the visit works on deck lines, manifolds, pump-room piping, the ballast spaces the chief officer can release and the engine room. Tanks that are not free on one call move to the next visit or to a lay-by period."
+    },
+    {
+      "q": "Does CVIP cover gas carriers at the Antwerp gas berths?",
+      "a": "Yes, outside the cargo containment. Deck piping, hold spaces, the structure around tank domes, ballast tanks and engine room machinery fit into a call at a gas berth under the terminal's and the ship's permits. The containment system and its insulation are left to the docking and the specialists who look after them. Over repeat visits the programme shows how ballast spaces and deck lines age while the cargo system stays clean."
+    },
+    {
+      "q": "How are stainless-steel cargo tanks handled in the programme?",
+      "a": "They are examined and recorded apart from the carbon-steel structure. The probe and the velocity setting are chosen for the stainless grade, the readings are reported separately, and condition is described by pitting, staining and seam appearance instead of coating ratings. On these ships it is usually the surrounding carbon-steel ballast spaces and cofferdams that decide the steel programme, so they carry the denser set of fixed points."
+    },
+    {
+      "q": "Can a programme feed a docking at EDR Antwerp Shipyard?",
+      "a": "That is one of its main uses. A round at the last discharge berth before the docking gives the superintendent a renewal list mapped to the drawings, which the yard can plan from before the ship moves into the floating dock. In dock the team adds the bottom and the structure reached from staging, and once she is afloat again the renewed areas are remeasured so the trend picks up from new steel."
+    },
+    {
+      "q": "How long does a programme usually run for an Antwerp parcel tanker?",
+      "a": "Most owners run it over at least one survey cycle, and parcel-tanker owners often start two or three years before the third renewal survey, so the trend is established by the time the yard specification is written. A fleet programme normally carries on while the ships remain under the same management, with the plan revised whenever a trade, a cargo pattern or a docking date changes."
+    }
+  ]
+}

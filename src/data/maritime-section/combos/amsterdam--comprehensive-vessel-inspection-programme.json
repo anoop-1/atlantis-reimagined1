@@ -1,0 +1,132 @@
+{
+  "port": "amsterdam",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Amsterdam & IJmuiden | Owner's CAS/CAP Ship Programme",
+  "description": "CVIP at Amsterdam and IJmuiden: an owner's CAS/CAP-style programme for bulk carriers, product tankers and offshore vessels, built on long North Sea Canal calls.",
+  "h1": "Comprehensive Vessel Inspection Programme at Amsterdam and IJmuiden: an owner's condition assessment built on long canal calls",
+  "intro": "Ships that come through the IJmuiden sea locks into the North Sea Canal rarely hurry their stay. Ore and coal carriers wait while the Tata Steel harbour empties their holds, product tankers wait for gasoline blends in Westpoort, agribulk ships discharge in stages and offshore vessels lie in the basins between contracts. CVIP, our Comprehensive Vessel Inspection Programme, uses those stays for a whole-ship condition assessment that owners often call an owner's CAS or owner's CAP. It takes the shape of those schemes but answers to the owner, not to class. For every visit, the technicians fly in from India and join the ship wherever she lies.",
+  "highlights": [
+    {
+      "h": "Empty holds after every ore discharge",
+      "p": "A bulk carrier bringing ore or coal to IJmuiden on a regular trade has swept, empty holds each time discharge finishes. The programme measures the same frames, brackets and hopper strakes on those occasions, so grab damage and wastage are seen as a rate rather than a snapshot."
+    },
+    {
+      "h": "Offshore vessels between campaigns",
+      "p": "Offshore support and survey vessels lying at IJmuiden or in the basins have time that trading ships lack. A programme visit in each idle period covers deck, tanks, crane pedestals, thrusters and switchboards, so the vessel is ready for the condition survey the next charterer will ask for."
+    },
+    {
+      "h": "Lock slots fix the visit window",
+      "p": "Arrival and departure through the locks are booked with pilotage, which gives each call firm limits. Visits are planned against those slots, and once the ship is alongside in the basins the work runs without the berth shifts that break up programme visits at more open ports."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-amsterdam-cvip",
+      "h": "Where on the North Sea Canal an owner's condition assessment is done",
+      "p": [
+        "The port runs from the locks at IJmuiden, where the new sea lock opened in January 2022, past the industrial harbours of Velsen and Beverwijk to the basins of Westpoort, the Zaan area and the city. Each part of that stretch suits a different set of programme modules, and a visit is usually built around one of them rather than spread along the canal.",
+        "Deep-sea bulk carriers and tankers that need dry-docking generally go to yards elsewhere in the region, so for them the canal is where the programme's pre-docking round is taken. The smaller ships that use the Damen floating docks can have their docking visit here as well."
+      ],
+      "list": [
+        "Tata Steel harbour at IJmuiden: holds, side frames, hopper and topside tanks of ore and coal carriers after the grabs have finished and the holds have been swept",
+        "Westpoort tank terminals: deck piping, manifolds and pump rooms on product tankers during loading, with cargo tanks entered at planned cleaning stops",
+        "Agribulk and general cargo terminals: hatch covers, coamings and hold structure on handysize bulkers and multipurpose ships once the holds are clear",
+        "IJmuiden quays and lay-by berths in the basins: whole-vessel visits on offshore support and survey vessels between charters",
+        "Damen Shiprepair Amsterdam floating docks: bottom, sea chests and staged areas on short-sea ships, offshore vessels, dredgers and workboats",
+        "Anchorages off IJmuiden: machinery and deck rounds by launch before a ship enters the locks"
+      ]
+    },
+    {
+      "id": "bulk-amsterdam-cvip",
+      "h": "Bulk carriers in the ore, coal and agribulk trades: why a programme suits them",
+      "p": [
+        "Hold structure on a bulk carrier is worn from two directions: corrosion from wet and sulphur-bearing cargoes, and mechanical damage from grabs, bulldozers and hydraulic hammers during discharge. Ore and coal carriers serving the steelworks at IJmuiden see both on every voyage. A single survey shows how thin the frames are today; a programme visited after successive discharges shows how quickly they are going, frame by frame, and whether one hold is treated harder than the rest.",
+        "Agribulk ships bring different priorities. Their cargoes cannot tolerate water, so hatch covers, compression bars, cleats and drain channels carry as much weight in the report as hold steel, and a tightness check repeated on each visit shows whether seal and coaming condition is holding up. Multipurpose ships calling for general cargo add tank tops and tween-deck structure to the list.",
+        "There is also a longer-term reason to begin now. With the port authority committed to ending coal handling, owners of older bulk carriers on the canal trades will be redeploying or selling them. A measured history of hold condition makes either step easier, because the next charterer or buyer sees the trend instead of guessing at it."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-amsterdam",
+      "h": "Owner's CAS or owner's CAP for an older bulk carrier: what CVIP gives, and what class still gives",
+      "p": [
+        "Dry bulk charterers and vetting providers increasingly look at condition ratings on older bulk carriers, and that is usually where requests for an owner's CAP begin. CVIP answers them with the method of a condition assessment: a plan from the drawings, close-up survey of holds and ballast tanks, gauging at defined members, coatings and hatch covers rated, machinery assessed and findings graded, all brought together in one report on the whole ship. Owners of older product tankers loading in Westpoort ask for the same thing under the name owner's CAS.",
+        "Neither name changes what CVIP is. It is commissioned by the owner or the charterer, reported to them and kept by them. It is not the IMO scheme that flag verifies, nor a classification society's CAP, so it carries no Statement of Compliance and no rating. When a charter party specifies a class CAP, the society performs it, and a CVIP round on the canal some months earlier tells the owner which holds and tanks to put right before that happens.",
+        "Our readings are the owner's working evidence. A class survey gives credit for gauging taken by firms its society has approved under UR Z17; Atlantis is going through that approval process with DNV, Lloyd's Register and ABS, but no certificate has been issued yet, so CVIP results guide the owner's planning and are not credited to any class survey."
+      ]
+    },
+    {
+      "id": "offshore-amsterdam-cvip",
+      "h": "Offshore support and survey vessels: a programme that runs through idle periods",
+      "p": [
+        "Growth in offshore wind is bringing more offshore and project vessels to IJmuiden and the Amsterdam basins, and many of them spend weeks alongside between campaigns. For these ships CVIP is built around the idle periods rather than around port calls. The baseline covers deck plating and doublers, crane pedestals and their welds, A-frame and winch foundations, tanks, thrusters, generators and the main switchboards, and later visits in each idle period return to the same points.",
+        "Crane pedestals and deck equipment foundations are examined by magnetic particle inspection at their welds, and the results are kept as the owner's NDT records, not as any class approval. Thrusters and generators are read for vibration at agreed loads, and switchboards are imaged by a thermographer while the ship's systems are running. When the next charterer sends a surveyor for an on-hire condition survey, the owner can show a measured history of the vessel instead of starting from that inspection."
+      ]
+    },
+    {
+      "id": "trend-amsterdam-cvip",
+      "h": "Keeping the trend consistent when the canal sets the timetable",
+      "p": [
+        "Repeatability comes more easily on the canal than at many ports, because calls are long and ships tend to return to the same berth. The programme makes use of it: hold readings are taken at the same stage of the call, after discharge and sweeping; tank readings after the same preparation; machinery readings in the same operating state with the load written down. Positions fixed at the baseline carry a number on the drawings and a mark on the plate.",
+        "The record that builds up lists each point with its readings visit by visit and the corrosion rate they imply, each coating and hatch cover rating with the photographs behind it, and each machine with its vibration and thermal history. It is handed over as data the owner keeps, ready to load into the planned maintenance system or to pass to a future manager or buyer."
+      ]
+    },
+    {
+      "id": "plan-amsterdam-cvip",
+      "h": "Planning programme visits: Schiphol, lock slots, ISPS and documents",
+      "p": [
+        "Schiphol is a short drive from the canal, so the team can be aboard soon after landing. The ship's agent submits the technicians' names for ISPS gate passes and books any launch out of IJmuiden. Because each technician needs a Schengen visa obtained in India, visit dates are fixed against the operator's expected calls well in advance and moved with the agent's lock and berth estimates when those change.",
+        "For the baseline we need the drawings with as-built scantlings, recent gauging reports, the class status with any outstanding conditions, the machinery register held in the planned maintenance system and the ship's trading or charter pattern. On board, the ship provides swept holds, gas-free certificates and permits for tanks, lighting and access, and an engineer to run machinery. For a canal programme, email info@atlantisndt.com or fill in the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers in the ore and coal trades to IJmuiden",
+    "Handysize bulk carriers carrying agribulk",
+    "MR and LR product tankers loading in Westpoort",
+    "Offshore support and survey vessels",
+    "Multipurpose and general cargo ships",
+    "Dredgers and workboats docking at Damen Shiprepair Amsterdam"
+  ],
+  "codes": [
+    "IACS UR Z10.2 and Z10.5 – Hull surveys of bulk carriers and double-skin bulk carriers",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "International Convention on Load Lines – Hatch covers and closing appliances",
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines: thermography",
+    "ISO 20816-1 – Evaluation of machine vibration by measurements"
+  ],
+  "deliverables": [
+    "Programme plan linking modules to canal calls, idle periods and the next docking",
+    "Baseline report on holds, tanks, hatch covers, deck equipment foundations and machinery",
+    "Visit report in a fixed format, with changes since the baseline and prioritised findings",
+    "Hold-by-hold record of frame, bracket and hopper thickness with notes on grab damage",
+    "Crack detection records for crane pedestals and deck equipment foundations",
+    "Trend data for thickness, coatings, hatch covers, vibration and thermography, kept by the owner"
+  ],
+  "faqs": [
+    {
+      "q": "Is this the same as CAS or CAP, or an owner's version of them?",
+      "a": "It is the owner's version. CVIP uses the same building blocks, a survey plan, close-up inspection, thickness at defined positions, ratings and a single report, but it is commissioned and kept by the owner. It is not the IMO scheme that flag administrations verify and not a classification society's CAP, so no Statement of Compliance or CAP rating comes out of it. Charterers who require the class CAP get it from the society."
+    },
+    {
+      "q": "Can holds be measured at the Tata Steel harbour between discharge and departure?",
+      "a": "Yes, within the terminal's access rules. Work in the holds can start as soon as the last grab is out and the floor is clean, and stops when ballasting for departure begins. The hold list for the visit is agreed beforehand so that the frames, brackets and hopper strakes that matter most are measured ahead of the rest, and topside and hopper ballast tanks join the visit if the crew can empty and ventilate them in time."
+    },
+    {
+      "q": "Can an offshore vessel's programme run while it is laid up at IJmuiden?",
+      "a": "That is where it works well. Idle periods give time to empty and ventilate tanks, open up deck equipment foundations and run thrusters and generators at agreed loads without operational pressure. Each idle period becomes a programme visit, and the record that builds up supports the condition survey the next charterer will commission, alongside the class surveys the vessel already undergoes."
+    },
+    {
+      "q": "Does the IJmuiden lock affect programme visits?",
+      "a": "It sets the edges of each call. Lock slots and pilotage are booked in advance and can move with traffic or weather, so the team's arrival is tied to the agent's latest estimate. After berthing, nothing on the canal interrupts the work until the outbound slot, which makes long calls in the basins dependable windows for tank and hold modules."
+    },
+    {
+      "q": "Do hatch cover checks form part of the programme?",
+      "a": "On bulk carriers and multipurpose ships, yes. Seals, compression bars, cleats, coamings and drains are inspected on each visit, and an ultrasonic tightness test can be repeated so that seal condition is trended instead of judged once. Because agribulk cargoes tolerate no water, this module often matters as much to the owner as the hold steel. The test is the owner's own check, not a class test."
+    },
+    {
+      "q": "Will the programme help when a bulk carrier is sold or redeployed after the coal trade ends?",
+      "a": "It usually does. A buyer or new charterer looking at an older bulk carrier wants to know how the holds and ballast tanks have behaved, not just how they look on one day. A programme record sets out the readings, ratings and photographs from each visit in the same format, so the buyer's own inspection can concentrate on confirming the trend; class records still come through the society with the seller's consent."
+    }
+  ]
+}

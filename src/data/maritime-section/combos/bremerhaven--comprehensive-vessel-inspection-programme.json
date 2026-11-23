@@ -1,0 +1,130 @@
+{
+  "port": "bremerhaven",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Bremerhaven | Owner's CAS/CAP for Car Carriers & Ro-Ro",
+  "description": "CVIP in Bremerhaven: an owner's CAS/CAP-style programme for vehicle carriers, ro-ro and container ships, run over repeat calls and Bredo dockings.",
+  "h1": "Comprehensive Vessel Inspection Programme in Bremerhaven: an Owner's CAS/CAP-Style Assessment for Vehicle Carriers, Ro-Ro Ships and Container Ships",
+  "intro": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme, gives ship owners the whole-ship condition assessment they describe as an owner's CAS or owner's CAP: a planned close-up survey of the structure, thickness read at marked points, coatings and machinery rated and a single report, all for the owner rather than for class. Bremerhaven suits it well. Vehicle carriers on liner-style rotations come back to the car terminal behind the locks again and again, container ships call at the river quay, and Bredo Dry Docks in the Fischereihafen provides the docking milestones. Our team flies in from India for each visit and works the gap between discharge and loading.",
+  "highlights": [
+    {
+      "h": "Car decks clear between cargoes",
+      "p": "Between discharge and loading at the car terminal, the fixed and hoistable decks of a vehicle carrier stand empty. Each gap can carry one programme module: a set of decks gauged at numbered lanes, the ramps and doors examined, or the ventilation and hydraulic plant measured while it runs."
+    },
+    {
+      "h": "Repeat calls in place of extra dockings",
+      "p": "Vehicle carriers seldom enter dry dock outside their survey cycle, so the deck steel under the cargo is rarely seen. A ship that returns to Bremerhaven on a regular rotation lets CVIP build that missing history call by call, without asking her to stay a minute longer than the cargo plan."
+    },
+    {
+      "h": "Bredo dockings close the loop",
+      "p": "Bredo Dry Docks operates floating docks in the Fischereihafen that take ro-ro ships, container ships and offshore vessels. A docking there is where the programme's pre-docking list meets the yard, the dry hull is recorded and renewed steel is re-baselined."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cvip-bremerhaven",
+      "h": "Where in Bremerhaven a CVIP visit can be carried out",
+      "p": [
+        "Bremerhaven divides cleanly between the open river and the basins behind the Kaiserschleuse and Nordschleuse locks, and the programme uses both. Inside the locks, the car terminal is the main setting for vehicle carriers: once discharge ends and before loading begins, decks, ramps and side and stern doors are clear, and the crew can open access to the hoistable decks. The ro-ro and breakbulk berths in the overseas port basins give staged windows as high-and-heavy and project cargo goes aboard, which suits the main deck and tank top in the heavy-cargo lanes.",
+        "On the river, container ships at the terminal quay work to liner schedules, and a visit covers deck, hatch coamings, scrubber lines and machinery spaces under the ship's permit system. Bredo Dry Docks' floating docks in the Fischereihafen take container ships, ro-ro ships and offshore vessels, and other repair quays in the port handle afloat work. Offshore wind installation and support vessels laid up in the basins between projects are among the easiest ships to cover thoroughly, because nobody is waiting on cargo and the crew can open tanks and voids at a steady pace, while cruise ships at the Columbus Cruise Center accept narrowly defined items on a turnaround day."
+      ],
+      "list": [
+        "Car terminal behind the locks: deck lanes, hoistable decks, ramps, doors and car-deck ventilation",
+        "Ro-ro and breakbulk berths: heavy-cargo decks, tank top and stern ramp during staged loading",
+        "Container terminals on the river quay: deck, coamings, scrubber piping and engine room",
+        "Bredo Dry Docks, Fischereihafen: dry hull, sea chests, docking milestones and re-baselines",
+        "Lay-by berths in the basins: full baselines on offshore vessels between campaigns"
+      ]
+    },
+    {
+      "id": "vehicle-carriers-bremerhaven",
+      "h": "Why vehicle carriers and ro-ro ships calling at Bremerhaven suit a programme",
+      "p": [
+        "A vehicle carrier's structure is mostly inside: fixed decks, hoistable decks on their supports, internal ramps, and the stern ramp and side doors that every unit of cargo crosses. The car terminal here handles German-built vehicles for export as well as imports, and also high-and-heavy cargo such as construction and agricultural machinery and rolling stock, which concentrates wheel and track loads on decks and ramps and lashing forces on doublers. Wear and fatigue accumulate call after call, while the ship rarely docks outside her survey cycle. A single inspection shows one moment in that process; a programme shows its pace.",
+        "Pace is what owners need to know now. Car carrier fleets are being renewed with dual-fuel ships, and the older ships that keep trading on European routes carry obligations under EU ETS and FuelEU Maritime. Whether an older PCTC deserves another five-year cycle depends heavily on the deck and ramp steel she will need and on the state of the machinery that keeps her decks ventilated and her ramps moving. CVIP answers with trends, and because many of these ships come back to Bremerhaven on regular rotations, the visits fall naturally on calls the ship already makes.",
+        "Container ships at the river quay and offshore vessels between charters join programmes for their own reasons: scrubber piping, coamings and deck structure on the former, and deck plating, leg wells, crane pedestals and tanks on the latter, tracked from one campaign or charter to the next."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-bremerhaven",
+      "h": "Owner's CAS, owner's CAP and the ships the official schemes seldom cover",
+      "p": [
+        "Ask a Bremerhaven car carrier superintendent what they want from a condition assessment and the answer often borrows the words owner's CAS or owner's CAP. The phrases signal depth: close-up survey to an agreed plan, gauging at defined locations, coatings and machinery assessed, findings graded and one report for the ship. CVIP delivers that depth, commissioned by the owner, manager, charterer or financier and owned by them. It is useful precisely because the official schemes were built around other ships. The IMO Condition Assessment Scheme applies, under flag verification, to certain older oil tankers, and class CAP ratings are generally sought for older tankers and bulk carriers rather than vehicle carriers.",
+        "So CVIP is not a substitute for either, and it issues no rating and no Statement of Compliance. If a charterer of a tanker or bulker in a mixed fleet requires a class CAP, the owner arranges it through the ship's society, and the CVIP history gives a preview of what the society will find. Class credit for thickness readings is a separate matter again: Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; while no certificate has yet been issued, the programme's readings serve the owner's decisions rather than any class survey. Magnetic particle results at hoistable-deck brackets and ramp hinges are kept as the owner's NDT records."
+      ]
+    },
+    {
+      "id": "deck-trend-bremerhaven",
+      "h": "How the deck, ramp and machinery trend is built over successive calls",
+      "p": [
+        "On a vehicle carrier, the gauging plan is laid out by deck and lane. Each fixed deck gets numbered strips across the most heavily trafficked lanes and in way of lashing points; each hoistable deck panel is identified by its own number, with readings on plating and stiffeners and magnetic particle testing at the support brackets; the stern ramp, its hinges and lugs, and the side door frames have their own positions. Decks are rotated across calls so that every deck is covered within a survey cycle, while the lanes and ramp areas that carry the heaviest cargo are read every time. Ballast tank coatings are rated from fixed photo positions on the visits when the crew can empty and ventilate the tanks.",
+        "Machinery deserves equal attention on these ships. Car-deck ventilation fans run hard to clear exhaust fumes during cargo work, and their bearings and mountings are measured for vibration at each visit while they run at the operating condition logged in the record. Ramp and hoistable-deck hydraulic power units are measured while they work, generators under the cargo-work load, and a qualified thermographer images switchboards, fan motor starters and distribution panels on a yearly round. A fan or hydraulic pump drifting upward over three or four calls becomes a repair planned for the next yard stay, instead of a deck that cannot be cleared in port."
+      ]
+    },
+    {
+      "id": "planning-cvip-bremerhaven",
+      "h": "Planning visits around the locks, the car terminal and Bredo",
+      "p": [
+        "Send the ship's drawings, the deck and ramp arrangement, the most recent TM report, the class status with any outstanding conditions, the rotation with expected Bremerhaven calls and the next docking. We set the modules for each call with the superintendent, matched to how long the decks are usually clear between discharge and loading, and the crew is told in advance which decks, hoistable panels, tanks and machines are on the list. The ship's agent tells us whether she will lie inside the locks or at the river quay, and registers the team at the ISPS-controlled terminal or yard.",
+        "Technicians travel from India on Schengen visas, so visit dates should be fixed as early as the rotation allows. Bremen Airport is the nearest airport with European connections and Hamburg Airport offers wider routes, both linked to Bremerhaven by road and rail. Where an owner has other ships calling at Hamburg or Wilhelmshaven, one mobilisation can cover visits at each, sequenced around the ships' schedules. To discuss a programme for one PCTC or a fleet, write to info@atlantisndt.com or send the enquiry form."
+      ]
+    },
+    {
+      "id": "worked-example-bremerhaven",
+      "h": "A worked programme for an ageing PCTC on a European rotation",
+      "p": [
+        "Take an older pure car and truck carrier that discharges and loads at Bremerhaven on a regular rotation and has a renewal survey approaching. The baseline is spread over two calls. On the opening call, the team covers the main deck, the most heavily used fixed decks, the stern ramp and its hinges, and the hoistable-deck brackets under magnetic particle testing; on the next, the remaining decks, the side doors, the ballast tanks the crew can prepare, and the ventilation fans, ramp hydraulics and generators measured in service.",
+        "From then on, each call takes a short module, alternating deck steel and machinery, so the trend grows without delaying cargo. Some months before the docking, the record becomes a steel renewal list for decks and ramps, located on the drawings for the yard, whether that is Bredo or another. After the docking, renewed plates and repaired brackets are re-baselined on her next Bremerhaven call, and the owner has a measured basis for deciding whether she trades on for another cycle."
+      ]
+    }
+  ],
+  "vessels": [
+    "Pure car and truck carriers (PCTC) on liner-style rotations",
+    "High-and-heavy ro-ro ships",
+    "Container ships at the river quay",
+    "Offshore wind installation and support vessels",
+    "General cargo and project ships",
+    "Research vessels between campaigns"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement",
+    "MARPOL Annex VI regulation 14 – sulphur limits and exhaust gas cleaning systems",
+    "ISO 17359 – Condition monitoring and diagnostics of machines, general guidelines",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration"
+  ],
+  "deliverables": [
+    "Programme plan by deck, lane, hoistable panel and ramp, with the Bremerhaven calls assigned to each module",
+    "Baseline report, spread across the agreed calls, describing decks, ramps, doors, tanks and machinery as found",
+    "Visit reports in one format, with magnetic particle results at brackets and hinges as the owner's NDT records",
+    "Vibration and thermal trends for ventilation fans, hydraulic power units, generators and switchboards",
+    "Pre-docking steel list for decks and ramps, located on the drawings for Bredo or another yard",
+    "Trend data files the owner keeps for the fleet's planned maintenance system"
+  ],
+  "faqs": [
+    {
+      "q": "Can CVIP be carried out on a car carrier between discharge and loading at Bremerhaven?",
+      "a": "Yes. The gap when the decks are clear is exactly what the programme uses. Before arrival we agree the module that fits the expected gap, usually the most heavily used decks and ramp areas, with other decks and tanks rotated into later calls. Readings are tied to deck and lane numbers, so each visit continues the same record instead of starting a new one."
+    },
+    {
+      "q": "Is CVIP an owner's CAS or CAP, and does it replace the class versions?",
+      "a": "Owners call it that because it follows the same pattern of close-up survey, gauging, grading and one report, but it is done for the owner's own requirement. It replaces neither the flag-verified CAS nor a class CAP rating, and it issues neither. For vehicle carriers, which the official schemes seldom reach, it often becomes the fullest condition record the owner holds on the ship."
+    },
+    {
+      "q": "Does the programme include car-deck ventilation and ramp hydraulics?",
+      "a": "Yes, when the owner selects the machinery module. Ventilation fans are measured for vibration while running during cargo work, ramp and hoistable-deck hydraulic power units while they operate, and switchboards and fan starters are imaged by a qualified thermographer. Each reading records the operating condition, so the next Bremerhaven call compares like with like rather than a fan at idle with one at full duty."
+    },
+    {
+      "q": "Can an offshore wind vessel laid up in the basins join a programme?",
+      "a": "Yes, and the lay-up is a good time to set its baseline. With the vessel idle, the crew can open tanks and voids, and deck plating, leg wells, crane pedestals and machinery can be covered without cargo pressure. Repeat visits are then timed to the gaps between campaigns, at Bremerhaven or wherever the vessel is lying."
+    },
+    {
+      "q": "Can a docking at Bredo Dry Docks be part of the programme?",
+      "a": "Yes. A docking is a planned milestone: the pre-docking round fixes the steel list beforehand, the team records the dry hull and sea chests during the docking where the owner wants it, and renewed areas are re-baselined before the ship returns to trade. Site rules and yard permits are arranged through the superintendent."
+    },
+    {
+      "q": "Our ships call at Bremerhaven and other European car ports. Can one programme cover them?",
+      "a": "Yes. The plan belongs to each ship, so a visit can be placed at whichever port on the rotation offers the right window, and the team travels there from India. The point numbering and report format stay the same, so readings from Bremerhaven and elsewhere fall into one trend record for the ship and one comparison for the fleet."
+    }
+  ]
+}

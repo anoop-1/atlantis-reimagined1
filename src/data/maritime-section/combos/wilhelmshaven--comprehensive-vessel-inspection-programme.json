@@ -1,0 +1,130 @@
+{
+  "port": "wilhelmshaven",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Wilhelmshaven | Owner's CAS/CAP for Tankers & FSRUs",
+  "description": "CVIP at Wilhelmshaven: an owner's CAS/CAP-style programme for crude carriers, FSRUs and deep-water container ships, joined across short terminal calls.",
+  "h1": "Comprehensive Vessel Inspection Programme at Wilhelmshaven: Owner's CAS/CAP Condition Assessment for Crude Carriers, FSRUs and Deep-Water Container Ships",
+  "intro": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme, is a whole-ship condition assessment in the form owners call an owner's CAS or owner's CAP: a close-up survey to an agreed plan, readings at fixed locations, coatings and machinery graded and one report, commissioned for the owner rather than issued by class. Wilhelmshaven's deep water on the Jade brings crude carriers, the largest container ships and LNG through floating regasification units. Calls are short and tightly permitted, so the programme joins brief, well-planned visits into one record, while FSRUs on station host longer ones. For every visit, the team travels from India to the ship.",
+  "highlights": [
+    {
+      "h": "Ballast tanks empty on arrival",
+      "p": "A laden crude carrier reaches the jetty with her segregated ballast tanks empty. Where gas readings and the terminal allow, those tanks, the deck and the deck piping are measured early in the discharge, and each call adds another set of tanks to the same trend record."
+    },
+    {
+      "h": "FSRUs followed where they lie",
+      "p": "Floating storage and regasification units stay moored at Wilhelmshaven for years, so their condition has to be followed in place. Each visit is planned with the operator around regasification and LNG transfers, covering ballast tanks, deck and topside support structure outside the hazardous zones."
+    },
+    {
+      "h": "Short calls joined into one picture",
+      "p": "None of the trading ships here stays long, and there is no commercial dry dock for them on the Jade. CVIP gives each call a defined module and links it to readings taken later at the docking yard, so the owner sees one continuous history."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cvip-wilhelmshaven",
+      "h": "Where at Wilhelmshaven programme visits take place",
+      "p": [
+        "Every working place at Wilhelmshaven is controlled, and each suits a different part of the programme. The crude oil jetties are the busiest: under the terminal's rules and the ship's permit-to-work system, a visit can cover deck plating and longitudinals, deck piping and its supports, the pump room, and segregated ballast tanks while they are still empty and gas readings permit entry. Once ballasting starts, tank entry ends, so the tank module is placed at the start of the discharge and the deck work follows.",
+        "The LNG import terminal has its own safety zone. On the FSRUs, programme visits are planned with the operator over days rather than hours, and cover ballast tanks, deck, topside support structure and machinery spaces outside the hazardous areas. LNG carriers alongside the FSRUs offer short windows suited to engine-room piping and machinery. At JadeWeserPort, the working call of a very large container ship is the window for scrubber lines, deck and hatch coamings, and the bulk and general cargo quays give hold windows after discharge. Ships waiting in the outer Jade or the German Bight can be boarded by launch for small items. With no dry-docking here for ships of this size, the programme often follows a ship from Wilhelmshaven to her docking yard to finish the work."
+      ],
+      "list": [
+        "Crude oil jetties: empty segregated ballast tanks early in discharge, then deck, piping and pump room",
+        "FSRU moorings at the LNG terminal: multi-day visits planned with the operator outside hazardous zones",
+        "LNG carriers alongside the FSRUs: engine-room sea-water piping, fire main and machinery",
+        "JadeWeserPort container terminal: scrubber lines, deck and hatch coamings on very large ships",
+        "Docking yards elsewhere: cargo tanks and dry hull joined into the same trend record"
+      ]
+    },
+    {
+      "id": "which-ships-wilhelmshaven",
+      "h": "Which ships using Wilhelmshaven need a programme, and why",
+      "p": [
+        "Both energy trades here depend on long-lived ships that are inspected hard. Crude carriers discharging for the inland refineries are often in their second or third survey cycle, ESP ships under IACS UR Z10.1 or, for double-hull designs, Z10.4, and they face charterer vetting that grows stricter with age. Under the Paris MoU, older tankers are subject to expanded inspections, and organised condition records aboard help the master answer an inspector's questions. LNG carriers serving the FSRUs trade for decades, and the FSRUs themselves sit on long charters where their condition has to be kept in good standing without interrupting gas send-out.",
+        "For all of them, a single survey taken during a hurried call says little about direction. A programme does: it shows whether ballast tank coatings are holding, whether deck longitudinals are thinning faster than the last cycle suggested, and whether a sea-water pump or a switchboard connection is moving toward failure. EU ETS for shipping from 2024 and FuelEU Maritime from 2025 add pressure on owners to show older ships are sound before committing them to more European trading. The largest container ships calling at JadeWeserPort bring their own case, with scrubber piping and coamings that reward watching over time."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-wilhelmshaven",
+      "h": "Owner's CAS, owner's CAP and the official schemes for tankers on the Jade",
+      "p": [
+        "On a crude carrier, the difference between CVIP and the official schemes matters more than on most ships, because tankers are what both schemes were written for. The IMO Condition Assessment Scheme is verified by the flag Administration for certain older oil tankers under MARPOL Annex I and is now rarely met in trade. A class Condition Assessment Programme is a rating a society issues to its own procedure, and oil-major vetting departments often ask for one on tankers beyond about fifteen years. An owner's CAS or owner's CAP, as owners use the terms, means the same depth of assessment carried out for the owner's own requirement, and that is what CVIP provides.",
+        "So the owner's version is commissioned by the owner, manager, charterer or financier, follows their scope and grading, and belongs to them. It gives no CAS Statement of Compliance and no CAP rating. When a charterer's vetting department specifies a class CAP, the owner requests it from the ship's society, and the CVIP record from earlier Wilhelmshaven discharges and docking visits shows the likely outcome in advance, while there is still time to plan steel or coating work. The gauging sits on the same side of the line: Atlantis is in the process of obtaining approval under IACS UR Z17 from DNV, Lloyd's Register and ABS, and pending a certificate, readings taken under the programme inform the owner's decisions and are not credited to a class survey."
+      ]
+    },
+    {
+      "id": "trend-record-wilhelmshaven",
+      "h": "Joining short discharges and long FSRU deployments into one trend record",
+      "p": [
+        "On a crude carrier, each call carries one module, and the modules are laid out so that a full picture builds over a sequence of discharges. One call might take a group of segregated ballast tanks while they are empty, with the deck longitudinals above them; the next, another group of tanks and the cargo-line supports; another, the pump room piping and the ballast pumps and generators that run during discharge, with their load recorded. Cargo tanks are measured when the ship is cleaned and gas-free, normally at the docking yard, and those readings enter the same record under the numbering of the TM plan.",
+        "On an FSRU, the record grows over a deployment. Ballast tank coating condition is rated from fixed photo positions at each visit, thickness is read at numbered points on deck and on the structure supporting the regasification plant, and rotating machinery outside the hazardous areas, sea-water pumps among it, is measured for vibration at its operating condition. A qualified thermographer images switchboards and motor control centres on a regular round. Because an FSRU's periodic class surveys take place on station, programme visits are timed some months ahead of each one, so the owner and the operator know what the surveyor is likely to find.",
+        "For the largest container ships at JadeWeserPort, the trend centres on scrubber wash-water and overboard lines, read at fixed positions on each call where the system can be isolated, and on hatch coamings and deck structure in way of hatch corners."
+      ]
+    },
+    {
+      "id": "planning-cvip-wilhelmshaven",
+      "h": "Planning visits around the energy terminals, the Jade and visas",
+      "p": [
+        "Wilhelmshaven visits are won or lost in the paperwork. Each energy terminal asks for technician names, equipment details and the scope well before the ship berths, and adds its own induction; the ship's agent submits these and books any launch for anchorage work. Send the TM plan, the latest thickness reports, the class survey status, the trading pattern with expected discharges and the next docking yard, and we set out which module belongs to which call, agreeing a priority list with the superintendent that accepts cargo tanks will wait for a gas-free stop.",
+        "Weather in the German Bight can move a crude carrier's arrival as much as the terminal schedule does, so travel is tied to the agent's estimate and adjusted as it changes. FSRU visits are scheduled with the operator around regasification and LNG transfers, often weeks ahead. Technicians travel from India on Schengen visas, which must be issued before departure, and arrive through Bremen or Hamburg, continuing by road or rail. To open a programme for a tanker, an FSRU or a mixed energy fleet, email info@atlantisndt.com with the ship details, or complete the enquiry form."
+      ]
+    },
+    {
+      "id": "worked-example-wilhelmshaven",
+      "h": "A worked programme for an FSRU on a long deployment",
+      "p": [
+        "Consider an FSRU moored at the LNG terminal on a multi-year charter, with her class surveys carried out on station. The baseline is planned with the operator as a multi-day visit: ballast tanks entered in sequence as the operator releases them, deck and topside support structure gauged at numbered points and photographed, crack detection at selected brackets and supports outside the hazardous zones, and sea-water pumps, other rotating machinery and switchboards measured and imaged during normal send-out.",
+        "Later visits are timed against her survey dates and the operator's maintenance windows, never against an LNG transfer. Each repeats the coating ratings and the critical thickness points and adds tanks not reached before, while machinery readings are repeated at the same operating condition. Ahead of each periodic survey, the visit report lists likely findings and recommended work, and over the deployment the trend record becomes the evidence the owner and operator rely on when the charter is reviewed or extended."
+      ]
+    }
+  ],
+  "vessels": [
+    "Suezmax and Aframax crude carriers",
+    "FSRUs on long charters at the LNG terminal",
+    "LNG carriers delivering to the FSRUs",
+    "Very large container ships at JadeWeserPort",
+    "Bulk carriers",
+    "General cargo and project ships"
+  ],
+  "codes": [
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "IACS UR Z7 – Hull classification surveys",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "IGC Code – Construction and equipment of ships carrying liquefied gases in bulk",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration"
+  ],
+  "deliverables": [
+    "Programme plan linking each discharge or FSRU visit to tanks, deck areas, piping and machinery",
+    "Visit reports in one format, with ballast tank coating ratings and thickness changes since the baseline",
+    "Combined trend record joining jetty readings with cargo tank readings from the docking yard",
+    "Pre-survey outlook for FSRU periodic surveys and tanker renewal surveys, with recommended work",
+    "Vibration and thermal trends for machinery outside hazardous zones, with the operating condition recorded",
+    "Data files the owner keeps, ready for vetting questions, lenders or charter reviews"
+  ],
+  "faqs": [
+    {
+      "q": "Can a programme visit be made during a crude discharge at Wilhelmshaven?",
+      "a": "Yes, within the terminal's rules. If gas readings are acceptable and the terminal and ship permit entry, empty segregated ballast tanks are covered early in the call, before ballasting starts; deck, deck piping and pump room work continue during discharge. Everything is agreed with the terminal through the agent before the ship berths, and cargo tanks are left for a later gas-free stop."
+    },
+    {
+      "q": "Is CVIP the same as CAS or CAP for a tanker?",
+      "a": "Owners call it an owner's CAS or CAP because its method mirrors the official schemes: a planned close-up survey of tanks and deck, gauging at set positions, graded findings and a single report. It is commissioned for the owner and carries no flag Statement of Compliance and no class rating. Where vetting requires a class CAP, the owner arranges that with the society, using CVIP readings to anticipate the result and plan any work beforehand."
+    },
+    {
+      "q": "How is an FSRU programme scheduled without stopping send-out?",
+      "a": "With the operator, well ahead. Visits avoid LNG transfers and fit the operator's maintenance windows, and work stays outside hazardous zones unless the operator's permit system allows otherwise. Tanks are released in sequence, and machinery is measured at its normal operating condition, so the readings reflect real service and send-out continues throughout the visit."
+    },
+    {
+      "q": "Where are a tanker's cargo tanks measured if not at the jetty?",
+      "a": "Usually at the next docking yard or during a planned cleaning and gas-freeing period. The programme sends the team to that location, and the cargo tank readings use the same numbering as the deck and ballast readings taken at Wilhelmshaven, so all of them sit in one trend record rather than in separate, unconnected reports."
+    },
+    {
+      "q": "Can an LNG carrier delivering to the FSRU be part of a programme?",
+      "a": "Yes, with modest modules. The transfer window is short, so visits there concentrate on engine-room sea-water piping, the fire main and machinery that runs during the transfer, while structural modules are placed at the ship's dockings or longer port stays elsewhere. All of it feeds the same record, so the carrier's history stays complete across ports."
+    },
+    {
+      "q": "How much notice do the energy terminals need for each visit?",
+      "a": "Enough for their inductions and paperwork, and for Schengen visas for technicians from India. Terminals want names, equipment details and the scope well before berthing. Share the nomination or the FSRU maintenance window as soon as it is known, and we fix each visit to the confirmed date through the ship's agent."
+    }
+  ]
+}

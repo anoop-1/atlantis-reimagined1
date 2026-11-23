@@ -1,0 +1,130 @@
+{
+  "port": "hamburg",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Hamburg | Owner's CAS/CAP for Container Ship Fleets",
+  "description": "CVIP in Hamburg: an owner's CAS/CAP-style programme for container ship series, with repeat visits on the Elbe and one trend record per hull and fleet.",
+  "h1": "Comprehensive Vessel Inspection Programme in Hamburg: Owner's CAS/CAP Condition Assessment for Container Ship Series and Their Sisters",
+  "intro": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme, gives a whole-ship condition assessment in the pattern of an owner's CAS or owner's CAP: structure surveyed close up to a plan, thickness at fixed locations, coatings and machinery graded, and one report, commissioned by the owner rather than issued by class. Hamburg is where many container ship owners and tonnage providers run their fleets, so here CVIP is usually a programme for a series, with baselines and repeat visits planned around Elbe tides, terminal windows, the mooring dolphins and south-bank dockings. Each visit is made by technicians who travel from India to the ship.",
+  "highlights": [
+    {
+      "h": "One plan laid over a whole series",
+      "p": "A Hamburg tonnage provider seldom owns just one ship of a design. CVIP numbers gauging points, crack-check locations and machinery positions once for the class, so each sister is measured at the same places and the fleet can be read hull against hull as well as visit against visit."
+    },
+    {
+      "h": "The tide sets the time alongside",
+      "p": "The largest container ships come up the Elbe and leave on the tide, so their stay is fixed before they arrive. Each repeat visit takes the module that fits that stay, while feeders resting at the mooring dolphins between Baltic rotations host the longer baseline work."
+    },
+    {
+      "h": "South-bank dockings as programme milestones",
+      "p": "A docking at Blohm+Voss in Steinwerder or at Norderwerft is the moment to see a dry hull and to re-baseline repaired steel. CVIP places a pre-docking round on the last terminal call and a short follow-up visit after the ship floats out."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cvip-hamburg",
+      "h": "Where on the Elbe programme visits are carried out",
+      "p": [
+        "Hamburg offers several kinds of working window, and a CVIP plan uses each for what it does well. At the Burchardkai, Altenwerder, Tollerort and Eurogate container terminals, a ship works cargo continuously and sails on schedule; deck structure, hatch coamings, scrubber piping and machinery spaces can be covered under the ship's own permit system, and holds open to inspection bay by bay as boxes come out. That is enough for most repeat visits, provided the module is chosen to fit the bay plan.",
+        "The mooring dolphins and lay-by berths in the river are slower. Feeders and short-sea ships lie there for a day or two between rotations and are reached by launch, so ballast tanks can be emptied, ventilated and entered and machinery run at a steady load, which suits a baseline. On the south bank, Blohm+Voss at Steinwerder and the Norderwerft yard both dock commercial ships, giving dry access to bottom plating, sea chests and the shell near the waterline. Bulk carriers emptied at Hansaport and tankers at the oil harbour join a programme on the usual hold window and gas-free rules, and ships held in the Elbe estuary or the German Bight can be boarded by launch for small items."
+      ],
+      "list": [
+        "Container terminals: repeat visits on deck, coamings, scrubber lines and holds as bays clear",
+        "Mooring dolphins and lay-by berths: baselines on feeders with tanks opened and machinery at steady load",
+        "Blohm+Voss, Steinwerder, and Norderwerft: dry hull, sea chests and re-baselining after repairs",
+        "Hansaport: hold and wing tank modules on bulk carriers after discharge",
+        "Oil harbour: deck lines and manifolds, with cargo tanks entered once gas-free"
+      ]
+    },
+    {
+      "id": "series-programmes-hamburg",
+      "h": "Why Hamburg container fleets run a programme across a series",
+      "p": [
+        "Container ships are not ESP ships, so the class minimum for gauging a cellular hull is thinner than on a tanker or bulk carrier of the same age. Yet the structure that matters on a large box ship, meaning hatch coamings, the longitudinal deck structure and sheer strake, and side shell carrying high stresses on a long hull, is exactly where an owner wants evidence beyond the minimum. CVIP gathers it on the owner's terms, together with ballast tank coatings, scrubber piping, the reefer electrical supply and the running machinery, and then repeats it so the owner can see a rate of change rather than a single snapshot.",
+        "The programme earns its keep at fleet level. With comparable data across sister ships, a technical department can decide which ship goes to the yard next, which needs steel at her coming docking, which is worth putting through another survey cycle and which is better sold or recycled. Charter decisions lean the same way: since EU ETS reached shipping in 2024 and FuelEU Maritime followed in 2025, charter parties divide those obligations, and charterers look more closely at the age and upkeep of the tonnage they take. A lender reviewing a fleet receives measured history instead of a list of build years.",
+        "That is the difference from a one-off condition survey or a pre-purchase inspection, which Atlantis also carries out in Hamburg and which describe a ship as she stands on one day. CVIP keeps going, visit after visit, until the record shows the owner how each hull, and the series as a whole, is ageing."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-hamburg",
+      "h": "Owner's CAS and owner's CAP for container ships: a borrowed name with a clear limit",
+      "p": [
+        "Hamburg superintendents use the phrases owner's CAS and owner's CAP because they describe the depth of assessment they want: close-up survey to a plan, thickness at defined locations, coating and machinery condition graded, and one report covering the whole ship. Neither official scheme was written for container ships. The IMO Condition Assessment Scheme concerns a small group of older oil tankers and is verified by the flag, and class CAP ratings are mainly requested for older tankers and bulk carriers. For a container owner, an owner's CAS or CAP is therefore a description of method, and CVIP is how that method is delivered for the owner's own requirement.",
+        "The limit is equally clear. CVIP is commissioned by the owner, the manager, a charterer or a financier, and the scope, grading and report belong to them; it produces no CAP rating and no CAS Statement of Compliance. When a Hamburg-managed bulk carrier or tanker meets a charterer who specifies a class CAP rating, the owner turns to the ship's society for it, and the CVIP history gives an advance view of the likely result. On the gauging side, Atlantis is in the process of obtaining IACS UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, readings taken under CVIP in Hamburg serve the owner's decisions and earn no class survey credit, and crack detection results stay the owner's NDT records."
+      ]
+    },
+    {
+      "id": "series-trend-record-hamburg",
+      "h": "Building a series trend record over Elbe calls",
+      "p": [
+        "The numbering scheme is the foundation. Points are fixed by bay, frame and strake on the class drawings rather than on one hull, so a given coaming position refers to the same detail on every sister. Readings on coaming top plates, deck plating in way of hatch corners, sheer strake and side shell, and ballast tank structure are taken at those positions; magnetic particle testing goes to hatch corners, coaming stay toes and lashing bridge feet; coating condition is photographed from fixed positions. When a crack appears at one ship's hatch corner, the plan already tells the team where to look on her sisters at their next Hamburg call.",
+        "Machinery trends depend on repeating the operating condition. Generators are measured while carrying reefer load, which a working call usually provides, hold ventilation fans and scrubber circulation pumps while they run, and each reading carries the load recorded at the time. Thermography of switchboards and reefer distribution follows a yearly round. Scrubber wash-water and overboard lines, a known wastage area on the larger ships, get spot readings at fixed positions every six to twelve months, so a thinning section is renewed at a planned stop rather than discovered as a leak inside the emission control area.",
+        "Visits are planned against each ship's own calendar: some months before an intermediate or renewal survey, a pre-docking round on the last terminal call before Steinwerder or Norderwerft, and a short re-baseline after the docking. Because a sister may not return to the Elbe for long stretches, the plan names other ports on her rotation where a visit can be made, and the team travels to whichever suits."
+      ]
+    },
+    {
+      "id": "planning-cvip-hamburg",
+      "h": "Planning CVIP around the Elbe tide, launches to the dolphins and Schengen visas",
+      "p": [
+        "For a fleet programme, send the list of ships with IMO numbers, the class drawings for the series, the latest thickness and survey reports for each hull, the rotations and expected Hamburg calls, and the docking dates. For each visit we confirm the module with the superintendent against the bay plan and the tide, so the chief officer knows which bays, tanks and machinery are wanted and in what order. The ship's agent registers the technicians at the terminal or yard and books launches for ships at the dolphins.",
+        "Arrival for the largest ships can move with tide, draught and traffic on the Elbe, so travel is timed to the agent's berthing estimate and adjusted as it changes; if a late arrival shortens the stay, the visit is re-sequenced to the priority items. Technicians travel from India on Schengen visas, which we apply for against the visit calendar, and Hamburg Airport's position inside the city puts the terminals and yards a short drive from arrival. For a single ship or a whole series, send the fleet list to info@atlantisndt.com, or start with the form below."
+      ]
+    },
+    {
+      "id": "worked-example-hamburg",
+      "h": "A worked example: a post-Panamax series on charter to a liner operator",
+      "p": [
+        "Picture a Hamburg tonnage provider with a series of scrubber-fitted post-Panamax sisters chartered to one liner operator, their renewal surveys falling in different years. The programme begins with the sister due to dock soonest: a baseline during her last terminal call, continued in dock at Steinwerder where the bottom and sea chests are dry, and closed with a re-baseline of renewed plates before she sails. Her baseline fixes the numbering for the series.",
+        "The other sisters are baselined on their Hamburg calls, with tanks that the terminal window cannot reach picked up at a later call or at another port on the rotation. Repeat visits then alternate between structure, scrubber piping and machinery modules. After a year or so, the fleet comparison shows whose coamings and ballast tanks are ageing fastest, which ship carries a generator trend worth acting on, and which hull will need the most steel at her renewal survey, all before the owner commits to the next charter or the docking order."
+      ]
+    }
+  ],
+  "vessels": [
+    "Post-Panamax and Panamax container ships in tonnage providers' fleets",
+    "Feeder container ships on Baltic rotations",
+    "Sister-ship series managed from Hamburg",
+    "Scrubber-fitted container ships",
+    "Bulk carriers calling at Hansaport",
+    "Multipurpose and heavy-lift ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code, for the bulk carriers and tankers in a fleet",
+    "MARPOL Annex VI regulation 14 and the 2021 EGCS Guidelines (MEPC.340(77))",
+    "ISO 17359 – Condition monitoring and diagnostics of machines, general guidelines",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration"
+  ],
+  "deliverables": [
+    "Series programme plan: point numbering on the class drawings, modules and a visit calendar for each sister",
+    "Baseline and visit reports in one format for every hull, with changes since the last visit",
+    "Fleet comparison setting sister ships side by side for steel, coatings, scrubber piping and machinery",
+    "Pre-docking steel and pipe list for Steinwerder, Norderwerft or another yard, located on the drawings",
+    "Trend data files for each ship, for the planned maintenance system and for lenders or charterers when the owner chooses"
+  ],
+  "faqs": [
+    {
+      "q": "Can CVIP cover a container ship that seldom calls at Hamburg?",
+      "a": "Yes. The programme follows the ship's rotation, not the port. Visits that fall between Hamburg calls are made at another port on her route or at a docking yard, with the same numbered points and report layout, and the team travels there from India. Hamburg calls are used where they fit, particularly for baselines at the dolphins and for dockings on the south bank."
+    },
+    {
+      "q": "Is the Hamburg programme the same as CAS or CAP?",
+      "a": "Not in status, though it works in a similar way. Owners call CVIP an owner's CAS or CAP because it follows that pattern of close-up survey, gauging, grading and a single report. It is commissioned and owned by the owner, so it confers no flag Statement of Compliance and no class rating. Container ships rarely meet either official scheme; for tankers or bulkers in a Hamburg fleet, a required CAP is booked with class."
+    },
+    {
+      "q": "Can a new sister join a programme already running for the series?",
+      "a": "Yes. She receives the series plan with its existing numbering, and her baseline is compared straight away with the history of the sisters already in the programme. That comparison often shows quickly whether she has been maintained like the others, which is useful when a ship joins a Hamburg fleet from another owner or manager and her records are thin."
+    },
+    {
+      "q": "How does the Elbe tide affect a repeat visit?",
+      "a": "It fixes the time alongside for the largest ships, which arrive and leave with the tide. We choose the module to suit that stay, keep travel tied to the agent's berthing estimate and re-sequence the work if the ship arrives late. Feeders at the dolphins are less bound by the tide, so the longer modules in a series plan are usually given to them."
+    },
+    {
+      "q": "Can a docking at Steinwerder or Norderwerft count as a programme visit?",
+      "a": "It is one of the most valuable visits. In dock the bottom plating, sea chests and the shell near the waterline are dry and accessible, and the docking resets the steel record. We plan a pre-docking round on the last terminal call, work alongside the yard's programme while the ship is in dock, and re-baseline the repaired areas before she leaves."
+    },
+    {
+      "q": "What can a lender or charterer see from the programme?",
+      "a": "Whatever the owner chooses to share. The record is the owner's, delivered as reports and data files, and owners often pass extracts to a lender reviewing the fleet or to a charterer asking about upkeep. It shows measured history of steel, coatings and machinery rather than a build date, while making clear that it is an owner's assessment and not a class rating."
+    }
+  ]
+}

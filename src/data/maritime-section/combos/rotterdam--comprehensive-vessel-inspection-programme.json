@@ -1,0 +1,133 @@
+{
+  "port": "rotterdam",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Rotterdam: Owner's CAS/CAP Programme for Repeat Callers",
+  "description": "CVIP at Rotterdam: an owner's CAS/CAP-style programme for tankers and bulk carriers, with a baseline and repeat visits at lay-by berths, jetties and Botlek.",
+  "h1": "Comprehensive Vessel Inspection Programme at Rotterdam: an owner's condition assessment that follows tankers and bulk carriers from call to call",
+  "intro": "Plenty of tankers, chemical carriers and bulk carriers come back to Rotterdam again and again: crude discharging at Europoort, parcels shifting through Botlek and Pernis, ore and coal emptied at Maasvlakte. CVIP, our Comprehensive Vessel Inspection Programme, puts those returns to work. It is what many technical managers call an owner's CAS or owner's CAP: a whole-ship condition assessment on the same pattern as the official schemes, run for the owner's requirement rather than for class. A baseline visit fixes the ship as found, later visits on Rotterdam calls repeat the same points, and one trend record grows. Technicians fly in from India for every visit.",
+  "highlights": [
+    {
+      "h": "Repeat calls become repeat measurements",
+      "p": "A tanker that discharges at Europoort every few voyages, or a parcel tanker on a regular Botlek rotation, can be measured on the calls it already makes. Visits are pinned to those calls, so the trend record grows without moving the ship or holding up a cargo."
+    },
+    {
+      "h": "Cargo pumps read while they work",
+      "p": "Some machinery runs at load during cargo work and at no other time. Discharge at a crude or product terminal is when cargo pumps, their drives and the switchboards feeding them can be read for vibration and heat, so the programme books those readings for discharge and leaves the tanks for later."
+    },
+    {
+      "h": "The Botlek docking as a checkpoint",
+      "p": "When the ship enters one of the Botlek docks, the programme gains the dry bottom, sea chests and rudder, and tanks reached from staging. A pre-docking round on an earlier call sets the renewal list, and a short visit after undocking resets the baseline for repaired areas."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-rotterdam-cvip",
+      "h": "Where an owner's condition assessment is done in Rotterdam",
+      "p": [
+        "No single berth in Rotterdam opens up the whole ship, so a CVIP programme spreads its work over the places the vessel already uses and gives each place the modules it suits. The baseline is usually split across two of them: a lay-by berth or buoy for tanks and holds, and a working call for machinery under load. Repeat visits then choose the place according to what is due.",
+        "Which place carries which module is settled in the programme plan, not on the day. A ship that lies idle after discharge is the natural candidate for the tank round; a ship that never stops for long gets its tank work at the docking and its machinery and deck rounds on working calls."
+      ],
+      "list": [
+        "Lay-by berths and buoys: ballast tanks emptied and ventilated, holds swept, deck and closing appliances, with no cargo competing for the crew's time",
+        "Damen Shiprepair's Botlek docks: dry bottom, sea chests, rudder and stern area, and cargo tanks reached from yard staging",
+        "Botlek and Pernis jetties: deck lines, manifolds, pump stacks and engine room on chemical and product tankers in the hours between parcels",
+        "Europoort and Maasvlakte terminals for crude and products: cargo pumps, deck piping and electrical load readings during discharge",
+        "Ore and coal berths at Maasvlakte: hold frames, hopper plating and hatch covers as each hold is emptied",
+        "Anchorages off the Maasmond: machinery and deck modules by launch while the ship waits for a berth or a nomination"
+      ]
+    },
+    {
+      "id": "ships-rotterdam-cvip",
+      "h": "Which ships calling at Rotterdam suit a programme rather than a single survey",
+      "p": [
+        "The case for a programme is strongest when a ship keeps returning and has a decision ahead of it, and Rotterdam has many of both. Aframax and Suezmax tankers on North West European crude trades, product tankers serving the refinery districts, chemical parcel tankers on regional rotations and large bulk carriers bringing ore and coal to Maasvlakte all come back often enough for repeat visits to take no extra port time.",
+        "The decisions vary. Ships approaching their third renewal survey, at around fifteen years, face extensive gauging under the ESP Code and a steel renewal list that decides whether another cycle makes sense. Vetting departments ask harder questions of tankers past that age. Lenders reviewing a fleet want evidence that goes beyond one afternoon on board. And since EU emissions trading was extended to shipping in 2024 and FuelEU Maritime took effect in 2025, keeping older tonnage on European routes has to be justified with numbers on the steel as well as the fuel.",
+        "A one-off condition survey answers a question on one date. A programme answers how fast the ship is changing, which is what each of those decisions really turns on."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-rotterdam",
+      "h": "Owner's CAS and owner's CAP for a Rotterdam tanker: what mirrors the schemes and what does not",
+      "p": [
+        "When a superintendent asks us for an owner's CAS on a twenty-year-old product tanker, or an owner's CAP before a charter renewal, the request is for the method, not the certificate. CVIP borrows the structure of the IMO Condition Assessment Scheme and the class Condition Assessment Programme: a survey plan drawn from the ship's drawings and history, close-up examination of tanks and holds, thickness measured at defined positions, coatings rated GOOD, FAIR or POOR, machinery assessed, and every finding graded and gathered into one report for the whole ship.",
+        "What it leaves out is the authority. No flag Administration reviews a CVIP report and no Statement of Compliance follows; no classification society grades the ship and no CAP rating is issued. If an oil major's vetting policy names a class CAP rating, that rating has to come from the ship's society, often timed to coincide with a Botlek docking. A CVIP round some months earlier tells the owner where the steel stands before the society's surveyors arrive, and which renewals to carry out so that a handful of poor plates does not decide the grade.",
+        "The readings themselves are the owner's. Gauging that a class survey credits has to be done by a firm its society has approved under IACS UR Z17. Our own UR Z17 audits with DNV, Lloyd's Register and ABS are still under way and no certificate has been issued, so for now CVIP results inform the owner's decisions and are not credited to any class survey."
+      ]
+    },
+    {
+      "id": "trend-rotterdam-cvip",
+      "h": "Building one trend record from repeated Rotterdam calls",
+      "p": [
+        "A trend means nothing unless each visit measures the same thing in the same way. At the baseline every thickness position is numbered on the drawings and marked on the steel, every coating rating is photographed from a recorded viewpoint, and every machine is read with its load, its speed and the cargo operation noted. Repeat visits work from that list and nothing else.",
+        "Rotterdam's mix of calls helps. Cargo pump vibration is always taken during discharge at the same type of terminal, ballast pump readings during deballasting, and generator and switchboard readings with the ship's electrical load at a comparable level. Tank and hold readings are taken once the space has been prepared to the same standard, swept or washed, so that a change in a reading reflects the steel rather than the conditions on the day.",
+        "Over a survey cycle the record shows corrosion rates by tank and member, coating breakdown spreading or holding, cracks that have grown or stayed put, and machinery faults rising from one call to the next. A docking specification, a vetting response or a lender's question can then be answered from that history."
+      ]
+    },
+    {
+      "id": "plan-rotterdam-cvip",
+      "h": "Planning programme visits around Rotterdam calls, docks and visas",
+      "p": [
+        "Because a programme knows its visits months ahead, the planning that makes one-off jobs awkward becomes routine. We ask the operator for the expected Rotterdam calls over the coming year, the next docking and the class survey dates, and lay the visits against them. The team travels from India, so each technician's Schengen visa is applied for against the planned dates, and the ship's agent arranges ISPS gate passes and, for anchorage visits, the launch.",
+        "For the baseline we need drawings showing the as-built scantlings, the two most recent gauging reports, the survey status with any conditions of class, the equipment list from the planned maintenance system and any earlier vibration or thermography reports. On board, the ship provides gas-free certificates for the tanks to be entered, permits, lighting and an engineer to run machinery at the agreed load. North Sea weather limits launch transfers in winter, so anchorage visits are kept for machinery and deck work that can slip a day. To talk through a Rotterdam programme, write to info@atlantisndt.com; the form below reaches the same inbox."
+      ]
+    },
+    {
+      "id": "example-rotterdam-cvip",
+      "h": "How a programme might run for a product tanker trading through Rotterdam",
+      "p": [
+        "Picture a double-hull product tanker in its early teens that discharges at Europoort and loads at Botlek several times a year, with its third renewal survey and a Botlek docking two years away. The baseline is split between a lay-by period, when ballast tanks and cargo tanks cleaned for inspection are entered and gauged, and a discharge call, when cargo pumps, deck lines and switchboards are read under load.",
+        "Six-monthly visits on later calls repeat the machinery and deck points and add tanks whenever cleaning allows. Some months before the docking, a pre-docking round gives the yard its steel and pipe list, and a short visit after undocking resets the baseline for renewed plates. Throughout, one report format and one data set build the history that the vetting department, the lender and eventually a buyer will want to see."
+      ]
+    }
+  ],
+  "vessels": [
+    "Aframax and Suezmax crude tankers on North West European trades",
+    "Product tankers on repeat Rotterdam calls",
+    "Chemical parcel tankers rotating through Botlek and Pernis",
+    "Bulk carriers in the ore and coal trades to Maasvlakte",
+    "LPG carriers",
+    "Scrubber-fitted container ships",
+    "Sister ships run by one technical department"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition ratings",
+    "IACS UR Z10.1, Z10.3 and Z10.4 – Hull surveys of oil tankers, chemical tankers and double-hull oil tankers",
+    "2011 ESP Code, applied through SOLAS chapter XI-1 regulation 2",
+    "ISO 20816-1 – Evaluation of machine vibration by measurements",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines: thermography",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement"
+  ],
+  "deliverables": [
+    "Programme plan tying each module to Rotterdam calls, the Botlek docking and class survey dates",
+    "Baseline report on hull, tanks, piping, closing appliances and machinery as found",
+    "Report for every visit in one format, with changes since the baseline and findings by priority",
+    "Pre-docking steel and pipe renewal list located on the ship's drawings",
+    "Trend data for thickness, coating ratings, vibration and thermal readings, kept by the owner"
+  ],
+  "faqs": [
+    {
+      "q": "Is CVIP at Rotterdam the same as a CAS or CAP survey?",
+      "a": "In method, largely yes, and that resemblance is where the names owner's CAS and owner's CAP come from. In standing, no: the owner commissions it and receives the report. No flag Administration reviews it and no society rates the ship, so it yields neither a CAS Statement of Compliance nor a CAP rating. Where a charterer's policy demands the class CAP, book it with the society; a CVIP round beforehand shows the likely outcome."
+    },
+    {
+      "q": "Can programme visits fit a tanker's normal Rotterdam calls without delaying her?",
+      "a": "Mostly, yes. Machinery and deck rounds are planned for discharge or loading, when the equipment is running and the deck is accessible under the terminal's permit. Tank entry is kept for lay-by periods, cleaning stops and the docking. If a call is shortened, the visit's priority list decides what is taken now and what moves to the next call, so the ship's schedule sets the pace rather than the programme."
+    },
+    {
+      "q": "What happens to the programme when the ship docks at Botlek?",
+      "a": "The docking is the programme's main checkpoint. A pre-docking round on an earlier call gives the yard a renewal list marked on the ship's drawings; in dock, the team adds the bottom, sea chests and areas that need staging; after undocking, repaired areas are measured again so the trend restarts from the new steel. The surveyor's gauging for the class survey remains a separate job for a firm holding the society's approval."
+    },
+    {
+      "q": "Can sister tankers calling at Rotterdam share one programme?",
+      "a": "Yes, and Rotterdam suits it, because sisters on the same trade often call within weeks of each other. The plan is laid out once for the design, with points numbered identically on every hull, and each sister is visited on her own calls. Comparing them shows which ship is ageing faster, often traced to a coating repair or a cargo history the others did not share."
+    },
+    {
+      "q": "Do machinery readings in Rotterdam include oil analysis?",
+      "a": "No. Machinery condition in CVIP is read by vibration analysis on rotating plant and infrared thermography on switchboards, motor control centres, motors and hot surfaces, carried out by qualified analysts and thermographers with the load recorded. If the owner runs lube oil sampling through another provider, those results can be referred to in the report, but the sampling is not part of our work."
+    },
+    {
+      "q": "How soon can a Rotterdam programme start?",
+      "a": "The baseline can be planned for any call where the ship has a lay-by period or a long discharge, but the date depends on how long the team's Schengen visas take to issue. Send the expected calls and survey dates as early as possible. Once the baseline is booked, later visits are scheduled months ahead and the visas follow the plan rather than chasing a call."
+    }
+  ]
+}
