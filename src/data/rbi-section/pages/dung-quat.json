@@ -1,0 +1,209 @@
+{
+  "title": "RBI at Dung Quat: Refinery, Polypropylene and Tank Farm",
+  "description": "RBI for the Dung Quat refinery: damage mechanisms by unit, a wider crude slate, the expansion project, central-coast storms and how a remote study runs.",
+  "h1": "Risk-based inspection for the Dung Quat refinery on the central coast",
+  "eyebrow": "Risk-based inspection in Dung Quat",
+  "intro": "BSR's refinery in the Dung Quat Economic Zone, Quang Ngai province, is the older of Vietnam's two refineries and is now being expanded while it keeps running. This page is for the inspection, corrosion and reliability engineers who plan its process units, its polypropylene plant and its crude, intermediate and product tanks. It looks at where damage tends to concentrate unit by unit, what a wider crude slate and the expansion project mean for the register, how autumn storms on the central coast feed the plan, and how Atlantis organises a risk-based inspection study remotely, with the refinery's own inspectors doing the field checks.",
+  "highlights": [
+    {
+      "h": "Expansion beside running units",
+      "p": "The upgrading and expansion project ties new units into a refinery that stays on stream. New equipment gets a baseline register from design data and first readings, and existing equipment is reassessed wherever the project changes its feed, rates or temperatures."
+    },
+    {
+      "h": "Fourteen units, one register",
+      "p": "Crude distillation, reforming, residue catalytic cracking, treating, sulphur recovery and the polypropylene plant each bring their own mechanisms. Corrosion loops group them so that inspection effort lands where damage and consequence are highest."
+    },
+    {
+      "h": "Autumn storms on the coast",
+      "p": "The central coast takes its heaviest rain and most of its tropical storms in autumn and early winter. Insulation, tank roofs and foundations are ranked on exposure, and storm events are written into the programme as reassessment triggers."
+    }
+  ],
+  "sections": [
+    {
+      "id": "dq-refinery",
+      "h": "The refinery on Dung Quat Bay",
+      "p": [
+        "The refinery stands in the Dung Quat Economic Zone in Quang Ngai province, which took in neighbouring Kon Tum when Vietnam merged its provinces in 2025. The site covers about 956 hectares, roughly half of it sea surface, with about 140 hectares held back for expansion. Crude arrives through a single point mooring and a crude line of about 4.2 kilometres to the storage area, and products leave from an export port in Dung Quat Bay with six berths behind a breakwater.",
+        "Design capacity is 6.5 million tonnes of crude a year, about 148,000 barrels a day. The configuration has fourteen process units: crude distillation, naphtha hydrotreating, continuous catalytic reforming, residue fluid catalytic cracking, propylene recovery, amine regeneration, LPG treating, sour water stripping, caustic neutralisation, kerosene treating, sulphur recovery, RFCC naphtha treating, light naphtha isomerisation and LCO hydrotreating. Beside them a polypropylene plant rated at 150,000 tonnes a year turns the refinery's propylene into homopolymer. Products run from LPG, gasoline and jet fuel to diesel, fuel oil and sulphur.",
+        "That configuration shapes the study. With a residue catalytic cracker at its heart and no hydrocracker, the refinery's high-pressure hydrogen service is confined to a few units, while its caustic treating, amine and sour water systems serve a wide spread of products. The corrosion loops follow that shape, and so does the order in which units are taken through the workshops."
+      ]
+    },
+    {
+      "id": "dq-units",
+      "h": "Where damage concentrates, unit by unit",
+      "p": [
+        "The table summarises the mechanisms that usually drive risk in each part of a refinery built this way, and where an inspection plan tends to focus. It is a starting point for the damage mechanism workshops rather than a replacement for them: the refinery's own materials, operating windows and inspection history decide which entries apply and how strongly."
+      ],
+      "table": {
+        "head": ["Unit or system", "Mechanisms that usually drive risk", "Where the plan tends to focus"],
+        "rows": [
+          ["Crude distillation and its overhead", "High-temperature sulfidation, naphthenic acid corrosion where the crude carries it, hydrochloric acid and ammonium chloride corrosion in the overhead", "Furnace outlets and transfer line, hot piping by alloy, overhead condensers and the first wet points downstream of neutraliser injection"],
+          ["Naphtha hydrotreating, reforming and isomerisation", "Ammonium chloride fouling and corrosion, chloride damage in reformer effluent, high-temperature hydrogen attack screening, creep in fired heaters", "Effluent exchangers and air coolers, reactor inlet and outlet piping, heater tubes and their remaining life"],
+          ["Residue fluid catalytic cracking", "Catalyst erosion, refractory damage and hot spots, thermal fatigue, sulfidation in the fractionator bottoms, wet sulfide damage in the gas plant, polythionic acid cracking of stainless steel during shutdowns", "Reactor and regenerator shells and cyclones, slurry circuits, fractionator overhead and gas plant vessels, shutdown protection for stainless parts"],
+          ["LCO hydrotreating", "Wet hydrogen sulfide damage, ammonium bisulfide corrosion in effluent systems, high-temperature hydrogen attack screening", "Reactor effluent air coolers and their piping, separators and wash water injection points"],
+          ["Amine, sour water and sulphur recovery", "Amine corrosion and amine cracking, ammonium bisulfide in sour water, sulfidation and acid dew point corrosion in sulphur recovery", "Regenerator and reboiler circuits, rich amine piping, sulphur condensers and cold spots in tail gas lines"],
+          ["LPG, kerosene and caustic treating", "Caustic stress corrosion cracking where temperature and concentration allow it, wet sulfide damage", "Steam-traced caustic lines, treater vessels and welds that were not stress relieved"],
+          ["Polypropylene plant", "Mostly mild hydrocarbon service; external corrosion, cooling water corrosion and vibration fatigue", "Insulated lines and supports, cooling water exchangers and small-bore connections near compressors and agitated equipment"]
+        ]
+      }
+    },
+    {
+      "id": "dq-crude",
+      "h": "A crude slate wider than the original design",
+      "p": [
+        "The refinery was planned in stages around domestic crude. Its first stage was designed for 100 percent Bach Ho crude or an equivalent, a light, low-sulphur grade, and a second stage was intended to take sour crude. Vietnam now exports part of its own production and imports crude feedstock for its refineries, and the expansion project is designed to broaden the range of crudes Dung Quat can process.",
+        "Each widening of the slate changes the damage register. More sulphur raises sulfidation rates in hot carbon and low-alloy steel and adds hydrogen sulfide to every sour system downstream. A higher acid number brings naphthenic acid corrosion into piping where it was never credible. More chloride and salt load the desalter and the overhead. A register written for a sweet crude can look tidy and still be wrong for the crude now sitting in the tanks.",
+        "The study therefore ties damage rates to integrity operating windows rather than to inspection history alone. Each crude-sensitive mechanism gets a parameter, a limit and a response, in the manner of API 584, so that a new crude prompts a reassessment before its effects appear in the next thickness survey."
+      ],
+      "links": [
+        ["/standards/api-584", "API 584 integrity operating windows"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "dq-expansion",
+      "h": "The upgrading and expansion project and the existing register",
+      "p": [
+        "BSR's upgrading and expansion project is designed to raise capacity from about 148,000 to about 171,000 barrels a day, to produce Euro V quality fuels and to broaden crude flexibility. In July 2026 BSR awarded the EPC contract to a consortium of China Chengda Engineering and Beijing Petrochemical Engineering, and the project management consultancy to a consortium of Wood and Petrovietnam Engineering Consultancy. Execution began in August 2026 over a planned 37 months, and commercial operation is expected in 2028.",
+        "A project of this kind touches the RBI programme in three places. New units need a baseline register built from design data, manufacturer's data reports, material certificates and first thickness readings, so that their first in-service inspection rests on evidence rather than a default interval. Existing units that receive new feeds, higher rates or different temperatures need their damage mechanisms reassessed before the change, not after the first turnaround that follows it. And tie-ins, hot taps and temporary systems made during construction need entries of their own, because they are where a running refinery and a construction site meet.",
+        "Construction beside running plant also bears on turnaround scope. Where tie-ins are scheduled for a shutdown, the RBI plan and the project schedule should be read together, so that out-of-service inspection the plan calls for is not squeezed out by construction work competing for the same window and the same scaffolding."
+      ]
+    },
+    {
+      "id": "dq-tanks",
+      "h": "Crude, intermediate and product tanks",
+      "p": [
+        "The tank farm has eight floating-roof crude tanks in carbon steel, each about 69 metres in diameter and 22.4 metres high, with a combined working capacity of about 520,000 cubic metres, together with 23 intermediate tanks and 22 product tanks arranged in eight plots. Large crude tanks on a coastal site, with long out-of-service periods and a direct effect on throughput, are where risk-based internal intervals pay their way.",
+        "The mechanisms are familiar ones in local form. Soil-side floor and annular plate corrosion depends on the foundation, the water table and whether cathodic protection is maintained and recorded. Product-side corrosion concentrates where water settles beneath crude. Floating roofs, pontoons, drains and seals have to cope with downpours, and shell and roof plates nearest the bay face salt-laden wind. Intermediate tanks, which change service more often than any other group, need particular care, because each change of stock can bring a change of mechanism.",
+        "Where the refinery's tank programme follows API 653, the internal inspection interval may be set by an RBI assessment that meets the standard's conditions, including validation of the assessment and review at least every ten years. For each tank the study sets out the floor scan and thickness history, the cathodic protection record and the inspection effectiveness credited, and the owner's tank inspector decides."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"],
+        ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"]
+      ]
+    },
+    {
+      "id": "dq-weather",
+      "h": "Autumn rain, tropical storms and salt air",
+      "p": [
+        "The central coast has a pronounced rainy season in autumn and early winter, when tropical storms and the north-east monsoon bring intense rain and strong wind. Dung Quat's units and tanks sit within reach of salt carried off the bay, and the hot, humid months either side of the rains keep insulation wet once water has got in.",
+        "On a site like this, corrosion under insulation is usually the external mechanism that changes the inspection workload most. The study ranks insulated carbon steel by operating temperature band, insulation and cladding condition, age and exposure, and ranks insulated austenitic stainless steel for external chloride cracking in the same pass. Supports, clamps, insulation terminations and the bottoms of vertical runs, where water collects, are named in the plan instead of being left to a general instruction.",
+        "Storms enter the programme as events. After a severe storm or flood the refinery's inspectors check cladding, tank roofs and drains, foundations and buried line crossings against a short list the study supplies, and whatever they find returns to the register as new evidence."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "dq-rules",
+      "h": "Vietnamese rules at the refinery",
+      "p": [
+        "Equipment on the national lists of machinery with strict occupational safety requirements, such as pressure vessels, boilers and steam piping, is inspected by inspection organisations certified for it, with periodic due dates set under the national procedures. The refinery is also an onshore oil and gas work under the Ministry of Industry and Trade, which means a safety management programme, a risk assessment report and an emergency response plan under Circular 40/2018/TT-BCT. The Vietnam country page explains both regimes in more detail.",
+        "An RBI study at Dung Quat works inside that structure. Statutory due dates enter the register as fixed points, the risk assessment report's inventories and isolatable sections are matched in the consequence model, and the owner's plan covers what the statutory procedures leave open, such as the techniques and coverage each damage mechanism needs. BSR's procedures and the requirements of the Petrovietnam group decide the method and the approval route."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/vietnam", "RBI in Vietnam"]
+      ]
+    },
+    {
+      "id": "dq-remote",
+      "h": "Organising the study from Hyderabad and Houston",
+      "p": [
+        "Dung Quat works on Indochina Time, ninety minutes ahead of Hyderabad and twelve or thirteen hours ahead of Houston depending on the US season. Workshops run in the Vietnamese morning and early afternoon with the refinery's process, operations, corrosion and inspection engineers, while calculation and drafting carry on from Houston overnight. For a large unit the workshops are split by corrosion loop, so that each session has the right specialists in it and none runs longer than a few hours.",
+        "Drawings, datasheets, inspection reports and operating data come through a data room the refinery controls, and Vietnamese-language records are reviewed with bilingual engineers from the site. Nobody needs to travel. What has to be confirmed on the plant, such as insulation condition at a support, the actual position of a wash water injection quill or the state of a tank's annular plate, goes on a verification list for the refinery's inspectors, and their findings return to the model before the plan is issued.",
+        "Where a turnaround date is already fixed, the study is planned backwards from it, so that the out-of-service scope is settled early enough for scaffolding, insulation removal and the inspection contractor's crews to be arranged."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]
+      ]
+    },
+    {
+      "id": "dq-approval",
+      "h": "Approvals, and what follows a finding",
+      "p": [
+        "The refinery's inspection authority approves every interval and scope the study proposes, within the dates that statutory inspection fixes and within BSR's own procedures. Atlantis prepares and documents the plan; it is not the inspector of record and not a Vietnamese inspection organisation.",
+        "If an inspection finds damage beyond what the construction code accepts, the engineering assessment that follows stays with the owner's engineer, and the register takes in its outcome before the next plan is issued."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (risk-based inspection methodology)",
+    "API 571 (damage mechanisms)",
+    "API 584 (integrity operating windows)",
+    "API 583 (corrosion under insulation and fireproofing)",
+    "API 653 (storage tank inspection), where the owner adopts it",
+    "ASME PCC-3 (inspection planning using risk-based methods)"
+  ],
+  "deliverables": [
+    "Corrosion loop and damage mechanism report for the process units and polypropylene plant",
+    "RBI register with statutory due dates held as fixed points",
+    "Baseline register entries for expansion units and tie-ins",
+    "Tank-by-tank risk ranking and internal inspection recommendations",
+    "Inspection plan with method, coverage, effectiveness and due date per item",
+    "Verification list for the refinery's inspectors and a storm inspection checklist"
+  ],
+  "industries": [
+    "Petroleum refining",
+    "Polypropylene production",
+    "Crude and product storage",
+    "Marine crude import and product export"
+  ],
+  "faqs": [
+    {
+      "q": "Can the expansion units have an RBI register before they start up?",
+      "a": "Yes, and that is the best time to build one. Design data, manufacturer's data reports, material certificates and first thickness readings give each new item a baseline, and damage mechanisms can be assigned from the licensor's process conditions before the unit runs. The first in-service inspection is then planned on evidence. The baseline is revisited once the unit has run long enough for its operating data to replace design values."
+    },
+    {
+      "q": "How does running a different crude affect the Dung Quat register?",
+      "a": "It can change the mechanisms themselves, not only their rates. Higher sulphur increases sulfidation in hot piping and loads the sour systems, a higher acid number can make naphthenic acid corrosion credible, and more chloride stresses the desalter and overhead. The study links each crude-sensitive mechanism to an operating window, so a planned crude change triggers a reassessment of the affected loops before the new grade is run."
+    },
+    {
+      "q": "Does the residue catalytic cracker need a different approach from the rest of the refinery?",
+      "a": "It needs more of the workshop time. Erosion, refractory condition, thermal fatigue and high-temperature damage in the reactor-regenerator section are judged largely from turnaround inspection, process history and thermography rather than from thickness trends, while the fractionator and gas plant behave more like other sour hydrocarbon systems. The study treats those parts as separate loops with their own inspection techniques and effectiveness ratings."
+    },
+    {
+      "q": "Can RBI set the internal inspection intervals for the large crude tanks?",
+      "a": "Where the tank programme follows API 653, yes: the standard allows the internal interval to be set by an RBI assessment that meets its conditions, including validation and review at least every ten years. The assessment rests on floor scan results, soil-side protection records and product-side history. The owner's tank inspector approves each interval, and any statutory requirements that apply to the tank stand alongside it."
+    },
+    {
+      "q": "Should the polypropylene plant be included in the same study?",
+      "a": "Usually, yes. Its service is mostly mild, so many of its items rank low and can carry longer intervals once condition has been demonstrated, but it shares utilities, cooling water and the coastal environment with the refinery. Including it keeps one method and one risk matrix across the site and stops insulated lines and cooling water exchangers in the polymer plant from being planned to a different standard."
+    },
+    {
+      "q": "How are typhoons and floods handled in the plan?",
+      "a": "As reassessment triggers. The programme names the events that prompt a check, such as a storm above an agreed severity or flooding around tank foundations, and supplies a short inspection list for the refinery's inspectors: cladding and insulation, tank roofs and drains, foundations and buried crossings. Findings are entered as new evidence, and only the items they affect are reassessed."
+    },
+    {
+      "q": "Does anyone from Atlantis need to come to Dung Quat?",
+      "a": "The study is built to run remotely. Data arrives through the refinery's data room and workshops are held by video in the Vietnamese working day. Field checks go on a written verification list for the refinery's inspectors or its inspection contractor, and their results are fed back into the model before the inspection plan is finalised."
+    },
+    {
+      "q": "Who signs off the inspection plan for the refinery?",
+      "a": "The refinery's own inspection authority, under BSR's procedures and within the dates that statutory inspection sets. Atlantis drafts and documents the recommendations, with the basis for each interval traceable to data and stated assumptions, and does not act as inspector of record."
+    }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/vietnam", "RBI in Vietnam"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+    ["/standards/api-571", "API 571 explained"],
+    ["/standards/api-584", "API 584 explained"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    {"fact": "Dung Quat refinery: Binh Son district, Quang Ngai province, Dung Quat Economic Zone; 6.5 Mtpa / 148,000 b/d; stage 1 designed for 100% Bach Ho crude or equivalent, stage 2 for sour crude; 14 process units (CDU, NHT, CCR, RFCC, PRU, ARU, LTU, SWS, CNU, KTU, SRU, NTU, ISOM, LCO-HTD); polypropylene plant 150,000 t/y homopolymer; products LPG, gasoline, jet/kerosene, diesel, fuel oil, PP, sulphur; site about 956 ha incl. 471 ha sea surface and 140 ha for expansion; SPM and 4.2 km crude line; export port with six berths and ~1,600 m breakwater; 8 floating-roof crude tanks 69.0 m diameter x 22.4 m high, 520,000 m3 working capacity; 23 intermediate tanks; 22 product tanks in 8 plots", "url": "https://bsr.com.vn/web/bsr-eng/about-dung-quat-refinery"},
+    {"fact": "Upgrading and expansion: 148,000 to 171,000 b/d, Euro V fuels, broader crude flexibility; July 2026 EPC to China Chengda Engineering + Beijing Petrochemical Engineering consortium, PMC to John Wood Group + Petrovietnam Engineering Consultancy; kickoff 21 Aug 2026; 37-month execution; commercial operation expected 2028", "url": "https://www.ogj.com/refining-processing/news/55401081/bsr-advances-dung-quat-refinery-expansion"},
+    {"fact": "Expansion moved into execution; EPC signed July 2026; capacity 148,000 to 171,000 bpd; project core to developing Dung Quat Economic Zone", "url": "https://www.hydrocarbonengineering.com/refining/11082026/bsr-opens-international-financing-options-for-dung-quat/"},
+    {"fact": "Vietnam exports part of domestic crude and imports crude feedstock for Dung Quat and Nghi Son", "url": "https://vietnamnet.vn/en/vietnam-diversifies-supply-sources-to-meet-domestic-fuel-demand-2499903.html"},
+    {"fact": "Kon Tum merged into Quang Ngai province in the 2025 provincial merger", "url": "https://en.baochinhphu.vn/names-and-administrative-centers-of-34-provinces-and-centrally-run-cities-specified-111250415094350491.htm"},
+    {"fact": "BSR (Binh Son Refining and Petrochemical JSC) operates Dung Quat in Quang Ngai province", "url": "https://vietnamnews.vn/economy/1778694/bsr-s-technology-push-signals-new-phase-for-viet-nam-s-refining-industry.html"},
+    {"fact": "Circular 40/2018/TT-BCT safety documents for petroleum activities", "url": "https://luatvietnam.vn/cong-nghiep/thong-tu-40-2018-tt-bct-noi-dung-tai-lieu-quan-ly-an-toan-trong-hoat-dong-dau-khi-168695-d1.html"}
+  ]
+}

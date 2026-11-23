@@ -56,7 +56,7 @@
       "id": "india-capacity",
       "h": "Where India's refining capacity sits",
       "p": [
-        "The Ministry of Petroleum and Natural Gas lists twenty-three refineries, owned by public sector companies, joint ventures and private groups. They are spread unevenly. The largest single concentration is Reliance Industries' pair of refineries at Jamnagar; much of the rest sits on the coast where crude arrives, with a group of inland refineries fed by pipeline and a cluster of smaller, older plants in the Northeast. The table groups them by what tends to shape an RBI study rather than by size.",
+        "The Ministry of Petroleum and Natural Gas lists twenty-three refineries, owned by public sector companies, joint ventures and private groups. They are spread unevenly. The largest single concentration is Reliance Industries' pair of refineries at Jamnagar; much of the rest sits on the coast where crude arrives, with a group of inland refineries fed by pipeline and a cluster of smaller, older plants in the Northeast. The table groups the main ones by what tends to shape an RBI study rather than by size.",
         "Petrochemical complexes, gas processing plants, LNG import terminals, marketing depots and pipeline terminals sit alongside the refineries and bring their own equipment classes, from crackers and polymer reactors to large crude and product tank farms at the ports."
       ],
       "table": {
@@ -68,7 +68,7 @@
           ["Karnataka coast", "Mangalore Refinery and Petrochemicals at Mangaluru", "Heavy monsoon rainfall on a coastal site, with refining and aromatics service side by side"],
           ["Andhra Pradesh coast", "Hindustan Petroleum at Visakhapatnam", "A long-established refinery on the Bay of Bengal, with older units beside newer ones"],
           ["Port cities", "Bharat Petroleum and Hindustan Petroleum at Mumbai, Bharat Petroleum at Kochi, Chennai Petroleum at Manali", "Urban or near-urban sites where the consequence of a release weighs heavily in the ranking"],
-          ["Northern and central India", "Indian Oil at Panipat and Mathura, HPCL-Mittal Energy at Bathinda, Bharat Oman Refinery at Bina", "Inland sites with hot summers, cold winters and little marine exposure"],
+          ["Northern and central India", "Indian Oil at Panipat and Mathura, HPCL-Mittal Energy at Bathinda, Bharat Petroleum at Bina", "Inland sites with hot summers, cold winters and little marine exposure"],
           ["The Northeast", "Indian Oil at Digboi, Guwahati and Bongaigaon, and Numaligarh Refinery", "Smaller and older refineries where recovering usable data from paper records is often the first task"]
         ]
       }
@@ -184,6 +184,8 @@
     { "fact": "Indian Boiler Regulations 2026 framed by the Central Boilers Board under the Boilers Act 2025 replace IBR 1950; competent persons authorisation (Reg. 25); remaining life assessment after 100,000 operating hours for boilers at 400 °C and above and after 25 years for other boilers (Regs. 313-315)", "url": "https://www.khaitanco.com/sites/default/files/2026-10/Ergo_Indian%20Boiler_IBR_23%20October%202026.pdf" },
     { "fact": "MoPNG refinery list: 23 refineries (PSU, JV, private) including Reliance DTA and SEZ refineries at Jamnagar (largest), IOCL Koyali, Paradip, Panipat, Mathura, Digboi, Guwahati, Bongaigaon; MRPL Mangalore; HPCL Visakhapatnam and Mumbai; BPCL Mumbai and Kochi; CPCL Manali; Numaligarh Refinery; HMEL Bathinda; BORL Bina", "url": "https://mopng.gov.in/en/refining/refining-capacity" },
     { "fact": "SMPV(U) Rules and PESO approval for compressed gas and LPG service (already on the live site)", "url": "https://atlantisndt.com/inspection/third-party-inspection-ahmedabad" },
-    { "fact": "PESO regulates pressure vessels for compressed gases under the SMPV(U) Rules, gas cylinders, and petroleum storage and handling installations; PESO Petroleum Rules 2002 (existing site copy in src/data; not re-fetched from peso.gov.in this session)", "url": "https://atlantisndt.com/consulting-india" }
+    { "fact": "PESO regulates pressure vessels for compressed gases under the SMPV(U) Rules, gas cylinders, and petroleum storage and handling installations; PESO Petroleum Rules 2002 (existing site copy in src/data; not re-fetched from peso.gov.in this session)", "url": "https://atlantisndt.com/consulting-india" },
+    { "fact": "The Bina refinery of the former Bharat Oman Refinery Ltd has been amalgamated with BPCL, so it is listed as Bharat Petroleum at Bina", "url": "https://www.energetica-india.net/news/bpcl-amalgamates-bina-refinery-with-itself" },
+    { "fact": "Indian Boiler Regulations 2026 notified by the Central Boilers Board under the Boilers Act 2025 (7 August 2026), published in the Gazette on 1 October 2026 and superseding IBR 1950", "url": "https://ksandk.com/energy/indian-boiler-regulations-2026/" }
   ]
 }

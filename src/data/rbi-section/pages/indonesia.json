@@ -121,7 +121,7 @@
         "head": [
           "Refinery unit",
           "Location",
-          "Capacity as KPI lists it",
+          "Published capacity",
           "What tends to shape RBI there"
         ],
         "rows": [
@@ -146,7 +146,7 @@
           [
             "Refinery Unit V",
             "Balikpapan, East Kalimantan",
-            "260,000, planned to rise to 360,000 barrels per day under the RDMP",
+            "360,000 barrels per day since the RDMP expansion inaugurated in January 2026, up from 260,000",
             "New crude and conversion units commissioned beside older plant, and new crude tanks at Lawe-Lawe"
           ],
           [
@@ -373,6 +373,7 @@
     {
       "fact": "Proposal that a badan usaha khusus replace SKK Migas under the revised law",
       "url": "https://industri.kontan.co.id/news/ruu-migas-disahkan-skk-migas-bakal-diganti-badan-usaha-khusus-di-bawah-presiden"
-    }
+    },
+    { "fact": "RDMP Balikpapan inaugurated 12 January 2026; crude processing capacity increased from 260,000 to 360,000 bpd", "url": "https://setkab.go.id/en/president-prabowo-inaugurates-integrated-energy-infrastructure-worth-rp123-trillion-in-e-kalimantan/" }
   ]
 }
