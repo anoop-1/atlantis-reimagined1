@@ -2,4 +2,4 @@
 
 One line per run: date · new city · sections · words · deploy run. See RUNBOOK.md.
 
-- 2026-11-23 · release (CLAUDE.md §82): 20 new cities, 47 local-options sections, 6 region pages · built by the interactive session
+- 2026-11-23 · release (CLAUDE.md §82): 20 new cities, 47 local-options sections, 6 region pages; all 208 US training pages now 2,017+ page-specific words (median 2,524) · interactive session
