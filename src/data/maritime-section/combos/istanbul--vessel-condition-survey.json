@@ -1,0 +1,140 @@
+{
+  "port": "istanbul",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Istanbul | Turkish Fleets and Tuzla",
+  "description": "Condition surveys for Istanbul owners: geared bulk carriers, general cargo ships and small tankers checked before Tuzla dockings or a lender's review.",
+  "h1": "Condition surveys for Turkish-owned bulk carriers, general cargo ships and tankers around Istanbul",
+  "intro": "Istanbul's shipowners keep many of their ships close to home: geared Handysize and Supramax bulk carriers, general cargo and multipurpose ships and small tankers trading the Black Sea, the Marmara and the Mediterranean, and docking at Tuzla where the technical department can attend. A vessel condition survey in Istanbul tells that department what each ship needs before her next docking, a lender's review or another season of Black Sea trading. Atlantis surveys holds, tanks, hatch covers, cranes and running machinery, rates them on one scale and ranks the defects. The team travels from India to the ship, at anchor, alongside or in a Tuzla dock.",
+  "highlights": [
+    {
+      "h": "Weeks before the Tuzla dock date",
+      "p": "A survey at anchor or at a cargo port some weeks before the ship enters a Tuzla floating dock gives the superintendent measured findings for the repair specification while the yard is still preparing its offer, so steel, coating and overhaul work are planned rather than discovered after the ship is dry."
+    },
+    {
+      "h": "Cranes and grabs on geared ships",
+      "p": "Most Istanbul-owned bulk carriers and general cargo ships work their own cargo, because many Black Sea and Mediterranean berths they serve have little shore gear. Each survey runs the cranes, checks pedestals and slewing gear, and measures the hydraulic power units that keep the ship earning."
+    },
+    {
+      "h": "Evidence ready for the lender",
+      "p": "Loans from Turkish and international banks often require periodic evidence on the condition of mortgaged ships. A survey timed to an anchorage wait or a Marmara cargo call gives the owner a report the bank can read, with every defect ranked and its repair already placed in the docking plan."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-istanbul-vcs",
+      "h": "Where are condition surveys carried out in Istanbul and at Tuzla?",
+      "p": [
+        "The setting decides how much of the ship can be seen. Ships waiting off Tuzla for a dock slot are often in ballast with empty holds, which makes the anchorage there a good place for a pre-docking condition survey reached by launch. Alongside a Tuzla repair quay, tanks and holds opened for the yard can be surveyed with shore lighting and services close at hand, and in a floating dock the bottom plating, sea chests, propeller and rudder are dry and can be added to the record.",
+        "Away from the yards, ships at Ahırkapı or at the Black Sea entrance waiting for a Bosphorus transit can be surveyed on deck, in the holds if they are in ballast and in the ballast tanks the crew has prepared, provided the plan allows for a call to proceed. Container ships and general cargo ships at the Ambarlı terminals offer a working-cargo window under ISPS rules, and a ship docked at Altınova in Yalova can be covered on the same mobilisation as a Tuzla job."
+      ],
+      "list": [
+        "Anchorages off Tuzla: pre-docking surveys of holds, ballast tanks, deck and machinery on ships waiting for a dock",
+        "Tuzla repair quays: spaces opened for the yard surveyed alongside, with the superintendent able to attend daily",
+        "Tuzla floating docks: bottom, sea chests, propeller and rudder added while the hull is dry",
+        "Ahırkapı and the Black Sea entrance: deck, hatch covers and prepared tanks on ships awaiting transit or orders",
+        "Ambarlı terminals: general cargo and container ships during their port stay",
+        "Altınova yards in Yalova: ships docked across the Gulf of Izmit, covered on the same trip"
+      ]
+    },
+    {
+      "id": "fleets-istanbul-vcs",
+      "h": "Which Istanbul-managed fleets use condition surveys, and for what?",
+      "p": [
+        "Many Turkish owners built their fleets by buying second-hand ships and trading them for a long time, so a typical Istanbul fleet holds bulk carriers and general cargo ships in their second and third decades, with small chemical and product tankers alongside. Technical departments in the city tend to be close to their ships, and their superintendents know each hull well; what they want from an outside survey is a consistent, measured record that confirms or corrects that knowledge before money is committed to a docking, a sale or another survey cycle.",
+        "Several decisions bring the request. A fleet manager comparing sister ships asks for the same scope on each so the reports line up. An owner deciding whether an older Supramax is worth her next renewal survey, or should be sold or recycled, wants the steel and machinery picture first. A chartering department fixing a ship on period for Black Sea and Mediterranean cargoes wants confidence that holds, hatch covers and cranes will satisfy the charterer's own surveyor. A bank, through the owner, wants a plain statement of the ship's condition for its file."
+      ]
+    },
+    {
+      "id": "scope-istanbul-vcs",
+      "h": "How is a condition survey scoped for a geared bulk carrier in Black Sea trades?",
+      "p": [
+        "Holds come first when the ship is empty. Lower side frames and their brackets are examined and read at several heights, hopper plating and tank tops are read for wastage and checked for set-in plating, and transverse bulkheads and stools are examined near their lower edges, where cargo residues and grab contact do most harm. Topside and hopper tanks are entered when the crew has ventilated them and the master signs the permit, and their coatings are rated in the IACS GOOD, FAIR and POOR terms that a class surveyor or a charterer will recognise.",
+        "On deck the survey covers the cross-deck strips between hatches, coaming top plates and brackets, air pipe heads, ventilators and bulwarks. The crew opens and closes the hatch covers so packing, compression bars, cleats, drain channels and hydraulic lines can be seen in use. Each crane is run through hoisting, luffing and slewing, pedestal and jib welds within reach are checked for cracks by magnetic particle testing wherever the crew lets us clean back the paint, and the hydraulic power units are measured for vibration. Those crack-detection results are the owner's NDT records, not class findings.",
+        "In the engine room, generators, steering gear, ballast and fire pumps and the main air compressors are measured while running, and the switchboards are surveyed with a thermal camera under load by a qualified thermographer. On a general cargo or multipurpose ship the tween deck panels, their seatings and their securing are added; on a small tanker the scope moves to the ballast spaces, deck lines, manifold supports and pump room, with cargo tanks entered only when a gas-free certificate allows."
+      ]
+    },
+    {
+      "id": "findings-istanbul-vcs",
+      "h": "What do condition surveys find on ships trading the Black Sea and Marmara?",
+      "p": [
+        "Short voyages, frequent loading and discharging, mixed cargoes and winter weather in the Black Sea leave a familiar set of findings on Istanbul-managed ships. These are the items that most often land in the first two priority groups of a survey report here."
+      ],
+      "list": [
+        "Wasted lower hold frames and brackets where fertiliser, coal and grain residues have lain in damp holds",
+        "Indented tank tops and hopper plating from ferrous scrap cargoes and grab work",
+        "Coaming top plates wasted beneath the packing, with worn compression bars and seized cleats",
+        "Holed air pipe heads and ventilators, the deficiencies Black Sea and Mediterranean MoU inspectors record most often",
+        "Cracks at crane pedestal welds, hatch corners and coaming bracket toes",
+        "Distorted tween deck panels and loose securing on multipurpose ships",
+        "Topside tank coatings breaking down at stringers and edges, and crane hydraulic units running with high vibration"
+      ]
+    },
+    {
+      "id": "timing-istanbul-vcs",
+      "h": "Timing a condition survey with a Tuzla docking or a lender's review",
+      "p": [
+        "For a docking, the useful sequence has three steps. A survey at the Tuzla anchorage or at the final cargo port before the yard, a few weeks ahead, shows the superintendent where steel, coatings and overhauls are needed while the repair specification can still change. In the dock the record can be completed with the bottom, sea chests and rudder, and the spaces the yard opens. After the docking, a short repeat of the same points shows the owner and the bank what the yard has actually put right.",
+        "A condition survey is not the class survey that may run in the same dock. The Condition Assessment Programme is a rating that a classification society issues to its own procedure, and the IMO's Condition Assessment Scheme is a flag-state process confined to ageing single-hull oil tankers; each has its own page here, and neither results from our survey. Nor does an owner's survey stand in for a P&I club's entry survey or a charterer's on-hire surveyor, who each report to the party that appoints them."
+      ]
+    },
+    {
+      "id": "planning-istanbul-vcs",
+      "h": "Planning a condition survey in Istanbul: visas, airports and access",
+      "p": [
+        "Indian passport holders need a Turkish visa, so the application starts as soon as the docking date or the anchorage window is known, and its validity is planned against the chance that a yard slot moves. Sabiha Gökçen is the nearest airport to the Tuzla yards, while Istanbul Airport suits a job at Ambarlı or elsewhere on the European side. Yard registration at Tuzla goes through the yard and the ship's agent; anchorage boarding needs a launch the agent books, and strong winds over the Marmara can hold it up for a day.",
+        "Because so many Istanbul-managed ships pass Tuzla and the Strait, one mobilisation can often cover two or three ships of the same fleet if the technical department shares their expected calls and dock dates. Send the IMO numbers, the purpose of each survey, the class status and any earlier condition or thickness reports, and say whether a superintendent will attend. Details go to info@atlantisndt.com, and the enquiry form below asks for the same information."
+      ]
+    }
+  ],
+  "vessels": [
+    "Geared Handysize and Supramax bulk carriers",
+    "General cargo and multipurpose ships with tween decks",
+    "Small chemical and product tankers",
+    "Bulk carriers in the ferrous scrap and fertiliser trades",
+    "Container feeders on Black Sea rotations",
+    "Ro-ro ships",
+    "Tugs and offshore vessels repaired at Tuzla"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and the GOOD, FAIR and POOR coating definitions",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "ILO Convention C152 – Dock work safety, including the examination of ships' lifting appliances",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Mechanical vibration: evaluation of machine vibration by measurements"
+  ],
+  "deliverables": [
+    "Condition summary with the items to act on before the next voyage or the Tuzla docking",
+    "Ratings by area for holds, tanks, hatch covers, cranes, deck and engine room",
+    "Defect list in three priority groups with location, photograph and recommended action",
+    "Spot thickness readings and crack-check results located on frame-and-member sketches",
+    "Notes on each crane and hatch cover, plus machinery vibration and thermal images with the load recorded",
+    "Comparison with the previous survey or sister-ship report where one exists"
+  ],
+  "faqs": [
+    {
+      "q": "Can a condition survey be done at anchor off Tuzla before the ship docks?",
+      "a": "Yes, and it is often the most useful moment. A ship waiting for her dock slot is usually in ballast, so holds and prepared ballast tanks can be entered from a launch. The findings reach the superintendent while the repair specification can still change, and the survey can be completed in dock with the bottom, sea chests and rudder once the ship is dry."
+    },
+    {
+      "q": "Do you survey cranes and hatch covers on Istanbul-owned geared bulk carriers?",
+      "a": "Yes. The crew runs each crane through its motions while we note brakes, leaks and noise, check reachable pedestal and jib welds for cracks and take vibration readings on the hydraulic power units. Hatch covers are opened and closed to see packing, cleats and drainage. Load tests and lifting-appliance certification remain with the competent person or the crane maker."
+    },
+    {
+      "q": "Will a Turkish bank accept an owner's condition survey for loan reporting?",
+      "a": "That is for the loan agreement to say, and some agreements list the survey firms a lender will rely on. Where the owner may choose, the report gives the bank what it normally looks for: condition by area, defects ranked by priority, measured machinery readings and the work the next class survey is likely to bring. A lender's template can be followed if it is sent before the survey."
+    },
+    {
+      "q": "Can a ship waiting for a Bosphorus transit be surveyed?",
+      "a": "Partly. A ship at Ahırkapı or at the Black Sea entrance can be ordered to proceed at short notice, so the spaces are ranked with the master and the most important are surveyed first: holds if she is in ballast, prepared ballast tanks, the deck and hatch covers. A full survey is better done in a Tuzla dock or alongside at a cargo port."
+    },
+    {
+      "q": "Are readings from an Istanbul condition survey credited by the classification society?",
+      "a": "No. A society credits gauging only from a firm it has approved under IACS UR Z17, and Atlantis does not hold that approval yet; applications are in progress with DNV, Lloyd's Register and ABS. The readings show the owner where the class gauging at the renewal survey is likely to call for steel, which is what a docking plan needs."
+    },
+    {
+      "q": "Can one trip cover several ships of an Istanbul fleet?",
+      "a": "Often. Ships managed from Istanbul pass Tuzla, the Strait anchorages and Ambarlı regularly, and a technical department that shares expected calls and dock dates lets us line up two or three surveys on one mobilisation from India. Each ship is surveyed to the same plan, so the fleet reports can be compared space by space."
+    }
+  ]
+}
