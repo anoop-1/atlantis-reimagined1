@@ -1,0 +1,131 @@
+{
+  "port": "southampton",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Southampton | Owner's CAS/CAP for Cruise Ships & PCTCs",
+  "description": "CVIP in Southampton: an owner's CAS/CAP-style programme staged across cruise turnarounds and vehicle calls, with one trend record between drydocks.",
+  "h1": "Comprehensive Vessel Inspection Programme in Southampton: an Owner's CAS/CAP-Style Condition Assessment Staged Across Cruise Turnarounds and Vehicle Calls",
+  "intro": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme, is the whole-ship assessment technical managers refer to as an owner's CAS or owner's CAP: structure and tanks surveyed to a plan, wall and plate thickness at fixed points, piping, coatings and machinery graded, and one report, all for the owner rather than for class. Southampton fits a programme naturally. Cruise ships turn around here on a weekly or fortnightly rhythm, car carriers return on set rotations and the double high tide keeps calls punctual, so repeat visits can be booked straight from the itinerary. Every visit is made by technicians flying in from India.",
+  "highlights": [
+    {
+      "h": "The itinerary becomes the visit calendar",
+      "p": "A cruise ship home-ported in Southampton comes back on a published schedule. CVIP turns that schedule into a visit plan: a few tanks and piping runs prepared by the crew for each turnaround, so a complete picture builds without the ship staying alongside longer than planned."
+    },
+    {
+      "h": "Piping that cannot be shut down",
+      "p": "On a ship full of passengers, grey and black water, sea-water cooling, sprinkler and fire-main lines must stay in service. Reading them at fixed points on repeat calls shows which sections are thinning, so spools are made before a drydock instead of after a leak."
+    },
+    {
+      "h": "Car carriers, one shift at a time",
+      "p": "Vehicle carriers spend a shift at the Eastern or Western Docks. Each call carries one short module, such as ramp hinges under magnetic particle testing, a set of vehicle decks or the ventilation fans, and the record grows steadily across the rotation."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cvip-southampton",
+      "h": "Where programme visits fit around Southampton Water",
+      "p": [
+        "Southampton has no deep-sea repair yard driving its inspection work; what it has is a steady rhythm of calls, and the programme is built on that rhythm. At the cruise terminals in the Eastern and Western Docks, a turnaround day gives access to whatever the crew can release: void spaces, ballast and fresh-water tanks emptied and ventilated in advance, engine-room and pump-room piping, steering gear flats and the external structure at the mooring decks. Machinery that runs in port, including generators, sea-water cooling pumps and air-conditioning plant, can be measured at its port load.",
+        "Vehicle carriers usually berth for a shift, long enough for ramp, hinge and selected deck work. The DP World container terminal on the River Test gives the cargo window for hatch coamings, lashing bridges, deck plating and scrubber overboard piping. Across the water, tankers at the Fawley marine terminal are handled on the terminal's terms, with deck and piping work under permit and tanks entered once the ship is gas-free. When a cruise ship spends a technical or lay-up period alongside in the docks, tanks and voids can be opened in sequence, which is the right moment for a deep baseline, and ships held off the Isle of Wight can be boarded by launch for small items."
+      ],
+      "list": [
+        "Cruise terminals, Eastern and Western Docks: tanks, voids, piping and machinery on turnaround days",
+        "Vehicle berths: stern ramp, hinges, hoistable-deck supports and vehicle decks within one shift",
+        "DP World Southampton: coamings, lashing bridges, deck plating and scrubber lines on container ships",
+        "Fawley marine terminal: deck and piping on crude and product tankers under the terminal's permit",
+        "Technical or lay-up periods alongside: baselines with tanks and voids opened in sequence"
+      ]
+    },
+    {
+      "id": "why-programme-southampton",
+      "h": "Why cruise lines and car-carrier operators calling at Southampton run a programme",
+      "p": [
+        "A cruise ship carries risk in places that a one-off survey can easily miss. Grey and black water lines, sea-water cooling systems, sprinkler and fire-main networks and ballast lines run long distances through accommodation and machinery spaces, and a leak is far more disruptive on a ship that cannot easily isolate a section with passengers aboard. Scrubbers add wash-water and overboard lines carrying acidic water, and a hole there can take the system out of use and force a switch to compliant fuel inside the emission control area. Measuring those lines once tells the technical team where they stand; measuring them on repeat turnarounds tells them which sections need spools at the next drydock and which can wait.",
+        "Car carriers bring a different case. Stern ramps, hinges, ramp lugs and hoistable-deck supports wear and crack in service, and damage found during a Southampton call can be planned into the next yard stay instead of being discovered there, when steel and labour are committed elsewhere. Because the same car carriers come back on their rotations, the programme can follow that wear call by call. Tankers at Fawley and container ships at the River Test terminal can join on the same basis, with modules sized to the time and permits each berth allows.",
+        "The punctuality of Southampton calls makes this practical. Southampton Water's long stand of high water gives deep-draught ships a generous window to berth and sail, so a team booked from India against the itinerary finds the ship where the schedule said she would be."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-southampton",
+      "h": "Owner's CAS and owner's CAP for passenger ships and car carriers",
+      "p": [
+        "Neither official condition assessment scheme was designed with a cruise ship or a car carrier in mind. The IMO Condition Assessment Scheme covers a narrow class of older oil tankers and is verified by the flag Administration, and class Condition Assessment Programme ratings are generally requested for older tankers and bulk carriers. Yet technical managers of passenger ships and vehicle carriers still want the same discipline: survey to a plan, readings at defined positions, coatings, piping and machinery assessed, findings graded and a single report. When they ask for an owner's CAS or an owner's CAP, that discipline is what they mean, and CVIP supplies it for the owner's own requirement.",
+        "The owner, manager, charterer or financier commissions it and keeps the record; it carries no CAP rating and no CAS Statement of Compliance. If the charterer of a tanker loading at Fawley requires a class CAP rating, the owner obtains it from the ship's society, and CVIP readings help anticipate the outcome. Thickness readings follow the same principle. Atlantis is working through the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, and until a certificate is in hand, CVIP readings taken at Southampton inform the owner's decisions and carry no credit towards a class survey. Crack detection on ramp hinges and lugs is recorded as the owner's NDT evidence, not as a class finding."
+      ]
+    },
+    {
+      "id": "staging-trend-southampton",
+      "h": "Staging the trend record across turnaround calls",
+      "p": [
+        "The baseline on a cruise ship is rarely one visit. Tanks, voids and piping runs are divided into groups that the crew can prepare for successive turnarounds, one or two tanks at a time, so the baseline is complete after a sequence of calls and no single day is overloaded. Each piping reading position is identified by system, deck and frame and marked on the arrangement drawing, and each tank has fixed photo positions for its coating ratings. Sending the same technicians and working from the same reference points call after call keeps the readings comparable.",
+        "Machinery readings in port follow the condition the ship actually runs in: generators at the hotel load of a turnaround day, sea-water cooling pumps and air-conditioning fans as they serve the ship, each with its load recorded. A qualified thermographer images the main switchboard and distribution panels on a yearly round, and where accommodation complaints suggest it, noise is read at the positions in the ship's noise survey report. Over a season, those readings become trends that tell the chief engineer which machine to open at the next technical stop.",
+        "On car carriers the trend is built ramp first. Hinge lugs and ramp plating are covered on most calls, vehicle decks are rotated so each is read within a survey cycle, and ventilation fans and ramp hydraulics are measured as they work during cargo operations."
+      ]
+    },
+    {
+      "id": "planning-cvip-southampton",
+      "h": "Planning around the cruise itinerary, the vehicle rotation and UK visas",
+      "p": [
+        "Programme visits in Southampton are fixed from the published cruise itinerary or the car carrier's rotation, weeks ahead. Send the drawings, the piping system diagrams, the last thickness report, the class survey status, the itinerary or rotation and the drydock date, and we propose the tank, piping and machinery groups for each call. The chief engineer confirms which spaces the crew can prepare, and the visit order is set to avoid provisioning, bunkering and passenger routes.",
+        "The cruise terminals, vehicle berths, container terminal and Fawley sit behind ISPS-controlled gates, and the ship's agent or the cruise line's port team arranges passes against the technicians' names and passports. Our technicians travel from India on UK visas, arriving through Heathrow or Gatwick and continuing by road or rail. Port state control here is carried out by the Maritime and Coastguard Agency, whose headquarters are in the city, within the Paris MoU. For a cruise ship, a car-carrier fleet or a single tanker, email info@atlantisndt.com with the itinerary, or use the enquiry form."
+      ]
+    },
+    {
+      "id": "worked-example-southampton",
+      "h": "A worked programme for a home-ported cruise ship between drydocks",
+      "p": [
+        "Think of a cruise ship home-ported in Southampton, scrubber-fitted, with a drydock planned in the next couple of years. The baseline is staged across consecutive turnarounds: the scrubber wash-water and overboard lines and their shell connections, sea-water cooling and fire-main runs in the machinery spaces, a group of ballast and fresh-water tanks on each call, voids near the waterline and the steering gear flat. Machinery and switchboards are measured and imaged at turnaround load.",
+        "Repeat visits then come round with the itinerary: piping positions that showed early loss are read again before the season and mid-season, tanks are revisited in rotation, and machinery trends are refreshed. Some months before the drydock, the record becomes a pipe spool and steel list located on the drawings, so the yard can prefabricate before arrival, and after the drydock the renewed sections are re-baselined when she returns to Southampton."
+      ]
+    }
+  ],
+  "vessels": [
+    "Cruise ships home-ported in Southampton",
+    "Pure car and truck carriers on regular rotations",
+    "Container ships at the DP World terminal",
+    "Crude and product tankers at Fawley",
+    "Ro-pax ferries",
+    "General cargo and project ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "SOLAS chapter II-2 – Fire protection, including fire mains and sprinkler systems",
+    "MARPOL Annex VI regulation 14 and the 2021 EGCS Guidelines (MEPC.340(77))",
+    "IMO Code on Noise Levels on Board Ships, resolution MSC.337(91)",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration"
+  ],
+  "deliverables": [
+    "Programme plan dividing tanks, voids, piping runs and machinery into groups for each turnaround or vehicle call",
+    "Staged baseline report, completed across the agreed sequence of calls",
+    "Piping wall-thickness trend by system, with sections flagged for spools at the next drydock",
+    "Visit reports in one format, with ramp and hinge crack detection results kept as the owner's NDT records",
+    "Machinery vibration, thermal and, where wanted, noise trends at recorded operating conditions",
+    "Pre-drydock pipe and steel list located on the drawings, and data files the owner keeps"
+  ],
+  "faqs": [
+    {
+      "q": "Can a programme visit be done on a cruise turnaround day in Southampton?",
+      "a": "Yes, sized to what the crew can release. We agree the tanks, voids, piping runs and machinery with the chief engineer before arrival, the crew empties and ventilates the agreed tanks in advance, and the team works in an order that keeps clear of provisioning and passenger flows. Larger groups simply move to the next turnaround in the plan."
+    },
+    {
+      "q": "Is CVIP the same as a CAS or CAP for a cruise ship?",
+      "a": "No official CAS or CAP is written for cruise ships, which is partly why owners ask for an owner's version. CVIP follows the same approach of survey to a plan, fixed readings, grading and one report, for the owner's requirement. It carries no flag Statement of Compliance and no class rating, and where a tanker charterer needs a class CAP, that is booked with the society."
+    },
+    {
+      "q": "How many turnaround calls does a cruise ship baseline take?",
+      "a": "It depends on how many tanks, voids and piping systems the owner includes and how many the crew can prepare per call. We propose the grouping from the drawings and the itinerary, and the chief engineer adjusts it to the ship's routine. The plan states which call completes each group, so the technical team knows when the baseline will be whole."
+    },
+    {
+      "q": "Can car carriers on a Southampton rotation join a fleet programme?",
+      "a": "Yes. Each car carrier receives the same plan for ramps, hinges, hoistable-deck supports, vehicle decks, ventilation fans and ramp hydraulics, and each call takes a module that fits the shift alongside. Sister ships use the same numbering, so the fleet can be compared ship against ship as well as call against call."
+    },
+    {
+      "q": "Does the programme cover scrubber and sea-water piping on cruise ships?",
+      "a": "Yes, and on cruise ships it is often the most closely watched module. Scrubber wash-water and overboard lines, sea-water cooling, fire mains, sprinkler mains and grey and black water lines are read at marked positions from inside the ship on repeat calls, and the sections losing wall thickness fastest are listed for spools before the next drydock."
+    },
+    {
+      "q": "Can tankers at Fawley be included in a programme?",
+      "a": "Yes, on the terminal's terms. Visits at Fawley cover deck, piping and accessible structure under the terminal's permit-to-work rules, and tanks are entered once the ship is gas-free and the terminal agrees. Tank modules for those tankers are usually placed at a docking or a gas-free period elsewhere and joined to the same record."
+    }
+  ]
+}
