@@ -206,7 +206,11 @@ const CURATED_LABELS = {
 // 2026-11-20: the careers pages are linked from /about and the footer; they get no related-reading block
 // and are not used to fill other pages' blocks.
 const URL_ONLY_PAGES = new Set(['/privacy-policy']);
-const noRescue = (p) => URL_ONLY_PAGES.has(p) || p === '/careers' || p.startsWith('/careers/');
+// 2026-11-23 (owner: no pricing wording on the report validation pages): the report validation hub and its section
+// pages get no related-reading block (some rescue targets carry 'pricing' in their titles) and are not used as targets
+// (the hub links every one of them).
+const RV_SECTION_PATHS = new Set(['/report-validation', ...JSON.parse(readFileSync(new URL('../src/data/report-validation-section/list.json', import.meta.url), 'utf8')).pages.map((r) => '/report-validation/' + r.slug)]);
+const noRescue = (p) => URL_ONLY_PAGES.has(p) || p === '/careers' || p.startsWith('/careers/') || RV_SECTION_PATHS.has(p);
 
 export function rescueOrphans(routes, { linksPerPage = 6 } = {}) {
   const indexable = routes.filter((r) => !r.path.includes(':') && !r.path.includes('*') && !r.noindex && r.bodyContent && !noRescue(r.path));
