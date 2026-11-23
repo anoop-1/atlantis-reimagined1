@@ -1,0 +1,134 @@
+{
+  "port": "singapore",
+  "service": "pre-purchase-inspection",
+  "title": "Pre-Purchase Ship Inspection Singapore | Anchorage & Yards",
+  "description": "Pre-purchase inspection of second-hand ships in Singapore: buyer's surveys at the anchorages during bunker stops, at terminals and in repair yards.",
+  "h1": "Buying a Second-Hand Ship in Singapore: Condition Inspection at Anchor, Berth or Yard",
+  "intro": "Singapore is where many buyers first set foot on the ship they are negotiating for. Tankers, bulk carriers, feeders and gas carriers stop at the Eastern and Western anchorages for fuel, crew and stores, so a seller can offer an inspection without changing the voyage, and the buyer's superintendent, broker and class contacts are usually in the city already. Atlantis fits a measured pre-purchase inspection into that stop: structure and coatings, spot thickness readings, crack checks and machinery condition readings. The team flies in from India for each job and goes out to the ship by launch.",
+  "highlights": [
+    {
+      "h": "Inspected during a stop she makes anyway",
+      "p": "Most ships viewed in Singapore are not working cargo: they are bunkering, changing crew or waiting for orders. The inspection plan is built around that stay, with the spaces most likely to change the buyer's view entered first in case the ship sails early."
+    },
+    {
+      "h": "Scrubber lines checked while idle",
+      "p": "Open-loop wash-water discharge is not allowed in Singapore port waters, so a scrubber-fitted ship at anchor usually has its system shut down or on closed loop. That is the buyer's chance to look at wash-water piping and overboard connections that the seller's records rarely describe."
+    },
+    {
+      "h": "Superintendents and records close at hand",
+      "p": "Buyers' technical teams, brokers and the major classification societies all work in Singapore. A superintendent can join the launch in the morning and go through the day's findings in the afternoon, while class records released by the seller are read alongside the readings."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-singapore",
+      "h": "Where can a buyer inspect a ship in Singapore waters?",
+      "p": [
+        "The anchorages carry most of the work. A ship lying in the Eastern or Western anchorage for bunkers or a crew change is boarded by launch, usually from Marina South Pier for the eastern side and West Coast Pier for the western, booked by the seller's agent. In ballast she can open her holds and ballast tanks; a tanker can show cargo tanks only if she has been gas-freed, which is rare on a ship that is still trading.",
+        "Berths give less. At the PSA container terminals and Tuas Port the crane plan rules, cargo stays on board and the buyer sees deck, coamings, lashing areas and the engine room. Product and chemical tankers at the Jurong Island terminals work under terminal safety rules, so the inspection stays on deck and in the machinery spaces. The repair yards at Tuas, Benoi and the Seatrium sites are the opposite case: a ship docked or at a repair quay before delivery may be cleaned, staged and lit, and her bottom can be seen while she is dry.",
+        "Ships lying outside port limits, waiting for employment or for the sale itself, need separate thought. They may sit in another state's waters, where launches, boarding formalities and immigration rules differ, and the agent must confirm what is permitted before the team goes out."
+      ],
+      "list": [
+        "Eastern and Western anchorages: holds, ballast tanks, deck and engine room on ships stopping for bunkers, crew or stores",
+        "PSA terminals and Tuas Port: deck, hatch coamings and machinery readings on container ships during the berth call",
+        "Jurong Island terminals: deck structure, piping and engine room on chemical and product tankers alongside",
+        "Tuas, Benoi and Seatrium repair yards: full access, including the bottom in dock, when the seller docks the ship before handover",
+        "Outside port limits: idle and waiting ships, once the agent has confirmed the boarding arrangements"
+      ]
+    },
+    {
+      "id": "ships-sold-here",
+      "h": "Which second-hand ships do buyers inspect at Singapore?",
+      "p": [
+        "Tankers make up a large share. Aframax and LR2 crude and product tankers on Asian and Middle East trades, MR product tankers serving regional refineries and chemical tankers working out of Jurong Island all pass through, and many reach the age at which oil-major vetting and the third renewal survey start to shape a buyer's plans. Their ballast tanks, deck plating and pipe runs on deck tell the buyer most about what is coming.",
+        "Bulk carriers stop on passage between the Indian Ocean and the Far East, so Supramax, Ultramax and Panamax ships are often viewed at anchor while they bunker. Feeder container ships, LPG carriers and offshore support vessels between contracts change hands here too. Singapore also has its own resale market in harbour craft: bunker tankers move between local operators, and a buyer taking one over inherits a hull that has spent years coming alongside other ships in every weather.",
+        "The common thread is the buyer's real question: will she pass the next survey and the next vetting without heavy steelwork? A short anchorage stop cannot answer that completely, so the scope goes first to the areas where that question is usually decided."
+      ]
+    },
+    {
+      "id": "fitting-the-stop",
+      "h": "How does a pre-purchase inspection fit a Singapore bunker or crew-change stop?",
+      "p": [
+        "The length of the stop decides the scope, so the first question to the broker is how long the ship will stay at anchor and what she is doing there. During bunkering the master restricts deck movement near the manifold and may hold enclosed-space entries until the hoses are disconnected, so tank work is planned before or after the bunker barge is alongside. Crew-change days bring extra launches and paperwork, and the officers are busy, which is worth knowing before the inspection is booked for the same morning.",
+        "Sequence follows what could close first. Holds and ballast tanks prepared for entry are done while their permits are valid; the deck, coamings and hatch covers follow; machinery readings are taken while the generators, pumps and compressors run at anchor, since the main engine is stopped. Records are read on board with the chief engineer and the master in the hours when nothing else can be reached.",
+        "Weather in the Strait is usually workable, but squalls can halt launch transfers for a while, and heat and humidity inside ballast tanks limit how long a technician can stay in one space. A sound plan allows for both and carries a short reserve list of extra spaces in case the ship's stay is extended."
+      ]
+    },
+    {
+      "id": "findings-singapore",
+      "h": "What do buyers usually learn from ships inspected in Singapore?",
+      "p": [
+        "On mid-life tankers, the usual findings are coating breakdown in the upper parts of double-hull ballast tanks and along stiffener edges, pitting in the bottom of ballast spaces and wastage of deck pipe supports. On bulk carriers that have bunkered on the way from their loading port, holds show grab damage to hopper plating, distorted frames and corroded lower brackets, and the hatch cover packing and drain channels show how carefully the covers have been kept.",
+        "Scrubber-fitted ships deserve a separate line in the report. With the system idle at anchor, readings on the wash-water lines near bends and valves, and a look at the overboard connection from inside, show whether the seller's years of operation have eaten into the piping. On bunker tankers, side shell indentations from repeated berthing, damage to fender supports and corrosion in cargo pipelines are the usual items. Engine room readings complete the picture: generator bearings, pump couplings and switchboard hot spots found under load.",
+        "Every finding is located, photographed and graded by how much it matters to the decision, so the buyer can tell a point worth raising with the seller from a simple observation."
+      ]
+    },
+    {
+      "id": "records-singapore",
+      "h": "Class records, flag and port state history for a ship bought in Singapore",
+      "p": [
+        "Class records still come through the classification society with the seller's authority; being in Singapore helps only because surveyors and managers sit in the same small city. Port state control results under the Tokyo MoU, including any MPA inspection at Singapore, are published and worth reading before the team boards, because an earlier detention for structural items tells the inspector where to look first.",
+        "Many ships viewed here fly the Singapore flag or will move to it after the sale. Flag change and registration are the buyer's legal steps, not part of the inspection, but a measured condition record taken at the time of sale is useful evidence to keep with the ship's papers. The readings serve the buyer's decision and the negotiation only: class credits thickness readings solely from firms its rules accept under IACS UR Z17, and Atlantis is still in the process of obtaining that approval from DNV, Lloyd's Register and ABS."
+      ]
+    },
+    {
+      "id": "example-mr-tanker",
+      "h": "Worked scope: an MR product tanker at the Eastern anchorage",
+      "p": [
+        "Take an MR product tanker in her late teens, stopping at the Eastern anchorage for bunkers and a crew change, with the buyer allowed a single visit. Her cargo tanks are not gas-free, so the plan leans on the ballast side: double-bottom and wing ballast tanks entered in pairs, coatings rated and spot readings taken on the bottom shell, inner bottom and upper wing areas where wastage usually starts.",
+        "On deck the team gauges plating along the cargo area, checks pipe supports and looks at the manifold and its supports. In the engine room, readings are taken on the generators, the hydraulic power packs and the ballast pumps where the chief engineer can run them, and the switchboard is surveyed thermally under load. Cargo tank condition is judged from the last thickness report and the class records, and the report says plainly that those tanks were not entered."
+      ]
+    }
+  ],
+  "vessels": [
+    "Aframax and LR2 crude and product tankers",
+    "MR product and chemical tankers",
+    "Supramax, Ultramax and Panamax bulk carriers",
+    "Feeder container ships",
+    "LPG carriers",
+    "Singapore harbour bunker tankers",
+    "Offshore support vessels between contracts"
+  ],
+  "codes": [
+    "Norwegian Saleform (NSF 2012) Clause 4 – the buyers' inspection",
+    "IACS UR Z10.1 and Z10.4 – hull surveys of oil tankers and double-hull oil tankers",
+    "IACS UR Z10.2 – hull surveys of bulk carriers",
+    "IACS UR Z7 – hull classification surveys and the coating condition terms",
+    "MARPOL Annex VI regulation 14 – sulphur limits and exhaust gas cleaning systems",
+    "ASTM E797 – ultrasonic thickness measurement by the manual pulse-echo contact method"
+  ],
+  "deliverables": [
+    "Condition of each hold, tank and deck area seen at anchor, with coating ratings and located photographs",
+    "Spot thickness readings set against as-built or last class values",
+    "Scrubber wash-water and overboard piping readings where the system was idle",
+    "Hatch cover, deck machinery and crack-check findings",
+    "Machinery vibration and thermal readings with the load at the time",
+    "Spaces not inspected during the stop, with the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "Can a pre-purchase inspection be done at a Singapore anchorage while the ship bunkers?",
+      "a": "Yes, and it is the most common setting. Tank and hold entries are planned around the bunker barge, because the master may suspend enclosed-space work while hoses are connected. Deck, hatch cover and machinery work carries on throughout. Tell us the expected anchorage period and the bunker schedule if the agent has it, and the plan puts the spaces that matter most to the buyer at the front."
+    },
+    {
+      "q": "Can you inspect a ship waiting outside Singapore port limits?",
+      "a": "Often, but it takes more arranging. A ship outside port limits may lie in another state's waters, launches leave from different places, and boarding and immigration rules differ. The seller's agent has to confirm what is permitted before the team sails. If the ship is due into a Singapore anchorage anyway, inspecting her there is usually simpler and leaves more time on board."
+    },
+    {
+      "q": "Is the scrubber included in a Singapore pre-purchase inspection?",
+      "a": "It can be. Because open-loop discharge is banned in Singapore port waters, the scrubber is normally shut down or on closed loop at anchor, which allows the wash-water and discharge piping to be gauged and the overboard connection examined from inside the ship. The seller still has to agree, and the chief engineer decides which valves and covers may be touched."
+    },
+    {
+      "q": "Can the buyer's superintendent attend the inspection in Singapore?",
+      "a": "Yes, and many do, since buyers' technical teams are often based in the city. The superintendent joins the launch, agrees priorities with the team on board and sees findings as they emerge. That makes the visit more useful: a crack or a thin plate can be discussed with the person who will advise the buyer while the ship is still at anchor."
+    },
+    {
+      "q": "We are buying a Singapore bunker tanker. What should the inspection cover?",
+      "a": "Side shell where she comes alongside other ships, fender supports and the structure behind them, cargo tanks if they can be gas-freed, cargo pipelines and hose-handling cranes on deck, ballast tanks, and the engine room under load. Harbour craft have short gaps between jobs, so ask the seller for a planned maintenance stop, when tanks can be opened and machinery run for readings."
+    },
+    {
+      "q": "How much notice does the team need for a ship at Singapore?",
+      "a": "Enough for the visas. Indian passport holders need a visa to enter Singapore, and any pass the assignment requires is checked before travel. Send the vessel name, the expected anchorage window and the buyer's priorities as soon as the inspection is agreed in principle; if the ship's dates move, the plan moves with them. Email info@atlantisndt.com or use the enquiry form."
+    }
+  ]
+}
