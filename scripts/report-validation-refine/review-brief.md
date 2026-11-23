@@ -1,0 +1,11 @@
+# Reviewer brief — NDT report validation pages
+
+You are the independent fact reviewer for pages you did not write. Files: `src/data/report-validation-section/pages/{slug}.json` (and `root.json` for the hub when it is in your list). Read `scripts/report-validation-refine/page-brief.md` first: every rule there applies.
+
+For each page:
+1. **Facts.** Check every named facility, operator, owner, regulator, agency, standard edition, clause/table/appendix number and numeric limit against an official or primary source found through WebSearch (fetch only URLs a WebSearch returned). Check CURRENT ownership and operating status (closures, conversions to renewable fuels, mergers, renamings — e.g. KIPIC folded into KNPC in 2026, Deer Park owned by PEMEX, LyondellBasell Houston refinery closed 2025, Phillips 66 Los Angeles refinery closed late 2025, U.S. Steel owned by Nippon Steel since June 2025). Correct errors in place. If a fact cannot be verified, rewrite the sentence without it (describe the requirement without the number) rather than leaving it.
+2. **Rules.** Remove anything that breaks the brief: pricing words; presence claims (offices are Houston and Hyderabad only — Houston is a real office); time promises other than "we reply within one business day"; Level III claims outside UT, RT, MT, PT, VT; claims of work for named companies or plants; Appendix B/NQA-1 supplier claims; class-approval wording; FFS/remaining-life or inspector-of-record offers; any US radiography offer; sanctioned countries/companies (Russia, Venezuela, Iran, CITGO, PDVSA, Lukoil, Rosneft, Nayara); incident or accident narratives at named facilities; North Carolina; NAS 410; the founder's name; superlatives; statistics about Atlantis.
+3. **Quality.** The page must read as written for its subject (a city page must be about that place). Fix awkward or generic passages, but keep each page at 2,000+ words of its own copy and keep the structure.
+4. Re-run `node scripts/report-validation-section-2026-11.mjs --check <slugs>` until every page prints ✓ (no sentence of 10+ words may repeat another page).
+
+Report back briefly: per page, what you corrected (fact → correction, with source), what you removed as unverifiable, and the final own-word counts. Do not edit any file outside your list.

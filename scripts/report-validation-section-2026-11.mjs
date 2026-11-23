@@ -89,9 +89,9 @@ const FOUNDER_RX = new RegExp(['Raya', 'varapu|\\bour founder|\\bAnoop\\b'].join
 
 export const RV_BANNED = [
   [/[$£€₹¥]\s?\d|\b(?:usd|eur|gbp|aed|sar|inr|qar|kwd|omr|bhd)\s?\d|\bprices?\b|\bpricing\b|\bpriced\b|\bfees?\b|\bday[- ]rates?\b|\bhourly rates?\b|\bdiscount|cost[- ]effective|\bcheap|low[- ]cost|\baffordable\b|\bbudget[- ]friendly|\bfree (?:review|consultation|quote)\b/i, 'price wording (owner: no pricing on these pages)'],
-  [/\b[Oo]ur (?:local|regional|[A-Z][a-z]+) (?:office|team|base|lab)\b|\b[Ll]ocal office\b|\b[Oo]ffice in (?!Houston|Hyderabad)|\b[Oo]ur office\b|\b[Ss]ubsidiar|\b[Oo]ur agents?\b|\b[Oo]ur partners? in\b|\b[Oo]ur (?:lab|laboratory|branch)\b|\bbased in (?!Houston|Hyderabad)[A-Z]/, 'local presence'],
+  [/\b[Oo]ur (?:local|regional|[A-Z][a-z]+) (?:office|team|base|lab)\b|\b[Ll]ocal office\b|\b[Oo]ffice in (?!Houston|Hyderabad)|\b[Oo]ur office\b|\b(?:[Oo]ur|Atlantis(?:['’]s)?) subsidiar|\b[Oo]ur agents?\b|\b[Oo]ur partners? in\b|\b[Oo]ur (?:lab|laboratory|branch)\b|\bbased in (?!Houston|Hyderabad)[A-Z]/, 'local presence'],
   [/24\/7|\bguarantee|state[- ]of[- ]the[- ]art|cutting[- ]edge|world[- ]class|look no further|team of level iiis?|industry[- ]leading|\bbest[- ]in[- ]class\b|\bsame[- ]day\b|within \d+ (?:hours?|days?|business days?)\b(?<!within 1 business day)|\b\d+[- ](?:hour|day) turnaround|turnaround (?:of|in) \d/i, 'banned phrase or time promise (only "we reply within one business day" is allowed)'],
-  [/\b(?:the )?(?:first|only|best|leading|#1|top)\b[^.]{0,30}\b(?:provider|company|companies|firm|consultan\w*|choice|reviewers?)\b/i, 'superlative'],
+  [/\b(?:the )?(?:first|only|best|leading|#1|top)\b[^.]{0,30}\b(?:provider|company|companies|firm|consultan\w*|choice)\b/i, 'superlative'],
   [/\bRussia|\bRussian\b|\bVenezuela|\bIran\b|\bIranian\b|\bCITGO\b|\bPDVSA\b|\bPdVSA\b|\bLukoil\b|\bRosneft\b|\bNayara\b/i, 'sanctioned country or company'],
   [/NAS[ -]?410|customer-specified aerospace standard|NANDTB/i, 'NAS 410 / hedge wording'],
   [/North Carolina|\bCharlotte\b|\bRaleigh\b|\bWilmington, NC\b/i, 'North Carolina (owner: report validation excludes North Carolina)'],
