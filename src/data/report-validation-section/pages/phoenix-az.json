@@ -1,0 +1,194 @@
+{
+  "title": "NDT Report Validation in Phoenix, AZ | Third-Party Review",
+  "description": "Independent third-party review of NDT reports and digital inspection data from Phoenix-area power plants, nuclear suppliers and structural steel, done remotely.",
+  "h1": "Independent review of NDT reports and inspection data for Phoenix and central Arizona",
+  "eyebrow": "Report validation · Phoenix, Arizona",
+  "intro": "Inspection records in central Arizona come from three very different places: the Palo Verde nuclear plant west of Phoenix and the suppliers that serve it, utility gas plants being built and expanded for rising demand, and very large construction projects such as the semiconductor campus taking shape in the Phoenix area. When a report from any of them has to be relied on, we review it independently against its procedure, its code and the program it serves, open the digital inspection data behind it, and set out in a written opinion what the evidence supports. Every review is done remotely, working from the records you choose to send.",
+  "highlights": [
+    {
+      "h": "Nuclear opinions framed for QA",
+      "p": "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list. Nuclear reviews are offered as an independent technical opinion that the licensee's quality assurance organisation decides how to use."
+    },
+    {
+      "h": "Construction records checked as they arrive",
+      "p": "New generating units and large building projects issue weld records in volume. Reviewing them in batches gets problems back to the contractor while the work is still open and the crew is still there."
+    },
+    {
+      "h": "Desert conditions in the record",
+      "p": "Surface temperature on sun-exposed steel affects penetrant and ultrasonic work. The review checks that each report shows the procedure covered the conditions on the day of examination."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Three streams of inspection records, three kinds of reader",
+      "p": [
+        "A Phoenix review request usually belongs to one of three families, and each has its own reader. Nuclear records are read by a licensee's engineers and quality assurance organisation, and potentially by the NRC. Power plant construction and outage records are read by utility engineers, the boiler inspector and the owner's insurer. Structural and building records are read by the engineer of record, the special inspector and the building official. The review is set up for whichever reader matters, because a record that satisfies one can still fail another.",
+        "What the three share is volume and schedule pressure. A refuelling outage, a new unit or a fab building all generate thousands of examination records in compressed periods, and the weak ones tend to be signed in the last days before a milestone. An independent reading at that point costs the owner little time and can save a dispute later."
+      ]
+    },
+    {
+      "h": "Palo Verde and the nuclear supply chain",
+      "p": [
+        "Palo Verde Nuclear Generating Station, in Maricopa County west of Phoenix, has three units operated by Arizona Public Service Company, which holds a 29.1 percent interest. The other owners are Salt River Project, Southern California Edison, El Paso Electric, Public Service Company of New Mexico, the Southern California Public Power Authority and the Los Angeles Department of Water and Power. Reactor licensing rests with the NRC, whatever the state's own radiation program covers.",
+        "Atlantis claims no experience at Palo Verde or at any other plant, and the review is not supplied as safety-related work under an Appendix B program. Its place is beside the safety-related supply chain: an independent technical opinion on non-safety-related and balance-of-plant records, a second reading of a supplier's examination report before the licensee or a prime contractor accepts it, an outside view in a disagreement over how an indication was recorded or sized, or a supplier's own check of its NDT package before the customer's source inspector sees it. In every case the licensee's QA organisation decides whether and how the opinion is used.",
+        "Nuclear records answer to ASME Section III for construction and Section XI for inservice examination, applied through each plant's program commitments and the NRC's conditions in 10 CFR 50.55a. The review starts from the program basis, because an examination performed under one edition and judged against another will reach the wrong answer. Where Section XI ultrasonic examination required performance demonstration, the review checks that the qualification records cited cover the procedure, the configuration and the examiner; it neither replaces nor performs a demonstration."
+      ]
+    },
+    {
+      "h": "Gas generation: new units and outages",
+      "p": [
+        "Arizona's utilities are adding gas generation to meet rising load. APS's Redhawk expansion in Arlington, southwest of Phoenix, adds eight natural gas units totalling up to 397 megawatts, with construction expected to start in 2026 and completion estimated for fall 2027; APS says it is preparing for nearly 40 percent load growth by 2031. Salt River Project's Santan Generating Station near Gilbert runs natural gas combined-cycle units and was enlarged by an earlier expansion project.",
+        "New units bring construction records: piping weld examinations to ASME B31.1, boiler external piping to Section I where it applies, vendor data books for pressure equipment and post-weld heat treatment charts. Operating plants bring outage records: thickness surveys on heat recovery steam generator tubes and headers, high-energy piping weld examinations, and eddy current data from condenser and heat exchanger tubes.",
+        "Arizona's Boiler Safety Section, part of the Arizona Division of Occupational Safety and Health under the Industrial Commission, enforces the state's boiler rules for boilers, direct-fired steam-jacketed kettles and lined hot-water heaters. Certificate and in-service inspections are performed by third-party inspection agencies on the section's authorized list, and repairs follow the National Board Inspection Code. Those inspectors keep their role; the review concentrates on whether the NDT record underneath their acceptance is sound."
+      ]
+    },
+    {
+      "h": "Structural steel and very large construction projects",
+      "p": [
+        "TSMC's Arizona campus is planned to grow to ten fabs, two advanced packaging plants and a research centre on more than 1,100 acres; its first fab entered high-volume production in late 2024 and its second has finished construction. Projects of that size, together with the other large buildings rising across the Valley, generate structural steel weld records in very large numbers, and owners and contractors need to know the records will hold up to the special inspector and to any later dispute.",
+        "Structural records are read against AWS D1.1, the project specification and the special inspection program the building official approved. A reviewer checks that complete-joint-penetration welds called out for ultrasonic examination were examined over their full length, that the UT technique and acceptance criteria came from the right part of D1.1 for the connection type and loading, that magnetic particle and visual records identify the weld, the inspector and the date, and that rejected welds were repaired and re-examined. The special inspector and the engineer of record keep their authority; the review tells them what the NDT record supports.",
+        "Process piping inside a fab, with its high-purity and specialty gas systems, is commonly built to ASME B31.3 and the owner's own specifications. Those records are reviewed the same way: examination extent against the fluid service the piping was designed for, and acceptance criteria against the code edition named in the contract."
+      ]
+    },
+    {
+      "h": "Heat, temperature and the NDT record",
+      "p": [
+        "Summer heat in the Phoenix area is a technical issue for NDT, not only a comfort issue. Steel in direct sun runs hotter than the air around it, and several methods carry temperature limits that a report should show were respected. These are the points the review checks."
+      ],
+      "table": {
+        "head": [
+          "Method",
+          "Why temperature matters",
+          "What the report should show"
+        ],
+        "rows": [
+          [
+            "Liquid penetrant",
+            "ASME Section V sets a standard temperature range for penetrant examination; outside it, the procedure must be qualified for the temperature used",
+            "Part surface temperature at the time of examination and, where outside the standard range, the qualification behind the procedure"
+          ],
+          [
+            "Ultrasonic",
+            "Sound velocity and wedge behaviour change with temperature, so the calibration block should be close in temperature to the part",
+            "Block and part temperatures, or a statement that they were within the procedure's tolerance"
+          ],
+          [
+            "Magnetic particle",
+            "Wet suspensions and fluorescent materials have temperature limits set by the manufacturer and the procedure",
+            "Particle type and batch, and surface temperature where the procedure asks for it"
+          ],
+          [
+            "Visual",
+            "Bright sun is not the same as adequate viewing; glare, angle and shadow still decide what can be seen",
+            "Lighting and viewing conditions and any aids used, as the procedure requires"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Arizona programs behind the record",
+      "p": [
+        "Arizona runs its own occupational safety program: ADOSH is an OSHA-approved State Plan covering private and public employers, and it enforces process safety management wherever covered processes exist. Radioactive materials, including the sources used for industrial radiography, are licensed by the Bureau of Radiation Control in the Arizona Department of Health Services, because Arizona is an NRC Agreement State.",
+        "Atlantis does not perform industrial radiography in Arizona or anywhere else in the United States. Radiographs and digital radiography images produced by your licensed contractor are reviewed as documents: image quality indicators, identification, coverage, geometry and the interpretation recorded against each weld."
+      ]
+    },
+    {
+      "h": "Digital inspection data from Phoenix projects and plants",
+      "p": [
+        "Large construction projects in the Valley often run quality records through digital platforms: weld maps linked to inspection entries, photographs attached to each acceptance, and reports signed electronically on a tablet. Power plants hold encoded ultrasonic files from piping examinations, digital radiography images from construction and eddy current data from condenser outages. Nuclear records add the expectation that digital data can be reopened for the life of the plant.",
+        "A digital inspection review checks lineage and control. Do the files match the welds the report lists? Were the setup files those of the qualified procedure? Was image processing on DR files recorded? Can each electronic signature be traced to a qualified person, and is every revision of an issued report visible? On large projects, where many inspectors make thousands of entries, the review samples the record and reports the pattern of the gaps it finds, so the owner knows whether a problem is isolated or systemic.",
+        "Digital reporting itself can be reviewed too. If a contractor's platform generates reports from templates, a sample of exported reports shows whether they still carry what the governing code and the project specification require, and whether anything is being filled in automatically that should have been recorded by a person."
+      ]
+    },
+    {
+      "h": "How a Phoenix review is carried out",
+      "p": [
+        "Atlantis keeps no staff or premises in Arizona. Our offices are in Houston and Hyderabad, and the review is done remotely on the reports, procedures, certificates and digital files you send through a secure transfer. For nuclear records, tell us at the enquiry about any restricted material; it stays out of the transfer unless your procedures allow it, and the opinion lists what was not seen. We reply within one business day, and the reply sets out a proposed scope and a quote.",
+        "The lead reviewer for UT, RT, MT, PT and VT work holds ASNT NDT Level III certification in all five. For eddy current and other techniques, the proposal names a reviewer whose certification meets the contract. Colleagues on the review team have worked in nuclear, maritime, oil and gas and petrochemical settings, which matters when a record has to satisfy a QA organisation as well as an engineer.",
+        "The opinion runs the seven checks every review uses and closes with one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Each finding cites the clause, table or procedure step it rests on and the evidence in the record."
+      ]
+    },
+    {
+      "h": "What the review leaves with others",
+      "list": [
+        "Atlantis does not act as Authorized Nuclear Inspector, authorized inspector or inspector of record for any equipment",
+        "Flaw evaluation, fitness-for-service and remaining-life calculations stay with the owner's or licensee's engineers",
+        "The review is not safety-related work under an Appendix B program, and it does not replace the licensee's acceptance of a supplier's deliverable",
+        "Personnel are not certified or recertified through the review; it reports whether the certificates on file covered the work",
+        "No review is offered for a project where Atlantis performed the examination"
+      ],
+      "p": [
+        "Stating these limits up front keeps the opinion usable inside a regulated program, where an overstated scope causes more trouble than a narrow one."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Palo Verde supplier use your review?",
+      "a": "That depends on the licensee's QA program. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list and claims no experience at the plant. A supplier can use an independent opinion to check its own package before submitting it, and the licensee's QA organisation decides whether the opinion has any role in its acceptance."
+    },
+    {
+      "q": "Can you review construction weld records for new generating units?",
+      "a": "Yes. Piping weld examinations, vendor data books and heat treatment records are reviewed against ASME B31.1, Section I where it applies and the project specification, and reviews can run in batches while construction continues."
+    },
+    {
+      "q": "Do you review structural UT reports to AWS D1.1?",
+      "a": "Yes. The review checks examination extent, technique and acceptance criteria against D1.1 and the project documents, and confirms that rejected welds were repaired and re-examined. The special inspector and engineer of record keep their authority."
+    },
+    {
+      "q": "How do you handle penetrant reports from very hot surfaces?",
+      "a": "We check whether the report records the surface temperature and, where it was outside ASME Section V's standard range, whether the procedure was qualified for that temperature. A report that is silent on temperature is reported as a documentation gap."
+    },
+    {
+      "q": "Do you review radiographs if Atlantis does not perform radiography in Arizona?",
+      "a": "Yes. Reviewing film radiographs and DR images produced by your licensed contractor is a document review, covering image quality, identification, coverage and interpretation, and it is part of this service."
+    },
+    {
+      "q": "Is any of the work done on site?",
+      "a": "No. Reviews are carried out remotely on the records and digital inspection data you transfer securely. If the record cannot support a decision, the opinion explains what field examination would settle it."
+    },
+    {
+      "q": "Who reviews condenser and heat exchanger eddy current data?",
+      "a": "Before any data move, the proposal identifies a reviewer whose eddy current certification matches what your contract asks for. Records in UT, RT, MT, PT and VT from the same outage are led by the ASNT NDT Level III who covers those five methods."
+    },
+    {
+      "q": "How do we send a report from Phoenix?",
+      "a": "Use the form on this page or email info@atlantisndt.com with the report type, method, code or program basis and the decision the review supports. We reply within one business day; once the scope and quote are agreed, the files reach us by secure transfer."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-arizona",
+      "NDT inspection services in Arizona"
+    ],
+    [
+      "/inspection-services-phoenix",
+      "NDT inspection services in Phoenix"
+    ],
+    [
+      "/ndt-training-phoenix",
+      "NDT training in Phoenix"
+    ],
+    [
+      "/consulting/ndt-consulting-phoenix",
+      "NDT consulting in Phoenix"
+    ],
+    [
+      "/ultrasonic-testing-phoenix",
+      "Ultrasonic testing in Phoenix"
+    ],
+    [
+      "/consulting/nuclear-ndt-consulting",
+      "Nuclear NDT consulting"
+    ]
+  ],
+  "sources": [
+    "https://www.govinfo.gov/content/pkg/FR-2026-05-18/html/2026-09881.htm",
+    "https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Reliability-upgrades/Redhawk-Expansion-Project",
+    "https://www.srpnet.com/grid-water-management/grid-management/santan-generating-station-reports-plans",
+    "https://www.enr.com/articles/63349-tsmc-arizona-megaprojec-grows-to-265-billion",
+    "https://azica.gov/adosh-boiler-safety-section",
+    "https://www.nrc.gov/agreement-states/arizona",
+    "https://www.osha.gov/stateplans"
+  ]
+}

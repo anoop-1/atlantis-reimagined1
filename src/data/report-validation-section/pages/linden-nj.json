@@ -56,14 +56,42 @@
         "The seven checks are the same for every report. This table shows how they translate for the record types that come out of Linden most often."
       ],
       "table": {
-        "head": ["Record", "Rule it answers to", "Opening question the reviewer asks"],
+        "head": [
+          "Record",
+          "Rule it answers to",
+          "Opening question the reviewer asks"
+        ],
         "rows": [
-          ["Process piping CML survey from a refinery unit", "API 570, OSHA PSM and, for covered processes, the TCPA records provision", "Can these readings be matched location for location with the last survey?"],
-          ["Vessel internal inspection report with repair welds", "API 510, the construction code and the National Board Inspection Code for the repair", "Were the repair welds examined after any heat treatment, to the method the repair plan required?"],
-          ["Exchanger tube eddy current or IRIS data", "The owner's tube inspection procedure and the contract", "Do the reference standards match the tube material and gauge, and was the whole bundle covered?"],
-          ["Terminal tank floor scan with UT prove-up", "API 653 and the owner's tank programme", "Which remaining thickness values came from prove-up and which from the screening tool alone?"],
-          ["Pipeline tie-in radiographs or DR images", "49 CFR Part 195 or 192, API 1104 and the operator's procedures", "Does each image show the required image quality evidence and tie to a weld on the as-built record?"],
-          ["Polypropylene unit corrosion map", "The plant's mechanical integrity programme", "Was the grid dense enough for the mechanism the plant expects, with datums that allow trending?"]
+          [
+            "Process piping CML survey from a refinery unit",
+            "API 570, OSHA PSM and, for covered processes, the TCPA records provision",
+            "Can these readings be matched location for location with the last survey?"
+          ],
+          [
+            "Vessel internal inspection report with repair welds",
+            "API 510, the construction code and the National Board Inspection Code for the repair",
+            "Were the repair welds examined after any heat treatment, to the method the repair plan required?"
+          ],
+          [
+            "Exchanger tube eddy current or IRIS data",
+            "The owner's tube inspection procedure and the contract",
+            "Do the reference standards match the tube material and gauge, and was the whole bundle covered?"
+          ],
+          [
+            "Terminal tank floor scan with UT prove-up",
+            "API 653 and the owner's tank programme",
+            "Which remaining thickness values came from prove-up and which from the screening tool alone?"
+          ],
+          [
+            "Pipeline tie-in radiographs or DR images",
+            "49 CFR Part 195 or 192, API 1104 and the operator's procedures",
+            "Does each image show the required image quality evidence and tie to a weld on the as-built record?"
+          ],
+          [
+            "Polypropylene unit corrosion map",
+            "The plant's mechanical integrity programme",
+            "Was the grid dense enough for the mechanism the plant expects, with datums that allow trending?"
+          ]
         ]
       }
     },
@@ -134,15 +162,31 @@
       "a": "Yes. Buyers usually send a structured sample: recent tank inspections, piping surveys and open recommendations. The opinion tells them how much of the record can support their own decisions."
     },
     {
+      "q": "Our contractor issues reports from a digital reporting platform with electronic signatures. Do you check that part?",
+      "a": "Yes. Alongside the raw data files, the review looks at the template revision, who applied each electronic signature and whether they were authorised to, whether the time stamps fit the dates of work, and whether any fields were carried over from a previous job."
+    },
+    {
       "q": "What does the written opinion contain?",
       "a": "A verdict for each report, the findings behind it with the clause or procedure step and the evidence for each, and a list of what would close any gap."
     }
   ],
   "related": [
-    ["/inspection-services-new-jersey", "Inspection services in New Jersey"],
-    ["/consulting/ndt-consulting-linden", "NDT consulting in Linden"],
-    ["/ndt-training-new-jersey", "NDT training in New Jersey"],
-    ["/ultrasonic-testing-newark", "Ultrasonic testing in Newark"]
+    [
+      "/inspection-services-new-jersey",
+      "Inspection services in New Jersey"
+    ],
+    [
+      "/consulting/ndt-consulting-linden",
+      "NDT consulting in Linden"
+    ],
+    [
+      "/ndt-training-new-jersey",
+      "NDT training in New Jersey"
+    ],
+    [
+      "/ultrasonic-testing-newark",
+      "Ultrasonic testing in Newark"
+    ]
   ],
   "sources": [
     "https://njbia.org/wp-content/uploads/2025/11/2025-Bayway-Project-FINAL.pdf",
