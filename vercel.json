@@ -1444,7 +1444,7 @@
     },
     {
       "source": "/consulting/rbi-program-design",
-      "destination": "/consulting",
+      "destination": "/inspection/risk-based-inspection",
       "statusCode": 301
     },
     {
