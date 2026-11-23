@@ -33,13 +33,43 @@
         "All seven checks run on every report: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. What changes from one record stream to the next is the document the reviewer asks for before anything else, because that is usually where the record either holds together or falls apart."
       ],
       "table": {
-        "head": ["Record stream", "Where it comes from", "Typical contents", "What the reviewer asks for first"],
+        "head": [
+          "Record stream",
+          "Where it comes from",
+          "Typical contents",
+          "What the reviewer asks for first"
+        ],
         "rows": [
-          ["Refinery turnaround and on-stream inspection", "The Detroit refinery's crude, coking, hydrotreating and sour water units", "API 510 vessel and API 570 piping reports, CML thickness data, PAUT on repair welds, CR images of small-bore connections", "The revision of the owner's inspection plan in force and an extract of the CML records the readings were filed against"],
-          ["Nuclear outage and vendor records", "Fermi 2 outage contractors and suppliers shipping components for it", "UT and PT on components, visual examination records, vendor data books, calibration files", "The purchase order's code and acceptance references, and how the licensee's QA group means to use the opinion"],
-          ["Utility boiler and power piping", "DTE's Monroe and Belle River plants and the Blue Water Energy Center", "Waterwall and superheater thickness surveys, HRSG and B31.1 weld records, MT on headers and attachments", "The construction code edition the work claims, and who the owner designated as inspector for the power piping"],
-          ["Shop fabrication", "Vessel, exchanger, skid and structural steel shops around Wayne, Oakland and Macomb counties", "Manufacturer's data books, radiographs or DR images, UT used in place of radiography, PMI and hardness logs", "The weld map and the purchase order, so every joint can be matched to an examination"],
-          ["Pipelines", "Gas transmission and distribution under the state program, liquid lines under PHMSA", "Girth weld images and interpretations, dig reports, wall thickness and pit depth data", "The alignment sheet and the acceptance standard named in the operator's procedures"]
+          [
+            "Refinery turnaround and on-stream inspection",
+            "The Detroit refinery's crude, coking, hydrotreating and sour water units",
+            "API 510 vessel and API 570 piping reports, CML thickness data, PAUT on repair welds, CR images of small-bore connections",
+            "The revision of the owner's inspection plan in force and an extract of the CML records the readings were filed against"
+          ],
+          [
+            "Nuclear outage and vendor records",
+            "Fermi 2 outage contractors and suppliers shipping components for it",
+            "UT and PT on components, visual examination records, vendor data books, calibration files",
+            "The purchase order's code and acceptance references, and how the licensee's QA group means to use the opinion"
+          ],
+          [
+            "Utility boiler and power piping",
+            "DTE's Monroe and Belle River plants and the Blue Water Energy Center",
+            "Waterwall and superheater thickness surveys, HRSG and B31.1 weld records, MT on headers and attachments",
+            "The construction code edition the work claims, and who the owner designated as inspector for the power piping"
+          ],
+          [
+            "Shop fabrication",
+            "Vessel, exchanger, skid and structural steel shops around Wayne, Oakland and Macomb counties",
+            "Manufacturer's data books, radiographs or DR images, UT used in place of radiography, PMI and hardness logs",
+            "The weld map and the purchase order, so every joint can be matched to an examination"
+          ],
+          [
+            "Pipelines",
+            "Gas transmission and distribution under the state program, liquid lines under PHMSA",
+            "Girth weld images and interpretations, dig reports, wall thickness and pit depth data",
+            "The alignment sheet and the acceptance standard named in the operator's procedures"
+          ]
         ]
       }
     },
@@ -48,7 +78,7 @@
       "p": [
         "A crude slate weighted toward heavy sour grades shapes what a refinery's inspection plan has to cover. Hot hydrocarbon circuits face high-temperature sulfidation, overhead and sour water systems face wet hydrogen sulfide damage, and coking units add thermal cycling, erosion and fouling. The reports that come out of a turnaround reflect that: wall-loss surveys on high-temperature piping, wet fluorescent magnetic particle and angle-beam or phased array examinations for cracking in sour service vessels, and coke drum records that combine shell profiles with crack examination at the skirt attachment.",
         "The questions a reviewer asks are correspondingly specific. Was the thickness survey on a sulfidation circuit dense enough to catch localised loss, and do the readings tie to the CML numbers in the owner's database rather than to a contractor's own grid? Did the technique chosen for wet H2S cracking actually have the sensitivity to find it, and was the surface preparation recorded? Where phased array sized a crack-like indication, do the encoded files support the reported length and through-wall extent, and did the setup use the focal laws the procedure qualified? Those questions sit inside the seven checks; the crude slate decides which of them carries the most weight.",
-        "Most turnaround packages we see are sound in substance and untidy in paperwork. The opinion separates the two, so the owner can release items once a contractor corrects a document, and can send the few items with real technical doubt to an engineer before the unit comes back on line."
+        "Turnaround packages are often sound in substance and untidy in paperwork. The opinion separates the two, so the owner can release items once a contractor corrects a document, and can send the few items with real technical doubt to an engineer before the unit comes back on line."
       ]
     },
     {
@@ -94,7 +124,7 @@
     {
       "h": "Digital inspection data from Michigan sites",
       "p": [
-        "Very little of what reaches review from the region is paper any more. Refinery contractors load thickness readings into the owner's inspection data management system, outage contractors upload ultrasonic and visual results into the utility's work management tools, pipeline crews deliver digital radiography as DICONDE or vendor image files, and shops issue data books from digital reporting platforms with electronic signatures applied in batches. A PDF printed from any of these is the end of a chain, and the review follows the chain backwards.",
+        "Very little inspection data from the region is paper any more. Refinery contractors load thickness readings into the owner's inspection data management system, outage contractors upload ultrasonic and visual results into the utility's work management tools, pipeline crews deliver digital radiography as DICONDE or vendor image files, and shops issue data books from digital reporting platforms with electronic signatures applied in batches. A PDF printed from any of these is the end of a chain, and the review follows the chain backwards.",
         "For a thickness survey that means confirming which instrument file produced which reading and whether an imported value landed against the right CML. For encoded phased array it means opening the scan, checking the encoder calibration and the focal laws, and re-gating the indications the report dispositions. For a DR image it means checking that the stored file matches the reported weld and that any processing applied is what the procedure allows. For the digital report itself it means asking who signed, under which template revision, on what date, and whether any fields were carried forward automatically from an earlier job."
       ]
     },
@@ -110,7 +140,7 @@
   "faqs": [
     {
       "q": "Can you review a contractor's turnaround package from a Detroit refinery before restart?",
-      "a": "Yes. Most owners ask for a targeted sample rather than every report: repairs, borderline or rejectable findings, circuits in high-temperature or sour service, and work by contractors new to the site. The opinion separates paperwork that can be corrected from findings that affect whether an item can go back into service."
+      "a": "Yes. A targeted sample usually serves an owner better than every report: repairs, borderline or rejectable findings, circuits in high-temperature or sour service, and work by contractors new to the site. The opinion separates paperwork that can be corrected from findings that affect whether an item can go back into service."
     },
     {
       "q": "Does anyone from Atlantis need to come to our plant in Michigan?",
@@ -138,15 +168,30 @@
     },
     {
       "q": "A buyer has rejected our shop's data book. Can the review support our response?",
-      "a": "It can. We read the book against the code and the purchase order and classify each point the buyer raised as a genuine nonconformance, a documentation gap you can close, or a point that does not hold. Many shops send the opinion to the buyer as the basis for clearing the hold."
+      "a": "It can. We read the book against the code and the purchase order and classify each point the buyer raised as a genuine nonconformance, a documentation gap you can close, or a point that does not hold. A shop can send the opinion to the buyer as the basis for clearing the hold."
     }
   ],
   "related": [
-    ["/inspection-services-michigan", "Inspection services in Michigan"],
-    ["/inspection/third-party-inspection-detroit", "Third-party inspection in Detroit"],
-    ["/consulting/ndt-consulting-detroit", "NDT consulting in Detroit"],
-    ["/ndt-training-detroit", "NDT training in Detroit"],
-    ["/ultrasonic-testing-detroit", "Ultrasonic testing in Detroit"]
+    [
+      "/inspection-services-michigan",
+      "Inspection services in Michigan"
+    ],
+    [
+      "/inspection/third-party-inspection-detroit",
+      "Third-party inspection in Detroit"
+    ],
+    [
+      "/consulting/ndt-consulting-detroit",
+      "NDT consulting in Detroit"
+    ],
+    [
+      "/ndt-training-detroit",
+      "NDT training in Detroit"
+    ],
+    [
+      "/ultrasonic-testing-detroit",
+      "Ultrasonic testing in Detroit"
+    ]
   ],
   "sources": [
     "https://www.marathonpetroleum.com/Operations/Refining/Detroit-Refinery/",

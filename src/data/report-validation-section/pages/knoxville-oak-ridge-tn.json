@@ -33,11 +33,31 @@
         "The same ultrasonic weld report can be read three different ways in East Tennessee depending on where the weld ends up. Before testing a record, the reviewer establishes which regime it belongs to and who in that regime will decide what the opinion is worth."
       ],
       "table": {
-        "head": ["Regime", "Examples in the corridor", "Where quality requirements come from", "How an independent opinion is used"],
+        "head": [
+          "Regime",
+          "Examples in the corridor",
+          "Where quality requirements come from",
+          "How an independent opinion is used"
+        ],
         "rows": [
-          ["DOE nuclear facilities", "Y-12, Oak Ridge National Laboratory and DOE cleanup work", "10 CFR 830 Subpart A and the contractor's DOE-approved quality assurance program, which must show how subcontractors and suppliers meet its criteria", "As technical input the contractor's QA organisation evaluates under its own program"],
-          ["NRC-licensed construction and operation", "Kairos Hermes, TRISO-X TX-1, TVA Clinch River and Watts Bar", "The licensee's or permit holder's quality assurance program, the codes and code cases it invokes, and project specifications", "As a second opinion the licensee's QA organisation decides whether and how to use"],
-          ["Fossil and gas generation", "TVA Kingston and the plant's new combined cycle and turbine units", "ASME Section I, Section VIII and B31.1, the purchase orders and the owner's inspection program", "As an independent reading of NDE records for the owner, the engineer or the repair organisation"]
+          [
+            "DOE nuclear facilities",
+            "Y-12, Oak Ridge National Laboratory and DOE cleanup work",
+            "10 CFR 830 Subpart A and the contractor's DOE-approved quality assurance program, which must show how subcontractors and suppliers meet its criteria",
+            "As technical input the contractor's QA organisation evaluates under its own program"
+          ],
+          [
+            "NRC-licensed construction and operation",
+            "Kairos Hermes, TRISO-X TX-1, TVA Clinch River and Watts Bar",
+            "The licensee's or permit holder's quality assurance program, the codes and code cases it invokes, and project specifications",
+            "As a second opinion the licensee's QA organisation decides whether and how to use"
+          ],
+          [
+            "Fossil and gas generation",
+            "TVA Kingston and the plant's new combined cycle and turbine units",
+            "ASME Section I, Section VIII and B31.1, the purchase orders and the owner's inspection program",
+            "As an independent reading of NDE records for the owner, the engineer or the repair organisation"
+          ]
         ]
       }
     },
@@ -137,11 +157,26 @@
     }
   ],
   "related": [
-    ["/ndt-training-knoxville", "NDT training in Knoxville"],
-    ["/ndt-training-oak-ridge", "NDT training in Oak Ridge"],
-    ["/nuclear-ndt-training-oak-ridge", "Nuclear NDT training in Oak Ridge"],
-    ["/ultrasonic-testing-knoxville", "Ultrasonic testing in Knoxville"],
-    ["/ndt-training-tennessee", "NDT training in Tennessee"]
+    [
+      "/ndt-training-knoxville",
+      "NDT training in Knoxville"
+    ],
+    [
+      "/ndt-training-oak-ridge",
+      "NDT training in Oak Ridge"
+    ],
+    [
+      "/nuclear-ndt-training-oak-ridge",
+      "Nuclear NDT training in Oak Ridge"
+    ],
+    [
+      "/ultrasonic-testing-knoxville",
+      "Ultrasonic testing in Knoxville"
+    ],
+    [
+      "/ndt-training-tennessee",
+      "NDT training in Tennessee"
+    ]
   ],
   "sources": [
     "https://www.energy.gov/nnsa/articles/national-nuclear-security-administration-system-management-and-operating-contracts",
@@ -155,6 +190,8 @@
     "https://www.nrc.gov/agreement-states/tennessee",
     "https://www.tn.gov/workforce/employers/safety---health/regulations-compliance/regulations---compliance-redirect/boiler-unit.html",
     "https://lwdsupport.tn.gov/hc/en-us/articles/360000141427-Can-Deputy-state-Inspectors-or-Special-insurance-Inspectors-perform-the-same-certificate-inspection",
-    "https://www.osha.gov/stateplans/tn"
+    "https://www.osha.gov/stateplans/tn",
+    "https://www.nrc.gov/about-nrc/news-releases/2026/26-079",
+    "https://kairospower.com/updates/kairos-power-breaks-ground-on-hermes-2-demonstration-plant"
   ]
 }

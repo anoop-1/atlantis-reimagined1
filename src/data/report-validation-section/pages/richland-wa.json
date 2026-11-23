@@ -5,23 +5,32 @@
   "eyebrow": "Report validation · Richland and the Tri-Cities, Washington",
   "intro": "Richland grew up around nuclear work and still lives by it. The Hanford Site's tank farms and treatment plants, Energy Northwest's Columbia Generating Station, a nuclear fuel factory and a national laboratory all sit within a short drive, and their inspection records are expected to last for decades and stand up to federal and state scrutiny. Hydropower on the lower Snake and steel structures across the Tri-Cities add their own reports. We give owners, contractors and suppliers an independent review of those reports and the digital inspection data behind them, checked against the procedure and code that governed the work, and carried out remotely from what you send.",
   "highlights": [
-    {"h": "Records meant to last decades", "p": "Hanford and Columbia records may be compared with examinations made ten or twenty years apart. The review checks whether today's report can be read against yesterday's, and whether tomorrow's reviewer will be able to read it at all."},
-    {"h": "DOE, NRC and state rules sorted", "p": "A Hanford contractor record, a Columbia outage report and a boiler repair in Kennewick answer to different authorities. The opinion identifies the one that applied before any finding is written."},
-    {"h": "An outside reader on purpose", "p": "We never review work we examined ourselves and have no stake in the verdict. Atlantis is not on any licensee's or DOE contractor's approved supplier list, so each opinion is offered as independent advice the owner decides how to use."}
+    {
+      "h": "Records meant to last decades",
+      "p": "Hanford and Columbia records may be compared with examinations made ten or twenty years apart. The review checks whether today's report can be read against yesterday's, and whether tomorrow's reviewer will be able to read it at all."
+    },
+    {
+      "h": "DOE, NRC and state rules sorted",
+      "p": "A Hanford contractor record, a Columbia outage report and a boiler repair in Kennewick answer to different authorities. The opinion identifies the one that applied before any finding is written."
+    },
+    {
+      "h": "An outside reader on purpose",
+      "p": "We never review work we examined ourselves and have no stake in the verdict. Atlantis is not on any licensee's or DOE contractor's approved supplier list, so each opinion is offered as independent advice the owner decides how to use."
+    }
   ],
   "sections": [
     {
       "h": "Where Richland's inspection records come from",
       "p": [
-        "The Department of Energy runs Hanford through the Hanford Field Office, created in late 2024 when DOE merged its Richland Operations Office with the Office of River Protection. Tank farm operations, including retrieval and closure of single-shell tanks, are carried out under the Integrated Tank Disposition Contract awarded in February 2024 to Hanford Tank Waste Operations and Closure, a company formed by BWXT, Amentum and Fluor; that contract also covers waste receiving and treatment facilities and operation of the Waste Treatment and Immobilization Plant. The plant's Low-Activity Waste Facility, with two melters, has been in extended hot commissioning since October 2025 under the Bechtel-led team that designed and built it.",
+        "The Department of Energy runs Hanford through the Hanford Field Office, created in October 2024 when DOE merged its Richland Operations Office with the Office of River Protection. Tank farm operations, including retrieval and closure of single-shell tanks, are carried out under the Integrated Tank Disposition Contract awarded in February 2024 to Hanford Tank Waste Operations and Closure, a company formed by BWXT, Amentum and Fluor; that contract also covers waste receiving and treatment facilities and operation of the Waste Treatment and Immobilization Plant. The plant's Low-Activity Waste Facility, with two melters, has been in extended hot commissioning since October 2025 under the Bechtel-led team that designed and built it.",
         "North of the city, Energy Northwest operates Columbia Generating Station, the Pacific Northwest's only commercial nuclear plant: a General Electric Type 5 boiling water reactor with a Mark II containment, licensed to operate until December 2043 and overseen by NRC Region IV. Framatome's Richland plant has made nuclear fuel for nearly half a century, turning uranium dioxide powder into pellets, rods and finished assemblies for both pressurized and boiling water reactors. Pacific Northwest National Laboratory, managed and operated by Battelle for DOE, carries out nondestructive examination research that includes robotic ultrasonic crawlers for Hanford's tanks.",
-        "Each of these organisations generates, buys or reviews NDT records. Their suppliers, subcontractors and the engineers who must accept their work generate many more. That is the population from which most Richland requests for an independent review come."
+        "Each of these organisations generates, buys or reviews NDT records. Their suppliers, subcontractors and the engineers who must accept their work generate many more. Between them, they hold most of the Tri-Cities NDT records that may one day need an independent reading."
       ]
     },
     {
       "h": "Double-shell tank ultrasonic data and the long view",
       "p": [
-        "Hanford's double-shell tanks are examined ultrasonically to assess the condition of their primary walls. Published descriptions of the programme explain that equipment is deployed through two 24-inch risers set roughly 180 degrees apart, that representative areas of the primary tank and the secondary liner are examined, and that the aim is to detect, characterise and record any wall thinning, pitting or cracks, with reassessment on an eight-to-ten-year cycle and integrity judged against Brookhaven National Laboratory guidelines. PNNL's more recent work uses robotic crawlers to reach tank bottoms and sidewalls through small access slots.",
+        "Hanford's double-shell tanks have long been examined ultrasonically to assess the condition of their primary walls. A Waste Management Symposia paper from 2015 described the programme as it stood then: equipment was deployed in the annulus through two 24-inch risers set roughly 180 degrees apart, representative areas of the primary tank and the secondary liner were examined, and the aim was to detect, characterise and record any wall thinning, pitting or cracks, with reassessment on an eight-to-ten-year cycle and integrity judged against Brookhaven National Laboratory guidelines. That paper placed the first examination round between 1996 and 2006 and a second round under way from 2007; how the programme runs today is for DOE and its contractors to describe. PNNL has since been testing robotic crawlers that use sound waves to assess tank bottoms and sidewalls through small access slots.",
         "Data of this kind raises review questions that rarely arise elsewhere. Coverage is constrained by access, so the report must state exactly which areas were examined and which were not, rather than implying that a representative sample describes the whole tank. Comparisons between examination rounds depend on locating the same areas again and on knowing how the older equipment and the newer equipment differ in sensitivity and sizing. Pit depth and crack length records must say how they were measured, because a change between rounds may reflect the technique rather than the tank.",
         "Records like these belong to DOE and its contractors, who decide how they are used. What an independent review can offer a contractor, a subcontractor or an engineer is a reading of the report and the encoded data from someone outside the programme, with each observation tied to the procedure step or guideline it rests on."
       ]
@@ -45,7 +54,7 @@
       "h": "Power: a nuclear uprate and new turbines on the Snake",
       "p": [
         "Columbia is heading into a period of heavy modification work. In May 2025 the Bonneville Power Administration approved an extended power uprate that will add 162 megawatts by 2031, alongside efficiency upgrades during refuelling outages in 2027, 2029 and 2031. Uprates and the outages that carry them generate large volumes of weld examinations on new and modified piping, vendor data books for replacement components, and baseline examinations that later outages will be compared against. Getting those baselines right matters, because a weak baseline weakens every comparison made against it for the rest of the plant's licence.",
-        "On the lower Snake River near Pasco, the U.S. Army Corps of Engineers' Walla Walla District has been installing new turbines at Ice Harbor Lock and Dam, designed to improve fish passage, reduce oil leaks and generate more power. Hydro rehabilitation work produces magnetic particle and ultrasonic records on runners, shafts and embedded parts, weld repair records and dimensional and visual reports, each of which has to be traceable to the component and the outage it belongs to.",
+        "On the lower Snake River near Pasco, the U.S. Army Corps of Engineers' Walla Walla District has been replacing turbines at Ice Harbor Lock and Dam since 2018 with new fixed-blade and adjustable-blade units designed to improve fish passage, reduce oil leaks and generate more power. Hydro rehabilitation work produces magnetic particle and ultrasonic records on runners, shafts and embedded parts, weld repair records and dimensional and visual reports, each of which has to be traceable to the component and the outage it belongs to.",
         "Further ahead, Energy Northwest plans the Cascade Advanced Energy Facility near Columbia: up to twelve X-energy Xe-100 high-temperature gas-cooled modules, with four in the first phase, and Cascade Nuclear Partners, a joint venture of Aecon, Kiewit Nuclear Solutions and Black & Veatch, selected in October 2025 as design-builder. A construction permit application to the NRC is expected after the feasibility phase. Projects at that stage soon begin generating fabrication and supply chain records for review."
       ]
     },
@@ -62,14 +71,42 @@
         "The same contractor can produce records under several authorities in a single month. The table sets out the programs that most often shape a Tri-Cities NDT record and what the review checks in each case."
       ],
       "table": {
-        "head": ["Program", "What it covers", "What the review checks"],
+        "head": [
+          "Program",
+          "What it covers",
+          "What the review checks"
+        ],
         "rows": [
-          ["Washington Department of Labor and Industries, Boiler Program", "Permits before regulated boilers and unfired pressure vessels are installed, reinstalled or moved, and certificates of inspection issued by L&I", "That repair and alteration NDT was completed and recorded before the inspector's acceptance"],
-          ["Washington Department of Health, Office of Radiation Protection", "Agreement State licensing of radioactive materials, including industrial radiography sources", "That the radiographs came from a licensed contractor and that image quality and interpretation hold up"],
-          ["Washington DOSH", "Washington's OSHA-approved State Plan for private and public employers", "That mechanical integrity records at covered processes follow recognised good practice"],
-          ["Department of Ecology, WAC 173-303-640", "Integrity assessment of dangerous waste tank systems, certified by an independent registered engineer", "That the NDT inputs to the engineer's assessment are reliable and their coverage is stated honestly"],
-          ["NRC Region IV", "Columbia Generating Station and other licensed activities", "That records meet the licensee's programme and code requirements; acceptance stays with the licensee"],
-          ["DOE, 10 CFR 830", "Nuclear safety and quality assurance at Hanford", "That supplier records meet the contractor's approved QA programme; acceptance stays with the contractor"]
+          [
+            "Washington Department of Labor and Industries, Boiler Program",
+            "Permits before regulated boilers and unfired pressure vessels are installed, reinstalled or moved, and certificates of inspection issued by L&I",
+            "That repair and alteration NDT was completed and recorded before the inspector's acceptance"
+          ],
+          [
+            "Washington Department of Health, Office of Radiation Protection",
+            "Agreement State licensing of radioactive materials, including industrial radiography sources",
+            "That the radiographs came from a licensed contractor and that image quality and interpretation hold up"
+          ],
+          [
+            "Washington DOSH",
+            "Washington's OSHA-approved State Plan for private and public employers",
+            "That mechanical integrity records at covered processes follow recognised good practice"
+          ],
+          [
+            "Department of Ecology, WAC 173-303-640",
+            "Integrity assessment of dangerous waste tank systems, certified by an independent registered engineer",
+            "That the NDT inputs to the engineer's assessment are reliable and their coverage is stated honestly"
+          ],
+          [
+            "NRC Region IV",
+            "Columbia Generating Station and other licensed activities",
+            "That records meet the licensee's programme and code requirements; acceptance stays with the licensee"
+          ],
+          [
+            "DOE, 10 CFR 830",
+            "Nuclear safety and quality assurance at Hanford",
+            "That supplier records meet the contractor's approved QA programme; acceptance stays with the contractor"
+          ]
         ]
       }
     },
@@ -97,21 +134,60 @@
     }
   ],
   "faqs": [
-    {"q": "Can you review records for a Hanford contractor or supplier?", "a": "Yes, as an independent technical opinion. The review is not performed under any contractor's NQA-1 programme and Atlantis is not on an approved supplier list, so the contractor's quality organisation decides how the opinion is used and remains responsible for accepting supplier records."},
-    {"q": "Can you review double-shell tank ultrasonic data?", "a": "We can review an ultrasonic report and its encoded data for procedure compliance, coverage, calibration, indication characterisation and comparison with earlier rounds, where the owner permits the data to be shared. Integrity conclusions and any certification remain with the owner and the engineers responsible for them."},
-    {"q": "Do you work at Columbia Generating Station?", "a": "We claim no experience at Columbia and are not on Energy Northwest's approved supplier list. A vendor, a contractor or the licensee can ask for an independent review of records connected with the plant, and the licensee's quality organisation decides how to use it."},
-    {"q": "Our engineer must certify a tank system under WAC 173-303-640. Can you help?", "a": "The certification stays with the independent, qualified, registered professional engineer. We can review the inspection contractor's NDT records the engineer is relying on, and tell the engineer which readings and examinations are reliable and where coverage is narrower than the report suggests."},
-    {"q": "Do you review radiographs if Atlantis does not perform radiography in Washington?", "a": "Yes. Reviewing film, computed radiography and digital radiography produced by a contractor licensed through Washington's Office of Radiation Protection, or working under reciprocity, is a document review and part of this service."},
-    {"q": "Who reviews eddy current data from Tri-Cities outages?", "a": "A reviewer whose certification matches the method and the contract, named in the proposal. Our UT, RT, MT, PT and VT reviews are led by an ASNT NDT Level III certified in those five methods, and eddy current is not among them."},
-    {"q": "Can you check baseline examinations from uprate or construction work?", "a": "Yes. Baseline records are worth checking early, because later examinations are compared against them. The review confirms that procedure, technique, calibration, coverage and identification are good enough to serve as a reference for years to come."},
-    {"q": "How do we start a review from Richland?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, the method, the code or purchase order and what the review is for. We reply within one business day; if site rules limit what can be shared, mention that in the first message."}
+    {
+      "q": "Can you review records for a Hanford contractor or supplier?",
+      "a": "Yes, as an independent technical opinion. The review is not performed under any contractor's NQA-1 programme and Atlantis is not on an approved supplier list, so the contractor's quality organisation decides how the opinion is used and remains responsible for accepting supplier records."
+    },
+    {
+      "q": "Can you review double-shell tank ultrasonic data?",
+      "a": "We can review an ultrasonic report and its encoded data for procedure compliance, coverage, calibration, indication characterisation and comparison with earlier rounds, where the owner permits the data to be shared. Integrity conclusions and any certification remain with the owner and the engineers responsible for them."
+    },
+    {
+      "q": "Do you work at Columbia Generating Station?",
+      "a": "We claim no experience at Columbia and are not on Energy Northwest's approved supplier list. A vendor, a contractor or the licensee can ask for an independent review of records connected with the plant, and the licensee's quality organisation decides how to use it."
+    },
+    {
+      "q": "Our engineer must certify a tank system under WAC 173-303-640. Can you help?",
+      "a": "The certification stays with the independent, qualified, registered professional engineer. We can review the inspection contractor's NDT records the engineer is relying on, and tell the engineer which readings and examinations are reliable and where coverage is narrower than the report suggests."
+    },
+    {
+      "q": "Do you review radiographs if Atlantis does not perform radiography in Washington?",
+      "a": "Yes. Reviewing film, computed radiography and digital radiography produced by a contractor licensed through Washington's Office of Radiation Protection, or working under reciprocity, is a document review and part of this service."
+    },
+    {
+      "q": "Who reviews eddy current data from Tri-Cities outages?",
+      "a": "A reviewer whose certification matches the method and the contract, named in the proposal. Our UT, RT, MT, PT and VT reviews are led by an ASNT NDT Level III certified in those five methods, and eddy current is not among them."
+    },
+    {
+      "q": "Can you check baseline examinations from uprate or construction work?",
+      "a": "Yes. Baseline records are worth checking early, because later examinations are compared against them. The review confirms that procedure, technique, calibration, coverage and identification are good enough to serve as a reference for years to come."
+    },
+    {
+      "q": "How do we start a review from Richland?",
+      "a": "Use the form on this page or email info@atlantisndt.com with the report type, the method, the code or purchase order and what the review is for. We reply within one business day; if site rules limit what can be shared, mention that in the first message."
+    }
   ],
   "related": [
-    ["/inspection-services-washington", "Inspection services in Washington"],
-    ["/ndt-training-richland", "NDT training in Richland"],
-    ["/consulting/nuclear-ndt-consulting", "Nuclear NDT consulting"],
-    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
-    ["/report-validation/phased-array-data-review-paut", "PAUT data review"]
+    [
+      "/inspection-services-washington",
+      "Inspection services in Washington"
+    ],
+    [
+      "/ndt-training-richland",
+      "NDT training in Richland"
+    ],
+    [
+      "/consulting/nuclear-ndt-consulting",
+      "Nuclear NDT consulting"
+    ],
+    [
+      "/report-validation/tank-inspection-report-review",
+      "Storage tank inspection report review"
+    ],
+    [
+      "/report-validation/phased-array-data-review-paut",
+      "PAUT data review"
+    ]
   ],
   "sources": [
     "https://www.ans.org/news/article-6442/doe-consolidates-hanfords-management-offices/",

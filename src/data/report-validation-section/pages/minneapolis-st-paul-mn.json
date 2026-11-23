@@ -7,7 +7,7 @@
   "highlights": [
     {
       "h": "A sale in progress",
-      "p": "Marathon has agreed to sell the St. Paul Park refinery to CVR Energy. Transactions like this put inspection history in front of new readers, and an independent review tells them how much of it holds up."
+      "p": "In November 2026 Marathon agreed to sell the St. Paul Park refinery to CVR Energy. Transactions like this put inspection history in front of new readers, and an independent review tells them how much of it holds up."
     },
     {
       "h": "Minnesota's own pipeline office",
@@ -45,7 +45,7 @@
     {
       "h": "Crude lines from Clearbrook and the state's pipeline office",
       "p": [
-        "Minnesota runs its own pipeline safety office within the Department of Public Safety. The Office of Pipeline Safety regulates intrastate natural gas and hazardous liquid operators, covering gas distribution, liquefied propane gas, LNG plants, underground storage and hazardous liquid lines, and it inspects and investigates interstate pipeline companies as an agent of PHMSA. PHMSA's Central Region, which covers Minnesota among eleven states, keeps federal enforcement authority on the interstate side. A Minnesota pipeline record can therefore have a state inspector as its first reader even when the line crosses a state border.",
+        "Minnesota runs its own pipeline safety office within the Department of Public Safety. The Office of Pipeline Safety regulates intrastate natural gas and hazardous liquid operators, covering gas distribution, liquefied propane gas, LNG plants, underground natural gas facilities and hazardous liquid lines, and it inspects and investigates interstate pipeline companies as an agent of PHMSA. PHMSA's Central Region, which covers Minnesota among eleven states, keeps federal enforcement authority on the interstate side. A Minnesota pipeline record can therefore have a state inspector as its first reader even when the line crosses a state border.",
         "The records that reach review are girth weld radiographs and DR images from licensed contractors, automated ultrasonic girth weld data on new construction, dig reports that combine coating condition, pit depths and wall measurements, and station piping thickness surveys. The reviewer checks image quality evidence, the link from each image or data file to a weld on the alignment sheet, the acceptance standard applied, and whether dig measurements were taken with calibrated instruments at locations that can be found again. Calculating the remaining strength of corroded pipe stays with the operator's engineer; the review tells that engineer whether the measurements underneath the calculation can be trusted."
       ]
     },
@@ -70,13 +70,37 @@
         "A complete record anticipates its readers. In Minnesota several of them come from state agencies rather than federal ones, and each looks for something different."
       ],
       "table": {
-        "head": ["Reader", "Authority", "What the record must show that reader"],
+        "head": [
+          "Reader",
+          "Authority",
+          "What the record must show that reader"
+        ],
         "rows": [
-          ["Minnesota OSHA", "Minnesota Rules adopt 29 CFR Part 1910 by reference, including the process safety management standard", "Mechanical integrity records with the date, the examiner, the equipment, the test and the result for covered processes"],
-          ["Department of Labor and Industry boiler program", "Minnesota Statutes chapter 326B", "Inspections by National Board commissioned inspectors who hold a Minnesota certificate of competency, whether state boiler inspectors or insurance company boiler inspectors"],
-          ["Office of Pipeline Safety and PHMSA", "Federal pipeline safety standards adopted by the state; PHMSA Central Region for federal enforcement", "Girth weld, dig and integrity records tied to the alignment sheet and the operator's procedures"],
-          ["Minnesota Department of Health", "Minnesota is an NRC Agreement State; the department runs the radioactive materials program", "For radiography, a licensed contractor whose images and interpretation the owner can rely on"],
-          ["NRC Region III and the licensee's QA organisation", "10 CFR Part 50 and the licensee's quality assurance program", "Examinations traceable to the purchase order, the procedure, qualified personnel and calibrated equipment"]
+          [
+            "Minnesota OSHA",
+            "Minnesota Rules adopt 29 CFR Part 1910 by reference, including the process safety management standard",
+            "Mechanical integrity records with the date, the examiner, the equipment, the test and the result for covered processes"
+          ],
+          [
+            "Department of Labor and Industry boiler program",
+            "Minnesota Statutes chapter 326B",
+            "Inspections by National Board commissioned inspectors who hold a Minnesota certificate of competency, whether state boiler inspectors or insurance company boiler inspectors"
+          ],
+          [
+            "Office of Pipeline Safety and PHMSA",
+            "Federal pipeline safety standards adopted by the state; PHMSA Central Region for federal enforcement",
+            "Girth weld, dig and integrity records tied to the alignment sheet and the operator's procedures"
+          ],
+          [
+            "Minnesota Department of Health",
+            "Minnesota is an NRC Agreement State; the department runs the radioactive materials program",
+            "For radiography, a licensed contractor whose images and interpretation the owner can rely on"
+          ],
+          [
+            "NRC Region III and the licensee's QA organisation",
+            "10 CFR Part 50 and the licensee's quality assurance program",
+            "Examinations traceable to the purchase order, the procedure, qualified personnel and calibrated equipment"
+          ]
         ]
       }
     },
@@ -131,10 +155,22 @@
     }
   ],
   "related": [
-    ["/inspection/third-party-inspection-minneapolis", "Third-party inspection in Minneapolis"],
-    ["/ndt-training-minneapolis", "NDT training in Minneapolis"],
-    ["/ndt-training-minnesota", "NDT training in Minnesota"],
-    ["/ultrasonic-testing-minneapolis", "Ultrasonic testing in Minneapolis"]
+    [
+      "/inspection/third-party-inspection-minneapolis",
+      "Third-party inspection in Minneapolis"
+    ],
+    [
+      "/ndt-training-minneapolis",
+      "NDT training in Minneapolis"
+    ],
+    [
+      "/ndt-training-minnesota",
+      "NDT training in Minnesota"
+    ],
+    [
+      "/ultrasonic-testing-minneapolis",
+      "Ultrasonic testing in Minneapolis"
+    ]
   ],
   "sources": [
     "https://minnesotapipeline.com/about/mpl-system/",
@@ -149,6 +185,7 @@
     "https://www.nrc.gov/agreement-states/minnesota",
     "https://www.health.state.mn.us/communities/environment/radiation/radioactive/index.html",
     "https://www.revisor.mn.gov/statutes/cite/326B.95/pdf",
-    "https://www.revisor.mn.gov/rules/pdf/5205.0010/2025-10-30%2010:54:01+00:00"
+    "https://www.revisor.mn.gov/rules/pdf/5205.0010/2025-10-30%2010:54:01+00:00",
+    "https://finviz.com/news/413992/marathon-petroleum-corp-to-divest-minnesota-and-north-dakota-refineries-mplx-lp-to-divest-related-midstream-assets"
   ]
 }

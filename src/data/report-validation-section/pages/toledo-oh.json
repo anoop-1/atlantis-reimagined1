@@ -45,16 +45,46 @@
     {
       "h": "Situations from northwest Ohio and what settles them",
       "p": [
-        "The reason for a review decides where it puts its weight. The table lists situations we hear about from owners, contractors and buyers in the region, and the evidence that usually decides each one."
+        "The reason for a review decides where it puts its weight. The table lists situations that owners, contractors and buyers in the region commonly face, and the evidence that usually decides each one."
       ],
       "table": {
-        "head": ["Situation", "What the client needs to know", "What the reviewer opens", "What would make the record deficient in disposition"],
+        "head": [
+          "Situation",
+          "What the client needs to know",
+          "What the reviewer opens",
+          "What would make the record deficient in disposition"
+        ],
         "rows": [
-          ["Inherited inspection history after an acquisition", "Whether past readings and dispositions can be trusted for planning", "A sample of reports with their raw files, the previous owner's procedures and certifications", "Readings that cannot be tied to locations, or dispositions that rest on criteria the data does not meet"],
-          ["Turnaround close-out at a refinery", "Which items can go back into service on the record as written", "Risk-ranked reports, repair records, PAUT and thickness files, calibration certificates", "An accepted indication whose sizing the encoded data does not support"],
-          ["Exchanger bundle data from an aromatics unit", "Whether plugging calls and tube wall estimates are reliable", "Raw tube files, calibration standards, analysis settings and the tube sheet map", "Calls sized against an unsuitable standard, or tubes reported as examined that the data does not cover"],
-          ["Nuclear vendor or outage contractor record", "An independent technical view the licensee's QA group can weigh", "The purchase order, procedures, personnel records and examination data", "An indication dispositioned against an acceptance standard the order did not name"],
-          ["HRSG or high-energy piping repair", "Whether the repair NDE will satisfy the inspector and the owner", "Weld procedure references, NDE reports after final heat treatment, radiographs or UT data", "No examination recorded after the last heat treatment the procedure required"]
+          [
+            "Inherited inspection history after an acquisition",
+            "Whether past readings and dispositions can be trusted for planning",
+            "A sample of reports with their raw files, the previous owner's procedures and certifications",
+            "Readings that cannot be tied to locations, or dispositions that rest on criteria the data does not meet"
+          ],
+          [
+            "Turnaround close-out at a refinery",
+            "Which items can go back into service on the record as written",
+            "Risk-ranked reports, repair records, PAUT and thickness files, calibration certificates",
+            "An accepted indication whose sizing the encoded data does not support"
+          ],
+          [
+            "Exchanger bundle data from an aromatics unit",
+            "Whether plugging calls and tube wall estimates are reliable",
+            "Raw tube files, calibration standards, analysis settings and the tube sheet map",
+            "Calls sized against an unsuitable standard, or tubes reported as examined that the data does not cover"
+          ],
+          [
+            "Nuclear vendor or outage contractor record",
+            "An independent technical view the licensee's QA group can weigh",
+            "The purchase order, procedures, personnel records and examination data",
+            "An indication dispositioned against an acceptance standard the order did not name"
+          ],
+          [
+            "HRSG or high-energy piping repair",
+            "Whether the repair NDE will satisfy the inspector and the owner",
+            "Weld procedure references, NDE reports after final heat treatment, radiographs or UT data",
+            "No examination recorded after the last heat treatment the procedure required"
+          ]
         ]
       }
     },
@@ -140,10 +170,22 @@
     }
   ],
   "related": [
-    ["/inspection-services-ohio", "Inspection services in Ohio"],
-    ["/consulting/ndt-consulting-toledo", "NDT consulting in Toledo"],
-    ["/ndt-training-toledo", "NDT training in Toledo"],
-    ["/ultrasonic-testing-toledo", "Ultrasonic testing in Toledo"]
+    [
+      "/inspection-services-ohio",
+      "Inspection services in Ohio"
+    ],
+    [
+      "/consulting/ndt-consulting-toledo",
+      "NDT consulting in Toledo"
+    ],
+    [
+      "/ndt-training-toledo",
+      "NDT training in Toledo"
+    ],
+    [
+      "/ultrasonic-testing-toledo",
+      "Ultrasonic testing in Toledo"
+    ]
   ],
   "sources": [
     "https://www.pbfenergy.com/refineries/",
@@ -151,10 +193,11 @@
     "https://www.nrc.gov/info-finder/reactors/davi",
     "https://toledoblade.com/business/energy/2024/03/01/texas-based-vistra-now-officially-owns-the-davis-besse-perry-and-beaver-valley-n/stories/20240301134",
     "https://www.govinfo.gov/content/pkg/FR-2025-11-24/html/2025-20791.htm",
-    "https://en.wikipedia.org/wiki/Oregon_Clean_Energy_Center",
+    "https://www.power-technology.com/marketdata/power-plant-profile-oregon-clean-energy-power-project-us/",
     "https://codes.ohio.gov/ohio-revised-code/section-4104.08",
     "https://codes.ohio.gov/ohio-revised-code/section-4104.15",
     "https://www.nrc.gov/agreement-states/ohio",
-    "https://codes.ohio.gov/ohio-administrative-code/chapter-4901:1-16"
+    "https://codes.ohio.gov/ohio-administrative-code/chapter-4901:1-16",
+    "https://cenovus.com/News-and-Stories/News-releases/2023/2617620"
   ]
 }

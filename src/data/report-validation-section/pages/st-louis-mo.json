@@ -23,7 +23,7 @@
       "h": "A metro area divided by a river and a state line",
       "p": [
         "On the Illinois side, Phillips 66 has owned the Wood River refinery in Roxana outright since October 1, 2025, when it acquired Cenovus Energy's remaining 50% interest in WRB Refining LP, the partnership that held the plant. Wood River has a crude throughput capacity of about 345,000 barrels per day. On the Missouri side, Ameren Missouri's Callaway Energy Center near Fulton, about 25 miles east-northeast of Jefferson City, is a Westinghouse four-loop pressurized water reactor licensed to Union Electric Co., with a renewed licence running to October 2044.",
-        "Ameren's coal fleet is changing shape. The two-unit, 1,178-megawatt Rush Island plant in Jefferson County shut down in October 2024. Labadie, in Franklin County, is the company's larger coal plant and continues to run. At the Sioux Energy Center in West Alton, coal generation is ramping down and Ameren has asked state regulators to approve a large new natural gas plant on the site. Between the plants and the refinery, gas transmission and distribution lines and hazardous liquid pipelines carry product across the region.",
+        "Ameren's coal fleet is changing shape. The two-unit, 1,178-megawatt Rush Island plant in Jefferson County shut down in October 2024. Labadie, in Franklin County, is the company's larger coal plant and continues to run. At the Sioux Energy Center in West Alton, Ameren asked the Missouri Public Service Commission in July 2026 to approve plans for a combined cycle gas plant of about 2,100 megawatts on the site, due for completion in 2031, with the Sioux coal units retiring around the same time. Between the plants and the refinery, gas transmission and distribution lines and hazardous liquid pipelines carry product across the region.",
         "Reviews are commissioned by refinery inspection groups, utility engineering and outage teams, contractors and fabricators answering a rejection, nuclear suppliers whose records must satisfy a licensee, and lawyers, insurers and buyers who need to know what an inspection file can prove. The owners named here describe where the region's records come from; naming them is not a claim that we have reviewed their records."
       ]
     },
@@ -33,13 +33,37 @@
         "Before testing a report against its requirements, the reviewer establishes which requirements applied, and around St. Louis the state line decides several of them. The table sets out the main differences that affect an NDT record."
       ],
       "table": {
-        "head": ["Topic", "Missouri", "Illinois"],
+        "head": [
+          "Topic",
+          "Missouri",
+          "Illinois"
+        ],
         "rows": [
-          ["Boilers and pressure vessels", "Boiler and Pressure Vessel unit of the Division of Fire Safety, under RSMo 650.200 to 650.295 and 11 CSR 40-2; insured objects inspected by the insurer, uninsured objects by state inspectors", "Office of the State Fire Marshal under the Boiler and Pressure Vessel Safety Act; companies employing special inspectors file certificate inspection reports, and owner-user programs keep their own inspection records"],
-          ["Industrial radiography licensing", "Missouri is not an NRC Agreement State, so NRC Region III licenses radioactive materials users", "Illinois is an Agreement State; IEMA's Office of Homeland Security administers the radioactive materials program"],
-          ["Pipelines", "The Public Service Commission runs the state gas pipeline safety program under PHMSA oversight; liquid and interstate lines answer to PHMSA", "Hazardous liquid and interstate lines answer to PHMSA, whose Central Region covers both states from Kansas City"],
-          ["Process safety", "OSHA's process safety management standard, 29 CFR 1910.119, applies to covered processes", "The same federal standard applies to covered processes, including refinery units"],
-          ["Nuclear oversight", "Callaway's reactor oversight sits with NRC Region IV", "Reactors in Illinois fall under NRC Region III, which also handles the agency's materials duties in the state"]
+          [
+            "Boilers and pressure vessels",
+            "Boiler and Pressure Vessel unit of the Division of Fire Safety, under RSMo 650.200 to 650.295 and 11 CSR 40-2; insured objects inspected by the insurer, uninsured objects by state inspectors",
+            "Office of the State Fire Marshal under the Boiler and Pressure Vessel Safety Act; companies employing special inspectors file certificate inspection reports, and owner-user programs keep their own inspection records"
+          ],
+          [
+            "Industrial radiography licensing",
+            "Missouri is not an NRC Agreement State, so NRC Region III licenses radioactive materials users",
+            "Illinois is an Agreement State; IEMA's Office of Homeland Security administers the radioactive materials program"
+          ],
+          [
+            "Pipelines",
+            "The Public Service Commission runs the state gas pipeline safety program under PHMSA oversight; liquid and interstate lines answer to PHMSA",
+            "Hazardous liquid and interstate lines answer to PHMSA, whose Central Region covers both states from Kansas City"
+          ],
+          [
+            "Process safety",
+            "OSHA's process safety management standard, 29 CFR 1910.119, applies to covered processes",
+            "The same federal standard applies to covered processes, including refinery units"
+          ],
+          [
+            "Nuclear oversight",
+            "Callaway's reactor oversight sits with NRC Region IV",
+            "Reactors in Illinois fall under NRC Region III, which also handles the agency's materials duties in the state"
+          ]
         ]
       }
     },
@@ -132,10 +156,22 @@
     }
   ],
   "related": [
-    ["/ndt-training-st-louis", "NDT training in St. Louis"],
-    ["/ndt-training-missouri", "NDT training in Missouri"],
-    ["/ultrasonic-testing-st-louis", "Ultrasonic testing in St. Louis"],
-    ["/magnetic-particle-testing-st-louis", "Magnetic particle testing in St. Louis"]
+    [
+      "/ndt-training-st-louis",
+      "NDT training in St. Louis"
+    ],
+    [
+      "/ndt-training-missouri",
+      "NDT training in Missouri"
+    ],
+    [
+      "/ultrasonic-testing-st-louis",
+      "Ultrasonic testing in St. Louis"
+    ],
+    [
+      "/magnetic-particle-testing-st-louis",
+      "Magnetic particle testing in St. Louis"
+    ]
   ],
   "sources": [
     "https://www.businesswire.com/news/home/20250909376541/en/Phillips-66-announces-agreement-to-purchase-remaining-interest-in-WRB-Refining-LP",
@@ -147,6 +183,7 @@
     "https://www.nrc.gov/agreement-states/missouri",
     "https://www.nrc.gov/agreement-states/illinois",
     "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2025-04/mo-2023-gas-program-evaluation.pdf",
-    "https://www.phmsa.dot.gov/about-phmsa/offices/central-region"
+    "https://www.phmsa.dot.gov/about-phmsa/offices/central-region",
+    "https://www.stlpr.org/health-science-environment/2026-07-27/ameren-missouri-build-new-natural-gas-plant-west-alton"
   ]
 }
