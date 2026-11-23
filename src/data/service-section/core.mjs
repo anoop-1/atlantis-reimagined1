@@ -167,7 +167,12 @@ export function createServiceSection(cfg) {
     const crumbs = breadcrumbs(pg);
     const graph = [
       { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: pg.title, description: pg.description, isPartOf: { '@id': `${SITE}/#website` } },
-      { '@type': 'Service', '@id': `${url}#service`, name: pg.h1, serviceType: pg.navLabel, description: pg.description, url,
+      // pg.schemaType 'Article' (2026-11-23): reference guides (maritime ship inspection guides) are articles, not services.
+      pg.schemaType === 'Article'
+        ? { '@type': 'Article', '@id': `${url}#article`, headline: pg.h1, description: pg.description, url, mainEntityOfPage: { '@id': `${url}#webpage` },
+          author: { '@type': 'Organization', name: 'Atlantis NDT', url: SITE }, publisher: { '@type': 'Organization', name: 'Atlantis NDT', url: SITE },
+          ...(pg.datePublished ? { datePublished: pg.datePublished, dateModified: pg.dateModified || pg.datePublished } : {}) }
+        : { '@type': 'Service', '@id': `${url}#service`, name: pg.h1, serviceType: pg.navLabel, description: pg.description, url,
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: SITE }, areaServed: pg.areaServed || cfg.areaServed || ['United States', 'Canada', 'Middle East', 'India'] }, // pg.areaServed: 2026-11-07 maritime city pages
       { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.label, item: SITE + c.path })) },
     ];

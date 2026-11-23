@@ -41,7 +41,7 @@ export const CLASS_APPROVALS = [];
  */
 export const CLASS_APPROVAL_AUDITS = ['DNV', "Lloyd's Register", 'ABS'];
 
-/** [slug, label, card text, group, lucide icon]. Groups: survey | compliance | ndt | advanced. */
+/** [slug, label, card text, group, lucide icon]. Groups: owner | survey | compliance | ndt | advanced | guide. */
 export const SERVICE_DEFS = [
   // 2026-11-23 (owner): services for ship owners, buyers, managers and charterers (CLAUDE.md §83).
   ['comprehensive-vessel-inspection-programme', 'CVIP (Comprehensive Vessel Inspection Programme)', 'One owner-commissioned programme for the whole ship, also called an owner\'s CAS or CAP: hull and structure, thickness, piping, machinery condition and coatings, with one report the technical manager can act on.', 'owner', 'Ship'],
@@ -71,8 +71,25 @@ export const SERVICE_DEFS = [
   ['acfm-inspection', 'ACFM Inspection', 'Alternating current field measurement: crack detection and sizing through paint on welds, without blasting the coating off.', 'advanced', 'Zap'],
   ['eddy-current-inspection', 'Eddy Current Inspection (ECT)', 'Surface crack detection through thin coatings on steel welds, and on aluminium and non-ferrous parts.', 'advanced', 'Gauge'],
   ['corrosion-mapping', 'Corrosion Mapping', 'Encoded UT C-scans of plating, tank tops and piping, so pitting and wastage are mapped rather than spot-read.', 'advanced', 'Map'],
+  // 2026-11-23 (owner): strategic guides for ship owners and technical managers: how each vessel type is inspected,
+  // and what the special survey asks of a ship at each age under IACS requirements (CLAUDE.md §84). Group 'guide':
+  // Article schema, linked from the survey and owner services. Every guide is 2,000+ words of researched copy.
+  ['ship-inspection-by-vessel-type', 'Ship Inspection by Vessel Type', 'How bulk carriers, tankers, container ships, gas carriers, general cargo ships and ro-ro ships are inspected, and why each type is looked at differently.', 'guide', 'BookOpen'],
+  ['special-survey-by-ship-age', 'Special Survey by Ship Age', 'What the renewal (special) survey asks of a ship at 5, 10, 15, 20 years and beyond under IACS requirements, and how owners prepare for each one.', 'guide', 'CalendarClock'],
+  ['bulk-carrier-inspection', 'Bulk Carrier Inspection Guide', 'Cargo holds, frames, hatch covers, ballast tanks and the enhanced survey programme: how single-side and double-side bulk carriers are inspected.', 'guide', 'Ship'],
+  ['oil-tanker-inspection', 'Oil Tanker Inspection Guide', 'Double-hull ballast spaces, cargo tanks, deck and piping under the enhanced survey programme, and what vetting looks for on an older tanker.', 'guide', 'Ship'],
+  ['chemical-tanker-inspection', 'Chemical Tanker Inspection Guide', 'Stainless and coated cargo tanks, cargo piping, ballast spaces and the enhanced survey programme for chemical tankers.', 'guide', 'Ship'],
+  ['container-ship-inspection', 'Container Ship Inspection Guide', 'Hatch corners, cell guides, hatch covers, lashing structure and thick deck plating: where container ships are looked at and why.', 'guide', 'Ship'],
+  ['gas-carrier-inspection', 'Gas Carrier Inspection Guide (LNG and LPG)', 'Hull, cargo containment, insulation and cold spots, and cargo systems on LNG and LPG carriers under the IGC Code and class rules.', 'guide', 'Ship'],
+  ['general-cargo-ship-inspection', 'General Cargo Ship Inspection Guide', 'Holds, tweendecks, hatch covers, cranes and ballast tanks on general cargo and multipurpose ships.', 'guide', 'Ship'],
+  ['ro-ro-and-car-carrier-inspection', 'Ro-Ro and Car Carrier Inspection Guide', 'Bow, stern and side doors, ramps, vehicle decks and the structure behind them on ro-ro cargo ships, ro-pax ferries and car carriers.', 'guide', 'Ship'],
+  ['first-special-survey-5-years', 'First Special Survey (5 Years)', 'What renewal survey No. 1 covers on a young ship, and why the baseline it sets matters for every survey after it.', 'guide', 'CalendarClock'],
+  ['second-special-survey-10-years', 'Second Special Survey (10 Years)', 'Renewal survey No. 2: wider gauging, transverse sections and more close-up survey as coatings start to age.', 'guide', 'CalendarClock'],
+  ['third-special-survey-15-years', 'Third Special Survey (15 Years)', 'Renewal survey No. 3: the survey most likely to bring steel renewal, and how owners plan for it.', 'guide', 'CalendarClock'],
+  ['fourth-special-survey-20-years', 'Fourth and Later Special Surveys (20+ Years)', 'Renewal survey No. 4 and later: gauging of most structure, charterer age limits, and the renew, sell or recycle decision.', 'guide', 'CalendarClock'],
+  ['intermediate-survey', 'Intermediate Survey Guide', 'The survey between renewals: what class examines at the intermediate survey and how its scope grows with the ship\'s age.', 'guide', 'ClipboardList'],
 ];
-export const SERVICE_GROUPS = [['owner', 'Owner, buyer and charterer surveys'], ['survey', 'Surveys and class work'], ['compliance', 'Compliance surveys'], ['ndt', 'Marine NDT'], ['advanced', 'Advanced NDT']];
+export const SERVICE_GROUPS = [['owner', 'Owner, buyer and charterer surveys'], ['survey', 'Surveys and class work'], ['compliance', 'Compliance surveys'], ['ndt', 'Marine NDT'], ['advanced', 'Advanced NDT'], ['guide', 'Ship inspection guides']];
 export const SERVICES = SERVICE_DEFS.map(([slug, label, text]) => [slug, label, text]);
 export const SERVICE_SLUGS = SERVICES.map(([s]) => s);
 export const REGIONS = [['europe', 'Europe'], ['middle-east', 'Middle East & Egypt'], ['asia', 'China & Singapore'], ['oceania', 'Australia & New Zealand']];
@@ -107,6 +124,7 @@ const GROUP_INTRO = {
   survey: 'Thickness measurement and inspection tied to the class survey cycle, charterers\' condition ratings and the structure and systems a hull survey looks at: the work most superintendents call us for first.',
   compliance: 'Surveys a ship needs for rules outside the hull survey: the hazardous materials inventory for EU port calls and recycling, noise levels for crew spaces, and thermal checks that catch electrical and insulation faults early.',
   ndt: 'The conventional methods, chosen by the defect: visual inspection for what can be seen, magnetic particle and dye penetrant for surface cracks, and ultrasonic testing for flaws inside a weld.',
+  guide: 'Reference guides for owners and technical managers: how each type of ship is inspected, and what the special survey and the intermediate survey ask of a ship at each age under IACS requirements.',
   advanced: 'Encoded and electromagnetic methods for what conventional NDT does poorly on a ship: stored weld images, flaw height in thick plate, cracks found through paint, and wall loss mapped over an area.',
 };
 /** Hubs (landing, regions, countries): survey and compliance services plus the two NDT overview pages. */
@@ -401,6 +419,8 @@ function textPage(rec, kind, parent, cityList, hubs, comboRows = []) {
     deliverables: rec.deliverables,
     industries: rec.industries,
     faqs: rec.faqs,
+    datePublished: rec.datePublished,
+    dateModified: rec.dateModified,
   };
   if (CLASS_APPROVALS.length) pg.sections.push({ id: 'class-approval', h: 'Class approval', p: [classApprovalText()] });
   if (kind === 'landing' || kind === 'region' || kind === 'country') {
@@ -432,6 +452,14 @@ function textPage(rec, kind, parent, cityList, hubs, comboRows = []) {
     const group = def ? def[3] : 'survey';
     const same = SERVICE_DEFS.filter(([s, , , g]) => g === group && s !== rec.slug).map(([s, l]) => [path(s), l]);
     const hubsLinks = [UTM, 'marine-ndt-services', 'advanced-ndt'].filter((s) => s !== rec.slug && !same.some(([h]) => h === path(s))).map((s) => [path(s), SERVICE_LABEL[s]]);
+    if (group === 'guide') {
+      // Guides: other guides first, then the services an owner books after reading one.
+      pg.schemaType = 'Article';
+      const svc = ['comprehensive-vessel-inspection-programme', 'vessel-condition-survey', 'pre-purchase-inspection', SPECIAL, 'enhanced-survey-programme', 'hull-structural-integrity', UTM, 'condition-assessment-programme', 'condition-assessment-scheme'].map((s) => [path(s), SERVICE_LABEL[s]]);
+      pg.related = [...same, ...svc, ...REGIONS.map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
+      return pg;
+    }
+    if (group === 'survey' || group === 'owner') hubsLinks.push([path('special-survey-by-ship-age'), SERVICE_LABEL['special-survey-by-ship-age']], [path('ship-inspection-by-vessel-type'), SERVICE_LABEL['ship-inspection-by-vessel-type']]);
     const top = ['netherlands', 'belgium', 'united-kingdom', 'germany', 'greece', 'norway'].filter((s) => hubs.some(([h]) => h === s)).map((s) => hubPairs.find(([h]) => h === path(s)));
     const ports = Object.fromEntries(cityList.map(([s, name]) => [s, name]));
     const atPorts = comboRows.filter(([, s]) => s === rec.slug).map(([p, s]) => [comboPath(p, s), `${SERVICE_LABEL[s]} at ${ports[p] || p}`]);
