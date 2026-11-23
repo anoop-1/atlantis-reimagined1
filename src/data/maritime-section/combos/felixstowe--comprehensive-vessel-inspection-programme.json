@@ -1,0 +1,130 @@
+{
+  "port": "felixstowe",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Felixstowe | Owner's CAS/CAP for Chartered Boxships",
+  "description": "CVIP at Felixstowe: an owner's CAS/CAP-style programme for container ships, covered zone by zone over liner calls and carried from on-hire to redelivery.",
+  "h1": "Comprehensive Vessel Inspection Programme at Felixstowe: an Owner's Condition Assessment Built Call by Call on the Asia–Europe Rotation",
+  "intro": "Owners and technical managers often ask for an owner's CAS or owner's CAP; at Atlantis that whole-ship assessment is CVIP, the Comprehensive Vessel Inspection Programme: structure examined close up to a plan, thickness read at fixed points, coatings, piping and machinery graded, and one report, done for the owner's requirement and not for class. Felixstowe suits it because the big container ships on Asia–Europe loops come back on a published rotation, and many of them are chartered to liner companies by owners who want evidence of condition. Each visit is made by technicians who fly in from India to meet the call.",
+  "highlights": [
+    {
+      "h": "A boxship mapped into zones",
+      "p": "A large container ship cannot be assessed end to end in a day or two alongside. CVIP divides her into zones, such as the forward hold block, the midships coamings, the engine room and the scrubber casing, and gives each zone to a named Felixstowe call, so coverage is planned rather than left to chance."
+    },
+    {
+      "h": "Evidence across the charter period",
+      "p": "A good number of Felixstowe callers are let by non-operating owners to the liner companies. A baseline near the start of a charter and a comparison visit before redelivery, both at Felixstowe, give owner and charterer measured condition at each end, with the repeat visits in between showing what changed in service."
+    },
+    {
+      "h": "Numbers for the yard in Asia",
+      "p": "Most large container ships calling here dock at yards in China or elsewhere in Asia. The trend record from successive Felixstowe calls turns the yard specification into measured steel and pipe quantities, and shows which scrubber spools are thinning fast enough to order before the ship sails east."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-cvip-felixstowe",
+      "h": "Where does a CVIP visit fit at Felixstowe, Harwich and Ipswich?",
+      "p": [
+        "Felixstowe's deep-sea berths give the programme its regular window. The ship works cargo continuously for a day or two and sails on time, so each visit is a defined module rather than an open-ended survey. Bays already worked open up the hatch coamings, cross-deck structure and lashing bridges; the engine room, steering gear flat and scrubber casing stay available throughout the call; and a ballast tank can be entered when the chief officer's ballast plan lets it be emptied and ventilated without upsetting stability or trim while containers are moving.",
+        "The neighbouring Haven ports widen what a fleet programme can do on one mobilisation. Bulk carriers loading grain or discharging aggregates at Ipswich lie alongside for several days, which suits a deep baseline of holds and tanks, and the ro-ro and freight ships at Harwich International keep timetables that make their vehicle decks and ramps easy to schedule. Ships waiting off the Haven for a Felixstowe berth can take a short launch boarding through the agent, although the southern North Sea often rules that out. Large container ships are usually docked in Asia, so their dry hull and sea chests are covered at the docking yard and joined to the same record."
+      ],
+      "list": [
+        "Felixstowe deep-sea berths: coamings, cross-deck structure, lashing bridges, scrubber and engine-room piping, and released ballast tanks",
+        "Felixstowe feeder and short-sea berths: smaller and often older container ships, where a whole zone may fit a single call",
+        "Port of Ipswich: holds, hoppers and tanks on bulk carriers over several days alongside",
+        "Harwich International: vehicle decks, ramps and hinges on ro-ro and freight ships, fitted to their sailing times",
+        "Anchorages off the Haven: brief launch visits for machinery or deck items, weather permitting"
+      ]
+    },
+    {
+      "id": "zones-felixstowe",
+      "h": "How is a whole container ship covered across Felixstowe calls?",
+      "p": [
+        "The baseline for a large boxship is laid out as a coverage map before anyone travels. Working from the structural drawings and the bay plan, we split the ship into zones that each fit one call: the forward hold block with its coamings and ballast tanks, the midships block where hull girder stress is highest, the aft block and engine room, the scrubber system from its pumps to the overboard valve, and the electrical and rotating machinery. Each zone carries numbered thickness points, crack detection locations at coaming corners and lashing bridge feet, and fixed photograph positions for coating ratings.",
+        "Zones are then allocated to particular calls in the liner schedule. Because the rotation is known months ahead, the technical manager can see which call completes the baseline, and the chief officer can see which tanks will be wanted and when. If a call is cut short by weather or terminal congestion, the unfinished part of the zone moves to the next rotation and the visit report says exactly what was and was not reached, so the record never claims coverage it does not have.",
+        "Once the baseline is whole, repeat visits come back to each zone at intervals set by what it showed. Scrubber lines and machinery are usually read most often, hull zones at least yearly and again ahead of a docking, and a crack found at a coaming corner is examined again on the next call to see whether it has grown."
+      ]
+    },
+    {
+      "id": "charter-cycle-felixstowe",
+      "h": "Running a programme for a container ship chartered to a liner company",
+      "p": [
+        "A good share of the container ships at Felixstowe belong to non-operating owners and are chartered to the liner companies that run the services. For those owners the ship is earning on somebody else's network, and they see her mainly through crew reports and an occasional superintendent's attendance. A programme gives them an independent, measured view during the charter, with Felixstowe calls used as visit points because the rotation brings the ship back predictably.",
+        "The milestones can be set to match the charter itself. A baseline taken soon after delivery into the charter records the condition the charterer received; repeat visits follow deck structure, coatings, scrubber piping and machinery while the ship trades; and a visit before redelivery is read against the baseline at the same numbered points. That comparison is far more useful in an on-hire and off-hire discussion than two unrelated surveys made by different firms to different plans. The record stays with the owner, who decides which extracts the charterer sees."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-felixstowe",
+      "h": "What does an owner's CAS or owner's CAP mean for a boxship calling at Felixstowe?",
+      "p": [
+        "Container ship owners borrow the terms owner's CAS and owner's CAP because they describe a depth of assessment, not because either official scheme applies to their ships. The IMO Condition Assessment Scheme was written for certain older single-hull oil tankers and ends in a flag Administration's Statement of Compliance, and class Condition Assessment Programme ratings are mostly sought for ageing tankers and bulk carriers. Container ships are not ESP ships either, so the class gauging extent for a cellular hull is lighter than many owners would like for structure that carries bending and torsion around such large deck openings.",
+        "CVIP takes the pattern those schemes share, a planned close-up survey, gauging at defined locations, graded condition and one report, and applies it for the owner's own purposes. It issues no rating and no statement of compliance, and nobody should present it to a charterer as either. On the thickness side, Atlantis is still in the process of obtaining its UR Z17 approvals from Lloyd's Register, ABS and DNV; until a certificate is issued, readings from the Felixstowe programme inform the owner's own decisions and earn no credit at a class survey, while magnetic particle results at coamings and lashing bridges remain the owner's NDT records."
+      ]
+    },
+    {
+      "id": "asian-docking-felixstowe",
+      "h": "Turning the Felixstowe trend record into an Asian docking specification",
+      "p": [
+        "Docking slots for large container ships are fixed well ahead, and Asian yards quote against a specification written before the ship arrives. A trend record from several Felixstowe calls changes what that specification can say. Plates and members at the numbered points are listed with their corrosion rate as well as their present thickness, so the superintendent can tell the yard which steel is beyond the allowable margin now and which will reach it before the following docking, and decide whether to renew it once rather than twice.",
+        "Scrubber systems are where the trend earns most. The port sits deep within the North Sea SOx ECA, and many large container ships were fitted with exhaust gas cleaning systems when the global 0.50% sulphur limit arrived in 2020, so those systems have years of acidic wash-water behind them. Wall-thickness readings repeated at the same bends, reducers and overboard positions show which spools are thinning steadily and which have started to accelerate, so long-lead pipe can be ordered and fabricated before the ship leaves Europe. After the docking, renewed steel and spools are re-baselined at the next Felixstowe call and the record carries on from there."
+      ]
+    },
+    {
+      "id": "planning-felixstowe",
+      "h": "Planning Felixstowe programme visits: the liner schedule, UK visas and the Haven gates",
+      "p": [
+        "To start, send the vessel or fleet list with IMO numbers, the structural drawings and bay plan, the last thickness report, the class survey status, the next docking yard and date, the scrubber piping isometrics if a system is fitted, and the rotation showing expected Felixstowe calls. We return the coverage map and a call-by-call plan for the superintendent and chief officer to agree. The ship's agent requests ISPS passes at Felixstowe, Harwich or Ipswich against the technicians' names.",
+        "Felixstowe is in the United Kingdom, so the team travels from India on UK visas rather than Schengen ones, and the applications are made against the programme calendar instead of call by call. Technicians usually arrive through Stansted, the nearest of the London airports to the Haven, or through Heathrow, and continue by road. A later rotation is held in reserve in case a call slips. For a single boxship or a chartered fleet, email info@atlantisndt.com with the rotation, or use the enquiry form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ultra-large and large container ships on Asia–Europe loops",
+    "Container ships chartered from non-operating owners to liner companies",
+    "Feeder and short-sea container ships",
+    "Scrubber-fitted container ships",
+    "Bulk carriers loading or discharging at Ipswich",
+    "Ro-ro and freight ships at Harwich International"
+  ],
+  "codes": [
+    "IACS UR Z7 – Requirements for hull classification surveys",
+    "SOLAS chapter II-1 – Construction, structure, subdivision and stability",
+    "MARPOL Annex VI regulation 14 and resolution MEPC.340(77), the 2021 EGCS Guidelines",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement",
+    "ISO 18434-1 – Thermography for condition monitoring and diagnostics of machines",
+    "ISO 20816-1 – General guidelines for measuring and evaluating machine vibration"
+  ],
+  "deliverables": [
+    "Coverage map dividing the ship into zones, with each zone assigned to a Felixstowe call",
+    "Baseline report completed across the agreed calls, describing coamings, tanks, piping and machinery as found",
+    "Visit report in a fixed structure: condition by zone, movement since the baseline, findings in order of urgency",
+    "Charter-period comparison of baseline and pre-redelivery readings at the same numbered points",
+    "Steel and scrubber-spool list for the Asian docking, located on the ship's drawings",
+    "Trend data files for thickness, coatings, vibration and thermal readings, kept by the owner"
+  ],
+  "faqs": [
+    {
+      "q": "How many Felixstowe calls does a container ship baseline take?",
+      "a": "That depends on the ship's size, the zones the owner includes and how many ballast tanks the chief officer can release on each call. A large boxship commonly needs a sequence of calls, while a feeder may need fewer. We propose the coverage map from the drawings and the rotation, the superintendent adjusts it, and the plan names the call at which each zone, and therefore the baseline, will be complete."
+    },
+    {
+      "q": "Is a Felixstowe CVIP the same thing as a CAS or CAP?",
+      "a": "No, although it is built the same way. Owners call it an owner's CAS or owner's CAP because it follows that sequence of planned close-up survey, fixed-point gauging, graded condition and a single report. It is commissioned and kept by the owner, carries no flag Statement of Compliance or class rating, and cannot substitute where a charterer insists on the official scheme, a situation that seldom arises for container ships."
+    },
+    {
+      "q": "Can the programme run from the start of a charter to redelivery?",
+      "a": "Yes, and for chartered tonnage that is often why it is set up. The baseline is taken soon after the ship enters the charter, repeat visits follow her through service, and a visit before redelivery is compared point by point with the baseline. Owner and charterer can then discuss condition on the basis of one consistent dataset, with the owner deciding what is shared and when."
+    },
+    {
+      "q": "What happens if the ship misses Felixstowe on a rotation?",
+      "a": "The visit moves. Services are sometimes re-routed or a call is dropped, so each plan lists alternative ports on the ship's loop for a visit, and the team flies to whichever suits from India, working to the same numbered points and report layout. If no other call suits, the zone waits for the following Felixstowe call and the visit report shows the gap plainly."
+    },
+    {
+      "q": "Can Ipswich bulk carriers and Harwich ferries sit in the same fleet programme as our boxships?",
+      "a": "Yes. Each ship type gets its own plan, with holds, hoppers and tanks for a bulk carrier and vehicle decks, ramps and hinges for a ro-ro ship, but the report format and the trend files are common to the fleet. Because the three Haven ports are close by road, a single mobilisation can often serve a container call and an Ipswich or Harwich ship on the same trip."
+    },
+    {
+      "q": "Does the programme help decide on scrubber repairs before an Asian docking?",
+      "a": "That is one of its most practical uses. Wash-water and overboard lines are read at the same positions on repeat calls, so the record shows a rate of wall loss rather than a single reading. The superintendent can see which spools will not last to the following docking, order them for the yard in Asia, and leave sections that are holding up well for another cycle."
+    }
+  ]
+}

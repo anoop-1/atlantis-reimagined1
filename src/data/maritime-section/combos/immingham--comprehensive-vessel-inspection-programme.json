@@ -1,0 +1,131 @@
+{
+  "port": "immingham",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Immingham | Owner's CAS/CAP for Bulk, Tanker & Ro-Ro Ships",
+  "description": "CVIP at Immingham: an owner's CAS/CAP-style programme for Humber bulk carriers, tankers and ro-ro freighters, timed to discharge, permits and weekly calls.",
+  "h1": "Comprehensive Vessel Inspection Programme at Immingham: a Whole-Ship Owner's Assessment for the Bulk, Energy and Ro-Ro Traffic of the Humber",
+  "intro": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme, gives owners a whole-ship condition assessment of the kind they describe as an owner's CAS or owner's CAP, meaning a planned close-up survey, readings at marked points, graded coatings, piping and machinery, and a single report, all carried out for the owner rather than for class. Immingham, Britain's busiest port by tonnage, brings ore and coal carriers, biomass ships, crude and product tankers, gas carriers and ro-ro freighters to the Humber, many of them on repeat voyages. That repetition is exactly what a programme needs, and for every visit our technicians fly in from India and go straight to the ship.",
+  "highlights": [
+    {
+      "h": "Holds read as the grabs move on",
+      "p": "An ore or coal carrier discharging at the Humber International or Immingham Bulk terminal frees her holds one after another. Each emptied hold gives a short window for the frames, brackets, hopper and topside plating at the programme's numbered points, and repeat discharges show how fast that steel is going."
+    },
+    {
+      "h": "Tankers trended within the terminal's rules",
+      "p": "At the oil terminal jetties a visit covers what the permit allows: deck plating, cargo and ballast lines, and ballast tanks once certified gas-free. The rest of the tanker is measured at a docking or a gas-free stop, and both sets of readings go into one record under the same numbering."
+    },
+    {
+      "h": "Ro-ro freighters on a weekly rhythm",
+      "p": "Freight ships on Scandinavian and Continental services return to the enclosed dock, Killingholme or the Humber Sea Terminal on fixed rotations. A short module on each turnaround, whether a ramp, a vehicle deck or a ballast tank group prepared by the crew, builds the full picture without holding up a sailing."
+    }
+  ],
+  "sections": [
+    {
+      "id": "humber-berths-cvip",
+      "h": "Which Immingham berths suit each part of an owner's condition assessment?",
+      "p": [
+        "Immingham is really two ports in one, and the programme uses them differently. The riverside terminals take deep-draught ships without locking in: bulk carriers at the Humber International and Immingham Bulk terminals, crude and product tankers at the Immingham Oil Terminal jetties, gas carriers at the gas jetty. Their windows are set by the stevedores and by terminal permits. Behind the lock, the enclosed dock handles ro-ro and general cargo ships, and a ship lying idle there between charters gives the longest uninterrupted visit the port can offer.",
+        "Immingham has no ship-repair drydock, so the dry hull, sea chests and any cargo tanks that cannot be opened in service are covered at the docking yard, whether that is Hull's graving dock for a small ship, a yard on the Tees or the Tyne, or one across the North Sea. The programme treats that docking as a scheduled visit and joins its readings to the record. Ships waiting in the estuary for a berth or for the tide can sometimes be boarded by launch for machinery or deck items when the weather allows."
+      ],
+      "list": [
+        "Humber International and Immingham Bulk terminals: holds, hoppers, topsides and tank tops, hold by hold during discharge",
+        "Immingham Oil Terminal: deck, cargo and ballast lines, and ballast tanks once a gas-free certificate covers them",
+        "Immingham Gas Jetty: deck structure and piping on gas carriers under the jetty's rules",
+        "Enclosed dock, Killingholme and Humber Sea Terminal: ro-ro decks, ramps and tanks across turnarounds, and baselines on idle ships",
+        "Docking yard elsewhere: dry hull, sea chests and cargo tanks, joined to the same record"
+      ]
+    },
+    {
+      "id": "bulk-carriers-immingham",
+      "h": "Ore, coal and biomass carriers: why repeat Immingham discharges suit a programme",
+      "p": [
+        "Bulk carriers bringing iron ore and coal for the Scunthorpe steelworks, or wood pellets for power generation, often come back to the Humber voyage after voyage. Their holds take the punishment that decides much of a bulk carrier's later life: abrasion from the cargo, grab damage to frames and tank tops, and corrosion where coatings have broken down at the lower brackets and hopper plating. One gauging during one discharge shows where the steel stands; the same points read on later discharges show how quickly it is going, hold by hold.",
+        "That rate matters to three readers. The superintendent uses it to plan steel for the next intermediate or renewal survey, which on an ESP ship comes with close-up survey and prescribed thickness measurement. Dry-cargo charterers rely on RightShip, which looks hard at older ships, and a measured record helps the owner answer questions about known wastage. And once a bulk carrier passes twelve years of age, the Paris MoU puts her among the ship types eligible for an expanded inspection, in which the Maritime and Coastguard Agency inspector looks closely at structure, ballast tanks and survey records.",
+        "The visit sequence follows the stevedores. We agree with the chief officer and the agent which hold will be emptied when, and the team enters each one as the grab moves on, working through the numbered frame, bracket, hopper and topside points and noting grab dents and gouges in a column of their own, so mechanical damage never masquerades as a corrosion rate in the trend."
+      ]
+    },
+    {
+      "id": "tankers-gas-ro-ro-immingham",
+      "h": "Tankers, gas carriers and ro-ro freighters on the Humber: what each visit can cover",
+      "p": [
+        "Crude and product tankers serving the south-bank refining industry, and gas carriers at the gas jetty, are worked under two permit systems at once, the terminal's and the ship's. During cargo transfer a visit concentrates on deck plating and longitudinals, cargo, stripping and ballast lines, and segregated ballast tanks the master has released under a gas-free certificate. Pumps and generators running during discharge can be measured for vibration at their working load, and switchboards imaged by a qualified thermographer. Cargo tanks wait for a cleaning stop or the docking yard, and their readings join the same record.",
+        "Ro-ro freighters bring the opposite problem: they are always here, but never for long. Turnarounds on the Scandinavian, Dutch and German services are short, so the programme gives each call one small module the crew can prepare in advance, such as a group of ballast tanks, a stretch of main deck, or the stern ramp and its hinges. Across a sequence of weekly calls the whole ship is covered, and because she keeps coming back, re-reading a suspect point or a crack at a ramp hinge needs no special arrangement at all."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-immingham",
+      "h": "Owner's CAS and owner's CAP at Immingham: where the programme ends and class begins",
+      "p": [
+        "The Humber's ship mix includes the two types the official schemes were written for. Older tankers are what the IMO Condition Assessment Scheme was designed around, with the flag Administration verifying the outcome, and charterers widely ask ageing tankers and bulk carriers for a class Condition Assessment Programme rating. That is why Immingham owners use the words owner's CAS and owner's CAP so readily: they want the same planned close-up survey, located gauging, graded condition and single report, but on their own timetable and for their own decisions.",
+        "CVIP provides that, and stops there. It is commissioned by the owner, manager, charterer or financier, its scope is agreed with them and its record is theirs, and it produces neither a CAP rating nor a CAS Statement of Compliance. If a charterer's vetting department requires a class CAP for a Humber bulk carrier or tanker, the owner books it with the ship's society, and the programme history tells the owner beforehand where the steel is likely to grade. Atlantis has not yet been granted UR Z17 approval; it is in the process of obtaining it from DNV, ABS and Lloyd's Register. Until then, gauging under the programme informs the owner's planning and earns no credit towards class surveys."
+      ]
+    },
+    {
+      "id": "trend-record-immingham",
+      "h": "Keeping one trend record across bulk discharges, tanker permits and ro-ro turnarounds",
+      "p": [
+        "Three ship types on three timetables could easily produce three kinds of record. CVIP keeps them in one form. Points are numbered on the class drawings by frame, strake and member; coatings are rated GOOD, FAIR or POOR from fixed photograph positions; machinery readings carry the load and operating condition at the time; and every visit report opens with the condition of each area, then the change since the baseline, then findings ranked by when they need action. A fleet manager running bulk carriers, tankers and ro-ro ships through the Humber reads them all the same way.",
+        "The docking closes each cycle. Some months before the ship leaves the Humber for a yard, a pre-docking visit converts the trend into a renewal list for steel and pipe, marked on her drawings, which the superintendent can put to the yard before departure. After the docking, renewed plates and spools are re-baselined on her next Immingham call, and their corrosion rates begin again from the new steel."
+      ]
+    },
+    {
+      "id": "planning-immingham",
+      "h": "Planning Immingham visits around the tide, the lock and terminal inductions",
+      "p": [
+        "The Humber's tidal streams and large range decide when deep-draught ships berth and sail, and the enclosed dock adds its own lock timing, so visit dates are tied to the agent's estimate and adjusted as it moves. Winter gales and fog can hold a ship at anchor or alongside longer than planned; the plan keeps internal tank and machinery work ready for those hours. The port works all year without ice, so programme visits can fall in any month.",
+        "Send the ship or fleet list, drawings, the last thickness report, the class survey status, the trading pattern with expected Humber calls and the next docking. The ship's agent arranges ABP port passes and any oil or gas jetty inductions before boarding. Technicians travel from India on UK visit visas, which are applied for well ahead against the programme calendar, and usually fly into Manchester, Leeds Bradford or a London airport before continuing by rail and road to the south bank. Email info@atlantisndt.com or use the form below to begin."
+      ]
+    }
+  ],
+  "vessels": [
+    "Large bulk carriers in the iron ore and coal trades",
+    "Bulk carriers carrying wood-pellet biomass",
+    "Crude oil tankers serving the south-bank refineries",
+    "Product and chemical tankers on coastal and North Sea shuttles",
+    "LPG carriers at the gas jetty",
+    "Ro-ro freight ships on Scandinavian and Continental services",
+    "Short-sea general cargo ships in the enclosed dock"
+  ],
+  "codes": [
+    "IACS UR Z10.2 / Z10.5 – Bulk carrier and double-skin bulk carrier hull surveys",
+    "IACS UR Z10.1 / Z10.4 – Oil tanker and double-hull oil tanker hull surveys",
+    "IACS UR Z7.2 – Liquefied gas carrier hull surveys",
+    "SOLAS XI-1/2 and the ESP Code (2011)",
+    "ISO 20816-1 – Measuring and evaluating machine vibration: general guidelines",
+    "ISO 18434-1 – Thermography applied to machine condition monitoring"
+  ],
+  "deliverables": [
+    "Programme plan assigning modules to bulk discharges, terminal calls, ro-ro turnarounds and the docking",
+    "Hold-by-hold thickness record with grab damage and corrosion reported apart",
+    "Visit reports in a common format for bulk carriers, tankers and ro-ro ships alike",
+    "Vibration and thermal trends for pumps, generators and switchboards, with load recorded",
+    "Pre-docking steel and pipe list for the yard chosen outside the Humber",
+    "Trend data files kept by the owner for planned maintenance, charterers and lenders"
+  ],
+  "faqs": [
+    {
+      "q": "Is CVIP at Immingham the same as CAS or CAP?",
+      "a": "It borrows their method, not their status. Like CAS and class CAP, CVIP surveys the structure close up to a plan, gauges defined locations, grades condition and reports on the whole ship. Unlike them, it is commissioned and kept by the owner and issues no Statement of Compliance or rating. Where a charterer wants the class CAP, the owner obtains it from the society, and CVIP readings simply show the likely outcome early."
+    },
+    {
+      "q": "Can a bulk carrier's programme visit happen during one ore discharge?",
+      "a": "Yes, as long as the visit is planned hold by hold. The team boards when discharge starts, goes into each hold when the grab has finished with it, and reads the programme's numbered points before the next cargo operation or sailing. If a hold is released for a shorter time than expected, its points move to the next discharge and the visit report records the gap."
+    },
+    {
+      "q": "Do tanker visits at the Immingham Oil Terminal include cargo tanks?",
+      "a": "Not normally while cargo is being worked. Deck structure, cargo and ballast lines, pump room piping and gas-free segregated ballast tanks can be covered alongside within the terminal's and the ship's permits. Cargo tanks are read at a cleaning stop or the docking yard, once the ship is gas-free, and those readings go into the same numbered record as everything taken on the Humber."
+    },
+    {
+      "q": "Can a ro-ro freighter on a weekly North Sea service join a programme without delaying sailings?",
+      "a": "Yes. Each turnaround carries a module sized to the time alongside and prepared by the crew beforehand: a ballast tank group, part of the main deck, the stern ramp and hinges, or machinery that runs during cargo work. Over a run of calls the ship is fully covered, and her sailing time is not affected by the programme."
+    },
+    {
+      "q": "Why include an older Humber bulk carrier in a programme rather than gauge her once?",
+      "a": "Because the questions she faces are about direction as well as condition. RightShip, charterers and a port state control inspector carrying out an expanded inspection all want to know whether known wastage is under control. Repeated readings at the same points show the rate of loss and when steel is planned, which a single report from one discharge cannot show."
+    },
+    {
+      "q": "Where does the docking happen if Immingham has no drydock?",
+      "a": "Wherever the owner chooses: Hull's graving dock for smaller ships, yards on the Tees or the Tyne, or a yard across the North Sea. The programme schedules a pre-docking round on a late Humber call, can send the team from India to the yard to cover the dry hull and opened tanks, and re-baselines repaired areas when the ship next calls at Immingham."
+    }
+  ]
+}

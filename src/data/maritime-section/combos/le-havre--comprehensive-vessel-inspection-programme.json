@@ -1,0 +1,131 @@
+{
+  "port": "le-havre",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Le Havre | Owner's CAS/CAP Across the Seine Estuary",
+  "description": "CVIP at Le Havre: an owner's CAS/CAP-style programme that uses Port 2000 calls, inner-basin lay-bys and Baie de Seine anchorage waits for each visit.",
+  "h1": "Comprehensive Vessel Inspection Programme at Le Havre: an Owner's Condition Assessment for Container Ships, Tankers and Car Carriers in the Seine Estuary",
+  "intro": "Ask a Le Havre superintendent for the name of a whole-ship owner's survey and you will usually hear owner's CAS or owner's CAP. Atlantis calls it CVIP, the Comprehensive Vessel Inspection Programme: a planned close-up survey, thickness at numbered locations, graded condition for coatings, piping and machinery, and a single whole-ship report, commissioned by the owner rather than class. France's largest container port and the estuary's oil gateway offers several windows, from short container calls at Port 2000 to lay-by stays in the inner basins and anchorage waits in the Baie de Seine, and the programme gives each window the module it suits. Every visit is made by a team travelling from India.",
+  "highlights": [
+    {
+      "h": "Each estuary window, its own module",
+      "p": "A Port 2000 call fits deck and ballast work; a lay-by berth behind the locks fits a full tank sequence; an anchorage wait fits a laden tanker's empty ballast tanks. CVIP assigns modules to windows in advance, so every Le Havre visit adds a known piece to the record."
+    },
+    {
+      "h": "Built for a yard in another country",
+      "p": "The old-port dry docks take small and mid-sized ships, so the large ships calling here usually dock abroad. The programme's trend record travels with them: a measured steel and pipe list, with corrosion rates, that the foreign yard and its class surveyor can work from on arrival."
+    },
+    {
+      "h": "Channel scrubber duty followed over time",
+      "p": "Inside the North Sea SOx ECA, scrubber-fitted container ships and car carriers run their systems all the way up the Channel to the berth. Their wash-water and overboard lines, read at the same positions on repeat Le Havre calls, show which sections are wearing fastest and which can wait."
+    }
+  ],
+  "sections": [
+    {
+      "id": "estuary-windows-le-havre",
+      "h": "Which Le Havre berths and anchorages suit each part of an owner's condition assessment?",
+      "p": [
+        "The programme begins by matching what the ship needs to where in the estuary she will be. At the Port 2000 terminals a container call is tightly windowed, so a visit takes ballast tanks, voids, the engine room, scrubber piping and deck structure clear of the crane lanes, and holds are entered once the chief officer and the terminal's stevedores settle a safe order. In the inner basins behind the locks, a ship on a lay-by berth between charters has no cargo operations at all, which makes it the natural place for a deep baseline or a heavy tank module.",
+        "At the oil berths, and at Antifer on the coast north of the city, tankers are worked to the terminal's rules: cargo tanks stay closed during cargo work and battery-powered instruments in hazardous zones need permission. The Baie de Seine anchorage is often more useful for them: a laden tanker arrives with empty ballast tanks, and a launch-served visit there can read them before ballasting begins at discharge. The old-port dry docks and repair quays serve ferries, dredgers, port craft and other smaller ships, and Rouen's grain terminals upriver can be reached by road on the same mobilisation."
+      ],
+      "list": [
+        "Port 2000: ballast tanks, voids, engine room, scrubber lines and deck structure within the berth window",
+        "Inner basins behind the locks: full tank sequences and baselines on ships laid by between charters",
+        "Oil berths and the Antifer crude terminal: deck and ballast-tank work under terminal rules",
+        "Baie de Seine anchorage: empty ballast tanks on laden tankers, reached by launch",
+        "Old-port dry docks and repair quays: dry hull and opened tanks on smaller ships",
+        "Rouen grain terminals: holds, hatch covers and ballast tanks on bulk carriers, by road"
+      ]
+    },
+    {
+      "id": "ships-le-havre-cvip",
+      "h": "Container ships, tankers and car carriers: which Le Havre callers gain from a programme?",
+      "p": [
+        "Container ships on the Asia–North Europe and transatlantic loops call at Le Havre on fixed rotations, so a repeat visit can be planned against a known date. They are not ESP ships; their class gauging follows UR Z7 and the society's own rules, widening at each renewal survey, with the coamings, deck longitudinals and double-bottom tanks drawing most attention. An owner who wants that structure followed more closely than the class minimum, together with scrubber piping and machinery, finds a programme the obvious tool.",
+        "Crude, product and chemical tankers using the oil terminals and Antifer are ESP ships under IACS UR Z10.1, Z10.4 or, for chemical carriers, Z10.3, with vetting and charterer scrutiny tightening as they age, and their ballast tank coatings and under-deck structure reward watching between surveys. Car carriers and ro-ro ships, many of them scrubber-fitted, carry their own wear points in vehicle decks, ramps and hinges. Cross-Channel ro-pax ferries, cruise ships, and the offshore wind installation and service vessels drawn by the turbine factory on the port's industrial zone can all join a fleet programme on the same report format."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-le-havre",
+      "h": "Owner's CAS and owner's CAP in the Seine estuary, and the limits of each name",
+      "p": [
+        "Superintendents who ask for an owner's CAS or owner's CAP at Le Havre are describing a standard of work. The IMO Condition Assessment Scheme, verified by the flag for certain older oil tankers, and the class Condition Assessment Programme, a rating a society grants under its own procedure, both rest on a planned close-up survey, gauging at defined locations, graded findings and one report on the whole ship. CVIP carries out that same sequence whenever the owner, manager, charterer or financier wants it, on their schedule and for their decisions.",
+        "What it does not do is stand in for either scheme. No CAP rating or CAS Statement of Compliance comes out of a CVIP visit, and when the charterer of a tanker discharging at Antifer requires a class CAP, the owner arranges it with the ship's society, using the programme history to anticipate the result. Thickness readings sit on the same side of the line. Atlantis's UR Z17 approvals from DNV, Lloyd's Register and ABS are still being obtained, so for now the readings from a Le Havre programme feed the owner's planning and carry no class survey credit, and crack detection at hatch corners and coaming brackets is likewise the owner's NDT record."
+      ]
+    },
+    {
+      "id": "record-for-yard-le-havre",
+      "h": "How does a Le Havre trend record prepare a docking at a yard abroad?",
+      "p": [
+        "Because the large ships calling here dock elsewhere, the programme's main output for many owners is a specification a foreign yard can act on. Readings taken across several Le Havre calls give each numbered plate and member a corrosion rate as well as a present thickness, so the superintendent can separate steel that is beyond its allowable margin now from steel that will pass it before the following docking, and decide which to renew this time. Pipe spools for scrubber and sea-water lines can be ordered with the same confidence.",
+        "The record is laid out so the yard and the class surveyor there can use it directly: points located by frame, strake and member on the ship's drawings, coating condition graded in the terms hull surveys use, and a plain statement of what each visit reached and what it did not. After the docking, renewed areas are measured again at the next Le Havre call, and the trend carries on from the new steel."
+      ]
+    },
+    {
+      "id": "repeat-visits-le-havre",
+      "h": "What does each repeat visit measure, whichever part of the estuary the ship is in?",
+      "p": [
+        "Consistency comes from fixing the points, not the place. Thickness locations, crack detection sites and coating photograph positions are numbered once on the drawings, so a ballast tank read at anchor in the Baie de Seine on one voyage and alongside in the inner basins on another produces comparable figures. Every machinery reading is logged with the load the machine was under: generators and cargo-handling plant during a container call, ballast pumps while they work, ventilation fans on a car carrier while she loads.",
+        "Repeat visits are spaced according to what the baseline showed. Scrubber wash-water and overboard lines, which carry acidic flow on every Channel passage, are usually read again every six to twelve months at bends, reducers and the overboard penetration. Ballast tanks rated FAIR or POOR are revisited more often than sound ones, and switchboards and motor control centres are imaged once a year by a qualified thermographer. Each report states what has moved since the previous visit and since the baseline, so the superintendent sees direction as well as condition."
+      ]
+    },
+    {
+      "id": "planning-le-havre",
+      "h": "Planning Le Havre programme visits: Schengen visas, gate passes and launches",
+      "p": [
+        "What we need to start: the vessel list, structural drawings, the most recent gauging report, class survey status, the rotation or trading pattern with expected Le Havre calls, and the docking yard and date. We propose the window each module belongs to, whether the Port 2000 call, a lay-by period or an anchorage wait, and agree it with the superintendent. The ship's agent arranges ISPS gate passes for the named technicians and any launch out to the Baie de Seine.",
+        "Because France sits inside Schengen, each technician travels on a Schengen visa issued in India before departure. Applications are made against the programme calendar, with an invitation letter from the owner or agent naming the vessel and port, which spares the owner a fresh round of paperwork before each visit. The team flies into Paris Charles de Gaulle or Orly and continues by road or rail, with flights fixed against the agent's latest ETA. Port state control here follows the Paris MoU's risk-based targeting, so a visit ahead of a call also prepares the master for an inspector's questions. Details can go to info@atlantisndt.com or through the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships on Asia–North Europe and transatlantic loops",
+    "Crude tankers calling at the Antifer terminal",
+    "Product and chemical tankers at the oil terminals",
+    "Scrubber-fitted car carriers and ro-ro ships",
+    "Cross-Channel ro-pax ferries",
+    "Bulk carriers loading grain at Rouen",
+    "Offshore wind installation and service vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 – The baseline requirements for hull classification surveys",
+    "IACS UR Z10.1 / Z10.4 – Survey requirements for oil tanker hulls",
+    "IACS UR Z10.3 – Survey requirements for chemical tanker hulls",
+    "MARPOL Annex VI regulation 14 – Sulphur content limits in emission control areas",
+    "ISO 16809 – Non-destructive testing: ultrasonic thickness measurement",
+    "ISO 20816-1 – Machine vibration: measurement and evaluation guidelines"
+  ],
+  "deliverables": [
+    "Programme plan assigning modules to Port 2000 calls, inner-basin lay-bys, anchorage waits and the docking",
+    "Visit reports in a single structure, with movement since the previous visit and since the baseline",
+    "Steel and pipe-spool list with corrosion rates, located on the drawings for a yard abroad",
+    "Wall-thickness trend for scrubber wash-water and overboard lines at fixed positions",
+    "Machinery vibration and thermal trends at recorded operating conditions",
+    "Data files the owner keeps, ready for the yard, a charterer or a buyer"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Le Havre CVIP the same as CAS or CAP?",
+      "a": "It is a different kind of document. CAS is a flag-verified scheme for certain older oil tankers and CAP is a class rating; CVIP is an owner's programme that follows their method of planned close-up survey, gauging at defined points, graded findings and one report. It gives no Statement of Compliance and no rating. Owners call it an owner's CAS or CAP, and a required class CAP is booked with the society."
+    },
+    {
+      "q": "Can a programme visit fit a normal Port 2000 container call?",
+      "a": "Yes, provided the module is chosen for the berth time. Ballast tanks released by the chief officer, voids, the engine room, scrubber piping and deck structure clear of the crane lanes can be covered during cargo work. Holds are included where a safe sequence is agreed with the stevedores, and anything left over moves to a later call or a lay-by period in the inner basins."
+    },
+    {
+      "q": "Why use the Baie de Seine anchorage for programme visits?",
+      "a": "Because a laden tanker arrives with her ballast tanks empty, and once discharge starts the ballast goes in. A launch-served visit at anchor can enter those tanks and read their numbered points before berthing, weather permitting, which is often the last chance before the next docking. Deck structure and piping can be added while the team is aboard."
+    },
+    {
+      "q": "Our ship docks outside France. How does a Le Havre programme help the yard?",
+      "a": "The trend record gives the yard measured steel and pipe quantities with corrosion rates, located on the drawings, instead of an allowance. The superintendent can agree renewals before arrival and order long-lead spools early. The class surveyor at the yard still decides what is credited to the survey; the programme record tells everyone where to look and what to expect."
+    },
+    {
+      "q": "Can car carriers and ro-ro ships on Channel services join the programme?",
+      "a": "Yes. Their plans centre on vehicle decks, ramps, hinges and door frames, with magnetic particle testing at hinge lugs and brackets, plus scrubber lines and ventilation fans measured while they run during loading. A ship laid by in the inner basins between charters can take a fuller module, such as a tank sequence to renewal-survey depth, with no cargo operations to interrupt it."
+    },
+    {
+      "q": "Can bulk carriers loading grain at Rouen be covered on the same trip?",
+      "a": "Often, yes. Rouen is reached by road from Le Havre, so a team mobilised for a Le Havre visit can move upriver to a bulk carrier loading at the grain terminals, where holds, hatch covers and ballast tanks follow the programme's numbering. The agent coordinates passes and boarding times at both ports so the two visits do not collide."
+    }
+  ]
+}

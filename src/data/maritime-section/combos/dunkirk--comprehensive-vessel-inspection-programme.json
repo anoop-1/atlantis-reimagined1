@@ -1,0 +1,172 @@
+{
+ "port": "dunkirk",
+ "service": "comprehensive-vessel-inspection-programme",
+ "title": "CVIP Dunkirk | Owner's CAS/CAP for Ore Carriers, LNG and Ferries",
+ "description": "CVIP in Dunkirk (Dunkerque): an owner's CAS/CAP-style programme for ore carriers, LNG carriers and ferries, from the western quays to the Damen docks.",
+ "h1": "Comprehensive Vessel Inspection Programme in Dunkirk (Dunkerque): an Owner's Condition Assessment Shared Between the Deep-Water Quays, the Eastern Basins and the Damen Docks",
+ "intro": "Dunkirk sees the same hulls again and again: ore and coal carriers feeding the steelworks, LNG carriers on European discharge rotations and ro-pax ferries crossing the Dover Strait several times a day. CVIP, our Comprehensive Vessel Inspection Programme, turns those returns into a measured history. Owners often refer to it as an owner's CAS or owner's CAP, since it mirrors the shape of those schemes, yet it is commissioned for the owner's purposes and carries no class rating. A baseline visit sets the reference, repeat visits come back to the same points, and our technicians fly in from India for each one.",
+ "highlights": [
+  {
+   "h": "Two halves of one port",
+   "p": "The western port gives berth time during discharge; the eastern basins behind the locks give quiet lay-by days. A Dunkirk programme uses both, putting machinery and deck readings into working calls and the tank rounds into idle periods, so the ship is never held back for an inspection."
+  },
+  {
+   "h": "Grab-worn holds tracked across discharges",
+   "p": "Bulk carriers emptied by grabs at the ore and coal quays lose steel on hold frames, hopper plating and tank tops call after call. Measuring the same marked points on each discharge shows how fast that wastage is moving, long before the fifteen-year renewal survey forces the question."
+  },
+  {
+   "h": "Damen docks as the checkpoint",
+   "p": "When a ship enters a dry dock or the floating dock at Damen Shiprepair Dunkerque, the programme adds the dry bottom, sea chests and staged tank structure, then re-measures renewed steel before undocking so that the trend continues from the new plate rather than the old."
+  }
+ ],
+ "sections": [
+  {
+   "id": "where-dunkirk-cvip",
+   "h": "Where in Dunkirk each part of an owner's condition assessment is carried out",
+   "p": [
+    "Dunkirk splits naturally in two. Deep water and cargo work sit at Loon-Plage in the west; the older basins, reached through the locks, lie to the east with lay-by and repair berths. A programme does not try to cover the whole ship on one call. Instead it gives each module to the place where the ship already spends time and where that module can be done properly.",
+    "The table shows the usual allocation. It is agreed in the programme plan for each ship, and it is revised whenever the ship's pattern of calls changes."
+   ],
+   "table": {
+    "head": [
+     "Dunkirk setting",
+     "What it opens up",
+     "Modules usually taken there"
+    ],
+    "rows": [
+     [
+      "Ore and coal quays, western port",
+      "Hopper, topside and double-bottom ballast tanks during discharge; each hold once the grabs have cleared it",
+      "Hold frames and tank tops, ballast tank gauging and coating ratings, crack checks at hatch corners"
+     ],
+     [
+      "Dunkerque LNG terminal, Loon-Plage",
+      "Deck, ballast tanks and engine room within the terminal's safety rules; cargo containment stays outside scope",
+      "Ballast tank and deck gauging, machinery vibration and switchboard thermography under discharge load"
+     ],
+     [
+      "Ferry terminal for the Dover service",
+      "Vehicle decks, ramps and machinery between crossings",
+      "Ramp and car-deck checks, scrubber and sea-water piping, machinery readings"
+     ],
+     [
+      "Container and ro-ro terminals",
+      "Spaces clear of cargo work during short calls",
+      "Scrubber lines, engine-room tanks, deck structure"
+     ],
+     [
+      "Eastern basins behind the locks",
+      "Several uninterrupted days on a ship laid by",
+      "Baseline visits, full tank and hold rounds, hatch covers and closing appliances"
+     ],
+     [
+      "Damen Shiprepair Dunkerque dry docks and floating dock",
+      "Dry bottom, sea chests, rudder area and tanks reached from yard staging",
+      "Pre-docking and post-repair rounds, bottom and side shell, re-baselining of renewed steel"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "bulk-carriers-dunkirk",
+   "h": "Why ore and coal carriers calling at Dunkirk suit a programme",
+   "p": [
+    "The large bulk carriers that discharge iron ore and coal for the steel plant are worked hard. Grabs strike hold frames, brackets and hopper plating; wet coal promotes corrosion on tank tops and the lower parts of bulkheads; and repeated heavy loading flexes the hatch corners. None of that shows up as a single event. It accumulates voyage by voyage, which is exactly what a trend record is designed to capture.",
+    "These ships also face the extensive gauging of the Enhanced Survey Programme at their third renewal survey, at around fifteen years, and at every renewal after it. An owner who has measured the same hold frames on several Dunkirk discharges knows, well before the yard is booked, which holds will need steel, whether a frame repair has held, and whether another survey cycle makes commercial sense. Dry bulk charterers increasingly question older tonnage, and a lender reviewing a fleet will read measured history more readily than one recent report.",
+    "Because many of these carriers come back to the steelworks on a regular pattern, repeat visits take no extra port time: the technicians board as discharge starts and leave when the last hold is clear."
+   ]
+  },
+  {
+   "id": "ferries-dunkirk",
+   "h": "A condition record for a cross-Channel ferry that never leaves the ECA",
+   "p": [
+    "The Dover–Dunkirk ro-pax ferries live inside the North Sea SOx ECA and cross the strait several times a day. On a scrubber-fitted ferry the wash-water system works on every crossing, so the wash-water, overboard and drain piping, along with the shell plating at the discharge, loses wall thickness steadily. Vehicle decks under lashing points, ramp hinges and the plating around bow and stern doors take the wear of constant loading, and the machinery runs a duty cycle that few cargo ships match.",
+    "A programme for a ferry like this rests on two kinds of visit. Short ones, taken at the berth between crossings, repeat piping readings, crack checks on ramp and door details, and vibration and thermal readings on main and auxiliary machinery. A longer one, during the refit at Damen Shiprepair Dunkerque, adds the tanks, the dry shell and anything that needs staging. The refit visit also serves the yard: readings gathered on earlier crossings tell the refit manager which plates and pipe spools to order before the ferry arrives, so renewal is not left waiting for steel."
+   ]
+  },
+  {
+   "id": "owners-cas-cap-dunkirk",
+   "h": "Owner's CAS or owner's CAP at Dunkirk: what the programme borrows from the official schemes",
+   "p": [
+    "When a technical manager asks for an owner's CAP on a Capesize that discharges at Dunkirk, the request is usually for a whole-ship picture of the kind a class Condition Assessment Programme produces: close-up survey to a written plan, gauging at fixed positions, coating condition graded GOOD, FAIR or POOR, machinery examined and each finding ranked. CVIP follows that pattern. The difference is who stands behind the result. CVIP is commissioned and owned by the owner, manager, charterer or financier; no classification society issues a rating from it, and no flag Administration reviews it for a CAS Statement of Compliance.",
+    "That matters on the day a charterer specifies an official rating. The owner then books the class CAP with the ship's society, and the programme's readings show beforehand where the hull stands and which renewals would lift the grade. The IMO Condition Assessment Scheme itself applies to certain older oil tankers, which rarely appear in Dunkirk's trades, so when brokers here speak of an owner's CAS they generally mean a condition assessment built on that model rather than the flag scheme.",
+    "The readings are the owner's evidence, not class records. Thickness measurement that a society credits to its survey must come from a firm the society has approved under IACS UR Z17. That approval is something Atlantis is in the process of obtaining, through audits with DNV, Lloyd's Register and ABS, while the certificate itself is still awaited; for now, every programme reading is evidence for the owner's own decisions and none of it counts towards a class survey. On LNG carriers the programme measures hull, ballast tanks, deck and machinery, and the cargo containment systems stay outside it."
+   ]
+  },
+  {
+   "id": "trend-signals-dunkirk",
+   "h": "What a Dunkirk trend record tells the owner, visit by visit",
+   "p": [
+    "Repeat visits earn their place through what they reveal that a single survey cannot. The signals below are the ones owners of Dunkirk-calling ships most often act on once a few visits are in the record."
+   ],
+   "list": [
+    "A hold frame or bracket whose wastage rate has steepened since the last discharge, pointing to grab damage rather than corrosion alone",
+    "Coating in a hopper or topside tank slipping from FAIR to POOR, which brings a coating decision forward before the renewal survey",
+    "Wall loss on a ferry's scrubber overboard line nearing its renewal thickness, so the spool can be ordered for the next refit",
+    "A crack indication at a hatch corner or ramp hinge that has grown, held steady or reappeared after repair",
+    "A rising vibration trend on a ballast pump or engine-room auxiliary, read with the load recorded each time",
+    "A switchboard or motor control centre connection running hotter on successive thermal surveys",
+    "Plates renewed in the Damen docks re-measured as a fresh reference, so old and new steel are never mixed in one trend"
+   ]
+  },
+  {
+   "id": "planning-dunkirk",
+   "h": "Planning Dunkirk visits around the locks, the LNG terminal and visas from India",
+   "p": [
+    "A programme knows its visits well ahead, which suits the travel. For each planned visit we apply for the technicians' Schengen visas in India against the expected Dunkirk date, backed by a letter from the owner or the yard that names the ship. Flights usually route into Paris Charles de Gaulle or Brussels, with the last leg by rail or road. The ship's agent requests ISPS passes for the western terminals, and Damen Shiprepair Dunkerque handles yard access during a docking.",
+    "Some constraints are local. Ships in the eastern basins move through the locks on the port's schedule, so boarding is timed to the ship's movement rather than to a fixed hour. The LNG terminal sets its own rules on who boards and what equipment comes aboard, and those are settled before the visit. Since the same Schengen visa is valid in Belgium, a Dunkirk visit can share a journey with a sister ship calling along the Belgian coast. For the baseline, send structural drawings with as-built scantlings, the latest thickness report, class survey status, the planned maintenance equipment list and any earlier thermal or vibration reports, together with the expected calls for the coming year. To start a Dunkirk programme, email info@atlantisndt.com or send the details through the enquiry form below."
+   ]
+  }
+ ],
+ "vessels": [
+  "Capesize and other large bulk carriers in the ore and coal trades",
+  "LNG carriers on European discharge rotations",
+  "Ro-pax ferries on the Dover Strait crossing",
+  "Container ships and car carriers at the western terminals",
+  "General cargo ships laid by in the eastern basins",
+  "Dredgers and offshore vessels docking at Damen",
+  "Sister bulk carriers under one technical department"
+ ],
+ "codes": [
+  "IACS UR Z10.2 and UR Z10.5 – Hull survey requirements for single-side and double-skin bulk carriers",
+  "IACS UR Z7 – Hull classification surveys",
+  "2011 ESP Code under SOLAS XI-1/2 – Enhanced survey programme for bulk carriers",
+  "MARPOL Annex VI regulation 14 – Sulphur limits inside emission control areas",
+  "ISO 20816-1 – Measurement and evaluation of machine vibration",
+  "ISO 18434-1 – Condition monitoring and diagnostics of machines: thermography"
+ ],
+ "deliverables": [
+  "Programme plan assigning each module to the western quays, the eastern basins or a Damen docking",
+  "Baseline report describing hold, tank, piping, closing-appliance and machinery condition as found",
+  "Visit reports in one format, comparing every reading with the baseline and the previous visit",
+  "Hold-by-hold wastage and coating trend for bulk carriers, with likely renewal areas marked",
+  "Pre-refit list of plates and pipe spools for the yard, located on the ship's drawings",
+  "Data files of thickness, vibration and thermal readings that the owner keeps"
+ ],
+ "faqs": [
+  {
+   "q": "Is CVIP at Dunkirk the same thing as CAS or CAP?",
+   "a": "It follows their pattern but not their authority. Like the IMO Condition Assessment Scheme and a class Condition Assessment Programme, it combines close-up survey, gauging at set positions, coating and machinery assessment and graded findings in one report, which explains why owners describe it as an owner's CAS or owner's CAP. It is commissioned for the owner, though, so there is no flag Statement of Compliance and no class rating. Where a charterer insists on the official CAP, the owner books it with class."
+  },
+  {
+   "q": "Can a programme visit fit into an ore discharge at the western port?",
+   "a": "Usually, yes. Ballast tanks in the hopper, topside and double bottom are gauged while the grabs work, and each hold is taken as soon as it is cleared and declared safe to enter. Machinery readings fit into the same call. If discharge finishes early, the visit's priority list decides which readings are taken on this call and which wait for a later one, so the ship keeps her sailing time."
+  },
+  {
+   "q": "Do you measure LNG carriers at the Dunkerque LNG terminal as part of a programme?",
+   "a": "Yes, subject to the terminal's safety regime and the ship's own permits to work. The programme covers hull structure, ballast tanks, deck and piping, together with vibration and thermography of machinery and electrical equipment running during discharge. Cargo containment systems are not inspected. The terminal's requirements on boarding and equipment are agreed through the ship's agent before each visit, so the team arrives with a fixed list of spaces."
+  },
+  {
+   "q": "How does a ferry refit at Damen Shiprepair Dunkerque fit into the programme?",
+   "a": "It is the programme's main checkpoint for that ferry. Readings taken at the berth on earlier crossings give the refit manager a list of steel and pipe renewals before the yard period starts. During the refit the team adds tanks, dry shell and staged areas, then re-measures renewed plates and spools so the trend carries on from the new material when the ferry returns to service."
+  },
+  {
+   "q": "Which machinery checks are included on a Dunkirk visit?",
+   "a": "Vibration analysis on rotating plant such as pumps, compressors, fans and engine-room auxiliaries, and infrared thermography of electrical switchboards, motor control centres, electric motors and exhaust-side hot surfaces. Both are carried out by qualified analysts and thermographers, with the machine's load recorded so readings can be compared fairly between visits. Lube oil analysis is not part of our work, though results from the owner's own sampling can be referred to in the report."
+  },
+  {
+   "q": "Can sister bulk carriers trading to the Dunkirk steelworks share one programme?",
+   "a": "Yes. The measurement plan is drawn once for the design, with identical point numbers on each hull, and each ship is visited on its own discharges. Comparing sisters side by side shows which one is losing steel fastest, and often why: a different cargo history, a coating repair that failed, or heavier grab damage in particular holds."
+  }
+ ]
+}

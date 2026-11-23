@@ -37,7 +37,7 @@
       "id": "why-types-differ",
       "h": "Why is each type of ship inspected differently?",
       "p": [
-        "Three things separate one ship type from another in an inspector's eyes. The structural arrangement decides where stress gathers: an open-hatch hull carries its strength in the coamings and deck strips, a double hull spreads it through a cellular box, and a ro-ro deck spans wide open spaces on deep transverse frames. The cargo decides what attacks the steel from inside: abrasive ore and acidic coal, crude oil with water settling beneath it, aggressive chemicals, liquefied gas at around minus 162 degrees Celsius, or vehicles bringing salt and water aboard. And the trade decides the loading pattern and the number of cycles: alternate-hold loading, fast container turnarounds or daily ferry crossings.",
+        "Three things separate one ship type from another in an inspector's eyes. The structural arrangement decides where stress gathers: an open-hatch hull carries its strength in the coamings and deck strips, a double hull spreads it through a cellular box, and a ro-ro deck spans wide open spaces on deep transverse frames. The cargo decides what attacks the steel from inside: abrasive ore and acidic coal, crude oil with water settling beneath it, aggressive chemicals, liquefied gas at about minus 162 °C, or vehicles bringing salt and water aboard. And the trade decides the loading pattern and the number of cycles: alternate-hold loading, fast container turnarounds or daily ferry crossings.",
         "Statutory rules follow the same lines. Bulk carriers have SOLAS chapter XII, gas carriers the IGC Code, chemical tankers the IBC Code and oil tankers MARPOL Annex I, and each adds structural or equipment requirements that the surveyor checks alongside the class hull survey."
       ]
     },
@@ -63,7 +63,7 @@
           ["Chemical tanker", "UR Z10.3 through class; IBC Code", "Stainless or coated cargo tanks, cargo pumps and lines, ballast tanks, cofferdams", "Pitting and weld attack in stainless, lining breakdown, pipe wall loss"],
           ["Container ship", "UR Z7", "Hatch corners and coaming tops, sheer strake, cell guides, hatch cover pads, lashing bridges", "Fatigue cracks, contact damage, wasted hatch cover fittings"],
           ["Gas carrier (LNG, LPG)", "UR Z7.2 for the hull, UR Z16 for cargo installations; IGC Code", "Inner hull and hold spaces around the containment, insulation, ballast tanks", "Cold spots on inner hull steel, ballast tank corrosion, support and insulation defects"],
-          ["General cargo and multipurpose", "UR Z7.1", "Holds and tweendecks, hatch covers, cranes and pedestals, ballast tanks", "Frame wastage, tweendeck damage, crane pedestal cracks"],
+          ["General cargo and multipurpose", "UR Z7.1 for single-side-skin holds; UR Z7 for full double-side-skin designs", "Holds and tweendecks, hatch covers, cranes and pedestals, ballast tanks", "Frame wastage, tweendeck damage, crane pedestal cracks"],
           ["Ro-ro, ro-pax, car carrier", "UR Z7; doors to UR S8 and S9", "Bow, inner, side and stern doors, ramps, vehicle decks", "Worn hinges and locks, door seal leaks, vehicle deck corrosion and deformation"]
         ]
       }

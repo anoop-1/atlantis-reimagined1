@@ -1,0 +1,165 @@
+{
+ "port": "algeciras",
+ "service": "comprehensive-vessel-inspection-programme",
+ "title": "CVIP Algeciras | Owner's CAS/CAP at Bunkering and Relay Stops",
+ "description": "CVIP in Algeciras Bay: an owner's CAS/CAP-style programme fitted into bunkering stops, crew changes and relay calls, with the docking at a nearby yard.",
+ "h1": "Comprehensive Vessel Inspection Programme in Algeciras Bay: an Owner's Condition Assessment Carried Out During the Stops Ships Already Make at the Strait",
+ "intro": "Most ships that use Algeciras are not calling for the port itself. They relay containers, discharge at the San Roque refinery, take bunkers from barges at anchor or wait in the bay for orders or a crew change, and many return to the Strait several times a year. CVIP, our Comprehensive Vessel Inspection Programme, uses those stops as visit slots. Owners know it as an owner's CAS or owner's CAP: the whole-ship condition assessment pattern of the official schemes, run for their own purposes. Each visit brings our technicians from India to the ship, whether she lies at a berth or at anchor.",
+ "highlights": [
+  {
+   "h": "Every stop at the Strait is a slot",
+   "p": "A ship that bunkers in the bay on each passage offers a recurring window at anchor. The programme plan lists which modules fit a bunkering stop, which need a berth and which wait for the docking, so a visit is ready whenever the ship turns up."
+  },
+  {
+   "h": "A dockless bay, an unbroken record",
+   "p": "Algeciras has no repair dock of its own. The afloat visits build the record, and when the ship goes into a Gibraltar or Bay of Cádiz yard, the programme's point numbers follow her there, and the dry hull completes the picture."
+  },
+  {
+   "h": "Scrubber lines inside the Med ECA",
+   "p": "Since the Mediterranean ECA took effect, scrubber-fitted ships in the bay run their systems throughout the stay. Repeat gauging of wash-water and overboard lines at each programme visit turns a vague leak risk into a measured rate of wall loss."
+  }
+ ],
+ "sections": [
+  {
+   "id": "stops-as-visits-algeciras",
+   "h": "Bunkering stops, crew changes and relay calls as programme visits",
+   "p": [
+    "A conventional condition survey asks the ship to stop for it. In Algeciras that is rarely realistic: a container ship on a relay call has a crane programme to meet, a tanker at a refinery berth has a discharge plan, and a bulk carrier at anchor may weigh as soon as its barge casts off. What these ships do have is regularity. A mainline ship on an Asia–Europe loop, a product tanker serving the refinery or a bulk carrier that habitually tops up its bunkers before entering the Mediterranean passes the bay again and again.",
+    "CVIP turns that pattern into a schedule. Instead of one long attendance, the programme is a sequence of short visits, each sized to the stop the ship is actually making, each repeating the marked points of the baseline and adding the modules that stop allows. Over a year, the bay by itself can supply most of the machinery, piping, deck and ballast tank readings that a whole-ship assessment needs."
+   ]
+  },
+  {
+   "id": "modules-by-stay-algeciras",
+   "h": "Which CVIP modules fit which kind of stay in Algeciras Bay",
+   "p": [
+    "The match between stop and module is fixed in the programme plan before the baseline, so the technicians board knowing what to measure. Weather, berth changes and the master's permits can still shorten a stay; when that happens, the visit's priority order decides what is taken now and what waits."
+   ],
+   "table": {
+    "head": [
+     "Type of stay",
+     "Typical access",
+     "Modules that usually fit"
+    ],
+    "rows": [
+     [
+      "Bunkering at anchor",
+      "Launch boarding; deck, engine room and ballast tanks certified for entry",
+      "Machinery vibration and thermography, scrubber and sea-water piping, one or two ballast tanks"
+     ],
+     [
+      "Crew change or waiting for orders at anchor",
+      "Longer and less predictable; the crew can prepare spaces in advance",
+      "Ballast tank and void rounds, coating ratings, crack checks at fatigue details"
+     ],
+     [
+      "Relay call at a container terminal",
+      "Spaces clear of cargo while the cranes work",
+      "Engine-room tanks, scrubber casing and lines, steering gear flat, deck structure"
+     ],
+     [
+      "Refinery berth at San Roque",
+      "Deck, pump room and segregated ballast under the terminal's permits",
+      "Deck plating and piping, cargo pump drives under load, ballast tanks"
+     ],
+     [
+      "Ro-pax lay-over or off-season period",
+      "Car decks and ramps between crossings or during maintenance",
+      "Car-deck and ramp checks, hinge crack detection, fire main and sea-water lines"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "no-dock-algeciras",
+   "h": "A programme without a dock in the bay: where the dry hull comes in",
+   "p": [
+    "Algeciras is a port for working ships, not for repairing them, so the bottom shell, sea chests and rudder area cannot be seen there. In a CVIP programme that is not a gap but a division of labour. The afloat visits in the bay carry the trend for everything reachable with the hull wet, and the docking, at Gibraltar, in the Bay of Cádiz or at whatever yard the owner chooses, is planned as the programme's checkpoint for the rest.",
+    "The order matters. A visit in the bay some months before the docking compares the latest tank and piping readings with the baseline and turns them into a renewal list the yard can plan against. During the docking, the team adds the dry hull and the tanks reached from staging. After the repairs, renewed plates and pipes are measured again so that later visits in the bay compare against new steel. The point numbering stays the same from the anchorage to the dock and back."
+   ]
+  },
+  {
+   "id": "owners-cas-cap-algeciras",
+   "h": "Owner's CAS and owner's CAP for ships that stop at the Strait without calling",
+   "p": [
+    "Superintendents of tankers and bulk carriers passing Algeciras often use the terms owner's CAS and owner's CAP for what they want from a programme: the depth of a Condition Assessment Scheme or a class Condition Assessment Programme, without waiting for a flag Administration or a society to schedule it. CVIP gives that depth on the owner's timetable. It follows the familiar sequence of a plan drawn from drawings and survey history, close-up examination, gauging at numbered positions, coatings graded, machinery assessed and one report for the ship.",
+    "What CVIP does not give is the standing of the official documents. There is no Statement of Compliance from a flag, no rating from a society, and nothing in the programme stands in for them where a charterer, a terminal or an Administration requires them. When a vetting department asks for a class CAP rating on an older tanker serving the refinery, the owner books it with the ship's society, often at the docking, and the programme shows in advance which tanks would drag the grade down.",
+    "The same line applies to the readings. IACS UR Z17 approval is what a firm needs for its gauging to be credited by class, and Atlantis is in the process of obtaining it, with audits by DNV, Lloyd's Register and ABS. Until one of those societies issues a certificate, gauging from a programme visit feeds the owner's choices about steel renewal, dock timing, charters and any sale, and is never presented as class survey credit."
+   ]
+  },
+  {
+   "id": "anchorage-checklist-algeciras",
+   "h": "Before the launch goes out: a checklist for an anchorage visit",
+   "p": [
+    "Anchorage visits are where most Algeciras programmes gain or lose time. Superintendents who confirm the points below before the ship arrives give the technicians a full working window rather than part of one."
+   ],
+   "list": [
+    "The expected anchoring time and the bunkering or crew-change plan, shared with us and the agent as soon as the ship's ETA firms up",
+    "A launch booked by the agent for boarding at the start of bunkering, and a return trip booked with some margin",
+    "The list of spaces for this visit taken from the programme plan, with the crew told which tanks to ventilate and certify",
+    "Gas-free certificates, entry permits and lighting ready for the ballast tanks and voids on that list",
+    "An engineer available to run pumps, compressors and generators at the agreed load for vibration and thermal readings",
+    "Cleaned surfaces at the fatigue details due for crack detection on this visit",
+    "A fallback list of modules that can still be done if the Levante delays the launch or the stay is cut short"
+   ]
+  },
+  {
+   "id": "planning-algeciras",
+   "h": "Planning Algeciras visits from India: flights, Schengen visas and the agent",
+   "p": [
+    "Technicians reach the bay through Málaga, Seville or Jerez, or through Gibraltar when UK connections are convenient, and finish the journey by road. Each travels on a Schengen visa, so the programme's visit calendar is shared with us early and the applications follow it; for a ship whose stops are irregular, we agree a window of likely dates rather than a single call. The ship's agent arranges ISPS gate passes for terminal visits and the launch for anchorage visits.",
+    "The baseline is prepared from the ship's drawings showing as-built scantlings, her most recent gauging report, her survey status and next docking date, the planned maintenance equipment register, any earlier thermography or vibration reports and a note of how often, and why, she usually stops at the Strait. Programme enquiries can be emailed to info@atlantisndt.com, or sent with the form further down."
+   ]
+  }
+ ],
+ "vessels": [
+  "Mainline and feeder container ships relaying at the bay's terminals",
+  "Crude and product tankers serving the San Roque refinery",
+  "Bulk carriers bunkering or waiting for orders at anchor",
+  "Car carriers calling on Strait rotations",
+  "Ro-pax ferries on the Tanger Med, Tangier and Ceuta crossings",
+  "Chemical tankers",
+  "Sister ships that bunker at the Strait on every passage"
+ ],
+ "codes": [
+  "IACS UR Z7 – Hull classification surveys",
+  "IACS UR Z10.1, Z10.2 and Z10.4 – Hull surveys of oil tankers, bulk carriers and double-hull oil tankers",
+  "Enhanced Survey Programme (2011 ESP Code, SOLAS XI-1/2) for tankers and bulk carriers",
+  "MARPOL Annex VI regulation 14 – Emission control areas and sulphur limits",
+  "ISO 20816-1 – Measurement and evaluation of machine vibration",
+  "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement"
+ ],
+ "deliverables": [
+  "Programme plan matching each module to bunkering stops, crew changes, berth calls and the docking",
+  "Baseline report of hull, tanks, piping, closing appliances and machinery condition",
+  "A short visit report after every stop, in the same format, with changes since the baseline",
+  "Scrubber and sea-water piping wall-loss trend with projected renewal timing",
+  "Pre-docking renewal list for the chosen yard, keyed to the programme's point numbers",
+  "Owner-held data files of every reading taken in the bay and at the yard"
+ ],
+ "faqs": [
+  {
+   "q": "Is an owner's CAS or CAP in Algeciras the same as the official CAS or CAP?",
+   "a": "No, although the method is close. CVIP surveys, gauges, grades coatings and assesses machinery to a plan in the way the official schemes do, which is why owners borrow those names for it. It is commissioned by and reported to the owner. No flag issues a Statement of Compliance and no society issues a rating, so where a charterer or Administration needs the official document, it still has to come from class or flag."
+  },
+  {
+   "q": "What can be measured on a programme visit during a bunkering stop?",
+   "a": "Usually the machinery module, with vibration and thermal readings taken while the ship's plant is running, plus scrubber and sea-water piping and one or two ballast tanks the crew has prepared. A bunkering stop is short and uncertain, so the visit carries a priority order agreed in advance. Anything not reached rolls forward to the next stop at the Strait or to the docking."
+  },
+  {
+   "q": "Our ships pass the Strait irregularly. Can a programme still be based on Algeciras?",
+   "a": "Yes, if the plan allows for it. We set a visit window rather than a fixed date, keep visas valid for the period and arrange with the agent to board whenever the ship next anchors or berths in the bay. Where a ship also calls at other European ports, some visits can be taken there instead, keeping the same point numbers and report format."
+  },
+  {
+   "q": "Where are the dry hull and sea chests measured if Algeciras has no dock?",
+   "a": "At the ship's docking. Many ships passing the bay use yards at Gibraltar or around the Bay of Cádiz, but the yard is the owner's choice. The programme treats the docking as a planned checkpoint: a pre-docking visit in the bay sets the renewal list, the team adds the dry hull and staged tanks in dock, and renewed steel is re-measured before the ship sails."
+  },
+  {
+   "q": "Does the programme include tankers at the San Roque refinery berths?",
+   "a": "Yes. On a berth visit, deck plating and piping, the pump room, segregated ballast tanks and the machinery running for discharge are measured under the terminal's permit rules. Cargo tank internals need a gas-free window, which normally comes at a lay-by or the docking. The programme collects those readings when the window arrives, keeping the trend complete across the ship."
+  },
+  {
+   "q": "Can ro-pax ferries on the Strait crossings join a programme?",
+   "a": "They can. Ferries on the Tanger Med, Tangier and Ceuta links return to the same berth many times a day, so lay-overs suit short, repeated checks of car decks, ramps, hinge details and piping, while the off-season maintenance period takes the tanks. The summer Operación Paso del Estrecho is the busiest time, so the plan keeps heavier modules for the quieter months."
+  }
+ ]
+}

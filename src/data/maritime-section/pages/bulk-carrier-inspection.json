@@ -26,7 +26,7 @@
       "id": "why-bulk-carriers-differ",
       "h": "Why are bulk carriers inspected more intensively than other dry cargo ships?",
       "p": [
-        "Bulk carriers are the reason the enhanced survey programme exists. A series of losses around 1990 led the IMO to adopt, in November 1993, guidelines on an enhanced programme of inspections for bulk carriers and oil tankers (resolution A.744(18)). SOLAS chapter XII, with safety measures written for bulk carriers, followed later in the decade, and the guidelines gave way to the 2011 ESP Code, resolution A.1049(27), made mandatory by SOLAS chapter XI-1 regulation 2.",
+        "Bulk carriers are the reason the enhanced survey programme exists. A run of bulk carrier losses in the early 1990s led the IMO to adopt, in November 1993, guidelines on an enhanced programme of inspections for bulk carriers and oil tankers (resolution A.744(18)). SOLAS chapter XII, with safety measures written for bulk carriers, followed later in the decade, and the guidelines gave way to the 2011 ESP Code, resolution A.1049(27), made mandatory by SOLAS chapter XI-1 regulation 2.",
         "The design explains the attention. Large open holds leave longitudinal strength to the deck strips beside the hatches, the coamings and the bottom; cargo works directly on the hold frames; and dense cargoes loaded in alternate holds concentrate load on the double bottom and bulkheads, making a flooded forward hold a serious threat."
       ]
     },
@@ -104,7 +104,7 @@
       "id": "hatch-covers-coamings",
       "h": "Hatch covers and coamings: what surveyors and crews check",
       "p": [
-        "At every annual survey class examines hatch covers and coamings, confirms no unapproved changes and has covers opened, closed and secured as a random operation check. On a bulk carrier, covers and coamings receive close-up survey at every renewal survey, with thickness measurement added as the ship ages.",
+        "At every annual survey class examines hatch covers and coamings and confirms no unapproved changes. Under UR Z10.2 the cover sets in the forward quarter of the ship and at least one other set are opened, closed and secured each year, so that every set is worked at least once in five years. Covers and coamings also receive close-up survey at every renewal survey, with their plating and stiffeners gauged from renewal survey No. 2.",
         "The failures are predictable: top and skirt plates wasted at edges, stiffeners cracked at their ends, compression bars worn, rubber seals hardened or permanently set, cleats and cross-joint wedges seized or missing, drain channels and non-return valves blocked, and coaming stays cracked at the corners. Each lets water reach the cargo, and for many bulk cargoes wet damage means a claim.",
         "Resolution MSC.169(79) sets IMO standards for owners' inspection and maintenance of bulk carrier hatch covers between surveys. An ultrasonic tightness test with the covers secured finds where a seal is not making contact before loading."
       ],
@@ -119,7 +119,7 @@
       "id": "esp-extents-by-age",
       "h": "Bulk carrier ESP survey extents by age",
       "p": [
-        "UR Z10.2 numbers renewal surveys by age and tabulates the minimum close-up survey for each; frame close-up survey always includes the upper and lower end attachments and adjacent shell plating. The society's rules and the attending surveyor can extend any of it."
+        "UR Z10.2 numbers renewal surveys by age and tabulates the minimum close-up survey for each; from renewal survey No. 2 the frame close-up survey names the upper and lower end attachments and the adjacent shell plating. The society's rules and the attending surveyor can extend any of it."
       ],
       "table": {
         "head": [
@@ -133,7 +133,7 @@
             "No. 1",
             "Up to 5 years",
             "A quarter of the frames in the forward hold, plus selected frames in other holds",
-            "All hatch covers and coamings; selected bulkheads; a web in representative ballast tanks"
+            "All hatch covers and coamings; two selected hold bulkheads; a web in two representative ballast tanks of each type, topside and hopper"
           ],
           [
             "No. 2",
@@ -160,7 +160,7 @@
       "id": "gauging-between-renewals",
       "h": "Thickness measurement and the surveys between renewals",
       "p": [
-        "Gauging grows alongside close-up survey. Suspect areas and members under close-up survey are measured every time; transverse sections of deck plating outside the hatch openings increase with age and include one amidships; and wind-and-water strakes are measured more widely until, from renewal survey No. 4, all of them are gauged full length.",
+        "Gauging grows alongside close-up survey. Suspect areas are measured at every renewal survey, and from No. 2 the members under close-up survey are gauged as well. Two transverse sections of deck plating outside the hatch openings are taken at No. 2 and No. 3, rising to three at No. 4, with one amidships from No. 3; each deck plate outside the hatch line is gauged from No. 3 and each bottom plate from No. 4; and wind-and-water strakes are measured more widely until, from renewal survey No. 4, all of them are gauged full length.",
         "The surveys in between carry real weight. From ten years, annual surveys include an overall survey of every hold and close-up survey of at least a quarter of the frames in the forward hold, extended to another hold after fifteen years. From ten years the intermediate survey matches the previous renewal survey, and after fifteen it includes a dry-dock survey."
       ]
     },
@@ -168,16 +168,16 @@
       "id": "side-frame-renewal-criteria",
       "h": "Side shell frame renewal criteria: MSC.168(79) and UR S31",
       "p": [
-        "Single-side-skin hold frames have renewal criteria of their own. Resolution MSC.168(79), adopted in December 2004 for SOLAS regulation XII/14, sets side structure standards for new ships in one annex and renewal criteria for older ones in another; the IACS counterpart is UR S31. Each frame is split into zones from lower bracket to upper bracket, with representative thicknesses taken in each. A web reaching the renewal thickness is renewed; between that and a higher coating thickness, blasting and coating to an as-new standard plus tripping brackets is accepted instead.",
-        "Pits are measured where pitting exceeds 15 per cent of the area. Pitting or grooving may not leave less than 75 per cent of the as-built thickness in frame and bracket webs and flanges, or 70 per cent in shell, hopper and topside plating within 30 mm of the frame.",
-        "Regulation XII/14 bars single-side-skin bulk carriers of 150 m and upwards, over ten years old and carrying cargo of 1,780 kg/m³ or more, from sailing with any hold empty or under 10 per cent of its maximum allowable cargo weight, unless they meet the one-hold flooding and side structure standards."
+        "Single-side-skin hold frames have renewal criteria of their own. Resolution MSC.168(79), adopted in December 2004 for SOLAS regulation XII/14, sets standards for single-side-skin side structure in one annex and, in another, renewal criteria for the frames and brackets of ships not built to those standards; UR S31 is the IACS counterpart of the renewal criteria. Each frame is split into zones from lower bracket to upper bracket, with representative thicknesses taken in each. A web at or below its renewal thickness is renewed. Between that and a higher coating thickness, the frame is blasted and coated instead, tripping brackets are fitted, and the coating must then be kept in as-new condition at later intermediate and renewal surveys.",
+        "Pits are measured where pitting exceeds 15 per cent of the area. Pitting or grooving may not leave less than 75 per cent of the as-built thickness in frame and bracket webs and flanges, or 70 per cent in shell, hopper and topside plating within 30 mm either side of the frame.",
+        "Regulation XII/14 bars single-side-skin bulk carriers of 150 m and upwards, over ten years old and carrying cargo of 1,780 kg/m³ or more, from sailing in the full load condition (90 per cent or more of deadweight) with any hold loaded to less than 10 per cent of its maximum allowable cargo weight, unless they meet the one-hold flooding and side structure standards."
       ]
     },
     {
       "id": "water-ingress-systems",
       "h": "Water ingress alarms, forward pumping and the loading instrument",
       "p": [
-        "Chapter XII requires water level detectors in each hold, in ballast tanks forward of the collision bulkhead and in forward dry or void spaces other than the chain locker, alarmed on the bridge, with means to drain those forward spaces without crossing exposed decks. Ships of 150 m and upwards carry an approved loading instrument. UR Z10.2 has detectors and pumping tested at renewal surveys and detectors tested at random at annual surveys, so crew test records and detectors kept clear of residue avoid a failure on the day."
+        "Chapter XII requires water level detectors in each hold, in ballast tanks forward of the collision bulkhead and in forward dry or void spaces other than the chain locker, alarmed on the bridge, with means to drain those forward spaces without crossing exposed decks. Ships of 150 m and upwards carry an approved loading instrument. UR Z10.2 has the detectors and alarms examined and tested at renewal surveys, and at random at annual surveys, with the forward draining and pumping arrangements tested at both, so crew test records and detectors kept clear of residue avoid a failure on the day."
       ]
     },
     {
@@ -222,7 +222,7 @@
     "IACS UR Z10.2 – Hull surveys of bulk carriers",
     "IACS UR Z10.5 – Hull surveys of double skin bulk carriers",
     "IMO resolution MSC.168(79) – Standards and criteria for side structures of bulk carriers of single-side skin construction",
-    "IACS UR S31 – Renewal criteria for side shell frames and brackets in single side skin bulk carriers",
+    "IACS UR S31 – Renewal criteria for side shell frames and brackets in single side skin bulk carriers and single side skin OBO carriers not built in accordance with UR S12 Rev.1 or subsequent revisions",
     "IMO resolution MSC.169(79) – Standards for owners' inspection and maintenance of bulk carrier hatch covers",
     "IACS Recommendation 76 – Bulk carriers: guidelines for surveys, assessment and repair of hull structures",
     "IACS UR Z17 – Procedural requirements for service suppliers"
@@ -267,7 +267,7 @@
     },
     {
       "q": "What is the hold-empty restriction for older bulk carriers?",
-      "a": "SOLAS regulation XII/14 covers single-side-skin bulk carriers of 150 m and upwards, over ten years old, carrying cargo of 1,780 kg/m³ or denser. Unless they meet the one-hold flooding and side structure standards, they may not sail with a hold empty or below 10 per cent of its maximum allowable cargo weight. Frame assessment under MSC.168(79) is part of compliance."
+      "a": "SOLAS regulation XII/14 covers single-side-skin bulk carriers of 150 m and upwards, over ten years old, carrying cargo of 1,780 kg/m³ or denser. Unless they meet the one-hold flooding and side structure standards, they may not sail in the full load condition with any hold loaded below 10 per cent of its maximum allowable cargo weight. Frame assessment under MSC.168(79) is part of compliance."
     },
     {
       "q": "Can owner's gauging replace class thickness measurement on a bulk carrier?",

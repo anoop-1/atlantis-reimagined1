@@ -1,0 +1,142 @@
+{
+  "port": "trieste",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Trieste | Owner's CAS/CAP for SIOT Tankers and Ro-Ro",
+  "description": "CVIP at Trieste: an owner's CAS/CAP-style programme for crude tankers at SIOT and Turkish-trade ro-ro ships, built from short calls into one trend record.",
+  "h1": "Comprehensive Vessel Inspection Programme at Trieste: an owner's condition assessment for crude tankers at the SIOT terminal and ro-ro ships on the Turkish trailer runs",
+  "intro": "Trieste sees two kinds of ship again and again: crude tankers pumping cargo ashore at the SIOT terminal for the Transalpine Pipeline, and ro-ro freighters shuttling trailers to and from Turkey. Neither stays long, which is exactly why CVIP, our Comprehensive Vessel Inspection Programme, suits them. Owners often call it an owner's CAS or owner's CAP: a whole-ship condition assessment on the pattern of those schemes, commissioned for the owner's own requirement rather than by class. A baseline visit and later visits on regular Trieste calls build one trend record, and our technicians fly in from India for each of them.",
+  "highlights": [
+    {
+      "h": "Discharge windows that come round again",
+      "p": "A crude tanker supplying the Transalpine Pipeline returns to the Bay of Muggia on a pattern the charterer can usually predict. Each discharge gives a fixed spell for deck, piping, forecastle spaces and cargo pumps under load, so the programme books its tanker modules against calls already planned."
+    },
+    {
+      "h": "Two ends of one ro-ro rotation",
+      "p": "Some trailer ships on the Turkish runs shuttle between Trieste and Pendik on Istanbul's Anatolian shore. Vehicle decks, ramps and ballast tanks can then be divided between the two terminals, so the whole-ship assessment advances at both ends of the route without a lost sailing."
+    },
+    {
+      "h": "The yard leg across the Adriatic",
+      "p": "Cargo tanks are seldom gas-free at an oil terminal, so a tanker's tank round waits for the yard. When the ship heads for a northern Adriatic repair yard such as Viktor Lenac near Rijeka, the same team and point numbering follow her, and the dock visit slots into the record."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-trieste-cvip",
+      "h": "Where in the Trieste port system an owner's condition assessment takes place",
+      "p": [
+        "Trieste offers no lay-by berth where a tanker or ro-ro ship sits idle for days, so a programme here is assembled from working calls, anchorage waits and a yard stay elsewhere in the northern Adriatic. Each place contributes the modules its conditions allow, and the programme plan records which module belongs to which place before the baseline is booked.",
+        "Terminal rules shape what is possible as much as time does. At SIOT the terminal's safety regime governs instruments and access to the jetty, so the agent arranges clearance and induction ahead of every visit, and the work plan states which readings are taken from the deck and which wait for a gas-free ship."
+      ],
+      "list": [
+        "SIOT jetties in the Bay of Muggia: main deck plating, deck lines and manifolds, forecastle spaces, ballast tanks the master declares safe, and cargo pump drives read while discharge runs",
+        "Ro-ro berths of the port: vehicle decks, internal and stern ramps, lashing points and the ballast tanks below the main deck, one block per call",
+        "Trieste Marine Terminal on Molo VII: hatch covers, cross-deck structure and scrubber overboard lines on container ships during cargo work",
+        "Anchorage in the Gulf of Trieste: machinery and deck modules by launch while a ship waits for SIOT or a berth",
+        "Monfalcone commercial quays: hold frames and hatch coamings on bulk carriers once their holds are empty",
+        "Northern Adriatic repair yards, Viktor Lenac near Rijeka among them: cargo tanks, the dry bottom and sea chests when the tanker docks"
+      ]
+    },
+    {
+      "id": "tankers-trieste-cvip",
+      "h": "Crude tankers at SIOT: a programme built around vetting and the CAP decision",
+      "p": [
+        "The tankers that feed the pipeline to Austria, southern Germany and the Czech Republic are looked at by oil-major vetting departments every time they are fixed. As a tanker ages, the questions shift from paperwork to steel: what state are the ballast tanks in, how fast is under-deck structure wasting, and will the ship earn the CAP rating a charterer may ask for. A single survey answers those questions once. A programme that visits on successive Trieste discharges shows whether the answers are getting better or worse.",
+        "That trend is what a technical manager needs when choosing between three courses: book a class CAP survey now, carry out steel renewal at the next docking and book CAP afterwards, or sell the ship before either. Ballast tank coating ratings photographed from the same viewpoint each call, deck readings at numbered points, and cargo pump vibration taken during comparable discharges give that choice a measured basis.",
+        "Cargo tanks are the gap at a terminal. They are examined and gauged when the ship is gas-freed at a yard, and the programme treats that docking as its main checkpoint: a pre-docking round on an earlier Trieste call sets the expected renewal list, and the dock visit confirms or corrects it."
+      ]
+    },
+    {
+      "id": "roro-trieste-cvip",
+      "h": "Turkish-trade ro-ro ships: spreading a whole-ship assessment across a rotation",
+      "p": [
+        "Trailer traffic is hard on a ro-ro ship. Vehicle decks wear and dish where trailers turn, lashing pockets crack and corrode, ramp hinges and their seals take punishment at every berth, and the ballast tanks below the main deck suffer from condensation and from salt carried aboard on the trailers themselves. A ship that arrives and sails within the same day cannot be opened up in one call, but one that keeps returning can be assessed a block at a time.",
+        "In the programme plan the ship is divided into blocks: a group of vehicle deck strakes, one ramp and its hinges, a pair of ballast tanks, the engine room. Each Trieste call takes the next block, and where the rotation also calls at Pendik, some blocks can be taken at the Turkish end, subject to the team holding Turkish visas. After a set number of calls the whole ship has been covered once, which forms the baseline, and the cycle repeats so each block collects its second, third and fourth set of readings.",
+        "Machinery suits the same rhythm. Ramp hydraulic power packs, ventilation fans for the cargo decks and the main switchboards are read during cargo work, when they actually run, so vibration and thermal trends are built under the load the ship works at every week rather than on a quiet day alongside."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-trieste",
+      "h": "Owner's CAS and owner's CAP for a Trieste caller: what the programme borrows, and what it cannot award",
+      "p": [
+        "A request for an owner's CAP on a tanker discharging at SIOT, or an owner's CAS on an older ro-ro freighter, is a request for the discipline of those schemes without their paperwork. CVIP keeps the discipline: a survey plan drawn from the ship's drawings and survey history, close-up examination to that plan, thickness at defined positions, coating condition in GOOD, FAIR and POOR terms, machinery assessed under load, and graded findings collected in one report on the whole ship.",
+        "It cannot award what the official schemes award. The IMO Condition Assessment Scheme ends in a Statement of Compliance from the flag Administration and applies to a narrow group of older tankers; the Condition Assessment Programme ends in a rating issued by the ship's classification society. Neither comes out of CVIP. Where an oil major's vetting policy names a class CAP rating, the owner books it with the society, usually during a yard stay, and the programme's readings indicate beforehand where the ship is likely to stand.",
+        "Thickness readings follow the same line. Gauging credited to a class survey must come from a firm the ship's society has approved under IACS UR Z17; Atlantis is in the process of obtaining that approval from DNV, Lloyd's Register and ABS and has not yet been issued a certificate. CVIP readings at Trieste therefore serve the owner's own decisions on steel, docking, chartering and sale, and are not offered for class credit."
+      ]
+    },
+    {
+      "id": "modules-by-call-trieste",
+      "h": "Matching programme modules to the calls a Trieste ship makes",
+      "p": [
+        "The table shows how the usual modules are distributed across the places a Trieste trader uses. It is a starting pattern, adjusted for each ship once its calls, its docking date and its survey status are known, and revisited whenever the trade or the charterer changes."
+      ],
+      "table": {
+        "head": ["Programme module", "Tanker at SIOT", "Ro-ro on the Turkish runs", "Yard or dock stay"],
+        "rows": [
+          ["Hull, tanks and holds", "Ballast tanks declared safe; forecastle and void spaces", "Ballast tanks under the vehicle decks, a pair per call", "Gas-freed cargo tanks; every space reached from staging"],
+          ["Thickness at fixed points", "Main deck plating and deck lines", "Vehicle deck strakes, ramp plating, lashing pocket surrounds", "Bottom shell, sea chests, cargo tank structure"],
+          ["Crack detection", "Deck fittings and pipe supports where paint can be cleaned", "Ramp hinges, lashing pockets, deck penetrations", "Fatigue details named in the plan for the ship type"],
+          ["Piping and scrubber lines", "Deck cargo and ballast lines", "Scrubber wash-water and overboard lines, fire main", "Lines and shell outlets with the hull dry"],
+          ["Machinery condition", "Cargo pumps and drives during discharge", "Ramp hydraulics, cargo deck fans, switchboards", "Items not run in service, as the yard allows"]
+        ]
+      }
+    },
+    {
+      "id": "plan-trieste-cvip",
+      "h": "Planning visits around terminal clearance, Schengen visas and the run to the yard",
+      "p": [
+        "Tanker and ro-ro calls at Trieste are often confirmed close to the date, which is awkward for a team that needs Schengen visas issued in India. A programme removes most of that difficulty, because it is planned against the ship's expected calls over months rather than one nominated arrival. We ask the operator for the rotation or the trading pattern, the next docking and the class survey dates, and each technician's visa is applied for to cover a run of calls rather than a single one.",
+        "For the baseline we need structural drawings with original scantlings, the latest thickness measurement report, the class survey status with any outstanding items, the equipment list from the planned maintenance system and any earlier vibration or thermal reports. The ship provides permits and gas-free certificates for spaces to be entered, and an engineer to run machinery at the agreed load. The agent handles ISPS access at the ro-ro and container berths, SIOT clearance and launches for the Gulf anchorage. The team usually flies into Trieste Airport at Ronchi dei Legionari, which also puts Monfalcone within easy reach. To discuss a programme, write to info@atlantisndt.com or use the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude oil tankers discharging at the SIOT terminal",
+    "Ro-ro freighters on the Turkish trailer services",
+    "Scrubber-fitted container ships at Molo VII",
+    "Bulk carriers at the Monfalcone quays",
+    "General cargo ships",
+    "Cruise ships berthing at the Stazione Marittima",
+    "Sister ships on one rotation under a single technical department"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys, including coating condition ratings",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "2011 ESP Code (IMO resolution A.1049(27)), applied through SOLAS chapter XI-1 regulation 2",
+    "MARPOL Annex VI regulation 14 and the 2021 EGCS Guidelines (MEPC.340(77))",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines: thermography"
+  ],
+  "deliverables": [
+    "Programme plan assigning each module to SIOT discharges, ro-ro turnarounds and the next yard stay",
+    "Baseline report describing hull, tanks, piping, closing appliances and machinery as found",
+    "Visit reports in one fixed format, with changes since the baseline and findings ranked by priority",
+    "Block-coverage record showing which parts of a ro-ro ship were measured on which call",
+    "Owner-held trend data for thickness, coating ratings, vibration and thermal readings"
+  ],
+  "faqs": [
+    {
+      "q": "Is CVIP at Trieste the same as CAS or CAP?",
+      "a": "Not in standing. It follows the same method, which is why owners call it an owner's CAS or owner's CAP, but it is commissioned by the owner and reported to the owner. No flag Administration reviews it and no classification society grades the ship from it, so there is no Statement of Compliance and no CAP rating. If a charterer insists on the class CAP, book it with the society; the programme shows the likely result beforehand."
+    },
+    {
+      "q": "Can a SIOT tanker's cargo tanks be included in the programme?",
+      "a": "Yes, but not at the terminal. Cargo tanks need the ship gas-freed and certified for entry, which does not happen during discharge at SIOT. At Trieste the programme covers deck, deck lines, forecastle spaces, safe ballast tanks and cargo pumps under load; the cargo tank round is planned for the next yard stay, often in the northern Adriatic, with the same team and the same numbered points."
+    },
+    {
+      "q": "Can programme visits on a ro-ro ship be split between Trieste and Pendik?",
+      "a": "Where the ship's rotation calls at both, yes. The block plan is the same at either end, so a ramp examined at Trieste and a group of vehicle deck strakes gauged at Pendik land in one record. Pendik visits need Turkish visas in addition to the Schengen visas that Trieste requires, so we plan the two sets of applications together against the rotation."
+    },
+    {
+      "q": "Does the Mediterranean ECA change what the programme watches on Trieste ro-ro and container ships?",
+      "a": "It raises the priority of scrubber piping. Since May 2025 the Adriatic has been inside the Mediterranean SOx ECA, so scrubber-fitted ships run their systems for the whole passage to Trieste. Wash-water and overboard lines, discharge valves and the shell around outlets are gauged at fixed points on each visit, and the trend shows how fast they are thinning before a leak forces the decision."
+    },
+    {
+      "q": "Can bulk carriers at Monfalcone join a Trieste fleet programme?",
+      "a": "Yes. Monfalcone sits in the same port system, a short drive from Trieste, so a bulk carrier discharging there can be visited on the same mobilisation as a tanker at SIOT or a ro-ro ship in Trieste. Holds are measured once empty, with access agreed with the stevedores, and the bulk carrier keeps its own report and trend record within the fleet programme."
+    },
+    {
+      "q": "What does a charterer or lender see from a Trieste programme?",
+      "a": "A measured history rather than a snapshot. After a few visits the owner can show coating ratings for each ballast tank over time, corrosion rates at numbered points, crack findings and their repair, and machinery trends for cargo pumps or ramp hydraulics. The owner decides who receives it; the record and the data files stay with the owner and can pass to a buyer if the ship is sold."
+    }
+  ]
+}

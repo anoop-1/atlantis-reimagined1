@@ -1,0 +1,139 @@
+{
+  "port": "istanbul",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Istanbul | Owner's CAS/CAP for Black Sea Traders",
+  "description": "CVIP in Istanbul: owner's CAS/CAP-style programmes for Turkish-managed bulk carriers, general cargo ships and tankers, with visits at the Strait anchorages.",
+  "h1": "Comprehensive Vessel Inspection Programme in Istanbul: an owner's CAS/CAP condition record for Black Sea traders, built from Strait anchorage waits and Ambarlı calls",
+  "intro": "Ships trading in and out of the Black Sea pass Istanbul again and again, and many of them are managed from the city: geared bulk carriers, general cargo ships and small tankers owned by Turkish companies, along with foreign tonnage queuing for the Bosphorus. CVIP, our Comprehensive Vessel Inspection Programme, turns those passages into measurement opportunities. It is the whole-ship assessment managers describe as an owner's CAS or owner's CAP, run to the owner's own requirement and not for class, with a baseline and repeat visits feeding one trend record. Our technicians travel from India to the ship for each visit.",
+  "highlights": [
+    {
+      "h": "Anchorage waits used as visit windows",
+      "p": "A ship lying at Ahırkapı or at the Black Sea entrance waiting for transit can be boarded by launch. Programme visits there carry a ranked list of modules, so whatever time the ship has before she is ordered to proceed goes on the readings that matter most."
+    },
+    {
+      "h": "Short voyages, fast-changing ships",
+      "p": "Black Sea trading means frequent loading and discharge, mixed and corrosive cargoes and hard winter weather. Holds, hatch coamings and deck fittings deteriorate faster than on long-haul ships, so a trend measured over successive visits says more about such a ship than any one survey can."
+    },
+    {
+      "h": "Turkish fleets reviewed on one scale",
+      "p": "Istanbul owners often run several second-hand bulk carriers and general cargo ships of similar age and design. With identical point numbering on each hull, the technical department sees which ship is ageing faster and which can trade another cycle before her next Tuzla docking."
+    }
+  ],
+  "sections": [
+    {
+      "id": "anchorage-istanbul-cvip",
+      "h": "How a programme visit works at the Istanbul Strait anchorages",
+      "p": [
+        "Transit through the Istanbul Strait is managed by the Turkish Straits vessel traffic service, and larger ships, loaded tankers in particular, often wait at anchor before their turn. For a programme those waits are useful but uncertain: the ship may lie for a day or be ordered to proceed within hours. Visits at Ahırkapı, off the southern entrance, or at the anchorages at the Black Sea end are therefore planned around a ranked list agreed with the master and the superintendent before the launch leaves.",
+        "The ranking follows what the ship can offer at short notice and what the trend needs most, in roughly the order below. A space left unmeasured is carried to the next visit and named in the report, so nothing drops out of the record unseen."
+      ],
+      "list": [
+        "Machinery that is running anyway: generators, steering gear, ballast and fire pumps, and switchboards read for vibration and heat",
+        "Deck structure and fittings: coaming top plates, air pipe heads, ventilators and cross-deck strips at numbered points",
+        "Hatch covers worked by the crew, with packing, compression bars, cleats and drains seen in use",
+        "Ballast tanks the crew has ventilated and the master has released for entry",
+        "Holds, when the ship is in ballast and they can be entered safely",
+        "Repeat crack-detection points at hatch corners and crane pedestals where the paint was cleaned back on an earlier visit"
+      ]
+    },
+    {
+      "id": "blacksea-istanbul-cvip",
+      "h": "Why Black Sea traders managed from Istanbul suit a programme",
+      "p": [
+        "Many Turkish owners built their fleets from second-hand Handysize and Supramax bulk carriers and general cargo ships, and trade them through their third and fourth renewal surveys. On short Black Sea and Mediterranean voyages those ships load and discharge far more often than a long-haul bulk carrier, carry fertiliser, coal, grain and scrap in turn, and work their own cranes at berths with little shore gear. Each of those habits accelerates a particular form of wear, and none of it can be read from the year of build alone.",
+        "Port state control adds pressure. Turkey belongs to both the Black Sea MoU and the Mediterranean MoU, and older ships on these trades are boarded often, with wasted air pipe heads, holed ventilators and corroded coamings among the structural deficiencies inspectors record. A programme that measures those items on every visit lets the technical department replace them on a schedule rather than after an inspector's report, and shows a charterer that structure is managed by measurement.",
+        "Lenders and buyers ask the same question in different words: how is this ship holding up? A measured history, built visit by visit at the anchorages, at Ambarlı and in dock, answers it more convincingly than a single survey taken the week before a sale or a loan review."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-istanbul",
+      "h": "Owner's CAS and owner's CAP for an Istanbul fleet: the method without the certificate",
+      "p": [
+        "Turkish managers asking for an owner's CAS or owner's CAP on a general cargo ship or a Supramax usually want a whole-ship assessment of the depth those schemes are known for, timed to their own decisions. CVIP provides that depth: a plan drawn from the drawings and survey history, close-up examination of holds and tanks, thickness at defined positions, coatings rated GOOD, FAIR or POOR, cranes, hatch covers and machinery assessed, and graded findings gathered into one report.",
+        "It provides no certificate. The IMO Condition Assessment Scheme belongs to the flag Administration and applies to a small group of older tankers; the Condition Assessment Programme rating is issued by a classification society after its own survey, and CVIP produces neither. A charterer who requires a class CAP rating should receive one from the ship's society. A programme visit some months earlier tells the owner where the ship is likely to stand, and which repairs belong on the next Tuzla work list.",
+        "Thickness readings sit in the same place. A society credits gauging to a class survey solely when the firm holds that society's approval under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS and holds no certificate yet, so readings taken for an Istanbul programme are the owner's evidence for planning rather than class gauging."
+      ]
+    },
+    {
+      "id": "venues-istanbul-cvip",
+      "h": "Joining anchorage, Ambarlı and Tuzla visits into one Istanbul record",
+      "p": [
+        "An Istanbul programme rarely takes all its readings in one place. Each venue adds something to the record and leaves something for another, and the plan says which is which so the gaps are closed within the cycle. The docking side, where the programme gains the dry hull, is covered in more depth on the Tuzla programme page."
+      ],
+      "table": {
+        "head": ["Where the ship is", "What the visit adds", "What it usually leaves for later"],
+        "rows": [
+          ["Ahırkapı or the Black Sea entrance, waiting for transit", "Machinery under load, deck fittings, hatch covers, prepared ballast tanks", "Holds of a loaded ship; anything needing more than a few hours"],
+          ["Ambarlı terminals, working cargo", "Engine room, deck and closing appliances; holds of general cargo ships as they empty", "Spaces kept closed by the terminal's permit system or the cargo plan"],
+          ["Anchorage off Tuzla before a docking", "Holds in ballast, topside and hopper tanks, the pre-docking renewal outline", "Bottom shell and sea chests"],
+          ["Tuzla floating dock or repair quay", "Dry bottom, sea chests, rudder, spaces opened by the yard, renewed steel re-measured", "Machinery under service load"]
+        ]
+      }
+    },
+    {
+      "id": "geared-istanbul-cvip",
+      "h": "Cranes, tween decks and hatch covers: modules Istanbul fleets add",
+      "p": [
+        "Geared ships earn with their cranes, so programmes for Istanbul-owned bulk carriers and general cargo ships usually add a lifting-gear module. Each crane is run through hoisting, luffing and slewing while the team notes brakes, leaks and noise; pedestal and jib welds within reach are examined by magnetic particle testing at numbered points; and the hydraulic power units are read for vibration, so a failing pump shows up as a rising trend rather than a stopped crane at a Black Sea berth. Load testing and certification of lifting appliances stay with the competent person or the crane maker.",
+        "On multipurpose and general cargo ships the tween deck panels, their seatings and their securing join the plan, because distortion from heavy and project cargoes builds slowly and is easy to miss on a single visit. Hatch covers are worked at every visit, with seals, compression bars, cleats and drain channels recorded the same way each time. Crack detection results across all of these are the owner's NDT records and do not close any condition of class."
+      ]
+    },
+    {
+      "id": "plan-istanbul-cvip",
+      "h": "Planning around transit orders, Marmara weather and Turkish visas",
+      "p": [
+        "Indian passport holders need a Turkish visa, so the programme's visit dates are set early and the applications follow them. Because a programme looks months ahead, one visa period can often cover several ships of the same Istanbul fleet as they pass the Strait, call at Ambarlı or wait off Tuzla. The ship's agent books launches and arranges terminal and yard passes, and the crew list and certificates go to the agent before travel.",
+        "Strong winds over the Marmara can hold a launch at the landing for a day, and winter weather in the Black Sea can delay a ship's arrival, so anchorage visits carry a reserve day where the voyage plan allows. For Tuzla and the Anatolian side the team uses Sabiha Gökçen Airport; for Ambarlı and the European side, Istanbul Airport. To start a programme, send the IMO numbers, class status, latest thickness and condition reports and expected calls to info@atlantisndt.com, or use the form below."
+      ]
+    }
+  ],
+  "vessels": [
+    "Geared Handysize and Supramax bulk carriers",
+    "General cargo and multipurpose ships on Black Sea trades",
+    "Small chemical and product tankers",
+    "Container ships calling at the Ambarlı terminals",
+    "Ro-ro ships",
+    "Sister ships within one Istanbul-managed fleet"
+  ],
+  "codes": [
+    "IACS UR Z7 and UR Z7.1 – Hull surveys, including hull surveys of general dry cargo ships",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.3 – Hull surveys of chemical tankers",
+    "ISO 20816-1 – Evaluation of machine vibration by measurement",
+    "ISO 18434-1 – Thermography for machine condition monitoring",
+    "ASTM E709 – Guide for magnetic particle testing"
+  ],
+  "deliverables": [
+    "Programme plan with a ranked module list for each anchorage visit and the venues that cover the rest",
+    "Baseline report on holds, tanks, deck fittings, hatch covers, cranes and machinery",
+    "Visit report in a fixed format listing what was measured, what was deferred and why",
+    "Fleet comparison by design for Istanbul technical departments running several sister ships",
+    "Trend data files the owner keeps and can pass to a lender, charterer or buyer"
+  ],
+  "faqs": [
+    {
+      "q": "Is the Istanbul programme the same as CAS or CAP?",
+      "a": "It borrows their method, not their authority. CVIP follows the close-up survey, gauging, coating ratings and graded report that CAS and CAP are known for, which is why managers call it an owner's CAS or owner's CAP. The owner commissions and keeps it; no flag Statement of Compliance and no society rating result from it. If a charterer requires the class CAP, the owner books it with the ship's classification society."
+    },
+    {
+      "q": "What if the ship is ordered to proceed through the Bosphorus in the middle of a visit?",
+      "a": "The team leaves when the master says so, and the ranked list decides what has been covered. Because the most valuable readings are taken ahead of the rest, an interrupted visit still adds useful points to the trend. Anything not reached is noted in the visit report and carried to the next opportunity, whether that is another anchorage wait, an Ambarlı call or the ship's Tuzla docking."
+    },
+    {
+      "q": "Does the Istanbul programme cover the Tuzla docking as well?",
+      "a": "Yes. For ships managed from Istanbul the Tuzla docking is normally the programme's main checkpoint: a pre-docking round at the anchorage off the yard zone, the dry bottom and opened spaces in dock, and re-measurement of renewed steel before undocking. The Tuzla programme page describes that part in detail; this page covers the visits made between dockings."
+    },
+    {
+      "q": "Do the Mediterranean ECA rules matter for ships trading from Istanbul?",
+      "a": "They matter for scrubber piping. The Mediterranean SOx ECA ends at the entrance to the Dardanelles, so Istanbul, the Marmara and the Black Sea sit outside it, but ships sailing on into the Aegean must burn compliant fuel or run a scrubber. Scrubber-fitted ships therefore start their systems on the way out, and the programme gauges their wash-water and overboard lines at fixed points on each visit."
+    },
+    {
+      "q": "Can a Turkish owner put several ships into one programme?",
+      "a": "Yes, and fleet programmes suit Istanbul owners well because many of their ships share a design or a builder. The measurement plan is drawn once per design with identical point numbering, so readings compare ship against ship. Visits follow each ship's own calls past the city, and each ship keeps its own report and trend record for the day it is sold."
+    },
+    {
+      "q": "Are crane load tests part of a CVIP programme?",
+      "a": "No. The programme runs each crane through its motions, examines reachable pedestal and jib welds for cracks and reads the hydraulic power units for vibration, which shows the owner how the gear is ageing. Load tests and the certification of lifting appliances remain with the competent person or the crane maker, and the programme's findings can help them decide where to look closely."
+    }
+  ]
+}

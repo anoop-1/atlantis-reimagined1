@@ -34,7 +34,7 @@
       "id": "survey-rules",
       "h": "Which IACS survey rules apply to a container ship?",
       "p": [
-        "UR Z7, Hull Classification Surveys, applies to all self-propelled ships, and for a dedicated container ship it is the governing hull survey requirement. The ship is not one of the ESP types covered by SOLAS chapter XI-1, and UR Z7.1, which deals with general dry cargo ships, lists dedicated container carriers among the ships it excludes. Annual surveys fall within three months either side of each anniversary date, an intermediate survey replaces the second or third annual, and UR Z3 calls for at least two examinations of the outside of the bottom in each five-year period, normally no more than 36 months apart.",
+        "UR Z7, Hull Classification Surveys, applies to all self-propelled ships, and for a dedicated container ship it is the governing hull survey requirement. The ship is not one of the ESP types covered by SOLAS chapter XI-1, and UR Z7.1, which deals with general dry cargo ships, lists dedicated container carriers among the ships it excludes. Annual surveys fall within three months either side of each anniversary date, an intermediate survey replaces the second or third annual, and UR Z3 calls for at least two examinations of the outside of the bottom in each five-year period, with no more than 36 months between any two.",
         "The minimum thickness measurement extent rises with each special survey, as the table shows. For ships under 100 m long, which covers many feeders, UR Z7 allows fewer transverse sections at the third and later surveys. These are floors, not targets: the surveyor extends readings wherever findings justify it."
       ],
       "table": {

@@ -26,7 +26,7 @@
       "id": "ibc-code-ship-types",
       "h": "Chemical tankers under the IBC Code: ship types and cargo tanks",
       "p": [
-        "The IBC Code, mandatory under SOLAS chapter VII and MARPOL Annex II, governs ships carrying the dangerous chemicals and noxious liquid substances listed in its chapter 17 in bulk. Each product is assigned a ship type. Ship type 1 is for products with the most severe environmental and safety hazards, needing the greatest protection against cargo escape and the most protective location of tanks well inboard of the shell; ship type 2 covers appreciably severe hazards; ship type 3 covers products needing a moderate degree of containment. A chemical tanker's certificate of fitness lists the products it may carry, tank by tank.",
+        "The IBC Code, mandatory under SOLAS chapter VII and MARPOL Annex II, governs ships carrying the dangerous chemicals and noxious liquid substances listed in its chapter 17 in bulk. Each product is assigned a ship type. Ship type 1 is for products with the most severe environmental and safety hazards, needing the greatest protection against cargo escape and the most protective location of tanks well inboard of the shell; ship type 2 covers appreciably severe hazards; ship type 3 covers products needing a moderate degree of containment. A chemical tanker's certificate of fitness lists the products it may carry and the conditions under which each may be carried.",
         "Most chemical tankers have integral cargo tanks, often a mix of stainless steel and coated carbon steel, with many small segregated tanks each served by its own pump and line. That arrangement brings more tank boundaries, cofferdams and pipework per cargo tonne than any other tanker type, and a correspondingly larger inspection task."
       ]
     },
@@ -71,7 +71,7 @@
       "h": "Ballast tanks, cofferdams and the hull around the cargo block",
       "p": [
         "The double bottom and wing ballast tanks of a chemical tanker are coated carbon steel and age as on any tanker: coating breakdown at edges and welds, corrosion under the deckhead and in the bottom, grooving along longitudinals. Heated cargoes warm the adjacent ballast tanks and speed the attack. Where stainless or clad inner hull plating meets carbon steel structure, the dissimilar-metal welds and the carbon steel beside them deserve a close look. Cofferdams and void spaces between incompatible cargoes are easily neglected and can hold water for years.",
-        "Under UR Z10.3, a ballast tank goes into annual examination where its hard coating is POOR, where soft or semi-hard coating has been applied, or where no hard coating was applied from construction."
+        "Under UR Z10.3, a ballast tank goes into annual examination where no hard coating was applied at construction, where soft or semi-hard coating has been applied, where substantial corrosion is found in the tank, or where the hard coating is in less than GOOD condition and has not been repaired to the surveyor's satisfaction."
       ]
     },
     {
@@ -85,7 +85,7 @@
         "rows": [
           ["Close-up survey", "May be an overall survey, close-up where the surveyor considers it necessary", "To the UR Z10.3 tables; may be specially considered where hard coating is GOOD", "To the UR Z10.3 tables, growing with age"],
           ["Thickness measurement", "May be waived for stainless structure and piping, but not for clad steel", "Suspect areas, close-up structure and transverse sections", "As for coated tanks"],
-          ["What draws attention", "Pitting, weld attack, contamination", "Lining breakdown exposing steel to cargo", "POOR or soft coating, which brings annual examination"],
+          ["What draws attention", "Pitting, weld attack, contamination", "Lining breakdown exposing steel to cargo", "Coating below GOOD left unrepaired, soft coating or substantial corrosion, any of which brings annual examination"],
           ["Usual NDT", "Visual, dye penetrant on welds, pit depth measurement", "Visual, gauging where lining has failed", "Visual, gauging, magnetic particle at fatigue details"]
         ]
       }

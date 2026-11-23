@@ -1,0 +1,131 @@
+{
+  "port": "milford-haven",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Milford Haven | Owner's CAS/CAP for Tankers & LNG Carriers",
+  "description": "CVIP at Milford Haven: an owner's CAS/CAP-style programme for crude and product tankers and LNG carriers, using anchorage and gas-free windows for each visit.",
+  "h1": "Comprehensive Vessel Inspection Programme at Milford Haven: Owner's Condition Assessment for the Tankers and LNG Carriers of the Pembrokeshire Energy Waterway",
+  "intro": "CVIP, our Comprehensive Vessel Inspection Programme, gives tanker managers what they call an owner's CAS or owner's CAP: planned close-up survey, thickness at numbered locations, coatings, piping and machinery rated, with one report that serves the owner's requirement rather than class. At Milford Haven the ships are crude and product tankers for the Pembroke refinery and storage terminals and LNG carriers for South Hook and Dragon LNG, run by managers who answer to vetting and terminal acceptance. Their berth slots are planned well ahead, and our team travels from India to meet them.",
+  "highlights": [
+    {
+      "h": "Anchorage time put to work",
+      "p": "Tankers and LNG carriers rarely linger at the Haven's jetties, but many wait at anchor in the approaches or within the Haven before berthing. A launch-served programme visit uses that wait for ballast tanks, deck structure and vent systems, leaving the jetty slot for the piping work the terminal will allow."
+    },
+    {
+      "h": "A record that answers vetting questions",
+      "p": "SIRE 2.0 inspectors look at operations, documents and visible condition, but they gauge no steel. A programme record of tank coatings, deck wastage and piping wall loss, built visit after visit, lets the master and superintendent answer an inspector or a terminal's acceptance team with measured history."
+    },
+    {
+      "h": "LNG carriers followed outside the containment",
+      "p": "On the large LNG carriers discharging at South Hook and Dragon LNG, the programme follows the ballast tanks, the double-bottom and side spaces, the cofferdams and the trunk deck at fixed points, under the ship's own gas-detection procedures. Over long-term charters those trends matter more than any one reading."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-milford-haven-cvip",
+      "h": "Where on the Haven can a tanker or LNG carrier be assessed?",
+      "p": [
+        "Milford Haven gives a programme three kinds of place, each with its own limits. The jetties at the Valero Pembroke refinery, the storage terminals and the two LNG terminals are worked under terminal rules that restrict contractors during cargo transfer and control the equipment taken into hazardous areas, so a jetty visit concentrates on engine-room and ballast piping, the machinery spaces and deck areas the terminal releases. The terminal's permit and the ship's own permit system both have to agree before a tank lid is lifted.",
+        "The anchorages in the approaches and inside the Haven are where much of the structural programme is done. Once a tanker has washed her tanks at anchor, cargo and ballast tanks can be entered one after another, and a laden arrival's empty ballast tanks are available before discharge begins. The quays at Pembroke Dock and Milford Dock give ordinary alongside access for the Rosslare ro-pax ferry, offshore renewable support vessels and smaller cargo ships, where routine programme visits are straightforward."
+      ],
+      "list": [
+        "Valero Pembroke refinery and storage terminal jetties: engine-room and ballast piping, machinery and released deck areas",
+        "South Hook and Dragon LNG: ballast and sea-water piping, machinery and agreed deck work planned around the discharge",
+        "Anchorages in and off the Haven: ballast and cargo tanks after cleaning, deck plating, vents and pipe supports, reached by launch",
+        "Pembroke Dock: vehicle decks, ramps and ballast tanks on the Rosslare ro-pax between sailings",
+        "Pembroke Port and Milford Dock: offshore support vessels and cargo ships lying alongside"
+      ]
+    },
+    {
+      "id": "why-programme-milford-haven",
+      "h": "Why do tanker and LNG managers calling at Milford Haven keep a programme?",
+      "p": [
+        "Few ports put a manager's condition evidence under as many eyes. Oil tankers here fall within the Enhanced Survey Programme, and the gauging extent they must carry rises steeply at the third renewal survey and beyond. Oil-major vetting under OCIMF's SIRE 2.0, charterers' requests for a CAP rating on tankers past about fifteen years, and the Haven terminals' own acceptance criteria all bear on the same ships. A single survey taken before one of those events answers today's question; a programme is already answering the next one.",
+        "LNG carriers bring a different reason. Many trade for decades on long-term charters whose charterers hold maintenance expectations of their own, and the structure that surrounds the cargo containment, meaning the ballast tanks, double-bottom and side spaces, cofferdams and trunk deck, is where a long service life shows. Following that structure at the same points over years, alongside the vibration and thermal condition of pumps, generators and switchboards, gives the manager and the charterer a shared view of how the ship is ageing.",
+        "The Haven's predictability is what makes this workable. Berth slots for these ships are planned well ahead, so a programme visit can be set against a known call rather than chased around an uncertain one, with a margin either side for the days that tanker and LNG schedules can move."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-milford-haven",
+      "h": "Owner's CAS, owner's CAP and the class CAP a charterer may still require",
+      "p": [
+        "For tanker managers the distinction between an owner's assessment and the official schemes is practical, not academic. The IMO Condition Assessment Scheme exists for certain older single-hull oil tankers, and a flag Administration verifies it before issuing a Statement of Compliance; few ships need it now. A Condition Assessment Programme is a voluntary rating that the ship's classification society issues to its own procedure, and it is the document a charterer's vetting department will actually ask to see. When managers at Milford Haven ask for an owner's CAS or owner's CAP, they mean the method of those schemes, applied for their own purposes, and that is CVIP.",
+        "So CVIP is commissioned, scoped and owned by the owner, manager, charterer or financier. It confers no CAP rating and no CAS statement, and when a fixture names a class CAP, the owner books it with the society. What the programme does is let the owner see the likely result well before then, while steel or coating work can still be planned into a docking. The gauging behind it is the owner's too: Atlantis is in the process of obtaining approval as a thickness measurement firm under IACS UR Z17 from ABS, Lloyd's Register and DNV, and until a certificate is issued, programme readings support the owner's decisions and are not credited to class or CAP surveys."
+      ]
+    },
+    {
+      "id": "trend-record-milford-haven",
+      "h": "What does the trend record follow on a tanker, and on an LNG carrier?",
+      "p": [
+        "On a crude or product tanker the record is built around the places that decide a ship's later surveys and her CAP grade: under-deck structure in the cargo tank vapour space, ballast tank webs, longitudinals and brackets where coatings have broken down, pitting in cargo tank bottom plating, and transverse bulkheads. Each is gauged at numbered points referenced to the ship's TM plan and frame numbering, with pit depths kept apart from general wastage and coating condition rated from fixed photograph positions. Cargo, stripping and ballast piping across the deck and through the pump room is read at the same bends and supports on each visit.",
+        "On an LNG carrier the programme stays outside the cargo containment. Ballast tanks, double-hull spaces, cofferdams and the trunk deck are gauged and their coatings rated, ballast and sea-water piping is read at fixed positions, and cargo and ballast pumps, generators and switchboards are measured or imaged at a recorded operating condition. Magnetic particle testing at selected structural details is reported as the owner's NDT record. Each visit sets its figures against the baseline, so a coating beginning to fail in one ballast tank, or a pump bearing starting to rise, shows up as a change long before it becomes a finding."
+      ]
+    },
+    {
+      "id": "planning-milford-haven",
+      "h": "Planning programme visits around tank cleaning, terminal inductions and arrival dates",
+      "p": [
+        "Each visit is planned backwards from the ship's schedule. Send the vessel or fleet list, the TM plan and last thickness report, the class survey status and any CAP or vetting dates, the trading pattern with expected Haven calls and the next docking. We agree with the manager which module belongs to the anchorage, which to the jetty and which to a gas-free period, and the ship's agent arranges launches, ISPS passes and the refinery or LNG terminal inductions before anyone boards.",
+        "Milford Haven lies outside the North Sea Emission Control Area, although ships at berth for two hours or more must burn 0.10% sulphur fuel, and the North-East Atlantic ECA extends the 0.10% limit to the sea area west of Britain from 1 September 2028. Scrubber-fitted tankers on regular Haven trades can add wash-water and overboard piping to their programme ahead of that change. The team travels from India on UK visas, usually through Heathrow, Cardiff or Bristol, and continues west by rail or road. A tanker or LNG programme starts with a message to info@atlantisndt.com or the enquiry form further down."
+      ]
+    },
+    {
+      "id": "worked-example-milford-haven",
+      "h": "How might a programme run for a crude tanker approaching her third renewal survey?",
+      "p": [
+        "Take a crude tanker in her early teens, discharging regularly at the refinery jetties, with her third renewal survey due in a couple of years and a charterer likely to ask for a CAP rating as she passes fifteen. The baseline is split between an anchorage wait after tank cleaning, when a group of cargo and ballast tanks is entered and the deck, vents and pipe supports are gauged, and the following jetty call, when engine-room and ballast piping and running machinery are covered within the terminal's rules.",
+        "Repeat visits then alternate between tank groups at anchor and piping and machinery alongside, with coating ratings repeated from the same photograph positions. Some months before the renewal survey, the record becomes a pre-docking steel list carrying a corrosion rate for each member, together with a pre-CAP view of where the hull is likely to grade. From that the owner decides whether to book the class CAP straight after the docking, and the yard receives a measured specification instead of an allowance."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude oil tankers serving the Pembroke refinery",
+    "Product tankers for the Haven's storage terminals",
+    "Q-Flex and Q-Max LNG carriers discharging at South Hook",
+    "LNG carriers calling at Dragon LNG",
+    "Coastal and bunker tankers",
+    "Ro-pax ferry on the Pembroke Dock–Rosslare route",
+    "Offshore renewable support vessels"
+  ],
+  "codes": [
+    "IACS UR Z10.1 / Z10.4 – Hull surveys for oil tankers, single and double hull",
+    "IACS UR Z7.2 – Hull surveys of ships carrying liquefied gases in bulk",
+    "Enhanced Survey Programme: SOLAS XI-1 regulation 2 and the 2011 ESP Code",
+    "IGC Code – International code for ships carrying liquefied gases in bulk",
+    "ISO 20816-1 – Machine vibration measurement and evaluation, general guidance",
+    "ISO 18434-1 – Infrared thermography for monitoring the condition of machines"
+  ],
+  "deliverables": [
+    "Programme plan giving each module to an anchorage, jetty or gas-free window",
+    "A report for every visit, set out identically, showing coating ratings and thickness movement against the baseline",
+    "Tank-by-tank thickness and pit-depth record referenced to the TM plan",
+    "Pre-docking steel list and pre-CAP outlook for tankers approaching renewal surveys",
+    "Vibration and thermal trends for pumps, generators and switchboards outside hazardous zones",
+    "Trend data files the owner keeps for vetting, terminal acceptance and charter reviews"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Milford Haven CVIP the same as a CAS or CAP?",
+      "a": "Not in standing. CVIP uses the same approach as those schemes, a planned close-up survey, gauging at defined points, graded condition and one report, which is why managers call it an owner's CAS or CAP. It is commissioned and owned by the owner, so no flag statement or class rating comes with it. A charterer who names a class CAP still gets one from the society; CVIP shows the likely result beforehand."
+    },
+    {
+      "q": "Can tanks be assessed while a tanker waits at anchor off Milford Haven?",
+      "a": "Yes, and that is often the most productive part of the programme. A laden arrival's segregated ballast tanks are empty, and after tank washing at anchor her cargo tanks can be entered under the ship's permit system once they are gas-free. The team reaches the ship by launch through the agent, and the plan carries a margin for weather and changes in arrival."
+    },
+    {
+      "q": "Does the programme cover LNG carriers at South Hook and Dragon LNG?",
+      "a": "Yes, outside the cargo containment. Visits cover ballast tanks, double-bottom and side spaces, cofferdams and the trunk deck, ballast and sea-water piping, and the vibration and thermal condition of machinery, all under the ship's entry and gas-detection procedures and the terminal's rules. Every reading carries the tank and frame reference from the ship's plans, so each visit lines up with the baseline."
+    },
+    {
+      "q": "Will a programme help with SIRE 2.0 vetting and terminal acceptance?",
+      "a": "It supports both without replacing either. A SIRE 2.0 inspection gauges no steel, and terminal acceptance relies on what the ship can show. A programme record lets the master and superintendent produce measured history of tank coatings, deck wastage and piping wall loss, with repairs planned against it, whenever an inspector or a terminal asks about condition."
+    },
+    {
+      "q": "How much notice do the Haven terminals need for a visit?",
+      "a": "Enough for the agent to complete passes and inductions before boarding, so we confirm the technicians' names and equipment as soon as the ship's call is firm. The refinery and both LNG terminals enforce ISPS controls and their own site inductions, and anchorage visits need a launch booked with the port's providers. Because tanker and LNG schedules can move by days, travel is planned with a margin either side."
+    },
+    {
+      "q": "Can the same programme include the Rosslare ferry or offshore support vessels?",
+      "a": "Yes. Ro-pax ferries at Pembroke Dock and offshore renewable support vessels at Pembroke Port or Milford Dock join on the same report format, with plans suited to them: vehicle decks, ramps, hinges and ballast tanks for the ferry, deck equipment foundations and machinery for the support vessels. Visits fit the ferry's timetable and the support vessels' periods alongside."
+    }
+  ]
+}

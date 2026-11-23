@@ -1,0 +1,145 @@
+{
+  "port": "piraeus",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Piraeus | Owner's CAS/CAP Programmes for Greek Fleets",
+  "description": "CVIP from Piraeus: owner's CAS/CAP-style programmes for Greek-managed bulk carriers and tankers, with visits at Perama, the anchorage and dock, one trend record.",
+  "h1": "Comprehensive Vessel Inspection Programme for Piraeus Technical Departments: an owner's CAS/CAP condition record that follows each ship through Perama, the anchorage and the next charter",
+  "intro": "Decisions about a large share of the world's bulk carriers and tankers are taken by technical departments within a short drive of Piraeus, and many of those ships pass through Perama's repair quays and floating docks or wait at the outer anchorage. CVIP, our Comprehensive Vessel Inspection Programme, gives those departments what Greek managers often ask for as an owner's CAS or owner's CAP: a whole-ship condition assessment on the pattern of the official schemes, run to the owner's requirement, repeated visit after visit and kept as one trend record. Every visit is carried out by a team flown in from India.",
+  "highlights": [
+    {
+      "h": "Decided ashore, measured on board",
+      "p": "The superintendent who signs off a Perama repair list, the chartering desk fixing a period and the finance team answering a bank all work in the same Piraeus district. A programme gives each of them the same measured record, updated at every visit, instead of separate reports bought one at a time."
+    },
+    {
+      "h": "Perama repairs as scheduled visits",
+      "p": "Ships of a Greek fleet come back to the Perama quays and the port authority's floating docks for afloat repairs and dockings. The programme plans a visit into each of those stays, when tanks are already open and staging is up, so the record grows without extra port days."
+    },
+    {
+      "h": "One point numbering across sisters",
+      "p": "Greek owners often run series of Capesize, Panamax or Handysize bulk carriers and sister tankers. The measurement plan is drawn once for the design and numbered identically on every hull, so the technical department can rank its sisters against each other at the next fleet review."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-piraeus-cvip",
+      "h": "Why Piraeus technical departments run a programme rather than buying single surveys",
+      "p": [
+        "A Greek-managed bulk carrier in her late teens is inspected constantly, but rarely by the same people to the same plan. The class surveyor gauges for the renewal survey, a charterer's surveyor looks at the holds, a buyer's inspector visits during a sale, the bank asks for a condition report, and the yard measures what it is about to crop. Each report is valid on its day. None of them tells the superintendent how fast the ship is changing, which is the question behind every expensive decision.",
+        "CVIP answers it by keeping the plan, the points and the report format fixed for the life of the programme. The baseline records the ship as found; every later visit measures the same numbered positions, rates coatings from the same viewpoints and reads machinery under comparable load. The superintendent who walks the worst tank in person at Perama sees it against its own history, and the technical director sees the whole fleet on one scale."
+      ]
+    },
+    {
+      "id": "where-piraeus-cvip",
+      "h": "Where programme visits are made around Piraeus, Perama and the Elefsina bay",
+      "p": [
+        "Most visits fall where the ship has already stopped for another reason, and each setting carries a different share of the modules. The plan names the setting for every module, so a superintendent can see months ahead which stay will take the tank round and which will take the machinery readings."
+      ],
+      "list": [
+        "Perama repair quays: holds, ballast tanks and voids opened for afloat repairs, gauged and rated while the contractors work around them",
+        "PPA floating docks at Perama: the dry bottom, sea chests, rudder and stern area added to the record, with yard staging giving reach into tall holds",
+        "Outer anchorage off Piraeus: deck, hatch covers, prepared ballast tanks and running machinery, reached by launch while the ship waits for orders or a slot",
+        "Elefsina bay yards: heavier dockings a short drive north-west, often chosen as the programme's renewal-survey checkpoint",
+        "Passenger harbour in the winter refit season: vehicle decks, voids and machinery spaces on ro-pax ferries out of service",
+        "Neo Ikonio container piers: scrubber lines, ballast tanks and engine-room readings on container ships inside the cargo window"
+      ]
+    },
+    {
+      "id": "decisions-piraeus-cvip",
+      "h": "Which decision each programme visit feeds",
+      "p": [
+        "Greek owners rarely commission inspection for its own sake; each visit is booked because a decision is coming. The table links the usual decisions to the visit that supplies the evidence, so the programme calendar can be laid against the ship's commercial calendar as well as against its survey dates."
+      ],
+      "table": {
+        "head": ["Decision ahead", "Visit that informs it", "What the technical department receives"],
+        "rows": [
+          ["Renew steel or sell before the third or fourth renewal survey", "Pre-docking round at the anchorage or at Perama, months before the yard", "Corrosion rates by tank and member, and the renewal those rates imply"],
+          ["Which yard, and how much plate to order", "The same pre-docking round, with the steel list marked on drawings", "A renewal outline that competing yards can quote against on equal terms"],
+          ["Extend a time charter or answer a vetting request", "Visit timed some months before the inspection or the CAP survey", "Coating, deck piping and closing appliance condition, with repairs ranked"],
+          ["Bank's periodic condition review", "Yearly visit at whichever stop the ship makes near Piraeus", "Condition by area and change since the last review, in the lender's format if supplied"],
+          ["Keep or sell a ro-pax ferry before the summer timetable", "Winter refit visit in the passenger harbour", "Vehicle deck, ramp, void and machinery trends since the previous winter"]
+        ]
+      }
+    },
+    {
+      "id": "owners-cas-cap-piraeus",
+      "h": "Owner's CAS and owner's CAP on Greek-managed tankers and bulk carriers",
+      "p": [
+        "In Piraeus the phrases owner's CAS and owner's CAP are common shorthand. A tanker manager asking for an owner's CAP wants the depth of a Condition Assessment Programme on the owner's timetable; a bulk carrier owner asking for an owner's CAS usually means a thorough condition assessment of an older ship, not the IMO scheme at all. CVIP is built for both requests. It follows the pattern the official schemes share, from a plan drawn on the ship's drawings to close-up examination, thickness at defined positions, rated coatings, assessed machinery and a graded report on the whole ship, but the owner commissions it, sets its purpose and keeps its results.",
+        "What CVIP does not do is stand in for the society or the flag. A class CAP rating, which oil-major vetting may demand for a tanker past about fifteen years, is issued by the ship's classification society after its own survey; the IMO Condition Assessment Scheme, confined to certain older tankers, ends in a flag Statement of Compliance. The programme's role is to show the owner beforehand where the ship will probably stand, which ballast tanks are drifting towards a POOR coating rating and which deck areas are nearing their margins, so that repairs are done before the society's surveyors arrive.",
+        "The same line applies to every reading taken. A classification society credits gauging solely from a firm it has approved under IACS UR Z17, and Atlantis does not yet hold such approval; it is in the process of obtaining it from DNV, Lloyd's Register and ABS. Until a certificate is issued, programme readings are evidence for the owner's steel, docking, chartering and financing decisions, and are kept apart from class gauging."
+      ]
+    },
+    {
+      "id": "fleet-piraeus-cvip",
+      "h": "Starting a fleet programme from a Piraeus technical department: the checklist",
+      "p": [
+        "Fleet programmes are where Piraeus managers gain most, because sister ships share drawings, details and weaknesses. A crack at a hatch corner on one Panamax tells us where to look on the next; a ballast pump whose vibration is climbing on one tanker flags its sisters' pumps for an early reading. The checklist below is what a technical department typically gathers to set one up, and most of it already sits in the planned maintenance system or the class file."
+      ],
+      "list": [
+        "The list of ships, grouped by design or series, with IMO numbers and the classification society of each",
+        "Structural drawings with original scantlings for one ship of each design, and any known differences between sisters",
+        "The latest thickness measurement report and class survey status for every ship, with outstanding conditions",
+        "Expected docking dates, the yards under consideration and the next renewal or intermediate survey for each hull",
+        "Trading patterns and likely calls near Piraeus, the Elefsina bay or other ports where visits could be made",
+        "Known problem areas from crew reports, port state control or earlier repairs, and any report format a lender or charterer uses"
+      ]
+    },
+    {
+      "id": "plan-piraeus-cvip",
+      "h": "Fitting programme visits to the Greek docking calendar, meltemi weather and Schengen visas",
+      "p": [
+        "Greek technical departments plan dockings well ahead, and a programme slots into that calendar. Once the docking dates and expected anchorage stays are known, visits are laid against them and each technician's Schengen visa is applied for in India in good time, with the visa period chosen to cover a run of visits where several ships of the fleet are due. If a Perama slot moves, the visit moves with it; the plan is revised rather than started again.",
+        "On the day, the ship's agent arranges port authority gate passes, repair-zone access and launches for the anchorage. In summer the meltemi can make transfers to ships at the outer anchorage rough, so anchorage visits carry the modules that can slip by a day, and tank rounds are kept for the quays and docks. The team flies into Athens and reaches Perama, the port or the launch landing by road. Programme enquiries can go to info@atlantisndt.com or through the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Capesize, Panamax and Handysize bulk carriers in Greek management",
+    "Crude and product tankers past fifteen years",
+    "Chemical tankers",
+    "Ro-pax ferries on Aegean island services",
+    "Container ships calling at the Neo Ikonio piers",
+    "Sister-ship series under one Piraeus technical department"
+  ],
+  "codes": [
+    "IACS UR Z10.2 and Z10.5 – Hull surveys of bulk carriers and double-skin bulk carriers",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "IACS UR Z7 – Hull classification surveys and coating condition ratings",
+    "2011 ESP Code, applied through SOLAS chapter XI-1 regulation 2",
+    "ISO 20816-1 – Machine vibration measurement and evaluation",
+    "ASTM E709 – Standard guide for magnetic particle testing"
+  ],
+  "deliverables": [
+    "Fleet programme plan tying each ship's visits to Perama stays, anchorage waits and docking dates",
+    "Baseline report per ship, with numbered points common to every sister of the design",
+    "Visit report in one format showing change since the baseline and defects ranked for action",
+    "Side-by-side fleet summary for the technical department's annual review",
+    "Owner-held data files for thickness, coatings, crack findings, vibration and thermal readings"
+  ],
+  "faqs": [
+    {
+      "q": "Is an owner's CAS or owner's CAP from Piraeus the same as the real schemes?",
+      "a": "No, though the method is close. CVIP follows the structure of CAS and CAP, which is why Greek managers use those names for it, but it is the owner's assessment, scoped and kept by the owner. It brings no CAP rating from a classification society and no CAS Statement of Compliance from a flag. When a charterer specifies the class CAP, book it with the society and use the programme to know the likely outcome."
+    },
+    {
+      "q": "Can a programme run on ships that trade far from Greece and seldom call at Piraeus?",
+      "a": "Yes. The plan is set up with the technical department in Piraeus, but visits are made wherever the ship stops long enough: a cargo port, an anchorage or a yard abroad, subject to visas for that country. The point numbering and report format stay the same, so a visit in another port adds to the record exactly as a Perama visit would."
+    },
+    {
+      "q": "Will the programme help with a Greek bank's loan covenants?",
+      "a": "It often helps, provided the loan agreement lets the owner choose the surveyor; some agreements name the firms a lender will accept. Where it does, a yearly programme visit gives the bank condition by area, change since the last review and ranked defects, and a template supplied by the lender can be followed. The record also answers a refinancing review without commissioning a fresh survey."
+    },
+    {
+      "q": "How does a programme handle a ro-pax ferry that is in service all summer?",
+      "a": "Its main visit falls in the winter refit, when vehicle decks can be walked and gauged, voids and ballast tanks opened and ramps examined with no passengers aboard. Machinery can also be read during a short summer turnaround if the operator wants a mid-season check. Year on year, the winter visits show how fast deck plating and ramp areas are wearing under trailer traffic."
+    },
+    {
+      "q": "Does CVIP include crack detection on older bulk carriers?",
+      "a": "Yes. Magnetic particle inspection is applied at the details that crack on the ship type, such as hatch corners, bracket toes, crane pedestal welds and side frame ends, wherever the paint can be cleaned back. Each location is numbered so it is examined again on later visits. The results are the owner's own NDT records; they are not class findings and do not close a condition of class."
+    },
+    {
+      "q": "What happens to the programme record if the ship is sold?",
+      "a": "It belongs to the owner, who decides whether to share it. In a Piraeus sale, a consistent multi-year record of corrosion rates, coating ratings, crack findings and machinery trends often shortens the buyer's own inspection and narrows the points under negotiation. If the buyer wishes to continue the programme, the point numbering and data carry straight over to the new technical department."
+    }
+  ]
+}

@@ -47,10 +47,10 @@
       "table": {
         "head": ["Special survey", "Ship age", "Close-up survey (minimum)", "Thickness measurement (minimum)"],
         "rows": [
-          ["No. 1", "Up to 5 years", "Selected shell frames in one forward and one after hold and tweendeck; one transverse bulkhead; all hatch covers and coamings", "Suspect areas; one deck transverse section in a cargo space within the amidships 0.5L"],
-          ["No. 2", "Over 5 up to 10 years", "Selected shell frames in all holds and tweendecks; one transverse bulkhead in each hold; selected ballast tank webs and bulkheads; hatch covers and coamings; selected deck, underdeck and inner bottom structure", "Suspect areas; two transverse sections in two cargo spaces; each deck plate outside the hatch openings; all wind-and-water strakes in the cargo length"],
-          ["No. 3", "Over 10 up to 15 years", "All shell frames in the forward lower hold and 25 per cent of frames in each other hold and tweendeck; all transverse bulkheads in holds and ballast tanks; all ballast tank webs; all inner bottom plating", "Suspect areas; at least three transverse sections; each deck plate outside hatch openings; each bottom plate including the bilge; duct keel or pipe tunnel; wind-and-water strakes over the full length"],
-          ["No. 4 and later", "Over 15 years", "All shell frames in all holds and tweendecks with their end attachments and adjacent shell plating, plus the No. 3 items", "Extends the No. 3 programme; substantial corrosion followed up and readings added where the surveyor requires"]
+          ["No. 1", "Up to 5 years", "Selected shell frames in one forward and one after hold and tweendeck; one transverse bulkhead; all hatch covers and coamings", "Suspect areas"],
+          ["No. 2", "Over 5 up to 10 years", "Selected shell frames in all holds and tweendecks; one transverse bulkhead in each hold; selected ballast tank webs and bulkheads; hatch covers and coamings; selected deck, underdeck and inner bottom structure", "Suspect areas; one transverse section of deck plating in way of a cargo space within the amidships 0.5L; members under close-up survey"],
+          ["No. 3", "Over 10 up to 15 years", "All shell frames in the forward lower hold and 25 per cent of frames in each other hold and tweendeck; all transverse bulkheads in holds and ballast tanks; all ballast tank webs; all inner bottom plating", "Suspect areas; two transverse sections within the amidships 0.5L in two cargo spaces; each deck plate outside the hatch openings; all wind-and-water strakes in the cargo length and selected ones outside it; members under close-up survey"],
+          ["No. 4 and later", "Over 15 years", "All shell frames in all holds and tweendecks with their end attachments and adjacent shell plating, plus the No. 3 items", "Suspect areas; at least three transverse sections within the amidships 0.5L; each deck plate outside hatch openings; each bottom plate including the lower turn of bilge; duct keel or pipe tunnel plating and internals; all wind-and-water strakes full length; members under close-up survey"]
         ]
       }
     },
@@ -77,7 +77,7 @@
       "h": "Folding, piggyback and pontoon hatch covers on general cargo ships",
       "p": [
         "Folding covers are hinged panels opened by hydraulic cylinders or wires, and their hinges, hinge pins, cylinder brackets and cross-joint seals are the parts that wear. Piggyback covers roll on wheels along the coaming, one panel lifted to roll over its neighbour, so wheel bearings, rails, lifting jacks and the cover edges that take wheel loads are the focus. Pontoon covers, also used as tweendeck closures on many multipurpose ships, are lifted by the ship's own cranes, and their lifting points, bearing pads and locating devices are examined with the panels.",
-        "On every type the steel corrodes from the underside where condensation and cargo dust collect, rubber packing hardens and takes a permanent set, compression bars bend or waste, cleats and wedges wear and coaming drain valves seize. UR Z7.1 puts all hatch covers and coamings under close-up survey from special survey No. 1, with plating and stiffeners gauged and seals tested by hose or an equivalent method. An ultrasonic tightness test locates leaks along the packing more precisely than a hose."
+        "On every type the steel corrodes from the underside where condensation and cargo dust collect, rubber packing hardens and takes a permanent set, compression bars bend or waste, cleats and wedges wear and coaming drain valves seize. UR Z7.1 puts all hatch covers and coamings under close-up survey at every special survey, with the seals tested by hose or an equivalent method and, from special survey No. 2, the plating and stiffeners gauged. An ultrasonic tightness test locates leaks along the packing more precisely than a hose."
       ],
       "links": [
         ["/maritime/hatch-cover-ultrasonic-testing", "Hatch cover ultrasonic tightness testing"]
@@ -134,7 +134,7 @@
     "International Convention on Load Lines, 1966, and its 1988 Protocol",
     "ILO Convention No. 152 – Occupational Safety and Health (Dock Work) Convention, 1979",
     "ASTM E709 – Standard guide for magnetic particle testing",
-    "ASTM E797 – Ultrasonic thickness measurement by the manual pulse-echo contact method"
+    "ASTM E797 – Standard practice for measuring thickness by manual ultrasonic pulse-echo contact method"
   ],
   "deliverables": [
     "Earlier special survey and thickness measurement reports, with frame-by-frame sketches",
