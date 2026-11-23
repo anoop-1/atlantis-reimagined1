@@ -3,7 +3,7 @@
   "description": "Independent review of Permian Basin NDT reports and field inspection data: tank batteries, gas plants, compressor stations, gathering and long-haul lines.",
   "h1": "Independent review of Permian Basin inspection reports, from wellpad equipment to long-haul pipelines",
   "eyebrow": "Report validation: Midland–Odessa, Texas",
-  "intro": "Midland and Odessa sit at the centre of the most active oil field in the United States, and the inspection records produced around them follow the oil and gas from wellpad to pipeline: thickness surveys on separators and treaters, weld reports on skids and launchers, gas plant mechanical integrity files, compressor station records and girth weld data on lines heading for the Gulf Coast. When one of those records has to carry a repair decision, an acquisition or a regulator's question, we review it independently against the code and the operator's procedure, opening the field data behind it. Every review is carried out remotely on the files you send.",
+  "intro": "Midland and Odessa sit in the middle of the Permian Basin, and the inspection records produced around them follow the oil and gas from wellpad to pipeline: thickness surveys on separators and treaters, weld reports on skids and launchers, gas plant mechanical integrity files, compressor station records and girth weld data on lines heading for the Gulf Coast. When one of those records has to carry a repair decision, an acquisition or a regulator's question, we review it independently against the code and the operator's procedure, opening the field data behind it. Every review is carried out remotely on the files you send.",
   "highlights": [
     {
       "h": "Built for consolidation",
@@ -28,40 +28,76 @@
       ]
     },
     {
-      "h": "From wellpad to Waha: the assets and their records",
+      "h": "From wellpad to transmission line: the assets and their records",
       "p": [
         "Oil and gas in the basin passes through a chain of facilities, and each link produces its own kind of inspection record under its own rules. The table follows that chain and notes where we usually find the weak point in each record."
       ],
       "table": {
-        "head": ["Asset", "Rules that usually shape the record", "What the reviewer opens", "Typical weakness"],
+        "head": [
+          "Asset",
+          "Rules that usually shape the record",
+          "What the reviewer opens",
+          "Typical weakness"
+        ],
         "rows": [
-          ["Wellpad separators, heater treaters and scrubbers", "Operator's program, often built on API 510 practice for production vessels", "Thickness logger files, location sketches, gauge and probe calibration", "Readings without a repeatable location, so no corrosion rate built on them holds"],
-          ["Tank batteries and produced water tanks", "Operator's tank program and the standard it names", "Shell and floor survey data, MFL floor scans, repair records", "Floor coverage that skips the zone nearest the shell"],
-          ["Gathering lines leaving the lease", "Railroad Commission rules for intrastate and regulated gathering, federal minimum standards by reference", "Girth weld images, welder logs, alignment sheets, as-built records", "Images that cannot be matched to weld numbers on the as-built"],
-          ["Gas processing plants", "OSHA process safety management and API 510 and 570", "Mechanical integrity records, CML histories, exchanger tube data, corrosion maps", "Inspection plans that do not reflect sour or wet gas damage"],
-          ["Compressor stations", "Part 192 where the station is jurisdictional, plus the operator's standards", "DR and UT weld records on station piping, MT and PT on supports and nozzles", "Weld counts that do not reconcile with the number of welds made"],
-          ["Long-haul transmission lines", "PHMSA for interstate lines, the Railroad Commission for intrastate", "Girth weld radiographs or automated UT data, dig reports, coating surveys", "Interpretations made to the wrong acceptance standard"]
+          [
+            "Wellpad separators, heater treaters and scrubbers",
+            "Operator's program, often built on API 510 practice for production vessels",
+            "Thickness logger files, location sketches, gauge and probe calibration",
+            "Readings without a repeatable location, so no corrosion rate built on them holds"
+          ],
+          [
+            "Tank batteries and produced water tanks",
+            "Operator's tank program and the standard it names",
+            "Shell and floor survey data, MFL floor scans, repair records",
+            "Floor coverage that skips the zone nearest the shell"
+          ],
+          [
+            "Gathering lines leaving the lease",
+            "Railroad Commission rules for intrastate and regulated gathering, federal minimum standards by reference",
+            "Girth weld images, welder logs, alignment sheets, as-built records",
+            "Images that cannot be matched to weld numbers on the as-built"
+          ],
+          [
+            "Gas processing plants",
+            "OSHA process safety management and API 510 and 570",
+            "Mechanical integrity records, CML histories, exchanger tube data, corrosion maps",
+            "Inspection plans that do not reflect sour or wet gas damage"
+          ],
+          [
+            "Compressor stations",
+            "Part 192 where the station is jurisdictional, plus the operator's standards",
+            "DR and UT weld records on station piping, MT and PT on supports and nozzles",
+            "Weld counts that do not reconcile with the number of welds made"
+          ],
+          [
+            "Long-haul transmission lines",
+            "PHMSA for interstate lines, the Railroad Commission for intrastate",
+            "Girth weld radiographs or automated UT data, dig reports, coating surveys",
+            "Interpretations made to the wrong acceptance standard"
+          ]
         ]
       }
     },
     {
       "h": "Sour gas, produced water and the damage behind the readings",
       "p": [
-        "Much Permian production carries hydrogen sulfide, and the Railroad Commission's Statewide Rule 36, 16 TAC §3.36, sets requirements for operations in hydrogen sulfide areas, with a separate construction permit rule for sour gas pipeline facilities. Equipment and welds intended for sour service are usually purchased to NACE MR0175 / ISO 15156, which turns hardness surveys into acceptance records. We check that hardness positions, the test method and instrument verification match the purchase specification and that the values in the report are the ones the instrument recorded.",
+        "Parts of the basin produce sour gas, and the Railroad Commission's Statewide Rule 36, 16 TAC §3.36, sets requirements for operations in hydrogen sulfide areas, with a separate construction permit rule for sour gas pipeline facilities. Equipment and welds intended for sour service are usually purchased to NACE MR0175 / ISO 15156, which turns hardness surveys into acceptance records. We check that hardness positions, the test method and instrument verification match the purchase specification and that the values in the report are the ones the instrument recorded.",
         "Produced water brings its own damage: chloride pitting, scale, under-deposit attack and microbiologically influenced corrosion in water handling and disposal systems. Those mechanisms produce isolated pits that a few spot readings will not find. When a thickness report on water-handling equipment claims a clean bill of health from sparse readings, the opinion says what scanning coverage would have been needed to support that claim."
       ]
     },
     {
       "h": "Gas plants and compressor stations",
       "p": [
-        "Cryogenic gas processing plants sit inside OSHA's process safety management standard, so their vessels, piping and exchangers need inspection records an auditor can follow: a dated record of each inspection, who performed it, what was tested and the result, tied to an inspection plan that reflects the damage the plant expects. Amine units, dehydration systems and the cold box each have their own mechanisms, and the review checks whether the technique in each report could find them.",
-        "At compressor stations the common review question is whether the weld record is complete. Station piping is welded in quantity during construction and modification, often by more than one crew, and the DR or ultrasonic record has to cover every weld the operator's procedure says must be examined. We reconcile the welds made with the welds examined and the welds rejected, check that repairs were re-examined, and confirm that the people who interpreted the images held the certification the procedure requires."
+        "Cryogenic gas processing plants generally fall within OSHA's process safety management standard where they hold flammable materials above its threshold quantity, so their vessels, piping and exchangers need inspection records an auditor can follow: a dated record of each inspection, who performed it, what was tested and the result, tied to an inspection plan that reflects the damage the plant expects. Amine units, dehydration systems and the cold box each have their own mechanisms, and the review checks whether the technique in each report could find them.",
+        "At compressor stations the common review question is whether the weld record is complete. Station piping is welded in quantity during construction and modification, often by more than one crew, and the DR or ultrasonic record has to cover every weld the operator's procedure says must be examined. We reconcile the welds made with the welds examined and the welds rejected, check that repairs were re-examined, and confirm that the people who interpreted the images held the certification the procedure requires.",
+        "Packaged equipment adds a third stream of records. Skids, launchers, receivers and meter runs arrive with fabrication data books listing weld maps, welder qualifications, radiographs or UT reports, PMI results and hydrotest charts. When a receiving inspector holds one of those books, the review separates genuine nonconformances from paperwork that can simply be supplied, so the shop and the buyer argue about the right things."
       ]
     },
     {
       "h": "Long-haul pipelines and the Gulf Coast connection",
       "p": [
-        "Permian oil and gas leaves the basin on long-distance pipelines, and new capacity is added regularly; Matterhorn Express, for example, began moving Permian gas toward the Gulf Coast in 2024. Construction of lines like these produces large girth weld records, often a mix of film radiography, digital radiography and automated ultrasonic testing from different spreads. Interstate lines answer to PHMSA, and intrastate ones to the Railroad Commission of Texas, which adopts the federal minimum standards by reference.",
+        "Permian oil and gas leaves the basin on long-distance pipelines, and new capacity is added regularly; Matterhorn Express, for example, began moving Permian gas in 2024. Construction of lines like these produces large girth weld records, often a mix of film radiography, digital radiography and automated ultrasonic testing from different spreads. Interstate lines answer to PHMSA, and intrastate ones to the Railroad Commission of Texas, which adopts the federal minimum standards by reference.",
         "A review of a pipeline weld record checks that the interpretation procedure matches the acceptance standard the operator adopted, that each spread's technicians were qualified to that procedure, that repairs and cut-outs are traceable to a final acceptable examination, and that the record covers every weld the regulation and the specification required to be examined. For automated UT, we also check the calibration blocks, the zone discrimination setup and the scan files themselves."
       ]
     },
@@ -89,7 +125,8 @@
       "h": "Why remote review suits the basin",
       "p": [
         "There is no Atlantis office anywhere in the Permian Basin, and the review does not need one. A document and data review needs the records, not a reviewer on a lease road, so the files come by secure transfer and the work is carried out remotely from Atlantis's offices in Houston and Hyderabad. For portfolio reviews that is also the only practical way to read records from hundreds of facilities spread across several counties.",
-        "Describe the assets, the methods, the codes and what the review is for, and we reply within one business day with the scope, the reviewer and a quote. For a data room we usually agree a sampling plan first: a spread of asset types, contractors and years, weighted towards the facilities whose records will drive the most important decisions."
+        "Describe the assets, the methods, the codes and what the review is for, and we reply within one business day with the scope, the reviewer and a quote. For a data room we usually agree a sampling plan first: a spread of asset types, contractors and years, weighted towards the facilities whose records will drive the most important decisions.",
+        "The output of a portfolio review is a written opinion on each sampled record plus a short summary by asset type and contractor, so patterns stand out: a contractor whose calibration records are consistently thin, or a facility class whose surveys never captured the locations needed to repeat them."
       ]
     },
     {
@@ -135,11 +172,26 @@
     }
   ],
   "related": [
-    ["/inspection-services-texas", "Inspection services in Texas"],
-    ["/ndt-training-midland", "NDT training in Midland"],
-    ["/ndt-training-odessa", "NDT training in Odessa"],
-    ["/ultrasonic-testing-midland", "Ultrasonic testing in Midland"],
-    ["/magnetic-particle-testing-midland", "Magnetic particle testing in Midland"]
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/ndt-training-midland",
+      "NDT training in Midland"
+    ],
+    [
+      "/ndt-training-odessa",
+      "NDT training in Odessa"
+    ],
+    [
+      "/ultrasonic-testing-midland",
+      "Ultrasonic testing in Midland"
+    ],
+    [
+      "/magnetic-particle-testing-midland",
+      "Magnetic particle testing in Midland"
+    ]
   ],
   "sources": [
     "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2537449-diamondback-buys-endeavor-for-26bn-update-2",
