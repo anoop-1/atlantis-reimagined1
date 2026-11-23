@@ -75,7 +75,7 @@ export function nas410CityProblems(d, knownPaths) {
   if (/guarantee|pass rate|job placement|cohort|intake|live class|instructor-led/i.test(t)) out.push('banned training wording');
   if (/customer-specified aerospace standard|\bNANDTBs?\b|rather than SNT-TC-1A/i.test(t)) out.push('hedge wording (§66) or NANDTB');
   if (/@[a-z0-9-]+\.(com|net|org)/i.test(t) && !/info@atlantisndt\.com/.test(t)) out.push('email other than info@');
-  // Explanation only: any sentence where Atlantis offers NAS 410 training/certification/exams/RL3 fails.
+  // Explanation only: a sentence that puts Atlantis next to a scheme-training, certification, exam or RL3 role fails unless it is a denial.
   for (const s of t.split(/(?<=[.!?])\s+/)) {
     if (/\b(Atlantis|we|our)\b/i.test(s) && /\bNAS 410\b/.test(s) && /\b(train(ing|s)?|courses?|certif(y|ies|ication)|exam(s|ination)?|qualif(y|ication)|Responsible Level 3|RL3)\b/i.test(s) && !NEG.test(s) && !/\b(audit documentation|documentation)\b/i.test(s)) out.push(`NAS 410 offer? ${s.slice(0, 140)}`);
     if (/\b(founder|Anoop)\b/i.test(s) && /\bNAS 410 Level (3|III)\b/i.test(s) && !NEG.test(s)) out.push(`founder credential? ${s.slice(0, 120)}`);
@@ -120,9 +120,10 @@ if (process.argv[1] && process.argv[1].endsWith('nas410-city-2026-11.mjs') && pr
   const dist = join(ROOT, 'dist');
   const known = new Set();
   if (existsSync(dist)) for (const e of readdirSync(dist, { withFileTypes: true })) if (e.isDirectory()) known.add('/' + e.name);
-  // nested paths (/blog/x, /consulting/x, /training/x)
-  for (const top of ['blog', 'consulting', 'training', 'compliance', 'maritime', 'inspection', 'tools', 'resources']) {
-    const d = join(dist, top); if (existsSync(d)) for (const e of readdirSync(d, { withFileTypes: true })) if (e.isDirectory()) known.add(`/${top}/${e.name}`);
+  // nested paths (/blog/x, /consulting/x, /practical-ndt/x, …): every built index.html one level down
+  if (existsSync(dist)) for (const top of readdirSync(dist, { withFileTypes: true })) if (top.isDirectory() && top.name !== 'assets') {
+    const d = join(dist, top.name);
+    for (const e of readdirSync(d, { withFileTypes: true })) if (e.isDirectory() && existsSync(join(d, e.name, 'index.html'))) known.add(`/${top.name}/${e.name}`);
   }
   let bad = 0;
   for (const a of process.argv.slice(process.argv.indexOf('--check') + 1)) {
