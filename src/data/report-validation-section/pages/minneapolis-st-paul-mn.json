@@ -3,7 +3,7 @@
   "description": "Independent review of NDT reports and digital inspection data from Twin Cities refineries, crude oil pipelines and Xcel Energy nuclear plants, done remotely.",
   "h1": "Independent NDT report and inspection data review for Twin Cities refineries, pipelines and nuclear plants",
   "eyebrow": "Report validation: Minneapolis–St. Paul",
-  "intro": "Almost every barrel of crude refined in the Twin Cities arrives through the same pipeline system, is processed at one of two refineries south and east of St. Paul, and shares the region with two nuclear plants that are planning for operation into the 2050s. One of those refineries is being sold. That chain produces girth weld records, turnaround packages, aging management data and acquisition data rooms, and each of them needs a reader who can say what the evidence supports. We review NDT reports and the digital inspection data behind them independently, against the procedure and the code that governed the work, and we do it remotely from the files you send.",
+  "intro": "Most of the crude refined in the Twin Cities arrives through one pipeline system, is processed at one of two refineries south and southeast of St. Paul, and shares the region with two nuclear plants that are planning for operation into the 2050s. One of those refineries is being sold. That chain produces girth weld records, turnaround packages, aging management data and acquisition data rooms, and each of them needs a reader who can say what the evidence supports. We review NDT reports and the digital inspection data behind them independently, against the procedure and the code that governed the work, and we do it remotely from the files you send.",
   "highlights": [
     {
       "h": "A sale in progress",
@@ -53,7 +53,7 @@
       "h": "Monticello and Prairie Island: records for decades more operation",
       "p": [
         "Licence renewal and long-term operation put heavy weight on inspection records. An aging management program is only as good as the examinations that feed it, and a plant expecting to run into the 2050s needs those examinations to be trendable over decades, across changes of contractor, equipment and procedure. Both Xcel plants fall under NRC Region III, which works from Chicago.",
-        "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list. Our nuclear work is framed as an independent technical opinion, and the licensee's QA organisation decides whether and how it is used: a second reader on non-safety-related or balance-of-plant scope, oversight of a vendor's examination records before shipment, a check on a contractor's interpretation that station reviewers question, or technical input to a commercial dispute.",
+        "Neither plant's licensee, nor any other, carries Atlantis on its 10 CFR 50 Appendix B or NQA-1 approved supplier list. Our nuclear work is framed as an independent technical opinion, and the licensee's QA organisation decides whether and how it is used: a second reader on non-safety-related or balance-of-plant scope, oversight of a vendor's examination records before shipment, a check on a contractor's interpretation that station reviewers question, or technical input to a commercial dispute.",
         "For ultrasonic, penetrant and visual records the review checks the procedure revision the purchase order invoked, examiner certification and any performance demonstration the code required, calibration block traceability to the component's material and thickness, and the disposition of every recorded indication against the acceptance standard the order named. Eddy current data from heat exchanger tubes is not covered by our Level III's certification, so for that scope the proposal names a reviewer with the certification the contract calls for."
       ]
     },
@@ -123,11 +123,11 @@
     },
     {
       "q": "Do you review exchanger eddy current data from a refinery turnaround?",
-      "a": "Yes, through a reviewer the proposal names who holds the eddy current certification your contract requires; our Level III's certification covers UT, RT, MT, PT and VT only. Raw tube files are reopened and compared with the reported calls."
+      "a": "Yes, through a reviewer the proposal names who holds the eddy current certification your contract requires, because our Level III's certification covers UT, RT, MT, PT and VT and does not include eddy current. Raw tube files are reopened and compared with the reported calls."
     },
     {
       "q": "How do we start?",
-      "a": "Send the report or a sample, the procedure and code it was written to, and the decision it supports, using the form or info@atlantisndt.com. We reply within one business day with the scope, the named reviewer and a quote."
+      "a": "Send the report or a sample, the procedure and code it was written to, and the decision it supports, using the form or info@atlantisndt.com. Expect a reply within one business day setting out the scope, who will review the record and a quote."
     }
   ],
   "related": [
