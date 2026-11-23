@@ -23,6 +23,10 @@ export const RBI_LIVE = {
     [P('united-arab-emirates'), 'RBI in the United Arab Emirates'],
     [P('qatar'), 'RBI in Qatar'],
     [P('kuwait'), 'RBI in Kuwait'],
+    [P('singapore'), 'RBI in Singapore'],
+    [P('india'), 'RBI in India'],
+    [P('china'), 'RBI in China'],
+    [P('malaysia'), 'RBI in Malaysia'],
   ],
 };
 

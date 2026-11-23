@@ -124,3 +124,8 @@ Files, rendered word counts, sources, and every fact you left out or generalised
   interval provided the assessment is validated and reviewed at least every 10 years; later RBI intervals have no fixed
   year limit in the current edition. 49 CFR 195.432 does not allow RBI intervals for US breakout tanks today (a June
   2026 PHMSA proposal would; check whether a final rule has been published before saying anything else).
+- Sanctions (owner: Russia and Venezuela are left out because of US sanctions): also do not name businesses that are
+  substantially owned by sanctioned Russian or Venezuelan companies, e.g. the Vadinar refinery of Nayara Energy
+  (Rosneft-linked) in India. Name the Jamnagar complex only.
+- Ownership changes to keep straight: Pulau Bukom in Singapore has belonged to Aster (Chandra Asri and Glencore) since
+  April 2025, not Shell; KIPIC in Kuwait was dissolved into KNPC in 2026.
