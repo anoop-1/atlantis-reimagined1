@@ -1,0 +1,15 @@
+{
+  "slug": "cedar-rapids",
+  "lat": 41.98,
+  "lng": -91.67,
+  "localContext": "Cedar Rapids is a major grain-processing city. ADM, Cargill and Ingredion process corn and soybeans, and Quaker Oats, General Mills and Kraft Heinz run food plants, all relying on boilers, pressure vessels, ammonia refrigeration, steam and process piping, tanks and tall steel structures. Collins Aerospace is a large local employer, and NextEra is working to restart the Duane Arnold nuclear plant near Palo. Pressure equipment follows ASME codes and structural welding AWS D1.1, so UT thickness surveys, VT, MT and PT dominate, much of it during planned shutdowns.",
+  "certPathwayNote": "Cedar Rapids employers certify technicians under their own written practice based on ASNT SNT-TC-1A; a course supplies training, and the employer certifies. Aerospace customers and nuclear work add requirements of their own, such as customer flow-down and performance demonstration, which the employer's program must meet. ASNT central certification is the portable alternative, and Atlantis prepares candidates for it.",
+  "salaryFrom": "iowa",
+  "siblings": [
+    "des-moines",
+    "minneapolis",
+    "chicago",
+    "peoria",
+    "milwaukee"
+  ]
+}

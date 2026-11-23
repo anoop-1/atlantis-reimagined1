@@ -1,0 +1,15 @@
+{
+  "slug": "amarillo",
+  "lat": 35.22,
+  "lng": -101.83,
+  "localContext": "Amarillo is the Texas Panhandle's energy, aerospace and agriculture center. Natural gas gathering, processing and transmission pipelines cross the region, refineries operate at Sunray and Borger, and wind farms spread across the high plains. Bell's Amarillo Assembly Center works on military tiltrotor and helicopter programs, and the NNSA's Pantex Plant sits northeast of the city. Pipelines follow API 1104 and federal pipeline rules, plant piping and vessels follow ASME and API codes, and structural and tower steel follows AWS. UT, MT, VT and RT carry most of the local inspection work.",
+  "certPathwayNote": "Panhandle contractors and plant owners certify technicians under employer written practices based on ASNT SNT-TC-1A, and pipeline operators add operator qualification and contractor prequalification rules. Aerospace work adds the prime's flow-down requirements, and Pantex runs its own federal qualification and clearance programs. ASNT central certification is the alternative route, and Atlantis prepares candidates for it.",
+  "salaryFrom": "midland",
+  "siblings": [
+    "oklahoma-city",
+    "midland",
+    "odessa",
+    "albuquerque",
+    "wichita"
+  ]
+}

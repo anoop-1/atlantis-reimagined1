@@ -1,0 +1,15 @@
+{
+  "slug": "pueblo",
+  "lat": 38.25,
+  "lng": -104.61,
+  "localContext": "Pueblo is southern Colorado's heavy-industry city. Rocky Mountain Steel Mills, part of Orion Steel since Atlas Holdings bought EVRAZ North America in 2025, rolls rail for North American railroads; a large wind-tower plant now run by CS Wind welds tower sections from heavy plate; Xcel Energy's Comanche station generates power south of town; and the federal Transportation Technology Center tests rail equipment to the northeast. Steel fabrication follows AWS D1.1, boilers and piping follow ASME practice, and rail work follows railroad and AAR requirements.",
+  "certPathwayNote": "Pueblo employers certify technicians under their own written practice based on ASNT SNT-TC-1A: training hours, supervised experience, general, specific and practical examinations and a vision test, then employer certification. Utilities and railroads add their own contractor qualification rules, which the employer's Level III reconciles with the written practice. ASNT central certification is the portable alternative.",
+  "salaryFrom": "denver",
+  "siblings": [
+    "colorado-springs",
+    "denver",
+    "albuquerque",
+    "wichita",
+    "salt-lake-city"
+  ]
+}

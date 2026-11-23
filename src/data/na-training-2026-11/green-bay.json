@@ -1,0 +1,15 @@
+{
+  "slug": "green-bay",
+  "lat": 44.52,
+  "lng": -88.02,
+  "localContext": "Green Bay is northeast Wisconsin's paper, port and manufacturing hub. Georgia-Pacific's Broadway tissue mill and Green Bay Packaging's containerboard mill run steam dryers, boilers, tanks and piping that need regular examination, and more mills line the Fox River Valley. Fincantieri Marinette Marine, about an hour north, builds naval ships; the Point Beach nuclear plant near Two Rivers runs outages; Oshkosh Corporation and Pierce Manufacturing weld heavy vehicles nearby. Work follows ASME codes, AWS D1.1 and D1.2, owner programs and, for naval work, NAVSEA requirements. UT, MT, PT and VT all see steady use.",
+  "certPathwayNote": "Green Bay employers certify technicians under an ASNT SNT-TC-1A written practice, with the employer examining and signing. Shipyard suppliers must also meet the NAVSEA personnel and acceptance requirements their contracts flow down, and nuclear outage UT usually needs performance demonstration qualification. Atlantis training is SNT-TC-1A based, and ASNT central certification is the alternative route for technicians who move between employers.",
+  "salaryFrom": "milwaukee",
+  "siblings": [
+    "milwaukee",
+    "minneapolis",
+    "duluth",
+    "chicago",
+    "grand-rapids"
+  ]
+}

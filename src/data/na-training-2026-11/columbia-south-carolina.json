@@ -1,0 +1,15 @@
+{
+  "slug": "columbia-south-carolina",
+  "lat": 34.0,
+  "lng": -81.03,
+  "localContext": "Columbia's NDT work comes from industry spread across the Midlands. Westinghouse makes nuclear fuel assemblies at its Columbia Fuel Fabrication Facility, Dominion Energy South Carolina operates the V.C. Summer nuclear station in Fairfield County, and Michelin's Lexington tire plant, a large paper mill at Eastover and the Scout Motors plant taking shape at Blythewood add manufacturing and maintenance work. McEntire Joint National Guard Base flies F-16s. Nuclear supply follows strict quality programs, plants follow ASME and API codes, and fabrication follows AWS.",
+  "certPathwayNote": "Midlands employers certify technicians under written practices based on ASNT SNT-TC-1A. Nuclear fuel and component suppliers work under Appendix B quality programs, and plant owners may require ASNT CP-189 qualification, performance demonstration for ultrasonic work and site access screening, which the employer arranges. Technicians without a sponsor can pursue ASNT central certification, which Atlantis prepares candidates for.",
+  "salaryFrom": "greenville-south-carolina",
+  "siblings": [
+    "charlotte",
+    "greenville-south-carolina",
+    "north-charleston",
+    "aiken",
+    "augusta"
+  ]
+}
