@@ -10,7 +10,7 @@
   "highlights": [
     {
       "h": "Scope widens at No. 3",
-      "p": "At the third renewal survey the unified requirements ask for far more close-up survey: every hold frame in two holds and half of them elsewhere on a single-side skin bulk carrier, more web frames in every ballast tank of a double-hull tanker, and more transverse sections."
+      "p": "At the third renewal survey the unified requirements ask for far more close-up survey: every hold frame in two holds and half of them elsewhere on a single-side skin bulk carrier, web frame close-up in every ballast tank of a double-hull tanker, and more transverse sections."
     },
     {
       "h": "Coatings and margins run out together",
@@ -85,7 +85,7 @@
       "h": "Why the 15-year survey is the one most likely to bring steel renewal",
       "p": [
         "Three trends meet at about fifteen years. The IMO performance standard for protective coatings in dedicated seawater ballast tanks, required on newer ships through SOLAS regulation II-1/3-2, targets a useful life of fifteen years, and older ships often carry less durable systems. Scantling corrosion margins are consumed at a pace set largely by how long the coating held. And the survey now measures structure never measured before, so years of wastage appear on paper at once.",
-        "Coating condition is graded at each survey as GOOD (only minor spot rusting), FAIR (local breakdown at stiffener edges and weld connections) or POOR (general breakdown over 20 per cent or more of the area, or hard scale). Many ballast tanks slip from FAIR to POOR between the 10-year and 15-year surveys. A tank found POOR and left unrepaired, or protected by a soft or semi-hard coating, is then examined at every annual survey, so the coating decision taken at this docking shapes the next five years of surveys as well as the steel.",
+        "Coating condition is graded at each survey as GOOD (minor spot rusting), FAIR (local breakdown at stiffener edges and weld connections) or POOR (general breakdown over 20 per cent or more of the area, or hard scale). Many ballast tanks slip from FAIR to POOR between the 10-year and 15-year surveys. A tank found POOR and left unrepaired, or protected by a soft or semi-hard coating, is then examined at every annual survey, so the coating decision taken at this docking shapes the next five years of surveys as well as the steel.",
         "Pitting gathers where water and sediment lie: ballast tank bottoms, the upper faces of stringers and longitudinals and, on crude carriers, cargo tank bottoms. Grooving runs along weld toes at frame and longitudinal connections. A spot reading between pits overstates the remaining steel, so pit depth and intensity are recorded separately and judged against their own limits."
       ]
     },
@@ -93,7 +93,7 @@
       "id": "where-steel-is-lost",
       "h": "Where steel is usually found at 15 years, by ship type",
       "p": [
-        "Design and trade change the details, but certain locations recur at this age often enough that pre-survey gauging should start with them.",
+        "Details vary with design and trade, but these locations recur often enough at this age to start pre-survey gauging there.",
         "On single-side skin bulk carriers not built to the later side-structure standards, hold side frames and brackets have renewal criteria of their own. IMO resolution MSC.168(79), applied by IACS through UR S31, requires them to be assessed by the time the ship is ten years old and at every intermediate and renewal survey after that. At No. 3 they are measured again; readings close to the criteria widen the gauging, and a hold where any frame needs renewal or other measures has every frame gauged."
       ],
       "table": {
@@ -153,7 +153,7 @@
       "id": "planning-the-steel",
       "h": "Planning the steel and the docking for renewal survey No. 3",
       "p": [
-        "With an early start, the steel scope of a 15-year survey can be estimated usefully before the ship reaches the yard. A sequence many technical managers follow:",
+        "With an early start, the steel scope of a 15-year survey can be estimated usefully before the ship reaches the yard. A typical sequence:",
         "A steel estimate in tonnes is a planning figure, not a promise. Bottom shell plating, high structure that needs staging and any cargo tank that cannot be cleaned while trading usually stay unmeasured until the dock, and class gauging can lengthen the list. A measured core with a stated allowance still lets the owner book enough dock days and compare yards on one scope."
       ],
       "list": [
@@ -194,7 +194,7 @@
       "h": "Owner's gauging, class-credited gauging and where Atlantis fits",
       "p": [
         "Gauging that counts towards the renewal survey has to come from a thickness measurement firm holding IACS UR Z17 approval from the ship's own classification society, and that society's surveyor attends it. Atlantis NDT does not yet hold that approval from any society; it is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, and until one of them certifies it, our readings serve the owner's own decisions: pre-docking gauging and steel estimates, coating condition surveys, pre-purchase and condition surveys, and CVIP, the owner's whole-ship inspection programme.",
-        "For every job a team is mobilised from India to the vessel. Reports follow the IACS forms and the point numbering of earlier class reports, so the yard gauging can be checked against them reading by reading. Send enquiries to info@atlantisndt.com, or use the enquiry form below."
+        "A team travels out from India for each job. Reports follow the IACS forms and the point numbering of earlier class reports, so the yard gauging can be checked against them reading by reading. Send enquiries to info@atlantisndt.com, or use the enquiry form below."
       ],
       "links": [
         [
@@ -229,11 +229,11 @@
     "For ESP ships: the completed survey planning questionnaire and the agreed survey programme"
   ],
   "industries": [
-    "Single-side skin and double-skin bulk carriers",
+    "Bulk carriers, single-side skin and double-skin",
     "Crude oil and product tankers",
     "Chemical tankers",
     "Container ships",
-    "General cargo and multipurpose ships",
+    "Multipurpose and general cargo ships",
     "Technical managers and superintendents",
     "Buyers and sellers of ships approaching 15 years"
   ],
@@ -256,7 +256,7 @@
     },
     {
       "q": "Should we arrange CAP at the same time as the 15-year survey?",
-      "a": "If charterers are likely to ask for a Condition Assessment Programme rating, combining it with renewal survey No. 3 avoids a second round of tank cleaning and staging. CAP gauging is usually wider than the renewal survey minimum, and the society decides how the measurements serve both, so settle that before the docking. A look at the likely CAP outcome during pre-docking gauging shows whether steel renewal should come first."
+      "a": "If charterers are likely to ask for a Condition Assessment Programme rating, combining it with renewal survey No. 3 avoids a second round of tank cleaning and staging. CAP gauging is usually wider than the renewal survey minimum, and the society decides how the measurements serve both, so settle that before the docking. A look at the likely CAP outcome during pre-docking gauging shows whether steel renewal should come before it."
     },
     {
       "q": "Is it better to sell a ship before its third special survey?",

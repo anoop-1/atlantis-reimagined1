@@ -1,0 +1,206 @@
+{
+  "slug": "ship-inspection-by-vessel-type",
+  "navLabel": "Ship Inspection by Vessel Type",
+  "title": "Ship Inspection by Vessel Type: What Class Looks At and Why",
+  "description": "How bulk carriers, oil and chemical tankers, container ships, gas carriers, general cargo and ro-ro ships are inspected, and which IACS hull survey rules apply.",
+  "h1": "How Different Types of Ship Are Inspected: Structure, Cargo, Damage and Survey Rules",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "Every classed merchant ship runs through the same five-year cycle of annual, intermediate and renewal surveys, yet no two types are examined the same way. A bulk carrier's holds, a tanker's ballast spaces, a container ship's hatch corners and a gas carrier's containment fail in different places for different reasons, and the survey rules reflect that. This guide compares the main ship types: how they are built, what their cargo does to the steel, which IACS requirements govern their hull surveys, and what owners, buyers and charterers look at hardest on each.",
+  "highlights": [
+    {
+      "h": "Structure and cargo set the priorities",
+      "p": "Open holds, double hulls, cell guides, insulated cargo tanks and vehicle decks each gather load and corrosion in different places. Inspection effort follows the structure and the cargo, which is why a surveyor's plan for a tanker looks nothing like one for a ro-ro ship."
+    },
+    {
+      "h": "Two families of survey rules",
+      "p": "Bulk carriers, oil tankers and chemical tankers follow the enhanced survey approach, with planned close-up survey and gauging written into the rules. Container, general cargo, gas and ro-ro ships follow the general hull survey requirements, with additions for some types."
+    },
+    {
+      "h": "Different readers, different questions",
+      "p": "A superintendent wants the steel list for the next docking, a buyer wants to know what the ship will need, and a charterer wants confidence in the cargo spaces. One inspection can answer all three if it is planned around the ship type from the start of the job."
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-cycle",
+      "h": "What every ship's hull survey has in common",
+      "p": [
+        "Whatever the type, class works to the same rhythm: an annual survey around each anniversary date, an intermediate survey that stands in for the second or third annual survey, examinations of the outside of the bottom, and a renewal survey every five years that renews the classification certificate. At each renewal survey the depth of examination grows with the ship's age, because coating breakdown, wastage and fatigue accumulate. The special survey and intermediate survey guides set out that progression; this guide is about what changes from one ship type to the next."
+      ],
+      "links": [
+        ["/maritime/special-survey-by-ship-age", "Special survey by ship age"],
+        ["/maritime/intermediate-survey", "Intermediate survey guide"]
+      ]
+    },
+    {
+      "id": "why-types-differ",
+      "h": "Why is each type of ship inspected differently?",
+      "p": [
+        "Three things separate one ship type from another in an inspector's eyes. The structural arrangement decides where stress gathers: an open-hatch hull carries its strength in the coamings and deck strips, a double hull spreads it through a cellular box, and a ro-ro deck spans wide open spaces on deep transverse frames. The cargo decides what attacks the steel from inside: abrasive ore and acidic coal, crude oil with water settling beneath it, aggressive chemicals, liquefied gas at around minus 162 degrees Celsius, or vehicles bringing salt and water aboard. And the trade decides the loading pattern and the number of cycles: alternate-hold loading, fast container turnarounds or daily ferry crossings.",
+        "Statutory rules follow the same lines. Bulk carriers have SOLAS chapter XII, gas carriers the IGC Code, chemical tankers the IBC Code and oil tankers MARPOL Annex I, and each adds structural or equipment requirements that the surveyor checks alongside the class hull survey."
+      ]
+    },
+    {
+      "id": "survey-families",
+      "h": "Enhanced survey ships and general hull survey ships",
+      "p": [
+        "UR Z7, Hull Classification Surveys, is the base for every self-propelled classed ship. SOLAS chapter XI-1 regulation 2 adds the 2011 ESP Code for bulk carriers and oil tankers, applied by IACS through UR Z10.1 and Z10.4 (oil tankers) and Z10.2 and Z10.5 (bulk carriers); class brings chemical tankers into the same regime with UR Z10.3. On these ships the survey is planned in writing with the owner, close-up survey extents are tabulated by age, and thickness measurement credited to the survey is done by a firm the society has approved under UR Z17.",
+        "Other ships add type supplements to UR Z7 where they exist. UR Z7.1 covers general dry cargo ships from 500 gross tonnage upwards, but excludes dedicated container ships, ro-ro ships, refrigerated cargo ships, wood chip, cement and livestock carriers, deck cargo ships and dry cargo ships with full-length, full-height double side skins. UR Z7.2 covers the hulls of liquefied gas carriers, while UR Z16 deals with their cargo installations. Container and ro-ro ships are therefore surveyed under UR Z7 itself, where close-up examination follows the surveyor's findings rather than a fixed table."
+      ]
+    },
+    {
+      "id": "types-compared",
+      "h": "Ship types compared: survey regime, critical areas and typical damage",
+      "p": [
+        "The table summarises where inspection effort goes on each type. It is a starting point for planning, not a substitute for the ship's own history: sister-ship experience and earlier findings always refine it."
+      ],
+      "table": {
+        "head": ["Ship type", "Hull survey regime", "Critical areas", "Typical damage"],
+        "rows": [
+          ["Bulk carrier", "ESP; UR Z10.2 or, for double skin designs, Z10.5; SOLAS XII", "Hold frames and brackets, hatch covers and coamings, topside and hopper tanks, bulkhead stools", "Grab damage, cargo corrosion, frame wastage and detachment, hatch corner cracks"],
+          ["Oil tanker", "ESP; UR Z10.1 or Z10.4", "Double-bottom and wing ballast tanks, hopper knuckle, cargo tank bottoms and deckheads", "Coating breakdown, bottom pitting, under-deck wastage, side longitudinal fatigue"],
+          ["Chemical tanker", "UR Z10.3 through class; IBC Code", "Stainless or coated cargo tanks, cargo pumps and lines, ballast tanks, cofferdams", "Pitting and weld attack in stainless, lining breakdown, pipe wall loss"],
+          ["Container ship", "UR Z7", "Hatch corners and coaming tops, sheer strake, cell guides, hatch cover pads, lashing bridges", "Fatigue cracks, contact damage, wasted hatch cover fittings"],
+          ["Gas carrier (LNG, LPG)", "UR Z7.2 for the hull, UR Z16 for cargo installations; IGC Code", "Inner hull and hold spaces around the containment, insulation, ballast tanks", "Cold spots on inner hull steel, ballast tank corrosion, support and insulation defects"],
+          ["General cargo and multipurpose", "UR Z7.1", "Holds and tweendecks, hatch covers, cranes and pedestals, ballast tanks", "Frame wastage, tweendeck damage, crane pedestal cracks"],
+          ["Ro-ro, ro-pax, car carrier", "UR Z7; doors to UR S8 and S9", "Bow, inner, side and stern doors, ramps, vehicle decks", "Worn hinges and locks, door seal leaks, vehicle deck corrosion and deformation"]
+        ]
+      }
+    },
+    {
+      "id": "tankers",
+      "h": "Tankers: ballast spaces, cargo tanks and the cargo system",
+      "p": [
+        "Oil and chemical tankers share a hull form and an enhanced survey regime but differ inside the cargo tanks. On a double-hull oil tanker the ballast spaces around the cargo block hold the most coated steel and usually the most corrosion, while crude cargo tanks pit at the bottom and waste under the deck. On a chemical tanker the cargo tank material leads: stainless tanks are checked for pitting and weld attack, coated tanks for lining breakdown, and every test method must leave the tank fit for the next cargo."
+      ],
+      "links": [
+        ["/maritime/oil-tanker-inspection", "Oil tanker inspection guide"],
+        ["/maritime/chemical-tanker-inspection", "Chemical tanker inspection guide"]
+      ]
+    },
+    {
+      "id": "dry-bulk-general-cargo",
+      "h": "Bulk carriers and general cargo ships: holds and hatch covers",
+      "p": [
+        "Dry cargo works the hold steel directly. Bulk carriers take grab blows and cargo corrosion on frames, hoppers and tank tops, and their hatch covers are examined at every annual survey because water in a hold endangers both cargo and ship. General cargo and multipurpose ships add tweendecks, deck cranes and mixed cargoes, with a lighter, tabulated close-up survey under UR Z7.1. On both, the hold frames and hatch covers are where findings concentrate."
+      ],
+      "links": [
+        ["/maritime/bulk-carrier-inspection", "Bulk carrier inspection guide"],
+        ["/maritime/general-cargo-ship-inspection", "General cargo ship inspection guide"]
+      ]
+    },
+    {
+      "id": "container-ships",
+      "h": "Container ships: fatigue in the upper hull",
+      "p": [
+        "With most of the deck cut away for hatches, a container ship's longitudinal and torsional strength sits in the coamings, upper deck strips and side structure, so fatigue cracking at hatch corners and coaming ends tends to appear before corrosion becomes the issue. Large ships use very thick high-strength steel in that upper structure, with IACS rules on brittle crack arrest. Cell guides, lashing bridges and hatch cover bearing pads take daily contact and wear."
+      ],
+      "links": [["/maritime/container-ship-inspection", "Container ship inspection guide"]]
+    },
+    {
+      "id": "gas-carriers",
+      "h": "Gas carriers: the hull around the cargo containment",
+      "p": [
+        "The IGC Code recognises several cargo containment systems, among them membrane tanks and independent tanks of types A, B and C. Their hull inspection centres on the spaces around the containment: hold or inter-barrier spaces, the inner hull steel that must stay above its design temperature, and the ballast tanks outboard. Insulation defects show as cold spots on that steel, which is why thermographic surveys of the inner hull and hold spaces are used to find them early."
+      ],
+      "links": [
+        ["/maritime/gas-carrier-inspection", "Gas carrier inspection guide (LNG and LPG)"],
+        ["/maritime/infrared-thermography", "Infrared thermography"]
+      ]
+    },
+    {
+      "id": "ro-ro-ships",
+      "h": "Ro-ro ships, ro-pax ferries and car carriers: doors, ramps and decks",
+      "p": [
+        "Shell doors are the watertight integrity of a ro-ro ship. IACS UR S8 sets requirements for the arrangement, strength and securing of bow doors and inner doors, and UR S9 for side shell doors and stern doors, on ro-ro passenger and cargo ships. In service, inspection concentrates on hinges, locking and securing devices, seals, hydraulic cylinders and the surrounding structure, then on ramps and vehicle decks, where salt and water brought aboard by vehicles corrode the plating and wheel loads deform it."
+      ],
+      "links": [["/maritime/ro-ro-and-car-carrier-inspection", "Ro-ro and car carrier inspection guide"]]
+    },
+    {
+      "id": "what-readers-look-at",
+      "h": "What owners, buyers and charterers look at by ship type",
+      "p": [
+        "The same ship is inspected for different reasons, and each reader weights the findings differently. The table shows the usual emphasis."
+      ],
+      "table": {
+        "head": ["Ship type", "Owner or superintendent", "Buyer", "Charterer"],
+        "rows": [
+          ["Bulk carrier", "Steel list for hold frames and ballast tanks before the docking", "Frame condition, hatch covers and the age of the next renewal survey", "Hold condition and hatch cover tightness for the cargo"],
+          ["Oil tanker", "Ballast tank coating and gauging trends", "Coating state, cargo tank pitting, CAP prospects", "Vetting record and, for older ships, a CAP rating"],
+          ["Chemical tanker", "Pit maps, lining condition, pump purge history", "Stainless tank condition and certificate of fitness product list", "Tank cleanliness and the cargo list each tank can take"],
+          ["Container ship", "Fatigue crack history and repairs at hatch corners", "Crack and repair history, hatch cover fittings", "Hatch cover and securing condition"],
+          ["Gas carrier", "Cold spot and insulation records, ballast tanks", "Containment system history and class records", "Vetting record and cargo system reliability"],
+          ["Ro-ro or car carrier", "Door, ramp and deck maintenance records", "Door and ramp condition, deck wastage", "Ramp and deck capacity and condition"]
+        ]
+      }
+    },
+    {
+      "id": "atlantis-role",
+      "h": "Where an owner's inspection fits beside class",
+      "p": [
+        "Atlantis NDT inspects every type of ship listed here on behalf of owners, managers, buyers and charterers, sending teams from India to the vessel for each job: thickness gauging, crack detection, hatch cover tightness testing, thermography, vibration analysis and condition surveys, and CVIP, our Comprehensive Vessel Inspection Programme, for a whole-ship view. Gauging that counts towards a class survey must come from a company holding UR Z17 approval from that ship's society. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; pending a certificate, our results serve the owner's decisions. Enquiries to info@atlantisndt.com."
+      ],
+      "links": [
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"],
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"]
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
+    "IACS UR Z7.2 – Hull surveys for liquefied gas carriers",
+    "IACS UR Z10.1 to Z10.5 – Hull surveys of oil tankers, bulk carriers, chemical tankers, double hull oil tankers and double skin bulk carriers",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code (resolution A.1049(27))",
+    "SOLAS chapter XII – Additional safety measures for bulk carriers",
+    "IGC Code – International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk",
+    "IBC Code – International Code for the Construction and Equipment of Ships Carrying Dangerous Chemicals in Bulk",
+    "IACS UR S8 – Bow doors and inner doors",
+    "IACS UR S9 – Side shell doors and stern doors"
+  ],
+  "deliverables": [
+    "Class survey status: due dates, conditions of class, memoranda and suspect areas",
+    "Previous thickness measurement reports with sketches and point numbering",
+    "Structural drawings with original scantlings for the spaces to be inspected",
+    "Cargo and ballast history, with tank or hold cleaning records",
+    "Crew coating condition records and photographs for ballast tanks",
+    "Type-specific records: hatch cover, shell door, containment, pump or piping maintenance and test results",
+    "Damage and repair history since the last renewal survey"
+  ],
+  "industries": [
+    "Ship owners and managers",
+    "Technical superintendents",
+    "Ship buyers and brokers",
+    "Charterers and vetting teams",
+    "Ship financiers",
+    "Hull and machinery insurers"
+  ],
+  "faqs": [
+    {
+      "q": "Are all ships surveyed under the enhanced survey programme?",
+      "a": "No. The ESP Code is mandatory for oil tankers and bulk carriers through SOLAS chapter XI-1 regulation 2, and class applies the same approach to chemical tankers through UR Z10.3. Container ships, ro-ro ships, general cargo ships and gas carriers follow UR Z7 and, where applicable, UR Z7.1 or Z7.2, where survey planning is less prescribed even though inspection still grows with age."
+    },
+    {
+      "q": "Why are container ships not surveyed under UR Z7.1?",
+      "a": "UR Z7.1 is written for general dry cargo ships from 500 gross tonnage upwards, and its application paragraph excludes dedicated container ships, along with ro-ro, refrigerated, wood chip, cement and livestock carriers, deck cargo ships and full double-side-skin dry cargo ships. A dedicated container ship is therefore surveyed under UR Z7, with close-up examination guided by the surveyor's findings."
+    },
+    {
+      "q": "What is the difference between a class survey and a vetting inspection?",
+      "a": "A class survey checks that the hull and machinery still meet the society's rules and keeps the ship in class; it decides steel renewal and conditions of class. A vetting inspection, such as an OCIMF SIRE inspection for tankers, is commissioned for charterers and looks at operations, documentation and visible condition. One does not replace the other, and charterers read both."
+    },
+    {
+      "q": "Which ship types need the most attention to hatch covers?",
+      "a": "Bulk carriers and general cargo ships above all, because hatch covers are part of their weathertight integrity and water in a hold damages cargo and can endanger the ship. Class examines covers at every annual survey. Container ships also depend on hatch covers, where bearing pads, stoppers and cleats take heavy wear from container loads and frequent opening."
+    },
+    {
+      "q": "How is a gas carrier's hull inspected differently from a tanker's?",
+      "a": "The structure around the cargo containment is the focus: hold or inter-barrier spaces, the inner hull steel that must stay above its design temperature, and the ballast tanks outboard. UR Z7.2 covers the hull and UR Z16 the cargo installations, under the IGC Code. Cold spots from insulation defects are a gas carrier concern with no real equivalent on oil tankers."
+    },
+    {
+      "q": "Can one condition survey cover any type of ship?",
+      "a": "The method carries over, but the plan must be built around the type: hold frames and hatch covers on a bulk carrier, ballast tanks and cargo tank bottoms on an oil tanker, tank materials on a chemical tanker, hatch corners on a container ship, doors and ramps on a ro-ro. A survey planned that way gives the owner, buyer or charterer findings that match their actual risk."
+    }
+  ]
+}

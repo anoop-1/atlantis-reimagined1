@@ -1,0 +1,185 @@
+{
+  "slug": "general-cargo-ship-inspection",
+  "navLabel": "General Cargo Ship Inspection Guide",
+  "title": "General Cargo Ship Inspection: Holds, Tweendecks, Covers, Cranes",
+  "description": "How general cargo and multipurpose ships are inspected: UR Z7.1 surveys by age, hold frames, tweendecks, hatch covers, crane pedestals and ballast tanks.",
+  "h1": "Inspecting General Cargo and Multipurpose Ships: Holds, Hatch Covers and Cranes",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "General cargo and multipurpose ships carry steel, project cargo, bagged and bulk parcels, timber and machinery, often on the same voyage, and their holds show it. Frames, tweendecks and tank tops take contact damage and corrosion from varied cargoes, hatch covers work in every port, and cargo cranes add structure that is loaded hard. This guide explains how IACS UR Z7.1 surveys these ships at each age, where defects are usually found, how hatch covers and crane foundations are checked, and what owners, charterers and buyers look at.",
+  "highlights": [
+    {
+      "h": "UR Z7.1 sets the survey extents",
+      "p": "General dry cargo ships of 500 gt and above with single-side-skin holds are surveyed under UR Z7.1, which names the frames, transverse bulkheads, hatch covers and ballast tanks to be examined at each special survey and widens the annual and intermediate surveys with age."
+    },
+    {
+      "h": "Frames and tweendecks carry the cargo history",
+      "p": "Grab and loader damage, impact from heavy units and corrosion from residues of coal, salt, fertiliser and similar cargoes concentrate on the lower part of side frames, their brackets, tweendeck pontoons and the tank top. These areas need cleaning and good access before they can be judged."
+    },
+    {
+      "h": "Crane foundations are hull structure",
+      "p": "A crane pedestal and the deck structure beneath it carry every lift into the hull. Cracks at the pedestal-to-deck connection and in the brackets below deck are found by close visual examination and confirmed with magnetic particle testing on cleaned welds."
+    }
+  ],
+  "sections": [
+    {
+      "id": "which-ships",
+      "h": "Which ships are surveyed as general dry cargo ships under UR Z7.1?",
+      "p": [
+        "UR Z7.1, Hull Surveys for General Dry Cargo Ships, applies to self-propelled general dry cargo ships of 500 gt and above carrying solid cargoes. Its exclusions matter as much as its scope: ships surveyed under the bulk carrier requirements UR Z10.2 or Z10.5, dedicated container carriers, ro-ro cargo ships, refrigerated cargo ships, dedicated wood chip and cement carriers, livestock carriers, deck cargo ships, and general dry cargo ships with double side skin over the full cargo length and hold height. On ships combining single and double side skin, it applies to the single-side-skin holds.",
+        "In practice that brings in the traditional tweendecker and many multipurpose ships with conventional side frames, while box-shaped multipurpose ships with double sides along the whole cargo area are surveyed under the general hull requirements of UR Z7. The difference matters for planning, because UR Z7.1 names the structure to be examined far more specifically. It also covers the survey of hold water level detectors on single-hold cargo ships."
+      ]
+    },
+    {
+      "id": "survey-cycle-age",
+      "h": "How do annual and intermediate surveys grow with a general cargo ship's age?",
+      "p": [
+        "Annual surveys, within three months either side of the anniversary date, include close-up survey of hatch cover and coaming plating and random operational checks of the covers. From ten years of age the annual survey adds an overall survey of one forward and one after hold with their tweendecks. Over fifteen years it covers all holds and tweendecks, with close-up survey of at least 25 per cent of frames in a forward lower hold and one other lower hold, concentrating on the lower third of each side frame, its end attachments and the adjacent shell plating.",
+        "The intermediate survey falls at or between the second and third annual surveys. Between five and ten years it covers representative ballast tanks, one forward and one after hold with tweendecks, and suspect areas; between ten and fifteen years, all ballast tanks and all holds and tweendecks. Over fifteen years it is carried out to the extent of the previous special survey, with some testing and tank examinations left to the surveyor's judgement, and it may be started at the second annual survey and completed at the third."
+      ]
+    },
+    {
+      "id": "special-survey-table",
+      "h": "Special survey close-up survey and thickness measurement on general cargo ships",
+      "p": [
+        "The table summarises the minimum extents in the UR Z7.1 tables. Members under close-up survey are also gauged for a general assessment of their condition, the surveyor may extend any of it, and the number of transverse sections can be reduced on ships under 100 m long. Transverse bulkheads are examined at set levels: just above the inner bottom and tweendecks, at mid-height in holds without tweendecks, and just below the main deck and tweendeck plating."
+      ],
+      "table": {
+        "head": ["Special survey", "Ship age", "Close-up survey (minimum)", "Thickness measurement (minimum)"],
+        "rows": [
+          ["No. 1", "Up to 5 years", "Selected shell frames in one forward and one after hold and tweendeck; one transverse bulkhead; all hatch covers and coamings", "Suspect areas; one deck transverse section in a cargo space within the amidships 0.5L"],
+          ["No. 2", "Over 5 up to 10 years", "Selected shell frames in all holds and tweendecks; one transverse bulkhead in each hold; selected ballast tank webs and bulkheads; hatch covers and coamings; selected deck, underdeck and inner bottom structure", "Suspect areas; two transverse sections in two cargo spaces; each deck plate outside the hatch openings; all wind-and-water strakes in the cargo length"],
+          ["No. 3", "Over 10 up to 15 years", "All shell frames in the forward lower hold and 25 per cent of frames in each other hold and tweendeck; all transverse bulkheads in holds and ballast tanks; all ballast tank webs; all inner bottom plating", "Suspect areas; at least three transverse sections; each deck plate outside hatch openings; each bottom plate including the bilge; duct keel or pipe tunnel; wind-and-water strakes over the full length"],
+          ["No. 4 and later", "Over 15 years", "All shell frames in all holds and tweendecks with their end attachments and adjacent shell plating, plus the No. 3 items", "Extends the No. 3 programme; substantial corrosion followed up and readings added where the surveyor requires"]
+        ]
+      }
+    },
+    {
+      "id": "holds-tweendecks",
+      "h": "Holds and tweendecks: where are defects usually found?",
+      "p": [
+        "A general cargo hold takes punishment a dedicated bulk carrier or container ship does not. Steel coils and slabs dent the tank top and tweendecks, forklifts and loaders strike frames and ladders, grabs and small bulldozers used on bulk parcels damage lower frames and brackets, and residues of corrosive cargoes sit in corners and on horizontal surfaces. Condensation forms on the shell as the ship moves between climates. The lower part of each side frame, where it meets the hopper or tank top through a bracket, is where corrosion and impact meet, and wastage of the frame web, flange and bracket toes is the defect UR Z7.1 points surveyors towards as ships age."
+      ],
+      "table": {
+        "head": ["Structure", "Typical defects", "What the inspection checks"],
+        "rows": [
+          ["Side shell frames and end brackets", "Wastage of web and flange, detached or cracked bracket toes, impact deformation", "Close-up of the lower third and end attachments, web and flange readings, deformation records"],
+          ["Tweendeck pontoons and their seats", "Distorted panels, worn bearing seats and locating pins, cracked hinges on folding types", "Panel fit and support condition, crack checks at seats and hinges"],
+          ["Tweendeck plating and girders", "Denting and corrosion from heavy cargo and standing water", "Deformation, coating condition, readings on plating and girders"],
+          ["Transverse bulkheads", "Corrosion of lower strakes and stool tops, cracking at corrugation knuckles", "Close-up at the levels the rules set, readings on lower strakes"],
+          ["Tank top and bilge wells", "Indentation, grooving and pitting, blocked or corroded bilge wells", "Tank top readings, bilge well and strainer condition"],
+          ["Hold ladders and access", "Bent rungs, wasted stringers, damaged landings", "Visual check for safe access, readings where wastage is suspected"]
+        ]
+      }
+    },
+    {
+      "id": "hatch-covers",
+      "h": "Folding, piggyback and pontoon hatch covers on general cargo ships",
+      "p": [
+        "Folding covers are hinged panels opened by hydraulic cylinders or wires, and their hinges, hinge pins, cylinder brackets and cross-joint seals are the parts that wear. Piggyback covers roll on wheels along the coaming, one panel lifted to roll over its neighbour, so wheel bearings, rails, lifting jacks and the cover edges that take wheel loads are the focus. Pontoon covers, also used as tweendeck closures on many multipurpose ships, are lifted by the ship's own cranes, and their lifting points, bearing pads and locating devices are examined with the panels.",
+        "On every type the steel corrodes from the underside where condensation and cargo dust collect, rubber packing hardens and takes a permanent set, compression bars bend or waste, cleats and wedges wear and coaming drain valves seize. UR Z7.1 puts all hatch covers and coamings under close-up survey from special survey No. 1, with plating and stiffeners gauged and seals tested by hose or an equivalent method. An ultrasonic tightness test locates leaks along the packing more precisely than a hose."
+      ],
+      "links": [
+        ["/maritime/hatch-cover-ultrasonic-testing", "Hatch cover ultrasonic tightness testing"]
+      ]
+    },
+    {
+      "id": "cranes",
+      "h": "Cargo cranes, pedestals and foundations: how are they inspected?",
+      "p": [
+        "Ship's cranes make a general cargo ship independent of shore equipment, and multipurpose ships fitted for heavy lifts carry cranes that can work in tandem. The crane itself, its jib, slewing bearing, winches and wires, is certified as a lifting appliance under the flag state's rules, typically with periodic thorough examinations and load tests recorded in the register of lifting appliances in line with ILO Convention No. 152. The pedestal and the deck structure carrying it are part of the hull and are examined by class with the hull.",
+        "The highest stresses sit where the pedestal meets the deck and where its loads spread into the brackets, girders and bulkheads beneath. Fatigue cracks start at weld toes in those connections, at openings in the pedestal shell and around the flange seating the slewing bearing. Inspection combines close visual examination inside and outside the pedestal, magnetic particle testing on cleaned welds, thickness readings on the pedestal shell and surrounding deck, and a look at the structure below from the hold, tweendeck or deck store. Slewing bearing bolt checks and bearing wear measurements follow the crane maker's procedures."
+      ],
+      "links": [
+        ["/maritime/magnetic-particle-inspection", "Magnetic particle inspection (MPI)"],
+        ["/maritime/ultrasonic-thickness-measurement", "Ultrasonic thickness measurement (UTM)"]
+      ]
+    },
+    {
+      "id": "ballast-tanks",
+      "h": "Ballast tanks, double bottoms and topside tanks",
+      "p": [
+        "General cargo ships carry ballast in double-bottom and peak tanks and, depending on design, in hopper, topside or side tanks. Under UR Z7.1 the ballast tanks enter the special survey close-up programme at survey No. 2, with one transverse web in two representative ballast tanks of each type and the end bulkheads of one side ballast tank; from survey No. 3, every transverse web and bulkhead in each ballast tank is examined close up. Under the IACS hull rules a ballast tank whose hard coating is POOR and not renewed, or which has soft or semi-hard coating or no hard coating from construction, is also examined at annual surveys.",
+        "Double-bottom tanks under the holds suffer where heavy cargo and grab impacts dent the tank top and crack the coating on its underside, and where pitting develops on the bottom shell beneath sediment. Gauging these tanks before a special survey tells the owner whether tank-top inserts will be needed before the docking scope is fixed."
+      ]
+    },
+    {
+      "id": "heavy-lift-project",
+      "h": "Heavy-lift and project cargo: what does it ask of the structure?",
+      "p": [
+        "Project cargo puts concentrated loads where general cargo ships are designed for spread ones. Transformers, reactors, yachts and wind turbine components sit on grillages that pass their weight to the tank top, tweendecks or hatch covers, and the permitted loads are set out in the ship's loading manual and hatch cover documentation. Sea-fastenings welded to the deck, cover or tank top for the voyage are cut away afterwards, and those areas are examined for gouges, arc strikes and cracks before they are coated again. On heavy-lift ships the crane pedestals, the deck around them and the tank tops in way of tandem lifts take the highest loads, and cracks or deformation there should be investigated before the next heavy lift, not after it."
+      ]
+    },
+    {
+      "id": "owner-checks",
+      "h": "What owners, charterers and buyers check on a general cargo ship",
+      "p": [
+        "At delivery into and redelivery from a charter, the parties record hold condition, stevedore and cargo damage, hatch cover weathertightness and the condition of crane wires and fittings, because any later dispute depends on what was written down then. Before loading sensitive cargo, a charterer may ask for a hatch cover tightness test and a hold cleanliness inspection.",
+        "A buyer reviews class status and conditions of class, the UR Z7.1 special survey reports and earlier thickness reports, steel renewal history for side frames and tank tops, hatch cover repair and hydraulic records and the crane register, then confirms on board the condition those records describe. IACS Recommendation 55, the guidelines for surveys, assessment and repair of hull structures on general dry cargo ships, is a useful companion for reading typical damage and repair methods, though each repair is agreed with class.",
+        "Atlantis NDT gauges frames, tank tops and ballast tanks for owners ahead of the third and fourth special surveys, crack-checks crane foundations and carries out pre-purchase inspections and vessel condition surveys, sending its teams from India to the ship. It is not yet approved by any classification society under IACS UR Z17 and is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, its readings inform the owner's own decisions and are not credited to class surveys."
+      ],
+      "links": [
+        ["/maritime/special-survey-thickness-measurement", "Special survey thickness measurement"],
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"]
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
+    "IACS Recommendation No. 55 – General dry cargo ships: guidelines for surveys, assessment and repair of hull structures",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "International Convention on Load Lines, 1966, and its 1988 Protocol",
+    "ILO Convention No. 152 – Occupational Safety and Health (Dock Work) Convention, 1979",
+    "ASTM E709 – Standard guide for magnetic particle testing",
+    "ASTM E797 – Ultrasonic thickness measurement by the manual pulse-echo contact method"
+  ],
+  "deliverables": [
+    "Earlier special survey and thickness measurement reports, with frame-by-frame sketches",
+    "Steel renewal records for side frames, brackets, tank tops and tweendecks",
+    "Hatch cover maker's manual, hydraulic and seal records, and the latest tightness test result",
+    "The register of lifting appliances with examination and load test entries, and crane pedestal drawings",
+    "The loading manual and hatch cover load limits, with notes of recent project cargo voyages",
+    "Ballast tank coating condition records and the tank cleaning and access plan for the docking"
+  ],
+  "industries": [
+    "General cargo ship owners and managers",
+    "Multipurpose and heavy-lift ship operators",
+    "Time charterers and project cargo charterers",
+    "Ship buyers and sale-and-purchase brokers",
+    "Superintendents planning special survey dockings",
+    "P&I correspondents and hull insurers' surveyors"
+  ],
+  "faqs": [
+    {
+      "q": "Does UR Z7.1 apply to multipurpose ships?",
+      "a": "It depends on the hull. UR Z7.1 applies to general dry cargo ships of 500 gt and above with single-side-skin holds. A multipurpose ship with double side skin over the full cargo length and hold height is excluded and surveyed under UR Z7, while a ship with some single-side-skin holds has UR Z7.1 applied to those holds. The ship's classification society can confirm which requirement applies."
+    },
+    {
+      "q": "Which frames are examined at a general cargo ship's special survey?",
+      "a": "At special survey No. 1, selected shell frames in one forward and one after hold. At No. 2, selected frames in all holds and tweendecks. At No. 3, all frames in the forward lower hold and 25 per cent of frames in each other hold and tweendeck. From No. 4, all shell frames in all holds and tweendecks, with their end attachments and the adjacent shell plating."
+    },
+    {
+      "q": "Are cargo cranes surveyed by class?",
+      "a": "The crane pedestal and its foundation are hull structure and are examined by class with the hull. The crane as a lifting appliance is certified under the flag state's rules, with periodic thorough examinations and load tests recorded in the register of lifting appliances. Some flags delegate that work to the classification society, and the crane maker's procedures cover the slewing bearing, bolts and machinery."
+    },
+    {
+      "q": "Why do side frames in general cargo holds waste faster near the bottom?",
+      "a": "The lower part of the frame sees the most cargo contact, from grabs, loaders and heavy units, and it is where water, condensation and corrosive cargo residues collect. Coating damaged by impact lets corrosion start, and the bracket toes and the frame's connection to the hopper or tank top concentrate stress. That is why UR Z7.1 directs close-up survey to the lower third of side frames as ships age."
+    },
+    {
+      "q": "How is a general cargo ship's hatch cover checked for weathertightness?",
+      "a": "Class requires a hose test or an equivalent at special surveys, and hatch covers are examined at every annual survey. An ultrasonic test is a common equivalent: a transmitter placed in the hold and a receiver run along the outside of the joints show where sound, and so water, can pass. Leaks are traced to packing, compression bars, cross-joints or cleats and repaired before retesting."
+    },
+    {
+      "q": "Can owner's thickness readings count towards the special survey?",
+      "a": "Not as survey credit, unless they are taken by a firm approved under IACS UR Z17 by the ship's own classification society, with the surveyor controlling the work. Readings taken for the owner beforehand still have real value: they show where frames, tank tops and ballast tanks are close to their limits, so steel renewal can be planned and the docking scope fixed before the ship arrives."
+    },
+    {
+      "q": "What does project cargo do to a general cargo ship's structure?",
+      "a": "It concentrates load. Heavy units on grillages press on the tank top, tweendecks or hatch covers, within limits set by the loading manual. Sea-fastenings welded on for the voyage leave scars when cut away, and heavy lifts load crane pedestals and the deck around them. Inspecting these areas after each project voyage catches dents, gouges and cracks while they are still small."
+    }
+  ]
+}

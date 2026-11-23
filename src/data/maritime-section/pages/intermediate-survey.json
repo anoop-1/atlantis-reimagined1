@@ -10,7 +10,7 @@
   "highlights": [
     {
       "h": "Held mid-cycle",
-      "p": "Class holds the intermediate survey at or between the second and third annual surveys of the cycle. Once an ESP ship passes ten, the work can open at the second annual survey and close by the third, so tank entry can be spread across more than one port call."
+      "p": "Class holds it in place of either the second or the third annual survey of the five-year cycle. Once an ESP ship passes ten, the work can open at the second annual survey and close by the third, so tank entry can be spread across more than one port call."
     },
     {
       "h": "Scope tied to age",
@@ -147,7 +147,7 @@
       "p": [
         "Owners who think of the intermediate survey as an annual survey with a little extra are most often caught out between ten and fifteen years. The ship has just passed renewal survey No. 2 or No. 3, steel may have been renewed, and the next big event is assumed to be five years away. The rules disagree. The intermediate survey asks for the same close-up survey and gauging again, and corrosion has had two or three more years to work since the readings that passed at the renewal survey. Members just inside the allowable margin then can be beyond it now, and in ballast tanks with failing coating the corrosion rate runs ahead of the ship's average history.",
         "Access is the other surprise. Close-up survey of web frames, side frames or bulkheads needs the same staging, rafting or other means of access that the yard provided at the renewal survey. If the intermediate survey is planned for a port call rather than a docking, those arrangements have to be made on board, and tanks cleaned and gas-freed while the ship is trading. Where one call is not enough, the ESP Code's allowance for a survey opened at the second annual survey and closed by the third lets the work be split.",
-        "Older single-hull-side bulk carriers bring one more item: hold frames that were near their renewal criteria at the renewal survey are measured again, and readings near the limit widen the gauging across the hold."
+        "Older bulk carriers with single-skin holds bring one more item: hold frames that were near their renewal criteria at the renewal survey are measured again, and readings near the limit widen the gauging across the hold."
       ]
     },
     {
@@ -225,7 +225,7 @@
     },
     {
       "q": "Is the intermediate survey the same as the renewal survey?",
-      "a": "On a young ship, no: from five to ten years class mostly looks over a sample of ballast tanks, plus every hold on a bulk carrier, gauging suspect areas. From ten years, ESP tankers and bulk carriers repeat the extent of the previous renewal survey, without tank pressure testing unless class asks for it. UR Z7.1 brings single-side skin general dry cargo ships to that point at fifteen."
+      "a": "On a young ship, no: from five to ten years the surveyor mainly looks over a sample of ballast tanks, and every hold on a bulk carrier, with gauging of suspect areas. From ten years, ESP tankers and bulk carriers repeat the extent of the previous renewal survey, without tank pressure testing unless class asks for it. UR Z7.1 brings single-side skin general dry cargo ships to that point at fifteen."
     },
     {
       "q": "Does the intermediate survey need a drydock?",

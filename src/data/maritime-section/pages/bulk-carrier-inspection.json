@@ -45,14 +45,42 @@
         "IACS Recommendation 76, Bulk Carriers: Guidelines for Surveys, Assessment and Repair of Hull Structures, works through the ship area by area: the details that fail, what the damage looks like, why it happens and how it is repaired. The table condenses the pattern for the holds of a single-side-skin ship."
       ],
       "table": {
-        "head": ["Location", "Typical defect", "Usual cause"],
+        "head": [
+          "Location",
+          "Typical defect",
+          "Usual cause"
+        ],
         "rows": [
-          ["Side shell frames and end brackets", "Web and flange wastage, grooving at the lower bracket, detachment from the shell, tripped frames", "Grab and bulldozer contact, abrasive or corrosive cargo, coating lost low in the hold"],
-          ["Lower hopper sloping plating", "Cracks at frame bracket toes, wastage, indentation", "Hard spots where brackets land; cargo impact at discharge"],
-          ["Topside tank sloping plating", "Cracks at upper bracket toes, edge corrosion", "Stress concentration plus condensation under the deck"],
-          ["Tank top plating", "Grab dents and gouges, pitting", "Grab impact; water and residue lying on the plating"],
-          ["Corrugated bulkheads and stools", "Wastage and grooving above the lower stool, buckled corrugations", "Cargo and wash water against the lower part; alternate-hold loading"],
-          ["Hatch corners and coaming brackets", "Fatigue cracks at deck corners and bracket toes", "Hull girder bending and torsion around large openings"]
+          [
+            "Side shell frames and end brackets",
+            "Web and flange wastage, grooving at the lower bracket, detachment from the shell, tripped frames",
+            "Grab and bulldozer contact, abrasive or corrosive cargo, coating lost low in the hold"
+          ],
+          [
+            "Lower hopper sloping plating",
+            "Cracks at frame bracket toes, wastage, indentation",
+            "Hard spots where brackets land; cargo impact at discharge"
+          ],
+          [
+            "Topside tank sloping plating",
+            "Cracks at upper bracket toes, edge corrosion",
+            "Stress concentration plus condensation under the deck"
+          ],
+          [
+            "Tank top plating",
+            "Grab dents and gouges, pitting",
+            "Grab impact; water and residue lying on the plating"
+          ],
+          [
+            "Corrugated bulkheads and stools",
+            "Wastage and grooving above the lower stool, buckled corrugations",
+            "Cargo and wash water against the lower part; alternate-hold loading"
+          ],
+          [
+            "Hatch corners and coaming brackets",
+            "Fatigue cracks at deck corners and bracket toes",
+            "Hull girder bending and torsion around large openings"
+          ]
         ]
       }
     },
@@ -69,7 +97,7 @@
       "h": "Topside, hopper, double-bottom and forepeak tanks: what to expect",
       "p": [
         "Topside tanks sit under a deck that heats by day and cools at night, so condensation attacks the deck plating, deck longitudinals and upper webs. Hopper tanks gather sediment at the lower knuckle, and their sloping plating also bounds the hold, so cargo damage and corrosion can meet in one plate. Double-bottom tanks fare better under sound coating, though they pit under mud and around suction bellmouths. The forepeak, with complex structure, poor ventilation and slamming loads, is a common home of substantial corrosion on older ships.",
-        "Under UR Z10.2, ballast tanks other than double bottoms move to annual examination once their hard coating is POOR and left unrenewed, where soft or semi-hard coating is used, or where no hard coating was applied at construction; double bottoms can follow on similar grounds. POOR means general breakdown over at least a fifth of the area, so grading each tank before the survey shows which ones are heading that way."
+        "Under UR Z10.2, ballast tanks other than double bottoms move to annual examination once their hard coating is POOR and left unrenewed, where the coating is of the soft or semi-hard type, or where the tank never received a hard coating; double bottoms can follow on similar grounds. POOR covers, among other things, general breakdown over a fifth or more of the area, so grading each tank before the survey shows which ones are heading that way."
       ]
     },
     {
@@ -80,7 +108,12 @@
         "The failures are predictable: top and skirt plates wasted at edges, stiffeners cracked at their ends, compression bars worn, rubber seals hardened or permanently set, cleats and cross-joint wedges seized or missing, drain channels and non-return valves blocked, and coaming stays cracked at the corners. Each lets water reach the cargo, and for many bulk cargoes wet damage means a claim.",
         "Resolution MSC.169(79) sets IMO standards for owners' inspection and maintenance of bulk carrier hatch covers between surveys. An ultrasonic tightness test with the covers secured finds where a seal is not making contact before loading."
       ],
-      "links": [["/maritime/hatch-cover-ultrasonic-testing", "Hatch cover ultrasonic tightness testing"]]
+      "links": [
+        [
+          "/maritime/hatch-cover-ultrasonic-testing",
+          "Hatch cover ultrasonic tightness testing"
+        ]
+      ]
     },
     {
       "id": "esp-extents-by-age",
@@ -89,12 +122,37 @@
         "UR Z10.2 numbers renewal surveys by age and tabulates the minimum close-up survey for each; frame close-up survey always includes the upper and lower end attachments and adjacent shell plating. The society's rules and the attending surveyor can extend any of it."
       ],
       "table": {
-        "head": ["Renewal survey", "Ship's age", "Hold shell frames, close-up (UR Z10.2)", "Other close-up items"],
+        "head": [
+          "Renewal survey",
+          "Ship's age",
+          "Hold shell frames, close-up (UR Z10.2)",
+          "Other close-up items"
+        ],
         "rows": [
-          ["No. 1", "Up to 5 years", "A quarter of the frames in the forward hold, plus selected frames in other holds", "All hatch covers and coamings; selected bulkheads; a web in representative ballast tanks"],
-          ["No. 2", "Over 5 to 10", "All frames in the forward hold and a quarter in each other hold (half from 100,000 dwt)", "All hatch covers and coamings; all hold bulkheads; a web in each ballast tank"],
-          ["No. 3", "Over 10 to 15", "All frames in the forward hold and one other hold, half in the rest", "As No. 2, extended to all webs and bulkheads in ballast tanks"],
-          ["No. 4 and later", "Over 15", "All frames in all holds", "As No. 3, plus areas the surveyor adds"]
+          [
+            "No. 1",
+            "Up to 5 years",
+            "A quarter of the frames in the forward hold, plus selected frames in other holds",
+            "All hatch covers and coamings; selected bulkheads; a web in representative ballast tanks"
+          ],
+          [
+            "No. 2",
+            "Over 5 to 10",
+            "All frames in the forward hold and a quarter in each other hold (half from 100,000 dwt)",
+            "All hatch covers and coamings; all hold bulkheads; a web in each ballast tank"
+          ],
+          [
+            "No. 3",
+            "Over 10 to 15",
+            "All frames in the forward hold and one other hold, half in the rest",
+            "As No. 2, extended to all webs and bulkheads in ballast tanks"
+          ],
+          [
+            "No. 4 and later",
+            "Over 15",
+            "All frames in all holds",
+            "As No. 3, plus areas the surveyor adds"
+          ]
         ]
       }
     },
@@ -126,7 +184,8 @@
       "id": "pre-purchase-condition-survey",
       "h": "What should a pre-purchase or condition survey on a bulk carrier cover?",
       "p": [
-        "A buyer before a sale, or an owner before a class survey, needs the same priorities in a shorter visit:"
+        "A buyer before a sale, or an owner before a class survey, needs the same priorities in a shorter visit:",
+        "Atlantis NDT does this work for owners, buyers and managers, mobilising teams from India to the ship. Gauging credited to a class survey needs a firm holding UR Z17 approval from that ship's classification society. We are in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; meanwhile our readings inform the owner's own decisions on steel, docking scope, purchase and CVIP planning. Write to info@atlantisndt.com or use the form below."
       ],
       "list": [
         "Hold frames and brackets in every accessible hold, with spot gauging in the lower bracket zone and photographs of grooving, detachment and grab damage",
@@ -137,17 +196,22 @@
         "Records: thickness measurement reports, conditions of class, cargo history and alarm tests"
       ],
       "links": [
-        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
-        ["/maritime/vessel-condition-survey", "Vessel condition survey"],
-        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"],
-        ["/maritime/special-survey-by-ship-age", "Special survey by ship age"]
-      ]
-    },
-    {
-      "id": "who-does-the-work",
-      "h": "Owner's gauging versus class gauging",
-      "p": [
-        "Atlantis NDT does this work for owners, buyers and managers, mobilising teams from India to the ship. Gauging credited to a class survey needs a firm holding UR Z17 approval from that ship's classification society. We are in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; meanwhile our readings inform the owner's own decisions on steel, docking scope, purchase and CVIP planning. Write to info@atlantisndt.com or use the form below."
+        [
+          "/maritime/pre-purchase-inspection",
+          "Pre-purchase inspection"
+        ],
+        [
+          "/maritime/vessel-condition-survey",
+          "Vessel condition survey"
+        ],
+        [
+          "/maritime/comprehensive-vessel-inspection-programme",
+          "CVIP (Comprehensive Vessel Inspection Programme)"
+        ],
+        [
+          "/maritime/special-survey-by-ship-age",
+          "Special survey by ship age"
+        ]
       ]
     }
   ],

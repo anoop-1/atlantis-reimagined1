@@ -1,0 +1,194 @@
+{
+  "slug": "gas-carrier-inspection",
+  "navLabel": "Gas Carrier Inspection Guide (LNG and LPG)",
+  "title": "LNG and LPG Carrier Inspection: Hull, Containment, Cold Spots",
+  "description": "How gas carriers are inspected: UR Z7.2 hull surveys, UR Z16 cargo surveys, membrane and Type A, B and C containment, cold spots, and what owners can check.",
+  "h1": "How LNG and LPG Carriers Are Inspected: Hull, Containment and Cargo Systems",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "A gas carrier is two structures in one: a double hull built from ordinary and low-temperature steels, and inside it a containment system designed to hold liquefied gas very cold, under pressure, or both. Class surveys them under different requirements, and the containment system's designer has a say in how its condition is judged. This guide explains the main containment types, the hull survey cycle under UR Z7.2, what can and cannot be reached on board, how cold spots are found, and where an owner's or buyer's inspection fits.",
+  "highlights": [
+    {
+      "h": "Two survey regimes on one ship",
+      "p": "The hull, ballast tanks, cofferdams and void spaces are surveyed under UR Z7.2, Hull Surveys for Liquefied Gas Carriers. Cargo tanks, cargo piping and the rest of the cargo installation fall under UR Z16 and class rules, alongside the IGC Code certificate the ship needs to trade."
+    },
+    {
+      "h": "The containment type decides the access",
+      "p": "On a membrane LNG carrier the insulation and secondary barrier are sealed between the inner hull and the cargo tank and cannot be seen. On ships with independent tanks, the tank exterior can be examined in the hold space once that space has been made safe to enter."
+    },
+    {
+      "h": "Cold patches point to the barrier",
+      "p": "A cold area on the inner hull, seen from a ballast tank on a loaded passage, is an indirect sign that insulation or a barrier is not performing. It is located, measured against the surrounding steel and compared with the ship's own hull temperature sensors."
+    }
+  ],
+  "sections": [
+    {
+      "id": "carrier-types",
+      "h": "LNG and LPG carriers: which containment systems are in service?",
+      "p": [
+        "Fully pressurised LPG carriers, usually smaller ships, keep propane and butane liquid at ambient temperature in pressure vessel tanks. Semi-refrigerated ships combine moderate pressure with cooling and carry LPG, ammonia, ethylene and similar gases. Fully refrigerated LPG carriers hold cargo near its atmospheric boiling point, around minus 42 °C for propane, in large prismatic tanks. LNG carriers hold methane at about minus 160 °C in membrane, spherical or self-supporting prismatic tanks, and smaller LNG and bunkering ships often use cylindrical pressure tanks.",
+        "The IGC Code classes these systems by type, and the type sets how much secondary barrier the ship needs should the primary tank leak. For cargo colder than minus 10 °C, membrane tanks and independent Type A tanks need a complete secondary barrier, independent Type B tanks a partial one, and Type C tanks, designed as pressure vessels, none. That difference explains most of what an inspector can and cannot see."
+      ],
+      "table": {
+        "head": ["Containment type", "Typical ships", "Secondary barrier (cargo below minus 10 °C)", "What can be inspected directly"],
+        "rows": [
+          ["Membrane: thin primary barrier on insulation, supported by the inner hull", "Most large LNG carriers", "Complete", "Inner hull from the ballast side; primary barrier from inside a gas-free tank. Insulation and secondary barrier cannot be reached"],
+          ["Independent Type A: self-supporting prismatic tanks", "Fully refrigerated LPG and ammonia carriers", "Complete", "Tank exterior, insulation surface and supports from the hold space once it is safe to enter"],
+          ["Independent Type B: spherical or prismatic tanks", "Spherical-tank and prismatic-tank LNG carriers", "Partial", "Tank exterior, support skirt or supports and drip trays, as insulation and access allow"],
+          ["Independent Type C: pressure vessels", "Pressurised and semi-refrigerated LPG, ethylene and small LNG ships", "None", "Tank exterior, saddles and insulation in the hold space; the interior when the tank is opened"]
+        ]
+      }
+    },
+    {
+      "id": "survey-regime",
+      "h": "How are gas carriers surveyed? UR Z7.2, UR Z16 and the IGC certificate",
+      "p": [
+        "UR Z7.2 applies to all self-propelled ships carrying liquefied gases in bulk. It covers the hull structure and piping in pump rooms, compressor rooms, cofferdams, pipe tunnels and void spaces, fuel oil tanks within the cargo area and all ballast tanks, and leaves cargo piping and the cargo installation to UR Z16, Periodical Surveys of Cargo Installations on Ships Carrying Liquefied Gases in Bulk. Gas carriers are not ESP ships, so the ESP Code's planning documents do not apply, but the five-year class cycle is the same.",
+        "Annual surveys, within three months either side of the anniversary date, examine compressor room and pump room bulkheads for leaks and fractures, with particular attention to penetration seals, plus the piping in those spaces, flame screens on bunker tank vents and suspect areas. The intermediate survey covers representative ballast tanks between five and ten years of age, extended where coating is missing, soft, semi-hard or POOR, and all ballast tanks after ten years, with close-up survey of selected webs and bulkheads added. Surveys for the International Certificate of Fitness for the Carriage of Liquefied Gases in Bulk, issued under the IGC Code, run alongside, and many flags delegate them to class."
+      ]
+    },
+    {
+      "id": "renewal-extents",
+      "h": "Renewal survey close-up survey and thickness measurement by age",
+      "p": [
+        "UR Z7.2 sets minimum extents for each renewal survey, concentrated on the ballast tanks surrounding the containment. Readings are also required on every member under close-up survey and in every suspect area, and the surveyor may extend both. Where a ship with Type C tanks has a midship section resembling a general cargo ship, the extents may be specially considered."
+      ],
+      "table": {
+        "head": ["Renewal survey", "Ship age", "Close-up survey in ballast tanks", "Minimum thickness measurement"],
+        "rows": [
+          ["No. 1", "Up to 5 years", "Selected web frames in representative and remaining ballast tanks", "One full-beam section of deck plating within the amidships 0.5L; selected wind-and-water strakes outside the cargo area"],
+          ["No. 2", "Over 5 up to 10 years", "Selected web frames and transverse bulkheads in the ballast tanks", "Each deck plate in the cargo area and one transverse section within the amidships 0.5L"],
+          ["No. 3", "Over 10 up to 15 years", "All web frames and all transverse bulkheads in all ballast tanks", "Each deck plate, two transverse sections and all wind-and-water strakes in the cargo area"],
+          ["No. 4 and later", "Over 15 years", "As No. 3", "Each deck plate, three transverse sections, each bottom plate, duct keel plating and internals, and wind-and-water strakes over the full length"]
+        ]
+      }
+    },
+    {
+      "id": "hold-insulation-spaces",
+      "h": "Hold spaces, interbarrier spaces and insulation: what can be reached?",
+      "p": [
+        "On ships with independent tanks, each insulated tank sits in a hold space formed by the hull. Depending on the containment type and cargo, the hold space is kept inert or filled with dry air in service, so moisture does not freeze into the insulation and leaking vapour cannot form a flammable mixture. On membrane ships the equivalent spaces are the insulation layers between the primary barrier, secondary barrier and inner hull, kept under inert gas and monitored for gas.",
+        "In a hold space that has been gas-freed and released for entry, the tank's outer surface, insulation, supports, chocks and keys, and the inner hull can be examined; typical findings are damaged, wet or detached insulation, corrosion where moisture has collected, and worn or cracked support details. Whether insulation is removed to see the tank plating is a decision for class. Membrane insulation spaces are never entered: their condition is judged from gas detection records, barrier tests set by the designer and class, and the hull temperature picture."
+      ]
+    },
+    {
+      "id": "cold-spots",
+      "h": "Why do cold spots on the inner hull matter, and how are they found?",
+      "p": [
+        "Hull steel on a gas carrier is chosen for the temperature it is expected to reach with cargo aboard, calculated with the secondary barrier in place, and on membrane LNG carriers the transverse cofferdams between tanks are usually heated to keep their steel above its minimum design temperature. If insulation degrades or a barrier passes cold liquid or vapour, a patch of inner hull can fall below the temperature its grade was chosen for and lose toughness. A cold spot is therefore both a warning about the containment and a question about the hull.",
+        "They are looked for on loaded passages from the ballast tanks, cofferdams and trunk spaces facing the cargo tanks. Fixed hull temperature sensors give spot values; a thermal camera fills the area between them and records the shape and size of any cold patch for comparison on later voyages. Frost or condensation around tank domes and on insulated pipework tells a similar story on deck. Each finding is reported by frame and stringer with its temperature difference and the sensor readings at the time, and deciding what it means is for the owner, class and the containment system's designer."
+      ],
+      "links": [
+        ["/maritime/infrared-thermography", "Infrared thermography"],
+        ["/maritime/condition-monitoring", "Condition monitoring"]
+      ]
+    },
+    {
+      "id": "cargo-piping",
+      "h": "Cargo pipework, valves and deck equipment",
+      "p": [
+        "Liquid and vapour lines run from the tank domes along the deck to the manifolds and the compressor room. Lines for cold cargo are stainless or nickel steel, insulated, with expansion loops or bellows and sliding supports that let the pipe move as it cools and warms. Owners' inspections commonly find wet or damaged insulation, ice at defects, seized supports, corroded carbon steel brackets and corrosion under insulation on carbon steel lines. Relief valves, emergency shutdown valves and cargo instrumentation are surveyed and tested by class under UR Z16 and the IGC Code.",
+        "Between those surveys, an owner can add thermography of insulated lines and dome areas during cargo operations, thickness readings on carbon steel pipework, supports and the deck beneath, and penetrant testing of stainless steel welds where cracking is suspected. Cargo compressor motors and pumps can be checked with vibration analysis and thermography for a machinery condition record."
+      ],
+      "links": [
+        ["/maritime/ship-piping-inspection", "Ship piping inspection"],
+        ["/maritime/dye-penetrant-inspection", "Dye penetrant inspection (DPI)"]
+      ]
+    },
+    {
+      "id": "hull-ballast",
+      "h": "Hull structure and ballast tanks around the cargo tanks",
+      "p": [
+        "Gas carriers are double-hulled around the cargo tanks, which gives them large ballast spaces in the double bottom, hoppers, double sides and, on many designs, topsides. These long, narrow, coated spaces sit next to very cold structure, and their condition drives most of the steel work an ageing gas carrier needs. The table lists the usual findings by space."
+      ],
+      "table": {
+        "head": ["Space", "Typical defects", "Inspection notes"],
+        "rows": [
+          ["Double-bottom and hopper ballast tanks", "Pitting, coating breakdown, cracks at knuckles and end connections", "Close-up of webs and bulkheads to the renewal table; bottom and tank-top readings"],
+          ["Double-side and topside ballast tanks", "Edge corrosion, coating failure on longitudinals, fatigue at web cut-outs", "Coating graded GOOD, FAIR or POOR beside the readings; an unrepaired POOR grade brings annual examination"],
+          ["Transverse cofferdams on membrane ships", "Cold spots, heating system leaks, corrosion", "Thermal survey on loaded passages; heating pipework condition"],
+          ["Hold spaces around independent tanks", "Wet or damaged insulation, corrosion where moisture collects, worn supports", "Entry once gas-freed and released; insulation removal decided by class"],
+          ["Compressor room and pump room", "Leaks at bulkhead penetration seals, corroded pipe supports", "Bulkhead and seal examination, readings on deck under machinery seats"],
+          ["Trunk deck and dome areas", "Corrosion at coaming connections, insulation damage at domes", "Close-up visual, thermography under cargo, deck gauging"]
+        ]
+      }
+    },
+    {
+      "id": "gas-freeing-entry",
+      "h": "Gas-freeing, inerting and entry: what limits an inspection?",
+      "p": [
+        "Every enclosed space on a gas carrier is entered under the ship's enclosed space entry procedure, with gas measurement, ventilation and a permit, and that applies with particular force to ballast tanks beside loaded cargo tanks and to cofferdams. Cargo tanks and hold spaces need a full sequence of warming up, inerting and aerating before entry, normally done for a docking or layup rather than in trading. A sound inspection plan separates what can be done in service, chiefly ballast tanks, deck, piping and cold spot surveys, from what must wait for a gas-free docking.",
+        "Instruments used in gas-dangerous zones on deck or in compressor rooms must suit the zone or be used under a permit that controls the risk, and the team agrees this with the ship before work starts."
+      ]
+    },
+    {
+      "id": "owner-buyer-limits",
+      "h": "What can an owner's or buyer's inspection do on a gas carrier?",
+      "p": [
+        "Quite a lot, provided its limits are clear. It can assess ballast tanks, coatings and hull structure, gauge deck, shell and internal members, carry out a cold spot survey on a loaded passage, examine deck piping and supports, record machinery condition and read the ship's records: class status, UR Z16 survey history, cargo tank inspection reports, secondary barrier test results, hull temperature logs, gas detection history and boil-off trends. It cannot accept or certify the containment system. Cargo system acceptance stays with class and the containment system's designer, and the certificate of fitness with the flag and class.",
+        "Atlantis NDT carries out this work as pre-purchase inspections, vessel condition surveys and CVIP, its Comprehensive Vessel Inspection Programme, sending teams from India to the ship. Machinery readings use vibration analysis and thermography; Atlantis does not do lube oil analysis. Atlantis holds no UR Z17 approval from any classification society yet and is in the process of obtaining it from DNV, Lloyd's Register and ABS, so its readings serve the owner's decisions and are not credited to class surveys. Email info@atlantisndt.com with the ship and its containment type."
+      ],
+      "links": [
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"],
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"]
+      ]
+    }
+  ],
+  "codes": [
+    "IGC Code – International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk",
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z7.2 – Hull surveys for liquefied gas carriers",
+    "IACS UR Z16 – Periodical surveys of cargo installations on ships carrying liquefied gases in bulk",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography, general procedures",
+    "ISO 20816-1 – Mechanical vibration, measurement and evaluation of machine vibration: general guidelines"
+  ],
+  "deliverables": [
+    "Containment system drawings and the designer's inspection and barrier test requirements",
+    "UR Z16 cargo installation survey records and the latest cargo tank inspection reports",
+    "Hull temperature sensor logs and earlier cold spot findings with their locations",
+    "Earlier thickness measurement reports and ballast tank coating records",
+    "The voyage plan, so a cold spot survey can be timed for a loaded passage",
+    "The enclosed space entry procedure, gas measurement arrangements and the hazardous area plan for deck work"
+  ],
+  "industries": [
+    "LNG carrier owners and managers",
+    "LPG and ammonia carrier operators",
+    "Ethylene and semi-refrigerated gas carrier owners",
+    "Gas carrier buyers and sale-and-purchase brokers",
+    "Charterers' technical advisers",
+    "Superintendents planning gas-free dockings"
+  ],
+  "faqs": [
+    {
+      "q": "Is a gas carrier surveyed under the enhanced survey programme?",
+      "a": "No. The enhanced survey programme covers bulk carriers and oil tankers under SOLAS chapter XI-1, and class applies it to chemical tankers. Gas carriers have their own IACS hull survey requirement, UR Z7.2, with close-up survey and thickness measurement extents that grow with age, and a separate requirement, UR Z16, for periodical surveys of the cargo installation."
+    },
+    {
+      "q": "What is the difference between Type A, Type B and Type C tanks?",
+      "a": "All three are independent tanks that support themselves rather than relying on the hull. Type A tanks are designed mainly by classical structural methods and need a complete secondary barrier for cold cargo. Type B tanks are designed with more refined analysis of fatigue and crack propagation, which allows a partial secondary barrier. Type C tanks are pressure vessels and need no secondary barrier."
+    },
+    {
+      "q": "Why are cold spots on an LNG carrier serious?",
+      "a": "Because the hull steel next to the cargo tanks is chosen for a calculated temperature. If insulation or a barrier lets extra cold through, a patch of inner hull can cool below that temperature, where the steel becomes brittle. A cold spot is therefore investigated, measured and monitored, and its cause and remedy are decided with class and the containment system's designer."
+    },
+    {
+      "q": "Can an inspector enter the hold spaces of an LPG carrier during normal trading?",
+      "a": "Usually not. Hold spaces around independent tanks are kept inert or filled with dry air in service, and entry needs gas-freeing, ventilation, gas measurement and a permit under the ship's procedures, which is normally arranged for a docking. In service, an inspection concentrates on ballast tanks, deck structure, piping and cold spot surveys, all of which can be reached safely."
+    },
+    {
+      "q": "Who decides whether a containment system defect is acceptable?",
+      "a": "Class, working with the containment system's designer and in line with the IGC Code. An owner's inspection can locate and record findings such as cold spots, damaged insulation or cracked supports, but it does not judge whether the containment system remains fit for service. That decision, and any repair method that follows, sits with class and the designer."
+    },
+    {
+      "q": "How often are ballast tanks examined on a gas carrier?",
+      "a": "At every renewal survey; at the intermediate survey, representative tanks between five and ten years of age and all tanks after that; and at annual surveys where a hard coating is POOR and not repaired, where soft or semi-hard coating is used, or where no hard coating was applied at construction. Double-bottom ballast tanks may be put on annual examination under similar conditions."
+    },
+    {
+      "q": "What does an owner's inspection add on a gas carrier?",
+      "a": "Evidence between class surveys: ballast tank condition and coating grades, thickness trends on structure that will be gauged at the next renewal survey, cold spot records from loaded passages, piping and support condition, and machinery readings. It helps an owner fix the docking scope and steel work with fewer surprises, and helps a buyer judge what the ship will need over the next survey cycle."
+    }
+  ]
+}
