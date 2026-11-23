@@ -1,0 +1,129 @@
+{
+  "title": "Corrosion Mapping Data Review: Encoded UT C-Scan Checks",
+  "description": "Independent review of encoded UT corrosion mapping data: grid and step size, coverage, velocity, temperature, gates and export to API 510, 570 and 653 CML records.",
+  "h1": "Corrosion mapping data review for encoded ultrasonic thickness scans",
+  "eyebrow": "Method review: corrosion mapping",
+  "intro": "A corrosion map is a picture made from thousands of thickness readings, and its colours are only as honest as the settings behind them. Velocity, temperature, gate placement, step size and the filters applied on export all decide what the map shows and what the inspection record ends up saying. We review encoded corrosion mapping data independently: we open the files, check the acquisition against the procedure and scan plan, and compare what the report and the CML system record with what the data actually contains. The review is carried out remotely on the files you send.",
+  "highlights": [
+    { "h": "The file, not the screenshot", "p": "A colour C-scan pasted into a PDF hides the palette, the gate and the resolution. We open the acquisition files so that minimum readings can be re-measured and the settings seen for what they are." },
+    { "h": "Settings that move the minimum", "p": "Velocity, temperature correction, gate logic and minimum-reading filters each shift the lowest thickness a map reports. The review checks every one against the procedure and the material scanned." },
+    { "h": "From map to inspection record", "p": "Corrosion maps feed CML records, corrosion rates and inspection intervals. We check that the numbers exported are the ones the data supports and that each map is tied to a known location." }
+  ],
+  "sections": [
+    {
+      "h": "What corrosion mapping is, and where this page starts",
+      "p": [
+        "Corrosion mapping is encoded ultrasonic thickness measurement over an area. A probe or array is moved across the surface on a scanner, or by hand with an encoder, and every reading is stored with its position. The result is a grid of thickness values that can be shown as a C-scan, sliced into B-scans and analysed again long after the scaffold has come down. Owners use it where spot readings cannot describe the damage: patchy internal corrosion, pitting fields, erosion downstream of flow disturbances, corrosion along the bottom of a line, and areas flagged by a screening technique.",
+        "Spot ultrasonic thickness readings taken at individual points are a separate subject, covered in our UT thickness report review guide. This page deals with area data: how it was acquired, how it was processed and how it became numbers in the inspection record. The two kinds of data often sit in the same report, and a review checks that each is used for the question it is able to answer."
+      ]
+    },
+    {
+      "h": "Acquisition systems and what each leaves behind",
+      "p": [
+        "The equipment decides what the data can show and what the reviewer needs to see. Four arrangements account for most of the corrosion mapping data sent to us, and each has a characteristic weakness in the record."
+      ],
+      "table": {
+        "head": ["System", "How it acquires", "What the reviewer opens", "Typical weakness in the record"],
+        "rows": [
+          ["Manual encoded single-element or dual probe", "One transducer moved along an encoded line or raster by hand", "Raw file, encoder calibration, index step and the scan plan", "Uneven coverage between passes, and gaps where the probe lifted off"],
+          ["Semi-automated or automated crawler", "A scanner or magnetic-wheel crawler moves the probe in a programmed raster", "Raw file, encoder resolution, index increment and the scanner set-up record", "Encoder slip on curved or wet surfaces, which distorts positions and areas"],
+          ["Phased array linear scan", "A linear array at zero degrees, stepped electronically across its aperture while moved along the scan axis", "Raw file, focal law set-up, element pitch and active aperture, gate settings", "Index step wider than the aperture covers, leaving unscanned strips between passes"],
+          ["Water-column scanner (hydroform type)", "An array coupled through a water column held against the surface, often used on rough surfaces and for external corrosion", "Raw file, water-path delay, zero reference, and both groups where a dual-group set-up was used", "Loss of coupling or of the reference in deep depressions, recorded as false readings"]
+        ]
+      }
+    },
+    {
+      "h": "Grid, step size and coverage",
+      "p": [
+        "Resolution is set twice: along the scan by the encoder sampling interval, and across it by the index step between passes or, for an array, by the element pitch and the distance the probe moves between strips. Together they decide the smallest patch of thinning the map can show at its true depth. A pit narrower than the grid can fall between sample points or be averaged with sound wall beside it, so the map reports a minimum thicker than the real one.",
+        "The review compares the grid with the damage mechanism and with the procedure. Pitting and microbiologically influenced corrosion call for a finer grid than general wall loss; erosion patterns need coverage that follows the flow. Coverage is then checked from the data itself: the area actually scanned against the scan plan, missing lines, overlapping strips stitched without alignment, and zones excluded for obstructions, welds or supports. A report that claims full coverage of an area where the file shows strips missing is deficient however clean the colour map looks.",
+        "We also check how the scanned area relates to the component. A map with no datum, no orientation and no link to a drawing can tell an engineer how thick the wall is somewhere, but not where, and the next survey has no way to repeat it."
+      ]
+    },
+    {
+      "h": "Velocity, temperature and zero",
+      "p": [
+        "Every thickness value is time of flight multiplied by velocity, so a velocity error moves every number in the file. The procedure should require velocity to be set on the material itself, or on a reference block of known thickness in the same material, and the record should show how that was done. A default carbon steel velocity applied to stainless steel, cladding or another alloy biases the whole map in one direction, and nothing on the colour plot reveals it.",
+        "Temperature matters on hot lines. Sound travels more slowly in steel as the metal heats up, so a survey on hot equipment run with a room-temperature velocity overstates the remaining wall unless a correction was applied, and the delay through wedges and delay lines changes with temperature too. We look for the surface temperature recorded during the scan, the correction method the procedure allows, and evidence that calibration was confirmed at a comparable temperature.",
+        "Zero and delay settings complete the set. For dual-element and array probes the probe delay or wedge delay fixes where zero thickness sits, and a wrong value adds or subtracts a fixed amount everywhere. The reviewer checks the setup file against the calibration record and, where step-wedge or reference-block readings were stored, measures them again."
+      ]
+    },
+    {
+      "h": "Gates, filters and the reported minimum",
+      "p": [
+        "Most corrosion mapping software measures thickness between gated echoes: interface to first backwall, between two backwall echoes, or from the zero point to the first signal crossing a threshold. Each behaves differently. Interface-to-backwall readings through a coating include the coating unless it is excluded; echo-to-echo readings ignore coating but can miss shallow pits that return a poor second echo; threshold logic can trigger on inclusions or laminations and report them as thinning.",
+        "Filters applied after acquisition change the answer again. Minimum-reading filters, smoothing, interpolation across empty cells and rejection of values outside a thickness window all make a map look tidier, and some hide the very values an engineer most needs. The review checks which filters were applied, whether the procedure allows them, and whether the minimum quoted in the report is the minimum in the raw file or a processed value. Laminations and mid-wall inclusions are separated from genuine wall loss by looking at the B-scan and A-scan behind each low reading, because a lamination reported as corrosion can trigger an unnecessary repair, and corrosion dismissed as a lamination can leave a thin wall in service."
+      ]
+    },
+    {
+      "h": "From corrosion map to CML and TML records",
+      "p": [
+        "Most corrosion maps end up as a few numbers in an inspection data management system: a minimum thickness, sometimes an average, a location and a date, attached to a condition monitoring location. API 510 and API 570 use condition monitoring locations, or CMLs, which now include what older editions called thickness measurement locations, and API 653 sets the in-service rules for tank shells. Owners still use both terms in their systems. The review checks that the value exported is the one the data supports, that it went to the right CML, and that the CML's position matches the area actually scanned.",
+        "Corrosion rates mean something only when the same physical area is compared survey to survey. A map acquired from a different datum, from the other side of a nozzle or with a different grid can produce a rate that says more about the change of method than about corrosion, and the review flags those comparisons. The fifth editions of API 570 and API RP 574, released in 2024, give guidance on choosing inspection locations and evaluating results; a review uses whichever edition the owner's program names.",
+        "Remaining-life calculations, interval setting and any fitness-for-service assessment stay with the owner's inspector and engineer. What the review gives them is a clear statement of which minimums, areas and comparisons the data can bear."
+      ]
+    },
+    {
+      "h": "Digital inspection data: formats, lineage and archiving",
+      "p": [
+        "Corrosion mapping is digital inspection data from the moment it is acquired, and its value depends on keeping the raw files. Acquisition software stores the full A-scan or a gated thickness value for every point, together with the setup, the encoder record and the operator. A spreadsheet or CSV export carries only the numbers, and a screenshot in a PDF carries only a picture of them. When an owner archives just the PDF, the next reviewer cannot re-gate, re-measure or see the filters, and the record has lost most of its worth.",
+        "A review of the digital data checks lineage: which raw file produced which map, which software version and analysis settings were used, who analysed it and when, and whether the numbers in the digital reporting system match the analysis file. We also look at file naming and storage, because a map that cannot be matched to a component and a date is of little use at the next survey. Where an owner's digital reporting platform imports thickness values automatically, we check that the import kept the true minimum and did not round or average it away."
+      ]
+    },
+    {
+      "h": "Checks we run on a corrosion mapping data set",
+      "p": [
+        "The table lists the seven areas every review covers for encoded thickness data, with the kind of finding in each that most often changes the result."
+      ],
+      "table": {
+        "head": ["Check", "Evidence we look for", "Finding that changes the result"],
+        "rows": [
+          ["Procedure and scan plan", "Procedure revision, scan plan, area and grid specified", "Area scanned or grid used coarser than the scan plan required"],
+          ["Personnel", "UT certification covering the technique, and who analysed the data", "Analysis signed by someone not qualified to evaluate"],
+          ["Equipment and calibration", "Probe, scanner and encoder records, reference block readings", "Encoder or velocity calibration missing, or inconsistent with the data"],
+          ["Coverage", "Scanned area against the plan, missing lines, excluded zones", "Unscanned strips reported as covered"],
+          ["Measurement settings", "Velocity, temperature correction, zero, gates and coating handling", "Coating or hot-metal error biasing every reading in one direction"],
+          ["Processing", "Filters, smoothing, interpolation and thickness windows", "Reported minimum is a filtered value that does not exist in the raw data"],
+          ["Export and traceability", "CML identity, datum, orientation and exported values", "Minimum attached to the wrong CML, or with no location at all"]
+        ]
+      }
+    },
+    {
+      "h": "Verdict and who carries out the review",
+      "p": [
+        "The written opinion ends in one of three verdicts: sound; deficient in documentation only, where records that already exist can close the gaps; or deficient in disposition, where the minimum thickness or coverage the report claims is not supported by the data. Each finding cites the procedure step or code requirement it rests on and the place in the data where the reviewer found it, so the contractor can check it for themselves.",
+        "Reviews of ultrasonic data are led by an ASNT NDT Level III holding UT among five certified methods, alongside RT, MT, PT and VT. The review team's members have worked in nuclear, maritime, oil and gas and petrochemical plants, where corrosion maps feed real repair and run decisions. The review is independent: we do not validate data from projects where we did the scanning, and the work is carried out remotely from the files and records you send."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What files should we send for a corrosion mapping review?", "a": "The raw acquisition files in their native format, the setup and calibration records, the scan plan and procedure, any analysis files, the report, and the values exported to your inspection database. CSV exports and screenshots help, but they cannot replace the raw data." },
+    { "q": "Can you review a corrosion map if we only have the PDF report?", "a": "Yes, but the opinion is then limited to what the PDF shows: the stated settings, the coverage claimed and consistency with the CML records. Without the raw files the minimums cannot be re-measured, and the opinion says so plainly." },
+    { "q": "Do you re-analyse the data or only check the contractor's analysis?", "a": "Both, as far as the scope needs. We open the files, re-measure the minimums in the areas that matter and compare them with the report. We do not issue a new inspection report in place of the contractor's." },
+    { "q": "How do you treat coatings in corrosion mapping data?", "a": "We check how the procedure handled them and whether the gate logic matched. Interface-to-backwall readings through coating overstate the wall unless the coating is accounted for; echo-to-echo readings avoid that but have their own limits on pitted surfaces." },
+    { "q": "Can corrosion mapping replace spot thickness readings at CMLs?", "a": "That is a decision for the owner's inspection program. Mapping shows pattern and area; spot readings trend a single point efficiently over many years. The review checks that each type of data in the record is used for what it can show." },
+    { "q": "Will you calculate remaining life from the map?", "a": "No. Remaining-life, interval and fitness-for-service calculations stay with the owner's inspector and engineer. The review tells them which minimums, areas and corrosion rates the data supports." },
+    { "q": "Do you review vessel and tank corrosion maps as well as piping?", "a": "Yes. Vessel shells, nozzles and tank shells are mapped with the same techniques, and the review applies API 510 or API 653 context as the owner's program requires. Tank floor screening with magnetic flux leakage is a separate technique, so tell us at the enquiry if floor data is part of the package." },
+    { "q": "How do we start a corrosion mapping data review?", "a": "Describe the data set, the equipment and software used and what the review is for, through the form on this page or by email to info@atlantisndt.com. Within one business day we reply with a proposed scope for the review and a quote." }
+  ],
+  "related": [
+    ["/report-validation/ultrasonic-thickness-report-review", "UT thickness report review"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
+    ["/corrosion-mapping", "Corrosion mapping"],
+    ["/inspection/piping-circuit-inspection-cml", "Piping circuit and CML inspection"],
+    ["/standards/api-570", "API 570 explained"],
+    ["/standards/api-574", "API RP 574 explained"],
+    ["/inspection/risk-based-inspection", "Risk-based inspection"]
+  ],
+  "sources": [
+    "https://ims.evidentscientific.com/en/applications/using-the-hydroform-for-external-corrosion-mapping",
+    "https://inspectioneering.com/journal/2022-10-27/10326/comparing-conventional-aut-and-phased-array-aut-corrosion-mapping",
+    "https://inspectioneering.com/tag/tml",
+    "https://www.api.org/products-and-services/standards/important-standards-announcements/570-574-tradepress",
+    "https://inspectioneering.com/news/2024-03-01/10985/api-strengthens-piping-inspection-standards-with-new-updates",
+    "https://infostore.saiglobal.com/en-au/standards/api-rp-574-2024-97006_saig_api_api_3378676/",
+    "https://www.olympus-ims.com/applications/thickness-measurement-hot-metals/",
+    "https://www.osti.gov/biblio/548537"
+  ]
+}
