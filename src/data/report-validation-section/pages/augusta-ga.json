@@ -1,0 +1,136 @@
+{
+  "title": "NDT Report Validation in Augusta, GA | Independent Opinion",
+  "description": "Independent NDT report review for the Augusta area: Vogtle-region vendor records, Savannah River Site contractor data, power and process plants, done remotely.",
+  "h1": "NDT report and inspection data review for Augusta and the Savannah River region",
+  "eyebrow": "Report validation · Augusta, Georgia and Aiken County",
+  "intro": "Augusta sits between two of the most heavily documented nuclear sites in the country: the four-unit Vogtle plant down the river in Burke County, Georgia, and the Department of Energy's Savannah River Site across the state line in South Carolina. Around them are gas-fired generation, a nitrogen fertilizer complex, specialty polymer plants and a paperboard mill, each producing inspection records that owners, contractors and insurers rely on. We review those reports and the digital inspection data behind them independently, against the procedure and the code that governed the work, and every review is done remotely from the records you choose to send.",
+  "highlights": [
+    {"h": "Two states, kept straight", "p": "A record from a Georgia mill and one from an Aiken County contractor answer to different boiler, occupational safety and radiation programs. The opinion names the one that applied before it judges the report."},
+    {"h": "Licensee and DOE work framed honestly", "p": "Atlantis is not on any licensee's Appendix B list or any DOE contractor's NQA-1 approved supplier list. Nuclear reviews are offered as an independent technical opinion the owner's quality organisation decides how to use."},
+    {"h": "A reader with no interest in the result", "p": "We never validate an examination we performed. A sound report is written up as plainly as a weak one, which is what makes the opinion worth showing to the other side of a dispute."}
+  ],
+  "sections": [
+    {
+      "h": "A river city between two nuclear sites",
+      "p": [
+        "Vogtle Electric Generating Plant stands near Waynesboro, about twenty-six miles southeast of Augusta. Units 3 and 4 entered commercial operation in July 2023 and April 2024 respectively, making Vogtle a four-unit plant. Southern Nuclear operates it on behalf of the co-owners, Georgia Power, Oglethorpe Power, MEAG Power and Dalton Utilities, and the NRC oversees it from Region II.",
+        "Across the Savannah River in South Carolina lies the Department of Energy's Savannah River Site. Savannah River Nuclear Solutions manages and operates the site for the National Nuclear Security Administration, and in August 2026 NNSA exercised the final option on that contract, extending it through September 2027 while it evaluates proposals for the next one. Liquid waste work, including tank farm operations, the Defense Waste Processing Facility, the Salt Waste Processing Facility and Saltstone, is carried out separately by Savannah River Mission Completion, the company formed by BWXT, Fluor and Amentum that won the Integrated Mission Completion Contract in 2021.",
+        "Between them, the two sites support a regional economy of contractors, fabricators and engineering firms that produce and consume inspection records every working day. Many of the requests that reach us from the Augusta area are not about the reactors at all, but about the vendors, outage contractors and process plants that live alongside them."
+      ]
+    },
+    {
+      "h": "Who in the Augusta area asks for an independent review",
+      "p": [
+        "The reason behind a request decides where the reviewer concentrates, so it helps to know which of these situations you are in."
+      ],
+      "list": [
+        "A fabricator or machine shop preparing a data book for a nuclear customer and wanting the NDT records checked before the customer's receipt inspection or audit",
+        "A contractor whose ultrasonic, radiographic or penetrant report was rejected by a site's quality organisation and who needs to know whether the rejection is technically right",
+        "A licensee or DOE contractor engineer wanting a second reader on non-safety-related scope or on a supplier's records before they enter the plant files",
+        "A process plant owner accepting a turnaround or outage package from several inspection contractors at once",
+        "A buyer, lender or insurer relying on another party's inspection history for a plant, a boiler house or a set of storage tanks",
+        "Counsel or an adjuster who needs to know what an inspection record can prove, and what it cannot, before a claim or a dispute moves forward"
+      ]
+    },
+    {
+      "h": "Records from the Vogtle side of the river",
+      "p": [
+        "Vogtle's records follow commercial nuclear practice: ASME Section III for construction, Section XI for inservice inspection and repair, the conditions the NRC places on both, and the plant's own quality assurance programme for how supplier and contractor records are accepted. Vendor data books for replacement parts, outage examination reports, weld records from modifications and eddy current data from heat exchangers are the documents most likely to need a second reader.",
+        "Atlantis claims no experience at Vogtle and does not supply safety-related services there. What the review gives a vendor, a contractor or a utility engineer is an independent technical opinion on whether the NDT record supports its conclusions: whether the examination followed the procedure the purchase order invoked, whether the person who signed held the right certification on that day, whether calibration and reference standards were traceable, and whether the acceptance criteria came from the edition the contract named. The licensee's quality organisation decides what to do with that opinion.",
+        "Eddy current data from tubing is reviewed by someone whose certification matches the method and the contract; the Level III who leads our UT, RT, MT, PT and VT reviews does not hold eddy current certification, and the proposal says who will review that data instead."
+      ]
+    },
+    {
+      "h": "Records from the Savannah River Site side",
+      "p": [
+        "Work at the Savannah River Site is regulated by the Department of Energy rather than licensed by the NRC. Under 10 CFR 830.121, a contractor responsible for a DOE nuclear facility must submit a quality assurance programme for DOE approval, conduct work in accordance with it, and use voluntary consensus standards in developing it where practicable. In practice that means ASME NQA-1 and the contractor's own procedures sit between any supplier's NDT record and its acceptance.",
+        "Inspection records connected with the site include weld examinations on piping and structural steel for new construction and modifications, ultrasonic thickness data on tanks and process piping, radiographs and digital radiography images from licensed contractors, and visual and penetrant records from fabrication shops supplying the site. Our review is not supplied as work under any contractor's NQA-1 programme. It is an independent technical opinion on the record, useful when a supplier wants assurance before submission, when a subcontractor disputes a rejection, or when an engineer wants an outside reader on scope where that is permitted. The contractor's quality organisation remains the one that accepts or rejects."
+      ]
+    },
+    {
+      "h": "Process plants, paperboard and new construction along the Savannah",
+      "p": [
+        "Augusta's industrial base is broader than nuclear. Nutrien's Augusta complex produces ammonia, ammonium nitrate, urea ammonium nitrate and urea, and a plant handling anhydrous ammonia in those quantities falls under OSHA's process safety management standard, with a mechanical integrity programme that generates thickness surveys, vessel inspection reports, exchanger tube data and weld examinations on repairs. Syensqo, which separated from Solvay in December 2023 and has operated in Augusta for more than two decades, broke ground in 2024 on a battery-grade PVDF plant on Clanton Road, the kind of project that produces large batches of piping weld records, vendor data books for pressure equipment and hydrotest packages.",
+        "The bleached paperboard mill that Clearwater Paper acquired from Graphic Packaging in 2024 adds boilers, pressure vessels and process piping of its own. Mills generate a distinctive mix of records: thickness surveys on vessels and piping in corrosive service, weld examinations on repairs completed during short annual outages, and boiler inspection reports that have to satisfy both the state program and the insurer.",
+        "For all of these owners the common question is the same. When a contractor hands over a package at the end of an outage or a construction phase, does it actually show that every examination in the plan was performed, by qualified people, to the right procedure and criteria, with the data to prove it? A review answers that question before the unit restarts or the final payment is made."
+      ]
+    },
+    {
+      "h": "Power generation beyond the reactors",
+      "p": [
+        "Gas-fired generation sits close to the city as well. Dominion Energy South Carolina's Urquhart Station at Beech Island, just across the river in Aiken County, is a 650-megawatt natural gas plant on a site that has generated power since 1953. Gas turbine and boiler plants produce outage records on high-energy piping welds, boiler tube thickness, superheater and reheater attachments, headers and turbine components, and the codes in play are usually ASME Section I for boiler external piping and B31.1 for the rest of the power piping.",
+        "Two features of power plant records drive most of our findings. The first is location control: tube thickness readings that cannot be tied to the same elevation and tube number at the next outage cannot be trended, and an untrended survey tells the engineer very little. The second is technique fit: ultrasonic examination of thick alloy welds needs a scan plan that actually covers the weld volume and heat-affected zone, and a report that lists angles without showing coverage leaves the most important question unanswered."
+      ]
+    },
+    {
+      "h": "Two states, one metro: which rules apply",
+      "p": [
+        "The Augusta metro straddles the Savannah River, so the same contractor can produce records under two sets of state rules in a single week. The review starts by identifying the jurisdiction that governed the work, because a report judged against the wrong program is a report judged unfairly."
+      ],
+      "table": {
+        "head": ["Subject", "Georgia side", "South Carolina side"],
+        "rows": [
+          ["Occupational safety and process safety", "Federal OSHA; Georgia has no OSHA-approved State Plan", "SC OSHA, an OSHA-approved State Plan covering private and public employers"],
+          ["Licensing of industrial radiography contractors", "Georgia Environmental Protection Division, Radioactive Materials Program", "Department of Environmental Services, Radioactive Material Licensing and Compliance"],
+          ["Boilers and pressure vessels", "Office of the Commissioner of Insurance and Safety Fire, which inspects and issues certificates of authority to installers and service companies", "Check the jurisdiction recorded on the equipment's own inspection documents"],
+          ["Nuclear oversight", "NRC Region II for Vogtle, with the licensee's quality assurance programme", "Department of Energy for the Savannah River Site, under 10 CFR 830 and the contractor's approved QA programme"],
+          ["What the review checks first", "Whether the record satisfies the state certificate and the insurer as well as the code", "Whether the record meets the contractor's QA programme requirements for supplier documentation"]
+        ]
+      }
+    },
+    {
+      "h": "Radiographs from Georgia and South Carolina contractors",
+      "p": [
+        "Both Georgia and South Carolina are NRC Agreement States, so radiography firms working around Augusta hold state radioactive materials licences. Georgia's Radioactive Materials Program publishes a licence guide specifically for industrial radiography, and South Carolina's licensing and compliance program sits within its Department of Environmental Services.",
+        "Atlantis does not perform industrial radiography in Georgia, South Carolina or any other state. Reviewing what a licensed contractor produced is a different matter, and it is part of this service: film radiographs, computed radiography plates and digital radiography images are checked for image quality indicator placement and sensitivity, density or signal-to-noise as the procedure requires, identification and location markers, coverage of the full weld length, and whether each interpretation is consistent with what the image shows and the acceptance criteria allow."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from the region",
+      "p": [
+        "Large nuclear and construction programmes in the Savannah River region have pushed contractors toward digital inspection data and electronic records. Phased array and TOFD files from construction welds, digital radiography from pipe and vessel work, eddy current data from exchangers and condensers, and thickness data captured on tablets all arrive as native files with their own software, and quality organisations increasingly expect the record to be retrievable and verifiable long after the job.",
+        "A review of digital inspection data looks for the things a PDF hides. Does each file belong to the weld or component the report lists? Was the setup the one recorded in the qualified procedure? Was digital radiography processing changed, and if so, was the change recorded? Does the electronic signature on the report belong to a person whose certification covered the method and technique on that date? For digital reporting systems, we also test whether exported reports still carry everything the code and the customer specification require, and whether template fields have been filled automatically from an earlier job."
+      ]
+    },
+    {
+      "h": "Running an Augusta review remotely",
+      "p": [
+        "Nobody from Atlantis is stationed in Augusta, Aiken or anywhere else in Georgia or South Carolina. The company's offices are in Houston and Hyderabad, and Augusta-area reviews are carried out remotely, entirely on the documents and data shared through a secure transfer. The records themselves contain what a reviewer needs; where they do not, that absence is a finding in its own right.",
+        "Send the report or a representative sample with the procedure, the governing code or purchase order and a note on the decision that depends on the review, and we will come back within one business day with the scope we suggest and a quote. The review then works through the seven checks used on every report and closes with one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Reviews of ultrasonic, radiographic, magnetic particle, penetrant and visual records are led by an ASNT NDT Level III who is certified in all five of those methods, supported by a review team whose members come from nuclear, maritime, oil and gas and petrochemical work.",
+        "Some decisions stay with others by design. Acceptance of nuclear items stays with the licensee's or contractor's quality organisation. Boiler and pressure vessel acceptance stays with the inspector the jurisdiction recognises, and Atlantis does not act as an authorized inspector or inspector of record. Fitness-for-service and remaining-life calculations stay with the owner's engineer, and certifying personnel is outside the review."
+      ]
+    }
+  ],
+  "faqs": [
+    {"q": "Can you review a vendor data book for a component going to Vogtle?", "a": "We can give the vendor or the utility an independent technical opinion on the NDT records in the data book, checked against the purchase order, the specification and the procedure. Atlantis is not on the licensee's approved supplier list for safety-related work, so the licensee's quality assurance organisation decides how the opinion is used."},
+    {"q": "Do you review records for Savannah River Site contractors and suppliers?", "a": "Yes, as an independent technical opinion. The review is not performed under any contractor's NQA-1 programme, and the contractor's quality organisation remains responsible for accepting or rejecting supplier documentation. Suppliers often use the opinion before submission, and subcontractors use it when a rejection is disputed."},
+    {"q": "Our contractor works on both sides of the river. Does that change the review?", "a": "It changes the first step. We identify whether the work was done under Georgia or South Carolina rules, federal OSHA or SC OSHA, and which radiation program licensed the radiography contractor, and only then judge the report against the requirements that actually applied."},
+    {"q": "Can you check turnaround or outage records from a fertilizer, chemical or paper plant?", "a": "Yes. Thickness surveys, vessel inspection reports, exchanger tube data and repair weld examinations are reviewed against the inspection plan, the procedure and the code, with particular attention to whether readings below alert thickness reached engineering and whether every planned examination was actually done."},
+    {"q": "Do you review digital radiography if Atlantis does not perform radiography?", "a": "Yes. Atlantis does not carry out industrial radiography in the United States, but reviewing film, computed radiography and digital radiography produced by your licensed contractor is a document review and part of this service."},
+    {"q": "Who reviews eddy current tube data from Augusta-area plants?", "a": "A reviewer whose certification matches the method and what the contract requires, named in the proposal. Our UT, RT, MT, PT and VT reviews are led by an ASNT NDT Level III certified in those five methods, which does not include eddy current."},
+    {"q": "Will the review decide whether a corroded vessel can stay in service?", "a": "No. Remaining-life and fitness-for-service decisions stay with the owner's engineer. The review tells that engineer which thickness readings and indications can be relied on and which need to be repeated."},
+    {"q": "How do we send records from Augusta for review?", "a": "Use the form on this page or write to info@atlantisndt.com with the report type, the method, the code or purchase order and what the review is for. We reply within one business day; the files themselves are then shared through a secure transfer."}
+  ],
+  "related": [
+    ["/ndt-training-augusta", "NDT training in Augusta"],
+    ["/ndt-training-aiken", "NDT training in Aiken"],
+    ["/consulting/nuclear-ndt-consulting", "Nuclear NDT consulting"],
+    ["/report-validation/radiographic-film-and-digital-interpretation-review", "Radiograph interpretation review"]
+  ],
+  "sources": [
+    "https://www.nrc.gov/info-finder/reactors/vog1.html",
+    "https://southerncompany.mediaroom.com/2024-04-29-Vogtle-Unit-4-enters-commercial-operation",
+    "https://www.energy.gov/nnsa/articles/nnsa-issues-request-proposals-management-and-operation-savannah-river-site",
+    "https://www.energy.gov/nnsa/articles/nnsa-exercises-option-savannah-river-nuclear-solutions-llc-management-and-operation",
+    "https://www.energy.gov/em/articles/doe-awards-savannah-river-site-integrated-mission-completion-contract",
+    "https://www.law.cornell.edu/cfr/text/10/830.121",
+    "https://icis.com/explore/resources/news/2024/10/01/11037565/fertilizer-producer-nutrien-restarting-augusta-facility-in-georgia",
+    "https://georgia.org/press-releases/2024/syensqo-breaks-ground-new-ev-material-facility-augusta",
+    "https://ondemand.tappi.org/clearwater-paper-announces-closing-of-the-augusta-paperboard-manufacturing-facility-acquisition/",
+    "https://www2.dominionenergy.com/projects-and-facilities/natural-gas-facilities/south-carolina-natural-plants",
+    "https://oci.georgia.gov/node/1006",
+    "https://epd.georgia.gov/documents/radioactive-materials-license-guide-industrial-radiography",
+    "https://www.des.sc.gov/programs/bureau-land-waste-management/radiation-protection-program/radioactive-material-licensing-and-compliance",
+    "https://www.osha.gov/stateplans"
+  ]
+}
