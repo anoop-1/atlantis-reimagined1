@@ -1,0 +1,139 @@
+{
+  "title": "NDT Report Validation in Anchorage, AK | Digital Data Review",
+  "description": "Independent review of NDT reports and digital inspection data from North Slope facilities, TAPS, Valdez and Cook Inlet, done remotely for Anchorage owners.",
+  "h1": "Independent NDT report review for Anchorage and Alaska's oil and pipeline assets",
+  "eyebrow": "Report validation · Anchorage, Alaska",
+  "intro": "In Alaska the people who accept an inspection report are rarely standing beside the equipment it describes. A tank at Valdez, a facility on the North Slope or a platform in Cook Inlet may sit hundreds of miles from the engineer who signs off its record, so the report and its digital inspection data carry more weight than in most places. We review those records independently, against the procedure, the code and the Alaska regulation they were written to, and return a written opinion on what the evidence supports. The review itself is remote, which suits a state where distance is the normal working condition.",
+  "highlights": [
+    { "h": "Records that have to travel", "p": "When the asset is a long flight away, the report is the evidence. The review tests it the way an auditor, a regulator or a buyer reading it in Anchorage would test it." },
+    { "h": "Cold weather in the record", "p": "Low temperatures affect penetrant, magnetic particle, ultrasonic and radiographic work. The review checks that each report shows its procedure covered the conditions on the day." },
+    { "h": "Alaska's tank and pipeline rules applied", "p": "Oil storage tanks, common carrier pipelines and boilers answer to state programs as well as federal ones, and each record is read with the right one in mind." }
+  ],
+  "sections": [
+    {
+      "h": "Why Alaska reviews are usually about records from somewhere else",
+      "p": [
+        "Alyeska Pipeline Service Company lists offices in Anchorage, Fairbanks and Valdez, and it operates the Trans Alaska Pipeline System for its three owners: Harvest Alaska, ConocoPhillips Transportation Alaska and ExxonMobil Pipeline Company. ConocoPhillips counts the Kuparuk and Alpine fields on the North Slope and natural gas facilities in Southcentral Alaska among its primary operated assets. Santos and Repsol brought the Pikka field into production in May 2026, and ConocoPhillips' Willow project had not yet come online at that point.",
+        "The inspection work behind those assets happens on the Slope, along the pipeline corridor, at Valdez and on the Kenai Peninsula, but the reports travel to engineering, integrity and contract groups who accept them at a distance. That makes the written record unusually important. If a weld map is ambiguous or a scan file does not match its report, the question cannot be settled by walking over to look, and a return trip to a remote site in the wrong season can take months to arrange.",
+        "An independent review closes some of that gap. It reads the record cold, as someone with no stake in the result, and tells the engineer in Anchorage whether the report can carry the decision it is being asked to support or whether the next crew on site needs to look again."
+      ]
+    },
+    {
+      "h": "TAPS, the Valdez Marine Terminal and Alaska's tank rules",
+      "p": [
+        "TAPS runs about 800 miles from Pump Station 1 at Prudhoe Bay to the Valdez Marine Terminal, with more than half of the line above ground, and only four pump stations, numbers 1, 4, 5 and 9, operate today. Pipeline and terminal records therefore cover aboveground pipe and its supports as well as buried sections, station piping and the storage tanks at Valdez.",
+        "Alaska's Department of Environmental Conservation sets its own requirements for field-constructed aboveground oil storage tanks at oil terminals, crude oil pipelines and exploration and production facilities. Under 18 AAC 75.065, owners maintain and inspect each tank under API 653 or, where appropriate, API RP 12R1. The department may shorten inspection intervals for tanks over 30 years old, riveted or bolted tanks, tanks with structural, corrosion or foundation problems, and tanks that have been through a significant seismic event. A risk-based interval needs an assessment signed by a registered engineer, and inspection records are kept for the service life of the tank, apart from routine in-service inspections, which are kept for five years.",
+        "A review of an Alaska tank package covers the API 653 elements any reviewer would examine, shell and floor thickness, floor scanning coverage and prove-up, repair weld examinations and settlement, and adds the state ones: whether the record names the standard the owner elected, whether it addresses the conditions the department can use to shorten an interval, and whether the records kept will meet the state's retention rule. The interval decision itself stays with the owner's inspector and engineer.",
+        "Common carrier pipelines such as TAPS also come under the State Pipeline Coordinator's Section in the Department of Natural Resources, which provides regulatory oversight under the state's Right-of-Way Leasing Act and co-leads the Joint Pipeline Office with federal agencies. Pipeline safety itself is regulated by PHMSA under 49 CFR Parts 192 and 195."
+      ]
+    },
+    {
+      "h": "North Slope facilities and new developments",
+      "p": [
+        "Production facilities on the Slope generate the full range of oil and gas records: weld examinations on facility piping and vessels, thickness surveys on lines and pressure equipment, corrosion monitoring data and inspections of storage and process tanks. New developments add construction records in volume, often compressed into short working seasons and produced by contractors and fabricators who may be working for that operator for the first time.",
+        "The review concentrates on what tends to go wrong when work is compressed: examination records written up after the fact, personnel certificates that lapsed during a long rotation, calibration checks not repeated at the interval the procedure sets, and weld identifiers that changed between the fabrication yard and the field. Each of those is a documentation finding until it conceals a disposition the data cannot support, and the opinion keeps the two apart so the owner knows which problems are paperwork and which are not.",
+        "Equipment that will be hard to reach once installed deserves a careful look before it leaves the yard. Vendor data books for vessels, piping spools and skids are checked for consistency between the weld map, the NDT reports, the hydrotest record and the material certificates, because a gap found after installation on the Slope is far harder to close than one found in the shop."
+      ]
+    },
+    {
+      "h": "Cook Inlet, the Kenai refinery and Southcentral gas",
+      "p": [
+        "Marathon Petroleum's Kenai refinery on Cook Inlet, southwest of Anchorage, processes about 68,000 barrels per calendar day, mostly Alaska and North Dakota crude, and ships products by pipeline, rail and ship. Its inspection records follow the refinery pattern: API 510 vessels, API 570 piping, API 653 tanks and the mechanical integrity element of process safety management, which in Alaska is enforced through the state's own OSHA-approved State Plan.",
+        "Cook Inlet's oil and gas platforms and the onshore gas facilities around the inlet add pressure equipment and structural records, often with thickness data on risers, splash zone members and process piping. Those reports are reviewed for coverage and for repeatability over time, because a platform record is only useful if this year's readings can be compared with the last ones taken at the same points."
+      ]
+    },
+    {
+      "h": "Cold weather and the NDT record",
+      "p": [
+        "Low temperatures change how several NDT methods behave, and a report written in an Alaska winter should show that the procedure covered the conditions. These are the points the reviewer checks before reading the results themselves."
+      ],
+      "table": {
+        "head": ["Method", "Cold-weather issue", "What the record should show"],
+        "rows": [
+          ["Liquid penetrant", "ASME Section V gives a standard temperature range; examinations below it need a procedure qualified for the lower temperature", "Surface temperature and, where needed, the qualification behind the low-temperature procedure"],
+          ["Magnetic particle", "Wet suspensions can thicken or freeze, which changes particle mobility and the indications formed", "Particle type and carrier, any cold-weather medium used, and the checks the procedure requires"],
+          ["Ultrasonic", "Couplant behaviour and any temperature difference between calibration block and part both affect results", "Couplant used, block and part temperatures, and calibration checks at the intervals the procedure sets"],
+          ["Radiography and digital radiography", "Cold affects film handling and processing and the behaviour of detectors and batteries", "Image quality indicators, density or signal measures, and the processing or acquisition records"],
+          ["Visual and dimensional", "Frost, ice and snow can hide the surface condition being judged", "Surface preparation and condition at the time of examination"]
+        ]
+      }
+    },
+    {
+      "h": "Alaska programs that shape the record",
+      "p": [
+        "Alaska regulates boilers, workplace safety, oil storage, pipelines and radioactive materials through a mix of state and federal programs. The review reads each record with the right program in mind and leaves every role where the program puts it."
+      ],
+      "list": [
+        "Department of Labor and Workforce Development, Mechanical Inspection Section: boilers and unfired pressure vessels needing initial and periodic inspection under the state statute, unless exempt",
+        "Alaska's OSHA-approved State Plan: private and public employers, including process safety management at the refinery and other covered processes",
+        "Department of Environmental Conservation: the oil pollution prevention rules in 18 AAC 75, including the tank requirements described above",
+        "Department of Natural Resources, State Pipeline Coordinator's Section: oversight of common carrier and contract carrier pipelines such as TAPS",
+        "PHMSA: gas and hazardous liquid pipeline safety under 49 CFR Parts 192 and 195",
+        "NRC Region IV: Alaska is not an Agreement State, so the NRC licenses the radioactive materials the state does not regulate, which include the reactor-produced sources used for gamma radiography"
+      ]
+    },
+    {
+      "h": "Digital inspection data over long distances",
+      "p": [
+        "Distance makes digital inspection data the default in Alaska. Thickness readings are uploaded from remote sites, encoded ultrasonic and digital radiography files are sent on for analysis or acceptance, tank floor scans arrive as files rather than as a technician who can explain them, and digital reporting systems join it all into one record.",
+        "The longer the chain, the more places a record can break. The review follows a sample from the instrument file to the issued digital report and to the value the owner now holds, looking for readings truncated or converted on upload, files that cannot be matched to an equipment tag, setup files that differ from the qualified procedure and reports edited after issue without a recorded revision. It also checks whether electronic signatures belong to identifiable, qualified people, and whether raw data are archived in a form the owner can still open years from now, which matters for assets expected to run for decades.",
+        "Where an owner is migrating historic records into a new digital reporting platform, a sample review of the source data before migration shows which records are fit to carry forward and which should be flagged as unverified in the new system."
+      ]
+    },
+    {
+      "h": "Typical Anchorage review situations",
+      "list": [
+        "An operator receives the first construction weld reports from a new contractor on a development and wants them checked before the season's work goes further",
+        "A tank package from a terminal or production facility has to be in order before the state looks at it",
+        "An engineering group is asked to accept a fabricator's data book for equipment that will be hard to reach once installed",
+        "A contractor's report has been rejected, and the contractor wants an independent opinion before responding",
+        "A buyer or partner in an Alaska asset wants to understand how much of the inspection history can be relied on",
+        "Years of thickness and scan data are being moved into a new digital reporting system"
+      ]
+    },
+    {
+      "h": "How the remote review works, and where it stops",
+      "p": [
+        "Atlantis has no presence in Alaska: no office, staff or agent anywhere in the state. The review is performed remotely, from Houston and Hyderabad, on the reports and digital files you send through a secure transfer, and it never waits on a flight, a weather window or a site permit. Tell us what the record covers, the codes and procedure, and the decision it supports; we reply within one business day, setting out the scope we propose and a quote.",
+        "Reports in the five conventional methods, UT, RT, MT, PT and VT, are reviewed under an ASNT NDT Level III whose certification covers each of them. For eddy current, remote field or other techniques, the proposal names a reviewer with the certification the contract asks for. The review team draws on nuclear, maritime, oil and gas and petrochemical experience, and every opinion runs the seven checks and closes with one of three verdicts: sound, deficient in documentation only, or deficient in disposition."
+      ],
+      "list": [
+        "Atlantis does not perform industrial radiography in Alaska or elsewhere in the United States; films and DR images from your licensed contractor are reviewed as documents",
+        "Fitness-for-service and remaining-life work stays with the owner's engineer",
+        "Authorized inspectors, the state's boiler inspectors and any inspector of record keep their roles",
+        "The review does not certify NDT personnel; it reports whether the certificates on file covered the work",
+        "No review is offered on a project where Atlantis performed the examination"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Does anyone need to travel to our site in Alaska?", "a": "No. Everything is done remotely from the documents and digital inspection data you share by secure transfer. If the record cannot support the decision in front of you, the opinion says what the next crew on site would need to examine." },
+    { "q": "Can you review API 653 packages for Alaska tanks?", "a": "Yes. Shell and floor data, floor scanning coverage, prove-up measurements, repair weld examinations and settlement are reviewed against API 653 or API RP 12R1 as the owner elected, with the state's 18 AAC 75 requirements in mind. Interval decisions stay with the owner's inspector and engineer." },
+    { "q": "Do you take account of cold-weather conditions in the reports?", "a": "Yes. The review checks whether each report records the temperatures and materials its procedure depends on, such as penetrant surface temperature, couplant and calibration block temperature, and whether a low-temperature procedure was qualified where one was needed." },
+    { "q": "Can you review pipeline records for common carrier lines?", "a": "Yes. Girth weld examinations, dig records, station piping examinations and pressure test documentation are reviewed against API 1104 or the relevant piping code, the operator's specification and 49 CFR Part 192 or 195." },
+    { "q": "Do you review radiographs, given that Alaska is not an Agreement State?", "a": "Yes. Licensing of the sources concerns the contractor who makes the exposures, not the reviewer. Atlantis does not perform industrial radiography in the United States, and reviewing the resulting film radiographs and DR images is a document review." },
+    { "q": "Who reviews eddy current data from exchangers on the Slope or at the refinery?", "a": "The proposal identifies a reviewer holding the eddy current certification your contract requires, and that is settled before data are sent. The UT, RT, MT, PT and VT records in the same package are reviewed under the ASNT NDT Level III who leads those methods." },
+    { "q": "Can you check data before it is loaded into a new digital system?", "a": "Yes. A sample review traces records from the raw instrument files through the contractor's reports, and tells you which data are fit to migrate and which should be marked as unverified." },
+    { "q": "How do we send records from Anchorage?", "a": "Use the form on this page or write to info@atlantisndt.com with the asset, the report type and method, the code or regulation and what the review is for. We reply within one business day, and the files then reach us through a secure transfer." }
+  ],
+  "related": [
+    ["/inspection-services-alaska", "NDT inspection services in Alaska"],
+    ["/ndt-training-anchorage", "NDT training in Anchorage"],
+    ["/ultrasonic-testing-anchorage", "Ultrasonic testing in Anchorage"],
+    ["/inspection/third-party-inspection-anchorage", "Third-party inspection in Anchorage"],
+    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"]
+  ],
+  "sources": [
+    "https://alyeska-pipe.com/trans-alaska-pipeline-system-taps-overview/",
+    "https://alyeska-pipe.com/contact-us/",
+    "https://alaska.conocophillips.com/who-we-are/alaska-operations/",
+    "https://www.alaskasnewssource.com/2026/05/19/pikka-begins-producing-oil-projections-say-it-could-become-alaskas-no-2-field/",
+    "https://www.law.cornell.edu/regulations/alaska/18-AAC-75.065",
+    "https://dog.dnr.alaska.gov/services/Pipelines",
+    "https://www.marathonpetroleum.com/Operations/Refining/Kenai-Refinery/",
+    "https://labor.alaska.gov/lss/boilers.htm",
+    "https://www.nrc.gov/agreement-states/alaska",
+    "https://www.osha.gov/stateplans"
+  ]
+}

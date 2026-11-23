@@ -1,0 +1,158 @@
+{
+  "title": "Birmingham, AL NDT Report Validation | Power, Nuclear, Steel",
+  "description": "Independent review of power, nuclear-related, structural steel and fabrication NDT reports and digital inspection data for Birmingham owners, done remotely.",
+  "h1": "Independent NDT report review for Birmingham's utilities, pipe makers and steel fabricators",
+  "eyebrow": "Report validation: Birmingham, Alabama",
+  "intro": "Birmingham makes decisions about plants it cannot see from the office window. The headquarters of Alabama Power and Southern Nuclear are here, so engineers in the city read inspection reports from coal, gas, hydro and nuclear plants across Alabama and Georgia. The city is also still a steel town, home to pipe mills, a tubular works at Fairfield and fabricators supplying buildings and bridges across the South. We review the NDT reports and digital inspection data those owners and makers rely on, independently and against the governing code. Atlantis has no Birmingham office or staff; the review is done remotely on the records you send.",
+  "highlights": [
+    {
+      "h": "For decisions made at headquarters",
+      "p": "Fleet engineers often judge a report from a plant hundreds of miles away. The opinion is written for that reader: what was reviewed, against which edition, and which findings change a decision."
+    },
+    {
+      "h": "Structural and bridge welds read to the right code",
+      "p": "Magnetic particle and ultrasonic reports on building steel and highway bridges are checked against the AWS D1.1 or D1.5 edition and acceptance table the contract actually invoked."
+    },
+    {
+      "h": "An opinion nuclear QA can place",
+      "p": "Atlantis is outside every licensee's approved supplier list, and the opinion says so plainly, so a quality organisation can decide exactly where an independent technical reading fits."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A headquarters city for plants elsewhere",
+      "p": [
+        "Alabama Power, a wholly owned subsidiary of Southern Company, keeps its principal executive offices at 600 North 18th Street in Birmingham, and Southern Nuclear, another Southern Company subsidiary, is headquartered in the city too. From Birmingham, Southern Nuclear manages six reactors at Plant Farley near Columbia, Alabama, owned by Alabama Power, and at Plants Hatch and Vogtle in Georgia, owned by Georgia Power. The Tennessee Valley Authority's Browns Ferry plant near Athens, in the north of the state, completes Alabama's nuclear picture, and all of these reactor sites fall under NRC Region II.",
+        "Closer to the city, Alabama Power's James H. Miller Jr. plant, a four-unit coal station about twenty miles northwest of downtown on the Locust Fork of the Black Warrior River, and the five-unit Gaston plant near Wilsonville produce the outage records typical of large fossil units. The utility also runs fourteen hydroelectric plants on the Coosa, Tallapoosa and Black Warrior rivers. We name these organisations because they shape the inspection work in and around the city; Atlantis does not work and has not worked for them, and nothing on this page suggests otherwise."
+      ]
+    },
+    {
+      "h": "Nuclear-related records: what an outside opinion can and cannot be",
+      "p": [
+        "Safety-related examinations at a US nuclear plant sit inside the licensee's quality assurance program, built on 10 CFR 50 Appendix B, and the NRC's rule at 10 CFR 50.55a ties inservice inspection to the ASME Section XI edition each plant's program commits to. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list, and we do not present an opinion as a safety-related deliverable. That boundary is stated in every opinion, because a QA organisation needs to see it before it reads anything else.",
+        "Inside that boundary there is still useful work. A licensee or one of its vendors may want a disinterested reading of records on non-safety-related plant, an owner's second opinion on a disputed report, support in overseeing a supplier's documentation, or the technical side of a commercial disagreement. The licensee's QA organisation decides whether and how to use what we write. Where records carry export-control, safeguards or vendor proprietary restrictions, tell us before anything is sent, and restricted material stays out of the transfer unless you clear it."
+      ]
+    },
+    {
+      "h": "Coal, gas and hydro plants in central Alabama",
+      "p": [
+        "Outages at a station like Miller or Gaston leave waterwall and superheater thickness grids, header and drum reports, weld examinations on high-energy piping and, on the gas units, heat recovery steam generator records. Those are read against ASME Section I, B31.1 and the outage scope. The review concentrates on whether a grid can be found again next time, whether the thinnest points from the last survey were re-measured, and whether repair welds were examined over the whole excavation. Under Alabama's boiler program, operating certificates and jurisdictional inspection stay with the inspectors who hold that authority.",
+        "Hydro plants add records most reviewers rarely see: magnetic particle and ultrasonic examinations of penstock welds, spillway and intake gate structures, turbine and generator components, and the repair welds that keep older hydro equipment running. These are often written to the owner's own specifications rather than a single national code, so the review checks first that the report names the acceptance basis it used and that the basis matches the specification for that component."
+      ]
+    },
+    {
+      "h": "Pipe and steel made in Birmingham",
+      "p": [
+        "American Cast Iron Pipe Company makes ductile iron pipe, valves and hydrants on its campus just north of downtown, and its steel pipe operations include spiral-welded pipe for water service in diameters up to 144 inches, with two steel pipe mills on the Birmingham site. At Fairfield, U.S. Steel, owned by Nippon Steel since June 2025, broke ground on 21 September 2026 on a quench and temper line for its tubular operations, with construction due to start in the fourth quarter of 2026 and full production planned for the second quarter of 2029, so that the plant can make casing, drill pipe and transmission pipe for the oil and gas market.",
+        "Welded pipe leaves a mill with NDT and test records that the buyer reads before acceptance: automated ultrasonic examination of the weld seam, examination of pipe ends where the specification requires it, hydrostatic test records and the documents that tie every length to its heat and test results. An independent review checks the setup and verification of the inspection system against the reference standard the purchase specification names, the handling of every alarm, and the traceability from the first examination to the shipping list. A new heat-treatment line also means construction records of its own: structural steel, furnace and quench equipment supports, piping and pressure equipment, each with its own code."
+      ]
+    },
+    {
+      "h": "Structural steel and highway bridges",
+      "p": [
+        "Fabricators in and around Birmingham supply building frames, industrial structures and bridge girders across the region, and their NDT records are among the most frequently disputed in any city. Buildings and industrial structures are usually examined to AWS D1.1, now in its 2025 edition, and steel highway bridges to AASHTO/AWS D1.5M/D1.5:2025, the bridge welding code. The two codes differ in examination extent, acceptance criteria for ultrasonic indications and the special treatment D1.5 gives to fracture-critical members, so a report has to say clearly which one governed each weld.",
+        "The review of a structural report checks the joint against the weld map, the examination extent against what the code and contract required for that joint, the acceptance table against the loading condition, and the technician's certification against the date. Magnetic particle records need the technique, field direction and lighting checks the procedure called for; ultrasonic records need the transducer, angle, reference level and scanning pattern that prove the full weld volume was covered."
+      ],
+      "list": [
+        "Ultrasonic acceptance taken from the wrong table for the loading condition of the member",
+        "Fracture-critical bridge welds examined to the general D1.5 requirements instead of the stricter ones",
+        "Magnetic particle reports with no record of yoke lift test or field direction",
+        "Weld maps revised after the NDT was reported, leaving joints with no matching record",
+        "Phased array used on groove welds without the procedure qualification the code requires for it"
+      ]
+    },
+    {
+      "h": "Birmingham sectors and the code each report should cite",
+      "p": [
+        "The table matches each kind of record that reaches review from the Birmingham area with the code basis a reader expects to see and the check that most often decides the verdict."
+      ],
+      "table": {
+        "head": ["Sector", "Code basis the report should cite", "Check that most often decides the verdict"],
+        "rows": [
+          ["Nuclear-related vendor and balance-of-plant records", "ASME Section III or XI edition in the plant program, the vendor's procedures, the purchase order", "Personnel qualification and procedure compliance on the date of work"],
+          ["Coal and gas station outages", "ASME Section I, B31.1, the outage scope and the owner's specification", "Completeness and traceability of grids and repair records"],
+          ["Hydro penstocks, gates and turbines", "The owner's component specifications and the referenced welding codes", "Acceptance criteria: whether the report states the basis it applied"],
+          ["Welded steel and ductile iron pipe", "The purchase specification and the pipe standards it invokes", "Equipment and calibration of the automated inspection system"],
+          ["Building and industrial steel", "AWS D1.1:2025 or the edition the contract names", "Acceptance criteria matched to the loading condition"],
+          ["Highway bridge steel", "AASHTO/AWS D1.5M/D1.5:2025", "Technique adequacy and extent on fracture-critical members"]
+        ]
+      }
+    },
+    {
+      "h": "Alabama and federal rules behind the record",
+      "p": [
+        "Boilers and pressure vessels in Alabama fall under the Boiler and Pressure Vessel Safety Act of 2000, administered by the Inspections Division of the Alabama Department of Workforce, which requires regular inspection of covered equipment and operating certificates kept with it. Alabama runs no OSHA-approved state plan, so federal OSHA covers private-sector plants, including the process safety management standard at sites that handle covered chemicals.",
+        "Industrial radiography licences come from the Alabama Department of Public Health's Office of Radiation Control, Alabama being an NRC Agreement State; NRC Region I handles the agency's remaining materials work in the state, and Region II oversees the power reactors. Atlantis does not perform industrial radiography in Alabama, so radiographs and digital images from your licensed contractor are treated as documents to be reviewed. Pipelines in the state are inspected by the Gas Pipeline Safety section of the Alabama Public Service Commission."
+      ]
+    },
+    {
+      "h": "Digital inspection data from fleet, mill and shop",
+      "p": [
+        "Utility fleets keep inspection history in digital systems that outlast every contractor who contributes to them, nuclear ultrasonic data is archived as encoded files for the life of the plant, pipe mills store a digital record for each length, and structural fabricators increasingly submit phased array files and electronically signed digital reports instead of paper sheets. That digital trail is what makes an independent review possible years after the fact, as long as the trail is complete.",
+        "We follow it on a sample of records. A thickness reading is traced back to its gauge export, a phased array result to its setup and scan file, a digital image to its processing history and a signature to the certificate of the person who applied it. When an owner moves from one digital reporting platform to another, or merges two contractors' data into one fleet database, a review of migrated records shows whether identifiers, units and history came through intact."
+      ]
+    },
+    {
+      "h": "How the review runs, and what stays with you",
+      "p": [
+        "Reviews for Birmingham owners and fabricators are carried out remotely from Houston and Hyderabad on records sent through secure transfer or shared through your own controlled platform. Tell us what the record covers, the method, the code and the decision it supports, and we reply within one business day with a scope, the reviewer and a quote. The opinion then gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition, with every finding tied to a clause or procedure step.",
+        "For UT, RT, MT, PT and VT records, the review is led by an ASNT NDT Level III whose certification spans those five methods, and the team behind that lead has backgrounds in nuclear, maritime, oil and gas and petrochemical work. Eddy current, acoustic emission or other data outside those methods goes to a reviewer named in the proposal with the certification your contract requires. Fitness-for-service, creep-life and remaining-life calculations stay with your engineer; we do not perform them. Atlantis does not act as an authorised inspector, does not certify personnel and never reviews reports on examinations it carried out."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Atlantis review records for a nuclear plant operated from Birmingham?",
+      "a": "We can provide an independent technical opinion that the licensee's QA organisation decides how to use, typically on non-safety-related plant, vendor oversight, a disputed report or a commercial disagreement. Atlantis is not on any Appendix B or NQA-1 approved supplier list, and we claim no experience at any named plant."
+    },
+    {
+      "q": "Do you review penstock and gate weld records from hydro plants?",
+      "a": "Yes, for MT, PT, UT and VT records. The review checks that the report names its acceptance basis, that the basis matches the owner's specification for the component, and that coverage, calibration and personnel records support the result."
+    },
+    {
+      "q": "Which bridge welding code do you apply?",
+      "a": "The edition the contract invokes, which for current work is usually AASHTO/AWS D1.5M/D1.5:2025. The opinion checks the stricter requirements for fracture-critical members separately, because that is where bridge NDT reports most often fall short."
+    },
+    {
+      "q": "Can you review a pipe mill's NDT records before we accept an order?",
+      "a": "Yes. The automated seam inspection setup and verification, alarm dispositions, end examinations, hydrotest records and length-by-length traceability are read against your purchase specification, and the opinion says which items support acceptance."
+    },
+    {
+      "q": "Do you take radiographs in Alabama?",
+      "a": "No. Atlantis does not perform industrial radiography in Alabama, which licenses radiography through the Department of Public Health's Office of Radiation Control. Film and digital images from your licensed contractor are reviewed as documents."
+    },
+    {
+      "q": "Will someone come to our shop or plant?",
+      "a": "No. The review is a remote document and data review. It works from the reports, procedures, certificates, calibration records and raw files you send, and any question the record cannot answer comes back to you in writing."
+    },
+    {
+      "q": "Who reviews eddy current tube data from an outage?",
+      "a": "A reviewer named in the proposal who holds the eddy current certification your contract specifies. The in-house Level III certification covers UT, RT, MT, PT and VT and does not extend to eddy current."
+    },
+    {
+      "q": "What does the written opinion contain?",
+      "a": "The documents received and their revisions, the code edition and specification applied, the methods each reviewer covered, every finding tied to its clause or procedure step and the evidence behind it, and a verdict of sound, deficient in documentation only, or deficient in disposition."
+    }
+  ],
+  "related": [
+    ["/inspection-services-alabama", "Inspection services in Alabama"],
+    ["/ndt-training-birmingham", "NDT training in Birmingham"],
+    ["/ultrasonic-testing-birmingham", "Ultrasonic testing in Birmingham"],
+    ["/magnetic-particle-testing-birmingham", "Magnetic particle testing in Birmingham"],
+    ["/standards/aws-d1-5", "AWS D1.5 bridge welding code"],
+    ["/magnetic-particle-inspection-structural-steel", "Magnetic particle inspection of structural steel"],
+    ["/consulting/nuclear-ndt-consulting", "Nuclear NDT consulting"]
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/3153/000000315326000003/apc2026s-3.htm",
+    "https://southernnuclear.com/about-us.html",
+    "https://www.nrc.gov/info-finder/reactors/bf1",
+    "https://www.alabamapower.com/company/about-us/generating-plants.html",
+    "https://american-usa.com/about/story",
+    "https://abc3340.com/news/local/us-steel-breaks-ground-on-475m-fairfield-expansion",
+    "https://workforce.alabama.gov/inspections/boilers-pressure-vessels/",
+    "https://www.osha.gov/stateplans",
+    "https://www.nrc.gov/agreement-states/alabama.html",
+    "https://psc.alabama.gov/gas-pipeline-safety/"
+  ]
+}
