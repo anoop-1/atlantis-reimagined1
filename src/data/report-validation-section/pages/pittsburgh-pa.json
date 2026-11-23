@@ -1,0 +1,158 @@
+{
+  "title": "NDT Report Validation in Pittsburgh, PA | Level III Review",
+  "description": "Independent review of NDT reports from western Pennsylvania: nuclear vendor data, shale gas pipeline records, bridge weld UT and power plant data, done remotely.",
+  "h1": "Independent NDT report and digital inspection data review for the Pittsburgh region",
+  "eyebrow": "Report validation: Pittsburgh and western Pennsylvania",
+  "intro": "Western Pennsylvania produces inspection records from four very different worlds: a nuclear station on the Ohio River, the shale gas fields and their gathering lines, a polymers complex in Beaver County, and a dense stock of steel bridges and mill structures around the three rivers. Each of those worlds reads an NDT report for its own reasons and against its own rules. We give owners, contractors and their advisers in the Pittsburgh region an independent review of the reports and the digital inspection data behind them, checked against the procedure and the code that governed the work, and carried out remotely on the files you send.",
+  "highlights": [
+    {
+      "h": "Four record streams, one method",
+      "p": "Nuclear vendor packages, pipeline girth weld files, bridge weld ultrasonics and power plant tube data all pass through the same seven checks, so a buyer comparing contractors across those sectors gets findings written on a common footing."
+    },
+    {
+      "h": "Pennsylvania rules in the frame",
+      "p": "The opinion takes account of the Commonwealth's boiler law, the Public Utility Commission's pipeline jurisdiction and the state radiation program that licenses radiography contractors, because a report can satisfy the code and still miss a state requirement."
+    },
+    {
+      "h": "A reviewer with no stake",
+      "p": "We never review an examination we carried out, and nothing in the opinion depends on whether the report passes. That independence is what makes the result usable in a dispute, an acquisition or a supplier audit."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Who commissions report reviews around Pittsburgh",
+      "p": [
+        "The region's demand for independent report review follows its industrial map. On the Ohio River at Shippingport, Vistra's Beaver Valley plant runs two reactors with a combined output of about 1,872 megawatts, with operating licences that run to 2036 and 2047. Cranberry Township, north of the city, is home to the global headquarters of Westinghouse, and a supply chain of fabricators and machine shops grew up around nuclear component work. Inspection records from that supply chain end up in data books that licensees and their vendors have to accept.",
+        "Gas is the second stream. EQT, which completed its acquisition of Equitrans Midstream in July 2024, is headquartered in Pittsburgh and operates across the Marcellus and Utica. Gathering systems, compressor stations and transmission lines generate girth weld radiographs, ultrasonic thickness surveys and integrity dig reports. In Beaver County, Shell's polymers complex at Monaca converts ethane into polyethylene; in late 2026 Shell was reported to be discussing a sale of its US chemical assets, Monaca among them, which is exactly the kind of transaction in which a buyer wants the inspection history read by someone independent.",
+        "Steel and power complete the picture. U.S. Steel, owned by Nippon Steel since June 2025, runs its Mon Valley Works along the Monongahela and announced further investment there in 2026. Around the rivers, bridge owners and fabricators produce weld inspection records to the bridge welding code. To the east, the former Homer City coal plant site in Indiana County is being rebuilt as a gas-fired energy campus, with vertical construction under way since April 2026, which means vendor fabrication records, piping weld reports and turbine island documentation arriving in volume."
+      ]
+    },
+    {
+      "h": "Nuclear records: a second opinion the licensee decides how to use",
+      "p": [
+        "Pennsylvania falls under NRC Region I, whose regional office sits at King of Prussia on the other side of the state. Licensees in western Pennsylvania therefore deal with a federal inspection regime for the reactor and with their own quality assurance organisation for everything bought and examined on their behalf. We are not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and we say so at the start of every nuclear enquiry.",
+        "What we provide instead is an independent technical opinion. Typical uses include non-safety-related scope where the plant wants a second reader, oversight of a vendor's examination records before a component ships, an owner's check on a contractor's interpretation when the plant's own reviewers disagree with it, and technical input to a commercial dispute. The licensee's QA organisation decides what weight the opinion carries and whether it enters any quality record.",
+        "Supply chain packages from the Cranberry and Pittsburgh fabricators are a frequent example. A component data book may hold ultrasonic weld examinations, liquid penetrant reports on machined surfaces, radiographs from the shop's licensed contractor and material certifications. The review checks that each examination was done to the procedure revision the purchase order invoked, that the examiners held the certification the order required on the day, and that every indication has a disposition traceable to the acceptance standard named in the specification."
+      ]
+    },
+    {
+      "h": "Shale gas, gathering lines and the Monaca complex",
+      "p": [
+        "Pipeline records from the Pittsburgh region sit inside a split jurisdiction. PHMSA keeps enforcement authority over interstate pipelines and Type R gathering lines. The Pennsylvania Public Utility Commission inspects intrastate facilities under its annual federal certification and, under the state's Act 127, enforces federal pipeline safety law for non-public utility operators, which brings thousands of miles of gas gathering lines into its programme. Which regulator will read the record shapes what the review emphasises.",
+        "The most common files are girth weld radiographs and digital radiography images from licensed contractors, ultrasonic examinations of tie-in welds, thickness surveys on station piping, and dig reports that combine coating condition, pit depths and wall measurements. We check the image quality indicators, density or signal-to-noise evidence, film or detector identification against the weld map, and whether the acceptance standard applied is the one the operator's procedures call for. Assessing the remaining strength of corroded pipe stays with the operator's engineer; the review tells that engineer whether the measurements underneath the assessment can be trusted.",
+        "At a polymers plant such as Monaca, the records look more like refinery records: corrosion monitoring locations on process piping, vessel internal inspection reports, exchanger tube data and repair weld examinations, all feeding a mechanical integrity programme under OSHA's process safety management standard. When ownership of a plant is changing, buyers often want a sample of that history reviewed before closing, so that the data room tells them how much of the inspection record can carry their own decisions."
+      ]
+    },
+    {
+      "h": "Bridges, mill structures and the ultrasonic velocity question",
+      "p": [
+        "Steel bridge welds are examined to AASHTO/AWS D1.5, building and mill structures to AWS D1.1, and owners such as PennDOT and the county bridge departments add their own contract provisions on top. In December 2024 the Federal Highway Administration issued a memorandum on acoustic dissimilarities in bridge steels, drawing on NCHRP research. Its point is practical: conventional weld ultrasonics assumes the steel carries sound at the same shear wave velocity as the calibration block, and in some thermo-mechanically controlled plate it does not, while acoustic anisotropy between the rolling and transverse directions can split the beam and weaken the reflected signal.",
+        "The memorandum asks bridge owners to add special provisions that require velocity measurements, limit search angles when the velocity ratio exceeds set thresholds and restrict anisotropic plate in complete joint penetration welds. When a Pittsburgh-area contract carries provisions of that kind, the review checks that the ultrasonic report records the measurements, applies the angle limits and uses the supplemental acceptance tables the provision calls for. Where phased array was used under the code's phased array annex, the same questions apply to the focal laws and the angles actually fired.",
+        "Mill structures raise different questions. Crane runway girders, building columns and equipment supports in a working steel plant carry fatigue loading, and their inspection reports are often magnetic particle and visual records of welds examined under difficult access. We check whether surface preparation and lighting were recorded, whether the examination covered the weld toes where fatigue cracking starts, and whether repair welds were re-examined after grinding."
+      ]
+    },
+    {
+      "h": "Power plants and the Commonwealth's boiler law",
+      "p": [
+        "Boilers and unfired pressure vessels in Pennsylvania come under the Boiler Division of the Department of Labor and Industry, within its Bureau of Occupational and Industrial Safety. Inspections are carried out by inspectors holding a Pennsylvania commission: Commonwealth staff, inspectors employed by insurers authorised to cover boilers and vessels in the state, and, for units in process operations, the owner's own employees where the owner authorises them. Repairs follow the National Board Inspection Code. A certificate of operation is issued once the Division has the inspector's report.",
+        "That structure matters to a report review because the commissioned inspector, not the reviewer, accepts the equipment. We do not act as an authorized inspector or as inspector of record. What the review gives the inspector, the owner or the repair organisation is an independent reading of the NDT behind the repair or the new installation: whether the radiographs or ultrasonic records of a boiler tube repair meet the construction code the repair is made to, whether the examiner was qualified, and whether the record will survive the inspector's questions.",
+        "New gas-fired construction adds a different load. Heat recovery steam generators, high-energy piping and turbine island systems arrive with fabrication data from many shops. Vendor data books from those shops are checked against ASME Section I or B31.1 as the design specifies, with attention to the examinations most often under-documented: the post-weld heat treatment interface, alloy verification where it was required, and the final examinations after repair."
+      ]
+    },
+    {
+      "h": "Western Pennsylvania records and what the reviewer opens first",
+      "p": [
+        "The seven checks apply to every report, but each record type has a point where it usually breaks. The table lists the files we see most from the region and the first thing the reviewer looks at."
+      ],
+      "table": {
+        "head": ["Record from the region", "Typical source", "First thing the reviewer opens"],
+        "rows": [
+          ["Component data book with UT, PT and radiographs", "Nuclear supply chain fabricators around Cranberry and Pittsburgh", "The purchase order's procedure and acceptance references, then the examiner certifications on the dates of work"],
+          ["Girth weld radiographs and DR images", "Gathering and transmission construction in the Marcellus and Utica", "Image quality indicators and the link from each image to a weld number on the as-built map"],
+          ["Station piping thickness survey", "Compressor stations and processing plants", "Repeatability of the measurement locations against the previous survey"],
+          ["Bridge CJP weld ultrasonic report", "Bridge fabricators and erectors working to D1.5", "Calibration block identity, velocity measurements where the contract requires them, and the angles used"],
+          ["Corrosion maps and CML data", "Polymers and chemical plant mechanical integrity programmes", "Grid density and datum marking, so rates can be calculated from comparable readings"],
+          ["Boiler tube repair weld records", "Power plant outages and new HRSG construction", "The construction code edition the repair claims, and examination after the final heat treatment"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data from Pittsburgh-area projects",
+      "p": [
+        "Much of what arrives from the region is now digital inspection data rather than paper. Pipeline contractors deliver digital radiography as DICONDE or vendor image files with their own viewing software; fabrication shops deliver encoded phased array files; plants keep thickness and corrosion data in inspection databases and issue their reports through digital reporting platforms with electronic signatures. A review that reads only the PDF misses where most digital records go wrong.",
+        "We open the raw files and follow the data lineage from acquisition to the issued report. For digital radiography that means checking the stored image against the reported weld, confirming that the image processing recorded in the file is what the procedure allows, and measuring the duplex wire or other image quality evidence ourselves. For encoded phased array it means confirming the scan plan, the focal laws and the encoder calibration, and re-gating indications the report dispositions. For digital reporting systems it means checking who signed, when, under which template revision, and whether fields were filled automatically from an earlier job."
+      ]
+    },
+    {
+      "h": "How the review runs when the records are in Pittsburgh and the reviewers are not",
+      "p": [
+        "Atlantis keeps no staff, desk or facility anywhere in western Pennsylvania. Our offices are in Houston and Hyderabad, and every Pittsburgh review is done remotely from the reports and data you send through a secure transfer. The records themselves do the travelling, which is also why a review can start the day the files land rather than when someone can get to site.",
+        "The process is the same for a single weld report and a full turnaround package. You send the report or a sample with the procedure, the governing code and a line on what decision depends on it. We reply within one business day with the review scope and a quote. Once the files are in hand, the review runs the seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+        "Reviews of ultrasonic, radiographic, magnetic particle, penetrant and visual records are led by an ASNT NDT Level III who holds certification in those five methods. Eddy current tube data and other methods fall outside that certification, so for them the proposal names a reviewer with the certification the contract asks for. The wider review team draws on nuclear, maritime, oil and gas and petrochemical backgrounds.",
+        "Each report ends in one of three verdicts. Sound means the record supports its conclusions. Deficient in documentation only means the examination appears adequate but the paperwork has gaps the contractor can close. Deficient in disposition means the evidence does not carry the accept or reject decision, and the component needs engineering attention or re-examination."
+      ]
+    },
+    {
+      "h": "What the review leaves with the owner",
+      "p": [
+        "A report review is a technical opinion on a record. Some decisions belong elsewhere, and the opinion is written so it does not drift into them.",
+        "Remaining life, fitness-for-service under API 579 and the strength of corroded pipe stay with the owner's engineer, who now has a reliable measurement set to work from. Acceptance of a boiler or vessel stays with the Pennsylvania-commissioned inspector. Certification of personnel stays with their employer under its written practice. Industrial radiography in the United States is something Atlantis does not perform, because it requires a radioactive materials licence; in Pennsylvania that licensing sits with the Department of Environmental Protection's Bureau of Radiation Protection, which runs the Agreement State program. Reviewing the radiographs, CR and DR images that a licensed contractor produced is a document review, and that we do."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review a nuclear vendor's data book for a component going to a Pennsylvania plant?",
+      "a": "Yes, as an independent technical opinion. We are not on any licensee's Appendix B or NQA-1 approved supplier list, so the licensee's QA organisation decides how the opinion is used. The review checks procedures, certifications, calibration and dispositions against the purchase order."
+    },
+    {
+      "q": "Do you need to visit a site in western Pennsylvania?",
+      "a": "No. Reviews are carried out remotely on the reports, images and raw data files you send. If the records are incomplete, the opinion says what is missing and why it matters, so the contractor can supply it."
+    },
+    {
+      "q": "Our gathering line contractor delivered digital radiography. Can you check it?",
+      "a": "Yes. We open the stored images in viewing software, check image quality evidence and processing against the procedure, confirm each image ties to a weld on the map, and compare the dispositions with the acceptance standard your procedures name."
+    },
+    {
+      "q": "Will the review tell us whether a bridge weld ultrasonic report meets the FHWA velocity provisions?",
+      "a": "If your contract carries special provisions based on the FHWA memorandum, the review checks that the report records the velocity measurements, respects the angle limits and applies the supplemental acceptance tables. If the contract has no such provisions, we say whether the plate type makes them worth considering."
+    },
+    {
+      "q": "Can you act as the inspector for a Pennsylvania boiler repair?",
+      "a": "No. Acceptance stays with the inspector holding a Pennsylvania commission. We review the NDT records behind the repair so the inspector, owner or repair organisation knows whether they will stand up."
+    },
+    {
+      "q": "Do you review eddy current tube data from power plant or exchanger outages?",
+      "a": "Yes. Eddy current is not one of the five methods our Level III is certified in, so the proposal names a reviewer holding the certification your contract requires."
+    },
+    {
+      "q": "We are buying a plant in the region. What do you review before closing?",
+      "a": "Usually a structured sample of the inspection history: recent turnaround reports, thickness data on the circuits that matter most, open recommendations and repair records. The opinion tells you how much of that history can support your own decisions."
+    },
+    {
+      "q": "How quickly do you respond to an enquiry from Pittsburgh?",
+      "a": "We reply within one business day with the scope of the review and a quote, based on what the report covers, the method, the code and the decision it supports."
+    }
+  ],
+  "related": [
+    ["/inspection-services-pennsylvania", "Inspection services in Pennsylvania"],
+    ["/ndt-training-pittsburgh", "NDT training in Pittsburgh"],
+    ["/consulting/ndt-consulting-pittsburgh", "NDT consulting in Pittsburgh"],
+    ["/ultrasonic-testing-pittsburgh", "Ultrasonic testing in Pittsburgh"]
+  ],
+  "sources": [
+    "https://beavercountypa.gov/getmedia/97da8065-4cb7-48ea-ae10-ef156104a38c/Vistra-BVPS-Plant-Fact-Sheets.pdf",
+    "https://www.nrc.gov/agreement-states/pennsylvania",
+    "https://info.westinghousenuclear.com/blog/140-years-strong-the-innovations-and-people-of-westinghouse-dallas-frey",
+    "https://www.sec.gov/Archives/edgar/data/33213/000110465924081501/tm2419871d1_8k.htm",
+    "https://www.hydrocarbonengineering.com/petrochemicals/26082026/exxonmobil-and-lyondellbasell-among-potential-buyers-of-shells-us-chemicals-assets/",
+    "https://www.semafor.com/article/06/18/2025/nippon-steel-closes-14-billion-takeover-of-us-steel",
+    "https://monvalley.uss.com/mon-valley-works",
+    "https://www.monvalleyindependent.com/2026/06/10/u-s-steel-pledges-up-to-2-5-billion-in-upgrades-to-mon-valley-works/",
+    "https://www.businesswire.com/news/home/20260602762299/en/Homer-City-Generation-Marks-Major-Milestone-in-Site-Transformation-With-Early-Completion-of-Demolition-and-Excavation-Efforts",
+    "https://www.puc.pa.gov/pipeline-safety/jurisdiction-regulations/",
+    "https://www.fhwa.dot.gov/bridge/inspection/Memo_Dec2024_Acoustic_Dissimilarities_Steel_Ultrasonic_Weld_Inspection.pdf",
+    "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/boilers-and-unfired-pressure-vessels",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  ]
+}

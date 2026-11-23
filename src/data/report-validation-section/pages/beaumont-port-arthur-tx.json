@@ -1,5 +1,5 @@
 {
-  "title": "Report Validation in Beaumont–Port Arthur, TX | NDT Data Review",
+  "title": "NDT Report Validation in Beaumont–Port Arthur, TX | Level III",
   "description": "Independent review of NDT reports and digital inspection data from Golden Triangle refineries, crackers and LNG export plants in Beaumont and Port Arthur.",
   "h1": "NDT report and inspection data review for the Golden Triangle: Beaumont, Port Arthur and Sabine Pass",
   "eyebrow": "Report validation: Beaumont–Port Arthur, Texas",
@@ -49,14 +49,49 @@
         "The table lists the record problems we expect most often from plants of different ages in this area, and the check that settles each one."
       ],
       "table": {
-        "head": ["Record type", "Typical source here", "Problem to expect", "Check that settles it"],
+        "head": [
+          "Record type",
+          "Typical source here",
+          "Problem to expect",
+          "Check that settles it"
+        ],
         "rows": [
-          ["Thickness history", "Refinery piping circuits and vessels with decades of surveys", "Readings moved to the wrong CML during renumbering or migration", "Trace a sample of database readings back to the original survey and drawing"],
-          ["Digitised film", "Radiograph archives from older units", "Scan resolution too coarse to show the image quality indicator", "Compare the digitised image with the procedure's image quality requirement"],
-          ["Construction weld record", "LNG trains and crackers at turnover", "Welds on isometrics missing from the weld database, or repairs without re-examination", "Reconcile database, isometrics and test packs before sampling images"],
-          ["Multi-contractor package", "Projects that changed contractor or used several NDT firms", "Different procedures and acceptance tables applied to the same line class", "Read every package against one procedure revision and code edition"],
-          ["Exchanger tube data", "Cracker quench and refinery exchanger bundles", "Calibration standard that does not match the tube material or wall", "Check the standard's certificate against the bundle drawing"],
-          ["Turnaround repair", "Refinery and cracker outages", "Final examination recorded against the original weld's procedure", "Match each repair to its own procedure, examination and personnel"]
+          [
+            "Thickness history",
+            "Refinery piping circuits and vessels with decades of surveys",
+            "Readings moved to the wrong CML during renumbering or migration",
+            "Trace a sample of database readings back to the original survey and drawing"
+          ],
+          [
+            "Digitised film",
+            "Radiograph archives from older units",
+            "Scan resolution too coarse to show the image quality indicator",
+            "Compare the digitised image with the procedure's image quality requirement"
+          ],
+          [
+            "Construction weld record",
+            "LNG trains and crackers at turnover",
+            "Welds on isometrics missing from the weld database, or repairs without re-examination",
+            "Reconcile database, isometrics and test packs before sampling images"
+          ],
+          [
+            "Multi-contractor package",
+            "Projects that changed contractor or used several NDT firms",
+            "Different procedures and acceptance tables applied to the same line class",
+            "Read every package against one procedure revision and code edition"
+          ],
+          [
+            "Exchanger tube data",
+            "Cracker quench and refinery exchanger bundles",
+            "Calibration standard that does not match the tube material or wall",
+            "Check the standard's certificate against the bundle drawing"
+          ],
+          [
+            "Turnaround repair",
+            "Refinery and cracker outages",
+            "Final examination recorded against the original weld's procedure",
+            "Match each repair to its own procedure, examination and personnel"
+          ]
         ]
       }
     },
@@ -86,13 +121,20 @@
       "p": [
         "Atlantis has no Golden Triangle office. The review is carried out remotely, from the offices in Houston and Hyderabad, on reports and files transferred securely, which suits plant archives as well as construction turnovers.",
         "You describe the asset, the method, the governing code and the decision the record supports; we reply within one business day with the scope, the named reviewer and a quote. Questions the record cannot answer come back to you in writing before conclusions are drawn. The written opinion classes each report as sound, deficient in documentation only, or deficient in disposition, and every finding cites the clause or procedure step and the document it rests on."
+      ],
+      "list": [
+        "The current report or turnover package, and the procedure revision it cites",
+        "For legacy histories, the original surveys or good scans of them, with the drawings in force at the time",
+        "Personnel certificates and written practices, for both contractors where a project changed hands",
+        "Calibration records and, for digital work, the raw image, scan or tube files",
+        "The rejection notice, audit finding or question that prompted the review"
       ]
     },
     {
       "h": "Who signs the opinion, and what stays with you",
       "p": [
         "An ASNT NDT Level III certified in UT, RT, MT, PT and VT leads reviews in those methods. For eddy current, IRIS or MFL data, the proposal names a reviewer holding the certification your contract requires. Reviewers on the team have backgrounds in oil and gas, petrochemical, nuclear and maritime inspection.",
-        "Fitness-for-service, remaining-life and rerating calculations stay with your engineer, and the inspector of record your program names keeps that responsibility. Atlantis does not review reports on work it performed and does not certify personnel. The review tells you what the existing record can carry; decisions on equipment remain the owner's."
+        "Fitness-for-service, remaining-life and rerating calculations stay with your engineer, and the inspector of record your program names keeps that responsibility. Atlantis never reviews reports on examinations it carried out itself, and certifying personnel is outside the service. The review tells you what the existing record can carry; decisions on equipment remain the owner's."
       ]
     }
   ],
@@ -127,15 +169,30 @@
     },
     {
       "q": "How do we get started?",
-      "a": "Send a description of the asset, the method, the code and what the review is for to info@atlantisndt.com or through the form. We reply within one business day with the scope and a quote."
+      "a": "Send a description of the asset, the method, the code and what the review is for to info@atlantisndt.com or through the form. A reply with the scope, the named reviewer and a quote follows within one business day."
     }
   ],
   "related": [
-    ["/inspection-services-texas", "Inspection services in Texas"],
-    ["/ndt-training-beaumont", "NDT training in Beaumont"],
-    ["/ndt-training-port-arthur", "NDT training in Port Arthur"],
-    ["/consulting/ndt-consulting-beaumont", "NDT consulting in Beaumont"],
-    ["/ultrasonic-testing-beaumont", "Ultrasonic testing in Beaumont"]
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/ndt-training-beaumont",
+      "NDT training in Beaumont"
+    ],
+    [
+      "/ndt-training-port-arthur",
+      "NDT training in Port Arthur"
+    ],
+    [
+      "/consulting/ndt-consulting-beaumont",
+      "NDT consulting in Beaumont"
+    ],
+    [
+      "/ultrasonic-testing-beaumont",
+      "Ultrasonic testing in Beaumont"
+    ]
   ],
   "sources": [
     "https://www.eia.gov/todayinenergy/detail.php?id=67807",
