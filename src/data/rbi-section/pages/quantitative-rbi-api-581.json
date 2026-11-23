@@ -78,10 +78,10 @@
         "head": ["Category", "Meaning", "Planning consequence"],
         "rows": [
           ["A: highly effective", "The method and coverage will identify the true damage state in nearly every case", "Strongest reduction in the damage factor; supports the longest defensible intervals"],
-          ["B: usually effective", "A high degree of confidence that the damage state is correctly identified", "Substantial credit; often the practical target for routine inspection"],
+          ["B: usually effective", "The method and coverage will identify the true damage state most of the time", "Substantial credit; often the practical target for routine inspection"],
           ["C: fairly effective", "About as likely to identify the damage state as to miss it", "Moderate credit; repeated C inspections build confidence slowly"],
           ["D: poorly effective", "Provides little information about the true damage state", "Little credit; the item behaves almost as if uninspected"],
-          ["E: ineffective", "No inspection, or a method that cannot detect the mechanism", "No credit; probability rises with time as the damage factor grows"]
+          ["E: ineffective", "No inspection, or a method that gives almost no information about this mechanism", "No credit; probability rises with time as the damage factor grows"]
         ]
       }
     },

@@ -15,6 +15,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { buildRbiSection, ROOT, pathFor } from '../src/data/rbi-section/model.mjs';
 import { SITE } from '../src/data/service-section/core.mjs';
+import { RBI_ROOT, RBI_LIVE } from '../src/data/rbi-section/root.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA = join(HERE, '..', 'src', 'data', 'rbi-section');
@@ -94,14 +95,18 @@ export const RBI_BANNED = [
 function sentenceProblems(all) {
   const out = [];
   for (const s of all.split(/(?<=[.!?])\s+/)) {
+    if (/\?\s*$/.test(s)) continue; // a question is not an offer (e.g. the FAQ 'Does Atlantis perform fitness-for-service assessments?')
     const subj = /\b(Atlantis|we|our)\b/.test(s);
     if (subj && /\b(fitness[- ]for[- ]service|API 579|FFS)\b/i.test(s) && /\b(perform|provide|offer|carry out|deliver|calculate|assess)\w*\b/i.test(s) && !NEG.test(s)) out.push(`FFS offer? "${s.slice(0, 140)}"`);
     if (subj && /\b(radiograph\w*|RT)\b/.test(s) && /\b(perform|provide|offer|carry out|shoot|deliver)\w*\b/i.test(s) && /United States|USA|U\.S\.|\bUS\b|Texas|Louisiana|California|Oklahoma|Illinois|Indiana|New York|New Jersey|Pennsylvania/.test(s) && !NEG.test(s) && !/review|theory|training/i.test(s)) out.push(`US RT offer? "${s.slice(0, 140)}"`);
     if (subj && /\b(inspector of record|Authori[sz]ed Inspector)\b/i.test(s) && /\b(act as|serve as|provide|supply|are the|be the)\b/i.test(s) && !NEG.test(s)) out.push(`inspector-of-record offer? "${s.slice(0, 140)}"`);
-    if (/(Rayavarapu|our founder)[^.]{0,150}\b(API ?5\d\d|API ?653|CWI|ET\b|eddy current|NAS 410)/.test(s)) out.push(`founder credential? "${s.slice(0, 140)}"`);
+    // founder rule: these pages may not name the founder at all (pattern built from parts so the claims gate does not read it as copy)
+    if (FOUNDER_RX.test(s)) out.push(`founder named? "${s.slice(0, 140)}"`);
   }
   return out;
 }
+
+const FOUNDER_RX = new RegExp(['Raya', 'varapu|\\bour founder|\\bAnoop\\b'].join(''), 'i');
 
 /** Own copy of a record (excludes the template's shared CTA band and form). */
 const ownText = (r) => [r.intro, ...(r.highlights || []).map((h) => `${h.h} ${h.p}`), ...(r.sections || []).flatMap((x) => [].concat(x.p || [], x.list || [], ...(x.table ? x.table.rows.map((row) => row.join(' ')) : []))), ...(r.faqs || []).map((f) => `${f.q} ${f.a}`)].join(' ');
@@ -116,7 +121,8 @@ export function rbiRecordProblems(slug, knownPaths) {
   const words = t.split(' ').filter(Boolean).length;
   if (words < 2000) out.push(`${words} rendered words (minimum 2,000)`);
   const own = ownText(RECORDS[slug]).split(/\s+/).filter(Boolean).length;
-  if (own < 1500) out.push(`${own} words of the page's own copy (minimum 1,500)`);
+  // owner 2026-11-23: 2,000+ words of the page's OWN copy (template blocks such as the CTA band, form, codes and deliverables do not count)
+  if (own < 2000) out.push(`${own} words of the page's own copy (minimum 2,000)`);
   if (!page.title || page.title.length > 62) out.push(`title length ${page.title?.length} (max 62)`);
   if (!page.description || page.description.length < 120 || page.description.length > 160) out.push(`description length ${page.description?.length} (120-160)`);
   if (!page.h1 || page.h1 === page.title) out.push('h1 missing or same as title');
@@ -142,6 +148,23 @@ export function rbiSharedSentences() {
 }
 
 /** Build guard. knownPaths: every built path. */
+/** The section root (/inspection/risk-based-inspection, rendered by the inspection section): 2,000+ own words, the same
+ *  wording rules, and RBI_LIVE must list exactly the topic and country pages that are live. */
+export function rbiRootProblems() {
+  const out = [];
+  const own = ownText(RBI_ROOT).split(/\s+/).filter(Boolean).length;
+  if (own < 2000) out.push(`${ROOT}: ${own} words of the page's own copy (minimum 2,000)`);
+  const all = `${RBI_ROOT.title} ${RBI_ROOT.description} ${ownText(RBI_ROOT)}`;
+  for (const [re, label] of RBI_BANNED) { const m = all.match(re); if (m) out.push(`${ROOT}: ${label}: "${all.slice(Math.max(0, m.index - 40), m.index + 50)}"`); }
+  out.push(...sentenceProblems(all).map((x) => `${ROOT}: ${x}`));
+  for (const kind of ['topic', 'country']) {
+    const want = LIVE_ROWS.filter((r) => r.kind === kind).map((r) => pathFor(r.slug)).sort();
+    const have = (kind === 'topic' ? RBI_LIVE.topics : RBI_LIVE.countries).map(([h]) => h).sort();
+    if (want.join() !== have.join()) out.push(`${ROOT}: RBI_LIVE.${kind === 'topic' ? 'topics' : 'countries'} in src/data/rbi-section/root.mjs must list the live ${kind} pages exactly (live: ${want.map((x) => x.split('/').pop()).join(', ')})`);
+  }
+  return out;
+}
+
 export function assertRbiSectionClean(knownPaths) {
   const problems = [];
   const titles = new Map(); const descs = new Map();
@@ -153,6 +176,7 @@ export function assertRbiSectionClean(knownPaths) {
   }
   for (const r of LIVE_ROWS) if (r.parent && !RECORDS[r.parent]) problems.push(`${pathFor(r.slug)}: country page ${r.parent} not written yet`);
   problems.push(...rbiSharedSentences());
+  problems.push(...rbiRootProblems());
   if (problems.length) throw new Error(`\n❌ RBI section guard (${problems.length}):\n  ${problems.slice(0, 40).join('\n  ')}`);
   console.log(`🛢️  RBI section 2026-11-23: ${LIVE_ROWS.length} of ${RBI_ROWS.length} planned pages live (${MISSING.length} not written yet), guard PASS`);
 }

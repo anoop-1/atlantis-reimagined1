@@ -72130,7 +72130,7 @@
         [
           "Internal inspection",
           "API 653 Authorized Inspector",
-          "Initial within 10 years; thereafter not exceeding 20 years; 30 years is the absolute ceiling under a documented RBI assessment",
+          "Initial within 10 years where the bottom corrosion rate is unknown; later intervals from the corrosion rate within the code's fixed maximum, or set by a validated RBI assessment that is reviewed at least every 10 years",
           "API 653 Sections 6.4.2 and 6.4.3"
         ],
         [
@@ -72167,7 +72167,7 @@
       },
       {
         "q": "How often must a tank be opened for internal inspection?",
-        "a": "API 653 Section 6.4 sets the initial internal inspection within 10 years of service where the soil-side corrosion rate is unknown, and thereafter an interval not exceeding 20 years. A risk-based inspection assessment under Section 6.4.3 can extend that, with 30 years as the absolute ceiling. An RBI-extended interval must be documented, reviewed by qualified personnel and reassessed — the missing reassessment is what auditors find."
+        "a": "API 653 Section 6.4 sets the initial internal inspection within 10 years of service where the soil-side corrosion rate is unknown, and thereafter an interval not exceeding 20 years. A risk-based inspection assessment can set the interval instead, and for later inspections the current edition puts no fixed year limit on it, but the assessment must be documented, validated and reviewed at least every 10 years — the missing review is what auditors find."
       },
       {
         "q": "Does a cathodic protection system remove the need to inspect the bottom?",
@@ -72203,7 +72203,7 @@
         "heading": "Inspection intervals: the numbers come from API 653",
         "paragraphs": [
           "The routine in-service external inspection is a visual walk-down by owner-operator personnel, and it does not require a certified inspector. Most operators run it monthly. It is not a substitute for the formal external inspection, which must be performed by an API 653 Authorized Inspector at an interval not exceeding the lesser of 5 years or RCA/4N years, where RCA is the remaining corrosion allowance on the shell and N is the shell corrosion rate. Ultrasonic thickness measurement of the shell follows its own clock under Section 6.3.3: the lesser of RCA/2N or 15 years where the corrosion rate is established, and 5 years where it is not.",
-          "Internal inspection is the expensive one and therefore the one under permanent commercial pressure. API 653 Section 6.4 requires the initial internal inspection within 10 years where the soil-side corrosion rate is unknown, and caps subsequent intervals at 20 years. A risk-based inspection assessment under Section 6.4.3 can push that further, to an absolute ceiling of 30 years, but the assessment has to be documented, performed by qualified personnel, and reassessed on a defined cycle. The recurring finding is not that an owner extended an interval — it is that the extension was granted once, in a study dated eleven years ago, and never revisited.",
+          "Internal inspection is the expensive one and therefore the one under permanent commercial pressure. API 653 Section 6.4 requires the initial internal inspection within 10 years where the soil-side corrosion rate is unknown, and caps subsequent intervals at 20 years. A risk-based inspection assessment can set a longer interval, and for later inspections the current edition puts no fixed year limit on it, but the assessment has to be documented, carried out by people knowledgeable in risk assessment, validated, and reviewed at least every 10 years. The recurring finding is not that an owner extended an interval — it is that the extension was granted once, in a study dated eleven years ago, and never revisited.",
           "Every one of those intervals is computed from thickness data, and that is where programmes quietly fail. If a corrosion rate is derived from readings taken at locations that cannot be reproduced — no permanent marking, no condition monitoring location map, no photograph — then the rate is arithmetic without provenance and the interval built on it collapses under questioning. Keeping location, date, procedure revision, equipment and technician bound to each reading is a data-management problem before it is an inspection problem, and it is precisely what [mechanical integrity software](/mechanical-integrity-software) exists to solve."
         ]
       },
@@ -72235,7 +72235,7 @@
         "heading": "The misreadings that turn into audit findings",
         "paragraphs": [
           "First, citing API 575 as the inspection code. It is a recommended practice; write API 653 on the report and cite 575 as supporting practice. Second, applying the general bottom minimum thickness inside the critical zone. Third, treating the monthly routine external walk-down as satisfying the formal external inspection — it does not, because that inspection must be performed by an API 653 Authorized Inspector against Section 6.3.2 and recorded as such.",
-          "Fourth, extending an internal inspection interval by risk-based inspection and then never reassessing it. The 30-year ceiling is not a licence; it is the outer bound on a live assessment that has to be maintained. Fifth, deriving corrosion rates from condition monitoring locations that were never permanently marked, which makes every subsequent interval calculation unverifiable. Sixth, and increasingly common, accepting an MFL coverage claim without a coverage map or an Annex G procedure qualification behind it.",
+          "Fourth, extending an internal inspection interval by risk-based inspection and then never reassessing it. An RBI interval is not a licence; it holds only while the assessment behind it is kept current. Fifth, deriving corrosion rates from condition monitoring locations that were never permanently marked, which makes every subsequent interval calculation unverifiable. Sixth, and increasingly common, accepting an MFL coverage claim without a coverage map or an Annex G procedure qualification behind it.",
           "The seventh is quieter and does more damage than the rest. An owner assumes that because a cathodic protection system was installed, soil-side corrosion is controlled and the bottom corrosion rate is near zero. API 651 expects an annual structure-to-electrolyte potential survey — normally a −850 mV instant-off criterion against a copper/copper-sulphate reference, or 100 mV of polarisation — plus rectifier output readings at least every two months. Finding a rectifier that has been off since the last turnaround does not just generate a finding; it invalidates the corrosion-rate assumption every interval in the programme was built on."
         ]
       }

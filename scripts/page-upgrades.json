@@ -4437,7 +4437,7 @@
       {
         "heading": "How API RP 580 interacts with API 510, 570 and 653",
         "paragraphs": [
-          "The referencing code is what gives API RP 580 force, and each one applies it differently. API 510 permits the internal or on-stream inspection interval for a pressure vessel — otherwise the lesser of half the remaining corrosion life or ten years — to be set by RBI instead. API 570 permits piping thickness measurement and external visual intervals, which default by piping class with Class 1 thickness readings at five years, to be set by RBI. API 653 permits the tank internal inspection interval, otherwise capped at twenty years, to be extended by RBI, subject to the code's own absolute ceiling of thirty years.",
+          "The referencing code is what gives API RP 580 force, and each one applies it differently. API 510 permits the internal or on-stream inspection interval for a pressure vessel — otherwise the lesser of half the remaining corrosion life or ten years — to be set by RBI instead. API 570 permits piping thickness measurement and external visual intervals, which default by piping class with Class 1 thickness readings at five years, to be set by RBI. API 653 permits the tank internal inspection interval, otherwise set from the bottom corrosion rate within a fixed maximum, to be set by RBI instead, provided the assessment is validated and reviewed at least every ten years.",
           "This asymmetry matters when a single RBI study spans vessels, piping and tanks. The study will produce a risk-driven due date for each item, but the code the item is inspected under may refuse it. A tank whose RBI supports a thirty-five-year interval still gets thirty. A vessel whose RBI supports twenty-two years still needs the assessment to satisfy API 510's own requirements for RBI-based intervals, including reassessment. Software will happily emit the unconstrained date, and the constrained date is the one you are audited against.",
           "The other interaction people miss is directional. RBI can extend an interval; it can also shorten it, and the referencing code does not protect you from that. If the assessment identifies an active mechanism the historic programme was not looking for — say ammonium chloride corrosion at a specific dew point location — the resulting plan may require an examination well inside the code default, at a location the old plan never had a CML on. Ignoring a risk-driven shortening while banking the extensions is indefensible, and it is visible in the data."
         ]
@@ -4747,7 +4747,7 @@
         [
           "Internal inspection, corrosion rate known or risk-based assessment applied",
           "API 653 authorised inspector, with an RBI assessment team where used",
-          "20 years, an absolute ceiling that no assessment overrides",
+          "From the corrosion rate within the code's fixed maximum, or by a validated RBI assessment reviewed at least every 10 years (no fixed year limit on later RBI intervals)",
           "Sections 6.4.2 and 6.4.3, informed by API 580 and API 581"
         ],
         [

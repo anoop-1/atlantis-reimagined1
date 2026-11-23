@@ -1,0 +1,478 @@
+{
+  "/standards/api-650-weld-acceptance-criteria": [
+    {
+      "fact": "Edition: API 650 13th Edition, March 2020, with Errata 1 (January 2021), as listed on API's March 2026 API 653 publications effectivity sheet; API 653 5th Edition with Addenda 1-3. Reviewer: the March 2027 effectivity sheet lists API 650 14th Edition (August 2025) and API 653 5th Edition with Addenda 1 (Apr 2018), 2 (May 2020), 3 (Nov 2023), 4 (Jul 2025), Errata 1 (Mar 2020), 2 (Feb 2025)",
+      "url": "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/653/2026 files/March 2026_653_Publications Effectivity sheet_final.pdf"
+    },
+    {
+      "fact": "Annex T (12th edition) acceptance references: RT UW-51(b); MT Appendix 6 paras 6-3, 6-4, 6-5; PT Appendix 8 paras 8-3, 8-4, 8-5; UT in lieu of RT Annex U (U.6.6); vacuum box 8.6; visual 8.5; MT/PT/VB/penetrating-oil options for shell-to-bottom weld; bottom welds VB, tracer gas or water test; reinforcing plate air test 100 kPa (15 lbf/in2); RT not required for Annex A, J, S tanks at E = 0.7; annular plate, flush-type connection, openings and insert plate RT; UT in lieu of RT with Purchaser approval",
+      "url": "https://pdfcoffee.com/api-650-2016-12th-annex-t-pdf-free.html"
+    },
+    {
+      "fact": "Spot RT pattern by thickness (<=10 mm, >10-25 mm, >25 mm), bottom-course spots, horizontal first 3 m spot; RT reinforcement 1.5/2.5/3 mm by 13 and 25 mm bands; visual reinforcement vertical 2.5/3/5 mm and horizontal 3/5/6 mm; undercut 0.4 mm and 0.8 mm groups; porosity one cluster per 100 mm, cluster <= 2.5 mm; two adjacent spots on failure; vacuum box 21-35 kPa and 56-70 kPa, 50 mm overlap, 4-52 C, 1000 lux, 5 s, manufacturer's written procedure; tracer gas 1e-4 Pa m3/s (API 653 BOK flashcard deck summarising API 650 Section 8; secondary source)",
+      "url": "https://brainscape.com/flashcards/api-650-section-8-methods-of-examining-j-7020816/packs/10963725"
+    },
+    {
+      "fact": "8.1.2.2 one in first 3 m and one in each 30 m thereafter; 25% at intersections; 8.1.2.6 equal number of spots from each welder (forum quotes)",
+      "url": "https://groups.google.com/g/materials-welding/c/4PGeez3g1cc/m/EZjGHDlKAgAJ"
+    },
+    {
+      "fact": "Undercut 0.4 mm (1/64 in.) vertical joints and 0.8 mm (1/32 in.) horizontal butt joints in the 10th edition (para. 5.2.1.4, forum quote)",
+      "url": "https://hghouston.com/discussion-forums/forumid/6/postid/2440/scope/posts/re-acceptance-level-differences-on-depth-of-undercut-p"
+    },
+    {
+      "fact": "Vacuum box acceptance: stream or cluster of growing bubbles = through-thickness leak; repad test 15 psig (100 kPa); telltale hole left open; ASME V Article 10 for technique",
+      "url": "https://open-exam-prep.com/study-guides/api-653/hydrostatic-testing-post-repair-exam/leak-testing-vacuum-box-tracer-gas"
+    },
+    {
+      "fact": "From standard knowledge, not quoted by a fetched source — reviewer to confirm: continuation of adjacent spots until limits found or replacement of the welder's work on the joint; repairs re-radiographed; 8.5 rejects cracks/crater cracks and arc strikes; UT not in lieu of RT judged to criteria agreed by Purchaser and Manufacturer; UW-51(b) content (cracks, incomplete fusion/penetration, elongated, aligned, rounded via Appendix 4) described without numbers; MT to Section V Art. 7 and PT to Art. 6. Reviewer: penetrating-oil \"where approved\" qualifier removed (not verified)",
+      "url": "not fetched"
+    },
+    {
+      "fact": "Reviewer: API 650 14th Edition (August 2025); API 653 5th Edition Nov 2014 with Addenda 1-4 and Errata 1-2 (March 2027 effectivity sheet)",
+      "url": "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/653/2026 files/March 2027_653_Publications Effectivity sheet_final.pdf"
+    },
+    {
+      "fact": "Reviewer: lowest course - one random spot in EACH vertical joint (<=10 mm), two spots in each vertical joint (10-25 mm); tracer gas 1e-4 Pa m3/s (1e-3 std cm3/s); vacuum box values; RT and visual reinforcement values",
+      "url": "https://brainscape.com/flashcards/api-650-section-8-methods-of-examining-j-7020816/packs/10963725"
+    },
+    {
+      "fact": "Reviewer (primary text, 10th edition 1998 with Addenda to 2001): reinforcement plates tested by applying UP TO 100 kPa (15 lbf/in2) gauge, soap film, linseed oil or similar (5.3.4); one random spot in each vertical joint in the lowest course; horizontal joints one spot in each additional 60 m (200 ft) approximately; plates over 25 mm fully radiographed; undercut 0.4 mm vertical / 0.8 mm horizontal (5.2.1.4)",
+      "url": "https://ia800909.us.archive.org/1/items/API6502002/API%20650%20-%202002.pdf"
+    }
+  ],
+  "/standards/asme-b31-1-acceptance-criteria": [
+    {
+      "fact": "B31.1-2016 136.4.1: Table 136.4 sets mandatory types and extent; welds not requiring RT, UT, MT or PT acceptable on visual (136.4.2) and pressure test (para. 137); NDE for P-Nos. 3, 4, 5A, 5B and 15E after PWHT, others before or after; 136.4.2 visual per Section V Article 9, in-process examination, acceptance list (cracks, undercut 1/32 in. (1.0 mm) or encroaching on minimum wall, any undercut on longitudinal butt welds, reinforcement per Table 127.4.2, surface lack of fusion, incomplete penetration where inside surface readily accessible, linear indications over 3/16 in. (5.0 mm), surface porosity over 3/16 in. or four or more separated by 1/16 in. (2.0 mm) or less); Table 136.4 columns (over 750°F (400°C) all pressures; 350-750°F (175-400°C) with over 1,025 psig; all others), rows (butt; branch; fillet, socket, attachment, seal), thresholds (RT or UT over NPS 2, thickness over 3/4 in. (19.0 mm); branch over NPS 4; MT or PT NPS 4 and smaller), general notes (all welds visual, acceptance 136.4.2 to 136.4.6, 100% volumetric for longitudinal and spiral welds in pipe for creep-range service), notes (thicker abutting end after preparation, RT may substitute for MT or PT, branch volumetric before non-integral reinforcement, fillet welds 1/4 in. (6 mm) throat or less for non-pressure attachments exempt from MT/PT). Cell-to-column mapping taken from a scrambled extract; verify.",
+      "url": "https://studylib.net/doc/27116757/asme-b31.1-2016ed--v.t-%EC%8B%9C%ED%97%98-%EC%A1%B0%EA%B1%B4"
+    },
+    {
+      "fact": "B31.1 visual: cracks on external surface unacceptable; undercut exceeding 1/32 in. (1.0 mm) or encroaching on minimum required section thickness unacceptable; linear indications over 3/16 in. (5.0 mm) unacceptable",
+      "url": "https://www.materialwelding.com/acceptance-criteria-for-welding-defects/"
+    },
+    {
+      "fact": "B31.1 PT acceptance: crack or linear indication; rounded indications over 3/16 in. (5.0 mm); four or more in a line separated by 1/16 in. (2.0 mm) or less edge to edge; ten or more in any 6 sq in. (3 870 mm2) with major dimension not exceeding 6 in. (150 mm); Section VIII entry has no ten-in-6-sq-in criterion",
+      "url": "https://aqcinspection.com/?p=4452"
+    },
+    {
+      "fact": "B31.3 para. 341.3.4 progressive sampling: two additional samples when one fails, further steps after",
+      "url": "https://uploads-ssl.webflow.com/6005ddde9a96c42cb7dbbdce/60130a59d863a76c1bd5e607_Progressive%20Weld%20Sampling%20for%20ASME%20Piping%20and%20Vessels.pdf"
+    },
+    {
+      "fact": "B31.1 136.1 owner's inspector not an employee of manufacturer, fabricator or erector; Table 136.4 a floor raised by engineering design; boiler external piping administered under Section I",
+      "url": "existing site page /standards/asme-b31-1"
+    },
+    {
+      "fact": "Section VIII Division 1 Appendices 6 and 8 print 1/16 in. as 1.5 mm and have no area rule",
+      "url": "existing site record /standards/asme-pt-mt-acceptance-criteria"
+    },
+    {
+      "fact": "Reviewer check 2026-11-23 of the B31.1-2016 extract: 136.4.1 NDE for P-Nos. 3, 4, 5A, 5B and 15E after PWHT unless directed otherwise by engineering design; 136.4.2(A) visual list incl. (A.3) undercut on the surface of longitudinal butt welds; Table 136.4 General Note (a) visual for all welds, (f) 100% volumetric for longitudinal and spiral welds in creep-range pipe; Notes (1) thicker abutting end, (2) RT alternative to PT or MT, (3) branch volumetric before nonintegral reinforcement, (4) surface examination in lieu of volumetric for welded branch connections; Table cells scrambled in the extract (1/4 in. throat exemption note not visible there)",
+      "url": "https://studylib.net/doc/27116757/asme-b31.1-2016ed--v.t-%EC%8B%9C%ED%97%98-%EC%A1%B0%EA%B1%B4"
+    },
+    {
+      "fact": "B31.1-2018 Table 136.4: fillet/socket welds in service above 750F (400C) require MT or PT; all other service VT",
+      "url": "https://industrialmonitordirect.com/blogs/knowledgebase/asme-b311-socket-weld-nde-requirements-rt-vs-ptmtvt"
+    },
+    {
+      "fact": "46 CFR 56.95-10(a): piping NDE in accordance with Table 136.4 of ASME B31.1",
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-F/part-56/subpart-56.95/section-56.95-10"
+    },
+    {
+      "fact": "B31.1 RT (Sulzer attachment 6): cracks, lack of fusion, incomplete penetration zero; elongated 1/3t for 19 mm < t <= 57 mm with cumulative t in 12t; rounded indications per Section I A-250; root concavity assessed where there is an abrupt change in density (reviewer check 2026-11-23)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    }
+  ],
+  "/standards/asme-b31-3-acceptance-criteria": [
+    {
+      "fact": "Table 341.3.2 slag/tungsten/elongated indication criteria: Tw/3, 3/32 in. and Tw/3, Tw in 12Tw; 2Tw, 1/8 in. and Tw/2, 4Tw in 6 in. (forum post quoting the table)",
+      "url": "https://groups.google.com/g/materials-welding/c/AQHivkCzLGo"
+    },
+    {
+      "fact": "Reviewer confirmed: tighter slag set (Tw/3; 3/32 in. and Tw/3; Tw in 12Tw) is the severe cyclic criterion; Normal and Category M column uses the 2Tw / 1/8 in. and Tw/2 / 4Tw in 6 in. set (Sulzer TP-0008 Rev. 10, Aug 2024, Attachments 4 and 5; its Normal individual-length cell is garbled in extraction, so the 2Tw value rests on the forum quotation)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "2014 edition: no maximum depth of incomplete penetration on girth welds; Note 7 deleted; depth not measurable by RT on tightly butted roots; root concavity judged by radiographic density",
+      "url": "https://www.eng-tips.com/threads/asme-b31-3-2014-depth-of-incomplete-penetration.414291"
+    },
+    {
+      "fact": "Interpretation 13-16 (B31.3-1993a): one-side root non-penetration is incomplete penetration per Fig. 341.3.2 sketch (c), not lack of fusion; 1.5 in. of IP in 6 in. of girth weld in Normal Fluid Service",
+      "url": "https://eng-tips.com/threads/asme-b31-3-acceptance-criteria-for-welds.326321"
+    },
+    {
+      "fact": "Reinforcement 1/16, 1/8, 5/32, 3/16 in. by thickness bands 1/4, 1/2, 1 in.; root concavity total joint thickness not below nominal of thinner component (LANL procedure attachment implementing B31.3). Reviewer: its undercut wording (1/32 in., not encroaching on minimum section) is LANL/B31.1-style wording, not the B31.3 Table 341.3.2 criterion, and is no longer used on this page",
+      "url": "https://engstandards.lanl.gov/esm/welding/vol2/WFP 2-01-Att-2-R1.pdf"
+    },
+    {
+      "fact": "Root concavity criterion: total joint thickness incl. reinforcement >= nominal wall thickness (forum quoting the table, 1996/2004 editions)",
+      "url": "https://app.aws.org/forum/topic_show.pl?pid=41454"
+    },
+    {
+      "fact": "B31 Case 181-2 (4 Jan 2012): owner-specified alternative UT acceptance for welds >= 25 mm (1.0 in.); automated/semi-automated computer-based data acquisition; mechanical scanner; unprocessed data, no thresholding; Section V Art. 4 App. IX qualification; h/t and aspect-ratio tables; length <= 4t; thinner walls use 344.6.2",
+      "url": "https://www.slideshare.net/slideshow/code-case-181/78480947"
+    },
+    {
+      "fact": "Table title 'Acceptance Criteria for Welds — Visual and Radiographic Examination' (search result title)",
+      "url": "https://www.scribd.com/document/465261134/ASME-B31-8-docx"
+    },
+    {
+      "fact": "341.4.1 Normal: random RT/UT >= 5% of circumferential butt and miter groove welds, sample includes each welder; 341.4.3 severe cyclic 100% RT/UT plus MT/PT of socket and branch welds not radiographed; Category D visual only; Category M larger sample; 341.3.4 two additional welds then two more for each failure (existing technically reviewed site pages)",
+      "url": "/blog/asme-b31-3-process-piping-requirements and /blog/asme-b31-3-process-piping-code-explained"
+    },
+    {
+      "fact": "API 570 cautions that applying B31.3 workmanship radiography criteria to in-service welds may not be appropriate (existing site page)",
+      "url": "/blog/asme-b31-3-process-piping-requirements"
+    },
+    {
+      "fact": "Normal and Category M share a column (Sulzer attachment title \"Normal & Category M Fluid Service\"); Tw = nominal wall of thinner component; 344.6.2 linear-type discontinuity above reference level with thickness-stepped length limit",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "Reviewer: Table 341.3.2 Normal and Category M girth/miter/branch: incomplete penetration <= 38 mm (1.5 in.) in any 150 mm (6 in.) or 25% of total weld length, whichever is less (no depth); rounded indications per VIII-1 Appendix 4 for Tw <= 6 mm, 1.5x for Tw > 6 mm; undercut <= 1 mm (1/32 in.) and <= Tw/4; longitudinal groove: IP and undercut zero. Severe cyclic: cracks, LOF, IP, undercut, surface porosity zero; rounded per Appendix 4; slag Tw/3, 2.5 mm (3/32 in.) and Tw/3, Tw in 12Tw; surface roughness <= 500 microin. Ra per ASME B46.1; concavity total joint >= Tw; reinforcement 1.5/3/4/5 mm by Tw bands",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "Reviewer: criterion E definition: Tw <= 6 mm same as D (Appendix 4); Tw > 6 mm 1.5 x D",
+      "url": "https://www.eng-tips.com/threads/asme-b31-3.342432"
+    },
+    {
+      "fact": "Reviewer: B31.3-2022 contains Appendix R \"Use of Alternative Ultrasonic Acceptance Criteria\"; Table K341.3.2 for Chapter IX",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "Reviewer (code knowledge, not fetched): 341.4.3 severe cyclic 100% RT of circumferential butt, miter and fabricated branch welds comparable to Fig. 328.5.4E, or 100% UT if specified in the engineering design; Category D column contents not verified, so the page no longer says internal imperfections play no part",
+      "url": "not fetched"
+    }
+  ],
+  "/standards/asme-section-i-acceptance-criteria": [
+    {
+      "fact": "Section I permits UT in place of RT by Code Cases 2235, 2816 or PW-52.1; Code Case 2235-13 para. (d) and Code Case 2816 para. (d) require automatic computer-based data acquisition; PW-52.1 references Section V Article 4 Mandatory Appendix VII, VII-431 automated or semi-automated scanning with computer-based data acquisition and analysis; code cases fracture-mechanics-based, PW-52.1 workmanship-based acceptance; manual UT not permitted as primary technique except PW-44.7.3 bimetallic tubing when clad strength is included; Section V Article 1 Mandatory Appendix I SAUT/AUT recording with integral encoding; Section VIII UW-51(a)(4) to Division 2 7.5.5",
+      "url": "https://news.thomasnet.com/companystory/ultrasonic-examination-in-lieu-of-radiographic-examination-for-asme-sections-i-and-viii-division-1-and-2-40004582"
+    },
+    {
+      "fact": "Table PW-11 (Section I, 2017): all longitudinal welds volumetrically examined throughout their entire length; longitudinal butt weld includes longitudinal and spiral welded butt joints in drums, shells, headers, pipes and tubes; General Notes may provide exemptions",
+      "url": "https://www.eng-tips.com/threads/volumetric-examination-requirement-for-asme-section-i.442560"
+    },
+    {
+      "fact": "46 CFR 52.05-20 modifies PW-11 and PW-41.1: boiler parts of pipe material containing only circumferentially welded butt joints examined as required by 46 CFR 56.95-10",
+      "url": "https://www.law.cornell.edu/cfr/text/46/52.05-20"
+    },
+    {
+      "fact": "46 CFR 56.95-10(c)(1): 100 percent radiography of butt welds follows PW-51 of ASME Section I (PW-51 is the Section I radiographic acceptance paragraph)",
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-F/part-56/subpart-56.95/section-56.95-10"
+    },
+    {
+      "fact": "Boiler external piping: B31.1 technical rules, Section I certification and Authorized Inspector; PG-58 boundary",
+      "url": "existing site pages /standards/asme-b31-1 and /blog/asme-b31-1-power-piping-code-explained"
+    },
+    {
+      "fact": "Division 1 vessel boundary at first circumferential joint or flange face (U-1(e)); UW-12 joint efficiency drives RT extent",
+      "url": "existing site record /standards/asme-section-viii-div-1"
+    },
+    {
+      "fact": "Reviewer check 2026-11-23: Section I permits UT in place of RT by Code Cases 2235, 2816 or PW-52.1; code cases fracture-mechanics based; PW-52.1 references Section V Article 4 Mandatory Appendix VII (workmanship based); CC 2235-13(d) automatic computer-based data acquisition (the article does not quote CC 2816 para. (d)); manual UT not the primary technique except PW-44.7.3 bimetallic tubing; UW-51(a)(4) to Division 2 7.5.5",
+      "url": "https://news.thomasnet.com/companystory/ultrasonic-examination-in-lieu-of-radiographic-examination-for-asme-sections-i-and-viii-division-1-and-2-40004582"
+    },
+    {
+      "fact": "46 CFR 56.95-10(c)(1)(i): the procedure for 100 percent radiography is as indicated in PW-51 of Section I; (a) NDE per Table 136.4 of B31.1 (reviewer check 2026-11-23)",
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-F/part-56/subpart-56.95/section-56.95-10"
+    },
+    {
+      "fact": "Section I Appendix A-250 rounded-indication standard (relevance sizes, 1/4t or 5/32 in. maximum, isolated limits, aligned t in 12t, clusters) (reviewer check 2026-11-23)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    }
+  ],
+  "/standards/asme-section-viii-acceptance-criteria": [
+    {
+      "fact": "UW-51(a) technique per Section V Article 2 and IQI/density evidence; UW-51(a)(4) UT alternative where the thinner member is 1/4 in. (6 mm) and greater; UW-51(b) cracks/incomplete fusion or penetration, elongated 1/4 in. / 1/3t / 3/4 in. by thickness, aligned aggregate t in 12t with 6L separation, rounded per Appendix 4; repairs per UW-38 with UT per Appendix 12 at the Manufacturer's option, user's concurrence over 1 in. (25 mm), noted under Remarks on the Data Report; UW-52 one spot per 50 ft increment for column (b) efficiency, Inspector selects after increment completed, spot RT is a quality-control aid that does not guarantee quality throughout (2019 edition text, marker 19)",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "UW-51 elongated limits and aligned 12t/6L rule; UW-52 minimum spot length 6 in. (150 mm); UW-52 slag limit 2/3t; rounded indications (Appendix 4 charts) not applied to spot RT; two additional (tracer) spots, increment rejected if either fails; sampling separately for each welder or welding operator; RT 1 to RT 4 designations under UG-116",
+      "url": "https://open-exam-prep.com/study-guides/api-510/asme-fabrication-and-welds/radiographic-examination-rules"
+    },
+    {
+      "fact": "UW-52(b)(1) one spot per 50 ft (15 m) increment; UW-52(c) minimum spot length 6 in. (150 mm); UW-52(d)(2) two additional spots in the same increment; increment rejected if additional spots fail; defective item repaired and re-examined when they pass; B31.3 341.3.4 progressive sampling for contrast",
+      "url": "https://uploads-ssl.webflow.com/6005ddde9a96c42cb7dbbdce/60130a59d863a76c1bd5e607_Progressive%20Weld%20Sampling%20for%20ASME%20Piping%20and%20Vessels.pdf"
+    },
+    {
+      "fact": "Appendix 4 relevance sizes: T/10 under 1/8 in., 1/64 in. for 1/8 to 1/4 in. inclusive, 1/32 in. over 1/4 to 2 in., 1/16 in. over 2 in.; Appendix 12: cracks, lack of fusion, incomplete penetration unacceptable regardless of length, other indications above reference level limited to the UW-51 lengths (2017 edition as cited)",
+      "url": "https://www.materialwelding.com/acceptance-criteria-for-welding-defects/"
+    },
+    {
+      "fact": "Appendix 4 maximum rounded indication 1/4t or 5/32 in. (about 4 mm); isolated indication 1 in. (25 mm) or more from others may be 1/3t or 1/4 in. (6 mm); Table 4-1 isolated maximum 0.375 in. for t over 2 in.; aligned rounded indications sum less than t in 12t (Fig. 4-1); welds under 1/8 in.: maximum 12 rounded indications in 6 in.; clustered indications up to four times random concentration, cluster length not over the lesser of 1 in. or 2t; UW-52 slag or cavities unacceptable if longer than 2/3t (comparative chart, ASME VIII 2008a)",
+      "url": "https://pdfcoffee.com/download/rt-acceptance-criteria-pdf-free.html"
+    },
+    {
+      "fact": "Appendix 4, 4-3(f): charts represent maximum acceptable concentration limits; charts for each thickness range represent full-scale 6 in. (150 mm) radiographs and shall not be enlarged or reduced; distributions shown are not necessarily the patterns that appear",
+      "url": "https://www.eng-tips.com/threads/rounded-indication-acceptance-criteria.298476"
+    },
+    {
+      "fact": "UW-51(a)(4) UT must meet Section VIII Division 2 paragraph 7.5.5 (Certificate Holder needs Division 2); Section V Article 4 Mandatory Appendix VIII fracture-mechanics-based acceptance, VIII-431 automated or semi-automated scanning with computer-based data acquisition and analysis; Division 1 manual UT under Mandatory Appendix 12 (e.g. final closure seam) is not UT in lieu of RT",
+      "url": "https://news.thomasnet.com/companystory/ultrasonic-examination-in-lieu-of-radiographic-examination-for-asme-sections-i-and-viii-division-1-and-2-40004582"
+    },
+    {
+      "fact": "Practitioner reading: UW-52 slag/elongated indications greater than 2/3t rejectable; UW-51 vs UW-52 confusion on RT-4 vessels",
+      "url": "https://www.eng-tips.com/threads/interpretation-of-radiographs-uw-51-uw-52.79843"
+    },
+    {
+      "fact": "UW-35 finished joint requirements; Appendices 6 and 8 rule set; Division 1 vessel boundary",
+      "url": "existing site records /standards/asme-pt-mt-acceptance-criteria and /standards/asme-section-viii-div-1 (technically reviewed 2026-10)"
+    },
+    {
+      "fact": "UW-52(c) values confirmed against a 2023-edition-based procedure: slag/cavities unacceptable over 2/3t; under 1/4 in. (6 mm) acceptable for all thicknesses; over 3/4 in. (19 mm) unacceptable; in line acceptable when the sum of longest dimensions does not exceed t in 6t with 3L spacing; rounded indications not a factor; minimum spot length 6 in. (150 mm). Appendix 4 relevance sizes, 1/4t or 5/32 in. maximum, isolated 1/3t or 1/4 in. (3/8 in. over 2 in.), aligned t in 12t, clusters lesser of 1 in. or 2t, 12 indications in 6 in. below 1/8 in. (reviewer check 2026-11-23)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "UW-51(a)(2) density and IQI image as evidence of Article 2 compliance; UW-51(a)(4) UT alternative where the thinner member is 1/4 in. (6 mm) and greater; UW-51(b)(1)-(4) limits; defects repaired per UW-38, UT of repairs to Appendix 12 at the Manufacturer's option noted under Remarks on the Data Report (2019 text, reviewer check 2026-11-23). The user's-concurrence condition for material over 1 in. was not visible in the reviewer's extract; it is from the writer's reading and earlier editions",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "UW-51(a)(4) thinner member 0.250 in. or more in the 2023 edition",
+      "url": "https://www.onestopndt.com/ndt-articles/ultrasonic-testing-of-welds-asme-bpvc"
+    },
+    {
+      "fact": "Appendix 12: imperfections over 20% of the reference level investigated; report records repaired areas and reflections above 50% of the reference level",
+      "url": "https://www.scribd.com/doc/255966807/Asme-Sec-Viii-d1-Ma-App-12"
+    }
+  ],
+  "/standards/aws-d1-5-bridge-weld-acceptance-criteria": [
+    {
+      "fact": "D1.5M/D1.5:2025 is the 9th edition; supersedes the 8th edition (2020) and incorporates the 2023 and 2024 AASHTO interim revisions; Clauses 1-9 rules, Clauses 10 and 11 no provisions as D1.1 analogues not applicable, Clause 12 fracture-critical members; carbon and low-alloy steels; AASHTO or AREMA; SI and US units",
+      "url": "https://aashtojournal.transportation.org/new-joint-bridge-welding-code-edition-published/"
+    },
+    {
+      "fact": "2020 8.26.1.5: 0.01 in. transverse to tensile stress, 1/32 in. all other cases; repair by welding under 5.7.2.2; commentary favours light grinding. 2025 8.26.1.5: 0.01 in. (transverse to primary tensile stress, tension flanges, tension zones of webs, tension-side toe of transverse fillets), 1/8 in. (corners of stiffeners and connection plates), 1/16 in. elsewhere (generally replaces 1/32 in.); toe-by-toe assessment; Commentary Fig. C-8.1. 2025 5.7.2.5: grinding to smooth surface, net section not below 98% of nominal; transverse toes 1/32 in. (<=1 in. plate) to 1/8 in. (>2 in.), 1 in. plate example; parallel/compression <=1/8 in. after grinding; weld repair 5.7.2.5(2)",
+      "url": "https://www.aws.org/magazines-and-media/welding-digest/wd-july-2025--new-undercut-tolerances-and-treatments-in-the-2025-d15-bridge-welding-code/"
+    },
+    {
+      "fact": "Same article (Welding Journal version) confirming D1.5:2020 Clause 8.26.1.5 and the 2025 change",
+      "url": "https://www.aws.org/magazines-and-media/welding-journal/wj-june-25-feature-1-medlock-high-steel-structures-llc/"
+    },
+    {
+      "fact": "D1.5:2002 6.7.1: RT for all CJP welds in calculated tension or stress reversal; UT for CJP corner joints; RT or UT for CJP in compression or shear; 6.7.2 MT for fillet and PJP welds; Table 6.3 classes A-D, Class A rejected, Class D accepted, B and C length-limited, Class C top/bottom quarter shorter limit than middle half; RT: no cracks, volumetric discontinuities judged by length, weld size and spacing; Chapter 12 FCP for nonredundant members",
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/structures/04124/02.cfm"
+    },
+    {
+      "fact": "2020 revision: NDT content moved into the inspection clause; contractor performs NDT on welds to primary components of main members; methods and frequencies in a table; inspector selects partial-test locations after welding; Clause 12 Fracture Control Plan for Nonredundant Members (pending-revisions presentation, Jan 2020)",
+      "url": "https://nesmea.engr.uconn.edu/wp-content/uploads/sites/2933/2020/01/B-2-Horwhat-D1.5-Pending-Revisions-2020.pdf"
+    },
+    {
+      "fact": "D1.5:2020 Clause 12: FCM definition (12.2.2); base metal CVN at engineer's temperature; base metal inspected on arrival; consumables heat/lot tested, from programmes audited by ABS, LR or ASME; H4/H8/H16 for <=50 ksi (except SMAW electrodes); prequalified only SMAW with E7016, E7018, E7018-1, E8018-X; other WPS tested incl. CVN within a year of FCM production; ESW and EGW prohibited (12.5.2); FCP approved by engineer; hole-type IQI only on FCM RT; NDT technicians SNT-TC-1A Level II or III unless engineer accepts equivalent; lead inspector 3 years bridge experience, current/former CWI or acceptable to EOR, final determination of FCM acceptability",
+      "url": "https://www.aws.org/magazines-and-media/inspection-trends/it-feb-23-feat-01-pepper"
+    },
+    {
+      "fact": "NCHRP Research Report 908: D1.5 acceptance criteria not based on effect of discontinuities on fatigue and fracture performance; guidelines and proposed D1.5 modifications using enhanced UT including PAUT",
+      "url": "https://www.trb.org/Main/Blurbs/179270.aspx"
+    },
+    {
+      "fact": "D1.1 2020 cyclic undercut 0.01 in. transverse to tensile stress, 1/32 in. other; D1.1 UT rating d = a - b - c and Class A-D logic (existing technically reviewed site pages)",
+      "url": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide and /blog/aws-d1-1-ut-acceptance-criteria-explained"
+    },
+    {
+      "fact": "From code knowledge, not fetched — reviewer to confirm: separate UT tables for tension and compression welds; RT acceptance presented as charts with tension stricter than compression; D1.5 UT procedure is the code's own, not ASME Section V; D1.1 Clauses 10 and 11 are tubular structures and strengthening/repair of existing structures",
+      "url": "not fetched"
+    },
+    {
+      "fact": "Reviewer: D1.5:2025 9th edition, supersedes 2020, includes 2023/2024 interims; Clauses 10-11 no provisions; Clause 12 fracture-critical members (article does not use NSTM terminology)",
+      "url": "https://aashtojournal.transportation.org/new-joint-bridge-welding-code-edition-published/"
+    },
+    {
+      "fact": "Reviewer: confirmed 2020 8.26.1.5 values, 2025 tolerances (0.01, 1/8, 1/16 in.), 5.7.2.5 grinding (smooth, 98% net section, 1/32 to 1/8 in. by thickness, 1/8 in. parallel/compression), 2020 5.7.2.2 weld repair only, 1 in. plate example",
+      "url": "https://www.aws.org/magazines-and-media/welding-digest/wd-july-2025--new-undercut-tolerances-and-treatments-in-the-2025-d15-bridge-welding-code/"
+    },
+    {
+      "fact": "Reviewer: D1.1:2025 changes to undercut not confirmed by an accessible source (CEI summary says Table 8.1 undercut limits were updated; a CWI exam-prep summary of the 2025 edition lists the familiar 2020 values), so the page no longer says D1.1 revised its undercut rules in 2025",
+      "url": "https://info.thinkcei.com/think-tank/aws-d1.1-structural-code-requirements-2025-updates"
+    }
+  ],
+  "/standards/casting-ndt-acceptance-criteria": [
+    {
+      "fact": "E446 scope: up to 2 in. (50.8 mm); graded categories A, B, Ca, Cb, Cc, Cd at severity levels 1-5; D crack, E hot tear, F insert, G mottling ungraded; not intended for digital, use E2868; purchaser/manufacturer select by mutual agreement; E186/E280 for thicker; E446/E186 overlap, E186 levels may be used if agreed; adjunct radiographs valid regardless of production date",
+      "url": "https://www.astm.org/e0446-15.html"
+    },
+    {
+      "fact": "E280-21 title and scope: heavy-walled 4-1/2 to 12 in. (114 to 305 mm); A, B, Ca-Cc graded 1-5; D, E, F ungraded recognition guides; adjunct films purchased separately",
+      "url": "https://webstore.ansi.org/Standards/ASTM/ASTME28021"
+    },
+    {
+      "fact": "E186 covers steel casting sections 2 to 4.5 in. thick; shrinkage categories CA, CB, CC; reference radiographs are workmanship standards unrelated to performance; E186 levels 2-4 hard to discriminate (SFSA / University of Iowa paper)",
+      "url": "https://beckermann.lab.uiowa.edu/sites/beckermann.lab.uiowa.edu/files/2023-10/2008-5.5_RT_Standard.pdf"
+    },
+    {
+      "fact": "A609/A609M-12 (Reapproved 2023): scope heat-treated carbon, low-alloy, martensitic stainless castings; Procedure A flat-bottomed hole blocks with supplementary angle beam; Procedure B back wall; quality levels by agreement on DAC area, 75% back-reflection loss, continuous length; Table 2 levels 1-7: 0.8 in2 [5 cm2]/1.5 in. [40 mm] to 16 in2 [100 cm2]/6.9 in. [175 mm]; purchaser specifies levels for entire casting or portions and sections needing longitudinal, dual-element or angle beam",
+      "url": "https://cdn.standards.iteh.ai/samples/116493/8f0cf917d7dd47088ab1bf050f60ec9e/ASTM-A609-A609M-12-2023-.pdf"
+    },
+    {
+      "fact": "A903/A903M-99 (Reapproved 2024): acceptance criteria for MT/PT of steel castings; applies when document invokes it; linear = length equal to or greater than 3x width; relevant > 1/16 in. [1.6 mm]; NDT drawing where levels differ by location; references E165/E165M and E709",
+      "url": "https://cdn.standards.iteh.ai/samples/117427/d515f200ffbf49da93c099373f2ec7cc/ASTM-A903-A903M-99-2024-.pdf"
+    },
+    {
+      "fact": "ASME Section VIII Div 1 Appendices 6 and 8: linear = length more than three times width",
+      "url": "existing site record /standards/asme-pt-mt-acceptance-criteria (technically reviewed 2026-10)"
+    },
+    {
+      "fact": "MSS SP-53 (MT), SP-54 (RT), SP-55 (visual), SP-93 (PT), SP-94 (UT) method assignments as given in the brief and hub; SP-94 scope ferritic and martensitic castings from title knowledge (not fetched)",
+      "url": "not verified by search in this session; reviewer to confirm titles on msshq.org"
+    },
+    {
+      "fact": "ASTM E1030 is the practice for radiographic examination of metallic castings (title knowledge; not fetched)",
+      "url": "not verified by search in this session"
+    },
+    {
+      "fact": "UG-24 casting quality factor applied to allowable stress, higher factors require Mandatory Appendix 7 examination (described without percentages; percentages 80/85/90/100 not verified)",
+      "url": "not verified by search in this session; reviewer to confirm against UG-24 and Appendix 7"
+    },
+    {
+      "fact": "Reviewer (code knowledge, not fetched): MSS titles confirmed - SP-53 MT (castings and forgings), SP-54 RT (castings), SP-55 visual surface irregularities (castings), SP-93 PT (castings and forgings), SP-94 UT of ferritic and martensitic castings; UG-24: casting quality factor on allowable stress, NDE methods and acceptance in Mandatory Appendix 7, steel castings reach the 90% and 100% factors through Appendix 7 examinations, so \"higher factors call for Appendix 7\" stands; ASTM E1030 is the radiographic practice for metallic castings",
+      "url": "not fetched"
+    }
+  ],
+  "/standards/ndt-acceptance-criteria-by-code": [
+    {
+      "fact": "Section V method rules, construction code supplies acceptance",
+      "url": "existing site record /standards/asme-pt-mt-acceptance-criteria (technically reviewed 2026-10)"
+    },
+    {
+      "fact": "B31.3 Table 341.3.2 fluid services and imperfections",
+      "url": "existing site pages /standards/asme-b31-3 and /blog/asme-b31-3-process-piping-requirements"
+    },
+    {
+      "fact": "API 650 Section 8 references to ASME VIII radiographic standard",
+      "url": "to be verified by the API 650 guide writer"
+    },
+    {
+      "fact": "API 1104 acceptance standards and alternative acceptance",
+      "url": "existing site record /standards/api-1104-vs-aws-d1-1"
+    },
+    {
+      "fact": "B31.3-2022 contents: Table 341.3.2 'Acceptance Criteria for Welds - Visual and Radiographic Examination'; Appendix R 'Use of Alternative Ultrasonic Acceptance Criteria' with surface and subsurface flaw acceptance tables (reviewer check 2026-11-23)",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "UW-52 failed spot: two additional spots; if either fails, increment rejected, then cut out and rewelded or fully radiographed (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/api-510/asme-fabrication-and-welds/radiographic-examination-rules"
+    },
+    {
+      "fact": "Appendix 12 crack/LOF/IP unacceptable regardless of length; other indications above reference level limited by length vs thickness (reviewer check 2026-11-23)",
+      "url": "https://www.scribd.com/doc/255966807/Asme-Sec-Viii-d1-Ma-App-12"
+    }
+  ],
+  "/standards/rt-acceptance-criteria-by-code": [
+    {
+      "fact": "UW-51(b)(1)-(4) text: crack/IF/IP; elongated > 1/4 in. (6 mm) for t to 3/4 in. (19 mm), t/3 for 3/4-2-1/4 in. (57 mm), 3/4 in. over 2-1/4 in.; t = weld thickness excluding allowable reinforcement; aligned aggregate > t in 12t except > 6L; rounded per Appendix 4",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "UW-51(b)(3)-(4) wording confirmed in a copy of the code text",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "UW-52(c): cracks/IF/IP unacceptable; slag inclusions or cavities unacceptable over 2/3t; for all thicknesses < 1/4 in. acceptable, > 3/4 in. unacceptable; sum not exceeding t within 6t, separated 3L; rounded not a factor for welds not required to be fully radiographed",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "UW-52 tracer protocol: failed spot followed by two additional spots in the same increment at Inspector-designated locations; failure leads to 100% RT of increment or cut-out and reweld",
+      "url": "https://open-exam-prep.com/study-guides/api-510/asme-fabrication-and-welds/radiographic-examination-rules"
+    },
+    {
+      "fact": "Appendix 4 charts represent maximum acceptable concentration limits; charts represent full-scale 6 in. (150 mm) radiographs and shall not be enlarged or reduced",
+      "url": "https://www.eng-tips.com/threads/rounded-indication-acceptance-criteria.298476"
+    },
+    {
+      "fact": "Section I A-250.3.3 max rounded indication 1/4t or 5/32 in. (4 mm) whichever smaller; A-250.3.4 aligned rounded acceptable when sum of diameters less than t in 12t",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "B31.1 RT: elongated limits 6 mm / t/3 / 19 mm (same steps as UW-51); porosity per Section I Appendix A-250 (Sulzer table partly garbled; crack/IF/IP and group-in-line rule from code knowledge, reviewer to confirm in para. 136.4)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "B31.3 Table 341.3.2 severe cyclic: cracks, LOF, IP zero; slag/tungsten/elongated individual length <= Tw/3, width <= 2.5 mm (3/32 in.) and Tw/3, cumulative <= Tw in any 12Tw; rounded per VIII-1 Appendix 4; Normal/Category M porosity 1.5x for Tw > 6 mm (1/4 in.)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "B31.3-2022 Table 341.3.2 title (visual and radiographic)",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "API 1104: individual and aggregate length in any continuous 12 in. (300 mm), % of weld length; crater/star crack exception; porosity rules; negative-image density convention; 22nd ed. current, 49 CFR incorporates 21st",
+      "url": "existing site page /blog/api-1104-weld-acceptance-criteria-pipeline (read from API 1104 19th ed. via Public.Resource.Org)"
+    },
+    {
+      "fact": "API 650 Annex T: radiographic acceptance per ASME VIII-1 UW-51(b); UT in lieu of RT with Purchaser approval under Annex U (U.6.6); 13th edition (March 2020) current per API effectivity sheet (both sourced by the API 650 guide writer)",
+      "url": "https://pdfcoffee.com/api-650-2016-12th-annex-t-pdf-free.html"
+    },
+    {
+      "fact": "AWS D1.1/D1.1M:2025: radiography has its own part of Clause 8; RT only where contract documents call for it",
+      "url": "existing site page /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+    },
+    {
+      "fact": "B31.1 RT per Sulzer attachment 6: cumulative t in 12t; rounded per Section I A-250; root concavity with abrupt density change. Section I A-250 limits re-confirmed. B31.3 Table 341.3.2 severe cyclic F criterion and Normal/Category M 1.5x Appendix 4 porosity for Tw > 6 mm re-confirmed (reviewer check 2026-11-23)",
+      "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "B31.3-2022 contents: Table 341.3.2 'Acceptance Criteria for Welds - Visual and Radiographic Examination'; Appendix R 'Use of Alternative Ultrasonic Acceptance Criteria' (reviewer check 2026-11-23)",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    }
+  ],
+  "/standards/ut-acceptance-criteria-by-code": [
+    {
+      "fact": "AWS D1.1/D1.1M:2025 Clause 8 Tables 8.2/8.3; indication rating d = a - b - c; classes A-D; Class A rejected regardless of length, Class D accepted; scope 5/16-8 in. groove welds; not for tubular T, Y, K connections. Reviewer: Tables 8.2/8.3 numbering confirmed for the 2020 edition only; a 2025-edition exam-prep summary names Table 8.2 for UT but does not confirm the cyclic table number, so the page gives 2020 numbering",
+      "url": "existing site page /blog/aws-d1-1-ut-acceptance-criteria-explained (read from AWS D1.1:2000 via Public.Resource.Org; 2025 edition confirmed on pubs.aws.org)"
+    },
+    {
+      "fact": "Appendix 12: responses greater than 20% of reference level investigated; report records repaired areas and reflections exceeding 50% of reference level; personnel per written practice",
+      "url": "https://www.scribd.com/doc/255966807/Asme-Sec-Viii-d1-Ma-App-12"
+    },
+    {
+      "fact": "Appendix 12-3: cracks, LOF, IP unacceptable regardless of length; other imperfections over reference level with length over 1/4 in. / t/3 / 3/4 in. (secondary summaries only; same steps as UW-51(b)(2) and B31.3 344.6.2)",
+      "url": "https://www.scribd.com/document/613494775/UT-DPT-MPI-Acc-Rej"
+    },
+    {
+      "fact": "UW-51(a)(4): alternative to RT, welds where thinner member joined is 1/4 in. (6 mm) and greater may be examined by the UT method specified (text truncated in copy)",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "UW-51(a)(4) routes to Section VIII Div 2 para 7.5.5 and Section V Art 4 Mandatory Appendices VIII and IX; Div 1 absorbed Code Case 2235 role",
+      "url": "existing site records /blog/paut-vs-rt-when-phased-array-replaces-radiography and /blog/rt-vs-ut-weld-inspection (Hartford Steam Boiler summary)"
+    },
+    {
+      "fact": "UFGS 15216N 3.5.5 (Navy guide specification, permitted for B31.3/B31.4 piping): linear-type unacceptable if amplitude exceeds reference level and length exceeds 6 mm (1/4 in.) for t up to 19 mm; t/3 for 19-57 mm; 19 mm (3/4 in.) over 57 mm; t = thinner; adds that cracks, LOF and IP are unacceptable regardless of length. Reviewer: that crack/LOF/IP sentence is the guide specification's, not shown to be B31.3 344.6.2 text, so the page now attributes it to project specifications",
+      "url": "https://ufgscriteriadocreport.tpub.com/15216N/15216N0021.htm"
+    },
+    {
+      "fact": "B31 Case 181-2 (Jan 4, 2012) alternative UT acceptance in lieu of 344.6.2: owner specifies; welds >= 25 mm (1.0 in.); automated/semi-automated computer-based data acquisition; unprocessed data, no thresholding; surface/subsurface flaw tables; length not over 4t",
+      "url": "https://www.slideshare.net/slideshow/code-case-181/78480947"
+    },
+    {
+      "fact": "B31.3-2022 Appendix R title 'Use of Alternative Ultrasonic Acceptance Criteria'; Table 341.3.2 title 'Acceptance Criteria for Welds - Visual and Radiographic Examination'",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "API 1104 UT classification (linear surface, linear buried, transverse, volumetric), evaluation level, cracks defects, aggregate per 12 in., geometric indications not relevant; 22nd ed. current, 49 CFR incorporates 21st",
+      "url": "existing site page /blog/api-1104-weld-acceptance-criteria-pipeline (read from API 1104 19th ed. via Public.Resource.Org)"
+    },
+    {
+      "fact": "API 650 Annex U is the UT-in-lieu-of-RT route (listed as 'API 620/650 App. U' radiography replacement)",
+      "url": "https://www.olympus-ims.com/cs/applications/ultrasonic-phased-array-in-lieu-of-radiography"
+    },
+    {
+      "fact": "API 650 Annex T: UT in lieu of RT with Purchaser approval, acceptance under Annex U (U.6.6); RT acceptance UW-51(b) (sourced by the API 650 guide writer)",
+      "url": "https://pdfcoffee.com/api-650-2016-12th-annex-t-pdf-free.html"
+    },
+    {
+      "fact": "Reviewer: B31.3-2022 Appendix R title \"Use of Alternative Ultrasonic Acceptance Criteria\"",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "Reviewer: API 650 14th Edition published August 2025",
+      "url": "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/653/2026 files/March 2027_653_Publications Effectivity sheet_final.pdf"
+    },
+    {
+      "fact": "Reviewer: AWS D1.1:2025 exam-prep summary: Table 8.1 visual, Table 8.2 UT indication rating vs thickness",
+      "url": "https://open-exam-prep.com/exams/cwi/aws-d1-1-code-application/d1-1-inspection-acceptance"
+    }
+  ]
+}

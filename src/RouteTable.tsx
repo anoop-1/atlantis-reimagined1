@@ -3829,6 +3829,17 @@ export default function RouteTable() { return (
                   <Route path="/standards/asme-pt-mt-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/api-653-shell-minimum-thickness" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/api-1104-vs-aws-d1-1" element={<LazyRoute Component={DepthPage} />} />
+                  {/* 2026-11-23 §85: NDT acceptance criteria by asset and code (same DepthPage records file) */}
+                  <Route path="/standards/api-650-weld-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/asme-b31-1-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/asme-b31-3-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/asme-section-i-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/asme-section-viii-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/aws-d1-5-bridge-weld-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/casting-ndt-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/ndt-acceptance-criteria-by-code" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/rt-acceptance-criteria-by-code" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/ut-acceptance-criteria-by-code" element={<LazyRoute Component={DepthPage} />} />
                   {/* 2026-05 SEO additions — service, comparison, regional India */}
                   <Route path="/services/mfl-pipeline-inspection" element={<LazyRoute Component={MflPipelineInspection} />} />
                   <Route path="/compare/asnt-vs-pcn" element={<LazyRoute Component={CompareAsntVsPcn} />} />

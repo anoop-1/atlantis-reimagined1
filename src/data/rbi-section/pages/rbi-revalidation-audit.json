@@ -1,0 +1,179 @@
+{
+  "title": "RBI Revalidation, Reassessment and Defensible Documentation",
+  "description": "When and how to revalidate an RBI programme: review cycles in API 510, 570 and 653, reassessment triggers, and records regulators and insurers accept.",
+  "h1": "Revalidating an RBI programme and keeping it audit-ready",
+  "eyebrow": "Risk-based inspection",
+  "intro": "For inspection managers with a process safety audit, a regulator's visit or an insurance survey coming up, and for anyone whose last RBI assessment is getting old. An RBI interval is only as good as the assessment behind it, and an assessment that has not been kept current leaves intervals with no basis. This page covers the review cycles the inspection codes impose, the triggers that should not wait for the cycle, what a revalidation actually involves, what defensible documentation looks like, and how Atlantis revalidates a programme remotely.",
+  "highlights": [
+    { "h": "Cycles set by the codes", "p": "API 510, API 570 and API 653 each tie RBI-based intervals to an assessment that is reviewed on a maximum cycle and approved by the right people. Miss the cycle and the interval loses its footing, however good the original study was." },
+    { "h": "Triggers between cycles", "p": "Inspection findings outside the assumed rate, management of change, operating window exceedances and changes in consequence should all reopen the affected items without waiting for the scheduled review. A programme that only reacts to the calendar is already behind." },
+    { "h": "A record that explains itself", "p": "Defensible documentation lets someone who was not in the room trace any interval back to its mechanism, data, assumptions and approval. That is what auditors, regulators and insurers test, usually by picking items at random." }
+  ],
+  "sections": [
+    {
+      "id": "review-cycles",
+      "h": "Review cycles the codes impose",
+      "p": [
+        "The inspection codes accept RBI-based intervals on condition that the assessment stays current. The requirements differ in wording and placement, and your company procedure or jurisdiction may set a shorter cycle, so the edition you work to always governs. The table summarises what we work from."
+      ],
+      "table": {
+        "head": ["Document", "Review requirement for RBI-based intervals", "Note"],
+        "rows": [
+          ["API 510", "Where an RBI-based internal or on-stream interval exceeds the 10-year default, the RBI assessment is reviewed and approved by the engineer and the inspector on a maximum cycle, and sooner if process, equipment or consequence changes warrant it", "The maximum cycle was 10 years in the editions we reviewed"],
+          ["API 570", "The 2016 fourth edition required the assessment to be updated after each inspection, on a maximum 10-year cycle and after process or hardware changes, with approval by qualified personnel and the inspector", "Check the fifth edition (2024) and its addendum for current wording"],
+          ["API 653", "In the fifth edition, as PHMSA describes it, the RBI analysis must be validated, ideally by a third party, and reviewed at least once every 10 years", "PHMSA-regulated breakout tanks currently cannot use the RBI route at all"],
+          ["API RP 580", "Treats evergreening and reassessment as a core programme element", "The fourth edition (2023) covers reassessment and recordkeeping"],
+          ["Company procedure", "Often sets a shorter fixed cycle and defines the triggers that reopen items", "The stricter of procedure and code applies"],
+          ["Jurisdiction", "Some regulators set their own conditions; in Alberta, for example, ABSA publishes AB-505 risk-based inspection requirements for pressure equipment", "Confirm local requirements for each site"]
+        ]
+      }
+    },
+    {
+      "id": "triggers",
+      "h": "Triggers that should not wait for the cycle",
+      "p": [
+        "Between scheduled reviews, certain events should reopen the affected items. The procedure should name them and say who raises the reassessment:"
+      ],
+      "list": [
+        "An inspection result outside the rate the assessment assumed, or evidence of a mechanism that was not on the list.",
+        "Management of change affecting feed, chemicals, temperature, pressure, metallurgy or a rerate.",
+        "Integrity operating window exceedances, particularly repeated or prolonged ones.",
+        "A failure, leak or near miss at the site, or a relevant failure on similar equipment elsewhere.",
+        "A change in consequence: a new occupied building nearby, changed inventory or isolation, or a newly sensitive environmental receptor.",
+        "A significant change in the management systems that a quantitative study scored.",
+        "Adoption of a new edition of the governing code or RBI method.",
+        "Plan dates reached without the inspection being carried out, or equipment returned to service after a long shutdown."
+      ]
+    },
+    {
+      "id": "what-revalidation-covers",
+      "h": "Updating versus revalidating",
+      "p": [
+        "Updating an assessment means feeding in new information: fresh thickness readings, recalculated rates, the inspection effectiveness earned by the latest work, and the plan adjusted accordingly. It should happen routinely after every inspection. Revalidation is a deeper review of the basis itself: whether the corrosion loops and damage mechanisms still describe the plant, whether consequence inputs such as inventory and isolation are still true, whether defaults have been replaced, whether the management systems score still reflects reality, and whether previous recommendations were actually implemented.",
+        "A revalidation also checks the programme around the numbers. Were triggers raised when they should have been? Were operating window exceedances reviewed? Did management of change ask the RBI question? Were plan dates met? A register can be arithmetically correct and still be indefensible if the processes that should have kept it current were not working."
+      ]
+    },
+    {
+      "id": "defensible-documentation",
+      "h": "What defensible RBI documentation looks like",
+      "p": [
+        "The test is simple to state and demanding to pass: for any item chosen at random, can you show the damage mechanisms, the rate and its source, the data and its date, the assumptions, the inspection credit, the risk result, the interval and who approved it, against which procedure and edition? A defensible record contains:"
+      ],
+      "list": [
+        "The approved RBI procedure and risk criteria in force when each assessment was made.",
+        "Team membership and competence records for each study.",
+        "Loop sheets with credible and excluded mechanisms and the reason for each.",
+        "Data sources with their dates, and every default value flagged as a default.",
+        "Calculations that can be reproduced, with the method edition and software version recorded.",
+        "The basis for each inspection effectiveness credit, tied to coverage records from the inspection itself.",
+        "Inspection plans with approval by the inspector of record and the date of approval.",
+        "A decision log from workshops and reviews, with the reason for each judgement.",
+        "Records showing that triggers from management of change and operating windows were processed.",
+        "A revision history and evidence that plans were executed and results fed back in."
+      ]
+    },
+    {
+      "id": "regulators",
+      "h": "What regulators look for",
+      "p": [
+        "In the United States, OSHA's process safety management standard requires inspection and testing of process equipment to follow recognized and generally accepted good engineering practices, at a frequency consistent with manufacturers' recommendations and good engineering practice and more often if operating experience shows it is needed, and requires each inspection to be documented with its date, the person who did it, the equipment identifier, a description of the work and the results. EPA's risk management program rule carries a parallel mechanical integrity requirement. OSHA lets employers choose the good practice they apply but expects them to document that their inspection and testing complies with it.",
+        "An RBI programme built to API RP 580 and used under API 510, 570 or 653 can form part of that good practice, provided the owner can show the assessment is documented, current and followed. Outside the United States the authority and its expectations differ by country and sometimes by province or state, and some regulators require approval of owner-user programmes before RBI intervals apply. Pipeline breakout tanks under PHMSA rules are a specific case covered on the storage tank page."
+      ],
+      "links": [["/api-inspection/psm-ragagep-api-510-570-653", "PSM, RAGAGEP and the API inspection codes"], ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"]]
+    },
+    {
+      "id": "insurers",
+      "h": "What insurers and lenders ask",
+      "p": [
+        "Insurance risk engineers and lenders' technical advisers look at mechanical integrity from the point of view of loss. They typically ask how intervals are set and whether that basis is current, how many inspections are overdue, how recommendations from earlier surveys and studies were closed, whether operating windows are monitored and exceedances acted on, and how findings are managed once inspection reveals damage. An RBI programme with a clear record answers most of those questions directly; one with gaps invites recommendations of its own."
+      ]
+    },
+    {
+      "id": "remote-revalidation",
+      "h": "How Atlantis revalidates a programme remotely",
+      "p": [
+        "Revalidation is delivered remotely. The existing register or software exports, the inspection data gathered since the last assessment, and the management of change and operating window logs come through a data room. The programme is reviewed against API RP 580 and your own procedure, mechanisms are reconfirmed in video workshops with your unit teams, and the assessment is recalculated in your existing package or in a transparent form you can check. A sample of items is traced end to end as an auditor would, and the report lists every change to an interval with its reason.",
+        "Field verification stays with your inspectors; for facilities in the United States, Atlantis can also send UT, MT, PT and VT technicians to close gaps the revalidation exposes. Approval of the revised intervals stays with your inspector of record, and Atlantis does not take on that role. Where the data reveals damage that needs a fitness-for-service decision, that remains with your engineer, since Atlantis does not provide fitness-for-service assessment."
+      ],
+      "links": [["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]]
+    },
+    {
+      "id": "audit-findings",
+      "h": "Common audit findings in RBI programmes",
+      "p": [
+        "The same weaknesses turn up repeatedly when RBI programmes are audited, and most of them are documentation and process failures rather than calculation errors:"
+      ],
+      "list": [
+        "Assessments past their review date while intervals based on them are still in use.",
+        "Intervals with no traceable basis in the current register.",
+        "Default values that were meant to be temporary still in place years later.",
+        "Inspection effectiveness credited without coverage records to support it.",
+        "Management of change requests closed without anyone asking whether the RBI was affected.",
+        "Operating window exceedances logged but never reviewed for their effect on damage rates.",
+        "Recommendations from a previous study still open, with no record of a decision.",
+        "Approvals missing or undated, or the method edition and software version not recorded.",
+        "RBI used only to extend intervals, never to shorten them."
+      ]
+    },
+    {
+      "id": "audit-preparation",
+      "h": "Preparing for an audit or survey",
+      "p": [
+        "Before an audit, pick a sample of items across units and equipment types and trace each interval back to its basis, as the auditor will. Confirm that approvals are present and dated, that triggers since the last review were processed, and that overdue inspections have a documented decision. Build a short index of where each kind of record lives, and brief the people who will answer questions so that they can explain the programme in their own words. A remote revalidation can be scoped to end with exactly that sample trace and index."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (fourth edition, 2023): elements of a risk-based inspection programme, including reassessment",
+    "API RP 581 (fourth edition, 2025): risk-based inspection methodology",
+    "API 510 (eleventh edition, 2022), API 570 (fifth edition, 2024) and API 653 (fifth edition with addenda)",
+    "API RP 584 (second edition, 2021): integrity operating windows",
+    "29 CFR 1910.119(j): OSHA process safety management, mechanical integrity (United States)",
+    "40 CFR 68.73: EPA risk management program, mechanical integrity (United States)"
+  ],
+  "deliverables": [
+    "Revalidated risk register and updated inspection plans",
+    "List of interval changes with the reason for each",
+    "Programme review against API RP 580 and your procedure",
+    "Sample trace of items from interval to basis, as an auditor would test them",
+    "Updated data-gap log, defaults register and decision log",
+    "Revised reassessment triggers and next review date"
+  ],
+  "industries": [
+    "Refining",
+    "Petrochemical and chemical",
+    "Gas processing",
+    "Storage terminals",
+    "Fertiliser and ammonia",
+    "Power generation"
+  ],
+  "faqs": [
+    { "q": "How often must an RBI assessment be revalidated?", "a": "At least as often as the governing code and your procedure require, and sooner when a trigger occurs. API 510 and API 653 both point to a maximum review cycle of 10 years for RBI-based intervals in the editions we reviewed, and the 2016 edition of API 570 required updates after each inspection and at least every 10 years. Many company procedures set shorter cycles." },
+    { "q": "What should trigger an RBI reassessment between reviews?", "a": "An inspection result outside the assumed rate or showing a new mechanism, management of change affecting process or materials, operating window exceedances, failures or near misses, changes in consequence such as new nearby buildings, changes in management systems, adoption of a new code edition, and plan dates passing without the inspection being done." },
+    { "q": "What makes RBI documentation defensible?", "a": "Traceability. For any item, someone who was not involved should be able to see the damage mechanisms, the rate and its source, the data and its date, the assumptions and defaults, the inspection credit, the risk result, the interval and the approval, together with the procedure and edition used. Missing approvals and unflagged defaults are the most common gaps." },
+    { "q": "Does OSHA accept risk-based inspection intervals?", "a": "OSHA's process safety management standard requires inspection and testing to follow recognized and generally accepted good engineering practices and to be documented. API 510, 570 and 653 allow RBI-based intervals, so an RBI programme built to API RP 580 can form part of that good practice, provided it is documented, kept current and followed." },
+    { "q": "What do insurers look for in an RBI programme?", "a": "Insurance risk engineers usually want to see a current basis for intervals, a low and explained backlog of overdue inspections, closure of earlier recommendations, monitoring of operating windows with action on exceedances, and a clear process for managing findings. A well-documented RBI programme answers most of those questions directly." },
+    { "q": "What is the difference between updating and revalidating an RBI?", "a": "Updating feeds in new information, such as readings, rates and inspection credit, and adjusts the plan; it should follow every inspection. Revalidating reviews the basis itself: loops, mechanisms, consequence inputs, defaults, management systems and the processes that should have kept the programme current. Both are needed, on different rhythms." },
+    { "q": "Can you revalidate an RBI study another company produced?", "a": "Yes. We work from the existing register or software exports and the original report, review them against API RP 580 and your procedure, and recalculate where needed. Gaps in the original documentation are recorded, and where the basis for an item cannot be reconstructed, the revalidation treats it as a fresh assessment rather than inheriting the old interval." },
+    { "q": "What happens to intervals if the assessment has lapsed?", "a": "An RBI-based interval resting on an assessment past its required review has lost its basis. The prudent course is to revalidate promptly and, until then, to check each affected item against the code's default interval and act on any that would already be overdue. Your inspector of record decides how to treat individual items in the meantime." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "Setting up an RBI programme"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/api-inspection/psm-mechanical-integrity-citations", "PSM mechanical integrity citations"],
+    ["/api-inspection/epa-rmp-vs-osha-psm-mechanical-integrity", "EPA RMP and OSHA PSM mechanical integrity"],
+    ["/consulting/osha-psm-mechanical-integrity-ndt", "OSHA PSM mechanical integrity support"],
+    ["/api-inspection/time-based-vs-risk-based-intervals", "Time-based versus risk-based intervals"],
+    ["/standards/api-580", "API RP 580 explained"],
+    ["/inspection-data-management-system", "Inspection data management"]
+  ],
+  "sources": [
+    { "fact": "OSHA PSM 1910.119(j)(4): inspection and testing per RAGAGEP; frequency consistent with manufacturers' recommendations and good engineering practice, more frequent if operating experience indicates; employers select RAGAGEP and must document compliance (memo archived, superseded by 2016 version)", "url": "https://osha.gov/laws-regs/standardinterpretations/2015-06-05-0" },
+    { "fact": "EPA RMP mechanical integrity requirement 40 CFR 68.73 (parallel to PSM, including inspection documentation fields)", "url": "https://www.law.cornell.edu/cfr/text/40/68.73" },
+    { "fact": "API 653 fifth edition: RBI analysis validated ideally by a third party, reviewed at least once every 10 years (PHMSA NPRM description)", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" },
+    { "fact": "API 510 RBI review by engineer and inspector on maximum cycle (10 years in editions reviewed); API 570 2016 edition update requirements; RBI under API 580 can be part of RAGAGEP if documented, current and followed; ABSA AB-505 (already on the site)", "url": "https://atlantisndt.com/api-inspection/time-based-vs-risk-based-intervals" },
+    { "fact": "API RP 580 fourth edition (August 2023) covers evergreening and reassessment, documentation and recordkeeping", "url": "https://www.mystandards.biz/standard/apirp-580-ed-4-1.8.2023.html" },
+    { "fact": "Editions: API 510 11th ed. 2022; API 570 5th ed. 2024; API 653 5th ed. with addenda; API RP 581 4th ed. 2025", "url": "https://reliamag.com/guides/api-510-570-653-inspection-intervals/" }
+  ]
+}

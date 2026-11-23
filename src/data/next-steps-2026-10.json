@@ -472,6 +472,10 @@
       "p": "Set gain, place the gate and find a reflector on a simulated A-scan, then go further in the full simulator.",
       "links": [
         [
+          "/standards/ut-acceptance-criteria-by-code",
+          "Ultrasonic testing acceptance criteria by code"
+        ],
+        [
           "/tools/ultrasonic-a-scan-simulator",
           "Try the A-scan demo in your browser"
         ],
@@ -950,6 +954,10 @@
       "p": "Screen the next interval from your own readings, then send the scope for a quotation.",
       "links": [
         [
+          "/standards/asme-section-viii-acceptance-criteria",
+          "ASME Section VIII Division 1 acceptance criteria: RT, UT, MT, PT, VT"
+        ],
+        [
           "/consulting/api-510-pressure-vessel-inspector-services",
           "API 510 pressure vessel inspection services"
         ],
@@ -967,6 +975,10 @@
       "h": "From the code to an inspection scope",
       "p": "Screen piping intervals by class from your own readings, then send the scope for a quotation.",
       "links": [
+        [
+          "/standards/asme-b31-3-acceptance-criteria",
+          "ASME B31.3 weld acceptance criteria (Table 341.3.2)"
+        ],
         [
           "/consulting/api-570-piping-inspector-services",
           "API 570 piping inspection services"
@@ -1303,6 +1315,10 @@
       "h": "Welding procedures and the NDT that follows them",
       "p": "A WPS tells the welder how to weld; an NDT procedure tells the technician how to examine the result. These pages explain both and where they meet.",
       "links": [
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "NDT acceptance criteria by asset and code"
+        ],
         [
           "/blog/wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104",
           "WPS, PQR and WPQ explained across ASME IX, AWS D1.1 and API 1104"
@@ -1648,6 +1664,10 @@
       "p": "Atlantis has a six-day course for the AWS Certified Welding Inspector examination, taken online with instructor support or at your own facility for a group. AWS administers the exam and issues the certification.",
       "links": [
         [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "Acceptance criteria for other codes: vessels, piping, tanks, bridges"
+        ],
+        [
           "/aws-cwi-training",
           "AWS CWI exam prep: the 6-day course"
         ],
@@ -1739,6 +1759,10 @@
       "h": "Preparing for an ASME certificate review?",
       "p": "An ASNT Level III can get the NDE side of the joint review ready: written practice, Section V procedures, demonstrations and control of subcontracted NDE.",
       "links": [
+        [
+          "/standards/asme-section-viii-acceptance-criteria",
+          "Section VIII Division 1 weld acceptance criteria"
+        ],
         [
           "/consulting/asme-audit-ndt-level-iii-support",
           "ASME audit: Level III support for the NDE program"
@@ -1952,6 +1976,478 @@
         [
           "/consulting/maritime-ndt-consulting-north-charleston",
           "Maritime class audit support in North Charleston"
+        ]
+      ]
+    },
+    "/blog/aws-d1-1-ut-acceptance-criteria-explained": {
+      "h": "Ultrasonic acceptance in other codes",
+      "p": "AWS D1.1 rates indications against a reference reflector; vessel, piping and tank codes judge them differently.",
+      "links": [
+        [
+          "/standards/ut-acceptance-criteria-by-code",
+          "Ultrasonic testing acceptance criteria by code"
+        ],
+        [
+          "/standards/aws-d1-5-bridge-weld-acceptance-criteria",
+          "AWS D1.5 bridge weld acceptance criteria"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "Which code sets the acceptance criteria for your asset"
+        ]
+      ]
+    },
+    "/blog/api-1104-weld-acceptance-criteria-pipeline": {
+      "h": "Acceptance criteria beyond the pipeline",
+      "p": "Station piping, vessels and tanks on the same project are judged under other codes.",
+      "links": [
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "NDT acceptance criteria by asset and code"
+        ],
+        [
+          "/standards/asme-b31-3-acceptance-criteria",
+          "ASME B31.3 weld acceptance criteria"
+        ],
+        [
+          "/standards/rt-acceptance-criteria-by-code",
+          "Radiographic acceptance criteria by code"
+        ]
+      ]
+    },
+    "/standards/asme-pt-mt-acceptance-criteria": {
+      "h": "Volumetric and piping acceptance criteria",
+      "p": "The same vessel's radiographic and ultrasonic limits, and the piping codes' own tables.",
+      "links": [
+        [
+          "/standards/asme-section-viii-acceptance-criteria",
+          "ASME Section VIII Division 1 acceptance criteria: RT, UT and VT"
+        ],
+        [
+          "/standards/asme-b31-3-acceptance-criteria",
+          "ASME B31.3 weld acceptance criteria"
+        ],
+        [
+          "/standards/asme-b31-1-acceptance-criteria",
+          "ASME B31.1 weld acceptance criteria"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "All acceptance criteria by code"
+        ]
+      ]
+    },
+    "/blog/radiographic-testing-complete-guide": {
+      "h": "Radiographic acceptance criteria by code",
+      "p": "What an elongated or rounded indication is allowed to be depends on the construction code.",
+      "links": [
+        [
+          "/standards/rt-acceptance-criteria-by-code",
+          "Radiographic acceptance criteria compared across codes"
+        ],
+        [
+          "/standards/asme-section-viii-acceptance-criteria",
+          "ASME Section VIII radiographic acceptance"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "Which code applies to which asset"
+        ]
+      ]
+    },
+    "/blog/casting-internal-porosity-detection": {
+      "h": "How much casting porosity is acceptable?",
+      "p": "Severity levels against reference radiographs, and the valve-casting practices purchase orders call for.",
+      "links": [
+        [
+          "/standards/casting-ndt-acceptance-criteria",
+          "Casting NDT acceptance criteria and severity levels"
+        ],
+        [
+          "/ultrasonic-testing-castings-forgings",
+          "Ultrasonic testing of castings and forgings"
+        ]
+      ]
+    },
+    "/glossary/api-650": {
+      "h": "API 650 weld inspection",
+      "p": "Which tank welds are examined, by which method, and against which acceptance standard.",
+      "links": [
+        [
+          "/standards/api-650-weld-acceptance-criteria",
+          "API 650 tank weld inspection and acceptance criteria"
+        ],
+        [
+          "/api-inspection/api-650-vs-api-653",
+          "API 650 vs API 653"
+        ]
+      ]
+    },
+    "/api-inspection/api-650-vs-api-653": {
+      "h": "New-tank weld acceptance under API 650",
+      "p": "The construction examinations and acceptance rules that API 653 repairs refer back to.",
+      "links": [
+        [
+          "/standards/api-650-weld-acceptance-criteria",
+          "API 650 tank weld inspection and acceptance criteria"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "NDT acceptance criteria by asset and code"
+        ]
+      ]
+    },
+    "/blog/asme-b31-1-power-piping-code-explained": {
+      "h": "B31.1 weld acceptance criteria",
+      "p": "The acceptance standards of para. 136.4, method by method, and the mandatory minimum examinations.",
+      "links": [
+        [
+          "/standards/asme-b31-1-acceptance-criteria",
+          "ASME B31.1 weld acceptance criteria"
+        ],
+        [
+          "/standards/asme-section-i-acceptance-criteria",
+          "ASME Section I boiler weld acceptance criteria"
+        ]
+      ]
+    },
+    "/standards/asme-b31-1": {
+      "h": "Acceptance criteria for B31.1 welds",
+      "p": "Para. 136.4 method by method, and how it differs from B31.3.",
+      "links": [
+        [
+          "/standards/asme-b31-1-acceptance-criteria",
+          "ASME B31.1 weld acceptance criteria"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "All acceptance criteria by code"
+        ]
+      ]
+    },
+    "/standards/asme-b31-3": {
+      "h": "Acceptance criteria for B31.3 welds",
+      "p": "Table 341.3.2 by imperfection and fluid service, and progressive examination.",
+      "links": [
+        [
+          "/standards/asme-b31-3-acceptance-criteria",
+          "ASME B31.3 weld acceptance criteria"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "All acceptance criteria by code"
+        ]
+      ]
+    },
+    "/standards/aws-d1-5": {
+      "h": "Bridge weld acceptance criteria",
+      "p": "Visual, radiographic and ultrasonic acceptance under the bridge code, tension and fracture-critical members.",
+      "links": [
+        [
+          "/standards/aws-d1-5-bridge-weld-acceptance-criteria",
+          "AWS D1.5 bridge weld acceptance criteria"
+        ],
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "All acceptance criteria by code"
+        ]
+      ]
+    },
+    "/blog/weld-inspection-acceptance-criteria-aws-vs-asme": {
+      "h": "Acceptance criteria by asset",
+      "p": "Vessels, piping, boilers, tanks, bridges and castings each have their own acceptance clause.",
+      "links": [
+        [
+          "/standards/ndt-acceptance-criteria-by-code",
+          "NDT acceptance criteria by asset and code"
+        ],
+        [
+          "/standards/asme-section-viii-acceptance-criteria",
+          "ASME Section VIII Division 1 acceptance criteria"
+        ],
+        [
+          "/standards/aws-d1-5-bridge-weld-acceptance-criteria",
+          "AWS D1.5 bridge weld acceptance criteria"
+        ]
+      ]
+    },
+    "/blog/risk-based-inspection-rbi-explained-api-580-vs-api-581": {
+      "h": "RBI studies, delivered remotely",
+      "p": "Atlantis carries out RBI studies to API RP 580 and 581 from your drawings, data and inspection history.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection (RBI) services"
+        ],
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581: what the calculation needs"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "Setting up an RBI programme step by step"
+        ]
+      ]
+    },
+    "/standards/api-581": {
+      "h": "Putting API 581 to work",
+      "p": "How a quantitative study is built, what data it needs and how inspection effectiveness is credited.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services, delivered remotely"
+        ]
+      ]
+    },
+    "/standards/api-580": {
+      "h": "From API 580 to a working programme",
+      "p": "What an RBI programme contains, how it is implemented and how it is kept current.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services, delivered remotely"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit readiness"
+        ]
+      ]
+    },
+    "/glossary/api-581": {
+      "h": "API 581 in practice",
+      "p": "The quantitative method applied to vessels, piping and tanks.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection (RBI) services"
+        ]
+      ]
+    },
+    "/glossary/api-580": {
+      "h": "API 580 in practice",
+      "p": "How an RBI programme is set up and run.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection (RBI) services"
+        ]
+      ]
+    },
+    "/blog/risk-based-inspection-rbi-implementation-guide": {
+      "h": "Implementing RBI with outside help",
+      "p": "A remote study, workshop by workshop, with the plan your inspectors execute.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation: the sequence that works"
+        ],
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study runs"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/blog/api-580-581-rbi-consulting-what-a-risk-based-inspection-program-setup-costs-in-time": {
+      "h": "What the study itself involves",
+      "p": "Data request, workshops, risk ranking and the inspection plan, delivered remotely.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/standards/api-653": {
+      "h": "Setting tank intervals by RBI",
+      "p": "How API 653 lets the internal inspection interval be set by a risk-based assessment, and what that assessment needs.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks: API 653 and API 580"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/api-inspection/time-based-vs-risk-based-intervals": {
+      "h": "Moving to risk-based intervals",
+      "p": "How an RBI study sets intervals for tanks, piping and vessels within each code's rules.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services, delivered remotely"
+        ],
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/inspection/risk-based-inspection/piping-rbi",
+          "RBI for process piping"
+        ],
+        [
+          "/inspection/risk-based-inspection/pressure-vessel-rbi",
+          "RBI for pressure vessels and heat exchangers"
+        ]
+      ]
+    },
+    "/standards/api-571": {
+      "h": "Damage mechanisms in an RBI study",
+      "p": "How mechanisms are assigned to corrosion loops and turned into inspection plans.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/blog/api-571-damage-mechanisms-complete-industry-guide": {
+      "h": "From damage mechanisms to an inspection plan",
+      "p": "Corrosion loops, mechanism assignment and the inspection each mechanism needs.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/blog/damage-mechanisms-in-refineries-a-field-guide-to-api-571": {
+      "h": "Using the mechanisms in RBI",
+      "p": "How a damage mechanism review feeds probability of failure and the inspection plan.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review and corrosion loops"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/blog/api-581-rbi-quantitative-method-explained-2026": {
+      "h": "A quantitative study for your units",
+      "p": "What Atlantis needs from you and what you receive.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/blog/api-581-rbi-qualitative-method-explained-2026": {
+      "h": "Choosing the study level",
+      "p": "Qualitative screen, semi-quantitative or quantitative: where each fits.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ],
+        [
+          "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+          "Quantitative RBI to API 581"
+        ]
+      ]
+    },
+    "/blog/api-581-rbi-implementation-roadmap-refinery-2026": {
+      "h": "Implementation, delivered remotely",
+      "p": "The study sequence and the plan your inspectors execute.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "RBI programme implementation"
+        ],
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    },
+    "/blog/consulting-for-api-570-piping-inspection-programs-rbi-integration-done-right": {
+      "h": "RBI for piping circuits",
+      "p": "Corrosion loops, CML optimisation and plans per circuit.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/piping-rbi",
+          "RBI for process piping"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/standards/api-570": {
+      "h": "Piping intervals by RBI",
+      "p": "How an RBI study sets piping inspection intervals and CMLs within API 570.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/piping-rbi",
+          "RBI for process piping"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
+        ]
+      ]
+    },
+    "/standards/api-510": {
+      "h": "Vessel intervals by RBI",
+      "p": "How an RBI study sets vessel and exchanger inspection intervals within API 510.",
+      "links": [
+        [
+          "/inspection/risk-based-inspection/pressure-vessel-rbi",
+          "RBI for pressure vessels and heat exchangers"
+        ],
+        [
+          "/inspection/risk-based-inspection",
+          "Risk-based inspection services"
         ]
       ]
     }
