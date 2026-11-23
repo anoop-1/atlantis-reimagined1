@@ -1,0 +1,222 @@
+{
+ "title": "Digital Radiography (DR) Report Review | DDA Image Data Check",
+ "description": "Independent review of digital radiography reports and DDA image files: IQI, normalized SNR, spatial resolution, bad pixels, processing and DICONDE records.",
+ "h1": "Independent review of digital radiography reports and the detector images behind them",
+ "eyebrow": "Method review: digital radiography (DR)",
+ "intro": "A digital radiography report is a summary of image files, detector calibrations and processing choices that the PDF rarely shows. We open the DDA images themselves, check the image quality measurements against the procedure and the governing practice, follow each file back to the detector and the settings that produced it, and give you a written opinion on whether the accept and reject calls can stand. The review is independent and is carried out remotely on the records you send. In the United States Atlantis does not perform industrial radiography; reviewing the images your licensed contractor produced is a document review we do offer.",
+ "highlights": [
+  {
+   "h": "Was the detector fit for the job?",
+   "p": "A digital detector array has to be qualified before production work and kept under a stability programme afterwards. We compare the qualification and periodic test records with the serial number and the date written into each image header."
+  },
+  {
+   "h": "Image quality as measured values",
+   "p": "Film had density; DR has IQI sensitivity, signal-to-noise ratio and basic spatial resolution. We check that each value was measured on the production image, in the region that was interpreted, and that it meets the procedure."
+  },
+  {
+   "h": "Raw image, processing and lineage",
+   "p": "Digital images can be filtered, integrated and re-windowed. We ask for the unprocessed file, check what processing the procedure permits, and trace the image from acquisition software to the digital report that quotes it."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Why a DR report needs a different kind of review",
+   "p": [
+    "With film, most of the evidence about image quality sits in the film itself: density readings, the penetrameter image, the processing marks. A reviewer holding the film can judge readability in an afternoon. A digital detector array changes that. The image is a matrix of grey values produced by a detector that has its own calibration, its own defective pixels and its own response to the energy used, and then shaped by software before anyone looks at it. The interpretation step is only the last link in a longer chain.",
+    "That is why our DR review looks at the system as well as the picture. The question is not only whether the indication on screen was read correctly, but whether the detector, its calibration files, the exposure and the processing were capable of showing that indication at the size the acceptance criteria care about. When one of those links is missing from the record, a confident interpretation can still be indefensible.",
+    "Our separate guide on radiograph interpretation review covers readability, IQI placement and artefacts for film and digital images alike. This page goes further into what is particular to DDAs: qualification, stability testing, calibration files, measured image quality, processing records and the integrity of the digital image files."
+   ]
+  },
+  {
+   "h": "The documents a digital radiography report should rest on",
+   "p": [
+    "A DR examination draws on three layers of requirement: the method rules, the detector standards those rules lean on, and the construction or in-service code that supplies the acceptance criteria. Reports often cite one layer and forget the others. We check each one separately, because a report can follow ASME Section V perfectly and still apply the wrong acceptance table."
+   ],
+   "table": {
+    "head": [
+     "Document",
+     "What it governs",
+     "What we check in the record"
+    ],
+    "rows": [
+     [
+      "ASME Section V, Article 2 and its digital detector appendix",
+      "Radiographic examination under the ASME codes, including requirements specific to digital detector systems",
+      "That the procedure invokes the appendix for DDAs, and that the edition matches the one the referencing code calls for"
+     ],
+     [
+      "ASTM E2698",
+      "Minimum requirements for radiographic examination using digital detector arrays; it is used with E2737 and calls for a written procedure approved by the cognizant Level 3 and a system qualification report",
+      "Whether the procedure and the system qualification report exist, carry approvals and cover the thickness and energy range used"
+     ],
+     [
+      "ASTM E2737",
+      "Performance evaluation and long-term stability of the DDA system over its life",
+      "The baseline tests and the periodic stability checks, and whether one was due or failed before the examination date"
+     ],
+     [
+      "ASTM E2597",
+      "Manufacturing characterization data used to select a detector for an application",
+      "That the detector chosen was suited to the material and thickness, read alongside the user's own qualification"
+     ],
+     [
+      "ASTM E2736",
+      "A guide that explains DDA terms and performance parameters",
+      "Used to read the report's terminology correctly; it sets no acceptance requirements"
+     ],
+     [
+      "ASTM E2002",
+      "Determining total image unsharpness and basic spatial resolution",
+      "How the basic spatial resolution reported was measured, and on which image"
+     ],
+     [
+      "ASTM E2339 (DICONDE)",
+      "Digital imaging and communication in nondestructive evaluation, a standard image and data format",
+      "Whether the archived files carry their acquisition data in a readable, standard form or only in a vendor format"
+     ],
+     [
+      "ISO 17636-2",
+      "Digital radiographic testing of fusion welds with CR or DDAs on many international contracts; it sets no acceptance levels",
+      "That the testing class and image quality values are met, and that acceptance came from the separate acceptance standard named in the contract"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "System qualification and the long-term stability record",
+   "p": [
+    "Under ASTM E2698 a user cannot simply take a detector out of its case and start production work. The practice expects a written procedure approved by the cognizant Level 3 and a system qualification report showing that the particular detector, source and software combination achieves the required image quality. E2737 then supplies the baseline and periodic tests that show the system has not drifted. Those two records are often the first things missing when we ask for supporting documents.",
+    "We read the qualification report against the work actually done. A qualification carried out on thin plate at modest voltage does not cover a thick-wall girth weld shot at much higher energy. A system qualified with one software version may behave differently after an upgrade. We note the detector serial number, the acquisition software and the energy range qualified, and compare them with the image headers and the technique sheet.",
+    "The stability record matters for a different reason. A DDA can lose pixels, change its offset behaviour or develop lag as it ages or after it is dropped. If the periodic check before the examination was overdue, or if the detector failed a check and was repaired without a fresh baseline, every image taken in that period carries a question mark. The written opinion says so, and says whether later checks narrow the doubt."
+   ]
+  },
+  {
+   "h": "Calibration files: offset, gain and the bad pixel map",
+   "p": [
+    "Every DDA image is corrected before it is displayed. An offset (dark) image removes the detector's own signal with no radiation, a gain or flat-field calibration evens out the response from pixel to pixel, and a bad pixel map tells the software which pixels to replace by interpolation. Each of those corrections is valid for the conditions it was recorded under. A gain calibration made at one tube voltage and source distance can leave banding or false contrast when the exposure conditions change substantially.",
+    "We ask for the calibration files or, at minimum, the record of when each was made and under what conditions. We then look at where the bad pixels and clusters fall. A scattered handful of corrected pixels in parent metal is unremarkable. A cluster or a defective line running through the weld centreline or the heat-affected zone is a different matter, because interpolated values there are invented data, and a small indication could sit inside them unseen.",
+    "Lag, sometimes called ghosting, is another detector effect we look for. A strong exposure can leave a faint residual image that carries into the next acquisition. In a report covering several welds shot in quick succession, a feature that repeats at the same detector position from one image to the next deserves a second look before anyone calls it an indication, or before anyone dismisses a real one as an artefact."
+   ]
+  },
+  {
+   "h": "Image quality: IQI sensitivity, normalized SNR and basic spatial resolution",
+   "p": [
+    "On a DR report the image quality claim is a set of numbers, and each one can be checked. IQI sensitivity shows the smallest wire or hole visible against the section. Signal-to-noise ratio, usually normalized to the basic spatial resolution so that detectors with different pixel sizes can be compared, shows how much noise the image carries. Basic spatial resolution, measured with a duplex wire indicator, shows how fine a detail the system can separate. Which of these the procedure requires, and at what values, depends on the governing document and the procedure written under it.",
+    "Our review checks four things about each value. It must be measured on a production image, not on a test shot taken on a different day. It must be measured in the area that matters, such as base metal next to the weld rather than a thin edge. It must be measured on the image in the state that was interpreted, because filtering can raise apparent sharpness or lower apparent noise. And it must meet the requirement for the thickness and testing class that applies.",
+    "Geometric magnification and pixel size come into the same picture. A detector with a coarse pixel pitch can still meet a resolution requirement if the geometry magnifies the weld enough, but that geometry also raises unsharpness from the focal spot. The technique sheet should show the source-to-detector and object-to-detector distances, and the reported resolution should be consistent with them. When the numbers do not add up, we say so plainly."
+   ],
+   "list": [
+    "IQI type, designation and position match the procedure, and the IQI was imaged on the source side unless the procedure allows otherwise",
+    "Normalized SNR measured in a defined region of base metal, with the measurement area and method recorded",
+    "Basic spatial resolution taken from a duplex wire image, with the wire pair that was last resolved identified",
+    "Values reported per image or per exposure group, not one value for an entire job",
+    "Any image that fails a requirement is either re-shot or excluded from the accepted record, with the reason given"
+   ]
+  },
+  {
+   "h": "Image processing, display and viewing conditions",
+   "p": [
+    "Window and level adjustments change how an image is displayed without changing the stored grey values, and an interpreter is expected to use them. Filters are another matter. Edge enhancement, noise reduction and frame integration change the data itself. A procedure should say which operations are permitted for interpretation, require the unprocessed image to be kept, and require any processing applied to be recorded so that another reader can reproduce the view.",
+    "We open the unprocessed image where it exists and compare it with what the report shows. If an indication only appears after aggressive filtering, or if a filter has smoothed away noise in a way that also softens a fine linear feature, that belongs in the opinion. If the raw file was not kept, the opinion records that the interpretation cannot be independently repeated, which is itself a documentation finding.",
+    "Viewing conditions leave a trace in a good record and none in a weak one. The procedure normally sets requirements for the monitor, the room lighting and the zoom used for evaluation. We look for the monitor identification, the date of its last check against a test pattern, and whether measurements were made with tools calibrated to the image pixel size. An indication length measured on an uncalibrated scale is a number without a basis."
+   ]
+  },
+  {
+   "h": "File integrity, DICONDE and the digital reporting chain",
+   "p": [
+    "A DR job produces many files: raw acquisitions, calibration files, processed images, annotated interpretation views and the exported pictures that end up in a PDF or a digital reporting platform. The report is only reliable if each picture in it can be traced to an original file, and that file to a weld, a detector and an exposure. We build that chain from the records sent and note every break in it.",
+    "Image headers carry most of the facts we need: detector serial number, acquisition date and time, energy, frame count and integration, pixel size and often the operator. DICONDE files under ASTM E2339 carry this information in a standard structure that other software can read; vendor formats may need the vendor's viewer. We ask which format was archived, whether compression was used, and whether lossy formats such as JPEG appear anywhere between acquisition and the issued report.",
+    "Electronic signatures and revisions are part of the same chain. If the report was issued from a digital reporting system, we check who evaluated each image, who approved the report, whether a later revision changed a disposition, and whether the exported record shows those steps. A clean-looking digital report with no visible revision history is not proof that nothing was changed."
+   ]
+  },
+  {
+   "h": "How digital radiography reports most often fail review",
+   "p": [
+    "None of the failures below are exotic. They come up because DR moves quickly in the field and the paperwork that film forced on a crew no longer happens by itself."
+   ],
+   "list": [
+    "No system qualification report, or one that covers a different detector, energy range or software version from the one used",
+    "Periodic stability checks overdue at the time of the examination, or failed and not followed by a new baseline",
+    "Bad pixel clusters or defective lines falling across the weld, interpolated over and never mentioned",
+    "SNR and basic spatial resolution quoted once for the whole job instead of per image or exposure set",
+    "Interpretation done on filtered images with no record of the filter and no unprocessed file retained",
+    "Exported images in the report that cannot be matched to an original acquisition file",
+    "Acceptance taken from the wrong code edition or weld category, even though the image quality was sound",
+    "Interpreter certification that covers film radiography but not digital detector interpretation, where the written practice separates them"
+   ]
+  },
+  {
+   "h": "DR images from US projects: what we review and what stays with the licensee",
+   "p": [
+    "In the United States industrial radiography is licensed under NRC rules in 10 CFR Part 34 or under an Agreement State program. Atlantis does not perform industrial radiography in the US. The images, technique sheets and reports your licensed radiography contractor produced can still be reviewed independently, because that review is an evaluation of documents and data, carried out remotely, with no source and no exposure involved.",
+    "Radiation safety records, source logs and the contractor's license compliance stay with the licensee and the regulator. Our opinion covers image quality, interpretation, acceptance and traceability. Reviews in radiography, together with ultrasonic, magnetic particle, penetrant and visual testing, are led by an ASNT NDT Level III who holds certification in all five of those methods, supported by a review team whose members come from nuclear, maritime, oil and gas and petrochemical work."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can you review DR images without the contractor's acquisition software?",
+   "a": "Often yes. DICONDE files open in a range of viewers, and many vendors provide a free reader for their own format. Where a proprietary format needs licensed software we tell you at the scoping stage, and the contractor can usually export the images and headers in a readable form without altering them."
+  },
+  {
+   "q": "What if we only have the PDF report with screenshots?",
+   "a": "We can still review the procedure, personnel, calibration and acceptance documents and the screenshots themselves, but the opinion will say that image quality and interpretation could not be independently confirmed. Screenshots lose bit depth and processing history, so they are a weak basis for an accept or reject call on a marginal indication."
+  },
+  {
+   "q": "Does Atlantis perform digital radiography in the United States?",
+   "a": "No. Industrial radiography in the US is licensed under NRC rules or an Agreement State program, and Atlantis does not hold that role. Reviewing DR images and reports produced by your licensed contractor is a document review, and that is the service described here."
+  },
+  {
+   "q": "Is a DR image acceptable if the indication only shows up after filtering?",
+   "a": "That depends on what the procedure permits and on whether the filtered view is reproducible from the raw file. We compare the unprocessed and processed images and say in the opinion whether the indication is real, whether the filter could have created or exaggerated it, and what further imaging would settle it."
+  },
+  {
+   "q": "Which image quality values should a DR report show?",
+   "a": "At least the IQI sensitivity achieved, and normally the measured signal-to-noise ratio and basic spatial resolution where the procedure or governing practice calls for them. They should be measured on production images in the interpreted region. One set of values for an entire job is a common gap."
+  },
+  {
+   "q": "How is this different from your radiograph interpretation review?",
+   "a": "The interpretation guide covers readability, IQI placement, artefacts and whether the reading matches the image, for film and digital alike. A DR report review adds the detector's qualification and stability records, the calibration and bad pixel files, processing records and the integrity of the image files."
+  },
+  {
+   "q": "Do you decide whether the weld is accepted?",
+   "a": "We give a written opinion on whether the record supports the accept or reject call against the acceptance criteria the contract names. The acceptance decision itself stays with the owner and, where the code requires one, the inspector of record for the equipment."
+  },
+  {
+   "q": "Can you review DR work from the Middle East?",
+   "a": "Yes, remotely and in the same way. Many projects there specify ISO 17636-2 or an operator standard on top of the ASME codes, so we read the image quality class and acceptance standard the contract actually names."
+  }
+ ],
+ "related": [
+  [
+   "/report-validation/radiographic-film-and-digital-interpretation-review",
+   "Radiograph interpretation review"
+  ],
+  [
+   "/standards/asme-section-v-article-2",
+   "ASME Section V Article 2 explained"
+  ],
+  [
+   "/standards/iso-17636",
+   "ISO 17636 radiographic testing of welds"
+  ],
+  [
+   "/radiographic-testing",
+   "Radiographic testing"
+  ],
+  [
+   "/report-validation/what-makes-an-ndt-report-defensible",
+   "What makes an NDT report defensible"
+  ]
+ ],
+ "sources": [
+  "https://store.astm.org/e2698-26.html",
+  "https://newsroom.astm.org/newsroom-articles/new-astm-nondestructive-testing-standards-will-aid-users-use-digital-detector",
+  "https://store.astm.org/e2597_e2597m-22.html",
+  "https://store.astm.org/e2736-17r22.html",
+  "https://webstore.ansi.org/standards/astm/astme273723",
+  "https://cdn.standards.iteh.ai/samples/115531/d87f662b437c4fe0b493840a0f367b9b/ASTM-E2007-10-2023-.pdf",
+  "https://www.iso.org/standard/78320.html",
+  "https://www.nrc.gov/reading-rm/doc-collections/cfr/part034"
+ ]
+}
