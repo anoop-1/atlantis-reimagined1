@@ -1,0 +1,160 @@
+{
+  "title": "NDT Report Review in Toledo, OH | Independent Validation",
+  "description": "Independent review of NDT reports and digital inspection data from Toledo refineries, aromatics units, Davis-Besse and gas-fired power, done remotely.",
+  "h1": "Independent validation of NDT reports for Toledo's refineries, Davis-Besse and northwest Ohio plants",
+  "eyebrow": "Report validation: Toledo and northwest Ohio",
+  "intro": "For a metro area of its size, Toledo carries an unusual load of inspection paperwork: two refineries with aromatics and specialty chemical units inside the fence, a pressurized water reactor 21 miles to the east-southeast, and an H-class combined cycle plant in Oregon. Two of those assets changed owners in the last few years, which means records written under one company's procedures are now being relied on by another. We review NDT reports and the digital inspection data behind them independently, against the procedure, the code edition and the owner's specification, and set out in writing what the evidence will and will not support. The work is done remotely from the files you send.",
+  "highlights": [
+    {
+      "h": "Records that changed hands",
+      "p": "When a plant is bought, the inspection history comes with it, written to the previous owner's templates, written practice and data systems. A review tells the new owner which parts of that history can carry decisions."
+    },
+    {
+      "h": "Aromatics units, not only crude units",
+      "p": "Refineries here also make xylene, toluene and specialty olefins. Exchanger tube data, stainless piping records and vessel reports from those units get the same seven checks as anything from the crude side."
+    },
+    {
+      "h": "Ohio's own inspection structure",
+      "p": "General inspectors, insurer-designated special inspectors and the state's radiation program all shape what a complete record looks like in Ohio. The opinion reads the report with those readers in mind."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What northwest Ohio puts in front of a reviewer",
+      "p": [
+        "PBF Energy's Toledo refinery occupies a 282-acre site about 60 miles south of Detroit and is rated at roughly 180,000 barrels per day. Alongside fuels it produces petrochemicals: nonene, tetramer, xylene and toluene. The second refinery, the former BP-Husky plant, has been wholly owned and operated by Cenovus Energy since February 2023, when Cenovus bought BP's half and took over operatorship; it runs about 160,000 barrels per day, of which 90,000 can be heavy oil.",
+        "East along the lakeshore road, the Davis-Besse Nuclear Power Station near Oak Harbor in Ottawa County is a Babcock & Wilcox pressurized water reactor with a renewed licence running to April 2037. Vistra completed its purchase of Energy Harbor, and with it Davis-Besse, Perry and Beaver Valley, in March 2024; the NRC lists Vistra Operations Company LLC as the licensee. In Oregon, the Oregon Clean Energy Center has run since 2017 as a combined cycle plant with two Siemens H-class gas turbines and a steam turbine.",
+        "That mix produces a steady stream of turnaround packages, exchanger bundle data, vessel internal inspection reports, outage and supply-chain records, and heat recovery steam generator inspections. The facilities named here describe the region's industry; listing them is not a claim that Atlantis has reviewed their records or worked for their owners."
+      ]
+    },
+    {
+      "h": "When the owner changes, the records get read again",
+      "p": [
+        "A change of ownership turns old inspection files into evidence. The buyer's inspection group inherits years of reports it did not commission, written to another company's procedures by contractors it may never have used, and signed by examiners certified under someone else's written practice. Some of that history will be excellent. Some will be thin in ways nobody noticed while the previous owner's engineers were around to explain it.",
+        "Northwest Ohio has seen exactly this. Cenovus moved from co-owner to sole owner and operator of its Toledo refinery in 2023, and Vistra became the owner of Davis-Besse in 2024. In both kinds of transition the same practical questions come up: can the thickness history on a circuit be trended, or did the previous owner change its CML scheme halfway through? Were examiners certified under a written practice the new owner can still produce? Did the inspection data management system that held the readings migrate intact, or did some records arrive as scanned PDFs with the raw files left behind?",
+        "An independent review answers those questions on a sample chosen with the new owner: the highest-consequence circuits, items with open recommendations, repairs and the equipment the new owner's own engineers trust least. The opinion says which parts of the inherited record can support the new owner's inspection planning and which parts need re-examination before they can."
+      ]
+    },
+    {
+      "h": "Aromatics and specialty chemical units inside the refinery fence",
+      "p": [
+        "Petrochemical units that make xylene, toluene and olefins such as nonene and tetramer bring their own equipment and their own records. Fractionation columns, reactors, heaters and long trains of heat exchangers generate vessel internal inspection reports, ultrasonic thickness surveys on process piping, liquid penetrant records on stainless steel welds, and eddy current or other electromagnetic tube data from exchanger bundles at every outage.",
+        "Reviewers see predictable weak points in those records. Penetrant examinations on stainless welds sometimes omit the dwell time, the temperature or the penetrant system's batch numbers. Thickness surveys on small-bore piping drift between outages because the locations were never marked on an isometric. Exchanger tube reports list calls by tube number without the calibration standard that sized them. None of these automatically makes the examination wrong, but each one weakens the record's ability to prove what it says."
+      ]
+    },
+    {
+      "h": "Situations from northwest Ohio and what settles them",
+      "p": [
+        "The reason for a review decides where it puts its weight. The table lists situations we hear about from owners, contractors and buyers in the region, and the evidence that usually decides each one."
+      ],
+      "table": {
+        "head": ["Situation", "What the client needs to know", "What the reviewer opens", "What would make the record deficient in disposition"],
+        "rows": [
+          ["Inherited inspection history after an acquisition", "Whether past readings and dispositions can be trusted for planning", "A sample of reports with their raw files, the previous owner's procedures and certifications", "Readings that cannot be tied to locations, or dispositions that rest on criteria the data does not meet"],
+          ["Turnaround close-out at a refinery", "Which items can go back into service on the record as written", "Risk-ranked reports, repair records, PAUT and thickness files, calibration certificates", "An accepted indication whose sizing the encoded data does not support"],
+          ["Exchanger bundle data from an aromatics unit", "Whether plugging calls and tube wall estimates are reliable", "Raw tube files, calibration standards, analysis settings and the tube sheet map", "Calls sized against an unsuitable standard, or tubes reported as examined that the data does not cover"],
+          ["Nuclear vendor or outage contractor record", "An independent technical view the licensee's QA group can weigh", "The purchase order, procedures, personnel records and examination data", "An indication dispositioned against an acceptance standard the order did not name"],
+          ["HRSG or high-energy piping repair", "Whether the repair NDE will satisfy the inspector and the owner", "Weld procedure references, NDE reports after final heat treatment, radiographs or UT data", "No examination recorded after the last heat treatment the procedure required"]
+        ]
+      }
+    },
+    {
+      "h": "Davis-Besse: an opinion inside the licensee's quality program",
+      "p": [
+        "Davis-Besse is overseen by NRC Region III, and every examination bought for the station passes through the licensee's own quality assurance program. Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list. We frame nuclear work as an independent technical opinion, and the licensee's QA organisation decides what weight it carries and whether it becomes part of any quality record.",
+        "The useful ground is wide even so. A station may want a second reader for non-safety-related or balance-of-plant scope, oversight of a vendor's examination records before a component ships, an owner's check on an outage contractor's interpretation that its own reviewers question, or technical input to a commercial dispute. In a pressurized water reactor the records include ultrasonic examinations of welds and components, liquid penetrant and visual records, and steam generator and heat exchanger tube data from eddy current examination.",
+        "Eddy current is outside the five methods our Level III holds, so for tube data the proposal names a reviewer with the eddy current certification the contract calls for. For ultrasonic, penetrant and visual records the review checks the procedure revision the order invoked, examiner certification and any performance demonstration the code required, calibration traceability and the disposition of every recorded indication."
+      ]
+    },
+    {
+      "h": "Combined cycle plants and Ohio's boiler law",
+      "p": [
+        "A combined cycle plant like the one in Oregon runs its heat recovery steam generators hard through daily starts and load swings, and its outage reports reflect that: tube and header examinations, attemperator and drain line records, high-energy piping weld examinations and boiler tube thickness data. Repairs carry their own trail of weld procedures, post-weld heat treatment charts and final NDE.",
+        "Ohio's boiler law, Revised Code Chapter 4104, decides who accepts that work. The director of commerce may appoint general inspectors, and an insurer authorised to write boiler and pressure vessel coverage in Ohio may designate special inspectors to inspect the units it covers, commissioned by the state's superintendent. The law bars anyone with a financial interest in making or selling boilers or pressure vessels from serving as either kind of inspector.",
+        "That independence requirement is a useful reference point. The commissioned inspector, not the reviewer, accepts the boiler or vessel, and Atlantis does not act as an authorized inspector or inspector of record. What we add is an independent reading of the NDE behind a repair or a new installation, so the owner or the repair organisation knows before the inspector arrives whether the examinations meet the construction code and will answer the questions the inspector is going to ask."
+      ]
+    },
+    {
+      "h": "Ohio regulators behind a Toledo inspection record",
+      "p": [
+        "Process equipment in the refineries and chemical units sits within OSHA's process safety management standard, 29 CFR 1910.119, whose mechanical integrity element expects written records of each inspection and test: the date, who performed it, the equipment, the method and the result. The owners meet that through API 510, 570 and 653 programs and their own engineering standards, and a review reads the report against both.",
+        "Ohio is an NRC Agreement State. The Ohio Department of Health's radiation protection program licenses radioactive materials users in the state, industrial radiography contractors among them, with NRC Region III handling the agency's remaining duties. Atlantis does not carry out radiography in Ohio or anywhere else in the United States; radiographs and CR or DR images from your licensed contractor are reviewed as documents, for image quality, coverage and interpretation.",
+        "Gas pipelines inside the state come under the Public Utilities Commission of Ohio, whose gas pipeline safety rules in Ohio Administrative Code Chapter 4901:1-16 adopt the federal Department of Transportation gas pipeline safety regulations and set the commission's own records, inspection and reporting requirements. Interstate and hazardous liquid lines answer to PHMSA."
+      ]
+    },
+    {
+      "h": "Digital reporting across two generations of systems",
+      "p": [
+        "Ownership change rarely leaves digital inspection data untouched. A new owner brings its own inspection data management system, its own report templates and its own way of applying electronic signatures, and the old data has to be moved, mapped or archived. That is where digital records go wrong without anyone noticing: thickness readings filed against renumbered CMLs, encoded PAUT files that stayed on a contractor's server, DR images converted to compressed formats that lose the information an interpreter relied on, and signature blocks that show a name but not the certification behind it.",
+        "A digital inspection review follows each reading or image from the instrument file to the issued report. We check that the raw file exists and matches the report, that any reprocessing of a digital radiograph was recorded and allowed by the procedure, that phased array scans can be re-gated to reproduce the reported indications, and that every electronic signature belongs to someone certified for that method and level on the date shown. For an owner mid-migration, a review of a sample of migrated records shows whether the history survived the move."
+      ]
+    },
+    {
+      "h": "How a Toledo review runs, and where it stops",
+      "p": [
+        "Nothing about the review requires anyone in Toledo. Atlantis keeps no staff or premises in Ohio; our offices are in Houston and Hyderabad, and the review is done remotely on the records you transfer to us securely."
+      ],
+      "list": [
+        "Tell us what the report covers, the method, the code or procedure, and the decision riding on it, using the form or info@atlantisndt.com",
+        "We reply within one business day with the review scope, the named reviewer and a quote",
+        "Reports, procedures, certifications, calibration records and raw digital files come across by secure transfer",
+        "UT, RT, MT, PT and VT records go to an ASNT NDT Level III whose certification spans exactly those five methods; the wider review team has members from nuclear, maritime, oil and gas and petrochemical work",
+        "Gaps the record cannot answer come back to you as written questions rather than assumptions",
+        "The opinion gives each report one verdict, sound, deficient in documentation only or deficient in disposition, with every finding tied to a clause or procedure step",
+        "Remaining-life and fitness-for-service calculations stay with your engineer, boiler and vessel acceptance stays with the commissioned inspector, and personnel certification stays with the employer"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "We have just bought a plant in northwest Ohio. Can you tell us how much of the inspection history we can rely on?",
+      "a": "Yes. We agree a sample with your inspection group, usually the highest-consequence circuits, open recommendations and recent repairs, and review it against the previous owner's procedures and the codes in force at the time. The opinion says which parts of the record can support your planning and which need new examination."
+    },
+    {
+      "q": "Can you review exchanger tube data from an aromatics or crude unit outage?",
+      "a": "Yes. Because our Level III certification does not include eddy current, the proposal names a reviewer holding the certification your contract requires. That reviewer reopens the raw tube files, checks the calibration standards and analysis settings, and compares the calls with the tube sheet map."
+    },
+    {
+      "q": "Do you work on records for Davis-Besse?",
+      "a": "We can give an independent technical opinion on records connected with a nuclear station, for example vendor data before shipment or a disputed interpretation. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list, so the licensee's QA organisation decides how the opinion is used."
+    },
+    {
+      "q": "Will someone from Atlantis visit the refinery?",
+      "a": "No. The review is carried out remotely on the documents and data files you send, so nobody needs site access, a permit or an escort."
+    },
+    {
+      "q": "Our contractor's radiographs were rejected by the owner's inspector. Can you check them?",
+      "a": "Yes. We review film, CR and DR images for image quality evidence, coverage against the weld map and interpretation against the acceptance standard the procedure names, and say whether the rejection holds. Atlantis does not perform radiography in Ohio, where radiography licensing sits with the Ohio Department of Health."
+    },
+    {
+      "q": "Can the review stand in for the Ohio special inspector on a boiler repair?",
+      "a": "No. Acceptance stays with the commissioned general or special inspector. The review gives the owner or repair organisation an independent reading of the repair NDE so it can answer the inspector's questions with evidence."
+    },
+    {
+      "q": "Our new inspection data system lost some raw files in migration. Is the history still usable?",
+      "a": "Often partly. The review checks which reported readings and dispositions can still be traced to source data and which now rest on the PDF alone, and the opinion tells you where re-examination would restore the trend."
+    },
+    {
+      "q": "What do you need from us to scope a review?",
+      "a": "The report or a representative sample, the procedure and code it was written to, and a line on the decision it supports. We reply within one business day with the scope, the named reviewer and a quote."
+    }
+  ],
+  "related": [
+    ["/inspection-services-ohio", "Inspection services in Ohio"],
+    ["/consulting/ndt-consulting-toledo", "NDT consulting in Toledo"],
+    ["/ndt-training-toledo", "NDT training in Toledo"],
+    ["/ultrasonic-testing-toledo", "Ultrasonic testing in Toledo"]
+  ],
+  "sources": [
+    "https://www.pbfenergy.com/refineries/",
+    "https://www.13abc.com/2023/02/28/company-acquires-full-ownership-bp-husky-toledo-refinery/",
+    "https://www.nrc.gov/info-finder/reactors/davi",
+    "https://toledoblade.com/business/energy/2024/03/01/texas-based-vistra-now-officially-owns-the-davis-besse-perry-and-beaver-valley-n/stories/20240301134",
+    "https://www.govinfo.gov/content/pkg/FR-2025-11-24/html/2025-20791.htm",
+    "https://en.wikipedia.org/wiki/Oregon_Clean_Energy_Center",
+    "https://codes.ohio.gov/ohio-revised-code/section-4104.08",
+    "https://codes.ohio.gov/ohio-revised-code/section-4104.15",
+    "https://www.nrc.gov/agreement-states/ohio",
+    "https://codes.ohio.gov/ohio-administrative-code/chapter-4901:1-16"
+  ]
+}

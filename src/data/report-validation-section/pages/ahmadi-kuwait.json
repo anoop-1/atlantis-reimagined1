@@ -1,0 +1,198 @@
+{
+  "title": "NDT Report Validation in Al Ahmadi, Kuwait | Refinery Review",
+  "description": "Independent review of NDT reports and digital inspection data from KNPC refineries, Kuwait Oil Company operations and projects around Al Ahmadi, done remotely.",
+  "h1": "Independent review of inspection records from Kuwait's refineries and oilfields around Al Ahmadi",
+  "eyebrow": "Report validation: Al Ahmadi, Kuwait",
+  "intro": "Al Ahmadi is Kuwait's oil town. Kuwait Oil Company has its headquarters there, the Mina Al-Ahmadi refinery carries its name, and since 2026 all three of the country's refineries have sat with one company, KNPC. Much of the refining capacity is young, rebuilt or added since 2021, and it is now reaching the inspections that will set its baselines. We review the NDT reports and digital inspection data those plants and oilfields produce, independently, against the procedure, the operator's specification and the code, and put in writing what the evidence supports. Atlantis has no Kuwait office; the review is carried out remotely on the records you send.",
+  "highlights": [
+    {
+      "h": "Young plant, first baselines",
+      "p": "Units built under the Clean Fuels Project and at Al-Zour are reaching their first major inspections. The review checks that construction records and first in-service data are good enough to trend against for decades."
+    },
+    {
+      "h": "Refinery and oilfield records",
+      "p": "Refinery turnaround packages and upstream records from gathering centres, storage tanks and pipelines are read against the code and the operator specification that governed each one."
+    },
+    {
+      "h": "A plain written verdict",
+      "p": "Each opinion ends in one of three verdicts: sound, deficient in documentation only, or deficient in disposition, with the evidence and the governing clause behind every finding."
+    }
+  ],
+  "sections": [
+    {
+      "h": "One refining company, three refineries",
+      "p": [
+        "Kuwait National Petroleum Company's Clean Fuels Project rebuilt the Mina Al-Ahmadi and Mina Abdullah refineries into a single integrated complex. KNPC lists 76 new units installed across the two sites, 7 units upgraded, 7 shut down and 4,045 new pieces of equipment, with capacities of 346,000 and 454,000 barrels a day, a combined 800,000. The US government's commercial guide for Kuwait dates the project's completion to November 2021.",
+        "The country's third refinery, Al-Zour, reached full operation in 2023 with three crude distillation units and a capacity of 615,000 barrels a day, and a gas import facility at the same complex was completed in 2021. Both were built and run by Kuwait Integrated Petroleum Industries Company. In 2026 KIPIC was merged into KNPC: Kuwait's Supreme Petroleum Council approved the merger on 29 April, the official gazette carried the notice in June, and KNPC takes over KIPIC's rights and obligations. All three refineries now report to one company, though their inspection histories were built under two.",
+        "Facilities are named here to describe the area. Naming them does not mean Atlantis has reviewed their records, holds a place on any of their contractor lists or has worked for their owners."
+      ]
+    },
+    {
+      "h": "Kuwait Oil Company and the upstream record",
+      "p": [
+        "Kuwait Oil Company is the upstream arm of Kuwait Petroleum Corporation, responsible for finding and producing the country's oil and gas, and its head office is in Ahmadi. The US commercial guide puts current production capacity at about 3.15 million barrels a day, against KPC targets of 4 million barrels a day of oil capacity by 2035 and 4 billion cubic feet a day of gas by 2030, with heavy oil among the growth projects.",
+        "Upstream assets produce a different mix of inspection records from refineries. Gathering centres send pressure vessel and piping reports, corrosion surveys and weld records on modifications. Crude storage produces API 653 tank inspections, floor scans and shell thickness surveys. Flowlines and pipelines produce girth weld records, often with radiographs or automated ultrasonic data, along with dig and repair reports. Growth projects add new-build fabrication packages from shops inside and outside Kuwait, each written to KOC's specifications."
+      ]
+    },
+    {
+      "h": "A wave of young equipment reaching its first major inspections",
+      "p": [
+        "Most refineries inspect equipment whose history goes back decades. Kuwait's situation is unusual: a large share of the refining plant was installed between the late 2010s and 2023, so a great deal of it is approaching its first, or second, major turnaround at roughly the same time. That makes the first in-service inspection unusually important, because it becomes the baseline every later inspection will be compared with.",
+        "Two sets of records carry that baseline. The first is the construction record: the manufacturer's data books, the field weld records and the thickness readings taken before start-up. The second is the first in-service data set. If either is weak, for example thickness readings taken at locations that do not match the condition monitoring locations later adopted, or construction weld records that cannot be traced to the as-built isometrics, the plant loses the ability to calculate corrosion rates reliably for years.",
+        "An independent review at this point checks both. The reviewer confirms that construction records support the acceptance they claim, that first in-service readings sit against the right locations with the right reference points, and that corrosion maps and PAUT data were acquired in a way the next contractor can repeat. Findings are sorted into documentation gaps that can be closed now and data that cannot serve as a baseline and needs re-acquiring at the next opportunity."
+      ]
+    },
+    {
+      "h": "Assets around Al Ahmadi and the records they generate",
+      "p": [
+        "The table maps the main asset groups to the companies that run them and to the records most likely to reach a review."
+      ],
+      "table": {
+        "head": [
+          "Asset group",
+          "Company",
+          "Records that typically reach review"
+        ],
+        "rows": [
+          [
+            "Mina Al-Ahmadi and Mina Abdullah integrated refinery",
+            "KNPC",
+            "Turnaround packages, API 510 and API 570 reports, first-cycle thickness and corrosion map data on Clean Fuels units, exchanger tube files"
+          ],
+          [
+            "Al-Zour refinery",
+            "KNPC, since the 2026 merger with KIPIC",
+            "Early-life in-service inspection data, construction data books used as baselines, PAUT and TOFD on thick-walled reactors and drums"
+          ],
+          [
+            "Al-Zour gas import facility",
+            "KNPC, since the merger",
+            "Low-temperature and stainless piping weld records, PT on austenitic welds, DR images, insulation and corrosion surveys"
+          ],
+          [
+            "Gathering centres",
+            "Kuwait Oil Company",
+            "Vessel and piping inspection reports, corrosion monitoring data, weld records on tie-ins and modifications"
+          ],
+          [
+            "Crude storage tanks",
+            "Kuwait Oil Company and KNPC",
+            "API 653 inspection reports, floor scan data, shell thickness surveys, settlement records"
+          ],
+          [
+            "Flowlines and pipelines",
+            "Kuwait Oil Company",
+            "Girth weld radiographs and DR images from licensed contractors, automated UT data, dig and repair records"
+          ],
+          [
+            "Fabrication for projects",
+            "Shops in Kuwait and abroad",
+            "Manufacturer's data books, UT used in place of radiography, PMI and hardness records, hydrotest charts"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "When two companies' records become one company's",
+      "p": [
+        "A merger changes who reads an inspection record without changing the record. Reports written for one company's templates, numbering system and inspection database now sit beside reports written for another's, and the people relying on them may be new to one of the two histories. That is a common moment for owners anywhere to ask whether a body of records can still be relied on.",
+        "A review in this situation is practical rather than forensic. It checks that each report can still be tied to an asset tag and a location the new owner recognises, that the procedures and specifications it cites are identified clearly enough to be retrieved, that raw digital files are still attached to the reports they support, and that thickness and corrosion data can be compared across the two record systems. Where a record cannot be traced, the opinion says so, so the owner can decide whether to re-examine or accept the gap."
+      ]
+    },
+    {
+      "h": "Specifications, contractor prequalification and radiation licensing",
+      "p": [
+        "Work for Kuwait's state oil companies is written to the operator's own engineering specifications, which call up the international codes: ASME Section V for technique, ASME Section VIII and B31.3 for new construction, API 510, 570 and 653 for in-service equipment and API 1104 for pipeline welding. Where the specification is stricter than the code, it controls. We read the report against the specification your contract names and quote its clause in the opinion; where a specification number is not stated in the record, we describe the requirement rather than guess at a reference.",
+        "Contractors working for the state companies are prequalified, and Kuwait Petroleum Corporation moved registration and prequalification onto its K-Tendering Portal in April 2024. Atlantis does not claim to be on any Kuwaiti operator's approved contractor or vendor list. A review is commissioned by whoever needs the opinion: the operator, a prequalified contractor, a fabricator or an adviser.",
+        "Radiation work is licensed by the Ministry of Health. It issues licences for dealing with ionising radiation sources and personal licences for people who work in the field, and in 2024 the minister approved decisions on licensing procedures and on the security of radioactive sources. Radiographs from Kuwaiti sites should come from a licensed radiography contractor. Atlantis does not perform radiography in Kuwait; film, CR and DR images are reviewed as documents."
+      ]
+    },
+    {
+      "h": "Typical review situations from Kuwait",
+      "p": [
+        "The reason for the review decides what the reviewer concentrates on, so it is the first thing we ask. These are the situations we expect most often from Kuwaiti refineries, oilfields and the contractors who serve them."
+      ],
+      "list": [
+        "Closing out a refinery turnaround where several contractors have reported on the same units in different formats",
+        "Confirming that construction data books and first in-service data from young units are good enough to serve as baselines",
+        "Answering a rejection of an inspection contractor's report by the operator's inspection group",
+        "Checking a fabricator's data book against the operator's specification before it is submitted for acceptance",
+        "Reviewing API 653 tank records and floor scan data before a decision on repair scope",
+        "Reading pipeline girth weld records, including radiographs and automated UT data, for a project close-out or a dispute",
+        "Testing whether a body of records can still be traced and compared after a change of owner or record system"
+      ]
+    },
+    {
+      "h": "Digital inspection data from Kuwaiti plant",
+      "p": [
+        "Plants commissioned in the last few years were inspected from the start with digital tools. Thickness readings flow from data loggers into inspection databases, PAUT and TOFD data sits in encoded files, radiography increasingly arrives as CR or DR images, and contractors deliver through digital reporting platforms that assemble the final report automatically. For a reviewer this is mostly good news: raw data can be reopened, re-gated and measured again long after the crew has left.",
+        "It also brings its own failure modes. We check that each data file belongs to the weld or location named in the report, that DR images were not reprocessed after interpretation without a record, that setup and calibration files match the instrument used on the date stated, and that a reporting template did not carry values over from another job. Electronic signatures are compared with the certificates valid on the date they were applied, and revision histories are read for edits after approval. Where records have moved between databases, the review checks that the move kept data and reports together, because a corrosion rate is only as reliable as the data lineage behind it."
+      ]
+    },
+    {
+      "h": "A remote review, start to finish",
+      "p": [
+        "Atlantis has no Kuwait office and no team, agent or partner in the country. The review is run from Houston and Hyderabad, and with Hyderabad two and a half hours ahead of Kuwait, most of your working day overlaps ours. Because the work is a review of documents and digital data, it needs no site access, permit or visa.",
+        "You describe the asset, the method, the specification and the decision the record supports, and we reply within one business day with the scope, the named reviewer and a quote. Reports, procedures, certificates, calibration records and raw files arrive through a secure transfer or your company's own platform. The reviewer then works through procedure compliance, personnel qualification, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability, sends back any questions the documents cannot answer, and issues the written opinion with its verdict and the evidence for each finding."
+      ]
+    },
+    {
+      "h": "The reviewer, and what stays with the owner",
+      "p": [
+        "UT, RT, MT, PT and VT records are reviewed under an ASNT NDT Level III certified in all five of those methods, within a team whose members come from nuclear, maritime, oil and gas and petrochemical work. Eddy current tube data and other methods outside those five go to a reviewer the proposal names, holding the certification your contract requires.",
+        "Fitness-for-service, remaining-life and rerating work stays with the owner's engineer, as do decisions on repair scope and return to service. The inspector of record remains the person your inspection programme names. Atlantis takes on no review of an examination it performed and does not certify personnel."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have an office or inspectors in Kuwait?",
+      "a": "No. Atlantis has no office, inspector, agent or partner in Kuwait. Reviews are carried out remotely from Houston and Hyderabad on the records you send, without any site visit."
+    },
+    {
+      "q": "Is Atlantis on KNPC's or KOC's approved contractor list?",
+      "a": "No, and we do not claim to be. Reviews are commissioned by whoever needs the opinion, whether that is an operator, a prequalified contractor, a fabricator or an adviser."
+    },
+    {
+      "q": "Can you check whether construction records from a new unit will work as an inspection baseline?",
+      "a": "Yes. The reviewer checks that data books, field weld records and pre-start-up thickness readings support the acceptance they claim and can be traced to the locations your inspection programme uses for trending."
+    },
+    {
+      "q": "Do you review radiographs from Kuwaiti pipeline and refinery work?",
+      "a": "Yes, as documents. Film, CR and DR images from your licensed radiography contractor are checked for image quality, coverage and interpretation. Atlantis does not perform radiography in Kuwait, where radiation work is licensed by the Ministry of Health."
+    },
+    {
+      "q": "Our report was rejected by the operator's inspectors. Can you tell us whether the rejection is right?",
+      "a": "Yes. Send the report, the rejection, the procedure and the certificates. The opinion says whether the rejection holds and separates documentation points you can correct from findings that affect the accept or reject decision."
+    },
+    {
+      "q": "Who reviews eddy current data from refinery exchangers?",
+      "a": "A reviewer named in the proposal, with the eddy current certification your contract specifies, who reopens the raw tube files. Our own Level III review covers ultrasonic, radiographic, magnetic particle, penetrant and visual records only."
+    },
+    {
+      "q": "Will the opinion tell us how much life a vessel or tank has left?",
+      "a": "No. It tells you whether the inspection data behind that calculation can be trusted. Remaining-life and fitness-for-service assessments stay with your engineer."
+    },
+    {
+      "q": "How do we start a review from Kuwait?",
+      "a": "Use the form or email info@atlantisndt.com with the asset, the method, the specification and the purpose of the review. A reply with the scope and a quote follows within one business day."
+    }
+  ],
+  "related": [
+    ["/ndt-training-kuwait", "NDT training in Kuwait"],
+    ["/practical-ndt-ahmadi", "Practical NDT simulator in Al Ahmadi"],
+    ["/practical-ndt-kuwait", "Practical NDT simulator in Kuwait"],
+    ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT Level III consulting"]
+  ],
+  "sources": [
+    "https://knpc.com/en/strategic-projects/commissioned-projects/clean-fuels-project-cfp",
+    "https://www.trade.gov/country-commercial-guides/kuwait-oil-and-gas",
+    "https://www.enerdata.net/publications/daily-energy-news/kuwait-begins-full-operation-its-615-kbd-al-zour-oil-refinery.html",
+    "https://www.arabtimesonline.com/news/knpc-absorbs-kipic-expands-energy-portfolio/",
+    "https://kuwaittimes.com/article/45801/business/kipic-knpc-merger-marks-strategic-milestone-for-kuwaits-oil-industry/",
+    "https://www.kpc.com.kw/KCompanies",
+    "https://structurae.net/en/products-services/new-office-building-in-kuwait-for-one-of-the-worlds-largest-oil-producers",
+    "https://e.gov.kw/sites/kgoenglish/Pages/Services/MOH/PersonalLicensesIonizingRadiation.aspx",
+    "https://www.lexis.ae/2024/01/31/kw-radiation-protection-decisions-approved/"
+  ]
+}
