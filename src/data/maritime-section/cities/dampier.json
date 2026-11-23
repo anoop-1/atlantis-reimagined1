@@ -1,0 +1,118 @@
+{
+  "slug": "dampier",
+  "name": "Dampier",
+  "country": "Australia",
+  "region": "oceania",
+  "title": "Ultrasonic Thickness Gauging Dampier | Ore, Salt & LNG Ships",
+  "description": "Ship thickness measurement at Dampier on Mermaid Sound: ore and salt carriers, LNG and LPG carriers and offshore supply vessels; tanks, holds, decks, piping.",
+  "h1": "Ship Gauging in Dampier for Ore Carriers, Gas Carriers and the Offshore Fleet",
+  "intro": "Dampier, on Mermaid Sound in the Pilbara, works three trades side by side: Rio Tinto's iron ore terminals at Parker Point and East Intercourse Island, Dampier Salt's export berth, and Woodside's LNG, LPG and condensate jetties at Withnell Bay and Pluto. Supply bases serve the offshore oil and gas fleet. There is no dry dock on this coast, so ships are gauged at the berth, at anchor or between offshore campaigns, by technicians who fly from India to Karratha for the job.",
+  "keywords": [
+    "dampier thickness gauging",
+    "utm dampier",
+    "offshore supply vessel gauging australia",
+    "ship inspection karratha",
+    "salt carrier hold gauging",
+    "lng carrier inspection dampier",
+    "pilbara ship thickness measurement",
+    "on-hire off-hire survey offshore vessel",
+    "pre-purchase inspection osv australia"
+  ],
+  "highlights": [
+    {
+      "h": "Supply vessels between offshore campaigns",
+      "p": "Platform supply and offshore support vessels return to the Dampier supply bases between jobs on the North West Shelf. A quiet period alongside is the best chance in the Pilbara for a full scope on tanks, decks and seawater piping."
+    },
+    {
+      "h": "Salt carriers and corroded holds",
+      "p": "Salt residue is one of the most corrosive cargoes a bulk carrier handles. Ships loading at Dampier Salt's berth arrive with empty holds, which is the moment to gauge hold frames, lower stools and hatch covers before the next cargo goes in."
+    },
+    {
+      "h": "Gas jetties with strict hazardous-area rules",
+      "p": "Withnell Bay and Pluto are working LNG and LPG terminals where electronic equipment, hot work and deck movement are tightly controlled. Gauging there is limited to what the terminal allows, so gas carrier work is usually planned for elsewhere or kept to permitted areas."
+    }
+  ],
+  "port": {
+    "h": "Mermaid Sound: ore, salt and gas in one port",
+    "p": [
+      "Mermaid Sound is a broad body of water on the western side of the Burrup Peninsula, sheltered from the open Indian Ocean by the islands of the Dampier Archipelago. The port's berths are spread around it rather than gathered in one harbour: ore terminals at Parker Point on the mainland and on East Intercourse Island, the salt loading facility, the public cargo wharf and bulk liquids berth near the town, and the gas jetties across the sound at Withnell Bay and on the Burrup. Pilbara Ports is the port authority, but the main terminals are run by the companies that own them. The regional city of Karratha lies a short drive inland and supplies most of the workforce and accommodation. Like the rest of this coast, the port sits in the path of tropical cyclones between November and April, when operations can stop with little warning.",
+      "Iron ore is the largest trade by tonnage. Rio Tinto loads capesize bulk carriers at Parker Point and East Intercourse Island with ore railed from its Pilbara mines, and also runs a fuel berth for diesel discharge; its other Pilbara export terminal, Cape Lambert, lies to the east in a separate port. Dampier Salt ships solar salt through its own shiploader to customers in Asia. Across the sound, the Withnell Bay terminal loads LNG from the North West Shelf project's onshore plant, a second jetty there handles LPG and condensate, and the Pluto jetty loads LNG and condensate from Woodside's Pluto plant. The Dampier Bulk Liquids Berth imports diesel and handles anhydrous ammonia from the plants on the Burrup. Supply vessels, crew boats and general cargo ships use the Dampier Cargo Wharf and the supply bases.",
+      "For gauging, these trades behave very differently. Ore carriers and salt carriers follow a quick-turnaround pattern, with scopes squeezed into a loading window. Gas carriers are usually on long-term charters to the LNG projects, operated to oil-major vetting standards, and their owners schedule most structural work for dockings in Asian yards. The offshore fleet is where longer jobs happen. Supply and support vessels working the North West Shelf fields come back to Dampier for cargo, crew changes and maintenance, and a vessel waiting for its next charter can make every tank available. Operators and charterers inspect these vessels through schemes such as OCIMF's Offshore Vessel Inspection Database, and a current thickness record for tanks, deck and piping strengthens a vessel's position before a charter starts."
+    ]
+  },
+  "facilities": {
+    "h": "Supply bases, ore and salt berths and the gas jetties",
+    "p": [
+      "Dampier has no dry dock, slipway or repair yard for ocean-going ships. Offshore support vessels that need a docking normally go south to the Australian Marine Complex at Henderson near Fremantle, or north to Southeast Asian yards, and ore and gas carriers dock in Asia. Work at Dampier is therefore done alongside or at anchor. The supply bases are the most practical places: the Toll Dampier Supply Base has three serviced berths with cranes and storage, and Woodside runs its own King Bay Supply Base for its support fleet. A vessel tied up between campaigns can open its tanks one by one, and the team works through them while the crew carries on with maintenance.",
+      "At the ore terminals, access is controlled by Rio Tinto and scopes follow the loading plan: deck plating, coamings and cross-deck structure on holds clear of the loader, and ballast tanks once they are empty and tested. The salt berth is similar, with holds gauged before loading. The gas jetties are the most restricted. Electronic equipment, including ultrasonic gauges, falls under the terminal's hazardous-area rules, so any measurement there is limited to the locations and conditions the terminal permits. The anchorages in and outside Mermaid Sound give more freedom for ships waiting in ballast, and the islands give the sound some shelter for launch transfers, though strong winds still stop them."
+    ],
+    "list": [
+      "Toll Dampier Supply Base: full tank, deck and seawater piping gauging on offshore support vessels between charters",
+      "King Bay Supply Base: gauging on vessels in Woodside's support fleet when the operator schedules it",
+      "Dampier Cargo Wharf: general cargo ships, heavy-lift ships and supply vessels, with longer stays and wider scopes",
+      "Parker Point and East Intercourse Island: priority deck, coaming and ballast tank readings on capesizes during loading",
+      "Dampier Salt berth: hold, hopper and hatch cover gauging on salt carriers before loading begins",
+      "Mermaid Sound anchorages: pre-purchase and condition gauging by launch on ships waiting in ballast"
+    ]
+  },
+  "context": {
+    "h": "Port state control, vetting and offshore rules at Dampier",
+    "p": [
+      "AMSA's port state control officers inspect ships at Dampier under the Tokyo MoU and Indian Ocean MoU arrangements that cover every Australian port. Gas carriers also answer to the oil majors' commercial vetting through OCIMF's SIRE 2.0 programme, and offshore support vessels to OVID inspections, so a vessel calling here may face several inspections in close succession. Offshore petroleum facilities themselves are regulated by NOPSEMA, the national offshore safety regulator, while the vessels supporting them are inspected in port by AMSA. For an operator, the practical point is that structural condition is checked by many parties here, and a thickness record that matches what the inspectors see is worth having before the first one boards.",
+      "Biosecurity and weather complete the picture. International arrivals report their biofouling management to the Department of Agriculture, Fisheries and Forestry before entering Australian waters, and ballast water discharged while loading ore or salt must meet the department's requirements. The cyclone season is the other constant. When a cyclone threatens, Pilbara Ports clears ships from the berths and anchorages, offshore work may be stood down, and the supply bases go quiet. That makes the wet season a poor time to schedule a long job, but a vessel stood down for weather and waiting alongside for its next task is a natural candidate for gauging once conditions settle."
+    ]
+  },
+  "eca": "none",
+  "psc": "Tokyo MoU and Indian Ocean MoU",
+  "jobs": {
+    "h": "What we gauge at Dampier",
+    "p": "Dampier work is split between the offshore fleet and the export ships. Offshore support vessels give the longest jobs: condition gauging for an owner, on-hire and off-hire records for a charter, or a pre-purchase survey when a vessel changes hands. Export ships give short, targeted jobs: a pre-docking estimate on an ore carrier, hold gauging on a salt carrier, or deck and ballast tank checks on a gas carrier where the terminal allows. We agree the purpose and the scope with the owner or charterer, register the team with the base or terminal, and travel from India once the vessel's position is confirmed. Reports follow the class TM formats, with piping tables where piping is in scope.",
+    "list": [
+      "Off-hire condition gauging of a platform supply vessel at the Toll Dampier Supply Base: cargo and ballast tanks, deck plating and seawater lines",
+      "Pre-purchase gauging of an offshore support vessel lying alongside between charters",
+      "Hold, lower stool and hatch cover gauging on a salt carrier before loading at Dampier Salt's berth",
+      "Pre-docking steel estimate on a capesize loading at Parker Point, focused on ballast and hopper tanks",
+      "Ballast tank and weather deck readings on an LPG carrier, within the limits set by the terminal and the ship's manager"
+    ]
+  },
+  "logistics": "The team flies from India to Perth and on to Karratha Airport on a domestic flight; Dampier is a short drive from Karratha. An Australian visa covering short-term specialist work is arranged before travel. Accommodation in Karratha is in demand from resource projects, so it is reserved once the job is confirmed. Supply bases and terminals each run their own induction and access checks, arranged through the vessel's agent or operator, and visiting technicians work under escort where the site requires it.",
+  "vessels": [
+    "Capesize ore carriers",
+    "Salt carriers",
+    "LNG carriers",
+    "LPG carriers",
+    "Ammonia carriers and product tankers",
+    "Platform supply vessels",
+    "Offshore support and construction vessels",
+    "General cargo and heavy-lift ships",
+    "Harbour tugs"
+  ],
+  "faqs": [
+    {
+      "q": "Can an offshore supply vessel be gauged at Dampier between charters?",
+      "a": "Yes, and it is often the best opportunity this coast offers. With the vessel alongside at a supply base and no cargo operations, tanks can be opened, ventilated and gauged in turn, and deck plating, structure and seawater piping covered in the same visit. We plan the order of tanks with the chief engineer so maintenance and gauging do not get in each other's way."
+    },
+    {
+      "q": "What can be gauged on an LNG or LPG carrier at Withnell Bay or Pluto?",
+      "a": "Only what the terminal permits. These are hazardous-area terminals where electronic instruments, deck access and enclosed-space work are tightly controlled, and the ship's own safety management system adds its rules. In practice, a gas carrier's structural gauging is usually done at a docking or at an anchorage call elsewhere, and any work at the Dampier jetties is limited to agreed locations."
+    },
+    {
+      "q": "Is there a dry dock near Dampier?",
+      "a": "No. Offshore support vessels usually dock at the Australian Marine Complex in Henderson, near Fremantle, or in Southeast Asian yards, and ore, salt and gas carriers dock in Asia. Readings taken at Dampier serve as a pre-docking estimate, so the owner arrives at the yard with a realistic idea of the steel renewal needed and can check the yard's figures against it."
+    },
+    {
+      "q": "Why gauge a salt carrier's holds before it loads?",
+      "a": "Salt holds attract corrosion at the frames, the lower stools and the hopper plating, and once loaded the holds cannot be reached until discharge in Asia. Empty, clean holds at Dampier give a clear view and good access with ladders and lighting. The readings show the owner whether hold steel is approaching renewal and help plan repairs for the next docking."
+    },
+    {
+      "q": "How does the cyclone season affect a Dampier booking?",
+      "a": "From November to April a cyclone can close the port with little warning. We watch the forecast with the agent before the team travels and delay mobilisation if a system is developing. If the port closes during the job, the team waits ashore in Karratha until the ship is back alongside or the supply base reopens, then picks up the scope where it stopped."
+    }
+  ],
+  "nearby": [
+    "port-hedland",
+    "fremantle",
+    "darwin",
+    "singapore"
+  ]
+}

@@ -41,8 +41,8 @@
       "id": "structure",
       "h": "Holds, tanks and decks: structure and coatings in a short visit",
       "p": [
-        "The structural inspection goes where wastage starts on that ship type: hold frames, lower brackets, grab-damaged hopper plating and topside tank undersides on a bulk carrier; double-bottom and double-side ballast spaces on a tanker, whose cargo tanks are seldom gas-free while she trades; hatch coaming top plates and ballast tanks on a container ship; and deck plating and wind-and-water strakes on all of them. Coating condition is recorded space by space in the GOOD, FAIR and POOR terms class uses.",
-        "Echo-echo gauging reads through sound paint, so most spot readings need no grinding on a ship the buyer does not yet own. Each reading is set against the original thickness from the drawings or the last class report, and the substantial corrosion band is flagged. Hatch corners and bracket toes are examined visually and, where the master allows a patch to be cleaned, with magnetic particle testing. A sample is not a full gauging, and the report says how the points were chosen; the Ultrasonic Thickness Measurement (UTM) and Hull Structural Integrity pages explain the methods."
+        "The structural inspection goes where wastage starts on that ship type: hold frames, lower brackets, grab-damaged hopper plating and topside tank undersides on a bulk carrier; double-bottom and double-side ballast spaces on a tanker, whose cargo tanks are seldom gas-free while she trades; hatch coaming top plates and ballast tanks on a container ship; and deck plating and wind-and-water strakes on all of them. Coating condition is rated space by space on class's own GOOD, FAIR and POOR scale.",
+        "Echo-echo gauging reads through sound paint, so most spot readings need no grinding on a ship the buyer does not yet own. Readings are compared with the as-built thickness on the drawings, or with the last class report where drawings are missing, and the substantial corrosion band is flagged. Hatch corners and bracket toes are examined visually and, where the master allows a patch to be cleaned, with magnetic particle testing. A sample is not a full gauging, and the report says how the points were chosen; the Ultrasonic Thickness Measurement (UTM) and Hull Structural Integrity pages explain the methods."
       ],
       "table": {
         "head": ["Area", "What we check", "What it tells the buyer"],
@@ -100,8 +100,8 @@
       "id": "what-it-is-not",
       "h": "What a pre-purchase inspection is not, and who does the work",
       "p": [
-        "It is not a valuation, a class survey or a warranty survey, and it offers no opinion on the deal. Thickness measurement credited to a class survey must be carried out by a firm approved by the ship's classification society under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, our readings serve the buyer's decision and are not credited to class.",
-        "Teams are mobilised from India for each inspection, with no office or agent at any port, so boarding is planned around visas and the ship's itinerary. The founder, our Responsible NDT Level III (ASNT NDT Level III in UT, RT, MT, PT and VT, more than eleven years of international field experience), plans and supervises the work. Technicians are certified under the company's written practice to ASNT SNT-TC-1A, vibration and thermal readings are taken by qualified analysts and thermographers to written procedures, and Atlantis is certified to ISO 9001 and ISO 14001."
+        "It is not a valuation, a class survey or a warranty survey, and it offers no opinion on the deal. Class gives credit for thickness readings only when the firm taking them holds approval under IACS UR Z17 from the ship's own classification society. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, everything we measure on a pre-purchase inspection is for the buyer's decision alone.",
+        "Each inspection team travels from India to the ship. Atlantis keeps no office or agent at any port, so the boarding date is set around visas and the ship's itinerary. Our founder is the Responsible NDT Level III: he holds ASNT NDT Level III in UT, RT, MT, PT and VT, brings more than eleven years of international field experience, and plans and supervises every inspection. Technicians work under the company's written practice to ASNT SNT-TC-1A, qualified analysts and thermographers follow written procedures for the vibration and thermal readings, and Atlantis holds ISO 9001 and ISO 14001 certification."
       ]
     }
   ],
@@ -140,7 +140,7 @@
     },
     {
       "q": "Will the classification society accept your thickness readings?",
-      "a": "Not as class survey readings. Thickness measurement credited to a class survey needs a firm the ship's classification society has approved under IACS UR Z17, and Atlantis is still in the process of obtaining that approval from DNV, Lloyd's Register and ABS. A pre-purchase inspection needs no class credit: the readings inform the buyer's decision and are set against the class records."
+      "a": "No. Class credits readings only from a firm holding IACS UR Z17 approval from the ship's own society, and Atlantis is still in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS. A pre-purchase inspection needs no class credit anyway: the readings serve the buyer's decision and are compared with the class records the seller releases."
     },
     {
       "q": "Do you give an opinion on whether to buy the ship?",
@@ -152,7 +152,7 @@
     },
     {
       "q": "What does the buyer need to send before the inspection?",
-      "a": "The vessel name or IMO number, where and when she can be boarded, her class, the buyer's priorities, any class records or thickness reports already received, the drawings available, the contact for boarding and who receives the report. The team travels from India, so early notice of the port and dates helps with visas. Send the details to info@atlantisndt.com or use the enquiry form."
+      "a": "The vessel name or IMO number, where and when she can be boarded, her class, the buyer's priorities, any class records or thickness reports already received, the drawings available, the contact for boarding and who receives the report. Because the team flies from India, knowing the port and dates early makes visas easier. Email info@atlantisndt.com or use the enquiry form on this page."
     },
     {
       "q": "Can a bank financing the purchase use the report?",

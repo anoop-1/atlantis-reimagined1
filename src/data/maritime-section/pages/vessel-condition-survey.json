@@ -17,7 +17,7 @@
     },
     {
       "h": "Defects ranked for action",
-      "p": "Each defect is located, photographed and placed in one of three priorities: before the next voyage, before the next survey or docking, or to be monitored. The master and the technical manager hear about the first group before the team leaves the ship."
+      "p": "Each defect is located, photographed and placed in one of three priorities: act now, act by the next survey or docking, or keep watching. The master and the technical manager hear about the first group before the team leaves the ship."
     }
   ],
   "sections": [
@@ -26,7 +26,7 @@
       "h": "What a vessel condition survey is, and how it differs from CAS and CAP",
       "p": [
         "A vessel condition survey is a commercial survey commissioned by the owner, a charterer or a financier to establish the actual state of a ship in service. No rule requires it, it carries no class or flag status, and its scope is whatever the purpose needs.",
-        "Two schemes with similar names work differently, and each has its own page in this section. The IMO Condition Assessment Scheme (CAS) is statutory: it applies to older single-hull oil tankers, is carried out by a recognised organisation's surveyors and ends in a Statement of Compliance from the flag Administration. A Condition Assessment Programme (CAP) is a voluntary class service in which the classification society surveys the ship to its own procedure and issues a rating that charterers read. A vessel condition survey borrows their discipline, space-by-space inspection, coating ratings and measured thickness, without their formal process, and it sits outside the class survey cycle altogether."
+        "Two schemes with similar names work differently, and both are explained on their own pages here. The IMO Condition Assessment Scheme (CAS) is statutory: it applies to older single-hull oil tankers, is carried out by a recognised organisation's surveyors and ends in a Statement of Compliance from the flag Administration. A Condition Assessment Programme (CAP) is a voluntary class service in which the classification society surveys the ship to its own procedure and issues a rating that charterers read. A vessel condition survey borrows their discipline, space-by-space inspection, coating ratings and measured thickness, without their formal process, and it sits outside the class survey cycle altogether."
       ]
     },
     {
@@ -67,7 +67,7 @@
       "id": "ratings",
       "h": "How condition is rated: IACS coating terms and a priority scale",
       "p": [
-        "Coatings are rated in the terms defined in IACS UR Z7, which class surveyors and charterers already use. GOOD means only minor spot rusting. FAIR means local breakdown at the edges of stiffeners and at weld connections, or light rusting over 20% or more of the area, short of POOR. POOR means general breakdown over 20% or more of the area, or hard scale over 10% or more. On ships under the enhanced survey programme, a ballast tank rated POOR draws class examination at every annual survey from then on, so the rating matters beyond our report.",
+        "Coatings are rated in the terms IACS UR Z7 defines, which class surveyors and charterers already read. A coating is GOOD when it shows only minor spot rusting; FAIR when it has broken down locally at stiffener edges and weld connections, or shows light rusting on a fifth or more of the area under consideration without reaching POOR; and POOR when it has broken down generally on a fifth or more of that area, or carries hard scale on a tenth or more. A POOR rating in a ballast tank of an enhanced survey programme ship brings class back to that tank at each annual survey, so the word carries weight beyond our report.",
         "Structure, closing appliances and machinery are rated on a written three-step scale, applied the same way on every ship and issued with the report, and every defect is placed in one priority group."
       ],
       "table": {
@@ -84,7 +84,7 @@
       "h": "Thickness readings and crack checks",
       "p": [
         "The readings in a condition survey are a structured sample, not a renewal-survey gauging. Points are chosen where each space is most likely to be losing steel, recorded on a sketch by frame and member, and kept so the next survey measures the same points. Each reading is compared with the original thickness and the class allowable; where an earlier report exists, the change gives a corrosion rate for that point. Hatch corners, bracket toes, side longitudinal connections and crane pedestals are examined visually, and with magnetic particle testing where the surface can be cleaned.",
-        "Gauging that a renewal survey can credit is class work, needing a firm approved by the ship's classification society under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, our readings serve the owner's decisions rather than a class survey."
+        "A gauging that class can credit to a renewal survey is a different job: IACS UR Z17 requires the firm taking it to hold approval from the ship's own classification society. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, and until a certificate is issued its condition survey readings support the owner's planning, not a class survey."
       ]
     },
     {
@@ -100,7 +100,7 @@
       "h": "What the report contains",
       "p": [
         "The report opens with the overall condition, the Priority 1 items and the decisions the client faces. It then works area by area: hull envelope, cargo spaces, ballast tanks, deck and closing appliances, deck machinery, engine room, electrical equipment and safety observations, each with its rating, defects and photographs taken from recorded positions so the next survey can repeat the view.",
-        "Where an earlier condition or thickness report exists, ours or another firm's, each area shows whether condition has improved, held or worsened, and the readings appendix sets old and new values side by side. If a charterer, lender or fleet department has its own format, send it before the survey and the findings are presented in it."
+        "Where an earlier condition or thickness report exists, ours or another firm's, each area shows whether condition has improved, held or worsened, and the readings appendix lists earlier and new values point by point. If a charterer, lender or fleet department has its own format, send it before the survey and the findings are presented in it."
       ]
     },
     {
@@ -114,7 +114,7 @@
       "id": "team",
       "h": "Who carries out the survey",
       "p": [
-        "Teams are mobilised from India for each survey, with no office or agent at any port, so the visit is planned around visas and the ship's itinerary and port access is arranged by the ship's agent. The founder, our Responsible NDT Level III, holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience; he plans and supervises the work. Technicians are certified under the company's written practice to ASNT SNT-TC-1A, vibration and thermal readings are taken by qualified analysts and thermographers working to written procedures, and Atlantis is certified to ISO 9001 and ISO 14001."
+        "Every survey is carried out by a team mobilised from India. Atlantis keeps no office or agent at any port, so the visit is fitted to the ship's itinerary and the time visas take, and the ship's agent handles port entry. Planning and supervision sit with the founder, our Responsible NDT Level III, whose ASNT NDT Level III covers UT, RT, MT, PT and VT and who brings more than eleven years of international field experience. Technicians are qualified under the company's written practice to ASNT SNT-TC-1A, analysts and thermographers measure vibration and heat to written procedures, and the company is ISO 9001 and ISO 14001 certified."
       ]
     }
   ],
@@ -133,7 +133,7 @@
     "Condition rating by area for structure, coatings, closing appliances, deck machinery and machinery",
     "Defect list ranked by priority, with location, photograph and recommended action",
     "Spot thickness readings and crack-check results located on sketches",
-    "Machinery vibration and thermal readings, with the operating condition at the time",
+    "Vibration and thermal readings for each machine, noted with its load when measured",
     "Comparison with earlier condition and thickness reports where they exist",
     "List of spaces and items not surveyed, with the reason for each"
   ],
@@ -158,11 +158,11 @@
     },
     {
       "q": "Can the survey be done while the ship is trading?",
-      "a": "Most of it can. Ballast tanks are entered when empty and certified safe, holds after discharge, and decks, closing appliances and machinery at a normal port call or anchorage. Cargo tanks on a trading tanker are seldom gas-free and the external bottom needs a drydock, so those are assessed from records and the readings that can be taken. The report lists every space not entered."
+      "a": "Most of it can. Ballast tanks are entered when empty and certified safe, holds after discharge, and decks, closing appliances and machinery at a normal port call or anchorage. A tanker's cargo tanks are rarely gas-free in service and the external bottom needs a drydock, so those are assessed from records and the readings that can be taken. The report lists every space not entered."
     },
     {
       "q": "Can the survey readings be used for a renewal survey?",
-      "a": "Not as class gauging. Thickness measurement credited to a class survey needs a firm the classification society has approved under IACS UR Z17, and Atlantis is still in the process of obtaining that approval from DNV, Lloyd's Register and ABS. A condition survey is a sound way to plan the renewal survey, though: it shows where the class gauging will find wastage before the yard does."
+      "a": "Not as class gauging. Class accepts thickness readings for a survey only from a firm its own society has approved under IACS UR Z17, and Atlantis is still working towards UR Z17 approval from DNV, Lloyd's Register and ABS. A condition survey is a sound way to plan the renewal survey, though: it shows where the class gauging will find wastage, early enough to plan the steel work before the yard writes its specification."
     },
     {
       "q": "Does an owner's condition survey replace the P&I club's survey?",
@@ -170,7 +170,7 @@
     },
     {
       "q": "What do you need from us before the survey?",
-      "a": "The vessel name or IMO number, the purpose of the survey, the port, dates and expected cargo condition, the class survey status, earlier condition and thickness reports, the structural drawings or midship section if available, and any report format required. The team travels from India, so early notice of the port helps with visas. Send the details to info@atlantisndt.com or use the enquiry form."
+      "a": "Start with the ship's IMO number and what the survey is for, then the port, dates and expected cargo condition, the class survey status, earlier condition and thickness reports, the structural drawings or midship section if you have them, and any report format required. Visas for a team travelling from India take time, so the earlier the port is known the better. Write to info@atlantisndt.com or use the enquiry form."
     }
   ]
 }
