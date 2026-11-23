@@ -5,18 +5,9 @@
   "eyebrow": "Report validation · Los Angeles basin",
   "intro": "The Los Angeles basin still runs several of California's largest refineries, a dense network of crude, product and hydrogen pipelines, and a building stock whose steel frames are designed for earthquakes. Its inspection records answer to rules that exist nowhere else in the country, from California's refinery process safety regulation to the city's own deputy inspector licensing. We review those NDT reports and the digital inspection data behind them independently, test them against the procedure, the code and the California requirement that governed the work, and do it remotely from the files you share with us.",
   "highlights": [
-    {
-      "h": "California's refinery rule in mind",
-      "p": "Mechanical integrity records and the damage mechanism reviews they feed are read against Title 8 section 5189.1, so an owner knows whether the data will stand up when the review is revalidated or audited."
-    },
-    {
-      "h": "City and state permits told apart",
-      "p": "Pressure vessels inside the City of Los Angeles are permitted through the Department of Building and Safety, the rest of the county through Cal/OSHA's Pressure Vessel Unit. The opinion notes which applied."
-    },
-    {
-      "h": "Independent of the examination",
-      "p": "We never review a report on work we performed and have no interest in whether it passes. That is why a contractor, an owner, an insurer or opposing counsel can all read the same opinion."
-    }
+    {"h": "California's refinery rule in mind", "p": "Mechanical integrity records and the damage mechanism reviews they feed are read against Title 8 section 5189.1, so an owner knows whether the data will stand up when the review is revalidated or audited."},
+    {"h": "City and state permits told apart", "p": "Pressure vessels inside the City of Los Angeles are permitted through the Department of Building and Safety, the rest of the county through Cal/OSHA's Pressure Vessel Unit. The opinion notes which applied."},
+    {"h": "Independent of the examination", "p": "We never review a report on work we performed and have no interest in whether it passes. That is why a contractor, an owner, an insurer or opposing counsel can all read the same opinion."}
   ],
   "sections": [
     {
@@ -76,42 +67,14 @@
         "Every report passes through the same seven checks. The table shows records typical of the basin and the first point the reviewer tests, because that is where each type most often breaks."
       ],
       "table": {
-        "head": [
-          "Record",
-          "Typical owner or contractor",
-          "First point tested"
-        ],
+        "head": ["Record", "Typical owner or contractor", "First point tested"],
         "rows": [
-          [
-            "Turnaround thickness and corrosion map package",
-            "Refinery inspection group with several contractors",
-            "Monitoring locations against the inspection plan and readings below alert thickness"
-          ],
-          [
-            "Exchanger tube eddy current or IRIS data",
-            "Refinery and hydrogen plant outages",
-            "Tube count tested versus tube count reported, and calibration standards"
-          ],
-          [
-            "Alloy piping weld examinations",
-            "Refinery and petrochemical units",
-            "Technique choice for the cracking concern and acceptance criteria edition"
-          ],
-          [
-            "Girth weld radiographs or digital radiography",
-            "Intrastate and interstate pipeline operators",
-            "Image quality, coverage and interpretation against API 1104"
-          ],
-          [
-            "Integrity dig reports",
-            "Pipeline operators verifying in-line inspection features",
-            "Traceability of pit depths to the tool feature and to the gauge used"
-          ],
-          [
-            "UT and MT of seismic moment connections",
-            "Testing agencies on building projects",
-            "Code edition, calibration, coverage and re-examination of repairs"
-          ]
+          ["Turnaround thickness and corrosion map package", "Refinery inspection group with several contractors", "Monitoring locations against the inspection plan and readings below alert thickness"],
+          ["Exchanger tube eddy current or IRIS data", "Refinery and hydrogen plant outages", "Tube count tested versus tube count reported, and calibration standards"],
+          ["Alloy piping weld examinations", "Refinery and petrochemical units", "Technique choice for the cracking concern and acceptance criteria edition"],
+          ["Girth weld radiographs or digital radiography", "Intrastate and interstate pipeline operators", "Image quality, coverage and interpretation against API 1104"],
+          ["Integrity dig reports", "Pipeline operators verifying in-line inspection features", "Traceability of pit depths to the tool feature and to the gauge used"],
+          ["UT and MT of seismic moment connections", "Testing agencies on building projects", "Code edition, calibration, coverage and re-examination of repairs"]
         ]
       }
     },
@@ -139,68 +102,23 @@
     }
   ],
   "faqs": [
-    {
-      "q": "Can you review a refinery turnaround package from the Los Angeles basin?",
-      "a": "Yes. We review all or a sample of the package against the inspection plan, the procedures and the codes, and check the certification record elements that California's refinery process safety rule requires, so the owner knows which records need attention before restart."
-    },
-    {
-      "q": "Will the review help with our damage mechanism review under section 5189.1?",
-      "a": "It tests the inspection data the damage mechanism review relies on: whether thickness readings, crack detection results and tube data are traceable, complete and obtained with suitable techniques. The damage mechanism review itself, and any fitness-for-service conclusion, stay with the owner's team and engineer."
-    },
-    {
-      "q": "We own records from a refinery that has stopped making fuel. Can you review them?",
-      "a": "Yes. Owners of idled or closing units often need to know what their inspection history can prove for preservation, sale or redevelopment. The review states which records are sound and which would need fresh examination before anyone relies on them."
-    },
-    {
-      "q": "Our pipeline is intrastate. Does the review change?",
-      "a": "The first step changes. We confirm whether the line answers to the State Fire Marshal, the Public Utilities Commission or PHMSA, then check the girth weld, dig and test records against API 1104, the operator's specification and the requirements of that regulator."
-    },
-    {
-      "q": "Can you check ultrasonic reports on seismic moment connections?",
-      "a": "Yes. We check the UT procedure, the code edition, AWS D1.8 and project specification requirements, calibration, technician certification, coverage and whether repaired welds were re-examined. Acceptance remains with the inspectors and engineers the building official recognises."
-    },
-    {
-      "q": "Do you review radiographs if Atlantis does not perform radiography in California?",
-      "a": "Yes. Reviewing film, computed radiography and digital radiography produced by a contractor licensed by the Radiologic Health Branch is a document review and part of this service, including the qualification records of the radiographers named on the job."
-    },
-    {
-      "q": "Is any part of the review done on site in Los Angeles?",
-      "a": "No. The review is carried out remotely on the records and digital inspection data you share. Where the record cannot answer a question, the opinion describes what field work would answer it and who should do it."
-    },
-    {
-      "q": "How do we start a review from Los Angeles?",
-      "a": "Use the form on this page or email info@atlantisndt.com with the report type, method, governing code or specification and the purpose of the review. We reply within one business day, and the files are then exchanged through a secure transfer."
-    }
+    {"q": "Can you review a refinery turnaround package from the Los Angeles basin?", "a": "Yes. We review all or a sample of the package against the inspection plan, the procedures and the codes, and check the certification record elements that California's refinery process safety rule requires, so the owner knows which records need attention before restart."},
+    {"q": "Will the review help with our damage mechanism review under section 5189.1?", "a": "It tests the inspection data the damage mechanism review relies on: whether thickness readings, crack detection results and tube data are traceable, complete and obtained with suitable techniques. The damage mechanism review itself, and any fitness-for-service conclusion, stay with the owner's team and engineer."},
+    {"q": "We own records from a refinery that has stopped making fuel. Can you review them?", "a": "Yes. Owners of idled or closing units often need to know what their inspection history can prove for preservation, sale or redevelopment. The review states which records are sound and which would need fresh examination before anyone relies on them."},
+    {"q": "Our pipeline is intrastate. Does the review change?", "a": "The first step changes. We confirm whether the line answers to the State Fire Marshal, the Public Utilities Commission or PHMSA, then check the girth weld, dig and test records against API 1104, the operator's specification and the requirements of that regulator."},
+    {"q": "Can you check ultrasonic reports on seismic moment connections?", "a": "Yes. We check the UT procedure, the code edition, AWS D1.8 and project specification requirements, calibration, technician certification, coverage and whether repaired welds were re-examined. Acceptance remains with the inspectors and engineers the building official recognises."},
+    {"q": "Do you review radiographs if Atlantis does not perform radiography in California?", "a": "Yes. Reviewing film, computed radiography and digital radiography produced by a contractor licensed by the Radiologic Health Branch is a document review and part of this service, including the qualification records of the radiographers named on the job."},
+    {"q": "Is any part of the review done on site in Los Angeles?", "a": "No. The review is carried out remotely on the records and digital inspection data you share. Where the record cannot answer a question, the opinion describes what field work would answer it and who should do it."},
+    {"q": "How do we start a review from Los Angeles?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, method, governing code or specification and the purpose of the review. We reply within one business day, and the files are then exchanged through a secure transfer."}
   ],
   "related": [
-    [
-      "/inspection-services-california",
-      "Inspection services in California"
-    ],
-    [
-      "/ndt-training-los-angeles",
-      "NDT training in Los Angeles"
-    ],
-    [
-      "/consulting/ndt-consulting-los-angeles",
-      "NDT consulting in Los Angeles"
-    ],
-    [
-      "/ultrasonic-testing-los-angeles",
-      "Ultrasonic testing in Los Angeles"
-    ],
-    [
-      "/inspection/third-party-inspection-los-angeles",
-      "Third-party inspection in Los Angeles"
-    ],
-    [
-      "/report-validation/pipeline-girth-weld-report-review",
-      "Pipeline girth weld report review"
-    ],
-    [
-      "/report-validation/api-510-570-653-report-review",
-      "API 510, 570 and 653 report review"
-    ]
+    ["/inspection-services-california", "Inspection services in California"],
+    ["/ndt-training-los-angeles", "NDT training in Los Angeles"],
+    ["/consulting/ndt-consulting-los-angeles", "NDT consulting in Los Angeles"],
+    ["/ultrasonic-testing-los-angeles", "Ultrasonic testing in Los Angeles"],
+    ["/inspection/third-party-inspection-los-angeles", "Third-party inspection in Los Angeles"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"]
   ],
   "sources": [
     "https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/californias-oil-refineries",

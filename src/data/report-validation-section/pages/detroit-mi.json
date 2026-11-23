@@ -33,43 +33,13 @@
         "All seven checks run on every report: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. What changes from one record stream to the next is the document the reviewer asks for before anything else, because that is usually where the record either holds together or falls apart."
       ],
       "table": {
-        "head": [
-          "Record stream",
-          "Where it comes from",
-          "Typical contents",
-          "What the reviewer asks for first"
-        ],
+        "head": ["Record stream", "Where it comes from", "Typical contents", "What the reviewer asks for first"],
         "rows": [
-          [
-            "Refinery turnaround and on-stream inspection",
-            "The Detroit refinery's crude, coking, hydrotreating and sour water units",
-            "API 510 vessel and API 570 piping reports, CML thickness data, PAUT on repair welds, CR images of small-bore connections",
-            "The revision of the owner's inspection plan in force and an extract of the CML records the readings were filed against"
-          ],
-          [
-            "Nuclear outage and vendor records",
-            "Fermi 2 outage contractors and suppliers shipping components for it",
-            "UT and PT on components, visual examination records, vendor data books, calibration files",
-            "The purchase order's code and acceptance references, and how the licensee's QA group means to use the opinion"
-          ],
-          [
-            "Utility boiler and power piping",
-            "DTE's Monroe and Belle River plants and the Blue Water Energy Center",
-            "Waterwall and superheater thickness surveys, HRSG and B31.1 weld records, MT on headers and attachments",
-            "The construction code edition the work claims, and who the owner designated as inspector for the power piping"
-          ],
-          [
-            "Shop fabrication",
-            "Vessel, exchanger, skid and structural steel shops around Wayne, Oakland and Macomb counties",
-            "Manufacturer's data books, radiographs or DR images, UT used in place of radiography, PMI and hardness logs",
-            "The weld map and the purchase order, so every joint can be matched to an examination"
-          ],
-          [
-            "Pipelines",
-            "Gas transmission and distribution under the state program, liquid lines under PHMSA",
-            "Girth weld images and interpretations, dig reports, wall thickness and pit depth data",
-            "The alignment sheet and the acceptance standard named in the operator's procedures"
-          ]
+          ["Refinery turnaround and on-stream inspection", "The Detroit refinery's crude, coking, hydrotreating and sour water units", "API 510 vessel and API 570 piping reports, CML thickness data, PAUT on repair welds, CR images of small-bore connections", "The revision of the owner's inspection plan in force and an extract of the CML records the readings were filed against"],
+          ["Nuclear outage and vendor records", "Fermi 2 outage contractors and suppliers shipping components for it", "UT and PT on components, visual examination records, vendor data books, calibration files", "The purchase order's code and acceptance references, and how the licensee's QA group means to use the opinion"],
+          ["Utility boiler and power piping", "DTE's Monroe and Belle River plants and the Blue Water Energy Center", "Waterwall and superheater thickness surveys, HRSG and B31.1 weld records, MT on headers and attachments", "The construction code edition the work claims, and who the owner designated as inspector for the power piping"],
+          ["Shop fabrication", "Vessel, exchanger, skid and structural steel shops around Wayne, Oakland and Macomb counties", "Manufacturer's data books, radiographs or DR images, UT used in place of radiography, PMI and hardness logs", "The weld map and the purchase order, so every joint can be matched to an examination"],
+          ["Pipelines", "Gas transmission and distribution under the state program, liquid lines under PHMSA", "Girth weld images and interpretations, dig reports, wall thickness and pit depth data", "The alignment sheet and the acceptance standard named in the operator's procedures"]
         ]
       }
     },
@@ -172,26 +142,11 @@
     }
   ],
   "related": [
-    [
-      "/inspection-services-michigan",
-      "Inspection services in Michigan"
-    ],
-    [
-      "/inspection/third-party-inspection-detroit",
-      "Third-party inspection in Detroit"
-    ],
-    [
-      "/consulting/ndt-consulting-detroit",
-      "NDT consulting in Detroit"
-    ],
-    [
-      "/ndt-training-detroit",
-      "NDT training in Detroit"
-    ],
-    [
-      "/ultrasonic-testing-detroit",
-      "Ultrasonic testing in Detroit"
-    ]
+    ["/inspection-services-michigan", "Inspection services in Michigan"],
+    ["/inspection/third-party-inspection-detroit", "Third-party inspection in Detroit"],
+    ["/consulting/ndt-consulting-detroit", "NDT consulting in Detroit"],
+    ["/ndt-training-detroit", "NDT training in Detroit"],
+    ["/ultrasonic-testing-detroit", "Ultrasonic testing in Detroit"]
   ],
   "sources": [
     "https://www.marathonpetroleum.com/Operations/Refining/Detroit-Refinery/",

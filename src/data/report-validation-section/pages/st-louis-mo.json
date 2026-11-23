@@ -33,37 +33,13 @@
         "Before testing a report against its requirements, the reviewer establishes which requirements applied, and around St. Louis the state line decides several of them. The table sets out the main differences that affect an NDT record."
       ],
       "table": {
-        "head": [
-          "Topic",
-          "Missouri",
-          "Illinois"
-        ],
+        "head": ["Topic", "Missouri", "Illinois"],
         "rows": [
-          [
-            "Boilers and pressure vessels",
-            "Boiler and Pressure Vessel unit of the Division of Fire Safety, under RSMo 650.200 to 650.295 and 11 CSR 40-2; insured objects inspected by the insurer, uninsured objects by state inspectors",
-            "Office of the State Fire Marshal under the Boiler and Pressure Vessel Safety Act; companies employing special inspectors file certificate inspection reports, and owner-user programs keep their own inspection records"
-          ],
-          [
-            "Industrial radiography licensing",
-            "Missouri is not an NRC Agreement State, so NRC Region III licenses radioactive materials users",
-            "Illinois is an Agreement State; IEMA's Office of Homeland Security administers the radioactive materials program"
-          ],
-          [
-            "Pipelines",
-            "The Public Service Commission runs the state gas pipeline safety program under PHMSA oversight; liquid and interstate lines answer to PHMSA",
-            "Hazardous liquid and interstate lines answer to PHMSA, whose Central Region covers both states from Kansas City"
-          ],
-          [
-            "Process safety",
-            "OSHA's process safety management standard, 29 CFR 1910.119, applies to covered processes",
-            "The same federal standard applies to covered processes, including refinery units"
-          ],
-          [
-            "Nuclear oversight",
-            "Callaway's reactor oversight sits with NRC Region IV",
-            "Reactors in Illinois fall under NRC Region III, which also handles the agency's materials duties in the state"
-          ]
+          ["Boilers and pressure vessels", "Boiler and Pressure Vessel unit of the Division of Fire Safety, under RSMo 650.200 to 650.295 and 11 CSR 40-2; insured objects inspected by the insurer, uninsured objects by state inspectors", "Office of the State Fire Marshal under the Boiler and Pressure Vessel Safety Act; companies employing special inspectors file certificate inspection reports, and owner-user programs keep their own inspection records"],
+          ["Industrial radiography licensing", "Missouri is not an NRC Agreement State, so NRC Region III licenses radioactive materials users", "Illinois is an Agreement State; IEMA's Office of Homeland Security administers the radioactive materials program"],
+          ["Pipelines", "The Public Service Commission runs the state gas pipeline safety program under PHMSA oversight; liquid and interstate lines answer to PHMSA", "Hazardous liquid and interstate lines answer to PHMSA, whose Central Region covers both states from Kansas City"],
+          ["Process safety", "OSHA's process safety management standard, 29 CFR 1910.119, applies to covered processes", "The same federal standard applies to covered processes, including refinery units"],
+          ["Nuclear oversight", "Callaway's reactor oversight sits with NRC Region IV", "Reactors in Illinois fall under NRC Region III, which also handles the agency's materials duties in the state"]
         ]
       }
     },
@@ -156,22 +132,10 @@
     }
   ],
   "related": [
-    [
-      "/ndt-training-st-louis",
-      "NDT training in St. Louis"
-    ],
-    [
-      "/ndt-training-missouri",
-      "NDT training in Missouri"
-    ],
-    [
-      "/ultrasonic-testing-st-louis",
-      "Ultrasonic testing in St. Louis"
-    ],
-    [
-      "/magnetic-particle-testing-st-louis",
-      "Magnetic particle testing in St. Louis"
-    ]
+    ["/ndt-training-st-louis", "NDT training in St. Louis"],
+    ["/ndt-training-missouri", "NDT training in Missouri"],
+    ["/ultrasonic-testing-st-louis", "Ultrasonic testing in St. Louis"],
+    ["/magnetic-particle-testing-st-louis", "Magnetic particle testing in St. Louis"]
   ],
   "sources": [
     "https://www.businesswire.com/news/home/20250909376541/en/Phillips-66-announces-agreement-to-purchase-remaining-interest-in-WRB-Refining-LP",

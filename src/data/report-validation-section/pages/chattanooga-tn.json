@@ -5,18 +5,9 @@
   "eyebrow": "Report validation · Chattanooga and southeast Tennessee",
   "intro": "Chattanooga is where the Tennessee Valley Authority built its downtown office complex to bring its power headquarters and operations together, and the region's inspection records reflect that history. Two nuclear plants sit within driving distance up the Tennessee River, a pumped-storage plant overlooks the city, and machine shops and fabricators supply nuclear, naval and Department of Energy customers. When a report from any of them has to be accepted, defended or questioned, we give it an independent technical review against the procedure and the code it was written to, including the digital inspection data behind it, working remotely from the files you send.",
   "highlights": [
-    {
-      "h": "Built for nuclear-adjacent records",
-      "p": "Supply chain data books, dedication test records and outage reports are read the way a licensee's quality organisation will read them, so gaps show up before the package leaves the shop or the outage closes."
-    },
-    {
-      "h": "Tennessee rules in view",
-      "p": "The opinion notes which state program applies, from the Boiler Unit's jurisdiction over commercial boilers and unfired pressure vessels to the radiation program that licenses the contractor whose radiographs you are relying on."
-    },
-    {
-      "h": "No examination of our own to defend",
-      "p": "Atlantis never validates a report on work it carried out. With nothing to protect, the reviewer can tell a supplier, an owner or a lawyer plainly what the record does and does not show."
-    }
+    {"h": "Built for nuclear-adjacent records", "p": "Supply chain data books, dedication test records and outage reports are read the way a licensee's quality organisation will read them, so gaps show up before the package leaves the shop or the outage closes."},
+    {"h": "Tennessee rules in view", "p": "The opinion notes which state program applies, from the Boiler Unit's jurisdiction over commercial boilers and unfired pressure vessels to the radiation program that licenses the contractor whose radiographs you are relying on."},
+    {"h": "No examination of our own to defend", "p": "Atlantis never validates a report on work it carried out. With nothing to protect, the reviewer can tell a supplier, an owner or a lawyer plainly what the record does and does not show."}
   ],
   "sections": [
     {
@@ -56,42 +47,14 @@
         "The seven checks apply to every report. What changes from one record to the next is the point where the reviewer starts, because each record type tends to fail somewhere predictable. The table sets out the records that most often come from southeast Tennessee and the first thing a reviewer opens."
       ],
       "table": {
-        "head": [
-          "Record",
-          "Typical source",
-          "Where the reviewer starts"
-        ],
+        "head": ["Record", "Typical source", "Where the reviewer starts"],
         "rows": [
-          [
-            "UT weld or forging examination in a component data book",
-            "Nuclear and naval supply chain shops",
-            "Whether the calibration reflector and scanning sensitivity matched the specification the purchase order invoked"
-          ],
-          [
-            "Liquid penetrant reports on machined surfaces",
-            "Dedication and component packages",
-            "Dwell and developing times, surface preparation records and the penetrant system's identification"
-          ],
-          [
-            "Outage MT and UT on turbine, generator and hydro components",
-            "Hydro, pumped-storage and fossil outages",
-            "Indication characterisation, technique choice for crack orientation and traceability to component drawings"
-          ],
-          [
-            "Eddy current tube data from exchangers and condensers",
-            "Power plant outages",
-            "Calibration standards, analysis guidelines and whether every tube listed was actually tested"
-          ],
-          [
-            "UT thickness and corrosion surveys on process piping",
-            "Chemical manufacturing in the surrounding counties",
-            "Fixed monitoring locations, gauge verification and readings flagged against minimum thickness"
-          ],
-          [
-            "Repair and alteration records for boilers and vessels",
-            "Industrial plants and licensed repair companies",
-            "That the NDT the repair plan required was performed, by whom, and before the vessel returned to service"
-          ]
+          ["UT weld or forging examination in a component data book", "Nuclear and naval supply chain shops", "Whether the calibration reflector and scanning sensitivity matched the specification the purchase order invoked"],
+          ["Liquid penetrant reports on machined surfaces", "Dedication and component packages", "Dwell and developing times, surface preparation records and the penetrant system's identification"],
+          ["Outage MT and UT on turbine, generator and hydro components", "Hydro, pumped-storage and fossil outages", "Indication characterisation, technique choice for crack orientation and traceability to component drawings"],
+          ["Eddy current tube data from exchangers and condensers", "Power plant outages", "Calibration standards, analysis guidelines and whether every tube listed was actually tested"],
+          ["UT thickness and corrosion surveys on process piping", "Chemical manufacturing in the surrounding counties", "Fixed monitoring locations, gauge verification and readings flagged against minimum thickness"],
+          ["Repair and alteration records for boilers and vessels", "Industrial plants and licensed repair companies", "That the NDT the repair plan required was performed, by whom, and before the vessel returned to service"]
         ]
       }
     },
@@ -142,56 +105,20 @@
     }
   ],
   "faqs": [
-    {
-      "q": "Can a Chattanooga supplier use your review before shipping a data book to a nuclear utility?",
-      "a": "Yes, as an independent technical opinion. We check the NDT records in the package against the purchase order, the specification and the procedure, and tell you where a utility's receipt inspection or quality audit is likely to find a gap. The utility's quality organisation still decides acceptance, and the review is not supplied as safety-related work under an Appendix B programme."
-    },
-    {
-      "q": "Do you work at Sequoyah or Watts Bar?",
-      "a": "We make no claim of experience at either plant and are not on TVA's approved supplier list for safety-related work. A licensee, vendor or contractor can ask us for an independent review of records related to those plants, and the licensee's quality assurance organisation decides how that opinion is used."
-    },
-    {
-      "q": "Our records include commercial-grade dedication tests. Can you review the NDT parts?",
-      "a": "Yes. Where ultrasonic, penetrant, magnetic particle or visual examination verifies a critical characteristic, we check that the procedure, technique, personnel qualification and acceptance criteria were the ones the dedication plan required, and that the record would let a reviewer reconstruct what was done years from now."
-    },
-    {
-      "q": "Can you review radiographs if Atlantis does not perform radiography in Tennessee?",
-      "a": "Yes. Radiography in Tennessee is carried out by contractors licensed by the state's Division of Radiological Health. We review the film, computed radiography plates or digital radiography images they produce, including image quality, identification, coverage and interpretation, as a document review."
-    },
-    {
-      "q": "Who reviews eddy current data from TVA-area outages?",
-      "a": "Eddy current tube data is reviewed by a reviewer whose certification matches the method and the contract. The Level III who leads our UT, RT, MT, PT and VT reviews is not certified in eddy current, so the proposal names who will review that data and what certification they hold."
-    },
-    {
-      "q": "Do you need to come to Chattanooga?",
-      "a": "No. Reviews are done remotely on the records you send through a secure transfer. If the documents cannot support the decision in front of you, the written opinion says so and describes the field examination that would close the gap."
-    },
-    {
-      "q": "Will the review say whether a cracked hydro or turbine component can stay in service?",
-      "a": "No. Continued-service decisions, fitness-for-service and remaining-life work stay with the owner's engineer. The review tells that engineer whether the indications were found, characterised and sized with a technique and a record that can be relied on."
-    },
-    {
-      "q": "How do we start a review from southeast Tennessee?",
-      "a": "Use the form on this page or email info@atlantisndt.com with the report type, the method, the governing code or purchase order and a sentence on the decision the review supports. We reply within one business day, and the reply carries a scope for the review and a quote."
-    }
+    {"q": "Can a Chattanooga supplier use your review before shipping a data book to a nuclear utility?", "a": "Yes, as an independent technical opinion. We check the NDT records in the package against the purchase order, the specification and the procedure, and tell you where a utility's receipt inspection or quality audit is likely to find a gap. The utility's quality organisation still decides acceptance, and the review is not supplied as safety-related work under an Appendix B programme."},
+    {"q": "Do you work at Sequoyah or Watts Bar?", "a": "We make no claim of experience at either plant and are not on TVA's approved supplier list for safety-related work. A licensee, vendor or contractor can ask us for an independent review of records related to those plants, and the licensee's quality assurance organisation decides how that opinion is used."},
+    {"q": "Our records include commercial-grade dedication tests. Can you review the NDT parts?", "a": "Yes. Where ultrasonic, penetrant, magnetic particle or visual examination verifies a critical characteristic, we check that the procedure, technique, personnel qualification and acceptance criteria were the ones the dedication plan required, and that the record would let a reviewer reconstruct what was done years from now."},
+    {"q": "Can you review radiographs if Atlantis does not perform radiography in Tennessee?", "a": "Yes. Radiography in Tennessee is carried out by contractors licensed by the state's Division of Radiological Health. We review the film, computed radiography plates or digital radiography images they produce, including image quality, identification, coverage and interpretation, as a document review."},
+    {"q": "Who reviews eddy current data from TVA-area outages?", "a": "Eddy current tube data is reviewed by a reviewer whose certification matches the method and the contract. The Level III who leads our UT, RT, MT, PT and VT reviews is not certified in eddy current, so the proposal names who will review that data and what certification they hold."},
+    {"q": "Do you need to come to Chattanooga?", "a": "No. Reviews are done remotely on the records you send through a secure transfer. If the documents cannot support the decision in front of you, the written opinion says so and describes the field examination that would close the gap."},
+    {"q": "Will the review say whether a cracked hydro or turbine component can stay in service?", "a": "No. Continued-service decisions, fitness-for-service and remaining-life work stay with the owner's engineer. The review tells that engineer whether the indications were found, characterised and sized with a technique and a record that can be relied on."},
+    {"q": "How do we start a review from southeast Tennessee?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, the method, the governing code or purchase order and a sentence on the decision the review supports. We reply within one business day, and the reply carries a scope for the review and a quote."}
   ],
   "related": [
-    [
-      "/ndt-training-chattanooga",
-      "NDT training in Chattanooga"
-    ],
-    [
-      "/consulting/nuclear-ndt-consulting",
-      "Nuclear NDT consulting"
-    ],
-    [
-      "/report-validation/phased-array-data-review-paut",
-      "PAUT data review"
-    ],
-    [
-      "/report-validation/radiographic-film-and-digital-interpretation-review",
-      "Radiograph interpretation review"
-    ]
+    ["/ndt-training-chattanooga", "NDT training in Chattanooga"],
+    ["/consulting/nuclear-ndt-consulting", "Nuclear NDT consulting"],
+    ["/report-validation/phased-array-data-review-paut", "PAUT data review"],
+    ["/report-validation/radiographic-film-and-digital-interpretation-review", "Radiograph interpretation review"]
   ],
   "sources": [
     "https://www.nrc.gov/info-finder/reactors/seq2.html",

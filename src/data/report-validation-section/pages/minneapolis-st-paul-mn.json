@@ -70,37 +70,13 @@
         "A complete record anticipates its readers. In Minnesota several of them come from state agencies rather than federal ones, and each looks for something different."
       ],
       "table": {
-        "head": [
-          "Reader",
-          "Authority",
-          "What the record must show that reader"
-        ],
+        "head": ["Reader", "Authority", "What the record must show that reader"],
         "rows": [
-          [
-            "Minnesota OSHA",
-            "Minnesota Rules adopt 29 CFR Part 1910 by reference, including the process safety management standard",
-            "Mechanical integrity records with the date, the examiner, the equipment, the test and the result for covered processes"
-          ],
-          [
-            "Department of Labor and Industry boiler program",
-            "Minnesota Statutes chapter 326B",
-            "Inspections by National Board commissioned inspectors who hold a Minnesota certificate of competency, whether state boiler inspectors or insurance company boiler inspectors"
-          ],
-          [
-            "Office of Pipeline Safety and PHMSA",
-            "Federal pipeline safety standards adopted by the state; PHMSA Central Region for federal enforcement",
-            "Girth weld, dig and integrity records tied to the alignment sheet and the operator's procedures"
-          ],
-          [
-            "Minnesota Department of Health",
-            "Minnesota is an NRC Agreement State; the department runs the radioactive materials program",
-            "For radiography, a licensed contractor whose images and interpretation the owner can rely on"
-          ],
-          [
-            "NRC Region III and the licensee's QA organisation",
-            "10 CFR Part 50 and the licensee's quality assurance program",
-            "Examinations traceable to the purchase order, the procedure, qualified personnel and calibrated equipment"
-          ]
+          ["Minnesota OSHA", "Minnesota Rules adopt 29 CFR Part 1910 by reference, including the process safety management standard", "Mechanical integrity records with the date, the examiner, the equipment, the test and the result for covered processes"],
+          ["Department of Labor and Industry boiler program", "Minnesota Statutes chapter 326B", "Inspections by National Board commissioned inspectors who hold a Minnesota certificate of competency, whether state boiler inspectors or insurance company boiler inspectors"],
+          ["Office of Pipeline Safety and PHMSA", "Federal pipeline safety standards adopted by the state; PHMSA Central Region for federal enforcement", "Girth weld, dig and integrity records tied to the alignment sheet and the operator's procedures"],
+          ["Minnesota Department of Health", "Minnesota is an NRC Agreement State; the department runs the radioactive materials program", "For radiography, a licensed contractor whose images and interpretation the owner can rely on"],
+          ["NRC Region III and the licensee's QA organisation", "10 CFR Part 50 and the licensee's quality assurance program", "Examinations traceable to the purchase order, the procedure, qualified personnel and calibrated equipment"]
         ]
       }
     },
@@ -155,22 +131,10 @@
     }
   ],
   "related": [
-    [
-      "/inspection/third-party-inspection-minneapolis",
-      "Third-party inspection in Minneapolis"
-    ],
-    [
-      "/ndt-training-minneapolis",
-      "NDT training in Minneapolis"
-    ],
-    [
-      "/ndt-training-minnesota",
-      "NDT training in Minnesota"
-    ],
-    [
-      "/ultrasonic-testing-minneapolis",
-      "Ultrasonic testing in Minneapolis"
-    ]
+    ["/inspection/third-party-inspection-minneapolis", "Third-party inspection in Minneapolis"],
+    ["/ndt-training-minneapolis", "NDT training in Minneapolis"],
+    ["/ndt-training-minnesota", "NDT training in Minnesota"],
+    ["/ultrasonic-testing-minneapolis", "Ultrasonic testing in Minneapolis"]
   ],
   "sources": [
     "https://minnesotapipeline.com/about/mpl-system/",

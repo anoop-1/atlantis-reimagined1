@@ -48,43 +48,13 @@
         "The reason for a review decides where it puts its weight. The table lists situations that owners, contractors and buyers in the region commonly face, and the evidence that usually decides each one."
       ],
       "table": {
-        "head": [
-          "Situation",
-          "What the client needs to know",
-          "What the reviewer opens",
-          "What would make the record deficient in disposition"
-        ],
+        "head": ["Situation", "What the client needs to know", "What the reviewer opens", "What would make the record deficient in disposition"],
         "rows": [
-          [
-            "Inherited inspection history after an acquisition",
-            "Whether past readings and dispositions can be trusted for planning",
-            "A sample of reports with their raw files, the previous owner's procedures and certifications",
-            "Readings that cannot be tied to locations, or dispositions that rest on criteria the data does not meet"
-          ],
-          [
-            "Turnaround close-out at a refinery",
-            "Which items can go back into service on the record as written",
-            "Risk-ranked reports, repair records, PAUT and thickness files, calibration certificates",
-            "An accepted indication whose sizing the encoded data does not support"
-          ],
-          [
-            "Exchanger bundle data from an aromatics unit",
-            "Whether plugging calls and tube wall estimates are reliable",
-            "Raw tube files, calibration standards, analysis settings and the tube sheet map",
-            "Calls sized against an unsuitable standard, or tubes reported as examined that the data does not cover"
-          ],
-          [
-            "Nuclear vendor or outage contractor record",
-            "An independent technical view the licensee's QA group can weigh",
-            "The purchase order, procedures, personnel records and examination data",
-            "An indication dispositioned against an acceptance standard the order did not name"
-          ],
-          [
-            "HRSG or high-energy piping repair",
-            "Whether the repair NDE will satisfy the inspector and the owner",
-            "Weld procedure references, NDE reports after final heat treatment, radiographs or UT data",
-            "No examination recorded after the last heat treatment the procedure required"
-          ]
+          ["Inherited inspection history after an acquisition", "Whether past readings and dispositions can be trusted for planning", "A sample of reports with their raw files, the previous owner's procedures and certifications", "Readings that cannot be tied to locations, or dispositions that rest on criteria the data does not meet"],
+          ["Turnaround close-out at a refinery", "Which items can go back into service on the record as written", "Risk-ranked reports, repair records, PAUT and thickness files, calibration certificates", "An accepted indication whose sizing the encoded data does not support"],
+          ["Exchanger bundle data from an aromatics unit", "Whether plugging calls and tube wall estimates are reliable", "Raw tube files, calibration standards, analysis settings and the tube sheet map", "Calls sized against an unsuitable standard, or tubes reported as examined that the data does not cover"],
+          ["Nuclear vendor or outage contractor record", "An independent technical view the licensee's QA group can weigh", "The purchase order, procedures, personnel records and examination data", "An indication dispositioned against an acceptance standard the order did not name"],
+          ["HRSG or high-energy piping repair", "Whether the repair NDE will satisfy the inspector and the owner", "Weld procedure references, NDE reports after final heat treatment, radiographs or UT data", "No examination recorded after the last heat treatment the procedure required"]
         ]
       }
     },
@@ -170,22 +140,10 @@
     }
   ],
   "related": [
-    [
-      "/inspection-services-ohio",
-      "Inspection services in Ohio"
-    ],
-    [
-      "/consulting/ndt-consulting-toledo",
-      "NDT consulting in Toledo"
-    ],
-    [
-      "/ndt-training-toledo",
-      "NDT training in Toledo"
-    ],
-    [
-      "/ultrasonic-testing-toledo",
-      "Ultrasonic testing in Toledo"
-    ]
+    ["/inspection-services-ohio", "Inspection services in Ohio"],
+    ["/consulting/ndt-consulting-toledo", "NDT consulting in Toledo"],
+    ["/ndt-training-toledo", "NDT training in Toledo"],
+    ["/ultrasonic-testing-toledo", "Ultrasonic testing in Toledo"]
   ],
   "sources": [
     "https://www.pbfenergy.com/refineries/",
