@@ -1,0 +1,199 @@
+{
+  "title": "Risk-Based Inspection in Indonesia: Migas PLO and API 580",
+  "description": "How RBI fits the Migas risk analysis route and PLO validity under Permen ESDM 32/2021, where Indonesia's refineries are, and how remote RBI studies run.",
+  "h1": "Risk-based inspection for Indonesian refineries, gas plants and fuel terminals",
+  "eyebrow": "Risk-based inspection in Indonesia",
+  "intro": "Indonesia's oil and gas regulation already contains a risk-based route. Since 2021 the Ministry of Energy and Mineral Resources has allowed periodic inspection intervals to follow a risk analysis instead of a fixed period, and the length of an installation's operating approval then depends on how much service life remains. This page is for inspection and reliability engineers at Indonesian refineries, gas plants and fuel terminals. It explains how that route works, who signs what, where Pertamina's refinery units are, which damage mechanisms an equatorial island climate brings, and how Atlantis delivers an RBI study remotely across Indonesian time zones.",
+  "highlights": [
+    { "h": "Risk analysis is a legal route", "p": "Permen ESDM 32/2021 lets periodic inspection be scheduled from an Analisis Risiko, which may be qualitative, semi-quantitative or quantitative. A study built on API RP 580 and API RP 581 can supply the engineering behind it, organised to the Migas mechanism guideline the owner works to." },
+    { "h": "Remaining life sets the clock", "p": "When the interval comes from risk analysis, the operating approval runs for as long as the remaining service life holds, and is halved once less than eight years remain. Corrosion rates and thickness data therefore carry regulatory weight as well as engineering weight." },
+    { "h": "Remote, from WIB to WITA", "p": "Java and Sumatra sit one and a half hours ahead of Hyderabad, East Kalimantan two and a half. Workshops fit the Indonesian working day, the study needs no travel, and anything to be seen on the plant goes to the owner's inspectors on a written list." }
+  ],
+  "sections": [
+    {
+      "id": "id-regulation",
+      "h": "Permen ESDM 32/2021: the rulebook for Migas installations",
+      "p": [
+        "Technical inspection and safety examination of oil and gas installations in Indonesia are governed by Minister of Energy and Mineral Resources Regulation No. 32 of 2021, issued on 12 November 2021. It applies to upstream and downstream activities alike and replaced both Permen ESDM No. 18 of 2018 and a 1997 ministerial decree on the safety of distribution pipelines. Its chapters deal with the Kepala Teknik, design review, technical inspection and safety examination, fuel stations, distribution pipelines, risk analysis, reverse engineering, residual life extension, restricted and prohibited zones, and sanctions.",
+        "The Directorate General of Oil and Gas (Ditjen Migas) administers the regime, and its directorate for engineering and environment was still monitoring operators' inspection programmes against this regulation in 2026. Among the equipment classes the regulation names for inspection are safety devices, pressure vessels, atmospheric storage tanks holding hydrocarbon fluids, lifting appliances, pumps and compressors in hydrocarbon service, and electrical equipment such as generators, transformers and distribution panels.",
+        "In 2024 Ditjen Migas followed up with nine guidelines issued as decrees of the director acting as Head of Oil and Gas Inspection. One sets out the mechanism for risk analysis in oil and gas business activities, and others cover technical inspection, the approval of inspection companies and residual life extension. An RBI study for an Indonesian installation should be organised to the current versions of those documents, which the owner confirms at the start. The table shows the roles the regulation creates and how each touches the study."
+      ],
+      "table": {
+        "head": ["Role under the regulation", "Who holds it", "What it does", "What it means for an RBI study"],
+        "rows": [
+          ["Kepala Inspeksi (Head of Inspection)", "The Ditjen Migas director responsible for standardisation, engineering and safety, ex officio", "Grants or refuses operating approvals, appoints each operator's Kepala Teknik and assigns government inspectors", "The authority whose approval the inspection programme ultimately supports"],
+          ["Inspektur Migas", "Civil servants of Ditjen Migas", "Carry out technical inspections and safety examinations and report to the Head of Inspection", "May read the risk analysis when examining an installation, so every interval needs a traceable basis"],
+          ["Kepala Teknik", "The highest-ranking person at the contractor or licence holder, appointed by the Head of Inspection", "Answers for oil and gas safety, prepares the inspection and test plan, applies for the operating approval and oversees risk analysis and remaining life assessment", "Owns the conclusions; an outside study works for this office and its engineers"],
+          ["Perusahaan Inspeksi", "Inspection companies approved by the Director General", "Inspect where the Kepala Teknik appoints them and issue technical inspection certificates", "Execute the inspections the plan calls for; Atlantis is not one of them"]
+        ]
+      }
+    },
+    {
+      "id": "id-risk-analysis",
+      "h": "Analisis Risiko: the regulation's risk-based route",
+      "p": [
+        "The regulation defines risk analysis as identifying and analysing the potential causes and possible consequences of risk, and it accepts quantitative, semi-quantitative and qualitative methods. Periodic inspection may be scheduled either by a fixed period or on the basis of the results of a risk analysis, and setting inspection intervals and methods is the first purpose the regulation lists for such an analysis. Its other uses include offshore pipeline routing, follow-up of inspection findings, departures from pipeline distance and depth requirements, and changes in an installation's surroundings.",
+        "A risk analysis under the regulation has to carry a list of the installations covered, the risk management approach, the method used, who performed it and the recommended inspection intervals and methods. Those recommendations are not advisory: once issued, they must be carried out. That is the point an Indonesian owner should keep in mind when commissioning RBI. A plan that names a technique the site cannot deliver, or a coverage nobody will achieve, becomes an obligation the operator has written for itself.",
+        "API RP 580 and API RP 581 fit inside this structure without strain. Corrosion loops, damage mechanisms to API 571, probability and consequence of failure and an item-by-item inspection plan supply the content the regulation lists, and the study states its method level so that the report reads correctly against the regulation's three categories. Where the Migas guideline sets particular formats, risk matrices or approval steps, the study follows them rather than its own preferences."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-580", "API RP 580 explained"]
+      ]
+    },
+    {
+      "id": "id-plo",
+      "h": "The PLO and the weight of a remaining life estimate",
+      "p": [
+        "A Persetujuan Layak Operasi, or PLO, is the formal recognition that a contractor or licence holder has completed technical inspection. The Kepala Teknik applies for it to the Head of Inspection within sixty calendar days of the technical inspection certificate or statement being issued, and the Head of Inspection grants or refuses it after evaluating the documents. Fuel stations are exempt; refinery, terminal and gas plant equipment is not.",
+        "How long the approval lasts depends on how the interval was set. Under a fixed-period interval a PLO is valid for at most four years. Under an interval based on risk analysis it remains valid while the remaining service life is still met, and where less than eight years of remaining life are left, it lasts for half of that remaining life. A vessel with twenty years of remaining life on a sound corrosion rate is therefore in a very different position from one with six years left, whose approval would run for three.",
+        "For the RBI study this puts the remaining life calculation at the centre of the work. Long-term and short-term corrosion rates have to be chosen with care, thickness data screened for bad readings, and damage that is not general thinning, such as localised pitting, cracking or corrosion under insulation, kept out of a calculation that assumes uniform loss. Where the data cannot support a remaining life figure, the study says so and logs the gap instead of filling it with an optimistic rate. Extending an installation past its design life is a separate Migas process with its own guideline, and any fitness-for-service assessment it calls for stays with the owner's engineer; Atlantis does not perform fitness-for-service assessments."
+      ]
+    },
+    {
+      "id": "id-manpower",
+      "h": "Pressure vessels and tanks under the manpower ministry",
+      "p": [
+        "A second rulebook reaches pressure equipment from the occupational safety side. Minister of Manpower Regulation No. 37 of 2016 on occupational safety and health for pressure vessels and storage tanks covers gas storage and process vessels, refrigeration plant and tanks for flammable, hazardous and other liquids above set sizes. It provides for a first inspection, periodic inspection, special inspection after an accident, fire or explosion, and re-inspection where earlier results are in doubt.",
+        "Those examinations are carried out by specialist labour inspectors or by occupational safety experts for steam boilers and pressure vessels appointed by the Minister, and results go to the labour inspection unit, which issues a statement of compliance and a sticker. Which items at a given site fall under this regime, the Migas regime or both is a question for the owner's legal and compliance staff rather than for an RBI study. What the study does is record the governing regime against every item, leave statutory examination dates exactly where they are, and give the examiner a damage mechanism basis for each item to be looked at."
+      ]
+    },
+    {
+      "id": "id-operators",
+      "h": "Upstream contracts, operator procedures and partners",
+      "p": [
+        "Upstream installations are operated under production sharing contracts supervised by SKK Migas, the special task force for upstream oil and gas, and contractors carry their own and their partners' engineering procedures alongside the Migas inspection regime. A revision of the oil and gas law was being debated in 2026, including proposals for a special business entity to take over SKK Migas's role, so an upstream owner should confirm which body its programme answers to when the study begins.",
+        "Downstream, the Pertamina group's refining company and the group's terminal operators work to their own corporate procedures, and joint ventures bring a partner's standards as well. As anywhere, the study settles at the outset which document governs each asset class and who may approve a departure from it. Where an operator procedure uses a risk matrix that differs from the one the Migas guideline expects, the two are reconciled in one register rather than kept as parallel versions that drift apart."
+      ]
+    },
+    {
+      "id": "id-capacity",
+      "h": "Where the refining capacity sits",
+      "p": [
+        "Most of Indonesia's refining capacity belongs to PT Kilang Pertamina Internasional (KPI), which runs the Pertamina group's refinery units from Sumatra and Java to Kalimantan and the far east of the country. The table lists them with the capacities KPI publishes and the features that tend to shape an RBI study at each. Large tank farms sit beside every refinery, and fuel terminals spread across the archipelago move product from the refineries and from imports to islands that have no refinery of their own.",
+        "Pages for the main hubs, listed in this section, go further into individual sites, their plants and their climates."
+      ],
+      "table": {
+        "head": ["Refinery unit", "Location", "Capacity as KPI lists it", "What tends to shape RBI there"],
+        "rows": [
+          ["Refinery Unit II", "Dumai and Sungai Pakning, Riau", "170,000 barrels per day", "Two sites of different ages, a coking section producing green coke, soft coastal ground and the Strait of Malacca"],
+          ["Refinery Unit III", "Plaju, South Sumatra", "120,000 barrels per day", "A riverside refinery making polypropylene alongside fuels and LPG"],
+          ["Refinery Unit IV", "Cilacap, Central Java", "348,000 barrels per day", "Fuels, aromatics, lube base oil and asphalt in one complex, with co-processing of used cooking oil"],
+          ["Refinery Unit V", "Balikpapan, East Kalimantan", "260,000, planned to rise to 360,000 barrels per day under the RDMP", "New crude and conversion units commissioned beside older plant, and new crude tanks at Lawe-Lawe"],
+          ["Refinery Unit VI", "Balongan, West Java", "150,000 barrels per day", "A younger, highly complex refinery supplying the Jakarta region"],
+          ["Refinery Unit VII", "Kasim, in the east of the country", "10,000 barrels per day", "A small fuels refinery where a qualitative screen may be all the study needs"]
+        ]
+      }
+    },
+    {
+      "id": "id-damage",
+      "h": "Equatorial islands: what pushes up the damage register",
+      "p": [
+        "Every major Indonesian refinery and terminal sits on or near the coast, in a climate that is hot and humid all year with heavy seasonal rain. Corrosion under insulation on carbon steel lines and vessels operating at intermediate or cycling temperatures is the external mechanism that most often decides inspection workload, with external chloride stress corrosion cracking on insulated austenitic stainless steel close behind. Jetty piping, tank roofs and pipe racks near the shore see salt-laden air, and fireproofed skirts and structural steel hide corrosion in the same way insulation does.",
+        "Ground conditions add their own entries. Tank floors on reclaimed, low-lying or peat ground face soil-side corrosion that depends on drainage, the water table and how well cathodic protection has been kept up, and soft ground brings settlement that distorts floors and loads shell-to-bottom welds. Seawater and cooling water systems carry the familiar tropical risks of fouling and microbiologically influenced corrosion.",
+        "On the process side the register follows the units and the crude slate. Indonesian refineries run both domestic and imported crudes, and those grades differ widely in sulfur, acidity and salt content, so high-temperature sulfidation, naphthenic acid corrosion and crude unit overhead corrosion must be assessed for the crudes actually processed rather than for the design basis. Hydroprocessing brings wet hydrogen sulfide damage and ammonium salts, and gas plants add amine and carbon dioxide corrosion."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "id-scopes",
+      "h": "Typical starting points for Indonesian owners",
+      "p": ["Requests from Indonesian sites usually begin in one of the following places."],
+      "list": [
+        "Building the engineering behind an Analisis Risiko for an installation moving from fixed-period to risk-based inspection intervals.",
+        "Reviewing remaining life calculations ahead of a PLO renewal, where corrosion rates or thickness data look too thin to support the dates.",
+        "A baseline register for units commissioned under a refinery development project, together with the older units they connect to.",
+        "Tank-by-tank RBI for a fuel terminal or refinery tank farm, using API 653's conditions for risk-based internal inspection intervals.",
+        "Updating an existing model after a crude slate change, a new feed such as used cooking oil or a change in operating windows.",
+        "Ranking corrosion under insulation across a coastal plant and writing an insulation removal plan around the results.",
+        "Turning paper inspection records and spreadsheets into a structured register that an inspection management system can hold."
+      ]
+    },
+    {
+      "id": "id-remote",
+      "h": "Working across Indonesian time zones",
+      "p": [
+        "Indonesia spans three time zones and does not change its clocks. Western Indonesia Time (WIB, UTC+7) covers Sumatra and Java, including Dumai, Plaju, Cilacap and Balongan; Central Indonesia Time (WITA, UTC+8) covers East Kalimantan and Balikpapan; Eastern Indonesia Time (WIT, UTC+9) covers the far east of the country. Hyderabad is an hour and a half behind WIB and two and a half behind WITA, which puts the Indonesian morning and early afternoon inside the Indian working day. Houston is twelve or thirteen hours behind WIB depending on the US season, so analysis can continue there while Indonesian sites are closed.",
+        "Drawings, datasheets, inspection reports and thickness records come through a data room under the owner's control. Inspection reports and procedures written in Bahasa Indonesia are common, and the data request agrees at the start which records need an English summary and who on the site team will provide it, so that nothing important is lost between languages. Workshops are run by video in English with operations, process, corrosion and inspection staff, and planners keep the longer Friday midday break clear.",
+        "The study is designed to need no travel. Anything that must be seen on the plant, such as insulation and cladding condition, a tank's annular plate, a dead leg or an injection point, goes on a written verification list for the owner's inspectors or the inspection company the Kepala Teknik appoints, and their findings come back into the model before the plan is issued."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]
+      ]
+    },
+    {
+      "id": "id-approval",
+      "h": "What stays with the operator",
+      "p": [
+        "Inspection intervals and methods are proposals until the organisation under the Kepala Teknik adopts them and, for equipment under a PLO, until the Head of Inspection's process accepts the inspection behind them. The owner's inspection authority keeps the decision. Atlantis prepares and documents the study; it does not act as inspector of record, is not an approved inspection company under the regulation and does not issue technical inspection certificates.",
+        "Damage found during inspection that falls outside what the construction code accepts goes to the owner's engineer for assessment, and the register is updated with the result before the next interval is set."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API 510, API 570 and API 653",
+    "Minister of Energy and Mineral Resources Regulation No. 32 of 2021 (Permen ESDM 32/2021)",
+    "Ditjen Migas guideline on the mechanism for risk analysis in oil and gas business activities (2024)",
+    "Minister of Manpower Regulation No. 37 of 2016 (pressure vessels and storage tanks)"
+  ],
+  "deliverables": [
+    "Risk analysis content organised to the Migas mechanism: installation list, method, performer and recommended intervals and methods",
+    "Remaining life review for each item, with the corrosion rates and data behind it",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Item register showing the governing regime and any statutory examination dates",
+    "Data-gap log and verification list for the owner's inspectors",
+    "Reassessment triggers and the next review date"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Fuel terminals and depots",
+    "Gas processing and LNG",
+    "Petrochemicals and aromatics",
+    "Upstream production facilities"
+  ],
+  "faqs": [
+    { "q": "Does Indonesian regulation allow risk-based inspection intervals?", "a": "Yes. Permen ESDM 32/2021 allows periodic inspection of oil and gas installations to be scheduled either by a fixed period or from the results of a risk analysis, which may be quantitative, semi-quantitative or qualitative. The regulation uses the term Analisis Risiko rather than RBI, and a Ditjen Migas guideline issued in 2024 sets out the mechanism. An RBI study to API RP 580 and API RP 581 can provide the engineering content, organised to that mechanism." },
+    { "q": "How does a risk-based interval affect our PLO?", "a": "Under a fixed-period interval the PLO lasts at most four years. Where the interval comes from risk analysis, the approval stays valid while the remaining service life is met, and if less than eight years remain it lasts for half the remaining life. That makes the corrosion rates and thickness data behind each remaining life figure central to the study, which shows how every figure was derived." },
+    { "q": "Can Atlantis act as our inspection company under the Migas regulation?", "a": "No. Inspection companies under Permen ESDM 32/2021 are approved by the Director General and issue technical inspection certificates, and Atlantis holds no such approval. What Atlantis supplies is the RBI study: damage mechanisms, risk ranking, a remaining life review and an inspection plan. The inspections themselves are carried out by your own inspectors or the approved inspection company your Kepala Teknik appoints, and their results come back into the model." },
+    { "q": "Is an Analisis Risiko the same thing as an API 580 RBI study?", "a": "They overlap but are not identical. The regulation's risk analysis is a broader instrument: besides inspection intervals and methods it is used for offshore pipeline routing, departures from pipeline distance and depth requirements and changes around an installation. For inspection planning, an API RP 580 study supplies what the regulation asks the analysis to contain, including the installation list, the method, who carried it out and the recommended intervals and methods, provided it is formatted to the Migas mechanism." },
+    { "q": "Do the manpower ministry's pressure vessel rules still matter at an oil and gas site?", "a": "They can. Minister of Manpower Regulation No. 37 of 2016 sets occupational safety requirements, including first, periodic and special inspections, for pressure vessels and storage tanks. Which regime governs which item is for the compliance staff on your side to confirm. The study records the governing regime item by item, leaves statutory dates untouched and gives whoever examines the equipment a clear damage mechanism basis." },
+    { "q": "Our inspection history is mostly in Bahasa Indonesia, some of it on paper. Can the study use it?", "a": "Yes. Scanned reports, thickness sheets and spreadsheets are all usable once they are indexed by equipment tag. The data request sets out which records need an English summary and who on your team will prepare it, and the study grades how much of the history can be credited for each damage mechanism. Records that cannot be traced to an item go into the data-gap log instead of being assumed." },
+    { "q": "Does the study require anyone from Atlantis to travel to Indonesia?", "a": "No. The study is built to run remotely, from a data room and video workshops. Field checks such as insulation condition, tank annular plates or the location of injection points go on a written verification list that your inspectors or your appointed inspection company work through, and their findings are fed back into the assessment before the register and plan are issued." },
+    { "q": "Who approves the risk-based inspection plan?", "a": "The organisation under your Kepala Teknik adopts it, and your inspection authority approves the intervals under your mechanical integrity procedure, within the Migas approval process for equipment under a PLO. The study supplies the basis for each interval, the inspection effectiveness credited and the triggers for reassessment, so the people deciding can see how every result was reached and can defend it to a Migas inspector." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-581", "API 581 explained"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Permen ESDM 32/2021: PLO definition (Pasal 1 angka 25), application by the Kepala Teknik to the Kepala Inspeksi within 60 calendar days (Pasal 22), validity max 4 years for time-based intervals and for risk-analysis intervals while remaining service life is met, half the remaining life when under 8 years (Pasal 23), SPBU exempt (Pasal 56); Kepala Inspeksi ex officio director for standardisation, engineering and safety; Inspektur Migas civil servants; Kepala Teknik highest leader, appointed by Kepala Inspeksi, prepares inspection and test plan, applies for PLO, oversees risk analysis and remaining life; Perusahaan Inspeksi approved by the Director General, issues technical inspection certificates; periodic inspection by fixed period or risk analysis results (Pasal 12(5)); risk analysis quantitative, semi-quantitative or qualitative (Pasal 1 angka 9), uses (Pasal 36), contents (Pasal 38), recommendations must be implemented (Pasal 40); equipment classes (Pasal 12(7))", "url": "https://peraturan.bpk.go.id/Download/261051/Permen%20ESDM%20No.%2032%20Tahun%202021.pdf" },
+    { "fact": "Permen ESDM 32/2021 issued 12 November 2021; revokes Kepmen ESDM 300.K/38/M.PE/1997 and Permen ESDM 18/2018; scope chapters", "url": "https://jdih.esdm.go.id/storage/document/ABSTRAK PERMEN ESDM NO. 32 THN 2021.pdf" },
+    { "fact": "Ditjen Migas socialisation of Permen ESDM 32/2021, covering upstream and downstream, consolidating earlier rules", "url": "https://migas.esdm.go.id/post/sosialisasi-permen-esdm-32-tahun-2021-simplifikasi-regulasi-inspeksi-teknis-dan-pemeriksaan-keselamatan-instalasi-migas" },
+    { "fact": "Dirtekling Migas monitoring the 2026 inspection and safety examination programme against Permen ESDM 32/2021 (regulation still current in 2026)", "url": "https://migas.esdm.go.id/post/Monitor-Program-Inspeksi-dan-Pemeriksaan-Keselamatan-2026-Dirtekling-Migas-Tekankan-Kepatuhan-Permen-ESDM-32-2021" },
+    { "fact": "Nine Ditjen Migas safety guidelines (May 2024) issued as decrees of the Director of Engineering and Environment acting as Head of Oil and Gas Inspection, incl. Mekanisme Analisis Risiko pada Kegiatan Usaha Migas (197.K/HK.02/DMT/2024), technical inspection mechanism, inspection company approval (357.K/HK.02/DJM/2023) and residual life extension (183.K/HK.02/DMT/2024)", "url": "https://migas.esdm.go.id/post/upaya-jamin-keselamatan-migas-ditjen-migas-terbitkan-9-pedoman-keselamatan-migas" },
+    { "fact": "Permenaker 37/2016 (OSH for pressure vessels and storage tanks) listed as in force; covers gas storage, process vessels, refrigeration, tanks for flammable, hazardous and other liquids; first, periodic, special and re-inspection (Pasal 70); performed by specialist labour inspectors or Ahli K3 for steam boilers and pressure vessels (Pasal 79); certificate and sticker (Pasal 83-84)", "url": "https://pasal.id/peraturan/permen/permenaker-no-37-tahun-2016" },
+    { "fact": "KPI refinery units and capacities: RU II Dumai 170,000 bpd; RU III Plaju 120,000 bpd (products incl. Polytam polypropylene); RU IV Cilacap 348,000 bpd (paraxylene, benzene, lube base oil, asphalt; Green Refinery Cilacap); RU V Balikpapan 260,000 to 360,000 under RDMP; RU VI Balongan 150,000; RU VII Kasim 10,000", "url": "https://kpi.pertamina.com/en/profil-perusahaan/bisnis-kami" },
+    { "fact": "Balongan described as young, highest complexity, supplying Jabodetabek", "url": "https://investortrust.id/business/82628/kilang-balongan-pertamina-muda-komplekitas-tertinggi-dan-jantung-energi-jabodetabek" },
+    { "fact": "RDMP Balikpapan inaugurated 12 January 2026, capacity 260,000 to 360,000 bpd, new crude tanks at Lawe-Lawe", "url": "https://www.hydrocarbonengineering.com/refining/14012026/indonesia-inaugurates-balikpapan-refinery" },
+    { "fact": "2026 debate on the revision of the oil and gas law, with a special business entity (BUK) proposed to replace SKK Migas; outcome still awaited in October 2026", "url": "https://cnbcindonesia.com/news/20261009153725-4-774817/pelaku-usaha-menanti-ujung-cerita-revisi-uu-migas" },
+    { "fact": "Proposal that a badan usaha khusus replace SKK Migas under the revised law", "url": "https://industri.kontan.co.id/news/ruu-migas-disahkan-skk-migas-bakal-diganti-badan-usaha-khusus-di-bawah-presiden" }
+  ]
+}

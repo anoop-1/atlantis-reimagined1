@@ -1,0 +1,190 @@
+{
+  "title": "RBI in Pengerang, Johor: Refinery, Cracker and Deepwater Tanks",
+  "description": "Risk-based inspection for the Pengerang Integrated Petroleum Complex in Johor: a young refinery and cracker, deepwater tank terminals and LNG, run remotely.",
+  "h1": "Risk-based inspection for the Pengerang Integrated Petroleum Complex",
+  "eyebrow": "Risk-based inspection in Malaysia",
+  "intro": "Pengerang, on the south-eastern tip of Johor, holds a refinery and steam cracker that are recent builds, four deepwater terminals with crude, product, petrochemical and LNG tanks, and the utilities that tie them together, with Singapore across the water. This page is for the integrity, inspection and terminal engineers who look after that equipment. It covers what the complex contains, how to build an RBI baseline for plant still early in its life, what the move to single ownership of PRefChem means for the programme, which damage mechanisms matter, how the Malaysian rules apply, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "A baseline while the plant is young", "p": "Construction records, baseline thickness readings and the findings of the first turnarounds are still within reach. The study captures them as the reference against which later corrosion rates are measured, instead of reconstructing them after another decade of staff changes and lost files." },
+    { "h": "One owner, one procedure", "p": "With Aramco's stakes in PRefChem agreed to pass to PETRONAS, the refining and petrochemical companies are heading for a single owner. The study helps align procedures, risk matrices and registers so the programme does not run on two frameworks at once." },
+    { "h": "Terminals and plant in one view", "p": "Crude, products and LNG move between the deepwater terminals and the complex by pipeline. The study maps those transfers and the equipment on each side, so a tank farm and the units it feeds are planned from the same picture of risk." }
+  ],
+  "sections": [
+    {
+      "id": "pengerang-facilities",
+      "h": "What the Pengerang complex contains",
+      "p": [
+        "The Pengerang Integrated Petroleum Complex covers about 80 square kilometres of the Kota Tinggi district, and the Johor Petroleum Development Corporation was set up to oversee its development. At its centre is PETRONAS's Pengerang Integrated Complex, built as the Refinery and Petrochemical Integrated Development project, RAPID: a 300,000 barrel-per-day refinery and a steam cracker with downstream derivative plants, run as PRefChem, together with associated facilities that include an air separation unit, raw water supply, a cogeneration plant, a regasification terminal and utilities.",
+        "Beside it, Dialog's Pengerang Deepwater Terminals, operational since 2014, occupy some 1,200 acres with 20 berths and a 24-metre deepwater jetty able to take fully laden VLCCs and Q-Max LNG carriers. The table lists the terminal facilities as Dialog publishes them, with the refinery and cracker for comparison; a further phase is still being developed."
+      ],
+      "table": {
+        "head": ["Facility", "Storage as published", "Products", "What an RBI study looks at"],
+        "rows": [
+          ["Pengerang Independent Terminals", "1.7 million cubic metres in 81 tanks", "Crude and clean petroleum products", "Large crude and product tanks, floor and shell risk, jetty and transfer piping"],
+          ["Pengerang Terminals (Two)", "1.5 million cubic metres in 29 tanks", "Crude, refined products, petrochemicals and LPG", "Atmospheric tanks alongside pressurised LPG storage that falls under pressure vessel rules"],
+          ["Pengerang LNG (Two)", "400,000 cubic metres in 2 tanks", "LNG storage and regasification", "Cryogenic piping, vaporisers and send-out systems; the tanks are monitored rather than routinely opened"],
+          ["Dialog Terminals Pengerang (5)", "430,000 cubic metres in 17 tanks", "Middle distillates", "Product-side water management, floors on coastal ground, roof drainage"],
+          ["PRefChem refinery and cracker", "Process units rather than bulk storage", "Fuels and petrochemicals", "Unit-by-unit RBI of vessels, exchangers and piping circuits, plus intermediate and product tanks"]
+        ]
+      }
+    },
+    {
+      "id": "young-plant-baseline",
+      "h": "Building an RBI baseline for plant early in its life",
+      "p": [
+        "Most RBI work in the region starts from decades of uneven inspection history. Pengerang is different. Because the refinery and cracker are recent builds, much of the information that older plants have lost should still exist: manufacturer's data reports, material certificates, positive material identification records, post-weld heat treatment charts and baseline thickness readings taken at commissioning, together with the in-service findings of the first turnarounds.",
+        "That makes it possible to do something an older plant cannot, which is to set a true starting point. The study records the baseline thickness at each condition monitoring location as the reference for later corrosion rates, checks that the materials actually installed match the design basis for each damage mechanism, and treats the first inspection results as a calibration of the predicted rates rather than as isolated readings. Where commissioning data were never collected or have already gone missing, the gap is logged while there is still time to recover it from contractors and vendors.",
+        "Young plants also have failure patterns of their own. Fabrication defects, wrong materials in small-bore fittings, inadequate post-weld heat treatment in cracking-prone service, and design details that trap water or deposits tend to show themselves early. The damage mechanism review looks for them explicitly, and the first plan leans towards confirming that predicted rates are right before it lengthens the interval on any item."
+      ]
+    },
+    {
+      "id": "prefchem-ownership",
+      "h": "PRefChem's move to a single owner",
+      "p": [
+        "PRefChem has been run as two companies, Pengerang Refining Company and Pengerang Petrochemical Company, owned equally by PETRONAS and Saudi Aramco. On 25 May 2026 the two groups agreed that Aramco's stakes would pass to PETRONAS, subject to customary closing conditions, after which PRefChem becomes a wholly owned and operated part of the PETRONAS group. Aramco has supplied a large share of the refinery's crude, and PETRONAS has said that existing crude supply arrangements are unaffected by the transaction.",
+        "A change of ownership touches an RBI programme in quieter ways than a change of feed. The governing procedure, the risk matrix and its targets, the approval route for intervals and the corporate engineering standards may all be revisited as the companies move fully under one group. The study helps by documenting which procedure each item's interval currently rests on, reconciling the risk matrices so that a medium-high rating in one framework means the same thing in the other, and producing a register that can carry over to whichever standard the owner settles on without the engineering being redone.",
+        "Feed matters too. The crude slate sets the sulphur and acid content that drive high-temperature sulfidation and naphthenic acid corrosion in the crude and vacuum units. Any change in where the crude comes from is written into the plan as a reassessment trigger, with integrity operating windows on sulphur, acid number and chlorides watching for it between assessments."
+      ]
+    },
+    {
+      "id": "pengerang-mechanisms",
+      "h": "Damage mechanisms across the complex",
+      "p": [
+        "The complex spans most of what a refinery, a cracker and a terminal can suffer from. The list sets out the mechanisms the damage mechanism workshops usually start with, before the plant's own process data and inspection history refine them."
+      ],
+      "list": [
+        "Crude and vacuum units: high-temperature sulfidation and naphthenic acid corrosion governed by crude composition and temperature, and overhead corrosion from hydrochloric acid and ammonium chloride.",
+        "Hydroprocessing: ammonium bisulfide corrosion in reactor effluent air coolers and separators, wet hydrogen sulfide damage, and high-temperature hydrogen attack where the steel and operating conditions make it credible.",
+        "Treating units: amine corrosion and amine stress corrosion cracking in regenerators and in rich and lean lines, and sour water corrosion.",
+        "Steam cracker: corrosion in quench and dilution steam systems, caustic cracking in the caustic wash, and low-temperature embrittlement in the cold section after depressurising or an upset.",
+        "Utilities and cogeneration: boiler and steam system damage on certified plant, condensate corrosion, and microbiologically influenced corrosion in cooling and fire water systems.",
+        "Terminals: product-side corrosion under water bottoms, soil-side floor corrosion on coastal ground, floating roof and seal damage, and atmospheric corrosion of jetty piping.",
+        "LNG regasification: embrittlement risk when equipment is cooled below its design temperature, thermal fatigue at cold-to-warm transitions, and corrosion under insulation on cold lines whose vapour barriers have failed.",
+        "Across the site: corrosion under insulation on carbon steel and external chloride cracking of insulated austenitic stainless steel, both driven by the coastal climate."
+      ],
+      "links": [
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/standards/api-584", "API 584 integrity operating windows"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "terminal-tanks",
+      "h": "Deepwater terminal tanks, LPG and LNG storage",
+      "p": [
+        "The terminals add well over a hundred tanks to the complex's equipment, from crude tanks that receive VLCC cargoes to middle distillate tanks and petrochemical storage. Tank RBI here follows the usual shape: the floor, on its soil and product sides, carries most of the risk, the shell courses follow, and roofs, seals and drains are planned on condition. What sets the Pengerang tanks apart is their youth, since many have had few out-of-service inspections so far, and the coastal ground they stand on, which makes soil-side corrosion and settlement the first questions to settle.",
+        "The first out-of-service inspection of a tank is the most valuable one an RBI programme gets, because it replaces a predicted floor corrosion rate with a measured one. The plan sequences first inspections so that tanks representing each construction batch, foundation design and product family are opened early, and their results calibrate the rest of the group before intervals are set for tanks not yet opened.",
+        "LPG storage is pressure equipment and belongs with the certified plant under DOSH's framework, with its own examination requirements. The LNG tanks at the regasification terminal are large cryogenic structures that are not designed to be opened routinely; their integrity rests on monitoring of settlement, foundation temperatures, inner tank leak detection, cold spots on the outer tank and the condition of insulation. The study records those monitoring arrangements and assesses the piping and vaporisers around the tanks, rather than forcing an atmospheric tank method onto equipment it does not fit."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "pengerang-transfers",
+      "h": "Transfers between the terminals and the complex",
+      "p": [
+        "Crude arrives at the deepwater jetty and moves to tanks and then to the refinery; products and petrochemicals travel the other way for export; regasified LNG goes into the gas network and to industrial users. These transfers run through pipelines and racks that belong to different companies at different points, and an RBI study for any one of them has to know where its responsibility starts and stops.",
+        "The study builds a transfer map for the facilities in scope: each line, its owner and demarcation points, the programme that governs each segment, and the items at either end that a leak would affect. Lines and equipment the client owns are assessed; those owned by others are listed with the interface agreement that covers them. Where a line is managed as a pipeline rather than as plant piping, the register records the hand-over point instead of assessing the pipeline as if it were part of the plant.",
+        "Consequence modelling for these lines reflects what lies around them. A release at a jetty or near the shoreline carries an environmental consequence that a release inside a process unit may not, and the loss of a crude transfer line stops the refinery even when nothing inside the refinery has failed. Both are scored, so the inspection plan spends effort where a failure would hurt most."
+      ]
+    },
+    {
+      "id": "johor-coast",
+      "h": "Salt air, the monsoon and new insulation",
+      "p": [
+        "Pengerang sits on the south-eastern tip of the peninsula, with Singapore's eastern shore across the water and the South China Sea to the east. The air is warm, humid and salt-laden all year, and the north-east monsoon brings heavy rain around the turn of the year, with onshore winds driving spray onto jetties and coastal equipment. That rain falls on insulation, cladding and tank roofs that are still new enough for their weak points to be unproven.",
+        "For a young plant the climate drives early-life external damage. Coating defects from construction, gaps in cladding, poorly sealed insulation penetrations and fireproofing that traps water can all start corrosion under insulation or under fireproofing within the first years of service. The study ranks insulated items by operating temperature, insulation system, coating and the quality of the original installation, and uses the first round of targeted insulation removal to test whether that installation is performing as designed, which then sets the inspection pattern for the rest of the population."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"]
+      ]
+    },
+    {
+      "id": "pengerang-rules",
+      "h": "Malaysian rules as they apply at Pengerang",
+      "p": [
+        "Certified plant at Pengerang, from cogeneration boilers to refinery pressure vessels and terminal LPG storage, comes under the amended Occupational Safety and Health Act and its 2024 certificate of fitness regulations, administered by DOSH. An occupier approved for a class B special scheme of inspection works to DOSH's 2025 code of practice, which requires an RBI programme for steam boilers and pressure vessels in the methodology the Director General determines, carried by the occupier's own risk-based team. The Malaysia page sets out that framework in detail.",
+        "Installations holding inventories of the size found at Pengerang are generally within the scope of the Control of Industrial Major Accident Hazards Regulations, and the terminals' atmospheric tanks are managed in the owner's tank programme, typically to API 653 or an operator standard, which is where a risk-based internal inspection interval can be written. For an outside study, the practical first step is to establish which items are certified plant, which are inside a special scheme, which are tanks in the owner's programme and which are pipelines, because each answers to a different decision-maker."
+      ]
+    },
+    {
+      "id": "pengerang-remote",
+      "h": "Running a Pengerang study remotely",
+      "p": [
+        "Johor keeps Malaysian time, UTC+8, the same as Singapore across the water. Workshops are booked by video in the Malaysian late morning and afternoon, which falls in the Hyderabad working morning, and analysis carries on from Houston through the Johor night.",
+        "Data comes through a data room the client controls, arranged by facility so that refinery, cracker, terminal and utility records stay with the teams that know them. Where the client has a risk-based team under a special scheme, the workshops are run with that team and every calculation is left in a form it can rerun. The study needs no travel: field verification, from insulation condition to the state of a tank's annular plate, is written into a list for the client's own inspectors or its inspection contractor, and their findings return to the assessment before the register is issued."
+      ]
+    },
+    {
+      "id": "pengerang-approval",
+      "h": "Who approves, and where the study stops",
+      "p": [
+        "For certified plant, intervals are decided within the DOSH system through the occupier's approved scheme and the persons the regulations name; for tanks and other equipment outside it, the owner's inspection authority approves them. The study proposes and documents. Atlantis is not the inspector of record, a competent person or a plant management assessor for any Pengerang facility.",
+        "Where inspection finds damage beyond what the construction code accepts, the engineering assessment that follows stays with the owner's engineer, and the register is updated with its outcome. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "API 625 (tank systems for refrigerated liquefied gas storage)",
+    "Occupational Safety and Health Act 1994, as amended in 2022",
+    "Occupational Safety and Health (Plant Requiring Certificate of Fitness) Regulations 2024",
+    "Occupational Safety and Health (Special Scheme of Inspection) Regulations 2025 and the DOSH class B code of practice",
+    "Occupational Safety and Health (Control of Industrial Major Accident Hazards) Regulations 1996"
+  ],
+  "deliverables": [
+    "Baseline register with commissioning thickness, materials and construction records attached to each item",
+    "RBI register and inspection plan per item with technique, coverage, effectiveness and due date",
+    "Reconciliation of risk matrices and procedures across the refining and petrochemical companies",
+    "Tank grouping and a sequence of first out-of-service inspections that calibrates each group",
+    "Transfer map of lines between the terminals and the complex, with owners and demarcation points",
+    "Regime list sorting every item into certified plant, special scheme, tank programme or pipeline",
+    "Data-gap log, verification list for the client's inspectors and reassessment triggers"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Steam cracking and petrochemicals",
+    "Deepwater tank terminals",
+    "LNG regasification",
+    "Cogeneration and utilities"
+  ],
+  "faqs": [
+    { "q": "Our plant is only a few years old. Is it too early for RBI?", "a": "No, it is a good moment. Commissioning data, baseline thickness readings and construction records are still available, and the first turnarounds have produced real inspection results. A study now sets a proper starting point for corrosion rates and confirms whether predicted damage is actually happening, so later interval decisions rest on measured trends rather than reconstructed history." },
+    { "q": "How does the PRefChem ownership change affect our RBI programme?", "a": "Mainly through governance rather than engineering. As the refining and petrochemical companies move fully under PETRONAS, the governing procedure, risk matrix, approval route and engineering standards may be revisited. The study documents which framework each interval rests on, reconciles the risk matrices, and keeps the register in a form that carries over to whichever standard the owner adopts." },
+    { "q": "Can RBI set intervals for the Pengerang terminal tanks?", "a": "For atmospheric tanks managed under API 653 or an operator standard, yes, within API 653's conditions for risk-based internal intervals and with the owner's inspection authority approving the result. LPG storage is pressure equipment under DOSH's certified plant framework, and LNG tanks are monitored structures, so each is handled on its own basis rather than with an atmospheric tank method." },
+    { "q": "We have opened only a few tanks so far. How are the rest assessed?", "a": "By using the tanks already opened to calibrate the others in the same group. Tanks are grouped by construction batch, foundation, product and protection, the first out-of-service results give measured floor corrosion rates for each group, and unopened tanks carry conservative assumptions until their own data arrive. The plan sequences first inspections so every group is represented early." },
+    { "q": "Does the DOSH special scheme cover our tanks?", "a": "The class B code's RBI requirement covers steam boilers and pressure vessels. Atmospheric storage tanks sit in the owner's tank programme, for example under API 653, while LPG storage is pressure equipment and belongs with the certified plant. The study sorts every item into its regime at the start, because each regime has a different decision-maker and a different record to keep." },
+    { "q": "Can the study cover transfer lines between a terminal and the refinery?", "a": "Yes, for the segments the client owns, which are assessed as piping circuits with consequence ratings that reflect what a leak would stop and what it would reach. Segments owned by others are recorded in a transfer map with their owner, demarcation point and interface agreement, and lines managed as pipelines are cross-referenced to the pipeline integrity programme rather than duplicated." },
+    { "q": "How is the monsoon reflected in the plan?", "a": "Through corrosion under insulation and fireproofing, roof drainage and checks after heavy weather. Insulated items are ranked by temperature, insulation system and installation quality, and the first targeted insulation removal tests whether the original installation is keeping water out. Floating roofs, drains and jetty piping get condition checks tied to storm events, so a wet season cannot quietly change the condition an interval assumed." },
+    { "q": "Does anyone need to come to Pengerang?", "a": "The study needs no travel. Engineering work runs from documents and video workshops, and everything that must be seen on the plant or at the terminals goes on a verification list for your own inspectors or your inspection contractor. Their findings are fed back into the assessment before the register is finalised, so nothing is skipped because the work was done remotely." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/bintulu", "RBI in Bintulu, Sarawak"],
+    ["/inspection/risk-based-inspection/singapore-tank-terminals", "RBI for Singapore's independent tank terminals"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-571", "API 571 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Pengerang Integrated Petroleum Complex covers about 80 km2 in Pengerang, Kota Tinggi District, Johor; Johor Petroleum Development Corporation set up to oversee its development; PETRONAS Pengerang Integrated Complex including RAPID (300,000 b/d refinery) and associated facilities (air separation unit, raw water supply, cogeneration plant, regasification terminal, deepwater terminal, utilities)", "url": "https://en.wikipedia.org/wiki/Pengerang_Integrated_Petroleum_Complex" },
+    { "fact": "Pengerang Deepwater Terminals (Dialog): pioneered 2009, operational since 2014, 1,200 acres, 20 berths, 24 m deepwater jetty for fully laden VLCCs and Q-Max LNG carriers; Pengerang Independent Terminals 1.7 million cbm, 81 tanks, crude and clean products; Pengerang Terminals (Two) 1.5 million cbm, 29 tanks, crude, refined products, petrochemicals, LPG; Pengerang LNG (Two) 400,000 cbm, 2 tanks, LNG storage and regasification; Dialog Terminals Pengerang (5) 430,000 cbm, 17 tanks, middle distillates; Phase 3 ongoing development", "url": "https://www.dialogasia.com/midstream/pengerang-deepwater-terminals" },
+    { "fact": "25 May 2026: Aramco and PETRONAS agreed to transfer Aramco's equity in Pengerang Refining Company Sdn Bhd and Pengerang Petrochemical Company Sdn Bhd (PRefChem) to PETRONAS, subject to customary closing conditions; PRefChem then becomes a wholly owned and operated subsidiary of the PETRONAS Group", "url": "https://www.aramco.com/en/news-media/news/2026/aramco-and-petronas-announce-transfer-of-full-ownership-of-prefchem-to-petronas" },
+    { "fact": "PETRONAS agreed to acquire Aramco's stakes, completion subject to customary closing conditions; refinery 300,000 b/d; Aramco supplied up to 70% of crude feedstock; existing crude supply arrangements remain unaffected", "url": "https://theedgemalaysia.com/node/804922" },
+    { "fact": "PRefChem: 300,000 b/d refinery and 1.2 Mt/y steam cracker; Aramco's 50% stakes in the refining and petrochemical entities to be transferred to PETRONAS", "url": "https://www.mees.com/2026/5/29/refining-petrochemicals/aramco-withdrawing-from-troubled-malaysian-mega-refinery/2a172b50-5b57-11f1-86d1-b365f76e2b14" },
+    { "fact": "DOSH framework (OSH Act as amended, Plant Requiring CoF Regulations 2024, Special Scheme of Inspection Regulations 2025, class B code of practice with its RBI requirement, CIMAH Regulations 1996), as set out and sourced on the Malaysia country page", "url": "https://dosh.gov.my/wp-content/uploads/2026/01/Industry-Code-of-Practice-for-Plant-Management-System-Special-Scheme-of-Inspection-Class-B.pdf" }
+  ]
+}

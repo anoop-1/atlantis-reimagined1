@@ -5,9 +5,18 @@
   "eyebrow": "Risk-based inspection in Geelong",
   "intro": "Geelong holds one of Australia's two remaining crude oil refineries, Viva Energy's plant at Corio on the shore of Corio Bay, which is generally reported to make around half of the fuel used in Victoria. This page is for the inspection and integrity people who plan its equipment and the fuel storage that goes with it. It covers the damage mechanisms that residue cracking, crude processing and a bayside site add, how Victoria's own occupational health and safety rules frame a risk-based programme, and how Atlantis runs the study remotely while your inspectors carry out the field checks.",
   "highlights": [
-    { "h": "Victoria's rules, not the model laws", "p": "Victoria kept its own OHS Act and 2017 regulations rather than adopting the national model. Plant registration, the major hazard facility licence and dangerous goods storage all sit in Victorian instruments, and the RBI method statement refers to them by name." },
-    { "h": "Out-of-service plant stays in the register", "p": "Units isolated for a long period do not stop deteriorating. The register keeps them, records how they are preserved and sets what must be inspected before they return, so a restart is planned from evidence rather than from the last report written before shutdown." },
-    { "h": "Bay air and cool, wet winters", "p": "Salt carried off Corio Bay, long damp winters and the temperature swings of hot northerly days all reach insulated lines and tank shells. CUI and external corrosion are ranked on exposure and insulation condition, not on design temperature alone." }
+    {
+      "h": "Victoria's rules, not the model laws",
+      "p": "Victoria kept its own OHS Act and 2017 regulations rather than adopting the national model. Plant registration, the major hazard facility licence and dangerous goods storage all sit in Victorian instruments, and the RBI method statement refers to them by name."
+    },
+    {
+      "h": "Out-of-service plant stays in the register",
+      "p": "Units isolated for a long period do not stop deteriorating. The register keeps them, records how they are preserved and sets what must be inspected before they return, so a restart is planned from evidence rather than from the last report written before shutdown."
+    },
+    {
+      "h": "Bay air and cool, wet winters",
+      "p": "Salt carried off Corio Bay, long damp winters and the temperature swings of hot northerly days all reach insulated lines and tank shells. CUI and external corrosion are ranked on exposure and insulation condition, not on design temperature alone."
+    }
   ],
   "sections": [
     {
@@ -15,7 +24,7 @@
       "h": "The refinery at Corio and what it supplies",
       "p": [
         "Shell opened the Geelong refinery in 1954 and sold it in 2014 to Viva Energy, which owns and operates it today. It processes crude delivered by sea into petrol, diesel and jet fuel for the Victorian market. The federal Fuel Security Services Payment, extended in March 2026 to 30 June 2030, supports Geelong and Lytton through periods of weak refining margins, and refiners taking part have committed to keep operating until at least mid-2027.",
-        "In April 2026 a fire in the refinery's alkylation unit cut output for several weeks. Viva Energy said in June 2026 that the residue catalytic cracking unit and associated units were returning to service, that production was expected to recover to more than 90 per cent of normal capacity, and that the refinery would run without the alkylation unit throughout 2027 while repair or replacement options were assessed. For inspection planning that means an operating refinery with one major unit isolated, which the next section deals with.",
+        "Like any refinery that has run for seven decades, Geelong carries a mix of equipment states at any one time: units in normal service, units isolated for repair or awaiting a decision on replacement, and equipment preserved for a later restart. Each state needs its own inspection logic in the register, which the next section deals with.",
         "Alongside the process units sit the refinery's crude and product tankage, the transfer lines between them and the marine berth that serves the site. The study treats tanks, lines and process units as one register with separate corrosion loops, because one owner answers for all of them inside the same safety management system."
       ]
     },
@@ -35,13 +44,37 @@
         "A refinery with residue cracking runs a long list of damage mechanisms, and the study ranks them unit by unit. The table shows the pattern the corrosion loop review usually follows at a site of this kind; the actual loops are drawn from your P&IDs, heat and material balances and operating data, and assigned to API 571 in workshops with your own specialists."
       ],
       "table": {
-        "head": ["Unit group", "Typical damage mechanisms", "What the assessment asks of past inspection"],
+        "head": [
+          "Unit group",
+          "Typical damage mechanisms",
+          "What the assessment asks of past inspection"
+        ],
         "rows": [
-          ["Crude and vacuum distillation", "High-temperature sulfidation, hydrochloric acid and ammonium chloride attack in overheads, CUI on insulated overhead and side-stream lines", "Were readings taken where water condenses and salts deposit, and did the sulfidation review identify low-silicon carbon steel components?"],
-          ["Residue catalytic cracking (reactor, regenerator, main fractionator, gas plant)", "Catalyst erosion, refractory damage and hot spots, creep and thermal fatigue, flue gas dew point corrosion, wet hydrogen sulfide damage in the gas plant", "Did inspection cover refractory condition, cyclone and standpipe wear and cracking in wet sour service, rather than wall thickness alone?"],
-          ["Amine treating and sour water", "Amine stress corrosion cracking, amine corrosion at hot lean and rich points, ammonium bisulfide corrosion, wet hydrogen sulfide cracking", "Were welds examined with a crack-detection technique, and were post-weld heat treatment records checked against the service?"],
-          ["Hydrotreating", "Ammonium bisulfide and chloride attack in effluent air coolers, high-temperature hydrogen attack, high-temperature hydrogen and hydrogen sulfide corrosion", "Do header and tube inspections match the salt-point and velocity locations, and did the hydrogen attack screen use actual temperature and hydrogen partial pressure?"],
-          ["Tanks, transfer and loading lines", "Floor corrosion on both sides, shell corrosion at the liquid line, atmospheric corrosion and CUI from bay air, microbiologically influenced corrosion under water bottoms", "How much of each floor has been scanned, when was cathodic protection last surveyed, and are loading line supports checked for crevice corrosion?"]
+          [
+            "Crude and vacuum distillation",
+            "High-temperature sulfidation, hydrochloric acid and ammonium chloride attack in overheads, CUI on insulated overhead and side-stream lines",
+            "Were readings taken where water condenses and salts deposit, and did the sulfidation review identify low-silicon carbon steel components?"
+          ],
+          [
+            "Residue catalytic cracking (reactor, regenerator, main fractionator, gas plant)",
+            "Catalyst erosion, refractory damage and hot spots, creep and thermal fatigue, flue gas dew point corrosion, wet hydrogen sulfide damage in the gas plant",
+            "Did inspection cover refractory condition, cyclone and standpipe wear and cracking in wet sour service, rather than wall thickness alone?"
+          ],
+          [
+            "Amine treating and sour water",
+            "Amine stress corrosion cracking, amine corrosion at hot lean and rich points, ammonium bisulfide corrosion, wet hydrogen sulfide cracking",
+            "Were welds examined with a crack-detection technique, and were post-weld heat treatment records checked against the service?"
+          ],
+          [
+            "Hydrotreating",
+            "Ammonium bisulfide and chloride attack in effluent air coolers, high-temperature hydrogen attack, high-temperature hydrogen and hydrogen sulfide corrosion",
+            "Do header and tube inspections match the salt-point and velocity locations, and did the hydrogen attack screen use actual temperature and hydrogen partial pressure?"
+          ],
+          [
+            "Tanks, transfer and loading lines",
+            "Floor corrosion on both sides, shell corrosion at the liquid line, atmospheric corrosion and CUI from bay air, microbiologically influenced corrosion under water bottoms",
+            "How much of each floor has been scanned, when was cathodic protection last surveyed, and are loading line supports checked for crevice corrosion?"
+          ]
         ]
       }
     },
@@ -116,36 +149,109 @@
     "Hydrotreating and treating"
   ],
   "faqs": [
-    { "q": "Can the study include units that are isolated for a long period?", "a": "Yes. Isolated equipment stays in the register with its preservation method and the date that method was last confirmed, and it is assessed for the damage that can happen while it stands idle. The plan sets a pre-restart inspection list for each item, and any repaired or replaced equipment enters the register with design data and a baseline inspection rather than the old history." },
-    { "q": "Does WorkSafe Victoria approve RBI intervals?", "a": "WorkSafe does not approve individual inspection dates. It licenses a major hazard facility on the strength of its safety case and assesses whether the operator's controls, mechanical integrity among them, are adequate. The owner's procedure names the competent person who accepts intervals, and a study that ties each interval to the safety case's release scenarios makes that assessment easier to support." },
-    { "q": "Which standard should the RBI method statement refer to in Victoria?", "a": "Usually AS/NZS 3788:2024 for the in-service inspection obligations, with API RP 580 and API RP 581 or ASME PCC-3 for the risk method, and API 510, 570 and 653 where the site inspects to them. Procedures written against the 2006 edition of the Australian Standard should be restated against the current one, which is also a good moment to review the RBI method." },
-    { "q": "How does the study treat CUI at a temperate site like Geelong?", "a": "It ranks CUI on exposure and operating history rather than climate averages: salt from the bay, winter rain, deluge testing, insulation and jacketing type, sealing at penetrations and how often equipment passes through the corrosive temperature range. Equipment that runs hot but stands cold during outages moves up the ranking, and screening techniques are credited only for what they can find." },
-    { "q": "Are the refinery's tanks covered by the same study?", "a": "They can be. Tanks, transfer lines and loading lines are assessed in the same register as the process units but with their own corrosion loops. Out-of-service dates use API 653's RBI-based internal interval, validated and reviewed at least every ten years, and floor scan coverage and cathodic protection history are the inputs that most often limit the credit a tank receives." },
-    { "q": "Does anyone need to travel to Geelong for the study?", "a": "No. The study runs remotely from your documents, historian data and video workshops, and it needs no travel. Walkdowns, preservation checks on isolated equipment and any thickness readings the data-gap log asks for are done by your own inspectors or your inspection contractor, working from a verification list that states the location, method and coverage of each check." },
-    { "q": "How do workshops fit around Victorian working hours?", "a": "Workshops are booked in Geelong's afternoon, which falls in the Hyderabad morning, and kept short so shift staff can attend. During daylight saving the gap with Hyderabad widens by an hour and the schedule moves with it. Analysis and drafting continue between sessions, so actions raised in one workshop are ready for the next." },
-    { "q": "Who signs the inspection intervals?", "a": "The competent person named in the refinery's inspection procedure. The study proposes each interval with its reasoning and the code limits it respects, but it does not approve intervals, and Atlantis is not the inspector of record for any item. Decisions on continued operation after damage is found stay with the owner's engineer." }
+    {
+      "q": "Can the study include units that are isolated for a long period?",
+      "a": "Yes. Isolated equipment stays in the register with its preservation method and the date that method was last confirmed, and it is assessed for the damage that can happen while it stands idle. The plan sets a pre-restart inspection list for each item, and any repaired or replaced equipment enters the register with design data and a baseline inspection rather than the old history."
+    },
+    {
+      "q": "Does WorkSafe Victoria approve RBI intervals?",
+      "a": "WorkSafe does not approve individual inspection dates. It licenses a major hazard facility on the strength of its safety case and assesses whether the operator's controls, mechanical integrity among them, are adequate. The owner's procedure names the competent person who accepts intervals, and a study that ties each interval to the safety case's release scenarios makes that assessment easier to support."
+    },
+    {
+      "q": "Which standard should the RBI method statement refer to in Victoria?",
+      "a": "Usually AS/NZS 3788:2024 for the in-service inspection obligations, with API RP 580 and API RP 581 or ASME PCC-3 for the risk method, and API 510, 570 and 653 where the site inspects to them. Procedures written against the 2006 edition of the Australian Standard should be restated against the current one, which is also a good moment to review the RBI method."
+    },
+    {
+      "q": "How does the study treat CUI at a temperate site like Geelong?",
+      "a": "It ranks CUI on exposure and operating history rather than climate averages: salt from the bay, winter rain, deluge testing, insulation and jacketing type, sealing at penetrations and how often equipment passes through the corrosive temperature range. Equipment that runs hot but stands cold during outages moves up the ranking, and screening techniques are credited only for what they can find."
+    },
+    {
+      "q": "Are the refinery's tanks covered by the same study?",
+      "a": "They can be. Tanks, transfer lines and loading lines are assessed in the same register as the process units but with their own corrosion loops. Out-of-service dates use API 653's RBI-based internal interval, validated and reviewed at least every ten years, and floor scan coverage and cathodic protection history are the inputs that most often limit the credit a tank receives."
+    },
+    {
+      "q": "Does anyone need to travel to Geelong for the study?",
+      "a": "No. The study runs remotely from your documents, historian data and video workshops, and it needs no travel. Walkdowns, preservation checks on isolated equipment and any thickness readings the data-gap log asks for are done by your own inspectors or your inspection contractor, working from a verification list that states the location, method and coverage of each check."
+    },
+    {
+      "q": "How do workshops fit around Victorian working hours?",
+      "a": "Workshops are booked in Geelong's afternoon, which falls in the Hyderabad morning, and kept short so shift staff can attend. During daylight saving the gap with Hyderabad widens by an hour and the schedule moves with it. Analysis and drafting continue between sessions, so actions raised in one workshop are ready for the next."
+    },
+    {
+      "q": "Who signs the inspection intervals?",
+      "a": "The competent person named in the refinery's inspection procedure. The study proposes each interval with its reasoning and the code limits it respects, but it does not approve intervals, and Atlantis is not the inspector of record for any item. Decisions on continued operation after damage is found stay with the owner's engineer."
+    }
   ],
   "related": [
-    ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
-    ["/inspection/risk-based-inspection/brisbane-lytton", "RBI in Brisbane and Lytton"],
-    ["/inspection/risk-based-inspection/kwinana", "RBI in Kwinana"],
-    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
-    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
-    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
-    ["/standards/api-571", "API 571 damage mechanisms"],
-    ["/standards/api-583", "API 583 corrosion under insulation"],
-    ["/standards/api-581", "API 581 explained"],
-    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
-    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"]
+    [
+      "/inspection/risk-based-inspection/australia",
+      "RBI in Australia"
+    ],
+    [
+      "/inspection/risk-based-inspection/brisbane-lytton",
+      "RBI in Brisbane and Lytton"
+    ],
+    [
+      "/inspection/risk-based-inspection/kwinana",
+      "RBI in Kwinana"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review and corrosion loops"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit readiness"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 damage mechanisms"
+    ],
+    [
+      "/standards/api-583",
+      "API 583 corrosion under insulation"
+    ],
+    [
+      "/standards/api-581",
+      "API 581 explained"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/tools/api-inspection-interval-calculator",
+      "API inspection interval calculator"
+    ]
   ],
   "sources": [
-    { "fact": "Geelong refinery at Corio, opened by Shell 1954, sold 2014 to Viva Energy which owns and operates it; produces approximately half of the fuel used in Victoria", "url": "https://en.wikipedia.org/wiki/Geelong_Oil_Refinery" },
-    { "fact": "Fire at the Geelong Refinery on 15 April 2026; RCCU and associated units returning to operation (announcement 23 June 2026); production expected above 90% of normal capacity; refinery to operate without the alkylation unit throughout 2027 while repair or replacement options are assessed", "url": "https://announcements.asx.com.au/asxpdf/20260623/pdf/070x821h436k83.pdf" },
-    { "fact": "Diesel and jet fuel output restored first after the April 2026 fire; fire contained to the alkylation unit", "url": "https://timesnewsgroup.com.au/geelongtimes/news/geelong-refinery-running-below-capacity-as-recovery-continues/" },
-    { "fact": "Fuel Security Services Payment extended to 30 June 2030 (20 March 2026) for Lytton and Geelong; refiners commit to operate to at least 30 June 2027", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803693-australia-extends-subsidy-plan-for-refiners-to-2030" },
-    { "fact": "Victoria MHF regime: reg 360 notification above 10% of Schedule 14 threshold, registration, safety case under Part 5.2 Division 8 of the OHS Regulations 2017, licence up to five years, WorkSafe Victoria", "url": "https://www.worksafe.vic.gov.au/major-hazard-facility-notification-registration-and-licence" },
-    { "fact": "Dangerous Goods (Storage and Handling) Regulations 2022 (Vic) in force", "url": "https://www.legislation.vic.gov.au/in-force/statutory-rules/dangerous-goods-storage-and-handling-regulations-2022" },
-    { "fact": "AS 1940:2017 with Amendment 2 (2021)", "url": "https://store.standards.org.au/product/as-1940-2017-amd-2-2021" },
-    { "fact": "AS 3788:2024 supersedes AS/NZS 3788:2006; listed as AS/NZS 3788:2024 with Amendment 1:2025", "url": "https://www.intertekinform.com/preview/1569218984991.pdf" }
+    {
+      "fact": "Geelong refinery at Corio, opened by Shell 1954, sold 2014 to Viva Energy which owns and operates it; produces approximately half of the fuel used in Victoria",
+      "url": "https://en.wikipedia.org/wiki/Geelong_Oil_Refinery"
+    },
+    {
+      "fact": "Fuel Security Services Payment extended to 30 June 2030 (20 March 2026) for Lytton and Geelong; refiners commit to operate to at least 30 June 2027",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803693-australia-extends-subsidy-plan-for-refiners-to-2030"
+    },
+    {
+      "fact": "Victoria MHF regime: reg 360 notification above 10% of Schedule 14 threshold, registration, safety case under Part 5.2 Division 8 of the OHS Regulations 2017, licence up to five years, WorkSafe Victoria",
+      "url": "https://www.worksafe.vic.gov.au/major-hazard-facility-notification-registration-and-licence"
+    },
+    {
+      "fact": "Dangerous Goods (Storage and Handling) Regulations 2022 (Vic) in force",
+      "url": "https://www.legislation.vic.gov.au/in-force/statutory-rules/dangerous-goods-storage-and-handling-regulations-2022"
+    },
+    {
+      "fact": "AS 1940:2017 with Amendment 2 (2021)",
+      "url": "https://store.standards.org.au/product/as-1940-2017-amd-2-2021"
+    },
+    {
+      "fact": "AS 3788:2024 supersedes AS/NZS 3788:2006; listed as AS/NZS 3788:2024 with Amendment 1:2025",
+      "url": "https://www.intertekinform.com/preview/1569218984991.pdf"
+    }
   ]
 }

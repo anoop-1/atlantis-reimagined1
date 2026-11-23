@@ -1,0 +1,163 @@
+{
+  "title": "RBI in Taranaki: Gas, Methanol and Urea Plant Inspection",
+  "description": "Risk-based inspection for Taranaki gas stations, methanol and urea plants: idling, preservation and restart risk, a wet coastal climate and remote studies.",
+  "h1": "Risk-based inspection for Taranaki's gas, methanol and fertiliser plants",
+  "eyebrow": "Risk-based inspection in Taranaki",
+  "intro": "Taranaki is where New Zealand's gas comes from and where much of it has been turned into methanol, urea and electricity. Its plants now run against a shrinking supply: the largest methanol producer plans to idle its plant in early 2027, the urea plant at Kapuni has lived on short-term gas contracts, and the fields feeding them are declining faster than forecast. This page is for the integrity and inspection people at those sites. It covers how intermittent running, idling and restart change an RBI assessment, the damage mechanisms of syngas, methanol, ammonia and urea service, the wet and windy coast, and how Atlantis delivers the study remotely.",
+  "highlights": [
+    { "h": "Operating pattern as an input", "p": "A corrosion rate measured during steady operation says little about a plant that runs in campaigns or sits preserved for months. The study records how each item has actually been run and carries idled, preserved and restarted states into the register." },
+    { "h": "Preservation that keeps its credit", "p": "Inspection already carried out stays useful only if the equipment is kept in a known condition while it is offline. The study writes the preservation basis system by system, together with the checks that prove it was maintained." },
+    { "h": "Restart on evidence", "p": "Before a unit comes back, the plan lists the inspections that decide whether it can, ranked by the damage most likely to have occurred while it was down, so the restart rests on current condition rather than old records." }
+  ],
+  "sections": [
+    {
+      "id": "tk-industry",
+      "h": "Taranaki's gas-based industry in 2026",
+      "p": [
+        "Taranaki's industry grew from the gas fields onshore and off the coast around New Plymouth. Of those fields, Māui was expected to stop producing by the end of 2026, Pohokura's output was forecast in May 2026 to end in 2033, a decade sooner than earlier estimates, and Mangahewa was expected to keep producing until about 2035. The gas feeds production stations and treating plant, gas-fired generation and two large chemical users: Methanex's methanol plants at Motunui and Waitara Valley, and Ballance Agri-Nutrients' urea plant at Kapuni, with a capacity of around 260,000 tonnes a year.",
+        "Both chemical sites are living with the decline. Methanex mothballed Waitara Valley in 2021, placing it on care and maintenance after it could not secure enough gas, while Motunui's two trains carried on. In September 2026 the company announced that methanol output would stop at the end of February 2027, that it would sell its remaining gas entitlements from March, and that Motunui would be idled and preserved to keep a future restart possible. Ballance's long-term gas contract for Kapuni expired at the end of September 2025; the plant has since run on short-term supply deals, the company wrote the plant's book value down to nil in 2025, and it has said the plant would have to shut without secure gas. In February 2026 the government decided to build an LNG import terminal at Port Taranaki, a project still contested in late 2026."
+      ]
+    },
+    {
+      "id": "tk-patterns",
+      "h": "How intermittent running changes the assessment",
+      "p": [
+        "RBI rests on the idea that past damage rates predict future ones. That holds while a plant runs steadily at known conditions. It weakens when a plant cuts rates to match its gas, switches trains on and off or stops altogether, because each of those changes brings conditions the history never recorded. Velocities fall and liquids drop out where they used to be carried through. Hot equipment cools through its dew point and wets its own internals. Insulated carbon steel that ran too hot for corrosion under insulation to take hold now sits at ambient temperature in one of the wettest parts of the country. Thermal and pressure cycles build fatigue at nozzles, supports and welds that steady operation spared.",
+        "The study therefore asks three questions of every item before its probability is assessed: how it was run during the period the inspection history covers, how it is being run now, and how it is expected to run before its next inspection. Where the answers differ, the old corrosion rate is not carried forward unchanged. The assessment applies the mechanisms the new pattern makes likely and sets an earlier check to measure them."
+      ]
+    },
+    {
+      "id": "tk-downtime-damage",
+      "h": "Damage that grows while a plant is down",
+      "p": [
+        "Some mechanisms slow down when a plant stops; others speed up. The table lists those that most often change during idling and restart, and how the plan responds to each."
+      ],
+      "table": {
+        "head": ["Mechanism", "Why idling or cycling makes it more likely", "What the plan asks for"],
+        "rows": [
+          ["Corrosion under insulation on carbon steel", "Lines that ran hot and dry cool to ambient and take up rain and condensation", "Insulation condition surveys and targeted thickness checks on lines that used to run hot"],
+          ["Condensation and dew point corrosion", "Gas and process equipment cools below its dew point and holds water, sometimes with carbon dioxide or ammonia dissolved in it", "Draining, drying or inert gas blanketing, and internal checks at low points before restart"],
+          ["Microbiologically influenced corrosion", "Stagnant water in cooling, firewater and drain systems, or water left behind after hydrotests", "Draining or treatment records, and inspection of the stagnant sections the study identifies"],
+          ["Ammonia cracking and carbamate corrosion", "Air entering anhydrous ammonia systems raises cracking risk in carbon steel, and urea synthesis equipment loses the oxygen-supported passive film that protects its stainless steel in normal running", "Preservation that keeps air out, re-passivation before restart and crack detection at susceptible welds"],
+          ["Thermal and mechanical fatigue", "Repeated start-ups and trips cycle temperature and pressure at nozzles, branches and supports", "A record of cycles and examination of the locations most exposed to them"],
+          ["Refractory and reformer tube damage", "Heating and cooling cycles crack refractory and load tubes and their supports", "Hot-spot and refractory surveys after restart, and tube inspection planned against the cycle history"]
+        ]
+      }
+    },
+    {
+      "id": "tk-preservation",
+      "h": "Preserving idle equipment so the record still counts",
+      "p": [
+        "A preserved plant is a decision about which damage to prevent and how to prove it was prevented. If preservation is done well and recorded, past inspection keeps its value and a restart needs fewer checks. If it lapses, the plant may restart on inspection data that no longer describes it. The study writes a preservation basis for each system and lists the evidence the site should keep."
+      ],
+      "list": [
+        "Which systems are drained and dried, which are blanketed with nitrogen or dry air, and the dew point or oxygen readings that show the blanket is holding",
+        "Which systems stay wet under chemical treatment, and the chemistry records that show the treatment was kept up",
+        "Whether cathodic protection on tanks and buried lines stays energised and surveyed while the plant is down",
+        "How insulation and cladding are kept weathertight, and how often their condition is checked",
+        "Which dead legs, low points and stagnant sections were created by isolation, and how each one is managed",
+        "How often the idle plant is walked down, and what each walkdown must record"
+      ]
+    },
+    {
+      "id": "tk-mechanisms",
+      "h": "Damage mechanisms in methanol, urea and gas service",
+      "p": [
+        "When the plants run, their risk picture is set by synthesis gas chemistry. Steam reformer tubes operate in the creep range, and their remaining life depends on temperature history, so tube metal temperature records and diameter growth measurements are core inputs. Downstream, carbon and low-alloy steel equipment in hot, hydrogen-rich synthesis gas has to be checked against the operating limits for high-temperature hydrogen attack in API RP 941, while waste heat boilers and transfer lines face thermal cycling and, where carbon monoxide-rich gas meets susceptible metal temperatures, metal dusting. Methanol synthesis loops add hot hydrogen and carbon oxides, and the distillation section handles crude methanol and water at lower temperatures.",
+        "Urea manufacture adds two specialised families. Anhydrous ammonia stored and handled in carbon steel carries a stress corrosion cracking risk that rises with oxygen contamination. The urea synthesis section works in ammonium carbamate, which attacks stainless steels unless their passive film is maintained, so passivation air, liner and weld condition and leak detection on lined vessels sit at the centre of the plan. Gas production stations and treating plant bring carbon dioxide corrosion in wet gas, produced water handling, erosion where sand comes up with the gas, and the changes that arrive late in a field's life: rising water cut, lower velocities, liquid holdup and under-deposit attack in lines that once ran clean."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "tk-climate",
+      "h": "Rain, westerlies and an exposed coast",
+      "p": [
+        "Taranaki faces the Tasman Sea, and prevailing westerly winds carry salt spray and frequent rain onto plant built near the coast, while the mountain at the centre of the region draws even more rain inland. For carbon steel that means steady atmospheric corrosion on exposed structures, piping and tank shells, and wet insulation that seldom dries, which is why corrosion under insulation climbs so sharply once hot equipment goes cold. Coastal sites such as Motunui and the port take the heaviest salt deposition, and inland production stations more rain and less salt; the study rates the two differently rather than applying one atmospheric factor to the whole region.",
+        "Taranaki also carries seismic and volcanic hazard. Those are rare events for an inspection plan, but they belong in it as triggers: after a felt earthquake above an agreed threshold, or an ashfall, the plan lists the checks to make on tanks, tall columns, connected piping and supports before the next routine inspection is due."
+      ]
+    },
+    {
+      "id": "tk-rules",
+      "h": "Rules that apply to a Taranaki site",
+      "p": [
+        "Pressure equipment at the production stations and chemical plants falls under the 1999 pressure equipment regulations and the approved code of practice, with certificates of inspection from recognised inspection bodies and extended periods available only through a recognised inspection and test plan built on risk-based principles. Sites holding hazardous substances above the threshold quantities may be designated major hazard facilities, and tanks and process containers above set capacities need compliance certificates.",
+        "Idling does not remove those obligations. Pressure equipment must not be operated without a current certificate of inspection, so items whose certificates expire while a plant is preserved will need certification by the inspection body before they run again. Agree with the inspection body before the plant stops how certification will be handled through the idle period, and plan the pre-restart inspections so that they serve the certification visit as well. The New Zealand page sets out the national framework in more detail."
+      ]
+    },
+    {
+      "id": "tk-remote",
+      "h": "Running a Taranaki study remotely",
+      "p": [
+        "The study works from documents and video. Process flow diagrams, P&IDs and heat and material balances, datasheets and manufacturer's data reports, certificates of inspection, inspection and thickness history, reformer tube records, operating logs showing start-ups, trips and rate changes, preservation records and process chemistry come through a shared data room. A data-gap log is issued before workshops begin, and the operating-pattern questions are asked early, because their answers decide which mechanisms the rest of the study concentrates on.",
+        "Workshops run in the late Taranaki afternoon, as the Hyderabad team begins its day, and drafting continues in Houston overnight. The study needs no travel. Insulation surveys, low-point checks, thickness readings, preservation verification and walkdowns are carried out by your inspectors or your inspection contractor against the written list the study produces, and their results update the model before the plan is finalised."
+      ]
+    },
+    {
+      "id": "tk-approval",
+      "h": "Approval, and the limits of the study",
+      "p": [
+        "Certificates of inspection remain with the recognised inspection body, extended periods depend on the regulator recognising the controller's plan, and tank intervals rest with the owner's inspection authority. Atlantis proposes and documents; it does not act as inspector of record or as an inspection body. If inspection before or after a restart finds damage that needs an engineering judgement on continued service, that fitness-for-service evaluation stays with the owner's engineer, and Atlantis does not offer it. The register is then updated with the outcome and any repair."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection) and API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 941 (steels for hydrogen service at elevated temperatures and pressures)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Health and Safety in Employment (Pressure Equipment, Cranes, and Passenger Ropeways) Regulations 1999",
+    "Approved Code of Practice for Pressure Equipment (Excluding Boilers) and AS/NZS 3788",
+    "Health and Safety at Work (Major Hazard Facilities) Regulations 2016"
+  ],
+  "deliverables": [
+    "RBI register carrying each item's operating pattern and its running, idled or preserved state",
+    "Preservation basis by system, with the readings and records that prove it held",
+    "Restart inspection scope ranked by the damage most likely to have occurred while down",
+    "Damage mechanism basis for reformer, synthesis gas, methanol, ammonia, urea and gas treating service",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Data-gap log and reassessment triggers, including restarts, gas supply changes and seismic events"
+  ],
+  "industries": [
+    "Gas production stations and treating plant",
+    "Methanol manufacture",
+    "Ammonia and urea manufacture",
+    "Gas-fired power generation",
+    "Port and bulk liquid storage"
+  ],
+  "faqs": [
+    { "q": "Our plant runs in campaigns when gas is available. Can RBI still set intervals?", "a": "Yes, but not from the steady-state corrosion history alone. The study records each campaign, the shutdowns between them and how equipment was preserved, then applies the mechanisms that pattern makes likely, such as condensation, corrosion under insulation on cooled lines and cycling fatigue. Intervals come with earlier checks wherever the new pattern has no measured history yet." },
+    { "q": "We are idling the plant indefinitely. What should the RBI programme do now?", "a": "Change the register to show each item's preserved state, write a preservation basis for each system with the readings that prove it is holding, and set a restart scope ranked by the damage most likely to occur while the plant is down. That keeps a future restart decision grounded in evidence and stops the existing inspection record from losing its value." },
+    { "q": "Do certificates of inspection lapse while a plant is idle?", "a": "Pressure equipment must not be operated without a current certificate of inspection, so equipment whose certificate expires during an idle period will need certification by your inspection body before it runs again. Agree with the inspection body before the plant stops how certification will be handled, and plan the pre-restart inspections so they also serve the certification visit." },
+    { "q": "Which mechanisms dominate in a methanol plant?", "a": "Reformer tube creep, high-temperature hydrogen exposure in hot synthesis gas equipment against the API RP 941 limits, thermal cycling in waste heat boilers and transfer lines, and metal dusting where carbon monoxide-rich gas meets susceptible metal temperatures. Corrosion under insulation and coastal atmospheric corrosion add external risk, and both grow when equipment that used to run hot stands cold." },
+    { "q": "What makes urea plant equipment different?", "a": "Carbamate and ammonia. The urea synthesis section depends on a maintained passive film to protect its stainless steel, so passivation, liner and weld condition and leak detection drive the plan. Anhydrous ammonia in carbon steel carries a cracking risk that rises with oxygen contamination, and shutdowns are one of the ways oxygen gets in." },
+    { "q": "Does the planned LNG terminal at Port Taranaki change anything for our RBI?", "a": "Not until supply actually changes. If imported gas reaches a site, its composition, contaminants and delivery pattern become new inputs and would be a reassessment trigger. The terminal's future was still contested in late 2026, so the study records its gas supply assumptions explicitly and revisits them once the position is settled." },
+    { "q": "Does anyone from Atlantis need to visit Taranaki?", "a": "No. The study is delivered remotely from your records and video workshops and needs no travel. Walkdowns, insulation surveys, low-point and preservation checks and any readings the study asks for are carried out by your own inspectors or your inspection contractor, and their findings are fed into the assessment before the plan is issued." },
+    { "q": "Who approves the plan?", "a": "Your recognised inspection body for pressure equipment certificates, the regulator for any extended periods under a recognised inspection and test plan, and your inspection authority for tanks and equipment outside the pressure equipment rules. The study supplies the basis; the decisions stay with them, and engineering assessments of damage stay with your engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/new-zealand", "RBI in New Zealand"],
+    ["/inspection/risk-based-inspection/marsden-point", "RBI at Marsden Point"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-584", "Integrity operating windows (API 584)"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Gas reserves falling faster than expected (14 May 2026): Māui production expected to stop by end of 2026; Pohokura expected to stop 2033, ten years earlier than indicated; Mangahewa continuing until 2035", "url": "https://www.newstalkzb.co.nz/news/business/gas-reserves-fall-faster-than-expected-as-pohokura-māui-wind-down/" },
+    { "fact": "Methanex (2 September 2026): methanol output at Motunui stops end of February 2027; remaining gas sold from March 2027; site idled and preserved for long-term optionality", "url": "https://www.1news.co.nz/2026/09/02/methanex-to-close-taranaki-plant-citing-decline-in-gas-supply/" },
+    { "fact": "Methanex to indefinitely idle New Zealand facilities in Q1 2027, sell most remaining gas entitlements, focus on safely idling and preserving the facility to keep restart option", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/chemicals/090226-methanex-to-idle-new-zealand-plants-from-2027-as-gas-supply-outlook-worsens" },
+    { "fact": "Methanex mothballed Waitara Valley (February 2021), care and maintenance, insufficient gas; Motunui two production trains continue", "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198392/methanex-mothballs-waitara-valley-methanol-plant-in-nz" },
+    { "fact": "Ballance Kapuni urea plant 260,000 t/yr; long-term gas contract expired 30 September; second short-term deal to March 2026; plant would be forced to shut without secure gas (22 January 2026)", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2778874-new-zealand-s-ballance-gets-gas-supply-for-urea-plant" },
+    { "fact": "Ballance wrote off the full $88m value of the Kapuni plant (nil book value) in August 2025; plant still running then", "url": "https://www.ruralnewsgroup.co.nz/rural-news/rural-general-news/ballance-kapuni-plant-88m-writedown-2025" },
+    { "fact": "Government decided in February 2026 to build an LNG import terminal at Port Taranaki; procurement and future contested before the 7 November 2026 election", "url": "https://thespinoff.co.nz/business/21-10-2026/the-governments-controversial-plan-to-build-an-lng-terminal-in-taranaki-explained" },
+    { "fact": "Equipment must not be operated without a current certificate of inspection (ACoP 2.2.3(b)); recognised inspection bodies; extended periods via recognised ITP (Appendix F)", "url": "https://worksafe.govt.nz/dmsdocument/2-acop-pressure-equipment-excluding-boilers" }
+  ]
+}

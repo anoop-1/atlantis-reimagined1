@@ -1,0 +1,196 @@
+{
+  "title": "Risk-Based Inspection in New Zealand: PECPR and AS/NZS 3788",
+  "description": "How RBI fits New Zealand's pressure equipment code, major hazard and tank rules, where the plant is, and how Atlantis runs a remote RBI study for NZ sites.",
+  "h1": "Risk-based inspection for New Zealand terminals, gas plants and pressure equipment",
+  "eyebrow": "Risk-based inspection in New Zealand",
+  "intro": "New Zealand regulates pressure equipment through a 1999 regulation and a 2001 approved code of practice, and that code already contains a route to longer inspection periods: an inspection and test plan built on risk-based inspection principles and recognised by the regulator. This page is for integrity and inspection managers at fuel terminals, gas and chemical plants, geothermal stations and other process sites. It explains how that route works, how it sits beside the major hazard facility and hazardous substances rules, where the country's oil, gas and chemical plant is, what falling Taranaki gas supply means for inspection planning, and how Atlantis delivers an RBI study remotely.",
+  "highlights": [
+    { "h": "A route the code already provides", "p": "The pressure equipment code lets a controller move to extended and further extended periods once its inspection and test plan has been recognised by the regulator. The inspection body has to confirm that the plan follows risk-based inspection principles, so a well-documented RBI study is the evidence the application rests on." },
+    { "h": "Certificates stay with the inspection body", "p": "Pressure equipment in New Zealand operates on a certificate of inspection issued by a recognised inspection body on an equipment inspector's recommendation. An RBI study informs that decision and the plan behind it; it does not replace the inspection body, the equipment inspector or the certificate." },
+    { "h": "Hours ahead of the study team", "p": "New Zealand runs six and a half to seven and a half hours ahead of Hyderabad, depending on daylight saving. Workshops are booked for the late New Zealand afternoon, and the study needs no travel: field checks go on a written list for your own inspectors or inspection contractor." }
+  ],
+  "sections": [
+    {
+      "id": "nz-framework",
+      "h": "Four rulebooks a New Zealand RBI study has to respect",
+      "p": [
+        "New Zealand places pressure equipment, major hazard sites and hazardous substance storage under three separate sets of regulations made under its workplace health and safety law, and WorkSafe New Zealand administers all three. The pressure equipment rules date from 1999 and still carry their original name, the Health and Safety in Employment (Pressure Equipment, Cranes, and Passenger Ropeways) Regulations 1999, usually shortened to PECPR. Beside them sits an approved code of practice for pressure equipment other than boilers, published in 2001, which ties in-service inspection to AS/NZS 3788. Boilers are covered by a code of their own.",
+        "Atmospheric storage tanks are not pressure equipment. Where they hold fuels or other hazardous substances above set quantities they are stationary container systems under the hazardous substances regulations and need a compliance certificate, while their structural integrity programme is normally written to API 653 or the owner's own tank standard. A site holding enough hazardous substances may also be designated a lower tier or upper tier major hazard facility, which brings a major accident prevention policy or a safety case with it. The table shows where each regime touches an inspection plan."
+      ],
+      "table": {
+        "head": ["Regime", "Who acts under it", "What it means for an RBI programme"],
+        "rows": [
+          ["PECPR 1999 with the approved code of practice for pressure equipment (excluding boilers)", "The equipment's controller, recognised inspection bodies accredited to ISO/IEC 17020 and their equipment inspectors; the regulator recognises inspection and test plans", "Nominal periods come from AS/NZS 3788 and the code's own schedule; extended periods need a recognised plan that the inspection body confirms follows risk-based inspection principles"],
+          ["Approved code of practice for boilers", "Controllers and recognised inspection bodies", "Boilers keep their own inspection regime; the study records them separately and leaves their periods to that code"],
+          ["Health and Safety at Work (Major Hazard Facilities) Regulations 2016", "WorkSafe, which designates lower and upper tier facilities from threshold quantities, and the operator", "An upper tier facility must be operated and maintained consistently with its accepted safety case, so plans for safety-critical equipment have to line up with it"],
+          ["Health and Safety at Work (Hazardous Substances) Regulations 2017", "Compliance certifiers authorised by WorkSafe", "Stationary tanks and process containers above set capacities need a compliance certificate; that certificate is not an API 653 inspection, and the internal interval stays with the owner's tank programme"]
+        ]
+      }
+    },
+    {
+      "id": "nz-itp-route",
+      "h": "Extended periods through a recognised inspection and test plan",
+      "p": [
+        "The pressure equipment code sets in-service periods by reference to table 4.1 of AS/NZS 3788, supplemented, and where they conflict overridden, by the code's own schedule for equipment the standard does not categorise, such as reactor vessels containing catalyst. Those are the nominal periods. Appendix F of the code then describes how a controller can move to the extended periods in clauses 4.4.3.2 and 4.4.3.3(b) of AS/NZS 3788, and to further extended internal inspection periods under clause 4.4.3.3(c).",
+        "Both steps run through the controller's inspection and test plan, which the regulator must recognise; the code, written in 2001, gives that role to the Secretary of Labour. The controller applies in writing with a schedule of the equipment and certifies that it runs the equipment within a quality management system covering inspection, testing and the monitoring of process and operating parameters, that inspection follows a plan approved by its inspection body, that operation stays inside the parameters the plan nominates, that the people responsible are competent and that the inspection body may see equipment and records at any time.",
+        "The inspection body writes its own letter. It confirms that it has reviewed process and historical data and that the plan follows risk-based inspection principles, identifies all damage mechanisms, uses inspection procedures able to find the accumulated damage, makes adequate use of historical inspection data, conforms to the AS/NZS 3788 requirements for extended periods and will be reviewed periodically. Read as a specification, that letter describes what an RBI study produces: a damage mechanism basis for every item, techniques matched to those mechanisms, credit for past inspection only where it was effective, and operating limits that behave as integrity operating windows. The study is laid out so the inspection body and the regulator's reviewer can find each of those points without hunting."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-584", "Integrity operating windows (API 584)"]
+      ]
+    },
+    {
+      "id": "nz-edition",
+      "h": "Which edition of the in-service standard?",
+      "p": [
+        "AS/NZS 3788 started life as an Australian standard in 1990 and became a joint Australian and New Zealand standard, with editions in 2001 and 2006. Its 2024 revision was published as AS 3788:2024, an Australian standard only: after consulting stakeholders, the committee decided not to continue it as a joint document. The revision rewrote the inspection requirements to take in risk-based inspection and revised the roles and responsibilities it assigns. The New Zealand code of practice, meanwhile, refers to AS/NZS 3788 and was written long before that change.",
+        "A New Zealand controller therefore needs to know which edition its inspection body works to and whether any part of the newer Australian text is being adopted as good practice. The study names the edition behind each interval, uses that edition's clause numbering, and keeps the joint standard's extended-period clauses as the reference wherever the inspection body relies on appendix F. The code's instruction to carry out risk assessment in accordance with AS/NZS 4360, a risk management standard since replaced by AS/NZS ISO 31000, is another place where the plan should state how the older reference has been read."
+      ]
+    },
+    {
+      "id": "nz-mhf-tanks",
+      "h": "Major hazard facilities and tank compliance certificates",
+      "p": [
+        "Under the Major Hazard Facilities Regulations 2016, WorkSafe decides from threshold quantities whether a facility is lower tier, upper tier or neither. A lower tier operator needs a major accident prevention policy. An upper tier operator must carry out a safety assessment, run a safety management system, maintain an emergency plan and hold an accepted safety case, which has to be revised no later than five years after acceptance, and sooner when modifications or new technical knowledge change the risk. The facility must be operated, maintained and modified consistently with the accepted case, and damage to or failure of a safety-critical element that needs intervention is a notifiable incident.",
+        "Those last two provisions are where RBI earns its place at a major hazard facility. Inspection is part of how containment is maintained, so equipment the safety case treats as safety-critical should be marked as such in the RBI register, and consequence ratings in the study should be consistent with the scenarios the safety assessment describes. A change to inspection that weakens a control the safety case relies on is a change the case has to take into account.",
+        "Tank farms meet another regime as well. The hazardous substances regulations treat a tank or process container, with its pipework and fittings, as a stationary container system. Above ground tanks holding more than 2,500 litres of class 3.1A or 3.1B flammable liquids, or more than 5,000 litres of other hazardous substances, need a compliance certificate from a WorkSafe-authorised compliance certifier, who must examine the system on site. Tanks built before July 2006 that do not meet the certificate requirements may need a compliance plan instead, beginning with a certifier's report on maintenance and repair history against the original design standard. Neither process amounts to an API 653 inspection, but both generate records that an RBI study should gather."
+      ]
+    },
+    {
+      "id": "nz-reform",
+      "h": "A regime under review",
+      "p": [
+        "New Zealand's workplace health and safety law is being reformed. In April 2025 the government announced changes that included a new model for approved codes of practice, meant to give businesses more certainty about what compliance looks like. Briefings to ministers in late 2025 describe an amendment bill under which following an approved code would count as doing what is reasonably practicable for the risks it covers. They also set out options for the existing codes, most of which predate 2016: some options would give those codes the new status at once, others would leave them as they are, or revoke them, until each has been reviewed and reapproved.",
+        "We have not found an announced replacement for the 1999 pressure equipment regulations themselves, and WorkSafe was still granting exemptions under them in 2026. The practical step for an RBI programme is to check, before a plan is relied on, whether the bill has passed, what status the pressure equipment code now holds and whether the inspection body's expectations have moved. The study records which version of the framework it was prepared against, so any later change can be traced to the intervals it affects."
+      ]
+    },
+    {
+      "id": "nz-assets",
+      "h": "Where the oil, gas and chemical plant is",
+      "p": [
+        "New Zealand's oil, gas and chemical assets sit in a handful of places. Marsden Point, at the entrance to Whangārei Harbour in Northland, held the country's only oil refinery until it closed in 2022; it now operates as Channel Infrastructure's fuel import terminal, the largest in the country, with a pipeline to Auckland. Taranaki holds the producing gas fields and the industry built on them: Methanex's methanol plants at Motunui and Waitara Valley, Ballance Agri-Nutrients' urea plant at Kapuni, gas processing and gas-fired generation. Fuel depots at the ports, geothermal power stations in the central North Island, and the boilers and pressure vessels of the dairy, wood processing and food industries make up much of the remaining pressure equipment population.",
+        "Each group brings a different risk picture, summarised below. The Marsden Point and Taranaki pages go into the facilities themselves."
+      ],
+      "table": {
+        "head": ["Asset group", "Typical equipment", "What tends to drive the risk"],
+        "rows": [
+          ["Fuel import terminal and port depots", "Large tanks built for crude now holding refined products, jetty and transfer piping, pumps and loading", "Floor corrosion, changes of service between products, coastal atmosphere on shells, roofs and pipe supports"],
+          ["Gas production and processing", "Separators, dehydration and gas treating plant, gathering lines, compressors", "Carbon dioxide corrosion in wet gas, produced water, falling flow rates late in field life"],
+          ["Methanol and urea manufacture", "Reformers, synthesis loops, ammonia and carbamate service, steam systems", "High-temperature hydrogen exposure and creep, carbamate and ammonia attack, shutdown and restart damage as gas tightens"],
+          ["Geothermal generation", "Separators, steam and brine pipework, heat exchangers", "Erosion in two-phase flow, silica and other scaling, corrosion from hydrogen sulfide and carbon dioxide carried in steam"],
+          ["Dairy, wood and food processing", "Boilers, evaporators, steam and condensate systems, process vessels", "Condensate and feedwater corrosion, thermal cycling, cleaning chemicals"]
+        ]
+      },
+      "links": [
+        ["/inspection/risk-based-inspection/marsden-point", "Marsden Point, Northland"],
+        ["/inspection/risk-based-inspection/taranaki", "Taranaki"]
+      ]
+    },
+    {
+      "id": "nz-gas",
+      "h": "Falling gas supply as an inspection planning input",
+      "p": [
+        "Gas supply has become the largest operating variable for New Zealand process plant. Official reserve figures reported in May 2026 showed reserves falling faster than expected: Māui production was expected to stop by the end of 2026 and Pohokura's by 2033, ten years earlier than previously indicated, with Mangahewa producing until about 2035. Methanex, which uses around 40 per cent of the country's gas, announced in September 2026 that methanol output would stop at the end of February 2027 and that the plant would then be idled and preserved. Ballance has run Kapuni on short-term gas deals since its long-term contract expired at the end of September 2025, and in February 2026 the government decided to build an LNG import terminal at Port Taranaki.",
+        "For an RBI programme those facts are inputs, not background. Equipment that runs intermittently, sits under preservation or restarts after months offline does not degrade the way its corrosion-rate history assumes, and an interval set for steady operation can be wrong in either direction. The study asks for each item's operating pattern, holds idled and preserved equipment as a separate state in the register, and names restart as a reassessment trigger. The Taranaki page sets out preservation and restart in more detail."
+      ]
+    },
+    {
+      "id": "nz-scopes",
+      "h": "What New Zealand owners usually need from an outside study",
+      "p": [
+        "The requests we expect from New Zealand sites follow the country's regulatory route and the pressures it is under now."
+      ],
+      "list": [
+        "Preparing the RBI basis for an inspection and test plan that a controller will put to its inspection body and the regulator for extended or further extended periods",
+        "Reviewing a recognised plan ahead of its periodic review, so every damage mechanism, inspection credit and operating limit the inspection body confirmed still holds",
+        "Reassessing tanks that have changed product, or are about to, and listing the inspection evidence needed before each returns to service",
+        "Writing a preservation and restart basis for units being idled because gas is short",
+        "Aligning the RBI register with an upper tier safety case, so safety-critical equipment and consequence ratings agree",
+        "Turning decades of paper inspection records into thickness histories and credited inspections a risk model can use"
+      ]
+    },
+    {
+      "id": "nz-remote",
+      "h": "Running the study from Hyderabad and Houston for a New Zealand site",
+      "p": [
+        "New Zealand standard time is twelve hours ahead of UTC and daylight saving time, from late September to early April, thirteen. Hyderabad is six and a half hours behind in the New Zealand winter and seven and a half in summer, so the late New Zealand afternoon lines up with the start of the Indian working day and workshops are booked into it. Houston is seventeen to nineteen hours behind, depending on both countries' clocks, which puts the Texas afternoon in the New Zealand early morning of the following day; a question raised at the close of a New Zealand day can be worked through overnight.",
+        "Documents travel through a shared data room: P&IDs and process flow diagrams, heat and material balances, datasheets and manufacturer's data reports, certificates of inspection and the inspection body's reports, thickness and inspection history, process chemistry and the operating parameters the plant runs to. A data-gap log goes out before workshops begin. Damage mechanisms are assigned to API 571 and tested in video sessions with your operations, process, corrosion and inspection people, and probability and consequence follow at the level the scope calls for, from a qualitative screen to an API RP 581 quantitative assessment, or the method your company standard names.",
+        "Nobody from Atlantis needs to travel for the study. Field verification, such as confirming insulation condition, locating the CMLs the history refers to or surveying a tank floor, is carried out by your own inspectors, your inspection body or your inspection contractor against a written list, and the results go back into the model."
+      ]
+    },
+    {
+      "id": "nz-approval",
+      "h": "Who decides the periods",
+      "p": [
+        "The study recommends; it does not certify. Certificates of inspection come from the recognised inspection body on its equipment inspector's recommendation, extended periods depend on the regulator recognising the controller's plan, and tank intervals rest with the owner's API 653 inspector or inspection authority. Atlantis is not an inspection body, does not supply equipment inspectors for New Zealand certification and does not act as inspector of record.",
+        "Where inspection finds damage that needs an engineering judgement on continued service, that fitness-for-service assessment stays with the owner's engineer; Atlantis does not offer it. The register is then updated with the decision and any repair, and the next due date is worked out again from the new evidence."
+      ]
+    }
+  ],
+  "codes": [
+    "Health and Safety in Employment (Pressure Equipment, Cranes, and Passenger Ropeways) Regulations 1999",
+    "Approved Code of Practice for Pressure Equipment (Excluding Boilers), 2001",
+    "AS/NZS 3788 and AS 3788:2024 (pressure equipment, in-service inspection)",
+    "Health and Safety at Work (Major Hazard Facilities) Regulations 2016",
+    "Health and Safety at Work (Hazardous Substances) Regulations 2017",
+    "API RP 580 (risk-based inspection) and API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms) and API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "ISO/IEC 17020 (inspection bodies)"
+  ],
+  "deliverables": [
+    "RBI register with damage mechanisms, probability, consequence and risk for every item",
+    "RBI basis written to support an inspection and test plan for extended or further extended periods",
+    "Inspection plan per item with technique, coverage, expected effectiveness and due date",
+    "Operating parameters and integrity operating windows the plan depends on",
+    "Register states for idled and preserved equipment, with restart checks",
+    "Data-gap log naming the field checks your inspectors or contractor should make",
+    "Reassessment triggers and a report your inspection body can follow"
+  ],
+  "industries": [
+    "Fuel import terminals and port depots",
+    "Gas production and processing",
+    "Methanol and fertiliser manufacture",
+    "Geothermal power generation",
+    "Dairy, wood and food processing",
+    "Chemical storage"
+  ],
+  "faqs": [
+    { "q": "Does New Zealand allow risk-based inspection intervals for pressure equipment?", "a": "Not as a free-standing choice. The approved code of practice for pressure equipment (excluding boilers) lets a controller use the extended and further extended periods in AS/NZS 3788 once the regulator has recognised its inspection and test plan, and the inspection body must confirm that the plan follows risk-based inspection principles. An RBI study supplies the damage mechanism and inspection-effectiveness basis for that plan. Without a recognised plan, the nominal periods apply." },
+    { "q": "Can an RBI study take the place of our inspection body?", "a": "No. Certificates of inspection are issued by a recognised inspection body, accredited to ISO/IEC 17020, on the recommendation of its equipment inspector. The study provides the reasoning behind an inspection plan and the evidence the inspection body is asked to review; the inspection body keeps its decision, and Atlantis does not act as one." },
+    { "q": "Does AS 3788:2024 apply in New Zealand?", "a": "The 2024 revision was published as an Australian standard rather than a joint one, and the New Zealand code of practice refers to AS/NZS 3788. Which edition governs your equipment is a point to settle with your inspection body. The study names the edition and clause numbering behind each recommended interval, so the basis is never ambiguous." },
+    { "q": "Are fuel storage tanks covered by the pressure equipment rules?", "a": "Atmospheric tanks are not pressure equipment. Tanks holding hazardous substances above set capacities are stationary container systems that need a compliance certificate, and their integrity programme is normally written to API 653 or the owner's own standard. The risk-based route in API 653 for internal inspection intervals is the usual way to place tanks on risk-based intervals." },
+    { "q": "We are an upper tier major hazard facility. How does RBI fit our safety case?", "a": "The facility has to be operated and maintained consistently with its accepted safety case, so inspection is part of how containment is kept. The study marks equipment the safety case treats as safety-critical, keeps consequence ratings consistent with the scenarios in the safety assessment, and lists any proposed change to inspection that the next revision of the case should consider." },
+    { "q": "Our unit may be idled for lack of gas. Should RBI wait until we know?", "a": "No. Idling is when a plan most needs revising, because the quality of preservation decides what condition the equipment will be in when it restarts. The study can set the preserved state for each item, the checks to make while it is idle and the inspections needed before restart, so the restart decision rests on evidence rather than on the last operating history." },
+    { "q": "Does anyone from Atlantis need to come to New Zealand?", "a": "No. The study needs no travel and runs from your documents and video workshops. Walkdowns, CML location checks, insulation surveys and any thickness readings the study asks for are done by your own inspectors, your inspection body or your inspection contractor, and their results are fed back into the risk model." },
+    { "q": "Which RBI method will the study follow?", "a": "The one your programme names. API RP 580 and API RP 581 are widely used, ASME PCC-3 is another recognised framework, and many companies keep their own RBI standard. The study can screen qualitatively, rank semi-quantitatively or calculate quantitatively to API RP 581, and it records which method produced each interval so your inspection body can follow it." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Approved Code of Practice for Pressure Equipment (Excluding Boilers), OSH, Department of Labour, June 2001: in-service periods supplement/override AS/NZS 3788 table 4.1 via Schedule A (e.g. reactor vessels with catalyst); extended periods under AS/NZS 3788 cl. 4.4.3.2 and 4.4.3.3(b) and further extended under 4.4.3.3(c) only where the controller's ITP is recognised by the Secretary (Appendix F); controller's certification (QMS, ITP approved by inspection body, operation within nominated parameters, competent personnel, access); inspection body letter confirming ITP is in accordance with risk-based inspection principles, identifies all damage mechanisms, suitable procedures, historical data, AS/NZS 3788 extended-period requirements, periodic review; inspection bodies accredited to ISO 17020, equipment inspectors recommend certificates of inspection; risk assessment per AS/NZS 4360 (cl. 3.4.6)", "url": "https://worksafe.govt.nz/dmsdocument/2-acop-pressure-equipment-excluding-boilers" },
+    { "fact": "Regulation still cited in February 2026 as the Health and Safety in Employment (Pressure Equipment, Cranes, and Passenger Ropeways) Regulations 1999; WorkSafe granting exemptions under reg 5; recognised inspection bodies; separate ACoPs for pressure equipment and boilers", "url": "https://gazette.govt.nz/notice/id/2026-au821" },
+    { "fact": "AS 3788:2024 Pressure equipment - In-service inspection, published 28 June 2024, supersedes AS/NZS 3788:2006; developed as an Australian Standard rather than AS/NZS after stakeholder consultation; revision of inspection requirements including risk-based inspection; revision of roles and responsibilities; history AS 3788-1990, AS/NZS 3788:2001, 2006", "url": "https://www.intertekinform.com/preview/1569218984991.pdf" },
+    { "fact": "Major Hazard Facilities Regulations 2016: WorkSafe designates lower/upper tier (regs 15, 19) from Schedule 2 thresholds; lower tier MAPP (reg 36); upper tier safety assessment (reg 38), SMS (reg 39), emergency plan (reg 31), safety case (reg 45; no operation without accepted case, reg 43); revised safety case within 5 years (reg 54) and on modifications/new knowledge (reg 52); operate and maintain consistently with safety case (reg 57); failure of safety-critical element requiring intervention notifiable (reg 33(c))", "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2016/14/en/latest/" },
+    { "fact": "Stationary container systems (tank or process container with pipework and fittings); compliance certificate thresholds (above ground >2,500 L class 3.1A/3.1B, >5,000 L other substances); compliance certifier examines the system on site; pre-1 July 2006 tanks may need a compliance plan with certifier report on maintenance and repair history against original design standard", "url": "https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/certification-authorisation-approvals-and-licensing/certification-of-sites/stationary-container-system-compliance-certificates/" },
+    { "fact": "April 2025 announcement of health and safety reform including a changed model for approved codes of practice", "url": "https://www.mbie.govt.nz/about/news/first-set-of-changes-for-health-and-safety-reform" },
+    { "fact": "Briefing of 29 October 2025 on the Health and Safety at Work Amendment Bill: ACoP compliance treated as doing what is reasonably practicable; 25 existing ACoPs, 19 predating 2016; options for existing ACoPs (immediate status, keep current status or revoke until reviewed and reapproved); bill not yet introduced at that date", "url": "https://www.mbie.govt.nz/dmsdocument/32551-health-and-safety-at-work-amendment-bill-advice-on-commencement-date-and-provisions-for-acops-pdf" },
+    { "fact": "Marsden Point refinery (New Zealand's only oil refinery) closed 2022; Channel Infrastructure operates New Zealand's largest fuel import terminal; 170 km pipeline to Auckland", "url": "https://www.mbie.govt.nz/dmsdocument/32463-0033733-visit-to-marsden-point-on-4-june-2026" },
+    { "fact": "Gas reserves falling faster than expected (May 2026): Māui production expected to stop by end of 2026, Pohokura in 2033 (ten years earlier than indicated), Mangahewa until 2035", "url": "https://www.newstalkzb.co.nz/news/business/gas-reserves-fall-faster-than-expected-as-pohokura-māui-wind-down/" },
+    { "fact": "Methanex to indefinitely idle Motunui: methanol output stops end of February 2027, site idled and preserved; Methanex uses about 40% of New Zealand's gas", "url": "https://www.1news.co.nz/2026/09/02/methanex-to-close-taranaki-plant-citing-decline-in-gas-supply/" },
+    { "fact": "Ballance Kapuni urea plant: long-term gas contract expired 30 September 2025; short-term supply deals", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2778874-new-zealand-s-ballance-gets-gas-supply-for-urea-plant" },
+    { "fact": "Government decided in February 2026 to build an LNG import terminal at Port Taranaki", "url": "https://thespinoff.co.nz/business/21-10-2026/the-governments-controversial-plan-to-build-an-lng-terminal-in-taranaki-explained" }
+  ]
+}

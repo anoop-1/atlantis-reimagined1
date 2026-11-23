@@ -1,0 +1,162 @@
+{
+  "title": "Marsden Point RBI: Inspection Planning at a Converted Refinery",
+  "description": "Risk-based inspection for the Marsden Point fuel terminal: re-purposed crude tanks, idle capacity, coastal Northland corrosion and a remote API 580 study.",
+  "h1": "Risk-based inspection for the Marsden Point import terminal, Northland",
+  "eyebrow": "Risk-based inspection at Marsden Point",
+  "intro": "Marsden Point stopped refining in 2022 and kept its tanks, jetty and pipeline. It is now New Zealand's largest fuel import terminal, and parts of it are being given new jobs: crude tanks recommissioned to hold a government diesel reserve, another converted to jet fuel, and a large volume of capacity waiting for a use. This page is for the people who plan inspection there and at sites like it. It covers what changes in an RBI study when a plant stops processing, how a change of tank service should be assessed, what the Bream Bay climate does to steel, which rules apply and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "Service history, tank by tank", "p": "A tank that held crude for decades and now holds diesel or jet fuel carries two damage histories. The study records every service period, so floor and shell condition are read against what each tank actually stored rather than against its current product alone." },
+    { "h": "Evidence before recommissioning", "p": "Bringing an idle or converted tank back into service is the moment an inspection plan is easiest to get wrong. The study sets out the inspection evidence each tank needs before its new service begins and what that evidence has to show." },
+    { "h": "No site visit needed", "p": "Records arrive through a data room and workshops run by video. Your inspectors, or the inspection contractor you already use at Ruakākā, carry out the walkdowns and readings the study asks for, and their results go back into the register." }
+  ],
+  "sections": [
+    {
+      "id": "mp-site",
+      "h": "A refinery site that became an import terminal",
+      "p": [
+        "Refining NZ ran New Zealand's only oil refinery at Marsden Point, at the entrance to Whangārei Harbour, until it closed in 2022. The company, now Channel Infrastructure, kept the site as an import terminal. Government briefings in 2026 describe it as the largest fuel import terminal in the country, bringing in around 40 per cent of New Zealand's petrol and diesel imports and about 80 per cent of its jet fuel. Product leaves through Channel's 170 kilometre pipeline to Auckland and by truck to Auckland and Northland, with bp, Mobil and Z Energy loading at the site, and around 300 megalitres of storage is contracted to fuel companies.",
+        "The site is still changing. In February 2026 up to about 400 megalitres of tank capacity stood unused. Two former crude oil tanks were refurbished and returned to service to hold a government-funded diesel reserve of about 93 megalitres, opened in July 2026. Channel and Z Energy were converting a 30 megalitre crude tank to jet fuel, with commissioning scheduled for August 2026. Channel is also positioning the site as an energy precinct, and a proposed biorefinery for sustainable aviation fuel and renewable diesel was expected to reach an investment decision during 2026. Each of those moves changes the equipment the inspection programme covers and the service each item sees."
+      ]
+    },
+    {
+      "id": "mp-what-changes",
+      "h": "What changes in an RBI study when a plant stops processing",
+      "p": [
+        "When refining stopped, most of the high-temperature risk went with it. Crude heaters, columns, hydroprocessing reactors, exchangers and the hot piping between them were where a refinery programme spent most of its effort, on mechanisms such as sulfidation, high-temperature hydrogen attack and creep. Once those units are isolated, decommissioned or demolished the register shrinks, but it does not simply lose lines. Every retired item needs a recorded status, its isolation from live systems has to be verified, and anything still connected to a live system, such as a shared header, flare line, firewater main or drain, stays in scope.",
+        "What remains is a storage and transfer business. Its risk is concentrated in tank floors, roofs and shells and in the piping that ties the tanks to the jetty, the pipeline and the loading racks. The table compares where inspection effort sat in the refinery programme with where it sits now."
+      ],
+      "table": {
+        "head": ["Equipment group", "In the refinery programme", "At the import terminal"],
+        "rows": [
+          ["Process units: heaters, columns, reactors", "Largest share of high-temperature mechanisms and of inspection effort", "Retired or isolated; the register keeps their status and the basis for the isolation"],
+          ["Crude and intermediate tanks", "Crude tankage feeding the units, with product-side water and sediment", "Converted to refined product service or held empty; service history becomes a primary input"],
+          ["Product tanks", "Finished product storage between rundown and dispatch", "The main storage asset; floor, shell and roof plans drive the programme"],
+          ["Jetty and transfer piping", "Crude receipt and coastal product shipments", "Receipt of imported products at rates set by ship discharge, feeding the tank farm"],
+          ["Pipeline outlet and truck loading", "Dispatch of refined products", "The main outlets; pumps, meters and loading equipment sit inside the terminal plan"],
+          ["Utilities, flare and drains", "Supported process operation", "Reduced duty; dead legs and stagnant sections become likely corrosion sites"]
+        ]
+      }
+    },
+    {
+      "id": "mp-service-change",
+      "h": "Changing a tank's service: crude to diesel, crude to jet",
+      "p": [
+        "A change of service is a management of change event, and in an RBI programme it also resets the assumptions. A tank that held crude has a floor shaped by water and sediment, sludge, possible microbiologically influenced corrosion under deposits and the soil-side conditions of its pad. Diesel brings its own water bottoms and microbial growth wherever water is not drawn off. Jet fuel adds strict cleanliness and water-handling demands, so internal coating condition, floor slope towards the sump, water draw-off and the roof or internal floater arrangement all come under scrutiny. The likelihood side of the assessment has to be rebuilt for the new product, and the consequence side moves too, because a lighter product behaves differently if it escapes.",
+        "The study handles each converted tank in three stages. It first reads the existing condition record against the old service: when the floor was last scanned and how much of it was covered, what was repaired, and whether shell readings come from repeatable locations. It then sets the inspection evidence needed before the new service starts, commonly a floor scan with prove-up of indications, shell and nozzle checks, a coating or lining assessment and a settlement survey, matched to what the new product demands. Finally it writes the post-conversion plan: the first in-service inspection, the events that would bring it forward and the data to collect so the next out-of-service date can rest on the new service's own corrosion rate."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "mp-idle",
+      "h": "Empty tanks and capacity waiting for a use",
+      "p": [
+        "Unused capacity is not idle from a corrosion point of view. An emptied tank can keep residual sludge and water on its floor, condensation forms under the roof and on the shell, and a floating roof landed on its legs loads the floor at each leg pad. Cathodic protection that is switched off, or simply no longer surveyed, lets soil-side corrosion continue out of sight. Roof drains still have to carry Northland rain, and a blocked drain on a landed roof can leave water ponding on the deck.",
+        "The plan for a tank awaiting a new use therefore has three jobs: keep the tank in a state that limits further damage, record what is done while it waits, and define the inspection required before it returns to service. These are the decisions the study asks a terminal to make and record for each idle tank."
+      ],
+      "list": [
+        "Whether the tank has been cleaned and gas-freed, or still holds residual product, water or sludge",
+        "Whether the floating roof floats on a water or product heel or rests on its legs, and how the leg pads are protected",
+        "Whether cathodic protection stays energised and surveyed, and whether any release prevention or leak detection arrangement is still monitored",
+        "How roof drains, vents and seals are checked during the idle period, and how often",
+        "What inspection, cleaning and testing would be required before the tank receives product again"
+      ]
+    },
+    {
+      "id": "mp-climate",
+      "h": "Bream Bay weather on tanks and piping",
+      "p": [
+        "Marsden Point looks onto Bream Bay on Northland's east coast, a humid, subtropical setting where onshore winds carry salt across the tank farm. Coating breakdown on shells, roofs, wind girders and stairways, pitting at the chime and on the annular plate where salt and moisture collect, and corrosion at pipe supports and under clamps on jetty and transfer piping are the external mechanisms a coastal terminal sees most often. A terminal has far fewer insulated lines than a refinery, but any that remain, along with heated systems such as slops or fuel oil lines if they are still used, carry a corrosion under insulation risk in a climate where insulation seldom dries out.",
+        "Northland is one of the less seismically active parts of New Zealand, so earthquakes drive less of the risk picture here than in much of the country. Heavy rain from storms and the remnants of tropical cyclones is a different matter. The study names a severe weather event as a trigger for roof, drain, seal and bund checks, and treats drainage around the tank pads as part of the soil-side assessment."
+      ]
+    },
+    {
+      "id": "mp-boundary",
+      "h": "Where the terminal study stops: jetty, pipeline and loading",
+      "p": [
+        "A terminal RBI study needs a clear boundary. Inside it sit the tanks, the tank farm and transfer piping, the jetty lines up to an agreed point, pumps, the pressure-containing parts of meters and filters, the loading equipment and any pressure vessels in service, such as filter vessels on the jet fuel system. The pipeline to Auckland has its own integrity programme and should not be absorbed into a terminal study; the study records exactly where the pipeline's programme takes over, so that no length of pipe falls between the two.",
+        "Marine loading arms and hoses, firewater systems and the instrumented protective layers each have their own maintenance regimes. The study does not re-plan them, but it does record where they act as safeguards in the consequence assessment, for example where overfill protection or fixed firefighting reduces the consequence of a release."
+      ]
+    },
+    {
+      "id": "mp-rules",
+      "h": "The rules that reach a Marsden Point tank or vessel",
+      "p": [
+        "Tanks holding fuel above the hazardous substances thresholds are stationary container systems and need a current compliance certificate from a WorkSafe-authorised compliance certifier. Their internal inspection intervals come from the owner's API 653 programme, in which the standard's risk-based route is available on its own conditions. Pressure vessels on the site fall under the pressure equipment regulations and the approved code of practice, with certificates of inspection from a recognised inspection body. A fuel terminal of this size is the kind of site the Major Hazard Facilities Regulations were written for, and where a site is designated, the plan for safety-critical equipment has to agree with its safety case or major accident prevention policy.",
+        "The national picture, including the review of approved codes of practice under way, is set out on the New Zealand page. At the terminal the practical point is simpler: the register carries a column showing which regime each item answers to, so the compliance certifier, the inspection body and the owner's API 653 inspector each see the items that belong to them."
+      ]
+    },
+    {
+      "id": "mp-remote",
+      "h": "Running the study without a visit to Ruakākā",
+      "p": [
+        "Everything the study needs can travel electronically: tank datasheets and construction records, out-of-service and in-service inspection reports, floor scan maps, settlement surveys, cathodic protection records, lining and coating records, the service history of each tank, compliance certificates and the management of change records for each conversion. A data-gap log is issued before the first workshop, so the terminal learns early where missing records will force a conservative assumption.",
+        "Workshops with the terminal's operations, maintenance and inspection staff run by video in the late New Zealand afternoon, the start of the working day in Hyderabad, while drafting carries on in Houston through the New Zealand night. A large tank population is taken in batches so the same people are not tied up for days at a time. The field checks the study needs, such as confirming roof and seal condition, locating shell reading points or surveying settlement, go on a written list for your inspectors or your inspection contractor, and the register is updated with what they find."
+      ]
+    },
+    {
+      "id": "mp-approval",
+      "h": "Approval, and what follows a finding",
+      "p": [
+        "Intervals and inspection scopes in the plan remain proposals until the terminal's API 653 inspector or inspection authority approves them, and pressure vessels keep the certificates their inspection body issues. Atlantis does not act as inspector of record or as an inspection body. If inspection under the plan finds floor or shell damage that needs an engineering judgement on continued service, that fitness-for-service evaluation stays with the owner's engineer and is not something Atlantis provides. The register is then brought up to date with the outcome, the repair and the revised due date."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection) and API RP 581 (RBI methodology)",
+    "API 653 (tank inspection, repair, alteration and reconstruction)",
+    "API RP 575 (inspection practices for atmospheric and low-pressure storage tanks)",
+    "API RP 571 (damage mechanisms)",
+    "Health and Safety at Work (Hazardous Substances) Regulations 2017",
+    "Health and Safety at Work (Major Hazard Facilities) Regulations 2016",
+    "Health and Safety in Employment (Pressure Equipment, Cranes, and Passenger Ropeways) Regulations 1999",
+    "AS/NZS 3788 (pressure equipment, in-service inspection)"
+  ],
+  "deliverables": [
+    "Tank-by-tank RBI register with service history, damage mechanisms, probability and consequence",
+    "Pre-service inspection scope for each converted or recommissioned tank",
+    "Idle-tank preservation record and return-to-service requirements",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Status register for retired refinery equipment and verified isolation points",
+    "Boundary drawing showing where the terminal study meets the pipeline programme",
+    "Data-gap log and reassessment triggers, including severe weather and changes of service"
+  ],
+  "industries": [
+    "Fuel import terminals",
+    "Jet fuel storage and supply",
+    "Strategic fuel reserves",
+    "Pipeline-connected depots",
+    "Converted refinery sites"
+  ],
+  "faqs": [
+    { "q": "Can API 653's risk-based route set intervals for our converted tanks?", "a": "Yes, within its conditions. The current edition of API 653 allows the internal inspection interval to be set by an RBI assessment carried out to API RP 580, provided the assessment is validated and reviewed at least every ten years. For a converted tank the assessment must use the new service and the inspection evidence gathered at conversion, so until the tank has built a history in its new product the study proposes conservative intervals and early in-service checks." },
+    { "q": "A tank sat empty for two years. What does it need before it holds product again?", "a": "That depends on what was done while it waited. The study looks at whether the tank was cleaned, whether cathodic protection stayed on, whether the roof rested on its legs and what the last floor scan showed. It then sets a pre-service scope, usually floor scanning with prove-up, shell and nozzle checks, roof and seal inspection, a settlement survey and a coating review, sized to the gaps in the record." },
+    { "q": "Do the retired refinery units need to stay in the RBI register?", "a": "They need a recorded status rather than a risk ranking. The register should show which items are decommissioned, which are isolated but still standing, and where retired equipment remains connected to a live header, drain, flare or firewater system. Connected sections stay in scope until the isolation is permanent and has been verified on site by your own people." },
+    { "q": "Is the pipeline to Auckland part of the study?", "a": "No. The pipeline has its own integrity programme. The terminal study covers the piping, pumps and equipment up to the point where that programme takes over and records the boundary explicitly, so that no section of pipe is left out of both. If the operator wants the terminal-end equipment ranked on the same basis as its pipeline risk model, the boundary can be drawn to suit, provided it is written down." },
+    { "q": "How does jet fuel service change the inspection plan?", "a": "Jet fuel carries strict limits on water, sediment and microbial contamination, so the plan looks harder at internal coatings, floor drainage to the sump, water draw-off performance and the roof arrangement than it would for crude. The consequence of a release changes with a lighter product as well. Both likelihood and consequence are reassessed for the new service rather than carried over from the crude years." },
+    { "q": "Do earthquakes matter at Marsden Point?", "a": "Northland is among the less seismically active parts of New Zealand, so seismic loading plays a smaller part in the terminal's risk picture than storms and coastal corrosion. The study still records foundation and settlement data for each tank and names any felt earthquake as a trigger for settlement readings and a visual check of shell-to-bottom joints and connected piping." },
+    { "q": "Who carries out the field work the study identifies?", "a": "Your own inspectors, your inspection body or the inspection contractor you already use. The study needs no travel; it produces a written list of the readings, surveys and checks required, with technique and coverage for each, and updates the risk assessment when the results come back. Where a gap would not change a decision, the study says so, so field effort goes only where it alters a date or a scope." },
+    { "q": "Who approves the intervals?", "a": "The terminal's API 653 inspector or inspection authority approves tank intervals and scopes, and pressure vessels stay under the certificates their recognised inspection body issues. The study proposes each interval with its basis and the evidence behind it; it does not approve them, and engineering assessments of damage remain with the owner's engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/new-zealand", "RBI in New Zealand"],
+    ["/inspection/risk-based-inspection/taranaki", "RBI in Taranaki"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Marsden Point refinery (New Zealand's only oil refinery, run by Refining NZ, now Channel Infrastructure) closed in 2022; Channel operates New Zealand's largest fuel import terminal at Marsden Point, Ruakaka; about 40% of petrol and diesel and 80% of jet fuel imports; 170 km pipeline to Auckland; bp, Mobil and Z Energy truck fuel mainly to Auckland and Northland; about 300 ML contracted; up to about 400 ML unused as of February 2026; two former crude tanks recommissioned for government diesel; 30 ML crude tank being converted to jet fuel, commissioning due August 2026; energy precinct; Seadra Energy biorefinery (SAF and renewable diesel), FID expected 2026", "url": "https://www.mbie.govt.nz/dmsdocument/32463-0033733-visit-to-marsden-point-on-4-june-2026" },
+    { "fact": "Government diesel storage: two former crude oil tanks refurbished and returned to service, about 93 ML (about nine days of supply), official opening 7 July 2026; Channel operates the site, Z Energy owns the diesel; terminal is New Zealand's largest import terminal", "url": "https://www.mbie.govt.nz/dmsdocument/32468-0034222-opening-of-government-diesel-storage-tanks" },
+    { "fact": "Stationary container system compliance certificates from compliance certifiers for tanks above hazardous substances thresholds", "url": "https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/certification-authorisation-approvals-and-licensing/certification-of-sites/stationary-container-system-compliance-certificates/" },
+    { "fact": "Pressure equipment certificates of inspection from recognised inspection bodies under the approved code of practice for pressure equipment (excluding boilers)", "url": "https://worksafe.govt.nz/dmsdocument/2-acop-pressure-equipment-excluding-boilers" },
+    { "fact": "Major Hazard Facilities Regulations 2016: designation by WorkSafe, safety case for upper tier, MAPP for lower tier", "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2016/14/en/latest/" }
+  ]
+}

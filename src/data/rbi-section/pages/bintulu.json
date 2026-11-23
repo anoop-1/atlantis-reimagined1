@@ -1,0 +1,183 @@
+{
+  "title": "RBI in Bintulu, Sarawak: LNG Trains, Sour Gas and GTL Plants",
+  "description": "Risk-based inspection for Bintulu's LNG complex, gas plants, GTL and urea units: ageing trains, CO2 and sour feed gas, cryogenic damage, run remotely.",
+  "h1": "Risk-based inspection for Bintulu's LNG, gas processing and chemical plants",
+  "eyebrow": "Risk-based inspection in Malaysia",
+  "intro": "Bintulu, on the Sarawak coast of Borneo, is where much of Malaysia's offshore gas comes ashore to be liquefied, converted into liquid products or turned into fertiliser. Its LNG complex runs trains that have produced since 1983 beside one that is barely a decade old, and the gas feeding them is changing as fields richer in carbon dioxide and hydrogen sulfide come on stream. This page is for the integrity and inspection engineers at those plants. It covers the asset mix, the damage mechanisms of cryogenic and sour service, where Sarawak's arrangements differ, and how Atlantis runs an RBI study for a site far from the peninsula without anyone travelling.",
+  "highlights": [
+    { "h": "Old and new trains side by side", "p": "MLNG Satu's trains first produced LNG in 1983 and Train 9 in 2016. The study treats each plant on its own record, so four decades of history in one plant and a short, clean record in another are each given the weight they deserve." },
+    { "h": "Feed gas as a trigger", "p": "As high carbon dioxide and sour fields such as Kasawari and Rosmari-Marjoram supply more of the gas, inlet and treating equipment sees new chemistry. A change in feed composition is written into the plan as a reassessment trigger, with operating windows set to catch it." },
+    { "h": "Distance without delay", "p": "Bintulu is a flight from Kuala Lumpur and much further from Hyderabad and Houston. The study is built to need no travel: data and workshops run remotely, and field checks are carried out by your own inspectors against a written list." }
+  ],
+  "sections": [
+    {
+      "id": "bintulu-assets",
+      "h": "What comes ashore at Bintulu",
+      "p": [
+        "The PETRONAS LNG Complex at Bintulu is made up of four plants, each its own company with partners alongside PETRONAS, among them the Sarawak state government, Mitsubishi, Shell and JX Nippon. Together they run nine liquefaction trains, fed by pipelines from offshore fields off Bintulu and Miri and from Sabah, and they ship LNG for export through Bintulu's port.",
+        "Other gas-based plants surround the complex. Shell MDS has run its gas-to-liquids plant here since commissioning in 1993, majority-owned by Shell with Mitsubishi, PETRONAS and the Sarawak government as shareholders; in September 2026 Shell was reported to be exploring a sale of its stake, with no decision made. PETRONAS also runs a urea plant in Bintulu, and a new onshore gas plant built by Shell to strip hydrogen sulfide from Rosmari-Marjoram gas began processing in November 2026. The table shows how differently the four LNG plants' records tend to read."
+      ],
+      "table": {
+        "head": ["Plant", "Trains", "First LNG", "What the inspection record usually looks like"],
+        "rows": [
+          ["MLNG Satu", "3", "1983", "Four decades of records in changing formats and systems, several generations of procedures, and repairs and modifications to reconcile"],
+          ["MLNG Dua", "3", "1995", "Three decades of history, typically with replacement equipment and modifications among the original items"],
+          ["MLNG Tiga", "2", "2003", "Larger trains with two decades of data, usually in more consistent electronic form"],
+          ["PETRONAS LNG Train 9", "1", "2016", "A short record in which commissioning baselines matter most and predicted rates still need confirming"]
+        ]
+      }
+    },
+    {
+      "id": "ageing-trains",
+      "h": "Four decades of trains: records, repairs and revalidation",
+      "p": [
+        "An LNG train that has been running since the early 1980s has been inspected by several generations of engineers, under several versions of the operator's procedures, with results kept on paper, in spreadsheets and in successive inspection databases. Equipment has been repaired, re-rated, replaced like for like or replaced in a different material. That history is valuable only if it can be read consistently, and an RBI study on an old train spends much of its early effort making it readable.",
+        "The study rebuilds the equipment and circuit register from current drawings and plant records, attaches each inspection to the item it actually covered, grades each one for the damage mechanisms it could have detected, and flags replaced items so their history restarts from replacement. Long-term corrosion rates on older items are often more trustworthy than short-term ones, but only where the measurement locations have stayed put; where condition monitoring locations have moved or been renumbered, the study notes it rather than calculating a rate across the change.",
+        "Old trains also carry mechanisms that take decades to matter: fatigue at cyclic locations, ageing of cold insulation and its vapour barriers, breakdown of coatings under insulation, and corrosion at supports and clamps. The revalidation looks for these explicitly, because a model built when the train was young may never have included them."
+      ]
+    },
+    {
+      "id": "feed-gas-change",
+      "h": "Changing feed gas: more carbon dioxide, more hydrogen sulfide",
+      "p": [
+        "Sarawak's newer gas fields are not like the fields the first trains were built for. Kasawari, roughly 200 kilometres offshore, carries carbon dioxide at around 30 to 40 percent, and PETRONAS has paired its development with a carbon capture project to inject the separated gas into a depleted field. The K5 field, with carbon dioxide reported at up to 70 percent, has been described as feed for Train 9. Shell's Rosmari and Marjoram fields, about 220 kilometres offshore in some 800 metres of water, contain sour gas, and the hydrogen sulfide is removed at the new onshore plant at Bintulu before the gas moves on to the LNG complex.",
+        "Much of the carbon dioxide and hydrogen sulfide is removed offshore or in onshore gas plants before the gas reaches the trains, but the composition arriving at the inlet facilities, and the load on the acid gas removal units, still shifts as the field mix changes. For an RBI programme this means the damage mechanism review for inlet, treating and sour water equipment holds only for the feed it was written for. Carbon dioxide corrosion in wet gas, wet hydrogen sulfide damage including hydrogen-induced and sulfide stress cracking, and amine corrosion and amine cracking in acid gas removal all respond to composition.",
+        "The study therefore ties those items to integrity operating windows on carbon dioxide and hydrogen sulfide content, water content and amine condition, and names a change in feed composition beyond the assumed range as a reassessment trigger. Materials in sour service are checked against NACE MR0175 / ISO 15156 where that standard applies, and items installed before sour feed was expected are reviewed against it."
+      ],
+      "links": [
+        ["/standards/nace-mr0175", "NACE MR0175 and sour service materials"],
+        ["/standards/api-584", "API 584 integrity operating windows"]
+      ]
+    },
+    {
+      "id": "cryogenic-register",
+      "h": "What cryogenic service puts on the register",
+      "p": [
+        "Liquefaction trains carry damage mechanisms that a refinery register rarely needs, and some of the most serious leave no wall loss behind. The list covers the entries a study of an LNG train usually has to address.",
+        "Many of these mechanisms are best managed through monitoring, operating limits and targeted surface examination rather than thickness readings, so the inspection plan for a train looks different from one for a refinery unit: fewer condition monitoring locations, and more attention to excursion records, insulation condition and connections."
+      ],
+      "list": [
+        "Brittle fracture where carbon steel can be cooled below its minimum design metal temperature, for example by auto-refrigeration during depressurising or an upstream upset, which makes low-temperature excursions and their records part of the probability assessment.",
+        "Liquid metal embrittlement of aluminium in brazed and coil-wound heat exchangers if mercury gets past the removal beds, so the performance of mercury removal and the monitoring behind it belong in the register.",
+        "Thermal fatigue and thermal shock at cold-to-warm transitions, during cool-down and warm-up, and where cold and warm streams meet in piping.",
+        "Corrosion under insulation on cold service, where failed vapour barriers let moisture freeze and thaw inside the insulation, together with ice build-up that hides the steel and loads supports.",
+        "Amine and carbon dioxide corrosion in acid gas removal, and corrosion in the regeneration and reflux systems that serve it.",
+        "Vibration fatigue at small-bore connections near compressors and pumps, a frequent source of leaks in trains with large rotating machines.",
+        "Microbiologically influenced corrosion and erosion in cooling and fire water systems."
+      ],
+      "links": [
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "gtl-and-urea",
+      "h": "Gas-to-liquids and urea plants",
+      "p": [
+        "A gas-to-liquids plant turns natural gas into synthesis gas, converts it into long-chain hydrocarbons and upgrades those into middle distillates and waxes. Its register reaches temperatures and atmospheres an LNG train never sees: synthesis gas service in which metal dusting can attack alloys at high temperature, hydrogen-rich equipment in which high-temperature hydrogen attack has to be screened against API RP 941, and upgrading units that behave much like a refinery's hydroprocessing section. Sulphur is removed before synthesis, so the sour-service picture differs from a crude refinery's.",
+        "Reports that Shell is exploring a sale are a reminder that ownership can change in the middle of an RBI cycle, and when it does, the procedures and software behind the programme can change with it. The study keeps its register and calculations in a form that does not depend on any one owner's tools.",
+        "Urea production brings mechanisms of its own. Ammonia stress corrosion cracking of carbon steel is covered by API 571, and carbamate corrosion of the stainless steels in the synthesis loop, with the passivation that controls it, is well documented in fertiliser industry practice. The study treats the synthesis section as a specialised loop with its own operating limits, not as general piping."
+      ]
+    },
+    {
+      "id": "borneo-climate",
+      "h": "Rain, heat and the Borneo coast",
+      "p": [
+        "Bintulu has an equatorial climate with rain through the year and heavier falls in the north-east monsoon, and its plants stand on a coastline exposed to sea air. Hot and cold insulated equipment both suffer. On hot lines, water trapped in insulation drives corrosion in the temperature range where it is most aggressive; on cold lines, moisture that gets through a damaged vapour barrier condenses, freezes and thaws, and the insulation can hold ice against the steel for long periods.",
+        "The study ranks insulated items on both sides of that divide, with different drivers for each: operating temperature and cycling for hot service, and vapour barrier condition, jacketing and any history of icing for cold service. Plans for cold service lean on thermal imaging and visual surveys to find failing insulation systems before any targeted removal, because stripping cold insulation is disruptive and slow to reinstate.",
+        "Jetties, loading arms and marine piping face splash and spray, and structural steel and supports across the site show atmospheric corrosion first wherever water collects. These are planned as populations with periodic surveys rather than item by item."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"]
+      ]
+    },
+    {
+      "id": "sarawak-arrangements",
+      "h": "Where Sarawak's arrangements differ",
+      "p": [
+        "Pressure equipment in Sarawak sits under the same federal framework as the rest of Malaysia: the amended Occupational Safety and Health Act, the 2024 certificate of fitness regulations and, for occupiers approved for it, the 2025 special scheme of inspection with its RBI requirement for boilers and pressure vessels. The Malaysia page covers that framework.",
+        "What differs is the environmental side. In Sarawak, approval of environmental impact assessments and the compliance monitoring that follows sit with the state's Natural Resources and Environment Board, and the state legislature passed the Natural Resources and Environment Ordinance 2024 to take over further environmental functions in phases, beginning with scheduled waste and moving on to industrial effluent, air quality and environmental impact assessment.",
+        "That reaches an RBI study through the consequence side. A loss of containment that gets into a river, the sea or the air is judged against the conditions of the plant's environmental approvals and the authority that set them, and as functions move to the state, reporting routes and conditions may change. The study records which approvals and conditions apply to each unit, so environmental consequence ratings reflect the obligations the plant actually carries, and lists a change of environmental regime as a point at which those ratings are reviewed. The Sarawak government's shareholdings in several of the plants do not change how intervals are approved, but they are one more reason the study keeps each plant company's register separate even where trains share utilities and people."
+      ]
+    },
+    {
+      "id": "bintulu-remote",
+      "h": "Far from the peninsula, and a study that stays remote",
+      "p": [
+        "Bintulu lies on the Sarawak coast, a flight from Kuala Lumpur and a long journey from anywhere a specialist team would normally be based. A study that depends on site visits waits for flights, permits and inductions, and the people it needs are often committed to the same turnarounds. This one does not depend on them. Drawings, datasheets, inspection records, process data and excursion logs come through a data room the plant controls, and the workshops run by video.",
+        "Sarawak keeps Malaysian time, UTC+8, so the timing is the same as for a peninsular site: workshops in the late morning and afternoon, inside the Hyderabad working day, with analysis continuing from Houston overnight. Sessions are organised by train or by system so that operations staff on shift can join the parts that concern them, and the study is delivered remotely from end to end.",
+        "Field verification is written into a list for the plant's own inspectors or its inspection contractor, arranged by train and by system so it can be worked through during routine rounds or the next outage. Typical entries are the condition of cold insulation and vapour barriers, the locations of injection points and dead legs, small-bore connections near rotating machines and the state of jetty piping. The findings return to the assessment before the register is finalised."
+      ]
+    },
+    {
+      "id": "bintulu-approval",
+      "h": "Approval and boundaries",
+      "p": [
+        "Intervals for certified plant are decided within the DOSH system through the occupier's arrangements and the persons the regulations name; for other equipment, each plant company's inspection authority approves them under its procedures. The study supplies the basis for every interval and every task, and Atlantis is neither the inspector of record nor a competent person or assessor under the DOSH scheme.",
+        "When inspection finds damage beyond what the construction code accepts, the question of whether the equipment can stay in service belongs to the plant's engineer, and the register is updated with the outcome. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (steels for hydrogen service at elevated temperatures)",
+    "NACE MR0175 / ISO 15156 (materials for sour service)",
+    "API 510 and API 570",
+    "Occupational Safety and Health Act 1994, as amended in 2022, and the 2024 certificate of fitness regulations",
+    "Natural Resources and Environment Ordinance 2024 (Sarawak)"
+  ],
+  "deliverables": [
+    "Rebuilt equipment and circuit register for each plant company, with inspection history graded for effectiveness",
+    "RBI register and inspection plan per item with technique, coverage, effectiveness and due date",
+    "Feed gas operating windows and reassessment triggers for inlet, treating and sour water equipment",
+    "Cryogenic mechanism basis: excursion records, mercury removal monitoring and cold insulation surveys",
+    "Hot and cold insulation rankings with survey and removal plans",
+    "Environmental approvals and conditions linked to each unit's consequence rating",
+    "Data-gap log and verification list for the plant's inspectors, organised by train and system"
+  ],
+  "industries": [
+    "LNG liquefaction",
+    "Gas processing and acid gas removal",
+    "Gas-to-liquids",
+    "Fertiliser (ammonia and urea)",
+    "Marine loading and export"
+  ],
+  "faqs": [
+    { "q": "Our train has run since the 1980s. Can its inspection history still be used?", "a": "Yes, once it has been made consistent. The study rebuilds the register, attaches each past inspection to the item it covered, grades it for the mechanisms it could detect and restarts the history of replaced items. Long-term corrosion rates from stable measurement locations are often the most reliable data an old train has; rates calculated across moved or renumbered locations are flagged instead of trusted." },
+    { "q": "How should a change in feed gas composition be handled?", "a": "As a reassessment trigger. Inlet, treating and sour water equipment are tied to operating windows on carbon dioxide, hydrogen sulfide, water and amine condition, and the damage mechanism review for those items is rerun when the feed moves outside the range it assumed. Materials that will see sour service are checked against NACE MR0175 / ISO 15156 where that standard applies." },
+    { "q": "Can RBI extend intervals on cryogenic equipment?", "a": "Where the equipment's history and the mechanisms acting on it support it. Much cryogenic equipment shows little internal degradation, but its main risks, such as brittle fracture during excursions, mercury attack on aluminium and cold insulation failure, are not revealed by thickness data. Longer intervals therefore depend on excursion records, mercury monitoring and insulation surveys as much as on internal inspection results." },
+    { "q": "Is mercury really an RBI issue?", "a": "For aluminium heat exchangers, yes. Mercury that passes the removal beds can embrittle aluminium and cause a sudden failure with no warning from thinning. The study records the mercury removal system, its monitoring and any history of breakthrough as inputs to the probability of failure for brazed and coil-wound exchangers downstream, and treats a loss of removal performance as a reassessment trigger." },
+    { "q": "Does Sarawak have its own pressure equipment rules?", "a": "No. Pressure equipment falls under the same federal occupational safety framework as the rest of Malaysia, administered by DOSH. The differences lie on the environmental side, where the state's Natural Resources and Environment Board handles environmental impact assessment approvals and Sarawak is taking over further environmental functions in phases. The study reflects that in its environmental consequence ratings." },
+    { "q": "Can the GTL and urea plants be assessed with the same method as the LNG trains?", "a": "The framework is the same; the damage mechanisms are not. Gas-to-liquids units bring synthesis gas, metal dusting and high-temperature hydrogen service, and urea plants bring ammonia cracking and carbamate corrosion in the synthesis loop. Each plant gets its own corrosion loops and damage mechanism review within one consistent RBI method, so results can be compared across the site." },
+    { "q": "Who does the field work if nobody travels to Bintulu?", "a": "Your own inspectors or your inspection contractor, working from a verification list organised by train and by system. Typical entries are cold insulation and vapour barrier condition, injection points and dead legs, small-bore connections near rotating machines and jetty piping. The study itself needs no travel, and the findings are fed back into the assessment before the register is issued." },
+    { "q": "Who approves the intervals?", "a": "For certified plant, the DOSH system, through the occupier's arrangements and the persons the regulations name; for other equipment, each plant company's inspection authority. The study proposes intervals and inspection tasks and documents the basis for each one. Decisions about damage found during inspection stay with the plant's engineer, and the register is updated once those decisions are made." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/pengerang", "RBI in Pengerang, Johor"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/nace-mr0175", "NACE MR0175 explained"],
+    ["/standards/api-571", "API 571 explained"],
+    ["/standards/api-583", "API 583 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Malaysia LNG at Bintulu: MLNG Satu 3 trains, first LNG January 1983; MLNG Dua 3 trains, first LNG May 1995; MLNG Tiga 2 trains, first LNG March 2003; Petronas LNG Train 9, first LNG September 2016; shareholders alongside PETRONAS include Sarawak State Government, Mitsubishi, Shell and JX Nippon Oil; feed by pipeline from offshore areas near Bintulu, Miri and Sabah; LNG exported through Bintulu port", "url": "https://en.wikipedia.org/wiki/Malaysia_LNG" },
+    { "fact": "Shell MDS (Malaysia) GTL plant in Bintulu commissioned 1993; shareholders Shell Gas BV 72%, Diamond Gas Holding (Mitsubishi) 14%, PETRONAS 7%, Sarawak government 7%; operating; Shell exploring a sale of a majority stake, no decision made (2 September 2026)", "url": "https://theedgemalaysia.com/node/816624" },
+    { "fact": "Rosmari-Marjoram: first gas 17 November 2026; fields about 220 km offshore Sarawak in about 800 m of water; contain sour gas; 207 km pipeline to a new onshore gas plant in Bintulu that removes hydrogen sulfide; processed gas fed to the PETRONAS LNG Complex in Bintulu", "url": "https://www.worldoil.com/news/2026/11/17/shell-starts-gas-production-from-rosmari-marjoram-offshore-sarawak/" },
+    { "fact": "Kasawari (about 200 km offshore Sarawak) CO2 content 30-40%, developed with a CCS project injecting CO2 into the depleted M1 field; K5 CO2 up to 70%, earmarked as feed for Train 9 (Gas in Transition, 31 August 2023)", "url": "https://naturalgasworld.com/can-sour-gas-ensure-malaysias-long-term-lng-prospects-gas-in-transition-106967" },
+    { "fact": "PETRONAS first gas at Kasawari (Argus headline)", "url": "https://argusmedia.com/en/news-and-insights/latest-market-news/2600077-malaysia-s-petronas-achieves-first-gas-at-kasawari" },
+    { "fact": "PETRONAS operates a urea plant in Bintulu (Argus headline: Malaysia's Petronas takes Bintulu urea plant offline; article body not retrieved)", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2810269-malaysia-s-petronas-takes-bintulu-urea-plant-offline" },
+    { "fact": "Sarawak Natural Resources and Environment Ordinance 2024 passed to take over environmental functions in phases (scheduled waste, industrial effluent, air quality, EIA), pending enforcement of Article 95C (NREB, 17 July 2025)", "url": "https://www.nreb.gov.my/web/subpage/news_view/693" },
+    { "fact": "NREB runs the EIA process in Sarawak: screening, scoping, review, approval, compliance monitoring and enforcement", "url": "https://www.nreb.gov.my/web/subpage/webpage_view/244" }
+  ]
+}
