@@ -1,0 +1,216 @@
+{
+ "date": "2026-11-23",
+ "note": "Maritime owner services release (CLAUDE.md \u00a783)",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/maritime/adelaide"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/aliaga"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/auckland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/brisbane"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dampier"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/darwin"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fremantle"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gladstone"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/iskenderun"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/khor-fakkan"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lianyungang"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/lyttelton"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/melbourne"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/nantong"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/newcastle-nsw"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/port-hedland"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rizhao"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sydney"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tauranga"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tuzla"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/wellington"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/yantai"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/condition-monitoring"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/oceania"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/singapore/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/singapore/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hong-kong/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hong-kong/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shanghai/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shanghai/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shenzhen/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shenzhen/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dubai/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dubai/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fujairah/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fujairah/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sydney/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sydney/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/auckland/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/auckland/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/singapore"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hong-kong"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shanghai"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/shenzhen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dubai"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fujairah"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/infrared-thermography"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/europe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/asia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/middle-east"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/turkey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/greece"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/netherlands"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/germany"
+  }
+ ]
+}
