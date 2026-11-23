@@ -1,0 +1,15 @@
+{
+  "slug": "lima-ohio",
+  "lat": 40.74,
+  "lng": -84.11,
+  "localContext": "Lima, Ohio, packs heavy industry into a small city. Cenovus Energy owns the Lima refinery, the Army's Joint Systems Manufacturing Center, operated by General Dynamics Land Systems, builds Abrams tanks and Stryker vehicles, and Ford's Lima Engine Plant machines and assembles engines. Chemical plants, fabricators, foundries and pipelines add more inspection work. Refinery equipment follows API and ASME codes, armor welding follows Army and prime-contractor specifications and structural steel AWS D1.1, so VT, MT and UT dominate and PT covers aluminum and stainless.",
+  "certPathwayNote": "Lima employers certify technicians under their own written practice based on ASNT SNT-TC-1A; a course supplies training hours, while the employer certifies. Defense and refinery work can add customer or owner qualification rules, which the employer's Level III reconciles in the program. ASNT central certification is the portable alternative, and Atlantis prepares candidates for it.",
+  "salaryFrom": "toledo",
+  "siblings": [
+    "toledo",
+    "dayton",
+    "columbus-ohio",
+    "cincinnati",
+    "fort-wayne"
+  ]
+}
