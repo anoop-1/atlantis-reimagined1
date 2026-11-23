@@ -1,471 +1,5 @@
 [
   {
-    "slug": "/standards/asme-b31-3-minimum-distance-between-welds",
-    "title": "Minimum Distance Between Welds in ASME B31.3",
-    "description": "ASME B31.3 sets no minimum distance between butt welds. What does limit weld spacing: branch reinforcement, heat treatment, UT access and owner specs.",
-    "h1": "ASME B31.3 Weld Spacing: What the Code Sets and What Governs Instead",
-    "answer": "ASME B31.3 does not specify a minimum distance between adjacent girth or butt welds in process piping. Weld spacing is limited instead by rules the code does contain, such as branch reinforcement and heat treatment, by the owner's piping or fabrication specification, and by whether the examination the code requires can actually be carried out on each weld.",
-    "expansion": "The belief that B31.3 sets a spacing usually comes from three places: owner specifications that state a minimum and get quoted as if they were the code, the pressure vessel rule that requires longitudinal seams to be staggered, and long-standing shop practice. None of them is a B31.3 requirement, and a nonconformance report that cites one as such will not stand up to review by the engineering designer. That does not make close spacing harmless. Two welds close together share heat-affected material, can sit inside each other's heat treatment band, and can leave too little clear surface for an angle-beam ultrasonic examination to cover the weld volume from both sides. The practical answer is to set the minimum in the project specification, state the reason for it, define how it is measured, and give the fabricator a route to request a deviation where geometry leaves no choice.",
-    "source": "ASME B31.3 Process Piping: Chapter V fabrication, assembly and erection (para. 328 welding, para. 331 heat treatment), Chapter VI inspection, examination and testing (paras. 341 and 344) and para. 304.3 branch connections; ASME BPVC Section VIII Division 1, UW-9 design of welded joints; ASME BPVC Section V, Articles 2 and 4. Any spacing minimum on a project comes from the owner's piping class or fabrication specification; confirm the code edition the contract invokes.",
-    "table": {
-      "caption": "Where weld spacing is actually controlled on ASME B31.3 piping",
-      "columns": [
-        "Constraint",
-        "Where it comes from",
-        "Effect on spacing",
-        "Who decides"
-      ],
-      "rows": [
-        [
-          "Minimum distance between butt welds",
-          "Not stated in B31.3",
-          "No code minimum; any limit comes from elsewhere",
-          "Owner specification"
-        ],
-        [
-          "Branch connections close together",
-          "B31.3 para. 304.3 reinforcement rules",
-          "Two branches cannot both count the same reinforcing metal",
-          "Piping designer"
-        ],
-        [
-          "Postweld heat treatment",
-          "B31.3 para. 331 and the heat treatment procedure",
-          "A heated band can reach and re-treat the neighbouring weld",
-          "Fabricator, accepted by the designer"
-        ],
-        [
-          "Angle-beam UT coverage",
-          "Section V Article 4 technique and the scan plan",
-          "Each weld needs clear scanning surface on both sides",
-          "NDE Level III who writes the technique"
-        ],
-        [
-          "Radiography set-up",
-          "Section V Article 2 technique",
-          "Rarely limiting; image overlap and marker placement need planning",
-          "NDE Level II or III"
-        ],
-        [
-          "Vessel longitudinal seams (contrast)",
-          "Section VIII Division 1, UW-9",
-          "Seams in adjacent courses staggered unless radiographed at the intersection",
-          "Manufacturer and Authorized Inspector"
-        ]
-      ],
-      "note": "Process piping to ASME B31.3 only. The same logic applies to support lugs, trunnions and branch fittings: the code supplies the design and examination rules, the specification supplies any spacing figure."
-    },
-    "sections": [
-      {
-        "heading": "Minimum distance between welds in ASME B31.3",
-        "paragraphs": [
-          "There is no minimum. B31.3 contains no paragraph that sets a required distance between two butt welds, between a butt weld and a fitting weld, or between consecutive girth welds on a straight run. A short piece of pipe between two fittings, often called a pup, is acceptable to the code provided every weld meets the welding, heat treatment and examination requirements that apply to it.",
-          "Where a spacing figure appears on a project, trace it before enforcing it. It comes from the owner's piping class or fabrication specification, from a contractor's standard, or from a vessel or structural rule that someone has carried across. Those documents can legitimately require a minimum, commonly expressed as a multiple of pipe diameter or a fixed length, whichever is greater. The figure then binds the job through the contract, not through B31.3, and a deviation is approved by whoever owns that specification."
-        ]
-      },
-      {
-        "heading": "What B31.3 does say that affects spacing",
-        "paragraphs": [
-          "Three parts of the code bear on how close welds can sensibly be. The branch connection rules in para. 304.3 require a branch that relies on reinforcement to find that metal within a defined zone around the opening, and when two branches sit close together the designer has to make sure the same metal is not counted twice. The heat treatment rules in para. 331 apply to every weld that needs postweld heat treatment, and a heated band laid over one weld can reach the next. The examination rules in Chapter VI set the type and extent of examination for each fluid service, and that examination has to be physically possible on every weld it selects.",
-          "Sampling matters too. Under normal fluid service B31.3 examines a percentage of welds by radiography or ultrasonics and requires further examination when a sampled weld is rejected. A weld that cannot be examined because its neighbour is in the way is not a usable sample, and the usual outcome is a change to the spool rather than a waiver of the examination."
-        ]
-      },
-      {
-        "heading": "How a Level III works out a practical minimum",
-        "paragraphs": [
-          "When an owner asks what spacing to specify, the useful answer comes from the examination, because it is usually the tightest physical constraint. For angle-beam ultrasonic examination the probe has to move far enough from the weld to put the beam through the whole weld volume. The distance from the probe's beam exit point to the point where the beam returns to the scanning surface is the full skip, and for a wall of thickness t examined at a refracted angle θ it is 2 × t × tan θ.",
-          "Take a 12.7 mm (0.5 in.) wall examined at 60 degrees. The full skip is 2 × 12.7 × 1.732, about 44 mm (1.73 in.). Add the probe and wedge length in front of the exit point and half the width of the weld cap, and the clear surface the technician needs on that side of the weld comes to several times the wall thickness. If the toe of the next weld sits inside that zone, the probe rides over a second cap, couplant contact is lost and part of the volume goes unexamined.",
-          "Phased array and TOFD change the numbers but not the logic. A sectorial scan covers more of the volume from a fixed position, which helps where space is tight, while TOFD needs both probes of the pair on clear surface either side of the weld. Radiography is rarely the limiting method, although film or detector placement, location markers and image overlap still need planning on closely spaced welds. The scan plan, written for the actual geometry, is the evidence that a spacing works."
-        ]
-      },
-      {
-        "heading": "Why close spacing causes trouble beyond the examination",
-        "paragraphs": [
-          "Each weld puts a thermal cycle into the material around it. When two welds are close, the second cycle reheats the heat-affected zone of the first, and in hardenable steels or sour-service piping that can move hardness or toughness away from what the procedure qualification demonstrated. Heat treatment bands are sized for one weld; a band laid over a neighbouring weld that has already been treated gives it a second cycle, which the heat treatment procedure then has to allow for.",
-          "Repairs add a further problem. A repair excavation next to a closely spaced weld can reach into the neighbouring weld or its heat-affected zone, and the repair procedure has to account for both. Fit-up and distortion are harder to control on short pieces, and short pieces are harder to hold while welding. None of this is prohibited by B31.3; all of it is a reason owners write a minimum into their specifications."
-        ]
-      },
-      {
-        "heading": "Common mistakes",
-        "paragraphs": [
-          "Citing a spacing figure as a B31.3 requirement in a nonconformance report when the figure lives in the owner's specification. Measuring centreline to centreline when the specification means toe to toe, or the reverse; the specification has to say which, because on a wide weld cap the difference is significant. Applying a straight-pipe spacing rule to branch connections without checking the reinforcement zones. Forgetting attachment welds such as support lugs and trunnions, which bring the same heat and access problems as a second girth weld.",
-          "Accepting a spool whose scan plan was never checked against its geometry, then discovering at examination that one side of a weld cannot be scanned. Recording limited coverage without telling the engineering designer, so the gap in examination never reaches the person who decides whether it is acceptable."
-        ]
-      },
-      {
-        "heading": "What to write into the specification and the inspection plan",
-        "paragraphs": [
-          "State the minimum, the reason for it and how it is measured, toe to toe being the most useful basis for examination. Apply it to butt welds, branch and fitting welds and attachment welds, and say whether pup pieces have their own minimum length. Tie the figure to the examination technique: if the UT scan plan needs a given clear distance for the wall thicknesses on the job, the specification should not allow less. Give the fabricator a written deviation route that sends the request to the engineering designer and the owner's inspector, and record approved deviations against the weld numbers they cover.",
-          "For an independent check of a piping specification or a fabricator's scan plans against these points, Atlantis NDT's [ASNT Level III consulting](/consulting/ndt-consulting-level-iii) reviews procedures and technique sheets against the governing code and contract. The [ASME B31.3 summary](/standards/asme-b31-3) covers the code's wider examination requirements."
-        ]
-      }
-    ],
-    "facets": [
-      {
-        "q": "Does ASME B31.3 specify a minimum pup piece length?",
-        "a": "No. B31.3 sets no minimum length for a short piece of pipe between two welds. Where a minimum pup length applies, it comes from the owner's piping or fabrication specification, and that document also decides who may approve a shorter piece."
-      },
-      {
-        "q": "Is weld spacing measured from toe to toe or from centreline to centreline?",
-        "a": "B31.3 does not say, because it sets no spacing. The specification that imposes a minimum has to define it. Toe to toe is the more useful basis for examination, because it measures the clear surface a probe or a film actually has to work on."
-      },
-      {
-        "q": "Does ASME Section VIII Division 1 have a weld spacing rule?",
-        "a": "For one case, yes. UW-9 requires the longitudinal seams of adjacent shell courses to be staggered by at least five times the thickness of the thicker plate, unless the seams are radiographed for a stated length either side of the intersection. It is a vessel rule and does not apply to B31.3 piping."
-      },
-      {
-        "q": "Can a closely spaced weld still be examined by ultrasonics?",
-        "a": "Often, with technique changes: a different refracted angle, a smaller probe, scanning from one side with documented coverage, or phased array. Whatever the technique, the scan plan has to show the weld volume is covered, and any shortfall is recorded and reported to the engineering designer."
-      },
-      {
-        "q": "Who approves weld spacing below the specification minimum?",
-        "a": "The owner of the specification, normally through the engineering designer, by a written deviation. The inspector identifies the condition and confirms the approved deviation is on record against the affected weld numbers before those welds are accepted."
-      },
-      {
-        "q": "Do attachment welds count when checking weld spacing?",
-        "a": "They should. Support lugs, trunnions and reinforcing pads put heat into the pipe and take up surface the examination needs. A specification that sets a spacing minimum should say whether attachment welds are included; where yours is silent, raise it before fabrication rather than at examination."
-      }
-    ],
-    "faq": [
-      {
-        "q": "Does ASME B31.3 specify a minimum pup piece length?",
-        "a": "No. B31.3 sets no minimum length for a short piece of pipe between two welds. Where a minimum pup length applies, it comes from the owner's piping or fabrication specification, and that document also decides who may approve a shorter piece."
-      },
-      {
-        "q": "Is weld spacing measured from toe to toe or from centreline to centreline?",
-        "a": "B31.3 does not say, because it sets no spacing. The specification that imposes a minimum has to define it. Toe to toe is the more useful basis for examination, because it measures the clear surface a probe or a film actually has to work on."
-      },
-      {
-        "q": "Does ASME Section VIII Division 1 have a weld spacing rule?",
-        "a": "For one case, yes. UW-9 requires the longitudinal seams of adjacent shell courses to be staggered by at least five times the thickness of the thicker plate, unless the seams are radiographed for a stated length either side of the intersection. It is a vessel rule and does not apply to B31.3 piping."
-      },
-      {
-        "q": "Can a closely spaced weld still be examined by ultrasonics?",
-        "a": "Often, with technique changes: a different refracted angle, a smaller probe, scanning from one side with documented coverage, or phased array. Whatever the technique, the scan plan has to show the weld volume is covered, and any shortfall is recorded and reported to the engineering designer."
-      },
-      {
-        "q": "Who approves weld spacing below the specification minimum?",
-        "a": "The owner of the specification, normally through the engineering designer, by a written deviation. The inspector identifies the condition and confirms the approved deviation is on record against the affected weld numbers before those welds are accepted."
-      },
-      {
-        "q": "Do attachment welds count when checking weld spacing?",
-        "a": "They should. Support lugs, trunnions and reinforcing pads put heat into the pipe and take up surface the examination needs. A specification that sets a spacing minimum should say whether attachment welds are included; where yours is silent, raise it before fabrication rather than at examination."
-      }
-    ]
-  },
-  {
-    "slug": "/standards/asme-pt-mt-acceptance-criteria",
-    "title": "ASME PT and MT Acceptance Criteria (Section VIII Div 1)",
-    "description": "ASME Section V has no PT or MT acceptance criteria. Section VIII Div 1 Appendices 8 and 6 do: what is relevant, linear vs rounded, and what is rejected.",
-    "h1": "Penetrant and Magnetic Particle Acceptance Criteria in ASME",
-    "answer": "ASME Section V Articles 6 and 7 tell you how to perform liquid penetrant and magnetic particle examination but contain no acceptance criteria. For Section VIII Division 1 vessels the criteria are in Mandatory Appendix 8 for PT and Mandatory Appendix 6 for MT: indications larger than 1/16 in. are relevant, relevant linear indications are rejected, and rounded indications larger than 3/16 in. are rejected.",
-    "expansion": "The two appendices use the same rules. An indication is linear when its length is more than three times its width, and rounded when it is circular or elliptical with a length of three times its width or less. Four or more relevant rounded indications in a line, separated by 1/16 in. or less edge to edge, are rejected even when each one is individually acceptable. The size of the indication, not the size of the imperfection underneath it, is what gets measured. The criteria apply unless Division 1 specifies something more restrictive for a particular material or application, and they belong to Section VIII Division 1 only: ASME B31.1, B31.3, Section I and Division 2 each carry their own acceptance rules, so a vessel acceptance clause cannot simply be copied into a piping procedure.",
-    "source": "ASME BPVC Section VIII Division 1: Mandatory Appendix 6 (methods for magnetic particle examination), Mandatory Appendix 8 (methods for liquid penetrant examination) and UW-35 (finished longitudinal and circumferential joints); ASME BPVC Section V, Articles 6, 7 and 9; ASME B31.3 Table 341.3.2 and ASME B31.1 para. 136.4 for the piping codes' own criteria. Values are given in U.S. customary units as the appendices state them; confirm them against the edition the construction code invokes.",
-    "table": {
-      "caption": "PT and MT acceptance rules in ASME Section VIII Division 1",
-      "columns": [
-        "Rule",
-        "Penetrant (Appendix 8)",
-        "Magnetic particle (Appendix 6)",
-        "What it means in practice"
-      ],
-      "rows": [
-        [
-          "How to examine",
-          "Section V Article 6",
-          "Section V Article 7",
-          "Technique only; no accept or reject values"
-        ],
-        [
-          "Relevant indication",
-          "Major dimension over 1/16 in. (1.5 mm)",
-          "Major dimension over 1/16 in. (1.5 mm)",
-          "Smaller indications are not evaluated"
-        ],
-        [
-          "Linear indication",
-          "Length more than 3 x width; rejected if relevant",
-          "Length more than 3 x width; rejected if relevant",
-          "No relevant linear indication is acceptable"
-        ],
-        [
-          "Rounded indication",
-          "Rejected if over 3/16 in. (5 mm)",
-          "Rejected if over 3/16 in. (5 mm)",
-          "Measure the indication, not the pit beneath it"
-        ],
-        [
-          "Rounded indications in a line",
-          "Four or more, 1/16 in. (1.5 mm) or less apart edge to edge: rejected",
-          "Same rule",
-          "Check alignment before counting"
-        ],
-        [
-          "Questionable indications",
-          "Re-examined to decide relevance",
-          "Re-examined to decide relevance",
-          "Clean and re-test rather than guess"
-        ]
-      ],
-      "note": "Section VIII Division 1 vessels only. B31.3 piping uses Table 341.3.2 and B31.1 power piping uses para. 136.4; Section I and Division 2 carry their own requirements."
-    },
-    "sections": [
-      {
-        "heading": "PT acceptance criteria in ASME",
-        "paragraphs": [
-          "For a pressure vessel built to Section VIII Division 1, penetrant acceptance criteria come from Mandatory Appendix 8, not from Section V. Section V Article 6 governs the procedure, materials, dwell, removal, development and the conditions for interpretation; Appendix 8 decides what is acceptable. A procedure, report or inspection and test plan that cites Article 6 as its acceptance standard has a gap that an Authorized Inspector will find.",
-          "Appendix 8 works in three steps. First, decide which indications are relevant: only those with a major dimension over 1/16 in. Second, classify each relevant indication as linear or rounded by its length-to-width ratio. Third, apply the rejection rules: any relevant linear indication, any rounded indication over 3/16 in., and any line of four or more rounded indications separated by 1/16 in. or less.",
-          "The appendix applies unless a more restrictive standard is specified for a particular material or application within Division 1, so check the material-specific parts of the code and the purchase specification before treating the appendix as the whole answer. Owners with sour or cyclic service often specify tighter limits in their own documents."
-        ]
-      },
-      {
-        "heading": "MT acceptance criteria under Appendix 6",
-        "paragraphs": [
-          "Appendix 6 applies the same thresholds to magnetic particle indications, so a vessel's MT and PT acceptance clauses read alike. The differences between the methods sit in the technique, which Section V Article 7 controls: field direction, the requirement to examine each area twice with the field in roughly perpendicular directions, field adequacy checks and the particle type. An MT indication only means something if the field was strong enough and in the right direction to produce it, so an acceptance decision on an MT report starts with the technique record, not the indication.",
-          "Nonrelevant indications are a particular MT problem. Changes in section, the edges of a weld cap and magnetic writing can all hold particles with no discontinuity beneath them. They are resolved by re-examination after surface conditioning or by a second technique, and the outcome is recorded; they are not dismissed on sight. Fluorescent and visible techniques are judged by the same criteria; the technique changes the lighting conditions for interpretation, not the acceptance limits."
-        ]
-      },
-      {
-        "heading": "Visual acceptance under Section VIII Division 1 (UW-35)",
-        "paragraphs": [
-          "People asking for ASME visual acceptance criteria are usually looking at the same vessel. Section V Article 9 sets how visual examination is done and contains no acceptance criteria. For finished longitudinal and circumferential butt joints, Division 1 states its requirements in UW-35: complete penetration and fusion, and a weld surface free enough of coarse ripples, grooves, overlaps and abrupt ridges and valleys that the required examinations can be interpreted properly.",
-          "The reduction in thickness at the edge of the weld, the undercut, may not exceed 1/32 in. or 10 percent of the nominal thickness of the adjoining surface, whichever is less, and may not take the material below the minimum required thickness. Weld reinforcement is limited by thickness through a table in UW-35; read the values from the edition that applies rather than from a summary."
-        ]
-      },
-      {
-        "heading": "How a Level III applies the criteria on a job",
-        "paragraphs": [
-          "The procedure's acceptance clause should name the construction code, the appendix and the edition, and the report should record indications against it rather than a bare accept. Indications are measured after the development time the procedure sets, with a scale that can resolve 1/16 in., and the indication is recorded as found, even though a bleeding penetrant indication is larger than the imperfection beneath it, because the appendix evaluates the indication. Records should identify each relevant indication by location and size even when it is acceptable, so a later examination can tell growth from a new indication.",
-          "Where an indication is rejectable, the imperfection is removed by grinding, the area is re-examined by the same method, and the remaining thickness is checked against the design minimum before any repair welding. On a multi-code job the Level III also decides which criteria apply where: a nozzle weld built to Division 1, the piping attached to it built to B31.3 and a support welded to AWS D1.1 can sit within a metre of each other and carry three different acceptance standards. The inspection and test plan should assign the standard weld by weld."
-        ]
-      },
-      {
-        "heading": "Common mistakes",
-        "paragraphs": [
-          "Citing Section V Article 6 or 7 as the acceptance standard. Treating 1/16 in. as the acceptance limit rather than the relevance threshold. Measuring the imperfection after light grinding instead of the indication as developed. Counting rounded indications without checking whether four or more fall in a line. Accepting an MT result without evidence that the field was checked and applied in two directions. Copying Appendix 8 criteria into a B31.3 piping procedure, or B31.3 criteria into a vessel procedure. Recording no relevant indications on a surface that was never properly cleaned, where background could mask a real indication. Calling for magnetic particle examination on austenitic stainless steel or another non-ferromagnetic material, where the method cannot work and penetrant is the surface method to use."
-        ]
-      },
-      {
-        "heading": "Other ASME codes and where their criteria live",
-        "paragraphs": [
-          "ASME B31.3 states its weld acceptance limits by type of imperfection in Table 341.3.2, and the engineering design can make them stricter. ASME B31.1 carries its own magnetic particle and penetrant acceptance standards in para. 136.4. Section VIII Division 2 and Section I contain their own examination and acceptance requirements. Section V supports all of them with method rules and none of them with acceptance values, so when a client asks for ASME PT acceptance criteria, the first question back is which ASME code the component is built to.",
-          "For the method rules themselves, see [ASME Section V Article 6](/standards/asme-section-v-article-6) and [Article 7](/standards/asme-section-v-article-7); for the volumetric criteria on the same vessels, see [Section VIII Division 1 joint efficiency and required NDE](/standards/asme-section-viii-div-1)."
-        ]
-      }
-    ],
-    "facets": [
-      {
-        "q": "Does ASME Section V contain PT acceptance criteria?",
-        "a": "No. Article 6 sets how a liquid penetrant examination is performed: materials, surface preparation, dwell, removal, development and the conditions for interpretation. Acceptance criteria come from the construction code, which for Section VIII Division 1 vessels is Mandatory Appendix 8."
-      },
-      {
-        "q": "What size of penetrant indication is relevant under Section VIII Division 1?",
-        "a": "Only indications with a major dimension greater than 1/16 in. (1.5 mm) are relevant. Smaller indications are not evaluated, although questionable indications are re-examined to decide whether they are relevant."
-      },
-      {
-        "q": "Are any linear indications acceptable under Appendix 8?",
-        "a": "No relevant linear indication is acceptable. An indication is linear when its length is more than three times its width, so a relevant crack-like indication is rejected whatever its length, once it is above the relevance threshold."
-      },
-      {
-        "q": "Are the MT acceptance criteria the same as PT in Section VIII Division 1?",
-        "a": "Yes. Appendix 6 for magnetic particle uses the same relevance threshold, the same linear and rounded definitions and the same rejection rules as Appendix 8. What differs is the technique, which Section V Article 7 controls."
-      },
-      {
-        "q": "Can Appendix 8 criteria be used for ASME B31.3 piping?",
-        "a": "Only if the engineering design or the contract invokes them. B31.3 states its own weld acceptance limits in Table 341.3.2, and those, together with any stricter owner requirements, govern process piping."
-      },
-      {
-        "q": "What undercut does Section VIII Division 1 allow on butt welds?",
-        "a": "UW-35 limits the reduction in thickness at the edge of the weld to 1/32 in. or 10 percent of the nominal thickness of the adjoining surface, whichever is less, and the material may not be reduced below the minimum required thickness at any point."
-      }
-    ],
-    "faq": [
-      {
-        "q": "Does ASME Section V contain PT acceptance criteria?",
-        "a": "No. Article 6 sets how a liquid penetrant examination is performed: materials, surface preparation, dwell, removal, development and the conditions for interpretation. Acceptance criteria come from the construction code, which for Section VIII Division 1 vessels is Mandatory Appendix 8."
-      },
-      {
-        "q": "What size of penetrant indication is relevant under Section VIII Division 1?",
-        "a": "Only indications with a major dimension greater than 1/16 in. (1.5 mm) are relevant. Smaller indications are not evaluated, although questionable indications are re-examined to decide whether they are relevant."
-      },
-      {
-        "q": "Are any linear indications acceptable under Appendix 8?",
-        "a": "No relevant linear indication is acceptable. An indication is linear when its length is more than three times its width, so a relevant crack-like indication is rejected whatever its length, once it is above the relevance threshold."
-      },
-      {
-        "q": "Are the MT acceptance criteria the same as PT in Section VIII Division 1?",
-        "a": "Yes. Appendix 6 for magnetic particle uses the same relevance threshold, the same linear and rounded definitions and the same rejection rules as Appendix 8. What differs is the technique, which Section V Article 7 controls."
-      },
-      {
-        "q": "Can Appendix 8 criteria be used for ASME B31.3 piping?",
-        "a": "Only if the engineering design or the contract invokes them. B31.3 states its own weld acceptance limits in Table 341.3.2, and those, together with any stricter owner requirements, govern process piping."
-      },
-      {
-        "q": "What undercut does Section VIII Division 1 allow on butt welds?",
-        "a": "UW-35 limits the reduction in thickness at the edge of the weld to 1/32 in. or 10 percent of the nominal thickness of the adjoining surface, whichever is less, and the material may not be reduced below the minimum required thickness at any point."
-      }
-    ]
-  },
-  {
-    "slug": "/standards/api-653-shell-minimum-thickness",
-    "title": "API 653 Shell Minimum Thickness: How t-min Is Calculated",
-    "description": "How API 653 calculates tank shell t-min from fill height, diameter, specific gravity, allowable stress and joint efficiency, and how UT data is judged.",
-    "h1": "Minimum Acceptable Shell Thickness for API 653 Storage Tanks",
-    "answer": "API 653 calculates the minimum acceptable thickness of a welded steel tank shell from the liquid height above the point assessed, the tank diameter, the product's specific gravity, the allowable stress for that course and the joint efficiency. A whole course is checked at one foot above its bottom; a locally thinned area uses the full height above it. No course may fall below 0.1 in.",
-    "expansion": "In U.S. units the whole-course form is t-min = 2.6 (H - 1) D G / (S E), and the locally thinned area form drops the one-foot reduction, with t-min in inches, H and D in feet and S in pounds per square inch. The constant is not arbitrary: it is the hydrostatic pressure of water per foot of depth, multiplied by twelve and halved, so the formula is the hoop-stress equation for a cylinder under liquid head. The allowable stress comes from the code's table for the plate material, with lower values for the bottom two courses, and the joint efficiency is the original weld joint efficiency unless the area is far enough from any weld for 1.0 to apply. The authorized inspector compares t-min with measured thickness, not nominal, to decide whether the course is acceptable or needs repair, rerating or a fitness-for-service assessment.",
-    "source": "API Standard 653, Tank Inspection, Repair, Alteration, and Reconstruction, Fifth Edition (November 2014) carried through Addendum 3 (November 2023): Section 4.3 tank shell evaluation, including the minimum thickness calculation in 4.3.3, the evaluation of corroded areas and widely scattered pits, Table 4.1 allowable stresses and Table 4.2 joint efficiencies; Section 6 inspection intervals. API Standard 650 for the one-foot design method the calculation mirrors; API 579-1/ASME FFS-1 for fitness-for-service. Confirm the edition and addenda the owner and jurisdiction invoke.",
-    "table": {
-      "caption": "API 653 shell t-min: each term, its source and the usual error",
-      "columns": [
-        "Term",
-        "Meaning",
-        "Source in API 653",
-        "Common error"
-      ],
-      "rows": [
-        [
-          "t-min",
-          "Minimum acceptable thickness, in.",
-          "Section 4.3 calculation",
-          "Comparing it with nominal rather than measured thickness"
-        ],
-        [
-          "H",
-          "Height from the bottom of the course, or of the thinned area, to the maximum liquid level, ft",
-          "Section 4.3",
-          "Measuring from the tank bottom for an upper course"
-        ],
-        [
-          "D",
-          "Nominal tank diameter, ft",
-          "Section 4.3",
-          "Using a surveyed outside diameter"
-        ],
-        [
-          "G",
-          "Highest specific gravity of the contents",
-          "Section 4.3",
-          "Using today's product instead of the heaviest intended"
-        ],
-        [
-          "S",
-          "Maximum allowable stress for the plate material, psi",
-          "Table 4.1",
-          "Using the upper-course value on the bottom two courses"
-        ],
-        [
-          "E",
-          "Original joint efficiency, or 1.0 away from welds",
-          "Table 4.2 and Section 4.3",
-          "Taking 1.0 for an area on or next to a weld"
-        ]
-      ],
-      "note": "U.S. customary units, for tanks within the diameter range the one-foot form covers. SI users apply the same relationship with 4.9 in place of 2.6, metres for D and H, megapascals for S and 0.3 m in place of one foot."
-    },
-    "sections": [
-      {
-        "heading": "Minimum acceptable shell thickness calculation for an aboveground storage tank",
-        "paragraphs": [
-          "API 653 treats the shell as a cylinder holding a column of liquid. The hoop stress at any height depends on the head of liquid above that point, so the thickness the shell needs falls course by course from the bottom up. The calculation gives the thickness at which the plate, at its allowable stress and with its joint efficiency, still holds the maximum liquid level of the heaviest product the tank is allowed to store.",
-          "The inspection question is then simple to state: is the relevant measured thickness at or above t-min for that location? If it is, the shell is acceptable for the present service, and the margin above t-min divided by the corrosion rate drives the next inspection date. If it is not, the owner's options are to lower the maximum fill height, change the product, repair the shell, or have the area assessed for fitness for service."
-        ]
-      },
-      {
-        "heading": "The formula and where each term comes from",
-        "paragraphs": [
-          "In U.S. customary units, t-min = 2.6 (H - 1) D G / (S E) for a full course. H is measured in feet from the bottom of the course being assessed to the maximum liquid level, D is the nominal diameter in feet, G is the highest specific gravity of the contents, S is the maximum allowable stress in pounds per square inch and E is the joint efficiency.",
-          "The constant 2.6 is the hydrostatic pressure of water, about 0.433 psi per foot of depth, multiplied by 12 to turn a diameter in feet into inches and divided by 2 from the hoop-stress equation. In SI units the same relationship uses 4.9, with D and H in metres, S in megapascals, t-min in millimetres and 0.3 m in place of one foot. The derivation matters because it shows the formula is pure membrane stress under liquid head; nozzle loads, settlement, wind and seismic loading are separate considerations the shell evaluation has to cover alongside it."
-        ]
-      },
-      {
-        "heading": "Whole course versus a locally thinned area",
-        "paragraphs": [
-          "The whole-course form subtracts one foot from H because the design method behind it checks each course at a point one foot above its bottom, where restraint from the course below no longer reduces the hoop stress. For a locally thinned area, or any other point of interest, API 653 uses the full height measured from the bottom of the thinned area to the maximum liquid level, with no one-foot reduction.",
-          "Corroded areas are not judged on a single lowest reading. The code has the inspector find the least thickness in the area, average readings over a critical length derived from the tank diameter and that least thickness, and compare the average with t-min. The least thickness itself must also stay above a stated fraction of t-min. Widely scattered pits are handled separately: they can be ignored where no pit leaves less than half of t-min and the pits along any vertical line stay within a limited total length."
-        ]
-      },
-      {
-        "heading": "A worked example",
-        "paragraphs": [
-          "Take a 100 ft diameter tank with a maximum liquid level 40 ft above the bottom of the first course, storing product with a specific gravity of 0.9. For illustration only, assume an allowable stress of 25,000 psi; the real value comes from Table 4.1 for the actual plate and course. Away from welds, with E = 1.0, the bottom course needs t-min = 2.6 x 39 x 100 x 0.9 / 25,000 = 0.365 in.",
-          "If the same location sits at a weld whose original joint efficiency is 0.85, t-min rises to 0.429 in. A locally thinned area whose lower edge is 2 ft above the course bottom has H = 38 ft and no one-foot reduction, giving 2.6 x 38 x 100 x 0.9 / 25,000 = 0.356 in., compared with the average thickness over its critical length. Changing to a product with a specific gravity of 1.0 raises every figure by about 11 percent, which is why the highest intended specific gravity, not the current product, belongs in the calculation."
-        ]
-      },
-      {
-        "heading": "Planning the ultrasonic survey so the calculation can be trusted",
-        "paragraphs": [
-          "The calculation is only as good as the thickness data behind it. A Level III writing the survey procedure sets readings on every course, concentrated where corrosion is expected: the lowest course near the bottom, the liquid-vapour interface, around nozzles and wherever coating has failed. Spot readings find corrosion only where they happen to land, so suspect areas are scanned to find the least thickness and to map its extent for the averaging the code requires.",
-          "The procedure also controls the measurement itself: calibration on a reference block of known thickness in similar material, a suitable technique for coated plate, temperature correction where the shell runs hot, and records tied to course, orientation and height so that the next survey measures the same points. Readings that cannot be shown to come from the same locations cannot support a corrosion rate, and without a corrosion rate there is no defensible interval."
-        ]
-      },
-      {
-        "heading": "Common mistakes",
-        "paragraphs": [
-          "Measuring H from the tank bottom for an upper course instead of from that course's bottom. Using nominal plate thickness instead of measured thickness. Taking the specific gravity of the current product when the tank may later store something heavier. Using the upper-course allowable stress on the bottom two courses. Setting E to 1.0 for a thinned area that sits on or next to a weld. Treating one low spot reading as the course thickness, or averaging away a deep local area without the least-thickness and pitting checks. Mixing units, particularly when a survey reports millimetres and the calculation is done in inches."
-        ]
-      },
-      {
-        "heading": "From t-min to the next inspection",
-        "paragraphs": [
-          "The difference between measured thickness and t-min is the remaining corrosion allowance. Divided by the corrosion rate, it gives the remaining life, and API 653 sets the ultrasonic thickness interval for the shell from it: the lesser of half the remaining life and fifteen years where the rate is known, and five years where it is not. The [API inspection interval calculator](/tools/api-inspection-interval-calculator) runs this arithmetic for screening; the authorized inspector, as inspector of record, makes the decision.",
-          "Atlantis NDT performs shell thickness surveys and supplies the readings to the owner's API 653 inspector; see [API 653 tank inspection services](/consulting/api-653-tank-inspector-services). The [API 653 summary](/standards/api-653) covers the rest of the standard, and the [tank interval guide](/blog/api-653-tank-inspection-intervals-explained) explains how the inspection clocks interact."
-        ]
-      }
-    ],
-    "facets": [
-      {
-        "q": "Why does API 653 subtract one foot from the liquid height?",
-        "a": "Because the whole-course check follows the one-foot design method, which evaluates each course at a point one foot above its bottom, where restraint from the course below no longer reduces the hoop stress. Locally thinned areas use the full height above them, without the reduction."
-      },
-      {
-        "q": "What is the minimum thickness of any API 653 shell course?",
-        "a": "No course may be less than 0.1 in., whatever the calculation gives. On small or lightly loaded tanks the calculated t-min for the upper courses can fall below that figure, and the 0.1 in. floor then governs."
-      },
-      {
-        "q": "Which specific gravity goes into the API 653 shell calculation?",
-        "a": "The highest specific gravity of the contents the tank is to store, not necessarily today's product. Moving a tank into heavier service raises t-min on every course and can turn an acceptable shell into one that needs repair or a lower fill height."
-      },
-      {
-        "q": "When can the joint efficiency be taken as 1.0 in API 653?",
-        "a": "When the assessed area is far enough from any weld or joint, as defined in the shell evaluation section. At or near a weld, use the tank's original joint efficiency, or the code's table value when the original is unknown."
-      },
-      {
-        "q": "Can widely scattered pits be ignored in the shell evaluation?",
-        "a": "Yes, within limits: no pit may leave less than half of t-min, and the pits along any vertical line must stay within the total length the code allows. Pitting outside those limits is evaluated as a corroded area."
-      },
-      {
-        "q": "Who signs off the shell thickness evaluation?",
-        "a": "The authorized inspector certified to API 653, as inspector of record, with an engineer where the evaluation calls for one. NDT technicians take and record the readings under a written procedure; the acceptance decision belongs to the inspector."
-      }
-    ],
-    "faq": [
-      {
-        "q": "Why does API 653 subtract one foot from the liquid height?",
-        "a": "Because the whole-course check follows the one-foot design method, which evaluates each course at a point one foot above its bottom, where restraint from the course below no longer reduces the hoop stress. Locally thinned areas use the full height above them, without the reduction."
-      },
-      {
-        "q": "What is the minimum thickness of any API 653 shell course?",
-        "a": "No course may be less than 0.1 in., whatever the calculation gives. On small or lightly loaded tanks the calculated t-min for the upper courses can fall below that figure, and the 0.1 in. floor then governs."
-      },
-      {
-        "q": "Which specific gravity goes into the API 653 shell calculation?",
-        "a": "The highest specific gravity of the contents the tank is to store, not necessarily today's product. Moving a tank into heavier service raises t-min on every course and can turn an acceptable shell into one that needs repair or a lower fill height."
-      },
-      {
-        "q": "When can the joint efficiency be taken as 1.0 in API 653?",
-        "a": "When the assessed area is far enough from any weld or joint, as defined in the shell evaluation section. At or near a weld, use the tank's original joint efficiency, or the code's table value when the original is unknown."
-      },
-      {
-        "q": "Can widely scattered pits be ignored in the shell evaluation?",
-        "a": "Yes, within limits: no pit may leave less than half of t-min, and the pits along any vertical line must stay within the total length the code allows. Pitting outside those limits is evaluated as a corroded area."
-      },
-      {
-        "q": "Who signs off the shell thickness evaluation?",
-        "a": "The authorized inspector certified to API 653, as inspector of record, with an engineer where the evaluation calls for one. NDT technicians take and record the readings under a written procedure; the acceptance decision belongs to the inspector."
-      }
-    ]
-  },
-  {
     "slug": "/standards/api-1104-vs-aws-d1-1",
     "title": "API 1104 vs AWS D1.1: Pipeline vs Structural Welding",
     "description": "API 1104 covers pipeline girth welds; AWS D1.1 covers structural steel. Why a D1.1 welder test does not carry over to pipelines, and how each is inspected.",
@@ -549,6 +83,47 @@
         ]
       },
       {
+        "heading": "Acceptance standards side by side: length against size and loading",
+        "paragraphs": [
+          "API 1104 judges a girth weld mainly on the length of each imperfection. Each discontinuity type carries an individual length limit, an aggregate limit in any continuous 12 in. (300 mm) of weld and, for several types, a cap expressed as a percentage of total weld length. Inadequate penetration without high-low, for example, is a defect when an individual indication exceeds 1 in. (25 mm) or the aggregate in any 12 in. exceeds 1 in. Imperfection height is not part of these workmanship criteria, which is why the standard also offers alternative acceptance based on fracture mechanics for operators prepared to do the extra qualification work. The [API 1104 acceptance criteria guide](/blog/api-1104-weld-acceptance-criteria-pipeline) lists every limit.",
+          "AWS D1.1 starts from the joint. Its limits change with whether a connection is statically or cyclically loaded. Its ultrasonic criteria rate an indication in decibels against a reference level and then assign a severity class, chosen with the weld thickness and probe angle, that carries its own length limit, and its radiographic criteria relate permitted discontinuity size and spacing to the weld size. The same reflector can therefore be acceptable under one code and rejectable under the other, and neither verdict says anything about the other code's. The [AWS D1.1 acceptance criteria guide](/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide) collects the structural limits."
+        ]
+      },
+      {
+        "heading": "Undercut: one feature, two rulebooks",
+        "paragraphs": [
+          "Undercut shows how differently the two codes think. Where depth is measured by visual and mechanical means, API 1104 rejects undercut deeper than 1/32 in. (0.8 mm) or 12.5 percent of the pipe wall, whichever is smaller, at any length. Undercut between 1/64 in. (0.4 mm) and 1/32 in., or between 6 and 12.5 percent of the wall, is limited to 2 in. (50 mm) in a continuous 12 in. of weld or one-sixth of the weld length, whichever is smaller, and shallower undercut is accepted regardless of length. On a radiograph the standard limits external and internal undercut by aggregate length instead.",
+          "AWS D1.1 ties undercut to the thickness of the base metal and, for cyclically loaded members, to whether the weld lies transverse to tensile stress, because a toe notch across the stress is where fatigue cracks start. The 2025 edition revised the D1.1 visual criteria for undercut, so take the values from the edition the contract documents name rather than from a summary written for an earlier one. An inspector moving from a pipeline spread to a steel erection job should expect the gauge readings to be judged on a different basis, not just against different numbers."
+        ]
+      },
+      {
+        "heading": "Magnetic particle and penetrant results under each code",
+        "paragraphs": [
+          "Neither code makes surface examination routine on every weld, but both say how to judge it when it is done. API 1104 has its own acceptance rules for indications found by magnetic particle and penetrant testing, classifying an indication as linear when its length is more than three times its width and rounded otherwise, and limiting the indications by type and length. AWS D1.1 has no separate surface limits: when the contract documents call for MT or PT, the indications are judged against the visual acceptance criteria for the connection's loading, so a crack revealed by particles is treated exactly like one seen with the eye. The 2025 edition of D1.1 added definitions that divide MT and PT indications into linear and rounded."
+        ]
+      },
+      {
+        "heading": "Who inspects, and who qualifies the NDT personnel",
+        "paragraphs": [
+          "D1.1 recognises three routes for the welding inspector: certification as an AWS Certified Welding Inspector under AWS QC1, qualification by the Canadian Welding Bureau to CSA W178.2, or an engineer or technician competent, by training or experience in metals fabrication, inspection and testing, to inspect the work; where the Engineer wants a particular basis, the contract documents say so. It also separates the contractor's quality-control inspection from verification inspection carried out for the owner, and the contract should say which of the two is being bought. NDT personnel are qualified separately; the 2025 edition recognises employer-based certification to ASNT SNT-TC-1A or ANSI/ASNT CP-189 and also lists third-party certification schemes, including ISO 9712 and its Canadian adoption, CAN/CGSB-48.9712.",
+          "API 1104 requires nondestructive testing personnel to be certified to Level I, II or III under ASNT SNT-TC-1A or another recognised national certification programme acceptable to the company, and only Level II or Level III personnel interpret the results. Inspection of production welds is carried out for the company, which keeps the right to reject a weld that meets the written standards if it judges that the depth of an imperfection could be detrimental. That right sits with the operator's representative, not with the contractor's film interpreter."
+        ]
+      },
+      {
+        "heading": "Repairs under each code",
+        "paragraphs": [
+          "API 1104 controls repairs closely. Crack repairs need the company's authorization and a qualified repair procedure, a weld whose cracking is too long for repair is cut out, and a cracked area may not be repaired twice; repaired areas are re-examined by the method that found the defect, and the repair must meet the same acceptance standards as the original weld. Where the federal pipeline rules apply, they allow acceptance under the standard's alternative criteria but not for cracks. Under D1.1, unacceptable welds or portions of welds are removed and rewelded to a qualified or prequalified procedure, and the repaired area is examined again by the method that rejected it, against the criteria for its loading.",
+          "Both codes reward a repair record that names the original indication, the excavation, the procedure used and the re-examination result. Without it, a reviewer cannot show that the repair was judged by the criteria that rejected the weld, and on a pipeline a second repair in the same area, which needs its own qualified procedure, can go unnoticed."
+        ]
+      },
+      {
+        "heading": "Ultrasonic procedures do not transfer between the codes",
+        "paragraphs": [
+          "A D1.1 ultrasonic procedure is written around the code's own calibration and rating system, which applies to complete-joint-penetration groove welds within a stated thickness range. Tubular T-, Y- and K-connections are examined under the tubular clause's own ultrasonic rules, and other thicknesses and techniques go through the code's alternative route with the Engineer's approval. Pipeline girth welds are often examined by automated ultrasonic systems set up around the weld bevel, with inspection zones and gates designed from the welding procedure, and API 1104 judges those results by indication type and length. The [D1.1 ultrasonic acceptance guide](/blog/aws-d1-1-ut-acceptance-criteria-explained) explains the rating arithmetic.",
+          "Carrying a D1.1 scan plan onto line pipe, or an automated girth-weld set-up onto a structural tee joint, produces data that nobody can evaluate against the governing code. The procedure has to be written, and where required qualified, for the code, the joint and the technique actually in use."
+        ]
+      },
+      {
         "heading": "Which code applies to your job",
         "paragraphs": [
           "Ask what is being built and who regulates it. Line pipe and the welds that join it in a transmission, gathering or distribution system point to API 1104, often alongside ASME B31.4 or B31.8 for design. Steel framing, platforms, supports and structural members point to D1.1. Station piping inside a compressor or pump station follows whatever the operator's specification names, commonly API 1104 or ASME Section IX for qualification. Pipe racks that carry process piping are D1.1 structures, while the process piping on them follows ASME B31.3.",
@@ -556,15 +131,29 @@
         ]
       },
       {
+        "heading": "Welding on existing pipelines and structures",
+        "paragraphs": [
+          "Both codes reach beyond new construction. API 1104 includes an annex for welding on pipelines that are in service, where flowing product cools the weld quickly and burn-through and hydrogen cracking are the main risks, so procedure qualification and examination of those welds follow its own rules. D1.1 has a clause for strengthening and repairing existing structures, where the base metal may be of unknown composition and the engineer decides how far it has to be evaluated before welding. Neither provision replaces the operator's integrity programme or the owner's structural assessment; they govern the welding and its examination."
+        ]
+      },
+      {
         "heading": "Common mistakes",
         "paragraphs": [
-          "Sending a D1.1-qualified welder to a pipeline job without an API 1104 test. Using a D1.1 prequalified procedure on line pipe. Applying D1.1 visual criteria to a girth weld, or API 1104 criteria to a structural connection. Letting an NDT technician interpret pipeline radiographs against the wrong code's acceptance table because both are welding codes. Treating an old test record as proof of current qualification when the code's continuity or requalification rules have lapsed. Assuming either code covers ASME pressure piping."
+          "Sending a D1.1-qualified welder to a pipeline job without an API 1104 test. Using a D1.1 prequalified procedure on line pipe. Applying D1.1 visual criteria to a girth weld, or API 1104 criteria to a structural connection. Letting an NDT technician interpret pipeline radiographs against the wrong code's acceptance table because both are welding codes. Treating an old test record as proof of current qualification when the code's continuity or requalification rules have lapsed. Assuming either code covers ASME pressure piping.",
+          "On the inspection side the recurring errors are judging burn-through or internal concavity by image density on a digital image displayed as a positive, when those density comparisons assume the dark-for-thin convention of a film negative, judging a cyclically loaded crane girder against the statically loaded undercut limits, and using a D1.1 decibel rating on a girth weld whose procedure was never written for it."
         ]
       },
       {
         "heading": "For welders and inspectors working across both",
         "paragraphs": [
           "Keep separate records of qualification under each code, with the procedure, test date and continuity evidence for each, and study the acceptance standards of the code you are about to work to, not the one you know best. For inspectors, visual weld examination to a written procedure is the common ground, and [VT Level 2 training](/vt-level-2-training) builds it. Girth weld interpretation is covered in the [API 1104 acceptance criteria guide](/blog/api-1104-weld-acceptance-criteria-pipeline), and the [API 1104 summary](/standards/api-1104) and [AWS D1.1 summary](/standards/aws-d1-1) set out each code's scope."
+        ]
+      },
+      {
+        "heading": "Where Atlantis fits",
+        "paragraphs": [
+          "In the United States, Atlantis technicians carry out visual, magnetic particle, penetrant and ultrasonic examination of structural and pipeline welds at the client's site, see [ultrasonic weld inspection](/ultrasonic-weld-inspection) and [magnetic particle weld inspection](/magnetic-particle-weld-inspection), each to a procedure that names the governing code and edition. Our ASNT NDT Level III writes those procedures and their acceptance clauses through [NDT procedure development](/consulting/ndt-technical-procedure-development) and reviews contractor reports. On girth-weld radiography the position is simple: Atlantis does not perform radiography in the United States; where the code allows, ultrasonic testing is used for volumetric examination, and our ASNT Level III can review radiographs and RT procedures produced by a licensed contractor.",
+          "The [acceptance criteria hub](/standards/ndt-acceptance-criteria-by-code) places both codes among the other construction codes, and [WPS, PQR and WPQ explained](/blog/wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104) covers the welding qualification side that this page summarises."
         ]
       }
     ],
@@ -813,13 +402,217 @@
     ]
   },
   {
+    "slug": "/standards/api-653-shell-minimum-thickness",
+    "title": "API 653 Shell Minimum Thickness: How t-min Is Calculated",
+    "description": "How API 653 calculates tank shell t-min from fill height, diameter, specific gravity, allowable stress and joint efficiency, and how UT data is judged.",
+    "h1": "Minimum Acceptable Shell Thickness for API 653 Storage Tanks",
+    "answer": "API 653 calculates the minimum acceptable thickness of a welded steel tank shell from the liquid height above the point assessed, the tank diameter, the product's specific gravity, the allowable stress for that course and the joint efficiency. A whole course is checked at one foot above its bottom; a locally thinned area uses the full height above it. No course may fall below 0.1 in.",
+    "expansion": "In U.S. units the whole-course form is t-min = 2.6 (H - 1) D G / (S E), and the locally thinned area form drops the one-foot reduction, with t-min in inches, H and D in feet and S in pounds per square inch. The constant is not arbitrary: it is the hydrostatic pressure of water per foot of depth, multiplied by twelve and halved, so the formula is the hoop-stress equation for a cylinder under liquid head. The allowable stress comes from the code's table for the plate material, with lower values for the bottom two courses, and the joint efficiency is the original weld joint efficiency unless the area is far enough from any weld for 1.0 to apply. The authorized inspector compares t-min with measured thickness, not nominal, to decide whether the course is acceptable or needs repair, rerating or a fitness-for-service assessment.",
+    "source": "API Standard 653, Tank Inspection, Repair, Alteration, and Reconstruction, Fifth Edition (November 2014) with Addendum 1 (April 2018), Addendum 2 (May 2020), Addendum 3 (November 2023) and Addendum 4 (July 2025), and Errata 1 (March 2020) and 2 (February 2025): Section 4.3 tank shell evaluation, including the minimum thickness calculation in 4.3.3, the evaluation of corroded areas and widely scattered pits, Table 4.1 allowable stresses and Table 4.2 joint efficiencies; Section 6 inspection intervals. API Standard 650 for the one-foot design method the calculation mirrors; API 579-1/ASME FFS-1 for fitness-for-service. Confirm the edition and addenda the owner and jurisdiction invoke.",
+    "table": {
+      "caption": "API 653 shell t-min: each term, its source and the usual error",
+      "columns": [
+        "Term",
+        "Meaning",
+        "Source in API 653",
+        "Common error"
+      ],
+      "rows": [
+        [
+          "t-min",
+          "Minimum acceptable thickness, in.",
+          "Section 4.3 calculation",
+          "Comparing it with nominal rather than measured thickness"
+        ],
+        [
+          "H",
+          "Height from the bottom of the course, or of the thinned area, to the maximum liquid level, ft",
+          "Section 4.3",
+          "Measuring from the tank bottom for an upper course"
+        ],
+        [
+          "D",
+          "Nominal tank diameter, ft",
+          "Section 4.3",
+          "Using a surveyed outside diameter"
+        ],
+        [
+          "G",
+          "Highest specific gravity of the contents",
+          "Section 4.3",
+          "Using today's product instead of the heaviest intended"
+        ],
+        [
+          "S",
+          "Maximum allowable stress for the plate material, psi",
+          "Table 4.1",
+          "Using the upper-course value on the bottom two courses"
+        ],
+        [
+          "E",
+          "Original joint efficiency, or 1.0 away from welds",
+          "Table 4.2 and Section 4.3",
+          "Taking 1.0 for an area on or next to a weld"
+        ]
+      ],
+      "note": "U.S. customary units, for tanks within the diameter range the one-foot form covers. SI users apply the same relationship with 4.9 in place of 2.6, metres for D and H, megapascals for S and 0.3 m in place of one foot."
+    },
+    "sections": [
+      {
+        "heading": "Minimum acceptable shell thickness calculation for an aboveground storage tank",
+        "paragraphs": [
+          "API 653 treats the shell as a cylinder holding a column of liquid. The hoop stress at any height depends on the head of liquid above that point, so the thickness the shell needs falls course by course from the bottom up. The calculation gives the thickness at which the plate, at its allowable stress and with its joint efficiency, still holds the maximum liquid level of the heaviest product the tank is allowed to store.",
+          "The inspection question is then simple to state: is the relevant measured thickness at or above t-min for that location? If it is, the shell is acceptable for the present service, and the margin above t-min divided by the corrosion rate drives the next inspection date. If it is not, the owner's options are to lower the maximum fill height, change the product, repair the shell, or have the area assessed for fitness for service."
+        ]
+      },
+      {
+        "heading": "The formula and where each term comes from",
+        "paragraphs": [
+          "In U.S. customary units, t-min = 2.6 (H - 1) D G / (S E) for a full course. H is measured in feet from the bottom of the course being assessed to the maximum liquid level, D is the nominal diameter in feet, G is the highest specific gravity of the contents, S is the maximum allowable stress in pounds per square inch and E is the joint efficiency.",
+          "The constant 2.6 is the hydrostatic pressure of water, about 0.433 psi per foot of depth, multiplied by 12 to turn a diameter in feet into inches and divided by 2 from the hoop-stress equation. In SI units the same relationship uses 4.9, with D and H in metres, S in megapascals, t-min in millimetres and 0.3 m in place of one foot. The derivation matters because it shows the formula is pure membrane stress under liquid head; nozzle loads, settlement, wind and seismic loading are separate considerations the shell evaluation has to cover alongside it."
+        ]
+      },
+      {
+        "heading": "Allowable stress and joint efficiency in more detail",
+        "paragraphs": [
+          "API 653 does not leave S to judgement. For product service the allowable stress for the bottom and second courses is the smaller of 0.80Y or 0.429T, and for the courses above it is the smaller of 0.88Y or 0.472T, where Y is the specified minimum yield strength of the plate and T its specified minimum tensile strength, taken as no more than 80,000 psi. Table 4.1 tabulates the results by plate specification. Where the material cannot be identified, the standard supplies default strengths of 30,000 psi yield and 55,000 psi tensile, which give allowable stresses of about 23,600 psi for the lower two courses and 26,000 psi above; an owner who can trace the mill certificates usually gains margin by doing so.",
+          "E = 1.0 applies only where the area being evaluated is away from welds or joints by at least the greater of 1 in. or twice the plate thickness. Closer than that, the tank's original joint efficiency applies, and where it is unknown, Table 4.2 gives values based on the standard and edition the tank was built to and the type of joint. Riveted joints carry their own efficiencies in the standard, and riveted shells are an evaluation for the owner's engineer."
+        ]
+      },
+      {
+        "heading": "Whole course versus a locally thinned area",
+        "paragraphs": [
+          "The whole-course form subtracts one foot from H because the design method behind it checks each course at a point one foot above its bottom, where restraint from the course below no longer reduces the hoop stress. For a locally thinned area, or any other point of interest, API 653 uses the full height measured from the bottom of the thinned area to the maximum liquid level, with no one-foot reduction.",
+          "Corroded areas are not judged on a single lowest reading. The code has the inspector find the least thickness in the area, average readings over a critical length derived from the tank diameter and that least thickness, and compare the average with t-min. The least thickness itself must also stay above a stated fraction of t-min. Widely scattered pits are handled separately: they can be ignored where no pit leaves less than half of t-min and the pits along any vertical line stay within a limited total length."
+        ]
+      },
+      {
+        "heading": "Corroded areas: the critical length and the 60 percent check",
+        "paragraphs": [
+          "For a corroded area, the evaluation starts by finding t2, the least thickness in the area excluding widely scattered pits, and calculating the critical length L = 3.7 √(D t2), with D in feet and t2 in inches, but not more than 40 in. Thickness is then averaged over length L, using at least five equally spaced measurements, and t1 is the lowest such average found in the area. Two conditions follow: t1 must be at least t-min, and t2 must be at least 60 percent of t-min. Any corrosion allowance needed for service until the next inspection is added to both t-min and the 60 percent figure before the comparison is made.",
+          "On the 100 ft tank in the worked example below, an area whose least reading is 0.25 in. has L = 3.7 × √(100 × 0.25) = 3.7 × 5 = 18.5 in. If the area's lower edge sits 2 ft above the bottom of the first course, t-min at that height is 0.356 in. with E = 1.0. The least reading passes the 60 percent check, since 0.6 × 0.356 = 0.214 in., and the area passes overall only if no 18.5 in. average falls below 0.356 in. With an expected loss of 0.03 in. before the next inspection, the targets become 0.386 in. for the averages and 0.244 in. for the least reading, and 0.25 in. still clears the second.",
+          "The 40 in. cap, the five-reading minimum and the 60 percent figure have been carried forward from earlier editions into the fifth edition; confirm the clause numbering in the edition and addenda you work to."
+        ]
+      },
+      {
+        "heading": "A worked example",
+        "paragraphs": [
+          "Take a 100 ft diameter tank with a maximum liquid level 40 ft above the bottom of the first course, storing product with a specific gravity of 0.9. For illustration only, assume an allowable stress of 25,000 psi; the real value comes from Table 4.1 for the actual plate and course. Away from welds, with E = 1.0, the bottom course needs t-min = 2.6 x 39 x 100 x 0.9 / 25,000 = 0.365 in.",
+          "If the same location sits at a weld whose original joint efficiency is 0.85, t-min rises to 0.429 in. A locally thinned area whose lower edge is 2 ft above the course bottom has H = 38 ft and no one-foot reduction, giving 2.6 x 38 x 100 x 0.9 / 25,000 = 0.356 in., compared with the average thickness over its critical length. Changing to a product with a specific gravity of 1.0 raises every figure by about 11 percent, which is why the highest intended specific gravity, not the current product, belongs in the calculation."
+        ]
+      },
+      {
+        "heading": "Widely scattered pits: a worked check",
+        "paragraphs": [
+          "Pitting is checked before any averaging. Taking t-min as 0.365 in. for illustration, the whole-course figure for the bottom course in the worked example, no pit may leave less than half of that, 0.1825 in., of remaining wall. Along any vertical line, the pit dimensions in any 8 in. length may total no more than 2 in. Three pits of 0.5, 0.75 and 0.6 in. on one vertical line within 8 in. total 1.85 in. and pass, provided each leaves at least 0.1825 in.; a fourth pit of 0.3 in. in the same 8 in. takes the total to 2.15 in., and the area then has to be evaluated as a corroded area instead.",
+          "A single deep pit that leaves 0.17 in. falls outside the exemption however isolated it is, and evaluated as part of a corroded area it would also fail the 60 percent check, which on the same t-min needs 0.219 in. In a real evaluation, use the t-min calculated for the area's own height, without the one-foot reduction. The pit survey should therefore record depth and length for each pit, with its position on a vertical line, so the inspector can apply both limits."
+        ]
+      },
+      {
+        "heading": "Rerating instead of repairing",
+        "paragraphs": [
+          "When measured thickness falls short, the formula can be turned round to find the liquid height the shell will support. Rearranged for a whole course, H = t S E / (2.6 D G) + 1, with t the measured governing thickness. For the same 100 ft tank at a specific gravity of 0.9, an allowable stress of 25,000 psi and E = 1.0, a bottom course measuring 0.33 in. supports H = 0.33 × 25,000 / (2.6 × 100 × 0.9) + 1, about 36.3 ft above the bottom of the course, against the 40 ft the tank was being filled to.",
+          "Lowering the maximum fill height to that level, with an allowance for future corrosion, is one legitimate outcome. It has to be checked for every course, because an upper course may now govern, and it has to be carried into the tank's records and operating limits so the tank is actually filled to the new height. The other outcomes are repair under the standard's repair section, for example by replacing shell plate or by a lap-welded patch where the rules allow it, and fitness-for-service assessment by the owner's engineer under API 579-1/ASME FFS-1. Atlantis does not perform fitness-for-service assessments; its part is the thickness data such an assessment depends on."
+        ]
+      },
+      {
+        "heading": "Planning the ultrasonic survey so the calculation can be trusted",
+        "paragraphs": [
+          "The calculation is only as good as the thickness data behind it. A Level III writing the survey procedure sets readings on every course, concentrated where corrosion is expected: the lowest course near the bottom, the liquid-vapour interface, around nozzles and wherever coating has failed. Spot readings find corrosion only where they happen to land, so suspect areas are scanned to find the least thickness and to map its extent for the averaging the code requires.",
+          "The procedure also controls the measurement itself: calibration on a reference block of known thickness in similar material, a suitable technique for coated plate, temperature correction where the shell runs hot, and records tied to course, orientation and height so that the next survey measures the same points. Readings that cannot be shown to come from the same locations cannot support a corrosion rate, and without a corrosion rate there is no defensible interval."
+        ]
+      },
+      {
+        "heading": "Readings through coating and on warm shells",
+        "paragraphs": [
+          "Most tank shells are coated, and a single-echo reading through coating adds the coating's apparent thickness to the steel, inflated further because sound travels more slowly in coating than in steel. Multiple-echo or echo-to-echo modes measure the steel alone when the gauge and the procedure support them and the coating allows clean echoes; otherwise readings are taken on bare metal at prepared spots. The procedure should say which approach is used and how it was verified on a known thickness.",
+          "Sound velocity in steel falls as temperature rises, so readings on a shell storing warm product are corrected using the gauge manufacturer's data or the procedure's correction method, and the surface temperature is recorded with the readings. Small systematic errors matter here, because the corrosion rate is the difference between two surveys, and a coating or temperature error that changes between surveys shows up as metal loss that never happened."
+        ]
+      },
+      {
+        "heading": "What the thickness survey report should give the inspector",
+        "paragraphs": [
+          "The inspector needs data arranged around the calculation, not a list of numbers. For each course that means the maximum liquid level and specific gravity used, the readings with their elevations and orientations, the least thickness and where it was found, the critical length and the averages over it for each corroded area, the pits measured against the pitting limits, and the distance from each evaluated area to the nearest weld, which decides the joint efficiency. The report also records the instrument, probe and calibration, the coating and how readings were taken through or under it, the surface temperature where it affected the readings, and the technician's certification.",
+          "A survey scoped only to the shell should say so plainly. The bottom is evaluated separately against its own minimum remaining thickness rules, usually from floor scanning with ultrasonic follow-up, and nozzles, reinforcing plates, the roof, settlement and brittle fracture are each assessed under other parts of the standard. Atlantis supplies thickness data and its review; the evaluation and the decision belong to the owner's API 653 inspector."
+        ]
+      },
+      {
+        "heading": "Common mistakes",
+        "paragraphs": [
+          "Measuring H from the tank bottom for an upper course instead of from that course's bottom. Using nominal plate thickness instead of measured thickness. Taking the specific gravity of the current product when the tank may later store something heavier. Using the upper-course allowable stress on the bottom two courses. Setting E to 1.0 for a thinned area that sits on or next to a weld. Treating one low spot reading as the course thickness, or averaging away a deep local area without the least-thickness and pitting checks. Mixing units, particularly when a survey reports millimetres and the calculation is done in inches.",
+          "On corroded areas specifically: using a critical length longer than 40 in., taking t1 as the single lowest reading instead of the lowest average over L, forgetting to add the corrosion allowance for the next interval to both comparisons, and applying the hydrostatic test allowable stress to a product-service evaluation."
+        ]
+      },
+      {
+        "heading": "From t-min to the next inspection",
+        "paragraphs": [
+          "The difference between measured thickness and t-min is the remaining corrosion allowance. Divided by the corrosion rate, it gives the remaining life, and API 653 sets the ultrasonic thickness interval for the shell from it: the lesser of half the remaining life and fifteen years where the rate is known, and five years where it is not. The [API inspection interval calculator](/tools/api-inspection-interval-calculator) runs this arithmetic for screening; the authorized inspector, as inspector of record, makes the decision.",
+          "Atlantis NDT performs shell thickness surveys and supplies the readings to the owner's API 653 inspector; see [API 653 tank inspection services](/consulting/api-653-tank-inspector-services). The [API 653 summary](/standards/api-653) covers the rest of the standard, and the [tank interval guide](/blog/api-653-tank-inspection-intervals-explained) explains how the inspection clocks interact.",
+          "For planning the survey itself, Atlantis technicians in the United States carry out [ultrasonic thickness and corrosion mapping](/corrosion-mapping) at the client's site, our ASNT NDT Level III writes the survey procedure through [NDT procedure development](/consulting/ndt-technical-procedure-development), and readings can be held against course and elevation in [Atlantis ERP NDT reports](/erp/apps/ndt-reports). For new-construction weld examination of the same tanks, see [API 650 weld acceptance criteria](/standards/api-650-weld-acceptance-criteria) and the [acceptance criteria hub](/standards/ndt-acceptance-criteria-by-code)."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Why does API 653 subtract one foot from the liquid height?",
+        "a": "Because the whole-course check follows the one-foot design method, which evaluates each course at a point one foot above its bottom, where restraint from the course below no longer reduces the hoop stress. Locally thinned areas use the full height above them, without the reduction."
+      },
+      {
+        "q": "What is the minimum thickness of any API 653 shell course?",
+        "a": "No course may be less than 0.1 in., whatever the calculation gives. On small or lightly loaded tanks the calculated t-min for the upper courses can fall below that figure, and the 0.1 in. floor then governs."
+      },
+      {
+        "q": "Which specific gravity goes into the API 653 shell calculation?",
+        "a": "The highest specific gravity of the contents the tank is to store, not necessarily today's product. Moving a tank into heavier service raises t-min on every course and can turn an acceptable shell into one that needs repair or a lower fill height."
+      },
+      {
+        "q": "When can the joint efficiency be taken as 1.0 in API 653?",
+        "a": "When the assessed area is far enough from any weld or joint, as defined in the shell evaluation section. At or near a weld, use the tank's original joint efficiency, or the code's table value when the original is unknown."
+      },
+      {
+        "q": "Can widely scattered pits be ignored in the shell evaluation?",
+        "a": "Yes, within limits: no pit may leave less than half of t-min, and the pits along any vertical line must stay within the total length the code allows. Pitting outside those limits is evaluated as a corroded area."
+      },
+      {
+        "q": "Who signs off the shell thickness evaluation?",
+        "a": "The authorized inspector certified to API 653, as inspector of record, with an engineer where the evaluation calls for one. NDT technicians take and record the readings under a written procedure; the acceptance decision belongs to the inspector."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does API 653 subtract one foot from the liquid height?",
+        "a": "Because the whole-course check follows the one-foot design method, which evaluates each course at a point one foot above its bottom, where restraint from the course below no longer reduces the hoop stress. Locally thinned areas use the full height above them, without the reduction."
+      },
+      {
+        "q": "What is the minimum thickness of any API 653 shell course?",
+        "a": "No course may be less than 0.1 in., whatever the calculation gives. On small or lightly loaded tanks the calculated t-min for the upper courses can fall below that figure, and the 0.1 in. floor then governs."
+      },
+      {
+        "q": "Which specific gravity goes into the API 653 shell calculation?",
+        "a": "The highest specific gravity of the contents the tank is to store, not necessarily today's product. Moving a tank into heavier service raises t-min on every course and can turn an acceptable shell into one that needs repair or a lower fill height."
+      },
+      {
+        "q": "When can the joint efficiency be taken as 1.0 in API 653?",
+        "a": "When the assessed area is far enough from any weld or joint, as defined in the shell evaluation section. At or near a weld, use the tank's original joint efficiency, or the code's table value when the original is unknown."
+      },
+      {
+        "q": "Can widely scattered pits be ignored in the shell evaluation?",
+        "a": "Yes, within limits: no pit may leave less than half of t-min, and the pits along any vertical line must stay within the total length the code allows. Pitting outside those limits is evaluated as a corroded area."
+      },
+      {
+        "q": "Who signs off the shell thickness evaluation?",
+        "a": "The authorized inspector certified to API 653, as inspector of record, with an engineer where the evaluation calls for one. NDT technicians take and record the readings under a written procedure; the acceptance decision belongs to the inspector."
+      }
+    ]
+  },
+  {
     "slug": "/standards/asme-b31-1-acceptance-criteria",
     "title": "ASME B31.1 Acceptance Criteria for Power Piping Welds",
     "description": "B31.1 para. 136.4 acceptance standards for visual, MT, PT, RT and UT, the Table 136.4 mandatory minimum examinations by service, and how they differ from B31.3.",
     "h1": "Power Piping Weld Acceptance Under ASME B31.1 Para. 136.4: Visual, MT, PT, RT and UT",
     "answer": "ASME B31.1 states weld acceptance in para. 136.4, method by method: visual in 136.4.2, magnetic particle in 136.4.3, penetrant in 136.4.4, radiography in 136.4.5 and ultrasonics in 136.4.6. Table 136.4 sets which welds need more than visual examination, by weld type, size, thickness and service temperature and pressure. Every weld is examined visually, and an external crack is never acceptable.",
     "expansion": "Visual acceptance under 136.4.2 rejects surface cracks, surface lack of fusion, undercut deeper than 1/32 in. (1.0 mm) or encroaching on the minimum required wall, any surface undercut on a longitudinal butt weld, reinforcement beyond Table 127.4.2, incomplete penetration where the inside surface is readily accessible, other linear indications over 3/16 in. (5.0 mm), and surface porosity beyond stated size and spacing limits. Penetrant acceptance adds an area rule the Section VIII appendices do not have: ten or more rounded indications in any 6 sq in. of surface reject the weld. A weld that Table 136.4 does not send to RT, UT, MT or PT is acceptable once it passes visual examination and the pressure test. The table is a floor, and the engineering design can require more. B31.3 process piping is organised differently, around fluid service, random examination and Table 341.3.2.",
-    "source": "ASME B31.1 Power Piping (2016 edition): para. 136.1, 136.4.1, 136.4.2 (visual), 136.4.3 (magnetic particle), 136.4.4 (liquid penetrant), 136.4.5 (radiography), 136.4.6 (ultrasonic), Table 136.4 with its general notes and notes, Table 127.4.2, para. 137; ASME BPVC Section V Articles 2, 4, 6, 7 and 9; ASME BPVC Section I for boiler external piping administration; ASME B31.3 para. 341.3.4 and Table 341.3.2 for contrast. If the contract invokes a later edition, confirm the paragraph and table numbers as well as the values, because ASME revises and renumbers tables between editions.",
+    "source": "ASME B31.1 Power Piping (2016 edition): para. 136.1, 136.4.1, 136.4.2 (visual), 136.4.3 (magnetic particle), 136.4.4 (liquid penetrant), 136.4.5 (radiography), 136.4.6 (ultrasonic), Table 136.4 with its general notes and notes, Table 127.4.2, para. 137; ASME BPVC Section V Articles 2, 4, 6, 7 and 9; ASME BPVC Section I for boiler external piping administration; ASME B31.3 para. 341.3.4 and Table 341.3.2 for contrast. If the contract invokes a later edition, confirm the paragraph and table numbers as well as the values, because ASME revises and renumbers tables between editions. The 2022 edition numbers the minimum-examination table Table 136.4.1-1 and adds Table 136.4.1-2; the 2024 edition is current.",
     "table": {
       "caption": "B31.1 visual and penetrant acceptance limits, para. 136.4 (2016 edition)",
       "columns": [
@@ -901,11 +694,25 @@
         ]
       },
       {
+        "heading": "Which B31.1 edition the numbers come from",
+        "paragraphs": [
+          "The paragraph and table numbers on this page follow the 2016 edition, and the code has been reissued in 2018, 2020, 2022 and 2024 since then. The numbering has moved: the contents of the 2022 edition list the mandatory minimum examination table as Table 136.4.1-1, Mandatory Minimum Nondestructive Examinations for Pressure Welds or Welds to Pressure-Retaining Components, and add Table 136.4.1-2, Weld Imperfections Indicated by Various Types of Examination. A procedure written for current work should cite those designations rather than the older Table 136.4.",
+          "The 2024 edition is the current one. A published summary of its changes lists new mandatory appendices on quality management and on documentation for non-boiler external covered piping systems and rewritten rules for bolted flanged connections and for rerating, and it does not list changes to para. 136; that summary is no substitute for reading the edition the contract names. Regulations can also hold an older edition in place. The Coast Guard's marine engineering rules call for piping nondestructive examination in accordance with Table 136.4 of B31.1, so work under 46 CFR 56.95-10 carries the older table reference and the edition that regulation incorporates. Where a jurisdiction adopts B31.1 by reference, confirm the adopted edition before quoting a cell."
+        ]
+      },
+      {
         "heading": "Mandatory minimum examination: reading Table 136.4",
         "paragraphs": [
           "Table 136.4 has three service columns and three weld-type rows. The columns, in the edition we checked, are temperatures over 750°F (400°C) at all pressures; temperatures from 350°F to 750°F (175°C to 400°C) inclusive with pressures over 1,025 psig; and all other service. The rows are butt welds (girth and longitudinal), welded branch connections, and fillet, socket, attachment and seal welds. The general notes say that every weld receives visual examination in addition to the listed examination, and that the acceptance standards are those of 136.4.2 through 136.4.6.",
           "The cells turn on size and thickness. In the highest-temperature column, butt welds above NPS 2 (DN 50) are examined by radiography or ultrasonics; the intermediate column applies that examination only where the wall is over 3/4 in. (19.0 mm) and otherwise asks for visual examination. Branch connections follow the same pattern with NPS 4 (DN 100) as the dividing size, with magnetic particle or penetrant examination for the smaller branches where the column calls for more than visual. In the highest-temperature column, fillet, socket, attachment and seal welds also receive magnetic particle or penetrant examination; in the all-others column the minimum for every weld type is visual examination. Read the exact cell for the column that applies rather than relying on a summary, because the wording of the size and thickness conditions has been revised over time.",
           "The notes matter as much as the cells. Butt weld thickness is taken as the thicker of the two abutting ends after weld preparation; radiography may be substituted for a required magnetic particle or penetrant examination; volumetric examination of a branch is done before any non-integral reinforcement is added; surface examination may be accepted in place of a required volumetric examination of a welded branch connection, under the conditions that note sets; and fillet welds of 1/4 in. (6 mm) throat or less used for non-pressure attachments are exempt from surface examination. Longitudinal and spiral welds in pipe intended for service in the creep range need 100 percent volumetric examination. Above all, the table is a mandatory minimum: the engineering design can require more, and when it does, the larger extent governs."
+        ]
+      },
+      {
+        "heading": "Placing a line in its Table 136.4 column",
+        "paragraphs": [
+          "Every Table 136.4 decision starts with the service column, and the boundaries are easy to misread. A main steam line whose design basis is above 750°F (400°C) belongs in the first column whatever its pressure. A feedwater line at 480°F and 2,600 psig falls in the second column, because it lies between 350°F and 750°F inclusive and above 1,025 psig. The same line at 900 psig drops to the all-others column, and so does any line at 300°F. A line at exactly 750°F with a pressure over 1,025 psig is in the second column, because that band includes 750°F; at 760°F it moves to the first.",
+          "Write the temperature and pressure basis used for each line class into the inspection plan. An uprate, a change in operating conditions or a corrected design figure can move welds into a column that calls for heavier examination, and welds already accepted on visual examination alone may then need volumetric or surface examination before the change takes effect."
         ]
       },
       {
@@ -1199,6 +1006,419 @@
       {
         "q": "Can B31.3 weld acceptance criteria be used to judge piping already in service?",
         "a": "Not as a final judgement. The table is a workmanship standard for new construction, and API 570 cautions that applying construction radiography criteria to in-service welds may not be appropriate. A flaw found in an operating line should be characterised and sized accurately, and then the owner's inspector and engineer decide whether to repair, monitor or assess it under the in-service code."
+      }
+    ]
+  },
+  {
+    "slug": "/standards/asme-b31-3-minimum-distance-between-welds",
+    "title": "Minimum Distance Between Welds in ASME B31.3",
+    "description": "ASME B31.3 sets no minimum distance between butt welds. What does limit weld spacing: branch reinforcement, heat treatment, UT access and owner specs.",
+    "h1": "ASME B31.3 Weld Spacing: What the Code Sets and What Governs Instead",
+    "answer": "ASME B31.3 does not specify a minimum distance between adjacent girth or butt welds in process piping. Weld spacing is limited instead by rules the code does contain, such as branch reinforcement and heat treatment, by the owner's piping or fabrication specification, and by whether the examination the code requires can actually be carried out on each weld.",
+    "expansion": "The belief that B31.3 sets a spacing usually comes from three places: owner specifications that state a minimum and get quoted as if they were the code, the pressure vessel rule that requires longitudinal seams to be staggered, and long-standing shop practice. None of them is a B31.3 requirement, and a nonconformance report that cites one as such will not stand up to review by the engineering designer. That does not make close spacing harmless. Two welds close together share heat-affected material, can sit inside each other's heat treatment band, and can leave too little clear surface for an angle-beam ultrasonic examination to cover the weld volume from both sides. The practical answer is to set the minimum in the project specification, state the reason for it, define how it is measured, and give the fabricator a route to request a deviation where geometry leaves no choice.",
+    "source": "ASME B31.3 Process Piping: Chapter V fabrication, assembly and erection (para. 328 welding, para. 331 heat treatment), Chapter VI inspection, examination and testing (paras. 341 and 344) and para. 304.3 branch connections; ASME BPVC Section VIII Division 1, UW-9 design of welded joints; ASME BPVC Section V, Articles 2 and 4. Any spacing minimum on a project comes from the owner's piping class or fabrication specification; confirm the code edition the contract invokes.",
+    "table": {
+      "caption": "Where weld spacing is actually controlled on ASME B31.3 piping",
+      "columns": [
+        "Constraint",
+        "Where it comes from",
+        "Effect on spacing",
+        "Who decides"
+      ],
+      "rows": [
+        [
+          "Minimum distance between butt welds",
+          "Not stated in B31.3",
+          "No code minimum; any limit comes from elsewhere",
+          "Owner specification"
+        ],
+        [
+          "Branch connections close together",
+          "B31.3 para. 304.3 reinforcement rules",
+          "Two branches cannot both count the same reinforcing metal",
+          "Piping designer"
+        ],
+        [
+          "Postweld heat treatment",
+          "B31.3 para. 331 and the heat treatment procedure",
+          "A heated band can reach and re-treat the neighbouring weld",
+          "Fabricator, accepted by the designer"
+        ],
+        [
+          "Angle-beam UT coverage",
+          "Section V Article 4 technique and the scan plan",
+          "Each weld needs clear scanning surface on both sides",
+          "NDE Level III who writes the technique"
+        ],
+        [
+          "Radiography set-up",
+          "Section V Article 2 technique",
+          "Rarely limiting; image overlap and marker placement need planning",
+          "NDE Level II or III"
+        ],
+        [
+          "Vessel longitudinal seams (contrast)",
+          "Section VIII Division 1, UW-9",
+          "Seams in adjacent courses staggered unless radiographed at the intersection",
+          "Manufacturer and Authorized Inspector"
+        ]
+      ],
+      "note": "Process piping to ASME B31.3 only. The same logic applies to support lugs, trunnions and branch fittings: the code supplies the design and examination rules, the specification supplies any spacing figure."
+    },
+    "sections": [
+      {
+        "heading": "Minimum distance between welds in ASME B31.3",
+        "paragraphs": [
+          "There is no minimum. B31.3 contains no paragraph that sets a required distance between two butt welds, between a butt weld and a fitting weld, or between consecutive girth welds on a straight run. A short piece of pipe between two fittings, often called a pup, is acceptable to the code provided every weld meets the welding, heat treatment and examination requirements that apply to it.",
+          "Where a spacing figure appears on a project, trace it before enforcing it. It comes from the owner's piping class or fabrication specification, from a contractor's standard, or from a vessel or structural rule that someone has carried across. Those documents can legitimately require a minimum, commonly expressed as a multiple of pipe diameter or a fixed length, whichever is greater. The figure then binds the job through the contract, not through B31.3, and a deviation is approved by whoever owns that specification."
+        ]
+      },
+      {
+        "heading": "What B31.3 does say that affects spacing",
+        "paragraphs": [
+          "Three parts of the code bear on how close welds can sensibly be. The branch connection rules in para. 304.3 require a branch that relies on reinforcement to find that metal within a defined zone around the opening, and when two branches sit close together the designer has to make sure the same metal is not counted twice. The heat treatment rules in para. 331 apply to every weld that needs postweld heat treatment, and a heated band laid over one weld can reach the next. The examination rules in Chapter VI set the type and extent of examination for each fluid service, and that examination has to be physically possible on every weld it selects.",
+          "Sampling matters too. Under normal fluid service B31.3 examines a percentage of welds by radiography or ultrasonics and requires further examination when a sampled weld is rejected. A weld that cannot be examined because its neighbour is in the way is not a usable sample, and the usual outcome is a change to the spool rather than a waiver of the examination."
+        ]
+      },
+      {
+        "heading": "How a Level III works out a practical minimum",
+        "paragraphs": [
+          "When an owner asks what spacing to specify, the useful answer comes from the examination, because it is usually the tightest physical constraint. For angle-beam ultrasonic examination the probe has to move far enough from the weld to put the beam through the whole weld volume. The distance from the probe's beam exit point to the point where the beam returns to the scanning surface is the full skip, and for a wall of thickness t examined at a refracted angle θ it is 2 × t × tan θ.",
+          "Take a 12.7 mm (0.5 in.) wall examined at 60 degrees. The full skip is 2 × 12.7 × 1.732, about 44 mm (1.73 in.). Add the probe and wedge length in front of the exit point and half the width of the weld cap, and the clear surface the technician needs on that side of the weld comes to several times the wall thickness. If the toe of the next weld sits inside that zone, the probe rides over a second cap, couplant contact is lost and part of the volume goes unexamined.",
+          "Phased array and TOFD change the numbers but not the logic. A sectorial scan covers more of the volume from a fixed position, which helps where space is tight, while TOFD needs both probes of the pair on clear surface either side of the weld. Radiography is rarely the limiting method, although film or detector placement, location markers and image overlap still need planning on closely spaced welds. The scan plan, written for the actual geometry, is the evidence that a spacing works."
+        ]
+      },
+      {
+        "heading": "Skip distances for common walls and angles",
+        "paragraphs": [
+          "Because the full skip is 2t tan θ, it grows quickly with angle. At 45 degrees it equals twice the wall, at 60 degrees about 3.46 times the wall and at 70 degrees about 5.49 times. For a 6.35 mm (1/4 in.) wall that is roughly 12.7, 22.0 and 34.9 mm; for 12.7 mm (1/2 in.) about 25.4, 44.0 and 69.8 mm; for 25.4 mm (1 in.) about 50.8, 88.0 and 139.6 mm. Those figures are the skip alone. The probe's front length and half the cap width come on top, and so does room to scan for transverse indications where the procedure requires it.",
+          "The angle is not a free choice. Thin walls usually need a higher angle so that the sound path is long enough to separate root and cap signals, and thick walls often need two angles to cover the volume, so a clearance that suits one technique can be too short for the technique the procedure actually qualifies. That is why the scan plan, not a rule of thumb, should set the project minimum. The [angle-beam calculator](/tools/ut-angle-beam-calculator) works out skip distances for planning, and [ultrasonic weld inspection](/ultrasonic-weld-inspection) describes how the scan is carried out on site."
+        ]
+      },
+      {
+        "heading": "Fittings shorten the usable scanning surface",
+        "paragraphs": [
+          "Fittings bring their own limits. The curvature at an elbow intrados, the taper of a reducer and the counterbore or hub of a weld-neck flange all shorten the surface a probe can use next to the weld. A spacing figure chosen for straight pipe can be ample on a pipe-to-pipe joint and too short on a fitting-to-fitting joint with the same toe-to-toe distance, because the scanning surface on the fitting side is partly unusable.",
+          "The scan plan should therefore be checked against the actual components, not a generic spool, and a specification can reasonably set a larger minimum where two fittings meet. Close-coupled fittings are sometimes unavoidable; in that case the decision on how the welds will be examined is made before fabrication, not discovered at examination."
+        ]
+      },
+      {
+        "heading": "Why close spacing causes trouble beyond the examination",
+        "paragraphs": [
+          "Each weld puts a thermal cycle into the material around it. When two welds are close, the second cycle reheats the heat-affected zone of the first, and in hardenable steels or sour-service piping that can move hardness or toughness away from what the procedure qualification demonstrated. Heat treatment bands are sized for one weld; a band laid over a neighbouring weld that has already been treated gives it a second cycle, which the heat treatment procedure then has to allow for.",
+          "Repairs add a further problem. A repair excavation next to a closely spaced weld can reach into the neighbouring weld or its heat-affected zone, and the repair procedure has to account for both. Fit-up and distortion are harder to control on short pieces, and short pieces are harder to hold while welding. None of this is prohibited by B31.3; all of it is a reason owners write a minimum into their specifications."
+        ]
+      },
+      {
+        "heading": "Branch connections and pads near girth welds",
+        "paragraphs": [
+          "Branch fittings and reinforcing pads close to a girth weld cause most of the arguments on site. A pad laid over a girth weld hides that weld from later examination, so specifications commonly require the girth weld to be examined and accepted before the pad is fitted, or prohibit pads over welds altogether. B31.3's own concern is that the reinforcement calculation works and that every weld receives the examination its fluid service requires; the specification supplies the practical rule about placement.",
+          "Where a branch has to sit close to a girth weld, the scan plan should show how both welds are covered, because the branch weld's geometry usually limits scanning of the girth weld next to it. Attachment welds for supports raise the same point on a smaller scale, and a trunnion welded across a girth weld is a design decision for the piping designer, not something to be settled at fit-up."
+        ]
+      },
+      {
+        "heading": "Common mistakes",
+        "paragraphs": [
+          "Citing a spacing figure as a B31.3 requirement in a nonconformance report when the figure lives in the owner's specification. Measuring centreline to centreline when the specification means toe to toe, or the reverse; the specification has to say which, because on a wide weld cap the difference is significant. Applying a straight-pipe spacing rule to branch connections without checking the reinforcement zones. Forgetting attachment welds such as support lugs and trunnions, which bring the same heat and access problems as a second girth weld.",
+          "Accepting a spool whose scan plan was never checked against its geometry, then discovering at examination that one side of a weld cannot be scanned. Recording limited coverage without telling the engineering designer, so the gap in examination never reaches the person who decides whether it is acceptable."
+        ]
+      },
+      {
+        "heading": "What to write into the specification and the inspection plan",
+        "paragraphs": [
+          "State the minimum, the reason for it and how it is measured, toe to toe being the most useful basis for examination. Apply it to butt welds, branch and fitting welds and attachment welds, and say whether pup pieces have their own minimum length. Tie the figure to the examination technique: if the UT scan plan needs a given clear distance for the wall thicknesses on the job, the specification should not allow less. Give the fabricator a written deviation route that sends the request to the engineering designer and the owner's inspector, and record approved deviations against the weld numbers they cover.",
+          "For an independent check of a piping specification or a fabricator's scan plans against these points, Atlantis NDT's [ASNT Level III consulting](/consulting/ndt-consulting-level-iii) reviews procedures and technique sheets against the governing code and contract. The [ASME B31.3 summary](/standards/asme-b31-3) covers the code's wider examination requirements."
+        ]
+      },
+      {
+        "heading": "Checking spacing at fit-up rather than at examination",
+        "paragraphs": [
+          "The easiest time to find a spacing problem is before the second weld is made. A fit-up check that measures toe-to-toe distance against the specification, allowing for the expected cap width at that wall thickness, catches pups and fittings set too close while the spool can still be changed without cutting. The weld map should number attachment welds and pads as well as butt welds so that the check includes them, and the inspection and test plan can make fit-up a recorded hold point for spools whose drawings already show tight geometry.",
+          "Spool drawings are the earlier safeguard. A drawing that dimensions pup lengths and lug positions lets the examiner flag a problem from the desk, and a short review of spool drawings against the scan plan before fabrication starts usually removes most of the conflicts that would otherwise surface as limited-coverage reports."
+        ]
+      },
+      {
+        "heading": "Writing a deviation request that gets a decision",
+        "paragraphs": [
+          "A deviation request is easier to approve when it answers the designer's questions up front. Identify the weld numbers and drawing revision; give the measured or planned toe-to-toe distance against the specification figure; explain why the geometry needs it; show the examination consequence, either a scan plan demonstrating full coverage with the planned technique or a statement of the coverage that can be achieved and how the gap would be covered; and state the effect on heat treatment and on any future repair. A request that only says space is tight invites a slow answer or a refusal.",
+          "Once approved, the deviation travels with the weld records. The examination report for each affected weld should reference it, and if coverage was limited the report should state the limitation and the compensating measure, so the owner's inspector can confirm that what was examined matches what was approved."
+        ]
+      },
+      {
+        "heading": "Recording limited coverage honestly",
+        "paragraphs": [
+          "When a neighbouring weld or fitting prevents full scanning, the examination report should say what was scanned, from which side and with which angles, what proportion of the weld volume that covered, and which part was not examined. Whether a limitation can be accepted is a decision for the engineering designer and the owner, not for the examiner; the examiner's job is to make the gap visible. Compensating measures include an additional angle, phased array from the accessible side, or surface examination of the toe on the restricted side.",
+          "Where radiography is the fallback in the United States, note the position: Atlantis does not perform radiography in the United States; where the code allows, ultrasonic testing is used for volumetric examination, and our ASNT Level III can review radiographs and RT procedures produced by a licensed contractor. Whatever method closes the gap, the report ties it to the same weld number so the record shows one complete examination rather than two partial ones."
+        ]
+      },
+      {
+        "heading": "Spacing questions on piping already in service",
+        "paragraphs": [
+          "Repairs and replacements raise the same questions on operating plant. A replacement section cut into an existing line creates two new girth welds whose positions are chosen by the repair design, and their distance from existing welds, branches and supports deserves the same check as new construction. Under [API 570](/standards/api-570) the repair is authorized by the inspector and follows the owner's repair procedure, and that procedure is where any spacing limit for repair work belongs. [Thickness readings](/ultrasonic-pipe-thickness-testing) taken near the new welds as part of the repair also give a baseline for future corrosion monitoring.",
+          "Clamps, sleeves and other repairs fitted near a girth weld deserve the same scrutiny, because they cover surface that a later examination may need. Where a full-encirclement sleeve is planned, the owner's repair procedure should say how the girth weld under or beside it will be examined before the sleeve goes on, and what record of that examination is kept with the repair file."
+        ]
+      },
+      {
+        "heading": "Where Atlantis fits",
+        "paragraphs": [
+          "In the United States, Atlantis technicians examine B31.3 piping welds at the client's site, ultrasonically with a scan plan prepared for the actual spool geometry and by visual, magnetic particle or [penetrant](/penetrant-testing-welds) methods where the code or specification calls for them. Our Level III prepares ultrasonic techniques and scan plans that demonstrate coverage on tight geometry and qualifies them by demonstration where needed; see [procedure qualification and demonstration](/consulting/ndt-procedure-qualification-demonstration). The [B31.3 acceptance criteria guide](/standards/asme-b31-3-acceptance-criteria) covers how the examined welds are judged, and the [acceptance criteria hub](/standards/ndt-acceptance-criteria-by-code) shows where the other construction codes set their limits."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Does ASME B31.3 specify a minimum pup piece length?",
+        "a": "No. B31.3 sets no minimum length for a short piece of pipe between two welds. Where a minimum pup length applies, it comes from the owner's piping or fabrication specification, and that document also decides who may approve a shorter piece."
+      },
+      {
+        "q": "Is weld spacing measured from toe to toe or from centreline to centreline?",
+        "a": "B31.3 does not say, because it sets no spacing. The specification that imposes a minimum has to define it. Toe to toe is the more useful basis for examination, because it measures the clear surface a probe or a film actually has to work on."
+      },
+      {
+        "q": "Does ASME Section VIII Division 1 have a weld spacing rule?",
+        "a": "For one case, yes. UW-9 requires the longitudinal seams of adjacent shell courses to be staggered by at least five times the thickness of the thicker plate, unless the seams are radiographed for a stated length either side of the intersection. It is a vessel rule and does not apply to B31.3 piping."
+      },
+      {
+        "q": "Can a closely spaced weld still be examined by ultrasonics?",
+        "a": "Often, with technique changes: a different refracted angle, a smaller probe, scanning from one side with documented coverage, or phased array. Whatever the technique, the scan plan has to show the weld volume is covered, and any shortfall is recorded and reported to the engineering designer."
+      },
+      {
+        "q": "Who approves weld spacing below the specification minimum?",
+        "a": "The owner of the specification, normally through the engineering designer, by a written deviation. The inspector identifies the condition and confirms the approved deviation is on record against the affected weld numbers before those welds are accepted."
+      },
+      {
+        "q": "Do attachment welds count when checking weld spacing?",
+        "a": "They should. Support lugs, trunnions and reinforcing pads put heat into the pipe and take up surface the examination needs. A specification that sets a spacing minimum should say whether attachment welds are included; where yours is silent, raise it before fabrication rather than at examination."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does ASME B31.3 specify a minimum pup piece length?",
+        "a": "No. B31.3 sets no minimum length for a short piece of pipe between two welds. Where a minimum pup length applies, it comes from the owner's piping or fabrication specification, and that document also decides who may approve a shorter piece."
+      },
+      {
+        "q": "Is weld spacing measured from toe to toe or from centreline to centreline?",
+        "a": "B31.3 does not say, because it sets no spacing. The specification that imposes a minimum has to define it. Toe to toe is the more useful basis for examination, because it measures the clear surface a probe or a film actually has to work on."
+      },
+      {
+        "q": "Does ASME Section VIII Division 1 have a weld spacing rule?",
+        "a": "For one case, yes. UW-9 requires the longitudinal seams of adjacent shell courses to be staggered by at least five times the thickness of the thicker plate, unless the seams are radiographed for a stated length either side of the intersection. It is a vessel rule and does not apply to B31.3 piping."
+      },
+      {
+        "q": "Can a closely spaced weld still be examined by ultrasonics?",
+        "a": "Often, with technique changes: a different refracted angle, a smaller probe, scanning from one side with documented coverage, or phased array. Whatever the technique, the scan plan has to show the weld volume is covered, and any shortfall is recorded and reported to the engineering designer."
+      },
+      {
+        "q": "Who approves weld spacing below the specification minimum?",
+        "a": "The owner of the specification, normally through the engineering designer, by a written deviation. The inspector identifies the condition and confirms the approved deviation is on record against the affected weld numbers before those welds are accepted."
+      },
+      {
+        "q": "Do attachment welds count when checking weld spacing?",
+        "a": "They should. Support lugs, trunnions and reinforcing pads put heat into the pipe and take up surface the examination needs. A specification that sets a spacing minimum should say whether attachment welds are included; where yours is silent, raise it before fabrication rather than at examination."
+      }
+    ]
+  },
+  {
+    "slug": "/standards/asme-pt-mt-acceptance-criteria",
+    "title": "ASME PT and MT Acceptance Criteria (Section VIII Div 1)",
+    "description": "ASME Section V has no PT or MT acceptance criteria. Section VIII Div 1 Appendices 8 and 6 do: what is relevant, linear vs rounded, and what is rejected.",
+    "h1": "Penetrant and Magnetic Particle Acceptance Criteria in ASME",
+    "answer": "ASME Section V Articles 6 and 7 tell you how to perform liquid penetrant and magnetic particle examination but contain no acceptance criteria. For Section VIII Division 1 vessels the criteria are in Mandatory Appendix 8 for PT and Mandatory Appendix 6 for MT: indications larger than 1/16 in. are relevant, relevant linear indications are rejected, and rounded indications larger than 3/16 in. are rejected.",
+    "expansion": "The two appendices use the same rules. An indication is linear when its length is more than three times its width, and rounded when it is circular or elliptical with a length of three times its width or less. Four or more relevant rounded indications in a line, separated by 1/16 in. or less edge to edge, are rejected even when each one is individually acceptable. The size of the indication, not the size of the imperfection underneath it, is what gets measured. The criteria apply unless Division 1 specifies something more restrictive for a particular material or application, and they belong to Section VIII Division 1 only: ASME B31.1, B31.3, Section I and Division 2 each carry their own acceptance rules, so a vessel acceptance clause cannot simply be copied into a piping procedure.",
+    "source": "ASME BPVC Section VIII Division 1: Mandatory Appendix 6 (methods for magnetic particle examination), Mandatory Appendix 8 (methods for liquid penetrant examination) and UW-35 (finished longitudinal and circumferential joints); ASME BPVC Section V, Articles 6, 7 and 9; ASME B31.3 Table 341.3.2 and ASME B31.1 para. 136.4 for the piping codes' own criteria. Values are given in U.S. customary units as the appendices state them; confirm them against the edition the construction code invokes.",
+    "table": {
+      "caption": "PT and MT acceptance rules in ASME Section VIII Division 1",
+      "columns": [
+        "Rule",
+        "Penetrant (Appendix 8)",
+        "Magnetic particle (Appendix 6)",
+        "What it means in practice"
+      ],
+      "rows": [
+        [
+          "How to examine",
+          "Section V Article 6",
+          "Section V Article 7",
+          "Technique only; no accept or reject values"
+        ],
+        [
+          "Relevant indication",
+          "Major dimension over 1/16 in. (1.5 mm)",
+          "Major dimension over 1/16 in. (1.5 mm)",
+          "Smaller indications are not evaluated"
+        ],
+        [
+          "Linear indication",
+          "Length more than 3 x width; rejected if relevant",
+          "Length more than 3 x width; rejected if relevant",
+          "No relevant linear indication is acceptable"
+        ],
+        [
+          "Rounded indication",
+          "Rejected if over 3/16 in. (5 mm)",
+          "Rejected if over 3/16 in. (5 mm)",
+          "Measure the indication, not the pit beneath it"
+        ],
+        [
+          "Rounded indications in a line",
+          "Four or more, 1/16 in. (1.5 mm) or less apart edge to edge: rejected",
+          "Same rule",
+          "Check alignment before counting"
+        ],
+        [
+          "Questionable indications",
+          "Re-examined to decide relevance",
+          "Re-examined to decide relevance",
+          "Clean and re-test rather than guess"
+        ]
+      ],
+      "note": "Section VIII Division 1 vessels only. B31.3 piping uses Table 341.3.2 and B31.1 power piping uses para. 136.4; Section I and Division 2 carry their own requirements."
+    },
+    "sections": [
+      {
+        "heading": "PT acceptance criteria in ASME",
+        "paragraphs": [
+          "For a pressure vessel built to Section VIII Division 1, penetrant acceptance criteria come from Mandatory Appendix 8, not from Section V. Section V Article 6 governs the procedure, materials, dwell, removal, development and the conditions for interpretation; Appendix 8 decides what is acceptable. A procedure, report or inspection and test plan that cites Article 6 as its acceptance standard has a gap that an Authorized Inspector will find.",
+          "Appendix 8 works in three steps. First, decide which indications are relevant: only those with a major dimension over 1/16 in. Second, classify each relevant indication as linear or rounded by its length-to-width ratio. Third, apply the rejection rules: any relevant linear indication, any rounded indication over 3/16 in., and any line of four or more rounded indications separated by 1/16 in. or less.",
+          "The appendix applies unless a more restrictive standard is specified for a particular material or application within Division 1, so check the material-specific parts of the code and the purchase specification before treating the appendix as the whole answer. Owners with sour or cyclic service often specify tighter limits in their own documents."
+        ]
+      },
+      {
+        "heading": "MT acceptance criteria under Appendix 6",
+        "paragraphs": [
+          "Appendix 6 applies the same thresholds to magnetic particle indications, so a vessel's MT and PT acceptance clauses read alike. The differences between the methods sit in the technique, which Section V Article 7 controls: field direction, the requirement to examine each area twice with the field in roughly perpendicular directions, field adequacy checks and the particle type. An MT indication only means something if the field was strong enough and in the right direction to produce it, so an acceptance decision on an MT report starts with the technique record, not the indication.",
+          "Nonrelevant indications are a particular MT problem. Changes in section, the edges of a weld cap and magnetic writing can all hold particles with no discontinuity beneath them. They are resolved by re-examination after surface conditioning or by a second technique, and the outcome is recorded; they are not dismissed on sight. Fluorescent and visible techniques are judged by the same criteria; the technique changes the lighting conditions for interpretation, not the acceptance limits."
+        ]
+      },
+      {
+        "heading": "A worked evaluation under Appendix 8",
+        "paragraphs": [
+          "Take a fillet weld examined with visible penetrant and read at the end of the development time, showing five indications. The first measures 3/64 in. across: below the relevance threshold, it is noted and not evaluated. The second is 1/8 in. long and 1/32 in. wide; its length is four times its width, so it is linear, and because it is relevant it rejects the weld on its own. The third is a round bleed-out 5/32 in. across, relevant but not larger than 3/16 in., and acceptable by itself. The fourth is a group of four rounded indications of 3/32 in. each, sitting in a line with gaps of about 1/32 in. between their edges; each would pass alone, but four or more in a line separated by 1/16 in. or less are rejected. The fifth is 3/16 in. long and exactly 1/16 in. wide, three times its width, so it is classed as rounded, and it passes because it is not larger than 3/16 in.",
+          "The weld is rejected twice over, by the linear indication and by the aligned group, and the report should say so for both, because grinding out one does not clear the other. After removal the area is re-examined with the same technique before any repair welding is considered. Recording the acceptable indications as well, the 5/32 in. rounded one and the borderline one at exactly three to one, lets the next examiner see whether either has changed."
+        ]
+      },
+      {
+        "heading": "Relevance, false indications and the development clock",
+        "paragraphs": [
+          "Penetrant indications grow as the developer draws penetrant out of the discontinuity, so the size recorded depends on when it is read. Section V Article 6 says when final interpretation is made after the development time, and the written procedure should state the interpretation time so that measurements from different examiners can be compared. An indication read too late can bleed past the relevance threshold or merge with a neighbour into what looks like a line, while one read too early can be smaller than the appendix intends. Watching indications form during development also helps classification: a tight crack usually appears quickly as a fine line, whereas porosity shows as separate round spots.",
+          "False indications are a different problem from nonrelevant ones. They come from the process rather than the part: excess penetrant left on the surface after removal, penetrant trapped under spatter, surface contamination or developer applied too thickly. They are resolved by cleaning and re-examining the area, never by judgement on the first result, and the re-examination is recorded with its outcome. Because the appendices evaluate indications, a poorly cleaned surface does not just produce an untidy report; it can produce a wrong accept or a wrong reject."
+        ]
+      },
+      {
+        "heading": "Lighting, magnetization and surface condition",
+        "paragraphs": [
+          "Two examinations of the same weld can disagree because the technique differed, not the weld. Section V sets minimum visible-light conditions for colour-contrast examination and minimum UV-A intensity and darkness conditions for fluorescent work, and requires the light to be checked; the report should show that the check was made. For magnetic particle work the equipment and the field have to be verified, for example with a yoke lifting-power check and a field indicator such as a pie gauge or artificial-flaw shims, and the field has to be applied in two directions roughly at right angles.",
+          "Surface condition matters for both methods. Weld ripples, spatter and heavy scale hold penetrant and particles and make interpretation unreliable, which is why the UW-35 requirement for a weld surface that permits proper interpretation applies to surface methods as much as to radiography. Where cracking is the main concern, as with hardenable steels prone to delayed cracking, owners often specify the surface examination after final heat treatment rather than straight after welding, so that the examination sees the weld in its finished condition.",
+          "Temperature belongs in the same discussion. Section V sets a standard temperature range for penetrant examination and a route for qualifying a procedure outside it, so a weld examined while still hot needs either a penetrant system and procedure qualified for that temperature or a wait until the part has cooled into the standard range."
+        ]
+      },
+      {
+        "heading": "Visual acceptance under Section VIII Division 1 (UW-35)",
+        "paragraphs": [
+          "People asking for ASME visual acceptance criteria are usually looking at the same vessel. Section V Article 9 sets how visual examination is done and contains no acceptance criteria. For finished longitudinal and circumferential butt joints, Division 1 states its requirements in UW-35: complete penetration and fusion, and a weld surface free enough of coarse ripples, grooves, overlaps and abrupt ridges and valleys that the required examinations can be interpreted properly.",
+          "The reduction in thickness at the edge of the weld, the undercut, may not exceed 1/32 in. or 10 percent of the nominal thickness of the adjoining surface, whichever is less, and may not take the material below the minimum required thickness. Weld reinforcement is limited by thickness through a table in UW-35; read the values from the edition that applies rather than from a summary."
+        ]
+      },
+      {
+        "heading": "How a Level III applies the criteria on a job",
+        "paragraphs": [
+          "The procedure's acceptance clause should name the construction code, the appendix and the edition, and the report should record indications against it rather than a bare accept. Indications are measured after the development time the procedure sets, with a scale that can resolve 1/16 in., and the indication is recorded as found, even though a bleeding penetrant indication is larger than the imperfection beneath it, because the appendix evaluates the indication. Records should identify each relevant indication by location and size even when it is acceptable, so a later examination can tell growth from a new indication.",
+          "Where an indication is rejectable, the imperfection is removed by grinding, the area is re-examined by the same method, and the remaining thickness is checked against the design minimum before any repair welding. On a multi-code job the Level III also decides which criteria apply where: a nozzle weld built to Division 1, the piping attached to it built to B31.3 and a support welded to AWS D1.1 can sit within a metre of each other and carry three different acceptance standards. The inspection and test plan should assign the standard weld by weld."
+        ]
+      },
+      {
+        "heading": "Repairs after a rejected indication",
+        "paragraphs": [
+          "A relevant linear indication is usually removed by grinding, and the depth of grinding decides what happens next. The area is re-examined by the same method and technique to show that the indication has gone, and the remaining wall is then measured, commonly with ultrasonic thickness readings, and compared with the minimum required thickness. If the ground area is still above that minimum and its contour is acceptable, the work ends with the re-examination record. If it is not, the defect becomes a weld repair under UW-38, made to a qualified welding procedure, and the finished repair is examined again by the method that found the original indication and by any examination the original weld itself required.",
+          "Owners often add a hold point here, because grinding on a nozzle weld or a head knuckle can take the wall below minimum sooner than expected. The record should show the original indication, the depth removed, the remaining thickness and the re-examination result, so the repair can be traced later."
+        ]
+      },
+      {
+        "heading": "What a PT or MT report should state",
+        "paragraphs": [
+          "Enough for someone else to repeat the examination and reach the same decision: the procedure and its revision; the technique, such as solvent-removable visible penetrant or wet fluorescent particles with a yoke; consumable batch numbers; the surface temperature where the procedure limits it; the light-intensity and field-adequacy checks; the extent examined and any areas that could not be examined; each relevant indication with its location, dimensions and classification; the acceptance reference, naming Appendix 6 or 8 and the Division 1 edition; the decision; and the examiner's name and certification level.",
+          "A sketch or photograph locating each relevant indication against a fixed datum, such as the weld number with a clock position or a distance from a seam, makes re-examination after repair unambiguous. Photographs of fluorescent indications need the lighting and exposure noted, because an image can make an indication look larger or smaller than it measured.",
+          "A report that records only accept, with no technique or acceptance reference, cannot be audited. Report templates built in [Atlantis ERP](/erp/apps/ndt-reports) can hold these fields so that they are completed every time."
+        ]
+      },
+      {
+        "heading": "Common mistakes",
+        "paragraphs": [
+          "Citing Section V Article 6 or 7 as the acceptance standard. Treating 1/16 in. as the acceptance limit rather than the relevance threshold. Measuring the imperfection after light grinding instead of the indication as developed. Counting rounded indications without checking whether four or more fall in a line. Accepting an MT result without evidence that the field was checked and applied in two directions. Copying Appendix 8 criteria into a B31.3 piping procedure, or B31.3 criteria into a vessel procedure. Recording no relevant indications on a surface that was never properly cleaned, where background could mask a real indication. Calling for magnetic particle examination on austenitic stainless steel or another non-ferromagnetic material, where the method cannot work and penetrant is the surface method to use.",
+          "Two more come up in audits. Penetrant indications read outside the interpretation window the procedure sets, so that recorded sizes drift from one examiner to the next, and indications measured after they have been partly wiped away, so that the size recorded is smaller than the indication as developed. Neither is a detail the appendix forgives, because both change the measured size the acceptance rules are applied to."
+        ]
+      },
+      {
+        "heading": "Other ASME codes and where their criteria live",
+        "paragraphs": [
+          "ASME B31.3 states its weld acceptance limits by type of imperfection in Table 341.3.2, and the engineering design can make them stricter. ASME B31.1 carries its own magnetic particle and penetrant acceptance standards in para. 136.4. Section VIII Division 2 and Section I contain their own examination and acceptance requirements. Section V supports all of them with method rules and none of them with acceptance values, so when a client asks for ASME PT acceptance criteria, the first question back is which ASME code the component is built to.",
+          "For the method rules themselves, see [ASME Section V Article 6](/standards/asme-section-v-article-6) and [Article 7](/standards/asme-section-v-article-7); for the volumetric criteria on the same vessels, see [Section VIII Division 1 joint efficiency and required NDE](/standards/asme-section-viii-div-1)."
+        ]
+      },
+      {
+        "heading": "How the Section VIII appendices compare with other codes' surface rules",
+        "paragraphs": [
+          "Outside Division 1 the same surface method can carry different limits. ASME B31.1 adds an area rule to its penetrant criteria, rejecting ten or more rounded indications in any 6 sq in. of surface, which the vessel appendices do not contain. AWS D1.1 does not write separate MT and PT limits at all: indications are judged against its visual acceptance criteria for the connection's loading. API 1104 carries its own magnetic particle and penetrant acceptance rules for pipeline welds, with the same more-than-three-times boundary for linear indications as the ASME appendices. Steel castings examined to ASTM A903 draw the linear boundary at three times the width or more, so the casting standard and Appendix 8 classify a three-to-one indication differently.",
+          "The [acceptance criteria hub](/standards/ndt-acceptance-criteria-by-code) shows which construction code governs each kind of asset. For vessels, the volumetric limits that sit alongside these surface rules are in the [Section VIII Division 1 acceptance criteria guide](/standards/asme-section-viii-acceptance-criteria), and the two surface methods are compared as techniques in [MT versus PT](/blog/mt-vs-pt-comparison)."
+        ]
+      },
+      {
+        "heading": "Where Atlantis fits",
+        "paragraphs": [
+          "In the United States, Atlantis technicians perform [magnetic particle weld inspection](/magnetic-particle-weld-inspection) and [penetrant testing of welds](/penetrant-testing-welds) at the client's site, to procedures that name the construction code, the appendix and the edition. Our ASNT NDT Level III writes and reviews MT and PT procedures and their acceptance clauses through [NDT procedure development](/consulting/ndt-technical-procedure-development), and reviews contractor reports against the governing appendix. Technicians building these skills can take [magnetic particle training](/magnetic-particle-testing-training) and [penetrant training](/penetrant-testing-training) based on SNT-TC-1A."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Does ASME Section V contain PT acceptance criteria?",
+        "a": "No. Article 6 sets how a liquid penetrant examination is performed: materials, surface preparation, dwell, removal, development and the conditions for interpretation. Acceptance criteria come from the construction code, which for Section VIII Division 1 vessels is Mandatory Appendix 8."
+      },
+      {
+        "q": "What size of penetrant indication is relevant under Section VIII Division 1?",
+        "a": "Only indications with a major dimension greater than 1/16 in. (1.5 mm) are relevant. Smaller indications are not evaluated, although questionable indications are re-examined to decide whether they are relevant."
+      },
+      {
+        "q": "Are any linear indications acceptable under Appendix 8?",
+        "a": "No relevant linear indication is acceptable. An indication is linear when its length is more than three times its width, so a relevant crack-like indication is rejected whatever its length, once it is above the relevance threshold."
+      },
+      {
+        "q": "Are the MT acceptance criteria the same as PT in Section VIII Division 1?",
+        "a": "Yes. Appendix 6 for magnetic particle uses the same relevance threshold, the same linear and rounded definitions and the same rejection rules as Appendix 8. What differs is the technique, which Section V Article 7 controls."
+      },
+      {
+        "q": "Can Appendix 8 criteria be used for ASME B31.3 piping?",
+        "a": "Only if the engineering design or the contract invokes them. B31.3 states its own weld acceptance limits in Table 341.3.2, and those, together with any stricter owner requirements, govern process piping."
+      },
+      {
+        "q": "What undercut does Section VIII Division 1 allow on butt welds?",
+        "a": "UW-35 limits the reduction in thickness at the edge of the weld to 1/32 in. or 10 percent of the nominal thickness of the adjoining surface, whichever is less, and the material may not be reduced below the minimum required thickness at any point."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does ASME Section V contain PT acceptance criteria?",
+        "a": "No. Article 6 sets how a liquid penetrant examination is performed: materials, surface preparation, dwell, removal, development and the conditions for interpretation. Acceptance criteria come from the construction code, which for Section VIII Division 1 vessels is Mandatory Appendix 8."
+      },
+      {
+        "q": "What size of penetrant indication is relevant under Section VIII Division 1?",
+        "a": "Only indications with a major dimension greater than 1/16 in. (1.5 mm) are relevant. Smaller indications are not evaluated, although questionable indications are re-examined to decide whether they are relevant."
+      },
+      {
+        "q": "Are any linear indications acceptable under Appendix 8?",
+        "a": "No relevant linear indication is acceptable. An indication is linear when its length is more than three times its width, so a relevant crack-like indication is rejected whatever its length, once it is above the relevance threshold."
+      },
+      {
+        "q": "Are the MT acceptance criteria the same as PT in Section VIII Division 1?",
+        "a": "Yes. Appendix 6 for magnetic particle uses the same relevance threshold, the same linear and rounded definitions and the same rejection rules as Appendix 8. What differs is the technique, which Section V Article 7 controls."
+      },
+      {
+        "q": "Can Appendix 8 criteria be used for ASME B31.3 piping?",
+        "a": "Only if the engineering design or the contract invokes them. B31.3 states its own weld acceptance limits in Table 341.3.2, and those, together with any stricter owner requirements, govern process piping."
+      },
+      {
+        "q": "What undercut does Section VIII Division 1 allow on butt welds?",
+        "a": "UW-35 limits the reduction in thickness at the edge of the weld to 1/32 in. or 10 percent of the nominal thickness of the adjoining surface, whichever is less, and the material may not be reduced below the minimum required thickness at any point."
       }
     ]
   },
@@ -1907,7 +2127,8 @@
         "heading": "Valve and fitting castings: the MSS practices",
         "paragraphs": [
           "Valves, flanges and fittings bring their own family of quality standards from the Manufacturers Standardization Society: SP-53 for magnetic particle examination, SP-54 for radiography, SP-55 for visual evaluation of surface irregularities, SP-93 for liquid penetrant and SP-94 for ultrasonic examination of ferritic and martensitic castings. Valve and fitting purchase specifications, and some product standards, cite them so that a buyer can call for, say, radiography and magnetic particle examination of critical areas without writing acceptance criteria from scratch.",
-          "The MSS practice cited is the acceptance reference for that examination, and it sits alongside whatever the product standard and the purchase order add. Contractors run into trouble when they substitute a general ASTM level for the MSS practice the order names, or apply a weld acceptance table to a cast valve body because the valve sits in a piping system built to B31.3. The piping code governs the welds that join the valve to the line; the casting is accepted to its own documents."
+          "The MSS practice cited is the acceptance reference for that examination, and it sits alongside whatever the product standard and the purchase order add. Contractors run into trouble when they substitute a general ASTM level for the MSS practice the order names, or apply a weld acceptance table to a cast valve body because the valve sits in a piping system built to B31.3. The piping code governs the welds that join the valve to the line; the casting is accepted to its own documents.",
+          "MSS SP-54 shows how closely these practices lean on the ASTM sets. Its 2013 edition describes itself as providing methods and acceptance standards for the film method of radiographic examination of steel castings, and it covers both the first examination of a casting and the examination of casting repairs. Interpretation follows wall thickness: E446 up to 2 in., E186 from 2 in. to under 4-1/2 in., and E280 from 4-1/2 to 12 in. Like the ASTM documents it is voluntary until an inquiry, contract or order names it, so a valve buyer who wants SP-54 applied has to say so in writing."
         ]
       },
       {
@@ -1915,6 +2136,34 @@
         "paragraphs": [
           "Section VIII Division 1 does not put casting acceptance in its welding paragraphs. UG-24 instead applies a casting quality factor to the allowable stress of a cast part, and the factor permitted rises with the examination performed beyond the minimum of the material specification. The higher factors call for the additional examinations of Mandatory Appendix 7, Examination of Steel Castings, which bring radiographic or ultrasonic and surface examination into the vessel code's own rules.",
           "The effect is that the vessel designer, not the inspector, decides how much examination a casting needs, by choosing the factor the design calculation uses. If the examination later performed does not support that factor, the thickness calculation no longer stands. Read UG-24 and Appendix 7 in the edition the vessel is built to before quoting any factor or examination requirement, and see the [Section VIII Division 1 acceptance criteria guide](/standards/asme-section-viii-acceptance-criteria) for the weld side of the same vessel."
+        ]
+      },
+      {
+        "heading": "Sections that cross a reference-set boundary",
+        "paragraphs": [
+          "Severity levels are read from the reference set that matches the section being examined, not the heaviest wall of the casting. A valve body with a 1-1/2 in. neck and a 3 in. body straddles E446 and E186, and a large pump casing can need E186 and E280 on different parts of the same casting. The order or the NDT drawing should say which set applies to which zone, and the interpreter should record the measured section thickness at each film location so that a reviewer can check the choice of reference afterwards.",
+          "If the order relies on the E446 and E186 overlap described earlier, the agreement belongs in writing beside the levels, because an auditor reading a thin-section radiograph judged against E186 will otherwise call it the wrong reference. The same discipline applies to castings whose section changes sharply at a flange or boss: a film that covers both thicknesses is evaluated against the set for each part of the image, not averaged."
+        ]
+      },
+      {
+        "heading": "Who interprets the films and who signs the acceptance",
+        "paragraphs": [
+          "Interpretation is a Level II or Level III task under the employer's written practice. The interpreter needs the correct adjunct set in hand and should view it under the same conditions as the production films, since the whole decision is a visual comparison. At the foundry this is normally the first decision, and many purchase orders reserve the purchaser's right to review films or witness examination before the casting ships.",
+          "When foundry and purchaser disagree about a film, the outcome depends on what the order says about who decides, which is why the order should name the accepting party for each method instead of leaving it to the first dispute. A Level III review that records the category, the level and the reference set for each film gives both sides the same written basis to argue from, and it turns a disagreement about pictures into a check of documented choices."
+        ]
+      },
+      {
+        "heading": "Weld repairs on castings and how they are re-examined",
+        "paragraphs": [
+          "Foundries repair castings by welding as a routine part of production, and the product specification controls how. In ASTM A216 as issued in 1993 and reapproved in 2003, the edition quoted here, repairs are made with procedures and welders qualified to ASTM A488, and where magnetic particle or radiographic examination has been specified as a supplementary requirement, repairs are inspected to the same quality standards as the casting itself. Where radiography is specified, repairs are radiographed on castings that leaked on hydrostatic test, where the cavity prepared for welding is deeper than 20 percent of the wall or 1 in. (25 mm), whichever is smaller, or where it is larger than about 10 in.² (65 cm²). Repairs of that size also bring post-weld stress relief or heat treatment, and a further supplementary requirement covers examination of the prepared cavity itself by magnetic particle or penetrant methods to E709 or E165.",
+          "ASTM has revised A216 several times since, most recently as A216/A216M-26, and later editions may word or place these rules differently, so read the repair clauses in the edition the order invokes. For the buyer, the practical decisions are whether repair welding is allowed at all in critical zones, whether larger repairs need notice or approval before welding starts, and how the repair locations are mapped and reported. A repaired area judged only by the method that found the original defect can hide a weld flaw the other method would show, so the order should say which methods apply to repairs."
+        ]
+      },
+      {
+        "heading": "When radiography and ultrasonics disagree",
+        "paragraphs": [
+          "A casting examined by both methods can pass one and fail the other, because the methods respond to different features. A planar shrinkage line can give a strong ultrasonic response at the right beam angle and only a faint image on film, while scattered gas porosity can grade poorly on a radiograph yet stay below the ultrasonic recording level. Each result is judged by its own acceptance document, a severity level for the film and an A609 quality level for the ultrasonic data, and neither result converts into the other.",
+          "The order should therefore state whether both methods must pass, or which method governs a given zone. Without that statement, expect the stricter result to be applied and the casting to be held for a decision, which is the slowest possible way to find out that the specification was incomplete."
         ]
       },
       {
@@ -2074,6 +2323,13 @@
         ]
       },
       {
+        "heading": "Who examines, who inspects and who accepts",
+        "paragraphs": [
+          "Acceptance criteria are applied by people in defined roles, and the roles are not the same from code to code. ASME B31.3 separates examination, which the fabricator's or erector's examiners perform, from inspection, which the owner's Inspector carries out to confirm that the required examinations and tests were done. On a Section VIII or Section I item the manufacturer examines and the Authorized Inspector verifies before the data report is signed. AWS D1.1 distinguishes the contractor's own fabrication and erection inspection from verification inspection performed for the owner, and a contract that names only an inspector has usually bought the first role without the second.",
+          "Pipeline work adds an operator's right that surprises contractors: API 1104 lets the company reject a weld that appears to meet the acceptance standards if, in its opinion, the depth of an imperfection may be detrimental. API 650 names the purchaser throughout its examination rules, for example as the party whose approval allows ultrasonic examination in place of radiography. In every case the technician applies the written criteria and reports what was found accurately, and the code decides whose signature closes the item."
+        ]
+      },
+      {
         "heading": "Pressure vessels and boilers",
         "paragraphs": [
           "Section VIII Division 1 sets radiographic acceptance in UW-51 for fully radiographed joints and in UW-52 for spot radiography, where a failed spot triggers two further spots and, if either of those fails, the whole weld increment is rejected, to be rewelded or fully radiographed. Rounded indications on fully radiographed joints are judged with the charts in Mandatory Appendix 4. Ultrasonic acceptance, where Division 1 calls for ultrasonic examination, sits in Mandatory Appendix 12, and the penetrant and magnetic particle criteria are in Appendices 8 and 6. Our guide to [Section VIII Division 1 acceptance criteria](/standards/asme-section-viii-acceptance-criteria) works through them, and [PT and MT acceptance in Section VIII](/standards/asme-pt-mt-acceptance-criteria) covers the surface methods in detail.",
@@ -2109,6 +2365,20 @@
         ]
       },
       {
+        "heading": "Newer techniques do not move the acceptance code",
+        "paragraphs": [
+          "Phased array, TOFD, computed radiography and digital detectors change how data are collected, not which document judges them. The construction code still supplies the limits, and where a code wants different limits for a different technique it says so: B31.3 offers flaw-size-based ultrasonic criteria in Appendix R, and Section VIII Division 1 permits ultrasonic examination in place of radiography under conditions it sets out.",
+          "What the newer techniques add is a qualification burden. The procedure, the scan plan and often a demonstration on representative flaws have to show that the technique detects and sizes what the acceptance criteria assume. The ultrasonic rating tables in AWS D1.1 were built around conventional pulse-echo work, for example, so a phased array or TOFD technique follows the specific annex or alternative-technique route the edition provides, with any approval by the Engineer that route calls for, rather than a direct read-across."
+        ]
+      },
+      {
+        "heading": "Repairs are re-examined under the code that rejected them",
+        "paragraphs": [
+          "Every construction code sends a rejected weld back through repair and re-examination, but the details differ enough to matter in a procedure. Section VIII Division 1 refers weld repairs to UW-38 and requires the repaired area to be re-examined; at the manufacturer's option the repaired weld may be examined ultrasonically under Mandatory Appendix 12 instead of being re-radiographed, with the user's concurrence for material over 1 in. (25 mm) thick and a note on the Manufacturer's Data Report. Spot radiography adds the additional-spot rule described above, and B31.3 adds progressive examination when a random sample fails. API 1104 restricts crack repairs and requires repaired areas to be inspected by the means used originally and to meet its acceptance standards, while API 650 keeps extending the radiographic search outward from a failed spot until the limits of the defective welding are found.",
+          "A repair record should identify the original indication, the excavation, the repair welding procedure, the method and technique used for re-examination and the result against the same clause. Without that chain a reviewer cannot show that a repaired weld was judged by the criteria that rejected it, and a second repair in the same location, which API 1104 for one treats as a separate case needing its own qualified procedure, can pass unnoticed."
+        ]
+      },
+      {
         "heading": "When the code gives no acceptance criteria",
         "paragraphs": [
           "Some examinations are performed with no construction-code limit behind them: thickness surveys on a corroded line, baseline scans before a change of service, an owner's request to check a repair area by a method the code never required, or inspection of equipment that was never stamped. In those cases someone still has to write down what will be reported, what will be called rejectable and who decides. Leaving it to the technician produces reports that cannot be compared from one outage to the next.",
@@ -2120,6 +2390,13 @@
         "paragraphs": [
           "Construction codes decide whether new work is acceptable. They were never written to judge a flaw found ten years into service, and applying them that way either condemns equipment that is fit to run or misses the damage mechanism that matters. In service, API 510, API 570, API 653 and the National Board Inspection Code govern who inspects, how often and how repairs are made, and the owner's Authorized Inspector decides on the results. An indication outside the construction limits may be repaired, monitored or assessed by the owner's engineer under API 579-1/ASME FFS-1.",
           "The inspection company's job in that situation is to characterise the indication accurately: its type, location, through-wall extent and length, with the technique and sizing method stated, so the engineer has data that will stand scrutiny. Atlantis performs that NDE and data review on API programmes; it does not make the fitness-for-service decision, which stays with the owner's engineer and inspector."
+        ]
+      },
+      {
+        "heading": "Editions change clause numbers as well as values",
+        "paragraphs": [
+          "An acceptance clause can only be traced if its edition is stated, because committees renumber as well as revise. The B31.1 table that sets mandatory minimum examination was Table 136.4 in the 2016 edition; the 2022 edition lists it as Table 136.4.1-1 and adds Table 136.4.1-2, which relates weld imperfections to the methods that reveal them. AWS D1.1 moved its inspection rules from Clause 6 to Clause 8 in the 2020 edition, and the 2025 edition revised the visual criteria again. API 650 reached its 14th edition in August 2025, API 653 remains the fifth edition of 2014 carried forward by four addenda, and the federal pipeline rules still incorporate an earlier API 1104 edition than the 22nd now in print.",
+          "Two working rules follow. The procedure names the edition the contract or regulation invokes, not whichever copy is on the shelf, and work already performed stays assessed under the edition in force when it was done. When an edition changes partway through a project, treat the change as a document revision with an effective date, so that nobody judges one week's welds and the next week's against different tables without knowing it."
         ]
       },
       {
@@ -2248,6 +2525,13 @@
         ]
       },
       {
+        "heading": "Digital radiographs: the limits stay, the proof of image quality changes",
+        "paragraphs": [
+          "Computed radiography with phosphor imaging plates and radiography with digital detector arrays have their own requirements within Section V Article 2, and moving a job from film to either one does not change the construction code's reject limits. What changes is how the image is shown to be fit for evaluation. The image quality indicator still has to be visible at the required sensitivity, but film density gives way to the digital image measures and display conditions that the article and the written procedure set, and the monitor, the viewing software and any processing applied to the image become part of the examination record.",
+          "Section VIII Division 1 is explicit about the film case: acceptable density together with visibility of the prescribed hole or wire of the image quality indicator is satisfactory evidence of compliance, and the geometric unsharpness provisions of Article 2, T-274.2, are to be used only as a guide for film-based radiography. That wording is a reminder that film rules do not carry across to digital images automatically. A procedure that converts a job to digital should state how image quality will be demonstrated and recorded before the first exposure, not after the first dispute. For castings, the ASTM film reference radiographs carry their own restriction on digital use."
+        ]
+      },
+      {
         "heading": "Full radiography under Section VIII Division 1",
         "paragraphs": [
           "UW-51(b) lists four reasons to reject a fully radiographed joint. The first is any indication characterised as a crack or zone of incomplete fusion or penetration, whatever its size. The second is any other elongated indication longer than 1/4 in. (6 mm) where t is up to 3/4 in. (19 mm), longer than t/3 where t runs from 3/4 in. to 2-1/4 in. (57 mm), or longer than 3/4 in. (19 mm) where t exceeds 2-1/4 in. Here t is the thickness of the weld excluding any allowable reinforcement. The third is a group of aligned indications whose aggregate length exceeds t within a length of 12t, unless the distance between successive imperfections exceeds 6L, where L is the length of the longest imperfection in the group. The fourth is rounded indications beyond the limits of Mandatory Appendix 4.",
@@ -2285,10 +2569,24 @@
         ]
       },
       {
+        "heading": "Repairs and re-radiography",
+        "paragraphs": [
+          "A rejected indication leads to repair, and the repair is judged again under the same paragraph. Section VIII Division 1 sends weld repairs to UW-38 and requires the repaired area to be re-examined; at the manufacturer's option the repaired weld may instead be examined ultrasonically under Mandatory Appendix 12, with the user's concurrence where the material is over 1 in. (25 mm) thick, which matters when a radiography crew is no longer available on site. On a spot-radiographed joint, repairing the failed spot does not close the question, because the additional spots in the same weld increment still have to be taken.",
+          "API 1104 handles repairs in a section of its own: repaired areas are re-examined by the means used before and must meet the same acceptance standards, cracks can be repaired only within limits, and a second repair of the same area needs its own qualified procedure. Under B31.3, a weld rejected in a random sample is repaired and re-examined, and the progressive rule adds further samples of the same welder's or operator's work, so a single failed radiograph can widen the programme considerably. Each repair film should carry an identification that ties it to the original film and the repair, so the reviewer can see both."
+        ]
+      },
+      {
         "heading": "Errors seen when radiographs are read against the wrong rules",
         "paragraphs": [
           "Measuring t with the reinforcement included, which inflates every length limit on a Section VIII joint. Evaluating rounded indications on a spot radiograph. Shrinking or enlarging an Appendix 4 chart to compare it with a film of a different length. Applying each elongated limit to single indications and never checking the group rule. Citing Section VIII Appendix 4 for porosity on B31.1 piping, or the Normal Fluid Service column of B31.3 on a line designated severe cyclic. Calling a straight, sharp-edged root indication slag when its position and profile point to incomplete penetration, which converts an absolute reject into a length check.",
           "Process faults cause as many disputes as interpretation faults. Films are evaluated without recording image quality indicator sensitivity, density or the technique used; digital images are read on monitors that have not been checked as the procedure requires; and the interpreter's certification level and the code edition are missing from the report. A report that records the governing code, edition and paragraph, the image quality achieved, each indication with type, location and size, and the decision against a named limit can be audited. One that records only accept cannot."
+        ]
+      },
+      {
+        "heading": "Keeping radiographs and examination records",
+        "paragraphs": [
+          "Division 1 makes the manufacturer retain a complete set of radiographic images and examination records, as described in Section V Article 2, for each vessel or vessel part: the images until the Inspector has signed the Manufacturer's Data Report, and the examination records as the Division requires. Owners often ask for longer retention by contract, particularly for equipment that will then be inspected under API 510 for decades, because a baseline radiograph is the only way to tell whether an indication found later was present at fabrication.",
+          "Digital images make long retention easier but bring controls of their own. The original image files should be kept unaltered, the viewing conditions documented, and any later reprocessing recorded as a separate evaluation instead of overwriting the first. A radiograph that cannot be traced to its weld, its technique and its interpreter is of little use at the next outage, however clear it looks on the screen."
         ]
       },
       {

@@ -1,4 +1,42 @@
 {
+  "/standards/api-1104-vs-aws-d1-1": [
+    {
+      "fact": "API 1104 Section 9: individual length, aggregate in any continuous 12 in. (300 mm), % of weld length; IP individual > 1 in. (25 mm), aggregate > 1 in. in 12 in.; height not considered; Appendix A alternative acceptance; undercut (visual/mechanical): > 1/32 in. (0.8 mm) or > 12.5% wall whichever smaller unacceptable, 1/64-1/32 in. or 6-12.5% limited to 2 in. in 12 in. or 1/6 weld length whichever smaller, smaller undercut acceptable; radiographic EU/IU by aggregate length; MT/PT linear = length more than 3x width; personnel certified Level I/II/III to SNT-TC-1A or other recognised national programme acceptable to the company, only Level II/III interpret; company may reject a weld if imperfection depth may be detrimental; repairs re-inspected by same means and to Section 9, qualified repair procedure for repeat repair; negative-image densities; 49 CFR 192.241(c)/195.228(b) Appendix A may not accept cracks",
+      "url": "existing site page /blog/api-1104-weld-acceptance-criteria-pipeline (read from API 1104 19th ed. via Public.Resource.Org; 22nd ed. current, 49 CFR incorporates the 21st)"
+    },
+    {
+      "fact": "AWS D1.1: static vs cyclic limits; UT rating d = a - b - c, severity classes by thickness and angle, CJP groove welds 5/16 to 8 in., tubular TYK excluded, alternatives with Engineer approval; RT figures by weld size; MT/PT judged against visual criteria; 2025 revised Table 8.1 undercut and porosity and added linear/rounded definitions for MT/PT; inspector routes QC1 CWI, CSA W178.2, engineer/technician accepted by the Engineer; contractor QC vs verification inspection",
+      "url": "existing site pages /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide, /blog/aws-d1-1-ut-acceptance-criteria-explained, /standards/aws-d1-1"
+    },
+    {
+      "fact": "AWS D1.1:2025 Clause 8.14.6: employer-based certification to SNT-TC-1A or CP-189; third-party schemes also recognised; Clause 8.10 MT/PT against Table 8.1",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-d1-1/ndt-procedures-clause8/mt-pt-inspection-records"
+    },
+    {
+      "fact": "API 1104 annex for in-service welding; D1.1 clause for strengthening and repair of existing structures; crack repairs need company authorization and a qualified repair procedure (general statement, no limits quoted)",
+      "url": "existing record source line /standards/api-1104-vs-aws-d1-1; existing site page /standards/aws-d1-1"
+    },
+    {
+      "fact": "API 1104:2021 (22nd ed.) undercut, visual/mechanical: over 1/32 in. (0.8 mm) or 12.5% of wall, whichever smaller, not acceptable; over 1/64 in. (0.4 mm) to 1/32 in. or 6% to 12.5% of wall, 2 in. (50 mm) in 12 in. (300 mm) or one-sixth of weld length, whichever smaller; 1/64 in. or 6% or less acceptable regardless of length; mechanical measurement governs; radiographic EU and IU by aggregate length (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-api-1104/acceptance-standards/undercutting-and-crater-cracks"
+    },
+    {
+      "fact": "API 1104:2021 Section 10: company authorization for crack, back weld and double repairs; qualified repair procedure for a crack repair, a different welding procedure, a repair in a previously repaired area (double repair) or a back weld not in the original procedure; cracks longer than 8% of weld length cut out; double repair of a crack not permitted (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-api-1104/repair-and-documentation/repair-procedures-qualification"
+    },
+    {
+      "fact": "AWS D1.1:2025 changes: Table 8.1 item 7 undercut revised (new proportional limit for welds under 12 in.); 8.10.1 linear (length more than three times width) and rounded definitions for MT/PT discontinuities, welds still to meet Table 8.1; 8.14.6.2 employer-based certification to SNT-TC-1A or CP-189; 8.14.6.3 third-party certification to ANSI/ASNT CP-9712, CAN/CGSB-48.9712 or ISO 9712; tubular UT in Clause 10 (reviewer check 2026-11-23)",
+      "url": "https://www.fabtechexpo.com/news/whats-new-in-aws-d11-2025-structural-welding-code-steel"
+    },
+    {
+      "fact": "AWS D1.1:2025 Table 8.1 undercut: statically loaded, under 1 in. thick 1/32 in. with 1/16 in. allowed for 2 in. in any 12 in., 1 in. and over 1/16 in.; cyclically loaded, 0.01 in. in primary members transverse to tensile stress, 1/32 in. otherwise (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-d1-1/visual-inspection-clause8/weld-profiles-undercut-porosity"
+    },
+    {
+      "fact": "AWS D1.1 inspector qualification bases (CWI to QC1; CWB qualification to CSA W178.2; engineer or technician competent by training or experience in metals fabrication, inspection and testing); Engineer may specify the basis in contract documents (code knowledge, D1.1 Clause 8 Part A; reviewer replaced 'whose training and experience the Engineer accepts')",
+      "url": "code knowledge, not fetched"
+    }
+  ],
   "/standards/api-650-weld-acceptance-criteria": [
     {
       "fact": "Edition: API 650 13th Edition, March 2020, with Errata 1 (January 2021), as listed on API's March 2026 API 653 publications effectivity sheet; API 653 5th Edition with Addenda 1-3. Reviewer: the March 2027 effectivity sheet lists API 650 14th Edition (August 2025) and API 653 5th Edition with Addenda 1 (Apr 2018), 2 (May 2020), 3 (Nov 2023), 4 (Jul 2025), Errata 1 (Mar 2020), 2 (Feb 2025)",
@@ -41,6 +79,36 @@
       "url": "https://ia800909.us.archive.org/1/items/API6502002/API%20650%20-%202002.pdf"
     }
   ],
+  "/standards/api-653-shell-minimum-thickness": [
+    {
+      "fact": "API 653 4.3.2.1: L = 3.7 sqrt(D t2) but not more than 40 in.; at least five equally spaced measurements over L; t1 >= tmin; t2 >= 60 percent of tmin; corrosion allowance until next inspection added to tmin and 60 percent of tmin. 4.3.2.2 widely scattered pits: no pit leaving less than one-half tmin; sum of dimensions along any vertical line not over 2 in. in an 8 in. length. 4.3.3.1: tmin formulas, not less than 0.1 in. for any course; S smaller of 0.80Y or 0.429T for bottom and second course, smaller of 0.88Y or 0.472T for all other courses; Y 30,000 psi and T 55,000 psi if not known; E original joint efficiency, Table 4-2 if unknown, 1.0 away from welds by the greater of 1 in. or twice plate thickness; Table 4-1 unknown welded material S 23,600 (lower two courses) and 26,000 (upper) psi. Third edition (December 2001) with Addendum 1 (September 2003)",
+      "url": "https://law.resource.org/pub/us/cfr/ibr/002/api.653.2003.pdf"
+    },
+    {
+      "fact": "Current study material for API 653: L = 3.7 sqrt(D t2) with 40 in. cap; least thickness at least 60% of tmin; pits half tmin and 2 in. in 8 in.; E = 1.0 at greater of 1 in. or 2t from welds; repairs 9.2 insert plates, 9.3 lap patches",
+      "url": "https://open-exam-prep.com/study-guides/api-653/shell-minimum-thickness-evaluation/shell-pitting-lta-evaluation"
+    },
+    {
+      "fact": "API 653 current edition: 5th Edition (Nov 2014) with Addenda 1 (Apr 2018), 2 (May 2020), 3 (Nov 2023), 4 (Jul 2025), Errata 1 (Mar 2020), 2 (Feb 2025); no 6th edition",
+      "url": "verified by the caller this session (API publication record)"
+    },
+    {
+      "fact": "UT thickness interval: lesser of RCA/2N and 15 years, 5 years if rate unknown; SI constant 4.9; derivation of 2.6",
+      "url": "existing site record /standards/api-653-shell-minimum-thickness (technically reviewed 2026-10)"
+    },
+    {
+      "fact": "Worked numbers (L = 18.5 in.; 0.214, 0.386, 0.244, 0.1825, 0.219 in.; rerated H = 36.3 ft) are arithmetic on the stated formulas",
+      "url": "calculation"
+    },
+    {
+      "fact": "Through-coating multiple-echo measurement and temperature dependence of sound velocity in steel (general UT practice, no values stated)",
+      "url": "general ultrasonic thickness practice"
+    },
+    {
+      "fact": "API 653 4.3.3 (current study material): S smaller of 0.80Y or 0.429T for bottom and second course, smaller of 0.88Y or 0.472T for other courses; St 0.88Y/0.472T and 0.90Y/0.519T for hydrostatic test; Y 30,000 psi and T 55,000 psi if unknown; T the smaller of the specified minimum tensile strength or 80,000 psi; tmin not less than 0.1 in.; rerated fill height H = SEt/(2.6DG) + 1 per course (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/api-653/shell-minimum-thickness-evaluation/shell-tmin-calculations"
+    }
+  ],
   "/standards/asme-b31-1-acceptance-criteria": [
     {
       "fact": "B31.1-2016 136.4.1: Table 136.4 sets mandatory types and extent; welds not requiring RT, UT, MT or PT acceptable on visual (136.4.2) and pressure test (para. 137); NDE for P-Nos. 3, 4, 5A, 5B and 15E after PWHT, others before or after; 136.4.2 visual per Section V Article 9, in-process examination, acceptance list (cracks, undercut 1/32 in. (1.0 mm) or encroaching on minimum wall, any undercut on longitudinal butt welds, reinforcement per Table 127.4.2, surface lack of fusion, incomplete penetration where inside surface readily accessible, linear indications over 3/16 in. (5.0 mm), surface porosity over 3/16 in. or four or more separated by 1/16 in. (2.0 mm) or less); Table 136.4 columns (over 750°F (400°C) all pressures; 350-750°F (175-400°C) with over 1,025 psig; all others), rows (butt; branch; fillet, socket, attachment, seal), thresholds (RT or UT over NPS 2, thickness over 3/4 in. (19.0 mm); branch over NPS 4; MT or PT NPS 4 and smaller), general notes (all welds visual, acceptance 136.4.2 to 136.4.6, 100% volumetric for longitudinal and spiral welds in pipe for creep-range service), notes (thicker abutting end after preparation, RT may substitute for MT or PT, branch volumetric before non-integral reinforcement, fillet welds 1/4 in. (6 mm) throat or less for non-pressure attachments exempt from MT/PT). Cell-to-column mapping taken from a scrambled extract; verify.",
@@ -81,6 +149,26 @@
     {
       "fact": "B31.1 RT (Sulzer attachment 6): cracks, lack of fusion, incomplete penetration zero; elongated 1/3t for 19 mm < t <= 57 mm with cumulative t in 12t; rounded indications per Section I A-250; root concavity assessed where there is an abrupt change in density (reviewer check 2026-11-23)",
       "url": "https://www.sulzer.com/en/-/media/files/q_documents_pe/tp/tp-0008.pdf"
+    },
+    {
+      "fact": "B31.1-2022 list of tables: 136.4.1-1 Mandatory Minimum Nondestructive Examinations for Pressure Welds or Welds to Pressure-Retaining Components; 136.4.1-2 Weld Imperfections Indicated by Various Types of Examination; para. 136 Inspection and Examination; para. 137 Pressure Tests",
+      "url": "https://asme.org/getmedia/23f87c07-13fa-4fd6-a24d-9ab09cc05012/b31-1_2022_toc.pdf"
+    },
+    {
+      "fact": "B31.1-2024 changes summary: definitions added, 101.4 wind and earthquake text, 135.3 and 149 revised in their entirety, Mandatory Appendix D deleted, Mandatory Appendices Q and R (quality management and documentation for covered piping systems) added; no mention of para. 136",
+      "url": "https://blog.ansi.org/ansi/asme-b31-1-2024-power-piping-changes/?amp=1"
+    },
+    {
+      "fact": "Column examples derived from the verified Table 136.4 column definitions (over 750F all pressures; 350-750F inclusive with over 1,025 psig; all others)",
+      "url": "https://studylib.net/doc/27116757/asme-b31.1-2016ed--v.t-%EC%8B%9C%ED%97%98-%EC%A1%B0%EA%B1%B4"
+    },
+    {
+      "fact": "B31.1-2024 changes (reviewer re-check 2026-11-23): 135.3 Bolted Flanged Connections and 149 Rerating Piping Systems revised in their entirety; Mandatory Appendix Q (quality management program) and R (documentation, records and reports) for metallic nonboiler external piping covered piping systems added; Mandatory Appendix D deleted; para. 136 not mentioned",
+      "url": "https://blog.ansi.org/ansi/asme-b31-1-2024-power-piping-changes/"
+    },
+    {
+      "fact": "46 CFR 56.95-10(a) (current eCFR, reviewer re-check 2026-11-23): types and extent of NDE for piping in accordance with this section and Table 136.4 of ASME B31.1 (incorporated by reference, see 56.01-2); visual examination in addition",
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-F/part-56/subpart-56.95/section-56.95-10"
     }
   ],
   "/standards/asme-b31-3-acceptance-criteria": [
@@ -143,6 +231,70 @@
     {
       "fact": "Reviewer (code knowledge, not fetched): 341.4.3 severe cyclic 100% RT of circumferential butt, miter and fabricated branch welds comparable to Fig. 328.5.4E, or 100% UT if specified in the engineering design; Category D column contents not verified, so the page no longer says internal imperfections play no part",
       "url": "not fetched"
+    }
+  ],
+  "/standards/asme-b31-3-minimum-distance-between-welds": [
+    {
+      "fact": "ASME B31.3 does not specify a minimum distance between circumferential butt welds; spacing figures come from company or owner specifications",
+      "url": "https://industrialmonitordirect.com/blogs/knowledgebase/asme-b313-minimum-weld-spacing-distance-requirements"
+    },
+    {
+      "fact": "Practitioner statement that the code does not specify a minimum distance; client specifications set gaps",
+      "url": "https://www.eng-tips.com/threads/distance-between-two-weld-joints-as-per-asme-b31-3.301597"
+    },
+    {
+      "fact": "B31.3-2022 structure: para. 304.3 branch connections, 331 heat treatment, 340-344 inspection, examination and testing",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "Full skip = 2 t tan(theta); tan 45 = 1, tan 60 = 1.732, tan 70 = 2.747; skip figures for 6.35, 12.7 and 25.4 mm walls are arithmetic",
+      "url": "calculation (angle-beam geometry, ASME Section V Article 4 technique)"
+    },
+    {
+      "fact": "UW-9 longitudinal seam stagger in Section VIII Division 1 (existing FAQ, figure not restated)",
+      "url": "existing site record /standards/asme-b31-3-minimum-distance-between-welds (technically reviewed 2026-10)"
+    },
+    {
+      "fact": "API 570 repairs authorized by the inspector (general statement)",
+      "url": "existing site page /standards/api-570"
+    }
+  ],
+  "/standards/asme-pt-mt-acceptance-criteria": [
+    {
+      "fact": "Appendix 8 (PT) and Appendix 6 (MT): relevant indications over 1/16 in.; linear = length more than three times width; rejection of relevant linear indications, rounded indications over 3/16 in., four or more rounded in a line 1/16 in. or less apart edge to edge; UW-35 undercut 1/32 in. or 10% of nominal thickness, whichever less",
+      "url": "existing site record /standards/asme-pt-mt-acceptance-criteria (technically reviewed 2026-10); appendix titles https://www.scribd.com/document/620916094/Asme-Viii-Div-1-App-6-Mt (search result)"
+    },
+    {
+      "fact": "Repairs per UW-38 and repaired area reexamined (Division 1 text)",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "B31.1 136.4.4 penetrant: ten or more rounded indications in any 6 sq in. (3 870 mm2) with major dimension not exceeding 6 in. rejected; Section VIII has no ten-in-6-sq-in criterion",
+      "url": "https://aqcinspection.com/?p=4452"
+    },
+    {
+      "fact": "AWS D1.1:2025 Clause 8.10: MT/PT indications evaluated against the visual acceptance criteria of Table 8.1; 2025 edition added linear/rounded definitions for MT and PT indications",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-d1-1/ndt-procedures-clause8/mt-pt-inspection-records ; existing site page /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+    },
+    {
+      "fact": "API 1104 MT/PT classification: linear = length more than three times width, rounded = three times or less",
+      "url": "existing site page /blog/api-1104-weld-acceptance-criteria-pipeline (API 1104 19th ed. via Public.Resource.Org)"
+    },
+    {
+      "fact": "ASTM A903: linear = length equal to or greater than three times width",
+      "url": "https://cdn.standards.iteh.ai/samples/117427/d515f200ffbf49da93c099373f2ec7cc/ASTM-A903-A903M-99-2024-.pdf"
+    },
+    {
+      "fact": "Section V Article 6 interpretation window after development, light-intensity checks (visible and UV-A); Article 7 field adequacy (field indicator, yoke lifting power) and two perpendicular field directions - described without values",
+      "url": "code knowledge (ASME Section V Articles 6 and 7), not fetched; no numbers stated on the page"
+    },
+    {
+      "fact": "Section V Article 6: standard temperature range for PT and qualification of procedures for nonstandard temperatures (no values stated on the page)",
+      "url": "code knowledge (ASME Section V Article 6), not fetched"
+    },
+    {
+      "fact": "AWS D1.1:2025 8.10.1: MT/PT discontinuities defined as linear (length more than three times width) or rounded; welds still to meet Table 8.1 visual criteria (reviewer check 2026-11-23)",
+      "url": "https://www.fabtechexpo.com/news/whats-new-in-aws-d11-2025-structural-welding-code-steel"
     }
   ],
   "/standards/asme-section-i-acceptance-criteria": [
@@ -327,6 +479,22 @@
     {
       "fact": "Reviewer (code knowledge, not fetched): MSS titles confirmed - SP-53 MT (castings and forgings), SP-54 RT (castings), SP-55 visual surface irregularities (castings), SP-93 PT (castings and forgings), SP-94 UT of ferritic and martensitic castings; UG-24: casting quality factor on allowable stress, NDE methods and acceptance in Mandatory Appendix 7, steel castings reach the 90% and 100% factors through Appendix 7 examinations, so \"higher factors call for Appendix 7\" stands; ASTM E1030 is the radiographic practice for metallic castings",
       "url": "not fetched"
+    },
+    {
+      "fact": "MSS SP-54 (2013): methods and acceptance standards for the film method of radiographic examination of steel castings; applies to initial examination and to examination of casting repairs; interpretation to E446 up to 2 in., E186 2 in. to under 4-1/2 in., E280 4-1/2 to 12 in.; voluntary or when specified in an inquiry, contract or order",
+      "url": "https://webstore.ansi.org/preview-pages/MSS/preview_MSS+SP-54-2013.pdf"
+    },
+    {
+      "fact": "ASTM A216/A216M-93 (Reapproved 2003) Section 10: repairs with procedures and welders qualified to A488; when S4 (MT) or S5 (RT) specified, repairs inspected to the same quality standards as the castings; with S5, repairs radiographed on castings that leaked on hydrostatic test, cavity depth over 20% of wall or 1 in. (25 mm) whichever smaller, or cavity over approximately 10 in.2 (65 cm2); same triggers for stress relief or heat treatment (10.3); S10 examination of weld preparation by MT or PT to E709 or E165",
+      "url": "https://softbank.iust.ac.ir/Railway/Codes/ASTM-standard/ASTM%202004%20Volume%2001.02%20Ferrous%20Castings_%20Ferroalloys/A%20216%20_%20A%20216M%20_%2093%20R03%20%20;QTIXNI9BMJE2TQ__.pdf"
+    },
+    {
+      "fact": "Interpretation by Level II/III under the written practice; RT/UT respond to different features (general SNT-TC-1A and method physics, no code values)",
+      "url": "not a code value; general practice"
+    },
+    {
+      "fact": "ASTM A216/A216M-26 is the active edition; abstract states castings may be repair welded when judged appropriate (repair clause text not shown, so the page quotes the 1993/2003 text as such)",
+      "url": "https://store.astm.org/a0216_a0216m-26.html"
     }
   ],
   "/standards/ndt-acceptance-criteria-by-code": [
@@ -357,6 +525,46 @@
     {
       "fact": "Appendix 12 crack/LOF/IP unacceptable regardless of length; other indications above reference level limited by length vs thickness (reviewer check 2026-11-23)",
       "url": "https://www.scribd.com/doc/255966807/Asme-Sec-Viii-d1-Ma-App-12"
+    },
+    {
+      "fact": "B31.3: examination is the responsibility of the manufacturer, fabricator or erector; inspection by the owner's Inspector verifies required examinations and tests (paras. 340 and 341)",
+      "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf (chapter structure); role split from code knowledge, not fetched"
+    },
+    {
+      "fact": "AWS D1.1 fabrication/erection (contractor QC) inspection vs verification inspection for the owner; alternative UT techniques need Engineer approval",
+      "url": "existing site pages /standards/aws-d1-1 and /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+    },
+    {
+      "fact": "API 1104 company may reject a weld meeting the standards if imperfection depth may be detrimental; repaired areas inspected by the same means and to Section 9; qualified repair procedure for a repeat repair",
+      "url": "existing site page /blog/api-1104-weld-acceptance-criteria-pipeline (API 1104 19th ed. via Public.Resource.Org)"
+    },
+    {
+      "fact": "Section VIII Div 1: defects repaired per UW-38 and repaired area reexamined; in lieu of reexamination by radiography, the repaired weld may be examined by UT per Mandatory Appendix 12 at the Manufacturer's option",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "B31.1-2022 list of tables: 136.4.1-1 Mandatory Minimum Nondestructive Examinations for Pressure Welds or Welds to Pressure-Retaining Components; 136.4.1-2 Weld Imperfections Indicated by Various Types of Examination",
+      "url": "https://asme.org/getmedia/23f87c07-13fa-4fd6-a24d-9ab09cc05012/b31-1_2022_toc.pdf"
+    },
+    {
+      "fact": "AWS D1.1 2020 renumbering (Clause 6 to Clause 8); D1.1:2025 revised Table 8.1 visual criteria",
+      "url": "existing site page /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+    },
+    {
+      "fact": "API 650 14th edition August 2025; API 653 5th edition (Nov 2014) with Addenda 1-4 (Addendum 4 July 2025); API 1104 22nd edition, 49 CFR incorporates the 21st",
+      "url": "edition facts verified by the caller this session"
+    },
+    {
+      "fact": "Section VIII Div 1 repair text: defects repaired as provided in UW-38 and the repaired area reexamined; in lieu of reexamination by radiography, UT per Mandatory Appendix 12 at the Manufacturer's option; user's concurrence for material over 1 in. (25 mm); noted under Remarks on the Manufacturer's Data Report. UW-51(a)(4): UT alternative to RT where the thinner member is 1/4 in. (6 mm) and greater (reviewer check 2026-11-23)",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "API 1104:2021 Section 10: qualified repair procedure required for a repair in a previously repaired area (double repair); company authorization for crack repairs (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-api-1104/repair-and-documentation/repair-procedures-qualification"
+    },
+    {
+      "fact": "AWS D1.1:2025 revised Table 8.1 item 7 undercut criteria (reviewer check 2026-11-23)",
+      "url": "https://www.fabtechexpo.com/news/whats-new-in-aws-d11-2025-structural-welding-code-steel"
     }
   ],
   "/standards/rt-acceptance-criteria-by-code": [
@@ -415,6 +623,34 @@
     {
       "fact": "B31.3-2022 contents: Table 341.3.2 'Acceptance Criteria for Welds - Visual and Radiographic Examination'; Appendix R 'Use of Alternative Ultrasonic Acceptance Criteria' (reviewer check 2026-11-23)",
       "url": "https://www.asme.org/getmedia/2d6bec7b-1177-4ee1-82ea-e5d5a86abab7/B31-3_2022_ToC.pdf"
+    },
+    {
+      "fact": "UW-51(a)(1): complete set of radiographic images and examination records per Section V Article 2 retained by the Manufacturer: images until the Manufacturer's Data Report has been signed by the Inspector; examination records as required by the Division. UW-51(a)(2): acceptable density and visibility of the specified IQI hole or wire is satisfactory evidence. UW-51(a)(3): Section V Article 2 T-274.2 to be used only as a guide for film-based radiography",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "Repairs per UW-38 and repaired area reexamined; in lieu of reexamination by radiography, UT per Mandatory Appendix 12 at the Manufacturer's option",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "Section V Article 2 contains requirements for computed radiography (phosphor imaging plates) and digital detector systems (mandatory appendices); T-274.2 geometric unsharpness limitations (code knowledge, appendix numbers deliberately not cited)",
+      "url": "https://www.scribd.com/document/624267426/ASME-V-BPVC-2013-CONTENTS (search result, not fetched)"
+    },
+    {
+      "fact": "API 1104 repairs: repaired areas inspected by the same means previously used and must meet Section 9; crack repair limits; qualified repair procedure when a previously repaired area is repaired again",
+      "url": "existing site page /blog/api-1104-weld-acceptance-criteria-pipeline (API 1104 19th ed. via Public.Resource.Org)"
+    },
+    {
+      "fact": "B31.3 para. 341.3.4 progressive sampling: two additional samples of the same kind when one fails",
+      "url": "https://uploads-ssl.webflow.com/6005ddde9a96c42cb7dbbdce/60130a59d863a76c1bd5e607_Progressive%20Weld%20Sampling%20for%20ASME%20Piping%20and%20Vessels.pdf"
+    },
+    {
+      "fact": "Section VIII Div 1 repair re-examination: UT per Mandatory Appendix 12 in lieu of re-radiography at the Manufacturer's option; user's concurrence for material over 1 in. (25 mm); noted on the Manufacturer's Data Report (reviewer check 2026-11-23)",
+      "url": "https://www.scribd.com/document/597553905/Asme-Sec-Viii-Div-1-Uw-51"
+    },
+    {
+      "fact": "API 1104:2021 Section 10: qualified repair procedure for a repair in a previously repaired area; crack repair limits (cracks over 8% of weld length cut out, no double repair of a crack) (reviewer check 2026-11-23)",
+      "url": "https://open-exam-prep.com/study-guides/aws-cwi-endorsement-api-1104/repair-and-documentation/repair-procedures-qualification"
     }
   ],
   "/standards/ut-acceptance-criteria-by-code": [
