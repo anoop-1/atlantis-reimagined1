@@ -76,7 +76,7 @@ const L = {
   erpCerts: ["/erp/apps/certificates", "Track technician certifications and expiry dates in Atlantis ERP"],
   erpReports: ["/erp/apps/ndt-reports", "Issue method-specific NDT reports from Atlantis ERP"],
   erpAssets: ["/erp/apps/asset-management", "Keep CMLs, readings and inspection due dates in Atlantis ERP"],
-  rbi: ["/inspection/risk-based-inspection", "Risk-based inspection (API 580) services"],
+  rbi: ["/inspection/risk-based-inspection", "Risk-based inspection (RBI) services, delivered remotely"], // 2026-11-23: RBI is an Atlantis service
   integrity: ["/inspection/asset-integrity-services", "Asset integrity services"],
   twin: ["/digital-twins", "See inspection data on a digital twin of the asset"],
   cui: ["/inspection/corrosion-under-insulation-inspection", "Corrosion under insulation (CUI) inspection"],
@@ -228,7 +228,7 @@ function ruleFor(p) {
   // 2026-11-07: FFS readers get the FFS consulting page, Level III consulting, UT training and ERP
   // (inspection link kept); RBI readers keep their three links and gain consulting and ERP.
   if (/api-579|fitness-for-service|(^|[-/])ffs([-/]|$)/.test(p)) return block("codes", "From assessment to a plan", "An FFS assessment is only as good as the inspection data behind it. Atlantis provides the Level III review of that data, trains the technicians who collect it, and Atlantis ERP keeps the asset history in one place.", [p === L.ffs[0] ? L.consultingL3 : L.ffs, L.consultingL3, meth("ut", "training"), L.erpAssets, L.rbi].filter((x, i, a) => a.findIndex((y) => y[0] === x[0]) === i));
-  if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Assessments are only as good as the inspection data behind them. Atlantis carries out the NDE that feeds them, and a digital twin keeps the history in view.", [L.rbi, L.integrity, L.twin, L.consultingL3, L.erpAssets]);
+  if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Atlantis carries out risk-based inspection studies to API RP 580 and 581, delivered remotely, and the NDE that feeds them; fitness-for-service assessments stay with the owner's engineer.", [L.rbi, L.integrity, L.twin, L.consultingL3, L.erpAssets]);
   if (/nace|cui|corrosion-under-insulation/.test(p)) return block("codes", "Need this inspected?", "Atlantis carries out corrosion and CUI inspection and keeps the findings tied to each asset.", [L.cui, L.rbi, L.erpAssets]);
   // 6. Certification schemes -> training + programme set-up + simulator.
   if (/asnt|snt-tc-1a|cp-189|iso-9712|(^|[-/])accp|(^|[-/])pcn([-/]|$)|nas-410|en-4179|written-practice|certification|level-(i|ii|iii|1|2|3)([-/]|$)/.test(p))

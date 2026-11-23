@@ -12,7 +12,7 @@ import { submitLead, mailtoAction } from "@/lib/lead-submit";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
-  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime" | "inspection";
+  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime" | "inspection" | "rbi";
 }
 
 const COPY = {
@@ -176,6 +176,24 @@ const COPY = {
       "Quote prepared for each vessel, survey and port",
     ],
   },
+  // 2026-11-23 (owner: RBI as a remote service, /inspection/risk-based-inspection/*). Deliverables only: no named
+  // credentials or software; fitness-for-service is not offered.
+  rbi: {
+    badge: "Risk-based inspection — proposal on request",
+    title: "Request an RBI Proposal",
+    sub: "Tell us the facility, the equipment in scope (pressure vessels, piping circuits, storage tanks), the codes or operator standard you work to and the inspection data you hold. RBI studies are delivered remotely.",
+    subject: "Risk-based inspection enquiry",
+    usecasePlaceholder: "Facility and country, equipment count (vessels, piping circuits, tanks), governing codes or operator RBI standard, existing RBI or inspection history, target dates…",
+    submitLabel: "Request a Proposal",
+    trustSignals: [
+      "Delivered remotely from your drawings, data and inspection history",
+      "Methodology to API RP 580 and API RP 581, or your operator's RBI standard",
+      "Damage mechanisms reviewed against API 571",
+      "Inspection plans your inspector of record can approve and execute",
+      "UT, MT, PT and VT inspection in the USA to close data gaps",
+      "ISO 9001 and ISO 14001 certified company",
+    ],
+  },
   // 2026-11-14 (owner: more inspection leads, MT/PT/UT in the US): inspection pages had no form, only
   // /contact links (GA4, US, 28 days: 32 inspection landings → 2 key events). Shown mid-article on
   // method-city pages, state hubs and editorial inspection pages (src/data/lead-variant-2026-11.mjs).
@@ -209,6 +227,7 @@ const BUSINESS_LINE: Record<Props["variant"], string> = {
   "practical-ndt": "practical-ndt",
   maritime: "inspection",
   inspection: "inspection",
+  rbi: "inspection",
 };
 
 // 2026-10-09 sprint: lead_type per line, so the central business-event mapping
@@ -225,6 +244,7 @@ const LEAD_TYPE: Record<Props["variant"], string> = {
   "practical-ndt": "ndt_simulation_demo",
   maritime: "rfq", // businessEventFor → inspection_rfq_submit
   inspection: "rfq", // businessEventFor → inspection_rfq_submit
+  rbi: "rfq", // 2026-11-23: RBI enquiries count as inspection RFQs
 };
 const STAGES = ["Ready to start, within this quarter", "Comparing options", "Just researching"];
 /** Only training enquiries continue to the Microsoft Form (it asks methods, levels, headcount). */

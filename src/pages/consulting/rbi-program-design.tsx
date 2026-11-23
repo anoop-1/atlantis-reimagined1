@@ -10,14 +10,14 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle, AlertTriangle, Layers, ArrowRight, Info } from "lucide-react";
 
 /**
- * /consulting/rbi-program-design — INFORMATIONAL ONLY (owner decision 2026-10-07).
- * Atlantis NDT does not design RBI programmes or perform RBI / FFS work. This
+ * /consulting/rbi-program-design — 2026-11-23 (owner): Atlantis now offers RBI studies, delivered remotely
+ * (service pages: /inspection/risk-based-inspection/*); fitness-for-service stays not offered. This
  * page explains what an RBI study is and the NDT data it depends on; the only
  * offer is an NDT inspection quote. Keep the URL. Mirror any change in the
  * prerender entry for this path in scripts/prerender.mjs.
  */
 
-const QUOTE_URL = "/contact?service=inspection&subject=NDT%20data%20for%20RBI";
+const QUOTE_URL = "/contact?service=inspection&subject=RBI%20study%20or%20NDT%20data%20for%20RBI";
 
 export default function RbiProgramDesign() {
     const studyElements = [
@@ -47,7 +47,7 @@ export default function RbiProgramDesign() {
 
     const faqs = [
         { q: "What is the difference between API 580 and API 581?", a: "API RP 580 sets out what a risk-based inspection programme must contain — the elements, documentation, personnel and reassessment requirements. API RP 581 provides a quantitative methodology, with the equations, damage factors and consequence models used to calculate risk. Many programmes cite API 580 for the framework and API 581 for the calculation." },
-        { q: "Does Atlantis NDT design RBI programmes or perform RBI or FFS assessments?", a: "No. Atlantis NDT does not offer RBI or fitness-for-service work. The RBI study is carried out by the owner's integrity team or a specialist RBI consultant they appoint. Atlantis provides NDT inspection and ASNT Level III services that produce the inspection data the study relies on." },
+        { q: "Does Atlantis NDT design RBI programmes or perform RBI or FFS assessments?", a: "Atlantis carries out RBI studies to API RP 580 and API RP 581, delivered remotely from the owner's drawings, data and inspection history, and the owner's inspector of record approves the resulting intervals. It does not perform fitness-for-service (API 579-1) assessments; those stay with the owner's engineer. Atlantis also provides the NDT inspection and ASNT Level III services that produce the data an RBI study relies on." },
         { q: "Can RBI change the inspection intervals in API 510, 570 or 653?", a: "Each of those codes allows inspection intervals to be set by an RBI assessment that meets API RP 580, subject to the limits and conditions written in that code. The owner and the authorized inspector remain responsible for the intervals." },
         { q: "What NDT data does an RBI study need most?", a: "Dated thickness readings tied to condition monitoring locations, a record of what each inspection actually covered and with which technique, and sized flaw data where cracking or local thinning is found. Without those, the study falls back on conservative assumptions." },
         { q: "Why does the inspection technique matter to the risk result?", a: "API RP 581 credits each past inspection according to how effective it was against the mechanism in question. A spot UT survey earns little credit against pitting or cracking, so a plan that relies on it may keep risk high even when the equipment is in good condition." },
@@ -120,7 +120,7 @@ export default function RbiProgramDesign() {
                 <div className="container mx-auto px-6 max-w-5xl flex gap-4 items-start">
                     <Info className="text-amber-700 h-6 w-6 flex-shrink-0 mt-1" />
                     <p className="text-slate-800 leading-relaxed">
-                        <strong>What Atlantis does and does not do.</strong> Atlantis NDT does not design RBI programmes or carry out RBI or fitness-for-service assessments. Those are done by the owner's integrity team or a specialist consultant they appoint. Atlantis provides NDT inspection and ASNT Level III services that produce the inspection data an RBI study uses.
+                        <strong>What Atlantis does and does not do.</strong> Atlantis carries out risk-based inspection studies, delivered remotely: see <Link to="/inspection/risk-based-inspection" className="text-blue-700 underline">risk-based inspection services</Link>. It does not perform fitness-for-service assessments, which stay with the owner's engineer. Atlantis also provides the NDT inspection and ASNT Level III services that produce the inspection data an RBI study uses.
                     </p>
                 </div>
             </section>

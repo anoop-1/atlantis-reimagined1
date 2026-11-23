@@ -2302,6 +2302,7 @@ const NDTConsultingFortSaskatchewan = lazy(() => import("./pages/ndt-consulting-
 const NDTConsultingPortHedland = lazy(() => import("./pages/ndt-consulting-port-hedland"));
 // Service-line pages
 const ConsultingRbiProgramDesign = lazy(() => import("./pages/consulting/rbi-program-design"));
+const RbiSection = lazy(() => import("./pages/RbiSection")); // 2026-11-23 RBI section
 const ConsultingFitnessForServiceApi579 = lazy(() => import("./pages/consulting/fitness-for-service-api-579"));
 const ConsultingApi510ProgramAudit = lazy(() => import("./pages/consulting/api-510-program-audit"));
 const ConsultingNdtTechnicalProcedureDevelopment = lazy(() => import("./pages/consulting/ndt-technical-procedure-development"));
@@ -7150,6 +7151,7 @@ export default function RouteTable() { return (
                   <Route path="/inspection/ndt-inspection-services/conventional-ndt" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/asset-integrity-services" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/risk-based-inspection" element={<LazyRoute Component={InspectionSection} />} />
+                  <Route path="/inspection/risk-based-inspection/:slug" element={<LazyRoute Component={RbiSection} />} /> {/* 2026-11-23 RBI section (src/pages/RbiSection.tsx) */}
                   <Route path="/inspection/technical-staffing-services" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/commissioning" element={<LazyRoute Component={InspectionSection} />} />
                   <Route path="/inspection/turnarounds-shutdowns" element={<LazyRoute Component={InspectionSection} />} />

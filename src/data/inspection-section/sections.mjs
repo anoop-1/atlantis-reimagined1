@@ -1,3 +1,4 @@
+import { RBI_ROOT } from '../rbi-section/root.mjs'; // 2026-11-23 owner: RBI service page
 // Inspection section (2026-10-18): landing, NDT hub, method lists and service pages.
 // Rules: no prices, no client names, no invented statistics or accreditations,
 // founder = ASNT NDT Level III in UT, RT, MT, PT, VT (CLAUDE.md §54); supplying
@@ -202,38 +203,7 @@ export const SECTION_PAGES = [
     ],
     related: [['/consulting', 'NDT and integrity consulting'], ['/consulting/osha-psm-mechanical-integrity-ndt', 'OSHA PSM mechanical integrity'], ['/inspection-data-management-system', 'Inspection data management']],
   },
-  {
-    path: '/inspection/risk-based-inspection',
-    kind: 'service',
-    navLabel: 'Risk-based inspection (RBI)',
-    title: 'Risk-Based Inspection (RBI) Services to API 580 and 581',
-    description: 'Risk-based inspection services to API 580/581 and ASME PCC-3: probability and consequence of failure, inspection plans, intervals and reassessment.',
-    h1: 'Risk-based inspection (RBI) services',
-    eyebrow: 'Inspection',
-    intro: 'Risk-based inspection spends inspection effort where the risk is, instead of on a fixed calendar. Done well, it extends intervals on equipment that is genuinely low risk and focuses methods and coverage on the items where a failure would hurt. Done badly, it is a spreadsheet that justifies whatever interval was wanted. We build RBI that an inspector, an auditor and an operations manager can all read and trust.',
-    sections: [
-      { id: 'method', h: 'How RBI works', p: [
-        'Each equipment item or circuit is assessed for probability of failure (POF), driven by its damage mechanisms, damage rates and the effectiveness of past inspection, and consequence of failure (COF), driven by the fluid, inventory, location and what a release would do to people, the environment and the business. Risk is the combination of the two.',
-        'API 580 sets out the principles; API 581 gives a quantitative method; ASME PCC-3 provides a further framework. The output is not a risk number but an inspection plan: which methods, how much coverage and when, chosen to reduce the risk that is reducible by inspection.',
-      ] },
-      { id: 'scope', h: 'What an RBI engagement covers', list: [
-        'Data gathering: design, materials, process conditions, inspection history and corrosion data.',
-        'Corrosion loops and damage mechanism assignment to API 571.',
-        'POF and COF assessment, qualitative, semi-quantitative or quantitative as the facility needs.',
-        'Inspection plans with methods, coverage, effectiveness and due dates for each item.',
-        'Reassessment triggers: process changes, IOW exceedances, new inspection results, and a fixed review cycle.',
-      ] },
-      { id: 'execute', h: 'From plan to inspection', p: 'An RBI plan is only useful if it is executed. Because Atlantis also delivers the NDT, the inspection that comes out of the plan, with the right method and coverage to earn the effectiveness the plan assumed, can be carried out and reported back into the next assessment.' },
-    ],
-    codes: ['API RP 580 (risk-based inspection)', 'API RP 581 (RBI methodology)', 'ASME PCC-3 (inspection planning using risk-based methods)', 'API 571 (damage mechanisms)', 'API 510, API 570, API 653'],
-    deliverables: ['RBI register with POF, COF and risk for every item', 'Inspection plan with methods, coverage and due dates', 'Assumptions and data-gap log', 'Reassessment criteria and schedule'],
-    industries: ['Refining and petrochemical', 'Gas processing', 'Chemical and fertiliser', 'Offshore production', 'Power generation'],
-    faqs: [
-      { q: 'Can RBI extend inspection intervals?', a: 'Yes, where the assessment shows low risk and the inspection history supports it, within the limits of the governing code. API 510, 570 and 653 each allow RBI-based intervals subject to their own conditions.' },
-      { q: 'How often should an RBI assessment be updated?', a: 'When process conditions, damage rates or inspection results change, and on a fixed review cycle set in the RBI programme so the plan never runs on stale data.' },
-    ],
-    related: [['/consulting', 'NDT and integrity consulting'], ['/inspection/asset-integrity-services', 'Asset integrity services'], ['/tools/api-inspection-interval-calculator', 'API inspection interval calculator']],
-  },
+  RBI_ROOT, // 2026-11-23: RBI is an Atlantis service delivered remotely; record in src/data/rbi-section/root.mjs
   {
     path: '/inspection/technical-staffing-services',
     kind: 'service',

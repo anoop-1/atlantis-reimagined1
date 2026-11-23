@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 /**
- * assert-no-rbi-ffs-offering — standing gate for the owner rule (2026-09-27/30):
+ * assert-no-rbi-ffs-offering — standing gate for the owner rule (2026-09-27/30, revised 2026-11-23):
  *
- *   Atlantis does NOT offer risk-based inspection (API 580/581) or
- *   fitness-for-service (API 579) — not as software, module, platform feature,
- *   service or consulting. The ERP has no automatic "lapse lockout" (the real
- *   feature is expiry warnings + blocked double-booking). No API ICP training.
+ *   2026-11-23 (owner): Atlantis OFFERS risk-based inspection (API 580/581) as a remote
+ *   engineering service (/inspection/risk-based-inspection/*). RBI offers are no longer
+ *   flagged. Still forbidden: any fitness-for-service (API 579) offer; any claim that
+ *   Atlantis software (ERP, digital twin, platform, module) calculates RBI or FFS; the
+ *   automatic "lapse lockout" (the real feature is expiry warnings + blocked
+ *   double-booking); API ICP training.
  *
  * Educational mentions of RBI / FFS as industry concepts are fine. What fails
  * is a sentence in which Atlantis (or its ERP / twin / platform / software /
@@ -27,7 +29,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Terms that make a sentence "about" RBI / FFS / the forbidden claims.
-const TERM = /\b(RBI|risk[- ]based inspection|API ?58[01]|API ?579|FFS|fitness[- ]for[- ]service|lapse[- ]lockout|dispatch lockout|API ICP)\b/i;
+const TERM = /\b(RBI|risk[- ]based inspection|API ?58[01]|API ?579|FFS|fitness[- ]for[- ]service|lapse[- ]lockout|dispatch lockout|API ICP)\b/i; // sentences scanned; RBI-only offers pass classify()
 
 // Always a violation (template strings / feature claims), unless negated.
 const HARD = [
@@ -38,10 +40,9 @@ const HARD = [
   /\bRBI, FFS,? and inspection-data integration\b/i,
   /\bAPI ICP (?:training|course|prep|exam prep|preparation) (?:from|by|with|at) Atlantis\b/i,
   // 2026-10-04: offer-shaped titles / service codes found on live pages
-  /\bAPI 571 \/ 580 \/ 581\b/i,
   /\bRBI and FFS on One Model\b/i,
   /\b(?:UT\/)?RBI\/FFS\s*\|/i,
-  /\bASNT Level III \+ API ?(?:579|58[01])\b/i,
+  /\bASNT Level III \+ API ?579\b/i,
   /\+ API ?579 FFS \+ (?:API ?581 )?RBI\b/i,
   /\bVisuali[sz]ation(?:,| \+) API ?579 FFS\b/i,
   /\bAPI ?579-1 FFS calculation engine\b/i,
@@ -50,18 +51,18 @@ const HARD = [
 // Feature-shaped phrases: a violation only when a product / Atlantis is in the
 // sentence (exam-prep articles legitimately say "RBI calculation drills").
 const FEATURE = [
-  /\bRBI (?:scoring|scores|engine|module|tier|cycle automation|calc|calculations?|overlay|integration)\b/i,
+  /\b(?:platform|software|ERP|twin|module|dashboard)\b[^.]{0,60}\bRBI (?:scoring|scores|engine|module|tier|cycle automation|calc|calculations?|overlay)\b|\bRBI (?:scoring|engine|module|tier|cycle automation|overlay)\b[^.]{0,60}\b(?:platform|software|ERP|twin|module|dashboard)\b/i, // 2026-11-23: RBI as a service is fine; RBI inside Atlantis software is not
   /\bAPI ?581 (?:RBI scoring|risk-based inspection scoring)\b/i,
   /\bFFS (?:workflow|evidence|calculations?|module|engine)\b/i,
   /\bfitness-for-service (?:calculations?|workflow|module|engine|evidence)\b/i,
   /\bRBI \+ FFS\b/i,
-  /\bAPI ?(?:579|58[01])(?:\/\d+)*[ -]compliant\b/i,
+  /\bAPI ?579(?:\/\d+)*[ -]compliant\b/i,
 ];
 const PRODUCT = /\b(?:Atlantis|our|we|we've|we're)\b/i;
-const LIST_ITEM = /[,:(]\s*(?:RBI|FFS|fitness-for-service) per API ?(?:579|58[01])/i;
+const LIST_ITEM = /[,:(]\s*(?:FFS|fitness-for-service) per API ?579|[,:(]\s*RBI per API ?58[01][^.]{0,40}\b(?:platform|software|ERP|twin|module)\b/i;
 const LIST_CTX = /\b(?:digital twin|twin|platform|software|ERP|services?|Comprehensive NDT inspection|overlay)\b/i;
 // Subject test ignores API ICP (tracking an inspector's API ICP cert is fine).
-const TERM_SUBJ = /\b(RBI|risk[- ]based inspection|API ?58[01]|API ?579|FFS|fitness[- ]for[- ]service)\b/i;
+const TERM_SUBJ = /\b(API ?579|FFS|fitness[- ]for[- ]service)\b/i; // 2026-11-23: RBI subject sentences are allowed (RBI is an Atlantis service)
 
 // Subject markers: Atlantis / first person / its products.
 const SUBJ = new RegExp([

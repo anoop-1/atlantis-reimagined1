@@ -69,7 +69,7 @@ export const INTEGRATIONS = [
       COMMON_WHAT_ATLANTIS_EXPOSES +
       COMMON_IMPLEMENTATION +
       h2('What this integration does not do') +
-      p('Atlantis does not calculate inspection intervals, corrosion rates or remaining life, and does not perform risk-based inspection or fitness-for-service assessments. If your SAP landscape uses those outputs, they come from the engineering tools you already use; Atlantis supplies the inspection records they depend on.') +
+      p('Atlantis does not calculate inspection intervals, corrosion rates or remaining life, and does not perform fitness-for-service assessments (risk-based inspection is offered as a separate remote service). If your SAP landscape uses those outputs, they come from the engineering tools you already use; Atlantis supplies the inspection records they depend on.') +
       COMMON_WHY +
       p(`If SAP is part of your picture, ${demo('SAP PM / S/4HANA')} and bring a sample order and the list of fields your planners need back. See also the <a href="/integrations">integrations overview</a>, the <a href="/erp/apps/ndt-reports">NDT Reports app</a> and <a href="/digital-twin-reporting">Digital Twin Reporting</a>.`),
     faqs: [
@@ -111,7 +111,7 @@ export const INTEGRATIONS = [
       COMMON_WHAT_ATLANTIS_EXPOSES +
       COMMON_IMPLEMENTATION +
       h2('What this integration does not do') +
-      p('Atlantis does not calculate inspection intervals, corrosion rates or remaining life, and does not perform risk-based inspection or fitness-for-service assessments, so it does not write those values into Maximo job plans or PM records. It supplies the inspection records those processes rely on.') +
+      p('Atlantis does not calculate inspection intervals, corrosion rates or remaining life, and does not perform fitness-for-service assessments (risk-based inspection is offered as a separate remote service), so it does not write those values into Maximo job plans or PM records. It supplies the inspection records those processes rely on.') +
       COMMON_WHY +
       p(`If your work arrives as Maximo work orders, ${demo('IBM Maximo')} and bring a sample work order export. See also the <a href="/integrations">integrations overview</a>, the <a href="/erp/apps/ndt-reports">NDT Reports app</a> and the <a href="/erp/apps/certificates">Certificates app</a>.`),
     faqs: [

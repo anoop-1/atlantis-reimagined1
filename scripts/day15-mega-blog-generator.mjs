@@ -365,7 +365,7 @@ for (const t of corrTopics) {
 <h3>Q2: What inspection method?</h3>
 <p><strong>A:</strong> Method depends on damage location. Select the technique for the specific damage mechanism (see API RP 571); procedures are approved under the employer&#39;s written practice.</p>
 <h3>Q3: How to integrate with API 581 RBI?</h3>
-<p><strong>A:</strong> Damage mechanism susceptibility feeds the API 581 damage-factor calculation in the owner&#39;s RBI software; Atlantis NDT does not provide RBI services.</p>
+<p><strong>A:</strong> Damage mechanism susceptibility feeds the API 581 damage-factor calculation in the owner&#39;s RBI software; Atlantis NDT provides risk-based inspection (RBI) studies as a separate remote service.</p>
 <h3>Q4: Material upgrade vs monitoring?</h3>
 <p><strong>A:</strong> Total cost of ownership analysis — material upgrade Capex vs ongoing inspection + repair Opex. This comparison is normally run by the owner&#39;s engineering team.</p>
 <h3>Q5: Coating effectiveness?</h3>
