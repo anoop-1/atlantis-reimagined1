@@ -48,8 +48,8 @@
       "id": "owners-cas-cap-southampton",
       "h": "Owner's CAS and owner's CAP for passenger ships and car carriers",
       "p": [
-        "Neither official condition assessment scheme was designed with a cruise ship or a car carrier in mind. The IMO Condition Assessment Scheme covers a narrow class of older oil tankers and is verified by the flag Administration, and class Condition Assessment Programme ratings are generally requested for older tankers and bulk carriers. Yet technical managers of passenger ships and vehicle carriers still want the same discipline: survey to a plan, readings at defined positions, coatings, piping and machinery assessed, findings graded and a single report. When they ask for an owner's CAS or an owner's CAP, that discipline is what they mean, and CVIP supplies it for the owner's own requirement.",
-        "The owner, manager, charterer or financier commissions it and keeps the record; it carries no CAP rating and no CAS Statement of Compliance. If the charterer of a tanker loading at Fawley requires a class CAP rating, the owner obtains it from the ship's society, and CVIP readings help anticipate the outcome. Thickness readings follow the same principle. Atlantis is working through the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, and until a certificate is in hand, CVIP readings taken at Southampton inform the owner's decisions and carry no credit towards a class survey. Crack detection on ramp hinges and lugs is recorded as the owner's NDT evidence, not as a class finding."
+        "Neither official condition assessment scheme was designed with a cruise ship or a car carrier in mind. The IMO Condition Assessment Scheme covers a narrow class of older oil tankers, with the flag Administration verifying the result, and class Condition Assessment Programme ratings are generally requested for older tankers and bulk carriers. Yet technical managers of passenger ships and vehicle carriers still want the same discipline: survey to a plan, readings at defined positions, coatings, piping and machinery assessed, findings graded and a single report. When they ask for an owner's CAS or an owner's CAP, that discipline is what they mean, and CVIP supplies it for the owner's own requirement.",
+        "The owner, manager, charterer or financier commissions it and keeps the record; it carries no CAP rating and no CAS Statement of Compliance. If the charterer of a tanker loading at Fawley requires a class CAP rating, the owner obtains it from the ship's society, and CVIP readings help anticipate the outcome. Thickness readings follow the same principle. Atlantis is working through the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until one of those certificates is in hand, CVIP readings taken at Southampton inform the owner's decisions and carry no credit towards a class survey. Crack detection on ramp hinges and lugs is recorded as the owner's NDT evidence, not as a class finding."
       ]
     },
     {
@@ -58,7 +58,7 @@
       "p": [
         "The baseline on a cruise ship is rarely one visit. Tanks, voids and piping runs are divided into groups that the crew can prepare for successive turnarounds, one or two tanks at a time, so the baseline is complete after a sequence of calls and no single day is overloaded. Each piping reading position is identified by system, deck and frame and marked on the arrangement drawing, and each tank has fixed photo positions for its coating ratings. Sending the same technicians and working from the same reference points call after call keeps the readings comparable.",
         "Machinery readings in port follow the condition the ship actually runs in: generators at the hotel load of a turnaround day, sea-water cooling pumps and air-conditioning fans as they serve the ship, each with its load recorded. A qualified thermographer images the main switchboard and distribution panels on a yearly round, and where accommodation complaints suggest it, noise is read at the positions in the ship's noise survey report. Over a season, those readings become trends that tell the chief engineer which machine to open at the next technical stop.",
-        "On car carriers the trend is built ramp first. Hinge lugs and ramp plating are covered on most calls, vehicle decks are rotated so each is read within a survey cycle, and ventilation fans and ramp hydraulics are measured as they work during cargo operations."
+        "On car carriers the trend is built outward from the ramp. Hinge lugs and ramp plating are covered on most calls, vehicle decks are rotated so each is read within a survey cycle, and ventilation fans and ramp hydraulics are measured as they work during cargo operations."
       ]
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "q": "Is CVIP the same as a CAS or CAP for a cruise ship?",
-      "a": "No official CAS or CAP is written for cruise ships, which is partly why owners ask for an owner's version. CVIP follows the same approach of survey to a plan, fixed readings, grading and one report, for the owner's requirement. It carries no flag Statement of Compliance and no class rating, and where a tanker charterer needs a class CAP, that is booked with the society."
+      "a": "No official CAS or CAP is written for cruise ships, which is partly why owners ask for an owner's version. CVIP follows the same approach of survey to a plan, fixed readings, grading and one report, for the owner's requirement. No flag Statement of Compliance or class rating comes with it, and where a tanker charterer needs a class CAP, that is booked with the society."
     },
     {
       "q": "How many turnaround calls does a cruise ship baseline take?",
