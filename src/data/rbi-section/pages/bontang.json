@@ -1,0 +1,209 @@
+{
+  "title": "RBI in Bontang: Badak LNG Trains and Pupuk Kaltim Ammonia",
+  "description": "Remote RBI for Bontang's LNG trains and fertiliser plants: running below design, reactivating idle trains, ammonia and carbamate damage and coastal CUI.",
+  "h1": "Risk-based inspection for Bontang's liquefaction trains and ammonia-urea plants",
+  "eyebrow": "Risk-based inspection in Bontang",
+  "intro": "Bontang, on the East Kalimantan coast of the Makassar Strait, holds two gas-based industries side by side: the Badak LNG plant, which has liquefied gas since 1977, and the Pupuk Kaltim complex, which turns gas into ammonia and urea. Both now plan inspection for plant that was built for more gas than currently arrives. This page is for integrity and inspection engineers in Bontang. It covers trains running below their build, idle trains and the reactivation of Train F, the mechanisms of ammonia and urea service, the coastal climate and the two rulebooks involved, and how Atlantis runs an RBI study for these sites remotely.",
+  "highlights": [
+    { "h": "Capacity that outlasts the gas", "p": "A plant built up to eight trains now runs only a few of them. Turndown, reserve trains and units that start and stop more often all move damage rates, so the register records how each train actually runs rather than how it was designed to run." },
+    { "h": "Restart scopes ranked by risk", "p": "Reactivating an idle train means deciding which of thousands of items must be opened, tested or replaced before cool-down. Risk ranking sends intrusive inspection where idleness or age could have done the most harm, and lets low-risk items rely on external checks and records." },
+    { "h": "Cracking rather than thinning", "p": "Ammonia storage, the urea synthesis loop and cold LNG service share one awkward feature: their worst damage leaves little wall loss behind. Inspection credit goes only to techniques able to find cracks, embrittlement or carbamate attack where each can occur." }
+  ],
+  "sections": [
+    {
+      "id": "bontang-sites",
+      "h": "Two gas industries on one stretch of coast",
+      "p": [
+        "The Badak LNG plant is operated by PT Badak NGL, a company within Pertamina's upstream subholding. Its first trains started in 1977, and the plant was extended in stages to eight liquefaction trains, lettered A to H, with a design gas intake of up to 3,700 million standard cubic feet a day and around 22.5 million tonnes a year of LNG capacity. Storage on the site includes six LNG tanks holding about 636,000 cubic metres between them and five LPG tanks of 40,000 cubic metres each, from which LNG and LPG cargoes are loaded.",
+        "Gas supply has fallen well below what the plant was built to handle. The two earliest trains have been taken into decommissioning and others laid up, and in late 2025 the operator described two trains as active with one idle train held in reserve; in reporting on 2025 it named declining upstream supply as a continuing challenge. New gas is expected in 2027 to 2028 from Eni's North Ganal development, with initial reserves put at about five trillion cubic feet, and Train F, out of service since 2020, is being prepared to receive it by October 2028. With that supply, the plant's operating life is expected to run to around 2034.",
+        "Pupuk Kaltim runs several ammonia and urea plants in the Bontang industrial estate. Its Ammonia Plant-2, in service since 1984, was revamped from late 2023 and reinaugurated in January 2026 with a capacity of about 595,000 tonnes of ammonia and 570,000 tonnes of urea a year. Kaltim-5, opened in the middle of the last decade, was designed for 850,000 tonnes of ammonia and 1.15 million tonnes of urea a year. The table sets out the states the Bontang plants are in and the inspection question each state raises."
+      ],
+      "table": {
+        "head": ["Plant or group", "Operating state in 2026", "The RBI question it raises"],
+        "rows": [
+          ["Active Badak LNG trains", "Two trains running well below the plant's original intake design", "How turndown, feed composition and more frequent cycling have moved damage rates since the last assessment"],
+          ["Reserve and laid-up trains", "One idle train held in reserve; the oldest trains in decommissioning or laid up", "What preservation has and has not prevented, and what must be examined before any return to service"],
+          ["Train F", "Out of service since 2020 and being prepared for reactivation by October 2028", "Which of several thousand items need intrusive inspection, testing or replacement before cool-down"],
+          ["LNG and LPG storage", "Six LNG tanks and five LPG tanks shared by whichever trains are running", "How lower throughput and longer residence times change the risk picture for tanks and boil-off systems"],
+          ["Pupuk Kaltim ammonia and urea plants", "Plants of several generations, including Ammonia Plant-2 revamped in 2026", "Where new converters meet original equipment, and how cracking-prone services earn inspection credit"]
+        ]
+      }
+    },
+    {
+      "id": "bontang-turndown",
+      "h": "Running trains below their build",
+      "p": [
+        "An LNG train designed for a full gas stream behaves differently at reduced rate. Velocities in exchangers and piping fall, which can let water and solids settle where they used to be swept through; temperature profiles across the main cryogenic heat exchanger shift; and compressors and refrigerant circuits work away from their design point. None of that is necessarily harmful, but it means corrosion rates and fatigue loading measured when the plant ran full may no longer describe it.",
+        "Short supply also tends to bring more starts and stops. Every cool-down and warm-up takes the cold end through a thermal cycle, and transient cold at locations that normally run warm is where thermal fatigue and low-temperature embrittlement questions arise. The study asks for each train's trip and restart history, ties the count of thermal cycles to the items they load, and treats a rise in cycling as a reason to reassess rather than as an operating detail.",
+        "Feed composition matters as much as feed volume. Gas from different fields carries different amounts of carbon dioxide, hydrogen sulfide, mercury and heavier hydrocarbons, and the treating units upstream of liquefaction are where that difference lands first. When North Ganal gas arrives, the inlet, acid gas removal, dehydration and mercury removal units should be reassessed for the new feed case before the register is trusted again for the trains that receive it."
+      ],
+      "links": [
+        ["/standards/api-584", "API 584 integrity operating windows"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "bontang-idle",
+      "h": "What an idle LNG train does while it waits",
+      "p": [
+        "A train that has stood idle for years has not stood still. Its condition depends on how it was laid up and how faithfully that lay-up was kept, and the damage that develops is quite different from the damage of normal operation. These are the entries an RBI study of an idle liquefaction train usually has to work through."
+      ],
+      "list": [
+        "Moisture getting into cold boxes and cryogenic exchangers, whose insulation fill and aluminium surfaces were meant to stay dry, where a lapse in the dry nitrogen purge leaves water that will freeze on the next cool-down.",
+        "Corrosion under insulation on piping and vessels that used to run hot enough to drive moisture out of their insulation and now sit at ambient temperature through the rains.",
+        "Stagnant water in cooling water circuits, fire water mains and drained low points, where microbiologically influenced corrosion and under-deposit attack progress without anyone measuring them.",
+        "Residual amine, glycol or other treating chemicals left in acid gas removal and dehydration units, which become corrosive if they absorb air or break down over time.",
+        "Dead legs and isolation points created when the train was separated from the rest of the plant, usually outside the circuits the original register defined.",
+        "Coating breakdown and atmospheric corrosion on structures and piping that were not kept to an operating plant's maintenance standard while idle.",
+        "Ageing of gaskets, seals and small-bore connections, which a register may not track item by item but which decide whether a restart is tight."
+      ]
+    },
+    {
+      "id": "bontang-reactivation",
+      "h": "Reactivating Train F: RBI as the scope filter",
+      "p": [
+        "According to the operator, the reactivation assessment for Train F, which ran from February to November 2025, covered at least 7,200 assets and components, some of which may need replacing, at a time when vendors, equipment and specialist people are in demand across the LNG industry. A list that long cannot all be opened, so the restart programme has to decide which items get intrusive inspection, which get external examination and which can rely on their records.",
+        "That is the decision RBI is built for. Each item is assessed for the damage its lay-up conditions could have caused, the damage it carried before shutdown and the consequence of a failure at first cool-down, when people are close to the plant and the process is least stable. Items where idleness could have produced cracking or hidden wall loss, and where a release would be serious, go on the intrusive inspection and testing list; items in benign service with good preservation records are given external checks; and items whose condition simply cannot be established are put to the owner's engineers for a replace-or-retain decision.",
+        "The same ranking shapes what happens after restart. Readings taken during reactivation become the starting points for corrosion rates in the train's second operating life, and its first risk-based intervals stay short until those rates are confirmed by a repeat survey. With the plant expected to run to around 2034, intervals are also weighed against the remaining operating horizon: an interval that reaches past the expected end of operation needs a different justification from one in a plant with decades ahead of it."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+        ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"]
+      ]
+    },
+    {
+      "id": "bontang-fertiliser",
+      "h": "Ammonia and urea service: where the damage hides",
+      "p": [
+        "Pupuk Kaltim's plants take natural gas through reforming, shift conversion, carbon dioxide removal and ammonia synthesis, and much of the ammonia then goes into urea. Each section has mechanisms of its own, and several of them are invisible to a thickness survey. The table is a starting map, which the study confirms against each plant's materials, licensor design and operating records before anything enters the register."
+      ],
+      "table": {
+        "head": ["Section", "Mechanisms usually examined", "What can find them"],
+        "rows": [
+          ["Primary reformer and outlet system", "Creep of catalyst tubes and outlet headers, carburisation, thermal fatigue at pigtails and manifolds", "Tube diameter and creep strain measurement, specialist tube inspection, replication at selected welds"],
+          ["Waste heat recovery and shift conversion", "Metal dusting where carbon-rich gas cools through the critical range, high-temperature hydrogen attack in carbon and low-alloy steels, boiler water-side corrosion", "Screening of materials and conditions against current hydrogen attack guidance, advanced ultrasonic methods at susceptible welds, internal visual examination"],
+          ["Carbon dioxide removal", "Corrosion and cracking in the absorbent solution circuit, erosion at let-down and flashing points", "Thickness mapping at turbulence points, crack detection at welds that were not stress relieved, solution chemistry records"],
+          ["Ammonia synthesis loop", "Nitriding of hot surfaces, hydrogen damage, fatigue from pressure cycling", "Hardness testing and surface examination when converters are opened, ultrasonic examination of nozzle welds"],
+          ["Ammonia storage", "Stress corrosion cracking of carbon steel, governed by oxygen contamination, water content and weld stress", "Wet fluorescent magnetic particle or equivalent crack detection at welds, read alongside storage chemistry records"],
+          ["Urea synthesis and stripping", "Carbamate corrosion of stainless steels when passivation oxygen falls short, crevice and condensation corrosion in high-pressure equipment", "Internal examination during shutdowns, liner leak-detection records, thickness checks at known attack sites"]
+        ]
+      },
+      "links": [
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"]
+      ]
+    },
+    {
+      "id": "bontang-revamp",
+      "h": "A 1984 plant with new converters",
+      "p": [
+        "Ammonia Plant-2 shows a pattern common in older fertiliser complexes: major equipment renewed, the rest of the plant left in place. Its revamp replaced the shift converter, the ammonia converter and the carbon dioxide removal system and added a distributed control system, with the stated aim of extending the plant's technical life by up to fifteen years. For inspection planning the plant now holds two populations with very different histories.",
+        "The new equipment starts from fabrication records, material certificates and commissioning examinations, and its early inspections are about confirming that nothing was missed in fabrication. The retained equipment carries four decades of service, repairs and inspection records. The joints between them, at tie-in welds, at nozzles where a new vessel meets old piping and in circuits whose temperature or flow changed with the revamp, belong fully to neither history and are listed separately. Output during performance testing was reported at about 1,841 tonnes of ammonia a day against 1,767 before, so the retained equipment around the new converters now works harder than it used to, and its damage rates are reassessed on that basis."
+      ]
+    },
+    {
+      "id": "bontang-coast",
+      "h": "The equatorial coast of the Makassar Strait",
+      "p": [
+        "Bontang lies just north of the equator, with heat, high humidity and rain in every month. Sea air reaches the jetties, the LNG and LPG tank shells, pipe racks and the fertiliser plant structures, so coating breakdown on exposed steel is a constant background mechanism. Insulated carbon steel in the temperature band where corrosion under insulation is most active, and insulated austenitic stainless steel exposed to chlorides, are where the external damage register concentrates.",
+        "Fertiliser plants add an external mechanism of their own. Urea dust and ammonium compounds settle on structures, cladding and insulation around prilling, granulation and handling areas, and in a wet climate they form corrosive deposits on steel. Cold service adds another: on LNG lines and vessels a failed vapour barrier lets humid air reach the cold surface, where condensation and ice break the insulation down from the inside. The study ranks insulated equipment by temperature band, insulation system and repair record, and for idle trains it notes that equipment which used to run cold or hot may now sit at ambient, where moisture behaves differently again."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "bontang-rules",
+      "h": "Two rulebooks in one town",
+      "p": [
+        "The LNG plant is an oil and gas installation, so its equipment comes under Permen ESDM 32/2021 and the Migas technical inspection system, including the regulation's choice between fixed-period and risk-analysis intervals. What needs care in Bontang is how that choice works when trains are in different states. A running train's risk analysis rests on current operating data, an idle train's on its preservation record and a reactivated train's on the examinations made before restart, and the remaining-life figures that feed each operating approval should be calculated on the basis that matches the train's real condition rather than on its history as a single plant.",
+        "Pupuk Kaltim's plants are chemical and fertiliser installations, which generally sit outside the Migas regime. Their pressure vessels and storage tanks come within the manpower ministry's occupational safety regulation for that equipment, Permenaker 37/2016, with its statutory examinations, alongside the company's own procedures. RBI there works as an engineering tool for directing inspection effort inside those examinations rather than as a legal route for moving their dates, and the register carries every statutory date unchanged. Which regime governs a particular item is for the owner's compliance staff to confirm."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"]
+      ]
+    },
+    {
+      "id": "bontang-study",
+      "h": "Organising the study on Central Indonesia Time",
+      "p": [
+        "Bontang keeps Central Indonesia Time, UTC+8, two and a half hours ahead of Hyderabad and thirteen or fourteen hours ahead of Houston depending on the US season. Workshops run in the Bontang late morning and afternoon, inside the Hyderabad working day, and calculation and drafting continue in Houston while the site is closed. For a reactivation scope the timetable is worked backwards from the target cool-down date, so that the intrusive inspection list is fixed early enough for scaffolding, spares and the appointed inspection company's people to be arranged.",
+        "The data request for an LNG train differs from a refinery's: cold box and exchanger records, insulation fill records, nitrogen purge and dew point logs for idle periods, trip and restart histories, mercury and acid gas analyses at the inlet, and the maintenance history of machinery whose vibration has affected small-bore connections. For the fertiliser plants it adds reformer tube measurements, converter inspection reports, passivation records for urea synthesis and storage chemistry for ammonia. Everything comes through a data room the owner controls.",
+        "Nobody needs to travel for the study. Checks that need eyes on the plant, such as insulation condition on idle trains, dew point readings, injection points, crack-detection results at selected welds and tank annular plates, go on a written list for the owner's inspectors or the inspection company appointed under the Migas regulation, and their findings are loaded into the register before the plan is issued."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]
+      ]
+    },
+    {
+      "id": "bontang-approval",
+      "h": "What the owner keeps",
+      "p": [
+        "Restart scopes, intervals and the replacement of items whose condition cannot be shown are the owner's decisions: for the LNG plant, those of the inspection authority within the organisation headed by its Kepala Teknik, inside the Migas approval process; for the fertiliser plants, those of the owner's inspection authority together with the statutory examiners. Atlantis prepares the analysis and the plan. It is not the inspector of record, holds no inspection company approval under the Migas regulation, and leaves the engineering assessment of damage found outside code limits to the owner's engineers, because fitness-for-service work is not something Atlantis performs."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (high-temperature hydrogen attack)",
+    "API 510, API 570 and API 653",
+    "Permen ESDM 32/2021 (technical inspection and safety examination of oil and gas installations)",
+    "Minister of Manpower Regulation No. 37 of 2016 (pressure vessels and storage tanks)"
+  ],
+  "deliverables": [
+    "Train-by-train register that records each train's operating state: running, reserve, laid up or reactivated",
+    "Risk-ranked reactivation scope: intrusive inspection, external examination or reliance on records for each item",
+    "Feed-case reassessment of inlet, acid gas removal, dehydration and mercury removal units",
+    "Mechanism map and inspection plans for reformer, shift, synthesis, ammonia storage and urea sections",
+    "Tie-in and retained-equipment review for revamped plant",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Verification list for the owner's inspectors and a data-gap log"
+  ],
+  "industries": [
+    "LNG liquefaction and export",
+    "LPG storage and loading",
+    "Ammonia production and storage",
+    "Urea manufacture",
+    "Gas treating"
+  ],
+  "faqs": [
+    { "q": "Is RBI worth doing for an LNG plant that may only run until the mid-2030s?", "a": "Arguably more so. With a finite operating horizon every inspection has to earn its place, and RBI shows which items carry enough risk to justify intrusive work before the end of service and which can be managed with external checks. The study weighs intervals against the expected operating life and says plainly where an item's remaining life, or the plant's own horizon, is driving a recommendation." },
+    { "q": "How does RBI help with reactivating an idle train such as Train F?", "a": "By ranking the items to be examined before restart. The study assesses what each item's lay-up could have caused, the condition it was in at shutdown and the consequence of a failure at first cool-down. High-risk items get intrusive inspection or testing, low-risk items with sound preservation records get external checks, and items whose condition cannot be shown go to the owner's engineers for a replacement decision." },
+    { "q": "Our trains run well below design rate. Does that change the RBI model?", "a": "It can. Lower velocities let water and solids settle, temperature profiles through the cryogenic exchanger shift, and trains that trip and restart more often collect extra thermal cycles. The study asks for each train's real operating pattern and trip history, reassesses the circuits whose conditions have moved and leaves unchanged circuits on their existing basis, with the operating assumptions written into the report." },
+    { "q": "What should change when gas from North Ganal arrives?", "a": "The feed case. Gas from a new field brings its own carbon dioxide, hydrogen sulfide, mercury and heavy hydrocarbon content, and the inlet, acid gas removal, dehydration and mercury removal units feel the difference first. Those units are reassessed against the new feed analysis, with operating limits on the variables that drive their damage, before the register is relied on for the trains that receive the gas." },
+    { "q": "Can thickness surveys cover ammonia storage and urea synthesis equipment?", "a": "Not on their own. Ammonia stress corrosion cracking in carbon steel and carbamate attack in urea synthesis do not show up as general wall loss. The plan specifies crack detection at susceptible welds in ammonia storage, internal examination and passivation records for the urea loop, and credits past inspection only where the technique used could have found the damage in question." },
+    { "q": "Does the Migas risk-analysis route apply to the fertiliser plants?", "a": "Generally not. Permen ESDM 32/2021 covers oil and gas business activities, and a fertiliser plant usually sits outside it, with its pressure vessels and tanks under the manpower ministry's regulation and its statutory examinations. Your compliance staff confirm the regime for each item. Within those examinations, risk ranking still decides where extra inspection effort, technique and coverage should go." },
+    { "q": "Does anyone from Atlantis travel to Bontang for the study?", "a": "The study does not need travel. It runs from a data room and video workshops, and the checks that need eyes on the plant, from cold box dew points and insulation condition to crack-detection examinations and tank annular plates, go on a written list for your inspectors or your appointed inspection company, and what they find is loaded into the register before any plan goes out." },
+    { "q": "Who approves restart scopes and intervals?", "a": "The owner. For the LNG plant, the inspection authority within the organisation headed by the Kepala Teknik approves intervals and restart scopes inside the Migas process; for the fertiliser plants, the owner's inspection authority decides alongside the statutory examiners. The study documents the basis for every recommendation and the triggers that would reopen it, so each decision can be traced and defended." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"],
+    ["/inspection/risk-based-inspection/balikpapan", "RBI in Balikpapan"],
+    ["/inspection/risk-based-inspection/cilegon", "RBI in Cilegon and Merak"],
+    ["/inspection/risk-based-inspection/bintulu", "RBI in Bintulu, Sarawak"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Badak LNG plant in Bontang operated by PT Badak NGL within Pertamina's upstream subholding (PHE); intake up to 3,700 MMscfd, capacity 22.5 MTPA; two active trains and one idle train in reserve (October 2025); Train F not operating since 2020; reactivation assessment February to November 2025 covering at least 7,200 assets and components, some to be replaced; target October 2028 for Eni North Ganal gas (about 5 Tcf initial reserves, flow expected 2027-2028); plant life expected to 2034; six LNG tanks (636,000 m3 total) and five LPG tanks (40,000 m3 each)", "url": "https://industri.kontan.co.id/news/siap-tampung-gas-baru-eni-badak-lng-reaktivasi-train-f-dengan-biaya-us-139-juta" },
+    { "fact": "PT Badak NGL is a company within Pertamina's upstream subholding; 2025 performance reported June 2026, with declining upstream gas supply named as a challenge", "url": "https://industri.kontan.co.id/news/produksi-lng-badak-lng-tembus-712-juta-meter-kubik-pada-tahun-2025" },
+    { "fact": "Bontang LNG: eight trains A to H; first trains (A and B) started 1977; trains A and B in decommissioning, train D under a long-term idle procedure (undated background); Eni Merakes gas from April 2021", "url": "https://gem.wiki/Bontang_LNG_Terminal" },
+    { "fact": "Pupuk Kaltim Ammonia Plant-2 operating since 1984; revamp began November 2023; inaugurated 29 January 2026; capacity about 595,000 t ammonia and 570,000 t urea per year; technical life extended up to 15 years", "url": "https://www.goodnewsfromindonesia.id/2026/02/02/pabrik-tua-direvitalisasi-pupuk-kaltim-siap-sokong-swasembada-pangan" },
+    { "fact": "Ammonia Plant-2 revamp: new shift converter, ammonia converter and CO2 removal system, DCS added; performance test average 1,841 t/d ammonia vs previous 1,767 t/d (31 August 2026)", "url": "https://katadata.co.id/berita/industri/6a95594a03f51/pupuk-kaltim-segera-operasikan-amonia-pabrik-2-kapasitas-capai-1841-tonhari" },
+    { "fact": "Kaltim-5 in the East Kalimantan Industrial Estate, Bontang, designed for 850,000 t ammonia and 1.15 million t urea per year (opening reported June 2015)", "url": "https://en.tempo.co/amp/675056/largest-fertilizer-plant-in-asia-pacific-to-open-in-bontang" },
+    { "fact": "Permen ESDM 32/2021: periodic inspection by fixed period or risk analysis; scope is oil and gas business activities", "url": "https://peraturan.bpk.go.id/Download/261051/Permen%20ESDM%20No.%2032%20Tahun%202021.pdf" },
+    { "fact": "Permenaker 37/2016 covers pressure vessels and storage tanks (first, periodic, special and re-inspection)", "url": "https://pasal.id/peraturan/permen/permenaker-no-37-tahun-2016" }
+  ]
+}

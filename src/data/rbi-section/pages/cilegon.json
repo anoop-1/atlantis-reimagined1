@@ -1,0 +1,204 @@
+{
+  "title": "RBI in Cilegon and Merak: Crackers, Chlor-Alkali and Steel",
+  "description": "Remote RBI for Cilegon and Merak: naphtha crackers, chlorine and vinyls, steelworks utilities and jetties on the Sunda Strait, with consequence across fences.",
+  "h1": "Risk-based inspection for the Cilegon and Merak industrial coast in Banten",
+  "eyebrow": "Risk-based inspection in Cilegon",
+  "intro": "Cilegon and Merak, at the western tip of Java where the Sunda Strait narrows towards Sumatra, hold one of Indonesia's densest groupings of petrochemical, chlor-alkali and steel plants. Two naphtha crackers, vinyls and polymer units, a steelworks with its industrial estate and a string of private jetties share a short stretch of coast. This page is for inspection and integrity engineers there. It covers cracker, chlorine and steelworks damage mechanisms, why consequence must look beyond each fence line, the coastal and natural hazards of the strait, which rules apply to plants outside the oil and gas regime, and how Atlantis delivers an RBI study remotely.",
+  "highlights": [
+    { "h": "Crackers from coil to cold box", "p": "A naphtha cracker runs from furnace coils that creep and carburise to a refrigerated section where brittle fracture is the worry. The register follows temperature rather than unit boundaries, so each mechanism is assessed where it can actually act." },
+    { "h": "Chlorine changes the consequence", "p": "Chlor-alkali and vinyls plants handle chlorine, hydrogen chloride and vinyl chloride, where a small leak is a toxic event before it is anything else. Consequence is modelled on dispersion towards neighbouring plants, the port and the town, not on inventory alone." },
+    { "h": "On Western Indonesia Time", "p": "Cilegon keeps UTC+7, an hour and a half ahead of Hyderabad. Workshops fit the Banten late morning and early afternoon, the study needs no travel, and checks on the plant go to the site's own inspectors on a written list." }
+  ],
+  "sections": [
+    {
+      "id": "cilegon-cluster",
+      "h": "Who operates along the Cilegon and Merak coast",
+      "p": [
+        "Chandra Asri Group runs an integrated petrochemical complex in Cilegon built around its naphtha cracker, producing olefins and polyolefins together with butadiene, MTBE and butene-1; the MTBE and butene-1 plants were enlarged by a quarter after technical trials in February 2026. The group also offers jetty services for ships of up to 96,000 deadweight tonnes and tank farm services, runs a 120 megawatt power plant for Cilegon users through Krakatau Chandra Energi, and draws water treatment from an associated company, Krakatau Tirta Industri. Its chlor-alkali venture, Chandra Asri Alkali, is building a plant in Cilegon for 400,000 tonnes a year of caustic soda and 500,000 tonnes of ethylene dichloride, which was expected in 2027 when the plan was announced in 2025. Through a joint venture with Glencore, Chandra Asri also holds the Aster refinery and cracker on Pulau Bukom in Singapore.",
+        "Lotte Chemical's new complex in Cilegon, built on a 110-hectare site from 2022, began commercial production in October 2025 and was inaugurated that November. Its cracker is designed for 1 million tonnes a year of ethylene and 520,000 tonnes of propylene and can take up to half its feed as LPG, with polypropylene, butadiene and benzene-toluene-xylene units downstream; its ethylene is expected to replace the imported ethylene used by Lotte Chemical Titan Nusantara's polyethylene plant at Merak. Asahimas Chemical, part of the AGC group, has operated a complex on the Anyer road in Cilegon since 1989, making caustic soda, ethylene dichloride, vinyl chloride monomer, PVC, hydrochloric acid and sodium hypochlorite, and its PVC capacity reached 750,000 tonnes a year after an expansion that went into full operation in 2022.",
+        "Krakatau Steel and Krakatau Posco, its joint venture with Korean partners, run steelworks in the Krakatau Industrial Estate Cilegon. In early 2026 Krakatau Steel said the state investment agency Danantara would be the main funder of a new upstream iron and steel plant on a 500-hectare plot in the estate. Around these anchor plants sit gas, chemical and logistics businesses, and the Merak ferry port links Java with Sumatra across the strait."
+      ]
+    },
+    {
+      "id": "cilegon-crackers",
+      "h": "Two crackers, from furnace coil to cold box",
+      "p": [
+        "A steam cracker's damage register follows temperature down the plant. Radiant coils run hot enough for creep and carburisation to limit their life, and decoking adds thermal fatigue; transfer line exchangers and quench systems see thermal shock and fouling; and dilution steam and quench water circuits can corrode where acids formed from the feed collect. Inspection planning for the hot end leans on furnace tube measurements, coil replacement history and run-length records far more than on general thickness surveys.",
+        "Further down, compression and treating bring caustic stress corrosion cracking around the caustic wash tower and spent caustic system, wet hydrogen sulfide damage where sulfur from the feed concentrates, and fouling that can hide local attack. The cold section, with its demethaniser, ethylene refrigeration and cold boxes, runs where ordinary carbon steel would turn brittle, so materials, minimum design metal temperatures and the records of cold excursions carry the probability assessment there. Butadiene units need attention for polymer growth inside equipment, which can block lines and overstress vessels when inhibition fails.",
+        "LPG feed adds its own items. A cracker able to take up to half its feed as LPG needs storage, vaporisation and transfer equipment whose risk depends on whether the gas is held refrigerated or under pressure, and on how cold it gets during depressurisation. A new cracker's register starts from design data and commissioning baselines, while a long-running cracker's draws on many years of furnace and turnaround records. Where one contractor inspects at both, the study keeps their histories apart while sharing the damage mechanism logic."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "cilegon-chlorine",
+      "h": "Chlorine, caustic and vinyl chloride",
+      "p": [
+        "Chlor-alkali and vinyls plants combine very corrosive services with toxic inventories, and many of their materials perform only inside narrow conditions: titanium that resists wet chlorine can burn in dry chlorine, and carbon steel that carries dry chlorine safely is attacked quickly once moisture gets in. The table maps the main services to the mechanisms an RBI study usually examines and the evidence that carries the most weight in each."
+      ],
+      "table": {
+        "head": ["Service", "Mechanisms usually examined", "Evidence that carries most weight"],
+        "rows": [
+          ["Brine treatment and electrolysis", "Chloride pitting and crevice corrosion, breakdown of linings and coatings in hot brine", "Lining inspection records, cell and header maintenance history, brine chemistry"],
+          ["Wet and dry chlorine", "Fast corrosion of carbon steel if dry chlorine picks up water; ignition of titanium in dry chlorine", "Drying performance and moisture monitoring, materials verification at every wet-to-dry boundary"],
+          ["Caustic evaporation and storage", "Caustic stress corrosion cracking of carbon steel at temperature, attack on unsuitable alloys at high concentration", "Post-weld heat treatment records, crack detection at welds, operating temperature history"],
+          ["Ethylene dichloride and vinyl chloride", "Hydrochloric acid corrosion wherever water appears, chloride cracking of austenitic stainless steel, coking and creep in cracking furnaces", "Water carry-over records, furnace tube inspection, thickness mapping at condensation points"],
+          ["Hydrochloric acid and hypochlorite", "Attack on metals and on rubber, plastic and glass-reinforced linings", "Lining spark testing and internal inspection, blistering and permeation records, replacement history"]
+        ]
+      },
+      "links": [
+        ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"]
+      ]
+    },
+    {
+      "id": "cilegon-steel",
+      "h": "Steelworks utilities belong in the register too",
+      "p": [
+        "An integrated steelworks is not a refinery, but it holds a large population of pressure equipment that a risk-based programme can serve: boilers and steam systems, air separation and industrial gas supply, fuel gas mains and holders, compressed air receivers, cooling water systems and, in cold rolling, the acid used to pickle strip and the plant that regenerates it. Much of that equipment is inspected on statutory dates and maintenance routines rather than on any damage basis.",
+        "RBI adds most where the damage is specific to the service. Oxygen systems carry ignition and cleanliness hazards alongside corrosion. Process gas from iron and steel making can carry moisture, dust and corrosive species that attack mains and holders from the inside. Hydrochloric acid pickling and regeneration combine acid attack with heat and lined equipment. Cooling water drawn from treated or brackish sources brings fouling and microbiologically influenced corrosion. Ranking these circuits by damage and consequence lets a steelworks send inspection to the systems whose failure would stop production or hurt people, while every statutory examination stays where it is.",
+        "A new upstream steel plant will arrive with its own handover records, and the moment its utilities, gas systems and pressure equipment are commissioned is the easiest time to set an inspection baseline. Tying that equipment into the same register as the existing works from the start avoids the familiar situation in which two plants on one estate keep incompatible records."
+      ]
+    },
+    {
+      "id": "cilegon-consequence",
+      "h": "Fence lines that touch: consequence across neighbours",
+      "p": [
+        "Plants in Cilegon and Merak sit close together and often share pipe corridors, jetties, power and water. A release at one site can reach the control rooms, people and equipment of another, and a toxic cloud pays no attention to whose equipment failed. Consequence models built inside one fence line routinely understate that.",
+        "The study therefore asks what lies beyond the boundary in each direction: neighbouring process units and occupied buildings, the estate roads and the town, the port and the ferry routes, and the shared utilities whose loss would affect several plants at once. Releases of chlorine, hydrogen chloride or vinyl chloride are modelled on dispersion and exposure; releases of ethylene, propylene, LPG or naphtha on ignition and escalation; and where a failure could cut a shared service such as power, water or a common pipe rack, the business consequence is recorded for the owner and for the neighbours who depend on it. Each item carries the consequence basis used, so a reviewer can see why it sits where it does in the ranking."
+      ]
+    },
+    {
+      "id": "cilegon-jetties",
+      "h": "Jetties, pipe corridors and tank farms",
+      "p": [
+        "Feedstock and products move along this coast through private jetties, berths and pipelines: naphtha and LPG in, polymers, chemicals and fuels out, and caustic, chlorine derivatives and acids in between. Jetty piping over water, loading arms and the lines running along shared corridors between plants are among the most exposed and least accessible steel in the area, and their ownership is often split, with one company owning the line and another the ground or the jetty it crosses.",
+        "An RBI register for a Cilegon site gives each of these lines an owner and a corrosion loop: marine atmosphere and splash zone for jetty sections, corrosion at supports and under clamps, soil-side and sleeve corrosion where lines cross roads, and dead legs left behind when a line stops serving a plant it once fed. Tanks for naphtha, aromatics, caustic and acids are assessed on the probability drivers each product brings, and for hydrocarbon tanks API 653's route to risk-based internal inspection intervals is used where the owner's procedures allow it, provided the assessment is validated and reviewed at least every ten years."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "cilegon-strait",
+      "h": "Sunda Strait air, rain and natural hazards",
+      "p": [
+        "The Cilegon coast is hot and humid all year, with a wet season of heavy rain, and winds off the strait carry salt to jetties, tank shells, pipe racks and the outer faces of process units. Coating breakdown and atmospheric corrosion are therefore constant, corrosion under insulation dominates the external register for warm insulated carbon steel, and insulated austenitic stainless steel needs screening for external chloride cracking. Emissions and dust from neighbouring plants can make a local atmosphere more aggressive than the coastline alone would suggest, so the external ranking looks at what sits upwind as well as at the sea.",
+        "The strait also carries natural hazards that belong in the consequence and reassessment logic. On 22 December 2018 the collapse of a flank of the Anak Krakatau volcano sent a tsunami onto the Banten and Lampung coasts, with surveyed run-up of roughly one to nine metres along the shore between Anyer and Labuhan, and researchers studying it noted Cilegon as one of the industrial regions on the edge of the strait. An RBI study is not a hazard study and does not replace one, but it can carry the site's own tsunami, flood and seismic assessments into the consequence ratings of low-lying shore equipment, and it can name a strong earthquake, a tsunami warning or a flood as a trigger for targeted inspection before routine dates resume."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"]
+      ]
+    },
+    {
+      "id": "cilegon-rules",
+      "h": "Which rules apply to a Cilegon plant",
+      "p": [
+        "Most installations on this coast are petrochemical, chemical or steel plants rather than oil and gas businesses, which shifts the regulatory picture away from the Migas route described on the Indonesia page. The table gives the usual starting point; the owner's compliance staff confirm the governing regime item by item, and the register records it beside every statutory date.",
+        "Ownership that spans countries adds another layer. A group with crackers both in Cilegon and on Pulau Bukom answers to different regulators in each, so a shared damage mechanism library can serve both sites while each register keeps its own regulatory column and approval route."
+      ],
+      "table": {
+        "head": ["Kind of installation", "Usual regime for pressure equipment and tanks", "How RBI fits"],
+        "rows": [
+          ["Petrochemical, chlor-alkali and vinyls plants", "The manpower ministry's regulation on pressure vessels and storage tanks, Permenaker 37/2016, with its first, periodic and special inspections, plus the owner's procedures and licensor requirements", "An engineering basis for inspection scope, technique and coverage inside the statutory examinations"],
+          ["Steelworks boilers, receivers and utilities", "Occupational safety rules for boilers and pressure equipment under the manpower ministry, and the company's maintenance standards", "Ranking circuits by damage and consequence while statutory dates stay fixed"],
+          ["Fuel or LPG storage run as an oil and gas business activity", "Permen ESDM 32/2021, including its risk-analysis route for periodic inspection intervals", "A risk analysis able to set intervals, organised to the Migas mechanism the owner works to"]
+        ]
+      },
+      "links": [
+        ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"],
+        ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"]
+      ]
+    },
+    {
+      "id": "cilegon-new-plant",
+      "h": "New plant arriving on an established coast",
+      "p": [
+        "Cilegon is in the middle of a build-out: a new cracker that began commercial operation in late 2025 and was expected to reach nameplate output during 2026, a caustic soda and ethylene dichloride plant under construction, enlarged MTBE and butene-1 units and a planned steel plant. Each new unit is easiest to baseline while its handover package is still intact, and each connects to older equipment in ways that can quietly change that equipment's duty. The study looks at both sides of every such connection."
+      ],
+      "list": [
+        "New equipment gets an early-life inspection to confirm its as-built condition, and its first measured corrosion rates replace design assumptions only after a repeat survey.",
+        "Existing equipment whose feed, flow or temperature changes because a new unit now supplies or draws from it is reassessed for the new conditions rather than carried forward.",
+        "Shared jetties and pipe corridors that take on new products are given fresh corrosion loops for those products.",
+        "Ethylene now supplied from a local cracker instead of imports changes the receipt system at the consuming plant, which is reviewed as a modified circuit.",
+        "Debottlenecked units, such as plants run at a quarter more capacity, are checked for velocity, temperature and erosion changes in the equipment around the enlarged sections."
+      ]
+    },
+    {
+      "id": "cilegon-study",
+      "h": "Running the study on Western Indonesia Time",
+      "p": [
+        "Cilegon keeps Western Indonesia Time, UTC+7, an hour and a half ahead of Hyderabad and twelve or thirteen hours ahead of Houston depending on the US season. Workshops are booked in the Banten late morning and early afternoon, inside the Indian working day, and Houston picks up calculations and drafting after the plant has closed for the day. Several plants here belong to Japanese and Korean groups and run on licensor technology, so the data request asks at the outset which corporate inspection or RBI standard applies and whether its risk matrix must be used.",
+        "Documents arrive through a data room the owner controls, and records in Bahasa Indonesia, Japanese or Korean are summarised under an arrangement agreed with the site engineers. The study needs no travel to Banten. Field checks, including lining and insulation condition, moisture monitoring points in chlorine service, crack-detection results at caustic welds, jetty line supports and tank annular plates, go on a written verification list for the plant's own inspectors or the inspection body it engages, and their results are loaded into the register before the plan is issued.",
+        "Intervals and scopes take effect only when the owner's inspection authority adopts them, and statutory examinations continue as the governing regulation sets them. Atlantis prepares the analysis and the plan; it does not act as inspector of record, issues no statutory certificates and leaves the engineering assessment of damage outside code limits with the owner's engineers."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Minister of Manpower Regulation No. 37 of 2016 (pressure vessels and storage tanks)",
+    "Permen ESDM 32/2021 (oil and gas installations, where applicable)"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops for cracker, polymer, chlor-alkali, vinyls and steelworks service",
+    "Consequence basis for toxic and flammable releases that accounts for neighbouring sites and shared utilities",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Corrosion loops and owners for jetty lines and shared pipe corridors",
+    "Review of existing equipment affected by new units, tie-ins and debottlenecking",
+    "Post-event inspection triggers for earthquake, tsunami warning and flood",
+    "Verification list for the plant's inspectors and a data-gap log"
+  ],
+  "industries": [
+    "Olefins and polyolefins",
+    "Chlor-alkali and vinyls",
+    "Steelmaking utilities",
+    "Chemical tank terminals and jetties",
+    "Industrial gases and power"
+  ],
+  "faqs": [
+    { "q": "Can one RBI method cover a cracker, a chlor-alkali plant and a steelworks?", "a": "One method can, provided the damage mechanism library and consequence models are built for each service rather than borrowed from refining. The probability logic, risk matrix and register structure stay the same. What differs is the mechanism list, the inspection techniques that earn credit and the consequence basis, which for chlorine and vinyl chloride is toxic dispersion rather than fire." },
+    { "q": "Our plant is not an oil and gas installation. Can it still use RBI?", "a": "Yes, as an engineering tool for deciding inspection scope, technique and coverage. Whether a statutory examination date can move is a separate legal question: equipment under the manpower ministry's regulation keeps the examinations that regulation sets, and the study records them unchanged. Intervals set by risk analysis in the Migas sense belong to oil and gas installations under Permen ESDM 32/2021." },
+    { "q": "How is chlorine service treated differently from other services?", "a": "Through materials limits and moisture control. Dry chlorine is carried in carbon steel and wet chlorine in titanium, and each material fails badly in the other condition. The study maps every wet-to-dry boundary, uses drying performance and moisture monitoring in the probability assessment, and treats a moisture excursion as a trigger for reassessing the items downstream of it." },
+    { "q": "Why should consequence look beyond our own fence line?", "a": "Because plants here share corridors, jetties and utilities and sit close to each other, the port and the town. A toxic or flammable release can affect people and equipment outside your site, and losing a shared pipe rack or utility can stop several plants at once. The study models those effects and records its basis, so the ranking reflects the exposure that actually exists." },
+    { "q": "Should RBI take account of the 2018 Sunda Strait tsunami?", "a": "RBI does not replace a natural hazard study, but it should use one. Your site's tsunami, flood and seismic assessments can feed the consequence ratings of low-lying shore equipment such as jetty lines and tanks, and the plan can name a strong earthquake, a tsunami warning or a flood as a trigger for targeted inspection before routine due dates are confirmed again." },
+    { "q": "When should a new unit enter the RBI register?", "a": "At commissioning, while handover records, material certificates and baseline examinations are complete and easy to find. The first inspections are then planned to confirm the as-built condition. Existing equipment that the new unit affects, through tie-ins, shared utilities or a changed jetty duty, is reassessed at the same time rather than left on its old basis." },
+    { "q": "Does the study involve travel to Cilegon?", "a": "No. It runs from a data room and video workshops held in the Banten working day. Anything that needs eyes on the plant, such as lining condition, insulation, jetty supports or crack-detection results at selected welds, is written into a verification list for your inspectors or the inspection body you engage, and those results are fed into the register before the plan goes out." },
+    { "q": "Who approves the inspection plan?", "a": "Your inspection authority adopts it under your procedures, and the statutory examinations required for each item continue as the regulation sets them. The study documents the basis of each recommendation, the inspection effectiveness credited and the triggers that would reopen it, so an examiner, an insurer or a parent-company auditor can follow how every result was reached." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"],
+    ["/inspection/risk-based-inspection/bontang", "RBI in Bontang"],
+    ["/inspection/risk-based-inspection/cilacap", "RBI in Cilacap"],
+    ["/inspection/risk-based-inspection/jurong-island", "RBI on Jurong Island"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Chandra Asri: olefins and polyolefins from its naphtha cracker; jetty services (PT Chandra Pelabuhan Nusantara) for vessels up to 96,000 DWT and tank farm services; PT Krakatau Chandra Energi 120 MW power plant serving Cilegon; associated company PT Krakatau Tirta Industri for water treatment; Aster Chemicals and Energy (Pulau Bukom, 237,000 bpd refinery, 1.1 Mt ethylene cracker) held through CAPGC, Chandra Asri majority with Glencore; caustic soda and EDC plant by PT Chandra Asri Alkali", "url": "https://chandra-asri.com/en/our-business" },
+    { "fact": "Chandra Asri MTBE and butene-1 plants in its integrated Cilegon complex raised capacity by 25% after technical trials at end of February 2026 (9 March 2026)", "url": "https://chandra-asri.com/en/news/strengthening-national-resilience-chandra-asri-group-increases-mtbe-and-b1-plant-production-capacity" },
+    { "fact": "CA-EDC plant in Cilegon: 400,000 t/y caustic soda and 500,000 t/y EDC, start-up expected 2027, integrated with the existing complex and its ethylene (24 March 2025)", "url": "https://icis.com/explore/resources/news/2025/03/24/11086353/indonesia-s-chandra-asri-reconfigures-cap-2-project-to-start-with-ca-edc-plant" },
+    { "fact": "Lotte Chemical Indonesia New Ethylene complex: 110 ha site in Cilegon, construction from 2022, commercial production October 2025, inaugurated 6 November 2025; 1 Mt/y ethylene, 520,000 t/y propylene, up to 50% LPG feed; PP 350,000 t/y, butadiene 140,000 t/y, BTX 400,000 t/y; LCTN at Merak makes 450,000 t/y polyethylene from imported ethylene that LINE's ethylene is expected to replace; full nameplate expected in 2026", "url": "https://www.ogj.com/general-interest/news/55342012/lotte-starts-operation-of-new-4-billion-indonesian-petrochemical-complex" },
+    { "fact": "Asahimas Chemical factory at Jl. Raya Anyer Km 122, Cilegon, Banten; established 1986, production since 1989; products caustic soda, EDC, VCM, PVC, HCl, sodium hypochlorite", "url": "https://asc.co.id/index.php/en/about" },
+    { "fact": "AGC: ASC PVC capacity 750,000 t after expansion (550,000 before), full-scale operation March 2022, Anyer plant in Banten", "url": "https://www.agc.com/en/news/detail/1202875_2814.html" },
+    { "fact": "Danantara to be main funder of a new Krakatau Steel upstream iron and steel plant on a 500 ha plot in KIEC; PT Krakatau Posco is an Indonesian-South Korean joint venture at KIEC (February 2026)", "url": "https://www.thejakartapost.com/business/2026/02/08/danantara-steps-in-as-primary-funder-for-new-krakatau-steel-plant" },
+    { "fact": "22 December 2018 Sunda Strait tsunami triggered by flank collapse of Anak Krakatau; affected Banten (Pandeglang, Serang) and Lampung coasts; surveyed run-up about 1 to 9 m (max 9.2 m) between Anyer and Labuhan; Cilegon named as an industrial region on the edge of the strait", "url": "https://nhess.copernicus.org/articles/20/933/2020/index.html" },
+    { "fact": "Permenaker 37/2016 covers pressure vessels and storage tanks (first, periodic, special and re-inspection)", "url": "https://pasal.id/peraturan/permen/permenaker-no-37-tahun-2016" }
+  ]
+}

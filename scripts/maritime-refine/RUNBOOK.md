@@ -1,5 +1,8 @@
 # Daily maritime additions — runbook
 
+> **⏸ PAUSED 2026-11-23 by the owner** ("lets pause all maritime SEO pages until further notice, we're going through an audit, so our team is engaged until all classification society audits are done"). The "Maritime daily additions" scheduled task is disabled. Do not add or change maritime pages until the owner says to resume. The live maritime pages stay as they are (owner's choice: leave them live, enquiry form unchanged).
+
+
 Owner, 2026-11-23: maritime pages for ship owners and managers, "~50 pages now, more daily"; "target more European cities in the maritime ports for CVIP, also known as CAS or CAP for owners requirement not class"; "expand more strategic content on how various vessels have to be inspected, what is special survey for vessels of different ages as per IACS recommended inspection practices"; "all new content needs to be of high quality 2000+ words". Each run adds **one guide** and **three port × CVIP pages** from `queue.json`, builds, runs every gate, deploys only if all pass, and reports. See CLAUDE.md §83 and §84.
 
 Why this order: in the maritime section's first ten days live, topic/service pages earned about 39 impressions each against about 8 for a port page and 10 for a port × service page, so guides lead the queue; the owner asked for European CVIP coverage, so European ports lead the port list.

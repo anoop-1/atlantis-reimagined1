@@ -23,8 +23,8 @@
       "id": "geelong-site",
       "h": "The refinery at Corio and what it supplies",
       "p": [
-        "Shell opened the Geelong refinery in 1954 and sold it in 2014 to Viva Energy, which owns and operates it today. It processes crude delivered by sea into petrol, diesel and jet fuel for the Victorian market. The federal Fuel Security Services Payment, extended in March 2026 to 30 June 2030, supports Geelong and Lytton through periods of weak refining margins, and refiners taking part have committed to keep operating until at least mid-2027.",
-        "Like any refinery that has run for seven decades, Geelong carries a mix of equipment states at any one time: units in normal service, units isolated for repair or awaiting a decision on replacement, and equipment preserved for a later restart. Each state needs its own inspection logic in the register, which the next section deals with.",
+        "Shell opened the Geelong refinery in 1954 and sold it in 2014 to Viva Energy, which owns and operates it today. It processes crude delivered by sea into petrol, diesel and jet fuel for the Victorian market. The federal Fuel Security Services Payment, extended in March 2026 to 30 June 2030, supports Geelong and Lytton through periods of weak refining margins; the government has said the extension is meant to keep both refineries operating into the next decade.",
+        "Like any refinery that has run for seven decades, Geelong will at times hold equipment in several states at once: units in normal service, units shut down for maintenance or modification, and equipment held out of service for longer periods. Each state needs its own inspection logic in the register, which the next section deals with.",
         "Alongside the process units sit the refinery's crude and product tankage, the transfer lines between them and the marine berth that serves the site. The study treats tanks, lines and process units as one register with separate corrosion loops, because one owner answers for all of them inside the same safety management system."
       ]
     },
@@ -32,7 +32,7 @@
       "id": "geelong-isolated-units",
       "h": "Equipment that is isolated, preserved or waiting to restart",
       "p": [
-        "An RBI model is usually written for equipment that is running. Units that stand isolated for months, whether after damage, during a long repair or because the market for their product has changed, need a different treatment. Process-side corrosion stops, but wet air, condensate, residual hydrocarbon, sludge and chlorides left in the system can attack internals that were protected while hot and flowing. Austenitic stainless steel carrying sulfide scale can suffer polythionic acid stress corrosion cracking once moisture and air reach it, unless it is neutralised or kept dry.",
+        "An RBI model is usually written for equipment that is running. Units that stand isolated for months, whether for a long overhaul, a deferred project or a change in the market for their product, need a different treatment. Process-side corrosion stops, but wet air, condensate, residual hydrocarbon, sludge and chlorides left in the system can attack internals that were protected while hot and flowing. Austenitic stainless steel carrying sulfide scale can suffer polythionic acid stress corrosion cracking once moisture and air reach it, unless it is neutralised or kept dry.",
         "The register therefore records each isolated item's preservation method, such as nitrogen blanketing, dry air, chemical neutralisation or simple draining, and the date it was last confirmed. Probability is assessed for the idle period itself, and the plan carries a pre-restart list: which items need internal examination, which need thickness checks where condensate collects, which relief devices and instruments need recertification, and which can return on external inspection alone. Repaired or replacement equipment enters the register with its design data and a baseline inspection rather than inheriting the old history.",
         "Equipment around an isolated unit matters as much as the unit. Lines that once carried flow and now sit as dead legs behind closed valves, and shared relief or flare headers that see different service, are added to the review, because their damage mechanisms change the moment the unit stops."
       ]
@@ -252,6 +252,18 @@
     {
       "fact": "AS 3788:2024 supersedes AS/NZS 3788:2006; listed as AS/NZS 3788:2024 with Amendment 1:2025",
       "url": "https://www.intertekinform.com/preview/1569218984991.pdf"
+    },
+    {
+      "fact": "FSSP extension to 30 June 2030 announced 20 March 2026; Energy Minister Chris Bowen said it would keep the refineries operating into the next decade (the 30 June 2027 operating commitment is the original scheme condition)",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803693-australia-extends-subsidy-plan-for-refiners-to-2030"
+    },
+    {
+      "fact": "Ampol and Viva are progressing plans to keep operating into the next decade (FSSP extended to 2030)",
+      "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/australia-extends-support-for-refineries-to-2030--355643"
+    },
+    {
+      "fact": "Reviewer note, not used on the page (owner rule on incidents): Geelong had an April 2026 fire; RCCU restarted June 2026 and the alkylation unit stays offline through 2027. Copy about isolated units is kept generic so it does not allude to this",
+      "url": "https://www.businessnewsaustralia.com/articles/viva-energy-restarts-key-geelong-refinery-unit-after-fire-but-alkylation-plant-to-stay-offline-through-2027.html"
     }
   ]
 }
