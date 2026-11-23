@@ -67,7 +67,10 @@ Files: `queue.json` (work order), `next.mjs` (today's items), `section-brief.md`
      cwi-us-block if changed, the files the wiring script touches, `sources.json`, `log.md`).
    - Append one line to `scripts/training-refine/log.md`: date, new city, sections, word counts, deploy run.
    - Commit (`Daily US training refinement YYYY-MM-DD: {city} page + {n} local-options sections`, ending with the
-     session's attribution lines) and `git push origin HEAD:main`.
+     session's attribution lines). Then `git fetch origin && git rebase origin/main`: if `main` moved during the run
+     (other work is pushed to it too) and the rebase is clean and touched only files outside today's set, rebuild
+     (step 5) and recheck (step 6) before pushing; if the rebase conflicts, `git rebase --abort`, push to
+     `refine/YYYY-MM-DD` and report. Finally `git push origin HEAD:main` (never force).
    - `gh run list --repo anoop-1/atlantis-reimagined1 --workflow deploy-vps.yml --limit 1`, then `gh run watch <id>`.
      If the deploy fails, report it with the failing step (do not retry blindly; do not force anything).
 8. **After deploy:** `curl -s https://atlantisndt.com/<path>` for each changed page shows the new section/title.
