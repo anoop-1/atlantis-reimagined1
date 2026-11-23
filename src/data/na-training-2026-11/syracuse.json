@@ -1,0 +1,15 @@
+{
+  "slug": "syracuse",
+  "lat": 43.05,
+  "lng": -76.15,
+  "localContext": "Syracuse is the hub of Central New York, and its NDT work stretches north to the Lake Ontario shore. Constellation operates Nine Mile Point Units 1 and 2 and the FitzPatrick plant in Scriba, Oswego County, Novelis rolls aluminum in Oswego, and Micron has begun building a semiconductor fab complex in Clay. Lockheed Martin builds radar systems locally, National Grid runs the regional gas and electric networks, and the Interstate 81 viaduct replacement is reshaping downtown. Work follows ASME Section XI and B31 codes, AWS D1.1 and D1.5, and defense customer requirements.",
+  "certPathwayNote": "Central New York employers certify NDT technicians under their own written practices, generally based on ASNT SNT-TC-1A. Nuclear in-service inspection at the Oswego County plants adds utility quality programs and performance demonstration for much ultrasonic work, and defense manufacturers apply customer flow-down. Completing a course does not certify anyone. ASNT central certification is available for technicians who want a credential that moves with them.",
+  "salaryFrom": "albany",
+  "siblings": [
+    "albany",
+    "rochester-new-york",
+    "buffalo",
+    "new-york",
+    "erie"
+  ]
+}

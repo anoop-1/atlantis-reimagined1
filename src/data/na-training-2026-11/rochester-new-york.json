@@ -1,0 +1,15 @@
+{
+  "slug": "rochester-new-york",
+  "lat": 43.16,
+  "lng": -77.61,
+  "localContext": "Rochester, New York, on Lake Ontario, grew on imaging and optics and is still a precision-manufacturing city. Constellation's Ginna nuclear plant operates on the lake shore in Wayne County, L3Harris builds communications and space systems in Rochester, Gleason makes gear production machines, and Eastman Business Park hosts manufacturers on the former Kodak Park site. Rochester Gas and Electric, NYSDOT bridges, canal structures and freight rail add field work. Examinations follow ASME Sections V, VIII and XI, AWS D1.1 and D1.5, and customer drawings for gears, shafts and machined parts.",
+  "certPathwayNote": "Rochester-area employers certify NDT personnel under written practices of their own, normally built on ASNT SNT-TC-1A. Nuclear plant work adds the utility's quality program and, for much ultrasonic examination, performance demonstration, while defense and aerospace customers flow down their own requirements. Training alone certifies nobody; ASNT central certification is the portable alternative.",
+  "salaryFrom": "albany",
+  "siblings": [
+    "buffalo",
+    "albany",
+    "erie",
+    "syracuse",
+    "new-york"
+  ]
+}
