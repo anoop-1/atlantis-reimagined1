@@ -1,0 +1,154 @@
+{
+  "title": "NDT Report Validation in Dallas–Fort Worth, TX | Expert Review",
+  "description": "Independent review of NDT reports and digital inspection data for Dallas–Fort Worth pipeline, utility, power, bridge and structural steel owners, remotely.",
+  "h1": "Independent NDT report and inspection data review for North Texas pipeline, power and structural owners",
+  "eyebrow": "Report validation: Dallas–Fort Worth, Texas",
+  "intro": "Dallas–Fort Worth is less a cluster of plants than a cluster of decision-makers. Pipeline companies, gas and electric utilities, power generators, steel and structures manufacturers and the lawyers, insurers and investors who work with them make decisions here about assets spread across Texas and well beyond. Many of those decisions rest on inspection reports written by contractors the decision-maker has never met. We review those reports and the digital inspection data behind them independently, against the code and the procedure that governed the work, and set out in writing what the evidence supports. Reviews are carried out remotely on the records you send.",
+  "highlights": [
+    {
+      "h": "Portfolio-wide, not plant by plant",
+      "p": "Corporate integrity and engineering groups in the region oversee assets in many states and many contractors' formats. The review applies one consistent reading to all of them, so the head office can compare like with like."
+    },
+    {
+      "h": "Pipelines, power and steel in one review",
+      "p": "Gas transmission and distribution records, boiler and turbine-plant inspections, wind tower and utility structure welds, and bridge girder NDT are each read against their own code, by reviewers who know which clause decides the question."
+    },
+    {
+      "h": "Written for people who were not there",
+      "p": "Counsel, insurers, investors and executives need an opinion they can follow without the raw data in front of them. Each finding states the requirement, the evidence and whether it touches the accept or reject decision."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A region of headquarters, utilities and engineering offices",
+      "p": [
+        "The Dallas Regional Chamber's list of major regional headquarters reads like a directory of the companies that own and inspect energy and industrial assets. Energy Transfer, Atmos Energy, Oncor Electric Delivery, Vistra and its Luminant generation business, and HF Sinclair are all on it, alongside manufacturers such as Arcosa, Trinity Industries, Commercial Metals and Flowserve. Arcosa, headquartered in Dallas, builds utility and related structures and wind towers; Atmos Energy, also headquartered in Dallas, operates Atmos Pipeline–Texas, an intrastate transmission network of roughly 6,000 miles.",
+        "That concentration shapes who asks for an independent review here. It is often a head-office integrity, quality or engineering group checking contractor deliverables from sites in several states before they enter the corporate record. It may be a manufacturer whose weld inspection reports have been rejected by a customer's inspector, an operator weighing a contractor's dig report or replacement-program records, or a law firm, insurer or deal team for whom the inspection record has become evidence. The companies named above describe the region; they are not Atlantis clients."
+      ]
+    },
+    {
+      "h": "Who commissions reviews in North Texas, and what they need from the opinion",
+      "p": [
+        "The requester decides what the opinion must deliver. The table sets out the situations we expect most from the region and what each reader needs to take away."
+      ],
+      "table": {
+        "head": ["Requester", "Typical records", "What the opinion has to give them"],
+        "rows": [
+          ["Corporate integrity or quality group", "Contractor reports and digital data from sites in several states", "A consistent verdict on each package, and patterns by contractor or site that point to systemic gaps"],
+          ["Gas transmission or distribution operator", "Girth weld DR images, replacement-program weld records, dig and coating reports", "Whether the record meets the operator's procedure and the federal minimum standards it adopts"],
+          ["Power generator", "Boiler tube thickness surveys, HRSG and piping weld reports, condenser and exchanger tube data", "Which readings and calls can support repair, replacement and outage-planning decisions"],
+          ["Structures manufacturer or fabricator", "UT, MT and VT reports on tower, pole and girder welds, procedure qualifications", "Whether a customer's rejection rests on the governing code clause and the contract, or on a misreading"],
+          ["Bridge contractor or owner's engineer", "Fabrication shop NDT reports on steel members, shop drawings, weld maps", "Whether examination extent and acceptance match AWS D1.5 or D1.1 and the plans"],
+          ["Counsel, insurer or investor", "The full inspection file behind a dispute, claim or transaction", "What the record proves, what it does not, and which gaps could be closed from documents that may exist"]
+        ]
+      }
+    },
+    {
+      "h": "Pipelines: transmission, distribution and the Barnett Shale",
+      "p": [
+        "North Texas sits over the Barnett Shale in the Fort Worth Basin, and gathering lines, transmission pipelines and distribution systems run through and around a dense urban area. Interstate lines answer to PHMSA. Intrastate transmission, distribution and regulated gathering lines fall to the Railroad Commission of Texas, which adopts the federal minimum safety standards by reference, so a weld record on a Texas intrastate line is read against the same Part 192 requirements an interstate operator would follow, plus whatever the Commission adds.",
+        "The records we expect from the region are girth weld radiographs and DR images on new and replacement pipe, automated UT on larger construction spreads, MT and UT on fittings and repair sleeves, and dig reports that combine coating observations, pit depth measurements and wall thickness data. Common weaknesses include images that cannot be matched to a weld number on the as-built drawing, welder identification missing from the weld log, repairs without a final acceptable examination, and pit depth gauges whose calibration nobody recorded. The opinion lists each one and says whether existing documents could close it."
+      ]
+    },
+    {
+      "h": "Power generation, boilers and transmission structures",
+      "p": [
+        "Generating stations across the ERCOT region are owned and engineered from North Texas, and their outage packages produce boiler waterwall and superheater thickness surveys, HRSG tube and header inspections, high-energy piping weld examinations and condenser tube data. Boilers carry certificates of operation from the Texas Department of Licensing and Regulation, renewed after inspection by TDLR's deputy inspectors or by authorized inspectors from authorized inspection agencies, so a boiler report serves both the owner's engineers and the certificate.",
+        "Transmission and wind structures add a manufacturing record. Tubular steel poles, lattice towers and wind tower sections are welded in quantity, and their UT, MT and visual records are usually written to AWS D1.1 and the purchaser's specification. When a customer's inspector or a third-party surveyor rejects a batch, the review checks the procedure qualification, the examination technique, the acceptance criteria applied and the evidence for each rejected indication, and says plainly whether the rejection stands.",
+        "Condenser and feedwater heater tube data from eddy current examination is reviewed by a reviewer holding the eddy current certification the owner's contract specifies, named in the proposal."
+      ]
+    },
+    {
+      "h": "Bridges and structural steel under TxDOT and AWS codes",
+      "p": [
+        "Steel bridge work in Texas runs through the Texas Department of Transportation's Standard Specifications. Item 441, Steel Structures, in the 2024 edition directs fabricators to follow the applicable AWS code, D1.5 or D1.1, unless the plans say otherwise, and for bridge structures it has the contractor perform magnetic particle, radiographic or ultrasonic testing in accordance with D1.5, while the Engineer periodically witnesses, examines, verifies and interprets that NDT. TxDOT separately qualifies steel bridge fabrication plants under its DMS-7370 procedure and publishes an approved list.",
+        "That arrangement puts two interpretations of the same weld side by side: the fabricator's NDT report and the Engineer's verification. When they disagree, an independent reading against D1.5's acceptance criteria, the approved procedure and the plans helps both sides see whether the difference is technical or clerical. The same applies to building and industrial steel inspected to D1.1, where special inspection reports, fabricator QC records and erector reports can each say something different about the same connection."
+      ]
+    },
+    {
+      "h": "Comanche Peak and nuclear-related records",
+      "p": [
+        "North Texas is home to one of the state's two nuclear plants. Vistra's Comanche Peak plant has two units, and in 2024 the NRC renewed their licences to allow operation through 2053. NRC Region IV, which carries out the agency's duties in Texas, has its regional office in Arlington, between Dallas and Fort Worth.",
+        "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and we do not claim experience at any named plant. Where a nuclear owner, a vendor or counsel wants an independent technical opinion on an inspection record, for instance on non-safety-related scope, as part of vendor oversight, as an owner's second opinion or in a dispute, the opinion is offered as exactly that, and the licensee's quality assurance organisation decides how, or whether, to use it. In-service inspection records under ASME Section XI remain the licensee's, as does every decision that follows from them."
+      ]
+    },
+    {
+      "h": "Digital inspection data across a multi-state portfolio",
+      "p": [
+        "Head-office teams increasingly receive inspection results as digital data rather than reports: thickness readings pushed into an enterprise inspection data management system, DR images and PAUT files on a shared platform, and contractor reports generated by digital reporting software with electronic signatures and automated pass or fail fields. That makes portfolio oversight possible from Dallas or Fort Worth, but it also lets a single faulty template or mapping table spread the same error across dozens of sites.",
+        "The review checks lineage and consistency together. For a sample of records we confirm that each reading or image traces to an instrument file, that location and asset codes match the corporate register, that automated accept or reject logic applied the correct acceptance criteria and edition, and that every electronic signature belongs to a person certified for that method on that date. Where several contractors report into one system, we compare how each one filled the same fields, because inconsistent use of a field is often the first sign that two contractors mean different things by the same word."
+      ]
+    },
+    {
+      "h": "A remote review from Dallas–Fort Worth",
+      "p": [
+        "Atlantis does not have a Dallas or Fort Worth office. The review is carried out remotely, from the offices in Houston and Hyderabad, on reports and files you send through secure transfer, which also means one engagement can cover assets in Texas, other US states and the Middle East.",
+        "Describe the assets, the methods, the codes and what the review is for, and we reply within one business day with the scope, the named reviewer and a quote. Questions the record cannot answer come back to you in writing. The opinion classes each report as sound, deficient in documentation only, or deficient in disposition, citing the clause or procedure step and the evidence for every finding. Atlantis does not perform industrial radiography in Texas, which the Department of State Health Services licenses, but radiographs and DR images from your licensed contractor are reviewed as documents."
+      ]
+    },
+    {
+      "h": "Reviewers, and what remains with the owner",
+      "p": [
+        "UT, RT, MT, PT and VT reviews are directed by an ASNT NDT Level III who is certified in each of those five methods. For eddy current, acoustic emission or other techniques, the proposal names a reviewer whose certification matches what the contract requires. The review team brings experience from oil and gas, petrochemical, nuclear and maritime inspection.",
+        "Fitness-for-service, remaining-life and rerating calculations stay with your engineer. The inspector of record, the Authorized Inspector or the Authorized Nuclear Inspector named in your program keeps that role, and Atlantis does not take it on. Reports on work Atlantis performed are not reviewed by Atlantis, and certifying personnel is outside the service."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Our headquarters is in Dallas but the assets are in other states. Can you review those records?",
+      "a": "Yes. The review is remote and works the same way whether the asset is in Texas, elsewhere in the United States or in the Middle East. The opinion states which state and federal rules, codes and owner standards applied to each record."
+    },
+    {
+      "q": "Can you review inspection records from a nuclear plant?",
+      "a": "Only as an independent technical opinion, for example on non-safety-related scope, for vendor oversight, as an owner's second opinion or in a dispute. Atlantis is not an Appendix B or NQA-1 supplier to any licensee, and the licensee's QA organisation decides how the opinion is used."
+    },
+    {
+      "q": "The Engineer has rejected our bridge girder UT. Can an independent review help?",
+      "a": "It can show whether the rejection rests on the D1.5 acceptance criteria, the approved procedure and the plans, or on a difference in reading that the evidence does not support. The Engineer's role under the contract is unchanged; the opinion gives both sides a common basis for the discussion."
+    },
+    {
+      "q": "Do you review weld inspection records for wind towers and utility structures?",
+      "a": "Yes. We review UT, MT and visual records against AWS D1.1 or the code and specification the purchase order names, including procedure qualification, technique, acceptance criteria and the evidence for each rejected indication."
+    },
+    {
+      "q": "Do you review DR images from pipeline replacement work in North Texas?",
+      "a": "Yes, for image quality, coverage, weld identification and interpretation against the operator's procedure and acceptance standard. Atlantis does not carry out radiography in Texas; the images come from your licensed contractor."
+    },
+    {
+      "q": "Can the opinion support a dispute, a claim or a transaction?",
+      "a": "It is written so that counsel, insurers and investors can follow it: each finding states the requirement, the evidence and whether it affects the disposition. How it is used is for you and your advisers to decide, and we can agree the questions it should answer with them at the start."
+    },
+    {
+      "q": "Will you act as our inspector of record or Authorized Inspector?",
+      "a": "No. Atlantis does not act as inspector of record, Authorized Inspector or Authorized Nuclear Inspector. The review gives the person holding that role an independent reading of the record."
+    },
+    {
+      "q": "What do you need to quote a portfolio review?",
+      "a": "A description of the asset types, the methods, the codes and the number of sites or contractors involved, plus what the review is meant to decide. From that we propose a sample, name the reviewers and send a quote."
+    }
+  ],
+  "related": [
+    ["/inspection-services-texas", "Inspection services in Texas"],
+    ["/consulting/ndt-consulting-dallas", "NDT consulting in Dallas"],
+    ["/ndt-training-dallas", "NDT training in Dallas"],
+    ["/ndt-training-fort-worth", "NDT training in Fort Worth"],
+    ["/ultrasonic-testing-dallas", "Ultrasonic testing in Dallas"],
+    ["/ultrasonic-testing-fort-worth", "Ultrasonic testing in Fort Worth"]
+  ],
+  "sources": [
+    "https://www.dallaschamber.org/wp-content/uploads/2026/03/EDG2026_BE-MajorCosHQs.pdf",
+    "https://www.businesswire.com/news/home/20260226166968/en/Arcosa-Inc.-Announces-Fourth-Quarter-and-Full-Year-2025-Results",
+    "https://en.wikipedia.org/wiki/Atmos_Energy",
+    "https://www.sec.gov/Archives/edgar/data/731802/000073180224000035/ato-20241218.htm",
+    "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
+    "https://www.rrc.state.tx.us/pipeline-safety",
+    "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
+    "https://www.txdot.gov/content/dam/docs/specifications/2024/2024-specifications-400-series.pdf",
+    "https://www.txdot.gov/content/dam/docs/mpl/stlbrgfab.pdf",
+    "https://vistracorp.com/vistra-receives-approval-to-operate-comanche-peak-nuclear-plant-through-2053/",
+    "https://www.nrc.gov/info-finder/region-state/texas.html",
+    "https://www.nrc.gov/about-nrc/locations/region4.html",
+    "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/289.255%20Radiation%20Safety%20Requirements%20and%20Licensing%20and%20Registration%20Procedures%20for%20Industrial%20Radiography.pdf"
+  ]
+}
