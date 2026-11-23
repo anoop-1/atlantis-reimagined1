@@ -24,7 +24,7 @@
       "h": "A joint venture refinery on the Thanh Hoa coast",
       "p": [
         "Nghi Son Refinery and Petrochemical LLC operates the complex in the Nghi Son Economic Zone, about 200 kilometres south of Hanoi. Commercial operation began in 2018. Idemitsu Kosan and Kuwait Petroleum each hold 35.1 percent, Petrovietnam 25.1 percent and Mitsui Chemicals 4.7 percent, and long-term crude supply agreements with Kuwait Petroleum Corporation have fed the plant since it started.",
-        "The design capacity is 200,000 barrels a day, about ten million tonnes of crude a year, and in 2026 the complex has run at roughly 120 to 125 percent of that figure. Alongside gasoline, jet fuel, diesel and LPG it produces benzene and para-xylene from an aromatics section and polypropylene, and it expects to deliver more than nine million tonnes of products to the domestic market in 2026. Thanh Hoa kept its boundaries in the 2025 merger of provinces, so permits and certificates carry the same provincial authority as before.",
+        "The design capacity is 200,000 barrels a day, about ten million tonnes of crude a year, and over the first eight months of 2026 the complex averaged about 111 percent of that figure, peaking at 125 percent. Alongside gasoline, jet fuel, diesel and LPG it produces benzene and para-xylene from an aromatics section and polypropylene, and it expects to deliver more than nine million tonnes of products to the domestic market in 2026. Thanh Hoa kept its boundaries in the 2025 merger of provinces, so permits and certificates carry the same provincial authority as before.",
         "For risk-based inspection the combination is what counts: a residue-upgrading refinery, an aromatics complex and a polymer plant on one site, with shared utilities, one tank farm and one marine interface. A single register with one risk matrix across all three avoids planning the same kind of equipment to different standards in different parts of the complex."
       ]
     },
@@ -32,7 +32,7 @@
       "id": "ns-rates",
       "h": "Running above design: what changes in the damage register",
       "p": [
-        "A refinery running a fifth or a quarter above nameplate is not the plant its design basis describes. Higher feed rates raise velocities in effluent systems, overhead lines and air coolers, push heater tube metal temperatures closer to their limits, increase the mass of sulphur, nitrogen and chloride passing through each unit and shorten the time between catalyst changes. Some mechanisms barely notice; others are dominated by exactly those variables.",
+        "A refinery running a tenth to a quarter above nameplate is not the plant its design basis describes. Higher feed rates raise velocities in effluent systems, overhead lines and air coolers, push heater tube metal temperatures closer to their limits, increase the mass of sulphur, nitrogen and chloride passing through each unit and shorten the time between catalyst changes. Some mechanisms barely notice; others are dominated by exactly those variables.",
         "Velocity-sensitive corrosion in reactor effluent systems, where ammonium bisulfide concentration and flow regime decide the damage rate, is the classic case, along with erosion in slurry and catalyst-laden services and creep or oxidation in fired heaters whose duty has risen. Inspection history gathered at lower rates can understate today's damage rate, so the study checks whether each corrosion rate in the register was measured under conditions that still apply.",
         "The practical answer is to tie each rate-sensitive mechanism to an integrity operating window with a parameter, a limit and an action, as API 584 describes, and to use the plant's actual historian data rather than design values to set the probability of failure. When throughput or feed quality moves outside the window, the affected loops are reassessed before the next inspection date arrives."
       ],
@@ -111,7 +111,7 @@
       "id": "ns-turnaround",
       "h": "A four-yearly turnaround cycle and the 2027 overhaul",
       "p": [
-        "The complex runs on a cycle of major overhauls roughly every four years. The last full turnaround was in 2023, and the next, of about fifty days, is planned from August 2027, with the contractor selection under way in late 2026. A cycle that long changes how risk targets should be read. Deferring an item past the 2027 turnaround means accepting its risk until the following one, so the question the plan must answer is not whether an item is acceptable today but whether it stays acceptable for another full run.",
+        "The complex runs on a cycle of major overhauls roughly every four years. The first major turnaround after start-up took place in 2023, and the second, of about 48 days, is planned to begin on 10 August 2027; contractor selection was under way in late 2026. A cycle that long changes how risk targets should be read. Deferring an item past the 2027 turnaround means accepting its risk until the following one, so the question the plan must answer is not whether an item is acceptable today but whether it stays acceptable for another full run.",
         "An RBI plan written for that cycle sorts every item into three groups: equipment that must be opened or examined internally in 2027 because its risk would exceed the target before the following turnaround; equipment whose condition can be confirmed on stream, by techniques such as corrosion mapping, phased array ultrasonics or profile radiography carried out by the owner's contractor, so that it stays closed; and equipment that can safely wait a full cycle. The second group is where risk-based planning shortens a turnaround without adding risk.",
         "Scope has to be frozen long before the shutdown starts, because scaffolding, insulation removal, spare parts and inspection crews are booked months ahead. A study timed backwards from the turnaround date gives the planners a settled worklist, with each item's technique, coverage and expected effectiveness stated so that the inspection contractor delivers the evidence the next assessment will rely on."
       ],
@@ -130,7 +130,7 @@
       "id": "ns-weather",
       "h": "The north-central coast: summer heat, autumn storms and a damp winter",
       "p": [
-        "Thanh Hoa's coast sees hot, humid summers, a spell of hot, dry westerly wind in early summer, tropical storms in late summer and autumn, and a cool winter of drizzle and overcast skies under the north-east monsoon. For insulated equipment that last season matters as much as the storms: weeks of damp, mild weather keep water in insulation at temperatures where carbon steel corrodes fastest.",
+        "Thanh Hoa's coast sees hot, humid summers, a spell of hot, dry westerly wind in early summer, tropical storms in late summer and autumn, and a cool winter of drizzle and overcast skies under the north-east monsoon. For insulated equipment that last season matters as much as the storms: weeks of damp, mild weather keep the insulation on cool and ambient-temperature lines wet, because no process heat drives the water out.",
         "Corrosion under insulation on carbon and low-alloy steel and external chloride cracking of insulated austenitic stainless steel are therefore ranked by operating temperature, insulation and cladding condition, and exposure to sea air, with cyclic and intermittent service flagged because it repeatedly wets and dries the steel. Jetty piping, pipe racks nearest the shore and tank roofs carry atmospheric corrosion entries of their own. After a severe storm the owner's inspectors walk a short checklist covering cladding, tank roofs and drains, and foundations, and their findings come back into the register."
       ],
       "links": [
@@ -220,7 +220,7 @@
       "a": "Not if the study starts early enough for its results to reach the planners before scope is frozen. The highest-value output is the sorting of items into those that must be opened, those whose condition can be confirmed on stream, and those that can wait a full cycle. A study can begin with the units that dominate the turnaround workload, so their worklists are settled first, and extend to the rest of the complex afterwards."
     },
     {
-      "q": "How does running at 120 percent of design affect corrosion rates in the register?",
+      "q": "How does running well above design rate affect corrosion rates in the register?",
       "a": "For some mechanisms hardly at all, for others a great deal. Velocity-sensitive corrosion in effluent systems, erosion in catalyst and slurry service and heater tube damage respond strongly to throughput. The study checks whether each measured rate reflects current conditions and links rate-sensitive mechanisms to operating windows built on historian data, so a sustained change in throughput triggers reassessment of the loops it affects."
     },
     {
@@ -300,7 +300,15 @@
       "url": "https://hydrocarbonprocessing.com/news/2026/10/vietnams-nghi-son-refinery-secures-crude-supplies-through-november-mostly-from-kuwait/"
     },
     {
-      "fact": "Operation at 120-125% of design capacity in Q1 2026",
+      "fact": "Reviewer 2026-11-23: average operating rate 110.9% in the first eight months of 2026, peak 125%; turnaround of about 48 days from 10 August 2027 ('nearly 50-day'); major turnarounds every four years; 2027 is the second major turnaround since commercial operation in 2018",
+      "url": "https://vietnamnews.vn/economy/1801913/nghi-son-refinery-to-undergo-48-day-turnaround-in-august-2027.html"
+    },
+    {
+      "fact": "First non-Kuwaiti crude: about 1 million barrels of Das Blend, arrived 23 Dec 2025, processed by 12 Jan 2026, to complement Kuwaiti supply during residue hydrodesulfurisation unit maintenance; plan 10-12 million barrels/yr of alternative crudes (article 15 Jan 2026)",
+      "url": "https://vietnamnews.vn/economy/1763832/nghi-son-refinery-processes-first-non-kuwaiti-crude-in-feedstock-diversification-push.html"
+    },
+    {
+      "fact": "Operation at 120-125% of design capacity in Q1 2026 (plan figure; superseded on the page by the eight-month average)",
       "url": "https://www.hydrocarbonprocessing.com/news/2026/02/vietnams-largest-refinery-to-operate-at-120-125-of-designed-capacity-in-q1/"
     },
     {

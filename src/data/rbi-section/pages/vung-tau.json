@@ -60,8 +60,8 @@
       "id": "vt-long-son",
       "h": "Long Son Petrochemicals: preservation, turnaround and restart",
       "p": [
-        "Long Son Petrochemicals is wholly owned by SCG Chemicals, part of Thailand's Siam Cement Group. Its cracker has capacity for about 950,000 tonnes a year of ethylene and 400,000 tonnes of propylene, feeding 500,000 tonnes a year each of high-density and linear low-density polyethylene, 400,000 tonnes of polypropylene and 100,000 tonnes of butadiene. The plant reached full commercial operation in September 2024. Operations were suspended in 2026, and the owner has announced a five-month turnaround from 1 November 2026, with restart targeted for the second quarter of 2027.",
-        "Long idle periods change the risk picture in ways an operating-history model misses. Internal corrosion depends on how well each system was dried, purged and blanketed; stagnant water left in cooling water, fire water and dead legs invites microbiologically influenced and under-deposit corrosion; insulated lines that normally run hot or cold sit at ambient temperature in humid air, which is the worst range for corrosion under insulation; and rotating equipment and its piping see standstill corrosion and fatigue on the next start. Stainless steel that was not protected during shutdown can pick up polythionic acid cracking, and caustic systems left with residue can crack once heated again.",
+        "Long Son Petrochemicals is wholly owned by SCG Chemicals, part of Thailand's Siam Cement Group. Its cracker has capacity for about 950,000 tonnes a year of ethylene and 400,000 tonnes of propylene, feeding 500,000 tonnes a year each of high-density and linear low-density polyethylene, 400,000 tonnes of polypropylene and 100,000 tonnes of butadiene. The plant reached full commercial operation in September 2024. An earlier suspension ended with a restart in 2025, operations were suspended again in May 2026, and the owner has announced a five-month turnaround from 1 November 2026, with restart targeted for the second quarter of 2027.",
+        "Long idle periods change the risk picture in ways an operating-history model misses. Internal corrosion depends on how well each system was dried, purged and blanketed; stagnant water left in cooling water, fire water and dead legs invites microbiologically influenced and under-deposit corrosion; insulated lines that normally run hot or cold sit at ambient temperature in humid air, inside the temperature range for corrosion under insulation and with no process heat to dry out water that gets in; and rotating equipment and its piping see standstill corrosion and fatigue on the next start. Stainless steel that was not protected during shutdown can pick up polythionic acid cracking, and caustic systems left with residue can crack once heated again.",
         "An RBI study for a restart therefore starts with the lay-up record. For each system it establishes what preservation was applied, how it was monitored and how long it lasted, assigns the mechanisms that idle conditions made credible, and produces a pre-start inspection list ranked by risk, so that the turnaround spends its effort on the systems where preservation was weakest or consequence highest."
       ],
       "links": [
@@ -79,8 +79,8 @@
       "id": "vt-ethane",
       "h": "Ethane, new cryogenic tanks and changes to an existing cracker",
       "p": [
-        "Alongside the turnaround, the owner is carrying out an enhancement project to let the cracker take larger volumes of ethane next to its existing naphtha and propane feeds, with formal completion and start-up targeted for 2027. Technip Energies provides engineering, procurement, burners and ethylene technology; ethane is to come from the United States under a long-term supply agreement and arrive in very large ethane carriers; and a consortium of China Tianchen Engineering and PetroVietnam Technical Services is building two cryogenic ethane storage tanks of about 55,000 tonnes each.",
-        "For the RBI programme this means three kinds of work. The new tanks, unloading lines and vaporisation equipment need baseline entries built from design data, material certificates and commissioning records, with mechanisms for cryogenic service such as low-temperature embrittlement of anything that is not designed for it, thermal cycling at warm-to-cold transitions and external chloride cracking of insulated stainless steel. Furnaces and the cold section receiving a lighter feed need their damage mechanisms reviewed for the new conditions, including tube metal temperatures, carburisation and coking behaviour. And every tie-in made during the project needs its own entry, because new and old equipment meet there."
+        "Alongside the turnaround, the owner is carrying out an enhancement project to let the cracker take larger volumes of ethane next to its existing naphtha and propane feeds, with formal completion and start-up targeted for 2027. Technip Energies provides engineering, procurement, burners and ethylene technology; ethane is to come from the United States under a long-term supply agreement and arrive in very large ethane carriers; and a consortium of China Tianchen Engineering and PetroVietnam Technical Services is building two full-containment cryogenic ethane storage tanks of about 55,000 tonnes each, with completion expected by the end of 2027.",
+        "For the RBI programme this means three kinds of work. The new tanks, unloading lines and vaporisation equipment need baseline entries built from design data, material certificates and commissioning records, with mechanisms for cryogenic service such as low-temperature embrittlement of anything that is not designed for it, thermal cycling at warm-to-cold transitions, and external chloride cracking of insulated stainless steel at warm ends and during warm-up, since metal held at cryogenic temperature is too cold for it. Furnaces and the cold section receiving a lighter feed need their damage mechanisms reviewed for the new conditions, including tube metal temperatures, carburisation and coking behaviour. And every tie-in made during the project needs its own entry, because new and old equipment meet there."
       ]
     },
     {
@@ -106,7 +106,7 @@
       "id": "vt-phu-my",
       "h": "Phu My: urea, gas and high-pressure synthesis",
       "p": [
-        "PVFCCo's Phu My fertilizer plant produces urea, NPK compound fertiliser, UFC85 and industrial chemicals from natural gas, and completed a turnaround in early 2026. Gas-based urea production brings mechanisms that refinery-trained teams meet less often: carbamate corrosion in urea synthesis and stripping, where materials depend on passivation and controlled oxygen; ammonia stress corrosion cracking in carbon steel where water and oxygen content allow it; carbon dioxide corrosion in wet process gas; high-temperature hydrogen and nitriding considerations in the ammonia synthesis loop; and creep in the reformer tubes and outlet systems.",
+        "PVFCCo's Phu My fertilizer plant produces urea, NPK compound fertiliser, UFC85 and industrial chemicals from natural gas, and restarted from a turnaround around the start of 2026. Gas-based urea production brings mechanisms that refinery-trained teams meet less often: carbamate corrosion in urea synthesis and stripping, where materials depend on passivation and controlled oxygen; ammonia stress corrosion cracking in carbon steel where water and oxygen content allow it; carbon dioxide corrosion in wet process gas; high-temperature hydrogen and nitriding considerations in the ammonia synthesis loop; and creep in the reformer tubes and outlet systems.",
         "Many of these items are high-pressure vessels with thick walls, liners or overlays whose condition cannot be judged from external thickness readings. The inspection plan has to name the technique that can actually detect each mechanism, such as liner leak detection, internal visual and eddy current or ultrasonic examination at the right locations, and credit past inspections only where they could have found the damage. That effectiveness review is often the most valuable output of a study on a fertiliser plant, because it shows which turnaround inspections are producing evidence and which are only producing reports."
       ],
       "links": [
@@ -143,7 +143,7 @@
       "h": "Wet and dry seasons on a salt-air coast",
       "p": [
         "The south-east is tropical and humid throughout the year, with a wet season from about May to November and a dry season for the rest. It lies south of the usual typhoon tracks, but the wet season brings frequent heavy downpours, and Long Son island and the Vung Tau peninsula are exposed to sea air on every side. The alternation of months of daily rain with months of drier weather wets and dries insulation and coatings in a cycle that suits corrosion well.",
-        "Corrosion under insulation is ranked by temperature band, cladding and sealing condition, and exposure, with idle and intermittent service flagged because it spends long periods in the most aggressive temperature range. Insulated austenitic stainless steel, common in cryogenic and olefins service, is screened for external chloride cracking. Atmospheric corrosion is assessed for racks, jetties and tank roofs nearest the water, and heavy rainfall events are written in as triggers for checks on floating-roof drains, bunds and tank foundations."
+        "Corrosion under insulation is ranked by temperature band, cladding and sealing condition, and exposure, with idle and intermittent service flagged because it spends long periods wet, inside the corrosion-under-insulation temperature range and without the heat that would dry it. Insulated austenitic stainless steel, common in cryogenic and olefins service, is screened for external chloride cracking on the parts that run warm or stand at ambient during outages. Atmospheric corrosion is assessed for racks, jetties and tank roofs nearest the water, and heavy rainfall events are written in as triggers for checks on floating-roof drains, bunds and tank foundations."
       ],
       "links": [
         [
@@ -160,7 +160,7 @@
       "id": "vt-rules",
       "h": "Vietnamese rules for a mixed cluster",
       "p": [
-        "Listed equipment with strict occupational safety requirements, such as pressure vessels, boilers, steam piping, LPG tanks and fixed gas pipelines, is inspected by certified inspection organisations under the national procedures, and its periodic due dates are set there. Petroleum facilities, including the LNG terminal, gas pipelines and storage depots, also hold safety documents under the Ministry of Industry and Trade's rules, among them a risk assessment report revised before major changes. For smaller facilities such as depots and LPG installations those documents are approved at provincial level, which for Vung Tau now means Ho Chi Minh City's Department of Industry and Trade.",
+        "Listed equipment with strict occupational safety requirements, such as pressure vessels, boilers, steam piping, LPG tanks and fixed gas pipelines, is inspected by certified inspection organisations under the national procedures, and its periodic due dates are set there. Petroleum facilities, including the LNG terminal, gas pipelines and storage depots, also hold safety documents under the Ministry of Industry and Trade's rules, among them a risk assessment report revised before major changes. Under the 2025 amendment, works below the scale the ministry appraises, smaller depots and LPG installations among them, have those documents approved by the provincial People's Committee, which for Vung Tau now means Ho Chi Minh City's.",
         "An owner's RBI study sits inside both regimes. It records statutory due dates as fixed, matches its inventories and isolatable sections to the risk assessment report, and plans the owner's own inspection programme around them. Because the area's records may name either the former province or the merged city, the study keeps a short register of which authority issued each certificate and which body now holds that role, so that no renewal is missed in the change."
       ],
       "links": [
@@ -315,7 +315,27 @@
       "url": "https://petrovietnam.petrotimes.vn/pvfcco-phu-my-accelerates-growth-with-robust-performance-in-early-2026-738613.html"
     },
     {
-      "fact": "Circular 40/2018/TT-BCT: provincial Departments of Industry and Trade approve safety documents for petroleum depots and LPG facilities (Appendix I); risk assessment report",
+      "fact": "Two full-containment cryogenic ethane tanks (down to -90 C), about 55,000 tons each, lump-sum turnkey EPC by TCC + PTSC (TCPT consortium), signed 27 Feb 2025, completion expected end-2027",
+      "url": "https://www.ptsc.com.vn/en-US/news/ptsc-news-1/lsp-and-the-consortium-of-tcc-and-ptsc-tcpt-consortium-sign-lumpsum-turnkey-epc-contract-for-material-tanks-construction-work-at-long-son-petrochemicals-complex-in-south-of-vietnam-1"
+    },
+    {
+      "fact": "LSP restarted operations in 2025 after an earlier suspension",
+      "url": "https://theinvestor.vn/scg-backed-54-bln-petrochemical-complex-restarts-operations-in-southern-vietnam-d16738.html"
+    },
+    {
+      "fact": "PV GAS raised Thi Vai regasification output to about 288 (stated 'tpy', likely t/h; ~9.5 million m3/d) from a design 171, milestone 2 April 2026",
+      "url": "https://www.lngindustry.com/regasification/09042026/pv-gas-upgrades-thi-vai-lng-terminal-regasification-capacity"
+    },
+    {
+      "fact": "Circular 38/2025/TT-BCT amends Circular 40/2018 Art. 28: provincial People's Committees approve safety documents for works in their jurisdiction other than those at the scale MOIT appraises (approved by the Industrial Safety Techniques and Environment Agency, Art. 27). Reviewer 2026-11-23: replaces the original-text statement that provincial Departments of Industry and Trade approve",
+      "url": "https://english.luatvietnam.vn/cong-nghiep/circular-38-2025-tt-bct-decentralization-in-administrative-procedures-403612-d1.html"
+    },
+    {
+      "fact": "PVFCCo article of 11 March 2026 refers to the completed Phu My turnaround and the post-maintenance restart before/through the Lunar New Year; no exact dates (page generalised to 'around the start of 2026')",
+      "url": "https://petrovietnam.petrotimes.vn/pvfcco-phu-my-accelerates-growth-with-robust-performance-in-early-2026-738613.html"
+    },
+    {
+      "fact": "Circular 40/2018/TT-BCT (original text): provincial Departments of Industry and Trade approve safety documents for petroleum depots and LPG facilities (Appendix I); risk assessment report",
       "url": "https://luatvietnam.vn/cong-nghiep/thong-tu-40-2018-tt-bct-noi-dung-tai-lieu-quan-ly-an-toan-trong-hoat-dong-dau-khi-168695-d1.html"
     }
   ]
