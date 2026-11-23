@@ -1,0 +1,267 @@
+{
+ "date": "2026-11-23",
+ "note": "Maritime guides + European CVIP release (CLAUDE.md \u00a784)",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/maritime/ship-inspection-by-vessel-type"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bulk-carrier-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/oil-tanker-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/chemical-tanker-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/container-ship-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gas-carrier-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/general-cargo-ship-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ro-ro-and-car-carrier-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/special-survey-by-ship-age"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/first-special-survey-5-years"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/second-special-survey-10-years"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/third-special-survey-15-years"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/fourth-special-survey-20-years"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/intermediate-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/algeciras/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/barcelona/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bergen/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bremerhaven/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dunkirk/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/felixstowe/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gdansk/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/genoa/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/immingham/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/le-havre/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/limassol/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/malta/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marseille/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/milford-haven/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sines/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/skagen/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/southampton/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trieste/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tuzla/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/valencia/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/wilhelmshaven/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/algeciras"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/amsterdam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/antwerp"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/barcelona"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bergen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/bremerhaven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/dunkirk"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/felixstowe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/gdansk"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/genoa"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ghent"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hamburg"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/immingham"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/istanbul"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/le-havre"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/limassol"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/malta"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/marseille"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/milford-haven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/piraeus"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/rotterdam"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/sines"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/skagen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/southampton"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/trieste"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/tuzla"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/valencia"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vlissingen"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/wilhelmshaven"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/zeebrugge"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/comprehensive-vessel-inspection-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/special-survey-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/enhanced-survey-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/condition-assessment-scheme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/condition-assessment-programme"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/hull-structural-integrity"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/ultrasonic-thickness-measurement"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/pre-purchase-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/vessel-condition-survey"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/europe"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/netherlands"
+  },
+  {
+   "url": "https://atlantisndt.com/maritime/belgium"
+  }
+ ]
+}
