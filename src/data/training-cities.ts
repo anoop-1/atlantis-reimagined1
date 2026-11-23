@@ -736,7 +736,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 32.7555, lng: -97.3308,
     localContext:
-      "Fort Worth is one of the largest aerospace manufacturing centres in the world — Lockheed Martin Aeronautics (F-35, F-16 production), Bell Textron (rotorcraft), Bombardier, and L3Harris. Energy-side, the Barnett Shale midstream and West Texas pipeline operators run continuous NDT work too.",
+      "Fort Worth is one of the largest aerospace manufacturing centres in the world — Lockheed Martin Aeronautics (F-35 production), Bell Textron (rotorcraft), Bombardier, and L3Harris. Energy-side, the Barnett Shale midstream and West Texas pipeline operators run continuous NDT work too.",
     primaryCert: "ASNT",
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
