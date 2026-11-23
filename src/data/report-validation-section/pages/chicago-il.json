@@ -23,7 +23,7 @@
       "h": "One metro, two boiler authorities",
       "p": [
         "Illinois regulates boilers and pressure vessels through the Office of the State Fire Marshal's Division of Boiler and Pressure Vessel Safety. Its state inspectors carry out every first inspection of new or used equipment, and inspectors employed by authorised insurance companies may carry out later inspections on the equipment they insure once it is registered.",
-        "Inside the city limits, Chicago has its own Boiler Inspection Bureau. City inspectors carry out internal inspections of high-pressure boilers and of low-pressure boilers used for processing, external inspections of boilers and unfired pressure vessels in operation, first inspections triggered by installation permits, and hydrostatic tests after installation or extensive repair. Repairs inside the city have to be made by a boiler repairer the City of Chicago licenses.",
+        "The state act does not apply to boilers and pressure vessels in cities of more than 500,000 inhabitants, and inside the city limits Chicago has its own Boiler Inspection Bureau. City inspectors carry out internal inspections of high-pressure boilers and of low-pressure boilers used for processing, external inspections of boilers and unfired pressure vessels in operation, first inspections triggered by installation permits, and hydrostatic tests after installation or extensive repair. Repairs inside the city have to be made by a boiler repairer the City of Chicago licenses.",
         "For a report review, the split matters in a simple way. A repair record from a plant in Cicero or Joliet and one from a building in the Loop may use the same ultrasonic technique, but they answer to different inspectors and different repair licensing. The opinion states which authority the equipment falls under and whether the NDT record gives that authority's inspector what it needs. It never stands in for the inspector: we do not act as an authorized inspector or as inspector of record anywhere."
       ]
     },
@@ -37,7 +37,7 @@
     {
       "h": "Nuclear stations southwest of the city and NRC Region III",
       "p": [
-        "Constellation operates six nuclear stations in Illinois: Braidwood, Byron, Clinton, Dresden, LaSalle and Quad Cities, with Braidwood, Dresden and LaSalle in the counties southwest of Chicago. The NRC carries out its duties in Illinois through Region III, the regional office it lists for the Chicago area. Around the fleet sits a supply chain of fabricators, valve and pump shops and service contractors whose examination records end up in procurement packages and outage documentation.",
+        "Constellation operates six nuclear stations in Illinois: Braidwood, Byron, Clinton, Dresden, LaSalle and Quad Cities, with Braidwood, Dresden and LaSalle in the counties southwest of Chicago. Federal oversight of all six comes from the NRC's Region III. Around the fleet sits a supply chain of fabricators, valve and pump shops and service contractors whose examination records end up in procurement packages and outage documentation.",
         "We are not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and nothing on this page should be read as a claim to be. What a licensee, a vendor or their counsel can get from us is an independent technical opinion, which the licensee's QA organisation then decides how to use. Requests of that kind usually concern non-safety-related scope, a vendor's records before a component ships, a disagreement between the plant's reviewers and a contractor's interpretation, or the technical facts in a commercial dispute.",
         "Steam generator and heat exchanger eddy current data is often part of a nuclear package. Our Level III is not certified in eddy current, so for that data the proposal names a reviewer holding the certification the licensee's programme or the contract requires."
       ]
@@ -140,6 +140,7 @@
     ["/inspection/third-party-inspection-chicago", "Third-party inspection in Chicago"]
   ],
   "sources": [
+    "https://sfm.illinois.gov/content/dam/soi/en/web/sfm/documents/statutes-and-rules/boilerandpressuresafetyact-2026.pdf",
     "https://sfm.illinois.gov/about/divisions/boilers-pressure-vessels/boilers-faqs.html",
     "https://www.chicago.gov/city/en/depts/bldgs/supp_info/boiler_inspections.html",
     "https://corporate.exxonmobil.com/-/media/global/files/locations/united-states-operations/exxonmobil-joliet-2026-fact-sheet.pdf",

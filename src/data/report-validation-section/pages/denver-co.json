@@ -31,14 +31,14 @@
       "h": "DJ Basin pads, flowlines and the ECMC record",
       "p": [
         "Chevron, which runs its Colorado business from regional headquarters in Denver, holds a large acreage position in the liquids-rich part of Weld County, enlarged by its 2023 acquisition of PDC Energy, and it is one of several producers whose pads and gathering systems generate a steady flow of NDT reports. Construction on a multi-well pad produces weld reports for separators, heater treaters, tank batteries and the piping between them. Off the pad, flowlines and crude oil transfer lines carry fluids to central facilities, and they bring paperwork of their own.",
-        "Colorado's Energy and Carbon Management Commission, which took over from the Colorado Oil and Gas Conservation Commission, regulates many of those lines through its 1100 Series flowline rules. Operators register off-location flowlines and transfer systems on a Form 44, file GIS data showing each line's path, diameter, fluid, pipe material and status, and keep pressure test records that the commission's integrity group audits; its inspectors also attend tests during construction, repair and abandonment. A weld report or pressure test chart from a flowline project is therefore read by a state regulator as well as by the operator.",
+        "Colorado's Energy and Carbon Management Commission, which took over from the Colorado Oil and Gas Conservation Commission, regulates many of those lines through its 1100 Series flowline rules. Operators register off-location flowlines and crude oil transfer lines on a Form 44 and file GIS data giving each line's alignment, pipe size, fluid type and pipe material. A new line must pass a pressure test before it goes into active status, the operator's integrity programme may call for annual or three-yearly retests, and the commission's Director can order an integrity test at any time. A weld report or pressure test chart from a flowline project may therefore be read by a state regulator as well as by the operator.",
         "A review of flowline records checks that each weld on the as-built list has an examination record, that the extent matches the operator's specification, that the pressure test chart identifies the segment, the gauge and the hold period, and that every repair weld was re-examined and recorded. Where a project used digital radiography or automated ultrasonic examination, the files are opened to confirm coverage and identification rather than taking the summary sheet on trust."
       ]
     },
     {
       "h": "Gas pipelines under the PUC and PHMSA",
       "p": [
-        "Inside Colorado, intrastate gas pipeline operators are overseen by the Public Utilities Commission's Pipeline Safety Program, which acts as the state's delegate for PHMSA and writes the federal requirements into state rules. Interstate pipelines sit with PHMSA directly, and pipelines tied to production rather than transport fall outside the commission's reach, largely under the ECMC. A Denver review begins by confirming which side of those boundaries a record falls on, because the answer changes which documents an auditor will expect to see.",
+        "Inside Colorado, intrastate gas pipeline operators are overseen by the Public Utilities Commission's Pipeline Safety Program, which acts as the state's delegate for PHMSA and writes the federal requirements into state rules. Interstate pipelines sit with PHMSA directly, while production flowlines on and off the pad are registered with the ECMC under its own rules. A Denver review begins by confirming which side of those boundaries a record falls on, because the answer changes which documents an auditor will expect to see.",
         "For utility and transmission work, the reports most often sent for an independent reading are girth weld examinations on replacement projects, measurements recorded when pipe was exposed during integrity digs, and the documentation behind corrosion control and operator qualification. The review asks what an auditor would ask: was the examiner qualified on the date of the weld, was the procedure the one the operator's manual names, does the record locate the weld on the system map, and was every rejected weld repaired and re-examined?"
       ]
     },
@@ -63,7 +63,7 @@
         "Several state and federal programs decide which records must exist, who keeps them and who may sign them. None of them is displaced by an outside opinion; the review simply reads each record with the right program in mind."
       ],
       "list": [
-        "Energy and Carbon Management Commission: flowline registration, pressure testing, audits and abandonment under the 1100 Series rules",
+        "Energy and Carbon Management Commission: flowline registration, integrity management, pressure testing and abandonment under the 1100 Series rules",
         "Public Utilities Commission Pipeline Safety Program: intrastate gas pipelines, under its role as PHMSA's state delegate",
         "PHMSA: interstate gas and hazardous liquid pipelines under 49 CFR Parts 192 and 195",
         "Boiler Inspection Program, Division of Oil and Public Safety: boilers and pressure vessels under the state statute, with state and commissioned insurance inspectors",
@@ -109,7 +109,7 @@
   ],
   "faqs": [
     { "q": "Does the review need anyone on site in Colorado?", "a": "No. It is carried out remotely on the documents and digital inspection data you send by secure transfer. If the record cannot support a decision, the opinion explains what field examination would settle the question." },
-    { "q": "Can you review flowline records with the ECMC rules in mind?", "a": "Yes. We check weld examination records, pressure test charts and repair records against the operator's specification and the standards its program adopts, and note where the record falls short of what the commission's integrity group would expect to see at audit." },
+    { "q": "Can you review flowline records with the ECMC rules in mind?", "a": "Yes. We check weld examination records, pressure test charts and repair records against the operator's specification and the standards its program adopts, and note where the record falls short of what the 1100 Series rules ask of the operator." },
     { "q": "Do you review reports for intrastate gas pipelines?", "a": "Yes. Girth weld, integrity dig and corrosion control records are reviewed against the operator's procedures and the federal rules the Public Utilities Commission has adopted, with each finding tied to the requirement it rests on." },
     { "q": "Can you review power plant outage records?", "a": "Yes. Boiler tube thickness surveys, high-energy piping weld examinations and condenser or feedwater heater tube data are reviewed against ASME Section I, B31.1 and your own procedures, and compared with earlier surveys where you can provide them." },
     { "q": "Will you open digital radiography and ultrasonic files, or only read the report?", "a": "We open them wherever they are available. Coverage, identification, image quality and sizing can only be confirmed from the data, and mismatches between files and reports are among the commonest findings in digital work." },
@@ -126,6 +126,8 @@
     ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"]
   ],
   "sources": [
+    "https://law.cornell.edu/regulations/colorado/2-CCR-404-1-1101",
+    "https://law.cornell.edu/regulations/colorado/2-CCR-404-1-1104",
     "https://colorado.chevron.com/about",
     "https://www.businesswire.com/news/home/20230807759005/en/Chevron-Completes-Acquisition-of-PDC-Energy/",
     "https://ecmc.colorado.gov/programs/oil-and-gas/flowlines/integrity-group-responsibilities",
