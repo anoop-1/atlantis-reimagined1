@@ -1,0 +1,179 @@
+{
+  "title": "Risk-Based Inspection in Singapore: MHI, MOM and API 580",
+  "description": "How RBI fits MOM pressure vessel examinations, the MHI safety case and SCDF storage licences, and how Atlantis runs remote RBI studies for Singapore sites.",
+  "h1": "Risk-based inspection for Singapore refineries, chemical plants and tank terminals",
+  "eyebrow": "Risk-based inspection in Singapore",
+  "intro": "Singapore packs refineries, crackers and a dense concentration of independent tank storage onto a handful of islands, under regulators who each look at a different part of the plant. This page is for integrity and inspection managers on Jurong Island, Pulau Bukom and the storage islands who want to know where RBI fits beside the Ministry of Manpower's statutory pressure vessel examinations, the major hazard installation safety case and SCDF's storage licensing, which damage mechanisms the equatorial climate pushes up the register, and how Atlantis runs an RBI study remotely from Hyderabad and Houston.",
+  "highlights": [
+    { "h": "Statutory items stay statutory", "p": "Steam boilers and air and steam receivers keep the examination dates the regulations fix, and the Authorised Examiner keeps the decision. The study marks those items in the register, supplies their damage mechanism basis and spends its risk effort on the process vessels, piping and tanks where the owner sets the interval." },
+    { "h": "Evidence for the safety case", "p": "A major hazard installation has to show that its risks are as low as reasonably practicable. A register with traceable damage mechanisms, credited inspections and consequence ratings that agree with the safety case scenarios belongs inside that argument, not beside it as a separate exercise." },
+    { "h": "Remote, two and a half hours apart", "p": "Hyderabad works two and a half hours behind Singapore, so workshops sit in the Singapore late morning and afternoon. Nothing in the study needs travel: field checks go on a written list for your own inspectors or your inspection contractor, and their findings return to the model." }
+  ],
+  "sections": [
+    {
+      "id": "sg-regulators",
+      "h": "Four regimes, four different questions",
+      "p": [
+        "No Singapore regulation tells a refinery how often to open a process column or when to take a storage tank out of service. What the law does is put particular equipment and particular hazards in front of particular agencies, and each asks the plant a different question. The Ministry of Manpower asks whether registered pressure vessels have been examined on time by an Authorised Examiner. Under the major hazard installation regime it asks whether the operator can show that its risks are as low as reasonably practicable. The Singapore Civil Defence Force asks whether petroleum and flammable materials are stored under a valid licence, with the fire and emergency arrangements that go with it. Insurers and the operator's own standards ask the rest.",
+        "An RBI study has to know which of these questions each item answers before it proposes anything. The table sets out how the layers touch the work."
+      ],
+      "table": {
+        "head": ["Regime", "Who administers it", "What it reaches", "What it means for an RBI study"],
+        "rows": [
+          ["Pressure vessel examination under the Workplace Safety and Health (General Provisions) Regulations", "Ministry of Manpower, with examinations by Authorised Examiners", "Steam boilers, air receivers, steam receivers and autoclaves", "Fixed examination intervals that the study records but does not change"],
+          ["Major hazard installations under the Workplace Safety and Health (Major Hazard Installations) Regulations", "Ministry of Manpower (Major Hazards Department)", "Refineries, petrochemical and chemical plants, and installations holding large inventories of toxic or flammable substances", "The RBI register becomes part of the evidence that loss-of-containment risk from equipment is controlled"],
+          ["Petroleum and flammable materials storage licence under the Fire Safety Act", "Singapore Civil Defence Force, HazMat Department", "Premises storing petroleum and flammable materials above the exempt quantities", "Licence conditions and the emergency response plan sit beside a tank inspection plan that the owner's own programme sets"],
+          ["Operator standards and international codes", "The owner, its parent group and its insurers", "Process vessels, piping circuits and atmospheric storage tanks", "Where risk-based intervals are actually set, under API 510, API 570 and API 653 and the owner's RBI procedure"]
+        ]
+      }
+    },
+    {
+      "id": "sg-registered-vessels",
+      "h": "Registered pressure vessels: dates the study does not move",
+      "p": [
+        "MOM's periodic examination regime covers steam boilers, air and steam receivers and autoclaves. The intervals come from the Workplace Safety and Health (General Provisions) Regulations: a steam boiler is examined every year and air and steam receivers every two years, and the listed types also need a hydrostatic test and thickness gauging at least once in ten years, with insulation removed for an external shell examination at the intervals the regulations set. An Authorised Examiner, or a boiler inspector authorised by MOM, carries out the work.",
+        "MOM allows an Authorised Examiner to extend a due date by up to three months, and only after assessing the equipment and issuing a report that the owner keeps. Its published guidance describes no route by which an RBI assessment lengthens these intervals, so the study does not propose one. Since 5 August 2023 MOM has also stopped sending reminders of examinations that are falling due, which leaves the tracking entirely with the owner.",
+        "The study is still useful for these items. It records them in the register as statutory, with their due dates, so nobody mistakes a low risk ranking for permission to defer. It assigns their damage mechanisms like any other item, which tells the Authorised Examiner where a steam drum or a plant air receiver is most likely to have suffered, and it keeps them out of the risk targets so that they do not distort the ranking of the equipment whose intervals the owner does control."
+      ]
+    },
+    {
+      "id": "sg-safety-case",
+      "h": "RBI inside a major hazard installation's safety case",
+      "p": [
+        "Petroleum refining, petrochemical manufacturing, chemical processing and the storage or use of large quantities of toxic and flammable substances bring an installation under the Workplace Safety and Health (Major Hazard Installations) Regulations once its inventory of dangerous substances meets the threshold quantities. The core of that regime is the safety case: the installation must keep and maintain one, and through it demonstrate to the regulator that its safety, health and environmental risks are as low as reasonably practicable.",
+        "Loss of containment from vessels, piping and tanks usually accounts for a large share of the major accident scenarios in such a document, and mechanical integrity is one of the barriers that prevents them. An RBI programme is therefore part of the argument whether or not the safety case names it. A regulator reading the case can reasonably ask how the operator decides which equipment to inspect, with which technique and when, and how it knows that the inspections were carried out as planned. A traceable register answers that more convincingly than a calendar does.",
+        "Two practical consequences follow for the study. Consequence ratings should be drawn from, or at least reconciled with, the release scenarios already described in the safety case, so the two documents do not describe the same hazard in different terms. And when the RBI programme changes in a way that affects a barrier the case relies on, for example a move from fixed to risk-based intervals across a whole unit, the owner should consider whether a safety case revision is needed under MOM's procedures. The study flags such changes; the decision belongs to the operator."
+      ]
+    },
+    {
+      "id": "sg-storage",
+      "h": "Storage terminals: licences, floors and reclaimed ground",
+      "p": [
+        "Singapore's role as a trading and bunkering centre rests on tank storage spread across Jurong Island, the southern islands and the mainland coast. Singapore Petroleum Company runs a storage terminal on Pulau Sebarok, the Jurong Rock Caverns provide underground liquid hydrocarbon storage at Jurong Island, and independent terminals lease tankage to traders and refiners around the islands.",
+        "Each of these sites needs a petroleum and flammable materials storage licence from SCDF under the Fire Safety (Petroleum and Flammable Materials) Regulations 2020. The licence is valid for up to three years depending on risk and carries duties such as a register of materials, fire prevention and ventilation systems, and an emergency response plan tested through validation exercises. SCDF's licence information does not set tank inspection intervals. Those come from API 653 or the operator's own tank standard, which is where an RBI basis for the internal inspection interval can be written in.",
+        "For a terminal, the out-of-service inspection is the disruptive event, measured in tankage that cannot be used while a tank is emptied, cleaned and examined. RBI is how a terminal ties that event to evidence. Much of Jurong Island stands on reclaimed land, so soil-side floor corrosion depends on fill quality, drainage, the water table and how well the cathodic protection has been maintained, while tanks close to the shore add salt-laden air on shells and roofs. Heavy tropical downpours test floating-roof drains and seals, and frequent product changes in a trading terminal mean that a tank's product-side corrosion history may not match what it holds today. Floor scan results, the condition of any release prevention barrier and the cathodic protection records carry most of the weight in the probability assessment."
+      ]
+    },
+    {
+      "id": "sg-refining",
+      "h": "Refining and petrochemicals on Jurong Island and Pulau Bukom",
+      "p": [
+        "Three refineries operate in Singapore. ExxonMobil runs a refinery across two sites on Jurong Island, integrated with its chemical plants. Aster Chemicals and Energy, the joint venture of Chandra Asri and Glencore, took over Shell's Pulau Bukom refinery and Jurong Island chemical assets in April 2025 and has since been expanding the Bukom refinery. Singapore Refining Company operates the third. Around them sit steam crackers, aromatics and polymer plants, utilities, and the jetties and pipelines that tie the islands together.",
+        "Integrated sites carry the full range of refinery and petrochemical service inside one fence line: crude and vacuum units exposed to high-temperature sulfidation and, where the crude slate brings it, naphthenic acid corrosion; hydroprocessing with wet hydrogen sulfide and ammonium bisulfide in the reactor effluent train; cracking furnaces and quench sections; and aromatics and polymer units in which much of the equipment is in mild service and well suited to longer, risk-based intervals. The size of these sites is the main reason risk-based planning makes sense there. The equipment population is too large to open everything at every turnaround, and the differences in risk between items are real."
+      ]
+    },
+    {
+      "id": "sg-ownership-change",
+      "h": "When a site changes hands: inheriting an RBI programme",
+      "p": [
+        "Ownership on the islands has been changing. A buyer usually inherits the seller's inspection records, its RBI models and its procedures, sometimes in a software environment or a corporate standard that does not transfer with the asset. The months after completion are when the new owner discovers which parts of the inspection history it can trust, which damage mechanism assumptions were written for an earlier crude slate or operating envelope, and which intervals rest on a methodology it no longer licenses.",
+        "An outside study is often the practical way through. Working from exported registers, inspection reports and thickness data, it rebuilds the corrosion loops and the damage mechanism basis under the new owner's RBI standard, carries the inspection history across with an honest grade for its effectiveness, logs the data lost in the transfer, and produces a register in a structure the new owner's inspection system can hold. Nothing has to be repeated in the field to make a start; the data-gap log shows where field work is actually needed."
+      ]
+    },
+    {
+      "id": "sg-climate",
+      "h": "Equatorial humidity, salt air and insulated steel",
+      "p": [
+        "Singapore lies just north of the equator, with high humidity, frequent heavy rain and warm temperatures through the year rather than a dry season that lets plant dry out. For carbon steel under insulation that is close to the worst case: wet insulation stays wet, and lines running at intermediate or cycling temperatures spend long periods in the range where API RP 583 rates corrosion under insulation as most likely. Insulated austenitic stainless steel faces the parallel risk of external chloride stress corrosion cracking, helped by salt deposited from the sea air.",
+        "Corrosion under fireproofing on structural steel and vessel skirts, atmospheric corrosion on jetty piping exposed to spray, and microbiologically influenced corrosion and fouling in seawater cooling systems complete the external picture. On the process side the mechanisms follow the units rather than the weather, but the climate decides how much of the register is driven by external damage, and in Singapore that share is large. The inspection plans reflect it: CUI screening by operating temperature, insulation condition and age, targeted insulation removal backed by screening techniques, and corrosion mapping where spot readings would miss localised loss."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "sg-scopes",
+      "h": "What Singapore operators usually ask for",
+      "p": ["Requests from Singapore sites tend to fall into a handful of shapes."],
+      "list": [
+        "A first RBI programme for a terminal moving from fixed calendar intervals to risk-based internal inspection intervals under API 653.",
+        "Revalidation of a refinery or petrochemical model that has run past its review date, including a fresh grading of inspection effectiveness.",
+        "Rebuilding the register after a change of ownership, under the new owner's procedure and data structure.",
+        "CUI risk ranking across insulated piping and vessels, with an insulation removal and screening plan.",
+        "Turnaround scope input: which vessels must be opened, which can be inspected on stream, and which exchanger bundles need pulling.",
+        "Reconciliation of consequence ratings with the scenarios in the major hazard installation safety case.",
+        "Damage mechanism review for units whose feed or operating window has changed, so the register reflects the plant as it now runs."
+      ]
+    },
+    {
+      "id": "sg-remote",
+      "h": "Running the study from Hyderabad and Houston for a Singapore site",
+      "p": [
+        "Singapore keeps UTC+8 all year. Atlantis works from Hyderabad, two and a half hours behind, and Houston, thirteen or fourteen hours behind depending on the US season. A Singapore working day from 8.30 to 5.30 overlaps Indian hours from 6.00 to 3.00, so workshops are booked in the Singapore late morning and afternoon, when both sides are at their desks. The Singapore night is Houston's working day, which means questions raised in an afternoon session can be worked on overnight.",
+        "Drawings, datasheets and inspection records come through a data room the owner controls, with access limited to the named study team; where an owner's rules keep certain documents on its own systems, the review runs by screen share. Workshops are held by video with operations, process, corrosion and inspection staff, item by item for the critical units and by corrosion loop elsewhere.",
+        "The study is built to need no travel. Anything that has to be seen, such as the state of insulation and cladding, the location of an injection point, the condition of a tank's annular plate or whether a dead leg still exists, goes on a written verification list that your inspectors or your inspection contractor work through, and their findings come back into the model before the plan is issued."
+      ]
+    },
+    {
+      "id": "sg-approval",
+      "h": "Approval, and what stays with the owner",
+      "p": [
+        "The intervals in the plan are proposals until the owner's inspector of record approves them, whether that is an API 510, 570 or 653 inspector or the operator's inspection authority. Registered pressure vessels keep the dates their Authorised Examiner works to. Atlantis prepares the study and recommends; it does not act as inspector of record and does not examine registered pressure vessels.",
+        "If inspection finds damage beyond what the construction code accepts, the next step is an engineering assessment by the owner's engineer, and the register is updated with its outcome. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Workplace Safety and Health (General Provisions) Regulations (pressure vessels)",
+    "Workplace Safety and Health (Major Hazard Installations) Regulations",
+    "Fire Safety (Petroleum and Flammable Materials) Regulations 2020"
+  ],
+  "deliverables": [
+    "RBI register with damage mechanisms, probability, consequence and risk for every item in scope",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Statutory item list with MOM examination dates, kept separate from the risk targets",
+    "Consequence ratings reconciled with the safety case release scenarios",
+    "CUI ranking and insulation removal plan",
+    "Data-gap log and verification list for the owner's inspectors",
+    "Reassessment triggers and the next review date"
+  ],
+  "industries": [
+    "Refining",
+    "Petrochemicals and chemicals",
+    "Independent tank terminals",
+    "Bunkering and product storage",
+    "Utilities serving process plants"
+  ],
+  "faqs": [
+    { "q": "Can RBI extend the examination of an MOM-registered pressure vessel?", "a": "Not on the basis of anything MOM publishes. The examination intervals for steam boilers, air and steam receivers and autoclaves come from the regulations, and the only extension MOM describes is one of up to three months, granted by an Authorised Examiner after assessing the equipment. The study keeps these items in the register as statutory and passes their damage mechanism basis to whoever examines them." },
+    { "q": "Is an RBI study required for a major hazard installation?", "a": "The regulations require a safety case that demonstrates risks are as low as reasonably practicable; they do not prescribe RBI as such. In practice an RBI programme is one of the clearest ways to show that inspection effort follows the risk of loss of containment, and its consequence ratings should agree with the release scenarios the safety case already describes, so the two documents support each other." },
+    { "q": "Does the SCDF storage licence set tank inspection intervals?", "a": "The licence covers the storage of petroleum and flammable materials, with conditions such as a register of materials, fire prevention and ventilation systems and a tested emergency response plan, and it runs for up to three years depending on risk. SCDF's licence information does not set tank inspection intervals. Those come from API 653 or the operator's tank standard, where a risk-based basis can be written in." },
+    { "q": "We have just taken over a site from another owner. Where should RBI start?", "a": "With the data you received. The study inventories the inherited registers, inspection reports and thickness history, grades how much of that history can be credited, rebuilds the damage mechanism basis under your procedure and logs what is missing. That gives you a defensible register to run the first turnaround on, and a short list of field checks that close the gaps that matter most." },
+    { "q": "How do you handle corrosion under insulation on a site this humid?", "a": "As a ranked population rather than line by line from scratch. Insulated items are screened by operating temperature, insulation and cladding condition, age, material and coating history, then grouped into risk bands, each with its own inspection approach: targeted insulation removal, screening techniques, or corrosion mapping on exposed areas. Insulated austenitic stainless lines are assessed separately for external chloride cracking." },
+    { "q": "Do you need to visit Jurong Island or Pulau Bukom?", "a": "The study is designed so that nobody has to travel. The engineering runs from documents and video workshops, and anything that needs eyes on the equipment is written into a verification list for your inspectors or your inspection contractor, with their results fed back into the risk assessment. Site access arrangements therefore stay entirely with you." },
+    { "q": "What hours do the workshops run?", "a": "Usually the Singapore late morning and afternoon, which is the Indian morning and early afternoon for the Hyderabad team. Sessions are kept short and organised by unit or corrosion loop, so operations staff can attend between other duties, and review work carries on from Houston through the Singapore night." },
+    { "q": "Who signs off the risk-based intervals?", "a": "Your inspector of record or inspection authority, under your mechanical integrity procedure. The study provides the basis for each interval, the inspection effectiveness credited and the reassessment triggers, so the person approving it can see how every result was reached. Registered pressure vessels keep the dates their Authorised Examiner sets, and the study does not alter them." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/malaysia", "RBI in Malaysia"],
+    ["/inspection/risk-based-inspection/china", "RBI in China"],
+    ["/inspection/risk-based-inspection/india", "RBI in India"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-581", "API 581 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "MOM periodic examination of pressure vessels: steam boilers yearly; air and steam receivers every 2 years; autoclaves; 10-yearly hydrostatic test and thickness gauging; external shell examination with insulation removed; examinations by an Authorised Examiner or MOM-authorised boiler inspector; intervals from the WSH (General Provisions) Regulations; reminders stopped from 5 August 2023", "url": "https://www.mom.gov.sg/maintenance/workplace-safety-and-health/pressure-vessels/regular-inspections" },
+    { "fact": "Authorised Examiners can extend a pressure vessel examination due date by up to 3 months, after assessing the equipment and issuing a report the owner keeps; no RBI route mentioned", "url": "https://www.mom.gov.sg/faq/pressure-vessels/can-i-extend-the-due-date-for-a-pressure-vessel-examination" },
+    { "fact": "WSH (Major Hazard Installations) Regulations: safety case regime is the core; covers petroleum refining, petrochemical manufacturing, chemical processing, installations storing or using large quantities of toxic and flammable substances above threshold quantities; MHIs must keep and maintain safety cases and demonstrate risks are ALARP; MOM Major Hazards Department", "url": "https://www.mom.gov.sg/workplace-safety-and-health/major-hazard-installations/safety-case-regime" },
+    { "fact": "SCDF P&FM storage licence issued by the HazMat Department Licensing Branch under the Fire Safety (P&FM) Regulations 2020; valid up to 3 years depending on risk; duties include register of materials, ventilation and fire prevention systems, emergency response plan with validation exercises; no tank inspection intervals stated", "url": "https://scdf.gov.sg/fire-safety-services-listing/petroleum-and-flammable-material-licences/p-fm-storage-licence" },
+    { "fact": "Singapore refineries: ExxonMobil (two sites on Jurong Island), Pulau Bukom refinery now owned by Aster Chemicals and Energy after Shell completed the sale of its Singapore refinery and Jurong Island assets to the Chandra Asri-Glencore JV in April 2025, Singapore Refining Company; SPC storage terminal on Pulau Sebarok", "url": "https://www.blackridgeresearch.com/blog/list-top-biggest-largest-oil-and-gas-companies-singapore" },
+    { "fact": "Aster expanding the Bukom refinery's capacity (December 2025)", "url": "https://www.hydrocarbonengineering.com/refining/10122025/aster-expands-bukom-refinery-capacity" },
+    { "fact": "Jurong Rock Caverns underground liquid hydrocarbon storage at Jurong Island (already on the site)", "url": "https://atlantisndt.com/digital-twin-jurong-island" }
+  ]
+}
