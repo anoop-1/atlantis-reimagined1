@@ -1,5 +1,5 @@
 {
-  "_note": "Maritime inspection port pages (owner request 2026-11-07; Europe expanded 2026-11-10, batch B; batch C 2026-11-12). One JSON per port in ./cities/{slug}.json. region: europe | middle-east | asia. Page path: /maritime/{slug}. Country pages (/maritime/{country}) exist for European countries with two or more ports.",
+  "_note": "Maritime inspection port pages (owner request 2026-11-07; Europe expanded 2026-11-10, batch B; batch C 2026-11-12; batch L 2026-11-23: Australia and New Zealand (region oceania), more China, Tuzla, Aliağa, İskenderun, Khor Fakkan). One JSON per port in ./cities/{slug}.json. region: europe | middle-east | asia. Page path: /maritime/{slug}. Country pages (/maritime/{country}) exist for European countries with two or more ports.",
   "cities": [
     ["rotterdam", "Rotterdam", "Netherlands", "europe", "A"],
     ["amsterdam", "Amsterdam", "Netherlands", "europe", "A"],
@@ -365,6 +365,28 @@
     ["shenzhen", "Shenzhen", "China", "asia", "K"],
     ["xiamen", "Xiamen", "China", "asia", "K"],
     ["hong-kong", "Hong Kong", "China", "asia", "K"],
-    ["singapore", "Singapore", "Singapore", "asia", "K"]
+    ["singapore", "Singapore", "Singapore", "asia", "K"],
+    ["sydney", "Sydney", "Australia", "oceania", "L"],
+    ["melbourne", "Melbourne", "Australia", "oceania", "L"],
+    ["brisbane", "Brisbane", "Australia", "oceania", "L"],
+    ["fremantle", "Fremantle", "Australia", "oceania", "L"],
+    ["newcastle-nsw", "Newcastle, NSW", "Australia", "oceania", "L"],
+    ["port-hedland", "Port Hedland", "Australia", "oceania", "L"],
+    ["dampier", "Dampier", "Australia", "oceania", "L"],
+    ["gladstone", "Gladstone", "Australia", "oceania", "L"],
+    ["darwin", "Darwin", "Australia", "oceania", "L"],
+    ["adelaide", "Adelaide", "Australia", "oceania", "L"],
+    ["auckland", "Auckland", "New Zealand", "oceania", "L"],
+    ["tauranga", "Tauranga", "New Zealand", "oceania", "L"],
+    ["wellington", "Wellington", "New Zealand", "oceania", "L"],
+    ["lyttelton", "Lyttelton", "New Zealand", "oceania", "L"],
+    ["nantong", "Nantong", "China", "asia", "L"],
+    ["yantai", "Yantai", "China", "asia", "L"],
+    ["lianyungang", "Lianyungang", "China", "asia", "L"],
+    ["rizhao", "Rizhao", "China", "asia", "L"],
+    ["tuzla", "Tuzla", "Turkey", "europe", "L"],
+    ["aliaga", "Aliağa", "Turkey", "europe", "L"],
+    ["iskenderun", "İskenderun", "Turkey", "europe", "L"],
+    ["khor-fakkan", "Khor Fakkan", "United Arab Emirates", "middle-east", "L"]
   ]
 }

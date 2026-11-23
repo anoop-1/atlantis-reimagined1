@@ -43,6 +43,11 @@ export const CLASS_APPROVAL_AUDITS = ['DNV', "Lloyd's Register", 'ABS'];
 
 /** [slug, label, card text, group, lucide icon]. Groups: survey | compliance | ndt | advanced. */
 export const SERVICE_DEFS = [
+  // 2026-11-23 (owner): services for ship owners, buyers, managers and charterers (CLAUDE.md §83).
+  ['comprehensive-vessel-inspection-programme', 'CVIP (Comprehensive Vessel Inspection Programme)', 'One owner-commissioned programme for the whole ship: hull and structure, thickness, piping, machinery condition and coatings, with one report the technical manager can act on.', 'owner', 'Ship'],
+  ['pre-purchase-inspection', 'Pre-Purchase Inspection', 'Condition inspection of a second-hand ship for the buyer before the deal closes: steel, tanks, machinery condition and records, reported in time for the negotiation.', 'owner', 'FileCheck'],
+  ['vessel-condition-survey', 'Vessel Condition Survey', 'Owner, charterer or financier condition assessment survey of a ship in service: structure, thickness, machinery and coatings, independent of the class survey cycle.', 'owner', 'ClipboardCheck'],
+  ['condition-monitoring', 'Condition Monitoring', 'Trending the ship between surveys: repeat thickness readings, thermography, vibration and noise measurements, and hull and coating condition tracking.', 'owner', 'Gauge'],
   ['ultrasonic-thickness-measurement', 'Ultrasonic Thickness Measurement (UTM)', 'Hull, tank, deck and bulkhead gauging recorded on the class thickness-measurement formats, with sketches and corrosion flagged against the allowable margins.', 'survey', 'Ruler'],
   ['special-survey-thickness-measurement', 'Special Survey Thickness Measurement', 'Gauging for the 5, 10, 15, 20 and 25-year special (renewal) surveys and intermediate surveys, plus pre-docking steel estimates.', 'survey', 'CalendarClock'],
   ['condition-assessment-scheme', 'CAS (Condition Assessment Scheme)', 'Thickness measurement and survey support for the IMO Condition Assessment Scheme, and what CAS asks of an older tanker today.', 'survey', 'ClipboardList'],
@@ -67,10 +72,10 @@ export const SERVICE_DEFS = [
   ['eddy-current-inspection', 'Eddy Current Inspection (ECT)', 'Surface crack detection through thin coatings on steel welds, and on aluminium and non-ferrous parts.', 'advanced', 'Gauge'],
   ['corrosion-mapping', 'Corrosion Mapping', 'Encoded UT C-scans of plating, tank tops and piping, so pitting and wastage are mapped rather than spot-read.', 'advanced', 'Map'],
 ];
-export const SERVICE_GROUPS = [['survey', 'Surveys and class work'], ['compliance', 'Compliance surveys'], ['ndt', 'Marine NDT'], ['advanced', 'Advanced NDT']];
+export const SERVICE_GROUPS = [['owner', 'Owner, buyer and charterer surveys'], ['survey', 'Surveys and class work'], ['compliance', 'Compliance surveys'], ['ndt', 'Marine NDT'], ['advanced', 'Advanced NDT']];
 export const SERVICES = SERVICE_DEFS.map(([slug, label, text]) => [slug, label, text]);
 export const SERVICE_SLUGS = SERVICES.map(([s]) => s);
-export const REGIONS = [['europe', 'Europe'], ['middle-east', 'Middle East & Egypt'], ['asia', 'China & Singapore']];
+export const REGIONS = [['europe', 'Europe'], ['middle-east', 'Middle East & Egypt'], ['asia', 'China & Singapore'], ['oceania', 'Australia & New Zealand']];
 export const REGION_SLUGS = REGIONS.map(([s]) => s);
 const REGION_NAME = Object.fromEntries(REGIONS);
 const SERVICE_LABEL = Object.fromEntries(SERVICES.map(([s, l]) => [s, l]));
@@ -106,7 +111,7 @@ const GROUP_INTRO = {
 /** Hubs (landing, regions, countries): survey and compliance services plus the two NDT overview pages. */
 const HUB_CARDS = SERVICE_DEFS.filter(([s, , , g]) => g === 'survey' || g === 'compliance' || s === 'marine-ndt-services' || s === 'advanced-ndt').map(card);
 /** Port pages: the ten services most ships calling at a European port ask for. */
-const CITY_CARD_SLUGS = ['ultrasonic-thickness-measurement', 'special-survey-thickness-measurement', 'condition-assessment-scheme', 'condition-assessment-programme', 'enhanced-survey-programme', 'hull-structural-integrity', 'ship-piping-inspection', 'scrubber-piping-inspection', 'inventory-of-hazardous-materials', 'marine-ndt-services'];
+const CITY_CARD_SLUGS = ['pre-purchase-inspection', 'vessel-condition-survey', 'ultrasonic-thickness-measurement', 'special-survey-thickness-measurement', 'condition-assessment-scheme', 'condition-assessment-programme', 'enhanced-survey-programme', 'hull-structural-integrity', 'ship-piping-inspection', 'scrubber-piping-inspection', 'inventory-of-hazardous-materials', 'marine-ndt-services'];
 const CITY_CARDS = CITY_CARD_SLUGS.map((s) => card(SERVICE_DEFS.find((d) => d[0] === s)));
 
 // ── Shared knowledge rendered on every city page (written once, varied by slug) ───────────────────
@@ -188,8 +193,44 @@ const STEPS_HATCH = [
   'Leak positions are marked on the cover for the crew or the yard and shown to the surveyor if one is attending.',
   'The report lists each cover and joint tested, the leak positions and readings, photographs and the equipment calibration.',
 ];
+// 2026-11-23 (owner, CLAUDE.md §83): owner, buyer and charterer services. Pre-purchase inspection works to the
+// buyer's timetable under the sale contract; a condition survey or condition monitoring visit works to the owner's.
+const STEPS_PPI = [
+  'Send the vessel name or IMO number, where and when she can be boarded, the buyer\'s scope (structure, tanks and holds, machinery condition, records), any time window in the sale terms, and who receives the report.',
+  'We agree the inspection plan with the buyer or the buyer\'s superintendent: which spaces can be entered with the seller\'s consent, which tanks need to be gas-free, what thickness readings and crack checks are wanted, and what cannot be opened up.',
+  'Mobilisation is planned around visa lead times and the ship\'s itinerary; boarding is arranged through the seller\'s agent or broker, and the ship provides access, lighting and the permits for any enclosed space we enter.',
+  'On board, the team records structure, coatings and corrosion by space, takes spot thickness readings and crack checks where access allows, takes machinery condition readings where the chief engineer runs the equipment, and photographs every finding against its location.',
+  'Findings that could move the negotiation, such as wastage near renewal limits, cracking or a machinery reading out of trend, are reported to the buyer the same day, before the team leaves the ship.',
+  'The report gives the condition of each space and system, the readings with their locations, photographs, a list of items that could not be inspected and why, and the points the buyer may want to raise with the seller or the class records.',
+];
+const STEPS_VCS = [
+  'Send the vessel name or IMO number, the purpose of the survey (owner\'s check, charter or financing, planning a docking, after an incident), the port and dates, and any earlier survey or thickness reports.',
+  'We set the scope with the technical manager: structure and tanks to enter, thickness readings and crack checks, machinery to measure, coatings to assess, and the format the report must follow for the charterer, financier or owner.',
+  'Mobilisation is planned around visa lead times and the vessel\'s schedule; the ship\'s agent arranges port access, and the ship arranges gas-free certificates, permits, lighting and the engineer who runs machinery for readings.',
+  'The survey is carried out space by space and system by system, with readings, crack checks, coating ratings and machinery measurements located on the drawings and photographed.',
+  'Anything that needs attention before the next voyage or survey is reported to the master and the technical manager before the team leaves the ship.',
+  'The report rates the condition of each area, compares readings with earlier reports where they exist, lists the defects and recommended actions by priority, and includes the photographs, sketches and calibration records.',
+];
+const STEPS_CMON = [
+  'Send the vessel name or IMO number, the equipment and areas to monitor (machinery for vibration, electrical and exhaust for thermography, hull and tank areas for thickness and coating), the port and dates, and any earlier readings.',
+  'We fix the measurement points with the chief engineer and the technical manager, so each later visit repeats exactly the same points, in the same operating condition, with the same settings.',
+  'Mobilisation is planned around visa lead times and the vessel\'s schedule, ideally at the same port call pattern each time; the ship\'s agent arranges port access and the ship runs the machinery at the agreed load.',
+  'Readings are taken at the fixed points with calibrated instruments: vibration on bearings and casings, thermal images under load, thickness at the marked locations, and coating condition photographed at the same positions.',
+  'A reading that has moved beyond the agreed alarm level, or a sharp change since the last visit, is reported to the chief engineer before the team leaves the ship.',
+  'The report trends every point against the earlier visits, flags the points that changed, gives the likely cause and the recommended action, and feeds the owner\'s planned maintenance system in the format agreed.',
+];
+const STEPS_CVIP = [
+  'Send the vessel name or IMO number, the fleet context (one ship or several), the next class survey and docking dates, the trading pattern, and what the owner wants from the programme.',
+  'We set the programme with the technical manager: a baseline inspection of hull, tanks, piping, closing appliances and machinery condition, then repeat visits timed to the survey cycle and the ship\'s port calls.',
+  'Each visit is mobilised from India around the vessel\'s schedule and visa lead times; the ship\'s agent arranges port access and the ship arranges permits, gas-free certificates and machinery running conditions.',
+  'At the baseline, thickness, crack detection, coating, thermography and vibration readings are taken at fixed, marked locations, so every later visit measures the same points.',
+  'Findings that need action before the next visit are reported to the technical manager the same day, with the location and the reading.',
+  'One programme report per visit shows the condition of the whole ship, the trend since the baseline, the work recommended before the next survey or docking, and the data the owner keeps for the life of the programme.',
+];
+const OWNER_STEPS = { 'pre-purchase-inspection': STEPS_PPI, 'vessel-condition-survey': STEPS_VCS, 'condition-monitoring': STEPS_CMON, 'comprehensive-vessel-inspection-programme': STEPS_CVIP };
 const NDT_SERVICES = new Set(['visual-inspection', 'magnetic-particle-inspection', 'dye-penetrant-inspection', 'ultrasonic-weld-inspection', 'phased-array-ultrasonic-testing', 'tofd-inspection', 'acfm-inspection', 'eddy-current-inspection', 'marine-ndt-services', 'advanced-ndt']);
 function stepsFor(service) {
+  if (OWNER_STEPS[service]) return OWNER_STEPS[service];
   if (service === 'corrosion-mapping') return STEPS_CM;
   if (service === 'infrared-thermography') return STEPS_IR;
   if (service === 'hatch-cover-ultrasonic-testing') return STEPS_HATCH;
@@ -457,10 +498,10 @@ export function buildMaritimeSection(cityList, records = {}, comboRows = []) {
       primaryHref: ENQUIRY, primaryLabel: 'Request a Quote',
       secondaryHref: TALK, secondaryLabel: 'Talk to an Inspector',
       bandTitle: 'Planning a survey or a drydock?',
-      bandText: 'Send the vessel name or IMO number, the class, the survey due and the port. We reply with the scope, the mobilisation plan and a quote for that vessel.',
+      bandText: 'Send the vessel name or IMO number, the class, the survey due and the port. We reply with the scope, the mobilisation plan and a quote for that vessel. You can also email info@atlantisndt.com.',
       formId: FORM_ID,
     },
-    areaServed: ['Europe', 'Middle East', 'Egypt', 'China', 'Singapore'],
+    areaServed: ['Europe', 'Middle East', 'Egypt', 'China', 'Singapore', 'Australia', 'New Zealand'],
   });
 }
 
