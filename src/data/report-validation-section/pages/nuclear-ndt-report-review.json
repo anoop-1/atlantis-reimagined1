@@ -1,0 +1,140 @@
+{
+  "title": "Nuclear NDT Report Review: Independent Technical Opinion",
+  "description": "Independent review of nuclear NDT reports and digital inspection data under ASME Section III and XI, written as an opinion for the licensee's QA organisation.",
+  "h1": "Independent review of nuclear NDT reports and inspection data",
+  "eyebrow": "Nuclear report review",
+  "intro": "Nuclear inspection records are written to be read again: by the licensee's engineers, by auditors, by the regulator and sometimes decades later by people who were never on site. When a licensee, a supplier to a plant, a Department of Energy contractor or an owner's engineer wants an independent technical reading of an NDT report or a set of digital inspection data, we review it against the code, the procedure and the program commitments it claims to meet. The result is a written opinion. The licensee's quality assurance organisation decides how that opinion is used, and the review itself is carried out remotely on the records you send.",
+  "highlights": [
+    { "h": "A technical opinion, not an approved supplier", "p": "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and the opinion does not pretend otherwise. It is offered as independent technical input that your QA organisation can accept, reject or treat as information under its own procedures." },
+    { "h": "Construction and inservice records kept apart", "p": "Section III construction records and Section XI inservice records answer to different rules, different personnel requirements and different acceptance standards. The review settles which regime governed each examination before it tests anything else." },
+    { "h": "Encoded data reopened", "p": "Where examinations produced encoded ultrasonic files, phased array scans or digital radiographic images, the reviewer opens them and compares coverage, sizing and recording decisions with what the summary report states." }
+  ],
+  "sections": [
+    {
+      "h": "Where an independent opinion fits in a nuclear quality program",
+      "p": [
+        "Every safety-related examination at a US commercial plant sits inside the licensee's quality assurance program, built on the eighteen criteria of 10 CFR 50 Appendix B. That program decides which suppliers may perform safety-related work, how their deliverables are accepted and how nonconformances are dispositioned. An outside review changes none of that. What it can add is a second, disinterested reading of a record by someone who has nothing riding on whether the record passes.",
+        "Licensees and their suppliers ask for that reading in a handful of situations, and most of them sit beside the safety-related supply chain rather than inside it. The list below is typical. If your situation is not on it, describe it at the enquiry and we will say plainly whether an opinion from a reviewer outside your approved supplier list is of any practical use to you."
+      ],
+      "list": [
+        "Non-safety-related and balance-of-plant scope, such as turbine, condensate, feedwater and service water systems, where the plant's commercial procedures govern acceptance",
+        "Vendor oversight: a second opinion on a supplier's examination report before the licensee or the prime contractor accepts it",
+        "Disagreements between a licensee and a contractor over whether an indication was correctly recorded, sized or dispositioned",
+        "Owner's engineering reviews of historic records during license renewal planning, major component replacement or decommissioning",
+        "Supplier self-checks, where a manufacturer wants an outside read of its own NDT package before the customer's source inspector sees it",
+        "Records at Department of Energy facilities, where the site contractor's own QA program sets the acceptance route"
+      ]
+    },
+    {
+      "h": "Codes and commitments behind nuclear NDT records",
+      "p": [
+        "The NRC's regulation at 10 CFR 50.55a incorporates ASME Section III and Section XI by reference, with conditions, and moves the accepted editions forward by rulemaking; a proposed rule published in February 2026 would add the 2023 editions of both. Each plant's inservice inspection program commits to a specific edition and addenda for its ten-year interval, together with approved code cases and relief requests. A reviewer who applies the newest edition to an examination performed under an older commitment will reach the wrong answer, so the program basis is the first document we ask for.",
+        "Ultrasonic examination under Section XI carries a requirement most other industries never meet: for many examinations, procedures, equipment and personnel must be qualified by performance demonstration under Mandatory Appendix VIII. In the United States that demonstration is administered for the industry through EPRI's Performance Demonstration Initiative. The review checks that the qualification records cited on a report cover the procedure, the component configuration and the examiner; it does not qualify anyone and it is no substitute for a demonstration."
+      ],
+      "table": {
+        "head": ["Record", "Governing documents", "What the reviewer establishes first"],
+        "rows": [
+          ["Fabrication and installation examinations of Class 1, 2 and 3 items", "ASME Section III with Section V methods, the construction specification and the owner's design documents", "The code edition in the construction records, the examination extent required for that joint and the acceptance standard cited"],
+          ["Preservice and inservice examinations", "ASME Section XI as committed in the plant's ISI program, conditioned by 10 CFR 50.55a", "Program edition, examination category and item number, and the prior results the new data must be compared with"],
+          ["Ultrasonic examinations that need performance demonstration", "Section XI Mandatory Appendix VIII and the qualification records issued for the procedure and the examiner", "That the qualified procedure matches the component, its essential variables and the person who acquired and analysed the data"],
+          ["Visual examinations VT-1, VT-2 and VT-3", "Section XI visual examination requirements and the plant's own procedures", "Examination type for the item, lighting and resolution demonstration, and how relevant conditions were recorded"],
+          ["Heat exchanger and steam generator tube data", "The licensee's tube inspection program, its analysis guidelines and site technique sheets", "Technique qualification for the damage mechanism, the guidelines in force and how disagreements between analysts were resolved"],
+          ["Non-safety-related plant equipment", "Construction codes such as B31.1 or Section VIII and the plant's commercial procedures", "Which procedure the plant actually invoked, since commercial scope is often written to the same codes used in industry generally"]
+        ]
+      }
+    },
+    {
+      "h": "Construction records versus inservice records",
+      "p": [
+        "A Section III record documents that an item was built to its design. It is usually examined once, often by radiography, magnetic particle or liquid penetrant testing, against fixed acceptance standards written into the construction code. The review concentrates on whether the examination extent matched what that joint required, whether the acceptance standard came from the right article and edition, and whether every repair was re-examined and recorded as such.",
+        "A Section XI record documents the condition of an item at one point in its service life, and it is meant to be compared with earlier and later examinations. Its value lies in repeatability. The reviewer checks whether the same reference points, scan limits and comparable sensitivity were used, whether a change from the preservice or previous examination was noticed and written down, and whether indications were sent for evaluation under the code's flaw acceptance rules rather than quietly left in the data.",
+        "Flaw evaluation itself is outside the review. When a recorded flaw exceeds the code's acceptance standards, the analytical evaluation that decides whether the component may remain in service belongs to the licensee's engineers and their analysis contractors. The opinion can tell those engineers whether the sizing and characterisation they are about to build on are supported by the data."
+      ]
+    },
+    {
+      "h": "The checks that matter most on a nuclear report",
+      "p": [
+        "The seven checks run on every review, but on nuclear records they take a sharper form, because the program around the examination is far more prescriptive than in most industries. The table shows where each one bites."
+      ],
+      "table": {
+        "head": ["Check", "On a nuclear record it means", "Gap the reviewer looks for"],
+        "rows": [
+          ["Procedure", "The examination procedure revision cited, its qualification status and any technique sheet issued for the specific component", "A technique sheet edited in the field without the change appearing in the procedure's revision record"],
+          ["Personnel", "Certification under the employer's written practice and Appendix VIII qualification where it applies", "An analyst who signed the evaluation but whose demonstration covers a different configuration or material"],
+          ["Equipment and calibration", "Instrument, search unit and cable identification, calibration block serial numbers and calibration checks at the intervals the procedure sets", "No closing calibration check at the end of a scan sequence, so the scans after the last good check cannot be shown valid"],
+          ["Coverage", "The examination volume the code requires, the portion actually scanned and the reason any portion was not", "Limited coverage recorded without a reason or without the relief request path the program requires"],
+          ["Recording and evaluation", "The recording level used, every indication above it and the disposition of each", "Indications visible in the data file that never reached the report"],
+          ["Comparison with history", "Reference to preservice and previous inservice results for the same item", "A new indication described as unchanged because nobody reopened the earlier data"],
+          ["Traceability", "Weld and component identification tied to the examination drawing, with signatures, dates and data file names", "File names that cannot be matched to item numbers in the inspection program"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data in nuclear examinations",
+      "p": [
+        "Much of the nuclear examination record now lives in digital inspection data rather than in the signed summary. Encoded manual and automated ultrasonic scans, phased array files, digital radiographs from construction and replacement projects, and tube inspection data are acquired with one software version, analysed with another and archived for the life of the plant. A summary page that reads well can rest on a file nobody fully analysed.",
+        "When files are available, the reviewer opens them in software that can read the format, confirms that the acquisition setup matches the qualified procedure, checks that gates, display settings and sizing cursors reproduce the numbers in the report, and compares scan extent with the drawing. Where the original acquisition software is needed to rebuild a measurement, the opinion records whether that was possible, because a record that can no longer be reopened is a record whose sizing can no longer be tested.",
+        "Digital reporting raises questions of its own. Electronic signatures should be attributable to a qualified person and protected from later edits, revisions should be visible, and the export sent to the licensee should contain every page and attachment the controlled record holds. Those are the questions a QA organisation asks of any electronic quality record; the review answers them for the NDT portion."
+      ]
+    },
+    {
+      "h": "Who reviews the methods involved",
+      "p": [
+        "Members of the review team have worked in nuclear, maritime, oil and gas and petrochemical settings, so they read a nuclear record knowing how it will be audited later. For ultrasonic, radiographic, magnetic particle, penetrant and visual examinations the review is directed by an ASNT NDT Level III holding certification in each of those five methods.",
+        "Two limits apply. An ASNT Level III certificate is not an Appendix VIII performance demonstration qualification, and the opinion never implies otherwise; it reports on the qualification records of the people who did the work. Separately, eddy current data from steam generator or heat exchanger tubing needs a reviewer certified in eddy current, and where your contract or procedure names a particular certification, the proposal names a reviewer who holds it before any data are sent."
+      ]
+    },
+    {
+      "h": "Restricted records and controlled information",
+      "p": [
+        "Nuclear records sometimes carry restrictions unrelated to their technical content. Safeguards Information, export-controlled technical data and vendor proprietary data held under a non-disclosure agreement each come with handling rules, and those rules travel with the record. Tell us at the enquiry if any part of the package is restricted. Restricted material is left out of the transfer unless your own procedures permit it to be shared, and the opinion lists what was withheld so its scope is never overstated.",
+        "Unrestricted records move through a secure file transfer, and the reviewer works only from what was sent. If a finding depends on a document you cannot release, the opinion says so and describes what that document would need to show."
+      ]
+    },
+    {
+      "h": "How the opinion is written for a QA organisation",
+      "p": [
+        "A QA organisation reading an outside opinion wants to know exactly what was reviewed, against what and by whom, so the opinion opens there: the documents received with their revisions, the code edition and program basis applied, and the methods the reviewer covered. Findings follow, each tied to the clause, procedure step or program requirement it rests on, with the evidence behind it.",
+        "The verdict uses the same three outcomes as every review: sound, deficient in documentation only, or deficient in disposition. The opinion stops there. It does not disposition a nonconformance, open a condition report or decide reportability; those steps belong to the licensee's corrective action program, which can use the opinion as an input or set it aside.",
+        "Facilities run for the Department of Energy work under the department's quality assurance order and each site contractor's QA program, which may invoke NQA-1, ASME codes or site standards in different combinations. The same framing applies there. Records from tanks, piping and structures at these sites often mix construction-era documentation with modern digital inspection data, and the opinion is explicit about which part of the record each finding concerns."
+      ]
+    },
+    {
+      "h": "What a nuclear review does not cover",
+      "p": [
+        "Stating the limits up front keeps the opinion usable inside a regulated program, where an overstated scope does more harm than a narrow one."
+      ],
+      "list": [
+        "Atlantis does not act as an Authorized Nuclear Inspector or as inspector of record; those roles stay with the people the code and the plant's program name",
+        "The review is not supplied as safety-related work under an Appendix B program, and it does not stand in for the licensee's own acceptance of a supplier's deliverable",
+        "It does not evaluate flaws, calculate remaining life or perform any fitness-for-service assessment; that analysis stays with the licensee's engineers",
+        "It does not qualify procedures or personnel by performance demonstration, and it does not certify NDT personnel",
+        "Industrial radiography in the United States is not performed by Atlantis; reviewing radiographs and digital images produced by the licensee's contractor is a document review and is offered",
+        "No experience at any particular plant is claimed, and plants are described only as the records describe them"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can a nuclear licensee use your review under its Appendix B program?", "a": "That is the licensee's decision. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list, so the opinion is offered as independent technical input. Some QA organisations treat such input as information supporting their own acceptance or dispute process; others use it for non-safety-related scope alone." },
+    { "q": "Do you review Section XI ultrasonic data that required performance demonstration?", "a": "We review the record: whether the qualified procedure, equipment and examiner cited on the report match the examination, and whether the data support the reported results. The review does not perform or replace an Appendix VIII demonstration, and the reviewer's ASNT certification is not a demonstration qualification." },
+    { "q": "Can you review steam generator or heat exchanger tube eddy current data?", "a": "Yes, when the proposal names a reviewer holding the eddy current certification your contract or procedure requires. That review covers technique sheets, calibration standards, the analysis guidelines in force, resolution between primary and secondary analysis, and whether the reported calls follow from the data." },
+    { "q": "Which code edition do you apply to an older inservice record?", "a": "The edition and addenda the plant's inservice inspection program committed to for that interval, as conditioned by 10 CFR 50.55a, together with any code cases and relief requests that applied. We ask for the program basis document before the review begins." },
+    { "q": "Is the review done at the plant?", "a": "No. It is carried out remotely from the records and digital inspection data you transfer securely, so plant access, badging and dosimetry never arise. Restricted material is handled under your own rules and may be withheld, in which case the opinion records what was not seen." },
+    { "q": "Will you tell us whether a flaw is acceptable for continued service?", "a": "The review tells you whether the detection, sizing and characterisation in the record are supported by the data and whether the right acceptance standard was applied. The evaluation that decides continued service when a flaw exceeds those standards stays with your engineers." },
+    { "q": "Do you review records from Department of Energy facilities?", "a": "Yes, on the same basis as commercial plants: an independent technical opinion that the site contractor's QA organisation decides how to use within its own program." },
+    { "q": "How do we request a nuclear report review?", "a": "Send a short description of the records, the program basis and the decision the review supports, using the form on this page or info@atlantisndt.com. We reply within one business day with the scope and a quote, and with any questions about restricted material." }
+  ],
+  "related": [
+    ["/nuclear-ndt-services", "Nuclear NDT services"],
+    ["/consulting/nuclear-ndt-consulting", "Nuclear NDT consulting"],
+    ["/compliance/10-cfr-50-appendix-b", "10 CFR 50 Appendix B explained"],
+    ["/standards/asme-section-xi", "ASME Section XI explained"],
+    ["/report-validation/inspection-records-in-dispute-and-litigation", "Inspection records in a dispute"]
+  ],
+  "sources": [
+    "https://www.govinfo.gov/content/pkg/FR-2026-02-27/html/2026-03993.htm",
+    "https://inspectioneering.com/journal/2012-01-01/10/epri-performance-demonstration",
+    "https://www.energy.gov/documents/quality-assurance",
+    "https://world-nuclear.org/images/articles/WNA%20CORDEL%20CSTF%20Report%20-%20Certification%20of%20NDE%20Personnel%20-%20Harmonization%20of%20International%20Code%20Requirements%20(2).pdf"
+  ]
+}
