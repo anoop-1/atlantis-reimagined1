@@ -3,7 +3,7 @@
   "description": "Independent NDT report review for Chicagoland: refinery turnaround data, nuclear vendor records, power plant tube data and bridge weld UT, carried out remotely.",
   "h1": "Chicago-area NDT report validation for refineries, nuclear stations, power plants and steel structures",
   "eyebrow": "Report validation: Chicago and northern Illinois",
-  "intro": "Northern Illinois runs the largest nuclear fleet of any state, a major refinery in Will County, gas and coal-fired plants, and some of the most heavily used steel bridges and structures in the country, all inside one metropolitan economy. The inspection records they generate are read by plant inspection groups, utility engineers, bridge owners, insurers and lawyers, and each reader needs to know whether the report can carry the decision in front of them. We review Chicago-area NDT reports and the digital inspection data behind them independently, against the procedure and code that governed the work, and we do it remotely from the files you send.",
+  "intro": "Northern Illinois combines nuclear stations, a major refinery in Will County, gas and coal-fired power plants, and a dense stock of steel bridges, viaducts and buildings, all inside one metropolitan economy. The inspection records they generate are read by plant inspection groups, utility engineers, bridge owners, insurers and lawyers, and each reader needs to know whether the report can carry the decision in front of them. We review Chicago-area NDT reports and the digital inspection data behind them independently, against the procedure and code that governed the work, and we do it remotely from the files you send.",
   "highlights": [
     {
       "h": "City and state rules kept apart",
@@ -37,7 +37,7 @@
     {
       "h": "Nuclear stations southwest of the city and NRC Region III",
       "p": [
-        "Constellation operates six nuclear stations in Illinois: Braidwood, Byron, Clinton, Dresden, LaSalle and Quad Cities, with Braidwood, Dresden and LaSalle in the counties southwest of Chicago. The NRC carries out its duties in Illinois through Region III, whose regional office is in the Chicago suburbs. Around the fleet sits a supply chain of fabricators, valve and pump shops and service contractors whose examination records end up in procurement packages and outage documentation.",
+        "Constellation operates six nuclear stations in Illinois: Braidwood, Byron, Clinton, Dresden, LaSalle and Quad Cities, with Braidwood, Dresden and LaSalle in the counties southwest of Chicago. The NRC carries out its duties in Illinois through Region III, the regional office it lists for the Chicago area. Around the fleet sits a supply chain of fabricators, valve and pump shops and service contractors whose examination records end up in procurement packages and outage documentation.",
         "We are not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and nothing on this page should be read as a claim to be. What a licensee, a vendor or their counsel can get from us is an independent technical opinion, which the licensee's QA organisation then decides how to use. Requests of that kind usually concern non-safety-related scope, a vendor's records before a component ships, a disagreement between the plant's reviewers and a contractor's interpretation, or the technical facts in a commercial dispute.",
         "Steam generator and heat exchanger eddy current data is often part of a nuclear package. Our Level III is not certified in eddy current, so for that data the proposal names a reviewer holding the certification the licensee's programme or the contract requires."
       ]
@@ -60,7 +60,7 @@
     {
       "h": "Movable bridges, viaducts and high-rise steel",
       "p": [
-        "The Chicago Department of Transportation looks after one of the largest collections of movable bridges in any city, many of them bascule bridges over the Chicago River, and has prepared a preservation plan for the historic ones. Rehabilitation of those structures, of viaducts and of the state's highway bridges produces weld inspection records to AASHTO/AWS D1.5, while building steel and industrial structures are examined to AWS D1.1.",
+        "The Chicago Department of Transportation is responsible for more than 300 bridge and viaduct structures, including 37 operable movable bridges along the Chicago and Calumet Rivers, and works under a signed preservation agreement covering the movable spans. Rehabilitation of those structures, of viaducts and of the state's highway bridges produces weld inspection records to AASHTO/AWS D1.5, while building steel and industrial structures are examined to AWS D1.1.",
         "Bridge ultrasonics carries a specific technical question. The Federal Highway Administration's December 2024 memorandum, based on NCHRP research, warns that some modern plate carries sound at a different velocity from the calibration block and can be acoustically anisotropic, which can mislocate indications or weaken the reflected signal. It recommends contract special provisions requiring velocity measurements and limiting search angles. Where a Chicago-area contract includes them, the review checks that the report records the measurements and respects the limits; where it does not, the opinion notes whether the plate type makes the question relevant.",
         "For building and industrial steel, the review typically examines ultrasonic reports on complete joint penetration welds in moment connections and magnetic particle reports on fillet welds and repairs. Common findings include calibration blocks that are not identified, scanning patterns that miss part of the weld, and discontinuities recorded without the length and location needed to judge them against the code's acceptance table."
       ]
@@ -145,7 +145,6 @@
     "https://corporate.exxonmobil.com/-/media/global/files/locations/united-states-operations/exxonmobil-joliet-2026-fact-sheet.pdf",
     "https://www.constellationenergy.com/content/dam/constellationenergy/landing-pages/public-policy/fact-sheets/Constellation_IL_Factsheet.pdf",
     "https://www.nrc.gov/info-finder/region-state/illinois.html",
-    "https://www.nrc.gov/about-nrc/organization/riiifuncdesc",
     "https://www.ilga.gov/ftp/JCAR/AdminCode/032/032004050000400R.html",
     "https://chicago.gov/city/en/depts/cdot/provdrs/bridge/supp_info/cmbp.html",
     "https://www.fhwa.dot.gov/bridge/inspection/Memo_Dec2024_Acoustic_Dissimilarities_Steel_Ultrasonic_Weld_Inspection.pdf",
